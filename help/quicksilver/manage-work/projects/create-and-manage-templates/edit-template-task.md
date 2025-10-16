@@ -7,9 +7,9 @@ description: テンプレートを作成した後、テンプレートタスク�
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2498'
 ht-degree: 85%
 
 ---
@@ -28,26 +28,25 @@ ht-degree: 85%
 >
 >異なるテンプレートに属するテンプレートタスクは、一括編集できません。同じテンプレートに属するテンプレートタスクのみ編集できます。
 
-
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>標準 </p>
-   <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>プラン </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>テンプレートへの編集アクセス</p>  </td> 
   </tr> 
   <tr> 
@@ -57,9 +56,35 @@ ht-degree: 85%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions </td> 
+   <td> <p>Manage permissions for a template. </p> <p>You cannot share a template task. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 前提条件
 
@@ -78,12 +103,12 @@ ht-degree: 85%
 1. テンプレートの名前をクリックして開きます。
 1. 左パネルの「**テンプレートタスク**」をクリックします。
 1. リスト内のテンプレートタスクの名前をクリックして、テンプレートタスクを開きます。
-1. （任意）左側のパネルで「**先行タスク**」セクションをクリックして、テンプレートタスクの先行タスクを追加します。 テンプレートタスク先行タスクの追加は、プロジェクトタスク先行タスクの追加と似ています。 詳しくは、[&#x200B; 先行タスクエリアを使用した先行タスク関係の作成 &#x200B;](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md) を参照してください。
-1. （任意）左側のパネルで「**サブタスク**」セクションをクリックして、テンプレートタスクの子を追加します。 テンプレートタスクのサブタスクの追加は、プロジェクトタスクのサブタスクの追加と似ています。 詳しくは、「サブタスクの作成」の「タスクサブタスクからサブタスクを作成する [&#x200B; 節を参照してくだ &#x200B;](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) い。
+1. （任意）左側のパネルで「**先行タスク**」セクションをクリックして、テンプレートタスクの先行タスクを追加します。 テンプレートタスク先行タスクの追加は、プロジェクトタスク先行タスクの追加と似ています。 詳しくは、[ 先行タスクエリアを使用した先行タスク関係の作成 ](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md) を参照してください。
+1. （任意）左側のパネルで「**サブタスク**」セクションをクリックして、テンプレートタスクの子を追加します。 テンプレートタスクのサブタスクの追加は、プロジェクトタスクのサブタスクの追加と似ています。 詳しくは、「サブタスクの作成」の「タスクサブタスクからサブタスクを作成する [ 節を参照してくだ ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) い。
 
 1. （条件付き）テンプレートタスクに関する限られた情報を編集するには、左パネルで「**テンプレートタスクの詳細**」をクリックし、詳細セクションのエリアに移動して、それぞれのエリアの情報を編集します。
-1. （任意） **すべて折りたたむ** アイコン ![&#x200B; すべて折りたたむアイコン &#x200B;](assets/collapse-all-icon.png) をクリックすると、すべての領域が折りたたまれます。
-1. 「詳細」セクションの情報を編集するには、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックして、以下の任意の領域から選択するか、**すべて編集** をクリックして、すべての領域の情報を編集します。
+1. （任意） **すべて折りたたむ** アイコン ![ すべて折りたたむアイコン ](assets/collapse-all-icon.png) をクリックすると、すべての領域が折りたたまれます。
+1. 「詳細」セクションの情報を編集するには、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックして、以下の任意の領域から選択するか、**すべて編集** をクリックして、すべての領域の情報を編集します。
 
    * 概要
    * カスタムフォーム
@@ -96,7 +121,7 @@ ht-degree: 85%
    >
    >「詳細」領域に表示されるすべてのフィールドについて詳しくは、以下に説明するように、「テンプレートタスクを編集」ボックスを使用してすべてのフィールドを引き続き編集します。
 1. （オプション）複数のテンプレートタスクを一括編集するには、複数のテンプレートタスクを選択して、テンプレートリストの上部にある「**編集**」をクリックします。
-1. （条件付き）テンプレートタスクに関するすべての情報、または複数のタスクに関するすべての情報を同時に編集するには、リストからタスクをクリックして選択し、リストの上部にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. （条件付き）テンプレートタスクに関するすべての情報、または複数のタスクに関するすべての情報を同時に編集するには、リストからタスクをクリックして選択し、リストの上部にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    「**テンプレートタスクの編集**」ボックスが表示されます。
 
@@ -104,7 +129,7 @@ ht-degree: 85%
    >
    >リスト内のテンプレート タスクを選択し、「編集」をクリックして「テンプレートタスクの編集」ボックスを開くこともできます。
 
-   ![&#x200B; テンプレートタスクを編集 &#x200B;](assets/edit-template-tasks-box-classic-350x356.png)
+   ![ テンプレートタスクを編集 ](assets/edit-template-tasks-box-classic-350x356.png)
 
 1. 次のセクションのいずれかに情報を指定することを検討してください。
 
@@ -268,7 +293,7 @@ ht-degree: 85%
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. 「**設定**」をクリックします。
 
-   ![&#x200B; テンプレート タスク設定の編集 &#x200B;](assets/edit-template-tasks-settings-classic-350x231.png)
+   ![ テンプレート タスク設定の編集 ](assets/edit-template-tasks-settings-classic-350x231.png)
 
 1. 次のいずれかを更新します。
 
@@ -349,7 +374,7 @@ ht-degree: 85%
 
 ### カスタムフォーム {#custom-forms}
 
-タスクがプロジェクトに追加された際に、デフォルトでタスクに自動的に添付されるカスタムフォームを定義できます。 既定のタスクのカスタム フォームを含めるためのプロジェクトの設定については、「プロジェクトの編集 [&#x200B; の [ タスク ] セクションを参照し &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) ください。
+タスクがプロジェクトに追加された際に、デフォルトでタスクに自動的に添付されるカスタムフォームを定義できます。 既定のタスクのカスタム フォームを含めるためのプロジェクトの設定については、「プロジェクトの編集 [ の [ タスク ] セクションを参照し ](../../../manage-work/projects/manage-projects/edit-projects.md) ください。
 
 また、カスタムフォームをテンプレートタスクに追加することで、テンプレートからプロジェクトを作成する際に、プロジェクトの今後のタスクにカスタムフォームを追加することもできます。
 
@@ -362,7 +387,7 @@ ht-degree: 85%
 
    このフィールドで選択できるカスタムフォームを作成する必要があります。
 アクティブなカスタムフォームのみがリストに表示されます。
-カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 テンプレートタスクには最大 10 個のカスタムフォームを追加できます。
 フォームは、テンプレートから作成されたタスクに自動的に追加されます。
 1. （条件付きおよびオプション）テンプレートタスクにカスタム フォームを添付した場合は、フォーム上のフィールドを編集します。テンプレートタスクを保存する前に、すべての必須フィールドを指定する必要があります。

@@ -6,10 +6,10 @@ description: プロジェクトマネージャーは、特定のプロジェク�
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 4b2bf1205951de13cb09d31f54f890a74bdf7d98
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 89%
+source-wordcount: '875'
+ht-degree: 88%
 
 ---
 
@@ -33,35 +33,32 @@ ht-degree: 89%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td> 
+   <p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>プロジェクトおよび財務データへのアクセスを編集する</p> <p>担当業務の管理アクセス</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td>財務データの編集を含むプロジェクトに対する権限の管理 </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -106,10 +103,10 @@ ht-degree: 89%
    * **終了日**：新規請求料金の上書きが終了する日付です。
 
    <span class="preview"> プレビュー環境のサンプル画像：</span>
-   ![&#x200B; 請求料率と上書き日 &#x200B;](assets/billing-rates-093025.png)
+   ![ 請求料率と上書き日 ](assets/billing-rates-093025.png)
 
-   実稼動環境のサンプル画像：
-   ![&#x200B; 請求料率と上書き日 &#x200B;](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   本番環境のサンプル画像：
+   ![ 請求料率と上書き日 ](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
 1. 選択した日付のタイムゾーンが「新規請求料金」ボックスの下部に表示されます。設定の顧客情報エリアに表示されるように、Workfront インスタンスに関連付けられたタイムゾーンです。詳しくは、[システムの基本情報を設定](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
 1. Workfront は、プロジェクトの収益を計算するときに、指定された期間に発生する時間に上書きの担当業務料金を適用します。

@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 53%
+source-wordcount: '1193'
+ht-degree: 52%
 
 ---
 
@@ -24,31 +24,27 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-   <p> 新規：標準</p>
-   または
-   <p>現在：プラン</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>アクセスレベル設定</td> 
+   <td>システム管理者</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -178,29 +174,29 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    会社が既にシステム内にない場合は、空にする必要があります。
 
-   ![&#x200B; 会社シート &#x200B;](assets/cmpysheet-350x16.png)![&#x200B; 会社 ID](assets/companyid--1--350x78.png)
+   ![ 会社シート ](assets/cmpysheet-350x16.png)![ 会社 ID](assets/companyid--1--350x78.png)
 
 1. **isNew** 列に **TRUE** と入力します。
 
    追加される会社ごとに、このアクションを繰り返します。（この例では、4 つの会社が追加されているので、3～6 行目でこのアクションを実行します）。
 
-   ![&#x200B; 会社が新しくなりました &#x200B;](assets/cmpyisnew-350x86.png)
+   ![ 会社が新しくなりました ](assets/cmpyisnew-350x86.png)
 
 1. 一意の **ID** を入力します。
 
    各行に ID を入力する必要があります。 1 で始まる整数は、新しいレコードを作成する際に適切に機能します。
 
-   ![&#x200B; 会社が新しくなりました &#x200B;](assets/cmpyisnew-350x86.png)
+   ![ 会社が新しくなりました ](assets/cmpyisnew-350x86.png)
 
 1. **setName** 列に各顧客の名前を入力します。
 
-   ![&#x200B; 会社 ID](assets/companyid-350x78.png)
+   ![ 会社 ID](assets/companyid-350x78.png)
 
 1. **グループ グループ** シートに移動します。
 
    Workfront で既にグループを作成している場合を除き、このシートには、Workfront のすべてのアカウントでプロビジョニングされたデフォルトグループのみが表示されます。
 
-   ![&#x200B; グループシート &#x200B;](assets/groupsheet-350x15.png)![&#x200B; 空のグループシート &#x200B;](assets/emptygroupsheet-350x85.png)
+   ![ グループシート ](assets/groupsheet-350x15.png)![ 空のグループシート ](assets/emptygroupsheet-350x85.png)
 
 1. **isNew** 列に **TRUE** と入力します。
 
@@ -210,17 +206,17 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    各行に ID を入力する必要があります。 1 で始まる整数は、新しいレコードを作成する際に適切に機能します。
 
-   ![&#x200B; グループ ID](assets/groupids-350x85.png)
+   ![ グループ ID](assets/groupids-350x85.png)
 
 1. **setName** 列に各部門の名前を入力します。
 
-   ![&#x200B; グループ名 &#x200B;](assets/groupnames-350x85.png)
+   ![ グループ名 ](assets/groupnames-350x85.png)
 
 1. **役割** シートに移動します。
 
    アカウントで既に役割を作成または削除している場合を除き、このシートには、Workfront のすべてのアカウントでプロビジョニングされた 8 つの役割が表示されます。
 
-   ![&#x200B; グループ名 &#x200B;](assets/groupnames-350x85.png)
+   ![ グループ名 ](assets/groupnames-350x85.png)
 
 1. **isNew** 列に **TRUE** と入力します。
 
@@ -246,27 +242,27 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    アカウントで既にユーザーを作成している場合を除き、このシートには、Workfront のすべてのアカウントでプロビジョニングされた管理者ユーザーのみが表示されます。
 
-   ![&#x200B; ユーザーシート &#x200B;](assets/usersheet-350x16.png)![&#x200B; 空のユーザーシート &#x200B;](assets/emptyusersheet-350x52.png)
+   ![ ユーザーシート ](assets/usersheet-350x16.png)![ 空のユーザーシート ](assets/emptyusersheet-350x52.png)
 
 1. **isNew** 列に **TRUE** と入力します。
 
    シナリオに従って 6 人のユーザーがインポートされるので、行 4 ～ 9 の **isNew** 列に **TRUE** と入力します。
 
-   ![&#x200B; 新規ユーザー &#x200B;](assets/userisnew-350x52.png)
+   ![ 新規ユーザー ](assets/userisnew-350x52.png)
 
 1. 一意の **ID** を入力します。
 
    各行に ID を入力する必要があります。 1 で始まる整数は、新しいレコードを作成する際に適切に機能します。
 
-   ![&#x200B; 新規ユーザー &#x200B;](assets/userisnew-350x52.png)
+   ![ 新規ユーザー ](assets/userisnew-350x52.png)
 
 1. **setFirstName** 列と **setLastName** 列に各ユーザーの名前を入力します。
 
-   ![&#x200B; ユーザー名 &#x200B;](assets/usernames-350x52.png)
+   ![ ユーザー名 ](assets/usernames-350x52.png)
 
 1. **setEmail**、**setPassword**、および **setUsername** 列に値を入力して、詳細な値を設定します。
 
-   ![&#x200B; ユーザー資格情報 &#x200B;](assets/usercredentials-350x52.png)
+   ![ ユーザー資格情報 ](assets/usercredentials-350x52.png)
 
 1. アクセスレベルの値を指定します。
 
@@ -274,13 +270,13 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    ユーザーおよびアクセスレベルごとに、この手順を繰り返します。
 
-   ![&#x200B; アクセス レベル ID をコピー &#x200B;](assets/copyalid-350x171.png)![&#x200B; アクセス レベル ID を貼り付け &#x200B;](assets/pastealid-350x59.png)
+   ![ アクセス レベル ID をコピー ](assets/copyalid-350x171.png)![ アクセス レベル ID を貼り付け ](assets/pastealid-350x59.png)
 
 1. ユーザーのホームグループの詳細を入力します。
 
    シナリオによると、Chris Manning はマーケティンググループに所属しています。「**GROUP Group**」シートでマーケティンググループの ID を探してコピーし、「**USER User**」シートでユーザー行の「**setHomeGroupID**」列に貼り付けます。&#x200B;ユーザーとグループの割り当てごとに、この手順を繰り返します。
 
-   ![&#x200B; グループ ID をコピー &#x200B;](assets/copygroupid-1-350x133.png)![&#x200B; グループ ID を貼り付け &#x200B;](assets/pastegroupid-350x59.png)
+   ![ グループ ID をコピー ](assets/copygroupid-1-350x133.png)![ グループ ID を貼り付け ](assets/pastegroupid-350x59.png)
 
 1. ユーザーの会社の詳細を入力します。
 
@@ -288,13 +284,13 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    ユーザーとグループの割り当てごとに、この手順を繰り返します。
 
-   ![&#x200B; 会社 ID](assets/companyid--1--350x78.png)![&#x200B; 会社 ID を貼り付け &#x200B;](assets/pastecompanyid-350x84.png)
+   ![ 会社 ID](assets/companyid--1--350x78.png)![ 会社 ID を貼り付け ](assets/pastecompanyid-350x84.png)
 
 1. ユーザーの担当業務の詳細を入力します。
 
    シナリオによると、Chris Manning にはビジネスアナリストの役割があります。**ROLE Role** シートで Business Analyst ロールの ID を探してコピーし、「**USER User** シートでユーザーの行の **setRoleID** 列に貼り付けます。&#x200B;ユーザーとグループの割り当てごとに、この手順を繰り返します。
 
-   ![&#x200B; 役割 ID をコピー &#x200B;](assets/copyroleid-350x149.png)![&#x200B; 役割 ID を貼り付け &#x200B;](assets/pasteroleid-350x95.png)
+   ![ 役割 ID をコピー ](assets/copyroleid-350x149.png)![ 役割 ID を貼り付け ](assets/pasteroleid-350x95.png)
 
 1. 必要に応じて、その他のユーザーの詳細を入力し、ファイルを保存します。
 1. Excel ファイルを読み込みます。

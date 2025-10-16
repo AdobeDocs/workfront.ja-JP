@@ -3,19 +3,19 @@ product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
 title: 時間単位または日単位で時間を記録するよう設定
 description: プランライセンスを持つユーザーは、Adobe Workfront で時間を時間数と日数のどちらで記録するかを設定できます。システム管理者は、個々のユーザーに対して、または組織内の複数のユーザーに対して、この設定を指定できます。デフォルトでは、ユーザーは時間単位で記録します。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
+source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 95%
+source-wordcount: '457'
+ht-degree: 72%
 
 ---
 
 # 時間単位または日単位で時間を記録するよう設定
 
-プランナーライセンスを持つユーザーは、Adobe Workfront で時間を時間数と日数のどちらで記録するかを設定できます。システム管理者は、個々のユーザーに対して、または組織内の複数のユーザーに対して、この設定を指定できます。デフォルトでは、ユーザーは時間単位で記録します。Workfront で時間を記録する方法について詳しくは、[時間を記録](../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。
+Standard ライセンスまたは Plan ライセンスを持つユーザーは、Adobe Workfrontに時間を数時間または数日のどちらでログインするかを設定できます。 システム管理者は、個々のユーザーに対して、または組織内の複数のユーザーに対して、この設定を指定できます。デフォルトでは、ユーザーは時間単位で記録します。Workfrontに時間をログ記録する方法について詳しくは、[ 時間をログに記録 ](../../timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
 
 >[!NOTE]
 >
@@ -23,42 +23,43 @@ ht-degree: 95%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>任意</p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td>
+   <p>標準</p>
+   <p>プラン</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プランナーは、自分で時間を設定できます。他のユーザーの時間を設定できるのは、Workfront 管理者のみです。</p> </td> 
+  <tr> 
+   <td>アクセスレベル設定</td> 
+   <td><p>標準およびプランのユーザーは、自分で時間を設定できます。 他のユーザーの時間を設定できるのは、Workfront 管理者のみです。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 1. 目的と、システムでのアクセスレベルに応じて、次のいずれかの操作を行います。
 
-   * **プランナーユーザーが自分用に時間の記録方法を設定：** Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、プロフィール画像の横にあるユーザー名をクリックします。次に、名前の横にある&#x200B;**その他**&#x200B;アイコンをクリックし、「**編集**」を選択します。
+   * **標準ユーザーまたはプランユーザーが自分の時間ログを設定：** Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](assets/main-menu-icon.png) をクリックし、プロファイル画像の横にあるユーザー名をクリックします。 または（利用可能な場合は）上部のナビゲーション領域で自分のプロフィール写真をクリックし、**[!UICONTROL Workfrontのプロフィール]** をクリックします。 次に、名前の横にある&#x200B;**その他**&#x200B;アイコンをクリックし、「**編集**」を選択します。
 
-   * **システム管理者が他のユーザー用に時間の記録方法を設定：**&#x200B;[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)の説明に従って、1 つ以上のユーザーアカウントの編集を開始します。
+   * **システム管理者が他のユーザー用に時間の記録方法を設定：**[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)の説明に従って、1 つ以上のユーザーアカウントの編集を開始します。
 
 1. 表示されたダイアログ・ボックスの「**Resource Planning**」セクションで、「**Log time in**」オプションを探します。
 
-   ![&#x200B; 時間をオプションで記録 &#x200B;](assets/user-profile-log-time-options.png)
+   ![ 時間をオプションで記録 ](assets/user-profile-log-time-options.png)
 
-1. （条件付き）システム管理者が複数のユーザーを同時に編集する場合は、「**時間を記録する単位**」を選択します。
 1. 時間の記録に関する次のオプションから選択します。
 
    | オプション | 説明 |

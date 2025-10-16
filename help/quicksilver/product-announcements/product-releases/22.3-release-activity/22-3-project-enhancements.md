@@ -6,16 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 100%
+source-wordcount: '1535'
+ht-degree: 99%
 
 ---
 
 # 22.3 プロジェクトの機能強化
 
-このページでは、プレビュー環境の 22.3 リリースで行われたすべてのプロジェクトの機能強化が説明されています。これらの機能強化は、2022年7月11日（PT）の週に実稼動環境で公開されました。22.3 リリースで使用可能なすべての変更点の一覧については、[22.3 リリースの概要](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)を参照してください。
+このページでは、プレビュー環境の 22.3 リリースで行われたすべてのプロジェクトの機能強化が説明されています。これらの機能強化は、2022年7月11日（PT）の週に本番環境で公開されました。22.3 リリースで使用可能なすべての変更点の一覧については、[22.3 リリースの概要](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)を参照してください。
 
 ## 不在時の作業の委任
 
@@ -54,7 +54,7 @@ Workfront の使用を新しい Workfront エクスペリエンスと一致さ�
 * 新しいタスクに追加された、宛先プロジェクトのタスク設定エリアで定義されたデフォルトのカスタムフォーム。
 
 
-詳しくは、[イシューを Adobe Workfront のタスクへ変換](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md)を参照してください。
+詳しくは、[ イシューのタスクへの変換 ](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md) を参照してください。
 
 ## イシューをテンプレートなしのプロジェクトに変換する際の新しいエクスペリエンス
 
@@ -64,7 +64,7 @@ Workfront の使用を新しい Workfront エクスペリエンスと一致さ�
 
 詳しくは、[イシューを Adobe Workfront のプロジェクトに変換](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md)を参照してください。
 
-## 更新ストリームのスマートなタグ付け
+## 更新ストリームのスマートタグ付け
 
 新しい更新を作成したり、既存の更新に返信したりする際の、更新ストリーム内のユーザーのタグ付けを改善しました。これで、ユーザーにタグを付けて更新に含める際に、ユーザーの名前やアバターに加えて、プライマリの役割とメールも表示されるようになりました。これは、似た名前のユーザーや、名前が同じ複数のユーザーを区別するのに役立ちます。
 

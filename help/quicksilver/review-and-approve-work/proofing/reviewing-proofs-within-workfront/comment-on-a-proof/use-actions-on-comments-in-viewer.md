@@ -6,10 +6,10 @@ description: アクションを使用して、プルーフの各コメントス�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 96%
+source-wordcount: '364'
+ht-degree: 95%
 
 ---
 
@@ -23,19 +23,17 @@ Workfront 管理者によるアクションの有効化と設定の方法につ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>任意</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -46,13 +44,13 @@ Workfront 管理者によるアクションの有効化と設定の方法につ�
    <td>作成者またはモデレーター</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -67,7 +65,7 @@ Workfront 管理者によるアクションの有効化と設定の方法につ�
 
    * コメントの右下隅にあるフラグアイコンをクリックし、ドロップダウンメニューで目的のアクションをクリックします。
 
-     ![&#x200B; アクションフラグアイコン &#x200B;](assets/actions-flag-icon-350x198.png)
+     ![ アクションフラグアイコン ](assets/actions-flag-icon-350x198.png)
 
    * **その他**&#x200B;アイコン（コメント上の 3 つの水平ドット）をクリックし、表示されるドロップダウンメニューの下部のセクションで目的のアクションをクリックします。
 

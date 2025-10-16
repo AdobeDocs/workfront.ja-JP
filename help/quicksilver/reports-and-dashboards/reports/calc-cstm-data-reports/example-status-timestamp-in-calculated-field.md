@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 「計算済みカスタムフィールドの例：カスタムフォームにステータスタイムスタンプを表示」
-description: 次の計算フィールドには、オブジェクトのステータスが「処理中」（INP）とマークされた日付が表示されます。イシュー、タスクまたはプロジェクトに関する計算カスタムフィールドにも同じ情報を使用できます。
-author: Nolan
+title: 計算済みカスタムフィールドの例：カスタムフォームにステータスタイムスタンプを表示する
+description: 次の計算フィールドは、オブジェクトのステータスが処理中（INP）の場合の日付を示しています。 イシュー、タスクまたはプロジェクトに関する計算カスタムフィールドにも同じ情報を使用できます。
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 97%
+source-wordcount: '341'
+ht-degree: 82%
 
 ---
 
 # 計算済みカスタムフィールドの例：カスタムフォームにステータスタイムスタンプを表示する
 
-次の計算フィールドには、オブジェクトのステータスが「処理中」（INP）とマークされた日付が表示されます。イシュー、タスクまたはプロジェクトに関する計算カスタムフィールドにも同じ情報を使用できます。
+次の計算フィールドは、オブジェクトのステータスが処理中（INP）の場合の日付を示しています。 イシュー、タスクまたはプロジェクトに関する計算カスタムフィールドにも同じ情報を使用できます。
 
 >[!NOTE]
 >
@@ -24,35 +24,36 @@ ht-degree: 97%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront プラン*</p> </td> 
-   <td>任意</td> 
+   <td> <p>Adobe Workfront パッケージ</p> </td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront プラン*</p> </td> 
-   <td> <p>プラン </p> </td> 
+   <td> <p>Adobe Workfront プラン</p> </td> 
+   <td>
+      <p>標準</p>
+      <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td><strong>アクセスレベル設定*</strong> </td> 
-   <td> <p>レポート、ダッシュボードおよびカレンダーの作成へのアクセス権の編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td><p>アクセスレベル設定</p></td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーの作成へのアクセス権の編集</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>オブジェクトの権限</strong> </p> </td> 
-   <td> <p>フォームが添付されたオブジェクトに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。<br>ダッシュボードの権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">レポート、ダッシュボードおよびカレンダーの共有</a>を参照してください。</p> </td> 
+   <td> <p>オブジェクト権限</p> </td> 
+   <td> <p>フォームが添付されたオブジェクトに対する権限の管理</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -62,7 +63,7 @@ ht-degree: 97%
 
 1. フィールドを追加するカスタムフォームに移動します。
 1. 「**計算済み**」をクリックして、計算済みカスタムフィールドをフォームに追加します。
-1. カスタムフィールドの **ラベル** を入力します。 例えば、「Status Timestamp カスタムフィールド」などです。
+1. カスタムフィールドの **ラベル** を入力します。 例えば、「ステータスタイムスタンプカスタムフィールド」などです。
 1. 「**保存して閉じる**」をクリックします。
 1. カスタムフォームを再度開き、フォームで新しい&#x200B;**ステータスタイムスタンプカスタムフィールド**&#x200B;を選択します。
 1. 「**計算**」ボックスに、カスタムフィールド用の次の計算をコピーして貼り付けます。

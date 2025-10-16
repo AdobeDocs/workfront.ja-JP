@@ -4,9 +4,9 @@ title: パンくずリストの概要
 description: パンくずリストには、すべてのオブジェクトタイプのナビゲーション階層がすべて表示されます。
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '291'
 ht-degree: 100%
 
 ---
@@ -42,30 +42,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-+++アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
-   <td> <p>任意</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*ご利用のプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
-
-+++
 
 <!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
 

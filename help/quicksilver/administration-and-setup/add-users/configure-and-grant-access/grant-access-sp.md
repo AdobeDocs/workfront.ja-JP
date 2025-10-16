@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 97%
+source-wordcount: '609'
+ht-degree: 94%
 
 ---
 
@@ -22,36 +22,36 @@ Adobe Workfront 管理者は、シナリオプランナーに対するユーザ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront プラン*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront パッケージ</p> </td> 
    <td>ビジネス以上</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>レビュー以上。詳しくは、<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">ライセンスの概要</a>を参照してください。</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>ライト以上</p>
+   <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td> <p>この記事で説明する機能にアクセスするには、Adobe Workfront シナリオプランナーの追加ライセンスを購入する必要があります。</p> <p>Workfront シナリオプランナーの取得について詳しくは、<a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref" data-mc-variable-override="">シナリオプランナーを使用するために必要なアクセス</a>を参照してください。 </p> </td> 
+   <td> <p>Adobe Workfront Scenario Planner のライセンスを追加購入する必要があります。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>シナリオプランナーへの表示アクセス権またはそれ以上</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>シナリオプランナーへの表示アクセス権またはそれ以上</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>オブジェクト権限</p> </td> 
-   <td> <p>プランへの表示権限またはそれ以上</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref" data-mc-variable-override="">シナリオプランナーのプランへのアクセスのリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プランへの表示権限またはそれ以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

@@ -5,10 +5,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 86%
+source-wordcount: '548'
+ht-degree: 83%
 
 ---
 
@@ -36,32 +36,28 @@ ht-degree: 86%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準</p>
- <p>または</p> 
-<p>現在：プラン</p> 
+   <td> <p>標準</p>
+<p>プラン</p> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>リマインダー通知への管理アクセス権を持つ、プランナー以上の権限</p> </td> 
+   <td> <p>リマインダ通知への管理アクセス権を持つプランナまたはそれ以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 +++
 
 ## すべてのユーザーへのイベント通知の設定
@@ -76,7 +72,7 @@ ht-degree: 86%
 
 1. **メール**／**通知**&#x200B;をクリックします。
 
-   ![&#x200B; 設定メールの通知領域 &#x200B;](assets/notifications-area-under-setup-emails.png)
+   ![ 設定メールの通知領域 ](assets/notifications-area-under-setup-emails.png)
 
 
 1. 「**イベント通知**」タブが開くことを確認します。
@@ -88,7 +84,7 @@ ht-degree: 86%
 
    メール通知の件名行のカスタマイズについて詳しくは、[イベント通知のメール件名をカスタマイズする](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)を参照してください。
 
-1. （オプション）メール通知の設定のロックを解除して、グループ管理者がグループごとに個別に設定できるようにする場合は、通知の右側にあるボタン ![&#x200B; ロック切り替え &#x200B;](assets/lock-toggle-button.png) をクリックして、ロック解除位置 ![&#x200B; ロック解除切り替え &#x200B;](assets/unlock-toggle-button.png) に切り替えます。
+1. （オプション）メール通知の設定のロックを解除して、グループ管理者がグループごとに個別に設定できるようにする場合は、通知の右側にあるボタン ![ ロック切り替え ](assets/lock-toggle-button.png) をクリックして、ロック解除位置 ![ ロック解除切り替え ](assets/unlock-toggle-button.png) に切り替えます。
 
    詳しくは、[すべてのグループに対するイベント通知の設定をロックまたはロック解除](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)を参照してください。
 

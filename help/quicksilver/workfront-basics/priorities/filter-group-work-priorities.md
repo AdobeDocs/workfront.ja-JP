@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 13%
+source-wordcount: '651'
+ht-degree: 12%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 13%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
-   <p>現在：Request 以上</p>
-   <p>新規：Contributor 以上</p> 
+   <p>リクエスト以上</p>
+   <p>投稿者以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ ht-degree: 13%
       <td>項目を次で表示 
       <ul>
       <li>未完了の先行タスクまたはタスク制約はありません</li>
-      <p>および</p>
+      <p>and</p>
       <li>予定開始日が過去または最大 2 週間以内です</li>
       </ul>
       </td>
@@ -135,7 +135,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->この機能は、AI アシスタントを使用している統合Adobe エクスペリエンスの顧客のみが利用できます。 AI アシスタントの詳細については、「[AI アシスタントの概要 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)」を参照してください。
+>この機能は、AI アシスタントを使用している統合Adobe エクスペリエンスの顧客のみが利用できます。 AI アシスタントの詳細については、「[AI アシスタントの概要 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)」を参照してください。
 
 {{step1-to-priorities}}
 
@@ -174,7 +174,7 @@ ht-degree: 13%
 
 1. 作業内容を **ステータス** または **マイ優先度** でグループ化します。
 2. 作業項目の上にマウスポインターを置いて「**ドラッグ**」アイコンをクリックし、目的のカテゴリに移動します。
-   ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-and-drop.png)
+   ![ ドラッグ アイコン ](assets/drag-and-drop.png)
 
 ## 作業の並べ替え
 
@@ -182,16 +182,16 @@ ht-degree: 13%
 
 グループ内で作業を並べ替えるには、**グループ** を開き、昇順または降順で並べ替えるかどうかを選択します。
 
-![&#x200B; グループで並べ替え &#x200B;](assets/sort-in-groups.png)
+![ グループで並べ替え ](assets/sort-in-groups.png)
 
 ### 列を並べ替え
 
 個々の列を並べ替えるには、列に移動して下矢印をクリックします。
 
-![&#x200B; 列内の下矢印 &#x200B;](assets/sort-columns.png)
+![ 列内の下矢印 ](assets/sort-columns.png)
 
 ### すべてのグループ セクションを展開または折りたたむ
 
 すべてのグループセクションを展開または折りたたむには、**グループ** を開いて **すべて展開** または **すべて折りたたむ** をクリックします。
 
-![&#x200B; グループを展開または折りたたむ &#x200B;](assets/expand-collapse-groups.png)
+![ グループを展開または折りたたむ ](assets/expand-collapse-groups.png)

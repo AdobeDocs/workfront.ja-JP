@@ -6,9 +6,9 @@ description: ' [!DNL Jira]  のイシューを、 [!DNL Adobe Workfront]  のタ
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 064418302767ad20e176080ba9a12db548750f3c
+source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1378'
 ht-degree: 49%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 49%
 >
 >Jira を使用する場合は、組織の統合のニーズに合わせてWorkfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
+>Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
 
 <!--
 
@@ -37,9 +37,9 @@ ht-degree: 49%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -49,8 +49,6 @@ ht-degree: 49%
 
 ## アクセス要件
 
-以下が必要です。
-
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
@@ -58,35 +56,51 @@ ht-degree: 49%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/jp/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a></td> 
-   <td> <p>[!UICONTROL Pro] 以降</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td><p>任意</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront] ライセンスの概要</a></td> 
-   <td> 
-   <p>新規：標準<p>
-   <p>または</p>
-   <p>現在：プラン </p>
-    </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準 </p>
+       <p>プラン </p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Jira アクセス</td> 
-   <td> <p>システム管理者のアクセス権</p> <p><b>重要</b>
-
-ユーザーに関連付けられている既存のアカウントを使用するのではなく、この統合専用のシステム管理者アカウントを [!DNL Jira] と [!DNL Workfront] に個別に作成することをお勧めします。</p> </td>
-</tr> 
+   <td> <p>システム管理者のアクセス権</p> <p>重要：ユーザーに関連付けられた既存のシステム管理者アカウントを使用するのではなく、Jira とWorkfrontで個別のシステム管理者アカウントを作成して、この統合専用にすることをお勧めします。</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] の管理者である必要があります。[!DNL Workfront] 管理者について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td> <p>Workfront 管理者である必要があります。</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+## [!DNL Workfront] for [!DNL Jira] のインストール
+
+[!DNL Workfront] for [!DNL Jira] OnDemand のインストール方法は、[!DNL Jira] サーバーインスタンスにインストールする場合と同じです。
+
+[!DNL Workfront] アドオンをインストールするには、[!DNL Jira] 管理者である必要があります。
+
+[!DNL Jira] 管理者でない場合は、[!DNL Workfront] アドオンを参照して、そのインストールをリクエストできます。リクエストは [!DNL Jira] 管理者に送信されて、承認後にインストールが行われます。
+
+[!DNL Jira] アプリケーションへのアドオンのインストールをリクエストする方法について詳しくは、[ユーザーのアドオンリクエストの管理](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)を参照してください。
+
+[!DNL Workfront for Jira] をインストールするには、次の手順に従います。
+
+1. [!DNL Jira] に [!DNL Jira] 管理者としてログインします。
+1. [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) で **[!DNL Workfront for Jira]** アドオンを検索します。
+
+1. 「**[!UICONTROL 今すぐ入手]**」をクリックしてインストールします。
+
+   インストールが完了したら、[!DNL Jira] から [!DNL Workfront] にログインし統合を設定できます。
+
+   詳しくは、[Adobe Workfront の Jira 向け設定](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)を参照してください。
 
 ## 前提条件
 
@@ -94,11 +108,11 @@ ht-degree: 49%
 
 * [!DNL Workfront] 用に [!DNL Jira] をインストールします。
 
-  手順については、[Jira 用Adobe Workfrontのインストール &#x200B;](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md) を参照してください。
+  手順については、[Jira 用Adobe Workfrontのインストール ](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md) を参照してください。
 
 * Jira 用に [!DNL Workfront] を設定します。
 
-  手順については、[Adobe Workfront for Jira の設定 &#x200B;](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) を参照してください。
+  手順については、[Adobe Workfront for Jira の設定 ](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) を参照してください。
 
 ## [!DNL Workfront] の項目を [!DNL Jira] のイシューに自動でリンク
 
@@ -108,7 +122,7 @@ Jira 用 [!DNL Workfront]の設定を完了すると、[!DNL Workfront] で項�
 
 Workfront の項目を作成および更新する Workfront ユーザーには、[!DNL Jira] の項目作成をトリガーするための [!DNL Jira] ライセンスは必要ありません。
 
-詳しくは、[Jira 用に設定  [!DNL Adobe Workfront]  を参照してください &#x200B;](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
+詳しくは、[Jira 用に設定  [!DNL Adobe Workfront]  を参照してください ](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
 
 >[!NOTE]
 >
@@ -132,7 +146,7 @@ Workfront の項目を作成および更新する Workfront ユーザーには�
 
    >[!NOTE]
    >
-   >既存のWorkfront項目を Jira の課題にリンクするには、項目の **詳細**&#x200B;**詳細** アイコンから ![&#x200B; 編集 &#x200B;](assets/more-icon.png) を選択します。
+   >既存のWorkfront項目を Jira の課題にリンクするには、項目の **詳細****詳細** アイコンから ![ 編集 ](assets/more-icon.png) を選択します。
 
 1. タスクに使用できるフィールドを指定または更新します。
 1. 「**[!UICONTROL 割り当て]**」フィールドで、[!DNL Jira] 統合でトリガーとして指定されているユーザー、ロールまたはチームを検索して選択します。
@@ -147,7 +161,7 @@ Workfront の項目を作成および更新する Workfront ユーザーには�
 
    自分が [!DNL Workfront] 管理者として [!DNL Workfront] アドオンの設定時に設定したフィールドのみが更新されます。
 
-   Workfrontと Jira 間でのフィールドの同期について詳しくは、[Jira 用Workfrontの設定 &#x200B;](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) の「Jira 用Adobe Workfrontの設定」の節を参照してください。
+   Workfrontと Jira 間でのフィールドの同期について詳しくは、[Jira 用Workfrontの設定 ](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) の「Jira 用Adobe Workfrontの設定」の節を参照してください。
 
    >[!NOTE]
    >
@@ -178,7 +192,7 @@ Workfront の項目を作成および更新する Workfront ユーザーには�
 
    >[!IMPORTANT]
    >
-   >組織がAdobe Unified Experience にオンボーディングされている場合、Workfrontの項目を Jira にリンクするには **参照番号** を使用する必要があります。 （URL オプションは使用できますが、使用するとエラーが返されます。） 統合エクスペリエンスについて詳しくは、[Workfront用Adobe統合エクスペリエンス &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+   >組織がAdobe Unified Experience にオンボーディングされている場合、Workfrontの項目を Jira にリンクするには **参照番号** を使用する必要があります。 （URL オプションは使用できますが、使用するとエラーが返されます。） 統合エクスペリエンスについて詳しくは、[Workfront用Adobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
    >
    >Adobe Unified Experience 以外の組織の場合、URL は変わる可能性があるので、「URL」オプションを使用することはお勧めしません。
 
@@ -201,7 +215,7 @@ Workfront の項目を作成および更新する Workfront ユーザーには�
    * 品目の **[!UICONTROL 予定時間数]**。
    * **[!UICONTROL 参照番号]**。 [!DNL Workfront] 項目にアクセスするには、パネルの **参照番号** をクリックします。
 
-   追加のフィールドを右側のパネルに表示する方法については、「設定 [!DNL Jira]」の「[!DNL Workfront] と [&#x200B; の項目間のフィールド同期の設定  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) を参照してください。 統合に関連づけられた [!DNL Workfront] 管理者からのコメントは、新しく [!DNL Jira] 項目が作成されたことを確認するために、[!DNL Jira] イシューの「**[!DNL Workfront]**」タブに投稿されます。コメントには、[!DNL Jira] イシューへのリンクが含まれます。
+   追加のフィールドを右側のパネルに表示する方法については、「設定 [!DNL Jira]」の「[!DNL Workfront] と [ の項目間のフィールド同期の設定  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) を参照してください。 統合に関連づけられた [!DNL Workfront] 管理者からのコメントは、新しく [!DNL Jira] 項目が作成されたことを確認するために、[!DNL Jira] イシューの「**[!DNL Workfront]**」タブに投稿されます。コメントには、[!DNL Jira] イシューへのリンクが含まれます。
 
 ## [!DNL Jira] と [!DNL Workfront] 間の項目のリンクを解除
 

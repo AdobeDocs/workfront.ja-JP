@@ -6,10 +6,10 @@ description: プロジェクトは、Adobe Workfront における作業の大き
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 90%
+source-wordcount: '1241'
+ht-degree: 91%
 
 ---
 
@@ -27,54 +27,20 @@ ht-degree: 90%
 
 ## アクセス要件
 
-<!--drafted for P&P - replace table below with this:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>When you create a project you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準</p>
-        <p>または</p>
-        <p>現在：プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+        <p>プラン</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -87,9 +53,36 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p>
+        <p>or</p>
+        <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>When you create a project, you automatically receive Manage permissions to the project.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 
 ## プロジェクトの作成方法
 
@@ -122,9 +115,9 @@ Workfront でプロジェクトを作成するには、次のような方法が�
 
 * Workfront Planning のレコードタイプからプロジェクトを接続するときに追加します。
 
-  Workfront Planning へのアクセスについて詳しくは、[&#x200B; アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+  Workfront Planning へのアクセスについて詳しくは、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
-  レコードにプロジェクトを追加して作成する方法の詳細については、「レコードに接続する際にWorkfront Planning からWorkfront オブジェクトを作成する [&#x200B; の「Workfront Planning からレコードにプロジェクトを接続する場合のプロジェクトの作成」を参照してください &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  レコードにプロジェクトを追加して作成する方法の詳細については、「レコードに接続する際にWorkfront Planning からWorkfront オブジェクトを作成する [ の「Workfront Planning からレコードにプロジェクトを接続する場合のプロジェクトの作成」を参照してください ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## 前提条件
 
@@ -174,7 +167,6 @@ Workfront でプロジェクトを作成するには、次のような方法が�
 >
 >テンプレートを使用してプロジェクトを作成する場合は、[テンプレートを使用したプロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)の記事もご覧になることをお勧めします。
 
-
 1. 次のいずれかの操作を行います。
 
    * Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)（利用可能な場合）、または左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックします。「**プロジェクト**」をクリックして、**新規プロジェクト**&#x200B;を展開します。
@@ -199,7 +191,7 @@ Workfront でプロジェクトを作成するには、次のような方法が�
 
    プロジェクトへのタスクの追加について詳しくは、[プロジェクトにタスクを作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)を参照してください。
 
-1. プロジェクト名の横にある **詳細** メニューをクリックし、**編集** ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックして、プロジェクト詳細を編集します。
+1. プロジェクト名の横にある **詳細** メニューをクリックし、**編集** ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックして、プロジェクト詳細を編集します。
 
    **プロジェクトを編集**&#x200B;ダイアログボックスが開きます。
 

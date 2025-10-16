@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: c23b3967cf06aaff1bcd7465ce6c7a0c7b7fe9af
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 90%
+source-wordcount: '727'
+ht-degree: 89%
 
 ---
 
@@ -26,32 +26,27 @@ Adobe Workfront 管理者は、管理対象の任意のグループのメンバ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

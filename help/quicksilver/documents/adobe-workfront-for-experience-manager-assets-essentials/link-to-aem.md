@@ -6,10 +6,10 @@ description: Experience Manager Assets または Assets Essentials からアセ�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 97%
+source-wordcount: '639'
+ht-degree: 95%
 
 ---
 
@@ -23,22 +23,22 @@ Workfront から Experience Manager Assets または Assets Essentials にアセ
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td> 
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">製品</td> 
+   <td role="rowheader">その他の製品</td> 
    <td>Experience Manager as a Cloud Service または Assets Essentials を使用するには、Admin Console に製品にユーザーとして追加されている必要があります。</td> 
   </tr> 
    <tr> 
@@ -46,17 +46,17 @@ Workfront から Experience Manager Assets または Assets Essentials にアセ
     <td>フォルダーへの書き込みアクセス権が必要です。</td> 
    </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>表示アクセス権またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>表示アクセス権またはそれ以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -82,7 +82,7 @@ Experience Manager Assets または Assets Essentials から Workfront にアセ
 
 1. 目的のアセットを選択します。
 
-   ![&#x200B; アセットを選択 &#x200B;](assets/select-an-asset.png)
+   ![ アセットを選択 ](assets/select-an-asset.png)
 
 1. 「**選択**」をクリックします。
 
@@ -99,7 +99,7 @@ Experience Manager Assets または Assets Essentials から Workfront にアセ
 
 1. 目的のフォルダーを選択します。
 
-   ![&#x200B; フォルダーを選択 &#x200B;](assets/select-a-folder.png)
+   ![ フォルダーを選択 ](assets/select-a-folder.png)
 
 1. 「**選択**」をクリックします。
 
@@ -119,7 +119,7 @@ Assets Essentials から新しいバージョンをリンクするには、次�
 
 1. 目的のアセットを選択します。
 
-   ![&#x200B; アセットを選択 &#x200B;](assets/select-an-asset.png)
+   ![ アセットを選択 ](assets/select-an-asset.png)
 
 1. 「**選択**」をクリックします。
 

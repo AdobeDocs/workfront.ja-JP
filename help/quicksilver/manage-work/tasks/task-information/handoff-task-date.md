@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: タスクハンドオフ日の概要
+title: タスクのハンドオフ日の概要
 description: ハンドオフ日とは、タスクが作業可能になる日付です。これは、通常、先行タスクが解決済みで、タスクの担当者が作業を開始できることを意味します。
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

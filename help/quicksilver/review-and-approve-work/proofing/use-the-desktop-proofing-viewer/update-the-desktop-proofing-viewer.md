@@ -6,10 +6,10 @@ description: デスクトッププルーフビューアーで、改善点とバ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
-source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 96%
+source-wordcount: '302'
+ht-degree: 95%
 
 ---
 
@@ -33,15 +33,17 @@ ht-degree: 96%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>任意</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -61,7 +63,7 @@ ht-degree: 96%
 
    デスクトッププルーフビューアーがアップデートを確認します。
 
-1. アップデートが利用可能な場合は、画面の指示に従ってデスクトッププルーフビューアーを更新します。
+1. アップデートが利用可能な場合は、画面のプロンプトに従ってデスクトッププルーフビューアーを更新します。
 
 ## 標準アップデート
 

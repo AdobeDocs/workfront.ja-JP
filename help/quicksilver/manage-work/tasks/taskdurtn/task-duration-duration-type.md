@@ -2,16 +2,16 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: 「タスクの期間と期間タイプ：記事インデックス」
+title: タスク期間と期間のタイプ：記事インデックス
 description: タスクの期間タイプは、タスクに割り当てられたリソースの数、合計作業量およびタスクの合計期間の関係性を特定します。タスクの期間と期間のタイプについては、次の記事を参照してください。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 

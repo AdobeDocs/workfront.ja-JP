@@ -7,10 +7,10 @@ description: ワークストリームは、作業時の共同作業用に設定�
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 98%
+source-wordcount: '934'
+ht-degree: 97%
 
 ---
 
@@ -30,22 +30,19 @@ ht-degree: 98%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>新規：[!UICONTROL Contributor]以上</p> 
-   <p>または</p>
-   <p>現在：[!UICONTROL Request] 以上</p>
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p>
    </td> 
   </tr> 
  </tbody> 
@@ -66,7 +63,7 @@ ht-degree: 98%
 
 ## ワークストリーム内に新しいボードを作成する
 
-1. まだワークストリームにない場合は、「[!UICONTROL **ワークストリームを表示**]」をクリックして、既存のワークストリームを開きます。
+1. まだワークストリームにない場合は、ダッシュボードの「[!UICONTROL **ワークストリームを表示**]」をクリックして、既存のワークストリームを開きます。
 1. ワークストリームの「[!UICONTROL ボード]」タブで「**[!UICONTROL ボードを追加]**」をクリックします。
 1. ボードのテンプレートを選択します。
 

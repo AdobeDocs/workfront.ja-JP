@@ -7,10 +7,10 @@ description: レポートが Adobe Workfront のダッシュボードに追加�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 93%
+source-wordcount: '601'
+ht-degree: 90%
 
 ---
 
@@ -33,32 +33,36 @@ ht-degree: 93%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>標準</p>
+   <p>プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ダッシュボードに関する情報をレポートリストのビューに表示する
 
@@ -68,7 +72,7 @@ ht-degree: 93%
 
 レポートリストのダッシュボード情報を使用してビューを作成するには：
 
-1. Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
+1. Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 1. レポートのリストで、**表示**&#x200B;ドロップダウンメニューをクリックします。
 1. 「**新しいビュー**」をクリックします。
 1. 「**列を追加**」をクリックします。
@@ -77,13 +81,13 @@ ht-degree: 93%
 
 1. 「**ビューを保存**」をクリックします。\
    レポートが表示されるダッシュボードは、レポートリストのダッシュボード列に表示されます。\
-   ![&#x200B; レポートのダッシュボード &#x200B;](assets/qs-dashboards-in-report-view.png)
+   ![ レポートのダッシュボード ](assets/qs-dashboards-in-report-view.png)
 
 ## ダッシュボード情報によるレポートリストのフィルタリング
 
 ダッシュボード情報でレポートのリストをフィルタリングするには：
 
-1. Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
+1. Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 
 1. レポートのリストで、**フィルター**&#x200B;ドロップダウンメニューをクリックします。
 1. 「**新規フィルター**」をクリックしたあと、「**フィルター規則の追加**」をクリックします。
@@ -93,7 +97,7 @@ ht-degree: 93%
 1. 「**ダッシュボード**」オブジェクトで「**名前**」を選択します。
 
 1. 修飾子ドロップダウンメニューで「**が次に等しい**」を選択し、フィルタリングの条件となるダッシュボードの名前を入力していきます。フィルターには複数のダッシュボードを選択できます。\
-   ![&#x200B; 報告書フィルターのダッシュボード &#x200B;](assets/qs-dashboards-in-report-filters-350x143.png)
+   ![ 報告書フィルターのダッシュボード ](assets/qs-dashboards-in-report-filters-350x143.png)
 
 1. 「**保存して閉じる**」をクリックします。\
    これにより、指定したダッシュボードにのみ一覧表示されているレポートのリストが表示されます。\

@@ -6,9 +6,9 @@ description: 財務は、プロジェクトで記録された時間数や、コ�
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1609'
 ht-degree: 87%
 
 ---
@@ -21,35 +21,32 @@ ht-degree: 87%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td>任意 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td>Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td> 
+   <p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>プロジェクトおよび財務データへのアクセスを編集する</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td>財務を管理する権限を持つプロジェクトに対する権限の管理</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -149,15 +146,15 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 
 一括編集中に財務を再計算できます。詳しくは、この記事の[財務を手動で一括再計算](#manually-recalculate-finances-in-bulk)の節を参照してください。
 
-1. 財務を再計算するプロジェクトに移動して、プロジェクト名の右側にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックします。
+1. 財務を再計算するプロジェクトに移動して、プロジェクト名の右側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![&#x200B; プロジェクトレベルの詳細ドロップダウン &#x200B;](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ プロジェクトレベルの詳細ドロップダウン ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    または
 
-   プロジェクトリストまたはレポートに移動して、1 つまたは複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックします。
+   プロジェクトリストまたはレポートに移動して、1 つまたは複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![&#x200B; 式の再計算 &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![ 式の再計算 ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -181,9 +178,9 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 複数のプロジェクトの財務を手動で再計算するには、以下を実行します。
 
 1. プロジェクトのリストに移動します。
-1. リストで複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックします。
+1. リストで複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![&#x200B; 式の再計算 &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![ 式の再計算 ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +204,4 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 >
 >プロジェクトのステータスを変更すると、予定された値のみが再計算されます。
 
-プロジェクトレベルで **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) の下の「財務を再計算 **をクリックして、手動で財務を再計算することもでき** す。
+プロジェクトレベルで **その他** メニュー ![ その他メニュー ](assets/qs-more-menu.png) の下の「財務を再計算 **をクリックして、手動で財務を再計算することもでき** す。

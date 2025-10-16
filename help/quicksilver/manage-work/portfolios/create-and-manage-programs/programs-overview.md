@@ -7,20 +7,21 @@ description: プログラムは、統一的な特性を持つプロジェクト�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 17%
+source-wordcount: '495'
+ht-degree: 15%
 
 ---
 
 # プログラムの概要
 
-<!-- Audited: 09/2024 -->
+<!-- Audited: 08/2025 -->
 
 Adobe Workfrontでは、プログラムとは、統一された特性を持つプロジェクトの集まりです。 例えば、同じ予算、リソース、期間に対して競合する場合があります。 プログラムは、ポートフォリオのサブグループです。
 
 この記事には、Workfrontのプログラムに関する一般的な情報を掲載しています。
+
 
 ## プログラムの作成に必要なアクセス
 
@@ -33,18 +34,18 @@ Adobe Workfrontでは、プログラムとは、統一された特性を持つ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>新規：任意</p>
-   <p>現在：[!UICONTROL Business] 以上</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>任意</p>
+   <p>[!UICONTROL Business] 以降</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p>
-   <p>現在：[!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>ポートフォリオとプログラムに対する[!UICONTROL Edit]アクセス権</p>  </td> 
+   <td> <p>[!UICONTROL 編集 ] [!UICONTROL ポートフォリオ ] および [!UICONTROL プログラム ] へのアクセス</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -58,6 +59,36 @@ Adobe Workfrontでは、プログラムとは、統一された特性を持つ�
 </table>
 
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>New: Any</p>
+   <p>Current: [!UICONTROL Business] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to edit a program or add projects to it</p>
+   <p>Manage permissions to the portfolio that the program belongs to </p>
+   <p>View permissions to a program to view it</p>
+   <p>After you create a program, you have Manage permissions to it, by default</p> 
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 
 ## プログラムの操作に関する考慮事項
@@ -94,4 +125,4 @@ Adobe Workfrontでは、プログラムとは、統一された特性を持つ�
 
 * ポートフォリオオプティマイザーを使用すると、ポートフォリオ内のすべてのプロジェクトのパフォーマンスを分析できます。 同じプログラム全体で複数のプロジェクトのパフォーマンスを比較することはできません。 プロジェクトのパフォーマンスは、ポートフォリオレベルで分析する必要があります。
 
-  詳しくは、[Portfolio Optimizer でのプロジェクトの最適化 &#x200B;](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) を参照してください。
+  詳しくは、[Portfolio Optimizer でのプロジェクトの最適化 ](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) を参照してください。

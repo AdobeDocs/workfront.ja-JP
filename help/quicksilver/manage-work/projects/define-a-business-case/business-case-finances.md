@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: business-case-and-scorecards
 title: ビジネスケースの財務フィールドの概要
 description: 「ビジネスケース」サブタブには、プロジェクトの財務フィールドが含まれます。一部の財務フィールドに値を設定するには、ビジネスケースの対応するエリアに入力する必要があります。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 100%

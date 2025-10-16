@@ -6,10 +6,10 @@ description: プロジェクトは、リソースプランナー内に優先度�
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 97%
 
 ---
 
@@ -21,36 +21,31 @@ ht-degree: 98%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-    <td><p>新規：任意</p>
-       <p>または</p>
-       <p>現在：Pro 以上</p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>リソースプランナーの優先度と予算計上時間数の編集へのアクセスを含むリソース管理へのアクセスを編集</p> <p>財務データ、プロジェクトおよびユーザーへのアクセスを編集</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>財務の管理機能を持つ、予算情報が必要なプロジェクトに対する権限を管理します。</p></td> 
+   <td>オブジェクト権限</td> 
+   <td> <p>財務の管理機能を持つ、予算情報が必要なプロジェクトに対する権限を管理します。</p></td>
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -94,7 +89,7 @@ ht-degree: 98%
 1. **リソースプランナー**&#x200B;に移動します。
 
 1. 番号を含むプロジェクト名の左側のフィールド内をクリックし、番号を入力して計画優先度を変更し、Enter キーを押します。\
-   ![&#x200B; 計画優先度の変更 &#x200B;](assets/mceclip4.png)\
+   ![ 計画優先度の変更 ](assets/mceclip4.png)\
    または\
    プロジェクトの名前の上にポインタを合わせ、プロジェクト名の左側のインジケーターをクリックし、プロジェクトをドラッグして正しい場所にドロップし、優先度を変更します。
 
@@ -112,7 +107,7 @@ ht-degree: 98%
 >
 >会社は、ポートフォリオオプティマイザーでプロジェクトに優先度付けをするには、Business 以上の Workfront プランが必要です。
 >
->Workfront プランについて詳しくは、[アドビのプラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
+>Workfront プランについて詳しくは、[アドビのプラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 >
 >ポートフォリオオプティマイザーでのプロジェクトの優先順位付けについて詳しくは、[ポートフォリオオプティマイザーでのプロジェクトの優先順位付け](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)を参照してください。
 
@@ -124,7 +119,7 @@ ht-degree: 98%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![Portfolioの優先度 &#x200B;](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Portfolioの優先度 ](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    プロジェクトのポートフォリオ優先度は、リソースプランナーのプロジェクトビューにのみ表示されます。
 
@@ -136,7 +131,7 @@ ht-degree: 98%
    1. 予定開始日
    1. プロジェクト名
 
-   ![&#x200B; 並べ替えられたPortfolioの優先度 &#x200B;](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![ 並べ替えられたPortfolioの優先度 ](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. 「**保存**」をクリックします。
 

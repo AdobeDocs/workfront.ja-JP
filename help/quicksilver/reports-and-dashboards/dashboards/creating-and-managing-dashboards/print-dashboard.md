@@ -6,10 +6,10 @@ description: ダッシュボードを印刷したり .PDF ファイルに書き�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 96%
+source-wordcount: '460'
+ht-degree: 95%
 
 ---
 
@@ -25,43 +25,35 @@ ht-degree: 96%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
-      <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>ワークまたはそれ以上</p></li>
-         </ul>
-   </td>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>標準</p>
+      <p>ワークまたはそれ以上</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
-   <td> <p>レポート、ダッシュボードおよびカレンダーの表示アクセス権</p> </td> 
-  </tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>オブジェクトの権限</strong>/td&gt; 
+   <td role="rowheader">オブジェクト権限</td> 
    <td> <p>ダッシュボードの表示権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

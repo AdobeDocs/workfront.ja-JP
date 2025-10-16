@@ -6,16 +6,16 @@ description: 承認リクエストを委任すると、休暇でオフィスを�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
+source-git-commit: 14360a82b0de65587a9413b58d9c69abb55fa29d
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 74%
+source-wordcount: '1193'
+ht-degree: 75%
 
 ---
 
 # 承認リクエストをデリゲート
 
-不在時に割り当てられた作業を、一時的にデリゲートできます。タスクとイシューの割り当てを委任したり、承認リクエストを委任したりできます。 この記事では、承認リクエストをデリゲートする方法について説明します。タスクとイシューの割り当ての委任については、[&#x200B; タスクとイシューの委任 &#x200B;](../../manage-work/delegate-work/how-to-delegate-work.md) を参照してください。
+不在時に割り当てられた作業を、一時的にデリゲートできます。タスクとイシューの割り当てを委任したり、承認リクエストを委任したりできます。 この記事では、承認リクエストをデリゲートする方法について説明します。タスクとイシューの割り当ての委任については、[ タスクとイシューの委任 ](../../manage-work/delegate-work/how-to-delegate-work.md) を参照してください。
 
 承認の割り当て方法（直接自分に割り当てられたか、自分が所属するチームに割り当てられたか、自分の担当業務に割り当てられたか）に関係なく、以下のタイプの承認をデリゲートできます。
 
@@ -37,8 +37,6 @@ ht-degree: 74%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,17 +44,20 @@ ht-degree: 74%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td>
+   <p>貢献以上</p>
+   <p>レビュー以上</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-お持ちのプランやライセンスの種類を確認するには、Workfront管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -104,7 +105,7 @@ ht-degree: 74%
 
 別のユーザーに承認を委任するには、次の手順に従います。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
 1. マイ承認ウィジェットに移動し、「**マイ承認をデリゲート**」をクリックします。
 
@@ -112,7 +113,7 @@ ht-degree: 74%
    >
    >Workfront管理者は、設定エリアから承認の委任を無効にすることができます。 承認委任が無効になっている場合、「承認を委任」ボタンは表示されません。
 
-   ![&#x200B; ホームでの承認の委任 &#x200B;](assets/delegate-approvals-home.png)
+   ![ ホームでの承認の委任 ](assets/delegate-approvals-home.png)
 
 1. 「マイ承認を委任」セクションで、次の情報を指定します。
 
@@ -145,11 +146,11 @@ ht-degree: 74%
 
 ## 承認委任の更新または停止 {#update-or-stop-an-approval-delegation}
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
 
 1. 自分の承認ウィジェットに移動し、「**委任を編集**」をクリックします。
-   ![&#x200B; 委任を編集 &#x200B;](assets/edit-delegations.png)
+   ![ 委任を編集 ](assets/edit-delegations.png)
 <!--
    Or
 
@@ -171,7 +172,7 @@ ht-degree: 74%
 
 委任された承認を表示するには、次の手順に従います。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
 1. **マイ承認** ウィジェットで「**フィルター**」ドロップダウンメニューをクリックし、「**委任済み承認**」をクリックします。\
    自分に委任されたすべての承認がリストに表示されます。

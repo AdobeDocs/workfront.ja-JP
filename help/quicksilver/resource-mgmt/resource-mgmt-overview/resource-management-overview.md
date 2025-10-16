@@ -8,9 +8,9 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 97%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 97%
 * [リソース計画：記事インデックス](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
 * [ワークロードバランサー：記事インデックス](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md)
 * [リソース稼働率](/help/quicksilver/resource-mgmt/resource-utilization/resource-utilization.md)
-* [Adobe Workfront シナリオプランナー](/help/quicksilver/scenario-planner/scenario-planning.md)
+* [[!DNL Adobe Workfront Scenario Planner]：記事インデックス](/help/quicksilver/scenario-planner/scenario-planning.md)
 
 
 

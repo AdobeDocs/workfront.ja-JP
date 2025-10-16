@@ -1,32 +1,34 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Adobe Workfront での変換の問題の概要
+title: Adobe Workfrontでの問題の変換の概要
 description: イシューの送信後に、イシューを完了するために必要な作業が他にもある場合は、そのイシューをプロジェクトまたはタスクに変換することができます。
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 86%
+source-wordcount: '1497'
+ht-degree: 83%
 
 ---
 
 # Adobe Workfront での変換の問題の概要
 
+<!--Audited: 08/2025-->
+
 イシューの送信後に、イシューを完了するために必要な作業が他にもある場合は、そのイシューをプロジェクトまたはタスクに変換することができます。
 
-イシューのタスクへの変換について詳しくは、[Adobe Workfront でイシューをタスクに変換](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)を参照してください。
+問題をタスクに変換する方法については、[ 問題をタスクに変換 ](../../../manage-work/issues/convert-issues/convert-issue-to-task.md) を参照してください。
 
-イシューのプロジェクトへの変換について詳しくは、[Adobe Workfront でイシューをプロジェクトに変換](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)を参照してください。
+問題をプロジェクトに変換する方法については、「[ 問題をプロジェクトに変換 ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)」を参照してください。
 
 ## イシューを変換する際の考慮事項
 
 * 問題をタスクまたはプロジェクトに変換する場合、この記事で特に指定されていない限り、問題からのほとんどの情報はタスクまたはプロジェクトに転送されます。
-* [&#x200B; システム全体のタスクおよびイシューの環境設定の設定 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) に示すように、Workfront管理者またはグループ管理者は、イシューがプロジェクトまたはタスクに変換されたときのイシューの処理方法、解決策、プライマリ連絡先のアクセス権に関する環境設定を既に設定しています。
+* [ システム全体のタスクおよびイシューの環境設定の設定 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) に示すように、Workfront管理者またはグループ管理者は、イシューがプロジェクトまたはタスクに変換されたときのイシューの処理方法、解決策、プライマリ連絡先のアクセス権に関する環境設定を既に設定しています。
 * Workfront は、変換時にイシューに関連する承認をすべて削除します。
 * タスクまたはプロジェクトに変換すると、Workfront はイシューの解決オブジェクトを上書きします。新しいタスクまたはイシューは、変換後に新しいイシューの解決オブジェクトになります。
 * 次の点に注意してください。
@@ -62,7 +64,7 @@ ht-degree: 86%
 
 イシューをプロジェクトに変換する場合は、空のプロジェクトに変換するか、テンプレートを使用します。
 
-詳しくは、[イシューを Adobe Workfront のプロジェクトに変換](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)を参照してください。
+詳しくは、[ イシューのプロジェクトへの変換 ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md) を参照してください。
 
 テンプレートを使用する場合、テンプレートに入力される一部のフィールドは、変換されたイシューから作成されたプロジェクトに転送されます。その他のフィールドは、変換されたイシューからプロジェクトに転送されます。
 

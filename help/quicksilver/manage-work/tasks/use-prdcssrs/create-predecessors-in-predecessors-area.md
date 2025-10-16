@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: 先行タスク領域を使用した先行タスク関係の作成
+title: 先行タスクエリアを使用した先行タスク関係の作成
 description: 先行タスク （または単に先行タスク）を使用すると、他のタスクに依存するタスクを開始または完了するようにリンクできます。
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 46%
+source-wordcount: '419'
+ht-degree: 36%
 
 ---
 
@@ -33,34 +33,33 @@ ht-degree: 46%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> 
-   <p>標準 </p>
-    <p>プラン </p> </td> 
+   <td><p>標準</p> 
+   <p>プラン</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクおよびプロジェクトに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへの利用申請</a>を参照してください。</p> </td> 
+   <td> <p>タスクおよびプロジェクトに対する権限の管理</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -78,7 +77,7 @@ ht-degree: 46%
 
 1. （任意）プロジェクト間の先行タスクを追加するには、「**親プロジェクト**」フィールドのプロジェクト名を別のプロジェクトに置き換えます。
 
-   詳しくは、[&#x200B; プロジェクト間先行タスクの作成 &#x200B;](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) を参照してください。
+   詳しくは、[ プロジェクト間先行タスクの作成 ](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) を参照してください。
 
    >[!TIP]
    >
@@ -89,20 +88,20 @@ ht-degree: 46%
 
 1. **依存関係タイプ**&#x200B;を選択します。
 
-   詳しくは、[&#x200B; タスク依存関係タイプの概要 &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md) を参照してください。
+   詳しくは、[ タスク依存関係タイプの概要 ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md) を参照してください。
 
 1. **間隔** の値を入力します。
 
-   詳しくは、&#x200B;[&#x200B; 間隔の種類の概要 &#x200B;](../../../manage-work/tasks/use-prdcssrs/lag-types.md) を参照してください。
+   詳しくは、&#x200B;[ 間隔の種類の概要 ](../../../manage-work/tasks/use-prdcssrs/lag-types.md) を参照してください。
 
-   ![&#x200B; 先行タスクの追加ダイアログボックス &#x200B;](assets/add-predecessor-dialog-box.png)
+   ![ 先行タスクの追加ダイアログボックス ](assets/add-predecessor-dialog-box.png)
 
 1. 2 つのタスク間の先行タスク関係を適用する場合は、「**適用**」チェックボックスを選択します。
 
-   詳しくは、[&#x200B; 先行タスクの適用 &#x200B;](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) を参照してください。
+   詳しくは、[ 先行タスクの適用 ](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) を参照してください。
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
-1. （オプション）先行タスクを削除するには、先行タスクのリストから先行タスクを選択し、**削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/remove-or-delete-icon.png) をクリックします。
+1. （オプション）先行タスクを削除するには、先行タスクのリストから先行タスクを選択し、**削除** アイコン ![ 削除アイコン ](assets/remove-or-delete-icon.png) をクリックします。
 
    先行タスクがリストから削除されます。 先行タスクはプロジェクトから削除されません。

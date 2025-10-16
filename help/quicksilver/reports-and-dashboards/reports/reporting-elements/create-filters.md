@@ -6,9 +6,9 @@ description: フィルターを使用して項目リストの画面に表示す�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2375'
 ht-degree: 96%
 
 ---
@@ -35,48 +35,35 @@ Adobe Workfront では、次のタイプのフィルターを適用できます�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</strong></td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>フィルターを変更するコントリビューター</p></li>
-         <li><p>レポートのフィルターを変更する標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>フィルターを変更する場合は「要求」</p></li>
-         <li><p>レポートのフィルターの変更を計画します</p></li>
-         </ul>
+    <p>フィルターの変更者または変更依頼</p>
+    <p>レポートのフィルターを変更するための「標準」または「プラン」</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <ul><li><p>フィルター、ビュー、グループ化の編集アクセス権</p></li></ul>
-
-レポートでフィルターを編集するには、フィルター、ビュー、グループに対する編集アクセスに加えて、次のアクセスレベル設定が必要です。
-
-<ul><li><p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></li></ul>   
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクトの権限*</strong></td> 
-   <td> <p>フィルターに対する権限を管理する</p></td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>フィルターに対する権限を管理する</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -245,7 +232,7 @@ Workfront オブジェクトについて詳しくは、[Adobe Workfront のオ�
 
    また、「**フィールドを参照**」をクリックすると、フィルタリングに使用できるすべてのフィールドの一覧が表示されます。詳細検索のフィールドは、オブジェクトカテゴリ別にグループ化されます。
 
-   ![&#x200B; フィルターに使用するフィールドを検索 &#x200B;](assets/new-filter-search-for-field.png)
+   ![ フィルターに使用するフィールドを検索 ](assets/new-filter-search-for-field.png)
 
 1. 修飾子のドロップダウンメニューをクリックして、修飾子を選択します。デフォルトの修飾子は「等しい」です。
 
@@ -363,7 +350,7 @@ Workfront オブジェクトについて詳しくは、[Adobe Workfront のオ�
 フィルターの作成に使用する方法に関係なく、フィルターを最初から作成することも、既存のフィルターから作成することも同様です。
 
 1. カスタマイズするフィルターを含むリストまたはレポートに移動します。
-1. **フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) をクリックしてから、**詳細** アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックして、**従来のフィルターに戻る** をクリックします。
+1. **フィルター** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックしてから、**詳細** アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックして、**従来のフィルターに戻る** をクリックします。
 
    >[!TIP]
    >
@@ -373,7 +360,7 @@ Workfront オブジェクトについて詳しくは、[Adobe Workfront のオ�
 
    または
 
-   変更するフィルターの上にマウスポインターを置き、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+   変更するフィルターの上にマウスポインターを置き、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    フィルター起動をカスタマイズするためのビルダー。
 

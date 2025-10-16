@@ -3,13 +3,13 @@ product-area: requests
 navigation-topic: create-requests
 title: ドラフトからのリクエストの作成
 description: 新しいリクエストを入力する際に Workfront が提案する利用可能なドラフトを使用する以外に、「ドラフト」セクションからドラフトリクエストにアクセスし、そこから送信を完了することもできます。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 84%
+source-wordcount: '664'
+ht-degree: 82%
 
 ---
 
@@ -23,21 +23,18 @@ ht-degree: 84%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：Contributor 以上</p>
-   または
-   <p>現在：Request 以上</p>
+   <td> <p>投稿者以上</p>
+   <p>リクエスト以上</p>
     </td> 
   </tr> 
   <tr> 
@@ -51,7 +48,7 @@ ht-degree: 84%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -111,5 +108,5 @@ ht-degree: 84%
    >[!NOTE]
    >
    >* <span class="preview"> 新しいリクエスト用エクスペリエンスでは、ドラフトは送信されたリクエストと同じリストにあります。</span>
-   ><span class="preview"> 新しいエクスペリエンスでのリクエストの作成について詳しくは、[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) の記事「Workfront Web アプリでのリクエストの作成とドラフトの生成」を参照してください。</span>
+   ><span class="preview"> 新しいエクスペリエンスでのリクエストの作成について詳しくは、[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) の記事「Workfront Web アプリでのリクエストの作成とドラフトの生成」を参照してください。</span>
 

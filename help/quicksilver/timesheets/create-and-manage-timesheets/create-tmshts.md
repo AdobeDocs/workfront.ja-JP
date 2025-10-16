@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 1 回限りのタイムシートの作成
 description: 定期的でないタイムシートが必要な場合は、1 回限りのタイムシートを手動で作成できます。タイムシートの終了日に達し、より多くのタイムシートが必要になった場合は、新しいタイムシートを作成する必要があります。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 89%
+source-wordcount: '1062'
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 ユーザーからの追加の介入なしに（推奨）、定期的なタイムシートを生成するタイムシートプロファイルの作成について詳しくは、[タイムシートプロファイルの作成、編集、割り当て](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
-タイムシートプロファイルに関連付けられた、システム内のすべてのユーザーのタイムシートを手動で生成する方法については、[&#x200B; タイムシートを手動で生成する &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) を参照してください。
+タイムシートプロファイルに関連付けられた、システム内のすべてのユーザーのタイムシートを手動で生成する方法については、[ タイムシートを手動で生成する ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) を参照してください。
 
 >[!NOTE]
 >
@@ -38,29 +38,28 @@ ht-degree: 89%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、以下を保有している必要があります。
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意</p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準 </p>
-   <p>現在：プラン </p> </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td>
+   <p>標準</p>
+   <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル</td> 
-   <td> <p>タイムシートに対する管理アクセス権が必要です。 </p>  </td> 
+   <td>アクセスレベル設定</td> 
+   <td><p>タイムシートへの管理アクセス</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -70,7 +69,7 @@ ht-degree: 89%
 
 **すべて**&#x200B;のフィルターがデフォルトでは選択されています。これにより、表示するアクセス権のあるすべてのタイムシートが表示されます。
 
-![1 つのタイムシートが選択されたタイムシートリスト &#x200B;](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![1 つのタイムシートが選択されたタイムシートリスト ](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
@@ -82,9 +81,9 @@ ht-degree: 89%
 
      これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートのリストに適用されます。
 
-     ![&#x200B; マイタイムシートのフィルターボタンがタイムシートリストページに表示されます &#x200B;](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![ マイタイムシートのフィルターボタンがタイムシートリストページに表示されます ](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * **フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * **フィルター** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
@@ -93,9 +92,9 @@ ht-degree: 89%
    >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. （任意） **検索** アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックしてキーワードを入力し、特定のタイムシートを検索します。 例えば、所有者名のタイムシート期間を検索できます。
+1. （任意） **検索** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックしてキーワードを入力し、特定のタイムシートを検索します。 例えば、所有者名のタイムシート期間を検索できます。
 
-1. （任意） **表示** ![&#x200B; 表示アイコン &#x200B;](assets/view-icon.png) または **グループ化** ![&#x200B; グループ化アイコン &#x200B;](assets/grouping.png) アイコンをクリックして、別のビューやグループ化を適用するか、新しいビューやグループを作成します。
+1. （任意） **表示** ![ 表示アイコン ](assets/view-icon.png) または **グループ化** ![ グループ化アイコン ](assets/grouping.png) アイコンをクリックして、別のビューやグループ化を適用するか、新しいビューやグループを作成します。
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 

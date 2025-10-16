@@ -7,10 +7,10 @@ description: パフォーマンス指標として、完了時の見積もり（E
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 98%
+source-wordcount: '825'
+ht-degree: 97%
 
 ---
 
@@ -28,35 +28,32 @@ ht-degree: 98%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront プラン</td> 
    <td>
-   <p>新規：ライト以上</p>
-   <p>または</p>
-   <p>現在：レビュー以上</p></td>  
+   <p>ライト以上</p>
+   <p>レビュー以上</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>プロジェクトおよび財務データへのアクセス権を表示</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td>財務情報を表示する権限を持つプロジェクトに対する表示以上の権限</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -140,4 +137,4 @@ EAC = EAC Labor + EAC Expense
 
    EAC の値が「**完了時の見積もり**」フィールドに表示されます。
 
-   ![&#x200B; プロジェクトの EAC](assets/eac-highlighted-on-project-350x112.png)
+   ![ プロジェクトの EAC](assets/eac-highlighted-on-project-350x112.png)

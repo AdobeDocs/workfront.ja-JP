@@ -6,9 +6,10 @@ title: テンプレート タスクの削除
 description: 不要になったテンプレートタスクは削除できます。 削除されたテンプレートタスクは復元できません。 テンプレートタスクから作成されたプロジェクトタスクは、削除も変更もされません。
 author: Alina
 feature: Work Management
-source-git-commit: bbf2d987bf3267117ab61b123141dd2cb2f82fc3
+exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '275'
 ht-degree: 19%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 19%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +36,12 @@ ht-degree: 19%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <p>標準 </p>
-   <p>プラン </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td> <p>標準</p>
+   <p>プラン</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベル</p></td> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
    <td> <p>テンプレートへの編集アクセス</p>  </td> 
   </tr> 
   <tr> 
@@ -50,9 +51,35 @@ ht-degree: 19%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level</p></td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p> </td> 
+   <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## テンプレートタスクの削除
 
@@ -63,8 +90,8 @@ ht-degree: 19%
 1. テンプレートの名前をクリックして開きます。
 1. 左側のパネルの「**テンプレートタスク**」をクリックします。
 1. 次のいずれかの操作を行います。
-   * リストでテンプレートタスクの名前をクリックしてテンプレートタスクを開き、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-icon.png)/**テンプレートタスクを削除** をクリックします。
-   * リスト/**削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) で 1 つまたは複数のテンプレートタスクを選択します。
+   * リストでテンプレートタスクの名前をクリックしてテンプレートタスクを開き、**詳細** メニュー ![ 詳細メニュー ](assets/more-icon.png)/**テンプレートタスクを削除** をクリックします。
+   * リスト/**削除** アイコン ![ 削除アイコン ](assets/delete.png) で 1 つまたは複数のテンプレートタスクを選択します。
 
    **テンプレートタスクを削除** ボックスが開きます。
 1. **はい、削除します** をクリックして確認します。
@@ -76,7 +103,3 @@ ht-degree: 19%
 >テンプレートタスクの左側のパネルで「先行タスク」セクションまたは「サブタスク」セクションをクリックすると、先行タスクまたはサブタスクを削除できます。
 >
 >上記の手順を繰り返して、テンプレートタスクの先行タスクまたはサブタスクを削除します。
-
-
-
-

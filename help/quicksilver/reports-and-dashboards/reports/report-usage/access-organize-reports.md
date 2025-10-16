@@ -6,10 +6,10 @@ description: Adobe Workfront のレポートを使用すると、システム内
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: da574efdede5aee34518f251cabdfe96983a69eb
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 87%
+source-wordcount: '469'
+ht-degree: 83%
 
 ---
 
@@ -19,38 +19,42 @@ Adobe Workfront のレポートを使用すると、システム内のオブジ�
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>標準</p>
+   <p>プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## レポートの表示
 
 自分が作成した、または自分と共有されている、または一般に共有されているレポートにアクセスするには、次の手順を実行します。
 
-1. **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) から、「**レポート**」をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) から、「**レポート**」をクリックします。
 
 1. 表示するレポートに応じて、次のいずれかのオプションをクリックします。
 
@@ -67,10 +71,10 @@ Adobe Workfront のレポートを使用すると、システム内のオブジ�
 
 ### レポート用の新しいフォルダーを作成 {#create-a-new-folder-for-reports}
 
-1. **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) から、「**レポート**」をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) から、「**レポート**」をクリックします。
 
 1. 「**新規フォルダー**」アイコンをクリックします。\
-   ![&#x200B; 新規フォルダーアイコン &#x200B;](assets/nwe-new-folder-350x346.png)
+   ![ 新規フォルダーアイコン ](assets/nwe-new-folder-350x346.png)
 
 1. 新しいフォルダーの名前を指定し、Enter キーを押します。
 1. **マイレポート**&#x200B;フォルダーから新しいフォルダーにレポートを追加します。\
@@ -82,17 +86,17 @@ Adobe Workfront のレポートを使用すると、システム内のオブジ�
 
 ### フォルダーへレポートを追加 {#add-reports-to-a-folder}
 
-1. **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) から、「**レポート**」をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) から、「**レポート**」をクリックします。
 
 1. 「**マイレポート**」をクリックします。\
    または\
    **マイレポート**&#x200B;フォルダーにネストされている任意のフォルダーをクリックします。
 
-1. レポートを選択し、リスト上部のフォルダーアイコン ![&#x200B; フォルダーアイコン &#x200B;](assets/folder-icon.png) をクリックします。
+1. レポートを選択し、リスト上部のフォルダーアイコン ![ フォルダーアイコン ](assets/folder-icon.png) をクリックします。
 
 1. レポートを追加するフォルダーを選択します。
 
-   ![&#x200B; レポートの移動先のフォルダーを選択 &#x200B;](assets/choose-folder.png)
+   ![ レポートの移動先のフォルダーを選択 ](assets/choose-folder.png)
 
    >[!NOTE]
    >

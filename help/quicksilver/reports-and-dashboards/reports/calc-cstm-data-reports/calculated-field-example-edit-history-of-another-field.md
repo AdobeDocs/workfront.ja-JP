@@ -3,15 +3,15 @@ content-type: reference
 product-area: reporting
 keywords: 監査, 履歴, カスタム, フィールド
 navigation-topic: calculate-custom-data-reports
-title: 「計算済みカスタムフィールドの例：フィールドの編集履歴の表示」
+title: 計算済みカスタムフィールドの例：フィールドの編集履歴の表示
 description: ユーザーが定期的にカスタムフィールドを更新し、フィールドに加えられたすべての変更のログと変更が発生した日付をキャプチャする場合は、計算済みカスタムフィールドにその情報をキャプチャすることができます。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 58%
+source-wordcount: '612'
+ht-degree: 52%
 
 ---
 
@@ -35,35 +35,38 @@ ht-degree: 58%
 
 ## アクセス要件
 
-以下が必要です。
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront プラン*</p> </td> 
-   <td>任意</td> 
+   <td> <p>Adobe Workfront パッケージ</p> </td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront ライセンス*</p> </td> 
-   <td> <p>プラン </p> </td> 
+   <td> <p>Adobe Workfront プラン</p> </td> 
+   <td>
+      <p>標準</p>
+      <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td><strong>アクセスレベル設定*</strong> </td> 
-   <td> <p>カスタムFormsへの管理アクセス</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td><p>アクセスレベル設定</p></td> 
+   <td> <p>カスタムFormsへの管理アクセス</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>オブジェクトの権限</strong> </p> </td> 
-   <td> <p>カスタムフォームに対する権限の管理 </p> <p>詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">カスタムフォームの共有</a>を参照してください。<br></p> </td> 
+   <td> <p>オブジェクト権限</p> </td> 
+   <td> <p>カスタムフォームに対する権限の管理</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 

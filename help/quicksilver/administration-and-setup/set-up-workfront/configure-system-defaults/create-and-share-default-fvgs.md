@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 4fbf88c544cd56887e6f6f36d7aabfa0668a2a05
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 47%
+source-wordcount: '801'
+ht-degree: 45%
 
 ---
 
@@ -33,32 +33,27 @@ ht-degree: 47%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：[!UICONTROL Standard]</p>
-   または
-   <p>現在：[!UICONTROL Plan]</p>
-   </td> 
-  </tr>
+   <td>[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
+  </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -118,21 +113,21 @@ ht-degree: 47%
 
 ## 特定のユーザーとカスタムフィルター、ビュー、またはグループ化を共有
 
-以下の手順では、「設定  の [!UICONTROL &#x200B; インターフェイス &#x200B;] 領域の共有ダイアログを使用して、カスタムフィルター、ビュー、グループ化を特定のユーザーと共有する方法について説明  ます。 自分または他のユーザーが作成したフィルター、ビュー、グループ化に対する表示アクセスまたは管理アクセスを許可できます。 システムのデフォルトをユーザーと共有することはできません。
+以下の手順では、「設定 [!UICONTROL  の ] インターフェイス [!UICONTROL  領域の共有ダイアログを使用して、カスタムフィルター、ビュー、グループ化を特定のユーザーと共有する方法について説明 ] ます。 自分または他のユーザーが作成したフィルター、ビュー、グループ化に対する表示アクセスまたは管理アクセスを許可できます。 システムのデフォルトをユーザーと共有することはできません。
 
 
 {{step-1-to-setup}}
 
 1. 「**[!UICONTROL インターフェース]**」をクリックし、「**[!UICONTROL フィルター]**」、「**[!UICONTROL ビュー]**」または「**[!UICONTROL グループ化]**」のいずれかをクリックします。
 
-1. 共有するフィルター、ビュー、またはグループ化を選択して、**[!UICONTROL 共有]** アイコン ![&#x200B; 共有アイコン &#x200B;](assets/share-icon.png) をクリックします。
+1. 共有するフィルター、ビュー、またはグループ化を選択して、**[!UICONTROL 共有]** アイコン ![ 共有アイコン ](assets/share-icon.png) をクリックします。
 1. フィルター、ビューまたはグループ化を共有する特定のユーザー、チーム、役割、グループまたは会社の名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
 
    共有について詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
 1. ユーザー **チーム、役割、グループまたは会社の名前の横にある「** 表示 **または** 管理」を選択します。 権限を微調整するには、スライダーアイコンをクリックし、権限を調整します。
 
-   ![&#x200B; 権限の微調整 &#x200B;](assets/fine-tune-permissions.png)
+   ![ 権限の微調整 ](assets/fine-tune-permissions.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。指定したユーザーは、関連付けたオブジェクト タイプを表示するときに、フィルタ、表示、グループ化を操作できるようになりました。
 

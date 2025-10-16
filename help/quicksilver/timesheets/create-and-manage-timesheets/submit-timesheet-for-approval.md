@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 承認用タイムシートを送信
 description: 承認のためタイムシートを提出すると、マネージャーはあなたの労働時間を把握できるようになります。承認者は、記録されたすべての時間が正しい領域に割り当てられていること、およびその期間に十分な時間が記録されていることを確認できます。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 82%
+source-wordcount: '839'
+ht-degree: 81%
 
 ---
 
@@ -23,33 +23,31 @@ ht-degree: 82%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：ライト以上 </p>
-   <p>現在：レビュー以上 </p>
+   <td>Adobe Workfront プラン</td> 
+   <td> <p>ライト以上 </p>
+   <p>レビュー以上 </p>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>タスクとイシューに対する表示またはそれ以上のアクセス権限 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td> <p>タイムシートに対する表示以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -60,7 +58,7 @@ ht-degree: 82%
 
 ### 承認用のタイムシートを送信
 
-タイムシート承認者が設定されると（「タイムシート承認者の指定 [&#x200B; の記事 &#x200B;](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) タイムシートの承認 [&#x200B; の説明に従って &#x200B;](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)、タイムシートの下部にある「**閉じる**」ボタンが **承認用に送信** ボタンに変わります。
+タイムシート承認者が設定されると（「タイムシート承認者の指定 [ の記事 ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) タイムシートの承認 [ の説明に従って ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)、タイムシートの下部にある「**閉じる**」ボタンが **承認用に送信** ボタンに変わります。
 
 承認用のタイムシートを送信するには、次の手順に従います。
 
@@ -83,7 +81,7 @@ ht-degree: 82%
 
 タイムシートを送信した後、タイムシートのステータスを表示できます。
 
-Workfront 管理者がユーザーへのタイムシート承認イベントハンドラーとユーザーへのタイムシート拒否イベントハンドラーを有効にしている場合、タイムシートが承認または拒否された後に通知が届きます。イベント通知の有効化について詳しくは、[&#x200B; イベント通知タイプ &#x200B;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
+Workfront 管理者がユーザーへのタイムシート承認イベントハンドラーとユーザーへのタイムシート拒否イベントハンドラーを有効にしている場合、タイムシートが承認または拒否された後に通知が届きます。イベント通知の有効化について詳しくは、[ イベント通知タイプ ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
 
 これらの通知がない場合、Workfront のタイムシートエリアで、送信したタイムシートのステータスを確認できます。
 

@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: プロジェクトにスコアカードを適用し、整合性スコアを生成
 description: スコアカードを使用して、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合しているかを測定できます。スコアカードは、多くの場合、組織の使命、価値、戦略的目標を反映しています。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 93%
+source-wordcount: '1211'
+ht-degree: 94%
 
 ---
 
@@ -29,18 +29,15 @@ ht-degree: 93%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>
-   <p>現在：Prime以降</p>
-   <p>または</p>
-   <p>レガシー：ビジネス以上</p> </td>
+   <p>Prime以上</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>現在：標準</p>
-   <p>または</p>
-   <p>レガシー：プラン</p></td>  
+   <p>標準</p>
+   <p>プラン</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -53,7 +50,7 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -180,7 +177,7 @@ ht-degree: 93%
 {{step1-to-portfolios}}
 
 1. ポートフォリオの名前をクリックします。
-1. 左側のパネルで **0&rbrace;Portfolioの最適化 &rbrace; をクリックします。**&#x200B;ポートフォリオオプティマイザーが表示されます。
+1. 左側のパネルで **0}Portfolioの最適化 } をクリックします。**&#x200B;ポートフォリオオプティマイザーが表示されます。
 
    プロジェクトの整合性スコアは、ポートフォリオオプティマイザーの「**整合性**」に、パーセンテージで表示されます。
 

@@ -7,10 +7,10 @@ description: 予定利益とは、プロジェクトが完了した場合に組�
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 95%
+source-wordcount: '315'
+ht-degree: 93%
 
 ---
 
@@ -27,35 +27,32 @@ ht-degree: 95%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td>任意 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td>  
+   <p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>プロジェクトおよび財務データへのアクセスを編集する</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td>財務を管理する権限を持つプロジェクトに対する権限の管理</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、ユーザーにアクセスレベル
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 72%
+source-wordcount: '817'
+ht-degree: 71%
 
 ---
 
@@ -29,43 +29,35 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-オブジェクトを共有するには、次の条件を満たしている必要があります。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-      <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>ライト以上</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>レビュー以上</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>ライト</p>
+      <p>レビュー</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権またはそれ以上の権限を表示</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>報告書、ダッシュボード、カレンダーへのアクセスを表示する（またはそれ以上）</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートの表示以上以上の権限</p></td> 
+   <td> <p>レポートに対する権限以上を表示</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -122,7 +114,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
    * **システム内の全員が閲覧できます** レポートへのアクセス権を持つWorkfront内の全員がレポートを閲覧できるように、このオプションを選択します。
 
-1. （オプション）共有ボックスの右上隅にある **歯車** アイコン ![&#x200B; 歯車アイコン設定 &#x200B;](assets/gear-icon-settings-with-dn-arrow.jpg) をクリックし、オプションで次のオプションを選択します。
+1. （オプション）共有ボックスの右上隅にある **歯車** アイコン ![ 歯車アイコン設定 ](assets/gear-icon-settings-with-dn-arrow.jpg) をクリックし、オプションで次のオプションを選択します。
 
    * **これを外部ユーザーに公開** 他のユーザーと共有できる URL を生成する場合は、このオプションを選択します。 URL を知っているユーザーは誰でも、Adobe Workfront のライセンスを持っていなくてもレポートにアクセスできます。
 
@@ -132,6 +124,6 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
      >[!NOTE]
      >
-     >報告書にプロンプトがあり、それを公開で共有する場合、公開共有リンクを介して報告書を実行しているユーザーは、プロンプトを使用して報告書を実行できません。 Workfrontにログインして、公開共有リンクを使用せずにレポートにアクセスしない限り、レポートはプロンプトの適用なしで表示されます。 プロンプトを使用したレポートの共有制限の詳細については、「[&#x200B; プロンプトをレポートに追加する &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) の記事の [&#x200B; プロンプト レポートの共有制限 &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) を参照してください。
+     >報告書にプロンプトがあり、それを公開で共有する場合、公開共有リンクを介して報告書を実行しているユーザーは、プロンプトを使用して報告書を実行できません。 Workfrontにログインして、公開共有リンクを使用せずにレポートにアクセスしない限り、レポートはプロンプトの適用なしで表示されます。 プロンプトを使用したレポートの共有制限の詳細については、「[ プロンプトをレポートに追加する ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) の記事の [ プロンプト レポートの共有制限 ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) を参照してください。
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。

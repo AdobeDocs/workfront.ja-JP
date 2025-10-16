@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 定期タイムシートの削除
 description: 関係がなくなった定期タイムシートは削除できます。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: a94f358e7d4b8a23ff37d1adc0644f4e3ee6f013
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -25,30 +25,30 @@ ht-degree: 25%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意</p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準</p>
-   または
-   <p>現在：プラン </p> </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td>
+   <p>標準</p>
+   <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>タイムシートに対する管理アクセス権が必要です。 </p>  </td> 
+   <td>アクセスレベル設定</td> 
+   <td><p>タイムシートへの管理アクセス</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 25%
 1. 削除する 1 つ以上のタイムシートプロファイルを選択し、システム全体のタイムシートプロファイルの **詳細** アイコン ![](assets/more-icon.png) > **削除** をクリックします
 
 1. 「**定期タイムシート**」をクリックします。
-1. 削除するタイムシートプロファイルを 1 つ以上選択し、詳細アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png)/**削除** をクリックします。
+1. 削除するタイムシートプロファイルを 1 つ以上選択し、詳細アイコン ![ 詳細アイコン ](assets/more-icon.png)/**削除** をクリックします。
 または
 グループレベルのタイムシートプロファイルで **その他**/**削除** をクリックします。
 1. （条件付き）タイムシートプロファイルが既にユーザーに割り当てられている場合、「**置き換えるタイムシートプロファイル**」ボックスが表示されます。 次の操作を実行します。

@@ -6,10 +6,10 @@ description: Workfront では、複数のバージョンのドキュメントを
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 51%
+source-wordcount: '607'
+ht-degree: 45%
 
 ---
 
@@ -23,33 +23,28 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td> 
-   <p>新規：Contributor 以上<p>
-   <p>または</p>
-   <p>現在：Request 以上 </p>
-
-
-</td> 
+   <p>投稿者以上</p>
+   <p>リクエスト以上 </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>ドキュメントへのアクセスを表示</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントへのアクセスを表示</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ドキュメントに対する表示アクセス権</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントに対する表示アクセス権</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +65,7 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
 
 1. **ドキュメント** ページで、リスト内のドキュメントを選択します。
 
-1. ページの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
+1. ページの右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
 
 1. 「**バージョン**」セクションまでスクロールすると、すべてのドキュメントバージョンが表示されます。
 
@@ -82,7 +77,7 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
 
 1. **ドキュメントの詳細** ページの上部付近で、名前の横にあるドロップダウンメニューをクリックし、表示および管理するバージョンの名前をクリックします。
 
-   ![&#x200B; ドキュメントの詳細ページのバージョンドロップダウン &#x200B;](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![ ドキュメントの詳細ページのバージョンドロップダウン ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    バージョンの詳細を表示するだけでなく、名前、メタデータ、プルーフ設定（ドキュメントプルーフの場合）など、バージョンに変更を加えることができます。
 
@@ -92,11 +87,11 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
 
 1. **ドキュメント** ページで、リスト内のドキュメントを選択します。
 
-1. ページの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
+1. ページの右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
 
-1. [**バージョン**] セクションで、バージョンの右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-icon.png) をクリックし、表示されるドロップダウン リストで **ダウンロード** をクリックします。
+1. [**バージョン**] セクションで、バージョンの右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-icon.png) をクリックし、表示されるドロップダウン リストで **ダウンロード** をクリックします。
 
-   ![1 つのドキュメントのダウンロード &#x200B;](assets/more-versions-350x143.png)
+   ![1 つのドキュメントのダウンロード ](assets/more-versions-350x143.png)
 
 ## ドキュメントのすべてのバージョンをダウンロード
 
@@ -104,7 +99,7 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
 
 1. **ドキュメント** ページで、リスト内のドキュメントを選択します。
 
-1. ページの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
+1. ページの右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
 
 1. 「**バージョン**」セクションまでスクロールし、「**すべてダウンロード**」をクリックします。
 
@@ -132,14 +127,14 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
 
 1. **ドキュメント** ページで、リストからドキュメントを選択します。
 
-1. ページの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
+1. ページの右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
 
 1. 「**バージョン**」セクションまでスクロールすると、すべてのドキュメントバージョンが表示されます。
-1. [**バージョン**] セクションで、バージョンの右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-icon.png) をクリックし、表示されるドロップダウン リストで **削除** をクリックします。
+1. [**バージョン**] セクションで、バージョンの右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-icon.png) をクリックし、表示されるドロップダウン リストで **削除** をクリックします。
 
    >[!NOTE]
    >
    >* 「**削除**」オプションは、バージョンが少なくとも 2 つある場合にのみ表示されます。
    >* ドキュメントが外部のソースにリンクされている場合、そのリンクは削除され、Workfront を介してドキュメントにアクセスできなくなります。
 
-   ![&#x200B; ドキュメント バージョンの削除 &#x200B;](assets/more-versions-350x143.png)
+   ![ ドキュメント バージョンの削除 ](assets/more-versions-350x143.png)

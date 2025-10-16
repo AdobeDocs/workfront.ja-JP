@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 60%
+source-wordcount: '363'
+ht-degree: 57%
 
 ---
 
@@ -30,31 +30,27 @@ ht-degree: 60%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：[!UICONTROL Standard]</p>
-   または
-   <p>現在：[!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -69,22 +65,22 @@ ht-degree: 60%
 1. 「2021 年度第 1 四半期」などのカスタム四半期の名前を入力します。
 1. カスタム四半期の開始日と終了日を選択します。
 
-   ![&#x200B; カスタム四半期 &#x200B;](assets/custom-quarters-nwe.png)
+   ![ カスタム四半期 ](assets/custom-quarters-nwe.png)
 
 1. （オプション）「**[!UICONTROL カスタム四半期を追加]**」をクリックして、システムにカスタム四半期を追加します。
 
    >[!IMPORTANT]
    >
    > [!DNL Workfront Planning] を購入した場合、四半期の間にギャップや重複があると、カスタム四半期を保存できません。
-   >![&#x200B; 重複警告のあるカスタム四半期 &#x200B;](assets/custom-quarters-with-overlap-warning.png)
+   >![ 重複警告のあるカスタム四半期 ](assets/custom-quarters-with-overlap-warning.png)
    >四半期の間のギャップと重複は、[!DNL Workfront] 顧客にのみ許可されています。
 
 1. （オプションおよび条件付き）会社が [!DNL Workfront] のみを購入した場合、[!DNL Workfront Planning] を付けずに、会計四半期を参照するレポート要素を作成します。
 
 
-   **例：**&#x200B;[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
+   **例：**[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
 
-   ![&#x200B; カスタム四半期を使用したプロジェクトフィルター &#x200B;](assets/example-of-project-filter-with-custom-quarters.png)
+   ![ カスタム四半期を使用したプロジェクトフィルター ](assets/example-of-project-filter-with-custom-quarters.png)
 
    「今四半期」、「次四半期」、「前四半期」の参照は、カスタム四半期の新しい参照に置き換えられます。
 

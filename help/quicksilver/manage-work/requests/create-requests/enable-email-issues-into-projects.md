@@ -3,13 +3,13 @@ product-area: requests
 navigation-topic: create-requests
 title: ユーザーが問題をリクエストキュープロジェクトにメールで送信できるようにする
 description: ユーザーがメールでイシューをプロジェクトに追加できるように、プロジェクトを設定できます。
-author: Alina, Courtney
+author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 82%
+source-wordcount: '789'
+ht-degree: 81%
 
 ---
 
@@ -27,21 +27,18 @@ ht-degree: 82%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：Contributor 以上</p>
-   または
-   <p>現在：Request 以上</p>
+   <td> <p>投稿者以上</p>
+   <p>リクエスト以上</p>
     </td> 
   </tr> 
   <tr> 
@@ -55,7 +52,7 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -79,7 +76,7 @@ ht-degree: 82%
 >* Workfront では、すべてのクラスターにわたるリクエストキューごとに 1 つの一意のメールを使用できます。リクエストキューを無効にする場合、作成したメールアドレスが取り込みメールアドレスボックスに残っている限り、そのメールアドレスが保持されます。取り込みメールの使用を中止する場合は、今後使用できるよう、取り込みメールフィールドから削除する必要があります。
 >
 >* リクエストキューに複数のキュートピックまたはトピックグループがある場合、Workfrontはメールでリクエストを送信するキュートピックをランダムに選択するので、メールでリクエストを管理するのが困難になります。
->  &#x200B;>メールを通じてリクエストを受け取るように設定したプロジェクトには、複数のキュートピックを含めないことをお勧めします。送信されたリクエストが異なるリソースやプロジェクトを対象としている場合は、送信後に手動でルーティングまたは移動する必要があります。
+>  >メールを通じてリクエストを受け取るように設定したプロジェクトには、複数のキュートピックを含めないことをお勧めします。送信されたリクエストが異なるリソースやプロジェクトを対象としている場合は、送信後に手動でルーティングまたは移動する必要があります。
 
 1. メールでのイシューの受信を有効にするプロジェクトに移動します。
 1. 左側のパネルで **キューの詳細** をクリックします。

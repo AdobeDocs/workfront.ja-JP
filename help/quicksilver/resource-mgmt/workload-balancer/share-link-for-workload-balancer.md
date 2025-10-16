@@ -6,10 +6,10 @@ description: リソースエリアを利用できない他のユーザーとワ�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 73%
+source-wordcount: '674'
+ht-degree: 72%
 
 ---
 
@@ -21,25 +21,21 @@ ht-degree: 73%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
-       チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p></td>
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>リソース エリアでワークロードバランサーを使用する場合は、計画します。作業、チームまたはプロジェクトのワークロードバランサーを使用する場合は、次のようにします</p></td>
+  </tr>
+  <tr> 
+   <td>アクセスレベル設定</td> 
    <td> <p>次の項目に対する表示以上のアクセス権：</p> 
     <ul> 
      <li>リソース管理</li> 
@@ -50,13 +46,13 @@ ht-degree: 73%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td>プロジェクト、タスク、イシューに対する表示またはそれ以上の権限</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -123,7 +119,7 @@ ht-degree: 73%
 
      ワークロードバランサーでの情報のフィルタリングの詳細については、[ワークロードバランサーでの情報のフィルタリング](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)を参照してください。
 
-1. **リンクアイコン**![&#x200B; リンクアイコン &#x200B;](assets/wb-shearable-link-icon-small.png) をクリックします。
+1. **リンクアイコン**![ リンクアイコン ](assets/wb-shearable-link-icon-small.png) をクリックします。
 
    これにより、リンクがクリップボードに追加されます。
 
@@ -132,7 +128,7 @@ ht-degree: 73%
    * メール、チャットメッセージ、またはその他のアプリケーションに貼り付けて、他のユーザーと共有します。
    * 外部ページとしてダッシュボードに追加し、ダッシュボードをユーザーのプロファイルまたはレイアウトテンプレートに追加して、ユーザー、チーム、担当業務、グループとレイアウトテンプレートを共有します。
 
-     外部ページの作成について詳しくは、[&#x200B; ダッシュボードへの外部 web ページの埋め込み &#x200B;](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) を参照してください。 レイアウトテンプレートへのダッシュボードの追加について詳しくは、[&#x200B; レイアウトテンプレートを使用して左側のパネルをカスタマイズする &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) を参照してください。
+     外部ページの作成について詳しくは、[ ダッシュボードへの外部 web ページの埋め込み ](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) を参照してください。 レイアウトテンプレートへのダッシュボードの追加について詳しくは、[ レイアウトテンプレートを使用して左側のパネルをカスタマイズする ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) を参照してください。
 
      >[!IMPORTANT]
      >

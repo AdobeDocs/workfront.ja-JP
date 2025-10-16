@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 84%
+source-wordcount: '662'
+ht-degree: 83%
 
 ---
 
@@ -33,32 +33,30 @@ ht-degree: 84%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
+   <td>Adobe Workfront プラン</td> 
+   <td>
+   <p>標準</p>
+   <p>プラン</p></td>
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -66,14 +64,14 @@ ht-degree: 84%
 
 カスタムステータスが「イシュー」ステータスの場合は、4 つのイシュータイプ（バグレポート、変更依頼、イシュー、リクエスト）をすべて有効にする必要があります。例えば、以下に示すイシューステータスでは、「再オープン」には変更依頼のイシュータイプが選択されていないので、デフォルトのステータスとして使用することはきません。
 
-![&#x200B; すべてのイシュータイプが有効 &#x200B;](assets/all-4-issue-types-enabled.png)
+![ すべてのイシュータイプが有効 ](assets/all-4-issue-types-enabled.png)
 
 ## カスタムステータスをグループのデフォルトのステータスとして設定
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックしたあと、ステータスを作成またはカスタマイズするグループの名前をクリックします。
-1. 左側のパネルで、**ステータス**![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックしたあと、ステータスを作成またはカスタマイズするグループの名前をクリックします。
+1. 左側のパネルで、**ステータス**![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 1. デフォルトのステータスとして設定するステータスのタイプに応じて、「**プロジェクト**」、「**タスク**」、または「**イシュー**」タブを開きます。
 1. 右上隅付近にある「**メインメニューを設定**」をクリックします。
 1. 表示されるドロップダウンエリアで、デフォルトのステータスを設定するステータスの横に表示されるデフォルトのステータスを選択します。
@@ -90,7 +88,7 @@ ht-degree: 84%
    >プロジェクトを別のグループに割り当てた場合、プロジェクトのステータスはリロードされ、変更される可能性があります。
 
    1. カスタムステータスを使用するプロジェクトに移動します。
-   1. その他メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
+   1. その他メニュー ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
    1. 表示される&#x200B;**プロジェクトを編集**&#x200B;ボックスの、「**プロジェクトを関連付け**」の&#x200B;**グループ**&#x200B;フィールドで、カスタムステータスを関連付けるグループを選択します。
 
    1. 「**変更を保存**」をクリックします。
@@ -109,4 +107,4 @@ Workfront 管理者がカスタムステータスをデフォルトのステー�
 
 対応するタイプの使用可能なステータスがない場合、ステータスタイプは&#x200B;**非表示**&#x200B;として表示され、作業アイテムには使用できません。
 
-![&#x200B; 利用可能なステータスがありません &#x200B;](assets/when-hide-default-status-no-equivalent.png)
+![ 利用可能なステータスがありません ](assets/when-hide-default-status-no-equivalent.png)

@@ -1,20 +1,24 @@
 ---
 content-type: overview
 navigation-topic: gantt-chart
-title: ガントチャートの概要
-description: '[!UICONTROL ガント]チャートについては、次の記事を参照してください。'
+title: ガントチャート：記事インデックス
+description: Adobe Workfrontのガントチャートは、タスクまたはプロジェクトのリストのタイムラインを視覚的に表現します。 [!UICONTROL ガント]チャートについては、次の記事を参照してください。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: b4dc991e-d89c-4167-ac9c-54bda23d08d8
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 100%
+source-wordcount: '104'
+ht-degree: 73%
 
 ---
 
-# [!UICONTROL ガントチャート]の概要
+# [!UICONTROL  ガントチャート ]：記事インデックス
+
+<!--Audited: 08/2025-->
+
+Adobe Workfront のガントチャートは、タスクやプロジェクトのリストのタイムラインを視覚的に表現します。
 
 この節では、次の記事を扱います。
 

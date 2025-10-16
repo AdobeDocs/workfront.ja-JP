@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 28%
@@ -16,6 +16,8 @@ ht-degree: 28%
 ---
 
 # プログラムの作成と管理：記事インデックス
+
+<!--Audited: 08/2025-->
 
 プログラムは、共通の戦略、目的、目標に貢献するプロジェクトの集まりです。
 

@@ -6,9 +6,9 @@ description: リスト、レポート、ダッシュボード、検索からAdob
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2252'
 ht-degree: 81%
 
 ---
@@ -46,29 +46,20 @@ Workfront インターフェイスからレポートを手動で書き出すこ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-    <p>新規：</p>
-      <ul>
-      <li>ライト以上</li>
-      </ul>
-    <p>現在：</p>
-      <ul>
-      <li>レビュー以上</li>
-    </td> 
+   <td> 
+      <p>ライト</p>
+      <p>レビュー</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -81,7 +72,7 @@ Workfront インターフェイスからレポートを手動で書き出すこ�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -160,9 +151,9 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
   >
   >レポート列を含むレポートをエクスポートすると、レポートがリストされたエクスポートの制限内にない場合でも、エラーが発生する場合があります。
   >
-  >書き出し機能を使用してレポート列を含むレポートを他のユーザーと共有する場合は、代わりに、レポートを公開して共有することを検討してください。 レポートの公開について詳しくは、[Adobe Workfrontでのレポートの共有 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) を参照してください。
+  >書き出し機能を使用してレポート列を含むレポートを他のユーザーと共有する場合は、代わりに、レポートを公開して共有することを検討してください。 レポートの公開について詳しくは、[Adobe Workfrontでのレポートの共有 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) を参照してください。
   >
-  >書き出し機能を使用して外部でデータを評価する場合は、代わりにWorkfront Data Connect を使用することをお勧めします。 詳しくは、[Workfront Data Connect の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
+  >書き出し機能を使用して外部でデータを評価する場合は、代わりにWorkfront Data Connect を使用することをお勧めします。 詳しくは、[Workfront Data Connect の概要 ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
 
 制限を超えてデータを書き出そうとすると、書き出しで予想されたデータの一部を受信できない場合があります。代わりに、制限内に変更されたレポートが作成されます。
 
@@ -204,7 +195,7 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
    * 北米以外のすべての場所（A4 – 横、A4 – 縦、その他のサイズ）
 
 1. （条件付き）使用しているオペレーティングシステムによっては、ファイルを開くか保存するかの選択肢がある場合があります。関連するアプリケーションでファイルを開くか、ハードドライブに保存します。
-1. 書き出されたファイル内の情報の表示方法を理解するには、引き続きこの記事の [&#x200B; 書き出されたドキュメントの使用 &#x200B;](#use-the-exported-document) の節を参照してください。
+1. 書き出されたファイル内の情報の表示方法を理解するには、引き続きこの記事の [ 書き出されたドキュメントの使用 ](#use-the-exported-document) の節を参照してください。
 
 ### ダッシュボードからのデータの書き出し {#export-data-from-a-dashboard}
 

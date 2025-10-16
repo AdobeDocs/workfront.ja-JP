@@ -1,63 +1,68 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: イシューの重大度を更新
+title: 問題の重要度の更新
 description: Adobe Workfront で、重大度をイシューに関連付けることができます。タスクとプロジェクトには重要度はありません。
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '286'
+ht-degree: 80%
 
 ---
 
 # イシューの重大度を更新
 
+<!--Audited: 08/2025-->
+
 Adobe Workfront で、重大度をイシューに関連付けることができます。タスクとプロジェクトには重要度はありません。
 
-イシューとは、プロジェクトが時間通りに、または予算内で完了することを妨げる可能性のある予期しないイベントです。重大度を使用して、イシューの深刻さを示すことができます。 
+イシューは、プロジェクトが予定通り、または予算内で完了するのを妨げる可能性のある予期しないイベントです。 重要度を使用して、イシューの重要度を示すことができます。
 
 Workfront 管理者は、Workfront で使用できる重大度を定義します。それらを確立すると、イシューに関連付けることができるようになります。\
 Workfront での重大度の作成について詳しくは、[イシューの重大度を作成またはカスタマイズ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)を参照してください。
 
-重大度を更新できるようにするには、イシューに対する投稿権限が必要です。 
+重大度を更新できるようにするには、イシューに対する投稿権限が必要です。
 
 Workfront の次のエリアでイシューの重大度を更新できます。
 
-* **イシューの編集**&#x200B;ダイアログボックス
+* **イシューを編集** ダイアログボックスで
 * イシューの **イシューの詳細**&#x200B;エリア
 * イシューリストまたはレポートで
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>投稿者以上</p> 
+   <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>イシューへのアクセス権を編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>イシューへのアクセス権を編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>イシューに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>イシューに対する権限の管理</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## イシューの重大度を更新
 
@@ -70,7 +75,7 @@ Workfront の次のエリアでイシューの重大度を更新できます。
 
 1. **基本情報**&#x200B;エリアの&#x200B;**重大度**&#x200B;フィールドをクリックします。
 
-   ![&#x200B; 問題の重大度 &#x200B;](assets/issue-severity-field.png)
+   ![ 問題の重大度 ](assets/issue-severity-field.png)
 
 1. ドロップダウンメニューから適切な&#x200B;**重大度**&#x200B;を選択します。
 

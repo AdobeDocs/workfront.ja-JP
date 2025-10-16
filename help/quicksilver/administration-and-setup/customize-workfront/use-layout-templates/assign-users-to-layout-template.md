@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 92%
+source-wordcount: '857'
+ht-degree: 91%
 
 ---
 
@@ -33,31 +33,29 @@ ht-degree: 92%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-  <p> 現在：プラン</p>
-   </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。</p>
+        <p>グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -67,14 +65,14 @@ ht-degree: 92%
 
    >[!TIP]
    >
-   >レイアウトテンプレートに問題がなければ、[&#x200B; 新しいレイアウトテンプレートのテスト &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md) の説明に従ってテストすることをお勧めします。
+   >レイアウトテンプレートに問題がなければ、[ 新しいレイアウトテンプレートのテスト ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md) の説明に従ってテストすることをお勧めします。
 
 1. ページの上位のセクションで「**割り当て先:**」をクリックします。
 1. 表示されるボックスで、「**ユーザー、担当業務、チーム、またはグループを追加する**」をクリックし、ユーザー、担当業務、チームまたはグループの名前の入力を開始し、ドロップダウンに表示されたら名前をクリックします。
 
    最近追加された名前には、青色の背景が表示されます。これは、追加したばかりの名前とリストに既に存在する名前を区別できるため、既存のレイアウトテンプレートを編集する際に役立ちます。
 
-   情報アイコン ![&#x200B; 情報アイコン &#x200B;](assets/info-icon.png) は、別のレイアウトテンプレートに既に割り当てられているユーザー、担当業務、チーム、グループの名前の右側に表示されます。 アイコンの上にポインタを合わせると、そのレイアウトテンプレートの名前が表示され、既存の割り当てを上書きするかどうかを決定できます。
+   情報アイコン ![ 情報アイコン ](assets/info-icon.png) は、別のレイアウトテンプレートに既に割り当てられているユーザー、担当業務、チーム、グループの名前の右側に表示されます。 アイコンの上にポインタを合わせると、そのレイアウトテンプレートの名前が表示され、既存の割り当てを上書きするかどうかを決定できます。
 
 1. 前の 2 つの手順を繰り返し、必要に応じて、レイアウトテンプレートを他のユーザー、担当業務、チームまたはグループに割り当てます。
 

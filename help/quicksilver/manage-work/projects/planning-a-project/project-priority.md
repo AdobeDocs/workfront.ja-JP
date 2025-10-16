@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: プロジェクトの優先度の理解と更新
+title: プロジェクトの優先度の把握と更新
 description: プロジェクトの優先順位度を使用する方法はいくつかありますが、それらは互いに通信しません。プロジェクトの重要度を分類する際には、ニーズに合ったプロジェクトの優先度の 1 つを選択し、それを参照することをお勧めします。
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 96%
+source-wordcount: '610'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,37 @@ ht-degree: 96%
 
 ## アクセス要件
 
-<!--drafted for P&P:
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p> 
+   <p>プラン</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>プロジェクトの管理権限</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,9 +62,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -47,36 +75,7 @@ ht-degree: 96%
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-この記事の手順を実行するには、次のアクセス権が必要です。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>任意</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトの管理権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+</table>-->
 
 ## Adobe Workfront のプロジェクト優先度のタイプ
 
@@ -119,7 +118,7 @@ Workfront のプロジェクトに優先度を関連付けることができま�
 
 1. 優先度を更新するプロジェクトに移動します。
 1. 左側のパネルの「**プロジェクトの詳細**」をクリックします。
-1. 「プロジェクトの詳細」領域の右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックしてから、「**概要** をクリックします。
+1. 「プロジェクトの詳細」領域の右上隅にある **編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックしてから、「**概要** をクリックします。
 
 1. 「**優先度**」フィールドで、以下のオプションから選択します。
 
@@ -132,7 +131,7 @@ Workfront のプロジェクトに優先度を関連付けることができま�
    * 高
    * 緊急
 
-   ![&#x200B; プロジェクトの優先度リスト &#x200B;](assets/project-priority-picker-list.png)
+   ![ プロジェクトの優先度リスト ](assets/project-priority-picker-list.png)
 
 1. 「**変更を保存**」をクリックします。
 

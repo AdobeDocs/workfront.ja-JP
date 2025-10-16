@@ -2,23 +2,27 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: イシュー
-description: 以下の節には、Adobe Workfront でのイシューの管理と変換に関する情報が含まれています。
+title: 問題：記事インデックス
+description: プロジェクトに取り組んでいると、予期しないイベントが発生することがあります。これらの予期しないイベントは、特定のプロジェクトまたはタスクのイシューとしてログに記録できます。 この節では、Adobe Workfrontでのイシューの使用方法について説明する次のサブセクションを含みます。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 3615f31e-72a1-4c85-b093-c6f8295e7fda
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 100%
+source-wordcount: '106'
+ht-degree: 37%
 
 ---
 
-# イシュー
+# 問題：記事インデックス
 
-このセクションには、次のサブセクションが含まれます。
+<!--Audited: 08/2025-->
 
-* [イシューを変換](../../manage-work/issues/convert-issues/convert-issues-overview.md)
-* [イシューの情報](../../manage-work/issues/issue-information/issue-info-overview.md)
-* [イシューを管理する](../../manage-work/issues/manage-issues/manage-issues-overview.md)
+プロジェクトに取り組んでいると、予期しないイベントが発生することがあります。これらの予期しないイベントを、特定のプロジェクトやタスクのイシューとして記録できます。
+
+この節では、Adobe Workfrontでの問題の使用方法について説明する次のサブセクションを含みます。
+
+* [ 変換の問題：記事インデックス ](../../manage-work/issues/convert-issues/convert-issues-overview.md)
+* [ 問題情報：記事インデックス ](../../manage-work/issues/issue-information/issue-info-overview.md)
+* [問題の管理：記事インデックス](../../manage-work/issues/manage-issues/manage-issues-overview.md)

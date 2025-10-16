@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: e69209f449ba1643667135c3a0137b93c6171ef8
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 12%
+source-wordcount: '856'
+ht-degree: 7%
 
 ---
 
@@ -45,80 +45,47 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
    * **完了**：すべての承認者が要求オブジェクトを承認すると、その状態は **完了** に変わります。または、要求に承認が必要なかった場合も同様です。
    * **却下**：承認者がリクエストオブジェクトを却下した場合、ステータスは **却下** になります。 レコードは作成されません。レコードを作成するには、新しいリクエストを送信する必要があります。
 
-* <span class="preview"> リクエストフォームを送信することで作成されたレコードの承認者情報を、承認者情報および承認日フィールドに表示することができます。 詳しくは、[&#x200B; フィールドの作成 &#x200B;](/help/quicksilver/planning/fields/create-fields.md).</span> を参照してください。
+* <span class="preview"> リクエストフォームを送信することで作成されたレコードの承認者情報を、承認者情報および承認日フィールドに表示することができます。 詳しくは、[ フィールドの作成 ](/help/quicksilver/planning/fields/create-fields.md).</span> を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> 製品</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfrontの計画<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<ul><li><p>任意のWorkfront パッケージ</p></li>
+And
+<li><p>任意の計画パッケージ</p></li></ul>
+または
+<ul><li><p>任意のワークフローパッケージ</p></li>
+And
+<li><p>任意の計画パッケージ</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>ワークスペースに対する権限とレコードタイプの管理 </a> </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
-   <td>
-<p>次のいずれかのWorkfront プラン：</p>
-<ul><li>選択</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td>
-   <td>
-<p>任意 </p>  
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront platform</p></td>
-   <td>
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p>
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p>
-   </td>
-  </tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
-   <td>
-   <p>標準</p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>オブジェクト権限</p></td>
-   <td>
-   <ul>
-   <li><p>ワークスペースに対する権限とレコードタイプの管理 </p></li>
-    <li><p>システム管理者は、自分が作成していないワークスペースを管理できます。 </p></li>
-    </ul>
-   <p>Workfront Planning オブジェクトの共有権限について詳しくは、
-<a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Adobe Workfront Planning での共有権限の概要</a>を参照してください。 
-  </td>
-  </tr>
- </tbody>
+</tbody> 
 </table>
 
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
-
 
 ## レコード作成リクエストの承認
 
@@ -137,20 +104,20 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
 
 1. 次のいずれかの操作を行います。
 
-   * Workfront Planning へのアクセス権を持ち、少なくとも 1 つの作業領域を表示できる場合、画面の右上隅にある **メインメニュー**![&#x200B; ドットのメインメニュー &#x200B;](assets/dots-menu.png) または左上隅にある **メインメニュー**![&#x200B; ラインのメインメニュー &#x200B;](assets/lines-menu.png) をクリックし、**要求**/**送信済み**/**計画** をクリックし、**レビュー保留中** または **レビュー中** のステータスで要求をクリックします。
+   * Workfront Planning へのアクセス権を持ち、少なくとも 1 つの作業領域を表示できる場合、画面の右上隅にある **メインメニュー**![ ドットのメインメニュー ](assets/dots-menu.png) または左上隅にある **メインメニュー**![ ラインのメインメニュー ](assets/lines-menu.png) をクリックし、**要求**/**送信済み**/**計画** をクリックし、**レビュー保留中** または **レビュー中** のステータスで要求をクリックします。
 
      >[!TIP]
      >
      >Workfront Planning へのアクセス権がない場合、またはワークスペースを表示するアクセス権がない場合は、メールまたはアプリ内通知を使用して承認するリクエストにのみアクセスできます。
 
-   * 画面の右上隅にある「**通知**」領域アイコン ![&#x200B; 統合シェルの通知領域アイコン &#x200B;](assets/notifications-area-icon-unified-shell.png) をクリックし、承認待ちの要求に関する通知をクリックして要求を開きます。
+   * 画面の右上隅にある「**通知**」領域アイコン ![ 統合シェルの通知領域アイコン ](assets/notifications-area-icon-unified-shell.png) をクリックし、承認待ちの要求に関する通知をクリックして要求を開きます。
    * 承認待ちのリクエストを通知するメール内のメール通知に移動し、「**リクエストを開く**」をクリックしてリクエストを開きます。<!--add the name of the button here, from the email-->
 
    リクエストページが読み取り専用モードで開きます。
 
-   ![&#x200B; レビューステータスの読み取り専用リクエストページ &#x200B;](assets/read-only-reqeust-page-in-review-status.png)
+   ![ レビューステータスの読み取り専用リクエストページ ](assets/read-only-reqeust-page-in-review-status.png)
 
-1. （任意）リクエストの右上隅にある **承認** アイコン ![&#x200B; 承認アイコン &#x200B;](assets/approvals-icon.png) をクリックして、承認者を表示します。
+1. （任意）リクエストの右上隅にある **承認** アイコン ![ 承認アイコン ](assets/approvals-icon.png) をクリックして、承認者を表示します。
 1. 「**レビューして承認**」をクリックして、次のいずれかを選択します。
 
    * **承認**：リクエストを承認します。 すべての承認者がリクエストを承認すると、リクエストフォームに関連付けられたレコードタイプのレコードが直ちに作成されます。

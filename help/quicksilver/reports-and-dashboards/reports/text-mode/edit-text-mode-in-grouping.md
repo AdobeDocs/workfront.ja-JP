@@ -6,7 +6,7 @@ description: テキストモードを使用して、リストまたはレポー�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 93%
@@ -25,30 +25,22 @@ ht-degree: 93%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
-   </td>
+     <p>標準</p>
+     <p>プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -57,11 +49,11 @@ ht-degree: 93%
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>レポートのグループ化を編集するためのレポートへの管理権限</p> <p>グループ化を編集するためのグループ化に対する管理権限</p></td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -90,7 +82,7 @@ ht-degree: 93%
 1. 次のいずれかの操作を行います。
 
    1. レポートからグループ化にアクセスするには、レポートに移動し、**レポートアクション**／**編集**／「**グループ化**」タブをクリックします。
-   1. リストからグループ化にアクセスするには、リストに移動して、**グループ化** ドロップダウンメニューから、変更するグループ化にマウスを移動し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+   1. リストからグループ化にアクセスするには、リストに移動して、**グループ化** ドロップダウンメニューから、変更するグループ化にマウスを移動し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
       グループ化ビルダーが開きます。
 
@@ -206,7 +198,7 @@ ht-degree: 93%
       <td> <p>複数のフィールド間の計算でリストをグループ化する場合は、この行を追加して <code>valuefield</code> を置換します。</p> <p>オブジェクトの <code>valuefield</code> を <code>valueexpression</code> で使用する場合は、必ず中括弧で囲む必要があります。</p> <p>次のシナリオが存在します。</p> 
        <ol> 
         <li value="1"> <p>グループ化の名前を大文字で表示する場合は、次のように使用します。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>オブジェクトの <code>valuefield</code> は、API エクスプローラーで表示される通りのスペルになります。</p> </li> 
-        <li value="2">複数の <code>valuefields</code> を<code>valueexpression </code> 行にまとめて追加する場合は、それらをピリオドで区切る必要があります。<p>例えば、ポートフォリオの名前をタスクリストに大文字で表示する場合、<code>valueexpression</code> 行で以下のコードを使用します。</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例： </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p><code>valueexpression</code> 行でカスタムフィールドを使用する場合は、フィールド名の前に <code>DE:</code> を付けて、それがカスタムフィールドであることを示す必要があります。フィールドの名前は、インターフェイスでの表示どおりに綴られます。</p><p>重要：<span>一部のユーザーに対して権限が制限されているカスタムフォームセクションに配置されたカスタムフィールドを使用する場合、それらのユーザーがレポートに <code>valueexpression </code>の計算を表示すると、その計算は空白になります。カスタムフォームセクションの権限の調整について詳しくは、「<span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> カスタムフォームの作成 </a></span> を参照してください </span>。</p><p>例えば、「開発者名」というラベルの付いたカスタムフィールドがあり、このフィールドでグループ化して大文字で表示する場合は、次の <code>valueexpression</code> を使用してそれを指定できます。</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>先行入力タイプのカスタムフィールドを参照する場合は、次の式を使用して、「開発者名」というラベルの付いたフィールドで選択されたオブジェクトの名前を参照します。</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="2">複数の <code>valuefields</code> を<code>valueexpression </code> 行にまとめて追加する場合は、それらをピリオドで区切る必要があります。<p>例えば、ポートフォリオの名前をタスクリストに大文字で表示する場合、<code>valueexpression</code> 行で以下のコードを使用します。</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例： </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p><code>valueexpression</code> 行でカスタムフィールドを使用する場合は、フィールド名の前に <code>DE:</code> を付けて、それがカスタムフィールドであることを示す必要があります。フィールドの名前は、インターフェイスでの表示どおりに綴られます。</p><p>重要：<span>一部のユーザーに対して権限が制限されているカスタムフォームセクションに配置されたカスタムフィールドを使用する場合、それらのユーザーがレポートに <code>valueexpression </code>の計算を表示すると、その計算は空白になります。カスタムフォームセクションの権限の調整について詳しくは、「</span> カスタムフォームの作成 <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> を参照してください </a></span>。</p><p>例えば、「開発者名」というラベルの付いたカスタムフィールドがあり、このフィールドでグループ化して大文字で表示する場合は、次の <code>valueexpression</code> を使用してそれを指定できます。</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>先行入力タイプのカスタムフィールドを参照する場合は、次の式を使用して、「開発者名」というラベルの付いたフィールドで選択されたオブジェクトの名前を参照します。</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 

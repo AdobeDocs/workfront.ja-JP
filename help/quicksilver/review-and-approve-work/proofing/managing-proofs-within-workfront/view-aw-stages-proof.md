@@ -6,10 +6,10 @@ description: 自動ワークフローで設定されたプルーフの進行状�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 80%
+source-wordcount: '486'
+ht-degree: 76%
 
 ---
 
@@ -23,27 +23,30 @@ ht-degree: 80%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td>
+   <p>任意</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+   <p>標準</p >
+   <p>作業またはプラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
    <td>マネージャー以上</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,24 +72,24 @@ ht-degree: 80%
 
    ステージ間の線は、ステージ間の依存関係を表します。非アクティブなステージにつながる線は、ステージがアクティブになるまで点線で示されます。
 
-   ダイアグラム内のステージにポインタを合わせて、その進行状況を表示できます。ステージがアクティブでなく、ステージに対する編集権限がある場合は、「ステージをアクティベート」ボタン ![&#x200B; ステージをアクティベート &#x200B;](assets/activate-stage-btn.png) をクリックして、ステージを開始できます。 ステージがアクティブで、ステージの編集権限を持っている場合は、そのステージをロックできます。![&#x200B; ステージをロック &#x200B;](assets/lock-stage-btn.png) プログレスバー（S、O、C、D）について詳しくは、を参照してください。  [Workfront Proofでプルーフの進捗状況とステータスを表示します &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)。
+   ダイアグラム内のステージにポインタを合わせて、その進行状況を表示できます。ステージがアクティブでなく、ステージに対する編集権限がある場合は、「ステージをアクティベート」ボタン ![ ステージをアクティベート ](assets/activate-stage-btn.png) をクリックして、ステージを開始できます。 ステージがアクティブで、ステージの編集権限を持っている場合は、そのステージをロックできます。![ ステージをロック ](assets/lock-stage-btn.png) プログレスバー（S、O、C、D）について詳しくは、を参照してください。  [Workfront Proofでプルーフの進捗状況とステータスを表示します ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)。
 
 ## ステージを表示
 
 1. ドキュメントを含むドキュメントリストで、ドキュメントを含む行にポインタを合わせ、「**プルーフワークフロー**」をクリックします。
 1. ダイアグラムで、表示するステージをクリックします。
 
-   ![&#x200B; ステージ図を表示 &#x200B;](assets/view-stage-diagram-350x204.png)
+   ![ ステージ図を表示 ](assets/view-stage-diagram-350x204.png)
 
 1. ステージの詳細を展開するには、名前の下の横向き矢印をクリックします。
 
-   ![&#x200B; ステージの詳細 &#x200B;](assets/stage-details-caret-350x167.png)
+   ![ ステージの詳細 ](assets/stage-details-caret-350x167.png)
 
 ## すべてのステージを表示
 
 自動ワークフローのすべてのステージを表示するには、次の操作を行います。
 
-1. ページ上部の「ビューを変更」ボタン ![&#x200B; ビューを変更 &#x200B;](assets/change-view-btn.png) をクリックし、「**すべてのステージを表示**」をクリックします。
+1. ページ上部の「ビューを変更」ボタン ![ ビューを変更 ](assets/change-view-btn.png) をクリックし、「**すべてのステージを表示**」をクリックします。
 
    自動ワークフローのすべてのステージがセクションに表示されますが、詳細は非表示になっています。
 
@@ -96,5 +99,5 @@ ht-degree: 80%
 
 自動ワークフローのすべてのステージの詳細を展開して表示するには：
 
-1. ページ上部の「ビューを変更」ボタン ![&#x200B; ビューを変更 &#x200B;](assets/change-view-btn.png) をクリックし、「**すべてのステージを詳細に表示**」をクリックします。
+1. ページ上部の「ビューを変更」ボタン ![ ビューを変更 ](assets/change-view-btn.png) をクリックし、「**すべてのステージを詳細に表示**」をクリックします。
 1. ステージの詳細を表示するには、名前の下の下向き矢印をクリックします。

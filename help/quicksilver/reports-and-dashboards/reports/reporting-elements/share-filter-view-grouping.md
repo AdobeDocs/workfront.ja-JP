@@ -6,9 +6,9 @@ description: 表示アクセス権のあるフィルター、ビューおよび�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1170'
 ht-degree: 98%
 
 ---
@@ -36,43 +36,37 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</strong></td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>投稿者以上</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>リクエスト以上</p></li>
-         </ul>
+    <p>投稿者以上</p>
+    <p>リクエスト以上</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループ化に対する表示またはそれ以上のアクセス権</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>フィルター、ビュー、グループ化に対する表示またはそれ以上のアクセス権</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td><p>ビュー、フィルター、またはグループに対する共有アクセス権を持つ表示以上の権限</p></td> 
+   <td role="rowheader">オブジェクト権限</td> 
+    <td> <p>ビュー、フィルター、またはグループに対する共有アクセス権を持つ表示以上の権限</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -180,7 +174,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    >
    >グループと共有すると、グループのメンバーとすべてのサブグループのメンバーに対して、フィルター、表示、またはグループ化の権限が与えられます。
 
-   **システム内のすべてのユーザーと共有するには、**&#x200B;**設定**&#x200B;アイコン、「**この機能をシステム全体で表示**」の順にクリックします。\
+   **システム内のすべてのユーザーと共有するには、****設定**&#x200B;アイコン、「**この機能をシステム全体で表示**」の順にクリックします。\
    このオプションを使用するには、管理者が「システム全体で共有」オプションを選択する必要があります。詳しくは、[カスタムアクセスレベルを作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の記事と、[レポート、ダッシュボード、カレンダーを共有](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)の記事を参照してください。
 
 1. （条件付き）個々のユーザー、チーム、役割、グループや会社と共有している場合は、ドロップダウンメニューをクリックして、付与するアクセスレベルを定義します。

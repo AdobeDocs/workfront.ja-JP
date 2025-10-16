@@ -7,10 +7,10 @@ description: Adobe Workfront 以外のメールに含まれている情報を使
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 68%
+source-wordcount: '742'
+ht-degree: 66%
 
 ---
 
@@ -26,32 +26,34 @@ ht-degree: 68%
 >
 >Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [&#x200B; および &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [&#x200B; を参照してください。](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 [!DNL Adobe Workfront] 以外のメールに含まれている情報を使用して、既存のプロジェクト、タスクまたはイシューを更新できます。
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Work]、[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p><p>ワークまたはそれ以上</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -62,7 +64,7 @@ ht-degree: 68%
 
 ## [!DNL Google Workspace] からのメールコンテンツを使用して [!DNL Workfront] アイテムを更新
 
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にある ![&#x200B; アドオンサイドバーのWorkfront アイコン &#x200B;](assets/wf-lion-icon.png)2&rbrace;Workfront アイコン）をクリックします。[!DNL Google Workspace]
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にある ![ アドオンサイドバーのWorkfront アイコン ](assets/wf-lion-icon.png)2}Workfront アイコン）をクリックします。[!DNL Google Workspace]
 1. メールメッセージを [!DNL Google Workspace] で開いた状態で、[!DNL Google Workspace] パネルの「**[!UICONTROL 新しい更新として投稿]**」をクリックします。
 1. 「**[!UICONTROL タイプ]**」でドロップダウン矢印をクリックし、続いて更新を追加するオブジェクトのタイプをクリックします。
 1. 「**[!UICONTROL 検索]**」オプションをクリックし、更新を追加するオブジェクトの名前を入力していき、目的のアイテムが下のリストに表示されたら選択します。
@@ -85,7 +87,7 @@ ht-degree: 68%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Include email attachments]</td> 
-      <td><p>（メールに少なくとも 1 つの添付ファイルが含まれている場合にのみ使用できます）。 タスクまたは問題の [!UICONTROL ドキュメント &#x200B;] タブに添付ファイルを保存するには、このオプションをクリックします。 </p><p>添付ファイルを保存しない場合は、名前の右にある X をクリックします。 </p><p>メールに [!DNL Google Drive] 内のドキュメントへのリンクが含まれている場合、そのリンクは作成中のタスクやイシューの「[!UICONTROL Overview]」タブに保存されます。 </p><p>重要：<span style="color: #ff1493;"><span style="color: #000000;">これが機能するには、</span></span>[!DNL Workfront] 管理者<span style="color: #ff1493;"><span style="color: #000000;">が [!DNL Google Drive] と [!DNL Workfront]</span></span> の連携を承認する必要があります</p>
+      <td><p>（メールに少なくとも 1 つの添付ファイルが含まれている場合にのみ使用できます）。 タスクまたは問題の [!UICONTROL ドキュメント ] タブに添付ファイルを保存するには、このオプションをクリックします。 </p><p>添付ファイルを保存しない場合は、名前の右にある X をクリックします。 </p><p>メールに [!DNL Google Drive] 内のドキュメントへのリンクが含まれている場合、そのリンクは作成中のタスクやイシューの「[!UICONTROL Overview]」タブに保存されます。 </p><p>重要：<span style="color: #ff1493;"><span style="color: #000000;">これが機能するには、</span></span>[!DNL Workfront] 管理者<span style="color: #ff1493;"><span style="color: #000000;">が [!DNL Google Drive] と [!DNL Workfront]</span></span> の連携を承認する必要があります</p>
       <p>このオプションを有効にした場合、タスク、イシュー、更新に変換する他のメールに対しても有効なままになります。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -101,7 +103,7 @@ ht-degree: 68%
 
    このリンクをクリックすると、手順 4 で指定したオブジェクトの、[!DNL Workfront] の「[!UICONTROL 更新]」タブに移動します。
 
-   これらの手順を繰り返して、同じメールを更新、タスク、問題に変換できます（[&#x200B; メールコンテンツを使用したAdobe Workfront イシューの作成  [!DNL Google Workspace]  を参照） &#x200B;](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md) ブラウザーを更新したり、別のタイミングでメールに戻ったりすると、メール用に作成したすべてのリンクが、[!UICONTROL Google WorkspaceのWorkfront] パネルの下部に表示されます。
+   これらの手順を繰り返して、同じメールを更新、タスク、問題に変換できます（[ メールコンテンツを使用したAdobe Workfront イシューの作成  [!DNL Google Workspace]  を参照） ](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md) ブラウザーを更新したり、別のタイミングでメールに戻ったりすると、メール用に作成したすべてのリンクが、[!UICONTROL Google WorkspaceのWorkfront] パネルの下部に表示されます。
 
 1. （オプション）以下のいずれかを行って、[!DNL Workfront] アドオンパネルで更新の操作を続けます。
 

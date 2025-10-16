@@ -6,10 +6,10 @@ description: ドキュメントを共有するか、プルーフにユーザー�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1157'
+ht-degree: 93%
 
 ---
 
@@ -27,19 +27,19 @@ ht-degree: 0%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>標準</p>
+   <p>作業またはプラン</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -50,13 +50,13 @@ ht-degree: 0%
    <td>作成者またはモデレーター</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、Workfront または Workfront Proof 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -174,4 +174,4 @@ Workfront 内で共有されているプルーフの承認に関するレポー�
 
 ユーザーがプルーフに追加し、自動ワークフローを使用して承認者の役割またはレビュアーおよび承認者の役割のいずれかを付与すると、承認リクエストがホーム エリアのマイ承認ウィジェットに表示されます。 その後、プルーフを確認し、プルーフに関する承認の決定を Workfront から直接行うことができます。
 
-マイ承認ウィジェットから承認に関する決定を行う方法について詳しくは、[&#x200B; 作業の承認 &#x200B;](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) ホーム領域から作業を承認 [&#128279;](../../../review-and-approve-work/manage-approvals/approving-work.md) または [&#x200B; 作業の承認 &#x200B;](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) を参照してください 。
+マイ承認ウィジェットから承認に関する決定を行う方法について詳しくは、[ 作業の承認 ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) ホーム領域から作業を承認 [ または ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) 作業の承認 [ を参照してください ](../../../review-and-approve-work/manage-approvals/approving-work.md)。

@@ -7,9 +7,9 @@ description: 企業の長期戦略を計画する際、初期段階には持っ�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '931'
 ht-degree: 88%
 
 ---
@@ -22,48 +22,79 @@ ht-degree: 88%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
-   <td> <ul></li>
-   <li><p>新規：Ultimate </p></li>
-   <p>シナリオプランナーは、新しいWorkfront Select プランまたはWorkfront Prime プランでは使用できません。 </p>
-   <li><p>現在：[!UICONTROL Business] 以上</p></ul>
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>WorkfrontUltimate</p>
+<p><b>メモ</b></p>
+<p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
-   <td> <p>新規：ライト以上</p> 
-   <p>現在：[!UICONTROL Review] 以上</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] ライセンス</p> </td> 
+   <td> <p>[!UICONTROL ライト ] 以上</p> 
+   <p>[!UICONTROL Review] 以降</p> </td> 
   </tr> 
-  <tr> 
-   <td>製品* </td> 
-   <td> <ul><li><p>新しいWorkfrontプランの場合：</p><p> Adobe Workfront</li></p>
-   <li><p>現在のWorkfront プランの場合： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront シナリオプランナー</p></li></ul>
-
-<p>詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> ールの使用に必要なアクセス権」を参照してください。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>アクセスレベル </td> 
+    <tr> 
+   <td>アクセスレベル設定</td> 
    <td> <p>[!UICONTROL Edit]アクセス権 [!DNL Scenario Planner]</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>オブジェクト権限 </p> </td> 
-   <td> <p>プランに対する[!UICONTROL Manage]権限</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!DNL Scenario Planner]</a> でのプランへの利用申請を参照してください。</p> </td> 
+   <td> <p>プランに対する[!UICONTROL Manage]権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+シナリオプランナーへのアクセスについて詳しくは、[ の使用に必要なアクセス  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を参照してください。
 
-*詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfrontのドキュメントへのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## シナリオの作成
 
@@ -73,13 +104,13 @@ ht-degree: 88%
 
 1. プランを作成するか、既存のプランの名前をクリックします。
 
-   計画の作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) で計画を作成および編集を参照してください。
+   計画の作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) で計画を作成および編集を参照してください。
 
    最初に作成したプランは、「[!UICONTROL 初期シナリオ]」として自動的に保存されます。
 
 1. 既存のシナリオの横にある下向き矢印をクリックし、**[!UICONTROL コピー]**&#x200B;アイコンを選択します。
 
-   ![&#x200B; シナリオをコピー &#x200B;](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![ シナリオをコピー ](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    これにより、コピーされたシナリオと同じ情報を持つ新しいシナリオが作成されます。計画の 2 番目のシナリオの場合は「[!UICONTROL シナリオ 2]」、3 番目のシナリオの場合は「[!UICONTROL シナリオ 3]」という名前が自動的に付けられます。シナリオ名は変更できません。 作成できるコピーの数に制限はありません。
 
@@ -97,7 +128,7 @@ ht-degree: 88%
      >
      >シナリオのイニシアチブを削除すると、すべてのシナリオからではなく、選択したシナリオからのみ削除されます。
 
-     イニシアチブの作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) のイニシアチブを作成および編集を参照してください。
+     イニシアチブの作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) のイニシアチブを作成および編集を参照してください。
 
    * イニシアチブの優先順位を更新
    * 人材や予算の情報を調整
@@ -116,7 +147,7 @@ ht-degree: 88%
 
    計画の既存のシナリオはすべて、横に並べたカード形式で表示されます。初期シナリオは常に最初にリストされ、静的です。
 
-   ![&#x200B; セナリオカード &#x200B;](assets/scenario-cards-overlapping-350x166.png)
+   ![ セナリオカード ](assets/scenario-cards-overlapping-350x166.png)
 
 1. （オプション）右にスクロールして、すべてのシナリオカードを表示します。
 
@@ -174,7 +205,7 @@ ht-degree: 88%
    >初期シナリオと追加のシナリオで情報が異なる場合は、変更された値の横に上向き矢印または下向き矢印が表示され、初期シナリオと比較して、その値の増減を示します。
    >
    >
-   >![&#x200B; シナリオカードの矢印 &#x200B;](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >![ シナリオカードの矢印 ](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >例えば、予算、担当業務の数、イニシアチブの数がシナリオごとに変わる場合があります。
 
@@ -188,9 +219,9 @@ ht-degree: 88%
 
    説明フィールドをクリックして更新し、画面の任意の場所をクリックして変更を保存します。
 
-1. （任意） **[!UICONTROL 詳細]** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックして、シナリオを **[!UICONTROL コピー]** または **[!UICONTROL 削除]** します。
+1. （任意） **[!UICONTROL 詳細]** メニュー ![ 詳細アイコン ](assets/more-icon.png) をクリックして、シナリオを **[!UICONTROL コピー]** または **[!UICONTROL 削除]** します。
 
-   ![&#x200B; シナリオをコピーまたは削除 &#x200B;](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![ シナリオをコピーまたは削除 ](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    シナリオをコピーすると、自動的にカードページに表示され、「[!UICONTROL シナリオ] `<next number in order>`」のパターンに従って名前が変更されます。
 
@@ -198,6 +229,6 @@ ht-degree: 88%
 
    削除したシナリオは復元できません。
 
-   シナリオの削除について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/delete-plans.md) のプランを削除を参照してください。
+   シナリオの削除について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/delete-plans.md) のプランを削除を参照してください。
 
 1. 「**[!UICONTROL プランを保存]**」をクリックして、シナリオとプランを保存します。

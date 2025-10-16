@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2742'
 ht-degree: 95%
 
 ---
@@ -43,32 +43,27 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -80,7 +75,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ**![&#x200B; グループアイコン &#x200B;](assets/groups-icon.png) をクリックします。
+1. 左側のパネルで、**グループ**![ グループアイコン ](assets/groups-icon.png) をクリックします。
 
 1. プロジェクトの環境設定を指定するグループの名前をクリックします。
 1. 左側のパネルで、**プロジェクトの環境設定**&#x200B;をクリックします。
@@ -223,7 +218,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 <p>1 人のユーザーをプロジェクトのタスクに割り当て、プロジェクトとユーザーの両方にスケジュールを関連付けると、[!UICONTROL Workfront] では次のスケジュールが使用されます。</p> 
     <ul> 
      <li><strong>[!UICONTROL User]</strong>：タイムラインを計算するタスクに割り当てられたユーザーのスケジュール。</li> 
-     <li><strong>[!UICONTROL プロジェクト &#x200B;]</strong>: タスクのタイムラインを計算するプロジェクトのスケジュール。</li> 
+     <li><strong>[!UICONTROL プロジェクト ]</strong>: タスクのタイムラインを計算するプロジェクトのスケジュール。</li> 
     </ul> <p>スケジュールについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">スケジュールの作成</a>を参照してください。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 

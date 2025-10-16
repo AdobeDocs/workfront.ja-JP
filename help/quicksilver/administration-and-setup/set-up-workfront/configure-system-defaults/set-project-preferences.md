@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2670'
 ht-degree: 90%
 
 ---
@@ -34,31 +34,27 @@ ht-degree: 90%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>[!DNL Adobe Workfront] プラン*</p></td> 
-   <td>任意</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：[!UICONTROL Standard]</p>
-   または
-   <p>現在：[!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -69,7 +65,7 @@ ht-degree: 90%
 1. 左側のパネルで、**[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL プロジェクト]**&#x200B;をクリックします。
 
 1. **プロジェクト設定**&#x200B;ページで、以下の 4 つのセクションのいずれかに進み、[!UICONTROL プロジェクトステータス]、[!UICONTROL タイムライン]、[!UICONTROL ビジネスケース]、[!UICONTROL 終了後の操作]の設定を行います。
-1. 組織全体のすべてのグループで同じプロジェクト環境設定を使用する場合は、各環境設定がロック ![&#x200B; ロック切り替え &#x200B;](assets/lock-toggle-button.png) になっていることを確認します（これはデフォルトです）。
+1. 組織全体のすべてのグループで同じプロジェクト環境設定を使用する場合は、各環境設定がロック ![ ロック切り替え ](assets/lock-toggle-button.png) になっていることを確認します（これはデフォルトです）。
 
    >[!IMPORTANT]
    >
@@ -143,7 +139,7 @@ ht-degree: 90%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>プロジェクトの見込み総コストを表す[!UICONTROL Estimate at Completion]（EAC）の計算に [!DNL Workfront] で使用されるデータを決定します。</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>：EAC の式に [!UICONTROL Actual Hours] または [!UICONTROL Actual Labor Cost] を入力することで、親タスクおよびプロジェクトの EAC が決定されます。計算には、親タスクまたはプロジェクトに直接追加された[!UICONTROL Actual Hours]または[!UICONTROL Costs and Expenses]が含まれます。</li> 
@@ -224,7 +220,7 @@ ht-degree: 90%
 <p>プロジェクト内のタスクに 1 人のユーザーを割り当て、プロジェクトとそのタスクに割り当てられたユーザーの両方にスケジュールが関連付けられている場合、[!UICONTROL Workfront] では次のスケジュールが使用されます。</p> 
     <ul> 
      <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] は、タスクに割り当てられたユーザーのスケジュールを使用してタイムラインを計算します。</li> 
-     <li><strong>[!UICONTROL プロジェクト &#x200B;]</strong>: [!DNL Workfront] は、プロジェクトのスケジュールを使用してタスクのタイムラインを計算します。</li> 
+     <li><strong>[!UICONTROL プロジェクト ]</strong>: [!DNL Workfront] は、プロジェクトのスケジュールを使用してタスクのタイムラインを計算します。</li> 
     </ul> <p>スケジュールについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">スケジュールの作成</a>を参照してください。</p>
 </td> 
   </tr>
@@ -274,7 +270,7 @@ ht-degree: 90%
     <ul> 
      <li><strong>[!UICONTROL タスクの追加と編集：]</strong> ユーザーに次の操作を許可します：
       <ul>
-       <li><p>プロジェクトが [!UICONTROL 完了 &#x200B;]、[!UICONTROL 停止 &#x200B;]、または [!UICONTROL 承認保留中 &#x200B;] に設定された後に、プロジェクト内のタスクを編集します。</p>
+       <li><p>プロジェクトが [!UICONTROL 完了 ]、[!UICONTROL 停止 ]、または [!UICONTROL 承認保留中 ] に設定された後に、プロジェクト内のタスクを編集します。</p>
            <p>注意：このオプションを選択しない場合でも、ユーザーは費用エントリを追加および編集できます。 時間の記録には別の設定があります。 ユーザーが完了または停止ステータスのプロジェクトに時間を記録することを許可または禁止するには、<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md"> タイムシートおよび時間環境設定の設定 </a> を参照してください。</p></li>
        <li>プロジェクトにタスクを追加する。</li>
       </ul></li>

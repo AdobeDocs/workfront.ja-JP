@@ -6,9 +6,9 @@ description: Adobe Workfront ワークロードバランサーを使用すると
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1528'
 ht-degree: 87%
 
 ---
@@ -25,25 +25,21 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
-       チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p></td>
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>リソース エリアでワークロードバランサーを使用する場合は、計画します。作業、チームまたはプロジェクトのワークロードバランサーを使用する場合は、次のようにします</p></td>
+  </tr>
+  <tr> 
+   <td>アクセスレベル設定</td> 
    <td> <p>以下の項目についてアクセス権を編集します。</p> 
     <ul> 
      <li>リソース管理</li> 
@@ -54,13 +50,13 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td>プロジェクト、タスク、イシューに対する参加以上の権限（割り当ての作成を含む）</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -87,7 +83,7 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
    ワークロードバランサーを使用して、リソース領域、プロジェクト、またはチームレベルで作業をユーザーに割り当てることができます。ワークロードバランサーの Workfront 内の場所について詳しくは、[ワークロードバランサーの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)を参照してください。
 
 
-1. ワークロードバランサーの上部にある「**一括割り当て**![&#x200B; 一括割り当て &#x200B;](assets/bulk-assignments-wb.png) をクリックします。
+1. ワークロードバランサーの上部にある「**一括割り当て**![ 一括割り当て ](assets/bulk-assignments-wb.png) をクリックします。
 
    ワークロードバランサーの右側に一括割り当てパネルが開きます。
 
@@ -99,7 +95,7 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
    >
    >プロジェクトのワークロードバランサーにアクセスする場合は、プロジェクト名がデフォルトで選択されています。
 
-   ![&#x200B; 一括割り当てのプロジェクト名 &#x200B;](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![ 一括割り当てのプロジェクト名 ](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. （オプション）「**プロジェクトタスクを選択**」をクリックして、割り当ての対象となる任意の数のタスクを選択したあと、**タスク: 名前**&#x200B;ドロップダウンメニューで名前（これがデフォルトのオプション）またはステータスを基準にタスクを選択し、フィルター修飾子を使用して特定のタスクを検索します。
 
@@ -109,13 +105,13 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
    >
    >完了ステータスのタスクは選択できません。
 
-   ![&#x200B; 一括割り当てのタスクステータス &#x200B;](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![ 一括割り当てのタスクステータス ](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
    >[!TIP]
    >
    >イシューやタスクの一括割り当てを行う場合は、この選択を空白のままにします。
 
-1. （任意）選択した条件の横にある **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします
+1. （任意）選択した条件の横にある **削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします
 
    または
 
@@ -149,7 +145,7 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
 
 1. 「**役割の割り当て**」フィールドで、ドロップダウン矢印をクリックして役割のリストから選択します。指定したプロジェクト内で現在割り当てられている役割のみが表示されます。必須フィールドです。
 
-   ![&#x200B; 役割の割り当て &#x200B;](assets/bulk-assignments-workload-balancer-assign-selected.png)
+   ![ 役割の割り当て ](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
 1. 「**割り当てるユーザー**」フィールドで、ドロップダウン矢印をクリックして、ユーザー候補のリストから選択するか、別のユーザー名を入力します。
 
@@ -176,7 +172,7 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
 
    選択した役割が選択したユーザーに置き換えられた作業アイテムの数に関する確認が表示されます。
 
-   ![&#x200B; 一括割り当ての確認 &#x200B;](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   ![ 一括割り当ての確認 ](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
 ### ユーザーの置き換え {#replace-user}
 
@@ -200,7 +196,7 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
 
    Workfront に、現在割り当てられているユーザーから 2 番目のユーザーに置き換えられる項目の数と、置き換えられる役割に関するメモが表示されます。
 
-   ![&#x200B; 一括置換のユーザー確認 &#x200B;](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
+   ![ 一括置換のユーザー確認 ](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
 1. **置換** をクリックします。
 
@@ -227,11 +223,11 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
 
 1. 「**割り当て解除するユーザー**」フィールドで、ドロップダウン矢印をクリックして、ユーザーのリストから選択します。指定したプロジェクト内で未完了の作業アイテムに現在割り当てられているユーザーのみが表示されます。必須フィールドです。
 
-   ![&#x200B; ユーザーの割り当て解除 &#x200B;](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
+   ![ ユーザーの割り当て解除 ](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
 
    Workfront に、現在割り当てられているユーザーが割り当て解除される項目の数に関するメモが表示されます。
 
-   ![&#x200B; 一括割り当て解除の確認 &#x200B;](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
+   ![ 一括割り当て解除の確認 ](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
 1. 「**割り当て解除**」をクリックします。\
    指定したユーザーが削除された作業アイテムの数に関する確認が表示されます。

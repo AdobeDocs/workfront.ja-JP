@@ -6,10 +6,10 @@ description: カレンダーレポートは、作業内容を視覚的に表現�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 89%
+source-wordcount: '605'
+ht-degree: 86%
 
 ---
 
@@ -25,8 +25,6 @@ ht-degree: 89%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ ht-degree: 89%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL Reports]、[!UICONTROL Dashboards]、および[!UICONTROL Calendars]に対する[!UICONTROL Edit]アクセス権</p></td> 
+   <td> <p>報告書、ダッシュボード、およびカレンダーへのアクセスを編集します</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>カレンダーレポートに対する [!UICONTROL Manage] 権限</td> 
+   <td>カレンダーレポートへのアクセスの管理</td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,8 +131,8 @@ ht-degree: 89%
 1. カレンダーのグループ化の条件文を設定します。
 
 
-   ![&#x200B; カレンダーのオブジェクトを選択 &#x200B;](assets/calendar-field-name.png)
-条件の設定について詳しくは、[&#x200B; フィルターと条件の修飾子 &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) を参照してください。
+   ![ カレンダーのオブジェクトを選択 ](assets/calendar-field-name.png)
+条件の設定について詳しくは、[ フィルターと条件の修飾子 ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) を参照してください。
 
 1. （オプション）手順 1 ～ 4 を繰り返して、カレンダーのグループ化に使用する追加のオブジェクトを指定します。
 1. **[!UICONTROL タスク／プロジェクト／イシューのラベルを次の値に設定…]**&#x200B;フィールドで、このカレンダーグループ内のオブジェクトにカレンダー内でどのようにラベルを付けるかを選択します。
@@ -144,7 +141,7 @@ ht-degree: 89%
    >
    >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
 
-   ![&#x200B; タスク ラベルの設定 &#x200B;](assets/set-task-labels.png)
+   ![ タスク ラベルの設定 ](assets/set-task-labels.png)
 
-1. **[!UICONTROL 保存]**&#x200B;をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 

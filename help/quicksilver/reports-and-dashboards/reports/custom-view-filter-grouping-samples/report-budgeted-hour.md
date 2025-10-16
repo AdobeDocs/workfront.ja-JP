@@ -7,10 +7,10 @@ description: レポート：予算計上時間数
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 71%
+source-wordcount: '656'
+ht-degree: 70%
 
 ---
 
@@ -28,32 +28,25 @@ ht-degree: 71%
 >
 >予算計上時間数は、通常、Adobe Workfront データベースで 1 時間ごとに更新されます（まれに、最大 3 時間かかる場合があります）。レポートを更新しても、そのレポート内の時間数の情報は必ずしも更新されるわけではありません。前回のアップデート以降の経過時間は、それぞれの予算計上時間数のレポートの右上隅に表示されます。レポートを更新すると、前回のアップデートから 1 時間以上経過した場合にのみ、レポート内の情報がアップデートされます。
 >
->![&#x200B; 予算計上時間レポート時間同期の警告 &#x200B;](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![ 予算計上時間レポート時間同期の警告 ](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-    <p>新規：</p>
-   <ul><li><p>フィルターを変更するコントリビューター </p></li>
-   <li><p>レポートを変更する場合は Standard</p></li> </ul>
-
-<p>現在：</p>
-   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
-   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
+   <p>フィルターの変更者または変更依頼 </p>
+   <p>レポートを変更するための標準またはプラン</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -66,13 +59,13 @@ ht-degree: 71%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
 ## 予算計上時間数のレポートを作成
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、または右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png) をクリックして、可能であれば **レポート** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、または右上隅の **メインメニュー** アイコン ![ メインメニューライン ](assets/lines-main-menu.png) をクリックして、可能であれば **レポート** をクリックします。
 
 1. **新規レポート**/**詳細**/**予算計上時間数** をクリックします。
 

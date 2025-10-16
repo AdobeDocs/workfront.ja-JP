@@ -6,16 +6,16 @@ description: 個人的な目標を持つ個人コントリビューターの場�
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 91%
+source-wordcount: '726'
+ht-degree: 85%
 
 ---
 
 # 目標を Adobe Workfront Goals で相互に関連付けて整合させる方法
 
-<!--Audited P&P only: 04/2025-->
+<!--Audited P&P only: 10/2025-->
 
 個人的な目標を持つ個人コントリビューターの場合は、その目標をチームの目標に整合させて、組織の戦略の大きなコンテキストで自身の目標の進捗を効果的に表示することができます。
 
@@ -35,10 +35,50 @@ Adobe Workfront Goals で目標を相互に関連付けるには、次の 2 つ�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+>[!NOTE]
+>
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>
+>Adobe Workfront Goals は購入できなくなりました。
 
-以下が必要です。
++++展開すると、この記事の機能のアクセス要件が表示されます。 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody>
+
+<td> <p>Adobe Workfront パッケージ</p> </td> 
+   <td> 
+   <p>Adobe WorkfrontUltimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront プラン</p> </td> 
+   <td> <p>投稿者以上</p> 
+     <p>要求者以上</p> </td> 
+  </tr>
+
+<td><p>アクセスレベル設定</p> </td> 
+   <td> <p>Goals への編集アクセス権</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>オブジェクト権限 </p> </td> 
+   <td> <p>目標に対する権限の管理</p>  </td> 
+  </tr> 
+  <tr>
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+</td>
+  </tr>
+ </tbody> 
+</table>
+
+詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
+
+<!--Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -46,54 +86,50 @@ Adobe Workfront Goals で目標を相互に関連付けるには、次の 2 つ�
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront プラン*</td>
+ <td role="rowheader">Adobe Workfront plan*</td>
  <td> 
-   <p>新しいプランとライセンス構造の場合：
-  <ul><li>Ultimateプラン </li></ul>
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
    </p>
-<p>現在のプランおよびライセンス構造の場合： 
-<ul><li> プロまたはそれ以上 </li>
-  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
    </td> 
  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront プラン*</td>
+ <td role="rowheader">Adobe Workfront license*</td>
  <td>
- <p>新規ライセンス：コントリビューター以上</p>
- または
- <p>現在のライセンス：リクエスト以上</p> </td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> </td>
  </tr>
  <tr>
- <td role="rowheader">製品*</td>
+ <td role="rowheader">Product*</td>
  <td>
-  <p> 新しい製品要件：Workfront</p>
-  または
-  <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+  <p> New product requirement: Workfront</p>
+  Or
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader">アクセスレベル</td>
- <td> <p>Goals への編集アクセス権</p> </td>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
  </tr>
  <tr>
- <td role="rowheader">オブジェクト権限</td>
+ <td role="rowheader">Object permissions</td>
  <td>
-
-<p>目標の表示には表示権限以上が必要</p>
-  <p>目標に対する編集権限を管理</p>
-  <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p>
+  
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
    </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
 </td>
   </tr>
 </tbody>
-</table>
-
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+</table>-->
 
 ## 目標を相互に関連付けて整合させる方法
 
@@ -159,7 +195,7 @@ Aligning goals by connecting them differs depending on what environment you use.
    「目標の整合性」セクションで目標 2 を目標 1 のサブとして関連付けた調整された目標が表示されます。
 子目標は、その進捗状況により親目標の進捗状況が更新されると、親目標の「進捗状況インジケーター」セクションに表示されます。
 
-   ![&#x200B; 整列されたカード &#x200B;](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![ 整列されたカード ](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. （オプション）「目標の整合性」セクションで目標を確認するには、Workfront の Goals 領域に移動したあと、左パネルの「**目標の整合性**」セクションをクリックします。「目標の整合性」セクションについては、[Adobe Workfront Goals の「目標の整合性」セクションのナビゲーション](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)を参照してください。
 

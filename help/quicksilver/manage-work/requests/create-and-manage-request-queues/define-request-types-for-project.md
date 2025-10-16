@@ -3,13 +3,13 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: プロジェクトのリクエストタイプを定義
 description: Adobe Workfront に記録されるイシューやリクエストの種類を、リクエストタイプごとに整理できます。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 57%
+source-wordcount: '354'
+ht-degree: 55%
 
 ---
 
@@ -28,14 +28,14 @@ Adobe Workfrontに記録されるイシューやリクエストの種類を、�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-    <p>新規：標準</p>
-    <p>現在：プラン</p></td>  
+    <p>標準</p>
+    <p>プラン</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -48,7 +48,7 @@ Adobe Workfrontに記録されるイシューやリクエストの種類を、�
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

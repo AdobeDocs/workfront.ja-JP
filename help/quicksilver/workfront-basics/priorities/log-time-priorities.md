@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 41%
 
 ---
@@ -30,13 +30,13 @@ Adobe Workfront の作業アイテムに費やした時間を記録して、そ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：タスクまたは問題の時間を記録するには Light 以上</p>
-   <p>現在：作業以上を行ってタスクまたは問題の時間を記録します</p> </td> 
+   <td> <p>タスクまたは問題の時間を記録するには明るまたはそれ以上</p>
+   <p>タスクまたは問題の作業時間を記録するための作業時間またはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -59,9 +59,9 @@ Adobe Workfront の作業アイテムに費やした時間を記録して、そ�
 
 {{step1-to-priorities}}
 
-1. 名前の上にマウスポインターを置いて、**その他**![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
+1. 名前の上にマウスポインターを置いて、**その他**![ その他のアイコン ](assets/more-icon.png) アイコンをクリックします。
 1. 「**時間をログに記録**」を選択します。
-   ![&#x200B; 更新、時間をログ記録、アップロード &#x200B;](assets/update-log-upload.png)
+   ![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
 1. **時間タイプ** ドロップダウンメニューで、適切な時間タイプを選択します。 時間タイプは、「時間タイプと空き時間の定義」で説明されているように、システム、プロジェクトおよびユーザーレベルで定義されている内容に応じて使用できます。
 
 1. （条件付き）Workfrontまたはグループ管理者が「手動で担当業務を時間エントリに割り当てる」設定を有効にしている場合は、ドロップダウンメニューから担当業務を選択します。 作業アイテムに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。担当業務が割り当てられていない場合は、「プライマリの役割なし」が表示されます。

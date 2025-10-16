@@ -6,10 +6,10 @@ description: プルーフの承認レポートを使用して、環境内のプ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 95%
+source-wordcount: '249'
+ht-degree: 92%
 
 ---
 
@@ -21,32 +21,33 @@ ht-degree: 95%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Workfront プラン*</p> </td> 
+   <td role="rowheader"> <p>Workfront パッケージ</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront ライセンスの概要*</p> </td> 
-   <td> <p>プラン</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td> 
+   <p>標準</p>
+   <p>プラン</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>アクセスレベル*</strong> </td> 
+   <td role="rowheader"><strong> アクセスレベル設定 </strong> </td> 
    <td> <p>次へのアクセスを編集：</p> 
     <ul> 
      <li> <p>レポート、ダッシュボードおよびカレンダーの作成</p> </li> 
      <li> <p>フィルター、ビュー、グループ化を作成</p> </li> 
-    </ul> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -56,7 +57,7 @@ ht-degree: 95%
 
 1. 「**新規レポート**」をクリックしてスクロールし、「**プルーフの承認**」を選択します。
 
-   ![&#x200B; プルーフ承認レポート &#x200B;](assets/proof-approval-report.png)
+   ![ プルーフ承認レポート ](assets/proof-approval-report.png)
 
 1. （オプション）その他のフィールドを追加します。
 1. 「**保存して閉じる**」をクリックします。

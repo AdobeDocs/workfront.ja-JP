@@ -5,10 +5,10 @@ description: プレビューサンドボックス環境からメール通知を�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 95%
+source-wordcount: '463'
+ht-degree: 85%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,25 +42,32 @@ ht-degree: 95%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>自身の設定を変更する場合は[!UICONTROL Request]以上の権限</p> <p>他のユーザー用の設定を編集する場合は[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
+   <td> 
+   <p>独自の設定を変更する投稿者以上</p> <p>他のユーザー用に設定を編集するための「標準」</p> 
+   または
+   <p> 独自の設定の変更をリクエストまたはそれ以上</p> <p>他のユーザー用に設定を編集する</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
    <td> <p>次のいずれかが必要です。</p> 
     <ul> 
-     <li> <p>[!UICONTROL System Administrator] アクセスレベル。</p> <p> このアクセスレベルについて詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。 </p> </li> 
-     <li> <p>アクセスレベルの [!UICONTROL Users] 設定で、[!UICONTROL Edit] が選択されている必要があります。また、[!UICONTROL Users]設定の場合は、[!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> で、[!UICONTROL Create]オプションと 2 つの[!UICONTROL User Admin]オプションのうち少なくとも 1 つを有効にする必要があります。 </p> <p>[!UICONTROL User Admin (Group Users)] オプションを使用している場合は、ユーザーがメンバーとなっているグループのグループ管理者である必要があります。</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> <p>アクセスレベルの[!UICONTROL Users]設定について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>を参照してください。</p> </li> 
-    </ul> <p>メモ：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+     <li> <p>[!UICONTROL System Administrator] アクセスレベル。</p> </li> 
+     <li> <p>アクセスレベルの [!UICONTROL Users] 設定で、[!UICONTROL Edit] が選択されている必要があります。また、[!UICONTROL Users]設定の場合は、[!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> で、[!UICONTROL Create]オプションと 2 つの[!UICONTROL User Admin]オプションのうち少なくとも 1 つを有効にする必要があります。 </li> 
+     <li>[!UICONTROL User Admin (Group Users)] オプションを使用している場合は、ユーザーがメンバーとなっているグループのグループ管理者である必要があります。</li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## プレビューサンドボックス環境からのメールの配信を有効にする
 
@@ -73,13 +80,13 @@ ht-degree: 95%
 
    または
 
-   複数のユーザーの場合：Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ユーザー]**![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png) をクリックします。  次に、複数のユーザーを選択して、「**[!UICONTROL 編集]**」をクリックします。
+   複数のユーザーの場合：Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ユーザー]**![ ユーザーアイコン ](assets/users-icon-in-main-menu.png) をクリックします。  次に、複数のユーザーを選択して、「**[!UICONTROL 編集]**」をクリックします。
 
 1. 「**[!UICONTROL 環境設定]**」をクリックします。
 1. **[!UICONTROL このテスト環境から E メールを受信する]**&#x200B;を選択します。
 
    >[!NOTE]
    >
-   >実稼動環境では、このオプションは使用できません。
+   >本番環境では、このオプションは使用できません。
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。

@@ -6,10 +6,10 @@ description: ワークロードバランサーの要約パネルを開いて、�
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 70%
+source-wordcount: '389'
+ht-degree: 66%
 
 ---
 
@@ -23,26 +23,22 @@ ht-degree: 70%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
-       チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p></td>
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>以下の項目についてアクセス権を編集します。</p> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>リソース エリアでワークロードバランサーを使用する場合は、計画します。作業、チームまたはプロジェクトのワークロードバランサーを使用する場合は、次のようにします</p></td>
+  </tr>
+  <tr> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>次の項目に対する表示以上のアクセス権：</p> 
     <ul> 
      <li>リソース管理</li> 
      <li>プロジェクト</li> 
@@ -52,13 +48,13 @@ ht-degree: 70%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td>プロジェクト、タスク、イシューに対する投稿権限またはそれ以上の権限</td> 
+   <td>オブジェクト権限</td> 
+   <td>プロジェクト、タスク、問題への投稿以上の権限</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -78,11 +74,11 @@ ht-degree: 70%
 
    または
 
-   **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/summary-panel-icon.png) をクリックしてから、タスクまたはイシューのバーをクリックして概要パネルを開きます。
+   **概要を開く** アイコン ![ 概要を開くアイコン ](assets/summary-panel-icon.png) をクリックしてから、タスクまたはイシューのバーをクリックして概要パネルを開きます。
 
    または
 
-   タスクまたは問題の右側にある **その他** メニュー ![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) をクリックし、**概要を開く** をクリックします。
+   タスクまたは問題の右側にある **その他** メニュー ![ その他のアイコン ](assets/more-icon.png) をクリックし、**概要を開く** をクリックします。
 
    右側に概要パネルが開きます。
 
@@ -97,4 +93,4 @@ ht-degree: 70%
    概要を使用して情報を更新する方法について詳しくは、[概要について](../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
 1. （条件付き）作業項目のセクションを開いた場合、ブラウザーの「**戻る**」ボタンをクリックして、ワークロードバランサーに戻ります。
-1. 概要の右上隅にある **閉じるアイコン**![&#x200B; 閉じるアイコン &#x200B;](assets/close-icon.png) をクリックして閉じます。
+1. 概要の右上隅にある **閉じるアイコン**![ 閉じるアイコン ](assets/close-icon.png) をクリックして閉じます。

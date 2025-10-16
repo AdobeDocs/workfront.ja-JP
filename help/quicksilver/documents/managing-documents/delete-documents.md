@@ -6,10 +6,10 @@ description: アップロードしたドキュメントを削除できます。�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 90%
+source-wordcount: '182'
+ht-degree: 85%
 
 ---
 
@@ -21,32 +21,32 @@ ht-degree: 90%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>ワークまたはそれ以上</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td> 
+   <p>標準</p>
+   <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>削除権限が有効なドキュメントに対する編集アクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>削除権限が有効なドキュメントに対する編集アクセス権</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ドキュメントを含むオブジェクトに対する表示アクセス権以上</p> <p>削除権限が有効なドキュメントに対する管理アクセス権</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントを含むオブジェクトに対する表示アクセス権以上</p> <p>削除権限が有効なドキュメントに対する管理アクセス権</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -55,7 +55,7 @@ ht-degree: 90%
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. ドキュメント エリアの上にある **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
+1. ドキュメント エリアの上にある **削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
 
 1. 表示されるボックスで、「**はい、削除します**」をクリックして確定します。
 

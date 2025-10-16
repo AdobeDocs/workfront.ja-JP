@@ -7,10 +7,10 @@ description: スケジュール効率指数（SPI）は、予定されたスケ�
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 96%
+source-wordcount: '396'
+ht-degree: 94%
 
 ---
 
@@ -26,35 +26,32 @@ ht-degree: 96%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront プラン</td> 
    <td>
-   <p>新規：ライト以上</p>
-   <p>または</p>
-   <p>現在：レビュー以上</p></td>  
+   <p>ライト以上</p>
+   <p>レビュー以上</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>プロジェクトおよび財務データへのアクセス権を表示</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td>財務情報を表示する権限を持つプロジェクトに対する表示以上の権限</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -98,6 +95,6 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
    1. 左パネルで「**タスクの詳細**」をクリックして、**財務**&#x200B;エリアを表示します。
 
-      ![&#x200B; プロジェクトの SPI](assets/spi-on-project-nwe.png)
+      ![ プロジェクトの SPI](assets/spi-on-project-nwe.png)
 
 1. 「**CPI/SPI/CSI**」フィールドの値を確認します。

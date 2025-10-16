@@ -7,10 +7,10 @@ description: コスト効率指数（CPI）は、予定コストと実際のコ�
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 90%
+source-wordcount: '583'
+ht-degree: 88%
 
 ---
 
@@ -30,35 +30,32 @@ CPI を使用できるのは、時間入力が必要な組織のみです。さ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront プラン</td> 
    <td>
-   <p>新規：ライト以上</p>
-   <p>または</p>
-   <p>現在：レビュー以上</p></td>  
+   <p>ライト以上</p>
+   <p>レビュー以上</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>プロジェクトおよび財務データへのアクセス権を表示</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td>財務情報を表示する権限を持つプロジェクトに対する表示以上の権限</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -197,4 +194,4 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 
 1. **財務** をクリックします。 CPI は「**CPI／SPI／CSI**」フィールドを表示します。
 
-   ![&#x200B; プロジェクトの CPI](assets/cpi-on-project-nwe.png)
+   ![ プロジェクトの CPI](assets/cpi-on-project-nwe.png)

@@ -6,10 +6,10 @@ description: リソースプランナーの任意のビューから、お使い�
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 94%
+source-wordcount: '599'
+ht-degree: 92%
 
 ---
 
@@ -25,36 +25,32 @@ ht-degree: 94%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：任意</p>
-       <p>または</p>
-       <p>現在：Pro 以上</p> </td> 
+  <tr> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：ライト以上</p>
-       <p>または</p>
-       <p>現在：レビュー以上</p></td>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>ライト以上</p>
+       <p>レビュー以上</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>プロジェクト、ユーザー、およびリソース管理へのアクセスを表示する（またはそれ以上）</p> </td> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>プロジェクト、ユーザー、およびリソース管理へのアクセスを表示する（またはそれ以上）</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する、表示以上の権限</p> </td> 
+   <td>オブジェクト権限</td> 
+   <td> <p>プロジェクトの表示以上の権限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -74,7 +70,7 @@ ht-degree: 94%
 
    エクスポートオプションダイアログボックスが表示されます。
 
-   ![&#x200B; 書き出しオプション &#x200B;](assets/rp-export-options-box-350x421.png)
+   ![ 書き出しオプション ](assets/rp-export-options-box-350x421.png)
 
 1. 次の情報を指定します。\
    **開始日**：書き出しの開始日。書き出したファイルには、ここで指定した日を含む週の最初の日から始まる、割り当てと空き時間に関する情報が含まれます。\

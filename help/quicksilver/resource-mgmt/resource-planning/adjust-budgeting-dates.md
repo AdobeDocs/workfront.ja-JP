@@ -6,9 +6,9 @@ description: リソースプランナーでリソースを予算計上した後�
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '486'
 ht-degree: 95%
 
 ---
@@ -23,36 +23,31 @@ ht-degree: 95%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-    <td><p>新規：任意</p>
-       <p>または</p>
-       <p>現在：Pro 以上</p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>リソースプランナーの優先度と予算計上時間数の編集へのアクセスを含むリソース管理へのアクセスを編集</p> <p>財務データ、プロジェクトおよびユーザーへのアクセスを編集</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td> <p>財務の管理機能を持つ、予算情報が必要なプロジェクトに対する権限を管理します。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -69,7 +64,7 @@ ht-degree: 95%
    プロジェクト割り当てタイムラインが表示されます。\
    予算が競合している場合は、時間が現在予算に含まれている時間枠がオレンジ色で、競合がない場合は青色でハイライト表示されます。
 
-   ![&#x200B; 予算日の調整 &#x200B;](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
+   ![ 予算日の調整 ](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
 
 1. ハイライト表示された時間枠を別の時間にドラッグ＆ドロップして、選択したプロジェクトの予算の競合がない場所を把握します。ネット値が正の値の時間枠が見つかると、ハイライト表示された時間枠が青に変わります。
 1. プロジェクト割り当てタイムラインの右上隅にある「x」をクリックして閉じます。

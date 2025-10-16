@@ -6,10 +6,10 @@ description: ドキュメントの更新を追加したり、ドキュメント�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 86%
+source-wordcount: '365'
+ht-degree: 84%
 
 ---
 
@@ -23,20 +23,19 @@ ht-degree: 86%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>新規：Contributor 以上</p> 
-   <p>現在：Request 以上</p>
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td> <p>投稿者以上</p> 
+   <p>リクエスト以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -51,7 +50,7 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -60,7 +59,7 @@ ht-degree: 86%
 1. ドキュメントを含むオブジェクトに移動し、左パネルの「**ドキュメント**」を選択します。
 1. 必要なドキュメントを検索し、次のいずれかの操作を行います。
 
-   * リストのドキュメントをクリックし、右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-summary-in-new-toolbar-small.png) をクリックして新しいコメントを追加するか、**返信** をクリックして既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
+   * リストのドキュメントをクリックし、右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-summary-in-new-toolbar-small.png) をクリックして新しいコメントを追加するか、**返信** をクリックして既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
    * ドキュメントの上にマウスポインタを合わせて、**ドキュメントの詳細**&#x200B;をクリックし、左パネルの「**更新**」をクリックします。
 オブジェクトへの更新の追加について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 

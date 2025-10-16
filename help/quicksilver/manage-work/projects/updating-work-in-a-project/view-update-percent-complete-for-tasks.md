@@ -6,10 +6,10 @@ description: タスクの完了率を更新して、タスクを完了するた�
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 33%
+source-wordcount: '682'
+ht-degree: 32%
 
 ---
 
@@ -23,23 +23,20 @@ ht-degree: 33%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
-
-タスクを手動で更新するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規のライセンス：標準</p> 
-   または
-   <p>現在のライセンス：ワーク以上</p>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -53,9 +50,36 @@ ht-degree: 33%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New license: Standard</p> 
+   Or
+   <p>Current license: Work or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the task</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## タスクの完了率を更新できるエリア
 
@@ -90,7 +114,7 @@ ht-degree: 33%
 
 * **ホーム**: ホーム領域の概要パネルまたはマイ作業ウィジェットから、タスクまたは問題の完了率を更新できます。
 
-  詳しくは、[&#x200B; ホームの概要 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
+  詳しくは、[ ホームの概要 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
 
 ## タスクの完了率を更新する際の考慮事項
 
@@ -106,7 +130,7 @@ ht-degree: 33%
 
 1. タスクの完了率を更新する領域に移動します。
 
-   詳しくは、この記事の [&#x200B; タスクの完了率を更新できる領域 &#x200B;](#areas-where-you-can-update-the-percent-complete-of-a-task) 節を参照してください。
+   詳しくは、この記事の [ タスクの完了率を更新できる領域 ](#areas-where-you-can-update-the-percent-complete-of-a-task) 節を参照してください。
 
 1. 完了率を更新するタスクの「**完了率**」フィールドを見つけます。
 

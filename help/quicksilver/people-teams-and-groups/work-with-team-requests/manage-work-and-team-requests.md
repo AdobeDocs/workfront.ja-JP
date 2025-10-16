@@ -7,10 +7,10 @@ description: リクエストは、保留中のタスクまたはイシューの�
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 91%
+source-wordcount: '486'
+ht-degree: 93%
 
 ---
 
@@ -26,27 +26,23 @@ ht-degree: 91%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>リクエストの割り当てまたは作業を行うには：
-   <p>新規：Light 以上 </br>
-    または </br>
-   現在：レビューまたはそれ以上</p>
+   <p>ライト以上</p>
+  <p>レビュー以上</p>
    <p>リクエストを再割り当てするには：
-   <p>新規：標準 </br>
-    または </br>
-   現在：仕事以上</p></td>
+   <p>標準</p>
+   <p>ワークまたはそれ以上</p></td>
   </tr> 
  </tbody> 
 </table>

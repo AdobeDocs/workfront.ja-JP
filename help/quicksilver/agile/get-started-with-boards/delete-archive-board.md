@@ -7,10 +7,10 @@ description: Workfront でボードを削除またはアーカイブできます
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 3e33ba722ff066fd7fec8c7762c63e8c8d3fc4b8
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 85%
+source-wordcount: '311'
+ht-degree: 82%
 
 ---
 
@@ -24,22 +24,19 @@ ht-degree: 85%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>新規：[!UICONTROL Contributor]以上</p> 
-   <p>または</p>
-   <p>現在：[!UICONTROL Request] 以上</p>
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p>
    </td> 
   </tr> 
  </tbody> 

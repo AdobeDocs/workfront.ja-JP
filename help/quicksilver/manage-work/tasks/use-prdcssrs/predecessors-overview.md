@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: タスクの先行タスクの概要
+title: タスク先行タスクの概要
 description: 先行タスクとは、別のタスク（後続タスクまたは依存タスクと呼ばれる）が依存するタスクです。Adobe Workfront は、5 タイプの先行タスクの依存関係をサポートしています。
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 100%
+source-wordcount: '1179'
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,7 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
   >
   >強制値（**e**）は、先行タスクではなく、ラグに追加する必要があります。
 
-* **4515:2** 先行タスク番号は 2 です。- これは、参照番号 **4515** のプロジェクト内の先行タスクとの、非強制的な、終了から開始への依存関係です。
+* **4515:2** 先行タスク番号は 2 です。 - これは、参照番号 **4515** のプロジェクト内の先行タスクとの、非強制的な、終了から開始への依存関係です。
 
 ## 先行タスク情報を表示
 
@@ -130,7 +130,7 @@ Workfront の次のエリアで、先行タスク情報を表示できます。�
 
   タスクリストのタスクの先行タスクに関する情報を表示するには、次のいずれかを実行します。
 
-   * タスクのリストに組み込みの標準ビューを適用します。
+   * タスクのリストにビルトインの標準ビューを適用します。
 
      標準ビューでの先行タスク情報の表示については、この記事の[タスクの先行タスクを検索](#locate-the-predecessors-of-a-task)を参照してください。
 

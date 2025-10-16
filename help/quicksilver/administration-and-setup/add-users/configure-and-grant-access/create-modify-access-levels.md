@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1505'
 ht-degree: 92%
 
 ---
@@ -28,27 +28,24 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
 
 >[!IMPORTANT]
 >
->ユーザーを設定した後で参照できるように、組み込みのアクセスレベルを変更しないことを強くお勧めします。アクセスレベルをカスタマイズするには、デフォルトのアクセスレベルをコピーし、そのコピーを変更します。これは、システム管理者と外部ユーザーを除くすべてのアクセスレベルで実行できます。
+>ユーザーを設定した後で参照できるように、ビルトインのアクセスレベルを変更しないことを強くお勧めします。アクセスレベルをカスタマイズするには、デフォルトのアクセスレベルをコピーし、そのコピーを変更します。これは、システム管理者と外部ユーザーを除くすべてのアクセスレベルで実行できます。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>新規：標準
-   <p>または</p>
-   <p>現在：プラン</p></td> 
+   <td><p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -66,7 +63,7 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
 {{step-1-to-setup}}
 
 1. 左側のパネルで「**アクセスレベル**」をクリックします。
-1. &#x200B;
+1. 
    * 実稼動環境では、次の操作を行います。
 コピーしてカスタマイズするアクセスレベルを選択して、「**コピー**」をクリックします。
 
@@ -76,11 +73,11 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
 
    * <span class="preview"> プレビュー環境で、次の操作を行います。</span>
 
-     <span class="preview"> コピーしてカスタマイズするアクセスレベルを選択して、「**コピー**」アイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png) をクリックします。</span>
+     <span class="preview"> コピーしてカスタマイズするアクセスレベルを選択して、「**コピー**」アイコン ![ コピーアイコン ](assets/copy-icon.png) をクリックします。</span>
 
      <span class="preview"> または </span>
 
-     <span class="preview"> 既存のアクセスレベルを編集する場合は、そのアクセスレベルの左側にあるボックスをクリックしてアクセスレベルを選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。</span>
+     <span class="preview"> 既存のアクセスレベルを編集する場合は、そのアクセスレベルの左側にあるボックスをクリックしてアクセスレベルを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。</span>
 
 1. 表示されるボックスで、次のいずれかの操作を行って、カスタムアクセスレベルの設定を開始します。
 

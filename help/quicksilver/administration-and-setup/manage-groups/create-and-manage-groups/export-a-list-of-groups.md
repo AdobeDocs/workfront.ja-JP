@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 66c1f049-c7b5-4d6b-9dc2-3c5f527764e9
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 66%
+source-wordcount: '199'
+ht-degree: 60%
 
 ---
 
@@ -25,32 +25,27 @@ ht-degree: 66%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -58,14 +53,14 @@ ht-degree: 66%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
-1. 管理するグループのグループ全体を書き出す場合は、「書き出し」アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックします。
+1. 管理するグループのグループ全体を書き出す場合は、「書き出し」アイコン ![ 書き出しアイコン ](assets/export.png) をクリックします。
 
    または
 
-   管理しているグループの一部を書き出すには、それらのグループを選択し、「書き出し」アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックします。
+   管理しているグループの一部を書き出すには、それらのグループを選択し、「書き出し」アイコン ![ 書き出しアイコン ](assets/export.png) をクリックします。
 
 1. 書き出すリストのファイル形式を選択します。

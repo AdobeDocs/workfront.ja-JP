@@ -6,10 +6,10 @@ description: 基本的なワークフローでは、複数のレビュー担当�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 99%
+source-wordcount: '1793'
+ht-degree: 98%
 
 ---
 
@@ -23,24 +23,21 @@ ht-degree: 99%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>
-   <p>新規：任意</p>
-    <p>現在のプラン：Pro 以上</p>
-   <p>従来のプラン：Select 以上</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <p>任意</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-    <p>現在：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <p>標準</p>
+    <p>作業またはプラン</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -53,7 +50,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-&#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -71,7 +68,7 @@ ht-degree: 99%
 1. 「ワークフロータイプ」セクションで、「**基本**」を選択します。
 1. 追加するユーザーを指定してから、プルーフの役割を選択します。
 
-   ![&#x200B; 新しいプルーフの役割 &#x200B;](assets/new-proof---roles-350x213.png)
+   ![ 新しいプルーフの役割 ](assets/new-proof---roles-350x213.png)
 
 1. 次の表に、各役割とそれに関連付けられた権限を示します。
 
@@ -251,7 +248,7 @@ ht-degree: 99%
      </tr> 
      <tr> 
       <td role="rowheader">最終決定</td> 
-      <td>Workfront は、プルーフの最後の承認者が決定を下したときにメールを送信します。<p>このアラートは、通常、実際のレビューの議論に参加する必要のない設計者によって使用されることがよくあります。最終的な決定が下されると、デザイナーに通知が届き、必要な変更に対してアクションを実行できます。</p><p>また、このアラートは、レビュープロセスが完了した場合にのみ通知を受け取る必要がある部署のリーダーに対しても役立ちます。</p></td> 
+      <td>Workfront は、プルーフの最後の承認者が決定を下したときにメールを送信します。<p>このアラートは、通常、実際のレビューの議論に参加する必要のないデザイナーによって使用されることがよくあります。最終的な決定が下されると、デザイナーに通知が届き、必要な変更に対してアクションを実行できます。</p><p>また、このアラートは、レビュープロセスが完了した場合にのみ通知を受け取る必要がある部署のリーダーに対しても役立ちます。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">毎時の概要</td> 
@@ -347,6 +344,6 @@ ht-degree: 99%
 
 1. プルーフが生成されたら、「**プルーフを開く**」をクリックして、プルーフビューアを起動します。
 
-   ![&#x200B; プルーフを開く &#x200B;](assets/open-proof-350x132.png)
+   ![ プルーフを開く ](assets/open-proof-350x132.png)
 
    自分のアカウントでプルーフが有効になっていないユーザーは、引き続きドキュメントを表示し、プルーフにコメントを付けることができます。

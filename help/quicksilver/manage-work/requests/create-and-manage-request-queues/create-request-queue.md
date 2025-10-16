@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: リクエストキューを作成
 description: ユーザーがプロジェクトの予定作業ではない臨時のリクエストを入力できるよう、リクエストキューを設定できます。例えば、IT 部門に寄せられるすべてのユーザーリクエストを取り込むよう、ヘルプデスクのリクエストキューを設定できます。
-author: Alina
+author: Becky
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: ce611ec0c91b114f1a10977970e42fa753f62f22
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '2868'
+source-wordcount: '2843'
 ht-degree: 65%
 
 ---
@@ -48,28 +48,25 @@ Workfrontでは、リクエストキューとして次のオブジェクトを�
 
 リクエストキューに新しいリクエストを送信する方法について詳しくは、[リクエストのコピーと送信](../create-requests/copy-and-submit-requests.md)を参照してください。
 
-Adobe Workfront Planning でリクエストフォームを設定する方法については、[Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+Adobe Workfront Planning でリクエストフォームを設定する方法については、[Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>新規のライセンス：標準 </p>
-   または
-   <p>現在のライセンス：プラン </p> </td> 
+   <p>標準 </p>
+   <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -82,7 +79,7 @@ Adobe Workfront Planning でリクエストフォームを設定する方法に�
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -345,7 +342,7 @@ To create a Request Queue:
 
    「キューの詳細」セクションが開きます。
 
-   ![&#x200B; 「キューの詳細」領域の「キュータイプ」セクション &#x200B;](assets/unshimmed-queue-type-section-queue-details-area.png)
+   ![ 「キューの詳細」領域の「キュータイプ」セクション ](assets/unshimmed-queue-type-section-queue-details-area.png)
 
 1. 次の情報を指定します。
 
@@ -375,7 +372,7 @@ To create a Request Queue:
 
    * **直接アクセス URL：**&#x200B;ユーザーがブラウザーからこの URL にアクセスすると、ユーザーはリクエストエリアの「新規リクエスト」セクションに直接移動し、デフォルトではこのリクエストが選択されます。
 
-     ![&#x200B; ダイレクト URL 共有からの新しいリクエストボックス &#x200B;](assets/new-request-box-from-direct-url-share.png)
+     ![ ダイレクト URL 共有からの新しいリクエストボックス ](assets/new-request-box-from-direct-url-share.png)
 
      >[!NOTE]
      >
@@ -438,7 +435,7 @@ To create a Request Queue:
    >
    >ユーザーが「要求」領域から要求キューにアクセスすると、「キューの詳細」ページと「キューのトピック」ページの両方で「要求タイプ」が選択されている場合にのみ、「要求タイプ」が選択として表示されます。
    >
-   >プロジェクトの「キュートピック」領域の設定については、[&#x200B; キュートピックの作成 &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) を参照してください。
+   >プロジェクトの「キュートピック」領域の設定については、[ キュートピックの作成 ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) を参照してください。
 
    ここで選択したそれぞれのタイプは、フォームで使用できます（複数選択できます）。複数のタイプを選択すると、寄せられる複数のリクエストを整理するのに役立ちます。\
    例えば、IT プロジェクトのリクエストキューでフォームを使用している場合、ハードウェア、ソフトウェア、バグ修正、イシューなどのリクエストタイプがキューに入る可能性があります。
@@ -510,7 +507,7 @@ Workfront管理者が設定エリアで稼働日の標準的な時間数を 8 �
       </tbody> 
      </table>
 
-     ![&#x200B; 新しいイシューフィールドとキュー詳細のドキュメント &#x200B;](assets/new-issue-fields-and-documents-on-queue-details.png)
+     ![ 新しいイシューフィールドとキュー詳細のドキュメント ](assets/new-issue-fields-and-documents-on-queue-details.png)
 
    * **選択および選択解除されたすべてのフィールドを表示する先：** 新しいリクエストフォームのすべてのフィールドを表示するユーザーを選択します。 次のオプションは、フォーム上のフィールドへのアクセスを制御します。
 
@@ -526,7 +523,7 @@ Workfront管理者が設定エリアで稼働日の標準的な時間数を 8 �
 リクエストキューに複数のキュートピックが関連付けられている場合は、代わりにカスタムフォームをキュートピックに関連付けることをお勧めします。
 詳しくは、[キュートピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
 
-     ![&#x200B; キューの詳細のカスタムフォームボックス &#x200B;](assets/custom-forms-box-on-queue-details.png)
+     ![ キューの詳細のカスタムフォームボックス ](assets/custom-forms-box-on-queue-details.png)
 
 1. 続いて、**メールキュー設定**&#x200B;エリアで、ユーザーがリクエストをリクエストキュープロジェクトにメールで送信できるようにするには、設定の情報を選択します。
 
@@ -539,7 +536,7 @@ Workfront管理者が設定エリアで稼働日の標準的な時間数を 8 �
 
    * リクエストキューのサブセクションの作成について詳しくは、次の記事を参照してください
    * [キュートピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
-   * [&#x200B; トピックグループの作成 &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+   * [ トピックグループの作成 ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
      適切な担当者、チーム、および正しいプロジェクトにリクエストをルーティングする方法については、[ルーティングルールの作成](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)を参照してください。
 

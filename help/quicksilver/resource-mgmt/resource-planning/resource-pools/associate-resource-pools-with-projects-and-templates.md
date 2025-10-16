@@ -6,10 +6,10 @@ description: リソースプールは、Adobe Workfront でのリソースの管
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 86%
+source-wordcount: '601'
+ht-degree: 85%
 
 ---
 
@@ -43,36 +43,31 @@ Also - take out all the references to Preview and Prod at prod final
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：任意</p>
-       <p>または</p>
-       <p>現在：Pro 以上</p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+   <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>リソース プール管理へのアクセスを含むリソース管理へのアクセスを編集します</p> <p>プロジェクト、テンプレート、ユーザーへのアクセスの編集</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">オブジェクト権限</td> 
+  <tr> 
+   <td>オブジェクト権限</td> 
    <td>リソース プールを関連付けるプロジェクト、テンプレート、およびユーザーの権限の管理</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -80,14 +75,14 @@ Also - take out all the references to Preview and Prod at prod final
 
 リソースプールにプロジェクトを関連付けるのと同じ方法で、テンプレートにリソースプールを関連付けることができます。この記事では、リソースプールをプロジェクトに関連付ける方法について説明します。
 
-1. プロジェクトに移動して、プロジェクト名の横にある **詳細** アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、**編集** をクリックします。
+1. プロジェクトに移動して、プロジェクト名の横にある **詳細** アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、**編集** をクリックします。
 
 1. 「**プロジェクト設定**」をクリックします。
 
 1. 「**リソースプール**」フィールドでリソースプールの名前の入力を開始し、リストにその名前が表示されたら選択します。\
    1 つのプロジェクトまたはテンプレートに複数のリソースプールを関連付けることができます。
 
-   ![&#x200B; プロジェクト設定 &#x200B;](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![ プロジェクト設定 ](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. 「**保存**」をクリックします。
 
@@ -104,7 +99,7 @@ Also - take out all the references to Preview and Prod at prod final
 リソースプールを複数のプロジェクトに一括で関連付けるには：
 
 1. プロジェクトのリストに移動します。
-1. 複数のプロジェクトを選択し、リスト上部の **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. 複数のプロジェクトを選択し、リスト上部の **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
 1. 「**設定**」をクリックします。
 1. 「**リソースプール**」フィールドでリソースプールの名前の入力を開始し、リストでその名前が表示されたら選択します。\

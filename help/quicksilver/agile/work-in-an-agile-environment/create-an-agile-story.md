@@ -6,10 +6,10 @@ description: 様々な方法を使って、1 つの反復で 1 つのアジャ�
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 97%
+source-wordcount: '695'
+ht-degree: 96%
 
 ---
 
@@ -25,8 +25,6 @@ ht-degree: 97%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,18 +32,17 @@ ht-degree: 97%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p> 
-   または
-   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>ストーリーが存在するプロジェクトへの[!UICONTROL Manage]アクセス権 </td> 
+   <td>ストーリーが含まれるプロジェクトへのアクセスの管理 </td> 
   </tr> 
  </tbody> 
 </table>

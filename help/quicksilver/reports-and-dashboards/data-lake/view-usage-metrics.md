@@ -7,48 +7,40 @@ description: 「Workfront Data Connect Metrics」タブを使用すると、毎�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 14%
+source-wordcount: '309'
+ht-degree: 9%
 
 ---
 
 # [!DNL Workfront Data Connect] 使用状況指標の表示
 
-「[!DNL Workfront Data Connect][!UICONTROL &#x200B; 指標 &#x200B;]」タブを使用すると、使用された計算時間と実行されたクエリ数の両方に従って、組織の使用状況指標を表示できます。 組織では、ライセンスタイプと Data Connect アドオンの購入に基づいて、利用可能な月間計算時間が制限されています。 「[!UICONTROL &#x200B; 指標 &#x200B;]」タブには、使用状況に関連した利用可能な月別の計算時間数に関する情報が表示されます。
+「[!DNL Workfront Data Connect][!UICONTROL  指標 ]」タブを使用すると、使用された計算時間と実行されたクエリ数の両方に従って、組織の使用状況指標を表示できます。 組織では、ライセンスタイプと Data Connect アドオンの購入に基づいて、利用可能な月間計算時間が制限されています。 「[!UICONTROL  指標 ]」タブには、使用状況に関連した利用可能な月別の計算時間数に関する情報が表示されます。
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>次のプランに含まれる：</p>
-    <ul>
-        <li>Ultimate</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect は、従来のWorkfront プランでは使用できません。</p> 
-   </td> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td><p>Ultimate</p>
+    <p>ワークフロー Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>プラン</p></td> 
+   <td>
+   <p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p></td> 
+   <td> <p>Workfront管理者である必要があります</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,13 +51,13 @@ ht-degree: 14%
 
 ## 使用指標と利用可能な計算時間を表示する
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、[!UICONTROL **設定**] をクリックします。
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、[!UICONTROL **設定**] をクリックします。
 
 1. 左側のパネルで、[!UICONTROL **システム**]/[!UICONTROL **データアクセス**] をクリックします。
 
 1. 「[!UICONTROL **指標**]」タブをクリックします。 使用状況の指標は **使用状況を計算** グラフに表示され、実行されたクエリの数は **クエリ数** グラフに表示されます。
 
-   ![&#x200B; データ接続の使用状況指標 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-usage-metrics.png)
+   ![ データ接続の使用状況指標 ](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-usage-metrics.png)
 
 1. （オプション） [!UICONTROL **表示を選択**] ドロップダウンメニューを使用して、両方のグラフに含まれる情報の時間範囲を変更できます。
 

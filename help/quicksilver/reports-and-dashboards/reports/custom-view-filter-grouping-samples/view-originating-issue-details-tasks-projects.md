@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「表示：タスクとプロジェクトに関する元のイシューの詳細」
+title: 表示：タスクおよびプロジェクトの元の問題の詳細
 description: イシューがタスクまたはプロジェクトに変換されると、タスクまたはプロジェクトとイシューの間に解決オブジェクト関係が確立されます。このビューには、タスクまたはプロジェクトが完了すると自動的に完了するイシューのフィールドが表示されます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 70%
+source-wordcount: '289'
+ht-degree: 62%
 
 ---
 
@@ -30,50 +30,39 @@ ht-degree: 70%
 
 ![task_with_resolving_issue_fields.png](assets/task-with-resolving-issue-fields-350x38.png)
 
-詳しくは、[&#x200B; 表示：タスクまたはプロジェクトリストに元のイシュー情報を表示する &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md) も参照してください。
+詳しくは、[ 表示：タスクまたはプロジェクトリストに元のイシュー情報を表示する ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md) も参照してください。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p> 現在： 
-   <ul>
-   <li>表示の変更をリクエスト</li> 
-   <li>レポートを変更するためのプラン</li>
-   </ul>
-     </p>
-     <p> 新規： 
-   <ul>
-   <li>ビューを変更する場合は Contributor</li> 
-   <li>レポートを変更する場合は Standard</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>ビューの投稿者または変更依頼 </p>
+   <p>レポートを変更するための標準またはプラン</p>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルター、表示、グループ化へのアクセス権を編集して、表示を変更できるようにします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
 
 +++
 

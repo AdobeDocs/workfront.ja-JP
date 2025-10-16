@@ -6,10 +6,10 @@ description: 他のレビュアーが行ったプルーフのコメントを表�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 94%
+source-wordcount: '607'
+ht-degree: 93%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 94%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -41,12 +41,12 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -71,7 +71,7 @@ ht-degree: 94%
 1. （条件付き）コメントエリアが開いていない場合は、右上隅にある「**コメントを表示**」をクリックします。
 1. 任意のコメントをクリックすると、プルーフのコメントマークが表示されます。
 1.  または
-1. ビデオプルーフで、コメントされたタイムライン内のポイントの上にポインタを合わせて、表示される数字のバルーンをクリックします。
+1.  ビデオプルーフで、コメントされたタイムライン内のポイントの上にポインタを合わせて、表示される数字のバルーンをクリックします。
 1. ![proof_comment_video.png](assets/proof-comment-video-350x190.png)
 
 1. （オプション）コメントリストのサイズを調整するには、（現在開いているコメントではなく）コメントエリアの左端にマウスポインタを合わせて、水平方向のサイズ変更に合わせて端をドラッグします。
@@ -82,7 +82,7 @@ ht-degree: 94%
 Workfront では、プルーフビューアーを起動しなくても、プルーフコメントを表示できます。
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、**ドキュメント**&#x200B;を選択します。
-1. ドキュメントを含む行をクリックし、ページの右側にある **概要** アイコン ![&#x200B; 概要アイコン &#x200B;](assets/summary-panel-icon.png) をクリックします。\
+1. ドキュメントを含む行をクリックし、ページの右側にある **概要** アイコン ![ 概要アイコン ](assets/summary-panel-icon.png) をクリックします。\
    コメントは、ドキュメントの概要の「アップロード」セクションに表示されます。
 
 ## すべてのコメントを既読としてマーク
@@ -96,7 +96,7 @@ Workfront では、プルーフビューアーを起動しなくても、プル�
 
 1. コメントリストの上にある&#x200B;**その他**&#x200B;アイコン、**すべて既読にする**&#x200B;の順にクリックします。
 
-1. ![&#x200B; すべて既読としてマーク &#x200B;](assets/mceclip8-350x173.png)
+1. ![ すべて既読としてマーク ](assets/mceclip8-350x173.png)
 
 ## プルーフビューアからのプルーフコメントに返信する
 

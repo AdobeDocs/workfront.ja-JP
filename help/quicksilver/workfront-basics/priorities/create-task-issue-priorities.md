@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 25%
+source-wordcount: '247'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 25%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +29,14 @@ ht-degree: 25%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
-   <p>現在：リクエストのリクエストまたはそれ以上、イシューのレビューまたはそれ以上、タスクの作業またはそれ以上</p>
-   <p>新規：リクエストのコントリビューター以上、イシューとドキュメントのライト以上：標準またはそれ以上のタスク</p> 
+   <p>リクエストのリクエストまたはそれ以上、イシューのレビューまたはそれ以上、タスクの作業またはそれ以上</p>
+   <p>リクエストの場合は投稿者またはそれ以上、イシューとドキュメントの場合はライトまたはそれ以上：標準またはそれ以上のタスク</p> 
    </td> 
   </tr> 
   <tr> 
@@ -68,7 +67,7 @@ ht-degree: 25%
 {{step1-to-priorities}}
 
 1. 右上隅の **新規作成** をクリックします。
-   ![&#x200B; 新規作成（実稼動） &#x200B;](assets/create-new--.png)
+   ![ 新規作成（実稼動） ](assets/create-new--.png)
 1. 次の情報を指定します。
 
    | フィールド | 手順 |

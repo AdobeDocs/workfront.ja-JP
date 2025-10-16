@@ -6,10 +6,10 @@ description: かんばんボードから直接、ストーリーのステータ�
 author: Lisa
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 84%
+source-wordcount: '219'
+ht-degree: 82%
 
 ---
 
@@ -25,8 +25,6 @@ ht-degree: 84%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,14 +32,13 @@ ht-degree: 84%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p> 
-   または
-   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -57,6 +54,6 @@ ht-degree: 84%
 1. （オプション）「**[!UICONTROL チームを切り替え]**」アイコン「![チームを切り替えアイコン](assets/switch-team-icon.png)」をクリックし、ドロップダウンメニューから新しい[!UICONTROL かんばん]チームを選択するか、検索バーでチームを検索します。
 
 1. ストーリーのステータスを更新する[!UICONTROL かんばん]ボードに移動します。
-1. [!UICONTROL &#x200B; かんばん &#x200B;] ボードのあるステータス列から別の列にストーリーをドラッグします。
+1. [!UICONTROL  かんばん ] ボードのあるステータス列から別の列にストーリーをドラッグします。
 ストーリーは追加された後 2 週間、[!UICONTROL 完了]列に残ります。
    ![別の列へのストーリーの移動](assets/agile-storyboard-progress.png)

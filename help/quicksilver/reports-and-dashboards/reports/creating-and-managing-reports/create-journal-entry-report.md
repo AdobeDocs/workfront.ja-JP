@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2763'
 ht-degree: 93%
 
 ---
@@ -35,32 +35,24 @@ ht-degree: 93%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-      <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
-   </td> 
+   <td> 
+      <p>標準</p>
+      <p>プラン</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -69,7 +61,7 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -172,7 +164,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅のにある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
+   ![ 仕訳の選択 ](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -246,7 +238,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
 1. 「**フィルター**」タブで「**フィルタールールを追加**」をクリックし、フィルタールール **フィールド名**/**次と等しい**/**ステータス** を追加します。
 
-   ![&#x200B; ジャーナルエントリステータスフィルター &#x200B;](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![ ジャーナルエントリステータスフィルター ](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -286,7 +278,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
+   ![ 仕訳の選択 ](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -370,7 +362,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
+   ![ 仕訳の選択 ](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -441,7 +433,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト >**。
 
-   ![&#x200B; カスタムフォーム変更フィルター &#x200B;](assets/qs-custom-form-changes-filter-350x92.png)
+   ![ カスタムフォーム変更フィルター ](assets/qs-custom-form-changes-filter-350x92.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
@@ -472,7 +464,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
+   ![ 仕訳の選択 ](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -542,7 +534,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
    * **フィールド名**／**次と等しい**／**日付**
    * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名 >**.
 
-   ![&#x200B; 予定完了日の変更フィルター &#x200B;](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![ 予定完了日の変更フィルター ](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
@@ -573,7 +565,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
+   ![ 仕訳の選択 ](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -631,7 +623,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
    * **フィールド名**／**次と等しい**／**ownerID**
    * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名 >**.
 
-   ![&#x200B; 所有者変更フィルター &#x200B;](assets/qs-owner-changes-filter-350x94.png)
+   ![ 所有者変更フィルター ](assets/qs-owner-changes-filter-350x94.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 

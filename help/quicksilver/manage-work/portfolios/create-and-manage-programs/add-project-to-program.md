@@ -6,16 +6,16 @@ description: ポートフォリオ内のプログラムに追加することで�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '479'
 ht-degree: 56%
 
 ---
 
 # プログラムへのプロジェクトの追加
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -33,24 +33,24 @@ ht-degree: 56%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td><p>新規：標準</p> 
-   <p>現在：[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>[!UICONTROL Standard]</p> 
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
-   <td> <p>プログラムまたはそれ以降への [!UICONTROL 編集 &#x200B;] アクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
+   <td> <p>プログラムまたはそれ以降への [!UICONTROL 編集 ] アクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -59,9 +59,37 @@ ht-degree: 56%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: Standard</p> 
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to Programs or higher</p> <p>[!UICONTROL Edit] access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the program</p> <p>[!UICONTROL Manage] permissions to the projects</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## 既存のプログラムにプロジェクトを追加する
 
@@ -73,7 +101,7 @@ ht-degree: 56%
 
    >[!TIP]
    >
-   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
+   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -106,14 +134,14 @@ ht-degree: 56%
 
 1. （任意）「**[!UICONTROL 既存プロジェクト]**」を選択すると、「**プロジェクトの追加**」ボックスが開きます。<!--check at unshimming-->
 
-   ![&#x200B; プログラムに既存のプロジェクトを追加ボックス &#x200B;](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
+   ![ プログラムに既存のプロジェクトを追加ボックス ](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
 
 1. 次の操作を実行します。
 
    1. 「**[!UICONTROL プロジェクトを追加]**」ボックスの「**このプログラムにプロジェクトを追加**」フィールドにプロジェクトの名前を入力し、リストに表示されたら選択します。<!--check casing on links and buttons-->
 
       複数のプロジェクトを追加できます。
-   1. （オプション）プロジェクト名をプログラムに追加しない場合は、プロジェクト名の横にある **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+   1. （オプション）プロジェクト名をプログラムに追加しない場合は、プロジェクト名の横にある **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
 
    1. 「**[!UICONTROL プロジェクトを追加]**」をクリックします。<!--check at unshimming-->
 

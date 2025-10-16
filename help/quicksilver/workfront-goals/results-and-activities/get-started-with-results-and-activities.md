@@ -7,31 +7,43 @@ description: 目標をアクティブ化するには、結果、アクティビ�
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 95%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
 # Adobe Workfront Goals の結果とアクティビティについての基本を学ぶ
 
+<!--Audited for P& P only: 10/2025-->
+
+>[!NOTE]
+>
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>
+>Adobe Workfront Goals は購入できなくなりました。
+>
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->この記事で説明している機能を使用するには、組織に以下が必要です。
+>Your organization must have the following to use the functionality described in this article:
 >
->* 新しいプランとライセンス構造の場合：
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront プラン
+>   * The Ultimate Workfront plan 
 >    
->* 現在のプランおよびライセンス構造の場合：
+>* For the current plan and license structure: 
 >
->   * Pro 以上のWorkfront プラン
->   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 目標を作成すると、その目標のステータスは「ドラフト」になります。目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
 
@@ -49,7 +61,7 @@ ht-degree: 95%
 >
 > 目標は、アクティビティ、結果、プロジェクト、連携された目標を、合計 1000 件以上持つことはできません。</span>
 
-この記事では、アクティビティと結果の概要を説明します。目標の関連付けについて詳しくは、[Adobe Workfront Goals での目標の関連付け：記事のインデックス &#x200B;](../../workfront-goals/goal-alignment/goal-alignment.md) を参照してください。 プロジェクトを目標に接続する方法について詳しくは、[Adobe Workfront Goals の目標へのプロジェクトの追加](../results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
+この記事では、アクティビティと結果の概要を説明します。目標の関連付けについて詳しくは、[Adobe Workfront Goals での目標の関連付け：記事のインデックス ](../../workfront-goals/goal-alignment/goal-alignment.md) を参照してください。 プロジェクトを目標に接続する方法について詳しくは、[Adobe Workfront Goals の目標へのプロジェクトの追加](../results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
 
 ## 結果の概要
 
@@ -189,7 +201,7 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> 
+  <tr> ****
    <td>開始値と終了値の間の値の範囲が提供され、これらの値を達成するにはどの程度近いかを示します。終了値に近い値は、目標の進捗状況の値を計算します。 </td> 
    <td>✔</td> 
    <td>✔</td> 

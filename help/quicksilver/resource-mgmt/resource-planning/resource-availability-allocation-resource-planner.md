@@ -6,9 +6,9 @@ description: リソースプランナーでは、リソースの空き時間と�
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1199'
 ht-degree: 97%
 
 ---
@@ -21,26 +21,21 @@ ht-degree: 97%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：任意</p>
-       <p>または</p>
-       <p>現在：Pro 以上</p> </td> 
+  <tr>
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：ライト以上</p>
-       <p>または</p>
-       <p>現在：レビュー以上</p></td>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>ライト以上</p>
+       <p>レビュー以上</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>次の項目に対する表示以上のアクセス権：</p> 
     <ul> 
      <li> <p>リソース管理</p> </li> 
@@ -50,13 +45,13 @@ ht-degree: 97%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td> <p>リソースプランナーで表示するプロジェクトに対する表示権限以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -148,7 +143,7 @@ ht-degree: 97%
 
 1. （条件付き）**カスタマイズ**&#x200B;を選択した場合、**表示される指標のカスタマイズ**&#x200B;ボックスを使用してカスタムビューを設定します。
 
-   ![&#x200B; ビューボックスをカスタマイズ &#x200B;](assets/planner-customize-view-box-350x114.png)
+   ![ ビューボックスをカスタマイズ ](assets/planner-customize-view-box-350x114.png)
 
 1. 左側の&#x200B;**表示タイプ**&#x200B;列で、次のビューの 1 つを選択します。
 
@@ -189,7 +184,7 @@ ht-degree: 97%
    >
    >カスタマイズされたビューは 1 つだけ指定できます。
 
-   ![&#x200B; プランナー時間ドロップダウン &#x200B;](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![ プランナー時間ドロップダウン ](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## ユーザー割り当てグラフの表示
 

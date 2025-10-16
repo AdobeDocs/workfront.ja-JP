@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「エラーメッセージ：無効なパラメーター：コンバージョン値」
-description: 「既存のカスタムフォームでカスタムフィールドの形式を変更しようとすると、「無効なパラメーター：コンバージョン値'&lt;...&gt;」というエラーメッセージが表示されます」
+title: エラーメッセージ：無効なパラメーター：コンバージョン値
+description: 既存のカスタムフォームでカスタムフィールドの形式を変更しようとすると、「無効なパラメーター：コンバージョン値'&lt;...&gt;」というエラーメッセージが表示されます
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 85%
+source-wordcount: '311'
+ht-degree: 84%
 
 ---
 
@@ -33,25 +33,21 @@ ht-degree: 85%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td> 
-  </tr> 
+   <td>[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>次へのアクセスを編集：</p> 
     <ul> 
      <li> <p>レポート、ダッシュボードおよびカレンダーの作成</p> </li> 
@@ -61,7 +57,7 @@ ht-degree: 85%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

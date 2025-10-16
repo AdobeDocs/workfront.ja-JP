@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: manage-issues
 title: リスト内の複数のイシューに対するユーザー割り当ての変更
 description: リスト内の複数のイシューに対するユーザー割り当ての変更
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 87%
+source-wordcount: '749'
+ht-degree: 88%
 
 ---
 
@@ -33,33 +33,33 @@ ht-degree: 87%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>新規：標準 </p>
-   <p>現在：Request 以上</p> </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>イシューへのアクセス権を編集</p> <p>プロジェクトおよびタスクへの表示以上のアクセス権を持ち、1 つの問題を割り当てる</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td> <p>イシューに対する権限の管理</p> <p>複数のイシューを割り当てる場合は、イシューが存在するプロジェクトまたはタスクに対する権限以上を投稿します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -102,13 +102,13 @@ ht-degree: 87%
    1. フィルタリングするユーザーまたは役割の名前を入力していき、名前がドロップダウンリストに表示されたら、それをクリックします。
    1. 「**フィルターの保存**」をクリックします。
 
-1. 割り当てを変更するイシューを選択して、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
+1. 割り当てを変更するイシューを選択して、**編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
 
    **イシューの編集**&#x200B;が表示されます。編集している項目は、ページの左上隅に表示されます。
 
 1. 「**割り当て**」セクションに移動して、「**割り当て先**」を選択します。
 
-   ![&#x200B; 割り当てエリア &#x200B;](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![ 割り当てエリア ](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. 次のいずれかの操作を行います。
 

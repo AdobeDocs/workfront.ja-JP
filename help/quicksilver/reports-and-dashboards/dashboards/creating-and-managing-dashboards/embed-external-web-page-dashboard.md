@@ -1,19 +1,19 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: ダッシュボードへの外部 Web ページの埋め込み
+title: ダッシュボードへの外部 web ページの埋め込み
 description: 外部 web ページをダッシュボードに埋め込んで、Adobe Workfront 内の他のシステムまたは他の Workfront ページから関連情報にアクセスできるようにします。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 90%
+source-wordcount: '1017'
+ht-degree: 86%
 
 ---
 
-# ダッシュボードへの外部 Web ページの埋め込み
+# ダッシュボードへの外部 web ページの埋め込み
 
 <!--Audited: 01/2025-->
 
@@ -24,27 +24,27 @@ ht-degree: 90%
 >[!IMPORTANT]
 >
 >* セキュリティ上の理由から、一部の web サイトでは web ページを iframe として埋め込むことができません。ダッシュボードに埋め込む web ページでこれが許可されていない場合、そのページはダッシュボードに表示されません。ただし、ダッシュボードの名前をクリックして、外部ページにアクセスすることはできます。\
->![&#x200B; 空の外部ページレポート &#x200B;](assets/qs-empty-external-page-report-350x165.png)\
+>![ 空の外部ページレポート ](assets/qs-empty-external-page-report-350x165.png)\
 >所有している web サイトに埋め込みを許可するには、web 管理者と協力して、**X-Frame-Options** 設定を調整します。詳しくは、[X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options) を参照してください。
 >
 >
 >* ダッシュボードページは、ダッシュボードの埋め込み外部ページとしてサポートされなくなりました。既存のダッシュボードは、これらの外部ページを削除するために自動的に変更されることはありませんが、そのような参照を含むダッシュボードに対する変更は、参照が削除または変更されるまで保存できません。
-> 特に、次の workfront.com サブドメインはサポートされなくなりました。
+>  > 特に、次の workfront.com サブドメインはサポートされなくなりました。
 >
 >     * /ダッシュボード
->     * /dashboard/:ID
->     * /portfolio/:ID/content-dashboard__:dashboardID
->     * /program/:ID/content-dashboard__:dashboardID
->     * /project/:ID/content-dashboard__:dashboardID
->     * /task/:ID/content-dashboard__:dashboardID
->     * /template/:ID/content-dashboard__:dashboardID
->     * /templatetask/:ID/content-dashboard__:dashboardID
+>     * /dashboard/:ID&#x200B;
+>     * /portfolio/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /program/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /project/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /task/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /template/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /templatetask/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /resourcemanagement/:ID/
->     * content-dashboard__:dashboardID
->     * /team/:ID/content-dashboard__:dashboardID
->     * /iteration/:ID/content-dashboard__:dashboardID
->     * /requests/:ID/content-dashboard__:dashboardID
->     * /group/:ID/content-dashboard__:dashboardID
+>     * content-dashboard__:dashboardID&#x200B;
+>     * /team/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /iteration/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /requests/:ID/content-dashboard__:dashboardID&#x200B;
+>     * /group/:ID/content-dashboard__:dashboardID&#x200B;
 >     * /billingrecord/:ID/content-dashboard__:dashboardID
 >
 >[ダッシュボードへのレポートの追加](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)で説明されているように、別の解決策として、ダッシュボードにリストレポートを含めることを検討します。
@@ -53,41 +53,34 @@ ht-degree: 90%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
-   </td>
+      <p>標準</p>
+      <p>プラン</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
-   <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p> </td> 
-  </tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td role="rowheader">オブジェクト権限</td> 
    <td> <p>ダッシュボードへのアクセスの編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
 
 +++
 
@@ -118,7 +111,7 @@ ht-degree: 90%
 
 1. **レイアウト／レポートを追加／カレンダーを追加**&#x200B;のエリアの下にある&#x200B;**外部ページを追加**&#x200B;をクリックします。
 
-   ![&#x200B; 外部ページを追加 &#x200B;](assets/qs-add-external-page-350x239.png)
+   ![ 外部ページを追加 ](assets/qs-add-external-page-350x239.png)
 
    **外部ページを追加**&#x200B;ボックスが表示されます。
 
@@ -132,7 +125,7 @@ ht-degree: 90%
 
       * Web ページへの https（暗号化）URL。\
         https（暗号化）ページのみが URL により読み込まれます。\
-        ![&#x200B; 外部ページを追加ダイアログ &#x200B;](assets/add-external-page-dialog-qs-350x247.png)
+        ![ 外部ページを追加ダイアログ ](assets/add-external-page-dialog-qs-350x247.png)
 
       * 特定の web サイトのセッション情報を含むテンプレート URL。\
         例：*https://localhost/?session={!$$SESSION}*
@@ -170,10 +163,10 @@ ht-degree: 90%
    「**ダッシュボード詳細**」ボックスが開きます。
 
 1. **ダッシュボードの詳細** ボックスの **レイアウトを選択/レポートを追加** 領域で、更新する外部ページを見つけて、その上にカーソルを置いて **編集** アイコンをクリックします。\
-   ![&#x200B; 外部ページのインライン編集 &#x200B;](assets/nwe-inline-edit-external-page-350x226.png)
+   ![ 外部ページのインライン編集 ](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. 「**外部ページの編集**」ボックスで、変更するフィールドを更新し、「**保存**」をクリックします。
-1. （任意） **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックして、ダッシュボードから外部ページを削除します。 詳しくは、[ダッシュボードからの外部ページを削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)を参照してください。
+1. （任意） **削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックして、ダッシュボードから外部ページを削除します。 詳しくは、[ダッシュボードからの外部ページを削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)を参照してください。
 1. 「**保存して閉じる**」をクリックします。
 
 ## レポートで外部ページを表示する
@@ -184,7 +177,7 @@ ht-degree: 90%
 
 1. **新規レポート** をクリックし、**外部セクション** を選択します。
 
-   ![&#x200B; 外部セクション &#x200B;](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![ 外部セクション ](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. （オプション）レポートの「表示」タブ、「フィルター」タブ、または「グループ化」タブを更新します。
 

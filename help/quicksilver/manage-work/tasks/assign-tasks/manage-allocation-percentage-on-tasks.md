@@ -6,10 +6,10 @@ description: 配分率は、割り当てられたリソースが 1 日に 1 回�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 91%
+source-wordcount: '429'
+ht-degree: 94%
 
 ---
 
@@ -25,33 +25,33 @@ ht-degree: 91%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準</p> 
-   <p>現在：ワーク以上</p> </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>ワークまたはそれ以上</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>タスクへのアクセスを編集</p> </td> 
+   <td>アクセスレベル設定</td> 
+   <td>タスクへのアクセスを編集</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクに対する参加以上の権限</p> <p>タスクの編集ボックスで配分率を更新するための編集権限</p>  </td> 
-  </tr> 
- </tbody> 
+   <td>オブジェクト権限</td>
+   <td><p>タスクに対する参加以上の権限</p>
+   <p>タスクの編集ボックスで配分率を更新するための編集権限</p></td>
+  </tr>
+ </tbody>
 </table>
 
-この表の詳細については、「[Workfrontのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)」を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -90,6 +90,6 @@ ht-degree: 91%
 
    タスクに割り当てられたチームの配分率は変更できません。
 
-   ![&#x200B; 配分率の変更 &#x200B;](assets/advanced-assignments-allocation-percentage.png)
+   ![ 配分率の変更 ](assets/advanced-assignments-allocation-percentage.png)
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。

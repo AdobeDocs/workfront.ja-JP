@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「表示とグループ化：グループ化の平均で集計したプロジェクトの実際の期間を表示する」
+title: 表示とグループ化：プロジェクトの実際の期間をグループ化の平均で集計して表示します
 description: プロジェクトレポートに以下の列を追加して、グループ化内の平均として集計された実際の期間を表示できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 37%
+source-wordcount: '264'
+ht-degree: 32%
 
 ---
 
@@ -26,26 +26,19 @@ ht-degree: 37%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-    <p>新規：</p>
-   <ul><li><p>フィルターを変更するコントリビューター </p></li>
-   <li><p>レポートを変更する場合は Standard</p></li> </ul>
-
-<p>現在：</p>
-   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
-   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
+   <p>フィルターの変更者または変更依頼 </p>
+   <p>レポートを変更するための標準またはプラン</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -58,7 +51,7 @@ ht-degree: 37%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -68,7 +61,7 @@ ht-degree: 37%
 
 1. プロジェクトリストに移動します。
 1. （必須） プロジェクトの実際の期間の集計平均値を表示するには、プロジェクトリストにグループ化を追加する必要があります。\
-   グループ化の作成について詳しくは、[Adobe Workfrontのグループ化の概要 &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) を参照してください。
+   グループ化の作成について詳しくは、[Adobe Workfrontのグループ化の概要 ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) を参照してください。
 1. **表示** ドロップダウンメニューを展開し、「**表示をカスタマイズ**」を選択します。
 1. 「**列を追加**」をクリックします。
 1. **テキストモードに切り替え** をクリックしてから、**テキストモードを編集** をクリックします。

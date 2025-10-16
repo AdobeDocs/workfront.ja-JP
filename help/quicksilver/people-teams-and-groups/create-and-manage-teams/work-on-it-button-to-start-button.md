@@ -6,10 +6,10 @@ description: Adobe Workfront のデフォルト設定には、割り当てられ
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 95%
+source-wordcount: '778'
+ht-degree: 94%
 
 ---
 
@@ -27,22 +27,19 @@ ht-degree: 95%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront パッケージ</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td>
+   <p>標準</p>
+   <p>プラン</p></td>
   </tr> 
  </tbody> 
 </table>

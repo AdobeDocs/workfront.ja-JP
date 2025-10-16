@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront] オブジェクトへのリンクが Slack
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 100%
+source-wordcount: '1107'
+ht-degree: 97%
 
 ---
 
@@ -25,24 +25,26 @@ ht-degree: 100%
 
 ## アクセス要件
 
-この記事で説明されている機能を使用するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>[!UICONTROL Pro] 以降</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>任意</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -70,7 +72,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 予定完了日]**：予定完了日について詳しくは、[プロジェクトの予定完了日の設定](../../manage-work/projects/planning-a-project/project-planned-completion-date.md)を参照してください。
 
-   * **[!UICONTROL ポートフォリオ]**&#x200B;名：ポートフォリオについて詳しくは、[Adobe Workfront のポートフォリオの概要](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。
+   * **[!UICONTROL Portfolio]** 名前：ポートフォリオについて詳しくは、[ ポートフォリオ手法について ](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md) を参照してください。
 
    * **[!UICONTROL 状況]**：プロジェクト状況について詳しくは、[プロジェクト状況と状況タイプの概要](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)を参照してください。
 

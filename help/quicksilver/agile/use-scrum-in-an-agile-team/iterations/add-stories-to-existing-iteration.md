@@ -6,10 +6,10 @@ description: イテレーションにストーリーを追加する方法は様�
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 86%
+source-wordcount: '614'
+ht-degree: 84%
 
 ---
 
@@ -28,23 +28,20 @@ ht-degree: 86%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p> 
-   または
-   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>ストーリーが存在するプロジェクトへの[!UICONTROL Manage]アクセス権 </td> 
+   <td>ストーリーが含まれるプロジェクトへのアクセスの管理 </td> 
   </tr>
  </tbody> 
 </table>
@@ -98,7 +95,7 @@ ht-degree: 86%
 または
 反復に追加するタスクまたは問題を含むプロジェクト、レポート、またはダッシュボードに移動します。 次に、1 つ以上のタスクまたは問題を選択します。
 
-1. **[!UICONTROL 詳細]**![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png)/**[!UICONTROL イテレーションに追加]** をクリックします。
+1. **[!UICONTROL 詳細]**![ 詳細アイコン ](assets/more-icon.png)/**[!UICONTROL イテレーションに追加]** をクリックします。
 非アジャイルチームに割り当てられたタスクやイシューを割り当てることはできません。
 
 1. 「**[!UICONTROL 追加先]**」ボックスにイテレーションの名前の入力を開始し、リストに表示されたら選択します。

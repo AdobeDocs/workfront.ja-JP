@@ -1,15 +1,15 @@
 ---
 product-previous: mobile
 navigation-topic: use-workfront-view
-title: Adobe Workfront ビューの開始
+title: ' Adobe Workfront ビューの開始'
 description: ' [!DNL Adobe Workfront]  モバイルアプリを使用すると、外出中でもプロジェクトの進捗状況を把握できます。'
 author: Nolan
 feature: Get Started with Workfront
 exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,11 @@ ht-degree: 100%
 
 [!DNL Workfront View] アプリは [!DNL iPads] でのみサポートされます。
 
-[!DNL Workfront View] の情報にアクセスしてこの記事の手順を実行するには、[!DNL Workfront] で以下のアクセス権が必要です。
+[!UICONTROL 依頼者]および[!UICONTROL 外部]ライセンスを持つユーザーは、[!DNL Workfront View] モバイルアプリを使用して [!DNL Workfront] にアクセスすることができません。
+
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,19 +38,21 @@ ht-degree: 100%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Review] 以降</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>レビュー以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-[!UICONTROL 依頼者]および[!UICONTROL 外部]ライセンスを持つユーザーは、[!DNL Workfront View] モバイルアプリを使用して [!DNL Workfront] にアクセスすることができません。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
++++
 
 ## [!DNL Workfront View] アプリをダウンロード
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 92%
+source-wordcount: '556'
+ht-degree: 91%
 
 ---
 
@@ -31,31 +31,27 @@ ht-degree: 92%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
-   <td>任意</td> 
+  <tr> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定</td> 
+  <tr> 
+   <td>アクセスレベル設定</td> 
    <td> <p>カスタムフォームへの管理アクセス権</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -79,7 +75,7 @@ ht-degree: 92%
 
    1. 元のカスタムフォームから削除する新しいフォームにカスタムフィールドを追加します。
 
-      詳しくは、「[&#128279;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) カスタムフォームの作成 [&#x200B; の「カスタムフォームへの新規または既存のフィールドの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) の節を参照してください 。
+      詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) の「カスタムフォームへの新規または既存のフィールドの追加 [ の節を参照してください ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
    1. 新規カスタムフォームを保存します。
 

@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 92%
+source-wordcount: '519'
+ht-degree: 90%
 
 ---
 
@@ -26,38 +26,39 @@ ht-degree: 92%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在：Request 以上</p> 
-   または
-   <p>新規：Contributor 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>リクエスト以上</p> 
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">製品</td> 
+   <td role="rowheader">その他の製品</td> 
    <td>Experience Manager Assets </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ドキュメントへの表示アクセス権以上</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントへの表示アクセス権以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
 +++
 
 ## 前提条件
@@ -84,7 +85,7 @@ Experience Manager Assets から Workfront にアセットをリンクできま�
 
 1. 目的のアセットを選択します。
 
-   ![&#x200B; アセットを選択 &#x200B;](assets/select-an-asset.png)
+   ![ アセットを選択 ](assets/select-an-asset.png)
 
 1. 「**リンク**」をクリックします。
 
@@ -103,7 +104,7 @@ Experience Manager Assets から Workfront にアセットをリンクできま�
 
 1. 目的のフォルダーを選択します。
 
-   ![&#x200B; フォルダーを選択 &#x200B;](assets/select-a-folder.png)
+   ![ フォルダーを選択 ](assets/select-a-folder.png)
 
 1. 「**リンク**」をクリックします。
 
@@ -127,6 +128,6 @@ Experience Manager Assets から新しいバージョンをリンクするには
 
 1. 目的のアセットを選択します。
 
-   ![&#x200B; アセットを選択 &#x200B;](assets/select-an-asset.png)
+   ![ アセットを選択 ](assets/select-an-asset.png)
 
 1. 「**リンク**」をクリックします。

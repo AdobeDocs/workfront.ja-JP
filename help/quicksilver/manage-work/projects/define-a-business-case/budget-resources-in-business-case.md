@@ -2,10 +2,10 @@
 navigation-topic: business-case-and-scorecards
 title: ビジネスケースの予算リソース
 description: リソース計画の一環として、ビジネスケースの作成時に、プロジェクトでの作業の完了に必要な担当業務の予算を計上できます。ビジネスケースの作成について詳しくは、プロジェクトのビジネスケースを作成を参照してください。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%

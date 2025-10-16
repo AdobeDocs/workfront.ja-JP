@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 79%
+source-wordcount: '1276'
+ht-degree: 78%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 79%
 >
 >* **組織がAdobe Admin Consoleにオンボーディングされた場合は、Adobe Admin Consoleを通じてシステム管理者を作成する必要があります**。
 >
->   Adobe Admin Consoleでシステム管理者を作成する手順については、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+>   Adobe Admin Consoleでシステム管理者を作成する手順については、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 >
 >   Adobe Admin Console にオンボーディングされた組織のグループ管理者は、この手順を使用してユーザーを作成し、そのユーザーの承認依頼を管理者に送信できます。
 >
 >   組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 >
 >* **組織がシングルサインオン（SSO）を使用している場合**、Adobe Admin Consoleでユーザーを作成してWorkfrontに割り当てることをお勧めします。 これらのユーザーをWorkfrontで作成することは可能ですが、組織のAdmin Consoleの設定によっては、情報をAdobe Admin Consoleに転送する際に問題が生じる場合があります。
->  &#x200B;>   Adobe Admin Consoleでユーザーを作成したら、Workfrontでユーザーの情報（ロール、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
+>  >   Adobe Admin Consoleでユーザーを作成したら、Workfrontでユーザーの情報（ロール、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
 >* **組織がシングルサインオン（SSO）を使用していない場合**、システム管理者以外のユーザーをWorkfrontに直接追加できます。 Adobe Admin Console でユーザーを追加することもできますが、Workfront にユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
 
 
@@ -48,22 +48,20 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p><p>または</p><p>現在：プラン</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p><p>プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>次のいずれかが必要です。</p> 
     <ul> 
      <li> <p>システム管理者のアクセス レベルです。 </li> 
@@ -73,7 +71,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -99,7 +97,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 * このユーザーはどのホームチームに所属すべきですか？このユーザーは複数のチームに所属する必要がありますか？チームについて詳しくは、[チームの概要](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)を参照してください。
 * このユーザーに関連付ける必要があるカスタム情報は何ですか？
 
-  ユーザーに関する情報を作成済みのカスタムフィールドに取り込む場合は、ユーザーの作成時にカスタムフォームを用意しておく必要があります。カスタムフォームについて詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+  ユーザーに関する情報を作成済みのカスタムフィールドに取り込む場合は、ユーザーの作成時にカスタムフォームを用意しておく必要があります。カスタムフォームについて詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 ## プロジェクトをゼロから作成
 
@@ -166,7 +164,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 {{step-1-to-users}}
 
-1. コピーするユーザーを選択し、コピーアイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png) をクリックします。
+1. コピーするユーザーを選択し、コピーアイコン ![ コピーアイコン ](assets/copy-icon.png) をクリックします。
 1. 表示される「**ユーザーのコピー**」ボックスで、新規ユーザーに使用可能なフィールドを編集します。
 
    ユーザーに関連付けられているすべてのフィールドについて詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。

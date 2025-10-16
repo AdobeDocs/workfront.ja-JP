@@ -4,10 +4,10 @@ content-type: overview
 navigation-topic: delegate-work
 title: 作業の委任の概要
 description: 短期間オフィスを離れる予定がある場合は、自分の不在が作業完了の障害にならないように、自分の作業を一時的に他のユーザーに委任することができます。
-author: Lisa
+author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 91%
@@ -37,9 +37,9 @@ ht-degree: 91%
 
 この記事には、割り当てられたタスクおよび問題の委任に関する一般的な情報が含まれています。
 
-プロジェクト、タスクおよび問題の承認の委任について詳しくは、「[&#x200B; 承認要求を委任 &#x200B;](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)」を参照してください。
+プロジェクト、タスクおよび問題の承認の委任について詳しくは、「[ 承認要求を委任 ](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)」を参照してください。
 
-タスクおよびイシューの委任方法について詳しくは、[&#x200B; タスクおよびイシューを委任 &#x200B;](../../manage-work/delegate-work/how-to-delegate-work.md) を参照してください。
+タスクおよびイシューの委任方法について詳しくは、[ タスクおよびイシューを委任 ](../../manage-work/delegate-work/how-to-delegate-work.md) を参照してください。
 
 ## タスクおよびイシューのデリゲートの概要
 
@@ -67,7 +67,7 @@ ht-degree: 91%
 * 自分の作業を他のユーザーに委任することを選択している間に、追加のタスクやイシューが割り当てられた場合、タスクまたはイシューの日付がその期間内であれば、新しく割り当てられた作業は、選択した期間にわたって同じユーザーに自動的に委任されます。
 * 複数のユーザーが、同じユーザーを委任先として選択できます。
 * 委任されたタスクやイシューは、委任されたユーザーのリソース管理ツール（[!UICONTROL ワークロードバランサー]や[!UICONTROL リソースプランナー]など）には表示されません。
-* 委任された作業および委任先の名前は、[!DNL Workfront] のいくつかのエリアに表示されます。 詳しくは、「タスクとイシューを委任する」の記事の「委任された作業の場所と委任情報 [&#x200B; を参照し &#x200B;](../delegate-work/how-to-delegate-work.md) ください。
+* 委任された作業および委任先の名前は、[!DNL Workfront] のいくつかのエリアに表示されます。 詳しくは、「タスクとイシューを委任する」の記事の「委任された作業の場所と委任情報 [ を参照し ](../delegate-work/how-to-delegate-work.md) ください。
 
 
   >[!IMPORTANT]

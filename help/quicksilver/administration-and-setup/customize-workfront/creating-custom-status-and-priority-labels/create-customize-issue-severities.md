@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
+source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 64%
+source-wordcount: '641'
+ht-degree: 63%
 
 ---
 
@@ -37,34 +37,29 @@ Linked to Understanding Issue Severity.
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-     <p>新規：標準</p>
-     <p>または</p>
-     <p>現在：プラン</p>
-   </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>システム管理者</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-+++
++++ 
 
 ## ビルトインのイシュー重要度
 
@@ -90,7 +85,7 @@ Workfront のイシューには、5 つのビルトインの重要度があり�
 * 説明
 * Workfront で重要度が非表示になっているかどうか
 
-  重要度の非表示について詳しくは、この記事の [&#x200B; 重要度の作成または編集 &#x200B;](#create-or-edit-an-issue-severity) を参照してください。
+  重要度の非表示について詳しくは、この記事の [ 重要度の作成または編集 ](#create-or-edit-an-issue-severity) を参照してください。
 
 * 重要度の削除
 
@@ -126,7 +121,7 @@ Workfront の管理者は、ユーザー要件に合わせてイシューの重�
 
      <div class="preview">
 
-     デフォルトの重要度は、アイコン ![&#x200B; デフォルトの重要度アイコン &#x200B;](assets/default-icon.png) で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
+     デフォルトの重要度は、アイコン ![ デフォルトの重要度アイコン ](assets/default-icon.png) で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
 
       * 重要度名の横にあるチェックボックスをオンにし、画面の下部にあるアクションバーで「**デフォルトにする**」を選択します。
       * 重要度名にポインタを合わせて、表示される **詳細** メニューをクリックします。 次に、「**デフォルトにする** を選択します。

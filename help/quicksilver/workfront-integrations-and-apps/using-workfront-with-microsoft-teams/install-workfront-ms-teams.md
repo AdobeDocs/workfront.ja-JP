@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront for Microsoft Teams]  アプリを使用す
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
+source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 70%
+source-wordcount: '709'
+ht-degree: 69%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 70%
 
 >[!IMPORTANT]
 >
->[Microsoftが新しい Teams クライアント &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
+>[Microsoftが新しい Teams クライアント ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 >
 >更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。
 
@@ -31,29 +31,29 @@ ht-degree: 70%
 >[!DNL Microsoft Teams] は、[!DNL Internet Explorer] のサポートを終了しました。[!DNL Adobe Workfront for Microsoft Teams integration] を使用する場合は、[!DNL Internet Explorer] 以外の web ブラウザーを使用する必要があります。
 
 
+
+
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：標準</p>
-    <p>現在：[!UICONTROL Work]、[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>ワークまたはそれ以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報の詳細については、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -76,7 +76,7 @@ ht-degree: 70%
 1. 開いたダイアログで「**追加**」をクリックします。
 1. 「チャンネルを選択」セクションで、Workfront アプリを追加するチームを選択し、「**移動**」をクリックします。
 
-   ![&#x200B; チームの選択 &#x200B;](assets/select-a-team.png)
+   ![ チームの選択 ](assets/select-a-team.png)
 1. Workfrontに **ログイン**」をクリックして、Microsoft TeamsのWorkfrontにアクセスします。
 
    [!DNL Workfront] へのログインの詳細については、この記事の [Microsoft Teams から Workfront にログイン](#log-in-to-workfront-from-microsoft-teams)の節を参照してください。
@@ -104,9 +104,9 @@ ht-degree: 70%
 
 [!DNL Microsoft Teams] から [!DNL Workfront] にログインすると、[!DNL Workfront] ボットチャネルで [!DNL Workfront] 通知を受信したり、[!DNL Microsoft Teams] から [!DNL Workfront] で特定のアクションを実行したりすることができます。
 
-[!DNL Workfront] アプリのインストールについて詳しくは、[&#x200B; [!DNL Workfront for Microsoft Teams]](#install-workfront-for-microsoft-teams) をインストールの節を参照してください。
+[!DNL Workfront] アプリのインストールについて詳しくは、[ [!DNL Workfront for Microsoft Teams]](#install-workfront-for-microsoft-teams) をインストールの節を参照してください。
 
-特定のアクションを実行するための [!DNL Microsoft Teams] から [!DNL Workfront] へのアクセスについて詳しくは、[&#x200B; [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md) から  [!DNL Adobe Workfront]  にアクセスを参照してください。
+特定のアクションを実行するための [!DNL Microsoft Teams] から [!DNL Workfront] へのアクセスについて詳しくは、[ [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md) から  [!DNL Adobe Workfront]  にアクセスを参照してください。
 
 [!DNL Microsoft Teams] から [!DNL Workfront] にログインするには、次の手順を実行します。
 
@@ -114,7 +114,7 @@ ht-degree: 70%
 
    [!DNL Microsoft Teams] チャットチャネルに、[!DNL Workfront] ボットチャットチャネルが追加されました。
 
-1. [!DNL Microsoft Teams] の [!DNL Workfront] ボットチャットチャネルに移動し、「*[!UICONTROL 質問をここに入力]*」または **[!UICONTROL メッセージを入力]** フィールドに **ログイン** と入力します。
+1. [!DNL Workfront] の [!DNL Microsoft Teams] ボットチャットチャネルに移動し、「*[!UICONTROL 質問をここに入力]*」または **[!UICONTROL メッセージを入力]** フィールドに **ログイン** と入力します。
 
    または
 
@@ -122,7 +122,7 @@ ht-degree: 70%
 
    新しいブラウザータブが開きます。
 
-1. 拡張認証 OAuth 2.0 または Security Assertion Markup Language（SAML）URL を使用し、画面の指示に従って、[!DNL Workfront] にログインします。
+1. 拡張認証 OAuth 2.0 または Security Assertion Markup Language（SAML）URL を使用し、画面のプロンプトに従って、[!DNL Workfront] にログインします。
 
    >[!NOTE]
    >

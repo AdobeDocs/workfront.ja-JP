@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: レートが変更された際に財務の再計算アクションが履歴時間に影響するのを防ぐ
 description: ユーザーまたは担当業務の時間別コストを更新する必要がありますが（増加や他の状況が原因で）、この変更により、以前にプロジェクトにログオンした時間に影響を与えたくない、もしくは過去の時間の一部にのみ影響を与えたいと思っています。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 29d3124b-cf7a-4a47-95c4-cd5379489810
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%

@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 90%
+source-wordcount: '747'
+ht-degree: 89%
 
 ---
 
 # グループの非アクティブ化または再アクティブ化
-
-<!--
-If Callisto adds the <b>Is active</b> checkbox to the Details page for groups you view, add that info to Manage groups/Create and manage groups/manage-a-group and to Manage groups/Create and manage groups/view-and-manage-a-groups-details
--->
 
 管理対象の使用しなくなったグループを非アクティブ化できます。
 
@@ -27,32 +23,27 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -76,7 +67,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 1. グループの名前をクリックして、そのページを開きます。
 
-1. グループ名の横にある「詳細 ![&#x200B; メニュー &#x200B;](assets/more-icon.png) 「詳細」アイコン）をクリックし、「**アクティベートを解除**」または **アクティベートを再アクティベート** をクリックします。
+1. グループ名の横にある「詳細 ![ メニュー ](assets/more-icon.png) 「詳細」アイコン）をクリックし、「**アクティベートを解除**」または **アクティベートを再アクティベート** をクリックします。
 
    >[!NOTE]
    >
@@ -92,7 +83,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
   この状況でのサブグループの再アクティブ化について詳しくは、[非アクティブな親グループの下のサブグループの再アクティブ化について](#about-reactivating-a-subgroup-below-an-inactive-parent-group)を参照してください。
 
-* 「設定」の「グループ」領域に移動すると、リスト内のアクティブなグループのみが表示されます。これは、そのデフォルトのフィルター ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) がアクティブであるためです。 非アクティブなグループも含め、管理するすべてのグループを表示する場合は、すべてのフィルターを使用できます。または、非アクティブフィルターを使用して、非アクティブなフィルターのみをリストします。
+* 「設定」の「グループ」領域に移動すると、リスト内のアクティブなグループのみが表示されます。これは、そのデフォルトのフィルター ![ フィルターアイコン ](assets/filter-nwepng.png) がアクティブであるためです。 非アクティブなグループも含め、管理するすべてのグループを表示する場合は、すべてのフィルターを使用できます。または、非アクティブフィルターを使用して、非アクティブなフィルターのみをリストします。
 
   リスト内のフィルターについて詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 

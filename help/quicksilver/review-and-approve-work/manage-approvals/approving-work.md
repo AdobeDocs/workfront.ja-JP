@@ -6,10 +6,10 @@ description: 作業の承認
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 628f668f0c5df34eb967729224d91a28cebbb17c
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 78%
+source-wordcount: '846'
+ht-degree: 75%
 
 ---
 
@@ -29,32 +29,32 @@ Workfront での作業への承認の関連付けについては、[新規また
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>承認に関連付けられたオブジェクトに対する表示以上のアクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>承認に関連付けられたオブジェクトに対する表示以上のアクセス権</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>承認に関連付けられたオブジェクトに対する表示以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>承認に関連付けられたオブジェクトに対する表示以上の権限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -66,7 +66,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 ## ホーム領域から作業項目を承認
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
 1. （条件付き） **フィルター** ドロップダウンメニューをクリックし、「**すべて**」を選択して、割り当てられた承認と委任された承認を確認します。
 
@@ -77,7 +77,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 1. 承認する項目を選択します。
 
-   ![&#x200B; マイ承認ウィジェット &#x200B;](assets/my-approvals-widget.png)
+   ![ マイ承認ウィジェット ](assets/my-approvals-widget.png)
 
 1. 右側のパネルで承認を決定する際に、使用可能なオプションの 1 つをクリックします。 承認する項目のタイプに応じて、ページの右上隅に次のオプションが表示されます。
 
@@ -107,7 +107,7 @@ Workfront の様々な領域で承認を表示または管理できます。
       <td>
          <ul>
          <li>承認</li>
-         <li>拒否</li>
+         <li>Reject</li>
          </ul>
       決定ボタンのドロップダウンメニューをクリックして、決定にコメントを残すことができます。
       </td>
@@ -146,7 +146,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
    プロジェクト、タスク、イシューの現在の承認プロセスに関する承認情報が、項目のヘッダーに表示されます。
 
-   ![&#x200B; プロジェクトヘッダーの現在の承認プロセス &#x200B;](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![ プロジェクトヘッダーの現在の承認プロセス ](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    次の承認情報が表示されます。
 
@@ -172,8 +172,8 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 1. 承認を必要とするドキュメントが含まれているドキュメントエリアに移動します。
 1. ドキュメントを選択し、「**承認**」、「**変更**」、または「**却下**」をクリックします。\
-   ![&#x200B; ドキュメントを承認 &#x200B;](assets/approval-approve-document-350x215.png)\
-   ![&#x200B; ドキュメントの承認 &#x200B;](assets/document-approval-350x199.png)
+   ![ ドキュメントを承認 ](assets/approval-approve-document-350x215.png)\
+   ![ ドキュメントの承認 ](assets/document-approval-350x199.png)
 
 1. （オプション）ドキュメントのプルーフが生成されている場合は、プルーフインターフェイス内でドキュメントを承認できます（[プルーフからのドキュメントの承認](#approve-a-document-from-a-proof)参照）。
 
@@ -185,7 +185,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 1. ドキュメントをレビューするには、次のいずれかの操作を行います。
 
    * ドキュメントに関するメタデータを表示します。
-   * マークアップやコメントを含むドキュメントをレビューするためのプルーフが作成されている場合は、右上隅付近の **プルーフを開く**![&#x200B; プルーフを開く &#x200B;](assets/open-proof-icon-qs.png) をクリックして、プルーフをレビューします。
+   * マークアップやコメントを含むドキュメントをレビューするためのプルーフが作成されている場合は、右上隅付近の **プルーフを開く**![ プルーフを開く ](assets/open-proof-icon-qs.png) をクリックして、プルーフをレビューします。
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

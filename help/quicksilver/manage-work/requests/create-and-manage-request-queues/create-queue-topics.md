@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: キュートピックを作成
 description: キューのトピックは、ルーティングルールと連携して、作業依頼をユーザー、担当業務、チームにを自動的に割り当てたり、プロジェクトに配置したりします。キューのトピックでは、ルーティングルールを実装するために必要な条件を定義します。
-author: Alina
+author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 613904bd75aabe3062c5ab50f28cf44eb62919e8
+source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 77%
+source-wordcount: '1013'
+ht-degree: 76%
 
 ---
 
@@ -60,22 +60,19 @@ ht-degree: 77%
 </table>
 -->
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-    <p>新規：標準</p>
-    <p>または</p>
-    <p>現在：プラン</p></td>  
+    <p>標準</p>
+    <p>プラン</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -88,7 +85,7 @@ ht-degree: 77%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -185,7 +182,7 @@ ht-degree: 77%
 1. 実稼動環境で、編集するキュートピックを選択します。 開いた詳細ページで、「**キュートピックを編集**」をクリックします。
 1. <span class="preview"> プレビュー環境で、編集するキュートピックをクリックします。
 
-使用可能な編集オプションについては、この記事の [&#x200B; キュートピックの作成 &#x200B;](#create-a-queue-topic) を参照してください。
+使用可能な編集オプションについては、この記事の [ キュートピックの作成 ](#create-a-queue-topic) を参照してください。
 
 ## キュートピックの削除
 
@@ -194,5 +191,5 @@ ht-degree: 77%
 1. 削除するキュートピックを含むプロジェクトまたはテンプレートに移動します。
 1. 左側のパネルで **キュートピック** をクリックします。
 1. 削除する各キュートピックの名前の横にあるボックスをクリックします。 ボックスにチェックマークが表示されます。
-1. ページ上部の **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+1. ページ上部の **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
 

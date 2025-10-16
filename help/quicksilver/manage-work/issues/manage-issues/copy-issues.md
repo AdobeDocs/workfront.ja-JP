@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: イシューのコピー
+title: 問題のコピー
 description: イシューまたはリクエストをコピーして、同じプロジェクトまたは別のプロジェクトに保存できます。タスクから別のプロジェクトにイシューをコピーすることもできます。
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 96%
+source-wordcount: '1006'
+ht-degree: 90%
 
 ---
 
 # イシューのコピー
+
+<!--Audited: 08/2025-->
 
 イシューまたはリクエストをコピーして、同じプロジェクトまたは別のプロジェクトに保存できます。タスクから別のプロジェクトにイシューをコピーすることもできます。
 
@@ -30,32 +32,64 @@ ht-degree: 96%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>リクエスト以上</p> <p>プロジェクトの「イシュー」セクションでイシューをコピーするには、レビュー以上のライセンスが必要です。</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <ul><li><p>投稿者以上</p> </li>
+   <li><p>プロジェクトの「イシュー」セクションにイシューをコピーするためのライト以上のライセンス</p></li></ul>
+   または
+   <ul><li><p>要求者以上</p> </li>
+   <li><p>プロジェクトの「イシュー」セクションにイシューをコピーするためのレビュアー以上のライセンス</p></li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>イシューへのアクセス権を編集</p> <p>プロジェクトとタスクへのアクセス権またはそれ以上の権限</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。アクセスレベルにおけるイシューへのアクセス権については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">イシューへのアクセス権の付与</a>を参照してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。 </p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>イシューへのアクセス権を編集</p> <p>プロジェクトとタスクへのアクセス権またはそれ以上の権限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>イシューに対する権限の管理</p> <p>イシューを追加する機能を使用してイシューをコピーする先の項目には、Contribute 権限が必要です。</p> <p> イシューに関する権限の付与については、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a>を参照してください。</p> <p>追加権限の要求については、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権の要求</a>を参照してください。</p> </td> 
+   <td> <p>イシューに対する権限の管理</p> <p>イシューを追加する機能を使用してイシューをコピーする先の項目には、Contribute 権限が必要です。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to copy an issue in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are copying the issue to with the ability to Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## イシューをコピーする際の考慮事項
 
@@ -95,7 +129,7 @@ ht-degree: 96%
 1. プロジェクトに移動する場合は、左側のパネルで「**イシュー**」をクリックします。
 1. コピーする 1 つまたは複数のイシューを選択し、イシューリストの上部にある&#x200B;**その他のメニュー**&#x200B;をクリックし、「**指定の場所にコピー**」をクリックします。
 
-   ![&#x200B; リスト内のイシューをコピー &#x200B;](assets/copy-issue-in-list-nwe-350x169.png)
+   ![ リスト内のイシューをコピー ](assets/copy-issue-in-list-nwe-350x169.png)
 
 1. [1 つのイシューをコピー](#copy-a-single-issue)の節の説明に従って、手順 2 からイシューのコピーを続行します。
 
@@ -109,13 +143,13 @@ ht-degree: 96%
 
 イシューの表示時に 1 つのイシューをコピーできます。
 
-1. コピーするイシューに移動し、イシュー名の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-icon.png) をクリックしてから、**コピー** をクリックします。
+1. コピーするイシューに移動し、イシュー名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-icon.png) をクリックして、**コピー先** をクリックします。
 
-   ![&#x200B; 問題レベルでコピー &#x200B;](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+   ![ 問題レベルでコピー ](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
    **イシューをコピー**&#x200B;ボックスが表示されます。
 
-   ![&#x200B; イシューボックスをコピー &#x200B;](assets/copy-issue-box-nwe-350x285.png)
+   ![ イシューボックスをコピー ](assets/copy-issue-box-nwe-350x285.png)
 
 1. 「**宛先プロジェクトを選択**」セクションで、イシューをコピーする先のプロジェクト名を指定します。デフォルトでは、現在のプロジェクトの名前が表示されます。
 
@@ -126,7 +160,7 @@ ht-degree: 96%
 1. （条件付き）プロジェクトにイシューをコピーするアクセス権がない場合は、「**アクセスをリクエスト**」をクリックします。
 1. （条件付き）宛先プロジェクトのタスクの 1 つにイシューを追加するアクセス権がある場合は、アクセス権をリクエストせずに、引き続き選択した宛先プロジェクトにイシューをコピーします。
 
-   ![&#x200B; イシューをコピーしてアクセスをリクエスト &#x200B;](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+   ![ イシューをコピーしてアクセスをリクエスト ](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >

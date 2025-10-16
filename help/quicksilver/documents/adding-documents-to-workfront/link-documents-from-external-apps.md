@@ -6,9 +6,9 @@ description: 外部のソースから、ドキュメントとフォルダーを 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2545'
 ht-degree: 93%
 
 ---
@@ -61,21 +61,18 @@ Workfront に直接アップロードされたドキュメントを使用する�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td>
+   <td role="rowheader">Adobe Workfront パッケージ</td>
    <td> <p> 任意</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td>
-   <td><p>新規：Contributor 以上</p>
-    <p>または</p>
-    <p>現在：Request 以上</p> </td>
+   <td><p>投稿者以上</p>
+    <p>リクエスト以上</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -84,7 +81,7 @@ Workfront に直接アップロードされたドキュメントを使用する�
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -252,7 +249,7 @@ Workfront にアクセスできないユーザーでも、アプリケーショ�
 1. Workfront でアップロードするドキュメントを選択します。
 1. **その他**／**送信先**&#x200B;をクリックし、リンクされたドキュメントを保存するクラウドプロバイダーを選択します。
 
-   ドキュメントの詳細ページの [ その他 ] メニュー ![[ その他 ] メニュー &#x200B;](assets/more-icon.png) を使用して、これを行うこともできます。
+   ドキュメントの詳細ページの [ その他 ] メニュー ![[ その他 ] メニュー ](assets/more-icon.png) を使用して、これを行うこともできます。
 
 1. ドキュメントを保存するプロバイダーのアプリケーション内のフォルダーを選択します。
 
@@ -282,7 +279,7 @@ Workfront と外部のクラウドプロバイダーの間でフォルダーを�
 
 ### 1 つまたは複数の外部フォルダーをリンク {#link-one-or-more-external-folders}
 
-1. Workfrontのフォルダーを作成する領域に移動し、左パネルで **ドキュメント** ![&#x200B; ドキュメントアイコン &#x200B;](assets/document-icon.png) をクリックします。
+1. Workfrontのフォルダーを作成する領域に移動し、左パネルで **ドキュメント** ![ ドキュメントアイコン ](assets/document-icon.png) をクリックします。
 
 1. 「**新規追加**」をクリックし、フォルダーを Workfront にリンクする外部ドキュメントプロバイダーをクリックします。
 1. （条件付き）外部サービスをまだ承認していない場合は、外部プロバイダーのログイン資格情報を指定して、「**ログイン**」をクリックしてください。
@@ -305,9 +302,9 @@ Workfront と外部のクラウドプロバイダーの間でフォルダーを�
 
    Workfront では、フォルダーの横にクラウドプロバイダーのロゴが表示され、外部のクラウドプロバイダーにリンクされていることを示します。
 
-1. （オプション）Workfrontのフォルダ名と外部文書アプリケーションのフォルダ名が異なるようにフォルダ名を変更するには、[**フォルダ**] セクションで、フォルダ名の横に表示される [ 詳細 ] メニュー ![[ 詳細 ] メニュー &#x200B;](assets/more-icon.png) をクリックし、&lbrack; 名前の変更 **をクリックします**。
+1. （オプション）Workfrontのフォルダ名と外部文書アプリケーションのフォルダ名が異なるようにフォルダ名を変更するには、[**フォルダ**] セクションで、フォルダ名の横に表示される [ 詳細 ] メニュー ![[ 詳細 ] メニュー ](assets/more-icon.png) をクリックし、[ 名前の変更 **をクリックします**。
 
-   ![&#x200B; フォルダー名を変更 &#x200B;](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![ フォルダー名を変更 ](assets/documents-folderlink-rename-nwe-350x154.png)
 
 この方法では、外部アプリケーションのフォルダー名は変更されません。
 
@@ -321,7 +318,7 @@ Workfront と外部のクラウドプロバイダーの間でフォルダーを�
 
    既存のリンクされたフォルダに既存のフォルダーをドラッグするには、サブフォルダーを追加するドキュメントエリアに移動し、リンクされたフォルダーにドラッグします。
 
-   ![&#x200B; リンクされたフォルダーにドラッグ &#x200B;](assets/documents-link-folder-move-nwe-350x113.png)
+   ![ リンクされたフォルダーにドラッグ ](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
    >

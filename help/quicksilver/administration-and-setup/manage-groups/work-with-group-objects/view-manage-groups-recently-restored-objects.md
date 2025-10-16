@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
+source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 68%
+source-wordcount: '310'
+ht-degree: 64%
 
 ---
 
@@ -30,34 +30,31 @@ ht-degree: 68%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td>
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
   </tr>
   <tr> 
-   <td role="rowheader">オブジェクト権限</td>
+   <td>オブジェクト権限</td>
    <td>復元された項目は、グループまたはそのサブグループのうちのいずれかに関連付ける必要があります。</td> 
-  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -65,7 +62,7 @@ ht-degree: 68%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. グループの名前をクリックします。
 1. 左側のパネルで、「**最近復元された項目**」をクリックします。
@@ -79,8 +76,8 @@ ht-degree: 68%
 
    各タブには、現在のグループまたはそのサブグループに属し、過去 30 日以内に復元された、対応するオブジェクトタイプの項目が一覧表示されます。
 
-1. （オプション）タブ上のオブジェクトのリスト全体をエクスポートするには、**エクスポート** アイコンをクリックします。 ![&#x200B; エクスポートアイコン &#x200B;](assets/export-icon.png)。
+1. （オプション）タブ上のオブジェクトのリスト全体をエクスポートするには、**エクスポート** アイコンをクリックします。 ![ エクスポートアイコン ](assets/export-icon.png)。
 1. （オプション）フィルター、ビュー、グループ化を使用して、リスト内の情報の表示を変更します。
 
-   詳しくは、[&#x200B; レポート要素の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md) を参照してください。
+   詳しくは、[ レポート要素の概要 ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md) を参照してください。
 

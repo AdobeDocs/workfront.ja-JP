@@ -2,16 +2,16 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-title: プロジェクトの概要エリアで情報を管理する
-description: プロジェクトの概要エリアで情報を管理する
+title: プロジェクトの概要領域での情報の管理
+description: 「プロジェクトの詳細」セクションの概要エリアにアクセスして、プロジェクトの情報を表示または編集できます。この領域で表示または編集できるフィールドの数は限られています。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 96%
+source-wordcount: '1404'
+ht-degree: 93%
 
 ---
 
@@ -25,35 +25,64 @@ ht-degree: 96%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront プラン*</p> </td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront プラン</p> </td> 
+   <td><p>ライト以上</p> 
+   <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへの表示アクセス権またはそれ以上の権限 </p>
-
-<p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへの表示アクセス権またはそれ以上の権限</p>
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに関する限定的な情報を表示するためのプロジェクトへの表示アクセス権</p> 
-   <p>プロジェクトに関する情報を編集するためのプロジェクトへの管理アクセス権</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access or higher to Projects </p>
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View access to the project to view limited information about the project</p> 
+   <p>Manage access to the project to edit information about the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 「概要」セクションへのアクセス
 
@@ -63,13 +92,13 @@ ht-degree: 96%
 
    または
 
-   「詳細」セクションの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**概要** をクリックします。 概要エリアが開き、編集できます。
+   「詳細」セクションの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、「**概要** をクリックします。 概要エリアが開き、編集できます。
 
    >[!NOTE]
    >
    >Workfront 管理者がレイアウトテンプレートを設定した方法によっては、「概要」セクションが最初に表示されない場合があり、その場合は折りたたまれています。詳しくは、[レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
-1. （条件付き）プロジェクトに更新する必要があるが、このセクションには表示されない特定のフィールドがある場合、プロジェクト名の横にある **その他メニュー**![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、**編集** をクリックして、その他のプロジェクトフィールドを表示します。
+1. （条件付き）プロジェクトに更新する必要があるが、このセクションには表示されない特定のフィールドがある場合、プロジェクト名の横にある **その他メニュー**![ その他アイコン ](assets/more-icon.png) をクリックし、**編集** をクリックして、その他のプロジェクトフィールドを表示します。
 
    プロジェクトの編集について詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 

@@ -2,15 +2,15 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.3 リリースアクティビティの概要
-description: 「メモ：2018.3 リリースは、以下の日付で実稼動環境で使用可能になりました（詳細な日時については trust.workfront.com を参照してください）」
+description: メモ：2018.3 リリースは、次の日付に実稼動環境で使用できるようになりました（日付と時刻について詳しくは、trust.workfront.comを参照）
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 100%
+source-wordcount: '1126'
+ht-degree: 96%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->2018.3 リリースは、以下の日付で実稼動環境で使用可能になりました（詳細な日時については trust.workfront.com を参照してください）。
+>2018.3 リリースは、以下の日付で本番環境で使用可能になりました（詳細な日時については trust.workfront.com を参照してください）。
 
-* *Workfront Proof 実稼動環境 - 11月6日*
-* *クラスタ 2 およびクラスタ 4 のWorkfront 実稼動環境*
-* *クラスタ 1、クラスタ 3、クラスタ 5 のWorkfront 実稼動環境*
+* *Workfront Proof 本番環境 - 11月6日*
+* *クラスタ 2 およびクラスタ 4 のWorkfront 本番環境*
+* *クラスタ 1、クラスタ 3、クラスタ 5 のWorkfront 本番環境*
 
 &#x200B;2018. リリースには、Workfront 管理者およびその他のユーザー向けの機能強化が含まれています。
 
@@ -124,7 +124,7 @@ ht-degree: 100%
 
 ### API バージョン 10 がプレビューで使用可能に {#api-version-10-now-available-in-preview}
 
-API バージョン 10 がプレビュー環境で使用できるようになりました。18.3 リリースの実稼動環境で使用できるようになります。詳しくは、[API バージョン 10 の新機能](../../../../wf-api/api/new-api-version-10.md)を参照してください。
+API バージョン 10 がプレビュー環境で使用できるようになりました。18.3 リリースの本番環境で使用できるようになります。詳しくは、[API バージョン 10 の新機能](../../../../wf-api/api/new-api-version-10.md)を参照してください。
 
 ### API バージョン 3 のサポートを終了しました {#api-version-3-no-longer-supported}
 
@@ -138,7 +138,7 @@ API バージョン 3 のサポートは 2018年11月（PT）に終了します�
 
 ### JSONP のサポートがまもなく終了します {#jsonp-support-is-ending}
 
-JSONP（パディング付き JavaScript）は古い標準であり、既知のセキュリティ脆弱性があるため、Adobe Workfront では 2018年11月（PT）をもって JSONP のサポートを終了します。詳しくは、[JSONP のサポートの終了](../../../../wf-api/api/ending-support-jsonp.md)を参照してください。
+JSONP （パディング付き JavaScript）は既知のセキュリティ脆弱性がある古い標準なので、2018 年 11 月をもって、Workfrontは JSONP をサポートしなくなります。
 
 ### Flash アプリケーションの削除 {#flash-application-removal}
 
@@ -182,6 +182,6 @@ Flash テクノロジーに依存するすべての機能は、2018.3 リリー�
 
 最新のアップデートで、レガシー Workfront Fusion のデザインが改善され、新しい FLO をより直感的に作成できるようになりました。具体的な変更点は次のとおりです。
 
-* **新しい FLO：**&#x200B;新しい FLO をクリックすると、コネクタの選択を促すメッセージが表示されるのではなく、デザイナー画面に移動するようになりました。この変更は、FLO 全体に自分自身を向けて、FLO はイベントから開始する必要があることを理解するのに役立ちます。
+* **新しい FLO：**&#x200B;新しい FLO をクリックすると、コネクタの選択を促すメッセージが表示されるのではなく、designer 画面に移動するようになりました。この変更は、FLO 全体に自分自身を向けて、FLO はイベントから開始する必要があることを理解するのに役立ちます。
 * **関数を追加：**&#x200B;関数ピッカーが更新され、目的の関数を簡単に検索して選択できるようになりました。関数の説明を、入力フィールドと出力フィールドとともに更新し、直感的なガイダンスを追加しました。新しい「一番人気」のセクションは、最もよく使用される関数の使い方を学ぶのに役立ちます。
 

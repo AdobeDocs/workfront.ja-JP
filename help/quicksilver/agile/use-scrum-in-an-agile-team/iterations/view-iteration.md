@@ -6,10 +6,10 @@ description: 特定のチームのすべての反復を表示することも、�
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 84%
+source-wordcount: '222'
+ht-degree: 85%
 
 ---
 
@@ -21,8 +21,6 @@ ht-degree: 84%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ ht-degree: 84%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL ライト &#x200B;] 以上</p> 
-   または
-   <p>現在：[!UICONTROL Review] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>ライト以上</p> 
+   <p>レビュー以上</p> </td> 
   </tr>
  </tbody> 
 </table>

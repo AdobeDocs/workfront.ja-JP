@@ -6,10 +6,10 @@ description: 自分が所有しているカレンダーや、自分と共有し�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 77%
+source-wordcount: '188'
+ht-degree: 70%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 77%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,22 +30,21 @@ ht-degree: 77%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL Reports]、[!UICONTROL Dashboards]、および[!UICONTROL Calendars]に対する[!UICONTROL Edit]アクセス権</p></td> 
+   <td> <p> 報告書、ダッシュボード、およびカレンダーへのアクセスを編集します</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>カレンダーレポートへの [!UICONTROL Manage] アクセス権。削除アクセス権も含む</td> 
+   <td>カレンダーレポートへのアクセスを、削除アクセス権で管理します</td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +58,7 @@ ht-degree: 77%
 
 1. 削除するカレンダーに移動します。
 1. 「カレンダー」ドロップダウンメニューの横にある **詳細** メニューをクリックします。
-   ![&#x200B; カレンダーの詳細メニュー &#x200B;](assets/more-menu-calendar.png)
+   ![ カレンダーの詳細メニュー ](assets/more-menu-calendar.png)
 
 1. ドロップダウンリストから「**[!UICONTROL 削除]**」を選択します。
 1. 「**[!UICONTROL 削除]**」をクリックします。

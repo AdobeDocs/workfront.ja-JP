@@ -3,15 +3,15 @@ product-area: requests
 navigation-topic: create-requests
 title: 送信されたリクエストの検索
 description: 自分または他のユーザーが送信したリクエストや、未送信でドラフトとして保存されていたリクエストを検索できる Adobe Workfront のエリアについて説明します。
-author: Alina
+author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 83%
+source-wordcount: '955'
+ht-degree: 82%
 
 ---
 
@@ -41,21 +41,18 @@ ht-degree: 83%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：Contributor 以上</p>
-   または
-   <p>現在：Request 以上</p>
+   <td> <p>投稿者以上</p>
+   <p>リクエスト以上</p>
     </td> 
   </tr> 
   <tr> 
@@ -73,7 +70,7 @@ ht-degree: 83%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -212,6 +209,6 @@ ht-degree: 83%
 
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
-   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 

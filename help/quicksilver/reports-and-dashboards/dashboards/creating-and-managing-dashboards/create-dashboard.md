@@ -6,10 +6,10 @@ description: ダッシュボードを作成して、Adobe Workfrontの情報に�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 82%
+source-wordcount: '494'
+ht-degree: 81%
 
 ---
 
@@ -25,36 +25,33 @@ ht-degree: 82%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront プラン</strong></p> </td> 
-   <td>任意</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront プラン</strong></p> </td> 
-   <td> <p>現在：プラン </p>
-   または
-   <p>新規：標準 </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>標準</p>
+      <p>プラン</p>
+   </td> 
   </tr> 
   <tr> 
-   <td><strong>アクセスレベル設定</strong> </td> 
-   <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p> </td> 
-  </tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>オブジェクト権限</strong> </p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
    <td> <p>作成したダッシュボードに対する管理権限を取得します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

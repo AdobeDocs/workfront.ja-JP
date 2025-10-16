@@ -7,10 +7,10 @@ description: ユーザーのデリゲーションレポートの作成
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 86%
+source-wordcount: '325'
+ht-degree: 87%
 
 ---
 
@@ -41,53 +41,45 @@ Adobe Workfront では、ユーザーがプロジェクト、タスクおよび�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-      <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
-   </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>標準</p>
+      <p>プラン</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>承認がデリゲートされた項目とデリゲーションに関係するユーザーに対する権限の表示</p></td> 
+ <td> <p>承認がデリゲートされた項目とデリゲーションに関係するユーザーに対する権限の表示</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
 ## ユーザーのデリゲーションレポートの作成
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 
 1. 「**新規レポート**」をクリックし、「**ユーザーのデリゲーション**」を選択します。
 
-   ![&#x200B; 新しいレポートユーザーの委任 &#x200B;](assets/classic-new-report-user-delegation-350x644.png)
+   ![ 新しいレポートユーザーの委任 ](assets/classic-new-report-user-delegation-350x644.png)
 
    次のフィールドは、デフォルトでこのレポートに表示されます。
 

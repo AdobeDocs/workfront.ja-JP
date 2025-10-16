@@ -6,10 +6,10 @@ description: レビュープロセスでは、いつでも手動でプルーフ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 67%
+source-wordcount: '330'
+ht-degree: 59%
 
 ---
 
@@ -21,19 +21,17 @@ ht-degree: 67%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>任意</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフの役割</td> 
@@ -46,7 +44,7 @@ ht-degree: 67%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、Workfront 管理者または Workfront Proof 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -61,13 +59,13 @@ ht-degree: 67%
 
    または
 
-   以前のバージョンのドキュメントのプルーフを開く場合は、概要でそのバージョンの詳細アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、**プルーフを開く** をクリックします。
+   以前のバージョンのドキュメントのプルーフを開く場合は、概要でそのバージョンの詳細アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、**プルーフを開く** をクリックします。
 
    概要について詳しくは、[ドキュメントの概要](../../../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
-1. 左側のパネルで、「**ロック**」アイコン ![&#x200B; ロックアイコン &#x200B;](assets/unlock-proof-icon.png) をクリックします。
+1. 左側のパネルで、「**ロック**」アイコン ![ ロックアイコン ](assets/unlock-proof-icon.png) をクリックします。
 
-   ![&#x200B; プルーフをロック &#x200B;](assets/lock-proof-350x277.png)
+   ![ プルーフをロック ](assets/lock-proof-350x277.png)
 
 ## プルーフのロック解除
 
@@ -79,10 +77,10 @@ ht-degree: 67%
 
    または
 
-   以前のバージョンのドキュメントのプルーフを開く場合は、概要でそのバージョンの詳細アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、**プルーフを開く** をクリックします。
+   以前のバージョンのドキュメントのプルーフを開く場合は、概要でそのバージョンの詳細アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、**プルーフを開く** をクリックします。
 
    概要について詳しくは、[ドキュメントの概要](../../../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
-1. 左側のパネルで「**ロック解除**」アイコン ![&#x200B; ロック解除アイコン &#x200B;](assets/unlock-proof-icon.png) をクリックし、「はい、ロック解除 **をクリックし** す。
+1. 左側のパネルで「**ロック解除**」アイコン ![ ロック解除アイコン ](assets/unlock-proof-icon.png) をクリックし、「はい、ロック解除 **をクリックし** す。
 
-   ![&#x200B; プルーフのロックを解除 &#x200B;](assets/copy-of-unlock-proof-350x279.png)
+   ![ プルーフのロックを解除 ](assets/copy-of-unlock-proof-350x279.png)

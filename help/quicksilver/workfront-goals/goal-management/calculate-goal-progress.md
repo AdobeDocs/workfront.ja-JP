@@ -6,10 +6,10 @@ description: 目標の進捗は、アクティビティ、結果、子目標な�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 95%
+source-wordcount: '795'
+ht-degree: 93%
 
 ---
 
@@ -17,23 +17,31 @@ ht-degree: 95%
 
 <!--Audited for P&P only: 4/2025-->
 
->[!IMPORTANT]
+>[!NOTE]
 >
->この記事で説明している機能を使用するには、組織に以下が必要です。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
 >
->
->* 新しいプランとライセンス構造の場合：
->
->   * Ultimateプラン
->    
->* 現在のプランおよびライセンス構造の場合：
->
->   * プロまたはそれ以上
->   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
->
-> Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+>Adobe Workfront Goals は購入できなくなりました。
 >
 >Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+
+<!--Old:
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>
+>* For the new plan and license structure:
+>
+>   * An Ultimate plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+
 
 Adobe Workfront は、進捗状況インジケーターの進捗に基づいて、目標の進捗状況を自動的に計算します。
 
@@ -109,7 +117,7 @@ Goal progress percentage = Actual percent complete * 100 / Expected percent comp
 
 次のグラフは、状況のラベルと進捗率の関係を示しています。
 
-![&#x200B; 進捗ステータスラベルがグラフ化されました &#x200B;](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![ 進捗ステータスラベルがグラフ化されました ](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 次の表に、それぞれのラベルに関連付けられた「目標の状況」ラベルと目標の進捗率を示します。
 

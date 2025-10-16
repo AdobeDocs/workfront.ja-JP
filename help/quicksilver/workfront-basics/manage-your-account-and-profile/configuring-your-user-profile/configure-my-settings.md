@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront]  プロファイルには、自分に関�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 00162e3d20ab541f3233afd5d0c5d90b4c4d6309
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
 source-wordcount: '3318'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -246,7 +246,7 @@ ht-degree: 94%
    <td> メールアドレスを更新します。必須フィールドです。メールアドレスは、[!DNL Workfront] のユーザー名となります。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL パスワードの変更 &#x200B;]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL パスワードの変更 ]</strong></td> 
    <td>このセクションでパスワードをリセットします。パスワードのリセットについて詳しくは、<a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">パスワードのリセット</a>を参照してください。</td> 
   </tr> 
   <tr> 
@@ -313,7 +313,7 @@ ht-degree: 94%
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL プロファイル写真 &#x200B;]</strong></td>
+        <td><strong>[!UICONTROL プロファイル写真 ]</strong></td>
         <td>プロフィール写真はアバターになり、名前が表示されているすべての [!DNL Workfront] システムで表示されます。</td>
     </tr>
 </table>
@@ -342,7 +342,7 @@ ht-degree: 94%
    <td><p>ここで目的の言語を指定します。これは、送信メールメッセージで使用される言語、日付、数値の形式を制御します。</p>
    <p><strong> メモ：</strong> 組織がAdobe統合エクスペリエンスを使用している場合、言語環境設定はAdobe プロファイルに保存され、メールのロケールは使用されません。 詳しくは、「Adobe Experience Cloudでサポートされている言語 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language"> の </a>Adobe Workfrontの言語を変更する <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md"> を参照してくだ </a> い。</p></td> 
   </tr>
-  <tr><td><strong>[!UICONTROL タスクが自分で割り当てられると、タスクの状態を自動的に処理中 &#x200B;] に設定する </strong> </td>
+  <tr><td><strong>[!UICONTROL タスクが自分で割り当てられると、タスクの状態を自動的に処理中 ] に設定する </strong> </td>
   <td>自分に割り当てた作業のステータスを、新規ではなく処理中に自動的に設定する場合は、このオプションを選択します。</td>
   </tr>
   <tr> 
@@ -392,13 +392,13 @@ ht-degree: 94%
   --> 
   <tr> 
    <td role="rowheader"><strong>（条件付き）[!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
-   <td>このフィールドは、従来の [!DNL Workfront] プランを使用し、[!DNL Workfront Proof] コンポーネントを購入した場合にのみ使用できます。このオプションを選択すると、プルーフユーザーとして有効になります。購入したプルーフライセンスの合計数の中で、システムで使用されているプルーフライセンスの数も表示されます。このフィールドは、[!DNL Workfront] 管理者でもあるユーザーのみが表示および編集できます。[!DNL Workfront] でのプルーフのためのプランオプションについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">[!DNL Workfront]</a> のプルーフ機能へのアクセスを参照してください。</td>
+   <td>このフィールドは、会社が従来の [!DNL Workfront] パッケージを使用し、[!DNL Workfront Proof] コンポーネントを購入している場合にのみ使用できます。 このオプションを選択すると、プルーフユーザーとして有効になります。購入したプルーフライセンスの合計数の中で、システムで使用されているプルーフライセンスの数も表示されます。このフィールドは、[!DNL Workfront] 管理者でもあるユーザーのみが表示および編集できます。[!DNL Workfront] でのプルーフのためのプランオプションについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">[!DNL Workfront]</a> のプルーフ機能へのアクセスを参照してください。</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（条件付き）[!UICONTROL Permission Profile]</strong></td> 
    <td> <p>このフィールドには、[!DNL Workfront Proof] で持つアクセスレベルが表示されます。次の場合にのみ使用できます。</p> 
     <ul> 
-     <li>会社が従来の [!DNL Workfront] プランを使用していて、[!DNL Workfront Proof] コンポーネントを購入済みか、自分が新しい [!DNL Workfront] プランの[!UICONTROL Standard]、[!UICONTROL Work]または[!UICONTROL Plan]ライセンスを持っています。</li> 
+     <li>お客様の会社は従来の [!DNL Workfront] パッケージを使用し、[!DNL Workfront Proof] コンポーネントを購入しているか、新しい [!DNL Workfront] パッケージで [!UICONTROL Standard]、[!UICONTROL Work] または [!UICONTROL Plan] ライセンスを保有しています。</li> 
      <li>プルーフユーザーとして有効になっています。</li> 
     </ul> <p>[!DNL Workfront] 管理者は、自分を除くすべてのユーザーのフィールドを編集できるので、すべてのユーザーは、自分のプロファイルでこのフィールドを表示のみとして表示できます。権限プロファイルについて詳しくは、<a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">プルーフ権限プロファイルの概要</a>を参照してください。</p> </td> 
   </tr> 
@@ -457,7 +457,7 @@ ht-degree: 94%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL アクティブ化解除日を設定 &#x200B;]</strong></td>
+   <td role="rowheader"><strong>[!UICONTROL アクティブ化解除日を設定 ]</strong></td>
    <td><p>アカウントを一定期間後に非アクティブ化するようにスケジュールする場合は、このボタンをクリックします。 表示される <strong>[!UICONTROL Scheduled Deactivation Date]</strong> で、アカウントが非アクティブ化されるまでの日付を指定します。 ユーザーの非アクティブ化について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a>の<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">ユーザーの非アクティブ化のスケジュール</a>を参照してください。</p><p>[!UICONTROL Standard] または [!UICONTROL Plan] ライセンスを持っているか、[!DNL Workfront] 管理者である場合は、自分のアカウントの無効フィールドを編集できます。</p></td> 
   </tr> 
   <tr> 
@@ -522,7 +522,7 @@ ht-degree: 94%
 
 すべてのユーザーが、プロファイルに関連付けられたカスタムフォームを表示できます。
 
-ユーザープロファイルにカスタムフォームを添付できるようにするには、[!DNL Workfront] 管理者がユーザーオブジェクトのカスタムフォームを設定する必要があります。カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+ユーザープロファイルにカスタムフォームを添付できるようにするには、[!DNL Workfront] 管理者がユーザーオブジェクトのカスタムフォームを設定する必要があります。カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 ### [!UICONTROL コメント]
 

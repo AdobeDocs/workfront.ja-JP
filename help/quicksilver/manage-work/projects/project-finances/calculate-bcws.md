@@ -7,10 +7,10 @@ description: BCWS（予定された作業の予算計上コスト）は、計画
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 97%
+source-wordcount: '598'
+ht-degree: 96%
 
 ---
 
@@ -38,35 +38,32 @@ Adobe Workfront は、プロジェクトとタスクの両方について、予�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td> 
+   <p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>プロジェクトへのアクセスを編集</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td>プロジェクトの管理権限</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -77,7 +74,7 @@ BCWS を時間単位で計算するかコスト単位で計算するかは、プ
 1. プロジェクトに移動し、左パネルの「**プロジェクトの詳細**」をクリックします。
 1. **財務**&#x200B;エリアで、「**パフォーマンスインデックスメソッド**」フィールドを検索し、ダブルクリックして編集します。
 
-   ![PIM オプション &#x200B;](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM オプション ](assets/pim-options-hour-cost-based-nwe.png)
 
 1. 次のオプションから選択します。
 
@@ -126,7 +123,7 @@ BCWS 列をビューに追加すると、レポートまたはリスト上の予
 1. 「**列を追加**」をクリックします。 
 1. **この列に表示：**&#x200B;フィールドで **BCWP** の入力を開始して、リストに表示されたらクリックして選択します。
 
-   ![&#x200B; プロジェクトビューの BCWS](assets/bcws-in-project-view.png)
+   ![ プロジェクトビューの BCWS](assets/bcws-in-project-view.png)
 
 1. 「**ビューを保存**」をクリックします。
 1. **BCWS** フィールドがビューに表示されます。

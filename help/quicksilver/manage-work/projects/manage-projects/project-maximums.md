@@ -1,5 +1,5 @@
 ---
-title: プロジェクト制限の概要
+title: プロジェクトの上限の概要
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
@@ -7,10 +7,10 @@ description: Adobe Workfront には、プロジェクトに関連付けること
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 

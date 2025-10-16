@@ -6,10 +6,10 @@ description: テンプレートをユーザーと共有したり、テンプレ�
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 93%
+source-wordcount: '730'
+ht-degree: 91%
 
 ---
 
@@ -25,32 +25,60 @@ Workfront の権限について詳しくは、[オブジェクトに対する共
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>プラン</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>テンプレートへの編集アクセス</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>テンプレートへの編集アクセス</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>テンプレートに対する管理権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>テンプレートに対する管理権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Templates</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## テンプレートの共有 {#share-a-template}
 
@@ -62,10 +90,10 @@ Workfront の権限について詳しくは、[オブジェクトに対する共
 
 テンプレートを共有するには、以下のように行います。
 
-1. **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) から、「**テンプレート**」をクリックします。
+1. **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) から、「**テンプレート**」をクリックします。
 
 1. 次のいずれかの操作を行います。\
-   テンプレートの名前をクリックして開き、**詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/qs-more-icon-on-an-object.png)/**テンプレート共有** をクリックします。
+   テンプレートの名前をクリックして開き、**詳細** メニュー ![ 詳細アイコン ](assets/qs-more-icon-on-an-object.png)/**テンプレート共有** をクリックします。
 
    または
 
@@ -100,7 +128,7 @@ Workfront の権限について詳しくは、[オブジェクトに対する共
 テンプレートから作成された今後のプロジェクトをユーザーと共有するには、以下のように行います。
 
 1. 次のいずれかの操作を行います。\
-   テンプレートの名前をクリックして開き、**詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/qs-more-icon-on-an-object.png)/**テンプレート共有** をクリックします。
+   テンプレートの名前をクリックして開き、**詳細** メニュー ![ 詳細アイコン ](assets/qs-more-icon-on-an-object.png)/**テンプレート共有** をクリックします。
 
    ![テンプレートからプロジェクトを共有](assets/project-sharing-on-template-nwe-2022-350x172.png)
 

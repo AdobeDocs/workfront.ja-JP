@@ -6,10 +6,10 @@ description: デフォルトでは、ユーザーは自分に表示権限があ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 96%
+source-wordcount: '1185'
+ht-degree: 94%
 
 ---
 
@@ -30,43 +30,36 @@ ht-degree: 96%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-      <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>標準</p>
+      <p>プラン</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限の表示（配信されたレポートの表示）</p><p>レポートに対する権限の管理（レポートの実行）</p></td> 
+     <td> <p>レポートに対する権限の表示による配信レポートの表示</p>
+     <p>レポートを実行するためのレポートに対する権限の管理</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -86,7 +79,7 @@ ht-degree: 96%
 1. 「**報告書設定**」をクリックします。
 
 1. 「**次のアクセス権限でこの報告書を作成する：**」フィールドに、レポートを表示するユーザー名の入力を開始し、リストに表示されたら選択します。\
-   ![&#x200B; 次のアクセス権限で実行 &#x200B;](assets/unshimmed-access-rights-of.png)
+   ![ 次のアクセス権限で実行 ](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -108,7 +101,7 @@ ht-degree: 96%
 
 別のユーザーのアクセス権限でレポートを配信するには：
 
-1. Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
+1. Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 
 1. 別のユーザーのアクセス権限で配信するレポートを選択します。
 1. レポートの名前をクリックして選択します。
@@ -116,7 +109,7 @@ ht-degree: 96%
 1. 「**報告書の送信**」をクリックします。
 
 1. レポートをメールで配信する際に使用するレポート表示権限が属するユーザーの名前を「**次のアクセス権限でこの報告書を届ける**」フィールドに入力していき、目的のユーザー名がリストに表示されたら選択します。デフォルトでは、レポートを作成するユーザーの名前です。\
-   ![&#x200B; アクセス権が設定された報告書を送信しました &#x200B;](assets/unshimmed-send-report-access-rights-of.png)
+   ![ アクセス権が設定された報告書を送信しました ](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

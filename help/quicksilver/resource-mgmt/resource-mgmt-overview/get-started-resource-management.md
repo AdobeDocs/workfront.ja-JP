@@ -7,9 +7,9 @@ description: リソース管理を使用すると、リソースの空き時間�
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1171'
 ht-degree: 96%
 
 ---
@@ -119,7 +119,7 @@ Workfront でのリソース管理プロセスには、以下の段階があり�
   リソース計画と作業の割り当てについて詳しくは、以下の節を参照してください。
 
    * [リソース計画：記事インデックス](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [Adobe Workfront シナリオプランナー](../../scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]：記事インデックス](../../scenario-planner/scenario-planning.md)
    * [ワークロードバランサー：記事インデックス](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--

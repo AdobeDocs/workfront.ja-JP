@@ -6,7 +6,7 @@ description: テキストモードを使用してリストまたはレポート�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 84%
@@ -25,28 +25,20 @@ ht-degree: 84%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
-   </td>
+     <p>標準</p>
+     <p>プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -59,7 +51,7 @@ ht-degree: 84%
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -87,7 +79,7 @@ ht-degree: 84%
 
 1. 次のいずれかの操作を行います。
 
-   リストからフィルターにアクセスするには、リストに移動して **フィルター** アイコンをクリックし、変更する **フィルター** サイドパネルのフィルターにカーソルを置いて **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。 **フィルター** サイドパネルに選択したフィルターが表示されるか、従来のフィルタービルダーが開きます。
+   リストからフィルターにアクセスするには、リストに移動して **フィルター** アイコンをクリックし、変更する **フィルター** サイドパネルのフィルターにカーソルを置いて **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。 **フィルター** サイドパネルに選択したフィルターが表示されるか、従来のフィルタービルダーが開きます。
 
    または
 

@@ -7,10 +7,10 @@ description: レビュー中のプロジェクトのアップデートを、 [!D
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 97%
+source-wordcount: '182'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 ## アクセス要件
 
-この記事の手順を実行するには、[!DNL Workfront] で次のアクセス権が必要になります。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,17 +31,21 @@ ht-degree: 97%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Review] 以降</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>レビュー以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセスを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!DNL Workfront View] のプロジェクトにアップデートを追加
 
@@ -54,7 +58,7 @@ ht-degree: 97%
 
 1. アップデートと入力します。
 1. （オプション）他の項目をアップデートに含めるには、[!UICONTROL 人物]アイコンをタップし、別のユーザーの名前を指定します。\
-   ![&#x200B; モバイルアプリのアップデート &#x200B;](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![ モバイルアプリのアップデート ](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
 1. 「**[!UICONTROL 投稿]**」をタップ\
    アップデートは、プロジェクトの、**[!UICONTROL アップデート]**&#x200B;ウィジェットに表示されます。

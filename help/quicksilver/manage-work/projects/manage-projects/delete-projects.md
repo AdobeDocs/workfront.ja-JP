@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '878'
 ht-degree: 93%
 
 ---
@@ -28,36 +28,59 @@ ht-degree: 93%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront パッケージ</p> </td> 
+   <td>任意</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront プラン</p> </td> 
+   <td> <p>標準</p>
+   <p>プラン</p> 
+   </td> 
+  </tr> 
+    <td>アクセスレベル設定</td> 
+   <td> <p>プロジェクトの作成とプロジェクトの削除が可能な編集アクセス権</p> </td> 
+  </tr> 
+    <td> <p>オブジェクト権限</p> </td> 
+   <td> <p>プロジェクト、タスク、イシューに対する編集アクセス権（プロジェクト、タスク、イシューの削除が可能）</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront プラン</p> </td> 
-   <td>任意</td> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront プラン*</p> </td> 
-   <td> <p>新規のライセンス：標準 </p>
-   <p>現在のライセンス：プラン </p> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>New license: Standard </p>
+   <p>Current license: Plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>アクセスレベル設定</td> 
-   <td> <p>プロジェクトの作成とプロジェクトの削除が可能な編集アクセス権</p> </td> 
+   <td>Access level configuration</td> 
+   <td> <p>Edit access to Projects with ability to Create and Delete projects</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>オブジェクト権限 </p> </td> 
-   <td> <p>プロジェクト、タスク、イシューに対する編集アクセス権（プロジェクト、タスク、イシューの削除が可能）</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
-
-+++
+</table>-->
 
 ## プロジェクトを削除するプロセスについて
 
@@ -135,7 +158,7 @@ ht-degree: 93%
 プロジェクトのリストからプロジェクトを削除できます。
 
 1. プロジェクトのリストまたはプロジェクトレポートに移動します。
-1. 削除するプロジェクト（1 つまたは複数）を選択し、リストの上部にある **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+1. 削除するプロジェクト（1 つまたは複数）を選択し、リストの上部にある **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
 
 1. クリック「**はい、削除します**」をクリックして削除を確定します。
 
@@ -144,9 +167,9 @@ ht-degree: 93%
 ## プロジェクトレベルでプロジェクトを削除
 
 1. 削除するプロジェクトに移動します。
-1. プロジェクト名の右側にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) をクリックし、**プロジェクトを削除** をクリックします。
+1. プロジェクト名の右側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックし、**プロジェクトを削除** をクリックします。
 
-   ![&#x200B; 詳細メニューが展開されました &#x200B;](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![ 詳細メニューが展開されました ](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. 「**はい、削除します**」をクリックします。
 

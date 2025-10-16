@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 87%
+source-wordcount: '1293'
+ht-degree: 86%
 
 ---
 
@@ -37,26 +37,26 @@ Workfront API を活用するアプリケーションの例を次に示します
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td><p>標準</p><p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -66,7 +66,7 @@ Workfront のそれぞれのユーザーが、一意の API キーを持って�
 
 >[!NOTE]
 >
-> 実稼動環境で生成した API キーは、毎週の更新中にプレビュー環境にコピーされます。プレビュー環境で生成した API キーは、毎週の更新中に実稼動用 API キーで上書きされます。
+> 本番環境で生成した API キーは、毎週の更新中にプレビュー環境にコピーされます。プレビュー環境で生成した API キーは、毎週の更新中に実稼動用 API キーで上書きされます。
 
 Workfront 管理者には一意の API キーが割り当てられています。アプリケーションが管理者 API キーを使用して Workfront にアクセスすると、アプリケーションは Workfront への管理アクセス権を持つことになります。
 
@@ -107,8 +107,8 @@ Workfront 管理者以外の役割を持つユーザーの API キーを生成�
    1. **システム**&#x200B;を展開し、次に「**シングルサインオン（SSO）**」をクリックします。
    1. **タイプ** フィールドで、組織が使用する SSO のタイプを選択します。
    1. タイプを選択した状態で、下にスクロールして「**有効**」チェックボックスをオフにします。
-      ![SSO を有効にする &#x200B;](assets/sysadmin-security-sso-disable-31620-350x320.png)
-   1. **保存**&#x200B;をクリックします。
+      ![SSO を有効にする ](assets/sysadmin-security-sso-disable-31620-350x320.png)
+   1. 「**保存**」をクリックします。
 
 
 1. ブラウザーのアドレスバーに、次の API 呼び出しを入力します。
@@ -187,7 +187,7 @@ Workfront システムに関する特定のセキュリティ違反を懸念す�
 
 認証局から X.509 証明書を取得したら、Workfront にアップロードする必要があります。
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**設定** ![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
 1. **システム**&#x200B;を展開して、「**顧客情報**」をクリックします。
 

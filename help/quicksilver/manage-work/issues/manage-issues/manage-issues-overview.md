@@ -2,20 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: イシューを管理する
-description: 以下の記事には、イシューの管理に関する情報が含まれます。
+title: 問題の管理：記事インデックス
+description: プロジェクトに取り組んでいると、予期しないイベントが発生することがあります。これらの予期しないイベントは、特定のプロジェクトまたはタスクのイシューとしてログに記録できます。 以下の記事には、イシューの管理に関する情報が含まれます。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 100%
+source-wordcount: '121'
+ht-degree: 80%
 
 ---
 
-# イシューを管理する
+# 問題の管理：記事インデックス
+
+<!--Audited: 08/2025-->
+
+プロジェクトに取り組んでいると、予期しないイベントが発生することがあります。これらの予期しないイベントを、特定のプロジェクトやタスクのイシューとして記録できます。
 
 この節では、次の記事を扱います。
 

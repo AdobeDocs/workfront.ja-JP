@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 655c655c-4bfe-44c8-bbb5-0222b0d158eb
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
 source-wordcount: '42'
-ht-degree: 85%
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 85%
 この節では、次の記事を扱います。
 
 * [ポートフォリオ管理の概要](../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-* [&#x200B; [!DNL Adobe Workfront] のポートフォリオの概要](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+* [ポートフォリオ手法について](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
 * [ポートフォリオ内での移動](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
 
 

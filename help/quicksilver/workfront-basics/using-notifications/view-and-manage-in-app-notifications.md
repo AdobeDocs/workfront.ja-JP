@@ -5,10 +5,10 @@ description: アプリ内通知では、お知らせ通知と作業アイテム�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 86%
+source-wordcount: '966'
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 86%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +37,21 @@ ht-degree: 86%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] package</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>リクエスト以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-保有するプランまたはライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 通知の表示
 
@@ -55,9 +59,9 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->Web アプリケーションとモバイルアプリケーションの両方から、すべてのアプリ内通知を表示できます。これらの通知の一部のみが、モバイルアプリケーションでプッシュ通知として送信されます。モバイルアプリでの通知について詳しくは、iOS 用の [[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) または Android 用の [[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) を参照してください。
+>Web アプリケーションとモバイルアプリケーションの両方から、すべてのアプリ内通知を表示できます。これらの通知の一部のみが、モバイルアプリケーションでプッシュ通知として送信されます。モバイルアプリでの通知について詳しくは、iOS 用の [[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) または Android 用の [[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) を参照してください。
 
-1. [!DNL Workfront] ージの右上隅にある番号付きアイコン ![&#x200B; 通知アイコン &#x200B;](assets/notifications-icon-jewel.jpg) をクリックして、通知のリストを開きます。
+1. ![ ージの右上隅にある番号付きアイコン ](assets/notifications-icon-jewel.jpg) 通知アイコン [!DNL Workfront] をクリックして、通知のリストを開きます。
 
    最新の未読の通知が番号付きアイコンの下に表示され、一番上に最新の未読の通知が表示されます。
 
@@ -67,7 +71,7 @@ ht-degree: 86%
 
    各通知の下部に、[!UICONTROL 通知タイプ]と対応する識別アイコンが表示されます。これらは、明記された [!DNL Workfront] の項目に何が起こったかを特定するのに役立ち、アクション項目がある場合は、警告が表示されます。
 
-   * アナウンス通知は、「[!UICONTROL &#x200B; お知らせ &#x200B;] アイコンで示されます。 ![&#x200B; お知らせアイコン &#x200B;](assets/announcement.png)
+   * アナウンス通知は、「[!UICONTROL  お知らせ ] アイコンで示されます。 ![ お知らせアイコン ](assets/announcement.png)
 
    * その他すべての通知は、関連付けられている作業アイテムのタイプを提案するアイコンによって表示されます。
 
@@ -80,21 +84,21 @@ ht-degree: 86%
 
 1. （オプション）通知を受け取った日付を表示する場合は、通知の右上隅にある日または時間のインジケーターの上にポインタを合わせます。
 
-   ![&#x200B; 日付にポインタを合わせる &#x200B;](assets/hoveroverdate-350x437.png)
+   ![ 日付にポインタを合わせる ](assets/hoveroverdate-350x437.png)
 
 1. 表示する通知をクリックします。
 
    * クリックした通知が作業アイテムに関するものである場合は、関連する [!DNL Workfront] オブジェクトが開き、「**[!UICONTROL 更新]**」タブ上にメッセージ全体が表示されます。**[!UICONTROL 新しい更新エリアを開始]**&#x200B;または&#x200B;**[!UICONTROL 返信を入力]**&#x200B;できます。
 
-     ![&#x200B; 更新または返信 &#x200B;](assets/object-opens-click-work-ntfctn-qs-350x183.png)
+     ![ 更新または返信 ](assets/object-opens-click-work-ntfctn-qs-350x183.png)
 
-   * クリックした通知がお知らせ ![&#x200B; お知らせアイコン &#x200B;](assets/announcement.png) 用の場合は、**[!UICONTROL お知らせ]** ページが表示され、すべてのお知らせが一覧表示されます。 クリックしたお知らせが左側で選択され、メッセージが右側に表示されます。
+   * クリックした通知がお知らせ ![ お知らせアイコン ](assets/announcement.png) 用の場合は、**[!UICONTROL お知らせ]** ページが表示され、すべてのお知らせが一覧表示されます。 クリックしたお知らせが左側で選択され、メッセージが右側に表示されます。
 
      ![お知らせページ](assets/announcements-page-qs-350x210.png)
 
 1. （オプション）通知メッセージに含まれている添付ファイルをダウンロードするか、すべての添付ファイルを ZIP ファイルとしてダウンロードします。
 
-   ![&#x200B; 添付ファイルをダウンロード &#x200B;](assets/download-attachments-350x106.png)
+   ![ 添付ファイルをダウンロード ](assets/download-attachments-350x106.png)
 
 ## 通知の確認
 
@@ -111,7 +115,7 @@ ht-degree: 86%
 
 通知を確認し、通知リストからクリアするには、次の手順に従います。
 
-1. [!DNL Workfront] ージの右上隅にある番号付きアイコン ![&#x200B; 通知アイコン &#x200B;](assets/notifications-icon-jewel.jpg) をクリックして、通知のリストを開きます。
+1. ![ ージの右上隅にある番号付きアイコン ](assets/notifications-icon-jewel.jpg) 通知アイコン [!DNL Workfront] をクリックして、通知のリストを開きます。
 1. 次のいずれかの操作を行います。
 
    * 通知の左上隅にある青い点をクリックします。
@@ -123,7 +127,7 @@ ht-degree: 86%
 
 既に確認した通知を表示するには、次の手順に従います。
 
-1. [!DNL Workfront] ージの右上隅にある番号付きアイコン ![&#x200B; 通知アイコン &#x200B;](assets/notifications-icon-jewel.jpg) をクリックして、通知のリストを開きます。
+1. ![ ージの右上隅にある番号付きアイコン ](assets/notifications-icon-jewel.jpg) 通知アイコン [!DNL Workfront] をクリックして、通知のリストを開きます。
 1. 通知リストの右下隅にある「**[!UICONTROL すべての通知]**」をクリックします。
 1. 表示された&#x200B;**[!UICONTROL 通知]**&#x200B;ページで、下にスクロールして過去の通知を表示します。
 1. （オプション）確認済み通知を通知リストに戻すには、通知の横にある青い円をクリックします。
@@ -139,7 +143,7 @@ ht-degree: 86%
 
 ### お知らせを削除
 
-1. [!DNL Workfront] ージの右上隅にある番号付きアイコン ![&#x200B; 通知アイコン &#x200B;](assets/notifications-icon-jewel.jpg) をクリックして、通知のリストを開きます。
+1. ![ ージの右上隅にある番号付きアイコン ](assets/notifications-icon-jewel.jpg) 通知アイコン [!DNL Workfront] をクリックして、通知のリストを開きます。
 1. 「**[!UICONTROL お知らせ]**」または「**[!UICONTROL お知らせの表示]**」をクリックします。
 
 1. 表示される&#x200B;**[!DNL Announcements]**&#x200B;ページで、削除するお知らせを左側のリストでクリックしたあと、「**[!UICONTROL 削除]**」をクリックします。
@@ -148,7 +152,7 @@ ht-degree: 86%
 
 過去 30 日以内に削除した通知にアクセスできます。
 
-1. [!DNL Workfront] ージの右上隅にある番号付きアイコン ![&#x200B; 通知アイコン &#x200B;](assets/notifications-icon-jewel.jpg) をクリックして、通知のリストを開きます。
+1. ![ ージの右上隅にある番号付きアイコン ](assets/notifications-icon-jewel.jpg) 通知アイコン [!DNL Workfront] をクリックして、通知のリストを開きます。
 1. 「**[!UICONTROL お知らせ]**」または「**[!UICONTROL お知らせの表示]**」をクリックします。
 
 1. 表示された&#x200B;**[!UICONTROL お知らせ]**&#x200B;ページで、「**[!UICONTROL 削除済み]**」をクリックします。

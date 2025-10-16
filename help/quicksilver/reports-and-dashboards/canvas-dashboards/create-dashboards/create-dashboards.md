@@ -6,10 +6,10 @@ description: キャンバスダッシュボードを使用すると、カスタ�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 14%
+source-wordcount: '427'
+ht-degree: 12%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->&#x200B;>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
->&#x200B;>このベータ版は、次のクラウドプロバイダーでは利用できません。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
+>>このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
 >* Azure
@@ -29,7 +29,7 @@ ht-degree: 14%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -38,7 +38,7 @@ ht-degree: 14%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <p>任意 </p> 
    </td> 
@@ -46,8 +46,8 @@ ht-degree: 14%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td> 
-<p>現在：プラン </p> 
-<p>新規：標準</p> 
+<p>標準 </p> 
+<p>プラン</p> 
    </td> 
    </tr> 
   </tr> 
@@ -87,12 +87,12 @@ ht-degree: 14%
 キャンバスダッシュボードで作成できるレポートは 3 種類あります。
 
 * **KPI**：このレポートには、主要業績評価指標データが数値で表示されます。
-詳しくは、[KPI レポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md) を参照してください。
+詳しくは、[KPI レポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md) を参照してください。
 
 * **グラフ**：このレポートは、データを棒グラフ、列グラフ、折れ線グラフ、円グラフとして表示します。
-詳しくは、[&#x200B; グラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[ グラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 * **表**：このレポートは、データを表形式で表示します。
-詳しくは、[&#x200B; テーブルレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md) を参照してください。
+詳しくは、[ テーブルレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md) を参照してください。
 
-ダッシュボードに既存のレポートを追加する方法については、「[&#x200B; ダッシュボードに既存のレポートを追加する &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)」を参照してください。
+ダッシュボードに既存のレポートを追加する方法については、「[ ダッシュボードに既存のレポートを追加する ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)」を参照してください。

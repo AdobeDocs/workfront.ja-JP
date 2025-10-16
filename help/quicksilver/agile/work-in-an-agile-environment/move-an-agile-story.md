@@ -6,10 +6,10 @@ description: アジャイルストーリーは、別のイテレーション（�
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 68aafe63ff8b60a542ed9dd0900b3742c26a1e4f
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 73%
+source-wordcount: '349'
+ht-degree: 70%
 
 ---
 
@@ -21,8 +21,6 @@ ht-degree: 73%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,18 +28,17 @@ ht-degree: 73%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p> 
-   または
-   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>ストーリーに対する[!UICONTROL Manage]アクセス権</td> 
+   <td>ストーリーへのアクセスの管理</td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,10 +7,10 @@ description: テキストモードを使用して、ビュー内のオブジェ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 84%
+source-wordcount: '483'
+ht-degree: 83%
 
 ---
 
@@ -24,32 +24,25 @@ ht-degree: 84%
 >
 >画像は実際の解像度で表示されるので、小さな画像を使用してください。
 
-![&#x200B; プロジェクト名を画像とリンクに置き換える &#x200B;](assets/replace-project-name-with-image-and-link-350x125.png)
+![ プロジェクト名を画像とリンクに置き換える ](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-    <p>新規：</p>
-   <ul><li><p>フィルターを変更するコントリビューター </p></li>
-   <li><p>レポートを変更する場合は Standard</p></li> </ul>
-
-<p>現在：</p>
-   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
-   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
+   <p>フィルターの変更者または変更依頼 </p>
+   <p>レポートを変更するための標準またはプラン</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -62,7 +55,7 @@ ht-degree: 84%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -86,7 +79,7 @@ ht-degree: 84%
    1. ブラウザーに応じて「**画像の場所をコピー**」または「**リンクを取得**」を右クリックして選択します。これで、その特定の画像の URL が取得され、クリップボードから貼り付けることができます。
    1. そのリンクを持つユーザー全員がリンクに移動するだけで画像を表示する権限を持ち、そのリンクにアクセスするためにログインする必要がないことを確認します。
 
-1. プロジェクトに移動し、プロジェクト名の横にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon-45x33.png) をクリックしてから、**編集** をクリックします。
+1. プロジェクトに移動し、プロジェクト名の横にある **その他** メニュー ![ その他アイコン ](assets/more-icon-45x33.png) をクリックしてから、**編集** をクリックします。
 
 1. 「**URL**」フィールドで、画像にリンクを追加します。
 1. プロジェクトの一覧のプロジェクト ビューに移動します。

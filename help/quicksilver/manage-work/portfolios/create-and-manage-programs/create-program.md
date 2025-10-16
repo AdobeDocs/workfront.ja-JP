@@ -6,9 +6,9 @@ description: プログラムとは、プロジェクトの境界を越えて共�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1272'
 ht-degree: 76%
 
 ---
@@ -32,20 +32,19 @@ ht-degree: 76%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] package</td>
 
 <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard] </p><p>または </p><p>現在：[!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -61,6 +60,32 @@ ht-degree: 76%
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard] </p><p>Or </p><p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs </p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default.</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## プログラムの作成方法
 
@@ -79,9 +104,9 @@ Workfrontでプログラムを作成するには、次のいずれかの方法�
 
   Workfront Planning パッケージを追加する必要があります。
 
-  Adobe Workfront Planning へのアクセスについて詳しくは、[Workfront Planning へのアクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+  Adobe Workfront Planning へのアクセスについて詳しくは、[Workfront Planning へのアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
-  レコードにポートフォリオを追加してポートフォリオを作成する方法については、「レコードの作成 [&#x200B; に関する記事の「接続時にレコードを作成する」を参照し &#x200B;](/help/quicksilver/planning/records/create-records.md) ください。
+  レコードにポートフォリオを追加してポートフォリオを作成する方法については、「レコードの作成 [ に関する記事の「接続時にレコードを作成する」を参照し ](/help/quicksilver/planning/records/create-records.md) ください。
 
 ## プログラムを作成
 
@@ -159,7 +184,7 @@ Workfrontでプログラムを作成するには、次のいずれかの方法�
    プログラムへのプロジェクトの追加については、[プログラムへのプロジェクトの追加](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)を参照してください。
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
-1. （オプション）プログラム名の横にある **[!UICONTROL その他メニュー]**![&#x200B; その他メニュー &#x200B;](assets/more-icon.png) をクリックし、**[!UICONTROL プログラムのアクティベートを解除]** をクリックします。
+1. （オプション）プログラム名の横にある **[!UICONTROL その他メニュー]**![ その他メニュー ](assets/more-icon.png) をクリックし、**[!UICONTROL プログラムのアクティベートを解除]** をクリックします。
 
    プログラムのアクティブ化を解除した場合は、そのプログラムをユーザーがプロジェクトに追加しようとしても、プログラムはプログラムリストに表示されなくなります。[!UICONTROL プログラム]エリアからは、このプログラムに引き続きアクセスできます。
 

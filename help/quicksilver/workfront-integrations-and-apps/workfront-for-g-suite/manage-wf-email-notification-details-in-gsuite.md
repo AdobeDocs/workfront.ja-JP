@@ -7,10 +7,10 @@ description: Google Workspaceでは、Adobeから送信された通知メール�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 67%
+source-wordcount: '572'
+ht-degree: 65%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 67%
 >
 >Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [&#x200B; および &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [&#x200B; を参照してください。](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 [!DNL Google Workspace] で、[!DNL Adobe Workfront] が送信した通知メールを開く際に、関連する作業項目の詳細を表示し、[!UICONTROL インボックス]から離れることなく返信できます。リクエストの承認などアクションが使用可能な場合は、[!DNL Workfront for Google Workspace] から直接これらのアクションを実行できます。
 
@@ -38,24 +38,26 @@ ht-degree: 67%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Work]、[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p><p>ワークまたはそれ以上</p>
   </tr> 
-  </tbody> 
+ </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -66,7 +68,7 @@ ht-degree: 67%
 
 ## [!DNL Google Workspace] から [!DNL Adobe Workfront] 通知の詳細の管理
 
-1. [!DNL Workfront for Google Workspace] パネルが表示されない場合は、ページの右端にある [!DNL Workfront] アドオンサイドバーの ![&#x200B; アイコン &#x200B;](assets/wf-lion-icon.png)Workfront アイコン [!DNL Google Workspace] をクリックします。
+1. [!DNL Workfront for Google Workspace] パネルが表示されない場合は、ページの右端にある [!DNL Workfront] アドオンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)Workfront アイコン [!DNL Google Workspace] をクリックします。
 1. [!DNL Google Workspace] で [!DNL Workfront] 通知メールを開きます。
 1. パネルの上部付近に表示される場合、「**[!UICONTROL すべての更新を表示]**」をクリックします。
 1. 「**[!UICONTROL 詳細]**」をクリックします。

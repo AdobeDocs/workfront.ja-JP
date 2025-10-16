@@ -6,10 +6,10 @@ description: Adobe Workfront リソースプランナーでリソースを予算
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 99%
+source-wordcount: '1392'
+ht-degree: 98%
 
 ---
 
@@ -36,36 +36,31 @@ Adobe Workfront リソースプランナーでリソースを予算計上する�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-    <td><p>新規：任意</p>
-       <p>または</p>
-       <p>現在：Pro 以上</p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>リソースプランナーの優先度と予算計上時間数の編集へのアクセスを含むリソース管理へのアクセスを編集</p> <p>財務データ、プロジェクトおよびユーザーへのアクセスを編集</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>財務の管理機能を持つ、予算情報が必要なプロジェクトに対する権限を管理します。</p></td> 
+   <td>オブジェクト権限</td> 
+   <td> <p>財務の管理機能を持つ、予算情報が必要なプロジェクトに対する権限を管理します。</p></td>
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

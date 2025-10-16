@@ -7,10 +7,10 @@ description: この記事では、ユーザープロファイルでメール通�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 94%
+source-wordcount: '613'
+ht-degree: 93%
 
 ---
 
@@ -36,8 +36,6 @@ Adobe [!DNL Workfront] 管理者は、Workfront でイベントが発生した�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -45,21 +43,19 @@ Adobe [!DNL Workfront] 管理者は、Workfront でイベントが発生した�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
-   <td>  <p>新規：</p> 
-   <ul><li>コントリビューター以上</li></ul>
-   <p>現在：</p>
-   <ul><li>リクエスト以上</li></ul>
+   <td> <p>コントリビューター以上</p>
+   <p>リクエスト以上</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -67,13 +63,13 @@ Adobe [!DNL Workfront] 管理者は、Workfront でイベントが発生した�
 
 {{step1-click-profile-pic}}
 
-1. 名前の横にある **[!UICONTROL その他]** アイコン ![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) をクリックしてから、「編集 **[!UICONTROL をクリックし]** す。
+1. 名前の横にある **[!UICONTROL その他]** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックしてから、「編集 **[!UICONTROL をクリックし]** す。
 
 1. 表示される&#x200B;**[!UICONTROL ユーザーの編集]**&#x200B;ボックスで、「**[!UICONTROL 通知]**」セクションに移動します。
 
 1. カテゴリをクリックすると、そのカテゴリに関連する通知設定が表示されます。
 
-   ![&#x200B; マイプロファイルの通知 &#x200B;](assets/my-profile-notifications.png)
+   ![ マイプロファイルの通知 ](assets/my-profile-notifications.png)
 
 1. 右側のチェックボックスを選択または選択解除して、通知を毎日、即時、またはその両方で受信するかどうかを指定します。
 
@@ -90,13 +86,13 @@ Adobe [!DNL Workfront] 管理者は、Workfront でイベントが発生した�
 
 1. 日刊ダイジェストとして送信する通知を選択した場合は、その通知を受信する時刻を「**[!UICONTROL 通知]**」セクション上部の&#x200B;**[!UICONTROL この時刻を過ぎると日刊ダイジェストメールを送信]**&#x200B;メニューで選択します。
 
-   ![&#x200B; 日次ダイジェストで時間帯を選択 &#x200B;](assets/digest-time-stamp-my-settings-350x78.png)
+   ![ 日次ダイジェストで時間帯を選択 ](assets/digest-time-stamp-my-settings-350x78.png)
 
    日次ダイジェストには、選択した時間の 24 時間前に通知の条件を満たすイベントが含まれます。通知のタイプごとに、1 通の日刊ダイジェストメールを受け取ります。\
    日次ダイジェストは、システムで配信用にキューに入れられているメールの数に応じて、選択した時間の後に到着する場合があります。一覧に表示される時刻は、ブラウザー設定で指定されたローカル時間です。
 
 1. （オプションおよび条件付き）プレビュー環境でメール通知の設定を変更する場合、**[!UICONTROL このテスト環境からメールを受信]**&#x200B;設定を有効にして、メールを受信します。プレビュー環境からメールが自動的に生成されることはありません。
 
-   ![sndbox からメールを受信 &#x200B;](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+   ![sndbox からメールを受信 ](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。

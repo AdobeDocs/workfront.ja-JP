@@ -6,10 +6,10 @@ description: インストール後 [!DNL Adobe Workfront] 対象： [!DNL Salesf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 83%
+source-wordcount: '624'
+ht-degree: 80%
 
 ---
 
@@ -21,42 +21,45 @@ ht-degree: 83%
 >
 >組織のSalesforceとの統合のニーズに応じて、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
 [!DNL Adobe Workfront for Salesforce] をインストールすると、[!DNL Salesforce] の商談およびアカウントから [!DNL Workfront] リクエストを送信できるようになります。この機能は、[!DNL Classic] と [!DNL Lightning Experience] の両方のフレームワークに存在します。
 
 ## アクセス要件
 
-この記事で説明されている機能を使用するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>[!DNL Adobe Workfront] プラン*</p></td> 
-   <td> <p>[!UICONTROL Pro] 以降</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>[!DNL Adobe Workfront] ライセンス*</p></td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>プラン</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
 [!DNL Salesforce] の商談やアカウントから [!DNL Workfront] リクエストを送信するには、お使いの環境が以下の条件を満たしていることを確認してください。
 
 * [!DNL Workfront] 管理者が [!DNL Workfront for Salesforce] をインストールしてある。\
-   [!DNL Workfront for Salesforce] のインストールについて詳しくは、[&#x200B; [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) のインストールを参照してください。
+   [!DNL Workfront for Salesforce] のインストールについて詳しくは、[ [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) のインストールを参照してください。
 
 * [!DNL Workfront] 管理者が、[!UICONTROL 商談]ページと[!UICONTROL アカウント]ページのレイアウトに「[!DNL Workfront]」セクションを追加してある。\
-   ページレイアウトへの「[!DNL Workfront]」セクションの追加について詳しくは、[&#x200B; [!DNL Salesforce] ユーザーに対する「 [!DNL Adobe Workfront] 」セクションの設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
+   ページレイアウトへの「[!DNL Workfront]」セクションの追加について詳しくは、[ [!DNL Salesforce] ユーザーに対する「 [!DNL Adobe Workfront] 」セクションの設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
 
 * [!DNL Workfront] アカウントがあり、商談またはアカウント内の「[!DNL Workfront]」セクションからログインできる。\
    ログインすると「[!UICONTROL 新しい要求]」タブが表示され、リクエストを入力できるようになります。
@@ -77,7 +80,7 @@ ht-degree: 83%
    >
    >[!DNL Salesforce] の [!DNL Workfront] プラグインを使用したドキュメントのアップロードは、一時的に利用できなくなっています。
 
-   引き続き、[&#x200B; [!DNL Adobe Workfront] リクエストの作成と送信](../../manage-work/requests/create-requests/create-submit-requests.md)で説明されている手順に従います。
+   引き続き、[ [!DNL Adobe Workfront] リクエストの作成と送信](../../manage-work/requests/create-requests/create-submit-requests.md)で説明されている手順に従います。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
@@ -117,7 +120,7 @@ ht-degree: 83%
 1. （オプション）「**[!UICONTROL [!DNL Salesforce]]**&#x200B;に移動」をクリックして、Workfront の以下のエリアからイシューが発生した商談またはアカウントにアクセスします。
 
    * イシューの[!UICONTROL 詳細]セクション
-   * リストでイシューを選択する際の概要パネルで、リストのツールバーの [!UICONTROL &#x200B; 概要を開く &#x200B;]![&#x200B; 概要パネルアイコン &#x200B;](assets/summary-panel-icon.png) をクリックします。
+   * リストでイシューを選択する際の概要パネルで、リストのツールバーの [!UICONTROL  概要を開く ]![ 概要パネルアイコン ](assets/summary-panel-icon.png) をクリックします。
    * イシューヘッダー（[!UICONTROL 統合]フィールドが使用可能なとき）。システム管理者またはグループ管理者が、レイアウトテンプレートに[!UICONTROL 統合]フィールドを追加して、イシューヘッダーに「Salesforce に移動」リンクを表示する必要があります。詳しくは、[レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
    >[!NOTE]

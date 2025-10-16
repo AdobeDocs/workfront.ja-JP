@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 83%
+source-wordcount: '727'
+ht-degree: 82%
 
 ---
 
@@ -25,30 +25,27 @@ ht-degree: 83%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td>
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
   </tr>
-  </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -56,7 +53,7 @@ ht-degree: 83%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. 会社を作成または変更するグループの名前をクリックします。
 1. 左側のパネルで「**会社**」をクリックし、グループとそのグループに含まれるサブグループに関連付けられている会社を一覧表示します。
@@ -92,8 +89,8 @@ ht-degree: 83%
    >
    >アクセスレベルで会社に対する管理者アクセス権を持っている場合は、リストの下部にある「他の会社を追加」をクリックすることもできます。これにより、新しい会社を素早く設定できる行が追加されます。
 
-1. （任意）会社を編集または削除するには、少なくとも 1 つの会社を選択し、ツールバーボタンを使用して会社を編集 ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) または削除 ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) します。
+1. （任意）会社を編集または削除するには、少なくとも 1 つの会社を選択し、ツールバーボタンを使用して会社を編集 ![ 編集アイコン ](assets/edit-icon.png) または削除 ![ 削除アイコン ](assets/delete.png) します。
 
    会社の編集について詳しくは、[会社の作成または編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)の記事の[Workfront での会社の作成または編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)の節を参照してください。
 
-1. （任意）会社のリストを書き出すには、「書き出し」アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックし、書き出すリストに使用するファイル形式を選択します。
+1. （任意）会社のリストを書き出すには、「書き出し」アイコン ![ 書き出しアイコン ](assets/export.png) をクリックし、書き出すリストに使用するファイル形式を選択します。

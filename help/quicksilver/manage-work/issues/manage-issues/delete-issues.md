@@ -1,23 +1,25 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: イシューを削除
-description: 適切なアクセス権や権限を持っている場合は、Adobe Workfront でイシューやリクエストを削除できます。
+title: 問題の削除
+description: イシューまたはリクエストを削除するための適切なアクセス権と権限がある場合、および必要がなくなったと思ったら、Adobe Workfrontでイシューまたはリクエストを削除できます。 プロジェクトの精度を維持するために、削除するのではなく閉じることをお勧めします。
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 79%
+source-wordcount: '757'
+ht-degree: 67%
 
 ---
 
 # イシューを削除
 
-<!--Audited: 05/2025-->
+<!--Audited: 08/2025-->
 
-適切なアクセス権や権限を持っている場合は、Adobe Workfront でイシューやリクエストを削除できます。
+イシューまたはリクエストを削除するための適切なアクセス権と権限がある場合、および必要がなくなったと思ったら、Adobe Workfrontでイシューまたはリクエストを削除できます。 プロジェクトの精度を維持するために、削除するのではなく閉じることをお勧めします。
+
+Workfront管理者は、削除されたイシューを復元できます。
 
 >[!TIP]
 >
@@ -25,22 +27,20 @@ ht-degree: 79%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：Contributor 以上</p>
-   <p>現在：Request 以上</p>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>投稿者以上</p>
+   <p>リクエスト以上</p>
  </td> 
   </tr> 
   <tr> 
@@ -110,12 +110,12 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
 1. 左側のパネルで「**イシュー**」をクリックします。
 
    選択したプロジェクトに関連付けられているイシューのリストが右側に表示されます。
-1. リストで 1 つ以上のイシューを選択し、リストの上部にある **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
+1. リストで 1 つ以上のイシューを選択し、リストの上部にある **削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
 
 1. 削除が許可されている場合は、「**削除**」をクリックします。
 
    時間が記録されたイシューの削除を Workfront 管理者が許可していない場合があります。\
-   イシューの削除に必要なアクセス権と権限について詳しくは、この記事の [&#x200B; イシューの削除に関する考慮事項 &#x200B;](#considerations-for-deleting-issues) の節を参照してください。
+   イシューの削除に必要なアクセス権と権限について詳しくは、この記事の [ イシューの削除に関する考慮事項 ](#considerations-for-deleting-issues) の節を参照してください。
 
 ### 単一のイシューを削除 {#delete-a-single-issue}
 
@@ -124,12 +124,12 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
 1. 削除するイシューを含むプロジェクト名をクリックします。
 1. 左側のパネルで「**イシュー**」をクリックします。
 
-   ![&#x200B; 左パネルの「イシュー」セクション &#x200B;](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![ 左パネルの「イシュー」セクション ](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. 削除するイシューの名前をクリックします。
 1. イシュー名の右側にある&#x200B;**その他**&#x200B;メニューをクリックします。
 
-   ![&#x200B; 問題の詳細メニュー &#x200B;](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![ 問題の詳細メニュー ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 「**イシューを削除**」をクリックします。
 1. **削除** をクリックして、を削除します。
@@ -137,7 +137,7 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
    >[!NOTE]
    >
    >  時間が記録されたイシューの削除を Workfront 管理者が許可していない場合があります。\
-   >  イシューの削除に必要なアクセス権と権限について詳しくは、この記事の [&#x200B; イシューの削除に関する考慮事項 &#x200B;](#considerations-for-deleting-issues) の節を参照してください。
+   >  イシューの削除に必要なアクセス権と権限について詳しくは、この記事の [ イシューの削除に関する考慮事項 ](#considerations-for-deleting-issues) の節を参照してください。
 
 ## 削除されたイシューを復元
 

@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Adobe Workfront でのイシューからプロジェクトへの変換
-description: Adobe Workfront でのイシューからプロジェクトへの変換
+title: イシューのプロジェクトへの変換
+description: イシューの送信後にイシューを完了するためにさらに作業が必要な場合は、Adobe Workfrontでイシューをプロジェクトに変換できます。
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '2017'
-ht-degree: 87%
+source-wordcount: '2009'
+ht-degree: 83%
 
 ---
 
-# Adobe Workfront でのイシューからプロジェクトへの変換
+# イシューをプロジェクトに変換
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 イシューの送信後に、イシューを完了するために必要な作業が他にもある場合は、そのイシューをプロジェクトに変換できます。
 
-イシューを新しいプロジェクトに変換するか、テンプレートを使用してイシューをプロジェクトに変換することができます。この記事では、イシューをプロジェクトに変換するための両方の方法について説明します。
+プロジェクトテンプレートを使用せずに、イシューをプロジェクトに変換できます。 この記事では、イシューをプロジェクトに変換するための両方の方法について説明します。
 
 >[!IMPORTANT]
 >
@@ -31,29 +31,27 @@ ht-degree: 87%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準 </p> 
-    <p>現在：プラン </p> </td> 
+   <p>標準</p> 
+    <p>プラン</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>問題、タスクおよびプロジェクトへの編集アクセス権</p> <p>財務データへの編集アクセス権（イシューから変換されたプロジェクトの財務情報を更新するため）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>イシューの表示権限</p> <p>イシューの変換後に、プロジェクトの管理権限を取得します</p> </td> 
+   <td> <p>イシューの表示権限</p> <p>イシューを変換した後、プロジェクトに対する管理権限を取得します</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,6 +59,34 @@ ht-degree: 87%
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard </p> 
+    <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues, Tasks, and Projects</p> <p>Edit access to Financial Data to update financial information for a projected converted from the issue</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> <p>You obtain Manage permissions to the project after the issue is converted</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## 考慮事項
 
@@ -73,12 +99,12 @@ ht-degree: 87%
 1. プロジェクトに移動し、左パネルの「**[!UICONTROL 問題]**」をクリックします。
 1. 表示されるイシューのリストで、次のいずれかを行います。
 
-   * イシューを空のプロジェクトに変換するには、イシューの名前をクリックし、イシュー名の右側にある **[!UICONTROL 詳細]** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-icon.png) をクリックしてから、「**[!UICONTROL 空のプロジェクトに変換]**」をクリックします。
+   * イシューを空のプロジェクトに変換するには、イシューの名前をクリックし、イシュー名の右側にある **[!UICONTROL 詳細]** メニュー ![ 詳細メニュー ](assets/more-icon.png) をクリックしてから、「**[!UICONTROL 空のプロジェクトに変換]**」をクリックします。
 
 
      または
 
-     イシューのリストでイシューを選択し、リストの上部にある **[!UICONTROL 詳細]** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-icon.png) をクリックしてから、**[!UICONTROL 空のプロジェクトに変換]** をクリックします。
+     イシューのリストでイシューを選択し、リストの上部にある **[!UICONTROL 詳細]** メニュー ![ 詳細メニュー ](assets/more-icon.png) をクリックしてから、**[!UICONTROL 空のプロジェクトに変換]** をクリックします。
 
      >[!IMPORTANT]
      >
@@ -126,14 +152,14 @@ ht-degree: 87%
    * イシューに添付されているカスタムフォームをレビューします。プロジェクトのカスタムフォームでもある場合は、新しいプロジェクトに転送されます。
    * カスタムフォームをさらに追加
    * すべての必須フィールドに有効な情報が入力されていることを確認します。
-   * カスタムフォームを希望の場所にドラッグして ![&#x200B; ドラッグアイコン &#x200B;](assets/drag-object-icon.png) 並べ替えます。
+   * カスタムフォームを希望の場所にドラッグして ![ ドラッグアイコン ](assets/drag-object-icon.png) 並べ替えます。
    * プロジェクトに転送しないフォームは、右側にある **x** アイコンをクリックします。これにより、プロジェクトからそのフォームが削除されます。
    * 必要に応じて、イシューのカスタムフォーム情報をプロジェクトに転送します。
 
      >[!TIP]
      >
      >* イシューに添付された複数オブジェクトのカスタムフォームをイシューとプロジェクトの両方で使用するように設定すると、イシューとプロジェクトのカスタムフォームの両方にフィールドが存在する場合、フォームに保存されたすべての情報が変換時に保持されます。
-     >* 計算フィールドを持つ複数オブジェクトのカスタムフォームがイシューおよびプロジェクトに添付されている場合、イシューおよびプロジェクトは、フォームの計算カスタムフィールドで参照されているすべてのフィールドと互換性が必要です。互換性がない場合は、調整を行うように警告するメッセージが表示されます。詳しくは、「フォームへの計算フィールドの追加 [&#x200B; の「複数オブジェクトのカスタムフォームの計算カスタムフィールド」の節を参照し &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) ください。
+     >* 計算フィールドを持つ複数オブジェクトのカスタムフォームがイシューおよびプロジェクトに添付されている場合、イシューおよびプロジェクトは、フォームの計算カスタムフィールドで参照されているすべてのフィールドと互換性が必要です。互換性がない場合は、調整を行うように警告するメッセージが表示されます。詳しくは、「フォームへの計算フィールドの追加 [ の「複数オブジェクトのカスタムフォームの計算カスタムフィールド」の節を参照し ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) ください。
 
 1. 「[!UICONTROL **プロジェクトに変換**]」をクリックします。
 
@@ -157,7 +183,7 @@ ht-degree: 87%
 イシューは、テンプレートを使用してプロジェクトに変換できます。
 
 1. プロジェクトに移動し、左パネルの「**[!UICONTROL 問題]**」をクリックします。
-1. 表示されたイシューのリストで、イシューの名前をクリックし、イシュー名の右側にある **[!UICONTROL その他]** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-icon.png) をクリックしてから、**テンプレートからプロジェクトに変換** をクリックして、「**テンプレートを検索**」ボックスにテンプレートの名前を入力し始め、リストに表示されたらテンプレートの名前をクリックします。 手順 3 に進みます。
+1. 表示されたイシューのリストで、イシューの名前をクリックし、イシュー名の右側にある **[!UICONTROL その他]** メニュー ![ その他のメニュー ](assets/more-icon.png) をクリックしてから、**テンプレートからプロジェクトに変換** をクリックして、「**テンプレートを検索**」ボックスにテンプレートの名前を入力し始め、リストに表示されたらテンプレートの名前をクリックします。 手順 3 に進みます。
 
    >[!TIP]
    >
@@ -165,7 +191,7 @@ ht-degree: 87%
 
    テンプレートからの新規プロジェクトボックスが表示されます。
 
-   ![&#x200B; テンプレートからの新規プロジェクト &#x200B;](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+   ![ テンプレートからの新規プロジェクト ](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
    >[!TIP]
    >
@@ -184,7 +210,7 @@ ht-degree: 87%
    * テンプレート内のすべてのタスクの数
    * テンプレートのカスタムフォームの名前
 
-1. （任意）テンプレート名の上にマウスポインターを置いて、**お気に入り** アイコン ![&#x200B; お気に入り &#x200B;](assets/favorites-icon-small.png) をクリックして、後で使用するためにお気に入りとしてマークします。
+1. （任意）テンプレート名の上にマウスポインターを置いて、**お気に入り** アイコン ![ お気に入り ](assets/favorites-icon-small.png) をクリックして、後で使用するためにお気に入りとしてマークします。
 
    >[!TIP]
    >
@@ -194,7 +220,7 @@ ht-degree: 87%
 
    「[!UICONTROL プロジェクトに変換]」ボックスが開きます。
 
-   ![&#x200B; プロジェクトに変換 &#x200B;](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![ プロジェクトに変換 ](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
 1. テンプレートに既にフィールドが入力されている場合、そのフィールドは「[!UICONTROL プロジェクトに変換]」ボックスに事前入力されます。事前入力された値を編集し、プロジェクトに合わせて調整できます。詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
@@ -234,14 +260,14 @@ ht-degree: 87%
       * テンプレートに添付されているカスタムフォームをレビューします。新規プロジェクトに転送されます。
       * イシューに添付されているカスタムフォームをレビューします。プロジェクトフォームでもある場合は、プロジェクトに転送されます。
       * すべての必須フィールドに有効な情報が入力されていることを確認します。
-      * カスタムフォームを希望の場所にドラッグして ![&#x200B; ドラッグアイコン &#x200B;](assets/drag-object-icon.png) 並べ替えます。
+      * カスタムフォームを希望の場所にドラッグして ![ ドラッグアイコン ](assets/drag-object-icon.png) 並べ替えます。
       * プロジェクトに転送しないフォームの右側にある「**x**」アイコンをクリックします。
       * 必要に応じて、イシューのカスタムフォーム情報をプロジェクトに転送します。
 
         >[!TIP]
         >
         >* イシューに添付された複数オブジェクトのカスタムフォームをイシューとプロジェクトの両方で使用するように設定すると、イシューとプロジェクトのカスタムフォームの両方にフィールドが存在する場合、フォームに保存されたすべての情報が変換時に保持されます。
-        >* 計算フィールドを持つ複数オブジェクトのカスタムフォームがイシューおよびプロジェクトに添付されている場合、イシューおよびプロジェクトは、フォームの計算カスタムフィールドで参照されているすべてのフィールドと互換性が必要です。互換性がない場合は、調整を行うように警告するメッセージが表示されます。詳しくは、[&#x200B; フォームへの計算フィールドの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+        >* 計算フィールドを持つ複数オブジェクトのカスタムフォームがイシューおよびプロジェクトに添付されている場合、イシューおよびプロジェクトは、フォームの計算カスタムフィールドで参照されているすべてのフィールドと互換性が必要です。互換性がない場合は、調整を行うように警告するメッセージが表示されます。詳しくは、[ フォームへの計算フィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
         >* テンプレートに添付されたカスタムフォームに、イシューに添付されたカスタムフォームにもあるカスタムフィールドが含まれている場合、イシューのフィールド値が新しいプロジェクトに使用されます。ただし、イシューでカスタムフィールドが空白の場合は、テンプレートの値が使用されます。
 
 1. （オプション）必要に応じて、プロジェクトの詳細（プロジェクト所有者、プロジェクトの日付）とタスクをさらに設定します。

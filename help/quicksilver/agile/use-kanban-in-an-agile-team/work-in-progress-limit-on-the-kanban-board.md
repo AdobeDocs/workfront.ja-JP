@@ -6,10 +6,10 @@ description: かんばんボードの各列に対して、進行中の作業（W
 author: Lisa
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 86%
+source-wordcount: '327'
+ht-degree: 85%
 
 ---
 
@@ -23,8 +23,6 @@ WIP の上限は視覚的に警告が表示されるだけで、各ステータ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,13 @@ WIP の上限は視覚的に警告が表示されるだけで、各ステータ�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p> 
-   または
-   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -52,7 +49,7 @@ WIP の上限は視覚的に警告が表示されるだけで、各ステータ�
 
 アジャイルチームに WIP の上限を設定すると、かんばんボードの各列（[!UICONTROL 完了]」列以外）の右上隅に WIP の上限が表示されます。
 
-[!UICONTROL &#x200B; かんばん &#x200B;] ボード上のいずれかの列の上限を超えると、上限が赤でハイライト表示され、メッセージが表示されます。
+[!UICONTROL  かんばん ] ボード上のいずれかの列の上限を超えると、上限が赤でハイライト表示され、メッセージが表示されます。
 ![WIP の上限](assets/kanban-wip.png)
 
 ## [!UICONTROL かんばん]ボードで[!UICONTROL 進行中の作業]（WIP）の上限を更新

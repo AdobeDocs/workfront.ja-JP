@@ -5,10 +5,10 @@ description: 可視性の向上、適切な整理、迅速なアクセスを実�
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 62%
+source-wordcount: '400'
+ht-degree: 61%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 62%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -33,20 +31,19 @@ ht-degree: 62%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] package</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
-   <td> <p>新規：コントリビューター</p> 
-   <p>または</p>
-     <p>現在：リクエスト</p>
+   <td> <p>コントリビューター</p> 
+     <p>リクエスト</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -56,7 +53,7 @@ ht-degree: 62%
 
 1. ページの左上隅にある「**[!UICONTROL 現在のページをピン留め]**」をクリックします。 ピン留めされたページは、[!DNL Workfront] の任意のページの上部からアクセスできるようになりました。
 
-   ![&#x200B; 現在のページをピン留め &#x200B;](assets/pin-current-page-button.png)
+   ![ 現在のページをピン留め ](assets/pin-current-page-button.png)
 
 ## ピン留めされたページにアクセスする
 
@@ -68,16 +65,16 @@ ht-degree: 62%
 
    または
 
-   多数のページがピン留めされている場合は、**[!UICONTROL その他]** アイコン ![&#x200B; その他アイコンをクリック &#x200B;](assets/more-icon.png) をクリックして、追加のピン留めページを表示します。
+   多数のページがピン留めされている場合は、**[!UICONTROL その他]** アイコン ![ その他アイコンをクリック ](assets/more-icon.png) をクリックして、追加のピン留めページを表示します。
 
-   ![&#x200B; 追加ピン留めされたページの表示 &#x200B;](assets/display-pinned-pages.png)
+   ![ 追加ピン留めされたページの表示 ](assets/display-pinned-pages.png)
 
    ピン留めされたページが表示されます。
 
 ## ピン留めされたページの名前を変更
 
 1. 上部のナビゲーションのピン留めされたページの上にマウスポインターを置きます。
-1. ピン名の横に表示されている **その他** アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、「**[!UICONTROL ピン留めの名前を変更]**」を選択します。
+1. ピン名の横に表示されている **その他** アイコン ![ その他アイコン ](assets/more-icon.png) をクリックし、「**[!UICONTROL ピン留めの名前を変更]**」を選択します。
 
    ![ピン留めの名前を変更](assets/pin-menu.png)
 
@@ -90,11 +87,11 @@ ht-degree: 62%
 
 ピン留めされたページの表示順を並べ替えることができます。
 
-1. 移動するピン留めされたページにポインタを合わせ、「その他 **アイコン ![** をクリックし &#x200B;](assets/more-icon.png) す。
+1. 移動するピン留めされたページにポインタを合わせ、「その他 **アイコン**![ をクリックし ](assets/more-icon.png) す。
 1. **左に移動** または **右に移動** を選択して、ピンを移動します。
 1. （オプション）「**前面に移動**」を選択して、ピンをピンバーの左端の位置に移動します。
 
-   ![&#x200B; ピン留めの移動 &#x200B;](assets/pin-menu.png)
+   ![ ピン留めの移動 ](assets/pin-menu.png)
 
    変更内容は自動的に保存され、次回 Workfront にアクセスしたときに記憶されます。
 

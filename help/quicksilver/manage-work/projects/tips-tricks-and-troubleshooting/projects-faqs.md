@@ -1,14 +1,13 @@
 ---
 title: プロジェクトに関する FAQ
-description: プロジェクトに関する FAQ
+description: この記事には、Adobe Workfrontのプロジェクトに関するよくある質問が含まれています。
 author: Alina
-draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 97%
+source-wordcount: '636'
+ht-degree: 95%
 
 ---
 
@@ -99,6 +98,6 @@ ht-degree: 97%
 
 Adobe Workfront 管理者によって、アクセスレベルで自分が所属する会社、グループ、チームのみを表示できるように制限されています。探しているチームは、所属するチームの 1 つではありません。
 
-![&#x200B; 所属するチーム、グループ、会社のみを表示 &#x200B;](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![ 所属するチーム、グループ、会社のみを表示 ](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 システム内のすべてのチームをユーザーが表示できるようにする方法について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。

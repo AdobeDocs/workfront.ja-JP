@@ -1,15 +1,15 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: シナリオプランナーでイニシアチブの優先順位を更新する
+title: シナリオプランナーのイニシアチブ優先度を更新します
 description: イニシアチブは、計画にリストされている順序で計画から担当業務と予算リソースを受け取るため、イニシアチブに優先順位を付けることが重要です。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 87%
+source-wordcount: '512'
+ht-degree: 86%
 
 ---
 
@@ -19,53 +19,83 @@ ht-degree: 87%
 
 自分が作成したプラン、または誰かが共有したプランに基づいて、イニシアチブに優先順位を付けることができます。
 
-計画の作成の詳細については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
+計画の作成の詳細については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
 
-イニシアチブの作成の詳細については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
+イニシアチブの作成の詳細については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
-   <td> <ul></li>
-   <li><p>新規：Ultimate </p></li>
-   <p>シナリオプランナーは、新しいWorkfront Select プランまたはWorkfront Prime プランでは使用できません。 </p>
-   <li><p>現在：[!UICONTROL Business] 以上</p></ul>
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>WorkfrontUltimate</p>
+<p><b>メモ</b></p>
+<p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
-   <td> <p>新規：ライト以上</p> 
-   <p>現在：[!UICONTROL Review] 以上</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] ライセンス</p> </td> 
+   <td> <p>[!UICONTROL ライト ] 以上</p> 
+   <p>[!UICONTROL Review] 以降</p> </td> 
   </tr> 
-  <tr> 
-   <td>製品* </td> 
-   <td> <ul><li><p>新しいWorkfrontプランの場合：</p><p> Adobe Workfront</li></p>
-   <li><p>現在のWorkfront プランの場合： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront シナリオプランナー</p></li></ul>
-
-<p>詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> ールの使用に必要なアクセス権」を参照してください。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>アクセスレベル </td> 
+    <tr> 
+   <td>アクセスレベル設定</td> 
    <td> <p>[!UICONTROL Edit]アクセス権 [!DNL Scenario Planner]</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>オブジェクト権限 </p> </td> 
-   <td> <p>プランに対する[!UICONTROL Manage]権限</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!DNL Scenario Planner]</a> でのプランへの利用申請を参照してください。</p> </td> 
+   <td> <p>プランに対する[!UICONTROL Manage]権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+シナリオプランナーへのアクセスについて詳しくは、[ の使用に必要なアクセス  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を参照してください。
+
+Workfrontのアクセス要件について詳しくは、[Workfrontのドキュメントへのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## イニシアチブの優先順位を更新する
 
@@ -92,7 +122,7 @@ ht-degree: 87%
 
      Workfront には、選択したイニシアチブの数が表示されます。
 
-     ![&#x200B; 複数選択イニシアチブ番号 &#x200B;](assets/multi-select-initiative-number.png)
+     ![ 複数選択イニシアチブ番号 ](assets/multi-select-initiative-number.png)
 
    * 計画の下部にある「**[!UICONTROL 優先順位]**」ボックスをクリックし、次のオプションから選択します。
 
@@ -100,7 +130,7 @@ ht-degree: 87%
       * **[!UICONTROL 下部]**：選択したイニシアチブをイニシアチブリストの一番下に移動します。選択されたイニシアチブは計画の最後にリストされます。
       * **[!UICONTROL 数字を選択]**：選択したイニシアチブを、ここで指定したイニシアチブの後に移動します。
 
-        ![&#x200B; イニシアチブの優先順位付け &#x200B;](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![ イニシアチブの優先順位付け ](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] は、選択したイニシアチブを指定した場所に即座に配置し、それに応じてすべてのイニシアチブの数が更新されます。
 

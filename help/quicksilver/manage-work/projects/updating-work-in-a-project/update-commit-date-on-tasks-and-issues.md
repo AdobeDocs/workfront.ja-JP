@@ -6,9 +6,9 @@ description: 割り当てられたタスクやイシューのコミット日は�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 51%
 
 ---
@@ -30,25 +30,24 @@ ht-degree: 51%
 
 <!--Audited: 01/2024-->
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   新規：
    <ul>
    <li><p>タスクの標準</p> </li>
    <li><p>イシューの場合は Contributor 以上</p></li>
    </ul>
-   現在：
+   <p>または</p>
 <ul>
    <li><p>タスクの場合はワーク以上</p></li> 
    <li><p>イシューの場合はリクエスト以上</p></li>
@@ -69,9 +68,47 @@ ht-degree: 51%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   New:
+   <ul>
+   <li><p>Standard for tasks</p> </li>
+   <li><p>Contributor or higher for issues</p></li>
+   </ul>
+   Current:
+<ul>
+   <li><p>Work or higher for tasks</p></li> 
+   <li><p>Request or higher for issues</p></li>
+</ul>
+
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on the task or issue</p>
+   <p> You must be assigned to the task or issue to update the commit date </p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 前提条件
 
@@ -96,8 +133,8 @@ Workfrontの次の領域で、タスクまたはイシューのコミット日�
 >
 >詳しくは、次の記事を参照してください。
 >
->* [&#x200B; 概要 &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [&#x200B; レイアウトテンプレートを使用して概要パネルをカスタマイズする &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+>* [ 概要 ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [ レイアウトテンプレートを使用して概要パネルをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
 
 1. 自分が&#x200B;**所有者**&#x200B;として割り当てられているタスクまたはイシューに移動します。

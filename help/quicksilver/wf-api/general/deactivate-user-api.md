@@ -8,10 +8,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '189'
+ht-degree: 80%
 
 ---
 
@@ -28,25 +28,25 @@ API を使用してユーザーを非アクティブ化するには、次の手�
 
 1. 次の API リクエストを使用して API キーを生成します。
 
-```
-<domain>.my.workfront.com/attask/api/v15.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
-```
+   ```
+   <domain>.my.workfront.com/attask/api/v15.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
+   ```
 
 1. 非アクティブ化するユーザーの GUID を見つけます。
 
-   1. 次の API リクエストを使用して、システム内のすべてのユーザーの GUID を取得します。なお、現在アクティブなユーザーの場合は **isActive** フィールドは **true** を示し、現在非アクティブなユーザーの場合は **false** を示します。
+   次の API リクエストを使用して、システム内のすべてのユーザーの GUID を取得します。なお、現在アクティブなユーザーの場合は **isActive** フィールドは **true** を示し、現在非アクティブなユーザーの場合は **false** を示します。
 
-```
-<domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
-```
+   ```
+   <domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
+   ```
 
-1. 非アクティブ化するユーザーの GUID を見つけ、次の **PUT** リクエストを使用してユーザーの **isActive** フィールドの値を **false** に変更します。
+1. 次の **PUT** リクエストを使用して、ユーザーの **isActive** フィールド値を **false** に変更します。
 
-```
-<domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
-```
+   ```
+   <domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
+   ```
 
-1. **isActive** フィールドの値が **true** から **false** に変わったことを応答が示します。これにより、ユーザーが非アクティブ化されたことがわかります。
+1. 応答では、**isActive** フィールドの値が **true** から **false** に変更され、ユーザーがディアクティベートされたことを示します。
 
-<!-- [Copy](javascript:void(0);) -->
-<pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;"592125e60089b88fae8b51c08383e144",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;"Tyler Reid",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;objCode:&nbsp;"USER",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isActive:&nbsp;false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br></code></pre>
+   <!-- [Copy](javascript:void(0);) -->
+   <pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;"592125e60089b88fae8b51c08383e144",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;"Tyler Reid",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;objCode:&nbsp;"USER",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isActive:&nbsp;false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br></code></pre>

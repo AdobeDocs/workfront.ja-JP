@@ -6,10 +6,10 @@ description: 共有にアクセスできるオブジェクトに対する他の�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 84%
+source-wordcount: '767'
+ht-degree: 80%
 
 ---
 
@@ -23,31 +23,21 @@ ht-degree: 84%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-
-オブジェクトを共有するには、次の条件を満たしている必要があります。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront ライセンス*</td> 
-   <td> <p>新規ライセンス：コントリビューター以上</p>
-   または  
-   <p>現在のライセンス：リクエスト以上</p>
-   <p><b>メモ</b></p>
-
-<p>一部のオブジェクトでは、リクエスト以上のアクセス権が必要です。 </p>
-
-<p>例えば、新規ライセンスの場合、コントリビューターはイシューを共有できますが、プロジェクトを共有できるのは標準ライセンスユーザーのみです。</p>
-
-<p>現在のライセンスの場合、依頼者はイシューを共有できますが、プロジェクトを共有できるのは、作業者またはプランナーのみです。</p> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>投稿者以上</p> 
+   <p>リクエスト以上</p>
+   <p><strong> メモ </strong>：一部のオブジェクトはリクエストよりも高いアクセス権を必要とします。</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,11 +47,11 @@ ht-degree: 84%
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>共有するオブジェクトに対する表示またはそれ以上の権限</p> <p>オブジェクトの継承された権限を削除する権限を管理</p>  </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -75,13 +65,13 @@ ht-degree: 84%
 
 1. （条件付き）プログラム、ポートフォリオおよびドキュメントの場合は、次の操作を行います。
 
-   1. オブジェクト名の横にある **詳細** アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、「**共有**」または「**共有** をクリックします。
+   1. オブジェクト名の横にある **詳細** アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、「**共有**」または「**共有** をクリックします。
 
       ![share](assets/share-a-document-350x160.png)
 
    1. ユーザー、チーム、グループ、会社、担当業務の横にある **x** をクリックし「オブジェクトアクセス」ボックスから削除します。
 
-      ![&#x200B; 権限を削除 &#x200B;](assets/remove-permissions-on-portfolio.png)
+      ![ 権限を削除 ](assets/remove-permissions-on-portfolio.png)
 
    1. **[ユーザー名 ] のWorkfront アクセス権限が削除されます。この** ドロップダウン メニューで、ユーザーのアクセス権限を選択したオブジェクトのみから削除するか、関連付けられたすべての子オブジェクトから削除するかを選択します。
 
@@ -94,7 +84,7 @@ ht-degree: 84%
    1. 「**削除**」をクリックします。
 「**次から &lt;ユーザー名> を削除**」ドロップダウンメニューで、選択したオブジェクトのみからアクセス権を削除するか、それに関連付けられているすべての子オブジェクトからアクセス権を削除するかを選択します。
 
-      ![&#x200B; 削除 &#x200B;](assets/remove-permissions-on-project-nwe-350x479.png)
+      ![ 削除 ](assets/remove-permissions-on-project-nwe-350x479.png)
 
    次のシナリオが存在します。
 
@@ -174,8 +164,8 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
    例えば、レポートに移動します。
 1. 「**レポートのアクション**」、「**共有**」の順にクリックします。
 
-   ![&#x200B; プライベートにする &#x200B;](assets/report-permissions-make-private-nwe-350x477.png)
+   ![ プライベートにする ](assets/report-permissions-make-private-nwe-350x477.png)
 
 1. 歯車アイコンをクリックし、「**これを外部ユーザーに公開** のチェックを外します。
 1. **アクセス権を持つユーザー** ドロップダウンメニューで、**招待されたユーザーのみがアクセスできる** をクリックして、すべてのWorkfront ユーザーとの共有を停止します。
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1321'
 ht-degree: 96%
 
 ---
@@ -33,32 +33,27 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -66,7 +61,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. ステータスを作成またはカスタマイズするグループの名前をクリックします。
 1. 左側のパネルで、「**ステータス**」をクリックします。
@@ -87,7 +82,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
 1. （条件付き）ステータスがイシューステータスの場合、**メインリスト**&#x200B;が選択されていることを確認します。
 
-   ![マスターリスト &#x200B;](assets/master-list.png)
+   ![マスターリスト ](assets/master-list.png)
 
    その他のイシュータイプ（バグレポート、変更依頼、イシュー、リクエスト）のカスタマイズについて詳しくは、[デフォルトのイシュータイプのカスタマイズ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)を参照してください。
 
@@ -97,7 +92,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
    既存のステータスを編集するには、編集するステータスの上にポインタを合わせ、右端に表示される「**編集**」をクリックします。
 
-   ![&#x200B; グループのステータス &#x200B;](assets/group-statuses-edit.jpg)
+   ![ グループのステータス ](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >次の条件が該当する場合にのみ、グループのステータスを編集できます。
@@ -173,11 +168,11 @@ Workfront 管理者は、システム全体のステータスを作成し、そ�
 1. 右上隅のボックスで、**システムステータス**&#x200B;を削除し、ステータスを非表示にするグループの名前を入力し、表示されたら名前をクリックします。
 1. グループに表示しないステータスの上にポインタを合わせて、「**編集**」が表示されたらクリックします。
 
-   ![&#x200B; 編集ステータス &#x200B;](assets/hover-click-edit.jpg)
+   ![ 編集ステータス ](assets/hover-click-edit.jpg)
 
 1. 表示される「**ステータスを非表示**」オプションを有効にします。
 
-   ![&#x200B; ステータスを非表示 &#x200B;](assets/hide-group-status.png)
+   ![ ステータスを非表示 ](assets/hide-group-status.png)
 
 1. 「**保存**」をクリックします。
 

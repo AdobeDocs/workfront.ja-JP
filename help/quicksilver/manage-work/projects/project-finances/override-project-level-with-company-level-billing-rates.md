@@ -6,10 +6,10 @@ description: プロジェクトレベルの請求レートの会社レベルの�
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 89%
+source-wordcount: '453'
+ht-degree: 88%
 
 ---
 
@@ -25,35 +25,32 @@ ht-degree: 89%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td> 
+   <p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>プロジェクトおよび財務データへのアクセスを編集する</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td>財務を管理する権限を持つプロジェクトに対する権限の管理</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -64,7 +61,7 @@ ht-degree: 89%
 ユーザーがプロジェクトの財務を手動で再計算すると、会社レベルの請求料金に対する変更がすべて適用されます。収益計算の履歴も、請求済みとしてマークされていない限り上書きされます。
 
 1. プロジェクトに移動します。
-1. ヘッダーのプロジェクト名の横にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックし、**編集** をクリックします。
+1. ヘッダーのプロジェクト名の横にある **その他** メニュー ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックし、**編集** をクリックします。
 1. 「**財務**」セクションで、「**会社レベルでの請求料金によるプロジェクトレベルの請求料金の上書きを許可**」を有効にします。
 
    >[!CAUTION]
@@ -103,4 +100,4 @@ ht-degree: 89%
    * 単一のプロジェクト：
 
       1. 会社レベルの請求料金の上書きを有効にしたプロジェクトに移動します。
-      1. ヘッダーのプロジェクト名の横にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックし、**財務の再計算** をクリックします。
+      1. ヘッダーのプロジェクト名の横にある **その他** メニュー ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックし、**財務の再計算** をクリックします。

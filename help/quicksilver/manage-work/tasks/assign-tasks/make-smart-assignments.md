@@ -6,10 +6,10 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 86%
+source-wordcount: '380'
+ht-degree: 84%
 
 ---
 
@@ -29,34 +29,32 @@ ht-degree: 86%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準</p>
-      または
-      <p>現在：ワーク以上</p> </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>ワークまたはそれ以上</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>タスクおよびイシューに対する編集アクセス権</p> <p>プロジェクトに対する表示以上のアクセス権</p>  </td> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>タスクおよびイシューに対する編集アクセス権</p> <p>プロジェクトに対する表示以上のアクセス権</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクやイシューに対する割り当てを行う権限の付与</p> </td> 
-  </tr> 
- </tbody> 
+   <td>オブジェクト権限</td>
+   <td>タスクやイシューに対する割り当てを行う権限の付与</td>
+  </tr>
+ </tbody>
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -84,7 +82,7 @@ ht-degree: 86%
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
    * **ユーザーとチーム** または **担当業務** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   ![&#x200B; タスクリスト内のスマート割り当ての例 &#x200B;](assets/smart-assignments-task-list.png)
+   ![ タスクリスト内のスマート割り当ての例 ](assets/smart-assignments-task-list.png)
 
    詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 

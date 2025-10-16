@@ -7,10 +7,10 @@ description: 時間と日付の差異の計算について説明します。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 90%
+source-wordcount: '599'
+ht-degree: 86%
 
 ---
 
@@ -35,26 +35,24 @@ ht-degree: 90%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規： </p><ul><li><p>ビューを変更する場合は Contributor </p></li><li>
-   <p>レポートを変更する場合は Standard</p></li></ul><p>または</p><p>現在：</p><ul><li><p>表示の変更をリクエスト </p></li><li>
-   <p>レポートを変更するためのプラン</p> </li><ul></td> 
+   <td> 
+   <p>フィルターの変更者または変更依頼 </p>
+   <p>レポートを変更するための標準またはプラン</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルター、表示、グループ化へのアクセス権を編集して、表示を変更できるようにします。</p> </td> 
-  </tr>  
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルターを変更する場合は、フィルター、ビュー、グループ化への編集アクセス権</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>レポートに対する権限を管理します。</p>  </td> 
@@ -70,7 +68,7 @@ ht-degree: 90%
 
 例えば、タスクの予定完了日と実際の完了日の差を計算できます。
 
-![&#x200B; 日付の差異を表示 &#x200B;](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![ 日付の差異を表示 ](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. タスクのリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューで、「**新規ビュー**」をクリックします。
@@ -100,7 +98,7 @@ ht-degree: 90%
 オブジェクトとその親のリストについて詳しくは、[Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)にある「相互依存関係とオブジェクトの階層について」の節を参照してください。\
 例えば、タスクの予定完了日と、その親タスクまたはタスクが属するプロジェクトの予定完了日との差を計算できます。
 
-![&#x200B; 予定完了日の差異を表示 &#x200B;](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![ 予定完了日の差異を表示 ](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. タスクのリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューで、「**新規ビュー**」をクリックします。

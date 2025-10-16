@@ -6,9 +6,9 @@ description: この記事を読んで、Workfront へのログイン方法を学
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '885'
 ht-degree: 74%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 74%
 
   会社のドメイン名は、[!DNL Workfront] によって確立されます。ドメイン名を変更する場合は、カスタマーサポートチームにお問い合わせください。カスタマーサポートチームへの問い合わせ方法について詳しくは、[カスタマーサポートに連絡](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 
-* **ユーザー名：**&#x200B;[!DNL Workfront] 管理者がユーザー名を設定します。
+* **ユーザー名：**[!DNL Workfront] 管理者がユーザー名を設定します。
 * **パスワード：**&#x200B;システムが SSO 用に設定されていない場合は、[!DNL Workfront] 管理者からのメールの招待状を受信した後に [!DNL Workfront] パスワードを設定します。
 
   SSO を使用した [!DNL Workfront] へのログインについて詳しくは、この記事内の[SSO を使用した  [!DNL Workfront]  へのログイン](#log-in-to-workfront-with-sso)を参照してください。
@@ -37,28 +37,24 @@ ht-degree: 74%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
+   <td>Adobe Workfront プラン</td> 
    <td> 
-   <p>新規：[!UICONTROL Contributor]以上</p>
-   <p>現在：[!UICONTROL Request] 以上</p> </td> 
+   <p>投稿者以上</p>
+   <p>リクエスト以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -81,7 +77,7 @@ ht-degree: 74%
 
 ## SSO を使用した [!DNL Workfront] へのログイン
 
-[!DNL Workfront] 管理者が [!DNL Workfront] をシングルサインオンソリューションと統合した場合、[!DNL Workfront] にログインする際に必要な情報について、担当者に問い合わせる必要があります。Workfront と SSO ソリューションの統合について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
+[!DNL Workfront] 管理者が [!DNL Workfront] をシングルサインオンソリューションと統合した場合、[!DNL Workfront] にログインする際に必要な情報について、担当者に問い合わせる必要があります。Workfront と SSO ソリューションの統合について詳しくは、[ [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
 
 [!DNL Workfront] にログインするために、お使いの SSO ユーザー名とパスワードを使用
 
@@ -135,7 +131,7 @@ ht-degree: 74%
 
 1. （条件付き）初めてログインする場合、[!DNL Workfront] モバイルアプリがアカウントにアクセスするための権限を要求するページが表示されます。 「**アクセスを許可**」をクリックして続行します。
 
-1. デスクトップ サイトと同じようにログインできる Web ページにリダイレクトされます。 このプロセスは組織のWorkfrontの設定によって異なります。詳しくは、上記の [SSO を使用せずに  [!DNL Workfront]  ログイン &#x200B;](#log-in-to-workfront-without-sso) または [SSO を使用して  [!DNL Workfront]  ログイン &#x200B;](#log-in-to-workfront-with-sso) を参照してください。
+1. デスクトップ サイトと同じようにログインできる Web ページにリダイレクトされます。 このプロセスは組織のWorkfrontの設定によって異なります。詳しくは、上記の [SSO を使用せずに  [!DNL Workfront]  ログイン ](#log-in-to-workfront-without-sso) または [SSO を使用して  [!DNL Workfront]  ログイン ](#log-in-to-workfront-with-sso) を参照してください。
 
    完了すると、によってモバイルアプリにリダイレクトされ、ログインします。
 
@@ -143,7 +139,7 @@ ht-degree: 74%
 
    これらのチュートリアルは、アプリに初めてアクセスしたときにのみ表示されます。[!DNL Workfront] モバイルアプリをアンインストールし再インストールした場合、または別のユーザーとしてログインした場合にのみ再度表示されます。チュートリアルを閉じた後に表示されるエリアは、表示するように選択したエリアです。
 
-## [!DNL Adobe] ID を使用して、[!DNL Workfront] モバイルアプリにログインします
+## [!DNL Workfront] ID を使用して、[!DNL Adobe] モバイルアプリにログインします
 
 1. [!DNL Workfront] モバイルアプリを起動し、「**[!DNL Adobe] ID でログイン**」をクリックします。
 
@@ -153,7 +149,7 @@ ht-degree: 74%
 
 1. メールを入力し、「**続行**」をクリックします。
 
-1. （条件付き）ログインに使用するアカウントを選択します。 [!DNL Adobe] ID が組織に関連付けられている場合、通常、これは **会社または学校アカウント** になります。
+1. （条件付き）ログインに使用するアカウントを選択します。 **ID が組織に関連付けられている場合、通常、これは** 会社または学校アカウント [!DNL Adobe] になります。
 
 1. （条件付き）アカウントが複数の組織に関連付けられている場合に使用するプロファイルを選択します。
 

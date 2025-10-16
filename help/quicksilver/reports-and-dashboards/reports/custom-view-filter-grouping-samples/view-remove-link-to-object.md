@@ -7,10 +7,10 @@ description: ビューに表示する一部のオブジェクトは、デフォ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 80%
+source-wordcount: '371'
+ht-degree: 72%
 
 ---
 
@@ -26,44 +26,33 @@ ht-degree: 80%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p> 現在： 
-   <ul>
-   <li>表示の変更をリクエスト</li> 
-   <li>レポートを変更するためのプラン</li>
-   </ul>
-     </p>
-     <p> 新規： 
-   <ul>
-   <li>ビューを変更する場合は Contributor</li> 
-   <li>レポートを変更する場合は Standard</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>ビューの投稿者または変更依頼 </p>
+   <p>レポートを変更するための標準またはプラン</p>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルター、表示、グループ化へのアクセス権を編集して、表示を変更できるようにします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
 
 +++
 
@@ -75,9 +64,7 @@ ht-degree: 80%
 
    または
 
-   **編集アイコン**![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします
-
-   既存のビューを編集するには、ビューを選択します。
+   **編集アイコン**![ 編集アイコン ](assets/edit-icon.png) をクリックして既存のビューを編集し、ビューを選択します。
 
 1. 「**列を追加**」をクリックして新しい列を追加します。
 

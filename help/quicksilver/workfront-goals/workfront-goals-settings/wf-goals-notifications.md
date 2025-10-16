@@ -7,31 +7,43 @@ description: Adobe Workfront Goals には、使用するアカウントで有効
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 88%
+source-wordcount: '201'
+ht-degree: 80%
 
 ---
 
 # Adobe Workfront Goals の通知を有効にする
 
+<!--Audited for P&P only: 10/2025-->
+
+>[!NOTE]
+>
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>
+>Adobe Workfront Goals は購入できなくなりました。
+>
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->この記事で説明している機能を使用するには、組織に以下が必要です。
+>Your organization must have the following to use the functionality described in this article:
 >
->* 新しいプランとライセンス構造の場合：
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront プラン
+>   * The Ultimate Workfront plan 
 >    
->* 現在のプランおよびライセンス構造の場合：
+>* For the current plan and license structure: 
 >
->   * Pro 以上のWorkfront プラン
->   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 Adobe Workfront Goals には、アカウントで有効にできる一連のイベント通知が用意されています。これらのイベント通知は、イベント定義された条件が満たされるたびにメールでの通信をトリガーします。
 
@@ -140,4 +152,4 @@ A personal goal is a goal where you are designated as the owner.
 
 有効にした通知で定義されたイベントが発生すると、そのイベントを説明するメールが届きます。次は、新しい目標の所有者として割り当てられたことを通知するメールの例です。
 
-![&#x200B; 目標通知メール &#x200B;](assets/wf-align-notification-email-350x164.png)
+![ 目標通知メール ](assets/wf-align-notification-email-350x164.png)

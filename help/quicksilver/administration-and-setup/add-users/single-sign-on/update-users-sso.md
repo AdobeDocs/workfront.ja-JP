@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 95%
+source-wordcount: '793'
+ht-degree: 94%
 
 ---
 
@@ -25,35 +25,33 @@ Adobe Workfront インスタンスでシングルサインオン（SSO）が有�
 
 既に SSO 資格情報に関連付けられたユーザーが設定されている既存のシステムがある場合は、コンマ区切り値（CSV）ファイルを Workfront に読み込むことで、Workfront にユーザーの ID を読み込むことができます。
 
-Workfront と SSO システムの統合について詳しくは、[&#128279;](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
+Workfront と SSO システムの統合について詳しくは、[](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
 
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p><p>または</p><p>現在：プラン</p></td> 
+   <td><p>標準</p><p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p>  </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -92,7 +90,7 @@ Workfront で SSO ユーザー名フィールドを更新する必要がある�
    | ID | ID は Workfront の英数字の GUID です。 |
    | SSO ユーザー名 | 「SSO ユーザー名」フィールドを追加して、読み込みで上書きされるユーザー名がないことを確認します。ユーザーが SSO 用にまだ更新されていない場合、このフィールドはすべてのユーザーに対して空白です。 |
 
-   ![SSO ユーザー名を持つがアクセスできないユーザー &#x200B;](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![SSO ユーザー名を持つがアクセスできないユーザー ](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. レポートを保存します。
 1. リストの上部にある「**書き出し**」をクリックして、Excel にレポートを書き出します。
@@ -112,7 +110,7 @@ Workfront で SSO ユーザー名フィールドを更新する必要がある�
    * 2 番目の列には、SSO システムに表示される SSO ユーザー名を含める必要があります。
    * 列にはヘッダーを含めないようにし、また名前のリストの先頭に空の行を含めないようにします。
 
-     ![&#x200B; ユーザー CSV を更新 &#x200B;](assets/update-users-for-sso-csv-file-for-import.png)
+     ![ ユーザー CSV を更新 ](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. レポートを CSV または TSV ファイルとしてコンピューターに保存します。
 
@@ -145,6 +143,6 @@ SSO ユーザー名情報を含むユーザーレポートの作成手順につ�
 1. 「SSO ユーザー名」列の値が SSO サーバー上の「SSO ユーザー名」と一致していることを確認します。
 1. 「SSO ユーザー名」列が空白の場合は、ユーザーの SSO ユーザー名を更新します。
 
-   ![SSO フィールドを持つユーザー &#x200B;](assets/users-with-sso-field-updated.png)
+   ![SSO フィールドを持つユーザー ](assets/users-with-sso-field-updated.png)
 
    SSO 用にユーザーを更新する手順については、[SSO 用にユーザーを更新](#update-your-users-for-sso)を参照してください。

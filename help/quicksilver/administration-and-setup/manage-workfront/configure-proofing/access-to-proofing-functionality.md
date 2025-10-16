@@ -9,28 +9,24 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 882c3e58e0e47c549be70dff3f5ac410b34a090f
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 98%
+source-wordcount: '397'
+ht-degree: 87%
 
 ---
 
 # Workfront のプルーフ機能へのアクセス
 
-ユーザーが使用できるプルーフ機能は、組織が購入した Workfront プランによって異なります。
+プルーフは、Workfrontのすべてのライセンスに自動的に含まれます。 ライセンスによって、ユーザーが実行できる操作が決まります。
 
-## Workfront のプルーフ
+<!--Workfront instances using enterprise storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
 
-現在、Workfront でのプルーフに関する 3 つのプランオプションがあります。
+2017 年の従来のWorkfront パッケージには、pro、business、enterprise のWorkfront プランをお持ちの場合、ワークおよびプランライセンスの自動プルーフが含まれています。 これらの計画は段階的に廃止されている。
 
-* **新しい Workfront プラン**：新しい Workfront プランのすべてのライセンスには、プルーフが自動的に含まれます。
-* **現在の Workfront Pro とプラン**：Workfront の Pro、Business、または Enterprise の各プランをご利用の場合、ワークおよびプランのライセンスのプルーフが自動的に含まれます。
-* **従来の Workfront Premium プラン**：このオプションは、従来の Workfront プラン（Select、Enterprise、Premium）を対象としています。このプランのライセンスには、プルーフ機能が自動的には含まれません。ユーザープロファイル内の特定のユーザーに、プルーフのアクセス権を付与する必要があります。
+Workfront の管理者は、設定／システム／ライセンスに移動して、インスタンスがどのプランにあるかを確認できます。
 
-  Workfront の管理者は、設定／システム／ライセンスに移動して、インスタンスがどのプランにあるかを確認できます。
-
-### Workfront のプルーフ機能
+## Workfront のプルーフ機能
 
 Workfront でユーザーのプルーフを作成および表示するためのアクセス権の付与と取り消しについて詳しくは、[ユーザーのプルーフアクセスの設定](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)を参照してください。
 

@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 86%
+source-wordcount: '1114'
+ht-degree: 83%
 
 ---
 
@@ -33,32 +33,34 @@ ht-degree: 86%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、以下を保有している必要があります。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：[!UICONTROL Standard]</p>
-       <p>または</p>
-       <p>現在：[!UICONTROL Plan]</p></td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] 管理者である必要があります。</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront パッケージ
+   </td>
+   <td> <p>PrimeまたはUltimate</p>
+    <p>ワークフロー Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront ライセンス
+   </td>
+   <td>標準
+   <p>プラン</p>
+   </td>
+  </tr>
+   <tr>
+   <td>アクセスレベル設定
+   </td>
+   <td>[!DNL Workfront] 管理者である必要があります。
+   </td>
+  </tr>
 </table>
 
 この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+
 
 ## サポートされている統合
 
@@ -74,11 +76,11 @@ ht-degree: 86%
 
 * [!DNL Workfront Proof]
 
-  [!DNL Workfront Proof] からプルーフをリンクすると、最初に [!DNL Workfront Proof] 内で作成されたプルーフを、[!DNL Workfront] 内で使用可能にすることができます。この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
+  [!DNL Workfront Proof] からプルーフをリンクさせると、内で最初に作成されたプルーフを [!DNL Workfront Proof] 内で使用でき [!DNL Workfront] ようになります。
 
 * [!DNL Microsoft SharePoint]
 
-  [!DNL SharePoint] との統合について詳しくは、[&#x200B; [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)を参照してください。
+  [!DNL SharePoint] との統合について詳しくは、[ [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)を参照してください。
 
 * サードパーティクラウドドキュメントプロバイダー：
 
@@ -96,8 +98,6 @@ ht-degree: 86%
   >[!DNL Workfront] に直接アップロードされたドキュメントのプルーフおよび承認と同じ方法で、外部クラウドプロバイダーからリンクされたドキュメントのプルーフや承認を行うことができます。
 
 * その他のドキュメントプロバイダー（カスタムドキュメント統合を通じて）。
-
-  この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
 
 さらに、サードパーティの DAM 統合を使用して、[!DNL Workfront] ドキュメントのエクスペリエンスを向上させることができます。 ユーザーがサービスを [!DNL Workfront] アカウントにリンクするには、管理者がこれらの機能を有効にする必要があります。
 
@@ -213,7 +213,7 @@ ht-degree: 86%
 様々な [!DNL Workfront DAM] フィールドに同じ [!DNL Workfront] フィールドをマッピングできますが、複数の [!DNL Workfront] フィールドに同じ [!DNL Workfront DAM] フィールドを使用することはできません。
 
 1 つの [!DNL Workfront DAM] フィールドに書き出すように複数の [!DNL Workfront] フィールドを設定する必要がある場合は、まず [!DNL Workfront] に計算カスタムフィールドを作成して、オブジェクトの個々のカスタムフィールドをすべて表示します。次に、1 つの [!DNL Workfront DAM] フィールドに計算 [!DNL Workfront] フィールドをマッピングします。\
-計算カスタムフィールドについて詳しくは、「[&#x200B; フォームに計算フィールドを追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)」を参照してください。
+計算カスタムフィールドについて詳しくは、「[ フォームに計算フィールドを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)」を参照してください。
 
 マッピングは、任意のユーザーが [!DNL Workfront] から [!UICONTROL Workfront] DAM にアップロードしたすべてのドキュメントに影響します。
 
@@ -258,4 +258,4 @@ ht-degree: 86%
    * Workfrontにドキュメントフォルダーを作成し、Google フォルダー内のすべてのファイルを選択してWorkfront フォルダーに追加します。
 
 
-* Google Drive ドキュメントの統合では、Google Drive のマイドライブ領域からのファイルの追加がサポートされています。 共有ドライブからフォルダーや画像を追加することはできません。 [Google共有ドライブ &#x200B;](https://support.google.com/a/users/answer/7212025?hl=en) の詳細情報。
+* Google Drive ドキュメントの統合では、Google Drive のマイドライブ領域からのファイルの追加がサポートされています。 共有ドライブからフォルダーや画像を追加することはできません。 [Google共有ドライブ ](https://support.google.com/a/users/answer/7212025?hl=en) の詳細情報。

@@ -5,7 +5,7 @@ title: プログラムの削除とディアクティベート
 description: プログラムとは、プロジェクトの境界を越えて共通の戦略、目標、または目標を共有するプロジェクトのコレクションを表します。プログラムはポートフォリオの下位区分で、ポートフォリオ外に存在することはできません。 プログラムは通常、同じポートフォリオ内の他のプログラムと同じリソースを共有します。 無関係になったプログラムは削除または無効化できます。
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 22%
@@ -32,7 +32,7 @@ ht-degree: 22%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] package</td>
 
 <td> <p>任意</p> </td> 
   </tr> 

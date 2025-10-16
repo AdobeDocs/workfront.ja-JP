@@ -7,10 +7,10 @@ description: Adobe Workfront Goals にアクセスするには、Adobe Workfront
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: dacfd8ef7475b197ac6ce5dd598c99df97037479
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 75%
+source-wordcount: '644'
+ht-degree: 71%
 
 ---
 
@@ -20,21 +20,28 @@ ht-degree: 75%
 
 Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者が、次の条件がすべて満たされていることを確認する必要があります。
 
-* 組織は、Workfront Goals の正規のライセンスを購入する必要があります。詳しくは、この記事の [Workfront Goals 組織のアクセス権の取得 &#x200B;](#obtain-workfront-goals-organization-access) を参照してください。
+* お客様の組織が過去にAdobe Workfront Goals パッケージを購入したことがある。 Adobe Workfront Goals は購入できなくなりました。
+
+  詳しくは、この記事の [Workfront Goals 組織のアクセス権の取得 ](#obtain-workfront-goals-organization-access) を参照してください。
 
 * 適切なタイプの Workfront ライセンスが割り当てられます。ライセンスタイプとアクセスレベルの割り当てについては、[ライセンスタイプとアクセスレベルの設定を更新](#update-license-types-and-access-level-settings)の節を参照してください。
 
->[!NOTE]
->
->外部ライセンスタイプを所有のユーザーは、Workfront Goals にアクセスできません。
+  >[!NOTE]
+  >
+  >外部ライセンスタイプを所有のユーザーは、Workfront Goals にアクセスできません。
 
 * ご自身のアクセスレベルで Goals にアクセスできます。詳しくは、[Adobe Workfront Goals へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)を参照してください。
+
+  >[!NOTE]
+  >
+  >デフォルトでは、ユーザーはアクセスレベルで目標へのアクセス権を取得できません。
+
 
 * メインメニューの Goals エリアを含むレイアウトテンプレートが割り当てられます。
 
   >[!NOTE]
   >
-  >Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。
+  >システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。
 
   詳しくは、この記事の [Workfron Goals レイアウトテンプレートに追加](#add-workfront-goals-to-a-layout-template)の節を参照してください。
 
@@ -44,35 +51,50 @@ Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者
 
 ## Workfront Goals への組織のアクセス権の取得 {#obtain-workfront-goals-organization-access}
 
+Workfront Goals を含む最後のAdobe Workfront パッケージは、Adobe Workfront Ultimateでした。
+新しいパッケージでは、Workfront Goals は購入できなくなりました。
+Workfront Goals については、アカウント担当者にお問い合わせください。
 
-会社が現在利用しているWorkfront プランに応じて、次のようなシナリオが考えられます。
+<!--Old: >
+Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
-* **新しいWorkfront プラン**:Ultimate Workfront プランが必要です。 Workfront Goals はこのプランにのみ含まれています。
+* **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
 
-* **現在のWorkfront プラン**:Workfront ライセンスに加えて、追加ライセンスを購入する必要があります。
+* **A current Workfront plan**: Your organization must purchase an additional license, in addition to the Workfront license.
 
-  組織が追加のライセンスを購入すると、Workfront をお使いのアカウントで Workfront Goals が有効になります。Workfront Goals のライセンスの購入について詳しくは、Workfront のアカウントマネージャーにお問い合わせください。
+  After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## ライセンスタイプとアクセスレベルの設定の更新  {#update-license-types-and-access-level-settings}
 
-会社が現在利用しているWorkfront プランに応じて、次のようなシナリオが考えられます。
+以前の購入からWorkfront Goals にアクセスできる会社がある場合、Workfront Goals にアクセスするにはWorkfront管理者から次の権限を付与される必要があります。
 
-* **新しいアクセスレベルモデル**:Workfront Goals にアクセスするには、Workfront管理者から次のいずれかのWorkfront ライセンスタイプを付与される必要があります。
+1. 次のいずれかのライセンス：
 
-   * コントリビューター
-   * ライト
-   * 標準
+   * 投稿者以上
+   * リクエスト以上
 
-* **現在のアクセスレベルモデル**:Workfront Goals にアクセスするには、Workfront管理者から次のいずれかのWorkfront ライセンスタイプを付与される必要があります。
+<!--Old: 
+* **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
 
-   * プラン
-   * ワーク
-   * レビュー
-   * リクエスト
+  * Contributor
+  * Light
+  * Standard
 
-Workfront 管理者がこれらのライセンスタイプの 1 つを付与したら、Goals に対するアクセスレベルでのアクセス権も付与する必要があります。Goals へのアクセスについて詳しくは、[Adobe Workfront Goals へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)を参照してください。
+* **The current access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals:
+
+  * Plan
+  * Work 
+  * Review
+  * Request
+-->
+
+1. 次のアクセス レベル：
+
+   * アクセスレベルで目標への表示以上のアクセス権を設定します。
+
+   Goals へのアクセスについて詳しくは、[Adobe Workfront Goals へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)を参照してください。
 
 Workfront 管理者は、システム内の Workfront Goals ライセンスの数を確認し、現在有効になっている数を把握できます。詳しくは、[システムで使用可能なライセンスの管理](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)を参照してください。
 
@@ -84,7 +106,7 @@ Workfront 管理者は、システム内の Workfront Goals ライセンスの�
 
 Workfront Goals にアクセスできるようにするため、Workfront 管理者またはグループ管理者が、メインメニューの Goals エリアを含むレイアウトテンプレートを割り当てる必要があります。
 
-![&#x200B; レイアウトテンプレート &#x200B;](assets/layout-template-align-highlighted-350x220.png)
+![ レイアウトテンプレート ](assets/layout-template-align-highlighted-350x220.png)
 
 Workfront 管理者またはグループ管理者は、Workfront Goals に簡単にアクセスできるようにするために、レイアウトテンプレートに以下のものを追加することもできます。
 

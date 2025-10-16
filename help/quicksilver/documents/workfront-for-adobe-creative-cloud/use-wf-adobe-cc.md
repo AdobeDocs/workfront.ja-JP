@@ -6,10 +6,10 @@ description: Workfront 拡張機能を使用すると、Adobe Illustrator およ
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '3107'
-ht-degree: 98%
+source-wordcount: '3069'
+ht-degree: 97%
 
 ---
 
@@ -37,26 +37,24 @@ Workfront 拡張機能は、Adobe Creative Cloud 2017 以降の以下のアプ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在：Pro 以上</p>
-   または
-   <p>新規：任意のプラン</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p>
+ </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在：ワーク以上</p>
-   または
-   <p>新規：標準</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>標準</p> 
+   <p>ワークまたはそれ以上</p>
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">製品</td> 
+   <td role="rowheader">その他の製品</td> 
    <td>Workfront ライセンスに加えて、Adobe Creative Cloud ライセンスが必要です。</td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ Workfront 拡張機能は、Adobe Creative Cloud 2017 以降の以下のアプ�
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -101,7 +99,7 @@ Adobe Creative Cloud からファイルをアップロードまたは書き出�
 * アクセスレベルで、Workfront へのドキュメントのアップロードを許可する必要があります。詳しくは、[ドキュメントへのアクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)を参照してください。
 * ドキュメントを目的の項目にアップロードするには権限が必要です。詳しくは、[オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 * ファイルは、選択した Workfront オブジェクトのドキュメントエリアにアップロードされます。
-* Adobe Creative Cloud アプリケーションから、メインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) の「ドキュメント」領域にドキュメントを書き出すことはできません。
+* Adobe Creative Cloud アプリケーションから、メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) の「ドキュメント」領域にドキュメントを書き出すことはできません。
 
 次の節では、以下について説明します。
 
@@ -135,7 +133,7 @@ Adobe Creative Cloud アプリケーションを離れることなく、プロ�
 
 1. （オプション）ファイルの新しい名前を入力します。
 
-   ![&#x200B; ファイル名を変更 &#x200B;](assets/rename-file-uploading.png)
+   ![ ファイル名を変更 ](assets/rename-file-uploading.png)
 
 1. 「**アップロード**」をクリックします。
 
@@ -165,7 +163,7 @@ Adobe Creative Cloud アプリケーションを離れることなく、プロ�
 1. （条件付き）ファイルをアップロードする作業アイテムにドキュメントフォルダーが含まれている場合、「**クリックしてドキュメントフォルダーを選択**」フィールドでドキュメントフォルダーを選択し、「**選択**」をクリックします。
 1. （オプション）ドキュメントの名前を変更するには、ドキュメント名をクリックし、新しい名前を入力します。
 
-   ![&#x200B; 書き出し時にドキュメント名を変更 &#x200B;](assets/rename-doc-exporting.png)
+   ![ 書き出し時にドキュメント名を変更 ](assets/rename-doc-exporting.png)
 
 1. 「**書き出し**」をクリックします。
 
@@ -211,7 +209,7 @@ Adobe Creative Cloud アプリケーションを離れることなく、プロ�
    >Workfront のドキュメントの名前はデフォルトで入力され、編集できません。また、新しいバージョンとしてアップロード、または書き出すファイルの名前も変更されません。
    >
    >
-   >![&#x200B; ドキュメント名は変更できません &#x200B;](assets/doc-name-cant-be-changed.png)
+   >![ ドキュメント名は変更できません ](assets/doc-name-cant-be-changed.png)
 
 ## Illustrator または InDesign からの Workfront ドキュメントに対するコメント {#comment-on-a-workfront-document-from-illustrator-or-indesign}
 
@@ -276,7 +274,7 @@ Workfront ドキュメントの承認をアドビアプリケーションから�
 
    * 承認者の名前を入力し、リストに表示されたら選択します。
 
-     ![&#x200B; ドキュメント承認者を追加 &#x200B;](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+     ![ ドキュメント承認者を追加 ](assets/adobe-cc-adding-a-doc-approver-350x189.png)
 
    * 外部ユーザーのメールアドレスを入力します。
 
@@ -350,7 +348,7 @@ Workfront ドキュメントの承認をアドビアプリケーションから�
 
 1. Adobe アプリケーションで、**ウィンドウ**／**拡張機能**／**Workfront** の順にクリックします。
 
-1. パネルの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックします。
+1. パネルの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします。
 
 1. （オプション）「**フィードバック**」をクリックして簡単な調査を開き、Workfront for Adobe Creative Cloud に関するフィードバックを Workfront に送信します。
 1. 「**ログアウト**」をクリックします。\

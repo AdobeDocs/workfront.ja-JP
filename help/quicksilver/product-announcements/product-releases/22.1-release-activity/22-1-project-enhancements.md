@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 100%
+source-wordcount: '1202'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +95,7 @@ Workfront の使用を新しい Workfront エクスペリエンスと一致さ�
 
 >[!NOTE]
 >
->この機能は、2022年3月4日（PT）に実稼動環境から一時的に削除されました。その後、2022年4月28日（PT）より段階的に公開されました。公開は 2022年5月5日（PT）に完了しました。すべてのお客様がプレビューと実稼動で利用できるようになりました。（この機能の実稼動環境へのリリース状況に関する最新情報については、[22.3 リリースの概要](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)を参照してください）
+>この機能は、2022年3月4日（PT）に本番環境から一時的に削除されました。その後、2022年4月28日（PT）より段階的に公開されました。公開は 2022年5月5日（PT）に完了しました。すべてのお客様がプレビューと実稼動で利用できるようになりました。（この機能の実稼動環境へのリリース状況に関する最新情報については、[22.3 リリースの概要](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)を参照してください）
 
 一貫して新しい Workfront エクスペリエンスで Workfront を使用できるように、イシューページからテンプレートを使用してイシューをプロジェクトに変換する際のインターフェイスを再設計しました。
 
@@ -103,13 +103,13 @@ Workfront の使用を新しい Workfront エクスペリエンスと一致さ�
 
 再設計されたインターフェイスは、最近更新したテンプレートからプロジェクトを作成する場合のエクスペリエンスと同じです。
 
-詳しくは、[Adobe Workfront でイシューをプロジェクトに変換](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)を参照してください。
+詳しくは、[ イシューのプロジェクトへの変換 ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md) を参照してください。
 
 ## リスト、レポート、ダッシュボードからテンプレートを使用してイシューをプロジェクトに変換
 
 >[!NOTE]
 >
->この機能は、2022年3月4日（PT）に実稼動環境から一時的に削除されました。その後、2022年4月28日（PT）より段階的に公開されました。公開は 2022年5月5日（PT）に完了しました。すべてのお客様がプレビューと実稼動で利用できるようになりました。（この機能の実稼動環境へのリリース状況に関する最新情報については、[22.3 リリースの概要](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)を参照してください）
+>この機能は、2022年3月4日（PT）に本番環境から一時的に削除されました。その後、2022年4月28日（PT）より段階的に公開されました。公開は 2022年5月5日（PT）に完了しました。すべてのお客様がプレビューと実稼動で利用できるようになりました。（この機能の実稼動環境へのリリース状況に関する最新情報については、[22.3 リリースの概要](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)を参照してください）
 
 作業の効率を高め、ペースの速い環境でイシューを簡単に変換できるように、リスト、レポート、ダッシュボードのテンプレートを使用してイシューをプロジェクトに変換できる機能を追加しました。
 

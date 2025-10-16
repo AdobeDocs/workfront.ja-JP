@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 12%
+source-wordcount: '522'
+ht-degree: 11%
 
 ---
 
@@ -37,14 +37,14 @@ ht-degree: 12%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>現在：レビュアーまたはそれ以上</p>
-   <p>新規：ライト以上</p> 
+   <p>Reviewer 以上</p>
+   <p>ライト以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ ht-degree: 12%
 {{step1-to-priorities}}
 
 1. 作業リストの上部にある **カレンダー** アイコンをクリックします。
-   ![&#x200B; カレンダーアイコン &#x200B;](assets/calendar-tab.png)
+   ![ カレンダーアイコン ](assets/calendar-tab.png)
 1. 1 つ以上のフィルターを選択して、作業アイテムを絞り込みます。
 
    +++展開すると、使用可能なフィルターの詳細情報が表示されます
@@ -88,7 +88,7 @@ ht-degree: 12%
         <td>項目を次で表示 
         <ul>
         <li>未完了の先行タスクまたはタスク制約はありません</li>
-        <p>および</p>
+        <p>and</p>
         <li>予定開始日が過去または最大 2 週間以内です</li>
         </ul>
         </td>
@@ -142,18 +142,18 @@ ht-degree: 12%
    * 時間を記録
    * クイックリンクの追加
 
-1. （オプション）「**新規作成**」をクリックして、新しい作業項目をカレンダーに追加します。 詳しくは、[&#x200B; 優先度で新しいタスクまたはイシューを作成する &#x200B;](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md) を参照してください。
+1. （オプション）「**新規作成**」をクリックして、新しい作業項目をカレンダーに追加します。 詳しくは、[ 優先度で新しいタスクまたはイシューを作成する ](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md) を参照してください。
 
 ## カレンダーの設定
 
 {{step1-to-priorities}}
 
 1. 作業リストの上部にある **カレンダー** アイコンをクリックします。
-   ![&#x200B; カレンダーアイコン &#x200B;](assets/calendar-tab.png)
+   ![ カレンダーアイコン ](assets/calendar-tab.png)
 1. カレンダーの右隅にある **設定** アイコンをクリックします。
 
 1. 「**バースタイル**」タブで、カレンダーの作業項目バーに表示するフィールドを最大 5 つ選択します。
-   ![&#x200B; サンプルバー &#x200B;](assets/sample-task-for-field-config.png)
+   ![ サンプルバー ](assets/sample-task-for-field-config.png)
 
 1. **カラー** タブで、作業項目の表示方法を選択します。 例えば、「**プロジェクト** を選択すると、作業リストのプロジェクトに割り当てられたカラーに従って作業項目が表示されます。
-   ![&#x200B; サンプルカラープロジェクト &#x200B;](assets/sample-calendar-projects.png)
+   ![ サンプルカラープロジェクト ](assets/sample-calendar-projects.png)

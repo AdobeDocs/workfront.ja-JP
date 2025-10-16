@@ -6,10 +6,10 @@ description: 必要に応じて、プロジェクトのステータスを他の�
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 91%
+source-wordcount: '357'
+ht-degree: 85%
 
 ---
 
@@ -27,21 +27,20 @@ ht-degree: 91%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準 </p> 
-   または
-   <p>現在：プラン </p>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p> 
+   <p>プラン</p>
    </td> 
   </tr> 
   <tr> 
@@ -55,7 +54,38 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard </p> 
+   Or
+   <p>Current: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 特定のステータスに更新する際の考慮事項
 
@@ -67,10 +97,10 @@ ht-degree: 91%
 1. ステータスを更新するプロジェクトに移動します。
 1. プロジェクトヘッダーの「**ステータス**」フィールドでステータスの名前をクリックし、新しいステータスを選択します。
 
-   ![&#x200B; プロジェクトステータスの変更 &#x200B;](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
+   ![ プロジェクトステータスの変更 ](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    または
 
-   プロジェクト名の横にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/qs-more-menu.png) をクリックして、**編集** をクリックし、**ステータス** フィールドで新しいステータスを選択して、**保存** をクリックします。
+   プロジェクト名の横にある **詳細** メニュー ![ 詳細メニュー ](assets/qs-more-menu.png) をクリックして、**編集** をクリックし、**ステータス** フィールドで新しいステータスを選択して、**保存** をクリックします。
 
    プロジェクトのステータスは、選択したステータスに更新されます。

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「グループ化：タスク割合内訳 1」
-description: 「このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。内訳には、25 パーセントポイント増分の完了率の値が表示されます：0～25％、25～50％など。」
+title: グループ化：タスク割合内訳 1
+description: このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。分類には、25 パーセントポイント増分の完了率の値が表示されます：0～25％、25～50％など。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ddb9496c-9347-4dc9-a4ce-b9017abd0bb2
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 79%
+source-wordcount: '241'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 79%
 
 <!--Audited: 10/2024-->
 
-このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。内訳には、25 パーセントポイント増分の完了率の値が表示されます：0～25％、25～50％など。
+このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。分類には、25 パーセントポイント増分の完了率の値が表示されます：0～25％、25～50％など。
 
 次のグループ化では、タスクを完了率の値で整理して、6 つの異なるグループに分類します。
 
@@ -33,28 +33,21 @@ ht-degree: 79%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-    <p>新規：</p>
-   <ul><li><p>フィルターを変更するコントリビューター </p></li>
-   <li><p>レポートを変更する場合は Standard</p></li> </ul>
-
-<p>現在：</p>
-   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
-   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
+   <p>フィルターの変更者または変更依頼 </p>
+   <p>レポートを変更するための標準またはプラン</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -67,11 +60,11 @@ ht-degree: 79%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
-## タスクの割合によるグループ化の内訳
+## タスクの割合によるグループ化の分類
 
 このグループ化を適用するには、次の操作を行います。
 

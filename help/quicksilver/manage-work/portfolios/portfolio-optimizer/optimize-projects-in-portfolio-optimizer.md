@@ -6,9 +6,9 @@ description: '[!UICONTROL ポートフォリオオプティマイザー]を使�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '468'
 ht-degree: 85%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -28,30 +28,57 @@ ht-degree: 85%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> 任意</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Workfront Prime以降</p>
+      <p>ワークフローのPrime以降</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>新規：[!UICONTROL Standard] </p>
-   <p>現在：[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトおよびポートフォリオへのアクセスの [!UICONTROL Edit]</p> </td> 
-  </tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>[!UICONTROL 編集 ] [!UICONTROL ポートフォリオ ] および [!UICONTROL プロジェクト ] へのアクセス</p>  </td>
+</tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p> <p>プロジェクトへの参加権限かそれ以上の権限</p> 
-   <p><b> プロジェクトの優先度を設定 </b> を使用するには、リスト内のすべてのプロジェクトに対する管理権限が必要です。</p>
-    </td> 
+   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfrontのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--Old
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> 
+   <p>You must have Manage permissions to all the projects in the list to be able to use <b>Set project priority</b>.</p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## ポートフォリオオプティマイザーでのプロジェクトの最適化
 
@@ -61,7 +88,7 @@ ht-degree: 85%
 
 1. **[!UICONTROL 最適化]**&#x200B;アイコンをクリックします。
 
-   ![&#x200B; 最適化アイコン &#x200B;](assets/optimize-icon-portfolio-optimizer.png)
+   ![ 最適化アイコン ](assets/optimize-icon-portfolio-optimizer.png)
 
    プロジェクトのスコア付けに使用できるカテゴリが、[!UICONTROL 最適化]アイコンの左側に表示されます。
 

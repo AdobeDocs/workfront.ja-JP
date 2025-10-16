@@ -2,14 +2,14 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: ラグタイプの概要
+title: 間隔の種類の概要
 description: ラグとは、強制的な先行タスクの完了後、依存タスクの開始までに経過する必要がある時間（正のラグ）、または先行タスクの開始前に依存タスクを開始できる時間（負のラグ）のことです。
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1444'
 ht-degree: 98%
 
 ---
@@ -31,29 +31,55 @@ ht-degree: 98%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン </p> </td>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p> 
+   <p>プラン</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクおよびプロジェクトに対する権限の管理</p> </td> 
+   <td> <p>タスクおよびプロジェクトに対する権限の管理</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan </p> </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks and the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## ラグタイプ {#lag-types}
 

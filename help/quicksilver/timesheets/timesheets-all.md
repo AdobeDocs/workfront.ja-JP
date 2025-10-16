@@ -2,12 +2,12 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "タイムシート：記事インデックス"
+title: タイムシート：記事インデックス
 description: タイムシート、タイムシートプロファイル、時間タイプを作成、編集、承認および管理する方法の詳細について説明します。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: aff5e7a9-e1a0-460e-bb6b-be9c50db5755
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 100%

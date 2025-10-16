@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 「期間タイプの概要：残存作業時間の優先」
+title: 期間タイプの概要：作業優先
 description: 残存作業時間の優先は、Adobe Workfront のタスクに設定できる期間タイプです。Workfront の期間タイプに関する一般情報については、タスク期間の概要と期間タイプを参照してください。
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

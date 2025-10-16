@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 72%
+source-wordcount: '705'
+ht-degree: 70%
 
 ---
 
@@ -49,26 +49,32 @@ ht-degree: 72%
 >
 >「システムアクティビティ」タブでシステムの更新に返信することはできません。 2024 年 4 月 11 日（PT）より前の従来のコメントエクスペリエンスで行われたシステム更新への返信は、読み取り専用として表示されます。
 
-この記事では、Workfront内のほとんどのオブジェクトからのコメントに返信する方法を説明します。 様々なオブジェクトの更新セクションの違いについては、[&#x200B; 更新セクションの概要 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
+この記事では、Workfront内のほとんどのオブジェクトからのコメントに返信する方法を説明します。 様々なオブジェクトの更新セクションの違いについては、[ 更新セクションの概要 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>新規：イシューとドキュメントにはコントリビューター以上、その他のすべてのオブジェクトにはライト以上</p> 
-   <p>現在：イシューとドキュメントについてはリクエスト以上、その他のすべてのオブジェクトについてはレビュー以上</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td> <p>イシューとドキュメントの場合：</p>
+
+<ul><li><p>投稿者以上</p></li>
+   <li><p>リクエスト以上</p></li></ul>
+
+<p>その他すべてのオブジェクトの場合：</p>
+   <ul><li><p>ライト以上</p></li>
+   <li><p>レビュー以上</p></li></ul>
+
+</td>  
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
@@ -76,14 +82,41 @@ ht-degree: 72%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>オブジェクトに対する表示アクセス権</p> </td> 
+   <td> <p>オブジェクトに対する権限の表示</p> </td> 
+  </tr> 
+ </tbody> 
+   </table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p> 
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>View access to the object</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Workfront での更新または返信に対する返信
 
@@ -103,7 +136,7 @@ ht-degree: 72%
 1. （オプション）以前の更新のテキストを返信に含めるには、返信したいコメントの右上隅にある&#x200B;**その他**&#x200B;メニューをクリックしたあと、「**引用返信**」をクリックします。以前の更新のテキストが入力エリアに表示され、灰色の縦線が付きます。
 1. 「**返信**」をクリックします。
 
-   ![&#x200B; 「返信して更新」空のボックス &#x200B;](assets/reply-to-update-empty-box.png)
+   ![ 「返信して更新」空のボックス ](assets/reply-to-update-empty-box.png)
 
    会話に積極的に参加しているユーザーが「**返信を追加...**」ボックスの下部に表示されます。さらに追加したり、関係なくなったものを削除したりできます。これらのユーザー、およびオブジェクトを購読しているユーザーは、オブジェクトに対して更新や返信が行われるたびに通知を受け取ります。さらに多くのユーザーをタグ付けして、返信に含めることもできます。さらに多くのユーザーをタグ付けするには、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
 
@@ -115,7 +148,7 @@ ht-degree: 72%
 
 1. 「**送信**」をクリックして返信を保存します。
 
-1. （オプション）返信を管理するその他のオプションについては、返信するコメントの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックします。 詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+1. （オプション）返信を管理するその他のオプションについては、返信するコメントの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします。 詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

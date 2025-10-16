@@ -6,9 +6,9 @@ description: 表示するアクセス権のあるすべてのレポートを実�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '497'
 ht-degree: 81%
 
 ---
@@ -28,45 +28,35 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-      <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>標準</p>
+      <p>プラン</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーの表示アクセス権</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>報告書、ダッシュボード、カレンダーへのアクセスの表示</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を表示</p></td> 
+     <td> <p>レポートに対する権限を表示</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -102,7 +92,7 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
 
 * レポート設定を編集し、レポートを保存します。
 * ビュー、グループまたはフィルターを変更します。
-* **再読み込みアイコン**![&#x200B; 再読み込みアイコン &#x200B;](assets/unshimmed-report-refresh-icon.png) をクリックします
+* **再読み込みアイコン**![ 再読み込みアイコン ](assets/unshimmed-report-refresh-icon.png) をクリックします
 このオプションは、レポートが保存された時刻を示すメッセージ ボックス内のページの右上隅か、レポートが配置されているダッシュボードの右上隅にあります。 ダッシュボードの再読み込みについて詳しくは、[ダッシュボードの概要](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)の記事の「ダッシュボードを表示」の節を参照してください。
 
 * 「概要」タブ、「マトリックス」タブまたは「グラフ」タブに移動して、最初のページ以外のレポートのページにアクセスします。

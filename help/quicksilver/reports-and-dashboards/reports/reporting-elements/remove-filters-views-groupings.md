@@ -6,10 +6,10 @@ description: リストやレポートを作成した場合、または共有さ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 93%
+source-wordcount: '801'
+ht-degree: 94%
 
 ---
 
@@ -21,46 +21,37 @@ ht-degree: 93%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</strong></td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>投稿者以上</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>リクエスト以上</p></li>
-         </ul>
+    <p>投稿者以上</p>
+    <p>リクエスト以上</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td><p>フィルター、ビュー、グループ化に対する表示またはそれ以上のアクセス権</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td><p>削除するフィルター、ビュー、またはグループ化に対する共有アクセス限を持つ表示権限</p>
+   <td role="rowheader">オブジェクト権限</td> 
+    <td> <p>削除するフィルター、ビュー、またはグループ化に対する共有アクセス限を持つ表示権限</p></td> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -116,7 +107,7 @@ ht-degree: 93%
 ### レガシービルダーを使用してフィルター、ビュー、またはグループ化を削除する
 
 1. オブジェクトのリストまたはレポートに移動します。
-1. （条件付き）リストから、「**フィルター**」、「**表示**」または「**グループ化** アイコンをクリックし、削除するフィルター、表示またはグループ化にカーソルを合わせて **詳細** アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、**削除** をクリックします。 フィルター、ビュー、またはグループ化が削除されます。
+1. （条件付き）リストから、「**フィルター**」、「**表示**」または「**グループ化** アイコンをクリックし、削除するフィルター、表示またはグループ化にカーソルを合わせて **詳細** アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、**削除** をクリックします。 フィルター、ビュー、またはグループ化が削除されます。
 1. （条件付き）レポートから、「**グループ化**」、「**フィルター**」、または「**ビュー**」ドロップダウンメニューをクリックして、「**グループ化の削除**」、「**フィルターの削除**」、または「**ビューの削除**」を選択します。
 
    「**マイグループ化**」、「**マイフィルター**」、または「**マイビュー**」ダイアログボックスが表示されます。

@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 description: デフォルトで、 [!DNL Adobe Workfront]  ビューでは  [!DNL Workfront] の[!UICONTROL すべてのプロジェクト]リストが表示されるので、表示できるすべてのプロジェクトがステータスに関係なく一覧表示されます。
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## アクセス要件
 
-この記事の手順を実行するには、[!DNL Workfront] で次のアクセス権が必要になります。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,17 +31,21 @@ ht-degree: 100%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong>/td&gt; 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Review] 以降</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>レビュー以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!UICONTROL Workfront ビュー]で[!UICONTROL プロジェクト]リストをフィルターする
 

@@ -6,10 +6,10 @@ description: フィルターとプロンプトは、両方ともレポートに�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 75%
+source-wordcount: '1361'
+ht-degree: 76%
 
 ---
 
@@ -39,43 +39,35 @@ ht-degree: 75%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>標準</p>
+      <p>プラン</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限*</td> 
-   <td> <p>レポートに対する権限を管理します。</p></td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>レポートに対する権限を管理します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -92,7 +84,7 @@ ht-degree: 75%
 
 1. **レポート設定** ボタンをクリックします。
 1. **レポートプロンプト** タブをクリックしてから、**プロンプトを追加** をクリックします。\
-   ![&#x200B; 「レポートプロンプト」タブ &#x200B;](assets/create-report-prompt-tab.png)
+   ![ 「レポートプロンプト」タブ ](assets/create-report-prompt-tab.png)
 
 1. （条件付き）プロンプトの基にするフィールドを選択します。フィールド名の入力を開始し、リストに表示されたらクリックして選択します。\
    レポートを実行するユーザーが使用できるオプションは、選択したフィールドによって異なります。\
@@ -144,7 +136,7 @@ ht-degree: 75%
 
 1. プロンプトでレポートに移動します。
 
-   ![&#x200B; 報告書プロンプトの実行 &#x200B;](assets/run-report-prompts.png)
+   ![ 報告書プロンプトの実行 ](assets/run-report-prompts.png)
 
 1. 「**プロンプト**」タブに表示される 1 つまたはすべてのプロンプトの条件を選択します。\
    （オプション）プロンプトを空白のままにし、プロンプト条件によってレポートをフィルター処理しないこともできます。

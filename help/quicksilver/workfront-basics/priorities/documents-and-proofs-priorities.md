@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 28%
+source-wordcount: '589'
+ht-degree: 23%
 
 ---
 
@@ -23,28 +23,21 @@ ht-degree: 28%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> 
-   <p>新規：任意 </p>
-   <p>現在：Pro 以上</p>
+   <p>任意</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p><strong>ドキュメントをアップロードする</strong></p>
-   <p>新規：コントリビューター</p>
-   <p>現在：リクエスト</p>
-      <p><strong>プルーフを作成する</strong></p>
-        <p>新規：標準</p>
-     <p>現在：ワークまたはプラン</p>
+   <p>ドキュメントをアップロードするコントリビューター以上、プルーフを作成する標準</p>
+   <p>ドキュメントのアップロードを要求またはそれ以上、プルーフ作成は以上のレベルで要求</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,7 +45,7 @@ ht-degree: 28%
    <td>マネージャー以上</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
  </tbody> 
@@ -71,13 +64,13 @@ ht-degree: 28%
 
 {{step1-to-priorities}}
 
-1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![&#x200B; をクリック &#x200B;](assets/summary-icon.png) します。
+1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![ をクリック ](assets/summary-icon.png) します。
 1. 概要パネルの **タスク** または **イシュー** タブを開いていることを確認します。
-1. **ファイルをアップロード** アイコン ![&#x200B; ファイルをアップロードアイコン &#x200B;](assets/upload-file-icon.png) をクリックします。
+1. **ファイルをアップロード** アイコン ![ ファイルをアップロードアイコン ](assets/upload-file-icon.png) をクリックします。
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
 または
 **ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![&#x200B; ファイルを追加 &#x200B;](assets/add-files.png)
+   ![ ファイルを追加 ](assets/add-files.png)
 1. （任意）コメントを追加します。
 1. （任意）ファイルをさらに追加します。
 
@@ -96,7 +89,7 @@ ht-degree: 28%
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
 または
 **ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![&#x200B; ファイルを追加 &#x200B;](assets/add-files.png)
+   ![ ファイルを追加 ](assets/add-files.png)
 1. （任意）コメントを追加します。
 1. （任意）ファイルをさらに追加します。
 
@@ -115,10 +108,10 @@ ht-degree: 28%
 
 {{step1-to-priorities}}
 
-1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![&#x200B; をクリック &#x200B;](assets/summary-icon.png) します。
+1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![ をクリック ](assets/summary-icon.png) します。
 1. 概要パネルの **タスク** または **イシュー** タブを開いていることを確認します。
-1. 右側のパネルで **ドキュメント** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/show-document-icon.png) をクリックします。
-1. **ファイルをアップロード** アイコン ![&#x200B; ファイルをアップロード &#x200B;](assets/upload-file-icon.png) をクリックし、ファイルを選択します。
+1. 右側のパネルで **ドキュメント** アイコン ![ ドキュメントアイコン ](assets/show-document-icon.png) をクリックします。
+1. **ファイルをアップロード** アイコン ![ ファイルをアップロード ](assets/upload-file-icon.png) をクリックし、ファイルを選択します。
 
    >[!NOTE]
    >

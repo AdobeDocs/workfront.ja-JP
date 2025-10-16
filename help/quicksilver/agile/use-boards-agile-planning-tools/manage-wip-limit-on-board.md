@@ -7,10 +7,10 @@ description: ボード上の各列に対して進行中の作業（WIP）の制�
 author: Lisa
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 91%
+source-wordcount: '249'
+ht-degree: 89%
 
 ---
 
@@ -24,22 +24,19 @@ WIP の制限は単に視覚的な警告であり、各列に設定した制限�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>新規：[!UICONTROL Contributor]以上</p> 
-   <p>または</p>
-   <p>現在：[!UICONTROL Request] 以上</p>
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p>
    </td> 
   </tr> 
  </tbody> 

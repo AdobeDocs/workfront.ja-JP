@@ -4,13 +4,13 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: 将来の日付の時刻をログに記録できません
 description: フィールドが無効になっているため、プロジェクト、タスクまたはイシューに関する将来の日付の時間をログに記録できません。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6108fad2-f0a2-4989-8645-69a16820032b
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '135'
+ht-degree: 91%
 
 ---
 
@@ -30,11 +30,11 @@ Adobe Workfront 管理者にお問い合わせください。
 
 システム管理者として、次の手順を実行します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 「**タイムシートと時間**」を展開し、「**環境設定**」をクリックします。
 
-1. 「**一般的な環境設定**」セクションで、「**未来の日付の時間を記録**」を選択します。
+1. 「**一般環境設定**」セクションで、「**未来の日付の時間を記録**」を選択します。
 
 1. 「**保存**」をクリックします。
 

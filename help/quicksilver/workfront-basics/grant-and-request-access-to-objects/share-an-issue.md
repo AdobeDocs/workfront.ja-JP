@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、ユーザーにアクセスレベル
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 56%
+source-wordcount: '1237'
+ht-degree: 55%
 
 ---
 
@@ -24,23 +24,20 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-オブジェクトを共有するには、次の条件を満たしている必要があります。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準</p> 
-   または
-   <p>現在：ワーク以上</p>
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -54,7 +51,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -88,7 +85,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
    * そのイシュー、プロジェクト、プログラム、ポートフォリオの任意の親オブジェクトに対する権限を指定します。イシューは親オブジェクトから権限を継承します。オブジェクトの継承された権限の表示については、[オブジェクトの継承された権限の表示](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)を参照してください。
    * そのイシューがあるプロジェクトの作成に使用したテンプレートで、プロジェクト共有にエンティティを追加します。テンプレートからプロジェクトを共有する方法については、[テンプレートの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
 
-   * プロジェクトを編集するときに、プロジェクト内のすべてのイシューに対する権限を指定します。プロジェクトに対するユーザーの権限に基づいてプロジェクトのイシューやリクエストへのアクセス権を管理する方法については、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事の [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) の節を参照してください。
+   * プロジェクトを編集するときに、プロジェクト内のすべてのイシューに対する権限を指定します。プロジェクトに対するユーザーの権限に基づいてプロジェクトのイシューやリクエストへのアクセス権を管理する方法については、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事の [](../../manage-work/projects/manage-projects/edit-projects.md#access) の節を参照してください。
 
      >[!TIP]
      >
@@ -168,7 +165,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 1. イシュー名の右側にある「**共有**」をクリックします。 **共有 [ イシュー名]** ダイアログボックスが開きます。
 
-   ![&#x200B; 問題を共有ボタン &#x200B;](assets/share-issue-button.png)
+   ![ 問題を共有ボタン ](assets/share-issue-button.png)
 
 1. **イシューへのアクセス権の付与** フィールドに、イシューを共有するユーザー、チーム、役割、グループ、会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
@@ -190,19 +187,19 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 1. （任意）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、イシューに対する特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-permission-options.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-permission-options.png)
 
 1. （任意）リンクを使用して問題をすばやく共有するには、「**リンクをコピー**」をクリックして受信者に転送します。
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
 ## 問題を一括で共有
 
 1. 共有するイシューを含むプロジェクトに移動します。
 
-1. プロジェクトページの「**イシュー**」タブで、共有する各イシューの左側にあるボックスを選択し、ページ上部にある **共有** アイコン ![&#x200B; 共有アイコン &#x200B;](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
+1. プロジェクトページの「**イシュー**」タブで、共有する各イシューの左側にあるボックスを選択し、ページ上部にある **共有** アイコン ![ 共有アイコン ](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
 
-   ![&#x200B; 一括共有の問題 &#x200B;](assets/bulk-share-issues.png)
+   ![ 一括共有の問題 ](assets/bulk-share-issues.png)
 
 1. 「**イシューへのアクセスの許可**」フィールドで、イシューを共有するユーザー、チーム、役割、グループ、会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
@@ -225,9 +222,9 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 1. （任意）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、イシューに対する特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-permission-options.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-permission-options.png)
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
 ## イシューの権限
 

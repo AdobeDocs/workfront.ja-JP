@@ -1,23 +1,25 @@
 ---
 product-area: projects
 navigation-topic: use-the-gantt-chart
-title: タスクリストのガントチャートにおける情報の更新
-description: タスクリストのガントチャートには、プロジェクトまたはテンプレートのタスクに関する詳細が表示されます。
+title: タスク リスト ガント チャートの情報を更新
+description: Adobe Workfront タスクリストのガントチャートには、プロジェクトまたはテンプレート上のタスクに関する詳細が表示されます。
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 98%
+source-wordcount: '1006'
+ht-degree: 90%
 
 ---
 
 # タスクリストの[!UICONTROL ガントチャート]における情報の更新
 
-タスクリストの[!UICONTROL ガントチャート]には、プロジェクトまたはテンプレートのタスクに関する詳細が表示されます。
+<!--Audited: 08/2025-->
 
-テンプレートでは、タスクリストの[!UICONTROL ガントチャート]は、テンプレートのタスクリストでタスクレベルで行われた更新を反映します。テンプレートに関連付けられている[!UICONTROL ガントチャート]は編集できません。
+Adobe Workfront タスクリストの [!UICONTROL  ガントチャート ] には、プロジェクトまたはテンプレート上のタスクに関する詳細が表示されます。
+
+テンプレートのタスクリスト [!UICONTROL  ガントチャート ] には、テンプレートのタスクリストで行われた更新がテンプレートタスクレベルで反映されます。 テンプレートに関連付けられている[!UICONTROL ガントチャート]は編集できません。
 
 プロジェクトでは、タスクリストの[!UICONTROL ガントチャート]でタスク情報を直接更新できます。
 
@@ -31,39 +33,67 @@ ht-degree: 98%
 
 ## アクセス要件
 
-この記事の手順に従うには、以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトとタスクへの[!UICONTROL Edit]アクセス権</p> <p>メモ：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトとタスクへの[!UICONTROL Edit]アクセス権</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトとタスクへの[!UICONTROL Manage]アクセス権 </p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトとタスクへの[!UICONTROL Manage]アクセス権</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++ 
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project and tasks </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## タスク期間の変更
 
 1. 変更するプロジェクトに移動します。
 1. 左パネルの「**[!UICONTROL タスク]**」をクリックします。
 
-   ![&#x200B; タスクエリア &#x200B;](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![ タスクエリア ](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. **[!UICONTROL ガントチャート]**&#x200B;アイコンをクリックします。
 
@@ -73,7 +103,7 @@ ht-degree: 98%
 
 1. （オプション）**[!UICONTROL 計画モード]**&#x200B;アイコンをクリックし、「手動保存」オプションの「**[!UICONTROL 標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 
-   ![&#x200B; 手動設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ 手動設定を有効にする ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. タスクのタイムラインにポインタを合わせて、タイムラインインジケーターを別の日付までドラッグします。
 1. タスクの正しい新しい完了日で、インジケーターをドロップします。
@@ -103,7 +133,7 @@ ht-degree: 98%
 
 1. （オプション）**[!UICONTROL 計画モード]**&#x200B;アイコンをクリックし、「手動保存」オプションの「**[!UICONTROL 標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 
-   ![&#x200B; 手動設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ 手動設定を有効にする ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 先行タスク関係を作成するには、タスクの開始点をクリックし、タスクの終了点までドラッグします。
 1. 先行タスク関係を削除するには、2 つのタスクを接続する先行タスクラインをクリックして選択し、キーボードの **[!UICONTROL Delete]** キーを押します。\
@@ -135,7 +165,7 @@ ht-degree: 98%
 
 1. （オプション）**[!UICONTROL 計画モード]**&#x200B;アイコンをクリックし、「手動保存」オプションの「**[!UICONTROL 標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 
-   ![&#x200B; 手動設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ 手動設定を有効にする ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. タスクの中央にポインタを合わせ、多方向矢印を見つけます。
 1. タスクをクリックし、目的の日付までドラッグします。

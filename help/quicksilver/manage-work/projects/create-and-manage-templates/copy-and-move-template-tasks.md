@@ -6,9 +6,9 @@ description: テンプレートタスクは、同じテンプレートまたは�
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2090'
 ht-degree: 94%
 
 ---
@@ -19,23 +19,24 @@ ht-degree: 94%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>プラン</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>テンプレートへのアクセスの編集</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>テンプレートへの編集アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -44,7 +45,34 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a template.</p> <p>You cannot share a template task.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## テンプレートタスクのコピーや移動に関する考慮事項
 
@@ -85,9 +113,9 @@ ht-degree: 94%
 1. 次のいずれかの操作を行います。
    * テンプレートタスクの名前をクリックして開きます。
    * リストから 1 つまたは複数のテンプレートタスクを選択します。
-1. （条件付き）テンプレートのタスクリストの上部またはテンプレートのタスク名の右側にある **詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、タスクを開いた場合は **コピー先** または **コピー** をクリックします。どちらにアクセスしているかによって異なります。
+1. （条件付き）テンプレートのタスクリストの上部またはテンプレートのタスク名の右側にある **詳細** メニュー ![ 詳細アイコン ](assets/more-icon.png) をクリックし、タスクを開いた場合は **コピー先** または **コピー** をクリックします。どちらにアクセスしているかによって異なります。
 「テンプレートのコピー」タスクボックスが開きます。
-   ![&#x200B; コピーテンプレート タスク ボックス &#x200B;](assets/copy-template-task-box-unshimmed.png)
+   ![ コピーテンプレート タスク ボックス ](assets/copy-template-task-box-unshimmed.png)
 1. （オプション）**テンプレートタスク名**&#x200B;フィールドでテンプレートタスクの名前を変更します。
 
    >[!TIP]
@@ -208,9 +236,9 @@ ht-degree: 94%
 1. 次のいずれかの操作を行います。
    * テンプレートタスクの名前をクリックして開きます。
    * リストから 1 つまたは複数のテンプレートタスクを選択します。
-1. （条件付き）テンプレートのタスクリストの上部またはテンプレートのタスク名の右側にある **詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、タスクを開いた場合は「**移動**」または **移動** をクリックします。どちらにアクセスしているかによって、移動オプションをクリックします。
+1. （条件付き）テンプレートのタスクリストの上部またはテンプレートのタスク名の右側にある **詳細** メニュー ![ 詳細アイコン ](assets/more-icon.png) をクリックし、タスクを開いた場合は「**移動**」または **移動** をクリックします。どちらにアクセスしているかによって、移動オプションをクリックします。
 「テンプレートを移動」タスクボックスが開きます。
-   ![&#x200B; テンプレート タスク ボックスの移動 &#x200B;](assets/move-template-task-box-unshimmed.png)
+   ![ テンプレート タスク ボックスの移動 ](assets/move-template-task-box-unshimmed.png)
 
 1. （オプション）「**テンプレートタスク名**」フィールドでテンプレートタスクの名前を変更します。
 

@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: イシューの情報
+title: 問題情報：記事インデックス
 description: イシューとは、プロジェクトの想定外または計画外の作業を表す作業項目です。次の記事には、イシューに関する情報が含まれています。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 95ea93d7-6cc3-4aaa-a8f7-8a59dda6b5f1
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 100%
+source-wordcount: '125'
+ht-degree: 93%
 
 ---
 
-# イシューの情報
+# 問題情報：記事インデックス
+
+<!--Audited: 08/2025-->
 
 プロジェクトに取り組んでいると、予期しないイベントが発生することがあります。これらの予期しないイベントを、特定のプロジェクトやタスクのイシューとして記録できます。
 

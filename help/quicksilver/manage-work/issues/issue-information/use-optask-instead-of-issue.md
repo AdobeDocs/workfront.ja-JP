@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: イシューを参照する際の「opTask」と「issue」の使用
+title: イシューを参照する際は「opTask」と「issue」を使用する
 description: イシューの名前は、Adobe Workfront データベースに opTask として現れます。場合によっては、issue フィールド名を使用してイシューを参照する必要がありますが、ほとんどの場合、イシューの参照時には issue ではなく opTask フィールド名を使用する必要があります。
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
 # イシューを参照する際の「opTask」と「issue」の使用
+
+<!--Audited: 08/2025-->
 
 イシューの名前は、Adobe Workfront データベースに `opTask` として現れます。場合によっては、`issue` フィールド名を使用してイシューを参照する必要がありますが、ほとんどの場合、イシューの参照時には `issue` ではなく `opTask` フィールド名を使用する必要があります。
 

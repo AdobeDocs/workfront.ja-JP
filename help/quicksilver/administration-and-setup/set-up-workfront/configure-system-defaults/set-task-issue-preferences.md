@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '2251'
+source-wordcount: '2228'
 ht-degree: 85%
 
 ---
@@ -36,30 +36,27 @@ Linked to Converting Issues.-->
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td><p>新規：[!UICONTROL Standard]</p>
-   または
-   <p>現在：[!UICONTROL Plan]</p></td> 
+   <td>[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -121,7 +118,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL 問題をタスクに変換する際に が発生する &#x200B;]</td> 
+    <td role="rowheader">[！問題をタスクに変換する際に UICONTROL が発生する ]</td> 
     <td> <p>このセクションの設定で、イシューからタスクへ変換するプロセスで起こることを定めます。</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>：イシューを変換する場合、タスクが完了するまで、イシューはイシューとして表示され続けます。タスクが完了すると、イシューのステータスは自動的に [!UICONTROL Closed] に変わります。選択を解除すると、イシューは削除されます。</p> <p><b>メモ</b>：  <p>この設定のステータスに関係なく、イシューを削除するアクセス権や権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。イシューに対するアクセス権および権限について詳しくは、次を参照してください。</p> 
@@ -204,16 +201,16 @@ Linked to Converting Issues.-->
 
 この設定を有効にすると、次の情報が表示されます。
 
-* [!UICONTROL **ホーム**] エリアにある [!UICONTROL &#x200B; マイ作業 &#x200B;]、[!UICONTROL &#x200B; マイタスク &#x200B;] または [!UICONTROL &#x200B; マイイシュー &#x200B;] ウィジェットの [!UICONTROL &#x200B; 委任 &#x200B;] リンク。 ここからタスクとイシューの割り当てを委任できます。
+* [!UICONTROL **ホーム**] エリアにある [!UICONTROL  マイ作業 ]、[!UICONTROL  マイタスク ] または [!UICONTROL  マイイシュー ] ウィジェットの [!UICONTROL  委任 ] リンク。 ここからタスクとイシューの割り当てを委任できます。
 
   >[!NOTE]
   >
-  >  「[!UICONTROL **承認を委任**]」リンクは、「[!UICONTROL &#x200B; ホーム &#x200B;] 領域で常に有効になっています。
+  >  「[!UICONTROL **承認を委任**]」リンクは、「[!UICONTROL  ホーム ] 領域で常に有効になっています。
 
 * タスクまたはイシューのヘッダー内の「[!UICONTROL 割り当てと委任]」エリアで、タスクまたはイシューが別のユーザーに委任されたことを示すメッセージ。
-* タスクまたはイシューが [!UICONTROL &#x200B; ホーム &#x200B;] の [!UICONTROL &#x200B; 担当作業 &#x200B;] ウィジェットで別のユーザーに委任されていることを示します。
+* タスクまたはイシューが [!UICONTROL  ホーム ] の [!UICONTROL  担当作業 ] ウィジェットで別のユーザーに委任されていることを示します。
 
-  「[!UICONTROL &#x200B; ユーザーがタスクおよび問題を委任することを許可 &#x200B;]」設定を無効にすると、現在スケジュールされている委任が停止され、委任されたユーザーには、委任が停止したことを通知するメールが届きます。
+  「[!UICONTROL  ユーザーがタスクおよび問題を委任することを許可 ]」設定を無効にすると、現在スケジュールされている委任が停止され、委任されたユーザーには、委任が停止したことを通知するメールが届きます。
 
 他のユーザーへの作業の委任について詳しくは、次の記事を参照してください。
 
@@ -301,7 +298,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 1. 次のいずれかの操作を行います。
 
-   * グループの下のグループの管理者がグループの環境設定を設定できるようにするには、そのロックを解除します ![&#x200B; ロック解除切替スイッチ &#x200B;](assets/unlock-toggle-button.png)。
+   * グループの下のグループの管理者がグループの環境設定を設定できるようにするには、そのロックを解除します ![ ロック解除切替スイッチ ](assets/unlock-toggle-button.png)。
    * グループとその下のすべてのグループで環境設定の設定を使用する場合は、ロックされている（デフォルト）ことを確認します。
 
      >[!IMPORTANT]

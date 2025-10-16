@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront]  パスワードをリセットできま�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
+source-git-commit: 80897b9b7752283ec985611e349e4180e48b224a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 68%
+source-wordcount: '232'
+ht-degree: 66%
 
 ---
 
@@ -27,32 +27,21 @@ ht-degree: 68%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。 
-
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
+   <td>Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>投稿者以上</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>リクエスト以上</p></li>
-         </ul>
-   </td>
+   <p>投稿者以上</p>
+   <p>リクエスト以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,11 +56,11 @@ ht-degree: 68%
 
 ![メインメニューを開き、ユーザー名を選択します。](assets/main-menu-options-350x481.png)
 
-1. **[!UICONTROL その他メニュー]**![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**[!UICONTROL 編集]** をクリックします。
+1. **[!UICONTROL その他メニュー]**![ その他アイコン ](assets/more-icon.png) をクリックしてから、**[!UICONTROL 編集]** をクリックします。
 
 1. **[!UICONTROL 個人情報]** の下に表示される **[!UICONTROL ユーザーの編集]** ボックスで、[**[!UICONTROL パスワードの変更]**] をクリックします。
 
-   ![[ パスワードの変更 ] をクリック &#x200B;](assets/edit-user-change-password.png)
+   ![[ パスワードの変更 ] をクリック ](assets/edit-user-change-password.png)
 
    組織が [!DNL Workfront] を SSO ソリューションと統合している場合、「**[!UICONTROL パスワードを変更]**」をクリックすると、SSO システムを通じてパスワードをリセットするようにルーティングされる場合があります。 これにより、SSO パスワードがリセットされ、組織内での他のすべてのアプリケーションへのログインに影響します。
 
@@ -86,4 +75,4 @@ ht-degree: 68%
 
    パスワードの規則は、[!DNL Workfront] 管理者が指定する設定によって、これより厳しくなる場合があります。
 
-1. **[!UICONTROL 保存]**&#x200B;をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。

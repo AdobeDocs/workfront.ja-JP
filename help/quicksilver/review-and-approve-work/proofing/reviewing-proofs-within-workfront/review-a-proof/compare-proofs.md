@@ -7,10 +7,10 @@ description: プルーフビューアを使用して、異なる 2 つのプル�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 95%
+source-wordcount: '284'
+ht-degree: 92%
 
 ---
 
@@ -22,32 +22,34 @@ ht-degree: 95%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：レビュー</p> <p>従来のプラン：レビュー</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>任意</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">プルーフの役割 </td> 
+   <td>レビュアー、レビュアーおよび承認者、作成者、モデレーター</td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
    <td>マネージャー以上</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -74,7 +76,7 @@ ht-degree: 95%
 
    各プルーフの上にパンくずリストを個別に配置すると、プルーフに関連付けられた作業項目を表示および移動できます。
 
-   ![&#x200B; 配達確認のパンくずリストの比較 &#x200B;](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![ 配達確認のパンくずリストの比較 ](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    2 つのプルーフを比較するために使用できるツールについて詳しくは、[プルーフビューアでプルーフの比較](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)の[比較ツールの使用](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)を参照してください。
 

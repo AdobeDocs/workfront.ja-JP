@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: ビジネスケースの承認
 description: プロジェクトリクエストのビジネスケースを完了して送信した後、ビジネスケースは承認される必要があります。これは、組織のワークフローによって異なります。ビジネスケースの承認がなくてもプロジェクトを開始できますが、Adobe Workfront 管理者やプロジェクト所有者は、そうすることが理想的だとは考えてはいないかもしれません。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 81%
+source-wordcount: '682'
+ht-degree: 83%
 
 ---
 
@@ -29,18 +29,16 @@ ht-degree: 81%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-   <p>現在：Prime以降</p>
-   <p>または</p>
-   <p>レガシー：ビジネス以上</p> 
+   <p>Prime以上</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>現在：標準 </p> 
-   <p>レガシー：プラン </p> </td> 
+   <p>標準 </p> 
+   <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -53,7 +51,7 @@ ht-degree: 81%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: business-case-and-scorecards
 title: ビジネスケースのエリアの概要
 description: この記事では、プロジェクトのビジネスケースのエリアについて説明します。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 43%
@@ -23,7 +23,7 @@ ht-degree: 43%
 
 プロジェクトに表示される前に、Adobe Workfront管理者またはグループ管理者がビジネスケース内のすべてのセクションを有効にする必要があります（プロジェクト情報セクションを除く）。 「プロジェクト情報」セクションは、デフォルトで有効になっています。
 
-ビジネスケースの領域を有効にする方法については、記事 [&#x200B; システム全体のプロジェクト環境設定の指定 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) の「ビジネスケース」の節を参照してください。
+ビジネスケースの領域を有効にする方法については、記事 [ システム全体のプロジェクト環境設定の指定 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) の「ビジネスケース」の節を参照してください。
 
 プロジェクトのビジネスケースに含まれるエリアを次に示します。
 
@@ -82,7 +82,7 @@ ht-degree: 43%
 
 プロジェクトでPortfolio Optimizer でスコアを受け取るには、目標の定義はオプションです。 このセクションは、ビジネスケースの唯一のオプションセクションです。ビジネスケースの他のすべてのセクションは、Portfolio Optimizer でプロジェクトにスコアリングする前に完了する必要があります。 目標を作成する際に、目標の優先度レベルを指定できます。
 
-詳しくは、[&#x200B; ビジネスケースの目標の作成 &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md) を参照してください。
+詳しくは、[ ビジネスケースの目標の作成 ](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md) を参照してください。
 
 ## 費用
 
@@ -99,9 +99,9 @@ Workfront 管理者はカスタム費用タイプを設定できます。
 
 予算計上コストと純価について詳しくは、[ビジネスケースの財務フィールドの概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md)を参照してください。
 
-費用について詳しくは、[&#x200B; プロジェクト費用の管理 &#x200B;](../../../manage-work/projects/project-finances/manage-project-expenses.md) を参照してください。
+費用について詳しくは、[ プロジェクト費用の管理 ](../../../manage-work/projects/project-finances/manage-project-expenses.md) を参照してください。
 
-カスタム費用タイプの作成について詳しくは、「[&#x200B; カスタム費用タイプの作成 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)」を参照してください。
+カスタム費用タイプの作成について詳しくは、「[ カスタム費用タイプの作成 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)」を参照してください。
 
 ## リソース予算計上
 
@@ -156,9 +156,9 @@ Workfront 管理者はカスタムリスクタイプを設定できます。
 
 プロジェクトの純価値の詳細については、[ビジネスケースの財務フィールドの概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md)を参照してください。
 
-リスクの作成の詳細については、「[&#x200B; プロジェクトのリスクの作成と編集 &#x200B;](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)」を参照してください。
+リスクの作成の詳細については、「[ プロジェクトのリスクの作成と編集 ](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)」を参照してください。
 
-カスタム危険タイプの作成および編集の詳細については、「[&#x200B; 危険タイプの編集および作成 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)」を参照してください。
+カスタム危険タイプの作成および編集の詳細については、「[ 危険タイプの編集および作成 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)」を参照してください。
 
 ## スコアカード
 
@@ -168,7 +168,7 @@ Workfront 管理者はカスタムリスクタイプを設定できます。
 
 プロジェクトへのスコアカードの適用および整合性スコアの生成について詳しくは、[プロジェクトへのスコアカードの適用および整合性スコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)を参照してください。
 
-スコアカードの作成について詳しくは、[&#x200B; スコアカードの作成 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) を参照してください。
+スコアカードの作成について詳しくは、[ スコアカードの作成 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) を参照してください。
 
 ## カスタムフォーム
 
@@ -180,7 +180,7 @@ Workfront 管理者はカスタムリスクタイプを設定できます。
 
 ビジネスケースのエリアを有効にする方法について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
-カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 カスタムフォームの適用について詳しくは、[ビジネスケースへのカスタムフォームの添付](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)を参照してください。
 

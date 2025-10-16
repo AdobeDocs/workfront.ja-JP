@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「表示：時間リストのタスクと問題の詳細の組み合わせ」
+title: 表示：時間リスト内のタスクと問題の詳細の組み合わせ
 description: この時間ビューは、sharecol タグを使用して、タスク名列やイシュー名列に加えて、タスクやイシューの予定時間数を組み合わせたものです。時間エントリはタスクかイシューのどちらかにのみ属することができるので、両方のオブジェクトが同じ列に同時に表示されることはありません。ビューの各行には、タスクかイシューのどちらかの情報が入力されます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 64%
+source-wordcount: '326'
+ht-degree: 61%
 
 ---
 
@@ -20,34 +20,27 @@ ht-degree: 64%
 
 この時間表示は、タスクと問題の名前の列と、`sharecol` タグを使用したタスクと問題の予定時間を組み合わせたものです。 時間エントリはタスクかイシューのどちらかにのみ属することができるので、両方のオブジェクトが同じ列に同時に表示されることはありません。ビューの各行には、タスクかイシューのどちらかの情報が入力されます。
 
-`sharecol` タグについて詳しくは、[&#x200B; 表示：1 つの共有列における複数の列の情報の結合 &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) を参照してください。
+`sharecol` タグについて詳しくは、[ 表示：1 つの共有列における複数の列の情報の結合 ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) を参照してください。
 
 ![custom_view_hours_with_task_and_issue_information.png](assets/custom-view-hours-with-350x48.png)
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-    <p>新規：</p>
-   <ul><li><p>フィルターを変更するコントリビューター </p></li>
-   <li><p>レポートを変更する場合は Standard</p></li> </ul>
-
-<p>現在：</p>
-   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
-   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
+   <p>フィルターの変更者または変更依頼 </p>
+   <p>レポートを変更するための標準またはプラン</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -60,7 +53,7 @@ ht-degree: 64%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

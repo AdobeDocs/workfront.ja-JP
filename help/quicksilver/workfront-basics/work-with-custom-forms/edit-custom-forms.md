@@ -7,54 +7,88 @@ description: フォームをオブジェクトに添付した後に、カスタ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 95%
+source-wordcount: '985'
+ht-degree: 92%
 
 ---
 
 # カスタムフォームフィールドの情報を編集する
 
+<!--Audited: 10/2025-->
+
 フォームをオブジェクトに添付した後に、カスタムフォームの情報を編集できます。カスタムフォームをオブジェクトに追加する方法について詳しくは、[オブジェクトにカスタムフォームを追加する](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront プラン*</p> </td> 
-   <td>チームまたはそれ以上</td> 
+   <td role="rowheader"> <p>Adobe Workfront パッケージ</p> </td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront ライセンス*</p> </td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td> <p>投稿者以上</p> 
+   <p>リクエスト以上</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>カスタムフォームを編集するオブジェクトへのアクセスを編集します</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>カスタムフォームを編集するオブジェクトへのアクセスを編集します</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>オブジェクト権限</p> </td> 
    <td> 
     <ul> 
      <li> <p>カスタムフォームを編集するオブジェクトに対する参加以上の権限</p> </li> 
-     <li>編集するフィールドに対する権限を表示します。 カスタムフィールドの共有権限については、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref"> カスタムフィールドとウィジェットの共有の設定 </a> を参照してください。</li> 
-     <li> <p>編集するフィールドが配置されているフォーム上のセクションに対する権限を編集</p> </li> 
-    </ul> <p>オブジェクトの追加アクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト</a>を参照してください。</p> </td> 
+     <li><p>編集するフィールドに対する権限を表示します。</p></li> 
+     <li><p>編集するフィールドが配置されているフォーム上のセクションに対する権限を編集</p></li> 
+    </ul></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Team or higher</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront licenses*</p> </td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>Edit access to the object for which you want to edit the custom form</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute or higher permissions on the object for which you want to edit the custom form</p> </li> 
+     <li>View permissions on the fields you want to edit. For information about sharing permissions for custom fields, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</li> 
+     <li> <p>Edit permissions for the sections on the form where the fields you want to edit are located</p> </li> 
+    </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 前提条件
 
-* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 * オブジェクトには、カスタムフォームを添付する必要があります。
 
   カスタムフォームをオブジェクトに追加する方法について詳しくは、[オブジェクトにカスタムフォームを追加する](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
@@ -91,7 +125,7 @@ ht-degree: 95%
    * テキストフィールド（太字、斜体、下線）の書式を設定できるのは、フォームを作成したユーザーが「書式設定」フィールドタイプのテキストフィールドとして設定した場合のみです。1 行のテキストフィールドと段落テキストフィールドは書式設定できません。
    * 日付フィールドタイプで時刻を更新できるのは、フォームを作成したユーザーがフィールドの作成時に時刻を含めている場合だけです。
 
-   すべてのフィールドタイプについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   すべてのフィールドタイプについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. 「**変更を保存**」をクリックします。
 
@@ -126,15 +160,13 @@ ht-degree: 95%
 1. 更新する計算カスタムフィールドがあるオブジェクトを選択します。
 1. **編集アイコン**&#x200B;をクリックします。
 1. 左側のメニューで「**カスタムフォーム**」をクリックし、「**カスタム式の再計算**」を選択します。
-1. 「**変更を**&#x200B;**保存**」をクリックします。
+1. 「**変更を****保存**」をクリックします。
 
    選択したすべてのオブジェクトのすべてのカスタムフィールドが計算されます。
 
 >[!TIP]
 >
->プロジェクトの複雑さによっては、最適なパフォーマンスを確保するために計算カスタムフィールドを一括で再計算する場合は、多数のプロジェクトを選択しないことをお勧めします。プロジェクトが複雑すぎる原因として考えられるものとしては、複数の依存関係や割り当てまたは多数のカスタムフィールドなどがあります。
->
->プロジェクトのリストからカスタム式を一括して再計算するには、次の手順に従います。
+>また、オブジェクトのリストからカスタム式を再計算することもできます。 例えば、プロジェクトのリストからカスタム式を一括で再計算するには、次の手順を実行します。
 >
 >1. プロジェクトリストまたはレポートに移動し、1 つまたは複数のプロジェクトを選択します。
 >1. **その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックし、「**カスタム式の再計算**」をクリックします。
@@ -142,3 +174,7 @@ ht-degree: 95%
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >選択したすべてのプロジェクトのすべてのカスタムフィールドが計算されます。
+>>すべてのオブジェクトのすべてのリストにこの機能があるわけではありません。
+>
+>プロジェクトの複雑さによっては、最適なパフォーマンスを確保するために計算カスタムフィールドを一括で再計算する場合は、多数のプロジェクトを選択しないことをお勧めします。プロジェクトが複雑すぎる原因として考えられるものとしては、複数の依存関係や割り当てまたは多数のカスタムフィールドなどがあります。
+

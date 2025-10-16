@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: プロジェクトのビジネス ケースのエクスポート
 description: ビジネスケースを印刷したり、より凝縮された形式でメールに添付したりする必要がある場合に備えて、ビジネスケースを PDF ファイルにエクスポートできます。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 40%
+source-wordcount: '176'
+ht-degree: 47%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 40%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <p>現在：Prime以降 </p> <p>レガシー：Pro 以上 </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> <p>Prime以上 </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td> 
-   <p>現在：Light 以上</p>
-   <p>レガシー：レビュー以上</p> </td> 
+   <p>ライト以上</p>
+   <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -46,7 +46,7 @@ ht-degree: 40%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -58,6 +58,6 @@ ht-degree: 40%
 1. 左側のパネルで「**ビジネスケース**」をクリックします。
 1. **ビジネス ケースの概要** 領域の右上隅にある [**エクスポート**] をクリックします。 PDF ファイルがコンピューターにダウンロードされます。
 
-   ![&#x200B; ビジネスケースの概要 &#x200B;](assets/bc-summary.png)
+   ![ ビジネスケースの概要 ](assets/bc-summary.png)
 
 

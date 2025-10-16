@@ -6,10 +6,10 @@ description: ドキュメントから個々の承認者またはレビュアー�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 77%
+source-wordcount: '466'
+ht-degree: 69%
 
 ---
 
@@ -25,32 +25,35 @@ ht-degree: 77%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>レビュー以上</p>
+   <p>Frame.io 統合を使用している場合、承認ワークフローを作成するには Standard ライセンスが必要です。</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクト、タスク、タスク、タスク、テンプレート、ポートフォリオ、プログラム、レポート、ダッシュボード、カレンダー、ドキュメントへの表示アクセス権、またはより高いレベルのアクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクト、タスク、タスク、タスク、テンプレート、ポートフォリオ、プログラム、レポート、ダッシュボード、カレンダー、ドキュメントへの表示アクセス権、またはより高いレベルのアクセス権</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>リクエストのアクセスまたは承認に関連付けられたオブジェクトへのアクセス管理 </p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>リクエストのアクセスまたは承認に関連付けられたオブジェクトへのアクセス管理 </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -60,7 +63,7 @@ ht-degree: 77%
 
 1. 左側のウィンドウで「**承認**」を選択します。
 
-1. 削除する承認者またはレビュアーの名前にポインタを合わせ、名前の後に表示される **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](../assets/delete.png) をクリックします。
+1. 削除する承認者またはレビュアーの名前にポインタを合わせ、名前の後に表示される **削除** アイコン ![ 削除アイコン ](../assets/delete.png) をクリックします。
 
    承認またはレビューリクエストが削除され、承認者は、承認が不要になったという通知を受け取ります。承認関連の共有アクセスも削除されます。
 
@@ -76,7 +79,7 @@ ht-degree: 77%
 
 1. バージョンドロップダウンで、承認者またはレビュアーを削除するドキュメントのバージョンを選択します。デフォルトでは最新バージョンが選択されます。
 
-1. ドキュメントの概要パネルの「**承認**」セクションにスクロールします。削除する承認者またはレビュアーの名前にポインタを合わせ、名前の後に表示される **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](../assets/delete.png) をクリックします。
+1. ドキュメントの概要パネルの「**承認**」セクションにスクロールします。削除する承認者またはレビュアーの名前にポインタを合わせ、名前の後に表示される **削除** アイコン ![ 削除アイコン ](../assets/delete.png) をクリックします。
 
    承認またはレビューリクエストが削除され、承認者は、承認が不要になったという通知を受け取ります。承認関連の共有アクセスも削除されます。
 

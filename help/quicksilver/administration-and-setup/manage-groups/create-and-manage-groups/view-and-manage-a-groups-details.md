@@ -5,10 +5,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 95%
+source-wordcount: '604'
+ht-degree: 90%
 
 ---
 
@@ -20,56 +20,35 @@ ht-degree: 95%
 * ビジネスリーダーおよびグループ管理者の名前
 * グループとサブグループを公開または非公開にするオプション
 
-  <!--
-  <li>An option that allows you to deactivate or reactivate a group and its subgroups.
-  DRAFTED IN FLARE:
-  Make this change when Callisto adds the
-  <b>Is active</b>
-   option to the Details pag
-  </li>
-  -->
-
 グループを管理するその他の方法について詳しくは、[グループの作成](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)を参照してください。
 
 グループを非アクティブ化または再アクティブ化する方法については、[グループの非アクティブ化と再アクティブ化](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)を参照してください。
 
-<!--
-DRAFTED IN FLARE:
-Delete this paragraph when Callisto adds the
-<b>Is active</b>
- option to the Details pag
--->
-
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -99,7 +78,7 @@ Delete this paragraph when Callisto adds the
      </tr> 
      <tr> 
       <td role="rowheader">グループのアクセシビリティ</td> 
-      <td> <p>（サブグループではなく、グループの詳細を表示している場合にのみ使用可能。）「<strong>このグループとサブグループをプライベートにする</strong>」オプションを有効または無効にします。</p> <p>パブリックグループの場合、編集ユーザー権限のあるユーザー（グループの内外を問わない）は、他のユーザーのプロファイルにグループを追加できます。これは、プライベートグループに対しては実行できません。</p> <p>このオプションは、複数のレベルを持つグループの最上位階層の親グループでのみ編集できます。すべてのサブグループは親グループの設定を継承します。</p> </td> 
+      <td> <p>（サブグループではなく、グループの詳細を表示している場合にのみ使用できます）。 「このグループとサブグループをプライベートにする <strong> オプションを有効または無効 </strong> します。</p> <p>パブリックグループの場合、編集ユーザー権限のあるユーザー（グループの内外を問わない）は、他のユーザーのプロファイルにグループを追加できます。これは、プライベートグループに対しては実行できません。</p> <p>このオプションは、複数のレベルを持つグループの最上位階層の親グループでのみ編集できます。すべてのサブグループは親グループの設定を継承します。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">グループの関係者</td> 

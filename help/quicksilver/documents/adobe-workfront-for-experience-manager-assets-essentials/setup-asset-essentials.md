@@ -6,10 +6,10 @@ description: Experience Manager Assets Essentials で作業とコンテンツを
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 95%
+source-wordcount: '651'
+ht-degree: 94%
 
 ---
 
@@ -29,42 +29,42 @@ Experience Manager Assets Essentials で作業とコンテンツを結び付け�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] プラン*
+   <td><strong>Adobe Workfront パッケージ </strong>
    </td>
    <td>任意
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] ライセンス
+   <td><strong>Adobe Workfront ライセンス </strong>
    </td>
-   <td><p>現在：[!UICONTROL Plan]</p>
-   <p>新規：[!UICONTROL Standard]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] ライセンス
-   </td>
-   <td>[!UICONTROL Standard]
+   <td>
+   <p>標準</p>
+   <p>プラン</p>
    </td>
   </tr>
   <tr>
-   <td>製品
+   <td><strong> 追加製品 </strong>
    </td>
-   <td>Experience Manager Assets Essentials が必要であり、Admin Console でユーザーとして製品に追加されている必要があります。
+   <td>Experience Manager Assets as a Cloud Service または Assets Essentials が必要であり、製品にユーザーとして追加されている必要があります。
    </td>
   </tr>
   <tr>
-   <td>アクセスレベル設定
+   <td><strong>Experience Manager 権限</strong>
    </td>
-   <td>[!DNL Workfront] 管理者である必要があります。
+   <td>Experience Manger 統合の宛先フォルダーへの書き込みアクセス権が必要です。
+   </td>
+  </tr>
+  <tr>
+   <td><strong>アクセスレベル設定</strong>
+   </td>
+   <td>Experience Manager 統合を設定するには、Workfront 管理者である必要があります。設定が完了すると、プランライセンスを持つユーザーは、個々のプロジェクトにリンクされたフォルダーを設定できます。
    </td>
   </tr>
 </table>
 
-この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -111,8 +111,8 @@ Workfront オブジェクトデータを、Experience Manager Assets のアセ�
 
 開始する前に、
 
-* [Adobe Workfront と Experience Manager Assets 間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)の説明に従って、Experience Manager Assets Essentials のメタデータスキーマを設定します。
-* （オプション）Workfront でカスタムフォームフィールドを設定します。Workfront には、使用できる多くの組み込みのカスタムフィールドがあります。ただし、独自のカスタムフィールドを作成することもできます。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+* [Adobe Workfront と Experience Manager Assets 間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)の説明に従って、Experience Manager Assets Essentials のメタデータスキーマを設定します。
+* （オプション）Workfront でカスタムフォームフィールドを設定します。Workfront には、使用できる多くのビルトインのカスタムフィールドがあります。ただし、独自のカスタムフィールドを作成することもできます。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## サポートされている Workfront および Experience Manager Assets のフィールド
 
@@ -126,15 +126,15 @@ Workfront でサポートされている任意のフィールドを、Experience
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=ja).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 
 ### アセット
 
-アセットが Workfront から初めてプッシュされると、メタデータがマッピングされます。組み込みフィールドまたはカスタムフィールドを持つドキュメントは、アセットを Experience Manager Assets Essentials に初めて送信する際に、指定したフィールドに自動的にマッピングされます。
+アセットが Workfront から初めてプッシュされると、メタデータがマッピングされます。ビルトインのフィールドまたはカスタムフィールドを持つドキュメントは、アセットを Experience Manager Assets Essentials に初めて送信する際に、指定したフィールドに自動的にマッピングされます。
 
-1. **Workfront のフィールド**&#x200B;列で、組み込みフィールドまたはカスタム Workfront フィールドを選択します。
+1. **Workfront のフィールド**&#x200B;列で、ビルトインのフィールドまたはカスタム Workfront フィールドを選択します。
 
    >[!NOTE]
    >

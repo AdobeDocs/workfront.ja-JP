@@ -6,10 +6,10 @@ description: ' [!DNL Kanban]  ボードで、フラグは、ストーリーが�
 author: Lisa
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 84%
+source-wordcount: '476'
+ht-degree: 83%
 
 ---
 
@@ -30,8 +30,6 @@ ht-degree: 84%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,14 +37,13 @@ ht-degree: 84%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p> 
-   または
-   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -70,15 +67,15 @@ ht-degree: 84%
 
 1. 現在のフラグをクリックし、次のフラグオプションから選択します。
 
-   * **[!UICONTROL 順調 &#x200B;]:** ストーリーは適切なステータスにあり、現時点では、何もする必要はありません。
+   * **[!UICONTROL 順調 ]:** ストーリーは適切なステータスにあり、現時点では、何もする必要はありません。
 
      かんばんボードの各ストーリーの既定のフラグです。
      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL ブロック済み]：**&#x200B;ストーリーは次のステータスに進めません。ストーリーにこのフラグを設定した場合、ストーリーは WIP 制限にカウントされません。（WIP 制限について詳しくは、「かんばんの設定 [&#x200B; を参照し &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) ください。
+   * **[!UICONTROL ブロック済み]：**&#x200B;ストーリーは次のステータスに進めません。ストーリーにこのフラグを設定した場合、ストーリーは WIP 制限にカウントされません。（WIP 制限について詳しくは、「かんばんの設定 [ を参照し ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) ください。
 
      ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL 取り込み準備完了 &#x200B;]:** ストーリーを、チームの別のメンバーが次のステータスに移動する準備が整いました。
+   * **[!UICONTROL 取り込み準備完了 ]:** ストーリーを、チームの別のメンバーが次のステータスに移動する準備が整いました。
 
      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)

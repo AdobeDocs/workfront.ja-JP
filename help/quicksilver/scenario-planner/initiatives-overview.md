@@ -2,15 +2,15 @@
 content-type: overview
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Scenario Planner のイニシアチブの概要
+title: シナリオプランナーのイニシアチブの概要
 description: シナリオプランナーは、新しい Adobe Workfront エクスペリエンスでのみ使用でき、追加のライセンスが必要です。Workfront シナリオプランナーについて詳しくは、シナリオプランナーの概要を参照してください。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -45,11 +45,6 @@ ht-degree: 100%
 * 1 つのプランに複数のイニシアチブを作成できます。各イニシアチブでは、部署での作業を達成するための高レベルな戦略の概要を説明できます。
 * プラン内のイニシアチブに優先順位を付けて、最も重要なイニシアチブに対して最も多くの予算と最も多くのリソースを確実に確保されるようにできます。
 * プラン内でイニシアチブを作成する場合、そのプランを表示するすべてのユーザーが、プラン内のすべてのイニシアチブを表示することもできます。
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change when we add to the access levels granularity)</p>
-  -->
-
 * イニシアチブを公開して、プロジェクトを作成したり、リンクされたプロジェクトを更新したりできます。イニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でイニチアチブを公開することでプロジェクトの更新または作成を参照してください。
 
 ## イニシアチブに関する財務情報
@@ -86,7 +81,7 @@ ht-degree: 100%
     <p> [!DNL Workfront] は次の式を使用して、イニシアチブ期間中の毎月の人件費を計算します。</p> 
      <p><code>Monthly People Costs = SUM(Job role hourly rate * 160 * Number of FTEs)</code> </p> 
       <p><b>例</b></p>
-      <p>イニシアチブの期間が 6 か月で、毎月デザイナー（1 FTE に対する時間レート：50 ドル）が 1 人、イニシアチブの 2 か月について Web デザイナー（時間レート：100 ドル）が 1 人必要な場合、イニシアチブの人件費は次のように算出されます。</p>
+      <p>イニシアチブの期間が 6 か月で、毎月デザイナー（1 FTE に対する時間レート：50 ドル）が 1 人、イニシアチブの 2 か月について web デザイナー（時間レート：100 ドル）が 1 人必要な場合、イニシアチブの人件費は次のように算出されます。</p>
       <code>Initiative People Costs = 50*160*6 + 100*160*2 = 48,000 + 32,000 = 80,000</code>        
   </td> 
   </tr> 

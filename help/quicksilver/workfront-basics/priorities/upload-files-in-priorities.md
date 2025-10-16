@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 26%
+source-wordcount: '324'
+ht-degree: 21%
 
 ---
 
@@ -23,21 +23,19 @@ ht-degree: 26%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p> 任意</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td> 
-   <p>新規：Contributor 以上</p> 
-   <p>現在：Request 以上</p> </td> 
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -46,7 +44,7 @@ ht-degree: 26%
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -54,14 +52,14 @@ ht-degree: 26%
 
 {{step1-to-priorities}}
 
-1. 名前の上にマウスポインターを置いて、**その他**![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
+1. 名前の上にマウスポインターを置いて、**その他**![ その他のアイコン ](assets/more-icon.png) アイコンをクリックします。
 1. 「**アップロード**」をクリックします。
-   ![&#x200B; 更新、時間をログ記録、アップロード &#x200B;](assets/update-log-upload.png)
+   ![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
 1. （オプション）「**ファイルをアップロード**」ボックスで、フォルダーを選択します。
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
 または
 **ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![&#x200B; ファイルを追加 &#x200B;](assets/add-files.png)
+   ![ ファイルを追加 ](assets/add-files.png)
 1. （任意）コメントを追加します。
 1. （任意）ファイルをさらに追加します。
 
@@ -80,7 +78,7 @@ ht-degree: 26%
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
 または
 **ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![&#x200B; ファイルを追加 &#x200B;](assets/add-files.png)
+   ![ ファイルを追加 ](assets/add-files.png)
 1. （任意）コメントを追加します。
 1. （任意）ファイルをさらに追加します。
 

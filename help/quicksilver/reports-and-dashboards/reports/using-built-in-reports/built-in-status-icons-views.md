@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: ビュー内のビルトインステータスアイコン
-description: 組み込みの「状態アイコン」フィールドをビューの列として追加し、オブジェクトの主要ポイントをより明確に表示できます。
+description: ビルトインの「状態アイコン」フィールドをビューの列として追加し、オブジェクトの主要ポイントをより明確に表示できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 96%
+source-wordcount: '1205'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 <!--(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.)-->
 
-組み込みの「状態アイコン」フィールドをビューの列として追加し、オブジェクトの主要ポイントをより明確に表示できます。状態アイコンを使用すると、次の条件が存在する場合に一目で確認できます。
+ビルトインの「状態アイコン」フィールドをビューの列として追加し、オブジェクトの主要ポイントをより明確に表示できます。状態アイコンを使用すると、次の条件が存在する場合に一目で確認できます。
 
 * オブジェクトにドキュメントが添付されている
 * オブジェクトが承認プロセスに関連付けられている
@@ -45,33 +45,25 @@ ht-degree: 96%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>投稿者以上</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>リクエスト以上</p></li>
-         </ul>
+      <p>投稿者以上</p>
+      <p>リクエスト以上</p>
    </td>
   </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートに列を追加</p></td> 
   </tr> 
   <tr> 
@@ -81,7 +73,7 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

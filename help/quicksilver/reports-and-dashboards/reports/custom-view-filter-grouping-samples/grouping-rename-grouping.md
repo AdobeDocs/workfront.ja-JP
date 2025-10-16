@@ -7,10 +7,10 @@ description: リストやレポートのグループ化を、ユーザーにと�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 71%
+source-wordcount: '351'
+ht-degree: 69%
 
 ---
 
@@ -22,36 +22,29 @@ ht-degree: 71%
 
 例えば、標準のポートフォリオ名のグループ化をプロジェクトのリストに適用すると、グループ化の名前は&#x200B;*ポートフォリオ：名前：`<name of portfolio>`* として表示されます。
 
-![&#x200B; 未編集の名前によるグループ化 &#x200B;](assets/grouping-unedited-name-350x167.png)
+![ 未編集の名前によるグループ化 ](assets/grouping-unedited-name-350x167.png)
 
 テキストモードを使用してこのグループ化を変更し、読みやすい名前を表示できます。
 
-![&#x200B; 編集した名前によるグループ化 &#x200B;](assets/grouping-edited-name-350x160.png)
+![ 編集した名前によるグループ化 ](assets/grouping-edited-name-350x160.png)
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-    <p>新規：</p>
-   <ul><li><p>フィルターを変更するコントリビューター </p></li>
-   <li><p>レポートを変更する場合は Standard</p></li> </ul>
-
-<p>現在：</p>
-   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
-   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
+   <p>フィルターの変更者または変更依頼 </p>
+   <p>レポートを変更するための標準またはプラン</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -64,7 +57,7 @@ ht-degree: 71%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -103,7 +96,7 @@ ht-degree: 71%
      >また、`group.0.name=` と `group.0.displayname=` の行を空白にすることもできます。この場合、グループ化にはグループ化の基準となる値が表示されます。
 
 
-     ![&#x200B; 名前のない名前を編集してグループ化 &#x200B;](assets/grouping-edited-name-no-name-350x162.png)
+     ![ 名前のない名前を編集してグループ化 ](assets/grouping-edited-name-no-name-350x162.png)
 
 1. 「**完了**」をクリックし、「**グループ化の保存**」をクリックします。
 1. （オプション）グループ化名を更新し、「**グループ化を保存**」をクリックします。

@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: タイムシートのコメントを表示および管理する
 description: タイムシート、タイムシートに含まれる作業項目、およびログに記録する各時間エントリに対してコメントを付けることができます。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 82%
+source-wordcount: '889'
+ht-degree: 81%
 
 ---
 
@@ -23,39 +23,37 @@ ht-degree: 82%
 * 時間エントリ
 * タスクやイシューなど、個々の項目
 
-タイムシートからの更新、または個々の時間エントリからの更新をメモ レポートに表示できます。 詳しくは、[&#x200B; メモレポートですべての更新を表示する &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md) を参照してください。
+タイムシートからの更新、または個々の時間エントリからの更新をメモ レポートに表示できます。 詳しくは、[ メモレポートですべての更新を表示する ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md) を参照してください。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。 
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：ライト以上 </p>
-   <p>現在：レビュー以上</p> </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td> <p>ライト以上 </p>
+   <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>タスクおよび問題への表示以上のアクセス</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td> <p>タスクとイシューに対する表示またはそれ以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -75,7 +73,7 @@ ht-degree: 82%
 1. タイムシートの右上隅にある「**コメントの表示**」をクリックします。
 時間エントリとコメントが記録された項目の下にコメントが表示されます。
 
-   ![&#x200B; タイムシートを再設計したタスクの下に展開されたコメント &#x200B;](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![ タイムシートを再設計したタスクの下に展開されたコメント ](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
 
 ## タイムシートにコメントする {#make-comments-on-a-timesheet}
@@ -88,7 +86,7 @@ ht-degree: 82%
 
 タイムシートに関する全般的なコメントを付けることができます。タイムシート全体に対するコメントは、他のオブジェクトに対するコメントと似ています。
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、左上隅またはWorkfrontがある場合は **メインメニュー** アイコン ![&#x200B; ラインメインメニュー &#x200B;](assets/lines-main-menu.png) をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、左上隅またはWorkfrontがある場合は **メインメニュー** アイコン ![ ラインメインメニュー ](assets/lines-main-menu.png) をクリックします。
 
 1. 「**タイムシート**」をクリックします。
 1. コメントを追加するタイムシートに移動します。
@@ -120,7 +118,7 @@ ht-degree: 82%
 
 ### タイムシートの個々の時間エントリに対するコメント {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
 
 1. 「**タイムシート**」をクリックします。
 1. コメントを追加するタイムシートに移動し、左側のパネルで「**タイムシート**」をクリックします。
@@ -135,11 +133,11 @@ ht-degree: 82%
 
    * 新しいコメントを入力し、「**完了**」をクリックします。
    * 既存のコメントを編集して「**完了**」をクリックするか、「**キャンセル**」をクリックして変更を破棄します。
-   * 保存したコメントを削除するには、**削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
+   * 保存したコメントを削除するには、**削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
 
      時間エントリボックスの右上隅に、時間エントリで記録されたコメントがあることを示す青いマーカーが表示されます。
 
-   ![&#x200B; 時間ログのコメントボタンによるタイムシートの再設計 &#x200B;](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![ 時間ログのコメントボタンによるタイムシートの再設計 ](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -159,7 +157,7 @@ ht-degree: 82%
 
 タイムシート内では、タスクとイシューに対してのみコメントを付けることができます。プロジェクトや一般時間に対してコメントを付けることはできません。
 
-1. Adobe Workfrontの右上隅にある [!UICONTROL **メインメニュー**] アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある [!UICONTROL **メインメニュー**] アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
 1. 「[!UICONTROL **タイムシート**]」をクリックします。
 1. コメントを追加するタイムシートに移動し、左側のパネルで「[!UICONTROL **タイムシート**]」をクリックします。
 1. タスクまたはイシューの行をクリックし、「[!UICONTROL **概要を開く**]」をクリックします。

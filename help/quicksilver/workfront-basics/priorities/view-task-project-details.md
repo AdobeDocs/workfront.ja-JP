@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 18%
+source-wordcount: '407'
+ht-degree: 14%
 
 ---
 
@@ -28,8 +28,6 @@ ht-degree: 18%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,14 +35,14 @@ ht-degree: 18%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
-   <p>現在：レビュアーまたはそれ以上</p>
-   <p>新規：ライト以上</p> 
+   <p>Reviewer 以上</p>
+   <p>ライト以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -58,7 +56,7 @@ ht-degree: 18%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -68,7 +66,7 @@ ht-degree: 18%
 
 {{step1-to-priorities}}
 
-1. 作業リストで、作業項目名にポインタを合わせ、**概要** アイコン ![&#x200B; 概要アイコンを開く &#x200B;](assets/summary-icon.png) をクリックします。
+1. 作業リストで、作業項目名にポインタを合わせ、**概要** アイコン ![ 概要アイコンを開く ](assets/summary-icon.png) をクリックします。
 1. 概要パネルの上部にある **プロジェクト** をクリックします。 ここで次のことができます
    * プロジェクトの詳細と説明の表示と編集
    * プロジェクトの表示とコメントの追加
@@ -76,13 +74,13 @@ ht-degree: 18%
    * ファイルを追加
    * プロジェクトに直接移動
 
-   ![&#x200B; プロジェクト詳細 &#x200B;](assets/project-details-new.png)
+   ![ プロジェクト詳細 ](assets/project-details-new.png)
 
 ### タスクの詳細の表示
 
 {{step1-to-priorities}}
 
-1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![&#x200B; をクリック &#x200B;](assets/summary-icon.png) します。
+1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![ をクリック ](assets/summary-icon.png) します。
 1. デフォルトではタスクが選択されています。 ここで次のことができます
    * プロジェクトとタスクの詳細および説明の表示と編集
    * プロジェクトの表示とコメントの追加
@@ -93,13 +91,13 @@ ht-degree: 18%
    * クイックリンクの追加
 
 
-   ![&#x200B; タスクの詳細 &#x200B;](assets/task-details-new.png)
+   ![ タスクの詳細 ](assets/task-details-new.png)
 
 ### 問題の詳細を表示
 
 {{step1-to-priorities}}
 
-1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![&#x200B; をクリック &#x200B;](assets/summary-icon.png) します。
+1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![ をクリック ](assets/summary-icon.png) します。
 
 1. イシューはデフォルトで選択されています。 ここでは、次の操作を実行できます。
    * プロジェクトとイシューの詳細および説明の表示と編集
@@ -110,7 +108,7 @@ ht-degree: 18%
       * ファイルを追加
       * クイックリンクの追加
 
-   ![&#x200B; 問題の詳細 &#x200B;](assets/issue-details.png)
+   ![ 問題の詳細 ](assets/issue-details.png)
 
 ## 詳細ページに詳細を表示
 

@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: タスクの詳細の概要エリアでタスク情報を管理
-description: タスクの詳細の概要エリアでタスク情報を管理
+title: タスクの詳細の「概要」領域でタスク情報を管理
+description: タスクの情報を表示または編集するには、「タスクの詳細」セクションの「概要」領域にアクセスします。 「タスクの詳細」セクションで表示または編集できるフィールドの数は限られています。
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '2089'
-ht-degree: 100%
+source-wordcount: '2102'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 100%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-「タスクの詳細」セクションの概要エリアにアクセスすることで、タスクの情報を表示または編集することができます。このエリアで表示または編集できるフィールドは限られています。タスクのすべての情報の編集については、[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
+タスクの情報を表示または編集するには、「タスクの詳細」セクションの「概要」領域にアクセスします。 「タスクの詳細」セクションで表示または編集できるフィールドの数は限られています。
+
+タスクのすべての情報の編集については、[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
 
 この記事では、「タスクの詳細」の概要エリアで情報を表示または編集する方法について説明しています。「タスクの詳細」の他のエリアの更新については、次の記事を参照してください。
 
@@ -29,31 +31,29 @@ ht-degree: 100%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-   *保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。 
- </caption> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront<b> プラン*</b> </p> </td> 
+   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront<b> ライセンス*</b> </p> </td> 
-   <td> <p>ワークまたはそれ以上</p> </td> 
+   <td> <p>Adobe Workfront プラン </p> </td> 
+   <td><p>標準</p> 
+   <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>アクセスレベル設定*</strong> </td> 
-   <td> <p>プロジェクトとタスクへのアクセス権またはそれ以上の権限</p> <p>適切なアクセスレベルを持っていても「タスクの詳細」セクションを編集できない場合は、アクセスレベルに追加の制限が設定されていないかどうかを Adobe Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>プロジェクトとタスクへのアクセス権またはそれ以上の権限</p> <p>適切なアクセスレベルを持っていてもタスクの「詳細」セクションを編集できない場合は、Adobe Workfrontに問い合わせて、アクセスレベルに追加の制限があるかどうかを確認してください。 </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>オブジェクト権限</strong> </p> </td> 
+   <td> <p>オブジェクト権限</p> </td> 
    <td> <p>プロジェクトへの参加権限またはそれ以上の権限</p> <p>「タスクの詳細」セクションの情報を閲覧するための、タスクの表示権限。 </p> 
-   <p>「タスクの詳細」セクションの以下の情報を更新するための、タスクへの参加権限</p>
+   <p>タスクの投稿権限で「詳細」セクションの次の情報を更新する：</p>
 
 <ul>
    <li>説明</li>
@@ -64,6 +64,42 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information  in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 「タスクの詳細」セクションの概要エリアでのタスク情報の編集
 

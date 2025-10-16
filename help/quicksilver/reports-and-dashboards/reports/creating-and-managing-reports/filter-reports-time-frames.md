@@ -6,9 +6,9 @@ description: オブジェクトに存在する日付の時間枠でレポート�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '947'
 ht-degree: 68%
 
 ---
@@ -23,25 +23,21 @@ ht-degree: 68%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-      <td> 
-      <p>新規：標準</p>
-       <p> または</p>
-      <p>現在：プラン</p>
+   <td> 
+      <p>標準</p>
+      <p>プラン</p>
    </td>
-
-</tr> 
+  </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
@@ -74,7 +70,7 @@ ht-degree: 68%
 1. **フィルタールールを追加** をクリックしてから、**フィールドを選択** をクリックします。
 
 1. **フィールドの選択** ダイアログボックスで、「**時間**」、「**エントリ日** の順に選択します。
-   ![&#x200B; 時間枠ごとの時間レポートのフィルタリング &#x200B;](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![ 時間枠ごとの時間レポートのフィルタリング ](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. 表示されるドロップダウンで、次のいずれかのオプションを選択します。
 
@@ -186,7 +182,7 @@ Adobe Workfrontには、具体的な日付を定義せずに使用できる組�
   </tr> 
   <tr> 
    <td role="rowheader">前の四半期</td> 
-   <td> <p>入力日が現在の四半期の前の四半期の日付である時間を表示します。四半期は前述のように定義されます。</p> <p>注意：Workfront 管理者がシステムのカスタム四半期を有効にして定義している場合、組み込みの四半期のフィルターはカスタム四半期情報に置き換えられます。カスタム四半期の有効化について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref"> カスタム四半期の有効化 </a> を参照してください。</p> </td> 
+   <td> <p>入力日が現在の四半期の前の四半期の日付である時間を表示します。四半期は前述のように定義されます。</p> <p>注意：Workfront 管理者がシステムのカスタム四半期を有効にして定義している場合、ビルトインの四半期のフィルターはカスタム四半期情報に置き換えられます。カスタム四半期の有効化について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref"> カスタム四半期の有効化 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">今年</td> 
@@ -198,7 +194,7 @@ Adobe Workfrontには、具体的な日付を定義せずに使用できる組�
   </tr> 
   <tr> 
    <td role="rowheader">昨年</td> 
-   <td> <p>入力日が昨年の日付である時間を表示します。昨年は今年の前年の1月1日に始まり、12月31日に終わります。</p> <p>メモ：会計年度には組み込みの期間はありません。レポートを作成し、組織で定義されている会計年度の日付範囲のカスタム修飾子を使用して、日付で情報をフィルタリングすることができます。会計年度の期間をその場で選択する場合は、フィルターの代わりにプロンプトを使用する必要があります。 </p> </td> 
+   <td> <p>入力日が昨年の日付である時間を表示します。昨年は今年の前年の1月1日に始まり、12月31日に終わります。</p> <p>メモ：会計年度にはビルトインの期間はありません。レポートを作成し、組織で定義されている会計年度の日付範囲のカスタム修飾子を使用して、日付で情報をフィルタリングすることができます。会計年度の期間をその場で選択する場合は、フィルターの代わりにプロンプトを使用する必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

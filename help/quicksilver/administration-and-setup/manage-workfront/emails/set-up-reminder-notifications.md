@@ -5,10 +5,10 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 82%
+source-wordcount: '1209'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ Workfront管理者は、ユーザーにリマインダー通知を作成し、�
 
 リマインダー通知は、指定された基準に基づいてユーザーに送信されるメールを生成します。 リマインダ通知は、タスク、問題、プロジェクトまたはタイムシートに対して実行する必要のあるアクションをユーザーに通知します。
 
-リマインダー通知を作成した後、ユーザーはリマインダー通知をプロジェクト、タスク、イシュー、タイムシートなどの作業項目に手動で関連付けることができます。 詳しくは、[&#x200B; オブジェクトにリマインダー通知を添付する &#x200B;](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md) を参照してください。
+リマインダー通知を作成した後、ユーザーはリマインダー通知をプロジェクト、タスク、イシュー、タイムシートなどの作業項目に手動で関連付けることができます。 詳しくは、[ オブジェクトにリマインダー通知を添付する ](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md) を参照してください。
 
 <!--
 DRAFTED IN FLARE:
@@ -35,21 +35,18 @@ An example of how this can be used would be helpful here and/or in the section <
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準 </p>
- <p>または</p> 
-<p>現在：プラン</p> 
+   <td> <p>標準 </p>
+<p>プラン</p> 
 </td> 
   </tr> 
   <tr> 
@@ -59,7 +56,7 @@ An example of how this can be used would be helpful here and/or in the section <
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -79,7 +76,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 1. **メール**／**通知**／**リマインダー通知**&#x200B;をクリックします。
 
-   ![&#x200B; 「リマインダー通知」タブ &#x200B;](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![ 「リマインダー通知」タブ ](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
 1. **新しいリマインダー通知**&#x200B;をクリックします。
 
@@ -176,4 +173,4 @@ An example of how this can be used would be helpful here and/or in the section <
 
    リマインダー通知で指定されたユーザーに、メールが届きます。
 
-![&#x200B; リマインダ通知テスト &#x200B;](assets/reminder-test.png)
+![ リマインダ通知テスト ](assets/reminder-test.png)

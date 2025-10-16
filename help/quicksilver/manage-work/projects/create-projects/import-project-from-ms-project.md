@@ -6,10 +6,10 @@ description: Microsoft Project から Adobe Workfront にプロジェクトを�
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 65%
+source-wordcount: '563'
+ht-degree: 59%
 
 ---
 
@@ -27,30 +27,34 @@ Microsoft Project から Adobe Workfront にプロジェクトを読み込み、
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準 </p> 
-   または
-   <p>現在：プラン </p>
+   <td> <p>標準</p> 
+    <p>プラン</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> 
+   <p>プロジェクトをポートフォリオまたはプログラムに追加する場合は、ポートフォリオおよびプログラムに対する編集アクセス権が必要です。</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトを作成すると、プロジェクトに対する管理権限が自動的に付与されます。 </p> </td> 
+   <td> <p>プロジェクトを作成すると、プロジェクトに対する管理権限が自動的に付与されます。</p>
+   <p>プロジェクトをポートフォリオまたはプログラムに追加する場合、ポートフォリオおよびプログラムに対する管理権限が必要です。</p>
+   </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,29 +65,28 @@ Microsoft Project から Adobe Workfront にプロジェクトを読み込み、
 
 <!--old permissions model: 
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p> 
+   Or
+   <p>Current: Plan </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>When you create a project you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>When you create a project you automatically receive Manage permissions to the project </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,14 +103,14 @@ You must have the following access to perform the steps in this article:
 1. Workfront にログインします。
 1. 次のいずれかの操作を行います。
 
-   * Workfrontの右上隅にある **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、左上隅にある **メインメニュー**![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png) をクリックします（使用可能な場合）。**プロジェクト** をクリックしてから、**新規プロジェクト** を展開します。
+   * Workfrontの右上隅にある **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、左上隅にある **メインメニュー**![ メインメニューライン ](assets/lines-main-menu.png) をクリックします（使用可能な場合）。**プロジェクト** をクリックしてから、**新規プロジェクト** を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの **プロジェクト** セクションでプロジェクトを作成できます。 詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
 1. 「**MS Project をインポート**」をクリックします。 **MS ファイルのインポート** ダイアログボックスが表示されます。
 
-   ![&#x200B; 新規プロジェクトドロップダウン &#x200B;](assets/import-ms-project-option.png)
+   ![ 新規プロジェクトドロップダウン ](assets/import-ms-project-option.png)
 
 1. **ファイルを選択** をクリックして、Microsoft Project から書き出した.xml ファイルを参照します。
 1. 選択したファイルを読み込みます。 Workfront によって読み込み処理が開始され、Microsoft Project から書き出されたファイルに基づいて新しいプロジェクトが作成されます。

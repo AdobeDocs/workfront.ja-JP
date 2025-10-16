@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 92%
+source-wordcount: '1542'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 >
 >このページで説明する手順は、Admin Console にまだ登録されていない組織にのみ適用されます。組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でこのアクションを実行してください。
 >
->Adobe Admin Consoleで完全な管理者アクセス権を付与する手順については、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+>Adobe Admin Consoleで完全な管理者アクセス権を付与する手順については、[Adobe Admin Consoleでのユーザーの管理 ](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 >
 >組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
@@ -38,20 +38,18 @@ Adobe Workfront 管理者は、システム管理者のアクセスレベルを�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準</p>
-   <p>現在：プラン</p></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -60,7 +58,7 @@ Adobe Workfront 管理者は、システム管理者のアクセスレベルを�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 +++
 
 ## 1 人のユーザーにシステム管理者の完全アクセス権を付与

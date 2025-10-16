@@ -8,10 +8,10 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 86%
+source-wordcount: '1178'
+ht-degree: 88%
 
 ---
 
@@ -25,31 +25,27 @@ Adobe Workfront 管理者は、組織で購入したライセンスの数や現�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td role="rowheader">Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-    <p>新規：標準</p>
-    <p>または</p>
-    <p>現在：プラン</p></td> 
+   <td><p>標準</p> <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>システム管理者またはグループ管理者である必要があります。 グループ管理者は、ライセンス情報に対する表示が制限されています。</p> </td> 
+   <td>Workfront 管理者である必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
 
 >[!NOTE]
 >
@@ -186,7 +182,7 @@ Workfront 管理者は、システムの最上位ホームグループに対し�
 1. グループの&#x200B;**最大**&#x200B;列で、最大値を設定する値をクリックします。
 1. 最大値を入力し、Enter キーを押します。
 
-   ![&#x200B; 最大グループ ライセンス数 &#x200B;](assets/updated-max.png)
+   ![ 最大グループ ライセンス数 ](assets/updated-max.png)
 
    >[!NOTE]
    >

@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -53,11 +53,11 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
   </tr> 
   <tr> 
    <td role="rowheader">クラスター</td> 
-   <td>組織のクラスターを検索するには、<a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">組織のクラスターと Workfront プランの表示</a>を参照してください。</td> 
+   <td>組織のクラスターを見つけるには、<a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref"> 組織のクラスターとWorkfrontのパッケージを表示する </a> を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront プラン</td> 
-   <td> <p>組織のプランを検索するには、<a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">組織のクラスターと Workfront プランを表示</a>を参照してください。</p> </td> 
+   <td role="rowheader">Workfront パッケージ</td> 
+   <td> <p>組織のパッケージを見つけるには、<a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref"> 組織のクラスターとWorkfrontのパッケージを表示する </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ドメイン</td> 
@@ -93,7 +93,7 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
 >
 >後日、これらの製品、統合、または機能のいずれかを追加する場合は、ネットワーク管理者に連絡して許可リストを調整してもらう必要があります。
 
-### 組織のクラスターと Workfront プランを表示する {#view-your-organization-s-cluster-and-workfront-plan}
+### 組織のクラスターとWorkfront パッケージの表示 {#view-your-organization-s-cluster-and-workfront-package}
 
 {{step-1-to-setup}}
 
@@ -102,10 +102,10 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
 
    クラスターは、「**基本情報**」セクションの右上隅近くに表示されます。
 
-   ![&#x200B; クラスターの検索 &#x200B;](assets/locate-cluster.png)
+   ![ クラスターの検索 ](assets/locate-cluster.png)
 
-1. Workfront プランを表示するには、「**ライセンス**」を選択します。
+1. Workfront パッケージを表示するには、「**ライセンス**」を選択します。
 
-   プランがページの右上隅付近に表示されます。
+   パッケージがページの右上隅付近に表示されます。
 
-   ![&#x200B; 計画の検索 &#x200B;](assets/locate-plan.png)
+   ![ 計画の検索 ](assets/locate-plan.png)

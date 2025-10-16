@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '1856'
-ht-degree: 99%
+source-wordcount: '1841'
+ht-degree: 96%
 
 ---
 
@@ -23,31 +23,28 @@ ht-degree: 99%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td> 
+   <p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!DNL Workfront] 管理者である必要があります。 </td> 
+   <td>Workfront 管理者 </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -135,7 +132,7 @@ ht-degree: 99%
 
    >[!INFO]
    >
-   >**例：**&#x200B;このブループリントの新規イシューの環境設定では、4 つのキューのトピックが提供されます。ユーザーは、イシューを作成する際に、これらのトピックの 1 つを選択します。（1 つのトピックグループのみが存在するので、自動的に適用され、ユーザーは選択する必要はありません）。ユーザーがイシューを完了して送信すると、ルーティングルールは、そのイシューが割り当てられている担当業務またはチームを決定します。
+   >**例：**このブループリントの新規イシューの環境設定では、4 つのキューのトピックが提供されます。ユーザーは、イシューを作成する際に、これらのトピックの 1 つを選択します。（トピックグループは 1 つしか存在しないので、自動的に適用され、ユーザーは選択する必要はありません）。 ユーザーが問題を完了して送信すると、割り当て先の担当業務またはチームがルーティングルールで決定されます。
    >![新規イシューの環境設定の例](assets/Blueprints_IssuePrefsDetails.png)
    >![新規イシューのキューのトピック](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![担当業務にルーティングされたイシュー](assets/Blueprints_ProjectShowsIssueAssignment.png)

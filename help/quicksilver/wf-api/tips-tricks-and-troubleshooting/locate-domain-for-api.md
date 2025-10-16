@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: c2ce6776ceebe3c1d3915e3791fc84eb0245ba4d
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '186'
+ht-degree: 89%
 
 ---
 
@@ -24,6 +24,35 @@ Workfront API に対して API 呼び出しを行う場合は、呼び出しで�
 |---|---|
 | `<yourdomain>.my.workfront.com` | `<yourdomain>.my.workfront.com` |
 | `experience.adobe.com` | `<yourdomain>.my.workfront.adobe.com` |
+
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+   <p>プラン</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>Workfront管理者である必要があります</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
 
 ドメインを見つけるには、次の手順に従います。
 

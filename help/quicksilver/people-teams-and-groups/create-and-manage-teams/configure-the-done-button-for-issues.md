@@ -6,10 +6,10 @@ description: 「完了」ボタンは、タスクまたはイシューのステ�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 96%
+source-wordcount: '1167'
+ht-degree: 95%
 
 ---
 
@@ -34,22 +34,19 @@ ht-degree: 96%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront パッケージ</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td>
+   <p>標準</p>
+   <p>プラン</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">アクセスレベル設定</td> 

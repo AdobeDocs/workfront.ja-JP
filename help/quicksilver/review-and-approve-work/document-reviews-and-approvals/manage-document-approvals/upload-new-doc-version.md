@@ -6,10 +6,10 @@ description: 新しいドキュメントバージョンをアップロードし�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
+source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 25%
+source-wordcount: '455'
+ht-degree: 16%
 
 ---
 
@@ -38,17 +38,19 @@ ht-degree: 25%
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td> <p>リクエスト以上</p>
-   <p>投稿者以上</p> </td> 
+   <p>投稿者以上</p>
+   <p>Frame.io 統合を使用している場合、承認ワークフローを作成するには Standard ライセンスが必要です。</p>
+    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ドキュメントに関連付けられたオブジェクトへの編集アクセス権</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントに関連付けられたオブジェクトへの編集アクセス権</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +76,7 @@ ht-degree: 25%
 1. 新しいファイルを前のドキュメントの上にドラッグ&amp;ドロップします。 これにより、新しいバージョンが自動的に作成されます。
 
 1. ドキュメントのアップロードが完了したら、ドキュメントを選択し、「**ドキュメントの詳細**」をクリックします。
-   ![&#x200B; ドキュメントの詳細ページを開く &#x200B;](assets/open-doc-details.png)
+   ![ ドキュメントの詳細ページを開く ](assets/open-doc-details.png)
 
 
 1. 左側のパネルで「**承認**」をクリックし、「**追加**」をクリックします。
@@ -86,13 +88,13 @@ ht-degree: 25%
 
    >[!TIP]
    >
-   >   Standard ライセンスを持つユーザーは、設定エリアから適切な承認テンプレートを作成できます。 詳しくは、[&#x200B; アセットおよびドキュメントの承認テンプレートの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
+   >   Standard ライセンスを持つユーザーは、設定エリアから適切な承認テンプレートを作成できます。 詳しくは、[ アセットおよびドキュメントの承認テンプレートの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
 
 
 1. （任意）承認の期限を設定します。 ユーザーとチームには、指定した期限の 72 時間前と 24 時間前にメールで通知が届きます。
 
 1. すべてのレビュー担当者と承認者を追加したら、「**リクエストを送信**」をクリックします。 参加者には、メールで通知されます。
 
-   ![&#x200B; 承認用に新しいバージョンを送信 &#x200B;](assets/add-previous-participants.png)
+   ![ 承認用に新しいバージョンを送信 ](assets/add-previous-participants.png)
 
 

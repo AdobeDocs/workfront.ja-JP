@@ -5,9 +5,9 @@ description: オブジェクトのリストを Adobe Workfront から書き出�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '336'
 ht-degree: 81%
 
 ---
@@ -22,28 +22,22 @@ ht-degree: 81%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-    <p>新規：</p>
-   <ul><li><p>投稿者以上 </p></li>
-   </ul>
-
-<p>現在：</p>
-   <ul><li><p>リクエスト以上</p></li>
-    </ul></td> 
+   <p>投稿者以上 </p>
+   <p>リクエスト以上</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -51,12 +45,12 @@ ht-degree: 81%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>リストが含まれるオブジェクトに対する [!UICONTROL ビュー &#x200B;] アクセス許可</p>  </td> 
+   <td> <p>リストが含まれるオブジェクトに対する [!UICONTROL ビュー ] アクセス許可</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -82,7 +76,7 @@ ht-degree: 81%
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. **[!UICONTROL エクスポート]** アイコン ![&#x200B; エクスポート &#x200B;](assets/export.png) をクリックします。
+1. **[!UICONTROL エクスポート]** アイコン ![ エクスポート ](assets/export.png) をクリックします。
 
 1. 次の形式から選択します。
 

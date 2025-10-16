@@ -6,10 +6,10 @@ description: 適切なアクセス権または権限がなければ、ワーク�
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 73%
+source-wordcount: '374'
+ht-degree: 67%
 
 ---
 
@@ -21,40 +21,40 @@ ht-degree: 73%
 
 ワークロードバランサーでワークロードを表示または管理したいユーザーを表示するアクセス権が必要です。これに加えて、作業が関連付けられているプロジェクトに対する正しいアクセスレベルと正しい権限が必要です。
 
-## Adobe Workfront のプランでは、異なるエリアでワークロードバランサーを使用する必要があります。
+<!--## Adobe Workfront package needed to use the Workload Balancer for different areas
 
-次の表に、会社が保有する Workfront プランと、システム内でワークロードバランサーを使用できる場所との関係を説明します。
+The following table illustrates the connection between the Workfront plan your company has and where in the system you can use the Workload Balancer:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p><b>Workfrontプラン（最新）</b></p></td> 
-   <td> <p><b>ワークロードバランサーにアクセスできるエリア</b></p> </td> 
+   <td><p><b>Workfront Plan (Current)</b></p></td> 
+   <td> <p><b>Areas where you can access the Workload Balancer</b></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">チームまたはそれ以上 </td> 
-   <td>チームまたはプロジェクト用のワークロードバランサー</td> 
+   <td>Team or higher </td> 
+   <td>Workload Balancer for a team or a project</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Pro 以上</td> 
-   <td>複数のプロジェクト用のワークロードバランサー（システムレベル）</td> 
+   <td>Pro or higher</td> 
+   <td>Workload Balancer for multiple projects, at the system level</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p><b>Workfrontプラン（新規）</b></p></td> 
-   <td> <p><b>ワークロードバランサーにアクセスできるエリア</b></p> </td> 
+   <td><p><b>Workfront Plan (New)</b></p></td> 
+   <td> <p><b>Areas where you can access the Workload Balancer</b></p> </td> 
   </tr>
   <tr> 
-   <td role="rowheader">任意 </td> 
-   <td>Workfrontの任意の場所でワークロードバランサーにアクセスする</td> 
+   <td>Any </td> 
+   <td>Access the Workload Balancer anywhere in Workfront</td> 
   </tr> 
  </tbody> 
 </table>
 
-Workfront のプランについて詳しくは、[アドビの計画](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
+For information about the Workfront plans, see [Our Plans](https://business.adobe.com/products/workfront/pricing.html).
 
-Workfront のワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)を参照してください。
+For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).-->
 
 ## ワークロードバランサーの表示に必要なアクセス
 
@@ -65,24 +65,26 @@ Workfront のワークロードバランサーの場所について詳しくは�
  <col> 
  <tbody>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：計画して、リソース領域にワークロードバランサーを表示します；</br>
-       作業（チームまたはプロジェクトのワークロードバランサーを表示する）</p></td>
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
+  </tr>
+  <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>リソース エリアでワークロードバランサーを表示するには、作業を計画し、チームまたはプロジェクトのワークロードバランサーを表示します</p></td>
   </tr>  
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>リソース管理への表示以上のアクセス</p> <p>リソース管理のアクセスレベルについて詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">リソース管理へのアクセス権の付与</a>の記事を参照してください。</p></td> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>リソース管理への表示以上のアクセス</p> <p>リソース管理のアクセスレベルについて詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md">リソース管理へのアクセス権の付与</a>の記事を参照してください。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>割り当てを表示するプロジェクトの表示権限が必要です。 </p> <p>プロジェクトの権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>の記事を参照してください。</p></td> 
+   <td>オブジェクト権限</td> 
+   <td> <p>割り当てを表示するプロジェクトの表示権限が必要です。 </p> <p>プロジェクトの権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md">Adobe Workfront でのプロジェクトの共有</a>の記事を参照してください。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 <span class="preview"> すべてのユーザーが、自分のプロファイルでワークロードバランサーを表示するアクセス権を持ちます。 これは、ライセンスやアクセスレベルによる制限ではありません。 ユーザープロファイルのワークロードバランサーは読み取り専用で、割り当てと割り当てを変更することはできません。</span>
 
@@ -95,25 +97,28 @@ Workfront のワークロードバランサーの場所について詳しくは�
  <col> 
  <tbody>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：リソース領域のワークロードバランサーで割り当てを管理するために計画します；</br>
-       チームまたはプロジェクトのワークロードバランサーで割り当てを管理する</p></td>
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
+  </tr>
+  <tr> 
+  <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>リソース エリアのワークロードバランサーで割り当てを管理するために計画を立てる。作業を立て、チームまたはプロジェクトのワークロードバランサーで割り当てを管理する</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>リソース管理へのアクセスを編集</p> 
-     <p>リソース管理のアクセスレベルについて詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">リソース管理へのアクセス権の付与</a>の記事を参照してください。</p> </td> 
+   <td>アクセスレベル設定</td>
+   <td> <p>リソース管理へのアクセスを編集</p>
+     <p>リソース管理のアクセスレベルについて詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" >リソース管理へのアクセス権の付与</a>の記事を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p> 割り当てを行う権限を含む、割り当てを管理したいプロジェクトに対する参加以上の権限。 </p> <p>プロジェクトの権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>の記事を参照してください。</p></td>
+   <td>オブジェクト権限</td> 
+   <td> <p> 割り当てを行う権限を含む、割り当てを管理したいプロジェクトに対する参加以上の権限。 </p> <p>プロジェクトの権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md">Adobe Workfront でのプロジェクトの共有</a>の記事を参照してください。</p></td>
   </tr> 
- </tbody> 
+ </tbody>
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 <!--these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    

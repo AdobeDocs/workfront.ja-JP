@@ -3,51 +3,47 @@ title: 既存のカスタムフォームからのオブジェクトタイプの�
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: フォームデザイナーを使用して、カスタムフォームに対してオブジェクトタイプを追加または削除できます。
+description: フォーム designer を使用して、カスタムフォームに対してオブジェクトタイプを追加または削除できます。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 92%
+source-wordcount: '461'
+ht-degree: 91%
 
 ---
 
 # 既存のカスタムフォームからのオブジェクトタイプの追加または削除
 
-フォームデザイナーを使用して、既存のカスタムフォームに対してオブジェクトタイプを追加または削除できます。
+フォーム designer を使用して、既存のカスタムフォームに対してオブジェクトタイプを追加または削除できます。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
-   <td>任意</td> 
+  <tr> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td><p>カスタムフォームへの管理アクセス権</p></td> 
+  <tr> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>カスタムフォームへの管理アクセス権</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -72,7 +68,7 @@ ht-degree: 92%
 
 1. フォームの上部で、**オブジェクトタイプ**&#x200B;の後にあるプラス記号（+）をクリックし、表示されるメニューから必要なタイプを選択します。この操作を繰り返して、必要な数のオブジェクトタイプを追加できます。
 
-   ![&#x200B; 新規オブジェクトを追加 &#x200B;](assets/add-new-object.png)
+   ![ 新規オブジェクトを追加 ](assets/add-new-object.png)
 
 1. 「**保存して閉じる**」をクリックします。
 
@@ -98,7 +94,7 @@ ht-degree: 92%
 1. 編集するカスタムフォームを選択し、![編集アイコン](assets/edit-icon2.png) をクリックします。
 1. フォームから削除する&#x200B;**オブジェクトタイプ**&#x200B;のいずれかの X をクリックします。
 
-   ![&#x200B; オブジェクトタイプの削除 &#x200B;](assets/delete-object-types.png)
+   ![ オブジェクトタイプの削除 ](assets/delete-object-types.png)
 
 1. （オプション）フォームから削除する他のオブジェクトタイプについて、前の手順を繰り返します。
 1. 「**適用**」、「**保存して閉じる**」の順にクリックします。

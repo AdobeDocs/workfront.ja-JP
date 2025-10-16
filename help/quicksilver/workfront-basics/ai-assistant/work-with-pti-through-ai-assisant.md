@@ -5,9 +5,9 @@ description: 「要約」機能を使用すると、作業項目とドキュメ�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '174'
 ht-degree: 14%
 
 ---
@@ -27,13 +27,11 @@ AI アシスタントは、Workfrontでプロジェクト、タスク、イシ�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：任意</p>
-       <p>現在：使用できません</p></td>
+   <td><p>任意</p>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>現在：使用できません</p></td>
+   <td><p>標準</p>
   </tr> 
  </tbody> 
 </table>
@@ -44,7 +42,7 @@ AI アシスタントは、Workfrontでプロジェクト、タスク、イシ�
 
 ## 作業項目の検索
 
-1. 画面の右上隅付近にある **AI アシスタント** アイコン ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon.png) をクリックします。
+1. 画面の右上隅付近にある **AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png) をクリックします。
 1. 次のようなプロンプトを入力します。
 
    * *今週が期限の自分のタスクを検索*

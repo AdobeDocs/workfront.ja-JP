@@ -8,36 +8,47 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 71%
+source-wordcount: '247'
+ht-degree: 64%
 
 ---
 
 # Adobe Workfront Goals での目標管理：記事インデックス
 
-<!--Audited: 4/2025-->
+<!--Audited: 10/2025-->
+
+>[!NOTE]
+>
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>
+>Adobe Workfront Goals は購入できなくなりました。
+>
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+
+<!--Old:
 
 >[!IMPORTANT]
 >
->この記事で説明している機能を使用するには、組織に以下が必要です。
+>Your organization must have the following to use the functionality described in this article:
 >
->* 新しいプランとライセンス構造については、以下を参照してください*。
+>* For the new plan and license structure*:
 >
->   * Ultimateプラン
+>   * An Ultimate plan 
 >    
->* 現在のプランおよびライセンス構造の場合：
+>* For the current plan and license structure: 
 >
->   * プロまたはそれ以上
->   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+>*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 >
 >
->Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+>Contact your Workfront account manager to learn about a Workfront Goals license.
 >
->Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Workfront Goals の基本事項、目標を使用する重要性、目標の作成、編集、コメントおよび管理の方法、目標の情報のフィルタリングと印刷の方法について詳しくは、次の記事を参照してください。
 

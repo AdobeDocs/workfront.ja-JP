@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 2%
+source-wordcount: '264'
+ht-degree: 18%
 
 ---
 
@@ -19,6 +19,42 @@ ht-degree: 2%
 
 優先度には、割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
 
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
+   <td> <p>任意</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td> 
+   <p>Reviewer 以上</p>
+   <p>ライト以上</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td> <p>更新先のオブジェクトに対する表示または編集アクセス権</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td> <p>オブジェクトに対する表示アクセス権</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+この表の情報の詳細については、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
 ## マイフォーカス列を使用して作業の優先順位を付ける
 
 {{step1-to-priorities}}
@@ -26,7 +62,7 @@ ht-degree: 2%
 1. フォーカスする作業項目を見つけます。
 1. **マイフォーカス** 列で、次のいずれかのフォーカスレベルを選択します。
 
-   | フォーカス | 説明 |
+   | Focus | 説明 |
    |-----------|-------------|
    | **緊急** | 至急対応が必要な作業アイテムは。 緊急の課題は他の課題よりも優先され、可及的速やかに対処されるべきである。 |
    | **高** | 緊急作業が完了した後に対処する予定の重要な作業項目には「高」が割り当てられます。 |

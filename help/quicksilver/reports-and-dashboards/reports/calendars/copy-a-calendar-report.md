@@ -6,10 +6,10 @@ description: カレンダーを作成した場合は、そのカレンダーを�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 80%
+source-wordcount: '309'
+ht-degree: 74%
 
 ---
 
@@ -25,8 +25,6 @@ ht-degree: 80%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ ht-degree: 80%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL Reports]、[!UICONTROL Dashboards]、および[!UICONTROL Calendars]に対する[!UICONTROL Edit]アクセス権</p></td> 
+   <td> <p> 報告書、ダッシュボード、およびカレンダーへのアクセスを編集します</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>カレンダーレポートに対する [!UICONTROL Manage] 権限</td> 
+   <td>カレンダーレポートへのアクセスの管理</td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +60,7 @@ ht-degree: 80%
 
 1. コピーするカレンダーに移動します。
 1. 「カレンダー」ドロップダウンメニューの横にある **詳細** メニューをクリックします。
-   ![&#x200B; カレンダーの詳細メニュー &#x200B;](assets/more-menu-calendar.png)
+   ![ カレンダーの詳細メニュー ](assets/more-menu-calendar.png)
 
 1. ドロップダウンリストから「**[!UICONTROL コピー]**」を選択します。 カレンダーがコピーされ、新しいコピーが表示されます。
 
@@ -72,6 +69,6 @@ ht-degree: 80%
    >
    >元のカレンダー内のすべてのプロジェクトとカレンダーのグループ化は、カレンダーのコピーに表示されます。カレンダーフィルターで配置されたオブジェクトのみが、新しくコピーされたカレンダーに書き出されます。元のカレンダーに手動で追加したイベントは、コピーしたカレンダーに手動で追加する必要があります。
    >
-   >コピーしたカレンダーに対するアクセス権を持つのは自分だけです。元のカレンダーに対するアクセス権を持つユーザーは、コピーしたカレンダーに対するアクセス権を持ちません。新しく作成したカレンダーを他のユーザーと共有することで、そのカレンダーへのアクセス権を付与できます。カレンダーの共有について詳しくは、[[!UICONTROL カレンダー &#x200B;] レポートを共有](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)を参照してください。
+   >コピーしたカレンダーに対するアクセス権を持つのは自分だけです。元のカレンダーに対するアクセス権を持つユーザーは、コピーしたカレンダーに対するアクセス権を持ちません。新しく作成したカレンダーを他のユーザーと共有することで、そのカレンダーへのアクセス権を付与できます。カレンダーの共有について詳しくは、[[!UICONTROL カレンダー ] レポートを共有](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)を参照してください。
 
 1. （オプション）カレンダーレポートの名前を変更するには、カレンダードロップダウンメニューの横にある **名前を変更** をクリックします。

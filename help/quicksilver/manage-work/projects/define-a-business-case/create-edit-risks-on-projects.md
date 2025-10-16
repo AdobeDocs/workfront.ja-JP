@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: プロジェクトの危険の作成および編集
 description: リスクとは、プロジェクトが時間通りに、または予算内で完了することを妨げる可能性のあるイベントまたは要因のことです。プロジェクトのビジネスケース作成の一部として、または「リスク」タブを使用して、プロジェクトのリスクを記録できます。 リスクは、プロジェクトとテンプレートに追加できます。 リスクをタスクやイシューに関連付けることはできません。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 50%
+source-wordcount: '1059'
+ht-degree: 51%
 
 ---
 
@@ -35,8 +35,6 @@ ht-degree: 50%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
@@ -44,17 +42,15 @@ ht-degree: 50%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <p>現在の計画：</p>
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <ul><li>プロジェクトの「危険」領域に危険を追加する任意の計画</p></li>
    <li><p>Prime以上（プロジェクトのビジネスケースにリスクを追加するため）</p></li></ul>
-   <p>レガシー計画：任意の計画</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <p>現在：標準 </p>
-   <p>レガシー：プラン </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td> <p>標準 </p>
+   <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>アクセスレベル設定</p></td> 
@@ -67,7 +63,8 @@ ht-degree: 50%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
 
 +++
 
@@ -121,7 +118,7 @@ ht-degree: 50%
 
    **新しい危険** をクリックして、「新しい危険 **ボックスを開き** す。
 
-   ![&#x200B; 新しい危険ボックス &#x200B;](assets/new-risk-box.png)
+   ![ 新しい危険ボックス ](assets/new-risk-box.png)
 
 1. （条件付き） **新規危険** ボックスに危険を追加する場合、次の情報を入力します。
 
@@ -135,7 +132,7 @@ ht-degree: 50%
    * **軽減コスト**：リスクの発生を防ぐために導入する必要がある軽減計画のコストを示します。
    * **軽減計画**：リスクを軽減するために、計画の説明を更新します。
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
 1. （オプション）リスクのリストに&#x200B;**標準**&#x200B;ビューを適用する場合、**ステータス**&#x200B;ドロップダウンメニューで、リスクの別の「**ステータス**」を選択します。
 
@@ -173,7 +170,7 @@ ht-degree: 50%
    * **軽減コスト**：リスクの発生を防ぐために導入する必要がある軽減計画のコストを示します。
    * **軽減計画**：リスクを軽減するために、計画の説明を更新します。
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 1. （オプション）リスクのリストに&#x200B;**標準**&#x200B;ビューを適用する場合、**ステータス**&#x200B;ドロップダウンメニューでリスクの「**ステータス**」を編集します。
 
    >[!NOTE]

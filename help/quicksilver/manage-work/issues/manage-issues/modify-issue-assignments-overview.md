@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: manage-issues
 title: イシュー割当て変更の概要
 description: ユーザー、チームまたは担当業務に対するイシューの割り当てまたは割り当て解除を行うことができます。複数のリソースを同時に割り当てることも、1 つのリソースのみを割り当てることもできます。一度に 1 つのイシューを割り当てること、または複数のイシューを一括で割り当てることができます。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%

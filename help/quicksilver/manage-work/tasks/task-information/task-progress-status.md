@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: タスクの進捗ステータスの概要
+title: タスク進捗状態の概要
 description: Adobe Workfront は、タスクのタイムライン全体でのタスクの進行状況を確認することで、タスクの進捗ステータスを決定します。タスクの進捗ステータスの値に基づいて、プロジェクトの状況を決定するように Workfront を設定できます。プロジェクト状況の設定について詳しくは、「プロジェクト状況と状況タイプの概要」の記事を参照してください。
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 97%

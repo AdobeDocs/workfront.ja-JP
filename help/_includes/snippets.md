@@ -1,8 +1,8 @@
 ---
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 89%
+source-wordcount: '2607'
+ht-degree: 90%
 
 ---
 # スニペット
@@ -27,7 +27,7 @@ ht-degree: 89%
 
 ## 2024年第 4 四半期のプレビューと迅速リリース {#preview-and-fast-release-Q424}
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の本番環境でのみ使用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 
 ## 2023年第 4 四半期のプレビューと迅速リリース {#preview-and-fast-release}
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の本番環境でのみ使用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
@@ -43,7 +43,7 @@ ht-degree: 89%
 
 ## 記事レベル - プレビューおよび早期リリース 2023年第 4 四半期 {#article-preview-and-fast-release}
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の本番環境でのみ使用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
@@ -55,7 +55,7 @@ ht-degree: 89%
 >
 >このページで説明する手順は、まだ [!DNL Adobe Experience Cloud] にオンボーディングされていない組織にのみ適用されます。
 >
-> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。
+> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。
 
 ## 手順 1 - メインメニューのみをクリックする {#step1-click-main-menu}
 
@@ -81,7 +81,7 @@ ht-degree: 89%
 >
 >2024 年 7 月 18 日（PT）の 24.7 リリース以降、レガシーフォームビルダーは使用できなくなりました。 フォームデザイナーは、Adobe Workfrontでカスタムフォームを作成および編集するためのデフォルトのエクスペリエンスになりました。
 >
->詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+>詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## 適切なグループをチームに関連付ける {#right-group-team}
 
@@ -148,7 +148,7 @@ ht-degree: 89%
 
 ## 手順 1 - ホームに進む - {#step1-to-home}
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
 
 ## ホームアイコンをクリックする {#click-home}
 
@@ -163,7 +163,7 @@ ht-degree: 89%
 
 ## 手順 1 – 優先事項の把握 –  {#step1-to-priorities}
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は左上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**[!UICONTROL 優先度]** をクリックします。
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は左上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**[!UICONTROL 優先度]** をクリックします。
 
 <!-- Integrations -->
 
@@ -289,15 +289,24 @@ ht-degree: 89%
 >
 >この記事では、Adobe Workfrontの追加機能であるAdobe Workfront Planning について説明します。
 >
->Workfront Planning にアクセスするには、次のものが必要です。
->
->* 新しいWorkfront パッケージおよびライセンス。 Workfront Planning は、従来のWorkfront パッケージまたはライセンスでは使用できません。
->* Workfront Planning パッケージ。
->* 組織のWorkfront インスタンスは、Adobe Unified Experience にオンボーディングされる必要があります。
->
-> Workfront Planning へのアクセス要件の完全なリストについては、[&#x200B; アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+>Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 > 
->Workfront計画の詳細については、[Adobe Workfront計画の概要 &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Workfront計画の詳細については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+
+<!--Old - before Oct. 15, 2025:
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>You must have the following to access Workfront Planning:
+>
+>* A new Workfront package and license. Workfront Planning is not available for legacy Workfront packages or licenses. 
+>* A Workfront Planning package. 
+>* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>
+> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).-->
 
 <!--OLD: 
 >[!IMPORTANT]

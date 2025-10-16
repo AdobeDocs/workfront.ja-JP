@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 5%
+source-wordcount: '504'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Workfront ProofとAdobe Expressを使用すると、次のことができます
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfrontパッケージ</td> 
    <td> 
    <p>任意</p> 
    </td> 
@@ -51,15 +51,14 @@ Workfront ProofとAdobe Expressを使用すると、次のことができます
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">製品</td> 
+   <td role="rowheader">その他の製品</td> 
    <td> 
    <p> Adobe Expressが必要であり、Admin Consoleのユーザーとして製品に追加される必要があります。 </p> </td> 
   </tr>
-
-</tbody> 
+ </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -73,14 +72,14 @@ Workfront ProofとAdobe Expressを使用すると、次のことができます
   >
   >Adobe ExpressとWorkfront Proofの統合は、複数のリリースを通じて使用できるようになります。最初に、Adobe Admin Console内の同じ組織 ID に関連付けられたWorkfrontとAdobe Expressを持つアカウントを使用し、次に、IMS 組織をまたいで作業しているユーザーを持つお客様を使用します。 統合を有効にする場合は、カスタマーサクセスまたは戦略担当営業にお問い合わせください。
 
-* Adobe Expressでドラフトのレビューを開始する前に、[Adobe Workfront レビューツールを使用してインタラクティブコンテンツをレビュー &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) をインストールする必要があります。
+* Adobe Expressでドラフトのレビューを開始する前に、[Adobe Workfront レビューツールを使用してインタラクティブコンテンツをレビュー ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) をインストールする必要があります。
 
 
 ## Workfrontでの承認ワークフローの設定
 
 標準ライセンスを持つプルーフ管理者は、ユーザーが Express テンプレートに承認ワークフローを追加する前に、Workfrontで承認ワークフローを作成する必要があります。
 
-詳しくは、[&#x200B; 自動ワークフローテンプレートの作成と管理 &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) を参照してください。
+詳しくは、[ 自動ワークフローテンプレートの作成と管理 ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) を参照してください。
 
 ## Express テンプレートに承認ワークフローを追加する
 
@@ -90,7 +89,7 @@ Express テンプレートを混在し直す場合は、公開する前に承認
 
 Adobe Expressの承認をリクエストするには、標準Workfront ライセンスが必要です。
 
-[&#x200B; デザインの承認を得る &#x200B;](https://helpx.adobe.com/jp/express/web/share-and-publish/share-and-collaborate/request-approval.html) 方法を説明します。
+[ デザインの承認を得る ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html) 方法を説明します。
 
 
 ## Express テンプレートをリミックスして、レビューと承認を受けるために送信

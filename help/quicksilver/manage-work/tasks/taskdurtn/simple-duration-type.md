@@ -7,10 +7,10 @@ description: シンプル期間タイプは、Adobe Workfrontでタスクに設�
 author: Alina
 feature: Work Management
 exl-id: 9bb472db-1448-467e-93ca-611453e1c00a
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 46%
+ht-degree: 45%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 46%
 
 <!-- Audited: 5/2025 -->
 
-シンプル期間タイプは、Adobe Workfrontでタスクに設定できる期間タイプです。 Workfrontの期間タイプについて詳しくは、[&#x200B; タスク期間と期間タイプの概要 &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
+シンプル期間タイプは、Adobe Workfrontでタスクに設定できる期間タイプです。 Workfrontの期間タイプについて詳しくは、[ タスク期間と期間タイプの概要 ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
 
 ## シンプル期間タイプの概要
 

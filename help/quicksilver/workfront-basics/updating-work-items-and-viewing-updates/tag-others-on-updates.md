@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクトにアップデートコメント
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 84%
+source-wordcount: '955'
+ht-degree: 82%
 
 ---
 
@@ -57,35 +57,65 @@ ht-degree: 84%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>新規：イシューとドキュメントにはコントリビューター以上、その他のすべてのオブジェクトにはライト以上</p>
-   <p>現在：イシューとドキュメントについてはリクエスト以上、その他のすべてのオブジェクトについてはレビュー以上</p> </td> 
-  </tr> 
-  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td> <p>イシューとドキュメントの場合：</p>
+
+<ul><li><p>投稿者以上</p></li>
+   <li><p>リクエスト以上</p></li></ul>
+
+<p>その他すべてのオブジェクトの場合：</p>
+   <ul><li><p>ライト以上</p></li>
+   <li><p>レビュー以上</p></li></ul>
+
+</td>  
+  </tr>
    <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
-   <td> <p>返信を投稿するオブジェクトへの表示以上のアクセス</p> </td> 
+   <td> <p>ユーザーにタグ付けするオブジェクトへの表示以上のアクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>返信を投稿するオブジェクトに対する以上の権限を表示します</p> </td> 
+   <td> <p>ユーザーにタグを付けるオブジェクトに対する表示以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfrontのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or higher access to the objects where you want to post the reply</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permission</strong></td> 
+   <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 更新時の他のユーザーのタグ付け
 
@@ -118,7 +148,9 @@ ht-degree: 84%
 
    ![ユーザーをタグ付け](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. （オプション）更新を非公開にするには、更新ボックスの右下隅にある「**社外秘**」を有効にします。これにより、更新が社内ユーザーのみに表示されるようになります。「**社外秘**」オプションは、Workfront プロファイルで会社が指定されている場合にのみ使用できます。
+1. （オプション）更新を非公開にするには、更新ボックスの右下隅にある「**社外秘**」を有効にします。これにより、会社内のユーザーだけに更新が表示されます。
+
+   「**社外秘**」オプションは、Workfront プロファイルで会社が指定されている場合にのみ使用できます。
 
    >[!NOTE]
    >

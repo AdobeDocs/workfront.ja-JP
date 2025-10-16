@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: f9455b5aa57585a0e037f024807c19d48296d518
+source-git-commit: 39b3ecde744625c070a5c4378938e297f50feeaa
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 66%
+source-wordcount: '661'
+ht-degree: 64%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 >
 >ユーザーに表示されるメインメニューオプションは、ライセンスタイプおよびアクセスレベルで指定されている設定によって異なります。このレイアウトテンプレートを使用する一部のユーザーには、ここで選択するすべてのオプションが表示されない場合があります。詳しくは、[アクセスレベルと権限の連携](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)および[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 >
->Adobe Workfront統合エクスペリエンスでオンボーディングされた組織の場合は、メインメニューに異なるオプションが表示されることがあります。 詳しくは、[WorkfrontのAdobe統合エクスペリエンス &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+>Adobe Workfront統合エクスペリエンスでオンボーディングされた組織の場合は、メインメニューに異なるオプションが表示されることがあります。 詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
 レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -37,34 +37,30 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td><p>任意</p>
-
-<p>メインメニューへのカスタムアプリケーションの追加は、Adobe App Builderでライセンスを取得している組織のみが使用できます。</p></td> 
+       <p>メインメニューへのカスタムアプリケーションの追加は、Adobe App Builderでライセンスを取得している組織のみが使用できます。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td><p>現在：プラン</p>
-   または
-   <p>新規：標準</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。</p>
-    <p>グループに対して実行するには、そのグループの管理者である必要があります。</p> 
-     </td> 
+        <p>グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*アクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -98,7 +94,7 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
      >[!NOTE]
      >
-     >現在のライセンスモデルのプランライセンスを持つユーザー、または新しいライセンスモデルの標準ライセンスを持つユーザーのみが、メインメニューのユーザー ![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png) を表示できます。
+     >現在のライセンスモデルのプランライセンスを持つユーザー、または新しいライセンスモデルの標準ライセンスを持つユーザーのみが、メインメニューのユーザー ![ ユーザーアイコン ](assets/users-icon-in-main-menu.png) を表示できます。
 
    * リクエスト
    * タイムシート
@@ -117,19 +113,19 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
      >[!NOTE]
      >
-     >計画には追加ライセンスが必要です。 Workfront計画について詳しくは、[Adobe Workfront計画の概要 &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+     >計画には追加ライセンスが必要です。 Workfront計画について詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
    * カスタムアプリケーション
 
      >[!NOTE]
      >
-     > カスタムアプリケーションは、メインメニューオプションとして使用する前に、個別に作成する必要があります。 詳しくは、[Adobe App Builderを使用したWorkfrontのカスタムアプリケーションの作成 &#x200B;](/help/quicksilver/app-builder/app-builder.md) を参照してください。
+     > カスタムアプリケーションは、メインメニューオプションとして使用する前に、個別に作成する必要があります。 詳しくは、[Adobe App Builderを使用したWorkfrontのカスタムアプリケーションの作成 ](/help/quicksilver/app-builder/app-builder.md) を参照してください。
 
 1. 次のいずれかの操作を行います。
 
-   * 表示しない ![&#x200B; 非表示アイコン &#x200B;](assets/remove-icon---x-in-circle.png)**アクティブな項目** を非表示にする
-   * メインメニューに表示する ![&#x200B; アイコンを表示 &#x200B;](assets/add-icon-plus-in-circle.png)**利用可能な項目** を表示します。
-   * ドラッグ ![&#x200B; ドラッグアイコン &#x200B;](assets/move-icon---dots.png)**アクティブなアイテム** を使用して、メインメニューの表示順序を変更できます。
+   * 表示しない ![ 非表示アイコン ](assets/remove-icon---x-in-circle.png)**アクティブな項目** を非表示にする
+   * メインメニューに表示する ![ アイコンを表示 ](assets/add-icon-plus-in-circle.png)**利用可能な項目** を表示します。
+   * ドラッグ ![ ドラッグアイコン ](assets/move-icon---dots.png)**アクティブなアイテム** を使用して、メインメニューの表示順序を変更できます。
 
 1. 「**完了**」をクリックします。
 

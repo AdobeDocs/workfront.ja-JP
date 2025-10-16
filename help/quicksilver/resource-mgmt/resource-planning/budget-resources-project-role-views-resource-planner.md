@@ -6,10 +6,10 @@ description: プロジェクトビューや役割ビューを使用して、Adob
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2127'
-ht-degree: 96%
+source-wordcount: '2098'
+ht-degree: 95%
 
 ---
 
@@ -35,36 +35,31 @@ ht-degree: 96%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-    <td><p>新規：任意</p>
-       <p>または</p>
-       <p>現在：Pro 以上</p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>リソースプランナーの優先度と予算計上時間数の編集へのアクセスを含むリソース管理へのアクセスを編集</p> <p>財務データへのアクセスを編集してリソースの予算をコスト別に作成</p> <p>プロジェクトおよびユーザーへの編集アクセス権</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td> <p>情報予算の計上対象となるプロジェクトの管理権限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -109,7 +104,7 @@ ht-degree: 96%
 
    * プロジェクトの&#x200B;**その他**&#x200B;メニューをクリックし、「**役割の予定時間数を予算計上値として設定する**」をクリックします。\
      役割ごとの予算計上時間数は、次の式を使用して計算されます。\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -160,7 +155,7 @@ ht-degree: 96%
 
 役割ビューのリソースプランナーで予算配分を行うには、次の操作を実行します。
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
 
 1. 「**リソース**」をクリックします。
 1. 「**計画担当者**」がデフォルトで表示されます。
@@ -180,7 +175,7 @@ ht-degree: 96%
      これにより、管理アクセス権のあるプロジェクトで、役割の予算計上時間数がプロジェクトの予算計上時間数に配分されます。
 
    * 担当業務の「**その他**」メニューをクリックし、「プロジェクトの予定時間数を予算計上値として設定」をクリックします。**役割の予算計上時間数は、次の式を使用して計算されます。\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
@@ -225,7 +220,7 @@ ht-degree: 96%
 
 クイックリンクを使用すると、リソースの割り当ての予算を一括で設定できます。クイックリンクは、プロジェクトビューと役割ビューでのみ使用できます。
 
-![&#x200B; 自動予算オプション &#x200B;](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![ 自動予算オプション ](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

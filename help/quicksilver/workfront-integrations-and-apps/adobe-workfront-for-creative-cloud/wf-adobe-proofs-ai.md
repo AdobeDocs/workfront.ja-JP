@@ -6,10 +6,10 @@ description: アートボードをドキュメントとしてアップロード�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 90%
+source-wordcount: '638'
+ht-degree: 89%
 
 ---
 
@@ -21,19 +21,17 @@ ht-degree: 90%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>現在のプラン：[!UICONTROL Pro] 以上</p> <p>または</p> <p>従来のプラン：[!UICONTROL Premium]</p> <p>様々なプランでのプルーフのアクセス権について詳しくは、以下を参照してください。</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> 任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>現在のプラン：[!UICONTROL Work] または [!UICONTROL Proof]</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>標準</p> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
@@ -50,7 +48,7 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、[!DNL Workfront] または [!DNL Workfront Proof] の管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -64,10 +62,10 @@ ht-degree: 90%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. プルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックします。
 1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
 1. （オプション）**[!UICONTROL プルーフ名]**&#x200B;テキストボックスにプルーフ名を入力します。
@@ -75,14 +73,14 @@ ht-degree: 90%
 1. （オプション）承認者を追加します。
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![&#x200B; コメントを追加 &#x200B;](assets/add-comment.png)
+   ![ コメントを追加 ](assets/add-comment.png)
 
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 
 1. （オプション）「**[!UICONTROL 外部ファイルを追加]**」を選択して、コンピューターからファイルを追加します。
 1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
 
-   ![&#x200B; プラグイン内のファイル &#x200B;](assets/plugin-files-350x307.png)\
+   ![ プラグイン内のファイル ](assets/plugin-files-350x307.png)\
    ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。
 
 
@@ -90,10 +88,10 @@ ht-degree: 90%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. プルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックします。
 
 1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
@@ -110,7 +108,7 @@ ht-degree: 90%
 
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![&#x200B; 自動承認にコメントを追加 &#x200B;](assets/add-comment-automated-approval.png)
+   ![ 自動承認にコメントを追加 ](assets/add-comment-automated-approval.png)
 
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 1. （オプション）「**[!UICONTROL 外部ファイルを追加]**」を選択して、コンピューターからファイルを追加します。
@@ -123,10 +121,10 @@ ht-degree: 90%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. ドキュメントのアップロード先の作業アイテムに移動します。
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックします。
 
 1. プラグインの下部近くにある「**[!UICONTROL 新しいバージョン]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。

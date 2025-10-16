@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1682'
 ht-degree: 64%
 
 ---
@@ -29,39 +29,35 @@ ht-degree: 64%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront プラン </td> 
-   <td>任意</td> 
+  <tr> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>カスタムフォームへの管理アクセス権 </td> 
+  <tr> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>カスタムフォームへの管理アクセス権</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-この表の情報の詳細については、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
 ## 論理アイコンを表示およびスキップ
 
-カスタムフォームには、特定のフィールドに表示またはスキップロジックが適用されるタイミングを示すアイコンが表示されます。 フォームデザイナーのフィールドのアイコンは、そのロジックがフィールドに適用されていることを示します。
+カスタムフォームには、特定のフィールドに表示またはスキップロジックが適用されるタイミングを示すアイコンが表示されます。 フォーム designer のフィールドのアイコンは、そのロジックがフィールドに適用されていることを示します。
 
-| アイコン | フォームデザイナーのフィールド上の場所 | 定義 |
+| アイコン | フォーム designer のフィールド上の場所 | 定義 |
 |--- |--- |--- |
 | ![ターゲットフィールドのロジックを表示](assets/display-logic-bottom-left.png) | 左下 | このフィールドは、表示ロジックのターゲットフィールドです。フォーム上で特定の選択が行われた場合は、このフィールドが表示されます。 |
 | ![表示ロジックアイコンを定義](assets/display-logic-bottom-right.png) | 右下 | このフィールドは表示ロジックを定義します。このフィールドで特定の選択または値を指定すると、ターゲットフィールドが表示されます。 |
@@ -77,7 +73,7 @@ ht-degree: 64%
 ## 表示ロジックとスキップロジックの使用に関する考慮事項
 
 * カスタムフィールド、ウィジェットまたはセクション区切りに表示ロジックを追加するには、フォーム上で、1 つ以上の複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）をその前に配置する必要があります。
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 * スキップロジックはウィジェットやセクション区切りに追加することはできません。追加できるのは、複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）のみです。
 * 表示またはスキップロジックを適用して、複数オプションのフィールドの選択肢の表示/非表示を切り替えることはできません。 例えば、ドロップダウン、チェックボックスグループ、ラジオボタンフィールドに表示される選択肢を、別のフィールドの表示またはスキップロジックに基づいて制限することはできません。
 * カスタムフィールドに関して、次の内容がすべてが該当する場合、カスタムフィールドには表示ロジックとスキップロジックの両方を追加できます。
@@ -107,7 +103,7 @@ ht-degree: 64%
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。少なくとも1つの複数選択フィールド（ラジオボタン、ドロップダウン、チェックボックス）が、表示されるターゲットフィールドの前に配置されていなければなりません。
 1. ターゲットフィールドを選択し、「**ロジックを追加**」をクリックします。
 1. ロジックビルダーで「**表示**」タブを選択します。
@@ -128,7 +124,7 @@ ht-degree: 64%
 
 1. 論理ステートメントの構築が完了したら、「**適用**」をクリックします。
 
-   表示ロジックのアイコンがフォームデザイナーのターゲットフィールドと定義フィールドに追加されます。
+   表示ロジックのアイコンがフォーム designer のターゲットフィールドと定義フィールドに追加されます。
 
 <!--
 <div class="preview">
@@ -192,7 +188,7 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。スキップロジックの定義フィールドは、複数選択フィールド（ラジオボタン、ドロップダウン、チェックボックス）である必要があります。
 1. 定義フィールドを選択し、画面左下の「**ロジックを追加**」をクリックします。
 1. Logic Builder で「**スキップ**」タブを選択します。
@@ -213,7 +209,7 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 
 1. 論理ステートメントの構築が完了したら、「**適用**」をクリックします。
 
-   スキップロジックアイコンが、フォームデザイナーのターゲットフィールドと定義フィールドに追加されます。
+   スキップロジックアイコンが、フォーム designer のターゲットフィールドと定義フィールドに追加されます。
 
 ## 検証ロジックをカスタムフォームに追加する
 
@@ -238,23 +234,23 @@ IF({DE:Budget Field} < 0,
 
 他のフィールドに基づく検証の追加の例として、会議室のサイズ （小、中、大）のフィールドと、会議出席者数の個別のフィールドがあります。 各部屋サイズの人数は、検証式に記述されます。 ユーザーが入力した出席者の数が、選択した会議室に対して多すぎる場合は、エラーメッセージが表示されます。
 
-検証ロジックのその他の例については、[&#x200B; カスタムフォームにおける高度なロジックの例 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md) を参照してください。
+検証ロジックのその他の例については、[ カスタムフォームにおける高度なロジックの例 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md) を参照してください。
 
 ### 検証ロジックの定義
 
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。
 1. ロジックを適用するフィールドを選択し、「**ロジックの追加**」をクリックします。
 1. ロジックビルダーで「**検証**」タブを選択します。
 
-   ![&#x200B; 検証ロジックビルダー &#x200B;](assets/validation-logic-blank-editor-val-only-in-menu.png)
+   ![ 検証ロジックビルダー ](assets/validation-logic-blank-editor-val-only-in-menu.png)
 
 1. エディターで検証条件を作成します。これには、検証が満たされない場合に表示するエラーメッセージが含まれます。
 
-   計算と式について詳しくは、[&#x200B; フォームに計算フィールドを追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) および [&#x200B; 計算データ式の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
+   計算と式について詳しくは、[ フォームに計算フィールドを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) および [ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
 
 1. 「**適用**」をクリックします。
 

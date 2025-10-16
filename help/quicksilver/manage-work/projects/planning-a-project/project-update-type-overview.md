@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: プロジェクト更新タイプの概要
+title: プロジェクト更新の種類の概要
 description: プロジェクトの更新タイプは、Adobe Workfront がプロジェクトのタイムラインを計算する方法を示します。プロジェクトプランの変更により、プロジェクトのトリガーが変更される場合があります。これらの変更を取り入れた最新の状態に保つには、プロジェクトのタイムラインを自動または手動で再計算する必要があります。
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

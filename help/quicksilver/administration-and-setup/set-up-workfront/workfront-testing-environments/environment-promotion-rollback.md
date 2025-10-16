@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
-source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 17%
+source-wordcount: '384'
+ht-degree: 15%
 
 ---
 
@@ -31,32 +31,32 @@ ht-degree: 17%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] プラン</strong>
+   <td>Adobe Workfront パッケージ
    </td>
-   <td> <p>新規：Prime または Ultimate</p><p>または</p><p>現在：使用できません</p>
+   <td> <p>PrimeまたはUltimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] ライセンス</strong>
+   <td><strong>Workfront ライセンス </strong>
    </td>
-   <td> <p>[!UICONTROL Standard]</p><p>または</p><p>現在：使用できません</p>
+   <td> <p>標準</p>&gt;
    </td>
   </tr>
    <tr>
    <td>アクセスレベル設定
    </td>
-   <td>[!DNL Workfront] 管理者である必要があります。
+   <td><p>Workfront 管理者である必要があります。</p>
    </td>
   </tr>
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 
 * ロールバックする前に、環境プロモーションパッケージをインストールする必要があります。
 
-  手順については、[&#x200B; 環境プロモーションパッケージのインストール &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md) を参照してください。
+  手順については、[ 環境プロモーションパッケージのインストール ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md) を参照してください。
 
 
 ## 特定のパッケージデプロイメントをロールバックできるかどうかを判断します

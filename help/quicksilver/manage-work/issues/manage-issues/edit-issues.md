@@ -1,16 +1,16 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: イシューを編集
+title: 問題の編集
 description: 自分が作成したイシューに関する情報を編集したり、他のユーザーがイシューを共有している場合は、そのユーザーが作成したイシューに関する情報を編集したりできます。 この記事では、権限があれば、イシューを検索、検索、編集する方法について説明します。
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
+source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
 workflow-type: tm+mt
-source-wordcount: '2618'
+source-wordcount: '2602'
 ht-degree: 89%
 
 ---
@@ -27,23 +27,20 @@ ht-degree: 89%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新しいライセンス：</p>
-   <ul><li>投稿者以上</li>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <ul><li>投稿者以上</li>
    <li>タスクまたはプロジェクトの「イシュー」セクションのイシューを編集するためのライト以上</li></ul>
-   <p>現在のライセンス：</p>
-  <ul><li>リクエスト以上</li> <li>タスクまたはプロジェクトの「イシュー」セクションでレビュー以上のイシューを編集する</li></ul> </td> 
+   または：
+   <ul><li>リクエスト以上</li> <li>タスクまたはプロジェクトの「イシュー」セクションでレビュー以上のイシューを編集する</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
@@ -62,9 +59,45 @@ ht-degree: 89%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New license:</p>
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to edit issues in the Issues section of a task or project</li></ul>
+   <p>Current license:</p>
+  <ul><li>Request or higher</li> <li>Review or higher to edit issues in the Issues section of a task or a project</li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Issues</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to an issue to edit the following fields in the Details area: </p>
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   <li>Severity</li>
+   </ul>
+   <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## イシューを編集する際の制限事項
 
@@ -82,7 +115,7 @@ ht-degree: 89%
 1. （オプション）「**タスク**」をクリックし、タスクの名前をクリックして、タスクを開きます。
 1. 左側のパネルで「**イシュー**」をクリックします。
 
-   ![&#x200B; イシューアイコン &#x200B;](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![ イシューアイコン ](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. （オプション）イシューに関する限定的な情報を編集するには、左側のパネルで「**イシューの詳細**」をクリックします。
 
@@ -93,9 +126,9 @@ ht-degree: 89%
    「詳細」セクションの情報を編集するには、次の手順を実行します。
 
    1. （オプション）すべてのエリアを折りたたむには、右上隅の&#x200B;**すべて折りたたむ**&#x200B;アイコンをクリックします。
-   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![&#x200B; 右向き矢印 &#x200B;](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
+   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![ 右向き矢印 ](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
    1. （オプション）カスタムフォームを添付するには、**カスタムフォームを追加**&#x200B;フィールドにフォーム名を入力し、リストに表示されたフォームを選択して、「**変更を保存**」をクリックします。
-   1. （オプション） **書き出し** アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックして、概要とカスタムフォーム情報をPDF ファイルに書き出し、「**書き出し**」をクリックします。 次の中から選択します。
+   1. （オプション） **書き出し** アイコン ![ 書き出しアイコン ](assets/export.png) をクリックして、概要とカスタムフォーム情報をPDF ファイルに書き出し、「**書き出し**」をクリックします。 次の中から選択します。
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
       * 概要
@@ -103,7 +136,7 @@ ht-degree: 89%
 
       PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-      ![&#x200B; 問題の詳細をエクスポート &#x200B;](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![ 問題の詳細をエクスポート ](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       詳しくは、[カスタムフォームとオブジェクトの詳細の書き出し](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
@@ -142,7 +175,7 @@ ht-degree: 89%
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 「**イシュー名**」をクリックします。
 
-   ![&#x200B; イシュー名セクション &#x200B;](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![ イシュー名セクション ](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. 「**イシュー名**」フィールドを更新します。
 1. 「**保存**」をクリックするか、以降のセクションの編集を続けます。
@@ -152,7 +185,7 @@ ht-degree: 89%
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 「**概要**」をクリックします。
 
-   ![&#x200B; イシューの概要セクション &#x200B;](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![ イシューの概要セクション ](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. 以下の表のフィールドを更新または確認します。
 
@@ -288,7 +321,7 @@ ht-degree: 89%
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 左側のパネルで「**割り当て**」をクリックします。
 
-   ![&#x200B; イシューの割り当てセクション &#x200B;](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![ イシューの割り当てセクション ](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. 「**ユーザー、役割、チームを検索**」をクリックして、タスクに割り当てるユーザー、役割、またはチームの名前の入力を開始し、リストに表示されたらクリックするか Enter キーを押します。
 
@@ -339,15 +372,15 @@ ht-degree: 89%
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 「**カスタムフォーム**」をクリックします。
 
-   ![&#x200B; カスタムフォームセクションの公開 &#x200B;](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![ カスタムフォームセクションの公開 ](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. 「**カスタムフォームを追加**」フィールドで、イシューに関連付けるカスタムフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのイシューには、最大 10 個のカスタムフォームを追加できます。
+1. 「**カスタムフォームを追加**」フィールドで、イシューに関連付けるカスタムフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのイシューには、最大 10 個のカスタムフォームを追加できます。
 
 1. （条件付き）カスタムフォームをイシューに添付した場合は、フォーム上の任意のフィールドを編集します。イシューを保存する前に、すべての必須フィールドを指定する必要があります。
 
    >[!NOTE]
    >
-   >Workfront 管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。カスタムフォームのセクション内のフィールドを編集する権限は、イシュー自体に対する権限によって異なります。カスタムフォームのセクションに対する権限の設定について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 イシューの権限の設定については、[イシューの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)を参照してください。
+   >Workfront 管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。カスタムフォームのセクション内のフィールドを編集する権限は、イシュー自体に対する権限によって異なります。カスタムフォームのセクションに対する権限の設定について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 イシューの権限の設定については、[イシューの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)を参照してください。
 
 1. 「**保存**」をクリックするか、次のセクションの編集に進みます。
 
@@ -356,7 +389,7 @@ ht-degree: 89%
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 「**設定**」をクリックします。
 
-   ![&#x200B; 問題設定アイコン &#x200B;](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![ 問題設定アイコン ](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    次の情報を更新します。
 
@@ -400,14 +433,14 @@ ht-degree: 89%
 
 システム管理者またはグループ管理者は、イシューヘッダーに表示されるフィールドをカスタマイズできます。詳しくは、[レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
-![&#x200B; 問題ヘッダー &#x200B;](assets/issue-header-350x19.png)
+![ 問題ヘッダー ](assets/issue-header-350x19.png)
 
 デフォルトでは、次のフィールドがイシューヘッダーに含まれています。
 
 * イシュー名
 * 完了率
 
-  詳しくは、[&#x200B; タスクの完了率の表示と更新 &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
+  詳しくは、[ タスクの完了率の表示と更新 ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
 * 割り当て
 * 予定完了日時
 * ステータス

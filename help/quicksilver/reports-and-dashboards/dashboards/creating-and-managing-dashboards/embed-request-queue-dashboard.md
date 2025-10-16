@@ -6,9 +6,9 @@ description: 新しいリクエストキューをダッシュボードに埋め�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1143'
 ht-degree: 97%
 
 ---
@@ -25,43 +25,36 @@ ht-degree: 97%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
+      <p>標準</p>
+      <p>プラン</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> </td> 
-  </tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td role="rowheader">オブジェクト権限</td> 
    <td> <p>ダッシュボードに対する権限の管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
 
 +++
 
@@ -100,7 +93,7 @@ ht-degree: 97%
 
    これにより、リクエストキューまたはキュートピックへのリンクが、画面に表示された状態でコピーされます。ユーザーは、リクエストタイプ、または利用可能なトピックグループおよびキュートピックを更新できます。
 
-   ![&#x200B; 共有パスを使用したリクエストキュー &#x200B;](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![ 共有パスを使用したリクエストキュー ](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### リクエストキューへのリンクとリクエストタイプを変更できる機能を取得 {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +114,7 @@ ht-degree: 97%
 
    ユーザーは、必要なトピックグループやキュートピックを選択したり、別のリクエストタイプを選択したりすることができます。
 
-   ![&#x200B; リクエストキューの URL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![ リクエストキューの URL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### リクエストタイプを変更できないリクエストキューへのリンクを取得 {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +143,7 @@ ht-degree: 97%
 
    ユーザーは、選択したリクエストタイプに必要な任意のトピックグループまたはキューのトピックを選択できます。別のリクエストタイプは選択できません。
 
-   ![&#x200B; リクエストキューコード &#x200B;](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![ リクエストキューコード ](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## ダッシュボードへのリクエストキューの埋め込み
 
@@ -164,7 +157,7 @@ ht-degree: 97%
 
 1. 「**外部ページを追加**」をクリックします。
 
-   ![&#x200B; 外部ページ &#x200B;](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![ 外部ページ ](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. 「**外部ページを追加**」ボックスで、次のフィールドを編集します。
 

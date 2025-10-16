@@ -6,10 +6,10 @@ description: 1 つのオブジェクトにアタッチされたカスタムフ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -21,19 +21,20 @@ ht-degree: 89%
 
 ## アクセス要件
 
-この記事で説明する操作を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td><p>投稿者以上</p> 
+   <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -46,11 +47,37 @@ ht-degree: 89%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions or higher to the objects for which you manage custom forms</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 前提条件
 
-* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 * オブジェクトには、カスタムフォームを添付する必要があります。
 
   カスタムフォームをオブジェクトに追加する方法についての情報は、[オブジェクトにカスタムフォームを追加](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
@@ -77,7 +104,7 @@ ht-degree: 89%
 
    例えば、プロジェクトに移動する場合は、「**プロジェクトの詳細**」セクションをクリックします。
 
-1. オブジェクトのページの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**すべて編集** をクリックします。
+1. オブジェクトのページの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、「**すべて編集** をクリックします。
 1. カスタムフォーム名の右側 **ある** 削除 ![](assets/delete-icon.png) アイコンをクリックし、「**削除**」をクリックして確定してオブジェクトからフォームを削除するか、「**キャンセル**」をクリックして削除を防ぎます。
 1. 「**変更を保存**」をクリックします。
 
@@ -89,7 +116,7 @@ ht-degree: 89%
 
   同じオブジェクトに添付された異なるフォーム上の同じフィールドに異なる値を設定することはできません。
 
-* 2 つの異なるオブジェクトに同じ計算フィールドがある場合、エラーを避けるためにそれらの計算が同一である必要があります。複数のフォームを含むカスタムフォームに計算フィールドを追加する方法については、[&#x200B; フォームに計算フィールドを追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+* 2 つの異なるオブジェクトに同じ計算フィールドがある場合、エラーを避けるためにそれらの計算が同一である必要があります。複数のフォームを含むカスタムフォームに計算フィールドを追加する方法については、[ フォームに計算フィールドを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 ## オブジェクトを一括編集するときに複数のカスタムフォームを管理
 

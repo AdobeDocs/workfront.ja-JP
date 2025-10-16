@@ -8,9 +8,9 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1028'
 ht-degree: 96%
 
 ---
@@ -40,32 +40,27 @@ Workfront の管理者は、過去 30 日間に削除されているプロジェ
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>システム管理者</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -137,7 +132,7 @@ Workfront の管理者は、過去 30 日間に削除されているプロジェ
 
 * 解決オブジェクト
 
-  解決中のオブジェクトは、「元のイシューを保持して、その解決をこの **&#x200B;**&#x200B;（プロジェクト **または** タスク） **> に結び付ける** オプションで設定された変換されたイシューです。 親プロジェクトまたはタスクを削除すると、イシューはそのプロジェクトまたはタスクにリンクされなくなるので、解決オブジェクトとして識別されなくなります。親を復元しても、リンクは復元されません。
+  解決中のオブジェクトは、「元のイシューを保持して、その解決をこの **** （プロジェクト **または** タスク） **> に結び付ける** オプションで設定された変換されたイシューです。 親プロジェクトまたはタスクを削除すると、イシューはそのプロジェクトまたはタスクにリンクされなくなるので、解決オブジェクトとして識別されなくなります。親を復元しても、リンクは復元されません。
 
   Workfront 管理者またはグループ管理者が、変換時に解決オブジェクトに一致するようにイシューを設定する方法に関して詳しくは、[システム全体のタスクとイシューの環境設定を行う](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)および[グループのタスクとイシューの環境設定を行う](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
 

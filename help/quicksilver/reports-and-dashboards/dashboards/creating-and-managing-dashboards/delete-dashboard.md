@@ -6,10 +6,10 @@ description: ダッシュボードを使用しなくなった場合は、Adobe W
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -21,43 +21,36 @@ ht-degree: 88%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
-   </td>
+      <p>標準</p>
+      <p>プラン</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></td> 
-  </tr> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td role="rowheader">オブジェクト権限</td> 
    <td> <p>ダッシュボードに対する権限の管理</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
 
 +++
 
@@ -72,7 +65,7 @@ ht-degree: 88%
 1. 編集するダッシュボードに移動します。
 1. 「**ダッシュボードのアクション**」をクリックして、「**削除**」をクリックします。
 
-   ![&#x200B; ダッシュボードを削除 &#x200B;](assets/unshimmed-delete-dashboard.png)
+   ![ ダッシュボードを削除 ](assets/unshimmed-delete-dashboard.png)
 
 1. ダッシュボードの削除を確定するには、「**はい、削除します**」をクリックします。
 ダッシュボードが Workfront から削除されます。
@@ -84,9 +77,9 @@ ht-degree: 88%
 複数のダッシュボードを削除するには、次の操作を実行します。
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または左上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) （利用可能な場合）をクリックし、「**[!UICONTROL ダッシュボード]**」を選択します。
-1. 削除するリストの各ダッシュボードを選択し、**削除**![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
+1. 削除するリストの各ダッシュボードを選択し、**削除**![ 削除アイコン ](assets/delete.png) をクリックします。
 
-   ![&#x200B; ダッシュボードを削除 &#x200B;](assets/unshimmed-delete-dashboard-list.png)
+   ![ ダッシュボードを削除 ](assets/unshimmed-delete-dashboard-list.png)
 
 1. ダッシュボードの削除を確定するには、「**はい、削除します**」をクリックします。
 ダッシュボードが Workfront から削除されます。

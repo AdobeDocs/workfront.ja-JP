@@ -6,10 +6,10 @@ description: スマートフォルダーは、プロジェクト、タスクま�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 93%
+source-wordcount: '512'
+ht-degree: 91%
 
 ---
 
@@ -23,28 +23,28 @@ ht-degree: 93%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -52,7 +52,7 @@ ht-degree: 93%
 
 フォルダーはサムネイル表示、標準表示、またはリスト表示で表示できます。ビューを変更するには、右上隅にあるビューオプションを使用します。
 
-![&#x200B; スマート フォルダーの編集 &#x200B;](assets/screenshot-2016-07-07-12.46.54.png)
+![ スマート フォルダーの編集 ](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## スマートフォルダーを作成
 
@@ -68,7 +68,7 @@ ht-degree: 93%
 ## スマートフォルダーを編集
 
 1. 編集するスマートフォルダーが含まれている&#x200B;**ドキュメント**&#x200B;エリアに移動します。
-1. **フォルダー** 列で、編集するスマートフォルダーの横にある **詳細** アイコン ![&#x200B; 詳細メニュー &#x200B;](assets/more-icon.png) をクリックします。
+1. **フォルダー** 列で、編集するスマートフォルダーの横にある **詳細** アイコン ![ 詳細メニュー ](assets/more-icon.png) をクリックします。
 1. 「**編集**」をクリックします。
 
 1. 変更を加えてから、「**フォルダーを保存**」をクリックします。

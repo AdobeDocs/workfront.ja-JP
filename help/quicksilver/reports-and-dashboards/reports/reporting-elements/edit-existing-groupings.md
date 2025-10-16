@@ -4,10 +4,10 @@ description: 既存のグループを編集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 86%
+source-wordcount: '439'
+ht-degree: 87%
 
 ---
 
@@ -21,44 +21,37 @@ ht-degree: 86%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</strong></td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>投稿者以上</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>リクエスト以上</p></li>
-         </ul>
+    <p>投稿者以上</p>
+    <p>リクエスト以上</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>報告書、ダッシュボード、カレンダーへのアクセスを編集して、報告書のグループ化を編集します</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>報告書、ダッシュボード、カレンダーへのアクセスを編集して、報告書のグループ化を編集します</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>レポートへの管理権限でレポート内のグループ化を編集</p> <p>グループ化への管理権限</p></td> 
+   <td role="rowheader">オブジェクト権限</td> 
+    <td> <p>レポートへの管理権限でレポート内のグループ化を編集</p> <p>グループ化への管理権限</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
-
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 +++
 
 ## 前提条件
@@ -71,7 +64,7 @@ ht-degree: 86%
 
 1. カスタマイズしたいグループ化を含むオブジェクトのリストに移動します。
 1. **グループ化**&#x200B;アイコンをクリックします。
-1. カスタマイズするグループ化を選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. カスタマイズするグループ化を選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    ![編集アイコンを選択します。](assets/customizegrouping-nwe-standard-350x291.png)
 

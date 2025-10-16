@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: リクエストの作成と送信
 description: 予定作業は、Adobe Workfront ではプロジェクトとタスクで表されます。ただし、予定外の作業が（ランダムなリクエストの形で）いつでも発生する可能性がある環境で作業する場合もあります。Workfront には、リクエストキューを使用してこのタイプの環境に対応するワークフローが用意されています。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '2790'
+source-wordcount: '2767'
 ht-degree: 76%
 
 ---
@@ -46,13 +46,11 @@ Workfront Planning でレコードを作成するには、次の方法で、Work
 
 * Workfrontの「リクエスト」領域のWorkfront Planning リクエストフォームから。
 
-  Workfront Planning パッケージを購入する必要があります。 詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+  Workfront Planning パッケージを購入する必要があります。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,14 +58,13 @@ Workfront Planning でレコードを作成するには、次の方法で、Work
  <tbody> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：Contributor 以上</p>
-   または
-   <p>現在：Request 以上</p>
+   <td> <p>投稿者以上</p>
+   <p>リクエスト以上</p>
     </td> 
   </tr> 
   <tr> 
@@ -81,7 +78,7 @@ Workfront Planning でレコードを作成するには、次の方法で、Work
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -104,7 +101,7 @@ Workfront 管理者は、リクエストキューの次のコンポーネント�
   詳しくは、[トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。
 
 * （オプション）リクエストのカスタムフォーム。\
-  詳しくは、「カスタムフォームの作成 [&#x200B; を参照してください &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+  詳しくは、「カスタムフォームの作成 [ を参照してください ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * （オプション）リクエストの承認プロセス。\
   詳しくは、[作業アイテムの承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
@@ -136,7 +133,7 @@ Workfront web アプリでリクエストを作成するには：
    * 管理者から、Workfront Planning へのアクセス権を付与されています
    * Workfront Planning Workspace に対して少なくとも表示権限がある
 
-   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください
+   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください
 
 1. ページの右上隅にある「**新規リクエスト**」をクリックします。
 
@@ -394,8 +391,8 @@ Planning 要求を発行するには、Workfront Planning パッケージを購�
 
 詳しくは、次の記事を参照してください。
 
-* [Adobe Workfront Planning でリクエストフォームを作成および管理します &#x200B;](/help/quicksilver/planning/requests/create-request-form.md)。
-* [&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md)。
+* [Adobe Workfront Planning でリクエストフォームを作成および管理します ](/help/quicksilver/planning/requests/create-request-form.md)。
+* [ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 送信されたリクエストを見つける
 

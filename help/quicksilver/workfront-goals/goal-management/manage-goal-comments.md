@@ -6,10 +6,10 @@ description: Adobe Workfront Goals で表示できるすべての目標にコメ
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 60%
+source-wordcount: '238'
+ht-degree: 42%
 
 ---
 
@@ -34,9 +34,13 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+>[!NOTE]
+>
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>
+>Adobe Workfront Goals は購入できなくなりました。
 
-この記事で説明する操作を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto">
 <col>
@@ -44,45 +48,32 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+ <tr>
+  <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>新しいプランとライセンス構造の場合：
-  <ul><li>Ultimateプラン </li></ul>
-   </p>
-<p>現在のプランおよびライセンス構造の場合： 
-<ul><li> プロまたはそれ以上 </li>
-  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
+   <p>Adobe WorkfrontUltimate</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront プラン</td>
  <td>
- <p>任意</td>
+ <p>任意</p></td>
  </tr>
- <tr>
- <td role="rowheader">製品*</td>
- <td>
- <p> 新しい製品要件：Workfront</p>
- または
- <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
- </tr>
- <tr>
+  <tr>
  <td role="rowheader">アクセスレベル設定</td>
- <td> <p>Goals に対する表示以上のアクセス権</p> </td>
+ <td> <p>Goals に対する表示以上のアクセス権</p> 
+ </td>
  </tr>
- <tr data-mc-conditions="">
+ <tr>
  <td role="rowheader">オブジェクト権限</td>
  <td>
   <div>
   <p>目標の表示権限またはそれ以上</p>
-  <p>デフォルトでは、ユーザーは目標にアクセスできません。 </p>
- <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
@@ -92,16 +83,67 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 
 +++
 
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license</td>
+ <td>
+ <p>Any</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+ <p> New product requirement: Workfront</p>
+ Or
+ <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level configuration</td>
+ <td> <p>View or higher access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal</p>
+  <p>By default, users get No Access to goals </p>
+ <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
+
 ## 目標コメントの管理
 
 目標に対するコメントは、目標のページの「更新」セクションで追加できます。
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、または右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png) をクリックして、**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、または右上隅の **メインメニュー** アイコン ![ メインメニューライン ](assets/lines-main-menu.png) をクリックして、**目標** をクリックします。
 これにより、目標リストが開きます。
 1. コメントを追加する目標を探し、その名前をクリックして目標ページを開きます。
 1. 左側のパネルの「**更新**」をクリックします。
 
-   Workfront オブジェクトに対するコメントの管理について詳しくは、[&#x200B; 作業の更新 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
+   Workfront オブジェクトに対するコメントの管理について詳しくは、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 

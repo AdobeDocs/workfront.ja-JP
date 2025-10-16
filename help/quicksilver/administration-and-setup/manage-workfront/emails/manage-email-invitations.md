@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 95%
+source-wordcount: '945'
+ht-degree: 94%
 
 ---
 
@@ -53,12 +53,14 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td>
+   <p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -66,6 +68,8 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
   </tr> 
  </tbody> 
 </table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -88,9 +92,9 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
 
 1. 名前の後に「**未登録**」ラベルが表示されているユーザーを選択します。
 
-   ![&#x200B; 未登録 &#x200B;](assets/unreg-user-qs-350x221.png)
+   ![ 未登録 ](assets/unreg-user-qs-350x221.png)
 
-1. その他アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**登録をユーザーに通知** をクリックします。
+1. その他アイコン ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**登録をユーザーに通知** をクリックします。
 
    新規ユーザーに、Workfront パスワードの作成に使用できる新しいリンクを含む招待メールが送信されます。
 

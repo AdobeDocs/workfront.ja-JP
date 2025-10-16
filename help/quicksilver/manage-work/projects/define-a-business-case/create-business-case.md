@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: プロジェクトのビジネスケースの作成
 description: ビジネスケースを使用して、プロジェクトをリクエストし、プロジェクトの目的、予算および潜在的な利益を定義できます。ポートフォリオマネージャーまたはプロジェクトスポンサーは、ビジネスケースの情報を使用して、プロジェクトを承認する前に分析し、優先順位を付けます。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 61%
+source-wordcount: '777'
+ht-degree: 63%
 
 ---
 
@@ -27,17 +27,16 @@ ht-degree: 61%
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td> 
-   <p>現在：Prime以降</p> 
-   <p>レガシー：Pro 以上</p> 
+   <p>Prime以上</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td> 
-   <p>現在：標準 </p> 
-   <p>レガシー：プラン </p> </td> 
+   <p>標準 </p> 
+   <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>アクセスレベル設定</p></td> 
@@ -50,7 +49,7 @@ ht-degree: 61%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -78,7 +77,7 @@ ht-degree: 61%
    >Workfront インスタンスで「アイデア」ステータスが削除されている場合、プロジェクトは、プロジェクトの環境設定エリアで定義された、新規プロジェクトのデフォルトのステータスに配置されます。プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
 1. 「プロジェクトタイトル」フィールドに名前を入力します。
-1. （任意） **詳細** アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/qs-more-icon-on-an-object.png)、**テンプレートを添付** の順にクリックして、プロジェクトの作業分解構造を作成します。
+1. （任意） **詳細** アイコン ![ 詳細アイコン ](assets/qs-more-icon-on-an-object.png)、**テンプレートを添付** の順にクリックして、プロジェクトの作業分解構造を作成します。
 
    または
 
@@ -88,15 +87,15 @@ ht-degree: 61%
 1. 左側のパネルで、「ビジネスケース **をクリック** ます。
 1. （任意）「**プロジェクト情報**」セクションを編集するには、「**プロジェクト情報を編集**」をクリックします。 
 
-   **プロジェクト情報** セクションフィールドの編集について詳しくは、記事 [&#128279;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) ビジネスケースの領域の概要 [&#x200B; の &#x200B;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) プロジェクト情報  の節を参照してください。
+   **プロジェクト情報** セクションフィールドの編集について詳しくは、記事 [ ビジネスケースの領域の概要 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) の [ プロジェクト情報 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) の節を参照してください。
 
 1. （任意）「**目標**」セクションを編集するには、「**目標を編集**」をクリックします。
 
-   ビジネスケースの **目標** セクションの編集について詳しくは、記事 [&#x200B; ビジネスケースの領域の概要 &#x200B;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) の [&#x200B; 目標 &#x200B;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) の節を参照してください。
+   ビジネスケースの **目標** セクションの編集について詳しくは、記事 [ ビジネスケースの領域の概要 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) の [ 目標 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) の節を参照してください。
 
 1. （任意）「**費用**」セクションを編集するには、「**費用の編集**」をクリックします。
 
-   ビジネスケースの **費用** セクションの編集について詳しくは、記事 [&#x200B; ビジネスケースの領域の概要 &#x200B;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) の [&#x200B; 費用 &#x200B;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) の節を参照してください。
+   ビジネスケースの **費用** セクションの編集について詳しくは、記事 [ ビジネスケースの領域の概要 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) の [ 費用 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) の節を参照してください。
 
 1. （任意）「**リソース予算の編集**」をクリックして、リソースを予算に計上し、プロジェクトの担当業務に関連する予算計上労力コストを取得します。 詳しくは、[ビジネスケースの予算リソース](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。
 
@@ -115,7 +114,7 @@ ht-degree: 61%
 
    プロジェクトに添付する前に、カスタムフォームを作成する必要があります。
 
-   カスタム Formsの詳細については、「[&#x200B; カスタム フォームを作成する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   カスタム Formsの詳細については、「[ カスタム フォームを作成する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. **送信** をクリックします。 プロジェクトのステータスが「**リクエスト済み**」に変更されて、ビジネスケースの承認を得るために送信されます。
 
@@ -124,6 +123,6 @@ ht-degree: 61%
 
 >[!TIP]
 >
-> ビジネスケースが完了したら、そのコピーを.pdf ファイルに書き出すことができます。 ビジネスケースを.pdf ファイルにエクスポートする方法については、[&#x200B; プロジェクトのビジネスケースのエクスポート &#x200B;](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md) を参照してください。
+> ビジネスケースが完了したら、そのコピーを.pdf ファイルに書き出すことができます。 ビジネスケースを.pdf ファイルにエクスポートする方法については、[ プロジェクトのビジネスケースのエクスポート ](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md) を参照してください。
 
 

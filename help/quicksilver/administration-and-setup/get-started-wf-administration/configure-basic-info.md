@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
+source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 96%
+source-wordcount: '805'
+ht-degree: 95%
 
 ---
 
@@ -27,30 +27,26 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
-<table style="table-layout:auto"> <col> 
+<table style="table-layout:auto"> 
+ <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td role="rowheader">Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-   <p>新規：標準</p>
-   または
-   <p>現在：プラン</p></td> 
+   <td><p>標準</p> <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p></td> 
+   <td>Workfront 管理者である必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -82,7 +78,7 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
 
    * 許可リストに加える **メール**
 
-     許可リスト許可リストに加えるにメールを追加する方法については、[&#x200B; メールの設定 &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) を参照してください。
+     許可リスト許可リストに加えるにメールを追加する方法については、[ メールの設定 ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) を参照してください。
 
    <!--
    * **License**
@@ -144,4 +140,4 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
     </tbody> 
    </table>
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。

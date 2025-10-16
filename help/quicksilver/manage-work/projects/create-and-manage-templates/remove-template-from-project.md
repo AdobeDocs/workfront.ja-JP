@@ -6,10 +6,10 @@ description: プロジェクトからテンプレートを削除することは�
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 97%
+source-wordcount: '395'
+ht-degree: 96%
 
 ---
 
@@ -19,22 +19,20 @@ ht-degree: 97%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準</p>
-   <p>現在：ワーク以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -42,14 +40,40 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクへのアクセス権を管理 </p> <p>プロジェクトへの参加またはそれ以上のアクセス権 </p>  </td> 
+   <td> <p>タスクへのアクセス権を管理 </p> <p>プロジェクトへの参加またはそれ以上のアクセス権</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to tasks </p> <p>Contribute or higher access to the project </p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## プロジェクトからテンプレート情報を削除するオプション
 
@@ -88,4 +112,4 @@ ht-degree: 97%
 
      ビューの作成について詳しくは、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
-1. ステップ 2 でテンプレートから作成されたものとして特定されたすべてのタスクを選択し、**「削除」アイコン**&#x200B;**／はい、削除します** をクリックします。詳しくは、[タスクの削除](../../../manage-work/tasks/manage-tasks/delete-tasks.md)を参照してください。
+1. ステップ 2 でテンプレートから作成されたものとして特定されたすべてのタスクを選択し、**「削除」アイコン****／はい、削除します** をクリックします。詳しくは、[タスクの削除](../../../manage-work/tasks/manage-tasks/delete-tasks.md)を参照してください。

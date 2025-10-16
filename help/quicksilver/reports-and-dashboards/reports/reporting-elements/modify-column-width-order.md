@@ -6,10 +6,10 @@ description: この記事では、列の幅のガイドラインと、Workfront 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 94%
+source-wordcount: '1004'
+ht-degree: 95%
 
 ---
 
@@ -32,49 +32,43 @@ Adobe Workfront での列の幅の仕組みに関するガイドラインを以�
 
   列の幅は、リストやレポートを表示しているときに一時的に変更することも、ビュービルダーで列の幅を調整して永久的に変更することも可能です。列の幅を一時的に変更する方法については、この記事の[列の幅と順序を一時的に変更する際の考慮事項](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)のセクションを参照してください。
 
-* 組み込みビューで表示される列の幅は、Workfront であらかじめ定義され、ハードコーディングされています。これらの幅を変更するには、ビュービルダーのテキストモードを使用して手動で更新する必要があります。
+* ビルトインのビューで表示される列の幅は、Workfront であらかじめ定義され、ハードコーディングされています。これらの幅を変更するには、ビュービルダーのテキストモードを使用して手動で更新する必要があります。
 
   テキストモードでの列の変更について詳しくは、[表示：列の幅の永久的な編集](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</strong></td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>投稿者以上</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>リクエスト以上</p></li>
-         </ul>
+    <p>投稿者以上</p>
+    <p>リクエスト以上</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートのビューを編集</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集とレポートのビューの編集</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>レポートに対する権限を管理して、レポートのビューを編集する</p> <p>編集するために、ビューに対する管理権限</p></td> 
+   <td role="rowheader">オブジェクト権限</td> 
+    <td> <p>レポートに対する権限を管理して、レポートのビューを編集する</p> <p>編集するために、ビューに対する管理権限</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -129,7 +123,7 @@ Workfront のリストについて詳しくは、[Adobe Workfront のリスト�
 
 1. 変更するリストに移動します。
 1. 列が目的のサイズになるまで、列ヘッダーの境界線をドラッグします。\
-   ![&#x200B; 列のサイズ変更 &#x200B;](assets/column-resize-350x124.png)
+   ![ 列のサイズ変更 ](assets/column-resize-350x124.png)
 
 #### 列を一時的に並べ替える {#reorder-columns-temporarily}
 

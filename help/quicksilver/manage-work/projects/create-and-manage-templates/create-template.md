@@ -6,10 +6,10 @@ description: テンプレートエリアからテンプレートを作成およ�
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 95%
+source-wordcount: '566'
+ht-degree: 94%
 
 ---
 
@@ -41,22 +41,20 @@ ht-degree: 95%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準 </p><p>または </p><p>現在：プラン </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">ブループリントからテンプレートを読み込むには、システム管理者である必要があります</p> </td> 
+   <td> <p>標準 </p><p>プラン</p> <p>ブループリントからテンプレートを読み込むには、システム管理者である必要があります</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>テンプレートへの編集アクセス</p> </td> 
   </tr> 
   <tr> 
@@ -69,6 +67,30 @@ ht-degree: 95%
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p><p>Or </p><p>Current: Plan </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You must be a system administrator to import templates from Blueprints</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>You have Manage permissions to the templates you create, by default</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## テンプレートの作成
 
@@ -102,7 +124,7 @@ ht-degree: 95%
    >
    >このガントチャートから直接タスクを編集することはできません。
 
-1. 新しいテンプレートに情報を追加するには、**詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
+1. 新しいテンプレートに情報を追加するには、**詳細** メニュー ![ 詳細アイコン ](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
 
    テンプレートの編集について詳しくは、[プロジェクトテンプレートの編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
 

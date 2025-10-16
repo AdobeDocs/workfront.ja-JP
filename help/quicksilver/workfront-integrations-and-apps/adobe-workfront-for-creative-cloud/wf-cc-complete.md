@@ -6,10 +6,10 @@ description: Adobe Workfront での作業をシームレスに完了し、Adobe 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 93%
+source-wordcount: '274'
+ht-degree: 92%
 
 ---
 
@@ -23,32 +23,37 @@ ht-degree: 93%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!-- <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <!-- <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>Work or higher</p> </td> 
-  </tr> --> 
-  <tr> 
-   <td role="rowheader">製品</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> -->
+   <td role="rowheader">その他の製品</td> 
    <td>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>[!UICONTROL Documents]の編集権限</p> </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>完了するオブジェクトへの[!UICONTROL Edit]アクセス権。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a> を参照してください。</p> </td> 
+   <td> <p>ドキュメントをアップロードするオブジェクトに対する [!UICONTROL View] アクセス権以上。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
 
 +++
 
@@ -60,7 +65,7 @@ ht-degree: 93%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. **[!UICONTROL 作業リスト]**&#x200B;から、完了とマークするタスクまたはイシューを選択します。
 1. 「**[!UICONTROL 完了]**」をクリックします。このタスクまたはイシューに割り当てられた唯一のユーザーである場合は、[!DNL Workfront] で項目に対して[!UICONTROL 完了]または[!UICONTROL 解決済み]とマークされます。
@@ -75,6 +80,6 @@ ht-degree: 93%
    >[!NOTE]
    >
    >先行する作業アイテムがある場合、先行するものが完了とマークされるまで、「完了」ボタンは灰色で表示されます。[!DNL Workfront] 内の先行タスクを表示するには、タスク名をクリックします。
-   >![Workfrontに移動 &#x200B;](assets/navigate-to-workfront.png)
+   >![Workfrontに移動 ](assets/navigate-to-workfront.png)
 
 <!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

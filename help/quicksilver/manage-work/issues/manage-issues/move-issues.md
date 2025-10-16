@@ -6,10 +6,10 @@ description: イシューをプロジェクトとタスクの間で移動でき�
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 85%
+source-wordcount: '873'
+ht-degree: 84%
 
 ---
 
@@ -30,26 +30,23 @@ ht-degree: 85%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：</p> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
    <ul><li>投稿者以上</li>
    <li>プロジェクトの「イシュー」セクションでイシューを移動するには軽度以上</li></ul>
-   <p>現在：</p>
-   <ul>
-   <li><p>リクエスト以上</p></li>
+   または：
+   <ul>   <li><p>リクエスト以上</p></li>
    <li><p>プロジェクトの「イシュー」セクションにイシューを移動するには、レビュー以上のライセンスが必要です。</p></li></ul>   
      </td> 
   </tr> 
@@ -64,9 +61,41 @@ ht-degree: 85%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New:</p> 
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to move issues in the Issues section of a project</li></ul>
+   <p>Current:</p>
+   <ul>
+   <li><p>Request or higher</p></li>
+   <li><p>Review or higher license to move issues in the Issues section of a project.</p></li></ul>   
+     </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to Add Issues.</td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## イシューの移動に関する考慮事項
 
@@ -91,9 +120,9 @@ ht-degree: 85%
 1. プロジェクトに移動した場合は、左側のパネルで「**イシュー**」をクリックします。
 1. 移動する 1 つまたは複数のイシューを選択し、イシューリストの上部にある&#x200B;**「その他」メニュー**&#x200B;をクリックし、「**指定の場所に移動**」をクリックします。
 
-   ![&#x200B; コピーしてリンクに移動 &#x200B;](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![ コピーしてリンクに移動 ](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
-1. [&#x200B; 単一の問題の移動 &#x200B;](#move-a-single-issue) の節で説明しているように、手順 2 から問題の移動を続行します。
+1. [ 単一の問題の移動 ](#move-a-single-issue) の節で説明しているように、手順 2 から問題の移動を続行します。
 
 ## 単一のイシューを移動 {#move-a-single-issue}
 
@@ -101,13 +130,13 @@ ht-degree: 85%
 
 ### 単一のイシューを移動
 
-1. 移動するイシューに移動し、イシュー名の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-icon.png) をクリックして、「**移動先**」をクリックします。
+1. 移動するイシューに移動し、イシュー名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-icon.png) をクリックして、「**移動先**」をクリックします。
 
-   ![&#x200B; 問題レベルで移動 &#x200B;](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![ 問題レベルで移動 ](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    **イシューを移動**&#x200B;ボックスが表示されます。
 
-   ![&#x200B; イシューボックスを移動 &#x200B;](assets/move-issue-box-nwe-350x280.png)
+   ![ イシューボックスを移動 ](assets/move-issue-box-nwe-350x280.png)
 
 1. 「**宛先プロジェクトを選択**」セクションで、イシューの移動先のプロジェクトの名前を指定します。デフォルトでは、現在のプロジェクトの名前が表示されます。
 
@@ -118,7 +147,7 @@ ht-degree: 85%
 1. （条件付き）イシューをプロジェクトに移動するアクセス権がない場合は、「**アクセスをリクエスト**」をクリックします。
 1. （条件付き）宛先プロジェクトのタスクの 1 つにイシューを追加するアクセス権がある場合は、アクセス権をリクエストせずに、引き続き選択した宛先プロジェクトにイシューを移動します。
 
-   ![&#x200B; イシューの移動とアクセスのリクエスト &#x200B;](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![ イシューの移動とアクセスのリクエスト ](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >

@@ -6,10 +6,10 @@ description: タスクとイシューは、チームが使用しているアジ�
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 90%
+source-wordcount: '1334'
+ht-degree: 89%
 
 ---
 
@@ -30,8 +30,6 @@ ht-degree: 90%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -39,18 +37,17 @@ ht-degree: 90%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p> 
-   または
-   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>ストーリーが存在するプロジェクトへの[!UICONTROL Manage]アクセス権 </td> 
+   <td>ストーリーが含まれるプロジェクトへのアクセスの管理 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,8 +92,8 @@ ht-degree: 90%
 
 1. 分類するストーリーが含まれているバックログに移動します。
 1. 分類するストーリーを選択し、「ストーリーを分類 **[!UICONTROL をクリックし]** す。
-[!UICONTROL ストーリーを分析]ダイアログボックスが表示されます。
-   ![ストーリーを分析ダイアログ](assets/backlog-breakdown-dialog.png)
+[!UICONTROL ストーリーを分類]ダイアログボックスが表示されます。
+   ![ストーリーを分類ダイアログ](assets/backlog-breakdown-dialog.png)
 
 1. ストーリーの名前と見積りを指定し、ストーリーの準備ができたかどうかを選択します。
 1. 元のストーリーから別のストーリーを作成するには、「**[!UICONTROL ストーリーを追加]**」をクリックします。
@@ -128,7 +125,7 @@ ht-degree: 90%
 
    * **タスクを作成するには：**「**[!UICONTROL ストーリー]**」をクリックします。
 
-   * **イシューを作成するには：**&#x200B;[!UICONTROL 「]&#x200B;**イシュー**」をクリックします。
+   * **イシューを作成するには：**[!UICONTROL 「]**イシュー**」をクリックします。
 
 1. 「**[!UICONTROL 新規ストーリー]**」または「**[!UICONTROL 新規イシュー]**」をクリックします。
 
@@ -197,7 +194,7 @@ ht-degree: 90%
 
 1. アジャイルチームのバックログに移動します。
 1. 反復またはかんばんボードに移動するストーリーを選択し、**[!UICONTROL 詳細]**/**[!UICONTROL 移動先]** をクリックします。
-ストーリーを [!UICONTROL &#x200B; かんばん &#x200B;] ボードに移動すると、「[!UICONTROL &#x200B; ストーリーをかんばん &#x200B;] ボードに移動」が表示されます。
+ストーリーを [!UICONTROL  かんばん ] ボードに移動すると、「[!UICONTROL  ストーリーをかんばん ] ボードに移動」が表示されます。
 ストーリーをある反復に移動させる場合、[!UICONTROL ストーリーを反復に移動]ダイアログボックスが表示されます。
    ![ストーリーを移動ダイアログ](assets/agile-backlog-addtoiteration.png)
 

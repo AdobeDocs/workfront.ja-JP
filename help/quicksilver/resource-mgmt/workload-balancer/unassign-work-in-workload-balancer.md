@@ -6,10 +6,10 @@ description: Adobe Workfront ワークロードバランサーの割り当て済
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 80%
+source-wordcount: '382'
+ht-degree: 78%
 
 ---
 
@@ -27,25 +27,21 @@ Adobe Workfront ワークロードバランサーの割り当て済み作業エ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
-       チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p></td>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>リソース エリアでワークロードバランサーを使用する場合は、計画します。作業、チームまたはプロジェクトのワークロードバランサーを使用する場合は、次のようにします</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>以下の項目についてアクセス権を編集します。</p> 
     <ul> 
      <li>リソース管理</li> 
@@ -55,13 +51,13 @@ Adobe Workfront ワークロードバランサーの割り当て済み作業エ�
     </ul></td>
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td>プロジェクト、タスク、イシューに対する参加以上の権限（割り当ての作成を含む）</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -75,9 +71,9 @@ Adobe Workfront ワークロードバランサーの割り当て済み作業エ�
 1. 次のいずれかの操作を行います。
 
    * ユーザーのエリアで割り当てを解除する項目を探し、クリックして、未割り当てエリアまたは別のユーザーのエリアにドラッグ＆ドロップします。
-   * **その他** アイコン ![&#x200B; その他のアイコン &#x200B;](assets/more-icon-task-list.png) 作業項目の名前の右側にある「**割り当て先**」をクリックし、作業項目に割り当てられたエンティティの名前を削除するか、別の名前を入力して「**保存**」をクリックします。
+   * **その他** アイコン ![ その他のアイコン ](assets/more-icon-task-list.png) 作業項目の名前の右側にある「**割り当て先**」をクリックし、作業項目に割り当てられたエンティティの名前を削除するか、別の名前を入力して「**保存**」をクリックします。
 
-     ![&#x200B; 割り当て先 &#x200B;](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+     ![ 割り当て先 ](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    項目がそのエリアのフィルタリング基準に一致し、他のユーザーに割り当てられていない場合、項目は未割り当て作業エリアに表示されます。また、別のユーザーに割り当てられている場合は、ユーザーエリアに表示されます。
 

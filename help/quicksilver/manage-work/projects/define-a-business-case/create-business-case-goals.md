@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: ビジネスケースの目標を作成
 description: ビジネスケースの作成の一環として、一連の目標を作成し、プロジェクトの目標を定義できます。ビジネスケースの目的は、プロジェクトを完了する目的をポートフォリオマネージャーまたはプロジェクトスポンサーに伝えるために使用されます。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 47%
+source-wordcount: '431'
+ht-degree: 50%
 
 ---
 
@@ -50,15 +50,14 @@ ht-degree: 47%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <p>現在：Prime以降</p>
-   <p>レガシー：Pro 以上</p>  </td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> <p>Prime以上</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td> 
-   <p>現在：標準</p> 
-   <p>レガシー：プラン </p> 
+   <p>標準</p> 
+   <p>プラン </p> 
    </td> 
   </tr> 
   <tr> 
@@ -72,7 +71,7 @@ ht-degree: 47%
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -84,7 +83,7 @@ ht-degree: 47%
 
 1. 左側のパネルで、「ビジネスケース **をクリック** ます。 **ビジネスケース** セクションが表示されます。
 
-   ![&#x200B; ビジネスケース情報 &#x200B;](assets/business-case-info.png)
+   ![ ビジネスケース情報 ](assets/business-case-info.png)
 
 1. 「**目標**」セクションで「**目標を編集**」をクリックします。
 
@@ -98,7 +97,7 @@ ht-degree: 47%
    * 低
    * 最低
 
-   ![&#x200B; 重要度 &#x200B;](assets/goals-section.png)
+   ![ 重要度 ](assets/goals-section.png)
 
    >[!NOTE]
    >
@@ -106,4 +105,4 @@ ht-degree: 47%
 
 1. （任意）別の目標を追加するには、「**別の目標を追加** をクリックし、手順 5～6 を繰り返します。
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。

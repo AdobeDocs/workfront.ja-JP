@@ -6,9 +6,9 @@ description: ボードからカードを削除すると、そのカードは完�
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '516'
 ht-degree: 67%
 
 ---
@@ -19,32 +19,29 @@ ht-degree: 67%
 
 接続されたカードを動的ボードから削除すると、このボードタイプが特定のプロジェクトからすべてのタスクと問題を取り込むため、ボードを更新した際に再び表示されます。 カードを削除するには、接続されたタスクまたはイシューをWorkfront プロジェクトから削除する必要があります。
 
-取り込み列を持つ他のボードタイプから接続されたカードを削除すると、接続されたタスクまたは問題がまだ完了とマークされていない場合、ボードを更新したときにカードが取り込み列に再び表示されます。 取り込み列について詳しくは、[&#x200B; ボードへの取り込み列の追加 &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) を参照してください。
+取り込み列を持つ他のボードタイプから接続されたカードを削除すると、接続されたタスクまたは問題がまだ完了とマークされていない場合、ボードを更新したときにカードが取り込み列に再び表示されます。 取り込み列について詳しくは、[ ボードへの取り込み列の追加 ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) を参照してください。
 
 カードをアーカイブすると、アーカイブに送信され、後でボードに復元できます。
 
-アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、カードは再び同期されます。
+アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、再度同期されます。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>新規：[!UICONTROL Contributor]以上</p> 
-   <p>または</p>
-   <p>現在：[!UICONTROL Request] 以上</p>
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,9 +66,9 @@ ht-degree: 67%
 
    アーカイブしたカードは、表示するフィルターを適用しない限り、ボードに表示されません。詳しくは、[ボードをフィルタリングしてアーカイブされたカードを表示](#filter-a-board-to-show-archived-cards)を参照してください。
 
-   [!UICONTROL アーカイブ]アイコン ![&#x200B; アーカイブ &#x200B;](assets/archive-icon-spectrum-25x20.png) は、アーカイブされたカードに表示されます。アーカイブしたカードは編集できませんが、削除したり、別の列に移動したりすることはできます。
+   [!UICONTROL アーカイブ]アイコン ![ アーカイブ ](assets/archive-icon-spectrum-25x20.png) は、アーカイブされたカードに表示されます。アーカイブしたカードは編集できませんが、削除したり、別の列に移動したりすることはできます。
 
-1. アーカイブしたカードを復元するには、**[!UICONTROL その他]**&#x200B;メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL 復元]**」を選択します。
+1. アーカイブしたカードを復元するには、**[!UICONTROL その他]**&#x200B;メニュー ![ その他のメニュー ](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL 復元]**」を選択します。
 
 ## ボードをフィルタリングしてアーカイブされたカードを表示する
 

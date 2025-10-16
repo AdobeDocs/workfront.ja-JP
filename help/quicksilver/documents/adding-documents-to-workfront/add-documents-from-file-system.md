@@ -6,10 +6,10 @@ description: Adobe Workfront の複数のエリアで、プロジェクト、タ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 93%
+source-wordcount: '715'
+ht-degree: 91%
 
 ---
 
@@ -31,28 +31,28 @@ Workfront にアップロードできるファイルの種類とサイズに制�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td> 
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -71,7 +71,7 @@ Workfront にアップロードできるファイルの種類とサイズに制�
 1. 新しいドキュメントを追加するプロジェクト、タスク、またはイシューに移動します。
 1. 「**ドキュメント**」タブをクリックし、**新規追加**&#x200B;ドロップダウンメニューをクリックします。
 
-   ![&#x200B; 新規ドキュメントの追加 &#x200B;](assets/add-new-doc.png)
+   ![ 新規ドキュメントの追加 ](assets/add-new-doc.png)
 
 1. 追加するドキュメントの種類に応じて、次のいずれかの操作を行います。
 

@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '808'
 ht-degree: 97%
 
 ---
@@ -32,21 +32,18 @@ Adobe Workfront 管理者は、リマインダー通知をサポートするよ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td><p>新規：標準</p>
-   または
-   <p>現在：プラン</p>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+   <p>プラン</p>
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ Adobe Workfront 管理者は、リマインダー通知をサポートするよ�
  </tbody> 
 </table>
 
-*アクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -66,7 +63,7 @@ Adobe Workfront 管理者は、リマインダー通知をサポートするよ�
 
 1. 左側のパネルで、**メール**／**通知**／**メールテンプレート**&#x200B;をクリックします。
 
-   ![&#x200B; 「メールテンプレート」タブ &#x200B;](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![ 「メールテンプレート」タブ ](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. **新規メールテンプレート**&#x200B;をクリックします。
 
@@ -239,7 +236,7 @@ Workfront フィールドへのリンクは、`$$` ワイルドカードを使�
 
 これにより、次のようなメールが生成されます。
 
-![&#x200B; プロジェクトは遅延メールになりました &#x200B;](assets/project-became-late-email.png)
+![ プロジェクトは遅延メールになりました ](assets/project-became-late-email.png)
 
 #### 開始予定のタスクまたはイシューのリマインダー {#task-or-issue-about-to-start-reminder-example}
 

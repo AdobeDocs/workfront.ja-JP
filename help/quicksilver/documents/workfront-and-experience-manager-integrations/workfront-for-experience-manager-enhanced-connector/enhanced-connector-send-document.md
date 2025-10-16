@@ -6,10 +6,10 @@ description: Workfront から Experience Manager Assets にドキュメントを
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 99%
+source-wordcount: '409'
+ht-degree: 92%
 
 ---
 
@@ -19,36 +19,39 @@ Workfront から Experience Manager Assets にドキュメントを送信でき�
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>Pro 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">製品</td> 
+   <td role="rowheader">その他の製品</td> 
    <td>Experience Manager Assets </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> s="MCXref xref"&gt; カスタム アクセス レベルを作成または変更 </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ドキュメントの表示アクセス権またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントの表示アクセス権またはそれ以上の権限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
++++
 
 ## 前提条件
 
@@ -69,7 +72,7 @@ Workfront から Experience Manager Assets にユーザーがドキュメント�
    >
    >この統合には任意の名前を選択できるため、Experience Manager Assets について特に言及されていない場合があります。
 
-   ![&#x200B; 送信先 &#x200B;](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![ 送信先 ](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. アセットの保存先を選択し、「**フォルダーを選択**」をクリックします。
 1. 目的の宛先が見つかったら、「**保存**」をクリックします。
@@ -87,6 +90,6 @@ Workfront から Experience Manager Assets にユーザーがドキュメント�
    >
    >この統合には任意の名前を選択できるため、Experience Manager Assets について特に言及されていない場合があります。
 
-   ![&#x200B; 送信先 &#x200B;](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![ 送信先 ](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 「**保存**」をクリックします。新しいバージョンは、以前のバージョンと同じ場所に保存されます。

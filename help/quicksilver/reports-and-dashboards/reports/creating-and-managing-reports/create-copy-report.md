@@ -7,9 +7,9 @@ description: アクセス権のある任意のレポートのコピーを作成�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '641'
 ht-degree: 74%
 
 ---
@@ -22,43 +22,35 @@ ht-degree: 74%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
+      <p>標準</p>
+      <p>プラン</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限*</td> 
-   <td><p>レポートに対する権限を表示</p></td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>レポートに対する権限を表示</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -81,7 +73,7 @@ ht-degree: 74%
 
    元のレポートのコピーが、デフォルト名 _[元のレポートの名前 ] （コピー）_ で作成されます。 例えば、レポートの「Q4 Completed Tasks」のコピーは、「Q4 Completed Tasks （Copy）」という名前になります。
 
-1. （任意）レポートの名前を変更するには、**レポートアクション**&#x200B;**編集** の順にクリックします。 左上隅のテキストボックスに新しい名前を入力し、完了したら「**保存して閉じる** をクリックします。
+1. （任意）レポートの名前を変更するには、**レポートアクション****編集** の順にクリックします。 左上隅のテキストボックスに新しい名前を入力し、完了したら「**保存して閉じる** をクリックします。
 
 1. （オプション）新しいバージョンのレポートを他のユーザーと共有するには、「**レポートのアクション**」をクリックして、次に「**共有**」をクリックします。
 
@@ -104,7 +96,7 @@ ht-degree: 74%
 
 組み込みレポートのコピーを作成する場合は、次の操作を行います。
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
 
 1. **レポート** をクリックし、**すべてのレポート** をクリックします。
 1. ビルトインレポートの名前をクリックして開きます。
@@ -124,6 +116,6 @@ ht-degree: 74%
 1. 「**完了**」をクリックします。
 1. 「**新規レポートとして保存**」をクリックします。
 
-   ![&#x200B; 新規報告書として保存 &#x200B;](assets/unshimmed-save-as-new-report.png)
+   ![ 新規報告書として保存 ](assets/unshimmed-save-as-new-report.png)
 
 1. （オプション）新しいバージョンのレポートを他のユーザーと共有するには、「**レポートアクション**」、「**共有**」の順にクリックします。

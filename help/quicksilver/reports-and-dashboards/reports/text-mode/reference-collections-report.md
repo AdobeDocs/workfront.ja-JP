@@ -6,7 +6,7 @@ description: レポート内のコレクションの参照
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 85%
@@ -25,32 +25,24 @@ Workfront でのレポートの作成について詳しくは、[カスタムレ
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
-   </td>
+     <p>標準</p>
+     <p>プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -59,7 +51,7 @@ Workfront でのレポートの作成について詳しくは、[カスタムレ
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -151,7 +143,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
 レポートビューにコレクション列を追加するには、以下の手順を実行します。
 
-1. **メイン** メニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
+1. **メイン** メニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
 1. 「**新規レポート**」をクリックします。
 1. レポートのオブジェクトを選択します。
 1. レポートから移動して、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を選択し、レポート用に選択したオブジェクトに対して使用できるコレクションを決定します。
@@ -236,7 +228,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
 1. 次の列は、プロジェクトレポートに表示され、各プロジェクトのすべてのタスクはプライマリ担当者と共に表示されます。
 
-   ![&#x200B; タスクと担当者のコレクションを含むプロジェクトレポート &#x200B;](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![ タスクと担当者のコレクションを含むプロジェクトレポート ](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. 「**保存**」をクリックします。
 1. （オプション）レポートの編集を続けます。
@@ -274,7 +266,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>これは、リスト内の値を区切るために使用される区切り文字です。<br>値の間に改行を追加する <code>&lt;p&gt;</code> の使用をお勧めします。</p> <p>また、次の機能も使用できます。</p> <p><code>&zwj;</code> （ゼロ幅の結合子）。コレクションの値は、それらの間に区切りはありません。<br><strong>,</strong> =コンマ区切り。コレクションの値は、コンマで区切られ、スペースは含まれません。<br><strong>/</strong> =スラッシュ区切り。コレクションの値はスラッシュで区切られます。<br><strong>-</strong> =ダッシュ区切り。コレクションの値はダッシュで区切られます。<br>この行を空のままにすると、デフォルトでは、コレクションの値の間にコンマとスペースが追加されます。</p> </td> 
+   <td> <p>これは、リスト内の値を区切るために使用される区切り文字です。<br>値の間に改行を追加する <code>&lt;p&gt;</code> の使用をお勧めします。</p> <p>また、次の機能も使用できます。</p> <p><code>&amp;zwj;</code> （ゼロ幅の結合子）。コレクションの値は、それらの間に区切りはありません。<br><strong>,</strong> =コンマ区切り記号。コレクションの値は、コンマで区切られ、スペースは含まれません。<br><strong>/</strong> =スラッシュ区切り記号。コレクションの値はスラッシュで区切られます。<br><strong>-</strong> =ダッシュ区切り記号。コレクションの値はダッシュで区切られます。<br>この行を空のままにすると、デフォルトでは、コレクションの値の間にコンマとスペースが追加されます。</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>列名</em> </td> 
@@ -318,7 +310,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
 レポートフィルターでコレクションへの参照を追加するには、次の手順に従います。
 
-1. **メイン** メニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
+1. **メイン** メニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
 1. 「**新規レポート**」をクリックします。
 1. レポートのオブジェクトを選択します。
 1. レポートから移動して、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を選択し、レポート用に選択したオブジェクトに対して使用できるコレクションを決定します。
@@ -359,7 +351,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
    このレポートには、名前に「マーケティング」という単語を含むタスクが 1 つ以上あるプロジェクトのみが表示されます。
 
-   ![&#x200B; プロジェクトのマーケティングのみのタスク &#x200B;](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![ プロジェクトのマーケティングのみのタスク ](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. イシューの名前をフィルタリングするには、次のコードを使用します。
 
@@ -395,15 +387,15 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
 レポートのカスタムプロンプトでコレクションへの参照を追加するには：
 
-1. **メイン** メニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
+1. **メイン** メニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
 1. 「**新規レポート**」をクリックします。
 1. レポートのオブジェクトを選択します。
-1. この記事の「レポートのフィルターでのコレクションの参照 [&#x200B; の節で説明しているように、コレクション参照を使用してフィルターを作成 &#x200B;](#reference-a-collection-in-the-filter-of-a-report) ます。
+1. この記事の「レポートのフィルターでのコレクションの参照 [ の節で説明しているように、コレクション参照を使用してフィルターを作成 ](#reference-a-collection-in-the-filter-of-a-report) ます。
 1. 「**レポート設定**」をクリックします。
 1. 「**レポートのプロンプト**」をクリックします。
 1. 「**プロンプトを追加**」をクリックします。
 1. 「**カスタムプロンプト**」をクリックします。
-1. プロンプトの名前を「**Field**&#x200B;**name**」フィールドに指定します。
+1. プロンプトの名前を「**Field****name**」フィールドに指定します。
 
 1. **ドロップダウン項目のラベル**&#x200B;を指定します。
 1. 「**状況**」フィールドで以下を指定します。
@@ -414,7 +406,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
 1. （オプション）この選択肢がデフォルトでプロンプトに表示されるかどうかを指定します。
 1. **コレクションオブジェクト名**&#x200B;を、[API エクスプローラー](../../../wf-api/general/api-explorer.md)に表示されているコレクションオブジェクトの名前に置き換えます。この値は、通常、コレクションオブジェクト名の複数形式です。
-1. **コレクションオブジェクトフィールド** を、[API エクスプローラー &#x200B;](../../../wf-api/general/api-explorer.md) に表示されるコレクションオブジェクトのフィールド名に置き換えます。
+1. **コレクションオブジェクトフィールド** を、[API エクスプローラー ](../../../wf-api/general/api-explorer.md) に表示されるコレクションオブジェクトのフィールド名に置き換えます。
 1. **コレクションオブジェクトの値**&#x200B;を、Workfront に表示されるコレクションオブジェクトの値に置き換えます。
 
    例えば、タスクの名前に「Marketing」が含まれるプロジェクトをフィルタリングする場合は、**コレクションオブジェクト値** を **marketing** に置き換えます。

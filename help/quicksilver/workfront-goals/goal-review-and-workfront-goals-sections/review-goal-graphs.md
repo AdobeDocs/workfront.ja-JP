@@ -6,10 +6,10 @@ description: 目標の全体的な正常性とその進捗の経時的な傾向�
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 91%
+source-wordcount: '912'
+ht-degree: 88%
 
 ---
 
@@ -25,9 +25,13 @@ ht-degree: 91%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+>[!NOTE]
+>
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>
+>Adobe Workfront Goals は購入できなくなりました。
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto">
 <col>
@@ -35,33 +39,20 @@ ht-degree: 91%
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+ <tr>
+  <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>新しいプランとライセンス構造の場合：
-  <ul><li>Ultimateプラン </li></ul>
-   </p>
-<p>現在のプランおよびライセンス構造の場合： 
-<ul><li> プロまたはそれ以上 </li>
-  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
-   </td>  
+   <p>Adobe WorkfrontUltimate</p>
+   </td> 
   </tr>
  <tr>
- <td role="rowheader">Adobe Workfront プラン*</td>
+ <td role="rowheader">Adobe Workfront プラン</td>
  <td>
- <p>新規ライセンス：コントリビューター以上</p>
- または
- <p>現在のライセンス：リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td>
+ <p>投稿者以上</p>
+<p>リクエスト以上</p></td>
  </tr>
- <tr>
- <td role="rowheader">製品*</td>
- <td>
-    <p> 新しい製品要件：Workfront</p>
-    または
-    <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
- </tr>
- <tr>
- <td role="rowheader"><p>アクセスレベル</p></td>
+  <tr>
+ <td role="rowheader">アクセスレベル設定</td>
  <td> <p>Goals への編集アクセス権</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -70,20 +61,72 @@ ht-degree: 91%
   <div>
   <p>目標の表示には表示権限以上が必要</p>
   <p>目標に対する編集権限を管理</p>
-  <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td>  
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license*</td>
+ <td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+    <p> New product requirement: Workfront</p>
+    Or
+    <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader"><p>Access level</p></td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
 
 ## Workfront Goals のグラフのタイプ
 
@@ -114,7 +157,7 @@ ht-degree: 91%
 
 ## グラフでの目標の進捗の確認
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)/**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)/**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -123,7 +166,7 @@ ht-degree: 91%
 
 1. 左側のパネルで「**グラフ**」をクリックします。
 
-   ![&#x200B; 左パネルのグラフ &#x200B;](assets/graphs-in-left-panel.png)
+   ![ 左パネルのグラフ ](assets/graphs-in-left-panel.png)
 
    「グラフ」セクションが表示されます。
 
@@ -142,7 +185,7 @@ ht-degree: 91%
 
 1. 以下の表の情報を確認し、目標のヘルスチャートを確認してください。
 
-   ![&#x200B; ゲージグラフ &#x200B;](assets/gauge-graph-wf-align-350x230.png)
+   ![ ゲージグラフ ](assets/gauge-graph-wf-align-350x230.png)
 
    | 目標の合計数 | チャートの下部にある数は、選択した期間内のすべての目標の数を、選択したすべてのステータスで示します。 |
    |---|---|
@@ -152,7 +195,7 @@ ht-degree: 91%
 
 1. 目標進捗チャートを確認する際に、以下の表の情報を確認してください。
 
-   ![&#x200B; 折れ線グラフ &#x200B;](assets/line-graph-wf-align-350x161.png)
+   ![ 折れ線グラフ ](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

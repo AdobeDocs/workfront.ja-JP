@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Microsoft Project フィールドの Adobe Workfront プロジェクトへのマッピング
+title: Microsoft プロジェクトフィールドのAdobe Workfront プロジェクトへのマッピング
 description: Adobe Workfront と Microsoft Project のプロジェクトは、ほとんどの場合において互換性があります。この記事では、2 つのアプリケーションの最も一般的なプロジェクトフィールドを、相互にマッピングする方法について説明します。
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

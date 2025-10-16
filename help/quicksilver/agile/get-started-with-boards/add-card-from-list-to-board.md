@@ -6,10 +6,10 @@ description: リスト表示またはレポート表示からAdobe Workfront の
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 93%
+source-wordcount: '585'
+ht-degree: 91%
 
 ---
 
@@ -25,27 +25,24 @@ ht-degree: 93%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto">
  <col>
  <col>
  <tbody>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
+   <td role="rowheader">Adobe Workfront パッケージ</td>
    <td> <p>任意</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td>
+   <td role="rowheader">Adobe Workfront プラン</td>
    <td>
-   <p>新規：[!UICONTROL Standard]</p> 
-   <p>または</p>
-   <p>現在：[!UICONTROL Work] 以上</p>
+   <p>標準</p> 
+   <p>ワークまたはそれ以上</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader">オブジェクト権限</td>
-   <td>タスクまたはイシューに対する[!UICONTROL View]以上の権限 </td>
+   <td>タスクまたは問題に対する以上の権限を表示 </td>
   </tr>
  </tbody>
 </table>

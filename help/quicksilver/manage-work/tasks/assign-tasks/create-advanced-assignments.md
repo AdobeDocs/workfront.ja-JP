@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 82%
+source-wordcount: '1121'
+ht-degree: 81%
 
 ---
 
@@ -51,33 +51,32 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準</p>
-    <p>現在：ワーク以上</p> </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>ワークまたはそれ以上</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td role>アクセスレベル設定</td> 
    <td> <p>タスクおよびイシューに対する編集アクセス権</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクまたはイシューに対する、参加以上の権限</p>  </td> 
+   <td>オブジェクト権限</td> 
+   <td> <p>タスクまたは問題に対する投稿以上の権限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -90,9 +89,9 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
    >
    >タスクまたは問題リストで直接詳細な割り当てを行うことができます。 タスクまたはイシューと同じ行の **割り当て** フィールド内をクリックし、<span class="preview">**詳細**</span> または **人物アイコン** をクリックして、詳細な割り当てウィンドウを開きます。 高度な割り当ての作成を続行するには、手順 5 に進んでください。
    ><span class="preview"> プレビュー環境のサンプル画像：</span>
-   >![&#x200B; 「詳細」または「人物」アイコンをクリックします &#x200B;](assets/access-aa-from-lists.png)。
-   >実稼動環境のサンプル画像：
-   >![&#x200B; 人物アイコンをクリック &#x200B;](assets/nwe-advanced-assignments-350x55.png)
+   >![ 「詳細」または「人物」アイコンをクリックします ](assets/access-aa-from-lists.png)。
+   >本番環境のサンプル画像：
+   >![ 人物アイコンをクリック ](assets/nwe-advanced-assignments-350x55.png)
 
 1. タスクまたはイシューのヘッダーにある&#x200B;**割り当て**&#x200B;フィールドの「**割り当て先**」をクリックします。
 
@@ -102,7 +101,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
 1. 「**詳細**」をクリックします。
 
-   ![&#x200B; 「詳細」をクリック &#x200B;](assets/assignments-from-task-header-0825.png)
+   ![ 「詳細」をクリック ](assets/assignments-from-task-header-0825.png)
 
 1. 「**ユーザー、役割、チームを検索**」フィールドにユーザー、役割、チームの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
@@ -150,7 +149,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
    * **割り当て先の役割：**&#x200B;この割り当てを実行する際にユーザーが使用する役割を選択します。デフォルトでは、ユーザーの主要役割が表示されます。「**担当者の役割**」ボックスをクリックして、別の役割を選択します。 最初にタスクやイシューを役割に割り当て、次にその役割を実行できるユーザーを 2 番目の割り当てとして追加すると、ユーザー候補のリストは、タスクやイシューに既に割り当てられている役割を実行できるユーザーに絞り込まれます。
 
-     ![&#x200B; 割り当て先の役割 &#x200B;](assets/advanced-assignments-select-role.png)
+     ![ 割り当て先の役割 ](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
 
@@ -168,4 +167,4 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
    * **予定時間数**：期間タイプが「予定割り当て時間」または「シンプル」の場合は、予定時間数の数値を更新します。その結果、それぞれのリソースの配分率または時間数が均等に配分されます。Workfront では、期間タイプが「予定作業」または「残存作業時間の優先」の場合は、予定時間数を計算します。詳しくは、[タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。

@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 87%
+source-wordcount: '443'
+ht-degree: 86%
 
 ---
 
@@ -29,39 +29,36 @@ ht-degree: 87%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td>
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
+  <tr>
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
   </tr>
   <tr> 
-   <td role="rowheader">オブジェクト権限</td>
+   <td>オブジェクト権限</td>
    <td> 
     <ul> 
      <li> <p>プロジェクトは、グループまたはそのサブグループのいずれかに関連付ける必要があります。 </p> <p>プロジェクトへのグループの割り当てについて詳しくは、<a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">プロジェクトの概要エリアで情報を管理</a>を参照してください。</p> </li> 
      <li> <p>また、プロジェクトを作成したか、自分と共有されていたので、プロジェクトを編集する権限が必要です。</p></li> 
     </ul>
     <p><b>メモ</b>：グループのページからプロジェクトを作成すると、システムによってプロジェクトがそのグループに割り当てられます。これは、他の Workfront エリアでプロジェクトを作成する場合とは異なります。この場合、システムはプロジェクトを、プロジェクトを作成したユーザー（プロジェクト所有者）のホームグループに割り当てます。</p> </td>
-  </tr> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -69,10 +66,10 @@ ht-degree: 87%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. プロジェクトを作成、表示、または操作するグループの名前をクリックします。
-1. 左側のパネルで、**メインメニューのプロジェクト**![&#x200B; プロジェクト &#x200B;](assets/projects-in-main-menu.png) をクリックして、グループに関連付けられているプロジェクトのリストを表示します。
+1. 左側のパネルで、**メインメニューのプロジェクト**![ プロジェクト ](assets/projects-in-main-menu.png) をクリックして、グループに関連付けられているプロジェクトのリストを表示します。
 
 1. 次のいずれかの操作を行います。
 

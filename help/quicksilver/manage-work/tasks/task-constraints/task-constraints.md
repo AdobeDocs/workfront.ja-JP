@@ -2,16 +2,16 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: 「タスクの制約：記事のインデックス」
+title: タスク制約：記事インデックス
 description: タスクの制約は、プロジェクト上でタスクを開始および終了するタイミングを決定します。複数のタスク制約を使用して、タスクを開始および終了するタイミングを指定できます。Workfront のすべてのタスク制約について詳しくは、次の記事を参照してください。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2e37b051-00ff-4784-bd8b-1897bb4ac80b
-source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

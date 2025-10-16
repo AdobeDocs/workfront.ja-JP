@@ -4,10 +4,10 @@ description: これは、アドビのチームがアクセス要件に使用す�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 12b7638472b2138896a283283d368b4092a1e67b
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 28%
+source-wordcount: '1245'
+ht-degree: 27%
 
 ---
 
@@ -260,7 +260,7 @@ And
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 ## Workfront Planning での一元化されたレコード・タイプのアクセス要件
 
@@ -299,7 +299,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 
 ## ほとんどのシナリオプランナーに関するアクセス要件
@@ -330,20 +330,20 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 <td><p>アクセスレベル設定</p> </td> 
    <td> <p>シナリオプランナーへのアクセス権の編集</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>オブジェクト権限 </p> </td> 
    <td> <p>プランに対する権限の管理</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 ## ほとんどのWorkfront Goals のアクセス要件
 
 >[!NOTE]
 >
->あなたの会社が過去にAdobe Workfront Goals を購入したことがある場合、それは祖父に育てられています。 Adobe Workfront Goals は購入できなくなりました。
+>過去に会社がこのパッケージを購入したことがある場合は、Adobe Workfront Goals を引き続き使用できます。 Adobe Workfront Goals は購入できなくなりました。
 
 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -374,7 +374,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
  </tbody> 
 </table>
 
-詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 ## リソース管理のアクセス要件（複数のライセンスが利用可能な場合など。すべての RM パッケージが Any に変更される場合）
 
@@ -420,10 +420,10 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
  </tbody> 
 </table>
 
-このテーブルの情報について詳しくは、[&#x200B; ドキュメントのアクセス要件 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation) を参照してください。
+このテーブルの情報について詳しくは、[ ドキュメントのアクセス要件 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation) を参照してください。
 
 
-Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
+Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
 
 ## 高度なエンタープライズ制御
 
@@ -438,7 +438,7 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
 * ワークフローのPrime以降
 * Workfront Prime以降
 
-パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ &#x200B;](https://business.adobe.com/jp/products/workfront/pricing.html) を参照してください。
+パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ ](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
 
 高度なエンタープライズ制御：
 
@@ -461,7 +461,32 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>任意のAdobe Workfront ワークフローパッケージと任意のAdobe Workfront Automation and Integration パッケージ</p><p>WorkfrontUltimate</p><p>Workfront Fusion を追加購入したWorkfront Primeおよび Select パッケージ。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td> <p>標準</p><p>ワークまたはそれ以上</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion ライセンス</td> 
+   <td>
+   <p>オペレーションベース：Workfront Fusion ライセンス要件なし</p>
+   <p>コネクタベース（従来）：作業の自動化と統合のためのWorkfront Fusion </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">製品</td> 
+   <td>
+   <p>組織がWorkfront Automation and Integration を含まない Select またはPrime Workfront パッケージを持っている場合は、Adobe Workfront Fusion を購入する必要があります。</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+このテーブルの情報について詳しくは、[ ドキュメントのアクセス要件 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation) を参照してください。
+
+Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
+<td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 

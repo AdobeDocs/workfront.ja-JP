@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1411'
 ht-degree: 94%
 
 ---
@@ -44,20 +44,18 @@ ht-degree: 94%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>現在：[!UICONTROL Plan]</p>
-   または
-   <p>新規：標準</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
-</tr> 
+   <td>アクセスレベル設定</td> 
+   <td>[!UICONTROL System Administrator]</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -75,7 +73,7 @@ ht-degree: 94%
 
 1. （オプション）「**システムのタイムシートおよび時間設定**」検索ボックスにグループの名前を入力し、リストに表示されたら選択します。
 
-   ![&#x200B; 「グループを検索」ボックス &#x200B;](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![ 「グループを検索」ボックス ](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    タイムシートと時間の環境設定ページは、選択したグループの環境設定で更新されます。グループレベルの環境設定を変更するには、システムレベルの環境設定のロックを解除する必要があります。詳細については、この記事の[グループのタイムシートと時間の環境設定のロックを解除](#unlock-timesheet-and-hour-preferences-for-groups)の節を参照してください。
 
@@ -210,8 +208,8 @@ ht-degree: 94%
 
 1. 次のいずれかの操作を行います。
 
-   * グループ管理者がグループの環境設定を設定できるようにする場合は、「**ロック解除**」切り替え ![&#x200B; ロック解除 &#x200B;](assets/unlock-toggle-button.png) 切り替えをクリックして、ロックを解除します。
-   * すべてのグループで環境設定を使用する場合は、ロックされた切替スイッチ ![&#x200B; ロックされた環境設定の切替スイッチ &#x200B;](assets/locked-preference-toggle.png) デフォルト）であることを確認します。
+   * グループ管理者がグループの環境設定を設定できるようにする場合は、「**ロック解除**」切り替え ![ ロック解除 ](assets/unlock-toggle-button.png) 切り替えをクリックして、ロックを解除します。
+   * すべてのグループで環境設定を使用する場合は、ロックされた切替スイッチ ![ ロックされた環境設定の切替スイッチ ](assets/locked-preference-toggle.png) デフォルト）であることを確認します。
 
      >[!IMPORTANT]
      >

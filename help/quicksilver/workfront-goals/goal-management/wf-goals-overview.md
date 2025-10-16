@@ -7,10 +7,10 @@ description: Adobe Workfront Goals は、戦略を作業の実行と配信に結
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 92%
+source-wordcount: '487'
+ht-degree: 84%
 
 ---
 
@@ -18,22 +18,34 @@ ht-degree: 92%
 
 <!--Audited: 4/2025-->
 
+>[!NOTE]
+>
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>
+>Adobe Workfront Goals は購入できなくなりました。
+>
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+
+<!--Old: 
+
 >[!IMPORTANT]
 >
->この記事で説明している機能を使用するには、組織に以下が必要です。
+>Your organization must have the following to use the functionality described in this article:
 >
->* 新しいプランとライセンス構造の場合：
+>* For the new plan and license structure:
 >
->   * Ultimate Workfront プラン
+>   * The Ultimate Workfront plan 
 >    
->* 現在のプランおよびライセンス構造の場合：
+>* For the current plan and license structure: 
 >
->   * Pro 以上のWorkfront プラン
->   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+
+-->
 
 Adobe Workfront Goals は、戦略を作業の実行と配信に結び付けることで、戦略的な成果を定義、伝達、達成するのに役立ちます。真に重要なことに全員の努力を集中させ、進捗を目に見える形にして、チームが素晴らしい成果を達成できるようにすることができます。ユーザーは自分の貢献が有意義な影響を与えていると知っていれば、最高の仕事をすることができます。
 
@@ -43,7 +55,9 @@ Workfront Goals の使用に関するベストプラクティスについて詳�
 
 >[!IMPORTANT]
 >
->Workfront Goalsを使用して管理する戦略目標は、プロジェクトのビジネスケースの一部であるプロジェクトレベルの目標と混同しないでください。プロジェクトレベルの目標について詳しくは、[ビジネスケース目標を作成](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)を参照してください。
+>Workfront Goals を使用して管理する戦略目標と、プロジェクトのビジネスケースの一部であるプロジェクトレベルの目標を混同しないでください。
+>
+>プロジェクトレベルの目標について詳しくは、[ビジネスケース目標を作成](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)を参照してください。
 
 ## Workfront Goals の機能
 

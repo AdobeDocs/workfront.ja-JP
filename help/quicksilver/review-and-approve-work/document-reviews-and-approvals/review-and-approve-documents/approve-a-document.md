@@ -6,10 +6,10 @@ description: ドキュメントの承認者として割り当てられている�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 1f7a17206ca77442b501f121f3333d4b60aa85f1
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 74%
+source-wordcount: '1180'
+ht-degree: 72%
 
 ---
 
@@ -27,32 +27,33 @@ ht-degree: 74%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>承認に関連付けられたオブジェクトに対する表示以上のアクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>承認に関連付けられたオブジェクトに対する表示以上のアクセス権</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>承認に関連付けられたオブジェクトに対する表示以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>承認に関連付けられたオブジェクトに対する表示以上の権限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -66,7 +67,7 @@ ht-degree: 74%
    >
    >* 組織を説明するようにカスタマイズされた画像に置き換える。この場合、アイコンはこの記事に示すものとは異なる外観になります。
    >
-   >* リンクされたページを別のページに置き換える。この場合は、ページの右上隅にある **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](../assets/main-menu-icon.png) をクリックし、**ホーム** をクリックします。
+   >* リンクされたページを別のページに置き換える。この場合は、ページの右上隅にある **メインメニュー**![ メインメニューアイコン ](../assets/main-menu-icon.png) をクリックし、**ホーム** をクリックします。
 
 1. ページ左上の「**フィルター**」をクリックして、「**承認**」がオンになっていることを確認します。
 
@@ -148,13 +149,13 @@ ht-degree: 74%
 
 1. Workfrontに移動したら、「**プルーフに移動** をクリックします。
 
-1. コンテンツをレビューし、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内でプルーフを確認する：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) を参照してください。
+1. コンテンツをレビューし、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内でプルーフを確認する：記事インデックス ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) を参照してください。
 
 1. 次のいずれかの決定を選択します。
 
    * **承認**: ドキュメントは変更する必要がなく、使用できる状態になっています。
    * **変更を加えて承認**: ドキュメントには変更が必要です。変更が行われると使用できるようになります。 追加の承認は必要ありません。
-   * **作業が必要**：ドキュメントに変更が必要ですが、使用する準備ができていません。 指定した変更を加えたら、ドキュメントを新しいバージョンとしてアップロードし、別の承認を行う必要があります。 新しいバージョンのアップロードについて詳しくは、この記事の [&#x200B; 必要に応じて新しいバージョンを作成する &#x200B;](#create-a-new-version-as-needed) を参照してください。
+   * **作業が必要**：ドキュメントに変更が必要ですが、使用する準備ができていません。 指定した変更を加えたら、ドキュメントを新しいバージョンとしてアップロードし、別の承認を行う必要があります。 新しいバージョンのアップロードについて詳しくは、この記事の [ 必要に応じて新しいバージョンを作成する ](#create-a-new-version-as-needed) を参照してください。
 
 決定を行うと、ドキュメント所有者にメールで通知されます。
 

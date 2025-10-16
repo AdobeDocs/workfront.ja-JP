@@ -1,25 +1,29 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Adobe Workfront でのイシューのタスクへの変換
-description: イシューの送信後、イシューを完了するために必要な作業が他にもある場合は、そのイシューをタスクに変換することができます。
+title: イシューのタスクへの変換
+description: イシューの送信後にイシューを完了するためにさらに作業が必要な場合は、Adobe Workfrontでイシューをタスクに変換できます。
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 94%
+source-wordcount: '1043'
+ht-degree: 86%
 
 ---
 
-# Adobe Workfront でのイシューのタスクへの変換
+# イシューをタスクに変換
 
-イシューの送信後、イシューを完了するために必要な作業が他にもある場合は、そのイシューをタスクに変換することができます。
+<!--Audited: 08/2025-->
+
+イシューの送信後にイシューを完了するためにさらに作業が必要な場合は、Adobe Workfrontでイシューをタスクに変換できます。
 
 イシューの変換に関する一般的な情報については、[Adobe Workfront におけるイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -28,25 +32,54 @@ ht-degree: 94%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>ワークまたはそれ以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>ワークまたはそれ以上</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>問題、タスクおよびプロジェクトへの編集アクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>問題、タスクおよびプロジェクトへの編集アクセス権</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>イシューの表示権限</p> <p>プロジェクトへの投稿権限</p> <p>イシューの変換後、タスクに対する管理権限を取得します</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>イシューの表示権限</p> <p>プロジェクトへの投稿権限</p> <p>イシューが変換された後に、タスクに対する管理権限を取得します</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues, Tasks, and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain&nbsp;Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table> -->
 
 ## 考慮事項
 
@@ -58,7 +91,7 @@ ht-degree: 94%
 1. 変換するイシューをクリックして、イシューのランディングページに移動します。
 1. イシューの&#x200B;[!UICONTROL **その他**]&#x200B;メニューをクリックし、[!UICONTROL **タスクに変換**]&#x200B;を選択します。
 
-   ![&#x200B; 問題の詳細メニュー &#x200B;](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![ 問題の詳細メニュー ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -66,7 +99,7 @@ ht-degree: 94%
 
 1. [!UICONTROL タスク名]セクションでタスクの名を前を更新します。デフォルトでは、タスクの名前は元のイシューの名前と同じになります。
 
-   ![&#x200B; タスクに変換ボックス &#x200B;](assets/convert-to-task-box-nwe.png)
+   ![ タスクに変換ボックス ](assets/convert-to-task-box-nwe.png)
 
 1. [!UICONTROL **宛先プロジェクト**]&#x200B;をクリックし、新しいタスクを配置するプロジェクトの名前を&#x200B;[!UICONTROL **宛先プロジェクト**]&#x200B;フィールドに入力し始め、リストに表示されたらそれを選択します。デフォルトでは、イシューのプロジェクトが選択されています。
 
@@ -113,7 +146,7 @@ ht-degree: 94%
    >[!TIP]
    >
    >* イシューに添付された複数のオブジェクトのカスタムフォームをイシューとタスクの両方で使用するように設定すると、イシューとタスクのカスタムフォームの両方にフィールドが存在する場合、フォームに保存されたすべての情報が変換時に保持されます。
-   >* 計算フィールドを持つ複数のオブジェクトのカスタムフォームがイシューおよびタスクに添付されている場合、イシューおよびタスクには、フォームの計算カスタムフィールドで参照されているすべてのフィールドとの互換性が必要です。互換性がない場合は、調整を行うように警告するメッセージが表示されます。詳しくは、[&#x200B; フォームへの計算フィールドの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+   >* 計算フィールドを持つ複数のオブジェクトのカスタムフォームがイシューおよびタスクに添付されている場合、イシューおよびタスクには、フォームの計算カスタムフィールドで参照されているすべてのフィールドとの互換性が必要です。互換性がない場合は、調整を行うように警告するメッセージが表示されます。詳しくは、[ フォームへの計算フィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
    >* 宛先プロジェクトのタスクデフォルトカスタムフォームフィールドにデフォルトフォームが定義されている場合、プロジェクトの編集時に、それらのタスクフォームも新しいタスクに追加されます。元のイシューとデフォルトのタスクフォームのフィールドに共通するカスタムフィールドには、イシューフィールドの情報が事前に入力されます。
 
 

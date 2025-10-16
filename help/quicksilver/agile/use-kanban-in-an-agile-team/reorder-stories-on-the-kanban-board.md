@@ -6,10 +6,10 @@ description: 場合によっては、かんばんボードのステータス列�
 author: Lisa
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 93%
+source-wordcount: '253'
+ht-degree: 92%
 
 ---
 
@@ -31,8 +31,6 @@ ht-degree: 93%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,14 +38,13 @@ ht-degree: 93%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p> 
-   または
-   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -56,9 +53,7 @@ ht-degree: 93%
 
 +++
 
-## [!UICONTROL かんばん]ボードでのストーリーの並べ替え
-
-ストーリーの順序を変更するには、次の手順に従います。
+## [!UICONTROL かんばん]ボードでストーリーを並べ替える
 
 {{step1-to-team}}
 

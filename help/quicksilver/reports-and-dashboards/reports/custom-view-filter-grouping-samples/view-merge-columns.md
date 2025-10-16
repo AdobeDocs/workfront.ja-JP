@@ -7,10 +7,10 @@ description: 複数の異なる列に表示される情報を結合し、1 つ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 79%
+source-wordcount: '1070'
+ht-degree: 77%
 
 ---
 
@@ -24,50 +24,39 @@ ht-degree: 79%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p> 現在： 
-   <ul>
-   <li>表示の変更をリクエスト</li> 
-   <li>レポートを変更するためのプラン</li>
-   </ul>
-     </p>
-     <p> 新規： 
-   <ul>
-   <li>ビューを変更する場合は Contributor</li> 
-   <li>レポートを変更する場合は Standard</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>ビューの投稿者または変更依頼 </p>
+   <p>レポートを変更するための標準またはプラン</p>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルター、表示、グループ化へのアクセス権を編集して、表示を変更できるようにします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
+
 +++
 
 ## 列を共有または結合する際の考慮事項
 
-* 隣接する 2 つの列を結合して、改行で区切られた各列の情報を表示するか、隣接する 2 つの列に情報を結合して、各列の情報を区切らずに表示できます。
+* 隣接する 2 つの列を結合して、改行で区切られた各列の情報を表示するか、隣接する 2 つの列に情報を結合して、各列の情報の間に区切り記号を入れずに表示できます。
 * この記事で説明する同じ構文を既に共有されている列と隣接する列に適用すると、2 つ以上の列の情報を結合できます。
 * `valueformat=HTML` 行は共有列で必須です。そうでない場合、レポートが Adobe Workfront から書き出される際に、列に情報が含まれません（空白になります）。
 * 条件付き形式は、結合された列ではサポートされない場合があります。
@@ -95,7 +84,7 @@ ht-degree: 79%
 改行なしで 2 列のデータを結合するには：
 
 1. オブジェクトのリストに移動します。
-1. **ビュー** ドロップダウンからビューを選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてビューを編集します。
+1. **ビュー** ドロップダウンからビューを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてビューを編集します。
 1. 結合する最初の列に移動し、**テキストモードに切り替え** > **テキストモードを編集** をクリックします。
 1. 結合する最初の列に次のテキストを追加します。
 
@@ -121,7 +110,7 @@ ht-degree: 79%
    column.3.valueformat=HTML
    ```
 
-   ![&#x200B; 改行のない共有列 &#x200B;](assets/shared-column-no-line-breaks-350x142.png)
+   ![ 改行のない共有列 ](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
@@ -131,7 +120,7 @@ ht-degree: 79%
 複数の列のデータを結合して、1 つの共通列に表示し、各列の値を改行するには、次の手順を実行します。
 
 1. オブジェクトのリストに移動します。
-1. **ビュー** ドロップダウンからビューを選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてビューを編集します。
+1. **ビュー** ドロップダウンからビューを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてビューを編集します。
 1. 結合する 2 列の間に 3 つ目の列を追加します。
 
    >[!TIP]
@@ -182,6 +171,6 @@ ht-degree: 79%
    column.5.valueformat=HTML 
    ```
 
-   ![&#x200B; 改行のある共有列 &#x200B;](assets/shared-column-with-line-breaks-350x199.png)
+   ![ 改行のある共有列 ](assets/shared-column-with-line-breaks-350x199.png)
 
 1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。

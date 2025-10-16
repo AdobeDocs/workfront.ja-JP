@@ -7,10 +7,10 @@ description: ワークロードバランサーは、リソース エリアの複
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 62%
+source-wordcount: '845'
+ht-degree: 61%
 
 ---
 
@@ -42,25 +42,21 @@ ht-degree: 62%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
-       チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>リソース エリアでワークロードバランサーを使用する場合は、計画します。作業、チームまたはプロジェクトのワークロードバランサーを使用する場合は、次のようにします</p>
        <p><span class="preview">注意：すべてのユーザーは、ライセンス要件なしで、独自のユーザープロファイルでワークロードバランサーにアクセスできます。</span></p></td>
   </tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>次の項目に対する表示以上のアクセス権：</p> 
     <ul> 
      <li>リソース管理</li> 
@@ -70,13 +66,13 @@ ht-degree: 62%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td>プロジェクト、タスク、イシューの表示またはそれ以上の権限</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -101,7 +97,7 @@ ht-degree: 62%
 
 ### チームのワークロードバランサーへのアクセス
 
-Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x200B;](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md) を参照してください。
+Workfrontのチームについて詳しくは、[ チームの概要 ](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md) を参照してください。
 
 {{step1-to-team}}
 
@@ -109,7 +105,7 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x
 
 1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
-   ![&#x200B; チームのワークロードバランサー &#x200B;](assets/nwe-balancer-team-350x172.png)
+   ![ チームのワークロードバランサー ](assets/nwe-balancer-team-350x172.png)
 
    チームのワークロードバランサーには、デフォルトで次の情報が表示されます。
 
@@ -129,7 +125,7 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x
 
    プロジェクトのワークロードバランサーが表示されます。
 
-   ![&#x200B; プロジェクトのワークロードバランサー &#x200B;](assets/nwe-balancer-project-350x152.png)
+   ![ プロジェクトのワークロードバランサー ](assets/nwe-balancer-project-350x152.png)
 
    プロジェクトのワークロードバランサーには、デフォルトで以下の情報が表示されます。
 
@@ -154,7 +150,7 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x
 
    ユーザーのワークロードバランサーが表示されます。
 
-   ![&#x200B; ユーザーのワークロードバランサー &#x200B;](assets/workload-balancer-user.png)
+   ![ ユーザーのワークロードバランサー ](assets/workload-balancer-user.png)
 
    デフォルトでは、ユーザーのワークロードバランサーには、次の情報が表示されます。
 
@@ -181,7 +177,7 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x
       (NOTE: ensure this stays correct)
       -->
 
-1. [Workfront オブジェクトまたは領域の左側のパネルにダッシュボードを追加する &#x200B;](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) の説明に従って、オブジェクトの左側のナビゲーションパネルにダッシュボードを追加し、カスタムタブにダッシュボードを配置します。
+1. [Workfront オブジェクトまたは領域の左側のパネルにダッシュボードを追加する ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) の説明に従って、オブジェクトの左側のナビゲーションパネルにダッシュボードを追加し、カスタムタブにダッシュボードを配置します。
 
    ダッシュボードからワークロードバランサーにアクセスする場合、手順 1 にリストされている元のエリアの 1 つから直接アクセスしているかのように表示できます。
 
@@ -189,7 +185,7 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x
       (NOTE: ensure this stays correct)
      -->
 
-1. （オプション） [&#x200B; レイアウトテンプレートを使用した左パネルのカスタマイズ &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) の説明に従って、レイアウトテンプレートでダッシュボードを共有します。
+1. （オプション） [ レイアウトテンプレートを使用した左パネルのカスタマイズ ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) の説明に従って、レイアウトテンプレートでダッシュボードを共有します。
 
 
 <!--

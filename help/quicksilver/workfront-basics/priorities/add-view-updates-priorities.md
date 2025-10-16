@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '529'
 ht-degree: 9%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 9%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,14 @@ ht-degree: 9%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
-   <p>現在：問題 <!--and documents--> に対してリクエストまたはそれ以上、他のすべてのオブジェクトに対してレビューまたはそれ以上</p>
-   <p>新規：問題 <!--and documents--> のコントリビューター以上：他のすべてのオブジェクトのライト以上</p> 
+   <p>イシューとドキュメントについてはリクエスト以上、その他のすべてのオブジェクトについてはレビュー以上</p>
+   <p>イシューとドキュメントの投稿者またはそれ以上：他のすべてのオブジェクトに対してライトまたはそれ以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +51,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -66,7 +64,7 @@ ht-degree: 9%
 
 1. 更新する作業項目を見つけます。
 1. 名前の上にマウスポインターを置き、「**新しい更新を追加**」をクリックします。
-   ![&#x200B; 新しい更新を追加 &#x200B;](assets/add-update.png)
+   ![ 新しい更新を追加 ](assets/add-update.png)
    <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. コメントを入力してください。
 1. （任意）「**ユーザーまたはチームのタグ付け**」ボックスに、このコメントに含めるユーザーまたはチームの名前またはメールの入力を開始し、リストに表示されたら選択します。
@@ -77,7 +75,7 @@ ht-degree: 9%
    >
    >コメントの編集は、送信後 15 分以内に完了します。 コメントを編集するには、コメントの右上隅にある **詳細** メニューをクリックしてから、「**編集** をクリックします。
 
-更新の追加について詳しくは、[&#x200B; 作業項目に更新を追加 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
+更新の追加について詳しくは、[ 作業項目に更新を追加 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 
 ## 作業アイテムにコメントとシステム更新を表示して追加する
 
@@ -90,7 +88,7 @@ ht-degree: 9%
 1. （任意）「**コメント**」タブを使用して、他のユーザーが作業アイテムに加えた更新を表示します。
 1. （オプション）「**システムアクティビティ**」タブを使用して、作業項目に関連するシステムアクティビティを表示します。
 1. （オプション）コメントを追加するには、「**コメント**」タブに移動し、「**新しいコメント** ボックスに入力を開始します。 完了したら、「**送信**」をクリックします。
-   ![&#x200B; 更新エリア &#x200B;](assets/updates-area-in-overview.png)
+   ![ 更新エリア ](assets/updates-area-in-overview.png)
 
 ## コメントに返信する
 
@@ -101,7 +99,7 @@ ht-degree: 9%
 1. 作業項目名をクリックして、**概要** ページを開きます。
 1. 画面の右下隅にある **更新** 領域を見つけます。
 1. [**コメント**] タブで、返信先のコメントを検索し、[**返信**] をクリックします。
-1. （条件付き）メッセージの内容を返信に取り込む場合は、メッセージの本文の横にある **その他** メニューアイコン ![&#x200B; その他メニュー &#x200B;](assets/more-icon.png) をクリックし、「**返信の引用**」を選択します。
+1. （条件付き）メッセージの内容を返信に取り込む場合は、メッセージの本文の横にある **その他** メニューアイコン ![ その他メニュー ](assets/more-icon.png) をクリックし、「**返信の引用**」を選択します。
 
 1. 返信を入力し、「**送信**」をクリックします。
 
@@ -109,4 +107,4 @@ ht-degree: 9%
    >
    >コメントの編集は、送信後 15 分以内に完了します。 コメントを編集するには、コメントの右上隅にある **詳細** メニューをクリックしてから、「**編集** をクリックします。
 
-   ![&#x200B; コメントに返信 &#x200B;](assets/reply-to-comment.png)
+   ![ コメントに返信 ](assets/reply-to-comment.png)

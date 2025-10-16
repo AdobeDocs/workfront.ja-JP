@@ -6,10 +6,10 @@ description: 2 つの目標を手動で連携させたり、既存の目標の�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 85%
+source-wordcount: '605'
+ht-degree: 79%
 
 ---
 
@@ -22,10 +22,50 @@ ht-degree: 85%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+>[!NOTE]
+>
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>
+>Adobe Workfront Goals は購入できなくなりました。
 
-この記事にリストされているアクティビティを実行するには、次のアクセス権が必要です。
++++展開すると、この記事の機能のアクセス要件が表示されます。 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody>
+
+<td> <p>Adobe Workfront パッケージ</p> </td> 
+   <td> 
+   <p>Adobe WorkfrontUltimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront プラン</p> </td> 
+   <td> <p>投稿者以上</p> 
+     <p>要求者以上</p> </td> 
+  </tr>
+
+<td><p>アクセスレベル設定</p> </td> 
+   <td> <p>Goals への編集アクセス権</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>オブジェクト権限 </p> </td> 
+   <td> <p>目標に対する権限の管理</p>  </td> 
+  </tr> 
+  <tr>
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+</td>
+  </tr>
+ </tbody> 
+</table>
+
+詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
+
+<!--Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -33,54 +73,50 @@ ht-degree: 85%
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront プラン*</td>
+ <td role="rowheader">Adobe Workfront plan*</td>
  <td> 
-   <p>新しいプランとライセンス構造の場合：
-  <ul><li>Ultimateプラン </li></ul>
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
    </p>
-<p>現在のプランおよびライセンス構造の場合： 
-<ul><li> プロまたはそれ以上 </li>
-  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
    </td> 
  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront プラン*</td>
+ <td role="rowheader">Adobe Workfront license*</td>
  <td>
- <p>新規ライセンス：コントリビューター以上</p>
- または
- <p>現在のライセンス：リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
  </tr>
  <tr>
- <td role="rowheader">製品*</td>
+ <td role="rowheader">Product*</td>
  <td>
-   <p> 新しい製品要件：Workfront</p>
-   または
-   <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+   <p> New product requirement: Workfront</p>
+   Or
+   <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader">アクセスレベル</td>
- <td> <p>Goals への編集アクセス権</p> </td>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
- <td role="rowheader">オブジェクト権限</td>
+ <td role="rowheader">Object permissions</td>
  <td>
   <div>
-  <p>目標の表示には表示権限以上が必要</p>
-  <p>目標に対する編集権限を管理</p>
-  <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
 </td>
   </tr>
 </tbody>
-</table>
-
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+</table>-->
 
 ## 前提条件
 
@@ -128,9 +164,9 @@ ht-degree: 85%
 
 1. 目標に変換する結果またはアクティビティがある目標に移動します。
 1. 目標のページで、左側のパネルの「**進捗インジケーター**」をクリックします。
-1. 進捗インジケーターのリストで結果またはアクティビティを選択し、進捗インジケーターリストの上部にある **目標に変換** アイコン ![&#x200B; 目標に変換 &#x200B;](assets/convert-to-goal-icon-unshimmed.png) をクリックします。 「目標に変換」ボックスが開きます。
+1. 進捗インジケーターのリストで結果またはアクティビティを選択し、進捗インジケーターリストの上部にある **目標に変換** アイコン ![ 目標に変換 ](assets/convert-to-goal-icon-unshimmed.png) をクリックします。 「目標に変換」ボックスが開きます。
 
-   ![&#x200B; 目標に変換ボックス &#x200B;](assets/convert-to-goal-box-unshimmed.png)
+   ![ 目標に変換ボックス ](assets/convert-to-goal-box-unshimmed.png)
 1. 次の情報を更新します。
    * **目標名**：デフォルトでは、新しい目標は、元の結果やアクティビティと同じ名前になります。
    * **期間**：デフォルトでは、新しい目標の期間は現在の四半期になります。「**カスタム日付を有効にする**」設定を選択して、新しい目標のカスタム期間を定義します。

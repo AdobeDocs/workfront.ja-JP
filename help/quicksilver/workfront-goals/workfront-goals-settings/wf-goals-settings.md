@@ -8,33 +8,45 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 80%
+source-wordcount: '110'
+ht-degree: 50%
 
 ---
 
 # Adobe Workfront Goals の設定
 
->[!IMPORTANT]
+<!--Audited for P&P only: 10/2025-->
+
+>[!NOTE]
 >
->この記事で説明している機能を使用するには、組織に以下が必要です。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
 >
->* 新しいプランとライセンス構造の場合：
+>Adobe Workfront Goals は購入できなくなりました。
 >
->   * 究極のWorkfrontプラン
->    
->* 現在のプランおよびライセンス構造の場合：
->
->   * Pro 以上のWorkfront プラン
->   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
->
->Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
-> 
 >Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
-この節では、次の記事を扱います。
+<!--Old:
+
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
+> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).  -->
+
+次の記事では、目標に関連する通知と、Adobe Workfront Goals で目標を共有する方法について説明します。
 
 * [Adobe Workfront Goals の通知の有効化](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * [Workfront Goals での目標の共有](../../workfront-goals/workfront-goals-settings/share-a-goal.md)

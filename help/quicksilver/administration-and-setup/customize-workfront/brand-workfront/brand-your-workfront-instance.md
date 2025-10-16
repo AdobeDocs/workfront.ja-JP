@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '881'
 ht-degree: 96%
 
 ---
@@ -31,19 +31,19 @@ Workfront の管理者は、次の場所でロゴを使用して Workfront の�
 
 * ログイン画面
 
-  ![&#x200B; ログイン画面でのブランド &#x200B;](assets/brand-login-screen-nwe-adobe.jpg)
+  ![ ログイン画面でのブランド ](assets/brand-login-screen-nwe-adobe.jpg)
 
 * ナビゲーションエリア上部
 
-  ![&#x200B; トップナビゲーションのブランド &#x200B;](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![ トップナビゲーションのブランド ](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * メインメニュー
 
-  ![&#x200B; メインメニューのブランド &#x200B;](assets/brand-main-menu-adobe.jpg)
+  ![ メインメニューのブランド ](assets/brand-main-menu-adobe.jpg)
 
 また、ログイン画面の背景画像やカラーを変更することもできます。
 
-![&#x200B; ログイン画面のバナー &#x200B;](assets/wf_banner_on_login_screen-adobe.png)
+![ ログイン画面のバナー ](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >
@@ -59,32 +59,27 @@ Workfront の管理者は、次の場所でロゴを使用して Workfront の�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>システム管理者</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

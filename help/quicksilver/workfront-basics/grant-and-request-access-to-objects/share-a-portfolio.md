@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 46%
+source-wordcount: '870'
+ht-degree: 44%
 
 ---
 
@@ -23,23 +23,20 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-オブジェクトを共有するには、次の条件を満たしている必要があります。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準</p> 
-   または
-   <p>現在：ワーク以上</p>
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +50,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -84,7 +81,7 @@ Workfront のオブジェクトの階層について詳しくは、[Adobe Workfr
 
 1. ポートフォリオ名の右側にある **共有** をクリックします。 **[Portfolio名を共有]** ダイアログボックスが開きます。
 
-   ![&#x200B; 「ポートフォリオを共有」ボタン &#x200B;](assets/share-portfolio-button.png)
+   ![ 「ポートフォリオを共有」ボタン ](assets/share-portfolio-button.png)
 
 1. 「**ポートフォリオへのアクセス権の付与**」フィールドに、ポートフォリオを共有するユーザー、チーム、役割、グループまたは会社の名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
@@ -105,19 +102,19 @@ Workfront のオブジェクトの階層について詳しくは、[Adobe Workfr
 
 1. （任意）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、ポートフォリオに特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-options-icon.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-options-icon.png)
 
 1. （オプション）リンクを使用してポートフォリオをすばやく共有するには、「**リンクをコピー**」をクリックして、受信者に転送します。
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
 ## ポートフォリオの一括共有
 
 {{step1-to-portfolios}}
 
-1. **ポートフォリオ** ページで、共有する各ポートフォリオの左側にあるボックスを選択し、ページ上部にある **共有** アイコン ![&#x200B; 共有アイコン &#x200B;](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
+1. **ポートフォリオ** ページで、共有する各ポートフォリオの左側にあるボックスを選択し、ページ上部にある **共有** アイコン ![ 共有アイコン ](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
 
-   ![&#x200B; 一括共有ポートフォリオ &#x200B;](assets/bulk-share-portfolios.png)
+   ![ 一括共有ポートフォリオ ](assets/bulk-share-portfolios.png)
 
 1. 「**ポートフォリオへのアクセス権の付与**」フィールドに、ポートフォリオを共有するユーザー、チーム、役割、グループまたは会社の名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
@@ -139,9 +136,9 @@ Workfront のオブジェクトの階層について詳しくは、[Adobe Workfr
 
 1. （オプション）ポートフォリオに特定の権限を設定するために付与した権限レベルの横にある「詳細オプション」アイコンをクリックします。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-options-icon.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-options-icon.png)
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
 
 ## ポートフォリオの権限

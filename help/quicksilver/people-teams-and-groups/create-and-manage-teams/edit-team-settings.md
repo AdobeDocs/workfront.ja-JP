@@ -6,16 +6,16 @@ description: Workfront 管理者、またはプランライセンスもしくは
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 90%
+source-wordcount: '479'
+ht-degree: 89%
 
 ---
 
 # チーム設定を編集
 
-[!DNL Adobe Workfront] 管理者、または [!UICONTROL &#x200B; 標準 &#x200B;]、[!UICONTROL &#x200B; プラン &#x200B;] または [!UICONTROL &#x200B; 作業 &#x200B;] ライセンスを持つユーザーは、[!UICONTROL &#x200B; チーム設定 &#x200B;] を編集できます。
+[!DNL Adobe Workfront] 管理者、または [!UICONTROL  標準 ]、[!UICONTROL  プラン ] または [!UICONTROL  作業 ] ライセンスを持つユーザーは、[!UICONTROL  チーム設定 ] を編集できます。
 
 チームにユーザーを追加し、チームのレイアウトテンプレートを設定し、チームが作業項目を完了したときのステータスの記録方法を設定できます。
 
@@ -23,22 +23,19 @@ ht-degree: 90%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront パッケージ</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：ワーク以上</p></td>
+   <p>標準</p>
+   <p>ワークまたはそれ以上</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +52,7 @@ ht-degree: 90%
 
 1. **[!UICONTROL その他]**&#x200B;メニュー（![](assets/more-icon.png)）をクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL &#x200B; 標準 &#x200B;]、[!UICONTROL &#x200B; プラン &#x200B;]、または [!UICONTROL &#x200B; ワーク &#x200B;] ライセンスのいずれかを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL  標準 ]、[!UICONTROL  プラン ]、または [!UICONTROL  ワーク ] ライセンスのいずれかを持つチームメンバーのみがこのオプションを表示します。
 
    「[!UICONTROL 編集]」オプションがあるべきなのに表示されない場合は、[!UICONTROL スクラムチーム]、[!UICONTROL かんばんチーム]、または[!UICONTROL ウォーターフォールチーム]に対してレイアウトテンプレートで「[!UICONTROL チーム設定]」が表示されていることを確認するよう Workfront 管理者に依頼してください。
 

@@ -6,10 +6,10 @@ description: Adobe Workfront では、様々なプロジェクトや様々な親
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 48%
+source-wordcount: '1371'
+ht-degree: 47%
 
 ---
 
@@ -36,21 +36,20 @@ Adobe Workfront では、次のオブジェクト間でタスクを移動でき�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準 </p> 
- <p>または</p>  
-<p>現在：ワーク以上 </p> </td> 
+   <td> <p>標準 </p> 
+ <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -63,9 +62,36 @@ Adobe Workfront では、次のオブジェクト間でタスクを移動でき�
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p> 
+ <p>or</p>  
+<p>Current: Work or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks</p> <p>Contribute or higher permissions to the project with ability to Add Tasks</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## タスクを移動する際の考慮事項
 
@@ -93,25 +119,25 @@ Adobe Workfront では、次のオブジェクト間でタスクを移動でき�
 
 1. **プロジェクト** ページで、移動する 1 つ以上のタスクが含まれているプロジェクトを選択します。
 1. 左パネルの「**タスク**」をクリックしてタスクリストを表示します。
-1. **プランモード** アイコン ![&#x200B; プランモード &#x200B;](assets/plan-mode.png) アイコンをクリックし、「**自動保存**」切替スイッチが有効になっていることを確認して、移動する 1 つ以上のタスクを選択します。
+1. **プランモード** アイコン ![ プランモード ](assets/plan-mode.png) アイコンをクリックし、「**自動保存**」切替スイッチが有効になっていることを確認して、移動する 1 つ以上のタスクを選択します。
 
-   ![&#x200B; 自動保存オプション &#x200B;](assets/autosave-icon.png)
+   ![ 自動保存オプション ](assets/autosave-icon.png)
 
    >[!IMPORTANT]
    >
-   >「**自動保存**」切り替えスイッチが無効な場合は、タスクを移動できません。
+   >「**自動保存**」切替スイッチが無効な場合は、タスクを移動できません。
 
 1. （オプションおよび条件付き）選択したタスクを同じプロジェクト内で移動する場合は、選択したタスクをクリックし、プロジェクト上で移動先にドラッグ&amp;ドロップします。 タスクの階層の変更は直ちに保存され、各タスクに関連付けられた情報がタスクと共に移動されます。
 
 1. （条件付き）移動する 1 つ以上のタスクを選択し、次のいずれかの操作を行います。
 
-   * タスクリストの上部にある **その他** メニュー ![&#x200B; その他のアイコン &#x200B;](assets/main-more-icon.png) をクリックしてから、**移動先** をクリックします。
+   * タスクリストの上部にある **その他** メニュー ![ その他のアイコン ](assets/main-more-icon.png) をクリックしてから、**移動先** をクリックします。
    * 選択したタスクを右クリックし、[**移動先**] をクリックします。
    * 1 つのタスクを選択する場合、リスト内のタスク名の横にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon-task-list.png) をクリックし、続いて「**指定の場所に移動**」をクリックします。
 
    **タスクを移動** ボックスが表示されます。
 
-1. この記事の [&#x200B; タスクレベルでのタスクの移動 &#x200B;](#move-a-task-at-the-task-level) の節で説明しているように、タスクの移動を続行します。
+1. この記事の [ タスクレベルでのタスクの移動 ](#move-a-task-at-the-task-level) の節で説明しているように、タスクの移動を続行します。
 
    <!--
    is this still accurate?!
@@ -123,7 +149,7 @@ Adobe Workfront では、次のオブジェクト間でタスクを移動でき�
 
 1. Workfront システム内のタスクを検索して見つけます。
 1. タスクの名前をクリックして開きます。
-1. タスク名の横にある **その他** ドロップダウンメニュー ![&#x200B; その他アイコン &#x200B;](assets/main-more-icon.png) をクリックし、「**移動先**」をクリックします。 **タスクを移動** サイドパネルが表示されます。
+1. タスク名の横にある **その他** ドロップダウンメニュー ![ その他アイコン ](assets/main-more-icon.png) をクリックし、「**移動先**」をクリックします。 **タスクを移動** サイドパネルが表示されます。
 
 1. （オプション）**タスク名**&#x200B;を更新します。タスクが新しい名前で新しい場所に移動します。
 
@@ -132,7 +158,7 @@ Adobe Workfront では、次のオブジェクト間でタスクを移動でき�
    >リスト内の複数のタスクを移動するように選択すると、「**タスク名**」フィールドはグレー表示され、編集できません。 **タスク名** フィールドにポインタを合わせると、選択したすべてのタスクのリストが表示されます。
    >
    >
-   >![&#x200B; タスク名の表示 &#x200B;](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
+   >![ タスク名の表示 ](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
 1. **宛先プロジェクトを選択** フィールドに、タスクの移動先のプロジェクトの名前を入力します。 同じプロジェクト内でタスクを移動する場合は、現在のプロジェクトの名前を入力します。
 
@@ -145,7 +171,7 @@ Adobe Workfront では、次のオブジェクト間でタスクを移動でき�
 1. （条件付き）プロジェクトへのアクセス権がない場合は、「**アクセスをリクエスト**」をクリックします。
 1. （条件付き）宛先プロジェクトのいずれかのタスクにタスクを追加するアクセス権がある場合は、アクセス権を要求せずにタスクを宛先プロジェクトに移動し続けます。
 
-   ![&#x200B; アクセスを要求しないタスクの移動 &#x200B;](assets/move-task-request-access-from-project-nwe-350x120.png)
+   ![ アクセスを要求しないタスクの移動 ](assets/move-task-request-access-from-project-nwe-350x120.png)
 
    >[!TIP]
    >

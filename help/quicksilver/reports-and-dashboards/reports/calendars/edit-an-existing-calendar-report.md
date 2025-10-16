@@ -6,10 +6,10 @@ description: プロジェクトへのリンクを追加または削除するこ�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 72%
+source-wordcount: '279'
+ht-degree: 64%
 
 ---
 
@@ -25,8 +25,6 @@ ht-degree: 72%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ ht-degree: 72%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL Reports]、[!UICONTROL Dashboards]、および[!UICONTROL Calendars]に対する[!UICONTROL Edit]アクセス権</p></td> 
+   <td> <p> 報告書、ダッシュボード、およびカレンダーへのアクセスを編集します</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>カレンダーレポートに対する [!UICONTROL Manage] 権限</td> 
+   <td>カレンダーレポートへのアクセスの管理</td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,14 +67,12 @@ ht-degree: 72%
    1. 「**[!UICONTROL カレンダーに追加]」をクリックします。**
    1. カレンダーイベントを追加するプロジェクトの名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
    1. 「**追加**」をクリックします。
-
-      ![&#x200B; カレンダーへのプロジェクトの追加 &#x200B;](assets/add-a-calendar-project.png)
+      ![ カレンダーへのプロジェクトの追加 ](assets/add-a-calendar-project.png)
 
 
 1. （オプション）カレンダーのグループ化を追加するか、カレンダーの既存のグループ化を変更するには、次の手順に従います。
    1. プロジェクト名の横にある **詳細** メニューをクリックし、「**編集**」をクリックします。
-
-      ![&#x200B; カレンダーでプロジェクトを編集 &#x200B;](assets/edit-project-in-calendar.png)
+      ![ カレンダーでプロジェクトを編集 ](assets/edit-project-in-calendar.png)
 
    1. アイテムをグループ化する方法を次の中から選択します。
 

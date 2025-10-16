@@ -7,10 +7,10 @@ description: Adobe Workfront レポートの複数選択カスタムフィール
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 82%
+source-wordcount: '504'
+ht-degree: 80%
 
 ---
 
@@ -39,28 +39,21 @@ Adobe Workfront レポートの複数選択カスタムフィールドにおい�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-    <p>新規：</p>
-   <ul><li><p>フィルターを変更するコントリビューター </p></li>
-   <li><p>レポートを変更する場合は Standard</p></li> </ul>
-
-<p>現在：</p>
-   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
-   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
+   <p>フィルターの変更者または変更依頼 </p>
+   <p>レポートを変更するための標準またはプラン</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -73,7 +66,7 @@ Adobe Workfront レポートの複数選択カスタムフィールドにおい�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -82,7 +75,7 @@ Adobe Workfront レポートの複数選択カスタムフィールドにおい�
 複数選択のカスタムフィールドでグループ化するには、次の前提条件が満たされている必要があります。
 
 * カスタムフォームに複数選択カスタムフィールドを作成します。\
-  カスタムフォームの作成と、カスタムフォームへのカスタムフィールドの追加について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成と、カスタムフォームへのカスタムフィールドの追加について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 * カスタムフォームをオブジェクトに添付します。
 * 複数選択カスタムフィールドに、各オブジェクトの値を入力します。
@@ -109,7 +102,7 @@ Adobe Workfront レポートの複数選択カスタムフィールドにおい�
 
    レポート内のオブジェクトは、複数選択カスタムフィールドの値でグループ化されます。
 
-   ![&#x200B; 複数選択フィールドのグループ化 &#x200B;](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![ 複数選択フィールドのグループ化 ](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    レポートのグループ化の名前は、複数選択カスタムフィールドの名前に続いて、フィールドで選択された値になります。
 

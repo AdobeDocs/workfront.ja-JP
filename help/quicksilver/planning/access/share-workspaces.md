@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: f2fe6ef78b3032f7a89d4c816cb11b525634c067
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 35%
+source-wordcount: '767'
+ht-degree: 34%
 
 ---
 
@@ -33,10 +33,41 @@ This article describes how you can share a view with others. For information abo
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<p>任意のWorkfrontおよび Planning パッケージ</p> 
+または
+<p>任意のワークフローおよび計画パッケージ</p> 
+ </tr>
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p> 
+  </td> 
+  </tr>
+
+<td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>  <p>ワークスペースに対する権限の管理</p>  </td> 
+  </tr>
+
+</tbody> 
+</table>
+
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -46,62 +77,58 @@ This article describes how you can share a view with others. For information abo
     <tr> 
 <tr> 
 <td> 
-   <p> 製品</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p>
-<p>権限リクエストからワークスペースに権限をリクエストおよび付与できるようにするには、組織がAdobe統合エクスペリエンスにオンボーディングされている必要があります。 </p> 
-<p>Workfront Planning ワークスペースへの権限を取得するには、ユーザーをAdobe Admin Consoleに追加する必要があります。</p>
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
+<p>Your organization must be onboarded to the Adobe Unified Experience for users to be able to request and grant permissions to a workspace from a permission request. </p> 
+<p>Users must be added to the Adobe Admin Console in order to gain permissions to Workfront Planning workspaces.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準 </p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard </p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>  <p>ワークスペースに対する権限の管理</p>  </td> 
-  </tr>
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Manage permissions to a workspace</p>  </td> 
+  </tr> 
 
 </tbody> 
-</table>
-
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+</table> -->
 
 ## ワークスペースの共有に関する考慮事項
 
-* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
+* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
 * ワークスペースは、組織内のユーザー、チーム、役割、グループまたは会社と共有できます。
 * チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。
 * 組織外のユーザーとワークスペースを共有することはできません。
@@ -122,15 +149,15 @@ This article describes how you can share a view with others. For information abo
 
 1. 共有するワークスペースを開き、画面の右上隅の「**共有**」をクリックします。
 
-   ![&#x200B; ワークスペースの右上にある「共有」ボタン &#x200B;](assets/share-button-on-workspace-top-right.png)
+   ![ ワークスペースの右上にある「共有」ボタン ](assets/share-button-on-workspace-top-right.png)
 
 1. 「**このワークスペースへのアクセスを許可**」フィールドに、ユーザー、グループ、チーム、会社または担当業務の名前の入力を開始し、リストに表示されたらクリックします。
 
-   ![UI をグループと共有 &#x200B;](assets/sharing-ui-with-groups.png)
+   ![UI をグループと共有 ](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
-   >   チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+   >   チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 
 
 1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
@@ -152,18 +179,16 @@ This article describes how you can share a view with others. For information abo
 1. （条件付き）ワークスペースの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
 
    * アプリ内通知
-
-     ![&#x200B; アクセスリクエストのアプリ内通知 &#x200B;](assets/in-app-notification-for-access-request.png)
+     ![ アクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request.png)
    * メール通知
-
-     ![&#x200B; アクセスリクエストのメール通知 &#x200B;](assets/email-notification-for-access-request.png)
+     ![ アクセスリクエストのメール通知 ](assets/email-notification-for-access-request.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
 メール通知で「**すべての通知を表示**」をクリックし、リスト内の通知をクリックします。
 
    **保留中のアクセスリクエスト** ボックスが表示されます。
 
-   ![&#x200B; 通知リストの承認ボックス &#x200B;](assets/notifications-list-approval-box.png)
+   ![ 通知リストの承認ボックス ](assets/notifications-list-approval-box.png)
 
 1. （オプション）権限を承認するユーザーについて、ユーザー名の右側にあるドロップダウンメニューから次のいずれかのオプションを選択します。
    * **表示**
@@ -182,6 +207,6 @@ This article describes how you can share a view with others. For information abo
 
 1. 権限を削除するワークスペースを開き、画面の右上隅の「**共有**」をクリックします。
 1. ワークスペースを共有するエンティティ名の右側にあるドロップダウンメニューをクリックし、「**削除**」をクリックします。
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
    削除されたユーザーは、ワークスペースまたはそのオブジェクトにアクセスできなくなります。

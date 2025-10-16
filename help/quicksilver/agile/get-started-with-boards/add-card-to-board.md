@@ -6,10 +6,10 @@ description: アドホックカードをボードにすばやく追加して、�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 95%
+source-wordcount: '879'
+ht-degree: 93%
 
 ---
 
@@ -25,22 +25,19 @@ ht-degree: 95%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>新規：[!UICONTROL Contributor]以上</p> 
-   <p>または</p>
-   <p>現在：[!UICONTROL Request] 以上</p>
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p>
    </td> 
   </tr> 
  </tbody> 
@@ -113,7 +110,7 @@ ht-degree: 95%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>「<strong>[!UICONTROL New comment]</strong>」フィールド内をクリックして、コメントを入力します。書式設定ツールを使用して、テキストの書式を設定します。 （アドホックカードのコメントでは画像を使用できません）。 ユーザーまたはチームにタグ付けするには、コメントエリアの下部にある検索ボックスを使用します。ユーザーは、ボード上のメンバーである必要はありません。</p><p><strong>メモ：</strong> 現時点では、アドホックカードのコメントでタグ付けされたユーザーにはメール通知は送信されません。
+      <td><p>「<strong>[!UICONTROL New comment]</strong>」フィールド内をクリックして、コメントを入力します。書式設定ツールを使用して、テキストの書式を設定します。 （アドホックカードのコメントでは画像を使用できません）。 ユーザーまたはチームにタグ付けするには、コメント領域の下部にある検索ボックスを使用します。 ユーザーは、ボード上のメンバーである必要はありません。</p><p><strong>メモ：</strong> 現時点では、アドホックカードのコメントでタグ付けされたユーザーにはメール通知は送信されません。
       </p><p>「<strong>[!UICONTROL Submit]</strong>」をクリックして、コメントをカードに追加します。</p>
       <p>コメント機能について詳しくは、<a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">作業の更新</a>を参照してください。</p></td>
      </tr>

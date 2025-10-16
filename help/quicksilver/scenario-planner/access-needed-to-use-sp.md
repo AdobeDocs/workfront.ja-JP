@@ -2,15 +2,15 @@
 content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Scenario Planner を使用するために必要なアクセス権
+title: シナリオプランナーの使用に必要なアクセス
 description: シナリオプランナーには、Adobe Workfront ライセンスとは別のライセンスと追加のアクセス権が必要です。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 1b06589a705cf218239ff1273b865c05e4ceb96f
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 73%
+source-wordcount: '394'
+ht-degree: 56%
 
 ---
 
@@ -18,105 +18,111 @@ ht-degree: 73%
 
 <!--Audited: 04/2024-->
 
-[!DNL Scenario Planner] には、追加のライセンス要件があります。 [!DNL Workfront Scenario Planner] について詳しくは、[&#x200B; [!DNL Scenario Planner]  の概要](../scenario-planner/scenario-planner-overview.md)を参照してください。
+<!--The [!DNL Scenario Planner] has additional license requirements. For information about the [!DNL Workfront Scenario Planner], see [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).-->
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-正しいアクセス権や権限がないと、[!DNL &#x200B; Adobe Workfront] の[!UICONTROL シナリオ]エリアの表示や、組織のプランとイニシアチブの管理ができない場合があります。プランとイニシアチブの管理には、プランとイニシアチブの作成、編集、削除も含まれます。
+正しいアクセス権や権限がないと、[!DNL  Adobe Workfront] の[!UICONTROL シナリオ]エリアの表示や、組織のプランとイニシアチブの管理ができない場合があります。プランとイニシアチブの管理には、プランとイニシアチブの作成、編集、削除も含まれます。
 
 ## [!DNL Adobe Workfront Scenario Planner] の表示や使用に必要なアクセス権
 
 [!DNL Workfront Scenario Planner] にアクセスするには、次の条件がすべて満たされていることを確認する必要があります。
 
-1. 所属する組織で、以下に説明するWorkfront プランのいずれかが必要です。
+1. 組織にはWorkfront Ultimate パッケージが必要です。
 
-   新しいWorkfrontプランと現在の Workfront プランのどちらを使用するかに応じて、組織には次のいずれかが必要です。
+   シナリオプランナーは、Workfront ワークフローパッケージでは使用できません。
 
-   * 新しいプランでは、[!UICONTROL Ultimate] [!DNL Workfront] プランが必要です。 シナリオプランナーは [!UICONTROL Ultimate] プランにのみ含まれています。
+   現在Workfrontを更新しており、シナリオプランナーを維持したい場合は、Workfront アカウント担当者にお問い合わせください。
 
-   * 現在のWorkfront プランでは、組織に次の両方が必要です。
+   新規のお客様は、シナリオプランナーを購入できなくなります。
 
-      * 組織は、[!DNL Workfront] [!UICONTROL Business] 以上の [!DNL Workfront] プランを購入する必要があります。
+   <!--Old: 
+    Depending on whether you use the new or the current Workfront plan, your organization must have one of the following:
+    * For the new plans, your organization must have the  [!UICONTROL Ultimate] [!DNL Workfront] plan. The Scenario Planner is included only in the [!UICONTROL Ultimate] plan. 
+    * For the current Workfront plans, your organization must have both of the following: 
+      * Your organization must purchase a [!DNL Workfront] [!UICONTROL Business] or higher [!DNL Workfront] plan. 
+      
+      * Your organization must purchase a [!DNL Workfront Scenario Planner] license, in addition to a [!DNL Workfront] license. Contact your [!DNL Workfront] Account Representative to learn about [!DNL Workfront Scenario Planner] licenses. -->
 
-      * 組織では、[!DNL Workfront] ライセンスに加え、[!DNL Workfront Scenario Planner] ライセンスを購入する必要があります。[!DNL Workfront Scenario Planner] ライセンスについて詳しくは、[!DNL Workfront] アカウント担当者にお問い合わせください。
+1. 次のいずれかのWorkfront ライセンスが必要です。
 
-1. 以下に説明するWorkfront ライセンスが 1 つ必要です。
+   * [!UICONTROL  ライト ] 以上
+   * [!UICONTROL  レビュアー ] 以上
 
-   新しいライセンスと現在のライセンスのどちらを使用するかに応じて、[!DNL Workfront] 管理者は次のいずれかのタイプのライセンスを割り当てる必要があります。
-
-   * 新しいライセンスの場合：
-      * [!UICONTROL 標準]
-      * [!UICONTROL ライト]
-
-   * 現在のライセンスについて：
-
-      * [!UICONTROL 計画]
-      * [!UICONTROL 作業]
-      * [!UICONTROL 確認]
-
-   >[!NOTE]
-   > 
-   >* 新しいライセンスを使用する際、[!UICONTROL &#x200B; コントリビューター &#x200B;] または [!UICONTROL &#x200B; 外部 &#x200B;] ライセンスタイプを持つユーザーは、[!DNL Scenario Planner] にアクセスできません。
-   >
-   >* 現在のライセンスを使用する場合、リクエストまたは外部ライセンスタイプを持つユーザーは、シナリオプランナーにアクセスできません。
+   <!--Old: 
+      * For the current licenses: 
+        * [!UICONTROL Plan]
+        * [!UICONTROL Work]
+        * [!UICONTROL Review]-->
+   <!--Old: 
+      >[!NOTE]
+      > 
+      >* When using the new licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
+      >
+      >* When using the current licenses, users with a Request or External license type cannot access the Scenario Planner. -->
 
 1. [!DNL Workfront] 管理者は、ユーザーのアクセスレベルで [!DNL Scenario Planner] に対する[!UICONTROL 表示]または[!UICONTROL 編集]のアクセス権を付与する必要があります。
 
-   [!DNL Workfront Scenario Planner] へのアクセス権の付与について詳しくは、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
+   [!DNL Workfront Scenario Planner] へのアクセス権の付与について詳しくは、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
 
 1. （オプションおよび推奨）プランやイニシアチブの財務情報を表示または更新するには、[!DNL Workfront] 管理者がユーザーのアクセスレベルで[!UICONTROL 財務データ]へのアクセス権も付与する必要があります。アクセスレベルでの財務データへのアクセス権の付与について詳しくは、[財務データへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
 
-1. （オプション）自分が作成していないプランにアクセスする必要がある場合、プラン作成者は、プランにアクセスするための正しい権限を付与する必要があります。 作成していないプランやイニシアチブへのアクセスに必要な権限について詳しくは、[プランやイニシアチブへのアクセスに必要な権限](#permissions-needed-to-access-plans-and-initiatives)の節を参照してください。
+
+<!--1. (Optional) If you need to access plans you didn't create, a plan creator must give you the correct permissions to their plan to access it. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.-->
 
 <!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
 
-## プランやイニシアチブの表示に必要なアクセス権
+<!--Repetitive from above?? 
 
-会社が [!DNL Workfront Scenario Planner] の正しいライセンスを取得するのに加えて、[!DNL Workfront] 管理者は、ユーザーに次のアクセス権と設定を割り当てて、ユーザーが [!DNL Workfront Scenario Planner] およびこのエリアの情報を表示できるようにする必要があります。
+## Access needed to view plans and initiatives
 
-* 少なくとも [!DNL Scenario Planner] への[!UICONTROL 表示]アクセス権があるアクセスレベル。
+In addition to your company acquiring the correct license for the [!DNL Workfront Scenario Planner], your [!DNL Workfront] administrator must also assign you the following access and setup so you can view the [!DNL Workfront Scenario Planner] and the information in this area:
 
-  [!DNL Scenario Planner] へのアクセスレベルについて詳しくは、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
+* An access level with at least [!UICONTROL View] access to [!DNL Scenario Planner].
 
-* プランやイニシアチブに関する財務情報も表示する必要がある場合は、少なくとも[!UICONTROL 財務データ]への[!UICONTROL 表示]アクセス権があるアクセスレベル。財務情報の例としては、予算、コスト、または担当業務の料率があります。
+  For information about the access level to [!DNL Scenario Planner], see [Grant access to [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-  [!UICONTROL 財務データ]のアクセスレベルについて詳しくは、[財務データへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
+* An access level with at least [!UICONTROL View] access to [!UICONTROL Financial Data] if you need to also view financial information about the plan and the initiatives. Some examples of financial information are budgets, costs, or job role rates.
 
-  >[!TIP]
-  >
-  >[!UICONTROL 要求者]および[!UICONTROL 外部]ユーザーは、[!DNL Scenario Planner] を表示するアクセス権を持っていません。
-
-* プランに対する表示権限。作成していないプランやイニシアチブへのアクセスに必要な権限について詳しくは、[プランやイニシアチブへのアクセスに必要な権限](#permissions-needed-to-access-plans-and-initiatives)の節を参照してください。
-
-## プランやイニシアチブの管理に必要なアクセス権
-
-[!DNL Workfront] 管理者は、ユーザーが [!DNL Scenario Planner] でプランや情報を管理できるようにするには、次のアクセス権を付与する必要があります。
-
-* アクセスレベルで [!DNL Scenario Planner] への編集アクセス権がある[!UICONTROL プラン]または[!UICONTROL ワーク]ライセンスタイプ。
-
-  その他すべてのライセンスタイプには、プランを管理するためのアクセス権がありません。
-
-  アクセスレベルからの [!DNL Scenario Planner] へのアクセス権の付与について詳しくは、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
-
-* プランに関する財務情報も更新する必要がある場合は、アクセスレベルで[!UICONTROL 財務データ]への[!UICONTROL 編集]アクセス権がある[!UICONTROL プラン]ライセンスタイプ。
-
-  編集可能な財務情報の例としては、[!UICONTROL 予算]、[!UICONTROL 予定利益]、または[!UICONTROL 固定費]があります。
+  For information about the [!UICONTROL Financial Data] access level, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
   >[!TIP]
   >
-  >[!UICONTROL 財務データ]への[!UICONTROL 編集]アクセス権を持つのは、[!UICONTROL プラン]ライセンスの所有者のみです。
+  >[!UICONTROL Requestors] and [!UICONTROL External] Users do not have access to view the [!DNL Scenario Planner].
 
-  [!UICONTROL 財務データ]のアクセスレベルについて詳しくは、[財務データへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
+* View permissions to the plan. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.
 
-* 自分が作成しなかった計画に対する権限を管理します。作成しなかった計画やイニシアチブへのアクセスに必要な権限について詳しくは、[計画およびイニシアチブへのアクセスに必要な権限](#permissions-needed-to-access-plans-and-initiatives)の節を参照してください。
+## Access needed to manage plans and initiatives
+
+Your [!DNL Workfront] administrator must assign you the following access so you can manage plans and their information in the [!DNL Scenario Planner]:
+
+* A [!UICONTROL Plan] or [!UICONTROL Work] license type with Edit access to the [!DNL Scenario Planner] in your access level.
+
+  All other license types do not have access to manage plans.
+
+  For information about granting access to [!DNL Scenario Planner] from the Access Level, see [Grant access to [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+
+* A [!UICONTROL Plan] license type with [!UICONTROL Edit] access to [!UICONTROL Financial Data] in your access level, if you need to also update financial information about the plan.
+
+  Some examples of financial information that you can edit are [!UICONTROL Budget], [!UICONTROL Planned Benefit], and [!UICONTROL Fixed Costs].
+
+  >[!TIP]
+  >
+  >Only [!UICONTROL Plan] license holders have [!UICONTROL Edit] access to [!UICONTROL Financial Data].
+
+  For information about the [!UICONTROL Financial Data] access level, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+
+* Manage permissions to a plan that you didn't create. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.
+
+-->
 
 ## 計画およびイニシアチブへのアクセスに必要な権限
 
-アクセスレベルは、[!DNL Workfront] を使用して、自分が作成しなかった計画やイニシアチブを目で見ることができます。[!DNL Scenario Planner] にアクセスするための適切なアクセスレベルを持っていることに加え、これらのプランの作成者でない場合、表示または管理する計画に対して適切な権限を持っている必要があります。
+アクセスレベルは、[!DNL Workfront] を使用して、自分が作成しなかった計画やイニシアチブを目で見ることができます。プランにアクセスするための適切なアクセスレベルに加えて、プランの作成 [!DNL Scenario Planner] でない場合は、表示または管理するプランに対する適切な権限も必要です。
 
 システム管理者を含むすべてのユーザーは、自分が作成したプランにのみアクセスできます。
 
@@ -124,11 +130,11 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 * 計画を共有する
 
-  計画の共有について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) での計画の共有を参照してください。
+  計画の共有について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) での計画の共有を参照してください。
 
 * 作成したプランへのリンクの送信
 
-  計画を共有せずに計画へのリンクを共有した場合は、計画に対する権限をリクエストできます。プランに対する権限のリクエストについては、[&#x200B; 内の計画へのアクセスのリクエスト [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)を参照してください。
+  計画を共有せずに計画へのリンクを共有した場合は、計画に対する権限をリクエストできます。プランに対する権限のリクエストについては、[ 内の計画へのアクセスのリクエスト [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)を参照してください。
 
 >[!NOTE]
 >

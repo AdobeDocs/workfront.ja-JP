@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 7%
+source-wordcount: '644'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 7%
 
 Workfront Planning のオブジェクトに対する権限について詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
 
-Adobe Planning へのアクセスについて詳しくは、[Workfront Planning へのアクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+Adobe Planning へのアクセスについて詳しくは、[Workfront Planning へのアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
 ## Workfront のライセンスタイプと Workfront Planning の権限の関係
 
@@ -46,22 +46,24 @@ Adobe Planning へのアクセスについて詳しくは、[Workfront Planning 
 * ユーザーは、レコードタイプが属するワークスペースに対して持っている権限よりも、レコードタイプに対して大きな権限を持つことはできません。
 * ユーザーのレコードタイプへの権限を削除しても、ワークスペースへの権限が削除されないので、ワークスペース内のすべてのレコードタイプに対する表示アクセス権は削除されません。
 
-| Adobe Workfront ライセンスタイプ* | Adobe Workfront Planning で許可されている最上位の権限 |
+| Adobe Workfront ライセンスタイプ | Adobe Workfront Planning で許可されている最上位の権限 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 標準 | <p>ユーザーは、ワークスペース、レコードの種類、およびビューを管理できます。 ワークスペース、レコードタイプ、レコード、フィールドおよびビューを作成、編集または削除できます。</p> <br> <p>システム管理者には、未作成のワークスペースを含むすべてのワークスペースに対する管理権限があります。</p> |
 | ライトまたはコントリビューター | <p>ユーザーは、共有されているワークスペースに加え、それらのワークスペースのレコードタイプ、レコード、フィールドを表示できます。</p> <br> <p>ユーザーは、共有されたビューを表示できますが、独自のビューを作成することはできません。 </p><br> <p>ユーザーは、ワークスペース、レコードタイプ、レコード、フィールドを作成、編集、削除できません。</p> |
 
-*Workfront Planning は、従来のWorkfront ライセンスでは使用できません。
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+<!--Old: 
+*Workfront Planning is not available for legacy Workfront licenses. 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 
 ### ワークスペースとレコードタイプに対するライセンスタイプと権限
 
 ワークスペースおよびレコードタイプに対する投稿権限または管理権限を持つことができるのは、標準ライセンスを持つユーザーのみです。 ワークスペースおよびレコードタイプに対する投稿権限と管理権限も、レコードとフィールドに転送されます。
 
+システム管理者は、自分が作成していないものを含め、システム内のすべてのワークスペースを表示できます。
+
 他のすべてのライセンスタイプを持つユーザーは、共有されているワークスペースとレコードタイプ、およびレコードとフィールドに対する表示権限を持つことができます。
 
-システム管理者は、自分が作成していないものを含め、システム内のすべてのワークスペースを表示できます。
 
 >[!INFO]
 >
@@ -71,12 +73,16 @@ Adobe Planning へのアクセスについて詳しくは、[Workfront Planning 
 >
 >共有ボックスには、下位レベルのライセンスを保持しているユーザーに対して、ワークスペースへの投稿またはワークスペースの管理を行う権限を付与できないことが示されます。これは、これらの権限レベルがグレー表示されているためです。
 >
->![Workspace の投稿者ユーザーに対してグレー表示されている権限 &#x200B;](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+>![Workspace の投稿者ユーザーに対してグレー表示されている権限 ](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### ライセンスの種類とビューへの権限
 
-標準ライセンスを持つユーザーのみが、ビューに対する管理権限を持つことができます。 他のすべてのライセンスタイプを持つユーザーは、自分と共有されたビューに対する表示権限を持つことができます。
+標準ライセンスを持つユーザーのみが、ビューに対する管理権限を持つことができます。
+
+システム管理者は、自分が作成していないビューにアクセスすることはできません。 これらは共有する必要があります。
+
+他のすべてのライセンスタイプを持つユーザーは、自分と共有されたビューに対する表示権限を持つことができます。
 
 >[!INFO]
 >
@@ -86,4 +92,4 @@ Adobe Planning へのアクセスについて詳しくは、[Workfront Planning 
 >
 >共有ボックスには、下位レベルのライセンスを持つユーザーにビューを管理する権限を付与できないことが示されます。これは、これらの権限レベルがグレー表示されているためです。
 >
->![&#x200B; ビュー共有のライトユーザーで権限がグレー表示される &#x200B;](assets/permissions-grayed-out-for-light-user.png)
+>![ ビュー共有のライトユーザーで権限がグレー表示される ](assets/permissions-grayed-out-for-light-user.png)

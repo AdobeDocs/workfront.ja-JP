@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 「計算済みカスタムフィールドの例：イシューのカスタムフォームにイシュー作成者の管理者を表示する」
+title: 計算済みカスタムフィールドの例：イシューのカスタムフォームにイシュー作成者の管理者を表示する
 description: 計算済みカスタムフィールドを使用すると、イシューに添付されたカスタムフォームにイシュー作成者の管理者の名前を表示できます。同じ文を使用して、プロジェクト、イシュー、その他のオブジェクトに類似した計算フィールドを作成できます。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 98%
+source-wordcount: '334'
+ht-degree: 92%
 
 ---
 
@@ -26,32 +26,36 @@ ht-degree: 98%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront プラン*</p> </td> 
-   <td>任意</td> 
+   <td> <p>Adobe Workfront パッケージ</p> </td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront プラン*</p> </td> 
-   <td> <p>プラン </p> </td> 
+   <td> <p>Adobe Workfront プラン</p> </td> 
+   <td>
+      <p>標準</p>
+      <p>プラン</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td>アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームへの管理アクセス<br>アクセスレベルから管理アクセス権を付与する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与する</a>を参照してください。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+  <tr> 
+   <td><p>アクセスレベル設定</p></td> 
+   <td> <p>カスタムフォームへの管理アクセス</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>オブジェクト権限</p> </td> 
-   <td> <p>カスタムフォームを編集するアクセス権を持つフォームが添付されたオブジェクトへのアクセス権を付与する</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>カスタムフォームを編集するアクセス権を持つフォームが添付されたオブジェクトへのアクセス権を付与する</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## イシューのカスタムフォームにイシュー作成者の管理者を表示する
 

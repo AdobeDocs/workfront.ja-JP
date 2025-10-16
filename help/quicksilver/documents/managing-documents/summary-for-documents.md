@@ -7,10 +7,10 @@ description: 「概要」では、ドキュメントリストから直接重要�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 58%
+source-wordcount: '441'
+ht-degree: 56%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 58%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
-   <td> <p>新規：Contributor 以上</p> 
-   <p>現在：Request 以上</p>
+   <td> <p>投稿者以上</p> 
+   <p>リクエスト以上</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -65,9 +65,9 @@ ht-degree: 58%
 
 1. **ドキュメント** ページで、リスト内のドキュメントを選択します。
 
-1. ページの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
+1. ページの右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
 
-   ![&#x200B; 概要の詳細 &#x200B;](assets/document-summary-panel.png)
+   ![ 概要の詳細 ](assets/document-summary-panel.png)
 
    概要を開いた後は、手動で閉じるまで、このページで開いたままになります（他のドキュメントをクリックした場合でも）。
 
@@ -83,13 +83,13 @@ ht-degree: 58%
 
 「概要」セクションを展開すると、画像サムネールの表示やダウンロード、プルーフの開き、基本的な説明の更新、ドキュメントのチェックアウトなどを行うことができます。
 
-![&#x200B; ドキュメントの概要 &#x200B;](assets/details-section.png)
+![ ドキュメントの概要 ](assets/details-section.png)
 
 ### カスタムフォーム {#custom-forms}
 
 「カスタムフォーム」セクションでは、ドキュメントに関連付けられたカスタムフォームを追加、編集、表示できます。カスタムフォームの名前を入力し、ドキュメントに追加します。詳しくは、[ドキュメントへのカスタムフォームの追加または編集](../../documents/managing-documents/add-custom-form-documents.md)を参照してください。
 
-![&#x200B; ドキュメントの概要へのカスタムフォームの追加 &#x200B;](assets/custom-forms-section.png)
+![ ドキュメントの概要へのカスタムフォームの追加 ](assets/custom-forms-section.png)
 
 ## アップデート
 
@@ -106,11 +106,11 @@ ht-degree: 58%
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [ドキュメント承認のリクエスト](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![&#x200B; ドキュメントの概要承認 &#x200B;](assets/approvals-section.png)
+![ ドキュメントの概要承認 ](assets/approvals-section.png)
 
 ## バージョン
 
-「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。その他アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックすると、次の操作を実行できます。
+「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。その他アイコン ![ その他アイコン ](assets/more-icon.png) をクリックすると、次の操作を実行できます。
 
 * プルーフを開きます。
 * プルーフまたはドキュメントをダウンロードします。
@@ -118,4 +118,4 @@ ht-degree: 58%
 * ドキュメントの詳細に移動します。
 * プルーフまたはドキュメントの削除。
 
-![&#x200B; ドキュメント概要のバージョン &#x200B;](assets/versions-section.png)
+![ ドキュメント概要のバージョン ](assets/versions-section.png)

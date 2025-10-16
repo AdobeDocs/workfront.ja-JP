@@ -6,10 +6,10 @@ description: レポートの自動配信のスケジュール設定
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 65%
+source-wordcount: '1293'
+ht-degree: 64%
 
 ---
 
@@ -27,35 +27,32 @@ ht-degree: 65%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-      <td> 
-      <p>新規：標準</p>
-      <p>または</p>
-
-<p>現在：プラン</p>
-
-</td>
+   <td> 
+      <p>標準</p>
+      <p>プラン</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p>
+   <p>フィルター、ビュー、グループ化へのアクセスの編集</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p></td> 
+     <td> <p>レポートに対する権限を管理します。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -175,7 +172,7 @@ ht-degree: 65%
 >
 >予定レポートの配信が処理される際には、内部の制限時間が生じる可能性があります。 レポートの送信時間が送信される制限を超えた場合、通知が届き、スケジュールされた残りの配信に関係なくレポートは配信されなくなります。 レポートの送信を続行するには、まずフィルターと表示を使用してレポートのサイズを小さくし、次に、新しいスケジュール済み配信を作成します。
 >
->スケジュールされたレポート配信を使用して BI ツールでWorkfront データを分析する場合は、代わりにWorkfront Data Connect を使用することをお勧めします。 詳しくは、[Workfront Data Connect の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
+>スケジュールされたレポート配信を使用して BI ツールでWorkfront データを分析する場合は、代わりにWorkfront Data Connect を使用することをお勧めします。 詳しくは、[Workfront Data Connect の概要 ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
 
 ## スケジュール済みレポート配信を削除
 

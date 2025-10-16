@@ -6,10 +6,10 @@ description: 以前に Adobe Workfront にアップロードしたドキュメ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 95%
+source-wordcount: '357'
+ht-degree: 92%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 95%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -36,26 +34,27 @@ ht-degree: 95%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>リクエスト以上</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ドキュメントに関連付けられたオブジェクトへの編集アクセス権</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントに関連付けられたオブジェクトへの編集アクセス権</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;自分のプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
-
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 +++
 
 ## ドラッグ＆ドロップを使用して新しいバージョンを追加する
@@ -67,7 +66,7 @@ ht-degree: 95%
 1. ドキュメントがアップロードされるドキュメントエリアに移動します。
 1. デスクトップまたは別のブラウザータブから、ドキュメントの新しいバージョンを Workfront の既存のバージョンの上にドラッグします。
 
-   ![&#x200B; ドキュメントバージョンをドラッグ&amp;ドロップ &#x200B;](assets/drag-drop-doc-qs-350x145.png)
+   ![ ドキュメントバージョンをドラッグ&amp;ドロップ ](assets/drag-drop-doc-qs-350x145.png)
 
    新しいバージョンをドラッグする際に、Workfront ドキュメントフォルダーの上にポインタを合わせると、そのバージョンを開くことができます。次に、ファイルを画面の上部または下部にドラッグして、上下にスクロールできます。
 
@@ -80,6 +79,6 @@ ht-degree: 95%
 1. 新しいバージョンを追加するドキュメントを選択します。
 1. **新規追加**／**バージョン**&#x200B;をクリックします。
 
-   ![&#x200B; 新しいバージョンを追加 &#x200B;](assets/add-new-version-350x185.png)
+   ![ 新しいバージョンを追加 ](assets/add-new-version-350x185.png)
 
-1. アップロードするドキュメントの種類を選択し、画面の指示に従います。
+1. アップロードするドキュメントの種類を選択し、画面のプロンプトに従います。

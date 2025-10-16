@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: プロジェクトのステータスは、完了から現在には変更されません
-description: （この問題を FAQ として追加することもできますが、検索性を考慮して独自の記事にしました）。
+title: プロジェクト状態が [ 完了 ] から [ 現在 ] に変わらない
+description: この記事では、プロジェクトのステータスを「完了」から「現在」に更新できないシナリオについて説明します。
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 91%
+source-wordcount: '182'
+ht-degree: 77%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 91%
 プロジェクトの完了モードを手動に更新するには、次の手順に従います。
 
 1. 更新するプロジェクトに移動します。
-1. プロジェクト名の右側にある **その他** アイコン ![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) をクリックし、**編集** をクリックします。
-1. 「**プロジェクト**&#x200B;**設定**」をクリックします。
+1. プロジェクト名の右側にある **その他** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックし、**編集** をクリックします。
+1. 「**プロジェクト****設定**」をクリックします。
 
 1. **完了モード**&#x200B;ドロップダウンメニューで、「**手動**」を選択します。
 

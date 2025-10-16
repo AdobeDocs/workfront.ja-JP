@@ -6,10 +6,10 @@ description: 費用の作成と管理のプロセスは、プロジェクト関�
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e1884aa7975018a737538d909954319e6feee318
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 38%
+source-wordcount: '495'
+ht-degree: 34%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 38%
 
 <!-- Audited: 6/2025 -->
 
-費用の作成と管理のプロセスは、プロジェクト関連費用とタスク関連費用の両方で同じです。ビジネスケースのプロジェクトに追加された費用は、計画費用として「費用」タブに追加されます。詳しくは、[&#x200B; プロジェクトのビジネスケースの作成 &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) を参照してください。
+費用の作成と管理のプロセスは、プロジェクト関連費用とタスク関連費用の両方で同じです。ビジネスケースのプロジェクトに追加された費用は、計画費用として「費用」タブに追加されます。詳しくは、[ プロジェクトのビジネスケースの作成 ](../../../manage-work/projects/define-a-business-case/create-business-case.md) を参照してください。
 
 すべてのタスクとプロジェクトからの費用の総額は、プロジェクトの合計コストに貢献します。 費用の予定金額はプロジェクトの予定コストに貢献し、費用の実際の金額はプロジェクトの実際のコストに貢献します。
 
@@ -30,27 +30,27 @@ ht-degree: 38%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>現在：ワーク以上</p></td> 
+   <p>標準</p>
+   <p>ワークまたはそれ以上</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>プロジェクトおよび財務データへのアクセスを編集する</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td>プロジェクトに対する参加以上の権限と財務情報を表示または管理する権限</td> 
+   <td>オブジェクト権限</td> 
+   <td>財務の表示または管理に対する権限を持つ、プロジェクトへの投稿以上の権限</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -68,7 +68,7 @@ ht-degree: 38%
 
    * **実績金額：** 費用実績原価の金額を入力します。 これは、プロジェクトの実際のコストに影響します。
 
-   * **予定日：** 費用が発生する予定日を入力します。 *mm/dd/yy* 形式を使用してフィールドに日付を入力するか、**カレンダー** アイコン ![&#x200B; カレンダーアイコン &#x200B;](assets/calendar-icon.png) をクリックして日付を動的に選択できます。
+   * **予定日：** 費用が発生する予定日を入力します。 *mm/dd/yy* 形式を使用してフィールドに日付を入力するか、**カレンダー** アイコン ![ カレンダーアイコン ](assets/calendar-icon.png) をクリックして日付を動的に選択できます。
 
    * **支払日：** 費用が支払われた日付を入力または選択します。
    * **請求可能：** この費用を請求する場合は、このオプションを選択します。 請求記録を作成する際は、費用を請求可能として分類することが重要です。
@@ -78,13 +78,13 @@ ht-degree: 38%
 
    >[!NOTE]
    >
-   >費用に関連付けるには、カスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   >費用に関連付けるには、カスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
 ## 費用の削除
 
 1. 費用を削除するプロジェクトに移動します。
 1. 左側のパネルで **費用** をクリックします。
-1. 削除する費用を選択し、**削除** アイコン ![&#x200B; 削除 &#x200B;](assets/delete.png) をクリックします。
+1. 削除する費用を選択し、**削除** アイコン ![ 削除 ](assets/delete.png) をクリックします。
 1. **費用を削除** ダイアログで、「はい、削除します **をクリックし** す。

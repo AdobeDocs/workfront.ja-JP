@@ -6,10 +6,10 @@ description: Adobe Workfront で複数の為替レートが設定されている
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 96%
+source-wordcount: '976'
+ht-degree: 97%
 
 ---
 
@@ -29,43 +29,35 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
+      <p>標準</p>
+      <p>プラン</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限*</td> 
-   <td> <p>レポートに対する権限を管理します。</p></td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>レポートに対する権限を管理します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -123,7 +115,7 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
 
    時間の記録の詳細については、[時間の記録](../../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。
 
-1. **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
+1. **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
 1. **新規レポート**、**プロジェクトレポート**&#x200B;の順にクリックします。
 1. 「**列（ビュー）**」タブから、**実際コスト**&#x200B;列を追加し、「**合計**」で集計します。
 
@@ -182,6 +174,6 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
 1. **レポート設定**&#x200B;をクリックします。
 1. **デフォルトの通貨**&#x200B;ドロップダウンをクリックし、**プロジェクトの元の通貨**&#x200B;を選択します。
 
-   ![&#x200B; デフォルト通貨 &#x200B;](assets/qs-report-settings-default-currency-350x370.png)
+   ![ デフォルト通貨 ](assets/qs-report-settings-default-currency-350x370.png)
 
 1. 「**完了**」をクリックします。

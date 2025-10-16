@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 88%
+source-wordcount: '446'
+ht-degree: 87%
 
 ---
 
@@ -27,31 +27,27 @@ ht-degree: 88%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：[!UICONTROL Standard]</p>
-   または
-   <p>現在：[!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -65,7 +61,7 @@ ht-degree: 88%
 
 1. 「**[!UICONTROL タイムライン]**」セクションで、以下の設定のいずれかまたは両方を有効または無効にします。デフォルトでは、両方の設定が有効になっています。
 
-   * **毎晩：**&#x200B;[!DNL Workfront&#x200B;&#x200B;&#x200B;] は、ステータスが[!UICONTROL 現在]で、過去 3 ヶ月以内に更新されたプロジェクトの場合のみ、24 時間に一度、夜間にタイムラインを再計算します。システム負荷やその他の要因によっては、再計算時間が 24 時間以上遅れる場合があります。
+   * **毎晩：**[!DNL Workfront&#x200B;&#x200B;&#x200B;] は、ステータスが[!UICONTROL 現在]で、過去 3 ヶ月以内に更新されたプロジェクトの場合のみ、24 時間に一度、夜間にタイムラインを再計算します。システム負荷やその他の要因によっては、再計算時間が 24 時間以上遅れる場合があります。
 
      この場合、[!DNL Workfront] は[!UICONTROL 更新タイプ]が[!UICONTROL 自動]または[!UICONTROL 自動および変更時]のすべてのプロジェクトのタイムラインを再計算します。
 

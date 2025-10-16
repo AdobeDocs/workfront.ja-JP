@@ -1,15 +1,15 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: タスクリストのプロジェクトおよびイニシアチブに対する役割の割り当てを表示
+title: タスク リストにプロジェクトとイニシアティブの役割割り当てを表示します
 description: プロジェクトとイニシアチブを結び付けた後、リソースの割り当てを横に並べ、それらが一致するよう管理できます。これにより、過剰な割り当てや割り当て不足を回避できます。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 82%
+source-wordcount: '660'
+ht-degree: 80%
 
 ---
 
@@ -25,53 +25,85 @@ ht-degree: 82%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
-   <td> <ul></li>
-   <li><p>新規：Ultimate </p></li>
-   <p>シナリオプランナーは、新しいWorkfront Select プランまたはWorkfront Prime プランでは使用できません。 </p>
-   <li><p>現在：[!UICONTROL Business] 以上</p></ul>
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>WorkfrontUltimate</p>
+<p><b>メモ</b></p>
+<p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
-   <td> <p>新規：ライト以上</p> 
-   <p>現在：[!UICONTROL Review] 以上</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] ライセンス</p> </td> 
+   <td> <p>[!UICONTROL ライト ] 以上</p> 
+   <p>[!UICONTROL Review] 以降</p> </td> 
+  </tr> 
+    <tr> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>プロジェクトへの表示以上のアクセス。</p></td> 
   </tr> 
   <tr> 
-   <td>製品* </td> 
-   <td> <ul><li><p>新しいWorkfrontプランの場合：</p><p> Adobe Workfront</li></p>
-   <li><p>現在のWorkfront プランの場合： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront シナリオプランナー</p></li></ul>
-
-<p>詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> ールの使用に必要なアクセス権」を参照してください。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>アクセスレベル </td> 
-   <td> <p>プロジェクトへの表示以上のアクセス。</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>オブジェクト権限 </p> </td> 
-   <td> <p> プロジェクトに対する表示以上の権限。</p> </td> 
+   <td> <p> プロジェクトに対する表示以上の権限。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+シナリオプランナーへのアクセスについて詳しくは、[ の使用に必要なアクセス  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を参照してください。
+
+Workfrontのアクセス要件について詳しくは、[Workfrontのドキュメントへのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>View or higher access to Projects.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p> View or higher permission to a project.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## タスクリストのプロジェクトおよびイニシアチブに対する役割の割り当てを表示
 
 会社が [!DNL Workfront Scenario Planner] ライセンスを購入している場合、プロジェクトの[!UICONTROL タスク]セクションでイニシアチブおよびイニシアチブにリンクされているプロジェクトとの間のリソース割り当てを調整できます。
 
-1. （条件付き）プロジェクトは、この記事の [&#x200B; タスクリストにプロジェクトとイニシアチブの役割の割り当てを表示 &#x200B;](#show-role-allocation-for-projects-and-initiatives-in-the-task-list) で説明されている方法の 1 つを使用して、イニシアチブに接続する必要があります。
+1. （条件付き）プロジェクトは、この記事の [ タスクリストにプロジェクトとイニシアチブの役割の割り当てを表示 ](#show-role-allocation-for-projects-and-initiatives-in-the-task-list) で説明されている方法の 1 つを使用して、イニシアチブに接続する必要があります。
 
    >[!IMPORTANT]
    >
@@ -79,7 +111,7 @@ ht-degree: 82%
 
 1. プロジェクトおよび関連するイニシアチブの担当業務の割り当てを確認するプロジェクトに移動します。
 1. 左側のパネルの「**[!UICONTROL タスク]**」をクリックします。
-1. ツールバーの右上隅にある **[!UICONTROL 役割の割り当てを表示]** アイコン ![&#x200B; 役割の割り当てを表示 &#x200B;](assets/show-role-allocation-icon.png) をクリックします。
+1. ツールバーの右上隅にある **[!UICONTROL 役割の割り当てを表示]** アイコン ![ 役割の割り当てを表示 ](assets/show-role-allocation-icon.png) をクリックします。
 
    [!UICONTROL 役割の割り当て]パネルが表示されます。
 
@@ -141,7 +173,7 @@ ht-degree: 82%
      >
      >タスクとイシューを編集するには、追加のアクセス権と権限が必要です。
 
-   * イニシアチブの割り当て超過を示す役割に必要な時間数を増やします。詳しくは、[&#x200B; [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
+   * イニシアチブの割り当て超過を示す役割に必要な時間数を増やします。詳しくは、[ [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
 
      >[!NOTE]
      >

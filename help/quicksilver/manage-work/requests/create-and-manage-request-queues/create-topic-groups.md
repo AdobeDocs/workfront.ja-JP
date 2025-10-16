@@ -3,15 +3,15 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: トピックグループを作成
 description: トピックグループはリクエストキューに関連付けられています。リクエストの性質に応じて、リクエストキューを複数のカテゴリにレイヤー化できます。
-author: Alina
+author: Becky
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 0da05d048d0dab1c2f06870e589c1349c48ccc58
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 82%
+source-wordcount: '463'
+ht-degree: 80%
 
 ---
 
@@ -25,22 +25,19 @@ ht-degree: 82%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront プラン</p> </td> 
    <td>   
-      <p>新規：標準</p>
-      <p>または</p> 
-      <p>現在：プラン</p>
+      <p>標準</p>
+      <p>プラン</p>
  </td> 
   </tr> 
   <tr> 
@@ -54,7 +51,7 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

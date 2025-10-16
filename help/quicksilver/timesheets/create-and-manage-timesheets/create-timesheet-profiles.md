@@ -6,9 +6,9 @@ description: 追加の介入なしに、ユーザーに対して定期タイム�
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
+source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1584'
 ht-degree: 68%
 
 ---
@@ -29,29 +29,28 @@ ht-degree: 68%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意</p> </td> 
-  </tr> 
-   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準 </p>
- <p>または</p> 
-<p>現在：プラン </p> 
-</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>タイムシートに対する管理アクセス権が必要です。 </p> </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td>
+   <p>標準</p>
+   <p>プラン</p></td>
+  </tr> 
+  <tr> 
+   <td>アクセスレベル設定</td> 
+   <td><p>タイムシートへの管理アクセス</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -165,11 +164,11 @@ ht-degree: 68%
 
 1. 「**保存**」をクリックします。
 
-1. タイムシートプロファイルリストの上部で、「**その他**」アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、「**タイムシートを生成**」をクリックします。
+1. タイムシートプロファイルリストの上部で、「**その他**」アイコン ![ その他アイコン ](assets/more-icon.png) をクリックし、「**タイムシートを生成**」をクリックします。
 
    タイムシートが正常に生成されたことを示す確認が画面の下部に表示されます。 作成した新規プロファイルに基づいて、新しいタイムシートが生成されます。
 
-   詳しくは、「[&#x200B; タイムシートを手動で生成する &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)」を参照してください。
+   詳しくは、「[ タイムシートを手動で生成する ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)」を参照してください。
 
    タイムシートプロファイルで初めてタイムシートが生成されると、現在の時間を含む期間と次の期間の両方について、ユーザーごとに 2 つのタイムシートが作成されます。
 

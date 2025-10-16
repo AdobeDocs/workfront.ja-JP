@@ -6,10 +6,10 @@ description: 既存のプログラムをポートフォリオに追加できま�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 55%
+source-wordcount: '245'
+ht-degree: 49%
 
 ---
 
@@ -27,23 +27,21 @@ ht-degree: 55%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>新規：[!UICONTROL Standard] </p><p>または </p><p>現在：[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>ポートフォリオとプログラムに対する[!UICONTROL Edit]アクセス権 </p> </td> 
+   <td> <p>[!UICONTROL 編集 ] [!UICONTROL ポートフォリオ ] および [!UICONTROL プログラム ] へのアクセス </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -52,9 +50,34 @@ ht-degree: 55%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p><p>Or </p><p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio and the program</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## ポートフォリオに既存プログラムの追加
 
@@ -64,7 +87,7 @@ ht-degree: 55%
 
    **プログラムの追加** ボックスが開きます。<!--check screen shot - I logged changes for this casing-->
 
-   ![&#x200B; プログラムボックスを追加 &#x200B;](assets/add-programs-box.png)
+   ![ プログラムボックスを追加 ](assets/add-programs-box.png)
 
    >[!IMPORTANT]
    >
@@ -74,7 +97,7 @@ ht-degree: 55%
 
    複数のプログラムを追加できます。
 
-1. （オプション）プログラムをポートフォリオに追加しない場合は、プログラム名の横にある **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+1. （オプション）プログラムをポートフォリオに追加しない場合は、プログラム名の横にある **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
 
 1. **[!UICONTROL プログラムの追加]** をクリックします。<!--check this button in the UI after they implemented the changes??-->
 

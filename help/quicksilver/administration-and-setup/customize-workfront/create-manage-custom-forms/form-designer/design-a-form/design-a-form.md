@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '6606'
+source-wordcount: '6583'
 ht-degree: 51%
 
 ---
@@ -31,31 +31,27 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
-   <td>任意</td> 
+  <tr> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定</td> 
+  <tr> 
+   <td>アクセスレベル設定</td> 
    <td> <p>カスタムフォームへの管理アクセス権</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -68,10 +64,10 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 1. 「**新規カスタムフォーム**」をクリックします。
 1. カスタムフォームを添付するオブジェクトタイプを選択し、「**続行**」をクリックします。
 
-   ![&#x200B; オブジェクトタイプを選択 &#x200B;](assets/choose-object-type.jpg)
+   ![ オブジェクトタイプを選択 ](assets/choose-object-type.jpg)
 
 1. **フォーム名を追加** 領域に、カスタムフォームのタイトルを入力します。
-1. （オプション）フォームにオブジェクトタイプを追加して、より多くのオブジェクトに添付できるようにする場合は、**オブジェクトタイプ** の横にある ![&#x200B; 追加 &#x200B;](assets/add-objects-icon.png) アイコン **オブジェクトを追加アイコン** をクリックし、表示されるメニューで必要なタイプを選択します。 この操作を繰り返して、必要な数のオブジェクトタイプを追加できます。
+1. （オプション）フォームにオブジェクトタイプを追加して、より多くのオブジェクトに添付できるようにする場合は、**オブジェクトタイプ** の横にある ![ 追加 ](assets/add-objects-icon.png) アイコン **オブジェクトを追加アイコン** をクリックし、表示されるメニューで必要なタイプを選択します。 この操作を繰り返して、必要な数のオブジェクトタイプを追加できます。
 
    フォームに複数のオブジェクトを追加したら、オブジェクトタイプの「X」をクリックしてフォームから削除できます。
 
@@ -79,7 +75,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
    >
    >カスタムフォームを削除すると、フォームに関連付けられたオブジェクト上のすべてのカスタムデータも削除されます。削除されたデータは復元できません。 または、使用しなくなったカスタムフォームをディアクティベートして、関連する履歴データをすべて保持することもできます。
    >
-   >詳しくは、[&#x200B; 既存のカスタムフォームに対するオブジェクトタイプの追加または削除 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) および [&#x200B; カスタムフォームのディアクティベートまたは再アクティベート &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md) を参照してください。
+   >詳しくは、[ 既存のカスタムフォームに対するオブジェクトタイプの追加または削除 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) および [ カスタムフォームのディアクティベートまたは再アクティベート ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md) を参照してください。
 
 
 1. 次に、カスタムフォームへのフィールドの追加を開始できます。詳しくは、次の節を参照してください。
@@ -135,7 +131,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 >[!NOTE]
 >
 >これは可能ですが、自分や他のユーザーがWorkfrontでカスタムフォームを使用し始めた後は、この名前を変更しないことをお勧めします。 変更してしまうと、Workfront の他の領域で参照される可能性のあるカスタムフィールドが認識されなくなります。
->&#x200B;>例えば、カスタムフィールドをレポートに追加し、後で名前を変更した場合、Workfront はレポート内のフィールドを認識せず、新しい名前でレポートに再追加しない限り、正しく機能しなくなります。
+>>例えば、カスタムフィールドをレポートに追加し、後で名前を変更した場合、Workfront はレポート内のフィールドを認識せず、新しい名前でレポートに再追加しない限り、正しく機能しなくなります。
 >
 >組み込みのWorkfront フィールドに既に使用されている名前は入力しないことをお勧めします。
 >
@@ -151,7 +147,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 * `]`
 * （
 * ）
-* :
+* ：
 * `{`
 * `}`
 
@@ -186,7 +182,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
    * 書式付きテキスト
    * 説明テキスト
 
-   ![&#x200B; フィールドをセクションにドラッグ &#x200B;](assets/drag-field-to-section.png)
+   ![ フィールドをセクションにドラッグ ](assets/drag-field-to-section.png)
 
 1. 画面の右側で、追加するカスタムフィールドのタイプに使用できるオプションを設定します。
 
@@ -323,7 +319,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
    * 単一選択ドロップダウン
    * 複数選択ドロップダウン
 
-   ![&#x200B; キャンバスにフィールドをドラッグします &#x200B;](assets/drag-field-to-section.png)
+   ![ キャンバスにフィールドをドラッグします ](assets/drag-field-to-section.png)
 
 1. 画面の右側で、追加するカスタムフィールドのタイプに使用できるオプションを設定します。
 
@@ -435,7 +431,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 
    フィールドをコピーするには、フィールドの上にポインタを合わせて、コピーアイコンをクリックします。
 
-   ![&#x200B; コピーアイコン &#x200B;](assets/copy-field.png)
+   ![ コピーアイコン ](assets/copy-field.png)
 
 1. 変更を保存するには「**適用**」をクリックし、別のセクションに移動してフォームの作成を続行します。
 
@@ -470,7 +466,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
    * 先行入力
    * 日付
 
-   ![&#x200B; フィールドをセクションにドラッグ &#x200B;](assets/drag-field-to-section.png)
+   ![ フィールドをセクションにドラッグ ](assets/drag-field-to-section.png)
 
 1. 画面の右側で、追加するカスタムフィールドのタイプに使用できるオプションを設定します。
 
@@ -576,7 +572,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 
 外部参照フィールドは、外部 API を呼び出し、ドロップダウンフィールドのオプションとして値を返します。 カスタムフォームが添付されたオブジェクトを操作するユーザーは、外部参照フィールドが単一選択フィールドか複数選択フィールドかに応じて、ドロップダウンからこれらのオプションを 1 つ以上選択できます。 外部検索フィールドは、リストおよびレポートでも使用できます。
 
-外部検索フィールドを使用して同じWorkfront インスタンスまたはパブリック API を呼び出す例については、[&#x200B; カスタムフォームでの外部検索フィールドの例 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md) を参照してください。
+外部検索フィールドを使用して同じWorkfront インスタンスまたはパブリック API を呼び出す例については、[ カスタムフォームでの外部検索フィールドの例 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md) を参照してください。
 
 >[!NOTE]
 >
@@ -634,12 +630,12 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
       <td role="rowheader">JSON パス</td>
       <td><p>API の JSON パスを入力するか貼り付けます。</p> <p>このオプションを使用すると、API URL から返された JSON からデータを抽出できます。これは、JSON 内の値のうち、ドロップダウンオプションに表示する値を選択する手段として機能します。</p><p>例えば、API URL が次の形式で JSON を返す場合、「$.data[*].name」を使用して、ドロップダウンオプションとして「USA」と「Canada」を選択できます。</br>
       <pre>
-      &lbrace;
- data: &lbrace;
+      {
+ data: {
  { name: "USA"},
  { name: "Canada"}
- &rbrace;
- &rbrace;
+ }
+ }
       </pre>
       </p>
      <p>JSON パスと、正しい JSON パスを記述する方法について詳しくは、<a href="https://jsonpath.com/">https://jsonpath.com/</a> を参照してください。</p></td>
@@ -706,7 +702,7 @@ The Workfront Mobile app -->
    * PDF
    * ビデオ
 
-   ![&#x200B; フィールドをセクションにドラッグ &#x200B;](assets/drag-field-to-section.png)
+   ![ フィールドをセクションにドラッグ ](assets/drag-field-to-section.png)
 
 1. ウィジェットの次のいずれかのプロパティを入力または編集します。
 
@@ -957,9 +953,9 @@ Adobe XD ファイルを追加するには、以下のように行います。
 >* Workfront Planning 用の追加パッケージです。
 >* 組織のWorkfront インスタンスは、Adobe Unified Experience にオンボーディングされる必要があります。
 >
-> Workfront Planning へのアクセス要件の完全な一覧については、[Adobe Workfront Planning アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+> Workfront Planning へのアクセス要件の完全な一覧については、[Adobe Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 > 
->Workfront計画の詳細については、[Adobe Workfront計画の概要 &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Workfront計画の詳細については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 Workfront Planning から接続されたレコードは、Planning 接続のカスタムフィールドをオブジェクトのカスタムフォームに追加することで、Workfrontオブジェクトのカスタムフィールドで表示できます。
 
@@ -1046,11 +1042,11 @@ Planning 接続フィールドを追加する手順は、次のとおりです�
    * Workfrontオブジェクトに接続されたWorkfront Planning レコードタイプがある場合は、それを表示します。
    * Workfront オブジェクトからレコードを接続または切断します。
 
-   詳しくは、[Workfront オブジェクトからのレコード接続の管理 &#x200B;](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください
+   詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください
 
 ## フォーム designer を使用したフォームの整理とプレビュー
 
-セクション区切りを使用してカスタムフォームを整理する方法、およびフォームのプレビューを表示する方法について詳しくは、[&#x200B; フォームデザイナーでのフォームの整理とプレビュー &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
+セクション区切りを使用してカスタムフォームを整理する方法、およびフォームのプレビューを表示する方法について詳しくは、[ フォームデザイナーでのフォームの整理とプレビュー ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
 
 
 

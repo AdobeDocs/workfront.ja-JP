@@ -6,10 +6,10 @@ description: Adobe Workfront で作成または共有したカレンダーレポ
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 72%
+source-wordcount: '576'
+ht-degree: 71%
 
 ---
 
@@ -21,8 +21,6 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,22 +28,21 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：コントリビューター</p>
-       <p>または</p>
-       <p>現在：リクエスト</p></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>コントリビューター</p>
+       <p>リクエスト</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL ビュー &#x200B;] 以上の [!UICONTROL レポート &#x200B;]、[!UICONTROL ダッシュボード &#x200B;]、および [!UICONTROL カレンダー &#x200B;] へのアクセス</p></td> 
+   <td> <p>報告書、ダッシュボード、およびカレンダーへの表示以上のアクセス</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>カレンダーレポートに対する[!UICONTROL View]以上の権限</td> 
+   <td>カレンダーレポートに対する表示以上の権限</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,8 +71,8 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
 
      カレンダーの共有については、[[!UICONTROL カレンダーの共有]レポート](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)を参照してください。
 
-1. （条件付き）**[!UICONTROL 表示]**&#x200B;ドロップダウンリストをクリックして、表示するカレンダー期間を選択します。
-   ![&#x200B; カレンダー期間 &#x200B;](assets/view-menu-calendar-report-350x189.png)
+1. （条件付き）**[!UICONTROL 表示]**ドロップダウンリストをクリックして、表示するカレンダー期間を選択します。
+   ![ カレンダー期間 ](assets/view-menu-calendar-report-350x189.png)
 次のカレンダーレポートビューから選択できます。
 
    * **[!UICONTROL 月]**：4 週間のカレンダーを表示します
@@ -104,8 +101,8 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
       1. （任意）現在の日付に戻るには、[[!UICONTROL **今日**]] をクリックします。
 
 1. （オプション）カレンダーにリンクされたプロジェクトまたはカレンダーのグループ化のイベントを非表示にするには、プロジェクトリストのプロジェクトまたはカレンダーのグループ化をオフにします。
-   ![&#x200B; イベントを非表示 &#x200B;](assets/hide-events-for-project-or-cal-grouping.png)
-プロジェクトリストで [!UICONTROL &#x200B; プロジェクト &#x200B;] またはカレンダーのグループ化を選択すると、イベントを再び表示できます。
+   ![ イベントを非表示 ](assets/hide-events-for-project-or-cal-grouping.png)
+プロジェクトリストで [!UICONTROL  プロジェクト ] またはカレンダーのグループ化を選択すると、イベントを再び表示できます。
 
 ## カレンダーレポートイベントの詳細を表示
 

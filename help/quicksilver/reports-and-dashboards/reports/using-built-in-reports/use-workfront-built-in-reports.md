@@ -1,53 +1,45 @@
 ---
 product-area: reporting
 navigation-topic: using-built-in-reports
-title: Adobe Workfront の組み込みレポートを使用する
-description: Adobe Workfrontには、すぐに使用できるビルトインレポートの広範なリストが用意されています。 Workfront 管理者は、組み込みのレポートを非表示にして、ユーザーがアクセスできないようにすることができます。
+title: Adobe Workfront のビルトインのレポートを使用する
+description: Adobe Workfrontには、すぐに使用できるビルトインレポートの広範なリストが用意されています。 Workfront 管理者は、ビルトインのレポートを非表示にして、ユーザーがアクセスできないようにすることができます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2978'
 ht-degree: 56%
 
 ---
 
-# Adobe Workfront の組み込みレポートを使用する
+# Adobe Workfront のビルトインのレポートを使用する
 
 <!--Audited: 11/2024-->
 
-Adobe Workfront には、ユーザーが使用できる組み込みレポートの大量のリストが用意されています。
+Adobe Workfront には、ユーザーが使用できるビルトインのレポートの豊富なリストが用意されています。
 
-Workfront管理者は、ビルトインレポートを非表示にして、ユーザーがアクセスできないようにすることができます。 組み込みレポートを非表示にする方法について詳しくは、[組み込みレポートを非表示にする](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)を参照してください。
+Workfront管理者は、ビルトインレポートを非表示にして、ユーザーがアクセスできないようにすることができます。 ビルトインのレポートを非表示にする方法について詳しくは、[ビルトインのレポートを非表示にする](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>投稿者以上</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>リクエスト以上</p></li>
-         </ul>
+      <p>投稿者以上</p>
+      <p>リクエスト以上</p>
    </td>
-  </tr> 
+  </tr>
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>報告書、ダッシュボード、カレンダーへの表示以上のアクセス</p> </td> 
@@ -59,15 +51,15 @@ Workfront管理者は、ビルトインレポートを非表示にして、ユ�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
-## 組み込みレポートの概要 {#overview-of-built-in-reports}
+## ビルトインのレポートの概要 {#overview-of-built-in-reports}
 
-組み込みレポートのコピーを作成して、新しいレポートとして保存できます。 組み込みレポートのコピーを作成する方法の詳細については、「[&#x200B; レポートのコピーを作成する &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)」の [&#x200B; 新しいバージョンのレポートを作成する &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) を参照してください。
+組み込みレポートのコピーを作成して、新しいレポートとして保存できます。 組み込みレポートのコピーを作成する方法の詳細については、「[ レポートのコピーを作成する ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)」の [ 新しいバージョンのレポートを作成する ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) を参照してください。
 
-Workfront パッケージには、次のレポートが付属しています。これらのレポートは、最低でもアクセスレベルで組み込みレポートの表示権限を持つすべてのユーザーが利用可能です。
+Workfront パッケージには、次のレポートが付属しています。これらのレポートは、最低でもアクセスレベルでビルトインのレポートの表示権限を持つすべてのユーザーが利用可能です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,7 +117,7 @@ Workfront パッケージには、次のレポートが付属しています。�
   </tr> 
   <tr> 
    <td>請求収益（月別）</td> 
-   <td>請求記録のプロジェクト名、プロジェクト請求収益、および請求日を表示する請求記録報告書。 このレポートは、請求レコードの請求日の月ごとにグループ化され、グラフが含まれます。</td> 
+   <td>請求記録のプロジェクト名、プロジェクト請求収益、および請求日を表示する請求記録報告書。 このレポートは、請求記録の請求日の月ごとにグループ化され、グラフが含まれます。</td> 
   </tr> 
   <tr> 
    <td>完了したイシュー（週別）</td> 
@@ -381,8 +373,8 @@ Workfront パッケージには、次のレポートが付属しています。�
 1. 「**レポート**」オブジェクトの下で、「**グローバル ID**」を選択します。
 
 1. フィルター修飾子のドロップダウンメニューで、「**空白でない**」を選択します。\
-   ![&#x200B; システムレポートのグローバル ID フィルター &#x200B;](assets/qs-global-id-filter-for-system-reports-350x179.png)
+   ![ システムレポートのグローバル ID フィルター ](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. 「**フィルターを保存**」をクリックします。\
    レポートリストには、ビルトインレポートのみが表示されます。\
-   使用可能なビルトインレポートの詳細については、この記事の「[&#x200B; ビルトインレポートの概要 &#x200B;](#overview-of-built-in-reports) を参照してください。
+   使用可能なビルトインレポートの詳細については、この記事の「[ ビルトインレポートの概要 ](#overview-of-built-in-reports) を参照してください。

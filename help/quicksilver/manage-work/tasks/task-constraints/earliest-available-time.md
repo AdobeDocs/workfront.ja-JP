@@ -2,15 +2,15 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 「タスクの制約の概要：最も早い空き時間」
+title: タスク制約の概要：最早使用可能時間
 description: 最も早い空き時間は、先行タスク関係を考慮した後で、最も早い空き時間にタスクを開始するようにスケジュール設定するタスクの制約です。
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -80,4 +80,4 @@ ht-degree: 100%
 
   タスク A がタスク B の先行タスクであるとします。タスク B には「できるだけ早く」の制約が適用され、タスク A には「できるだけ遅く」の制約が適用されます。この場合、タスク B はプロジェクトの開始にできるだけ近いタイミングでスケジュールされます。
 
-  ![タスクの日付がプロジェクトの完了日に近い場合の「できるだけ早く」の制約](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
+  ![タスクの日付がプロジェクトの開始日に近い場合の「できるだけ早く」の制約](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)

@@ -6,10 +6,10 @@ description: バーンダウンチャートは、プロジェクトまたはイ�
 author: Lisa
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 86%
+source-wordcount: '184'
+ht-degree: 87%
 
 ---
 
@@ -21,8 +21,6 @@ ht-degree: 86%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,13 @@ ht-degree: 86%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL ライト &#x200B;] 以上</p> 
-   または
-   <p>現在：[!UICONTROL Review] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>ライト以上</p> 
+   <p>レビュー以上</p> </td> 
   </tr>
  </tbody> 
 </table>

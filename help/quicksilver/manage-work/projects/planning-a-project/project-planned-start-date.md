@@ -2,16 +2,16 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: プロジェクトの予定開始日の概要
-description: プロジェクトの予定開始日の概要
+title: プロジェクト予定開始日の概要
+description: プロジェクトの予定開始日と予定完了日は、プロジェクトのタスクの日付に依存します。この記事では、プロジェクトの予定開始日について説明します。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 100%
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 

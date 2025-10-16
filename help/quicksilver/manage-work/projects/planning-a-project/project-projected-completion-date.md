@@ -7,10 +7,10 @@ description: 見込み完了日は、プロジェクト、タスクまたはイ�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 70%
+source-wordcount: '860'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 70%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 
 <table style="table-layout:auto"> 
@@ -32,23 +32,21 @@ ht-degree: 70%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>新規： 
    <ul><li><p>レポートに見込み完了日を表示するためのコントリビューター以上の権限</p></li> <li><p>レポートを作成するための標準ライセンス</p></li> </ul>
-
-<p>現在： 
+   または
    <ul><li><p>レポートに見込み完了日を表示するためのレビュー権限またはそれ以上の権限</p></li> 
    <li><p>レポートを作成するためのプランライセンス版</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
-   <td> <p>プロジェクトに対する表示以上のアクセス権</p> <p>レポートを作成するには、レポート、ダッシュボード、カレンダーへの編集アクセス権が必要です</p> <p>レポートを作成またはリスト表示を変更するには、フィルター、表示、グループ化に対する編集アクセスが必要です</p>  </td> 
+   <td> <p>プロジェクトに対する表示以上のアクセス権</p> <p>報告書、ダッシュボード、カレンダーへのアクセスを編集して報告書を作成</p> <p>フィルター、ビュー、グループ化へのアクセスを編集して、レポートを作成したり、リスト表示を変更したりします</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -57,7 +55,7 @@ ht-degree: 70%
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -76,7 +74,7 @@ ht-degree: 70%
    * **タスク担当者によってタスクに対して行われた進捗の更新：** 進捗の更新には、完了率への変更、タスクのステータスの変更が含まれます。
    * **コミット日：**&#x200B;タスクの担当者がコミット日を指定した場合、「見込み完了日」は「コミット日」に合わせて変更されます。
 
-     コミット日について詳しくは、「コミット日の概要 [&#x200B; の記事を参照してください &#x200B;](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
+     コミット日について詳しくは、「コミット日の概要 [ の記事を参照してください ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
    * **先行タスク：** 先行タスクに遅延がない場合、見込み完了日は予定完了日と一致する必要があります。 遅延が発生した場合、依存タスクには、「予定完了日」よりも大きい日付の「見込み完了日」が表示されます。
 

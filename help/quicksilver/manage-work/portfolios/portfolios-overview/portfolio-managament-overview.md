@@ -6,9 +6,9 @@ description: ポートフォリオまたはプロジェクトポートフォリ�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '648'
 ht-degree: 86%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 86%
 
 Portfolioまたはプロジェクト Portfolio マネジメント（PPM）は、特定のビジネス目標を達成するために、プロジェクトのリストを優先順位付けして管理するプロセスです。
 
-この記事では、ポートフォリオ管理の一般的な概念について説明します。 Adobe Workfrontでのポートフォリオの管理に関する一般的な情報については、[Adobe WorkfrontでのPortfolioの概要 &#x200B;](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md) を参照してください。
+この記事では、ポートフォリオ管理の一般的な概念について説明します。 Adobe Workfrontでのポートフォリオの管理について詳しくは、「ポートフォリオ手法について [ を参照してください ](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
 ポートフォリオは、共通のビジネス目標を持つプロジェクトのコレクションです。 効果的な PPM 手法の結果、経営陣は次のことが可能になります。
 
@@ -44,7 +44,7 @@ Portfolioまたはプロジェクト Portfolio マネジメント（PPM）は、
 
 次の図は、[!DNL Workfront] の PPM プロセスの概要を示しています。
 
-![&#x200B; プロジェクトポートフォリオ管理プロセス &#x200B;](assets/project-portfolio-management-process-diagram.png)
+![ プロジェクトポートフォリオ管理プロセス ](assets/project-portfolio-management-process-diagram.png)
 
 * [プロジェクト要求](#project-request)
 * [プロジェクトのレビュー](#project-review)
@@ -63,7 +63,7 @@ Portfolioまたはプロジェクト Portfolio マネジメント（PPM）は、
 
 プロジェクト要求を送信すると、ポートフォリオマネージャーまたはエグゼクティブチームがそのリクエストをレビューし、プロジェクトを承認するかどうかを決定します。プロジェクトが承認されると、そのプロジェクトは会社のプロジェクトポートフォリオに選択されます。
 
-ポートフォリオについて詳しくは、[&#x200B; のPortfolioの概要  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md) を参照してください。 ビジネスケースの承認について詳しくは、[&#x200B; ビジネスケースの承認 &#x200B;](../../../manage-work/projects/define-a-business-case/approve-business-case.md) を参照してください。
+ポートフォリオについて詳しくは、[ ポートフォリオ手法について ](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md) を参照してください。 ビジネスケースの承認について詳しくは、[ ビジネスケースの承認 ](../../../manage-work/projects/define-a-business-case/approve-business-case.md) を参照してください。
 
 ### ポートフォリオの最適化 {#portfolio-optimization}
 

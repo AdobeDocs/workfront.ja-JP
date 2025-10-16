@@ -6,10 +6,10 @@ description: Experience Manager Assets Essentials からアセットをリンク
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 82%
+source-wordcount: '441'
+ht-degree: 78%
 
 ---
 
@@ -23,36 +23,32 @@ Experience Manager Assets Essentials からアセットをリンクしたら、�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td> 
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：ワーク以上</p>
-   <p>ユーザー向けのプルーフを有効にしておく必要があります。</p>
+   <p>標準</p>
+   <p>ワークまたはそれ以上</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">製品</td> 
+   <td role="rowheader">追加製品</td> 
    <td>Experience Manager as a Cloud Service または Assets Essentials を使用するには、Admin Console に製品にユーザーとして追加されている必要があります。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>表示アクセス権またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>表示アクセス権またはそれ以上の権限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,7 +105,7 @@ Experience Manager Assets Essentials からアセットをリンクしたら、�
 * レビュアーと締め切りをアップデート
 * ワークフローを編集
 
-既存のプルーフの管理方法について詳しくは、[Adobe Workfront内でプルーフを管理する：記事インデックス &#x200B;](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) を参照してください。
+既存のプルーフの管理方法について詳しくは、[Adobe Workfront内でプルーフを管理する：記事インデックス ](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) を参照してください。
 
 ## プルーフのレビュー
 
@@ -120,4 +116,4 @@ Experience Manager Assets Essentials からアセットをリンクしたら、�
 * バージョンの比較
 * プルーフの承認または却下
 
-プルーフツールでできることについて詳しくは、[Adobe Workfront内でプルーフを確認する：記事のインデックス &#x200B;](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) を参照してください。
+プルーフツールでできることについて詳しくは、[Adobe Workfront内でプルーフを確認する：記事のインデックス ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) を参照してください。

@@ -7,10 +7,10 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 3d12c144552474439b247739b47de9454a2233f2
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 92%
+source-wordcount: '1822'
+ht-degree: 91%
 
 ---
 
@@ -40,32 +40,32 @@ ht-degree: 92%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>ワークまたはそれ以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>標準</p>
+   <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>プロジェクト、タスク、イシューまたはテンプレートへのアクセス権以上の編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>プロジェクト、タスク、イシューまたはテンプレートへのアクセス権以上の編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクト、タスク、イシューまたはテンプレートに対する権限を管理する</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクト、タスク、イシューまたはテンプレートに対する権限を管理する</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -123,19 +123,19 @@ Workfront 管理者がシステム内のすべてのグループに対してグ�
 1. 承認プロセスを関連付ける作業アイテムに移動します。
 1. 左パネルの「**承認**」をクリックします。
 
-   ![&#x200B; タスクの承認セクション &#x200B;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![ タスクの承認セクション ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
-1. ![&#x200B; 既存の承認を使用または単一使用の承認を作成 &#x200B;](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
+1. ![ 既存の承認を使用または単一使用の承認を作成 ](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    選択した承認プロセスが表示されます。
 
 1. **既存のものを使用**&#x200B;ドロップダウンメニューを展開して、既存の承認プロセスを選択します。
 
-   ![&#x200B; 承認メニュー &#x200B;](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![ 承認メニュー ](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
    選択した承認プロセスが表示されます。
 
-   ![&#x200B; タスクに既存の承認が添付されています &#x200B;](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
+   ![ タスクに既存の承認が添付されています ](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. 「**保存**」をクリックします。
 1. （オプション）項目に添付した既存の承認を変更する場合は、「承認プロセスを編集」をクリックします。これにより、グローバル承認プロセスが単一使用承認プロセスに変更されます。詳しくは、この記事の[特定のオブジェクトで使用するグローバル承認プロセスの変更](#modify-a-global-approval-process-for-use-on-a-specific-object)の節を参照してください。
@@ -168,7 +168,7 @@ Workfront 管理者がシステム内のすべてのグループに対してグ�
    >
    >承認を追加する際は、必ず「**保存**」をクリックします。
 
-1. グローバル承認プロセスを追加したら、承認ページの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。 このアクションにより、グローバルまたはグループレベルの承認プロセスが、単一使用承認プロセスに変わります。
+1. グローバル承認プロセスを追加したら、承認ページの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。 このアクションにより、グローバルまたはグループレベルの承認プロセスが、単一使用承認プロセスに変わります。
 1. 既存の承認プロセスに変更を加えます。詳しくは、この記事の[プロジェクト、タスク、イシュー、テンプレートまたはテンプレートタスクへの単一使用承認プロセスの関連付け](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task)の節を参照してください。
 1. グローバル承認プロセスを、このオブジェクトでのみ使用可能な単一使用承認プロセスに変換することを確定するには、「**保存**」をクリックしたあと、再度「**保存**」をクリックします。
 
@@ -191,11 +191,11 @@ Workfront 管理者がシステム内のすべてのグループに対してグ�
 1. 承認プロセスを関連付けるプロジェクト、タスク、イシュー、テンプレートまたはテンプレートタスクに移動します。
 1. 左パネルの「**承認**」をクリックします。
 
-   ![&#x200B; タスクの承認セクション &#x200B;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![ タスクの承認セクション ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. 「**1 回の使用を作成**」をクリックします。
 
-   ![&#x200B; 承認メニュー &#x200B;](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![ 承認メニュー ](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
 1. [作業項目の承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)の記事の「作業項目のシステムレベルまたはグループレベルのグローバル承認プロセスの作成」の手順 6 からの手順を実行します。
 
@@ -228,12 +228,12 @@ Workfront 管理者がシステム内のすべてのグループに対してグ�
 1. 以前に追加した承認プロセスを解除するプロジェクト、タスク、イシュー、テンプレートまたはテンプレートタスクに移動します。
 1. 左パネルの「**承認**」をクリックします。
 
-   ![&#x200B; タスクの承認セクション &#x200B;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![ タスクの承認セクション ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. 項目に関連付けられている承認のタイプに応じて、「承認」セクションの右上隅にある次のアイコンの 1 つをクリックします。
 
-   * グローバルまたはグループレベルの承認用の **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/remove-icon---x-in-circle.png)。
-   * 1 回限りの承認の場合は **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png)
+   * グローバルまたはグループレベルの承認用の **削除** アイコン ![ 削除アイコン ](assets/remove-icon---x-in-circle.png)。
+   * 1 回限りの承認の場合は **削除** アイコン ![ 削除アイコン ](assets/delete.png)
 
 1. **解除**&#x200B;または&#x200B;**削除**&#x200B;アイコンをクリックして確定します。
 

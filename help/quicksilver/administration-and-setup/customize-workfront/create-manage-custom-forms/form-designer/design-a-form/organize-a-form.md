@@ -3,51 +3,47 @@ title: フォームの整理とプレビュー
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: カスタムフォームは、フォームデザイナーを使用して整理できます。
+description: カスタムフォームは、フォーム designer を使用して整理できます。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 82%
+source-wordcount: '1318'
+ht-degree: 81%
 
 ---
 
 # フォームの整理とプレビュー
 
-フォームデザイナーでカスタムフォームを整理し、プレビューして、正しく設定されていることを確認できます。
+フォーム designer でカスタムフォームを整理し、プレビューして、正しく設定されていることを確認できます。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
-   <td>任意</td> 
+  <tr> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定</td> 
+  <tr> 
+   <td>アクセスレベル設定</td> 
    <td> <p>カスタムフォームへの管理アクセス権</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -61,11 +57,11 @@ ht-degree: 82%
 
 オブジェクトに対する権限について詳しくは、[オブジェクトに対する共有権限の概要](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ### カスタムフォームのセクションにアクセス権を作成および設定する
 
-1. [&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集とフィールドの追加を開始します。
+1. [ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集とフィールドの追加を開始します。
 
 1. **セクション区切り** をクリックして、キャンバス上の目的の位置にドラッグします。
 
@@ -116,7 +112,7 @@ ht-degree: 82%
      </tr> 
      <tr> 
       <td role="rowheader"><p>ロジックを追加</p></td> 
-      <td><p>表示ロジックを使用すると、ユーザーがフォームに入力する際に複数選択カスタムフィールドで行った選択に基づいて、セクションをフォームに表示するかどうかを指定できます。</p><p><strong>メモ：</strong>セクション区切りの下にあるすべての個々のフィールドに表示ロジックが適用され、そのロジックの結果としてフィールドがすべて非表示になっている場合、セクション全体がカスタムフォーム上で非表示になります。セクション区切りに表示ロジックが適用されていない場合でも、このようになります。</p><p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">フォームデザイナーを使用した表示ロジックとスキップロジックの追加</a>を参照してください。</p></td> 
+      <td><p>表示ロジックを使用すると、ユーザーがフォームに入力する際に複数選択カスタムフィールドで行った選択に基づいて、セクションをフォームに表示するかどうかを指定できます。</p><p><strong>メモ：</strong>セクション区切りの下にあるすべての個々のフィールドに表示ロジックが適用され、そのロジックの結果としてフィールドがすべて非表示になっている場合、セクション全体がカスタムフォーム上で非表示になります。セクション区切りに表示ロジックが適用されていない場合でも、このようになります。</p><p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">フォーム designer を使用した表示ロジックとスキップロジックの追加</a>を参照してください。</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -147,7 +143,7 @@ ht-degree: 82%
 ## カスタムフォーム内にカスタムフィールドおよびウィジェットを配置する
 
 
-1. [&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集を開始します。
+1. [ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集を開始します。
 
 1. カスタムフィールドとウィジェットを同じ行に配置するには、その間に行が表示されるまで、隣り合わせにドラッグします。
 
@@ -160,7 +156,7 @@ ht-degree: 82%
 
 1. カスタムフィールドをフォーム上の別のセクションに移動するには、カスタムフィールドをドラッグ&amp;ドロップするか、フィールドの **移動先** アイコンをクリックして、移動先のセクションを選択します。
 
-   ![&#x200B; フィールドをセクションに移動 &#x200B;](assets/move-field-to-section.png)
+   ![ フィールドをセクションに移動 ](assets/move-field-to-section.png)
 
 1. 変更を保存するには、「**適用**」をクリックします
 
@@ -170,7 +166,7 @@ ht-degree: 82%
 
 ## カスタムフォームのプレビュー
 
-1. [&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集とフィールドの追加を開始します。
+1. [ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集とフィールドの追加を開始します。
 
 1. 左上隅にある「**プレビュー**」をクリックして、フォームが使用されたときにどのように表示されるかを確認するには、「**プレビューを閉じる**」をクリックして、フォームの編集に戻ります。
 

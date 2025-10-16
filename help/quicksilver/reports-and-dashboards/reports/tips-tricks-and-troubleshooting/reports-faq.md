@@ -7,9 +7,9 @@ description: レポートに関する FAQ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1500'
 ht-degree: 86%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 86%
 
 +++ 展開すると、アクセス要件が表示されます。 
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,13 +35,13 @@ ht-degree: 86%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td><p>新規：標準</p> 
-   <p>現在：ワーク以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p> 
+   <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -56,7 +54,7 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -90,7 +88,7 @@ Workfrontで時間を使用するほとんどのフィールドは分単位で�
 
   `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
-詳しくは、[&#x200B; 実際の時間数を表示 &#x200B;](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md) を参照してください。
+詳しくは、[ 実際の時間数を表示 ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md) を参照してください。
 
 ## レポート内の各グラフ要素の値がグラフに表示されないのはなぜですか？
 
@@ -115,7 +113,7 @@ Workfrontで時間を使用するほとんどのフィールドは分単位で�
 ### 回答
 
 レポートまたはカレンダーには、ログインしたユーザーを指すワイルドカードフィルター変数が含まれている場合があります。この場合、レポートには、ログインしたユーザーに基づく情報が表示されます。フィルターを調整して、ログインしたユーザーを指すワイルドカードを削除します。\
-![&#x200B; ユーザー ID フィルター変数 &#x200B;](assets/qs--user.id-filter-variable-350x79.png)
+![ ユーザー ID フィルター変数 ](assets/qs--user.id-filter-variable-350x79.png)
 
 ユーザーベースのワイルドカードフィルター変数の完全なリストについて詳しくは、[ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。
 
@@ -147,7 +145,7 @@ Workfrontで時間を使用するほとんどのフィールドは分単位で�
 1. **が次に等しい**&#x200B;修飾子を選択します。
 1. テキストボックスに *$$USER.ID* と入力していき、表示されるドロップダウンリストから選択します。\
    これにより、ログインしたユーザーに割り当てられているすべてのタスクとイシューを確認できます。ワイルドカードを特定のユーザー名に置き換えることができます。\
-   ![&#x200B; 自分に割り当てられたタスク &#x200B;](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![ 自分に割り当てられたタスク ](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. 「**保存して閉じる**」をクリックします。
 
@@ -168,7 +166,7 @@ Workfrontで時間を使用するほとんどのフィールドは分単位で�
 * プロジェクトのデフォルト通貨以外の通貨が選択されている&#x200B;**ビュー**&#x200B;がこれらのリストに適用されている場合、リンクは表示されません。**ビュー**&#x200B;を&#x200B;**プロジェクトの元の通貨**&#x200B;に変更すると、リンクが表示されて、プロジェクトにイシューやタスクを追加できるようになります。\
   ビューでの通貨の変更について詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
 
-![&#x200B; プロジェクト通貨 &#x200B;](assets/nwe-project-original-currency-350x229.png)
+![ プロジェクト通貨 ](assets/nwe-project-original-currency-350x229.png)
 
 ## レポートやダッシュボードの情報は自動的に更新されますか？
 

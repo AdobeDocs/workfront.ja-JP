@@ -1,21 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
-title: ポートフォリオへのプロジェクトの追加
+title: Portfolioへのプロジェクトの追加
 description: プロジェクトの開始時に、プロジェクトをポートフォリオに追加することをお勧めします。ただし、プロジェクトの全期間中いつでもポートフォリオに追加できます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 70%
+source-wordcount: '416'
+ht-degree: 68%
 
 ---
 
 # ポートフォリオへのプロジェクトの追加
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -30,25 +30,25 @@ ht-degree: 70%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>任意</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td><p>新規：標準</p> 
-   <p>現在：[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>標準</p> 
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル</td> 
-   <td> <p>[!UICONTROL 編集 &#x200B;] ポートフォリオへのアクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>[!UICONTROL 編集 ] ポートフォリオへのアクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -57,21 +57,48 @@ ht-degree: 70%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: Standard</p> 
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access Portfolios</p> <p>[!UICONTROL Edit] access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## ポートフォリオへのプロジェクトの追加
 
 1. ポートフォリオに移動し、左側のパネルで「**[!UICONTROL プロジェクト]**」をクリックします。
 
-   ![&#x200B; プロジェクトのPortfolio](assets/qs-portfolio-with-projects-350x90.png)
+   ![ プロジェクトのPortfolio](assets/qs-portfolio-with-projects-350x90.png)
 
 1. 「**[!UICONTROL 新規プロジェクト]**」をクリックして、プロジェクトを追加する方法を選択します。
 
    >[!TIP]
    >
-   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
+   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -102,11 +129,11 @@ ht-degree: 70%
     </tbody> 
    </table>
 
-   ![&#x200B; 新規プロジェクトドロップダウン &#x200B;](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![ 新規プロジェクトドロップダウン ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. （条件付き）既存のプロジェクトを追加することを選択した場合は、「**プロジェクトの追加** ボックスが開きます。<!--check this after UI changes-->
 
-   ![&#x200B; 既存のプロジェクトを追加 &#x200B;](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
+   ![ 既存のプロジェクトを追加 ](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
 1. 「**[!UICONTROL このPortfolioにプロジェクトを追加]**」フィールドにプロジェクトの名前を入力し始め、リストに表示されたらクリックします。 <!--check this after UI changes-->
 

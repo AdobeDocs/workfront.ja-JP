@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 76%
+source-wordcount: '291'
+ht-degree: 73%
 
 ---
 
@@ -25,32 +25,27 @@ ht-degree: 76%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -58,9 +53,9 @@ ht-degree: 76%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
-1. 削除するグループを選択し、削除アイコン ![&#x200B; 削除 &#x200B;](assets/delete.png) をクリックします。
+1. 削除するグループを選択し、削除アイコン ![ 削除 ](assets/delete.png) をクリックします。
 
    >[!IMPORTANT]
    >
@@ -68,6 +63,6 @@ ht-degree: 76%
 
 1. 表示される「**グループの削除**」ボックスに入力を開始し、削除するグループのメンバー、作業アイテムおよびサブグループを移動するグループ名を選択します。
 
-   グループの上にマウスポインターを置き、その横に表示される情報アイコン ![&#x200B; 情報アイコン &#x200B;](assets/info-icon.png) をクリックして、適切なグループを確実に選択できます。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。
+   グループの上にマウスポインターを置き、その横に表示される情報アイコン ![ 情報アイコン ](assets/info-icon.png) をクリックして、適切なグループを確実に選択できます。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。
 
 1. 「**これらを削除します**」をクリックします。

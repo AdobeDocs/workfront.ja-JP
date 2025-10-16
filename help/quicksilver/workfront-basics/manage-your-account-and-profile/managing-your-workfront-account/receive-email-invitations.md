@@ -2,43 +2,18 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 招待メールを受信して  [!DNL Adobe Workfront] のパスワードを作成
-description: ' [!DNL Workfront]  管理者が新しいユーザーを作成すると、新しいユーザーは、いくつかの要因に基づいて招待メールを受け取る場合があります。'
+description: 管理者が新しいユーザーを作成すると  [!DNL Workfront]  新しいユーザーにパスワードの作成を招待する招待メールが届く場合があります。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 87%
 
 ---
 
 # 招待メールを受信して [!DNL Adobe Workfront] のパスワードを作成
-
-## アクセス要件
-
-この記事の手順を実行するには、次のアクセス権が必要です。
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
-   <td> <p>任意</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-ご利用のプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
-
-## 招待メールの受信
 
 [!DNL Workfront] 管理者が新しいユーザーを作成すると、新しいユーザーは、いくつかの要因に基づいて招待メールを受け取る場合があります。
 
@@ -50,6 +25,31 @@ ht-degree: 100%
 [!DNL Workfront] 管理者が新しいユーザーを作成する際に招待メールを送信する用法について詳しくは、[新規ユーザーへの招待メールを管理](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)を参照してください。
 
 Workfront 管理者が新しいユーザーを [!DNL Adobe Workfront] に追加する方法について詳しくは、[ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
+
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col>
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>リクエスト以上</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!DNL Workfront] のパスワードを作成
 

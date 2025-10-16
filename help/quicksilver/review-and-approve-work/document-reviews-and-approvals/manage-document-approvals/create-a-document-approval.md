@@ -6,10 +6,10 @@ description: Adobe Workfront のドキュメントに対して、他のユーザ
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 3fc3b1421882261a58a1984c9df410896d596062
+source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 83%
+source-wordcount: '454'
+ht-degree: 76%
 
 ---
 
@@ -25,40 +25,41 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td>  
-   <td> <p>レビュー以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td>  
+   <td>
+   <p>投稿者以上</p>
+   <p>レビュー以上</p>
+   <p>Frame.io 統合を使用している場合、承認ワークフローを作成するには Standard ライセンスが必要です。</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクト、タスク、タスク、タスク、テンプレート、ポートフォリオ、プログラム、レポート、ダッシュボード、カレンダー、ドキュメントへの表示アクセス権、またはより高いレベルのアクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクト、タスク、タスク、タスク、テンプレート、ポートフォリオ、プログラム、レポート、ダッシュボード、カレンダー、ドキュメントへの表示アクセス権、またはより高いレベルのアクセス権</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>リクエストのアクセスまたは承認に関連付けられたオブジェクトへのアクセス管理 </p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>リクエストのアクセスまたは承認に関連付けられたオブジェクトへのアクセス管理 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
 ## ドキュメントページからのドキュメントレビューまたは承認リクエストの作成
 
 1. ドキュメントにポインタを合わせ、「ドキュメントの詳細」をクリックします。
-   ![&#x200B; ドキュメントの詳細 &#x200B;](assets/doc-details.png)
+   ![ ドキュメントの詳細 ](assets/doc-details.png)
 
 1. ドキュメント名の近くにあるバージョンのドロップダウンで、承認を作成するドキュメントのバージョンを選択します。デフォルトでは最新バージョンが選択されます。
 
@@ -70,7 +71,7 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 1. レビュアーを追加するには、「**レビュアー**」チェックボックスをオンにして、ユーザー名またはチーム名を入力していきます。
 
-   ![&#x200B; 承認者と期限を追加 &#x200B;](assets/add-approver-and-deadline.png)
+   ![ 承認者と期限を追加 ](assets/add-approver-and-deadline.png)
 
 1. 以前の手順を繰り返して、承認者またはレビュアーを追加します。
 
@@ -84,7 +85,7 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 1. ドキュメントの概要ウィンドウの「**承認**」セクションにスクロールして、「**追加**」をクリックします。
 
-![&#x200B; ドキュメントの概要に承認者を追加 &#x200B;](assets/doc-summary-add-approvers.png)
+![ ドキュメントの概要に承認者を追加 ](assets/doc-summary-add-approvers.png)
 
 1. （任意）承認の期限を設定します。 ユーザーとチームには、指定した期限の 72 時間前と 24 時間前にメールで通知が届きます。
 
@@ -92,7 +93,7 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 1. レビュアーを追加するには、「**レビュアー**」チェックボックスをオンにして、ユーザー名またはチーム名を入力していきます。
 
-   ![&#x200B; 承認者と期限を追加 &#x200B;](assets/add-approver-and-deadline.png)
+   ![ 承認者と期限を追加 ](assets/add-approver-and-deadline.png)
 
 1. 以前の手順を繰り返して、承認者またはレビュアーを追加します。
 

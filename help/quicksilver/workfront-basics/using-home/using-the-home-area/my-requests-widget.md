@@ -6,10 +6,10 @@ description: リクエストはマイリクエスト ウィジェットで送信
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 17%
+source-wordcount: '793'
+ht-degree: 13%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 17%
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview"> 迅速リリースについて詳しくは、[&#x200B; 組織の迅速リリースの有効化または無効化 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) を参照してください。
+<span class="preview"> 迅速リリースについて詳しくは、[ 組織の迅速リリースの有効化または無効化 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) を参照してください。
 
 >[!IMPORTANT]
 >
 >この記事では、新しいマイリクエストウィジェットについて説明します。 新しいウィジェットを表示するには、新しい要求エクスペリエンスを有効にする必要があります。
->&#x200B;>「リクエスト」領域で新しいリクエスト用エクスペリエンスを有効にできます。
+>>「リクエスト」領域で新しいリクエスト用エクスペリエンスを有効にできます。
 
 自分のリクエスト ウィジェットには、組織に送信されたリクエストが表示されます。 リクエストのフィルタリング、特定のリクエストの検索、列の順序と表示の調整を行うことができます。 また、マイリクエスト ウィジェットから新しいリクエストを作成することもできます。
 
@@ -34,27 +34,24 @@ ht-degree: 17%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
-   <td> <ul><li>Adobe Workfront</li><li>計画リクエストまたはリクエストフォームを表示するには、Adobe Workfront Planning が必要です。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>新規：コントリビューター以上</p>
-   または   
-   <p>現在：[!UICONTROL Request] 以上</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
+   <td> <p>投稿者以上</p>
+   <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
+    <tr> 
+   <td role="rowheader"><strong>その他の製品</strong></td> 
+   <td> 計画リクエストまたはリクエストフォームを表示するには、Adobe Workfront Planning が必要です。</td> 
+  </tr> 
    <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
    <td> <p>会話でタグ付けされたオブジェクトまたは承認の解決が必要なオブジェクト（プロジェクト、タスク、イシュー、ドキュメント）に対する表示権限またはそれ以上の権限</p> </td> 
   </tr> 
@@ -65,7 +62,7 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権について詳しくは、[!DNL Workfront] 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -73,7 +70,7 @@ ht-degree: 17%
 
 リクエストは、マイリクエスト ウィジェットから直接作成できます。
 
-手順については、「ホーム領域から作業アイテムとプロジェクトを作成する [&#x200B; の &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) 要求を作成する」を参照してください。
+手順については、「ホーム領域から作業アイテムとプロジェクトを作成する [ の ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) 要求を作成する」を参照してください。
 
 ## リクエストのフィルタリング
 
@@ -81,7 +78,7 @@ ht-degree: 17%
 
 マイリクエスト ウィジェットでフィルターを設定するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
 1. マイリクエスト ウィジェットで、「**フィルター**」をクリックします。
 1. 一番左のフィールドで、フィルタリング対象を選択します。 利用可能なオプションは次のとおりです。
@@ -123,10 +120,10 @@ ht-degree: 17%
 
 マイリクエスト ウィジェットの列を調整するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
 1. 自分のリクエスト ウィジェットで、「**列**」をクリックします。
-1. （オプション）列を並べ替えるには、移動する列のドラッグハンドル ![&#x200B; ドラッグハンドル &#x200B;](assets/drag-handle.png) をクリックして、目的の場所までドラッグします。 リストの上部にある列は、マイリクエスト ウィジェットで一番左の列として表示されます。
+1. （オプション）列を並べ替えるには、移動する列のドラッグハンドル ![ ドラッグハンドル ](assets/drag-handle.png) をクリックして、目的の場所までドラッグします。 リストの上部にある列は、マイリクエスト ウィジェットで一番左の列として表示されます。
 1. （オプション）切り替えスイッチを使用して、自分のリクエスト ウィジェットに列を表示するかどうかを制御します。
 
 列環境設定は自動的に保存されます。
@@ -135,7 +132,7 @@ ht-degree: 17%
 
 マイリクエスト ウィジェットで特定のリクエストを検索するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
 1. マイリクエスト ウィジェットの右上付近にある検索バーに、検索する用語を入力します。
 

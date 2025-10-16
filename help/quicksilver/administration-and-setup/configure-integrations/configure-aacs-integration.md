@@ -6,10 +6,10 @@ description: 自分の作業と  [!DNL Experience Manager Assets] のコンテ�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 93%
+source-wordcount: '1702'
+ht-degree: 92%
 
 ---
 
@@ -39,34 +39,35 @@ ht-degree: 93%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] プラン*
+   <td>Adobe Workfront パッケージ
    </td>
-   <td>任意
+   <td> <p>PrimeまたはUltimate</p>
+    <p>ワークフロー Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront ライセンス
+   </td>
+   <td>標準
+   <p>プラン</p>
+   </td>
+  </tr>
+  </tr>
+    <tr>
+   <td>Adobe Experience Manager ライセンス
+   </td>
+   <td>標準
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] ライセンス
-   </td>
-   <td><p>現在：[!UICONTROL Plan]</p>
-   <p>新規：[!UICONTROL Standard]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] ライセンス
-   </td>
-   <td>[!UICONTROL Standard]
-   </td>
-  </tr>
-  <tr>
-   <td>製品
+   <td>その他の製品
    </td>
    <td>[!DNL Experience Manager Assets as a Cloud Service] があり、製品にユーザーとして追加されている必要があります。
    </td>
   </tr>
-  <tr>
+   <tr>
    <td>アクセスレベル設定
    </td>
    <td>[!DNL Workfront] 管理者である必要があります。
@@ -121,10 +122,10 @@ ht-degree: 93%
 
 メタデータフィールドを設定するには、次の手順に従います。
 
-1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
+1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
 
 
-1. Workfront でカスタムフォームフィールドを設定します。[!DNL Workfront] には、使用できるビルトインのカスタムフィールドが多数あります。ただし、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) で説明されているように、独自のカスタムフィールドを作成することもできます。
+1. Workfront でカスタムフォームフィールドを設定します。[!DNL Workfront] には、使用できるビルトインのカスタムフィールドが多数あります。ただし、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) で説明されているように、独自のカスタムフィールドを作成することもできます。
 
 +++ **サポートされている Workfront フィールドおよび Experience Manager Assets フィールドについて詳しくはこちらを展開** 
 
@@ -151,7 +152,7 @@ Workfront でサポートされている任意のフィールドを、Experience
 
 Experience Manager Assets でタグを作成すると、タグは「メタデータ」セクションのタグドロップダウンに表示されます。フィールドをタグにリンクするには、メタデータマッピングエリアの Experience Manager Assets フィールドドロップダウンで `xcm:keywords` を選択します。
 
-タグの作成および管理方法など、Experience Manager Assets のタグについて詳しくは、[タグの管理](https://experienceleague.adobe.com/ja/docs/experience-manager-64/administering/contentmanagement/tags)を参照してください。
+タグの作成および管理方法など、Experience Manager Assets のタグについて詳しくは、[タグの管理](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)を参照してください。
 
 **Experience Manager Assets のカスタムメタデータスキーマフィールド**
 

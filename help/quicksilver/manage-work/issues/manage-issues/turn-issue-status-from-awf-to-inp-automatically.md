@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: フィードバック待ちから進行中へイシューステータスを自動的に更新する
+title: イシューのステータスを「フィードバック待ち」から「処理中」に自動的に更新する
 description: イシューのプライマリ連絡先が、フィールド（カスタムフィールドを含む）の更新またはコメントの追加によってイシューを更新すると、イシューのステータスが自動的に「処理中」に更新されます。
 author: Alina
 feature: Work Management
 exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 59%
+ht-degree: 55%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 59%
 
 * リクエストキューを使用してイシューを追加する必要があります。
 
-  リクエストキューの作成について詳しくは、[&#x200B; リクエストキューの作成と管理 &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) の節を参照してください。
+  リクエストキューの作成について詳しくは、[ リクエストキューの作成と管理 ](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) の節を参照してください。
 
-  リクエストキューへのリクエストの送信について詳しくは、[Adobe Workfront リクエストの作成と送信 &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+  リクエストキューへのリクエストの送信について詳しくは、[Adobe Workfront リクエストの作成と送信 ](../../../manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
 
 * リクエストキュー内のキューの詳細で、次の設定を行う必要があります。
    * 「**リクエストが行われる際に自動的に付与する権限**」を「**アクセスに参加**」に設定

@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront] for [!DNL Jira] を使用すると、お�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: 064418302767ad20e176080ba9a12db548750f3c
+source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 83%
+source-wordcount: '582'
+ht-degree: 77%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 83%
 >
 >Jira を使用する場合は、組織の統合のニーズに合わせてWorkfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
+>Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
 
 <!--
 
@@ -35,9 +35,9 @@ ht-degree: 83%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
@@ -55,40 +55,35 @@ ht-degree: 83%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> 
-   <p>新規：任意</p>
-   <p>現在：[!UICONTROL Pro] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td><p>任意</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] ライセンスの概要</td> 
-   <td> 
-   <p>新規：標準</p>
-   <p>現在：[!UICONTROL Plan]</p></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準 </p>
+       <p>プラン </p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Jira] アクセス</td> 
-   <td> <p>システム管理者のアクセス権</p> <p>重要：ユーザーに関連付けられている既存のアカウントを使用するのではなく、この統合専用のシステム管理者アカウントを [!DNL Jira] と [!DNL Workfront] に個別に作成することをお勧めします。</p> </td> 
+   <td role="rowheader">Jira アクセス</td> 
+   <td> <p>システム管理者のアクセス権</p> <p>重要：ユーザーに関連付けられた既存のシステム管理者アカウントを使用するのではなく、Jira とWorkfrontで個別のシステム管理者アカウントを作成して、この統合専用にすることをお勧めします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td><p>[!DNL Workfront] 管理者である必要があります。</p></td> 
+   <td> <p>Workfront 管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-+++
-
-## [!DNL Workfront] for [!DNL Jira] のインストール
++++## [!DNL Workfront] 用の [!DNL Jira] のインストール
 
 [!DNL Workfront] for [!DNL Jira] OnDemand のインストール方法は、[!DNL Jira] サーバーインスタンスにインストールする場合と同じです。
 

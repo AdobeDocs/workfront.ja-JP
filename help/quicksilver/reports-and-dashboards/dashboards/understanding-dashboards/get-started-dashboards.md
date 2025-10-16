@@ -7,9 +7,9 @@ description: ダッシュボードの目的は、情報に素早くアクセス�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '693'
 ht-degree: 87%
 
 ---
@@ -24,43 +24,34 @@ ht-degree: 87%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront プラン</strong></p> </td> 
-   <td>任意</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront プラン</strong></p> </td> 
-      <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>投稿者以上</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>レビュー以上</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>投稿者以上</p>
+      <p>レビュー以上</p>
    </td> 
   </tr> 
   <tr> 
-   <td><strong>アクセスレベル</strong> </td> 
-   <td> <p>レポート、ダッシュボードおよびカレンダーの表示またはそれ以上のアクセス権</p> </td> 
-  </tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーの表示アクセス権</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>オブジェクトの権限</strong> </p> </td> 
-   <td> <p>ダッシュボードの表示権限</p>  </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>ダッシュボードの表示権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -87,7 +78,7 @@ ht-degree: 87%
   ダッシュボードの共有について詳しくは、[レポート、ダッシュボードおよびカレンダーの共有](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)と[ダッシュボードの共有](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)を参照してください。
 
 * 左側のパネルのWorkfront内の任意の領域またはオブジェクトにダッシュボードを追加します。\
-  左側のパネルへのダッシュボードの追加について詳しくは、[Adobe Workfrontの左側のナビゲーション &#x200B;](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) を参照してください。
+  左側のパネルへのダッシュボードの追加について詳しくは、[Adobe Workfrontの左側のナビゲーション ](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) を参照してください。
 
 * ダッシュボードをレイアウトテンプレートに配置します。このテンプレートは、ユーザーと共有できます。\
   レイアウトテンプレートを使用したダッシュボードの共有について詳しくは、[レイアウトテンプレートを使用した左側のパネルのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
@@ -109,7 +100,7 @@ ht-degree: 87%
 ダッシュボードは次の方法で表示できます。
 
 * オブジェクトの左側のパネルからダッシュボードにアクセスします。
-ダッシュボードを左側のパネルに配置する方法について詳しくは、[Adobe Workfrontの左側のナビゲーション &#x200B;](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) を参照してください。
+ダッシュボードを左側のパネルに配置する方法について詳しくは、[Adobe Workfrontの左側のナビゲーション ](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) を参照してください。
 
 * ダッシュボードを検索して手動でアクセスします。
 

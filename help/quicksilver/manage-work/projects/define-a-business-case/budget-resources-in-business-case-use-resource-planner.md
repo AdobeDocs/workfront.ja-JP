@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: リソースプランナーを使用したビジネスケースのリソースの予算計上
 description: リソース計画の一環として、プロジェクトレベルのリソースプランナーを使用して、ビジネスケースの作成時にプロジェクトで作業を完了するために必要な担当業務のリソースを予算計上できます。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 80%
+source-wordcount: '1206'
+ht-degree: 82%
 
 ---
 
@@ -35,19 +35,17 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <p>現在：Prime以降</p>
-   <p>レガシー：Pro 以上</p> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td> <p>Prime以上</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <p>現在：Light 以上</p>
-   <p>レガシー：レビュー以上</p>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td> <p>ライト以上</p>
+   <p>レビュー以上</p>
 
 <p><b>重要：</b></p> 
-   <p>現在：リソース予算情報を変更するには、標準ライセンスが必要です。 </p> 
-   <p>レガシー：リソース予算情報を変更するには、プラン ライセンスが必要です。 </p>
+   <p>リソース予算情報を変更するには、標準ライセンスまたはプラン ライセンスが必要です。 </p> 
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '937'
 ht-degree: 97%
 
 ---
@@ -31,32 +31,27 @@ Adobe Workfront の管理者は、プロジェクト、タスクおよびイシ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-     <p>新規：標準</p>
-     <p>または</p>
-     <p>現在：プラン</p>
-   </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>システム管理者</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -72,13 +67,13 @@ Adobe Workfront の管理者は、プロジェクト、タスクおよびイシ�
 
 1. （条件付き）システム全体で使用するステータスを作成または編集する場合は、右上隅のボックスで「**システムステータス**」が選択されていることを確認してください。
 
-   ![&#x200B; システムステータス &#x200B;](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![ システムステータス ](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    または
 
    ステータスがグループまたはサブグループの場合は、右上隅にグループの名前を入力し始め、表示されたら選択します。
 
-   ![&#x200B; グループのシステムステータス &#x200B;](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![ グループのシステムステータス ](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. ステータスに関連付けるオブジェクトタイプ（**プロジェクト**、**タスク**、または&#x200B;**イシュー**）のタブを選択します。
 
@@ -88,7 +83,7 @@ Adobe Workfront の管理者は、プロジェクト、タスクおよびイシ�
 
    既存のステータスを編集する場合は、そのステータスの上にカーソルを合わせ、右端に表示される&#x200B;**編集**&#x200B;アイコンをクリックします。
 
-   ![&#x200B; カスタムステータスを編集 &#x200B;](assets/custom-status-edit.png)
+   ![ カスタムステータスを編集 ](assets/custom-status-edit.png)
 
 1. 次のオプションを使用して、ステータスを設定します。
 

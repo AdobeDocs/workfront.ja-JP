@@ -6,10 +6,10 @@ description: 不要になった外部ページは、ダッシュボードから�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 78%
+source-wordcount: '250'
+ht-degree: 77%
 
 ---
 
@@ -23,43 +23,35 @@ ht-degree: 78%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
+      <p>標準</p>
+      <p>プラン</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> </td> 
-  </tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td role="rowheader">オブジェクト権限</td> 
    <td> <p>ダッシュボードに対する権限の管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -69,11 +61,11 @@ ht-degree: 78%
 
 1. 「**ダッシュボードの操作**」をクリックしたあと、「**編集**」をクリックします。
 
-   ![&#x200B; ダッシュボードを編集 &#x200B;](assets/unshimmed-edit-dashboard.png)
+   ![ ダッシュボードを編集 ](assets/unshimmed-edit-dashboard.png)
 
-1. 画面の右側で、削除する外部ページを見つけて、「**削除**」アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
+1. 画面の右側で、削除する外部ページを見つけて、「**削除**」アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
 
-   ![&#x200B; ダッシュボード内の「外部ページを削除」アイコン &#x200B;](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![ ダッシュボード内の「外部ページを削除」アイコン ](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. 左下隅にある「**保存して閉じる**」をクリックします。
 

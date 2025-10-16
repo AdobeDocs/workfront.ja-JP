@@ -2,20 +2,22 @@
 content-type: reference
 product-area: portfolios
 navigation-topic: portfolios-navigation-topic
-title: ポートフォリオの作成と管理
+title: ポートフォリオの作成と管理：記事インデックス
 description: ポートフォリオとは、同じリソース、予算およびスケジュールに対して競合するプロジェクトの集まりです。ポートフォリオ内のプロジェクトは類似しているため、同じリソースプールを使用し、同じスコアカードに対して測定されます。
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: eea47cc9-becb-4617-b49c-265c20753908
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 100%
+source-wordcount: '117'
+ht-degree: 89%
 
 ---
 
-# ポートフォリオの作成と管理
+# ポートフォリオの作成と管理：記事インデックス
+
+<!--Audited: 08/2025-->
 
 ポートフォリオとは、同じリソース、予算およびスケジュールに対して競合するプロジェクトの集まりです。ポートフォリオ内のプロジェクトは類似しているため、同じリソースプールを使用し、同じスコアカードに対して測定されます。
 

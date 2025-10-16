@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2088'
 ht-degree: 88%
 
 ---
@@ -32,26 +32,26 @@ Workfront アプリケーションを使用して環境間でオブジェクト�
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] プラン</strong>
+   <td>Adobe Workfront パッケージ
    </td>
-   <td> Prime または Ultimate （新規プランのみ）
+   <td> <p>PrimeまたはUltimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] ライセンス</strong>
+   <td><strong>Workfront ライセンス </strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>標準</p>&gt;
    </td>
   </tr>
    <tr>
    <td>アクセスレベル設定
    </td>
-   <td>[!DNL Workfront] 管理者である必要があります。
+   <td><p>Workfront 管理者である必要があります。</p>
    </td>
   </tr>
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 
@@ -1016,7 +1016,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 この手順にはエンドポイントがありません。
 
-1. [&#x200B; 手順 1 – 翻訳マップの作成 &#x200B;](#step-1---create-a-translation-map) で返された翻訳マップで、インストールするオブジェクトのリストを調べます。
+1. [ 手順 1 – 翻訳マップの作成 ](#step-1---create-a-translation-map) で返された翻訳マップで、インストールするオブジェクトのリストを調べます。
 1. 各オブジェクトのアクションフィールドを目的のインストールアクションに更新します。
 1. 各オブジェクトの `targetId` を検証します。 set アクションが `USEEXISTING` または `OVERWRITING` の場合、`targetId` は、ターゲット環境のターゲットオブジェクトの UUID に設定する必要があります。 その他のアクションの場合は、targetId を空の文字列にする必要があります。
 
@@ -1034,7 +1034,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 本文
 
-これは、単一のフィールド `translationMap` を持つオブジェクトで、[&#x200B; 手順 2 – 翻訳マップの変更 &#x200B;](#step-2---modify-the-translation-map) で変更した翻訳マップと等しくなります。
+これは、単一のフィールド `translationMap` を持つオブジェクトで、[ 手順 2 – 翻訳マップの変更 ](#step-2---modify-the-translation-map) で変更した翻訳マップと等しくなります。
 
 ```json
 {

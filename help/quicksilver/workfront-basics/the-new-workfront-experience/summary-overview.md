@@ -5,9 +5,9 @@ description: 概要パネルを使用すると、タスクやイシュー、ド�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '893'
 ht-degree: 93%
 
 ---
@@ -103,36 +103,6 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 ドキュメントの[!UICONTROL 概要]へのアクセスについて詳しくは、ドキュメントの[[!UICONTROL 概要]](../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
-## アクセス要件
-
-この記事の手順を実行するには、次のアクセス権が必要です。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
-   <td> <p>任意</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>新規：コントリビューター以上</p>
-   または
-   <p>現在：[!UICONTROL Request] 以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
-   <td> <p>タスク、イシュー、ドキュメントに対する [!UICONTROL View] またはそれ以上の権限</p> <p>ドキュメントの [!UICONTROL Summary] を表示する任意のオブジェクトに対する [!UICONTROL View] またはそれ以上の権限</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>タスク、イシュー、ドキュメントに対する[!UICONTROL View] またはそれ以上の権限</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*ご利用のプラン、ライセンスタイプまたはアクセス権について詳しくは、[!DNL Workfront] 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## タスクまたはイシューのリストで[!UICONTROL 概要]パネルを表示する
 
@@ -167,7 +137,7 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 ## [!UICONTROL 完了率]
 
-[!UICONTROL &#x200B; 概要 &#x200B;] の上部にある進捗の青いバブルを使用して、選択したタスクまたは問題の完了率を更新します。 数値を入力するか、通芯記号を正しいパーセンテージにドラッグします。
+[!UICONTROL  概要 ] の上部にある進捗の青いバブルを使用して、選択したタスクまたは問題の完了率を更新します。 数値を入力するか、通芯記号を正しいパーセンテージにドラッグします。
 
 概要パネルでバブルをドラッグ&amp;ドロップすると、完了率が 1 点増分で更新されます。 小数は入力できません。
 

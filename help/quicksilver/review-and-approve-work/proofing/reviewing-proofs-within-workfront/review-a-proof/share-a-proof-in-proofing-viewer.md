@@ -6,10 +6,10 @@ description: プルーフの所有者または作成者が共有を有効にし�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 98%
+source-wordcount: '1441'
+ht-degree: 97%
 
 ---
 
@@ -25,32 +25,34 @@ ht-degree: 98%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>任意</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">プルーフの役割 </td> 
+   <td>レビュアー、レビュアーおよび承認者、作成者、モデレーター</td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
    <td>マネージャー以上</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -60,7 +62,7 @@ ht-degree: 98%
 
 1. 左側のアイコンメニューが表示されない場合は、プルーフビューアーの左上隅にある&#x200B;**メニュー**&#x200B;アイコンをクリックします。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![ メニューアイコン ](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. プルーフビューアの左側にあるアイコンメニューで、**共有**&#x200B;アイコンをクリックします。
 
@@ -134,7 +136,7 @@ ht-degree: 98%
 デフォルトでは、プルーフに追加するユーザーは次のようになります。
 
 * プルーフへのリンクを含むメール通知を受け取ります。
-* [&#x200B; 作業の承認 &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md) に説明されているように、ホーム エリアからプルーフに対して承認の決定を行うことができる。
+* [ 作業の承認 ](../../../../review-and-approve-work/manage-approvals/approving-work.md) に説明されているように、ホーム エリアからプルーフに対して承認の決定を行うことができる。
 * プルーフをレビューするために、プルーフを有効にする必要はありません。
 
 自動ワークフローを有効にし、Workfront でプルーフを有効にしていないユーザーをプルーフに追加すると、自動ワークフロー内に新しいステージが作成されます。追加するユーザーが、プルーフを初めて表示する際に、自動的にこの新しいステージに追加されます。詳しくは、[自動ワークフローの概要](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)を参照してください。
@@ -173,7 +175,7 @@ ht-degree: 98%
        </tr> 
        <tr> 
         <td role="rowheader">最終決定</td> 
-        <td>Workfront は、プルーフの最後の承認者が決定を下したときにメールを送信します。<p>このアラートは、通常、実際のレビューの議論に参加する必要のない設計者によって使用されることがよくあります。最終的な決定が下されると、デザイナーに通知が届き、必要な変更に対してアクションを実行できます。</p><p>また、このアラートは、レビュープロセスが完了した場合にのみ通知を受け取る必要がある部署のリーダーに対しても役立ちます。</p></td> 
+        <td>Workfront は、プルーフの最後の承認者が決定を下したときにメールを送信します。<p>このアラートは、通常、実際のレビューの議論に参加する必要のないデザイナーによって使用されることがよくあります。最終的な決定が下されると、デザイナーに通知が届き、必要な変更に対してアクションを実行できます。</p><p>また、このアラートは、レビュープロセスが完了した場合にのみ通知を受け取る必要がある部署のリーダーに対しても役立ちます。</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">毎時の概要</td> 

@@ -6,10 +6,10 @@ description: リソースプランナーを使用して、プロジェクトへ�
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 89%
+source-wordcount: '471'
+ht-degree: 90%
 
 ---
 
@@ -25,38 +25,31 @@ ht-degree: 89%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：任意</p>
-       <p>または</p>
-       <p>現在：Pro 以上</p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：Light 以上；</br>
-          メインメニューでリソースプランナーを検索するための標準</p>
-       <p>または</p>
-       <p>現在：レビューまたはそれ以上；</br>
-       メインメニューでリソースプランナーを探す</p></td>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>1 つのプロジェクトには明るまたはそれ以上、複数のプロジェクトには標準</p>
+       <p>1 つのプロジェクトでレビュー以上、複数のプロジェクトで計画</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>リソース管理に対する表示以上のアクセス権</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td> <p>プロジェクトおよびユーザーに対する表示権限 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -67,10 +60,6 @@ ht-degree: 89%
 リソースプランナーの前提条件について詳しくは、[リソース計画の概要](../../resource-mgmt/resource-planning/get-started-resource-planning.md)を参照してください。
 
 ## リソースプランナーを配置
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this was moved from the get-started-resource-planner article)</p>
--->
 
 複数のプロジェクトに対してリソースを予算計上するか、1 つのプロジェクトに対してのみ予算を計上するかに応じて、リソースプランナーを Workfront の 2 つのエリアに配置することができます。
 
@@ -87,7 +76,7 @@ ht-degree: 89%
 
 「計画担当者」が、デフォルトで表示されます。リソースプランナーでのリソースの予算計上について詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)の記事を参照してください。
 
-![&#x200B; デフォルトでのリソースプランナー &#x200B;](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![ デフォルトでのリソースプランナー ](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. 左側のパネルで **リソースプール** をクリックします。
 リソースプールの作成について詳しくは、[リソースプールを作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
@@ -105,6 +94,6 @@ ht-degree: 89%
    >
    >ビジネスケースの「リソース予算計上」エリアにリソースプールを追加できるのは、プロジェクトにリソースプールが関連付けられていない場合のみです。プロジェクトに既にリソースプールが存在する場合、プール内のユーザーとその担当業務が、「リソース予算計上」エリアにデフォルトで表示されます。
 
-   ![&#x200B; リソース予算計上 &#x200B;](assets/resource-budgeting-area-on-project-350x70.png)
+   ![ リソース予算計上 ](assets/resource-budgeting-area-on-project-350x70.png)
 
    1 つのプロジェクトのリソースの予算計上について詳しくは、[ビジネスケースのリソース予算計上](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。

@@ -7,10 +7,10 @@ description: Experience Manager Assets または Assets Essentials にリンク�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 87%
+source-wordcount: '436'
+ht-degree: 85%
 
 ---
 
@@ -24,23 +24,23 @@ Experience Manager Assetsまたは Assets Essentials 内のリンクされたフ
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table>
   <tr>
-   <td><strong>Adobe Workfront プラン*</strong>
+   <td><strong>Adobe Workfront パッケージ </strong>
    </td>
    <td>任意
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront ライセンス*</strong>
+   <td><strong>Adobe Workfront ライセンス </strong>
    </td>
-   <td>プラン
+   <td>
+   <p>標準</p>
+   <p>プラン</p>
    </td>
   </tr>
   <tr>
-   <td><strong>製品</strong>
+   <td><strong> 追加製品 </strong>
    </td>
    <td>Experience Manager Assets as a Cloud Service または Assets Essentials が必要であり、製品にユーザーとして追加されている必要があります。
    </td>
@@ -59,8 +59,7 @@ Experience Manager Assetsまたは Assets Essentials 内のリンクされたフ
   </tr>
 </table>
 
-
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

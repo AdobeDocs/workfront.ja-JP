@@ -7,10 +7,10 @@ description: Adobe Workfrontで作業項目にログオンした時間は、実�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: d577fb1f84c2a91c7b4a37be271235ffa338c9fd
+source-git-commit: 055228fd15d670a214039575dc076ab36f6e99eb
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 28%
+source-wordcount: '1220'
+ht-degree: 27%
 
 ---
 
@@ -30,37 +30,62 @@ Adobe Workfront で作業項目に記録した時間は、実際の時間数と�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>新規：標準<p>
-   <p>または</p>
-   <p>現在：ワーク以上</p> </td> 
+   <p>標準<p>
+   <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>タスク、プロジェクト、イシューに対する表示またはそれ以上のアクセス権</p> </td> 
+   <td> <p>タスク、プロジェクト、または問題への表示以上のアクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスク、プロジェクト、イシューに対する表示またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>タスク、プロジェクト、イシューに対する表示またはそれ以上の権限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   <p>New: Standard<p>
+   <p>Or</p>
+   <p>Current: Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a task, a project, or an issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 実際の時間数と従来の実際の時間数
 
@@ -134,7 +159,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 タスク、問題、またはプロジェクトの報告書を作成する際、報告書の各タスク、問題、またはプロジェクトの実際の時間数と従来の実際の時間値を表示できます。
 
-実際の時間数と従来の実際の時間数の違いについては、この記事の [&#x200B; 実際の時間数と従来の実際の時間数 &#x200B;](#actual-hours-vs-legacy-actual-hours) の節を参照してください。
+実際の時間数と従来の実際の時間数の違いについては、この記事の [ 実際の時間数と従来の実際の時間数 ](#actual-hours-vs-legacy-actual-hours) の節を参照してください。
 
 タスク・レポートに実績時間数とレガシー実績時間数を表示する手順は、次のとおりです。
 
@@ -155,11 +180,11 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 割り当てられたタスクやイシューに対してユーザーが実行している作業の進捗状況を確認する場合は、次のリソース管理ツールでその進捗状況を確認できます。
 
 * 稼働率レポート。\
-  詳しくは、[&#x200B; 資源稼働率レポートの概要 &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) を参照してください。
+  詳しくは、[ 資源稼働率レポートの概要 ](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) を参照してください。
 
 * リソースプランナー
 
-  詳しくは、[&#x200B; ユーザービューの使用時にリソースプランナーで利用可能な時間、予定および実際の時間または FTE を表示 &#x200B;](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md) を参照してください。
+  詳しくは、[ ユーザービューの使用時にリソースプランナーで利用可能な時間、予定および実際の時間または FTE を表示 ](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md) を参照してください。
 
 
 ### Workfront API の実際の時間数
@@ -181,7 +206,7 @@ API 呼び出し、または計算されたカスタムフィールドや列で�
   >
   >プロジェクトの実際のコストは、従来の実際の時間数を使用して計算します。
 
-  計算された列またはフィールドでの実際の時間数の使用について詳しくは、[&#x200B; レポートに関する FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) を参照してください。
+  計算された列またはフィールドでの実際の時間数の使用について詳しくは、[ レポートに関する FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) を参照してください。
 
 ## 時間を記録
 

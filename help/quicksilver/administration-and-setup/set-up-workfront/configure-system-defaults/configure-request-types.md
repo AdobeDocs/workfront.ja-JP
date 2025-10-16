@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 96%
+source-wordcount: '446'
+ht-degree: 95%
 
 ---
 
@@ -19,37 +19,33 @@ ht-degree: 96%
 
 プロジェクトに取り組んでいると、予期しないイベントが発生することがあります。これらの予期しないイベントは、特定のプロジェクトやタスクに対するイシューとして記録できます。リクエストを送信することもできます。リクエストは、リクエストキューとして指定されたプロジェクトのイシューとして記録されます。Adobe Workfront では、イシューとリクエストは互換性があると見なします。
 
-[!DNL Workfront] でのイシューの作成については、[イシューの作成](../../../manage-work/issues/manage-issues/create-issues.md)を参照してください。[!DNL Workfront] でのリクエストの作成については、[&#x200B; [!DNL Adobe Workfront] リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。リクエストタイプとプロジェクトの関連付けについては、[プロジェクトのリクエストタイプの定義](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)を参照してください。
+[!DNL Workfront] でのイシューの作成については、[イシューの作成](../../../manage-work/issues/manage-issues/create-issues.md)を参照してください。[!DNL Workfront] でのリクエストの作成については、[ [!DNL Adobe Workfront] リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。リクエストタイプとプロジェクトの関連付けについては、[プロジェクトのリクエストタイプの定義](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)を参照してください。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：[!UICONTROL Standard]</p>
-   または
-   <p>現在：[!UICONTROL Plan]</p>
-   </td> 
-  </tr>
+   <td>[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
+  </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -79,7 +75,7 @@ You must have at least one request type selected. You can select multiple reques
 
   [!DNL Workfront] でのイシューの作成について詳しくは、[イシューを作成](../../../manage-work/issues/manage-issues/create-issues.md)を参照してください。
 
-  [!DNL Workfront] でのリクエストの作成について詳しくは、[&#x200B; [!DNL Adobe Workfront]  リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+  [!DNL Workfront] でのリクエストの作成について詳しくは、[ [!DNL Adobe Workfront]  リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
 * キューのトピックを設定するとき、**[!UICONTROL キューのトピックの詳細]**&#x200B;フォーム。\
    キューのトピックの作成について詳しくは、[キューのトピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
@@ -93,7 +89,7 @@ You must have at least one request type selected. You can select multiple reques
 1. 「**[!UICONTROL イシュー]**」タブをクリックします。
 1. 「**[!UICONTROL イシュー]**」タブの上部で、リクエストタイプ名にカーソルを合わせ、表示される&#x200B;**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
-   ![&#x200B; リクエストタイプ名を編集 &#x200B;](assets/edit-request-type-name-nwe.png)
+   ![ リクエストタイプ名を編集 ](assets/edit-request-type-name-nwe.png)
 
 1. 表示されるボックスに新しい名前を入力し、**[!UICONTROL Enter]** を押します。
 

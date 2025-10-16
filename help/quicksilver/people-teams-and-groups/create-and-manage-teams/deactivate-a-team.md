@@ -6,10 +6,10 @@ description: 関連する履歴データを保持したまま、使用しなく�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 74%
+source-wordcount: '444'
+ht-degree: 66%
 
 ---
 
@@ -40,29 +40,26 @@ ht-degree: 74%
  </tbody> 
 </table>
 
-非アクティブ化されたチームは、チームを検索するときに表示されませんが、ユーザーが非アクティブ化前にチームに割り当てられていた場合は、[!UICONTROL ホームチーム]およびその他のチームには引き続き表示されます。
+非アクティブ化されたチームはチームを検索しても表示されませんが、非アクティブ化前にユーザーがチームに割り当てられていた場合は、引き続き [!UICONTROL  ホームチーム ] およびその他のチームに表示されます。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader"> <p>Adobe Workfront パッケージ</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td>
-  </tr>
+   <p>標準</p>
+   <p>プラン</p></td>
+  </tr> 
   <tr>
    <td>アクセスレベル設定</td>
    <td><p>チームをディアクティベートするには、設定は不要です。</p>

@@ -6,10 +6,10 @@ description: 自動ワークフローを使用すると、プロセスが複雑�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1838'
-ht-degree: 99%
+source-wordcount: '1783'
+ht-degree: 98%
 
 ---
 
@@ -23,19 +23,18 @@ ht-degree: 99%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：任意</p><p>現在のプラン：Pro 以上</p><p>従来のプラン：Select 以上</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準</p><p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <td> 標準</p>
+   <p>作業またはプラン</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -139,7 +138,7 @@ ht-degree: 99%
 
       「**プルーフ作成日時**」、「**指定日時**」または「**手動**」のオプションを使用すると、前の手順で発生した内容に応じたオプションを選択できます。
 
-      ![&#x200B; ステージオプションをアクティベート &#x200B;](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![ ステージオプションをアクティベート ](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. 前の手順で発生した内容に応じて「ステージをアクティベート」オプションを選択した場合は、表示されるオプションを使用してアクティベーション設定を指定します。
 
@@ -149,7 +148,7 @@ ht-degree: 99%
 
    ステージを自動化ワークフローに追加すると、画面にステージを表すダイアグラムが表示されます。
 
-   ![&#x200B; ステージ図 &#x200B;](assets/stages-diagram-350x213.png)
+   ![ ステージ図 ](assets/stages-diagram-350x213.png)
 
 1. 次の[プルーフのメール設定を指定](#configure-email-settings-for-the-proof)を続行します。
 
@@ -230,6 +229,6 @@ ht-degree: 99%
 
 1. プルーフが生成されたら、「**プルーフを開く**」をクリックして、プルーフビューアを起動します。
 
-   ![&#x200B; プルーフを開く &#x200B;](assets/open-proof-350x132.png)
+   ![ プルーフを開く ](assets/open-proof-350x132.png)
 
    自分のアカウントでプルーフが有効になっていないユーザーでも、ドキュメントを表示し、プルーフにコメントを付けることができます[。](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

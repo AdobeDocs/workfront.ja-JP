@@ -3,14 +3,14 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: 見込み期間が予定期間と一致しません
-description: 「「タスク／イシューの予測期間が 0 になり、予定期間と一致しません」というエラーメッセージが表示されます。」
+description: この記事では、「タスク/問題の見込み期間が 0 になり、予定期間と一致しません。」というメッセージが表示される場合の、Adobe Workfrontでのトラブルシューティングについて説明します。
 author: Alina
 feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 100%
+source-wordcount: '233'
+ht-degree: 83%
 
 ---
 

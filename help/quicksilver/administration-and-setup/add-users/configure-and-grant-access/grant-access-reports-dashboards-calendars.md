@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 776bb223-3481-4ea9-8049-276b2dec95c5
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 97%
+source-wordcount: '576'
+ht-degree: 96%
 
 ---
 
@@ -32,26 +32,27 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、レポー�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td><p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -66,7 +67,7 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、レポー�
 
    * **作成**
    * **削除**
-   * **組み込みレポートの表示**：Workfront が作成したレポートを表示するには、このオプションを選択する必要があります。
+   * **ビルトインのレポートの表示**：Workfront が作成したレポートを表示するには、このオプションを選択する必要があります。
    * **共有**
    * **レポートをパブリックにして共有**：レポートへの公開リンクを Workfront アカウントを持たないユーザーと共有することで、レポートを公開できます。このレベルの共有を許可するには、このオプションを選択する必要があります。
    * **システム全体で共有**：レポートは、Workfront ライセンスを持つシステム内のすべてのユーザーと共有できます。このレベルの共有を許可するには、このオプションを選択する必要があります。

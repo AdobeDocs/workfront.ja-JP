@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 94%
+source-wordcount: '558'
+ht-degree: 93%
 
 ---
 
@@ -23,28 +23,30 @@ ht-degree: 94%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront パッケージ
+   </td>
+   <td> <p>PrimeまたはUltimate</p>
+    <p>ワークフロー Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront ライセンス
+   </td>
+   <td><p>標準</p>
+   <p>プラン</p>
+   </td>
+  </tr>
+   <tr>
+   <td>アクセスレベル設定
+   </td>
+   <td>[!DNL Workfront] 管理者である必要があります。
+   </td>
+  </tr>
 </table>
 
-+++
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## [!DNL Workfront] メタデータについて
 
@@ -62,7 +64,7 @@ ht-degree: 94%
 
 様々な [!DNL Workfront DAM] のメタデータフィールドに同じ [!DNL Workfront] フィールドをマッピングできますが、複数の [!DNL Workfront] メタデータフィールドに対しては、そのアプリケーションのどれでも、メタデータフィールドを使用することはできません。
 
-複数の [!DNL Workfront] フィールドを構成して [!DNL Workfront] アプリケーションの 1 つのメタデータフィールドに書き出すには、最初に [!DNL Workfront] に計算カスタムフィールドを作成して、オブジェクトの個々のカスタムフィールドをすべて表示します。次に、計算 [!DNL Workfront] フィールドを [!DNL Workfront] アプリケーションのメタフィールドにマッピングします。計算カスタムフィールドについて詳しくは、「[&#x200B; フォームに計算フィールドを追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)」を参照してください。
+複数の [!DNL Workfront] フィールドを構成して [!DNL Workfront] アプリケーションの 1 つのメタデータフィールドに書き出すには、最初に [!DNL Workfront] に計算カスタムフィールドを作成して、オブジェクトの個々のカスタムフィールドをすべて表示します。次に、計算 [!DNL Workfront] フィールドを [!DNL Workfront] アプリケーションのメタフィールドにマッピングします。計算カスタムフィールドについて詳しくは、「[ フォームに計算フィールドを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)」を参照してください。
 
 メタデータマッピングプロセスのフィールドをマッピングする前に、[!DNL Workfront] でアプリケーションを有効にする必要があります。詳しくは、[ドキュメント統合を設定](../../administration-and-setup/configure-integrations/configure-document-integrations.md)を参照してください。
 
@@ -72,7 +74,7 @@ ht-degree: 94%
 
 1. 左側のパネルで、**[!UICONTROL ドキュメント]**／**[!UICONTROL メタデータ マッピング]**&#x200B;をクリックします。
 
-   ![&#x200B; メタデータマッピング &#x200B;](assets/metadata-mapping.png)
+   ![ メタデータマッピング ](assets/metadata-mapping.png)
 
 1. 「**[!UICONTROL マッピングのソース フィールドを選択]**」ボックスで、[!DNL Workfront DAM] にマッピングする Workfront フィールドの名前を一部入力し、名前がリストに表示されたらそれを選択します。
 1. 「**[!UICONTROL マッピングのターゲット フィールドを選択]**」ボックスで、選択した [!DNL Workfront] フィールドの情報を入力するフィールドを選択します。

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 91%
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 >
 >オブジェクトヘッダーのカスタマイズは、現在、プロジェクト、タスクおよびイシューに対して使用できます。
 
-![&#x200B; オブジェクトヘッダーフィールド &#x200B;](assets/object-header-fields.png)
+![ オブジェクトヘッダーフィールド ](assets/object-header-fields.png)
 
 レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -35,32 +35,29 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td><p>新規：標準</p>
-  <p> 現在：プラン</p>
-   </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。</p>
+        <p>グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -80,7 +77,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![&#x200B; オブジェクトヘッダーフィールドの非表示および移動アイコン &#x200B;](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![ オブジェクトヘッダーフィールドの非表示および移動アイコン ](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. 1 つのオブジェクトのヘッダーには、最大 5 つのフィールドを含めることができます。
 既に 5 つのフィールドが選択されている場合、新しいフィールドを追加する前に、1 つのフィールドを削除する必要があります。
@@ -95,7 +92,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
    >* イシューのヘッダーに「解決オブジェクト」フィールドを追加すると、イシューに関連付けられた解決オブジェクトがある場合、そのフィールドは「解決するイシュー、タスク、またはプロジェクト」に変わります。
 
 
-   ![&#x200B; ヘッダーにフィールドを追加 &#x200B;](assets/add-field-to-header-in-lt-list.png)
+   ![ ヘッダーにフィールドを追加 ](assets/add-field-to-header-in-lt-list.png)
 
 
 1. （オプション）追加したフィールドを、別の順序でドラッグ＆ドロップします。

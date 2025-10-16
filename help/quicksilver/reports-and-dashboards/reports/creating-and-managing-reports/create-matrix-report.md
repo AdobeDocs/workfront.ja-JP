@@ -6,10 +6,10 @@ description: マトリックスレポートは、概要情報を集計表形式�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 96%
+source-wordcount: '1083'
+ht-degree: 97%
 
 ---
 
@@ -23,54 +23,46 @@ ht-degree: 96%
 
 例えば、3 か月の期間に記録された時間を表示する時間レポートを作成し、その時間を入力したユーザーに基づいて、および月ごとおよび週ごとにレポートを整理することができます。
 
-![&#x200B; レポートマトリックスの概要 &#x200B;](assets/report-matrix-overview-350x123.png)
+![ レポートマトリックスの概要 ](assets/report-matrix-overview-350x123.png)
 
 ## マトリックスレポートでのデータの表示方法
 
 マトリックスレポートの情報は、常に数値として表示されます。ほとんどの場合、数値を含む列は、マトリックスレポートの表示に最適です（記録された時間数や実際のコストなど）。
 
 ただし、次の図に示すように、その他の列（「ステータス」など）もマトリックスレポートに表示できます。\
-![&#x200B; マトリックスステータス &#x200B;](assets/report-matrix-status-350x73.png)
+![ マトリックスステータス ](assets/report-matrix-status-350x73.png)
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-      <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>標準</p>
+      <p>プラン</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td><p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p></td> 
+ <td> <p>レポートに対する権限を管理します。</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -91,7 +83,7 @@ ht-degree: 96%
       >
       >このオプションが選択されていない場合、列の情報はマトリックスレポートに正しく表示されません。
 
-      ![&#x200B; マトリックスの要約 &#x200B;](assets/qs-report-matrix-summarized-350x392.png)
+      ![ マトリックスの要約 ](assets/qs-report-matrix-summarized-350x392.png)
 
    1. 「カラム（表示）」タブの各列に対してこの手順を繰り返し、「**完了**」をクリックします。
 
@@ -105,10 +97,10 @@ ht-degree: 96%
    1. 「**列のグループ化**」セクションで、列のグループ化を指定します。これにより、テーブルの垂直のグループ化が確立されます。
    1. （オプション）列のグループ化を追加するには、「**セカンダリ列のグループ化を追加**」をクリックします。
    1. （条件付き）日付別のグループ化を追加する場合、日別、週別、月別、四半期別、年別のどの方法で結果をグループ化するか指定します。\
-      ![&#x200B; 日付別グループ化オプション &#x200B;](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
+      ![ 日付別グループ化オプション ](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
    1. （条件付き）日付別にグループ化し、結果を四半期別に表示する場合、例えば、データのない四半期を表示するかどうかを、「**結果のない四半期を表示**」チェックボックスで選択します。\
-      ![&#x200B; 結果のない四半期を表示 &#x200B;](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
+      ![ 結果のない四半期を表示 ](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >
@@ -134,8 +126,9 @@ ht-degree: 96%
      >   * 数値および通貨の値のカスタムデータフィールドは、すべてのタスク（親、子、親の親、スタンドアロンタスク）を集計します。「予定時間数」または「実際の時間数」を「**値**」列に表示するためにマトリックスレポートを作成する場合は、親オブジェクト（親タスクなど）の時間またはコストの情報はマトリックスレポートに表示されないことに注意してください。親オブジェクトの時間を確認するには、「**詳細**」タブを表示する必要があります。
      >   
      >   
-     >**条件付きルール：**&#x200B;集計される値の書式設定ルールを設定します。\
+     >
 
+   **条件付きルール：**&#x200B;集計される値の書式設定ルールを設定します。\
    ルールを追加した後、そのルールに一致するフィールドの表示方法について、フィールドとテキストのスタイルを定義できます。ルールの定義が完了したら「**ルールを追加**」をクリックし、「**完了**」を選択してルールを保存します。
 
 1. 「**フィルター**」タブをクリックすることで、レポートに表示する情報を定義できます。

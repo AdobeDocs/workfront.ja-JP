@@ -6,10 +6,10 @@ description: Web ブラウザーで使用できる印刷オプションを使用
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -26,43 +26,35 @@ Web ブラウザーで使用できる印刷オプションを使用して、ダ�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
-    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>ワークまたはそれ以上</p></li>
-         </ul>
-   </td>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>標準</p>
+      <p>ワークまたはそれ以上</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
-   <td> <p>レポート、ダッシュボードおよびカレンダーの表示アクセス権</p> </td> 
-  </tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td role="rowheader">オブジェクト権限</td> 
    <td> <p>ダッシュボードの表示権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -77,7 +69,7 @@ Web ブラウザーで使用できる印刷オプションを使用して、ダ�
 1. 書き出すダッシュボードに移動します。
 1. **ダッシュボードアクション** をクリックし、**印刷プレビュー** を選択します。
 
-   ![&#x200B; ダッシュボード印刷プレビュー &#x200B;](assets/dashboard-actions-print-350x254.png)
+   ![ ダッシュボード印刷プレビュー ](assets/dashboard-actions-print-350x254.png)
 
    印刷プレビューウィンドウが開きます。
 

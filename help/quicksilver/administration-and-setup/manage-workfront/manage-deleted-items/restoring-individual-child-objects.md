@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 88%
+source-wordcount: '617'
+ht-degree: 87%
 
 ---
 
@@ -41,38 +41,33 @@ Workfront からのデータの書き出しについて詳しくは、[データ
 
 >[!IMPORTANT]
 >
->ドキュメントは、このような復元方法の例外となります。プレビュー環境から手動でダウンロードし、実稼動環境に再度アップロードすることができます。ドキュメントを一括でダウンロードおよびアップロードする場合は、Workfront からのデータの復元をリクエストする必要があります。
+>ドキュメントは、このような復元方法の例外となります。プレビュー環境から手動でダウンロードし、本番環境に再度アップロードすることができます。ドキュメントを一括でダウンロードおよびアップロードする場合は、Workfront からのデータの復元をリクエストする必要があります。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>システム管理者</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -98,5 +93,5 @@ Workfront からのデータの書き出しについて詳しくは、[データ
 1. カスタマーサポートチームがデータベースチームに連絡します。
 1. データベースチームが復元されるデータを確認できれば、ETA に関するより正確な見積もりを提供できます。リストアには通常 3 日かかりますが、復元するデータの種類と量によっては、これより長い時間がかかる場合があります。
 1. データベースチームは、情報をサンドボックスプレビュー環境に復元します。この環境で、復元したデータを確認することができます。カスタマーサポートチームは、サンドボックスプレビューでデータが見つかったらお知らせします。
-1. サンドボックスでの復元で問題がなければ、カスタマーサポートチームに連絡します。カスタマーサポートチームがデータベースチームに連絡して、実稼動環境にデータを復元できることを通知します。
+1. サンドボックスでの復元で問題がなければ、カスタマーサポートチームに連絡します。カスタマーサポートチームがデータベースチームに連絡して、本番環境にデータを復元できることを通知します。
 1. リクエストがクローズされる前に、復元されたデータを確認することができます。

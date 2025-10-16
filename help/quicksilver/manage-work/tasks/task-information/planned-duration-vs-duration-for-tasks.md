@@ -2,15 +2,15 @@
 content-type: reference
 product-area: projects
 navigation-topic: task-information
-title: タスクの予定期間と期間の違い
+title: タスクの予定期間と期間の差異
 description: 期間とは、作業アイテムの予定開始日から予定完了日までの時間です。タスクの期間タイプに応じて、Adobe Workfront には期間と予定期間が表示されます。
 author: Alina
 feature: Work Management
 exl-id: 183a3334-b4af-4f45-8e72-9e82ff3862a0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

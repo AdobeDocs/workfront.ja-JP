@@ -7,10 +7,10 @@ description: コミット日は、ユーザーがタスクまたは問題を完�
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 37%
+ht-degree: 36%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 37%
 * コミット日は、Adobe Workfrontによって自動的に設定されるわけではありません。 タスクまたは問題を作成する際、コミット日は割り当てられていません。
 * タスクまたはイシューに割り当てられている場合は、次のいずれかの操作を行ってコミット日を設定できます。
 
-   * Workfront は、タスクまたはイシューの「作業」、「問題の取り組みを開始」、または「タスクを開始」をクリックして、タスクまたはイシューの既存の予定完了日に一致するようにコミット日を設定します。詳しくは、[&#x200B; 「作業対象」ボタンの「開始」ボタンへの置き換え &#x200B;](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) を参照してください。
+   * Workfront は、タスクまたはイシューの「作業」、「問題の取り組みを開始」、または「タスクを開始」をクリックして、タスクまたはイシューの既存の予定完了日に一致するようにコミット日を設定します。詳しくは、[ 「作業対象」ボタンの「開始」ボタンへの置き換え ](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) を参照してください。
    * タスクまたは問題が完了すると思われるタイミングに応じて、自分でコミット日を設定します。 これは、特定の日までにタスクまたは問題を完了するという、プロジェクト管理者への担当者としての推定とコミットメントです。 詳しくは、[タスクやイシューのコミット日の更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)を参照してください。
 
 >[!NOTE]
@@ -57,7 +57,7 @@ ht-degree: 37%
 タスクとイシューのコミット日は、Workfrontの次の領域で確認できます。
 
 * 詳細ページ
-* Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の概要パネル。 詳しくは、[&#x200B; レイアウトテンプレートを使用した概要パネルのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
+* Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の概要パネル。 詳しくは、[ レイアウトテンプレートを使用した概要パネルのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
 * Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後のタスクまたはイシューのヘッダー。 詳しくは、[レイアウトテンプレートを使用してオブジェクトヘッダーをカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
 ## コミット日の変更によってトリガーされる通知と更新 {#notifications-and-updates-triggered-by-changing-the-commit-date}
@@ -72,7 +72,7 @@ ht-degree: 37%
 
 * コミット日の変更は、タスクまたは問題の「システム」アクティビティと「更新」セクションの「すべて」タブに入力されます。
 
-  ![&#x200B; コミット日の変更通知 &#x200B;](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+  ![ コミット日の変更通知 ](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
   Workfront管理者が「設定」の「更新フィード」領域でこの更新を有効にすると、コミット日の変更がタスクまたは問題の「更新」領域に表示されます。詳しくは、[システムで追跡された更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)を参照してください。
 
@@ -88,8 +88,8 @@ ht-degree: 37%
   >
   >詳しくは、次の記事を参照してください。
   >
-  >* [&#x200B; 概要 &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [&#x200B; レイアウトテンプレートを使用した概要パネルのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [ 概要 ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [ レイアウトテンプレートを使用した概要パネルのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
   >* [レイアウトテンプレートを使用してオブジェクトヘッダーをカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
 
 <!--this is no longer possible: 
@@ -111,7 +111,7 @@ ht-degree: 37%
 
 * プロジェクト所有者には、「通知」領域で、タスクまたは問題のコミット日が変更されたことを通知されます。
 
-  ![&#x200B; コミット日の変更通知 &#x200B;](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
+  ![ コミット日の変更通知 ](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip below is actually wrong and the updates feeds should not control this setting, but at this time it does, according to this issue in Hub: https://hub.workfront.com/issue/61e1aa5e0002a186fdd0a73a10db0fc3/updates?email-source=comm</p>
@@ -121,7 +121,7 @@ ht-degree: 37%
   >
   >コミット日の変更通知は、Workfront 管理者が設定の更新フィードエリアでコミット日を表示できるようにした場合にのみ、プロジェクト所有者に送信されます。詳しくは、[システムで追跡された更新の設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)を参照してください。
 
-作業項目の更新時に使用できる追加機能について詳しくは、「[&#x200B; 作業の更新 &#x200B;](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)」を参照してください。
+作業項目の更新時に使用できる追加機能について詳しくは、「[ 作業の更新 ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)」を参照してください。
 
 タスクとイシューのコミット日の更新について詳しくは、[タスクとイシューに関するコミット日の更新](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)を参照してください。
 

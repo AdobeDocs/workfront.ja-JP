@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 38%
+source-wordcount: '828'
+ht-degree: 36%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 38%
 > 
 >管理者は、ユーザーに新しいウィジェットを追加できます。 ただし、エンドユーザーが既にウィジェットの順序や背景の選択をカスタマイズしている場合、それらの特定のカスタマイズは変更されません。
 
-ホームについては、[&#x200B; ホームの基本を学ぶ &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
+ホームについては、[ ホームの基本を学ぶ ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
 
 レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -43,31 +43,29 @@ ht-degree: 38%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td><p>新規：標準</p>
-  <p> 現在：プラン</p>
-   </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。</p>
+        <p>グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -136,11 +134,11 @@ ht-degree: 38%
    >
    >* [ フィルタ ]、[ 列 ]、および [ グループ ] オプションは、レイアウト テンプレートのリスト カスタマイズ オプションにリンクされています。 ここで行った変更は、これらの設定にも適用されます。
    >* 管理者カラムの構成をホーム ページに適切に適用するには、ユーザーに少なくともビューへの作成アクセス権が必要です。
-   ></p>
-   >   <li><p>オプションの上にマウスポインターを置いて、「デフォルトとして設定 <b> をクリックして、ウィジェットのデフォルトのフィルターまたはグループを設定し </b> す。 現在のデフォルトでは、右側に青い <b> デフォルト </b> バッジが表示されます。</p></li>
-   >   <li><p>各リストの下部にあるプラス記号ボタンをクリックして、使用可能なオプションのリストに既存のフィルター、列またはグループを追加し、そのリストにオプションを追加します。 この方法で追加できるのは、既存のフィルター、フィールド（カラム用）、グループのみであることに注意してください。</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>オプションの上にマウスポインターを置いて、「デフォルトとして設定 <b> をクリックして、ウィジェットのデフォルトのフィルターまたはグループを設定し </b> す。 現在のデフォルトでは、右側に青い <b> デフォルト </b> バッジが表示されます。</p></li>
+      <li><p>各リストの下部にあるプラス記号ボタンをクリックして、使用可能なオプションのリストに既存のフィルター、列またはグループを追加し、そのリストにオプションを追加します。 この方法で追加できるのは、既存のフィルター、フィールド（カラム用）、グループのみであることに注意してください。</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >

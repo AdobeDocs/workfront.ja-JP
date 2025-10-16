@@ -6,10 +6,10 @@ description: 自分または他のユーザーが Adobe Workfront Goals に追�
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 91%
+source-wordcount: '1304'
+ht-degree: 88%
 
 ---
 
@@ -21,9 +21,13 @@ ht-degree: 91%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+>[!NOTE]
+>
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>
+>Adobe Workfront Goals は購入できなくなりました。
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto">
 <col>
@@ -31,55 +35,94 @@ ht-degree: 91%
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+ <tr>
+  <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>新しいプランとライセンス構造の場合：
-  <ul><li>Ultimateプラン </li></ul>
-   </p>
-<p>現在のプランおよびライセンス構造の場合： 
-<ul><li> プロまたはそれ以上 </li>
-  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
-   </td>  
+   <p>Adobe WorkfrontUltimate</p>
+   </td> 
   </tr>
  <tr>
- <td role="rowheader">Adobe Workfront プラン*</td>
+ <td role="rowheader">Adobe Workfront プラン</td>
  <td>
- <p>新規ライセンス：コントリビューター以上</p>
- または
- <p>現在のライセンス：リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td>
+ <p>投稿者以上</p>
+<p>リクエスト以上</p></td>
  </tr>
- <tr>
- <td role="rowheader">製品*</td>
- <td>
-   <p> 新しい製品要件：Workfront</p>
-  <p>または</p>
-   <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
- </tr>
- <tr>
- <td role="rowheader">アクセスレベル</td>
+  <tr>
+ <td role="rowheader">アクセスレベル設定</td>
  <td> <p>Goals への編集アクセス権</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">オブジェクト権限</td>
  <td>
   <div>
-  <p>目標の表示には表示権限以上が必要</p>
-  <p>目標に対する編集権限を管理</p>
-  <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p>
+  <p>目標に対する表示以上の権限を目標に表示</p>
+  <p>目標に対する権限の管理と編集</p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td>  
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license*</td>
+ <td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+   <p> New product requirement: Workfront</p>
+  <p>Or</p>
+   <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
 
 ## Workfront Goals のフィルターの概要
 
@@ -121,7 +164,7 @@ Workfront Goals でフィルターを使用する際は、次の点を考慮し�
 
 フィルターの作成手順は、Workfront Goals のどのセクションでも同じです。
 
-一からフィルターを作成することも、組み込みのフィルターのいずれかを編集することもできます。
+一からフィルターを作成することも、ビルトインのフィルターのいずれかを編集することもできます。
 
 1. Workfront Goals に移動します。
 
@@ -175,7 +218,7 @@ Workfront Goals でフィルターを使用する際は、次の点を考慮し�
       </tbody> 
      </table>
 
-   * フィルターの名前にポインタを合わせて、その名前の横にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてカスタマイズし、ユーザー、チーム、グループの特定の名前、または組織の名前を追加してから、リストに表示されたら選択します。
+   * フィルターの名前にポインタを合わせて、その名前の横にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてカスタマイズし、ユーザー、チーム、グループの特定の名前、または組織の名前を追加してから、リストに表示されたら選択します。
 
    * 「**新規フィルター**」をクリックして新しいフィルターを作成し、次のオプションのいずれかを選択して、新しいフィルターをカスタマイズします。
 
@@ -252,11 +295,11 @@ Workfront Goals でフィルターを使用する際は、次の点を考慮し�
 
 1. （オプションおよび条件付き）「目標の整合性」セクションで目標を表示して、フィルターした目標を表示する場合は「**表示する**」をクリックします。
 
-   ![&#x200B; フィルターされた項目にリンクを表示 &#x200B;](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![ フィルターされた項目にリンクを表示 ](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    フィルター名は、無視されていることを示すために黄色でアウトライン表示されます。
 
-   ![&#x200B; 黄色の輪郭をフィルタ &#x200B;](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![ 黄色の輪郭をフィルタ ](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. （オプションおよび条件付き）「**フィルターを再適用**」をクリックして、前の手順で表示した項目を除外し、フィルターを適用します。

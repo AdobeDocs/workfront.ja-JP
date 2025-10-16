@@ -1,23 +1,23 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: イシューの作成
+title: 問題の作成
 description: プロジェクトに取り組んでいると、予期しないイベントが発生することがあります。これらの予期しないイベントは、特定のプロジェクトやタスクに対するイシューとして記録できます。適切なアクセス権を持つユーザーは、プロジェクトまたはタスクが完了に向けて進行するにつれてイシューのステータスを表示および監視できるため、長時間にわたるメールチェーンや状況会議の必要がなくなります。予定イベントであるタスクとは異なり、イシューは Adobe Workfront の予定外の作業アイテムを表します。
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1461'
 ht-degree: 88%
 
 ---
 
 # イシューの作成
 
-<!--Audited: 03/2025-->
+<!--Audited: 08/2025-->
 
 <!--
 
@@ -41,23 +41,21 @@ ht-degree: 88%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新しいライセンス：</p>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
    <ul><li>投稿者以上</li>
    <li>タスクまたはプロジェクトの「イシュー」セクションのイシューを編集するためのライト以上</li></ul>
-   <p>現在のライセンス：</p>
-  <ul><li>リクエスト以上</li> <li>タスクまたはプロジェクトの「イシュー」セクションでレビュー以上のイシューを編集する</li></ul> </td> 
+   または
+   <ul><li>リクエスト以上</li> <li>タスクまたはプロジェクトの「イシュー」セクションでレビュー以上のイシューを編集する</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -70,9 +68,40 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New license:</p>
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to edit issues in the Issues section of a task or project</li></ul>
+   <p>Current license:</p>
+  <ul><li>Request or higher</li> <li>Review or higher to edit issues in the Issues section of a task or a project</li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions with ability to Add Issues to the task or project where you create the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 <!--
 (NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
@@ -123,7 +152,7 @@ ht-degree: 88%
 1. イシューのリストの上部にある「**新しいイシュー**」をクリックします。
 「新規イシュー」ボックスが表示されます。
 
-   ![&#x200B; 新しいイシューボックス &#x200B;](assets/new-issue-box-matches-new-request-ui.png)
+   ![ 新しいイシューボックス ](assets/new-issue-box-matches-new-request-ui.png)
 
 1. （条件付き）プロジェクト作成者がプロジェクト上にキューのトピックまたはトピックグループを作成した場合、それらは新しいイシューフォームに追加されます。新しいイシューの&#x200B;**トピックグループ**&#x200B;または&#x200B;**キューのトピック**&#x200B;を指定します。トピックグループとキューのトピックには、環境に合わせてカスタマイズされた名前が付いています。\
    トピックグループの作成の詳細については、[トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。キューのトピックの作成について詳しくは、[キューのトピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
@@ -191,7 +220,7 @@ ht-degree: 88%
    >
    >プロジェクトの編集ボックスで「ユーザーがインラインで問題を追加できるようにする」設定が選択解除されている場合、このオプションはグレー表示になります。詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
-   ![&#x200B; 「さらにイシューを追加」ボタン &#x200B;](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
+   ![ 「さらにイシューを追加」ボタン ](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
 1. 「名前」フィールドにイシューの名前を入力し、イシューに関する詳細情報の追加をインラインで続行します。
 

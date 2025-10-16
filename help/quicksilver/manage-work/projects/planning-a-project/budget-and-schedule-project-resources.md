@@ -3,10 +3,10 @@ product-area: projects;resource-management
 navigation-topic: plan-a-project
 title: プロジェクトリソースの予算およびスケジュール
 description: プロジェクトリソースの予算およびスケジュール
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: b06151736b0ac128d76f2ba97f91a0165b052824
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
@@ -14,10 +14,6 @@ ht-degree: 100%
 ---
 
 # プロジェクトリソースの予算およびスケジュール
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article is only valuable for searching. All the information resides in other articles.)</p>
--->
 
 リソースの予算計上とスケジュール設定は、プロジェクト計画の一部です。
 

@@ -1,16 +1,16 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: プロジェクトをコピー
+title: プロジェクトのコピー
 description: プロジェクトをゼロから作成する代わりにコピーできます。コピーできるプロジェクトは一度に 1 つだけです。プロジェクトを一括でコピーすることはできません。
 author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 63%
+source-wordcount: '712'
+ht-degree: 60%
 
 ---
 
@@ -52,36 +52,6 @@ ht-degree: 63%
 
 ## アクセス要件
 
-<!-- drafted for P&P:
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -90,23 +60,20 @@ ht-degree: 63%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront プラン</p> </td> 
+   <td> <p>Adobe Workfront パッケージ</p> </td>  
    <td>任意</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront プラン</p> </td> 
-   <td> <p>新規：標準 </p> 
-   <p>または</p>
-   <p>現在：プラン </p>
+   <td> <p>標準</p> 
+   <p>プラン</p>
+      </td> 
+  </tr> 
+     <td>アクセスレベル設定 </td> 
+   <td> <p>プロジェクトを作成およびコピーできるプロジェクトへのアクセスの編集</p> </td> 
+  </tr>
 
-</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>アクセスレベル設定 </td> 
-   <td> <p>プロジェクトの作成<span>とコピー</span>ができるプロジェクトへの編集アクセス</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p>オブジェクト権限 </p> </td> 
+<td> <p>オブジェクト権限 </p> </td> 
    <td> <p>プロジェクトに対する表示権限以上</p>  </td> 
   </tr> 
  </tbody> 
@@ -116,6 +83,35 @@ ht-degree: 63%
 
 +++
 
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>New: Standard </p> 
+   <p>Or</p>
+   <p>Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level configurations </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View permissions or higher to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## 単一のプロジェクトをコピーする
 
 プロジェクトをコピーすると、元のプロジェクトの情報が新しいプロジェクトにコピーされます。また、コピー処理中に新しいプロジェクトにコピーしない項目を指定することもできます。
@@ -124,17 +120,17 @@ ht-degree: 63%
 
 {{step1-to-projects}}
 
-1. プロジェクトリストからコピーするプロジェクトを選択し、プロジェクト名の右側にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/more-icon.png) をクリックします。
+1. プロジェクトリストからコピーするプロジェクトを選択し、プロジェクト名の右側にある **その他** アイコン ![ その他メニュー ](assets/more-icon.png) をクリックします。
 
    または
 
-   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/more-icon.png) をクリックします。
+   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他メニュー ](assets/more-icon.png) をクリックします。
 
 1. **その他** ドロップダウンメニューで、「**コピー**」をクリックします。 **プロジェクト名 [ のコピー]** ダイアログボックスが表示されます。
 
 1. （任意） **プロジェクト名** を更新します。 デフォルトでは、新しい名前は **元のプロジェクト名のコピー [ にな]** ます。
 
-   ![&#x200B; 「プロジェクトをコピー」ボックス &#x200B;](assets/copy-of-project-box.png)
+   ![ 「プロジェクトをコピー」ボックス ](assets/copy-of-project-box.png)
 
 1. **ステータス** を選択します。 デフォルトでは、元のプロジェクトのステータスが選択されます。
 

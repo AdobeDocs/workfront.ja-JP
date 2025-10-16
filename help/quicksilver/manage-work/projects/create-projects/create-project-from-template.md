@@ -6,10 +6,10 @@ description: テンプレートをフレームワークとして使用して、A
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 90%
+source-wordcount: '1159'
+ht-degree: 91%
 
 ---
 
@@ -45,29 +45,24 @@ ht-degree: 90%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront ライセンス*</td> 
-   <td> <p>新規：標準</p>
-        <p>または</p>
-        <p>現在：プラン </p> </td> 
+   <td role="rowheader">Workfront ライセンス</td> 
+   <td> <p>標準</p>
+        <p>プラン</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>プロジェクトおよびテンプレートへのアクセス権の編集</p>
-
-<p>使用するテンプレートにPortfolioとプログラムが含まれている場合、ポートフォリオとプログラムへのアクセスを編集します</p>
-
-</td> 
+   <p>使用するテンプレートにPortfolioとプログラムが含まれている場合、ポートフォリオとプログラムへのアクセスを編集します</p>  
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -78,9 +73,42 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Standard</p>
+        <p>or</p>
+        <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects and to Templates</p>
+   
+   <p>edit access to Portfolios and Programs, if the template you use contains a Portfolio and a Program</p>
+   
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a template</p> 
+  <p>If the template you use contains a Portfolio and a Program, you must have Manage permissions to the portfolio and program to create the project </p> 
+   <p>When you create a project, you automatically receive Manage permissions to the project.</p></td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 「プロジェクト」エリアでのテンプレートからのプロジェクトの作成
 
@@ -137,7 +165,7 @@ ht-degree: 90%
       * テンプレート内のすべてのタスクの数
       * テンプレートのカスタムフォームの名前
 
-   1. （任意）左側のペインのテンプレート名の上にマウスポインターを置き、**お気に入り**&#x200B;**アイコン**![&#x200B; お気に入りアイコン &#x200B;](assets/favorites-icon-small.png) をクリックして、後で使用するためにお気に入りとしてマークします。
+   1. （任意）左側のペインのテンプレート名の上にマウスポインターを置き、**お気に入り****アイコン**![ お気に入りアイコン ](assets/favorites-icon-small.png) をクリックして、後で使用するためにお気に入りとしてマークします。
 
       または
 
@@ -175,7 +203,7 @@ ht-degree: 90%
 {{step1-to-templates}}
 
 1. 使用するテンプレートの名前をクリックします。
-1. **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**プロジェクトを作成** をクリックします。
+1. **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**プロジェクトを作成** をクリックします。
 
    ![テンプレートからプロジェクトを作成](assets/project-sharing-on-template.png)
 

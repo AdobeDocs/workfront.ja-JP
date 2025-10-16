@@ -7,10 +7,10 @@ description: Adobe Workfront 管理者は、ドキュメントへのアクセス
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 48c0f5c617f41a4ce51ea45c17817aa869ba5adb
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 45%
+source-wordcount: '1387'
+ht-degree: 44%
 
 ---
 
@@ -22,7 +22,7 @@ Workfront管理者は、「設定」の「アクセスレベル」領域で、�
 
 * 権限は個々の項目に適用され、ユーザーが実行できるアクションを定義します。
 * ドキュメントを自動的にアップロードするユーザーに対するフルコントロールの権限（管理権限）が付与されます。
-* フォルダー全体を共有するには、[&#x200B; ドキュメントフォルダーの共有 &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) を参照してください。
+* フォルダー全体を共有するには、[ ドキュメントフォルダーの共有 ](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) を参照してください。
 
 >[!NOTE]
 >
@@ -34,21 +34,18 @@ Workfront管理者は、「設定」の「アクセスレベル」領域で、�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
-オブジェクトを共有するには、次の条件を満たしている必要があります。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準</p> 
-   または
-   <p>現在：ワーク以上</p>
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -62,7 +59,7 @@ Workfront管理者は、「設定」の「アクセスレベル」領域で、�
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -76,9 +73,9 @@ Workfront にドキュメントをアップロードするユーザーには、�
 
 1. **ドキュメント** ページで、共有するドキュメントの上にマウスポインターを置き、表示される **ドキュメントの詳細** リンクをクリックします。 **ドキュメントの詳細** ページが開きます。
 
-   ![&#x200B; ドキュメントの詳細リンク &#x200B;](assets/document-details-link.png)
+   ![ ドキュメントの詳細リンク ](assets/document-details-link.png)
 
-1. ドキュメント名の右側にある **その他** アイコン ![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) をクリックし、「**共有**」をクリックします。 **共有 [ ドキュメント名]** ダイアログボックスが開きます。
+1. ドキュメント名の右側にある **その他** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックし、「**共有**」をクリックします。 **共有 [ ドキュメント名]** ダイアログボックスが開きます。
 
    ![ドキュメントを共有](assets/share-a-document-350x160.png)
 
@@ -94,7 +91,7 @@ Workfront にドキュメントをアップロードするユーザーには、�
    * **招待されたユーザーのみがアクセスできます：** ドキュメントに招待されたユーザーのみがドキュメントにアクセスできます（デフォルト）。
    * **システム内の全員が閲覧可能**：システム内のすべてのユーザーが、招待なしにドキュメントを閲覧できます。
 
-1. （オプション）ドキュメントを公開するには、歯車アイコンをクリック ![&#x200B; 歯車アイコンを選択 &#x200B;](assets/gear-icon.png) し、「**これを外部ユーザーに公開** とインラインのボックスをクリックします。 **公開リンクをコピー** ボタンがダイアログボックスの下部に表示されます。
+1. （オプション）ドキュメントを公開するには、歯車アイコンをクリック ![ 歯車アイコンを選択 ](assets/gear-icon.png) し、「**これを外部ユーザーに公開** とインラインのボックスをクリックします。 **公開リンクをコピー** ボタンがダイアログボックスの下部に表示されます。
 
 1. ユーザー名の右側のドロップダウンをクリックし、このドキュメントに対する権限レベルを選択します。
 
@@ -103,7 +100,7 @@ Workfront にドキュメントをアップロードするユーザーには、�
 
 1. （オプション）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、ドキュメントに対する特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-options-icon.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-options-icon.png)
 
 1. （オプション）ドキュメントの子オブジェクトに対する継承された権限をオフにするには、**継承された権限** でインライン **オフ** をクリックします。
 
@@ -121,9 +118,9 @@ Workfront にドキュメントをアップロードするユーザーには、�
 
 1. **文書** ページの **すべての文書** タブで、キーボードの **Command** （Mac）または **Ctrl** （Windows）を押しながら、共有する各文書をクリックします。
 
-1. ページの上部にある「**共有**」アイコン ![&#x200B; 共有アイコン &#x200B;](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
+1. ページの上部にある「**共有**」アイコン ![ 共有アイコン ](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
 
-   ![&#x200B; 共有アイコン &#x200B;](assets/share-documents-in-bulk.png)
+   ![ 共有アイコン ](assets/share-documents-in-bulk.png)
 
 1. **ドキュメントへのアクセスの許可** フィールドに、ドキュメントを共有するユーザー、チーム、役割、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
@@ -144,13 +141,13 @@ Workfront にドキュメントをアップロードするユーザーには、�
 
 1. （オプション）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、ドキュメントに対する特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-options-icon.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-options-icon.png)
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
 ## Adobe エンタープライズストレージを使用したドキュメント共有
 
-Workfrontは、Adobe Creative Cloud製品との接続性を高めるために、Adobe エンタープライズストレージソリューションへの移行を進めています。 既存のお客様は、段階的に新しいモデルに移動します。 Adobe エンタープライズストレージのメリットについて詳しくは、[Adobe エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+Workfrontは、Adobe Creative Cloud製品との接続性を高めるために、Adobe エンタープライズストレージソリューションへの移行を進めています。 既存のお客様は、段階的に新しいモデルに移動します。 Adobe エンタープライズストレージのメリットについて詳しくは、[Adobe エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 Workfront インスタンスがAdobe エンタープライズストレージを使用している場合、個々のドキュメントを直接共有することはできません。 代わりに、プロジェクトレベルでアクセスを許可する必要があります。
 

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 70%
+source-wordcount: '716'
+ht-degree: 71%
 
 ---
 
@@ -47,26 +47,21 @@ ht-degree: 70%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>新規：Ultimate</p>
-   <p>現在：[!UICONTROL Business] 以上</p> 
-   </td> 
+   <td role="rowheader">Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td><p>新規：[!UICONTROL Standard]</p>
-   <p>現在：[!UICONTROL Plan]</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p> <p>プラン</p></td> 
   </tr> 
-   <tr> 
-   <td role="rowheader"><p>アクセスレベル</p></td> 
-   <td><p>システム管理者</p>
-   </td> 
-  </tr>
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td>Workfront 管理者である必要があります。 </td> 
+  </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -78,7 +73,7 @@ ht-degree: 70%
 
    「**新規スコアカード**」ボックスが開きます。
 
-   ![&#x200B; 新しいスコアカードボックス &#x200B;](assets/new-scorecard-350x173.png)
+   ![ 新しいスコアカードボックス ](assets/new-scorecard-350x173.png)
 
 1. **[!UICONTROL スコアカード名]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を指定します。
 
@@ -116,7 +111,7 @@ ht-degree: 70%
    >
    >スコアカード内の質問を正しい順序でドラッグ＆ドロップすることで並べ替えることができます。
 
-1. **[!UICONTROL 保存]**&#x200B;をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
    これによりスコアカードが作成され、プロジェクト管理者がプロジェクトのビジネス ケースに添付できるようになります。
 
@@ -127,11 +122,11 @@ ht-degree: 70%
 {{step-1-to-setup}}
 
 1. 左側のパネルで **[!UICONTROL スコアカード]** をクリックします。
-1. リストでスコアカードを選択し、スコアカードリストの上部にある **コピー** アイコン ![&#x200B; スコアカードコピー &#x200B;](assets/copy-scorecard-icon.png) アイコンをクリックします。
+1. リストでスコアカードを選択し、スコアカードリストの上部にある **コピー** アイコン ![ スコアカードコピー ](assets/copy-scorecard-icon.png) アイコンをクリックします。
 
    「**スコアカードをコピー** ボックスが開きます。
 
-   ![&#x200B; スコアカードボックスをコピー &#x200B;](assets/copy-scorecard-box.png)
+   ![ スコアカードボックスをコピー ](assets/copy-scorecard-box.png)
 
 1. 次の情報を指定します。
 
@@ -139,7 +134,7 @@ ht-degree: 70%
 
      `Original scorecard name (Copy)`
    * **説明**: スコアカードに関する追加情報を入力します。
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
    元のスコアカードと同じ情報を持つ新しいスコアカードが作成されます。 プロジェクトマネージャーは、プロジェクトのビジネスケースに添付できるようになりました。
 
@@ -149,6 +144,6 @@ ht-degree: 70%
 
 プロジェクトのビジネスケースを作成する際に、スコアカードをプロジェクトに追加します。プロジェクトへのスコアカードの追加について詳しくは、[プロジェクトへのスコアカードの適用およびアラインメントスコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)を参照してください。
 
-プロジェクト権限について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でのプロジェクトの共有を参照してください。
+プロジェクト権限について詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でのプロジェクトの共有を参照してください。
 
 

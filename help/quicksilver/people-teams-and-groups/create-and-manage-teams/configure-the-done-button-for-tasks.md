@@ -6,16 +6,16 @@ description: 「完了」ボタンは、タスクまたはイシューのステ�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 91%
+source-wordcount: '759'
+ht-degree: 90%
 
 ---
 
 # タスクの「[!UICONTROL 完了]」ボタンの設定
 
-「[!UICONTROL 完了]」ボタンを使用すると、タスクまたはイシューのステータスを自動的に設定できます。デフォルトでは、0&rbrace;Adobe Workfront&rbrace; は、担当者が作業項目で「完了としてマーク」をクリックすると、タスクを [!UICONTROL &#x200B; 完了 &#x200B;] としてマークします。
+「[!UICONTROL 完了]」ボタンを使用すると、タスクまたはイシューのステータスを自動的に設定できます。デフォルトでは、[!UICONTROL 0}Adobe Workfront} は、担当者が作業項目で「完了としてマーク」をクリックすると、タスクを ] 完了 [!UICONTROL  としてマークします。]
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 91%
 
 ## 概要
 
-特定の権限を持つユーザーは、「[!UICONTROL &#x200B; 完了 &#x200B;]」ボタンを設定して、システム内の特定のステータスに関連付けることができます。 [!UICONTROL Workfront] でのタスクに対する「[!UICONTROL 完了]」ボタンの動作は 2 とおりあります。
+特定の権限を持つユーザーは、「[!UICONTROL  完了 ]」ボタンを設定して、システム内の特定のステータスに関連付けることができます。 [!UICONTROL Workfront] でのタスクに対する「[!UICONTROL 完了]」ボタンの動作は 2 とおりあります。
 
 * ユーザーにホームチームが割り当てられている場合、[!DNL Workfront] 管理者または[!UICONTROL プラン]ライセンスを持つユーザーは、チームメンバーの特定のステータスを反映するように「[!UICONTROL 完了]」ボタンを設定できます。この記事の[チームの「[!UICONTROL 完了]」ボタンの設定](#configure-the-uicontrol-done-button-for-a-team)を参照してください。
 * ユーザーには[!UICONTROL ホームチーム]がないが、ユーザーのプロファイルには[!UICONTROL 他のチーム]がある場合、Workfront では、ユーザーに関連付けられているチームのいずれかで「[!UICONTROL 完了]」ボタンの設定を検索します。選択はランダムであり、いずれかのチームに関連付けられているステータスがタスクに使用されます。
@@ -33,23 +33,20 @@ ht-degree: 91%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront パッケージ</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td>
-  </tr> 
+   <p>標準</p>
+   <p>プラン</p></td>
+  </tr>  
  </tbody> 
 </table>
 

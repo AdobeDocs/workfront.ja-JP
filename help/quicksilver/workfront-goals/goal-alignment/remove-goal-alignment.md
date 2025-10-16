@@ -6,10 +6,10 @@ description: 2 つの目標を接続しても意味がない場合は、それ�
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 82%
+source-wordcount: '428'
+ht-degree: 75%
 
 ---
 
@@ -26,9 +26,13 @@ ht-degree: 82%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+>[!NOTE]
+>
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>
+>Adobe Workfront Goals は購入できなくなりました。
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto">
 <col>
@@ -37,52 +41,89 @@ ht-degree: 82%
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront プラン*</td>
- <td> 
-   <p>新しいプランとライセンス構造の場合：
-  <ul><li>Ultimateプラン </li></ul>
-   </p>
-<p>現在のプランおよびライセンス構造の場合： 
-<ul><li> プロまたはそれ以上 </li>
-  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
+  <td> <p>Adobe Workfront パッケージ</p> </td> 
+   <td> 
+   <p>Adobe WorkfrontUltimate</p>
    </td> 
- </tr>
+  </tr> 
  <tr>
- <td role="rowheader">Adobe Workfront プラン*</td>
+ <td role="rowheader">Adobe Workfront プラン</td>
  <td>
- <p>新規ライセンス：コントリビューター以上</p>
- または
- <p>現在のライセンス：リクエスト以上</p> </td>
+ <p>投稿者以上</p>
+ <p>リクエスト以上</p> </td>
  </tr>
- <tr>
- <td role="rowheader">製品*</td>
- <td>
-   <p> 新しい製品要件：Workfront</p>
-   または
-   <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
- </tr>
- <tr>
+  <tr>
  <td role="rowheader">アクセスレベル</td>
  <td> <p>Goals への編集アクセス権</p> </td>
  </tr>
- <tr data-mc-conditions="">
+ <tr>
  <td role="rowheader">オブジェクト権限</td>
  <td>
   <p>目標の表示には表示権限以上が必要</p>
   <p>目標に対する編集権限を管理</p>
-  <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p>
-  </td>
+
+</td>
  </tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront plan*</td>
+ <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license*</td>
+ <td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+   <p> New product requirement: Workfront</p>
+   Or
+   <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </td>
+ </tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
 
 ## 前提条件
 
@@ -124,9 +165,9 @@ Removing goal alignment differs depending on which environment you use.
 1. Workfront の&#x200B;**目標**&#x200B;エリアにアクセスし、目標の名前をクリックして、目標のページを開きます。
 1. 親目標の目標ページで、左パネルの&#x200B;**進行状況インジケーター**&#x200B;をクリックします。
 
-   ![&#x200B; 目標の整合性の再移動 &#x200B;](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![ 目標の整合性の再移動 ](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. **タイプ：目標** グループ化で、目標を選択し、リストの上部にある **切断** アイコン ![&#x200B; 切断アイコン &#x200B;](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) をクリックします。
+1. **タイプ：目標** グループ化で、目標を選択し、リストの上部にある **切断** アイコン ![ 切断アイコン ](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) をクリックします。
 
    連携解除ボックスが表示されます。
 

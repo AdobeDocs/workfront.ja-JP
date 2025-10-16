@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: タスクの予定完了日の概要
+title: タスクの完了予定日の概要
 description: タスクの予定完了日とは、タスクが完了するように設定された日付です。
 author: Alina
 feature: Work Management
 exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 74%
+ht-degree: 73%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 74%
 
 タスクの予定完了日を指定することも、Workfront に任せて、特定の基準に基づいて計算することもできます。
 
-プロジェクトのタスクの予定完了日によって、プロジェクトが開始日からスケジュールされているときの、プロジェクトの予定完了日が決まります。 プロジェクト予定完了日の詳細については、「[&#x200B; プロジェクト予定完了日の設定 &#x200B;](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)」を参照してください。
+プロジェクトのタスクの予定完了日によって、プロジェクトが開始日からスケジュールされているときの、プロジェクトの予定完了日が決まります。 プロジェクト予定完了日の詳細については、「[ プロジェクト予定完了日の設定 ](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)」を参照してください。
 
 >[!NOTE]
 >

@@ -6,10 +6,10 @@ description: ドキュメントをチェックアウトすると、他のユー�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 92%
+source-wordcount: '634'
+ht-degree: 90%
 
 ---
 
@@ -21,32 +21,32 @@ ht-degree: 92%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ドキュメントへのアクセス権を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントへのアクセス権を管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -77,9 +77,9 @@ ht-degree: 92%
 
    ドキュメントの追加について詳しくは、[ファイルシステムから Adobe Workfront にドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)を参照してください。
 
-1. **チェックアウト** アイコン ![&#x200B; チェックアウトアイコン &#x200B;](assets/check-out-25x23.png) をクリックします。
+1. **チェックアウト** アイコン ![ チェックアウトアイコン ](assets/check-out-25x23.png) をクリックします。
 
-1. ドキュメント名の右側に鍵アイコン ![&#x200B; 鍵アイコン &#x200B;](assets/lock-icon-locked-qs.png) が表示されます。 Workfront からログアウトした後でも、ドキュメントはチェックアウトされたままになります。
+1. ドキュメント名の右側に鍵アイコン ![ 鍵アイコン ](assets/lock-icon-locked-qs.png) が表示されます。 Workfront からログアウトした後でも、ドキュメントはチェックアウトされたままになります。
 1. ドキュメントをチェックアウトしたユーザーか、Workfront 管理者のみが、ドキュメントをチェックインできます。
 
 ## チェックアウトしたドキュメントを管理
@@ -103,6 +103,6 @@ ht-degree: 92%
 
 1. ドキュメントが保存されているエリアに移動し、ドキュメントを選択します。 
 
-   ドキュメント名の右側に鍵アイコン ![&#x200B; 鍵アイコン &#x200B;](assets/lock-icon-locked-qs.png) が表示されます。
+   ドキュメント名の右側に鍵アイコン ![ 鍵アイコン ](assets/lock-icon-locked-qs.png) が表示されます。
 
-1. **チェックイン** アイコン ![&#x200B; チェックインアイコン &#x200B;](assets/check-in-25x22.png) をクリックします。
+1. **チェックイン** アイコン ![ チェックインアイコン ](assets/check-in-25x22.png) をクリックします。

@@ -6,10 +6,10 @@ description: 「目標の整合性」セクションを使用して、組織全�
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 91%
+source-wordcount: '901'
+ht-degree: 87%
 
 ---
 
@@ -26,9 +26,50 @@ ht-degree: 91%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+>[!NOTE]
+>
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>
+>Adobe Workfront Goals は購入できなくなりました。
 
-この記事で説明するアクティビティを実行するには、次の操作が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr>
+  <td> <p>Adobe Workfront パッケージ</p> </td> 
+   <td> 
+   <p>Adobe WorkfrontUltimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront プラン</p> </td> 
+   <td> <p>投稿者以上</p> 
+     <p>要求者以上</p> </td> 
+  </tr>
+
+<td><p>アクセスレベル設定</p> </td> 
+   <td> <p>Goals への編集アクセス権</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>オブジェクト権限 </p> </td> 
+   <td> <p>目標の表示には表示権限以上が必要</p>
+<p>目標に対する編集権限を管理</p>
+  <tr>
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+</td>
+  </tr>
+ </tbody> 
+</table>
+
+詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++ 
+
+<!--Old:
 
 <table style="table-layout:auto">
 <col>
@@ -37,54 +78,50 @@ ht-degree: 91%
 </col>
 <tbody>
 <tr>
-<td role="rowheader">Adobe Workfront プラン*</td>
+<td role="rowheader">Adobe Workfront plan*</td>
 <td> 
-   <p>新しいプランとライセンス構造の場合：
-  <ul><li>Ultimateプラン </li></ul>
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
    </p>
-<p>現在のプランおよびライセンス構造の場合： 
-<ul><li> プロまたはそれ以上 </li>
-  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
    </td> 
 </tr>
 <tr>
-<td role="rowheader">Adobe Workfront プラン*</td>
+<td role="rowheader">Adobe Workfront license*</td>
 <td>
-<p>新規ライセンス：コントリビューター以上</p>
-または
-<p>現在のライセンス：リクエスト以上</p>  </td>
+<p>New license: Contributor or higher</p>
+Or
+<p>Current license: Request or higher</p>  </td>
 </tr>
 <tr>
-<td role="rowheader">製品*</td>
+<td role="rowheader">Product*</td>
 <td>
-  <p> 新しい製品要件：Workfront</p>
-  または
-  <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+  <p> New product requirement: Workfront</p>
+  Or
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
 </tr>
 <tr>
-<td role="rowheader">アクセスレベル</td>
-<td> <p>Goals への編集アクセス権</p> </td>
+<td role="rowheader">Access level</td>
+<td> <p>Edit access to Goals</p> </td>
 </tr>
 <tr data-mc-conditions="">
-<td role="rowheader">オブジェクト権限</td>
+<td role="rowheader">Object permissions</td>
 <td>
 <div>
-<p>目標の表示には表示権限以上が必要</p>
-<p>目標に対する編集権限を管理</p>
-<p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p>
+<p>View or higher permissions to the goal to view it</p>
+<p>Manage permissions to the goal to edit it</p>
+<p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
 </div> </td>
 </tr>
 <tr>
-<td role="rowheader"><p>レイアウトテンプレート</p></td>
-<td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
+<td role="rowheader"><p>Layout template</p></td>
+<td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
 </td>
 </tr>
 </tbody>
-</table>
-
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+</table>-->
 
 ## 目標の関連付けページへの移動
 
@@ -144,11 +181,11 @@ ht-degree: 91%
 
    他の目標に整合させた目標は、その数が目標カードの下に表示されます。
 
-   ![&#x200B; 整列グラフの矢印 &#x200B;](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![ 整列グラフの矢印 ](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. 目標の下の&#x200B;**下向き矢印**&#x200B;アイコンをクリックして、子目標をさらに展開し表示します。
 
-   ![&#x200B; 整列グラフの矢印 &#x200B;](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![ 整列グラフの矢印 ](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -156,7 +193,7 @@ ht-degree: 91%
 
 1. （条件付き）現在のフィルターでアラインメントに関与する一部の目標が除外されている場合は、すべての目標が表示されるというわけではないことを示す警告メッセージが表示されます。
 
-   ![&#x200B; 親目標が除外されました &#x200B;](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![ 親目標が除外されました ](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. 「**表示**」をクリックして、現在フィルターによって削除されている目標を表示します。
 
@@ -165,14 +202,14 @@ ht-degree: 91%
    * 以前フィルターで削除された連結目標が、アラインメントチャートに表示されるようになりました。
    * 右上隅のフィルターは黄色で囲まれていますが、これは現在適用されていないことを示しています。
 
-     ![&#x200B; 黄色のフィルタ ハイライト &#x200B;](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![ 黄色のフィルタ ハイライト ](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      フィルター名の左側に、フィルターを再適用リンクが表示されます。
 
 1. （オプション）「**フィルターを再適用**」をクリックして元の結果に戻り、目標の階層を表示します。
 1. （オプション）進行状況のインジケーターの上にポインタを合わせて、現在の 1 日の目標の進行状況を把握します。
 
-   ![&#x200B; 整列グラフにマウスポインターを合わせる &#x200B;](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![ 整列グラフにマウスポインターを合わせる ](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    次の情報が表示されます。
 

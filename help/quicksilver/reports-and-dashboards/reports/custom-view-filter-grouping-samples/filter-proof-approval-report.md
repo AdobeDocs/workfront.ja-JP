@@ -7,10 +7,10 @@ description: プルーフの承認レポートでは、「現在のドキュメ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 47%
+source-wordcount: '379'
+ht-degree: 44%
 
 ---
 
@@ -24,28 +24,21 @@ ht-degree: 47%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-    <p>新規：</p>
-   <ul><li><p>フィルターを変更するコントリビューター </p></li>
-   <li><p>レポートを変更する場合は Standard</p></li> </ul>
-
-<p>現在：</p>
-   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
-   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
+   <p>フィルターの変更者または変更依頼 </p>
+   <p>レポートを変更するための標準またはプラン</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -58,7 +51,7 @@ ht-degree: 47%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -74,7 +67,7 @@ ht-degree: 47%
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   独自のプルーフ承認レポートを作成するには、右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、または右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニュー行 &#x200B;](assets/lines-main-menu.png) をクリックし（使用可能な場合）、**レポート**![&#x200B; レポートアイコン &#x200B;](assets/reports-in-main-menu.png) をクリックします。
+   独自のプルーフ承認レポートを作成するには、右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、または右上隅にある **メインメニュー** アイコン ![ メインメニュー行 ](assets/lines-main-menu.png) をクリックし（使用可能な場合）、**レポート**![ レポートアイコン ](assets/reports-in-main-menu.png) をクリックします。
 
 1. **新しいレポート** をクリックします。 オブジェクトタイプのリストが表示されます。
 1. リストの **プルーフの承認** をクリックします。

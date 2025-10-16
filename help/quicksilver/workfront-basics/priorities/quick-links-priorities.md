@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 17%
+source-wordcount: '290'
+ht-degree: 13%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 17%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,14 @@ ht-degree: 17%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
-   <p>現在：問題については要求以上、タスクについては作業以上</p>
-   <p>新規：コントリビューター以上またはイシュー、タスクはライト以上</p> 
+   <p>問題については以上を要求、タスクについては以上を要求</p>
+   <p>投稿者以上または問題。タスクについては軽度以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +51,7 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -64,8 +62,8 @@ ht-degree: 17%
 1. 作業項目名をクリックして、**概要** ページを開きます。
 1. [**クイック リンク**] セクションで、[**リンクの追加**] をクリックします。
 1. URL を「**リンクを追加** ボックスに貼り付けます。
-1. **保存**&#x200B;をクリックします。
-   ![&#x200B; リンクを追加 &#x200B;](assets/add-link.png)
+1. 「**保存**」をクリックします。
+   ![ リンクを追加 ](assets/add-link.png)
 
 ## クリップボードへのクイックリンクのコピー
 
@@ -73,8 +71,8 @@ ht-degree: 17%
 
 1. 作業項目名をクリックして、**概要** ページを開きます。
 1. [**クイック リンク**] セクションで、コピーするリンクを検索します。
-1. **コピー**![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png) アイコンをクリックします。
-   ![&#x200B; リンクをコピー &#x200B;](assets/copy-link.png)
+1. **コピー**![ コピーアイコン ](assets/copy-icon.png) アイコンをクリックします。
+   ![ リンクをコピー ](assets/copy-link.png)
 
 ## クイックリンクを開く
 
@@ -83,7 +81,7 @@ ht-degree: 17%
 1. 作業項目名をクリックして、**概要** ページを開きます。
 1. [**クイック リンク**] セクションで、開くリンクを探します。
 1. リンクをクリックします。 リンクが新しいタブで開きます。
-   ![&#x200B; リンクを開く &#x200B;](assets/open-link.png)
+   ![ リンクを開く ](assets/open-link.png)
 
 ## クイックリンクの削除
 
@@ -91,5 +89,5 @@ ht-degree: 17%
 
 1. 作業項目名をクリックして、**概要** ページを開きます。
 1. 画面の右上隅にある「**詳細を編集**」をクリックします。
-   ![&#x200B; 詳細を編集 &#x200B;](assets/edit-details.png)
-1. 削除するリンクを見つけ、「**削除**![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) アイコンをクリックします。
+   ![ 詳細を編集 ](assets/edit-details.png)
+1. 削除するリンクを見つけ、「**削除**![ 削除アイコン ](assets/delete-icon.png) アイコンをクリックします。

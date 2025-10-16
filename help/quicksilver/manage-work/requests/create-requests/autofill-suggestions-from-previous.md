@@ -5,10 +5,10 @@ description: AI を使用し、以前のリクエストのデータを使用し�
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 21039f9ab14529b56935d65e0261dc1ce068918c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 25%
+source-wordcount: '308'
+ht-degree: 18%
 
 ---
 
@@ -24,21 +24,18 @@ AI は、以前のリクエストに基づいてリクエストフィールド�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：Contributor 以上</p>
-   または
-   <p>現在：Request 以上</p>
+   <td> <p>投稿者以上</p>
+   <p>リクエスト以上</p>
     </td> 
   </tr> 
   <tr> 
@@ -52,7 +49,7 @@ AI は、以前のリクエストに基づいてリクエストフィールド�
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -66,7 +63,7 @@ AI は、以前のリクエストに基づいてリクエストフィールド�
 
 1. リクエストの作成を開始します。
 
-   手順については、[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+   手順については、[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
 
 1. フィールドへの入力の開始。
 
@@ -74,7 +71,7 @@ AI は、以前のリクエストに基づいてリクエストフィールド�
 
 1. フィールドの提案ごとに、そのフィールドに対して「**確定**」または **却下** を選択します。
 
-   ![&#x200B; 提案を承認または却下 &#x200B;](assets/accept-reject-suggestion.png)
+   ![ 提案を承認または却下 ](assets/accept-reject-suggestion.png)
 
    または
 

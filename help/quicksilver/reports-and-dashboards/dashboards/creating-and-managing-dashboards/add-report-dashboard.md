@@ -6,10 +6,10 @@ description: レポートを新規または既存のダッシュボードに、�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 86%
 
 <!-- Audited: 1/2025 -->
 
-レポートを新規または既存のダッシュボードに、レポートから直接追加できます。また、[&#x200B; ダッシュボードの作成 &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) で説明しているように、ダッシュボードに既存のレポートを追加することもできます。 1 つのダッシュボードに追加できるレポート、カレンダーまたは外部ページは最大 25 個であることに注意してください。
+レポートを新規または既存のダッシュボードに、レポートから直接追加できます。また、[ ダッシュボードの作成 ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) で説明しているように、ダッシュボードに既存のレポートを追加することもできます。 1 つのダッシュボードに追加できるレポート、カレンダーまたは外部ページは最大 25 個であることに注意してください。
 
 >[!NOTE]
 >
@@ -25,43 +25,35 @@ ht-degree: 86%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
+      <p>標準</p>
+      <p>プラン</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td role="rowheader">オブジェクト権限</td> 
    <td> <p>ダッシュボードに対する権限の管理</p> <p>レポートに対する権限の表示</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

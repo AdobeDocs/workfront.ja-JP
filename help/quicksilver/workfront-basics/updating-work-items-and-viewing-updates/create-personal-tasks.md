@@ -6,10 +6,10 @@ description: 個人タスクは、ユーザー、自分自身、または自分�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 6%
+source-wordcount: '655'
+ht-degree: 4%
 
 ---
 
@@ -34,20 +34,18 @@ Adobe Workfrontは、Wprfront が各ユーザーに対して自動的に作成�
 
 * ホームエリアで To Do アイテムを作成する
 
-  詳しくは、[&#x200B; ホームエリアからの作業項目とプロジェクトの作成 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
+  詳しくは、[ ホームエリアからの作業項目とプロジェクトの作成 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
 
 * ユーザープロファイルページからの個人の作業要求の作成と別のユーザーへの送信
 * ユーザープロファイルページからの個人の作業要求の作成と送信
 
 この記事では、ユーザープロファイル ページからユーザーまたは自分用の個人用作業要求を作成する方法について説明します。
 
-個人のタスクをどのように追加するかに関係なく、Workfrontの同じ領域でそれらを見つけることができます。 詳細については、この記事の「個人のタスクを検索する [&#x200B; を参照し &#x200B;](#locate-personal-tasks) ください。
+個人のタスクをどのように追加するかに関係なく、Workfrontの同じ領域でそれらを見つけることができます。 詳細については、この記事の「個人のタスクを検索する [ を参照し ](#locate-personal-tasks) ください。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,14 +54,15 @@ Adobe Workfrontは、Wprfront が各ユーザーに対して自動的に作成�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
-   <p>新規：他のユーザーにリクエストを送信するための標準。 すべてのユーザーは、自分で作業リクエストを作成できます。</p> 
-   <p>現在：他のユーザーにリクエストを送信することを計画します。 すべてのユーザーは、自分で作業リクエストを作成できます。</p>
+   <p>標準<p>
+   <p>プラン</p>
+   <p>これは、他のユーザーにリクエストを送信するために必要なライセンスです。 すべてのユーザーは、自分で作業リクエストを作成できます。</p> 
     </td> 
   </tr> 
   <tr> 
@@ -75,9 +74,36 @@ Adobe Workfrontは、Wprfront が各ユーザーに対して自動的に作成�
 </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>New: Standard to send requests to other users. All users can create a work request for themselves.</p> 
+   <p>Current: Plan to send requests to other users. All users can create a work request for themselves.</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>Edit access to Users to create a work request for them. View access to create a personal work request for yourself. </p>
+   </td> 
+  </tr> 
+ 
+ </tbody> 
+</table>-->
 
 
 ## 個人の作業要求の作成
@@ -112,8 +138,8 @@ Adobe Workfrontは、Wprfront が各ユーザーに対して自動的に作成�
 
 * 個人の要求が送信されたユーザーのホーム領域の To-Do ウィジェット。
 
-  詳しくは、[&#x200B; ホームエリアからの作業項目とプロジェクトの作成 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
+  詳しくは、[ ホームエリアからの作業項目とプロジェクトの作成 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
 
 * 個人のタスクレポートまたはリスト。 個人タスク フィルターを作成してタスク報告書またはリストに適用し、個人タスクのみを表示して、プロジェクト タスクを除外することができます。
 
-  詳しくは、[&#x200B; フィルター：個人用タスク &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md) を参照してください。
+  詳しくは、[ フィルター：個人用タスク ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md) を参照してください。

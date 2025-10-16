@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 96%
+source-wordcount: '789'
+ht-degree: 95%
 
 ---
 
@@ -23,32 +23,27 @@ ht-degree: 96%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-     <p>新規：標準</p>
-     <p>または</p>
-     <p>現在：プラン</p>
-   </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>システム管理者</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -82,7 +77,7 @@ ht-degree: 96%
 
 カスタムステータスが「イシュー」ステータスの場合は、4 つのイシュータイプ（バグレポート、変更依頼、イシュー、リクエスト）をすべて有効にする必要があります。例えば、以下に示すイシューステータスでは、「再オープン」には変更依頼のイシュータイプが選択されていないので、デフォルトのステータスとして使用することはきません。
 
-![&#x200B; すべてのイシュータイプが有効 &#x200B;](assets/all-4-issue-types-enabled.png)
+![ すべてのイシュータイプが有効 ](assets/all-4-issue-types-enabled.png)
 
 ## カスタムステータスをデフォルトのステータスとして設定
 
@@ -101,6 +96,6 @@ ht-degree: 96%
    >グループのカスタムステータスを設定している場合、後でプロジェクトを別のグループに割り当てると、プロジェクトのステータスがリロードみされ、変更される可能性があります。
 
    1. カスタムステータスを使用するプロジェクトに移動します。
-   1. その他メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
+   1. その他メニュー ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
    1. 表示される「**プロジェクトを編集**」ボックスの、「**プロジェクトの関連付け**」の「**グループ**」フィールドで、ステータスが存在するグループを選択します。
    1. 「**変更を保存**」をクリックします。

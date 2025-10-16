@@ -7,10 +7,10 @@ description: タスクに先行タスク関係を追加すると、依存関係�
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

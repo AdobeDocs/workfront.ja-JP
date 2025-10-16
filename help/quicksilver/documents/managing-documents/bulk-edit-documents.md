@@ -8,10 +8,10 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 16%
+source-wordcount: '671'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 16%
 ドキュメントのカスタムフォームを一括で編集する場合は、次の点を考慮してください。
 
 * 選択したすべてのドキュメントの情報を変更すると、個々のドキュメントの既存の情報が上書きされます。
-* 同じフィールドに異なる値を持つドキュメントを選択すると、そのフィールドに「複数の値」インジケーターが表示されます。 チェックボックス、ラジオボタン、トグルの各フィールドの横には、「複数の値」インジケーターが表示されます。
+* 同じフィールドに異なる値を持つドキュメントを選択すると、そのフィールドに「複数の値」インジケーターが表示されます。 チェックボックス、ラジオボタン、切替スイッチの各フィールドの横には、「複数の値」インジケーターが表示されます。
 * 複数オプション フィールド （切り替えまたはチェックボックスのセットとして表示されるフィールドなど）の 1 つのオプションを更新する場合、他のすべてのオプションが選択したドキュメント間で一致する必要があります。
 
 >[!BEGINSHADEBOX]
@@ -38,33 +38,31 @@ ht-degree: 16%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td><p> 新規：Contributor 以上</p> 
-   <p> 現在：Request 以上</p> </td> 
+   <td><p>投稿者以上</p> 
+   <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ドキュメントへのアクセス権を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントへのアクセス権を管理</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -74,8 +72,8 @@ ht-degree: 16%
 
 1. メインメニューからプロジェクトの「ドキュメント」タブまたはドキュメント エリアに移動します。
 1. キーボードの Ctrl キーまたは Cmd キーを押し、編集するドキュメントを選択します。
-1. 編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
-   ![&#x200B; ページ上の編集アイコンの場所 &#x200B;](assets/edit-multiple-documents.png)
+1. 編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+   ![ ページ上の編集アイコンの場所 ](assets/edit-multiple-documents.png)
 1. （任意）「**説明**」を追加または編集します。 各ドキュメントの説明が異なる場合は、「説明」ボックスに _複数の値_ が表示されます。 すべてのドキュメントに同じ説明を追加できますが、一括編集時に個々のドキュメントの説明を編集することはできません。
 1. カスタムフォームで次の変更を行います。
 
@@ -93,17 +91,17 @@ ht-degree: 16%
     <td>並べ替えるカスタムフォームをクリックしてドラッグします。</td>
     </tr>
     </table>
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
 
 ## ドキュメントレポートでのドキュメントの一括編集
 
 1. 既存のドキュメントレポートに移動します。
 または
-[&#x200B; カスタムレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) の説明に従って、ドキュメントレポートを作成します。
+[ カスタムレポートの作成 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) の説明に従って、ドキュメントレポートを作成します。
 1. 編集するドキュメントを選択します。
-1. 編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
-   ![&#x200B; ページ上の編集アイコンの場所 &#x200B;](assets/edit-multiple-documents.png)
+1. 編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+   ![ ページ上の編集アイコンの場所 ](assets/edit-multiple-documents.png)
 1. （任意）「**説明**」を追加または編集します。 各ドキュメントの説明が異なる場合は、「説明」ボックスに _複数の値_ が表示されます。 すべてのドキュメントに同じ説明を追加できますが、一括編集時に個々のドキュメントの説明を編集することはできません。
 1. カスタムフォームで次の変更を行います。
 
@@ -121,4 +119,4 @@ ht-degree: 16%
     <td>並べ替えるカスタムフォームをクリックしてドラッグします。</td>
     </tr>
     </table>
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。

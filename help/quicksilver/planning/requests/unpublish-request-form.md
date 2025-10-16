@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 793a856a963060cbade33a1c29f002cecf7f7e47
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 23%
+source-wordcount: '723'
+ht-degree: 18%
 
 ---
 
@@ -30,82 +30,41 @@ ht-degree: 23%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<ul><li><p>任意のWorkfront パッケージ</p></li>
+And
+<li><p>任意の計画パッケージ</p></li></ul>
+または
+<ul><li><p>任意のワークフローパッケージ</p></li>
+And
+<li><p>任意の計画パッケージ</p></li></ul>
+   </td> </tr>
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> 製品</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfrontの計画<p></li></ul></td>
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>ワークスペースに対する権限とレコードタイプの管理 </a> </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
-   <td>
-<p>次のいずれかのWorkfront プラン：</p>
-<ul><li>選択</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td>
-   <td>
-<p>任意 </p>  
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront platform</p></td>
-   <td>
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p>
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p>
-   </td>
-
-</tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
-   <td>
-   <p>標準</p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>オブジェクト権限</p></td>
-   <td>
-   <ul>
-   <li><p>ワークスペース <span class="preview"> およびレコードタイプ </span> に対する権限の管理 </p></li>
-    <li><p>システム管理者は、自分が作成していないワークスペースを管理できます。 </p></li>
-    </ul>
-   <p>Workfront Planning オブジェクトの共有権限について詳しくは、
-<a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Adobe Workfront Planning での共有権限の概要</a>を参照してください。 
-  </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p>  
-</td>
-  </tr>
- </tbody>
+</tbody> 
 </table>
 
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -125,17 +84,17 @@ ht-degree: 23%
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。
+1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。
 
    レコードタイプに関連付けられたすべてのリクエストフォームがテーブル表示に表示されます。
-1. リクエストフォームの名前にポインタを合わせ、名前の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、**共有** をクリックします。
+1. リクエストフォームの名前にポインタを合わせ、名前の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**共有** をクリックします。
 1. 次のいずれかを選択して、共有の選択肢を更新します。
 
    * ワークスペースに対する表示またはそれ以上のアクセス権を持つすべてのユーザー
    * ワークスペースに対する参加またはそれ以上のアクセス権を持つすべてのユーザー
    * リンクを知っているすべてのユーザー
 
-   詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+   詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 1. （任意）リクエストフォームの共有を変更し、新しいリンクを使用して新しいユーザーグループに共有する場合は、「**リンクをコピー**」をクリックします。
 
 ## レコードタイプのリクエストフォームを非公開にする
@@ -152,16 +111,16 @@ ht-degree: 23%
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。
+1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。
 
    レコードタイプに関連付けられたすべてのリクエストフォームがテーブル表示に表示されます。
-1. リクエストフォームの名前にポインタを合わせ、名前の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**非公開**」をクリックします。
+1. リクエストフォームの名前にポインタを合わせ、名前の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、「**非公開**」をクリックします。
 
 または
 
 リクエストフォームの名前をクリックして開き、リクエストフォームの右上隅にある「**非公開**」をクリックします。
 
-![&#x200B; ハイライト表示された「非公開」ボタン &#x200B;](assets/unpublish-button-highlighted.png)
+![ ハイライト表示された「非公開」ボタン ](assets/unpublish-button-highlighted.png)
 
 フォームが非公開になったことを知らせる確認が画面の下部に表示されます。
 

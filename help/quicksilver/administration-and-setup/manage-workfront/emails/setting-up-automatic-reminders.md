@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 88%
+source-wordcount: '625'
+ht-degree: 87%
 
 ---
 
@@ -37,19 +37,19 @@ Adobe Workfront 管理者は、すべてのタスクやイシューが期日に�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td>
+   <p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -57,6 +57,8 @@ Adobe Workfront 管理者は、すべてのタスクやイシューが期日に�
   </tr> 
  </tbody> 
 </table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -99,7 +101,7 @@ Adobe Workfront 管理者は、すべてのタスクやイシューが期日に�
 
    例えば、タスクが金曜日に割り当てられ、期間が経過日数で 3 日の場合、タスクの完了日は月曜日（土曜日と日曜日が週末の場合）に設定されます。タスクの期間が 3 日（経過日数ではない）の場合、タスクの完了日は水曜日に設定されます。
 
-   ![&#x200B; 時間増分 &#x200B;](assets/time-increments-for-automatic-reminder.png)
+   ![ 時間増分 ](assets/time-increments-for-automatic-reminder.png)
 
 1. 「**保存**」をクリックします。
 

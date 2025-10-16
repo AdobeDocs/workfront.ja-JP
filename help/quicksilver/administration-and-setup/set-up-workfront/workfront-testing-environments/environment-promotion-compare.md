@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 14%
+source-wordcount: '460'
+ht-degree: 12%
 
 ---
 
@@ -28,30 +28,30 @@ ht-degree: 14%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] プラン</strong>
+   <td>Adobe Workfront パッケージ
    </td>
-   <td> PrimeまたはUltimate（新規プランのみ）
+   <td> <p>PrimeまたはUltimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] ライセンス</strong>
+   <td><strong>Workfront ライセンス </strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>標準</p>&gt;
    </td>
   </tr>
    <tr>
    <td>アクセスレベル設定
    </td>
-   <td>[!DNL Workfront] 管理者である必要があります。
+   <td><p>Workfront 管理者である必要があります。</p>
    </td>
   </tr>
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 
-環境間でオブジェクトを比較するには、組織がAdobeビジネスプラットフォーム上にある必要があります。
+環境間でオブジェクトを比較するには、組織がAdobe Business Platform 上にある必要があります。
 
 ## オブジェクト比較の生成
 
@@ -74,7 +74,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX]
 
-![&#x200B; 比較の例 &#x200B;](assets/environment-promotion-comparison.png)
+![ 比較の例 ](assets/environment-promotion-comparison.png)
 
 この例では、次のようになります。
 
@@ -86,7 +86,7 @@ ht-degree: 14%
 
 特定のオブジェクトの違いを表示するには：
 
-1. そのオブジェクトの行にある虫眼鏡アイコン ![&#x200B; 比較アイコン &#x200B;](assets/compare-icon.png) をクリックします。
+1. そのオブジェクトの行にある虫眼鏡アイコン ![ 比較アイコン ](assets/compare-icon.png) をクリックします。
 
    そのオブジェクトのすべてのフィールドを含むウィンドウが開きます。 違いは赤でマークされています。
 
@@ -94,4 +94,4 @@ ht-degree: 14%
 
 オブジェクト比較から直接パッケージを作成できます。
 
-手順については、「環境プロモーションパッケージの作成または編集」の [&#x200B; オブジェクト比較からパッケージを作成する &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-a-package-from-an-object-comparison) を参照してください。
+手順については、「環境プロモーションパッケージの作成または編集」の [ オブジェクト比較からパッケージを作成する ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-a-package-from-an-object-comparison) を参照してください。

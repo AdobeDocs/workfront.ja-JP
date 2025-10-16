@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 88%
+source-wordcount: '415'
+ht-degree: 87%
 
 ---
 
@@ -28,31 +28,27 @@ ht-degree: 88%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規：[!UICONTROL Standard]</p>
-   または
-   <p>現在：[!UICONTROL Plan]</p>
-   </td> 
-  </tr>
-  <tr>
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
+  </tr> 
+  <tr> 
+   <td>アクセスレベル設定</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -65,7 +61,7 @@ ht-degree: 88%
 * **[!UICONTROL イシュー]**：計画外の作業、発生した問題、またはタスクを続行するために解決する必要があるものを伝達する [!DNL Workfront] 内のオブジェクト。
 * **[!UICONTROL リクエスト]**： Workfront でユーザーがリクエストを行うリクエストキューに適用されるイシュータイプ。
 
-![&#x200B; デフォルトのイシュータイプ &#x200B;](assets/default-issue-types.png)
+![ デフォルトのイシュータイプ ](assets/default-issue-types.png)
 
 ## イシュータイプのカスタマイズ
 
@@ -86,8 +82,8 @@ ht-degree: 88%
 1. 「**[!UICONTROL イシュー]**」タブを選択します。
 1. 次のいずれかの操作を行います。
 
-   * カスタマイズするイシュータイプにポインタを合わせ、右端に表示される [!UICONTROL &#x200B; 編集 &#x200B;] アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックして、イシュータイプの新しい名前を入力します。
+   * カスタマイズするイシュータイプにポインタを合わせ、右端に表示される [!UICONTROL  編集 ] アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックして、イシュータイプの新しい名前を入力します。
 
-     ![&#x200B; イシュータイプのカスタマイズ &#x200B;](assets/customize-issue-type.png)
+     ![ イシュータイプのカスタマイズ ](assets/customize-issue-type.png)
 
    * [!UICONTROL イシューの種類]をクリックして関連するステータスをリストし、ポインタを合わせると表示されるハンドルをドラッグし、ユーザーのイシュー&#x200B;**[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューに表示する順序でドロップします。

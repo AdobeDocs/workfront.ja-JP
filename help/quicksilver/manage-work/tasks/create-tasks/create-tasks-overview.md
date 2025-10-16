@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: タスクの概要の作成
+title: タスク作成の概要
 description: プロジェクトを作成した後でのみ、プロジェクト内でタスクを作成できます。
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 * プロジェクトから別のプロジェクトにタスクをコピーし、コピー先のプロジェクトのタスクのデフォルト設定が異なる場合、コピーされたタスクは、コピープロセスでクリアされない限り、元のプロジェクトのデフォルト設定を保持します。
 * 同じプロジェクトでタスクを複製すると、カスタムフォームと承認プロセスが複製したタスクに転送されます。
 
-  タスクのコピーと複製について詳しくは、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)（../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md）を参照してください。
+  タスクのコピーと複製について詳しくは、[タスクをコピーおよび複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)を参照してください。
 
 * タスクを別のプロジェクトに移動すると、新しいプロジェクトのタスクのデフォルト設定に関係なく、デフォルトのタスク設定が元のプロジェクトのタスクに保存されます。
 

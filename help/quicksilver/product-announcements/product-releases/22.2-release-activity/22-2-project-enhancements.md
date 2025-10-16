@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 100%
+source-wordcount: '1090'
+ht-degree: 99%
 
 ---
 
@@ -124,7 +124,7 @@ Workfront の使用と新しい Adobe Workfront エクスペリエンスの一�
 
 イシューをプロジェクトに変換した後、プロジェクトのページにリダイレクトされるのではなく、ユーザーがリスト、レポート、またはダッシュボードにとどまります。変換処理の完了後、プロジェクトへのリンクが付いた成功通知が表示され、必要に応じて簡単にプロジェクトに移動できます。
 
-詳しくは、[イシューを Adobe Workfront のプロジェクトに変換](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)を参照してください。
+詳しくは、[ イシューのプロジェクトへの変換 ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md) を参照してください。
 
 ## 割り当てに変更を加える際に、配分時間が削除されなくなります
 

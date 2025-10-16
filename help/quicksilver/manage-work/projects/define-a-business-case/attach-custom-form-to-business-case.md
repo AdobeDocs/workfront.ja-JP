@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: ビジネスケースにカスタムフォームを添付
 description: カスタムフォームは、既存の Adobe Workfront フィールドに表示されない情報を収集するために使用されます。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 61%
+source-wordcount: '326'
+ht-degree: 64%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 61%
 
 カスタムフォームは、既存の Adobe Workfront フィールドに表示されない情報を収集するために使用されます。 
 
-カスタム Formsの作成の詳細については、「[&#x200B; カスタム フォームを作成する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+カスタム Formsの作成の詳細については、「[ カスタム フォームを作成する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 ## アクセス要件
 
@@ -29,15 +29,14 @@ ht-degree: 61%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <p>現在：Prime以降</p>
-   <p>レガシー：Pro 以上</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> <p>Prime以上</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront ライセンス/p&gt;</td> 
    <td> 
-   <p>現在：標準 </p> 
-   <p>レガシー：プラン </p> </td> 
+   <p>標準 </p> 
+   <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -50,7 +49,7 @@ ht-degree: 61%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -70,7 +69,7 @@ ht-degree: 61%
 
 ## カスタムフォームをビジネスケースに添付
 
-カスタムフォームをビジネスケースに追加するには、Workfront 管理者が設定でこのオプションを選択する必要があります。設定でカスタムフォームを有効にする方法について詳しくは、[&#x200B; システム全体のプロジェクト環境設定の指定 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) を参照してください。
+カスタムフォームをビジネスケースに追加するには、Workfront 管理者が設定でこのオプションを選択する必要があります。設定でカスタムフォームを有効にする方法について詳しくは、[ システム全体のプロジェクト環境設定の指定 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) を参照してください。
 
 カスタムフォームを添付するには、以下の操作を実行します。
 
@@ -80,7 +79,7 @@ ht-degree: 61%
 
 1. （オプション）カスタムフォームの詳細を展開するには、カスタムフォーム名の左側にある矢印をクリックします。
 
-   ![&#x200B; カスタムフォームの詳細を展開 &#x200B;](assets/expand-custom-form-details.png)
+   ![ カスタムフォームの詳細を展開 ](assets/expand-custom-form-details.png)
 
 <!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)

@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Adobe Workfront API を使用して時間レコードをトラック
 description: 組織で Adobe Workfront を使用して勤務時間を入力しており、そのデータの記録システムとして別のツールを使用している場合は、Workfront API を使用して 2 つのシステム間でデータを同期できます。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b26f8156-f9dc-43e7-8e0d-8c0905dc7a12
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%

@@ -6,10 +6,10 @@ description: レポートの使用状況を表示
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 96%
+source-wordcount: '960'
+ht-degree: 94%
 
 ---
 
@@ -39,36 +39,40 @@ ht-degree: 96%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>標準</p>
+   <p>プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## レポートの使用状況に関する情報を、レポートリストのビューに表示する
 
-1. Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
+1. Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 
 1. レポートのリストで、**表示**&#x200B;ドロップダウンメニューをクリックします。
 1. （オプション）**レポートの使用状況**&#x200B;ビューをクリックすると、最も一般的なレポート使用状況情報が表示されます。\
@@ -97,7 +101,7 @@ ht-degree: 96%
 
 ## 使用情報によるレポートリストのフィルタリング {#filter-a-report-list-by-usage-information}
 
-1. Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
+1. Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 1. レポートのリストで、**フィルター**&#x200B;ドロップダウンメニューをクリックします。
 1. 「**新規フィルター**」をクリックし、次に「**フィルター規則の追加**」をクリックします。
 1. 次のフィールドのいずれかに入力を開始し、**報告書**&#x200B;オブジェクトの下のリストに表示されたら、それらを選択して、新しいフィルター規則として追加します。
@@ -112,7 +116,7 @@ ht-degree: 96%
    * **最終表示日**：最後にレポートが表示された日付を表示します
 
 1. フィールドの修飾子を選択し、プロンプトが表示されたら値を指定します。\
-   ![&#x200B; レポート使用状況フィルターの統計 &#x200B;](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![ レポート使用状況フィルターの統計 ](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. 「**フィルターの保存**」をクリックします。\
    これにより、定義した使用情報に合致するレポートのリストが表示されます。\
@@ -129,13 +133,13 @@ ht-degree: 96%
 レポート使用情報を扱う際に留意すべき例外は次のとおりです。
 
 * レポートがダッシュボードやカスタムタブに表示されるたびに、1 つのビューとしてカウントされます。そのレポートをダッシュボードに表示しているユーザーが「最終表示者」ユーザーとして表示され、ダッシュボードが表示された日付が最終表示日として表示されます。
-* Workfront では、組み込みレポートの使用情報を収集しません。\
-  Workfront の組み込みレポートについて詳しくは、[Adobe Workfront の組み込みレポートの使用](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)を参照してください。
+* Workfront では、ビルトインのレポートの使用情報を収集しません。\
+  Workfront のビルトインのレポートについて詳しくは、[Adobe Workfront のビルトインのレポートの使用](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)を参照してください。
 
 * Workfront では、配信されたレポートの使用情報を収集しません。配信されたレポートは 1 つのビューとしてカウントされません。\
   配信されたレポートについて詳しくは、[レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)の記事を参照してください。
 
 * システム管理者またはグループ管理者が別のユーザーとしてログインすると、ビューがカウントされ、そのシステム管理者またはグループ管理者に関連付けられます。
-* Workfront では、レポートの使用情報をカスタム四半期ごとに収集しません。レポート使用フィールドでは、組み込みの標準四半期のみが参照されます。
+* Workfront では、レポートの使用情報をカスタム四半期ごとに収集しません。レポート使用フィールドでは、ビルトインの標準四半期のみが参照されます。
 * Workfront では、共有され公開されているレポートの使用情報を収集しません。ユーザーが Workfront にログインせずに公開レポートを閲覧した場合、そのレポートの表示回数はカウントされません。\
   レポートの共有について詳しくは、[Adobe Workfront でのレポートの共有](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)の記事を参照してください。

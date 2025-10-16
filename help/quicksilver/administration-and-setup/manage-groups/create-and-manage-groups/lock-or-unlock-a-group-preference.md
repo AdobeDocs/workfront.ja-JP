@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 86%
+source-wordcount: '571'
+ht-degree: 85%
 
 ---
 
@@ -46,32 +46,27 @@ Workfront 管理者がシステム内のすべてのグループの環境設定�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -85,8 +80,8 @@ Workfront 管理者がシステム内のすべてのグループの環境設定�
 
 1. 表示されるページで、システムレベルでロックが解除されている環境設定、または自身のグループの上にあるグループの環境設定に対して、次のいずれかの操作を行います。
 
-   * グループの下のグループの管理者がグループの環境設定を設定できるようにするには、そのロックを解除します ![&#x200B; ロック解除切替スイッチ &#x200B;](assets/unlock-toggle-button.png)。
-   * 以下のすべてのグループを環境設定で使用する場合は、ロックされていることを確認してください ![&#x200B; ロック切り替え &#x200B;](assets/lock-toggle-button.png)。
+   * グループの下のグループの管理者がグループの環境設定を設定できるようにするには、そのロックを解除します ![ ロック解除切替スイッチ ](assets/unlock-toggle-button.png)。
+   * 以下のすべてのグループを環境設定で使用する場合は、ロックされていることを確認してください ![ ロック切り替え ](assets/lock-toggle-button.png)。
 
      >[!IMPORTANT]
      >

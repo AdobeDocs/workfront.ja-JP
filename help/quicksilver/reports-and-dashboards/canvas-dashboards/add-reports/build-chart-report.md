@@ -6,9 +6,9 @@ description: データを棒グラフ、列グラフ、折れ線グラフまた�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1381'
 ht-degree: 5%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->&#x200B;>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
->&#x200B;>このベータ版は、次のクラウドプロバイダーでは利用できません。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
+>>このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
 >* Azure
@@ -27,11 +27,11 @@ ht-degree: 5%
 
 キャンバスダッシュボードにグラフレポートを作成および追加して、データを棒グラフ、列グラフ、折れ線グラフまたは円グラフとして視覚化できます。
 
-![&#x200B; グラフレポート &#x200B;](assets/chart-report-main.png)
+![ グラフレポート ](assets/chart-report-main.png)
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,7 +40,7 @@ ht-degree: 5%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <p>任意 </p> 
    </td> 
@@ -48,8 +48,8 @@ ht-degree: 5%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td> 
-<p>現在：プラン </p> 
-<p>新規：標準</p> 
+<p>標準</p> 
+<p>プラン</p> 
    </td> 
    </tr> 
   </tr> 
@@ -102,7 +102,7 @@ ht-degree: 5%
 
 1. **グラフの作成** セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで「**グラフを作成**![&#x200B; グラフを作成アイコン &#x200B;](assets/build-chart-icon.png) アイコンをクリックします。
+   1. 左側のパネルで「**グラフを作成**![ グラフを作成アイコン ](assets/build-chart-icon.png) アイコンをクリックします。
 
    1. **グラフのタイプ** ドロップダウンで、作成するグラフのタイプを選択します。
 
@@ -123,14 +123,14 @@ ht-degree: 5%
 
 1. **フィルター** セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで「**フィルター**![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックします。
+   1. 左側のパネルで「**フィルター**![ フィルターアイコン ](assets/filter-icon.png) アイコンをクリックします。
    1. **フィルターを編集** を選択します。
    1. 「**条件を追加**」をクリックして、フィルターに使用するフィールドと、フィールドが満たす必要がある条件の種類を定義する修飾子を指定します。
    1. （任意）「**フィルターグループを追加**」をクリックして、別のフィルター条件セットを追加します。 セット間のデフォルトの演算子は AND です。演算子をクリックして OR に変更します。
 
 1. **ドリルダウン列設定** セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、「**ドリルダウン列**![&#x200B; ドリルダウン列アイコン &#x200B;](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
+   1. 左側のパネルで、「**ドリルダウン列**![ ドリルダウン列アイコン ](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
 
    1. （オプション）既存の列の設定を更新するには、更新する列を「**現在の列**」セクションで選択して、必要な情報（ラベル、リンクされたステータス、条件など）を更新します。
 
@@ -138,7 +138,7 @@ ht-degree: 5%
 
 1. 次の手順に従って、「ドリルダウン・グループ設定 **セクションを構成し** す。
 
-   1. 左側のパネルで、「**グループ設定**![&#x200B; グループ設定 &#x200B;](assets/drilldown-group-icon.png)」アイコンをクリックします。
+   1. 左側のパネルで、「**グループ設定**![ グループ設定 ](assets/drilldown-group-icon.png)」アイコンをクリックします。
 
    1. **グループ化を追加** ボタンをクリックし、グループ化として作成するフィールドを選択します。
 
@@ -180,13 +180,13 @@ ht-degree: 5%
 
    1. **下（X）軸** セクションの下にある「**フィールドを更新**」ボタンを選択し、**タスク**/**プロジェクト**/**所有者**/**名前** フィールドを見つけて選択します。
 
-      ![&#x200B; フィールドを更新 &#x200B;](assets/bottom-x-axis.png)
+      ![ フィールドを更新 ](assets/bottom-x-axis.png)
 
    1. 「**左（Y）軸** セクションの下にある「**フィールドを選択**」ボタンをクリックし、**タスク**/**名前** フィールドを見つけて選択します。
 
    1. **集計タイプ** ドロップダウンで「**カウント**」を選択します。
 
-      ![&#x200B; 集計タイプフィールド &#x200B;](assets/left-y-axis.png)
+      ![ 集計タイプフィールド ](assets/left-y-axis.png)
 
 1. **フィルター** セクションを設定するには、次の手順に従います。
 
@@ -212,13 +212,13 @@ ht-degree: 5%
 
    1. 「評価基準」フィールドに *$$TODAY* と入力します。
 
-      ワイルドカードについて詳しくは、「[&#x200B; キャンバスダッシュボードでのレポートフィルターの編集 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md) 記事の日付ベースのワイルドカード フィルター変数の節を参照してください。
+      ワイルドカードについて詳しくは、「[ キャンバスダッシュボードでのレポートフィルターの編集 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md) 記事の日付ベースのワイルドカード フィルター変数の節を参照してください。
 
-      ![&#x200B; エバリュエーターのフィールド &#x200B;](assets/add-condition.png)
+      ![ エバリュエーターのフィールド ](assets/add-condition.png)
 
 1. **ドリルダウン列設定** セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、「**ドリルダウン列**![&#x200B; ドリルダウン列 &#x200B;](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
+   1. 左側のパネルで、「**ドリルダウン列**![ ドリルダウン列 ](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
 
    1. **列を追加** をクリックし、**割り当て先**/**名前** フィールドを選択します。
 
@@ -232,7 +232,7 @@ ht-degree: 5%
 
 1. 次の手順に従って、「ドリルダウン・グループ設定 **セクションを構成し** す。
 
-   1. 左側のパネルで、「**グループ設定**![&#x200B; グループ設定 &#x200B;](assets/drilldown-group-icon.png)」アイコンをクリックします。
+   1. 左側のパネルで、「**グループ設定**![ グループ設定 ](assets/drilldown-group-icon.png)」アイコンをクリックします。
 
    1. **グループ化を追加** ボタンをクリックし、**プロジェクト**/**名前** フィールドを選択します。
 
@@ -248,7 +248,7 @@ ht-degree: 5%
 * **Workfront オブジェクト**: ネイティブのWorkfront ワークフローオブジェクト。
 * **Planning レコード・タイプ**: Workfront Planning で定義されたカスタム・レコード・タイプ。
 
-![&#x200B; セクション ドロップダウン &#x200B;](assets/sections-dropdown.png)
+![ セクション ドロップダウン ](assets/sections-dropdown.png)
 
 基本エンティティオブジェクトを選択すると、「**セクション**」ドロップダウンが、選択可能な該当するフィールドタイプオプションで更新されます。
 
@@ -258,7 +258,7 @@ ht-degree: 5%
 * **Workfront フィールド** : ネイティブフィールドのみ。
 * **関係**：接続されたレコード。
 
-![&#x200B; レポート可能オブジェクトの選択 &#x200B;](assets/reportable-objects-selection.png)
+![ レポート可能オブジェクトの選択 ](assets/reportable-objects-selection.png)
 
 ### 子オブジェクトの参照
 

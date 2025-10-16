@@ -7,10 +7,10 @@ description: 承認された休暇がいつ発生するかを Adobe Workfront �
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
+source-git-commit: 95cc394c3e1aa0ee5713e981030a96e27dd1f183
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 92%
+source-wordcount: '433'
+ht-degree: 72%
 
 ---
 
@@ -38,33 +38,33 @@ ht-degree: 92%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
+   <td> Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：標準（個人の休暇を設定する場合）</p>
-        <p>または</p>
-        <p>現在：ワークまたはそれ以上（個人の休暇を設定する場合）</p> </td>
+   <td>Adobe Workfront プラン</td> 
+   <td> <p>個人の休暇を設定するには、次の条件を満たす必要があります。</p>
+        <p>標準（個人の休暇を設定するため）</p>
+        <p>仕事以上（個人の休暇を設定するため）</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL Edit User]アクセス権を持つ[!UICONTROL Manager]（他のユーザーの休暇カレンダーを変更する場合）<br>
-   <strong>メモ：</strong>管理者が別のユーザーの個人の休暇カレンダーを編集した場合、すべてのエントリは、管理者のタイムゾーンではなく、ユーザーのタイムゾーンで表示されます。</td> 
+   <td>アクセスレベル設定</td> 
+   <td><p>別のユーザーの休暇カレンダーを変更するには、そのユーザーのマネージャーで、ユーザーの編集アクセス権を持っている必要があります。</p>
+   <p><strong> 注意：</strong> 管理者が別のユーザーの個人的な休暇カレンダーを編集した場合、すべてのエントリが管理者のタイムゾーンではなく、ユーザーのタイムゾーンで表示されます。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!DNL Workfront] における個人の休暇の設定
 
@@ -74,7 +74,7 @@ ht-degree: 92%
 >
 >Adobe統合エクスペリエンスを利用している場合は、上部のナビゲーション領域でAdobe アカウント メニュー（プロファイル画像）をクリックし、「Workfront プロファイル」を選択すると、Workfront プロファイルにアクセスできます。
 >
->![workfront プロファイル &#x200B;](assets/aue-profile.png)
+>![workfront プロファイル ](assets/aue-profile.png)
 
 1. 左パネルの「**[!UICONTROL 休暇]**」をクリックします。
 1. 個人の休暇に希望する日付を選択します。

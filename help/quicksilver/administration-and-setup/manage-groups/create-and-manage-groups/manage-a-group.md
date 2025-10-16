@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 95%
+source-wordcount: '1292'
+ht-degree: 94%
 
 ---
 
@@ -32,32 +32,27 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -89,7 +84,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
-1. グループを選択し、編集 ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png)、コピー ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png)、削除 ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) アイコンをクリックします。
+1. グループを選択し、編集 ![ 編集アイコン ](assets/edit-icon.png)、コピー ![ コピーアイコン ](assets/copy-icon.png)、削除 ![ 削除アイコン ](assets/delete.png) アイコンをクリックします。
 
    表示されるボックスの使用に関する情報が必要な場合は、次のいずれかを参照してください。
 

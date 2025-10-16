@@ -7,10 +7,10 @@ description: 指標は、ワークストリームのイテレーションプロ�
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 94%
+source-wordcount: '230'
+ht-degree: 91%
 
 ---
 
@@ -20,28 +20,25 @@ ht-degree: 94%
 >
 >ワークストリームは、特定の顧客グループのみが使用できます。
 
-指標は、ワークストリーム、イテレーションプロセスボードで、各イテレーションに対して使用できます。
+指標は、ワークストリーム、イテレーションプロセスボードおよびダッシュボードで、各イテレーションに対して使用できます。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>新規：[!UICONTROL Contributor]以上</p> 
-   <p>または</p>
-   <p>現在：[!UICONTROL Request] 以上</p>
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p>
    </td> 
   </tr> 
  </tbody> 

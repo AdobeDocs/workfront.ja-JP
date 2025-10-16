@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0e7000597e2347bff0bc626d21aa9a6c9a839c0b
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 63%
+source-wordcount: '538'
+ht-degree: 62%
 
 ---
 
 # レイアウトテンプレートを使用した固定されたページのカスタマイズ
 
-レイアウトテンプレートでは、Adobe Workfront の上部に、ユーザーに常に利用できるようにしておきたいページをピン留めすることができます。これらのページは、メインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) またはメインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon-left-nav.png) （使用可能な場合）からアクセスするページ、ダッシュボードのいずれかです。
+レイアウトテンプレートでは、Adobe Workfront の上部に、ユーザーに常に利用できるようにしておきたいページをピン留めすることができます。これらのページは、メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon-left-nav.png) （使用可能な場合）からアクセスするページ、ダッシュボードのいずれかです。
 
 ユーザーが独自に追加したピン留めは、レイアウト テンプレートに追加したピン留めの右側に表示されます。
 
@@ -33,33 +33,24 @@ ht-degree: 63%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
-   </td>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。</p>
+        <p>グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,20 +96,20 @@ ht-degree: 63%
      >
      >* Workfront のシナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
      >
-     >* Workfront計画について詳しくは、[Adobe Workfront計画の概要 &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+     >* Workfront計画について詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
    * 「**ダッシュボードを追加**」をクリックします
-      * &#x200B;<!--**Quick link name**-->**カスタム名** フィールドにわかりやすい名前を入力します
+      * <!--**Quick link name**-->**カスタム名** フィールドにわかりやすい名前を入力します
       * 「**ダッシュボードを追加**」フィールドでダッシュボードを選択し <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now --> す
       * 「**追加**」をクリックします。
 
 1. 前の手順を繰り返して、他のページをピン留めします。
 
-1. （オプション）ピンを移動するには、ピンにポインタを合わせて、ピン名の横にある「詳細」メニューアイコン ![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) その他のアイコン）をクリックします。次に、**左に移動** または **右に移動** をクリックして、選択した方向にピンを移動するか、**前に移動** をクリックして、ピンを一番左の位置に移動します。
+1. （オプション）ピンを移動するには、ピンにポインタを合わせて、ピン名の横にある「詳細」メニューアイコン ![ その他のアイコン ](assets/more-icon.png) その他のアイコン）をクリックします。次に、**左に移動** または **右に移動** をクリックして、選択した方向にピンを移動するか、**前に移動** をクリックして、ピンを一番左の位置に移動します。
 
-1. （オプション）ピン留めの名前を変更するには、ピンにポインタを合わせて、ピン名の横にある「詳細」メニューアイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、「**ピン留めの名前を変更**」をクリックします。 新しい名前を入力し、「**保存**」をクリックします。
+1. （オプション）ピン留めの名前を変更するには、ピンにポインタを合わせて、ピン名の横にある「詳細」メニューアイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、「**ピン留めの名前を変更**」をクリックします。 新しい名前を入力し、「**保存**」をクリックします。
 
-1. （オプション）ピン留めを削除するには、ピンにポインタを合わせ、ピン名の横にある「詳細」メニューアイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックしてから、「**ピン留めを削除** をクリックします。
+1. （オプション）ピン留めを削除するには、ピンにポインタを合わせ、ピン名の横にある「詳細」メニューアイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックしてから、「**ピン留めを削除** をクリックします。
 
 1. 引き続きレイアウトテンプレートをカスタマイズします。
 

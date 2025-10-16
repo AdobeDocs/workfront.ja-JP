@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、ユーザーにアクセスレベル
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 78%
+source-wordcount: '501'
+ht-degree: 76%
 
 ---
 
@@ -31,41 +31,33 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-オブジェクトを共有するには、次の条件を満たしている必要があります。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
     <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>ライト以上</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>レビュー以上</p></li>
-         </ul>
+   <p>ライト以上</p>
+   <p>レビュー以上</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>報告書、ダッシュボード、カレンダーへのアクセスを表示する（またはそれ以上）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>ダッシュボードの表示権限またはそれ以上の権限</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>ダッシュボードに対する権限以上を表示</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -105,4 +97,4 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 1. **ユーザー、チーム、役割、グループ、または会社を追加** フィールドに、ダッシュボードを共有するユーザー、チーム、役割、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 1. （オプション）システム内のすべてのユーザーがダッシュボードにアクセスできるようにするには、共有ダイアログボックスの **招待されたユーザーのみがアクセスできる** ドロップダウンメニューをクリックし、**システム内の全員が表示できる** を選択します。
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。

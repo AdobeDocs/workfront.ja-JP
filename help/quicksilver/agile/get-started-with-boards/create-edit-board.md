@@ -6,9 +6,9 @@ description: '[!UICONTROL ボード]ダッシュボードから、ボードを�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '845'
 ht-degree: 87%
 
 ---
@@ -23,23 +23,21 @@ ht-degree: 87%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
-    <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：Contributor 以上 </p>
- <p>または</p> 
-<p>現在：[!UICONTROL Request] 以上 </p> 
-</td> 
-  </tr>
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p>
+   </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -108,7 +106,7 @@ ht-degree: 87%
 1. ダッシュボードで、ボードを選択して開きます。
 1. 必要に応じて、ボードを編集します。ボード名をクリックして名前を変更できます。
 
-   接続されたカードをWorkfrontと同期し、新しいタスクや問題をボードまたは取り込み列に追加するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL &#x200B; 詳細メニュー &#x200B;]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続済み項目を同期]** を選択します。
+   接続されたカードをWorkfrontと同期し、新しいタスクや問題をボードまたは取り込み列に追加するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL  詳細メニュー ]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続済み項目を同期]** を選択します。
 
    詳しくは、[ボードに対するメンバーの追加または削除](../../agile/get-started-with-boards/add-members-to-board.md)、[ボード列を管理](../../agile/get-started-with-boards/manage-board-columns.md)、および[ボードへのカードの追加](../../agile/get-started-with-boards/add-card-to-board.md)を参照してください。
 

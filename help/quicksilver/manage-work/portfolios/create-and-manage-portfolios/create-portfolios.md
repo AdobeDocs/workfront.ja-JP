@@ -1,21 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: ポートフォリオを作成
+title: Portfolioの作成
 description: ポートフォリオとは、同じリソース、予算およびスケジュールに対して競合するプロジェクトの集まりです。ポートフォリオ内のプロジェクトは類似しているため、同じリソースプールを使用し、同じスコアカードに対して測定されます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 78%
+source-wordcount: '667'
+ht-degree: 76%
 
 ---
 
 # ポートフォリオを作成
 
-<!--Audited: 7/2024-->
+<!--Audited: 08/2025-->
 
 ポートフォリオとは、同じリソース、予算およびスケジュールに対して競合するプロジェクトの集まりです。ポートフォリオ内のプロジェクトは類似しているため、同じリソースプールを使用し、同じスコアカードに対して測定されます。
 
@@ -23,20 +23,20 @@ ht-degree: 78%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p>
-   <p>現在：[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -44,14 +44,42 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオの作成者は、デフォルトで、そのポートフォリオに対する管理権限があります。</p>  </td> 
+   <td> <p>作成したポートフォリオには、管理権限が付与されます</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current:[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>After you create a portfolio, you have Manage permissions to it, by default</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## ポートフォリオの作成方法
 
@@ -69,9 +97,9 @@ Workfrontでポートフォリオを作成するには、次のいずれかの�
 
   Workfront Planning 用に新しいWorkfront ライセンスと追加のWorkfront Planning ライセンスが必要です。
 
-  Workfront Planning へのアクセスについて詳しくは、[&#x200B; アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+  Workfront Planning へのアクセスについて詳しくは、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
-  レコードにポートフォリオを追加してポートフォリオを作成する方法については、「レコードの作成 [&#x200B; に関する記事の「接続時にレコードを作成する」を参照し &#x200B;](/help/quicksilver/planning/records/create-records.md) ください。
+  レコードにポートフォリオを追加してポートフォリオを作成する方法については、「レコードの作成 [ に関する記事の「接続時にレコードを作成する」を参照し ](/help/quicksilver/planning/records/create-records.md) ください。
 
 
 ## ポートフォリオを作成
@@ -86,7 +114,7 @@ Workfrontでポートフォリオを作成するには、次のいずれかの�
 
 1. （オプション）ページ上部のヘッダーの&#x200B;**[!UICONTROL ポートフォリオマネージャー]**&#x200B;の下にある名前をクリックして、ポートフォリオに別のマネージャーを割り当てます。
 
-   ![Portfolioマネージャー名 &#x200B;](assets/portfolio-manager-name-350x51.jpg)
+   ![Portfolioマネージャー名 ](assets/portfolio-manager-name-350x51.jpg)
 
    ポートフォリオの作成者は、デフォルトでポートフォリオマネージャーとして割り当てられます。
 

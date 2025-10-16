@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 88%
+source-wordcount: '2139'
+ht-degree: 87%
 
 ---
 
@@ -42,31 +42,27 @@ ht-degree: 88%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-   <p> 新規：標準</p>
-   または
-   <p>現在：プラン</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>アクセスレベル設定</td> 
+   <td>システム管理者</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -88,7 +84,7 @@ Workfront から既存のデータを書き出すには、以下を実行しま�
 
 1. 「**含める内容**」セクションで、「**カスタムデータ**」を選択します。
 
-   ![&#x200B; カスタム データの選択 &#x200B;](assets/kickstarts-select-existing-data.png)
+   ![ カスタム データの選択 ](assets/kickstarts-select-existing-data.png)
 
 1. 「**ダウンロード形式**」セクションで、「**.xlsx ファイル**」を選択します。
 
@@ -98,7 +94,7 @@ Workfront から既存のデータを書き出すには、以下を実行しま�
 
 1. 「**ダウンロード**」をクリックします。.xlsx ファイルがお使いのコンピューターにダウンロードされます。ファイルに移動し、開きます。
 
-   ![Excel でのエクスポート済みデータ &#x200B;](assets/existing-data-excel-parameter-sheet.png)
+   ![Excel でのエクスポート済みデータ ](assets/existing-data-excel-parameter-sheet.png)
 
 1. ダウンロードしたファイルを確認し、次の詳細をメモしておきます。
 
@@ -124,7 +120,7 @@ Workfront から既存のデータを書き出すには、以下を実行しま�
 
 1. **空白の Kick-Start スプレッドシートをダウンロードする** 領域で、「**カスタムデータ**」チェックボックスを選択し、**ダウンロード** をクリックします。
 
-   ![&#x200B; カスタム データの選択 &#x200B;](assets/kickstarts-blank-spreadsheet-options.png)
+   ![ カスタム データの選択 ](assets/kickstarts-blank-spreadsheet-options.png)
 
    空のキックスタートファイルがお使いのコンピューターにダウンロードされます。
 
@@ -148,11 +144,11 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    オブジェクトの名前と属性は、Workfront データベースでサポートされている形式で記述する必要があります。
 
-   これらのオブジェクトの意味については、[&#x200B; [!DNL Adobe Workfront] の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
+   これらのオブジェクトの意味については、[ [!DNL Adobe Workfront] の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 
    Workfront データベース内のオブジェクトの名前について詳しくは、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を参照してください。
 
-   ![&#x200B; データの書き出しに含まれるシート &#x200B;](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   ![ データの書き出しに含まれるシート ](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 1. 次の情報が正しくフォーマットされていることを確認します。
 
@@ -203,11 +199,11 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    フィールドの値は、例えばレポートに表示される名前ですが、オブジェクトに添付されたカスタムフォームには名前が表示されます。
 
-   詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
-   ![&#x200B; パラメーターシートが入力されました &#x200B;](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![ パラメーターシートが入力されました ](assets/parameter-sheet-filled-out-kick-starts.png)
 
-1. **`POPT Parameter Options`**&#x200B;** シートを選択し、次の必須列に各カスタムフィールドのオプションに関する情報を追加します。
+1. **`POPT Parameter Options`**** シートを選択し、次の必須列に各カスタムフィールドのオプションに関する情報を追加します。
 
    * **`isNew`** = には、新しいフィールドオプションを表す各行のこの列の **`TRUE`** を入力します。
 
@@ -224,10 +220,10 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    * **`setParameterID`** = 「_ブランド_」カスタムフィールドに対応するオプションの **`setParameterID`** は 1 で、「_メディア_」に対応するオプションの **`setParameterID`** は 2 です。`PARAM` および `POPT` シートは相互に参照され、どのオプションがどのカスタムフィールドに属しているかを示します。
    * **`setDisplayOrder`**= 表示順列は、カスタムフィールドでオプションが表示される順序を示します。どのフィールドに属するかに関係なく、1 から始めて、すべてのオプションを昇順で続行できます。ここで重要なのは、各オプションに一意の数字を設定することです。
-   * 「**`setLabel`**」および「`**setValue`**」列には通常同じ情報が含まれ、Workfront UI で必要な名前が反映されている必要があります。オプションの値は、例えばレポートに表示される名前です。ラベルはオブジェクトへの添付時にカスタムフォームに表示されます。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   * 「**`setLabel`**」および「`**setValue`**」列には通常同じ情報が含まれ、Workfront UI で必要な名前が反映されている必要があります。オプションの値は、例えばレポートに表示される名前です。ラベルはオブジェクトへの添付時にカスタムフォームに表示されます。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
    * **`setIsHidden`** には、いずれかのオプションを非表示にする場合、「`TRUE`」を入力します。
 
-   ![&#x200B; パラメーターシートが入力されました &#x200B;](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![ パラメーターシートが入力されました ](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 1. （オプション）後で新しいフィールドを追加するためのカスタムフォームも作成する場合は、「**`CTGY Category`**」シートを選択し、カスタムフォームの情報に関する次の必須列を追加して更新します。
 
@@ -257,7 +253,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    * **`setName`** は、Workfront インターフェイスに表示するカスタムフォームの名前です。
 
-     ![&#x200B; カテゴリシートに情報が入力されました &#x200B;](assets/category-sheet-filled-out-kick-starts.png)
+     ![ カテゴリシートに情報が入力されました ](assets/category-sheet-filled-out-kick-starts.png)
 
 1. スプレッドシートを.xls または.xlsx ファイルとしてコンピューターに保存します。Excel スプレッドシートが入力され、Workfront に読み込む準備が整います。
 
@@ -281,7 +277,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
    >
    >新しいフォームとインポートしたフィールドは、まだ接続されていません。フォームのインポートに、カスタムフィールドは含まれません。カスタムフィールドは、新しいカスタムフォームまたは別の既存のカスタムフォームに手動で追加する必要があります。
 
-   カスタムフォームにフィールドを追加する方法について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+   カスタムフォームにフィールドを追加する方法について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 1. （条件付き）読み込みに失敗した場合は、問題を示すエラーメッセージが表示されます。 問題が発生したフィールド、シート、および行番号を特定し、Excel ファイルの情報を修正します。 次に、もう一度ファイルを読み込んでみます。
 

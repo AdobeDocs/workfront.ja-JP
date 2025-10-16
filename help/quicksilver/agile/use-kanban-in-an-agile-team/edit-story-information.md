@@ -6,10 +6,10 @@ description: かんばんボード上のストーリータイルを表示する�
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 89%
+source-wordcount: '396'
+ht-degree: 87%
 
 ---
 
@@ -73,8 +73,6 @@ ht-degree: 89%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -82,14 +80,13 @@ ht-degree: 89%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p> 
-   または
-   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -107,10 +104,10 @@ ht-degree: 89%
 1. [!UICONTROL かんばん]ボードに移動します。
 1. ストーリータイルを展開して、ストーリーに関連するすべてのフィールドを表示します。
 
-   ![&#x200B; ストーリーカード &#x200B;](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![ ストーリーカード ](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. （オプション）フィールドを編集するには、フィールドをクリックして変更を加えます。
-ストーリータイルを編集するには、タスクまたはイシューに対する [!UICONTROL &#x200B; 編集 &#x200B;] 権限が必要です。
+ストーリータイルを編集するには、タスクまたはイシューに対する [!UICONTROL  編集 ] 権限が必要です。
 それぞれのフィールドと編集可能かどうかについて詳しくは、[表示および編集できる情報について](#understand-what-information-can-be-viewed-and-edited)を参照してください。
 
 >[!NOTE]

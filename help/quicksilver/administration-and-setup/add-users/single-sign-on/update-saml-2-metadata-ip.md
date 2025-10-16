@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
+source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 93%
+source-wordcount: '1007'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >
 >このページで説明する手順は、まだ Adobe Admin Console にオンボーディングされていない組織にのみ適用されます。
 >
->Adobe Admin Consoleにオンボードされた組織内のユーザー属性をマッピングするには、「ユーザー属性のマッピング」の [Adobe統合エクスペリエンスでのユーザー属性のマッピング &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) を参照してください。
+>Adobe Admin Consoleにオンボードされた組織内のユーザー属性をマッピングするには、「ユーザー属性のマッピング」の [Adobe統合エクスペリエンスでのユーザー属性のマッピング ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) を参照してください。
 
 次の節では、Active Directory フェデレーションサービス（ADFS）を ID プロバイダーとして使用する場合に、Security Assertion Markup Language（SAML）2.0 メタデータを更新する方法について説明します。
 
@@ -29,26 +29,26 @@ ht-degree: 93%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td><p>標準</p><p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -72,7 +72,7 @@ ADFS メタデータを自動的に更新するように設定するには、こ
 1. Workfront と共に使用するように以前に設定した証明書利用者の信頼を選択し、右側のパネルで、「**フェデレーションメタデータから更新**」をクリックします。
 1. （条件付き）このオプションがグレー表示の場合（既にメタデータファイルを使用して証明書利用者の信頼が設定されていたことを意味する）、次の手順を実行します。
 
-   1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**設定** ![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
+   1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
    1. **システム**／**シングルサインオン（SSO）**&#x200B;をクリックします。
 

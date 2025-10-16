@@ -1,51 +1,80 @@
 ---
 navigation-topic: use-the-gantt-chart
-title: '[!UICONTROL ガントチャート]での情報の表示'
-description: タスクリストガントチャートとプロジェクトリストガントチャートには、プロジェクトとタスクに関する情報が表示されます。
+title: 情報を [!UICONTROL  ガントチャート ] で表示
+description: Adobe Workfrontのタスクとプロジェクト [!UICONTROL  ガントチャート ] には、タスクとプロジェクトに関する情報が表示されます。
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 98%
+source-wordcount: '882'
+ht-degree: 88%
 
 ---
 
-# [!UICONTROL ガントチャート]での情報を表示
+# [!UICONTROL ガントチャート]での情報の表示
 
-タスクリスト[!UICONTROL ガントチャート]とプロジェクトリスト[!UICONTROL ガントチャート]には、プロジェクトとタスクに関する情報が表示されます。
+<!--Audited: 08/2025-->
+
+Adobe Workfrontのタスクとプロジェクト [!UICONTROL  ガントチャート ] には、タスクとプロジェクトに関する情報が表示されます。
 
 ## アクセス要件
 
-この記事の手順に従うには、以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンスの概要*</td> 
-   <td> <p>[!UICONTROL Review] 以降</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>[!UICONTROL ライト ] 以上</p>
+    <p>[!UICONTROL Review] 以降</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトとタスクに対する[!UICONTROL View]以上のアクセス権</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトとタスクに対する[!UICONTROL View]以上のアクセス権</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する[!UICONTROL View]以上のアクセス権</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトおよびタスクへの [!UICONTROL ビュー ] 以上のアクセス</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenses overview*</td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## [!UICONTROL ガントチャート]を見つける
 
@@ -75,17 +104,13 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
 
 1. 上記のいずれかの領域に移動します。
 
-   例えば、[!UICONTROL メインメニュー]から、**[!UICONTROL プロジェクト]**&#x200B;をクリックします。
+   例えば、Workfrontの [!UICONTROL **メインメニュー**]![ メインメニューアイコン ](assets/lines-main-menu.png) から、「**[!UICONTROL プロジェクト]**」をクリックします。
 
    プロジェクトのリストが表示されます。
 
-1. 画面の右上隅にある **[!UICONTROL ガントチャート]** アイコン ![&#x200B; ガントアイコン &#x200B;](assets/gantt-icon-nwe.png) をクリックします。
+1. 画面の右上隅にある **[!UICONTROL ガントチャート]** アイコン ![ ガントアイコン ](assets/gantt-icon-nwe.png) をクリックします。
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
-   -->
-
-1. **[!UICONTROL タスクリストを表示]**&#x200B;アイコンをクリックします。
+1. **[!UICONTROL タスクリストを表示]**![ タスクリストを表示アイコン ](assets/show-task-list-icon.png) アイコンをクリックします。
 
 1. 左側のプロジェクトリストで、プロジェクト名の横にあるドロップダウン矢印をクリックして、そのプロジェクトの下にあるタスクを表示します。\
    これにより、タスク情報が[!UICONTROL ガントチャート]に表示されます。\
@@ -113,7 +138,7 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
 
 1. [!UICONTROL ガントチャート]で、時間枠ドロップダウンメニューをクリックします。
 
-   ![&#x200B; タイムラインオプション &#x200B;](assets/timeline-options.png)
+   ![ タイムラインオプション ](assets/timeline-options.png)
 
 1. 次の利用可能なオプションから時間枠を選択します。
 
@@ -132,7 +157,7 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
    >
    >タイムラインのスナップショットは、水平スクロールバーをクリックした後にのみ表示されます。
 
-   ![stretchy_gantt_minimap_with_outline__1_.png](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![ タイムラインスナップショットのミニマップ ](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. （オプション）タイムラインのスナップショット内の任意の場所をクリックすると、プロジェクトの期間内の特定のポイントに移動します。\
    または\

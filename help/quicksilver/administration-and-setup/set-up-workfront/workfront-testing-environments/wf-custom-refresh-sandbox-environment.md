@@ -4,32 +4,32 @@ content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: ' [!DNL Adobe Workfront] Custom Refresh サンドボックス環境'
-description: カスタム更新サンドボックスは、実稼動環境のデータを使用してテストし作業できる環境です。トレーニングの実行、セットアップ機能の決定に最適です。
+description: カスタム更新サンドボックスは、本番環境のデータを使用してテストし作業できる環境です。トレーニングの実行、セットアップ機能の決定に最適です。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1719'
 ht-degree: 92%
 
 ---
 
 # [!DNL Adobe Workfront] カスタム更新サンドボックス環境
 
-カスタム更新サンドボックスは、実稼動環境のデータを使用してテストし作業できる環境です。トレーニングの実行、セットアップ機能の決定に最適です。
+カスタム更新サンドボックスは、本番環境のデータを使用してテストし作業できる環境です。トレーニングの実行、セットアップ機能の決定に最適です。
 
 >[!NOTE]
 >
->これは、お客様の [!DNL Workfront] 実稼動環境を複製するテスト環境でもあるプレビューサンドボックスとは異なります。
+>これは、お客様の [!DNL Workfront] 本番環境を複製するテスト環境でもあるプレビューサンドボックスとは異なります。
 >
 >* 実稼動環境で使用できるようになる前に、プレビューサンドボックスに新しい機能が導入されています。
 >* カスタム更新サンドボックスには、実稼動環境で使用できるようになる前に、新しい機能は導入されません。
 >
 >  また、プレビューサンドボックスには必要ないカスタム更新サンドボックスを取得するための追加費用も発生します。
 >
->  プレビューサンドボックスについて詳しくは、[&#x200B; [!DNL Adobe Workfront]  プレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
+>  プレビューサンドボックスについて詳しくは、[ [!DNL Adobe Workfront]  プレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
 
 ## アクセス要件
 
@@ -42,21 +42,24 @@ ht-degree: 92%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] プラン*</td> 
-   <td> <p>[!UICONTROL Business] 以降</p> </td> 
+   <td role="rowheader">Workfront パッケージ</td> 
+   <td> <p>PrimeまたはUltimate</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] ライセンス</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>[!DNL Workfront] の管理者になる必要があります。[!DNL Workfront] 管理者について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
+   <td role="rowheader"> Workfront ライセンス</td> 
+   <td> <p>標準</p><p>プラン</p>  </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">サポートパッケージ</td> 
-   <td> <p>[!UICONTROL Plus]、[!UICONTROL Preferred]、または [!UICONTROL Enterprise]</p> <p>標準サポートパッケージは、カスタム更新サンドボックスにアクセスできませんが、プレビューサンドボックスにアクセスできます。</p> </td> 
-  </tr> 
+  </tr>
+   <tr>
+   <td>アクセスレベル設定
+   </td>
+   <td><p>Workfront 管理者である必要があります。</p>
+   </td>
+  </tr>
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -68,7 +71,7 @@ ht-degree: 92%
 >
 >* 現在の日付の更新をスケジュールすることはできません。例えば、今日が 6月1日の場合、更新をスケジュールできる最も早い日は 6月2日です。
 >* スケジュールされた更新は、ユーザーのクラスターに基づいて、夜間に発生します（米国では夜間に米国クラスターが更新されます）。キュー内の他の顧客や更新されるデータの量が原因で、特定の時間が予測できません。キューに多数の大規模な顧客がある場合、更新はその日の後半または翌日まで実行されない場合があります。
->* カスタム更新サンドボックスには、実稼動環境と同じ製品機能が常に含まれます。ただし、カスタム更新サンドボックスを更新すると、ログイン画面の背景色に対するブランディングのみが保持されます。ログイン画面とナビゲーションバーのロゴが [!DNL Workfront] のデフォルトにリセットされると、更新前に変更したブランディング画像は表示されません。
+>* カスタム更新サンドボックスには、本番環境と同じ製品機能が常に含まれます。ただし、カスタム更新サンドボックスを更新すると、ログイン画面の背景色に対するブランディングのみが保持されます。ログイン画面とナビゲーションバーのロゴが [!DNL Workfront] のデフォルトにリセットされると、更新前に変更したブランディング画像は表示されません。
 >
 
 
@@ -79,17 +82,17 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 </note>
 -->
 
-## 実稼動環境からカスタム更新サンドボックスにアクセス {#access-the-custom-refresh-sandbox-from-your-production-environment}
+## 本番環境からカスタム更新サンドボックスにアクセス {#access-the-custom-refresh-sandbox-from-your-production-environment}
 
-[!DNL Workfront] 管理者は、実稼動環境からカスタム更新サンドボックスにアクセスできます。
+[!DNL Workfront] 管理者は、本番環境からカスタム更新サンドボックスにアクセスできます。
 
 >[!NOTE]
 >
->アカウントがクラスター 4（EMEA クラスター）にある場合は、実稼動環境からカスタム更新サンドボックスにアクセスできません。クラスター 4 にアカウントがある場合にカスタム更新サンドボックスにアクセスする方法について詳しくは、[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)を参照してください。
+>アカウントがクラスター 4（EMEA クラスター）にある場合は、本番環境からカスタム更新サンドボックスにアクセスできません。クラスター 4 にアカウントがある場合にカスタム更新サンドボックスにアクセスする方法について詳しくは、[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)を参照してください。
 
 カスタム更新サンドボックスへのアクセス方法：
 
-1. **[!UICONTROL の右上隅にある]** メインメニュー ![&#x200B; アイコン &#x200B;](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront] をクリックし、**[!UICONTROL 設定]**![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
+1. **[!UICONTROL の右上隅にある]** メインメニュー ![ アイコン ](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront] をクリックし、**[!UICONTROL 設定]**![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
 1. **[!UICONTROL システム]**／**[!UICONTROL 環境設定]**&#x200B;をクリックします。
 
@@ -173,7 +176,7 @@ URL を使用してカスタム更新サンドボックスにアクセスする�
 
 1. カスタム更新サンドボックスにログインします。
 
-   カスタム更新サンドボックスへのアクセスについて詳しくは、[実稼動環境からカスタム更新サンドボックスにアクセス](#access-the-custom-refresh-sandbox-from-your-production-environment)または [URL を使用してカスタム更新サンドボックスにアクセス](#access-the-custom-refresh-sandbox-using-a-url)を参照してください。
+   カスタム更新サンドボックスへのアクセスについて詳しくは、[本番環境からカスタム更新サンドボックスにアクセス](#access-the-custom-refresh-sandbox-from-your-production-environment)または [URL を使用してカスタム更新サンドボックスにアクセス](#access-the-custom-refresh-sandbox-using-a-url)を参照してください。
 
 1. 画面上部のバナーで「**[!UICONTROL 実稼動に移動]**」をクリックします。
 
@@ -186,14 +189,14 @@ URL を使用してカスタム更新サンドボックスにアクセスする�
 >[!NOTE]
 >
 >モバイルアプリのレポート配信およびプッシュ通知は、カスタム更新サンドボックス環境では常に無効になります。ユーザーも [!DNL Workfront] 管理者も、カスタム更新サンドボックス環境にアクセスする際に、モバイルアプリのレポート配信やプッシュ通知を有効にすることはできません。\
->実稼動環境でのレポート配信について詳しくは、[レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)を参照してください。実稼動環境のモバイルアプリでのプッシュ通知について詳しくは、の節を参照してください。
+>本番環境でのレポート配信について詳しくは、[レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)を参照してください。本番環境のモバイルアプリでのプッシュ通知について詳しくは、の節を参照してください。
 
 ## カスタム更新サンドボックスでのシングルサインオンの設定
 
-カスタム更新サンドボックスをシングルサインオンソリューションと連携するように設定する場合は、実稼動環境とは別に設定することで実現できます。カスタム更新サンドボックスの SSO 設定は、実稼動環境の SSO 設定とは独立しています。\
-カスタム更新サンドボックスが更新されると、SSO 情報は実稼動環境からコピーされず、カスタム更新サンドボックスの設定が上書きされます。
+カスタム更新サンドボックスをシングルサインオンソリューションと連携するように設定する場合は、本番環境とは別に設定することで実現できます。カスタム更新サンドボックスの SSO 設定は、本番環境の SSO 設定とは独立しています。\
+カスタム更新サンドボックスが更新されると、SSO 情報は本番環境からコピーされず、カスタム更新サンドボックスの設定が上書きされます。
 
-カスタム更新サンドボックスでシングルサインオンを設定する手順は、実稼動環境で設定する手順と似ています。\
+カスタム更新サンドボックスでシングルサインオンを設定する手順は、本番環境で設定する手順と似ています。\
 [!DNL Workfront] でのシングルサインオンの設定について詳しくは、[Adobe Workfront でのシングルサインオンの概要](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)を参照してください。
 
 >[!NOTE]
@@ -206,7 +209,7 @@ URL を使用してカスタム更新サンドボックスにアクセスする�
 
 Workfront管理者は、Workfrontがプロジェクトのタイムラインを自動再計算するタイミングを設定できます。 Workfrontは、毎晩、プロジェクトのスコープが変更されたとき、またはその両方で、プロジェクトのタイムラインを再計算できます。
 
-詳しくは、[&#x200B; プロジェクトのタイムラインの再計算の設定 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) を参照してください。
+詳しくは、[ プロジェクトのタイムラインの再計算の設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) を参照してください。
 
 カスタム更新サンドボックス環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的には再計算されません。 カスタム更新サンドボックス環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 

@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: タイムシートの手動生成
 description: タイムシートプロファイルに加えた変更を現在のタイムシートに反映させるようにするには、まず既存のタイムシートを削除してから、新しいタイムシートを手動で生成する必要があります。この記事で説明するように、タイムシートエリアまたは設定の診断エリアから、手動でタイムシートを生成できます。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 78%
+source-wordcount: '430'
+ht-degree: 70%
 
 ---
 
@@ -21,28 +21,30 @@ ht-degree: 78%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意</p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>プラン </p> </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td>
+   <p>標準</p>
+   <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>Workfront 管理者であるか、グループのタイムシートプロファイルを扱う場合は、グループ管理者（または Workfront 管理者）である必要があります。詳しくは、<a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>を参照してください。</p> <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>アクセスレベル設定</td> 
+   <td><p>Workfront管理者、またはグループのタイムシートプロファイルで作業している場合はグループ管理者（またはWorkfront管理者）である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -66,9 +68,9 @@ ht-degree: 78%
    特定のグループが使用するタイムシートを生成する場合は、「**グループ**」をクリックし、グループの名前をクリックします。
 
 1. 「**定期タイムシート**」をクリックします。
-1. その他アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、**タイムシートを生成** をクリックします。
+1. その他アイコン ![ その他アイコン ](assets/more-icon.png) をクリックし、**タイムシートを生成** をクリックします。
 
-1. タイムシートプロファイルリストの上部で、システムレベルのタイムシートプロファイルには **その他** アイコン ![&#x200B; その他 &#x200B;](assets/more-icon.png) をクリックし、グループタイムシートプロファイルには **その他** をクリックしてから、「**タイムシートを生成** をクリックします。
+1. タイムシートプロファイルリストの上部で、システムレベルのタイムシートプロファイルには **その他** アイコン ![ その他 ](assets/more-icon.png) をクリックし、グループタイムシートプロファイルには **その他** をクリックしてから、「**タイムシートを生成** をクリックします。
 
    新しいタイムシートは、タイムシートプロファイルに関連付けられたユーザーに対して、最大 2 期間作成されます。
 

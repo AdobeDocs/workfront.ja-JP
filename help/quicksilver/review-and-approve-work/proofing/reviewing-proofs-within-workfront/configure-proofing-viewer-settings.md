@@ -6,10 +6,10 @@ description: Web プルーフビューアーとデスクトッププルーフビ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 96%
+source-wordcount: '1354'
+ht-degree: 95%
 
 ---
 
@@ -44,32 +44,34 @@ Web プルーフビューアーとデスクトッププルーフビューアー�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>任意</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">プルーフの役割 </td> 
+   <td>レビュアー、レビュアーおよび承認者、作成者、モデレーター</td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
    <td>マネージャー以上</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -80,13 +82,13 @@ Web プルーフビューアーとデスクトッププルーフビューアー�
 1. 次のいずれかの方法で、Web プルーフビューアーまたはデスクトップ プルーフビューアーを開きます。
 
    * Adobe Workfron t内でプルーフを行う場合は、表示するプルーフを含むドキュメントリストに移動し、ドキュメントにカーソルを合わせて、「**プルーフを開く**」をクリックします。
-   * Workfront Proofを使用している場合は、ダッシュボードまたはビューリストで、プルーフの **プルーフに移動** アイコンをクリックするか ![&#x200B; プルーフに移動 &#x200B;](assets/go-to-proof-blue-icon.png) します。
+   * Workfront Proofを使用している場合は、ダッシュボードまたはビューリストで、プルーフの **プルーフに移動** アイコンをクリックするか ![ プルーフに移動 ](assets/go-to-proof-blue-icon.png) します。
 
 1. 左側のツールバーが表示されていない場合は、web プルーフビューアーの左上隅にある&#x200B;**メニュー**&#x200B;アイコンをクリックします。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![ メニューアイコン ](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. 左側のツールバーで、「**設定**」アイコン ![&#x200B; 設定アイコン &#x200B;](assets/settings-icon-in-pv.png) をクリックします。
+1. 左側のツールバーで、「**設定**」アイコン ![ 設定アイコン ](assets/settings-icon-in-pv.png) をクリックします。
 
 1. 次が表示されるので、いずれかを&#x200B;**設定**&#x200B;します。
 
@@ -124,7 +126,7 @@ Web プルーフビューアーとデスクトッププルーフビューアー�
        </tr> 
        <tr> 
         <td role="rowheader">最終決定</td> 
-        <td>Workfront は、プルーフの最後の承認者が決定を下したときにメールを送信します。<p>このアラートは、通常、実際のレビューの議論に参加する必要のない設計者によって使用されることがよくあります。最終的な決定が下されると、デザイナーに通知が届き、必要な変更に対してアクションを実行できます。</p><p>また、このアラートは、レビュープロセスが完了した場合にのみ通知を受け取る必要がある部署のリーダーに対しても役立ちます。</p></td> 
+        <td>Workfront は、プルーフの最後の承認者が決定を下したときにメールを送信します。<p>このアラートは、通常、実際のレビューの議論に参加する必要のないデザイナーによって使用されることがよくあります。最終的な決定が下されると、デザイナーに通知が届き、必要な変更に対してアクションを実行できます。</p><p>また、このアラートは、レビュープロセスが完了した場合にのみ通知を受け取る必要がある部署のリーダーに対しても役立ちます。</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">毎時の概要</td> 

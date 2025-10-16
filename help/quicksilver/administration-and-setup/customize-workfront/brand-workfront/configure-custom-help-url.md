@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 46%
+source-wordcount: '253'
+ht-degree: 40%
 
 ---
 
@@ -19,42 +19,37 @@ ht-degree: 46%
 
 Workfrontの使用方法に関する情報を含んだカスタムの内部ヘルプサイトを作成する場合は、メインメニューヘルプ アイコンをクリックして、そのサイトに移動できます。
 
-![&#x200B; カスタムヘルプボタン &#x200B;](assets/custom-help-button.png)
+![ カスタムヘルプボタン ](assets/custom-help-button.png)
 
 このことは、Workfront全体でコンテキストに沿ったヘルプリンク（Workfrontのヘルプサイトにアクセスできる）には影響しません。
 
-Workfrontで設定するカスタムヘルプ URL と通常のAdobe Workfront ヘルプサイトの両方にユーザーがアクセスする方法について詳しくは、[Workfront ヘルプへのアクセス &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md) を参照してください。
+Workfrontで設定するカスタムヘルプ URL と通常のAdobe Workfront ヘルプサイトの両方にユーザーがアクセスする方法について詳しくは、[Workfront ヘルプへのアクセス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md) を参照してください。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>システム管理者</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

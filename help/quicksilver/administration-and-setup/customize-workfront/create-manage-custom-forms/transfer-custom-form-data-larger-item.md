@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 95%
+source-wordcount: '387'
+ht-degree: 94%
 
 ---
 
@@ -30,35 +30,31 @@ ht-degree: 95%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
-   <td>任意</td> 
+  <tr> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定</td> 
+  <tr> 
+   <td>アクセスレベル設定</td> 
    <td> <p>カスタムフォームへの管理アクセス権</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
-## 1. カスタムフォームにオブジェクトを追加
+## &#x200B;1. カスタムフォームにオブジェクトを追加
 
 {{step-1-to-setup}}
 
@@ -74,13 +70,13 @@ ht-degree: 95%
 
 1. [2. イシューまたはタスクを変換し、カスタムフォームデータを転送](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data)へ進みます。
 
-## 2. イシューまたはタスクを変換し、カスタムフォームデータを転送 {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
+## &#x200B;2. イシューまたはタスクを変換し、カスタムフォームデータを転送 {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
 1. この記事の [1. カスタムフォームにオブジェクトを追加](#first-add-additonal-objects-to-the-custom-form)の節で説明したように、変換するイシューまたはタスクのカスタムフォームにオブジェクトを追加します。
 1. 必要なカスタムフォームを選択するために表示されるボックスの「**カスタムフォーム**」オプションを使用して、イシューまたはタスクを変換します。手順について詳しくは、次の記事を参照してください。
 
-   * [Adobe Workfront でのイシューからプロジェクトへの変換](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-   * [Adobe Workfront でのイシューのタスクへの変換](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+   * [イシューをプロジェクトに変換](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [イシューをタスクに変換](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [タスクをプロジェクトに変換](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
 1. 表示される&#x200B;**（オブジェクトタイプ）に変換**&#x200B;ダイアログボックスで、**フォームを追加**&#x200B;ドロップダウンメニューをクリックし、前の節でコピーしたフォームを選択します。

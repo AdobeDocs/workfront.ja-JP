@@ -7,10 +7,10 @@ description: 特定のアクセスレベル設定と、作業項目、ユーザ�
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 83%
+source-wordcount: '330'
+ht-degree: 63%
 
 ---
 
@@ -30,23 +30,20 @@ ht-degree: 83%
 
 Workfront の予算計上ツールを使用するための前提条件について詳しくは、[リソース計画の概要](../../resource-mgmt/resource-planning/get-started-resource-planning.md)を参照してください。
 
-リソース計画ツールでリソースを予算計上し、リソースプールを管理し、コスト情報を確認するには、所属する会社とユーザー本人が次のアクセス権を持っている必要があります。
+リソースの予算を立て、リソースプールを管理し、リソースプランニングツールでコスト情報を確認するには、会社に次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：任意</p>
-       <p>または</p>
-       <p>現在：Pro 以上</p> </td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr>  
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -66,11 +63,9 @@ Workfront の予算計上ツールを使用するための前提条件につい�
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>財務の管理権限を含む、プロジェクトの権限を管理します。</p> <p>プロジェクトの権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>の記事を参照してください。</p> <p>プロジェクトに対する財務権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">オブジェクトに対する財務権限の共有</a></a>の記事を参照してください。</p>
 
-<p><b>メモ</b>
-
-役割ビューでリソースを予算計上する際に、その役割の下に表示される少なくとも 1 つのプロジェクトに対する権限が管理権限未満である場合、その役割の時間数、FTE、コストは予算計上できません。予算計上できるのは、管理権限を持つプロジェクトのみです。</p> </td>
-</tr> 
+<p><b> 注意：</b> 役割ビューでリソースの予算を作成する際、役割の下にリストされている 1 つ以上のプロジェクトに対する管理権限が未満状態の場合、その役割の時間数、FTE またはコストを予算に計上することはできません。 予算計上できるのは、管理権限を持つプロジェクトのみです。</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。

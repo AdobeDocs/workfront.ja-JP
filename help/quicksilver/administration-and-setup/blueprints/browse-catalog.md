@@ -7,10 +7,10 @@ description: ブループリントは、ビジネスと共に成長する作業�
 author: Becky, Lisa
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 94%
+source-wordcount: '369'
+ht-degree: 92%
 
 ---
 
@@ -24,27 +24,23 @@ ht-degree: 94%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
+   <td role="rowheader">Adobe Workfrontパッケージ</td> 
+   <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>
-   <p>新規：Contributor 以上</p>
-   <p>または</p>
-   <p>現在：Request 以上</p></td> 
-  </tr>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>投稿者以上</p><p>要求者以上</p>
+  </td> 
+  </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

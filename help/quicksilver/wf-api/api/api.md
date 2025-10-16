@@ -9,9 +9,9 @@ feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: b57dd3a93b84fb78fb697e1fb18352809f0987f8
+source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '185'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 100%
 この節では、次の記事を扱います。
 
 * [API を使用したファイルのアップロード](../../wf-api/api/uploading-files-api.md)
-* [JSONP のサポートの終了](../../wf-api/api/ending-support-jsonp.md)
 * [イベント登録メッセージのフィルタリング](../../wf-api/api/filter-event-sub-messages.md)
 * [イベント登録の再試行](../../wf-api/api/event-sub-retries.md)
 * [イベント登録証明書](../../wf-api/api/event-sub-certs.md)

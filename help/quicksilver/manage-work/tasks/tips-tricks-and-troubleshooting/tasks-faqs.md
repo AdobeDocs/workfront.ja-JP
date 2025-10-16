@@ -3,14 +3,14 @@ content-type: faq
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: タスクの FAQ
-description: デフォルトでは、タスクのリクエスターまたは割り当て者は、他のユーザーに割り当てられたタスクの変更に関するメール通知を受け取りません。これらのタスクに関する通知の量は、日常的に多数のタスクを割り当てるユーザーにとって圧倒的な量になります。
+description: この記事では、Adobe Workfrontのタスクに関するよくある質問のリストを示します。
 author: Alina
 feature: Work Management
 exl-id: 6463efdd-02e0-42e1-8fe6-18a88f74db7b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 91%
 
 ---
 

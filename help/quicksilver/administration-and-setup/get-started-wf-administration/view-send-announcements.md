@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 97%
+source-wordcount: '566'
+ht-degree: 96%
 
 ---
 
@@ -27,26 +27,26 @@ Workfront からのお知らせメッセージには通常、新機能とリリ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td role="rowheader">Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td><p>標準</p> <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がユーザーのアクセスレベルを変更する方法については、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>Workfront 管理者である必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -63,7 +63,7 @@ Workfront から受け取ったメッセージを、システム内のユーザ�
 
 1. Workfront インターフェイスの右上隅にある&#x200B;**通知**&#x200B;アイコンをクリックしてお知らせページに移動したあと、「**すべてのお知らせ**」をクリックします。
 
-   ![&#x200B; すべてのお知らせ &#x200B;](assets/announcement-access-350x212.png)
+   ![ すべてのお知らせ ](assets/announcement-access-350x212.png)
 
 1. **お知らせ**&#x200B;ページで、転送するメッセージを選択します。
 1. 「**転送**」をクリックします。
@@ -79,7 +79,7 @@ Workfront から受け取ったメッセージを、システム内のユーザ�
 
 1. Workfront インターフェイスの右上隅にある&#x200B;**通知**&#x200B;アイコンをクリックしてお知らせページに移動したあと、「**すべてのお知らせ**」をクリックします。
 
-   ![&#x200B; すべての発表 &#x200B;](assets/announcement-access-350x212.png)
+   ![ すべての発表 ](assets/announcement-access-350x212.png)
 
 1. **お知らせ**&#x200B;ページで、「**新規お知らせ**」をクリックします。
 

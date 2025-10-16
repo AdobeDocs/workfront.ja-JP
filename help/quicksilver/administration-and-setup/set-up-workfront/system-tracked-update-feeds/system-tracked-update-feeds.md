@@ -9,7 +9,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 54%
@@ -18,11 +18,11 @@ ht-degree: 54%
 
 # システムで追跡される更新の概要
 
-<!-- Audited: 06/2025-->
+<!-- Audited: 08/2025-->
 
-[!DNL Adobe Workfront] は、オブジェクトの「[!UICONTROL &#x200B; 更新 &#x200B;] セクションにステータス情報を記録することで、特定のオブジェクトで発生しているアクティビティをキャプチャします。
+[!DNL Adobe Workfront] は、オブジェクトの「[!UICONTROL  更新 ] セクションにステータス情報を記録することで、特定のオブジェクトで発生しているアクティビティをキャプチャします。
 
-「更新」セクションについて詳しくは、「[&#x200B; 更新」セクションの概要 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
+「更新」セクションについて詳しくは、「[ 更新」セクションの概要 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
 
 [!UICONTROL 更新]エリアには、次のタイプの更新が含まれます。
 
@@ -36,7 +36,7 @@ ht-degree: 54%
 
   システム更新フィードおよびそれらを有効にする方法について詳しくは、[システム更新の設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 
-  ![&#x200B; システム更新の例 &#x200B;](assets/system-updates-example-unified-stream.png)
+  ![ システム更新の例 ](assets/system-updates-example-unified-stream.png)
 
 
   <!--
@@ -89,7 +89,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * ユーザーの更新は「コメント」タブに表示され、システムの更新は「システムアクティビティ」タブと「すべて」タブに表示されます。
 
-  「システム」アクティビティまたは「すべて」のタブを持たないオブジェクトのリストについては、「[&#x200B; 更新」セクションの概要を参照してください &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+  「システム」アクティビティまたは「すべて」のタブを持たないオブジェクトのリストについては、「[ 更新」セクションの概要を参照してください ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
 * システムの更新に返信を追加することはできません。 ただし、2024 年 4 月 11 日（PT）より前の従来のコメントエクスペリエンスのシステムアクティビティレコードに対して行われた返信は、読み取り専用として「システムアクティビティ」タブに入力されます。
 

@@ -6,10 +6,10 @@ description: Workfront の既存のタスクやイシューに接続するカー
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f8feca57e039e34c320f2b967c58c5fc0862f665
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 91%
+source-wordcount: '1430'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 91%
 * [!UICONTROL サブタスク]
 * [!UICONTROL ドキュメント]
 
-接続したカードをWorkfrontと同期するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL &#x200B; 詳細メニュー &#x200B;]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続項目を同期]** を選択します。 アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、カードは再び同期されます。
+接続したカードをWorkfrontと同期するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL  詳細メニュー ]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続項目を同期]** を選択します。 アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、再度同期されます。
 
 >[!NOTE]
 >
@@ -40,21 +40,18 @@ ht-degree: 91%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>
-   <p>新規：Contributor 以上</p>
-   <p>または</p>
-   <p>現在：Request 以上</p>
- </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p>
+   </td> 
   </tr> 
   <tr>
    <td role="rowheader">アクセスレベル設定</td>
@@ -63,7 +60,7 @@ ht-degree: 91%
   <tr>
    <td role="rowheader">オブジェクト権限</td>
    <td><p>Workfront タスクまたはイシューに対する表示またはそれ以上の権限</p>
-   <p><strong> 注意：</strong> タスクまたは問題に対する表示権限を持つユーザーは、接続されたカードに対して何のアクションも行うことはできません。カードをボード上の別の列に移動することはできません。 表示ユーザーは、カードを開いてそのプロパティを表示し、接続されたタスクまたはイシューを開くことのみ可能です。 追加のアクセス権をリクエストするには、タスクまたはイシューを開き、アクセス権をリクエストします。</td>
+</td>
   </tr>
  </tbody> 
 </table>

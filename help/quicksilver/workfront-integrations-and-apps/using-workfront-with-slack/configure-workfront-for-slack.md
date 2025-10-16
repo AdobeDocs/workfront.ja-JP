@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront]  を Slack と統合すると、Slack か�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 93%
 
 ---
 
@@ -24,26 +24,28 @@ ht-degree: 100%
 
 [!DNL Slack] 環境の設定に応じて、[!DNL Workfront for Slack] を自身でインストールして設定するか、またはユーザーが設定を行う前に [!DNL Workfront] 管理者が最初にインストールして設定する必要があります。
 
-[!DNL Slack] インスタンスを [!DNL Workfront] と統合する場合、[!DNL Slack] チャネル内で共同に作業を行いながら、ユーザーは [!DNL Workfront] を使用できます。[!DNL Slack] モバイルアプリを含め、任意の [!DNL Slack] 環境から統合を使用できます。
+[!DNL Slack] インスタンスを [!DNL Workfront] と統合する場合、[!DNL Slack] チャネル内で共同に作業を行いながら、ユーザーは [!DNL Workfront] を使用できます。統合は、[!DNL Slack] モバイルアプリを含む任意の [!DNL Slack] 環境から使用できます。 ## アクセス要件
 
-## アクセス要件
-
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/jp/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] プラン]</a>*</td> 
-   <td> <p>[!UICONTROL Pro] 以降</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>任意</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!DNL Slack] で [!DNL Workfront] を使用する際の前提条件
 

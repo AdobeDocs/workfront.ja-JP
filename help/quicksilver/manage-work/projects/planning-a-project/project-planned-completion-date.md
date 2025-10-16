@@ -2,16 +2,16 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: プロジェクトの予定完了日を設定
+title: プロジェクトの予定完了日を設定する
 description: プロジェクトの予定完了日とは、プロジェクトが完了するように設定された日付です。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 77%
+source-wordcount: '523'
+ht-degree: 73%
 
 ---
 
@@ -27,25 +27,60 @@ ht-degree: 77%
 
 ## アクセス要件
 
-<!--drafted for P&P:
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+   <p>プラン</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへのアクセスを編集</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>プロジェクトの管理権限</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>
+   New: Standard
+
+   Or
+
+   Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
@@ -55,48 +90,7 @@ ht-degree: 77%
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>
-   新規：標準
-
-または
-
-現在：プラン </p>
-
-</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトの管理権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+</table>-->
 
 ## プロジェクトの予定完了日を手動で設定
 
@@ -111,13 +105,13 @@ ht-degree: 77%
 
 {{step1-to-projects}}
 
-1. **新規プロジェクト** をクリックし、表示されるドロップダウンから **新規プロジェクト** を選択します。
+1. **新規プロジェクト** をクリックし、ドロップダウンから **新規プロジェクト** を選択します。
 
    プロジェクトの作成について詳しくは、「[プロジェクトを作成](../../../manage-work/projects/create-projects/create-project.md)」の記事を参照してください。
 
 1. 左側のパネルで **プロジェクト詳細** を選択します。
 
-1. 右上隅の **プロジェクトを編集** アイコン ![&#x200B; 編集アイコン &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) をクリックし、表示されるドロップダウンで **概要** を選択します。
+1. 右上隅の **プロジェクトを編集** アイコン ![ 編集アイコン ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) をクリックし、表示されるドロップダウンで **概要** を選択します。
 
 1. 「**プロジェクト日付**」セクションで、「**スケジュールモード**」フィールドをクリックし、「**完了日**」を選択します。
 
@@ -140,7 +134,7 @@ ht-degree: 77%
 
 1. 左側のパネルで **プロジェクト詳細** を選択します。
 
-1. 右上隅の **プロジェクトを編集** アイコン ![&#x200B; 編集アイコン &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) をクリックし、表示されるドロップダウンで **概要** を選択します。
+1. 右上隅の **プロジェクトを編集** アイコン ![ 編集アイコン ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) をクリックし、表示されるドロップダウンで **概要** を選択します。
 
 1. 「**プロジェクト日付**」セクションで、「**スケジュールモード**」フィールドをクリックし、「**開始日**」を選択します。
 

@@ -4,10 +4,10 @@ title: Adobe Workfront ヘルプへのアクセス
 description: Workfront では、提供されている様々な製品の機能に関する質問への回答を見つけるのに役立つ様々なコンテンツが用意されています。
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 98%
+source-wordcount: '121'
+ht-degree: 100%
 
 ---
 
@@ -15,28 +15,6 @@ ht-degree: 98%
 
 [!DNL Workfront] では、[!DNL Workfront] で提供されている様々な製品の機能に関する質問への回答を見つけるのに役立つ様々なコンテンツが用意されています。
 
-## アクセス要件
-
-この記事の手順を実行するには、次のアクセス権が必要です。
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
-   <td> <p>任意</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;ご利用のプランやライセンスタイプについては、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## Experience League に関する [!DNL Adobe Workfront] ドキュメントへのアクセス
 

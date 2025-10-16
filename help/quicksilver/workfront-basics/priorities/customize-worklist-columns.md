@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 24%
+source-wordcount: '202'
+ht-degree: 20%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 24%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
-   <p>現在：レビュアーまたはそれ以上</p>
-   <p>新規：ライト以上</p> 
+   <p>Reviewer 以上</p>
+   <p>ライト以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ ht-degree: 24%
 {{step1-to-priorities}}
 
 1. 画面左側にある **列** をクリックします。
-   ![&#x200B; 列 &#x200B;](assets/columns-new.png)
+   ![ 列 ](assets/columns-new.png)
 1. ワークリストの列の有効/無効を切り替えるには、を使用します。
 
 ### 列の並べ替え
@@ -75,7 +75,7 @@ ht-degree: 24%
 
 1. 画面左側にある **列** をクリックします。
 1. **ドラッグ** アイコンをクリックし、列を目的の場所に移動します。 列を移動すると、ワークリスト内で自動的に更新されます。
-   ![&#x200B; 列の並べ替え &#x200B;](assets/reorder-columns-new.png)
+   ![ 列の並べ替え ](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >

@@ -2,15 +2,15 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: 公開,計画,プロジェクト,シナリオ,シナリオ
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: シナリオプランナーでイニシアチブを公開して、プロジェクトをアップデートまたは作成
+title: シナリオプランナーでイニシアチブを公開してプロジェクトを更新または作成
 description: 既存のイニシアチブからプロジェクトを作成したり、Adobe Workfront Scenario Planner でシナリオを公開して、イニシアチブに以前リンクされていたプロジェクトをアップデートしたりできます。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 82%
+source-wordcount: '1696'
+ht-degree: 81%
 
 ---
 
@@ -19,54 +19,91 @@ ht-degree: 82%
 [!DNL Adobe Workfront Scenario Planner] からシナリオを公開すると、以下のことが実現されます。
 
 * シナリオのイニシアチブから複数のプロジェクトを作成し、それらをリンクします。
-* シナリオのイニシアチブに既にリンクされているプロジェクトを、リンクされたイニシアチブからの情報でアップデートします。プロジェクトをプランに読み込む際に、プロジェクトをイニシアチブにリンクすることもできます。詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) 内のプランにプロジェクトを読み込みを参照してください。
+* シナリオのイニシアチブに既にリンクされているプロジェクトを、リンクされたイニシアチブからの情報でアップデートします。プロジェクトをプランに読み込む際に、プロジェクトをイニシアチブにリンクすることもできます。詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) 内のプランにプロジェクトを読み込みを参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
-   <td> <ul></li>
-   <li><p>新規：Ultimate </p></li>
-   <p>シナリオプランナーは、新しいWorkfront Select プランまたはWorkfront Prime プランでは使用できません。 </p>
-   <li><p>現在：[!UICONTROL Business] 以上</p></ul>
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>WorkfrontUltimate</p>
+<p><b>メモ</b></p>
+<p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
-   <td> <p>新規：ライト以上</p> 
-   <p>現在：[!UICONTROL Review] 以上</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] ライセンス</p> </td> 
+   <td> <p>[!UICONTROL ライト ] 以上</p> 
+   <p>[!UICONTROL Review] 以降</p> </td> 
+  </tr> 
+    <tr> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>[!DNL Scenario Planner] および [!UICONTROL プロジェクト ] の [!UICONTROL 編集 ] アクセス</p></td> 
   </tr> 
   <tr> 
-   <td>製品* </td> 
-   <td> <ul><li><p>新しいWorkfrontプランの場合：</p><p> Adobe Workfront</li></p>
-   <li><p>現在のWorkfront プランの場合： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront シナリオプランナー</p></li></ul>
-
-<p>詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> ールの使用に必要なアクセス権」を参照してください。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>アクセスレベル </td> 
-   <td> <p>[!DNL Scenario Planner] および [!UICONTROL プロジェクト &#x200B;] の [!UICONTROL 編集 &#x200B;] アクセス</p></td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>オブジェクト権限 </p> </td> 
-   <td>  <ul> 
+   <td> <ul> 
      <li>プランに対する[!UICONTROL Manage]権限 </li> 
      <li>公開済みプロジェクトに対する[!UICONTROL Manage]権限</li> 
-    </ul> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!DNL Scenario Planner]</a> でのプランへの利用申請を参照してください。</p> </td> 
+    </ul>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+シナリオプランナーへのアクセスについて詳しくは、[ の使用に必要なアクセス  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を参照してください。
+
+Workfrontのアクセス要件について詳しくは、[Workfrontのドキュメントへのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access for the [!DNL Scenario Planner] and [!UICONTROL Projects]</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td>  <ul> 
+     <li>[!UICONTROL Manage] permissions for the plan </li> 
+     <li>[!UICONTROL Manage] permissions for published projects</li> 
+    </ul> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 
 ## 前提条件
 
@@ -91,7 +128,7 @@ ht-degree: 82%
   >
   >同じプロジェクトを複数のプランに読み込むことができます。公開すると、複数のイニシアチブにリンクされているプロジェクトのイニシアチブ情報が上書きされる場合があります。
 
-  プロジェクトへの読み込みによるイニシアチブの作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) でプランにプロジェクトを読み込むを参照してください。
+  プロジェクトへの読み込みによるイニシアチブの作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) でプランにプロジェクトを読み込むを参照してください。
 
 * プロジェクトに対して行った変更は、リンクされたイニシアチブには転送されません。
 
@@ -101,11 +138,11 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->プラン上のイニシアチブに変更（競合の解決を含む）を加えた場合、新しい情報をプロジェクトに表示するには、イニシアチブを再公開する必要があります。この情報は、対応するイニシアチブを公開する場合にのみ、イニシアチブにリンクされたプロジェクトに表示されます。イニシアチブ間の競合の解決方法について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) でのイニシアチブの競合の解決を参照してください。
+>プラン上のイニシアチブに変更（競合の解決を含む）を加えた場合、新しい情報をプロジェクトに表示するには、イニシアチブを再公開する必要があります。この情報は、対応するイニシアチブを公開する場合にのみ、イニシアチブにリンクされたプロジェクトに表示されます。イニシアチブ間の競合の解決方法について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) でのイニシアチブの競合の解決を参照してください。
 
 {{step1-to-scenario-planner}}
 
-1. （オプションおよび条件付き）既存のプランから公開する場合は、プランの右上隅にある **[!UICONTROL フィルター]** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) をクリックし、次のオプションのいずれかを選択します。
+1. （オプションおよび条件付き）既存のプランから公開する場合は、プランの右上隅にある **[!UICONTROL フィルター]** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックし、次のオプションのいずれかを選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,9 +163,9 @@ ht-degree: 82%
     </tbody> 
    </table>
 
-   ![&#x200B; フィルタードロップダウンオプション &#x200B;](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![ フィルタードロップダウンオプション ](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. （任意） **[!UICONTROL 検索]** アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックし、計画名の入力を開始すると、リスト内をすばやく見つけることができます。
+1. （任意） **[!UICONTROL 検索]** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックし、計画名の入力を開始すると、リスト内をすばやく見つけることができます。
 1. （条件付き）新しいプランから公開するには、プランを作成します。
 
    プランの作成については、[プランの作成と編集： [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)を参照してください。
@@ -142,21 +179,21 @@ ht-degree: 82%
    イニシアチブの作成については、[イニシアチブの作成と編集： [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)を参照してください。
 
 1. 「**[!UICONTROL 計画の保存]**」をクリックします。
-1. **[!UICONTROL 最初のシナリオ]** ドロップダウンメニューから公開するシナリオを選択し、右上隅にある「**[!UICONTROL 公開に移動]**![&#x200B; 公開に移動 &#x200B;](assets/go-to-publish-button-icon.png)」をクリックします。
+1. **[!UICONTROL 最初のシナリオ]** ドロップダウンメニューから公開するシナリオを選択し、右上隅にある「**[!UICONTROL 公開に移動]**![ 公開に移動 ](assets/go-to-publish-button-icon.png)」をクリックします。
 
    または
 
-   **[!UICONTROL シナリオを比較]** をクリックし、公開するシナリオカードにマウスポインターを置いて、「**[!UICONTROL 公開に移動]**![&#x200B; 公開に移動 &#x200B;](assets/go-to-publish-button-icon.png)」をクリックします。
+   **[!UICONTROL シナリオを比較]** をクリックし、公開するシナリオカードにマウスポインターを置いて、「**[!UICONTROL 公開に移動]**![ 公開に移動 ](assets/go-to-publish-button-icon.png)」をクリックします。
 
-   [!UICONTROL イニシアティブを公開]ページが表示され、シナリオ内のすべてのイニシアチブが一覧表示されます。イニシアチブが以前に公開されている場合は、名前の後にプロジェクトアイコン ![&#x200B; プロジェクトアイコン &#x200B;](assets/project-icon-sp.png) が表示され、リストに **[!UICONTROL 最終公開日]** が入力されます。
+   [!UICONTROL イニシアティブを公開]ページが表示され、シナリオ内のすべてのイニシアチブが一覧表示されます。イニシアチブが以前に公開されている場合は、名前の後にプロジェクトアイコン ![ プロジェクトアイコン ](assets/project-icon-sp.png) が表示され、リストに **[!UICONTROL 最終公開日]** が入力されます。
 
    >[!TIP]
    >
-   >プロジェクトをインポートして作成したイニシアチブでは、名前の右側にプロジェクトアイコン ![&#x200B; プロジェクトアイコン &#x200B;](assets/project-icon-sp.png) が表示されます
+   >プロジェクトをインポートして作成したイニシアチブでは、名前の右側にプロジェクトアイコン ![ プロジェクトアイコン ](assets/project-icon-sp.png) が表示されます
 
-   ![&#x200B; プロジェクトアイコンと最終公開日 &#x200B;](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
+   ![ プロジェクトアイコンと最終公開日 ](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-1. （オプションおよび条件付き）既存のプランから公開する場合は、プランの右上隅にある **[!UICONTROL フィルター]** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) をクリックし、次のオプションのいずれかを選択します。
+1. （オプションおよび条件付き）既存のプランから公開する場合は、プランの右上隅にある **[!UICONTROL フィルター]** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックし、次のオプションのいずれかを選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -177,9 +214,9 @@ ht-degree: 82%
     </tbody> 
    </table>
 
-   ![&#x200B; イニシアティブ フィルター &#x200B;](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
+   ![ イニシアティブ フィルター ](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. （任意） **[!UICONTROL 検索]** アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックし、イニシアチブの名前の入力を開始すると、リスト内ですばやく見つけることができます。
+1. （任意） **[!UICONTROL 検索]** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックし、イニシアチブの名前の入力を開始すると、リスト内ですばやく見つけることができます。
 1. 公開する 1 つまたは複数のイニシアチブを選択し、そこからプロジェクトを作成または更新したあと、「**[!UICONTROL イニシアチブを公開]**」をクリックします。
 
    これにより、選択した各イニシアチブから新しいプロジェクトが作成され、公開されたイニシアチブが既にプロジェクトにリンクされている場合は、関連付けられている既存のプロジェクトが更新されます。
@@ -193,17 +230,17 @@ ht-degree: 82%
    * 1 つのイニシアチブを公開した場合は、「**[!UICONTROL 関連プロジェクトを表示]**」をクリックして、そのイニシアチブから作成または更新されたプロジェクトを開きます。
    * 複数のイニシアチブを公開した場合は、「**[!UICONTROL 関連プロジェクトを表示]**」をクリックして、イニシアチブから公開されたプロジェクトのリストを開きます。[!DNL Workfront] では、デフォルトで[!DNL Scenario Planner]プロジェクトフィルターをプロジェクトのリストに適用します。直近に公開されたプロジェクトがリストの一番上に表示されます。
 
-     ![&#x200B; イニシアチブを公開した後のシナリオプランナー &#x200B;](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+     ![ イニシアチブを公開した後のシナリオプランナー ](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. プロジェクトに関するイニシアチブ情報を表示するには、次の領域に移動します。
 
    * **「[!UICONTROL 更新]」セクション**：プロジェクトがイニシアチブから作成または更新されたことを示すために更新が公開されます。更新には、プロジェクトを作成または更新したイニシアチブの名前と、そのイニシアチブを含んだプランのリンクされた名前が含まれます。更新内のプランの名前をクリックすると、[!DNL Scenario Planner]でプランを開くことができます。
 
-     ![&#x200B; 公開の更新ストリーム確認 &#x200B;](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
+     ![ 公開の更新ストリーム確認 ](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
    * **「[!UICONTROL プロジェクト詳細]」セクションの[!UICONTROL 概要]領域**：この領域には、リンクされたイニシアチブからの情報を含んだ新しい「[!DNL Scenario Planner]」セクションが作成されます。
 
-     ![&#x200B; プロジェクト詳細のシナリオプランナー &#x200B;](assets/scenario-planner-on-project-details-350x135.png)
+     ![ プロジェクト詳細のシナリオプランナー ](assets/scenario-planner-on-project-details-350x135.png)
 
      次のイニシアチブ情報は、「[!UICONTROL プロジェクト詳細]」セクションの[!DNL Scenario Planner]領域に公開されています。
 
@@ -257,7 +294,7 @@ ht-degree: 82%
 
      詳しくは、[プロジェクトとイニシアチブ間でのリソース割り当て調整の概要](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)を参照してください。
 
-     ![&#x200B; 役割の割り当てパネル &#x200B;](assets/role-allocation-panel-350x174.png)
+     ![ 役割の割り当てパネル ](assets/role-allocation-panel-350x174.png)
 
      プロジェクトの日付やリソースを変更しても、対応するイニシアチブや、イニシアチブ情報を含んだプロジェクト上の領域には影響しません。
 
@@ -265,7 +302,7 @@ ht-degree: 82%
 
      詳しくは、[[!UICONTROL ビジネスケース]でのリソースの計上： [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)を参照してください。
 
-     ![&#x200B; ビジネスケースでのシナリオプランナー &#x200B;](assets/sp-in-business-case-selected-350x110.png)
+     ![ ビジネスケースでのシナリオプランナー ](assets/sp-in-business-case-selected-350x110.png)
 
 1. （オプション）シナリオの公開後、次の情報を[!DNL Scenario Planner]でレビューします。
 
@@ -274,11 +311,11 @@ ht-degree: 82%
    * 「[!UICONTROL 公開に移動]」オプションは、1 つ以上のイニシアチブがシナリオから公開された後に、他のすべてのシナリオから削除されます。
    * プラン内で、公開したイニシアチブのプロジェクトアイコンの横に緑色のインジケータが表示されます。
 
-     ![&#x200B; 公開済みのイニシアチブの指標 &#x200B;](assets/indicator-for-published-initiative-icon-350x119.png)
+     ![ 公開済みのイニシアチブの指標 ](assets/indicator-for-published-initiative-icon-350x119.png)
 
    * 緑色の「公開済み」インジケーターがシナリオの上部とシナリオカードに表示され、シナリオカードの「公開済み」フィールドに、公開されたシナリオ内のイニシアチブの数が表示されます。
 
-     ![&#x200B; 公開済みのシナリオ &#x200B;](assets/published-scenario-highlighted-350x632.png)
+     ![ 公開済みのシナリオ ](assets/published-scenario-highlighted-350x632.png)
 
      >[!TIP]
      >

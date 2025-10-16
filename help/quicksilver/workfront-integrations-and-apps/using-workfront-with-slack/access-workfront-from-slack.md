@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront]  を  [!DNL Slack]  に統合すると、S
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 100%
+source-wordcount: '1106'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,29 @@ ht-degree: 100%
 [!DNL Adobe Workfront] を [!DNL Slack] に統合すると、[!DNL Slack] から [!DNL Workfront] にアクセスしたり、スラッシュコマンドを使用して [!DNL Workfront] で特定のアクションを実行したりできます。[!DNL Slack] モバイルアプリを含め、任意の [!DNL Slack] 環境から統合を使用できます。
 
 [!DNL Slack] から [!DNL Workfront] を使用するには、ユーザーまたは [!DNL Slack] 管理者が [!DNL Slack] インスタンスに [!DNL Workfront] アプリをインストールする必要があります。詳しくは、[Adobe Workfront for Slack の設定](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)を参照してください。
+
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>任意</p>
+  </tr> 
+ </tbody> 
+</table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## スラッシュコマンドについて {#about-slash-commands}
 

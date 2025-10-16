@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 98%
+source-wordcount: '1994'
+ht-degree: 94%
 
 ---
 
 # 承認プロセスの編集
+
+<!--Audited: 08/2025-->
 
 Adobe Workfront 管理者、または承認プロセスへの管理者アクセス権を持っている場合、システム内のすべての承認プロセスを表示および編集できます。
 
@@ -37,30 +39,60 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront パッケージ*</td> 
+   <td><p>システムレベルまたは単一使用の承認プロセスの場合：</p><ul><li><p>任意のパッケージ</p></li></ul>
+   <p>グループレベルの承認プロセスの場合：</p>
+   <ul><li><p>PrimeまたはUltimateのワークフロー</p></li>
+   <li><p>Workfront PrimeまたはUltimate</p></li></ul>
+   </td>
+
+</tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+ <p>プラン</p> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>システム管理者または承認プロセスへの管理者アクセス権を持つユーザーは、特定のグループに対してシステムレベルの承認プロセスまたはグループレベルの承認プロセスを作成できます。</p> 
+   <p>グループ管理者で承認プロセスへの管理者アクセス権を持っている場合は、管理するグループに対してグループレベルの承認プロセスを作成できます。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
+
+<!--
+
+I made the above match what we had for Create approval process - seemed more complete; 
+For this article, the old access was: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td>任意</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td>プラン</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>システム管理者以外の場合は、承認プロセスへの管理者アクセス権</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to Approval Processes if you are not a System Administrator</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
-
-+++
+</table>-->
 
 ## 既存の承認プロセスを編集
 
@@ -72,7 +104,7 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
 
    グループレベルの承認プロセスを編集する場合は、次の手順を実行します。
 
-   1. 左側のパネルで、**グループ**![&#x200B; グループアイコン &#x200B;](assets/groups-icon.png) をクリックします。
+   1. 左側のパネルで、**グループ**![ グループアイコン ](assets/groups-icon.png) をクリックします。
    1. グループ承認プロセスを一覧表示または管理するグループの名前をクリックします。
    1. 左側のパネルで、「**承認**」をクリックします。場合によっては、まず「**さらに表示**」をクリックする必要があります。
 
@@ -80,7 +112,7 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
 
 1. 編集するプロジェクトを選択し、リストの上部にある「**編集**」をクリックします。「承認プロセスの編集」ボックスが表示されます。
 
-   ![&#x200B; 承認プロセスの編集 &#x200B;](assets/edit-approval-process-global-area-new.png)
+   ![ 承認プロセスの編集 ](assets/edit-approval-process-global-area-new.png)
 
 1. 表示されるボックスで、次の情報を指定します。
 
@@ -90,7 +122,9 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
     <tbody> 
      <tr> 
       <td role="rowheader">承認プロセス名</td> 
-      <td>承認プロセスにわかりやすい名前を入力します。ユーザーがオブジェクトに承認プロセスを適用すると、この名前が表示されます（<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">新規または既存の承認プロセスと作業の関連付け</a>参照）。</td> 
+      <td><p>承認プロセスにわかりやすい名前を入力します。ユーザーがオブジェクトに承認プロセスを適用すると、この名前が表示されます（<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">新規または既存の承認プロセスと作業の関連付け</a>参照）。</p>
+      <p>必須フィールドです。</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">説明</td> 
@@ -106,7 +140,9 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
        <ul> 
         <li>システム管理者、または承認プロセスへの管理者アクセス権を持っている場合は、名前を入力すると、システム内のすべてのグループが表示されます。<b>すべてのグループ</b> はデフォルトで選択されています。 </li> 
         <li>承認プロセスへの管理者アクセス権を持たないグループ管理者は、その名前を入力する際に、管理対象のグループに承認プロセスを割り当てることができます。「<b>すべてのグループ</b>」オプションは利用できません。</li> 
-       </ul> <p>このオプションは、1 回限りの承認プロセスには使用できません。</p> <p><b>警告</b>：グループ固有の承認プロセスを変更すると、既に作業アイテムに関連付けられている既存の承認プロセスが変更される場合があります。これらの変更点について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。</p> <p>グループのページからグループの承認プロセスを一覧表示および管理する方法について詳しくは、<a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">グループレベルの承認プロセス</a>を参照してください。 </p> <p>承認プロセスへの管理者アクセス権について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
+       </ul> 
+       <p>必須フィールドです。</p>
+       <p>このオプションは、1 回限りの承認プロセスには使用できません。</p> <p><b>警告</b>：グループ固有の承認プロセスを変更すると、既に作業アイテムに関連付けられている既存の承認プロセスが変更される場合があります。これらの変更点について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。</p> <p>グループのページからグループの承認プロセスを一覧表示および管理する方法について詳しくは、<a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">グループレベルの承認プロセス</a>を参照してください。 </p> <p>承認プロセスへの管理者アクセス権について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -121,7 +157,9 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">ステータスが次のように設定された場合、承認プロセスを開始</p> </td> 
-      <td> <p>作業アイテムの承認プロセスをトリガーにするステータスを選択します。誰かが作業アイテムをこのステータスに更新すると、承認プロセスが開始します。 </p> <p>複数の承認プロセスパスに対して同じステータスを選択することはできません。</p> <p>使用可能なステータスは、「<b>」オプションで選択した内容に基づきます。この承認は、</b> によって使用されることができます（上記の表で説明）。</p> 
+      <td> <p>作業アイテムの承認プロセスをトリガーにするステータスを選択します。誰かが作業アイテムをこのステータスに更新すると、承認プロセスが開始します。 </p> 
+      <p>必須フィールドです。</p>
+      <p>複数の承認プロセスパスに対して同じステータスを選択することはできません。</p> <p>使用可能なステータスは、「<b>」オプションで選択した内容に基づきます。この承認は、</b> によって使用されることができます（上記の表で説明）。</p> 
       <ul> 
       <li> 次の場合 <b>すべてのグループ</b>を選択した場合、システム全体でロックされたステータスのみを使用できます。<!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
@@ -136,16 +174,18 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
       <td role="rowheader">承認者</td> 
       <td> <p>このステージの承認者として指定するユーザー、チームまたは担当業務の名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。アクティブなユーザー、担当業務、およびチームのみを追加できます。 </p>
 
-   <p><b>ヒント</b>：</p>
+   <p>必須フィールドです。</p>
+
+   <p><b>ヒント</b></p>
 
    <p>ユーザーを承認者として追加する場合は、同じ名前のユーザーを区別するために、アバター、ユーザーのプライマリの役割、またはメールアドレスに注意してください。ユーザーを追加したときに表示するには、少なくとも 1 つの担当業務に関連付ける必要があります。</p>
       <p>ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、<a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">ユーザーへのアクセス権の付与</a>を参照してください。</p>。
 
-   <p><b>メモ</b>：
+   <p><b>メモ</b>
 
    承認者としてユーザー、チームまたは役割を追加しても、その承認に関連付けられたオブジェクトに対する権限は自動的には付与されません。承認ステップがトリガーされると、オブジェクトに対する権限が付与されます。そうでない場合は、承認を決定する前に、オブジェクトをユーザー、チームまたは役割と共有する必要があります。 </p>
    <p>また、個人の役割を指定することで、個人を承認者に指定することもできます。例えば、プロジェクト所有者、プロジェクトスポンサー、ポートフォリオ所有者、プログラム所有者、または管理者を承認者として割り当てることができます。これらのオプションは、入力を始めると自動的に表示されます。</p> 
-      <p><b>重要</b>：  
+      <p><b>重要</b>
       <ul> 
       <li> プロジェクトスポンサーに承認を割り当て、誰もプロジェクトのスポンサーとして指定されていない場合、承認はプロジェクト所有者に再割り当てされます。プロジェクトの所有者として誰も指定されていない場合、承認は Workfront 管理者に割り当てられます。 </li> 
       <li> 承認を役割に割り当て、「<b>承認者がプロジェクトチームに属している必要はありません</b>」オプションを無効になっているが、プロジェクトチーム内に承認の役割と一致する役割がない場合、承認はプロジェクト所有者に再割り当てられます。承認設定について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">グローバル承認設定を指定</a>を参照してください。

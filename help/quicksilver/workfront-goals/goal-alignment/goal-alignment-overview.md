@@ -7,34 +7,41 @@ description: 目標を関連付けることにより、各自の目標を互い�
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 92%
+source-wordcount: '750'
+ht-degree: 88%
 
 ---
 
 # Adobe Workfront Goals での目標の関連付けの概要
 
-<!--Audited P&P only: 4/2025-->
+<!--Audited: 10/2025-->
 
 >[!IMPORTANT]
 >
->この記事で説明している機能を使用するには、組織に以下が必要です。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
 >
->* 新しいプランとライセンス構造の場合：
->
->   * Ultimate Workfront プラン
->    
->* 現在のプランおよびライセンス構造の場合：
->
->   * Pro 以上のWorkfront プラン
->   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
->
->Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+>Adobe Workfront Goals は購入できなくなりました。
 > 
 >Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
+
+<!--Old:
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
+> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).-->
 
 目標の関連付けは、目標管理の重要な部分です。各自の目標をお互いに、またチームやグループ、会社の組織的な目標と連携させることで、戦略を前進させるために何が必要かについて、組織の全員が同じ考えを持っていることを確認できます。
 
@@ -95,7 +102,7 @@ ht-degree: 92%
 -->
 以下のエリアで、子目標と親目標を表示できます。
 
-* 目標のページの「進捗状況インジケーター」セクション（タイプ：目標グループの下）。
+* 目標のページのタイプ グループの下にある進捗インジケーター :Goal セクション。
 * 目標ページの「目標の整合」セクション。
 
 

@@ -2,20 +2,20 @@
 content-type: reference
 product-area: portfolios;projects
 navigation-topic: portfolios-navigation-topic
-title: '[!UICONTROL ポートフォリオオプティマイザー]でのプロジェクト管理'
+title: '[!UICONTROL Portfolio Optimizer] でのプロジェクトの管理：記事インデックス'
 description: '[!UICONTROL ポートフォリオオプティマイザー]は、プロジェクトの評価と比較に使用されるツールです。ポートフォリオに割り当てられたプロジェクトのビジネスケースの価値をレビューおよび比較するプロセスは、ポートフォリオマネージャーがプロジェクトに優先順位を付け、組織に最も大きな価値を生み出すことができる方法です。'
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 662d4975-3af5-4de6-befa-abadeedf2b0d
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '142'
+ht-degree: 88%
 
 ---
 
-# [!UICONTROL ポートフォリオオプティマイザー]でのプロジェクト管理
+# [!UICONTROL Portfolio Optimizer] でのプロジェクトの管理：記事インデックス
 
 [!UICONTROL ポートフォリオオプティマイザー]は、プロジェクトの評価と比較に使用されるツールです。ポートフォリオに割り当てられたプロジェクトのビジネスケースの価値をレビューおよび比較するプロセスは、ポートフォリオマネージャーがプロジェクトに優先順位を付け、組織に最も大きな価値を生み出すことができる方法です。
 

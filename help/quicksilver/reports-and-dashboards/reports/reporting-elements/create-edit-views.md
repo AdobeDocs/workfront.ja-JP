@@ -6,9 +6,9 @@ description: ビューを使用して、画面に表示する情報のタイプ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1713'
 ht-degree: 83%
 
 ---
@@ -25,44 +25,35 @@ ht-degree: 83%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</strong></td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>投稿者以上</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>リクエスト以上</p></li>
-         </ul>
+    <p>投稿者以上</p>
+    <p>リクエスト以上</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポートのビューを作成するために、レポート、ダッシュボード、カレンダーへの編集アクセス権</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクトの権限*</strong></td> 
+   <td role="rowheader">オブジェクト権限</td> 
    <td> <p>レポートのビューを作成または編集するために、レポートに対する管理権限</p> <p>編集するために、ビューに対する管理権限</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
-
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 +++
 
 ## ビューの作成またはカスタマイズ
@@ -80,7 +71,7 @@ ht-degree: 83%
 
 1. 「**+新規ビュー**」ボタンをクリックして、新規ビューを作成します。
 または
-編集する既存のビューの右側にマウスポインターを置くと表示される **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+編集する既存のビューの右側にマウスポインターを置くと表示される **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 **ビューをカスタマイズ**&#x200B;ダイアログボックスが表示されます。
 
 1. 「**列のプレビュー**」セクションで、以下のいずれかを行います。
@@ -90,7 +81,6 @@ ht-degree: 83%
    * 列のタイトルを新しい場所にドラッグして、列の表示順序を調整します。
 
    * [**列の設定**] 領域で、[**この列の集計方法**] をクリックし、列でのデータの表示方法を選択します。 このオプションは、次の列タイプで使用できます。
-
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -165,7 +155,7 @@ ht-degree: 83%
 
    >[!TIP]
    >
-   >「**新規ビューとして保存**」は、組み込み Workfront ビューをカスタマイズした場合に使用できる唯一のオプションです。
+   >「**新規ビューとして保存**」は、ビルトインの Workfront ビューをカスタマイズした場合に使用できる唯一のオプションです。
 
    アクセス権によって、ビューの保存方法が決まります。最初にビューを作成した場合は、変更を保存できます。それ以外の場合は、バージョンを保存するよう求められます。ビューに加えた変更は、そのビューを共有しているユーザーに影響を与えることに注意してください。
 
@@ -194,7 +184,7 @@ ht-degree: 83%
       デフォルトのアジャイルビューはカスタマイズできません。
 
    1. **表示**&#x200B;ドロップダウンメニューを再度クリックし、続いて「**ビューをカスタマイズ**」をクリックします。\
-      ![&#x200B; ビューのカスタマイズ &#x200B;](assets/view-agile-customize.png)
+      ![ ビューのカスタマイズ ](assets/view-agile-customize.png)
 
 1. （条件付き）アジャイルビューを新規作成するには、「**新規ビュー**」をクリックします。\
    **アジャイルビューをカスタマイズ**&#x200B;ダイアログボックスが表示されます。

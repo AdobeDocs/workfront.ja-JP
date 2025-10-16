@@ -6,10 +6,10 @@ description: タスクにユーザーまたはロールを割り当てると、�
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 81%
+source-wordcount: '544'
+ht-degree: 79%
 
 ---
 
@@ -25,33 +25,33 @@ ht-degree: 81%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準 </p>
-   <p>現在：ワーク以上</p> </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>ワークまたはそれ以上</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>タスクへのアクセスを編集</p> </td> 
+   <td>アクセスレベル設定</td> 
+   <td>タスクへのアクセスを編集</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクに対する参加以上の権限</p> <p>権限を編集し、タスクの編集ボックスで時間配分を更新</p> </td> 
-  </tr> 
- </tbody> 
+   <td>オブジェクト権限</td>
+   <td><p>タスクに対する参加以上の権限</p>
+   <p>権限を編集し、タスクの編集ボックスで時間配分を更新</p></td>
+  </tr>
+ </tbody>
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -85,6 +85,6 @@ ht-degree: 81%
 1. タスクの&#x200B;**期間タイプ**&#x200B;が&#x200B;**シンプル**&#x200B;であることを確認します。
 1. タスクの担当者ごとに&#x200B;**配分**&#x200B;を変更します。これは、タスクの期間全体に対する、このタスクへの各割り当ての全体的な配分です。これにより、タスクの全体的な予定時間数が更新される場合もあります。
 
-   ![&#x200B; 割り当ての変更 &#x200B;](assets/advanced-assignments-duration-type-allocations.png)
+   ![ 割り当ての変更 ](assets/advanced-assignments-duration-type-allocations.png)
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。

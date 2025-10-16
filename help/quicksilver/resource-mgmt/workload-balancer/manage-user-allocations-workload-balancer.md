@@ -6,10 +6,10 @@ description: リソースマネージャーとして、作業をユーザーに�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2886'
-ht-degree: 89%
+source-wordcount: '2864'
+ht-degree: 88%
 
 ---
 
@@ -23,25 +23,21 @@ ht-degree: 89%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
-       チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p></td>
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>リソース エリアでワークロードバランサーを使用する場合は、計画します。作業、チームまたはプロジェクトのワークロードバランサーを使用する場合は、次のようにします</p></td>
+  </tr>
+  <tr> 
+   <td>アクセスレベル設定</td> 
    <td> <p>以下の項目についてアクセス権を編集します。</p> 
     <ul> 
      <li>リソース管理</li> 
@@ -52,13 +48,13 @@ ht-degree: 89%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td> <p>割り当てを管理するタスクおよびイシューに対する割り当てを行う、参加以上の権限です。 </p> <p>または </p> <p>割り当ての更新に加えて、予定時間数を更新するタスクに対する権限を管理します。ワークロードバランサーの予定時間数の更新について詳しくは、この記事の<a href="#update-task-planned-hours-when-managing-user-allocations">ユーザー割り当て管理時のタスク予定時間数の更新</a>の節を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -94,7 +90,7 @@ ht-degree: 89%
 
   >[!INFO]
   >
-  > 例えば、タスクの期間が 2 日、予定時間数は 2 時間の場合、予定開始時刻が期間の最初の日の午後 12 時、プロジェクトスケジュールの終了は午後 5 時に設定されているとします。最初の日のユーザーのキャパシティは 5 時間です。2 日目のユーザーのキャパシティは 8 時間です（スケジュールが午前 9 時に開始する場合）。
+  > 例えば、タスクの期間が 2 日と 2 予定時間で、期間の最初の日の予定開始時刻が午後 12:00 の場合、ユーザーとプロジェクト スケジュールは午後 5 時に終了します。 最初の日のユーザーのキャパシティは 5 時間です。2 日目のユーザーのキャパシティは 8 時間です（スケジュールが午前 9 時に開始する場合）。
   >
   >Workfront は、次の数式を使用して、2 日間の期間における 2 時間の割り当てを計算します。
   >
@@ -191,11 +187,11 @@ ht-degree: 89%
    >
    >ユーザー割り当ては、タスクとイシューに対してのみ変更できます。プロジェクトのユーザー割り当てを変更することはできません。
 
-1. （任意） **割り当てを表示** アイコン ![&#x200B; 割り当てを表示アイコン &#x200B;](assets/show-allocations-icon-small.png) をクリックして、すべての作業項目の割り当てを表示します。
+1. （任意） **割り当てを表示** アイコン ![ 割り当てを表示アイコン ](assets/show-allocations-icon-small.png) をクリックして、すべての作業項目の割り当てを表示します。
 
    タスクの名前とプロジェクトの名前は、タスクまたはプロジェクトのユーザーの割り当てに置き換えられます。
 
-1. （オプション） **設定** アイコン ![&#x200B; 設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックして、次のいずれかのオプションを選択します。
+1. （オプション） **設定** アイコン ![ 設定アイコン ](assets/gear-icon-settings.png) をクリックして、次のいずれかのオプションを選択します。
 
    1. **イシューの時間を含める**。タスクの割り当てに加えて、イシューの割り当ても管理できます。
    1. **完了した作業の表示**。割り当てを管理するタイムラインの期間中に既に完了し、予定されている項目が表示されます。
@@ -212,7 +208,7 @@ ht-degree: 89%
       >
       >Workfront 管理者が、設定のリソース管理エリアで、ユーザーの処理能力を計算するためにシステム全体で使用するスケジュールを決定します。詳しくは、[リソース管理の環境設定を設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)を参照してください。
 
-1. 作業項目の **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) をクリックしてから、「**割り当てを編集**」をクリックします。
+1. 作業項目の **その他** メニュー ![ その他メニュー ](assets/qs-more-menu.png) をクリックしてから、「**割り当てを編集**」をクリックします。
 
    ![作業アイテムのその他のメニュー](assets/more-menu-on-task-wb-nwe.png)
 
@@ -222,11 +218,11 @@ ht-degree: 89%
 
    割り当てボックスが編集可能になります。
 
-1. 各日別、週別または月別の配分のボックス内をクリックして、ユーザーに割り当てる各日、週別または月別の時間数またはパーセンテージ値を手動で更新し、**保存** アイコン ![&#x200B; 保存アイコン &#x200B;](assets/checkmark-icon.png) をクリックします。
+1. 各日別、週別または月別の配分のボックス内をクリックして、ユーザーに割り当てる各日、週別または月別の時間数またはパーセンテージ値を手動で更新し、**保存** アイコン ![ 保存アイコン ](assets/checkmark-icon.png) をクリックします。
 
    >[!TIP]
    >
-   >**キャンセル** アイコン ![&#x200B; キャンセルアイコン &#x200B;](assets/cancel-allocations-wb.png) をクリックして、調整した割り当てを削除します。
+   >**キャンセル** アイコン ![ キャンセルアイコン ](assets/cancel-allocations-wb.png) をクリックして、調整した割り当てを削除します。
 
    ![調整済の割り当てを保存またはキャンセルする](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

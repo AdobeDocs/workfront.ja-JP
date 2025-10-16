@@ -6,10 +6,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 95%
+source-wordcount: '575'
+ht-degree: 86%
 
 ---
 
@@ -35,8 +35,6 @@ ht-degree: 95%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -44,21 +42,24 @@ ht-degree: 95%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td>プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+   <p>標準</p>
+   <p>プラン</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>リマインダー通知への管理アクセス権を持つ、プランナー以上の権限</p> <p>Plan ユーザーへの管理アクセス権の付与については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>リマインダー通知への管理アクセス権を持つ、プランナー以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -82,11 +83,11 @@ ht-degree: 95%
 
 例えば、「自分が更新を受信する対象者として追加されました」には 2 つの異なる件名行があります。1 つ目はタスク、イシュー、テンプレートタスクおよびドキュメント（「referenceObject」とも呼ばれる）に関するもので、2 つ目はオブジェクト（「topReferenceObject」とも呼ばれる）に関するもので、これはユーザーがポートフォリオ、プログラムなどのコメントを作成できるようにするものです。
 
-![&#x200B; イベントの件名が複数ではありません &#x200B;](assets/ev-multiple-subject.png)
+![ イベントの件名が複数ではありません ](assets/ev-multiple-subject.png)
 
-タスク、イシュー、テンプレートタスクやドキュメントに関する会話にユーザーが含まれる場合は、最初の件名行を含むメールが生成されます。件名行には「referenceObject:name」が含まれ、システムはオブジェクトを定義し、適切な名前を件名フィールドに表示します。メールの件名行は、「プロジェクト ABC 上のタスク 123 についてのコメント」のようになります。
+タスク、イシュー、テンプレートタスクやドキュメントに関する会話にユーザーが含まれる場合は、最初の件名行を含むメールが生成されます。件名には「referenceObject:name」が含まれ、システムによってオブジェクトが定義され、件名フィールドに適切な名前が表示されます。 メールの件名行は、「プロジェクト ABC 上のタスク 123 についてのコメント」のようになります。
 
-プロジェクトの会話に追加すると、2 番目の件名のメールが生成されます。この場合、件名行には「topReferenceObject:name」が含まれ、Workfront は再び参照されたオブジェクトを識別し、件名内の「topReferenceObject:name」の代わりにそのオブジェクト名を返します。メールの件名行は、「プロジェクト ABC についてのコメント」のようになります。
+プロジェクトの会話に追加すると、2 番目の件名のメールが生成されます。ここで、件名には「topReferenceObject:name」が含まれており、Workfrontはどのオブジェクトが参照されたかを再度識別し、件名に「topReferenceObject:name」ではなくオブジェクト名を返します。 メールの件名行は、「プロジェクト ABC についてのコメント」のようになります。
 
 メールの件名行を編集し、どちらかの件名行にフィールドを追加するには、この記事にある[イベント通知のメール件名行をカスタマイズ](#customize-email-subject-lines-for-event-notifications)を参照してください。
 
@@ -98,6 +99,6 @@ ht-degree: 95%
 
 
 
-![&#x200B; イベントの件名が複数ではありません &#x200B;](assets/Ev-not-mult-subj-lines.png)
+![ イベントの件名が複数ではありません ](assets/Ev-not-mult-subj-lines.png)
 
 メールの件名行を編集し、どちらかの件名行にフィールドを追加するには、この記事にある[イベント通知のメール件名行をカスタマイズ](#customize-email-subject-lines-for-event-notifications)を参照してください。

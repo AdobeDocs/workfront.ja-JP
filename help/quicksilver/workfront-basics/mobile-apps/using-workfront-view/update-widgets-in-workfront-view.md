@@ -6,10 +6,10 @@ description: '[!UICONTROL プロジェクト詳細]画面にウィジェット�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 99%
+source-wordcount: '517'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 ## アクセス要件
 
-この記事の手順を実行するには、[!DNL Workfront] で次のアクセス権が必要になります。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,17 +28,21 @@ ht-degree: 99%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Review] 以降</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>レビュー以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!UICONTROL プロジェクト詳細]ビューでウィジェットを更新
 
@@ -46,7 +50,7 @@ ht-degree: 99%
 1. 画面中央の下部にあるタブをタップします。\
    [!UICONTROL ウィジェット]エリアが表示されます。\
    ウィジェットをスクロールするには、左から右にスワイプします。\
-   ![&#x200B; ウィジェット &#x200B;](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![ ウィジェット ](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. ウィジェットをドラッグ＆ドロップして、プロジェクトページのレイアウトをカスタマイズします。\
    一度に最大 4 つのウィジェットを表示できます。\

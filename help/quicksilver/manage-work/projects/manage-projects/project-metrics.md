@@ -3,38 +3,38 @@ content-type: overview;how-to-procedural
 product-area: projects
 keywords: 分析、指標、プロジェクト、タスク、担当者、完了、ステータス、期限切れ、予定
 navigation-topic: manage-projects
-title: プロジェクト指標の概要
+title: プロジェクト指標について
 description: プロジェクト指標を使用すると、プロジェクトで発生していることをビジュアライゼーションで表示し、プロジェクトのニーズやステータスをすばやく評価できます。プロジェクトの左側のパネルにある指標領域の解釈方法を説明します。
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 98%
+source-wordcount: '1161'
+ht-degree: 97%
 
 ---
 
-# プロジェクト指標の概要
+# プロジェクト指標について
 
 プロジェクト指標を使用すると、プロジェクトのパフォーマンスに関する概要をグラフ形式で表示できます。
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront ライセンス*</td> 
-   <td> <p>新規：ライト以上 </p>
-   <p>現在：レビュー以上 </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>ライト以上</p>
+   <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -50,6 +50,32 @@ ht-degree: 98%
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 前提条件
 

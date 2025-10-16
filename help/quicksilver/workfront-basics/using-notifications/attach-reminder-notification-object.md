@@ -7,10 +7,10 @@ description: リマインダー通知は、プロジェクト、タスク、問�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 82%
+source-wordcount: '229'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 82%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,37 +33,37 @@ ht-degree: 82%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront package]</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> 
+   <p>標準</p>
+   <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 以上</p> <p>メモ：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>オブジェクトへのアクセスの管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>オブジェクトへのアクセスの管理</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## オブジェクトへのリマインダー通知の添付
 
 1. リマインダー通知を添付するオブジェクトに移動します。
-1. 編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. 編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. 表示される&#x200B;**[!UICONTROL 編集]**&#x200B;ボックスの左側のパネルで、「**[!UICONTROL 設定]**」をクリックします。
 
 1. **[!UICONTROL リマインダー通知]**&#x200B;の下に、オブジェクトに添付する通知を選択します。
 
    この例では、編集中のオブジェクトはタスクです。
 
-   ![&#x200B; リマインダ通知 &#x200B;](assets/reminder-notification-select-one-350x213.png)
+   ![ リマインダ通知 ](assets/reminder-notification-select-one-350x213.png)
 
    [!DNL Workfront] 管理者が複数のリマインダー通知を作成した場合、単一のオブジェクトに複数の通知を添付できます。
 

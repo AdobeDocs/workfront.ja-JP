@@ -9,10 +9,10 @@ author: Nolan
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 91%
+source-wordcount: '161'
+ht-degree: 87%
 
 ---
 
@@ -24,26 +24,26 @@ ht-degree: 91%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td>任意</td> 
+   <td role="rowheader">Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p> <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>Workfront 管理者である必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -60,6 +60,6 @@ ht-degree: 91%
 
 1. 「**[!UICONTROL 保存]」** をクリックします。
 
-[!DNL Workfront]モバイルアプリをサイトで有効にした後の使用方法について詳しくは、[&#x200B; [!DNL Adobe Workfront] モバイルアプリの使用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)を参照してください。
+[!DNL Workfront]モバイルアプリをサイトで有効にした後の使用方法について詳しくは、[ [!DNL Adobe Workfront] モバイルアプリの使用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)を参照してください。
 
-[!DNL Workfront for Outlook] の使用方法に関して詳しくは、[&#x200B; [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) を使用の節を参照してください。
+[!DNL Workfront for Outlook] の使用方法に関して詳しくは、[ [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) を使用の節を参照してください。

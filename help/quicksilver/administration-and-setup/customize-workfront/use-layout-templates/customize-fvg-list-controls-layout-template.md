@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 86%
+source-wordcount: '768'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 Adobe Workfront の管理者は、レイアウトテンプレートを使用して、フィルター、表示、グループ化の各ドロップダウンメニューに表示するリストコントロールを指定できます。これらのメニューは、プロジェクトのタスクリストなど、Workfront 全体のリストの上に表示されます。
 
-![&#x200B; フィルタービューのグループ化レイアウトテンプレート &#x200B;](assets/filter-view-grouping-layout-templates.png)
+![ フィルタービューのグループ化レイアウトテンプレート ](assets/filter-view-grouping-layout-templates.png)
 
 レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -31,56 +31,54 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td><p>新規：標準</p>
-  <p> 現在：プラン</p>
-   </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。</p>
+        <p>グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
-## フィルター、表示およびグループ化のリストコントロールをカスタマイズ：
+## フィルター、表示、およびグループ化のリスト コントロールのカスタマイズ
 
-1. [レイアウトテンプレートを作成および管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されているように、レイアウトテンプレートの使用を開始します。
-1. ![&#x200B; ユーザーの表示項目をカスタマイズ &#x200B;](assets/down-arrow-blue.png) の下の下向き矢印 **下向き矢印** をクリックし、表示されるドロップダウンメニューで **リスト** をクリックします。
+1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
+1. ![ ユーザーの表示項目をカスタマイズ ](assets/down-arrow-blue.png) の下の下向き矢印 **下向き矢印** をクリックし、表示されるドロップダウンメニューで **リスト** をクリックします。
 
-   ![&#x200B; ユーザーの表示内容のカスタマイズ &#x200B;](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![ ユーザーの表示内容のカスタマイズ ](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. ![&#x200B; カスタマイズするリストを選択 &#x200B;](assets/down-arrow-blue.png) の下の下向き矢印 **下向き矢印** をクリックし、リストのフィルター、表示、グループ化コントロールをカスタマイズするWorkfront オブジェクトの種類を選択します。
+1. ![ カスタマイズするリストを選択 ](assets/down-arrow-blue.png) の下の下向き矢印 **下向き矢印** をクリックし、リストのフィルター、表示、グループ化コントロールをカスタマイズするWorkfront オブジェクトの種類を選択します。
 
-   ![&#x200B; カスタマイズするリストを選択 &#x200B;](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![ カスタマイズするリストを選択 ](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >カスタマイズするプロジェクトをリストとして選択し、フィルタセクションにある、自分が所属するプロジェクト、または自分が所有するプロジェクトを無効にすると、ユーザーはそのフィルターを表示したり使用したりすることができなくなります。
    >
-   >* リストの上にあるフィルターアイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) をクリックすると表示されるフィルターのリストで、以下を行います。
+   >* リストの上にあるフィルターアイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックすると表示されるフィルターのリストで、以下を行います。
    >   
-   >  ![&#x200B; フィルターを無効にする &#x200B;](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![ フィルターを無効にする ](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* プロジェクトエリアヘッダーの上にあるヘッダーで、以下のように行います。
    >   
-   >  ![&#x200B; 「フィルターを無効にする」ボタン &#x200B;](assets/disable-filter-pills.png)
+   >  ![ 「フィルターを無効にする」ボタン ](assets/disable-filter-pills.png)
 
 1. （オプション）レイアウトテンプレートのデフォルトのフィルター、表示またはグループ化を変更する場合は、フィルター、表示またはグループ化にポインタを合わせて、**デフォルトとして設定**&#x200B;をクリックします。
 

@@ -1,14 +1,14 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: シナリオプランナーのプランにプロジェクトを読み込む
+title: シナリオプランナーでのプロジェクトと計画のインポート
 description: 既存のプロジェクトをプランに読み込むことができます。読み込まれたプロジェクトはイニシアチブに変換され、新規イニシアチブの管理と同じように、プラン内で管理できます。元のプロジェクトは、新規イニシアチブにリンクされたままです。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1677'
 ht-degree: 91%
 
 ---
@@ -27,48 +27,81 @@ ht-degree: 91%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
-   <td> <ul></li>
-   <li><p>新規：Ultimate </p></li>
-   <p>シナリオプランナーは、新しいWorkfront Select プランまたはWorkfront Prime プランでは使用できません。 </p>
-   <li><p>現在：[!UICONTROL Business] 以上</p></ul>
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>WorkfrontUltimate</p>
+<p><b>メモ</b></p>
+<p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
-   <td> <p>新規：ライト以上</p> 
-   <p>現在：[!UICONTROL Review] 以上</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] ライセンス</p> </td> 
+   <td> <p>[!UICONTROL ライト ] 以上</p> 
+   <p>[!UICONTROL Review] 以降</p> </td> 
+  </tr> 
+    <tr> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>[!UICONTROL Edit]アクセス権 [!DNL Scenario Planner]</p> <p>プロジェクトへの表示以上のアクセス。</p></td> 
   </tr> 
   <tr> 
-   <td>製品* </td> 
-   <td> <ul><li><p>新しいWorkfrontプランの場合：</p><p> Adobe Workfront</li></p>
-   <li><p>現在のWorkfront プランの場合： </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront シナリオプランナー</p></li></ul>
-
-<p>詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> ールの使用に必要なアクセス権」を参照してください。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>アクセスレベル </td> 
-   <td> <p>[!UICONTROL Edit]アクセス権 [!DNL Scenario Planner]</p> <p>プロジェクトへの表示以上のアクセス。</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
    <td> <p>オブジェクト権限 </p> </td> 
-   <td> <p>プランに対する[!UICONTROL Manage]権限</p> <p>プロジェクトに対する表示以上の権限。</p><p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!DNL Scenario Planner]</a> でのプランへの利用申請を参照してください。</p> </td> 
+   <td> <p>プランに対する[!UICONTROL Manage]権限</p> <p>プロジェクトに対する表示以上の権限。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+シナリオプランナーへのアクセスについて詳しくは、[ の使用に必要なアクセス  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を参照してください。
+
+Workfrontのアクセス要件について詳しくは、[Workfrontのドキュメントへのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Product* </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> <p>View or higher access to Projects.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>View or higher permissions to projects.</p><p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## プロジェクトを新規イニシアチブとしてプランへのの読み込む際の考慮事項
 
@@ -84,7 +117,7 @@ ht-degree: 91%
 * 一度に 100 以上のプロジェクトを読み込むことはできません。
 * 一部のプロジェクト情報もプランに読み込まれ、イニシアチブ情報になります。プランに読み込まれてイニシアチブ情報になるプロジェクト情報について詳しくは、この記事の[プランに読み込まれたプロジェクト情報](#project-information-imported-into-the-plan)の節を参照してください。
 * リンクされたプロジェクトで行われた変更は、プランのイニシアチブには影響しません。
-* プランのイニシアチブに対して行われた変更は、リンクされたプロジェクトには自動的には影響しません。イニシアチブの変更は、プランからイニシアチブを公開する場合にのみ、リンクされたプロジェクトに影響します。公開イニシアチブがリンクされたプロジェクトに与える影響について詳しくは、「[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でイニシアチブを公開することに よるプロジェクトの更新または作成」を参照してください。
+* プランのイニシアチブに対して行われた変更は、リンクされたプロジェクトには自動的には影響しません。イニシアチブの変更は、プランからイニシアチブを公開する場合にのみ、リンクされたプロジェクトに影響します。公開イニシアチブがリンクされたプロジェクトに与える影響について詳しくは、「[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でイニシアチブを公開することに よるプロジェクトの更新または作成」を参照してください。
 * プロジェクトの読み込みによって作成されたイニシアチブを削除しても、プロジェクトは削除されません。
 * イニシアチブにリンクされたプロジェクトを削除しても、イニシアチブは削除されません。
 
@@ -164,7 +197,7 @@ ht-degree: 91%
 
    「[!UICONTROL プロジェクトをインポート]」ボックスが表示されます。プランの時間枠に日付が含まれるプロジェクトがリストに表示されます。
 
-   ![&#x200B; プロジェクトの読み込み &#x200B;](assets/project-import-ui-projects-selected-350x72.png)
+   ![ プロジェクトの読み込み ](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -174,9 +207,9 @@ ht-degree: 91%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. （任意） **[!UICONTROL フィルターアイコン]**![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) をクリックし、リストから使用可能なフィルターを選択して、リスト上のプロジェクトの量を減らします。 デフォルトでは、プロジェクトのリストは、プロジェクトのリストでユーザーが現在選択しているプロジェクトフィルターでフィルタリングされます。
+1. （任意） **[!UICONTROL フィルターアイコン]**![ フィルターアイコン ](assets/filter-nwepng.png) をクリックし、リストから使用可能なフィルターを選択して、リスト上のプロジェクトの量を減らします。 デフォルトでは、プロジェクトのリストは、プロジェクトのリストでユーザーが現在選択しているプロジェクトフィルターでフィルタリングされます。
 
-1. （任意） **[!UICONTROL 検索アイコン]**![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックして、画面の任意のフィールドに表示されているキーワードを追加します。 検索語を含む項目がリストに自動的に表示され、すべての項目が非表示になります。
+1. （任意） **[!UICONTROL 検索アイコン]**![ 検索アイコン ](assets/search-icon.png) をクリックして、画面の任意のフィールドに表示されているキーワードを追加します。 検索語を含む項目がリストに自動的に表示され、すべての項目が非表示になります。
 
 1. （条件付き）**[!UICONTROL X アイコン]**&#x200B;をクリックして検索を削除して、すべてのプロジェクトを表示します。
 1. プロジェクトを 100 個まで選択し、「**[!UICONTROL インポート]**」をクリックします。
@@ -185,10 +218,10 @@ ht-degree: 91%
 
    次の点に注意してください。
 
-   * イニシアチブ名の右側に、プロジェクトアイコン ![&#x200B; プロジェクトアイコン &#x200B;](assets/project-icon-sp.png) が表示されます。
+   * イニシアチブ名の右側に、プロジェクトアイコン ![ プロジェクトアイコン ](assets/project-icon-sp.png) が表示されます。
    * プロジェクトのタイムラインがプランの期間を超える場合、イニシアチブのバーは、左側（プロジェクト開始日がプランの日付より前の場合）または右側（プロジェクト終了日がプランの日付より後の場合）が尖った形状になります。
 
-     ![&#x200B; 開始日より前のプロジェクト バー &#x200B;](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![ 開始日より前のプロジェクト バー ](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * 月数と担当業務が、プロジェクトの役割に合わせて更新されます。
 
@@ -198,7 +231,7 @@ ht-degree: 91%
 
 1. 新しいイニシアチブを表すバーをクリックして、右側のイニシアチブの詳細パネルを開きます。
 
-   ![&#x200B; イニシアティブ期間 &#x200B;](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![ イニシアティブ期間 ](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    **[!UICONTROL イニシアチブ期間]**&#x200B;領域で、次の情報を確認します。
 
@@ -231,7 +264,7 @@ ht-degree: 91%
 
 1. （条件付き）「**[!UICONTROL 適用]**」をクリックして、イニシアチブに対する変更を保存します。
 1. 「**[!UICONTROL 計画の保存]**」をクリックして、プランの変更内容を保存します。
-1. （オプション）イニシアチブに加えた変更を、読み込み元のプロジェクトで更新するには、プランからプロジェクトを公開します。プランの公開について詳しくは、「[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのプロジェクトの更新または作成」を参照してください。
+1. （オプション）イニシアチブに加えた変更を、読み込み元のプロジェクトで更新するには、プランからプロジェクトを公開します。プランの公開について詳しくは、「[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのプロジェクトの更新または作成」を参照してください。
 1. （オプション）プロジェクトアイコンをクリックして、リンクされたプロジェクトにアクセスします。
 
-   ![&#x200B; イニシアチブのプロジェクトアイコン &#x200B;](assets/project-icon-on-initiative-highlighted-350x49.png)
+   ![ イニシアチブのプロジェクトアイコン ](assets/project-icon-on-initiative-highlighted-350x49.png)

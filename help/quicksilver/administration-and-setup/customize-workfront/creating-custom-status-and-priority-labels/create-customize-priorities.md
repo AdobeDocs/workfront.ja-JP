@@ -5,10 +5,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
+source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 45%
+source-wordcount: '737'
+ht-degree: 43%
 
 ---
 
@@ -28,32 +28,27 @@ Workfront の設定エリアで、プロジェクト、タスクおよびイシ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-     <p>新規：標準</p>
-     <p>または</p>
-     <p>現在：プラン</p>
-   </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>システム管理者</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -64,11 +59,11 @@ Workfront 管理者は、Workfront で提供されるデフォルトの優先度
 * 優先度の名前を変更する。
 * 優先度を並べ替える。
 
-  優先度の並べ替え方法の詳細については、「[&#x200B; プロジェクト、タスク、イシューの優先度を作成する &#x200B;](#create-a-priority-for-a-project-task-or-issue)」を参照してください。
+  優先度の並べ替え方法の詳細については、「[ プロジェクト、タスク、イシューの優先度を作成する ](#create-a-priority-for-a-project-task-or-issue)」を参照してください。
 
 * デフォルトの優先度を変更する。
 
-  デフォルトの優先度を変更する機能の詳細については、[&#x200B; プロジェクト、タスク、イシューの優先度を作成する &#x200B;](#create-a-priority-for-a-project-task-or-issue) を参照してください。
+  デフォルトの優先度を変更する機能の詳細については、[ プロジェクト、タスク、イシューの優先度を作成する ](#create-a-priority-for-a-project-task-or-issue) を参照してください。
 
 * 優先度の説明を編集する。
 * 各優先度に色を設定する。
@@ -83,7 +78,7 @@ Workfront 管理者は、Workfront で提供されるデフォルトの優先度
 
 * 優先度を非表示にする。
 
-  優先度を非表示にする機能の詳細については、[&#x200B; プロジェクト、タスク、イシューの優先度を作成する &#x200B;](#create-a-priority-for-a-project-task-or-issue) を参照してください。
+  優先度を非表示にする機能の詳細については、[ プロジェクト、タスク、イシューの優先度を作成する ](#create-a-priority-for-a-project-task-or-issue) を参照してください。
 
   >[!NOTE]
   >
@@ -118,7 +113,7 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
 
    * **カラー**：優先度の色を選択します。
 
-     優先度の色は、グラフレポートとアジャイルチーム設定で使用されます。グラフレポートについて詳しくは、[&#x200B; レポートへのグラフの追加 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) を参照してください。 アジャイルチームの設定について詳しくは、[&#x200B; アジャイルチームの作成 &#x200B;](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) を参照してください。
+     優先度の色は、グラフレポートとアジャイルチーム設定で使用されます。グラフレポートについて詳しくは、[ レポートへのグラフの追加 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) を参照してください。 アジャイルチームの設定について詳しくは、[ アジャイルチームの作成 ](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) を参照してください。
 
    * **デフォルトの優先度**：新しく作成したすべてのプロジェクト、タスクまたはイシューにWorkfrontで自動適用する優先度を選択します。
 
@@ -128,7 +123,7 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
 
      <div class="preview">
 
-     デフォルトの優先度は、アイコン ![&#x200B; デフォルトの優先度アイコン &#x200B;](assets/default-icon.png) で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
+     デフォルトの優先度は、アイコン ![ デフォルトの優先度アイコン ](assets/default-icon.png) で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
 
       * 優先度名の横にあるチェックボックスをオンにし、画面の下部にあるアクションバーで「**デフォルトにする**」を選択します。
       * 優先度名の上にマウスポインターを置き、表示される **詳細** メニューをクリックします。 次に、「**デフォルトにする** を選択します。

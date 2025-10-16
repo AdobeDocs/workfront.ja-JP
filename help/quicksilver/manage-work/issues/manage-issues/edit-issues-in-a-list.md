@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: リスト内のイシューの編集
+title: リストでイシューを編集
 description: 個々のイシューを編集することも、イシューリストまたはレポート内のイシューを編集することもできます。この記事では、リスト内のイシューを編集する方法について説明します。
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 90%
+source-wordcount: '882'
+ht-degree: 81%
 
 ---
 
 # リスト内のイシューの編集
+
+<!--Audited: 08/2025-->
 
 個々のイシューを編集することも、イシューリストまたはレポート内のイシューを編集することもできます。この記事では、リスト内のイシューを編集する方法について説明します。
 
@@ -21,19 +23,26 @@ ht-degree: 90%
 
 ## アクセス要件
 
-この記事のアクションを実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>リクエスト以上</p> <p>プロジェクトの「イシュー」セクションでイシューを編集するには、レビュー以上のライセンスが必要です。</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+
+<ul><li><p>投稿者以上</p> </li>
+   <li><p>プロジェクトの「イシュー」セクションでイシューを編集するためのライト以上のライセンス</p></li></ul> 
+    または
+   <ul><li><p>要求者以上</p> </li>
+   <li><p>プロジェクトの「イシュー」セクションでイシューを編集するためのレビュアー以上のライセンス</p></li></ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -46,7 +55,34 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## イシューのインライン編集
 
@@ -65,46 +101,46 @@ ht-degree: 90%
 1. プロジェクトまたはタスク内のイシューのリストに移動します。
 1. 手動で更新する権限を持つフィールド内をクリックします。フィールドが編集可能になり、変更を加えることができます。
 
-   ![&#x200B; 問題をインラインで編集 &#x200B;](assets/edit-issues-inline-350x34.png)
+   ![ 問題をインラインで編集 ](assets/edit-issues-inline-350x34.png)
 
 1. 変更を受け入れる場合は、Enter キーを押します。変更は直ちに保存されます。
 
    オブジェクトのインライン編集について詳しくは、[Adobe Workfront のリスト内の項目のインライン編集](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)を参照してください。
 
-## リスト内のイシューの編集
+## リストからイシューを編集
 
 1. プロジェクトまたはタスク内のイシューのリストに移動します。
 1. 次のいずれかの操作を行います。
 
-   * リストでイシューを選択し、ツールバーの編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) 編集アイコン）をクリックします。
-   * イシュー名の右側にある **その他メニュー**![&#x200B; その他メニュー &#x200B;](assets/more-icon-task-list.png) をクリックし、**新しいタブで開く** をクリックします。 イシューページが新しいタブで開きます。イシューページから&#x200B;**詳細**／**編集**&#x200B;をクリックします。
-   * イシュー名の右側にある **その他メニュー**![&#x200B; その他メニュー &#x200B;](assets/more-icon-task-list.png) をクリックしてから、**編集** をクリックします。
+   * リストでイシューを選択し、ツールバーの **編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
+   * イシューの名前をクリックし、「**編集**」をクリックします。
 
-     これらのうちいずれかのアクションを実行すると、「イシューを編集」ボックスが開きます。
+     これらのアクションのいずれかを実行すると、「**イシューを編集** ボックスが開きます。
 
-     「イシューを編集」ボックスでのイシューの編集について詳しくは、[イシューの編集](../../../manage-work/issues/manage-issues/edit-issues.md)を参照してください。
+     **イシューを編集** ボックスでのイシューの編集について詳しくは、[ イシューの編集 ](../../../manage-work/issues/manage-issues/edit-issues.md) を参照してください。
 
 ## 概要を使用してイシューを編集
 
-概要を使用して、リスト内のイシューを編集できます。
+概要パネルを使用して、リストのイシューを編集できます。
 
 1. 編集するイシューを含むプロジェクトに移動します。
 1. 左側のパネルで「**イシュー**」をクリックします。
 
    プロジェクトのイシューのリストが表示されます。
 
-1. 編集するイシューを選択し、イシューリストの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-open-summary-icon-in-new-toolbar-small.png) をクリックします。
+1. 編集するイシューを選択し、イシューリストの右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-open-summary-icon-in-new-toolbar-small.png) をクリックします。
 
    **概要**&#x200B;が開きます。
 
 1. （オプション）**更新**&#x200B;エリアでイシューの更新を入力し始めます。
 1. 次のアイコンまたはエリアのいずれかをクリックしてイシューに移動し、次のイシューのレベルで情報を編集します。
 
-   | ドキュメント | 「**ここをクリックして追加**」をクリックして、イシューにドキュメントを追加します。 |
+   | アイコン | アクション |
    |---|---|
-   | 詳細 | クリックして、イシューに関する情報を更新します。 |
-   | 時間 | クリックして時間を記録します。 |
-   | 承認 | クリックして、イシューの承認を追加します。 |
+   | ドキュメント ![ ドキュメントアイコン ](assets/documents-icon-in-summary.png) | 「**ここをクリックして追加**」をクリックして、イシューにドキュメントを追加します。 |
+   | 詳細 ![ 詳細アイコン ](assets/details-icon-in-summary.png) | クリックして、イシューに関する情報を更新します。 |
+   | 時間 ![ 時間を記録 ](assets/log-time-icon-in-summary.png) | クリックして時間を記録します。 |
+   | 承認 ![ 承認アイコン ](assets/approvals-icon-in-summary.png) | クリックして、イシューの承認を追加します。 |
 
 1. （オプション）**概要を開く**&#x200B;アイコンを再びクリックするか、概要の右上にある&#x200B;**X アイコン**&#x200B;をクリックしてパネルを閉じ、イシューをインラインで編集します。
 
@@ -119,7 +155,7 @@ ht-degree: 90%
 1. プロジェクト名をクリックして、プロジェクトにアクセスします。
 1. 左側のパネルで「**イシュー**」をクリックします。
 1. リストから複数のイシューを選択します。
-1. **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    **イシューを編集**&#x200B;ダイアログボックスが開きます。
 

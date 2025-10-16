@@ -5,7 +5,8 @@ title: ボードの管理者ビューの管理
 description: ボード管理者表示には、アカウント内のすべてのボードのリストが含まれています。システム管理者はこれを使用して、ボードの詳細全体のクイックスナップショットを取得できます。
 author: Jenny
 feature: Agile
-source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
+exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 7%
@@ -33,7 +34,7 @@ ht-degree: 7%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -69,14 +70,14 @@ ht-degree: 7%
 
 1. フィルターを設定するには、次の手順に従います。
 
-   1. （オプション） **カレンダー** アイコン ![&#x200B; カレンダーアイコン &#x200B;](assets/calendar-icon.png) をクリックして、その期間内に最後に変更されたボードでフィルタリングする日付範囲を選択します。
+   1. （オプション） **カレンダー** アイコン ![ カレンダーアイコン ](assets/calendar-icon.png) をクリックして、その期間内に最後に変更されたボードでフィルタリングする日付範囲を選択します。
 
    1. （オプション）「**テンプレート**」セクションで、リストでフィルタリングするボードテンプレートのタイプを選択します。 複数のテンプレートタイプを選択できます。
-ボードテンプレートタイプについて詳しくは、[&#x200B; ボードの作成または編集 &#x200B;](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) を参照してください。
+ボードテンプレートタイプについて詳しくは、[ ボードの作成または編集 ](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) を参照してください。
 
    1. （オプション）「**アーカイブ済み**」セクションで、アーカイブ済みまたはアーカイブされていないボードを表示するかどうかを選択します。 複数のオプションを選択できます。
 
-      ![&#x200B; アーカイブ済みセクション &#x200B;](assets/is-archived-section.png)
+      ![ アーカイブ済みセクション ](assets/is-archived-section.png)
 
 1. **フィルター** パネルの外側をクリックして閉じます。 フィルターの選択内容は、デフォルトの表示に戻すまで、掲示板リストに適用されたままになります。
 
@@ -103,7 +104,7 @@ ht-degree: 7%
 
 1. （オプション）フィールドの表示順序を調整するには、フィールドの左側にある **ドラッグ** アイコンをクリックしたままにし、新しい位置にドラッグします。
 
-   ![&#x200B; クリックしてドラッグ &#x200B;](assets/click-and-drag.png)
+   ![ クリックしてドラッグ ](assets/click-and-drag.png)
 
 1. **フィールドの表示と順序** パネルの外側をクリックして、パネルを閉じます。 列の設定は、変更されるまで、掲示板リストに適用されたままになります。
 
@@ -127,15 +128,15 @@ ht-degree: 7%
 
 1. （オプション） **グループ化の条件** パネルからグループ化を展開または折りたたむには、**すべて折りたたむ** または **すべて展開** をクリックします。
 
-   ![&#x200B; すべて折りたたむ &#x200B;](assets/collapse-all.png)
+   ![ すべて折りたたむ ](assets/collapse-all.png)
 
 1. （オプション）グループ化の表示順序を A～Z から Z～A に変更するには、リストが現在グループ化されているフィールドを選択し、ドロップダウンから「**Z～A**」を選択します。
 
-   ![&#x200B; 表示順序 &#x200B;](assets/display-by-order.png)
+   ![ 表示順序 ](assets/display-by-order.png)
 
 1. **グループ化** パネルの外側をクリックして閉じます。 ここから、グループ化タイトルの横にある矢印を選択して、リストで適用されたグループ化を折りたたんだり展開したりできます。
 
-   ![&#x200B; 折りたたみまたは展開 &#x200B;](assets/collapse-or-expand.png)
+   ![ 折りたたみまたは展開 ](assets/collapse-or-expand.png)
 
    >[!NOTE]
    >   

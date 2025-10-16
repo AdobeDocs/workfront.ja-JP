@@ -9,10 +9,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 86%
+source-wordcount: '440'
+ht-degree: 85%
 
 ---
 
@@ -29,33 +29,26 @@ Adobe Workfront 管理者、または他のユーザーの設定を編集でき�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
+    <p>標準</p>
+    <p>プラン</p>
    </td>
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -74,7 +67,7 @@ Adobe Workfront 管理者、または他のユーザーの設定を編集でき�
 
 1. カテゴリを展開して、そのカテゴリに関連する通知設定を表示します。
 
-   少なくとも 1 人のユーザーが選択されていて、その通知が他の選択されたユーザーの通知と一致しない場合、その通知の「カテゴリ」チェックボックスには、チェックマークではなく横線 ![&#x200B; チェックの代わりに線 &#x200B;](assets/straight-line-instead-of-checkmark.jpg) が表示されます。
+   少なくとも 1 人のユーザーが選択されていて、その通知が他の選択されたユーザーの通知と一致しない場合、その通知の「カテゴリ」チェックボックスには、チェックマークではなく横線 ![ チェックの代わりに線 ](assets/straight-line-instead-of-checkmark.jpg) が表示されます。
 
 
 1. ユーザーが日次または即時に受信する通知をクリックするか、または受信を停止する通知をクリアします。
@@ -86,7 +79,7 @@ Adobe Workfront 管理者、または他のユーザーの設定を編集でき�
 
 1. 日次ダイジェストとして送信する通知を選択した場合は、ダイジェストを配信する時刻を、**この時間を過ぎると日次ダイジェストを送信**&#x200B;メニューの「**通知**」セクションの上部で選択します。
 
-   ![&#x200B; デイリーダイジェスト時間 &#x200B;](assets/daily-digest-time.png)
+   ![ デイリーダイジェスト時間 ](assets/daily-digest-time.png)
 
    日次ダイジェストには、選択した時間の 24 時間前に通知の条件を満たすイベントが含まれます。ユーザーは、通知タイプごとに 1 通の日次ダイジェストメールを受け取ります。
 

@@ -4,11 +4,11 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: リクエストの作成
 description: Adobe Workfront では、リクエストとイシューは交換可能です。リクエストを作成するには、Workfront でリクエストを送信するか、別のアプリケーションでリクエストを送信するか、リクエストキューとして設定されているプロジェクトにリクエストをメールで送信します。
-author: Alina
+author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 8c5f98bc48b644d8d15c320b2a6ca709eda775b7
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 88%

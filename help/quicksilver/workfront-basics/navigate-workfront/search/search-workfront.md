@@ -5,9 +5,9 @@ description: 正確な場所を思い出せないときに項目を検索する�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1570'
 ht-degree: 63%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 63%
 
 [!DNL Workfront] 内のページの右上に「[!UICONTROL 検索]」ボックスがあります。
 
-![&#x200B; ナビゲーションバーの検索アイコン &#x200B;](assets/search-globalnavigationbar-350x62.png)
+![ ナビゲーションバーの検索アイコン ](assets/search-globalnavigationbar-350x62.png)
 
 オブジェクトを検索で見つけるには、そのオブジェクトを表示する権限が必要です。そのため、検索結果はユーザーによって異なります。
 
@@ -33,17 +33,14 @@ ht-degree: 63%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：Contributor 以上<p>
-   <p>または</p>
-   <p>現在：Request 以上 </p>
-
-
-</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>投稿者以上<p>
+   <p>リクエスト以上 </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -91,15 +88,15 @@ Workfront では次のオブジェクトを検索できます。
    * アップデート
    * ドキュメント名（特定のドキュメント検索および基本検索）
 
-  [!DNL Workfront] の基本検索の詳細については、この記事の次のセクションを参照してください：[&#x200B; 基本検索 &#x200B;](#basic-search)。
+  [!DNL Workfront] の基本検索の詳細については、この記事の次のセクションを参照してください：[ 基本検索 ](#basic-search)。
 
-* **[!UICONTROL 詳細検索]**: [!UICONTROL &#x200B; 詳細検索 &#x200B;] では、基本検索で使用できないフィールドを検索するためのフィルターを設定できます。 そのため、[!UICONTROL 詳細検索]を使用するとオブジェクト内の任意のフィールドを検索できます。
+* **[!UICONTROL 詳細検索]**: [!UICONTROL  詳細検索 ] では、基本検索で使用できないフィールドを検索するためのフィルターを設定できます。 そのため、[!UICONTROL 詳細検索]を使用するとオブジェクト内の任意のフィールドを検索できます。
 
-  [!UICONTROL &#x200B; 詳細検索 &#x200B;] の詳細については、この記事の次のセクションを参照してください：[&#x200B; 詳細検索 &#x200B;](#advanced-search)。
+  [!UICONTROL  詳細検索 ] の詳細については、この記事の次のセクションを参照してください：[ 詳細検索 ](#advanced-search)。
 
 >[!NOTE]
 >
->[!UICONTROL 詳細検索]を実行するには、検索を始める前に[!UICONTROL 詳細検索]オプションを選択する必要があります。基本検索を [!UICONTROL &#x200B; 詳細検索 &#x200B;] に絞り込むことはできません。
+>[!UICONTROL 詳細検索]を実行するには、検索を始める前に[!UICONTROL 詳細検索]オプションを選択する必要があります。基本検索を [!UICONTROL  詳細検索 ] に絞り込むことはできません。
 
 ## [!DNL Workfront] 検索の制限事項について
 
@@ -171,11 +168,11 @@ Workfront では次のオブジェクトを検索できます。
 
 基本検索を使用すると、システム内のすべてのオブジェクト、または一度に 1 つのオブジェクト（プロジェクトなど）に対してキーワードを検索できます。 [!DNL Workfront] はそれから、いくつかの特定のフィールドでこれらのキーワードを検索します。その後に、[!DNL Workfront] によって選ばれたその他のオブジェクト固有のフィールドに基づいて、検索結果を絞り込むことができます。
 
-基本検索で検索される特定のフィールドのリストについては、この記事の次の節を参照してください。[&#x200B; 検索可能なフィールド &#x200B;](#fields-available-for-search)。
+基本検索で検索される特定のフィールドのリストについては、この記事の次の節を参照してください。[ 検索可能なフィールド ](#fields-available-for-search)。
 
 >[!NOTE]
 >
->[!UICONTROL 詳細検索]を実行するには、検索を始める前に[!UICONTROL 詳細検索]オプションを選択する必要があります。基本検索を [!UICONTROL &#x200B; 詳細検索 &#x200B;] に絞り込むことはできません。
+>[!UICONTROL 詳細検索]を実行するには、検索を始める前に[!UICONTROL 詳細検索]オプションを選択する必要があります。基本検索を [!UICONTROL  詳細検索 ] に絞り込むことはできません。
 
 * [基本検索の実行](#perform-a-basic-search)
 * [基本検索の絞り込み](#refine-a-basic-search)
@@ -189,15 +186,15 @@ Workfront では次のオブジェクトを検索できます。
 
 基本検索を実行する手順は、次のとおりです。
 
-1. ページの右上隅にある虫眼鏡 ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックします。
+1. ページの右上隅にある虫眼鏡 ![ 検索アイコン ](assets/search-icon.png) をクリックします。
 
 1. （オプション）特定のオブジェクトを検索するには、ドロップダウンメニューの「**[!UICONTROL すべて]**」をクリックして、検索するオブジェクトを選択します。
 
-   ![&#x200B; オブジェクトタイプで検索 &#x200B;](assets/search-objecttype.png)
+   ![ オブジェクトタイプで検索 ](assets/search-objecttype.png)
 
 1. 「**[!UICONTROL 検索]**」ボックスに、検索する情報の入力を開始します。
-[!DNL Workfront] で検索されるフィールドについて詳しくは、この記事の次の節 [&#x200B; 検索について &#x200B;](#understand-search) を参照してください。
-   ![&#x200B; 検索ドロップダウン &#x200B;](assets/qs-search-drop-down-highlighted-350x234.png)
+[!DNL Workfront] で検索されるフィールドについて詳しくは、この記事の次の節 [ 検索について ](#understand-search) を参照してください。
+   ![ 検索ドロップダウン ](assets/qs-search-drop-down-highlighted-350x234.png)
 
    検索バーで入力を始めると、[!DNL Workfront] は、閲覧履歴に基づいてレコメンデーションを行い、検索しているキーワードを青色でハイライト表示します。
 
@@ -214,7 +211,7 @@ Workfront では次のオブジェクトを検索できます。
    >見つかった項目のリストに、単語のバリエーションが表示される場合があります。\
    >例えば、「marketing」を検索すると、名前に「marketing」または「market」を含むオブジェクトが表示されます。
 
-1. （任意）検索結果が多すぎる場合は、「基本検索の絞り込み [&#x200B; の説明に従って検索を絞り込み &#x200B;](#refine-a-basic-search) す。
+1. （任意）検索結果が多すぎる場合は、「基本検索の絞り込み [ の説明に従って検索を絞り込み ](#refine-a-basic-search) す。
 
 #### 基本検索の絞り込み
 
@@ -229,17 +226,17 @@ Workfront では次のオブジェクトを検索できます。
 1. 使用可能なフィールドの内側をクリックして、結果のリストを短縮します。 行った選択は青色でハイライト表示され、選択しなかったフィールド値は非表示になります。
 新しい値を選択するごとに、右側の結果が動的に更新されます。
 
-   ![&#x200B; 「基本検索」タブ &#x200B;](assets/basic-search.png)
+   ![ 「基本検索」タブ ](assets/basic-search.png)
 
 1. （オプション）選択した値をクリックすると、選択が解除され、各フィールドのすべての値が再び表示されます。
 
 ### [!UICONTROL 詳細検索]
 
-[!UICONTROL &#x200B; 詳細検索 &#x200B;] では、基本検索では使用できないフィールドとフィルターを使用して検索できます。 例えば、特定の優先度またはドキュメント所有者名を持つプロジェクトを検索できます。
+[!UICONTROL  詳細検索 ] では、基本検索では使用できないフィールドとフィルターを使用して検索できます。 例えば、特定の優先度またはドキュメント所有者名を持つプロジェクトを検索できます。
 
 >[!NOTE]
 >
->[!UICONTROL 詳細検索]を実行するには、検索を始める前に「[!UICONTROL 詳細検索]」オプションを選択する必要があります。基本検索を [!UICONTROL &#x200B; 詳細検索 &#x200B;] に絞り込むことはできません。
+>[!UICONTROL 詳細検索]を実行するには、検索を始める前に「[!UICONTROL 詳細検索]」オプションを選択する必要があります。基本検索を [!UICONTROL  詳細検索 ] に絞り込むことはできません。
 
 * [[!UICONTROL 詳細検索]を使用してください。](#use-advanced-search)
 
@@ -250,15 +247,15 @@ Workfront では次のオブジェクトを検索できます。
 
 詳細検索を実行するには、次の手順に従います。
 
-1. [!DNL Workfront] のページの右上隅にある **[!UICONTROL 検索]** アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックします。 **検索** メニューが表示されます。
+1. [!DNL Workfront] のページの右上隅にある **[!UICONTROL 検索]** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックします。 **検索** メニューが表示されます。
 
 1. **検索** メニューの下部にある **[!UICONTROL 詳細検索]** をクリックします。 **検索** ページが開き、「**詳細検索** タブがデフォルトで選択されます。
-   ![&#x200B; 詳細検索 &#x200B;](assets/qs-advanced-search-350x224.png)
+   ![ 詳細検索 ](assets/qs-advanced-search-350x224.png)
 
 
 1. 検索するオブジェクトのタイプを選択します。 **[!UICONTROL タスク]** はデフォルトで選択されています。
 
-   ![&#x200B; 詳細検索オブジェクト &#x200B;](assets/advanced-search.png)
+   ![ 詳細検索オブジェクト ](assets/advanced-search.png)
 
 1. （オプション）リストの上部にあるフィールドにキーワードを入力します。
 1. （任意） **[!UICONTROL 結果をフィルター]** を **オン** に切り替えて、検索を絞り込むフィルターを作成します。 終了したら「**適用**」をクリックします。

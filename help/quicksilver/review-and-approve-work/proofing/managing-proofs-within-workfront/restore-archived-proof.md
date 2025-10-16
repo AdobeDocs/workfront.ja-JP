@@ -6,10 +6,10 @@ description: プルーフは、連続して 60 日間開かれなかった場合
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 94%
+source-wordcount: '164'
+ht-degree: 91%
 
 ---
 
@@ -21,25 +21,28 @@ ht-degree: 94%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
-  </tr>
-
-<tr> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td> 
+   <p>任意</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">プルーフへのアクセス </td> 
    <td>ゲスト以上</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプランまたはプルーフへのアクセス権を確認するには、Workfront または Workfront のプルーフ管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

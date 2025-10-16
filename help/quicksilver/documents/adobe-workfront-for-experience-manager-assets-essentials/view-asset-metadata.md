@@ -7,10 +7,10 @@ description: ドキュメントの詳細とドキュメントの概要パネル�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 97%
+source-wordcount: '324'
+ht-degree: 93%
 
 ---
 
@@ -22,47 +22,43 @@ ht-degree: 97%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table>
   <tr>
-   <td><strong>Adobe Workfront プラン*</strong>
+   <td><strong>Adobe Workfront パッケージ </strong>
    </td>
    <td>任意
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront ライセンス*</strong>
+   <td><strong>Adobe Workfront ライセンス </strong>
    </td>
-   <td>リクエスト以上
+   <td>
+   <p>投稿者以上</p>
+   <p>リクエスト以上</p>
    </td>
   </tr>
   <tr>
-   <td><strong>製品</strong>
+   <td><strong> 追加製品 </strong>
    </td>
    <td>Experience Manager Assets as a Cloud Service または Assets Essentials を使用するには、Admin Console に製品にユーザーとして追加されていることが必要です。
    </td>
   </tr>
   <tr>
-   <td><strong>アクセスレベル設定*</strong>
+   <td><strong>アクセスレベル設定</strong>
    </td>
-   <td>ドキュメントへのアクセスを編集
-<p>
-<strong>メモ</strong>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<strong>カスタムアクセスレベルの作成または変更</strong>を参照してください。
+   <td><p>ドキュメントへのアクセスを編集</p>
    </td>
   </tr>
   <tr>
    <td><strong>オブジェクトの権限</strong>
    </td>
    <td>表示アクセス権またはそれ以上の権限
-<p>
-追加のアクセス権のリクエストについて詳しくは、<strong>オブジェクトへのアクセス権のリクエスト</strong>を参照してください。
    </td>
   </tr>
 </table>
 
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

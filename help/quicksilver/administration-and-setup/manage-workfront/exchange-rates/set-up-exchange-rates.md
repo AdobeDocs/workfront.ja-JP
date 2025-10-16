@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
+source-git-commit: dadee63c9c7bfb418566d19ee559f1f2a222cb05
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 54%
+source-wordcount: '626'
+ht-degree: 52%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Workfront 管理者は、Workfront で為替レートを設定できます
 * 現在の為替レートに一致するように Workfront の為替レートを更新
 * 複数の通貨の為替レートの設定（これにより、ユーザーはプロジェクトごとにデフォルト通貨を選択できます）
 
-為替レートは、Workfront のすべての財務要素に影響を与えます。特定のプロジェクトまたは担当業務で上書きされない限り、基本通貨は、システム全体のすべてのプロジェクトのデフォルト通貨です。 現在の基本通貨またはデフォルト通貨は、リストのアイコン ![&#x200B; デフォルト通貨アイコン &#x200B;](assets/default-icon.png) で示されます。 また、レポートやリストで表示する際に、基準通貨やプロジェクトの通貨とは異なるシステム内で使用可能な通貨で財務情報を表示するよう選択することもできます。詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
+為替レートは、Workfront のすべての財務要素に影響を与えます。特定のプロジェクトまたは担当業務で上書きされない限り、基本通貨は、システム全体のすべてのプロジェクトのデフォルト通貨です。 現在の基本通貨またはデフォルト通貨は、リストのアイコン ![ デフォルト通貨アイコン ](assets/default-icon.png) で示されます。 また、レポートやリストで表示する際に、基準通貨やプロジェクトの通貨とは異なるシステム内で使用可能な通貨で財務情報を表示するよう選択することもできます。詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
 
 プロジェクトと担当業務についてWorkfrontの基本通貨を上書きする方法については、次の記事を参照してください。
 
@@ -44,32 +44,27 @@ Adobe Workfront 管理者は、Workfront で為替レートを設定できます
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
-  </tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>アクセスレベル設定</td> 
+   <td>システム管理者</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

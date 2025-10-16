@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '989'
 ht-degree: 88%
 
 ---
@@ -29,30 +29,27 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td>
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
   </tr>
-  </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -60,10 +57,10 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. チームを作成または変更するグループの名前をクリックします。
-1. 左側のパネルで「**チーム** ![&#x200B; チーム &#x200B;](assets/teams.png)」をクリックすると、グループに関連付けられたチームと、グループに含まれる可能性のあるサブグループに関連付けられたチームがリストされます。
+1. 左側のパネルで「**チーム** ![ チーム ](assets/teams.png)」をクリックすると、グループに関連付けられたチームと、グループに含まれる可能性のあるサブグループに関連付けられたチームがリストされます。
 
 1. 次のいずれかの操作を行います。
 
@@ -106,7 +103,7 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
       </tbody> 
      </table>
 
-   * **チームを編集**：少なくとも 1 つのチームを選択し、**&#x200B;** 編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、次のオプションを使用して設定します。
+   * **チームを編集**：少なくとも 1 つのチームを選択し、**** 編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、次のオプションを使用して設定します。
 
      <table style="table-layout:auto"> 
       <col> 
@@ -155,5 +152,5 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
       </tbody> 
      </table>
 
-   * **チームを削除**：少なくとも 1 つのチームを選択し、削除アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
-   * **チームのリストをエクスポート**: **エクスポート** ![&#x200B; エクスポートアイコン &#x200B;](assets/export.png) をクリックして、エクスポートされたリストに使用するファイル形式を選択します。
+   * **チームを削除**：少なくとも 1 つのチームを選択し、削除アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
+   * **チームのリストをエクスポート**: **エクスポート** ![ エクスポートアイコン ](assets/export.png) をクリックして、エクスポートされたリストに使用するファイル形式を選択します。

@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 55%
+source-wordcount: '413'
+ht-degree: 54%
 
 ---
 
 # 監査ログの表示と書き出し
+
+<!--Audited: 08/2025-->
 
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
@@ -25,13 +27,12 @@ ht-degree: 55%
 
 監査ログには、過去 90 日間にシステムでトリガーされたユーザーの変更がリストされます。
 
-すべての監査ログタイプとその生成内容について詳しくは、[&#x200B; 監査ログの概要 &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
+すべての監査ログタイプとその生成内容について詳しくは、[ 監査ログの概要 ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,6 +60,30 @@ ht-degree: 55%
 
 +++
 
+<!--Old: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>System Administrator</p></td>
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## 監査ログの表示
 
 {{step-1-to-setup}}
@@ -74,7 +99,7 @@ ht-degree: 55%
 
    デフォルトでは、「**すべてのログタイプ**」が選択されています。
 
-   表示できるすべての監査ログタイプと、それらが含む情報のリストについては、[&#x200B; 監査ログの概要 &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
+   表示できるすべての監査ログタイプと、それらが含む情報のリストについては、[ 監査ログの概要 ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
 
 1. （オプション）次のフィールドに使用可能なフィルターを設定します。
 

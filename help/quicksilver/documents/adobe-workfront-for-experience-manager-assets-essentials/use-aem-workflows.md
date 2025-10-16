@@ -6,10 +6,10 @@ description: Experience Manager Assets Essentials 統合でのワークフロー
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 97%
+source-wordcount: '1012'
+ht-degree: 96%
 
 ---
 
@@ -28,44 +28,40 @@ ht-degree: 97%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
-<table>
-  <tr>
-   <td><strong>Adobe Workfront プラン*</strong>
-   </td>
-   <td>任意
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Adobe Workfront ライセンス*</strong>
-   </td>
-   <td>リクエスト以上
-   </td>
-  </tr>
-  <tr>
-   <td><strong>製品</strong>
-   </td>
-   <td><p>Experience Manager Assets as a Cloud Service または Assets Essentials を使用するには、Admin Console に製品にユーザーとして追加されていることが必要です。</p><p>Adobe Experience Manager のリポジトリへの書き込みアクセス権が必要です。</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>アクセスレベル設定*</strong>
-   </td>
-   <td>ドキュメントへのアクセスを編集
-<p>
-<strong>メモ</strong>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<strong>カスタムアクセスレベルの作成または変更</strong>を参照してください。
-   </td>
-  </tr>
-  <tr>
-   <td><strong>オブジェクトの権限</strong>
-   </td>
-   <td>プロジェクトでのアクセス権以上の管理 
-<p>
-追加のアクセス権のリクエストについて詳しくは、<strong>オブジェクトへのアクセス権のリクエスト</strong>を参照してください。
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p> 任意</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td> 
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">その他の製品</td> 
+   <td>Experience Manager as a Cloud Service または Assets Essentials を使用するには、Admin Console に製品にユーザーとして追加されている必要があります。</td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">Experience Manager 権限</td> 
+    <td>フォルダーへの書き込みアクセス権が必要です。</td> 
+   </tr>
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>表示アクセス権またはそれ以上の権限</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -152,7 +148,7 @@ ht-degree: 97%
 
 リンクされているフォルダーのワークフローを編集するには：
 
-1. 必要に応じて、**[!UICONTROL リンクされたフォルダーを作成]**&#x200B;をオンまたはオフに切り替えます。オンにすると、リンクされているフォルダーの設定を編集できます。
+1. 必要に応じて、**[!UICONTROL リンクされたフォルダーを作成]**&#x200B;をオンまたはオフに切り替えます。オンに切り替えると、リンクされているフォルダーの設定を編集できます。
 
    リンクされているフォルダーの設定について詳しくは、[[!UICONTROL Experience Manager Assets as a Cloud Service] 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)の記事の [Adobe Experience Manager にリンクされたフォルダーの作成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)を参照してください。
 

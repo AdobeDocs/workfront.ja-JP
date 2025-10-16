@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 14%
+source-wordcount: '792'
+ht-degree: 13%
 
 ---
 
@@ -30,26 +30,26 @@ ht-degree: 14%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] プラン</strong>
+   <td>Adobe Workfront パッケージ
    </td>
-   <td> PrimeまたはUltimate（新規プランのみ）
+   <td> <p>PrimeまたはUltimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] ライセンス</strong>
+   <td><strong>Workfront ライセンス </strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>標準</p>&gt;
    </td>
   </tr>
    <tr>
    <td>アクセスレベル設定
    </td>
-   <td>[!DNL Workfront] 管理者である必要があります。
+   <td><p>Workfront 管理者である必要があります。</p>
    </td>
   </tr>
 </table>
 
-この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## パッケージを作成
 
@@ -104,13 +104,13 @@ ht-degree: 14%
 パッケージを編集するには `DRAFT` ステータスである必要があります。 パッケージを `DRAFT` のステータスに移動するには、「**ステータス**」フィールドで「`Draft`」を選択します。 その後、パッケージの編集を続行できます。
 1. パッケージをインストールするには、画面の右上にある **インストール** をクリックします。
 
-   パッケージのインストール手順については、[&#x200B; 環境プロモーションパッケージのインストール &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md) を参照してください。
+   パッケージのインストール手順については、[ 環境プロモーションパッケージのインストール ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md) を参照してください。
 
 ## オブジェクト比較からのパッケージの作成
 
 オブジェクト比較から直接パッケージを作成できます。
 
-1. [&#x200B; 環境間のオブジェクトの比較 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md) の説明に従って、オブジェクト比較を作成します。
+1. [ 環境間のオブジェクトの比較 ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md) の説明に従って、オブジェクト比較を作成します。
 1. 生成された比較で、パッケージに含めるオブジェクトを選択します。
 1. 画面の右上隅にある「**パッケージを作成**」をクリックします。
 1. パッケージの名前と説明を入力します。

@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -35,11 +35,11 @@ GenStudio Foundationで 1 つ以上のブランドを設定したら、複数の
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ GenStudio Foundationで 1 つ以上のブランドを設定したら、複数の
 
 開始する前に、GenStudio Foundationで画像ブランドガイドラインを設定する必要があります。
 
-画像ブランドガイドラインについて詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
+画像ブランドガイドラインについて詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
 
 ## AI レビュー担当者の追加
 

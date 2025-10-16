@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 「期間タイプの概要：予定作業」
+title: 期間タイプの概要：算出した作業時間
 description: 予定作業は、Adobe Workfront のタスクに設定できる期間タイプです。Workfront の期間タイプに関する一般情報については、タスク期間の概要と期間タイプを参照してください。
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 予定作業は、タスクを完了するのに必要な作業量（予定時間数）を決定します。タスクに割り当てられたリソースがタスクの期間全体に割り当てられる場合は、予定作業の期間タイプを使用することをお勧めします。
 
-Workfront またはグループ管理者は、システムまたはグループのデフォルトの期間タイプを予定作業に設定できます。この場合、すべての新しいタスクは、この期間タイプで作成されます。システムレベルまたはグループレベルのプロジェクト環境設定の一部として、タスクやイシューの環境設定を変更する方法については、[システム全体のタスクとイシュー環境を設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+Workfrontまたはグループ管理者は、システムまたはグループのデフォルトの期間タイプを計算済み作業として設定できます。 この場合、すべての新しいタスクはこの期間タイプで作成されます。 システムレベルまたはグループレベルのプロジェクト環境設定の一部として、タスクやイシューの環境設定を変更する方法については、[システム全体のタスクとイシュー環境を設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
 リソースがタスクに追加されると、プロジェクトマネージャーは予定作業量の増加を確認することができます。例えば、1 時間の定例会議に 3 人のリソースが参加する場合は合計 3 時間、10 人のリソースが参加する場合には合計 10 時間の作業が必要です。この場合、各リソースに 100％の割り当てでタスクが割り当てられていると想定します。
 

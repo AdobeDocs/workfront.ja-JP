@@ -9,10 +9,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
+source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 24%
+source-wordcount: '1127'
+ht-degree: 25%
 
 ---
 
@@ -45,7 +45,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * タスク時間
    * イシュー時間
 
-  [!DNL Workfront] 時間タイプと空き時間の定義 [&#x200B; で説明されているように、](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) 管理者は、プロジェクト固有の時間タイプを使用可能にすることを決定します。
+  [!DNL Workfront] 時間タイプと空き時間の定義 [ で説明されているように、](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) 管理者は、プロジェクト固有の時間タイプを使用可能にすることを決定します。
 
   >[!NOTE]
   >
@@ -53,33 +53,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 * **一般的な時間タイプ**：一般的な時間は、プロジェクト、タスク、または問題に関連付けることはできず、タイムシートに直接記録されます。
 
-時間の記録および時間タイプとの関連付けについて詳しくは、[&#x200B; 時間の記録 &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
+時間の記録および時間タイプとの関連付けについて詳しくは、[ 時間の記録 ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>標準またはプラン</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル</td> 
-   <td>システム管理者</td>
+   <td>アクセスレベル設定</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -102,7 +102,7 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
 
 システムレベルで時間タイプを定義した後、ユーザーは特定のプロジェクトまたは特定のユーザーが使用できる時間タイプを定義できます。
 
-詳しくは、[&#x200B; 時間タイプと可用性の定義 &#x200B;](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください
+詳しくは、[ 時間タイプと可用性の定義 ](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください
 
 時間タイプを作成する手順は、次のとおりです。
 
@@ -127,10 +127,10 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b>重要</b></p><p> [!UICONTROL プロジェクト固有 &#x200B;] のカスタム時間タイプがあり、それを [!UICONTROL 一般 &#x200B;] に変更した場合、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定の時間タイプに設定されます。</p> </td> 
+      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b>重要</b></p><p> [!UICONTROL プロジェクト固有 ] のカスタム時間タイプがあり、それを [!UICONTROL 一般 ] に変更した場合、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定の時間タイプに設定されます。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 収益カウント &#x200B;]</td> 
+      <td role="rowheader">[!UICONTROL 収益カウント ]</td> 
       <td><p>この時間タイプに関連付けられた時間エントリを収益の計算に反映させたい場合は、このオプションを選択します。</p>
       <p>病欠時間と休暇時間は、収益としてカウントできません。</p>
       <p><b>メモ</b></p>
@@ -157,7 +157,7 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
 
 1. 左側のパネルで **タイムシートと時間** をクリックし、**時間タイプ** をクリックします。
 
-1. 時間タイプ名をクリックするか、時間タイプを選択して、リストの上部にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. 時間タイプ名をクリックするか、時間タイプを選択して、リストの上部にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. **時間タイプを編集** ダイアログボックスで、次の情報を指定します。
 
    <table style="table-layout:auto"> 
@@ -174,10 +174,10 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b>重要</b></p> <p>[!UICONTROL プロジェクト固有 &#x200B;] のカスタム時間タイプがあり、それを [!UICONTROL 一般 &#x200B;] に変更した場合、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定の時間タイプに設定されます。</p> </td> 
+      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b>重要</b></p> <p>[!UICONTROL プロジェクト固有 ] のカスタム時間タイプがあり、それを [!UICONTROL 一般 ] に変更した場合、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定の時間タイプに設定されます。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 収益カウント &#x200B;]</td> 
+      <td role="rowheader">[!UICONTROL 収益カウント ]</td> 
       <td><p>この時間タイプに関連付けられた時間エントリを収益の計算に反映させたい場合は、このオプションを選択します。</p>
       <p>病欠時間と休暇時間は、収益としてカウントできません。</p>
       <p><b>メモ</b></p>
@@ -188,7 +188,7 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
    </table>
 
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
    変更内容が保存され、時間タイプが編集されます。
 
@@ -215,7 +215,7 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
 
 1. 「**詳細**」をクリックしてから「**アクティベートを解除** をクリックします。
 
-   ![&#x200B; 時間タイプのリンクのアクティブ化と非アクティブ化 &#x200B;](assets/activate-and-deactivate-hour-type-links.png)
+   ![ 時間タイプのリンクのアクティブ化と非アクティブ化 ](assets/activate-and-deactivate-hour-type-links.png)
 
    時間タイプは非アクティブ化され、ユーザーは時間をログに記録すると見つけることができなくなります。
 

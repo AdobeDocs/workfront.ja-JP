@@ -5,10 +5,10 @@ description: Adobe Workfront では、ユーザーが割り当てられている
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 91%
+source-wordcount: '1556'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 91%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,16 +43,18 @@ ht-degree: 91%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Adobe Workfront] パッケージ</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
+   <td> 
+   <p>投稿者以上</p>
+   <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!DNL Workfront] 管理者が、ユーザーのアクセスレベルで「<strong>[!UICONTROL View only updates in which they have been included in the conversation]</strong>」を有効にしてある場合、ユーザーは [!DNL Workfront] のアイテムに登録できません。</p> <p>メモ：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されているかどうかを [!UICONTROL Workfront] 管理者にお問い合わせください。[!UICONTROL Workfront] 管理者がユーザーのアクセスレベルを変更する方法については、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td> <p>[!DNL Workfront] 管理者が、ユーザーのアクセスレベルで「<strong>[!UICONTROL View only updates in which they have been included in the conversation]</strong>」を有効にしてある場合、ユーザーは [!DNL Workfront] のアイテムに登録できません。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
@@ -61,7 +63,9 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## アイテムに登録
 
@@ -75,12 +79,12 @@ ht-degree: 91%
    >
    >プロジェクトに登録するには、次のいずれかを行います。
    >
-   >* 購読するプロジェクトに移動し、プロジェクト名の右側にある **[!UICONTROL その他]** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。
-   >* プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **[!UICONTROL 詳細]** アイコン ![&#x200B; 詳細メニュー &#x200B;](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。 これは、プロジェクトのリストでのみ使用できます。
+   >* 購読するプロジェクトに移動し、プロジェクト名の右側にある **[!UICONTROL その他]** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。
+   >* プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **[!UICONTROL 詳細]** アイコン ![ 詳細メニュー ](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。 これは、プロジェクトのリストでのみ使用できます。
 
-1. **[!UICONTROL その他]**![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。
+1. **[!UICONTROL その他]**![ その他アイコン ](assets/more-icon.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。
 
-   ![&#x200B; 作業アイテムの購読 &#x200B;](assets/subscribe-to-a-work-item-350x258.png)
+   ![ 作業アイテムの購読 ](assets/subscribe-to-a-work-item-350x258.png)
 
    ベルにチェックマークが表示され、その横の番号が更新されて、登録済みユーザー数に追加されます。
 
@@ -102,12 +106,12 @@ ht-degree: 91%
    >
    >プロジェクトへの登録を解除するには、次のいずれかの操作を実行します。
    >
-   >* 購読解除するプロジェクトに移動し、プロジェクト名の右側にある **[!UICONTROL 詳細]** アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読解除]** をクリックします。
-   >* プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **[!UICONTROL 詳細]** アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 登録解除]** をクリックします。 これは、プロジェクトのリストでのみ使用できます。
+   >* 購読解除するプロジェクトに移動し、プロジェクト名の右側にある **[!UICONTROL 詳細]** アイコン ![ 詳細アイコン ](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読解除]** をクリックします。
+   >* プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **[!UICONTROL 詳細]** アイコン ![ 詳細アイコン ](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 登録解除]** をクリックします。 これは、プロジェクトのリストでのみ使用できます。
 
-1. **[!UICONTROL その他]**![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**[!UICONTROL 登録解除]** をクリックします。
+1. **[!UICONTROL その他]**![ その他アイコン ](assets/more-icon.png) をクリックしてから、**[!UICONTROL 登録解除]** をクリックします。
 
-   ![&#x200B; 作業アイテムの登録解除 &#x200B;](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![ 作業アイテムの登録解除 ](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. 登録メールにある「[!UICONTROL 登録解除]」リンクをクリックして、登録している項目から登録解除することもできます。
 
@@ -136,7 +140,7 @@ ht-degree: 91%
    >   
    >* プロジェクトリストまたはレポートに移動し、プロジェクトを選択します。
 
-1. **[!UICONTROL その他]** アイコン ![&#x200B; をクリック &#x200B;](assets/more-icon.png) ます。
+1. **[!UICONTROL その他]** アイコン ![ をクリック ](assets/more-icon.png) ます。
 1. **[!UICONTROL 登録]**&#x200B;リンクの横にある数字の吹き出しをクリックします。
 1. 表示されるボックスで、「**[!UICONTROL 他のユーザーを登録]**」ボックスにユーザーの名前を入力し、表示されたオプションからユーザーを選択します。
 
@@ -159,7 +163,7 @@ ht-degree: 91%
    >   
    >* プロジェクトリストまたはレポートに移動し、プロジェクトを選択します。
 
-1. **[!UICONTROL その他]** アイコン ![&#x200B; をクリック &#x200B;](assets/more-icon.png) ます。
+1. **[!UICONTROL その他]** アイコン ![ をクリック ](assets/more-icon.png) ます。
 1. **[!UICONTROL 登録]**&#x200B;リンクまたは&#x200B;**[!UICONTROL 登録解除]**&#x200B;リンクの横にある数字の吹き出しをクリックします。
 1. 表示される&#x200B;**[!UICONTROL サブスクライバー]**&#x200B;ページで、登録解除するユーザー名の横にある「X」をクリックします。
 
@@ -175,7 +179,7 @@ ht-degree: 91%
 
 登録している項目に他のユーザーがコメントを投稿すると、すぐにアプリ内通知が届きます。
 
-![&#x200B; アプリ内通知 &#x200B;](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
+![ アプリ内通知 ](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 詳しくは、[アプリ内通知の表示と管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)を参照してください。
 
@@ -199,7 +203,7 @@ ht-degree: 91%
 
    ![サブスクライバーを表示](assets/bell-hover-for-list-qs-350x90.png)
 
-   「[!UICONTROL サブスクライバー]」フィールドをレポートまたは購読済みの項目のビューの列として追加することで、サブスクライバーのリストを表示することもできます。詳しくは、[&#x200B; 用語集の [!DNL Adobe Workfront] 用語](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
+   「[!UICONTROL サブスクライバー]」フィールドをレポートまたは購読済みの項目のビューの列として追加することで、サブスクライバーのリストを表示することもできます。詳しくは、[ 用語集の [!DNL Adobe Workfront] 用語](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 
 ## 購読に関する作業について
 
@@ -218,4 +222,4 @@ ht-degree: 91%
 * 項目にコメントしたユーザーがコメントをロックして非公開に設定した場合、そのユーザーと同じ会社に所属していないユーザーにそのコメントの通知は届きません。コメントを自社で非公開にする方法について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)の[作業項目に更新を追加](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add)の節を参照してください。
 
 * 購読用のレポートを作成することはできません。監査は、項目が購読または購読解除されたときに、すべての項目の更新ステータスに記録されます。
-* 子オブジェクトへのコメントは、親オブジェクトの購読通知をトリガーしません。プロジェクトを購読する場合、そのプロジェクトに対するコメントの通知のみを受け取ります。プロジェクトに関連付けられた子項目（タスクやイシュー）に対するコメントの通知は、それぞれの子項目を購読しない限り受け取りません。オブジェクトの関係について詳しくは、「[&#x200B; [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) でのオブジェクトについて」の[オブジェクトの相互依存性と階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)の節を参照してください。
+* 子オブジェクトへのコメントは、親オブジェクトの購読通知をトリガーしません。プロジェクトを購読する場合、そのプロジェクトに対するコメントの通知のみを受け取ります。プロジェクトに関連付けられた子項目（タスクやイシュー）に対するコメントの通知は、それぞれの子項目を購読しない限り受け取りません。オブジェクトの関係について詳しくは、「[ [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) でのオブジェクトについて」の[オブジェクトの相互依存性と階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)の節を参照してください。

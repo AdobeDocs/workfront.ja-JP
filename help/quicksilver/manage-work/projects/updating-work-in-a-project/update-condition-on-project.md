@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: プロジェクトの状況の更新
+title: プロジェクトの更新条件
 description: プロジェクトの状況は、プロジェクトに関連する作業がスムーズに進んでいるかどうか、または何らかの課題が発生したかどうかを示すために、プロジェクトに付けられるフラグです。これは、プロジェクトに対して積極的に取り組んでいるかどうかを示す、プロジェクトのステータスとは異なります。
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
+source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 88%
+source-wordcount: '526'
+ht-degree: 84%
 
 ---
 
@@ -23,25 +23,21 @@ Adobe Workfront 管理者は、環境にカスタムの状況を作成できま�
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td><p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td>
-
-新しいライセンスの場合：
-<p>標準</p>
-
-現在のライセンスの場合：
-<ul><li><p>プラン</p>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+  <p>標準</p>
+   <p>プラン</p>
     </td> 
   </tr> 
   <tr> 
@@ -57,7 +53,43 @@ Adobe Workfront 管理者は、環境にカスタムの状況を作成できま�
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   
+   For the new licenses:
+  <p>Standard</p>
+   
+   For current licenses:
+   <ul><li><p>Plan</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
+   <p>Manage permissions on tasks and issues to update the Condition</p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## 状況の自動設定
 

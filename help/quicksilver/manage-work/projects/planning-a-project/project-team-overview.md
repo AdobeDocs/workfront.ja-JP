@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
-title: プロジェクトチームの概要
+title: プロジェクト チームの概要
 description: ある能力のプロジェクトに関連付けられているユーザーにより、プロジェクトチームが構成されます。プロジェクトまたはテンプレートの人物エリアにリストされるユーザーは、プロジェクトチームを構成するユーザーです。
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '476'
-ht-degree: 46%
+ht-degree: 45%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 46%
 
 ## プロジェクトチームのメンバー
 
-ユーザーを手動または自動で、プロジェクトチームに割り当てることができます。詳しくは、「プロジェクトチームの管理 [&#x200B; のプロジェクトチームへのユーザーの追加の節を参照してくだ &#x200B;](../../../manage-work/projects/planning-a-project/manage-project-team.md) い。
+ユーザーを手動または自動で、プロジェクトチームに割り当てることができます。詳しくは、「プロジェクトチームの管理 [ のプロジェクトチームへのユーザーの追加の節を参照してくだ ](../../../manage-work/projects/planning-a-project/manage-project-team.md) い。
 
 ユーザーを手動でプロジェクトチームに追加すると、追加されたユーザーに、プロジェクトに対する表示権限と、プロジェクトのタスク、イシュー、ドキュメントに対する表示権限が付与されます。
 

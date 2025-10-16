@@ -7,10 +7,10 @@ description: Google Workspace Marketplace から  [!DNL Adobe Workfront]  for Go
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 38%
+source-wordcount: '249'
+ht-degree: 32%
 
 ---
 
@@ -26,32 +26,34 @@ ht-degree: 38%
 >
 >Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [&#x200B; および &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [&#x200B; を参照してください。](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 [!DNL Adobe Workfront for Google Workspace] アドオンは [!DNL Google Workspace] Marketplace からインストールできます。
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Work]、[!UICONTROL Plan]</p> </td> 
-  </tr>
-   </tbody> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p><p>ワークまたはそれ以上</p>
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!DNL Workfront for Google Workspace] のインストール
 
@@ -62,6 +64,6 @@ ht-degree: 38%
    [!DNL Google Workspace] アプリ（[!DNL Gmail]、[!DNL Google Calendar]、または [!DNL Google Drive]）の右端にある [!DNL Google Workspace] アドオンのサイドバーのプラス記号アイコンをクリックします。*[!DNL Workfront for Google Workspace]* を検索し、表示される [!DNL Workfront for Google Workspace] アプリアイテムをクリックします。
 
 1. 「**[!UICONTROL インストール]**」をクリックし、表示されるプロンプトに従います。
-1. （条件付き） [!DNL Google Workspace] アプリで「[!DNL Workfront]」アイコン ![Workfrontアイコンが表示されない場合 &#x200B;](assets/wf-lion-icon.png) ページの右端にある「[!DNL Google Workspace]」アドオンサイドバーでページを更新します。
+1. （条件付き） [!DNL Google Workspace] アプリで「[!DNL Workfront]」アイコン ![Workfrontアイコンが表示されない場合 ](assets/wf-lion-icon.png) ページの右端にある「[!DNL Google Workspace]」アドオンサイドバーでページを更新します。
 
-ログインについて詳しくは、[&#x200B; [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md) のログインとログアウトを参照してください。
+ログインについて詳しくは、[ [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md) のログインとログアウトを参照してください。

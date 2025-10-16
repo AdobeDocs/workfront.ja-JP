@@ -6,10 +6,10 @@ description: Adobe Workfront for XD プラグインは、Adobe Marketplace か�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 83%
+source-wordcount: '521'
+ht-degree: 81%
 
 ---
 
@@ -32,8 +32,6 @@ ht-degree: 83%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -41,21 +39,23 @@ ht-degree: 83%
  </col> 
  <tbody> 
  <!-- <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package/td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td>
+   <p>Standard</p>
+    <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">製品</td> 
-   <td><p>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</p><p>詳しくは、<a href="https://helpx.adobe.com/jp/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud サポートポリシー</a>を参照してください。</p></td> 
+   <td role="rowheader">その他の製品</td> 
+   <td><p>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -67,7 +67,7 @@ ht-degree: 83%
 
 [!DNL Adobe Admin Console] 管理者は、プラグインを [!DNL Creative Cloud] デプロイメントパッケージに含めることができます。詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
-[こちらからビデオチュートリアルをご覧いただけます](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
+[ こちらのビデオチュートリアルをご覧ください ](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
 また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
 
@@ -89,7 +89,7 @@ ht-degree: 83%
 
 1. 左下隅で、**プラグイン**&#x200B;アイコンをクリックします。
 
-![XD プラグインウィンドウ &#x200B;](assets/xd-plugin-window-350x620.png)
+![XD プラグインウィンドウ ](assets/xd-plugin-window-350x620.png)
 
 1. **[!UICONTROL プラグインパネル]**&#x200B;で、**[!UICONTROL Adobe Workfront for XD]** を検索します。
 
@@ -103,7 +103,7 @@ ht-degree: 83%
    >[!TIP]
    >
    >* ドメインを検索するには、ブラウザーを開いて [!DNL Workfront] インスタンスに移動し、次の URL の最初の部分をコピーします。\
-   >![&#x200B; ドメインの検索 &#x200B;](assets/domain-350x50.png)
+   >![ ドメインの検索 ](assets/domain-350x50.png)
    >
    > * Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
 
@@ -113,7 +113,7 @@ ht-degree: 83%
    >
    >最近ログインした場合は、[!DNL Workfront] の資格情報の入力を求められない場合があります。
 
-   画面の指示に従って、[!DNL Workfront] にログインします。
+   画面のプロンプトに従って、[!DNL Workfront] にログインします。
 
    >[!NOTE]
    >
@@ -129,13 +129,13 @@ ht-degree: 83%
 
 `experience.adobe.com` で始まる URL を使用してプラグインにログインすることはできません。
 
-![&#x200B; ログインエラー &#x200B;](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
+![ ログインエラー ](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
 
 
 この問題を修正するには、
 
 1. Adobe Workfront for XD プラグインをアンインストールして再インストールし、ドメインとエラーをクリアします。
 
-1. Workfront ドメインを入力します。 ドメインは、`experience.adobe.com` ではなく `company-name.my.workfront.com` である必要があります。
+1. Workfront ドメインを入力します。 ドメインは、`company-name.my.workfront.com` ではなく `experience.adobe.com` である必要があります。
 
 Adobe Unified Experience を使用している場合にWorkfront ドメインを見つけるには、に移動します。

@@ -6,10 +6,10 @@ description: Adobe Workfront では、ダッシュボードに外部ページと
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 94%
+source-wordcount: '637'
+ht-degree: 93%
 
 ---
 
@@ -17,42 +17,38 @@ ht-degree: 94%
 
 Adobe Workfront では、ダッシュボードに外部ページとして埋め込むことのできるリソースプランナーのユーザービューに対する一意の URL を生成するか、新しいブラウザータブで別々に開くことができます。これは、リソースプランナーの情報を、リソース領域に直接アクセスできない可能性のあるユーザーと共有する場合に役立ちます。
 
-![&#x200B; リンク付きユーザービュー &#x200B;](assets/rp-user-view-with-link-highlight-350x49.png)
+![ リンク付きユーザービュー ](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-    <td><p>新規：任意</p>
-       <p>または</p>
-       <p>現在：Pro 以上</p> </td> 
+  <tr> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>リソース管理、プロジェクト、ユーザーへの表示またはそれ以上のアクセス権限</p> <p>コスト情報を表示するための財務データへの表示アクセス権限</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td> <p>リソースプランナーに表示するプロジェクトへの表示またはそれ以上の権限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -79,13 +75,13 @@ Adobe Workfront では、ダッシュボードに外部ページとして埋め�
    * 四半期
 
 1. （オプション）情報の表示を **FTE** 別にするか&#x200B;**時間**&#x200B;別にするかを選択します。\
-   ![FTE または時間を選択 &#x200B;](assets/rp-hours-or-fte-in-user-view.png)
+   ![FTE または時間を選択 ](assets/rp-hours-or-fte-in-user-view.png)
 
 1. （オプション）リソースプランナーにフィルターを適用します。\
    フィルターの適用について詳しくは、[リソースプランナーで情報をフィルタリング](../../resource-mgmt/resource-planning/filter-resource-planner.md)を参照してください。
 
 1. **ハイパーリンク**&#x200B;アイコンをクリックします。\
-   ![&#x200B; ハイパーリンクアイコンと URL](assets/rp-generate-url-from-link-icon.png)
+   ![ ハイパーリンクアイコンと URL](assets/rp-generate-url-from-link-icon.png)
 
 1. 「**URL をコピー**」をクリックします。\
    この結果、ユーザービューにあるリソースプランナーの一意の URL がクリップボードにコピーされます。
@@ -113,4 +109,4 @@ Adobe Workfront では、ダッシュボードに外部ページとして埋め�
    レイアウトテンプレートへのダッシュボードの追加について詳しくは、[レイアウトテンプレートを作成および管理](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。\
    ダッシュボードの共有について詳しくは、[ダッシュボードを共有](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)を参照してください。\
    共有 URL を表示するとき、ユーザーは、最初にリソースプランナーに適用した設定で情報を確認できます。共有 URL を表示するには、Workfront にログインする必要があります。\
-   ![&#x200B; リソースプランナーが表示されたサンプルダッシュボード &#x200B;](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![ リソースプランナーが表示されたサンプルダッシュボード ](assets/user-view-dashoard-from-unique-url-350x85.png)

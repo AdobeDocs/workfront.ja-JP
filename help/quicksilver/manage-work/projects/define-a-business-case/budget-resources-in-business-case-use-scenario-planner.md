@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: シナリオプランナーを使用してビジネスケースのリソースの予算を立てる
 description: リソース計画の一環として、ビジネスケースを構築するときに、Adobe Workfront Scenario Planner を使用して、プロジェクトの作業を完了するために必要な担当業務の予算を立てることができます。
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '959'
 ht-degree: 87%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 87%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,13 @@ ht-degree: 87%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p>現在：Ultimate</p> 
-   <p>レガシー：ビジネス以上</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td><p>Prime以上</p> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p>現在：Light 以上 
-   <p>レガシー：レビュー以上</p> </td> 
+   <td><p>ライト以上 
+   <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>製品</p></td> 
@@ -74,7 +73,7 @@ ht-degree: 87%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -131,7 +130,7 @@ ht-degree: 87%
 
    * プロジェクトの予算リソースに対して、リソースプランナーが以前に選択されていた場合は、**変更**／**シナリオプランナ**／**選択**&#x200B;をクリックします。
 
-     ![&#x200B; シナリオプランナーのビジネスケースと「選択」ボタン &#x200B;](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![ シナリオプランナーのビジネスケースと「選択」ボタン ](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront は、リンクされたイニシアティブから必要な担当業務時間を使用して、プロジェクトの予算労務費と予算時間を計算します。これは推奨されるオプションです。コストは、ビジネスケースにプロジェクトの通貨で表示されます。
 

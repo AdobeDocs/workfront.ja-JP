@@ -6,10 +6,10 @@ description: プロジェクトテンプレートをゼロから作成する以�
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 41%
+source-wordcount: '327'
+ht-degree: 40%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 41%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 次のアクセス権が必要です。
 
@@ -30,13 +30,13 @@ ht-degree: 41%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td><p>新規：標準</p> 
-   <p>現在：プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p> 
+   <p>プラン</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -49,9 +49,34 @@ ht-degree: 41%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+<!--Old:
+
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p> 
+   <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a template</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## テンプレートのコピーに関する考慮事項
 
@@ -77,11 +102,11 @@ ht-degree: 41%
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. コピーするテンプレートに移動します。
-1. ヘッダーのテンプレート名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックし、「**コピー**」をクリックします。
+1. ヘッダーのテンプレート名の右側にある **その他** メニュー ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックし、「**コピー**」をクリックします。
 
    「**テンプレートをコピー**」ボックスが開きます。
 
-   ![&#x200B; 「テンプレートをコピー」ボックス &#x200B;](assets/copy-template-box.png)
+   ![ 「テンプレートをコピー」ボックス ](assets/copy-template-box.png)
 
 1. 「**新しいテンプレート名**」フィールドにテンプレートの名前を指定します。
 

@@ -6,7 +6,7 @@ description: テキストモードでの条件付き書式の使用
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 93%
@@ -26,28 +26,20 @@ ht-degree: 93%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
-   </td>
+     <p>標準</p>
+     <p>プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -56,11 +48,11 @@ ht-degree: 93%
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>レポートに対する権限を管理してレポートのビューを編集</p> <p>編集するために、ビューに対する管理権限</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -189,10 +181,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* このステートメントは会社名の列に適用できますが、レポート上の他の列にも適用できます。緑のテキストは、プロジェクトに会社が関連付けられている場合にのみ表示されます。条件付けが最終的に列に表示されるかどうかを決定するのは `[field name]`、`[value]`、`[qualifier]` です。
 >* 修飾子を使用する場合、`cicontains` ではなく `equal` を使用することをお勧めします。デフォルトでは、`equal` は ID 番号を探します。`cicontains` 修飾子を使用すると、名前で項目にアクセスできます。
 
-![&#x200B; テキストモードの例 &#x200B;](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
+![ テキストモードの例 ](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
 
-![&#x200B; テキストモードのサンプル結果 &#x200B;](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
+![ テキストモードのサンプル結果 ](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 テキストモードに「テキストの色」、「整列」、「フォントのスタイル」、「背景色」のどれを適用するにしても、同じステートメント（上記）を使用します。
 
@@ -297,9 +289,9 @@ styledef.case.0.comparison.truetext=not today
 >
 >`case.0.` で始まるステートメントでは、テキストの使用を識別するために大文字と小文字の比較を使用します。`styledef.case.0.` で始まる行は初期の条件付き形式ステートメントであり、`truetext` 式を通じてテキストの使用を識別します。`truetext` を空白のままにするのではなく、必ず値を設定してください。
 
-![&#x200B; 適用テキストの例 &#x200B;](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
+![ 適用テキストの例 ](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![&#x200B; テキスト結果の適用 &#x200B;](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
+![ テキスト結果の適用 ](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### レコード書式の適用 {#apply-row-formats}
 
@@ -359,30 +351,30 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >ステートメントに `icon=true` 式が使用されていることに注目してください。また、このステートメントは、他の条件付き書式設定ステートメントとは異なり、`style.def` 形式を使用せずに一意の画像形式を使用します。
 
-![&#x200B; アイコンテキストモード &#x200B;](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
+![ アイコンテキストモード ](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![&#x200B; アイコンテキストモードの結果 &#x200B;](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
+![ アイコンテキストモードの結果 ](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 使用可能な画像を使用するには、次のコードと値を適用します。
 
 | **アイコン** | **行：image.case.0.comparison.truetext=** |
 |---|---|
-| しかめ面 ![&#x200B; しかめ面 &#x200B;](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| 嬉しそうな顔 ![&#x200B; 嬉しそうな顔 &#x200B;](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| 青色旗 ![&#x200B; 青色旗 &#x200B;](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| 緑の旗 ![&#x200B; 緑の旗 &#x200B;](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| 赤旗 ![&#x200B; 赤旗 &#x200B;](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| 黄色フラグ ![&#x200B; 黄色フラグ &#x200B;](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| 黒い円 ![&#x200B; 黒い円 &#x200B;](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| 青い円 ![&#x200B; 青い円 &#x200B;](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| 灰色の円 ![&#x200B; 灰色の円 &#x200B;](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| 緑の円 ![&#x200B; 緑の円 &#x200B;](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| オレンジの円 ![&#x200B; オレンジの円 &#x200B;](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| ピンクの円 ![&#x200B; ピンクの円 &#x200B;](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| 紫の円 ![&#x200B; 紫の円 &#x200B;](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| 赤い丸 ![&#x200B; 赤い丸 &#x200B;](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| 白い円 ![&#x200B; 白い円 &#x200B;](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| 黄色の円 ![&#x200B; 黄色の円 &#x200B;](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| しかめ面 ![ しかめ面 ](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| 嬉しそうな顔 ![ 嬉しそうな顔 ](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| 青色旗 ![ 青色旗 ](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| 緑の旗 ![ 緑の旗 ](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| 赤旗 ![ 赤旗 ](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| 黄色フラグ ![ 黄色フラグ ](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| 黒い円 ![ 黒い円 ](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| 青い円 ![ 青い円 ](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| 灰色の円 ![ 灰色の円 ](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| 緑の円 ![ 緑の円 ](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| オレンジの円 ![ オレンジの円 ](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| ピンクの円 ![ ピンクの円 ](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| 紫の円 ![ 紫の円 ](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| 赤い丸 ![ 赤い丸 ](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| 白い円 ![ 白い円 ](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| 黄色の円 ![ 黄色の円 ](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 
@@ -394,7 +386,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 `valueexpression` コード行を含む列を条件付きで書式設定することはできません。代わりに、計算カスタムフィールドをカスタムフォームに追加し、そのフィールドをレポートに表示するオブジェクトに関連付けることができます。その後、このフィールドを表示する列を条件付きで書式設定できます。
 
-計算カスタムフィールドについて詳しくは、「[&#x200B; フォームへの計算フィールドの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+計算カスタムフィールドについて詳しくは、「[ フォームへの計算フィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 ## 「テキストモード」列への集計値の追加
 

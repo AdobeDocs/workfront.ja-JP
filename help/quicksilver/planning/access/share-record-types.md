@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 8%
+source-wordcount: '1473'
+ht-degree: 5%
 
 ---
 
@@ -29,18 +29,67 @@ ht-degree: 8%
 >[!IMPORTANT]
 >
 >ワークスペースへのアクセス権を持つユーザーには、ワークスペース内のすべてのレコードタイプに対する少なくとも表示権限が自動的に付与されます。
->&#x200B;>ビューを共有しても、ユーザーはレコードタイプに対する権限を持ちません。 共有ワークスペースのみが、レコードタイプに対する権限をユーザーに付与できます。
+>>ビューを共有しても、ユーザーはレコードタイプに対する権限を持ちません。 共有ワークスペースのみが、レコードタイプに対する権限をユーザーに付与できます。
 >
->* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
->* 詳しくは、この記事の [&#x200B; レコードタイプを共有する場合の考慮事項 &#x200B;](#considerations-when-sharing-record-types) の節を参照してください。
+>* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
+>* 詳しくは、この記事の [ レコードタイプを共有する場合の考慮事項 ](#considerations-when-sharing-record-types) の節を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<p>任意のWorkfrontおよび Planning パッケージ</p> 
+または
+<p>任意のワークフローおよび計画パッケージ</p> 
+ </tr>
+
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>任意</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>  <p>ワークスペースとレコードタイプに対する権限の管理</p>  
+   <p><b>重要</b></p>
+   <p>ワークスペースに対する管理権限を持つユーザーのみが、レコードタイプに対する管理権限を共有できます</p></td> 
+  </tr>
+<tr>
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
+   <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
+
+</td>
+  </tr>
+
+</tbody> 
+</table>
+
+
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -51,58 +100,54 @@ ht-degree: 8%
     <tr> 
 <tr> 
 <td> 
-   <p> 製品</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>Workfront Planning ビューへの権限を取得するには、ユーザーをAdobe Admin Consoleに追加する必要があります。</p>
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>Users must be added to the Adobe Admin Console in order to gain permissions to Workfront Planning views.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準</p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>  <p>レコードタイプに対する権限の管理</p>  
-   <p>ワークスペースに対する管理権限を持つユーザーのみが、レコードタイプに対する管理権限を共有できます</p></td> 
-  </tr>
-
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Manage permissions to a record type</p>  
+   <p>Only users with Manage permissions to a workspace can share Manage permissions to a record type</p></td> 
+  </tr> 
+ 
 </tbody> 
-</table>
-
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+</table>-->
 
 ## レコードタイプを共有する場合の考慮事項
 
@@ -151,7 +196,7 @@ ht-degree: 8%
 
    **共有** ボックスが開きます。
 
-   ![&#x200B; 継承された権限を持つレコードタイプの権限 &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![ 継承された権限を持つレコードタイプの権限 ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. （オプション） **アクセスできるユーザー** 領域では、「**ワークスペースのすべてのユーザーが表示** オプションがデフォルトで選択されています。  ワークスペースに対する表示以上の権限を持つすべてのユーザーは、レコードタイプを表示できます。
 
@@ -174,7 +219,7 @@ ht-degree: 8%
 
    >[!IMPORTANT]
    >
-   >* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+   >* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
    >* ワークスペースでのレコードタイプに対する権限よりも大きな権限をユーザーに付与することはできません。
    >* ワークスペースに対する管理権限を持っているユーザーには、レコードタイプに対する管理権限よりも少ない権限を付与することはできません。
    >* ワークスペースに対する投稿権限があるユーザーには、レコードタイプに対する権限を小さくすることができます。
@@ -187,7 +232,7 @@ ht-degree: 8%
    システム管理者は、常に共有されているレコードタイプに対する管理権限を受け取り、ユーザーがシステム管理者であることを示しています。
 
 1. （オプション） **リンクをコピー** をクリックして、レコードタイプへのリンクをクリップボードにコピーし、他のユーザーと共有します。
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
    レコードタイプが他のユーザーと共有されるようになりました。
 レコードタイプを共有したユーザーは、次のエンティティに権限を付与したことについてのアプリ内通知とメール通知の両方を受け取ります。
@@ -211,9 +256,9 @@ ht-degree: 8%
    **共有** ボックスが開きます。
 1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、名前の右側にある権限ドロップダウンメニューを展開して、「**削除**」をクリックします。<!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![&#x200B; レコードタイプ共有ドロップダウンの「削除」オプション &#x200B;](assets/remove-option-on-record-type-sharing-drop-down.png)
+   ![ レコードタイプ共有ドロップダウンの「削除」オプション ](assets/remove-option-on-record-type-sharing-drop-down.png)
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
    レコードタイプに対して示された権限がなくなりました。 ただし、ワークスペース権限も削除しない限り、ワークスペースに対する権限は保持されたままになります。
 

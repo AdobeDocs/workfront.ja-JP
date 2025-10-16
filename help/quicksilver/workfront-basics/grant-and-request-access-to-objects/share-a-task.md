@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 51%
+source-wordcount: '1196'
+ht-degree: 50%
 
 ---
 
@@ -24,23 +24,20 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-オブジェクトを共有するには、次の条件を満たしている必要があります。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準</p> 
-   または
-   <p>現在：ワーク以上</p>
+   <td> <p>標準</p> 
+   <p>ワークまたはそれ以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -54,7 +51,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -90,7 +87,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    * プロジェクト、プログラムまたはポートフォリオなど、タスクの任意の親オブジェクトに対する権限を指定します。タスクは、親オブジェクトから権限を継承します。オブジェクトに対する継承された権限の表示について詳しくは、[オブジェクトの継承された権限の表示](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)を参照してください。
    * タスクが存在するプロジェクトの作成に使用するテンプレートで、プロジェクト共有にエンティティを追加します。テンプレートからのプロジェクトの共有について詳しくは、[テンプレートの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
 
-   * プロジェクトの編集時に、プロジェクト内のすべてのタスクに対する権限を指定します。プロジェクトに対するユーザーの権限に基づいて、プロジェクト上のタスクへのアクセスを管理する方法について詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事の [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) の節を参照してください。
+   * プロジェクトの編集時に、プロジェクト内のすべてのタスクに対する権限を指定します。プロジェクトに対するユーザーの権限に基づいて、プロジェクト上のタスクへのアクセスを管理する方法について詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事の [](../../manage-work/projects/manage-projects/edit-projects.md#access) の節を参照してください。
 
   >[!TIP]
   >
@@ -102,7 +99,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. タスク名の右側にある「**共有**」をクリックします。 **共有 [ タスク名]** ダイアログボックスが開きます。
 
-   ![&#x200B; 「タスクを共有」ボタン &#x200B;](assets/share-task-button.png)
+   ![ 「タスクを共有」ボタン ](assets/share-task-button.png)
 
 1. **タスクへのアクセスの許可** フィールドに、タスクを共有するユーザー、チーム、役割、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
@@ -124,22 +121,22 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. （オプション）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、タスクに対する特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-permission-options.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-permission-options.png)
 
 1. （オプション）タスクの子オブジェクトに対して継承された権限をオフにするには、**継承された権限** でインラインの **オフ** をクリックします。
 
 1. （オプション）リンクを使用してタスクをすばやく共有するには、「**リンクをコピー**」をクリックして受信者に転送します。
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
 
 ## タスクを一括共有
 
 1. 共有するタスクを含むプロジェクトに移動します。
 
-1. プロジェクトページの「**タスク**」タブで、共有する各タスクの左側にあるボックスを選択し、ページ上部にある **共有** アイコン ![&#x200B; 共有アイコン &#x200B;](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
+1. プロジェクトページの「**タスク**」タブで、共有する各タスクの左側にあるボックスを選択し、ページ上部にある **共有** アイコン ![ 共有アイコン ](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
 
-   ![&#x200B; タスクの一括共有 &#x200B;](assets/bulk-share-tasks.png)
+   ![ タスクの一括共有 ](assets/bulk-share-tasks.png)
 
 1. **タスクへのアクセスの許可** フィールドに、タスクを共有するユーザー、チーム、役割、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
@@ -162,9 +159,9 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. （オプション）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、タスクに対する特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-permission-options.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-permission-options.png)
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
 ## タスク権限
 

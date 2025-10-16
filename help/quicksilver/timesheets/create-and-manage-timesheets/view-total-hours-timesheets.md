@@ -3,13 +3,13 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: タイムシートの合計時間の表示
 description: タイムシートの合計時間数を表示できます。この時間数には、プロジェクト、タスク、イシューに関して記録された時間とすべての一般的な時間が含まれます。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 84%
+source-wordcount: '458'
+ht-degree: 82%
 
 ---
 
@@ -23,35 +23,33 @@ ht-degree: 84%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：ライト以上 </p>
-   <p>現在：レビュー以上</p> </td> 
+   <td>Adobe Workfront プラン</td> 
+   <td> <p>ライト以上 </p>
+   <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td>アクセスレベル設定</td> 
    <td> <p>タスクおよび問題への表示以上のアクセス</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td>オブジェクト権限</td> 
    <td> <p>タスクとイシューに対する表示またはそれ以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -107,4 +105,4 @@ ht-degree: 84%
 
    >[!TIP]
    >
-   >タイムシートのリストで標準ビューを使用するとき、タイムシートの項目に記録された時間がタイムシートの時間枠の時間数を超えると、「合計時間」列が赤で表示されます。 詳しくは、[Adobe Workfront用語の用語集 &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) の「合計時間数」フィールドを参照してください。
+   >タイムシートのリストで標準ビューを使用するとき、タイムシートの項目に記録された時間がタイムシートの時間枠の時間数を超えると、「合計時間」列が赤で表示されます。 詳しくは、[Adobe Workfront用語の用語集 ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) の「合計時間数」フィールドを参照してください。

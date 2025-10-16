@@ -6,10 +6,10 @@ description: バーンダウンチャートのサイズを変更したり折り�
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 87%
+source-wordcount: '244'
+ht-degree: 88%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 87%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,13 @@ ht-degree: 87%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL ライト &#x200B;] 以上</p> 
-   または
-   <p>現在：[!UICONTROL Review] 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>ライト以上</p> 
+   <p>レビュー以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -56,7 +53,7 @@ ht-degree: 87%
 
 1. サイズを変更するバーンダウンチャートを含むイテレーションに移動します。
 1. バーンダウンチャートの下線にポインタを合わせ、チャートを希望のサイズにドラッグします。
-   ![&#x200B; バーンダウンチャートのサイズ変更 &#x200B;](assets/burndown-resize.png)
+   ![ バーンダウンチャートのサイズ変更 ](assets/burndown-resize.png)
 
 ## バーンダウンチャートの折りたたみ
 

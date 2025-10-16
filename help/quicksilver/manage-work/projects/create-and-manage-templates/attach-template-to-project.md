@@ -6,10 +6,10 @@ description: プロジェクトの初期作成段階または作成後に、プ�
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 50%
+source-wordcount: '1057'
+ht-degree: 47%
 
 ---
 
@@ -30,23 +30,22 @@ ht-degree: 50%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p>
+   <td> <p>標準</p>
+    <p>プラン</p>
     </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>プロジェクトへのアクセスを編集 </p> <p>プロジェクトへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">プロジェクトへのアクセス権の付与</a>を参照してください。</p> <p>テンプレートに対する表示アクセス権</p> <p>テンプレートの権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">テンプレートの共有</a>を参照してください。 </p> <p>テンプレートへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">テンプレートへのアクセス権の付与</a>を参照してください。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> カスタムアクセスレベルの作成と変更 </a> を参照してください。</p> </td> 
+   <td> <p>プロジェクトへのアクセスを編集 </p> <p>テンプレートへのアクセスの表示</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトの管理権限</p> <p>プロジェクト権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>を参照してください。 </p> <p>テンプレートに対する表示権限以上</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトの管理権限</p> <p>テンプレートに対する表示権限以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,6 +53,34 @@ ht-degree: 50%
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard</p>
+   <p>Or</p>
+   <p>Current: Plan</p>
+    </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects </p> <p>For information about project access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> <p>View access to&nbsp;Templates</p> <p>For information about template permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Share a template</a>. </p> <p>For information about template access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create and modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>. </p> <p>View permissions or higher to the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -88,15 +115,15 @@ ht-degree: 50%
 
 1. **プロジェクト** ページで、テンプレートを添付するプロジェクトを選択します。
 
-1. プロジェクト名の右側にある **その他** アイコン ![&#x200B; その他のアイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックします。
+1. プロジェクト名の右側にある **その他** アイコン ![ その他のアイコン ](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![&#x200B; その他のドロップダウン &#x200B;](assets/more-dropdown.png)
+   ![ その他のドロップダウン ](assets/more-dropdown.png)
 
    または
 
-   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **その他** アイコン ![&#x200B; その他のアイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックします。
+   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他のアイコン ](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![&#x200B; 詳細メニューが展開されました &#x200B;](assets/more-menu-expanded.png)
+   ![ 詳細メニューが展開されました ](assets/more-menu-expanded.png)
 
 
 1. **テンプレートを添付** をクリックします。 **テンプレートを添付** ボックスが表示されます。
@@ -115,11 +142,11 @@ ht-degree: 50%
    * タスクの合計数
    * 添付されたカスタムフォームの名前
 
-   ![&#x200B; テンプレートを添付ボックス &#x200B;](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![ テンプレートを添付ボックス ](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. （オプション）テンプレート名の右側にある **お気に入り** アイコン ![&#x200B; お気に入りアイコン &#x200B;](assets/favorites-icon-small.png) をクリックして、お気に入りとしてマークし、**お気に入り** リストに移動します。
+1. （オプション）テンプレート名の右側にある **お気に入り** アイコン ![ お気に入りアイコン ](assets/favorites-icon-small.png) をクリックして、お気に入りとしてマークし、**お気に入り** リストに移動します。
 
-1. （オプション） **お気に入り** アイコン ![&#x200B; お気に入りアイコン &#x200B;](assets/favorites-icon-selected.png) を再度クリックして、**お気に入り** リストから削除します。
+1. （オプション） **お気に入り** アイコン ![ お気に入りアイコン ](assets/favorites-icon-selected.png) を再度クリックして、**お気に入り** リストから削除します。
 1. **カスタマイズと添付** をクリックします。 **テンプレートを添付** サイドパネルが開きます。
 
 1. （任意）次の節の情報を更新します。
@@ -148,7 +175,7 @@ ht-degree: 50%
      </tr> 
      <tr> 
       <td role="rowheader">下に選択されたアイテムがプロジェクトにインポートされます。除外するものは選択を解除してください。</td> 
-      <td> <p>プロジェクトに添付する前にテンプレートから除外する情報のチェックボックスをオフにします。 各フィールドについて詳しくは、<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">プロジェクトへのテンプレートの添付の概要</a>を参照してください。 </p> <p>重要：「<strong>キュー プロパティ &amp; 問題設定</strong>」チェックボックスを選択すると、テンプレートのキューの詳細でプロジェクトのキューの詳細が上書きされます。この場合、テンプレートの「ルーティング規則」、「キュートピック」および「トピックグループ」が、プロジェクトの各項目に追加されます。<br> プロジェクトが要求キューとして設定され、プロジェクトに添付するテンプレートが要求キューとして設定されていない場合、&lbrack; キューのプロパティと問題の設定 <strong> ボックスをオンにしていると、プロジェクトのキュー情報は削除され </strong> す。 <br> 「<strong> キューのプロパティと問題設定 </strong>」ボックスの選択を解除すると、プロジェクトのキュー設定はすべて保持され、テンプレートのキュー設定は添付されません。 </p> </td> 
+      <td> <p>プロジェクトに添付する前にテンプレートから除外する情報のチェックボックスをオフにします。 各フィールドについて詳しくは、<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">プロジェクトへのテンプレートの添付の概要</a>を参照してください。 </p> <p>重要：「<strong>キュー プロパティ &amp; 問題設定</strong>」チェックボックスを選択すると、テンプレートのキューの詳細でプロジェクトのキューの詳細が上書きされます。この場合、テンプレートの「ルーティング規則」、「キュートピック」および「トピックグループ」が、プロジェクトの各項目に追加されます。<br> プロジェクトが要求キューとして設定され、プロジェクトに添付するテンプレートが要求キューとして設定されていない場合、[ キューのプロパティと問題の設定 <strong> ボックスをオンにしていると、プロジェクトのキュー情報は削除され </strong> す。 <br> 「<strong> キューのプロパティと問題設定 </strong>」ボックスの選択を解除すると、プロジェクトのキュー設定はすべて保持され、テンプレートのキュー設定は添付されません。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">「カスタムフォーム」セクション</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -186,7 +213,7 @@ ht-degree: 50%
 
 ## 既存のプロジェクトへの複数テンプレートの添付とテンプレート情報の表示 {#attach-multiple-templates-to-an-existing-project-and-view-template-information}
 
-この記事の「[&#x200B; 既存のプロジェクトにテンプレートを添付する &#x200B;](#attach-a-template-to-an-existing-project)」の節で説明されている手順に従って、複数のテンプレートを同じプロジェクトに（一度に 1 つずつ）添付できます。 これにより、各テンプレートのタスクやその他の情報がプロジェクトに追加されます。
+この記事の「[ 既存のプロジェクトにテンプレートを添付する ](#attach-a-template-to-an-existing-project)」の節で説明されている手順に従って、複数のテンプレートを同じプロジェクトに（一度に 1 つずつ）添付できます。 これにより、各テンプレートのタスクやその他の情報がプロジェクトに追加されます。
 
 >[!TIP]
 >
@@ -202,6 +229,6 @@ ht-degree: 50%
 
 1. **プロジェクトの関係** の下の **概要** セクションの下部にある「**テンプレート**」フィールドで、プロジェクトに添付されているテンプレートの名前を見つけます。
 
-   ![&#x200B; プロジェクトのテンプレート情報 &#x200B;](assets/nwe-template-info-on-project-350x356.png)
+   ![ プロジェクトのテンプレート情報 ](assets/nwe-template-info-on-project-350x356.png)
 
 

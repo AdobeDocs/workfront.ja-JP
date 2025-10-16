@@ -2,16 +2,16 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: タスク情報：記事インデックス
+title: タスク情報：記事一覧
 description: タスクとは、Adobe Workfront でのプロジェクトの完了に関わる作業アイテムです。タスク情報について詳しくは、次の記事を参照してください。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 88%
+source-wordcount: '143'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 <!-- Audited: 5/2025 -->
 
-この節では、次の記事を扱います。
+タスクとは、Adobe Workfront でのプロジェクトの完了に関わる作業アイテムです。タスク情報については、次の記事を参照してください。
 
 * [タスクの概要](../../../manage-work/tasks/task-information/tasks-overview.md)
 * [実際の時間数の表示](../../../manage-work/tasks/task-information/actual-hours.md)
@@ -37,7 +37,7 @@ ht-degree: 88%
 * [タスクのトラッキングモードの設定](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [タスクの標準化遅延の更新](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [タスクのコストタイプを更新](../../../manage-work/tasks/task-information/update-task-cost-type.md)
-* [&#x200B; 見込日及び見込日の概要 &#x200B;](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+* [ 見込日及び見込日の概要 ](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
 * [タスクの元の期間と元の予定時間数の概要](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
 * [タスクの予定期間と期間の違い](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
 

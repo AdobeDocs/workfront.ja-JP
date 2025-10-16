@@ -6,9 +6,9 @@ description: プロジェクトの財務情報を表示または編集するに�
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1274'
 ht-degree: 93%
 
 ---
@@ -25,22 +25,19 @@ ht-degree: 93%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td>
    <td>
-   <p>新規：ライト以上</p>
-   <p>または</p>
-   <p>現在：レビュー以上</p></td> 
+   <p>ライト以上</p>
+   <p>レビュー以上</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -53,7 +50,7 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -69,9 +66,9 @@ ht-degree: 93%
 
 1. プロジェクトに移動します。
 1. 左側のパネルの「**プロジェクト詳細**」をクリックします。
-1. 「詳細」セクションの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**財務** をクリックします。
+1. 「詳細」セクションの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、「**財務** をクリックします。
 
-   ![&#x200B; 詳細表示の財務領域 &#x200B;](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![ 詳細表示の財務領域 ](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
@@ -156,14 +153,14 @@ ht-degree: 93%
    >次の手順を実行するには、プロジェクトに対する管理権限が必要です。また、プロジェクトの「財務情報」サブタブを変更できるのは、プロジェクト所有者のみにすることをお勧めします。
 
 1. 左パネルの「**プロジェクト詳細**」をクリックします。
-1. 「詳細 **セクションの右上隅にある「編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**財務** をクリックします。 財務エリアが編集用に開きます。
+1. 「詳細 **セクションの右上隅にある「編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、「**財務** をクリックします。 財務エリアが編集用に開きます。
 1. 編集可能なフィールドをシングルクリックして編集するか、「**+ 追加**」をクリックして空のフィールドに情報を追加します。
 
    >[!TIP]
    >
    >Workfront によって自動的に計算されるフィールドや、編集権限を持っていないフィールドは、編集できません。
 
-   ![&#x200B; 財務領域の編集 &#x200B;](assets/edit-finance-area-in-project-details-nwe-350x275.png)
+   ![ 財務領域の編集 ](assets/edit-finance-area-in-project-details-nwe-350x275.png)
 
 1. 以下のフィールドを更新します。
 

@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: plan-a-project
 title: 役割の配分パネルでプロジェクトの予定時間数を表示
 description: プロジェクトの役割の配分パネルでは、プロジェクトの作業アイテムに割り当てられているすべての担当業務について、役割の配分を表示できます。
-author: Alina
+author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 78%
+source-wordcount: '476'
+ht-degree: 59%
 
 ---
 
@@ -24,14 +24,50 @@ ht-degree: 78%
 >* [タスクリストのプロジェクトとイニシアチブの役割の配分を表示](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
 >* [ワークロードバランサーのプロジェクトとイニシアチブの役割の配分を表示](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  役割の配分パネルにイニシアチブの時間数を表示するには、シナリオプランナーのライセンスが必要です。シナリオプランナーについては、[シナリオプランナーの概要](../../../scenario-planner/get-started-with-scenario-planning.md)を参照してください。
+>  役割割り当てパネルにイニシアティブ時間を表示するには、シナリオ プランナ ライセンスが必要です。 シナリオプランナーについては、[ シナリオプランナーの基本を学ぶ ](../../../scenario-planner/get-started-with-scenario-planning.md) を参照してください。
 >
+>過去に会社がAdobe Scenario Planner を購入したことがある場合は、新しいバージョンに変更されています。 シナリオプランナーは購入できなくなりました。
 
 ## アクセス要件
 
-<!--drafted for P&P:
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>Adobe WorkfrontUltimate</p>
+   <p>Adobe ワークフローUltimate</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>ライト以上</p>
+   <p>レビュー以上</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトに対する表示以上のアクセス権</p>
+   <p>シナリオプランナーへのアクセスを編集してイニシアティブの時間を更新</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>プロジェクトに対する表示以上の権限</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
+
+able style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -41,10 +77,7 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Light or higher</p> 
-   Or
-   <p>Legacy license: Review or higher</p> 
-   </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,36 +88,7 @@ ht-degree: 78%
    <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
--->
-
-以下が必要です。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>任意 </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>レビュー以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトに対する表示以上のアクセス権</p> <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する表示以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+</table>-->
 
 ## 前提条件
 
@@ -100,18 +104,18 @@ ht-degree: 78%
 
 ## 役割の配分パネルでプロジェクトの予定時間数を表示
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、「**プロジェクト**」をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、「**プロジェクト**」をクリックします。
 1. プロジェクト名をクリックしてアクセスします。プロジェクトページが開きます。
 1. 左側のパネルで、次のいずれかをクリックします。
 
    * **タスク**
    * **ワークロードバランサー**
 
-1. **役割配分を表示** アイコン ![&#x200B; 役割配分を表示アイコン &#x200B;](assets/show-role-allocation-icon.png) をクリックします。
+1. **役割配分を表示** アイコン ![ 役割配分を表示アイコン ](assets/show-role-allocation-icon.png) をクリックします。
 
    役割の配分パネルが表示されます。
 
-   ![&#x200B; 予定時間数のみを含む役割割り当てパネル &#x200B;](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![ 予定時間数のみを含む役割割り当てパネル ](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. **役割の割り当て** パネルで次の情報を確認します。
 

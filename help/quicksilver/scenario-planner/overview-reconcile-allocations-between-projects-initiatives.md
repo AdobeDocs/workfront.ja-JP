@@ -1,15 +1,15 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: プロジェクトとイニシアチブ間でのリソース割り当て調整の概要
+title: プロジェクトとイニシアチブ間のリソース割当ての調整の概要
 description: プロジェクトとイニシアチブ間でのリソース割り当て調整の概要
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

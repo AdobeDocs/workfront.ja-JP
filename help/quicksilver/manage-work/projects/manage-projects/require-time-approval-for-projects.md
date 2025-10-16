@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: プロジェクトに対する時間の承認の要求
-description: プロジェクトに対する時間の承認の要求
+title: プロジェクトの承認時間を必要とする
+description: プロジェクトに対して記録された時間数についてプロジェクト所有者による承認が必要になるようにプロジェクトを設定できます。このように設定した場合、時間数を請求記録で使用するには、まずプロジェクト所有者によって承認される必要があります。
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 79%
+source-wordcount: '785'
+ht-degree: 78%
 
 ---
 
@@ -26,30 +26,30 @@ ht-degree: 79%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>プロジェクトの承認に要する時間を確認するには、次の手順を実行します。</p>
-   <ul><li>新規：標準</li>
-   <li>現在：プラン</li></ul>
+   <ul><li><p>標準</p></li>
+   <li><p>プラン</p></li></ul>
 
 <p>プロジェクトのログ時間を承認するには：</p>
-   <ul><li>新規：ライト以上</li>
-   <li>レビュー以上</li>
+   <ul><li><p>ライト以上</p></li>
+   <li><p>レビュー以上</p></li>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへの編集アクセス権またはそれ以上</p>  </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへのアクセスを編集</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -73,14 +73,63 @@ ht-degree: 79%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>To require time to be approved on the project:</p>
+   <ul><li>New: Standard</li>
+   <li>Current: Plan</li></ul>
+   
+   <p>To approve hours logged on a project:</p>
+   <ul><li>New: Light or higher</li>
+   <li>Review or higher</li>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects or higher</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the project or higher</p>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Additional access</td> 
+   <td> <p>You must meet at least one of the following conditions to approve time on a project:</p> 
+    <ul> 
+     <li>You are the Project Owner with the access and permissions specified above. In this case, you can do the following if one of the conditions below exists: 
+      <ul>
+       <li>If you have Manage permissions on the project, you can approve or reject hours logged on the project by any other user.</li>
+       <li> If you have Contribute or View access to the project you will be able to approve or reject only the hours logged by you or any other user that reports you.<br></li>
+      </ul></li> 
+     <li>You have a Plan license with administrative access to Timesheets &amp; Hours. In this case:
+      <ul>
+       <li>You can approve or reject any hours on the projects you have at least permissions to View. </li>
+      </ul></li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## プロジェクトに対する時間の承認の要求
 
 プロジェクトの時間数についてプロジェクトマネージャーの承認が必要になるように設定するには、次の手順に従います。
 
 1. 時間数の承認を必要とするプロジェクトに移動します。
-1. プロジェクト名の右側にある **その他** アイコン ![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) をクリックし、**編集** をクリックします。\
+1. プロジェクト名の右側にある **その他** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックし、**編集** をクリックします。\
    プロジェクトの編集ダイアログボックスが表示されます。
 
 1. 「**プロジェクト設定**」セクションで、「**プロジェクト時間の承認**」を選択します。

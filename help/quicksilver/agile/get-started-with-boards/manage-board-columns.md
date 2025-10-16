@@ -6,9 +6,9 @@ description: 新しいボードには、デフォルトで 3 つの列が含ま�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1081'
 ht-degree: 79%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 79%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -36,14 +34,15 @@ ht-degree: 79%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：Contributor 以上 </p>
-        <p>または</p> 
-        <p>現在：[!UICONTROL Request] 以上 </p></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+   <p>投稿者以上</p> 
+   <p>リクエスト以上</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

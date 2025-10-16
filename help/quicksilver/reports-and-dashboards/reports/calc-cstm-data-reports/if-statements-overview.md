@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: IF ステートメントの概要
 description: 「IF」ステートメントは、一般的なプログラミング言語で使用できます。Adobe Workfront では、「IF」ステートメントを使用すると、レポートおよびカスタムデータの両方の目的で、データのフィールドを比較、書式設定、および文字列化できます。また、「IF」ステートメントに関する数学的な考え方は、式の変数が一般的に使用されるので、概念的な理解を深めます。
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 100%

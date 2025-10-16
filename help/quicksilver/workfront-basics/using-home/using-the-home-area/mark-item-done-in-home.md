@@ -6,10 +6,10 @@ description: タスクまたはイシューの担当者である場合は、タ�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 78%
+source-wordcount: '807'
+ht-degree: 75%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 78%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,45 +34,47 @@ ht-degree: 78%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以上</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
+   <td> 
+   <p>標準</p>
+   <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>タスクとイシューに対する[!UICONTROL Edit]アクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されているか [!DNL Workfront] 管理者に確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td> <p>タスクとイシューに対する[!UICONTROL Edit]アクセス権</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>作業が必要なタスクやイシューに対する参加以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト </a>を参照してください。</p> </td> 
+   <td> <p>作業が必要なタスクやイシューに対する参加以上の権限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
 ## 担当作業ウィジェットで作業項目を完了としてマークします
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **担当作業** ウィジェットを追加します。
 1. 作業項目を見つけ、作業項目の「**[!UICONTROL 完了としてマーク]**」をクリックします。
 このボタンの表示方法について詳しくは、[「[!UICONTROL 完了]」ボタンのオプションについて](#understand-the-options-of-the-done-button)を参照してください。
-   ![&#x200B; 自分の作業が完了としてマークされた &#x200B;](assets/my-work-done.png)
+   ![ 自分の作業が完了としてマークされた ](assets/my-work-done.png)
 
 
 ## 概要パネルでの作業項目の完了のマーク
 
 概要パネルを使用して、マイタスクおよびマイ問題ウィジェットで作業項目を完了としてマークできます。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （任意） **カスタマイズ** をクリックして、**マイタスク** または **マイイシュー** ウィジェットを追加します。
 1. 作業項目の上にマウスポインターを置き、「**概要** アイコンをクリックします。
-   ![&#x200B; 概要を開く &#x200B;](assets/open-summary-new-home.png)
+   ![ 概要を開く ](assets/open-summary-new-home.png)
 1. 概要パネルの上部にある「**完了としてマーク**」をクリックします。
 
 
@@ -106,12 +108,12 @@ ht-degree: 78%
 
 ### 複数のリソースに割り当てられた項目の「[!UICONTROL 完了]」ボタン
 
-タスクまたはイシューが複数のリソースに割り当てられている場合、ドロップダウンメニューのボタンに&#x200B;**[!UICONTROL 完了]**&#x200B;と表示されます。ドロップダウンメニューでは、**[!UICONTROL 自分の部品で完了]** （チームメンバーに、タスクのどの部分でも完了したことを知らせる）または [!UICONTROL &#x200B; 完了 &#x200B;] ボタン（項目を完了する）に関連付けられたステータスを選択できます。 「**[!UICONTROL 担当部分は完了]**」を選択した後に、作業アイテムは作業リストから削除されますが、作業アイテムに割り当てられている作業アイテムの作業リストには残ります。\
+タスクまたはイシューが複数のリソースに割り当てられている場合、ドロップダウンメニューのボタンに&#x200B;**[!UICONTROL 完了]**&#x200B;と表示されます。ドロップダウンメニューでは、**[!UICONTROL 自分の部品で完了]** （チームメンバーに、タスクのどの部分でも完了したことを知らせる）または [!UICONTROL  完了 ] ボタン（項目を完了する）に関連付けられたステータスを選択できます。 「**[!UICONTROL 担当部分は完了]**」を選択した後に、作業アイテムは作業リストから削除されますが、作業アイテムに割り当てられている作業アイテムの作業リストには残ります。\
 「完了」ボタンが複数のステータスに関連付けられている場合は、そのステータスが「**担当部分は完了**」の下に表示されます。
 
 >[!NOTE]
 >
 >複数の担当者がいるタスクまたはイシューの場合、各ユーザーには、タスクまたはイシューに対する自分の割り当てが実際に完了したことを示す責任があります。この理由から、各担当者は「[!UICONTROL 完了]」をクリックし、項目に割り当てられた作業が完了したことを示す必要があります。
 
-![&#x200B; 担当が完了しました &#x200B;](assets/done-with-my-part.png)
+![ 担当が完了しました ](assets/done-with-my-part.png)
 

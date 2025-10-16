@@ -4,15 +4,15 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: ブループリントのインストール
-description: ブループリントは、実稼動環境またはサンドボックス環境にインストールできます。
+description: ブループリントは、本番環境またはサンドボックス環境にインストールできます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 74%
+source-wordcount: '475'
+ht-degree: 72%
 
 ---
 
@@ -20,37 +20,34 @@ ht-degree: 74%
 
 <!-- Audited: 5/2025 -->
 
-ブループリントは、実稼動環境またはサンドボックス環境にインストールできます。
+ブループリントは、本番環境またはサンドボックス環境にインストールできます。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td> 
+   <p>標準</p>
+   <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!DNL Workfront] 管理者である必要があります。 </td> 
+   <td>Workfront 管理者</td> 
   </tr> 
  </tbody> 
 </table>
 
-この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -79,7 +76,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->特定のブループリントは、テスト目的でプレビュー環境にのみインストールできます。実稼動環境、サンドボックス 1、またはサンドボックス 2 でプレビューのみのコンテンツにアクセスする場合、「インストール」ボタンがアクティブにならず、警告メッセージが表示されることがあります。\
+>特定のブループリントは、テスト目的でプレビュー環境にのみインストールできます。本番環境、サンドボックス 1、またはサンドボックス 2 でプレビューのみのコンテンツにアクセスする場合、「インストール」ボタンがアクティブにならず、警告メッセージが表示されることがあります。\
 >さらに、プレビュー環境であっても、プレビューのみのコンテンツにアクセスすると、環境の切り替え機能が制限されます。
 
 ## ブループリントのインストール
@@ -89,7 +86,7 @@ ht-degree: 74%
 1. インストールするブループリントを見つけます。ページの右側で、ユースケース、成熟度レベル、インストールステータスおよびタイプでフィルタリングできます。
 1. （オプション）ブループリントの動作の仕組みを学ぶには、「**[!UICONTROL 詳細]**」をクリックします。
 1. 「**[!UICONTROL インストール]**」をクリックします。
-1. 実稼動環境にインストールするか、サンドボックス環境にインストールするかを選択します。\
+1. 本番環境にインストールするか、サンドボックス環境にインストールするかを選択します。\
    詳しくは、この記事の[ブループリントはどこにインストールすればよいですか？](#where-should-i-install-a-blueprint)の節を参照してください。
 1. 「**設定**」ページで、次のいずれかの操作を選択できます。
 

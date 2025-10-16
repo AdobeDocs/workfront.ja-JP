@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '714'
 ht-degree: 56%
 
 ---
@@ -42,37 +42,37 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >ドキュメントの統合により、個人用の非公開ファイルに接続できるので、管理者は別のユーザーとしてログインしている間はドキュメントの統合にアクセスできません。
 >
->ドキュメント統合について詳しくは、「[&#x200B; ドキュメント統合の設定 &#x200B;](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)」を参照してください。
+>ドキュメント統合について詳しくは、「[ ドキュメント統合の設定 ](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)」を参照してください。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p></td> 
-  </tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+       <p>プラン</p></td> 
+  </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>システム管理者のアクセスレベルを使用すると、任意のユーザーとしてログインできます。</p> <p>「Standard」または「Planner」のアクセスレベルでは、アクセスレベルの Users 設定が「Edit」アクセスに設定され、「Create」と「Fine-tune your settings」セクションの 2 つの User Admin オプションのうち少なくとも 1 つが有効になっている場合、より低いライセンスレベルでユーザーとしてログ <img src="assets/gear-icon-in-access-levels.png"> ンできます。 </p> 
-   <p>メモ：これら 2 つのオプションのうち、ユーザー管理者（グループユーザー）が有効になっている場合、ユーザーがメンバーになっているグループのグループ管理者である必要があります。</p></td>
+   <td>アクセスレベル設定</td> 
+   <td> <p>次のいずれかが必要です。</p> 
+    <ul> 
+     <li> <p>システム管理者のアクセスレベル。これにより、任意のユーザーとしてログインできます。</li> 
+     <li> <p><b> ユーザー </b> アクセスレベルで、<b> 編集 </b> アクセスに設定し、<b> 作成 </b> および「設定の微調整 <b></b> で有効になっている 2 つの <b> ユーザー管理者 </b> オプションのうち少なくとも 1 つを持つ <img src="assets/gear-icon-in-access-levels.png"> 設定。 これにより、より低いライセンスレベルのユーザーとしてログインできます。 </p> <p>これら 2 つのオプションのうち、<b> ユーザー管理者（グループユーザー） </b> が有効になっている場合、ユーザーがメンバーになっているグループのグループ管理者である必要があります。</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -84,7 +84,7 @@ Some users, such as executives, need to be able to control which administrators 
    >
    >* グループ管理者は、管理するグループのユーザーとしてのみログインできます。また、ユーザー管理（グループユーザー）権限をアクセスレベルで有効にする必要があります。
    >   
-   >  ![&#x200B; グループ管理者ユーザー &#x200B;](assets/group-admin-user.png)
+   >  ![ グループ管理者ユーザー ](assets/group-admin-user.png)
    >   
    >  この設定は、デフォルトで無効になっています。詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
    >   

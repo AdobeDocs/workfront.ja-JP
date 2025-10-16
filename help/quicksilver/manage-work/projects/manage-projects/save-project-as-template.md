@@ -2,14 +2,14 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: プロジェクトをテンプレートとして保存
-description: プロジェクトをプロジェクトレベルでテンプレートとして保存すると、UI に表示されます。このリンク先のもう 1 つの記事で詳しく説明しています（手順を説明します）。 この機能は、プロジェクトとテンプレートの両方の領域に保持する必要があります）。
+description: プロジェクトをテンプレートとして保存保存をテンプレートとして保存」をプロジェクトレベルで使用すると、UI に表示されます。このリンク先にある別の記事でも詳しく説明しています（詳しい手順を説明します）。
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 51%
+source-wordcount: '475'
+ht-degree: 53%
 
 ---
 
@@ -42,14 +42,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準 </p>
-   または 
-   <p>現在：プラン </p> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>プラン</p> 
    </td> 
   </tr> 
   <tr> 
@@ -63,9 +62,37 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard </p>
+   Or 
+   <p>Current: Plan </p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Templates</p> /td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## プロジェクトをテンプレートとして保存
 
@@ -132,7 +159,7 @@ Saving a project as a template differs in the Production and the Preview environ
 -->
 
 1. テンプレートとして保存するプロジェクトに移動します。
-1. **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックしてから、**テンプレートとして保存** をクリックします。
+1. **その他** メニュー ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックしてから、**テンプレートとして保存** をクリックします。
 1. **テンプレートとして保存** セクションで、テンプレートの次の情報を指定します。
 
    <table style="table-layout:auto"> 
@@ -167,17 +194,17 @@ Saving a project as a template differs in the Production and the Preview environ
    フォームを並べ替えるには、フォームを正しい順序でドラッグ&amp;ドロップします。
 フォームを削除するには、フォームを選択して「**削除**」をクリックします。 **キャンセル** をクリックして、選択したフォームを削除します。
 
-   ![&#x200B; 「テンプレートとして保存」ボックスのカスタムフォーム領域 &#x200B;](assets/custom-forms-ara-in-save-as-template-box.png)
+   ![ 「テンプレートとして保存」ボックスのカスタムフォーム領域 ](assets/custom-forms-ara-in-save-as-template-box.png)
 
 1. 必要に応じて、添付されたカスタムフォームの情報を更新します。 情報がテンプレートに転送されます。
 
 1. 左側のパネルで **オプション** をクリックし、テンプレートに転送する情報の横にあるチェックボックスを選択します。 選択解除された項目は、テンプレートに転送されません。 デフォルトでは、すべてのオプションの選択は解除されています。
 
-   ![&#x200B; 「テンプレートとして保存」ボックスの「オプション」領域 &#x200B;](assets/options-area-in-save-as-template-box.png)
+   ![ 「テンプレートとして保存」ボックスの「オプション」領域 ](assets/options-area-in-save-as-template-box.png)
 
 1. 左側のパネルで **除外** をクリックし、プロジェクトから除外するタスクを選択します。 デフォルトでは、すべてのタスクの選択は解除されています。
 
-   ![&#x200B; 「テンプレートとして保存」ボックスの「除外」領域 &#x200B;](assets/exclude-area-save-as-template-box.png)
+   ![ 「テンプレートとして保存」ボックスの「除外」領域 ](assets/exclude-area-save-as-template-box.png)
 
 1. 画面の右上隅にある「**終了してテンプレートを保存**」をクリックします。
 

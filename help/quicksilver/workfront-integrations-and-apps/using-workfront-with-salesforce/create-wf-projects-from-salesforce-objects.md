@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront] for Salesforce をインストールした
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1581'
-ht-degree: 94%
+source-wordcount: '1573'
+ht-degree: 93%
 
 ---
 
@@ -21,32 +21,35 @@ ht-degree: 94%
 >
 >組織のSalesforceとの統合のニーズに応じて、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
-[!DNL Adobe Workfront]for Salesforce をインストールした後、[!DNL Salesforce] [!UICONTROL &#x200B; の商談]と[!UICONTROL アカウント]で特定の基準が満たされたときに [!DNL Workfront] プロジェクトを作成するトリガーを定義できます。
+[!DNL Adobe Workfront]for Salesforce をインストールした後、[!DNL Salesforce] [!UICONTROL  の商談]と[!UICONTROL アカウント]で特定の基準が満たされたときに [!DNL Workfront] プロジェクトを作成するトリガーを定義できます。
 
 ## アクセス要件
 
-この記事で説明されている機能を使用するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>[!UICONTROL Pro] 以降</p> </td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+   <p>プラン</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -54,11 +57,11 @@ ht-degree: 94%
 環境に次のものが存在することを確認してください。
 
 * [!DNL Workfront] 管理者が [!DNL Workfront for Salesforce] を既にインストールしている。\
-   [!DNL Workfront for Salesforce] のインストールについて詳しくは、[&#x200B; [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) のインストールを参照してください。
+   [!DNL Workfront for Salesforce] のインストールについて詳しくは、[ [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) のインストールを参照してください。
 
 * [!DNL Workfront] 管理者が、[!UICONTROL 商談]ページとアカウントページのレイアウトに「[!DNL Workfront]」セクションを
 既に追加している。\
-   ページレイアウトに「[!DNL Workfront]」セクションを追加する方法について詳しくは、[&#x200B; [!DNL Salesforce] ユーザーへの「 [!DNL Adobe Workfront] 」セクションの設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
+   ページレイアウトに「[!DNL Workfront]」セクションを追加する方法について詳しくは、[ [!DNL Salesforce] ユーザーへの「 [!DNL Adobe Workfront] 」セクションの設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
 
 * [!DNL Workfront] アカウントがあり、[!UICONTROL 商談]またはアカウント内の「[!DNL Workfront]」セクションからログインできる。
 
@@ -78,7 +81,7 @@ ht-degree: 94%
 更新された。
 
 トリガーは、[!DNL Workfront for Salesforce] をインストールした後にのみ設定できます。  \
-[!DNL Workfront for Salesforce] のインストールについては、[&#x200B; [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) のインストールを参照してください。
+[!DNL Workfront for Salesforce] のインストールについては、[ [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) のインストールを参照してください。
 
 [!DNL Salesforce] の項目が作成または更新されたときに [!DNL Workfront] プロジェクトを自動的に作成するようにトリガーを設定する場合は、以下を考慮してください。
 
@@ -168,7 +171,7 @@ ht-degree: 94%
    1. 「**[!UICONTROL タイプ]**」ドロップダウンメニューから「**[!UICONTROL タイプ]**」を選択します。
 
       任意の「**アカウント
-**」が、[!DNL Salesforce] で指定された&#x200B;**&#x200B;[!UICONTROL タイプ]&#x200B;**&#x200B;として指定されている場合、**&#x200B;[!UICONTROL プロジェクト]**&#x200B;が [!DNL Workfront] に作成されます。
+**」が、[!DNL Salesforce] で指定された&#x200B;**[!UICONTROL タイプ]**&#x200B;として指定されている場合、**[!UICONTROL プロジェクト]**&#x200B;が [!DNL Workfront] に作成されます。
 
       必須フィールドです。
 
@@ -202,7 +205,7 @@ ht-degree: 94%
 [!DNL Workfront] 管理者が[!UICONTROL 機会]またはアカウント
 ページレイアウトに「[!DNL Workfront]」セクションを追加した場合、このセクションの「[!UICONTROL プロジェクト]」タブで自動的に作成されたプロジェクトを確認できます。\
 [!UICONTROL 機会]またはアカウント
-のページレイアウトへの「[!DNL Workfront]」セクションの追加について詳しくは、[&#x200B; [!DNL Salesforce]  ユーザーに「 [!DNL Adobe Workfront] 」セクションを設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
+のページレイアウトへの「[!DNL Workfront]」セクションの追加について詳しくは、[ [!DNL Salesforce]  ユーザーに「 [!DNL Adobe Workfront] 」セクションを設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
 
 「[!UICONTROL プロジェクト]」タブを表示するには、[!DNL Workfront] アカウントを持ち、[!DNL Workfront] にログインしている必要があります。
 

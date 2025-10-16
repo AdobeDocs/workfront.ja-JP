@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects;user-management
 navigation-topic: plan-a-project
-title: プロジェクト所有者とスポンサーの概要
+title: プロジェクトオーナーとスポンサーの概要
 description: プロジェクトのプロジェクト所有者およびプロジェクトスポンサーを指定できます。
 author: Alina
 feature: Work Management
 exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
-source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -63,13 +63,13 @@ ht-degree: 100%
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Update the Project Owner of a project</h2>
-<p>(NOTE:&nbsp;drafted and moved to its own article)</p>
+<p>(NOTE: drafted and moved to its own article)</p>
 <ol>
 <li value="1">Go to the project you want to update.</li>
 <li value="2"> Click <strong>Project Details</strong> in the left panel. </li>
-<li value="3"> Click&nbsp;the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;<strong>Overview</strong>.  </li>
+<li value="3"> Click the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project Details area, then click <strong>Overview</strong>.  </li>
 <li value="4"> <p>Specify the name of a user for the <strong>Project Owner</strong> field.</p> <p>Only active users can be specified as Project Owners.</p> </li>
-<li value="5"> Click&nbsp;<strong>Save Changes</strong>. </li>
+<li value="5"> Click <strong>Save Changes</strong>. </li>
 </ol>
 </div>
 -->
@@ -99,7 +99,7 @@ ht-degree: 100%
   sponsorID=$$USER.ID
   ```
 
-   
+
 
   レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事を参照してください。
 
@@ -110,9 +110,9 @@ ht-degree: 100%
 <ol>
 <li value="1">Go to the Project you want to update.</li>
 <li value="2"> Click <strong>Project Details</strong> in the left panel. </li>
-<li value="3"> Click&nbsp;the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;<strong>Overview</strong>.  </li>
+<li value="3"> Click the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project Details area, then click <strong>Overview</strong>.  </li>
 <li value="4"> <p>Specify the name of a user for the <strong>Project Sponsor</strong> field.</p> <p>Only active users can be specified as Project Sponsors.</p> </li>
-<li value="5"> Click&nbsp;<strong>Save Changes</strong>. </li>
+<li value="5"> Click <strong>Save Changes</strong>. </li>
 </ol>
 </div>
 -->
