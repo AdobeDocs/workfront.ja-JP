@@ -67,7 +67,7 @@ ht-degree: 72%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++  
 
@@ -149,14 +149,14 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 任意のビューで、レコードの名前をクリックします。
 
    レコードのページが開きます。コメントエリアがデフォルトで右パネルに開きます。
-1. **履歴を表示** アイコン ![ 履歴を表示アイコン ](assets/show-history-icon.png) をクリックします。 レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。
-1. （オプション） **履歴を非表示** アイコン ![ 履歴を非表示アイコン ](assets/hide-history-icon.png) をクリックして、右側のパネルを閉じます。
+1. **履歴を表示** アイコン ![&#x200B; 履歴を表示アイコン &#x200B;](assets/show-history-icon.png) をクリックします。 レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。
+1. （オプション） **履歴を非表示** アイコン ![&#x200B; 履歴を非表示アイコン &#x200B;](assets/hide-history-icon.png) をクリックして、右側のパネルを閉じます。
 
 ## 履歴セクションに関する考慮事項
 
 レコードのフィールドに加えた変更は、レコードのページの右パネルにある「履歴」セクションで確認できます。
 
-![ コメントの履歴領域 ](assets/history-area-in-comments.png)
+![&#x200B; コメントの履歴領域 &#x200B;](assets/history-area-in-comments.png)
 
 * Workfront Planning は、次の情報を「履歴」セクションに記録します。
 

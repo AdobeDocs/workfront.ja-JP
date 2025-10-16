@@ -61,7 +61,7 @@ Workfront アカウントを持っていない他のユーザーとのより効�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++  
 
@@ -152,11 +152,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    レコードのプレビューボックスが開きます。
 
-1. （オプション） **新しいタブで開く** アイコン ![ 詳細を新しいタブアイコンで開く ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを開きます。
+1. （オプション） **新しいタブで開く** アイコン ![&#x200B; 詳細を新しいタブアイコンで開く &#x200B;](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを開きます。
 
 1. 「**詳細**」タブを選択します。 「詳細」タブは、デフォルトで開きます。
 
-1. プレビューまたはレコードのページで、**書き出し** メニュー ![ レコードの詳細ページの書き出しアイコン ](assets/export-icon-in-record-details-page.png) をクリックし、次のいずれかをクリックします。
+1. プレビューまたはレコードのページで、**書き出し** メニュー ![&#x200B; レコードの詳細ページの書き出しアイコン &#x200B;](assets/export-icon-in-record-details-page.png) をクリックし、次のいずれかをクリックします。
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -165,7 +165,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    書き出されるファイルの名前は、レコードのプライマリフィールドです。
 
-   ![ 書き出された word ファイル ](assets/exported-word-file.png)
+   ![&#x200B; 書き出された word ファイル &#x200B;](assets/exported-word-file.png)
 
    >[!NOTE]
    >

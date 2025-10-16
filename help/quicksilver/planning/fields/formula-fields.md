@@ -27,7 +27,7 @@ ht-degree: 29%
 
 数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
-詳しくは、「フィールドの作成 [ の「式」の節を参照してくだ ](/help/quicksilver/planning/fields/create-fields.md) い。
+詳しくは、「フィールドの作成 [&#x200B; の「式」の節を参照してくだ &#x200B;](/help/quicksilver/planning/fields/create-fields.md) い。
 
 <!--do we need these for an overview article?
 
@@ -147,7 +147,7 @@ For more information about Workfront access requirements, see [Access requiremen
    * タグ
    * 日付
 
-  詳しくは、「フィールドの作成 [ の「式」の節を参照してくだ ](/help/quicksilver/planning/fields/create-fields.md) い。
+  詳しくは、「フィールドの作成 [&#x200B; の「式」の節を参照してくだ &#x200B;](/help/quicksilver/planning/fields/create-fields.md) い。
 * 新しい数式で数式フィールドを参照できます。 式フィールドで参照されているフィールドの値が更新されると、そのフィールドまたはそのフィールドを含む式フィールドを参照している後続のすべてのフィールドは、自動的に更新されます。
 
 * 影響を与える可能性のある式フィールドまたはフィールドを更新すると、変更の影響を知らせるアラートが表示されます。 アラートは、次の場合に表示されます。
@@ -190,7 +190,7 @@ Adobe Workfront Planning の数式フィールドは、Workfrontの計算フィ�
 
 <!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
-Workfront式の完全なリストについては、[ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
+Workfront式の完全なリストについては、[&#x200B; 計算データ式の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
 
 また、Workfront Planning の数式フィールドでは、以下の式をサポートしています。 次の式は、Workfrontの式ではサポートされていません。
 

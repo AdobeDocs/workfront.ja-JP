@@ -27,7 +27,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
 
-ワークスペースの一般的な情報については、[ ワークスペースの概要 ](/help/quicksilver/planning/architecture/workspaces-overview.md) を参照してください。
+ワークスペースの一般的な情報については、[&#x200B; ワークスペースの概要 &#x200B;](/help/quicksilver/planning/architecture/workspaces-overview.md) を参照してください。
 
 ## アクセス要件
 
@@ -61,7 +61,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -124,7 +124,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## ワークスペースの作成
 
-ワークスペースを作成し、それにレコードタイプを追加して、Workfront Planning でオブジェクトを整理できます。 ワークスペースの編集について詳しくは、[ ワークスペースの編集 ](/help/quicksilver/planning/architecture/edit-workspaces.md) を参照してください。
+ワークスペースを作成し、それにレコードタイプを追加して、Workfront Planning でオブジェクトを整理できます。 ワークスペースの編集について詳しくは、[&#x200B; ワークスペースの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md) を参照してください。
 
 {{step1-to-planning}}
 
@@ -144,7 +144,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    運用中のレコードタイプ、分類および各テンプレートに関連付けられているフィールドの数が示されます。
 
-   ![ ワークスペーステンプレートのプレビュー ](assets/previewing-a-workspace-template.png)
+   ![&#x200B; ワークスペーステンプレートのプレビュー &#x200B;](assets/previewing-a-workspace-template.png)
 
    Workfront Planning ワークスペーステンプレートについて詳しくは、[ワークスペーステンプレートのリスト](/help/quicksilver/planning/architecture/workspace-templates.md)を参照してください。
 
@@ -169,19 +169,19 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    または
 
-   セクションの名前にポインタを合わせ、**その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、**名前を変更** をクリックしてセクションの名前を変更します。
+   セクションの名前にポインタを合わせ、**その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**名前を変更** をクリックしてセクションの名前を変更します。
 
    >[!TIP]
    >
    >セクションを作成していない場合でも、任意のワークスペースから任意のセクションの名前を変更できます。
 
-   「ワークスペース」セクションの編集を含む、ワークスペースの編集の詳細については、「[ ワークスペースの編集 ](/help/quicksilver/planning/architecture/edit-workspaces.md)」を参照してください。
+   「ワークスペース」セクションの編集を含む、ワークスペースの編集の詳細については、「[&#x200B; ワークスペースの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md)」を参照してください。
 
 1. （オプション）「**レコードタイプを追加**」をクリックして、任意のセクションのワークスペースにレコードタイプを追加します。
 
    詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-   ワークスペース内のレコードの種類の編集および削除の詳細については、「[ ワークスペースの編集 ](/help/quicksilver/planning/architecture/edit-workspaces.md)」を参照してください。
+   ワークスペース内のレコードの種類の編集および削除の詳細については、「[&#x200B; ワークスペースの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md)」を参照してください。
 
 1. （オプション）新しいワークスペースの左側にある戻る矢印をクリックして、Planning のメイン・ページを開きます。 「現在のワークスペース **タブに、新しいワークスペース用の新しいワークスペースカードが作成され** す。
 
@@ -191,6 +191,6 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >現在、Adobe Identity Management System （IMS）に移行中のユーザーの場合、IMS ユーザーではないWorkfront専用ユーザーが作成したワークスペースは、**System** によって作成されたものとして表示されます。
    >
-   >IMS について詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+   >IMS について詳しくは、[WorkfrontのAdobe統合エクスペリエンス &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
 
