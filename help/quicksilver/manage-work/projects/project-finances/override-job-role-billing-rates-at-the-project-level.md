@@ -6,22 +6,22 @@ description: プロジェクトマネージャーは、特定のプロジェク�
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: 1992e1c07e5e530a2e627ef5d2059b2384b31000
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 88%
+source-wordcount: '826'
+ht-degree: 86%
 
 ---
 
 # プロジェクトレベルでの担当業務請求レートの上書き
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。これはプレビューサンドボックス環境でのみ使用でき、実稼動環境への段階的なロールアウトでリリースされています。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 プロジェクトマネージャーは、特定のプロジェクトの担当業務に対する請求レートを指定できます。このプロジェクトレベルの請求レートは、この担当業務のシステムレベルの請求レートを上書きします。Workfront は、担当業務のプロジェクトレベルの請求レート使用して、システムレベルの請求レートを使用する代わりに、収益を計算します。
 
 この記事では、プロジェクトのシステム担当業務の請求料金を上書きする方法について説明します。
 
-プロジェクトの担当業務の請求料金の上書きおよびプロジェクトの収益の計算に関する一般的な情報については、[担当業務の請求料金の上書きとプロジェクトでの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+プロジェクトの担当業務請求率の上書きおよびプロジェクト収益の計算に関する一般情報については、[ プロジェクトの担当業務請求率の上書きおよび収益の計算の概要 ](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md) を参照してください。
 
 プロジェクトの収益の計算に使用される担当業務について詳しくは、[請求と収益の概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)の記事の「ユーザーおよび役割の割り当てに基づくタスクの収益計算について」の節を参照してください。
 
@@ -102,13 +102,13 @@ ht-degree: 88%
    * **開始日**：これはデフォルトの料金が終了する日付です。
    * **終了日**：新規請求料金の上書きが終了する日付です。
 
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
-   ![&#x200B; 請求料率と上書き日 &#x200B;](assets/billing-rates-093025.png)
+   <!--<span class="preview">Sample image in the Preview environment:</span>-->
+   ![ 請求料率と上書き日 ](assets/billing-rates-093025.png)
 
-   本番環境のサンプル画像：
-   ![&#x200B; 請求料率と上書き日 &#x200B;](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <!--Sample image in the Production environment:
+   ![Billing rates with override dates](assets/new-billing-rate-with-adjustment-dates-350x266.png)-->
 
-1. 選択した日付のタイムゾーンが「新規請求料金」ボックスの下部に表示されます。設定の顧客情報エリアに表示されるように、Workfront インスタンスに関連付けられたタイムゾーンです。詳しくは、[システムの基本情報を設定](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
+1. 選択した日付のタイムゾーンが「新規請求料金」ボックスの下部に表示されます。これは、設定の顧客情報エリアに示すように、Workfront インスタンスに関連付けられたタイムゾーンです。 詳しくは、[システムの基本情報を設定](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
 1. Workfront は、プロジェクトの収益を計算するときに、指定された期間に発生する時間に上書きの担当業務料金を適用します。
 1. 2 つの上書き料金の期間の間にギャップが生じないようにする必要があります。上書き料金の&#x200B;**開始日**&#x200B;は、前の上書き日の&#x200B;**終了日**&#x200B;の直後の日である必要があります。
 
