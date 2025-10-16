@@ -77,9 +77,9 @@ ht-degree: 90%
 
    ドキュメントの追加について詳しくは、[ファイルシステムから Adobe Workfront にドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)を参照してください。
 
-1. **チェックアウト** アイコン ![ チェックアウトアイコン ](assets/check-out-25x23.png) をクリックします。
+1. **チェックアウト** アイコン ![&#x200B; チェックアウトアイコン &#x200B;](assets/check-out-25x23.png) をクリックします。
 
-1. ドキュメント名の右側に鍵アイコン ![ 鍵アイコン ](assets/lock-icon-locked-qs.png) が表示されます。 Workfront からログアウトした後でも、ドキュメントはチェックアウトされたままになります。
+1. ドキュメント名の右側に鍵アイコン ![&#x200B; 鍵アイコン &#x200B;](assets/lock-icon-locked-qs.png) が表示されます。 Workfront からログアウトした後でも、ドキュメントはチェックアウトされたままになります。
 1. ドキュメントをチェックアウトしたユーザーか、Workfront 管理者のみが、ドキュメントをチェックインできます。
 
 ## チェックアウトしたドキュメントを管理
@@ -103,6 +103,6 @@ ht-degree: 90%
 
 1. ドキュメントが保存されているエリアに移動し、ドキュメントを選択します。 
 
-   ドキュメント名の右側に鍵アイコン ![ 鍵アイコン ](assets/lock-icon-locked-qs.png) が表示されます。
+   ドキュメント名の右側に鍵アイコン ![&#x200B; 鍵アイコン &#x200B;](assets/lock-icon-locked-qs.png) が表示されます。
 
-1. **チェックイン** アイコン ![ チェックインアイコン ](assets/check-in-25x22.png) をクリックします。
+1. **チェックイン** アイコン ![&#x200B; チェックインアイコン &#x200B;](assets/check-in-25x22.png) をクリックします。

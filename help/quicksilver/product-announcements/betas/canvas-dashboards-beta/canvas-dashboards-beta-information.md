@@ -18,9 +18,9 @@ ht-degree: 20%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 以下の [ フィードバックの提供 ](#provide-feedback) 節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
->>このベータ版は、次のクラウドプロバイダーでは利用できません。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 以下の [&#x200B; フィードバックの提供 &#x200B;](#provide-feedback) 節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>&#x200B;>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
+>&#x200B;>このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
 >* Azure
@@ -28,7 +28,7 @@ ht-degree: 20%
 
 キャンバスダッシュボードは、現在の開発中の機能で、様々なレポートタイプをキャンバスに追加することでAdobe Workfront データを簡単に視覚化でき、サイズ変更、ドラッグ&amp;ドロップなど、多くの柔軟なレイアウトオプションを提供します。
 
-詳しくは、[ キャンバスダッシュボードの概要 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードの概要 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
 
 ## アクセス要件
 
@@ -81,7 +81,7 @@ ht-degree: 20%
    >[!NOTE]
    >
    >ベータ版の用語が承認されると、Workfront環境のすべてのユーザーに対してキャンバスダッシュボード機能が有効になります。 ダッシュボードへの表示および管理アクセス権を持つユーザーは、アクセスレベルに従ってキャンバスダッシュボードを表示および編集できます。<br>
-   >キャンバスダッシュボードのランディングページの表示は、ユーザーに割り当てられたレイアウトテンプレートを介して制御されます。 詳しくは、[ レイアウトテンプレートの作成と管理 ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
+   >キャンバスダッシュボードのランディングページの表示は、ユーザーに割り当てられたレイアウトテンプレートを介して制御されます。 詳しくは、[&#x200B; レイアウトテンプレートの作成と管理 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
 
 
 ## フィードバックの提供

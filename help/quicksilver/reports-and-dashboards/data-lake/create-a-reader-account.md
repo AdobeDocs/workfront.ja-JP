@@ -20,7 +20,7 @@ Data Connect データにアクセスするには、まず組織のSnowflake リ
 
 接続を作成したら、「既存の接続」タブのデータ接続ページ（メインメニュー/設定/システム/データ接続）で接続をクリックすると、関連する URL とユーザー名が表示されます。
 
-新しく作成した外部データとの接続の使用について詳しくは、[Workfront Data Connect への接続の確立 ](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md) を参照してください。
+新しく作成した外部データとの接続の使用について詳しくは、[Workfront Data Connect への接続の確立 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md) を参照してください。
 
 ## アクセス要件
 
@@ -63,7 +63,7 @@ Data Connect データにアクセスするには、まず組織のSnowflake リ
 
 リーダーアカウントを作成するには：
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
 
 1. 左側のパネルで、**システム**/**データ接続** をクリックします。
 
@@ -71,11 +71,11 @@ Data Connect データにアクセスするには、まず組織のSnowflake リ
 
 1. 完了すると、リーダーアカウントがアクティブになったことを説明するダイアログウィンドウが表示されます。 ブラウザーページを更新して、「**新しい接続を作成**」ボタンにアクセスできるようにします。
 
-![Reader アカウントが作成されましたダイアログ ](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+![Reader アカウントが作成されましたダイアログ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
 
 ## 接続の作成
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
 
 1. 左側のパネルで、**システム**/**データ接続** をクリックします。
 
@@ -83,26 +83,26 @@ Data Connect データにアクセスするには、まず組織のSnowflake リ
 
 1. 表示されたウィンドウで、「**接続参照の説明**」に接続の名前を、「**接続ユーザー**」にユーザー名を入力し、「**接続を生成**」をクリックします。
 
-   ![ 新しい接続の作成 ](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
+   ![&#x200B; 新しい接続の作成 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
 1. **デフォルトのパスワード** と、Snowflakeでデータを表示できる URL が生成されます。 Snowflakeへの初めてのログインで選択したユーザー名とパスワードを使用する必要があるので、URL と同様にパスワードも記録しておいてください。 完了したことを示すボックスをオンにし、「**閉じる**」をクリックします。
 
-   ![ デフォルトのアカウントパスワード ](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
+   ![&#x200B; デフォルトのアカウントパスワード &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
 1. ブラウザーを使用してSnowflakeを開き、前の手順の URL に移動して、選択したユーザー名と前の手順のデフォルトのパスワードを入力し、「**ログイン**」をクリックします。
 
 1. 初めてログインに成功すると、新しいパスワードを選択するように求められます。 「**新しいパスワード**」フィールドと「**パスワードを確認**」フィールドの両方に目的のパスワードを入力し、「**送信**」をクリックします。
 
-   ![Snowflakeのパスワードをリセット ](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
+   ![Snowflakeのパスワードをリセット &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
 1. これで、ユーザー名と新しいパスワードを使用して、Snowflakeの Data Connect Data Lake または選択したビジネスビジュアライゼーションツールにアクセスできるようになりました。
 
 ## リーダーアカウントの取り消し
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
 
 1. 左側のパネルで、**システム**/**データアクセス** をクリックします。
 
-1. 取り消すアカウントの右側にあるごみ箱アイコン ![ 削除アイコン ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) をクリックします。
+1. 取り消すアカウントの右側にあるごみ箱アイコン ![&#x200B; 削除アイコン &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) をクリックします。
 
 1. 表示されるウィンドウで、チェックボックスをオンにして「**削除**」をクリックします。

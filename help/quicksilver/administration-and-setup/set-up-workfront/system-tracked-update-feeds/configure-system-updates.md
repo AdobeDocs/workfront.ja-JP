@@ -71,7 +71,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -115,7 +115,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 >[!NOTE]
 >
->更新フィードでは、最大 300 個のビルトインのフィールドとカスタムフィールドを追跡できます。最大数のフィールドを追跡していて、「[!UICONTROL  すべてのフィールド ]」サブタブに表示されていない追加フィールドを追跡する場合、新しいフィールドを追跡するには、最初に追跡対象のフィールドのいくつかを削除する必要があります。 更新フィールドからフィールドを削除する方法について詳しくは、[ 追跡しないフィールドの削除 ](#remove-fields-you-don-t-want-tracked) を参照してください。
+>更新フィードでは、最大 300 個のビルトインのフィールドとカスタムフィールドを追跡できます。最大数のフィールドを追跡していて、「[!UICONTROL &#x200B; すべてのフィールド &#x200B;]」サブタブに表示されていない追加フィールドを追跡する場合、新しいフィールドを追跡するには、最初に追跡対象のフィールドのいくつかを削除する必要があります。 更新フィールドからフィールドを削除する方法について詳しくは、[&#x200B; 追跡しないフィールドの削除 &#x200B;](#remove-fields-you-don-t-want-tracked) を参照してください。
 
 {{step-1-to-setup}}
 
@@ -160,7 +160,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. **[!UICONTROL トラッキングフィールド]** タブで「**[!UICONTROL すべてのフィールド]** サブタブを選択します。 現在追跡中のビルトインフィールドとカスタムフィールドの両方が表示されます。
 
-1. トラッキングを停止するフィールドを選択し、**[!UICONTROL 削除]** アイコン ![ 削除アイコン ](assets/remove-icon.png) をクリックします。
+1. トラッキングを停止するフィールドを選択し、**[!UICONTROL 削除]** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/remove-icon.png) をクリックします。
 
 1. 表示される「**[!UICONTROL フィールドを削除]**」ボックスで、「**[!UICONTROL はい、削除します]**」をクリックして確定します。
 
@@ -252,4 +252,4 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. アクションのチェックボックスを選択して有効にするか、選択解除して無効にします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   アクションを無効にすると、そのアクションに関して以前に記録された更新は、記録された [!UICONTROL  更新 ] 領域に保持されます。 無効 [!DNL Workfront] したアクションの新しい更新の記録を停止します。
+   アクションを無効にすると、そのアクションに関して以前に記録された更新は、記録された [!UICONTROL &#x200B; 更新 &#x200B;] 領域に保持されます。 無効 [!DNL Workfront] したアクションの新しい更新の記録を停止します。

@@ -48,7 +48,7 @@ ht-degree: 68%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL 編集 ] ポートフォリオへのアクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
+   <td> <p>[!UICONTROL 編集 &#x200B;] ポートフォリオへのアクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -57,7 +57,7 @@ ht-degree: 68%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -92,13 +92,13 @@ ht-degree: 68%
 
 1. ポートフォリオに移動し、左側のパネルで「**[!UICONTROL プロジェクト]**」をクリックします。
 
-   ![ プロジェクトのPortfolio](assets/qs-portfolio-with-projects-350x90.png)
+   ![&#x200B; プロジェクトのPortfolio](assets/qs-portfolio-with-projects-350x90.png)
 
 1. 「**[!UICONTROL 新規プロジェクト]**」をクリックして、プロジェクトを追加する方法を選択します。
 
    >[!TIP]
    >
-   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
+   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -129,11 +129,11 @@ ht-degree: 68%
     </tbody> 
    </table>
 
-   ![ 新規プロジェクトドロップダウン ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![&#x200B; 新規プロジェクトドロップダウン &#x200B;](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. （条件付き）既存のプロジェクトを追加することを選択した場合は、「**プロジェクトの追加** ボックスが開きます。<!--check this after UI changes-->
 
-   ![ 既存のプロジェクトを追加 ](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
+   ![&#x200B; 既存のプロジェクトを追加 &#x200B;](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
 1. 「**[!UICONTROL このPortfolioにプロジェクトを追加]**」フィールドにプロジェクトの名前を入力し始め、リストに表示されたらクリックします。 <!--check this after UI changes-->
 

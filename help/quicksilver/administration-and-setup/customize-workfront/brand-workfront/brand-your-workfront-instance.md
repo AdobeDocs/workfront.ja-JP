@@ -31,19 +31,19 @@ Workfront の管理者は、次の場所でロゴを使用して Workfront の�
 
 * ログイン画面
 
-  ![ ログイン画面でのブランド ](assets/brand-login-screen-nwe-adobe.jpg)
+  ![&#x200B; ログイン画面でのブランド &#x200B;](assets/brand-login-screen-nwe-adobe.jpg)
 
 * ナビゲーションエリア上部
 
-  ![ トップナビゲーションのブランド ](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![&#x200B; トップナビゲーションのブランド &#x200B;](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * メインメニュー
 
-  ![ メインメニューのブランド ](assets/brand-main-menu-adobe.jpg)
+  ![&#x200B; メインメニューのブランド &#x200B;](assets/brand-main-menu-adobe.jpg)
 
 また、ログイン画面の背景画像やカラーを変更することもできます。
 
-![ ログイン画面のバナー ](assets/wf_banner_on_login_screen-adobe.png)
+![&#x200B; ログイン画面のバナー &#x200B;](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >

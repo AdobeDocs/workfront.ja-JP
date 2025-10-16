@@ -65,7 +65,7 @@ ht-degree: 87%
  </tbody> 
 </table>
 
-詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++ 
 
@@ -181,11 +181,11 @@ Or
 
    他の目標に整合させた目標は、その数が目標カードの下に表示されます。
 
-   ![ 整列グラフの矢印 ](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![&#x200B; 整列グラフの矢印 &#x200B;](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. 目標の下の&#x200B;**下向き矢印**&#x200B;アイコンをクリックして、子目標をさらに展開し表示します。
 
-   ![ 整列グラフの矢印 ](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![&#x200B; 整列グラフの矢印 &#x200B;](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -193,7 +193,7 @@ Or
 
 1. （条件付き）現在のフィルターでアラインメントに関与する一部の目標が除外されている場合は、すべての目標が表示されるというわけではないことを示す警告メッセージが表示されます。
 
-   ![ 親目標が除外されました ](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![&#x200B; 親目標が除外されました &#x200B;](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. 「**表示**」をクリックして、現在フィルターによって削除されている目標を表示します。
 
@@ -202,14 +202,14 @@ Or
    * 以前フィルターで削除された連結目標が、アラインメントチャートに表示されるようになりました。
    * 右上隅のフィルターは黄色で囲まれていますが、これは現在適用されていないことを示しています。
 
-     ![ 黄色のフィルタ ハイライト ](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![&#x200B; 黄色のフィルタ ハイライト &#x200B;](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      フィルター名の左側に、フィルターを再適用リンクが表示されます。
 
 1. （オプション）「**フィルターを再適用**」をクリックして元の結果に戻り、目標の階層を表示します。
 1. （オプション）進行状況のインジケーターの上にポインタを合わせて、現在の 1 日の目標の進行状況を把握します。
 
-   ![ 整列グラフにマウスポインターを合わせる ](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![&#x200B; 整列グラフにマウスポインターを合わせる &#x200B;](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    次の情報が表示されます。
 

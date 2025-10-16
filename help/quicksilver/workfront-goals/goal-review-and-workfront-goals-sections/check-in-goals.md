@@ -291,7 +291,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 目標の進行状況を更新する手順は、次のとおりです。
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)/**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)/**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -316,7 +316,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 1. 結果またはアクティビティの進行状況を更新するには、結果またはアクティビティの&#x200B;**実際の進行状況**&#x200B;列の数値をクリックして、値を入力して更新し、Enter キーを押します。
 
-   ![ 実際の進捗状況 ](assets/actual-progress-result-updating-highlighted-unshimmed.png)
+   ![&#x200B; 実際の進捗状況 &#x200B;](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
    「進行状況」列の進行状況インジケーターの進行状況バーと、目標ヘッダーの目標の進行状況は直ちに更新されます。
 

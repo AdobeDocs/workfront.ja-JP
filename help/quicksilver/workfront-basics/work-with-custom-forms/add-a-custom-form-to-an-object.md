@@ -102,7 +102,7 @@ ht-degree: 93%
 
 ## 前提条件
 
-カスタムフォームをオブジェクトに追加するには、Workfront 管理者または Plan ライセンスと、カスタムフォームへの管理アクセス権を持つユーザーが環境内にカスタムフォームを作成する必要があります。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+カスタムフォームをオブジェクトに追加するには、Workfront 管理者または Plan ライセンスと、カスタムフォームへの管理アクセス権を持つユーザーが環境内にカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## カスタムフォームのオブジェクトへの追加
 

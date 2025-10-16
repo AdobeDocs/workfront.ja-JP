@@ -57,11 +57,11 @@ ht-degree: 81%
 
 オブジェクトに対する権限について詳しくは、[オブジェクトに対する共有権限の概要](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ### カスタムフォームのセクションにアクセス権を作成および設定する
 
-1. [ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集とフィールドの追加を開始します。
+1. [&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集とフィールドの追加を開始します。
 
 1. **セクション区切り** をクリックして、キャンバス上の目的の位置にドラッグします。
 
@@ -143,7 +143,7 @@ ht-degree: 81%
 ## カスタムフォーム内にカスタムフィールドおよびウィジェットを配置する
 
 
-1. [ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集を開始します。
+1. [&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集を開始します。
 
 1. カスタムフィールドとウィジェットを同じ行に配置するには、その間に行が表示されるまで、隣り合わせにドラッグします。
 
@@ -156,7 +156,7 @@ ht-degree: 81%
 
 1. カスタムフィールドをフォーム上の別のセクションに移動するには、カスタムフィールドをドラッグ&amp;ドロップするか、フィールドの **移動先** アイコンをクリックして、移動先のセクションを選択します。
 
-   ![ フィールドをセクションに移動 ](assets/move-field-to-section.png)
+   ![&#x200B; フィールドをセクションに移動 &#x200B;](assets/move-field-to-section.png)
 
 1. 変更を保存するには、「**適用**」をクリックします
 
@@ -166,7 +166,7 @@ ht-degree: 81%
 
 ## カスタムフォームのプレビュー
 
-1. [ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集とフィールドの追加を開始します。
+1. [&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集とフィールドの追加を開始します。
 
 1. 左上隅にある「**プレビュー**」をクリックして、フォームが使用されたときにどのように表示されるかを確認するには、「**プレビューを閉じる**」をクリックして、フォームの編集に戻ります。
 

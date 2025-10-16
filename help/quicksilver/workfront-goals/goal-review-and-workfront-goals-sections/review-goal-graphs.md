@@ -157,7 +157,7 @@ ht-degree: 88%
 
 ## グラフでの目標の進捗の確認
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)/**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)/**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -166,7 +166,7 @@ ht-degree: 88%
 
 1. 左側のパネルで「**グラフ**」をクリックします。
 
-   ![ 左パネルのグラフ ](assets/graphs-in-left-panel.png)
+   ![&#x200B; 左パネルのグラフ &#x200B;](assets/graphs-in-left-panel.png)
 
    「グラフ」セクションが表示されます。
 
@@ -185,7 +185,7 @@ ht-degree: 88%
 
 1. 以下の表の情報を確認し、目標のヘルスチャートを確認してください。
 
-   ![ ゲージグラフ ](assets/gauge-graph-wf-align-350x230.png)
+   ![&#x200B; ゲージグラフ &#x200B;](assets/gauge-graph-wf-align-350x230.png)
 
    | 目標の合計数 | チャートの下部にある数は、選択した期間内のすべての目標の数を、選択したすべてのステータスで示します。 |
    |---|---|
@@ -195,7 +195,7 @@ ht-degree: 88%
 
 1. 目標進捗チャートを確認する際に、以下の表の情報を確認してください。
 
-   ![ 折れ線グラフ ](assets/line-graph-wf-align-350x161.png)
+   ![&#x200B; 折れ線グラフ &#x200B;](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

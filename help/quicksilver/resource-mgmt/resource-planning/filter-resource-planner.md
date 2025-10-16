@@ -121,11 +121,11 @@ ht-degree: 96%
 
 デフォルトでは、リソースプランナーに初めてアクセスすると、<strong>デフォルトのフィルター</strong>が適用されます。<br>デフォルトのフィルターについて詳しくは、記事内の<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">リソースプランナーのデフォルトフィルターの概要</a>の節を参照してください。
 
-1. の左上隅で、**フィルター**アイコンをクリックします。
+1. の左上隅で、**フィルター**&#x200B;アイコンをクリックします。
    ![filter_icon.png](assets/filter-icon.png)
 または
 **フィルター** ドロップダウンメニューを展開して、「**新しいフィルターを追加**」をクリックします。
-   ![ フィルタードロップダウン ](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
+   ![&#x200B; フィルタードロップダウン &#x200B;](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. ビルトインの条件を使用してフィルターを作成するには、次のいずれかのフィールドを指定します。
 
@@ -142,7 +142,7 @@ ht-degree: 96%
 
    >[!IMPORTANT]
    >
-   >カスタムフィールドを参照する場合は、フィールドラベルではなくフィールド名を入力する必要があります。フィールドラベルは、オブジェクトに添付されたカスタムフォームに表示されます。ラベルとカスタムフィールドの名前の違いについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   >カスタムフィールドを参照する場合は、フィールドラベルではなくフィールド名を入力する必要があります。フィールドラベルは、オブジェクトに添付されたカスタムフォームに表示されます。ラベルとカスタムフィールドの名前の違いについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. フィールドの名前をクリックして、リストに表示される場合はフィルターに追加します。\
    リストに表示されるフィールドについて詳しくは、[Adobe Workfront の用語集](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
@@ -210,7 +210,7 @@ ht-degree: 96%
 1. **フィルター**&#x200B;ドロップダウンメニューを展開します。名前を変更するフィルターを見つけ、その名前の上にポインタを合わせます。
 1. フィルター名の横にある「**フィルター名を変更**」アイコンを選択します。
 
-   ![ フィルターオプションを編集 ](assets/rp-filter-options-edit-350x154.png)
+   ![&#x200B; フィルターオプションを編集 &#x200B;](assets/rp-filter-options-edit-350x154.png)
 
 1. 「**フィルター名**」ボックスで、フィルターの新しい名前を指定します。
 1. 「**保存**」をクリックします。\
@@ -249,7 +249,7 @@ ht-degree: 96%
 1. 複製する保存済みフィルターの名前の上にポインタを合わせます。
 1. **複製**&#x200B;アイコンをクリックします。
 
-   ![ フィルターを複製 ](assets/rp-filter-options---duplicate-350x154.png)\
+   ![&#x200B; フィルターを複製 &#x200B;](assets/rp-filter-options---duplicate-350x154.png)\
    「フィルターを複製」ボックスが表示されます。
 
 1. 「**フィルター名**」フィールドで、複製したフィルターの新しい名前を指定します。\
@@ -305,7 +305,7 @@ ht-degree: 96%
 
 1. （オプション）フィルターをリソースプランナーのすべてのユーザーが使用できるようにするには、**設定**&#x200B;アイコンをクリックし、「**Workfront 内のすべてのユーザーが確認できるようシステム全体で表示する**」を選択します。
 
-   ![ システム全体で表示する ](assets/make-this-visible-system-wide-350x119.png)
+   ![&#x200B; システム全体で表示する &#x200B;](assets/make-this-visible-system-wide-350x119.png)
 
 1. 「**リソースプランナーフィルターへのアクセス権を次に付与**」ボックスに、フィルターを共有するユーザー、チーム、役割、グループまたは会社の名前を入力していきます。
 1. 次の権限レベルから選択します。

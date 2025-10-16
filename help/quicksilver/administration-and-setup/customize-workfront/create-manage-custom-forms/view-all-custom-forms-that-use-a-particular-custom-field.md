@@ -19,7 +19,7 @@ ht-degree: 84%
 
 変更または削除するカスタムフィールドまたはウィジェットを使用しているカスタムフォームを確認できます。これらのカスタムフォームが正常に動作し続けるために調整が必要かどうか、またはフィールドやウィジェットを変更または削除した後も有用であり続けるために必要かどうかを評価することが重要です。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## アクセス要件
 

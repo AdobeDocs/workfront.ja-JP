@@ -16,7 +16,7 @@ ht-degree: 9%
 
 # [!DNL Workfront Data Connect] 使用状況指標の表示
 
-「[!DNL Workfront Data Connect][!UICONTROL  指標 ]」タブを使用すると、使用された計算時間と実行されたクエリ数の両方に従って、組織の使用状況指標を表示できます。 組織では、ライセンスタイプと Data Connect アドオンの購入に基づいて、利用可能な月間計算時間が制限されています。 「[!UICONTROL  指標 ]」タブには、使用状況に関連した利用可能な月別の計算時間数に関する情報が表示されます。
+「[!DNL Workfront Data Connect][!UICONTROL &#x200B; 指標 &#x200B;]」タブを使用すると、使用された計算時間と実行されたクエリ数の両方に従って、組織の使用状況指標を表示できます。 組織では、ライセンスタイプと Data Connect アドオンの購入に基づいて、利用可能な月間計算時間が制限されています。 「[!UICONTROL &#x200B; 指標 &#x200B;]」タブには、使用状況に関連した利用可能な月別の計算時間数に関する情報が表示されます。
 
 ## アクセス要件
 
@@ -51,13 +51,13 @@ ht-degree: 9%
 
 ## 使用指標と利用可能な計算時間を表示する
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、[!UICONTROL **設定**] をクリックします。
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、[!UICONTROL **設定**] をクリックします。
 
 1. 左側のパネルで、[!UICONTROL **システム**]/[!UICONTROL **データアクセス**] をクリックします。
 
 1. 「[!UICONTROL **指標**]」タブをクリックします。 使用状況の指標は **使用状況を計算** グラフに表示され、実行されたクエリの数は **クエリ数** グラフに表示されます。
 
-   ![ データ接続の使用状況指標 ](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-usage-metrics.png)
+   ![&#x200B; データ接続の使用状況指標 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-usage-metrics.png)
 
 1. （オプション） [!UICONTROL **表示を選択**] ドロップダウンメニューを使用して、両方のグラフに含まれる情報の時間範囲を変更できます。
 

@@ -20,7 +20,7 @@ ht-degree: 93%
 >
 >このページで説明する手順は、Admin Console にまだ登録されていない組織にのみ適用されます。組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でこのアクションを実行してください。
 >
->Adobe Admin Consoleで完全な管理者アクセス権を付与する手順については、[Adobe Admin Consoleでのユーザーの管理 ](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+>Adobe Admin Consoleで完全な管理者アクセス権を付与する手順については、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 >
 >組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 

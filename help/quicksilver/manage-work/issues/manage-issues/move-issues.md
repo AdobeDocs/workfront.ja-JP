@@ -61,7 +61,7 @@ ht-degree: 84%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -120,9 +120,9 @@ ht-degree: 84%
 1. プロジェクトに移動した場合は、左側のパネルで「**イシュー**」をクリックします。
 1. 移動する 1 つまたは複数のイシューを選択し、イシューリストの上部にある&#x200B;**「その他」メニュー**&#x200B;をクリックし、「**指定の場所に移動**」をクリックします。
 
-   ![ コピーしてリンクに移動 ](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![&#x200B; コピーしてリンクに移動 &#x200B;](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
-1. [ 単一の問題の移動 ](#move-a-single-issue) の節で説明しているように、手順 2 から問題の移動を続行します。
+1. [&#x200B; 単一の問題の移動 &#x200B;](#move-a-single-issue) の節で説明しているように、手順 2 から問題の移動を続行します。
 
 ## 単一のイシューを移動 {#move-a-single-issue}
 
@@ -130,13 +130,13 @@ ht-degree: 84%
 
 ### 単一のイシューを移動
 
-1. 移動するイシューに移動し、イシュー名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-icon.png) をクリックして、「**移動先**」をクリックします。
+1. 移動するイシューに移動し、イシュー名の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-icon.png) をクリックして、「**移動先**」をクリックします。
 
-   ![ 問題レベルで移動 ](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![&#x200B; 問題レベルで移動 &#x200B;](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    **イシューを移動**&#x200B;ボックスが表示されます。
 
-   ![ イシューボックスを移動 ](assets/move-issue-box-nwe-350x280.png)
+   ![&#x200B; イシューボックスを移動 &#x200B;](assets/move-issue-box-nwe-350x280.png)
 
 1. 「**宛先プロジェクトを選択**」セクションで、イシューの移動先のプロジェクトの名前を指定します。デフォルトでは、現在のプロジェクトの名前が表示されます。
 
@@ -147,7 +147,7 @@ ht-degree: 84%
 1. （条件付き）イシューをプロジェクトに移動するアクセス権がない場合は、「**アクセスをリクエスト**」をクリックします。
 1. （条件付き）宛先プロジェクトのタスクの 1 つにイシューを追加するアクセス権がある場合は、アクセス権をリクエストせずに、引き続き選択した宛先プロジェクトにイシューを移動します。
 
-   ![ イシューの移動とアクセスのリクエスト ](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![&#x200B; イシューの移動とアクセスのリクエスト &#x200B;](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >

@@ -21,7 +21,7 @@ Workfront 管理者は、システム内の全員または 1 つのグループ�
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![ ステータス ](assets/statuses.png)
+![&#x200B; ステータス &#x200B;](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Workfront 管理者は、システム内の全員または 1 つのグループ�
 1. 左側のパネルで、**プロジェクト環境設定／ステータス**&#x200B;をクリックします。
 1. （条件付き）グループのステータスを並べ替える場合は、右上隅のボックスにグループの名前を入力し、表示される名前をクリックします。
 
-   ![ システムステータス ](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![&#x200B; システムステータス &#x200B;](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. 表示されるステータスリストの上にある、「**プロジェクト**」または「**タスク**」タブをクリックします。
 
@@ -132,12 +132,12 @@ Workfront 管理者は、システム内の全員または 1 つのグループ�
 
 ## イシューのステータスを並べ替える
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**設定** ![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
 
 1. **プロジェクト環境設定／ステータス**&#x200B;をクリックします。
 1. （条件付き）グループのステータスを並べ替える場合は、右上隅のボックスにグループの名前を入力し、表示される名前をクリックします。
 
-   ![ グループの問題ステータス ](assets/issue-statuses-group-name.png)
+   ![&#x200B; グループの問題ステータス &#x200B;](assets/issue-statuses-group-name.png)
 
 1. 「**イシュー**」タブをクリックします。
 1. （オプション）イシュータイプ（**バグレポート**、**変更依頼**、**イシュー**&#x200B;または **リクエスト**）を選択します。

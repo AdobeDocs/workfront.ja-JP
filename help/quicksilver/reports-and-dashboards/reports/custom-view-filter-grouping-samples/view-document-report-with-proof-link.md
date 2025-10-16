@@ -20,7 +20,7 @@ ht-degree: 63%
 
 このドキュメントビューでは、ドキュメントの現在のバージョンのプルーフへのリンクを挿入できます。
 
-![ プルーフリンク付きドキュメントの表示 ](assets/view-document-with-proof-link-350x92.png)
+![&#x200B; プルーフリンク付きドキュメントの表示 &#x200B;](assets/view-document-with-proof-link-350x92.png)
 
 ## アクセス要件
 

@@ -66,7 +66,7 @@ ht-degree: 50%
 
 次の通知設定が行われている場合、タイムシートを承認用に送信したユーザーには、タイムシートが承認された後にメールが届きます。
 
-* Workfront管理者がユーザーに対してタイムシート承認を、ユーザーイベントハンドラーに対してタイムシート拒否を有効にしました。 イベント通知の有効化について詳しくは、[ イベント通知タイプ ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
+* Workfront管理者がユーザーに対してタイムシート承認を、ユーザーイベントハンドラーに対してタイムシート拒否を有効にしました。 イベント通知の有効化について詳しくは、[&#x200B; イベント通知タイプ &#x200B;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
 * ユーザーのプロファイル ページで、マイ タイムシートが承認された個人通知が有効になっています。 詳しくは、[自身のメール通知の変更](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 ### 「タイムシート」領域からタイムシートを承認
@@ -89,7 +89,7 @@ ht-degree: 50%
    >
    >Workfront管理者またはグループ管理者が、「設定」エリアのリストコントロールまたはレイアウトテンプレートから「タイムシート承認」フィルターを削除した場合、「自分のタイムシート承認」オプションは、タイムシートリストの上部またはフィルターのリストに表示されません。
    >
-   >詳しくは [ レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
+   >詳しくは [&#x200B; レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
    >   
    >
 
@@ -117,7 +117,7 @@ ht-degree: 50%
 
 ホームエリアが開きます。
 
-1. **マイ承認** ウィジェットがホームエリアに追加されていることを確認します。 詳しくは、[ 新しいホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
+1. **マイ承認** ウィジェットがホームエリアに追加されていることを確認します。 詳しくは、[&#x200B; 新しいホームでのウィジェットの追加、編集、削除 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
 1. 自分の承認ウィジェットでタイムシート承認を検索します。
 1. （オプション）「承認」または「却下」ボタンの右側にあるドロップダウンメニューを展開して、決定に関するコメントを追加し、「**追加** をクリックします。
 1. 次のいずれかのボタンをクリックして、承認を決定します。

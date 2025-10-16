@@ -88,7 +88,7 @@ ht-degree: 95%
 
 1. （オプションおよび条件付き）画面に特定の数の項目を表示する場合は、画面の右下隅にある&#x200B;**[!UICONTROL 表示中]**&#x200B;ドロップダウンメニューから、**100**、**250**、**500**、**[!UICONTROL すべて]**&#x200B;または **2000** 項目の表示を選択します。
 
-   ![ ページにリスト番号 ](assets/list-number-page-350x119.png)
+   ![&#x200B; ページにリスト番号 &#x200B;](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >
@@ -98,7 +98,7 @@ ht-degree: 95%
    >書式設定されたテキストフィールドがオブジェクトに含まれる大きなリストの場合に最高のパフォーマンスを得るには、この数を 250 に制限することをお勧めします。
    >
    >
-   >2 つのリストタイプについて詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) のリストの基本を学ぶの記事で[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。
+   >2 つのリストタイプについて詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) のリストの基本を学ぶの記事で[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。
 
    リストの結果はページ分割され、選択された数の項目がページごとに表示されます。前向きおよび後向きの矢印をクリックするか、特定のページを選択すると、他のページの結果にアクセスできます。
 

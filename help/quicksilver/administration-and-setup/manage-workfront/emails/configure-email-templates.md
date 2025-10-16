@@ -63,7 +63,7 @@ Adobe Workfront 管理者は、リマインダー通知をサポートするよ�
 
 1. 左側のパネルで、**メール**／**通知**／**メールテンプレート**&#x200B;をクリックします。
 
-   ![ 「メールテンプレート」タブ ](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![&#x200B; 「メールテンプレート」タブ &#x200B;](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. **新規メールテンプレート**&#x200B;をクリックします。
 
@@ -236,7 +236,7 @@ Workfront フィールドへのリンクは、`$$` ワイルドカードを使�
 
 これにより、次のようなメールが生成されます。
 
-![ プロジェクトは遅延メールになりました ](assets/project-became-late-email.png)
+![&#x200B; プロジェクトは遅延メールになりました &#x200B;](assets/project-became-late-email.png)
 
 #### 開始予定のタスクまたはイシューのリマインダー {#task-or-issue-about-to-start-reminder-example}
 

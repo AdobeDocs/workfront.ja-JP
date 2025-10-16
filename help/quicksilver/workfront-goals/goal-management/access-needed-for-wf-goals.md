@@ -22,7 +22,7 @@ Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者
 
 * お客様の組織が過去にAdobe Workfront Goals パッケージを購入したことがある。 Adobe Workfront Goals は購入できなくなりました。
 
-  詳しくは、この記事の [Workfront Goals 組織のアクセス権の取得 ](#obtain-workfront-goals-organization-access) を参照してください。
+  詳しくは、この記事の [Workfront Goals 組織のアクセス権の取得 &#x200B;](#obtain-workfront-goals-organization-access) を参照してください。
 
 * 適切なタイプの Workfront ライセンスが割り当てられます。ライセンスタイプとアクセスレベルの割り当てについては、[ライセンスタイプとアクセスレベルの設定を更新](#update-license-types-and-access-level-settings)の節を参照してください。
 
@@ -106,7 +106,7 @@ Workfront 管理者は、システム内の Workfront Goals ライセンスの�
 
 Workfront Goals にアクセスできるようにするため、Workfront 管理者またはグループ管理者が、メインメニューの Goals エリアを含むレイアウトテンプレートを割り当てる必要があります。
 
-![ レイアウトテンプレート ](assets/layout-template-align-highlighted-350x220.png)
+![&#x200B; レイアウトテンプレート &#x200B;](assets/layout-template-align-highlighted-350x220.png)
 
 Workfront 管理者またはグループ管理者は、Workfront Goals に簡単にアクセスできるようにするために、レイアウトテンプレートに以下のものを追加することもできます。
 

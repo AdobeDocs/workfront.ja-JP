@@ -21,7 +21,7 @@ ht-degree: 95%
 この節では、次の記事を扱います。
 
 * [タイムシートプロファイルを作成、編集、割り当て](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-* [ 時間タイプと可用性の定義 ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+* [&#x200B; 時間タイプと可用性の定義 &#x200B;](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
 * [単一回使用のタイムシートを作成](../../timesheets/create-and-manage-timesheets/create-tmshts.md)
 * [タイムシート情報を編集](../../timesheets/create-and-manage-timesheets/edit-timesheets.md)
 * [時間のログ記録](../../timesheets/create-and-manage-timesheets/log-time.md)

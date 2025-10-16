@@ -19,7 +19,7 @@ ht-degree: 73%
 
 プロジェクトの状況タイプが「手動」ではなく「進行ステータス」に設定されている場合、[プロジェクト状況と状況タイプの概要](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)で説明されているとおり、Adobe Workfront はプロジェクトの進行に応じて、プロジェクトの 3 つのビルトインのデフォルト状況（「目標どおり」、「危険あり」、または「トラブル発生中」）のいずれかを自動的に表示します。
 
-![ プロジェクトヘッダーおよび詳細の条件 ](assets/condition-of-project-0825.png)
+![&#x200B; プロジェクトヘッダーおよび詳細の条件 &#x200B;](assets/condition-of-project-0825.png)
 
 これら 3 つのビルトインのデフォルト条件を使用する代わりに、カスタム条件をデフォルト条件として設定できます。例えば、オンターゲットのデフォルト条件を変更して、すべてのプロジェクトでトラッキングウェルとして表示することができます。
 
@@ -65,4 +65,4 @@ ht-degree: 73%
 
 タスクとイシューのデフォルト条件としてカスタム条件を設定する方法については、[タスクとイシューのデフォルトとしてカスタム条件を設定](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)を参照してください。
 
-ユーザーが手動で条件を更新できるプロジェクトの設定については、[ タスクおよび問題の条件の更新 ](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md) を参照してください。
+ユーザーが手動で条件を更新できるプロジェクトの設定については、[&#x200B; タスクおよび問題の条件の更新 &#x200B;](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md) を参照してください。

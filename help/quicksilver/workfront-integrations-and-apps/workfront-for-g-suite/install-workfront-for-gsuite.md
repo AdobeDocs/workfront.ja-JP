@@ -26,9 +26,9 @@ ht-degree: 32%
 >
 >Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [&#x200B; および &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [&#x200B; を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 [!DNL Adobe Workfront for Google Workspace] アドオンは [!DNL Google Workspace] Marketplace からインストールできます。
 
@@ -64,6 +64,6 @@ ht-degree: 32%
    [!DNL Google Workspace] アプリ（[!DNL Gmail]、[!DNL Google Calendar]、または [!DNL Google Drive]）の右端にある [!DNL Google Workspace] アドオンのサイドバーのプラス記号アイコンをクリックします。*[!DNL Workfront for Google Workspace]* を検索し、表示される [!DNL Workfront for Google Workspace] アプリアイテムをクリックします。
 
 1. 「**[!UICONTROL インストール]**」をクリックし、表示されるプロンプトに従います。
-1. （条件付き） [!DNL Google Workspace] アプリで「[!DNL Workfront]」アイコン ![Workfrontアイコンが表示されない場合 ](assets/wf-lion-icon.png) ページの右端にある「[!DNL Google Workspace]」アドオンサイドバーでページを更新します。
+1. （条件付き） [!DNL Google Workspace] アプリで「[!DNL Workfront]」アイコン ![Workfrontアイコンが表示されない場合 &#x200B;](assets/wf-lion-icon.png) ページの右端にある「[!DNL Google Workspace]」アドオンサイドバーでページを更新します。
 
-ログインについて詳しくは、[ [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md) のログインとログアウトを参照してください。
+ログインについて詳しくは、[&#x200B; [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md) のログインとログアウトを参照してください。

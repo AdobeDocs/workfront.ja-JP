@@ -26,9 +26,9 @@ ht-degree: 58%
 >
 >Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [&#x200B; および &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [&#x200B; を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 [!DNL Google Workspace] から離れることなく、作業アイテムの詳細を表示および管理できます。例えば、タスクの説明を読み取り、その親オブジェクトを表示し、そのステータスを変更し、タスクを完了としてマークすることをすべて [!DNL Adobe Workfront for Google Workspace] 内で行うことができます。
 
@@ -60,12 +60,12 @@ ht-degree: 58%
 [!DNL Google Workspace] で作業アイテムの詳細を表示および管理するには、次のことを行う必要があります。
 
 * [!DNL Workfront for Google Workspace] をインストール\
-   手順については、[ [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md) をインストールを参照してください。
+   手順については、[&#x200B; [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md) をインストールを参照してください。
 
 ## [!DNL Google Workspace] で作業アイテムの詳細を表示および管理する
 
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。[!DNL Google Workspace]
-1. [!DNL Workfront] からの [!DNL Google Workspace] アクセス [ ホーム  [!DNL Adobe Workfront] [!UICONTROL  コンテンツの説明に従って、] 内の  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) のタスクまたはイシューに移動します。
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![&#x200B; アイコン &#x200B;](assets/wf-lion-icon.png)3&rbrace;Workfront アイコン &rbrace; をクリックします。[!DNL Google Workspace]
+1. [!DNL Workfront] からの [!DNL Google Workspace] アクセス [&#x200B; ホーム  [!DNL Adobe Workfront] [!UICONTROL &#x200B; コンテンツの説明に従って、] 内の  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) のタスクまたはイシューに移動します。
 
    タスクまたはイシューを選択すると、「**[!UICONTROL 詳細]**」タブが開きます。「**[!UICONTROL 詳細]**」タブの上のエリアには、親オブジェクトの名前、タスクまたはイシューの名前、[!UICONTROL 期日]（タスクの場合）または[!UICONTROL 優先日]（イシューの場合）が表示されます。
 
@@ -93,5 +93,5 @@ ht-degree: 58%
 
 1. （オプション）**[!UICONTROL [!DNL Workfront]]** で「表示」をクリックして、[!DNL Workfront] の現在の作業アイテムに移動します。
 
-* [!UICONTROL  の「] 更新 [!DNL Workfront for Google Workspace]」タブの使用について詳しくは、[ から  [!DNL Adobe Workfront]  オブジェクトを更新  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md) を参照してください。
+* [!UICONTROL &#x200B; の「] 更新 [!DNL Workfront for Google Workspace]」タブの使用について詳しくは、[&#x200B; から  [!DNL Adobe Workfront]  オブジェクトを更新  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md) を参照してください。
 * [!DNL Workfront for Google Workspace] の「[!UICONTROL ドキュメント]」タブの使用について詳しくは、[[!DNL G Suite] のドキュメントを表示および管理](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)を参照してください。

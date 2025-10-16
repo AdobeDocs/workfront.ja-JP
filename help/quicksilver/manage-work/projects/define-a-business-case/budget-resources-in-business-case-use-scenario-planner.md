@@ -73,7 +73,7 @@ ht-degree: 87%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -130,7 +130,7 @@ ht-degree: 87%
 
    * プロジェクトの予算リソースに対して、リソースプランナーが以前に選択されていた場合は、**変更**／**シナリオプランナ**／**選択**&#x200B;をクリックします。
 
-     ![ シナリオプランナーのビジネスケースと「選択」ボタン ](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![&#x200B; シナリオプランナーのビジネスケースと「選択」ボタン &#x200B;](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront は、リンクされたイニシアティブから必要な担当業務時間を使用して、プロジェクトの予算労務費と予算時間を計算します。これは推奨されるオプションです。コストは、ビジネスケースにプロジェクトの通貨で表示されます。
 

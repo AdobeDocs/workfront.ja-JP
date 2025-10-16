@@ -189,7 +189,7 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)/**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)/**目標** をクリックします。
 
    目標リストが開きます。
 
@@ -203,17 +203,17 @@ Closing goals differs depending on what environment you use.
 
    目標ページが開きます。
 
-   ![ 目標ページ ](assets/goal-page-unshimmed.png)
-1. 目標名の右側にある **その他** メニュー ![ その他のアイコン ](assets/more-icon.png) をクリックしてから、「**閉じる** をクリックします。
+   ![&#x200B; 目標ページ &#x200B;](assets/goal-page-unshimmed.png)
+1. 目標名の右側にある **その他** メニュー ![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) をクリックしてから、「**閉じる** をクリックします。
 
    目標が閉じ、画面の右上隅に確認メッセージが表示されます。
 
-   ![ 目標クローズの確認 ](assets/goal-close-confirmation-with-add-closing-notes-link.png)
+   ![&#x200B; 目標クローズの確認 &#x200B;](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
 1. （オプション）確認ボックスで、「**クローズメモを追加**」をクリックして、この目標についてと、なぜ閉じる必要があるかについてのコメントを追加します。
 1. クローズメモを追加し、「**メモを追加**」をクリックします。
 
-   ![ クロージングメモボックスを追加 ](assets/add-closing-notes-box-unshimmed.png)
+   ![&#x200B; クロージングメモボックスを追加 &#x200B;](assets/add-closing-notes-box-unshimmed.png)
 
    コメントは、目標のページの「目標の詳細」セクションにあるクローズメモエリアに表示されます。
 
@@ -255,7 +255,7 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)>**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)>**目標** をクリックします。
 
    目標リストが開きます。
 
@@ -268,7 +268,7 @@ Reopening goals differs depending on what environment you use.
 1. クローズした目標の名前をクリックします。
 
    目標ページが開きます。
-1. 目標名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックし、**再度開く**/**再度開く** を選択します。
+1. 目標名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、**再度開く**/**再度開く** を選択します。
 
    次のことが発生します。
    * 目標が開き、ステータスが「アクティブ」になります。

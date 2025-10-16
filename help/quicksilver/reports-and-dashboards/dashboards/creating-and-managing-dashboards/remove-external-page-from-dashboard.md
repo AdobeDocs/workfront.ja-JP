@@ -61,11 +61,11 @@ ht-degree: 77%
 
 1. 「**ダッシュボードの操作**」をクリックしたあと、「**編集**」をクリックします。
 
-   ![ ダッシュボードを編集 ](assets/unshimmed-edit-dashboard.png)
+   ![&#x200B; ダッシュボードを編集 &#x200B;](assets/unshimmed-edit-dashboard.png)
 
-1. 画面の右側で、削除する外部ページを見つけて、「**削除**」アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
+1. 画面の右側で、削除する外部ページを見つけて、「**削除**」アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
 
-   ![ ダッシュボード内の「外部ページを削除」アイコン ](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![&#x200B; ダッシュボード内の「外部ページを削除」アイコン &#x200B;](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. 左下隅にある「**保存して閉じる**」をクリックします。
 

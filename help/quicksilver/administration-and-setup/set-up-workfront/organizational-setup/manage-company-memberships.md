@@ -42,7 +42,7 @@ ht-degree: 82%
    <td>アクセスレベル設定</td> 
   <td> <p>次のいずれかが必要です。</p> 
     <ul> 
-     <li> <p>[!UICONTROL システム管理者 ] アクセス レベル。システム内の任意の会社を編集できます。</p> </li> 
+     <li> <p>[!UICONTROL システム管理者 &#x200B;] アクセス レベル。システム内の任意の会社を編集できます。</p> </li> 
      <li> <p>会社を管理するための管理者アクセス。システム内の任意の会社を編集できます。</p> </li> 
     </ul> <p><b>メモ</b>：  
      <ul> 
@@ -50,7 +50,7 @@ ht-degree: 82%
       <li> <p>[!DNL Workfront] システムにユーザーを追加したり、システムからユーザーを削除したりするには、次のいずれかが必要です。</p> 
        <ul> 
         <li> <p>[!UICONTROL System Administrator] アクセスレベル。 </p> </li> 
-        <li> <p>アクセスレベルの <b>[!UICONTROL ユーザー ]</b> 設定が <b>[!UICONTROL 編集 ]</b> アクセスに設定され、<b>[!UICONTROL 作成 ]</b> と、<b> </b>[!UICONTROL 設定 ]<b> で有効になっている 2 つの </b>[!UICONTROL ユーザー管理者 ]<img src="assets/gear-icon-in-access-levels.png"> オプションのうち少なくとも 1 つが設定されています。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>これら 2 つのオプションのうち、<b>[!UICONTROL User Admin （Group Users） ]</b> が有効になっている場合、ユーザーがメンバーになっているグループのグループ管理者である必要があります。</p> </li> 
+        <li> <p>アクセスレベルの <b>[!UICONTROL ユーザー &#x200B;]</b> 設定が <b>[!UICONTROL 編集 &#x200B;]</b> アクセスに設定され、<b>[!UICONTROL 作成 &#x200B;]</b> と、<b> </b>[!UICONTROL 設定 &#x200B;]<b> で有効になっている 2 つの </b>[!UICONTROL ユーザー管理者 &#x200B;]<img src="assets/gear-icon-in-access-levels.png"> オプションのうち少なくとも 1 つが設定されています。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>これら 2 つのオプションのうち、<b>[!UICONTROL User Admin （Group Users） &#x200B;]</b> が有効になっている場合、ユーザーがメンバーになっているグループのグループ管理者である必要があります。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td>

@@ -63,7 +63,7 @@ AI は、以前のリクエストに基づいてリクエストフィールド�
 
 1. リクエストの作成を開始します。
 
-   手順については、[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+   手順については、[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
 
 1. フィールドへの入力の開始。
 
@@ -71,7 +71,7 @@ AI は、以前のリクエストに基づいてリクエストフィールド�
 
 1. フィールドの提案ごとに、そのフィールドに対して「**確定**」または **却下** を選択します。
 
-   ![ 提案を承認または却下 ](assets/accept-reject-suggestion.png)
+   ![&#x200B; 提案を承認または却下 &#x200B;](assets/accept-reject-suggestion.png)
 
    または
 

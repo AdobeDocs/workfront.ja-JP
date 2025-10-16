@@ -99,7 +99,7 @@ Adobe Workfront 管理者は、レイアウトテンプレートを使用して�
    >
    >* Workfront のシナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
    >
-   >* Workfront計画について詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+   >* Workfront計画について詳しくは、[Adobe Workfront計画の概要 &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 1. 引き続きレイアウトテンプレートをカスタマイズします。
 

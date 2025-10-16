@@ -1,7 +1,7 @@
 ---
 navigation-topic: use-the-gantt-chart
-title: 情報を [!UICONTROL  ガントチャート ] で表示
-description: Adobe Workfrontのタスクとプロジェクト [!UICONTROL  ガントチャート ] には、タスクとプロジェクトに関する情報が表示されます。
+title: 情報を [!UICONTROL &#x200B; ガントチャート &#x200B;] で表示
+description: Adobe Workfrontのタスクとプロジェクト [!UICONTROL &#x200B; ガントチャート &#x200B;] には、タスクとプロジェクトに関する情報が表示されます。
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 <!--Audited: 08/2025-->
 
-Adobe Workfrontのタスクとプロジェクト [!UICONTROL  ガントチャート ] には、タスクとプロジェクトに関する情報が表示されます。
+Adobe Workfrontのタスクとプロジェクト [!UICONTROL &#x200B; ガントチャート &#x200B;] には、タスクとプロジェクトに関する情報が表示されます。
 
 ## アクセス要件
 
@@ -32,7 +32,7 @@ Adobe Workfrontのタスクとプロジェクト [!UICONTROL  ガントチャー
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>[!UICONTROL ライト ] 以上</p>
+   <td><p>[!UICONTROL ライト &#x200B;] 以上</p>
     <p>[!UICONTROL Review] 以降</p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ Adobe Workfrontのタスクとプロジェクト [!UICONTROL  ガントチャー
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトおよびタスクへの [!UICONTROL ビュー ] 以上のアクセス</p></td> 
+   <td> <p>プロジェクトおよびタスクへの [!UICONTROL ビュー &#x200B;] 以上のアクセス</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,13 +104,13 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
 
 1. 上記のいずれかの領域に移動します。
 
-   例えば、Workfrontの [!UICONTROL **メインメニュー**]![ メインメニューアイコン ](assets/lines-main-menu.png) から、「**[!UICONTROL プロジェクト]**」をクリックします。
+   例えば、Workfrontの [!UICONTROL **メインメニュー**]![&#x200B; メインメニューアイコン &#x200B;](assets/lines-main-menu.png) から、「**[!UICONTROL プロジェクト]**」をクリックします。
 
    プロジェクトのリストが表示されます。
 
-1. 画面の右上隅にある **[!UICONTROL ガントチャート]** アイコン ![ ガントアイコン ](assets/gantt-icon-nwe.png) をクリックします。
+1. 画面の右上隅にある **[!UICONTROL ガントチャート]** アイコン ![&#x200B; ガントアイコン &#x200B;](assets/gantt-icon-nwe.png) をクリックします。
 
-1. **[!UICONTROL タスクリストを表示]**![ タスクリストを表示アイコン ](assets/show-task-list-icon.png) アイコンをクリックします。
+1. **[!UICONTROL タスクリストを表示]**![&#x200B; タスクリストを表示アイコン &#x200B;](assets/show-task-list-icon.png) アイコンをクリックします。
 
 1. 左側のプロジェクトリストで、プロジェクト名の横にあるドロップダウン矢印をクリックして、そのプロジェクトの下にあるタスクを表示します。\
    これにより、タスク情報が[!UICONTROL ガントチャート]に表示されます。\
@@ -138,7 +138,7 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
 
 1. [!UICONTROL ガントチャート]で、時間枠ドロップダウンメニューをクリックします。
 
-   ![ タイムラインオプション ](assets/timeline-options.png)
+   ![&#x200B; タイムラインオプション &#x200B;](assets/timeline-options.png)
 
 1. 次の利用可能なオプションから時間枠を選択します。
 
@@ -157,7 +157,7 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
    >
    >タイムラインのスナップショットは、水平スクロールバーをクリックした後にのみ表示されます。
 
-   ![ タイムラインスナップショットのミニマップ ](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![&#x200B; タイムラインスナップショットのミニマップ &#x200B;](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. （オプション）タイムラインのスナップショット内の任意の場所をクリックすると、プロジェクトの期間内の特定のポイントに移動します。\
    または\

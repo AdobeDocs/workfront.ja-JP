@@ -133,8 +133,8 @@ Workfrontの次の領域で、タスクまたはイシューのコミット日�
 >
 >詳しくは、次の記事を参照してください。
 >
->* [ 概要 ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [ レイアウトテンプレートを使用して概要パネルをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+>* [&#x200B; 概要 &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [&#x200B; レイアウトテンプレートを使用して概要パネルをカスタマイズする &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
 
 1. 自分が&#x200B;**所有者**&#x200B;として割り当てられているタスクまたはイシューに移動します。

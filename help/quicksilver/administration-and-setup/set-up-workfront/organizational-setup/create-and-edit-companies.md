@@ -45,7 +45,7 @@ ht-degree: 86%
    <td>アクセスレベル設定</td> 
    <td> <p>次のいずれかが必要です。</p> 
     <ul> 
-     <li> <p>[!UICONTROL システム管理者 ] アクセス レベル。システム内の任意の会社を編集できます。</p> </li> 
+     <li> <p>[!UICONTROL システム管理者 &#x200B;] アクセス レベル。システム内の任意の会社を編集できます。</p> </li> 
      <li> <p>会社を管理するための管理者アクセス。システム内の任意の会社を編集できます。</p> </li> 
     </ul> <p><b>メモ</b>：  
      <ul> 
@@ -53,7 +53,7 @@ ht-degree: 86%
       <li> <p>[!DNL Workfront] システムにユーザーを追加したり、システムからユーザーを削除したりするには、次のいずれかが必要です。</p> 
        <ul> 
         <li> <p>[!UICONTROL System Administrator] アクセスレベル。 </p> </li> 
-        <li> <p>アクセスレベルの <b>[!UICONTROL ユーザー ]</b> 設定が <b>[!UICONTROL 編集 ]</b> アクセスに設定され、<b>[!UICONTROL 作成 ]</b> と、<b> </b>[!UICONTROL 設定 ]<b> で有効になっている 2 つの </b>[!UICONTROL ユーザー管理者 ]<img src="assets/gear-icon-in-access-levels.png"> オプションのうち少なくとも 1 つが設定されています。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>これら 2 つのオプションのうち、<b>[!UICONTROL User Admin （Group Users） ]</b> が有効になっている場合、ユーザーがメンバーになっているグループのグループ管理者である必要があります。</p> </li> 
+        <li> <p>アクセスレベルの <b>[!UICONTROL ユーザー &#x200B;]</b> 設定が <b>[!UICONTROL 編集 &#x200B;]</b> アクセスに設定され、<b>[!UICONTROL 作成 &#x200B;]</b> と、<b> </b>[!UICONTROL 設定 &#x200B;]<b> で有効になっている 2 つの </b>[!UICONTROL ユーザー管理者 &#x200B;]<img src="assets/gear-icon-in-access-levels.png"> オプションのうち少なくとも 1 つが設定されています。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>これら 2 つのオプションのうち、<b>[!UICONTROL User Admin （Group Users） &#x200B;]</b> が有効になっている場合、ユーザーがメンバーになっているグループのグループ管理者である必要があります。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -73,7 +73,7 @@ ht-degree: 86%
 
    * 同じ会社のユーザーはお互いのリクエストを表示可能。
 
-     ユーザーの会社に基づいて [!DNL Workfront] 管理者がリクエストに対して同様のアクセス権を付与する方法について詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)の記事にある [ [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) の全員に対するタスクとイシューの環境設定の指定の節を参照してください。
+     ユーザーの会社に基づいて [!DNL Workfront] 管理者がリクエストに対して同様のアクセス権を付与する方法について詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)の記事にある [&#x200B; [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) の全員に対するタスクとイシューの環境設定の指定の節を参照してください。
 
      ユーザーの会社に基づいて管理者がリクエストに対して同様のアクセス権を付与する方法について詳しくは、[グループのタスクとイシューの環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
 
@@ -99,7 +99,7 @@ ht-degree: 86%
 
    または
 
-   既存の会社を編集する場合は、会社を選択し、会社リストの上部にある **[!UICONTROL 編集]** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+   既存の会社を編集する場合は、会社を選択し、会社リストの上部にある **[!UICONTROL 編集]** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
 
 1. 次の情報を更新します。
 

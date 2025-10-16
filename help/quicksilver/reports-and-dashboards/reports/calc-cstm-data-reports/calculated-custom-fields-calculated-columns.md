@@ -19,7 +19,7 @@ ht-degree: 95%
 Adobe Workfront で複数のフィールドを集計し、その集計値を新しいフィールドに表示するには、次のように作成します。
 
 * カスタムフォームの計算済みカスタムフィールド\
-  計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、[ 計算フィールドをフォームに追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+  計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、[&#x200B; 計算フィールドをフォームに追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 * ビューの計算済み列\
   ビューで計算を使用する方法について詳しくは、[テキストモードの一般的な使用例の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)の記事の[ビューでテキストモードを使用](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views)の節を参照してください。
@@ -85,7 +85,7 @@ Adobe Workfront で複数のフィールドを集計し、その集計値を新�
 
 ## 計算済みカスタムフィールドの更新をトリガーするアクション
 
-* オブジェクトのメインページで、「詳細」アイコン ![ 「詳細」アイコン ](assets/more-icon.png) をクリックし、「式を再計算 **をクリックし** す。
+* オブジェクトのメインページで、「詳細」アイコン ![&#x200B; 「詳細」アイコン &#x200B;](assets/more-icon.png) をクリックし、「式を再計算 **をクリックし** す。
 
 * 「**カスタム式を再計算**」が有効になっている場合に複数のオブジェクトを一括編集
 * 計算済みカスタムフィールドに対して「**前の計算を更新**」が有効になっている場合にカスタムフォームを編集

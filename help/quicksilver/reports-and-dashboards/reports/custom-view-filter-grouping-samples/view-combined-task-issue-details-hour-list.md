@@ -20,7 +20,7 @@ ht-degree: 61%
 
 この時間表示は、タスクと問題の名前の列と、`sharecol` タグを使用したタスクと問題の予定時間を組み合わせたものです。 時間エントリはタスクかイシューのどちらかにのみ属することができるので、両方のオブジェクトが同じ列に同時に表示されることはありません。ビューの各行には、タスクかイシューのどちらかの情報が入力されます。
 
-`sharecol` タグについて詳しくは、[ 表示：1 つの共有列における複数の列の情報の結合 ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) を参照してください。
+`sharecol` タグについて詳しくは、[&#x200B; 表示：1 つの共有列における複数の列の情報の結合 &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) を参照してください。
 
 ![custom_view_hours_with_task_and_issue_information.png](assets/custom-view-hours-with-350x48.png)
 

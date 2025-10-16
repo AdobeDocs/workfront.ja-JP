@@ -146,15 +146,15 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 
 一括編集中に財務を再計算できます。詳しくは、この記事の[財務を手動で一括再計算](#manually-recalculate-finances-in-bulk)の節を参照してください。
 
-1. 財務を再計算するプロジェクトに移動して、プロジェクト名の右側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックします。
+1. 財務を再計算するプロジェクトに移動して、プロジェクト名の右側にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![ プロジェクトレベルの詳細ドロップダウン ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![&#x200B; プロジェクトレベルの詳細ドロップダウン &#x200B;](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    または
 
-   プロジェクトリストまたはレポートに移動して、1 つまたは複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックします。
+   プロジェクトリストまたはレポートに移動して、1 つまたは複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![ 式の再計算 ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![&#x200B; 式の再計算 &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -178,9 +178,9 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 複数のプロジェクトの財務を手動で再計算するには、以下を実行します。
 
 1. プロジェクトのリストに移動します。
-1. リストで複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックします。
+1. リストで複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![ 式の再計算 ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![&#x200B; 式の再計算 &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -204,4 +204,4 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 >
 >プロジェクトのステータスを変更すると、予定された値のみが再計算されます。
 
-プロジェクトレベルで **その他** メニュー ![ その他メニュー ](assets/qs-more-menu.png) の下の「財務を再計算 **をクリックして、手動で財務を再計算することもでき** す。
+プロジェクトレベルで **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) の下の「財務を再計算 **をクリックして、手動で財務を再計算することもでき** す。

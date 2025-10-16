@@ -26,9 +26,9 @@ ht-degree: 50%
 >
 >Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [&#x200B; および &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [&#x200B; を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 [!DNL Google Workspace] を離れることなく、[!DNL Adobe Workfront] オブジェクトに関して、新しい更新または既存の更新に対する返信を投稿できます。
 
@@ -64,7 +64,7 @@ ht-degree: 50%
 
 ## [!DNL Google Workspace] で [!DNL Workfront] オブジェクトを更新
 
-1. [!DNL Google Workspace] 表示および管理 [ オブジェクトの詳細の表示  [!DNL Adobe Workfront]  の説明に従って、 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md) 内のオブジェクトを表示します。
+1. [!DNL Google Workspace] 表示および管理 [&#x200B; オブジェクトの詳細の表示  [!DNL Adobe Workfront]  の説明に従って、 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md) 内のオブジェクトを表示します。
 
 1. 新しい更新を投稿する場合は、「**[!UICONTROL 更新]**」タブをクリックします。
 1. 「**[!UICONTROL 新しい更新を開始]**」をクリックし、次に新しい更新を入力します。

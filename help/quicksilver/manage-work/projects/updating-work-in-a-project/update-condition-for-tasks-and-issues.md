@@ -27,7 +27,7 @@ ht-degree: 62%
 
 タスクまたはイシューの状況は、自動または手動で設定できます。
 
-この記事で参照する条件値は、デフォルトでWorkfrontで使用できます。 [ カスタム条件の作成または編集 ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) で説明されているように、Adobe Workfront管理者が環境のカスタム条件を作成できます。
+この記事で参照する条件値は、デフォルトでWorkfrontで使用できます。 [&#x200B; カスタム条件の作成または編集 &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) で説明されているように、Adobe Workfront管理者が環境のカスタム条件を作成できます。
 
 ## アクセス要件 {#access-requirements}
 
@@ -116,7 +116,7 @@ ht-degree: 62%
 
 * Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の、タスクまたはイシューのヘッダー。 詳しくは、[レイアウトテンプレートを使用してオブジェクトヘッダーをカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
-* Workfront管理者またはグループ管理者がレイアウトテンプレートに概要パネルを追加した後。 詳しくは、[ レイアウトテンプレートを使用した概要パネルのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
+* Workfront管理者またはグループ管理者がレイアウトテンプレートに概要パネルを追加した後。 詳しくは、[&#x200B; レイアウトテンプレートを使用した概要パネルのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
 
 * ビューまたはグループ化で「状況」フィールドを表示する場合は、レポートおよびリスト。
 
@@ -148,8 +148,8 @@ ht-degree: 62%
 >
 >詳しくは、次の記事を参照してください。
 >
->* [ 概要 ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [ レイアウトテンプレートを使用して概要パネルをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+>* [&#x200B; 概要 &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [&#x200B; レイアウトテンプレートを使用して概要パネルをカスタマイズする &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
 
 <!--old Condition update - in the commenting stream: 
@@ -195,7 +195,7 @@ Workfrontの様々な領域で、タスクとイシューの条件を手動で�
 
    >[!NOTE]
    >
-   >デフォルトの条件ビューでは、「**条件**」フィールドはインラインで編集できないタイプのフィールドです。 **条件** フィールドを個別にビューに追加した場合は、編集が可能です。 インライン編集について詳しくは、[Adobe Workfrontのリスト内の項目をインライン編集 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) を参照してください。
+   >デフォルトの条件ビューでは、「**条件**」フィールドはインラインで編集できないタイプのフィールドです。 **条件** フィールドを個別にビューに追加した場合は、編集が可能です。 インライン編集について詳しくは、[Adobe Workfrontのリスト内の項目をインライン編集 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) を参照してください。
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   

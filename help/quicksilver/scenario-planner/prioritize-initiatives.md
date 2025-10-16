@@ -19,9 +19,9 @@ ht-degree: 86%
 
 自分が作成したプラン、または誰かが共有したプランに基づいて、イニシアチブに優先順位を付けることができます。
 
-計画の作成の詳細については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
+計画の作成の詳細については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
 
-イニシアチブの作成の詳細については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
+イニシアチブの作成の詳細については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
 
 ## アクセス要件
 
@@ -41,7 +41,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] ライセンス</p> </td> 
-   <td> <p>[!UICONTROL ライト ] 以上</p> 
+   <td> <p>[!UICONTROL ライト &#x200B;] 以上</p> 
    <p>[!UICONTROL Review] 以降</p> </td> 
   </tr> 
     <tr> 
@@ -55,9 +55,9 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、[ の使用に必要なアクセス  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を参照してください。
+シナリオプランナーへのアクセスについて詳しくは、[&#x200B; の使用に必要なアクセス  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を参照してください。
 
-Workfrontのアクセス要件について詳しくは、[Workfrontのドキュメントへのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfrontのドキュメントへのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -122,7 +122,7 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
 
      Workfront には、選択したイニシアチブの数が表示されます。
 
-     ![ 複数選択イニシアチブ番号 ](assets/multi-select-initiative-number.png)
+     ![&#x200B; 複数選択イニシアチブ番号 &#x200B;](assets/multi-select-initiative-number.png)
 
    * 計画の下部にある「**[!UICONTROL 優先順位]**」ボックスをクリックし、次のオプションから選択します。
 
@@ -130,7 +130,7 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
       * **[!UICONTROL 下部]**：選択したイニシアチブをイニシアチブリストの一番下に移動します。選択されたイニシアチブは計画の最後にリストされます。
       * **[!UICONTROL 数字を選択]**：選択したイニシアチブを、ここで指定したイニシアチブの後に移動します。
 
-        ![ イニシアチブの優先順位付け ](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![&#x200B; イニシアチブの優先順位付け &#x200B;](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] は、選択したイニシアチブを指定した場所に即座に配置し、それに応じてすべてのイニシアチブの数が更新されます。
 

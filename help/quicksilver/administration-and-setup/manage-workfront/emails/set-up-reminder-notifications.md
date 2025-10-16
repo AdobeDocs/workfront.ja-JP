@@ -20,7 +20,7 @@ Workfront管理者は、ユーザーにリマインダー通知を作成し、�
 
 リマインダー通知は、指定された基準に基づいてユーザーに送信されるメールを生成します。 リマインダ通知は、タスク、問題、プロジェクトまたはタイムシートに対して実行する必要のあるアクションをユーザーに通知します。
 
-リマインダー通知を作成した後、ユーザーはリマインダー通知をプロジェクト、タスク、イシュー、タイムシートなどの作業項目に手動で関連付けることができます。 詳しくは、[ オブジェクトにリマインダー通知を添付する ](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md) を参照してください。
+リマインダー通知を作成した後、ユーザーはリマインダー通知をプロジェクト、タスク、イシュー、タイムシートなどの作業項目に手動で関連付けることができます。 詳しくは、[&#x200B; オブジェクトにリマインダー通知を添付する &#x200B;](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md) を参照してください。
 
 <!--
 DRAFTED IN FLARE:
@@ -76,7 +76,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 1. **メール**／**通知**／**リマインダー通知**&#x200B;をクリックします。
 
-   ![ 「リマインダー通知」タブ ](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![&#x200B; 「リマインダー通知」タブ &#x200B;](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
 1. **新しいリマインダー通知**&#x200B;をクリックします。
 
@@ -173,4 +173,4 @@ An example of how this can be used would be helpful here and/or in the section <
 
    リマインダー通知で指定されたユーザーに、メールが届きます。
 
-![ リマインダ通知テスト ](assets/reminder-test.png)
+![&#x200B; リマインダ通知テスト &#x200B;](assets/reminder-test.png)

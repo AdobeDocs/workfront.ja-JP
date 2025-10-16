@@ -164,7 +164,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅のにある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![ 仕訳の選択 ](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -238,7 +238,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
 1. 「**フィルター**」タブで「**フィルタールールを追加**」をクリックし、フィルタールール **フィールド名**/**次と等しい**/**ステータス** を追加します。
 
-   ![ ジャーナルエントリステータスフィルター ](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![&#x200B; ジャーナルエントリステータスフィルター &#x200B;](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -278,7 +278,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![ 仕訳の選択 ](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -362,7 +362,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![ 仕訳の選択 ](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -433,7 +433,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト >**。
 
-   ![ カスタムフォーム変更フィルター ](assets/qs-custom-form-changes-filter-350x92.png)
+   ![&#x200B; カスタムフォーム変更フィルター &#x200B;](assets/qs-custom-form-changes-filter-350x92.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
@@ -464,7 +464,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![ 仕訳の選択 ](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -534,7 +534,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
    * **フィールド名**／**次と等しい**／**日付**
    * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名 >**.
 
-   ![ 予定完了日の変更フィルター ](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![&#x200B; 予定完了日の変更フィルター &#x200B;](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
@@ -565,7 +565,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![ 仕訳の選択 ](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -623,7 +623,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
    * **フィールド名**／**次と等しい**／**ownerID**
    * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名 >**.
 
-   ![ 所有者変更フィルター ](assets/qs-owner-changes-filter-350x94.png)
+   ![&#x200B; 所有者変更フィルター &#x200B;](assets/qs-owner-changes-filter-350x94.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 

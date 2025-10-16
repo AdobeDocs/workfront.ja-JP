@@ -56,11 +56,11 @@ ht-degree: 66%
 
 ![メインメニューを開き、ユーザー名を選択します。](assets/main-menu-options-350x481.png)
 
-1. **[!UICONTROL その他メニュー]**![ その他アイコン ](assets/more-icon.png) をクリックしてから、**[!UICONTROL 編集]** をクリックします。
+1. **[!UICONTROL その他メニュー]**![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**[!UICONTROL 編集]** をクリックします。
 
 1. **[!UICONTROL 個人情報]** の下に表示される **[!UICONTROL ユーザーの編集]** ボックスで、[**[!UICONTROL パスワードの変更]**] をクリックします。
 
-   ![[ パスワードの変更 ] をクリック ](assets/edit-user-change-password.png)
+   ![[ パスワードの変更 ] をクリック &#x200B;](assets/edit-user-change-password.png)
 
    組織が [!DNL Workfront] を SSO ソリューションと統合している場合、「**[!UICONTROL パスワードを変更]**」をクリックすると、SSO システムを通じてパスワードをリセットするようにルーティングされる場合があります。 これにより、SSO パスワードがリセットされ、組織内での他のすべてのアプリケーションへのログインに影響します。
 

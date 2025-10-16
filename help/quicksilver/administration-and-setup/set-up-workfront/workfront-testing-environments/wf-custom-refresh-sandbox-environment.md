@@ -29,7 +29,7 @@ ht-degree: 92%
 >
 >  また、プレビューサンドボックスには必要ないカスタム更新サンドボックスを取得するための追加費用も発生します。
 >
->  プレビューサンドボックスについて詳しくは、[ [!DNL Adobe Workfront]  プレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
+>  プレビューサンドボックスについて詳しくは、[&#x200B; [!DNL Adobe Workfront]  プレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
 
 ## アクセス要件
 
@@ -88,11 +88,11 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 >[!NOTE]
 >
->アカウントがクラスター 4（EMEA クラスター）にある場合は、本番環境からカスタム更新サンドボックスにアクセスできません。クラスター 4 にアカウントがある場合にカスタム更新サンドボックスにアクセスする方法について詳しくは、[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)を参照してください。
+>アカウントがクラスター 4（EMEA クラスター）にある場合は、本番環境からカスタム更新サンドボックスにアクセスできません。クラスター 4 にアカウントがある場合にカスタム更新サンドボックスにアクセスする方法について詳しくは、[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)を参照してください。
 
 カスタム更新サンドボックスへのアクセス方法：
 
-1. **[!UICONTROL の右上隅にある]** メインメニュー ![ アイコン ](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront] をクリックし、**[!UICONTROL 設定]**![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
+1. **[!UICONTROL の右上隅にある]** メインメニュー ![&#x200B; アイコン &#x200B;](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront] をクリックし、**[!UICONTROL 設定]**![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
 
 1. **[!UICONTROL システム]**／**[!UICONTROL 環境設定]**&#x200B;をクリックします。
 
@@ -209,7 +209,7 @@ URL を使用してカスタム更新サンドボックスにアクセスする�
 
 Workfront管理者は、Workfrontがプロジェクトのタイムラインを自動再計算するタイミングを設定できます。 Workfrontは、毎晩、プロジェクトのスコープが変更されたとき、またはその両方で、プロジェクトのタイムラインを再計算できます。
 
-詳しくは、[ プロジェクトのタイムラインの再計算の設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) を参照してください。
+詳しくは、[&#x200B; プロジェクトのタイムラインの再計算の設定 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) を参照してください。
 
 カスタム更新サンドボックス環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的には再計算されません。 カスタム更新サンドボックス環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 

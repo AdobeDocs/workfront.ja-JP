@@ -16,7 +16,7 @@ ht-degree: 43%
 
 # 他のユーザーにダイレクトメッセージを送信
 
-[!DNL Adobe Workfront] を使用すると、作業アイテムに関係のないメッセージを他の [!DNL Workfront] ユーザーに直接、迅速かつ簡単に送信できます。この節で説明するように送信されたメッセージは、ユーザーのプロファイルページの「[!UICONTROL  更新 ]」タブに表示され、すべてのユーザーに表示されます。 更新について詳しくは、[作業アイテムの更新および更新の表示：記事インデックス](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)を参照してください。
+[!DNL Adobe Workfront] を使用すると、作業アイテムに関係のないメッセージを他の [!DNL Workfront] ユーザーに直接、迅速かつ簡単に送信できます。この節で説明するように送信されたメッセージは、ユーザーのプロファイルページの「[!UICONTROL &#x200B; 更新 &#x200B;]」タブに表示され、すべてのユーザーに表示されます。 更新について詳しくは、[作業アイテムの更新および更新の表示：記事インデックス](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)を参照してください。
 
 この説の説明に従ってメッセージを送信すると、メッセージの送信先のユーザーは、以下のタイプの通知を受け取ります。
 
@@ -83,9 +83,9 @@ ht-degree: 43%
 {{step-1-to-users}}
 
 1. メッセージを送信する 1 人または複数のユーザーを選択し、「[!UICONTROL **ユーザーに更新を送信**]」をクリックします。
-1. [!UICONTROL  ユーザーに更新を送信 ] ウィンドウにメッセージを入力します。 必要に応じて、テキスト書式設定オプションを使用します。 詳しくは、「作業の更新 [ の ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment)Workfront コメントでのリッチテキストの使用 [ を参照してくだ ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) い。
+1. [!UICONTROL &#x200B; ユーザーに更新を送信 &#x200B;] ウィンドウにメッセージを入力します。 必要に応じて、テキスト書式設定オプションを使用します。 詳しくは、「作業の更新 [&#x200B; の &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment)Workfront コメントでのリッチテキストの使用 [&#x200B; を参照してくだ &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) い。
 
-   ![ ユーザーに更新を送信ウィンドウのメッセージユーザー ](assets/send-update-to-user-072825.png)
+   ![&#x200B; ユーザーに更新を送信ウィンドウのメッセージユーザー &#x200B;](assets/send-update-to-user-072825.png)
 
 1. （任意）「**ユーザーをタグ付け**」をクリックして、メッセージに追加のユーザーをタグ付けします。 詳しくは、[更新時の他のユーザーへのタグ付け](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
 1. （オプション）「**[!UICONTROL 社外秘]**」を選択して、このメッセージを社内の他のユーザーにのみ表示します。

@@ -65,7 +65,7 @@ ht-degree: 95%
 
 [!DNL Adobe Admin Console] 管理者は、プラグインを [!DNL Creative Cloud] デプロイメントパッケージに含めることができます。詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
-[ こちらのビデオチュートリアルをご覧ください ](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
+[&#x200B; こちらのビデオチュートリアルをご覧ください &#x200B;](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
 また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
 
@@ -88,7 +88,7 @@ ht-degree: 95%
 
 1. 上部のメニューで、**[!UICONTROL プラグイン]**／**[!UICONTROL プラグインパネル]**&#x200B;をクリックします。
 
-   ![ プラグインパネル ](assets/plugins-panel-ps.png)
+   ![&#x200B; プラグインパネル &#x200B;](assets/plugins-panel-ps.png)
 
 1. **[!UICONTROL プラグインパネル]**&#x200B;で、「**[!UICONTROL プラグイン]**」タブを選択して、**[!UICONTROL Workfront for Adobe Photoshop]** を見つけます。
 
@@ -107,7 +107,7 @@ ht-degree: 95%
    >[!TIP]
    >
    >* ドメインを検索するには、ブラウザーを開き、[!DNL Workfront] インスタンスに移動し、URL の最初の部分をコピーします。\
-   >![ ドメインの検索 ](assets/domain-350x50.png)
+   >![&#x200B; ドメインの検索 &#x200B;](assets/domain-350x50.png)
    >
    > * Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
 

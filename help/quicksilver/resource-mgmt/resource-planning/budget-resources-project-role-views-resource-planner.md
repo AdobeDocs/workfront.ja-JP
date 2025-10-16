@@ -104,7 +104,7 @@ ht-degree: 95%
 
    * プロジェクトの&#x200B;**その他**&#x200B;メニューをクリックし、「**役割の予定時間数を予算計上値として設定する**」をクリックします。\
      役割ごとの予算計上時間数は、次の式を使用して計算されます。\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -155,7 +155,7 @@ ht-degree: 95%
 
 役割ビューのリソースプランナーで予算配分を行うには、次の操作を実行します。
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
 
 1. 「**リソース**」をクリックします。
 1. 「**計画担当者**」がデフォルトで表示されます。
@@ -175,7 +175,7 @@ ht-degree: 95%
      これにより、管理アクセス権のあるプロジェクトで、役割の予算計上時間数がプロジェクトの予算計上時間数に配分されます。
 
    * 担当業務の「**その他**」メニューをクリックし、「プロジェクトの予定時間数を予算計上値として設定」をクリックします。**役割の予算計上時間数は、次の式を使用して計算されます。\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
@@ -220,7 +220,7 @@ ht-degree: 95%
 
 クイックリンクを使用すると、リソースの割り当ての予算を一括で設定できます。クイックリンクは、プロジェクトビューと役割ビューでのみ使用できます。
 
-![ 自動予算オプション ](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![&#x200B; 自動予算オプション &#x200B;](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

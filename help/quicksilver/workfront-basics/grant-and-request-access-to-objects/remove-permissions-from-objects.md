@@ -65,13 +65,13 @@ ht-degree: 80%
 
 1. （条件付き）プログラム、ポートフォリオおよびドキュメントの場合は、次の操作を行います。
 
-   1. オブジェクト名の横にある **詳細** アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、「**共有**」または「**共有** をクリックします。
+   1. オブジェクト名の横にある **詳細** アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、「**共有**」または「**共有** をクリックします。
 
       ![share](assets/share-a-document-350x160.png)
 
    1. ユーザー、チーム、グループ、会社、担当業務の横にある **x** をクリックし「オブジェクトアクセス」ボックスから削除します。
 
-      ![ 権限を削除 ](assets/remove-permissions-on-portfolio.png)
+      ![&#x200B; 権限を削除 &#x200B;](assets/remove-permissions-on-portfolio.png)
 
    1. **[ユーザー名 ] のWorkfront アクセス権限が削除されます。この** ドロップダウン メニューで、ユーザーのアクセス権限を選択したオブジェクトのみから削除するか、関連付けられたすべての子オブジェクトから削除するかを選択します。
 
@@ -84,7 +84,7 @@ ht-degree: 80%
    1. 「**削除**」をクリックします。
 「**次から &lt;ユーザー名> を削除**」ドロップダウンメニューで、選択したオブジェクトのみからアクセス権を削除するか、それに関連付けられているすべての子オブジェクトからアクセス権を削除するかを選択します。
 
-      ![ 削除 ](assets/remove-permissions-on-project-nwe-350x479.png)
+      ![&#x200B; 削除 &#x200B;](assets/remove-permissions-on-project-nwe-350x479.png)
 
    次のシナリオが存在します。
 
@@ -164,7 +164,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
    例えば、レポートに移動します。
 1. 「**レポートのアクション**」、「**共有**」の順にクリックします。
 
-   ![ プライベートにする ](assets/report-permissions-make-private-nwe-350x477.png)
+   ![&#x200B; プライベートにする &#x200B;](assets/report-permissions-make-private-nwe-350x477.png)
 
 1. 歯車アイコンをクリックし、「**これを外部ユーザーに公開** のチェックを外します。
 1. **アクセス権を持つユーザー** ドロップダウンメニューで、**招待されたユーザーのみがアクセスできる** をクリックして、すべてのWorkfront ユーザーとの共有を停止します。

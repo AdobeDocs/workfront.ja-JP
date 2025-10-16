@@ -65,7 +65,7 @@ ht-degree: 87%
 1. 検索するプルーフを開きます。
 1. プルーフの上にあるツールバーで、「**ドキュメントを検索**」アイコンをクリックします。
 
-   ![ ドキュメントの検索 ](assets/search-document-icon-search-in-proof-350x129.png)
+   ![&#x200B; ドキュメントの検索 &#x200B;](assets/search-document-icon-search-in-proof-350x129.png)
 
 1. 検索するテキストの入力を開始します。
 

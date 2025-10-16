@@ -17,7 +17,7 @@ ht-degree: 95%
 
 [!DNL Adobe Workfront for Slack] のインストールと設定が完了したら、[!UICONTROL Workfront] のお気に入りと最近使用した項目を表示でき、[!DNL Slack] のリストからいずれかの項目にアクセスできます。
 
-[!DNL Workfront with Slack] の設定に関して詳しくは、[ [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
+[!DNL Workfront with Slack] の設定に関して詳しくは、[&#x200B; [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
 
 ## アクセス要件
 
@@ -47,12 +47,12 @@ ht-degree: 95%
 [!DNL Slack] からお気に入りと最近使用した項目にアクセスする前に、以下を行います
 
 * [!DNL Workfront for Slack] を設定\
-   [!DNL Workfront for Slack] の設定の手順については、[ [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
+   [!DNL Workfront for Slack] の設定の手順については、[&#x200B; [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
 
 ## [!DNL Slack] から[!UICONTROL お気に入り]リストにアクセス
 
 1. お使いの [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
 
 1. 任意のチャネルから、[!UICONTROL メッセージ]フィールドに次のコマンドの入力を開始します：`/workfront favorites`
 
@@ -68,7 +68,7 @@ ht-degree: 95%
 ## [!DNL Slack] から最近使用した項目の一覧にアクセス
 
 1. お使いの [!DNL Slack] インスタンスにログインして、Slack から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの[!DNL Slack] から [!DNL Workfront] にログインの節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの[!DNL Slack] から [!DNL Workfront] にログインの節を参照してください。
 
 1. 任意のチャネルから、[!UICONTROL メッセージ]フィールドに次のコマンドの入力を開始します：`/workfront recent`
 

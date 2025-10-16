@@ -77,7 +77,7 @@ ht-degree: 36%
 
 1. （任意）プロジェクト間の先行タスクを追加するには、「**親プロジェクト**」フィールドのプロジェクト名を別のプロジェクトに置き換えます。
 
-   詳しくは、[ プロジェクト間先行タスクの作成 ](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) を参照してください。
+   詳しくは、[&#x200B; プロジェクト間先行タスクの作成 &#x200B;](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) を参照してください。
 
    >[!TIP]
    >
@@ -88,20 +88,20 @@ ht-degree: 36%
 
 1. **依存関係タイプ**&#x200B;を選択します。
 
-   詳しくは、[ タスク依存関係タイプの概要 ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md) を参照してください。
+   詳しくは、[&#x200B; タスク依存関係タイプの概要 &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md) を参照してください。
 
 1. **間隔** の値を入力します。
 
-   詳しくは、&#x200B;[ 間隔の種類の概要 ](../../../manage-work/tasks/use-prdcssrs/lag-types.md) を参照してください。
+   詳しくは、&#x200B;[&#x200B; 間隔の種類の概要 &#x200B;](../../../manage-work/tasks/use-prdcssrs/lag-types.md) を参照してください。
 
-   ![ 先行タスクの追加ダイアログボックス ](assets/add-predecessor-dialog-box.png)
+   ![&#x200B; 先行タスクの追加ダイアログボックス &#x200B;](assets/add-predecessor-dialog-box.png)
 
 1. 2 つのタスク間の先行タスク関係を適用する場合は、「**適用**」チェックボックスを選択します。
 
-   詳しくは、[ 先行タスクの適用 ](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) を参照してください。
+   詳しくは、[&#x200B; 先行タスクの適用 &#x200B;](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) を参照してください。
 
 1. 「**保存**」をクリックします。
 
-1. （オプション）先行タスクを削除するには、先行タスクのリストから先行タスクを選択し、**削除** アイコン ![ 削除アイコン ](assets/remove-or-delete-icon.png) をクリックします。
+1. （オプション）先行タスクを削除するには、先行タスクのリストから先行タスクを選択し、**削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/remove-or-delete-icon.png) をクリックします。
 
    先行タスクがリストから削除されます。 先行タスクはプロジェクトから削除されません。

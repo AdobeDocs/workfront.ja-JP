@@ -30,7 +30,7 @@ ht-degree: 62%
 
 ![task_with_resolving_issue_fields.png](assets/task-with-resolving-issue-fields-350x38.png)
 
-詳しくは、[ 表示：タスクまたはプロジェクトリストに元のイシュー情報を表示する ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md) も参照してください。
+詳しくは、[&#x200B; 表示：タスクまたはプロジェクトリストに元のイシュー情報を表示する &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md) も参照してください。
 
 ## アクセス要件
 

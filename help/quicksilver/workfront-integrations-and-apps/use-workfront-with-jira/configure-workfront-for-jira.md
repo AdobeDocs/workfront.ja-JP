@@ -24,9 +24,9 @@ ht-degree: 94%
 >
 >Jira を使用する場合は、組織の統合のニーズに合わせてWorkfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
+>Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
 
 <!--
 
@@ -52,7 +52,7 @@ ht-degree: 94%
 
 このアドオンは、[!UICONTROL サーバー]および[!UICONTROL OnDemand]（または[!UICONTROL クラウド]）の [!DNL Jira] ソフトウェアのバージョンの両方で使用できます。
 
-[!DNL Jira] が現在サポートしている [!DNL Workfront for Jira] のバージョンのリストについて、](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)[!DNL Atlassian Marketplace] での [[!DNL Workfront for Jira] を参照してください。
+[!DNL Jira] が現在サポートしている [!DNL Workfront for Jira] のバージョンのリストについて、[&#128279;](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) [!DNL Atlassian Marketplace] での [!DNL Workfront for Jira] を参照してください。
 
 ## アクセス要件
 
@@ -93,7 +93,7 @@ ht-degree: 94%
 [!DNL Workfront for Jira] を設定する前に、以下を行う必要があります。
 
 * [!DNL Workfront for Jira] をインストールします。
-[!DNL Workfront for Jira] のインストールの手順については、[ [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md) をインストールを参照してください。
+[!DNL Workfront for Jira] のインストールの手順については、[&#x200B; [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md) をインストールを参照してください。
 
 ## [!DNL Workfront for Jira] の設定
 
@@ -105,7 +105,7 @@ ht-degree: 94%
 >[!NOTE]
 >
 >* [!DNL Jira] 環境で [!DNL Workfront for Jira] を設定した後に、すべての [!DNL Jira] ユーザーは、[!DNL Jira] の項目上に [!DNL Workfront] の右側のパネルが表示されることを確認できます。パネルには、[!DNL Workfront] からリンクされる項目に関する情報が含まれています。または、[!DNL Jira] 項目にリンクされる [!DNL Workfront] 項目は、何もないことを指定します。
->* [!DNL Jira Server] インストールを使用時に、Workfront 統合のトリガーとして識別されたプロジェクトに関連するイシューに対してのみ、Workfront パネルが表示されます。[!DNL Workfront to Jira] ワークフローのトリガーの設定の詳細については、[ [!DNL Jira]  および  [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront) 間の項目を自動的にリンクするトリガーを設定を参照してください。
+>* [!DNL Jira Server] インストールを使用時に、Workfront 統合のトリガーとして識別されたプロジェクトに関連するイシューに対してのみ、Workfront パネルが表示されます。[!DNL Workfront to Jira] ワークフローのトリガーの設定の詳細については、[&#x200B; [!DNL Jira]  および  [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront) 間の項目を自動的にリンクするトリガーを設定を参照してください。
 >
 
 [!DNL Workfront for Jira] を設定するには、以下を実行します。
@@ -132,11 +132,11 @@ ht-degree: 94%
 
 1. Jira で、「**[!UICONTROL トリガー]**」タブを選択して、[!DNL Workfront] アイテムが新規に作成されるときに [!DNL Jira] アイテムが自動的に作成されるように設定します。
 
-   ワークフロントから [!DNL Jira] へのトリガーの設定について詳しくは、[ [!DNL Jira]  と  [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront) の間で項目を自動的にリンクするためのトリガーを設定を参照してください。
+   ワークフロントから [!DNL Jira] へのトリガーの設定について詳しくは、[&#x200B; [!DNL Jira]  と  [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront) の間で項目を自動的にリンクするためのトリガーを設定を参照してください。
 
 1. 「**[!UICONTROL 設定]**」タブを選択して、リンクされた [!DNL Jira] 項目と [!DNL Workfront] 項目の間のフィールドの同期を設定します。
 
-   [!DNL Jira] と [!DNL Workfront] の間のフィールドの同期の設定について詳しくは、[ [!DNL Jira]  項目と  [!DNL Workfront]  項目の間のフィールド同期を設定](#configure-field-synchronization-between-jira-and-workfront-items)を参照してください。
+   [!DNL Jira] と [!DNL Workfront] の間のフィールドの同期の設定について詳しくは、[&#x200B; [!DNL Jira]  項目と  [!DNL Workfront]  項目の間のフィールド同期を設定](#configure-field-synchronization-between-jira-and-workfront-items)を参照してください。
 
    >[!NOTE]
    >
@@ -144,7 +144,7 @@ ht-degree: 94%
 
 1. （オプション）「**[!UICONTROL アクティビティログ]**」タブを選択して、統合中に発生した可能性のあるエラーを確認します。
 
-   [!UICONTROL アクティビティログ]について詳しくは、[ [!DNL Jira] [!UICONTROL アクティビティログ]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)を表示を参照してください。
+   [!UICONTROL アクティビティログ]について詳しくは、[&#x200B; [!DNL Jira] [!UICONTROL アクティビティログ]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)を表示を参照してください。
 
 ## [!DNL Jira] と [!DNL Workfront] の間で項目を自動的にリンクするためのトリガーを設定
 

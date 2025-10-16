@@ -54,7 +54,7 @@ ht-degree: 88%
 
 ## 前提条件
 
-*  [!DNL Adobe Photoshop] プロジェクトを [!DNL Workfront] にアップロードする前に、[!DNL Adobe Workfront for Photoshop] プラグインをインストールする必要があります。
+* [!DNL Adobe Photoshop] プロジェクトを [!DNL Workfront] にアップロードする前に、[!DNL Adobe Workfront for Photoshop] プラグインをインストールする必要があります。
 
   手順については、[Adobe Workfront for Photoshop のインストール](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)を参照してください。
 
@@ -62,10 +62,10 @@ ht-degree: 88%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. ドキュメントをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックします。
 
 1. プラグインの下部にある&#x200B;**[!UICONTROL 新規ファイル]**&#x200B;をクリックします。
 1. ドロップダウンメニューから&#x200B;**[!UICONTROL アセットタイプ]**&#x200B;を選択します。

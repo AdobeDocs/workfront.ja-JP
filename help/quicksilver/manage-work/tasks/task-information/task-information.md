@@ -37,7 +37,7 @@ ht-degree: 84%
 * [タスクのトラッキングモードの設定](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [タスクの標準化遅延の更新](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [タスクのコストタイプを更新](../../../manage-work/tasks/task-information/update-task-cost-type.md)
-* [ 見込日及び見込日の概要 ](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+* [&#x200B; 見込日及び見込日の概要 &#x200B;](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
 * [タスクの元の期間と元の予定時間数の概要](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
 * [タスクの予定期間と期間の違い](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
 

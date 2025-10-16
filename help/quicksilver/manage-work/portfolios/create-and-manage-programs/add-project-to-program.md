@@ -50,7 +50,7 @@ ht-degree: 56%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
-   <td> <p>プログラムまたはそれ以降への [!UICONTROL 編集 ] アクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
+   <td> <p>プログラムまたはそれ以降への [!UICONTROL 編集 &#x200B;] アクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -59,7 +59,7 @@ ht-degree: 56%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -101,7 +101,7 @@ ht-degree: 56%
 
    >[!TIP]
    >
-   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
+   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -134,14 +134,14 @@ ht-degree: 56%
 
 1. （任意）「**[!UICONTROL 既存プロジェクト]**」を選択すると、「**プロジェクトの追加**」ボックスが開きます。<!--check at unshimming-->
 
-   ![ プログラムに既存のプロジェクトを追加ボックス ](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
+   ![&#x200B; プログラムに既存のプロジェクトを追加ボックス &#x200B;](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
 
 1. 次の操作を実行します。
 
    1. 「**[!UICONTROL プロジェクトを追加]**」ボックスの「**このプログラムにプロジェクトを追加**」フィールドにプロジェクトの名前を入力し、リストに表示されたら選択します。<!--check casing on links and buttons-->
 
       複数のプロジェクトを追加できます。
-   1. （オプション）プロジェクト名をプログラムに追加しない場合は、プロジェクト名の横にある **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
+   1. （オプション）プロジェクト名をプログラムに追加しない場合は、プロジェクト名の横にある **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
 
    1. 「**[!UICONTROL プロジェクトを追加]**」をクリックします。<!--check at unshimming-->
 

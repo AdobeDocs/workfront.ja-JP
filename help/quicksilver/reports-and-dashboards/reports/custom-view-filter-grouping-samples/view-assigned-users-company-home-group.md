@@ -20,7 +20,7 @@ ht-degree: 64%
 
 このタスクビューには、タスクのプライマリ所有者の会社とホームグループが表示されます。これらの値は、標準インターフェイスでは使用できませんが、テキストモードでアクセスできます。
 
-![ 割り当てられたユーザーの会社およびホーム グループを表示する ](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![&#x200B; 割り当てられたユーザーの会社およびホーム グループを表示する &#x200B;](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## アクセス要件
 

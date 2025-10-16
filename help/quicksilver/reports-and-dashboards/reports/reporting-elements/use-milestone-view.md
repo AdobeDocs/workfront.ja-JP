@@ -23,7 +23,7 @@ ht-degree: 55%
 
 このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+詳しくは、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 </div>
 
@@ -31,7 +31,7 @@ ht-degree: 55%
 
 マイルストーン ビューを使用するには、まず次の要素が存在している必要があります。
 
-* マイルストーンパスが設定されます。 詳しくは、[ マイルストーンパスの作成 ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) を参照してください。
+* マイルストーンパスが設定されます。 詳しくは、[&#x200B; マイルストーンパスの作成 &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) を参照してください。
 * 必要なマイルストーンパスをプロジェクトに追加する。 詳しくは、[プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 * マイルストーンはタスクに関連付けられます。 詳しくは、[マイルストーンとタスクの関連付け](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)を参照してください。
 
@@ -142,16 +142,16 @@ ht-degree: 55%
    * 実稼動環境では、マイルストーン ビューの各プロジェクトおよびタスクの横に、次のステータスアイコンが表示されます。
 
       * 予定通り\
-        ![ オンタイムアイコン ](assets/gantt-ontime.png)
+        ![&#x200B; オンタイムアイコン &#x200B;](assets/gantt-ontime.png)
 
       * 遅れ\
-        ![ 背後のアイコン ](assets/gantt-behind.png)
+        ![&#x200B; 背後のアイコン &#x200B;](assets/gantt-behind.png)
 
       * リスクあり\
-        ![ 危険アイコン ](assets/gantt-atrisk.png)
+        ![&#x200B; 危険アイコン &#x200B;](assets/gantt-atrisk.png)
 
       * 遅延\
-        ![ 遅延アイコン ](assets/gantt-late.png)
+        ![&#x200B; 遅延アイコン &#x200B;](assets/gantt-late.png)
 
      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
@@ -277,7 +277,7 @@ ht-degree: 55%
 
 1. 「**表示**」ドロップダウンメニューをクリックして、「**マイルストーン**」をクリックします。
 
-1. （条件付き）完了率がマイルストーン ビューに現在表示されていない場合は、この記事の [ マイルストーン ビューに表示する情報の設定 ](#configure-what-information-displays-in-the-milestone-view) の節の説明に従って、タスクおよびプロジェクトの完了率を表示できるようにします。
+1. （条件付き）完了率がマイルストーン ビューに現在表示されていない場合は、この記事の [&#x200B; マイルストーン ビューに表示する情報の設定 &#x200B;](#configure-what-information-displays-in-the-milestone-view) の節の説明に従って、タスクおよびプロジェクトの完了率を表示できるようにします。
 
 1. 実稼動環境では、タスクの下にある完了のパーセンテージをクリックし、新しいパーセンテージを指定して、Enter キーを押します。
 

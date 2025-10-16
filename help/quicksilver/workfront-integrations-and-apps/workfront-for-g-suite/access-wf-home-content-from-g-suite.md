@@ -26,11 +26,11 @@ ht-degree: 38%
 >
 >Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [&#x200B; および &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [&#x200B; を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
-Google Workspaceから離れることなく、割り当てられたすべてのタスク、イシュー、承認、アクセスリクエストを含む [!DNL Adobe Workfront] [!UICONTROL  ホーム ] コンテンツにアクセスできます。
+Google Workspaceから離れることなく、割り当てられたすべてのタスク、イシュー、承認、アクセスリクエストを含む [!DNL Adobe Workfront] [!UICONTROL &#x200B; ホーム &#x200B;] コンテンツにアクセスできます。
 
 ## アクセス要件
 
@@ -65,26 +65,26 @@ Google Workspaceから離れることなく、割り当てられたすべての�
 ## [!DNL Google Workspace] から [!DNL Workfront] [!UICONTROL ホーム]へのアクセス
 
 1. [!DNL Workfront] にログインしていることを確認します。
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。[!DNL Google Workspace]
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![&#x200B; アイコン &#x200B;](assets/wf-lion-icon.png)3&rbrace;Workfront アイコン &rbrace; をクリックします。[!DNL Google Workspace]
 1. [!DNL Google Workspace] の [!DNL Workfront] 上部に左向き矢印が表示される場合、[!UICONTROL ホーム]エリアに移動する矢印をクリックします。
 
-1. **[!UICONTROL 並べ替え]** 領域で、展開する矢印 ![ 展開する矢印 ](assets/dropdown-arrow.png) をクリックし、作業アイテムのグループ化方法を指定するオプションをクリックして、目的の作業アイテムを見つけることができます。
+1. **[!UICONTROL 並べ替え]** 領域で、展開する矢印 ![&#x200B; 展開する矢印 &#x200B;](assets/dropdown-arrow.png) をクリックし、作業アイテムのグループ化方法を指定するオプションをクリックして、目的の作業アイテムを見つけることができます。
 
    **[!UICONTROL コミット日]**&#x200B;または&#x200B;**[!UICONTROL 完了予定]**&#x200B;日で並べ替えする場合、最も古い作業アイテムが一番上に表示されます。
 
    **[!UICONTROL プロジェクト]**&#x200B;で並び替えする場合、作業アイテムは親プロジェクトの順に表示され、アルファベット順に A から Z の順に表示されます。親プロジェクトのない作業アイテムは、**[!UICONTROL プロジェクトなし]**&#x200B;の下に表示されます。
 
-1. 表示するグループ化の展開矢印 ![ 展開矢印 ](assets/dropdown-arrow.png) をクリックします。
+1. 表示するグループ化の展開矢印 ![&#x200B; 展開矢印 &#x200B;](assets/dropdown-arrow.png) をクリックします。
 
    各グループ内に含まれる項目の数は括弧で囲まれて表示されます。[!UICONTROL 展開]矢印をクリックすると、グループ内のすべての作業アイテムが表示されます。
 
    作業アイテムは次のように表示されます。
 
-   * ![ タスクアイコン ](assets/task-icon.png)**タスク** 親プロジェクト名、タスク名および予定完了日を表示します。
+   * ![&#x200B; タスクアイコン &#x200B;](assets/task-icon.png)**タスク** 親プロジェクト名、タスク名および予定完了日を表示します。
 
-   * ![ イシューアイコン ](assets/issue-icon.png)**イシュー** 親プロジェクト名、イシュー名および予定完了日を表示します。
+   * ![&#x200B; イシューアイコン &#x200B;](assets/issue-icon.png)**イシュー** 親プロジェクト名、イシュー名および予定完了日を表示します。
 
-   * ![ ドキュメントアイコン ](assets/document-icon.png)**承認** 要求者の名前、ドキュメント名、送信日が表示されます。
+   * ![&#x200B; ドキュメントアイコン &#x200B;](assets/document-icon.png)**承認** 要求者の名前、ドキュメント名、送信日が表示されます。
    * **アクセスリクエスト**&#x200B;は、リクエスターの名前、オブジェクト名および送信日を表示します。オブジェクトタイプのアイコンが左側に表示されます。
 
 1. 作業アイテムの任意の場所をクリックして、その詳細、更新およびドキュメントを表示します。

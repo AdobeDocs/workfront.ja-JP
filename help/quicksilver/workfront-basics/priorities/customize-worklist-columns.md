@@ -66,7 +66,7 @@ ht-degree: 20%
 {{step1-to-priorities}}
 
 1. 画面左側にある **列** をクリックします。
-   ![ 列 ](assets/columns-new.png)
+   ![&#x200B; 列 &#x200B;](assets/columns-new.png)
 1. ワークリストの列の有効/無効を切り替えるには、を使用します。
 
 ### 列の並べ替え
@@ -75,7 +75,7 @@ ht-degree: 20%
 
 1. 画面左側にある **列** をクリックします。
 1. **ドラッグ** アイコンをクリックし、列を目的の場所に移動します。 列を移動すると、ワークリスト内で自動的に更新されます。
-   ![ 列の並べ替え ](assets/reorder-columns-new.png)
+   ![&#x200B; 列の並べ替え &#x200B;](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >

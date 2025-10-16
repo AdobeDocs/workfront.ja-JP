@@ -88,7 +88,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
 プロジェクトのグループを更新すると、タスクのステータス、イシュー、またはプロジェクトのステータスに使用できるオプションが、グループに合わせて変更されます。
 
 1. [プロジェクトを作成](../../../manage-work/projects/create-projects/create-project.md)で説明されているように、プロジェクトに移動するか、新しいプロジェクトを作成します。
-1. **その他** アイコン ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
+1. **その他** アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
 
 1. 「**概要**」セクションの下部近くに表示される「**プロジェクトを編集**」ボックスで、「**グループ**」ドロップダウンメニューからグループを選択します。
 
@@ -99,7 +99,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    >「**グループ**」ドロップダウンメニューで別のグループを選択すると、「**ステータス**」メニューのカスタムステータスが新規グループに関連付けられるように自動的に変更されます。
    >
    >
-   >![ プロジェクトのカスタムステータスを含んで展開された「ステータス」ドロップダウン ](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)
+   >![&#x200B; プロジェクトのカスタムステータスを含んで展開された「ステータス」ドロップダウン &#x200B;](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)
    >
 
 1. プロジェクトのステータスを選択します。作成し、そのグループに適用したカスタムステータスがリストに表示されます。

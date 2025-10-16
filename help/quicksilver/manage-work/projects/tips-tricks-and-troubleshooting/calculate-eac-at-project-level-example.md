@@ -30,7 +30,7 @@ ht-degree: 98%
 
 PIM = 時間ベース
 
-EAC メソッド = プロジェクトレベルで計算****
+EAC メソッド = プロジェクトレベルで計算&#x200B;**&#x200B;**
 
 1. すべてのタスクがユーザー 1（コスト/時間が $100.00）に割り当てられた、3 つのタスク（子タスクなし）を持つプロジェクト A を作成します。
 1. 下の表に従って、それぞれのタスクと完了率（%）に予定時間数と実際の時間数を追加します。
@@ -81,7 +81,7 @@ EAC メソッド = プロジェクトレベルで計算****
    **タスク 1 の EAC** = *IF* CPI &lt;> 0 *THEN* EAC = 予定時間数/CPI\
    *ELSE* EAC = 予定時間数 + 実際の時間数\
    **タスク 1 の EAC** = 5 / .04\
-   **タスク 1 の EAC** = 125 時間****
+   **タスク 1 の EAC** = 125 時間&#x200B;**&#x200B;**
 
 1. タスク 2 とタスク 3 の CPI / EAC は以下の通りです。\
    タスク 2 = .12 / 83.33 時間\
@@ -402,88 +402,88 @@ EAC メソッド = プロジェクトレベルで計算
 
 1. 「プロジェクトアクション」から「財務の再計算」を実行します。
 1. **タスク 1 の CPI** = .14
-1. **タスク 1 の CPI****** = .14 は以下のように計算されます。\
-   **タスク 1 の****CPI** = *IF* 実際の労力コスト + OpcedsActualExpenseCost &lt;> 0 *THEN*
+1. **タスク 1 の CPI**&#x200B;**&#x200B;** = .14 は以下のように計算されます。\
+   **タスク 1 の**&#x200B;**CPI** = *IF* 実際の労力コスト + OpcedsActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *ELSE* CPI = CPI_Labor\
-   **タスク 1 の CPI****** = (100+300) / (2500+400)\
-   **タスク 1 の****CPI** = 400 / 2900\
-   **タスク 1 の****CPI** = .14****
+   **タスク 1 の CPI**&#x200B;**&#x200B;** = (100+300) / (2500+400)\
+   **タスク 1 の**&#x200B;**CPI** = 400 / 2900\
+   **タスク 1 の**&#x200B;**CPI** = .14&#x200B;**&#x200B;**
 
-1. **タスク 1 の EAC****** = $13,400.00\
-   **タスク 1 の****CPI 労力** = 実際の労力コスト &lt;> 0 THEN
+1. **タスク 1 の EAC**&#x200B;**&#x200B;** = $13,400.00\
+   **タスク 1 の**&#x200B;**CPI 労力** = 実際の労力コスト &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed/Actual Labor Cost
    ```
 
    ELSE CPI_Labor = 1\
-   **タスク 1 の****CPI 労力** = 100/2500\
-   **タスク 1 の****CPI 労力** = .04 **********タスク 1 の&#x200B;**EAC 労力 =*IF *CPI_Labor &lt;> 0*THEN *EAC 労力 = 予定労力コスト/CPI_Labor\
+   **タスク 1 の**&#x200B;**CPI 労力** = 100/2500\
+   **タスク 1 の**&#x200B;**CPI 労力** = .04 **&#x200B;**&#x200B;**&#x200B;**&#x200B;**タスク 1 の&#x200B;**&#x200B;EAC 労力 =*IF *CPI_Labor &lt;> 0*THEN *EAC 労力 = 予定労力コスト/CPI_Labor\
    *ELSE* EAC 労力 = 予定労力コスト + 実際の労力コスト\
-   タスク 1**の**EAC 労力&#x200B;****= 500.00/.04 の場合\
-   **タスク 1 の EAC 労力****** = $12,500.00\
-   **タスク 1 の EAC****費用** = OccedsActualExpenseCost + NotOccededPlannedExpense\
-   **タスク 1 の EAC****費用** = $400.00 + $500.00\
-   **タスク 1 の EAC****費用** = $900.00 の場合\
-   **タスク 1 の EAC****** = EAC 労力 + EAC 費用\
-   **タスク 1 の EAC****** = $12,500.00 + $900.00\
-   **タスク 1 の EAC****** = $13,400.00
+   タスク 1&#x200B;**の**&#x200B;EAC 労力&#x200B;**&#x200B;**= 500.00/.04 の場合\
+   **タスク 1 の EAC 労力**&#x200B;**&#x200B;** = $12,500.00\
+   **タスク 1 の EAC**&#x200B;**費用** = OccedsActualExpenseCost + NotOccededPlannedExpense\
+   **タスク 1 の EAC**&#x200B;**費用** = $400.00 + $500.00\
+   **タスク 1 の EAC**&#x200B;**費用** = $900.00 の場合\
+   **タスク 1 の EAC**&#x200B;**&#x200B;** = EAC 労力 + EAC 費用\
+   **タスク 1 の EAC**&#x200B;**&#x200B;** = $12,500.00 + $900.00\
+   **タスク 1 の EAC**&#x200B;**&#x200B;** = $13,400.00
 
 1. タスク 2 とタスク 3 の CPI/EAC 値は以下の通りです。\
    タスク 2 = .19 / $8,433.33\
    タスク 3 = .44 / $6,950.00
 
 1. **プロジェクトの CPI** = .32 は以下のように計算されます。\
-   **プロジェクトの CPI****** = *IF* 実際の労力コスト + OpcedsActualExpenseCost &lt;> 0 *THEN*
+   **プロジェクトの CPI**&#x200B;**&#x200B;** = *IF* 実際の労力コスト + OpcedsActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *ELSE* CPI = CPI_Labor\
-   **プロジェクトの CPI****** = (1000 + 2300) / (7500 + 2700)\
-   **プロジェクトの CPI****** = 3300 / 10200\
-   **プロジェクトの CPI****** = .32
+   **プロジェクトの CPI**&#x200B;**&#x200B;** = (1000 + 2300) / (7500 + 2700)\
+   **プロジェクトの CPI**&#x200B;**&#x200B;** = 3300 / 10200\
+   **プロジェクトの CPI**&#x200B;**&#x200B;** = .32
 
 1. **プロジェクトの EAC** = $28,200.00 は以下のように計算されます。\
-   **プロジェクトの CPI 労力****** = 実際の労力コスト &lt;> 0 THEN
+   **プロジェクトの CPI 労力**&#x200B;**&#x200B;** = 実際の労力コスト &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed/Actual Labor Cost
    ```
 
    ELSE CPI_Labor = 1\
-   **プロジェクトの CPI 労力****** = 1000 / 7500\
-   **プロジェクトの CPI 労力****** = .13333\
-   **プロジェクトの CPI 労力****** = .13
+   **プロジェクトの CPI 労力**&#x200B;**&#x200B;** = 1000 / 7500\
+   **プロジェクトの CPI 労力**&#x200B;**&#x200B;** = .13333\
+   **プロジェクトの CPI 労力**&#x200B;**&#x200B;** = .13
 
-   **プロジェクトの EAC労力****** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **プロジェクトの EAC労力**&#x200B;**&#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
    ```
 
    *ELSE* EAC 労力 = 予定労力コスト + 実際の労力コスト\
-   **プロジェクトの EAC 労力****** = 3000/ .13333\
-   **プロジェクトの EAC 労力****** = $22,500.00
+   **プロジェクトの EAC 労力**&#x200B;**&#x200B;** = 3000/ .13333\
+   **プロジェクトの EAC 労力**&#x200B;**&#x200B;** = $22,500.00
 
-   **EAC 費用****プロジェクト** =
+   **EAC 費用**&#x200B;**プロジェクト** =
 
    ```
    IncurredActualExpenseCost + NotIncurredPlannedExpense
    ```
 
-   **EAC 費用****プロジェクト** = $3,000.00 + 2,700.00\
-   **EAC 費用****プロジェクト** = $5,700.00
+   **EAC 費用**&#x200B;**プロジェクト** = $3,000.00 + 2,700.00\
+   **EAC 費用**&#x200B;**プロジェクト** = $5,700.00
 
-   **EAC****プロジェクト** = EAC 労力 + EAC 費用\
-   **EAC****プロジェクト** = $22,500.00 + $5,700.00\
-   **EAC****プロジェクト** = $28,200.00
+   **EAC**&#x200B;**プロジェクト** = EAC 労力 + EAC 費用\
+   **EAC**&#x200B;**プロジェクト** = $22,500.00 + $5,700.00\
+   **EAC**&#x200B;**プロジェクト** = $28,200.00
 
 #### 複雑な例：プロジェクトに子タスクがある {#complicated-example-project-has-children-tasks-1}
 
@@ -575,7 +575,7 @@ EAC メソッド = プロジェクトレベルで計算
  </tbody> 
 </table>
 
-1. プロジェクトに 50 時間を直接追加し（その他／時間数／時間数を記録）し、実際の労力コストの 5,000.00 ドルがプロジェクトに直接記録されるようにします。****
+1. プロジェクトに 50 時間を直接追加し（その他／時間数／時間数を記録）し、実際の労力コストの 5,000.00 ドルがプロジェクトに直接記録されるようにします。**&#x200B;**
 1. 以下の表に従って、各タスクに費用を追加します（読みやすくするために、各タスクの間に空白行を追加しました）。
 
 <table style="table-layout:auto"> 
@@ -813,31 +813,31 @@ EAC メソッド = プロジェクトレベルで計算
 1. タスク 2 の **CPI** = .17 は以下のように計算されます。\
    **CPI タスク 2** = *IF* 実際の労力コスト + IncurredActualExpenseCost  &lt;> 0 *THEN* CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)\
    *   ELSE* CPI = CPI_Labor\
-   **CPI****タスク 2** = (100+300) / (1000+1300)\
-   **CPI****タスク 2**  = 400 / 2300\
-   **CPI****タスク 2**  = .17
+   **CPI**&#x200B;**タスク 2** = (100+300) / (1000+1300)\
+   **CPI**&#x200B;**タスク 2**  = 400 / 2300\
+   **CPI**&#x200B;**タスク 2**  = .17
 
 1. タスク 2 の **EAC** = $5,900.00\
-   **CPI 労力****タスク 2** = IF 実際の労力コスト &lt;> 0 THEN CPI_Labor = TotalBudgetedCostWorkPerformed / 実際の労力コスト\
+   **CPI 労力**&#x200B;**タスク 2** = IF 実際の労力コスト &lt;> 0 THEN CPI_Labor = TotalBudgetedCostWorkPerformed / 実際の労力コスト\
    ELSE CPI_Labor = 1\
-   **CPI 労力****タスク 2** = 100/1000\
-   **CPI 労力****タスク 2** = .1
+   **CPI 労力**&#x200B;**タスク 2** = 100/1000\
+   **CPI 労力**&#x200B;**タスク 2** = .1
 
-   **EAC 労力****タスク 2** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC 労力**&#x200B;**タスク 2** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
    ```
 
    *   ELSE* EAC  Labor = 予定労力コスト + 実際の労力コスト\
-   **EAC 労力****タスク 2** = 500.00/.1\
-   **EAC 労力****タスク 2** = $5,000.00 ****** EAC 費用&#x200B;****タスク 2 **= IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC 費用&#x200B;****タスク 2** = $1,300.00 + -$400.00\
-   **EAC 費用****タスク 2** = $900.00
+   **EAC 労力**&#x200B;**タスク 2** = 500.00/.1\
+   **EAC 労力**&#x200B;**タスク 2** = $5,000.00 **&#x200B;**&#x200B;**&#x200B; EAC 費用&#x200B;**&#x200B;**タスク 2 &#x200B;**= IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **EAC 費用&#x200B;**&#x200B;**タスク 2** = $1,300.00 + -$400.00\
+   **EAC 費用**&#x200B;**タスク 2** = $900.00
 
-   **EAC****タスク 2** = EAC 労力+ EAC 費用\
-   **EAC****タスク 2**  = $5,000.00 + $900.00\
-   **EAC****タスク 2**  = $5,900.00
+   **EAC**&#x200B;**タスク 2** = EAC 労力+ EAC 費用\
+   **EAC**&#x200B;**タスク 2**  = $5,000.00 + $900.00\
+   **EAC**&#x200B;**タスク 2**  = $5,900.00
 
 1. タスク 4、5、6 の CPI/EAC は同じ方法で決定されるので、ここでは値だけを以下に示します。\
    タスク 4：.23 / $3,400.00\
@@ -845,83 +845,83 @@ EAC メソッド = プロジェクトレベルで計算
    タスク 6：1.06 / $2,366.67
 
 1. タスク 3 の CPI = .31 は以下のように計算されます。\
-   **CPI****タスク 3** = *IF* 実際の労力コスト + IncurredActualExpenseCost  &lt;> 0 *THEN*
+   **CPI**&#x200B;**タスク 3** = *IF* 実際の労力コスト + IncurredActualExpenseCost  &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   **CPI****タスク 3**  = (1,150 + 500) / (3000 + 2400)\
-   **CPI****タスク 3**  =  1650 / 5400\
-   **CPI****タスク 3**  = .31 ******&#x200B;タスク 3 のEAC **= $9,521.74 は以下のように計算されます。\
-   **CPI 労力&#x200B;****タスク 3** = IF 実際の労力コスト &lt;> 0 THEN
+   **CPI**&#x200B;**タスク 3**  = (1,150 + 500) / (3000 + 2400)\
+   **CPI**&#x200B;**タスク 3**  =  1650 / 5400\
+   **CPI**&#x200B;**タスク 3**  = .31 **&#x200B;**&#x200B;**&#x200B;タスク 3 のEAC &#x200B;**= $9,521.74 は以下のように計算されます。\
+   **CPI 労力&#x200B;**&#x200B;**タスク 3** = IF 実際の労力コスト &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    ELSE CPI_Labor = 1\
-   **CPI 労力****タスク 3** = 1150/3000\
-   **CPI 労力****タスク 3** = .383333\
-   **CPI 労力****タスク 3** = .38
+   **CPI 労力**&#x200B;**タスク 3** = 1150/3000\
+   **CPI 労力**&#x200B;**タスク 3** = .383333\
+   **CPI 労力**&#x200B;**タスク 3** = .38
 
-   **EAC 労力****タスク 3** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC 労力**&#x200B;**タスク 3** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    *   ELSE* EAC  Labor = 予定労力コスト + 実際の労力コスト\
-   **EAC 労力****タスク 3** = $2,500.00 / .383333\
-   **EAC 労力****タスク 3** = 6,521.74 ドル
+   **EAC 労力**&#x200B;**タスク 3** = $2,500.00 / .383333\
+   **EAC 労力**&#x200B;**タスク 3** = 6,521.74 ドル
 
-   **EAC 費用****タスク 3** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC 費用****タスク 3** = 2,400.00 ドル + 600.00 ドル\
-   **EAC 費用****タスク 3** = 3,000.00 ドル
+   **EAC 費用**&#x200B;**タスク 3** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **EAC 費用**&#x200B;**タスク 3** = 2,400.00 ドル + 600.00 ドル\
+   **EAC 費用**&#x200B;**タスク 3** = 3,000.00 ドル
 
-   **EAC****タスク 3** = EAC 労力 + EAC 費用\
-   **EAC****タスク 3**  = 6,521.74 ドル + 3,000.00 ドル\
-   **EAC****タスク 3**  = 9,521.74 ドル
+   **EAC**&#x200B;**タスク 3** = EAC 労力 + EAC 費用\
+   **EAC**&#x200B;**タスク 3**  = 6,521.74 ドル + 3,000.00 ドル\
+   **EAC**&#x200B;**タスク 3**  = 9,521.74 ドル
 
 1. 以下の計算のとおり、タスク 1 の CPI = .16 になります。\
-   **CPI****タスク 1** = *IF* 実際の労力コスト + IncurredActualExpenseCost  &lt;> 0 *THEN*
+   **CPI**&#x200B;**タスク 1** = *IF* 実際の労力コスト + IncurredActualExpenseCost  &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   **CPI****タスク 1**  = (1250 + 300) / (5000 + 4500)\
-   **CPI****タスク 1**  =  1550 / 9500=\
-   **CPI****タスク 1**  = .16
+   **CPI**&#x200B;**タスク 1**  = (1250 + 300) / (5000 + 4500)\
+   **CPI**&#x200B;**タスク 1**  =  1550 / 9500=\
+   **CPI**&#x200B;**タスク 1**  = .16
 
 1. 以下の計算のとおり、タスク 1 の EAC は 17,100.00 ドルになります。\
-   **CPI 労力****タスク 1** = IF 実際の労力コスト &lt;> 0 THEN
+   **CPI 労力**&#x200B;**タスク 1** = IF 実際の労力コスト &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    ELSE CPI_Labor = 1\
-   **CPI 労力****タスク 1** = 1250 / 5000\
-   **CPI 労力****タスク 1** = .25
+   **CPI 労力**&#x200B;**タスク 1** = 1250 / 5000\
+   **CPI 労力**&#x200B;**タスク 1** = .25
 
-   **EAC 労力****タスク 1** = *IF* CPI_Labor &lt;> 0 *THEN* EAC 労力 = 予定労力コスト / CPI_Labor\
+   **EAC 労力**&#x200B;**タスク 1** = *IF* CPI_Labor &lt;> 0 *THEN* EAC 労力 = 予定労力コスト / CPI_Labor\
    *   ELSE* EAC 労力 = 予定労力コスト + 実際の労力コスト\
-   **EAC 労力****タスク 1** = 3,000.00 ドル / .25\
-   **EAC 労力****タスク 1** = 12,000.00 ドル
+   **EAC 労力**&#x200B;**タスク 1** = 3,000.00 ドル / .25\
+   **EAC 労力**&#x200B;**タスク 1** = 12,000.00 ドル
 
-   **EAC 費用****タスク 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC 費用****タスク 1** = 4500 ドル + 600\
-   **EAC 費用****タスク 1** = 5,100.00 ドル
+   **EAC 費用**&#x200B;**タスク 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **EAC 費用**&#x200B;**タスク 1** = 4500 ドル + 600\
+   **EAC 費用**&#x200B;**タスク 1** = 5,100.00 ドル
 
-   **EAC****タスク 1** = EAC 労力 + EAC 費用\
-   **EAC****タスク 1**  = 12,000.00 ドル + 5,100.00\
-   **EAC****Task 1**  = 17,100.00 ドル
+   **EAC**&#x200B;**タスク 1** = EAC 労力 + EAC 費用\
+   **EAC**&#x200B;**タスク 1**  = 12,000.00 ドル + 5,100.00\
+   **EAC**&#x200B;**Task 1**  = 17,100.00 ドル
 
 1. プロジェクトの CPI は .25 になります。\
-   **CPI****プロジェクト** = *IF* 実際の労力コスト + IncurredActualExpenseCost  &lt;> 0 *THEN*
+   **CPI**&#x200B;**プロジェクト** = *IF* 実際の労力コスト + IncurredActualExpenseCost  &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
@@ -929,37 +929,37 @@ EAC メソッド = プロジェクトレベルで計算
 
    *   ELSE* CPI = CPI_Labor
 
-   **CPI****プロジェクト** = (2450 + 1900) / (11000 + 6700)\
-   **CPI****プロジェクト** = 4350 / 17700\
-   **CPI****プロジェクト** = .25
+   **CPI**&#x200B;**プロジェクト** = (2450 + 1900) / (11000 + 6700)\
+   **CPI**&#x200B;**プロジェクト** = 4350 / 17700\
+   **CPI**&#x200B;**プロジェクト** = .25
 
 1. 以下の計算のとおり、**プロジェクトの EAC** = 32,248.98 ドルになります。\
-   **CPI 労力****プロジェクト** = IF 実際の労力コスト &lt;> 0 THEN
+   **CPI 労力**&#x200B;**プロジェクト** = IF 実際の労力コスト &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    ELSE CPI_Labor = 1\
-   **CPI 労力****プロジェクト** = 2450 / 11000\
-   **CPI 労力****プロジェクト** = .22272\
-   **CPI 労力****プロジェクト** = .22
+   **CPI 労力**&#x200B;**プロジェクト** = 2450 / 11000\
+   **CPI 労力**&#x200B;**プロジェクト** = .22272\
+   **CPI 労力**&#x200B;**プロジェクト** = .22
 
-   **EAC 労力****プロジェクト** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC 労力**&#x200B;**プロジェクト** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    *   ELSE* EAC 労力 = 予定労力コスト + 実際の労力コスト\
-   **EAC 労力****プロジェクト** = 5,000.00 ドル / .22272\
-   **EAC 労力****プロジェクト** = 22,448.97959 ドル\
-   **EAC 労力****プロジェクト** = 22,448.98 ドル
+   **EAC 労力**&#x200B;**プロジェクト** = 5,000.00 ドル / .22272\
+   **EAC 労力**&#x200B;**プロジェクト** = 22,448.97959 ドル\
+   **EAC 労力**&#x200B;**プロジェクト** = 22,448.98 ドル
 
-   **EAC 費用****プロジェクト** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC 費用****プロジェクト** = 3,100.00 ドル + 6,700.00 ドル\
-   **EAC 費用****プロジェクト** = 9,800.00 ドル
+   **EAC 費用**&#x200B;**プロジェクト** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **EAC 費用**&#x200B;**プロジェクト** = 3,100.00 ドル + 6,700.00 ドル\
+   **EAC 費用**&#x200B;**プロジェクト** = 9,800.00 ドル
 
-   **EAC****プロジェクト** = EAC 労力 + EAC 費用\
-   **EAC****プロジェクト** = 22,448.98 ドル + 9,800.00\
-   **EAC****プロジェクト** = $32,248.98
+   **EAC**&#x200B;**プロジェクト** = EAC 労力 + EAC 費用\
+   **EAC**&#x200B;**プロジェクト** = 22,448.98 ドル + 9,800.00\
+   **EAC**&#x200B;**プロジェクト** = $32,248.98

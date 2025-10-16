@@ -116,7 +116,7 @@ ht-degree: 66%
 
    先行タスクが完了とマークされると、先行タスクのアイコンが緑色に変わります。これは、依存タスクの作業準備ができたことを示します。
 
-   「先行タスク」列で使用できる関係タイプについて詳しくは、[ タスク先行タスクの概要 ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) を参照してください。
+   「先行タスク」列で使用できる関係タイプについて詳しくは、[&#x200B; タスク先行タスクの概要 &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) を参照してください。
 
 ## 先行タスクの詳細を表示
 

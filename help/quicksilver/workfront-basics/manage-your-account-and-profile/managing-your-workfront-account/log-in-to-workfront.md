@@ -26,7 +26,7 @@ ht-degree: 74%
 
   会社のドメイン名は、[!DNL Workfront] によって確立されます。ドメイン名を変更する場合は、カスタマーサポートチームにお問い合わせください。カスタマーサポートチームへの問い合わせ方法について詳しくは、[カスタマーサポートに連絡](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 
-* **ユーザー名：**[!DNL Workfront] 管理者がユーザー名を設定します。
+* **ユーザー名：**&#x200B;[!DNL Workfront] 管理者がユーザー名を設定します。
 * **パスワード：**&#x200B;システムが SSO 用に設定されていない場合は、[!DNL Workfront] 管理者からのメールの招待状を受信した後に [!DNL Workfront] パスワードを設定します。
 
   SSO を使用した [!DNL Workfront] へのログインについて詳しくは、この記事内の[SSO を使用した  [!DNL Workfront]  へのログイン](#log-in-to-workfront-with-sso)を参照してください。
@@ -77,7 +77,7 @@ ht-degree: 74%
 
 ## SSO を使用した [!DNL Workfront] へのログイン
 
-[!DNL Workfront] 管理者が [!DNL Workfront] をシングルサインオンソリューションと統合した場合、[!DNL Workfront] にログインする際に必要な情報について、担当者に問い合わせる必要があります。Workfront と SSO ソリューションの統合について詳しくは、[ [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
+[!DNL Workfront] 管理者が [!DNL Workfront] をシングルサインオンソリューションと統合した場合、[!DNL Workfront] にログインする際に必要な情報について、担当者に問い合わせる必要があります。Workfront と SSO ソリューションの統合について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
 
 [!DNL Workfront] にログインするために、お使いの SSO ユーザー名とパスワードを使用
 
@@ -131,7 +131,7 @@ ht-degree: 74%
 
 1. （条件付き）初めてログインする場合、[!DNL Workfront] モバイルアプリがアカウントにアクセスするための権限を要求するページが表示されます。 「**アクセスを許可**」をクリックして続行します。
 
-1. デスクトップ サイトと同じようにログインできる Web ページにリダイレクトされます。 このプロセスは組織のWorkfrontの設定によって異なります。詳しくは、上記の [SSO を使用せずに  [!DNL Workfront]  ログイン ](#log-in-to-workfront-without-sso) または [SSO を使用して  [!DNL Workfront]  ログイン ](#log-in-to-workfront-with-sso) を参照してください。
+1. デスクトップ サイトと同じようにログインできる Web ページにリダイレクトされます。 このプロセスは組織のWorkfrontの設定によって異なります。詳しくは、上記の [SSO を使用せずに  [!DNL Workfront]  ログイン &#x200B;](#log-in-to-workfront-without-sso) または [SSO を使用して  [!DNL Workfront]  ログイン &#x200B;](#log-in-to-workfront-with-sso) を参照してください。
 
    完了すると、によってモバイルアプリにリダイレクトされ、ログインします。
 

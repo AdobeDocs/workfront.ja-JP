@@ -45,7 +45,7 @@ ht-degree: 81%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>リストが含まれるオブジェクトに対する [!UICONTROL ビュー ] アクセス許可</p>  </td> 
+   <td> <p>リストが含まれるオブジェクトに対する [!UICONTROL ビュー &#x200B;] アクセス許可</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +76,7 @@ ht-degree: 81%
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. **[!UICONTROL エクスポート]** アイコン ![ エクスポート ](assets/export.png) をクリックします。
+1. **[!UICONTROL エクスポート]** アイコン ![&#x200B; エクスポート &#x200B;](assets/export.png) をクリックします。
 
 1. 次の形式から選択します。
 

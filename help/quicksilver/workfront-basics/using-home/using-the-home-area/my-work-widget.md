@@ -61,7 +61,7 @@ ht-degree: 9%
 
 マイ作業フィルターを微調整して、作業リストの特定の項目に焦点を当てることができます。
 
-![ 担当作業フィルター ](assets/filter-my-work-widget.png)
+![&#x200B; 担当作業フィルター &#x200B;](assets/filter-my-work-widget.png)
 
 ### フィルターの詳細
 
@@ -112,7 +112,7 @@ ht-degree: 9%
 
 >[!TIP]
 >
->より具体的なフィルタリングオプションを探している場合は、マイタスクまたはマイイシューのウィジェットを使用できます。 自分のタスクおよび自分の問題のフィルターについて詳しくは、[ ホーム ウィジェットフィルターの概要 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md) を参照してください。
+>より具体的なフィルタリングオプションを探している場合は、マイタスクまたはマイイシューのウィジェットを使用できます。 自分のタスクおよび自分の問題のフィルターについて詳しくは、[&#x200B; ホーム ウィジェットフィルターの概要 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md) を参照してください。
 
 ## 作業の整理
 
@@ -133,7 +133,7 @@ ht-degree: 9%
 >自分の作業ウィジェットの上部にすべての期限切れ項目を表示するリストを作成するには、期限で並べ替え、グループ化を適用しないようにします。
 
 
-![ 担当作業ウィジェットで並べ替え ](assets/sort-my-work-widget.png)
+![&#x200B; 担当作業ウィジェットで並べ替え &#x200B;](assets/sort-my-work-widget.png)
 
 ### グループ
 
@@ -149,7 +149,7 @@ ht-degree: 9%
 >グループ化を適用する場合、並べ替えメニューでの選択によって、グループ化内の順序が決まります。
 
 
-![ 担当作業ウィジェットでのグループ化 ](assets/group-my-work-widget.png)
+![&#x200B; 担当作業ウィジェットでのグループ化 &#x200B;](assets/group-my-work-widget.png)
 
 ## 概要の作業項目情報を更新
 
@@ -159,15 +159,15 @@ ht-degree: 9%
 * 更新を追加
 * ドキュメント エリアに移動して、ドキュメントをアップロードします
 * 作業項目の詳細の表示とカスタムフィールドの更新
-Workfront管理者は、レイアウトテンプレートの概要に表示するフィールドをカスタマイズできます。 詳しくは、[ レイアウトテンプレートを使用した概要パネルのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
+Workfront管理者は、レイアウトテンプレートの概要に表示するフィールドをカスタマイズできます。 詳しくは、[&#x200B; レイアウトテンプレートを使用した概要パネルのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
 * 作業項目の状態の変更
 * サブタスクの表示
 * 時間を記録
 * 添付された承認プロセスの表示
 
-概要を開くには、作業項目にマウスポインターを置き、**概要** アイコン ![ 概要アイコン ](assets/open-summary-new-home.png) をクリックします。
+概要を開くには、作業項目にマウスポインターを置き、**概要** アイコン ![&#x200B; 概要アイコン &#x200B;](assets/open-summary-new-home.png) をクリックします。
 
-概要パネルの使用方法について詳しくは、[ 概要の概要 ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md) を参照してください。
+概要パネルの使用方法について詳しくは、[&#x200B; 概要の概要 &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md) を参照してください。
 
 ## クイックアクションを使用した作業項目の更新
 
@@ -180,7 +180,7 @@ Workfront管理者は、レイアウトテンプレートの概要に表示す�
 
 クイックアクションメニューを見つけるには、作業項目にポインタを合わせます。 クイックアクションリストは、**作業対象** または **完了** ボタンの近くに表示されます。
 
-![ クイックアクションメニュー ](assets/quick-actions-new-home.png)
+![&#x200B; クイックアクションメニュー &#x200B;](assets/quick-actions-new-home.png)
 
 
 ## 承認およびチーム要求の表示
@@ -191,4 +191,4 @@ Workfront管理者は、レイアウトテンプレートの概要に表示す�
 * すべての承認
 * チームのリクエスト
 
-新しいホームページへのウィジェットの追加について詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
+新しいホームページへのウィジェットの追加について詳しくは、[&#x200B; ホームでのウィジェットの追加、編集、削除 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。

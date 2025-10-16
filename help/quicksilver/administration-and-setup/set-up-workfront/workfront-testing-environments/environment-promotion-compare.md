@@ -74,7 +74,7 @@ ht-degree: 12%
 
 >[!BEGINSHADEBOX]
 
-![ 比較の例 ](assets/environment-promotion-comparison.png)
+![&#x200B; 比較の例 &#x200B;](assets/environment-promotion-comparison.png)
 
 この例では、次のようになります。
 
@@ -86,7 +86,7 @@ ht-degree: 12%
 
 特定のオブジェクトの違いを表示するには：
 
-1. そのオブジェクトの行にある虫眼鏡アイコン ![ 比較アイコン ](assets/compare-icon.png) をクリックします。
+1. そのオブジェクトの行にある虫眼鏡アイコン ![&#x200B; 比較アイコン &#x200B;](assets/compare-icon.png) をクリックします。
 
    そのオブジェクトのすべてのフィールドを含むウィンドウが開きます。 違いは赤でマークされています。
 
@@ -94,4 +94,4 @@ ht-degree: 12%
 
 オブジェクト比較から直接パッケージを作成できます。
 
-手順については、「環境プロモーションパッケージの作成または編集」の [ オブジェクト比較からパッケージを作成する ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-a-package-from-an-object-comparison) を参照してください。
+手順については、「環境プロモーションパッケージの作成または編集」の [&#x200B; オブジェクト比較からパッケージを作成する &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-a-package-from-an-object-comparison) を参照してください。

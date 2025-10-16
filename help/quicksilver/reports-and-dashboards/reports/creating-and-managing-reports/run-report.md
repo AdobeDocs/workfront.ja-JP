@@ -92,7 +92,7 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
 
 * レポート設定を編集し、レポートを保存します。
 * ビュー、グループまたはフィルターを変更します。
-* **再読み込みアイコン**![ 再読み込みアイコン ](assets/unshimmed-report-refresh-icon.png) をクリックします
+* **再読み込みアイコン**![&#x200B; 再読み込みアイコン &#x200B;](assets/unshimmed-report-refresh-icon.png) をクリックします
 このオプションは、レポートが保存された時刻を示すメッセージ ボックス内のページの右上隅か、レポートが配置されているダッシュボードの右上隅にあります。 ダッシュボードの再読み込みについて詳しくは、[ダッシュボードの概要](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)の記事の「ダッシュボードを表示」の節を参照してください。
 
 * 「概要」タブ、「マトリックス」タブまたは「グラフ」タブに移動して、最初のページ以外のレポートのページにアクセスします。

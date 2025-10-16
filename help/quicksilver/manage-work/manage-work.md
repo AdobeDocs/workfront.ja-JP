@@ -29,7 +29,7 @@ Adobe Workfront を使用して作業を管理できます。
 
 * [プロジェクト：記事インデックス](../manage-work/projects/projects-overview.md)
 * [タスク：記事インデックス](../manage-work/tasks/tasks-overview.md)
-* [ 問題：記事インデックス ](../manage-work/issues/issues-overview.md)
+* [&#x200B; 問題：記事インデックス &#x200B;](../manage-work/issues/issues-overview.md)
 * [ガントチャート](../manage-work/gantt-chart/the-gantt-chart.md)
 * [ポートフォリオ管理](../manage-work/portfolios/portfolio-management-overview.md)
 * [リクエスト](../manage-work/requests/requests-overview.md)

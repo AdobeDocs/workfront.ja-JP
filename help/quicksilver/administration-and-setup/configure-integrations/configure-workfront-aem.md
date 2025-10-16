@@ -69,7 +69,7 @@ ht-degree: 72%
 
 ## [!DNL AEM Assets] コネクタをインストールするための前提条件
 
-[!DNL Workfront]AEM Assets[!UICONTROL  の ] コネクタをインストールする前に、次の前提条件が満たされていることを確認してください。
+[!DNL Workfront]AEM Assets[!UICONTROL &#x200B; の &#x200B;] コネクタをインストールする前に、次の前提条件が満たされていることを確認してください。
 
 * [!UICONTROL AEM Assets] は、バージョン 6.5 以降でインストールおよび設定されています。 [!UICONTROL AEM Assets] のインストールについては、[[!DNL Adobe Experience Manager]  ドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager)を参照してください。
 * （条件付き）ファイアウォールのルールが期待どおりにトラフィックを許可しない場合は、クラスターの IP アドレスやドメインを許可リストに追加します。詳しくは、[ファイアウォールの許可リストの設定](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
@@ -78,7 +78,7 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->以下の手順は、[!DNL Workfront with AEM Assets] 拡張コネクタ [[!DNL Workfront for Experience Manager]  に置き換えられた ](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) しい従来のコネクタを対象としています。 詳しくは、アカウント担当者にお問い合わせください。
+>以下の手順は、[!DNL Workfront with AEM Assets] 拡張コネクタ [[!DNL Workfront for Experience Manager]  に置き換えられた &#x200B;](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) しい従来のコネクタを対象としています。 詳しくは、アカウント担当者にお問い合わせください。
 
 [!DNL Workfront for AEM Assets] コネクタをインストールするには、[!UICONTROL CRX パッケージマネージャー] を使用して、コネクタをパッケージとして AEM に読み込む必要があります。
 
@@ -102,15 +102,15 @@ ht-degree: 72%
    Package installed in <time>
    ```
 
-1. [!UICONTROL CRX パッケージマネージャー ] を閉じます。 コネクタがインストールされ、[!DNL Workfront] と統合するように [!DNL AEM Assets] を設定できるようになりました。
+1. [!UICONTROL CRX パッケージマネージャー &#x200B;] を閉じます。 コネクタがインストールされ、[!DNL Workfront] と統合するように [!DNL AEM Assets] を設定できるようになりました。
 
-1. [ [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) と統合する  [!DNL AEM Assets]  の設定に進みます。
+1. [&#x200B; [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) と統合する  [!DNL AEM Assets]  の設定に進みます。
 
 ## [!DNL Workfront] と統合する [!DNL AEM Assets] の設定 {#configure-aem-assets-to-integrate-with-workfront}
 
 コネクタをインストールした後、コネクタパッケージを AEM に読み込みし、[!DNL Workfront] 内のドキュメントとリンクするように AEM を設定します。
 
-コネクタのインストールについて詳しくは、[ [!DNL Workfront for AEM Assets]  コネクタパッケージのインストール](#install-the-workfront-for-aem-assets-connector-package)を参照してください。
+コネクタのインストールについて詳しくは、[&#x200B; [!DNL Workfront for AEM Assets]  コネクタパッケージのインストール](#install-the-workfront-for-aem-assets-connector-package)を参照してください。
 
 * [前提条件](#prerequisites)
 * [AEM の  [!DNL Workfront] との統合](#integrate-aem-with-workfront)
@@ -235,13 +235,13 @@ ht-degree: 72%
    ![[!DNL Extenalizer].png](assets/extenalizer-350x128.png)
 
 1. （条件付き）必要に応じて、「**[!UICONTROL 作成者]**」フィールドのドメインを更新します。
-1. 「**[!UICONTROL 保存]**」をクリックします。ドキュメントを [!UICONTROL  とリンクするように ]0}AEM Assets} が構成されました。[!DNL Workfront]
+1. 「**[!UICONTROL 保存]**」をクリックします。ドキュメントを [!UICONTROL &#x200B; とリンクするように &#x200B;]0&rbrace;AEM Assets&rbrace; が構成されました。[!DNL Workfront]
 
-1. [ [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets) と統合する  [!DNL Workfront]  の設定を続行します。
+1. [&#x200B; [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets) と統合する  [!DNL Workfront]  の設定を続行します。
 
 ## [!DNL AEM assets] と統合する [!DNL Workfront] の設定 {#configure-workfront-to-integrate-with-aem-assets}
 
-[!UICONTROL AEM Assets 用 Workfront] コネクタをインストール後（[[!UICONTROL AEM Assets 用 Workfront] コネクタパッケージのインストール](#install-the-workfront-for-aem-assets-connector-package)参照）、[!UICONTROL AEM Assets] を設定し（[ [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)と統合する[!UICONTROL  AEM Assets] の設定参照）、[!DNL Workfront] および [!DNL AEM Assets] 間でドキュメントをリンクする [!DNL Workfront] を設定します。
+[!UICONTROL AEM Assets 用 Workfront] コネクタをインストール後（[[!UICONTROL AEM Assets 用 Workfront] コネクタパッケージのインストール](#install-the-workfront-for-aem-assets-connector-package)参照）、[!UICONTROL AEM Assets] を設定し（[&#x200B; [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)と統合する[!UICONTROL &#x200B; AEM Assets] の設定参照）、[!DNL Workfront] および [!DNL AEM Assets] 間でドキュメントをリンクする [!DNL Workfront] を設定します。
 
 1. 管理者としてWorkfrontにログインします。
 
@@ -251,7 +251,7 @@ ht-degree: 72%
 
 {{step-1-to-setup}}
 
-1. **[!UICONTROL ドキュメント]**/**[!UICONTROL カスタム統合 ].** をクリックします。
+1. **[!UICONTROL ドキュメント]**/**[!UICONTROL カスタム統合 &#x200B;].** をクリックします。
 
 1. 「**[!UICONTROL カスタム統合を追加]**」をクリックします。
 1. 「**[!UICONTROL 名前]**」ボックスに、カスタム統合の名前を入力します。
@@ -281,7 +281,7 @@ ht-degree: 72%
 
 [!DNL Workfront] 権限について詳しくは、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
-* [ [!DNL AEM assets] でのユーザーの設定](#set-up-users-in-aem-assets)
+* [&#x200B; [!DNL AEM assets] でのユーザーの設定](#set-up-users-in-aem-assets)
 
 ### [!DNL AEM assets] でのユーザーの設定 {#set-up-users-in-aem-assets}
 
@@ -307,7 +307,7 @@ ht-degree: 72%
 
 1. 「**[!UICONTROL グループ]**」タブをクリックします。
 
-   ![ 「グループ」タブ ](assets/groupstab.png)
+   ![&#x200B; 「グループ」タブ &#x200B;](assets/groupstab.png)
 
 1. **[!UICONTROL 作成]**&#x200B;権限と&#x200B;**[!UICONTROL 削除]**&#x200B;権限を含むアクセスレベルを持つ 1 つ以上の [!DNL Workfront] グループにユーザーが属していることを確認してください。
 

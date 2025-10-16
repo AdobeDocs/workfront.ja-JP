@@ -25,7 +25,7 @@ Adobe Workfront インスタンスでシングルサインオン（SSO）が有�
 
 既に SSO 資格情報に関連付けられたユーザーが設定されている既存のシステムがある場合は、コンマ区切り値（CSV）ファイルを Workfront に読み込むことで、Workfront にユーザーの ID を読み込むことができます。
 
-Workfront と SSO システムの統合について詳しくは、[](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
+Workfront と SSO システムの統合について詳しくは、[&#128279;](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
 
 
 ## アクセス要件
@@ -90,7 +90,7 @@ Workfront で SSO ユーザー名フィールドを更新する必要がある�
    | ID | ID は Workfront の英数字の GUID です。 |
    | SSO ユーザー名 | 「SSO ユーザー名」フィールドを追加して、読み込みで上書きされるユーザー名がないことを確認します。ユーザーが SSO 用にまだ更新されていない場合、このフィールドはすべてのユーザーに対して空白です。 |
 
-   ![SSO ユーザー名を持つがアクセスできないユーザー ](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![SSO ユーザー名を持つがアクセスできないユーザー &#x200B;](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. レポートを保存します。
 1. リストの上部にある「**書き出し**」をクリックして、Excel にレポートを書き出します。
@@ -110,7 +110,7 @@ Workfront で SSO ユーザー名フィールドを更新する必要がある�
    * 2 番目の列には、SSO システムに表示される SSO ユーザー名を含める必要があります。
    * 列にはヘッダーを含めないようにし、また名前のリストの先頭に空の行を含めないようにします。
 
-     ![ ユーザー CSV を更新 ](assets/update-users-for-sso-csv-file-for-import.png)
+     ![&#x200B; ユーザー CSV を更新 &#x200B;](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. レポートを CSV または TSV ファイルとしてコンピューターに保存します。
 
@@ -143,6 +143,6 @@ SSO ユーザー名情報を含むユーザーレポートの作成手順につ�
 1. 「SSO ユーザー名」列の値が SSO サーバー上の「SSO ユーザー名」と一致していることを確認します。
 1. 「SSO ユーザー名」列が空白の場合は、ユーザーの SSO ユーザー名を更新します。
 
-   ![SSO フィールドを持つユーザー ](assets/users-with-sso-field-updated.png)
+   ![SSO フィールドを持つユーザー &#x200B;](assets/users-with-sso-field-updated.png)
 
    SSO 用にユーザーを更新する手順については、[SSO 用にユーザーを更新](#update-your-users-for-sso)を参照してください。

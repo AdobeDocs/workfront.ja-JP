@@ -20,7 +20,7 @@ ht-degree: 70%
 
 タスクリストからプロジェクト、プログラム、ポートフォリオへのリンクも表示されます。
 
-![ プログラムとポートフォリオを表示 ](assets/view--program-and-portfolio-350x116.png)
+![&#x200B; プログラムとポートフォリオを表示 &#x200B;](assets/view--program-and-portfolio-350x116.png)
 
 ## アクセス要件
 

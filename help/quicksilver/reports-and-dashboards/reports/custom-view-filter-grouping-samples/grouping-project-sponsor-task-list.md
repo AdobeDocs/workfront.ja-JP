@@ -20,7 +20,7 @@ ht-degree: 64%
 
 このタスクグループ化によって、プロジェクトスポンサー別にタスクをグループ化できます。
 
-![ プロジェクトスポンサーによるグループ化 ](assets/grouping--project-sponsor-for-a-task-350x189.png)
+![&#x200B; プロジェクトスポンサーによるグループ化 &#x200B;](assets/grouping--project-sponsor-for-a-task-350x189.png)
 
 ## アクセス要件
 

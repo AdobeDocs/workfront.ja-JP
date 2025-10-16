@@ -104,7 +104,7 @@ Adobe Workfront の管理者は、Workfront 内で優先度ラベルを変更し
 
 1. **基本情報**&#x200B;エリアの「**優先度**」フィールドをクリックします。
 
-   ![ 問題の優先度 ](assets/issue-priority-field.png)
+   ![&#x200B; 問題の優先度 &#x200B;](assets/issue-priority-field.png)
 
 1. 「**優先度**」フィールドの値を選択します。
 

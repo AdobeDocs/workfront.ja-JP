@@ -73,7 +73,7 @@ ht-degree: 64%
 ## 表示ロジックとスキップロジックの使用に関する考慮事項
 
 * カスタムフィールド、ウィジェットまたはセクション区切りに表示ロジックを追加するには、フォーム上で、1 つ以上の複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）をその前に配置する必要があります。
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 * スキップロジックはウィジェットやセクション区切りに追加することはできません。追加できるのは、複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）のみです。
 * 表示またはスキップロジックを適用して、複数オプションのフィールドの選択肢の表示/非表示を切り替えることはできません。 例えば、ドロップダウン、チェックボックスグループ、ラジオボタンフィールドに表示される選択肢を、別のフィールドの表示またはスキップロジックに基づいて制限することはできません。
 * カスタムフィールドに関して、次の内容がすべてが該当する場合、カスタムフィールドには表示ロジックとスキップロジックの両方を追加できます。
@@ -103,7 +103,7 @@ ht-degree: 64%
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。少なくとも1つの複数選択フィールド（ラジオボタン、ドロップダウン、チェックボックス）が、表示されるターゲットフィールドの前に配置されていなければなりません。
 1. ターゲットフィールドを選択し、「**ロジックを追加**」をクリックします。
 1. ロジックビルダーで「**表示**」タブを選択します。
@@ -188,7 +188,7 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。スキップロジックの定義フィールドは、複数選択フィールド（ラジオボタン、ドロップダウン、チェックボックス）である必要があります。
 1. 定義フィールドを選択し、画面左下の「**ロジックを追加**」をクリックします。
 1. Logic Builder で「**スキップ**」タブを選択します。
@@ -234,23 +234,23 @@ IF({DE:Budget Field} < 0,
 
 他のフィールドに基づく検証の追加の例として、会議室のサイズ （小、中、大）のフィールドと、会議出席者数の個別のフィールドがあります。 各部屋サイズの人数は、検証式に記述されます。 ユーザーが入力した出席者の数が、選択した会議室に対して多すぎる場合は、エラーメッセージが表示されます。
 
-検証ロジックのその他の例については、[ カスタムフォームにおける高度なロジックの例 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md) を参照してください。
+検証ロジックのその他の例については、[&#x200B; カスタムフォームにおける高度なロジックの例 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md) を参照してください。
 
 ### 検証ロジックの定義
 
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。
 1. ロジックを適用するフィールドを選択し、「**ロジックの追加**」をクリックします。
 1. ロジックビルダーで「**検証**」タブを選択します。
 
-   ![ 検証ロジックビルダー ](assets/validation-logic-blank-editor-val-only-in-menu.png)
+   ![&#x200B; 検証ロジックビルダー &#x200B;](assets/validation-logic-blank-editor-val-only-in-menu.png)
 
 1. エディターで検証条件を作成します。これには、検証が満たされない場合に表示するエラーメッセージが含まれます。
 
-   計算と式について詳しくは、[ フォームに計算フィールドを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) および [ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
+   計算と式について詳しくは、[&#x200B; フォームに計算フィールドを追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) および [&#x200B; 計算データ式の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
 
 1. 「**適用**」をクリックします。
 

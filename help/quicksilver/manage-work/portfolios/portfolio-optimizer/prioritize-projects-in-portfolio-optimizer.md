@@ -51,7 +51,7 @@ ht-degree: 88%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL 編集 ] [!UICONTROL ポートフォリオ ] および [!UICONTROL プロジェクト ] へのアクセス</p>  </td>
+   <td> <p>[!UICONTROL 編集 &#x200B;] [!UICONTROL ポートフォリオ &#x200B;] および [!UICONTROL プロジェクト &#x200B;] へのアクセス</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -60,7 +60,7 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfrontのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -94,7 +94,7 @@ ht-degree: 88%
 
 ## [!UICONTROL ポートフォリオオプティマイザー]内のプロジェクト優先度の変更
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
 
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
 1. （オプション） **[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューで正しいフィルターを選択すると、ポートフォリオの正しいリストが表示されます。
@@ -102,7 +102,7 @@ ht-degree: 88%
 1. 左側のパネルで「**[!UICONTROL ポートフォリオの最適化]**」をクリックします。
 1. [!UICONTROL プロジェクト最適化]領域で、プロジェクトの優先度を変更するには、優先度の高い順にプロジェクトをドラッグし、目的の表示位置にドロップします。
 
-   ![Portfolio Optimizer とプロジェクト ](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Portfolio Optimizer とプロジェクト &#x200B;](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    プロジェクトの再配置が完了したら、プロジェクトの最適化領域で「**[!UICONTROL 優先度を設定]**」をクリックします。プロジェクトには、新しい順序に基づいて新しい番号が割り振られます。
 

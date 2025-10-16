@@ -103,10 +103,10 @@ ht-degree: 88%
    * **終了日**：新規請求料金の上書きが終了する日付です。
 
    <span class="preview"> プレビュー環境のサンプル画像：</span>
-   ![ 請求料率と上書き日 ](assets/billing-rates-093025.png)
+   ![&#x200B; 請求料率と上書き日 &#x200B;](assets/billing-rates-093025.png)
 
    本番環境のサンプル画像：
-   ![ 請求料率と上書き日 ](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   ![&#x200B; 請求料率と上書き日 &#x200B;](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
 1. 選択した日付のタイムゾーンが「新規請求料金」ボックスの下部に表示されます。設定の顧客情報エリアに表示されるように、Workfront インスタンスに関連付けられたタイムゾーンです。詳しくは、[システムの基本情報を設定](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
 1. Workfront は、プロジェクトの収益を計算するときに、指定された期間に発生する時間に上書きの担当業務料金を適用します。

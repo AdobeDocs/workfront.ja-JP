@@ -20,7 +20,7 @@ ht-degree: 73%
 
 タスクの予定完了日を指定することも、Workfront に任せて、特定の基準に基づいて計算することもできます。
 
-プロジェクトのタスクの予定完了日によって、プロジェクトが開始日からスケジュールされているときの、プロジェクトの予定完了日が決まります。 プロジェクト予定完了日の詳細については、「[ プロジェクト予定完了日の設定 ](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)」を参照してください。
+プロジェクトのタスクの予定完了日によって、プロジェクトが開始日からスケジュールされているときの、プロジェクトの予定完了日が決まります。 プロジェクト予定完了日の詳細については、「[&#x200B; プロジェクト予定完了日の設定 &#x200B;](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)」を参照してください。
 
 >[!NOTE]
 >

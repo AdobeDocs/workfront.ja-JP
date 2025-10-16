@@ -73,7 +73,7 @@ Workfront Fusion でプロジェクトを作成していて、そのプロジェ
 * Adobe Experience Manager統合にリンクされたフォルダーワークフローでプロジェクトテンプレートが設定されている。
 * このモジュールの接続を設定するには、Workfrontで OAuth アプリケーションを作成している必要があります。
 
-  手順については、この記事の [OAuth アプリケーションの作成 ](#create-an-oauth-application) を参照してください。
+  手順については、この記事の [OAuth アプリケーションの作成 &#x200B;](#create-an-oauth-application) を参照してください。
 
 ## モジュール設定
 
@@ -84,7 +84,7 @@ Workfront Fusion でAdobe Experience Manager ワークフローを含むプロ�
 
    接続の作成方法については、「Workfront モジュール」の [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) を参照してください。
 
-   クライアント ID およびクライアントシークレットの作成方法については、この記事の [OAuth アプリケーションの作成 ](#create-an-oauth-application) を参照してください。
+   クライアント ID およびクライアントシークレットの作成方法については、この記事の [OAuth アプリケーションの作成 &#x200B;](#create-an-oauth-application) を参照してください。
 
 1. 「**レコードタイプ**」フィールドで「`Issue`」を選択します。
 1. 「**アクション**」フィールドで「`convertToProject`」を選択します。
@@ -104,7 +104,7 @@ Workfront Fusion でAdobe Experience Manager ワークフローを含むプロ�
 
 1. `Folder tree ID here` をフォルダー ID に置き換えます。
 
-   フォルダーツリー ID を見つけるには、この記事の [ フォルダーツリー ID を見つける ](#locate-folder-tree-ids) を参照してください。
+   フォルダーツリー ID を見つけるには、この記事の [&#x200B; フォルダーツリー ID を見つける &#x200B;](#locate-folder-tree-ids) を参照してください。
 
    複数のフォルダーツリーを使用するには、ID をコンマで区切ります。
 
@@ -130,7 +130,7 @@ Workfront Fusion でAdobe Experience Manager ワークフローを含むプロ�
 1. 「**フィルター**」ボックスに、`object-workflow` と入力します。
 1. 名前列で、表示される英数字の ID をクリックします。
 
-   ![ フォルダー ID 1 の場所 ](assets/finding-folder-id-1.png)
+   ![&#x200B; フォルダー ID 1 の場所 &#x200B;](assets/finding-folder-id-1.png)
 
 1. 英数字 ID の右側にある **プレビュー** タブをクリックします。
 1. 次の折りたたまれたセクションを開きます。
@@ -144,7 +144,7 @@ Workfront Fusion でAdobe Experience Manager ワークフローを含むプロ�
 
 1. 新規プロジェクトに使用するフォルダーツリーを開きます。 `_id` フィールドの値をメモします。 複数のフォルダーツリーを使用する場合は、使用するフォルダーツリーの `_id` のフィールド値をすべてメモしておきます。
 
-   ![ フォルダー ID 2 を検索しています ](assets/finding-folder-id-2.png)
+   ![&#x200B; フォルダー ID 2 を検索しています &#x200B;](assets/finding-folder-id-2.png)
 
    これらは、Fusion モジュールの `aemNativeFolderTreeIDs`Workfront **/** その他のアクション **で** 「プロジェクト（詳細コレクション」フィールドに入力する **値** す。
 
@@ -152,7 +152,7 @@ Workfront Fusion でAdobe Experience Manager ワークフローを含むプロ�
 
 このモジュールの接続用に、Workfrontで OAuth アプリケーションを設定する必要があります。 Fusion の特定のWorkfront接続に対して、これを行う必要があるのは 1 回だけです。
 
-1. [ ユーザー資格情報を使用して OAuth2 アプリケーションを作成する（認証コードフロー） ](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) の説明に従って、Workfrontで [!DNL Workfront] アプリケーションの作成を開始します。
+1. [&#x200B; ユーザー資格情報を使用して OAuth2 アプリケーションを作成する（認証コードフロー） &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) の説明に従って、Workfrontで [!DNL Workfront] アプリケーションの作成を開始します。
 1. クライアント ID とクライアント秘密鍵を安全な場所にコピーします。
 1. 「**リダイレクト URI**」フィールドに以下を入力します。
 

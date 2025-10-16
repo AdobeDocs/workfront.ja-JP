@@ -90,7 +90,7 @@ ht-degree: 76%
 
 https://{mycompanyname}.jumpseat.io
 
->>
+&#x200B;>>
 
 >[!ENDSHADEBOX]
 
@@ -111,4 +111,4 @@ https://{mycompanyname}.jumpseat.io
 
 >[!TIP]
 >
->[!DNL JumpSeat] 統合の設定について詳しくは、[!DNL JumpSeat]JumpSeat+Workfront[ の ](https://jumpseat.io/landing-page/jumpseat-workfront/) ドキュメントを参照してください。
+>[!DNL JumpSeat] 統合の設定について詳しくは、[!DNL JumpSeat]JumpSeat+Workfront[&#x200B; の &#x200B;](https://jumpseat.io/landing-page/jumpseat-workfront/) ドキュメントを参照してください。

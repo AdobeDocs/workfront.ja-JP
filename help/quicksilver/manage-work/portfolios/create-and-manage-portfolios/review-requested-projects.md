@@ -56,7 +56,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -123,7 +123,7 @@ ht-degree: 94%
 
    * **[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューで、プロジェクトのステータスを他のステータスに変更します。
 
-     ![ ドロップダウンからのプロジェクトステータスの変更 ](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![&#x200B; ドロップダウンからのプロジェクトステータスの変更 &#x200B;](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
  
 
  

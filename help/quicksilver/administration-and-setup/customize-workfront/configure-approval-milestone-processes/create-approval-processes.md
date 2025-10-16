@@ -71,7 +71,7 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -112,7 +112,7 @@ For more detail about the information in this table, see [Access requirements in
 
    または
 
-   グループレベルの承認プロセスを作成する場合は、**グループ**![ グループアイコン ](assets/groups-icon.png) をクリックし、グループの名前をクリックして、**承認** をクリックします。
+   グループレベルの承認プロセスを作成する場合は、**グループ**![&#x200B; グループアイコン &#x200B;](assets/groups-icon.png) をクリックし、グループの名前をクリックして、**承認** をクリックします。
 
    <!--hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
@@ -257,4 +257,4 @@ For more detail about the information in this table, see [Access requirements in
 
 デフォルトでは、プロジェクト、タスクおよびイシューに対する権限を管理するユーザーは、1 回限りの承認プロセスを作成できます。プロジェクト、タスクおよびイシューに 1 回限りの承認プロセスを追加する方法について詳しくは、[新規または既存の承認プロセスと作業の関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)の記事の [1 回限りの承認プロセスをプロジェクト、タスク、イシュー、テンプレートまたはテンプレートのタスクに関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process)の節を参照してください。
 
-また、作業アイテムに関連付けられたグローバル承認プロセスの設定を変更することもできます。これらの変更は、システムレベルの承認プロセスに関連するプロジェクト、タスクまたはイシューにのみ影響します。詳しくは、「新規または既存の承認プロセスの作業への関連付け [ の「特定のオブジェクトで使用するグローバル承認プロセスの変更」の節を参照し ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) ください。
+また、作業アイテムに関連付けられたグローバル承認プロセスの設定を変更することもできます。これらの変更は、システムレベルの承認プロセスに関連するプロジェクト、タスクまたはイシューにのみ影響します。詳しくは、「新規または既存の承認プロセスの作業への関連付け [&#x200B; の「特定のオブジェクトで使用するグローバル承認プロセスの変更」の節を参照し &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) ください。

@@ -24,7 +24,7 @@ ht-degree: 56%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-正しいアクセス権や権限がないと、[!DNL  Adobe Workfront] の[!UICONTROL シナリオ]エリアの表示や、組織のプランとイニシアチブの管理ができない場合があります。プランとイニシアチブの管理には、プランとイニシアチブの作成、編集、削除も含まれます。
+正しいアクセス権や権限がないと、[!DNL &#x200B; Adobe Workfront] の[!UICONTROL シナリオ]エリアの表示や、組織のプランとイニシアチブの管理ができない場合があります。プランとイニシアチブの管理には、プランとイニシアチブの作成、編集、削除も含まれます。
 
 ## [!DNL Adobe Workfront Scenario Planner] の表示や使用に必要なアクセス権
 
@@ -48,8 +48,8 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 1. 次のいずれかのWorkfront ライセンスが必要です。
 
-   * [!UICONTROL  ライト ] 以上
-   * [!UICONTROL  レビュアー ] 以上
+   * [!UICONTROL &#x200B; ライト &#x200B;] 以上
+   * [!UICONTROL &#x200B; レビュアー &#x200B;] 以上
 
    <!--Old: 
       * For the current licenses: 
@@ -65,7 +65,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 1. [!DNL Workfront] 管理者は、ユーザーのアクセスレベルで [!DNL Scenario Planner] に対する[!UICONTROL 表示]または[!UICONTROL 編集]のアクセス権を付与する必要があります。
 
-   [!DNL Workfront Scenario Planner] へのアクセス権の付与について詳しくは、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
+   [!DNL Workfront Scenario Planner] へのアクセス権の付与について詳しくは、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
 
 1. （オプションおよび推奨）プランやイニシアチブの財務情報を表示または更新するには、[!DNL Workfront] 管理者がユーザーのアクセスレベルで[!UICONTROL 財務データ]へのアクセス権も付与する必要があります。アクセスレベルでの財務データへのアクセス権の付与について詳しくは、[財務データへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
 
@@ -130,11 +130,11 @@ Your [!DNL Workfront] administrator must assign you the following access so you 
 
 * 計画を共有する
 
-  計画の共有について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) での計画の共有を参照してください。
+  計画の共有について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) での計画の共有を参照してください。
 
 * 作成したプランへのリンクの送信
 
-  計画を共有せずに計画へのリンクを共有した場合は、計画に対する権限をリクエストできます。プランに対する権限のリクエストについては、[ 内の計画へのアクセスのリクエスト [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)を参照してください。
+  計画を共有せずに計画へのリンクを共有した場合は、計画に対する権限をリクエストできます。プランに対する権限のリクエストについては、[&#x200B; 内の計画へのアクセスのリクエスト [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)を参照してください。
 
 >[!NOTE]
 >

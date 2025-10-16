@@ -62,7 +62,7 @@ ht-degree: 89%
 1. 左側のパネルで、**インターフェイス**／**レイアウトテンプレート**&#x200B;をクリックします。
 
 1. 変更するレイアウトテンプレートの名前をクリックします。
-1. **コピー** アイコン ![ コピーアイコン ](assets/copy-icon.png) をクリックします。
+1. **コピー** アイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png) をクリックします。
 
    既存のレイアウトテンプレート内の名前、説明、ユーザー割り当てを除くすべての設定が、新しいテンプレートにコピーされます。
 
@@ -75,7 +75,7 @@ ht-degree: 89%
    * [レイアウトテンプレートを使用して左のパネルをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
    * [レイアウトテンプレートを使用してピン留めされたページをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
    * [レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [ レイアウトテンプレートを使用した概要パネルのカスタマイズ ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [&#x200B; レイアウトテンプレートを使用した概要パネルのカスタマイズ &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [レイアウトテンプレートを使用したランディングページのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [レイアウトテンプレートを使用したユーザーインターフェイスの用語のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

@@ -18,7 +18,7 @@ ht-degree: 42%
 
 # デフォルトの Adobe Workfront レイアウトについて
 
-デフォルトのレイアウトは、Adobe Workfront管理者がレイアウトテンプレートを使用して変更を行う前に、メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon-left-nav.png) （使用可能な場合）の左側のパネル、ビュー、グループ化、フィルターが配置されます。
+デフォルトのレイアウトは、Adobe Workfront管理者がレイアウトテンプレートを使用して変更を行う前に、メインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) またはメインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon-left-nav.png) （使用可能な場合）の左側のパネル、ビュー、グループ化、フィルターが配置されます。
 
 Workfront 管理者がユーザーにレイアウトテンプレートを割り当ててユーザーのデフォルトレイアウトを変更する方法について詳しくは、[レイアウトテンプレートにユーザーを割り当て](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
@@ -258,7 +258,7 @@ Workfront 管理者がユーザーにレイアウトテンプレートを割り�
 
 </tbody></table>
 
-*この領域を表示するには、キャンバスダッシュボードベータ版に登録している必要があります。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+*この領域を表示するには、キャンバスダッシュボードベータ版に登録している必要があります。 詳しくは、[&#x200B; キャンバスダッシュボードのベータ版情報 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 ### 新しいライセンスの種類の既定のメイン メニュー
 
@@ -457,7 +457,7 @@ Workfront 管理者がユーザーにレイアウトテンプレートを割り�
   </tr>
 </tbody></table>
 
-*この領域を表示するには、キャンバスダッシュボードベータ版に登録している必要があります。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+*この領域を表示するには、キャンバスダッシュボードベータ版に登録している必要があります。 詳しくは、[&#x200B; キャンバスダッシュボードのベータ版情報 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 <!--
 

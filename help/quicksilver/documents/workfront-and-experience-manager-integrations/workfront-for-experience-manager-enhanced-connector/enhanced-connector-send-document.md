@@ -72,7 +72,7 @@ Workfront から Experience Manager Assets にユーザーがドキュメント�
    >
    >この統合には任意の名前を選択できるため、Experience Manager Assets について特に言及されていない場合があります。
 
-   ![ 送信先 ](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![&#x200B; 送信先 &#x200B;](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. アセットの保存先を選択し、「**フォルダーを選択**」をクリックします。
 1. 目的の宛先が見つかったら、「**保存**」をクリックします。
@@ -90,6 +90,6 @@ Workfront から Experience Manager Assets にユーザーがドキュメント�
    >
    >この統合には任意の名前を選択できるため、Experience Manager Assets について特に言及されていない場合があります。
 
-   ![ 送信先 ](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![&#x200B; 送信先 &#x200B;](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 「**保存**」をクリックします。新しいバージョンは、以前のバージョンと同じ場所に保存されます。

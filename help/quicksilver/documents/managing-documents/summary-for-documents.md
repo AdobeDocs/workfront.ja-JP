@@ -65,9 +65,9 @@ ht-degree: 56%
 
 1. **ドキュメント** ページで、リスト内のドキュメントを選択します。
 
-1. ページの右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
+1. ページの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
 
-   ![ 概要の詳細 ](assets/document-summary-panel.png)
+   ![&#x200B; 概要の詳細 &#x200B;](assets/document-summary-panel.png)
 
    概要を開いた後は、手動で閉じるまで、このページで開いたままになります（他のドキュメントをクリックした場合でも）。
 
@@ -83,13 +83,13 @@ ht-degree: 56%
 
 「概要」セクションを展開すると、画像サムネールの表示やダウンロード、プルーフの開き、基本的な説明の更新、ドキュメントのチェックアウトなどを行うことができます。
 
-![ ドキュメントの概要 ](assets/details-section.png)
+![&#x200B; ドキュメントの概要 &#x200B;](assets/details-section.png)
 
 ### カスタムフォーム {#custom-forms}
 
 「カスタムフォーム」セクションでは、ドキュメントに関連付けられたカスタムフォームを追加、編集、表示できます。カスタムフォームの名前を入力し、ドキュメントに追加します。詳しくは、[ドキュメントへのカスタムフォームの追加または編集](../../documents/managing-documents/add-custom-form-documents.md)を参照してください。
 
-![ ドキュメントの概要へのカスタムフォームの追加 ](assets/custom-forms-section.png)
+![&#x200B; ドキュメントの概要へのカスタムフォームの追加 &#x200B;](assets/custom-forms-section.png)
 
 ## アップデート
 
@@ -106,11 +106,11 @@ ht-degree: 56%
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [ドキュメント承認のリクエスト](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![ ドキュメントの概要承認 ](assets/approvals-section.png)
+![&#x200B; ドキュメントの概要承認 &#x200B;](assets/approvals-section.png)
 
 ## バージョン
 
-「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。その他アイコン ![ その他アイコン ](assets/more-icon.png) をクリックすると、次の操作を実行できます。
+「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。その他アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックすると、次の操作を実行できます。
 
 * プルーフを開きます。
 * プルーフまたはドキュメントをダウンロードします。
@@ -118,4 +118,4 @@ ht-degree: 56%
 * ドキュメントの詳細に移動します。
 * プルーフまたはドキュメントの削除。
 
-![ ドキュメント概要のバージョン ](assets/versions-section.png)
+![&#x200B; ドキュメント概要のバージョン &#x200B;](assets/versions-section.png)

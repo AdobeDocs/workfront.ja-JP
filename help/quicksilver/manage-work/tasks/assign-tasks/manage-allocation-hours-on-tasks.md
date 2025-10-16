@@ -85,6 +85,6 @@ ht-degree: 79%
 1. タスクの&#x200B;**期間タイプ**&#x200B;が&#x200B;**シンプル**&#x200B;であることを確認します。
 1. タスクの担当者ごとに&#x200B;**配分**&#x200B;を変更します。これは、タスクの期間全体に対する、このタスクへの各割り当ての全体的な配分です。これにより、タスクの全体的な予定時間数が更新される場合もあります。
 
-   ![ 割り当ての変更 ](assets/advanced-assignments-duration-type-allocations.png)
+   ![&#x200B; 割り当ての変更 &#x200B;](assets/advanced-assignments-duration-type-allocations.png)
 
 1. 「**保存**」をクリックします。

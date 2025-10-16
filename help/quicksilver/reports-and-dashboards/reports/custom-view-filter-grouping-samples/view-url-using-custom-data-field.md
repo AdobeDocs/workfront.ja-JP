@@ -64,7 +64,7 @@ ht-degree: 75%
 
 ## 「カスタム URL」計算済みカスタムフィールドの作成
 
-計算カスタムフィールドの作成について詳しくは、[ 計算フィールドのフォームへの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+計算カスタムフィールドの作成について詳しくは、[&#x200B; 計算フィールドのフォームへの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 カスタムフォームを作成するアクセス権がある場合は、「カスタム URL」と呼ばれるタスクの計算済みカスタムフィールドを作成できます。このフィールドは、「**タスクの詳細**」タブ内の「**概要**」サブタブに直接リンクします。
 

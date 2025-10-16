@@ -16,7 +16,7 @@ ht-degree: 94%
 
 カスタムビューは、特定のカスタムフィールドまたはウィジェットを使用しているレポートを表示するカスタムフォームエリアに追加できます。フィールドやウィジェットは既に 1 つ以上のレポートに実装されている可能性があるので、これはフィールドやウィジェットを編集または削除する必要がある場合に役立ちます。これらのレポートが正しく機能し続けるために調整が必要かどうかを評価することが重要です。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## アクセス要件
 

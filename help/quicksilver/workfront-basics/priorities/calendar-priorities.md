@@ -69,7 +69,7 @@ ht-degree: 11%
 {{step1-to-priorities}}
 
 1. 作業リストの上部にある **カレンダー** アイコンをクリックします。
-   ![ カレンダーアイコン ](assets/calendar-tab.png)
+   ![&#x200B; カレンダーアイコン &#x200B;](assets/calendar-tab.png)
 1. 1 つ以上のフィルターを選択して、作業アイテムを絞り込みます。
 
    +++展開すると、使用可能なフィルターの詳細情報が表示されます
@@ -142,18 +142,18 @@ ht-degree: 11%
    * 時間を記録
    * クイックリンクの追加
 
-1. （オプション）「**新規作成**」をクリックして、新しい作業項目をカレンダーに追加します。 詳しくは、[ 優先度で新しいタスクまたはイシューを作成する ](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md) を参照してください。
+1. （オプション）「**新規作成**」をクリックして、新しい作業項目をカレンダーに追加します。 詳しくは、[&#x200B; 優先度で新しいタスクまたはイシューを作成する &#x200B;](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md) を参照してください。
 
 ## カレンダーの設定
 
 {{step1-to-priorities}}
 
 1. 作業リストの上部にある **カレンダー** アイコンをクリックします。
-   ![ カレンダーアイコン ](assets/calendar-tab.png)
+   ![&#x200B; カレンダーアイコン &#x200B;](assets/calendar-tab.png)
 1. カレンダーの右隅にある **設定** アイコンをクリックします。
 
 1. 「**バースタイル**」タブで、カレンダーの作業項目バーに表示するフィールドを最大 5 つ選択します。
-   ![ サンプルバー ](assets/sample-task-for-field-config.png)
+   ![&#x200B; サンプルバー &#x200B;](assets/sample-task-for-field-config.png)
 
 1. **カラー** タブで、作業項目の表示方法を選択します。 例えば、「**プロジェクト** を選択すると、作業リストのプロジェクトに割り当てられたカラーに従って作業項目が表示されます。
-   ![ サンプルカラープロジェクト ](assets/sample-calendar-projects.png)
+   ![&#x200B; サンプルカラープロジェクト &#x200B;](assets/sample-calendar-projects.png)

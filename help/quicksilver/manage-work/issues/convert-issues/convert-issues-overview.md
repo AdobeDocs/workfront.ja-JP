@@ -23,7 +23,7 @@ ht-degree: 40%
 
 * [Adobe Workfrontでのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)
 * [Adobe Workfront でイシューをプロジェクトに変換](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-* [ イシューのタスクへの変換 ](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+* [&#x200B; イシューのタスクへの変換 &#x200B;](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
 * [解決オブジェクトと解決可能オブジェクトの概要](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
 * [イシューの解決策を他のイシュー、タスクやプロジェクトに手動で結び付ける](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
 * [解決オブジェクトからイシューのリンクを解除する](../../../manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)

@@ -107,7 +107,7 @@ Workfront 管理者以外の役割を持つユーザーの API キーを生成�
    1. **システム**&#x200B;を展開し、次に「**シングルサインオン（SSO）**」をクリックします。
    1. **タイプ** フィールドで、組織が使用する SSO のタイプを選択します。
    1. タイプを選択した状態で、下にスクロールして「**有効**」チェックボックスをオフにします。
-      ![SSO を有効にする ](assets/sysadmin-security-sso-disable-31620-350x320.png)
+      ![SSO を有効にする &#x200B;](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. 「**保存**」をクリックします。
 
 
@@ -187,7 +187,7 @@ Workfront システムに関する特定のセキュリティ違反を懸念す�
 
 認証局から X.509 証明書を取得したら、Workfront にアップロードする必要があります。
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**設定** ![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
 
 1. **システム**&#x200B;を展開して、「**顧客情報**」をクリックします。
 

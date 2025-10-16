@@ -38,7 +38,7 @@ ht-degree: 71%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL 編集 ] [!UICONTROL ポートフォリオ ] および [!UICONTROL プロジェクト ] へのアクセス</p>  </td>
+   <td> <p>[!UICONTROL 編集 &#x200B;] [!UICONTROL ポートフォリオ &#x200B;] および [!UICONTROL プロジェクト &#x200B;] へのアクセス</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -47,7 +47,7 @@ ht-degree: 71%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -88,4 +88,4 @@ ht-degree: 71%
 
    [!UICONTROL ポートフォリオオプティマイザー]が表示されます。
 
-   ![Portfolio最適化 ](assets/nwe-portfolio-optimizer-350x83.png)
+   ![Portfolio最適化 &#x200B;](assets/nwe-portfolio-optimizer-350x83.png)

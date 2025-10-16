@@ -138,12 +138,12 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 
 目標に対するコメントは、目標のページの「更新」セクションで追加できます。
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、または右上隅の **メインメニュー** アイコン ![ メインメニューライン ](assets/lines-main-menu.png) をクリックして、**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、または右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png) をクリックして、**目標** をクリックします。
 これにより、目標リストが開きます。
 1. コメントを追加する目標を探し、その名前をクリックして目標ページを開きます。
 1. 左側のパネルの「**更新**」をクリックします。
 
-   Workfront オブジェクトに対するコメントの管理について詳しくは、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
+   Workfront オブジェクトに対するコメントの管理について詳しくは、[&#x200B; 作業の更新 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 

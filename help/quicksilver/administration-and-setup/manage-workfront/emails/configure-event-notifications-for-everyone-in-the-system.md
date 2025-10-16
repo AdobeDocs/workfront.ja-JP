@@ -72,7 +72,7 @@ ht-degree: 83%
 
 1. **メール**／**通知**&#x200B;をクリックします。
 
-   ![ 設定メールの通知領域 ](assets/notifications-area-under-setup-emails.png)
+   ![&#x200B; 設定メールの通知領域 &#x200B;](assets/notifications-area-under-setup-emails.png)
 
 
 1. 「**イベント通知**」タブが開くことを確認します。
@@ -84,7 +84,7 @@ ht-degree: 83%
 
    メール通知の件名行のカスタマイズについて詳しくは、[イベント通知のメール件名をカスタマイズする](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)を参照してください。
 
-1. （オプション）メール通知の設定のロックを解除して、グループ管理者がグループごとに個別に設定できるようにする場合は、通知の右側にあるボタン ![ ロック切り替え ](assets/lock-toggle-button.png) をクリックして、ロック解除位置 ![ ロック解除切り替え ](assets/unlock-toggle-button.png) に切り替えます。
+1. （オプション）メール通知の設定のロックを解除して、グループ管理者がグループごとに個別に設定できるようにする場合は、通知の右側にあるボタン ![&#x200B; ロック切り替え &#x200B;](assets/lock-toggle-button.png) をクリックして、ロック解除位置 ![&#x200B; ロック解除切り替え &#x200B;](assets/unlock-toggle-button.png) に切り替えます。
 
    詳しくは、[すべてのグループに対するイベント通知の設定をロックまたはロック解除](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)を参照してください。
 

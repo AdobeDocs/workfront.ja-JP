@@ -70,7 +70,7 @@ ht-degree: 92%
 
    使用可能なオブジェクトレポートについて詳しくは、[Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事で[オブジェクトに関するレポート](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)の節を参照してください。
 
-   ![ 新しいレポートを選択 ](assets/nwe-select-new-report-350x666.png)
+   ![&#x200B; 新しいレポートを選択 &#x200B;](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
@@ -126,11 +126,11 @@ ht-degree: 92%
 
    または
 
-   既存の列を変更するには、Report Builder の左上隅にある **この列フィールドに表示** 領域の現在のフィールドの右側にある ![ 削除 ](assets/remove-column-icon.png) アイコン **削除** アイコン（列の削除アイコン）をクリックし、新しいフィールドの入力を開始します。その後、新しいフィールドがリストに表示されたらクリックします。
+   既存の列を変更するには、Report Builder の左上隅にある **この列フィールドに表示** 領域の現在のフィールドの右側にある ![&#x200B; 削除 &#x200B;](assets/remove-column-icon.png) アイコン **削除** アイコン（列の削除アイコン）をクリックし、新しいフィールドの入力を開始します。その後、新しいフィールドがリストに表示されたらクリックします。
 
    列に表示されるフィールドについて詳しくは、[Adobe Workfront の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 
-   ![ 列の先行入力を追加 ](assets/nwe-add-column-typeahead-350x459.png)
+   ![&#x200B; 列の先行入力を追加 &#x200B;](assets/nwe-add-column-typeahead-350x459.png)
 
 1. （オプション）**カラム設定**&#x200B;エリアで、「**このカラムを基準にして並べ替え**」を選択して、列の値を降順のアルファベット順で昇順に並べ替えるには、リストでこの列を最初の並べ替え基準として使用するかどうかを指定します。
 
@@ -202,7 +202,7 @@ ht-degree: 92%
 
    「**既存のグループ化を適用**」を選択して、リストに表示される既存のグループを選択します。
 
-   ![ グループ化を追加 ](assets/nwe-add-grouping-350x230.png)
+   ![&#x200B; グループ化を追加 &#x200B;](assets/nwe-add-grouping-350x230.png)
 
 1. グループ化として追加するフィールドの入力を開始します。フィールドが使用可能な場合は、関連付けることが可能な各オブジェクトに対してが設定されます。フィールドの名前をクリックして、そのグループに追加します。
 1. （オプション）テキストモードでグループ化を作成する場合は、「**テキストモードに切り替え**」をクリックします。テキストモードの使用について詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
@@ -234,7 +234,7 @@ ht-degree: 92%
    または\
    「**既存のフィルターを適用**」を選択し、既存のフィルターを使用します。
 
-   ![ フィルターの追加 ](assets/nwe-add-a-filter-350x93.png)
+   ![&#x200B; フィルターの追加 &#x200B;](assets/nwe-add-a-filter-350x93.png)
 
 1. 「**フィルタールールを追加**」をクリックした場合は、フィルターとして追加するフィールドの入力を開始します。フィールドが使用可能な場合は、関連付けることが可能な各オブジェクトに対してが設定されます。フィールドの名前をクリックして、そのフィルターに追加します。\
    フィルター修飾子を使用して、フィルターを作成します。フィルター修飾子について詳しくは、[フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
@@ -254,7 +254,7 @@ ht-degree: 92%
 1. この記事の[レポートの作成](#create-a-report)セクションの説明に従って、レポートの作成を開始します。
 1. Report Builder で、「**グラフ**」タブを選択し、追加するグラフのタイプを選択します。
 
-   ![ グラフの追加 ](assets/nwe-add-a-chart-350x247.png)
+   ![&#x200B; グラフの追加 &#x200B;](assets/nwe-add-a-chart-350x247.png)
 
    レポートでのグラフの作成について詳しくは、[レポートにグラフを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)を参照してください。
 

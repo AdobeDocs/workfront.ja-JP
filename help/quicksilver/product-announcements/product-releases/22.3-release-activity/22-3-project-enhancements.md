@@ -54,7 +54,7 @@ Workfront の使用を新しい Workfront エクスペリエンスと一致さ�
 * 新しいタスクに追加された、宛先プロジェクトのタスク設定エリアで定義されたデフォルトのカスタムフォーム。
 
 
-詳しくは、[ イシューのタスクへの変換 ](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md) を参照してください。
+詳しくは、[&#x200B; イシューのタスクへの変換 &#x200B;](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md) を参照してください。
 
 ## イシューをテンプレートなしのプロジェクトに変換する際の新しいエクスペリエンス
 

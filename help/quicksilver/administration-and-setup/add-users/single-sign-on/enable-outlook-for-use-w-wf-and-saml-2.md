@@ -19,7 +19,7 @@ ht-degree: 63%
 
 >[!IMPORTANT]
 >
->[Microsoftでは、従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
+>[Microsoftでは、従来の Exchange オンライン トークン &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
 >
 >* **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
 >
@@ -78,7 +78,7 @@ SAML 2.0 Authentication を有効にし、ユーザーが SAML 2.0 資格情報�
    >
    >「**iframe への Workfront の埋め込みを許可**」オプションを有効にする場合、「**Office 365 アドインで SAML 2.0 Authentication を許可**」オプションはグレー表示になり、有効になります。
    >
-   >![ 埋め込みを許可オプション ](assets/if-you-enable.png)
+   >![&#x200B; 埋め込みを許可オプション &#x200B;](assets/if-you-enable.png)
    >
 
 1. 「**保存**」をクリックします。

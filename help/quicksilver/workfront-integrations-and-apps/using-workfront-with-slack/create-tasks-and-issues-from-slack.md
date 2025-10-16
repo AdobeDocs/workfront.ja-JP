@@ -17,7 +17,7 @@ ht-degree: 96%
 
 [!DNL Adobe Workfront for Slack] のインストールと設定が完了したら、[!DNL Slack] からタスクとイシューを作成し、[!DNL Workfront] のプロジェクトに関連付けることができます。
 
-[!DNL Slack] を用いた [!DNL Workfront] の設定に関して詳しくは、[ [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
+[!DNL Slack] を用いた [!DNL Workfront] の設定に関して詳しくは、[&#x200B; [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
 
 アクセスレベルでタスクとイシューを作成するアクセス権と、関連付けているプロジェクトに対する[!UICONTROL 参加]権限が必要です。
 
@@ -56,7 +56,7 @@ ht-degree: 96%
 ## [!DNL Slack] からのタスクの作成
 
 1. [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から Workfront へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
+   [!DNL Slack] から Workfront へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
 
 1. 任意のチャネルから、メッセージフィールドに次のコマンドを入力します。
 
@@ -75,7 +75,7 @@ ht-degree: 96%
 ## [!DNL Slack] からのイシュー作成
 
 1. [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインに関して詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスにある「[!DNL Slack]から[!DNL Workfront]へのログイン」の節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインに関して詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスにある「[!DNL Slack]から[!DNL Workfront]へのログイン」の節を参照してください。
 
 1. 任意のチャネルから、メッセージフィールドに次のコマンドを入力します。
 

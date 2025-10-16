@@ -27,9 +27,9 @@ ht-degree: 5%
 
 ## ソリューション
 
-Workfront管理者は、[ タイムシートプロファイルの作成、編集、割り当て ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) に説明しているように、タイムシートプロファイルを作成し、全員をプロファイルに割り当てる必要があります。 Workfront管理者は、タイムシートの開始日を、期待される週の開始日以外の日に設定することができます。 これらのユーザーに問い合わせて、定期タイムシートの開始日を調べてください。
+Workfront管理者は、[&#x200B; タイムシートプロファイルの作成、編集、割り当て &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) に説明しているように、タイムシートプロファイルを作成し、全員をプロファイルに割り当てる必要があります。 Workfront管理者は、タイムシートの開始日を、期待される週の開始日以外の日に設定することができます。 これらのユーザーに問い合わせて、定期タイムシートの開始日を調べてください。
 
-タイムシートを手動で作成した場合、タイムシートの週の開始日には、「自分の設定を構成する [ の記事で説明されているように、ユーザーのプロファイルの電子メールのロケール設定が使用され ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) す。
+タイムシートを手動で作成した場合、タイムシートの週の開始日には、「自分の設定を構成する [&#x200B; の記事で説明されているように、ユーザーのプロファイルの電子メールのロケール設定が使用され &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) す。
 
 例えば、「メールのロケール」を英語（米国）に設定した場合、タイムシートの週は日曜日に始まります。 または、「メールのロケール」が英語（英国）に設定された場合、タイムシートの週は月曜日に始まります。
 

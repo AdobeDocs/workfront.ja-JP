@@ -17,7 +17,7 @@ ht-degree: 93%
 
 ご利用の [!DNL Slack] のインスタンスに [!DNL Workfront] アプリがインストールされている場合、[!DNL Slack] から [!DNL Adobe Workfront] の項目を検索できます。
 
-[!DNL Workfront] と [!DNL Slack] の設定について詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) 用の [!DNL Adobe Workfront] の設定を参照してください。
+[!DNL Workfront] と [!DNL Slack] の設定について詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) 用の [!DNL Adobe Workfront] の設定を参照してください。
 
 ## アクセス要件
 
@@ -47,12 +47,12 @@ ht-degree: 93%
 [!DNL Slack] から [!DNL Workfront] の項目を検索する前に、次の操作を行う必要があります。
 
 * [!DNL Slack] 用の [!DNL Workfront] の設定\
-   [!DNL Workfront for Slack] の設定の手順については、[ [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
+   [!DNL Workfront for Slack] の設定の手順については、[&#x200B; [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
 
 ## [!DNL Slack] から [!DNL Workfront] の項目を検索
 
 1. お使いの [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  へのアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  へのアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
 
 1. 任意のチャネルから、メッセージフィールドに次のいずれかのコマンドを入力します。
 

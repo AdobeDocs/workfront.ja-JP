@@ -110,7 +110,7 @@ ht-degree: 38%
 
 1. （オプション）「**カスタムForms**」で、レコードに追加する請求レコードのカスタムフォームを選択します。
 
-   ここで選択するには、まず請求記録のカスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   ここで選択するには、まず請求記録のカスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. **保存」をクリックします。** 請求記録が作成されます。
 
@@ -132,7 +132,7 @@ ht-degree: 38%
 * タスク、問題、またはプロジェクトの時間がログに記録されました。
 * 記録される時間のタイプは、収益としてカウントされます。
 
-  詳しくは、「時間タイプの管理 [ を参照してくだ ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) い。
+  詳しくは、「時間タイプの管理 [&#x200B; を参照してくだ &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) い。
 
 * 時間を記録するユーザーに、1 時間当たりの請求レートが関連付けられている場合、イシューまたはプロジェクトで記録されたすべての時間は、請求記録に追加できます。
 * タスクの時間を記録している場合、タスクの収益タイプは次のようになります。
@@ -144,10 +144,10 @@ ht-degree: 38%
      >[!NOTE]
      >
      >プロジェクトレベルで、担当業務の請求率を上書きできます。\
-     >詳しくは、「プロジェクトでの担当業務請求率の上書きと収益の計算 [ の記事の「プロジェクトレベルでの担当業務請求率の上書き」を参照してください ](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+     >詳しくは、「プロジェクトでの担当業務請求率の上書きと収益の計算 [&#x200B; の記事の「プロジェクトレベルでの担当業務請求率の上書き」を参照してください &#x200B;](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
 * プロジェクト設定の「このプロジェクトの承認に時間を必要とする」オプションを選択した場合、プロジェクト所有者はログ時間を承認する必要があります。\
-  詳しくは、[ プロジェクトの承認に時間を要する ](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md) を参照してください。
+  詳しくは、[&#x200B; プロジェクトの承認に時間を要する &#x200B;](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md) を参照してください。
 
 #### 請求記録への時間の追加 {#add-hours-to-a-billing-record}
 
@@ -161,7 +161,7 @@ ht-degree: 38%
 
    >[!NOTE]
    >
-   >記録された時間がない場合、または記録された時間が請求記録に追加するために必要な条件を満たさない場合は、「**時間を追加** ボタンは表示されません。 詳しくは、この記事の次の節 [ 請求記録に追加できる時間 ](#what-hours-can-be-added-to-a-billing-record) を参照してください。
+   >記録された時間がない場合、または記録された時間が請求記録に追加するために必要な条件を満たさない場合は、「**時間を追加** ボタンは表示されません。 詳しくは、この記事の次の節 [&#x200B; 請求記録に追加できる時間 &#x200B;](#what-hours-can-be-added-to-a-billing-record) を参照してください。
 
 1. 請求記録に含める時間入力を選択し、「**時間を追加**」をクリックします。 時間の実際のコストは、**請求可能時間**&#x200B;数として&#x200B;**請求記録合計**&#x200B;に追加されます。
 
@@ -191,7 +191,7 @@ ht-degree: 38%
 
 ### 請求記録に固定収益を含める {#include-fixed-revenues-in-a-billing-record}
 
-固定収益を使用できるタスクがある場合は、請求記録に固定収益を追加できます。 請求記録には、他のタイプのタスクまたはプロジェクトの収益を追加することはできません。 収益タイプについて詳しくは、「請求と収益の概要」の記事の「請求と収益の概要 [ を参照してください ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)。
+固定収益を使用できるタスクがある場合は、請求記録に固定収益を追加できます。 請求記録には、他のタイプのタスクまたはプロジェクトの収益を追加することはできません。 収益タイプについて詳しくは、「請求と収益の概要」の記事の「請求と収益の概要 [&#x200B; を参照してください &#x200B;](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)。
 
 {{step1-to-projects}}
 
@@ -219,7 +219,7 @@ ht-degree: 38%
 
    または
 
-   右上隅の **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックし、使用可能な任意のフィールドで情報を編集します。
+   右上隅の **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックし、使用可能な任意のフィールドで情報を編集します。
 
    次を更新します。
 
@@ -237,11 +237,11 @@ ht-degree: 38%
 
    次のフィールドは編集できません。
 
-   * **請求可能時間：** 請求記録に含まれる時間の実収益の合計。詳しくは、この記事の次の節 [ 請求記録に請求可能な時間を含める ](#include-billable-hours-in-a-billing-record) を参照してください。
+   * **請求可能時間：** 請求記録に含まれる時間の実収益の合計。詳しくは、この記事の次の節 [&#x200B; 請求記録に請求可能な時間を含める &#x200B;](#include-billable-hours-in-a-billing-record) を参照してください。
 
-   * **請求可能な費用**：請求記録に含まれる請求可能な費用の実際の金額の合計。詳しくは、この記事の次の節 [ 請求可能な費用を請求記録に含める ](#include-billable-expenses-in-a-billing-record) を参照してください。
+   * **請求可能な費用**：請求記録に含まれる請求可能な費用の実際の金額の合計。詳しくは、この記事の次の節 [&#x200B; 請求可能な費用を請求記録に含める &#x200B;](#include-billable-expenses-in-a-billing-record) を参照してください。
 
-   * **請求可能な費用**：請求記録に含まれるタスクの固定収益の合計。詳しくは、この記事の次の節 [ 請求記録に固定収益を含める ](#include-fixed-revenues-in-a-billing-record) を参照してください。
+   * **請求可能な費用**：請求記録に含まれるタスクの固定収益の合計。詳しくは、この記事の次の節 [&#x200B; 請求記録に固定収益を含める &#x200B;](#include-fixed-revenues-in-a-billing-record) を参照してください。
 
    * **請求記録合計**：すべての請求可能額の合計。これは次の数式で計算されます。
 

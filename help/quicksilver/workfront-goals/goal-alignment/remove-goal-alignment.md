@@ -165,9 +165,9 @@ Removing goal alignment differs depending on which environment you use.
 1. Workfront の&#x200B;**目標**&#x200B;エリアにアクセスし、目標の名前をクリックして、目標のページを開きます。
 1. 親目標の目標ページで、左パネルの&#x200B;**進行状況インジケーター**&#x200B;をクリックします。
 
-   ![ 目標の整合性の再移動 ](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![&#x200B; 目標の整合性の再移動 &#x200B;](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. **タイプ：目標** グループ化で、目標を選択し、リストの上部にある **切断** アイコン ![ 切断アイコン ](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) をクリックします。
+1. **タイプ：目標** グループ化で、目標を選択し、リストの上部にある **切断** アイコン ![&#x200B; 切断アイコン &#x200B;](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) をクリックします。
 
    連携解除ボックスが表示されます。
 

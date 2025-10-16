@@ -23,7 +23,7 @@ ht-degree: 93%
 The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.
 -->
 
-![ ステータス ](assets/statuses.png)
+![&#x200B; ステータス &#x200B;](assets/statuses.png)
 
 管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。Workfront 管理者（すべてのグループ）も同様です。
 

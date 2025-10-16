@@ -20,7 +20,7 @@ ht-degree: 77%
 
 タスクを表示するときに、完了率でグループ化し、0～25、26～50、51～75、75～99、100 の範囲に分けたい場合があります。これは、テキストモードを使用してグループ化を作成することで可能です。
 
-![ 計算値によるグループ化 ](assets/grouping-calculated-value-column-to-all-objects.png)
+![&#x200B; 計算値によるグループ化 &#x200B;](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## アクセス要件
 

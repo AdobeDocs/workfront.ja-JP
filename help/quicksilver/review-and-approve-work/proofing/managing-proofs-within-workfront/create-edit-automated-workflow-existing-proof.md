@@ -59,7 +59,7 @@ ht-degree: 95%
 
    または
 
-   プルーフビューアでプルーフを確認している場合は、左側のパネルで **ワークフロー**![ ワークフローアイコン ](assets/workflow-icon-proofing-viewer.png) をクリックし、編集アイコン ![ 編集アイコン ](assets/edit-icon-proofing-viewer.png) をクリックして、プルーフの自動ワークフロー設定を開きます。
+   プルーフビューアでプルーフを確認している場合は、左側のパネルで **ワークフロー**![&#x200B; ワークフローアイコン &#x200B;](assets/workflow-icon-proofing-viewer.png) をクリックし、編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon-proofing-viewer.png) をクリックして、プルーフの自動ワークフロー設定を開きます。
 
 1. （条件付き）現在、プルーフが（ステージなしの）基本ワークフローを使用している場合、表示される画面で「**自動ワークフローに変換**」をクリックします。
 
@@ -156,7 +156,7 @@ ht-degree: 95%
 
    ステージを自動化ワークフローに追加すると、画面にステージを表すダイアグラムが表示されます。
 
-   ![ ワークフローダイアグラム ](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![&#x200B; ワークフローダイアグラム &#x200B;](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. ステージの追加が終了したら、「**完了**」をクリックします。
 

@@ -54,7 +54,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
 1. **ビュー**&#x200B;の歯車アイコン ![](assets/gear-icon-settings.png) またはイシューの右側の「**編集**」ボタンをクリックして、**設定を微調整**&#x200B;の下で付与する機能を選択します。
 
-   ![ 問題設定の微調整 ](assets/fine-tune-issues.png)
+   ![&#x200B; 問題設定の微調整 &#x200B;](assets/fine-tune-issues.png)
 
 1. （オプション）上位のオブジェクトからのタスクに継承された権限を制限するには、「**追加制限を設定**」をクリックし、「**プロジェクト、タスク、イシューなどからドキュメントへのアクセス権を継承しない**」を選択します。
 

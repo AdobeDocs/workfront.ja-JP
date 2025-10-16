@@ -162,7 +162,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 ## テンプレートのリソース管理者の指定
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
 
 1. 「**テンプレート**」をクリックします。
 

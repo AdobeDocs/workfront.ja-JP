@@ -75,7 +75,7 @@ Adobe Workfront レポートの複数選択カスタムフィールドにおい�
 複数選択のカスタムフィールドでグループ化するには、次の前提条件が満たされている必要があります。
 
 * カスタムフォームに複数選択カスタムフィールドを作成します。\
-  カスタムフォームの作成と、カスタムフォームへのカスタムフィールドの追加について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成と、カスタムフォームへのカスタムフィールドの追加について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 * カスタムフォームをオブジェクトに添付します。
 * 複数選択カスタムフィールドに、各オブジェクトの値を入力します。
@@ -102,7 +102,7 @@ Adobe Workfront レポートの複数選択カスタムフィールドにおい�
 
    レポート内のオブジェクトは、複数選択カスタムフィールドの値でグループ化されます。
 
-   ![ 複数選択フィールドのグループ化 ](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![&#x200B; 複数選択フィールドのグループ化 &#x200B;](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    レポートのグループ化の名前は、複数選択カスタムフィールドの名前に続いて、フィールドで選択された値になります。
 

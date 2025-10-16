@@ -37,7 +37,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] ライセンス</p> </td> 
-   <td> <p>[!UICONTROL ライト ] 以上</p> 
+   <td> <p>[!UICONTROL ライト &#x200B;] 以上</p> 
    <p>[!UICONTROL Review] 以降</p> </td> 
   </tr> 
     <tr> 
@@ -51,9 +51,9 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、[ の使用に必要なアクセス  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を参照してください。
+シナリオプランナーへのアクセスについて詳しくは、[&#x200B; の使用に必要なアクセス  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を参照してください。
 
-Workfrontのアクセス要件について詳しくは、[Workfrontのドキュメントへのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfrontのドキュメントへのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -97,9 +97,9 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
 
 ## 前提条件
 
-計画内にイニシアチブを作成する前に、計画を作成するか、別のユーザーと計画を共有する必要があります。計画の作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
+計画内にイニシアチブを作成する前に、計画を作成するか、別のユーザーと計画を共有する必要があります。計画の作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
 
-イニシアチブについて詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md) のイニシアチブの概要を参照してください。
+イニシアチブについて詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md) のイニシアチブの概要を参照してください。
 
 ## イニシアチブの作成
 
@@ -108,11 +108,11 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
 * 最初から。
 * プランにプロジェクトを読み込む
 
-  プロジェクトをプラン内のイニシアチブとして読み込む方法について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランにプロジェクトを読み込むを参照してください。
+  プロジェクトをプラン内のイニシアチブとして読み込む方法について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランにプロジェクトを読み込むを参照してください。
 
 * 既存のイニシアチブをコピーする。
 
-  イニシアチブのコピーについて詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md) でイニシアチブをコピーを参照してください。
+  イニシアチブのコピーについて詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md) でイニシアチブをコピーを参照してください。
 
 イニシアチブを最初から作成するには、以下のように行います。
 
@@ -134,7 +134,7 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
 1. （オプション）イニシアチブバーの端をドラッグして、期間を 1 か月超に延長し、イニシアチブの最後の月を表示する場所にリリースします。
 1. （オプションおよび条件付き）イニシアチブの期間がプランの期間より短い場合は、プランのタイムライン上の別の位置にイニシアチブバーをドラッグ＆ドロップして、別の時間枠に移動します。
 
-   ![ タイムラインでイニシアチブを移動 ](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![&#x200B; タイムラインでイニシアチブを移動 &#x200B;](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -152,7 +152,7 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
 1. （オプション）左から右にスクロールして、イニシアチブの期間全体を確認します。
 1. （オプション）現在の日付に戻るには、「**[!UICONTROL 今日]**」のインジケーターラインをクリックします。
 
-   ![ 今日の指標 ](assets/today-indicator-350x160.png)
+   ![&#x200B; 今日の指標 &#x200B;](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -160,7 +160,7 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
 
 1. イニシアチブのバーをクリックします。イニシアチブの詳細パネルが右側に開きます。
 
-   ![ イニシアチブの詳細パネル ](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![&#x200B; イニシアチブの詳細パネル &#x200B;](assets/initiative-details-panel-multiple-months-350x626.png)
 
    次の情報を指定または確認します。
 
@@ -226,9 +226,9 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
 
    >[!NOTE]
    >
-   >プランの担当業務の数と予算、編集中のイニシアチブの担当業務の数とコスト、およびその上にあるすべてのイニシアチブのコストを定義済みで、それらすべてがプランに指定した金額を超える場合、[!DNL Workfront] はそのイニシアチブを完了するのに十分なリソースがないと判断する場合があります。[!DNL Workfront] がこのイニシアチブを達成しようとすると、これが競合としてマークされ、赤いバーで表示されます。競合したイニシアチブに続くすべてのイニシアチブが赤い背景で表示されます。リソースが不十分な最初のイニシアチブから始めて、イニシアチブのニーズの一部を調整する必要が生じる場合があります。競合するイニシアチブの調整について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) でのイニシアチブの競合を解決を参照してください。
+   >プランの担当業務の数と予算、編集中のイニシアチブの担当業務の数とコスト、およびその上にあるすべてのイニシアチブのコストを定義済みで、それらすべてがプランに指定した金額を超える場合、[!DNL Workfront] はそのイニシアチブを完了するのに十分なリソースがないと判断する場合があります。[!DNL Workfront] がこのイニシアチブを達成しようとすると、これが競合としてマークされ、赤いバーで表示されます。競合したイニシアチブに続くすべてのイニシアチブが赤い背景で表示されます。リソースが不十分な最初のイニシアチブから始めて、イニシアチブのニーズの一部を調整する必要が生じる場合があります。競合するイニシアチブの調整について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) でのイニシアチブの競合を解決を参照してください。
 
-1. （任意）担当業務の名前にポインタを合わせ、**[!UICONTROL ごみ箱アイコン]**![ 削除アイコン ](assets/delete.png) をクリックして、イニシアチブから削除します。
+1. （任意）担当業務の名前にポインタを合わせ、**[!UICONTROL ごみ箱アイコン]**![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックして、イニシアチブから削除します。
 
 1. （条件付き）イニシアチブに変更を加えた場合は、「**[!UICONTROL 適用]**」をクリックします。
 
@@ -251,4 +251,4 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
 
    これで、イニシアチブが計画に含まれるようになりました。
 
-   計画からイニシアチブを削除する方法について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md) 内のイニシアチブを削除を参照してください。
+   計画からイニシアチブを削除する方法について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md) 内のイニシアチブを削除を参照してください。

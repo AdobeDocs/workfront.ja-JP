@@ -60,7 +60,7 @@ ht-degree: 97%
 ## [!DNL Slack] 用に [!DNL Workfront] 通知を設定 {#configure-workfront-notifications-for-slack}
 
 1. （条件付き）[!DNL Slack] インスタンスに [!DNL Workfront] が追加された後、[!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  へのアクセスを参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  へのアクセスを参照してください。
 
 1. 任意のチャネルから、メッセージフィールドに次のいずれかのコマンドを入力します。
 
@@ -99,10 +99,10 @@ ht-degree: 97%
 
 1. [!UICONTROL Slack] にログインします。
 1. [!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」節を参照してください。
 
 1. [!DNL Slack] 用の [!DNL Workfront] 通知が有効になっていることを確認します。\
-   どの [!DNL Workfront] 通知を [!DNL Slack] にも通知されるように設定できるかについて詳しくは、[ [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack) 用の  [!DNL Workfront]  設定を参照してください。
+   どの [!DNL Workfront] 通知を [!DNL Slack] にも通知されるように設定できるかについて詳しくは、[&#x200B; [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack) 用の  [!DNL Workfront]  設定を参照してください。
 
 1. **[!DNL Workfront]** チャネルにアクセスして [!DNL Workfront] 通知を検索します。
 1. （条件付きおよびオプション）次のいずれかの操作を行います。

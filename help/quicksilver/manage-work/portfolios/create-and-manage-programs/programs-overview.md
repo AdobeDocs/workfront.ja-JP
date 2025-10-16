@@ -45,7 +45,7 @@ Adobe Workfrontでは、プログラムとは、統一された特性を持つ�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL 編集 ] [!UICONTROL ポートフォリオ ] および [!UICONTROL プログラム ] へのアクセス</p>  </td> 
+   <td> <p>[!UICONTROL 編集 &#x200B;] [!UICONTROL ポートフォリオ &#x200B;] および [!UICONTROL プログラム &#x200B;] へのアクセス</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -125,4 +125,4 @@ Adobe Workfrontでは、プログラムとは、統一された特性を持つ�
 
 * ポートフォリオオプティマイザーを使用すると、ポートフォリオ内のすべてのプロジェクトのパフォーマンスを分析できます。 同じプログラム全体で複数のプロジェクトのパフォーマンスを比較することはできません。 プロジェクトのパフォーマンスは、ポートフォリオレベルで分析する必要があります。
 
-  詳しくは、[Portfolio Optimizer でのプロジェクトの最適化 ](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) を参照してください。
+  詳しくは、[Portfolio Optimizer でのプロジェクトの最適化 &#x200B;](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) を参照してください。

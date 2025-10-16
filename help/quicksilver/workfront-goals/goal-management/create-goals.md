@@ -219,7 +219,7 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -229,7 +229,7 @@ Creating goals differs depending on what environment you use.
 
    「新しい目標」ボックスが表示されます。
 
-   ![ 新しい目標ボックス ](assets/new-goal-box-unshimmed.png)
+   ![&#x200B; 新しい目標ボックス &#x200B;](assets/new-goal-box-unshimmed.png)
 
 1. 次のフィールドに情報を入力します。
    * **目標名**：目標の名前を入力します。必須フィールドです。

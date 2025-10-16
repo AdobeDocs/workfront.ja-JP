@@ -47,7 +47,7 @@ ht-degree: 71%
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -85,7 +85,7 @@ ht-degree: 71%
 >* 画像は、オブジェクト上の[!UICONTROL 更新]タブからアクセスでき、[!UICONTROL メインメニュー]の[!UICONTROL ドキュメント]エリアでも使用できます。
 >
 
-1. **[!UICONTROL の右上隅にある]** メインメニュー ![ アイコン ](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront] をクリックし、**[!UICONTROL 設定]**![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
+1. **[!UICONTROL の右上隅にある]** メインメニュー ![&#x200B; アイコン &#x200B;](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront] をクリックし、**[!UICONTROL 設定]**![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
 1. 左パネルで、**[!UICONTROL インターフェイス]**／**[!UICONTROL フィードの更新]**&#x200B;を選択します。
 1. 「**[!UICONTROL 環境設定]**」タブを選択します。
 

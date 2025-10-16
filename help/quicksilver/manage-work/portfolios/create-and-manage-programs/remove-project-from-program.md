@@ -51,7 +51,7 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontのドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください
+*詳しくは、[Workfrontのドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください
 
 +++
 
@@ -93,6 +93,6 @@ ht-degree: 91%
 
    または
 
-   「**[!UICONTROL プログラムから]****[!UICONTROL 削除]**」をクリックして、選択したプログラムから削除します。
+   「**[!UICONTROL プログラムから]**&#x200B;**[!UICONTROL 削除]**」をクリックして、選択したプログラムから削除します。
 
    「[!UICONTROL プログラムから削除]」をクリックした場合、プロジェクトは選択したプログラムと関連付けられなくなります。

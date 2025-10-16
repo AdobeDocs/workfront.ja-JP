@@ -20,7 +20,7 @@ ht-degree: 68%
 
 このタスクのグループ化を使用して、ポートフォリオ別、プログラム別、および関連付けられているプロジェクト別にタスクをグループ化します。
 
-![Portfolio プログラム プロジェクトのグループ化 ](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![Portfolio プログラム プロジェクトのグループ化 &#x200B;](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## アクセス要件
 

@@ -21,7 +21,7 @@ ht-degree: 50%
 
 イシューの予定完了日を指定することも、Workfront に任せて、特定の基準に基づいて計算することもできます。
 
-問題の予定完了日は、プロジェクトの予定完了日には影響しません。 タスクの予定完了日のみが、プロジェクトの予定完了日に影響を与えます。 プロジェクト予定完了日の詳細については、「[ プロジェクト予定完了日の設定 ](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)」を参照してください。
+問題の予定完了日は、プロジェクトの予定完了日には影響しません。 タスクの予定完了日のみが、プロジェクトの予定完了日に影響を与えます。 プロジェクト予定完了日の詳細については、「[&#x200B; プロジェクト予定完了日の設定 &#x200B;](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)」を参照してください。
 
 >[!NOTE]
 >

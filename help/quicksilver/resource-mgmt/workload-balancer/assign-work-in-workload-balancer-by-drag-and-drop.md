@@ -76,15 +76,15 @@ Adobe Workfront ワークロードバランサーを使用して作業アイテ�
 
    >[!NOTE]
    >
-   ><span class="preview"> 「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目の下に表示されます。 詳しくは、[ ワークロードバランサーの操作 ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) の [ ビューのカスタマイズ ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) を参照してください。</span>
+   ><span class="preview"> 「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目の下に表示されます。 詳しくは、[&#x200B; ワークロードバランサーの操作 &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) の [&#x200B; ビューのカスタマイズ &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) を参照してください。</span>
 
-1. （条件付き）プロジェクトのワークロードバランサーで「**すべてのユーザーを表示** アイコン ![ すべてのユーザーを表示 ](assets/show-all-users-icon-project-workload-balancer.png) をクリックして、すべてのWorkfront ユーザーを表示します。
+1. （条件付き）プロジェクトのワークロードバランサーで「**すべてのユーザーを表示** アイコン ![&#x200B; すべてのユーザーを表示 &#x200B;](assets/show-all-users-icon-project-workload-balancer.png) をクリックして、すべてのWorkfront ユーザーを表示します。
 
    これにより、表示するアクセス権を持つすべてのユーザーが表示されます。
 
    プロジェクトチームにも属し、既にプロジェクトのアイテムに割り当てられているユーザーは、割り当てられた作業エリアで名前の右側にプロジェクトアイコンが表示されます。
 
-   ![ プロジェクトのユーザー ](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
+   ![&#x200B; プロジェクトのユーザー &#x200B;](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
    >[!TIP]
    >
@@ -102,10 +102,10 @@ Adobe Workfront ワークロードバランサーを使用して作業アイテ�
    >ポインタを合わせているユーザーの予定時間数は、作業アイテムからの毎日の予定時間数でリアルタイムに更新され、新しいアイテムの追加が全体の割り当てに与える影響を示します。
 
    <span class="preview"> プレビュー環境のサンプル画像：</span>
-   ![ ユーザーに割り当てる項目をドロップ ](assets/wb-drag-drop-role-or-task-to-user.png)
+   ![&#x200B; ユーザーに割り当てる項目をドロップ &#x200B;](assets/wb-drag-drop-role-or-task-to-user.png)
 
    本番環境のサンプル画像：
-   ![ ユーザーに割り当てる項目をドロップ ](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   ![&#x200B; ユーザーに割り当てる項目をドロップ &#x200B;](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
 1. 準備ができたら、選択した作業項目 <span class="preview"> または役割の割り当て </span> を、「割り当て済み」領域のユーザー名と同じ行にドロップします。 アイテムが割り当てられ、ユーザーに割り当てられた予定時間数が、作業アイテムからの新しい時間で更新されます。
 
@@ -123,7 +123,7 @@ Adobe Workfront ワークロードバランサーを使用して作業アイテ�
 
 
 1. （オプション）割り当てられた作業エリアでユーザーの名前の下にある作業アイテムのバーをクリックし、ドラッグして未割り当て作業エリアにドロップすると、割り当てが解除されます。そのアイテムはユーザーから割り当てが解除されますが、担当業務にまだ割り当てられている場合があります。その場合は、未割り当て作業エリアに表示されます。アイテムが別のユーザーに割り当てられている場合、そのアイテムは、割り当てられた作業エリアで、まだ割り当てられているユーザーの名前の下に引き続き表示されます。
-1. （オプション） **割り当てを表示アイコン**![ 割り当てを表示アイコン ](assets/show-allocations-icon-small.png) をクリックし、**詳細メニュー**![ 詳細メニュー ](assets/qs-more-menu.png)>**割り当てを編集** をクリックします。
+1. （オプション） **割り当てを表示アイコン**![&#x200B; 割り当てを表示アイコン &#x200B;](assets/show-allocations-icon-small.png) をクリックし、**詳細メニュー**![&#x200B; 詳細メニュー &#x200B;](assets/qs-more-menu.png)>**割り当てを編集** をクリックします。
 
    <!--
    (make sure these are still called this, and that the icon has not changed)

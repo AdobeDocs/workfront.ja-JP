@@ -66,7 +66,7 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -104,7 +104,7 @@ For this article, the old access was:
 
    グループレベルの承認プロセスを編集する場合は、次の手順を実行します。
 
-   1. 左側のパネルで、**グループ**![ グループアイコン ](assets/groups-icon.png) をクリックします。
+   1. 左側のパネルで、**グループ**![&#x200B; グループアイコン &#x200B;](assets/groups-icon.png) をクリックします。
    1. グループ承認プロセスを一覧表示または管理するグループの名前をクリックします。
    1. 左側のパネルで、「**承認**」をクリックします。場合によっては、まず「**さらに表示**」をクリックする必要があります。
 
@@ -112,7 +112,7 @@ For this article, the old access was:
 
 1. 編集するプロジェクトを選択し、リストの上部にある「**編集**」をクリックします。「承認プロセスの編集」ボックスが表示されます。
 
-   ![ 承認プロセスの編集 ](assets/edit-approval-process-global-area-new.png)
+   ![&#x200B; 承認プロセスの編集 &#x200B;](assets/edit-approval-process-global-area-new.png)
 
 1. 表示されるボックスで、次の情報を指定します。
 

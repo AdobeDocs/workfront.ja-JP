@@ -21,7 +21,7 @@ ht-degree: 92%
 >
 >このページで説明する手順は、まだ Adobe Admin Console にオンボーディングされていない組織にのみ適用されます。
 >
->Adobe Admin Consoleにオンボードされた組織内のユーザー属性をマッピングするには、「ユーザー属性のマッピング」の [Adobe統合エクスペリエンスでのユーザー属性のマッピング ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) を参照してください。
+>Adobe Admin Consoleにオンボードされた組織内のユーザー属性をマッピングするには、「ユーザー属性のマッピング」の [Adobe統合エクスペリエンスでのユーザー属性のマッピング &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) を参照してください。
 
 次の節では、Active Directory フェデレーションサービス（ADFS）を ID プロバイダーとして使用する場合に、Security Assertion Markup Language（SAML）2.0 メタデータを更新する方法について説明します。
 
@@ -72,7 +72,7 @@ ADFS メタデータを自動的に更新するように設定するには、こ
 1. Workfront と共に使用するように以前に設定した証明書利用者の信頼を選択し、右側のパネルで、「**フェデレーションメタデータから更新**」をクリックします。
 1. （条件付き）このオプションがグレー表示の場合（既にメタデータファイルを使用して証明書利用者の信頼が設定されていたことを意味する）、次の手順を実行します。
 
-   1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
+   1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**設定** ![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
 
    1. **システム**／**シングルサインオン（SSO）**&#x200B;をクリックします。
 

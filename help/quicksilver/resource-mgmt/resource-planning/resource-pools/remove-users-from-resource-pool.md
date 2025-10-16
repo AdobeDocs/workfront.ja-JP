@@ -19,7 +19,7 @@ ht-degree: 79%
 
 すべてのリソースプールで常に正確なユーザーのリストを確保できるように、非アクティブ化されたユーザー、役割や部門を移動したユーザーを削除することをお勧めします。
 
-リソースプールについて詳しくは、[ リソースプールの概要](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)を参照してください。
+リソースプールについて詳しくは、[&#x200B; リソースプールの概要](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)を参照してください。
 
 ## アクセス要件
 
@@ -66,7 +66,7 @@ ht-degree: 79%
    または\
    エンティティに関連付けられているすべてのユーザーを削除する場合は、会社、担当業務、チーム、またはグループの名前を入力します。
 
-   ![ リソース プールからユーザーを削除 ](assets/remove-users-from-resource-pool.png)
+   ![&#x200B; リソース プールからユーザーを削除 &#x200B;](assets/remove-users-from-resource-pool.png)
 
 1. 「X」アイコンをユーザーレベルでクリックして、リソースプールからユーザーを削除します。 それらは、表示されるすべてのリストから削除されます。
    <!--Or  

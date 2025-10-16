@@ -61,7 +61,7 @@ ht-degree: 79%
  </tbody> 
 </table>
 
-詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -164,9 +164,9 @@ ht-degree: 79%
 
 1. 目標に変換する結果またはアクティビティがある目標に移動します。
 1. 目標のページで、左側のパネルの「**進捗インジケーター**」をクリックします。
-1. 進捗インジケーターのリストで結果またはアクティビティを選択し、進捗インジケーターリストの上部にある **目標に変換** アイコン ![ 目標に変換 ](assets/convert-to-goal-icon-unshimmed.png) をクリックします。 「目標に変換」ボックスが開きます。
+1. 進捗インジケーターのリストで結果またはアクティビティを選択し、進捗インジケーターリストの上部にある **目標に変換** アイコン ![&#x200B; 目標に変換 &#x200B;](assets/convert-to-goal-icon-unshimmed.png) をクリックします。 「目標に変換」ボックスが開きます。
 
-   ![ 目標に変換ボックス ](assets/convert-to-goal-box-unshimmed.png)
+   ![&#x200B; 目標に変換ボックス &#x200B;](assets/convert-to-goal-box-unshimmed.png)
 1. 次の情報を更新します。
    * **目標名**：デフォルトでは、新しい目標は、元の結果やアクティビティと同じ名前になります。
    * **期間**：デフォルトでは、新しい目標の期間は現在の四半期になります。「**カスタム日付を有効にする**」設定を選択して、新しい目標のカスタム期間を定義します。

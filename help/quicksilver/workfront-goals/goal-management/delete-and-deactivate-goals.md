@@ -178,7 +178,7 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 
    目標リストが表示されます。
 
@@ -193,9 +193,9 @@ Deactivating goals differs depending on which environment you use.
 
    目標ページが開きます。
 
-   ![ 目標ページ ](assets/goal-page-unshimmed.png)
+   ![&#x200B; 目標ページ &#x200B;](assets/goal-page-unshimmed.png)
 
-1. 目標名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックしてから、「**アクティベートを解除** をクリックします。
+1. 目標名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、「**アクティベートを解除** をクリックします。
 
 1. 目標が非アクティブ化され、そのステータスは非アクティブになります。
 
@@ -235,14 +235,14 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. 右上隅の「メインメニュー」アイコン ![ 「メインメニュー」アイコン ](assets/main-menu-icon.png) をクリックし、「**目標**」をクリックします。
+1. 右上隅の「メインメニュー」アイコン ![&#x200B; 「メインメニュー」アイコン &#x200B;](assets/main-menu-icon.png) をクリックし、「**目標**」をクリックします。
 
    目標リストが表示されます。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. 目標の名前をクリックします。目標ページが開きます。
-1. 目標名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックし、**目標を削除** をクリックしてから、**削除** をクリックします。
+1. 目標名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、**目標を削除** をクリックしてから、**削除** をクリックします。
 
    目標とそのアクティビティおよび結果も削除され、復元することはできません。目標または子目標に関連付けられたプロジェクトは削除されません。
 

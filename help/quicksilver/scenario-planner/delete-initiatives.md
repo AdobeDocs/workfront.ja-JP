@@ -35,7 +35,7 @@ ht-degree: 82%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] ライセンス</p> </td> 
-   <td> <p>[!UICONTROL ライト ] 以上</p> 
+   <td> <p>[!UICONTROL ライト &#x200B;] 以上</p> 
    <p>[!UICONTROL Review] 以降</p> </td> 
   </tr> 
     <tr> 
@@ -49,9 +49,9 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、[ の使用に必要なアクセス  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を参照してください。
+シナリオプランナーへのアクセスについて詳しくは、[&#x200B; の使用に必要なアクセス  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を参照してください。
 
-Workfrontのアクセス要件について詳しくは、[Workfrontのドキュメントへのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfrontのドキュメントへのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -106,9 +106,9 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
    * イニシアチブはシナリオから削除されますが、[!DNL Scenario Planner]エリアは「[!UICONTROL プロジェクトの詳細]」セクションに残ります。
    * 削除したイニシアチブがシナリオで唯一の公開イニシアチブである場合は、プランが公開されたことを示す指標も削除されます。
 
-     プロジェクトへのイニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
+     プロジェクトへのイニシアチブの公開について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
 
-     プロジェクトの読み込みによるイニシアチブの作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランにプロジェクトを読み込むを参照してください。
+     プロジェクトの読み込みによるイニシアチブの作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランにプロジェクトを読み込むを参照してください。
 
 1 度に 1 つのイニシアチブを削除することも、複数のイニシアチブを一括で削除することもできます。
 
@@ -124,7 +124,7 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
 1. 計画の名前をクリックして開き、削除するイニシアチブを確認します。
 1. 次のいずれかの操作を行います。
 
-   * イニシアチブ名の右側にある **[!UICONTROL その他メニュー]**![ その他メニュー ](assets/more-menu.png) をクリックし、**[!UICONTROL 削除]**/**[!UICONTROL はい、削除します]** をクリックします。
+   * イニシアチブ名の右側にある **[!UICONTROL その他メニュー]**![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックし、**[!UICONTROL 削除]**/**[!UICONTROL はい、削除します]** をクリックします。
 
    * イニシアチブの左側にあるボックスを選択し、計画の下部に表示されるフローティングメニューで「**[!UICONTROL 削除]**」、「**[!UICONTROL はい、削除します]**」の順にクリックします。
 
@@ -141,7 +141,7 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
 1. 計画の名前をクリックして開き、削除するイニシアチブを確認します。
 1. 削除するイニシアチブの左側にあるボックスを選択し、計画の下部に表示されるメニューから、「**[!UICONTROL 削除]**」、「**[!UICONTROL はい、削除します]**」の順にクリックします。
 
-   ![ イニシアチブの管理メニュー ](assets/bottom-manage-initiative-menu-350x45.png)
+   ![&#x200B; イニシアチブの管理メニュー &#x200B;](assets/bottom-manage-initiative-menu-350x45.png)
 
    イニシアチブとその担当業務およびコスト情報は、プランから削除されます。
 

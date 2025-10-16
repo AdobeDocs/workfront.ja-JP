@@ -23,6 +23,6 @@ ht-degree: 37%
 
 この節では、Adobe Workfrontでの問題の使用方法について説明する次のサブセクションを含みます。
 
-* [ 変換の問題：記事インデックス ](../../manage-work/issues/convert-issues/convert-issues-overview.md)
-* [ 問題情報：記事インデックス ](../../manage-work/issues/issue-information/issue-info-overview.md)
+* [&#x200B; 変換の問題：記事インデックス &#x200B;](../../manage-work/issues/convert-issues/convert-issues-overview.md)
+* [&#x200B; 問題情報：記事インデックス &#x200B;](../../manage-work/issues/issue-information/issue-info-overview.md)
 * [問題の管理：記事インデックス](../../manage-work/issues/manage-issues/manage-issues-overview.md)

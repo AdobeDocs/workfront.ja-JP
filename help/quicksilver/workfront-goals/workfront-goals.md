@@ -50,8 +50,8 @@ Adobe Workfront Goals は、戦略を作業の実行と配信に結び付ける�
 組織で目標を設定および管理する方法と、目標を推進する要因を理解するには、次の節の記事を参照してください。
 
 * [Adobe Workfront Goals の概要](../workfront-goals/goal-management/wf-goals-overview.md)
-* [Adobe Workfront Goals における目標管理：記事索引 ](../workfront-goals/goal-management/goal-management.md)
-* [Adobe Workfront Goals における目標の関連付け：記事インデックス ](../workfront-goals/goal-alignment/goal-alignment.md)
+* [Adobe Workfront Goals における目標管理：記事索引 &#x200B;](../workfront-goals/goal-management/goal-management.md)
+* [Adobe Workfront Goals における目標の関連付け：記事インデックス &#x200B;](../workfront-goals/goal-alignment/goal-alignment.md)
 * [目標のレビューと Adobe Workfront Goals セクション](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
 * [Adobe Workfront Goals の結果とアクティビティ](../workfront-goals/results-and-activities/results-and-activities.md)
 * [Adobe Workfront Goals の設定](../workfront-goals/workfront-goals-settings/wf-goals-settings.md)

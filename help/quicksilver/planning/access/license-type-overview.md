@@ -29,7 +29,7 @@ ht-degree: 6%
 
 Workfront Planning のオブジェクトに対する権限について詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
 
-Adobe Planning へのアクセスについて詳しくは、[Workfront Planning へのアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+Adobe Planning へのアクセスについて詳しくは、[Workfront Planning へのアクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
 ## Workfront のライセンスタイプと Workfront Planning の権限の関係
 
@@ -73,7 +73,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 >
 >共有ボックスには、下位レベルのライセンスを保持しているユーザーに対して、ワークスペースへの投稿またはワークスペースの管理を行う権限を付与できないことが示されます。これは、これらの権限レベルがグレー表示されているためです。
 >
->![Workspace の投稿者ユーザーに対してグレー表示されている権限 ](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+>![Workspace の投稿者ユーザーに対してグレー表示されている権限 &#x200B;](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### ライセンスの種類とビューへの権限
@@ -92,4 +92,4 @@ For more information, see [Access requirements in Workfront documentation](/help
 >
 >共有ボックスには、下位レベルのライセンスを持つユーザーにビューを管理する権限を付与できないことが示されます。これは、これらの権限レベルがグレー表示されているためです。
 >
->![ ビュー共有のライトユーザーで権限がグレー表示される ](assets/permissions-grayed-out-for-light-user.png)
+>![&#x200B; ビュー共有のライトユーザーで権限がグレー表示される &#x200B;](assets/permissions-grayed-out-for-light-user.png)

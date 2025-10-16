@@ -97,7 +97,7 @@ ht-degree: 61%
 
 ### チームのワークロードバランサーへのアクセス
 
-Workfrontのチームについて詳しくは、[ チームの概要 ](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md) を参照してください。
+Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x200B;](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md) を参照してください。
 
 {{step1-to-team}}
 
@@ -105,7 +105,7 @@ Workfrontのチームについて詳しくは、[ チームの概要 ](/help/qui
 
 1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
-   ![ チームのワークロードバランサー ](assets/nwe-balancer-team-350x172.png)
+   ![&#x200B; チームのワークロードバランサー &#x200B;](assets/nwe-balancer-team-350x172.png)
 
    チームのワークロードバランサーには、デフォルトで次の情報が表示されます。
 
@@ -125,7 +125,7 @@ Workfrontのチームについて詳しくは、[ チームの概要 ](/help/qui
 
    プロジェクトのワークロードバランサーが表示されます。
 
-   ![ プロジェクトのワークロードバランサー ](assets/nwe-balancer-project-350x152.png)
+   ![&#x200B; プロジェクトのワークロードバランサー &#x200B;](assets/nwe-balancer-project-350x152.png)
 
    プロジェクトのワークロードバランサーには、デフォルトで以下の情報が表示されます。
 
@@ -150,7 +150,7 @@ Workfrontのチームについて詳しくは、[ チームの概要 ](/help/qui
 
    ユーザーのワークロードバランサーが表示されます。
 
-   ![ ユーザーのワークロードバランサー ](assets/workload-balancer-user.png)
+   ![&#x200B; ユーザーのワークロードバランサー &#x200B;](assets/workload-balancer-user.png)
 
    デフォルトでは、ユーザーのワークロードバランサーには、次の情報が表示されます。
 
@@ -177,7 +177,7 @@ Workfrontのチームについて詳しくは、[ チームの概要 ](/help/qui
       (NOTE: ensure this stays correct)
       -->
 
-1. [Workfront オブジェクトまたは領域の左側のパネルにダッシュボードを追加する ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) の説明に従って、オブジェクトの左側のナビゲーションパネルにダッシュボードを追加し、カスタムタブにダッシュボードを配置します。
+1. [Workfront オブジェクトまたは領域の左側のパネルにダッシュボードを追加する &#x200B;](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) の説明に従って、オブジェクトの左側のナビゲーションパネルにダッシュボードを追加し、カスタムタブにダッシュボードを配置します。
 
    ダッシュボードからワークロードバランサーにアクセスする場合、手順 1 にリストされている元のエリアの 1 つから直接アクセスしているかのように表示できます。
 
@@ -185,7 +185,7 @@ Workfrontのチームについて詳しくは、[ チームの概要 ](/help/qui
       (NOTE: ensure this stays correct)
      -->
 
-1. （オプション） [ レイアウトテンプレートを使用した左パネルのカスタマイズ ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) の説明に従って、レイアウトテンプレートでダッシュボードを共有します。
+1. （オプション） [&#x200B; レイアウトテンプレートを使用した左パネルのカスタマイズ &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) の説明に従って、レイアウトテンプレートでダッシュボードを共有します。
 
 
 <!--

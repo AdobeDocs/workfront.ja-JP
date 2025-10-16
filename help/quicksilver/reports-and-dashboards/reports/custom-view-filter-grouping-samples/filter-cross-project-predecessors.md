@@ -64,4 +64,4 @@ ht-degree: 46%
 1. 新しい領域に、次のコードを貼り付けます。
    <pre>predecessorsMM:projectID=FIELD:projectID<br>predecessorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. （条件付き）レポートからフィルターにアクセスした場合は **[ フィルターの保存 ]**、タスク リストからフィルターにアクセスした場合は **[ 適用 ]**、**[ 新規として保存** をクリックします。
+1. （条件付き）レポートからフィルターにアクセスした場合は **[ フィルターの保存 ]**、タスク リストからフィルターにアクセスした場合は **[ 適用 ]**、**&lbrack; 新規として保存** をクリックします。

@@ -18,7 +18,7 @@ ht-degree: 7%
 
 Workfront Data Connect を使用すると、組織のWorkfront データをビジネスインテリジェンスツールで使用したり、外部データウェアハウスに保存したりできます。
 
-Data Connect Data Lake を外部製品と接続するには、まず「[Snowflakeのリーダーアカウントまたは接続の作成 ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) の説明に従って接続を作成する必要があります。 次に、以下の [許可リスト許可リストに加えるへの IP の追加 ](#add-ips-to-the-allowlist) で説明するように、必要な IP をページに追加する必要があります。
+Data Connect Data Lake を外部製品と接続するには、まず「[Snowflakeのリーダーアカウントまたは接続の作成 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) の説明に従って接続を作成する必要があります。 次に、以下の [許可リスト許可リストに加えるへの IP の追加 &#x200B;](#add-ips-to-the-allowlist) で説明するように、必要な IP をページに追加する必要があります。
 
 ほとんどの製品では、接続を確立するために、データレイクに関する次の情報が必要です。
 
@@ -33,7 +33,7 @@ Data Connect Data Lake を外部製品と接続するには、まず「[Snowflak
 | ユーザー名 | 接続の作成時に選択したユーザー名（Workfront*の **Data Connect** ページにあります） |
 | パスワード | Snowflakeへの初回ログイン時に指定したパスワード* |
 
-*接続に関する **Data Connect** ページの見つけ方については、[Snowflakeのリーダーアカウントまたは接続の作成 ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) を参照してください。
+*接続に関する **Data Connect** ページの見つけ方については、[Snowflakeのリーダーアカウントまたは接続の作成 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -74,7 +74,7 @@ Data Connect Data Lake を外部製品と接続するには、まず「[Snowflak
 
 ## 許可リストに IP を追加
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
 
 1. 左側のパネルで、**システム**/**データ接続** をクリックします。
 
@@ -82,15 +82,15 @@ Data Connect Data Lake を外部製品と接続するには、まず「[Snowflak
 
 1. 許可リストに加える **IP アドレスの説明** に IP アドレスの名前を入力し、**IP アドレス** で使用するツールの IP アドレス（または CIDR ブロック）を入力してから、「**IP を追加**」をクリックします。
 
-   ![IP アドレスの追加 ](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
+   ![IP アドレスの追加 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## 許可リストから IP アドレスを削除する
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
 
 1. 左側のパネルで、**システム**/**データ接続** をクリックします。
 
-1. 「**許可されている IP**」タブをクリックし、削除する IP アドレスの右側にあるごみ箱アイコン ![ 削除アイコン ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) をクリックします。
+1. 「**許可されている IP**」タブをクリックし、削除する IP アドレスの右側にあるごみ箱アイコン ![&#x200B; 削除アイコン &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) をクリックします。
 
 1. 表示されるウィンドウで、チェックボックスをオンにして「**削除**」をクリックします。
 

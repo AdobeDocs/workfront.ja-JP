@@ -60,7 +60,7 @@ ht-degree: 91%
 
    Workfront で使用できるタスクステータスがこのタブに表示されます。
 
-   ![ タスクステータス ](assets/task-status.png)
+   ![&#x200B; タスクステータス &#x200B;](assets/task-status.png)
 
    ビルトインの各システムタスクステータスについて詳しくは、[システムタスクステータス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)を参照してください。
 

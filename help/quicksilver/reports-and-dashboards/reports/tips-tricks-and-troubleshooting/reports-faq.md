@@ -88,7 +88,7 @@ Workfrontで時間を使用するほとんどのフィールドは分単位で�
 
   `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
-詳しくは、[ 実際の時間数を表示 ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md) を参照してください。
+詳しくは、[&#x200B; 実際の時間数を表示 &#x200B;](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md) を参照してください。
 
 ## レポート内の各グラフ要素の値がグラフに表示されないのはなぜですか？
 
@@ -113,7 +113,7 @@ Workfrontで時間を使用するほとんどのフィールドは分単位で�
 ### 回答
 
 レポートまたはカレンダーには、ログインしたユーザーを指すワイルドカードフィルター変数が含まれている場合があります。この場合、レポートには、ログインしたユーザーに基づく情報が表示されます。フィルターを調整して、ログインしたユーザーを指すワイルドカードを削除します。\
-![ ユーザー ID フィルター変数 ](assets/qs--user.id-filter-variable-350x79.png)
+![&#x200B; ユーザー ID フィルター変数 &#x200B;](assets/qs--user.id-filter-variable-350x79.png)
 
 ユーザーベースのワイルドカードフィルター変数の完全なリストについて詳しくは、[ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。
 
@@ -145,7 +145,7 @@ Workfrontで時間を使用するほとんどのフィールドは分単位で�
 1. **が次に等しい**&#x200B;修飾子を選択します。
 1. テキストボックスに *$$USER.ID* と入力していき、表示されるドロップダウンリストから選択します。\
    これにより、ログインしたユーザーに割り当てられているすべてのタスクとイシューを確認できます。ワイルドカードを特定のユーザー名に置き換えることができます。\
-   ![ 自分に割り当てられたタスク ](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![&#x200B; 自分に割り当てられたタスク &#x200B;](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. 「**保存して閉じる**」をクリックします。
 
@@ -166,7 +166,7 @@ Workfrontで時間を使用するほとんどのフィールドは分単位で�
 * プロジェクトのデフォルト通貨以外の通貨が選択されている&#x200B;**ビュー**&#x200B;がこれらのリストに適用されている場合、リンクは表示されません。**ビュー**&#x200B;を&#x200B;**プロジェクトの元の通貨**&#x200B;に変更すると、リンクが表示されて、プロジェクトにイシューやタスクを追加できるようになります。\
   ビューでの通貨の変更について詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
 
-![ プロジェクト通貨 ](assets/nwe-project-original-currency-350x229.png)
+![&#x200B; プロジェクト通貨 &#x200B;](assets/nwe-project-original-currency-350x229.png)
 
 ## レポートやダッシュボードの情報は自動的に更新されますか？
 

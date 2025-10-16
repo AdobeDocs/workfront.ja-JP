@@ -128,7 +128,7 @@ ht-degree: 68%
 
 ## Workfront Goals へのアクセス
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -198,11 +198,11 @@ To access an individual goal in the Production environment:
 
 1. Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコンをクリックし、「**目標**」をクリックします。
 デフォルトでは、目標リストが表示されます。
-   ![ 目標リスト ](assets/goal-list-unshimmed.png)
+   ![&#x200B; 目標リスト &#x200B;](assets/goal-list-unshimmed.png)
 1. リストで目標の名前をクリックします。
 目標のページが表示されます。
-   ![ 目標ページ ](assets/goal-page-unshimmed.png)
-1. 目標名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックすると、目標をさらに編集または共有できます。
+   ![&#x200B; 目標ページ &#x200B;](assets/goal-page-unshimmed.png)
+1. 目標名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックすると、目標をさらに編集または共有できます。
 1. 左側のパネルにある「**目標の詳細**」をクリックして、目標に関する情報を編集します。詳しくは、[Adobe Workfront Goals の目標の詳細セクションで目標を更新](../goal-management/update-goals-in-goal-details-panel.md)を参照してください。
 
 

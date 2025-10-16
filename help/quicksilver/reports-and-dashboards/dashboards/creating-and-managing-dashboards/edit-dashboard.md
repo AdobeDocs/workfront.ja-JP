@@ -79,7 +79,7 @@ ht-degree: 85%
 1. 編集するダッシュボードに移動します。
 1. 「**ダッシュボードの操作**」をクリックしたあと、「**編集**」をクリックします。
 
-   ![ ダッシュボードを編集 ](assets/unshimmed-edit-dashboard.png)
+   ![&#x200B; ダッシュボードを編集 &#x200B;](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >

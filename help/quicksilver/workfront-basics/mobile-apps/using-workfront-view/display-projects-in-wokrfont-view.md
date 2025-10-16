@@ -70,13 +70,13 @@ ht-degree: 95%
 1. [!DNL Workfront] ビューのホームページから、リスト内の任意のプロジェクトをタップして、プロジェクトの詳細を表示します。\
    プロジェクト情報が、画面で使用可能なウィジェットに表示されます。\
    一度に 4 つまでのウィジェットを表示でき、各プロジェクトにウィジェットを削除して追加し、プロジェクトに関する異なる情報を表示できます。\
-   [!UICONTROL プロジェクトの詳細]ビューへのウィジェットの追加について詳しくは、[!UICONTROL プロジェクトの詳細]ビュー](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)[でウィジェットを更新を参照してください。
+   [!UICONTROL プロジェクトの詳細]ビューへのウィジェットの追加について詳しくは、[!UICONTROL プロジェクトの詳細]ビュー[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)でウィジェットを更新を参照してください。
 
 ## [!DNL Workfront View] でのプロジェクト間の移動
 
 1. [!DNL Workfront View] アプリのプロジェクトのリストで、プロジェクトの名前をタップします。\
    プロジェクトに関する情報は、画面にアップロードされたウィジェットに表示されます。\
-   [!UICONTROL プロジェクトの詳細]ビューへのウィジェットの追加について詳しくは、[!UICONTROL プロジェクトの詳細]ビュー](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)[でウィジェットを更新を参照してください。
+   [!UICONTROL プロジェクトの詳細]ビューへのウィジェットの追加について詳しくは、[!UICONTROL プロジェクトの詳細]ビュー[&#128279;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)でウィジェットを更新を参照してください。
 
 1. 右から左にスワイプして、リストに次のプロジェクトを表示します。\
    各プロジェクトをスクロールすると、同じウィジェットがプロジェクトごとに表示されます。\

@@ -42,11 +42,11 @@ ht-degree: 98%
 
 * 新しいイニシアチブとしてのプランへのプロジェクトのインポート
 
-  詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) でのプランへのプロジェクトのインポートを参照してください。
+  詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) でのプランへのプロジェクトのインポートを参照してください。
 
 * プロジェクトへのイニシアチブの公開
 
-  詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトの更新または作成を参照してください。
+  詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトの更新または作成を参照してください。
 
 両方のプロセスによって、プロジェクトと対応するイニシアチブとの間に接続が作成されます。接続後、リソースの割り当てを比較し、それらが一致していることを確認することで、リソースの割り当てを管理できます。
 
@@ -66,7 +66,7 @@ ht-degree: 98%
 
    * プロジェクトの「[!UICONTROL プロジェクト詳細]」エリアの [!DNL Scenario Planner] のセクション詳しくは、次の記事を参照してください。
 
-      * [ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトの更新または作成
+      * [&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトの更新または作成
       * [プロジェクトの[!UICONTROL 概要]エリアでの情報の管理](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
      >[!TIP]
@@ -87,7 +87,7 @@ ht-degree: 98%
      >
      >プロジェクトとイニシアチブの担当業務に関する情報は、「[!UICONTROL 役割割り当て]」パネルに表示されます。
 
-* リンクされたイニシアチブのプロジェクトに対する担当業務の割り当ては表示できません。詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランへのプロジェクトのインポートを参照してください。
+* リンクされたイニシアチブのプロジェクトに対する担当業務の割り当ては表示できません。詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランへのプロジェクトのインポートを参照してください。
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -325,11 +325,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 これらの要素は、デフォルトで各リストの上部に表示されます。固定されており、リストをスクロールしても移動しません。各要素を識別するアイコンにポインタを合わせます。
 
-![ リスト要素 ](assets/nwe-list-elements.png)
+![&#x200B; リスト要素 &#x200B;](assets/nwe-list-elements.png)
 
 次のエリアでリスト要素をカスタマイズし、他のユーザーと共有できます。
 
-* システムのデフォルトリスト（この記事の[ [!DNL Adobe Workfront]](#default-workfront-lists) のリストの基本を学ぶの節を参照）
+* システムのデフォルトリスト（この記事の[&#x200B; [!DNL Adobe Workfront]](#default-workfront-lists) のリストの基本を学ぶの節を参照）
 * 自分と共有されているレポート
 
 リストの構成要素は、レポートの構成要素と同じです。
@@ -484,7 +484,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL Summary]</td> 
-   <td> <p>選択した項目の [!UICONTROL Summary] ボックスの表示と非表示を切り替えます。</p> <p>これは、タスクとイシューに対してのみ使用できます。</p> <p>[!UICONTROL の概要 ] パネルについては、<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref"> 概要の概要 </a> を参照してください。</p> </td> 
+   <td> <p>選択した項目の [!UICONTROL Summary] ボックスの表示と非表示を切り替えます。</p> <p>これは、タスクとイシューに対してのみ使用できます。</p> <p>[!UICONTROL の概要 &#x200B;] パネルについては、<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref"> 概要の概要 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -618,11 +618,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 * 従来のリスト
 
-  ![ ブルーグループ化 ](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![&#x200B; ブルーグループ化 &#x200B;](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * 更新されたリスト
 
-  ![ グレーグループ化 ](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![&#x200B; グレーグループ化 &#x200B;](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 次の表に、[!DNL Workfront] の従来のリストと更新されたリストの相違点をいくつか示します。
 

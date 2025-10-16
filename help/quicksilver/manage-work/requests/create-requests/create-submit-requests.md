@@ -46,7 +46,7 @@ Workfront Planning でレコードを作成するには、次の方法で、Work
 
 * Workfrontの「リクエスト」領域のWorkfront Planning リクエストフォームから。
 
-  Workfront Planning パッケージを購入する必要があります。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+  Workfront Planning パッケージを購入する必要があります。 詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 ## アクセス要件
 
@@ -101,7 +101,7 @@ Workfront 管理者は、リクエストキューの次のコンポーネント�
   詳しくは、[トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。
 
 * （オプション）リクエストのカスタムフォーム。\
-  詳しくは、「カスタムフォームの作成 [ を参照してください ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+  詳しくは、「カスタムフォームの作成 [&#x200B; を参照してください &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * （オプション）リクエストの承認プロセス。\
   詳しくは、[作業アイテムの承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
@@ -133,7 +133,7 @@ Workfront web アプリでリクエストを作成するには：
    * 管理者から、Workfront Planning へのアクセス権を付与されています
    * Workfront Planning Workspace に対して少なくとも表示権限がある
 
-   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください
+   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください
 
 1. ページの右上隅にある「**新規リクエスト**」をクリックします。
 
@@ -391,8 +391,8 @@ Planning 要求を発行するには、Workfront Planning パッケージを購�
 
 詳しくは、次の記事を参照してください。
 
-* [Adobe Workfront Planning でリクエストフォームを作成および管理します ](/help/quicksilver/planning/requests/create-request-form.md)。
-* [ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md)。
+* [Adobe Workfront Planning でリクエストフォームを作成および管理します &#x200B;](/help/quicksilver/planning/requests/create-request-form.md)。
+* [&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 送信されたリクエストを見つける
 

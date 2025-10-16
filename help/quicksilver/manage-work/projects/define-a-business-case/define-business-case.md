@@ -18,7 +18,7 @@ ht-degree: 92%
 
 この節では、次の記事を扱います。
 
-* [ ビジネスケース領域の概要 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
+* [&#x200B; ビジネスケース領域の概要 &#x200B;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
 * [プロジェクトのビジネスケースを作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)
 * [ビジネスケースを承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)
 * [ビジネスケースの財務フィールドの概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md)

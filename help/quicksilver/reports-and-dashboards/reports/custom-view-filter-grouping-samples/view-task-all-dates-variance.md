@@ -29,7 +29,7 @@ ht-degree: 75%
 
 ビューでの計算の使用について詳しくは、[テキストモードの一般的な使用の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)の[テキストモードの一般的な使用の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)を参照してください。
 
-![ すべての日付を含むタスクを表示 ](assets/view-task-with-all-dates-variance.png)
+![&#x200B; すべての日付を含むタスクを表示 &#x200B;](assets/view-task-with-all-dates-variance.png)
 
 ## アクセス要件
 

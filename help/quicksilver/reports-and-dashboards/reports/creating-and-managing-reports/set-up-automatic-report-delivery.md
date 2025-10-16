@@ -172,7 +172,7 @@ ht-degree: 64%
 >
 >予定レポートの配信が処理される際には、内部の制限時間が生じる可能性があります。 レポートの送信時間が送信される制限を超えた場合、通知が届き、スケジュールされた残りの配信に関係なくレポートは配信されなくなります。 レポートの送信を続行するには、まずフィルターと表示を使用してレポートのサイズを小さくし、次に、新しいスケジュール済み配信を作成します。
 >
->スケジュールされたレポート配信を使用して BI ツールでWorkfront データを分析する場合は、代わりにWorkfront Data Connect を使用することをお勧めします。 詳しくは、[Workfront Data Connect の概要 ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
+>スケジュールされたレポート配信を使用して BI ツールでWorkfront データを分析する場合は、代わりにWorkfront Data Connect を使用することをお勧めします。 詳しくは、[Workfront Data Connect の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
 
 ## スケジュール済みレポート配信を削除
 

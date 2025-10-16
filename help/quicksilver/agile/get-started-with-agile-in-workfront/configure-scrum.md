@@ -79,7 +79,7 @@ ht-degree: 94%
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL  標準 ]、[!UICONTROL  プラン ] または [!UICONTROL  ワーク ] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
+   [!UICONTROL &#x200B; 標準 &#x200B;]、[!UICONTROL &#x200B; プラン &#x200B;] または [!UICONTROL &#x200B; ワーク &#x200B;] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションの&#x200B;**[!UICONTROL ストーリーを見積もり]**&#x200B;エリアで、ストーリーのサイズ（作業負荷）の見積もりにポイントと時間を使用するかどうかを選択します。ポイントを選択した場合は、1 ポイントが何時間に相当するかを指定します。（デフォルトは 1 ポイント = 8 時間です）。 これは、ストーリーに追加された予定時間数です。
@@ -135,7 +135,7 @@ ht-degree: 94%
 
 ### プロジェクトのステータス列を設定 {#configure-status-columns-for-projects}
 
-プロジェクトのステータス列を設定する方法については、[ [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でビューを作成または編集の記事の、[[!UICONTROL アジャイル]ビューを作成またはカスタマイズ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)の節を参照してください。
+プロジェクトのステータス列を設定する方法については、[&#x200B; [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でビューを作成または編集の記事の、[[!UICONTROL アジャイル]ビューを作成またはカスタマイズ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)の節を参照してください。
 
 ## アジャイルストーリーボードでストーリーカードに表示する追加のフィールドを設定
 

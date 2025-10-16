@@ -119,7 +119,7 @@ ht-degree: 66%
 
    * 更新に関するメモを追加するには、「**更新**」セクションに移動し、「**新しいコメント**」をクリックして、メモを入力します。
 
-     ![ タスクへの更新の追加 ](assets/add-update-to-task.png)
+     ![&#x200B; タスクへの更新の追加 &#x200B;](assets/add-update-to-task.png)
 
    * 特定のユーザーに更新について通知するには、コメントを入力した際に表示される「**人物またはチームにタグ付け**」フィールドにユーザーの名前を入力します。詳しくは、[更新時の他のユーザーへのタグ付け](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
    * タスクのコミット日を更新するには、「**タスクの詳細**」をクリックし、「**コミット日**」フィールドを編集します。 詳しくは、[タスクを編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
