@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 167037c90b2da8164db62fe6304ce935104bdf05
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 16%
+source-wordcount: '131'
+ht-degree: 14%
 
 ---
 
@@ -25,14 +25,17 @@ ht-degree: 16%
 
 * キャンバスダッシュボード
 
-  詳しくは、[&#x200B; キャンバスダッシュボードのベータ版情報 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+  詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 * プロジェクトのヘルス
 
-  詳しくは、[&#x200B; プロジェクトの正常性の概要 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md) を参照してください。
+  詳しくは、[ プロジェクトの正常性の概要 ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md) を参照してください。
 
 * Workfront AI レビュアー
-詳しくは、[Workfront AI レビュアーの基本を学ぶ &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) を参照してください。
+詳しくは、[Workfront AI レビュアーの基本を学ぶ ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) を参照してください。
+
+* AI フォームの入力
+詳しくは、[AI フォーム入力を使用して、プロンプトやドキュメントを使用してリクエストを入力する ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) を参照してください。
 
 
 <!--
