@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 30%
+source-wordcount: '813'
+ht-degree: 27%
 
 ---
 
@@ -32,7 +32,44 @@ ht-degree: 30%
 
 <!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開して、この記事の機能のアクセス要件を表示します。 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<ul> 
+<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
+または
+<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>ワークスペースおよびレコードタイプへの投稿以上の権限  </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++   
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -43,56 +80,52 @@ ht-degree: 30%
     <tr> 
 <tr> 
 <td> 
-   <p> 製品</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準 </p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard </p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースおよびレコードタイプへの投稿以上の権限  </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Contribute or higher permissions to a workspace and record type  </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+</table> -->
 
 
 ## レコードのサムネールに関する考慮事項
@@ -127,9 +160,9 @@ ht-degree: 30%
 
    レコードタイプページが開きます。
 1. **表示**&#x200B;ドロップダウンメニューからテーブルビューを選択します。選択したタイプのすべてのレコードがテーブルに表示されます。
-1. プライマリフィールド情報の上にマウスポインターを置き、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**サムネール** をクリックしてください。
+1. プライマリフィールド情報の上にマウスポインターを置き、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**サムネール** をクリックしてください。
 
-   ![&#x200B; さらに記録メニューが展開されました &#x200B;](assets/record-more-menu-expanded.png)
+   ![ さらに記録メニューが展開されました ](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
@@ -137,7 +170,7 @@ ht-degree: 30%
 
    「**サムネールを記録** ボックスにデフォルトで **アップロード** タブが開きます。
 
-   サムネールのアップロードについて詳しくは、この記事の [&#x200B; 詳細ページからレコードにサムネールを追加する &#x200B;](#add-a-thumbnail-to-a-record-from-the-details-page) の手順 6 から始まる節を参照してください。<!--see if this is accurate-->
+   サムネールのアップロードについて詳しくは、この記事の [ 詳細ページからレコードにサムネールを追加する ](#add-a-thumbnail-to-a-record-from-the-details-page) の手順 6 から始まる節を参照してください。<!--see if this is accurate-->
 
 <!--
    ![Record thumbnail box for upload](assets/record-thumbnail-box-for-upload.png) 
@@ -175,15 +208,15 @@ ht-degree: 30%
 1. 任意のビューで、レコードをクリックして開きます。
 
    詳細プレビューボックスが表示されます。
-1. （オプション）右上隅にある **新しいタブで開く** アイコン ![&#x200B; 詳細を新しいタブアイコンで開く &#x200B;](assets/open-details-in-a-new-tab-icon.png) をクリックします。
+1. （オプション）右上隅にある **新しいタブで開く** アイコン ![ 詳細を新しいタブアイコンで開く ](assets/open-details-in-a-new-tab-icon.png) をクリックします。
 
    レコードの詳細ページが開きます。
 
-1. （条件付き）レコードのプレビューまたは詳細ページで、サムネール画像またはアイコン ![&#x200B; 詳細ページのサムネールアイコンを記録 &#x200B;](assets/record-thumbnail-icon-on-details-page.png) にカーソルを置き、レコード名の上のスペースにカーソルを置いて **サムネールを追加** または **サムネールを編集** をクリックします。
+1. （条件付き）レコードのプレビューまたは詳細ページで、サムネール画像またはアイコン ![ 詳細ページのサムネールアイコンを記録 ](assets/record-thumbnail-icon-on-details-page.png) にカーソルを置き、レコード名の上のスペースにカーソルを置いて **サムネールを追加** または **サムネールを編集** をクリックします。
 
    「**サムネールを記録** ボックスにデフォルトで **アップロード** タブが開きます。
 
-   ![&#x200B; アップロード用にサムネールボックスを記録する &#x200B;](assets/record-thumbnail-box-for-upload.png)
+   ![ アップロード用にサムネールボックスを記録する ](assets/record-thumbnail-box-for-upload.png)
 
 1. ファイルをドラッグ&amp;ドロップして、サムネールとして追加
 
@@ -192,12 +225,12 @@ ht-degree: 30%
    **画像を参照**」をクリックして、追加する画像ファイルを参照します。 ファイルはお使いのコンピューターに保存しておく必要があります。
 
 1. （任意）「サムネールを記録 **ボックスに画像をアップロードした後**、サイジングツールを使用して画像を切り抜き、サイズを変更します。
-1. （オプション） **新しい画像をアップロード** アイコン ![&#x200B; 新しい画像をアップロード &#x200B;](assets/upload-new-image-icon.png) アイコンをクリックして、別の画像をアップロードします。
+1. （オプション） **新しい画像をアップロード** アイコン ![ 新しい画像をアップロード ](assets/upload-new-image-icon.png) アイコンをクリックして、別の画像をアップロードします。
 1. （オプション）「**ギャラリー**」タブをクリックして、画像をクリックします。 画像ギャラリーは変更できません。
 
-   ![&#x200B; ギャラリーのサムネイル ボックスを記録する &#x200B;](assets/record-thumbnail-box-for-gallery.png)
+   ![ ギャラリーのサムネイル ボックスを記録する ](assets/record-thumbnail-box-for-gallery.png)
 
-1. （オプション）サムネールを保存前に削除するには、画像の右側にある **削除** アイコン ![&#x200B; 画像を削除アイコン &#x200B;](assets/remove-image-icon.png) をクリックします。
+1. （オプション）サムネールを保存前に削除するには、画像の右側にある **削除** アイコン ![ 画像を削除アイコン ](assets/remove-image-icon.png) をクリックします。
 
 1. 「**画像を使用**」をクリックして、画像をサムネールとして追加します。
 これにより、「サムネールを記録 **ボックスが閉じ** す。
@@ -207,7 +240,7 @@ ht-degree: 30%
    >
    >   このビューにサムネールを表示するには、テーブル表示でサムネール フィールドを有効にする必要があります。 この機能は、デフォルトでは無効になっています。
 
-1. （オプション）保存後にサムネールを削除するには、任意のビューのレコードをクリックして詳細ページを開き、サムネール画像にカーソルを置いて **詳細** メニュー ![&#x200B; 詳細メニューアイコン &#x200B;](assets/more-menu.png)>**削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/remove-image-icon.png) をクリックします。 サムネール画像が削除されます。
+1. （オプション）保存後にサムネールを削除するには、任意のビューのレコードをクリックして詳細ページを開き、サムネール画像にカーソルを置いて **詳細** メニュー ![ 詳細メニューアイコン ](assets/more-menu.png)>**削除** アイコン ![ 削除アイコン ](assets/remove-image-icon.png) をクリックします。 サムネール画像が削除されます。
 
 
 <!--

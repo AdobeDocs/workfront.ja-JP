@@ -6,28 +6,31 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1895'
-ht-degree: 26%
+source-wordcount: '1772'
+ht-degree: 24%
 
 ---
 
 # カレンダービューの管理
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
 レコードタイプページから、レコードとそのフィールドをカレンダー表示で表示できます。
 
-Adobe Workfrontのプランニングビューとその管理方法について詳しくは、[&#x200B; レコードビューの管理 &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) を参照してください。
+Adobe Workfrontのプランニングビューとその管理方法について詳しくは、[ レコードビューの管理 ](/help/quicksilver/planning/views/manage-record-views.md) を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。 
++++ 展開して、この記事の機能のアクセス要件を表示します。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -37,47 +40,23 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> 製品</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<ul> 
+<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
+または
+<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
-   <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
-   <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
-    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td><p> ビューを作成および削除するための標準</p>
    <p>ビュー要素を更新する投稿者以上</p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ビューに対する権限を管理</p>  
    <p>ビュー設定を一時的に変更したり、複製したりするためのビューへのアクセス許可を表示します</p> </td> 
@@ -87,14 +66,77 @@ Adobe Workfrontのプランニングビューとその管理方法について�
    <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
    <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
 </td>
-  </tr>
-
+  </tr> 
 </tbody> 
 </table>
 
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-+++   
++++ 
+
+<!--Old:
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+
+</tbody> 
+</table> -->
 
 ## カレンダー表示の管理 {#manage-a-calendar-view}
 
@@ -114,15 +156,11 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 カレンダー表示を管理するには：
 
 1. カレンダーを表示するレコードタイプ ページに移動します。
-1. 「レコードビューの管理 [&#x200B; の記事の説明に従って、カレンダービューを作成 &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) ます。
+1. 「レコードビューの管理 [ の記事の説明に従って、カレンダービューを作成 ](/help/quicksilver/planning/views/manage-record-views.md) ます。
 
-   <div class="preview">
-
-   ![&#x200B; カレンダー表示の例 &#x200B;](assets/calendar-view-example.png)
+   ![ カレンダー表示の例 ](assets/calendar-view-example.png)
 
    選択したレコードタイプに関連付けられているレコードは、カレンダーにバーとして表示されます。 バーの色は、既定ではレコード アイコンの色と一致します。
-
-   </div>
 
 1. カレンダー内を移動するには、次のいずれかの操作を行います。
 
@@ -137,23 +175,23 @@ Adobe Workfrontのプランニングビューとその管理方法について�
          * 複数日にまたがるレコードは、カレンダーの上部に表示されます。
          * 1 日以下のレコードは、カレンダー表示の下半分に表示されます。 開始日と終了日の時間を表示するように選択した場合、レコードは該当する日の適切な時間に表示されます。
 
-1. <span class="preview"> （オプション） **フルスクリーン** アイコン ![&#x200B; フルスクリーンアイコンを開く &#x200B;](assets/open-full-screen-icon.png) をクリックしてフルスクリーンでビューを開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了 &#x200B;](assets/exit-full-screen-icon.png) またはキーボードの Esc キーをクリックしてフルスクリーンを終了します。 </span>
+1. （オプション） **フルスクリーン** アイコン ![ フルスクリーンアイコンを開く ](assets/open-full-screen-icon.png) をクリックしてフルスクリーンでビューを開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了 ](assets/exit-full-screen-icon.png) またはキーボードの Esc キーをクリックしてフルスクリーンを終了します。
 
-1. <span class="preview"> カレンダー表示でレコードを作成したり、日付を編集したりするには、次のいずれかの操作を行います。</span>
+1. カレンダー表示でレコードを作成したり、日付を編集したりするには、次のいずれかの操作を行います。
 
-   * <span class="preview"> レコードを作成するには、カレンダー上の任意の場所をダブルクリックします。</span>
+   * レコードを作成するには、カレンダー上の任意の場所をダブルクリックします。
 
-     <span class="preview"> 詳しくは、[&#x200B; レコードの作成 &#x200B;](/help/quicksilver/planning/records/create-records.md) を参照してください。</span>
+     詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
-   * <span class="preview"> レコードバーの左右の余白をクリックし、新しい位置にドラッグ&amp;ドロップします。 レコードのバーのサイズを変更すると、開始日または終了日が直ちに更新されます。</span>
+   * レコードバーの左右の余白をクリックし、新しい位置にドラッグ&amp;ドロップします。 レコードのバーのサイズを変更すると、開始日または終了日が直ちに更新されます。
 
-   * <span class="preview"> レコードバーをドラッグ&amp;ドロップして、位置と日付を更新します。 レコードのバーを移動すると、開始日と終了日が直ちに更新されます。</span>
+   * レコードバーをドラッグ&amp;ドロップして、位置と日付を更新します。 レコードのバーを移動すると、開始日と終了日が直ちに更新されます。
 
-     <span class="preview"> 詳しくは、[&#x200B; レコードの編集 &#x200B;](/help/quicksilver/planning/records/edit-records.md) を参照してください。</span>
+     詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [フィルター](#add-filters)
-   * <span class="preview">[&#x200B; 行の高さ &#x200B;](#modify-row-height)</span>
+   * [行の高さ](#modify-row-height)
    * [設定](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -183,7 +221,7 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 
 カレンダー表示にフィルターを追加するには：
 
-1. 「レコードビューの管理 [&#x200B; の記事の説明に従って、レコードタイプのページのカレンダービューを作成 &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) ます。
+1. 「レコードビューの管理 [ の記事の説明に従って、レコードタイプのページのカレンダービューを作成 ](/help/quicksilver/planning/views/manage-record-views.md) ます。
 1. カレンダー表示を選択し、カレンダーのツールバーの **フィルター** をクリックします。
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
 
@@ -257,7 +295,7 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 
    * 選択したフィールドの値を選択します。
 
-   ![&#x200B; フィルター UI テーブル表示 &#x200B;](assets/filter-ui-table-view.png)
+   ![ フィルター UI テーブル表示 ](assets/filter-ui-table-view.png)
 
    追加できるフィルタリング条件の数に制限はありません。
 
@@ -269,7 +307,7 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 
    1. （任意）複数の条件グループの間に、追加の **AND** または **OR** 演算子を追加します。
 
-      ![&#x200B; ビューの多層化フィルター &#x200B;](assets/multi-tiered-filters-in-views.png)
+      ![ ビューの多層化フィルター ](assets/multi-tiered-filters-in-views.png)
 
    レコードのリストは自動的にフィルタリングされます。<!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -277,7 +315,6 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 1. （任意）「**x**」アイコンをクリックして、フィルター条件を削除します。
 1. （任意）「**フィルター**」をクリックして、「フィルター」ボックスを閉じます。<!--right now you cannot "clear all" for filters, but this might come later-->
 
-<span class="preview">
 
 ### 行の高さを修正
 
@@ -290,7 +327,7 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 >この設定は、月別にカレンダーを表示する場合にのみ使用できます。
 
 
-1. 「レコードビューの管理 [&#x200B; の記事の説明に従って、レコードタイプのページのカレンダービューを作成 &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) ます。
+1. 「レコードビューの管理 [ の記事の説明に従って、レコードタイプのページのカレンダービューを作成 ](/help/quicksilver/planning/views/manage-record-views.md) ます。
 1. （条件付き）カレンダー表示を月別に表示し、カレンダーのツールバーの **行の高さ** をクリックします。
 1. 次のオプションから選択します。
 
@@ -348,7 +385,7 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 
 カレンダー表示設定を更新して、ビューに表示する情報と方法を指定します。
 
-1. 「レコードビューの管理 [&#x200B; の記事の説明に従って、レコードタイプのカレンダービューを作成 &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) ます。
+1. 「レコードビューの管理 [ の記事の説明に従って、レコードタイプのカレンダービューを作成 ](/help/quicksilver/planning/views/manage-record-views.md) ます。
 1. 「**設定**」をクリックします。
 1. 左側のパネルで **日時** をクリックし、**開始日** と **終了日** を選択してカレンダーに表示します。 デフォルトの開始日と終了日を選択することも、使用可能な任意の日付フィールドを選択することもできます。
 
@@ -369,7 +406,7 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 
    >[!NOTE]
    >
-   >    カレンダー表示にサムネイルを表示するには、まずテーブル ビューにサムネイルを追加する必要があります。 詳しくは、[&#x200B; レコードへのサムネールの追加 &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
+   >    カレンダー表示にサムネイルを表示するには、まずテーブル ビューにサムネイルを追加する必要があります。 詳しくは、[ レコードへのサムネールの追加 ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
 
 1. **フィールドを追加** をクリックして、**フィールドを検索** ボックス内をクリックし、追加するフィールドをクリックします。
 
@@ -383,11 +420,11 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 
    カレンダー上でバーがどのように表示されるかを示すプレビューが右側に表示されます。
 
-   ![&#x200B; カレンダー表示設定のバーのスタイルセクション &#x200B;](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
+   ![ カレンダー表示設定のバーのスタイルセクション ](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
 
 1. 左側のパネルで **カラー** をクリックして、カレンダー上のレコードの色をカスタマイズします。
 
-   ![&#x200B; カレンダー表示設定のカラーパネル &#x200B;](assets/color-panel-on-calendar-view-settings.png)
+   ![ カレンダー表示設定のカラーパネル ](assets/color-panel-on-calendar-view-settings.png)
 
 1. **レコードの色を設定** セクションで、次のオプションからレコードの色を設定します。
 
@@ -397,7 +434,7 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 
 1. （条件付き）レコードの色に&#x200B;**フィールド値**&#x200B;を選択した場合、**レコードの色を次と一致させる**&#x200B;ドロップダウンメニューからフィールドを選択します。
 
-   ![&#x200B; カレンダー表示のフィールドセレクタードロップダウンメニュー &#x200B;](assets/field-selector-drop-down-menu-calendar-view.png)
+   ![ カレンダー表示のフィールドセレクタードロップダウンメニュー ](assets/field-selector-drop-down-menu-calendar-view.png)
 
    ドロップダウンメニューには、色分けされたオプションを持つフィールドのみが表示されます。
 

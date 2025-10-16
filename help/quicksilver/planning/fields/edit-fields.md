@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 25%
+source-wordcount: '954'
+ht-degree: 23%
 
 ---
 
@@ -32,7 +32,44 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。 
++++ 展開して、この記事の機能のアクセス要件を表示します。 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<ul> 
+<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
+または
+<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>ワークスペースに対する権限の管理</p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++     
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -43,57 +80,52 @@ Adobe Workfront Planning フィールドの作成については、[フィール
     <tr> 
 <tr> 
 <td> 
-   <p> 製品</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準 </p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard </p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースに対する権限とレコードタイプの管理 </a> </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p></td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p></td> 
   </tr> 
 </tbody> 
-</table>
-
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++   
-
+</table> -->
 
 ## フィールド設定の編集に関する考慮事項
 
@@ -118,7 +150,7 @@ Adobe Workfront Planning フィールドの作成については、[フィール
   >フィールドの設定が変更されたという通知は他のユーザーには送信されません。
 
 * 接続されたレコードから既存の参照フィールドを編集できます。
-* この記事の [&#x200B; フィールド設定の編集 &#x200B;](#edit-field-settings-1) の節で説明したフィールドの編集に加えて、<span class="preview"> テーブル ビューでレコードを編集するときに、フィールド値を更新しながら、単一選択フィールドまたは複数選択フィールドの選択肢を編集することができます。 詳しくは、この記事の [&#x200B; テーブル ビューでレコードを編集するときに既存の選択フィールドに新しい選択肢を追加する &#x200B;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) を参照してください。</span>
+* この記事の [ フィールド設定の編集 ](#edit-field-settings-1) の節で説明したフィールドの編集に加えて、<span class="preview"> テーブル ビューでレコードを編集するときに、フィールド値を更新しながら、単一選択フィールドまたは複数選択フィールドの選択肢を編集することができます。 詳しくは、この記事の [ テーブル ビューでレコードを編集するときに既存の選択フィールドに新しい選択肢を追加する ](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) を参照してください。</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -147,7 +179,7 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 
    フィールドの列ヘッダーをダブルクリックします。
 
-   ![&#x200B; テーブルヘッダーのフィールド名の後の矢印メニューがハイライト表示されている &#x200B;](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![ テーブルヘッダーのフィールド名の後の矢印メニューがハイライト表示されている ](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. フィールドに関する情報を更新し、「**保存**」をクリックします。
 
@@ -184,7 +216,7 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 
 「ステータス」という単一選択フィールドに「新規」および「クローズ」の選択肢があり、「処理中」ステータスの選択肢を追加するとします。 次のいずれかの操作を行って、選択肢を追加できます。
 
-* フィールドを編集しています。 詳しくは、この記事の「フィールド設定を編集 [&#x200B; の節を参照し &#x200B;](#edit-field-settings-1) ください。
+* フィールドを編集しています。 詳しくは、この記事の「フィールド設定を編集 [ の節を参照し ](#edit-field-settings-1) ください。
 * テーブル表示でレコードを編集する際に、新しいオプションを追加します（下図を参照）。
 
 レコードの編集時に既存の選択フィールドに新しい選択肢を追加するには、次の手順を実行します。
@@ -194,7 +226,7 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 1. フィールドのセルをダブルクリックして、フィールドをインラインで編集し始めます。
 1. 追加する選択肢の名前を入力し、[**選択肢の追加**] をクリックします。
 
-   ![&#x200B; テーブル表示の単一選択フィールドに選択肢を追加 &#x200B;](assets/add-choice-in-table-view-for-single-select-field.png)
+   ![ テーブル表示の単一選択フィールドに選択肢を追加 ](assets/add-choice-in-table-view-for-single-select-field.png)
 
    新しい選択肢が単一選択フィールドにすぐに追加されます。
 

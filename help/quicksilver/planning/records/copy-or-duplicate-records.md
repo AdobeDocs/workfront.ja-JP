@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 27%
+source-wordcount: '504'
+ht-degree: 19%
 
 ---
 
@@ -27,9 +27,44 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開して、この記事の機能のアクセス要件を表示します。 
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<ul> 
+<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
+または
+<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>ワークスペースおよびレコードタイプへの投稿以上の権限  </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++   
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,56 +75,52 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
     <tr> 
 <tr> 
 <td> 
-   <p> 製品</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準</p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースおよびレコードタイプに対する投稿以上の権限 </a> </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Contribute or higher permissions to a workspace and record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+</table> -->
 
 
 ## レコードの複製 <!--in a record type table (I don't think you can create them elsewhere right now)-->
@@ -112,13 +143,13 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 1. 次のいずれかの操作を行います。
 
-   * レコード名にポインタを合わせ、レコード名とインラインで **詳細** メニューをクリックしてから、**複製** アイコン ![&#x200B; 複製アイコングレー &#x200B;](assets/duplicate-icon-gray.png) をクリックします。
+   * レコード名にポインタを合わせ、レコード名とインラインで **詳細** メニューをクリックしてから、**複製** アイコン ![ 複製アイコングレー ](assets/duplicate-icon-gray.png) をクリックします。
 
-     ![&#x200B; テーブル表示のレコードからの「詳細」メニュー &#x200B;](assets/more-menu-from-record-in-table-view.png)
+     ![ テーブル表示のレコードからの「詳細」メニュー ](assets/more-menu-from-record-in-table-view.png)
 
-   * レコードを選択し、ページ下部のツールバーにある **複製** アイコン ![&#x200B; 白と青の複製アイコン &#x200B;](assets/duplicate-icon-white-and-blue.png) をクリックします。
+   * レコードを選択し、ページ下部のツールバーにある **複製** アイコン ![ 白と青の複製アイコン ](assets/duplicate-icon-white-and-blue.png) をクリックします。
 
-     ![&#x200B; テーブル表示のツールバーの複製アイコン &#x200B;](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![ テーブル表示のツールバーの複製アイコン ](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    元のレコードの下に、同じ名前の同じレコードが作成されます。 新しいレコードのすべてのフィールドには、元のレコードと同じ情報が入力されます。
 
@@ -126,11 +157,11 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
    >[!NOTE]
    >
-   >  * レコードに必須のフィールドはありません。ただし、レコードを相互にリンクするときにレコードを識別すると便利なので、レコードの主フィールドの情報を追加することをお勧めします。 主フィールドについて詳しくは、[&#x200B; テーブル表示の管理 &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) および [プライマリフィールドの概要 &#x200B;](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
+   >  * レコードに必須のフィールドはありません。ただし、レコードを相互にリンクするときにレコードを識別すると便利なので、レコードの主フィールドの情報を追加することをお勧めします。 主フィールドについて詳しくは、[ テーブル表示の管理 ](/help/quicksilver/planning/views/manage-the-table-view.md) および [プライマリフィールドの概要 ](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
    >
    >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
 
-   レコードの編集の詳細については、「[&#x200B; レコードの編集 &#x200B;](/help/quicksilver/planning/records/edit-records.md)」を参照してください。
+   レコードの編集の詳細については、「[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md)」を参照してください。
 
 1. （オプション）テーブル表示で新しいレコードやその情報を追加する際に、それらの追加の取り消しまたはやり直しを行うには、次のキーボードショートカットを使用します。
 

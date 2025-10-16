@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 29%
+source-wordcount: '645'
+ht-degree: 27%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開して、この記事の機能のアクセス要件を表示します。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -42,56 +42,88 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<ul> 
+<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
+<p>または</p>
+<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>ワークスペースに対する権限の管理</p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> 製品</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準</p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>  <p>ワークスペースに対する管理権限 </p>   </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Manage permissions to the workspace </p>   </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+</table> -->
 
 
 ## ワークスペースの編集
@@ -106,14 +138,14 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 1. （任意） ClicK **表示を減らす** を使用して、画面に表示するワークスペースの数を制限します。
 1. ワークスペースを編集するには、次のいずれかの操作を行います。
 
-   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックします
+   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします
 または
-   * ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックします。
+   * ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします。
 1. 「**編集**」をクリックします。
 
    **ワークスペースを編集** ボックスが表示されます。
 
-   ![&#x200B; ワークスペースを編集ボックス &#x200B;](assets/edit-workspace-box.png)
+   ![ ワークスペースを編集ボックス ](assets/edit-workspace-box.png)
 
 1. 「**ワークスペースを編集** ボックスで次の情報を更新します。
 
@@ -126,16 +158,16 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 1. （オプション）新しいワークスペースセクションを追加するには、次のいずれかの操作を行います。
 
    * ワークスペースの下部にある「**セクションを追加**」をクリックします。
-   * セクション名にポインタを合わせて、「**詳細**」メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックし、「**上にセクションを追加**」または「**下にセクションを追加**」をクリックします。
+   * セクション名にポインタを合わせて、「**詳細**」メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックし、「**上にセクションを追加**」または「**下にセクションを追加**」をクリックします。
 
 1. （オプション）セクションの場所を変更するには、次のいずれかの操作を行います。
 
-   * セクション名にカーソルを合わせて **グラブ** アイコン ![&#x200B; グラブアイコン &#x200B;](assets/grab-icon.png) をクリックし、適切な場所にドラッグ&amp;ドロップします。
-   * セクションの名前にポインタを合わせて、**その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックし、**上へ移動** または **下へ移動** をクリックします。 セクションは、ワークスペース内で上下に移動します。
+   * セクション名にカーソルを合わせて **グラブ** アイコン ![ グラブアイコン ](assets/grab-icon.png) をクリックし、適切な場所にドラッグ&amp;ドロップします。
+   * セクションの名前にポインタを合わせて、**その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**上へ移動** または **下へ移動** をクリックします。 セクションは、ワークスペース内で上下に移動します。
 
 1. （オプション）ワークスペースセクションを削除するには、次の手順を実行します。
 
-   1. セクションの名前にポインタを合わせて、**その他** メニュー ![[ その他 ] メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**削除** をクリックしてください。<!--add screen shot when UI is final?-->
+   1. セクションの名前にポインタを合わせて、**その他** メニュー ![[ その他 ] メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックしてください。<!--add screen shot when UI is final?-->
    1. 新しいセクションを選択し、すべてのレコードタイプをそのセクションに移動して、「**削除**」をクリックします。<!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       すべてのレコードタイプが選択セクションに移動され、セクションが削除されます。
@@ -144,17 +176,17 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
    詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-1. （オプション）レコードタイプのカードにポインタを合わせ、右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、**編集** をクリックして、レコードタイプの外観を変更します。
+1. （オプション）レコードタイプのカードにポインタを合わせ、右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックして、レコードタイプの外観を変更します。
 
-   詳しくは、[&#x200B; レコードタイプの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
+   詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
-1. （オプション）レコードタイプのカードにポインタを合わせ、右上隅にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**削除** をクリックしてレコードタイプを削除します。
+1. （オプション）レコードタイプのカードにポインタを合わせ、右上隅にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックしてレコードタイプを削除します。
 
-   詳しくは、[&#x200B; レコードタイプの削除 &#x200B;](/help/quicksilver/planning/architecture/delete-record-types.md) を参照してください。
+   詳しくは、[ レコードタイプの削除 ](/help/quicksilver/planning/architecture/delete-record-types.md) を参照してください。
 
 1. （オプション）レコードタイプカードをクリックしてドラッグし、新しい場所にドロップします。 レコードタイプは、ワークスペースセクション間でドラッグ&amp;ドロップできます。
 
-   ![&#x200B; レコードタイプのワークスペースへのドラッグ&amp;ドロップ &#x200B;](assets/drag-and-drop-record-types-in-a-workspace.png)
+   ![ レコードタイプのワークスペースへのドラッグ&amp;ドロップ ](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. （任意）他のユーザーとワークスペースを共有するには、ワークスペースの右上隅にある「**共有**」をクリックします。
 

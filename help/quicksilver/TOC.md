@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 30b99255a2178f972f9a9f3f7eda5f2929a24978
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '13446'
+source-wordcount: '13454'
 ht-degree: 84%
 
 ---
@@ -214,8 +214,8 @@ ht-degree: 84%
          * [21.1 モバイル機能の強化](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning リリースアクティビティ{#planning-release-activity}
-         * [Adobe Workfront計画リリースアクティビティ &#x200B;](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-           [Adobe Workfront Planning の 2025 年第 4 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+         * [Adobe Workfront計画リリースアクティビティ ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+           [Adobe Workfront Planning の 2025 年第 4 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Adobe Workfront Planning の 2025 年第 3 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Adobe Workfront Planning の 2025 年第 2 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Adobe Workfront Planning の 2025 年第 1 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
@@ -450,7 +450,7 @@ ht-degree: 84%
          * [スケジュールの作成](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
       * 組織セットアップ {#organization-setup}
          * [組織セットアップ](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
-         * [会社の管理](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
+         * [会社の作成と編集](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
          * [会社メンバーシップの管理](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [会社を非アクティブ化または再アクティブ化](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [担当業務](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
@@ -1226,7 +1226,7 @@ ht-degree: 84%
          * [プロジェクトのリソースをスケジュール](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [プロジェクトチームメンバーとのコミュニケーション](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
          * [アジャイルビューでのプロジェクトの管理](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
-         * [プロジェクト指標の概要](manage-work/projects/manage-projects/project-metrics.md)
+         * [プロジェクト指標について](manage-work/projects/manage-projects/project-metrics.md)
          * [プロジェクト制限の概要](manage-work/projects/manage-projects/project-maximums.md)
          * [AI アシスタントで更新プログラムの要約を作成する](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * プロジェクトテンプレートの作成と管理 {#create-and-manage-project-templates}
@@ -1375,7 +1375,7 @@ ht-degree: 84%
          * [タスクの予定時間数と期間のシンプルな期間タイプでの更新](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
          * [Adobe Workfront および Microsoft Project の期間タイプ](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
       * タスクの先行タスクを使用 {#use-task-predecessors}
-         * [タスクの先行タスクを使用](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+         * [タスク先行タスクの使用：記事インデックス](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
          * [タスクの先行タスクの概要](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
          * [タスクリストでの先行タスク関係の作成](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
          * [先行タスク領域を使用した先行タスク関係の作成](manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
@@ -1390,24 +1390,24 @@ ht-degree: 84%
          * [タスクの FAQ](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
          * [見込み期間が予定期間と一致しません](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
    * イシュー {#issues}
-      * [イシュー](manage-work/issues/issues-overview.md)
+      * [問題：記事インデックス](manage-work/issues/issues-overview.md)
       * 変換イシュー {#convert-issues}
-         * [変換イシュー](manage-work/issues/convert-issues/convert-issues-overview.md)
+         * [変換の問題：記事インデックス](manage-work/issues/convert-issues/convert-issues-overview.md)
          * [Adobe Workfront での変換の問題の概要](manage-work/issues/convert-issues/convert-issues.md)
-         * [Adobe Workfront でのイシューからプロジェクトへの変換](manage-work/issues/convert-issues/convert-issue-to-project.md)
-         * [Adobe Workfront でのイシューのタスクへの変換](manage-work/issues/convert-issues/convert-issue-to-task.md)
+         * [イシューをプロジェクトに変換](manage-work/issues/convert-issues/convert-issue-to-project.md)
+         * [イシューをタスクに変換](manage-work/issues/convert-issues/convert-issue-to-task.md)
          * [解決オブジェクトと解決可能オブジェクトの概要](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
          * [解決オブジェクトからイシューのリンクを解除する](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
          * [イシューの解決策を他のイシュー、タスク、またはプロジェクトに手動で結び付ける](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
       * イシューの情報 {#issue-information}
-         * [イシューの情報](manage-work/issues/issue-information/issue-info-overview.md)
+         * [問題情報：記事インデックス](manage-work/issues/issue-information/issue-info-overview.md)
          * [イシュー期間の概要](manage-work/issues/issue-information/issue-duration.md)
          * [イシューの優先度の更新](manage-work/issues/issue-information/update-issue-priority.md)
          * [イシューの重大度を更新](manage-work/issues/issue-information/update-issue-severity.md)
          * [イシューの予定完了日の概要](manage-work/issues/issue-information/issue-planned-completion-date.md)
          * [イシューを参照する際の「opTask」と「issue」の使用](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
       * イシューを管理する {#manage-issues}
-         * [イシューを管理する](manage-work/issues/manage-issues/manage-issues-overview.md)
+         * [問題の管理：記事インデックス](manage-work/issues/manage-issues/manage-issues-overview.md)
          * [イシューの作成](manage-work/issues/manage-issues/create-issues.md)
          * [イシューの割り当て](manage-work/issues/manage-issues/assign-issues.md)
          * [イシューの表示](manage-work/issues/manage-issues/view-issues.md)
@@ -1436,9 +1436,9 @@ ht-degree: 84%
          * [ポートフォリオ：記事インデックス](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [ポートフォリオ内での移動](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [ポートフォリオ管理の概要](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-         * [Adobe Workfront のポートフォリオの概要](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+         * [ポートフォリオ手法について](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * ポートフォリオの作成と管理 {#create-and-manage-portfolios}
-         * [ポートフォリオの作成と管理](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
+         * [ポートフォリオの作成と管理：記事インデックス](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [ポートフォリオを作成](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [ポートフォリオを削除および非アクティブ化する](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
          * [ポートフォリオを編集する](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
@@ -1455,7 +1455,7 @@ ht-degree: 84%
          * [プログラムからプロジェクトを削除](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
          * [プログラムの削除とディアクティベート](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
       * ポートフォリオオプティマイザーでプロジェクトを最適化する {#manage-projects-in-portfolio-optimizer}
-         * [ポートフォリオオプティマイザーでプロジェクトを最適化する](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+         * [Portfolio Optimizer でのプロジェクトの管理：記事インデックス](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [ポートフォリオオプティマイザーの概要](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
          * [ポートフォリオオプティマイザーを探す](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
          * [ポートフォリオオプティマイザーのスコアの概要](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
@@ -1507,7 +1507,7 @@ ht-degree: 84%
       * [組織図の表示](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
    * グループとチームとの連携 {#work-with-groups-teams}
       * [グループとチームとの連携](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
-      * [Adobe Workfront のグループとチームの違い](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+      * [Workfrontのグループとチーム](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
    * チームリクエストの処理 {#work-with-team-requests}
       * [チームリクエストの処理](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
       * [チームリクエストの概要](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
@@ -1750,7 +1750,7 @@ ht-degree: 84%
          * [KPI クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [フライトプランクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [プロジェクトアクティビティクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-         * [&#x200B; プロジェクトツリーマップクエリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+         * [ プロジェクトツリーマップクエリ ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [チーム別アクティビティ クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
       * Data Connect のヒント、テクニック、トラブルシューティング{#troubleshooting-data-connect}
          * [Data Connect のヒント、テクニック、トラブルシューティング](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
@@ -1999,7 +1999,7 @@ ht-degree: 84%
       * [Adobe Workfront API を使用して時間レコードをトラック](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
       * [将来の日付の時刻をログに記録できません](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
 * Adobe Workfront シナリオプランナー {#scenario-planner}
-   * [Adobe Workfront シナリオプランナー](scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]：記事インデックス](scenario-planner/scenario-planning.md)
    * [シナリオプランナーの概要](scenario-planner/get-started-with-scenario-planning.md)
    * [シナリオプランナーの概要](scenario-planner/scenario-planner-overview.md)
    * [Scenario Planner を使用するために必要なアクセス権](scenario-planner/access-needed-to-use-sp.md)
@@ -2087,6 +2087,7 @@ ht-degree: 84%
       * [CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成](planning/architecture/import-file-to-create-record-types.md)
       * [クロスワークスペースのレコードタイプの概要](planning/architecture/cross-workspace-record-types-overview.md)
       * [レコードタイプのクロスワークスペース機能の設定](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+      * [レコードタイプの設定エリアの設定](planning/architecture/configure-record-type-settings.md)
       * [別のワークスペースからの既存のレコードタイプの追加](planning/architecture/add-existing-record-types-from-another-workspace.md)
       * [レコードタイプの接続：概要](planning/architecture/connect-record-types-overview.md)
       * [レコードタイプの接続](planning/architecture/connect-record-types.md)
@@ -2157,7 +2158,7 @@ ht-degree: 84%
       * [Adobe Workfront Planning のメール通知の管理](planning/notifications/manage-planning-email-notifications.md)
       * [Adobe Workfront Planning のアプリ内通知の管理](planning/notifications/manage-planning-in-app-notifications.md)
    * Adobe Workfront Planning and Gen Studio for Performance Marketing Integration {#planning-and-genstudio-integration}
-      * [Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合：記事一覧 &#x200B;](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
+      * [Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合：記事一覧 ](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
       * [Workfront Planning とGenStudio for Performance Marketingの統合の基本を学ぶ](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Adobe Workfront Planning でのGenStudio Workspace の管理](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [Workfront Planning ワークスペースのGenStudioへの昇格](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
@@ -2172,7 +2173,7 @@ ht-degree: 84%
          * [Adobe Workfront for Creative Cloud アプリケーションのインストール](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Photoshop 用 Adobe Workfront をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Adobe Workfront for XD をインストールして開きます。](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-         * [&#x200B; [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+         * [ [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
       * Creative Cloud アプリケーション用 Adobe Workfront プラグインで作業を管理 {#manage-wf-cc}
          * [Creative Cloud アプリケーション用 Adobe Workfront プラグインで作業を管理](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Adobe Workfront プラグインを使用して作業を検索](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
@@ -2180,7 +2181,7 @@ ht-degree: 84%
          * [Adobe Workfront プラグインを使用して作業を更新](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Adobe Workfront プラグインを使用して作業アイテムを完了とマーク](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Adobe Workfront プラグインを使用して時間を記録](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントやプルーフを更新 {#upload-docs-proofs-wf-cc}
          * [ドキュメントやプルーフを  [!DNL Adobe Workfront plugin]  から  [!DNL Creative Cloud] にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントやプルーフを更新](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
@@ -2190,8 +2191,8 @@ ht-degree: 84%
          * [XD アートボードをドキュメントとして Workfront にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [&#x200B; [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [&#x200B; [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [ [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator および InDesign 向け Workfront 拡張機能 {#workfront-for-illustrator-indesign}
          * [Illustrator および InDesign 向け Workfront 拡張機能の使用](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Jira 用 Adobe Workfront {#workfront-for-jira}
@@ -2491,7 +2492,6 @@ ht-degree: 84%
    * API に関するメモ {#api-notes}
       * [API に関するメモ](wf-api/api/api.md)
       * [API を使用したファイルのアップロード](wf-api/api/uploading-files-api.md)
-      * [JSONP のサポートの終了](wf-api/api/ending-support-jsonp.md)
       * [ユーザーの空き時間の取得](wf-api/api/api-user-available-time.md)
       * [デフォルトの API バージョン管理を使用する統合の更新](wf-api/api/update-default-api-versioning.md)
       * [イベント登録メッセージのフィルタリング](wf-api/api/filter-event-sub-messages.md)

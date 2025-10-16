@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 52%
+source-wordcount: '1073'
+ht-degree: 50%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 52%
 
 レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。Workfront Planning では、組織のライフサイクルで必要な作業に関連するアイテムを示すカスタムレコードタイプを作成できます。
 
-レコードタイプについて詳しくは、[&#x200B; レコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
+レコードタイプについて詳しくは、[ レコードタイプの概要 ](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
 
 ## アクセス要件
 
@@ -42,57 +42,97 @@ ht-degree: 52%
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<p>接続可能レコード・タイプを使用可能にする手順は、次のとおりです。 </p>
+<ul> 
+<li><p>任意のWorkfront パッケージと任意の Planning パッケージ</p></li>
+<p>または</p>
+<li><p>ワークフローおよび計画のPrimeとUltimate パッケージ</p></li></ul>
+
+<p>グローバルレコードタイプを有効にするには：</p>
+
+<ul> 
+<li><p>任意のWorkfront パッケージと Planning Plus パッケージ</p></li>
+<p>または</p>
+<li><p>ワークフローおよび計画のPrimeとUltimate パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>ワークスペースに対する権限の管理</p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++   
+
+<!--Old:
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> 製品</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準</p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースへの権限の管理</a> </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++   
+</table> -->
 
 ## レコードタイプの作成に関する考慮事項
 
@@ -105,7 +145,7 @@ ht-degree: 52%
 
       * CSV または Excel ファイルを使用して読み込む場合。
 
-        詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成 &#x200B;](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) を参照してください。
+        詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成 ](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) を参照してください。
 
      >[!TIP]
      >
@@ -137,7 +177,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 * 運用中のレコードタイプ
 * 分類
 
-運用中のレコードタイプおよび分類セクションの両方で、レコードタイプを手動で追加できます。 詳しくは、この記事の [&#x200B; ゼロからレコードを作成する &#x200B;](#create-a-record-type-from-scratch) の節を参照してください。
+運用中のレコードタイプおよび分類セクションの両方で、レコードタイプを手動で追加できます。 詳しくは、この記事の [ ゼロからレコードを作成する ](#create-a-record-type-from-scratch) の節を参照してください。
 
 ## レコードタイプを最初から作成
 
@@ -153,7 +193,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
    「レコードタイプを追加」ボックスが開きます。<!--update screen shot for preview-->
 
-   ![&#x200B; 外観のオプションを含むレコードタイプボックスを追加 &#x200B;](assets/add-record-type-box-with-appearance-options.png)
+   ![ 外観のオプションを含むレコードタイプボックスを追加 ](assets/add-record-type-box-with-appearance-options.png)
 
 1. 「**外観** タブの次の情報を更新します。
 
@@ -166,10 +206,10 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 1. （オプションおよび条件付き）システム管理者の場合は、「**詳細設定**」をクリックして、「**クロスワークスペース機能**」セクションで次の情報を更新します。<!--the info here is duplicated in the Edit record types article-->
    * **他のワークスペースでこのレコードタイプへの接続を許可** 設定を有効にする：これにより、ワークスペースマネージャーは他のワークスペースからこのレコードタイプに接続できます。\
      このレコードタイプを接続できるワークスペースを指定できます。 すべてのワークスペースで使用できるようにすることも、読み込み先となる特定のワークスペースを指定することもできます。
-詳しくは、[&#x200B; レコードタイプに対するクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+詳しくは、[ レコードタイプに対するクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 
 
-   ![&#x200B; 「詳細設定」タブの「レコードタイプを作成」ボックス &#x200B;](assets/create-record-type-box-advanced-settings-tab.png)
+   ![ 「詳細設定」タブの「レコードタイプを作成」ボックス ](assets/create-record-type-box-advanced-settings-tab.png)
 
    <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
     1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
@@ -182,13 +222,13 @@ Workfront Planning テンプレートを使用してワークスペースを作�
    選択したセクションとワークスペースにレコードタイプカードが追加されます。
 レコードタイプの説明がカードに表示されます。
 
-   ![&#x200B; 説明を記載したレコードタイプカード &#x200B;](assets/record-type-card-with-description.png)
+   ![ 説明を記載したレコードタイプカード ](assets/record-type-card-with-description.png)
 
-   このレコードを他のワークスペースから接続することを選択した場合、レコード カードに **他のスペースから接続** アイコン ![&#x200B; 他のスペースから接続アイコン &#x200B;](assets/connect-from-other-workspaces-icon.png) が表示されます。
+   このレコードを他のワークスペースから接続することを選択した場合、レコード カードに **他のスペースから接続** アイコン ![ 他のスペースから接続アイコン ](assets/connect-from-other-workspaces-icon.png) が表示されます。
 
    <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
 
-1. （オプション）レコードタイプカードにポインタを合わせ、右上隅にある **詳細** アイコン ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**編集** をクリックして、レコードタイプに関する情報を変更します。
+1. （オプション）レコードタイプカードにポインタを合わせ、右上隅にある **詳細** アイコン ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックして、レコードタイプに関する情報を変更します。
 
    <!--replace the last point with this at the preview release of global record types:
     <span class="preview">(Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** or **Settings** to modify information about the record type. </span>
@@ -199,7 +239,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
 1. （オプション）レコードタイプカードをクリックして、レコードタイプのページを開きます。
 
-   ![&#x200B; 運用レコードタイプが空白です &#x200B;](assets/operational-record-type-blank.png)
+   ![ 運用レコードタイプが空白です ](assets/operational-record-type-blank.png)
 
    デフォルトでは、レコードタイプページがテーブルビューに表示されます。テーブルの列は、新しいレコードタイプに関連付けられたフィールドです。各行は、追加する必要がある一意のレコードです。
 
@@ -215,7 +255,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
    または
 
-   レコードタイプ名の右側にある **詳細** アイコン ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックし、**編集** をクリックして、名前を変更したり、情報を変更したりします。 詳しくは、[&#x200B; レコードタイプの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
+   レコードタイプ名の右側にある **詳細** アイコン ![ 詳細メニュー ](assets/more-menu.png) をクリックし、**編集** をクリックして、名前を変更したり、情報を変更したりします。 詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
 1. （オプション）「**+ 新規レコード**」をクリックして、選択したレコードタイプのレコードを追加します。詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 1. （オプション）テーブルの右上隅にある「**+**」アイコンをクリックして、レコードタイプにさらにフィールドを追加します。
@@ -243,7 +283,7 @@ CSV または Excel ファイルから情報を読み込む場合は、次の情
 * レコード
 * レコードフィールド
 
-詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成 &#x200B;](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) を参照してください。
+詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成 ](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) を参照してください。
 
 <!--
 

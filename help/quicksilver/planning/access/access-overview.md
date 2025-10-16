@@ -6,15 +6,17 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 27%
+source-wordcount: '703'
+ht-degree: 26%
 
 ---
 
 
 # Adobe Workfront Planning のアクセスの概要
+
+<!--leave the global record type reference in yellow till Jan 2026-->
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
@@ -30,7 +32,7 @@ ht-degree: 27%
 >
 >詳しくは、アカウントマネージャーにお問い合わせください
 >
->Workfront計画の詳細については、[Adobe Workfront計画の概要 &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Workfront計画の詳細については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 Adobe Workfront Planning を使用するには、ライセンスと共有権限の制約があります。
 
@@ -42,7 +44,7 @@ Adobe Workfront Planning を使用するには、ライセンスと共有権限�
 
 <!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
-Workfront Planning にアクセスするには、次のアクセス権が必要です：
+Workfront Planning を使用するには、次のアクセス権が必要です：
 
 <table style="table-layout:auto">
  <col>
@@ -54,31 +56,30 @@ Workfront Planning にアクセスするには、次のアクセス権が必要�
  <tr>
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td>
    <td>
-<p>次のいずれかのWorkfront パッケージ：</p>
-<ul><li>選択</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning は、従来のWorkfront パッケージでは使用できません</p>
-<p>次のいずれかの Planning パッケージ：</p>
-<ul><li><p>Workfront Planning</p></li>
-<li><p>Workfront Planning Plus</p></li></ul>
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p>
-   </td>
+   <p>任意のWorkfrontおよび Planning パッケージ</p>
+   <p>または</p>
+   <p>任意のワークフローおよび計画パッケージ</p>
+   <!--<p><b>NOTE</b></p>
+<p><span class="preview">For access to global record types:</span></p>
+<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
+<p>Or</p>
+<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>--> </td>
 <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p>
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p>
+   <p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p>
+   <p><b>重要</b></p>
+   <p>Adobe Identity Management System （IMS）に追加されたユーザーのみが、権限を付与され、計画フィールドに追加できます。</p>
+   <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p>
    </td>
   </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
-   <ul><li><p>標準、ライト、またはコントリビューター：Workfrontのプランニング情報を表示します</p></li>
+   <ul><li><p>すべて（Workfront計画情報を表示する場合）</p></li>
    <li><p>標準：ワークスペースとビューを作成します。</p></li></ul>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p>
-  </td>
+    </td>
   </tr>
   <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
@@ -112,7 +113,7 @@ Workfront Planning にアクセスするには、次のアクセス権が必要�
  </tbody>
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 
 ## レイアウトテンプレートを使用した計画エリアの共有
@@ -139,7 +140,7 @@ Workfront インスタンスのユーザーからWorkfront Planning エリアを
 
 1. **メインメニュー**/**設定**/**インターフェイス**/**レイアウトテンプレート** に移動して、レイアウトテンプレートを開くか作成します。
 
-   レイアウトテンプレートのカスタマイズについて詳しくは、[&#x200B; レイアウトテンプレートの作成と管理 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
+   レイアウトテンプレートのカスタマイズについて詳しくは、[ レイアウトテンプレートの作成と管理 ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
 
 1. Workfront Planning へのアクセス権を付与するユーザーにレイアウトテンプレートを割り当てます。
 
@@ -149,9 +150,15 @@ Workfront インスタンスのユーザーからWorkfront Planning エリアを
 
    ユーザーは、ワークスペース、レコードタイプ、レコードおよびフィールドの作成を開始できます。
 
-## アクセスを許可
+## ユーザーへのライセンスの割り当て
 
-Workfront Planning には、Workfrontのアクセス制御はありません。
+ユーザーの編集または作成時にアクセスレベルを設定する際に、ユーザーにライセンスを割り当てることができます。
+
+詳しくは、[ ユーザープロファイルの編集 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
+
+## アクセスレベルを設定
+
+Workfront Planning には、Workfrontのアクセスレベル制御はありません。
 
 あらゆるタイプのWorkfront ライセンスを持つユーザーは、Workfront Planning にアクセスできます。
 

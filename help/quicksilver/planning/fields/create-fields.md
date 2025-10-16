@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '5332'
+source-wordcount: '5253'
 ht-degree: 43%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ja ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -44,13 +44,11 @@ Workfront Planning では、次の方法でフィールドを作成できます�
 * [Excel または CSV ファイルを使用してレコードタイプを読み込む](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
 * [既存のWorkfront フィールドのコピーを読み込む](#create-fields-by-importing-them-from-workfront)
 
-Workfrontの計画フィールドについて詳しくは、[&#x200B; フィールドの概要 &#x200B;](/help/quicksilver/planning/fields/fields-overview.md) を参照してください。
+Workfrontの計画フィールドについて詳しくは、[ フィールドの概要 ](/help/quicksilver/planning/fields/fields-overview.md) を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。 
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開して、この記事の機能のアクセス要件を表示します。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -60,63 +58,96 @@ Workfrontの計画フィールドについて詳しくは、[&#x200B; フィー�
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<ul> 
+<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
+<p>または</p>
+<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>ワークスペースに対する権限の管理</p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++   
+
+<!--Old:
+
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> 製品</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準 </p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard </p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースに対する権限とレコードタイプの管理 </a> </p>  
-   <p>システム管理者は、自分が作成したものでないものも含めて、すべてのワークスペースに対する権限を持っています。</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++   
+</table> -->
 
 ## レコードタイプを連結してフィールドを作成する
 
 2 つのレコードタイプ間で、または、1 つのレコードタイプと他のアプリケーションのオブジェクトタイプとの間で新しい接続を追加する際に、リンクされるレコードフィールドを作成できます。
 
-Workfront Planning レコード・タイプの接続の詳細は、[&#x200B; レコード・タイプの接続 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
+Workfront Planning レコード・タイプの接続の詳細は、[ レコード・タイプの接続 ](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
 
 <!--## Create fields by importing record types using an Excel or CSV file
 
@@ -148,7 +179,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 フィールドをコピーした後、フィールドは互いに独立しており、情報を交換しません。
 
-詳しくは、[Workfrontからのフィールドの読み込み &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。
+詳しくは、[Workfrontからのフィールドの読み込み ](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。
 
 
 ## フィールドを最初から作成 {#create-fields-from-scratch}
@@ -207,8 +238,8 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
    * [作成日](#created-date)
    * [最終変更者](#last-modified-by)
    * [最終変更日](#last-modified-date)
-   * <span class="preview">[&#x200B; 承認日 &#x200B;](#approved-date)</span>
-   * <span class="preview">[&#x200B; 承認者 &#x200B;](#approved-by)</span>
+   * <span class="preview">[ 承認日 ](#approved-date)</span>
+   * <span class="preview">[ 承認者 ](#approved-by)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -226,7 +257,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**1 行テキスト**&#x200B;フィールドタイプを選択します。
 
-   ![1 行テキストのフィールドタイプ &#x200B;](assets/single-line-text-field-type.png)
+   ![1 行テキストのフィールドタイプ ](assets/single-line-text-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：レコードのテーブルまたは詳細ページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -251,7 +282,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**段落**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 段落フィールドタイプ &#x200B;](assets/paragraph-field-type.png)
+   ![ 段落フィールドタイプ ](assets/paragraph-field-type.png)
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
@@ -268,12 +299,12 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 >[!NOTE]
 >
-><span class="preview"> この節で説明する機能に加えて、レコードの複数選択フィールド値をテーブル表示でインライン編集する際に、新しい選択肢を追加できます。 詳細については、「レコードの編集 [&#x200B; の「単一選択フィールドまたは複数選択フィールドに関する情報の編集」の節を参照し &#x200B;](/help/quicksilver/planning/records/edit-records.md) ください。</span>
+><span class="preview"> この節で説明する機能に加えて、レコードの複数選択フィールド値をテーブル表示でインライン編集する際に、新しい選択肢を追加できます。 詳細については、「レコードの編集 [ の「単一選択フィールドまたは複数選択フィールドに関する情報の編集」の節を参照し ](/help/quicksilver/planning/records/edit-records.md) ください。</span>
 >
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**複数選択**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 複数選択フィールドタイプ &#x200B;](assets/multi-select-field-type.png)
+   ![ 複数選択フィールドタイプ ](assets/multi-select-field-type.png)
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
@@ -320,12 +351,12 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 >[!NOTE]
 >
-><span class="preview"> この節で説明する機能に加えて、レコードの単一選択フィールド値をテーブル表示でインライン編集する際に、新しい選択肢を追加できます。 詳細については、「レコードの編集 [&#x200B; の「単一選択フィールドまたは複数選択フィールドに関する情報の編集」の節を参照し &#x200B;](/help/quicksilver/planning/records/edit-records.md) ください。</span>
+><span class="preview"> この節で説明する機能に加えて、レコードの単一選択フィールド値をテーブル表示でインライン編集する際に、新しい選択肢を追加できます。 詳細については、「レコードの編集 [ の「単一選択フィールドまたは複数選択フィールドに関する情報の編集」の節を参照し ](/help/quicksilver/planning/records/edit-records.md) ください。</span>
 >
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**単一選択**&#x200B;というフィールドタイプを選択します。
 
-   ![&#x200B; 単一選択フィールドタイプ &#x200B;](assets/single-select-field-type.png)
+   ![ 単一選択フィールドタイプ ](assets/single-select-field-type.png)
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
@@ -373,7 +404,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**日付**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 日付フィールドタイプ &#x200B;](assets/date-field-type.png)
+   ![ 日付フィールドタイプ ](assets/date-field-type.png)
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
@@ -407,12 +438,12 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >数値フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに数値として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**数値**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 数値フィールドタイプ &#x200B;](assets/number-field-type.png)
+   ![ 数値フィールドタイプ ](assets/number-field-type.png)
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 
    * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。
@@ -437,12 +468,12 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >割合フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページにパーセンテージとして表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**パーセント**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; パーセンテージのフィールドの種類 &#x200B;](assets/percentage-field-type.png)
+   ![ パーセンテージのフィールドの種類 ](assets/percentage-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。
@@ -477,11 +508,11 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >通貨フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに通貨として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**通貨**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 通貨フィールドタイプ &#x200B;](assets/currency-field-type.png)
+   ![ 通貨フィールドタイプ ](assets/currency-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -504,7 +535,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**チェックボックス**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; チェックボックスフィールドタイプ &#x200B;](assets/checkbox-field-type.png)
+   ![ チェックボックスフィールドタイプ ](assets/checkbox-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -521,7 +552,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**式**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 式のリストを含む新しい式フィールド &#x200B;](assets/new-formula-field-with-list-of-expressions.png)
+   ![ 式のリストを含む新しい式フィールド ](assets/new-formula-field-with-list-of-expressions.png)
 
 1. 次の情報を「**新規フィールド**」タブに追加します。
 
@@ -531,9 +562,9 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. 選択した式をクリックすると、定義が表示され、書式が表示されます。
 
-   ![&#x200B; 数式の説明 &#x200B;](assets/description-of-formula-expression.png)
+   ![ 数式の説明 ](assets/description-of-formula-expression.png)
 
-   サポートされている式について詳しくは、[&#x200B; 式フィールドの概要 &#x200B;](/help/quicksilver/planning/fields/formula-fields.md) を参照してください。
+   サポートされている式について詳しくは、[ 式フィールドの概要 ](/help/quicksilver/planning/fields/formula-fields.md) を参照してください。
 
 
    >[!TIP]
@@ -552,7 +583,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
    >
    >* 現在のレコードタイプから最大 4 つのフィールド（およびオブジェクト）を参照できます。 例えば、アクティビティレコードタイプ（1）の数式フィールドを作成し、そのアクティビティがWorkfront プロジェクト（3）に接続されたキャンペーンレコードタイプ（2）に接続されている場合、アクティビティのレコードタイプに対して作成する数式で、プロジェクトの予算フィールド（4）を参照できます。
    >
-   >![&#x200B; 式の例プロジェクト予算の 4 つのフィールドが削除されました &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![ 式の例プロジェクト予算の 4 つのフィールドが削除されました ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. （省略可能） [**最大化**] をクリックすると、[ 数式 ] ボックスが大きな領域で開きます。
@@ -572,7 +603,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
      >
      >配列を表示するフィールドには、タグを使用することをお勧めします。 この場合、各配列メンバーは個別のタグとして表示されます。
 
-     ![&#x200B; 選択したタグがハイライト表示された式フィールドの書式リスト &#x200B;](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![ 選択したタグがハイライト表示された式フィールドの書式リスト ](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **日付**：式フィールドの結果は日付として表示されます。
 
@@ -596,11 +627,11 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >
 >* 人物フィールドは、リクエストフォームビルダーで参照（または接続）フィールドタイプとして表示されます。
 >
->詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**ユーザー**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 人物フィールドタイプ &#x200B;](assets/people-field-type.png)
+   ![ 人物フィールドタイプ ](assets/people-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。
@@ -621,7 +652,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**作成者**」フィールドタイプを選択します。
 
-   ![&#x200B; フィールドタイプで作成 &#x200B;](assets/created-by-field-type.png)
+   ![ フィールドタイプで作成 ](assets/created-by-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 
@@ -639,7 +670,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**作成日**」フィールドタイプを選択します。
 
-   ![&#x200B; 作成日フィールドタイプ &#x200B;](assets/created-date-field-type.png)
+   ![ 作成日フィールドタイプ ](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -672,7 +703,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**最終更新者**」フィールドタイプを選択します。
 
-   ![&#x200B; 最終変更者フィールドタイプ &#x200B;](assets/last-modified-by-field-type.png)
+   ![ 最終変更者フィールドタイプ ](assets/last-modified-by-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 
@@ -690,7 +721,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**最終更新日**」フィールドタイプを選択します。
 
-   ![&#x200B; 最終変更日フィールドタイプ &#x200B;](assets/last-modified-date-field-type.png)
+   ![ 最終変更日フィールドタイプ ](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -732,7 +763,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**作成日**」フィールドタイプを選択します。
 
-   ![&#x200B; 承認日フィールドタイプ &#x200B;](assets/approved-date-field-type.png)
+   ![ 承認日フィールドタイプ ](assets/approved-date-field-type.png)
 
    1. 「**新しいフィールド**」タブで次の情報を追加します。
 
@@ -767,9 +798,9 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >
 >フォームが複数の承認者に関連付けられている場合、すべての承認者の名前がコンマで区切って、「承認日」フィールドに記録されます。
 
-1. この記事の「最初からフィールドを作成 [&#x200B; の説明に従ってフィールドの作成を開始し &#x200B;](#create-fields-from-scratch)、「**承認者**」フィールドタイプを選択します。
+1. この記事の「最初からフィールドを作成 [ の説明に従ってフィールドの作成を開始し ](#create-fields-from-scratch)、「**承認者**」フィールドタイプを選択します。
 
-   ![&#x200B; フィールドタイプによる承認 &#x200B;](assets/approved-by-field-type.png)
+   ![ フィールドタイプによる承認 ](assets/approved-by-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 

@@ -3,13 +3,13 @@ title: Workspace階層の作成
 description: ワークスペース内のレコードタイプ間に複数のワークスペース階層を作成できます。
 hide: true
 hidefromtoc: true
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 20%
+source-wordcount: '117'
+ht-degree: 23%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 
@@ -34,6 +34,8 @@ hidefromtoc: yes
 
 <!--check the access to see if you oversimplified???-->
 
+<!--Update the TOC for this to publish-->
+
 +++ を展開してアクセス要件を表示し、この記事の手順を実行します。  
 
 <table style="table-layout:auto"> 
@@ -41,27 +43,32 @@ hidefromtoc: yes
 </col> 
 <col> 
 </col> 
-<tbody>
-
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfront ワークフローパッケージ</p> 
-<p>任意のWorkfront Planning パッケージ</p> 
+<ul> 
+<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
+<p>または</p>
+<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td><p>標準</p>
-  </td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td><p>作成したワークスペースに対する管理権限が付与されます。 </p> </td> 
-  </tr> 
+   <td>   <p>ワークスペースに対する権限の管理</p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
+  </tr>  
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-+++   
++++

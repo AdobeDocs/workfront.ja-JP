@@ -6,22 +6,24 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 41%
+source-wordcount: '1145'
+ht-degree: 40%
 
 ---
 
 
 # レコードビューの管理
 
-<!-- take preview and production references out at production-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -42,7 +44,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 この記事では、レコードビューに関する次の情報について説明します。
 
 * [ビューの作成と編集](#create-or-edit-record-views)
-* [&#x200B; ビューでリアルタイムプレゼンス指標を有効にする &#x200B;](#enable-the-real-time-presence-indicator-in-a-view)
+* [ ビューでリアルタイムプレゼンス指標を有効にする ](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 Workfrontの計画レコードのビューの管理について詳しくは、次の記事も参照してください。
@@ -54,7 +56,7 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。 
++++ 展開して、この記事の機能のアクセス要件を表示します。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -64,48 +66,23 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> 製品</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<ul> 
+<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
+または
+<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
-   <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
-   <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td><p> ビューを作成および削除するための標準</p>
    <p>ビュー要素を更新する投稿者以上</p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ビューに対する権限を管理</p>  
    <p>ビュー設定を一時的に変更したり、複製したりするためのビューへのアクセス許可を表示します</p> </td> 
@@ -115,13 +92,78 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
    <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
    <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-+++   
++++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table>-->
 
 ## レコードビューを使用する際の考慮事項
 
@@ -171,8 +213,8 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 | 月別にレコードを表示 |           | ✓ | ✓ |
 | レコードを週別に表示 |           |               | ✓ |
 | ビューからの情報のエクスポート | ✓ |               |    |
-| <span class="preview"> 全画面表示 </span> | ✓ | ✓ | ✓ |
-| <span class="preview"> ビューでのレコードの作成 </span> | ✓ | ✓ | ✓ |
+| 全画面表示で表示 | ✓ | ✓ | ✓ |
+| ビューでのレコードの作成 | ✓ | ✓ | ✓ |
 
 ## ビューを作成または編集 {#create-or-edit-views}
 
@@ -189,10 +231,7 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. 使用する環境に応じて、次の操作を行います。
-
-   * 実稼動環境で、「**+View**」タブをクリックします。
-   * <span class="preview"> プレビュー環境で、現在のビュー名の横にあるドロップダウンアイコン ![&#x200B; ドロップダウンアイコン &#x200B;](assets/drop-down-icon.png) ドロップダウンアイコン）をクリックし、「**+新しいビュー**」をクリックします。</span>
+1. 現在のビュー名の横にあるドロップダウンアイコン ![ ドロップダウンアイコン ](assets/drop-down-icon.png) ドロップダウンアイコン）をクリックし、「**+新規ビュー**」をクリックします。
 
 1. 次のタイプのビューから選択します。
 
@@ -200,9 +239,7 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
    * タイムライン
    * カレンダー
 
-   実稼動環境では、選択したビューで新しいタブが作成されます。
-
-   画面の幅に応じて、追加のビューが **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) に表示される場合があります。
+1. 表示タイプを選択し、「**作成**」をクリックします。 ドロップダウンメニューに新しいビューが追加されます。
 
    >[!TIP]
    >
@@ -211,16 +248,14 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
    >タイムライン表示またはカレンダー表示を作成するには、ビューを作成するレコードタイプに少なくとも 2 つの日付フィールドが必要です。
    >
    >それ以外の場合は、「タイムライン」および「カレンダー」オプションは淡色表示になります。
-   >
+   >  
 
-   <span class="preview"> プレビュー環境で、表示タイプを選択し、「**作成**」をクリックします。 ドロップダウンメニューに新しいビューが追加されます。</span>
+   ![ ビューボックスを作成 ](assets/create-view-box.png)
 
-   <span class="preview">![&#x200B; ビューボックスを作成 &#x200B;](assets/create-view-box.png)</span>
+1. （オプション）既存のビューを編集するには、現在のビュー名の右側にあるドロップダウンメニューをクリックし、「**検索**」フィールドにビュー名を入力して、キーボードの Enter キーを押します。
+1. （オプション）表示ドロップダウンメニューから、希望する順序でビューをドラッグ&amp;ドロップします。
 
-1. <span class="preview"> 既存のビューを編集するには、「**検索**」フィールドにビューの名前を入力し、キーボードの Enter キーを押します。</span>
-1. <span class="preview"> 「表示」ドロップダウンメニューから、希望する順序でビューをドラッグ&amp;ドロップします。</span>
-
-   <span class="preview">![&#x200B; レコードタイプリストからの表示タイプドロップダウン &#x200B;](assets/view-types-drop-down-from-record-type-list.png)</span>
+   ![ レコードタイプリストからの表示タイプドロップダウン ](assets/view-types-drop-down-from-record-type-list.png)
 
 1. （条件付き）タイムラインビューまたはカレンダービューを作成する際は、「**次へ**」をクリックします。
 
@@ -245,16 +280,16 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 1. 「**作成**」をクリックします。
 
    ビューは新しいタブとして表示されます。ビューは、作成時または共有時からの時間順で表示されます。
-1. （オプション）選択したレコードタイプのすべてのビューを表示するには、最後のビューの横にある **その他** メニュー ![&#x200B; その他のキャレットダウンアイコンビュー &#x200B;](assets/more-caret-down-icon-views.png) をクリックします。
+1. （オプション）選択したレコードタイプのすべてのビューを表示するには、最後のビューの横にある **その他** メニュー ![ その他のキャレットダウンアイコンビュー ](assets/more-caret-down-icon-views.png) をクリックします。
 
    最後のビュータブの後の&#x200B;**その他**&#x200B;メニューに、追加のビューが表示されます。**その他**&#x200B;メニューの横の数字は、追加のビューの数を示します。
-1. （オプション）作成後にビューの名前を変更するには、ビューのドロップダウンメニューをクリックし、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png)>**名前を変更** をクリックしてビュー名を更新します
+1. （オプション）作成後にビューの名前を変更するには、ビューのドロップダウンメニューをクリックし、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png)>**名前を変更** をクリックしてビュー名を更新します
 
    または
 
    ビュー名をダブルクリックし、新しい名前を入力していきます。<!--ensure there is not another saving step here?!-->
 
-1. <span class="preview"> （オプション） **フルスクリーン** アイコン ![&#x200B; フルスクリーンアイコンを開く &#x200B;](assets/open-full-screen-icon.png) をクリックしてフルスクリーンで任意の表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了 &#x200B;](assets/exit-full-screen-icon.png) またはキーボードの Esc キーをクリックしてフルスクリーンを終了します。 </span>
+1. （オプション） **フルスクリーン** アイコン ![ フルスクリーンアイコンを開く ](assets/open-full-screen-icon.png) をクリックしてフルスクリーンで任意の表示を開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了 ](assets/exit-full-screen-icon.png) またはキーボードの Esc キーをクリックしてフルスクリーンを終了します。
 
 1. （オプション）特定のタイプのビューを管理するには、次の記事を参照してください。
 

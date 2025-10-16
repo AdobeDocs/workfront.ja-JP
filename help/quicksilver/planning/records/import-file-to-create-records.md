@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 16%
+source-wordcount: '886'
+ht-degree: 12%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 16%
 
 レコードは、レコードタイプの個々のインスタンスであり、Adobe Workfront Planning のオブジェクトタイプです。 Workfront Planning では、CSV または Excel ファイルから情報をインポートしてレコードを作成できます。
 
-レコードの作成について詳しくは、「[&#x200B; レコードの作成 &#x200B;](/help/quicksilver/planning/records/create-records.md)」を参照してください。
+レコードの作成について詳しくは、「[ レコードの作成 ](/help/quicksilver/planning/records/create-records.md)」を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開して、この記事の機能のアクセス要件を表示します。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -38,60 +38,95 @@ ht-degree: 16%
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<ul> 
+<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
+または
+<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td> <p>レコードを読み込むワークスペースおよびレコードタイプに対する投稿以上の権限。 </p>
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
+   </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++  
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> 製品</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> 標準
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p> 
-   <p>新しいレコードから関連付ける際に、作成するオブジェクトタイプ（プロジェクト、プログラム、ポートフォリオ）のWorkfrontでのアクセス権を編集する  </p>  
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect them from new records  </p>  
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td> <p>レコードを追加するワークスペースとレコードタイプに対する投稿以上の権限。 </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
-   <p>子オブジェクト（プロジェクト）を追加するためのWorkfront オブジェクト（ポートフォリオ）への権限を管理します。</p>
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+</table> -->
 
 
 ## Excel または CSV ファイルを使用したレコードの読み込みに関する考慮事項
@@ -127,22 +162,22 @@ ht-degree: 16%
 1. レコードをインポートするレコードの種類のカードをクリックします。
 1. 画面の右上隅にある「**新規レコード**」をクリックします。
 
-   ![&#x200B; レコードを追加する方法を選択する 3 ボタン ボックス &#x200B;](assets/choose-way-to-add-records-three-button-box.png)
+   ![ レコードを追加する方法を選択する 3 ボタン ボックス ](assets/choose-way-to-add-records-three-button-box.png)
 1. **ファイルからアップロード** をクリックし、**続行** をクリックします。<!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. コンピューターに保存済みの Excel ファイルまたは CSV ファイルをドラッグアンドドロップするか、「**CSV ファイルまたは Excel ファイルを選択**」をクリックして参照します。
 1. **プレビューと編集** をクリックします。
 1. （条件付き）読み込まれたファイルに複数のシートがある場合は、読み込むシートのラジオボタンを **読み込むシートを選択** ボックスで選択し、**次へ** をクリックします。 それ以外の場合は、次の手順に進みます。
 
-   ![&#x200B; レコードをインポートするシートを選択 &#x200B;](assets/select-a-sheet-to-import-box.png)
+   ![ レコードをインポートするシートを選択 ](assets/select-a-sheet-to-import-box.png)
 1. **計画フィールドを列ヘッダーにマッピングする** で、シートの各列の情報に最も一致する **計画フィールド** を選択します。
 
-   ![&#x200B; レコードをインポートする際の計画フィールドの列へのマッピング &#x200B;](assets/map-planning-fields-to-columns-when-importing-records.png)
+   ![ レコードをインポートする際の計画フィールドの列へのマッピング ](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    各行は新しいレコードを表します。「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
 
    >[!TIP]
    >
-   >すべてのフィールドタイプがサポートされているわけではありません。 詳しくは、この記事の「[Excel ファイルまたは CSV ファイルを使用したレコードの読み込みに関する考慮事項 &#x200B;](#considerations-about-importing-records-using-an-excel-or-csv-file) を参照してください。
+   >すべてのフィールドタイプがサポートされているわけではありません。 詳しくは、この記事の「[Excel ファイルまたは CSV ファイルを使用したレコードの読み込みに関する考慮事項 ](#considerations-about-importing-records-using-an-excel-or-csv-file) を参照してください。
 
 
 1. （オプションおよび条件付き）ワークスペースに対する管理権限がある場合は、画面の左下隅にある **欠落しているオプションを作成** を選択します。 有効にすると、単一選択フィールドと複数選択フィールドの欠落している選択肢が追加されます。

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: a36968bdae5756f0f8283da04a2afca83b4dd94a
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 4%
+source-wordcount: '784'
+ht-degree: 7%
 
 ---
 
@@ -27,12 +27,47 @@ AI アシスタントを使用して、現在のページコンテキストと�
 
 ユーザーのコマンドと AI によるコマンドの実行を連携させることで、AI によって行われた変更が環境に正確に反映されるようになります。
 
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<p>任意のWorkfrontおよび Planning パッケージ</p>
+<p>任意のワークフローおよび計画パッケージ</p>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>ワークスペースへの権限の管理</a> </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
+
 ## AI アシスタントに関する考慮事項
 
-* 会社のユーザーが AI アシスタントを使用できるようにするには、組織で AI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントの概要 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) を参照してください。
+* 会社のユーザーが AI アシスタントを使用できるようにするには、組織で AI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントの概要 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) を参照してください。
 * Workfrontで組織の AI アシスタントが有効になると、メインのWorkfront管理者が使用できるようになります。 詳しくは、[システムの基本情報を設定](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
 
-* Workfront管理者は、他のすべてのユーザーに対して AI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントを有効または無効にする &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+* Workfront管理者は、他のすべてのユーザーに対して AI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
 * AI アシスタントは、各ページのコンテキストで機能します。 AI アシスタントに対して送信するリクエストでは、開いているページで使用できる機能を参照する必要があります。
 
@@ -76,7 +111,7 @@ AI アシスタントは、Workfront計画の次の領域に配置できます�
 
 ## 計画エリアで AI アシスタントにアクセスする
 
-1. Workfrontにログインし、画面の右上隅にある **メインメニュー** アイコン ![&#x200B; ドットメインメニュー &#x200B;](assets/dots-main-menu.png) をクリックするか、左上隅にある **メインメニュー** アイコン ![&#x200B; ラインメインメニュー &#x200B;](assets/lines-main-menu.png) をクリックします。
+1. Workfrontにログインし、画面の右上隅にある **メインメニュー** アイコン ![ ドットメインメニュー ](assets/dots-main-menu.png) をクリックするか、左上隅にある **メインメニュー** アイコン ![ ラインメインメニュー ](assets/lines-main-menu.png) をクリックします。
 
 .**計画** をクリックします。 計画エリアが開きます。
 
@@ -88,11 +123,11 @@ AI アシスタントは、Workfront計画の次の領域に配置できます�
 
 1. グローバルナビゲーションバーの画面の右上隅にある **AI アシスタント** アイコン、またはレコードのプレビューまたはページの右上隅をクリックします。
 
-   ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon-highlighted.png)
+   ![AI アシスタント アイコン ](assets/ai-assistant-icon-highlighted.png)
 
 1. 指定されたスペースで、AI アシスタントのコマンドの入力を開始し、完了したら [Enter] をクリックします。
 
-   ![&#x200B; 空のコマンドボックスを持つ AI アシスタントパネル &#x200B;](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![ 空のコマンドボックスを持つ AI アシスタントパネル ](assets/ai-assistant-panel-with-empty-command-box.png)
 
    たとえば、次のいずれかを入力できます。
 

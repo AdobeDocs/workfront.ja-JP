@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 7%
+source-wordcount: '716'
+ht-degree: 3%
 
 ---
 
@@ -28,11 +28,11 @@ Adobe Workfront Planning でオートメーションを構成してアクティ�
 
 ここでは、既存の自動処理を使用してWorkfrontのプランニングレコードまたはWorkfront オブジェクトを作成する方法について説明します。
 
-レコード・タイプの自動化の作成の詳細は、[&#x200B; レコードを作成するためのAdobe Workfront Planning 自動化の構成 &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) を参照してください。
+レコード・タイプの自動化の作成の詳細は、[ レコードを作成するためのAdobe Workfront Planning 自動化の構成 ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) を参照してください。
 
 オートメーションを使用してレコードまたはWorkfront オブジェクトを作成すると、それらのレコードはオートメーションを実行するレコードに自動的にリンクされます。
 
-接続されたレコードについて詳しくは、「[&#x200B; 接続されたレコードの概要 &#x200B;](/help/quicksilver/planning/records/connected-records-overview.md)」を参照してください。
+接続されたレコードについて詳しくは、「[ 接続されたレコードの概要 ](/help/quicksilver/planning/records/connected-records-overview.md)」を参照してください。
 
 Workfront Planning の自動化を使用して、次のアイテムを作成できます。
 
@@ -45,7 +45,7 @@ Workfront Planning の自動化を使用して、次のアイテムを作成で�
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開して、この記事の機能のアクセス要件を表示します。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,40 +55,20 @@ Workfront Planning の自動化を使用して、次のアイテムを作成で�
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> 製品</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<ul> 
+<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
+または
+<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
-   <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
-   <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> 標準
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
-  </td> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>アクセスレベルの設定</p></td> 
@@ -102,14 +82,75 @@ Workfront Planning の自動化を使用して、次のアイテムを作成で�
    <p>子オブジェクト（プログラムまたはプロジェクト）を追加するためのWorkfront オブジェクト（ポートフォリオ）に対する権限を管理します。</p>
    <p>システム管理者には、未作成のワークスペースを含むすべてのワークスペースに対する管理権限があります</p>
    </td> 
-  </tr>
-
+  </tr> 
 </tbody> 
 </table>
 
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-+++
++++   
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access with access to Create objects in Workfront for the object types that you want to create (projects, portfolios, programs). </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Contribute or higher permissions to the workspace and to the record type where you want to create objects using existing automations. </p>  
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (programs or projects).</p>
+   <p>System Administrators have Manage permissions to all workspaces, including the ones they did not create</p>
+   </td> 
+  </tr> 
+
+</tbody> 
+</table> -->
 
 ## 自動処理を使用したオブジェクトとレコードの作成に関する考慮事項
 
@@ -119,7 +160,7 @@ Workfront Planning の自動化を使用して、次のアイテムを作成で�
 
   `[ Name of the record ] Name of the field choice`
 
-  詳しくは、この記事の [Workfront Planning オートメーションを使用したオブジェクトまたはレコードの作成 &#x200B;](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) の節を参照してください。
+  詳しくは、この記事の [Workfront Planning オートメーションを使用したオブジェクトまたはレコードの作成 ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) の節を参照してください。
 
 * 新しいオブジェクトまたはレコードは、同じフィールド内の既存のオブジェクトまたはレコードを上書きしません。 同じレコードに対して同じ自動処理を複数回トリガーすると、以前に作成したオブジェクトに加えて、元のレコードの同じ接続されたフィールドに新しいオブジェクトまたはレコードが追加されます。
 
@@ -135,7 +176,7 @@ Workfront Planning の自動化を使用して、次のアイテムを作成で�
    テーブルの下部に青いバーが表示され、オートメーションボタンなどの追加ボタンも表示されます。
 1. 青いバーのオートメーションボタンをクリックします。
 
-   ![&#x200B; オートメーションボタン &#x200B;](assets/automation-custom-button.png)
+   ![ オートメーションボタン ](assets/automation-custom-button.png)
 
    次のことが発生します。
 

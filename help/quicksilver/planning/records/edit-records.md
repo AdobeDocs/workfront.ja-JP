@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '2764'
-ht-degree: 36%
+source-wordcount: '2645'
+ht-degree: 35%
 
 ---
 
@@ -18,9 +18,12 @@ ht-degree: 36%
 
 <!--keep the choice values information in yellow till Jan 2026-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -36,7 +39,7 @@ ht-degree: 36%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開して、この記事の機能のアクセス要件を表示します。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -46,58 +49,87 @@ ht-degree: 36%
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td> 
+<ul> 
+<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
+または
+<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>ワークスペースおよびレコードタイプへの投稿以上の権限  </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> 製品</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <p>標準</p> 
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Standard</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>  <p>ワークスペースおよびレコードタイプ </a> への投稿以上の権限 </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
-  </tr>
-
-</tbody> 
-</table>
-
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++   
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr> -->
 
 ## レコードの編集に関する考慮事項
 
@@ -107,7 +139,7 @@ ht-degree: 36%
    * レコード ビューでのレコードのプレビュー
    * レコードの詳細ページ
    * テーブルビューでのインライン。
-   * <span class="preview"> レコードのサイズを変更する際の、カレンダーおよびタイムライン表示 <!--or dragging and dropping--> 表示します。 これにより、レコードの日付が更新されます。</span>
+   * レコードのサイズ変更またはドラッグ&amp;ドロップ時のカレンダーおよびタイムライン表示。 これにより、レコードの日付が更新されます。
 
 * ユーザーがビューでレコードを編集すると、変更はすべてのビューで直ちに表示され、レコードページは他のすべてのユーザーに表示されます。
 
@@ -119,7 +151,7 @@ ht-degree: 36%
 * レコードを一括で編集することはできません。<!--this will probably change-->
 * URL は、http://、https://、ftp:// または www で始まる場合にのみ、1 行テキストフィールドタイプのリンクとして認識されます。
 * 各レコードにカバー画像を追加できます。 画像はレコードごとに一意であり、同じ時間のすべてのレコードには適用されません。
-* レコードページのフィールドの順序を編集し、レコードのカバー画像を追加できます。詳しくは、[&#x200B; レコードページレイアウトの管理 &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
+* レコードページのフィールドの順序を編集し、レコードのカバー画像を追加できます。詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
 
 ## レコードの編集
 
@@ -159,7 +191,7 @@ ht-degree: 36%
    選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
 1. レコードの行内をクリックして、レコードに関する情報の編集をインラインで開始します。
 
-   ![&#x200B; 書式設定テーブルビューでレコードの段落フィールドを編集 &#x200B;](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+   ![ 書式設定テーブルビューでレコードの段落フィールドを編集 ](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
    >[!TIP]
    >
@@ -177,7 +209,7 @@ ht-degree: 36%
    * 箇条書きリストを追加
    * 番号付きリストを追加
 
-   ![&#x200B; 段落フィールドのリッチテキストツールバー &#x200B;](assets/rich-text-toolbar-on-paragraph-field.png)
+   ![ 段落フィールドのリッチテキストツールバー ](assets/rich-text-toolbar-on-paragraph-field.png)
 
 1. （オプション）接続されたレコードフィールドをダブルクリックして、接続済みレコードやオブジェクトを別のレコードに追加します。詳しくは、[レコーのを接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 1. キーボードの **Enter** キーを押すか、行の外側をクリックして変更を保存します。変更点は自動的に保存されます。テーブルビューの右上隅に&#x200B;**保存済み**&#x200B;インジケータが短時間表示され、変更が保存されたことを示します。
@@ -191,7 +223,7 @@ ht-degree: 36%
    * 1 つのセルから情報をコピーして、複数のセルを選択し、同じ情報を複数のセルに貼り付けます。 複数のセルを選択して、隣接する行と列の複数のセルに同じ情報を貼り付けることができます。
    * コピーする情報が含まれている既存のセルの右下隅を選択し、同じ情報を貼り付ける隣接するセル間でドラッグ アンド ドロップします。 すべてのセルに同じ種類の情報を含める必要があります。
 
-     ![&#x200B; テーブル表示でのコピー貼り付けに使用する、ドラッグ可能な右下隅 &#x200B;](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+     ![ テーブル表示でのコピー貼り付けに使用する、ドラッグ可能な右下隅 ](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
 
    * 外部ソース （Excel ファイルなど）から 1 つまたは複数のセルをコピーし、次のいずれかのフィールド型に貼り付けます。
@@ -233,30 +265,30 @@ ht-degree: 36%
 
 1. タイムラインビューでレコードタイプ ページを開きます。 詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
 
-1. <span class="preview"> レコードのバーの端にポインタを合わせ、クリックして、余白を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日または終了日が自動的に更新されます。</span>
+1. レコードのバーの端にポインタを合わせ、クリックして、余白を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日または終了日が自動的に更新されます。
 
-   <span class="preview">![&#x200B; サイズを変更するタイムラインビューの左端のバー &#x200B;](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+   ![ サイズを変更するタイムラインビューの左端のバー ](assets/left-end-bar-handle-to-resize-timeline-view.png)
 
-1. <span class="preview"> レコードバーをクリックして保持し、別の位置にドラッグ&amp;ドロップしてタイムラインと日付を更新します。 レコードの開始日と終了日は、自動的に更新されます。</span>
+1. レコードバーをクリックして長押しし、別の位置にドラッグ&amp;ドロップして、タイムラインと日付を更新します。 レコードの開始日と終了日は自動的に更新されます。
 
 1. レコードのバーをクリックして、その詳細領域を開き、すべてのフィールドを編集します。
 
-   詳しくは、この記事の [&#x200B; レコードのプレビューからレコードを編集する &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) の節を参照してください。
+   詳しくは、この記事の [ レコードのプレビューからレコードを編集する ](#edit-a-record-from-the-records-preview-in-a-view) の節を参照してください。
 
 ### レコードタイプのカレンダー表示でのレコードの編集
 
 <!--add another step about drag and drop here when that is available-->
 
-1. カレンダー表示でレコードタイプ ページを開きます。 詳しくは、[&#x200B; カレンダー表示の管理 &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md) を参照してください。
-1. <span class="preview"> （条件付き） カレンダー表示でレコードのバーの端にポインタを合わせ、クリックして余白を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日または終了日が自動的に更新されます。</span>
+1. カレンダー表示でレコードタイプ ページを開きます。 詳しくは、[ カレンダー表示の管理 ](/help/quicksilver/planning/views/manage-the-calendar-view.md) を参照してください。
+1. （条件付き）カレンダービューでレコードのバーの端にポインタを合わせ、クリックして余白を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日または終了日が自動的に更新されます。
 
-   <span class="preview">![&#x200B; サイズを変更するカレンダー表示の左端のバー &#x200B;](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+   ![ サイズを変更するカレンダー表示の左端のバー ](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
-1. <span class="preview"> レコードバーをクリックして保持し、別の位置にドラッグ&amp;ドロップしてタイムラインと日付を更新します。 レコードの開始日と終了日は、自動的に更新されます。</span>
+1. レコードバーをクリックして長押しし、別の位置にドラッグ&amp;ドロップして、タイムラインと日付を更新します。 レコードの開始日と終了日は自動的に更新されます。
 
 1. レコードのバーをクリックして、その詳細領域を開き、すべてのフィールドを編集します。
 
-   詳しくは、この記事の [&#x200B; レコードのプレビューからレコードを編集する &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) の節を参照してください。
+   詳しくは、この記事の [ レコードのプレビューからレコードを編集する ](#edit-a-record-from-the-records-preview-in-a-view) の節を参照してください。
 
 ### ビューでのレコードのプレビューからのレコードの編集
 
@@ -274,13 +306,13 @@ ht-degree: 36%
 
    または
 
-   テーブル表示で、最初の列の **詳細を開く** アイコン ![&#x200B; テーブル名フィールドで詳細を開くアイコン &#x200B;](assets/open-details-icon-in-table-name-field.png) をクリックします。 レコードのプレビューがビューで開きます。
+   テーブル表示で、最初の列の **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。 レコードのプレビューがビューで開きます。
 
-   ![&#x200B; 詳細ボックス &#x200B;](assets/details-box.png)
+   ![ 詳細ボックス ](assets/details-box.png)
 
 1. （オプション）レコードのタイトルの右側にある **詳細** メニューをクリックし、「名前を変更 **をクリックし** す。 これにより、レコードのタイトルとして表示されるフィールドが更新されます。
 
-   レコードのタイトルは、テーブル表示で表示された場合、レコードのプライマリフィールドになります。 詳しくは、[プライマリフィールドの概要 &#x200B;](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
+   レコードのタイトルは、テーブル表示で表示された場合、レコードのプライマリフィールドになります。 詳しくは、[プライマリフィールドの概要 ](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
 
 1. レコードのプレビューのフィールド情報の編集を開始します。
 
@@ -291,23 +323,23 @@ ht-degree: 36%
    >  * レコードタイプを接続して作成された他のレコードのルックアップフィールド。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
    >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日、数式フィールド。
 
-1. （任意） **カバーを追加** をクリックして、カバー画像をレコードに追加します。 詳細については、[&#x200B; レコードにカバー画像を追加する &#x200B;](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) を参照してください。
+1. （任意） **カバーを追加** をクリックして、カバー画像をレコードに追加します。 詳細については、[ レコードにカバー画像を追加する ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) を参照してください。
 
-1. （オプション）サムネールアイコンの上にマウスポインターを置き、**詳細** メニュー ![&#x200B; &#x200B;](assets/more-menu.png)>**サムネールを編集** をクリックしてサムネール画像を追加します。 詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+1. （オプション）サムネールアイコンの上にマウスポインターを置き、**詳細** メニュー ![ ](assets/more-menu.png)>**サムネールを編集** をクリックしてサムネール画像を追加します。 詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
    Workfront では、変更を自動的に保存します。
 
-1. （任意）レコードのプレビューボックスの右上隅にある **リアルタイムインジケーター**![&#x200B; リアルタイムインジケーターアイコン &#x200B;](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
+1. （任意）レコードのプレビューボックスの右上隅にある **リアルタイムインジケーター**![ リアルタイムインジケーターアイコン ](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
 
    レコードに同時にアクセスするすべてのユーザーの名前とアバターがこの領域に表示されます。
 
    この設定を無効にすると、アバターと名前はリアルタイムインジケーター領域にリストされ、編集中のフィールドはハイライト表示されません。
 
-   ![&#x200B; 時間インジケーターの展開されたレコードのプレビューボックス &#x200B;](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![ 時間インジケーターの展開されたレコードのプレビューボックス ](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （任意） **エクスポート** メニュー ![&#x200B; レコードの詳細ページのエクスポートアイコン &#x200B;](assets/export-icon-in-record-details-page.png) をクリックして、レコードの詳細をエクスポートします。 詳しくは、[&#x200B; レコードの詳細の書き出し &#x200B;](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
+1. （任意） **エクスポート** メニュー ![ レコードの詳細ページのエクスポートアイコン ](assets/export-icon-in-record-details-page.png) をクリックして、レコードの詳細をエクスポートします。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
-1. （オプション）レコードのプレビューの右上隅にある **新しいタブで開く** アイコン ![&#x200B; 新しいタブで詳細を開く &#x200B;](assets/open-details-in-a-new-tab-icon.png) アイコン <!--check the icon; they are changing it--> 新しいタブでレコードのページを開く）をクリックします。 この記事の[レコードのページからレコードを編集](#edit-a-record-from-the-records-page)の節の説明に従って、レコードを引き続き編集します。
+1. （オプション）レコードのプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開く ](assets/open-details-in-a-new-tab-icon.png) アイコン <!--check the icon; they are changing it--> 新しいタブでレコードのページを開く）をクリックします。 この記事の[レコードのページからレコードを編集](#edit-a-record-from-the-records-page)の節の説明に従って、レコードを引き続き編集します。
 
 ### レコードのページからレコードを編集
 
@@ -323,15 +355,15 @@ ht-degree: 36%
 
 1. 次のいずれかの操作を行います。
 
-   * この記事の「[&#x200B; レコードのプレビューからレコードを編集する &#x200B;](#edit-a-record-from-the-records-preview-in-a-view)」の説明に従って、任意の表示からレコードのプレビューにアクセスし、レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![&#x200B; 新しいタブで詳細を開く &#x200B;](assets/open-details-in-a-new-tab-icon.png) アイコン <!--check the icon; they are changing it--> をクリックして、レコードのページを新しいタブで開きます。
+   * この記事の「[ レコードのプレビューからレコードを編集する ](#edit-a-record-from-the-records-preview-in-a-view)」の説明に従って、任意の表示からレコードのプレビューにアクセスし、レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開く ](assets/open-details-in-a-new-tab-icon.png) アイコン <!--check the icon; they are changing it--> をクリックして、レコードのページを新しいタブで開きます。
 
-   * **テーブル** ビューで、レコードの名前にポインタを合わせ、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**表示** をクリックします
+   * **テーブル** ビューで、レコードの名前にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**表示** をクリックします
 
-     ![&#x200B; レコード行のコンテキストメニュー &#x200B;](assets/contextual-menu-for-record-row.png)
+     ![ レコード行のコンテキストメニュー ](assets/contextual-menu-for-record-row.png)
 
      レコードページが開きます。
 
-     ![&#x200B; 詳細ページ &#x200B;](assets/details-page.png)
+     ![ 詳細ページ ](assets/details-page.png)
 
 1. （オプション）レコードのタイトルの右側にある **詳細** メニューをクリックし、「名前を変更 **をクリックし** す。 これにより、レコードのタイトルとして表示されるフィールドが更新されます。
 
@@ -351,34 +383,32 @@ ht-degree: 36%
 
    または
 
-   既存のカバー画像にポインタを合わせ、**その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png)/**アップロード** をクリックして、レコードの新しいカバー画像を追加します。
+   既存のカバー画像にポインタを合わせ、**その他** メニュー ![ その他メニュー ](assets/more-menu.png)/**アップロード** をクリックして、レコードの新しいカバー画像を追加します。
 
-   詳細については、[&#x200B; レコードにカバー画像を追加する &#x200B;](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) を参照してください。
+   詳細については、[ レコードにカバー画像を追加する ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) を参照してください。
 
-1. （オプション）既存のサムネールまたは **サムネールアイコン**![&#x200B; 詳細ページでサムネールアイコンを記録 &#x200B;](assets/record-thumbnail-icon-on-details-page.png) にポインタを合わせ、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png)/**サムネールを編集** をクリックして、レコードのサムネールを追加します。
+1. （オプション）既存のサムネールまたは **サムネールアイコン**![ 詳細ページでサムネールアイコンを記録 ](assets/record-thumbnail-icon-on-details-page.png) にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png)/**サムネールを編集** をクリックして、レコードのサムネールを追加します。
 
-   詳しくは、[&#x200B; レコードへのサムネールの追加 &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
+   詳しくは、[ レコードへのサムネールの追加 ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
 
    Workfront では、変更を自動的に保存します。
 
-1. （任意）レコードのページの右上隅にある **リアルタイムインジケーター**![&#x200B; リアルタイムインジケーターアイコン &#x200B;](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
+1. （任意）レコードのページの右上隅にある **リアルタイムインジケーター**![ リアルタイムインジケーターアイコン ](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
 
    レコードに同時にアクセスするすべてのユーザーの名前とアバターがこの領域に表示されます。
 
    この設定を無効にすると、アバターと名前はリアルタイムインジケーター領域にリストされ、編集中のフィールドはハイライト表示されません。
 
-   ![&#x200B; リアルタイムインジケーターの展開されたレコードのプレビューボックス &#x200B;](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![ リアルタイムインジケーターの展開されたレコードのプレビューボックス ](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （任意） **エクスポート** メニュー ![&#x200B; レコードの詳細ページのエクスポートアイコン &#x200B;](assets/export-icon-in-record-details-page.png) をクリックして、レコードの詳細をエクスポートします。 詳しくは、[&#x200B; レコードの詳細の書き出し &#x200B;](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
+1. （任意） **エクスポート** メニュー ![ レコードの詳細ページのエクスポートアイコン ](assets/export-icon-in-record-details-page.png) をクリックして、レコードの詳細をエクスポートします。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
 
 ## 計画セクションのWorkfrontオブジェクトからレコードを編集する
 
 レコードをWorkfront オブジェクトに関連付けた後、オブジェクトの「計画」セクションから、Workfront内のWorkfront計画レコードを編集できます。
 
-詳しくは、[Workfront オブジェクトからのレコード接続の管理 &#x200B;](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
-
-<div class="preview">
+詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
 
 ## 値を更新する際に、単一選択または複数選択のフィールド設定を編集する
 
@@ -394,7 +424,7 @@ ht-degree: 36%
 
 「ステータス」という単一選択フィールドに「新規」および「クローズ」の選択肢があり、「処理中」ステータスの選択肢を追加するとします。 次のいずれかの操作を行って、選択肢を追加できます。
 
-* フィールドを編集しています。 詳しくは、[&#x200B; フィールドの編集 &#x200B;](/help/quicksilver/planning/fields/edit-fields.md) を参照してください。
+* フィールドを編集しています。 詳しくは、[ フィールドの編集 ](/help/quicksilver/planning/fields/edit-fields.md) を参照してください。
 * テーブル表示でレコードを編集する際に、新しいオプションを追加します（下図を参照）。
 
 レコードの編集時に既存の選択フィールドに新しい選択肢を追加するには、次の手順を実行します。
@@ -404,10 +434,9 @@ ht-degree: 36%
 1. フィールドのセルをダブルクリックして、フィールドをインラインで編集し始めます。
 1. 追加する選択肢の名前を入力し、[**選択肢の追加**] をクリックします。
 
-   ![&#x200B; テーブル表示の単一選択フィールドに選択肢を追加 &#x200B;](assets/add-choice-in-table-view-for-single-select-field.png)
+   ![ テーブル表示の単一選択フィールドに選択肢を追加 ](assets/add-choice-in-table-view-for-single-select-field.png)
 
    新しい選択肢が単一選択フィールドにすぐに追加されます。
 
    <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
 
-</div>
