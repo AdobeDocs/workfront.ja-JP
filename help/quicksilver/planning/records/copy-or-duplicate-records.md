@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '503'
 ht-degree: 19%
 
 ---
@@ -41,10 +41,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<ul> 
-<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
-または
-<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
 <p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
@@ -60,7 +57,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -143,13 +140,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. 次のいずれかの操作を行います。
 
-   * レコード名にポインタを合わせ、レコード名とインラインで **詳細** メニューをクリックしてから、**複製** アイコン ![&#x200B; 複製アイコングレー &#x200B;](assets/duplicate-icon-gray.png) をクリックします。
+   * レコード名にポインタを合わせ、レコード名とインラインで **詳細** メニューをクリックしてから、**複製** アイコン ![ 複製アイコングレー ](assets/duplicate-icon-gray.png) をクリックします。
 
-     ![&#x200B; テーブル表示のレコードからの「詳細」メニュー &#x200B;](assets/more-menu-from-record-in-table-view.png)
+     ![ テーブル表示のレコードからの「詳細」メニュー ](assets/more-menu-from-record-in-table-view.png)
 
-   * レコードを選択し、ページ下部のツールバーにある **複製** アイコン ![&#x200B; 白と青の複製アイコン &#x200B;](assets/duplicate-icon-white-and-blue.png) をクリックします。
+   * レコードを選択し、ページ下部のツールバーにある **複製** アイコン ![ 白と青の複製アイコン ](assets/duplicate-icon-white-and-blue.png) をクリックします。
 
-     ![&#x200B; テーブル表示のツールバーの複製アイコン &#x200B;](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![ テーブル表示のツールバーの複製アイコン ](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    元のレコードの下に、同じ名前の同じレコードが作成されます。 新しいレコードのすべてのフィールドには、元のレコードと同じ情報が入力されます。
 
@@ -157,11 +154,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    >[!NOTE]
    >
-   >  * レコードに必須のフィールドはありません。ただし、レコードを相互にリンクするときにレコードを識別すると便利なので、レコードの主フィールドの情報を追加することをお勧めします。 主フィールドについて詳しくは、[&#x200B; テーブル表示の管理 &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) および [プライマリフィールドの概要 &#x200B;](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
+   >  * レコードに必須のフィールドはありません。ただし、レコードを相互にリンクするときにレコードを識別すると便利なので、レコードの主フィールドの情報を追加することをお勧めします。 主フィールドについて詳しくは、[ テーブル表示の管理 ](/help/quicksilver/planning/views/manage-the-table-view.md) および [プライマリフィールドの概要 ](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
    >
    >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
 
-   レコードの編集の詳細については、「[&#x200B; レコードの編集 &#x200B;](/help/quicksilver/planning/records/edit-records.md)」を参照してください。
+   レコードの編集の詳細については、「[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md)」を参照してください。
 
 1. （オプション）テーブル表示で新しいレコードやその情報を追加する際に、それらの追加の取り消しまたはやり直しを行うには、次のキーボードショートカットを使用します。
 

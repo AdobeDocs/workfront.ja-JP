@@ -6,20 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 27%
+source-wordcount: '286'
+ht-degree: 28%
 
 ---
 
 # レコードビューを複製
 
-<!--remove preview and production references-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -48,10 +46,9 @@ ht-degree: 27%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<ul> 
-<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
-または
-<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>任意のWorkfrontと任意の Planning パッケージ</p>
+
+<p>任意のワークフローおよび任意の計画パッケージ</p>
 <p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
@@ -67,7 +64,7 @@ ht-degree: 27%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -141,11 +138,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    レコードタイプ ページが開きます。
 デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. 使用する環境に応じて、次の操作を行います。
+1. 現在のビュー名の横にあるドロップダウンアイコン ![ ドロップダウンアイコン ](assets/drop-down-icon.png) をクリックし、ビューの名前にポインタを合わせて **詳細** をクリックしてから、「複製 **をクリックし** す。
 
-   * 実稼動環境では、「ビュー」タブでビュー名の 1 つにポインタを合わせ、ビュー名の左側にある **詳細**![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**複製**」をクリックします。
-   * <span class="preview"> プレビュー環境で、現在のビュー名の横にあるドロップダウンアイコン ![&#x200B; ドロップダウンアイコン &#x200B;](assets/drop-down-icon.png) 現在のビュー名の上にマウスポインターを置いて、「**詳細**」をクリックし、次に「**複製**」をクリックします。</span>
+   ![ オプション付きビューの詳細メニュー ](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-     ![&#x200B; オプション付きビューの詳細メニュー &#x200B;](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-     ビューが複製され、新しいビューの名前が次のパターンに従います。`Original view's name (Copy)`新しいビュータブは、すべてのビュータブの最後に表示されます。
+   ビューが複製され、新しいビューの名前が次のパターンに従います。`Original view's name (Copy)`新しいビュータブは、すべてのビュータブの最後に表示されます。

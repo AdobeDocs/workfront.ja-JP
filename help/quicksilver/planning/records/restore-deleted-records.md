@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '389'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 Adobe Workfront Planning の「最近削除されたレコード」領域から削除されたレコードを復元できます。
 
-レコードの削除について詳しくは、[&#x200B; レコードの削除 &#x200B;](/help/quicksilver/planning/records/delete-records.md) を参照してください。
+レコードの削除について詳しくは、[ レコードの削除 ](/help/quicksilver/planning/records/delete-records.md) を参照してください。
 
 ## アクセス要件
 
@@ -41,10 +41,7 @@ Adobe Workfront Planning の「最近削除されたレコード」領域から�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<ul> 
-<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
-または
-<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
 <p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
@@ -60,7 +57,7 @@ Adobe Workfront Planning の「最近削除されたレコード」領域から�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -128,7 +125,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 * 削除されたレコードが他のレコードにリンクされている場合、リンクされているレコードは削除されませんが、削除されたレコードの情報も削除されます。 削除したレコードを復元すると、接続されたレコードから情報が復元されます。
 * レコードを一括で復元できます。
 * レコードを削除すると、次の情報が最近削除された bin に格納されます。
-   * **名前**：これは、レコードのプライマリフィールド内の情報です。 レコードプライマリフィールドについて詳しくは、[プライマリフィールドの概要 &#x200B;](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
+   * **名前**：これは、レコードのプライマリフィールド内の情報です。 レコードプライマリフィールドについて詳しくは、[プライマリフィールドの概要 ](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
    * **削除日**：レコードが削除された日時。
    * **最近削除された時間**: レコードが削除されてからの時間。 現在の日付より 30 日以上前に削除されたレコードは、「最近削除された項目」ビンに表示されません。
    * **削除者**: レコードを削除したユーザーの名前。
@@ -136,11 +133,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 ## 削除されたレコードを復元
 
 1. レコードを削除したレコードタイプ ページに移動します。
-1. 任意のレコードタイプのページビューの右上隅にある **取り消し** アイコン ![&#x200B; 取り消しアイコン &#x200B;](assets/undo-icon.png) をクリックしてから、**最近削除された項目** をクリックします。
+1. 任意のレコードタイプのページビューの右上隅にある **取り消し** アイコン ![ 取り消しアイコン ](assets/undo-icon.png) をクリックしてから、**最近削除された項目** をクリックします。
 
    **最近削除された項目** ボックスが表示されます。
 
-   ![&#x200B; 最近削除されたボックス &#x200B;](assets/recently-deleted-box.png)
+   ![ 最近削除されたボックス ](assets/recently-deleted-box.png)
 
 1. 削除するレコードを選択し、**復元**/**復元** をクリックします。 複数のレコードを選択できます。
 

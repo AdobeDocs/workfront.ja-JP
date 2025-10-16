@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1602'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ Workfront Planning のレコードタイプのページで自動処理を設定�
 
 ここでは、自動化を管理する方法（オブジェクトとレコードを作成するために自動化を編集、無効化、削除、トリガーする方法など）について説明します。
 
-既存の自動化を使用してレコードまたはオブジェクトを作成する方法については、[Adobe Workfront Planning のレコード自動化を使用したオブジェクトの作成 &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
+既存の自動化を使用してレコードまたはオブジェクトを作成する方法については、[Adobe Workfront Planning のレコード自動化を使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
 
 ## アクセス要件
 
@@ -53,10 +53,7 @@ Workfront Planning のレコードタイプのページで自動処理を設定�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<ul> 
-<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
-または
-<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
 <p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
@@ -73,7 +70,7 @@ Workfront Planning のレコードタイプのページで自動処理を設定�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -145,7 +142,7 @@ Workfront Planning を使用してオブジェクトを作成する前に、レ�
 1. レコードの種類カードをクリックし、レコードの名前をクリックします。
 
    レコードタイプのページが開きます。
-1. レコードタイプ名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックし、**自動化の管理** をクリックします。
+1. レコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**自動化の管理** をクリックします。
 
    選択したレコードタイプで使用可能な自動化のリストが開きます。
 
@@ -230,7 +227,7 @@ Workfront Planning を使用してオブジェクトを作成する前に、レ�
 1. （オプションおよび条件付き）レコードの作成を選択した場合は、「**フィールドの追加** をクリックして、追加の参照フィールドをレコード間でマッピングします。
 1. （条件付き）元のレコードタイプと、「**レコードタイプ**」フィールドで選択されたレコードタイプの間に接続フィールドがない場合は、「**接続されたフィールドを追加**」をクリックします。
 
-   ![&#x200B; レコードを作成するための自動化設定 &#x200B;](assets/automation-setup-create-record.png)
+   ![ レコードを作成するための自動化設定 ](assets/automation-setup-create-record.png)
 
    次の 2 つのフィールドが作成されます。
 
@@ -244,7 +241,7 @@ Workfront Planning を使用してオブジェクトを作成する前に、レ�
 
 1. （オプション）元のレコードタイプと「アクション」領域で選択したWorkfront オブジェクトとの間に接続フィールドがない場合は、「**接続フィールドを追加**」をクリックします。
 
-   ![&#x200B; 複数のプロジェクトを作成するための自動化設定 &#x200B;](assets/automation-setup-create-multiple-projects.png)
+   ![ 複数のプロジェクトを作成するための自動化設定 ](assets/automation-setup-create-multiple-projects.png)
 
    以下が作成されます。
 
@@ -262,17 +259,17 @@ Workfront Planning を使用してオブジェクトを作成する前に、レ�
 1. レコードの種類カードをクリックし、レコードの名前をクリックします。
 
    レコードタイプのページが開きます。
-1. レコードタイプ名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックし、**自動化の管理** をクリックします。
+1. レコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**自動化の管理** をクリックします。
 
    選択したレコードタイプで使用可能な自動化のリストが開きます。
 
 1. （オプション）オートメーションを編集、無効化、または削除するには、次のいずれかの操作を行います。
 
-   1. オートメーションのリストで、保存されているオートメーションの名前にポインタを合わせ、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックします。
+   1. オートメーションのリストで、保存されているオートメーションの名前にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします。
 
    1. **編集** をクリックして、次の情報を更新します。
 
-      * オートメーション名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**編集** をクリックしてオートメーションの名前を変更します。
+      * オートメーション名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックしてオートメーションの名前を変更します。
       * **アクション** フィールドを除く、自動処理のすべてのフィールド。
 
         >[!TIP]
@@ -284,7 +281,7 @@ Workfront Planning を使用してオブジェクトを作成する前に、レ�
 
       無効な自動処理を使用して作成されたレコードは、最初に選択されたレコードに接続されたままになります。
 
-      再び使用できるようにするには、**その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) を再度クリックし、**アクティブ化** をクリックします。
+      再び使用できるようにするには、**その他** メニュー ![ その他のメニュー ](assets/more-menu.png) を再度クリックし、**アクティブ化** をクリックします。
    1. **削除** をクリックして、自動処理を削除します。 削除されたオートメーションは復元できません。
 
       削除された自動処理を使用して作成されたレコードは、最初に選択されたレコードに接続されたままになります。

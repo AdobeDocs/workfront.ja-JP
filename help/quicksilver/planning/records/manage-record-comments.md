@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '874'
 ht-degree: 50%
 
 ---
@@ -44,10 +44,7 @@ ht-degree: 50%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<ul> 
-<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
-または
-<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
 <p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
@@ -70,7 +67,7 @@ ht-degree: 50%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++  
 
@@ -158,7 +155,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
   >[!NOTE]
   >
-  >   Adobe統合エクスペリエンスにオンボーディングしたユーザーのユーザーのみが、アプリ内通知とメール通知の両方を受け取ります。 会社がAdobe統合エクスペリエンスを使用しているかどうかを判断するには、[WorkfrontのAdobe統合エクスペリエンス &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+  >   Adobe統合エクスペリエンスにオンボーディングしたユーザーのユーザーのみが、アプリ内通知とメール通知の両方を受け取ります。 会社がAdobe統合エクスペリエンスを使用しているかどうかを判断するには、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
 * Workfront Planning の次のエリアから、レコードに更新を追加したり、変更履歴を確認したりできます。
 
@@ -181,11 +178,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    レコードの&#x200B;**詳細**&#x200B;ページが開きます。デフォルトではコメントエリアが右側のパネルに開きます。
 
-1. （条件付き）デフォルトで右側のパネルが開かない場合は、右上隅にある **コメントを表示**![&#x200B; コメントを表示アイコン &#x200B;](assets/show-comments-icon.png) アイコンをクリックして、「コメント」セクションを開きます。
+1. （条件付き）デフォルトで右側のパネルが開かない場合は、右上隅にある **コメントを表示**![ コメントを表示アイコン ](assets/show-comments-icon.png) アイコンをクリックして、「コメント」セクションを開きます。
 
 1. **新しいコメント**&#x200B;ボックスにコメントを入力します。
 
-   ![&#x200B; レコードのコメントボックスを空にする &#x200B;](assets/empty-comment-box-on-record.png)
+   ![ レコードのコメントボックスを空にする ](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
@@ -194,7 +191,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. （オプション）変更の取り消しまたはやり直しを行うには、以下のショートカットキーを使用します。
    * Ctrl + Z （Macの場合は ⌘ + Z）
    * Ctrl + Y （Macの場合は ⌘ + Y）で、変更をやり直します
-1. （オプションおよび条件付き）Workfront インスタンスがAdobe統合エクスペリエンスの一部である場合は、**@** に続けてユーザー名またはチーム名を追加して、更新でタグ付けします。 詳細については、この記事の [&#x200B; レコードにコメントする場合の考慮事項 &#x200B;](#considerations-about-commenting-on-a-record) を参照してください。
+1. （オプションおよび条件付き）Workfront インスタンスがAdobe統合エクスペリエンスの一部である場合は、**@** に続けてユーザー名またはチーム名を追加して、更新でタグ付けします。 詳細については、この記事の [ レコードにコメントする場合の考慮事項 ](#considerations-about-commenting-on-a-record) を参照してください。
 
 1. （オプション） リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字または更新へのリンクの追加を行い、コンテンツを充実させます。
 
@@ -205,10 +202,10 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. 引き続きレコードにコメントを追加します。
 
-   Workfront Planning レコードを含むオブジェクトの更新の詳細は、[&#x200B; 作業の更新 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
+   Workfront Planning レコードを含むオブジェクトの更新の詳細は、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 
-1. （オプション）コメントの右上隅にある **その他** アイコン ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、**削除** をクリックしてコメントを削除します。
-1. （オプション） **コメントを非表示** アイコン ![&#x200B; コメントを非表示アイコン &#x200B;](assets/hide-comments-icon.png) をクリックして、右側のパネルを閉じます。
+1. （オプション）コメントの右上隅にある **その他** アイコン ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックしてコメントを削除します。
+1. （オプション） **コメントを非表示** アイコン ![ コメントを非表示アイコン ](assets/hide-comments-icon.png) をクリックして、右側のパネルを閉じます。
 
 <!--
       >[!TIP]

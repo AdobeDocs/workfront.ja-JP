@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 19%
+source-wordcount: '222'
+ht-degree: 18%
 
 ---
 
 # レコードビューを削除
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -42,11 +42,10 @@ Adobe Workfront Planning で使用しなくなったレコードビューを削�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<ul> 
-<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
-または
-<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+   <p>任意のWorkfrontと任意の Planning パッケージ</p>
+
+<p>任意のワークフローおよび任意の計画パッケージ</p>
+   <p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
@@ -61,7 +60,7 @@ Adobe Workfront Planning で使用しなくなったレコードビューを削�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -139,20 +138,10 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
 
-1. ビューのタブで、次のいずれかの操作を行います。
+1. ビューのタブから、ビューのタブをクリックし、ドロップダウンメニューのビューにポインタを合わせて、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックしてください。</span>
 
-   * ビューにアクセスする環境に応じて、次の操作を行います。
+   ![ オプション付きのその他メニュー ](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-      * 実稼動環境で、共有するビューのタブ名にポインタを合わせ、ビュー名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**削除** をクリックします。
-
-     >[!TIP]
-     >
-     >最後のタブの右側にある **その他** をクリックして、削除するビューを見つける必要がある場合があります。
-
-      * <span class="preview"> プレビュー環境で、ビューのタブをクリックし、ドロップダウンメニューのビューにカーソルを置いて **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックし、**削除** をクリックします。</span>
-
-     ![&#x200B; オプション付きのその他メニュー &#x200B;](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-1. 「**削除**」をクリックして確定します。 <!--ensure there is not another saving step here?!-->
+1. 「**削除**」をクリックして確定します。
 
    レコード エリアにアクセスできるすべてのユーザーに対して、ビューが削除されます。

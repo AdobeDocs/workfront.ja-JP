@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '433'
 ht-degree: 5%
 
 ---
@@ -38,10 +38,7 @@ Workfront アカウントを持っていない他のユーザーとのより効�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<ul> 
-<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
-または
-<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
 <p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
@@ -64,7 +61,7 @@ Workfront アカウントを持っていない他のユーザーとのより効�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++  
 
@@ -155,11 +152,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    レコードのプレビューボックスが開きます。
 
-1. （オプション） **新しいタブで開く** アイコン ![&#x200B; 詳細を新しいタブアイコンで開く &#x200B;](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを開きます。
+1. （オプション） **新しいタブで開く** アイコン ![ 詳細を新しいタブアイコンで開く ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを開きます。
 
 1. 「**詳細**」タブを選択します。 「詳細」タブは、デフォルトで開きます。
 
-1. プレビューまたはレコードのページで、**書き出し** メニュー ![&#x200B; レコードの詳細ページの書き出しアイコン &#x200B;](assets/export-icon-in-record-details-page.png) をクリックし、次のいずれかをクリックします。
+1. プレビューまたはレコードのページで、**書き出し** メニュー ![ レコードの詳細ページの書き出しアイコン ](assets/export-icon-in-record-details-page.png) をクリックし、次のいずれかをクリックします。
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -168,7 +165,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    書き出されるファイルの名前は、レコードのプライマリフィールドです。
 
-   ![&#x200B; 書き出された word ファイル &#x200B;](assets/exported-word-file.png)
+   ![ 書き出された word ファイル ](assets/exported-word-file.png)
 
    >[!NOTE]
    >

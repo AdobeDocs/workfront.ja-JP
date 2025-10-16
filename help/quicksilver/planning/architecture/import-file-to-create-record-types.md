@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 33%
+source-wordcount: '796'
+ht-degree: 32%
 
 ---
 
 # CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -58,7 +58,7 @@ ht-degree: 33%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -140,7 +140,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * 数式フィールド
    * 作成日、作成者
    * 最終変更日、最終変更者
-   * <span class="preview"> 承認日、承認者 </span>
+   * 承認日、承認者
    * ユーザー
 
 Excel または CSV ファイルを使用してレコードタイプを読み込むには：
@@ -163,7 +163,7 @@ Excel または CSV ファイルを使用してレコードタイプを読み込
    * 最初のシートまたはレコードタイプが選択され、関連付けられたフィールド名が列ヘッダーとして表示されます。各フィールドのタイプは、デフォルトで選択されています。
    * 各行は新しいレコードを表します。「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
 
-   ![&#x200B; プレビューと編集ボックス &#x200B;](assets/preview-and-edit-box.png)
+   ![ プレビューと編集ボックス ](assets/preview-and-edit-box.png)
 
 1. （オプション）左パネルの各シート名をクリックすると、シートに含まれる情報を確認できます。
 
@@ -173,13 +173,13 @@ Excel または CSV ファイルを使用してレコードタイプを読み込
 
 1. （オプション）左側のパネルから読み込まないシートの選択を解除します。
 
-   ![&#x200B; 読み込むシートを選択ドロップダウン（未選択 &#x200B;](assets/select-sheets-to-import-drop-down-with-unselected.png)
+   ![ 読み込むシートを選択ドロップダウン（未選択 ](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
    選択を解除したシートは、グレーの背景で表示されます。
 
 1. （オプション）列ヘッダーの右側にある下向き矢印をクリックして、「**フィールド**」タブで次のいずれかの操作を行います。
 
-   ![&#x200B; レコードタイプマッピングのインポートボックスの「フィールド」タブ &#x200B;](assets/field-tab-on-record-type-import-mapping-box.png)
+   ![ レコードタイプマッピングのインポートボックスの「フィールド」タブ ](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * いずれかのフィールドの名前を変更する
    * **フィールドタイプ** を変更する
@@ -187,11 +187,11 @@ Excel または CSV ファイルを使用してレコードタイプを読み込
 
 1. （オプション）「**接続**」タブをクリックして、列内の情報を他のレコードタイプの接続されたフィールドにマッピングします。
 
-   ![&#x200B; レコードタイプの読み込みマッピングボックスの「接続」タブ &#x200B;](assets/connection-tab-on-record-type-import-mapping-box.png)
+   ![ レコードタイプの読み込みマッピングボックスの「接続」タブ ](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >
-   >マッピングできるのは、Workfront Planning に接続されたレコードのフィールドのみです。 WorkfrontまたはAEM Assets Connections からフィールドにマッピングすることはできません。 詳しくは、この記事の「[Excel または CSV ファイルを使用したレコードタイプの読み込みに関する考慮事項 &#x200B;](#considerations-about-importing-record-types-using-an-excel-or-csv-file) の節を参照してください。
+   >マッピングできるのは、Workfront Planning に接続されたレコードのフィールドのみです。 WorkfrontまたはAEM Assets Connections からフィールドにマッピングすることはできません。 詳しくは、この記事の「[Excel または CSV ファイルを使用したレコードタイプの読み込みに関する考慮事項 ](#considerations-about-importing-record-types-using-an-excel-or-csv-file) の節を参照してください。
 
 1. （任意）フィールドに関する情報を更新したら、「**保存**」をクリックします。
 
