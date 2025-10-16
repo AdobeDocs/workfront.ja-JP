@@ -25,7 +25,7 @@ ht-degree: 30%
 
 数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
-詳しくは、「フィールドの作成 [ の「式」の節を参照してくだ ](/help/quicksilver/planning/fields/create-fields.md) い。
+詳しくは、「フィールドの作成 [&#x200B; の「式」の節を参照してくだ &#x200B;](/help/quicksilver/planning/fields/create-fields.md) い。
 
 ## アクセス要件
 
@@ -62,7 +62,7 @@ ht-degree: 30%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -143,7 +143,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * タグ
    * 日付
 
-  詳しくは、「フィールドの作成 [ の「式」の節を参照してくだ ](/help/quicksilver/planning/fields/create-fields.md) い。
+  詳しくは、「フィールドの作成 [&#x200B; の「式」の節を参照してくだ &#x200B;](/help/quicksilver/planning/fields/create-fields.md) い。
 * 新しい数式で数式フィールドを参照できます。 式フィールドで参照されているフィールドの値が更新されると、そのフィールドまたはそのフィールドを含む式フィールドを参照している後続のすべてのフィールドは、自動的に更新されます。
 
 <div class="preview">
@@ -195,7 +195,7 @@ Adobe Workfront Planning の数式フィールドは、Workfrontの計算フィ�
 
 <!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
-Workfront式の完全なリストについては、[ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
+Workfront式の完全なリストについては、[&#x200B; 計算データ式の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
 
 また、Workfront Planning の数式フィールドでは、以下の式をサポートしています。 次の式は、Workfrontの式ではサポートされていません。
 

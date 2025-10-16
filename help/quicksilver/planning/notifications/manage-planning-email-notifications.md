@@ -26,11 +26,11 @@ ht-degree: 5%
 
 * 誰かがあなたまたはチームをレコードコメントでタグ付けします
 
-  レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
+  レコードコメント内の他のタグ付けについて詳しくは、[&#x200B; レコードコメントの管理 &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
 * 他のユーザーから、ビューまたはワークスペースにアクセスする許可を要求されています
 * ビューまたはワークスペース <!--Isk confirmed that there is nno email for denying access but did not test--> ーバーへのアクセスが許可されたことを確認するメッセージが表示されます
-* Workfront Planning の要求を発行します。 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください
-* 送信されたWorkfront Planning 要求が誰かに承認または拒否されています。 詳しくは、[Adobe Workfront Planning でリクエストを承認 ](/help/quicksilver/planning/requests/approve-request.md) を参照してください
+* Workfront Planning の要求を発行します。 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください
+* 送信されたWorkfront Planning 要求が誰かに承認または拒否されています。 詳しくは、[Adobe Workfront Planning でリクエストを承認 &#x200B;](/help/quicksilver/planning/requests/approve-request.md) を参照してください
 * ステータスが、送信したWorkfront計画リクエストに変わります。
 
 ## アクセス要件
@@ -74,7 +74,7 @@ ht-degree: 5%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -152,7 +152,7 @@ OLD:
 
 1. （条件付きおよびオプション）誰かがレコードのコメントで自分または自分のチームにタグを付けた後、タグとコメントを通知するメール通知に移動します。 メールの送信者はAdobe Experience Cloudです。
 
-   ![ メール通知の例 ](assets/email-notification-example.png)
+   ![&#x200B; メール通知の例 &#x200B;](assets/email-notification-example.png)
 
 1. （任意）メール内の **Workfront** ボックスのメッセージをクリックします。
 
@@ -173,9 +173,9 @@ OLD:
 **通知** ページがAdobe Experience Cloudで開きます。 すべてのAdobe Experience Cloud アプリケーションからのすべての通知が表示されます。
 
 
-ビューまたはワークスペースに対する権限の要求、付与、または拒否の詳細については、[ ビューまたはワークスペースに対する権限の要求 ](/help/quicksilver/planning/access/request-permissions.md) を参照してください。
+ビューまたはワークスペースに対する権限の要求、付与、または拒否の詳細については、[&#x200B; ビューまたはワークスペースに対する権限の要求 &#x200B;](/help/quicksilver/planning/access/request-permissions.md) を参照してください。
 
-Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 ](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。
+Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 &#x200B;](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。
 
 ## Workfront Planning 要求の送信、承認または拒否に関する電子メール通知の管理
 
@@ -184,6 +184,6 @@ Adobe Workfront Planning 通知の管理については、[Workfront Planning �
 
 1. （任意）「**リクエストを開く**」をクリックします。 これにより、Workfront Planning でリクエストが開きます。
 
-1. 画面の右上隅にある「**通知**」アイコン ![ 通知領域アイコン Unified Shell](assets/notifications-area-icon-unified-shell.png) をクリックして、**通知** ページにアクセスします。
+1. 画面の右上隅にある「**通知**」アイコン ![&#x200B; 通知領域アイコン Unified Shell](assets/notifications-area-icon-unified-shell.png) をクリックして、**通知** ページにアクセスします。
 
-   Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 ](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。
+   Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 &#x200B;](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。

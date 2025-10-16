@@ -24,7 +24,7 @@ ht-degree: 11%
 
 レコードの編集時に、Adobe Workfront Planning のレコード・ページに表紙を追加することで、レコードをパーソナライズできます。
 
-レコードの編集方法については、「[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md)」を参照してください。
+レコードの編集方法については、「[&#x200B; レコードの編集 &#x200B;](/help/quicksilver/planning/records/edit-records.md)」を参照してください。
 
 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 
@@ -65,7 +65,7 @@ ht-degree: 11%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -163,46 +163,46 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    または
 
-   テーブルビューで、最初の列の **詳細を開く** アイコン ![ 詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。
+   テーブルビューで、最初の列の **詳細を開く** アイコン ![&#x200B; 詳細を開くアイコン &#x200B;](assets/open-details-icon-in-table-name-field.png) をクリックします。
 
    レコードのプレビューがビューで開きます。
 
-   ![ 詳細プレビューボックス ](assets/details-box.png)
+   ![&#x200B; 詳細プレビューボックス &#x200B;](assets/details-box.png)
 
 
-1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで開く ](assets/open-details-in-a-new-tab-icon.png) アイコン <!--check the icon; they are changing it--> 新しいタブでレコードのページを開く）をクリックします。
+1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![&#x200B; 新しいタブで開く &#x200B;](assets/open-details-in-a-new-tab-icon.png) アイコン <!--check the icon; they are changing it--> 新しいタブでレコードのページを開く）をクリックします。
 
    レコードページが開きます。
 
-   ![ 詳細ページ ](assets/details-page.png)
+   ![&#x200B; 詳細ページ &#x200B;](assets/details-page.png)
 
 1. レコードのプレビューまたは詳細ページで、レコード名の上のスペースにマウスポインターを置いて、「**カバーを追加**」をクリックします。
 
    または
 
-   既存のカバー画像にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**アップロード** をクリックしてください。 <!--check the casing here; I logged a bug for this-->
+   既存のカバー画像にポインタを合わせ、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**アップロード** をクリックしてください。 <!--check the casing here; I logged a bug for this-->
 **レコードカバー** ボックスが **アップロード** タブで開きます。
 
-   ![ アップロード用のレコードカバーボックス ](assets/record-cover-box-for-upload.png)
+   ![&#x200B; アップロード用のレコードカバーボックス &#x200B;](assets/record-cover-box-for-upload.png)
 
 1. **画像を参照** をクリックし、コンピューター上の画像を参照して選択して追加します。
 
-1. （任意）保存前に画像を削除するには、**新しい画像をアップロード** アイコン ![ 新しい画像をアップロード アイコン ](assets/upload-new-image-icon.png) をクリックして、新しい画像をアップロードします。
+1. （任意）保存前に画像を削除するには、**新しい画像をアップロード** アイコン ![&#x200B; 新しい画像をアップロード アイコン &#x200B;](assets/upload-new-image-icon.png) をクリックして、新しい画像をアップロードします。
 
 1. （オプション）「**ギャラリー**」タブをクリックして、画像ギャラリー内の画像をクリックします。 画像ギャラリーは変更できません。
 
-   ![ ギャラリー用カバーボックスの記録 ](assets/record-cover-box-for-gallery.png)
+   ![&#x200B; ギャラリー用カバーボックスの記録 &#x200B;](assets/record-cover-box-for-gallery.png)
 
 1. **画像を使用** をクリックします。
 
    画像はレコードのプレビューページまたは詳細ページの上部にアップロードされ、変更は自動的に保存されます。
 
-   ![ 表紙付きレコードページ ](assets/record-page-with-cover-image.png)
+   ![&#x200B; 表紙付きレコードページ &#x200B;](assets/record-page-with-cover-image.png)
 
-1. （オプション）画像の上にマウスポインターを置き、カバー画像の右下隅にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、次のいずれかの操作を行います。
+1. （オプション）画像の上にマウスポインターを置き、カバー画像の右下隅にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、次のいずれかの操作を行います。
 
    * カバー画像を置き換える場合は **アップロード** をクリックし、手順 6 を繰り返して新しい画像をアップロードして保存します。
-   * **再配置** をクリックし、**再配置** ツール ![ 再配置ツールアイコン ](assets/reposition-tool-icon.png) を使用してカバー画像を中央に配置し、完了したら **保存** をクリックします。
+   * **再配置** をクリックし、**再配置** ツール ![&#x200B; 再配置ツールアイコン &#x200B;](assets/reposition-tool-icon.png) を使用してカバー画像を中央に配置し、完了したら **保存** をクリックします。
    * **削除** をクリックして、カバー画像を削除します。
 
    Workfront では、変更を自動的に保存します。

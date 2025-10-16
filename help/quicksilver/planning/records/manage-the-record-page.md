@@ -28,7 +28,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 レコードのプレビューおよびページのレイアウトを変更すると、同じ種類のすべてのレコードのプレビューボックスおよび詳細ページに変更が反映されます。
 
-ここでは、レコードのプレビューボックスまたはレコード ページのレイアウトと外観を変更する方法について説明します。 レコードの編集方法については、「[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md)」を参照してください。
+ここでは、レコードのプレビューボックスまたはレコード ページのレイアウトと外観を変更する方法について説明します。 レコードの編集方法については、「[&#x200B; レコードの編集 &#x200B;](/help/quicksilver/planning/records/edit-records.md)」を参照してください。
 
 レコードページの編集を開始する前に、レコードタイプとレコードを作成する必要があります。
 
@@ -75,7 +75,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -158,7 +158,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * レコードのプレビューで行った表示の変更は、レコードの詳細ページにすぐに表示されます。 レコードページで加えた変更は、レコードプレビューボックスにも表示されます。
 
-* レコードにカバー画像またはサムネールを追加することが、レコードのプレビューまたはページの全体的なレイアウトの一部ではない。 各レコードに一意のカバー画像またはサムネールを追加できます。 詳しくは、[ レコードへのカバー画像の追加 ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) および [ レコードへのサムネールの追加 ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
+* レコードにカバー画像またはサムネールを追加することが、レコードのプレビューまたはページの全体的なレイアウトの一部ではない。 各レコードに一意のカバー画像またはサムネールを追加できます。 詳しくは、[&#x200B; レコードへのカバー画像の追加 &#x200B;](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) および [&#x200B; レコードへのサムネールの追加 &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
 
 ## レコードのプレビューまたはページへのセクションの追加
 
@@ -166,7 +166,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * ページ上に配置できるセクションの数に制限はありません。
 * 空のセクションを指定することはできません。 セクションに少なくとも 1 つのフィールドが必要です。
-* あるセクションから別のセクションにフィールドをドラッグ&amp;ドロップできます。 詳しくは、この記事の「レコードのプレビューまたは詳細ページのフィールドを並べ替える [ を参照し ](#rearrange-fields-in-the-record-preview-or-details-page) ください。
+* あるセクションから別のセクションにフィールドをドラッグ&amp;ドロップできます。 詳しくは、この記事の「レコードのプレビューまたは詳細ページのフィールドを並べ替える [&#x200B; を参照し &#x200B;](#rearrange-fields-in-the-record-preview-or-details-page) ください。
 * セクションからすべてのフィールドを削除すると、そのセクションは自動的に削除され、元に戻すことはできません。
 
 レコードのプレビューまたはページにセクションを追加するには：
@@ -185,25 +185,25 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    または
 
-   テーブルビューで、最初の列の **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。
+   テーブルビューで、最初の列の **詳細を開く** アイコン ![&#x200B; テーブル名フィールドで詳細を開くアイコン &#x200B;](assets/open-details-icon-in-table-name-field.png) をクリックします。
 
    レコードのプレビューがビューで開きます。
 
-   ![ 詳細ボックス ](assets/details-box.png)
+   ![&#x200B; 詳細ボックス &#x200B;](assets/details-box.png)
 
-1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) 新しいタブでレコードのページを開く）をクリックします。
+1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![&#x200B; 新しいタブで詳細を開くアイコン &#x200B;](assets/open-details-in-a-new-tab-icon.png) 新しいタブでレコードのページを開く）をクリックします。
 
    レコードページが開きます。 「詳細」タブがデフォルトで開きます。
 
-   ![ 詳細ページ ](assets/details-page.png)
+   ![&#x200B; 詳細ページ &#x200B;](assets/details-page.png)
 
-1. レコードのプレビューまたはページの「**詳細**」タブで、フィールドの左側の空白にマウスポインターを置き、「**セクションを追加** アイコン ![ セクションを追加アイコン ](assets/add-section-icon.png) をクリックして、セクションを追加します。
+1. レコードのプレビューまたはページの「**詳細**」タブで、フィールドの左側の空白にマウスポインターを置き、「**セクションを追加** アイコン ![&#x200B; セクションを追加アイコン &#x200B;](assets/add-section-icon.png) をクリックして、セクションを追加します。
 1. セクション名の内側をクリックして **名称未設定セクション** を名前に置き換え、Enter キーを押します。 セクションの下に表示されるフィールドは、自動的に新しいセクションの一部になります。
-1. この記事の「レコードのプレビューまたは詳細ページのフィールドの並べ替え [ の節で説明しているように、新しいセクションへのフィールドのドラッグ&amp;ドロップを開始し ](#rearrange-fields-in-the-record-preview-or-details-page) す。
+1. この記事の「レコードのプレビューまたは詳細ページのフィールドの並べ替え [&#x200B; の節で説明しているように、新しいセクションへのフィールドのドラッグ&amp;ドロップを開始し &#x200B;](#rearrange-fields-in-the-record-preview-or-details-page) す。
 
-1. （オプション）セクションの名前の上にマウスポインターを置いて、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします。
+1. （オプション）セクションの名前の上にマウスポインターを置いて、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックします。
 
-   ![ レコードページのセクションのその他のメニューオプション ](assets/more-menu-options-for-section-on-record-page.png)
+   ![&#x200B; レコードページのセクションのその他のメニューオプション &#x200B;](assets/more-menu-options-for-section-on-record-page.png)
 1. （オプション）次のいずれかの操作を行って、セクションを編集します。
 
    * **名前変更** をクリックして、セクションの名前を変更します
@@ -224,19 +224,19 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. セクション名の左側にある下向き矢印をクリックして折りたたむか、右向き矢印をクリックして展開します。
 デフォルトでは、すべてのセクションが展開されます。
 
-1. （オプション）セクション名の左側にある **グラブ** アイコン ![ グラブアイコン ](assets/grab-icon.png) をクリックし、目的の場所にドラッグ&amp;ドロップします。
+1. （オプション）セクション名の左側にある **グラブ** アイコン ![&#x200B; グラブアイコン &#x200B;](assets/grab-icon.png) をクリックし、目的の場所にドラッグ&amp;ドロップします。
 
    レコードを表示するすべてのユーザーに対して、同じタイプのすべてのレコードのプレビューとページの両方で、セクションの新しい位置が更新されます。
 
    セクションとフィールドの順序に対するすべての変更は、自動的に保存されます。
 
-1. （オプション） **エクスポート** メニュー ![ レコードの詳細ページのエクスポートアイコン ](assets/export-icon-in-record-details-page.png) をクリックして、「詳細」タブを Word またはPDF ファイルにエクスポートします。 詳しくは、[ レコードの詳細のエクスポート ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
+1. （オプション） **エクスポート** メニュー ![&#x200B; レコードの詳細ページのエクスポートアイコン &#x200B;](assets/export-icon-in-record-details-page.png) をクリックして、「詳細」タブを Word またはPDF ファイルにエクスポートします。 詳しくは、[&#x200B; レコードの詳細のエクスポート &#x200B;](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
 1. （オプション）「**詳細**」タブの横にある「**接続**」タブをクリックします。 場合によっては、[**接続**] タブをクリックする前に **詳細** をクリックする必要があります。
 
    選択したレコードに接続されているすべてのレコードまたはオブジェクトが、レコードタイプの名前または属するアプリケーションの名前の下に表示されます。
 
-   ![Workfront Planning のレコードの「接続」タブ ](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Workfront Planning のレコードの「接続」タブ &#x200B;](assets/connections-tab-on-record-in-workfront-planning.png)
 
 1. （オプション）「接続」タブの右上隅にある「**すべてのレコードを表示**」設定を選択します。 接続されているレコードがまだないレコードも含め、すべての接続されているレコードタイプが表示されます。 デフォルトでは、切替スイッチは選択解除されており、接続されたレコードのないレコードタイプは非表示になっています。
 
@@ -264,19 +264,19 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    または
 
-   テーブルビューで、最初の列の **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。
+   テーブルビューで、最初の列の **詳細を開く** アイコン ![&#x200B; テーブル名フィールドで詳細を開くアイコン &#x200B;](assets/open-details-icon-in-table-name-field.png) をクリックします。
 
    レコードのプレビューがビューで開きます。
 
-   ![ 詳細ボックス ](assets/details-box.png)
+   ![&#x200B; 詳細ボックス &#x200B;](assets/details-box.png)
 
-1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブアイコンで詳細ボックスを開く ](assets/open-details-in-a-new-tab-icon.png)<!--check the icon; they are changing it--> をクリックして、レコードのページを新しいタブで開きます。
+1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![&#x200B; 新しいタブアイコンで詳細ボックスを開く &#x200B;](assets/open-details-in-a-new-tab-icon.png)<!--check the icon; they are changing it--> をクリックして、レコードのページを新しいタブで開きます。
 
    レコードの **詳細** タブは、デフォルトで開きます。
 
-   ![ 詳細ページ ](assets/details-page.png)
+   ![&#x200B; 詳細ページ &#x200B;](assets/details-page.png)
 
-1. レコード **詳細** タブで、フィールド名の左側にある **グラブ** アイコン ![ グラブアイコン ](assets/grab-icon.png) をクリックしてから、目的の場所にドラッグ&amp;ドロップします。
+1. レコード **詳細** タブで、フィールド名の左側にある **グラブ** アイコン ![&#x200B; グラブアイコン &#x200B;](assets/grab-icon.png) をクリックしてから、目的の場所にドラッグ&amp;ドロップします。
 
    >[!TIP]
    >
@@ -324,11 +324,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 次のいずれかの領域で **ページを追加** をクリックします。
 
    * <span class="preview"> レコードのプレビューウィンドウ </span>
-   * レコードの詳細ページ。プレビューページの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックします。
+   * レコードの詳細ページ。プレビューページの右上隅にある **新しいタブで開く** アイコン ![&#x200B; 新しいタブで詳細を開くアイコン &#x200B;](assets/open-details-in-a-new-tab-icon.png) をクリックします。
 
    **ページを作成** ボックスが開きます。
 
-   ![ 接続されたレコードを追加ページモーダル ](assets/add-connection-view-page-modal.png)
+   ![&#x200B; 接続されたレコードを追加ページモーダル &#x200B;](assets/add-connection-view-page-modal.png)
 
 1. **ページ名** を追加し、「**接続されたレコードページ**」をクリックしてから、「**作成**」をクリックします。
 
@@ -339,18 +339,18 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    接続されたレコードテーブルの最初の 5 つのフィールドは、デフォルトで表示されます。 デフォルトでは、参照フィールドは表示されません。
 
-   ![ キャンペーンの詳細のオーディエンスに接続されたテーブル表示 ](assets/audience-connected-table-view-under-campaign-details-page.png)
+   ![&#x200B; キャンペーンの詳細のオーディエンスに接続されたテーブル表示 &#x200B;](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. （オプション）接続されたレコードのテーブル表示で、次のいずれかの操作を行います。
 
    * レコードの名前をクリックします。 レコードのページが新しいタブで開きます。
 
-     これにより、レコードのプレビューページが開きます。 右上隅の **新しいタブで開く** アイコン ![ 新しいタブで開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックして、接続されたレコードのページを開きます。
+     これにより、レコードのプレビューページが開きます。 右上隅の **新しいタブで開く** アイコン ![&#x200B; 新しいタブで開くアイコン &#x200B;](assets/open-details-in-a-new-tab-icon.png) をクリックして、接続されたレコードのページを開きます。
 
    * **接続** をクリックしてさらにレコードを接続し、接続ボックスの外側をクリックして接続ボックスを閉じます。 新しいレコードが自動的にテーブルに追加されます。
    * テーブルビュー内で接続されたレコードの情報を編集します。
 
-   * 接続されているレコードの名前にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、次のいずれかのオプションをクリックします。
+   * 接続されているレコードの名前にポインタを合わせ、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、次のいずれかのオプションをクリックします。
       * 表示
       * リンクをコピー
       * サムネールを編集
@@ -364,7 +364,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
       * 複製
       * 削除。 複数のレコードを選択する場合は、「削除」オプションのみを使用できます。
 
-     テーブルビューでのレコードの編集については、[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md) を参照してください。
+     テーブルビューでのレコードの編集については、[&#x200B; レコードの編集 &#x200B;](/help/quicksilver/planning/records/edit-records.md) を参照してください。
 
    * 接続されたレコード ページのテーブル内の任意のレコードをインライン編集します。
 
@@ -378,8 +378,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * <span class="preview"> テーブル内のインライン編集プロジェクト情報。</span>
    * <span class="preview">**新規行** をクリックして、テンプレートを使用せずにプロジェクトを作成します。 新しいプロジェクトは、現在のレコードにすぐに接続されます。</span>
 
-     詳しくは、[ レコードに関連付ける際に、Workfront Planning からWorkfront オブジェクトを作成する ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
-   * <span class="preview"> プロジェクトの上にマウスポインターを置いて **詳細** メニュー [ 詳細メニュー ](assets/more-menu.png) をクリックし、次のいずれかをクリックします。</span>
+     詳しくは、[&#x200B; レコードに関連付ける際に、Workfront Planning からWorkfront オブジェクトを作成する &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
+   * <span class="preview"> プロジェクトの上にマウスポインターを置いて **詳細** メニュー [&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックし、次のいずれかをクリックします。</span>
       * <span class="preview">**削除**：プロジェクトを削除します。 プロジェクトを削除すると、レコードから切断され、Workfrontのごみ箱に移動されます。</span>
       * <span class="preview">**切断**：レコードからプロジェクトを切断します。 プロジェクトの接続を解除すると、プロジェクトとその参照フィールドのすべての値が現在のレコードから削除されます。</span>
 
@@ -387,7 +387,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    または
 
-   タブの名前にポインタを合わせて、**その他** ![ その他メニュー ](assets/more-menu.png) をクリックしてから、**名前を変更** をクリックして、新しい [ 接続されたビュー ] タブに名前を変更します。
+   タブの名前にポインタを合わせて、**その他** ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**名前を変更** をクリックして、新しい [ 接続されたビュー ] タブに名前を変更します。
 1. （オプション）ツールバーの次のビュー要素のいずれかを使用して、テーブルビューを管理します。
 
    * フィルター
@@ -408,7 +408,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * <span class="preview"> プレビュー環境で、接続されたレコードページの右上隅にある **レコードを接続** をクリックして既存のプロジェクトを接続するか、テーブルの下部にある **新しい行** をクリックしてプロジェクトを作成し、自動的に現在のレコードに接続します。</span>
 
    詳しくは、[レコードを接続する](/help/quicksilver/planning/records/connect-records.md)を参照してください。
-1. （オプション）接続されたレコードページのタブの名前にポインタを合わせ、「**詳細**![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、「**削除**」をクリックしてタブを削除します。
+1. （オプション）接続されたレコードページのタブの名前にポインタを合わせ、「**詳細**![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**削除**」をクリックしてタブを削除します。
 
 
 

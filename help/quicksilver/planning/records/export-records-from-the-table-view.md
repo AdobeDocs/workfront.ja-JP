@@ -66,7 +66,7 @@ ht-degree: 3%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -144,13 +144,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. レコードタイプのページに移動し、「テーブル表示」タブをクリックします。
 1. 次のいずれかの操作を行います。
 
-   * テーブルビュータブの名前にカーソルを合わせ、ビュー名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、**エクスポート** をクリックしてください。
+   * テーブルビュータブの名前にカーソルを合わせ、ビュー名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**エクスポート** をクリックしてください。
 
-   ![ ビューの詳細メニュー ](assets/view-more-menu-with-duplicate-option.png)
+   ![&#x200B; ビューの詳細メニュー &#x200B;](assets/view-more-menu-with-duplicate-option.png)
 
    * **共有**/**現在のビューを書き出し** をクリックします。 このオプションは、テーブルビューを表示する場合にのみ使用できます。
 
-   ![ レコードタイプとビュー共有オプションを含む共有ボタン ](assets/share-button-with-record-type-and-view-sharing-options.png)
+   ![&#x200B; レコードタイプとビュー共有オプションを含む共有ボタン &#x200B;](assets/share-button-with-record-type-and-view-sharing-options.png)
 
 1. 次のいずれかの形式を選択します。
 

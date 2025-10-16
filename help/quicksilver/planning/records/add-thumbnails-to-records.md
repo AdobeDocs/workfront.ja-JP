@@ -65,7 +65,7 @@ ht-degree: 27%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -160,9 +160,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    レコードタイプページが開きます。
 1. **表示**&#x200B;ドロップダウンメニューからテーブルビューを選択します。選択したタイプのすべてのレコードがテーブルに表示されます。
-1. プライマリフィールド情報の上にマウスポインターを置き、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**サムネール** をクリックしてください。
+1. プライマリフィールド情報の上にマウスポインターを置き、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**サムネール** をクリックしてください。
 
-   ![ さらに記録メニューが展開されました ](assets/record-more-menu-expanded.png)
+   ![&#x200B; さらに記録メニューが展開されました &#x200B;](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
@@ -170,7 +170,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    「**サムネールを記録** ボックスにデフォルトで **アップロード** タブが開きます。
 
-   サムネールのアップロードについて詳しくは、この記事の [ 詳細ページからレコードにサムネールを追加する ](#add-a-thumbnail-to-a-record-from-the-details-page) の手順 6 から始まる節を参照してください。<!--see if this is accurate-->
+   サムネールのアップロードについて詳しくは、この記事の [&#x200B; 詳細ページからレコードにサムネールを追加する &#x200B;](#add-a-thumbnail-to-a-record-from-the-details-page) の手順 6 から始まる節を参照してください。<!--see if this is accurate-->
 
 <!--
    ![Record thumbnail box for upload](assets/record-thumbnail-box-for-upload.png) 
@@ -208,15 +208,15 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 任意のビューで、レコードをクリックして開きます。
 
    詳細プレビューボックスが表示されます。
-1. （オプション）右上隅にある **新しいタブで開く** アイコン ![ 詳細を新しいタブアイコンで開く ](assets/open-details-in-a-new-tab-icon.png) をクリックします。
+1. （オプション）右上隅にある **新しいタブで開く** アイコン ![&#x200B; 詳細を新しいタブアイコンで開く &#x200B;](assets/open-details-in-a-new-tab-icon.png) をクリックします。
 
    レコードの詳細ページが開きます。
 
-1. （条件付き）レコードのプレビューまたは詳細ページで、サムネール画像またはアイコン ![ 詳細ページのサムネールアイコンを記録 ](assets/record-thumbnail-icon-on-details-page.png) にカーソルを置き、レコード名の上のスペースにカーソルを置いて **サムネールを追加** または **サムネールを編集** をクリックします。
+1. （条件付き）レコードのプレビューまたは詳細ページで、サムネール画像またはアイコン ![&#x200B; 詳細ページのサムネールアイコンを記録 &#x200B;](assets/record-thumbnail-icon-on-details-page.png) にカーソルを置き、レコード名の上のスペースにカーソルを置いて **サムネールを追加** または **サムネールを編集** をクリックします。
 
    「**サムネールを記録** ボックスにデフォルトで **アップロード** タブが開きます。
 
-   ![ アップロード用にサムネールボックスを記録する ](assets/record-thumbnail-box-for-upload.png)
+   ![&#x200B; アップロード用にサムネールボックスを記録する &#x200B;](assets/record-thumbnail-box-for-upload.png)
 
 1. ファイルをドラッグ&amp;ドロップして、サムネールとして追加
 
@@ -225,12 +225,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    **画像を参照**」をクリックして、追加する画像ファイルを参照します。 ファイルはお使いのコンピューターに保存しておく必要があります。
 
 1. （任意）「サムネールを記録 **ボックスに画像をアップロードした後**、サイジングツールを使用して画像を切り抜き、サイズを変更します。
-1. （オプション） **新しい画像をアップロード** アイコン ![ 新しい画像をアップロード ](assets/upload-new-image-icon.png) アイコンをクリックして、別の画像をアップロードします。
+1. （オプション） **新しい画像をアップロード** アイコン ![&#x200B; 新しい画像をアップロード &#x200B;](assets/upload-new-image-icon.png) アイコンをクリックして、別の画像をアップロードします。
 1. （オプション）「**ギャラリー**」タブをクリックして、画像をクリックします。 画像ギャラリーは変更できません。
 
-   ![ ギャラリーのサムネイル ボックスを記録する ](assets/record-thumbnail-box-for-gallery.png)
+   ![&#x200B; ギャラリーのサムネイル ボックスを記録する &#x200B;](assets/record-thumbnail-box-for-gallery.png)
 
-1. （オプション）サムネールを保存前に削除するには、画像の右側にある **削除** アイコン ![ 画像を削除アイコン ](assets/remove-image-icon.png) をクリックします。
+1. （オプション）サムネールを保存前に削除するには、画像の右側にある **削除** アイコン ![&#x200B; 画像を削除アイコン &#x200B;](assets/remove-image-icon.png) をクリックします。
 
 1. 「**画像を使用**」をクリックして、画像をサムネールとして追加します。
 これにより、「サムネールを記録 **ボックスが閉じ** す。
@@ -240,7 +240,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >   このビューにサムネールを表示するには、テーブル表示でサムネール フィールドを有効にする必要があります。 この機能は、デフォルトでは無効になっています。
 
-1. （オプション）保存後にサムネールを削除するには、任意のビューのレコードをクリックして詳細ページを開き、サムネール画像にカーソルを置いて **詳細** メニュー ![ 詳細メニューアイコン ](assets/more-menu.png)>**削除** アイコン ![ 削除アイコン ](assets/remove-image-icon.png) をクリックします。 サムネール画像が削除されます。
+1. （オプション）保存後にサムネールを削除するには、任意のビューのレコードをクリックして詳細ページを開き、サムネール画像にカーソルを置いて **詳細** メニュー ![&#x200B; 詳細メニューアイコン &#x200B;](assets/more-menu.png)>**削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/remove-image-icon.png) をクリックします。 サムネール画像が削除されます。
 
 
 <!--
