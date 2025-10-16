@@ -6,10 +6,10 @@ description: 予定作業は、Adobe Workfront ではプロジェクトとタス
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '2767'
-ht-degree: 76%
+source-wordcount: '2580'
+ht-degree: 81%
 
 ---
 
@@ -25,9 +25,6 @@ ht-degree: 76%
 </div>
 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 予定作業は、Adobe Workfront ではプロジェクトとタスクで表されます。ただし、予定外の作業が要求という形で突然舞い込んでくる環境で働いているかもしれません。Workfront には、リクエストキューを使用してこのタイプの環境に対応するワークフローが用意されています。
 
@@ -46,7 +43,7 @@ Workfront Planning でレコードを作成するには、次の方法で、Work
 
 * Workfrontの「リクエスト」領域のWorkfront Planning リクエストフォームから。
 
-  Workfront Planning パッケージを購入する必要があります。 詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+  Workfront Planning パッケージを購入する必要があります。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 ## アクセス要件
 
@@ -101,7 +98,7 @@ Workfront 管理者は、リクエストキューの次のコンポーネント�
   詳しくは、[トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。
 
 * （オプション）リクエストのカスタムフォーム。\
-  詳しくは、「カスタムフォームの作成 [&#x200B; を参照してください &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+  詳しくは、「カスタムフォームの作成 [ を参照してください ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * （オプション）リクエストの承認プロセス。\
   詳しくは、[作業アイテムの承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
@@ -133,7 +130,7 @@ Workfront web アプリでリクエストを作成するには：
    * 管理者から、Workfront Planning へのアクセス権を付与されています
    * Workfront Planning Workspace に対して少なくとも表示権限がある
 
-   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください
+   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください
 
 1. ページの右上隅にある「**新規リクエスト**」をクリックします。
 
@@ -144,23 +141,16 @@ Workfront web アプリでリクエストを作成するには：
 
    **新しいリクエスト** ボックスが開きます。
 
-1. （条件付き）実稼動環境で新しいエクスペリエンスに切り替えた場合に **新規リクエスト** ボックスに次のように表示されます。</span>
+1. （条件付き）新しいエクスペリエンス、に切り替えた場合は、Workfront リクエストキューのパスまたはフォームの 1 つを選択するか、検索バーをクリックします。
 
-   <ul><li>最近アクセスした 6 つのWorkfront リクエストキューおよび Planning リクエストフォームが「最近」セクションに表示されます。 </li>
-    <li>その他のすべてのWorkfrontおよび計画リクエストフォーム <b> すべてのリクエストフォーム </b> セクション デフォルトで表示されないリクエストフォームを検索できます。 </li>
-    <li>その他のすべてのWorkfrontおよび Planning リクエスト・キューのパスは、「すべてのリクエスト・パス <b> セクションに表示さ </b> ます。 デフォルトで表示されないリクエストキューを検索できます。</li></ul>
-   Workfront リクエストキューのパスまたはフォームの 1 つをクリックするか、1 つを検索して、リストに表示されたらクリックします。
-1. <span class="preview"> （条件付き）新しいエクスペリエンスに切り替えた場合は、Workfront リクエストキューのパスまたはフォームの 1 つを選択するか、検索バーをクリックします。</span>
-
-   <span class="preview"> 検索バーをクリックすると、最近使用したキューとフォームを最初に表示するドロップダウンが表示されます。 リストから 1 つ選択するか、表示されたら入力を開始してキューまたはフォームを選択します。</span>
+   検索バーをクリックすると、最近使用したキューとフォームが最初に表示されるドロップダウンが表示されます。 リストから 1 つ選択するか、表示されたら入力を開始してキューまたはフォームを選択します。
 
    >[!NOTE]
    >
-   ><span class="preview"> 現在プレビューで利用可能な新しいリクエストエクスペリエンスについては、次の点を考慮してください。</span>
-   >* <span class="preview"> リストには、Workfront リクエストキューとWorkfront Planning リクエストフォームの両方が含まれています。</span>
-   >* <span class="preview"> オブジェクトタイプでリストをフィルタリングできます。</span>
-   >* <span class="preview">Workfront リクエストキューのみを表示するには、`Issue` のオブジェクトタイプでフィルタリングします。</span>
-   >* <span class="preview"> 新しいリクエストエクスペリエンスでは、ドラフトは送信されたリクエストと同じリストに見つかります。</span>
+   >新しい要求エクスペリエンスに関して、次の点を考慮します。
+   >* このリストには、Workfront リクエストキューとWorkfront Planning リクエストフォームの両方が含まれています。
+   >* オブジェクトタイプでリストをフィルタリングできます。
+   >* 新しいリクエストエクスペリエンスでは、ドラフトは送信されたリクエストと同じリストに見つかります。
 
 1. （条件付き）新しいエクスペリエンスに切り替えた場合は、トピックグループとキューのトピックを選択し、フォームの更新を続行します。
 
@@ -391,8 +381,8 @@ Planning 要求を発行するには、Workfront Planning パッケージを購�
 
 詳しくは、次の記事を参照してください。
 
-* [Adobe Workfront Planning でリクエストフォームを作成および管理します &#x200B;](/help/quicksilver/planning/requests/create-request-form.md)。
-* [&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md)。
+* [Adobe Workfront Planning でリクエストフォームを作成および管理します ](/help/quicksilver/planning/requests/create-request-form.md)。
+* [ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 送信されたリクエストを見つける
 

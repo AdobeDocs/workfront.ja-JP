@@ -8,18 +8,15 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 82%
+source-wordcount: '968'
+ht-degree: 80%
 
 ---
 
 # 送信されたリクエストを見つける
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 次のタイプのリクエストのうち、自分または他のユーザーが送信したものや、開始したが送信を完了していないものを検索できます。これらのリクエストは、Adobe Workfront の次のエリアで検索できます。
 
@@ -178,6 +175,9 @@ ht-degree: 82%
 
 1. （オプション）リストの上部にある&#x200B;**ページをフィルター**&#x200B;アイコン ![](assets/search-icon.png) をクリックし、名前でリクエストを検索します。リストは、検索条件に一致する結果で更新されます。
 
+1. （条件付き）Workfront リクエストキューのみを表示するには、`Issue` のオブジェクトタイプを検索またはフィルタリングします。</span>
+
+
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
    -->
@@ -209,6 +209,6 @@ ht-degree: 82%
 
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
-   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 
