@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1973'
 ht-degree: 15%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 15%
 
 この記事では、レコードタイプ接続の概要を説明し、レコードタイプとオブジェクトタイプの間で確立できる接続のタイプについて説明します。
 
-レコードタイプの接続について詳しくは、[&#x200B; レコードタイプの接続 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
+レコードタイプの接続について詳しくは、[ レコードタイプの接続 ](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
 
 ## レコードタイプの連結に関する考慮事項
 
@@ -34,19 +34,19 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 1. 2 つのレコードタイプまたはレコードタイプとオブジェクトタイプ間の接続を別のアプリケーションから確立します。
 
-   レコードタイプの接続方法について詳しくは、[&#x200B; レコードタイプの接続 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
+   レコードタイプの接続方法について詳しくは、[ レコードタイプの接続 ](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
 
-1. 2 つのレコードタイプが接続された後で、1 つのタイプの個々のレコードを別のタイプのレコードに接続します。 レコードの接続について詳しくは、「[&#x200B; レコードの接続 &#x200B;](/help/quicksilver/planning/records/connect-records.md)」を参照してください。
+1. 2 つのレコードタイプが接続された後で、1 つのタイプの個々のレコードを別のタイプのレコードに接続します。 レコードの接続について詳しくは、「[ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md)」を参照してください。
 
 レコードタイプの接続については、次の点に注意してください。
 
-<!--* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>-->
+* <span class="preview">Workfront Planning の 1 つのレコードタイプに対して最大 30 個の接続されたフィールドを持つことができます。</span>
 
 * Workfront Planning では、次のエンティティを接続できます。
 
    * 2 つのレコードタイプ
 
-     デフォルトでは、同じワークスペースから 2 つのレコードタイプを接続できます。 また、レコードタイプを設定して、他のワークスペースのレコードタイプに接続することもできます。 詳しくは、[&#x200B; レコードタイプの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
+     デフォルトでは、同じワークスペースから 2 つのレコードタイプを接続できます。 また、レコードタイプを設定して、他のワークスペースのレコードタイプに接続することもできます。 詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
    * 1 つのレコードタイプと、別のアプリケーションの 1 つのオブジェクトタイプ
 
 * Workfrontの計画レコードタイプを次のアプリケーションの次のオブジェクトタイプと結び付けることができます。
@@ -76,16 +76,14 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 * レコードタイプを別のレコードタイプに接続するか、別のアプリケーションのオブジェクトタイプに接続すると、次のシナリオが存在します。
 
-   * **2 つの Planning レコードタイプを接続する場合**：リンクされたレコードフィールドは、接続元のレコードタイプで作成されます。 接続するレコードタイプに類似したリンクされたレコードフィールドが作成さ <!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>--> ます。
+   * **2 つの Planning レコードタイプを接続する場合**：リンクされたレコードフィールドは、接続元のレコードタイプで作成されます。 同様のリンクされたレコードフィールドは、接続先のレコードタイプで作成されます。「新しい接続」タブの「リンクされたレコードタイプに対応するフィールドを作成」設定を有効にした場合にのみ作成されます。
 
      例えば、「キャンペーン」レコードタイプを「製品」レコードタイプに接続すると、「リンクされた製品」という名前のリンクされたレコードフィールド（接続フィールド）がキャンペーンレコードタイプに作成されます。 製品レコードタイプに、「キャンペーン」という名前のリンクされたレコードタイプが自動的に作成されます。
 
-     <div class="preview">
-
      例えば、次のようなシナリオが存在します。
+
       * 「リンクされたレコードタイプに対応するフィールドを作成」設定を有効にし、「キャンペーン」レコードタイプを「製品」レコードタイプに接続すると、「リンクされた製品」と名前が付いたリンクされたレコードフィールド（接続フィールド）がキャンペーンレコードタイプに作成されます。 製品レコードタイプに、「キャンペーン」という名前のリンクされたレコードタイプが自動的に作成されます。
       * 「リンクされたレコードタイプに対応するフィールドを作成」設定を無効にして、「キャンペーン」レコードタイプを「製品」レコードタイプに接続すると、「リンクされた製品」と名前が付いたリンクレコードフィールド（接続フィールド）がキャンペーンレコードタイプに作成されます。 製品レコードタイプに「キャンペーン」という名前のリンクされたレコードタイプが自動的に作成されません。
-     </div>
 
      詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
@@ -93,9 +91,9 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
       * リンクされたレコードフィールドは、接続元のレコードタイプで作成されます。 他のアプリケーションのオブジェクトタイプには、リンクされたレコードフィールドが自動的に作成されません。
       * 計画レコードフィールドには、Workfront オブジェクトからアクセスできません。
-      * 計画レコードは、Workfront オブジェクトの「計画」タブに表示されます。 詳しくは、[Workfront オブジェクトからのレコード接続の管理 &#x200B;](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
-      * Planning 接続のカスタムフィールドを作成して、Workfront オブジェクトのカスタムフォームに添付できます。 詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
-      * WorkfrontとExperience Managerの統合を通じてWorkfront管理者がメタデータマッピングを設定すると、Adobe Experience Manager Assets Assets から計画レコードフィールドにアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+      * 計画レコードは、Workfront オブジェクトの「計画」タブに表示されます。 詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
+      * Planning 接続のカスタムフィールドを作成して、Workfront オブジェクトのカスタムフォームに添付できます。 詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+      * WorkfrontとExperience Managerの統合を通じてWorkfront管理者がメタデータマッピングを設定すると、Adobe Experience Manager Assets Assets から計画レコードフィールドにアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
 
    * **接続先のレコードまたはオブジェクトからルックアップ フィールドを追加する場合**: リンクされたレコード フィールドを作成する以外に、ルックアップ フィールドと呼ばれる接続されたレコードまたはオブジェクト タイプのフィールドにも接続できます。 接続先のレコードの情報とリンクされた（またはルックアップ フィールド）が、接続先のレコードに表示されます。
@@ -112,7 +110,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
      >
      >ワークスペースに対する表示以上のアクセス権を持つすべてのユーザーは、リンク オブジェクトの種類のアプリケーションでのアクセス権またはアクセス レベル、または他のワークスペースでのアクセス権に関係なく、ルックアップ フィールドの情報を表示することができます。
 
-     リンクされたレコードフィールドの前には、関係アイコン ![&#x200B; 関係フィールドアイコン &#x200B;](assets/relationship-field-icon.png) が付きます。
+     リンクされたレコードフィールドの前には、関係アイコン ![ 関係フィールドアイコン ](assets/relationship-field-icon.png) が付きます。
 
      リンクされたフィールドの前には、フィールドタイプを識別するアイコンが付きます。例えば、リンクされた（または参照）フィールドの前には、フィールドが数値、段落、または日付であることを示すアイコンが付きます。
 
@@ -137,31 +135,23 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 一度に 1 つのレコードを複数のレコードに接続するか、一度に 1 つのレコードを相互に接続するかを選択できます。
 
-接続されたレコードフィールドに追加できるレコード数と、接続されたフィールドを作成するために使用する環境に応じて、レコードタイプを接続する際に次の接続タイプから選択できます。
+レコードタイプを接続する際に選択できる接続タイプは次のとおりです。
 
-<div class="preview">
+* **リンクされたレコードタイプに対応するフィールドを作成** 設定が無効になっている場合は、次から選択できます。
 
-* プレビュー環境で、以下を行います。
+   * [複数選択](#multi-select-connection-type)
+   * [単一選択](#single-select-connection-type)
 
-   * 「リンクされたレコードタイプに対応するフィールドを作成」設定が無効になっている場合は、次から選択できます。
-
-      * [複数選択](#multi-select-connection-type)
-      * [単一選択](#single-select-connection-type)
-
-</div>
-
-* <span class="preview"> プレビュー環境では、「リンクされたレコードタイプに対応するフィールドを作成」設定が有効になっている場合 </span> または実稼動環境では、次のいずれかを選択できます。
+* **リンクされたレコードタイプに対応するフィールドを作成** 設定が有効になっている場合は、次から選択できます。
 
    * [多対多](#many-to-many-connection-type)
    * [1 対多](#one-to-many-connection-type)
    * [多対 1](#many-to-one-connection-type)
    * [1 対 1](#many-to-one-connection-type)
 
-<div class="preview">
-
 ### 接続タイプを複数選択
 
-![&#x200B; 複数選択の接続タイプ &#x200B;](assets/multi-select-connection-picker.png)
+![ 複数選択の接続タイプ ](assets/multi-select-connection-picker.png)
 
 レコードタイプ間に複数選択接続を作成すると、元のレコードタイプから接続フィールドで複数の接続レコードを選択できます。
 
@@ -176,7 +166,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 ### 単一選択の接続タイプ
 
-![&#x200B; 単一選択接続タイプ &#x200B;](assets/single-select-connection-picker.png)
+![ 単一選択接続タイプ ](assets/single-select-connection-picker.png)
 
 レコードタイプ間に単一選択の接続を作成すると、元のレコードタイプから接続フィールドの 1 つのレコードを選択できます。
 
@@ -199,7 +189,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 ### 多対多接続タイプ
 
-![&#x200B; 多対多の接続ピッカー &#x200B;](assets/many-to-many-connection-picker.png)
+![ 多対多の接続ピッカー ](assets/many-to-many-connection-picker.png)
 
 レコードタイプ間に多対多の接続を作成すると、両方のレコードタイプの接続フィールドで複数のレコードを選択できます。
 
@@ -211,7 +201,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 ### 1 対多接続タイプ
 
-![1 対多接続ピッカー &#x200B;](assets/one-to-many-connection-picker.png)
+![1 対多接続ピッカー ](assets/one-to-many-connection-picker.png)
 
 
 レコードタイプ間に 1 対多の接続を作成すると、現在のレコードタイプの「接続」フィールドで複数のレコードを選択できますが、接続先のレコードタイプの対応する「接続」フィールドでは、1 つのレコードしか選択できません。 2 番目のレコードタイプで自動的に作成される接続済みレコードフィールドは、自動的に多対 1 の関係タイプに設定されます。
@@ -224,7 +214,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 ### 多対 1 接続タイプ
 
-![&#x200B; 多対 1 の接続ピッカー &#x200B;](assets/many-to-one-connection-picker.png)
+![ 多対 1 の接続ピッカー ](assets/many-to-one-connection-picker.png)
 
 
 レコードタイプ間に多対 1 の接続を作成すると、現在のレコードタイプの各レコードを、接続されたレコードタイプの 1 つのレコードのみで接続できます。 2 番目のレコードタイプで自動的に作成される接続済みレコードフィールドは、1 対多の関係タイプに自動的に設定されます。
@@ -237,7 +227,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 ### 1 対 1 の接続タイプ
 
-![1 対 1 の接続ピッカー &#x200B;](assets/one-to-one-connection-picker.png)
+![1 対 1 の接続ピッカー ](assets/one-to-one-connection-picker.png)
 
 レコードタイプ間で 1 対 1 の接続を作成する場合、両方のレコードタイプで、各レコードを他のレコードタイプの 1 つのレコードにのみ接続できます。
 

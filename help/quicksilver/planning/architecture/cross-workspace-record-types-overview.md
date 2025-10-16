@@ -1,25 +1,24 @@
 ---
 title: クロスワークスペースのレコードタイプの概要
-description: グローバルレコードタイプは、Adobe Workfront Planning の中央またはプライマリワークスペースから複数のワークスペースに追加できます。
-hidefromtoc: true
-hide: true
-exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
-workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 1%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
+description: レコードタイプをグローバルまたは接続可能にすることができます。 グローバルレコードタイプは、Adobe Workfront Planning の中央またはプライマリワークスペースから複数のワークスペースに追加できますが、接続可能なレコードタイプは、独自のワークスペース以外の他のワークスペースから接続できます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '1534'
+ht-degree: 3%
+
+---
+
 
 # クロスワークスペースレコードタイプの概要
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -27,16 +26,18 @@ Adobe Workfront Planning のレコードタイプに対してクロスワーク�
 
 >[!IMPORTANT]
 >
->システム内のレコードタイプに対してクロスワークスペース機能を有効にするには、拡張Workfront パッケージ要件があります。 詳しくは、[Adobe Workfront計画アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+>システム内のレコードタイプに対してクロスワークスペース機能を有効にするには、拡張Workfront パッケージ要件があります。 詳しくは、[Adobe Workfront計画アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
 
 レコードタイプのワークスペース間機能は次のとおりです。
 
-* **グローバルレコードタイプ**：ユーザーは、管理対象の他のワークスペースにグローバルレコードタイプを追加できます。
+* <span class="preview">**グローバルレコードタイプ**：ユーザーは、管理対象の他のワークスペースにグローバルレコードタイプを追加できます。</span>
 
 * **接続可能なレコードタイプ**：ユーザーは、他のワークスペースからこのレコードタイプに接続できます。
 
-この記事では、クロスワークスペースのレコードタイプの概要を説明します。 レコードタイプのクロスワークスペース機能の定義について詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+この記事では、クロスワークスペースのレコードタイプの概要を説明します。 レコードタイプのクロスワークスペース機能の定義について詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+
+<div class="preview">
 
 ## グローバルレコードタイプの概要
 
@@ -56,7 +57,7 @@ Adobe Workfront Planning のレコードタイプに対してクロスワーク�
 
    元のレコードタイプは元のワークスペースに存在しますが、他のワークスペースで表示できるようになります。
 
-   詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+   詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 1. グローバル レコード タイプとして設定された既存のワークスペースからセカンダリ ワークスペースにレコード タイプを追加します。
 
    レコードタイプは、次のワークスペースに存在します。
@@ -64,7 +65,7 @@ Adobe Workfront Planning のレコードタイプに対してクロスワーク�
    * グローバルレコードタイプに指定された元のワークスペース。
    * セカンダリワークスペース。
 
-   詳しくは、[&#x200B; 別のワークスペースから既存のレコードタイプを追加する &#x200B;](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) を参照してください。
+   詳しくは、[ 別のワークスペースから既存のレコードタイプを追加する ](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) を参照してください。
 
    次のセクションでは、グローバル レコードの種類に関する考慮事項と、元のワークスペースまたはセカンダリ ワークスペースでそれらのレコードがどのように機能するかについて説明します。
 
@@ -118,11 +119,12 @@ Adobe Workfront Planning のレコードタイプに対してクロスワーク�
     * Add request forms to it
     * Add automations to it-->
 
-* ユーザーは、セカンダリワークスペースのグローバルレコードタイプから追加されたレコードタイプに対して、次のアクションを実行できません。
+* どのユーザーも、セカンダリワークスペースのグローバルレコードタイプに対して次のアクションを実行できません。
 
    * 編集
 
      その外観、ワークスペース間機能、元のワークスペースから追加したフィールドは編集できません。
+   * 共有する
    * リクエストフォームの作成と管理
    * 自動化の作成と管理
 
@@ -152,6 +154,8 @@ Workfront Planning API を使用してセカンダリワークスペースから
 
 * ユーザーにアクセス権がない場合、グローバルレコードタイプの元のワークスペースに対するアクセス権がないというエラーが表示され、レコードを作成するためのアクセス権を持つワークスペース ID を指定する必要があります。
 
+</div>
+
 ## 接続可能なレコードタイプの概要
 
 自分が管理する任意のワークスペースから、接続可能と定義されているレコードタイプに接続できます。
@@ -166,7 +170,7 @@ Workfront Planning API を使用してセカンダリワークスペースから
 
    元のレコードタイプは元のワークスペースに存在し、別のワークスペースから接続するためにアクセスできます。
 
-   詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+   詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 1. 管理対象の別のワークスペースから接続可能として指定されたレコードタイプに接続します。
 
    詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。

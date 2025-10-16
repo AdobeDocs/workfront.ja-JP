@@ -1,41 +1,28 @@
 ---
 title: レコードタイプに対するクロスワークスペース機能の設定
 description: レコードタイプは、Adobe Workfront Planning で別のワークスペースに追加したり、別のワークスペースから接続したりできます。
-hidefromtoc: true
-hide: true
-exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 6%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '1654'
+ht-degree: 5%
 
--->
+---
+
 
 <!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
 
-
-<!--this article is linked to the UI - do not delete or change the URL-->
-
-<!--THIS MIGHT ALREADY BE ADDED TO THE "OVERVIEW" ARTICLE, BUT CHECK: add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type.
-
--->
-
 # レコードタイプのクロスワークスペース機能の設定
+
+<!--this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL-->
 
 {{planning-important-intro}}
 
-<!--this is linked to the UI in the info icon when you enable a record to be either global or connectable-->
-
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<span class="preview"> このページでハイライト表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
@@ -43,7 +30,7 @@ Adobe Workfront Planning の複数のワークスペースで機能するよう�
 
 レコードタイプは、次のいずれかとして指定できます。
 
-* **グローバルレコードタイプ**：ユーザーは、グローバルレコードタイプを、管理可能な他のワークスペースに追加できます。
+* <span class="preview">**グローバルレコードタイプ**：ユーザーは、グローバルレコードタイプを、管理可能な他のワークスペースに追加できます。</span>
 * **接続可能なレコードタイプ**：ユーザーは、他のワークスペースからこのレコードタイプに接続できます。
 
 レコードタイプのワークスペース間機能を定義してから、ワークスペースマネージャーがそのレコードタイプを他のワークスペースに追加または接続できるようにする必要があります。
@@ -75,15 +62,18 @@ Adobe Workfront Planning の複数のワークスペースで機能するよう�
 <ul> 
 <li><p>任意のWorkfront パッケージと任意の Planning パッケージ</p></li>
 <p>または</p>
-<li><p>ワークフローおよび計画のPrimeとUltimate パッケージ</p></li></ul>
+<li><p>任意のワークフローと Planning PrimeまたはUltimate パッケージ</p></li></ul>
 
+<div class="preview">
 <p>グローバルレコードタイプを設定するには：</p>
 
 <ul> 
 <li><p>任意のWorkfront パッケージと Planning Plus パッケージ</p></li>
 <p>または</p>
-<li><p>ワークフローおよび計画のPrimeとUltimate パッケージ</p></li></ul>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+<li><p>任意のワークフローと Planning PrimeまたはUltimate パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p>
+
+</div> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
@@ -98,7 +88,7 @@ Adobe Workfront Planning の複数のワークスペースで機能するよう�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -139,9 +129,11 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table> -- >
+</table> -->
 
-## Configure global record types
+<div class="preview">
+
+## グローバルレコードタイプの設定
 
 <!--this is a UI term; don't change the title of this section-->
 
@@ -151,7 +143,7 @@ And
 
 ユーザーは、投稿権限があり、グローバルレコードタイプが追加される任意のワークスペース（元のワークスペースを含む）からグローバルレコードタイプにレコードを追加できます。 表示権限のみを持つワークスペースのレコードを表示できます。
 
-詳しくは、[&#x200B; ワークスペース間のレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) を参照してください。
+詳しくは、[ ワークスペース間のレコードタイプの概要 ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) を参照してください。
 
 レコードタイプをグローバルとして設定するには：
 
@@ -162,11 +154,11 @@ And
    ワークスペースページが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
-   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックします。<!--add new screen shot without Share for now-->
+   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします。<!--add new screen shot without Share for now-->
 
-     ![&#x200B; レコードタイプカードのその他のメニューオプション &#x200B;](assets/more-menu-options-from-record-type-card.png)
+     ![ レコードタイプカードのその他のメニューオプション ](assets/more-menu-options-from-record-type-card.png)
 
-   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **その他** メニュー ![&#x200B; その他 &#x200B;](assets/more-menu.png) をクリックします。
+   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **その他** メニュー ![ その他 ](assets/more-menu.png) をクリックします。
 1. **編集** または **設定** をクリックします。
 
    >[!TIP]
@@ -178,7 +170,7 @@ And
    または、「**設定**」をクリックした場合は、左パネルの「**クロスワークスペース設定**」セクションをクリックします。
 1. 「**このレコードタイプを他のワークスペースに追加することを許可**」設定を有効にします。
 
-   ![&#x200B; 「他のワークスペースに追加」が有効になっているレコードタイプのクロスワークスペース設定を編集 &#x200B;](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
+   ![ 「他のワークスペースに追加」が有効になっているレコードタイプのクロスワークスペース設定を編集 ](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
    >[!TIP]
    >
@@ -208,7 +200,7 @@ And
    >
    >レコードタイプの外観と設定および元のフィールドは、元のワークスペースからのみ編集できます。
 
-   * レコードタイプカードに **グローバルレコードタイプ** アイコン ![&#x200B; グローバルレコードタイプアイコン &#x200B;](assets/global-icon.png) が表示され、レコードタイプを他のワークスペースに追加できることを示します。
+   * レコードタイプカードに **グローバルレコードタイプ** アイコン ![ グローバルレコードタイプアイコン ](assets/global-icon.png) が表示され、レコードタイプを他のワークスペースに追加できることを示します。
    * システム生成の **Workspace** フィールドが、レコードタイプとそのレコードの詳細のテーブルビューに追加されます。
 
      「Workspace」フィールドには、各レコードの作成元のワークスペースが表示されます。
@@ -216,14 +208,15 @@ And
      このフィールドは読み取り専用で、削除できません。
 1. （オプション）別のワークスペースに移動し、既存のレコードタイプを使用してレコードタイプを作成します。 上記の手順で有効にしたレコードタイプを選択します。
 
-   詳しくは、[&#x200B; 別のワークスペースから既存のレコードタイプを追加する &#x200B;](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) を参照してください。
+   詳しくは、[ 別のワークスペースから既存のレコードタイプを追加する ](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) を参照してください。
 
-   セカンダリワークスペースのグローバルレコードタイプから追加されたレコードタイプには、**グローバルレコードタイプ** アイコン ![&#x200B; グローバルレコードタイプアイコン &#x200B;](assets/global-icon.png) も表示されます。
+   セカンダリワークスペースのグローバルレコードタイプから追加されたレコードタイプには、**グローバルレコードタイプ** アイコン ![ グローバルレコードタイプアイコン ](assets/global-icon.png) も表示されます。
 1. （オプション）グローバルレコードタイプを作成した元のワークスペースに戻り、<!--ensure this stays accurate--> の手順 1～4 に従ってレコードタイプを編集します
 1. （オプション）グローバルレコードが追加されたワークスペースのリストを確認します。**このレコードタイプが使用されるワークスペース** セクション。 ワークスペース名の横には、ワークスペースの所有者も表示されます。
 
-   ![&#x200B; このレコードタイプが使用されるワークスペース &#x200B;](assets/workspaces-where-this-record-type-is-used.png)
+   ![ このレコードタイプが使用されるワークスペース ](assets/workspaces-where-this-record-type-is-used.png)
 
+</div>
 
 ## 接続可能なレコードタイプの設定
 
@@ -231,7 +224,9 @@ And
 
 レコードタイプの作成または編集時に、他のワークスペースから接続するレコードタイプを設定できます。
 
-レコードタイプを接続可能として設定するには、次の手順に従います。
+レコードタイプを接続可能として設定する方法は、設定で選択した環境によって異なります。
+
+### 実稼動環境での接続可能なレコードタイプの設定
 
 {{step1-to-planning}}
 
@@ -240,11 +235,53 @@ And
    ワークスペースページが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
-   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックします
+   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします
 
-     ![&#x200B; レコードタイプカードのその他のメニューオプション &#x200B;](assets/more-menu-options-from-record-type-card.png) <!--add new screen shot without Share for now-->
+     ![ レコードタイプカードのその他のメニューオプション ](assets/more-menu-options-from-record-type-card.png)
 
-   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **その他** メニュー ![&#x200B; その他 &#x200B;](assets/more-menu.png) をクリックします。
+   * レコードタイプ カードをクリックしてレコードタイプ ページを開き、レコードタイプ名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックします。
+
+1. 「**詳細設定**」タブをクリックします。
+
+1. **他のワークスペースからこのレコードタイプへの接続を許可** 設定を有効にします。
+
+   ![ 「他のワークスペースから接続」が有効になっている「レコードの詳細設定を編集」タブ ](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
+
+   有効にすると、レコードタイプは接続可能になり、他のワークスペースから接続するためにアクセスできるようになります。
+
+1. レコードタイプにアクセスできるワークスペースを選択します。 次のオプションから選択します。
+
+   <!--check names of the setting: System wide?? OR All workspaces??-->
+
+   * **システム全体**：ユーザーは、管理権限を持つすべてのワークスペースから、このレコードタイプに接続できます。
+   * **特定のワークスペース**：ドロップダウンメニューから、ワークスペースマネージャーがこのレコードタイプに接続できるワークスペースの名前を追加します。
+1. （条件付き）「**レコードタイプを編集** ボックスの **保存** をクリックして、変更を保存します。
+
+   次のことが発生します。
+
+   * レコードタイプとそのフィールドは、指定したワークスペースから接続できるようになりました。
+   * レコードタイプカードに、接続可能なレコードタイプアイコン ![ 接続可能なレコードタイプアイコン ](assets/connect-from-other-workspaces-icon.png) が表示されます。これは、レコードタイプが、設定で指定した任意のワークスペースから接続できることを示します。
+
+1. （オプション）別のワークスペースに移動し、上記の手順でワークスペース間接続を有効にしたレコードタイプに接続を追加します。
+
+   詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+
+<div class="preview">
+
+### プレビュー環境での接続可能なレコードタイプの設定
+
+{{step1-to-planning}}
+
+1. 接続可能として設定するレコードタイプのワークスペースをクリックします。
+
+   ワークスペースページが開き、レコードタイプが表示されます。
+1. 次のいずれかの操作を行います。
+
+   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします
+
+     ![ 設定付きレコードタイプカードのその他のメニューオプション ](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+
+   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **その他** メニュー ![ その他 ](assets/more-menu.png) をクリックします。
 1. **編集** または **設定** をクリックします。
 
 1. （条件付き） **編集** をクリックした場合、「レコードタイプを編集 **ボックスで** 「**クロスワークスペース設定**」タブをクリックします
@@ -255,7 +292,7 @@ And
 
    <!-- add new screen shot with new tab name-->
 
-   ![&#x200B; 他のワークスペースからの接続が有効になっているレコードタイプの「クロスワークスペース設定」タブを編集 &#x200B;](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
+   ![ 他のワークスペースからの接続が有効になっているレコードタイプの「クロスワークスペース設定」タブを編集 ](assets/edit-record-type-box-cross-workspace-settings-connectable-record-type-enabled.png)
 
    有効にすると、レコードタイプにアクセスでき、他のワークスペースから接続できるようになります。
 
@@ -270,11 +307,13 @@ And
    次のことが発生します。
 
    * レコードタイプとそのフィールドは、指定したワークスペースから接続できるようになりました。
-   * レコードタイプカードに、接続可能なレコードタイプアイコン ![&#x200B; 接続可能なレコードタイプアイコン &#x200B;](assets/connect-from-other-workspaces-icon.png) が表示されます。これは、レコードタイプが、設定で指定した任意のワークスペースから接続できることを示します。
+   * レコードタイプカードに、接続可能なレコードタイプアイコン ![ 接続可能なレコードタイプアイコン ](assets/connect-from-other-workspaces-icon.png) が表示されます。これは、レコードタイプが、設定で指定した任意のワークスペースから接続できることを示します。
 
 1. （オプション）別のワークスペースに移動し、上記の手順でワークスペース間接続を有効にしたレコードタイプに接続を追加します。
 
    詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+
+</div>
 
 
 

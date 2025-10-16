@@ -1,26 +1,17 @@
 ---
 title: レコードタイプの設定エリアの設定
-description: レコードタイプは、「設定」ページで保存した後に編集できます。
-hide: true
-hidefromtoc: true
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 13%
-
----
-
-
-<!--add better metadata at release:
-
-title: Configure Record Type Settings
-description: You can edit record types after they have been saved in the Settings page. 
+description: 「レコードタイプを編集」ボックスでレコードタイプを編集する以外に、「設定」ページでレコードタイプを編集することもできます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-recommendations: noDisplay, noCatalog 
+recommendations: noDisplay, noCatalog
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 12%
 
--->
+---
+
 
 # レコードタイプの設定エリアの設定
 
@@ -38,7 +29,7 @@ recommendations: noDisplay, noCatalog
 
 * 編集
 
-  詳しくは、[&#x200B; レコードタイプの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
+  詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
 * レコードタイプの設定ページの設定。
 
@@ -46,7 +37,7 @@ recommendations: noDisplay, noCatalog
 
 ## アクセス要件
 
-+++ 展開して、この記事の機能のアクセス要件を表示します。
++++ 展開して、この記事の機能のアクセス要件を表示します。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,38 +46,44 @@ recommendations: noDisplay, noCatalog
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<ul><li><p>任意のWorkfront パッケージ</p></li>
-<p>And</p>
-<li><p>接続可能なレコードタイプを作成する任意の Planning パッケージ</p></li>
-<li><p>一元化されたレコードタイプを作成するための Planning Plus パッケージ</p></li>
-</ul>
-<p>または：</p>
-<ul><li><p>ワークフローと Planning PrimeまたはUltimate パッケージ</p> </li></ul>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
-   </td>
+<p>任意のWorkfrontおよび Planning パッケージ</p>
+<p>任意のWorkfrontおよび Planning パッケージ</p>
+<p><b>メモ</b></p>
+<p>接続可能なレコード・タイプを構成する手順は、次のとおりです。 </p>
+<ul> 
+<li><p>任意のWorkfront パッケージと任意の Planning パッケージ</p></li>
+<p>または</p>
+<li><p>任意のワークフローと Planning PrimeまたはUltimate パッケージ</p></li></ul>
 
-<tr> 
+<p>グローバルレコードタイプを設定するには：</p>
+
+<ul> 
+<li><p>任意のWorkfront パッケージと Planning Plus パッケージ</p></li>
+<p>または</p>
+<li><p>任意のワークフローと Planning PrimeまたはUltimate パッケージ</p></li></ul>
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p>
+   </td> </tr>
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td><p>標準</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースへの権限の管理</a> </p>  
+   <td>   <p>ワークスペースに対する権限の管理</p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
   </tr>  
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-+++   
++++    
 
 <!--Old:
 
@@ -163,13 +160,17 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    ワークスペースページが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
-   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、**設定** をクリックします。
-または
-   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**設定** をクリックします。
+   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**設定** をクリックします。
 
-   <!--update screen shot at release-->
+     ![ レコードタイプカードのその他のメニューオプション ](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-   ![&#x200B; レコードタイプカードのその他のメニューオプション &#x200B;](assets/more-menu-options-from-record-type-card.png)
+     または
+
+   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**設定** をクリックします。
+
+   <!--update screen shot at prod??-->
+
+   ![ 設定ページのクロスワークスペース設定 ](assets/settings-page-cross-workspace-settings.png)
 
 1. 「**クロスワークスペース設定**」セクションは、デフォルトで選択されています。
 1. 次のいずれかの設定をオンまたはオフにします。
@@ -179,4 +180,4 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    この設定は、デフォルトではオフになっています。
 
-   詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+   詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。

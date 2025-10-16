@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 55%
+source-wordcount: '1062'
+ht-degree: 23%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 55%
 
 # レコードタイプの削除
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -28,7 +28,7 @@ ht-degree: 55%
 
 ただし、レコードタイプを削除すると、そのレコードタイプに関連付けられているすべての情報も削除されます。詳しくは、この記事で[レコードタイプを削除する際の考慮事項](#considerations-when-deleting-record-types)の節を参照してください。
 
-レコードタイプについて詳しくは、[&#x200B; レコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
+レコードタイプについて詳しくは、[ レコードタイプの概要 ](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -52,10 +52,12 @@ ht-degree: 55%
 <li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
 <p>または</p>
 <li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
-<!--<p>To delete global record types:</p>
-<ul><li><p>Any Workfront package and a Planning Plus package</p></li>
-<p>Or</p>
-<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>-->
+<div class="preview">
+<p>グローバル・レコード・タイプを削除する手順は、次のとおりです。</p>
+<ul><li><p>任意のWorkfront パッケージと Planning Plus パッケージ</p></li>
+<p>または</p>
+<li><p>任意のワークフローと Planning PrimeまたはUltimate パッケージ</p></li></ul>
+</div>
 <p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
@@ -71,7 +73,7 @@ ht-degree: 55%
 </tbody> 
 </table>
 
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -148,14 +150,13 @@ ht-degree: 55%
 * 削除したレコードタイプやその情報は復元できません。
 * 削除するレコードタイプに関連付けられているフィールドとレコードを別のレコードタイプで再作成してから削除することをお勧めします。
 
-<!--
 <div class="preview">
 
-* You cannot delete a global record type that has been added to other workspaces. 
+* 他のワークスペースに追加されているグローバル レコード タイプは削除できません。
 
-   For more information, see the section [Delete global record types](#delete-global-record-types) in this article. 
+  詳細については、この記事の「グローバル レコード タイプを削除する [ を参照し ](#delete-global-record-types) ください。
 
-</div>-->
+</div>
 
 ## レコードタイプの削除
 
@@ -171,80 +172,77 @@ ht-degree: 55%
 1. 次のいずれかの操作を行います。
 
    * レコードタイプカードにポインタを合わせ、「**詳細**」メニューをクリックしてから **削除** をクリックします。
-   * 削除するレコードの種類のカードをクリックし、レコードの種類ページで、レコードの種類名の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックし、[**削除**] をクリックします。
+   * 削除するレコードの種類のカードをクリックし、レコードの種類ページで、レコードの種類名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、[**削除**] をクリックします。
 
-   ![&#x200B; レコードタイプを完全に削除する確認 &#x200B;](assets/permanently-delete-record-type-confirmation.png)
+   ![ レコードタイプを完全に削除する確認 ](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. 確認ボックスに **削除** と入力し、「**完全に削除**」をクリックします。 これは、大文字と小文字を区別しません。
 
    選択したレコードタイプは、フィールド、関連レコード、ビューと共に削除され、復元できません。
 
-<!--
-
 <div class="preview">
 
-## Delete global record types
+## グローバル レコード タイプの削除
 
-The following scenarios exist when deleting global record types:
+グローバル レコード タイプを削除する場合は、次のシナリオが発生します。
 
-* If a record type configured as global has not yet been added to another workspace, you can delete it from its original workspace. 
+* グローバルとして設定されたレコードタイプがまだ別のワークスペースに追加されていない場合は、元のワークスペースから削除できます。
 
-* If a record type configured as a global record type has been added to at least one other workspace, you cannot delete it from its original workspace. You must first remove (by deleting) global record types from the secondary workspaces where they were added and then you can permanently delete the global record type from its original workspace. 
+* グローバルレコードタイプとして設定されたレコードタイプが 1 つ以上の他のワークスペースに追加されている場合、元のワークスペースから削除することはできません。 最初に、グローバル レコード タイプを追加したセカンダリ ワークスペースから（削除して）グローバル レコード タイプを削除する必要があります。その後、グローバル レコード タイプを元のワークスペースから完全に削除できます。
 
-### Delete a global record type from the original workspace
+### グローバルレコードタイプの元のワークスペースからの削除
 
-You can delete a record type from its original workspace if it's no longer relevant. 
+関係がなくなったレコードタイプは、元のワークスペースから削除できます。
 
-1. Go to the global record type in its original workspace. 
+1. 元のワークスペースのグローバルレコードタイプに移動します。
 
-1. (Conditional) Do one of the following, depending on whether the global record type has been added to secondary workspaces: 
+1. （条件付き）グローバルレコードタイプがセカンダリワークスペースに追加されているかどうかに応じて、次のいずれかの操作をおこないます。
 
-   * If the record type was not added to a secondary workspace, click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**. 
-   * If the record type was added to at least one other secondary workspace, first, go to the secondary workspace and delete the global record from that space. 
+   * レコードの種類がセカンダリ ワークスペースに追加されなかった場合、レコードの種類のカードの **その他** メニュー ![ その他のメニュー ](assets/more-menu.png)、またはページ上のレコードの種類の名前の右側をクリックし、[**削除**] をクリックします。
+   * レコードタイプが 1 つ以上の他のセカンダリワークスペースに追加された場合、最初にセカンダリワークスペースに移動し、そのスペースからグローバルレコードを削除します。
 
-      For information, see the section [Delete a global record type from a secondary workspace](#delete-a-global-record-type-from-a-secondary-workspace) in this article. 
-   
-1. (Conditional) Continue deleting the record type, as described in the section [Delete record types](#delete-record-types-1) in this article.
+     詳しくは、この記事の [ セカンダリワークスペースからグローバルレコードタイプを削除する ](#delete-a-global-record-type-from-a-secondary-workspace) を参照してください。
 
-   The following things occur: 
+1. （条件付き）この記事の「レコードタイプを削除 [ の節で説明しているように、レコードタイプの削除を続行 ](#delete-record-types-1) ます。
 
-   * The global record type is removed from the original workspace and the record type, its records and fields cannot be recovered.
-   * All global record types from the secondary workspaces and their records are also removed.
+   次のことが発生します。
 
-### Delete a global record type from a secondary workspace
+   * グローバルレコードタイプが元のワークスペースから削除され、レコードタイプ、そのレコードおよびフィールドは復元できません。
+   * セカンダリワークスペースのすべてのグローバルレコードタイプとそのレコードも削除されます。
 
-You can delete a record type you added from another workspace if no longer needed. 
+### グローバルレコードタイプのセカンダリワークスペースからの削除
 
-Consider the following:
+追加したレコードタイプは、不要になったら別のワークスペースから削除できます。
 
-* Deleting a global record type from a secondary workspace will only remove it from the secondary workspace. The record type remains in the original workspace. 
+次の点に注意してください。
 
-* When you delete a global record type from a secondary workspace, the following are also deleted:
+* グローバルレコードタイプをセカンダリワークスペースから削除すると、セカンダリワークスペースからのみ削除されます。 レコードタイプは、元のワークスペースに残ります。
 
-   * The records added from the secondary workspace.
+* グローバルレコードタイプをセカンダリワークスペースから削除すると、次の項目も削除されます。
 
-   ***************Not yet there, coming soon:* The fields added from the secondary workspace.*********
+   * セカンダリワークスペースから追加されたレコード。
 
-* Global record types deleted from their secondary workspaces cannot be recovered. 
+  <!--Coming later: * The fields added from the secondary workspace.-->
 
-* The original record type remains in its original workspace as well as in other workspaces where it's been added. 
+* セカンダリ ワークスペースから削除されたグローバル レコード タイプはリカバリできません。
 
-To delete a global record type from a secondary workspace: 
+* 元のレコードタイプは、元のワークスペースと、それが追加された他のワークスペースに残ります。
 
-1. Go to the global record type in its secondary workspace. 
+セカンダリワークスペースからグローバルレコードタイプを削除するには：
 
-1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**.
-1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
+1. セカンダリワークスペースのグローバルレコードタイプに移動します。
 
-   ![Delete secondary global record type confirmation box](assets/delete-secondary-global-record-type.png)
+1. （オプション）レコードタイプのカードまたはページ上のレコードタイプの名前の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックし、**削除** をクリックします。
+1. （条件付き）表示されたフィールドに **削除** と入力し、「**完全に削除**」をクリックします。
 
-   The following things occur: 
+   ![ セカンダリ グローバル レコード タイプの削除の確認ボックス ](assets/delete-secondary-global-record-type.png)
 
-   * The record type created from a global record type is removed from the selected workspace. 
-   * The original record type with its fields remain in their original workspace. 
-   * The record type remains in all other workspaces where it's been added.
-   * The records *******and fields****** added to the record type from the current workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved in their respective workspaces and in the original workspace. <!--Fields are preserved in the workspaces where they were added.
-   
-</div>   
-   -->
+   次のことが発生します。
+
+   * グローバル レコード タイプから作成されたレコード タイプは、選択したワークスペースから削除されます。
+   * フィールドを含む元のレコードタイプは、元のワークスペースに残ります。
+   * レコードタイプは、追加された他のすべてのワークスペースに残ります。
+   * 現在のワークスペースからレコードタイプに追加されたレコード <!--and fields--> が削除されます。 グローバルレコードタイプが追加された追加のワークスペースから追加された他のすべてのレコードは、それぞれのワークスペースと元のワークスペースに保持されます。 &lt;!- フィールドが追加されたワークスペースに保持されます。
+
+</div>
