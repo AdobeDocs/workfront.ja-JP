@@ -78,7 +78,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
   >* 複数のユーザーに割り当てられた作業アイテムは、割り当てられた作業エリアのすべてのユーザーの名前に表示されます。
   >* 「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目の下に表示されます。 詳しくは、この記事の[表示のカスタマイズ](#customize-the-view)の節を参照してください。
 
-  詳しくは、[ ワークロードバランサーでの割り当て作業の概要 ](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer) の [ ワークロードバランサーの割り当てエリア ](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md) を参照してください。
+  詳しくは、[&#x200B; ワークロードバランサーでの割り当て作業の概要 &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer) の [&#x200B; ワークロードバランサーの割り当てエリア &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md) を参照してください。
 
 * プロジェクトにタスクが一定期間ない場合は、その期間のプロジェクトレベルのバーが空白になります。
 
@@ -237,7 +237,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
    右側に設定パネルが表示されます。
 
-   ![ ワークロードバランサーの設定パネル ](assets/workload-balancer-settings.png)
+   ![&#x200B; ワークロードバランサーの設定パネル &#x200B;](assets/workload-balancer-settings.png)
 
    以下に表示されているオプションから選択して、ワークロードバランサーで表示する情報を更新し、設定ボックスの右上にある **X アイコン** をクリックしてボックスを閉じます。
 
@@ -308,8 +308,8 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
    ![割り当て済み時間数の詳細](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
-1. （任意） **割り当てを非表示アイコン**![ 割り当てを表示アイコン ](assets/show-allocations-icon-small.png) をクリックして、タスクとイシューの名前を作業項目のバーに表示します。
-1. タスク、イシューまたは役割の名前の右側にある **その他メニュー** アイコン ![ その他アイコン ](assets/more-icon.png) をクリックし、次のいずれかのオプションをクリックします。
+1. （任意） **割り当てを非表示アイコン**![&#x200B; 割り当てを表示アイコン &#x200B;](assets/show-allocations-icon-small.png) をクリックして、タスクとイシューの名前を作業項目のバーに表示します。
+1. タスク、イシューまたは役割の名前の右側にある **その他メニュー** アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、次のいずれかのオプションをクリックします。
 
    ![その他のメニュー](assets/more-menu-right-of-task-350x104.png)
 
@@ -326,11 +326,11 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
      >[!NOTE]
      >
-     >「役割割り当てを表示」設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目にのみ表示されます。 詳細については、この記事の「[ ビューをカスタマイズする ](#customize-the-view)」を参照してください。 役割の割り当てには、「詳細メニュー **に** これを割り当て **オプションのみが含まれ** す。
+     >「役割割り当てを表示」設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目にのみ表示されます。 詳細については、この記事の「[&#x200B; ビューをカスタマイズする &#x200B;](#customize-the-view)」を参照してください。 役割の割り当てには、「詳細メニュー **に** これを割り当て **オプションのみが含まれ** す。
 
      >[!TIP]
      >
-     >お使いの環境で Workfront 管理者またはグループ管理者が委任を有効にしている場合は、「割り当て」タブを使用して、ユーザーをタスクまたはイシューに割り当てます。作業の委任について詳しくは、[ タスクとイシューを委任 ](../../manage-work/delegate-work/how-to-delegate-work.md) を参照してください。
+     >お使いの環境で Workfront 管理者またはグループ管理者が委任を有効にしている場合は、「割り当て」タブを使用して、ユーザーをタスクまたはイシューに割り当てます。作業の委任について詳しくは、[&#x200B; タスクとイシューを委任 &#x200B;](../../manage-work/delegate-work/how-to-delegate-work.md) を参照してください。
 
    * 「**割り当てを編集する**」。そのユーザーの日次または週次の割り当てを編集します。ユーザー割り当ての管理について詳しくは、[ワークロードバランサーでのユーザー割り当ての管理](../workload-balancer/manage-user-allocations-workload-balancer.md)を参照してください。
 
@@ -374,7 +374,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 1. 概要パネルに詳細情報を表示するには、次のいずれかの操作を行います。
 
    * タスクまたはイシューのバーをクリックして、右側の概要パネルを開きます。
-   * **概要を開く** アイコン ![ 概要を開くアイコン ](assets/summary-panel-icon.png) をクリックしてから、タスクまたはイシューのバーをクリックして概要パネルを開きます。
+   * **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/summary-panel-icon.png) をクリックしてから、タスクまたはイシューのバーをクリックして概要パネルを開きます。
    * タスクまたはイシューの右側にある&#x200B;**その他**&#x200B;メニューをクリックして、「**概要を開く**」をクリックします。
 
    ワークロードバランサーの概要でタスク情報を更新する方法について詳しくは、[概要を使用してワークロードバランサーの作業アイテムを更新する](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)を参照してください。
@@ -483,7 +483,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
    ユーザーのワークロードバランサーが表示されます。
 
-   ![ ユーザーのワークロードバランサー ](assets/workload-balancer-user.png)
+   ![&#x200B; ユーザーのワークロードバランサー &#x200B;](assets/workload-balancer-user.png)
 
    デフォルトでは、ユーザーのワークロードバランサーには、次の情報が表示されます。
 
@@ -493,7 +493,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
    >
    >ユーザープロファイルのワークロードバランサーは読み取り専用で、割り当てと割り当てを変更することはできません。
 
-1. この記事の [ 複数のプロジェクトのワークロードバランサーへの移動 ](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) の節で説明しているように、ユーザーのワークロードバランサーへの移動を続行します。
+1. この記事の [&#x200B; 複数のプロジェクトのワークロードバランサーへの移動 &#x200B;](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) の節で説明しているように、ユーザーのワークロードバランサーへの移動を続行します。
 
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 

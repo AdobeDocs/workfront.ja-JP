@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Adobe Workfrontの一部の領域では、拡張リストを利用できます。 これらのリストは、リスト項目を表示するために表形式を使用し、標準のリストとは異なるルックアンドフィールを持ちます。 フィルタリング、グループ化、列の管理、検索など、ビューの管理も強化されています。
 
-標準リストについては、[Adobe Workfrontでのリストの概要 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) を参照してください。
+標準リストについては、[Adobe Workfrontでのリストの概要 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) を参照してください。
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Adobe Workfrontの一部の領域では、拡張リストを利用できます�
 
 リストの項目を編集するには、編集するセルをダブルクリックして情報を入力します。 一部のセルは読み取り専用です。
 
-![ 拡張リストの例 ](assets/glist-exchange-rates.png)
+![&#x200B; 拡張リストの例 &#x200B;](assets/glist-exchange-rates.png)
 
 ## 強化されたリストでのアクションバーと詳細メニューの使用
 
@@ -99,13 +99,13 @@ Adobe Workfrontの一部の領域では、拡張リストを利用できます�
 
 選択した項目で使用できるアクションがない場合、アクションバーには「使用できるアクションがありません」と表示されます。
 
-![ アクションバーの例 ](assets/glist-action-bar-exchange-rates.png)
+![&#x200B; アクションバーの例 &#x200B;](assets/glist-action-bar-exchange-rates.png)
 
 **詳細** メニューは、リスト項目の主フィールドの横にカーソルを合わせたときに表示される 3 ドットメニューです。 （プライマリフィールドはテーブルの一番左の列です。）
 
 メニューをクリックして、項目の追加のアクションを表示します。 一部のアクションは、そのリストに固有で、他のリストには表示されない場合があります。
 
-![ 詳細メニューの例 ](assets/glist-more-menu-exchange-rates.png)
+![&#x200B; 詳細メニューの例 &#x200B;](assets/glist-more-menu-exchange-rates.png)
 
 ## 拡張リストの列のカスタマイズ
 
@@ -113,7 +113,7 @@ Adobe Workfrontの一部の領域では、拡張リストを利用できます�
 
 1. リストの上にある **列** をクリックします。
 
-   ![ 列の表示の例 ](assets/glist-display-move-columns.png)
+   ![&#x200B; 列の表示の例 &#x200B;](assets/glist-display-move-columns.png)
 
 1. リストの列の表示/非表示を切り替えるには、を使用します。
 1. 列を並べ替えるには、「**ドラッグ**」アイコンをクリックし、列を目的の場所に移動します。 列を移動すると、リストは自動的に変更されます。
@@ -126,7 +126,7 @@ Adobe Workfrontの一部の領域では、拡張リストを利用できます�
 
    列が非表示の場合、「**列**」ボタンにインジケーターが表示されます。 列を並べ替えても、インジケーターは表示されません。
 
-   ![ 非表示の列のインジケーター ](assets/glist-columns-hidden-indicator.png)
+   ![&#x200B; 非表示の列のインジケーター &#x200B;](assets/glist-columns-hidden-indicator.png)
 
 ## 拡張リストの項目のフィルタリングとグループ化
 
@@ -140,7 +140,7 @@ Adobe Workfrontの一部の領域では、拡張リストを利用できます�
 1. 「次のいずれかを含む」、「次のいずれも含まない」、「次より前」、「次より後」などのフィルター修飾子を選択します。 修飾子のオプションは、フィルタリングに使用するフィールドのタイプによって異なります。
 1. フィールド値（1 つまたは複数）を選択します。 フィルタリングするフィールドタイプに応じて、リストから項目を選択したり、項目を検索したり、カレンダーを使用して日付範囲を選択したりするように求められる場合があります。
 
-   ![ 拡張リストでのフィルター ](assets/glist-filter-with-options.png)
+   ![&#x200B; 拡張リストでのフィルター &#x200B;](assets/glist-filter-with-options.png)
 
    フィルターはリストに自動的に適用されます。
 
@@ -149,22 +149,22 @@ Adobe Workfrontの一部の領域では、拡張リストを利用できます�
 
    フィルターがリストに適用されると、インジケーターが **フィルター** ボタンに表示されます。
 
-   ![ フィルターが適用されたインジケーター ](assets/glist-filter-applied-indicator.png)
+   ![&#x200B; フィルターが適用されたインジケーター &#x200B;](assets/glist-filter-applied-indicator.png)
 
 ### グループ化の使用
 
 1. リストの上にある **グループ** をクリックします。
 1. グループ化を選択してリストを整理します。
 
-   ![ グループ化を選択 ](assets/glist-grouping-choose-a-group-by.png)
+   ![&#x200B; グループ化を選択 &#x200B;](assets/glist-grouping-choose-a-group-by.png)
 
 1. グループ化を適用した場合、グループ オプションを再度開いて、すべてのグループ化を一度に折りたたんだり展開したり、グループ化を別のフィールドでグループ化するように変更したり、すべてのグループ化をクリアしたりできます。
 
-   ![ 拡張リストのグループ化 ](assets/glist-group-by-due-date-priorities.png)
+   ![&#x200B; 拡張リストのグループ化 &#x200B;](assets/glist-group-by-due-date-priorities.png)
 
    リストにグループ化を適用すると、「**グループ**」ボタンにインジケーターが表示されます。
 
-   ![ 適用されたグループ化インジケーター ](assets/glist-grouping-applied-indicator.png)
+   ![&#x200B; 適用されたグループ化インジケーター &#x200B;](assets/glist-grouping-applied-indicator.png)
 
 ## 拡張リストでの並べ替えと検索
 
@@ -174,12 +174,12 @@ Adobe Workfrontの一部の領域では、拡張リストを利用できます�
 >
 >一部の列は、並べ替え可能ではない可能性があります。
 
-![ 列で並べ替え ](assets/glist-sort-by-column.png)
+![&#x200B; 列で並べ替え &#x200B;](assets/glist-sort-by-column.png)
 
 グループ内で作業を並べ替えるには、**グループ** を開き、昇順または降順で並べ替えるかどうかを選択します。
 
-![ グループでの並べ替え ](assets/sort-in-groups.png)
+![&#x200B; グループでの並べ替え &#x200B;](assets/sort-in-groups.png)
 
 検索するには、リストの上の検索フィールドに検索語句を入力します。 入力すると、結果がリストでハイライト表示されます。
 
-![ 検索語句がハイライト表示されている ](assets/glist-search-highlighted.png)
+![&#x200B; 検索語句がハイライト表示されている &#x200B;](assets/glist-search-highlighted.png)
