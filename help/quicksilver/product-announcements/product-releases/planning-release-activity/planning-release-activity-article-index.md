@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 6708a22841bb20bd7bb62c76699276df9315611a
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 0%
 
 現在のWorkfront Planning リリース・アクティビティの詳細は、次の記事を参照してください。
 
+* [Adobe Workfront Planning の 2026 年第 1 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
 * [Adobe Workfront Planning の 2025 年第 4 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 
 >[!ENDSHADEBOX]
