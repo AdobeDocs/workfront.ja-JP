@@ -2398,7 +2398,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr> 
    <td>[!UICONTROL User Interface Preferences]</td> 
-   <td>[!UICONTROL User Interface Setup][!DNL Workfront] 管理者はこれらの設定を変更して、ユーザーインターフェイスをカスタマイズできます。</td> 
+   <td>[!UICONTROL User Interface Setup]&#x200B;[!DNL Workfront] 管理者はこれらの設定を変更して、ユーザーインターフェイスをカスタマイズできます。</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Utilization]</td> 

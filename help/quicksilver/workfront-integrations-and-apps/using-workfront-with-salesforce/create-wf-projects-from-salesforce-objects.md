@@ -53,7 +53,7 @@ ht-degree: 93%
 
 ## 前提条件
 
-[!DNL Salesforce][!UICONTROL 商談]またはアカウントから [!DNL Workfront] リクエストを送信するには、
+[!DNL Salesforce]&#x200B;[!UICONTROL 商談]またはアカウントから [!DNL Workfront] リクエストを送信するには、
 環境に次のものが存在することを確認してください。
 
 * [!DNL Workfront] 管理者が [!DNL Workfront for Salesforce] を既にインストールしている。\

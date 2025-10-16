@@ -286,7 +286,7 @@ Workfrontのアクセス要件について詳しくは、[Workfrontのドキュ�
      >   
      >   
      >   * レイアウトテンプレートを使用した「[!UICONTROL 詳細]」セクションへの領域の追加または削除については、[レイアウトテンプレートを使用した[!UICONTROL 詳細]表示のカスタマイズ](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
-     >   * [!UICONTROL プロジェクト詳細]の[!UICONTROL 概要]領域での情報表示について詳しくは、[[!UICONTROL プロジェクト][!UICONTROL 概要]領域での情報の管理](../manage-work/projects/manage-projects/understand-project-overview-area.md)を参照してください。
+     >   * [!UICONTROL プロジェクト詳細]の[!UICONTROL 概要]領域での情報表示について詳しくは、[[!UICONTROL プロジェクト]&#x200B;[!UICONTROL 概要]領域での情報の管理](../manage-work/projects/manage-projects/understand-project-overview-area.md)を参照してください。
      >   
      >
 
