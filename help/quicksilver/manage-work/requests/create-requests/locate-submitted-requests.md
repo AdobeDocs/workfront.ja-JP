@@ -209,6 +209,6 @@ ht-degree: 80%
 
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
-   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 

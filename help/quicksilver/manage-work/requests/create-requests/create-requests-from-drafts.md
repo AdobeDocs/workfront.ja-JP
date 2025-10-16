@@ -106,5 +106,5 @@ ht-degree: 86%
    >[!NOTE]
    >
    >新しいリクエストエクスペリエンスでは、ドラフトは送信されたリクエストと同じリストにあります。
-   >新しいエクスペリエンスでのリクエストの作成について詳しくは、「リクエストの作成と送信」の [Workfront web アプリでリクエストを作成し ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) ドラフトを生成する」を参照してください。
+   >新しいエクスペリエンスでのリクエストの作成について詳しくは、「リクエストの作成と送信」の [Workfront web アプリでリクエストを作成し &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) ドラフトを生成する」を参照してください。
 
