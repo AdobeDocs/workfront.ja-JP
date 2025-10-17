@@ -7,18 +7,18 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
 
 # 2025 年第 3 四半期プロジェクトの強化
 
-このページでは、2025 年第 3 四半期リリースで行われた、プレビュー環境に対するプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
+このページでは、2025 年第 3 四半期リリースで行われた、プレビュー環境に対するプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
-2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
+2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
 
 ## リクエストを行う際のエクスペリエンスの更新
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 * リクエストパスとリクエストフォームは、「最近」の領域と、下のより大きなリストの両方で、別々のセクションに表示されます。
 * リクエストキューを検索すると、リストには、検索語句を含んだフォームとパスのみが表示されます。 表示された各リクエストフォームまたはパスで検索語句がハイライト表示されます。
 
-リクエストの作成について詳しくは、[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+リクエストの作成について詳しくは、[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
 
 ## 既存の実績時間フィールドが、従来の実績時間と、新しく作成された実績時間フィールドに置き換えられる
 
@@ -54,14 +54,14 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >時間が記録された日時に応じて、プロジェクト、タスク、または問題の実際の時間と従来の実際の時間が一致しない場合があります。<br>
->&#x200B;>次のシナリオが存在します。
+>>次のシナリオが存在します。
 >
 >* 実際の時間は、2021 年 5 月以降のプロジェクト、タスクおよび問題に記録された時間を表します。
 >* 従来の実際の時間は、プロジェクト、タスク、または問題の存続期間中に、プロジェクト、タスクおよび問題に記録された時間を表します。 これには、2021 年 5 月より前の現在の時刻までのログ時間が含まれます。
->  &#x200B;><br>新しいフィールドとその値を反映するには、レポートの更新が必要になる場合があります。
->  &#x200B;><br>Workfrontでは、従来の実績時間数を使用して、実際の労力コストを計算します。
+>  ><br>新しいフィールドとその値を反映するには、レポートの更新が必要になる場合があります。
+>  ><br>Workfrontでは、従来の実績時間数を使用して、実際の労力コストを計算します。
 
-詳しくは、[&#x200B; 実際の時間数を表示 &#x200B;](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md) を参照してください。
+詳しくは、[ 実際の時間数を表示 ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md) を参照してください。
 
 
 ## API 呼び出しのデータベースへの実際の時間数の保存方法の変更
@@ -71,6 +71,8 @@ ht-degree: 2%
 >* プレビュー：次の API バージョン（2025 年後半に予定）
 >* 実稼動版の高速リリース：次の API バージョンでは、2025 年後半に予定されています
 >* すべてのお客様の実稼動環境：次の API バージョンでは、2025 年後半に予定されています
+>
+>API のバージョンについて詳しくは、「[API バージョン管理とサポートスケジュール ](/help/quicksilver/wf-api/api/api-version-support-schedule.md)」を参照してください。
 
 この更新により、プロジェクト、タスク、および問題の実際の時間数をデータベースに保存する方法に変更が生じます。 この更新から、実際の時間は、`actualWorkRequiredDouble` の値フィールド（時間単位の値）を使用するようになります。
 
@@ -98,7 +100,7 @@ ht-degree: 2%
 
 Workfrontの他の領域でタスクと問題の完了率を更新するために導入された変更はありません。
 
-詳しくは、[&#x200B; タスクの完了率の表示と更新 &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
+詳しくは、[ タスクの完了率の表示と更新 ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
 
 ## プロジェクト、タスク、問題で AI アシスタントを使用する際の透明性が向上します
 
@@ -112,6 +114,6 @@ Workfront プロジェクト、タスク、問題に関する質問への回答�
 
 以前は、この情報は AI アシスタントの応答では使用できませんでした。
 
-AI アシスタントを使用してWorkfrontの情報を入手する方法については、[AI アシスタントを使用して、プロジェクト、タスク、問題を操作する &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) を参照してください。
+AI アシスタントを使用してWorkfrontの情報を入手する方法については、[AI アシスタントを使用して、プロジェクト、タスク、問題を操作する ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) を参照してください。
 
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 18%
+source-wordcount: '233'
+ht-degree: 17%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 18%
 Adobe Workfront Planning で使用しなくなったレコードビューを削除できます。
 
 ビューへのアクセス権を持つすべてのユーザーに対して、ビューが削除されます。 削除したビューは復元できません。
+
+レコードタイプの元のテーブル表示を削除することはできません。
 
 ## アクセス要件
 
@@ -60,7 +62,7 @@ Adobe Workfront Planning で使用しなくなったレコードビューを削�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -138,9 +140,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
 
-1. ビューのタブから、ビューのタブをクリックし、ドロップダウンメニューのビューにポインタを合わせて、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**削除** をクリックしてください。</span>
+1. ビューのタブから、ビューのタブをクリックし、ドロップダウンメニューのビューにポインタを合わせて、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックしてください。</span>
 
-   ![&#x200B; オプション付きのその他メニュー &#x200B;](assets/more-menu-for-views-expanded-with-delete-option.png)
+   ![ オプション付きのその他メニュー ](assets/more-menu-for-views-expanded-with-delete-option.png)
 
 1. 「**削除**」をクリックして確定します。
 
