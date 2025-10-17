@@ -68,7 +68,7 @@ ht-degree: 67%
 
 1. 次のいずれかの操作を行います。
 
-   * リストでメンバーを選択し、編集 ![ 編集アイコン ](assets/edit-icon.png) をクリックして、そのユーザーのユーザープロファイルを変更します。
+   * リストでメンバーを選択し、編集 ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックして、そのユーザーのユーザープロファイルを変更します。
 
      詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)または[ユーザープロファイルの一括編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)を参照してください。
 
@@ -76,9 +76,9 @@ ht-degree: 67%
 
      ユーザーには、アプリ内通知と、コメントが記載されたメール通知が送信されます。コメントは、ユーザーのプロファイルの「更新」エリアに表示されます。
 
-     詳しくは、[ 他のユーザーへのダイレクトメッセージの送信 ](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) を参照してください。
+     詳しくは、[&#x200B; 他のユーザーへのダイレクトメッセージの送信 &#x200B;](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) を参照してください。
 
-   * リスト内の任意の数のメンバーを選択し、「非アクティブ化 ![ ユーザーの非アクティブ化 ](assets/deactivate-user.png) または「アクティブ化 ![ ユーザーのアクティブ化 ](assets/activate-user.png)」をクリックします。
+   * リスト内の任意の数のメンバーを選択し、「非アクティブ化 ![&#x200B; ユーザーの非アクティブ化 &#x200B;](assets/deactivate-user.png) または「アクティブ化 ![&#x200B; ユーザーのアクティブ化 &#x200B;](assets/activate-user.png)」をクリックします。
 
      詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
 

@@ -59,4 +59,4 @@ ht-degree: 77%
 
 アジャイルイテレーションとは異なり、アジャイルビューでプロジェクトを表示する際には、ストーリーの順序を変更することはできません。プロジェクトのストーリーの順序を変更するには、プロジェクトを標準ビューで表示する必要があります。
 
-プロジェクトビューを変更する方法について詳しくは、[!UICONTROL アジャイル]ビュー](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)にある[[!UICONTROL プロジェクトを管理]を参照してください。アジャイルビューを選択する代わりに、標準ビューを選択します。
+プロジェクトビューを変更する方法について詳しくは、[!UICONTROL アジャイル]ビュー[&#128279;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)にある[!UICONTROL プロジェクトを管理]を参照してください。アジャイルビューを選択する代わりに、標準ビューを選択します。

@@ -54,7 +54,7 @@ ht-degree: 99%
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-サブグループの作成時や編集時に、サブグループのメンバーをグループ管理者としてサブグループに割り当てることができます。手順については、[グループの作成](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)の記事にある [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) を参照してください。
+サブグループの作成時や編集時に、サブグループのメンバーをグループ管理者としてサブグループに割り当てることができます。手順については、[グループの作成](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)の記事にある [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) を参照してください。
 
 サブグループの管理を、その上のグループに割り当てられているグループ管理者に任せることもできます。サブグループを作成すると、上のグループの管理者は、そのサブグループを自動的に管理する権限を持ちます。
 

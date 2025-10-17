@@ -34,7 +34,7 @@ ht-degree: 99%
 
 詳しくは、[[!UICONTROL カンバン]ボードのストーリーのステータスの更新](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)を参照してください。
 
-ストーリーステータスは、アジャイルビューを変更することでプロジェクトに合わせてカスタマイズできます。詳しくは、[ [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でのビューの作成または編集の[[!UICONTROL アジャイルビューの作成またはカスタマイズ]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)の節を参照してください。
+ストーリーステータスは、アジャイルビューを変更することでプロジェクトに合わせてカスタマイズできます。詳しくは、[&#x200B; [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でのビューの作成または編集の[[!UICONTROL アジャイルビューの作成またはカスタマイズ]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)の節を参照してください。
 
 >[!NOTE]
 >

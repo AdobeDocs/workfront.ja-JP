@@ -36,4 +36,4 @@ ht-degree: 98%
    >
    >[!UICONTROL タスクとイシュー]のメニュー項目は常に表示され、非表示にすることはできません。
 
-   ![ モバイル設定 ](assets/mobile-settings-338x366.png)
+   ![&#x200B; モバイル設定 &#x200B;](assets/mobile-settings-338x366.png)

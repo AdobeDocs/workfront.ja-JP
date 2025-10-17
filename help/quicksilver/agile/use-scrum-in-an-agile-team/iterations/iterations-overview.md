@@ -17,7 +17,7 @@ ht-degree: 92%
 
 アジャイルイテレーションは、完了ステータス、バーンダウン、およびストーリーボードの 3 つのエリアで構成されます。
 
-![ イテレーション表示 ](assets/agile-iteration-with-callouts.png)
+![&#x200B; イテレーション表示 &#x200B;](assets/agile-iteration-with-callouts.png)
 
 バーンダウンチャートと完了ステータスについては、[[!UICONTROL バーンダウン]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)の節を参照してください。
 

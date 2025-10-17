@@ -58,7 +58,7 @@ iOS デバイスでベータ版テスターになる前に、[!DNL Workfront] �
 
 以下の QR コードをスキャンして、ベータ版に新規登録し、アプリをダウンロードすることもできます。
 
-![iOS QR コード ](assets/ios-qr-code-350x397.png)
+![iOS QR コード &#x200B;](assets/ios-qr-code-350x397.png)
 
 ## 現在の状況をお知らせください
 

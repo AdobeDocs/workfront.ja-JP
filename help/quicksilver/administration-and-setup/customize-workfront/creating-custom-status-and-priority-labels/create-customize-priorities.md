@@ -59,11 +59,11 @@ Workfront 管理者は、Workfront で提供されるデフォルトの優先度
 * 優先度の名前を変更する。
 * 優先度を並べ替える。
 
-  優先度の並べ替え方法の詳細については、「[ プロジェクト、タスク、イシューの優先度を作成する ](#create-a-priority-for-a-project-task-or-issue)」を参照してください。
+  優先度の並べ替え方法の詳細については、「[&#x200B; プロジェクト、タスク、イシューの優先度を作成する &#x200B;](#create-a-priority-for-a-project-task-or-issue)」を参照してください。
 
 * デフォルトの優先度を変更する。
 
-  デフォルトの優先度を変更する機能の詳細については、[ プロジェクト、タスク、イシューの優先度を作成する ](#create-a-priority-for-a-project-task-or-issue) を参照してください。
+  デフォルトの優先度を変更する機能の詳細については、[&#x200B; プロジェクト、タスク、イシューの優先度を作成する &#x200B;](#create-a-priority-for-a-project-task-or-issue) を参照してください。
 
 * 優先度の説明を編集する。
 * 各優先度に色を設定する。
@@ -78,7 +78,7 @@ Workfront 管理者は、Workfront で提供されるデフォルトの優先度
 
 * 優先度を非表示にする。
 
-  優先度を非表示にする機能の詳細については、[ プロジェクト、タスク、イシューの優先度を作成する ](#create-a-priority-for-a-project-task-or-issue) を参照してください。
+  優先度を非表示にする機能の詳細については、[&#x200B; プロジェクト、タスク、イシューの優先度を作成する &#x200B;](#create-a-priority-for-a-project-task-or-issue) を参照してください。
 
   >[!NOTE]
   >
@@ -113,7 +113,7 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
 
    * **カラー**：優先度の色を選択します。
 
-     優先度の色は、グラフレポートとアジャイルチーム設定で使用されます。グラフレポートについて詳しくは、[ レポートへのグラフの追加 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) を参照してください。 アジャイルチームの設定について詳しくは、[ アジャイルチームの作成 ](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) を参照してください。
+     優先度の色は、グラフレポートとアジャイルチーム設定で使用されます。グラフレポートについて詳しくは、[&#x200B; レポートへのグラフの追加 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) を参照してください。 アジャイルチームの設定について詳しくは、[&#x200B; アジャイルチームの作成 &#x200B;](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) を参照してください。
 
    * **デフォルトの優先度**：新しく作成したすべてのプロジェクト、タスクまたはイシューにWorkfrontで自動適用する優先度を選択します。
 
@@ -123,7 +123,7 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
 
      <div class="preview">
 
-     デフォルトの優先度は、アイコン ![ デフォルトの優先度アイコン ](assets/default-icon.png) で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
+     デフォルトの優先度は、アイコン ![&#x200B; デフォルトの優先度アイコン &#x200B;](assets/default-icon.png) で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
 
       * 優先度名の横にあるチェックボックスをオンにし、画面の下部にあるアクションバーで「**デフォルトにする**」を選択します。
       * 優先度名の上にマウスポインターを置き、表示される **詳細** メニューをクリックします。 次に、「**デフォルトにする** を選択します。

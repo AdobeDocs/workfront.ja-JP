@@ -24,7 +24,7 @@ ht-degree: 93%
 
 次のエリアは、[!UICONTROL 作業者]のデフォルトレイアウトに含まれています。
 
-* **[!UICONTROL ホーム]**：割り当てられたタスクやイシューはここに表示されます。これはワーカーのデフォルトのランディングページですが、Workfront管理者がレイアウトテンプレートに追加しない限り、[!UICONTROL  メインメニュー ] には表示されません。  詳しくは、[[!UICONTROL ホーム]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)の基本を学ぶを参照してください。
+* **[!UICONTROL ホーム]**：割り当てられたタスクやイシューはここに表示されます。これはワーカーのデフォルトのランディングページですが、Workfront管理者がレイアウトテンプレートに追加しない限り、[!UICONTROL &#x200B; メインメニュー &#x200B;] には表示されません。  詳しくは、[[!UICONTROL ホーム]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)の基本を学ぶを参照してください。
 
 * **[!UICONTROL プロジェクト]**：自分と共有されているプロジェクトはここに表示されます。詳しくは、[プロジェクト：記事インデックス](../../../manage-work/projects/projects-overview.md)を参照してください。
 
@@ -50,7 +50,7 @@ ht-degree: 93%
 
 * **[!UICONTROL ブループリント]**：システムの既存のブループリントをレビューし、[!DNL Workfront] 管理者がブループリントのリクエストキューを設定した場合は、ブループリントをインストールするように要求します。詳しくは、[ブループリントの概要](../../../administration-and-setup/blueprints/blueprints-overview.md)を参照してください。
 
-![ ワーカーのメインメニュー ](assets/worker-main-menu-350x426.png)
+![&#x200B; ワーカーのメインメニュー &#x200B;](assets/worker-main-menu-350x426.png)
 
 ## デフォルトの[!UICONTROL メインメニュー]のカスタマイズ
 

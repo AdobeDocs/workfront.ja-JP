@@ -42,7 +42,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >ドキュメントの統合により、個人用の非公開ファイルに接続できるので、管理者は別のユーザーとしてログインしている間はドキュメントの統合にアクセスできません。
 >
->ドキュメント統合について詳しくは、「[ ドキュメント統合の設定 ](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)」を参照してください。
+>ドキュメント統合について詳しくは、「[&#x200B; ドキュメント統合の設定 &#x200B;](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)」を参照してください。
 
 ## アクセス要件
 
@@ -84,7 +84,7 @@ Some users, such as executives, need to be able to control which administrators 
    >
    >* グループ管理者は、管理するグループのユーザーとしてのみログインできます。また、ユーザー管理（グループユーザー）権限をアクセスレベルで有効にする必要があります。
    >   
-   >  ![ グループ管理者ユーザー ](assets/group-admin-user.png)
+   >  ![&#x200B; グループ管理者ユーザー &#x200B;](assets/group-admin-user.png)
    >   
    >  この設定は、デフォルトで無効になっています。詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
    >   

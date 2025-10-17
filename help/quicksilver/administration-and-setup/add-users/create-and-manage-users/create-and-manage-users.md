@@ -35,7 +35,7 @@ ht-degree: 91%
 * [ユーザー属性をマッピングおよび新しいユーザーを自動プロビジョニング](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
 * [ユーザーを非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [ユーザーを削除](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-* [ 監査ログの概要 ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* [&#x200B; 監査ログの概要 &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [監査ログを表示および書き出し](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [ユーザーログイン情報を表示](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Adobe Admin Console でのユーザー管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

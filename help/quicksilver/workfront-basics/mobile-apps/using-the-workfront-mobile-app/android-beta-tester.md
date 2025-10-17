@@ -34,13 +34,13 @@ ht-degree: 98%
 
 1. 進行状況が完了したら、ベータ版ユーザーになったことを示す確認メッセージが表示されます。\
    [!DNL Play Store] 内のアプリ名の後に「[!UICONTROL Beta]」という単語が表示され、アプリのベータ版を使用していることを示します。\
-   ![Android ベータ版テスター ](assets/android-beta-tester-adobe-350x468.png)
+   ![Android ベータ版テスター &#x200B;](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR コード
 
 以下の QR コードをスキャンして、ベータ版に新規登録し、アプリをダウンロードすることもできます。
 
-![Android QR コード ](assets/android-qr-code-350x409.png)
+![Android QR コード &#x200B;](assets/android-qr-code-350x409.png)
 
 ## 現在の状況をお知らせください
 

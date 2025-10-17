@@ -32,7 +32,7 @@ ht-degree: 99%
 
 プロジェクトでのボードの使用について詳しくは、[アジャイルビューでのプロジェクト管理](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
 
-モバイルアプリでボードにアクセスすることもできます。詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL  ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
+モバイルアプリでボードにアクセスすることもできます。詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL &#x200B; ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
 
 ボードの機能に関するビデオチュートリアルについて詳しくは、[[!DNL Adobe Workfront] [!UICONTROL ボード]のビデオデモ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)を参照してください。
 

@@ -60,7 +60,7 @@ ht-degree: 98%
 
 1. 「**イシュー**」タブをクリックして、Workfront で使用可能なイシューステータスを表示します。
 
-   ![ 問題の状態 ](assets/issue-status.png)
+   ![&#x200B; 問題の状態 &#x200B;](assets/issue-status.png)
 
 ## システムのイシューステータス
 

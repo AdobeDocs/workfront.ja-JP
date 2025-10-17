@@ -21,4 +21,4 @@ ht-degree: 88%
 
 チームに割り当てられた作業を管理する方法について詳しくは、[[!UICONTROL ワークロードバランサー]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
 
-![ ワークロードバランサーを表示するチームページ ](assets/team-page-workload-balancer.png)
+![&#x200B; ワークロードバランサーを表示するチームページ &#x200B;](assets/team-page-workload-balancer.png)
