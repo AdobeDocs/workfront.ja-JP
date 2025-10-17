@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: ボードへのアドホックカードの追加
 description: アドホックカードをボードにすばやく追加して、ボード上のメンバーに割り当てることができます。カードは、タスク、イシュー、ユーザー、グループまたはボードに含める任意のタイプのアイテムを表すことができます。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 93%

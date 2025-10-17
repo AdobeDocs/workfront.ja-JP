@@ -5,11 +5,11 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: イシューのステータスを使用して、システム内のユーザーに、イシューが特定の時点で、開発のどの段階にあるかを示すことができます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 98%
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 1. 「**イシュー**」タブをクリックして、Workfront で使用可能なイシューステータスを表示します。
 
-   ![&#x200B; 問題の状態 &#x200B;](assets/issue-status.png)
+   ![ 問題の状態 ](assets/issue-status.png)
 
 ## システムのイシューステータス
 

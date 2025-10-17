@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront for Mobile Device Management（MDM）
 description: Adobe [!DNL Workfront] は、いくつかのモバイルデバイス管理（MDM）プラットフォームと提携し、より安全で統制されたモバイルエクスペリエンスを組織に提供しています。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: 0b76f99627b154b216fc4ed6fb36e6a07805126e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 70%
@@ -25,7 +25,7 @@ Adobe [!DNL Workfront] は、複数の [!DNL Mobile Device Management]（MDM）�
 * iOS
 * Android
 
-[!DNL Workfront] for [!DNL MobileIron] の設定について詳しくは、[&#x200B; [!DNL Adobe Workfront]  for  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) の設定を参照してください。
+[!DNL Workfront] for [!DNL MobileIron] の設定について詳しくは、[ [!DNL Adobe Workfront]  for  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) の設定を参照してください。
 
 ## Intune
 

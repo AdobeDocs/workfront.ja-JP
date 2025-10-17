@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Android でのプルーフに対するコメント
 description: プルーフに対する既存のコメントをレビューおよび解決し、新しいコメントや注釈をプルーフドキュメントに追加できます。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 100%
@@ -32,7 +32,7 @@ ht-degree: 100%
 
    コメントに複数の返信がある場合は、「**[!UICONTROL 返信を表示]**」を選択してすべての返信を表示するか、コメントシートを上下にスワイプして、さらに多くの内容を表示します。
 
-1. コメントの添付ファイルを表示するには、コメントのサムネールを選択します。画面の指示に従って、添付ファイルをデバイスにダウンロードします。
+1. コメントの添付ファイルを表示するには、コメントのサムネールを選択します。画面のプロンプトに従って、添付ファイルをデバイスにダウンロードします。
 1. コメントに返信するには、コメントの下のテキストボックスに回答を入力し、**[!UICONTROL 送信]**&#x200B;アイコン ![送信アイコン](assets/mobile-send-icon-25x26.png) を選択します。
 
 ### コメントリストの使用

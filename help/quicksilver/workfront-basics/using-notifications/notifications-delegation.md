@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：委任」
+title: 通知：委任
 description: 次の通知は、Adobe Workfront で自分が行った、または他の人が行ったタスクとイシューの委任について知らせます。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: bd329c5a-4440-4bb7-96f1-30e83c213851
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%

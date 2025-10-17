@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 description: Adobe Workfront 管理者がシステム内のすべてのグループのプロジェクト環境設定のロックを解除している場合は、グループ管理者は、グループが作成する後続のすべてのプロジェクトに影響を与えるように、グループのその環境設定を指定することができます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '2742'
 ht-degree: 95%
@@ -75,7 +75,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ**![&#x200B; グループアイコン &#x200B;](assets/groups-icon.png) をクリックします。
+1. 左側のパネルで、**グループ**![ グループアイコン ](assets/groups-icon.png) をクリックします。
 
 1. プロジェクトの環境設定を指定するグループの名前をクリックします。
 1. 左側のパネルで、**プロジェクトの環境設定**&#x200B;をクリックします。
@@ -218,7 +218,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 <p>1 人のユーザーをプロジェクトのタスクに割り当て、プロジェクトとユーザーの両方にスケジュールを関連付けると、[!UICONTROL Workfront] では次のスケジュールが使用されます。</p> 
     <ul> 
      <li><strong>[!UICONTROL User]</strong>：タイムラインを計算するタスクに割り当てられたユーザーのスケジュール。</li> 
-     <li><strong>[!UICONTROL プロジェクト &#x200B;]</strong>: タスクのタイムラインを計算するプロジェクトのスケジュール。</li> 
+     <li><strong>[!UICONTROL プロジェクト ]</strong>: タスクのタイムラインを計算するプロジェクトのスケジュール。</li> 
     </ul> <p>スケジュールについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">スケジュールの作成</a>を参照してください。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 

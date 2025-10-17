@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-groups
 title: ユーザー名は既に使用されています
 description: ユーザー名が既に使用されているというエラーが表示された場合は、次のヒントをご確認ください。
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 93%

@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: グループのディアクティベートまたは再アクティベート
 description: 管理対象の使用しなくなったグループを非アクティブ化できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 89%
@@ -67,7 +67,7 @@ ht-degree: 89%
 
 1. グループの名前をクリックして、そのページを開きます。
 
-1. グループ名の横にある「詳細 ![&#x200B; メニュー &#x200B;](assets/more-icon.png) 「詳細」アイコン）をクリックし、「**アクティベートを解除**」または **アクティベートを再アクティベート** をクリックします。
+1. グループ名の横にある「詳細 ![ メニュー ](assets/more-icon.png) 「詳細」アイコン）をクリックし、「**アクティベートを解除**」または **アクティベートを再アクティベート** をクリックします。
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ ht-degree: 89%
 
   この状況でのサブグループの再アクティブ化について詳しくは、[非アクティブな親グループの下のサブグループの再アクティブ化について](#about-reactivating-a-subgroup-below-an-inactive-parent-group)を参照してください。
 
-* 「設定」の「グループ」領域に移動すると、リスト内のアクティブなグループのみが表示されます。これは、そのデフォルトのフィルター ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) がアクティブであるためです。 非アクティブなグループも含め、管理するすべてのグループを表示する場合は、すべてのフィルターを使用できます。または、非アクティブフィルターを使用して、非アクティブなフィルターのみをリストします。
+* 「設定」の「グループ」領域に移動すると、リスト内のアクティブなグループのみが表示されます。これは、そのデフォルトのフィルター ![ フィルターアイコン ](assets/filter-nwepng.png) がアクティブであるためです。 非アクティブなグループも含め、管理するすべてのグループを表示する場合は、すべてのフィルターを使用できます。または、非アクティブフィルターを使用して、非アクティブなフィルターのみをリストします。
 
   リスト内のフィルターについて詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 

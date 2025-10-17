@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: グループのプログラムを作成、変更、および表示する
 description: グループエリアで管理しているグループを表示しているときは、そのグループのプログラムを表示および操作できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51111523-8fb7-4379-995e-1834cac51872
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 79%
@@ -57,7 +57,7 @@ ht-degree: 79%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. プログラムを作成または変更するグループの名前をクリックします。
 1. 左パネルで「**プログラム**」をクリックして、表示するアクセス権のあるグループ（およびその中のサブグループ）に関連付けられているプログラムを一覧表示します。

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: ボードでのサブタスクの管理
 description: カードでサブタスクを使用すると、タスク間で親子関係を確立し、作業の階層を作成できます。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 94%

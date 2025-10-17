@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: ブループリントの設定
 description: ブループリントをインストールする前に、プロジェクトテンプレートまたは組織構造の詳細を設定できます。
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1841'
 ht-degree: 96%
@@ -132,7 +132,7 @@ ht-degree: 96%
 
    >[!INFO]
    >
-   >**例：**&#x200B;このブループリントの新規イシューの環境設定では、4 つのキューのトピックが提供されます。ユーザーは、イシューを作成する際に、これらのトピックの 1 つを選択します。（トピックグループは 1 つしか存在しないので、自動的に適用され、ユーザーは選択する必要はありません）。 ユーザーが問題を完了して送信すると、割り当て先の担当業務またはチームがルーティングルールで決定されます。
+   >**例：**このブループリントの新規イシューの環境設定では、4 つのキューのトピックが提供されます。ユーザーは、イシューを作成する際に、これらのトピックの 1 つを選択します。（トピックグループは 1 つしか存在しないので、自動的に適用され、ユーザーは選択する必要はありません）。 ユーザーが問題を完了して送信すると、割り当て先の担当業務またはチームがルーティングルールで決定されます。
    >![新規イシューの環境設定の例](assets/Blueprints_IssuePrefsDetails.png)
    >![新規イシューのキューのトピック](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![担当業務にルーティングされたイシュー](assets/Blueprints_ProjectShowsIssueAssignment.png)

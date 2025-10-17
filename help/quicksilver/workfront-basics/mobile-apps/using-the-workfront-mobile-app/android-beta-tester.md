@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Android ベータ版テスターになる
 description: この記事をレビューして、 [!DNL Adobe Workfront]  モバイルアプリの Android ベータテスターになります。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 98%
@@ -34,13 +34,13 @@ ht-degree: 98%
 
 1. 進行状況が完了したら、ベータ版ユーザーになったことを示す確認メッセージが表示されます。\
    [!DNL Play Store] 内のアプリ名の後に「[!UICONTROL Beta]」という単語が表示され、アプリのベータ版を使用していることを示します。\
-   ![Android ベータ版テスター &#x200B;](assets/android-beta-tester-adobe-350x468.png)
+   ![Android ベータ版テスター ](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR コード
 
 以下の QR コードをスキャンして、ベータ版に新規登録し、アプリをダウンロードすることもできます。
 
-![Android QR コード &#x200B;](assets/android-qr-code-350x409.png)
+![Android QR コード ](assets/android-qr-code-350x409.png)
 
 ## 現在の状況をお知らせください
 

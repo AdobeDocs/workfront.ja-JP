@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: グループステータスの削除
 description: グループ管理者は、自分が管理するグループのステータスが、システムレベルまたは階層内の上位グループで必須ステータスまたはロックステータスとして設定されていない場合、そのステータスを削除できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 94%

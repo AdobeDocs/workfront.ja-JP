@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: ブループリントの概要
 description: ブループリントは、Workfront の一般的なユースケースに対応する Workfront オブジェクトのセットです。ブループリントをダウンロードしてインストールし、特定のユースケースに合わせてオブジェクトを設定できます。
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 99%
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 ブループリントは、Workfront の一般的なユースケースに対応する Workfront オブジェクトのセットです。ブループリントをダウンロードしてインストールし、特定のユースケースに合わせてオブジェクトを設定できます。
 
-![&#x200B; ブループリントのメインページ &#x200B;](assets/blueprints-main-page-catalog.png)
+![ ブループリントのメインページ ](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >

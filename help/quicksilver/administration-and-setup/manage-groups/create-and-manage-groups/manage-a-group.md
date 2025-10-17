@@ -5,11 +5,11 @@ keywords: 管理, グループ化, 編集,
 navigation-topic: create-and-manage-groups
 title: グループの管理
 description: グループ管理者は、「設定」の「グループ」エリアで、管理対象のグループを管理できます。管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。Workfront 管理者（すべてのグループ）も同様です。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 94%
@@ -84,7 +84,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
-1. グループを選択し、編集 ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png)、コピー ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png)、削除 ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) アイコンをクリックします。
+1. グループを選択し、編集 ![ 編集アイコン ](assets/edit-icon.png)、コピー ![ コピーアイコン ](assets/copy-icon.png)、削除 ![ 削除アイコン ](assets/delete.png) アイコンをクリックします。
 
    表示されるボックスの使用に関する情報が必要な場合は、次のいずれかを参照してください。
 

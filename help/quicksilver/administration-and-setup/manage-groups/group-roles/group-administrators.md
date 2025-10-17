@@ -5,11 +5,11 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: 多くの部門がある大規模な組織の Adobe Workfront 管理者は、組織のすべての部門と部門内のすべてのグループを管理するのが困難な場合があります。そのような場合は、すべての部門とグループを管理する代わりに部門ごとのグループを作成し、そのグループ内にサブグループを作成し、それぞれをグループ管理者が管理できるようにします。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
@@ -66,7 +66,7 @@ Workfront 管理者の場合は、ユーザーをグループ管理者に指定�
 >[!IMPORTANT]
 >
 >グループ管理者は、管理対象のグループ管理者より高いアクセス権を持つ必要があります。そうでない場合、下位のアクセスレベルを表示または変更できなくなります。
->このアクセス権を付与する手順については、[カスタムアクセスレベルを作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+>>このアクセス権を付与する手順については、[カスタムアクセスレベルを作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 グループおよびサブグループのユーザーに定期タイムシートを割り当てる必要があるグループ管理者には、タイムシートと時間に対する管理アクセス権も付与しておくことをお勧めします。このアクセス権を付与する手順については、[特定のエリアに対する管理者アクセス権をユーザーに付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 

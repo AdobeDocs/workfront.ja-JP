@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-groups
 title: グループの移動
 description: 管理対象の別のグループの下にグループを移動できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 76%
@@ -59,9 +59,9 @@ ht-degree: 76%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
-1. グループを移動する宛先グループを選択し、編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. グループを移動する宛先グループを選択し、編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. 表示される&#x200B;**グループの編集**&#x200B;ボックスの&#x200B;**グループメンバーとグループ管理者**&#x200B;で、移動したいグループの名前を入力し始め、名前が表示されたらクリックします。
 1. 「**保存**」をクリックします。
 

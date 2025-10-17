@@ -5,9 +5,9 @@ navigation-topic: use-workfront-view
 title: ' [!DNL Adobe Workfront]  ビューでのプロジェクトリストのフィルター'
 feature: Get Started with Workfront
 description: デフォルトで、 [!DNL Adobe Workfront]  ビューでは  [!DNL Workfront] の[!UICONTROL すべてのプロジェクト]リストが表示されるので、表示できるすべてのプロジェクトがステータスに関係なく一覧表示されます。
-author: Nolan
+author: Lisa
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 94%

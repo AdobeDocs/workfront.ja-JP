@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: アジャイルバックログの管理
 description: タスクとイシューは、チームが使用しているアジャイル方法論に応じて、アジャイルチームに割り当てて、そのチームのバックログにストーリーとして追加できます。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 89%
@@ -125,7 +125,7 @@ ht-degree: 89%
 
    * **タスクを作成するには：**「**[!UICONTROL ストーリー]**」をクリックします。
 
-   * **イシューを作成するには：**&#x200B;[!UICONTROL 「]&#x200B;**イシュー**」をクリックします。
+   * **イシューを作成するには：**[!UICONTROL 「]**イシュー**」をクリックします。
 
 1. 「**[!UICONTROL 新規ストーリー]**」または「**[!UICONTROL 新規イシュー]**」をクリックします。
 
@@ -194,7 +194,7 @@ ht-degree: 89%
 
 1. アジャイルチームのバックログに移動します。
 1. 反復またはかんばんボードに移動するストーリーを選択し、**[!UICONTROL 詳細]**/**[!UICONTROL 移動先]** をクリックします。
-ストーリーを [!UICONTROL &#x200B; かんばん &#x200B;] ボードに移動すると、「[!UICONTROL &#x200B; ストーリーをかんばん &#x200B;] ボードに移動」が表示されます。
+ストーリーを [!UICONTROL  かんばん ] ボードに移動すると、「[!UICONTROL  ストーリーをかんばん ] ボードに移動」が表示されます。
 ストーリーをある反復に移動させる場合、[!UICONTROL ストーリーを反復に移動]ダイアログボックスが表示されます。
    ![ストーリーを移動ダイアログ](assets/agile-backlog-addtoiteration.png)
 

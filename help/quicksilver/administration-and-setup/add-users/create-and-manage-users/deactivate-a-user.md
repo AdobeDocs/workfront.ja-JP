@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Workfront管理者は、ユーザーをディアクティベートまたは再アクティベートできます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 72d0b8e0e190f774c7e3f14a78904fb1dd3f2b14
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 57%
@@ -30,7 +30,7 @@ ht-degree: 57%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -48,7 +48,7 @@ ht-degree: 57%
 >
 >* Workfront でユーザーを非アクティブ化すると、Workfront とデジタルプルーフの両方に対するユーザーのライセンスが削除されます。また、ユーザーに作業を割り当てることもできなくなります。ユーザーのアクティブ化を解除すると、そのユーザーの Workfront ライセンスおよびプルーフライセンスを他のユーザーが使用できるようになります。アクティブ化を解除したユーザーのプロファイルに含まれるその他の情報は、変更されません。
 >
->* Workfrontでユーザーをディアクティベートしても、Adobe Admin ConsoleのWorkfront製品プロファイルからユーザーが削除されるわけではありません。 詳しくは、[&#x200B; ユーザーの削除 &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) を参照してください。
+>* Workfrontでユーザーをディアクティベートしても、Adobe Admin ConsoleのWorkfront製品プロファイルからユーザーが削除されるわけではありません。 詳しくは、[ ユーザーの削除 ](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) を参照してください。
 
 
 ## アクセス要件
@@ -86,7 +86,7 @@ ht-degree: 57%
 
 Workfront 管理者、スタンダードライセンスユーザーやプランライセンスユーザーのアクティブ化を解除する前に、オブジェクトとアクティビティを別のユーザーに関連付ける必要があります。
 
-詳しくは、この記事の [Workfront管理者と Standard または Plan ライセンスのユーザーのアクティベート解除について &#x200B;](#about-deactivating-workfront-administrators-and-plan-license-users) を参照してください。
+詳しくは、この記事の [Workfront管理者と Standard または Plan ライセンスのユーザーのアクティベート解除について ](#about-deactivating-workfront-administrators-and-plan-license-users) を参照してください。
 
 ## ユーザーの非アクティブ化
 
@@ -103,7 +103,7 @@ Workfront 管理者、スタンダードライセンスユーザーやプラン�
 {{step-1-to-users}}
 
 1. ユーザーリストでユーザーを選択します。
-1. **その他** アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**非アクティブ化** をクリックします。
+1. **その他** アイコン ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**非アクティブ化** をクリックします。
 
 1. **ユーザーをアクティベート解除** ダイアログボックスで、「**アクティベートを解除**」をクリックします。
 
@@ -123,7 +123,7 @@ Workfront 管理者とプランライセンスユーザーは、ユーザープ�
 
    （オプション）複数のユーザーを選択して、一括で非アクティブ化をスケジュールします。
 
-1. **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. **ユーザーを編集** ボックスの左側のパネルで、「**リソースプランニング**」をクリックします。
 1. 「**アクティベート解除日を設定**」をクリックします。
 
@@ -145,7 +145,7 @@ Workfront 管理者とプランライセンスユーザーは、ユーザープ�
 
 {{step-1-to-users}}
 
-1. ユーザーを選択し、**その他** アイコン ![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) をクリックしてから、**アクティブ化** をクリックします。
+1. ユーザーを選択し、**その他** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックしてから、**アクティブ化** をクリックします。
 
 1. **ユーザーを再アクティブ化** ダイアログで、ドロップダウンメニューから新しい **アクセスレベル** を選択し、「**再アクティブ化**」をクリックします。
 <!--

@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: カレンダーレポートの共有
 description: カレンダーを他のユーザーと共有して公開し、 [!DNL Adobe Workfront]  ライセンスを持たない人がカレンダーを表示できるようにできます。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 78%
@@ -62,8 +62,8 @@ ht-degree: 78%
 
 1. 共有するカレンダーに移動します。
 1. カレンダー名の横にある **詳細** メニューをクリックし、「**共有**」をクリックします。
-   ![&#x200B; カレンダーの詳細メニュー &#x200B;](assets/more-menu-calendar.png)
-1. **&#x200B;**&#x200B;へのアクセス権限付与の相手フィールドに、カレンダーを共有するユーザー、チーム、役割、グループまたは会社の名前を入力し、ドロップダウンリストに名前が表示されたらクリックします。\
+   ![ カレンダーの詳細メニュー ](assets/more-menu-calendar.png)
+1. **** へのアクセス権限付与の相手フィールドに、カレンダーを共有するユーザー、チーム、役割、グループまたは会社の名前を入力し、ドロップダウンリストに名前が表示されたらクリックします。\
    権限の設定について詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
 1. （オプション）カレンダーへのアクセスを許可するユーザー、チーム、役割またはグループごとに手順 3 を繰り返します。
@@ -71,17 +71,17 @@ ht-degree: 78%
 
    * **[!UICONTROL 表示]：**&#x200B;ユーザーは、カレンダーを確認し、共有できます。
 
-     ![&#x200B; 表示アクセス権でカレンダーを共有 &#x200B;](assets/view-calendar.png)
+     ![ 表示アクセス権でカレンダーを共有 ](assets/view-calendar.png)
 
    * **[!UICONTROL 管理]：** ユーザーは、カレンダーへのフルアクセス権を持ち、アクセスレベルで付与される管理権限を除き、すべての表示権限を持ちます。
 
-     ![&#x200B; 管理アクセス権でカレンダーを共有 &#x200B;](assets/manage-calendar.png)
+     ![ 管理アクセス権でカレンダーを共有 ](assets/manage-calendar.png)
 
      >[!NOTE]
      >
      >[!DNL Workfront] 管理者とカレンダーの作成者は、これらのエンティティから権限を削除できます。
 
-1. （任意）ユーザーの役割に応じて、**[!UICONTROL 詳細オプション]**&rbrack; をクリックし、**[!UICONTROL 共有]**&#x200B;をクリックすると、ユーザーは他のユーザーとカレンダーを共有できます。
+1. （任意）ユーザーの役割に応じて、**[!UICONTROL 詳細オプション]**] をクリックし、**[!UICONTROL 共有]**&#x200B;をクリックすると、ユーザーは他のユーザーとカレンダーを共有できます。
 
    権限レベルについて詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
@@ -97,7 +97,7 @@ ht-degree: 78%
 1. 共有するカレンダーに移動します。
 1. 「**[!UICONTROL カレンダーのアクション]**」をクリックして、「**[!UICONTROL 共有]**」をクリックします。
 1. カレンダー名の横にある **詳細** メニューをクリックします。
-   ![&#x200B; カレンダーの詳細メニュー &#x200B;](assets/more-menu-calendar.png)
+   ![ カレンダーの詳細メニュー ](assets/more-menu-calendar.png)
 **公開リンクをコピー** をクリックします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -107,9 +107,9 @@ ht-degree: 78%
 
 1. 共有するカレンダーに移動します。
 1. カレンダー名の横にある **詳細** メニューをクリックし、「**[!UICONTROL 共有可能なリンクを取得]**」をクリックします。
-   ![&#x200B; カレンダーの詳細メニュー &#x200B;](assets/more-menu-calendar.png)
+   ![ カレンダーの詳細メニュー ](assets/more-menu-calendar.png)
 
    >[!NOTE]
    >
-   >[!DNL Workfront] ユーザーがリンクを使用してカレンダーにアクセスするには、カレンダーへのアクセス権を持っている必要があります。アクセス権を付与するには、[&#x200B; [!DNL Workfront]  ユーザーとのカレンダーの共有](#share-a-calendar-with-workfront-users)を参照してください。\
+   >[!DNL Workfront] ユーザーがリンクを使用してカレンダーにアクセスするには、カレンダーへのアクセス権を持っている必要があります。アクセス権を付与するには、[ [!DNL Workfront]  ユーザーとのカレンダーの共有](#share-a-calendar-with-workfront-users)を参照してください。\
    >ユーザーがアクセス権を持っていない場合、リンクをブラウザーに貼り付けた後にリクエストできます。

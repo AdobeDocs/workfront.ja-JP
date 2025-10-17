@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 既存のカレンダーレポートの編集
 description: プロジェクトへのリンクを追加または削除することで、既存のカレンダーを変更できます。また、カレンダーレポートに関連付けられているカレンダーのグループ化を変更することもできます。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 64%
@@ -67,12 +67,12 @@ ht-degree: 64%
    1. 「**[!UICONTROL カレンダーに追加]」をクリックします。**
    1. カレンダーイベントを追加するプロジェクトの名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
    1. 「**追加**」をクリックします。
-      ![&#x200B; カレンダーへのプロジェクトの追加 &#x200B;](assets/add-a-calendar-project.png)
+      ![ カレンダーへのプロジェクトの追加 ](assets/add-a-calendar-project.png)
 
 
 1. （オプション）カレンダーのグループ化を追加するか、カレンダーの既存のグループ化を変更するには、次の手順に従います。
    1. プロジェクト名の横にある **詳細** メニューをクリックし、「**編集**」をクリックします。
-      ![&#x200B; カレンダーでプロジェクトを編集 &#x200B;](assets/edit-project-in-calendar.png)
+      ![ カレンダーでプロジェクトを編集 ](assets/edit-project-in-calendar.png)
 
    1. アイテムをグループ化する方法を次の中から選択します。
 

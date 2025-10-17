@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: 通知：Goals
 description: 通知：Goals
-author: Lisa
+author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 89%
@@ -56,14 +56,14 @@ ht-degree: 89%
 
 ## 前提条件
 
-* [!DNL Goals] 通知を更新するユーザーには、[!DNL Goals] メインメニュー [!UICONTROL &#x200B; の &#x200B;] 領域を含むレイアウトテンプレートが必要です。
+* [!DNL Goals] 通知を更新するユーザーには、[!DNL Goals] メインメニュー [!UICONTROL  の ] 領域を含むレイアウトテンプレートが必要です。
 
 
-## [!UICONTROL &#x200B; ユーザープロファイル &#x200B;]エリアにある [!DNL Goals] の通知
+## [!UICONTROL  ユーザープロファイル ]エリアにある [!DNL Goals] の通知
 
 次のテーブルに表示される通知は、[!DNL Workfront Goals] で発生しているイベントに関する警告です。例えば、目標、結果、アクティビティを割り当てているユーザーや、所有する目標、結果、アクティビティを更新しているユーザーなどです。受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
-![&#x200B; 通知環境設定 &#x200B;](assets/goals-notifications-preferences-350x114.png)
+![ 通知環境設定 ](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >

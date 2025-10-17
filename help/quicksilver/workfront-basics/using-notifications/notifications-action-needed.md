@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：アクションが必要」
+title: 通知：アクションが必要
 description: 作業アイテムに対してアクションを実行する必要がある場合は、次の通知が表示されます。受信する通知の設定について詳しくは、自身のメール通知の変更を参照してください。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: dd383bd4-da30-45ea-889e-e6b49416974b
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 100%

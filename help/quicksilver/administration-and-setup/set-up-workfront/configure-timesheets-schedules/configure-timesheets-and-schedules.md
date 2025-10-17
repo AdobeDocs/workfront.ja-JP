@@ -5,12 +5,12 @@ product-area: system-administration;timesheets
 navigation-topic: set-up-workfront
 title: スケジュールおよびタイムシート設定の構成
 description: ' [!DNL Workfront] 管理者は、スケジュールを使用して週労働時間を定義でき、ユーザーまたはプロジェクトにスケジュールを関連付けることができます。これにより、 [!DNL Adobe Workfront] でタイムラインとユーザーの空き時間を計算できます。また、タイムシートと時間の環境設定を指定することもできます。'
-author: Lisa and Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: eb3e58d4-a8c6-4b5c-a045-742509f2b5c6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 93%

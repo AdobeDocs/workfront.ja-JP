@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: グループの役割
 description: Workfront 管理者は、作業およびコミュニケーションが必要な Workfront エリアへのアクセス権をグループに付与します。各グループは、ユーザー、テンプレート、カスタムフォームなどの Workfront の情報やプロジェクトを他の部門のものと分けて別に管理できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 97%

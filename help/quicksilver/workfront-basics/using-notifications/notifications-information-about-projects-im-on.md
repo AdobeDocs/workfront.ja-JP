@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：自分が参加しているプロジェクトに関する情報」
+title: 通知：自分が参加しているプロジェクトに関する情報
 description: 次の通知は、作業中のプロジェクトで発生するアクティビティについて警告します。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 100%
@@ -64,7 +64,7 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分が参加しているプロジェクトに問題が追加された</strong> </p> <p>イシューがプロジェクトに追加されると、プロジェクトチームのメンバーはメール通知を受け取ります。</p> <p>プロジェクトのステータスが「進行中」の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名は次の通りです：<em>[!UICONTROL Issue added to] &lt;Project Name&gt;</em></p> <p> </p> <p> 日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>自分が参加しているプロジェクトに問題が追加された</strong> </p> <p>イシューがプロジェクトに追加されると、プロジェクトチームのメンバーはメール通知を受け取ります。</p> <p>プロジェクトのステータスが「進行中」の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名は次の通りです：<em>[!UICONTROL Issue added to] &lt;Project Name&gt;</em></p> <p></p> <p> 日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p> </td> 
    <td> プロジェクト名<br>ポートフォリオ名<br>イシューの参照番号<br>イシューを追加したユーザーの名前<br>イシュータイプ<br>イシュー名<br>入力した日付<br>イシューの優先度<br>割り当て先の名前 <br>イシューのステータス<br>プライマリ連絡先<br>*プロジェクト名<br>*プロジェクトの参照番号<br>*プロジェクトに追加されたイシューの合計数<br>*イシュー名<br>*イシューの割り当て先のユーザーの名前<br>*日次ダイジェストの日付 </td> 
    <td> <p><strong>今すぐ</strong> </p> <p><strong>および日次</strong> </p> </td> 
   </tr> 

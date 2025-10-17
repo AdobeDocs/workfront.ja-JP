@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: ブループリントへのアクセスの設定
 description: システム管理者は、リクエストを保存するリクエストキューを設定することで、ユーザーがブループリントのインストールをリクエストするためのアクセス権を有効にできます。そこで、リクエストの追跡と更新を一元的に行うことができます。
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 96%

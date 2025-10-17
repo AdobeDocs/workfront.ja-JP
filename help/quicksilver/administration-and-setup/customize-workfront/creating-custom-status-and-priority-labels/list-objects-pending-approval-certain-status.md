@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: 特定のステータスを使用した、承認保留中プロセスのオブジェクトのリスト
 description: ステータスを削除しようとすると、システム内のオブジェクトの承認待ちプロセスで使用されているため削除できないことを示すエラーメッセージが表示される場合があります。これらのオブジェクトを検索して確認し、必要な作業を決定する場合は、それらのオブジェクトを一覧表示するレポートを実行できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 86%

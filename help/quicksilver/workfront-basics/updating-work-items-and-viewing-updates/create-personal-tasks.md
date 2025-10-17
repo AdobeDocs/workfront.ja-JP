@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 個人タスクの作成
 description: 個人タスクは、ユーザー、自分自身、または自分のホームエリアで自分用に作成した To Do アイテムに送信するアドホックな作業リクエストです。 Workfrontは、個人のタスクとして行うアドホックな作業リクエストとタスクを保存します。
-author: Lisa
+author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 4%
@@ -34,14 +34,14 @@ Adobe Workfrontは、Wprfront が各ユーザーに対して自動的に作成�
 
 * ホームエリアで To Do アイテムを作成する
 
-  詳しくは、[&#x200B; ホームエリアからの作業項目とプロジェクトの作成 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
+  詳しくは、[ ホームエリアからの作業項目とプロジェクトの作成 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
 
 * ユーザープロファイルページからの個人の作業要求の作成と別のユーザーへの送信
 * ユーザープロファイルページからの個人の作業要求の作成と送信
 
 この記事では、ユーザープロファイル ページからユーザーまたは自分用の個人用作業要求を作成する方法について説明します。
 
-個人のタスクをどのように追加するかに関係なく、Workfrontの同じ領域でそれらを見つけることができます。 詳細については、この記事の「個人のタスクを検索する [&#x200B; を参照し &#x200B;](#locate-personal-tasks) ください。
+個人のタスクをどのように追加するかに関係なく、Workfrontの同じ領域でそれらを見つけることができます。 詳細については、この記事の「個人のタスクを検索する [ を参照し ](#locate-personal-tasks) ください。
 
 ## アクセス要件
 
@@ -138,8 +138,8 @@ Adobe Workfrontは、Wprfront が各ユーザーに対して自動的に作成�
 
 * 個人の要求が送信されたユーザーのホーム領域の To-Do ウィジェット。
 
-  詳しくは、[&#x200B; ホームエリアからの作業項目とプロジェクトの作成 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
+  詳しくは、[ ホームエリアからの作業項目とプロジェクトの作成 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
 
 * 個人のタスクレポートまたはリスト。 個人タスク フィルターを作成してタスク報告書またはリストに適用し、個人タスクのみを表示して、プロジェクト タスクを除外することができます。
 
-  詳しくは、[&#x200B; フィルター：個人用タスク &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md) を参照してください。
+  詳しくは、[ フィルター：個人用タスク ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md) を参照してください。

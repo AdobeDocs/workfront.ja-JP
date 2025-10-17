@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: すべてのグループのイベント通知の設定のロック解除またはロック
 description: Adobe Workfront の管理者は、管理するトップレベルのグループに対してグループ管理者がイベント通知を設定できるようにロック解除または再ロックできます。イベント通知の設定は、その設定の有効化と無効化で構成されます。
-author: Lisa, Nolan
+author: Courtney, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 95%

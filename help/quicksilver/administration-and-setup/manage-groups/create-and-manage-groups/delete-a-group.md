@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: グループの削除
 description: 管理対象のグループを削除できます。管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。Workfront 管理者（すべてのグループ）も同様です。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 73%
@@ -53,9 +53,9 @@ ht-degree: 73%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
-1. 削除するグループを選択し、削除アイコン ![&#x200B; 削除 &#x200B;](assets/delete.png) をクリックします。
+1. 削除するグループを選択し、削除アイコン ![ 削除 ](assets/delete.png) をクリックします。
 
    >[!IMPORTANT]
    >
@@ -63,6 +63,6 @@ ht-degree: 73%
 
 1. 表示される「**グループの削除**」ボックスに入力を開始し、削除するグループのメンバー、作業アイテムおよびサブグループを移動するグループ名を選択します。
 
-   グループの上にマウスポインターを置き、その横に表示される情報アイコン ![&#x200B; 情報アイコン &#x200B;](assets/info-icon.png) をクリックして、適切なグループを確実に選択できます。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。
+   グループの上にマウスポインターを置き、その横に表示される情報アイコン ![ 情報アイコン ](assets/info-icon.png) をクリックして、適切なグループを確実に選択できます。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。
 
 1. 「**これらを削除します**」をクリックします。

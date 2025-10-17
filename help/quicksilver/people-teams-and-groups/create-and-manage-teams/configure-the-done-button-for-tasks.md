@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: タスクの「完了」ボタンの設定
 description: 「完了」ボタンは、タスクまたはイシューのステータスを自動的に設定できます。デフォルトでは、割り当て先が作業アイテムで「完了」をクリックすると、Adobe Workfront はタスクを完了としてマークします。
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 90%
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 # タスクの「[!UICONTROL 完了]」ボタンの設定
 
-「[!UICONTROL 完了]」ボタンを使用すると、タスクまたはイシューのステータスを自動的に設定できます。デフォルトでは、[!UICONTROL 0&rbrace;Adobe Workfront&rbrace; は、担当者が作業項目で「完了としてマーク」をクリックすると、タスクを &#x200B;] 完了 [!UICONTROL &#x200B; としてマークします。]
+「[!UICONTROL 完了]」ボタンを使用すると、タスクまたはイシューのステータスを自動的に設定できます。デフォルトでは、[!UICONTROL 0}Adobe Workfront} は、担当者が作業項目で「完了としてマーク」をクリックすると、タスクを ] 完了 [!UICONTROL  としてマークします。]
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 90%
 
 ## 概要
 
-特定の権限を持つユーザーは、「[!UICONTROL &#x200B; 完了 &#x200B;]」ボタンを設定して、システム内の特定のステータスに関連付けることができます。 [!UICONTROL Workfront] でのタスクに対する「[!UICONTROL 完了]」ボタンの動作は 2 とおりあります。
+特定の権限を持つユーザーは、「[!UICONTROL  完了 ]」ボタンを設定して、システム内の特定のステータスに関連付けることができます。 [!UICONTROL Workfront] でのタスクに対する「[!UICONTROL 完了]」ボタンの動作は 2 とおりあります。
 
 * ユーザーにホームチームが割り当てられている場合、[!DNL Workfront] 管理者または[!UICONTROL プラン]ライセンスを持つユーザーは、チームメンバーの特定のステータスを反映するように「[!UICONTROL 完了]」ボタンを設定できます。この記事の[チームの「[!UICONTROL 完了]」ボタンの設定](#configure-the-uicontrol-done-button-for-a-team)を参照してください。
 * ユーザーには[!UICONTROL ホームチーム]がないが、ユーザーのプロファイルには[!UICONTROL 他のチーム]がある場合、Workfront では、ユーザーに関連付けられているチームのいずれかで「[!UICONTROL 完了]」ボタンの設定を検索します。選択はランダムであり、いずれかのチームに関連付けられているステータスがタスクに使用されます。

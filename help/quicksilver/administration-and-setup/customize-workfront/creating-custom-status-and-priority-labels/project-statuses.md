@@ -5,11 +5,11 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: ユーザーはプロジェクトのステータスを指定して、他のユーザーが特定の時点でのプロジェクトの現在の開発ステージを表示できるようにします。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 93%
@@ -68,7 +68,7 @@ Workfront 管理者は、システムレベルのプロジェクトステータ�
 
    Workfront で使用できるプロジェクトステータスがこのタブに表示されます。
 
-   ![&#x200B; プロジェクトステータス &#x200B;](assets/project-status.png)
+   ![ プロジェクトステータス ](assets/project-status.png)
 
    ビルトインの各システムプロジェクトステータスについて詳しくは、[システムプロジェクトステータスの概要](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)を参照してください。
 

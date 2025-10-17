@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: collaboration
 title: 組織図を表示する
 description: 組織図機能を使用すると、特定の Adobe Workfront ユーザーに関連付けられた組織図を表示できます。組織図は、特定の部門の構造を視覚化する優れた方法です。
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 79%

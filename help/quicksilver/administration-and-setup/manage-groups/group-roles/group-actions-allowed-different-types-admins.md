@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: グループ管理者に許可されたアクション
 description: この表は、Workfront システムを管理する Adobe Workfront 管理者、上位のグループを管理するグループ管理者、サブグループを管理するグループ管理者が使用できる管理アクティビティを比較しています。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 416be55e172e2e2f0a1d8b593fdcb27d123e2fcb
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 63%
@@ -226,7 +226,7 @@ ht-degree: 63%
  </tbody> 
 </table>
 
-&#42; グループ管理者のアクセスレベルで、**ユーザー** 設定に対して **編集** を選択し、**ユーザー管理者（グループユーザー）**&#x200B;**設定の微調整**![&#x200B; 設定の微調整アイコン &#x200B;](assets/gear-icon-in-access-levels.png) で選択する必要があります。 詳しくは、[ユーザーにアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)の記事の[カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)の節を参照してください。
+&#42; グループ管理者のアクセスレベルで、**ユーザー** 設定に対して **編集** を選択し、**ユーザー管理者（グループユーザー）****設定の微調整**![ 設定の微調整アイコン ](assets/gear-icon-in-access-levels.png) で選択する必要があります。 詳しくは、[ユーザーにアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)の記事の[カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)の節を参照してください。
 
 &#42;&#42;グループ管理者のアクセスレベルで、このアクションへのアクセスを有効にする必要があります。詳しくは、[特定のエリアに対する管理者アクセス権をユーザーに付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
@@ -235,7 +235,7 @@ ht-degree: 63%
 * ワークフローのPrime以降
 * Workfront Prime以降
 
-パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ &#x200B;](https://business.adobe.com/jp/products/workfront/pricing.html) を参照してください。
+パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ ](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
 
 高度なエンタープライズ制御：
 

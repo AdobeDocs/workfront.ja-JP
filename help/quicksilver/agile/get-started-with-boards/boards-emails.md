@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: ボードのメール通知および環境設定
 description: Adobe Workfront ボードは、ボードに追加されたときや、カードが割り当てられたときに、メールを送信します。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 89%

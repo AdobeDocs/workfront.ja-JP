@@ -3,10 +3,10 @@ content-type: reference
 navigation-topic: notifications
 title: 通知：所有するプロジェクトに関する情報
 description: 次の通知は、所有するプロジェクトで行われるアクティビティに関して警告します。受信する通知の設定について詳しくは、自身のメール通知の変更を参照してください。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: cf605849-bcc0-4982-b8fa-f69eef7a4fb6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 100%
@@ -47,7 +47,7 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分が所有するプロジェクトにイシューが追加される</strong> </p> <p>プロジェクト所有者は、イシューがプロジェクトに追加されるとメール通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL Current] か [!UICONTROL Planning] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Issue added to] &lt;Project Name&gt;</em></p> <p> </p> <p> 日刊ダイジェスト通知の件名：<em> [!UICONTROL Digest of Projects You Own] &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>自分が所有するプロジェクトにイシューが追加される</strong> </p> <p>プロジェクト所有者は、イシューがプロジェクトに追加されるとメール通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL Current] か [!UICONTROL Planning] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Issue added to] &lt;Project Name&gt;</em></p> <p></p> <p> 日刊ダイジェスト通知の件名：<em> [!UICONTROL Digest of Projects You Own] &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>プロジェクト名<br>ポートフォリオ名<br>イシューの参照番号<br>イシューを追加したユーザーの名前<br>イシュー名<br>イシューのタイプ<br>エントリ日<br>イシューの優先度<br>割り当て先名 <br>イシューステータス<br>プライマリ連絡先<br>*プロジェクト名<br>*プロジェクト参照番号<br>*プロジェクトに追加されたイシューの合計数<br>*イシュー名<br>*イシューを追加したユーザーの名前<br>*日刊ダイジェストの日付</p> </td> 
    <td> <p><strong>即時</strong> </p> <p><strong>および日次</strong> </p> </td> 
   </tr> 
@@ -67,12 +67,12 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分が所有するプロジェクトに未割り当てのイシューが追加される</strong> </p> <p>プロジェクト所有者は、未割り当てのイシューがプロジェクトに追加されるとメール通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL Current] か [!UICONTROL Planning] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Who should be assigned to this new issue on] &lt;Project Name&gt;?</em></p> <p> </p> <p> 日刊ダイジェスト通知の件名：<em>所有するプロジェクトのダイジェスト &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>自分が所有するプロジェクトに未割り当てのイシューが追加される</strong> </p> <p>プロジェクト所有者は、未割り当てのイシューがプロジェクトに追加されるとメール通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL Current] か [!UICONTROL Planning] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Who should be assigned to this new issue on] &lt;Project Name&gt;?</em></p> <p></p> <p> 日刊ダイジェスト通知の件名：<em>所有するプロジェクトのダイジェスト &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>プロジェクト名<br>ポートフォリオ名<br>イシューの参照番号<br>イシューを追加したユーザーの名前<br>イシュー名<br>イシューのタイプ<br>エントリ日<br>イシューの優先度<br>割り当て先名（空）<br>イシューステータス<br>プライマリ連絡先<br>*プロジェクト名<br>*プロジェクト参照番号<br>*追加されたイシューの総数<br>*イシュー名<br>*イシューを追加したユーザーの名前<br>*日刊ダイジェストの日付<br></p> </td> 
    <td> <p><strong>即時</strong> </p> <p><strong>および日次</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>新規プロジェクトの所有者に設定された</strong> </p> <p>ユーザーがプロジェクト所有者として割り当てられると、そのユーザーにメール通知が届きます。</p> <p>割り当てを行ったユーザーとプロジェクト所有者が同じ場合、メール通知は送信されません。</p> <p>[!UICONTROL Review] ライセンスを持つユーザーには通知が送信されません。</p> <p>ユーザーは何かに割り当てられているので、これをオンにします。 </p> <p> 何かを割り当て、何かを共有し、何かへのアクセス権を取得しています。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL You're now the project owner of] &lt;Project Name&gt;</em></p> <p>メール通知の本文には、次のテキストが含まれます。<em><br></em></p> <p><em>[!UICONTROL Hi] &lt;Your Name&gt;,<br></em><em>&lt;Name of the user who assigned you as the Project Owner&gt; [!UICONTROL made you the owner of] &lt;Project Name&gt;. [!UICONTROL As the Project Owner] は、プロジェクトアクティビティに関するメール通知を受信したり、プロジェクト時間数の承認を要求されたり、プロジェクト関連作業の承認に関与することがあります。全て自分の担当となります。</em> </p> <p> 日刊ダイジェスト通知の件名は次のとおりです。<em>[!UICONTROL Digest of Projects You Own] &lt;Date of daily digest&gt; </em></p> <p> </p> </td> 
+   <td> <p><strong>新規プロジェクトの所有者に設定された</strong> </p> <p>ユーザーがプロジェクト所有者として割り当てられると、そのユーザーにメール通知が届きます。</p> <p>割り当てを行ったユーザーとプロジェクト所有者が同じ場合、メール通知は送信されません。</p> <p>[!UICONTROL Review] ライセンスを持つユーザーには通知が送信されません。</p> <p>ユーザーは何かに割り当てられているので、これをオンにします。 </p> <p> 何かを割り当て、何かを共有し、何かへのアクセス権を取得しています。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL You're now the project owner of] &lt;Project Name&gt;</em></p> <p>メール通知の本文には、次のテキストが含まれます。<em><br></em></p> <p><em>[!UICONTROL Hi] &lt;Your Name&gt;,<br></em><em>&lt;Name of the user who assigned you as the Project Owner&gt; [!UICONTROL made you the owner of] &lt;Project Name&gt;. [!UICONTROL As the Project Owner] は、プロジェクトアクティビティに関するメール通知を受信したり、プロジェクト時間数の承認を要求されたり、プロジェクト関連作業の承認に関与することがあります。全て自分の担当となります。</em> </p> <p> 日刊ダイジェスト通知の件名は次のとおりです。<em>[!UICONTROL Digest of Projects You Own] &lt;Date of daily digest&gt; </em></p> <p></p> </td> 
    <td> <p>プロジェクト名<br>ポートフォリオ名<br>プロジェクト参照番号<br>プロジェクト完了日<br>*プロジェクト名<br>*プロジェクト参照番号<br>*日刊ダイジェストの日付</p> </td> 
    <td><strong>即時</strong> </td> 
   </tr> 

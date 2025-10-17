@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: スクラムボードでストーリーを色別に分類
 description: スクラムボードストーリーのデフォルトの色分けは、ストーリーボードが反復に配置されているかプロジェクトに配置されているかによって異なります。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 89%
@@ -59,8 +59,8 @@ ht-degree: 89%
 1. 左パネルで、「**[!UICONTROL 反復]**」を選択して特定の反復を選ぶか、「**[!UICONTROL 進行中の反復]**」を選択します。
 1. ストーリータイルの上部にある色付きバナーにポインタを合わせます。
 
-   ![&#x200B; ストーリーカード &#x200B;](assets/agile-story-color1-nwe-350x140.png)
+   ![ ストーリーカード ](assets/agile-story-color1-nwe-350x140.png)
 
 1. 「**[!UICONTROL 色の変更]**」をクリックし、目的の色を選択します。
 
-   ![&#x200B; 色を選択 &#x200B;](assets/agile-story-color2-nwe-350x138.png)
+   ![ 色を選択 ](assets/agile-story-color2-nwe-350x138.png)

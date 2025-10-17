@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: カスタム条件を削除することができます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 60%
@@ -66,4 +66,4 @@ ht-degree: 60%
 >
 >「目標どおり」、「危険あり」、「トラブル発生中」のビルトインの条件は削除できません。ただし、名前と色は変更できます。
 >
->カスタム条件の編集について詳しくは、[&#x200B; カスタム条件の作成または編集 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) を参照してください。
+>カスタム条件の編集について詳しくは、[ カスタム条件の作成または編集 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) を参照してください。

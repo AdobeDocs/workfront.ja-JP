@@ -4,12 +4,12 @@ product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: イテレーション
 description: 次の記事では、スクラム環境で作業する際にイテレーションを使用する方法について説明します。
-author: Lisa
+author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
-workflow-type: ht
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 100%
 

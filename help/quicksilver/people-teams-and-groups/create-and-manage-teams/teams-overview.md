@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: チームの概要
 description: Adobe Workfront のチームの目的は、機能的作業グループの職場での実際の動きを捉えることです。
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: c62c0789-2aaa-4091-9c45-b9e7801043a9
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 99%
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 [!DNL Adobe Workfront] のチームの目的は、各部署の職場での実際の動きを捉えることです。
 
-グループの代わりにチームを使用する方法について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md) のグループとチームを参照してください。
+グループの代わりにチームを使用する方法について詳しくは、[ [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md) のグループとチームを参照してください。
 
 ## チームの編成
 

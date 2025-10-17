@@ -5,11 +5,11 @@ keywords: 追加、ユーザー、グループ、追加、別の、割り当て�
 navigation-topic: create-and-manage-groups
 title: グループのメンバーシップの表示と管理
 description: Adobe Workfront 管理者は、管理対象の任意のグループのメンバーの表示、追加、削除、書き出し、アクティブ化、非アクティブ化を行うことができます。また、グループメンバーのプロファイルの編集や更新を行い、グループの追加のグループ管理者としてグループメンバーを割り当てることもできます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 89%

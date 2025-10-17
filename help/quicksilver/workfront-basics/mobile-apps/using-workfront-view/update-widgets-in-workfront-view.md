@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: プロジェクトの詳細ビューでのウィジェットの更新
 description: '[!UICONTROL プロジェクト詳細]画面にウィジェットを追加して、プロジェクトリストから[!UICONTROL プロジェクト]にアクセスしたら、そのプロジェクトに関する追加情報を確認できます。各ユーザーは、自身のウィジェットをカスタマイズできます。'
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 96%
@@ -50,7 +50,7 @@ ht-degree: 96%
 1. 画面中央の下部にあるタブをタップします。\
    [!UICONTROL ウィジェット]エリアが表示されます。\
    ウィジェットをスクロールするには、左から右にスワイプします。\
-   ![&#x200B; ウィジェット &#x200B;](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![ ウィジェット ](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. ウィジェットをドラッグ＆ドロップして、プロジェクトページのレイアウトをカスタマイズします。\
    一度に最大 4 つのウィジェットを表示できます。\

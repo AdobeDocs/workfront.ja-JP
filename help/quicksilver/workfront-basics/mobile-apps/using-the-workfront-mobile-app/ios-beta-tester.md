@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: iOS のベータ版テスターになる
 description: この記事を確認して、 [!DNL Adobe Workfront]  モバイルアプリの iOS ベータ版のテスターになってください。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 99%
@@ -27,7 +27,7 @@ ht-degree: 99%
 >
 >[!DNL TestFlight] アプリをインストール後、[!DNL iOS] デバイスでベータ版テスターになるには、[!DNL Apple Store] の代わりに [!DNL TestFlight] アプリを使用して、[!DNL Workfront] のアップデートバージョンをダウンロードする必要があります。[!DNL iOS] のベータ版テスターでない場合は、[!DNL Apple Store] からモバイルアプリのアップデートを続行できます。
 
-#### 1. [!DNL TestFlight] アプリのインストール
+#### &#x200B;1. [!DNL TestFlight] アプリのインストール
 
 [!DNL Workfront] アプリのベータ版バージョンをインストールするには、お使いのデバイスに [!DNL TestFlight] アプリのインストールが必要です。[!DNL TestFlight] のインストール後、[!DNL Workfront] アプリのインストールが必要です。
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 1. 「**[!UICONTROL 確定]**」をタップして、[!DNL TestFlight] アプリの利用規約に同意します。\
    [!DNL TestFlight] アプリがお使いのデバイスにインストールされます。次の節に進みます。
 
-#### 2. [!DNL TestFlight] に [!DNL Workfront] ベータ版アプリのインストール
+#### &#x200B;2. [!DNL TestFlight] に [!DNL Workfront] ベータ版アプリのインストール
 
 iOS デバイスでベータ版テスターになる前に、[!DNL Workfront] アプリおよび [!DNL TestFlight] アプリが iOS デバイスにインストールされていることが必要です。
 
@@ -58,7 +58,7 @@ iOS デバイスでベータ版テスターになる前に、[!DNL Workfront] �
 
 以下の QR コードをスキャンして、ベータ版に新規登録し、アプリをダウンロードすることもできます。
 
-![iOS QR コード &#x200B;](assets/ios-qr-code-350x397.png)
+![iOS QR コード ](assets/ios-qr-code-350x397.png)
 
 ## 現在の状況をお知らせください
 

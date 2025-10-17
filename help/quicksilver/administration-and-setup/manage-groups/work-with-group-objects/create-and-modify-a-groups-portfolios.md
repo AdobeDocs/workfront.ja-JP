@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: グループのポートフォリオの作成および変更
 description: グループ管理者がグループエリアで、自身が管理するグループを表示する際は、そのポートフォリオのプログラムを表示および操作できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 88%
@@ -57,7 +57,7 @@ ht-degree: 88%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. ポートフォリオを作成、表示、および操作するグループの名前をクリックします。
 1. 左側のパネルで、「**ポートフォリオ**」をクリックして、グループ（およびその下のサブグループ）に関連付けられているポートフォリオを一覧表示します。

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: チーム設定の編集
 description: Workfront 管理者、またはプランライセンスもしくはワークライセンスを持つユーザーは、チーム設定を編集できます。
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 89%
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 # チーム設定を編集
 
-[!DNL Adobe Workfront] 管理者、または [!UICONTROL &#x200B; 標準 &#x200B;]、[!UICONTROL &#x200B; プラン &#x200B;] または [!UICONTROL &#x200B; 作業 &#x200B;] ライセンスを持つユーザーは、[!UICONTROL &#x200B; チーム設定 &#x200B;] を編集できます。
+[!DNL Adobe Workfront] 管理者、または [!UICONTROL  標準 ]、[!UICONTROL  プラン ] または [!UICONTROL  作業 ] ライセンスを持つユーザーは、[!UICONTROL  チーム設定 ] を編集できます。
 
 チームにユーザーを追加し、チームのレイアウトテンプレートを設定し、チームが作業項目を完了したときのステータスの記録方法を設定できます。
 
@@ -52,7 +52,7 @@ ht-degree: 89%
 
 1. **[!UICONTROL その他]**&#x200B;メニュー（![](assets/more-icon.png)）をクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL &#x200B; 標準 &#x200B;]、[!UICONTROL &#x200B; プラン &#x200B;]、または [!UICONTROL &#x200B; ワーク &#x200B;] ライセンスのいずれかを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL  標準 ]、[!UICONTROL  プラン ]、または [!UICONTROL  ワーク ] ライセンスのいずれかを持つチームメンバーのみがこのオプションを表示します。
 
    「[!UICONTROL 編集]」オプションがあるべきなのに表示されない場合は、[!UICONTROL スクラムチーム]、[!UICONTROL かんばんチーム]、または[!UICONTROL ウォーターフォールチーム]に対してレイアウトテンプレートで「[!UICONTROL チーム設定]」が表示されていることを確認するよう Workfront 管理者に依頼してください。
 

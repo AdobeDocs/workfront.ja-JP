@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: かんばんボード上のユーザーによるフィルタリング
 description: かんばんボードでフィルターを使用して、どの作業アイテムが他のユーザーに関連付けられ、どの作業アイテムが未割り当てであるかを確認できます。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 90%

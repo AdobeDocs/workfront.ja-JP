@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: かんばんボードへのバックログの追加
 description: '[!UICONTROL バックログ]列をかんばんボードに直接表示できます。 [!DNL Kanban]  ボードの[!UICONTROL バックログ]列には、 [!DNL Kanban]  ボードのバックログの最初の 20 個の項目が含まれます。タスクやイシューをバックログに表示するには、ステータスが「現在」に相当するプロジェクトに属している必要があります。'
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 91%

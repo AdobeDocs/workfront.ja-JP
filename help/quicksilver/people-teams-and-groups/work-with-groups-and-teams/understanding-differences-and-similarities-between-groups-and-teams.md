@@ -4,10 +4,10 @@ product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
 title: Workfrontのグループとチーム
 description: グループとチームは、Adobe Workfrontのユーザーの集まりです。 グループとチームの違いと類似点について説明します。
-author: Lisa
+author: Jenny and Becky
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 80%

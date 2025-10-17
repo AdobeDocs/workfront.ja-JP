@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: ボード列の管理
 description: 新しいボードには、デフォルトで 3 つの列が含まれています。さらに列を追加したり、列の順序を変更したり、列の名前を変更したり、不要な列を削除したりできます。 列ポリシーを定義することもできます。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 79%

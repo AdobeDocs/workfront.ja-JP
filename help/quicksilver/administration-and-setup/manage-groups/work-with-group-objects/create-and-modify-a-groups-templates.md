@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: グループのプロジェクト テンプレートを作成および変更する
 description: グループエリアで管理するグループを表示している場合、そのグループとそのサブグループに関連付けられたプロジェクトテンプレートを表示し、操作できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: 10780ff51d5b1d9d73cb0a6fb0982abc320b0313
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 85%
@@ -57,7 +57,7 @@ ht-degree: 85%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. テンプレートを作成または変更するグループの名前をクリックします。
 1. 左側のパネルで「**テンプレート**」をクリックし、グループに関連付けられているテンプレートと、そのグループに含まれているサブグループを一覧表示します。

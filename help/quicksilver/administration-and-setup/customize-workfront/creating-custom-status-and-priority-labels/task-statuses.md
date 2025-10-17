@@ -5,11 +5,11 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: タスクのステータスを使用して、タスクが特定の時点で開発のどのステージにあるかユーザーに示すことができます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 91%
@@ -60,7 +60,7 @@ ht-degree: 91%
 
    Workfront で使用できるタスクステータスがこのタブに表示されます。
 
-   ![&#x200B; タスクステータス &#x200B;](assets/task-status.png)
+   ![ タスクステータス ](assets/task-status.png)
 
    ビルトインの各システムタスクステータスについて詳しくは、[システムタスクステータス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)を参照してください。
 

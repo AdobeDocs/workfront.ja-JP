@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: サンドボックスプレビュー環境からのメール配信を有効にする
 description: プレビューサンドボックス環境からメール通知を受け取る場合は、プレビューにログインしている間に、ユーザー設定でこの機能を有効にする必要があります。
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 85%
@@ -80,7 +80,7 @@ ht-degree: 85%
 
    または
 
-   複数のユーザーの場合：Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ユーザー]**![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png) をクリックします。  次に、複数のユーザーを選択して、「**[!UICONTROL 編集]**」をクリックします。
+   複数のユーザーの場合：Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ユーザー]**![ ユーザーアイコン ](assets/users-icon-in-main-menu.png) をクリックします。  次に、複数のユーザーを選択して、「**[!UICONTROL 編集]**」をクリックします。
 
 1. 「**[!UICONTROL 環境設定]**」をクリックします。
 1. **[!UICONTROL このテスト環境から E メールを受信する]**&#x200B;を選択します。

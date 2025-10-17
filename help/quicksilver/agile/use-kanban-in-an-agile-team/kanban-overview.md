@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: かんばんの概要
 description: かんばんボードの機能をより深く理解するには、この記事を参照してください。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 99%
@@ -34,7 +34,7 @@ ht-degree: 99%
 
 詳しくは、[[!UICONTROL カンバン]ボードのストーリーのステータスの更新](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)を参照してください。
 
-ストーリーステータスは、アジャイルビューを変更することでプロジェクトに合わせてカスタマイズできます。詳しくは、[&#x200B; [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でのビューの作成または編集の[[!UICONTROL アジャイルビューの作成またはカスタマイズ]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)の節を参照してください。
+ストーリーステータスは、アジャイルビューを変更することでプロジェクトに合わせてカスタマイズできます。詳しくは、[ [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でのビューの作成または編集の[[!UICONTROL アジャイルビューの作成またはカスタマイズ]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)の節を参照してください。
 
 >[!NOTE]
 >

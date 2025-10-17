@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: グループのチームの作成および変更
 description: 管理するグループをグループエリアに表示している場合、グループとそのサブグループに関連付けられたチームを表示して操作できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 88%
@@ -57,10 +57,10 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. チームを作成または変更するグループの名前をクリックします。
-1. 左側のパネルで「**チーム** ![&#x200B; チーム &#x200B;](assets/teams.png)」をクリックすると、グループに関連付けられたチームと、グループに含まれる可能性のあるサブグループに関連付けられたチームがリストされます。
+1. 左側のパネルで「**チーム** ![ チーム ](assets/teams.png)」をクリックすると、グループに関連付けられたチームと、グループに含まれる可能性のあるサブグループに関連付けられたチームがリストされます。
 
 1. 次のいずれかの操作を行います。
 
@@ -103,7 +103,7 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
       </tbody> 
      </table>
 
-   * **チームを編集**：少なくとも 1 つのチームを選択し、**&#x200B;** 編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、次のオプションを使用して設定します。
+   * **チームを編集**：少なくとも 1 つのチームを選択し、**** 編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、次のオプションを使用して設定します。
 
      <table style="table-layout:auto"> 
       <col> 
@@ -152,5 +152,5 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
       </tbody> 
      </table>
 
-   * **チームを削除**：少なくとも 1 つのチームを選択し、削除アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
-   * **チームのリストをエクスポート**: **エクスポート** ![&#x200B; エクスポートアイコン &#x200B;](assets/export.png) をクリックして、エクスポートされたリストに使用するファイル形式を選択します。
+   * **チームを削除**：少なくとも 1 つのチームを選択し、削除アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
+   * **チームのリストをエクスポート**: **エクスポート** ![ エクスポートアイコン ](assets/export.png) をクリックして、エクスポートされたリストに使用するファイル形式を選択します。

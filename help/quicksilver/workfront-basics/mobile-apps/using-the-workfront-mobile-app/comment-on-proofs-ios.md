@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: iOS でのプルーフに関するコメント
 description: プルーフに対する既存のコメントをレビューおよび解決し、新しいコメントや注釈をプルーフドキュメントに追加できます。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 98%
@@ -17,22 +17,22 @@ ht-degree: 98%
 
 プルーフに対する既存のコメントをレビューおよび解決し、新しいコメントや注釈をプルーフドキュメントに追加できます。
 
-プルーフに対するコメントのアクセス権は、[!DNL Adobe Workfront] と同じです。プルーフ機能について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+プルーフに対するコメントのアクセス権は、[!DNL Adobe Workfront] と同じです。プルーフ機能について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 >[!NOTE]
 >
->プルーフの所有者がプルーフをロックした場合、そのプルーフにコメントすることはできません。詳しくは、[&#x200B; [!DNL Adobe Workfront]  モバイルアプリでプルーフをレビューし、決定する](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)の記事内の[プルーフのロックとロック解除](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)を参照してください。
+>プルーフの所有者がプルーフをロックした場合、そのプルーフにコメントすることはできません。詳しくは、[ [!DNL Adobe Workfront]  モバイルアプリでプルーフをレビューし、決定する](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)の記事内の[プルーフのロックとロック解除](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)を参照してください。
 
 ## プルーフの既存コメントのレビュー
 
 プルーフドキュメントに対して行われたコメントをレビューできます。コメントには、コメントが参照するドキュメントのエリアを呼び出すための図面が関連付けられている場合が多くあります。図面には、矢印、線、長方形、ハイライト表示、フリーハンドの図面を含めることができます。
 
-1. ドキュメントのプルーフを開きます。詳しくは、[&#x200B; [!DNL Adobe Workfront]  モバイルアプリでプルーフをレビューし、決定する](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)を参照してください。
+1. ドキュメントのプルーフを開きます。詳しくは、[ [!DNL Adobe Workfront]  モバイルアプリでプルーフをレビューし、決定する](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)を参照してください。
 1. ドキュメントページでコメントアイコン ![ドキュメント上のコメントアイコン](assets/mobile-comment-icon-on-proofdoc-30x34.png) を選択し、コメントと、関連する図面および添付ファイルを開きます。
 
    コメントに複数の返信がある場合は、「**[!UICONTROL 返信を表示]**」を選択してすべての返信を表示するか、コメントシートを上下にスワイプして、さらに多くの内容を表示します。
 
-1. コメントの添付ファイルを表示するには、コメントのサムネールを選択します。画面の指示に従って、添付ファイルをデバイスにダウンロードします。
+1. コメントの添付ファイルを表示するには、コメントのサムネールを選択します。画面のプロンプトに従って、添付ファイルをデバイスにダウンロードします。
 1. コメントに返信するには、コメントの下のテキストボックスに回答を入力し、**[!UICONTROL 送信]**&#x200B;アイコン ![送信アイコン](assets/mobile-send-icon-25x26.png) を選択します。
 
 ### コメントリストの使用
@@ -65,13 +65,13 @@ ht-degree: 98%
 
    このオプションは、未読のコメントが選択されている場合にのみ使用できます。
 
-1. 選択したコメントを削除するには、下部のツールバーにある **[!UICONTROL 削除]** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-30x28.png) を選択します。 次に、確認メッセージで「**[!UICONTROL 削除]**」をクリックして、コメントを完全に削除します。
+1. 選択したコメントを削除するには、下部のツールバーにある **[!UICONTROL 削除]** アイコン ![ 削除アイコン ](assets/delete-30x28.png) を選択します。 次に、確認メッセージで「**[!UICONTROL 削除]**」をクリックして、コメントを完全に削除します。
 
 ## プルーフに対するコメント
 
 プルーフコメントをドキュメントの特定のエリアに関連付けることができます。コメントを付けるエリアを選択するには、描画ツールを使用します。
 
-1. ドキュメントのプルーフを開きます。詳しくは、[&#x200B; [!DNL Adobe Workfront]  モバイルアプリでプルーフをレビューし、決定する](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)を参照してください。
+1. ドキュメントのプルーフを開きます。詳しくは、[ [!DNL Adobe Workfront]  モバイルアプリでプルーフをレビューし、決定する](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)を参照してください。
 1. プルーフ画面の下部にあるツールバーから描画ツールを選択します。
 
    ![プルーフコメントのツールバー](assets/android-proof-comment-toolbar-350x102.png)
@@ -93,7 +93,7 @@ ht-degree: 98%
 
    プルーフにコメントが追加されると、連絡先にメール通知が届きます。
 
-1. コメントに添付ファイルを追加するには、![[!UICONTROL 添付ファイル]アイコン &#x200B;](assets/mobile-paper-clip-icon.png) を選択します。「**[!UICONTROL ライブラリから選択]**」、「**[!UICONTROL 写真を撮る]**」、または「**[!UICONTROL ドキュメントを選択]**」を選択し、プロンプトに従って、コメントにファイルまたは写真を添付します。
+1. コメントに添付ファイルを追加するには、![[!UICONTROL 添付ファイル]アイコン ](assets/mobile-paper-clip-icon.png) を選択します。「**[!UICONTROL ライブラリから選択]**」、「**[!UICONTROL 写真を撮る]**」、または「**[!UICONTROL ドキュメントを選択]**」を選択し、プロンプトに従って、コメントにファイルまたは写真を添付します。
 
    添付ファイルを削除するには、サムネール画像の「X」をクリックします。
 

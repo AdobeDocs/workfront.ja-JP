@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: ' [!DNL Adobe Workfront] モバイルアプリでのプルーフのレビューと承認に関する判断'
 description: プルーフの承認を割り当てられると、そのプルーフがモバイルアプリの承認リストに表示されます。プルーフをアプリで直接レビューし、承認の是非を判断することができます。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 97%
@@ -79,7 +79,7 @@ ht-degree: 97%
 ### プルーフでの判断
 
 1. ドキュメントのプルーフを開きます。
-1. ドキュメントの右上にある![[!UICONTROL 決定]アイコン &#x200B;](assets/mobile-proofcheckmarkdecisionicon-30x30.png) を選択します。
+1. ドキュメントの右上にある![[!UICONTROL 決定]アイコン ](assets/mobile-proofcheckmarkdecisionicon-30x30.png) を選択します。
 1. 「[!UICONTROL 決定を下す]」ボックスで決定を選択します。
 
    いくつかの一般的な決定オプションを以下に示します。[!DNL Adobe Workfront] 管理者または [!UICONTROL Workfront Proof] 管理者は、決定オプションのリストを設定できます。管理者が決定を設定する方法の詳細については、[Workfront Proof での承認決定オプションの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)を参照してください。
@@ -107,7 +107,7 @@ ht-degree: 97%
 
    理由によっては、その理由を選択した理由を説明するコメントが必要な場合もあります。
 
-   管理者が理由を設定する方法の詳細については、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md) での承認決定オプションの設定を参照してください。
+   管理者が理由を設定する方法の詳細については、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md) での承認決定オプションの設定を参照してください。
 
 1. 「**[!UICONTROL 送信]**」を選択します。
 

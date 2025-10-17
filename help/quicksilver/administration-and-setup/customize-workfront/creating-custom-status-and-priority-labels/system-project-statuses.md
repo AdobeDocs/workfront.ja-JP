@@ -4,12 +4,12 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: システムプロジェクトステータスの概要
-description: Workfront には、組み込みのシステムプロジェクトステータスが 9 つあります。以下の表の最初の 3 つは必須です。つまり、それらのロックの解除、名前の変更、並べ替えは可能ですが、非表示にしたり削除したりすることはできません。通常、プロジェクトステータスの変更は手動で行われます。ただし、システムで発生した他の要因によって、プロジェクトのステータスが自動的に変更される場合があります。
-author: Lisa
+description: Workfront には、ビルトインのシステムプロジェクトステータスが 9 つあります。以下の表の最初の 3 つは必須です。つまり、それらのロックの解除、名前の変更、並べ替えは可能ですが、非表示にしたり削除したりすることはできません。通常、プロジェクトステータスの変更は手動で行われます。ただし、システムで発生した他の要因によって、プロジェクトのステータスが自動的に変更される場合があります。
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 99%
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 <!--Audited: 12/2023-->
 
-Workfront には、組み込みのシステムプロジェクトステータスが 9 つあります。
+Workfront には、ビルトインのシステムプロジェクトステータスが 9 つあります。
 
 以下の表の最初の 3 つは必須です。つまり、それらのロックの解除、名前の変更、並べ替えは可能ですが、非表示にしたり削除したりすることはできません。
 

@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: 既存の反復へのストーリーの追加
 description: イテレーションにストーリーを追加する方法は様々です。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 84%
@@ -95,7 +95,7 @@ ht-degree: 84%
 または
 反復に追加するタスクまたは問題を含むプロジェクト、レポート、またはダッシュボードに移動します。 次に、1 つ以上のタスクまたは問題を選択します。
 
-1. **[!UICONTROL 詳細]**![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png)/**[!UICONTROL イテレーションに追加]** をクリックします。
+1. **[!UICONTROL 詳細]**![ 詳細アイコン ](assets/more-icon.png)/**[!UICONTROL イテレーションに追加]** をクリックします。
 非アジャイルチームに割り当てられたタスクやイシューを割り当てることはできません。
 
 1. 「**[!UICONTROL 追加先]**」ボックスにイテレーションの名前の入力を開始し、リストに表示されたら選択します。

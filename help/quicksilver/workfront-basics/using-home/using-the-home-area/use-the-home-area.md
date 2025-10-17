@@ -3,11 +3,11 @@ content-type: reference
 navigation-topic: home-navigation-topic
 title: 「ホーム」領域の使用：記事インデックス
 description: 以下の記事を参照して、Adobe Workfront のホームエリアの使用方法について学んでください。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: f112e1f2778f28ec23cdd56c6b6dae3ac46f3eec
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 72%
@@ -27,7 +27,7 @@ ht-degree: 72%
 * [ホームウィジェットフィルターの概要](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
 * [[!UICONTROL ホーム]エリアでの作業およびチームリクエストの管理](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [[!UICONTROL ホーム]エリア内の作業項目の更新または編集](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-* [[!UICONTROL &#x200B; ホーム &#x200B;] エリアからの作業項目とプロジェクトの作成](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [[!UICONTROL  ホーム ] エリアからの作業項目とプロジェクトの作成](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 * [個人の To Do アイテムの作成と管理](/help/quicksilver/workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
 * [自分のリクエスト ウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
 * [[!UICONTROL ホーム]エリアから作業項目の時間を記録](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)

@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: ユーザーは重要度を使用して、イシューの重要度を定義できます。Adobe Workfront の 5 つのデフォルトの重要度のいずれかをカスタマイズしたり、ユーザーに対して新しい重要度を作成したりできます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 63%
@@ -85,7 +85,7 @@ Workfront のイシューには、5 つのビルトインの重要度があり�
 * 説明
 * Workfront で重要度が非表示になっているかどうか
 
-  重要度の非表示について詳しくは、この記事の [&#x200B; 重要度の作成または編集 &#x200B;](#create-or-edit-an-issue-severity) を参照してください。
+  重要度の非表示について詳しくは、この記事の [ 重要度の作成または編集 ](#create-or-edit-an-issue-severity) を参照してください。
 
 * 重要度の削除
 
@@ -121,7 +121,7 @@ Workfront の管理者は、ユーザー要件に合わせてイシューの重�
 
      <div class="preview">
 
-     デフォルトの重要度は、アイコン ![&#x200B; デフォルトの重要度アイコン &#x200B;](assets/default-icon.png) で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
+     デフォルトの重要度は、アイコン ![ デフォルトの重要度アイコン ](assets/default-icon.png) で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
 
       * 重要度名の横にあるチェックボックスをオンにし、画面の下部にあるアクションバーで「**デフォルトにする**」を選択します。
       * 重要度名にポインタを合わせて、表示される **詳細** メニューをクリックします。 次に、「**デフォルトにする** を選択します。

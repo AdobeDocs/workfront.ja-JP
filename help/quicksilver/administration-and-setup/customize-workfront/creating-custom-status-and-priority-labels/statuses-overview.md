@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: ステータスの概要
 description: プロジェクト、タスクまたはイシューの現在の開発状況を確認するために、ユーザーはそのステータスを表示することができます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 73%
@@ -34,7 +34,7 @@ ht-degree: 73%
 ステータスを手動で変更するには、プロジェクト、タスクまたはイシューに対する次のアクセス権と権限が必要です。
 
 * プロジェクト、タスク、問題へのアクセス レベルでアクセス権限を編集する
-* タスクまたは問題に対するContribute以上の権限
+* タスクまたは問題に対する投稿以上の権限
 * プロジェクトに対する権限の管理。
 
 プロジェクト、タスクまたはイシューのステータスの変更は通常、手動で行います。ただし、システム内で発生する他の要因によっては、イシューのステータスが自動的に変更される場合があります。

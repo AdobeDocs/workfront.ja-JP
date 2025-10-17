@@ -5,11 +5,11 @@ keywords: グループ、プロジェクト
 navigation-topic: work-with-a-groups-objects
 title: グループのプロジェクトの作成と変更
 description: グループエリアで管理しているグループを表示しているときは、グループのプロジェクトを作成、編集、書き出し、コピー、削除できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 86%
@@ -66,10 +66,10 @@ ht-degree: 86%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. プロジェクトを作成、表示、または操作するグループの名前をクリックします。
-1. 左側のパネルで、**メインメニューのプロジェクト**![&#x200B; プロジェクト &#x200B;](assets/projects-in-main-menu.png) をクリックして、グループに関連付けられているプロジェクトのリストを表示します。
+1. 左側のパネルで、**メインメニューのプロジェクト**![ プロジェクト ](assets/projects-in-main-menu.png) をクリックして、グループに関連付けられているプロジェクトのリストを表示します。
 
 1. 次のいずれかの操作を行います。
 

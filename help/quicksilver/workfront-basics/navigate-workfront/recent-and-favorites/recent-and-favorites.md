@@ -5,10 +5,10 @@ navigation-topic: navigate-workfront
 title: ' [!DNL Adobe Workfront] で最近使用したものとお気に入り'
 description: Workfront のお気に入りと最近使用したものについて詳しくは、次の記事を参照してください。
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 43052270-0b2d-46af-9521-30f0d48d5ddc
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 100%

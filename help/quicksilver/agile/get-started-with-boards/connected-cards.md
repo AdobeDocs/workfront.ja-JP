@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: ボードでのコネクテッドカードの使用
 description: Workfront の既存のタスクやイシューに接続するカードをボードに追加できます。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 95%
@@ -30,7 +30,7 @@ ht-degree: 95%
 * [!UICONTROL サブタスク]
 * [!UICONTROL ドキュメント]
 
-接続したカードをWorkfrontと同期するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL &#x200B; 詳細メニュー &#x200B;]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続項目を同期]** を選択します。 アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、再度同期されます。
+接続したカードをWorkfrontと同期するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL  詳細メニュー ]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続項目を同期]** を選択します。 アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、再度同期されます。
 
 >[!NOTE]
 >

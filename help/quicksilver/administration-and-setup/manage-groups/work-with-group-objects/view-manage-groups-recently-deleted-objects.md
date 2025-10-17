@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: グループの最近削除されたアイテムの表示と管理
 description: グループエリアで管理しているグループを表示している場合、最近削除された作業アイテム、ドキュメント、テンプレートを表示、フィルター、復元、および書き出すことができます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 88%
@@ -63,7 +63,7 @@ ht-degree: 88%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. グループの名前をクリックします。
 1. 左側のパネルで、**最近削除された項目**&#x200B;をクリックします。

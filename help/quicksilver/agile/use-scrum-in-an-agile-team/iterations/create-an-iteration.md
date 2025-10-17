@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: イテレーションを作成
 description: イテレーションは、スクラムアジャイルチームが作業処理能力を計画する際の主要なコンポーネントです。 [!DNL Adobe Workfront]  を使ってチームのニーズに合わせて複数のイテレーションを作成することで、スクラムアジャイルチームが作業を管理できます。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 78%
@@ -53,7 +53,7 @@ ht-degree: 78%
 
 1. 「**[!UICONTROL イテレーション]**」タブで、「**[!UICONTROL イテレーションを追加]**」をクリックします。
 
-   ![&#x200B; 「イテレーションを追加」をクリック &#x200B;](assets/click-add-iteration.png)
+   ![ 「イテレーションを追加」をクリック ](assets/click-add-iteration.png)
 
 1. 以下を指定します。
 
@@ -104,7 +104,7 @@ ht-degree: 78%
 
 >[!NOTE]
 >
-> 「バックログ」タブで反復を計画する際に、「ストーリー」タブまたは「イシュー」タブを切り替えたり、追加のタスクを追加したりすることはできません。 イテレーションが作成されたら、既存のストーリーまたはイシューを追加できます。 詳しくは、以下 [&#x200B; 「バックログ」タブの既存のイテレーションへのタスクまたは問題の追加 &#x200B;](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) を参照してください。
+> 「バックログ」タブで反復を計画する際に、「ストーリー」タブまたは「イシュー」タブを切り替えたり、追加のタスクを追加したりすることはできません。 イテレーションが作成されたら、既存のストーリーまたはイシューを追加できます。 詳しくは、以下 [ 「バックログ」タブの既存のイテレーションへのタスクまたは問題の追加 ](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) を参照してください。
 
 
 1. 次の情報を指定します。
@@ -148,7 +148,7 @@ ht-degree: 78%
 
 1. 反復に追加するストーリーまたはイシューを選択します。 バックログの上部にあるストーリーが優先されます。
 
-   ![&#x200B; 作業項目の移動 &#x200B;](assets/move-to-iteration.png)
+   ![ 作業項目の移動 ](assets/move-to-iteration.png)
 
    >[!NOTE]
    >
@@ -161,6 +161,6 @@ ht-degree: 78%
 
 [!UICONTROL イテレーション終了日]マイナス（-）[!UICONTROL タスクの期間]は（=）[!UICONTROL タスクの予定開始日]
 
-プロジェクト開始日がイテレーション開始日より後で、プロジェクト終了日がイテレーション終了日より後の場合、イテレーション終了日の代わりに [!UICONTROL &#x200B; プロジェクト終了日 &#x200B;] が使用されます。
+プロジェクト開始日がイテレーション開始日より後で、プロジェクト終了日がイテレーション終了日より後の場合、イテレーション終了日の代わりに [!UICONTROL  プロジェクト終了日 ] が使用されます。
 
 個々のスクラムチームが、デフォルトではイテレーション日付よりも、プロジェクト日付を使用するように設定できます。詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事の[作業アイテムをイテレーションに追加する際に日付を適用する方法を設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)を参照してください。

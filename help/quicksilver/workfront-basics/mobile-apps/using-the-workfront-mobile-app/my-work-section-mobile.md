@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: モバイルアプリの「担当作業」セクション
 description: '[!UICONTROL ホーム]エリアの「[!UICONTROL 担当作業]」セクションには、タスク、イシュー、プロジェクト、承認、リクエストおよびタイムシートが表示されます。'
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 98%
@@ -30,10 +30,10 @@ ht-degree: 98%
 1. フローティングメニューで写真またはイニシャルをタップして、プロファイルにアクセスします。
 1. 「**[!UICONTROL 設定]**」セクションまでスクロールし、**[!UICONTROL 設定]**&#x200B;をタップします。
 1. **[!UICONTROL 設定]**&#x200B;ページで、メニュー項目を選択してドラッグし、[!UICONTROL ホーム]エリアの正しい順序に配置します。
-1. 青色の「切り替えスイッチ」アイコンをタップすると、表示したくないメニュー項目を非表示にできます。項目を再度表示するには、灰色の「切り替えスイッチ」アイコンをタップします。
+1. 青色の切替スイッチアイコンをタップすると、表示したくないメニュー項目を非表示にできます。項目を再度表示するには、灰色の切替スイッチアイコンをタップします。
 
    >[!NOTE]
    >
    >[!UICONTROL タスクとイシュー]のメニュー項目は常に表示され、非表示にすることはできません。
 
-   ![&#x200B; モバイル設定 &#x200B;](assets/mobile-settings-338x366.png)
+   ![ モバイル設定 ](assets/mobile-settings-338x366.png)

@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: 自動プロビジョニングされたユーザーのパスワードの変更
 description: 新しいユーザーのユーザー名をWorkfrontのメールアドレスに変更してから、パスワードを変更できるようにすることをお勧めします。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 85%
@@ -75,7 +75,7 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
 
    次のような応答が返されます。
 
-   ![GUID を取得 &#x200B;](assets/get-guid.png)
+   ![GUID を取得 ](assets/get-guid.png)
 
    「ユーザー名」の戻り値は、ユーザーの GUID です。
 
@@ -101,7 +101,7 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
 >
 >ユーザーの ID を検索するには、次の手順に従います。
 >
->1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**ユーザー** ![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png) をクリックします。
+>1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**ユーザー** ![ ユーザーアイコン ](assets/users-icon-in-main-menu.png) をクリックします。
 >
 >1. ユーザーを選択します。
 >

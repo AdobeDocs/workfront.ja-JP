@@ -5,11 +5,11 @@ keywords: アジャイル
 navigation-topic: agile-navigation-topic
 title: ' [!DNL Agile]  インの概要  [!DNL Adobe Workfront]'
 description: Workfront でのアジャイルの基本を学ぶには、以下の記事を確認してください。
-author: Lisa
+author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 151aec93-3ccb-475f-b894-61be20a8544a
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 87%

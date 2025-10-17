@@ -1,13 +1,13 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 「ボードの基本を学ぶ：記事インデックス」
+title: ボードの基本を学ぶ：記事インデックス
 description: Workfront でボードを使用する方法については、以下の記事を参照してください。
-author: Lisa
+author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 95%

@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：私が行ったリクエスト」
+title: 通知：私が行ったリクエスト
 description: 次の通知で、Adobe Workfront で行われたリクエストについて通知します。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 98%

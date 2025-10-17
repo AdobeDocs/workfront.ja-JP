@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: ボードの概要
 description: Adobe Workfront ボードは、列やカードを含む共有ボードへのアクセスを提供することで、チームの共同作業を可能にする柔軟なツールです。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 99%
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 プロジェクトでのボードの使用について詳しくは、[アジャイルビューでのプロジェクト管理](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
 
-モバイルアプリでボードにアクセスすることもできます。詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL &#x200B; ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
+モバイルアプリでボードにアクセスすることもできます。詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL  ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
 
 ボードの機能に関するビデオチュートリアルについて詳しくは、[[!DNL Adobe Workfront] [!UICONTROL ボード]のビデオデモ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)を参照してください。
 

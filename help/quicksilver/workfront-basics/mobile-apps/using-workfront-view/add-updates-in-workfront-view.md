@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: Adobe Workfront ビューでアップデートを追加
 description: レビュー中のプロジェクトのアップデートを、 [!DNL Adobe Workfront]  ビューアプリでレビューおよび追加できます。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 88%
@@ -58,7 +58,7 @@ ht-degree: 88%
 
 1. アップデートと入力します。
 1. （オプション）他の項目をアップデートに含めるには、[!UICONTROL 人物]アイコンをタップし、別のユーザーの名前を指定します。\
-   ![&#x200B; モバイルアプリのアップデート &#x200B;](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![ モバイルアプリのアップデート ](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
 1. 「**[!UICONTROL 投稿]**」をタップ\
    アップデートは、プロジェクトの、**[!UICONTROL アップデート]**&#x200B;ウィジェットに表示されます。

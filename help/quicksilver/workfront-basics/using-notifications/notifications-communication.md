@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：コミュニケーション」
+title: 通知：コミュニケーション
 description: 以下の通知は、自分が関係する作業項目に対する更新コメントなど、コミュニケーションに関することを知らせるものです。受信する通知の設定について詳しくは、自身のメール通知の変更を参照してください。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 100%
@@ -55,7 +55,7 @@ ht-degree: 100%
    <td> <p><strong>即時</strong> </p> <p><strong>および日刊</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分のドキュメントにコメントが追加されました</strong> </p> <p>[!DNL Adobe Workfront] 内のドキュメントの所有者は、ドキュメントにコメントが投稿されると、コメントを投稿したユーザーがドキュメントの所有者である場合を除き、メール通知を受け取ります。</p> <p>コメントに直接含まれるユーザーにもメール通知が送信されます。</p> <p>プロジェクトのステータスが [!UICONTROL Current] の場合にのみ通知が送信されます。 </p> <p>即時通知メールの件名：<em>[!UICONTROL Comment on] &lt;Project Name&gt; の &lt;Request Name&gt; (参照番号 &lt;Request Reference Number&gt;)</em></p> <p> 日刊ダイジェスト通知の件名：<em>[!UICONTROL Digest of Communication] &lt;Date of daily digest&gt;</em></p> </td> 
+   <td> <p><strong>自分のドキュメントにコメントが追加されました</strong> </p> <p>[!DNL Adobe Workfront] 内のドキュメントの所有者は、ドキュメントにコメントが投稿されると、コメントを投稿したユーザーがドキュメントの所有者である場合を除き、メール通知を受け取ります。</p> <p>コメントに直接含まれるユーザーにもメール通知が送信されます。</p> <p>プロジェクトのステータスが [!UICONTROL Current] の場合にのみ通知が送信されます。</p> <p>即時通知メールの件名：<em>[!UICONTROL Comment on] &lt;Project Name&gt; の &lt;Request Name&gt; (参照番号 &lt;Request Reference Number&gt;)</em></p> <p> 日刊ダイジェスト通知の件名：<em>[!UICONTROL Digest of Communication] &lt;Date of daily digest&gt;</em></p> </td> 
    <td>ドキュメント名<br>プロジェクト名、タスク名またはイシュー名<br>参照番号<br>リクエストに返信したユーザーの名前<br>コメントが付けられた日時<br>ドキュメントに対して付けられたコメントのテキスト</td> 
    <td> <p><strong>即時</strong> </p> <p><strong>および日刊</strong> </p> <p><strong></strong> </p> </td> 
   </tr> 

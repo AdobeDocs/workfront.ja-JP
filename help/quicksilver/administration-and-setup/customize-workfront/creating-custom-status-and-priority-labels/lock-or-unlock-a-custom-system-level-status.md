@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: システムレベルのロックおよびロック解除ステータス
 description: カスタムステータスをロックすると、組織全体のユーザーが作業フローで同じプロセスを使用していることを確実にすることができます。ステータスをロックすると、システム内のすべてのユーザーがそのステータスを使用できます。システム管理者はステータスを編集または削除できますが、グループ管理者は自分のグループに対して編集や削除を行えません。逆に、カスタムステータスのロックを解除すると、グループ管理者は、グループで使用する独自のワークフローをより柔軟に管理できます。自分のグループに対しては、ロック解除済みのステータスの属性を変更したり、削除したりできます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 98%

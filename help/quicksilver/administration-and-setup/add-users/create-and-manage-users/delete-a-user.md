@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: 組織を離れたユーザーは Workfront から削除できますが、削除する代わりにディアクティベートすることをお勧めします。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 87%
@@ -33,7 +33,7 @@ ht-degree: 87%
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -132,7 +132,7 @@ ht-degree: 87%
 
 {{step-1-to-users}}
 
-1. 削除する 1 人以上のユーザーを選択し、「詳細」メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックして、「**削除**」をクリックします。
+1. 削除する 1 人以上のユーザーを選択し、「詳細」メニュー ![ 詳細アイコン ](assets/more-icon.png) をクリックして、「**削除**」をクリックします。
 1. 表示されるボックスで、「**削除**」をクリックして削除を確定します。
 
    ユーザーを削除するプロセスはバックグラウンドプロセスとして実行されるので、ユーザーが削除されているときも Workfront を引き続き使用できます。

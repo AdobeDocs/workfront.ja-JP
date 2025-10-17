@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: かんばんボード上の進行中の作業（WIP）制限の管理
 description: かんばんボードの各列に対して、進行中の作業（WIP）の上限を設定できます。WIP の上限は視覚的に警告が表示されるだけで、各ステータス列の項目が設定した上限より多くならないよう制限するものではありません。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 85%
@@ -49,7 +49,7 @@ WIP の上限は視覚的に警告が表示されるだけで、各ステータ�
 
 アジャイルチームに WIP の上限を設定すると、かんばんボードの各列（[!UICONTROL 完了]」列以外）の右上隅に WIP の上限が表示されます。
 
-[!UICONTROL &#x200B; かんばん &#x200B;] ボード上のいずれかの列の上限を超えると、上限が赤でハイライト表示され、メッセージが表示されます。
+[!UICONTROL  かんばん ] ボード上のいずれかの列の上限を超えると、上限が赤でハイライト表示され、メッセージが表示されます。
 ![WIP の上限](assets/kanban-wip.png)
 
 ## [!UICONTROL かんばん]ボードで[!UICONTROL 進行中の作業]（WIP）の上限を更新

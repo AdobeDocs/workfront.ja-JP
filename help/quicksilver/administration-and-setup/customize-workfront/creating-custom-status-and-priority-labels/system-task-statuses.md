@@ -4,12 +4,12 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: システム タスク状態
-description: Workfront の 3 つの組み込みのシステムタスクステータスは必須です。つまり、ロック解除、名前変更および並べ替えはできますが、非表示や削除はできません。組織のニーズに合わせて新しいシステムタスクステータスを追加することもできます。タスクステータスの変更は通常は手動のプロセスですが、システムで発生している他の要因によっては、タスクのステータスが自動的に変更される場合もあります。
-author: Lisa
+description: Workfront の 3 つのビルトインのシステムタスクステータスは必須です。つまり、ロック解除、名前変更および並べ替えはできますが、非表示や削除はできません。組織のニーズに合わせて新しいシステムタスクステータスを追加することもできます。タスクステータスの変更は通常は手動のプロセスですが、システムで発生している他の要因によっては、タスクのステータスが自動的に変更される場合もあります。
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 94%
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 # システムタスクステータス
 
-Workfront の 3 つの組み込みのシステムタスクステータスは必須です。つまり、ロック解除、名前変更および並べ替えはできますが、非表示や削除はできません。
+Workfront の 3 つのビルトインのシステムタスクステータスは必須です。つまり、ロック解除、名前変更および並べ替えはできますが、非表示や削除はできません。
 
 組織のニーズに合わせて新しいシステムタスクステータスを追加することもできます。
 

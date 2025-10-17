@@ -4,10 +4,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: カレンダーレポートの概要
 description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。日付情報は、タスク、イシュー、プロジェクトのカレンダーレポートで表示できます。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 99%

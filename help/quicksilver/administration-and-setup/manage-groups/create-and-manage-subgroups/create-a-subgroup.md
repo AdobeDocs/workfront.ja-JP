@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
 title: サブグループの作成
 description: 管理対象のグループの下にサブグループを作成して、ユーザーやプロジェクトを整理し、Adobe Workfront 内でアクセス権を割り当てることができます。通常、グループ管理者はグループとサブグループを管理します。グループページを使用して、グループとサブグループを一元的に管理できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 58%
@@ -69,7 +69,7 @@ ht-degree: 58%
 
      次に示すような typeahead フィールドでは、通常のユーザーがグループを検索してオブジェクトに添付したり、オブジェクトを共有したりすると、アクティブなグループのみがリストに表示されます。
 
-     ![&#x200B; グループの先行入力フィールド &#x200B;](assets/typeahead-for-group.png)
+     ![ グループの先行入力フィールド ](assets/typeahead-for-group.png)
 
      ユーザーの作業を効率化するには、現在使用されていないグループの「**アクティブ**」オプションを無効にします。
 
@@ -82,7 +82,7 @@ ht-degree: 58%
      >[!NOTE]
      >
      >* サブグループからビジネスリーダーを削除する前に、「ビジネスリーダー」フィールドから名前を削除する必要があります。
-     >* ビジネスリーダーフィールドから名前を削除した場合、そのユーザーはサブグループから削除されない限り、サブグループのメンバーのままでいます。グループからユーザーを削除する手順については、[&#x200B; グループのメンバーシップの表示と管理 &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) を参照してください。
+     >* ビジネスリーダーフィールドから名前を削除した場合、そのユーザーはサブグループから削除されない限り、サブグループのメンバーのままでいます。グループからユーザーを削除する手順については、[ グループのメンバーシップの表示と管理 ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) を参照してください。
 
    * **グループメンバーとグループ管理者**：ユーザーとグループをサブグループのメンバーとして追加するには、追加する既存のユーザーまたはグループの名前の入力を開始し、表示されたら名前を選択します。
 

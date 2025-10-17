@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: アジャイルの概要
 description: アジャイルは、チームが扱いやすい少量の作業を一貫したペースで完了できるようにする作業方式です。アジャイルでは、チームはプロジェクトのタスクではなく、バックログまたはストーリーボードでストーリーを管理します。 [!DNL Adobe Workfront] には、チームがアジャイル方式で作業できるように支援するツールが用意されています。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 99%

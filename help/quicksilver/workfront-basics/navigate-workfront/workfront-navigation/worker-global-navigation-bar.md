@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: ワークライセンスユーザー向けのナビゲーションについて
 description: メインメニューは、 [!DNL Adobe Workfront] 管理者に割り当てられたアクセスレベルに応じて変わります。デフォルトでは、自分のアクセスレベルで使用が許可される機能を含んだエリアへのアクセス権のみが付与されます。
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 93%
@@ -24,7 +24,7 @@ ht-degree: 93%
 
 次のエリアは、[!UICONTROL 作業者]のデフォルトレイアウトに含まれています。
 
-* **[!UICONTROL ホーム]**：割り当てられたタスクやイシューはここに表示されます。これはワーカーのデフォルトのランディングページですが、Workfront管理者がレイアウトテンプレートに追加しない限り、[!UICONTROL &#x200B; メインメニュー &#x200B;] には表示されません。  詳しくは、[[!UICONTROL ホーム]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)の基本を学ぶを参照してください。
+* **[!UICONTROL ホーム]**：割り当てられたタスクやイシューはここに表示されます。これはワーカーのデフォルトのランディングページですが、Workfront管理者がレイアウトテンプレートに追加しない限り、[!UICONTROL  メインメニュー ] には表示されません。  詳しくは、[[!UICONTROL ホーム]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)の基本を学ぶを参照してください。
 
 * **[!UICONTROL プロジェクト]**：自分と共有されているプロジェクトはここに表示されます。詳しくは、[プロジェクト：記事インデックス](../../../manage-work/projects/projects-overview.md)を参照してください。
 
@@ -50,7 +50,7 @@ ht-degree: 93%
 
 * **[!UICONTROL ブループリント]**：システムの既存のブループリントをレビューし、[!DNL Workfront] 管理者がブループリントのリクエストキューを設定した場合は、ブループリントをインストールするように要求します。詳しくは、[ブループリントの概要](../../../administration-and-setup/blueprints/blueprints-overview.md)を参照してください。
 
-![&#x200B; ワーカーのメインメニュー &#x200B;](assets/worker-main-menu-350x426.png)
+![ ワーカーのメインメニュー ](assets/worker-main-menu-350x426.png)
 
 ## デフォルトの[!UICONTROL メインメニュー]のカスタマイズ
 

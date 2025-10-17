@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: カレンダーレポートでのカスタム日付フィールドの使用
 description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。タスク、イシューおよびプロジェクトに関するカレンダーレポートでカスタム日付フィールドを使用できます。
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 82%
@@ -57,7 +57,7 @@ ht-degree: 82%
 
 ## 前提条件
 
-1. [!DNL Workfront] インスタンスで使用可能なフィールド内に、カスタム日付フィールドと値が設定されている必要があります。カスタムの日付を使用してカスタムフォームを設定していない場合は、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の手順に従ってください。
+1. [!DNL Workfront] インスタンスで使用可能なフィールド内に、カスタム日付フィールドと値が設定されている必要があります。カスタムの日付を使用してカスタムフォームを設定していない場合は、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の手順に従ってください。
 1. カレンダーに追加する予定のプロジェクト、タスク、またはイシューにカスタムフォームを添付し、日付を指定します。詳しくは、[オブジェクトにカスタムフォームを追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
 
 ## 項目のグループを設定
@@ -136,6 +136,6 @@ ht-degree: 82%
    >
    >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
 
-   ![&#x200B; タスク ラベルの設定 &#x200B;](assets/set-task-labels.png)
+   ![ タスク ラベルの設定 ](assets/set-task-labels.png)
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

@@ -4,11 +4,11 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 「作業開始」と「完了」ボタンの概要
 description: タスクまたはイシューに割り当てられた場合は、コンテキストボタンを使用して、関与した作業アイテムに応じて名前や機能を変更できます。
-author: Lisa and Alina
+author: Becky and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 65%

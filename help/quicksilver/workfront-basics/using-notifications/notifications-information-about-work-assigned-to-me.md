@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：自分に担当割り当てされている作業に関する情報」
+title: 通知：自分に担当割り当てされている作業に関する情報
 description: 次の通知は、割り当てられた作業アイテムでのアクティビティの発生に関して警告します。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '2088'
 ht-degree: 100%
@@ -110,12 +110,12 @@ ht-degree: 100%
    <td> <p><strong>即時</strong> </p> <p><strong>および日次</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分が割り当てられているイシューの期日が変更された</strong> </p> <p>[!UICONTROL Planned Completion Date] が変更されると、このイシューの担当者はメール通知を受け取ります。ただし、[!UICONTROL Planned Completion Date] を変更したユーザーが担当者でもある場合は除きます。</p> <p>プロジェクト状態が [!UICONTROL Planning] 以外の場合にのみ通知が送信されます。</p> <p>[!UICONTROL Review] または [!UICONTROL Requestor] のライセンスを持つユーザーには通知は届きません。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Due Date has been changed]</em></p> <p> </p> <p> 日刊ダイジェスト通知の件名：<em>[!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt;</em></p> </td> 
+   <td> <p><strong>自分が割り当てられているイシューの期日が変更された</strong> </p> <p>[!UICONTROL Planned Completion Date] が変更されると、このイシューの担当者はメール通知を受け取ります。ただし、[!UICONTROL Planned Completion Date] を変更したユーザーが担当者でもある場合は除きます。</p> <p>プロジェクト状態が [!UICONTROL Planning] 以外の場合にのみ通知が送信されます。</p> <p>[!UICONTROL Review] または [!UICONTROL Requestor] のライセンスを持つユーザーには通知は届きません。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Due Date has been changed]</em></p> <p></p> <p> 日刊ダイジェスト通知の件名：<em>[!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt;</em></p> </td> 
    <td> <p>イシュー名<br>プロジェクト名<br>イシューの参照番号<br>新しい期日（[!UICONTROL Planned Completion Date]）<br>期日が変更された日時<br>期日を変更したユーザーの名前<br>*プロジェクト名<br>*プロジェクト参照番号<br>*期日（[!UICONTROL Planned Completion Date]）が変更されたイシューの合計数<br>*イシュー名<br>*新しい [!UICONTROL Planned Completion Date]<br>*期日を変更したユーザーの名前<br>*日刊ダイジェストの日付<br></p> </td> 
    <td> <p><strong>即時</strong> </p> <p><strong>および日次</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>自分に割り当てられたタスクの状態が変更された</strong> <p>タスクのステータスが変更された場合、タスクの担当者はメール通知を受け取ります。ただし、ステータスを変更したユーザーが担当者でもある場合を除きます。</p> <p>メモ：タスクのステータスが完了に変わった場合、この通知は送信されません。完了したタスクには、別の通知が使用されます。上記の<a href="#a-task-i-m-assigned-to-is-completed" class="MCXref xref">自分に割り当てられているタスクが完了した</a>を参照してください。</p> <p>プロジェクトのステータスが [!UICONTROL Current] の場合にのみ通知が送信されます。</p> <p>[!UICONTROL Review] または [!UICONTROL Requestor] のライセンスを持つユーザーには通知は届きません。</p> <p>インスタント通知メールの件名は、「<em>&lt;Project Name&gt; の &lt;Task Name&gt; は &lt;New Status&gt;です</em>」になります。</p> <p> </p> <p> 日刊ダイジェスト通知の件名は、「<em>[!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt; </em>」になります。</p> </td> 
+   <td><strong>自分に割り当てられたタスクの状態が変更された</strong> <p>タスクのステータスが変更された場合、タスクの担当者はメール通知を受け取ります。ただし、ステータスを変更したユーザーが担当者でもある場合を除きます。</p> <p>メモ：タスクのステータスが完了に変わった場合、この通知は送信されません。完了したタスクには、別の通知が使用されます。上記の<a href="#a-task-i-m-assigned-to-is-completed" class="MCXref xref">自分に割り当てられているタスクが完了した</a>を参照してください。</p> <p>プロジェクトのステータスが [!UICONTROL Current] の場合にのみ通知が送信されます。</p> <p>[!UICONTROL Review] または [!UICONTROL Requestor] のライセンスを持つユーザーには通知は届きません。</p> <p>インスタント通知メールの件名は、「<em>&lt;Project Name&gt; の &lt;Task Name&gt; は &lt;New Status&gt;です</em>」になります。</p> <p></p> <p> 日刊ダイジェスト通知の件名は、「<em>[!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt; </em>」になります。</p> </td> 
    <td> タスク名<br>プロジェクト名<br>タスク参照番号<br>ステータスを変更したユーザーの名前<br>新しいステータス<br>ステータスが変更された日時<br>プレビューステータス<br><strong>「[!UICONTROL See More Details]」</strong>ボタン<br>*プロジェクト名<br>*プロジェクト参照番号<br>*ステータスが変更されたタスクの合計数<br>*タスク名<br>*以前のタスクのステータス<br>*新しいタスクのステータス<br>*ステータスを変更したユーザーの名前<br>*日刊ダイジェストの日付<br></td> 
    <td><strong>[!UICONTROL Daily]</strong> </td> 
   </tr> 

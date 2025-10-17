@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: かんばんの設定
 description: チームの作成中または作成後に、かんばんアジャイルチームに対して以下のオプションを設定できます。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 95%
@@ -177,7 +177,7 @@ ht-degree: 95%
 1. **[!UICONTROL アジャイル]**&#x200B;セクション内の&#x200B;**[!UICONTROL 方式]**&#x200B;セクションで、かんばんが選択されていることを確認します。
 
 1. 「**[!UICONTROL ストーリーボード]**」セクションの「**[!UICONTROL WIP 制限]**」フィールドで、[!UICONTROL かんばん]アジャイルストーリーボードの各列に許可される項目の最大数を指定します。各列に異なる制限を設定できます。各列に設定できる上限は 100 です。
-WIP 制限が設定されている場合は、ストーリーボード上のいずれかの列で制限値を超えた場合、[!UICONTROL かんばん]アジャイルストーリーボードに警告メッセージが表示されます。この警告メッセージは、WIP の上限を初めて超えたときにのみ表示されます。この警告メッセージは、ステータスが [!UICONTROL &#x200B; 完了 &#x200B;] に等しい列には表示されません。
+WIP 制限が設定されている場合は、ストーリーボード上のいずれかの列で制限値を超えた場合、[!UICONTROL かんばん]アジャイルストーリーボードに警告メッセージが表示されます。この警告メッセージは、WIP の上限を初めて超えたときにのみ表示されます。この警告メッセージは、ステータスが [!UICONTROL  完了 ] に等しい列には表示されません。
 WIP 制限は単に視覚的な警告であり、1 つの列に設定した制限値を超える数の項目を、チームが持つことを制約しません。
 
    ![WIP の制限](assets/wip-limit-350x193.png)

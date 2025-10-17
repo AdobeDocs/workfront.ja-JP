@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: ' Adobe Workfront ビューの開始'
 description: ' [!DNL Adobe Workfront]  モバイルアプリを使用すると、外出中でもプロジェクトの進捗状況を把握できます。'
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 94%

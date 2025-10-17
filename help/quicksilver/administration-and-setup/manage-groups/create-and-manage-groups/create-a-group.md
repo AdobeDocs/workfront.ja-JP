@@ -5,11 +5,11 @@ keywords: 作成,グループ,サブグループ,新規
 navigation-topic: create-and-manage-groups
 title: グループの作成
 description: Adobe Workfront 管理者は、ユーザーやプロジェクトを整理し、Workfront 内でアクセス権を割り当てるためのグループを作成できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 87%
@@ -64,7 +64,7 @@ Adobe Workfront 管理者は、ユーザーやプロジェクトを整理し、W
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. グループのリストの上の&#x200B;**新しいグループ**&#x200B;をクリックします。
 
@@ -136,11 +136,11 @@ Workfront 管理者は、既存のグループまたはサブグループをコ�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
-1. コピーするグループを選択し、コピーアイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png) をクリックします。
+1. コピーするグループを選択し、コピーアイコン ![ コピーアイコン ](assets/copy-icon.png) をクリックします。
 1. 表示される&#x200B;**グループのコピー**&#x200B;ボックスに、コピーしたグループの&#x200B;**グループ名**&#x200B;を入力します。
 
 1. 次の情報を指定します。

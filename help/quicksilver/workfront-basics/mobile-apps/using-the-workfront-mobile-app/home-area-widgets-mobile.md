@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: ホームエリアウィジェット
 description: iOS と Android の両方のホームエリアウィジェットを使用すると、作業アイテムをすばやく見つけることができます。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%

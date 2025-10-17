@@ -4,9 +4,9 @@ navigation-topic: search
 title: オブジェクトの参照番号を使用
 description: ' [!DNL Adobe Workfront] の場合、項目はオブジェクトとして識別されます。オブジェクトはデータベースに対応し、データと項目の関連付けに使用されます。参照番号は、2 つの類似したオブジェクト（同じ名前のタスクなど）を区別するのに役立ちます。参照番号を検索し、レポートに含めることができます。'
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%

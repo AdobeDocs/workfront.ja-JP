@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: ' [!DNL Adobe Workfront] モバイルアプリでの承認'
 description: 自分に割り当てられた承認またはデリゲートされた承認は、 [!DNL Adobe Workfront] モバイルアプリの[!UICONTROL 承認]エリアから管理できます。
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%

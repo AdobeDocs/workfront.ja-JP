@@ -5,11 +5,11 @@ keywords: ビュー,グループ,イベント,通知,設定,有効にする,無�
 navigation-topic: create-and-manage-groups
 title: グループのイベント通知の表示と設定
 description: グループ管理者は、管理対象のグループに対してアクティブ化されているイベント通知を表示できます。また、Adobe Workfront 管理者がイベント通知のロックを解除した場合は、管理対象の最上位グループに対してイベント通知を設定できます。イベント通知の設定は、その設定の有効化と無効化で構成されます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 81%
@@ -66,7 +66,7 @@ Workfront 管理者がイベント通知のロックを解除する方法につ�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. 最上位グループの名前をクリックします。
 1. 左側のメニューで、「**イベント通知**」をクリックします。

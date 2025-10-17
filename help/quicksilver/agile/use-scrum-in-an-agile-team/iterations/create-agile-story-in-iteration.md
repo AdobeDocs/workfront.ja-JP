@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: 反復でのアジャイルストーリーの作成
 description: この記事では、既にイテレーションを行っている場合に、新しいアジャイルストーリーを作成する方法について説明します。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 93%

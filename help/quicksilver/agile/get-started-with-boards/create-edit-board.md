@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: ボードを作成または編集
 description: '[!UICONTROL ボード]ダッシュボードから、ボードを新規作成したり、既存のボードを編集したりすることができます。'
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 87%
@@ -106,7 +106,7 @@ ht-degree: 87%
 1. ダッシュボードで、ボードを選択して開きます。
 1. 必要に応じて、ボードを編集します。ボード名をクリックして名前を変更できます。
 
-   接続されたカードをWorkfrontと同期し、新しいタスクや問題をボードまたは取り込み列に追加するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL &#x200B; 詳細メニュー &#x200B;]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続済み項目を同期]** を選択します。
+   接続されたカードをWorkfrontと同期し、新しいタスクや問題をボードまたは取り込み列に追加するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL  詳細メニュー ]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続済み項目を同期]** を選択します。
 
    詳しくは、[ボードに対するメンバーの追加または削除](../../agile/get-started-with-boards/add-members-to-board.md)、[ボード列を管理](../../agile/get-started-with-boards/manage-board-columns.md)、および[ボードへのカードの追加](../../agile/get-started-with-boards/add-card-to-board.md)を参照してください。
 

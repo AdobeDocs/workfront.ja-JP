@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: チームのディアクティベートまたは削除
 description: 関連する履歴データを保持したまま、使用しなくなったチームを非アクティブ化できます。Adobe Workfront 管理者は、設定のチームエリアからいつでもチームを再アクティブ化できます。
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 66%
@@ -40,7 +40,7 @@ ht-degree: 66%
  </tbody> 
 </table>
 
-非アクティブ化されたチームはチームを検索しても表示されませんが、非アクティブ化前にユーザーがチームに割り当てられていた場合は、引き続き [!UICONTROL &#x200B; ホームチーム &#x200B;] およびその他のチームに表示されます。
+非アクティブ化されたチームはチームを検索しても表示されませんが、非アクティブ化前にユーザーがチームに割り当てられていた場合は、引き続き [!UICONTROL  ホームチーム ] およびその他のチームに表示されます。
 
 ## アクセス要件
 

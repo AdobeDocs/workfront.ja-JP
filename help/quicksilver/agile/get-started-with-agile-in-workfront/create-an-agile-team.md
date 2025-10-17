@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: アジャイルチームの作成
 description: Adobe Workfront を使用すると、アジャイルチームが漸進的かつ組織的な方法で作業を完了できます。
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 87%
@@ -71,10 +71,10 @@ ht-degree: 87%
 * [!DNL Kanban] アジャイル ストーリーボードにバックログを表示します。
 詳しくは、[バックログを[!UICONTROL かんばん]ボードに追加](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)を参照してください。
 
-* 他の項目が完了に等しいステータスに移動されると、アジャイルストーリーボード [!UICONTROL &#x200B; かんばん &#x200B;] に自動的に追加されるように、バックログの項目を設定します。
+* 他の項目が完了に等しいステータスに移動されると、アジャイルストーリーボード [!UICONTROL  かんばん ] に自動的に追加されるように、バックログの項目を設定します。
 詳しくは、[かんばんを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)の記事にある[バックログから自動的に追加されるようにストーリーを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)の節を参照してください。
 
-* アジャイルストーリーボード（かんばん [!UICONTROL &#x200B; に表示される進行中の作業 &#x200B;]WIP）の制限を設定します。
+* アジャイルストーリーボード（かんばん [!UICONTROL  に表示される進行中の作業 ]WIP）の制限を設定します。
 詳しくは、[かんばんボードでの作業中（WIP）の制限を管理](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)を参照してください。
 
 ### [!DNL Workfront] でスクラムを使用するメリット
@@ -87,7 +87,7 @@ ht-degree: 87%
 * アジャイルチームのバックログに関するイシューを含める
 * サブタスクは、[!UICONTROL スクラム]ストーリーボードに表示可能
 * バーンダウンチャートを表示して、イテレーション中のストーリーに対する進行状況を確認
-詳しくは、[&#x200B; アジャイルバーンダウンチャートの概要 &#x200B;](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md) を参照してください。
+詳しくは、[ アジャイルバーンダウンチャートの概要 ](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md) を参照してください。
 
 ## アジャイルチームの作成
 
@@ -95,7 +95,7 @@ ht-degree: 87%
 
 1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) を選択し、「**[!UICONTROL 新規チームを作成]**」をクリックします。
 
-   ![&#x200B; 新規チームを作成を選択 &#x200B;](assets/create-new-team.png)
+   ![ 新規チームを作成を選択 ](assets/create-new-team.png)
 
    「新規チーム」ボックスが表示されます。
 
@@ -154,8 +154,8 @@ ht-degree: 87%
 1. アジャイルチームに変換するチームを選択します。
 1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL &#x200B; 標準 &#x200B;]、[!UICONTROL &#x200B; プラン &#x200B;] または [!UICONTROL &#x200B; ワーク &#x200B;] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
-   ![&#x200B; 編集を選択 &#x200B;](assets/edit-team-settings.png)
+   [!UICONTROL  標準 ]、[!UICONTROL  プラン ] または [!UICONTROL  ワーク ] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
+   ![ 編集を選択 ](assets/edit-team-settings.png)
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションで、「**[!UICONTROL アジャイルチームです]**」を選択します。
 

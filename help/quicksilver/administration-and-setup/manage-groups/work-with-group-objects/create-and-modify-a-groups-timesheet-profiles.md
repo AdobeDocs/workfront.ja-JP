@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: グループのタイムシートプロファイルの作成と管理
 description: 管理しているグループをグループエリアで表示する場合、グループまたはそのいずれかのサブグループの管理者が管理アクセス権を持っているタイムシートプロファイルを表示し操作することができます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 87%

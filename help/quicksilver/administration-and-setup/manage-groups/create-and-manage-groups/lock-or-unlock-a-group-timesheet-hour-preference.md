@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: グループ タイムシートおよび時間設定のロックまたはロック解除
 description: グループ管理者の場合は、Workfront 管理者がシステムレベルでロックを解除した後、グループのタイムシートと時間設定を構成してロックできます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 85%
@@ -86,8 +86,8 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 
 1. 表示されるページで、次のいずれかの操作を行います。
 
-   * グループの下のグループの管理者がグループの環境設定を設定できるようにするには、そのロックを解除します ![&#x200B; ロック解除切替スイッチ &#x200B;](assets/unlock-toggle-button.png)。
-   * 以下のすべてのグループを環境設定で使用する場合は、ロックされていることを確認してください ![&#x200B; ロック切り替え &#x200B;](assets/lock-toggle-button.png) （デフォルト）。
+   * グループの下のグループの管理者がグループの環境設定を設定できるようにするには、そのロックを解除します ![ ロック解除切替スイッチ ](assets/unlock-toggle-button.png)。
+   * 以下のすべてのグループを環境設定で使用する場合は、ロックされていることを確認してください ![ ロック切り替え ](assets/lock-toggle-button.png) （デフォルト）。
 
      >[!IMPORTANT]
      >

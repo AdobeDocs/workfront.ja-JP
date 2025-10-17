@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：スポンサーしているプロジェクトに関する情報」
+title: 通知：スポンサーしているプロジェクトに関する情報
 description: 次の通知は、自分がスポンサーしているプロジェクトで発生するアクティビティについて警告します。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: b4c7c046-f15f-4e6e-9332-5232c7b7080b
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 100%

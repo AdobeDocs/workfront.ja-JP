@@ -4,11 +4,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: システムレベルとグループのステータスの並べ替え
 description: Workfront 管理者は、システム内の全員または 1 つのグループの全員に対して、プロジェクト、タスクおよびイシューのステータスの順序を変更できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 90%
@@ -21,7 +21,7 @@ Workfront 管理者は、システム内の全員または 1 つのグループ�
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![&#x200B; ステータス &#x200B;](assets/statuses.png)
+![ ステータス ](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Workfront 管理者は、システム内の全員または 1 つのグループ�
 1. 左側のパネルで、**プロジェクト環境設定／ステータス**&#x200B;をクリックします。
 1. （条件付き）グループのステータスを並べ替える場合は、右上隅のボックスにグループの名前を入力し、表示される名前をクリックします。
 
-   ![&#x200B; システムステータス &#x200B;](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![ システムステータス ](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. 表示されるステータスリストの上にある、「**プロジェクト**」または「**タスク**」タブをクリックします。
 
@@ -132,12 +132,12 @@ Workfront 管理者は、システム内の全員または 1 つのグループ�
 
 ## イシューのステータスを並べ替える
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**設定** ![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
 1. **プロジェクト環境設定／ステータス**&#x200B;をクリックします。
 1. （条件付き）グループのステータスを並べ替える場合は、右上隅のボックスにグループの名前を入力し、表示される名前をクリックします。
 
-   ![&#x200B; グループの問題ステータス &#x200B;](assets/issue-statuses-group-name.png)
+   ![ グループの問題ステータス ](assets/issue-statuses-group-name.png)
 
 1. 「**イシュー**」タブをクリックします。
 1. （オプション）イシュータイプ（**バグレポート**、**変更依頼**、**イシュー**&#x200B;または **リクエスト**）を選択します。

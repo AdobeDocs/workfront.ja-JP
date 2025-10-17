@@ -2,10 +2,10 @@
 navigation-topic: notifications
 title: Adobe Workfront の項目を購読
 description: Adobe Workfront では、ユーザーが割り当てられているアイテムや、ユーザーが所有しているアイテムに関する通知をユーザーに送信します。自分には割り当てられていないが、自分の作業に影響を与える可能性のあるアイテムについてのコミュニケーションをフォローする場合、ユーザーはそのアイテムに登録できます。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 90%
@@ -79,12 +79,12 @@ ht-degree: 90%
    >
    >プロジェクトに登録するには、次のいずれかを行います。
    >
-   >* 購読するプロジェクトに移動し、プロジェクト名の右側にある **[!UICONTROL その他]** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。
-   >* プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **[!UICONTROL 詳細]** アイコン ![&#x200B; 詳細メニュー &#x200B;](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。 これは、プロジェクトのリストでのみ使用できます。
+   >* 購読するプロジェクトに移動し、プロジェクト名の右側にある **[!UICONTROL その他]** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。
+   >* プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **[!UICONTROL 詳細]** アイコン ![ 詳細メニュー ](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。 これは、プロジェクトのリストでのみ使用できます。
 
-1. **[!UICONTROL その他]**![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。
+1. **[!UICONTROL その他]**![ その他アイコン ](assets/more-icon.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。
 
-   ![&#x200B; 作業アイテムの購読 &#x200B;](assets/subscribe-to-a-work-item-350x258.png)
+   ![ 作業アイテムの購読 ](assets/subscribe-to-a-work-item-350x258.png)
 
    ベルにチェックマークが表示され、その横の番号が更新されて、登録済みユーザー数に追加されます。
 
@@ -106,12 +106,12 @@ ht-degree: 90%
    >
    >プロジェクトへの登録を解除するには、次のいずれかの操作を実行します。
    >
-   >* 購読解除するプロジェクトに移動し、プロジェクト名の右側にある **[!UICONTROL 詳細]** アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読解除]** をクリックします。
-   >* プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **[!UICONTROL 詳細]** アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 登録解除]** をクリックします。 これは、プロジェクトのリストでのみ使用できます。
+   >* 購読解除するプロジェクトに移動し、プロジェクト名の右側にある **[!UICONTROL 詳細]** アイコン ![ 詳細アイコン ](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読解除]** をクリックします。
+   >* プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **[!UICONTROL 詳細]** アイコン ![ 詳細アイコン ](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 登録解除]** をクリックします。 これは、プロジェクトのリストでのみ使用できます。
 
-1. **[!UICONTROL その他]**![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**[!UICONTROL 登録解除]** をクリックします。
+1. **[!UICONTROL その他]**![ その他アイコン ](assets/more-icon.png) をクリックしてから、**[!UICONTROL 登録解除]** をクリックします。
 
-   ![&#x200B; 作業アイテムの登録解除 &#x200B;](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![ 作業アイテムの登録解除 ](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. 登録メールにある「[!UICONTROL 登録解除]」リンクをクリックして、登録している項目から登録解除することもできます。
 
@@ -140,7 +140,7 @@ ht-degree: 90%
    >   
    >* プロジェクトリストまたはレポートに移動し、プロジェクトを選択します。
 
-1. **[!UICONTROL その他]** アイコン ![&#x200B; をクリック &#x200B;](assets/more-icon.png) ます。
+1. **[!UICONTROL その他]** アイコン ![ をクリック ](assets/more-icon.png) ます。
 1. **[!UICONTROL 登録]**&#x200B;リンクの横にある数字の吹き出しをクリックします。
 1. 表示されるボックスで、「**[!UICONTROL 他のユーザーを登録]**」ボックスにユーザーの名前を入力し、表示されたオプションからユーザーを選択します。
 
@@ -163,7 +163,7 @@ ht-degree: 90%
    >   
    >* プロジェクトリストまたはレポートに移動し、プロジェクトを選択します。
 
-1. **[!UICONTROL その他]** アイコン ![&#x200B; をクリック &#x200B;](assets/more-icon.png) ます。
+1. **[!UICONTROL その他]** アイコン ![ をクリック ](assets/more-icon.png) ます。
 1. **[!UICONTROL 登録]**&#x200B;リンクまたは&#x200B;**[!UICONTROL 登録解除]**&#x200B;リンクの横にある数字の吹き出しをクリックします。
 1. 表示される&#x200B;**[!UICONTROL サブスクライバー]**&#x200B;ページで、登録解除するユーザー名の横にある「X」をクリックします。
 
@@ -179,7 +179,7 @@ ht-degree: 90%
 
 登録している項目に他のユーザーがコメントを投稿すると、すぐにアプリ内通知が届きます。
 
-![&#x200B; アプリ内通知 &#x200B;](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
+![ アプリ内通知 ](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 詳しくは、[アプリ内通知の表示と管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)を参照してください。
 
@@ -203,7 +203,7 @@ ht-degree: 90%
 
    ![サブスクライバーを表示](assets/bell-hover-for-list-qs-350x90.png)
 
-   「[!UICONTROL サブスクライバー]」フィールドをレポートまたは購読済みの項目のビューの列として追加することで、サブスクライバーのリストを表示することもできます。詳しくは、[&#x200B; 用語集の [!DNL Adobe Workfront] 用語](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
+   「[!UICONTROL サブスクライバー]」フィールドをレポートまたは購読済みの項目のビューの列として追加することで、サブスクライバーのリストを表示することもできます。詳しくは、[ 用語集の [!DNL Adobe Workfront] 用語](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 
 ## 購読に関する作業について
 
@@ -222,4 +222,4 @@ ht-degree: 90%
 * 項目にコメントしたユーザーがコメントをロックして非公開に設定した場合、そのユーザーと同じ会社に所属していないユーザーにそのコメントの通知は届きません。コメントを自社で非公開にする方法について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)の[作業項目に更新を追加](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add)の節を参照してください。
 
 * 購読用のレポートを作成することはできません。監査は、項目が購読または購読解除されたときに、すべての項目の更新ステータスに記録されます。
-* 子オブジェクトへのコメントは、親オブジェクトの購読通知をトリガーしません。プロジェクトを購読する場合、そのプロジェクトに対するコメントの通知のみを受け取ります。プロジェクトに関連付けられた子項目（タスクやイシュー）に対するコメントの通知は、それぞれの子項目を購読しない限り受け取りません。オブジェクトの関係について詳しくは、「[&#x200B; [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) でのオブジェクトについて」の[オブジェクトの相互依存性と階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)の節を参照してください。
+* 子オブジェクトへのコメントは、親オブジェクトの購読通知をトリガーしません。プロジェクトを購読する場合、そのプロジェクトに対するコメントの通知のみを受け取ります。プロジェクトに関連付けられた子項目（タスクやイシュー）に対するコメントの通知は、それぞれの子項目を購読しない限り受け取りません。オブジェクトの関係について詳しくは、「[ [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) でのオブジェクトについて」の[オブジェクトの相互依存性と階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)の節を参照してください。

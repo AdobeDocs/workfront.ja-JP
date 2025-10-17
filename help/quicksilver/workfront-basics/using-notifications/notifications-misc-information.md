@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 「通知：その他の情報」
+title: 通知：その他の情報
 description: 次の通知は、自分がスポンサーしているプロジェクトで発生するアクティビティについて警告します。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
@@ -54,7 +54,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <p><strong>自分が確認すべきエラーが見つかりました</strong> </p> <p>メールでコメントに返信するユーザーは、返信が配信されなかった場合にメール通知を受け取ります。</p> <p>即時通知メールの件名は次のとおりです：<em>[!UICONTROL Failed to Process on] &lt;元のメッセージの件名&gt;</em></p> <p>メールを使用したコメントの返信について詳しくは、<a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">メール通知への返信</a>を参照してください。</p> </td>
-   <td> </td> 
+   <td></td> 
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ ht-degree: 100%
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分のユーザー 1 名がプロジェクトに追加されました</strong> </p> <p>マネージャーは、ユーザーの 1 人がプロジェクトに追加されると、メール通知を受け取ります。この通知は、プロジェクトのステータスに関係なく送信されます。 </p> <p>[!UICONTROL Review] ライセンスを持つユーザーには通知が送信されません。</p> <p>メールの件名は次のとおりです。<em>プロジェクトの割り当て：&lt;ユーザー名&gt;[&lt;プロジェクト GUID&gt;_ &lt;ユーザー GUID&gt;]</em></p> </td> 
+   <td> <p><strong>自分のユーザー 1 名がプロジェクトに追加されました</strong> </p> <p>マネージャーは、ユーザーの 1 人がプロジェクトに追加されると、メール通知を受け取ります。この通知は、プロジェクトのステータスに関係なく送信されます。</p> <p>[!UICONTROL Review] ライセンスを持つユーザーには通知が送信されません。</p> <p>メールの件名は次のとおりです。<em>プロジェクトの割り当て：&lt;ユーザー名&gt;[&lt;プロジェクト GUID&gt;_ &lt;ユーザー GUID&gt;]</em></p> </td> 
    <td> <p>プロジェクト名<br>ポートフォリオ名<br>プロジェクト参照番号<br>プロジェクトに人物を追加したユーザーの名前<br>プロジェクトに追加されたユーザーの名前<br>プロジェクト [!UICONTROL Planned Start Date]<br>プロジェクト [!UICONTROL Planned Completion Date]<br>プロジェクトの完了率<br>プロジェクト上の他のユーザーの名前<br>プロジェクトのステータス<br>プロジェクト所有者<br><strong>[!UICONTROL See More Details]</strong> ボタン<br><br><br></p> </td> 
    <td><strong>即時</strong> </td> 
   </tr> 

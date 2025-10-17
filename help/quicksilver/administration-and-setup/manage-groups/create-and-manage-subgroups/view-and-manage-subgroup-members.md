@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: サブグループのメンバーの表示と管理
 description: 管理対象のグループを表示している場合、グループのサブグループ内のすべてのユーザーを表示および管理できます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 67%
@@ -68,7 +68,7 @@ ht-degree: 67%
 
 1. 次のいずれかの操作を行います。
 
-   * リストでメンバーを選択し、編集 ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックして、そのユーザーのユーザープロファイルを変更します。
+   * リストでメンバーを選択し、編集 ![ 編集アイコン ](assets/edit-icon.png) をクリックして、そのユーザーのユーザープロファイルを変更します。
 
      詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)または[ユーザープロファイルの一括編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)を参照してください。
 
@@ -76,9 +76,9 @@ ht-degree: 67%
 
      ユーザーには、アプリ内通知と、コメントが記載されたメール通知が送信されます。コメントは、ユーザーのプロファイルの「更新」エリアに表示されます。
 
-     詳しくは、[&#x200B; 他のユーザーへのダイレクトメッセージの送信 &#x200B;](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) を参照してください。
+     詳しくは、[ 他のユーザーへのダイレクトメッセージの送信 ](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) を参照してください。
 
-   * リスト内の任意の数のメンバーを選択し、「非アクティブ化 ![&#x200B; ユーザーの非アクティブ化 &#x200B;](assets/deactivate-user.png) または「アクティブ化 ![&#x200B; ユーザーのアクティブ化 &#x200B;](assets/activate-user.png)」をクリックします。
+   * リスト内の任意の数のメンバーを選択し、「非アクティブ化 ![ ユーザーの非アクティブ化 ](assets/deactivate-user.png) または「アクティブ化 ![ ユーザーのアクティブ化 ](assets/activate-user.png)」をクリックします。
 
      詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
 

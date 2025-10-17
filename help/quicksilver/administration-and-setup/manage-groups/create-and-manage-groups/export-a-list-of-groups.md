@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: グループのリストのエクスポート
 description: 管理対象のグループを表示している場合は、そのグループのリストを書き出すことができます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 66c1f049-c7b5-4d6b-9dc2-3c5f527764e9
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 60%
@@ -53,14 +53,14 @@ ht-degree: 60%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
-1. 管理するグループのグループ全体を書き出す場合は、「書き出し」アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックします。
+1. 管理するグループのグループ全体を書き出す場合は、「書き出し」アイコン ![ 書き出しアイコン ](assets/export.png) をクリックします。
 
    または
 
-   管理しているグループの一部を書き出すには、それらのグループを選択し、「書き出し」アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックします。
+   管理しているグループの一部を書き出すには、それらのグループを選択し、「書き出し」アイコン ![ 書き出しアイコン ](assets/export.png) をクリックします。
 
 1. 書き出すリストのファイル形式を選択します。

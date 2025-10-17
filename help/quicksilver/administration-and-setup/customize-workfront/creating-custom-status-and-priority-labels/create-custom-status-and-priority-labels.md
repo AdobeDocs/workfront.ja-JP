@@ -1,16 +1,16 @@
 ---
-title: 「カスタムステータスと優先度ラベルの作成：記事インデックス」
+title: カスタムステータスと優先度ラベルの作成：記事インデックス
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: Adobe Workfront の管理者は、プロジェクト、タスクおよびイシューのカスタムステータスを作成できます。これらは、Workfront システム全体のユーザーに対して、または特定のグループやサブグループに対して使用できます。作業アイテムのステータスは、作業アイテムの現在の開発状態を表します。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 88%

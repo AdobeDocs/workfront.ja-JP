@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: レビューライセンスを持つユーザーのナビゲーションについて
 description: メインメニューは、 [!DNL Adobe Workfront] 管理者に割り当てられたアクセスレベルに応じて変わります。デフォルトでは、自分のアクセスレベルで使用が許可される機能を含んだエリアへのアクセス権のみが付与されます。
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
 * **[!UICONTROL ブループリント]**：システムの既存のブループリントをレビューし、[!DNL Workfront] 管理者がブループリントのリクエストキューを設定した場合は、ブループリントをインストールするように要求します。詳しくは、[ブループリントの概要](../../../administration-and-setup/blueprints/blueprints-overview.md)を参照してください。
 
 
-![&#x200B; メインメニューからマイアップデートにアクセス &#x200B;](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![ メインメニューからマイアップデートにアクセス ](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## デフォルトの[!UICONTROL メインメニュー]のカスタマイズ
 
