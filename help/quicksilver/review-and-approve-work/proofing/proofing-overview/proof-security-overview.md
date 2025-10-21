@@ -34,7 +34,7 @@ ht-degree: 93%
 >
 >ログインプロセスを効率化するために、Workfront および Workfront Proof で SSO を設定することをお勧めします。SSO の有効化について詳しくは、
 >
->* [Workfrontでのシングルサインオン：記事インデックス ](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+>* [Workfrontでのシングルサインオン：記事インデックス &#x200B;](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [Workfront Proof ユーザーに対するシングルサインオンの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 
 ## 電子サイン

@@ -53,9 +53,9 @@ ht-degree: 87%
  </tbody> 
 </table>
 
-このテーブルの情報について詳しくは、[ ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+このテーブルの情報について詳しくは、[&#x200B; ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
+Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
 
 ## イベントのトリガー
 
@@ -78,7 +78,7 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
   | [!UICONTROL 最終送信日] | 日付 |
   | [!UICONTROL 統合に関するメモ] | 段落テキストフィールド |
 
-  カスタムフォームの作成について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## 想定される [!DNL Anaplan] 設定
 
@@ -228,15 +228,15 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
 
 このシナリオテンプレートは、次の支出最適化シナリオテンプレートを補完するもので、デプロイすることもできます。
 
-* [[!UICONTROL  [!DNL Adobe Workfront]  プロジェクトの更新を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
-* [[!UICONTROL  [!DNL Adobe Workfront]  の実際の時間の更新を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL &#x200B; [!DNL Adobe Workfront]  プロジェクトの更新を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [[!UICONTROL &#x200B; [!DNL Adobe Workfront]  の実際の時間の更新を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 予算リクエストのリンクに関する追加のシナリオ：
 
-* [[!UICONTROL  [!DNL Adobe Workfront]  予算リクエストから  [!DNL Anaplan]  リスト項目を作成]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [[!UICONTROL  [!DNL Anaplan]  予算配分を  [!DNL Adobe Workfront]  プロジェクトに適用]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL &#x200B; [!DNL Adobe Workfront]  予算リクエストから  [!DNL Anaplan]  リスト項目を作成]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [[!UICONTROL &#x200B; [!DNL Anaplan]  予算配分を  [!DNL Adobe Workfront]  プロジェクトに適用]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 キャンペーンリクエストのリンクに関する追加のシナリオ：
 
-* [[!UICONTROL  [!DNL Adobe Workfront]  キャンペーンリクエストから  [!DNL Anaplan]  リスト項目を作成]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [[!UICONTROL  [!DNL Anaplan]  予算配分を  [!DNL Adobe Workfront]  キャンペーンリクエストまたはキャンペーンプロジェクトに適用する]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [[!UICONTROL &#x200B; [!DNL Adobe Workfront]  キャンペーンリクエストから  [!DNL Anaplan]  リスト項目を作成]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [[!UICONTROL &#x200B; [!DNL Anaplan]  予算配分を  [!DNL Adobe Workfront]  キャンペーンリクエストまたはキャンペーンプロジェクトに適用する]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)

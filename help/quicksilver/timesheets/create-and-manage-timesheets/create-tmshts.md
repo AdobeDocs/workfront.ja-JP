@@ -21,7 +21,7 @@ ht-degree: 88%
 
 ユーザーからの追加の介入なしに（推奨）、定期的なタイムシートを生成するタイムシートプロファイルの作成について詳しくは、[タイムシートプロファイルの作成、編集、割り当て](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
-タイムシートプロファイルに関連付けられた、システム内のすべてのユーザーのタイムシートを手動で生成する方法については、[ タイムシートを手動で生成する ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) を参照してください。
+タイムシートプロファイルに関連付けられた、システム内のすべてのユーザーのタイムシートを手動で生成する方法については、[&#x200B; タイムシートを手動で生成する &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) を参照してください。
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ ht-degree: 88%
 
 **すべて**&#x200B;のフィルターがデフォルトでは選択されています。これにより、表示するアクセス権のあるすべてのタイムシートが表示されます。
 
-![1 つのタイムシートが選択されたタイムシートリスト ](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![1 つのタイムシートが選択されたタイムシートリスト &#x200B;](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
@@ -77,9 +77,9 @@ ht-degree: 88%
 
      これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートのリストに適用されます。
 
-     ![ マイタイムシートのフィルターボタンがタイムシートリストページに表示されます ](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![&#x200B; マイタイムシートのフィルターボタンがタイムシートリストページに表示されます &#x200B;](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * **フィルター** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * **フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
@@ -88,9 +88,9 @@ ht-degree: 88%
    >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. （任意） **検索** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックしてキーワードを入力し、特定のタイムシートを検索します。 例えば、所有者名のタイムシート期間を検索できます。
+1. （任意） **検索** アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックしてキーワードを入力し、特定のタイムシートを検索します。 例えば、所有者名のタイムシート期間を検索できます。
 
-1. （任意） **表示** ![ 表示アイコン ](assets/view-icon.png) または **グループ化** ![ グループ化アイコン ](assets/grouping.png) アイコンをクリックして、別のビューやグループ化を適用するか、新しいビューやグループを作成します。
+1. （任意） **表示** ![&#x200B; 表示アイコン &#x200B;](assets/view-icon.png) または **グループ化** ![&#x200B; グループ化アイコン &#x200B;](assets/grouping.png) アイコンをクリックして、別のビューやグループ化を適用するか、新しいビューやグループを作成します。
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 
