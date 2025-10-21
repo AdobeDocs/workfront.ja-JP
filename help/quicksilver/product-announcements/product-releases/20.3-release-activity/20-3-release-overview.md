@@ -118,7 +118,7 @@ For specific release dates and times for each cluster, see the
 >
 >この記事で説明している機能を使用するには、組織に以下が必要です。
 >
->* Pro 以上の [Adobe Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)。
+>* Pro 以上の [Adobe Workfront プラン](https://business.adobe.com/jp/products/workfront/pricing.html)。
 >* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 >
 >  Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
@@ -155,7 +155,7 @@ For specific release dates and times for each cluster, see the
 >&gt; <col> 
 >&gt; <tbody> 
 >&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront プラン</a>*</p> </td> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/jp/products/workfront/pricing.html" target="_blank">Workfront プラン</a>*</p> </td> 
 >&gt;   <td>ビジネス以上</td> 
 >&gt;  </tr> 
 >&gt;  <tr> 
@@ -451,7 +451,7 @@ API のバージョンについて詳しくは、[API のバージョン管理�
 
 Workfront One を使用すると、Workfront の重要なコンテンツ、リソース、ニュースをすべて 1 か所で、1 回のログインで見つけることができます。エクスペリエンス、コミュニティ、トレーニングの各サイトを統合し、探しているものを見つけやすくしました。
 
-[Workfront One の詳細](https://business.adobe.com/products/workfront.html)
+[Workfront One の詳細](https://business.adobe.com/jp/products/workfront.html)
 
 ### 20.3 リリースウェビナー {#20-3-release-webinar}
 

@@ -40,12 +40,12 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td><strong>[!DNL Adobe Experience League]</strong> で [!DNL Workfront] を確認する </td> 
-   <td> <p><a href="https://experienceleague.adobe.com/en/docs/workfront">https://experienceleague.adobe.com/en/docs/workfront</a> の上部にある検索バーを使用すると、特定の記事、ディスカッション、トレーニングを見つけるのに役立ちます。 あらゆる [!DNL Workfront] の項目の検索エンジンと考えてください。</p> <p>ここでは、次のようなリソースも検索できます。</p> 
+   <td> <p><a href="https://experienceleague.adobe.com/ja/docs/workfront">https://experienceleague.adobe.com/ja/docs/workfront</a> の上部にある検索バーを使用すると、特定の記事、ディスカッション、トレーニングを見つけるのに役立ちます。 あらゆる [!DNL Workfront] の項目の検索エンジンと考えてください。</p> <p>ここでは、次のようなリソースも検索できます。</p> 
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/ja/docs/workfront/using/home">ドキュメント</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home">チュートリアル</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/ja/docs/workfront/using/product-announcements/product-releases/product-releases"> リリース </a> </p></li> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API ドキュメント</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API ドキュメント</a> </p> </li> 
      <li> <p>その他</p> </li> 
     </ul> </td> 
   </tr> 
@@ -67,7 +67,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td><strong>[!DNL Workfront] トレーニングでオンデマンドで学ぶ</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">Experience League</a> は、プランナー、作業者、共同作業者、システム管理者が、[!DNL Workfront] の主要な機能をインストールおよび導入できる、役割ベースの学習パスを提供します。興味のあるトピックの学習パス、ビデオチュートリアルおよびダウンロード可能なガイドを参照して、<br>[!DNL Workfront] ナレッジ</a>を広げます。<br></td> 
+   <td><a href="https://experienceleague.adobe.com/ja">Experience League</a> は、プランナー、作業者、共同作業者、システム管理者が、[!DNL Workfront] の主要な機能をインストールおよび導入できる、役割ベースの学習パスを提供します。興味のあるトピックの学習パス、ビデオチュートリアルおよびダウンロード可能なガイドを参照して、<br>[!DNL Workfront] ナレッジ</a>を広げます。<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +85,7 @@ ht-degree: 92%
    <td>これは、ウェビナー、ebook、ホワイトペーパー、ビデオおよびレポートのソースとなります。</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">導入事例 </a></td> 
+   <td><a href="https://business.adobe.com/jp/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">導入事例 </a></td> 
    <td>60 件以上に及ぶケーススタディのコレクションを通じて、お客様が直面する課題、[!DNL Workfront] ソリューションおよびメリットを説明します。</td> 
   </tr> 
   <tr> 
@@ -142,8 +142,8 @@ ht-degree: 92%
 
 | [[!DNL Adobe Workfront] 統合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | サードパーティのアプリケーションと [!DNL Workfront] を統合できます。統合は、[!DNL Workfront] のユーティリティを拡張し、組織のニーズに合わせて調整できます。このナレッジベースの記事では、統合オプションについて説明し、今後の方向性を示します。 |
 |---|---|
-| [[!DNL Workfront] ビルトインの統合](https://business.adobe.com/products/workfront/integrations.html) | Workfront の無料のビルトインの統合により、同じワークフローやプロセスを維持しながら、Workfront プラットフォームへのスムーズな移行を実現します。 |
-| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | [!DNL Workfront] を100 を超えるアプリケーションに接続し、コードを使用せずにビジネスクリティカルなプロセスを容易に自動化できます。 |
+| [[!DNL Workfront] ビルトインの統合](https://business.adobe.com/jp/products/workfront/integrations.html) | Workfront の無料のビルトインの統合により、同じワークフローやプロセスを維持しながら、Workfront プラットフォームへのスムーズな移行を実現します。 |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home) | [!DNL Workfront] を100 を超えるアプリケーションに接続し、コードを使用せずにビジネスクリティカルなプロセスを容易に自動化できます。 |
 
 {style="table-layout:auto"}
 
@@ -153,7 +153,7 @@ ht-degree: 92%
 
 [!DNL Workfront] ステータスサイトについて詳しくは、[&#x200B; [!DNL Adobe Workfront] ステータスサイト](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)を参照してください。
 
-毎週のメンテナンス更新で修正された点については、[メンテナンスアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
+毎週のメンテナンス更新で修正された点については、[メンテナンスアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 <!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 
@@ -163,6 +163,6 @@ The following dashboards can help you as a [!DNL Workfront] administrator mainta
 
 | [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
 |---|---|
-| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
+| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299?profile.language=ja) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
 
 -->
