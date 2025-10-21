@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 91%
@@ -20,6 +20,7 @@ ht-degree: 91%
 <!-- Audited: 12/2023 -->
 
 Adobe Workfront 管理者は、アクセスレベルを使用して、プロジェクトに対するユーザーのアクセス権を定義できます。詳しくは、次の記事を参照してください。
+
 * [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [新規アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 
@@ -57,9 +58,9 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、プロジ�
 ## カスタムアクセスレベルを使用してプロジェクトへのユーザーのアクセス権を設定
 
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
-1. 「表示 ![&#x200B; またはプロジェクトの右側にある &#x200B;](assets/gear-icon-settings.png) 編集 **ボタンの歯車アイコン** 歯車設定アイコン **&#x200B;**&#x200B;をクリックし、付与するアビリティーを **設定を微調整** から選択します。
+1. 「表示 ![ またはプロジェクトの右側にある ](assets/gear-icon-settings.png) 編集 **ボタンの歯車アイコン** 歯車設定アイコン **** をクリックし、付与するアビリティーを **設定を微調整** から選択します。
 
-   ![&#x200B; プロジェクトをコピーするための設定の微調整 &#x200B;](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![ プロジェクトをコピーするための設定の微調整 ](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >

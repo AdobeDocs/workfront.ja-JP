@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 21%
+ht-degree: 26%
 
 ---
 
@@ -52,14 +52,14 @@ ht-degree: 21%
 
 {{step1-to-priorities}}
 
-1. 名前の上にマウスポインターを置いて、**その他**![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
+1. 名前の上にマウスポインターを置いて、**その他**![ その他のアイコン ](assets/more-icon.png) アイコンをクリックします。
 1. 「**アップロード**」をクリックします。
-   ![&#x200B; 更新、時間をログ記録、アップロード &#x200B;](assets/update-log-upload.png)
+   ![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
 1. （オプション）「**ファイルをアップロード**」ボックスで、フォルダーを選択します。
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
 または
 **ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![&#x200B; ファイルを追加 &#x200B;](assets/add-files.png)
+   ![ ファイルを追加 ](assets/add-files.png)
 1. （任意）コメントを追加します。
 1. （任意）ファイルをさらに追加します。
 
@@ -75,14 +75,19 @@ ht-degree: 21%
 1. 作業項目名をクリックして、**概要** ページを開きます。
 1. 「**クイックアクション**」セクションで「**アップロード**」をクリックし、「**ドキュメント**」を選択します。
 1. （オプション）「**ファイルをアップロード**」ボックスで、フォルダーを選択します。
-1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
-または
-**ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![&#x200B; ファイルを追加 &#x200B;](assets/add-files.png)
+1. ファイルをドラッグ＆ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
+
+   または
+
+   **ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
+
+   ![ ファイルを追加 ](assets/add-files.png)
+
 1. （任意）コメントを追加します。
 1. （任意）ファイルをさらに追加します。
 
    >[!NOTE]
    >
    >追加のファイルは、別個のドキュメントとしてアップロードされます。
+
 1. 「**アップロード**」をクリックします。

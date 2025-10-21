@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 45%
@@ -82,7 +82,7 @@ ht-degree: 45%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++  
 
@@ -157,19 +157,22 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 {{step1-to-planning}}
 
 最後にアクセスしたワークスペースが開きます。
+
 1. レコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
+
 1. （条件付き）テーブルの右上隅にある&#x200B;**ビュー**&#x200B;のドロップダウンメニューから、テーブルビューを選択します。最後にアクセスしたときにタイムラインビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
 
    選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
+
 1. レコード行を右クリックします。
 
    または
 
-   レコードの名前にポインタを合わせ、「**その他**」メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**リンクをコピー**」をクリックします。
+   レコードの名前にポインタを合わせ、「**その他**」メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、「**リンクをコピー**」をクリックします。
 
-   ![&#x200B; レコード行のコンテキストメニュー &#x200B;](assets/contextual-menu-for-record-row.png)
+   ![ レコード行のコンテキストメニュー ](assets/contextual-menu-for-record-row.png)
 
    リンクがクリップボードにコピーされます。
 
@@ -205,5 +208,5 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ワークスペースに対する管理権限を持つユーザーのみが、そのレコードタイプとレコードを他のユーザーと共有できます。
 
-詳しくは、[&#x200B; レコードタイプの共有 &#x200B;](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
+詳しくは、[ レコードタイプの共有 ](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
 

@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -113,17 +113,14 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 
 渡されるパラメーターに注意してください。
 
-* `client_id` は、アプリケーションの設定時に作成した OAuth2 アプリケーションのクライアント ID と一致します。
+* `client_id` は、アプリケーションの設定時にで作成した OAuth2 アプリケーションのクライアント ID と一致します。
 
   手順については、Workfront 統合用の OAuth2 アプリケーションの作成にある、PKCE を使用した OAuth2 単一ページ web アプリケーションの作成を参照してください。
 
-* `response_type` は `code` です。これは、アプリケーションが認証コード付与タイプを使用するためです。
-
-* `redirect_uri` は、ユーザーエージェントが `code` とともにリダイレクトされるコールバックの場所です。これは、OAuth2 アプリケーションの作成時に指定したリダイレクト URL の 1 つと一致する必要があります。
-
-* `code_challenge_method` はチャレンジの生成に使用されるハッシュメソッドであり、PKCE を使用する Workfront Oauth2 アプリケーションの場合は常に `S256` です。
-
-* `code_challenge` は、PKCE で使用されるコードチャレンジです。
+* アプリケーションが認証コード付与タイプを使用するので、`response_type` は `code` です。
+* `redirect_uri` は、`code` と共にユーザーエージェントが誘導されるコールバックの場所です。 これは、OAuth2 アプリケーションの作成時に指定したリダイレクト URL の 1 つと一致する必要があります。
+* チャレンジの生成に使用されるハッシュ方式は `code_challenge_method` です。この方式は、PKCE を使用するWorkfront Oauth2 アプリケーションで常に `S256` 用されます。
+* `code_challenge` は、PKCE に使用されるコードチャレンジです。
 
 
 ## トークンのコードの交換

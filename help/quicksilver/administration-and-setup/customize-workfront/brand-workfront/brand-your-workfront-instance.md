@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 96%
@@ -31,27 +31,25 @@ Workfront の管理者は、次の場所でロゴを使用して Workfront の�
 
 * ログイン画面
 
-  ![&#x200B; ログイン画面でのブランド &#x200B;](assets/brand-login-screen-nwe-adobe.jpg)
+  ![ ログイン画面でのブランド ](assets/brand-login-screen-nwe-adobe.jpg)
 
 * ナビゲーションエリア上部
 
-  ![&#x200B; トップナビゲーションのブランド &#x200B;](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![ トップナビゲーションのブランド ](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * メインメニュー
 
-  ![&#x200B; メインメニューのブランド &#x200B;](assets/brand-main-menu-adobe.jpg)
+  ![ メインメニューのブランド ](assets/brand-main-menu-adobe.jpg)
 
 また、ログイン画面の背景画像やカラーを変更することもできます。
 
-![&#x200B; ログイン画面のバナー &#x200B;](assets/wf_banner_on_login_screen-adobe.png)
+![ ログイン画面のバナー ](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >
 >* 組織の Workfront インスタンスがカスタム SSO ポータルを使用している場合、ログインの背景画像とカラーは変更できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
-><!--
->or is enabled with Adobe IMS  >
->  >
->-->
+>
+><!-- or is enabled with Adobe IMS -->
 >
 >* Workfront の管理者またはグループ管理者は、レイアウトテンプレートを使用して、特定のグループおよびユーザーの Workfront をブランディングすることもできます。レイアウトテンプレートのブランディングは、この記事で説明するシステムレベルのブランディングを上書きします。レイアウトテンプレートでのブランディングの手順については、[レイアウトテンプレートを使用した Adobe Workfront のブランディング](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)を参照してください。
 
@@ -134,10 +132,8 @@ Workfront の管理者は、次の場所でロゴを使用して Workfront の�
    >[!NOTE]
    >
    >組織の Workfront インスタンスがカスタム SSO Portal を使用している場合は使用できません。
-   ><!--   >
-   >or is enabled with Adobe IMS   >
-   >   >
-   >-->
+   >
+   ><!--  or is enabled with Adobe IMS -->
    >
    >詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
 

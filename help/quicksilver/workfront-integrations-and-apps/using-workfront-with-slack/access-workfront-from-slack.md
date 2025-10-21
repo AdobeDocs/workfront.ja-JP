@@ -6,7 +6,7 @@ description: ' [!DNL Adobe Workfront]  を  [!DNL Slack]  に統合すると、S
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 98%
@@ -56,12 +56,12 @@ ht-degree: 98%
 
   これは、コマンドが [!DNL Workfront] アプリ用であることを示しています。[!DNL Workfront] 用のコマンドは、[!DNL Slack] インスタンスで [!DNL Workfront] アプリを既に設定している場合にのみ機能します。
 
-Slack for [!DNL Workfront] から実行できるすべてのコマンドのリストについては、[&#x200B; [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) でのスラッシュコマンドからのアクセス [!DNL Workfront] を参照してください。
+Slack for [!DNL Workfront] から実行できるすべてのコマンドのリストについては、[ [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) でのスラッシュコマンドからのアクセス [!DNL Workfront] を参照してください。
 
 ## [!DNL Slack] から [!DNL Workfront] へのログイン {#log-in-to-workfront-from-slack}
 
 Slack のメッセージフィールドにコマンドを入力すると、最初に [!DNL Workfront] にログインするように求められます。\
-[!DNL Slack] の [!DNL Workfront] コマンドの完全な一覧については、この記事で、[&#x200B; [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) でのスラッシュコマンドからのアクセス [!DNL Workfront] の節を参照してください。
+[!DNL Slack] の [!DNL Workfront] コマンドの完全な一覧については、この記事で、[ [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) でのスラッシュコマンドからのアクセス [!DNL Workfront] の節を参照してください。
 
 [!DNL Slack] から [!DNL Workfront] にログインするには：
 
@@ -97,12 +97,12 @@ Slack のメッセージフィールドにコマンドを入力すると、最�
 ## [!DNL Slack] から [!DNL Workfront] へのアクセス
 
 * [スラッシュコマンドについて](#about-slash-commands-about-slash-commands)
-* [&#x200B; [!DNL Slack] の共有リンクから  [!DNL Workfront]  へのアクセス](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
+* [ [!DNL Slack] の共有リンクから  [!DNL Workfront]  へのアクセス](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
 
 ## [!DNL Slack] のスラッシュコマンドから [!DNL Workfront] へのアクセス {#access-workfront-from-a-slash-command-in-slack}
 
 1. [!DNL Slack] インスタンスにログインし、[!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインの詳細については、「[&#x200B;  [!DNL Slack]](#log-in-to-workfront-from-slack-log-in-to-workfront-from-slack) から  [!DNL Workfront]  へのログイン」を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインの詳細については、「[  [!DNL Slack]](#log-in-to-workfront-from-slack-log-in-to-workfront-from-slack) から  [!DNL Workfront]  へのログイン」を参照してください。
 
 1. 任意のチャネルから、メッセージフィールドに次のコマンドを入力します。
 
@@ -118,7 +118,7 @@ Slack のメッセージフィールドにコマンドを入力すると、最�
 
      タスク、イシューおよび承認のリストにアクセスするためのボタンが表示されます。ボタンの 1 つをクリックすると、[!DNL Slack] に、各リストの最初の 20 項目が表示されます。
 
-     [!DNL Slack] からの [!DNL Workfront] 作業アイテムの管理について詳しくは、「[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md) からの作業と承認の管理」を参照してください。
+     [!DNL Slack] からの [!DNL Workfront] 作業アイテムの管理について詳しくは、「[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md) からの作業と承認の管理」を参照してください。
 
    * `/wf add task <TaskName>`
 
@@ -126,7 +126,7 @@ Slack のメッセージフィールドにコマンドを入力すると、最�
 
      [!DNL Workfront] にタスクをに追加します。
 
-     Slack から [!DNL Workfront] にタスクを追加する方法の詳細については、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md) からのタスクとイシューの作成の「[!DNL Slack] からのタスク作成」の節を参照してください。
+     Slack から [!DNL Workfront] にタスクを追加する方法の詳細については、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md) からのタスクとイシューの作成の「[!DNL Slack] からのタスク作成」の節を参照してください。
 
    * `/wf add issue <Issue Name>`
 
@@ -134,35 +134,35 @@ Slack のメッセージフィールドにコマンドを入力すると、最�
 
      [!DNL Workfront] にイシューを追加します。
 
-     [!DNL Slack] から [!DNL Workfront] にタスクを追加する方法の詳細については、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md) からのタスクとイシューの作成で、「[!DNL Slack] からのタスク作成」の節を参照してください。
+     [!DNL Slack] から [!DNL Workfront] にタスクを追加する方法の詳細については、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md) からのタスクとイシューの作成で、「[!DNL Slack] からのタスク作成」の節を参照してください。
 
    * `/wf favorites`
 
      [!DNL Workfront] お気に入りのリストを表示します。
 
-     [!DNL Slack] からのお気に入りへのアクセスの詳細については、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) からのお気に入りと最近のアイテムへのアクセスの [&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites) からの[!UICONTROL お気に入り]リストへのアクセスを参照してください。
+     [!DNL Slack] からのお気に入りへのアクセスの詳細については、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) からのお気に入りと最近のアイテムへのアクセスの [ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites) からの[!UICONTROL お気に入り]リストへのアクセスを参照してください。
 
    * `/wf recent`
 
      [!DNL Workfront] で最近アクセスした項目のリストが表示されます。
 
-     [!DNL Slack] からの最近のアイテムへのアクセスの詳細については、 [!DNL Slack][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)で、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [!UICONTROL Access your favorites]  からの [!UICONTROL 最近のアイテム]リストへのアクセスおよび  の最近のアイテムへのアクセスを参照してください。
+     [!DNL Slack] からの最近のアイテムへのアクセスの詳細については、 [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)で、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [[!UICONTROL Access your favorites]  からの [!UICONTROL 最近のアイテム]リストへのアクセスおよび [!UICONTROL  の最近のアイテムへのアクセスを参照してください。
 
    * `wf tasks`
 
      タスクのリストを表示します。
 
-     [!DNL Slack] からのタスクの管理の詳細については、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md) からの作業と承認の管理の [!DNL Slack] からのタスクの管理節を参照してください。
+     [!DNL Slack] からのタスクの管理の詳細については、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md) からの作業と承認の管理の [!DNL Slack] からのタスクの管理節を参照してください。
 
    * `/wf issues`
 
      イシューのリストを表示します。
 
-     [!DNL Slack] からのイシューの管理の詳細については、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md) からの作業と承認の管理で、「[!DNL Slack] からのイシューの管理」の節を参照してください。
+     [!DNL Slack] からのイシューの管理の詳細については、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md) からの作業と承認の管理で、「[!DNL Slack] からのイシューの管理」の節を参照してください。
 
    * `/wf approvals` [!DNL Workfront] の承認を表示します。\
 
-     [!DNL Slack] からのタスクの管理の詳細については、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md) からの作業と承認の管理の [!DNL Slack] からのタスクの管理節を参照してください。
+     [!DNL Slack] からのタスクの管理の詳細については、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md) からの作業と承認の管理の [!DNL Slack] からのタスクの管理節を参照してください。
 
    * `/wf search <keyword>`
 
@@ -188,7 +188,7 @@ Slack のメッセージフィールドにコマンドを入力すると、最�
 
      [!DNL Slack] から [!DNL Workfront] にログインします。
 
-   * `/wf log out `
+   * `/wf log out`
 
      [!DNL Slack] で [!DNL Workfront] からログアウトします。別のアプリケーションの別のブラウザータブで別の [!DNL Workfront] インスタンスを開いている場合は、[!DNL Workfront] にログインしたままになります。
    * `/wf settings`
@@ -212,7 +212,7 @@ Slack のメッセージフィールドにコマンドを入力すると、最�
 
 [!DNL Slack] で共有されているオブジェクトへのリンクから、[!DNL Workfront] オブジェクトにアクセスできます。
 
-共有リンクから [!DNL Workfront] にアクセスする方法の詳細については、 [!DNL Slack][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md) の共有リンクからの  [!DNL Adobe Workfront]  オブジェクトへのアクセスを参照してください。
+共有リンクから [!DNL Workfront] にアクセスする方法の詳細については、 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md) の共有リンクからの [ [!DNL Adobe Workfront]  オブジェクトへのアクセスを参照してください。
 
 ## 設定を行う {#configure-settings}
 
@@ -232,7 +232,7 @@ Slack のメッセージフィールドにコマンドを入力すると、最�
 
    * **[!UICONTROL 通知設定]**&#x200B;エリア内で、Workfront からの受信を停止する通知を無効にします。\
 
-     [!DNL Slack] で [!DNL Workfront] 通知を受信する方法については、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md) で  [!DNL Adobe Workfront]  通知を受信するを参照してください。
+     [!DNL Slack] で [!DNL Workfront] 通知を受信する方法については、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md) で  [!DNL Adobe Workfront]  通知を受信するを参照してください。
 
 ## [!DNL Slack] で [!DNL Workfront] からログアウト
 

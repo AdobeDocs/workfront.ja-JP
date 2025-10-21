@@ -7,7 +7,7 @@ description: データ式を使用して、Adobe Workfront で計算済みのカ
 author: Jenny, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 88%
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 * カスタムフォームの計算済みカスタムフィールド
 
-  Workfrontのカスタムフォーム上に計算カスタムフィールドを作成する方法について詳しくは、[&#x200B; 計算フィールドをフォームに追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+  Workfrontのカスタムフォーム上に計算カスタムフィールドを作成する方法について詳しくは、[ 計算フィールドをフォームに追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 * テキストモードを使用する場合の、レポートまたはリスト内の計算済みカスタム列
 
@@ -59,7 +59,7 @@ ht-degree: 88%
 * タスクのカスタムフォームのカスタムフィールドでは、以下を使用して、カスタムフォームが添付されているタスクの親プロジェクトの名前を生成します。
 
 
-  ` {project}.{name}`
+  `{project}.{name}`
 
 
 * レポートのカスタム列では、以下を使用して、タスクレポートにプロジェクト名のカスタム列を追加します。

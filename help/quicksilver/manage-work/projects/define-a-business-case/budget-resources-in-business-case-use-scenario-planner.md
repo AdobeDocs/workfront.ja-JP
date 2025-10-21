@@ -5,7 +5,7 @@ description: リソース計画の一環として、ビジネスケースを構�
 author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 87%
@@ -73,7 +73,7 @@ ht-degree: 87%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -109,11 +109,12 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >リソースは 15 年の期間にわたって予算計上できます。期間が 15 年を超えるプロジェクトのリソースを予算計上すると、計上する情報が正確でなくなる可能性があります。
-><!--
+
+<!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >(is this still accurate for the Scenario Planner?)>
 ></MadCap:conditionalText>>
->-->
+-->
 
 1. 予算計上するプロジェクトにリソースを移動します。
 
@@ -130,7 +131,7 @@ ht-degree: 87%
 
    * プロジェクトの予算リソースに対して、リソースプランナーが以前に選択されていた場合は、**変更**／**シナリオプランナ**／**選択**&#x200B;をクリックします。
 
-     ![&#x200B; シナリオプランナーのビジネスケースと「選択」ボタン &#x200B;](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![ シナリオプランナーのビジネスケースと「選択」ボタン ](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront は、リンクされたイニシアティブから必要な担当業務時間を使用して、プロジェクトの予算労務費と予算時間を計算します。これは推奨されるオプションです。コストは、ビジネスケースにプロジェクトの通貨で表示されます。
 

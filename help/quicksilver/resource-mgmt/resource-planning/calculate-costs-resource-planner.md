@@ -6,10 +6,10 @@ description: Adobe Workfront リソースプランナーでリソースを予算
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -150,7 +150,7 @@ Adobe Workfront リソースプランナーでリソースを予算計上する�
 
 ユーザー、役割およびプロジェクトの予定コストを計算する場合、次のシナリオが存在します。
 
-* **コストの種類**&#x200B;が「ユーザー（毎時）」で、タスクに&#x200B;**割り当てがない**&#x200B;場合：
+* **コストタイプ** が **ユーザー時間** で、タスクに **割り当てなし** がある場合：
 
    * **役割とユーザーの予定コスト**：
 

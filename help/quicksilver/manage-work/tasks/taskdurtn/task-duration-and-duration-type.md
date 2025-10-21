@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1653'
 ht-degree: 70%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 70%
 >[!BEGINSHADEBOX]
 
 **例**
-スケジュールが午前 9:00 に開始して午後 12:00 に終了し、タスクが午後 2:00 に開始して午後 4:00 に終了するようにスケジュールされている場合、タスクの期間はゼロになります。
+午前 9:00 に開始して午後 12:00 に終了するスケジュールがあり、タスクが午後 2:00 に開始して午後 4:00 に終了するようにスケジュールされている場合、タスクの期間はゼロになります。
 
 
 >[!ENDSHADEBOX]
@@ -181,7 +181,7 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 * 親タスクの期間を計算する場合、システムでは、最初に上記の式によって期間を計算してから、スケジュールを適用します。
 
 
-詳しくは、[&#x200B; タスクの元の期間と元の予定時間数の概要 &#x200B;](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
+詳しくは、[ タスクの元の期間と元の予定時間数の概要 ](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
 
 ## タスクの期間タイプの変更
 

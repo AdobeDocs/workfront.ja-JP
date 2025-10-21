@@ -6,7 +6,7 @@ description: Adobe Workfront for Photoshop プラグインは、Adobe Marketplac
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 95%
@@ -36,16 +36,6 @@ ht-degree: 95%
  <col> 
  <col> 
  <tbody> 
-  <!--<tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
-   <td>Any</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> 
-   <p>Standard</p>
-   <p>Work or higher</p> </td> 
-  </tr> -->
   <tr> 
    <td role="rowheader">その他の製品</td> 
    <td><p>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</p></td> 
@@ -65,7 +55,7 @@ ht-degree: 95%
 
 [!DNL Adobe Admin Console] 管理者は、プラグインを [!DNL Creative Cloud] デプロイメントパッケージに含めることができます。詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
-[&#x200B; こちらのビデオチュートリアルをご覧ください &#x200B;](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
+[ こちらのビデオチュートリアルをご覧ください ](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
 また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
 
@@ -88,7 +78,7 @@ ht-degree: 95%
 
 1. 上部のメニューで、**[!UICONTROL プラグイン]**／**[!UICONTROL プラグインパネル]**&#x200B;をクリックします。
 
-   ![&#x200B; プラグインパネル &#x200B;](assets/plugins-panel-ps.png)
+   ![ プラグインパネル ](assets/plugins-panel-ps.png)
 
 1. **[!UICONTROL プラグインパネル]**&#x200B;で、「**[!UICONTROL プラグイン]**」タブを選択して、**[!UICONTROL Workfront for Adobe Photoshop]** を見つけます。
 
@@ -107,9 +97,9 @@ ht-degree: 95%
    >[!TIP]
    >
    >* ドメインを検索するには、ブラウザーを開き、[!DNL Workfront] インスタンスに移動し、URL の最初の部分をコピーします。\
-   >![&#x200B; ドメインの検索 &#x200B;](assets/domain-350x50.png)
+   >![ ドメインの検索 ](assets/domain-350x50.png)
    >
-   > * Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
+   >* Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
 
 1. ブラウザーで [!DNL Workfront] の資格情報を入力し、「**[!UICONTROL ログイン]**」をクリックします。会社がシングルサインオン（SSO）を使用している場合は、SSO プロバイダーのページにリダイレクトされ、そこからログインします。
 

@@ -6,10 +6,10 @@ description: ビルトインの「状態アイコン」フィールドをビュ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 97%
 
    * *ステータスアイコン*
    * *フラグ*
-   * *表示アイコン*（ドキュメントビューのみ）。
+   * *ビューアイコン* （ドキュメントビューのみ）
 
    ビルトインのアイコンは、これらのいずれかの名前の下に表示されます。\
    テンプレートビューには、「**ステータスアイコン**」フィールドと「**フラグ**」フィールドの両方が含まれます。この場合、2 つの列に同じアイコンが表示されます。\

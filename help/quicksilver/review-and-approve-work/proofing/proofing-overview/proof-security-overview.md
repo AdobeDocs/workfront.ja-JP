@@ -7,10 +7,10 @@ description: プルーフにセキュリティ対策をさらに追加できま�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -32,10 +32,10 @@ ht-degree: 97%
 
 >[!TIP]
 >
->ログインプロセスを効率化するために、Workfront および Workfront Proof で SSO を設定することをお勧めします。SSO の有効化について詳しくは、次を参照してください。
->* [Workfrontでのシングルサインオン：記事インデックス &#x200B;](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
->* [Workfront Proof ユーザーに対するシングルサインオンの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>ログインプロセスを効率化するために、Workfront および Workfront Proof で SSO を設定することをお勧めします。SSO の有効化について詳しくは、
 >
+>* [Workfrontでのシングルサインオン：記事インデックス ](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+>* [Workfront Proof ユーザーに対するシングルサインオンの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 
 ## 電子サイン
 
@@ -47,6 +47,6 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->SSO 資格情報を使用してプルーフに電子サインを行うには、Workfront Proof で SSO を設定する必要があります。SSO の有効化について詳しくは、次を参照してください。
->* [Workfront Proof ユーザーに対するシングルサインオンの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>SSO 資格情報を使用してプルーフに電子サインを行うには、Workfront Proof で SSO を設定する必要があります。SSO の有効化について詳しくは、
 >
+>* [Workfront Proof ユーザーに対するシングルサインオンの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)

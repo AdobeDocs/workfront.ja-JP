@@ -7,7 +7,7 @@ description: Adobe Workfront 管理者から Adobe Workfront Goals への適切�
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 81%
@@ -186,14 +186,14 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 1. 目標リストで目標の名前をクリックし、目標ページを開きます。
 1. 左パネルの「**進行状況インジケーター**」をクリックします。
-1. 「進捗インジケーター」リストで結果を選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. 「進捗インジケーター」リストで結果を選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    「結果を編集」ボックスが開きます。
 
-   ![&#x200B; 結果を編集ボックス &#x200B;](assets/edit-result-box-unshimmed.png)
+   ![ 結果を編集ボックス ](assets/edit-result-box-unshimmed.png)
 
 1. 次の情報を編集します。
    * **結果名**：結果の名前。目標を完了するために取得しなければならない結果を示す、わかりやすい名前を付けます。
@@ -231,19 +231,20 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 1. 目標リストで目標の名前をクリックし、目標ページを開きます。
 1. 左パネルの「**進行状況インジケーター**」をクリックします。
-1. 「進捗インジケーター」リストでアクティビティを選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. 「進捗インジケーター」リストでアクティビティを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    「アクティビティを編集」ボックスが開きます。
 
-   ![&#x200B; アクティビティを編集ボックス &#x200B;](assets/edit-activity-box-unshimmed.png)
+   ![ アクティビティを編集ボックス ](assets/edit-activity-box-unshimmed.png)
 
 1. 次の情報を編集します。
+
    * **アクティビティの名前**：アクティビティの名前。目標の完了を示すために実行しなければならないアクティビティを説明する、わかりやすい名前を付けます。
-   * **アクティビティの所有者：**&#x200B;アクティビティの所有者。所有者は、アクティブな Workfront ユーザーである必要があります。\
-     「アクティビティ」フィールドについて詳しくは、[目標へのアクティビティの追加](../results-and-activities/add-activities-to-goals.md)を参照してください。
+   * **アクティビティの所有者：**&#x200B;アクティビティの所有者。所有者は、アクティブな Workfront ユーザーである必要があります。
+
+   「アクティビティ」フィールドについて詳しくは、[目標へのアクティビティの追加](../results-and-activities/add-activities-to-goals.md)を参照してください。
+
 1. 「**保存**」をクリックします。
-
-

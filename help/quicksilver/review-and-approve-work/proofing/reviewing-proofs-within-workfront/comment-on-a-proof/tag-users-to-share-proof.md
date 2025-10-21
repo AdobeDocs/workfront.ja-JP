@@ -6,10 +6,10 @@ description: プルーフビューアーでプルーフにコメントを付け�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 97%
+ht-degree: 94%
 
 ---
 
@@ -64,10 +64,10 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->メールアドレスを使用して外部の共同作業者にタグを付けることができるのは、次のいずれかに該当する場合のみです。
+>メールアドレスを使用して、外部共同作業者にタグを付けることができるのは、次のいずれかに該当する場合のみです。
+>
 >* 組織の Workfront アカウントのユーザーが、以前に共同作業者のメールアドレスをプルーフに追加済みである。
 >* 共同作業者は、このメールアドレスを使用して、組織の Workfront アカウントで以前にプルーフを登録したことがある。
->
 
 誰かにタグを付け、コメントでプルーフを共有するには、次の手順を実行します。
 
@@ -82,7 +82,7 @@ ht-degree: 97%
 1. コメントを終了し、「**投稿**」をクリックします。
 1. （条件付き）プルーフにまだ追加されていない人にタグを付けた場合は、表示されるボックスに一覧表示される各ユーザーの&#x200B;**プルーフの役割**&#x200B;および&#x200B;**メールアラート**&#x200B;設定を指定し、「**担当者の追加とコメントの投稿**」をクリックします。
 
-   ![&#x200B; プルーフにユーザーを追加 &#x200B;](assets/add-people-to-proof-350x220.png)
+   ![ プルーフにユーザーを追加 ](assets/add-people-to-proof-350x220.png)
 
    プルーフについて詳しくは、次を参照してください。プルーフメールアラートについて詳しくは、この記事の[Workfront Proof でのメール通知の設定](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)の節を参照してください。
 

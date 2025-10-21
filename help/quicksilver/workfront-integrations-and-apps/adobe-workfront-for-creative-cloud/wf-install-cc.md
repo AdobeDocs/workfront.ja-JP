@@ -6,7 +6,7 @@ description: ' [!DNL Adobe Workfront for design and video]  は、Adobe Marketpl
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 79%
@@ -34,7 +34,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->[!DNL Photoshop] および [!DNL XD] については別のインストール手順があります。詳しくは、[&#x200B; [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) のインストールと[インストール [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)を参照してください。
+>[!DNL Photoshop] および [!DNL XD] については別のインストール手順があります。詳しくは、[ [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) のインストールと[インストール [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)を参照してください。
 
 
 ## アクセス要件
@@ -76,7 +76,7 @@ ht-degree: 79%
 
 [!DNL Adobe Admin Console] 管理者は、[!DNL Creative Cloud] 展開パッケージに [!DNL Adobe Workfront for design and video] を含めることができます。詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
-[&#x200B; こちらのビデオチュートリアルをご覧ください &#x200B;](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
+[ こちらのビデオチュートリアルをご覧ください ](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
 また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
 
@@ -104,7 +104,7 @@ ht-degree: 79%
    >
    >Premiere Pro を使用している場合、このメニューにアクセスするには、プロジェクトを開いておく必要があります。
 
-   ![Workfront メニュー &#x200B;](assets/adobe-workfront-menu.png)
+   ![Workfront メニュー ](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -122,10 +122,11 @@ ht-degree: 79%
 
    >[!TIP]
    >
-   >* ドメインを検索するには、ブラウザーを開いて [!DNL Workfront] インスタンスに移動し、次の URL の最初の部分をコピーします。\
-   >![&#x200B; ドメインの検索 &#x200B;](assets/domain-350x50.png)
+   >* ドメインを検索するには、ブラウザーを開いて [!DNL Workfront] インスタンスに移動し、次の URL の最初の部分をコピーします。
    >
-   > * Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
+   >![ ドメインの検索 ](assets/domain-350x50.png)
+   >
+   >* Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
 
 1. ブラウザーで [!DNL Workfront] の資格情報を入力し、「**[!UICONTROL ログイン]**」をクリックします。会社がシングルサインオン（SSO）を使用している場合は、SSO プロバイダーのページにリダイレクトされ、そこからログインします。
 
@@ -150,7 +151,7 @@ ht-degree: 79%
 
 `experience.adobe.com` で始まる URL を使用してプラグインにログインすることはできません。
 
-![&#x200B; ログインエラー &#x200B;](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
+![ ログインエラー ](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
 
 
 この問題を修正するには、
@@ -164,4 +165,4 @@ ht-degree: 79%
 
 1. プラグインに戻り、Workfront ドメインを入力します。 ドメインは、`company-name.my.workfront.com` ではなく `experience.adobe.com` である必要があります。
 
-   Adobe Unified Experience を使用している場合に [Workfront ドメインを検索する &#x200B;](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) には、設定/顧客情報に移動します。
+   Adobe Unified Experience を使用している場合に [Workfront ドメインを検索する ](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) には、設定/顧客情報に移動します。

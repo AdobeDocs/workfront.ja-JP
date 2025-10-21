@@ -6,7 +6,7 @@ description: Adobe Workfront for XD プラグインは、Adobe Marketplace か�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 81%
@@ -67,7 +67,7 @@ ht-degree: 81%
 
 [!DNL Adobe Admin Console] 管理者は、プラグインを [!DNL Creative Cloud] デプロイメントパッケージに含めることができます。詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
-[&#x200B; こちらのビデオチュートリアルをご覧ください &#x200B;](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
+[ こちらのビデオチュートリアルをご覧ください ](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
 また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
 
@@ -89,7 +89,7 @@ ht-degree: 81%
 
 1. 左下隅で、**プラグイン**&#x200B;アイコンをクリックします。
 
-![XD プラグインウィンドウ &#x200B;](assets/xd-plugin-window-350x620.png)
+![XD プラグインウィンドウ ](assets/xd-plugin-window-350x620.png)
 
 1. **[!UICONTROL プラグインパネル]**&#x200B;で、**[!UICONTROL Adobe Workfront for XD]** を検索します。
 
@@ -103,9 +103,9 @@ ht-degree: 81%
    >[!TIP]
    >
    >* ドメインを検索するには、ブラウザーを開いて [!DNL Workfront] インスタンスに移動し、次の URL の最初の部分をコピーします。\
-   >![&#x200B; ドメインの検索 &#x200B;](assets/domain-350x50.png)
+   >![ ドメインの検索 ](assets/domain-350x50.png)
    >
-   > * Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
+   >* Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
 
 1. ブラウザーで、[!DNL Workfront] 資格情報を入力し、「**[!DNL Log in]**」をクリックします。会社がシングルサインオン（SSO）を使用している場合は、SSO プロバイダーのページにリダイレクトされ、そこからログインします。
 
@@ -129,7 +129,7 @@ ht-degree: 81%
 
 `experience.adobe.com` で始まる URL を使用してプラグインにログインすることはできません。
 
-![&#x200B; ログインエラー &#x200B;](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
+![ ログインエラー ](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
 
 
 この問題を修正するには、

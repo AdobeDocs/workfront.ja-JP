@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 517c080ed4e6096ac0a2028125d62d33b2db2359
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 94%
 
 ---
 
@@ -31,11 +31,11 @@ in January 2022
 
 >[!NOTE]
 >
->2021年7月6日（PT）より前に作成された統合プルーフを持つ EMEA のお客様限定でリリースされました。この機能は、次のお客様向けに、1月13日から 1月17日まで（PT）、段階的なロールアウトのプレビューとして提供されます。
+>2021年7月6日（PT）より前に作成された統合プルーフを持つ EMEA のお客様限定でリリースされました。この機能は、次のお客様を対象に、1 月 13 日（PT）から 1 月 17 日（PT）までの段階的なロールアウトでプレビューされます。
+>
 >* 統合およびスタンドアロンの両方のプルーフを持つ EMEA のお客様
 >* 2021年7月6日（PT）以降に作成された統合プルーフを持つ EMEA のお客様
 >* 米国のすべてのお客様
->
 
 Workfront とプルーフの間でのより統合されたエクスペリエンスを提供するために、レビュアーとリクエスター向けのプルーフ機能に関していくつかの改善を行いました。
 

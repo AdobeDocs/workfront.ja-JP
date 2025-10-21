@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 63%
@@ -19,7 +19,7 @@ ht-degree: 63%
 
 >[!IMPORTANT]
 >
->[Microsoftでは、従来の Exchange オンライン トークン &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
+>[Microsoftでは、従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
 >
 >* **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
 >
@@ -30,9 +30,7 @@ SAML 2.0 Authentication を有効にし、ユーザーが SAML 2.0 資格情報�
 >[!NOTE]
 >
 >組織の Workfront インスタンスがカスタム SSO Portal を使用している場合は使用できません。>
-><!--
->or is enabled with Adobe IMS>
->-->
+>
 >詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
 
 ## アクセス要件
@@ -78,7 +76,7 @@ SAML 2.0 Authentication を有効にし、ユーザーが SAML 2.0 資格情報�
    >
    >「**iframe への Workfront の埋め込みを許可**」オプションを有効にする場合、「**Office 365 アドインで SAML 2.0 Authentication を許可**」オプションはグレー表示になり、有効になります。
    >
-   >![&#x200B; 埋め込みを許可オプション &#x200B;](assets/if-you-enable.png)
+   >![ 埋め込みを許可オプション ](assets/if-you-enable.png)
    >
 
 1. 「**保存**」をクリックします。

@@ -6,7 +6,7 @@ description: タイムシートに管理アクセス権を持つユーザーは�
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 92%
@@ -112,8 +112,8 @@ ht-degree: 92%
      <tr> 
       <td role="rowheader"><strong>終了日</strong> </td> 
       <td> これは、タイムシートの終了日です。</td> 
-     </tr>
-<tr> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>ステータス</strong> </td> 
       <td> これがタイムシートのステータスです。
 タイムシートのステータスについて、次のオプションがあります。 
@@ -121,7 +121,7 @@ ht-degree: 92%
       <li><b>送信済み</b>：指定された承認者にタイムシートが承認用に送信されます。</li>
       <li><b>却下</b>：タイムシートは承認者によって承認されず、ユーザーが時間エントリを編集できるようになりました。</li>
       <li><b>クローズ</b>：タイムシートは、ユーザーがクローズしたか、承認者が承認したためクローズされました。クローズされたタイムシートに時間を追加することはできません。</li>
-   </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>承認者</strong> </td> 

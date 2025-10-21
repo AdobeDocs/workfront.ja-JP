@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 88%
@@ -68,7 +68,7 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -152,7 +152,7 @@ ht-degree: 88%
 1. イシューのリストの上部にある「**新しいイシュー**」をクリックします。
 「新規イシュー」ボックスが表示されます。
 
-   ![&#x200B; 新しいイシューボックス &#x200B;](assets/new-issue-box-matches-new-request-ui.png)
+   ![ 新しいイシューボックス ](assets/new-issue-box-matches-new-request-ui.png)
 
 1. （条件付き）プロジェクト作成者がプロジェクト上にキューのトピックまたはトピックグループを作成した場合、それらは新しいイシューフォームに追加されます。新しいイシューの&#x200B;**トピックグループ**&#x200B;または&#x200B;**キューのトピック**&#x200B;を指定します。トピックグループとキューのトピックには、環境に合わせてカスタマイズされた名前が付いています。\
    トピックグループの作成の詳細については、[トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。キューのトピックの作成について詳しくは、[キューのトピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
@@ -173,8 +173,9 @@ ht-degree: 88%
    >[!TIP]
    >
    >リクエストタイプは、キューの詳細で有効にする必要があります。また、新しいイシューフォームで選択項目として表示するキューのトピックを作成するときも有効にする必要があります。詳しくは、次の記事を参照してください。
+   >
    >* [リクエストキューの作成](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [キュートピックの作成](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >* [キュートピックの作成](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 1. **新しい問題**&#x200B;フォームで使用可能なフィールドの指定を続行します。新しいイシューを入力する際に使用できるフィールドについて詳しくは、[イシューの編集](../../../manage-work/issues/manage-issues/edit-issues.md)を参照してください。
 
@@ -220,7 +221,7 @@ ht-degree: 88%
    >
    >プロジェクトの編集ボックスで「ユーザーがインラインで問題を追加できるようにする」設定が選択解除されている場合、このオプションはグレー表示になります。詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
-   ![&#x200B; 「さらにイシューを追加」ボタン &#x200B;](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
+   ![ 「さらにイシューを追加」ボタン ](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
 1. 「名前」フィールドにイシューの名前を入力し、イシューに関する詳細情報の追加をインラインで続行します。
 

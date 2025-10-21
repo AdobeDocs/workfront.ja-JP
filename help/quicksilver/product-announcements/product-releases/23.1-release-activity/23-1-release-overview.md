@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 99%
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 このページでは、23.1 リリースに含まれる機能について説明します。
 
-これらの機能強化は、2023年1月18日（PT）および 2023年1月10日（PT）の 23.1 リリースで実稼動環境で使用可能になりました。
+これらの機能強化は、2023年1月18日（PT）および 2023年1月10日（PT）の 23.1 リリースで本番環境で使用可能になりました。
 
 23.1 リリースウェビナーは 2023年1月10日（火）に開催されました。[こちら](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77)でウェビナーに登録してオンデマンド録画を視聴できます。
 
@@ -26,11 +26,8 @@ ht-degree: 99%
 ## Adobe Workfront の機能強化
 
 * [プロジェクトおよびリソース管理の機能強化](#project-and-resource-management-enhancements)
-
 * [アジャイルの機能強化](#agile-enhancements)
-
 * [モバイルの機能強化](#mobile-enhancements)
-
 * [その他の機能強化](#other-enhancements)
 
 ### プロジェクトおよびリソース管理の機能強化
@@ -71,7 +68,7 @@ ht-degree: 99%
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトの「ユーザーを追加」オプションの再配置</a></p>
                         <p>リソーススケジュールツールの廃止と削除に備えて、プロジェクトの「スケジュール」セクションの「ユーザーを追加」オプションを「ユーザー」セクションに移動しました。プロジェクトにユーザーを追加する場合、プロジェクトのアイテムに関連付けられていないユーザーは、プロジェクトチームの一員になります。</p>
-                        <p>10月20日（PT）に、リソーススケジューラーがプレビュー環境から削除されました。23.1 リリースで実稼動環境から削除されます。</p>
+                        <p>10月20日（PT）に、リソーススケジューラーがプレビュー環境から削除されました。23.1 リリースで本番環境から削除されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                      <p>
@@ -439,7 +436,7 @@ ht-degree: 99%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.1 リリース期間のルックアンドフィールのアップデート</a></p>
-                        <p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する軽微なアップデートは、23.1 リリース期間内に行われています。これらの機能強化はプレビューにリリース後、最低 2 週間で実稼動環境で利用できるようになります。 </p>
+                        <p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する軽微なアップデートは、23.1 リリース期間内に行われています。これらの機能強化はプレビューにリリース後、最低 2 週間で本番環境で利用できるようになります。 </p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -524,7 +521,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスのアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
+22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスのアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 
@@ -541,7 +538,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 現時点では、次の変更を行っています。
 
 * プレビュー環境のメインメニューおよびレイアウトテンプレートから、キャンペーン（ベータ版）エリアを削除します。
-* リクエストによって有効にした顧客の場合は、実稼動環境のメインメニューやレイアウトテンプレートからキャンペーン（ベータ版）エリアを削除します。
+* リクエストによって有効にした顧客の場合は、本番環境のメインメニューやレイアウトテンプレートからキャンペーン（ベータ版）エリアを削除します。
 
 また、この機能を説明するすべての記事も削除します。
 
@@ -556,6 +553,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 [Illustrator および InDesign 向け Workfront 拡張機能](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)を更新された Creative Cloud プラグインに置き換えます。2022 年後半以降、この拡張機能は Adobe Exchange でインストールできなくなります。
 
 この拡張機能の機能は、更新された Creative Cloud プラグイン用 Adobe Workfront で利用できます。
+
 * [Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront for design and video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -564,7 +562,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 
 >[!NOTE]
 >
->10月20日（PT）に、リソーススケジューラーがプレビュー環境から削除されました。2023年1月（PT）の 23.1 リリースで、実稼動環境から削除されます。
+>10月20日（PT）に、リソーススケジューラーがプレビュー環境から削除されました。2023年1月（PT）の 23.1 リリースで、本番環境から削除されます。
 
 
 リソーススケジュールツールの廃止に伴い、次の領域が削除されました。

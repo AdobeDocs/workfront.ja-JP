@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 93%
@@ -32,9 +32,8 @@ ht-degree: 93%
 >[!NOTE]
 >
 >Workfront 管理者は、[Adobe Workfront インスタンスのブランディング](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)で説明されているように、組織全体に対して同一ブランディングのカスタマイズをシステムレベルでを行うことができます。ただし、レイアウトテンプレートのブランディング設定は、システムレベルのブランディング設定をオーバーライドします。
-><!--
->Maybe add a section about deleting these 2 settings to revert to default branding?
->-->
+
+<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
 
 ## アクセス要件
 
@@ -69,7 +68,7 @@ ht-degree: 93%
 ## レイアウトテンプレートを使用した Adobe Workfront のブランディング
 
 1. [レイアウトテンプレートを作成および管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されているように、レイアウトテンプレートの使用を開始します。
-1. ![&#x200B; ユーザーの表示項目をカスタマイズ &#x200B;](assets/dropdown-arrow.png) の下の下向き矢印 **下向き矢印** をクリックし、「**ブランディング**」をクリックします。
+1. ![ ユーザーの表示項目をカスタマイズ ](assets/dropdown-arrow.png) の下の下向き矢印 **下向き矢印** をクリックし、「**ブランディング**」をクリックします。
 1. このレイアウトテンプレートが割り当てられているユーザー向けに、ブランディングイメージを使用して Workfront をカスタマイズするには、次のいずれかの変更を行います。
 
    <table style="table-layout:auto"> 

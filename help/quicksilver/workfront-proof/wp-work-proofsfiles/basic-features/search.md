@@ -8,7 +8,7 @@ description: Workfront Proof サイト全体でコンテンツを検索できま
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
@@ -46,11 +46,14 @@ ht-degree: 100%
 
 1. （オプション）表示される検索結果で、列の上部にあるヘッダーをクリックして、列で並べ替えます。（オプション）結果にフィルターを追加するには、ヘッダー行の最後にある[!UICONTROL 検索]アイコンをクリックします。![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png)
 
-これにより、検索を絞り込むためのフィルターを選択できるドロップダウンメニューが追加されます。
-1. ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+   これにより、検索を絞り込むためのフィルターを選択できるドロップダウンメニューが追加されます。
 
-1. （オプション）「[!UICONTROL タグ]」タブをクリックし、左側のナビゲーションサイドバーでタグをクリックします。そのタグに関連付けられている項目が検索結果に表示されます。\
-   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)\
+   ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+
+1. （オプション）「[!UICONTROL タグ]」タブをクリックし、左側のナビゲーションサイドバーでタグをクリックします。そのタグに関連付けられている項目が検索結果に表示されます。
+
+   ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)
+
    タグ名は、Workfront Proof の右上隅にある検索フィールドに表示されます。追加のタグを選択するか、検索フィールドに追加のキーワードを入力することで、検索を絞り込むことができます。タグ名の横にある「x」アイコンをクリックして、検索フィールドからタグを削除できます。
 
 プルーフコンテンツ内のテキストの検索について詳しくは、[プルーフ内のコンテンツの検索](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)を参照してください。

@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 96%
 >
 >2018.3 リリースは、以下の日付で本番環境で使用可能になりました（詳細な日時については trust.workfront.com を参照してください）。
 
-* *Workfront Proof 本番環境 - 11月6日*
-* *クラスタ 2 およびクラスタ 4 のWorkfront 本番環境*
+* *Workfront Proof実稼動環境 – 11 月 6 日*
+* *クラスター 2 および 4 のWorkfront実稼動環境*
 * *クラスタ 1、クラスタ 3、クラスタ 5 のWorkfront 本番環境*
 
 &#x200B;2018. リリースには、Workfront 管理者およびその他のユーザー向けの機能強化が含まれています。

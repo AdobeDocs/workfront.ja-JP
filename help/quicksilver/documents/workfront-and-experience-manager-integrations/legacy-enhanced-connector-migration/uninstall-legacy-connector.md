@@ -6,7 +6,7 @@ description: テキスト
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
@@ -22,7 +22,9 @@ Workfront と Adobe Experience Manager Assets as a Cloud Service を接続する
 1. Adobe Experience Manager を開きます。
 1. Experience Manager で、**ツール**／**クラウドサービス**／**Workfront 統合の設定**&#x200B;に移動します。
 1. 設定（デフォルトでは global-workfront）を選択し、「**プロパティ**」をクリックします。
+
    ![Workfront から登録解除](assets/unsubscribe-from-workfront.png)
+
 1. ドキュメント、コメントおよびメタデータの同期を無効にします。ラベルは「無効」の日付にする必要があります。
 これにより、Workfront のサブスクリプションが削除され、Day CQ Link Externalizer で定義されたのと同じURLを使用して新しいサブスクリプションを作成できます。
 
@@ -31,6 +33,7 @@ Workfront と Adobe Experience Manager Assets as a Cloud Service を接続する
 サブスクリプションを削除した後は、Workfront 統合設定を削除しても安全です。
 
 1. 設定を開き、「**削除**」を選択します。
+
    ![設定を削除](assets/delete-wf-configuration.png)
 
 ## マッピングを削除

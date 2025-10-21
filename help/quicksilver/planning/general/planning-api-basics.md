@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 12%
@@ -24,13 +24,13 @@ Workfront Planning スキーマをよく理解しておくと、統合を目的�
 
 Workfront カスタムフォームの外部参照フィールドから Planning API を呼び出すことができます。
 
-外部検索フィールドについて詳しくは、「[&#x200B; カスタムフォームにおける外部検索フィールドの例 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)」を参照してください。
+外部検索フィールドについて詳しくは、「[ カスタムフォームにおける外部検索フィールドの例 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)」を参照してください。
 
 >[!NOTE]
 >
 >Planning API を使用する場合、すべてのユーザー関連の情報は、Workfront ユーザー ID ではなく、Adobe Identity Management System （IMS）ユーザー ID を使用して返されます。
 >
->詳しくは、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+>詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 
 ## Workfront計画 API の URL
 
@@ -47,7 +47,7 @@ Workfront カスタムフォームの外部参照フィールドから Planning 
 * **PUT** - 既存のオブジェクトを編集
 * **DELETE** - オブジェクトを削除
 
-各操作の詳細と例については、[Workfront Planning API 開発者向けドキュメント &#x200B;](https://developer.adobe.com/wf-planning/) を参照してください。
+各操作の詳細と例については、[Workfront Planning API 開発者向けドキュメント ](https://developer.adobe.com/wf-planning/) を参照してください。
 
 ### フィールドタイプと、それらで使用される検索修飾子
 
@@ -94,7 +94,7 @@ Workfront Planning では、次の検索修飾子をサポートしています�
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
         <td>フィールド値が空でないレコードを返します  </td>
-        <td><ul><li>"" </li><li>ヌル </li><ul>  </td>
+        <td><ul><li>"" </li><li>null </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotEmpty </td>
@@ -349,7 +349,7 @@ API 呼び出しに以下を追加すると、任意のフィールド別に結�
 
 例えば、2001～4000 の範囲で結果を返す場合は、次のリクエストを使用できます。 次の例では、2001 番目の結果から、アクティブ・ステータスの 2000 件のレコードが戻されます：
 
-`POST /v1/records/search `
+`POST /v1/records/search`
 
 
 
@@ -368,4 +368,4 @@ API 呼び出しに以下を追加すると、任意のフィールド別に結�
 
 結果が正しくページ分割されるようにするには、並べ替えパラメーターを使用します。これにより、結果が同じ順序で返されるので、ページネーションで結果が繰り返されたりスキップされたりすることはありません。
 
-並べ替えについて詳しくは、この記事の [API でのクエリ結果の並べ替え &#x200B;](#sorting-query-results-in-the-api) を参照してください。
+並べ替えについて詳しくは、この記事の [API でのクエリ結果の並べ替え ](#sorting-query-results-in-the-api) を参照してください。
