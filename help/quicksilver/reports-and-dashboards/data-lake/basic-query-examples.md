@@ -182,10 +182,10 @@ FROM
 >[!NOTE]
 >
 >PowerBI または Tableau では、このクエリを独自の「ビュー」として使用することをお勧めします。  `<object>_event view` から他のフィールドを取り込む場合は、このクエリからの出力を `<object>_event view` に結合し直します。  結合フィールドは次のようになります。<br>
->>projects_event の場合： 
->>`From projects_event p`
->>`Join <above query> c on c.projectid = p.projectid  `
->>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>&#x200B;>projects_event の場合： 
+>&#x200B;>`From projects_event p`
+>&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
+>&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

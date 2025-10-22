@@ -80,13 +80,13 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 リストから 1 つのレポートを共有することも、複数のレポートを共有することも同じです。
 
-1. レポートのリストに移動して 1 つ以上のレポートを選択し、**共有** アイコン ![ 共有アイコン ](assets/share-icon.png) をクリックします。
+1. レポートのリストに移動して 1 つ以上のレポートを選択し、**共有** アイコン ![&#x200B; 共有アイコン &#x200B;](assets/share-icon.png) をクリックします。
 
    または
 
    レポートの名前をクリックし、**レポートアクション**/**共有** をクリックします。 **共有 [ レポート名]** ボックスが開きます。
 
-   ![ 共有オプション ](assets/unshimmed-report-actions-sharing.png)
+   ![&#x200B; 共有オプション &#x200B;](assets/unshimmed-report-actions-sharing.png)
 
 1. **レポートへのアクセスを許可** フィールドに、レポートの共有相手となるユーザー、チーム、担当業務、グループ、または会社の名前の入力を開始し、表示されたら選択します。
 
@@ -114,7 +114,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
    * **システム内の全員が表示できます**：レポートへのアクセス権を持つWorkfront内の全員がレポートを表示できるように、このオプションを選択します。
 
-1. （オプション）共有ボックスの右上隅にある **歯車** アイコン ![ 歯車アイコン設定 ](assets/gear-icon-settings-with-dn-arrow.jpg) をクリックし、オプションで次のオプションを選択します。
+1. （オプション）共有ボックスの右上隅にある **歯車** アイコン ![&#x200B; 歯車アイコン設定 &#x200B;](assets/gear-icon-settings-with-dn-arrow.jpg) をクリックし、オプションで次のオプションを選択します。
 
    * **これを外部ユーザーに公開**：他のユーザーと共有できる URL を生成する場合は、このオプションを選択します。 URL を知っているユーザーは誰でも、Adobe Workfront のライセンスを持っていなくてもレポートにアクセスできます。
 
@@ -124,6 +124,6 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
      >[!NOTE]
      >
-     >報告書にプロンプトがあり、それを公開で共有する場合、公開共有リンクを介して報告書を実行しているユーザーは、プロンプトを使用して報告書を実行できません。 Workfrontにログインして、公開共有リンクを使用せずにレポートにアクセスしない限り、レポートはプロンプトの適用なしで表示されます。 プロンプトを使用したレポートの共有制限の詳細については、「[ プロンプトをレポートに追加する ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) の記事の [ プロンプト レポートの共有制限 ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) を参照してください。
+     >報告書にプロンプトがあり、それを公開で共有する場合、公開共有リンクを介して報告書を実行しているユーザーは、プロンプトを使用して報告書を実行できません。 Workfrontにログインして、公開共有リンクを使用せずにレポートにアクセスしない限り、レポートはプロンプトの適用なしで表示されます。 プロンプトを使用したレポートの共有制限の詳細については、「[&#x200B; プロンプトをレポートに追加する &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) の記事の [&#x200B; プロンプト レポートの共有制限 &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) を参照してください。
 
 1. 「**保存**」をクリックします。
