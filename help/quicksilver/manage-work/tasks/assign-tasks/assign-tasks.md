@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 91%
@@ -17,6 +17,16 @@ ht-degree: 91%
 # タスクを割り当て
 
 <!--Audited: 07/2024-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 ユーザー、担当業務やチームにタスクを割り当てて、タスクの完了担当者を指定できます。一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
 
@@ -204,7 +214,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
+1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![ 人物アイコン ](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
 
    詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
@@ -215,6 +225,10 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. タスクに担当者を追加した後、Enter キーを押すか、ページ上の任意の場所をクリックして、「自動保存」を選択した場合に変更を保存します。それ以外の場合は、「**保存**」をクリックします。
 
 ## ユーザーに複数のタスクを割り当てる
+
+<!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
+
+### Assign multiple tasks to a user in the Production environment-->
 
 1. 一括で割り当てるタスクのリストに移動します。
 1. （条件付き）「**自動保存**」オプションは、プロジェクトのタスクのリストにある場合に選択します。
@@ -256,6 +270,55 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. 「**変更を保存**」をクリックします。
 1. （オプションおよび条件付き）タスクのリストに「割り当て先」フィールドまたは「割り当て」フィールドが表示されたら、タスクのこれらの列のいずれかの内側をクリックし、担当者の名前の横にある **X アイコン**&#x200B;をクリックして、タスクから削除します。
+
+<!--
+<div class="preview">
+
+### Assign multiple tasks to a user in the Preview environment
+
+1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens.
+
+1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
+
+   Or 
+
+   Click **Assign to me** to assign it to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+
+1. Click inside the **Duration Type** field and choose a Duration Type. 
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+
+   * Duration
+   * Planned Hours
+
+      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+
+1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+
+1. Click **Save**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+
+</div>
+-->
+
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

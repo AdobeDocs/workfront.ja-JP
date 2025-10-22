@@ -6,7 +6,7 @@ description: 配分率は、割り当てられたリソースが 1 日に 1 回�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 94%
@@ -14,6 +14,16 @@ ht-degree: 94%
 ---
 
 # タスクに対するユーザーまたは役割の配分率の管理
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 配分率は、割り当てられたリソースが 1 日に 1 回のタスクで作業する予定の時間を表します。タスクの期間中にリソースが配分される、（ユーザーまたはプロジェクトのスケジュールに従った）作業日の割合です。
 
@@ -55,6 +65,13 @@ ht-degree: 94%
 
 +++
 
+<!--
+Change this sentence in the table:
+<p>Edit permissions to update allocation hours in the Edit Task box</p>
+To this:
+<p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation percentage in the Edit task box in the Preview environment.</span></p>
+-->
+
 ## タスクの配分率の変更に関する考慮事項
 
 * デフォルトでは、ユーザーは、割り当てられているタスクに対して同じ割合の時間が配分されます。
@@ -90,6 +107,6 @@ ht-degree: 94%
 
    タスクに割り当てられたチームの配分率は変更できません。
 
-   ![&#x200B; 配分率の変更 &#x200B;](assets/advanced-assignments-allocation-percentage.png)
+   ![ 配分率の変更 ](assets/advanced-assignments-allocation-percentage.png)
 
 1. 「**保存**」をクリックします。

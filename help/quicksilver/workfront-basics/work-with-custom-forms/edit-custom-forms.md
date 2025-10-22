@@ -7,10 +7,10 @@ description: フォームをオブジェクトに添付した後に、カスタ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 92%
+source-wordcount: '1039'
+ht-degree: 85%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 92%
 
 ## 前提条件
 
-* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 * オブジェクトには、カスタムフォームを添付する必要があります。
 
   カスタムフォームをオブジェクトに追加する方法について詳しくは、[オブジェクトにカスタムフォームを追加する](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
@@ -125,7 +125,7 @@ ht-degree: 92%
    * テキストフィールド（太字、斜体、下線）の書式を設定できるのは、フォームを作成したユーザーが「書式設定」フィールドタイプのテキストフィールドとして設定した場合のみです。1 行のテキストフィールドと段落テキストフィールドは書式設定できません。
    * 日付フィールドタイプで時刻を更新できるのは、フォームを作成したユーザーがフィールドの作成時に時刻を含めている場合だけです。
 
-   すべてのフィールドタイプについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   すべてのフィールドタイプについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. 「**変更を保存**」をクリックします。
 
@@ -143,6 +143,11 @@ ht-degree: 92%
 
 ## オブジェクトのすべての計算カスタムフィールドを再計算する方法  {#recalculate-all-calculated-custom-fields-for-an-object}
 
+>[!IMPORTANT]
+>
+>この節の手順を実行するには、計算フィールドを添付したカスタムフォームがオブジェクトに必要です。
+
+
 1. 再計算するカスタムフィールドがあるオブジェクトのメインページに移動します。
 1. オブジェクト名の右にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックし、「**式の再計算**」をクリックします。
 
@@ -154,27 +159,32 @@ ht-degree: 92%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
 -->
 
-複数のオブジェクトのカスタムフィールドをリストまたはレポートから一括編集することで、手動で再計算することができます。
+カスタム式を再計算するオブジェクトに応じて、次の領域で再計算できます。
+
+* オブジェクトのリストで、リスト上部の「その他」メニューから。
+* 複数のオブジェクトを一括して選択および編集する場合は、[ 編集 ] ボックスで行います。
+
+リストまたはレポートから複数のオブジェクトのカスタムフィールドを一括編集して、手動で再計算するには：
 
 1. 計算フィールドがあるカスタムフォームを含んだオブジェクトのリストに移動します。
 1. 更新する計算カスタムフィールドがあるオブジェクトを選択します。
 1. **編集アイコン**&#x200B;をクリックします。
 1. 左側のメニューで「**カスタムフォーム**」をクリックし、「**カスタム式の再計算**」を選択します。
-1. 「**変更を**&#x200B;**保存**」をクリックします。
+1. 「**変更を****保存**」をクリックします。
 
    選択したすべてのオブジェクトのすべてのカスタムフィールドが計算されます。
 
->[!TIP]
->
->また、オブジェクトのリストからカスタム式を再計算することもできます。 例えば、プロジェクトのリストからカスタム式を一括で再計算するには、次の手順を実行します。
->
->1. プロジェクトリストまたはレポートに移動し、1 つまたは複数のプロジェクトを選択します。
->1. **その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックし、「**カスタム式の再計算**」をクリックします。
->
->![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
->
->選択したすべてのプロジェクトのすべてのカスタムフィールドが計算されます。
->&#x200B;>すべてのオブジェクトのすべてのリストにこの機能があるわけではありません。
+オブジェクトのリストからカスタム式を再計算するには：
+
+1. プロジェクトリストまたはレポートに移動し、1 つまたは複数のプロジェクトを選択します。
+1. **その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックし、「**カスタム式の再計算**」をクリックします。
+
+![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+Workfrontは、選択されたすべてのプロジェクトのすべてのカスタムフィールドを直ちに計算します。
+すべてのオブジェクトのすべてのリストにこの機能があるわけではありません。
+
+>[!NOTE]
 >
 >プロジェクトの複雑さによっては、最適なパフォーマンスを確保するために計算カスタムフィールドを一括で再計算する場合は、多数のプロジェクトを選択しないことをお勧めします。プロジェクトが複雑すぎる原因として考えられるものとしては、複数の依存関係や割り当てまたは多数のカスタムフィールドなどがあります。
 

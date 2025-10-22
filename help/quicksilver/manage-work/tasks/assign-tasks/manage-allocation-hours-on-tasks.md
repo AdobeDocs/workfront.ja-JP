@@ -6,7 +6,7 @@ description: タスクにユーザーまたはロールを割り当てると、�
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 79%
@@ -14,6 +14,16 @@ ht-degree: 79%
 ---
 
 # タスクに関するユーザーと役割の割り当て時間の管理
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 割り当て時間は、割り当てられたリソースがタスクの作業に費やす予定時間の合計を表します。 時間は、タスクの期間全体を通して、ユーザーが割り当てられた時間を、特定の 1 日、1 週間、1 か月に表します。
 
@@ -55,6 +65,13 @@ ht-degree: 79%
 
 +++
 
+<!--
+Change this sentence in the table:
+<p>Edit permissions to update allocation hours in the Edit Task box</p>
+To this:
+<p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation hours in the Edit task box in the Preview environment.</span></p>
+-->
+
 ## タスクの時間配分を変更する際の考慮事項
 
 >[!IMPORTANT]
@@ -85,6 +102,6 @@ ht-degree: 79%
 1. タスクの&#x200B;**期間タイプ**&#x200B;が&#x200B;**シンプル**&#x200B;であることを確認します。
 1. タスクの担当者ごとに&#x200B;**配分**&#x200B;を変更します。これは、タスクの期間全体に対する、このタスクへの各割り当ての全体的な配分です。これにより、タスクの全体的な予定時間数が更新される場合もあります。
 
-   ![&#x200B; 割り当ての変更 &#x200B;](assets/advanced-assignments-duration-type-allocations.png)
+   ![ 割り当ての変更 ](assets/advanced-assignments-duration-type-allocations.png)
 
 1. 「**保存**」をクリックします。

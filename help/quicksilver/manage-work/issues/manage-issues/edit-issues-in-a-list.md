@@ -6,7 +6,7 @@ description: 個々のイシューを編集することも、イシューリス�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 81%
@@ -16,6 +16,18 @@ ht-degree: 81%
 # リスト内のイシューの編集
 
 <!--Audited: 08/2025-->
+
+<!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 個々のイシューを編集することも、イシューリストまたはレポート内のイシューを編集することもできます。この記事では、リスト内のイシューを編集する方法について説明します。
 
@@ -101,7 +113,7 @@ ht-degree: 81%
 1. プロジェクトまたはタスク内のイシューのリストに移動します。
 1. 手動で更新する権限を持つフィールド内をクリックします。フィールドが編集可能になり、変更を加えることができます。
 
-   ![&#x200B; 問題をインラインで編集 &#x200B;](assets/edit-issues-inline-350x34.png)
+   ![ 問題をインラインで編集 ](assets/edit-issues-inline-350x34.png)
 
 1. 変更を受け入れる場合は、Enter キーを押します。変更は直ちに保存されます。
 
@@ -112,12 +124,12 @@ ht-degree: 81%
 1. プロジェクトまたはタスク内のイシューのリストに移動します。
 1. 次のいずれかの操作を行います。
 
-   * リストでイシューを選択し、ツールバーの **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
+   * リストでイシューを選択し、ツールバーの **編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
    * イシューの名前をクリックし、「**編集**」をクリックします。
 
      これらのアクションのいずれかを実行すると、「**イシューを編集** ボックスが開きます。
 
-     **イシューを編集** ボックスでのイシューの編集について詳しくは、[&#x200B; イシューの編集 &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) を参照してください。
+     **イシューを編集** ボックスでのイシューの編集について詳しくは、[ イシューの編集 ](../../../manage-work/issues/manage-issues/edit-issues.md) を参照してください。
 
 ## 概要を使用してイシューを編集
 
@@ -128,7 +140,7 @@ ht-degree: 81%
 
    プロジェクトのイシューのリストが表示されます。
 
-1. 編集するイシューを選択し、イシューリストの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-open-summary-icon-in-new-toolbar-small.png) をクリックします。
+1. 編集するイシューを選択し、イシューリストの右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-open-summary-icon-in-new-toolbar-small.png) をクリックします。
 
    **概要**&#x200B;が開きます。
 
@@ -137,10 +149,10 @@ ht-degree: 81%
 
    | アイコン | アクション |
    |---|---|
-   | ドキュメント ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents-icon-in-summary.png) | 「**ここをクリックして追加**」をクリックして、イシューにドキュメントを追加します。 |
-   | 詳細 ![&#x200B; 詳細アイコン &#x200B;](assets/details-icon-in-summary.png) | クリックして、イシューに関する情報を更新します。 |
-   | 時間 ![&#x200B; 時間を記録 &#x200B;](assets/log-time-icon-in-summary.png) | クリックして時間を記録します。 |
-   | 承認 ![&#x200B; 承認アイコン &#x200B;](assets/approvals-icon-in-summary.png) | クリックして、イシューの承認を追加します。 |
+   | ドキュメント ![ ドキュメントアイコン ](assets/documents-icon-in-summary.png) | 「**ここをクリックして追加**」をクリックして、イシューにドキュメントを追加します。 |
+   | 詳細 ![ 詳細アイコン ](assets/details-icon-in-summary.png) | クリックして、イシューに関する情報を更新します。 |
+   | 時間 ![ 時間を記録 ](assets/log-time-icon-in-summary.png) | クリックして時間を記録します。 |
+   | 承認 ![ 承認アイコン ](assets/approvals-icon-in-summary.png) | クリックして、イシューの承認を追加します。 |
 
 1. （オプション）**概要を開く**&#x200B;アイコンを再びクリックするか、概要の右上にある&#x200B;**X アイコン**&#x200B;をクリックしてパネルを閉じ、イシューをインラインで編集します。
 
@@ -155,7 +167,7 @@ ht-degree: 81%
 1. プロジェクト名をクリックして、プロジェクトにアクセスします。
 1. 左側のパネルで「**イシュー**」をクリックします。
 1. リストから複数のイシューを選択します。
-1. **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    **イシューを編集**&#x200B;ダイアログボックスが開きます。
 
@@ -180,7 +192,16 @@ ht-degree: 81%
 
    選択したすべてのイシューに添付され、編集権限を持つフォーム上のフィールドのみを編集できます。
 
+   <!--1. (Optional and conditional) Depending what environment you use to edit the issues, do one of the following to recalculate custom expressions for all issues:
+   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+
 1. （オプション）**カスタムフォーム**&#x200B;エリアで、「**カスタム式を再計算**」オプションを使用して、選択したイシューに関連付けられているカスタムフォーム上の計算カスタムフィールドをすべて最新の状態に保つことができます。
+
+   <!--  
+   <div class="preview">
+
+   1. In the Preview environment, with all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.
+   -->
 
    >[!IMPORTANT]
    >
