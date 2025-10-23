@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 3bb51eacc60d3c04885e2fcd23cacef805ff27ba
+source-git-commit: cccef57d9a83fa138282200d85c2851570a4b9b1
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 75%
+source-wordcount: '448'
+ht-degree: 76%
 
 ---
 
@@ -37,6 +37,12 @@ API バージョンの識別と使用について詳しくは、[統合での AP
   </tr> 
  </thead> 
  <tbody> 
+ <tr>
+   <td>21</td> 
+   <td> <p>2025年10月23日（PT）</p> </td> 
+   <td> <p>**2028年中</p> <p>（28.10 リリースを使用）</p> </td> 
+   <td></td> 
+  </tr> 
  <tr>
    <td>20</td> 
    <td> <p>2025年5月4日（PT）</p> </td> 
