@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 83%
+source-wordcount: '390'
+ht-degree: 73%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。これはプレビューサンドボックス環境でのみ使用でき、実稼動環境への段階的なロールアウトでリリースされています。</span>
 
 Adobe Workfront 管理者は、Workfront システム内の任意のユーザーのユーザー環境設定をリセットまたは削除できます。
 
@@ -57,61 +57,67 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
 
 ユーザーの環境設定をリセットすると、一部の環境設定はシステムのデフォルトに戻り、それ以外の環境設定はクリアまたは削除されます。
 
+<!--
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>設定</strong> </th> 
-   <th><strong>リセット後のステータス</strong> </th> 
+   <th><strong>Preference</strong> </th> 
+   <th><strong>Status after the reset</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>ビュー</td> 
-   <td> <p> システムのデフォルトに戻しました</p> <p>既存のビューは削除されません。もう一度選択できます。</p> </td> 
+   <td>Views</td> 
+   <td> <p> Reverted to the system default</p> <p>Existing views are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>フィルター</td> 
-   <td> <p>システムのデフォルトに戻しました</p> <p>既存のフィルターは削除されません。もう一度選択できます。</p> </td> 
+   <td>Filters</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing filters are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>グループ化</td> 
-   <td> <p>システムのデフォルトに戻しました</p> <p>既存のグループは削除されません。もう一度選択できます。</p> </td> 
+   <td>Groupings</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing groupings are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>最近使用した項目のリスト</td> 
-   <td>クリア済み</td> 
+   <td>Recent Items list</td> 
+   <td>Cleared</td> 
   </tr> 
   <tr> 
-   <td>お気に入りリスト</td> 
-   <td>影響なし</td> 
+   <td>Favorites list</td> 
+   <td>Unaffected</td> 
   </tr> 
   <tr> 
-   <td>ユーザーの環境設定</td> 
-   <td> <p>システムのデフォルトに戻しました</p> <p>メール通知がシステムのデフォルトに戻ります。デフォルトの通知については、<a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Adobe Workfront で使用可能なイベント通知</a>を参照してください。</p> </td> 
+   <td>User Preferences</td> 
+   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults. The default notifications are listed in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Event notifications available in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>ユーザー定義のカスタムタブ</td> 
-   <td>削除されました</td> 
+   <td>User-Defined Custom Tabs</td> 
+   <td>Removed</td> 
   </tr> 
   <tr> 
-   <td>ユーザー定義のグローバルナビゲーションオプション</td> 
-   <td>レイアウトテンプレートが割り当てられていない場合は、レイアウトテンプレート定義に戻すか、システムのデフォルトに戻します。</td> 
+   <td>User-Defined Global Navigation Options</td> 
+   <td>Set back to layout template definition, or system default if no layout template is assigned.</td> 
   </tr> 
  </tbody> 
 </table>
-
-<!-- Display this table and hide the HTML table above, when the unshim is released.
-| Preference | Status after the reset |
-| --- | --- |
-| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
-| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
-| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
-| Recent items list | Cleared |
-| Favorites list | Unaffected |
-| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
 -->
+
+<!--Display this table and hide the HTML table above, when the unshim is released.-->
+
+<div class="preview">
+
+| 設定 | リセット後のステータス |
+| --- | --- |
+| ビュー | システムのデフォルトに戻しました <p>既存のビューは削除されません。もう一度選択できます。</p> |
+| フィルター | システムのデフォルトに戻しました <p>既存のフィルターは削除されません。もう一度選択できます。</p> |
+| グループ化 | システムのデフォルトに戻しました <p>既存のグループは削除されません。もう一度選択できます。</p> |
+| 最近使用した項目リスト | クリア済み |
+| お気に入りリスト | 影響なし |
+| ユーザーの環境設定 | システムのデフォルトに戻しました <p>メール通知がシステムのデフォルトに戻ります。デフォルトの通知については、[Adobe Workfront で使用可能なイベント通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。</p> |
+
+</div>
 
 ## ユーザーの環境設定をリセット
 
@@ -141,9 +147,13 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
      >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. **Enter** キーを押します。
-1. すべてのユーザー環境設定をリセットするには、「**リセット**」を選択します。
 
-   <!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
-または
+<div class="preview">
 
-   カスタムタブのみをリセットするには、「**タブのリセット**」を選択します。
+1. すべてのユーザー環境設定をリセットするには、「**リセット**」をクリックします。
+
+   または
+
+   カスタム タブのみをリセットするには、[**左ナビゲーションのリセット**] をクリックします。
+
+</div>
