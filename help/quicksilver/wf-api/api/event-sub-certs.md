@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: 2c5a4ff65088652b67099d187e6ee4c11d80a3b3
+source-git-commit: 0921cc0e45a0a845404df90fc8789efc764f5790
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 88%
@@ -111,9 +111,9 @@ Listen 443
 
 次のリンクをクリックして、クライアント証明書をダウンロードします。
 
-* [クライアント証明書 - 実稼動環境](assets/prod-environment-nov-2024.crt)
-* [クライアント証明書 - プレビュー環境](assets/preview-environment-nov-2024.crt)
-* [クライアント証明書 - サンドボックス環境](assets/sandbox-environment-nov-2024.crt)
+* [クライアント証明書 - 本番環境](assets/prod-ES-client-cert-oct25.crt)
+* [クライアント証明書 - プレビュー環境](assets/preview-ES-client-cert-oct25.crt)
+* [クライアント証明書 - サンドボックス環境](assets/sandbox-ES-client-cert-oct25.crt)
 
 >[!NOTE]
 >
