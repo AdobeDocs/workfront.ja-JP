@@ -37,13 +37,13 @@ Adobe Workfront レビューツールは、インタラクティブコンテン�
 
 レビュー担当者と承認者は、Adobe Workfront レビューツールをインストールする必要があります。 次のいずれかのブラウザーで以下を行います。
 
-* [Firefox 拡張機能 ](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+* [Firefox 拡張機能 &#x200B;](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
-* [Chrome拡張機能 ](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+* [Chrome拡張機能 &#x200B;](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
 * [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
 
-* [Safari 拡張機能 ](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
+* [Safari 拡張機能 &#x200B;](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
 
 
 
