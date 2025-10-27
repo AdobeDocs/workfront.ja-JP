@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 35fbf2f5792edb844264b15e298411819c0f5081
+source-git-commit: 987eea4d0ad7f8e30b944418836280728ee63812
 workflow-type: tm+mt
 source-wordcount: '3054'
 ht-degree: 66%
@@ -473,7 +473,7 @@ Workfrontには、2 つのバージョンのイベント購読があります。
 
 イベント購読をアップグレードまたはダウングレードする機能により、イベントの構造に変更が加えられても既存の購読が壊れずに、イベント購読に隙間なく新しいバージョンのテストとアップグレードが可能になります。
 
-バージョンと重要な日付の具体的な違いなど、イベント購読のバージョン管理について詳しくは、[&#x200B; イベント購読のバージョン管理 &#x200B;](/help/quicksilver/wf-api/general/event-subs-versioning.md) を参照してください。
+バージョンと重要な日付の具体的な違いなど、イベント購読のバージョン管理について詳しくは、[ イベント購読のバージョン管理 ](/help/quicksilver/wf-api/general/event-subs-versioning.md) を参照してください。
 
 >[!NOTE]
 >
@@ -816,7 +816,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >指定されたフィルターを含む以下の購読は、タスクの名前にタスクの更新が行われる前の `again` が `oldState` に含まれているメッセージのみを返します。
->&#x200B;>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
+>>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
 
 ```
 {
@@ -966,7 +966,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
    * このフィルターは、更新されたタスクの完了率フィールドが 100 未満であるかどうかを確認します。
 
 1. フィルターグループ（OR 付きのネストされたフィルター）:
-   * &lbrace; &quot;type&quot;: &quot;group&quot;, &quot;connector&quot;: &quot;OR&quot;, &quot;filters&quot;: [{ &quot;fieldName&quot;: &quot;status&quot;, &quot;fieldValue&quot;: &quot;CUR&quot;, &quot;comparison&quot;: &quot;eq&quot; }, { &quot;fieldName&quot;: &quot;priority&quot;, &quot;fieldValue&quot;: &quot;1&quot;, &quot;comparison&quot;: &quot;eq&quot; }]
+   * { &quot;type&quot;: &quot;group&quot;, &quot;connector&quot;: &quot;OR&quot;, &quot;filters&quot;: [{ &quot;fieldName&quot;: &quot;status&quot;, &quot;fieldValue&quot;: &quot;CUR&quot;, &quot;comparison&quot;: &quot;eq&quot; }, { &quot;fieldName&quot;: &quot;priority&quot;, &quot;fieldValue&quot;: &quot;1&quot;, &quot;comparison&quot;: &quot;eq&quot; }]
    * このグループは、次の 2 つの内部フィルターを評価します。
       * 最初に、タスクのステータスが「CUR」（現在）に等しいかどうかを確認します。
       * 2 番目は、優先度が「1」（高優先度）に等しいかどうかを確認します。
