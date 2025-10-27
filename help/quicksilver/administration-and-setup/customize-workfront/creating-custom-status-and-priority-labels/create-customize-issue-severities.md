@@ -8,18 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 63%
+source-wordcount: '673'
+ht-degree: 61%
 
 ---
 
 # イシューの重大度を作成またはカスタマイズ
 
-{{highlighted-preview}}
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。サンドボックスプレビュー環境でのみ使用でき、実稼動環境への段階的なロールアウトでリリースされています。
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -85,7 +83,7 @@ Workfront のイシューには、5 つのビルトインの重要度があり�
 * 説明
 * Workfront で重要度が非表示になっているかどうか
 
-  重要度の非表示について詳しくは、この記事の [&#x200B; 重要度の作成または編集 &#x200B;](#create-or-edit-an-issue-severity) を参照してください。
+  重要度の非表示について詳しくは、この記事の [ 重要度の作成または編集 ](#create-or-edit-an-issue-severity) を参照してください。
 
 * 重要度の削除
 
@@ -121,7 +119,7 @@ Workfront の管理者は、ユーザー要件に合わせてイシューの重�
 
      <div class="preview">
 
-     デフォルトの重要度は、アイコン ![&#x200B; デフォルトの重要度アイコン &#x200B;](assets/default-icon.png) で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
+     デフォルトの重要度は、アイコン ![ デフォルトの重要度アイコン ](assets/default-icon.png) で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
 
       * 重要度名の横にあるチェックボックスをオンにし、画面の下部にあるアクションバーで「**デフォルトにする**」を選択します。
       * 重要度名にポインタを合わせて、表示される **詳細** メニューをクリックします。 次に、「**デフォルトにする** を選択します。

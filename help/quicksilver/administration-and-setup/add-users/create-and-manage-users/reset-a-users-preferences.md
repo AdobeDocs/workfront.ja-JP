@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 73%
+source-wordcount: '397'
+ht-degree: 72%
 
 ---
 
@@ -148,12 +148,8 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
 
 1. **Enter** キーを押します。
 
-<div class="preview">
+1. <span class="preview"> すべてのユーザー環境設定をリセットするには、「**リセット**」をクリックします。</span>
 
-1. すべてのユーザー環境設定をリセットするには、「**リセット**」をクリックします。
+   <span class="preview">または</span>
 
-   または
-
-   カスタム タブのみをリセットするには、[**左ナビゲーションのリセット**] をクリックします。
-
-</div>
+   <span class="preview"> ユーザーの左側のナビゲーションを元のレイアウトテンプレート設定にリセットするには、「**左側のナビゲーションをリセット**」をクリックします。</span>
