@@ -473,7 +473,7 @@ Workfrontには、2 つのバージョンのイベント購読があります。
 
 イベント購読をアップグレードまたはダウングレードする機能により、イベントの構造に変更が加えられても既存の購読が壊れずに、イベント購読に隙間なく新しいバージョンのテストとアップグレードが可能になります。
 
-バージョンと重要な日付の具体的な違いなど、イベント購読のバージョン管理について詳しくは、[ イベント購読のバージョン管理 ](/help/quicksilver/wf-api/general/event-subs-versioning.md) を参照してください。
+バージョンと重要な日付の具体的な違いなど、イベント購読のバージョン管理について詳しくは、[&#x200B; イベント購読のバージョン管理 &#x200B;](/help/quicksilver/wf-api/general/event-subs-versioning.md) を参照してください。
 
 >[!NOTE]
 >
@@ -816,7 +816,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >指定されたフィルターを含む以下の購読は、タスクの名前にタスクの更新が行われる前の `again` が `oldState` に含まれているメッセージのみを返します。
->>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
+>&#x200B;>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
 
 ```
 {
