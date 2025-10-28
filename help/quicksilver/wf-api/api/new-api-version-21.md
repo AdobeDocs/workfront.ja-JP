@@ -6,14 +6,14 @@ description: Adobe Workfront は、2025年10月23日（PT）に API バージョ
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: d72c5b4337ea04dbfef4622908824a0bd138b551
+source-git-commit: 50edbfa342ed7f51d1fe2b9654b55b579bb3f5af
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 84%
 
 ---
 
-# API バージョン 20 の新機能
+# API バージョン 21 の新機能
 
 Adobe Workfront は、2025年10月23日（PT）に API バージョン 21 をリリースしました。API バージョン 21 では、バージョン 20 から次の変更が行われました。
 
