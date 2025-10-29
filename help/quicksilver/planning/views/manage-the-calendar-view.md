@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
 source-wordcount: '1771'
 ht-degree: 24%
@@ -26,7 +26,7 @@ ht-degree: 24%
 
 レコードタイプページから、レコードとそのフィールドをカレンダー表示で表示できます。
 
-Adobe Workfrontのプランニングビューとその管理方法について詳しくは、[&#x200B; レコードビューの管理 &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) を参照してください。
+Adobe Workfrontのプランニングビューとその管理方法について詳しくは、[ レコードビューの管理 ](/help/quicksilver/planning/views/manage-record-views.md) を参照してください。
 
 ## アクセス要件
 
@@ -68,7 +68,7 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++ 
 
@@ -154,9 +154,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 カレンダー表示を管理するには：
 
 1. カレンダーを表示するレコードタイプ ページに移動します。
-1. 「レコードビューの管理 [&#x200B; の記事の説明に従って、カレンダービューを作成 &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) ます。
+1. 「レコードビューの管理 [ の記事の説明に従って、カレンダービューを作成 ](/help/quicksilver/planning/views/manage-record-views.md) ます。
 
-   ![&#x200B; カレンダー表示の例 &#x200B;](assets/calendar-view-example.png)
+   ![ カレンダー表示の例 ](assets/calendar-view-example.png)
 
    選択したレコードタイプに関連付けられているレコードは、カレンダーにバーとして表示されます。 バーの色は、既定ではレコード アイコンの色と一致します。
 
@@ -173,7 +173,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
          * 複数日にまたがるレコードは、カレンダーの上部に表示されます。
          * 1 日以下のレコードは、カレンダー表示の下半分に表示されます。 開始日と終了日の時間を表示するように選択した場合、レコードは該当する日の適切な時間に表示されます。
 
-1. （オプション） **フルスクリーン** アイコン ![&#x200B; フルスクリーンアイコンを開く &#x200B;](assets/open-full-screen-icon.png) をクリックしてフルスクリーンでビューを開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了 &#x200B;](assets/exit-full-screen-icon.png) またはキーボードの Esc キーをクリックしてフルスクリーンを終了します。
+1. （オプション） **フルスクリーン** アイコン ![ フルスクリーンアイコンを開く ](assets/open-full-screen-icon.png) をクリックしてフルスクリーンでビューを開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了 ](assets/exit-full-screen-icon.png) またはキーボードの Esc キーをクリックしてフルスクリーンを終了します。
 
 1. カレンダー表示でレコードを作成したり、日付を編集したりするには、次のいずれかの操作を行います。
 
@@ -219,11 +219,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 カレンダー表示にフィルターを追加するには：
 
-1. 「レコードビューの管理 [&#x200B; の記事の説明に従って、レコードタイプのページのカレンダービューを作成 &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) ます。
+1. 「レコードビューの管理 [ の記事の説明に従って、レコードタイプのページのカレンダービューを作成 ](/help/quicksilver/planning/views/manage-record-views.md) ます。
 1. カレンダー表示を選択し、カレンダーのツールバーの **フィルター** をクリックします。
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
 
    * **でフィルターする** フィールドを選択 <!-- the tip below might change-->
+
+     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
 
    * **オプションを選択** （またはフィルター修飾子）して、フィールドが満たす必要がある条件の種類を定義します
 
@@ -293,7 +295,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    * 選択したフィールドの値を選択します。
 
-   ![&#x200B; フィルター UI テーブル表示 &#x200B;](assets/filter-ui-table-view.png)
+   ![ フィルター UI テーブル表示 ](assets/filter-ui-table-view.png)
 
    追加できるフィルタリング条件の数に制限はありません。
 
@@ -305,7 +307,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    1. （任意）複数の条件グループの間に、追加の **AND** または **OR** 演算子を追加します。
 
-      ![&#x200B; ビューの多層化フィルター &#x200B;](assets/multi-tiered-filters-in-views.png)
+      ![ ビューの多層化フィルター ](assets/multi-tiered-filters-in-views.png)
 
    レコードのリストは自動的にフィルタリングされます。<!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -325,7 +327,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 >この設定は、月別にカレンダーを表示する場合にのみ使用できます。
 
 
-1. 「レコードビューの管理 [&#x200B; の記事の説明に従って、レコードタイプのページのカレンダービューを作成 &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) ます。
+1. 「レコードビューの管理 [ の記事の説明に従って、レコードタイプのページのカレンダービューを作成 ](/help/quicksilver/planning/views/manage-record-views.md) ます。
 1. （条件付き）カレンダー表示を月別に表示し、カレンダーのツールバーの **行の高さ** をクリックします。
 1. 次のオプションから選択します。
 
@@ -383,7 +385,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 カレンダー表示設定を更新して、ビューに表示する情報と方法を指定します。
 
-1. 「レコードビューの管理 [&#x200B; の記事の説明に従って、レコードタイプのカレンダービューを作成 &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) ます。
+1. 「レコードビューの管理 [ の記事の説明に従って、レコードタイプのカレンダービューを作成 ](/help/quicksilver/planning/views/manage-record-views.md) ます。
 1. 「**設定**」をクリックします。
 1. 左側のパネルで **日時** をクリックし、**開始日** と **終了日** を選択してカレンダーに表示します。 デフォルトの開始日と終了日を選択することも、使用可能な任意の日付フィールドを選択することもできます。
 
@@ -404,7 +406,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    >[!NOTE]
    >
-   >    カレンダー表示にサムネイルを表示するには、まずテーブル ビューにサムネイルを追加する必要があります。 詳しくは、[&#x200B; レコードへのサムネールの追加 &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
+   >    カレンダー表示にサムネイルを表示するには、まずテーブル ビューにサムネイルを追加する必要があります。 詳しくは、[ レコードへのサムネールの追加 ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
 
 1. **フィールドを追加** をクリックして、**フィールドを検索** ボックス内をクリックし、追加するフィールドをクリックします。
 
@@ -418,11 +420,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    カレンダー上でバーがどのように表示されるかを示すプレビューが右側に表示されます。
 
-   ![&#x200B; カレンダー表示設定のバーのスタイルセクション &#x200B;](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
+   ![ カレンダー表示設定のバーのスタイルセクション ](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
 
 1. 左側のパネルで **カラー** をクリックして、カレンダー上のレコードの色をカスタマイズします。
 
-   ![&#x200B; カレンダー表示設定のカラーパネル &#x200B;](assets/color-panel-on-calendar-view-settings.png)
+   ![ カレンダー表示設定のカラーパネル ](assets/color-panel-on-calendar-view-settings.png)
 
 1. **レコードの色を設定** セクションで、次のオプションからレコードの色を設定します。
 
@@ -432,7 +434,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. （条件付き）レコードの色に&#x200B;**フィールド値**&#x200B;を選択した場合、**レコードの色を次と一致させる**&#x200B;ドロップダウンメニューからフィールドを選択します。
 
-   ![&#x200B; カレンダー表示のフィールドセレクタードロップダウンメニュー &#x200B;](assets/field-selector-drop-down-menu-calendar-view.png)
+   ![ カレンダー表示のフィールドセレクタードロップダウンメニュー ](assets/field-selector-drop-down-menu-calendar-view.png)
 
    ドロップダウンメニューには、色分けされたオプションを持つフィールドのみが表示されます。
 

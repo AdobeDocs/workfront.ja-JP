@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 40%
+source-wordcount: '1181'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 この記事では、レコードビューに関する次の情報について説明します。
 
 * [ビューの作成と編集](#create-or-edit-record-views)
-* [&#x200B; ビューでリアルタイムプレゼンス指標を有効にする &#x200B;](#enable-the-real-time-presence-indicator-in-a-view)
+* [ ビューでリアルタイムプレゼンス指標を有効にする ](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 Workfrontの計画レコードのビューの管理について詳しくは、次の記事も参照してください。
@@ -93,7 +93,7 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -171,8 +171,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 * 一部のビュー要素は、同じレコードの複数のビューに適用できますが、各レコードビューに固有です。
 
    * フィルター
+   * 並べ替え（テーブルビューの場合）
+   * 行の色（テーブル表示の場合）
+   * フィールド （テーブルビュー用）
+   * 分類（タイムライン表示用）
    * グループ化（テーブルビューとタイムラインビューの場合）
    * バーの外観（タイムラインビューとカレンダービューの場合）
+   * 行の高さ（テーブルおよび月別カレンダービューの場合）
 
   例えば、テーブルビューでフィルターを作成した場合、フィルター結果は、選択したビュー（テーブルビュー）にのみ表示され、レコードタイプに関連付けられたすべてのビューには表示されません。
 
@@ -212,6 +217,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 | ビューからの情報のエクスポート | ✓ |               |    |
 | 全画面表示で表示 | ✓ | ✓ | ✓ |
 | ビューでのレコードの作成 | ✓ | ✓ | ✓ |
+| レコードを接続別に分類 |          | ✓ |    |
 
 ## ビューを作成または編集 {#create-or-edit-views}
 
@@ -228,7 +234,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. 現在のビュー名の横にあるドロップダウンアイコン ![&#x200B; ドロップダウンアイコン &#x200B;](assets/drop-down-icon.png) ドロップダウンアイコン）をクリックし、「**+新規ビュー**」をクリックします。
+1. 現在のビュー名の横にあるドロップダウンアイコン ![ ドロップダウンアイコン ](assets/drop-down-icon.png) ドロップダウンアイコン）をクリックし、「**+新規ビュー**」をクリックします。
 
 1. 次のタイプのビューから選択します。
 
@@ -247,12 +253,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >それ以外の場合は、「タイムライン」および「カレンダー」オプションは淡色表示になります。
    >  
 
-   ![&#x200B; ビューボックスを作成 &#x200B;](assets/create-view-box.png)
+   ![ ビューボックスを作成 ](assets/create-view-box.png)
 
 1. （オプション）既存のビューを編集するには、現在のビュー名の右側にあるドロップダウンメニューをクリックし、「**検索**」フィールドにビュー名を入力して、キーボードの Enter キーを押します。
 1. （オプション）表示ドロップダウンメニューから、希望する順序でビューをドラッグ&amp;ドロップします。
 
-   ![&#x200B; レコードタイプリストからの表示タイプドロップダウン &#x200B;](assets/view-types-drop-down-from-record-type-list.png)
+   ![ レコードタイプリストからの表示タイプドロップダウン ](assets/view-types-drop-down-from-record-type-list.png)
 
 1. （条件付き）タイムラインビューまたはカレンダービューを作成する際は、「**次へ**」をクリックします。
 
@@ -277,16 +283,16 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 「**作成**」をクリックします。
 
    ビューは新しいタブとして表示されます。ビューは、作成時または共有時からの時間順で表示されます。
-1. （オプション）選択したレコードタイプのすべてのビューを表示するには、最後のビューの横にある **その他** メニュー ![&#x200B; その他のキャレットダウンアイコンビュー &#x200B;](assets/more-caret-down-icon-views.png) をクリックします。
+1. （オプション）選択したレコードタイプのすべてのビューを表示するには、最後のビューの横にある **その他** メニュー ![ その他のキャレットダウンアイコンビュー ](assets/more-caret-down-icon-views.png) をクリックします。
 
    最後のビュータブの後の&#x200B;**その他**&#x200B;メニューに、追加のビューが表示されます。**その他**&#x200B;メニューの横の数字は、追加のビューの数を示します。
-1. （オプション）作成後にビューの名前を変更するには、ビューのドロップダウンメニューをクリックし、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png)>**名前を変更** をクリックしてビュー名を更新します
+1. （オプション）作成後にビューの名前を変更するには、ビューのドロップダウンメニューをクリックし、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png)>**名前を変更** をクリックしてビュー名を更新します
 
    または
 
    ビュー名をダブルクリックし、新しい名前を入力していきます。<!--ensure there is not another saving step here?!-->
 
-1. （オプション） **フルスクリーン** アイコン ![&#x200B; フルスクリーンアイコンを開く &#x200B;](assets/open-full-screen-icon.png) をクリックしてフルスクリーンで任意の表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了 &#x200B;](assets/exit-full-screen-icon.png) またはキーボードの Esc キーをクリックしてフルスクリーンを終了します。
+1. （オプション） **フルスクリーン** アイコン ![ フルスクリーンアイコンを開く ](assets/open-full-screen-icon.png) をクリックしてフルスクリーンで任意の表示を開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了 ](assets/exit-full-screen-icon.png) またはキーボードの Esc キーをクリックしてフルスクリーンを終了します。
 
 1. （オプション）特定のタイプのビューを管理するには、次の記事を参照してください。
 
