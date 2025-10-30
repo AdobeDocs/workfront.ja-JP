@@ -6,28 +6,25 @@ description: 個々のイシューを編集することも、イシューリス�
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 81%
+source-wordcount: '992'
+ht-degree: 69%
 
 ---
 
 # リスト内のイシューの編集
 
-<!--Audited: 08/2025-->
+<!--Audited: 10/2025-->
 
-<!--Audited: 03/2025-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
-</div> 
--->
+</div>
 
 個々のイシューを編集することも、イシューリストまたはレポート内のイシューを編集することもできます。この記事では、リスト内のイシューを編集する方法について説明します。
 
@@ -113,7 +110,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. プロジェクトまたはタスク内のイシューのリストに移動します。
 1. 手動で更新する権限を持つフィールド内をクリックします。フィールドが編集可能になり、変更を加えることができます。
 
-   ![&#x200B; 問題をインラインで編集 &#x200B;](assets/edit-issues-inline-350x34.png)
+   ![ 問題をインラインで編集 ](assets/edit-issues-inline-350x34.png)
 
 1. 変更を受け入れる場合は、Enter キーを押します。変更は直ちに保存されます。
 
@@ -124,12 +121,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. プロジェクトまたはタスク内のイシューのリストに移動します。
 1. 次のいずれかの操作を行います。
 
-   * リストでイシューを選択し、ツールバーの **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
+   * リストでイシューを選択し、ツールバーの **編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
    * イシューの名前をクリックし、「**編集**」をクリックします。
 
      これらのアクションのいずれかを実行すると、「**イシューを編集** ボックスが開きます。
 
-     **イシューを編集** ボックスでのイシューの編集について詳しくは、[&#x200B; イシューの編集 &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) を参照してください。
+     **イシューを編集** ボックスでのイシューの編集について詳しくは、[ イシューの編集 ](../../../manage-work/issues/manage-issues/edit-issues.md) を参照してください。
 
 ## 概要を使用してイシューを編集
 
@@ -140,7 +137,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    プロジェクトのイシューのリストが表示されます。
 
-1. 編集するイシューを選択し、イシューリストの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-open-summary-icon-in-new-toolbar-small.png) をクリックします。
+1. 編集するイシューを選択し、イシューリストの右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-open-summary-icon-in-new-toolbar-small.png) をクリックします。
 
    **概要**&#x200B;が開きます。
 
@@ -149,10 +146,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    | アイコン | アクション |
    |---|---|
-   | ドキュメント ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents-icon-in-summary.png) | 「**ここをクリックして追加**」をクリックして、イシューにドキュメントを追加します。 |
-   | 詳細 ![&#x200B; 詳細アイコン &#x200B;](assets/details-icon-in-summary.png) | クリックして、イシューに関する情報を更新します。 |
-   | 時間 ![&#x200B; 時間を記録 &#x200B;](assets/log-time-icon-in-summary.png) | クリックして時間を記録します。 |
-   | 承認 ![&#x200B; 承認アイコン &#x200B;](assets/approvals-icon-in-summary.png) | クリックして、イシューの承認を追加します。 |
+   | ドキュメント ![ ドキュメントアイコン ](assets/documents-icon-in-summary.png) | 「**ここをクリックして追加**」をクリックして、イシューにドキュメントを追加します。 |
+   | 詳細 ![ 詳細アイコン ](assets/details-icon-in-summary.png) | クリックして、イシューに関する情報を更新します。 |
+   | 時間 ![ 時間を記録 ](assets/log-time-icon-in-summary.png) | クリックして時間を記録します。 |
+   | 承認 ![ 承認アイコン ](assets/approvals-icon-in-summary.png) | クリックして、イシューの承認を追加します。 |
 
 1. （オプション）**概要を開く**&#x200B;アイコンを再びクリックするか、概要の右上にある&#x200B;**X アイコン**&#x200B;をクリックしてパネルを閉じ、イシューをインラインで編集します。
 
@@ -167,7 +164,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. プロジェクト名をクリックして、プロジェクトにアクセスします。
 1. 左側のパネルで「**イシュー**」をクリックします。
 1. リストから複数のイシューを選択します。
-1. **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    **イシューを編集**&#x200B;ダイアログボックスが開きます。
 
@@ -175,24 +172,15 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    すべてのイシューに関する情報を編集するのは、次のエリアを編集する際に、1 つのイシューに関する情報を編集する場合と同じです。
 
-   * 概要
-   * 設定
-   * カスタムフォーム
-   * 割り当て
-   * コメント
-
-   <!--at release for unshim, replace the list above with this:
-
    <div class="preview">
 
-   * Overview
-   * Assignments
-   * Custom Forms 
-   * Settings
-   * Comment
+   * 概要
+   * 割り当て
+   * カスタムフォーム
+   * 設定
+   * コメント
 
    </div>
-   -->
 
    イシューの編集について詳しくは、[イシューの編集](../../../manage-work/issues/manage-issues/edit-issues.md)を参照してください。
 
@@ -206,16 +194,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    選択したすべてのイシューに添付され、編集権限を持つフォーム上のフィールドのみを編集できます。
 
-   <!--1. (Optional and conditional) Depending what environment you use to edit the issues, do one of the following to recalculate custom expressions for all issues:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+1. （オプションおよび条件付き）イシューの編集に使用する環境に応じて、次のいずれかの操作を行って、すべてのイシューのカスタム式を再計算します。
 
-1. （オプション）**カスタムフォーム**&#x200B;エリアで、「**カスタム式を再計算**」オプションを使用して、選択したイシューに関連付けられているカスタムフォーム上の計算カスタムフィールドをすべて最新の状態に保つことができます。
+   1. 実稼動環境の **カスタムForms** 領域で、「**カスタム式を再計算**」オプションを選択して、選択された問題に添付されたカスタムForms上のすべての計算カスタムフィールドが最新であることを確認します。
 
-   <!--  
-   <div class="preview">
-
-   1. In the Preview environment, with all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.
-   -->
+   1. <span class="preview"> プレビュー環境で、リストですべてのイシューを選択した状態で、イシューリストの上部にある **その他** メニュー ![ その他のメニュー ](assets/more-icon.png) をクリックしてから、**式の再計算** をクリックします。</span>
 
    >[!IMPORTANT]
    >

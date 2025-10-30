@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 83%
+source-wordcount: '1731'
+ht-degree: 76%
 
 ---
 
@@ -18,15 +18,13 @@ ht-degree: 83%
 
 <!--Audited: 10/2024-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
-</div> 
--->
+</div>
 
 ユーザー、役割、およびチームにイシューを割り当てて、イシューの完了担当者を指定できます。イシューの割り当てについて一般的な情報については、[イシューの割り当ての変更についての概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)を参照してください。
 
@@ -125,13 +123,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    イシューが既に割り当てられている場合は、現在の割り当ての名前をクリックします。
 
-   ![&#x200B; 割り当て先ボタン &#x200B;](assets/assign-to-button-in-header.png)
+   ![ 割り当て先ボタン ](assets/assign-to-button-in-header.png)
 
 1. 次のいずれかの操作を行います。
 
    * 割り当てるユーザー、役割、またはチームの名前を入力し、リストに表示されたらクリックします。
 
-     ![&#x200B; 割り当て検索 &#x200B;](assets/smart-assignments-issue-header.png)
+     ![ 割り当て検索 ](assets/smart-assignments-issue-header.png)
 
    * （条件付き）使用可能なリストの名前、役割、チームのいずれかをクリックします
    * 「**自分に割り当て**」をクリックして、自分に割り当てる
@@ -174,11 +172,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    * 「**割り当て先**」または「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザーの名前の入力を開始し、リストに表示されたらクリックします。
 
-     ![&#x200B; 割り当て先フィールド &#x200B;](assets/assigned-to-field-task-list-nwe.png)
+     ![ 割り当て先フィールド ](assets/assigned-to-field-task-list-nwe.png)
 
    * 「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザー、担当業務、またはアクティブなチームの名前の入力を開始し、リストに表示されたらクリックします。
 
-     ![&#x200B; 割り当てフィールド &#x200B;](assets/assignments-field-0825.png)
+     ![ 割り当てフィールド ](assets/assignments-field-0825.png)
 
    >[!TIP]
    >
@@ -188,7 +186,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >
    >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
-1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン** ![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、「詳細な割り当て」ボックスを開き、詳細な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
+1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン** ![ 人物アイコン ](assets/teams.png) をクリックして、「詳細な割り当て」ボックスを開き、詳細な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
    >[!TIP]
    >
@@ -200,18 +198,17 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 イシューは、「イシューを編集」ボックスで編集するときに割り当てることができます。
 
-詳しくは、「イシューの編集 [&#x200B; の「割り当て &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) の節を参照してください。
+詳しくは、「イシューの編集 [ の「割り当て ](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) の節を参照してください。
 
 ## 一括でイシューを割り当てる
 
-<!--
-Assigning issues in bulk is different depending on what environment you choose to do this. 
+イシューの一括での割り当ては、これを行うために選択した環境によって異なります。
 
-### Assign issues in bulk in the Production environment -->
+### 実稼動環境での問題の一括割り当て
 
 1. 一括で割り当てるイシューのリストに移動します。
 1. リストから複数のイシューを選択します。
-1. **編集アイコン**![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
+1. **編集アイコン**![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
 
    **問題を編集**&#x200B;ダイアログボックスが開きます。
 
@@ -232,33 +229,32 @@ Assigning issues in bulk is different depending on what environment you choose t
 1. 「**変更を保存**」をクリックします。
 1. （オプションおよび条件付き）イシューのリストに「割り当て先」フィールドまたは「割り当て」フィールドが表示されたら、イシューのこれらの列のいずれかの内側をクリックし、担当者の名前の横にある「**X アイコン**」をクリックして、イシューから削除します。
 
-<!--
 <div class="preview">
 
-### Assign issues in bulk in the Preview environment
+### プレビュー環境での問題の一括割り当て
 
-1. Go to a list of issues that you want to assign in bulk. 
-1. Select several issues in the list. 
-1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
+1. 一括で割り当てるイシューのリストに移動します。
+1. リストから複数のイシューを選択します。
+1. **編集アイコン**![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
 
-   The **Edit Issues** dialog box opens.
+   **イシューを編集**&#x200B;ダイアログボックスが開きます。
 
-1. Click **Assignments** in the left panel, and in the **Assignments** area, start typing the name of a user, role, or team in the **Search people, roles, or teams** field, then click it when it displays in the list
+1. 左側のパネルの **割り当て** をクリックし、**割り当て** 領域の **ユーザー、役割、またはチームを検索** フィールドにユーザー、役割、またはチームの名前を入力し始め、リストに表示されたらクリックします
 
-   Or
+   または
 
-   Click **Assign to me** to assign the issues to yourself.
+   「**自分に割り当て**」をクリックして、イシューを自分に割り当てます。
 
    >[!IMPORTANT]
    >
-   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
-   
-1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
+   >イシューが既に割り当てられている場合、ここに指定したリソースは、イシュー上の既存のリソースを置き換える代わりに、イシューに追加されます。
 
-1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+1. （任意）既存の担当者をすべてのイシューから削除する場合は、名前の横にある **x** をクリックします。
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+1. （任意）「予定時間数」フィールドを更新します。 詳しくは、[ イシューの編集 ](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) を参照してください。
+
+1. 「**保存**」をクリックします。
+1. （オプションおよび条件付き）イシューのリストに「割り当て先」フィールドまたは「割り当て」フィールドが表示されたら、イシューのこれらの列のいずれかの内側をクリックし、担当者の名前の横にある「**X アイコン**」をクリックして、イシューから削除します。
 
 </div>
--->
+
