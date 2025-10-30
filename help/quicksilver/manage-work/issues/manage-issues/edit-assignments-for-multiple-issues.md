@@ -95,7 +95,7 @@ ht-degree: 49%
       イシューのリストは、フィルター条件に合わせて自動的にフィルタリングされます。
    1. （オプション）「**新規保存**」をクリックして、「**保存**」をクリックします。
 
-1. 割り当てを変更するイシューを選択して、**編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
+1. 割り当てを変更するイシューを選択して、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
 
    **イシューの編集**&#x200B;が表示されます。選択した項目の数は、ページの左上隅に表示されます。
 
@@ -103,7 +103,7 @@ ht-degree: 49%
 
    1. 「**割り当て**」セクションに移動して、「**割り当て先**」を選択します。
 
-      ![ 割り当てエリア ](assets/classic-assignmens-area-on-edit-box-350x119.png)
+      ![&#x200B; 割り当てエリア &#x200B;](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
    1. 次のいずれかの操作を行います。
 
@@ -153,7 +153,7 @@ ht-degree: 49%
       >
       ><span class="preview"> 選択したすべてのイシューに割り当てられた担当者のみが **割り当て** 領域に表示されます。</span>
 
-      ![ 一括編集のイシューの「割り当て」エリア ](assets/assignments-area-on-bulk-edit-issues.png)
+      ![&#x200B; 一括編集のイシューの「割り当て」エリア &#x200B;](assets/assignments-area-on-bulk-edit-issues.png)
 
    1. <span class="preview"> ユーザー、役割またはチームの名前の入力を開始して、選択したすべてのイシューに担当者を追加します。</span>
 

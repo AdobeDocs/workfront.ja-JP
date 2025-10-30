@@ -127,7 +127,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       *すべての変更の後に自動的に 
     *手動で、保存をクリックした後にのみ 
   
-  Workfrontがリスト内のタスクに加えた変更をいつ保存するかについての詳細は、この記事の「リスト内のタスクを編集する前にプラン モードを変更する [ を参照してください ](#modify-plan-mode-before-editing-tasks-in-a-list)。
+  Workfrontがリスト内のタスクに加えた変更をいつ保存するかについての詳細は、この記事の「リスト内のタスクを編集する前にプラン モードを変更する [&#x200B; を参照してください &#x200B;](#modify-plan-mode-before-editing-tasks-in-a-list)。
 
 * 他のユーザーは、タスクに対して行った更新を表示する前に、ページを更新する必要があります。
 
@@ -137,7 +137,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 >[!IMPORTANT]
 >
->タスクを自動で保存するか手動で保存するかに応じて、リストのタスクを編集する際に他のユーザーの情報を上書きする場合があります。詳しくは、[ タスクリスト内の同時変更の保存の概要 ](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md) を参照してください。
+>タスクを自動で保存するか手動で保存するかに応じて、リストのタスクを編集する際に他のユーザーの情報を上書きする場合があります。詳しくは、[&#x200B; タスクリスト内の同時変更の保存の概要 &#x200B;](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md) を参照してください。
 
 更新の種類として「自動」または「自動・変更時」が選択されているプロジェクトのリストに変更を保存すると、Workfront はプロジェクトのタイムラインと、プロジェクト内およびプロジェクト間のすべての依存関係をアップデートします。プロジェクトが大きい場合や、依存関係が多い場合は、タイムラインの計算に時間がかかる場合があります。タスクリストの編集方法の中には、変更を保存する方法に応じて、他の方法よりも速く編集できるものがあります。
 
@@ -145,11 +145,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 * アップデートのたびに、Workfront で自動的に変更を保存することができます。
 
-  詳しくは、この記事の [ 変更を自動的に保存するようにプランモードを設定する ](#set-the-plan-mode-to-automatically-save-changes) の節を参照してください。
+  詳しくは、この記事の [&#x200B; 変更を自動的に保存するようにプランモードを設定する &#x200B;](#set-the-plan-mode-to-automatically-save-changes) の節を参照してください。
 
 * 「保存」ボタンを使用して、手動で複数の変更を一度に適用するタイミングを制御できます。
 
-  詳しくは、この記事の [ 手動で変更を保存するようにプランモードを設定 ](#set-the-plan-mode-to-manually-save-changes) 節を参照してください。
+  詳しくは、この記事の [&#x200B; 手動で変更を保存するようにプランモードを設定 &#x200B;](#set-the-plan-mode-to-manually-save-changes) 節を参照してください。
 
 ### 変更が自動的に保存されるように計画モードを設定します。
 
@@ -170,9 +170,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. **プロジェクト** ページで、プロジェクトを選択します。
 1. 左側のパネルで、「**タスク**」セクションをクリックします。
 
-1. リストの上部にある **プランモード** アイコン ![ プランモードアイコン ](assets/plan-mode-icon.png) をクリックし、「**自動保存**」オプションが選択されていることを確認します。
+1. リストの上部にある **プランモード** アイコン ![&#x200B; プランモードアイコン &#x200B;](assets/plan-mode-icon.png) をクリックし、「**自動保存**」オプションが選択されていることを確認します。
 
-   ![ 自動保存設定を有効にする ](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+   ![&#x200B; 自動保存設定を有効にする &#x200B;](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
 1. 手動でアップデートする権限を持つフィールドを編集します。
 
@@ -280,23 +280,23 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 左側のパネルで、「**タスク**」セクションをクリックします。
 
-1. リストの上部にある **プランモード** アイコン ![ プランモードアイコン ](assets/plan-mode-icon.png) をクリックします。
+1. リストの上部にある **プランモード** アイコン ![&#x200B; プランモードアイコン &#x200B;](assets/plan-mode-icon.png) をクリックします。
 
 1. **プランモード** ダイアログで、**手動保存** を選択し、**標準** をクリックします。
 
-   ![ 手動保存の設定を有効にする ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![&#x200B; 手動保存の設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. **適用** をクリックします。 ツールバー設定が表示され、変更の取り消し、やり直し、保存のオプションが表示されます。
 
-   ![ 手動保存ツールバー ](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+   ![&#x200B; 手動保存ツールバー &#x200B;](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. 手動で更新する権限を持つフィールド内をクリックします。フィールドが編集可能になり、変更を加えることができます。
 
 1. キーボードの **Enter** （Windows）または **Return** （Mac）を押して、変更内容を一時的に保存します。
 
-1. （オプション） **取り消し** アイコン ![ 取り消しアイコン ](assets/undo-icon-on-task-list.png) をクリックして、変更を元に戻し、フィールドを元の状態に戻します。
+1. （オプション） **取り消し** アイコン ![&#x200B; 取り消しアイコン &#x200B;](assets/undo-icon-on-task-list.png) をクリックして、変更を元に戻し、フィールドを元の状態に戻します。
 
-1. （オプションおよび条件付き） **やり直し** アイコン ![ やり直しアイコン ](assets/redo-icon-on-task-list.png) をクリックして、取り消した変更を復元します。
+1. （オプションおよび条件付き） **やり直し** アイコン ![&#x200B; やり直しアイコン &#x200B;](assets/redo-icon-on-task-list.png) をクリックして、取り消した変更を復元します。
 
 1. （オプション）変更するタスクを右クリックします。
 
@@ -368,11 +368,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 左側のパネルで、「**タスク**」セクションをクリックします。
 
-1. リストの上部にある **プランモード** アイコン ![ プランモードアイコン ](assets/plan-mode-icon.png) をクリックします。
+1. リストの上部にある **プランモード** アイコン ![&#x200B; プランモードアイコン &#x200B;](assets/plan-mode-icon.png) をクリックします。
 
 1. **プランモード** ダイアログで、**手動保存** を選択し、**タイムライン計画** をクリックします。
 
-   ![ タイムライン計画設定の適用 ](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
+   ![&#x200B; タイムライン計画設定の適用 &#x200B;](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
 
    >[!TIP]
    >
@@ -398,13 +398,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * アジャイルビューアイコンが削除されます。
    * ツールバー設定が表示され、変更の取り消し、やり直し、保存のオプションが表示されます。
 
-     ![ 手動保存ツールバー ](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![&#x200B; 手動保存ツールバー &#x200B;](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. 手動でアップデートする権限を持つフィールドを編集します。
 
 1. キーボードの **Enter** （Windows）または **Return** （Mac）を押して、変更内容を一時的に保存します。
-1. （オプション） **取り消し** アイコン ![ 取り消しアイコン ](assets/undo-icon-on-task-list.png) をクリックして、変更を元に戻し、フィールドを元の状態に戻します。
-1. （オプションおよび条件付き） **やり直し** アイコン ![ やり直しアイコン ](assets/redo-icon-on-task-list.png) をクリックして、取り消した変更を元に戻します。
+1. （オプション） **取り消し** アイコン ![&#x200B; 取り消しアイコン &#x200B;](assets/undo-icon-on-task-list.png) をクリックして、変更を元に戻し、フィールドを元の状態に戻します。
+1. （オプションおよび条件付き） **やり直し** アイコン ![&#x200B; やり直しアイコン &#x200B;](assets/redo-icon-on-task-list.png) をクリックして、取り消した変更を元に戻します。
 
 1. （オプション）変更するタスクを右クリックします。
 
@@ -460,7 +460,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 左側のパネルで、「**タスク**」セクションをクリックします。 プロジェクトのタスクのリストが表示されます。
 
-1. 編集するタスクを選択し、リストの右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/task-summary-icon.png) をクリックします。 **タスクの概要** パネルが開きます。
+1. 編集するタスクを選択し、リストの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/task-summary-icon.png) をクリックします。 **タスクの概要** パネルが開きます。
 
 1. （オプション）**更新**&#x200B;エリアでタスクの更新を入力します。
 1. 次のアイコンまたはエリアのいずれかをクリックしてタスクに移動し、タスクレベルで情報を編集します。
@@ -500,16 +500,16 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. **プロジェクト** ページで、プロジェクトを選択します。
 1. 左側のパネルで、「**タスク**」セクションをクリックします。
 
-1. リストの上部にある **プランモード** アイコン ![ プランモードアイコン ](assets/plan-mode-icon.png) をクリックし、「**自動保存**」オプションが選択されていることを確認します。
+1. リストの上部にある **プランモード** アイコン ![&#x200B; プランモードアイコン &#x200B;](assets/plan-mode-icon.png) をクリックし、「**自動保存**」オプションが選択されていることを確認します。
 
-   ![ 自動保存設定を有効にする ](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+   ![&#x200B; 自動保存設定を有効にする &#x200B;](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
    >[!IMPORTANT]
    >
    >タスクを手動で保存する際に、タスクを一括編集することはできません。
 
 1. タスク リストで複数のタスクを選択します。
-1. **編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。 **タスクを編集**&#x200B;ダイアログボックスが開きます。
+1. **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。 **タスクを編集**&#x200B;ダイアログボックスが開きます。
 
 1. 選択したすべてのタスクに対して変更する情報を指定します。
 
@@ -538,4 +538,4 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    -->
 1. 「**変更を保存**」をクリックします。これで、行ったすべての変更が、選択したすべてのタスクに表示されます。
 
-カスタムフォームの一括編集について詳しくは、「[ オブジェクトに添付されたカスタムフォームの管理 ](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)」を参照してください。
+カスタムフォームの一括編集について詳しくは、「[&#x200B; オブジェクトに添付されたカスタムフォームの管理 &#x200B;](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)」を参照してください。
