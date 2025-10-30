@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 70%
@@ -50,6 +50,8 @@ ht-degree: 70%
 
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
++++
+
 ## [!DNL Workfront for AEM Assets]
 
 [!DNL Workfront for AEM Assets connector] により、組織は次の操作を実行できます。
@@ -69,16 +71,16 @@ ht-degree: 70%
 
 ## [!DNL AEM Assets] コネクタをインストールするための前提条件
 
-[!DNL Workfront]AEM Assets[!UICONTROL &#x200B; の &#x200B;] コネクタをインストールする前に、次の前提条件が満たされていることを確認してください。
+[!DNL Workfront]AEM Assets[!UICONTROL  の ] コネクタをインストールする前に、次の前提条件が満たされていることを確認してください。
 
-* [!UICONTROL AEM Assets] は、バージョン 6.5 以降でインストールおよび設定されています。 [!UICONTROL AEM Assets] のインストールについては、[[!DNL Adobe Experience Manager]  ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager)を参照してください。
+* [!UICONTROL AEM Assets] は、バージョン 6.5 以降でインストールおよび設定されています。 [!UICONTROL AEM Assets] のインストールについては、[[!DNL Adobe Experience Manager]  ドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager)を参照してください。
 * （条件付き）ファイアウォールのルールが期待どおりにトラフィックを許可しない場合は、クラスターの IP アドレスやドメインを許可リストに追加します。詳しくは、[ファイアウォールの許可リストの設定](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
 
 ## [!DNL Workfront for AEM Assets] コネクタパッケージのインストール {#install-the-workfront-for-aem-assets-connector-package}
 
 >[!IMPORTANT]
 >
->以下の手順は、[!DNL Workfront with AEM Assets] 拡張コネクタ [[!DNL Workfront for Experience Manager]  に置き換えられた &#x200B;](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) しい従来のコネクタを対象としています。 詳しくは、アカウント担当者にお問い合わせください。
+>以下の手順は、[!DNL Workfront with AEM Assets] 拡張コネクタ [[!DNL Workfront for Experience Manager]  に置き換えられた ](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) しい従来のコネクタを対象としています。 詳しくは、アカウント担当者にお問い合わせください。
 
 [!DNL Workfront for AEM Assets] コネクタをインストールするには、[!UICONTROL CRX パッケージマネージャー] を使用して、コネクタをパッケージとして AEM に読み込む必要があります。
 
@@ -102,15 +104,15 @@ ht-degree: 70%
    Package installed in <time>
    ```
 
-1. [!UICONTROL CRX パッケージマネージャー &#x200B;] を閉じます。 コネクタがインストールされ、[!DNL Workfront] と統合するように [!DNL AEM Assets] を設定できるようになりました。
+1. [!UICONTROL CRX パッケージマネージャー ] を閉じます。 コネクタがインストールされ、[!DNL Workfront] と統合するように [!DNL AEM Assets] を設定できるようになりました。
 
-1. [&#x200B; [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) と統合する  [!DNL AEM Assets]  の設定に進みます。
+1. [ [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) と統合する  [!DNL AEM Assets]  の設定に進みます。
 
 ## [!DNL Workfront] と統合する [!DNL AEM Assets] の設定 {#configure-aem-assets-to-integrate-with-workfront}
 
 コネクタをインストールした後、コネクタパッケージを AEM に読み込みし、[!DNL Workfront] 内のドキュメントとリンクするように AEM を設定します。
 
-コネクタのインストールについて詳しくは、[&#x200B; [!DNL Workfront for AEM Assets]  コネクタパッケージのインストール](#install-the-workfront-for-aem-assets-connector-package)を参照してください。
+コネクタのインストールについて詳しくは、[ [!DNL Workfront for AEM Assets]  コネクタパッケージのインストール](#install-the-workfront-for-aem-assets-connector-package)を参照してください。
 
 * [前提条件](#prerequisites)
 * [AEM の  [!DNL Workfront] との統合](#integrate-aem-with-workfront)
@@ -235,13 +237,13 @@ ht-degree: 70%
    ![[!DNL Extenalizer].png](assets/extenalizer-350x128.png)
 
 1. （条件付き）必要に応じて、「**[!UICONTROL 作成者]**」フィールドのドメインを更新します。
-1. 「**[!UICONTROL 保存]**」をクリックします。ドキュメントを [!UICONTROL &#x200B; とリンクするように &#x200B;]0&rbrace;AEM Assets&rbrace; が構成されました。[!DNL Workfront]
+1. 「**[!UICONTROL 保存]**」をクリックします。ドキュメントを [!UICONTROL  とリンクするように ]0}AEM Assets} が構成されました。[!DNL Workfront]
 
-1. [&#x200B; [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets) と統合する  [!DNL Workfront]  の設定を続行します。
+1. [ [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets) と統合する  [!DNL Workfront]  の設定を続行します。
 
 ## [!DNL AEM assets] と統合する [!DNL Workfront] の設定 {#configure-workfront-to-integrate-with-aem-assets}
 
-AEM Assets[!UICONTROL &#x200B; コネクタ用の &#x200B;]Workfront（[AEM Assets用の [!UICONTROL Workfront] コネクタパッケージのインストール &#x200B;](#install-the-workfront-for-aem-assets-connector-package) を参照）および [!UICONTROL AEM Assets] [&#x200B; （[!UICONTROL &#x200B; と連携するための &#x200B;]AEM Assets [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) の設定を参照）をインストールしたら、[!DNL Workfront] と [!DNL Workfront] の間でドキュメントをリンクするように [!DNL AEM Assets] を設定する必要があります。
+AEM Assets[!UICONTROL  コネクタ用の ]Workfront（[AEM Assets用の [!UICONTROL Workfront] コネクタパッケージのインストール ](#install-the-workfront-for-aem-assets-connector-package) を参照）および [!UICONTROL AEM Assets] [ （[!UICONTROL  と連携するための ]AEM Assets [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) の設定を参照）をインストールしたら、[!DNL Workfront] と [!DNL Workfront] の間でドキュメントをリンクするように [!DNL AEM Assets] を設定する必要があります。
 
 1. 管理者としてWorkfrontにログインします。
 
@@ -251,7 +253,7 @@ AEM Assets[!UICONTROL &#x200B; コネクタ用の &#x200B;]Workfront（[AEM Asse
 
 {{step-1-to-setup}}
 
-1. **[!UICONTROL ドキュメント]**/**[!UICONTROL カスタム統合 &#x200B;].** をクリックします。
+1. **[!UICONTROL ドキュメント]**/**[!UICONTROL カスタム統合 ].** をクリックします。
 
 1. 「**[!UICONTROL カスタム統合を追加]**」をクリックします。
 1. 「**[!UICONTROL 名前]**」ボックスに、カスタム統合の名前を入力します。
@@ -281,7 +283,7 @@ AEM Assets[!UICONTROL &#x200B; コネクタ用の &#x200B;]Workfront（[AEM Asse
 
 [!DNL Workfront] 権限について詳しくは、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
-* [&#x200B; [!DNL AEM assets] でのユーザーの設定](#set-up-users-in-aem-assets)
+* [ [!DNL AEM assets] でのユーザーの設定](#set-up-users-in-aem-assets)
 
 ### [!DNL AEM assets] でのユーザーの設定 {#set-up-users-in-aem-assets}
 
@@ -307,7 +309,7 @@ AEM Assets[!UICONTROL &#x200B; コネクタ用の &#x200B;]Workfront（[AEM Asse
 
 1. 「**[!UICONTROL グループ]**」タブをクリックします。
 
-   ![&#x200B; 「グループ」タブ &#x200B;](assets/groupstab.png)
+   ![ 「グループ」タブ ](assets/groupstab.png)
 
 1. **[!UICONTROL 作成]**&#x200B;権限と&#x200B;**[!UICONTROL 削除]**&#x200B;権限を含むアクセスレベルを持つ 1 つ以上の [!DNL Workfront] グループにユーザーが属していることを確認してください。
 
