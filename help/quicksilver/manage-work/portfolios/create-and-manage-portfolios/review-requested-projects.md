@@ -58,7 +58,7 @@ ht-degree: 76%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -91,7 +91,7 @@ ht-degree: 76%
 
 プロジェクトレポートを作成して、[!UICONTROL リクエスト済み]のステータスを持つプロジェクトを表示できます。
 
-プロジェクト報告書を作成してプロジェクト要求を承認する方法の詳細については、[[!UICONTROL  プロジェクト報告書の作成によるビジネス ケースの承認 ]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) の [ ビジネス ケースの承認 ](../../../manage-work/projects/define-a-business-case/approve-business-case.md) を参照してください。
+プロジェクト報告書を作成してプロジェクト要求を承認する方法の詳細については、[[!UICONTROL &#x200B; プロジェクト報告書の作成によるビジネス ケースの承認 &#x200B;]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) の [&#x200B; ビジネス ケースの承認 &#x200B;](../../../manage-work/projects/define-a-business-case/approve-business-case.md) を参照してください。
 
 ## ポートフォリオ内でリクエストされたプロジェクトをレビュー
 
@@ -109,7 +109,7 @@ ht-degree: 76%
 1. 左側のパネルの「**[!UICONTROL プロジェクト詳細]**」をクリックします。
 1. 以下の操作のいずれかを行います。
 
-   * **[!UICONTROL ビジネスケース]** をクリックし、「**[!UICONTROL ビジネスケースの概要]** 領域の「**[!UICONTROL 承認]** または [!UICONTROL  却下 ] をクリックして、ビジネスケースを承認または却下します。
+   * **[!UICONTROL ビジネスケース]** をクリックし、「**[!UICONTROL ビジネスケースの概要]** 領域の「**[!UICONTROL 承認]** または [!UICONTROL &#x200B; 却下 &#x200B;] をクリックして、ビジネスケースを承認または却下します。
 
      ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 
@@ -125,7 +125,7 @@ ht-degree: 76%
 
    * **[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューで、プロジェクトのステータスを他のステータスに変更します。
 
-     ![ ドロップダウンからのプロジェクトステータスの変更 ](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![&#x200B; ドロップダウンからのプロジェクトステータスの変更 &#x200B;](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
 
 
 

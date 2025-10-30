@@ -22,7 +22,7 @@ ht-degree: 76%
 
 このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+詳しくは、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 </div>
 
@@ -123,13 +123,13 @@ ht-degree: 76%
 
    イシューが既に割り当てられている場合は、現在の割り当ての名前をクリックします。
 
-   ![ 割り当て先ボタン ](assets/assign-to-button-in-header.png)
+   ![&#x200B; 割り当て先ボタン &#x200B;](assets/assign-to-button-in-header.png)
 
 1. 次のいずれかの操作を行います。
 
    * 割り当てるユーザー、役割、またはチームの名前を入力し、リストに表示されたらクリックします。
 
-     ![ 割り当て検索 ](assets/smart-assignments-issue-header.png)
+     ![&#x200B; 割り当て検索 &#x200B;](assets/smart-assignments-issue-header.png)
 
    * （条件付き）使用可能なリストの名前、役割、チームのいずれかをクリックします
    * 「**自分に割り当て**」をクリックして、自分に割り当てる
@@ -172,11 +172,11 @@ ht-degree: 76%
 
    * 「**割り当て先**」または「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザーの名前の入力を開始し、リストに表示されたらクリックします。
 
-     ![ 割り当て先フィールド ](assets/assigned-to-field-task-list-nwe.png)
+     ![&#x200B; 割り当て先フィールド &#x200B;](assets/assigned-to-field-task-list-nwe.png)
 
    * 「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザー、担当業務、またはアクティブなチームの名前の入力を開始し、リストに表示されたらクリックします。
 
-     ![ 割り当てフィールド ](assets/assignments-field-0825.png)
+     ![&#x200B; 割り当てフィールド &#x200B;](assets/assignments-field-0825.png)
 
    >[!TIP]
    >
@@ -186,7 +186,7 @@ ht-degree: 76%
    >
    >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
-1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン** ![ 人物アイコン ](assets/teams.png) をクリックして、「詳細な割り当て」ボックスを開き、詳細な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
+1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン** ![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、「詳細な割り当て」ボックスを開き、詳細な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
    >[!TIP]
    >
@@ -198,7 +198,7 @@ ht-degree: 76%
 
 イシューは、「イシューを編集」ボックスで編集するときに割り当てることができます。
 
-詳しくは、「イシューの編集 [ の「割り当て ](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) の節を参照してください。
+詳しくは、「イシューの編集 [&#x200B; の「割り当て &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) の節を参照してください。
 
 ## 一括でイシューを割り当てる
 
@@ -208,7 +208,7 @@ ht-degree: 76%
 
 1. 一括で割り当てるイシューのリストに移動します。
 1. リストから複数のイシューを選択します。
-1. **編集アイコン**![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
+1. **編集アイコン**![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
 
    **問題を編集**&#x200B;ダイアログボックスが開きます。
 
@@ -235,7 +235,7 @@ ht-degree: 76%
 
 1. 一括で割り当てるイシューのリストに移動します。
 1. リストから複数のイシューを選択します。
-1. **編集アイコン**![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
+1. **編集アイコン**![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
 
    **イシューを編集**&#x200B;ダイアログボックスが開きます。
 
@@ -251,7 +251,7 @@ ht-degree: 76%
 
 1. （任意）既存の担当者をすべてのイシューから削除する場合は、名前の横にある **x** をクリックします。
 
-1. （任意）「予定時間数」フィールドを更新します。 詳しくは、[ イシューの編集 ](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) を参照してください。
+1. （任意）「予定時間数」フィールドを更新します。 詳しくは、[&#x200B; イシューの編集 &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) を参照してください。
 
 1. 「**保存**」をクリックします。
 1. （オプションおよび条件付き）イシューのリストに「割り当て先」フィールドまたは「割り当て」フィールドが表示されたら、イシューのこれらの列のいずれかの内側をクリックし、担当者の名前の横にある「**X アイコン**」をクリックして、イシューから削除します。
