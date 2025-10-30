@@ -8,18 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 71%
+source-wordcount: '614'
+ht-degree: 66%
 
 ---
 
 # レイアウトテンプレートを使用して詳細ビューをカスタマイズする
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+{{preview-fast-release-general}}
 
-Adobe Workfront管理者は、レイアウトテンプレートを使用して、タスク、イシュー、ドキュメント、プログラム、ポートフォリオを表示している際に、左側のパネルの詳細アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/project-details-icon.png) をクリックしたときに表示される情報を指定できます。
+Adobe Workfront管理者は、レイアウトテンプレートを使用して、タスク、イシュー、ドキュメント、プログラム、ポートフォリオを表示している際に、左側のパネルの詳細アイコン ![ 詳細アイコン ](assets/project-details-icon.png) をクリックしたときに表示される情報を指定できます。
 
 <!--
 or billing record
@@ -38,22 +38,22 @@ or billing record
 
 * 「オブジェクトを作成」ボックス（「タスクを作成」など）
 
-  ![&#x200B; 新規タスクダイアログ &#x200B;](assets/new-task-dialog.png)
+  ![ 新規タスクダイアログ ](assets/new-task-dialog.png)
 
 
 * タスクを編集、イシューを編集、プロジェクトを編集など、オブジェクトの編集時の「オブジェクトを編集」画面
 
-  ![&#x200B; タスクを編集画面 &#x200B;](assets/edit-task-screen.png)
+  ![ タスクを編集画面 ](assets/edit-task-screen.png)
 
 
 * オブジェクトを一括編集する際の「オブジェクトを編集」画面。現在、これはプロジェクトの一括編集でサポートされています。
 
-  ![&#x200B; プロジェクトの編集のカスタマイズ &#x200B;](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![ プロジェクトの編集のカスタマイズ ](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* タスクおよび問題のリストの概要パネル ![&#x200B; 概要パネル &#x200B;](assets/summary-panel-icon.png)
+* タスクおよび問題のリストの概要パネル ![ 概要パネル ](assets/summary-panel-icon.png)
 
-  ![&#x200B; 概要領域 &#x200B;](assets/summary-area.png)
+  ![ 概要領域 ](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -98,28 +98,34 @@ or billing record
 ## 詳細ビューでユーザーに表示する項目をカスタマイズする
 
 1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
-1. ![&#x200B; ユーザーに表示するものをカスタマイズ &#x200B;](assets/dropdown-arrow-12x12.png) の下の下向き矢印 **下向き矢印** をクリックし、**プロジェクト**、**タスク**、**イシュー**、**プログラム**、**Portfolio** のいずれかをクリックします。
+1. ![ ユーザーに表示するものをカスタマイズ ](assets/dropdown-arrow-12x12.png) の下の下向き矢印 **下向き矢印** をクリックし、**プロジェクト**、**タスク**、**イシュー**、**プログラム**、**Portfolio** のいずれかをクリックします。
 <!--
 , or billing record
 -->
 
 1. 「**詳細**」セクションで、次のいずれかの操作を行って、詳細ビューに表示する項目をカスタマイズします。
 
-   * セクションヘッダー ![&#x200B; 移動アイコン &#x200B;](assets/move-icon---dots.png) をドラッグして、順序を変更します。
-   * 様々な領域（「概要」 **、「財務**、「カスタムForms **&#x200B;**&#x200B;など **の下にあるオプションを有効または無効にして、表示と非表示を切り替** ます。
+   * セクションヘッダー ![ 移動アイコン ](assets/move-icon---dots.png) をドラッグして、順序を変更します。
+   * 様々な領域（「概要」 **、「財務**、「カスタムForms **** など **の下にあるオプションを有効または無効にして、表示と非表示を切り替** ます。
 
      これらのセクションの 1 つですべてのフィールドを非表示にした場合、セクション全体が非表示になります。
 
      すべてのフィールドは、デフォルトで有効になっています。 ある領域の **すべてを選択** チェックボックスをオンまたはオフにして、その領域のすべてのフィールドを表示または非表示にすることができます。
 
-   ![&#x200B; レイアウトテンプレートの詳細ビュー &#x200B;](assets/layout-template-details-view.png)
+   ![ レイアウトテンプレートの詳細ビュー ](assets/layout-template-details-view.png)
 
-1. 引き続きレイアウトテンプレートをカスタマイズします。
+1. <span class="preview"> プレビュー環境の場合：レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。</span>
+
+   <span class="preview">または</span>
+
+   <span class="preview"> カスタマイズが終了したら、「**保存して閉じる** をクリックします。</span>
+
+1. 実稼動環境の場合：レイアウトテンプレートのカスタマイズを続行します。
 
    または
 
-   カスタマイズが完了したら、「**保存**」をクリックします。
+   カスタマイズが終了したら、「**保存**」をクリックします。
 
    >[!TIP]
    >
-   >いつでも「保存」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
+   >いつでも「**保存**」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。

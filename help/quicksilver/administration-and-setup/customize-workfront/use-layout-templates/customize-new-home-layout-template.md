@@ -4,20 +4,22 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: レイアウトテンプレートを使用すると、Adobe Workfrontでホームを開いたときに表示される内容を設定できます。
-author: Lisa
+author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 36%
+source-wordcount: '862'
+ht-degree: 35%
 
 ---
 
 # レイアウトテンプレートを使用したホームのカスタマイズ
 
-レイアウトテンプレートを使用すると、ユーザーが最初にホームを開いたときに表示される内容を設定できます。
+{{preview-fast-release-general}}
+
+レイアウトテンプレートを使用して、ユーザーが最初にホームを開いたときに表示される内容を設定できます。
 
 以下を設定できます。
 
@@ -31,7 +33,7 @@ ht-degree: 36%
 > 
 >管理者は、ユーザーに新しいウィジェットを追加できます。 ただし、エンドユーザーが既にウィジェットの順序や背景の選択をカスタマイズしている場合、それらの特定のカスタマイズは変更されません。
 
-ホームについては、[&#x200B; ホームの基本を学ぶ &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
+ホームについては、[ ホームの基本を学ぶ ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
 
 レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -134,11 +136,11 @@ ht-degree: 36%
    >
    >* [ フィルタ ]、[ 列 ]、および [ グループ ] オプションは、レイアウト テンプレートのリスト カスタマイズ オプションにリンクされています。 ここで行った変更は、これらの設定にも適用されます。
    >* 管理者カラムの構成をホーム ページに適切に適用するには、ユーザーに少なくともビューへの作成アクセス権が必要です。
-   ></p>
-   >   <li><p>オプションの上にマウスポインターを置いて、「デフォルトとして設定 <b> をクリックして、ウィジェットのデフォルトのフィルターまたはグループを設定し </b> す。 現在のデフォルトでは、右側に青い <b> デフォルト </b> バッジが表示されます。</p></li>
-   >   <li><p>各リストの下部にあるプラス記号ボタンをクリックして、使用可能なオプションのリストに既存のフィルター、列またはグループを追加し、そのリストにオプションを追加します。 この方法で追加できるのは、既存のフィルター、フィールド（カラム用）、グループのみであることに注意してください。</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>オプションの上にマウスポインターを置いて、「デフォルトとして設定 <b> をクリックして、ウィジェットのデフォルトのフィルターまたはグループを設定し </b> す。 現在のデフォルトでは、右側に青い <b> デフォルト </b> バッジが表示されます。</p></li>
+      <li><p>各リストの下部にあるプラス記号ボタンをクリックして、使用可能なオプションのリストに既存のフィルター、列またはグループを追加し、そのリストにオプションを追加します。 この方法で追加できるのは、既存のフィルター、フィールド（カラム用）、グループのみであることに注意してください。</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >
@@ -150,7 +152,13 @@ ht-degree: 36%
       </tbody> 
       </table>
 
-1. 引き続きレイアウトテンプレートをカスタマイズします。
+1. <span class="preview"> プレビュー環境の場合：レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。</span>
+
+   <span class="preview">または</span>
+
+   <span class="preview"> カスタマイズが終了したら、「**保存して閉じる** をクリックします。</span>
+
+1. 実稼動環境の場合：レイアウトテンプレートのカスタマイズを続行します。
 
    または
 

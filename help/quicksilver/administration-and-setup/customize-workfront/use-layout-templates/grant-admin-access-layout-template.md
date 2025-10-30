@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 95%
+source-wordcount: '423'
+ht-degree: 90%
 
 ---
 
 # レイアウトテンプレートの管理アクセス権の付与
+
+{{preview-fast-release-general}}
 
 Adobe Workfront 管理者は、特定のグループのグループ管理者にレイアウトテンプレートの管理者アクセス権を付与して、テンプレートを編集できるようにすることができます。これは、グループ内のユーザーにはテンプレートは割り当てるものではありません。
 
@@ -69,4 +71,4 @@ Adobe Workfront 管理者は、特定のグループのグループ管理者に�
    >   
    >* 特定のグループ内のグループ管理者に管理アクセス権を付与しない場合、ユーザーアカウントを編集できるすべてのユーザーが、レイアウトテンプレートに対する管理アクセス権を持ちます。Workfront 管理者によっては、レイアウトテンプレートをシステムレベルのレイアウトテンプレートにするために、レイアウトテンプレートに対する管理アクセス権を付与しないことを意図的に選択している場合があります。
 
-1. いつでも「**保存**」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
+1. 「<span class="preview">**適用**</span>」または **保存** をクリックして進行状況を保存し、後でテンプレートの変更を続行できます。

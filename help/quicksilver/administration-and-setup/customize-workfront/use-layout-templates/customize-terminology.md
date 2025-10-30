@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 91%
+source-wordcount: '659'
+ht-degree: 86%
 
 ---
 
 # レイアウトテンプレートを使用したユーザーインターフェイスの用語のカスタマイズ
+
+{{preview-fast-release-general}}
 
 Adobe Workfront 管理者は、レイアウトテンプレートを使用して、Workfront 全体に表示される一部のオブジェクトのラベルを組織で使用されている用語に合わせて変更できます。
 
@@ -79,7 +81,7 @@ Adobe Workfront 管理者は、レイアウトテンプレートを使用して�
 1. ページの右上隅付近にある「**用語の設定**」をクリックします。
 1. 次のいずれかの操作を行います。
 
-   * Workfrontが提供する別の用語を使用するには、ラベルの横の下向き矢印 ![&#x200B; 下向き矢印 &#x200B;](assets/dropdown-arrow.png) をクリックし、ドロップダウン リストで必要なラベルをクリックします。
+   * Workfrontが提供する別の用語を使用するには、ラベルの横の下向き矢印 ![ 下向き矢印 ](assets/dropdown-arrow.png) をクリックし、ドロップダウン リストで必要なラベルをクリックします。
 
      >[!NOTE]
      >
@@ -137,7 +139,13 @@ Adobe Workfront 管理者は、レイアウトテンプレートを使用して�
    >
    >完了をクリックした後（レイアウトテンプレートを保存した後）で、いつでも用語の設定の設定に戻り、カスタム用語の横にあるリセットをクリックしてデフォルト設定に戻すことができます。
 
-1. 引き続きレイアウトテンプレートをカスタマイズします。
+1. <span class="preview"> プレビュー環境の場合：レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。</span>
+
+   <span class="preview">または</span>
+
+   <span class="preview"> カスタマイズが終了したら、「**保存して閉じる** をクリックします。</span>
+
+1. 実稼動環境の場合：レイアウトテンプレートのカスタマイズを続行します。
 
    または
 

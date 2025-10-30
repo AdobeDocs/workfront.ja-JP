@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 93%
+source-wordcount: '564'
+ht-degree: 87%
 
 ---
 
 # レイアウトテンプレートを使用した Adobe Workfront のブランディング
 
 <!--Audited: 09/2024-->
+
+{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -68,7 +70,7 @@ ht-degree: 93%
 ## レイアウトテンプレートを使用した Adobe Workfront のブランディング
 
 1. [レイアウトテンプレートを作成および管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されているように、レイアウトテンプレートの使用を開始します。
-1. ![&#x200B; ユーザーの表示項目をカスタマイズ &#x200B;](assets/dropdown-arrow.png) の下の下向き矢印 **下向き矢印** をクリックし、「**ブランディング**」をクリックします。
+1. ![ ユーザーの表示項目をカスタマイズ ](assets/dropdown-arrow.png) の下の下向き矢印 **下向き矢印** をクリックし、「**ブランディング**」をクリックします。
 1. このレイアウトテンプレートが割り当てられているユーザー向けに、ブランディングイメージを使用して Workfront をカスタマイズするには、次のいずれかの変更を行います。
 
    <table style="table-layout:auto"> 
@@ -86,16 +88,20 @@ ht-degree: 93%
     </tbody> 
    </table>
 
-1. 引き続きレイアウトテンプレートをカスタマイズします。
+1. <span class="preview"> プレビュー環境の場合：レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。</span>
+
+   <span class="preview">または</span>
+
+   <span class="preview"> カスタマイズが終了したら、「**保存して閉じる** をクリックします。</span>
+
+1. 実稼動環境の場合：レイアウトテンプレートのカスタマイズを続行します。
 
    または
 
-   カスタマイズが完了したら、「**保存**」をクリックします。
+   カスタマイズが終了したら、「**保存**」をクリックします。
 
    >[!TIP]
    >
-   >いつでも「保存」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
+   >いつでも「**保存**」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
 
-1. 「**保存**」をクリックします。
-
-レイアウトテンプレートについて詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
+レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
