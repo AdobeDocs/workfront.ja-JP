@@ -23,10 +23,10 @@ ht-degree: 22%
 >[!NOTE]
 >
 >プレビュー：2025 年 10 月 30 日（PT）
->>実稼動高速リリース：2025 年 10 月 30 日（PT）\
+>&#x200B;>実稼動高速リリース：2025 年 10 月 30 日（PT）\
 >すべてのユーザー向けの実稼動：2025 年 10 月 30 日（PT）
 
 これで、Experience Manager Assetsを使用して、&#x200B;レビューと承認のサイクルを経たデジタルアセットを管理および保存できます。 この統合により、Adobe Experience Manager、Frame.io、Workfrontの機能を活用して、コンテンツ管理や共同作業のプロセスを合理化できます。
 
-詳しくは、[Adobe Experience Managerを Frame.io 統合環境で使用する ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md) を参照してください。
+詳しくは、[Adobe Experience Managerを Frame.io 統合環境で使用する &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md) を参照してください。
 
