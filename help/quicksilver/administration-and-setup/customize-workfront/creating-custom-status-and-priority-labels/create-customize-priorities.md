@@ -5,16 +5,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '725'
 ht-degree: 43%
 
 ---
 
 # 優先度の作成とカスタマイズ
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。これはプレビューサンドボックス環境でのみ使用でき、実稼動環境への段階的なロールアウトでリリースされています。</span>
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -57,11 +55,11 @@ Workfront 管理者は、Workfront で提供されるデフォルトの優先度
 * 優先度の名前を変更する。
 * 優先度を並べ替える。
 
-  優先度の並べ替え方法の詳細については、「[&#x200B; プロジェクト、タスク、イシューの優先度を作成する &#x200B;](#create-a-priority-for-a-project-task-or-issue)」を参照してください。
+  優先度の並べ替え方法の詳細については、「[ プロジェクト、タスク、イシューの優先度を作成する ](#create-a-priority-for-a-project-task-or-issue)」を参照してください。
 
 * デフォルトの優先度を変更する。
 
-  デフォルトの優先度を変更する機能の詳細については、[&#x200B; プロジェクト、タスク、イシューの優先度を作成する &#x200B;](#create-a-priority-for-a-project-task-or-issue) を参照してください。
+  デフォルトの優先度を変更する機能の詳細については、[ プロジェクト、タスク、イシューの優先度を作成する ](#create-a-priority-for-a-project-task-or-issue) を参照してください。
 
 * 優先度の説明を編集する。
 * 各優先度に色を設定する。
@@ -76,7 +74,7 @@ Workfront 管理者は、Workfront で提供されるデフォルトの優先度
 
 * 優先度を非表示にする。
 
-  優先度を非表示にする機能の詳細については、[&#x200B; プロジェクト、タスク、イシューの優先度を作成する &#x200B;](#create-a-priority-for-a-project-task-or-issue) を参照してください。
+  優先度を非表示にする機能の詳細については、[ プロジェクト、タスク、イシューの優先度を作成する ](#create-a-priority-for-a-project-task-or-issue) を参照してください。
 
   >[!NOTE]
   >
@@ -99,7 +97,7 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
 1. 左側のパネルで、**プロジェクト環境設定**／**優先度**&#x200B;をクリックします。
 
 1. 優先度を作成するオブジェクトタイプのタブをクリックします（**プロジェクト**、**タスク**&#x200B;または&#x200B;**イシュー**）。
-1. テーブルの下部にある <span class="preview">**新しい行** または </span>**新しい優先度の追加** をクリックします。
+1. テーブルの下部にある「**新しい行**」をクリックします。
 1. 優先度に関して次のオプションを設定します。
 
    * **優先度名**：優先度の名前を入力します。
@@ -111,7 +109,7 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
 
    * **カラー**：優先度の色を選択します。
 
-     優先度の色は、グラフレポートとアジャイルチーム設定で使用されます。グラフレポートについて詳しくは、[&#x200B; レポートへのグラフの追加 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) を参照してください。 アジャイルチームの設定について詳しくは、[&#x200B; アジャイルチームの作成 &#x200B;](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) を参照してください。
+     優先度の色は、グラフレポートとアジャイルチーム設定で使用されます。グラフレポートについて詳しくは、[ レポートへのグラフの追加 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) を参照してください。 アジャイルチームの設定について詳しくは、[ アジャイルチームの作成 ](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) を参照してください。
 
    * **デフォルトの優先度**：新しく作成したすべてのプロジェクト、タスクまたはイシューにWorkfrontで自動適用する優先度を選択します。
 
@@ -119,19 +117,15 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
 
      非表示の優先度をデフォルトにすることはできません。
 
-     <div class="preview">
-
-     デフォルトの優先度は、アイコン ![&#x200B; デフォルトの優先度アイコン &#x200B;](assets/default-icon.png) で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
+     デフォルトの優先度は、アイコン ![ デフォルトの優先度アイコン ](assets/default-icon.png) で示されます。 新しいデフォルトを選択するには、次のいずれかの操作を行います。
 
       * 優先度名の横にあるチェックボックスをオンにし、画面の下部にあるアクションバーで「**デフォルトにする**」を選択します。
       * 優先度名の上にマウスポインターを置き、表示される **詳細** メニューをクリックします。 次に、「**デフォルトにする** を選択します。
 
         新しいデフォルトの優先度には、アイコンのラベルが付いています。
 
-     </div>
-
    * **説明**：優先度の機能を説明する説明を入力します。
-   * <span class="preview">**選択肢を非表示**</span> または **非表示**: <span class="preview"> 選択 **はい**</span> またはチェックボックスをオンにして、不要になった優先度を非表示にします。
+   * **選択肢を非表示**：不要になった優先度を非表示にするには、「**はい**」を選択します。
 
      非表示の優先度は、Workfrontのどこにも表示されないので、ユーザーはプロジェクト、タスク、イシューに対して選択できません。
 
