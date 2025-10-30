@@ -6,14 +6,16 @@ description: Adobe Workfront は、2025年10月23日（PT）に API バージョ
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
+source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '893'
 ht-degree: 85%
 
 ---
 
 # API バージョン 21 の新機能
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 Adobe Workfront は、2025年10月23日（PT）に API バージョン 21 をリリースしました。API バージョン 21 では、バージョン 20 から次の変更が行われました。
 
@@ -673,6 +675,42 @@ Rate オブジェクトは、Workfront の請求料金を表します。
     </tr>
   </tbody>
 </table>
+
+### Role（ROLE）
+
+Role オブジェクト（担当業務）は、デザイナーやプロダクトマネージャーなど、ユーザーが入力できる機能またはスキルセットを表します。
+
+<div class="preview">
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">直接フィールド</td>
+      <td>
+        <ul>
+          <li>
+            <p><b> 通貨を上書き </b>
+            </p>
+            <p>削除されました</p>
+              </li>
+          <li>
+            <p><b> コスト率を上書き </b>
+            </p>
+            <p>削除されました</p>
+              </li>
+          <li>
+            <p><b> 請求レートの上書き </b>
+            </p>
+            <p>削除されました</p>
+              </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ### スケジュール済みレポート （SCHREP）
 
