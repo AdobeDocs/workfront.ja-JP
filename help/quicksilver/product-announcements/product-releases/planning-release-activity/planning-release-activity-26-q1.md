@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ac079ad7cb4b696cb54ff5ad8ff34940d0d62913
+source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 2%
@@ -19,7 +19,22 @@ ht-degree: 2%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+
+<!--## New field search box in the Filters, Fields, and Row colors icons in Planning views
+
+>[!NOTE]
+>
+>Preview: October 30, 2025 
+>Production fast release: November 13, 2025 
+>Production for everyone:  January 15, 2026 
+
+
+You can now search for a specific field when building a view element in record type view. The new search boxes have been added when you build a filter, sort, grouping, or when you configure your fields or row colors. Prior to this enhancement, you could simply scroll through the list of available fields.
+This improvement is available in all views.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).-->
 
 
 ## グローバルレコードタイプと、既存のレコードタイプとして他のワークスペースに追加する機能
@@ -27,8 +42,8 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 >[!NOTE]
 >
 >プレビュー：2025 年 10 月 16 日（PT）
->&#x200B;>実稼動高速リリース：2025 年 11 月 13 日（PT）
->&#x200B;>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
+>>実稼動高速リリース：2025 年 11 月 13 日（PT）
+>>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
 
 共通のワークフローを持つマルチチーム組織にWorkfront プランニングを実装する場合、各チームのワークスペースに追加できる主要なレコードタイプ（キャンペーンや成果物など）の包括的な構造とメタデータを定義して、チームの作業をキャプチャおよび管理する必要がある場合があります。
 
@@ -40,9 +55,9 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 
 詳しくは、次の記事を参照してください。
 
-* [&#x200B; クロスワークスペースレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [ クロスワークスペースレコードタイプの概要 ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
-* [&#x200B; レコードタイプのワークスペース間機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [ レコードタイプのワークスペース間機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
 * [別のワークスペースからの既存のレコードタイプの追加](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 
@@ -51,22 +66,22 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 >[!NOTE]
 >
 >プレビュー：2025 年 10 月 16 日（PT）
->&#x200B;>実稼動高速リリース：2025 年 11 月 13 日（PT）
->&#x200B;>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
+>>実稼動高速リリース：2025 年 11 月 13 日（PT）
+>>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
 
 各レコードタイプに対して 30 個の接続フィールドという制限が導入されました。
 
 注意：現在、組織に 1 つのレコードタイプに対して 30 を超える接続フィールドがある場合は、30 の制限を超える追加フィールドを保持できます。 ただし、制限を超えるレコードタイプに接続フィールドを追加することはできません。 今後、新しい制限の 30 個の接続フィールドが適用されます。
 
-詳しくは、[&#x200B; 接続されたレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
 ## 選択タイプのフィールドの選択肢に対して、ユーザーにわかりやすい値を設定します
 
 >[!NOTE]
 >
 >プレビュー：2025 年 10 月 16 日（PT）
->&#x200B;>実稼動高速リリース：2025 年 11 月 13 日（PT）
->&#x200B;>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
+>>実稼動高速リリース：2025 年 11 月 13 日（PT）
+>>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
 
 フィールドの選択肢を 1 つまたは複数選択のフィールドに追加する際に、Workfrontで、各選択肢に一意のわかりやすい値を割り当てるようになりました。 この機能向上が行われる前は、Workfrontが生成した英数字の ID は、API 呼び出しやその他の統合環境では理解および使用が困難でした。
 

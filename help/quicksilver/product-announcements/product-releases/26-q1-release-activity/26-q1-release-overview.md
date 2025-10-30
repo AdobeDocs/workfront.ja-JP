@@ -4,10 +4,10 @@ description: このページでは、2026 年第 1 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: faaea3fef9be0fb03c2ed4991bad575f23b08559
+source-git-commit: 1c4f81babf6cdc6579fa633c1a776c151219a6bf
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 29%
+source-wordcount: '1268'
+ht-degree: 22%
 
 ---
 
@@ -37,6 +37,88 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront の機能強化
 
+* [管理者機能の強化](#administrator-enhancements)
+* [ドキュメントと承認の機能強化](#documents-and-approvals-enhancements)
+* [その他の機能強化](#other-enhancements)
+
+### 管理者機能の強化
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> レイアウトテンプレート編集時のボタン名の更新 </a>
+            <p>カスタムフォームデザイナーなど、設定の他の領域との一貫性を高めるために、レイアウトテンプレートの編集時に表示されるボタンを、適用、保存して閉じる、キャンセルなどに変更しました。 新しいオプション「適用」を使用すると、レイアウトテンプレートに対する変更を保存して、編集を続行できます。 以前は、使用可能なオプションは「保存」と「キャンセル」でした。 </p>
+        </td>
+        <td>2025年10月30日（PT）</td>
+        <td>2025年11月13日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> カスタムフィールドのアクティブフラグにより、フィールド管理が向上しました </a>
+            <p>システムに多数のカスタムフィールドがある場合、カスタムフォームやレポートでこれらのフィールドを管理するのは難しい場合があります。 新しい <b> アクティブ </b> フラグを使用して、カスタムフィールドを非アクティブとしてマークできるようになりました。 このフラグは、カスタム フォーム上のフィールドで作業する場合や、[ フィールド ] ボックスの一覧からフィールドを追加または編集する場合に使用できます。 </p>
+        </td>
+        <td>2025年10月30日（PT）</td>
+        <td>2025年11月13日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+    </tr>   
+  </tbody>
+</table>
+
+### ドキュメントと承認の機能強化
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Managerが Frame.io 統合で利用できるようになりました <p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>これで、Experience Manager Assetsを使用して、​レビューと承認のサイクルを経たデジタルアセットを管理および保存できます。 この統合により、Adobe Experience Manager、Frame.io、Workfrontの機能を活用して、コンテンツ管理や共同作業のプロセスを合理化できます。 </p>
+        </td>
+        <td>2025年10月30日（PT）</td>
+        <td>2025年10月30日（PT）</td>
+        <td>2025年10月30日（PT）</td>
+    </tr>   
+  </tbody>
+</table>
+
+### 統合の機能強化
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Salesforce統合の新しいバージョンを </a> で利用できるようになりました
+            <p>Workfront API に対する最近の変更を最新の状態に保つために、新しいSalesforce統合を作成しました。 この新しい統合は、以前のバージョンと同じ機能を備え、API で非推奨となった機能が失われないように更新されました。</p>
+        </td>
+        <td>2025年10月30日（PT）</td>
+        <td>2025年10月30日（PT）</td>
+        <td>2025年10月30日（PT）</td>
+    </tr>   
+  </tbody>
+</table>
+
 ### その他の機能強化
 
 <table>
@@ -52,7 +134,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025 年第 4 四半期のリリース期間中のルックアンドフィールの更新 </a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">2025 年第 4 四半期のリリース期間中のルックアンドフィールの更新 </a>
                         <p>Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対するマイナーアップデートが、2025 年第 4 四半期のリリース期間内に行われています。 </p>
                     </td>
                     <td><p>2025 年第 4 四半期のリリース期間中<br /></p>
@@ -61,18 +143,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                 <td>
+                複数選択フィールドの選択制限に <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}"> いて </a>
+              <p>ユーザーがフォームに入力する際に、チェックボックスや複数選択のドロップダウンなど、複数選択を許可されるフィールドが 5000 選択範囲に制限されるようになりました。</p>
+             </td>
+        <td>2025年10月30日（PT）</td>
+        <td>2025年11月13日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+             </tr>   
             </tbody>
         </table>
 
-<!--
-### Functionality soon to be removed from Workfront
 
-* 
--->
+### Workfront から近日中に削除される機能
+
+#### 25.11 リリースによる担当業務の上書き通貨の廃止
+
+財務モデルのシンプル化の一環として、10 月 30 日のプレビューおよび 25.11 リリースのすべての顧客の実稼動で、担当業務のオーバーライド通貨を非推奨（廃止予定）にします。 この変更は、設定エリアの担当業務に対する通貨とレートの設定方法に影響します。
+
+* 担当業務の **通貨を上書き** フィールドは使用できなくなります。
+* 各担当業務には、1 つの通貨とそれに関連するコストおよび請求レートが設定されます。
+* 既存のすべての上書き通貨とそのレート値は、その担当業務の唯一の通貨とレートになるように自動的に移行されます。
 
 ## インターフェイスの最新化
 
-ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 ## その他の領域のリリースノート
 
@@ -82,7 +178,7 @@ Workfront Fusion の新機能は、標準のリリーススケジュール以外
 
 ### Workfront計画の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 1 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md) を参照してください。
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 1 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md) を参照してください。
 
 このリリースの現時点では、次の更新はありません。
 
@@ -114,13 +210,13 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Microsoft Teams用Workfrontの新しいバージョン
 
-[Microsoftが新しい Teams クライアント &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
+[Microsoftが新しい Teams クライアント ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 
-更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。 新しい Teams クライアントでWorkfront統合をインストールまたは検証するには、[Microsoft Teams用のインストール  [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) を参照してください。
+更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。 新しい Teams クライアントでWorkfront統合をインストールまたは検証するには、[Microsoft Teams用のインストール  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) を参照してください。
 
 ### Workfront for Microsoft Outlook
 
-[Microsoftでは、従来の Exchange オンライン トークン &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
+[Microsoftでは、従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
 
 * **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
 
@@ -135,7 +231,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 
 ### Workfront のメンテナンスアップデート
