@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: d342df9949eb1434acbb53c29b7e329dd91c9b28
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 38%
@@ -110,15 +110,15 @@ ht-degree: 38%
      >
      >このフィールドで使用できるのは、システムの「為替レート」領域で指定した通貨のみです。 設定されている通貨が 1 つだけの場合、このフィールドは表示されません。
 
-     Workfrontの基準通貨の設定については、「[&#x200B; 為替レートの設定 &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)」を参照してください。
+     Workfrontの基準通貨の設定については、「[ 為替レートの設定 ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)」を参照してください。
 
-     プロジェクトの通貨を変更する方法については、「[&#x200B; プロジェクトの通貨を変更する &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)」を参照してください。
+     プロジェクトの通貨を変更する方法については、「[ プロジェクトの通貨を変更する ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)」を参照してください。
 
    * **通貨原価レートの上書き**：選択した通貨の上書きを使用した、担当業務の 1 時間あたりの原価レートです。 Workfrontはこの値を使用して、担当業務に関連するタスクおよびイシューの予定コストと実際のコストを計算します。
 
      上記の「通貨を上書き」にレートを入力します。 これにより、基準通貨を使用する際に、この担当業務のコスト率も更新されます。
 
-     Workfrontによるコストの計算方法について詳しくは、[&#x200B; コストの追跡 &#x200B;](/help/quicksilver/manage-work/projects/project-finances/track-costs.md) を参照してください。
+     Workfrontによるコストの計算方法について詳しくは、[ コストの追跡 ](/help/quicksilver/manage-work/projects/project-finances/track-costs.md) を参照してください。
 
      >[!TIP]
      >
@@ -126,9 +126,9 @@ ht-degree: 38%
 
    * **通貨請求レートの上書き**：これは、選択した上書き通貨を使用した、担当業務の 1 時間あたりの請求レートです。 Workfrontはこの値を使用して、担当業務に関連するタスクおよび問題の予定収益と実収益を計算します。
 
-     上記の「通貨を上書き」にレートを入力します。 これにより、基準通貨を使用する際に、この担当業務の請求率も更新されます。
+     上記の「通貨を上書き」にレートを入力します。 これにより、ベース通貨を使用する際に、この担当業務の請求レートも更新されます。
 
-     Workfrontでの売上高の計算方法について詳しくは、[&#x200B; 請求と売上高の概要 &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md) を参照してください。
+     Workfrontでの売上高の計算方法について詳しくは、[ 請求と売上高の概要 ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md) を参照してください。
 
      >[!TIP]
      >
