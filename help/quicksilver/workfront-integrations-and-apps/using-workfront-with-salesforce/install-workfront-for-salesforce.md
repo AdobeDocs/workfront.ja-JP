@@ -6,10 +6,10 @@ description: ' [!DNL Salesforce]  AppExchange で利用可能になる前にア�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: dc72ef4a3c5d55c418330af984f146f61f202d84
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 84%
+source-wordcount: '1080'
+ht-degree: 83%
 
 ---
 
@@ -23,16 +23,20 @@ ht-degree: 84%
 >
 >組織のSalesforceとの統合のニーズに応じて、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
 [!DNL Salesforce] および [!DNL Adobe Workfront] 管理者は、[!DNL Workfront for Salesforce] をインストールすると、[!DNL Salesforce] ユーザーが Salesforce を離れることなく、[!DNL Workfront] リクエストを送信し、プロジェクトを自動的に作成できます。
 
 [!DNL Workfront for Salesforce] のインストールによって期待される内容に関する一般的な理解については、[[!DNL Adobe Workfront for Salesforce] 概要](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)を参照してください。
 
-* [&#x200B; [!DNL Workfront for Salesforce] のインストールおよび使用の前提条件](#prerequisites-for-installing-and-using-workfront-for-salesforce)
-* [&#x200B; [!DNL Workfront for Salesforce] のインストール](#installing-workfrontfor-salesforce)
+* [ [!DNL Workfront for Salesforce] のインストールおよび使用の前提条件](#prerequisites-for-installing-and-using-workfront-for-salesforce)
+* [ [!DNL Workfront for Salesforce] のインストール](#installing-workfrontfor-salesforce)
+
+>[!NOTE]
+>
+>この統合の最新バージョンは 2025 年 10 月 30 日（PT）にリリースされました。
 
 ## アクセス要件
 
@@ -73,9 +77,9 @@ ht-degree: 84%
 
 次のサブセクションでは、[!DNL Salesforce] 本番環境に [!DNL Workfront] をインストールする方法について説明します。同じ手順に従って、[!DNL Salesforce] サンドボックス環境に [!DNL Workfront] をインストールできます。
 
-* [&#x200B; [!DNL AppExchange]  Marketplace で利用可能になる前に  [!DNL Workfront for Salesforce]  をインストール](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
-* [&#x200B; [!DNL Salesforce Classic]  フレームワークに  [!DNL Workfront for Salesforce]  をインストール](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
-* [&#x200B; [!DNL Salesforce Lightning Experience] フレームワークに  [!DNL Workfront for Salesforce]  をインストール](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
+* [ [!DNL AppExchange]  Marketplace で利用可能になる前に  [!DNL Workfront for Salesforce]  をインストール](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
+* [ [!DNL Salesforce Classic]  フレームワークに  [!DNL Workfront for Salesforce]  をインストール](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
+* [ [!DNL Salesforce Lightning Experience] フレームワークに  [!DNL Workfront for Salesforce]  をインストール](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
 
 ### [!DNL AppExchange] Marketplace で利用可能になる前に [!DNL Workfront for Salesforce] をインストール {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 
@@ -85,11 +89,11 @@ ht-degree: 84%
 
 1. 本番環境で、次の場所に移動します。
 
-   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk)
+   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp)
 
    サンドボックス環境で、次の場所に移動します。
 
-   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk)
+   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp)
 
    >[!NOTE]
    >
@@ -147,7 +151,7 @@ ht-degree: 84%
 1. **[!UICONTROL 設定／セキュリティコントロール／リモートサイトの設定]**&#x200B;に移動します。
 1. （条件付き）**[!UICONTROL すべてのリモートサイト]**&#x200B;リストに [!DNL Workfront] URL が表示されない場合は、「**[!UICONTROL 新しいリモートサイト]**」をクリックします。
 
-1. （条件付き）サイトを追加する場合は、**[!UICONTROL リモートサイト名]**&#x200B;を指定します。
+1. （条件付き）サイトを追加する場合は、**[!UICONTROL リモートサイト名]**を指定します。
 例えば、*[!DNL Workfront]*。
 
 1. （条件付き）サイトを追加する場合は、**[!UICONTROL リモートサイトの URL]** を指定します。
@@ -156,7 +160,7 @@ ht-degree: 84%
 1. 「**[!UICONTROL 保存]**」をクリックします。\
    [!DNL Workfront] アプリが [!DNL Salesforce] インスタンスにインストールされました。**[!UICONTROL WorkfrontOpportunities]** と **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] ページが環境に作成されました。\
    [!DNL Salesforce] ユーザーは、[!UICONTROL 商談]または[!UICONTROL アカウント]ページレイアウトに「[!DNL Workfront]」セクションが追加されるまで、アプリを使用できません。\
-   ユーザーの [!DNL Workfront] セクションの設定について詳しくは、[&#x200B; [!DNL Salesforce]  ユーザー向け  [!DNL Adobe Workfront]  セクションの設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
+   ユーザーの [!DNL Workfront] セクションの設定について詳しくは、[ [!DNL Salesforce]  ユーザー向け  [!DNL Adobe Workfront]  セクションの設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
 
 ### [!DNL Salesforce Lightning Experience] フレームワークでの [!DNL Workfront for Salesforce] のインストール
 
@@ -191,7 +195,7 @@ ht-degree: 84%
 1. 「**[!UICONTROL リモートサイトの設定]**」をクリックします。
 1. （条件付き）**[!UICONTROL すべてのリモートサイト]**&#x200B;リストに表示されたお使いの [!DNL Workfront] URL が見つからない場合は、「**[!UICONTROL 新しいリモートサイト]**」をクリックします。
 
-1. （条件付き）サイトを追加する場合は、**[!UICONTROL リモートサイト名]**&#x200B;を指定します。
+1. （条件付き）サイトを追加する場合は、**[!UICONTROL リモートサイト名]**を指定します。
 例えば、*[!DNL Workfront]*。
 
 1. （条件付き）サイトを追加する場合は、**[!UICONTROL リモートサイトの URL]** を指定します。
@@ -202,7 +206,7 @@ ht-degree: 84%
    [!DNL Workfront] アプリが [!DNL Salesforce] インスタンスにインストールされ、**[!DNL Workfront]** コンポーネントが環境に追加されました。
 
    [!UICONTROL Salesforce] ユーザーは、「[!DNL Workfront]」セクションを[!UICONTROL 商談]ページレイアウトまたは [!UICONTROL アカウント]ページレイアウトに追加すると [!DNL Workfront] アプリを使用できます。\
-   ユーザーに対する「[!DNL Workfront]」セクションの設定について詳しくは、[&#x200B; [!DNL Salesforce]  ユーザーに対する  [!DNL Adobe Workfront]  セクションの設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
+   ユーザーに対する「[!DNL Workfront]」セクションの設定について詳しくは、[ [!DNL Salesforce]  ユーザーに対する  [!DNL Adobe Workfront]  セクションの設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
 
 ## Workfront for Salesforce統合の権限の設定
 
