@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 91%
+source-wordcount: '1829'
+ht-degree: 90%
 
 ---
 
 # タスクを割り当て
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -175,7 +175,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 「**保存**」をクリックします。
 1. （オプションおよび条件付き）「**詳細**」をクリックした場合、タスクの右側のパネルにある&#x200B;**「X」アイコン**&#x200B;をクリックして、割り当てを削除します。
 
-## リスト内のタスクの割り当て
+## リストをインライン編集時にタスクを割り当て
 
 いずれかの割り当てフィールドがリストの表示に示されている場合、リストまたはレポート内のタスクを割り当てることができます。これは、タスクをより迅速に割り当てる方法です。この記事では、リスト内の 1 つのタスクの割り当てを変更する方法について説明します。リスト内の複数のタスクに対する複数の割り当てを変更する方法について詳しくは、[タスクリスト内の複数のユーザー割り当ての変更](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)を参照してください。
 
@@ -214,7 +214,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
+1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![ 人物アイコン ](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
 
    詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
@@ -224,7 +224,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. タスクに担当者を追加した後、Enter キーを押すか、ページ上の任意の場所をクリックして、「自動保存」を選択した場合に変更を保存します。それ以外の場合は、「**保存**」をクリックします。
 
-## ユーザーに複数のタスクを割り当てる
+## リストから複数のタスクをユーザーに一括で割り当てる
 
 <!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
 
