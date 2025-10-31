@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: cccef57d9a83fa138282200d85c2851570a4b9b1
+source-git-commit: 62177a9cedcaf3155f95e91fc4ee506d7f6a04aa
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 76%
+source-wordcount: '481'
+ht-degree: 70%
 
 ---
 
@@ -23,6 +23,10 @@ Adobe Workfront は、新しい API バージョンを定期的にリリース�
 API バージョンの識別と使用について詳しくは、[統合での API バージョンの指定](/help/quicksilver/wf-api/api/specify-api-version-integrations.md)を参照してください。
 
 次の表に、Workfront API のリリースおよびサポートスケジュールを示します。
+
+>[!NOTE]
+>
+>従来のWorkfront コネクタは、Workfront API バージョン 20 を使用していますが、このバージョンは 28.4 リリース（2028 年 4 月）で非推奨になる予定です。 従来のコネクタのモジュールは、その時点まで引き続き機能します。
 
 <table style="table-layout:auto"> 
  <col> 
