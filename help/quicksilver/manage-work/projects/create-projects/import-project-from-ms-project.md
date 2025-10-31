@@ -6,7 +6,7 @@ description: Microsoft Project から Adobe Workfront にプロジェクトを�
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 59%
@@ -15,7 +15,7 @@ ht-degree: 59%
 
 # Microsoft Project からプロジェクトを読み込む
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 10/2025 -->
 
 Microsoft Project から Adobe Workfront にプロジェクトを読み込み、すべてのプロジェクトを 1 つのアプリケーションで管理できます。Microsoft Project からプロジェクトを読み込むたびに、Workfront に新しいプロジェクトが作成されます。
 
@@ -103,14 +103,16 @@ Microsoft Project から Adobe Workfront にプロジェクトを読み込み、
 1. Workfront にログインします。
 1. 次のいずれかの操作を行います。
 
-   * Workfrontの右上隅にある **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、左上隅にある **メインメニュー**![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png) をクリックします（使用可能な場合）。**プロジェクト** をクリックしてから、**新規プロジェクト** を展開します。
+   * 左上隅の **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) またはAdobe Workfrontの右上隅の **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックし（使用可能な場合）、「**プロジェクト**」をクリックして「**新規プロジェクト**」を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの **プロジェクト** セクションでプロジェクトを作成できます。 詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
-1. 「**MS Project をインポート**」をクリックします。 **MS ファイルのインポート** ダイアログボックスが表示されます。
+1. 「**MS Project をインポート**」をクリックします。
 
-   ![&#x200B; 新規プロジェクトドロップダウン &#x200B;](assets/import-ms-project-option.png)
+   ![ 新規プロジェクトドロップダウン ](assets/import-ms-project-option.png)
+
+   **MS ファイルをインポート** ボックスが開きます。
 
 1. **ファイルを選択** をクリックして、Microsoft Project から書き出した.xml ファイルを参照します。
 1. 選択したファイルを読み込みます。 Workfront によって読み込み処理が開始され、Microsoft Project から書き出されたファイルに基づいて新しいプロジェクトが作成されます。

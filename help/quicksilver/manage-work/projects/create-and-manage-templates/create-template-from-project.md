@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 91%
+source-wordcount: '470'
+ht-degree: 58%
 
 ---
 
 # プロジェクトからテンプレートを作成
+
+<!--Audited: 10/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
@@ -89,7 +91,7 @@ ht-degree: 91%
 ## プロジェクトからテンプレートを作成
 
 1. テンプレートとして保存するプロジェクトに移動します。
-1. **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックしてから、**テンプレートとして保存** をクリックします。
+1. **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**テンプレートとして保存** をクリックします。
 1. テンプレートに次の情報を指定します。
 
    <table style="table-layout:auto"> 
@@ -97,7 +99,7 @@ ht-degree: 91%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">名前</td> 
+      <td role="rowheader">テンプレート名</td> 
       <td>テンプレートの名前を指定します。</td> 
      </tr> 
      <tr> 
@@ -112,29 +114,32 @@ ht-degree: 91%
         <li><strong>いいえ</strong>：他のユーザーはテンプレートを見つけることができず、プロジェクトに添付できません。</li> 
        </ul> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">カスタムフォーム</td> 
-      <td>ドロップダウンリストを使用して、テンプレートに添付するカスタムフォームを選択します。カスタムフォームがすでにプロジェクトに関連付けられている場合は、それらのカスタムフォームのデータフィールドがすべて表示されます。<br>1 つのテンプレートに最大 10 個のカスタムフォームを含めることができます。</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. 「**フォームの管理**」をクリックして、フォームを削除または並べ替えます。テンプレートのカスタムフォームを削除して並べ替える方法については、[カスタムフォーム](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)を参照してください。
+1. 左側のパネルで「**カスタムフォーム**」をクリックします。
+1. 「**カスタムフォームを追加**」フィールドをクリックし、プロジェクトのカスタムの名前の入力を開始するか、リストから選択します。
 
-   ![&#x200B; テンプレートとして保存の最初の手順 &#x200B;](assets/save-as-template-first-step-350x159.png)
+   既にカスタムフォームがプロジェクトに関連付けられている場合、これらのカスタムフォームからの既存のフィールド内のすべての情報がフォームに表示されます。
 
-1. 「**次の手順**」をクリックします。
-1. **オプション**&#x200B;セクションで、テンプレートから削除する情報の横にあるチェックボックスを選択します。
+   1 つのテンプレートに最大 10 個のカスタムフォームを含めることができます。
 
-   ![&#x200B; テンプレートとして保存オプション &#x200B;](assets/save-as-template-options-step-350x109.png)
+1. フォームの名前にポインタを合わせ、クリックして新しい場所にドラッグ&amp;ドロップします。
 
-1. 「**次の手順**」をクリックします。
-1. **除外**&#x200B;セクションで、プロジェクトから除外するタスクを選択します。
+   ![ プロジェクトをテンプレートとして保存 ](assets/save-project-as-template-top-of-the-form.png)
 
-   ![&#x200B; テンプレートとして保存で除外 &#x200B;](assets/save-as-template-exclude-350x205.png)
+1. 左側のパネルで **オプション** をクリックし、テンプレートに転送するフィールドまたは項目を選択します。
+
+   デフォルトでは、すべての項目がオンになっています。 選択解除された項目は、テンプレートに転送されません。
+
+   ![ テンプレートとして保存オプション ](assets/save-project-as-template-options-area.png)
+
+1. 左側のパネルで **除外** をクリックし、プロジェクトから除外するタスクを選択します。
+
+   ![ テンプレートとして保存で除外 ](assets/save-project-as-template-exclude-area.png)
 
 1. 「**完了してテンプレートを保存**」をクリックします。
 
-   テンプレートが使用可能なテンプレートのリストに表示され、既存のプロジェクトに添付することも、新しいプロジェクトの作成に使用することもできます。
+   テンプレートが、使用可能なテンプレートのリストに表示されます。 ユーザーは、新しいテンプレートを既存のプロジェクトに添付するか、それを使用してプロジェクトを作成できます。
 
- 
+

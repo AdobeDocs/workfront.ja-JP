@@ -6,7 +6,7 @@ description: プロジェクトに関する履歴情報を長期にわたって�
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 87%
@@ -95,6 +95,6 @@ ht-degree: 87%
 
    または
 
-   アクセスするテンプレートの名前をクリックし、**詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックして、**テンプレートを削除/はい、削除** をクリックします。
+   アクセスするテンプレートの名前をクリックし、**詳細** メニュー ![ 詳細アイコン ](assets/more-icon.png) をクリックして、**テンプレートを削除/はい、削除** をクリックします。
 
    テンプレートが利用できなくなり、プロジェクトに関連付けることができなくなります。

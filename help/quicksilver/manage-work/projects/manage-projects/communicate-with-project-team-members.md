@@ -6,10 +6,10 @@ description: Adobe Workfront を通じて、プロジェクトチームのメン
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 92%
+source-wordcount: '413'
+ht-degree: 46%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 Adobe Workfront を通じて、プロジェクトチームのメンバーと簡単にコミュニケーションを取ることができます。
 
-プロジェクトチームは、プロジェクトに関連するすべてのユーザーで構成されます。プロジェクトチームについて詳しくは、[プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
+プロジェクトに関連付けられているすべてのユーザーは、プロジェクトチームから委任されます。 プロジェクトチームの詳細については、[プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -71,7 +71,7 @@ Adobe Workfront を通じて、プロジェクトチームのメンバーと簡�
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,33 +89,33 @@ Adobe Workfront を通じて、プロジェクトチームのメンバーと簡�
 
    または
 
-   プロジェクトチームの特定のメンバーを更新するには、リストから 1 人または複数のユーザーを選択したあと、「**ユーザに更新を送信**」をクリックします。\
-   ![Commenting_1.png](assets/commenting-1-350x352.png)
+   プロジェクト チームの特定のメンバーを更新するには、一覧から 1 人または複数のユーザーを選択し、[**更新をユーザーに送信**] をクリックします。
 
-1. 「**プロジェクトの更新を投稿**」フィールドに更新内容を入力します。
-1. （オプション）更新をプライベートにするには、**ロック**&#x200B;アイコンをクリックします。
+   ![ プロジェクトの「ユーザーに更新を送信」ボックス ](assets/send-update-to-user-box-on-project.png)
 
-   社外のユーザーは、プライベートの更新を表示できません。
+1. **プロジェクトに更新を投稿** 領域に更新を入力します。
+1. （オプション）更新をプライベートにするには、「**会社に対してプライベート** オプションを選択します。
 
-1. （オプション）**ユーザー**&#x200B;アイコンをクリックして、選択されていない受信者をさらに追加します。
+   社外のユーザーは非公開の更新を表示できません。
+
+1. （任意）「**ユーザーをタグ付け**」をクリックして、選択されていない受信者をさらに追加します。
 1. 「**送信**」をクリックします。
 
-   更新とそれに含まれるユーザーの名前が、プロジェクトの「更新」タブに表示されます。
+   含まれる更新とユーザーの名前は、プロジェクトの **更新** セクションに表示されます。
 
 ## プロジェクトチームメンバーおよびその他のユーザーへの更新の送信
 
-プロジェクトの更新をチームメンバーや、プロジェクトチームに属さない他のユーザーに送信できます。すべてのユーザーがアクティブな Workfront アカウントを持っている必要があります。更新は Workfront で通知として送信されます。
+プロジェクトの更新をチームメンバーや、プロジェクトチームに属さない他のユーザーに送信できます。すべてのユーザーがアクティブな Workfront アカウントを持っている必要があります。更新は通知としてWorkfrontに送信されます。
 
 1. 他のユーザーに更新を送信するプロジェクトに移動します。
-1. （オプションおよび条件付き）更新の送信先のユーザーがプロジェクトチームに属していない場合は、それらのユーザーをプロジェクトチームに追加します。
+1. 左側のパネルで **人物** をクリックします。
+1. （オプションおよび条件付き）更新の送信先のユーザーがプロジェクトチームに属していない場合は、「**ユーザーを追加**」をクリックして、プロジェクトチームに追加します。
 
    プロジェクトチームへのユーザーの追加については、[プロジェクトチームの管理](../../../manage-work/projects/planning-a-project/manage-project-team.md)を参照してください。
 
-1. プロジェクトチームのメンバーに更新を送信します。詳しくは、
+1. この記事の「[ プロジェクトチームメンバーにメールを送信する ](#send-an-email-to-a-project-team-member) の節で説明しているように、プロジェクトチームのメンバーに更新を送信します。
 
-   この記事で[プロジェクトチームメンバーへのメールの送信](#send-an-email-to-a-project-team-member)の節を参照してください。
-
-   更新とそれに含まれるユーザーの名前が、プロジェクトの「更新」タブに表示されます。
+   更新とそれに含まれるユーザーの名前は、プロジェクトの「**更新**」セクションに表示されます。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: drafted. No longer valid)</p>
@@ -124,8 +124,8 @@ Adobe Workfront を通じて、プロジェクトチームのメンバーと簡�
 <li value="2"> Click <strong>People</strong> in the left panel.</li>
 <li value="3"> <p>To update all members of the project team, click <strong>Update All</strong> in the upper-left corner of the list of project team members.</p> <p>Or</p> <p>To update certain members of the project team, select one or several users in the list, then click <strong>Update</strong>. </p> </li>
 <li value="4">Type your update in the <strong>Post an update to this project</strong> field.</li>
-<li value="5"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private&nbsp;update.</p> </li>
-<li value="6"> <p>(Optional) Add a user who is not&nbsp;part of the Project&nbsp;Team by typing their name in the people field, then selecting the user from the list when it displays. </p> </li>
+<li value="5"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private update.</p> </li>
+<li value="6"> <p>(Optional) Add a user who is not part of the Project Team by typing their name in the people field, then selecting the user from the list when it displays. </p> </li>
 <li value="7"> <p>Click <strong>Send.</strong></p> <p>The update and the names of the users included in it display in the Updates tab of the project.</p> </li>
 </ol> </p>
 -->

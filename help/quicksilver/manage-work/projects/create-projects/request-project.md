@@ -6,16 +6,16 @@ description: プロジェクトの作業を開始する前に、プロジェク�
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 84%
+source-wordcount: '557'
+ht-degree: 75%
 
 ---
 
 # プロジェクトのリクエスト
 
-<!--Audited: April 2024-->
+<!--Audited: 10/2025-->
 
 プロジェクトの作業を開始する前に、プロジェクトの承認をリクエストできます。
 
@@ -101,23 +101,25 @@ Adobe Workfront の次のエリアで新しいプロジェクトを追加する�
 
 1. 次のいずれかの操作を行います。
 
-   * 右上隅の **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、左上隅の **メインメニュー**![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png) をクリックし（使用可能な場合）、「**プロジェクト**」をクリックし、**新規プロジェクト** を展開します。
+   * 右上隅の **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、左上隅の **メインメニュー**![ メインメニューライン ](assets/lines-main-menu.png) をクリックし（使用可能な場合）、「**プロジェクト**」をクリックし、**新規プロジェクト** を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの「プロジェクト」セクションでプロジェクトを作成することもできます。詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
 1. 「**プロジェクトをリクエスト**」をクリックします。
 
-   ![&#x200B; 新規プロジェクトドロップダウン &#x200B;](assets/new-project-dropdown-nwe-350x358.png)
+   ![ 新規プロジェクトドロップダウン ](assets/new-project-dropdown-nwe-350x358.png)
 
 1. 次のいずれかの操作を行います。
 
    * ビジネスケースを定義する際に、プロジェクトを作成する場合と同じ手順に従います。（推奨）
 
-     ビジネスケースの定義とプロジェクトのリクエストについて詳しくは、[プロジェクトのビジネスケースを作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
+     詳しくは、[ プロジェクトのビジネスケースの作成 ](../../../manage-work/projects/define-a-business-case/create-business-case.md) を参照してください。
 
    * プロジェクトを最初から作成するか、テンプレートを使用して作成し、ステータスを「**リクエスト済み**」に変更します。
 
-     プロジェクトの作成について詳しくは、[プロジェクトを作成](../../../manage-work/projects/create-projects/create-project.md)または[テンプレートを使用してプロジェクトを作成](../../../manage-work/projects/create-projects/create-project-from-template.md)を参照してください。
+     詳しくは、[ プロジェクトの作成 ](../../../manage-work/projects/create-projects/create-project.md) または [ テンプレートを使用したプロジェクトの作成 ](../../../manage-work/projects/create-projects/create-project-from-template.md) を参照してください。
 
-   リクエストしたプロジェクトのステータスが「**リクエスト済み**」で、ポートフォリオに関連付けている場合は、ポートフォリオの「**リクエストされたプロジェクト**」タブに表示されます。ポートフォリオマネージャーは、レビューを行い、承認または拒否できるようになりました。この場合、プロジェクトのステータスは「**承認済み**」または「**却下**」に変わります。
+   リクエストしたプロジェクトのステータスは **リクエスト済み** で、Portfolioに関連付けていれば、Portfolioの **リクエスト済みプロジェクト** タブに表示されます。
+
+   ポートフォリオマネージャーは、レビューを行い、承認または拒否できるようになりました。この場合、プロジェクトのステータスは「**承認済み**」または「**却下**」に変わります。
