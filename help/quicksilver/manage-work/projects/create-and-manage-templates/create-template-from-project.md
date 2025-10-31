@@ -91,7 +91,7 @@ ht-degree: 58%
 ## プロジェクトからテンプレートを作成
 
 1. テンプレートとして保存するプロジェクトに移動します。
-1. **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**テンプレートとして保存** をクリックします。
+1. **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**テンプレートとして保存** をクリックします。
 1. テンプレートに次の情報を指定します。
 
    <table style="table-layout:auto"> 
@@ -126,17 +126,17 @@ ht-degree: 58%
 
 1. フォームの名前にポインタを合わせ、クリックして新しい場所にドラッグ&amp;ドロップします。
 
-   ![ プロジェクトをテンプレートとして保存 ](assets/save-project-as-template-top-of-the-form.png)
+   ![&#x200B; プロジェクトをテンプレートとして保存 &#x200B;](assets/save-project-as-template-top-of-the-form.png)
 
 1. 左側のパネルで **オプション** をクリックし、テンプレートに転送するフィールドまたは項目を選択します。
 
    デフォルトでは、すべての項目がオンになっています。 選択解除された項目は、テンプレートに転送されません。
 
-   ![ テンプレートとして保存オプション ](assets/save-project-as-template-options-area.png)
+   ![&#x200B; テンプレートとして保存オプション &#x200B;](assets/save-project-as-template-options-area.png)
 
 1. 左側のパネルで **除外** をクリックし、プロジェクトから除外するタスクを選択します。
 
-   ![ テンプレートとして保存で除外 ](assets/save-project-as-template-exclude-area.png)
+   ![&#x200B; テンプレートとして保存で除外 &#x200B;](assets/save-project-as-template-exclude-area.png)
 
 1. 「**完了してテンプレートを保存**」をクリックします。
 

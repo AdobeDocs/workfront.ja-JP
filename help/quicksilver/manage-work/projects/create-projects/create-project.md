@@ -115,9 +115,9 @@ Workfront でプロジェクトを作成するには、次のような方法が�
 
 * Workfront Planning のレコードタイプからプロジェクトを接続するときに追加します。
 
-  Workfront Planning へのアクセスについて詳しくは、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+  Workfront Planning へのアクセスについて詳しくは、[&#x200B; アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
-  レコードにプロジェクトを追加して作成する方法の詳細については、「レコードに接続する際にWorkfront Planning からWorkfront オブジェクトを作成する [ の「Workfront Planning からレコードにプロジェクトを接続する場合のプロジェクトの作成」を参照してください ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  レコードにプロジェクトを追加して作成する方法の詳細については、「レコードに接続する際にWorkfront Planning からWorkfront オブジェクトを作成する [&#x200B; の「Workfront Planning からレコードにプロジェクトを接続する場合のプロジェクトの作成」を参照してください &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## 前提条件
 
@@ -169,7 +169,7 @@ Workfront でプロジェクトを作成するには、次のような方法が�
 
 1. 次のいずれかの操作を行います。
 
-   * 左上隅の **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) またはAdobe Workfrontの右上隅の **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックし（使用可能な場合）、「**プロジェクト**」をクリックして「**新規プロジェクト**」を展開します。
+   * 左上隅の **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) またはAdobe Workfrontの右上隅の **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックし（使用可能な場合）、「**プロジェクト**」をクリックして「**新規プロジェクト**」を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの「プロジェクト」セクションでプロジェクトを作成することもできます。詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
@@ -191,7 +191,7 @@ Workfront でプロジェクトを作成するには、次のような方法が�
 
    プロジェクトへのタスクの追加について詳しくは、[プロジェクトにタスクを作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)を参照してください。
 
-1. プロジェクト名の右側にあるヘッダーの **詳細** メニューをクリックし、プロジェクト名の横にある **編集**![ 編集アイコン ](assets/qs-edit-icon.png) をクリックして、プロジェクト詳細を編集します。
+1. プロジェクト名の右側にあるヘッダーの **詳細** メニューをクリックし、プロジェクト名の横にある **編集**![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックして、プロジェクト詳細を編集します。
 
    「**プロジェクトを編集**」ボックスが開きます。
 
