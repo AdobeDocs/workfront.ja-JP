@@ -6,9 +6,9 @@ description: Adobe Workfront は、2025年10月23日（PT）に API バージョ
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
+source-git-commit: 155323314712e020a638619d9bf10d678078645e
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '891'
 ht-degree: 85%
 
 ---
@@ -343,9 +343,6 @@ Assignment オブジェクトは、作業項目とその作業に割り当てら
             <p>追加された可能な値は次のとおりです。</p>
              <ul>
               <li>
-                <p><code>SPTMPL</code> （enum.categorytypeenum.staffingplantemplate）</p>
-              </li>
-              <li>
                 <p><code>TEAMOB</code> （チーム）</p>
               </li>
             </ul>
@@ -355,9 +352,6 @@ Assignment オブジェクトは、作業項目とその作業に割り当てら
             </p>
             <p>追加された可能な値は次のとおりです。</p>
              <ul>
-              <li>
-                <p><code>SPTMPL</code> （enum.categorytypeenum.staffingplantemplate）</p>
-              </li>
               <li>
                 <p><code>TEAMOB</code> （チーム）</p>
               </li>
