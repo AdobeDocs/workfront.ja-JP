@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
 workflow-type: tm+mt
-source-wordcount: '3862'
-ht-degree: 85%
+source-wordcount: '3828'
+ht-degree: 84%
 
 ---
 
@@ -81,7 +81,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -132,7 +132,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 「現在」ステータスのプロジェクトのタスクトリガーの通知の更新：タスクに割り当てられたユーザーが混乱するのを避けるには、プロジェクトのステータスが「現在」の場合に編集タスクをできる限り制限します。
 * 承認プロセス内のタスクは編集できません。承認プロセスでのタスクのログ時間またはステータスの更新のみが可能です。
 
-  ![&#x200B; 承認プロセスでタスクを編集 &#x200B;](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![ 承認プロセスでタスクを編集 ](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * 完了、無効または承認保留中のステータスを持つプロジェクトのタスクに対するドキュメントの編集や追加は、Workfront 管理者またはグループ管理者がプロジェクト環境設定エリアでこの機能を有効にした場合にのみ行うことができます。プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
@@ -380,161 +380,14 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 上記の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**割り当て**」をクリックします。
 
-   ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   <!--<span class="preview">The Assignments area opens in the new experience.</span>-->
 
-   &lt;! – リリース時にもう一度、下の箇条書きをインデントして実稼動環境を表示し、さらに別の新しいプレビュー用の箇条書きを表示します。
-   1. （条件付き）タスクへのアクセス元の環境に応じて、次の操作を行います。
-   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
-
-1. 「**ユーザー、役割、チームを検索**」をクリックして、タスクに割り当てるユーザー、役割、またはチームの名前の入力を開始し、リストに表示されたらクリックするか Enter キーを押します。
-
-   >[!NOTE]
-   >
-   >ユーザーの名前に特殊文字が含まれている場合は、その特殊文字を検索フィールドに含める必要があります。
-
-   >[!TIP]
-   >
-   >複数のユーザー、担当業務やチームを割り当てることができます。アクティブなユーザー、担当業務およびチームのみを割り当てることができます。
-   >
-   >非アクティブ化前にユーザー、担当業務やチームが、非アクティブ化される前に割り当てられた場合、ユーザー、担当業務やチームは作業アイテムに割り当てられたままになります。この場合、以下の操作をお勧めします。
-   >
-   >* 作業アイテムをアクティブなリソースに再割り当てする。
-   >* 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
-
-1. （オプション）担当者がタスクのプライマリ担当者かどうかを指定するには、名前の隣にある&#x200B;**所有者**&#x200B;ラジオボタンを選択します。チームをタスクのプライマリ担当者にすることはできません。
-1. （条件付きおよびオプション）次のフィールドを更新します。
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">期間タイプ</td> 
-      <td> <p>これにより、以下の項目間の関係が明らかになります。 </p> 
-       <ul> 
-      <li> <p>タスクに割り当てられたリソースの数 </p> </li> 
-      <li> <p>タスクの完了に必要な合計作業量 </p> </li> 
-      <li> <p> タスクの合計期間。 </p> </li> 
-       </ul> <p>Workfront管理者またはグループ管理者が、システムまたはグループのタスクに対してデフォルトの「期間タイプ」設定を選択します。 プロジェクトのデフォルトの設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref"> システム全体のタスクおよびイシューの環境設定の設定 </a> を参照してください。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク継続期間と期間タイプの概要</a>を参照してください。 </p> <p>次のオプションから選択します。 </p> 
-       <ul> 
-      <li> <p>予定割り当て時間 </p> </li> 
-      <li> <p> 予定作業 </p> </li> 
-      <li> <p>残存作業時間の優先 </p> </li> 
-      <li> <p>シンプル</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">発生ごとの所要時間</td> 
-      <td> <p>これは、定期タスクの親にのみ表示されます。タスクが作成された時点で定義された、各定期タスクの期間が表示されます。定期タスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">定期タスクの作成</a>を参照してください。 </p> <p> <b>メモ</b>
-
-   個々の定期タスクで変更された期間には、このフィールドに示された値は表示されません。 </p> </td>
-   </tr> 
-     <tr> 
-      <td role="rowheader">期間</td> 
-      <td> 
-      <div> 
-      <div> 
-      <p>タスクが完了するまでタスクを開いたままにしておくことができる時間です。 </p> 
-      <p><b>重要</b>
-
-   タスク期間は通常、予定開始日から予定完了日までの時間で、プロジェクトのタイムラインに影響します。</p>
-
-   <p>タスクの期間と時間の単位を指定するには、以下を行います。</p> 
-      <ul> 
-      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">時間の長さを入力し、ドロップダウンメニューに表示される時間の単位から選択します。</p> <p><b>ヒント</b></p>
-      タスクリストのタスクの期間を更新する際は、時間の単位の省略形を使用できます。 </p> </li> 
-      </ul> 
-      <p> 次の表にある通常時間または経過時間のオプションから選択できます。 </p> 
-      <table style="table-layout:auto"> 
-      <col> 
-      <col data-mc-conditions=""> 
-      <tbody> 
-      <tr> 
-      <td>時間の単位</td> 
-      <td>省略形</td> 
-      </tr> 
-      <tr> 
-      <td>分</td> 
-      <td>M</td> 
-      </tr> 
-      <tr> 
-      <td>時間</td> 
-      <td>H</td> 
-      </tr> 
-      <tr> 
-      <td>日 これがデフォルトです。 </td> 
-      <td>D</td> 
-      </tr> 
-      <tr> 
-      <td>週</td> 
-      <td>W</td> 
-      </tr> 
-      <tr> 
-      <td>か月</td> 
-      <td>T</td> 
-      </tr> 
-      <tr> 
-      <td>経過時間数 (分)</td> 
-      <td>EM</td> 
-      </tr> 
-      <tr> 
-      <td>経過時間数</td> 
-      <td>EH</td> 
-      </tr> 
-      <tr> 
-      <td>経過日数</td> 
-      <td>ED</td> 
-      </tr> 
-      <tr> 
-      <td>経過週数</td> 
-      <td>EW</td> 
-      </tr> 
-      <tr> 
-      <td>経過月数</td> 
-      <td>ET</td> 
-      </tr> 
-      </tbody> 
-   </table>
-
-   <p><b>メモ</b>
-
-   <p>経過時間は、タスクの期間の時間単位です。タスクの予定開始日から予定完了日までの時間で、休日、週末および休暇を含みます。つまり、経過時間はカレンダーの日数の経過です。
-
-   通常の時間は、休日、週末および休暇を考慮し、これらをタスクの期間から除外します。タスクの期間について詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。 </p>
-   </div> 
-      </div> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">予定時間数</td> 
-      <td> <p>タスクの予定時間数を時間単位で指定します。 これは、タスクの担当者が完了するまでにかかる実際の時間です。 タスクの予定時間数を指定できるのは、[ 期間タイプ ] が [ 割り当て計算 ] に設定されている場合のみです。 期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</p> 
-      <b>メモ</b>
-      <p>
-      繰り返しタスクを作成する場合、予定時間数はそれぞれの繰り返しタスクの時間です。親タスクの予定時間数は、すべてのタスクからのすべての予定時間数の合計です。繰り返しタスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクを作成</a>を参照してください。
-      </p>
-
-   </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">配分</td> 
-      <td> <p>タスクの制約事項が「予定作業」または「残存作業時間の優先」である場合は、それぞれの担当者の<strong>配分 ％</strong>（配分率）を指定します。これは、担当者がスケジュールからこのタスクに費やすことができる時間です。担当者の配分率を変更すると、タスクの予定時間数が変更されます。 </p> <p>タスクの制約事項が「シンプル」の場合は、以下の項目を指定することができます。</p> 
-         <ul> 
-         <li> <p>それぞれの担当者の時間配分数。</p> </li> 
-         <li> <p>タスクの予定時間数</p> </li> 
-         <li> <p>タスクの期間</p> </li> 
-         </ul> </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">割り当て先の役割</td> 
-      <td> <p>個人を担当者として選択した場合は、「<strong>担当者の役割</strong>」ドロップダウンメニューから役割を選択します。これは、担当者がこのタスクで果たすことができる役割です。 </p> <p><b>ヒント</b>
-
-   プロファイル内で各担当者に関連付けられている担当業務のみがドロップダウンメニューに表示されます。</p> </td>
-   </tr>
-   </tbody>
-   </table>
+   <!--indent the bullets below to show new experience functionality:
+      1. (Conditional) Using the new experience, do the following:-->
 
    <!--Indent this according to what you did above: 
 
-      1. <span class="preview">In the Preview environment, start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
+      1. <span class="preview">Start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
 
       Or
 
@@ -667,10 +520,159 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <tr> 
       <td role="rowheader">Assignee's Role</td> 
       <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this task. </p> <p><b>TIP</b>
-            Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+         Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr>
          </tbody> 
          </table>************)-->
+   <!--1. <span class="preview">(Optional) Click Switch to old experience at the bottom of the **Edit Task** box. </span>
+      <span class="preview">The Assignments area opens in the old experience. </span>
+      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)-->
+
+1. **ユーザー、役割、またはチームを検索** をクリックして、タスクに割り当てるユーザー、役割、またはチームの名前の入力を開始し、リストに表示されたらクリックするか Enter キーを押します。
+
+   >[!NOTE]
+   >
+   >ユーザーの名前に特殊文字が含まれている場合は、その特殊文字を検索フィールドに含める必要があります。
+
+   >[!TIP]
+   >
+   >複数のユーザー、担当業務やチームを割り当てることができます。アクティブなユーザー、担当業務およびチームのみを割り当てることができます。
+   >
+   >非アクティブ化前にユーザー、担当業務やチームが、非アクティブ化される前に割り当てられた場合、ユーザー、担当業務やチームは作業アイテムに割り当てられたままになります。この場合、以下の操作をお勧めします。
+   >
+   >* 作業アイテムをアクティブなリソースに再割り当てする。
+   >* 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
+
+1. （オプション）担当者がタスクのプライマリ担当者かどうかを指定するには、名前の隣にある&#x200B;**所有者**&#x200B;ラジオボタンを選択します。チームをタスクのプライマリ担当者にすることはできません。
+1. （オプション）次のフィールドを更新します。
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">期間タイプ</td> 
+      <td> <p>これにより、以下の項目間の関係が明らかになります。 </p> 
+       <ul> 
+      <li> <p>タスクに割り当てられたリソースの数 </p> </li> 
+      <li> <p>タスクの完了に必要な合計作業量 </p> </li> 
+      <li> <p> タスクの合計期間。 </p> </li> 
+       </ul> <p>Workfront管理者またはグループ管理者が、システムまたはグループのタスクに対してデフォルトの「期間タイプ」設定を選択します。 プロジェクトのデフォルトの設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref"> システム全体のタスクおよびイシューの環境設定の設定 </a> を参照してください。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク継続期間と期間タイプの概要</a>を参照してください。 </p> <p>次のオプションから選択します。 </p> 
+       <ul> 
+      <li> <p>予定割り当て時間 </p> </li> 
+      <li> <p> 予定作業 </p> </li> 
+      <li> <p>残存作業時間の優先 </p> </li> 
+      <li> <p>シンプル</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader">発生ごとの所要時間</td> 
+      <td> <p>これは、定期タスクの親にのみ表示されます。タスクが作成された時点で定義された、各定期タスクの期間が表示されます。定期タスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">定期タスクの作成</a>を参照してください。 </p> <p> <b>メモ</b>
+
+   個々の定期タスクで変更された期間には、このフィールドに示された値は表示されません。 </p> </td>
+   </tr> 
+     <tr> 
+      <td role="rowheader">期間</td> 
+      <td> 
+      <div> 
+      <div> 
+      <p>タスクが完了するまでタスクを開いたままにしておくことができる時間です。 </p> 
+      <p><b>重要</b>
+
+   タスク期間は通常、予定開始日から予定完了日までの時間で、プロジェクトのタイムラインに影響します。</p>
+
+   <p>タスクの期間と時間の単位を指定するには、以下を行います。</p> 
+      <ul> 
+      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">時間の長さを入力し、ドロップダウンメニューに表示される時間の単位から選択します。</p> <p><b>ヒント</b></p>
+      タスクリストのタスクの期間を更新する際は、時間の単位の省略形を使用できます。 </p> </li> 
+      </ul> 
+      <p> 次の表にある通常時間または経過時間のオプションから選択できます。 </p> 
+      <table style="table-layout:auto"> 
+      <col> 
+      <col data-mc-conditions=""> 
+      <tbody> 
+      <tr> 
+      <td>時間の単位</td> 
+      <td>省略形</td> 
+      </tr> 
+      <tr> 
+      <td>分</td> 
+      <td>M</td> 
+      </tr> 
+      <tr> 
+      <td>時間</td> 
+      <td>H</td> 
+      </tr> 
+      <tr> 
+      <td>日 これがデフォルトです。 </td> 
+      <td>D</td> 
+      </tr> 
+      <tr> 
+      <td>週</td> 
+      <td>W</td> 
+      </tr> 
+      <tr> 
+      <td>か月</td> 
+      <td>T</td> 
+      </tr> 
+      <tr> 
+      <td>経過時間数 (分)</td> 
+      <td>EM</td> 
+      </tr> 
+      <tr> 
+      <td>経過時間数</td> 
+      <td>EH</td> 
+      </tr> 
+      <tr> 
+      <td>経過日数</td> 
+      <td>ED</td> 
+      </tr> 
+      <tr> 
+      <td>経過週数</td> 
+      <td>EW</td> 
+      </tr> 
+      <tr> 
+      <td>経過月数</td> 
+      <td>ET</td> 
+      </tr> 
+      </tbody> 
+   </table>
+
+   <p><b>メモ</b>
+
+   <p>経過時間は、タスクの期間の時間単位です。タスクの予定開始日から予定完了日までの時間で、休日、週末および休暇を含みます。つまり、経過時間はカレンダーの日数の経過です。
+
+   通常の時間は、休日、週末および休暇を考慮し、これらをタスクの期間から除外します。タスクの期間について詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。 </p>
+   </div> 
+      </div> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">予定時間数</td> 
+      <td> <p>タスクの予定時間数を時間単位で指定します。 これは、タスクの担当者が完了するまでにかかる実際の時間です。 タスクの予定時間数を指定できるのは、[ 期間タイプ ] が [ 割り当て計算 ] に設定されている場合のみです。 期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</p> 
+      <b>メモ</b>
+      <p>
+      繰り返しタスクを作成する場合、予定時間数はそれぞれの繰り返しタスクの時間です。親タスクの予定時間数は、すべてのタスクからのすべての予定時間数の合計です。繰り返しタスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクを作成</a>を参照してください。
+      </p>
+
+   </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">配分</td> 
+      <td> <p>タスクの制約事項が「予定作業」または「残存作業時間の優先」である場合は、それぞれの担当者の<strong>配分 ％</strong>（配分率）を指定します。これは、担当者がスケジュールからこのタスクに費やすことができる時間です。担当者の配分率を変更すると、タスクの予定時間数が変更されます。 </p> <p>タスクの制約事項が「シンプル」の場合は、以下の項目を指定することができます。</p> 
+         <ul> 
+         <li> <p>それぞれの担当者の時間配分数。</p> </li> 
+         <li> <p>タスクの予定時間数</p> </li> 
+         <li> <p>タスクの期間</p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">割り当て先の役割</td> 
+      <td> <p>個人を担当者として選択した場合は、「<strong>担当者の役割</strong>」ドロップダウンメニューから役割を選択します。これは、担当者がこのタスクで果たすことができる役割です。 </p> <p><b>ヒント</b>
+
+   プロファイル内で各担当者に関連付けられている担当業務のみがドロップダウンメニューに表示されます。</p> </td>
+   </tr>
+   </tbody>
+   </table>
 
 1. 「**変更を保存**」をクリックするか <!--<span class="preview"> or **Save** </span> --> 次の節を続行します。
 
@@ -685,7 +687,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 「**カスタムフォームを追加**」をクリックし、タスクに関連付けるカスタムフォームまたはフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。
 
-   カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。タスクには最大 10 個のカスタムフォームを追加できます
+   カスタムフォームの作成について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。タスクには最大 10 個のカスタムフォームを追加できます
 
 1. （条件付き）カスタムフォームをタスクに添付した場合は、フォーム上の任意のフィールドを編集します。タスクを保存する前に、必須フィールドをすべて指定する必要があります。
 
@@ -809,7 +811,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. [タスクを編集](#Edit2)の節の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで **コメント** をクリックします。
 
-   ![&#x200B; タスクを編集ボックスの「コメント」セクション &#x200B;](assets/comment-section-on-edit-task-box.png)
+   ![ タスクを編集ボックスの「コメント」セクション ](assets/comment-section-on-edit-task-box.png)
 
 1. 指定されたスペースに更新を追加します。
 1. （オプション）次のいずれかを更新に追加します。
@@ -837,7 +839,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * タスク名
 * 完了率
 
-  詳しくは、[&#x200B; タスクの完了率の表示と更新 &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
+  詳しくは、[ タスクの完了率の表示と更新 ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
 * 割り当て
 * 予定完了日
 
@@ -852,4 +854,4 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 リスト内のタスクに加えた変更を自動的に保存する場合は、リスト内のタスクを一括で編集し、そのすべての情報を同時に更新できます。
 
-タスクの一括保存について詳しくは、「リストでのタスクの編集 [&#x200B; の「タスクの一括編集」の節を参照してくだ &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) い。
+タスクの一括保存について詳しくは、「リストでのタスクの編集 [ の「タスクの一括編集」の節を参照してくだ ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) い。
