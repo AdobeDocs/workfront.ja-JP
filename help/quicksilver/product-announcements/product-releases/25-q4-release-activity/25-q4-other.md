@@ -5,18 +5,46 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
+source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 32%
+source-wordcount: '470'
+ht-degree: 22%
 
 ---
 
 # 2025 年第 4 四半期のリリース期間中のその他の機能強化
 
-このページでは、2025 年第 4 四半期リリースでプレビュー環境に加えられた機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
+このページでは、2025 年第 4 四半期リリースでプレビュー環境に加えられた機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2025年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)を参照してください。
+
+## 「レポートの概要」タブの更新
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 10 月 13 日（PT）
+>* 実稼動高速リリース：2025 年 10 月 13 日（PT）
+>* 実稼動版（すべてのお客様向け）：2025年10月13日（PT）
+>[!BADGE 予定外 ]{type=Neutral}
+
+レポートの「概要」タブが更新され、次の機能が強化されました。
+
+* 各行の先頭にプレフィックスが付くグループ化フィールド名は、最初の列ヘッダーに移動しました。
+
+* レポートに複数のグループ化レベルが適用される場合、名前列はスラッシュで区切られるようになりました（スラッシュで区切られる）。
+
+* 集計タイププレフィックス（&quot;Sum: &quot;、&quot;Max:&quot;、&quot;Min:&quot;、&quot;Avg:&quot;）が各集計から削除されました。
+
+* 各列の集計タイプが、列ヘッダー値の付録として表示されるようになりました。
+
+* サブグループ（2 または 3 のグループ）は、最初の列にインデントされたレベルとして表示されます。 トップレベルのグループ化は、引き続き太字で表示されます。
+
+* 列幅を調整できるようになりました。 列は、ページを更新すると、デフォルトの幅の配分に戻ります。
+
+>[!NOTE]
+>
+>最初の 4 つの変更は、「概要」タブの書き出しにも適用されます（該当する場合）。 レベルのインデントと太字フォントは、書き出されたタブ区切りのテキストファイルには転送されません。
+
 
 ## Adobeの統合エクスペリエンスを多数のWorkfront組織で利用できるようになりました
 
@@ -54,4 +82,4 @@ Workfront管理者には、組織がAdobe統合エクスペリエンスに移行
 * 自分の要求ウィジェット
 * 優先度
 
-詳しくは、[&#x200B; 拡張リストの使用 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
+詳しくは、[ 拡張リストの使用 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
