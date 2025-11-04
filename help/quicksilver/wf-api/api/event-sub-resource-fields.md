@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 85%
+source-wordcount: '1043'
+ht-degree: 75%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 イベントサブスクリプションリソースフィールドは、イベントサブスクリプションで設定済みのエンドポイントにアウトバウンドメッセージを送信するイベントのトリガーを表します。リソースフィールドが編集されると、UPDATE イベントがトリガーされます。
 
-データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、Event Subscription API の記事 [&#x200B; ネストされたフィルターの使用 &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) を参照してください。
+データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、Event Subscription API の記事 [ ネストされたフィルターの使用 ](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) を参照してください。
 
 次の表に、イベントサブスクリプションリソースで使用できるフィールドを示します。
 
@@ -487,7 +487,7 @@ ht-degree: 85%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>メモ：LastUpdateDate は、毎日初めて更新されたときにのみイベントをトリガーします。 </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>注意：LastUpdateDate は、各日に初めて更新された場合にのみイベントをトリガーします。 </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -527,12 +527,32 @@ ht-degree: 85%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>checkedOutByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>currentVersionID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>顧客：ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>customer:isAdvancedDocMgmtEnabled</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>顧客：名前</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>顧客：objCode</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -633,6 +653,16 @@ ht-degree: 85%
    <td> </td> 
    <td> </td> 
    <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>プロジェクト：programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>プロジェクト：portfolioID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -762,6 +792,11 @@ ht-degree: 85%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
+   <td><span>parameterValues</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> </td> 
+   <td> </td> 
    <td><span>proofApprovalStatusID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -817,6 +852,11 @@ ht-degree: 85%
   <tr> 
    <td>費用</td> 
    <td>EXPNS</td> 
+   <td>accessorIDs </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> actualAmount </td> 
   </tr> 
   <tr> 
@@ -1117,7 +1157,22 @@ ht-degree: 85%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>assignedApproverID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>billingRecordID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>categoryID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>classifierID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1212,6 +1267,11 @@ ht-degree: 85%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>rejectedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>roleID</td> 
   </tr> 
   <tr> 
@@ -1223,6 +1283,11 @@ ht-degree: 85%
    <td> </td> 
    <td> </td> 
    <td>ステータス</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>submittedByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1577,6 +1642,16 @@ ht-degree: 85%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>プロジェクト：programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>プロジェクト：portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>proofActionID</td> 
   </tr> 
   <tr> 
@@ -1797,6 +1872,11 @@ ht-degree: 85%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>aemNativeFolderTreesRefID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>alignmentScoreCardID</td> 
   </tr> 
   <tr> 
@@ -1808,6 +1888,11 @@ ht-degree: 85%
    <td> </td> 
    <td> </td> 
    <td>attachedRateCardID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachedRateCard:sourceID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1952,12 +2037,22 @@ ht-degree: 85%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>preserveBilling</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
    <td>優先度</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>privateRateCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2128,6 +2223,11 @@ ht-degree: 85%
    <td> </td> 
    <td> </td> 
    <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedBy</td> 
   </tr> 
   <tr> 
    <td>レコードタイプ<p><p>（イベント サブ v2）</p> </td> 
@@ -2340,6 +2440,413 @@ ht-degree: 85%
    <td>viewID</td> 
   </tr> 
   <tr> 
+   <td>人材の配置プラン<p>（イベント サブ v2）</p></td> 
+   <td>スタッフ</td> 
+   <td>accessorIDs</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attachedRateCardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>categoryID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> companyID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 通貨 </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> customerID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>説明</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>endDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>enteredByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>entryDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>groupID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>名前</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ownerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterValues</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>privateRateCardID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>referenceNumber</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>startDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedCost</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedHours</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedRevenue</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>url</td> 
+  </tr> 
+  <tr> 
+   <td>スタッフ計画パラメーター値 <p>（イベント サブ v2）</p></td> 
+   <td>SPVAL</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>dateVal</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> numberVal </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterName</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>リッチテキスト ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>textVal</td> 
+  </tr> 
+  <tr> 
+   <td>人材の配置プランリソース <p>（イベント サブ v2）</p></td> 
+   <td>スタッフ</td> 
+   <td>accessorIDs</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>assignedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>assignedToID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> categoryID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> customerID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> entryDate </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastUpdatedByID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>olv</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterValues</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>roleID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>スタッフ計画 ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedCost</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedHours</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>totalEstimatedRevenue</td> 
+  </tr> 
+  <tr> 
+   <td>スタッフ計画のリソース属性値<p>（イベント サブ v2）</p></td> 
+   <td>スパーバル</td> 
+   <td>attributeAttachableID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>attributeValueSetID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> rateAttributeID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>refClassifierID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>refCompanyID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>refGroupId</td> 
+  </tr> 
+  <tr> 
+   <td>スタッフ計画資源属性値セット <p>（イベント サブ v2）</p></td> 
+   <td>SAVSET</td> 
+   <td>attributeAttachableID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> systemGenerated </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td>スタッフ計画のリソース パラメーター値 <p>（イベント サブ v2）</p></td> 
+   <td>SVAL</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>dateVal</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> numberVal </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objID</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>parameterName</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>リッチテキスト ID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>textVal</td> 
+  </tr> 
+  <tr> 
    <td>タスク</td> 
    <td>タスク</td> 
    <td>accessorIDs</td> 
@@ -2488,6 +2995,16 @@ ht-degree: 85%
    <td> </td> 
    <td> </td> 
    <td>projectID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>プロジェクト：programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>プロジェクト：portfolioID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2978,6 +3495,11 @@ ht-degree: 85%
    <td> </td> 
    <td> </td> 
    <td>uumUserID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>userRoles <p>メモ：このフィールドで使用できるのは、変更された比較演算子のみです</p></td> 
   </tr> 
   <tr> 
    <td> </td> 

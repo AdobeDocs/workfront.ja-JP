@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 77%
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 77%
 
 ## イベント購読の過負荷を回避
 
-イベント購読サービスは、すべてのユーザーに信頼性の高いイベント配信を提供するように設計されています。 これを確実にするために、すべてのユーザーにサービス品質の問題が発生する可能性がある 1 人のユーザーによる過剰なイベント生成を防ぐ対策が講じられています。 その結果、短時間に大量のイベントを高率で発生させるユーザーの場合、サンドボックス化やイベント配信の遅延が発生する可能性があります。
+イベント購読サービスは、すべてのユーザーに信頼性の高いイベント配信を提供するように設計されています。 これを確実にするために、すべてのユーザーに対してサービス品質の問題を引き起こす可能性がある 1 人のユーザーによる過剰なイベント生成を防ぐ対策が講じられています。その結果、短期間に多すぎるイベントを高率で生成するユーザーの場合、サンドボックス化やイベント配信の遅延が発生する可能性があります。
 
 ## 猶予期間内のテストの完了
 
@@ -53,6 +53,4 @@ ht-degree: 77%
 * アクセスレベル：**システム管理者**
 詳しくは、[ユーザーに完全な管理アクセス権を付与する](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)または[特定の領域に対する管理者アクセス権をユーザーに付与する](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
-* イベント登録 API を使用するには `sessionID` ヘッダーが必要です
-
-  詳しくは、[API の基本](api-basics.md)の[認証](api-basics.md#authentication)を参照してください。
+* Adobe IMS（Identity Management System）を使用する場合は、`X-User-Token` ヘッダーで渡される IMS ユーザートークンを含めます。
