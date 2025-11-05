@@ -6,10 +6,10 @@ description: リスト内の複数のイシューに対するユーザー割り�
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 49%
+source-wordcount: '968'
+ht-degree: 46%
 
 ---
 
@@ -19,6 +19,14 @@ ht-degree: 49%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
+
+<div class="preview">
+
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+
+</div>
 
 複数のイシューに対するユーザーの割り当てを同時に変更できます。 イシューの編集または一度に 1 つずつ割り当てる方法について詳しくは、次の記事も参照してください。
 
@@ -95,7 +103,7 @@ ht-degree: 49%
       イシューのリストは、フィルター条件に合わせて自動的にフィルタリングされます。
    1. （オプション）「**新規保存**」をクリックして、「**保存**」をクリックします。
 
-1. 割り当てを変更するイシューを選択して、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
+1. 割り当てを変更するイシューを選択して、**編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
 
    **イシューの編集**&#x200B;が表示されます。選択した項目の数は、ページの左上隅に表示されます。
 
@@ -103,7 +111,7 @@ ht-degree: 49%
 
    1. 「**割り当て**」セクションに移動して、「**割り当て先**」を選択します。
 
-      ![&#x200B; 割り当てエリア &#x200B;](assets/classic-assignmens-area-on-edit-box-350x119.png)
+      ![ 割り当てエリア ](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
    1. 次のいずれかの操作を行います。
 
@@ -153,7 +161,7 @@ ht-degree: 49%
       >
       ><span class="preview"> 選択したすべてのイシューに割り当てられた担当者のみが **割り当て** 領域に表示されます。</span>
 
-      ![&#x200B; 一括編集のイシューの「割り当て」エリア &#x200B;](assets/assignments-area-on-bulk-edit-issues.png)
+      ![ 一括編集のイシューの「割り当て」エリア ](assets/assignments-area-on-bulk-edit-issues.png)
 
    1. <span class="preview"> ユーザー、役割またはチームの名前の入力を開始して、選択したすべてのイシューに担当者を追加します。</span>
 

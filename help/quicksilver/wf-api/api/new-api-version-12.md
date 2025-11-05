@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 100%
+source-wordcount: '2421'
+ht-degree: 99%
 
 ---
 
@@ -851,7 +851,7 @@ ScoreCardQuestion オブジェクトは、スコアカードに追加された�
 
 TemplateTask オブジェクトは、テンプレートに含まれるタスクを表します。テンプレートタスクは、テンプレートが使用されるプロジェクト内のタスクになります。
 
-テンプレートタスクについて詳しくは、[テンプレートタスクの編集](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)を参照ください。
+テンプレートタスクについて詳しくは、「[ テンプレートタスクの編集 ](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)」を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 

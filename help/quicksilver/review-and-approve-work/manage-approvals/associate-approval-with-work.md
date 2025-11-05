@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 3d12c144552474439b247739b47de9454a2233f2
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1821'
 ht-degree: 91%
 
 ---
@@ -123,19 +123,19 @@ Workfront 管理者がシステム内のすべてのグループに対してグ�
 1. 承認プロセスを関連付ける作業アイテムに移動します。
 1. 左パネルの「**承認**」をクリックします。
 
-   ![&#x200B; タスクの承認セクション &#x200B;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![ タスクの承認セクション ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
-1. ![&#x200B; 既存の承認を使用または単一使用の承認を作成 &#x200B;](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
+1. ![ 既存の承認を使用または単一使用の承認を作成 ](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    選択した承認プロセスが表示されます。
 
 1. **既存のものを使用**&#x200B;ドロップダウンメニューを展開して、既存の承認プロセスを選択します。
 
-   ![&#x200B; 承認メニュー &#x200B;](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![ 承認メニュー ](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
    選択した承認プロセスが表示されます。
 
-   ![&#x200B; タスクに既存の承認が添付されています &#x200B;](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
+   ![ タスクに既存の承認が添付されています ](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. 「**保存**」をクリックします。
 1. （オプション）項目に添付した既存の承認を変更する場合は、「承認プロセスを編集」をクリックします。これにより、グローバル承認プロセスが単一使用承認プロセスに変更されます。詳しくは、この記事の[特定のオブジェクトで使用するグローバル承認プロセスの変更](#modify-a-global-approval-process-for-use-on-a-specific-object)の節を参照してください。
@@ -168,7 +168,7 @@ Workfront 管理者がシステム内のすべてのグループに対してグ�
    >
    >承認を追加する際は、必ず「**保存**」をクリックします。
 
-1. グローバル承認プロセスを追加したら、承認ページの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。 このアクションにより、グローバルまたはグループレベルの承認プロセスが、単一使用承認プロセスに変わります。
+1. グローバル承認プロセスを追加したら、承認ページの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。 このアクションにより、グローバルまたはグループレベルの承認プロセスが、単一使用承認プロセスに変わります。
 1. 既存の承認プロセスに変更を加えます。詳しくは、この記事の[プロジェクト、タスク、イシュー、テンプレートまたはテンプレートタスクへの単一使用承認プロセスの関連付け](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task)の節を参照してください。
 1. グローバル承認プロセスを、このオブジェクトでのみ使用可能な単一使用承認プロセスに変換することを確定するには、「**保存**」をクリックしたあと、再度「**保存**」をクリックします。
 
@@ -191,11 +191,11 @@ Workfront 管理者がシステム内のすべてのグループに対してグ�
 1. 承認プロセスを関連付けるプロジェクト、タスク、イシュー、テンプレートまたはテンプレートタスクに移動します。
 1. 左パネルの「**承認**」をクリックします。
 
-   ![&#x200B; タスクの承認セクション &#x200B;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![ タスクの承認セクション ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. 「**1 回の使用を作成**」をクリックします。
 
-   ![&#x200B; 承認メニュー &#x200B;](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![ 承認メニュー ](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
 1. [作業項目の承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)の記事の「作業項目のシステムレベルまたはグループレベルのグローバル承認プロセスの作成」の手順 6 からの手順を実行します。
 
@@ -208,7 +208,7 @@ Workfront 管理者がシステム内のすべてのグループに対してグ�
    >単一使用承認プロセスを添付すると、テンプレートおよびテンプレートタスクの編集ボックス内の「承認プロセス」フィールドに「`<Custom>`」として表示されます。テンプレートやテンプレートタスクの編集については、次の記事を参照してください。
    >
    >* [プロジェクトテンプレートの編集](../../manage-work/projects/create-and-manage-templates/edit-templates.md)
-   >* [テンプレートタスクの編集](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
+   >* [ テンプレートタスクの編集 ](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
 
    <!--
    ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be removed when they bring the new Edit Template/ Template Task boxes to NWE) </p>   >
@@ -228,12 +228,12 @@ Workfront 管理者がシステム内のすべてのグループに対してグ�
 1. 以前に追加した承認プロセスを解除するプロジェクト、タスク、イシュー、テンプレートまたはテンプレートタスクに移動します。
 1. 左パネルの「**承認**」をクリックします。
 
-   ![&#x200B; タスクの承認セクション &#x200B;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![ タスクの承認セクション ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. 項目に関連付けられている承認のタイプに応じて、「承認」セクションの右上隅にある次のアイコンの 1 つをクリックします。
 
-   * グローバルまたはグループレベルの承認用の **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/remove-icon---x-in-circle.png)。
-   * 1 回限りの承認の場合は **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png)
+   * グローバルまたはグループレベルの承認用の **削除** アイコン ![ 削除アイコン ](assets/remove-icon---x-in-circle.png)。
+   * 1 回限りの承認の場合は **削除** アイコン ![ 削除アイコン ](assets/delete.png)
 
 1. **解除**&#x200B;または&#x200B;**削除**&#x200B;アイコンをクリックして確定します。
 
