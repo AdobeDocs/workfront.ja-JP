@@ -53,7 +53,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 * リストとレポート（割り当てフィールドがビューに表示されている場合）。
 * タスクの編集時の「割り当て」セクション。
 
-。詳しくは、[ タスクの編集 ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) を参照してください。<!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+。詳しくは、[&#x200B; タスクの編集 &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) を参照してください。<!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
 * 割り当て領域のタスクまたはイシューのヘッダー。
 * ワークロードバランサー内（詳しくは、[ワークロードバランサーを使用した手動による作業の割り当て](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)を参照してください）
 
@@ -98,7 +98,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
    >[!TIP]
    >
    >タスクまたは問題リストで直接詳細な割り当てを行うことができます。 タスクまたは問題と同じ行の「**割り当て**」フィールド内をクリックし、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン** をクリックして、「詳細な割り当て」ウィンドウを開きます。 高度な割り当ての作成を続行するには、手順 5 に進んでください。
-   >![ 「詳細」または「人物」アイコンをクリックします ](assets/access-aa-from-lists.png)。
+   >![&#x200B; 「詳細」または「人物」アイコンをクリックします &#x200B;](assets/access-aa-from-lists.png)。
 
 1. タスクまたはイシューのヘッダーにある&#x200B;**割り当て**&#x200B;フィールドの「**割り当て先**」をクリックします。
 
@@ -108,7 +108,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
 1. 「**詳細**」をクリックします。
 
-   ![ 「詳細」をクリック ](assets/assignments-from-task-header-0825.png)
+   ![&#x200B; 「詳細」をクリック &#x200B;](assets/assignments-from-task-header-0825.png)
 
 1. 「**ユーザー、役割、チームを検索**」フィールドにユーザー、役割、チームの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
@@ -156,7 +156,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
    * **割り当て先の役割：**&#x200B;この割り当てを実行する際にユーザーが使用する役割を選択します。デフォルトでは、ユーザーの主要役割が表示されます。「**担当者の役割**」ボックスをクリックして、別の役割を選択します。 最初にタスクやイシューを役割に割り当て、次にその役割を実行できるユーザーを 2 番目の割り当てとして追加すると、ユーザー候補のリストは、タスクやイシューに既に割り当てられている役割を実行できるユーザーに絞り込まれます。
 
-     ![ 割り当て先の役割 ](assets/advanced-assignments-select-role.png)
+     ![&#x200B; 割り当て先の役割 &#x200B;](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
 

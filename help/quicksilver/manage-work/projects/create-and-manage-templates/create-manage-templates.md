@@ -29,7 +29,7 @@ ht-degree: 97%
 * [プロジェクトへのテンプレート添付の概要](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
 * [プロジェクトへのテンプレートの添付](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [プロジェクトテンプレートの編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)
-* [ テンプレートタスクの編集 ](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
+* [&#x200B; テンプレートタスクの編集 &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
 * [プロジェクトからのテンプレートの作成](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)
 * [プロジェクトテンプレートを共有](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [プロジェクトからのテンプレート情報の削除](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)

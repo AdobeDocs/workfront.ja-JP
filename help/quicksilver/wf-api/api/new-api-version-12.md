@@ -851,7 +851,7 @@ ScoreCardQuestion オブジェクトは、スコアカードに追加された�
 
 TemplateTask オブジェクトは、テンプレートに含まれるタスクを表します。テンプレートタスクは、テンプレートが使用されるプロジェクト内のタスクになります。
 
-テンプレートタスクについて詳しくは、「[ テンプレートタスクの編集 ](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)」を参照してください。
+テンプレートタスクについて詳しくは、「[&#x200B; テンプレートタスクの編集 &#x200B;](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)」を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 

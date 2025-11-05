@@ -24,7 +24,7 @@ ht-degree: 46%
 
 このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+詳しくは、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 </div>
 
@@ -103,7 +103,7 @@ ht-degree: 46%
       イシューのリストは、フィルター条件に合わせて自動的にフィルタリングされます。
    1. （オプション）「**新規保存**」をクリックして、「**保存**」をクリックします。
 
-1. 割り当てを変更するイシューを選択して、**編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
+1. 割り当てを変更するイシューを選択して、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
 
    **イシューの編集**&#x200B;が表示されます。選択した項目の数は、ページの左上隅に表示されます。
 
@@ -111,7 +111,7 @@ ht-degree: 46%
 
    1. 「**割り当て**」セクションに移動して、「**割り当て先**」を選択します。
 
-      ![ 割り当てエリア ](assets/classic-assignmens-area-on-edit-box-350x119.png)
+      ![&#x200B; 割り当てエリア &#x200B;](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
    1. 次のいずれかの操作を行います。
 
@@ -161,7 +161,7 @@ ht-degree: 46%
       >
       ><span class="preview"> 選択したすべてのイシューに割り当てられた担当者のみが **割り当て** 領域に表示されます。</span>
 
-      ![ 一括編集のイシューの「割り当て」エリア ](assets/assignments-area-on-bulk-edit-issues.png)
+      ![&#x200B; 一括編集のイシューの「割り当て」エリア &#x200B;](assets/assignments-area-on-bulk-edit-issues.png)
 
    1. <span class="preview"> ユーザー、役割またはチームの名前の入力を開始して、選択したすべてのイシューに担当者を追加します。</span>
 
