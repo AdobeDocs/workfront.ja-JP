@@ -4,7 +4,7 @@ description: このページでは、2026 年第 1 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1c4f81babf6cdc6579fa633c1a776c151219a6bf
+source-git-commit: 7900629ccffae809ed97dbeae5d27ddff69536d5
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 22%
@@ -31,7 +31,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >|----|----|
 >| <ul><li>25.11 （2025 年 11 月 13 日（PT））</li><li>25.12 （2025 年 12 月 11 日（PT））</li><li>26.1 （2026 年 1 月 14 日（Pt））</li></ul> | <ul><li>26.1 （2026 年 1 月 15 日（Pt））</li></ul> |
 >
->各四半期の最終リリース（今四半期 25.10）では、迅速リリーススケジュールのユーザーに対して、1 日早いリリース（2025 年 10 月 15 日（PT））が届きます。
+>各四半期の最終リリース（今四半期 26.1）では、迅速リリーススケジュールのユーザーに対して、1 日早い（2026 年 1 月 14 日（PT））リリースが届きます。
 >
 >迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
 
@@ -168,7 +168,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## インターフェイスの最新化
 
-ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 ## その他の領域のリリースノート
 
@@ -178,7 +178,7 @@ Workfront Fusion の新機能は、標準のリリーススケジュール以外
 
 ### Workfront計画の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 1 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md) を参照してください。
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 1 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md) を参照してください。
 
 このリリースの現時点では、次の更新はありません。
 
@@ -210,13 +210,13 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Microsoft Teams用Workfrontの新しいバージョン
 
-[Microsoftが新しい Teams クライアント &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
+[Microsoftが新しい Teams クライアント ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 
-更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。 新しい Teams クライアントでWorkfront統合をインストールまたは検証するには、[Microsoft Teams用のインストール  [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) を参照してください。
+更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。 新しい Teams クライアントでWorkfront統合をインストールまたは検証するには、[Microsoft Teams用のインストール  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) を参照してください。
 
 ### Workfront for Microsoft Outlook
 
-[Microsoftでは、従来の Exchange オンライン トークン &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
+[Microsoftでは、従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
 
 * **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
 
@@ -231,7 +231,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 
 ### Workfront のメンテナンスアップデート
