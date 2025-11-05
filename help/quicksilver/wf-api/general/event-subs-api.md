@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
 workflow-type: tm+mt
-source-wordcount: '3060'
-ht-degree: 67%
+source-wordcount: '3097'
+ht-degree: 66%
 
 ---
 
@@ -153,6 +153,10 @@ ht-degree: 67%
         <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>ドキュメントのバージョン</p></td> 
+        <td scope="col">DOCV </td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>費用</p></td> 
         <td scope="col">EXPNS</td> 
        </tr> 
@@ -185,6 +189,10 @@ ht-degree: 67%
         <td scope="col"><p>PROJ</p></td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>プルーフの承認</p></td> 
+        <td scope="col"><p>PRFAPL</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>レコード</p></td> 
         <td scope="col"><p>RECORD</p></td> 
        </tr> 
@@ -195,6 +203,30 @@ ht-degree: 67%
        <tr> 
         <td scope="col"><p>レポート</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人材の配置プラン</p></td> 
+        <td scope="col"><p>スタッフ</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>スタッフ計画パラメーター値</p></td> 
+        <td scope="col"><p>SPVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>人材の配置プランリソース</p></td> 
+        <td scope="col"><p>スタッフ</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>スタッフ計画のリソース属性値</p></td> 
+        <td scope="col"><p>スパーバル</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>スタッフ計画資源属性値セット</p></td> 
+        <td scope="col"><p>SAVSET</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>スタッフ計画のリソース パラメーター値</p></td> 
+        <td scope="col"><p>SVAL</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>タスク</p></td> 
@@ -481,7 +513,7 @@ Workfrontには、2 つのバージョンのイベント購読があります。
 
 イベント購読をアップグレードまたはダウングレードする機能により、イベントの構造に変更が加えられても既存の購読が壊れずに、イベント購読に隙間なく新しいバージョンのテストとアップグレードが可能になります。
 
-バージョンと重要な日付の具体的な違いなど、イベント購読のバージョン管理について詳しくは、[&#x200B; イベント購読のバージョン管理 &#x200B;](/help/quicksilver/wf-api/general/event-subs-versioning.md) を参照してください。
+バージョンと重要な日付の具体的な違いなど、イベント購読のバージョン管理について詳しくは、[ イベント購読のバージョン管理 ](/help/quicksilver/wf-api/general/event-subs-versioning.md) を参照してください。
 
 >[!NOTE]
 >
