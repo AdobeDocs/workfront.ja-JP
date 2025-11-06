@@ -21,7 +21,7 @@ ht-degree: 50%
 
 このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+詳しくは、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 </div>
 
@@ -118,7 +118,7 @@ ht-degree: 50%
 
    「**新規テンプレートタスク**」をクリックして、「**新規テンプレートタスク**」ボックスでテンプレートへのタスクの追加を開始します。
 
-   ![ 新規テンプレート タスク ボックス ](assets/new-template-task-box.png)
+   ![&#x200B; 新規テンプレート タスク ボックス &#x200B;](assets/new-template-task-box.png)
 
    <span class="preview"> 新しいエクスペリエンスに **テンプレートタスクを作成** ボックスが開きます。</span>
 
@@ -156,7 +156,7 @@ ht-degree: 50%
    * カスタムフォーム
    * ドキュメントの添付
 
-     テンプレートタスクの情報の更新は、プロジェクトのタスクの編集に似ています。 詳しくは、[ タスクの編集 ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) を参照してください。<!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+     テンプレートタスクの情報の更新は、プロジェクトのタスクの編集に似ています。 詳しくは、[&#x200B; タスクの編集 &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) を参照してください。<!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ ht-degree: 50%
    >
    >このガントチャートから直接タスクを編集することはできません。
 
-1. 新しいテンプレートに情報を追加するには、ヘッダーのテンプレート名の左側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックしてから、「**編集** をクリックします。
+1. 新しいテンプレートに情報を追加するには、ヘッダーのテンプレート名の左側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、「**編集** をクリックします。
 
    テンプレートの編集について詳しくは、[プロジェクトテンプレートの編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
 
@@ -181,7 +181,7 @@ ht-degree: 50%
    >
    >   プロジェクトテンプレートとグループの関連付け（またはグループの欠如）は、プロジェクト、タスク、イシューの環境設定によってテンプレートの特定の設定が決定される方法に影響します。
    >
-   >詳しくは、「グループのプロジェクトテンプレートの作成と変更 [ の記事の「環境設定がテンプレートとテンプレートタスクに適用される方法 ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md) を参照してください。
+   >詳しくは、「グループのプロジェクトテンプレートの作成と変更 [&#x200B; の記事の「環境設定がテンプレートとテンプレートタスクに適用される方法 &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md) を参照してください。
 
 1. 「**保存**」をクリックします。
 1. （オプション）次の項目をテンプレートに追加します
@@ -200,7 +200,7 @@ ht-degree: 50%
    * 費用
    * 承認
 
-   詳しくは、「プロジェクトテンプレートの編集 [ の「テンプレートにさらに項目を追加する」の節を参照し ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) ください。
+   詳しくは、「プロジェクトテンプレートの編集 [&#x200B; の「テンプレートにさらに項目を追加する」の節を参照し &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) ください。
 
 
 
