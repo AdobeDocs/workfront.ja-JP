@@ -67,7 +67,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++ 
 
@@ -158,7 +158,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. タイムラインを表示するレコードタイプページに移動します。
 1. タイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
-   ![ タイムラインビューの例 ](assets/timeline-view-example.png)
+   ![&#x200B; タイムラインビューの例 &#x200B;](assets/timeline-view-example.png)
 
    選択したレコードタイプに関連付けられたレコードは、タイムラインにバーとして表示され、デフォルトでは開始日の時系列で並べ替えられます。
 
@@ -172,7 +172,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    * 四半期の日付の間にギャップや重複が検出された場合、カスタム四半期が設定可能になり、編集が必要になる可能性があるという通知が届く場合があります。
 
-     ![ カスタム四半期通知が見つからないか、四半期間にギャップがある ](assets/custom-quarter-notification-missing-or-gaps.png)
+     ![&#x200B; カスタム四半期通知が見つからないか、四半期間にギャップがある &#x200B;](assets/custom-quarter-notification-missing-or-gaps.png)
 
      >[!TIP]
      >
@@ -180,7 +180,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    * 四半期が部分的に設定され、同じ年に属する数か月が欠落している場合、スクロールして欠落している四半期を表示すると、その年の残りの期間も欠落している四半期で設定する必要があるという通知が表示される場合があります。
 
-   ![ タイムライン表示にカスタム四半期の元のメッセージが表示されない ](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+   ![&#x200B; タイムライン表示にカスタム四半期の元のメッセージが表示されない &#x200B;](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
    カスタム四半期に関する警告メッセージは、各ユーザーに 1 回表示されます。
 
@@ -188,7 +188,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >カスタム四半期が適切に保存されていない場合、タイムラインビューにはクラシック四半期が表示されます。
    >設定エリアでカスタム四半期を設定すると、タイムラインビューにクラシック四半期ではなくカスタム四半期が表示されます。
-   >詳しくは、[ カスタム四半期の有効化 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) を参照してください。
+   >詳しくは、[&#x200B; カスタム四半期の有効化 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) を参照してください。
 
 1. （条件付き）Workfrontの管理者の場合は、「**設定に移動**」をクリックして四半期を設定します。 そうでない場合は、「**OK**」をクリックし、Workfront管理者にカスタム四半期の設定を依頼します。
 
@@ -196,7 +196,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >「セットアップに移動」ボタンは、Workfront管理者の場合にのみ表示されます。
 
-1. （オプションおよび条件付き）レコード名が切り詰められている場合は、レコードバーにマウスポインターを置くと、レコードのフルネームと追加情報が表示されます。 タイムラインでのレコードバーの切り捨ての設定について詳しくは、この記事の [ タイムライン表示設定の編集 ](#edit-the-timeline-view-settings) を参照してください。
+1. （オプションおよび条件付き）レコード名が切り詰められている場合は、レコードバーにマウスポインターを置くと、レコードのフルネームと追加情報が表示されます。 タイムラインでのレコードバーの切り捨ての設定について詳しくは、この記事の [&#x200B; タイムライン表示設定の編集 &#x200B;](#edit-the-timeline-view-settings) を参照してください。
 
 1. タイムラインを移動するには、次のいずれかを行います。
 
@@ -212,9 +212,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
-   1. **検索** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックし、画面に表示されるレコードのフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しい一致のレコードがハイライト表示されます。
+   1. **検索** アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックし、画面に表示されるレコードのフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しい一致のレコードがハイライト表示されます。
 
-      ![ 検索ボックスと結果のタイムライン表示 ](assets/search-box-and-results-timeline-view.png)
+      ![&#x200B; 検索ボックスと結果のタイムライン表示 &#x200B;](assets/search-box-and-results-timeline-view.png)
 
       画面に表示される任意の単語や特殊文字を使用できます。
 
@@ -224,11 +224,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックすると、表内のすべての一致を確認できます。
    1. 検索ボックスの **x** アイコンをクリックすると、検索キーワードをクリアできます。
 
-   1. （オプション） **フルスクリーン** アイコン ![ フルスクリーンアイコンを開く ](assets/open-full-screen-icon.png) をクリックしてフルスクリーンでビューを開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了 ](assets/exit-full-screen-icon.png) またはキーボードの Esc キーをクリックしてフルスクリーンを終了します。
+   1. （オプション） **フルスクリーン** アイコン ![&#x200B; フルスクリーンアイコンを開く &#x200B;](assets/open-full-screen-icon.png) をクリックしてフルスクリーンでビューを開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了 &#x200B;](assets/exit-full-screen-icon.png) またはキーボードの Esc キーをクリックしてフルスクリーンを終了します。
 
 1. （任意） **分類** をクリックして、接続されたレコードをタイムラインに表示します。
 
-   詳しくは、この記事の [ 分類機能を使用して接続されたレコードをタイムライン ビューに表示する ](#break-down-connected-records-in-the-timeline-view) の節を参照してください。
+   詳しくは、この記事の [&#x200B; 分類機能を使用して接続されたレコードをタイムライン ビューに表示する &#x200B;](#break-down-connected-records-in-the-timeline-view) の節を参照してください。
 1. タイムラインビューでレコードを作成したり、日付を編集したりするには、次のいずれかの操作を行います。
 
    * タイムライン上の任意の場所をダブルクリックして、レコードを作成します。
@@ -278,7 +278,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 タイムラインビューにフィルターを追加するには：
 
-1. 「レコードビューの管理 [ の記事の説明に従って、レコードタイプのページのタイムライン ](/help/quicksilver/planning/views/manage-record-views.md) ビューを作成します。
+1. 「レコードビューの管理 [&#x200B; の記事の説明に従って、レコードタイプのページのタイムライン &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) ビューを作成します。
 1. タイムラインビューを選択し、テーブルの右上隅にある **フィルター** をクリックします。
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
 
@@ -352,7 +352,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    * 選択したフィールドの値を選択します。
 
-   ![ フィルター UI テーブル表示 ](assets/filter-ui-table-view.png)
+   ![&#x200B; フィルター UI テーブル表示 &#x200B;](assets/filter-ui-table-view.png)
 
    追加できるフィルタリング条件の数に制限はありません。
 
@@ -365,7 +365,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    1. （任意）追加のフィルターグループを追加し、**AND** または **OR** 演算子でそれらを結合します。
 
-      ![ ビューの多層化フィルター ](assets/multi-tiered-filters-in-views.png)
+      ![&#x200B; ビューの多層化フィルター &#x200B;](assets/multi-tiered-filters-in-views.png)
 
    レコードのリストは、フィルター条件に基づいて自動的にフィルタリングされます。 <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -401,7 +401,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. レコードタイプのタイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 1. タイムラインビューの右上隅にある&#x200B;**グループ化**&#x200B;をクリックします。
 
-   ![ リンクされたフィールドを使用した UI タイムラインビューのグループ化 ](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![&#x200B; リンクされたフィールドを使用した UI タイムラインビューのグループ化 &#x200B;](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 候補フィールドの 1 つをクリックするか、**別のフィールドを選択** をクリックして別のフィールドを検索し、リストに表示されたらクリックします。
 
@@ -411,7 +411,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
 
-   ![ タイムラインビューで適用されたグループ化 ](assets/grouping-applied-in-timeline-view.png)
+   ![&#x200B; タイムラインビューで適用されたグループ化 &#x200B;](assets/grouping-applied-in-timeline-view.png)
 
 1. 「**レコードのグループ化** ボックスで、グループ化を正しい順序でドラッグ&amp;ドロップします。
 
@@ -450,9 +450,9 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. （条件付きおよびオプション）Workfrontの管理者の場合は、「**カスタム四半期を使用** ボックスで **「設定に移動**」をクリックして「設定」エリアに移動し、カスタム四半期を設定します。 カスタム四半期を設定した後、クラシック四半期ではなくタイムラインビューに表示することができます。 Workfrontの管理者でない場合は、管理者に対してカスタム四半期が有効になるようにリクエストできます。
 
-   詳しくは、[ カスタム四半期の有効化 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) を参照してください。
+   詳しくは、[&#x200B; カスタム四半期の有効化 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) を参照してください。
 
-   ![ タイムライン表示設定内でカスタム四半期の警告を使用する ](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+   ![&#x200B; タイムライン表示設定内でカスタム四半期の警告を使用する &#x200B;](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 
    >[!TIP]
    >
@@ -469,7 +469,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!NOTE]
    >
-   >    タイムラインビューにサムネールを表示するには、まずテーブルビューにサムネールを追加する必要があります。詳しくは、[ レコードへのサムネールの追加 ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
+   >    タイムラインビューにサムネールを表示するには、まずテーブルビューにサムネールを追加する必要があります。詳しくは、[&#x200B; レコードへのサムネールの追加 &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
 
 1. **フィールドを追加** をクリックして、**フィールドを検索** ボックス内をクリックし、追加するフィールドをクリックします。
 
@@ -483,11 +483,11 @@ this is not possible right now; if this is the same functionality as the table v
 
    タイムライン上でバーがどのように表示されるかを示すプレビューが右側に表示されます。
 
-   ![ プレビューを使用したレコードの詳細パネルのタイムライン設定 ](assets/record-details-panel-timeline-settings-with-preview.png)
+   ![&#x200B; プレビューを使用したレコードの詳細パネルのタイムライン設定 &#x200B;](assets/record-details-panel-timeline-settings-with-preview.png)
 
 1. （オプションおよび条件付き）タイムラインを標準モードで表示する場合、「**バーの詳細を切り捨て**」設定を選択します。 選択すると、レコードバーの情報は切り捨てられ、バーにカーソルを合わせたときにのみ完全に表示されます。 この設定はデフォルトでは選択されておらず、レコード情報はバーに完全に表示されます。
 
-   ![ ハイライト表示された「タイムライン設定」ボックスで設定を切り捨てる ](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+   ![&#x200B; ハイライト表示された「タイムライン設定」ボックスで設定を切り捨てる &#x200B;](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
@@ -496,7 +496,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 左パネルの&#x200B;**カラー**&#x200B;をクリックすると、タイムラインのレコードとグループ化の色をカスタマイズできます。
 
-   ![ 「カラー」タブのタイムライン表示 ](assets/color-tab-timeline-view.png)
+   ![&#x200B; 「カラー」タブのタイムライン表示 &#x200B;](assets/color-tab-timeline-view.png)
 
    標準ビューで「分類」オプションを使用すると、接続されたレコードの色だけでなく、メインレコードの色も定義できます。
 
@@ -529,7 +529,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. （条件付き）レコードの色に&#x200B;**フィールド値**&#x200B;を選択した場合、**レコードの色を次と一致させる**&#x200B;ドロップダウンメニューからフィールドを選択します。
 
-   ![ タイムライン表示のフィールドセレクタードロップダウンメニュー ](assets/field-selector-drop-down-menu-timeline-view.png)
+   ![&#x200B; タイムライン表示のフィールドセレクタードロップダウンメニュー &#x200B;](assets/field-selector-drop-down-menu-timeline-view.png)
 
    ドロップダウンメニューには、色分けされたオプションを持つフィールドのみが表示されます。
 
@@ -565,7 +565,7 @@ this is not possible right now; if this is the same functionality as the table v
   Workfront計画レコードタイプのタイムラインビューでポートフォリオとプロジェクトの両方を表示する場合は、ポートフォリオとプロジェクトの両方を計画レコードか、管理しているタイムラインビューの計画レコードに接続されているレコードに接続する必要があります。
 * 少なくとも 2 つの日付フィールドに関連付けられているレコードタイプのみを表示できます。
 * タイムライン ビューに表示するレコード タイプの日付フィールドは、選択したレコード タイプのテーブル ビューにルックアップ フィールドとして表示されている必要があります。
-* タイムラインビューに表示するレコードタイプの開始日と終了日は、時系列順に並べる必要があります。 例えば、レコードの開始日が 1 月 31 日で、終了日が 1 月 1 日の場合、タイムラインビューには表示されません。 詳しくは、この記事の [ タイムライン表示の管理 ](#manage-a-timeline-view) の節を参照してください。
+* タイムラインビューに表示するレコードタイプの開始日と終了日は、時系列順に並べる必要があります。 例えば、レコードの開始日が 1 月 31 日で、終了日が 1 月 1 日の場合、タイムラインビューには表示されません。 詳しくは、この記事の [&#x200B; タイムライン表示の管理 &#x200B;](#manage-a-timeline-view) の節を参照してください。
 * レコードの分類に含めることができるレコードタイプは 5 つまでです。
 
 #### 接続されたレコードの分類
@@ -574,7 +574,7 @@ this is not possible right now; if this is the same functionality as the table v
 1. **標準** または **コンパクト** モードから、タイムラインビューの右上隅にある **分類** をクリックします。
 1. 「**リンクされたレコードタイプを選択**」ボックスを展開し、接続されたレコードタイプを選択します。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![ タイムライン表示の分類ピッカーとボタン ](assets/breakdown-picker-and-button-on-timeline.png)
+   ![&#x200B; タイムライン表示の分類ピッカーとボタン &#x200B;](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -589,7 +589,7 @@ this is not possible right now; if this is the same functionality as the table v
    他のレコードと接続されている場合は、タイムラインの選択されたレコードのバーに右向きの矢印が表示されます。
 1. 右向き矢印をクリックしてレコード タイプを展開し、その接続を表示します。<!--update screen shot at production-->
 
-   ![ タイムライン表示でプログラム別に分類されたキャンペーン ](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   ![&#x200B; タイムライン表示でプログラム別に分類されたキャンペーン &#x200B;](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
    >[!IMPORTANT]
    >
