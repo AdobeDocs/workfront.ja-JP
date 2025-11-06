@@ -19,7 +19,7 @@ ht-degree: 3%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
 
 ## Planning ビューの「フィルタ」、「フィールド」、「行の色」アイコンの新規フィールド検索ボックス
@@ -55,9 +55,9 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 
 詳しくは、次の記事を参照してください。
 
-* [ クロスワークスペースレコードタイプの概要 ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [&#x200B; クロスワークスペースレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
-* [ レコードタイプのワークスペース間機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [&#x200B; レコードタイプのワークスペース間機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
 * [別のワークスペースからの既存のレコードタイプの追加](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 
@@ -73,7 +73,7 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 
 注意：現在、組織に 1 つのレコードタイプに対して 30 を超える接続フィールドがある場合は、30 の制限を超える追加フィールドを保持できます。 ただし、制限を超えるレコードタイプに接続フィールドを追加することはできません。 今後、新しい制限の 30 個の接続フィールドが適用されます。
 
-詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+詳しくは、[&#x200B; 接続されたレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
 ## 選択タイプのフィールドの選択肢に対して、ユーザーにわかりやすい値を設定します
 
