@@ -3,10 +3,10 @@ title: '[!DNL Adobe Workfront] ドキュメント'
 description: ' [!DNL Adobe Workfront] のドキュメント。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: e8d0b180e39025e3d6775d1f90dbd5c8fad9025e
+source-git-commit: 37ec4097e4f48f8dab108c8f4a18790896306be5
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 20%
+source-wordcount: '402'
+ht-degree: 25%
 
 ---
 
@@ -21,8 +21,8 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 >[!TAB  最新リリース ]
 
 * [2026 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
-* [Adobe Workfront計画の 2026 年第 1 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
-* [Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Planning リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
+* [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
 >[!TAB 2025 リリース ]
 
@@ -30,10 +30,8 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 * [2025年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
 * [2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
 * [2025 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
-* [Adobe Workfrontの 2025 年第 4 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
-* [Adobe Workfront Planning の 2025 年第 3 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
-* [Adobe Workfrontの 2025 年第 2 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
-* [Adobe Workfront計画の 2025 年第 1 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+* [Adobe Workfront Planning リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
+* [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
 
 >[!TAB 2024 リリース ]
@@ -47,11 +45,12 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 
 >[!TAB  ベタス ]
 
-* [キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Beta のプログラム](/help/quicksilver/product-announcements/betas/betas.md)
 
 >[!TAB 既知の問題]
 
-* [既知の問題](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/issues/overview)
+* [既知の問題](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
+* [ メンテナンスの更新 ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
 
 
 >[!ENDTABS]
@@ -70,7 +69,7 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Workfront管理の基本を学ぶ</a></li>
-    <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Workfront Fusion の基本を学ぶ</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Workfront Fusion の基本を学ぶ</li>
     <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Adobe Exchangeからアプリを取得してインストールする</a></li>
     </ul>
  </td>
@@ -110,9 +109,9 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 
 ### ラーニングとトレーニングのセクションを検索
 
-* **トレーニング資料**: [Workfront トレーニング &#x200B;](https://experienceleague.adobe.com/ja/browse/workfront) ページに移動すると、Workfrontの機能と設定をより深く理解するためのトレーニングビデオと記事のライブラリが表示されます。 また、[learning.adobe.com](https://learning.adobe.com/) で有料のトレーニング資料にアクセスすることもできます。
-* **コース**：様々なWorkfront機能を論理的な順序で使用する方法を説明する [&#x200B; 構造化されたラーニングコース &#x200B;](https://experienceleague.adobe.com/home?lang=ja&Solution=Workfront#courses) を見つけます。
+* **トレーニング資料**: [Workfront トレーニング ](https://experienceleague.adobe.com/en/browse/workfront) ページに移動すると、Workfrontの機能と設定をより深く理解するためのトレーニングビデオと記事のライブラリが表示されます。 また、[learning.adobe.com](https://learning.adobe.com/) で有料のトレーニング資料にアクセスすることもできます。
+* **コース**：様々なWorkfront機能を論理的な順序で使用する方法を説明する [ 構造化されたラーニングコース ](https://experienceleague.adobe.com/home?Solution=Workfront#courses) を見つけます。
 
 ### コミュニティフォーラムで回答を検索
 
-* **質問する**: ドキュメントが質問に答えない場合は、[Workfront コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja) に投稿してみてください。このフォーラムでは、他のユーザーやエキスパートからサポートを提供しています。
+* **質問する**: ドキュメントが質問に答えない場合は、[Workfront コミュニティフォーラム ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) に投稿してみてください。このフォーラムでは、他のユーザーやエキスパートからサポートを提供しています。
