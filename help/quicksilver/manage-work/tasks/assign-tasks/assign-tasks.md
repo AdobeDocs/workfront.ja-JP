@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 90%
+source-wordcount: '2212'
+ht-degree: 78%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 90%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove production/ preview and old/ new experience references at prod-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-</div> 
--->
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+
+</div>
 
 ユーザー、担当業務やチームにタスクを割り当てて、タスクの完了担当者を指定できます。一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
 
@@ -214,7 +214,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
+1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![ 人物アイコン ](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
 
    詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
@@ -236,13 +236,20 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. タスクリストで複数のタスクを選択します。
 1. 「**編集**」をクリックします。
 
-   **タスクを編集** ダイアログボックスが開き <!--<span class="preview">in the new experience</span>--> す。
+   **タスクを編集** ダイアログボックスが開きます <span class="preview"> 新しいエクスペリエンスで </span>。
 
-   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+1. <span class="preview"> 新しいエクスペリエンスを使用して </span> タスクの割り当てを続けます。
 
-   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
+   <span class="preview"> 詳しくは、この記事の [ 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる ](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) の節を参照してください </span>。
 
-1. **割り当て**&#x200B;エリアで、**担当者**&#x200B;ボックスを選択し、すべてのタスクに割り当てるユーザー名、担当業務、またはチームを入力します。
+1. <span class="preview"> （オプション） **タスクを編集** ボックスの下部にある「**古いエクスペリエンスに戻る** をクリックして、古いエクスペリエンスを開きます。</span>
+
+   >[!TIP]
+   >
+   >実稼動環境でのタスクの割り当ては、古いエクスペリエンスでのみ使用できます。
+
+
+1. （条件付き）古いエクスペリエンスを使用し、「**割り当て**」領域で **担当者** ボックスを選択し、すべてのタスクに割り当てるユーザー、担当業務、またはチームの名前の入力を開始します。
 
    >[!IMPORTANT]
    >
@@ -271,53 +278,51 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 「**変更を保存**」をクリックします。
 1. （オプションおよび条件付き）タスクのリストに「割り当て先」フィールドまたは「割り当て」フィールドが表示されたら、タスクのこれらの列のいずれかの内側をクリックし、担当者の名前の横にある **X アイコン**&#x200B;をクリックして、タスクから削除します。
 
-<!--
+
 <div class="preview">
 
-### Assign multiple tasks in bulk from a list in the new experience
+### 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる
 
-1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
-1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
-
-   >[!IMPORTANT]
-   >
-   >You cannot edit tasks in bulk when saving tasks manually on a project.
-
-1. Select several tasks in the tasks list. 
-1. Click **Edit**.
-
-   The **Edit Tasks** dialog box opens.
-
-1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
-
-   Or 
-
-   Click **Assign to me** to assign it to yourself.
+1. プレビュー環境で、一括で割り当てるタスクのリストに移動します。
+1. （条件付き）「**自動保存**」オプションは、プロジェクトのタスクのリストにある場合に選択します。
 
    >[!IMPORTANT]
    >
-   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+   >プロジェクトにタスクを手動で保存する場合は、タスクを一括で編集できません。
 
-1. Click inside the **Duration Type** field and choose a Duration Type. 
+1. タスクリストで複数のタスクを選択します。
+1. 「**編集**」をクリックします。
 
-   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   **タスクを編集**&#x200B;ダイアログボックスが開きます。
 
-1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+1. **割り当て** エリアで、表示された **ユーザー、役割、チームを検索** フィールドにユーザー、チーム、または役割の名前を入力し始め、リストに表示されたらクリックします
 
-   * Duration
-   * Planned Hours
+   または
 
-      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+   「**自分に割り当て**」をクリックして、自分に割り当てます。
 
-1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+   >[!IMPORTANT]
+   >
+   >タスクが既に割り当てられている場合、ここに指定したリソースは、タスク上の既存のリソースを置き換える代わりに、タスクに追加されます。
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+1. 「**期間タイプ**」フィールド内をクリックし、期間タイプを選択します。
+
+   タスクの期間のタイプについて詳しくは、[タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
+
+1. （条件付き）選択した **期間タイプ** に応じて、次のフィールドを更新します。
+
+   * 期間
+   * 予定時間数
+
+     （詳しくは、[タスクの編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください）
+
+1. （任意）既存の担当者をすべてのタスクから削除する場合は、「**ユーザー、役割またはチームを検索**」フィールドで、名前の横にある **x** をクリックします。
+
+1. 「**保存**」をクリックします。
+1. （オプションおよび条件付き）タスクのリストに **割り当て先** または **割り当て** フィールドが表示されたら、タスクのこれらの列の 1 つ内をクリックして、担当者の名前の横にある **X アイコン** をクリックすると、タスクから削除できます。
 
 
 </div>
--->
-
 
 
 <!--

@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 91%
+source-wordcount: '1110'
+ht-degree: 76%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 91%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
-</div> -->
+</div>
 
 タスクの割り当てを管理する場合、タスクのリストの一括編集機能を使用して、複数のタスクに対して同時に変更を加えることができます。
 
@@ -125,83 +125,88 @@ When assigning users to work, their availability according to their schedules af
 
 1. 割り当てを変更するタスクを選択し、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
 
-   **タスクを編集** ボックスが <!--<span class="preview">in the new experience</span>--> 開きます。
-
-   <!--1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.</span> 
-   <span class="preview">The **Edit Tasks** box opens in the old experience.</span>-->
-
-1. **割り当て**&#x200B;セクションに移動します。
-
-   >[!IMPORTANT]
-   >
-   >担当者を削除すると、タスクの時間と割り当ての割合に影響を与える場合があります。詳しくは、[割り当て先を削除すると、タスクの時間と割り当て率にどのような影響が及ぶか](#how-removing-assignees-affects-task-hours-and-allocation-percentages)を参照してください。
-1. 担当者を追加または削除するには、次のいずれかの操作を行います。
-
-   * 新しい割り当て先を追加するには：
-
-      1. **割り当て** セクションで、「**担当者**」を選択します。
-
-         選択したすべてのタスクで共通する情報が表示されます。例えば、同じユーザーがすべてのタスクに割り当てられている場合、そのユーザーは&#x200B;**担当者**&#x200B;列に表示されます。選択したタスク間で情報が共通でない場合は、情報は表示されません。
-
-      1. ユーザー、役割またはチームの名前を入力していき、名前がリストに表示されたら選択します。割り当てが追加され、選択したタスクの現在の割り当ては置き換えられません。
-
-
-     >[!TIP]
-     >
-     > * 複数のユーザー、担当業務やチームを割り当てることができます。アクティブなユーザー、担当業務およびチームのみを割り当てることができます。
-     >   
-     > * ユーザー割り当てを追加する際には、アバター、ユーザーの主要な役割やメールアドレスに注意して、同じ名前のユーザーを区別してください。ユーザーを追加したときに表示するには、少なくとも 1 つの担当業務に関連付ける必要があります。ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
-     > 
-     >   非アクティブ化前にユーザー、担当業務やチームが、非アクティブ化される前に割り当てられた場合、ユーザー、担当業務やチームは作業アイテムに割り当てられたままになります。この場合、以下の操作をお勧めします。
-     >   
-     >     * 作業アイテムをアクティブなリソースに再割り当てする。
-     >     * 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
-
-
-   * 個々の割り当て先を削除するには：
-
-      1. 割り当てリストに割り当て先が表示されている場合は、削除する割り当て先の名前の横にある **X アイコン**&#x200B;をクリックします。
-
-         または
-
-         （条件付き）削除したい割り当て先が、選択したイシューの一部にのみ割り当てられているために「割り当て」セクションに表示されない場合は、「**担当者を削除**」をクリックして削除したい割り当て先の名前を入力し始め、名前がドロップダウンリストに表示されたらクリックします。
-
-   * 既存の割り当て先をすべて削除するには：
-
-      1. 「**既存の担当者をすべて削除**」をクリックし、「**はい、担当者をすべて削除します**」をクリックします。
-
-         これにより、共通の担当者（編集ダイアログボックスに表示される担当者）だけでなく、選択したすべてのタスクのすべての担当者も削除されます。
-
-     ユーザーをタスクから削除すると、タスクの時間や配分率に影響を与える可能性があります。
-
-     詳しくは、[タスクの割り当て変更の概要](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)を参照してください。
-
-1. （オプション）担当者に対して、次のいずれかのオプションを変更します。
-
-   * （条件付き） **割り当て率または時間**：新しい配分率または時間を指定します。
-
-     >[!NOTE]
-     >
-     >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[&#x200B; タスク期間と期間タイプの概要 &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
-     >
-     >
-     >このフィールドが空白の場合、値はタスク間で異なりますが、変更は可能です。
-
-   * **タスク責任者**：このオプションを選択すると、担当者が編集中のすべてのタスクの、タスクの所有者になります。
-   * **割り当て先の役割**：ドロップダウンリストから役割を選択します。選択しない場合、Adobe Workfront はユーザーのプライマリ役割を自動的に選択します。
-
-1. 「**変更を保存**」をクリックします。
-
-<!--
-1. <span class="preview"> (Optional) Click **Try new experience** in the upper-right corner of the **Edit Tasks** box. The Edit Tasks box opens in the new experience. Do one of the following:</span>
+   新しいエクスペリエンスで **タスクを編集** ボックスが開きます <span class="preview">。 次のいずれかの操作を行います。</span>
 
    <div class="preview">
 
-   * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
-   * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
-   * Click Assign to me to assign the selected tasks to yourself.
+   * 担当者を追加するには、「**ユーザー、役割、チームを検索**」フィールドに担当者の名前を入力し始め、リストに表示されたら選択します。
+   * 担当者を削除するには、名前の右側にある **x** アイコンをクリックします。 すべてのタスクに共通の担当者のみがリストに表示されます。
+   * 「自分に割り当て」をクリックして、選択したタスクを自分に割り当てます。
 
    </div>
-1. <span class="preview">(Conditional) When using the new experience, click **Save**.</span>
 
--->
+1. <span class="preview"> （条件付き）新しいエクスペリエンスを使用する場合は、「**保存** をクリックします </span>。
+
+1. <span class="preview"> （任意） **タスクを編集** ボックスの下部にある **古いエクスペリエンスに切り替える** をクリックします </span>。
+
+   <span class="preview"> 古いエクスペリエンスで **タスクを編集** ボックスが開きます。</span>
+
+   >[!TIP]
+   >
+   >実稼動環境では、古いエクスペリエンスがデフォルトで使用できます。
+
+1. （条件付き）古いエクスペリエンスで、次の手順を実行して担当者を変更します。
+
+   1. **割り当て**&#x200B;セクションに移動します。
+
+      >[!IMPORTANT]
+      >
+      >担当者を削除すると、タスクの時間と割り当ての割合に影響を与える場合があります。詳しくは、[割り当て先を削除すると、タスクの時間と割り当て率にどのような影響が及ぶか](#how-removing-assignees-affects-task-hours-and-allocation-percentages)を参照してください。
+
+   1. 担当者を追加または削除するには、次のいずれかの操作を行います。
+
+      * 新しい割り当て先を追加するには：
+
+         1. **割り当て** セクションで、「**担当者**」を選択します。
+
+            選択したすべてのタスクで共通する情報が表示されます。例えば、同じユーザーがすべてのタスクに割り当てられている場合、そのユーザーは&#x200B;**担当者**&#x200B;列に表示されます。選択したタスク間で情報が共通でない場合は、情報は表示されません。
+
+         1. ユーザー、役割またはチームの名前を入力していき、名前がリストに表示されたら選択します。割り当てが追加され、選択したタスクの現在の割り当ては置き換えられません。
+
+
+        >[!TIP]
+        >
+        > * 複数のユーザー、担当業務やチームを割り当てることができます。アクティブなユーザー、担当業務およびチームのみを割り当てることができます。
+        >   
+        > * ユーザー割り当てを追加する際には、アバター、ユーザーの主要な役割やメールアドレスに注意して、同じ名前のユーザーを区別してください。ユーザーを追加したときに表示するには、少なくとも 1 つの担当業務に関連付ける必要があります。ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
+        > 
+        >   非アクティブ化前にユーザー、担当業務やチームが、非アクティブ化される前に割り当てられた場合、ユーザー、担当業務やチームは作業アイテムに割り当てられたままになります。この場合、以下の操作をお勧めします。
+        >   
+        >     * 作業アイテムをアクティブなリソースに再割り当てする。
+        >     * 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
+
+
+      * 個々の割り当て先を削除するには：
+
+         1. 割り当てリストに割り当て先が表示されている場合は、削除する割り当て先の名前の横にある **X アイコン**&#x200B;をクリックします。
+
+            または
+
+            （条件付き）削除したい割り当て先が、選択したイシューの一部にのみ割り当てられているために「割り当て」セクションに表示されない場合は、「**担当者を削除**」をクリックして削除したい割り当て先の名前を入力し始め、名前がドロップダウンリストに表示されたらクリックします。
+
+      * 既存の割り当て先をすべて削除するには：
+
+         1. 「**既存の担当者をすべて削除**」をクリックし、「**はい、担当者をすべて削除します**」をクリックします。
+
+            これにより、共通の担当者（編集ダイアログボックスに表示される担当者）だけでなく、選択したすべてのタスクのすべての担当者も削除されます。
+
+        ユーザーをタスクから削除すると、タスクの時間や配分率に影響を与える可能性があります。
+
+        詳しくは、[タスクの割り当て変更の概要](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)を参照してください。
+
+   1. （オプション）担当者に対して、次のいずれかのオプションを変更します。
+
+      * （条件付き） **割り当て率または時間**：新しい配分率または時間を指定します。
+
+      >[!NOTE]
+      >
+      >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[ タスク期間と期間タイプの概要 ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
+      >
+      >
+      >このフィールドが空白の場合、値はタスク間で異なりますが、変更は可能です。
+
+      * **タスク責任者**：このオプションを選択すると、担当者が編集中のすべてのタスクの、タスクの所有者になります。
+      * **割り当て先の役割**：ドロップダウンリストから役割を選択します。選択しない場合、Adobe Workfront はユーザーのプライマリ役割を自動的に選択します。
+
+   1. 「**変更を保存**」をクリックします。
+

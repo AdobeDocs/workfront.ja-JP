@@ -6,10 +6,10 @@ description: タスクにユーザーまたはロールを割り当てると、�
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 79%
+source-wordcount: '625'
+ht-degree: 60%
 
 ---
 
@@ -17,17 +17,20 @@ ht-degree: 79%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+<div class="preview">
 
-</div> 
--->
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+
+</div>
 
 割り当て時間は、割り当てられたリソースがタスクの作業に費やす予定時間の合計を表します。 時間は、タスクの期間全体を通して、ユーザーが割り当てられた時間を、特定の 1 日、1 週間、1 か月に表します。
+
+タスクに対して高度な割り当てを行う際に、割り当て時間を変更できます。
 
 >[!NOTE]
 >
@@ -58,7 +61,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>オブジェクト権限</td>
    <td><p>タスクに対する参加以上の権限</p>
-   <p>権限を編集し、タスクの編集ボックスで時間配分を更新</p></td>
+   <p>タスクの編集時に「タスクを編集」ボックスで割り当て時間を更新する権限を編集します <span class="preview"> 古いエクスペリエンスを使用）。 新しいエクスペリエンスでタスクを編集する際に、「タスクを編集」ボックスで割り当て時間を管理できなくなりました。</span></p> <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md"> タスクの編集 </a> を参照してください</p>.</td>
   </tr>
  </tbody>
 </table>
@@ -67,12 +70,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-<!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation hours in the Edit Task box</p>
-To this:
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
+<!--Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
+<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.-->
+
 
 ## タスクの時間配分を変更する際の考慮事項
 
@@ -95,15 +96,10 @@ To this:
 ## タスクのユーザーまたは役割の時間配分を変更
 
 1. 時間配分を変更する割り当てのタスクに移動します。
-1. タスク名の横にある&#x200B;**その他**&#x200B;メニュー ![](assets/qs-more-icon-on-an-object.png)、「**編集**」、「**割り当て**」の順にクリックします。
-
-   または
-
-   タスクヘッダーにある&#x200B;**割り当て**&#x200B;エリアを選択し、「**詳細**」をクリックします。
-
+1. タスクヘッダーの **割り当て** エリアをクリックし、**詳細** をクリックします。
 1. タスクの&#x200B;**期間タイプ**&#x200B;が&#x200B;**シンプル**&#x200B;であることを確認します。
-1. タスクの担当者ごとに&#x200B;**配分**&#x200B;を変更します。これは、タスクの期間全体に対する、このタスクへの各割り当ての全体的な配分です。これにより、タスクの全体的な予定時間数が更新される場合もあります。
+1. 各タスク担当者の **割り当て** フィールドを変更します。 これは、タスクの期間全体に対する、このタスクへの各割り当ての全体的な配分です。これにより、タスクの全体 **予定時間数** も更新される可能性があります。
 
-   ![&#x200B; 割り当ての変更 &#x200B;](assets/advanced-assignments-duration-type-allocations.png)
+   ![ 割り当ての変更 ](assets/advanced-assignments-duration-type-allocations.png)
 
 1. 「**保存**」をクリックします。
