@@ -8,18 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 72%
+source-wordcount: '365'
+ht-degree: 75%
 
 ---
 
 # ユーザーの環境設定をリセット
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。これはプレビューサンドボックス環境でのみ使用でき、実稼動環境への段階的なロールアウトでリリースされています。</span>
 
 Adobe Workfront 管理者は、Workfront システム内の任意のユーザーのユーザー環境設定をリセットまたは削除できます。
 
@@ -106,8 +104,6 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
 
 <!--Display this table and hide the HTML table above, when the unshim is released.-->
 
-<div class="preview">
-
 | 設定 | リセット後のステータス |
 | --- | --- |
 | ビュー | システムのデフォルトに戻しました <p>既存のビューは削除されません。もう一度選択できます。</p> |
@@ -116,8 +112,6 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
 | 最近使用した項目リスト | クリア済み |
 | お気に入りリスト | 影響なし |
 | ユーザーの環境設定 | システムのデフォルトに戻しました <p>メール通知がシステムのデフォルトに戻ります。デフォルトの通知については、[Adobe Workfront で使用可能なイベント通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。</p> |
-
-</div>
 
 ## ユーザーの環境設定をリセット
 
@@ -148,8 +142,8 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
 
 1. **Enter** キーを押します。
 
-1. <span class="preview"> すべてのユーザー環境設定をリセットするには、「**リセット**」をクリックします。</span>
+1. すべてのユーザー環境設定をリセットするには、「**リセット**」をクリックします。
 
-   <span class="preview">または</span>
+   または
 
-   <span class="preview"> ユーザーの左側のナビゲーションを元のレイアウトテンプレート設定にリセットするには、「**左側のナビゲーションをリセット**」をクリックします。</span>
+   ユーザーの左側のナビゲーションを元のレイアウトテンプレート設定にリセットするには、「**左側のナビゲーションをリセット**」をクリックします。
