@@ -6,10 +6,10 @@ description: リスト内の複数のイシューに対するユーザー割り�
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 46%
+source-wordcount: '521'
+ht-degree: 38%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 46%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-詳しくは、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 複数のイシューに対するユーザーの割り当てを同時に変更できます。 イシューの編集または一度に 1 つずつ割り当てる方法について詳しくは、次の記事も参照してください。
 
@@ -103,80 +103,63 @@ ht-degree: 46%
       イシューのリストは、フィルター条件に合わせて自動的にフィルタリングされます。
    1. （オプション）「**新規保存**」をクリックして、「**保存**」をクリックします。
 
-1. 割り当てを変更するイシューを選択して、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
+1. 割り当てを変更するイシューを選択して、**編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
 
    **イシューの編集**&#x200B;が表示されます。選択した項目の数は、ページの左上隅に表示されます。
 
-1. （条件付き）実稼動環境で、次の操作を行います。
+1. 左側のパネルで **割り当て** をクリックし、削除する担当者の横にある **x** アイコンをクリックします。
 
-   1. 「**割り当て**」セクションに移動して、「**割り当て先**」を選択します。
+   >[!TIP]
+   >
+   >選択したすべてのイシューに割り当てられた担当者のみが **割り当て** 領域に表示されます。
 
-      ![&#x200B; 割り当てエリア &#x200B;](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![ 一括編集のイシューの「割り当て」エリア ](assets/assignments-area-on-bulk-edit-issues.png)
 
-   1. 次のいずれかの操作を行います。
+1. ユーザー、役割またはチームの名前の入力を開始して、選択したすべてのイシューに担当者を追加します。
 
-      1. 新しい割り当て先を追加するには：
+   >[!TIP]
+   >
+   >複数のユーザー、担当業務やチームを割り当てることができます。アクティブなユーザー、担当業務およびチームのみを割り当てることができます。
+   >
+   >非アクティブ化前にユーザー、担当業務やチームが、非アクティブ化される前に割り当てられた場合、ユーザー、担当業務やチームは作業アイテムに割り当てられたままになります。この場合、以下の操作をお勧めします。
+   >
+   >* 作業アイテムをアクティブなリソースに再割り当てする。
+   >* 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
 
-         1. ユーザー、役割またはチームの名前を入力していき、名前がリストに表示されたら選択します。割り当てが追加されても、選択したイシューに対する現在の割り当ては置き換わりません。
+   追加された担当者は、既存の担当者に追加されます。 選択した各問題の既存の設定は置き換えられません。
 
+1. （任意）「**自分に割り当て**」をクリックして、すべてのイシューを自分に割り当てます。
+1. 「**保存**」をクリックします。
+
+
+   <!--Old functionality for assignments for issues - before November 2025:
+   1. (Conditional) In the Production environment, do the following: 
+   1. Go to the **Assignments** section, then select **Assignee**.
+      ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   1. Do one of the following:
+      1. To add a new assignee:
+         1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected issues.
          >[!TIP]
          >
-         >複数のユーザー、担当業務やチームを割り当てることができます。アクティブなユーザー、担当業務およびチームのみを割り当てることができます。
+         >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
          >
-         >非アクティブ化前にユーザー、担当業務やチームが、非アクティブ化される前に割り当てられた場合、ユーザー、担当業務やチームは作業アイテムに割り当てられたままになります。この場合、以下の操作をお勧めします。
+         >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
          >
-         >* 作業アイテムをアクティブなリソースに再割り当てする。
-         >* 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
-
-         選択したすべてのイシューに共通する情報が表示されます。例えば、同じユーザーがすべての問題に割り当てられている場合、そのユーザーは **担当者** 列に表示されます。 選択したイシューに共通する情報でない場合は、情報は表示されません。
-
-      1. 個々の割り当て先を削除するには：
-
-         1. 割り当てリストに割り当て先が表示されている場合は、削除する割り当て先の名前の横にある **X アイコン**&#x200B;をクリックします。
-
-            または
-
-            担当者が選択した問題の一部にのみ割り当てられているため、削除する担当者が「割り当て」セクションに表示されない場合は、「担当者を削除 **をクリックし**、削除する担当者の名前の入力を開始してから、ドロップダウンリストに表示される名前をクリックします。
-
-         1. 削除する別の担当者を追加するには、もう一度 **担当者を削除** をクリックします。
-
-      1. 既存の割り当て先をすべて削除するには：
-
-         1. 「**既存の担当者をすべて削除**」をクリックし、「**はい、担当者をすべて削除します**」をクリックします。
-
-            これにより、共通の担当者（編集ダイアログボックスに表示される担当者）だけでなく、選択したすべてのイシューのすべての担当者も削除されます。
-
-         1. （オプション）イシューに関連付けるために選択した割り当て先について、次のいずれかのオプションを変更します。
-
-            * **イシュー所有者：** ラジオボタンを選択して、イシュー所有者として指定された担当者を示します。 選択しない場合、Adobe Workfront は最初の割り当て先をイシューの所有者として指名します。チーム割り当てには使用できません。
-            * **割り当て先の役割**：ドロップダウンリストから役割を選択します。選択しない場合、Workfront はユーザーの主要役割を自動的に選択します。
-
-      1. 「**変更を保存**」をクリックします。
-
-1. <span class="preview"> プレビュー環境で以下を行います。</span>
-
-   1. 左側のパネルで <span class="preview">**割り当て** をクリックし、削除する担当者の横にある **x** アイコンをクリックします。</span>
-
-      >[!TIP]
-      >
-      ><span class="preview"> 選択したすべてのイシューに割り当てられた担当者のみが **割り当て** 領域に表示されます。</span>
-
-      ![&#x200B; 一括編集のイシューの「割り当て」エリア &#x200B;](assets/assignments-area-on-bulk-edit-issues.png)
-
-   1. <span class="preview"> ユーザー、役割またはチームの名前の入力を開始して、選択したすべてのイシューに担当者を追加します。</span>
-
-      >[!TIP]
-      >
-      >複数のユーザー、担当業務やチームを割り当てることができます。アクティブなユーザー、担当業務およびチームのみを割り当てることができます。
-      >
-      >非アクティブ化前にユーザー、担当業務やチームが、非アクティブ化される前に割り当てられた場合、ユーザー、担当業務やチームは作業アイテムに割り当てられたままになります。この場合、以下の操作をお勧めします。
-      >
-      >* 作業アイテムをアクティブなリソースに再割り当てする。
-      >* 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
-
-      <span class="preview"> 追加された担当者は、既存の担当者に追加されます。 選択した各問題の既存の設定は置き換えられません。</span>
-   1. <span class="preview"> （任意）「**自分に割り当て**」をクリックして、すべてのイシューを自分に割り当てます。</span>
-   1. <span class="preview">**保存** をクリックします。</span>
+         >* Reassign the work item to active resources.
+         >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+          Information that is common across all issues selected displays. For example, if the same user is assigned to all issues, that user displays in the **Assignee**  column. If information is not common across the issues selected, no information displays.
+      1. To remove individual assignees:
+         1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+            Or
+            If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the issues that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+         1. Click  **Remove Assignee** again to add another assignee to remove.
+      1. To remove all existing assignees:
+         1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
+            This removes not only common assignees (assignees that are displayed in the edit  dialog box), but also all assignees on all the selected issues.
+         1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
+          * **Issue Owner:**  Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
+            * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
+      1. Click **Save Changes**.-->
 
 
 

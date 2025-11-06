@@ -6,16 +6,24 @@ description: テンプレートエリアからテンプレートを作成およ�
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 58%
+source-wordcount: '779'
+ht-degree: 50%
 
 ---
 
 # プロジェクトテンプレートの作成
 
 <!-- Audited: 10/2025 -->
+
+<div class="preview">
+
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+
+</div>
 
 テンプレートエリアからテンプレートを作成および削除できます。新しいテンプレートを作成するときは、すべてのタスクと、将来のプロジェクト設定についての情報を入力できます。この情報は、テンプレートから作成するプロジェクトに転送されます。
 
@@ -110,25 +118,34 @@ ht-degree: 58%
 
    「**新規テンプレートタスク**」をクリックして、「**新規テンプレートタスク**」ボックスでテンプレートへのタスクの追加を開始します。
 
-   ![&#x200B; 新規テンプレート タスク ボックス &#x200B;](assets/new-template-task-box.png)
+   ![ 新規テンプレート タスク ボックス ](assets/new-template-task-box.png)
 
-   <!--<span class="preview">The Create Template Task opens in the new experience.</span>-->
+   <span class="preview"> 新しいエクスペリエンスに **テンプレートタスクを作成** ボックスが開きます。</span>
 
-   <!--
-   1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+1. <span class="preview"> （条件付き）新しいエクスペリエンスを使用して、「**テンプレートタスクを作成** ボックスの次の領域で情報を更新します。</span>
+
    <div class="preview">
-   * Template Task Name
-   * Overview
-   * Assignments
-   * Finance
-   * Custom Forms
-   * Documents
-   * Settings 
+
+   * テンプレート タスク名
+   * 概要
+   * 割り当て
+   * 財務
+   * カスタムフォーム
+   * ドキュメント
+   * 設定
+
    </div>
-   1. Click **Save**
-   Or (*******remove the 1. from the step below and continue with those steps here*********)
-   1. (Optional) Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
-   The **New Template Task** opens. (************add screen shot***********)-->
+
+1. 「**テンプレートタスクを作成**」をクリックします
+
+   または
+
+   <span class="preview"> テンプレートタスクを作成 **ボックスの下部にある** 古いエクスペリエンスに戻る **をクリック** ます。</span>
+   <span class="preview"> 古いエクスペリエンスに **新規テンプレートタスク** が開きます。</span>
+
+   >[!TIP]
+   >
+   >実稼動環境では、古いエクスペリエンスがデフォルトで開きます。
 
 1. 「**新規テンプレートタスク**」ボックスの次の領域の情報を更新します。
 
@@ -139,7 +156,7 @@ ht-degree: 58%
    * カスタムフォーム
    * ドキュメントの添付
 
-     テンプレートタスクの情報の更新は、プロジェクトのタスクの編集に似ています。 詳しくは、[&#x200B; タスクの編集 &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) を参照してください。<!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+     テンプレートタスクの情報の更新は、プロジェクトのタスクの編集に似ています。 詳しくは、[ タスクの編集 ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) を参照してください。<!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
 
    >[!NOTE]
    >
@@ -148,7 +165,7 @@ ht-degree: 58%
 1. 次のいずれかをクリックします。
 
    * **テンプレートタスクを保存**：現在のテンプレートタスクを保存し、「新規テンプレートタスク」ボックスを閉じます。
-   * **テンプレート タスクを保存して別のタスクを開始**：現在のテンプレート タスクを保存し、別のタスクを追加するために別の新しいテンプレート タスク ボックスを開きます。
+   * **テンプレートタスクを保存して別のタスクを開始**：現在のテンプレートタスクを保存し、別の **テンプレートタスクを新規作成** ボックスを開いて別のタスクを追加します。
    * **キャンセル**：テンプレートタスクを保存せずにボックスを閉じます。
 1. （オプション）テンプレートタスクを追加した後、タスクリストの右上隅にある「テンプレートタスク」セクションで **ガントチャート** アイコンをクリックすると、テンプレートのタスクリストが視覚的に表示されます。
 
@@ -156,7 +173,7 @@ ht-degree: 58%
    >
    >このガントチャートから直接タスクを編集することはできません。
 
-1. 新しいテンプレートに情報を追加するには、ヘッダーのテンプレート名の左側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、「**編集** をクリックします。
+1. 新しいテンプレートに情報を追加するには、ヘッダーのテンプレート名の左側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックしてから、「**編集** をクリックします。
 
    テンプレートの編集について詳しくは、[プロジェクトテンプレートの編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
 
@@ -164,7 +181,7 @@ ht-degree: 58%
    >
    >   プロジェクトテンプレートとグループの関連付け（またはグループの欠如）は、プロジェクト、タスク、イシューの環境設定によってテンプレートの特定の設定が決定される方法に影響します。
    >
-   >詳しくは、「グループのプロジェクトテンプレートの作成と変更 [&#x200B; の記事の「環境設定がテンプレートとテンプレートタスクに適用される方法 &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md) を参照してください。
+   >詳しくは、「グループのプロジェクトテンプレートの作成と変更 [ の記事の「環境設定がテンプレートとテンプレートタスクに適用される方法 ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md) を参照してください。
 
 1. 「**保存**」をクリックします。
 1. （オプション）次の項目をテンプレートに追加します
@@ -183,7 +200,7 @@ ht-degree: 58%
    * 費用
    * 承認
 
-   詳しくは、「プロジェクトテンプレートの編集 [&#x200B; の「テンプレートにさらに項目を追加する」の節を参照し &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) ください。
+   詳しくは、「プロジェクトテンプレートの編集 [ の「テンプレートにさらに項目を追加する」の節を参照し ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) ください。
 
 
 

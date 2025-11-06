@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '3828'
-ht-degree: 84%
+source-wordcount: '4464'
+ht-degree: 81%
 
 ---
 
@@ -28,16 +28,13 @@ ht-degree: 84%
 </div>
 -->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
-</div> 
--->
-
+</div>
 
 自分で作成したタスクに関する情報、または Contribute または Manage 権限を持っているタスクに関する情報を編集できます。
 
@@ -81,7 +78,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -132,7 +129,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 「現在」ステータスのプロジェクトのタスクトリガーの通知の更新：タスクに割り当てられたユーザーが混乱するのを避けるには、プロジェクトのステータスが「現在」の場合に編集タスクをできる限り制限します。
 * 承認プロセス内のタスクは編集できません。承認プロセスでのタスクのログ時間またはステータスの更新のみが可能です。
 
-  ![&#x200B; 承認プロセスでタスクを編集 &#x200B;](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![ 承認プロセスでタスクを編集 ](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * 完了、無効または承認保留中のステータスを持つプロジェクトのタスクに対するドキュメントの編集や追加は、Workfront 管理者またはグループ管理者がプロジェクト環境設定エリアでこの機能を有効にした場合にのみ行うことができます。プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
@@ -380,135 +377,133 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 上記の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**割り当て**」をクリックします。
 
-   <!--<span class="preview">The Assignments area opens in the new experience.</span>-->
+   <span class="preview"> 新しいエクスペリエンスに割り当てエリアが開きます。</span>
 
-   <!--indent the bullets below to show new experience functionality:
-      1. (Conditional) Using the new experience, do the following:-->
+1. （条件付き）新しいエクスペリエンスを使用して、次の操作を行います。
 
-   <!--Indent this according to what you did above: 
+   1. <span class="preview"> 「ユーザー、担当業務、またはチームを検索 **フィールドにユーザー、担当業務、またはチームの名前を入力し始め、リストに表示されたら選択します**</span>
 
-      1. <span class="preview">Start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
+      または
 
-      Or
+      <span class="preview"> 「自分に割り当て **をクリックして** タスクを自分に割り当てます。</span>
 
-      <span class="preview">Click **Assign to me** to assign the task to yourself. </span>
+   1. <span class="preview"> 次の情報を更新します。</span>
 
-      1. Update the following information:
-
-
-      1. (Conditional and optional) Update the following fields: 
+      <div class="preview">
 
       <table style="table-layout:auto"> 
-      <col> 
-      <col> 
-      <tbody> 
-      <tr> 
-      <td role="rowheader">Duration Type</td> 
-      <td> <p>This identifies the relationship between the following: </p> 
-      <ul> 
-      <li> <p>The number of resources assigned to a task </p> </li> 
-      <li> <p>The total effort required to complete the task </p> </li> 
-      <li> <p> The total duration of the task. </p> </li> 
-      </ul> <p>Your Workfront administrator or a group administrator selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
-      <ul> 
-      <li> <p>Calculated Assignment </p> </li> 
-      <li> <p> Calculated Work </p> </li> 
-      <li> <p>Effort Driven </p> </li> 
-      <li> <p>Simple</p> </li> 
-      </ul> </td> 
-      </tr> 
-      <td role="rowheader">Duration per Occurrence</td> 
-      <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task, as defined when the task was created. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <b>NOTE</b>          
-      Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
-      </tr>
-      <tr> 
-      <td role="rowheader">Duration</td> 
-      <td> 
-      <div> 
-      <div> 
-      <p>This is the amount of time that you allow a task to remain open before it is completed. </p> 
-      <p><b>IMPORTANT</b>
-   
-      Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
-   
-      <p>To indicate the Duration of the task and the unit of time do the following:</p> 
-      <ul> 
-      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p><b>TIP</b></p>
-      When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
-      </ul> 
-      <p> You can choose from the regular time or elapsed time options in the following table: </p> 
-      <table style="table-layout:auto"> 
-      <col> 
-      <col data-mc-conditions=""> 
-      <tbody> 
-      <tr> 
-      <td>Unit of Time</td> 
-      <td>Abbreviation</td> 
-      </tr> 
-      <tr> 
-      <td>Minutes</td> 
-      <td>M</td> 
-      </tr> 
-      <tr> 
-      <td>Hours</td> 
-      <td>H</td> 
-      </tr> 
-      <tr> 
-      <td>Days. This is the default. </td> 
-      <td>D</td> 
-      </tr> 
-      <tr> 
-      <td>Weeks</td> 
-      <td>W</td> 
-      </tr> 
-      <tr> 
-      <td>Months</td> 
-      <td>T</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Minutes</td> 
-      <td>EM</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Hours</td> 
-      <td>EH</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Days</td> 
-      <td>ED</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Weeks</td> 
-      <td>EW</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Months</td> 
-      <td>ET</td> 
-      </tr> 
-      </tbody> 
-      </table> 
+         <col> 
+         <col> 
+         <tbody> 
+         <tr> 
+         <td role="rowheader">期間タイプ</td> 
+         <td> <p>これにより、以下の項目間の関係が明らかになります。 </p> 
+         <ul> 
+         <li> <p>タスクに割り当てられたリソースの数 </p> </li> 
+         <li> <p>タスクの完了に必要な合計作業量 </p> </li> 
+         <li> <p> タスクの合計期間。 </p> </li> 
+         </ul> <p>Workfront管理者またはグループ管理者が、システムまたはグループのタスクに対してデフォルトの「期間タイプ」設定を選択します。 プロジェクトのデフォルトの設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref"> システム全体のタスクおよびイシューの環境設定の設定 </a> を参照してください。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク継続期間と期間タイプの概要</a>を参照してください。 </p> <p>次のオプションから選択します。 </p> 
+         <ul> 
+         <li> <p>予定割り当て時間 </p> </li> 
+         <li> <p> 予定作業 </p> </li> 
+         <li> <p>残存作業時間の優先 </p> </li> 
+         <li> <p>シンプル</p> </li> 
+         </ul> </td> 
+         </tr> 
+         <td role="rowheader">発生ごとの所要時間</td> 
+         <td> <p>これは、定期タスクの親にのみ表示されます。タスクが作成された時点で定義された、各定期タスクの期間が表示されます。定期タスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">定期タスクの作成</a>を参照してください。 </p> <p> <b> 注 </b>          
+         個々の繰り返しタスクで変更された期間は、このフィールドに示された値を表示しません。 </p> </td> 
+         </tr>
+         <tr> 
+         <td role="rowheader">期間</td> 
+         <td> 
+         <div> 
+         <div> 
+         <p>タスクが完了するまでタスクを開いたままにしておくことができる時間です。 </p> 
+         <p><b>重要</b>
 
-      <p><b>NOTE</b>
-      
-      <p>Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
+      タスク期間は通常、予定開始日から予定完了日までの時間で、プロジェクトのタイムラインに影響します。</p>
 
-      Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p>
+      <p>タスクの期間と時間の単位を指定するには、以下を行います。</p> 
+         <ul> 
+         <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">時間の長さを入力し、ドロップダウンメニューに表示される時間の単位から選択します。</p> <p><b>ヒント</b></p>
+         タスクリストのタスクの期間を更新する際は、時間の単位の省略形を使用できます。 </p> </li> 
+         </ul> 
+         <p> 次の表にある通常時間または経過時間のオプションから選択できます。 </p> 
+         <table style="table-layout:auto"> 
+         <col> 
+         <col data-mc-conditions=""> 
+         <tbody> 
+         <tr> 
+         <td>時間の単位</td> 
+         <td>省略形</td> 
+         </tr> 
+         <tr> 
+         <td>分</td> 
+         <td>M</td> 
+         </tr> 
+         <tr> 
+         <td>時間</td> 
+         <td>H</td> 
+         </tr> 
+         <tr> 
+         <td>日 これがデフォルトです。 </td> 
+         <td>D</td> 
+         </tr> 
+         <tr> 
+         <td>週</td> 
+         <td>W</td> 
+         </tr> 
+         <tr> 
+         <td>か月</td> 
+         <td>T</td> 
+         </tr> 
+         <tr> 
+         <td>経過時間数 (分)</td> 
+         <td>EM</td> 
+         </tr> 
+         <tr> 
+         <td>経過時間数</td> 
+         <td>EH</td> 
+         </tr> 
+         <tr> 
+         <td>経過日数</td> 
+         <td>ED</td> 
+         </tr> 
+         <tr> 
+         <td>経過週数</td> 
+         <td>EW</td> 
+         </tr> 
+         <tr> 
+         <td>経過月数</td> 
+         <td>ET</td> 
+         </tr> 
+         </tbody> 
+         </table>
+
+      <p><b>メモ</b>
+
+      <p>経過時間は、タスクの期間の時間単位です。タスクの予定開始日から予定完了日までの時間で、休日、週末および休暇を含みます。つまり、経過時間はカレンダーの日数の経過です。
+
+      通常の時間は、休日、週末および休暇を考慮し、これらをタスクの期間から除外します。タスクの期間について詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。 </p>
       </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Planned Hours</td> 
-      <td> <p>Specify the number of Planned Hours for the task, in hours. This is the amount of actual time that it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> 
-      <b>NOTE</b>
-      <p>
-      When creating recurring tasks, the Planned Hours are those of each occurrence. The Planned Hours of the parent tasks are the total of all Planned Hours from all the occurrences. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>.
-      </p>
-      
-      </td> 
-      </tr> 
-      </tbody> 
-      </table>
+         </tr> 
+         <tr> 
+         <td role="rowheader">予定時間数</td> 
+         <td> <p>タスクの予定時間数を時間単位で指定します。 これは、タスクの担当者が完了するまでにかかる実際の時間です。 タスクの予定時間数を指定できるのは、[ 期間タイプ ] が [ 割り当て計算 ] に設定されている場合のみです。 期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</p> 
+         <b>メモ</b>
+         <p>
+         繰り返しタスクを作成する場合、予定時間数はそれぞれの繰り返しタスクの時間です。親タスクの予定時間数は、すべてのタスクからのすべての予定時間数の合計です。繰り返しタスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクを作成</a>を参照してください。
+         </p>
 
-      (**********<tr> 
+      </td> 
+         </tr> 
+         </tbody> 
+         </table>
+
+      </div>
+
+      <!--<tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -523,10 +518,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
          Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr>
          </tbody> 
-         </table>************)-->
-   <!--1. <span class="preview">(Optional) Click Switch to old experience at the bottom of the **Edit Task** box. </span>
-      <span class="preview">The Assignments area opens in the old experience. </span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)-->
+         </table>-->
+
+   1. <span class="preview"> （任意） **タスクを編集** ボックスの下部にある「**古いエクスペリエンスに切り替え**」をクリックします。</span>
+      <span class="preview"> 割り当てエリアが古いエクスペリエンスで開きます。</span>
+      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. **ユーザー、役割、またはチームを検索** をクリックして、タスクに割り当てるユーザー、役割、またはチームの名前の入力を開始し、リストに表示されたらクリックするか Enter キーを押します。
 
@@ -674,7 +670,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </tbody>
    </table>
 
-1. 「**変更を保存**」をクリックするか <!--<span class="preview"> or **Save** </span> --> 次の節を続行します。
+1. 「**変更を保存** <span class="preview">」または「**保存**」をクリックするか </span> 次の節を続行します。
 
 ### カスタムフォーム
 
@@ -687,7 +683,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 「**カスタムフォームを追加**」をクリックし、タスクに関連付けるカスタムフォームまたはフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。
 
-   カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。タスクには最大 10 個のカスタムフォームを追加できます
+   カスタムフォームの作成について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。タスクには最大 10 個のカスタムフォームを追加できます
 
 1. （条件付き）カスタムフォームをタスクに添付した場合は、フォーム上の任意のフィールドを編集します。タスクを保存する前に、必須フィールドをすべて指定する必要があります。
 
@@ -811,7 +807,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. [タスクを編集](#Edit2)の節の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで **コメント** をクリックします。
 
-   ![&#x200B; タスクを編集ボックスの「コメント」セクション &#x200B;](assets/comment-section-on-edit-task-box.png)
+   ![ タスクを編集ボックスの「コメント」セクション ](assets/comment-section-on-edit-task-box.png)
 
 1. 指定されたスペースに更新を追加します。
 1. （オプション）次のいずれかを更新に追加します。
@@ -839,7 +835,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * タスク名
 * 完了率
 
-  詳しくは、[&#x200B; タスクの完了率の表示と更新 &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
+  詳しくは、[ タスクの完了率の表示と更新 ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
 * 割り当て
 * 予定完了日
 
@@ -854,4 +850,4 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 リスト内のタスクに加えた変更を自動的に保存する場合は、リスト内のタスクを一括で編集し、そのすべての情報を同時に更新できます。
 
-タスクの一括保存について詳しくは、「リストでのタスクの編集 [&#x200B; の「タスクの一括編集」の節を参照してくだ &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) い。
+タスクの一括保存について詳しくは、「リストでのタスクの編集 [ の「タスクの一括編集」の節を参照してくだ ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) い。
