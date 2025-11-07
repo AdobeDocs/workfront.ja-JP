@@ -21,7 +21,7 @@ ht-degree: 44%
 
 この記事では、外部検索フィールドを使用して、同じWorkfront インスタンスまたはパブリック API を呼び出す例を示します。 また、外部参照を使用して、Jira、Salesforce、ServiceNow などの外部システムと通信することもできます。
 
-外部検索フィールドをカスタムフォームに追加する方法と、外部検索コンポーネントのその他の定義について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+外部検索フィールドをカスタムフォームに追加する方法と、外部検索コンポーネントのその他の定義について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## アクセス要件
 
@@ -226,6 +226,6 @@ typeahead フィールドを置き換えるためのテンプレートのベー�
 **ユースケース：** ユーザーがカスタムフォーム領域外で独自のフィールドを維持する方法を定義します。 外部検索フィールドを設定し、フィールドを構成するオブジェクトにユーザーを指定できます。 このオプションは、メンテナンスの多いフィールドやチームに適しています。
 **解決策：** 新しいオブジェクトを作成し、このオブジェクトへの API 呼び出しを使用します。
 
-**ユースケース：**Workfront外のオブジェクトとの統合。 例えば、typeahead フィールドで制限されているのではなく、別のシステムにアクセスして各ユーザーの名前を取得するような場合です。
+**ユースケース：**&#x200B;Workfront外のオブジェクトとの統合。 例えば、typeahead フィールドで制限されているのではなく、別のシステムにアクセスして各ユーザーの名前を取得するような場合です。
 **解決策：** 他のシステムに接続するための Webhook/Fusion 自動処理。
 
