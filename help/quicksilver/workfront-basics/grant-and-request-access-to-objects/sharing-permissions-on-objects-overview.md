@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: grant-and-request-access-to-objects
 title: オブジェクトに対する権限の共有の概要
 description: 自分が作成したオブジェクトや自分と共有されたオブジェクトに対する権限を共有または削除できます。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 89%
@@ -93,7 +93,7 @@ Workfront で以下のオブジェクトを他のユーザーと共有できま�
 * Workfrontは、ユーザーとオブジェクトを共有すると、そのユーザーに通知を送信します。 通知は、次の両方の設定が有効な場合に送信されます。
 
    * **ユーザーに対するオブジェクト共有** および **チームに対するオブジェクト共有** のメール通知は、システム管理者またはグループ管理者が「設定」エリアで有効にします。 詳しくは、[システムの全ユーザーに対するイベント通知の設定](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)を参照してください。
-   * **誰かが自分とオブジェクトを共有** および **誰かが自分のチームとオブジェクトを共有** 通知は、ユーザーのプロファイルページで有効になります。 詳しくは、[&#x200B; 独自のメール通知の変更 &#x200B;](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) を参照してください。
+   * **誰かが自分とオブジェクトを共有** および **誰かが自分のチームとオブジェクトを共有** 通知は、ユーザーのプロファイルページで有効になります。 詳しくは、[ 独自のメール通知の変更 ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) を参照してください。
 
   ユーザーの通知設定を有効にするには、まずシステムレベルまたはグループレベルの設定を有効にする必要があります。
 

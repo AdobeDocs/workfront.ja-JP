@@ -6,10 +6,10 @@ description: 配分率は、割り当てられたリソースが 1 日に 1 回�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 70%
 
 このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-詳しくは、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 </div>
 
@@ -59,7 +59,7 @@ ht-degree: 70%
   <tr> 
    <td>オブジェクト権限</td>
    <td><p>タスクに対する参加以上の権限</p>
-   <p>古いエクスペリエンスを使用してタスクを編集する際に、「タスクを編集」ボックスで割り当て率を更新する権限を編集し <span class="preview"> す。 新しいエクスペリエンスでタスクを編集する際に、「タスクを編集」ボックスで割り当ての割合を管理できなくなりました。</span></p> <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md"> タスクの編集 </a> を参照してください</p>.</td>
+   <p>古いエクスペリエンスを使用してタスクを編集する際に、「タスクを編集」ボックスで割り当て率を更新する権限を編集し <span class="preview"> す。 新しいエクスペリエンスでタスクを編集する際に、「タスクを編集」ボックスで割り当ての割合を管理できなくなりました。</span></p> <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">タスクを編集</a>を参照してください。</p></td>
   </tr>
  </tbody>
 </table>
@@ -105,6 +105,6 @@ Take this piece out of the table above when we remove the new experience/ after 
 
    タスクに割り当てられたチームの配分率は変更できません。
 
-   ![&#x200B; 配分率の変更 &#x200B;](assets/advanced-assignments-allocation-percentage.png)
+   ![ 配分率の変更 ](assets/advanced-assignments-allocation-percentage.png)
 
 1. 「**保存**」をクリックします。

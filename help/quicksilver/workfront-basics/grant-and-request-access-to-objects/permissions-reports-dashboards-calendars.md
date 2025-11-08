@@ -4,10 +4,10 @@ content-type: reference
 product-area: user-management;reports;dashboards;calendars
 navigation-topic: grant-and-request-access-to-objects
 description: アクセスレベルを割り当てる際に、Adobe Workfront 管理者は、レポート、ダッシュボードおよびカレンダーを表示または編集するためのアクセス権をユーザーに付与します。レポート、ダッシュボードおよびカレンダーへのアクセス権の付与に関して詳しくは、レポート、ダッシュボードおよびカレンダーへのアクセス権の付与を参照してください。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
@@ -47,7 +47,7 @@ ht-degree: 100%
 
   カレンダーは個別にのみ共有できます。一括で共有することはできません。
 
-* 組み込みのシステムレポートを共有することはできません。共有できるのは、カスタムレポートのみです。
+* ビルトインのシステムレポートを共有することはできません。共有できるのは、カスタムレポートのみです。
 
   システムレポートを新しいカスタムレポートとして保存する方法について詳しくは、[レポートのコピーの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)を参照してください。
 

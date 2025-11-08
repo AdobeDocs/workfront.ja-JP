@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: オブジェクトへのアクセスをリクエスト
 description: Adobe Workfront でのオブジェクトの表示は、そのタイプのオブジェクトに対するアクセス権と、個々のオブジェクトに対する権限によって異なります。
-author: Becky
+author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 63%
@@ -23,9 +23,9 @@ Adobe Workfront でのオブジェクトの表示は、そのタイプのオブ�
 >
 >この記事では、次のオブジェクトを除くすべてのオブジェクトに対する権限をリクエストする方法について説明します。
 >
->* Adobe Workfront シナリオプランナー内のシナリオプランナープラン。 詳しくは、[&#x200B; シナリオプランナーでのプランへのアクセス権のリクエスト &#x200B;](../../scenario-planner/request-access-to-plan.md) を参照してください。 追加のライセンスが必要です。
+>* Adobe Workfront シナリオプランナー内のシナリオプランナープラン。 詳しくは、[ シナリオプランナーでのプランへのアクセス権のリクエスト ](../../scenario-planner/request-access-to-plan.md) を参照してください。 追加のライセンスが必要です。
 >
->* Workfront Planning のビューとワークスペース。 詳しくは、[Adobe Workfront Planning での共有権限の概要 &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md) を参照してください。 追加のライセンスが必要です。
+>* Workfront Planning のビューとワークスペース。 詳しくは、[Adobe Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) を参照してください。 追加のライセンスが必要です。
 
 
 Workfront 管理者は、アクセスレベルの特定のタイプのオブジェクトにアクセス権を設定します。詳しくは、[アクセスレベルと権限の連携方法](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)を参照してください。
@@ -96,7 +96,7 @@ Workfront 内の特定のオブジェクトに権限が必要な場合は、そ�
 1. ドロップダウンリストから、リクエストするアクセスのタイプを選択します。
 1. （オプション）「**P.S.**」フィールドに、追加のアクセス権が必要な理由に関するメモを入力します。
 
-   ![&#x200B; アクセスをリクエストダイアログボックス &#x200B;](assets/request-access-to-project.png)
+   ![ アクセスをリクエストダイアログボックス ](assets/request-access-to-project.png)
 
 1. 「**アクセスの要求**」をクリックします。
 
@@ -115,7 +115,7 @@ For example, if you do not have portfolio access, but you were given a link to a
 
 1. プロジェクト名の右にある&#x200B;**その他**&#x200B;メニューをクリックして、「**さらにアクセスを要求する**」をクリックします。
 
-   ![&#x200B; さらにアクセスを要求 &#x200B;](assets/more-menu-request-more-access.png)
+   ![ さらにアクセスを要求 ](assets/more-menu-request-more-access.png)
 
 1. （条件付き）複数のユーザーが追加のアクセス権を付与するための適切なアクセス権を持っている場合、ユーザー名の横にドロップダウン矢印が表示されます。 ドロップダウンリストからアクセス要求を受信するユーザーを選択します。
 
@@ -124,7 +124,7 @@ For example, if you do not have portfolio access, but you were given a link to a
 1. ドロップダウンリストから、要求するアクセスレベルを選択します。
 1. （オプション）「**P.S.**」フィールドに、追加のアクセス権が必要な理由に関するメモを入力します。
 
-   ![&#x200B; アクセスをリクエストダイアログボックス &#x200B;](assets/request-access-to-project.png)
+   ![ アクセスをリクエストダイアログボックス ](assets/request-access-to-project.png)
 
 1. 「**アクセスの要求**」をクリックします。
 

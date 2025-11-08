@@ -4,8 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: ' [!DNL Adobe Workfront]  コミュニティ'
 description: Adobe  [!DNL Workfront]  コミュニティは、10,000 を超える  [!DNL Workfront]  ユーザーのオンライングループです。コミュニティを通じて、製品リリースの最新情報を入手したり、顧客イベントについて学んだり、 [!DNL Workfront]  製品やサービスについて他のユーザーと話したりすることができます。質問に対する答えが見つかり、他の  [!DNL Workfront]  の顧客とのつながりを確立できます。
 feature: Get Started with Workfront
+author: Becky
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%

@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 title: ホームエリアのオブジェクトに対するアクセスの許可
 description: ユーザーは、Adobe Workfront 内のオブジェクトへのアクセス権をリクエストできます。アクセス権のリクエストについて詳しくは、オブジェクトへのアクセス権のリクエストを参照してください。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 58%
@@ -19,7 +19,7 @@ ht-degree: 58%
 
 ユーザーは、Adobe Workfront内のオブジェクトへのアクセスをリクエストできます。
 
-アクセスのリクエストについて詳しくは、[&#x200B; オブジェクトへのアクセスのリクエスト &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/request-access.md) を参照してください。
+アクセスのリクエストについて詳しくは、[ オブジェクトへのアクセスのリクエスト ](../../workfront-basics/grant-and-request-access-to-objects/request-access.md) を参照してください。
 
 オブジェクトの所有者は、ホームエリアからアイテムへのアクセス権を付与または拒否できます。
 
@@ -73,7 +73,7 @@ Adobe Workfrontの左上隅にある **ホーム** アイコン ![](assets/home-
 
    1. **自分の承認** ウィジェットに移動して、さらにアクセスするためのリクエストを見つけ、「**アクセスを許可**」をクリックします。
 
-      ![&#x200B; リクエストを承認 &#x200B;](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+      ![ リクエストを承認 ](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
    1. （オプション）要求されたものと異なるレベルのアクセスを許可するには、アクセスを許可のボタンの左側にあるドロップダウンメニューをクリックして新しいアクセスを選択し、「**アクセスを許可**」をクリックします。
 
@@ -88,9 +88,9 @@ Adobe Workfrontの左上隅にある **ホーム** アイコン ![](assets/home-
 1. 次のいずれかの操作を行って、ユーザープロファイルに移動します。
 
    * 画面の右上隅にある **メインメニュー**![](assets/dots-main-menu.png) をクリックしてから、自分の名前をクリックします。
-   * 右上隅にあるAdobe **メインメニュー**![&#x200B; プロファイルアイコン &#x200B;](assets/adobe-blue-main-menu.png) をクリックし、使用可能な場合は「**Workfront プロファイル**」をクリックします。
+   * 右上隅にあるAdobe **メインメニュー**![ プロファイルアイコン ](assets/adobe-blue-main-menu.png) をクリックし、使用可能な場合は「**Workfront プロファイル**」をクリックします。
 
-1. ヘッダーの名前の右側にある **その他** メニュー ![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
+1. ヘッダーの名前の右側にある **その他** メニュー ![ その他のアイコン ](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
 1. 「**通知**」をクリックし、別のユーザーが自分からのアクセスを要求したときにメール通知を受け取るかどうかに応じて、「**必要なアクション**」セクションの **自分からアクセスを要求するユーザー** を選択または選択解除します。
 
    日別またはインスタントの通知を有効にできます。

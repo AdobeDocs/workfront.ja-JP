@@ -7,10 +7,10 @@ description: Adobe Workfrontで作業項目にログオンした時間は、実�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '1231'
-ht-degree: 26%
+source-wordcount: '1276'
+ht-degree: 25%
 
 ---
 
@@ -93,8 +93,10 @@ Adobe Workfront で作業項目に記録した時間は、実際の時間数と�
 
 * プロジェクト、タスク、問題のレポートとリストでは、次の操作を行います。
 
-   * **実際の時間数**: 2021 年 5 月以降、プロジェクト、タスクまたは問題に記録された時間。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
-   * **従来の実際の時間**:2021 年 5 月より前を含む、任意の時点でプロジェクト、タスク、または問題に記録された時間。 分はWorkfront データベースに分として保存され、その値フィールドは `actualWorkRequired` です。
+   * **実際の時間数**: 2021 年 5 月から今日までのプロジェクト、タスクまたは問題のログ記録時間。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
+   * **従来の実際の時間**:2021 年 5 月以前の任意の日付から今日の任意の時間に、プロジェクト、タスク、または問題について記録された時間。 分はWorkfront データベースに分として保存され、その値フィールドは `actualWorkRequired` です。
+
+     現在ログに記録された時間は、実際の時間と従来の実際の時間の両方を更新します。
 
      >[!IMPORTANT]
      >
@@ -102,12 +104,14 @@ Adobe Workfront で作業項目に記録した時間は、実際の時間数と�
 
 * 「プロジェクト、タスク、問題の詳細」領域で、実際の時間数が次のフィールドに表示される場合があります。
 
-   * **実際の時間**:「詳細」タブには、2021 年 5 月以降、プロジェクト、タスクまたは問題について記録された時間が表示されます。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
-   * **実際の時間**: プロジェクト、タスクまたは問題のカスタムフォームで、ネイティブフィールドを使用してアクセスされた場合、実際の時間ネイティブフィールドを参照するカスタムフィールドを参照します。 これらは、2021 年 5 月以降のプロジェクト、タスク、または問題についてログに記録された時間です。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
+   * **実際の時間**:「詳細」タブに表示される時間は、2021 年 5 月から今日の間に、プロジェクト、タスクまたは問題について記録された時間です。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
+   * **実際の時間**: プロジェクト、タスクまたは問題のカスタムフォームで、ネイティブフィールドを使用してアクセスされた場合、実際の時間ネイティブフィールドを参照するカスタムフィールドを参照します。 これらは、2021 年 5 月 5 日より前の任意の日付と今日のプロジェクト、タスク、または問題についてログに記録された時間です。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
+
+     現在ログに記録された時間は、実際の時間と従来の実際の時間の両方を更新します。
 
 >[!NOTE]
 >
->可能な限り、「実際の時間数」フィールドを使用することをお勧めします。「従来の実際の時間数」フィールドは、増分の四捨五入によって不正確な時間が表示される可能性があるためです。
+>可能な限り、「実際の時間数」フィールドを使用することをお勧めします。「従来の実際の時間数」フィールドは、時間を分単位で保存すると増分が四捨五入されるため、不正確な時間と表示される可能性があるからです。
 
 ## タスクとイシューの実際の時間数とプロジェクトの実際の時間数
 
@@ -159,7 +163,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 タスク、問題、またはプロジェクトの報告書を作成する際、報告書の各タスク、問題、またはプロジェクトの実際の時間数と従来の実際の時間値を表示できます。
 
-実際の時間数と従来の実際の時間数の違いについては、この記事の [&#x200B; 実際の時間数と従来の実際の時間数 &#x200B;](#actual-hours-vs-legacy-actual-hours) の節を参照してください。
+実際の時間数と従来の実際の時間数の違いについては、この記事の [ 実際の時間数と従来の実際の時間数 ](#actual-hours-vs-legacy-actual-hours) の節を参照してください。
 
 タスク・レポートに実績時間数とレガシー実績時間数を表示する手順は、次のとおりです。
 
@@ -180,11 +184,11 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 割り当てられたタスクやイシューに対してユーザーが実行している作業の進捗状況を確認する場合は、次のリソース管理ツールでその進捗状況を確認できます。
 
 * 稼働率レポート。\
-  詳しくは、[&#x200B; 資源稼働率レポートの概要 &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) を参照してください。
+  詳しくは、[ 資源稼働率レポートの概要 ](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) を参照してください。
 
 * リソースプランナー
 
-  詳しくは、[&#x200B; ユーザービューの使用時にリソースプランナーで利用可能な時間、予定および実際の時間または FTE を表示 &#x200B;](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md) を参照してください。
+  詳しくは、[ ユーザービューの使用時にリソースプランナーで利用可能な時間、予定および実際の時間または FTE を表示 ](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md) を参照してください。
 
 
 ### Workfront API の実際の時間数
@@ -202,13 +206,13 @@ API 呼び出し、または計算されたカスタムフィールドや列で�
 * **実際の時間数**: 2021 年 5 月以降、プロジェクト、タスクまたは問題に記録された時間。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
 * **従来の実際の時間**:2021 年 5 月より前を含む、任意の時点でプロジェクト、タスク、または問題に記録された時間。 分はWorkfront データベースに分として保存され、その値フィールドは `actualWorkRequired` です。
 
-API のバージョンについて詳しくは、「[API バージョン管理とサポートスケジュール &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md)」を参照してください。
+API のバージョンについて詳しくは、「[API バージョン管理とサポートスケジュール ](/help/quicksilver/wf-api/api/api-version-support-schedule.md)」を参照してください。
 
 >[!IMPORTANT]
 >
 >プロジェクトの実際のコストは、従来の実際の時間数を使用して計算します。
 
-計算された列またはフィールドでの実際の時間数の使用について詳しくは、[&#x200B; レポートに関する FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) を参照してください。
+計算された列またはフィールドでの実際の時間数の使用について詳しくは、[ レポートに関する FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) を参照してください。
 
 ## 時間を記録
 
