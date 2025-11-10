@@ -6,16 +6,22 @@ description: Adobe Workfront は、2025年10月23日（PT）に API バージョ
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 155323314712e020a638619d9bf10d678078645e
+source-git-commit: 040e714c2f81ba764c7895be430446add1250a83
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 85%
+source-wordcount: '954'
+ht-degree: 79%
 
 ---
 
 # API バージョン 21 の新機能
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
+
+>[!IMPORTANT]
+>
+>この API バージョンの変更は、既存の API 呼び出しに影響を与える可能性のある重大な変更を特徴としています。 これは、API バージョン 21 がイベント購読バージョン 2 を使用しているためです。
+>
+> 複数選択フィールドの場合、イベント購読バージョン 2 は常に配列として送信します。 バージョン 1 では、複数の値が選択されている場合、配列が送信されました。 1 つの値のみが選択された場合、文字列が送信されます。
 
 Adobe Workfront は、2025年10月23日（PT）に API バージョン 21 をリリースしました。API バージョン 21 では、バージョン 20 から次の変更が行われました。
 
