@@ -6,10 +6,10 @@ description: Adobe Workfront for XD プラグインは、Adobe Marketplace か�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 81%
+source-wordcount: '497'
+ht-degree: 74%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 81%
 
 [!DNL Adobe Admin Console] 管理者は、プラグインを [!DNL Creative Cloud] デプロイメントパッケージに含めることができます。詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
-[&#x200B; こちらのビデオチュートリアルをご覧ください &#x200B;](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
+[ こちらのビデオチュートリアルをご覧ください ](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
 また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
 
@@ -89,7 +89,7 @@ ht-degree: 81%
 
 1. 左下隅で、**プラグイン**&#x200B;アイコンをクリックします。
 
-![XD プラグインウィンドウ &#x200B;](assets/xd-plugin-window-350x620.png)
+![XD プラグインウィンドウ ](assets/xd-plugin-window-350x620.png)
 
 1. **[!UICONTROL プラグインパネル]**&#x200B;で、**[!UICONTROL Adobe Workfront for XD]** を検索します。
 
@@ -103,22 +103,21 @@ ht-degree: 81%
    >[!TIP]
    >
    >* ドメインを検索するには、ブラウザーを開いて [!DNL Workfront] インスタンスに移動し、次の URL の最初の部分をコピーします。\
-   >![&#x200B; ドメインの検索 &#x200B;](assets/domain-350x50.png)
+   >![ ドメインの検索 ](assets/domain-350x50.png)
    >
-   >* Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
+   >* Workfront インスタンスがExperience Cloudと統合されていて、ドメインが「`experience.adobe.com`」で始まる場合は、Admin Consoleの製品/WorkfrontにあるWorkfront ドメインを提供するように管理者に依頼します。
 
-1. ブラウザーで、[!DNL Workfront] 資格情報を入力し、「**[!DNL Log in]**」をクリックします。会社がシングルサインオン（SSO）を使用している場合は、SSO プロバイダーのページにリダイレクトされ、そこからログインします。
+1. ブラウザーで、[!DNL Adobe] 資格情報を入力し、「**[!DNL Log in]**」をクリックします。会社がシングルサインオン（SSO）を使用している場合は、SSO プロバイダーのページにリダイレクトされ、そこからログインします。
 
    >[!NOTE]
    >
    >最近ログインした場合は、[!DNL Workfront] の資格情報の入力を求められない場合があります。
 
-   画面のプロンプトに従って、[!DNL Workfront] にログインします。
+1. 画面のプロンプトに従って、[!DNL Workfront] にログインします。
 
    >[!NOTE]
    >
    >* [!DNL Workfront] と [!DNL Adobe Creative Cloud] との接続には OAuth 2.0 を使用します。これはほとんどの Web ベースの統合で、ユーザーの認証と承認に使用される安全な規格です。
-   >* [!DNL Workfront] アカウントの [ ドメインまたはホスト ] を入力するよう求められた場合は、*yourCompany&#39;sDomain.my.workfront.com* の形式で入力します。会社のドメインは通常、会社の名前です。
 
 1. 「**[!UICONTROL アクセスを許可]**」をクリックしてログインを完了し、[!DNL Adobe XD] に戻って自分の作業を確認します。
 
@@ -129,7 +128,7 @@ ht-degree: 81%
 
 `experience.adobe.com` で始まる URL を使用してプラグインにログインすることはできません。
 
-![&#x200B; ログインエラー &#x200B;](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
+![ ログインエラー ](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
 
 
 この問題を修正するには、
