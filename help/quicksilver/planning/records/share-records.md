@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 45%
@@ -41,6 +41,35 @@ ht-degree: 45%
    * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
 
    * [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
+
+<!--When we release record-level permissions, replace the bullets above with these:
+
+You can share an Adobe Workfront Planning record in the following ways: 
+
+* Copy the link of the record page from your browser when the page is open. 
+
+* Copy a link to the record's page when viewing records in the record type's table view.   
+
+* In the Production environment: 
+
+   * You can share all records in a workspace with other users by sharing the workspace and the record type.
+
+      For more information see the following articles:
+
+      * [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+      * [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+<div class="preview">
+
+* In the Preview environment: 
+
+   * You can share individual records with people, teams, roles, groups, or companies.
+
+</div>
+-->
+
+<!--take out the sentence below when we release record-level sharing-->
 
 この記事では、レコードタイプのテーブルビューからレコードのページへのリンクをコピーする方法について説明します。
 
@@ -82,7 +111,7 @@ ht-degree: 45%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++  
 
@@ -170,9 +199,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    または
 
-   レコードの名前にポインタを合わせ、「**その他**」メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**リンクをコピー**」をクリックします。
+   レコードの名前にポインタを合わせ、「**その他**」メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、「**リンクをコピー**」をクリックします。
 
-   ![&#x200B; レコード行のコンテキストメニュー &#x200B;](assets/contextual-menu-for-record-row.png)
+   ![ レコード行のコンテキストメニュー ](assets/contextual-menu-for-record-row.png)
 
    リンクがクリップボードにコピーされます。
 
@@ -208,5 +237,5 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ワークスペースに対する管理権限を持つユーザーのみが、そのレコードタイプとレコードを他のユーザーと共有できます。
 
-詳しくは、[&#x200B; レコードタイプの共有 &#x200B;](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
+詳しくは、[ レコードタイプの共有 ](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
 
