@@ -16,8 +16,8 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
@@ -71,16 +71,16 @@ KPI、テーブル、またはグラフ レポートを作成後、キャンバ�
 
 レポートを複製するには、ダッシュボードにレポートを追加する必要があります。
 
-詳しくは、[ キャンバスダッシュボードの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) を参照してください。
 
 ## レポートの複製
 
 {{step1-to-dashboards}}
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
-1. **キャンバスダッシュボード** ページで、複製するレポートの右上隅にある **詳細**![ 詳細ボタン ](assets/more-icon.png) アイコンをクリックし、「**複製**」を選択します。
+1. **キャンバスダッシュボード** ページで、複製するレポートの右上隅にある **詳細**![&#x200B; 詳細ボタン &#x200B;](assets/more-icon.png) アイコンをクリックし、「**複製**」を選択します。
 
-   ![ 「複製」ボタン ](assets/duplicate-button.png)
+   ![&#x200B; 「複製」ボタン &#x200B;](assets/duplicate-button.png)
 
 1. （オプション）表示された **設定** ボックスで、**詳細** タブに新しいレポート **名前** を入力します。
 
@@ -88,6 +88,6 @@ KPI、テーブル、またはグラフ レポートを作成後、キャンバ�
 
    >[!NOTE]
    >
-   >これらのタブは、KPI、テーブルまたはグラフレポートのいずれを複製したかによって異なります。  詳細については、[ キャンバス ダッシュボードでの KPI レポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)、[ キャンバス ダッシュボードでのグラフ レポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)、および [ キャンバス ダッシュボードでのテーブル レポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md) を参照してください。
+   >これらのタブは、KPI、テーブルまたはグラフレポートのいずれを複製したかによって異なります。  詳細については、[&#x200B; キャンバス ダッシュボードでの KPI レポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)、[&#x200B; キャンバス ダッシュボードでのグラフ レポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)、および [&#x200B; キャンバス ダッシュボードでのテーブル レポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md) を参照してください。
 
 1. 「**保存**」をクリックします。複製されたレポートがダッシュボードに表示されます。
