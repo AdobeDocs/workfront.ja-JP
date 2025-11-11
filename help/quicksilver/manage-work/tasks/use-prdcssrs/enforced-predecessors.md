@@ -6,16 +6,16 @@ description: 先行タスクとは、他のタスクの完了に依存するタ�
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 94%
+source-wordcount: '475'
+ht-degree: 92%
 
 ---
 
 # 先行タスクを強制的に実行
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 先行タスクとは、他のタスクの完了に依存するタスクのことです。先行タスクの関係は、タスクの開始日と完了日に影響し、最終的にはプロジェクトのタイムラインに影響を与えます。
 
@@ -119,4 +119,6 @@ ht-degree: 94%
 1. **先行タスク**&#x200B;列で、先行タスクの番号の入力を開始し、末尾に「e」を付けます。例えば、選択したタスクの先行タスクとしてタスク番号 1 を追加するには、「1e」と入力します。
 1. Enter を押して、タスクの先行タスク情報を保存します。
 
-   ![predecessor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![ 適用された先行タスク リスト ](assets/predecessor-enforced-in-list-350x308.png)
+
+   適用される先行タスクに関する情報は、ただちに保存されます。

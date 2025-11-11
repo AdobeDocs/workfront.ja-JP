@@ -7,16 +7,16 @@ description: 見込み完了日は、プロジェクト、タスクまたはイ�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 68%
+source-wordcount: '867'
+ht-degree: 67%
 
 ---
 
 # プロジェクト、タスクおよびイシューに関する見込み完了日の概要
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2025 -->
 
 見込み完了日は、プロジェクト、タスクまたはイシューがいつ完了するかを示すリアルタイムの計算された指標です。プロジェクト、タスク、またはイシューが「完了」とマークされると、見込み完了日が実際の完了日に変更されます。
 
@@ -74,7 +74,7 @@ ht-degree: 68%
    * **タスク担当者によってタスクに対して行われた進捗の更新：** 進捗の更新には、完了率への変更、タスクのステータスの変更が含まれます。
    * **コミット日：**&#x200B;タスクの担当者がコミット日を指定した場合、「見込み完了日」は「コミット日」に合わせて変更されます。
 
-     コミット日について詳しくは、「コミット日の概要 [&#x200B; の記事を参照してください &#x200B;](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
+     コミット日について詳しくは、「コミット日の概要 [ の記事を参照してください ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
    * **先行タスク：** 先行タスクに遅延がない場合、見込み完了日は予定完了日と一致する必要があります。 遅延が発生した場合、依存タスクには、「予定完了日」よりも大きい日付の「見込み完了日」が表示されます。
 
@@ -122,6 +122,9 @@ ht-degree: 68%
 1. **イシュー** オブジェクトの下のリストに表示されたら選択します。
 1. 「**保存して閉じる**」をクリックします。
 
+   ![ レポート列の問題の予定完了日 ](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+
+
    レポートの **見込み完了日** 列にデータが入力されます。
 
-   ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+

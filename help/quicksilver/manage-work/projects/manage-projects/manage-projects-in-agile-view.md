@@ -6,20 +6,22 @@ description: 通常アジャイルプラクティスに伴う管理上の課題�
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 90%
+source-wordcount: '311'
+ht-degree: 59%
 
 ---
 
 # アジャイルビューでのプロジェクトの管理
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 通常アジャイルプラクティスに伴う管理上の課題（チームバックログの管理やイテレーションの作成など）に煩わされずに、プロジェクトでアジャイル機能を活用できます。
 
-チームバックログを使用し、バックログにあるタスクからのイテレーションの作成を許可するアジャイル環境で作業する場合は、[アジャイル環境での作業](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)の手順に従います。
+チームバックログを使用するアジャイル環境で作業し、バックログのタスクから反復を作成できます。
+
+詳しくは、[ アジャイル環境での作業 ](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md) を参照してください。
 
 ## アクセス要件
 
@@ -95,7 +97,9 @@ ht-degree: 90%
 
 ## アジャイルビューでのプロジェクトの表示
 
-1. アジャイルビューでタスクリストまたはイシューリストに表示するプロジェクトに移動します。
+プロジェクトのタスクとイシューの両方をリストではなくアジャイルビューで表示して、プロジェクト開発にアジャイル機能を活用できます。
+
+1. アジャイルビューで表示するプロジェクトに移動し、左パネルで **タスク** または **イシュー** をクリックします。
 1. **ボードビュー**&#x200B;アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png) をクリックします。
 
    プロジェクトのボードビューがデフォルトで表示されます。
@@ -107,4 +111,6 @@ ht-degree: 90%
 
    詳しくは、[ボード列の管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)と[カードに表示されるフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)を参照してください。プロジェクトのボードビューでは列ポリシーを定義できないことに注意してください。
 
-1. （オプション）リストビューに戻るには、**リスト**&#x200B;アイコンをクリックします。
+1. （オプション）リスト表示に戻るには、「**リスト** アイコン ![ リストアイコン ](assets/list-icon.png) をクリックします。
+
+   タスクまたは問題のリストが表示されます。

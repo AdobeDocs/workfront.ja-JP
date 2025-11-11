@@ -8,10 +8,10 @@ author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -19,23 +19,23 @@ ht-degree: 95%
 
 この節では、次の記事を扱います。
 
-* [&#x200B; [!DNL Scenario Planner] の概要](../scenario-planner/scenario-planner-overview.md)
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)の基本を学ぶ
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)の使用に必要なアクセス権
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)のプランの概要
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)での計画の作成と編集
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)での計画シナリオの作成と比較
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)での計画の削除
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)のイニシアチブの概要
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)でのイニシアチブの作成と編集
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md)でのイニシアティブのコピー
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)でのイニシアチブの優先度の更新
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)でのイニシアチブの削除
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)でのイニシアチブの競合の解決
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)での計画へのプロジェクトの読み込み
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)での計画へのアクセス権の要求
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)での計画の共有
-* [&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)でのイニシアチブの公開によるプロジェクトの更新または作成
+* [ [!DNL Scenario Planner] の概要](../scenario-planner/scenario-planner-overview.md)
+* [ [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)の基本を学ぶ
+* [ [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)の使用に必要なアクセス権
+* [ [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)のプランの概要
+* [ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)での計画の作成と編集
+* [ [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)での計画シナリオの作成と比較
+* [ [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)での計画の削除
+* [ [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)のイニシアチブの概要
+* [ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)でのイニシアチブの作成と編集
+* [ [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md)でのイニシアティブのコピー
+* [ [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)でのイニシアチブの優先度の更新
+* [ [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)でのイニシアチブの削除
+* [ [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)でのイニシアチブの競合の解決
+* [ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)での計画へのプロジェクトの読み込み
+* [ におけるプランへの権限のリクエスト  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)
+* [ [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)での計画の共有
+* [ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)でのイニシアチブの公開によるプロジェクトの更新または作成
 * [プロジェクトとイニシアチブ間でのリソース割り当て調整の概要](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
 * [タスクリストでのプロジェクトとイニシアチブの役割割り当ての表示](../scenario-planner/show-role-allocation-task-list-nwe.md)
 * [[!UICONTROL ワークロードバランサー]でのプロジェクトとイニシアチブの役割割り当ての表示](../scenario-planner/show-role-allocation-workload-balancer.md)
