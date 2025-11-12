@@ -92,7 +92,7 @@ ht-degree: 79%
 複数選択カスタムフィールドを参照する計算フィールドを作成するには、以下の前提条件が満たされている必要があります。
 
 * カスタムフォームの複数選択カスタムフィールド\
-  カスタムフォームの作成と、カスタムフォームへのカスタムフィールドの追加について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成と、カスタムフォームへのカスタムフィールドの追加について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 * 複数選択カスタムフィールドがオブジェクトに添付されたカスタムフォーム。
 * 各オブジェクトの複数選択カスタムフィールドの値。
@@ -101,7 +101,7 @@ ht-degree: 79%
 
 1. カスタムフォームを作成するか、既存のフォームを編集します。
 
-   カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+   カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 1. カスタムフォームで使用する 1 つ以上のオブジェクトを選択します。
 1. **フィールドを追加**／**計算**&#x200B;をクリックして、複数選択カスタムフィールドをフォームに追加します。
@@ -118,7 +118,7 @@ ht-degree: 79%
 
 1. 「複数選択カスタムフィールド」を、Workfront に表示される複数選択カスタムフィールドの実際の名前に置き換えます。
 
-   ![ 計算複数選択カスタムフィールド ](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![&#x200B; 計算複数選択カスタムフィールド &#x200B;](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
 1. （オプション）複数選択のカスタムフィールドがこのフォームに既に存在し、このフォームが既にオブジェクトに添付されている場合は、「**既存の計算に適用**」オプションを有効にします。
 
@@ -132,7 +132,7 @@ ht-degree: 79%
 ### 計算カスタムフィールドを参照するチャートの作成 {#build-a-chart-that-references-a-calculated-custom-field}
 
 1. （オプション）グラフの作成に使用するすべての計算フィールドに値が入力されるようにするには、レポート内のすべてのオブジェクトのカスタム式を再計算する必要があります。
-式の再計算について詳しくは、[ カスタム フィールドの情報を編集する ](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md) を参照してください。
+式の再計算について詳しくは、[&#x200B; カスタム フィールドの情報を編集する &#x200B;](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md) を参照してください。
 
    <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
    1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
@@ -148,11 +148,11 @@ ht-degree: 79%
 1. グループ化として作成した <strong> 計算複数選択フィールド </strong> を追加します。
 1. 「<strong>グラフ</strong>」タブを選択し、レポートにグラフを追加します。
 
-   例えば、**列**のグラフを選択します。
+   例えば、**列**&#x200B;のグラフを選択します。
    <br>レポートへのグラフの追加について詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">カスタムレポートの作成</a>の記事の<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">レポートへのグラフの追加</a>の節を参照してください。
 1. **下（X）軸** フィールドで、グラフに表示する <strong> 計算複数選択フィールド </strong> を選択します。
 1. 「<strong>保存して閉じる</strong>」をクリックします。
 
    レポートは、複数選択の計算フィールドでグループ化された結果をグラフで表示します。
 
-   ![ グラフの複数選択フィールド ](assets/chart-multi-select-field-column-chart-example.png)
+   ![&#x200B; グラフの複数選択フィールド &#x200B;](assets/chart-multi-select-field-column-chart-example.png)
