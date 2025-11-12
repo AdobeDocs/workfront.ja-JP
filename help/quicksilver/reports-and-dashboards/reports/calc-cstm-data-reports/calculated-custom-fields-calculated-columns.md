@@ -7,9 +7,9 @@ description: Adobe Workfront で複数のフィールドを集計し、その集
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '844'
 ht-degree: 90%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 90%
 Adobe Workfront で複数のフィールドを集計し、その集計値を新しいフィールドに表示するには、次のように作成します。
 
 * カスタムフォームの計算済みカスタムフィールド\
-  計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、[&#x200B; 計算フィールドをフォームに追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+  計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、[ 計算フィールドをフォームに追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 * ビューの計算済み列\
   ビューで計算を使用する方法について詳しくは、[テキストモードの一般的な使用例の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)の記事の[ビューでテキストモードを使用](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views)の節を参照してください。
@@ -85,11 +85,13 @@ Adobe Workfront で複数のフィールドを集計し、その集計値を新�
 
 ## 計算済みカスタムフィールドの更新をトリガーするアクション
 
-* オブジェクトのメインページで、「詳細」アイコン ![&#x200B; 「詳細」アイコン &#x200B;](assets/more-icon.png) をクリックし、「式を再計算 **をクリックし** す。
+* オブジェクトのメインページで、「詳細」アイコン ![ 「詳細」アイコン ](assets/more-icon.png) をクリックし、「式を再計算 **をクリックし** す。
 
 * **カスタム式の再計算** が有効な場合の複数のオブジェクトの一括編集
 * オブジェクトのリストの「詳細」メニューから「**式を再計算**」をクリックすると、複数のオブジェクトを一括編集する。
 * 計算されたカスタムフィールドで **以前の計算を更新** が有効になっている場合のカスタムフォームの編集。
+
+詳しくは、[カスタムフォームフィールドの情報を編集](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md)を参照してください。
 
 ## ビューで計算済み列を使用する場合
 
