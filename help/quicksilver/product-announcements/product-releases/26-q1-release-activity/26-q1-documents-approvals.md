@@ -27,7 +27,7 @@ ht-degree: 16%
 
 Workfront プルーフを使用したAdobe Expressのクロスオーガニゼーションサポートを導入します。 この機能強化により、複数の IMS 組織で業務を行うお客様は、プルーフワークフローをシームレスに使用および管理できるようになります。
 
-詳しくは、[Adobe ExpressとWorkfront Proofの統合の基本を学ぶ ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。
+詳しくは、[Adobe ExpressとWorkfront Proofの統合の基本を学ぶ &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。
 
 
 ## Adobe Experience Managerが Frame.io 統合で利用できるようになりました。
@@ -40,5 +40,5 @@ Workfront プルーフを使用したAdobe Expressのクロスオーガニゼー
 
 これで、Experience Manager Assetsを使用して、&#x200B;レビューと承認のサイクルを経たデジタルアセットを管理および保存できます。 この統合により、Adobe Experience Manager、Frame.io、Workfrontの機能を活用して、コンテンツ管理や共同作業のプロセスを合理化できます。
 
-詳しくは、[Adobe Experience Managerを Frame.io 統合環境で使用する ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md) を参照してください。
+詳しくは、[Adobe Experience Managerを Frame.io 統合環境で使用する &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md) を参照してください。
 
