@@ -57,4 +57,4 @@ ht-degree: 16%
 * カスタムフィールドを追加できるWorkfrontのレポート、フィルター、ビュー、その他の場所からは除外されます
 * 他のカスタムフォームに追加するフィールドライブラリでは使用できません
 
-詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
