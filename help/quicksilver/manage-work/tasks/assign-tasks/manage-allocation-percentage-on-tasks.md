@@ -6,10 +6,10 @@ description: 配分率は、割り当てられたリソースが 1 日に 1 回�
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 71%
+source-wordcount: '457'
+ht-degree: 79%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 71%
 
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-詳しくは、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 
 配分率は、割り当てられたリソースが 1 日に 1 回のタスクで作業する予定の時間を表します。タスクの期間中にリソースが配分される、（ユーザーまたはプロジェクトのスケジュールに従った）作業日の割合です。
@@ -59,7 +59,7 @@ ht-degree: 71%
   <tr> 
    <td>オブジェクト権限</td>
    <td><p>タスクに対する参加以上の権限</p>
-   <p>古いエクスペリエンスを使用してタスクを編集する際に、「タスクを編集」ボックスで割り当て率を更新する権限を編集し <span class="preview"> す。 新しいエクスペリエンスでタスクを編集する際に、「タスクを編集」ボックスで割り当ての割合を管理できなくなりました。</span></p> <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">タスクを編集</a>を参照してください。</p></td>
+   <p>古いエクスペリエンスを使用してタスクを編集する際に、「タスクを編集」ボックスで割り当て率を更新する権限を編集します。 新しいエクスペリエンスでタスクを編集する際に、「タスクを編集」ボックスで割り当て率を管理できなくなりました。</p> <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">タスクを編集</a>を参照してください。</p></td>
   </tr>
  </tbody>
 </table>
@@ -105,6 +105,6 @@ Take this piece out of the table above when we remove the new experience/ after 
 
    タスクに割り当てられたチームの配分率は変更できません。
 
-   ![&#x200B; 配分率の変更 &#x200B;](assets/advanced-assignments-allocation-percentage.png)
+   ![ 配分率の変更 ](assets/advanced-assignments-allocation-percentage.png)
 
 1. 「**保存**」をクリックします。

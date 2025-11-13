@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2065'
 ht-degree: 1%
 
 ---
@@ -53,6 +53,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 * Workfront Planning でキャンペーン、商品、ペルソナ、およびアクティベーションを変更し、GenStudio for Performance Marketingで同じ情報をリアルタイムで更新します。
 * 重複するデータ入力を避けます。
 * 計画とアクティブ化の取り組み間の整合性を維持します。
+* GenStudio Brands とその情報をWorkfront Planning レコードに接続します。
 
 ## 統合要件
 
@@ -60,13 +61,13 @@ Workfront Planning とGenStudio for Performance Marketingの統合が存在す�
 
 * WorkfrontとGenStudio for Performance Marketingは、同じ組織に対して有効にする必要があります。
 
-  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
+  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
 
 <!--No longer the case: * Your organization must have only one Workfront instance. GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. -->
 
 * Workfront インスタンスは、Identity Management System （IMS）の使用など、Adobe統合エクスペリエンスの一部です。
 
-  詳しくは、[WorkfrontのAdobe統合エクスペリエンス &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+  詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
 * Workfront Planning とGenStudio for Performance Marketingの両方を使用するユーザーは、IMS 組織内の 1 つのWorkfront インスタンスにのみ属している必要があります。
 
@@ -108,7 +109,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合が存在す�
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing ユーザーの役割</p></td> 
    <td><p><ul><li>キャンペーン、製品およびペルソナにアクセスするためのGenStudio ユーザーロール</li>
    <li>アクティベーションにアクセスするための GenSudio System Manager <!--and Events--></li></ul>
-   詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
+   詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
    </p>
   </td> 
   </tr>   
@@ -129,9 +130,9 @@ Workfront Planning とGenStudio for Performance Marketingの統合が存在す�
 </tbody> 
 </table>
 
-Adobe Workfront Planning へのアクセスについて詳しくは、[Adobe Workfront Planning へのアクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+Adobe Workfront Planning へのアクセスについて詳しくは、[Adobe Workfront Planning へのアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
-Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
+Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
 
 <!--Old:
 <table style="table-layout:auto"> 
@@ -163,7 +164,7 @@ Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenSt
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -184,7 +185,6 @@ Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenSt
   </tr> 
 </tbody> 
 </table> -->
-
 
 ## Workfront Planning とGenStudio for Performance Marketingの統合機能の概要
 
@@ -223,7 +223,7 @@ Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenSt
 <p>All users with access to GenStudio for Performance Marketing and Workfront Planning have Contribute permissions on the GenStudio in Planning by default</p> 
 <p>Workfront administrators cannot grant Manage permissions to the GenStudio workspace to anyone</p>-->
 
-Workfront Planning の権限については、[Adobe Workfront Planning での共有権限の概要 &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md) を参照してください。
+Workfront Planning の権限については、[Adobe Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) を参照してください。
 
 以下の節では、以下について説明します。
 
@@ -239,9 +239,9 @@ Workfront Planning の権限については、[Adobe Workfront Planning での�
 
 * GenStudio Workspace は、Workfront Planning にGenStudio for Performance Marketing Workspace を表すインジケーターを表示し、それを識別します。
 
-  ![Planning のGenStudio カード &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
+  ![Planning のGenStudio カード ](assets/genstudio-card-with-tag-highlighted.png)
 
-  詳しくは、[Adobe Workfront Planning でのGenStudio Workspace の管理 &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md) を参照してください。
+  詳しくは、[Adobe Workfront Planning でのGenStudio Workspace の管理 ](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md) を参照してください。
 * Planning のGenStudioワークスペースに対する管理権限を持っている場合は、次の操作を実行できます。
 
    * Planning のGenStudioワークスペースを更新します（名前、説明、アイコン）
@@ -258,7 +258,7 @@ Workfront Planning の権限については、[Adobe Workfront Planning での�
 
 * GenStudio for Performance Marketingと Planning の両方に表示されるレコードタイプには、Workfront Planning にGenStudio インジケーターがあります。
 
-  ![Workfront Planning のGenStudio レコードタイプカード &#x200B;](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+  ![Workfront Planning のGenStudio レコードタイプカード ](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 * Planning のGenStudioワークスペースに対する管理権限を持っている場合は、Workfront Planning から次の操作を実行できます。
    * GenStudio レコードタイプに関する情報（外観、詳細設定）を編集します。
    * GenStudio レコードタイプを他のユーザーと共有する。
@@ -290,13 +290,14 @@ Workfront Planning の権限については、[Adobe Workfront Planning での�
 
 ### GenStudio Workspace のレコードタイプフィールド
 
-* レコードタイプのフィールドは、デフォルトでGenStudio for Performance MarketingからWorkfront Planning に読み込まれます。
-* GenStudio for Performance Marketingからレコードタイプにフィールドを追加することはできません。
-<!--Iskuhi said this is not possible but I can add fields: * You cannot create or delete Activation records' fields from the GenStudio workspace in Workfront Planning. -->
+レコードタイプのフィールドは、デフォルトでGenStudio for Performance MarketingからWorkfront Planning に読み込まれます。
+
+GenStudio レコードタイプフィールドについて、次の点を考慮してください。
+
 * Planning のGenStudioワークスペースに対する管理権限を持っている場合は、Workfront Planning から次の操作を実行できます。
 
    * GenStudio フィールドの設定を編集します。
-   * Gen Studio Workspace で管理アクセス権を持っている場合、GenStudio レコードタイプのフィールドを作成します。
+   * GenStudio レコードタイプのフィールドを作成します。
 
      Planning でGenStudioレコード・タイプのフィールドを作成すると、次の領域から表示されます：
 
@@ -306,7 +307,7 @@ Workfront Planning の権限については、[Adobe Workfront Planning での�
 
      >[!TIP]
      >
-     >Workfront Planning で作成されたフィールドは、GenStudioのリスト表示には表示されません。
+     >Workfront Planning で作成されたフィールドは、GenStudioには表示されません。
 
    * Workfront Planning のGenStudio レコード タイプのテーブル ビューでフィールドを非表示にします。
 &lt;!—* GenStudio レコードタイプのWorkfront Planning で作成されたフィールドをWorkfront Planning から削除します。 — Iskuhi によると、これは不可能です。リンクは存在しますが、エラーが発生します – >
@@ -370,10 +371,16 @@ Workfront Planning では、GenStudioレコード・タイプと他のレコー�
 
 * リクエストフォームは、Workfront Planning のGenStudio レコードタイプに追加できます。
 
-  詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+  詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 * Workfront Planning で、GenStudio レコードタイプの自動化を設定できます。
 
-  詳しくは、[Adobe Workfront Planning の自動設定の構成 &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) を参照してください。
+  詳しくは、[Adobe Workfront Planning の自動設定の構成 ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) を参照してください。
+
+### Workfront Planning Workspaces からのGenStudio Brands への接続
+
+Workfront Planning とAdobe GenStudioの間に統合がある場合、Workfront Planning の任意のワークスペース内の任意のレコードタイプから Planning レコードタイプをGenStudio Brands に関連付けることができます。
+
+ブランドは、GenStudio Workspace ではレコードタイプのカードとして表示されません。 ブランドは、GenStudio Workspace のレコードを含む、任意のWorkfront Planning レコードタイプから新しい接続を作成するために使用できます。
 
 ## プレビュー環境
 

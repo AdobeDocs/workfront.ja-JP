@@ -6,10 +6,10 @@ description: タスクにユーザーまたはロールを割り当てると、�
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 61%
+source-wordcount: '573'
+ht-degree: 66%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 61%
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
 
-<div class="preview">
+<!--<div class="preview"> 
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-詳しくは、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 割り当て時間は、割り当てられたリソースがタスクの作業に費やす予定時間の合計を表します。 時間は、タスクの期間全体を通して、ユーザーが割り当てられた時間を、特定の 1 日、1 週間、1 か月に表します。
 
@@ -61,7 +61,7 @@ ht-degree: 61%
   <tr> 
    <td>オブジェクト権限</td>
    <td><p>タスクに対する参加以上の権限</p>
-   <p>タスクの編集時に「タスクを編集」ボックスで割り当て時間を更新する権限を編集します <span class="preview"> 古いエクスペリエンスを使用）。 新しいエクスペリエンスでタスクを編集する際に、「タスクを編集」ボックスで割り当て時間を管理できなくなりました。</span></p> <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">タスクを編集</a>を参照してください。</p></td>
+   <p>古いエクスペリエンスを使用してタスクを編集する際に、「タスクを編集」ボックスで割り当て時間を更新する権限を編集します。 新しいエクスペリエンスでタスクを編集する際に、「タスクを編集」ボックスで割り当て時間を管理できなくなりました。</p> <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">タスクを編集</a>を参照してください。</p></td>
   </tr>
  </tbody>
 </table>
@@ -100,6 +100,6 @@ ht-degree: 61%
 1. タスクの&#x200B;**期間タイプ**&#x200B;が&#x200B;**シンプル**&#x200B;であることを確認します。
 1. 各タスク担当者の **割り当て** フィールドを変更します。 これは、タスクの期間全体に対する、このタスクへの各割り当ての全体的な配分です。これにより、タスクの全体 **予定時間数** も更新される可能性があります。
 
-   ![&#x200B; 割り当ての変更 &#x200B;](assets/advanced-assignments-duration-type-allocations.png)
+   ![ 割り当ての変更 ](assets/advanced-assignments-duration-type-allocations.png)
 
 1. 「**保存**」をクリックします。

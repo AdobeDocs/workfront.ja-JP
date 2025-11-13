@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 78%
+source-wordcount: '2156'
+ht-degree: 80%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 78%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-詳しくは、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 ユーザー、担当業務やチームにタスクを割り当てて、タスクの完了担当者を指定できます。一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
 
@@ -214,7 +214,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
+1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![ 人物アイコン ](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
 
    詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
@@ -236,13 +236,13 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. タスクリストで複数のタスクを選択します。
 1. 「**編集**」をクリックします。
 
-   **タスクを編集** ダイアログボックスが開きます <span class="preview"> 新しいエクスペリエンスで </span>。
+   **タスクを編集** ダイアログボックスが新しいエクスペリエンスで開きます。
 
-1. <span class="preview"> 新しいエクスペリエンスを使用して </span> タスクの割り当てを続けます。
+1. 新しいエクスペリエンスを使用して、引き続きタスクを割り当てます。
 
-   <span class="preview"> 詳しくは、この記事の [&#x200B; 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる &#x200B;](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) の節を参照してください </span>。
+   詳しくは、この記事の [ 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる ](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) を参照してください。
 
-1. <span class="preview"> （オプション） **タスクを編集** ボックスの下部にある「**古いエクスペリエンスに戻る** をクリックして、古いエクスペリエンスを開きます。</span>
+1. （オプション） **タスクを編集** ボックスの下部にある「**古いエクスペリエンスに戻る** をクリックして、古いエクスペリエンスを開きます。
 
    >[!TIP]
    >
@@ -279,11 +279,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （オプションおよび条件付き）タスクのリストに「割り当て先」フィールドまたは「割り当て」フィールドが表示されたら、タスクのこれらの列のいずれかの内側をクリックし、担当者の名前の横にある **X アイコン**&#x200B;をクリックして、タスクから削除します。
 
 
-<div class="preview">
-
 ### 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる
 
-1. プレビュー環境で、一括で割り当てるタスクのリストに移動します。
+1. 一括で割り当てるタスクのリストに移動します。
 1. （条件付き）「**自動保存**」オプションは、プロジェクトのタスクのリストにある場合に選択します。
 
    >[!IMPORTANT]
@@ -319,10 +317,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （任意）既存の担当者をすべてのタスクから削除する場合は、「**ユーザー、役割またはチームを検索**」フィールドで、名前の横にある **x** をクリックします。
 
 1. 「**保存**」をクリックします。
-1. （オプションおよび条件付き）タスクのリストに **割り当て先** または **割り当て** フィールドが表示されたら、タスクのこれらの列の 1 つ内をクリックして、担当者の名前の横にある **X アイコン** をクリックすると、タスクから削除できます。
-
-
-</div>
+1. （オプションおよび条件付き）タスクのリストに **割り当て先** または **割り当て** フィールドが表示されている場合は、タスクのこれらの列の 1 つ内をクリックし、担当者の名前の横にある **X アイコン** をクリックすると、タスクから削除できます
 
 
 <!--

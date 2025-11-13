@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 76%
+source-wordcount: '1047'
+ht-degree: 81%
 
 ---
 
@@ -18,17 +18,19 @@ ht-degree: 76%
 
 <!--Audited: 11/2025-->
 
+<!--remove the old/new experience references when the toggles are removed-->
+
 <!--
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-詳しくは、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 タスクの割り当てを管理する場合、タスクのリストの一括編集機能を使用して、複数のタスクに対して同時に変更を加えることができます。
 
@@ -125,25 +127,22 @@ When assigning users to work, their availability according to their schedules af
 
 1. 割り当てを変更するタスクを選択し、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
 
-   新しいエクスペリエンスで **タスクを編集** ボックスが開きます <span class="preview">。 次のいずれかの操作を行います。</span>
-
-   <div class="preview">
+   新しいエクスペリエンスに **タスクを編集** ボックスが開きます。 次のいずれかの操作を行います。
 
    * 担当者を追加するには、「**ユーザー、役割、チームを検索**」フィールドに担当者の名前を入力し始め、リストに表示されたら選択します。
    * 担当者を削除するには、名前の右側にある **x** アイコンをクリックします。 すべてのタスクに共通の担当者のみがリストに表示されます。
    * 「自分に割り当て」をクリックして、選択したタスクを自分に割り当てます。
 
-   </div>
+1. （条件付き）新しいエクスペリエンスを使用する場合は、「**保存**」をクリックします。
 
-1. <span class="preview"> （条件付き）新しいエクスペリエンスを使用する場合は、「**保存** をクリックします </span>。
+1. （任意） **タスクを編集** ボックスの下部にある **古いエクスペリエンスに切り替える** をクリックします。
 
-1. <span class="preview"> （任意） **タスクを編集** ボックスの下部にある **古いエクスペリエンスに切り替える** をクリックします </span>。
+   古いエクスペリエンスで **タスクを編集** ボックスが開きます。
 
-   <span class="preview"> 古いエクスペリエンスで **タスクを編集** ボックスが開きます。</span>
-
+   <!--
    >[!TIP]
    >
-   >実稼動環境では、古いエクスペリエンスがデフォルトで使用できます。
+   >The old experience is available by default in the Production environment.-->
 
 1. （条件付き）古いエクスペリエンスで、次の手順を実行して担当者を変更します。
 
@@ -200,7 +199,7 @@ When assigning users to work, their availability according to their schedules af
 
       >[!NOTE]
       >
-      >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[&#x200B; タスク期間と期間タイプの概要 &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
+      >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[ タスク期間と期間タイプの概要 ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
       >
       >
       >このフィールドが空白の場合、値はタスク間で異なりますが、変更は可能です。
