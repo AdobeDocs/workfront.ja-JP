@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: b6731b9877237916259a862863b30c8ef65ad343
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1318'
 ht-degree: 4%
 
 ---
@@ -65,13 +65,13 @@ ht-degree: 4%
 
 ビジネス・ルールのフォーマットは、「定義した条件が満たされると、ユーザーはオブジェクトに対するアクションを実行できなくなり、メッセージが表示されます。」です。
 
-ビジネス ルールのプロパティやその他の関数の構文は、カスタム フォームの計算フィールドの構文と同じです。 この構文について詳しくは、[&#x200B; 計算フィールドのフォームデザイナーへの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+ビジネス ルールのプロパティやその他の関数の構文は、カスタム フォームの計算フィールドの構文と同じです。 この構文について詳しくは、[ 計算フィールドのフォームデザイナーへの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
-IF ステートメントについて詳しくは、[&#x200B; 「IF」ステートメントの概要 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) および [&#x200B; 計算カスタムフィールドの条件演算子 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md) を参照してください。
+IF ステートメントについて詳しくは、[ 「IF」ステートメントの概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) および [ 計算カスタムフィールドの条件演算子 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md) を参照してください。
 
-ユーザーベースのワイルドカードについて詳しくは、[&#x200B; ユーザーベースのワイルドカードを使用してレポートを一般化する &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) を参照してください。
+ユーザーベースのワイルドカードについて詳しくは、[ ユーザーベースのワイルドカードを使用してレポートを一般化する ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) を参照してください。
 
-日付ベースのワイルドカードについて詳しくは、[&#x200B; 日付ベースのワイルドカードを使用してレポートを一般化する &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) を参照してください。
+日付ベースのワイルドカードについて詳しくは、[ 日付ベースのワイルドカードを使用してレポートを一般化する ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) を参照してください。
 
 API ワイルドカードは、ビジネス・ルールでも使用できます。 `$$ISAPI` を使用して、API でのみルールをトリガーします。 `!$$ISAPI` を使用して、ユーザーインターフェイスでのみルールを適用し、ユーザーが API を使用してルールをバイパスできるようにします。
 
@@ -125,7 +125,7 @@ IF(
 1. 「**新規ビジネス・ルール**」をクリックします。
 1. ビジネス・ルールを割り当てるオブジェクト・タイプを選択し、「**続行**」をクリックします。
 
-   ![&#x200B; オブジェクトを選択 &#x200B;](assets/object-for-business-rule3.png)
+   ![ オブジェクトを選択 ](assets/object-for-business-rule3.png)
 
    ビジネス・ルールは、次のオブジェクトに適用できます。
 
@@ -136,25 +136,21 @@ IF(
    * ドキュメント
    * プログラム
    * 費用
-   * ユーザー
    * 会社
    * イテレーション
    * 請求記録
    * グループ
+   * 労力以外のリソース
    * リスク
+   * レートカード
    * 割り当て
-   * 担当業務
-   * リソースプール
-   * 休暇
-   * 時間
-   * テンプレート
 
 1. ルールビルダーダイアログで、ビジネスルールの **名前** を入力します。
 1. **アクティブ** フィールドで、ルールを保存する際にアクティブにする必要があるかどうかを選択します。
 
    **いいえ** を選択した場合、ルールは非アクティブとして保存され、後でアクティブにすることができます。
 
-1. ビジネス ルールの **0&rbrace;トリガー&rbrace; を選択します。**&#x200B;オプションは次のとおりです。
+1. ビジネス ルールの **0}トリガー} を選択します。**&#x200B;オプションは次のとおりです。
 
    * **オブジェクトの作成時：** このルールは、ユーザーがオブジェクトを作成しようとすると適用されます。
    * **オブジェクト編集時：** このルールは、ユーザーがオブジェクトを編集しようとした場合に適用されます。
@@ -176,11 +172,11 @@ IF(
 
      この例では、「Learn more」が URL にリンクされます。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL はかっこで囲む必要がありますが、角括弧内のリンクテキストは必要ありません。 完全な URL を表示でき、クリック可能なリンクになります。
 
-   ![&#x200B; ビジネス・ルールの追加ダイアログ &#x200B;](assets/add-business-rule-dialog-no-ai-button.png)
+   ![ ビジネス・ルールの追加ダイアログ ](assets/add-business-rule-dialog-no-ai-button.png)
 
    この例は、プロジェクトのビジネスルールです。 今月が 11 月の場合、ユーザーは新しいプロジェクトを作成することは許可されておらず、メッセージがこれを説明します。
 
-   ビジネス・ルールのその他の例については、この記事の [&#x200B; ビジネス・ルールのシナリオ &#x200B;](#scenarios-for-business-rules) を参照してください。
+   ビジネス・ルールのその他の例については、この記事の [ ビジネス・ルールのシナリオ ](#scenarios-for-business-rules) を参照してください。
 
 1. （オプション）右側のパネルで式 **式** および **フィールド** を使用して、ルールの作成を支援します。
 
