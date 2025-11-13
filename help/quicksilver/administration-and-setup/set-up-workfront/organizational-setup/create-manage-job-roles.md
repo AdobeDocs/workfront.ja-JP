@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: a30e505aa2061240f92642fda274be66e4947bce
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 38%
+source-wordcount: '864'
+ht-degree: 50%
 
 ---
 
@@ -23,9 +23,13 @@ ht-degree: 38%
 
 >[!IMPORTANT]
 >
->25.11 リリースでは、担当業務の通貨の上書きは実稼動環境で非推奨になります。 （非推奨は、10 月 30 日にプレビュー環境で行われます。） 基本通貨を持たせて通貨を上書きするのではなく、担当業務に使用できる通貨が 1 つになり、その通貨を使用してコストと請求レートが定義されます。
+>25.11 リリースでは、担当業務の通貨を上書きは実稼動環境では非推奨（廃止予定）になりました。 （非推奨（廃止予定）は 10 月 30 日にプレビュー環境で発生しました。） 基本通貨を設定して通貨を上書きするのではなく、担当業務で 1 つの通貨を使用できるようになり、コストと請求レートがその通貨を使用して定義されます。
 
 [!DNL Adobe Workfront] 管理者、または担当業務への管理アクセス権を持つユーザーは、ユーザーに割り当て可能な担当業務を作成し、組織に関係のないデフォルトの担当業務を削除できます。[!DNL Workfront] での管理アクセスについて詳しくは、[特定のエリアに対する管理アクセス権をユーザーに付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
+
+>[!TIP]
+>
+>担当業務は、リソース管理に不可欠な要素です。リソース計画ツールを使用するには、担当業務に関連付けられたコストと請求レートが必要です。詳しくは、[リソース管理の概要](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)を参照してください。
 
 ## アクセス要件
 
@@ -76,65 +80,64 @@ ht-degree: 38%
 
      担当業務の非アクティブ化について詳しくは、[担当業務の非アクティブ化](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)を参照してください。
 
-   * **ベース通貨**：これは、Workfront管理者が設定エリアで設定したベース通貨です。 詳細については、[為替レートの設定](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)を参照してください。
+   * **通貨**: ベース通貨がデフォルトで表示されます。 Workfront管理者が、設定エリアにベース通貨を追加します。 選択を別の使用可能な通貨に変更したり、発効日のある時間範囲の通貨を変更したりできます。
 
      >[!TIP]
      >
-     >担当業務レベルで基準通貨を編集することはできません。 このフィールドはグレー表示され、システムの基本通貨を示すリマインダーとして機能します。
+     >このフィールドで使用できるのは、システムの「為替レート」領域で指定した通貨のみです。 1 つの通貨のみを設定している場合は、その通貨のみを使用できます。
 
-   * **コスト率**：これは担当業務の 1 時間あたりのコスト率です。 この値は、役割に関連するタスクとイシューの予定コストと実際のコスト、最終的にはプロジェクトの予定コストと実際のコストを計算します。基準通貨を使用してレートを入力します。
+     Workfrontの基準通貨の設定については、「[ 為替レートの設定 ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)」を参照してください。
+
+     プロジェクトの通貨を変更する方法については、「[ プロジェクトの通貨を変更する ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)」を参照してください。
+
+   * **コスト率**：これは担当業務の 1 時間あたりのコスト率です。 この値は、役割に関連するタスクとイシューの予定コストと実際のコスト、最終的にはプロジェクトの予定コストと実際のコストを計算します。選択した通貨を使用してレートを入力します。
 
      有効日のコスト率については、「**レートを追加**」をクリックします。期間の原価/時間の値を入力し、必要に応じて開始日と終了日を割り当てます。 最初のコスト率には開始日が設定されず、最後のコスト率には終了日が設定されません。
 
      一部の日付は自動的に追加されます。例えば、最初のコスト率に終了日が設定されていない場合に、2 番目のコスト率を追加して開始日を 2025年5月1日とすると、ギャップが生じないように、最初のコスト率に終了日 2025年4月30日が追加されます。
 
+     Workfrontによるコストの計算方法について詳しくは、[ コストの追跡 ](/help/quicksilver/manage-work/projects/project-finances/track-costs.md) を参照してください。
+
      >[!TIP]
      >
-     >既存の担当業務を編集する際に、**開始日順に並べ替え** を選択すると、最新の開始日が評価リストの上部に表示されます。
+     >既存の担当業務を編集する際に、最新の開始日を評価リストの先頭に表示するようにリストを並べ替えることができます。
 
-   * **請求レート**：これは、担当業務の 1 時間あたりの請求レートです。 この値は、役割に関連するタスクの予定収益と実収益、最終的にはプロジェクトの予定収益と実収益を計算します。基準通貨を使用してレートを入力します。
+   * **請求レート**：これは、担当業務の 1 時間あたりの請求レートです。 この値は、役割に関連するタスクの予定収益と実収益、最終的にはプロジェクトの予定収益と実収益を計算します。選択した通貨を使用してレートを入力します。
 
      有効日の請求レートについては、「**レートを追加**」をクリックします。期間の請求/時間の値を入力し、必要に応じて開始日と終了日を割り当てます。 最初の請求レートには開始日が設定されず、最後の請求レートには終了日が設定されません。
 
      一部の日付は自動的に追加されます。例えば、最初の請求レートに終了日がなく、2 番目の請求レートを追加して開始日を 2025年5月1日とすると、ギャップが生じないように、最初の請求レートに終了日 2025年4月30日が追加されます。
 
-     >[!TIP]
-     >
-     >既存の担当業務を編集する際に、**開始日順に並べ替え** を選択すると、最新の開始日が評価リストの上部に表示されます。
-
-   * **通貨をオーバーライド**：この担当業務に関連付けられている通貨を選択します。 これは、Workfrontがこの担当業務に関連するコストと売上高の計算に使用する通貨です。
-
-     これは、Workfront管理者が「設定」エリアで設定したベース通貨とは異なり、プロジェクトに関連付けられた通貨とは異なる場合があります。
+     Workfrontでの売上高の計算方法について詳しくは、[ 請求と売上高の概要 ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md) を参照してください。
 
      >[!TIP]
      >
-     >このフィールドで使用できるのは、システムの「為替レート」領域で指定した通貨のみです。 設定されている通貨が 1 つだけの場合、このフィールドは表示されません。
+     >既存の担当業務を編集する際に、最新の開始日を評価リストの先頭に表示するようにリストを並べ替えることができます。
 
-     Workfrontの基準通貨の設定については、「[&#x200B; 為替レートの設定 &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)」を参照してください。
-
-     プロジェクトの通貨を変更する方法については、「[&#x200B; プロジェクトの通貨を変更する &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)」を参照してください。
-
-   * **通貨原価レートの上書き**：選択した通貨の上書きを使用した、担当業務の 1 時間あたりの原価レートです。 Workfrontはこの値を使用して、担当業務に関連するタスクおよびイシューの予定コストと実際のコストを計算します。
-
-     上記の「通貨を上書き」にレートを入力します。 これにより、基準通貨を使用する際に、この担当業務のコスト率も更新されます。
-
-     Workfrontによるコストの計算方法について詳しくは、[&#x200B; コストの追跡 &#x200B;](/help/quicksilver/manage-work/projects/project-finances/track-costs.md) を参照してください。
-
-     >[!TIP]
-     >
-     >コストレートが既に関連付けられている既存の担当業務を更新すると、Workfrontはシステムのコンバージョンレートに基づいて「通貨を上書き」レートを計算します。 「通貨コスト・レートの上書き」を更新すると、担当業務のコスト・レートも自動的に更新されます。
-
-   * **通貨請求レートの上書き**：これは、選択した上書き通貨を使用した、担当業務の 1 時間あたりの請求レートです。 Workfrontはこの値を使用して、担当業務に関連するタスクおよび問題の予定収益と実収益を計算します。
-
-     上記の「通貨を上書き」にレートを入力します。 これにより、ベース通貨を使用する際に、この担当業務の請求レートも更新されます。
-
-     Workfrontでの売上高の計算方法について詳しくは、[&#x200B; 請求と売上高の概要 &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md) を参照してください。
-
-     >[!TIP]
-     >
-     >請求レートが既に関連付けられている既存の担当業務を更新すると、Workfrontはシステムのコンバージョンレートに基づいて上書きの通貨レートを計算します。 「通貨請求レートの上書き」を更新すると、担当業務の請求レートも自動的に更新されます。
+1. 「**[!UICONTROL 担当業務を作成]**」をクリックします。担当業務をタスク、イシュー、承認に割り当てたり、レイアウトテンプレートや他のオブジェクトをタスクと共有したりできるようになります。[!DNL Workfront] でのすべての担当業務の使用に関する情報について詳しくは、[担当業務の概要](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)を参照してください。担当業務の削除について詳しくは、[担当業務の削除](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)を参照してください。
 
 <!--
+   * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
+
+     Enter the rate in the Override Currency specified above. This also updates the Cost Rate for this job role when using the Base Currency.
+
+     For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a cost rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Cost Rate, the cost rate of the job role also updates automatically.
+
+   * **Override Currency Billing Rate**: This is the billing per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role.
+
+      Enter the rate in the Override Currency specified above. This also updates the Billing Rate for this job role when using the Base Currency.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -197,27 +200,5 @@ ht-degree: 38%
    </table>
 -->
 
->[!TIP]
->
->担当業務は、リソース管理に不可欠な要素です。リソース計画ツールを使用するには、担当業務に関連付けられたコストと請求レートが必要です。詳しくは、[リソース管理の概要](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)を参照してください。
 
-1. 「**[!UICONTROL 担当業務を作成]**」をクリックします。担当業務をタスク、イシュー、承認に割り当てたり、レイアウトテンプレートや他のオブジェクトをタスクと共有したりできるようになります。[!DNL Workfront] でのすべての担当業務の使用に関する情報について詳しくは、[担当業務の概要](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)を参照してください。担当業務の削除について詳しくは、[担当業務の削除](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)を参照してください。
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>Delete a job role</h2>
-<ol data-mc-continue="false">
-<li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.</li>
-<li value="2">Click<strong>Job Roles.</strong></li>
-<li value="3">Select the job role that you want to delete, then click <strong>Delete.</strong></li>
-<li value="4">If there are any objects (users, tasks, issues) that are assigned to the job role, do one of the following:<br>
-<ul>
-<li><p><strong>Replace the job role with a different job role:</strong> Select the new job role from the drop-down list.</p><p>Any current and past resource allocations that are associated with the deleted job role are transferred to the job role that you select.</p><p>Users who have only one job role assigned to them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.</p></li>
-<li><p><strong>Delete the job role and its resource allocation:</strong> Select<strong>None</strong> from the drop-down list.</p><note type="important">
-Deleting a job role deletes all current and past resource allocation related to that job role for all projects.
-</note><p>​For example, if a task or issue is assigned to only that job role, the task or issue is unassigned after the job role is deleted.</p></li>
-</ul></li>
-<li value="5">Click  <strong>Yes, Delete It</strong>. </li>
-</ol>
-</div>
--->
