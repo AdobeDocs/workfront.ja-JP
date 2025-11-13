@@ -86,9 +86,9 @@ ht-degree: 50%
      >
      >このフィールドで使用できるのは、システムの「為替レート」領域で指定した通貨のみです。 1 つの通貨のみを設定している場合は、その通貨のみを使用できます。
 
-     Workfrontの基準通貨の設定については、「[ 為替レートの設定 ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)」を参照してください。
+     Workfrontの基準通貨の設定については、「[&#x200B; 為替レートの設定 &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)」を参照してください。
 
-     プロジェクトの通貨を変更する方法については、「[ プロジェクトの通貨を変更する ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)」を参照してください。
+     プロジェクトの通貨を変更する方法については、「[&#x200B; プロジェクトの通貨を変更する &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)」を参照してください。
 
    * **コスト率**：これは担当業務の 1 時間あたりのコスト率です。 この値は、役割に関連するタスクとイシューの予定コストと実際のコスト、最終的にはプロジェクトの予定コストと実際のコストを計算します。選択した通貨を使用してレートを入力します。
 
@@ -96,7 +96,7 @@ ht-degree: 50%
 
      一部の日付は自動的に追加されます。例えば、最初のコスト率に終了日が設定されていない場合に、2 番目のコスト率を追加して開始日を 2025年5月1日とすると、ギャップが生じないように、最初のコスト率に終了日 2025年4月30日が追加されます。
 
-     Workfrontによるコストの計算方法について詳しくは、[ コストの追跡 ](/help/quicksilver/manage-work/projects/project-finances/track-costs.md) を参照してください。
+     Workfrontによるコストの計算方法について詳しくは、[&#x200B; コストの追跡 &#x200B;](/help/quicksilver/manage-work/projects/project-finances/track-costs.md) を参照してください。
 
      >[!TIP]
      >
@@ -108,7 +108,7 @@ ht-degree: 50%
 
      一部の日付は自動的に追加されます。例えば、最初の請求レートに終了日がなく、2 番目の請求レートを追加して開始日を 2025年5月1日とすると、ギャップが生じないように、最初の請求レートに終了日 2025年4月30日が追加されます。
 
-     Workfrontでの売上高の計算方法について詳しくは、[ 請求と売上高の概要 ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md) を参照してください。
+     Workfrontでの売上高の計算方法について詳しくは、[&#x200B; 請求と売上高の概要 &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md) を参照してください。
 
      >[!TIP]
      >
