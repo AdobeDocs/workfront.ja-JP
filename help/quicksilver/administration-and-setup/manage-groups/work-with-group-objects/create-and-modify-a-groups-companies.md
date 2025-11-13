@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 82%
+source-wordcount: '784'
+ht-degree: 76%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 82%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. 会社を作成または変更するグループの名前をクリックします。
 1. 左側のパネルで「**会社**」をクリックし、グループとそのグループに含まれるサブグループに関連付けられている会社を一覧表示します。
@@ -89,8 +89,12 @@ ht-degree: 82%
    >
    >アクセスレベルで会社に対する管理者アクセス権を持っている場合は、リストの下部にある「他の会社を追加」をクリックすることもできます。これにより、新しい会社を素早く設定できる行が追加されます。
 
-1. （任意）会社を編集または削除するには、少なくとも 1 つの会社を選択し、ツールバーボタンを使用して会社を編集 ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) または削除 ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) します。
+1. （任意）会社を編集または削除するには、少なくとも 1 つの会社を選択し、ツールバーボタンを使用して会社を編集 ![ 編集アイコン ](assets/edit-icon.png) または削除 ![ 削除アイコン ](assets/delete.png) します。
+
+   >[!NOTE]
+   >
+   >会社を削除するときに、その会社がプライマリ会社として設定されているか、別のオブジェクトで使用中の場合は、削除する会社を置き換えるために別の会社を選択するように求められます。 選択した会社がプライマリの会社になるか、会社が割り当てられているオブジェクトの削除された会社に置き換わります。
 
    会社の編集について詳しくは、[会社の作成または編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)の記事の[Workfront での会社の作成または編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)の節を参照してください。
 
-1. （任意）会社のリストを書き出すには、「書き出し」アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックし、書き出すリストに使用するファイル形式を選択します。
+1. （任意）会社のリストを書き出すには、「書き出し」アイコン ![ 書き出しアイコン ](assets/export.png) をクリックし、書き出すリストに使用するファイル形式を選択します。
