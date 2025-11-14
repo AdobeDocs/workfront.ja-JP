@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -52,7 +52,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 * リストとレポート（割り当てフィールドがビューに表示されている場合）。
 * タスクの編集時の「割り当て」セクション。
 
-。詳しくは、[&#x200B; タスクの編集 &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) を参照してください。<!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+。詳しくは、[ タスクの編集 ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) を参照してください。<!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
 * 割り当て領域のタスクまたはイシューのヘッダー。
 * ワークロードバランサー内（詳しくは、[ワークロードバランサーを使用した手動による作業の割り当て](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)を参照してください）
 
@@ -70,8 +70,8 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td> <p>標準</p>
-   <p>ワークまたはそれ以上</p>
+   <td> <p>Standard</p>
+   <p>Work またはそれ以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
    >[!TIP]
    >
    >タスクまたは問題リストで直接詳細な割り当てを行うことができます。 タスクまたは問題と同じ行の「**割り当て**」フィールド内をクリックし、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン** をクリックして、「詳細な割り当て」ウィンドウを開きます。 高度な割り当ての作成を続行するには、手順 5 に進んでください。
-   >![&#x200B; 「詳細」または「人物」アイコンをクリックします &#x200B;](assets/access-aa-from-lists.png)。
+   >![ 「詳細」または「人物」アイコンをクリックします ](assets/access-aa-from-lists.png)。
 
 1. タスクまたはイシューのヘッダーにある&#x200B;**割り当て**&#x200B;フィールドの「**割り当て先**」をクリックします。
 
@@ -107,7 +107,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
 1. 「**詳細**」をクリックします。
 
-   ![&#x200B; 「詳細」をクリック &#x200B;](assets/assignments-from-task-header-0825.png)
+   ![ 「詳細」をクリック ](assets/assignments-from-task-header-0825.png)
 
 1. 「**ユーザー、役割、チームを検索**」フィールドにユーザー、役割、チームの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
@@ -132,10 +132,6 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
    >   * 作業アイテムをアクティブなリソースに再割り当てする。
    >   * 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
 
-   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
-    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
-    -->
-
 1. 「**担当者**」列で、ユーザーごとに次の情報を指定します。
 
    * **所有者**：担当者をタスクまたはイシューの所有者としてマークする場合は、担当者の名前にポインタを合わせ、所有者フィールドの「**プライマリにする**」をクリックします。緑のチェックボックスは、指定したユーザーがタスクまたはイシューのプライマリ連絡先であることを示します。Adobe Workfront は、タスクやイシューに最初に割り当てたユーザーや担当業務を、所有者またはプライマリ割り当てとしてマークします。チームは、タスクやイシューのプライマリ所有者に指定できません。
@@ -154,7 +150,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
    * **割り当て先の役割：**&#x200B;この割り当てを実行する際にユーザーが使用する役割を選択します。デフォルトでは、ユーザーの主要役割が表示されます。「**担当者の役割**」ボックスをクリックして、別の役割を選択します。 最初にタスクやイシューを役割に割り当て、次にその役割を実行できるユーザーを 2 番目の割り当てとして追加すると、ユーザー候補のリストは、タスクやイシューに既に割り当てられている役割を実行できるユーザーに絞り込まれます。
 
-     ![&#x200B; 割り当て先の役割 &#x200B;](assets/advanced-assignments-select-role.png)
+     ![ 割り当て先の役割 ](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
 

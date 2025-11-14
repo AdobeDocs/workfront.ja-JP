@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 95%
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>標準</p> <p>プラン</p></td> 
+   <td><p>Standard</p> <p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -60,7 +60,7 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
 
 1. 左側のパネルで、**システム**／**顧客情報**&#x200B;をクリックします。
 
-   購入した Workfront プランによっては、一部のセクションが顧客情報ページに表示されない場合があります。組織で使用する Workfron tプランを確認する必要がある場合は、アカウント担当者にお問い合わせください。
+   購入したWorkfront パッケージによっては、「Customer Info」ページに一部のセクションが表示されない場合があります。 組織が使用しているWorkfront パッケージを確認する必要がある場合は、アカウント担当者にお問い合わせください。
 
    顧客情報エリアには、次のセクションがあります。
 
@@ -78,7 +78,7 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
 
    * 許可リストに加える **メール**
 
-     許可リスト許可リストに加えるにメールを追加する方法については、[&#x200B; メールの設定 &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) を参照してください。
+     許可リスト許可リストに加えるにメールを追加する方法については、[ メールの設定 ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) を参照してください。
 
    <!--
    * **License**

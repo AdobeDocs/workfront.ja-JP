@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '2156'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -70,8 +70,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td> <p>標準</p>
-   <p>ワークまたはそれ以上</p>
+   <td> <p>Standard</p>
+   <p>Work またはそれ以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -162,8 +162,6 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
-     <!--When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). -->
-
    * （条件付き） **ユーザーとチーム** または **担当業務** リストに表示されている名前の 1 つをクリックします。 詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
      タスクに割り当てるユーザー、チーム、担当業務の名前の入力を開始し、リストに表示されたら選択できます。
@@ -214,7 +212,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
+1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![ 人物アイコン ](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
 
    詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
@@ -240,7 +238,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. 新しいエクスペリエンスを使用して、引き続きタスクを割り当てます。
 
-   詳しくは、この記事の [&#x200B; 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる &#x200B;](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) を参照してください。
+   詳しくは、この記事の [ 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる ](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) を参照してください。
 
 1. （オプション） **タスクを編集** ボックスの下部にある「**古いエクスペリエンスに戻る** をクリックして、古いエクスペリエンスを開きます。
 
