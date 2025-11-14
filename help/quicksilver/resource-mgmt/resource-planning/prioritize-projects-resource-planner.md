@@ -107,7 +107,7 @@ ht-degree: 96%
 >
 >会社がPortfolio Optimizer でプロジェクトに優先順位を付けるには、Prime以降のWorkfront パッケージが必要です。
 >
->Workfront パッケージについて詳しくは、[Adobe Workfront パッケージと価格 &#x200B;](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
+>Workfront パッケージについて詳しくは、[Adobe Workfront パッケージと価格 &#x200B;](https://business.adobe.com/jp/products/workfront/pricing.html) を参照してください。
 >
 >ポートフォリオオプティマイザーでのプロジェクトの優先順位付けについて詳しくは、[ポートフォリオオプティマイザーでのプロジェクトの優先順位付け](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)を参照してください。
 
