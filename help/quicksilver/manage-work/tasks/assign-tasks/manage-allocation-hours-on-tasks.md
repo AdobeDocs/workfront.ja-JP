@@ -103,6 +103,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. タスクの&#x200B;**期間タイプ**&#x200B;が&#x200B;**シンプル**&#x200B;であることを確認します。
 1. 各タスク担当者の **割り当て** フィールドを変更します。 これは、タスクの期間全体に対する、このタスクへの各割り当ての全体的な配分です。これにより、タスクの全体 **予定時間数** も更新される可能性があります。
 
-   ![ 割り当ての変更 ](assets/advanced-assignments-duration-type-allocations.png)
+   ![&#x200B; 割り当ての変更 &#x200B;](assets/advanced-assignments-duration-type-allocations.png)
 
 1. 「**保存**」をクリックします。

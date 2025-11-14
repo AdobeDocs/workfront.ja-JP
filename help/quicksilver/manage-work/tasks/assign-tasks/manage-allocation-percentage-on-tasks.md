@@ -107,6 +107,6 @@ Take this piece out of the table above when we remove the new experience/ after 
 
    タスクに割り当てられたチームの配分率は変更できません。
 
-   ![ 配分率の変更 ](assets/advanced-assignments-allocation-percentage.png)
+   ![&#x200B; 配分率の変更 &#x200B;](assets/advanced-assignments-allocation-percentage.png)
 
 1. 「**保存**」をクリックします。
