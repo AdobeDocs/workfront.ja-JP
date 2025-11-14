@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 469242118429fa37835766737b88d35d2baefb69
+source-git-commit: c1c30696dc9ef324103467f3bdcb83609cf5d1d8
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 67%
+source-wordcount: '1010'
+ht-degree: 64%
 
 ---
 
@@ -21,8 +21,6 @@ ht-degree: 67%
 Workfront ドキュメントの操作手順記事には、その手順に必要なアクセス権と権限を説明した表が含まれています。アクセス要件の表では、Workfront で特定のアクションを実行できるかどうかや、実行できない場合の理由を理解できます。この記事では、アクセス要件表の各要素について説明し、トラブルシューティングのヒントや、より詳細な情報へのリンクを示します。
 
 その記事のアクセス要件表に行がない場合、そのアクションに対するそのタイプの要件はありません。
-
-一部の行には、「新規」と「現在」というラベルの付いた情報が含まれています。これは、Workfront が新しい価格設定のパッケージモデルに移行中であり、新規モデルの下で運用している組織もあれば、現行モデルを引き続き使用している組織もあるからです。自分の組織で使用しているモデルを確認するには、Workfront 管理者にお問い合わせください。詳細と情報へのリンクについては、この記事の[アクセス要件表](#the-access-requirements-table)の節を参照してください。
 
 >[!NOTE]
 >
@@ -37,16 +35,16 @@ Workfront ドキュメントの操作手順記事には、その手順に必要�
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> Adobe Workfront パッケージとは、組織が購入した一連の機能を指します。 ほとんどのWorkfront機能は、すべてのパッケージで使用できますが、いくつかの例外があり、主に戦略的計画とエンタープライズ制御に関連しています。 <p>2022 年以前に存在したパッケージは一覧に表示されません。</p>
-   <p>Workfront パッケージは 3 つの領域に分かれています。 各エリアには、Select、Prime、Ultimateなど、様々なパッケージが用意されています。<p>
+   <p>Workfront パッケージは 3 つの領域に分かれています。 一部のエリアでは、Select、Prime、Ultimateなど、異なるパッケージを提供します。<p>
    <ul>
-   <li><b>Workfront ワークフロー </b>：タスク管理、承認、タイムシートなど、操作に関連する機能が含まれます。</li>
-   <li><b>Workfrontプランニング </b>：戦略的計画に関連する機能が含まれます。</li>
+   <li><b>Workfront ワークフロー </b>：タスク管理、承認、タイムシートなど、操作に関連する機能が含まれます。 このパッケージは、さらに Workflow Select パッケージ、Workflow Prime パッケージおよび Workflow Ultimate パッケージに分かれています。</li>
+   <li><b>Workfrontプランニング </b>：戦略的計画に関連する機能が含まれます。 このパッケージは、さらに Planning Select パッケージ、Planning Prime パッケージおよび Planning Ultimate パッケージに分かれています。</li>
    <li><b>Workfrontの自動化と統合 </b>：プロセスの自動化および他のアプリケーションとの統合に関する機能が含まれます。</li>
    </ul>
   <p>お客様の組織が、これらの領域の 1 つ以上でWorkfront パッケージを購入している可能性があります。</p>
   <p>以前は、Workfrontは、ワークフロー、計画、自動化と統合を区別することなく、Workfront Select、Workfront PrimeおよびWorkfront Ultimate パッケージを提供していました。 組織が、これらのレガシーパッケージのいずれかに属している可能性があります。 
    <ul><li>現在のパッケージモデルか従来のパッケージモデルかなど、組織で使用しているAdobe Workfront パッケージを確認するには、Workfront管理者にお問い合わせください。</li>
-   <li>Workfront管理者が組織のWorkfront パッケージを見つける方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref"> 組織のクラスターとWorkfrontのパッケージを表示 </a> を参照してください。</li><li>Workfront パッケージについて詳しくは、<a href="https://business.adobe.com/jp/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。</li></ul> </td> 
+   <li>Workfront管理者が組織のWorkfront パッケージを見つける方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref"> 組織のクラスターとWorkfrontのパッケージを表示 </a> を参照してください。</li><li>Workfront パッケージについて詳しくは、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -97,7 +95,7 @@ Workfront ドキュメントの操作手順記事には、その手順に必要�
    <ul><li>現在のライセンスモデルは、実行された操作の数に基づいており、組織が実行できるアクションに制限はありません。 </li>
    <li>従来のライセンスは、シナリオがサードパーティのアプリケーションに接続できるかどうか、またはシナリオがWorkfrontの自動処理にのみ使用されるかどうかに基づいています。 </li>
    </ul>
-   Fusion ライセンスについて詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion ライセンス</a>を参照してください。
+   Fusion ライセンスについて詳しくは、<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion ライセンス</a>を参照してください。
    </td> 
   </tr> 
  </tbody> 
