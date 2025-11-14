@@ -7,10 +7,10 @@ description: プログラムは、統一的な特性を持つプロジェクト�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 15%
+source-wordcount: '491'
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Workfrontでは、プログラムとは、統一された特性を持つ�
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>任意</p>
-   <p>[!UICONTROL Business] 以降</p> </td> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
@@ -45,7 +45,7 @@ Adobe Workfrontでは、プログラムとは、統一された特性を持つ�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL 編集 &#x200B;] [!UICONTROL ポートフォリオ &#x200B;] および [!UICONTROL プログラム &#x200B;] へのアクセス</p>  </td> 
+   <td> <p>[!UICONTROL 編集 ] [!UICONTROL ポートフォリオ ] および [!UICONTROL プログラム ] へのアクセス</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -119,10 +119,10 @@ Adobe Workfrontでは、プログラムとは、統一された特性を持つ�
    * プログラムには複数のプロジェクトを含めることができます。
 
   プロジェクトとポートフォリオの作成について詳しくは、次の記事を参照してください。
-   * [プロジェクトを作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+   * [プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
    * [ポートフォリオを作成](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 
 
 * ポートフォリオオプティマイザーを使用すると、ポートフォリオ内のすべてのプロジェクトのパフォーマンスを分析できます。 同じプログラム全体で複数のプロジェクトのパフォーマンスを比較することはできません。 プロジェクトのパフォーマンスは、ポートフォリオレベルで分析する必要があります。
 
-  詳しくは、[Portfolio Optimizer でのプロジェクトの最適化 &#x200B;](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) を参照してください。
+  詳しくは、[Portfolio Optimizer でのプロジェクトの最適化 ](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) を参照してください。

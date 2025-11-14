@@ -2,9 +2,9 @@
 title: [タスクのタイトル]
 description: [タスクのタイトル]
 draft: Probably
-source-git-commit: 32bf4cccee672b84e7c3e5b188a71979c0ac241e
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: 149
+source-wordcount: 144
 ht-degree: 100%
 
 ---
@@ -27,10 +27,10 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>[Any, Pro, Business, Enterprise] 以上</p> </td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>[Request, Review, Work, Plan] 以上</p> </td> 
   </tr> 
   <tr> 

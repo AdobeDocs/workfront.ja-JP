@@ -6,10 +6,10 @@ description: タスクにユーザーまたはロールを割り当てると、�
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 66%
+source-wordcount: '574'
+ht-degree: 69%
 
 ---
 
@@ -50,8 +50,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td> <p>標準</p>
-   <p>ワークまたはそれ以上</p>
+   <td> <p>Standard</p>
+   <p>Work またはそれ以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>オブジェクト権限</td>
    <td><p>タスクに対する参加以上の権限</p>
-   <p>古いエクスペリエンスを使用してタスクを編集する際に、「タスクを編集」ボックスで割り当て時間を更新する権限を編集します。 新しいエクスペリエンスでタスクを編集する際に、「タスクを編集」ボックスで割り当て時間を管理できなくなりました。</p> <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">タスクを編集</a>を参照してください。</p></td>
+   <p>古いエクスペリエンスを使用してタスクを編集する際に、「タスクを編集」ボックスで割り当て時間を更新する権限を編集します。</p> 
+   <p><b>メモ</b></p>
+   <p>
+   新しいエクスペリエンスでタスクを編集する際に、「タスクを編集」ボックスで割り当て時間を管理できなくなりました。</p> <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">タスクを編集</a>を参照してください。</p></td>
   </tr>
  </tbody>
 </table>
@@ -100,6 +103,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. タスクの&#x200B;**期間タイプ**&#x200B;が&#x200B;**シンプル**&#x200B;であることを確認します。
 1. 各タスク担当者の **割り当て** フィールドを変更します。 これは、タスクの期間全体に対する、このタスクへの各割り当ての全体的な配分です。これにより、タスクの全体 **予定時間数** も更新される可能性があります。
 
-   ![&#x200B; 割り当ての変更 &#x200B;](assets/advanced-assignments-duration-type-allocations.png)
+   ![ 割り当ての変更 ](assets/advanced-assignments-duration-type-allocations.png)
 
 1. 「**保存**」をクリックします。

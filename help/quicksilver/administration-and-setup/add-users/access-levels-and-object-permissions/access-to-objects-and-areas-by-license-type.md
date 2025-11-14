@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 82%
 
 ---
@@ -27,16 +27,16 @@ ht-degree: 82%
 
   >[!NOTE]
   >
-  >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトの編集を制限する権限を指定できます。新しいライセンスタイプについて詳しくは、[&#x200B; オブジェクトに対する共有権限の概要 &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) を参照してください。
+  >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトの編集を制限する権限を指定できます。新しいライセンスタイプについて詳しくは、[ オブジェクトに対する共有権限の概要 ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) を参照してください。
 
   >[!NOTE]
   >
-  >この記事には、従来のライセンスタイプのオブジェクトアクセスに関する情報が含まれています。 新しいライセンスタイプについては、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) および [&#x200B; 新しいライセンスの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
+  >この記事には、従来のライセンスタイプのオブジェクトアクセスに関する情報が含まれています。 新しいライセンスタイプについては、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) および [ 新しいライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
 
 |   | プラン | ワーク | レビュー | リクエスト | 外部 |
 |---|---|---|---|---|---|
 | プロジェクト | 編集 | 編集（作成権限なし） | 表示 | 表示（詳細ページのみ） | アクセスなし |
-| タスク | 編集 | 編集 | 表示 | 表示 | 表示 |
+| タスク | 編集 | 編集 | 表示 | 表示 | アクセスなし |
 | イシュー | 編集 | 編集 | 編集 | 編集 | アクセスなし |
 | ポートフォリオ | 編集 | 表示 | 表示 | アクセスなし | アクセスなし |
 | プログラム | 編集 | 表示 | 表示 | アクセスなし | アクセスなし |

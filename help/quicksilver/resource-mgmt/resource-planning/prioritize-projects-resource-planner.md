@@ -6,10 +6,10 @@ description: プロジェクトは、リソースプランナー内に優先度�
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 97%
+source-wordcount: '1282'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td><p>標準</p>
+   <td><p>Standard</p>
        <p>プラン</p></td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ ht-degree: 97%
 1. **リソースプランナー**&#x200B;に移動します。
 
 1. 番号を含むプロジェクト名の左側のフィールド内をクリックし、番号を入力して計画優先度を変更し、Enter キーを押します。\
-   ![&#x200B; 計画優先度の変更 &#x200B;](assets/mceclip4.png)\
+   ![ 計画優先度の変更 ](assets/mceclip4.png)\
    または\
    プロジェクトの名前の上にポインタを合わせ、プロジェクト名の左側のインジケーターをクリックし、プロジェクトをドラッグして正しい場所にドロップし、優先度を変更します。
 
@@ -105,9 +105,9 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->会社は、ポートフォリオオプティマイザーでプロジェクトに優先度付けをするには、Business 以上の Workfront プランが必要です。
+>会社がPortfolio Optimizer でプロジェクトに優先順位を付けるには、Prime以降のWorkfront パッケージが必要です。
 >
->Workfront プランについて詳しくは、[アドビのプラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
+>Workfront パッケージについて詳しくは、[Adobe Workfront パッケージと価格 ](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
 >
 >ポートフォリオオプティマイザーでのプロジェクトの優先順位付けについて詳しくは、[ポートフォリオオプティマイザーでのプロジェクトの優先順位付け](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)を参照してください。
 
@@ -119,7 +119,7 @@ ht-degree: 97%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![Portfolioの優先度 &#x200B;](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Portfolioの優先度 ](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    プロジェクトのポートフォリオ優先度は、リソースプランナーのプロジェクトビューにのみ表示されます。
 
@@ -131,7 +131,7 @@ ht-degree: 97%
    1. 予定開始日
    1. プロジェクト名
 
-   ![&#x200B; 並べ替えられたPortfolioの優先度 &#x200B;](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![ 並べ替えられたPortfolioの優先度 ](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. 「**保存**」をクリックします。
 
