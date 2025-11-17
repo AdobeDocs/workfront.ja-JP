@@ -27,11 +27,11 @@ ht-degree: 82%
 
   >[!NOTE]
   >
-  >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトの編集を制限する権限を指定できます。新しいライセンスタイプについて詳しくは、[ オブジェクトに対する共有権限の概要 ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) を参照してください。
+  >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトの編集を制限する権限を指定できます。新しいライセンスタイプについて詳しくは、[&#x200B; オブジェクトに対する共有権限の概要 &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) を参照してください。
 
   >[!NOTE]
   >
-  >この記事には、従来のライセンスタイプのオブジェクトアクセスに関する情報が含まれています。 新しいライセンスタイプについては、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) および [ 新しいライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
+  >この記事には、従来のライセンスタイプのオブジェクトアクセスに関する情報が含まれています。 新しいライセンスタイプについては、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) および [&#x200B; 新しいライセンスの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
 
 |   | プラン | ワーク | レビュー | リクエスト | 外部 |
 |---|---|---|---|---|---|
