@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 57%
+source-wordcount: '172'
+ht-degree: 55%
 
 ---
 
@@ -45,3 +45,4 @@ Adobe Workfront Planning でレコードタイプを作成した後、それら�
 * [レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)
 * [レコードの詳細のエクスポート](/help/quicksilver/planning/records/export-the-record-page.md)
 * [テーブルビューからのレコードのエクスポート](/help/quicksilver/planning/records/export-records-from-the-table-view.md)
+* [接続されたレコードページのレコードへの追加](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
