@@ -87,7 +87,7 @@ Adobe Workfront Planning の一般情報と用語の理解については、[Ado
 
 * [Adobe Systems ワークフロント計画 API 基本](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Systems ワークフロント計画 API の目標は、HTTP 上で動作する REST フル アーキテクチャを導入することによって、計画との統合の構築を簡素化することです。
 
-* [ワークフロントフュージョンのAdobe Systemsワークフロント計画モジュール](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Adobe Systemsワークフロント計画モジュールを使用すると、ワークフロント計画でイベントが発生したときにシナリオをトリガできます。 また、レコードを作成、参照、更新、削除したり、Adobe Systems ワークフロント計画アカウントへのカスタム API 呼び出しを実行したりすることもできます。
+* [ワークフロントフュージョンのAdobe Systemsワークフロント計画モジュール](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Adobe Systemsワークフロント計画モジュールを使用すると、ワークフロント計画でイベントが発生したときにシナリオをトリガできます。 また、レコードを作成、参照、更新、削除したり、Adobe Systems ワークフロント計画アカウントへのカスタム API 呼び出しを実行したりすることもできます。
 
 * [Adobe Systems ワークフロント計画 AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): 計画用ワークフロント AI アシスタントを使用すると、コマンドを使用してアシスタントに作業を任せて、レコードを検索したり、レコードを作成、更新、削除したりできます。
 
