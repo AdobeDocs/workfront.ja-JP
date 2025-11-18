@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
+source-git-commit: 29af5a01c1d5fcec35ac0061a478e5721f6770c0
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '411'
 ht-degree: 93%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 93%
         <td>編集</td>
         <td>表示</td>
         <td>表示</td>
-        <td>表示</td>
+        <td>アクセスなし</td>
     </tr>
     <tr>
         <td>イシュー</td>

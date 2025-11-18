@@ -7,9 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '528'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 1%
 # Adobe Workfront Planning の無料体験版の基本を学ぶ
 
 Adobe Workfrontでは現在、Adobe Workfront Planning を 60 日間無料で利用できます。
+
+体験版は、2025 年 2 月 1 日～4 月 1 日の間に利用できます。
 
 この体験版では、Planning が全体像に関する戦略と、それを実現する日常業務をどのように結び付けるかを確認する機会です。
 
@@ -46,14 +48,33 @@ Workfront管理者の 1 人は、組織内のすべてのユーザーがWorkfron
 法的契約書を確認して同意するには、次の手順を実行します。
 
 1. システム管理者としてAdobe Workfrontにログインします。
-1. **設定**／**システム**／**環境設定**&#x200B;に移動します。
-1. **その他の環境設定** セクションの「**体験版契約を確認**」をクリックします。
+1. （条件付き）体験版が公開されると、システム管理者は、法的合意に同意する場所へのリンクを含む、体験版への招待を受け取ります。
 
-<!-- finish these steps-->
+   または
+
+   **設定**／**システム**／**環境設定**&#x200B;に移動します。
+1. **その他の環境設定** セクションの「**体験版契約を確認**」をクリックします。
+1. 契約書を確認した後、「**同意する**」をクリックします。
+
+   様の組織は、2025 年 4 月 1 日（PT）までWorkfront Planning 体験版に登録されます。
+
+   **Planning 体験版** 領域の **ベスト・プラクティス・ワークスペース** タブで使用可能なデータには、次の権限が付与されます：
+
+   * すべてのシステム管理者には管理権限があります。
+   * その他のすべてのユーザーには、表示権限があります。
+1. （任意） **ベストプラクティスのワークスペース** タブの調査を開始して、ワークスペースまたはワークスペースのオブジェクトを他のユーザーと共有します。
+
+   Adobe Workfront Planning の使用方法の詳細については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+
+<!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps aboe - ???  -->
 
 ## 重要な日付の概要
 
 Adobe Workfront Planning の無料体験版に関連する重要な日付を次に示します。
+
+* 2025 年 2 月 1 日（PT） – Workfront計画の体験版の公開
+* 2025 年 4 月 1 日（PT） – Workfront計画裁判の終了。 Workfrontでは、体験版の終了後 6 か月間、お客様のデータを保護します。
+* 2025 年 11 月 30 日（PT） - Workfrontでは、この日付を過ぎるとデータを使用できなくなります。
 
 <!--## Overview of the access to Workfront Planning -->
 

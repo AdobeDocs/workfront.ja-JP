@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 16%
+source-wordcount: '382'
+ht-degree: 15%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 16%
 
 この記事では、2024 年第 4 四半期リリースでWorkfront Planning にリリースされる機能について説明します。
 
-このリリースに含まれる機能について詳しくは、[2024 年のAdobe Workfront計画リリースアクティビティ &#x200B;](/help/quicksilver/planning/general/release-activity.md) を参照してください。
+このリリースに含まれる機能について詳しくは、[2024 年のAdobe Workfront計画リリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) を参照してください。
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
 ## 接続されたレコードの表示オプション
 
@@ -40,17 +40,17 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 
 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
-## レコードの詳細をPDFに書き出し
+## PDFへのレコード詳細の書き出し
 
 >[!NOTE]
 >
 >プレビューリリース：2024 年 9 月 3 日（PT）、高速リリースの実稼動：24.9 リリースを含む（2024 年 9 月 12 日（PT））、四半期リリースの実稼動：24.10 リリースを含む（2024 年 10 月）
 
-レコードの詳細ページまたはプレビューをPDFドキュメントに書き出せるようになりました。
+レコードの詳細ページまたはプレビューをPDF ドキュメントに書き出せるようになりました。
 
 この機能強化の前は、レコードの「詳細」タブを Word （.docx）ファイルにのみ書き出すことができました。
 
-詳しくは、[&#x200B; レコードの詳細のエクスポート &#x200B;](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
+詳しくは、[ レコードの詳細のエクスポート ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
 ## Adobe Workfront Planning の一般提供
 
@@ -68,4 +68,4 @@ Adobe Workfront Planning の主な機能の一部を次に示します。
 
 * 他のシステムのオブジェクトタイプに接続し、すべてのプロセスで一貫したフレームワークを作成します。
 
-Workfront計画の詳細については、[Adobe Workfront計画の概要 &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+Adobe Workfront Planning の詳細については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。

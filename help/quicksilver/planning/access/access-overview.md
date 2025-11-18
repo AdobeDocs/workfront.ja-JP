@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 26%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 26%
 >
 >詳しくは、アカウントマネージャーにお問い合わせください
 >
->Workfront計画の詳細については、[Adobe Workfront計画の概要 &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Adobe Workfront Planning の詳細については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 Adobe Workfront Planning を使用するには、ライセンスと共有権限の制約があります。
 
@@ -146,7 +146,7 @@ Workfront インスタンスのユーザーからWorkfront Planning エリアを
 
 1. **メインメニュー**/**設定**/**インターフェイス**/**レイアウトテンプレート** に移動して、レイアウトテンプレートを開くか作成します。
 
-   レイアウトテンプレートのカスタマイズについて詳しくは、[&#x200B; レイアウトテンプレートの作成と管理 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
+   レイアウトテンプレートのカスタマイズについて詳しくは、[ レイアウトテンプレートの作成と管理 ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
 
 1. Workfront Planning へのアクセス権を付与するユーザーにレイアウトテンプレートを割り当てます。
 
@@ -160,7 +160,7 @@ Workfront インスタンスのユーザーからWorkfront Planning エリアを
 
 ユーザーの編集または作成時にアクセスレベルを設定する際に、ユーザーにライセンスを割り当てることができます。
 
-詳しくは、[&#x200B; ユーザープロファイルの編集 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
+詳しくは、[ ユーザープロファイルの編集 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
 
 ## アクセスレベルを設定
 
