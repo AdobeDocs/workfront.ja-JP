@@ -64,7 +64,7 @@ Workfront管理者の 1 人は、組織内のすべてのユーザーがWorkfron
    * その他のすべてのユーザーには、表示権限があります。
 1. （任意） **ベストプラクティスのワークスペース** タブの調査を開始して、ワークスペースまたはワークスペースのオブジェクトを他のユーザーと共有します。
 
-   Adobe Workfront Planning の使用方法の詳細については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+   Adobe Workfront Planning の使用方法の詳細については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 <!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps aboe - ???  -->
 

@@ -33,12 +33,12 @@ ht-degree: 39%
 >* Workfront Planning パッケージ。
 >* 組織のWorkfront インスタンスは、Adobe Unified Experience にオンボーディングされる必要があります。
 >
-> Workfront Planning へのアクセス要件の完全な一覧については、[Adobe Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+> Workfront Planning へのアクセス要件の完全な一覧については、[Adobe Planning アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 > 
 
 この記事には、Workfrontの計画に関する一般情報が含まれます。
 
-Adobe Workfront計画のドキュメントが含まれている記事の完全なリストについては、[Workfront計画の一般情報 ](/help/quicksilver/planning/planning-information.md) を参照してください。
+Adobe Workfront計画のドキュメントが含まれている記事の完全なリストについては、[Workfront計画の一般情報 &#x200B;](/help/quicksilver/planning/planning-information.md) を参照してください。
 
 ## Adobe Workfront Planning の概要
 
@@ -172,9 +172,9 @@ Workfront Planning パッケージを購入した後、ユーザーがWorkfront 
 
      標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。
 
-  詳しくは、[ レイアウトテンプレートを使用してメインメニューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) および [ レイアウトテンプレートにユーザーを割り当てる ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) を参照してください。
+  詳しくは、[&#x200B; レイアウトテンプレートを使用してメインメニューをカスタマイズする &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) および [&#x200B; レイアウトテンプレートにユーザーを割り当てる &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) を参照してください。
 
-* ユーザーにWorkfront ライセンスを割り当て、Workfront Planning でオブジェクトを表示または作成できるWorkfront Planning 権限を割り当てます。 へのアクセス権の付与と、他のユーザーがWorkfront Planning を使用できるようにする方法について詳しくは、[Adobe Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+* ユーザーにWorkfront ライセンスを割り当て、Workfront Planning でオブジェクトを表示または作成できるWorkfront Planning 権限を割り当てます。 へのアクセス権の付与と、他のユーザーがWorkfront Planning を使用できるようにする方法について詳しくは、[Adobe Workfront Planning アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
 ## Workfront Planning の用語
 
@@ -182,13 +182,13 @@ Workfront Planning は Workfront の一部ですが、独自の概念と用語�
 
 Workfront Planning のフレームワークは完全なカスタマイズが可能です。組織の正確なニーズに合わせて、すべてのレコードタイプとその属性、およびそれらに関連付けられた任意のフィールドを作成できます。
 
-作成できるWorkfront Planning オブジェクトの数には制限があります。 詳しくは、[Adobe Workfront Planning オブジェクトの制限事項の概要 ](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
+作成できるWorkfront Planning オブジェクトの数には制限があります。 詳しくは、[Adobe Workfront Planning オブジェクトの制限事項の概要 &#x200B;](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
 
 Workfront Planning の主なオブジェクトと概念は次のとおりです。
 
 * **ワークスペース**：特定の組織の運用ライフサイクルを定義するレコードタイプのコレクション。ワークスペースは、組織単位の作業フレームです。
 
-  ![ レコードタイプの分類を含むマーケティングワークスペースの開きページ ](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![&#x200B; レコードタイプの分類を含むマーケティングワークスペースの開きページ &#x200B;](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
@@ -202,11 +202,11 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
   Workfront Planning では、組織のワークフローを満たす任意のレコードタイプを作成できます。後で、レコードタイプを相互に関連付けたり、フォームの依存関係を定義したりできます。
 
-  詳しくは、[ レコードタイプの概要 ](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
+  詳しくは、[&#x200B; レコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
 
 * **レコード**：レコードタイプのインスタンス。
 
-  ![ キャンペーンレコードタイプリストでハイライト表示されたレコード ](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![&#x200B; キャンペーンレコードタイプリストでハイライト表示されたレコード &#x200B;](assets/records-highlighted-in-campaign-record-type-list.png)
 
   レコードタイプをワークスペースに追加した後、そのタイプのレコードをレコードタイプのページに追加できます。
 
@@ -216,7 +216,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
 * **ワークスペーステンプレート**：定義済みのテンプレートを使用して、ワークスペースを作成できます。テンプレートに含まれる定義済みのレコードタイプ、フィールドを使用するか、自分で追加することができます。
 
-  ![ テンプレートのサムネールを使用したワークスペースページ ](assets/workspaces-page-with-templates-thumbnails.png)
+  ![&#x200B; テンプレートのサムネールを使用したワークスペースページ &#x200B;](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning には、次のテンプレートが含まれています：
 
@@ -226,11 +226,11 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
    * 営業管理
    * 製品管理
 
-  詳しくは、[ ワークスペーステンプレートのリスト ](/help/quicksilver/planning/architecture/workspace-templates.md) を参照してください。
+  詳しくは、[&#x200B; ワークスペーステンプレートのリスト &#x200B;](/help/quicksilver/planning/architecture/workspace-templates.md) を参照してください。
 
 * **フィールド**：フィールドは、レコードタイプに追加できる属性です。フィールドには、レコードタイプに関する情報が含まれます。<!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![ レコードフィールドのドロップダウンリスト ](assets/drop-down-list-of-record-fields.png)
+  ![&#x200B; レコードフィールドのドロップダウンリスト &#x200B;](assets/drop-down-list-of-record-fields.png)
 
   レコードフィールドに関する考慮事項は、次のとおりです。
 
@@ -278,13 +278,13 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
      レコードタイプをExperience Manager オブジェクトと関連付けるには、Adobe Experience Manager ライセンスが必要です。
 
-     ![Workfront AEMのオプションを含む新しい「接続」タブ ](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![Workfront AEMのオプションを含む新しい「接続」タブ &#x200B;](assets/new-connection-tab-with-workfront-aem-options.png)
 
    * レコードタイプとAdobe GenStudio for Performance Marketing ブランド。
 
      レコードタイプをGenStudio ブランドと連携するには、Adobe GenStudio for Performance Marketing ライセンスが必要です。
 
-     ![ 「Adobe GenStudio Brand」オプションを含む新しい「接続」タブ ](assets/new-connection-tab-with-genstudio-option.png)
+     ![&#x200B; 「Adobe GenStudio Brand」オプションを含む新しい「接続」タブ &#x200B;](assets/new-connection-tab-with-genstudio-option.png)
 
 
   レコードタイプ間の接続を確立すると、個々のレコードまたはそれらのタイプのオブジェクトを相互に接続できます。 レコード間の接続は、接続されたレコードフィールドまたは接続として表示されます。
@@ -295,7 +295,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
   例えば、キャンペーンレコードタイプをWorkfront プロジェクト オブジェクトタイプに関連付けると、キャンペーンレコードで、接続されたプロジェクトの「予算」フィールドを表示できます。
 
-  ![ 参照フィールドを追加ボックス ](assets/add-lookup-fields-modal.png)
+  ![&#x200B; 参照フィールドを追加ボックス &#x200B;](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
@@ -315,7 +315,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
 * **ビュー**：レコードは、それぞれのレコードタイプページに異なるタイプのビューで表示されます。
 
-  ![ レコードタイプリストからの表示タイプドロップダウン ](assets/view-types-drop-down-from-record-type-list.png)
+  ![&#x200B; レコードタイプリストからの表示タイプドロップダウン &#x200B;](assets/view-types-drop-down-from-record-type-list.png)
 
   ビューには、フィールドのリスト（列）、レコードのリスト（行）、その順序（並べ替え）、適用または適用可能なフィルター、グループ化など、特定のビュータイプのパーソナライズされた設定が含まれます。
 
@@ -323,21 +323,21 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
    * **テーブル表示**：接続されたフィールドやルックアップフィールドを含む、レコードとそのフィールドをテーブル形式で表示します。 テーブルの行は個々のレコードであり、列はレコードのフィールドです。テーブル表示がデフォルトの表示です。
 
-     ![ テーブル表示の例 ](assets/table-view-example.png)
+     ![&#x200B; テーブル表示の例 &#x200B;](assets/table-view-example.png)
 
    * **タイムライン表示**：少なくとも 2 つの日付タイプフィールドがあるレコードを時系列タイムラインで表示します。 タイムラインビューには、接続されたレコードタイプとそのレコードを最大 5 つ表示できます。
 
-     ![ タイムラインビューで適用されたグループ化 ](assets/grouping-applied-in-timeline-view.png)
+     ![&#x200B; タイムラインビューで適用されたグループ化 &#x200B;](assets/grouping-applied-in-timeline-view.png)
 
    * **カレンダービュー**：2 つ以上の日付タイプフィールドを持つレコードをカレンダー形式で表示します。
-     ![ カレンダー表示の例 ](assets/calendar-view-example.png)
+     ![&#x200B; カレンダー表示の例 &#x200B;](assets/calendar-view-example.png)
 
 
 詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
 ## Adobe Workfront Planning の検索
 
-Adobe Planning を検索するには、組織がWorkfront Planning へのアクセス権を持ち、システム管理者またはグループ管理者が Planning 領域をメイン・メニューに追加していることを確認します。 詳しくは、[Adobe計画アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+Adobe Planning を検索するには、組織がWorkfront Planning へのアクセス権を持ち、システム管理者またはグループ管理者が Planning 領域をメイン・メニューに追加していることを確認します。 詳しくは、[Adobe計画アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
 Workfront Planning を検索するには、次の手順に従います。
 
@@ -345,15 +345,15 @@ Workfront Planning を検索するには、次の手順に従います。
 
 {{step1-click-main-menu}}
 
-1. **Planning**![Planning アイコン ](assets/planning-icon.png) をクリックします。
+1. **Planning**![Planning アイコン &#x200B;](assets/planning-icon.png) をクリックします。
 
    Workfront計画のメインページが開きます。
 
-   ![Planning ランディングページ管理者 ](assets/planning-landing-page-admin.png)
+   ![Planning ランディングページ管理者 &#x200B;](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >
-   >    Workfront管理者は、レイアウトテンプレートの「ランディングページを選択」オプションに Planning 領域を追加できるので、Workfrontにログインするとすぐに Planning を開くことができます。 詳しくは、[ レイアウトテンプレートを使用したランディングページのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) を参照してください。
+   >    Workfront管理者は、レイアウトテンプレートの「ランディングページを選択」オプションに Planning 領域を追加できるので、Workfrontにログインするとすぐに Planning を開くことができます。 詳しくは、[&#x200B; レイアウトテンプレートを使用したランディングページのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) を参照してください。
 
 1. （条件付きおよびオプション）Workfrontの管理者は、次のいずれかのタブをクリックします。
    * **自分が参加しているワークスペース**：作成したワークスペースまたは共有されているワークスペースが表示されます。
@@ -365,7 +365,7 @@ Workfront Planning を検索するには、次の手順に従います。
 
    1. ゼロから、またはテンプレートを使用してワークスペースを作成します。 詳しくは、[ワークスペースの概要](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
-   1. 新しいワークスペースにセクションを追加します。 詳しくは、[ ワークスペースの編集 ](/help/quicksilver/planning/architecture/edit-workspaces.md) を参照してください。
+   1. 新しいワークスペースにセクションを追加します。 詳しくは、[&#x200B; ワークスペースの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md) を参照してください。
    1. 新しいワークスペースで既存のセクションの名前を変更します。
    1. 新しいワークスペースにレコードタイプを追加します。 詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
@@ -382,7 +382,7 @@ Workfront Planning を検索するには、次の手順に従います。
       詳しくは、次の記事を参照してください。
 
       * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
-      * [ フィールドを作成 ](/help/quicksilver/planning/fields/create-fields.md).
+      * [&#x200B; フィールドを作成 &#x200B;](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Workfront計画リリースアクティビティ
 
@@ -390,23 +390,23 @@ Workfront Planning を検索するには、次の手順に従います。
 
 アドビでは、定期的に Workfront Planning の新機能をリリースしています。
 
-リリースされている機能の最新の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+リリースされている機能の最新の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
 ## Workfront Planning のその他のリソース
 
-* [Adobe Workfront計画に関する一般情報 ](/help/quicksilver/planning/planning-information.md):Workfront計画に関するドキュメントを含むすべての記事のインデックスで、目標領域別にグループ化されています。
-* [Adobe Workfront Planning AI Assistant の概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront AI Assistant for Planning を使用すると、レコードを検索したり、コマンドを使用してアシスタントで作業することにより、レコードを作成、更新、および削除したりできます。
+* [Adobe Workfront計画に関する一般情報 &#x200B;](/help/quicksilver/planning/planning-information.md):Workfront計画に関するドキュメントを含むすべての記事のインデックスで、目標領域別にグループ化されています。
+* [Adobe Workfront Planning AI Assistant の概要 &#x200B;](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront AI Assistant for Planning を使用すると、レコードを検索したり、コマンドを使用してアシスタントで作業することにより、レコードを作成、更新、および削除したりできます。
 
   <!--
     >[!NOTE]
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Workfront Fusion のAdobe Workfront Planning モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
+* [Workfront Fusion のAdobe Workfront Planning モジュール &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
 
-* [Adobe Workfront Planning API の基礎 ](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。
+* [Adobe Workfront Planning API の基礎 &#x200B;](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。
 
-* [Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md):Workfront Planning のGenStudio ワークスペースで、GenStudio for Performance Marketingからのレコードを管理できます。
+* [Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md):Workfront Planning のGenStudio ワークスペースで、GenStudio for Performance Marketingからのレコードを管理できます。
 
-* **Workfront Planning のレポート機能**: Workfront キャンバス ダッシュボードを使用して、WorkfrontのレポートでWorkfront Planning の情報を表示できるようになりました。 詳しくは、[ キャンバスダッシュボードの概要 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
+* **Workfront Planning のレポート機能**: Workfront キャンバス ダッシュボードを使用して、WorkfrontのレポートでWorkfront Planning の情報を表示できるようになりました。 詳しくは、[&#x200B; キャンバスダッシュボードの概要 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
 
