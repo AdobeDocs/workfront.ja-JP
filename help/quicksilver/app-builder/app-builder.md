@@ -4,9 +4,9 @@ description: Adobe App Builder を活用した Workfront UI 拡張機能を使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2285'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Adobe App Builderでアプリケーションが作成されたら、Workfront管
 
 ここでは、App Builderにアクセスし、テンプレートを使用してアプリケーションを作成する方法を説明します。
 
-レイアウトテンプレートにカスタムアプリケーションを追加する方法については、[&#x200B; レイアウトテンプレートを使用してメインメニューをカスタマイズする &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) および [&#x200B; レイアウトテンプレートを使用して左側のパネルをカスタマイズする &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) を参照してください。
+レイアウトテンプレートにカスタムアプリケーションを追加する方法については、[ レイアウトテンプレートを使用してメインメニューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) および [ レイアウトテンプレートを使用して左側のパネルをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) を参照してください。
 
 ## 前提条件
 
@@ -44,7 +44,7 @@ Adobe App Builderでアプリケーションが作成されたら、Workfront管
 
 UI 拡張機能を作成するには、Adobe Developer ConsoleのAdobe App Builderにアクセスできる必要があります。
 
-その他の手順については、[Adobe Developer サイト &#x200B;](https://developer.adobe.com/uix/docs/guides/get-access/) を参照してください。
+その他の手順については、[Adobe Developer サイト ](https://developer.adobe.com/uix/docs/guides/get-access/) を参照してください。
 
 ### Adobe Admin Consoleへの開発者の追加
 
@@ -56,7 +56,7 @@ UI 拡張機能を作成するには、Adobe Developer ConsoleのAdobe App Build
 
 1. 「**ユーザー**」セクションで、**開発者**/**開発者を追加** をクリックします。
 
-   ![admin console でのユーザーの追加 &#x200B;](assets/manage-users-admin-console.png)
+   ![admin console でのユーザーの追加 ](assets/manage-users-admin-console.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ UI 拡張機能を作成するには、Adobe Developer ConsoleのAdobe App Build
 1. ユーザーのメールアドレスを追加します。 Admin Console内から追加済みの既存のユーザーを検索する必要があります。
 
 1. 開発者プロファイルに必要な製品を追加して、「**保存**」をクリックします。\
-   ![&#x200B; 開発者を追加 &#x200B;](assets/add-developer.png)
+   ![ 開発者を追加 ](assets/add-developer.png)
 
 ### App Builderへのアクセスの取得
 
@@ -77,7 +77,7 @@ AppBuilder が正しく設定されている場合は、新しいプロジェク
 
 UI 拡張機能を構築するには、Adobe Developer Consoleを使用する必要があります。
 
-その他の手順については、[Adobe Developer サイト &#x200B;](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/) を参照してください。
+その他の手順については、[Adobe Developer サイト ](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/) を参照してください。
 
 1. Adobe IDを使用してAdobe Developer Consoleにログインします。
 
@@ -89,7 +89,7 @@ UI 拡張機能を構築するには、Adobe Developer Consoleを使用する必
    >
    >「テンプレートからプロジェクトを作成する」オプションが表示されない場合は、Admin Console内の設定が誤っており、App Builder カタログにアクセスできません。 このオプションは、AppBuilder にアクセスできる場合にのみ表示されます。
 
-   ![&#x200B; テンプレートから作成 &#x200B;](assets/create-from-template.png)
+   ![ テンプレートから作成 ](assets/create-from-template.png)
 
 1. 「**App Builder**」を選択します。
 
@@ -113,16 +113,16 @@ Adobeには、App Builder アプリケーションの作成に使用できるオ
 1. 次を実行してアプリの設定を開始 `aio app init example-app` ます。「example-app」をアプリ名に置き換えてください。 アプリ名が不明な場合は、コマンド `aio console project list` を使用してアプリ名のリストを確認できます。
 1. 提供されたオプションから組織とプロジェクトを選択します。
 
-   ![&#x200B; コマンドの結果 &#x200B;](assets/1-command-result.png)
-   ![&#x200B; プロジェクトの選択 &#x200B;](assets/2-select-a-project.png)
+   ![ コマンドの結果 ](assets/1-command-result.png)
+   ![ プロジェクトの選択 ](assets/2-select-a-project.png)
 
 1. 使用可能なすべてのテンプレートを参照し、プロジェクトの **@adobe/workfront-ui-ext-tpl** を選択します。
 
-   ![&#x200B; テンプレートを選択 &#x200B;](assets/3-choose-template.png)
+   ![ テンプレートを選択 ](assets/3-choose-template.png)
 
 1. を選択し、Adobe Developer Consoleで作成したプロジェクト名を入力します。
 
-   ![&#x200B; プロジェクト名を選択および入力 &#x200B;](assets/4-select-and-enter-project-name.png)
+   ![ プロジェクト名を選択および入力 ](assets/4-select-and-enter-project-name.png)
 
 1. アプリケーションのプロンプトに答えます。
 
@@ -131,17 +131,17 @@ Adobeには、App Builder アプリケーションの作成に使用できるオ
    * 開始する初期バージョン番号を選択します。
    * 「次に何を行いますか？」というプロンプトが表示されたときに「メインメニュー項目にカスタムボタンを追加する」を選択した場合、テンプレートによってプライマリナビゲーションボタンのコードが作成されます。
 
-   ![&#x200B; 「完了」を選択 &#x200B;](assets/5-select-done.png)
+   ![ 「完了」を選択 ](assets/5-select-done.png)
 
 1. 「完了」を選択して完了を確認します。 テンプレートからのコード生成が進行中です。
 
-   ![&#x200B; 生成中 &#x200B;](assets/6-generation-in-process.png)
+   ![ 生成中 ](assets/6-generation-in-process.png)
 
 1. アプリの初期化が完了したことを示すメッセージが表示されるまで待ちます。 次に、IDE でプロジェクトを開き（Visual Studio Code をお勧めします）、src フォルダーにアクセスします。
 
-   プロジェクト内のフォルダーおよびファイルについて詳しくは、[Adobe開発者向けサイト &#x200B;](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application) を参照してください。
+   プロジェクト内のフォルダーおよびファイルについて詳しくは、[Adobe開発者向けサイト ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application) を参照してください。
 
-プロジェクト内のフォルダーおよびファイルについて詳しくは、[Adobe Developerのサイト &#x200B;](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application) を参照してください。
+プロジェクト内のフォルダーおよびファイルについて詳しくは、[Adobe Developerのサイト ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application) を参照してください。
 
 ## VSCode での拡張機能の構築
 
@@ -187,7 +187,7 @@ ExtensionRegistration 関数に、次のコードが表示されます。 この
 
 1. 次のコードスニペットを追加します。
 
-   ![&#x200B; コードスニペット &#x200B;](assets/7-extension-registration-step1-from-sam.png)
+   ![ コードスニペット ](assets/7-extension-registration-step1-from-sam.png)
 
    この例では、メイン メニュー項目を示します。 ID、ラベル、アイコン、URL を、アプリケーションに適した名前に更新する必要があります。 複数の項目を追加する場合は、ID が一意であることを確認します。
 
@@ -220,7 +220,7 @@ Workfrontの左側のパネルナビゲーションでカスタムアプリケ�
    },  
    ```
 
-   ![&#x200B; 拡張機能の登録 &#x200B;](assets/8-extension-registration-file-step2.png)
+   ![ 拡張機能の登録 ](assets/8-extension-registration-file-step2.png)
 
    * 次の例は、My Task という左側のパネルのナビゲーション項目を示しています。 ID、ラベル、アイコン、URL を、アプリケーションに適した名前に更新する必要があります。
    * 次の使用例は、プロジェクト オブジェクトの種類の左側のパネルのナビゲーション項目を示します。 これらの項目は、Workfrontでサポートされているオブジェクトごとに個別に作成する必要があります。 使用できるオブジェクトは、プロジェクト、タスク、イシュー、ポートフォリオ、プログラムです。
@@ -384,7 +384,7 @@ dimensions: {
 
 アプリは、「UI Extensions」フィールドタイプを使用して、Workfront カスタムフォームに埋め込むことができます。 フィールドに追加してフォームウィジェットを選択すると、ウィジェットのリストは、IMS 組織内のアクティブなアプリまたは `extensionoverride=TRUE` 定されたときにローカルでアクティブになっているアプリケーションに基づきます。
 
-![&#x200B; カスタムフォームの UI 拡張機能フィールド &#x200B;](assets/ui-extensions-field.png)
+![ カスタムフォームの UI 拡張機能フィールド ](assets/ui-extensions-field.png)
 
 ### App.js の設定
 
@@ -402,10 +402,10 @@ dimensions: {
            /> 
    ```
 
-   ![&#x200B; コードの例 &#x200B;](assets/9-app-file-step-1-from-sam.png)
+   ![ コードの例 ](assets/9-app-file-step-1-from-sam.png)
 1. 作業内容を保存します。
 
-アプリケーションの開発と実行について詳しくは、[Adobe開発者向けサイト &#x200B;](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application) を参照してください。
+アプリケーションの開発と実行について詳しくは、[Adobe開発者向けサイト ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application) を参照してください。
 
 
 ## 共有コンテキスト
@@ -439,6 +439,19 @@ App Builder アプリ内で、ローカル開発の `aio app run` を開始で�
 
 Adobe Developer サイトで、AEMの例を使用した追加手順を参照できます（https://developer.adobe.com/uix/docs/guides/preview-extension-locally/）。
 
+### Chrome バージョン 142 以降でのローカルテストを許可するフラグを無効にします
+
+Chrome バージョン 142 では、ローカルネットワークアクセスが制限されています。 これらの制限により、ローカルテスト環境が妨げられることがあります。
+
+この問題を解決するには、Chrome設定で対応するフラグ（`chrome://flags/#local-network-access-check`）をオフにして、ローカルネットワークアクセスチェックを無効にする必要があります。
+
+フラグを無効にするには
+
+1. Chromeを開き、アドレスバーに「`chrome://flags`」と入力し、**Enter** キーを押します。
+1. 上部の検索バーに「**ローカルネットワークアクセスチェック**」と入力します。
+1. **ローカルネットワークアクセスチェック** フラグの横にあるドロップダウンメニューをクリックし、「無効」を選択します。
+1. 画面の下部に表示される **再起動** ボタンをクリックして、変更を適用します。
+
 ## 申請の公開と送信の承認
 
-アプリを公開して承認するには、[Adobe Developer サイト &#x200B;](https://developer.adobe.com/uix/docs/guides/publication/) の手順に従います。
+アプリを公開して承認するには、[Adobe Developer サイト ](https://developer.adobe.com/uix/docs/guides/publication/) の手順に従います。
