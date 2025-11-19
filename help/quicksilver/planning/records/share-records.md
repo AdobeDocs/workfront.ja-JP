@@ -1,14 +1,14 @@
 ---
-title: レコードの共有
+title: リンクを使用したレコードの共有
 description: 他のユーザーとレコードを共有して、共同作業を強化できます。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '585'
 ht-degree: 45%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 <!--take out preview and production references at release-->
 
-# レコードの共有
+# リンクを使用したレコードの共有
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -111,7 +111,7 @@ You can share an Adobe Workfront Planning record in the following ways:
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++  
 
@@ -199,9 +199,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    または
 
-   レコードの名前にポインタを合わせ、「**その他**」メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**リンクをコピー**」をクリックします。
+   レコードの名前にポインタを合わせ、「**その他**」メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、「**リンクをコピー**」をクリックします。
 
-   ![&#x200B; レコード行のコンテキストメニュー &#x200B;](assets/contextual-menu-for-record-row.png)
+   ![ レコード行のコンテキストメニュー ](assets/contextual-menu-for-record-row.png)
 
    リンクがクリップボードにコピーされます。
 
@@ -237,5 +237,5 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ワークスペースに対する管理権限を持つユーザーのみが、そのレコードタイプとレコードを他のユーザーと共有できます。
 
-詳しくは、[&#x200B; レコードタイプの共有 &#x200B;](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
+詳しくは、[ レコードタイプの共有 ](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
 
