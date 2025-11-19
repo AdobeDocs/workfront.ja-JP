@@ -7,7 +7,7 @@ description: コスト効率指数（CPI）は、予定コストと実際のコ�
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 88%
@@ -22,7 +22,7 @@ ht-degree: 88%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-コスト効率指数（CPI）は、予定コストと実際のコストの間のプロジェクトレベルまたはタスクレベルでの関係を表します。プロジェクトマネージャーは、この指標をレビューして、特定の時点で現在コスト未満またはコスト超過をトラッキングするタスクやプロジェクトを特定します。コストは、パフォーマンスインデックスメソッド（PIM）に応じて、時間単位またはドル単位で測定できます。パフォーマンスインデックスメソッドの設定について詳しくは、[パフォーマンスインデックスメソッド（PIM）の設定](../../../manage-work/projects/project-finances/set-pim.md)を参照してください。
+コスト効率指数（CPI）は、予定コストと実際のコストの間のプロジェクトレベルまたはタスクレベルでの関係を表します。プロジェクトマネージャーは、この指標をレビューして、特定の時点で現在コスト未満またはコスト超過をトラッキングするタスクやプロジェクトを特定します。コストは、パフォーマンスインデックスメソッド（PIM）に応じて、時間単位または通貨単位で測定できます。 パフォーマンスインデックスメソッドの設定について詳しくは、[パフォーマンスインデックスメソッド（PIM）の設定](../../../manage-work/projects/project-finances/set-pim.md)を参照してください。
 
 CPI を使用できるのは、時間入力が必要な組織のみです。さらに、コストベースの PIM 値は、組織がタスク担当者（担当業務またはユーザー）のコスト率を定義した場合のみ正確になります。
 
@@ -194,4 +194,4 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 
 1. **財務** をクリックします。 CPI は「**CPI／SPI／CSI**」フィールドを表示します。
 
-   ![&#x200B; プロジェクトの CPI](assets/cpi-on-project-nwe.png)
+   ![ プロジェクトの CPI](assets/cpi-on-project-nwe.png)
