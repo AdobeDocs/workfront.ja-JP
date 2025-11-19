@@ -4,10 +4,10 @@ description: 2026年第 1 四半期の管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
+source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 16%
+source-wordcount: '376'
+ht-degree: 15%
 
 ---
 
@@ -27,6 +27,9 @@ ht-degree: 16%
 
 エントリ日と ID 入力が、カスタムフォーム、フィールド、セクションに保存されるようになりました。 これらのデータオプションは、フィルター、ビュー、グループとしてレポートに使用できます。 設定のカスタムフォーム、フィールド、セクションのリストに表示するには、新規または既存のビューの列として「エントリ日」と「入力者：名前」を追加します。
 
+>[!NOTE]
+>
+>エントリ日と入力 ID は、2025 年 11 月 13 日以降に作成されたカスタムフォーム、フィールド、セクションでのみ使用できます。
 
 ## レイアウトテンプレート編集時のボタン名の更新
 
@@ -57,4 +60,4 @@ ht-degree: 16%
 * カスタムフィールドを追加できるWorkfrontのレポート、フィルター、ビュー、その他の場所からは除外されます
 * 他のカスタムフォームに追加するフィールドライブラリでは使用できません
 
-詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
