@@ -6,10 +6,10 @@ description: Frame.io 統合でのAdobe Experience Managerの使用
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cb2a17991a5562c6e734eaa0ada781d706dc5a77
+source-git-commit: 8c5202bcdb367266d31a2e056eed9a286f286518
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 80%
+source-wordcount: '1615'
+ht-degree: 81%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 80%
    </td>
    <td>
   <p>統合を設定するには：</p>
-   <p>標準</p>
+   <p>Standard</p>
    <p>プラン</p>
 
 <p>ドキュメントをExperience Manager Assetsに送信するには：</p>
@@ -60,7 +60,7 @@ ht-degree: 80%
     <tr>
    <td>Adobe Experience Manager ライセンス
    </td>
-   <td>標準
+   <td>Standard
    </td>
   </tr>
   <tr>
@@ -121,10 +121,10 @@ ht-degree: 80%
 
 メタデータフィールドを設定するには、次の手順に従います。
 
-1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
+1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
 
 
-1. Workfront でカスタムフォームフィールドを設定します。[!DNL Workfront] には、使用できるビルトインのカスタムフィールドが多数あります。ただし、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) で説明されているように、独自のカスタムフィールドを作成することもできます。
+1. Workfront でカスタムフォームフィールドを設定します。[!DNL Workfront] には、使用できるビルトインのカスタムフィールドが多数あります。ただし、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) で説明されているように、独自のカスタムフィールドを作成することもできます。
 
 +++ **サポートされている Workfront フィールドおよび Experience Manager Assets フィールドについて詳しくはこちらを展開** 
 
@@ -151,7 +151,7 @@ Workfront でサポートされている任意のフィールドを、Experience
 
 Experience Manager Assets でタグを作成すると、タグは「メタデータ」セクションのタグドロップダウンに表示されます。フィールドをタグにリンクするには、メタデータマッピングエリアの Experience Manager Assets フィールドドロップダウンで `xcm:keywords` を選択します。
 
-タグの作成および管理方法など、Experience Manager Assets のタグについて詳しくは、[タグの管理](https://experienceleague.adobe.com/ja/docs/experience-manager-64/administering/contentmanagement/tags)を参照してください。
+タグの作成および管理方法など、Experience Manager Assets のタグについて詳しくは、[タグの管理](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)を参照してください。
 
 **Experience Manager Assets のカスタムメタデータスキーマフィールド**
 
@@ -200,7 +200,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
 1. [!DNL Experience Manager Assets] フィールドで、事前入力されたカテゴリを検索するか、検索フィールドに 2 文字以上入力して、追加のカテゴリにアクセスします。
 1. 必要に応じて、手順 2 および 3 を繰り返します。
    ![メタデータフィールド](assets/metadata-no-asset-toggle.png)
-1. [!UICONTROL **保存**] をクリックするか、この記事の [&#x200B; オブジェクトメタデータの同期 &#x200B;](#object-metadata-sync) の節に移動します。
+1. [!UICONTROL **保存**] をクリックするか、この記事の [ オブジェクトメタデータの同期 ](#object-metadata-sync) の節に移動します。
 
 
 
@@ -221,7 +221,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 Workfront から Experience Manager Assets または Assets Essentials にドキュメントを送信できます。Workfrontから Assets Essentials にアップロードおよび送信されたドキュメントは、引き続きドキュメントストレージ全体にカウントされます。
 
-この統合を通じてExperience Managerに送信されるAssetsのサイズ制限は **5 GB** です。
+この統合を通じてExperience Managerに送信されるAssetsのサイズ制限は、**5o TB** です。
 
 <!--In the Preview environment, Assets sent to Experience Manager through this integration have a size limit of **30 GB**.-->
 
@@ -246,7 +246,7 @@ Workfront から Experience Manager Assets または Assets Essentials にユー
    >
    >Workfront 管理者は、この統合に対して任意の名前を選択できるので、Assets や Assets Essentials とは明記されていない場合があります。
 
-   ![&#x200B; 送信先 &#x200B;](assets/send-to-aem.png)
+   ![ 送信先 ](assets/send-to-aem.png)
 
 1. アセットの保存先を選択し、「**フォルダーを選択**」をクリックします。
 1. 目的の宛先が見つかったら、「**保存**」をクリックします。
@@ -268,6 +268,6 @@ Workfront から Experience Manager Assets または Assets Essentials にユー
    >
    >Workfront 管理者は、この統合の名前を任意に選択できるので、Assets や Assets Essentials とは明記されていない場合があります。
 
-   ![&#x200B; 送信先 &#x200B;](assets/send-to-aem.png)
+   ![ 送信先 ](assets/send-to-aem.png)
 
 1. 「**保存**」をクリックします。新しいバージョンは、以前のバージョンと同じ場所に保存されます。
