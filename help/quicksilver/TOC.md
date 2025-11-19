@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: e73965653f1923168ff331dfdf05713f1902ba5a
+source-git-commit: 18e1bc979e252b2daddc68ae8e51e0af6265d72a
 workflow-type: tm+mt
-source-wordcount: '13556'
+source-wordcount: '13565'
 ht-degree: 83%
 
 ---
@@ -1756,6 +1756,7 @@ ht-degree: 83%
       * [Workfront Data Connect クエリの例](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Workfront Data Connect の使用状況指標の表示](reports-and-dashboards/data-lake/view-usage-metrics.md)
       * [Data Connect の Job History Data ビューの使用](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
+      * [Data Connect のデータ更新の監視ビューの使用](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
       * Analytics クエリの強化機能{#enhanced-analytics-queries}
          * [Analytics クエリの強化機能](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [KPI クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
