@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 82%
+source-wordcount: '537'
+ht-degree: 62%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 >
 >オブジェクトヘッダーのカスタマイズは、現在、プロジェクト、タスクおよびイシューに対して使用できます。
 
-![&#x200B; オブジェクトヘッダーフィールド &#x200B;](assets/object-header-fields.png)
+![ オブジェクトヘッダーフィールド ](assets/object-header-fields.png)
 
 レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -47,7 +47,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td><p>標準</p>
+   <td><p>Standard</p>
        <p>プラン</p></td>
   </tr> 
   </tr> 
@@ -70,7 +70,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. 「[!UICONTROL ヘッダーフィールド]」セクションで、表示されたフィールドにポインタを合わせ、次のいずれかの操作を行います。
+1. [!UICONTROL  ヘッダーフィールド ] セクションで、現在のフィールドの上にマウスポインターを置いて、次のいずれかの操作を行います。
    * **x** アイコンをクリックしてフィールドを削除
 
      または
@@ -79,23 +79,19 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![&#x200B; オブジェクトヘッダーフィールドの非表示および移動アイコン &#x200B;](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![ オブジェクトヘッダーフィールドの非表示および移動アイコン ](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. 1 つのオブジェクトのヘッダーには、最大 5 つのフィールドを含めることができます。
 既に 5 つのフィールドが選択されている場合、新しいフィールドを追加する前に、1 つのフィールドを削除する必要があります。
-1. 「**フィールドを追加**」ボックスで、追加する編集不可能な Workfront フィールドの名前を入力し、リストに表示されたら選択します。このフィールドは、「フィールドを追加」ボックスの右隣に追加され、オブジェクトのヘッダーの左上隅に一番目のフィールドとして表示されます。
+1. 「**フィールドを追加**」ボックスに、追加するカスタムフィールドまたはネイティブのWorkfront フィールドの名前の入力を開始し、リストに表示されたら選択します。 フィールドは「フィールドを追加」ボックスのすぐ右に追加され、オブジェクトのヘッダーの右上隅にある最初のフィールドとして表示されます。
 
    >[!TIP]
    >
-   >* オブジェクトの「詳細」セクションの概要エリアに表示されていて、編集不可能なフィールドだけを追加できます。編集不可能なフィールドは、ユーザーが手動で編集できないフィールドです。これらは Workfront で自動的に計算されます。
-   >
-   >* 既にデフォルトのヘッダーに含まれている編集可能フィールド（プロジェクト所有者、ステータス、完了率、割り当てなど）を追加できます。
+   >* 任意のカスタムフィールドか、オブジェクトの「詳細」セクションの「概要」領域で使用可能な任意のネイティブフィールドを追加できます。 例えば、イシューにのみ「重要度」フィールドがあり、そのフィールドはプロジェクトやタスクに追加できません。
    >
    >* イシューのヘッダーに「解決オブジェクト」フィールドを追加すると、イシューに関連付けられた解決オブジェクトがある場合、そのフィールドは「解決するイシュー、タスク、またはプロジェクト」に変わります。
 
-
-   ![&#x200B; ヘッダーにフィールドを追加 &#x200B;](assets/add-field-to-header-in-lt-list.png)
-
+   ![ ヘッダーにフィールドを追加 ](assets/add-field-to-header-in-lt-list.png)
 
 1. （任意）フィールドを別の順序でドラッグ&amp;ドロップします。
 
