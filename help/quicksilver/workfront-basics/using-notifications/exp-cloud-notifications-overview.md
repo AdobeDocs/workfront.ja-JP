@@ -1,15 +1,15 @@
 ---
 navigation-topic: notifications
-title: Adobe Workfront の項目を購読
+title: Experience Cloud通知の概要
 description: Adobe Workfrontでは、すべてのデジタルエクスペリエンス（DX）製品を、Experience Cloud通知と呼ばれる一貫性のある単一の通知システムに統合しました。
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 49e1bb56c30ec54290a95f0c5eb224d86b9afafc
+source-git-commit: 56f63dad88c9ea7d51297bcad181983dc88acf50
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 1%
+source-wordcount: '630'
+ht-degree: 0%
 
 ---
 
