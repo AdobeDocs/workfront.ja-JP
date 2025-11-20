@@ -33,7 +33,7 @@ ht-degree: 7%
 
 従来のリクエストエクスペリエンスで作成されたドラフトは、新しいリクエストエクスペリエンスで利用できます。 リクエストリストで見つけることができます。
 
-リクエストドラフトについて詳しくは、「[ ドラフトからのリクエストの作成 ](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)」を参照してください。
+リクエストドラフトについて詳しくは、「[&#x200B; ドラフトからのリクエストの作成 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)」を参照してください。
 
 ## 新しい要求エクスペリエンスで送信済み要求を削除
 
@@ -47,7 +47,7 @@ ht-degree: 7%
 
 以前は、リクエストの削除は使用できませんでした。
 
-詳細と手順については、[ 送信されたリクエストまたはリクエストドラフトの削除 ](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) を参照してください。
+詳細と手順については、[&#x200B; 送信されたリクエストまたはリクエストドラフトの削除 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) を参照してください。
 
 ## リクエスト エリアとマイリクエストウィジェットでのビューの共有
 
@@ -61,7 +61,7 @@ ht-degree: 7%
 
 Workfrontのリクエスト エリアとホームのマイリクエスト ウィジェットの両方で、リクエストリストビューを共有できます。 共有機能はどちらの場所でも同じで、マイリクエスト ウィジェットとリクエスト エリア間を移動する際に、共有を含む表示設定は保持されます。
 
-共有を含むリクエストビューについて詳しくは、[ リクエストエリアでのビューの作成と管理 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+共有を含むリクエストビューについて詳しくは、[&#x200B; リクエストエリアでのビューの作成と管理 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 
 ## 以前に送信したリクエストを新しいリクエストエクスペリエンスにコピーして、新しいリクエストを作成します
 
@@ -75,4 +75,4 @@ Workfrontのリクエスト エリアとホームのマイリクエスト ウィ
 
 以前は、この機能は、新しいリクエスト用エクスペリエンスでは使用できませんでした。
 
-リクエストのコピーと送信について詳しくは、[ リクエストのコピーと送信 ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
+リクエストのコピーと送信について詳しくは、[&#x200B; リクエストのコピーと送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。

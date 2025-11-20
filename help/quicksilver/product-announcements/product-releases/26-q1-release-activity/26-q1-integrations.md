@@ -42,4 +42,4 @@ Adobe Workfront for Experience Manager Assets統合のアセットセレクタ�
 
 Workfront API に対する最近の変更を最新の状態に保つために、新しいSalesforce統合を作成しました。 この新しい統合は、以前のバージョンと同じ機能を備え、API で非推奨となった機能が失われないように更新されました。
 
-新しい統合のダウンロードとインストールの手順とリンクについては、[Salesforce用Adobe Workfrontのインストール ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) を参照してください。
+新しい統合のダウンロードとインストールの手順とリンクについては、[Salesforce用Adobe Workfrontのインストール &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) を参照してください。
