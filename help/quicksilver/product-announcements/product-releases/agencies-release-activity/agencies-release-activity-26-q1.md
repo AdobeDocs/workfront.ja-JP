@@ -22,7 +22,7 @@ ht-degree: 0%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront向けにリリースされているすべてのエージェンシー機能のリストについては、[Adobe Workfront エージェンシーリリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-article-index.md) を参照してください。
+Adobe Workfront向けにリリースされているすべてのエージェンシー機能のリストについては、[Adobe Workfront エージェンシーリリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-article-index.md) を参照してください。
 
 ## 評価カードでの担当業務率の調整
 
