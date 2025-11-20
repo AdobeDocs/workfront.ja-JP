@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
+source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 62%
+source-wordcount: '571'
+ht-degree: 59%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 >
 >オブジェクトヘッダーのカスタマイズは、現在、プロジェクト、タスクおよびイシューに対して使用できます。
 
-![&#x200B; オブジェクトヘッダーフィールド &#x200B;](assets/object-header-fields.png)
+![ オブジェクトヘッダーフィールド ](assets/object-header-fields.png)
 
 レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -70,7 +70,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. [!UICONTROL &#x200B; ヘッダーフィールド &#x200B;] セクションで、現在のフィールドの上にマウスポインターを置いて、次のいずれかの操作を行います。
+1. [!UICONTROL  ヘッダーフィールド ] セクションで、現在のフィールドの上にマウスポインターを置いて、次のいずれかの操作を行います。
    * **x** アイコンをクリックしてフィールドを削除
 
      または
@@ -79,7 +79,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![&#x200B; オブジェクトヘッダーフィールドの非表示および移動アイコン &#x200B;](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![ オブジェクトヘッダーフィールドの非表示および移動アイコン ](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. 1 つのオブジェクトのヘッダーには、最大 5 つのフィールドを含めることができます。
 既に 5 つのフィールドが選択されている場合、新しいフィールドを追加する前に、1 つのフィールドを削除する必要があります。
@@ -89,9 +89,11 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
    >
    >* 任意のカスタムフィールドか、オブジェクトの「詳細」セクションの「概要」領域で使用可能な任意のネイティブフィールドを追加できます。 例えば、イシューにのみ「重要度」フィールドがあり、そのフィールドはプロジェクトやタスクに追加できません。
    >
+   >* ユーザーがヘッダーのカスタムフィールドを編集し、オブジェクトに添付されていないカスタムフォームにフィールドが含まれている場合、カスタムフォームは自動的にオブジェクトに追加されます。
+   >
    >* イシューのヘッダーに「解決オブジェクト」フィールドを追加すると、イシューに関連付けられた解決オブジェクトがある場合、そのフィールドは「解決するイシュー、タスク、またはプロジェクト」に変わります。
 
-   ![&#x200B; ヘッダーにフィールドを追加 &#x200B;](assets/add-field-to-header-in-lt-list.png)
+   ![ ヘッダーにフィールドを追加 ](assets/add-field-to-header-in-lt-list.png)
 
 1. （任意）フィールドを別の順序でドラッグ&amp;ドロップします。
 
