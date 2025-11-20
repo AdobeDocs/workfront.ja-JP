@@ -32,7 +32,7 @@ Workfront 管理者は、Adobe Workfront Planning を使用するユーザーに
 * [ビューまたはワークスペースに対する権限のリクエスト](/help/quicksilver/planning/access/request-permissions.md)
 * [ビューの共有](/help/quicksilver/planning/access/share-views.md)
 * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
-* [ レコードタイプの共有 ](/help/quicksilver/planning/access/share-record-types.md)
+* [&#x200B; レコードタイプの共有 &#x200B;](/help/quicksilver/planning/access/share-record-types.md)
   <!--* <span class="preview">[Share records](/help/quicksilver/planning/access/share-records.md)</span>-->
 
 

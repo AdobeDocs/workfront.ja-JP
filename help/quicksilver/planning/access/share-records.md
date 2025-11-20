@@ -25,7 +25,7 @@ ht-degree: 20%
 
 * レコードへのリンクの共有。
 
-  詳しくは、「[ リンクを使用してレコードを共有する ](/help/quicksilver/planning/records/share-records.md)」を参照してください。
+  詳しくは、「[&#x200B; リンクを使用してレコードを共有する &#x200B;](/help/quicksilver/planning/records/share-records.md)」を参照してください。
 
 * ワークスペースとレコードタイプを共有することで、ワークスペース内のすべてのレコードを他のユーザーと共有します。
 
@@ -44,7 +44,7 @@ ht-degree: 20%
 >ワークスペースへのアクセス権を持つユーザーには、ワークスペース内のすべてのレコードに対する少なくとも表示権限が自動的に付与されます。
 >ビューを共有しても、レコードに対する権限はユーザーに付与されません。 共有ワークスペースのみが、レコードタイプとレコードに対する権限をユーザーに付与できます。
 >
->Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
+>Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
 
 
 ## アクセス要件
@@ -96,7 +96,7 @@ ht-degree: 20%
 </table>
 
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
