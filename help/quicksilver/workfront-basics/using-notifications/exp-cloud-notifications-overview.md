@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 56f63dad88c9ea7d51297bcad181983dc88acf50
+source-git-commit: 4f0ab97409ea959d195dd0bf856d53982402e7fc
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Workfrontは、Adobeのデジタルエクスペリエンス製品スイートの
 
 ## Experience Cloudで新規通知を表示する
 
-1. Workfrontの右上隅にある「**通知**」アイコン ![&#x200B; 通知アイコン &#x200B;](assets/bell-icon.png) をクリックします。
+1. Workfrontの右上隅にある「**通知**」アイコン ![ 通知アイコン ](assets/bell-icon.png) をクリックします。
 
 1. 開いた **Experience Cloud通知** パネルで、「**通知**」を選択します。 通知のリストが表示され、最新の通知がリストの先頭に表示されます。
 
@@ -70,11 +70,11 @@ Workfrontは、Adobeのデジタルエクスペリエンス製品スイートの
 >個人通知設定にアクセスできない場合は、管理者にお問い合わせください。
 
 
-1. Workfrontの右上隅にある「**通知**」アイコン ![&#x200B; 通知アイコン &#x200B;](assets/bell-icon.png) をクリックします。
+1. Workfrontの右上隅にある「**通知**」アイコン ![ 通知アイコン ](assets/bell-icon.png) をクリックします。
 
-1. **Experience Cloud** パネルの右上隅にある **設定** アイコン ![&#x200B; 設定アイコン &#x200B;](assets/settings-icon.png) をクリックします。
+1. **Experience Cloud** パネルの右上隅にある **設定** アイコン ![ 設定アイコン ](assets/settings-icon.png) をクリックします。
 
-1. 「**通知**」セクションで、![Workfront](assets/arrow-icon.png) タイル上の矢印アイコン **2&rbrace;Workfrontタイル矢印をクリックします。**
+1. 「**通知**」セクションで、![Workfront](assets/arrow-icon.png) タイル上の矢印アイコン **2}Workfrontタイル矢印をクリックします。**
 
 1. 「**次のカテゴリについて通知**」セクションで、**メンション** と **リクエスト** の両方で受け取る通知のタイプを選択します。
    * **メンション**：コメントでタグが付けられると通知を受け取ります。
@@ -82,7 +82,7 @@ Workfrontは、Adobeのデジタルエクスペリエンス製品スイートの
 
 1. （オプション）特定のタイプの通知の受信を停止するには、現在選択されている各タイプのボックスの選択を解除します。 変更内容が自動的に保存されます。
 
-   ![&#x200B; 通知タイプの選択 &#x200B;](assets/select-notification-types.png)
+   ![ 通知タイプの選択 ](assets/select-notification-types.png)
 
 ## よくある質問
 
