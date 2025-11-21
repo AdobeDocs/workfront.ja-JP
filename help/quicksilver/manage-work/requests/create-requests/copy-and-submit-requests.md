@@ -6,14 +6,17 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 97%
+source-wordcount: '1588'
+ht-degree: 88%
 
 ---
 
 # リクエストのコピーと送信
+
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 同様のリクエストを頻繁に送信する場合は、既存の送信済みリクエストをコピーできます。この場合、既存のリクエストをコピーし、最小限の変更を加えて、新しいリクエストとして再送信できます。
 
@@ -91,7 +94,7 @@ ht-degree: 97%
   >
   >コピーされたリクエストが解決オブジェクトにリンクされていない。
 
-## リクエストのコピーと送信
+## 従来のリクエストエクスペリエンスでのリクエストのコピーと送信
 
 {{step1-to-requests}}
 
@@ -220,3 +223,44 @@ ht-degree: 97%
 1. 「**送信**」をクリックします。
 
    コピーされたリクエストは、指定したリクエストキューで新しいリクエストとして送信されます。
+
+<div class="preview">
+
+## 新しいリクエストエクスペリエンスでリクエストをコピーして送信する
+
+リクエストは、Workfrontの「リクエスト」領域、またはホームの「マイリクエスト」ウィジェットからコピーして送信できます。
+
+1. 「リクエスト」リストにアクセスするには、Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックします。または（利用可能な場合）左上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、「**[!UICONTROL リクエスト]**」をクリックします。
+
+1. ホームのリクエスト ウィジェットにアクセスするには：
+
+   1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+   1. 自分のリクエスト ウィジェットを見つけます。
+
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+
+1. リクエスト リストまたはマイリクエストウィジェットで、コピーするリクエストにポインタを合わせます。
+
+   「。..」メニューが表示されます。
+   ![](assets/more-menu.png)
+
+1. 要求名の右側にある **詳細** メニューをクリックしてから、「**コピー**」をクリックします。
+
+   または
+
+   選択したリクエストを右クリックし、「**コピー**」をクリックします。
+
+   >[!TIP]
+   >
+   >イシューを作成するアクセス権がない場合は、管理者によってリクエストの作成が制限されたという警告が表示されます。
+
+1. （オプション）コピーしたリクエストの情報を更新します。使用可能なフィールドは、リクエストに使用された「リクエストキュー」または「リクエストフォーム」によって異なります。
+
+   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+
+1. 「**送信**」をクリックします。
+
+   コピーしたリクエストは、新しいリクエストとして送信されます。
+
+</div>
+
