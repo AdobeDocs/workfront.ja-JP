@@ -64,7 +64,7 @@ ht-degree: 72%
 
 ドラフトからリクエストを作成する手順は、新しいリクエスト用エクスペリエンスと従来のエクスペリエンスで異なります。
 
-* <span class="preview">[ 新しいリクエストエクスペリエンスでドラフトからのリクエストを作成する ](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* <span class="preview">[&#x200B; 新しいリクエストエクスペリエンスでドラフトからのリクエストを作成する &#x200B;](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
 * [従来のリクエストエクスペリエンスでドラフトからのリクエストを作成する](#create-requests-from-drafts-in-the-legacy-requesting-experience)
 
 <div class="preview">
@@ -92,7 +92,7 @@ ht-degree: 72%
 
    誤ってドラフトを破棄した場合は、画面の下部にあるメッセージの **元に戻す** を直ちにクリックできます。 このオプションは数秒間のみ使用できます。
 
-   ドラフトの削除について詳しくは、「[ 送信されたリクエストまたはリクエストドラフトの削除 ](../../../manage-work/requests/create-requests/delete-request-draft.md)」を参照してください。
+   ドラフトの削除について詳しくは、「[&#x200B; 送信されたリクエストまたはリクエストドラフトの削除 &#x200B;](../../../manage-work/requests/create-requests/delete-request-draft.md)」を参照してください。
 
 1. （任意）ドラフトを送信せずに変更を保存するには、新しいリクエスト ページを離れます。 変更内容は自動的に保存されます。
 
@@ -150,5 +150,5 @@ ht-degree: 72%
    >[!NOTE]
    >
    >新しいリクエストエクスペリエンスでは、ドラフトは送信されたリクエストと同じリストにあります。
-   >新しいエクスペリエンスでのリクエストの作成について詳しくは、「リクエストの作成と送信」の [Workfront web アプリでリクエストを作成し ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) ドラフトを生成する」を参照してください。
+   >新しいエクスペリエンスでのリクエストの作成について詳しくは、「リクエストの作成と送信」の [Workfront web アプリでリクエストを作成し &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) ドラフトを生成する」を参照してください。
 
