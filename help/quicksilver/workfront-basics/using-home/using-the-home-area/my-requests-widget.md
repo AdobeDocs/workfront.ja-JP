@@ -68,7 +68,7 @@ ht-degree: 16%
 
 リクエストは、マイリクエスト ウィジェットから直接作成できます。
 
-手順については、「ホーム領域から作業アイテムとプロジェクトを作成する [ の ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) 要求を作成する」を参照してください。
+手順については、「ホーム領域から作業アイテムとプロジェクトを作成する [&#x200B; の &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) 要求を作成する」を参照してください。
 
 <div class="preview">
 
@@ -76,7 +76,7 @@ ht-degree: 16%
 
 自分のリクエスト ウィジェットでリクエストをコピーし、編集して、新しいリクエストとして送信できます。
 
-手順については、「リクエストのコピーと送信 [ の記事の「新しいリクエストエクスペリエンスでのリクエストのコピーと送信 ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) を参照してください。
+手順については、「リクエストのコピーと送信 [&#x200B; の記事の「新しいリクエストエクスペリエンスでのリクエストのコピーと送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) を参照してください。
 
 </div>
 
@@ -86,7 +86,7 @@ ht-degree: 16%
 
 マイリクエスト ウィジェットでフィルターを設定するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
 1. マイリクエスト ウィジェットで、「**フィルター**」をクリックします。
 1. 一番左のフィールドで、フィルタリング対象を選択します。 利用可能なオプションは次のとおりです。
@@ -128,10 +128,10 @@ ht-degree: 16%
 
 マイリクエスト ウィジェットの列を調整するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
 1. 自分のリクエスト ウィジェットで、「**列**」をクリックします。
-1. （オプション）列を並べ替えるには、移動する列のドラッグハンドル ![ ドラッグハンドル ](assets/drag-handle.png) をクリックして、目的の場所までドラッグします。 リストの上部にある列は、マイリクエスト ウィジェットで一番左の列として表示されます。
+1. （オプション）列を並べ替えるには、移動する列のドラッグハンドル ![&#x200B; ドラッグハンドル &#x200B;](assets/drag-handle.png) をクリックして、目的の場所までドラッグします。 リストの上部にある列は、マイリクエスト ウィジェットで一番左の列として表示されます。
 1. （オプション）切り替えスイッチを使用して、自分のリクエスト ウィジェットに列を表示するかどうかを制御します。
 
 列環境設定は自動的に保存されます。
@@ -140,7 +140,7 @@ ht-degree: 16%
 
 マイリクエスト ウィジェットで特定のリクエストを検索するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
 1. マイリクエスト ウィジェットの右上付近にある検索バーに、検索する用語を入力します。
 
