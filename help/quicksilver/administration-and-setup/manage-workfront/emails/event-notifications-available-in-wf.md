@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: f3016e77f086d221dc11398ec06cc7435ad82278
 workflow-type: tm+mt
-source-wordcount: '5201'
+source-wordcount: '5237'
 ht-degree: 97%
 
 ---
@@ -599,6 +599,13 @@ ht-degree: 97%
    <td> <p>プロジェクトステータスの変更</p> </td> 
    <td> <p>プロジェクトチームのメンバー</p> </td> 
    <td> <p>自分が参加しているプロジェクトのステータスが変更した。</p> <p>プロジェクトのステータスが変更されると、プロジェクトチームのユーザーはメール通知を受け取ります。 </p> </td> 
+   <td> <p>非アクティブ</p> </td> 
+  </tr> 
+     <tr> 
+   <td> <p>プロジェクト</p> </td> 
+   <td> <p>現在のプロジェクトステータス</p> </td> 
+   <td> <p>割り当てられたチームのメンバー</p> </td> 
+   <td> <p>自分のチームが参加するプロジェクトがアクティブになった。</p> <p>割り当てられたWorkfront チームのメンバーは、割り当てられたプロジェクトがアクティブになるとメール通知を受け取ります。</p> </td> 
    <td> <p>非アクティブ</p> </td> 
   </tr> 
   <tr> 
