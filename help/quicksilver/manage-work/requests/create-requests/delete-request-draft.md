@@ -76,14 +76,14 @@ ht-degree: 44%
 
 新しいリクエストエクスペリエンスでリクエストまたはドラフトを削除するには：
 
-1. 「リクエスト」リストにアクセスするには、Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックします。または（利用可能な場合）左上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、「**[!UICONTROL リクエスト]**」をクリックします。
+1. 「リクエスト」リストにアクセスするには、Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックします。または（利用可能な場合）左上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、「**[!UICONTROL リクエスト]**」をクリックします。
 
 1. ホームのリクエスト ウィジェットにアクセスするには：
 
-   1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+   1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
 1. リクエストリストまたはマイリクエストウィジェットで、削除するリクエスト <!--or draft --> にポインタを合わせます。
 
