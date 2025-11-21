@@ -6,14 +6,16 @@ description: 新しいリクエストを入力する際に Workfront が提案�
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 86%
+source-wordcount: '840'
+ht-degree: 72%
 
 ---
 
 # ドラフトからリクエストを作成
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 新しいリクエストを入力する際に Workfront が提案する利用可能なドラフトを使用する以外に、「ドラフト」セクションからドラフトリクエストにアクセスし、そこから送信を完了することもできます。
 
@@ -52,13 +54,55 @@ ht-degree: 86%
 
 ## ドラフトからリクエストを作成するための前提条件
 
-ドラフトからリクエストを作成する前に、以下の操作を行う必要があります。
+ドラフトからリクエストを作成するには、次の手順を実行する必要があります。
 
 * リクエストの作成を開始します。これにより、リクエストがドラフトとして「ドラフト」セクションに自動的に保存されます。
 
   リクエストの作成について詳しくは、[Adobe Workfront リクエストの作成および送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
 ## ドラフトからリクエストを作成
+
+ドラフトからリクエストを作成する手順は、新しいリクエスト用エクスペリエンスと従来のエクスペリエンスで異なります。
+
+* <span class="preview">[ 新しいリクエストエクスペリエンスでドラフトからのリクエストを作成する ](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [従来のリクエストエクスペリエンスでドラフトからのリクエストを作成する](#create-requests-from-drafts-in-the-legacy-requesting-experience)
+
+<div class="preview">
+
+### 新しいリクエストエクスペリエンスでドラフトからのリクエストを作成する
+
+
+
+<!--
+   
+1. Open the draft.
+
+   Drafts can be found in the following locations:
+
+   * In the requests list in the Requests area
+   * In the requests list in the My Requests widget in Home
+   * In the New request dialog (includes only drafts of requests created with the selected form)
+   
+-->
+1. ドラフトを開きます。
+
+   ドラフトは、新しいリクエストダイアログで見つけることができます（選択したフォームで作成されたリクエストのドラフトのみを含みます）。
+1. [Adobe Workfront リクエストの作成および送信](../../../manage-work/requests/create-requests/create-submit-requests.md)の説明に従って、リクエストの情報を更新します。
+1. （オプションおよび条件付き）リクエストの入力中の任意の時点でドラフトを削除したい場合は、「**ドラフトを破棄**」をクリックします。これにより、ドラフトが削除されます。
+
+   誤ってドラフトを破棄した場合は、画面の下部にあるメッセージの **元に戻す** を直ちにクリックできます。 このオプションは数秒間のみ使用できます。
+
+   ドラフトの削除について詳しくは、「[ 送信されたリクエストまたはリクエストドラフトの削除 ](../../../manage-work/requests/create-requests/delete-request-draft.md)」を参照してください。
+
+1. （任意）ドラフトを送信せずに変更を保存するには、新しいリクエスト ページを離れます。 変更内容は自動的に保存されます。
+
+1. リクエストの情報を入力したら、「**送信**」をクリックします。
+
+   リクエストを送信すると、ドラフトは削除され、復元できません。
+
+</div>
+
+### 従来のリクエストエクスペリエンスでドラフトからのリクエストを作成する
 
 {{step1-to-requests}}
 
@@ -106,5 +150,5 @@ ht-degree: 86%
    >[!NOTE]
    >
    >新しいリクエストエクスペリエンスでは、ドラフトは送信されたリクエストと同じリストにあります。
-   >新しいエクスペリエンスでのリクエストの作成について詳しくは、「リクエストの作成と送信」の [Workfront web アプリでリクエストを作成し &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) ドラフトを生成する」を参照してください。
+   >新しいエクスペリエンスでのリクエストの作成について詳しくは、「リクエストの作成と送信」の [Workfront web アプリでリクエストを作成し ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) ドラフトを生成する」を参照してください。
 
