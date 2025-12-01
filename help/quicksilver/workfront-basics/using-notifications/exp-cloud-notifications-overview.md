@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 49706e7fd44571742ccf602b7418bb429fddc7f8
+source-git-commit: 32fc05b24c762fafcb50875fa014c5fe76d584d1
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Experience Cloud通知の概要
 
-Adobe Workfrontでは、すべてのデジタルエクスペリエンス（DX）製品を、Experience Cloud通知と呼ばれる一貫性のある単一の通知システムに統合しています。 2026 年 2 月頃より、従来のWorkfront通知サービスは、Adobeの一元化された通知システムへの移行を自動的に開始します。
+Adobe Workfrontでは、すべてのデジタルエクスペリエンス（DX）製品を、Experience Cloud通知と呼ばれる一貫性のある単一の通知システムに統合しています。 2026 年 2 月頃より、従来のWorkfront通知サービスがAdobeの一元化された通知システムに移行され、発生前にお知らせします。
 
 この移行の後は、Adobe Workfrontや他のAdobe DX アプリケーション全体のすべての通知に 1 か所でアクセスできるので、情報を常に把握し、好みを管理する方法がシンプルになります。
 
@@ -48,7 +48,7 @@ Workfrontは、Adobeのデジタルエクスペリエンス製品スイートの
 
 ## Experience Cloudで新規通知を表示する
 
-1. Workfrontの右上隅にある「**通知**」アイコン ![&#x200B; 通知アイコン &#x200B;](assets/bell-icon.png) をクリックします。
+1. Workfrontの右上隅にある「**通知**」アイコン ![ 通知アイコン ](assets/bell-icon.png) をクリックします。
 
 1. 開いた **Experience Cloud通知** パネルで、「**通知**」を選択します。 通知のリストが表示され、最新の通知がリストの先頭に表示されます。
 
@@ -66,11 +66,11 @@ Workfrontは、Adobeのデジタルエクスペリエンス製品スイートの
 >
 >個人通知設定にアクセスできない場合は、管理者にお問い合わせください。
 
-1. Workfrontの右上隅にある「**通知**」アイコン ![&#x200B; 通知アイコン &#x200B;](assets/bell-icon.png) をクリックします。
+1. Workfrontの右上隅にある「**通知**」アイコン ![ 通知アイコン ](assets/bell-icon.png) をクリックします。
 
-1. **Experience Cloud** パネルの右上隅にある **設定** アイコン ![&#x200B; 設定アイコン &#x200B;](assets/settings-icon.png) をクリックします。
+1. **Experience Cloud** パネルの右上隅にある **設定** アイコン ![ 設定アイコン ](assets/settings-icon.png) をクリックします。
 
-1. 「**通知**」セクションで、![Workfront](assets/arrow-icon.png) タイル上の矢印アイコン **2&rbrace;Workfrontタイル矢印をクリックします。**
+1. 「**通知**」セクションで、![Workfront](assets/arrow-icon.png) タイル上の矢印アイコン **2}Workfrontタイル矢印をクリックします。**
 
 1. 「**次のカテゴリについて通知**」セクションで、**メンション** と **リクエスト** の両方で受け取る通知のタイプを選択します。
    * **メンション**：コメントでタグが付けられると通知を受け取ります。
