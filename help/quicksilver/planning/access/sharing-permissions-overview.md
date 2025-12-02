@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1165'
 ht-degree: 22%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 22%
 
 Adobe Workfront Planning のワークスペース、レコード・タイプまたはビューに対する権限を共有または削除できます。
 
-また、Planning 要求フォームを共有することもできます。 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+また、Planning 要求フォームを共有することもできます。 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ここでは、Workfront Planning の作業領域、レコード・タイプ、レコード、フィールドおよびビューの権限レベルについて説明します。
 
@@ -46,7 +46,7 @@ Workfront Planning では、次のオブジェクトを手動で共有できま�
    * ワークスペースを共有すると、そのワークスペースに関連付けられているすべてのレコードタイプ、レコードおよびフィールドも共有されます。
    * ワークスペースを共有する場合、ビューは共有されません。 ビューは個別に共有されます。
 
-  詳しくは、「ワークスペースの共有 [&#x200B; を参照してください &#x200B;](/help/quicksilver/planning/access/share-workspaces.md)
+  詳しくは、「ワークスペースの共有 [ を参照してください ](/help/quicksilver/planning/access/share-workspaces.md)
 
 * レコードタイプ
 
@@ -54,7 +54,7 @@ Workfront Planning では、次のオブジェクトを手動で共有できま�
    * ワークスペースに付与された権限のレベルは、レコードタイプの継承権限として表示されます。
    * ユーザーがワークスペースで持っている権限レベルよりも高い権限レベルを持つレコードタイプを共有することはできません。
 
-  詳しくは、[&#x200B; レコードタイプの共有 &#x200B;](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
+  詳しくは、[ レコードタイプの共有 ](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
 
 
 * ビュー
@@ -66,21 +66,6 @@ Workfront Planning では、次のオブジェクトを手動で共有できま�
 
   詳しくは、[ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
 
-内部的には、次のWorkfront エンティティでワークスペース、ビュー、またはレコードタイプを共有できます。
-
-* ユーザー
-* グループ
-* チーム
-* 会社
-* 担当業務
-
-ワークスペースとレコードの種類を他のユーザーと共有すると、レコードの種類のアクセス許可レベルが、それらに関連付けられたレコードとフィールドに自動的に継承されます。
-
->[!IMPORTANT]
->
->組織のWorkfrontのインスタンスがAdobe Unified Experience にオンボードされている場合、計画オブジェクトを共有するユーザーはAdobe Admin Consoleに追加する必要があります。 Adobe Admin Consoleに追加されていないWorkfront ユーザーと Planning オブジェクトを共有することはできません。
-
-
 ## Adobe Workfront Planning でのオブジェクトの共有に関する考慮事項
 
 * Adobe Workfrontのライセンスタイプは、Workfront Planning の権限と組み合わせて機能し、ワークスペースとそのオブジェクトの表示、投稿、管理に対するアクセス権を付与します。
@@ -88,14 +73,30 @@ Workfront Planning では、次のオブジェクトを手動で共有できま�
   ライセンスタイプが Workfront Planning の権限レベルに与える影響については、[Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)を参照してください。
 * システム管理者は、未作成のワークスペースを含め、システム内のすべてのワークスペースを管理できます。
 * システム管理者を含む他のユーザーは、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。システム管理者には、ビューを管理する権限のみを付与できます。
-* ワークスペースまたはビューへのリンクを他のユーザーと共有できます。
 
-  次のシナリオが存在します。
-   * ワークスペースへのリンクを受け取ったユーザーは、アクティブユーザーであり、ワークスペースにアクセスするためにWorkfrontにログインする必要があります。
-   * ビューへのリンクを受け取ったユーザーは、次の方法でビューにアクセスできます。
+* ワークスペースとレコードの種類を他のユーザーと共有すると、レコードの種類のアクセス許可レベルが、それらに関連付けられたレコードとフィールドに自動的に継承されます。
 
-      * ビューへのリンクが内部的に共有されている場合、アクティブユーザーで、Workfrontにログインする必要があります。
-      * Workfrontの外部ユーザーであり、Workfrontにログインすることなく、公開共有リンクからビューにアクセスできる。
+  >[!IMPORTANT]
+  >
+  >組織のWorkfrontのインスタンスがAdobe Unified Experience にオンボードされている場合、計画オブジェクトを共有するユーザーはAdobe Admin Consoleに追加する必要があります。 Adobe Admin Consoleに追加されていないWorkfront ユーザーと Planning オブジェクトを共有することはできません。
+
+* Planning オブジェクトは、次の方法で共有できます。
+
+   * 内部的には、次のWorkfront エンティティでワークスペース、ビュー、またはレコードタイプを共有できます。
+
+      * ユーザー
+      * グループ
+      * チーム
+      * 会社
+      * 担当業務
+
+     Planning オブジェクトは、オブジェクトごとに最大 100 個のエンティティで共有できます。
+
+   * 内部的には、ワークスペースまたはビューへのリンクを他の Planning ユーザーと共有します。 次のシナリオが存在します。
+
+      * ワークスペースへのリンクを受け取るユーザーは、アクティブユーザーで、Workfrontにログインしてワークスペースにアクセスする必要があります。
+      * ビューに対する内部共有リンクを受け取るユーザーは、アクティブユーザーであり、ビューにアクセスするためにWorkfrontにログインする必要があります。
+   * 外部的には、Workfront アカウントを持たない外部ユーザーと、ビューへの公開共有リンクを共有する。
 
 ## Adobe Workfront Planning オブジェクトに対する権限の共有
 
@@ -169,7 +170,7 @@ The following are the levels of permissions for record types:
 
 >[!NOTE]
 >
->*レコードタイプから権限を削除しても、ワークスペースから権限を削除しない限り、ユーザーはワークスペースとすべてのレコードタイプに対する表示権限を保持します。
+>レコードタイプから権限を削除しても、ワークスペースから権限を削除しない限り、ユーザーはワークスペースとすべてのレコードタイプに対する表示権限を保持します。
 
 ### レコードに対する権限
 

@@ -6,10 +6,10 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -64,13 +64,13 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
    <td> 
 <ul> 
 <li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
-<p>または</p>
+または
 <li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
 
 <!--
 <p><span class="preview">To delete global record types:</span</p>
 <ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-<p>Or</p>
+Or
 <li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>
 -->
 
@@ -78,7 +78,7 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -169,7 +169,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. 削除するフィールドを列ヘッダーで見つけてその上にポインタを合わせ、フィールド名の後の下向き矢印をクリックします。
 
-   ![&#x200B; テーブルヘッダーのフィールド名の後の矢印メニューがハイライト表示されている &#x200B;](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![ テーブルヘッダーのフィールド名の後の矢印メニューがハイライト表示されている ](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. 「**削除**」をクリックします。<!-- check this: they might replace it with **Delete field**-->
 

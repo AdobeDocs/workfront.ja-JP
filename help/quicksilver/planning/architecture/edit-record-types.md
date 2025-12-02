@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 27%
 <p>接続可能なレコード・タイプを構成する手順は、次のとおりです。 </p>
 <ul> 
 <li><p>任意のWorkfront パッケージと任意の Planning パッケージ</p></li>
-<p>または</p>
+または
 <li><p>任意のワークフローと Planning PrimeまたはUltimate パッケージ</p></li></ul>
 
 <div class="preview">
@@ -54,7 +54,7 @@ ht-degree: 27%
 
 <ul> 
 <li><p>任意のWorkfront パッケージと Planning Plus パッケージ</p></li>
-<p>または</p>
+または
 <li><p>任意のワークフローと Planning PrimeまたはUltimate パッケージ</p></li></ul>
 <p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p>
 
@@ -62,7 +62,7 @@ ht-degree: 27%
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ ht-degree: 27%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -145,16 +145,16 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    ワークスペースページが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
-   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、**編集** をクリックします
+   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックします
      <span class="preview"> または **設定**</span>
 または
-   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**編集**<span class="preview"> または **設定**</span> をクリックします。
+   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**編集**<span class="preview"> または **設定**</span> をクリックします。
 
-   <span class="preview">![&#x200B; 設定付きレコードタイプカードのその他のメニューオプション &#x200B;](assets/more-menu-options-from-record-type-card-with-settings-link.png)</span>
+   <span class="preview">![ 設定付きレコードタイプカードのその他のメニューオプション ](assets/more-menu-options-from-record-type-card-with-settings-link.png)</span>
 
 1. **レコードタイプを編集** ボックスで、「**外観** タブがデフォルトで開きます。<!--update screen shot below at production-->
 
-   ![&#x200B; レコードタイプを編集ボックスの「外観」タブ &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![ レコードタイプを編集ボックスの「外観」タブ ](assets/edit-record-type-box-appearance-tab.png)
 
    「**外観**」タブで次の情報を更新します。
 
@@ -166,18 +166,18 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. （オプションおよび条件付き）システム管理者の場合は、**詳細設定**<span class="preview"> または **クロスワークスペース設定**</span> タブをクリックして、レコードタイプのクロスワークスペース機能に関する情報を更新します。
 
-   詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。<!--update screen shot at production - Jan 2026-->
+   詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。<!--update screen shot at production - Jan 2026-->
 
-   ![&#x200B; 「詳細設定」タブの「レコードタイプを編集」ボックス &#x200B;](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![ 「詳細設定」タブの「レコードタイプを編集」ボックス ](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. 「**保存**」をクリックします。
 
-   このレコードを他のワークスペースから接続することを選択した場合、レコード カードに **接続可能なレコード** アイコン ![&#x200B; 他のスペースから接続アイコン &#x200B;](assets/connect-from-other-workspaces-icon.png) が表示されます。
+   このレコードを他のワークスペースから接続することを選択した場合、レコード カードに **接続可能なレコード** アイコン ![ 他のスペースから接続アイコン ](assets/connect-from-other-workspaces-icon.png) が表示されます。
 
-   <span class="preview"> このレコードを他のワークスペースに追加することを許可するように選択した場合、レコードカードに **グローバルレコード** アイコン ![&#x200B; グローバルレコードタイプアイコン &#x200B;](assets/global-icon.png) が表示されます。</span>
+   <span class="preview"> このレコードを他のワークスペースに追加することを許可するように選択した場合、レコードカードに **グローバルレコード** アイコン ![ グローバルレコードタイプアイコン ](assets/global-icon.png) が表示されます。</span>
 
 1. （オプション）ワークスペース領域からレコードタイプカードをクリックしてレコードタイプのページを開き、ヘッダーでレコードタイプの名前を変更します。
 
 1. （オプション）別のレコードの種類を編集するには、レコードの種類のページで、レコードの種類名の右側にある下向き矢印を展開し、レコードの種類を検索してから、一覧に表示されるときにその種類を選択します。
 
-   ![&#x200B; 検索ボックス付きレコードタイプページのレコードタイプドロップダウン &#x200B;](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![ 検索ボックス付きレコードタイプページのレコードタイプドロップダウン ](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

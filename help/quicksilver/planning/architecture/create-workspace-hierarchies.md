@@ -4,10 +4,10 @@ description: ワークスペース内のレコードタイプ間に複数のワ�
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -52,13 +52,13 @@ hidefromtoc: yes
    <td> 
 <ul> 
 <li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
-<p>または</p>
+または
 <li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
 <p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
@@ -69,6 +69,6 @@ hidefromtoc: yes
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
