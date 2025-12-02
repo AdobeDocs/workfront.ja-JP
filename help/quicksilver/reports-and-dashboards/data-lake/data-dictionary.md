@@ -7,9 +7,9 @@ description: ここでは、Workfront Data Connect のデータの構造と内�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
+source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8878'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
 >[!IMPORTANT]
 >
 >指定されたエンティティ関係図（ERD）は、アプリケーション内の関係数が多いので、完全な ERD が読み取れなくなるので、意図的に不完全です。<br>
->&#x200B;>次の図は、以下の [&#x200B; 用語テーブル &#x200B;](#terminology-table) セクションのプロジェクト テーブルに記載されている関係を使用して、プロジェクト データ ビューのデータを隣接するオブジェクトに結合する方法の例を示しています。 このパターンがプロジェクトオブジェクトの関係について理解されれば、完全な ERD は必要ないと想定されます
+>次の図は、以下の [ 用語テーブル ](#terminology-table) セクションのプロジェクト テーブルに記載されている関係を使用して、プロジェクト データ ビューのデータを隣接するオブジェクトに結合する方法の例を示しています。 このパターンがプロジェクトオブジェクトの関係について理解されれば、完全な ERD は必要ないと想定されます
 
 ## 日付タイプ
 
@@ -67,7 +67,7 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
 >[!NOTE]
 >
 >Workfront アプリケーションのデータニーズの変化に対応するために、事前の通知なしに新しいフィールドがオブジェクトビューに追加される場合があります。 ダウンストリームのデータ受信者が、追加された列を処理する準備をしていない場合は、「SELECT」クエリを使用しないように注意し <br> す。
->&#x200B;>列の名前変更や削除が必要な場合は、事前に変更を通知します。
+>列の名前変更や削除が必要な場合は、事前に変更を通知します。
 
 ### アクセスレベル
 
@@ -1660,17 +1660,21 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
         </tr>
     </tbody>
 </table>
-<div>* レコードのタイプは、「enumClass」プロパティを使用して識別されます。 想定されるタイプは次のとおりです。<br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>PRIORITY_PROJ</li>
-<li>PRIORITY_TASK</li>
-<li>SEVERITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJ</li>
-<li>STATUS_TASK</li></ul></div>
+
+>[!NOTE]
+>
+>レコードのタイプは、`enumClass` プロパティを使用して識別されます。 想定されるタイプは次のとおりです。<br>
+><ul><li>CONDITION_OPTASK</li>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
+
 
 ### ドキュメント
 
@@ -6601,6 +6605,11 @@ Self</td>
         </tr>
     </tbody>
 </table>
+
+>[!NOTE]
+>
+>チームオブジェクトテーブルには、PROJECT、TEMPLATE、ADHOC の 3 つのチームタイプが保存されています。<br>
+>これらの各チームタイプは、データ接続データレイクビューで一緒に表されます。 返されるチームの特定のタイプを分離するには、`teamtype` 列でフィルタリングする必要があります。 例えば、アプリケーションのチーム エリアで設定されている組織構造の一部である従来のチームのみを必要とする場合は、<code>select * from teams_current where teamtype = &#39;ADHOC&#39;;</code>
 
 ### チームメンバー
 
