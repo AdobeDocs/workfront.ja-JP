@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 92%
+source-wordcount: '1741'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 92%
 >
 >  また、プレビューサンドボックスには必要ないカスタム更新サンドボックスを取得するための追加費用も発生します。
 >
->  プレビューサンドボックスについて詳しくは、[&#x200B; [!DNL Adobe Workfront]  プレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
+>  プレビューサンドボックスについて詳しくは、[ [!DNL Adobe Workfront]  プレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
 
 ## アクセス要件
 
@@ -47,7 +47,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td role="rowheader"> Workfront ライセンス</td> 
-   <td> <p>標準</p><p>プラン</p>  </td> 
+   <td> <p>Standard</p><p>プラン</p>  </td> 
   </tr> 
   </tr>
    <tr>
@@ -88,11 +88,11 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 >[!NOTE]
 >
->アカウントがクラスター 4（EMEA クラスター）にある場合は、本番環境からカスタム更新サンドボックスにアクセスできません。クラスター 4 にアカウントがある場合にカスタム更新サンドボックスにアクセスする方法について詳しくは、[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)を参照してください。
+>アカウントがクラスター 4（EMEA クラスター）にある場合は、本番環境からカスタム更新サンドボックスにアクセスできません。クラスター 4 にアカウントがある場合にカスタム更新サンドボックスにアクセスする方法について詳しくは、[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)を参照してください。
 
 カスタム更新サンドボックスへのアクセス方法：
 
-1. **[!UICONTROL の右上隅にある]** メインメニュー ![&#x200B; アイコン &#x200B;](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront] をクリックし、**[!UICONTROL 設定]**![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
+1. **[!UICONTROL の右上隅にある]** メインメニュー ![ アイコン ](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront] をクリックし、**[!UICONTROL 設定]**![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
 1. **[!UICONTROL システム]**／**[!UICONTROL 環境設定]**&#x200B;をクリックします。
 
@@ -209,7 +209,7 @@ URL を使用してカスタム更新サンドボックスにアクセスする�
 
 Workfront管理者は、Workfrontがプロジェクトのタイムラインを自動再計算するタイミングを設定できます。 Workfrontは、毎晩、プロジェクトのスコープが変更されたとき、またはその両方で、プロジェクトのタイムラインを再計算できます。
 
-詳しくは、[&#x200B; プロジェクトのタイムラインの再計算の設定 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) を参照してください。
+詳しくは、[ プロジェクトのタイムラインの再計算の設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) を参照してください。
 
 カスタム更新サンドボックス環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的には再計算されません。 カスタム更新サンドボックス環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 
@@ -223,3 +223,8 @@ Workfront管理者は、Workfrontがプロジェクトのタイムラインを�
 * [!DNL Workfront] カスタム更新サンドボックス環境は、常に使用可能であることを目的としています。通常の営業時間中の Workfront カスタム更新サンドボックス環境の停止は、実稼働環境の問題が存在する場合、その問題の解決に続いて最優先事項となります。週末（土曜日と日曜日）に Workfront カスタム更新サンドボックス環境が停止した場合は、その環境が月曜日の営業時間に実行されるように対処されます。
 
 * プルーフは、カスタム更新サンドボックス環境では使用できません。
+
+* 次の通知は、カスタム更新サンドボックス環境では使用できません。
+
+   * リマインダー通知
+   * 遅延または早期のリマインダー通知の自動送信
