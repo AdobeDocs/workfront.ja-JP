@@ -49,7 +49,7 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
 >[!IMPORTANT]
 >
 >指定されたエンティティ関係図（ERD）は、アプリケーション内の関係数が多いので、完全な ERD が読み取れなくなるので、意図的に不完全です。<br>
->次の図は、以下の [ 用語テーブル ](#terminology-table) セクションのプロジェクト テーブルに記載されている関係を使用して、プロジェクト データ ビューのデータを隣接するオブジェクトに結合する方法の例を示しています。 このパターンがプロジェクトオブジェクトの関係について理解されれば、完全な ERD は必要ないと想定されます
+>次の図は、以下の [&#x200B; 用語テーブル &#x200B;](#terminology-table) セクションのプロジェクト テーブルに記載されている関係を使用して、プロジェクト データ ビューのデータを隣接するオブジェクトに結合する方法の例を示しています。 このパターンがプロジェクトオブジェクトの関係について理解されれば、完全な ERD は必要ないと想定されます
 
 ## 日付タイプ
 
@@ -1665,15 +1665,15 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
 >
 >レコードのタイプは、`enumClass` プロパティを使用して識別されます。 想定されるタイプは次のとおりです。<br>
 ><ul><li>CONDITION_OPTASK</li>
-&gt;<li>CONDITION_PROJ</li>
-&gt;<li>CONDITION_TASK</li>
-&gt;<li>PRIORITY_OPTASK</li>
-&gt;<li>PRIORITY_PROJ</li>
-&gt;<li>PRIORITY_TASK</li>
-&gt;<li>SEVERITY_OPTASK</li>
-&gt;<li>STATUS_OPTASK</li>
-&gt;<li>STATUS_PROJ</li>
-&gt;<li>STATUS_TASK</li></ul>
+>&gt;<li>CONDITION_PROJ</li>
+>&gt;<li>CONDITION_TASK</li>
+>&gt;<li>PRIORITY_OPTASK</li>
+>&gt;<li>PRIORITY_PROJ</li>
+>&gt;<li>PRIORITY_TASK</li>
+>&gt;<li>SEVERITY_OPTASK</li>
+>&gt;<li>STATUS_OPTASK</li>
+>&gt;<li>STATUS_PROJ</li>
+>&gt;<li>STATUS_TASK</li></ul>
 
 
 ### ドキュメント
