@@ -28,7 +28,7 @@ ht-degree: 24%
 
 ただし、レコードタイプを削除すると、そのレコードタイプに関連付けられているすべての情報も削除されます。詳しくは、この記事で[レコードタイプを削除する際の考慮事項](#considerations-when-deleting-record-types)の節を参照してください。
 
-レコードタイプについて詳しくは、[ レコードタイプの概要 ](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
+レコードタイプについて詳しくは、[&#x200B; レコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -73,7 +73,7 @@ ht-degree: 24%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -154,7 +154,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * 他のワークスペースに追加されているグローバル レコード タイプは削除できません。
 
-  詳細については、この記事の「グローバル レコード タイプを削除する [ を参照し ](#delete-global-record-types) ください。
+  詳細については、この記事の「グローバル レコード タイプを削除する [&#x200B; を参照し &#x200B;](#delete-global-record-types) ください。
 
 </div>
 
@@ -172,9 +172,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 次のいずれかの操作を行います。
 
    * レコードタイプカードにポインタを合わせ、「**詳細**」メニューをクリックしてから **削除** をクリックします。
-   * 削除するレコードの種類のカードをクリックし、レコードの種類ページで、レコードの種類名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、[**削除**] をクリックします。
+   * 削除するレコードの種類のカードをクリックし、レコードの種類ページで、レコードの種類名の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックし、[**削除**] をクリックします。
 
-   ![ レコードタイプを完全に削除する確認 ](assets/permanently-delete-record-type-confirmation.png)
+   ![&#x200B; レコードタイプを完全に削除する確認 &#x200B;](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. 確認ボックスに **削除** と入力し、「**完全に削除**」をクリックします。 これは、大文字と小文字を区別しません。
@@ -199,12 +199,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. （条件付き）グローバルレコードタイプがセカンダリワークスペースに追加されているかどうかに応じて、次のいずれかの操作をおこないます。
 
-   * レコードの種類がセカンダリ ワークスペースに追加されなかった場合、レコードの種類のカードの **その他** メニュー ![ その他のメニュー ](assets/more-menu.png)、またはページ上のレコードの種類の名前の右側をクリックし、[**削除**] をクリックします。
+   * レコードの種類がセカンダリ ワークスペースに追加されなかった場合、レコードの種類のカードの **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png)、またはページ上のレコードの種類の名前の右側をクリックし、[**削除**] をクリックします。
    * レコードタイプが 1 つ以上の他のセカンダリワークスペースに追加された場合、最初にセカンダリワークスペースに移動し、そのスペースからグローバルレコードを削除します。
 
-     詳しくは、この記事の [ セカンダリワークスペースからグローバルレコードタイプを削除する ](#delete-a-global-record-type-from-a-secondary-workspace) を参照してください。
+     詳しくは、この記事の [&#x200B; セカンダリワークスペースからグローバルレコードタイプを削除する &#x200B;](#delete-a-global-record-type-from-a-secondary-workspace) を参照してください。
 
-1. （条件付き）この記事の「レコードタイプを削除 [ の節で説明しているように、レコードタイプの削除を続行 ](#delete-record-types-1) ます。
+1. （条件付き）この記事の「レコードタイプを削除 [&#x200B; の節で説明しているように、レコードタイプの削除を続行 &#x200B;](#delete-record-types-1) ます。
 
    次のことが発生します。
 
@@ -233,10 +233,10 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. セカンダリワークスペースのグローバルレコードタイプに移動します。
 
-1. （オプション）レコードタイプのカードまたはページ上のレコードタイプの名前の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックし、**削除** をクリックします。
+1. （オプション）レコードタイプのカードまたはページ上のレコードタイプの名前の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックし、**削除** をクリックします。
 1. （条件付き）表示されたフィールドに **削除** と入力し、「**完全に削除**」をクリックします。
 
-   ![ セカンダリ グローバル レコード タイプの削除の確認ボックス ](assets/delete-secondary-global-record-type.png)
+   ![&#x200B; セカンダリ グローバル レコード タイプの削除の確認ボックス &#x200B;](assets/delete-secondary-global-record-type.png)
 
    次のことが発生します。
 

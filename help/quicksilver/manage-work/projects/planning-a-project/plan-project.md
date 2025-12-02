@@ -37,7 +37,7 @@ ht-degree: 79%
 
 プロジェクトの作成について詳しくは、[プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md)の記事を参照してください。
 
-プロジェクト要求の作成について詳しくは、[ プロジェクトの要求 ](/help/quicksilver/manage-work/projects/create-projects/request-project.md) を参照してください。
+プロジェクト要求の作成について詳しくは、[&#x200B; プロジェクトの要求 &#x200B;](/help/quicksilver/manage-work/projects/create-projects/request-project.md) を参照してください。
 
 プロジェクトを計画する前に、次の質問について検討します。
 
@@ -100,7 +100,7 @@ Workfront インスタンス内に複数のスケジュールを作成し、す�
 
   はいの場合は、この情報を保存できるプロジェクトまたはタスク用のカスタムフォームを作成します。
 
-  カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 * プロジェクトの作業を続行する前に承認する必要がある承認チェックポイントはありますか。はいの場合は、プロジェクトの作成時に使用できるプロジェクトまたはタスクの承認プロセスを作成します。
 
@@ -111,7 +111,7 @@ Workfront インスタンス内に複数のスケジュールを作成し、す�
 プロジェクトの主な目標を決定し、プロジェクトが追求する価値があると判断した後、各目標のタイムラインを計算する必要があります。各目標は、プロジェクトのタスクの 1 つになることができます。
 
 これは、目標を優先し、それに応じて作業分割構造を計画するのに役立ちます。作業分割構造は、プロジェクトのタイムラインを定義します。\
-プロジェクトでのタスクの作成の詳細については、この記事の「[ タスクの定義 ](#define-tasks) を参照してください。
+プロジェクトでのタスクの作成の詳細については、この記事の「[&#x200B; タスクの定義 &#x200B;](#define-tasks) を参照してください。
 
 プロジェクトのタイムラインを構築する際は、次の点に注意してください。
 
