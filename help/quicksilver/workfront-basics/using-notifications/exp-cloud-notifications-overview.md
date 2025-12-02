@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 32fc05b24c762fafcb50875fa014c5fe76d584d1
+source-git-commit: 0c21f5a1df8bf1bc54d4ca73ba8d02808432e321
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 0%
 
 # Experience Cloud通知の概要
 
-Adobe Workfrontでは、すべてのデジタルエクスペリエンス（DX）製品を、Experience Cloud通知と呼ばれる一貫性のある単一の通知システムに統合しています。 2026 年 2 月頃より、従来のWorkfront通知サービスがAdobeの一元化された通知システムに移行され、発生前にお知らせします。
+Adobe Workfront通知は、Adobeの一元化された通知システム Experience Cloud通知に移行しています。 この通知システムは、すべてのデジタルエクスペリエンス製品で使用されています。
 
-この移行の後は、Adobe Workfrontや他のAdobe DX アプリケーション全体のすべての通知に 1 か所でアクセスできるので、情報を常に把握し、好みを管理する方法がシンプルになります。
+2026 年 2 月頃より、現在のWorkfront メールおよびアプリ内通知がExperience Cloud Notifications に移行されます。 この作業は段階的に完了していきます。 移行が開始される前に、Workfront チームから組織への通知が送信されます。
+
+この移行の後、Adobe Workfrontや他のAdobe DX アプリケーション全体のすべての通知に 1 か所でアクセスできるようになり、情報を常に把握し、好みを管理する方法がシンプルになります。
 
 ![お知らせ](assets/announcements-center.png)
 
@@ -48,7 +50,7 @@ Workfrontは、Adobeのデジタルエクスペリエンス製品スイートの
 
 ## Experience Cloudで新規通知を表示する
 
-1. Workfrontの右上隅にある「**通知**」アイコン ![&#x200B; 通知アイコン &#x200B;](assets/bell-icon.png) をクリックします。
+1. Workfrontの右上隅にある「**通知**」アイコン ![ 通知アイコン ](assets/bell-icon.png) をクリックします。
 
 1. 開いた **Experience Cloud通知** パネルで、「**通知**」を選択します。 通知のリストが表示され、最新の通知がリストの先頭に表示されます。
 
@@ -66,11 +68,11 @@ Workfrontは、Adobeのデジタルエクスペリエンス製品スイートの
 >
 >個人通知設定にアクセスできない場合は、管理者にお問い合わせください。
 
-1. Workfrontの右上隅にある「**通知**」アイコン ![&#x200B; 通知アイコン &#x200B;](assets/bell-icon.png) をクリックします。
+1. Workfrontの右上隅にある「**通知**」アイコン ![ 通知アイコン ](assets/bell-icon.png) をクリックします。
 
-1. **Experience Cloud** パネルの右上隅にある **設定** アイコン ![&#x200B; 設定アイコン &#x200B;](assets/settings-icon.png) をクリックします。
+1. **Experience Cloud** パネルの右上隅にある **設定** アイコン ![ 設定アイコン ](assets/settings-icon.png) をクリックします。
 
-1. 「**通知**」セクションで、![Workfront](assets/arrow-icon.png) タイル上の矢印アイコン **2&rbrace;Workfrontタイル矢印をクリックします。**
+1. 「**通知**」セクションで、![Workfront](assets/arrow-icon.png) タイル上の矢印アイコン **2}Workfrontタイル矢印をクリックします。**
 
 1. 「**次のカテゴリについて通知**」セクションで、**メンション** と **リクエスト** の両方で受け取る通知のタイプを選択します。
    * **メンション**：コメントでタグが付けられると通知を受け取ります。
