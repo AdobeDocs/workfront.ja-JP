@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bc222ec76ac94a44c33ee166036d84c164b1da01
+source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront向けにリリースされている限定提供（LA）機能の一覧については、[Adobe Workfront限定提供（LA）機能のリリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md) を参照してください。
+Adobe Workfront向けにリリースされている限定提供（LA）機能の一覧については、[Adobe Workfront限定提供（LA）機能のリリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md) を参照してください。
 
 ## 限定提供の機能のリリースノート
 
@@ -50,13 +50,19 @@ Adobe Workfront向けにリリースされている限定提供（LA）機能の
 
 タスク期間が 0 の場合、「詳細な割り当て」画面の予定時間数 KPI は編集できなくなりました。 以前は、予定時間数を編集できましたが、変更は保存されませんでした。
 
-<!--### Maintenance Updates week of November 30-December 6, 2025
+### 2025 年 11 月 30 日～12 月 6 日のメンテナンス更新週
+
+**有効日換算レートが使用されない場合、「換算レート日付」フィールドは非表示になります**
+
+**システムの日付有効為替レートを使用** チェックボックスがオフになっている場合、プロジェクトの詳細/財務エリアの **為替レートの日付** フィールドが非表示になりました。 以前は、プロジェクトを編集する際に、有効日付の為替レートが有効になっていない場合でも、プロジェクトの詳細に「日付」フィールドが表示されていました。
+
+<!--### Maintenance Updates week of December 7-13, 2025
 
 **Title**
 
 text
 
-### Maintenance Updates week of December 7-13, 2025
+### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
