@@ -1,18 +1,18 @@
 ---
-title: AI フォーム入力を使用して、プロンプトやドキュメントを使用してリクエストを入力します
+title: AI を活用したフォーム入力を使用して、プロンプトやドキュメントを使用してリクエストを入力します
 content-type: reference
 description: AI を使用すると、プロンプトを入力したりドキュメントを指定したりして、リクエストフィールドを自動入力できます。
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 7%
+source-wordcount: '1370'
+ht-degree: 8%
 
 ---
 
-# AI フォーム入力を使用して、プロンプトやドキュメントを使用してリクエストを入力します
+# AI を活用したフォーム入力を使用して、プロンプトやドキュメントを使用してリクエストを入力します
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ ht-degree: 7%
 >   * 月次リリース：2025 年 9 月 11 日（PT）
 >   * 四半期リリース：2025 年 10 月 16 日
 >
->* この機能を使用するには、Workfront AI アシスタントを使用するための要件を満たす必要があります。 詳しくは、[AI アシスタントの前提条件 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
+>* この機能を使用するには、Workfront AI アシスタントを使用するための要件を満たす必要があります。 詳しくは、[AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
 
 AI フォーム入力は、入力したプロンプトに基づいてリクエストフィールドに自動入力するのに役立ちます。 また、メールやアップロードされたドキュメントなど、テキストに基づくフィールドに入力することもできます。 リクエストを送信する前に、これらの提案を承認または却下できます。
 
@@ -71,10 +71,10 @@ AI フォーム入力を使用してプロンプトまたはドキュメント�
 * 組織には Select、Prime、UltimateのいずれかのWorkfront プランが必要です
 * Adobeは、ファイルにAdobe生成 AI 契約を署名済みにする必要があります
 
-  契約書への署名について詳しくは、「AI アシスタントの概要」の [AdobeGen AI 契約書への署名 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
+  契約書への署名について詳しくは、「AI アシスタントの概要」の [AdobeGen AI 契約書への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
 * 組織のシステム設定で、AI アシスタントを有効にする必要があります。 これは、Workfront管理者が管理します。
 
-  システム設定で AI アシスタントを有効にする方法については、[AI アシスタントを有効または無効にする &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+  システム設定で AI アシスタントを有効にする方法については、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
 ## テキストプロンプトから提案を取得する
 
@@ -90,13 +90,13 @@ AI フォーム入力は、メールなどのテキストに基づいてフィ�
 
 1. リクエストの作成を開始します。
 
-   手順については、[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+   手順については、[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
 
-1. テキストプロンプトをフォーム全体に適用するには、フォーム名の下にある AI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png) をクリックします。
+1. テキストプロンプトをフォーム全体に適用するには、フォーム名の下にある AI アイコン ![AI アイコン ](assets/request-prompt-icon.png) をクリックします。
 
    または
 
-   1 つのセクションにテキストプロンプトを適用するには、セクション名の横にある AI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png) をクリックします。
+   1 つのセクションにテキストプロンプトを適用するには、セクション名の横にある AI アイコン ![AI アイコン ](assets/request-prompt-icon.png) をクリックします。
 
 1. テキストをプロンプトボックスに貼り付けます。
 1. **フォームに入力** をクリックします。
@@ -104,7 +104,7 @@ AI フォーム入力は、メールなどのテキストに基づいてフィ�
    Workfrontによってフォームの候補が生成されます。
 1. フィールドの提案ごとに、そのフィールドに対して「**確定**」または **却下** を選択します。
 
-   ![&#x200B; 提案を承認または却下 &#x200B;](assets/accept-reject-suggestion.png)
+   ![ 提案を承認または却下 ](assets/accept-reject-suggestion.png)
 
    または
 
@@ -169,7 +169,7 @@ AI フォーム入力は、メールなどのテキストに基づいてフィ�
 
 ## アップロードしたドキュメントに基づいて候補を取得します
 
-自動入力では、アップロードするドキュメントに基づいてフィールド値を提案できます。
+AI を活用したフォームの入力では、プロンプトまたはドキュメントを使用してリクエストを入力でき、アップロードするドキュメントに基づいてフィールド値を提案できます。
 
 また、このタイプの提案では、以前のリクエストで類似のコンテキストがチェックされます。 例えば、プロンプトでリクエストが特定のクライアントに関するものであると記載された場合、Workfrontでは、以前のリクエストに基づいて、そのクライアントの請求アドレスを自動的に見つけて入力できます。
 
@@ -234,8 +234,8 @@ Workfrontのフィールドタイプは、特定のフィールドを自動入�
 
 <table>
 <tr>
-<td><b> 自動入力機能 </b><br> サポート</td>
-<td><b> サポートされていません </b><br> 自動入力が入力されない</td>
+<td><b>AI を利用した </b><br> Form Fill で入力可能</td>
+<td><b> サポートされていません </b>AI を利用した <br>Form Fill では入力できません</td>
 </tr>
 <tr>
 <td>
@@ -273,13 +273,13 @@ AI フォーム入力にドキュメントをアップロードする際は、�
 
 1. リクエストの作成を開始します。
 
-   手順については、[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+   手順については、[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
 
-1. フォーム全体にドキュメントを適用するには、フォーム名の下にある AI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png) をクリックします。
+1. フォーム全体にドキュメントを適用するには、フォーム名の下にある AI アイコン ![AI アイコン ](assets/request-prompt-icon.png) をクリックします。
 
    または
 
-   1 つのセクションにドキュメントを適用するには、セクション名の横にある AI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png) をクリックします。
+   1 つのセクションにドキュメントを適用するには、セクション名の横にある AI アイコン ![AI アイコン ](assets/request-prompt-icon.png) をクリックします。
 
 1. **ファイルをアップロード** をクリックし、ファイルマネージャーからファイルを選択します。
 
@@ -291,7 +291,7 @@ AI フォーム入力にドキュメントをアップロードする際は、�
    Workfrontによってフォームの候補が生成されます。
 1. フィールドの提案ごとに、そのフィールドに対して「**確定**」または **却下** を選択します。
 
-   ![&#x200B; 提案を承認または却下 &#x200B;](assets/accept-reject-suggestion.png)
+   ![ 提案を承認または却下 ](assets/accept-reject-suggestion.png)
 
    または
 
@@ -306,4 +306,4 @@ AI フォーム入力にドキュメントをアップロードする際は、�
 期待した提案が得られない場合は、次のいずれかが原因である可能性があります。
 
 * 以前のリクエストのフィールド値を提案するには、システムに 1 か月以上のリクエストデータが必要です。
-* 提案を取り込むドキュメントをアップロードする際に、ドキュメントのアップロードガードレールに従っていない可能性があります。 詳しくは、この記事の [&#x200B; ドキュメントアップロードガードレール &#x200B;](#document-upload-guardrails) を参照してください。
+* 提案を取り込むドキュメントをアップロードする際に、ドキュメントのアップロードガードレールに従っていない可能性があります。 詳しくは、この記事の [ ドキュメントアップロードガードレール ](#document-upload-guardrails) を参照してください。
