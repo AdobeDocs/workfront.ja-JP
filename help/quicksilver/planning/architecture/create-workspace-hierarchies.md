@@ -1,13 +1,13 @@
 ---
 title: Workspace階層の作成
-description: ワークスペース内のレコードタイプ間に複数のワークスペース階層を作成できます。
+description: 作業領域管理者は、Adobe Workfront Planning のレコード・タイプ間に複数の作業領域階層を作成できます。 ワークスペースでレコードタイプを接続し、階層を作成すると、レコードタイプが相互に接続され、1 つのレコードタイプが親として指定され、最大 6 つの他のレコードタイプが子として設定されます。
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 26%
+source-wordcount: '248'
+ht-degree: 12%
 
 ---
 
@@ -28,7 +28,14 @@ hidefromtoc: yes
 
 # ワークスペース階層の作成
 
-ワークスペース内のレコードタイプ間に複数のワークスペース階層を作成できます。
+作業領域管理者は、Adobe Workfront Planning のレコード・タイプ間に複数の作業領域階層を作成できます。
+
+ワークスペースでレコードタイプを接続し、階層を作成すると、レコードタイプが相互に接続され、1 つのレコードタイプが親として指定され、最大 6 つの他のレコードタイプが子として設定されます。<!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+階層では、ヘッダーに表示されるレコードタイプおよびレコード <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> のパンくずリストが生成されます。 これにより、ワークフローの任意のステージで、階層内の自分の位置を把握できます。
+
+階層とパンくずリストに関する一般的な情報については、[ 階層とパンくずリストの概要 ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md) を参照してください。
+
 
 ## アクセス要件
 
@@ -69,6 +76,8 @@ hidefromtoc: yes
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+## ワークスペース階層の作成
