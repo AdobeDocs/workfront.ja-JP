@@ -19,7 +19,7 @@ ht-degree: 88%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-プロジェクトの財務情報を表示または編集するには、プロジェクトの詳細セクションの財務エリアにアクセスします。このエリアで表示または編集できるフィールドは限られています。プロジェクトのすべての情報の編集については、[ プロジェクトの編集 ](../../../manage-work/projects/manage-projects/edit-projects.md) を参照してください。
+プロジェクトの財務情報を表示または編集するには、プロジェクトの詳細セクションの財務エリアにアクセスします。このエリアで表示または編集できるフィールドは限られています。プロジェクトのすべての情報の編集については、[&#x200B; プロジェクトの編集 &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) を参照してください。
 
 ## アクセス要件
 
@@ -66,9 +66,9 @@ ht-degree: 88%
 
 1. プロジェクトに移動します。
 1. 左側のパネルの「**プロジェクト詳細**」をクリックします。
-1. 「詳細」セクションの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、「**財務** をクリックします。
+1. 「詳細」セクションの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**財務** をクリックします。
 
-   ![ 詳細表示の財務領域 ](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![&#x200B; 詳細表示の財務領域 &#x200B;](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
@@ -153,14 +153,14 @@ ht-degree: 88%
    >次の手順を実行するには、プロジェクトに対する管理権限が必要です。また、プロジェクトの「財務情報」サブタブを変更できるのは、プロジェクト所有者のみにすることをお勧めします。
 
 1. 左パネルの「**プロジェクト詳細**」をクリックします。
-1. 「詳細」セクションの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、「**財務** をクリックします。 財務エリアが編集用に開きます。
+1. 「詳細」セクションの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**財務** をクリックします。 財務エリアが編集用に開きます。
 1. 編集可能なフィールドをシングルクリックして編集するか、「**+ 追加**」をクリックして空のフィールドに情報を追加します。
 
    >[!TIP]
    >
    >Workfront によって自動的に計算されるフィールドや、編集権限を持っていないフィールドは、編集できません。
 
-   ![ 財務領域の編集 ](assets/edit-finance-area-in-project-details-nwe-350x275.png)
+   ![&#x200B; 財務領域の編集 &#x200B;](assets/edit-finance-area-in-project-details-nwe-350x275.png)
 
 1. 以下のフィールドを更新します。
 
