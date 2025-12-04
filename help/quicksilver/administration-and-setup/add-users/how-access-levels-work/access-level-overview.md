@@ -391,7 +391,7 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
 
 ユーザーがオブジェクトを使用して実行できるアクティビティは、アクセスレベルと、ユーザーに付与されている権限の組み合わせで定義されます。
 
-![ セキュリティモデルの階層 ](assets/security-model-hierachy-copy.png)
+![&#x200B; セキュリティモデルの階層 &#x200B;](assets/security-model-hierachy-copy.png)
 
 ### オブジェクトの共有を通じて権限を付与
 
