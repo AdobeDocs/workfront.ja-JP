@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: bda5c6057b51f6ead5424b6a7563b6d83f2a5bca
+source-git-commit: 7960f134874ae2a2587dd2b6cb0ec5740955339d
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1047'
 ht-degree: 75%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 75%
 
 イベントサブスクリプションリソースフィールドは、イベントサブスクリプションで設定済みのエンドポイントにアウトバウンドメッセージを送信するイベントのトリガーを表します。リソースフィールドが編集されると、UPDATE イベントがトリガーされます。
 
-データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、Event Subscription API の記事 [&#x200B; ネストされたフィルターの使用 &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) を参照してください。
+データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、Event Subscription API の記事 [ ネストされたフィルターの使用 ](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) を参照してください。
 
 次の表に、イベントサブスクリプションリソースで使用できるフィールドを示します。
 
@@ -1893,6 +1893,11 @@ ht-degree: 75%
    <td> </td> 
    <td> </td> 
    <td>attachedRateCard:sourceID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>予算</td> 
   </tr> 
   <tr> 
    <td> </td> 
