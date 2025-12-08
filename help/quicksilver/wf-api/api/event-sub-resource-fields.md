@@ -18,7 +18,7 @@ ht-degree: 75%
 
 イベントサブスクリプションリソースフィールドは、イベントサブスクリプションで設定済みのエンドポイントにアウトバウンドメッセージを送信するイベントのトリガーを表します。リソースフィールドが編集されると、UPDATE イベントがトリガーされます。
 
-データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、Event Subscription API の記事 [ ネストされたフィルターの使用 ](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) を参照してください。
+データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、Event Subscription API の記事 [&#x200B; ネストされたフィルターの使用 &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) を参照してください。
 
 次の表に、イベントサブスクリプションリソースで使用できるフィールドを示します。
 
