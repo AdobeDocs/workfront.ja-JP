@@ -23,7 +23,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->この記事では、従来のアクセスレベルについて説明します。 新しいアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+>この記事では、従来のアクセスレベルについて説明します。 新しいアクセスレベルについて詳しくは、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
 
 
 Adobe Workfront の管理者は、次の 2 つの目的でユーザーにアクセスレベルを割り当てます。
@@ -35,7 +35,7 @@ Adobe Workfront の管理者は、次の 2 つの目的でユーザーにアク�
 
 「外部」は主に、Workfront を使用しない共同作業者とドキュメントを共有するために設計された無料のライセンスです。
 
-![ 従来のアクセスレベルおよびライセンス ](assets/access-levels-and-licenses-old.png)
+![&#x200B; 従来のアクセスレベルおよびライセンス &#x200B;](assets/access-levels-and-licenses-old.png)
 
 アクセスレベルに関するトピックについては、次の記事を参照してください。
 

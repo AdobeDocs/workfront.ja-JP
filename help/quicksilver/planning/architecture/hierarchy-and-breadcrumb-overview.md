@@ -30,7 +30,7 @@ Workspace Manager では、Adobe Workfront Planning のレコード・タイプ�
 
 階層は、レコードタイプ間の接続です。 最大 4 つのレコード タイプとオブジェクト タイプを 1 つの階層に接続できます。
 
-階層の作成については、「[ ワークスペース階層の作成 ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)」を参照してください。
+階層の作成については、「[&#x200B; ワークスペース階層の作成 &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)」を参照してください。
 
 ワークスペースで階層を使用する利点は次のとおりです。
 
@@ -78,6 +78,6 @@ Workspace Manager では、Adobe Workfront Planning のレコード・タイプ�
 
   例えば、Planning のキャンペーンと戦術およびWorkfrontのポートフォリオとプログラムに接続されたプロジェクトを見ると、パンくずリストから Planning とWorkfrontの両方の階層を切り替えることができます。
 
-  詳しくは、[ ワークスペース階層の作成 ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) を参照してください。
+  詳しくは、[&#x200B; ワークスペース階層の作成 &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) を参照してください。
 
 

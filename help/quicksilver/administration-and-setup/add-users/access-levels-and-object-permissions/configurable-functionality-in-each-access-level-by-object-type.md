@@ -16,7 +16,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->この記事では、従来のアクセスレベルについて説明します。 新しいアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+>この記事では、従来のアクセスレベルについて説明します。 新しいアクセスレベルについて詳しくは、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
 
 組織のアクセスレベルを設定する際に、アクセスレベルで使用できる特定のアクションを決定できます。
 

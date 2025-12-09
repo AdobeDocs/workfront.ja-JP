@@ -23,7 +23,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->この記事では、従来のアクセスレベルについて説明します。 新しいアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+>この記事では、従来のアクセスレベルについて説明します。 新しいアクセスレベルについて詳しくは、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
 
 
 現在の 6 つのビルトインのアクセスレベルはそれぞれ、特定のタイプのユーザー向けに設計されています。これらのアクセスレベルを使用すると、ユーザーがシステムで編集および表示できる内容を制御できます。
@@ -74,7 +74,7 @@ Plan ライセンスに付属しているビルトインのシステム管理者
 
 アクセスレベルがシステム管理者のユーザーは、Workfront 内ですべての操作を実行できます。他のすべてのユーザーが Workfront に入力したすべての Workfront オブジェクトと情報を表示および編集できます。
 
-また、設定エリアへのフルアクセス権を持ち、システムレベルの設定を変更することもできます。また、メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) 内のすべての領域にアクセスできます。
+また、設定エリアへのフルアクセス権を持ち、システムレベルの設定を変更することもできます。また、メインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) またはメインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) 内のすべての領域にアクセスできます。
 
 詳しくは、[ユーザーに完全な管理アクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)を参照してください。
 
@@ -86,7 +86,7 @@ Plan ライセンスに付属している計画担当者アクセスレベルは
 * タスク、プロジェクト、ポートフォリオ、プログラムの計画、作成および管理を担当するユーザー
 * 他のユーザーに作業（タスクとイシュー）を割り当てる責任を負うユーザー
 * レポートを作成し、タイムシート、作業アイテムおよびドキュメントを承認するユーザー
-* メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) のすべての領域にアクセスする必要があるユーザー（使用可能な場合）
+* メインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) またはメインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) のすべての領域にアクセスする必要があるユーザー（使用可能な場合）
 
 計画担当者のビルトインのアクセスレベルのカスタムバージョンを作成し、様々な Workfront オブジェクトのタイプに対して許可するアクセスの量を決定できます。詳しくは、[カスタムアクセスレベルを作成および変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
@@ -122,7 +122,7 @@ Work ライセンスに付属している Worker アクセスレベルは、Work
 * 作業とドキュメントの承認が可能。タイムシートの承認は不可
 * レポートにアクセスして共有できる
 * システム内の他のユーザーとコミュニケーションができる
-* メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) 内のすべての領域にはアクセスできず、「ユーザー」領域の名前はチームになります。 チームエリアでは、このアクセスレベルのユーザーは、所属するチームと、それらのチームに割り当てられた作業のみを表示可能。
+* メインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) またはメインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) 内のすべての領域にはアクセスできず、「ユーザー」領域の名前はチームになります。 チームエリアでは、このアクセスレベルのユーザーは、所属するチームと、それらのチームに割り当てられた作業のみを表示可能。
 * 限られたオブジェクト作成権限。プロジェクト、ポートフォリオ、プログラムまたはレポートは作成できません。
 
 作業者のビルトインのアクセスレベルのカスタムバージョンを作成し、様々な Workfront オブジェクトタイプについて許可するアクセスの範囲を決定できます。詳しくは、[カスタムアクセスレベルを作成および変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
@@ -158,7 +158,7 @@ Review ライセンスに付属しているレビュアーアクセスレベル�
 レビュアーのアクセスレベルを持つユーザー：
 
 * 作業アイテムの割り当てやタイムシートの承認を行うことはできません
-* メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) のリクエストおよびドキュメント領域にアクセスできます。
+* メインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) またはメインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) のリクエストおよびドキュメント領域にアクセスできます。
 * 限られたオブジェクト作成権限。プロジェクト、ポートフォリオ、プログラムまたはレポートは作成できません。
 
 レビュアーのビルトインアクセスレベルのカスタムバージョンを作成し、様々な Workfront オブジェクトタイプに対して許可するアクセス権の数を決定できます。詳しくは、[カスタムアクセスレベルを作成および変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
@@ -285,7 +285,7 @@ Request ライセンスに付属している依頼者アクセスレベルは、
 * ドキュメントをアップロードして承認できる
 * 送信したイシューのステータスをレビューできる
 * 作業アイテムに割り当てることはできない
-* リクエストには、メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) のリクエスト領域（使用可能な場合）からのみアクセスできます。 リクエストキューについて詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
+* リクエストには、メインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) またはメインメニュー ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) のリクエスト領域（使用可能な場合）からのみアクセスできます。 リクエストキューについて詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
 要求者のビルトインのアクセスレベルのカスタムバージョンを作成し、様々な Workfront オブジェクトタイプについて許可するアクセスの範囲を決定できます。詳しくは、[カスタムアクセスレベルを作成および変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 

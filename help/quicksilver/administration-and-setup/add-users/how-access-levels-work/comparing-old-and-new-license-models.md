@@ -21,8 +21,8 @@ ht-degree: 41%
 
 Adobe Workfrontには、次の 2 種類のアクセスレベルがあります。
 
-* 新しいアクセス レベル。 詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
-* 従来のアクセスレベル。 詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+* 新しいアクセス レベル。 詳しくは、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+* 従来のアクセスレベル。 詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 
 次の表に、レガシーライセンスモデルと新しいライセンスモデルでライセンスに使用できる機能を示します。
 
@@ -38,7 +38,7 @@ Adobe Workfrontには、次の 2 種類のアクセスレベルがあります�
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="5">[!UICONTROL レガシ ]</th> 
+   <th colspan="5">[!UICONTROL レガシ &#x200B;]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
    <th colspan="3">[!UICONTROL New]</th> 
@@ -47,14 +47,14 @@ Adobe Workfrontには、次の 2 種類のアクセスレベルがあります�
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[!UICONTROL プランナ ]</th> 
+   <th>[!UICONTROL プランナ &#x200B;]</th> 
    <th>[!UICONTROL Worker]</th> 
    <th>[!UICONTROL Reviewer]</th> 
-  <th>[!UICONTROL 要求者 ]</th> 
+  <th>[!UICONTROL 要求者 &#x200B;]</th> 
    <th>[!UICONTROL External]</th>
    <th>[!UICONTROL Standard]</th> 
-   <th>[!UICONTROL ライト ]</th> 
-   <th>[!UICONTROL 共同作成者 ]</th> 
+   <th>[!UICONTROL ライト &#x200B;]</th> 
+   <th>[!UICONTROL 共同作成者 &#x200B;]</th> 
   </tr> 
  </thead> 
  <tbody> 
