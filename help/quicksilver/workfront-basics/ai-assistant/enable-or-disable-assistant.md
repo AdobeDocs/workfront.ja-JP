@@ -5,10 +5,10 @@ description: AI アシスタントにアクセスできる、組織内のアク�
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 8a0923bbdc8731652e59647409ef9b32e802e895
+source-git-commit: 184636b0d8df85e75502fc3650900244cfbd0e80
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 26%
+source-wordcount: '245'
+ht-degree: 27%
 
 ---
 
@@ -46,16 +46,19 @@ Workfront管理者は、組織内で AI アシスタントを有効にしてい�
 
 ## Workfrontでの AI アシスタントの有効化または無効化
 
->[!NOTE]
->
->管理者以外のユーザーは、AI アシスタントはデフォルトで無効になっています。
-
 特定のアクセスレベルに対して AI アシスタントを有効にするには：
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
 1. 左側のナビゲーションで **アクセスレベル** を選択します。
-1. 目的のアクセスレベルを選択し、リストの上にある **編集**![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) アイコンをクリックします。
+1. 目的のアクセスレベルを選択し、リストの上にある **編集**![ 編集アイコン ](assets/edit-icon.png) アイコンをクリックします。
 1. **アクセスレベルを編集** ボックスの「**追加の制限を設定…**」領域で、「**Workfront AI アシスタントを無効にする**」チェックボックスをオフにします。
 1. 「**保存**」をクリックします。
 1. AI アシスタントを有効にするアクセスレベルごとに、手順 3 ～ 5 を繰り返します。
+
+
+
+>[!NOTE]
+>
+>* 管理者以外のユーザーは、AI アシスタントはデフォルトで無効になっています。
+>* 管理者以外のユーザーがWorkfrontの「AI アシスタント」アイコンを操作すると、AI アシスタント契約書が表示され、管理者以外のユーザーに契約条件の同意を求められます。 契約書に同意すると、レイアウトテンプレートで無効になっている AI アシスタントを使用できます。
 
