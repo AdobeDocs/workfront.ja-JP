@@ -10,21 +10,25 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 98%
+source-wordcount: '899'
+ht-degree: 96%
 
 ---
 
 # アクセスレベルと権限の連携の仕組み
+
+>[!NOTE]
+>
+>この記事では、従来のアクセスレベルについて説明します。 新しいアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
 
 Adobe Workfront 管理者は、各ユーザーが持つ必要のあるアクセスレベルを決定します。このアクセスレベルは、ユーザーがシステム内のオブジェクトタイプやエリアで表示および操作できる内容を定義します。
 
 ユーザーは、他のユーザーが個々のオブジェクトを共有し、それらに対する特定の権限を付与すると、それらのオブジェクトにアクセスできるようになります。
 
 
-![&#x200B; セキュリティモデルの階層 &#x200B;](assets/security-model-hierachy.png)
+![ セキュリティモデルの階層 ](assets/security-model-hierachy.png)
 
 例えば、アクセスレベルでタスクを作成できると表示されていて、特定のプロジェクトに対して受け取る権限でタスクを追加できない場合、Workfront の他の場所でタスクを作成できても、そのプロジェクトにタスクを追加できません。
 
@@ -65,7 +69,7 @@ Workfront へのログインには、Workfront 管理者が各ユーザーに割
 
 >[!IMPORTANT]
 >
->ユーザーを設定した後で参照できるように、組み込みのアクセスレベルを変更しないことを強くお勧めします。アクセスレベルをカスタマイズするには、デフォルトのアクセスレベルをコピーし、そのコピーを変更します。（システム管理者と外部ユーザーを除くすべてのアクセスレベルで、これを実行できます）。
+>ユーザーを設定した後で参照できるように、ビルトインのアクセスレベルを変更しないことを強くお勧めします。アクセスレベルをカスタマイズするには、デフォルトのアクセスレベルをコピーし、そのコピーを変更します。（システム管理者と外部ユーザーを除くすべてのアクセスレベルで、これを実行できます）。
 
 各デフォルトのアクセスレベルについて詳しくは、[ビルトインのアクセスレベル](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)を参照してください。
 

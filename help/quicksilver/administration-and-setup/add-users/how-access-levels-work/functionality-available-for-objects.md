@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 02ca85404dfc2a00c94e21a6642748ab3ee39015
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 94%
+source-wordcount: '1335'
+ht-degree: 92%
 
 ---
 
@@ -21,14 +21,18 @@ ht-degree: 94%
 
 {{highlighted-preview}}
 
+>[!NOTE]
+>
+>この記事では、新しいアクセスレベルについて説明します。 従来のアクセスレベルについて詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+
 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
 
 また、Workfront 管理者がアクセスレベルを使用して無効または有効にできるアクションも示します。
 
 >[!NOTE]
 >
->* この記事では、新しいWorkfront プランモデルのアクセスレベルで使用できる機能について説明します。 現在のプラン・モデルで使用可能な機能を確認するには、[&#x200B; 様々なアクセス・レベルの各オブジェクト・タイプで使用可能な機能 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
->* 新しいプランモデルの様々なプランで使用できる機能のリストについては、[Adobe Workfrontの価格とパッケージ &#x200B;](https://business.adobe.com/jp/products/workfront/pricing.html) を参照してください。
+>* この記事では、新しいWorkfront プランモデルのアクセスレベルで使用できる機能について説明します。 現在のプラン・モデルで使用可能な機能を確認するには、[ 様々なアクセス・レベルの各オブジェクト・タイプで使用可能な機能 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
+>* 新しいプランモデルの様々なプランで使用できる機能のリストについては、[Adobe Workfrontの価格とパッケージ ](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
 
 ## プロジェクト
 

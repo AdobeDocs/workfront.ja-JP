@@ -3,9 +3,9 @@ title: 階層とパンくずの概要
 description: ワークスペース内のレコードタイプ間に複数のワークスペース階層を作成できます。
 hide: true
 hidefromtoc: true
-source-git-commit: f345cc0d41dc1bd62e7361fa0755cb7ba72465a0
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,16 @@ hidefromtoc: yes
 
 Workspace Manager では、Adobe Workfront Planning のレコード・タイプと他のオブジェクト・タイプの間に、柔軟だが構造化された階層を定義できます。
 
+階層は、レコードタイプ間の接続です。 最大 4 つのレコード タイプとオブジェクト タイプを 1 つの階層に接続できます。
+
+階層の作成については、「[ ワークスペース階層の作成 ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)」を参照してください。
+
 ワークスペースで階層を使用する利点は次のとおりです。
 
 * チームが実際にどのように計画、運営、配信するかを反映した方法で作業を整理する。
-* ユーザーは、システム内の場所を示す一連のパンくずリストを参照することで、レコードタイプの接続方法や、戦略が実行に進む方法を理解できます。
-* ナビゲーションを改善し、すべてのワークフローで明確さと継続性を確保します。
-* 階層では、システム定義の厳密な構造が適用されず、代わりに、組織の動作方法に合ったフローを定義でき、すべての作業段階にわたる柔軟性と一貫性の両方がサポートされます。
+* ユーザーが、システム内の場所を示す一連のパンくずリストを参照して、レコードタイプの接続方法や、戦略が実行に流れ込む方法を理解できるようにします。
+* より良いナビゲーションを提供し、すべてのワークフローにわたって明確さと継続性を生み出します。
+* 組織の仕組みに合ったフローを定義し、すべての作業段階にわたる柔軟性と一貫性の両方をサポートします。
 
 ## 階層を使用する場合の考慮事項
 
@@ -52,11 +56,28 @@ Workspace Manager では、Adobe Workfront Planning のレコード・タイプ�
    * 階層には、Planning レコード・タイプとWorkfrontオブジェクト・タイプの両方を含めることができます。
 
      例えば、計画戦術とWorkfront プロジェクトを子として使用したキャンペーンレコードタイプを指定できます。
-   * グローバルレコードタイプは、複数の階層内の複数のワークスペースに表示される場合があります。
+
+     <!--asking if ONLY projects are supported here in slack; if yes, make a note to say that only Projects are supported; also add a note about AEM -->
+   * グローバルレコードタイプは、複数の階層内の複数のワークスペースに表示される場合があります。<!--not sure if this AFTER they were added to another workspace; right now, I can see only the current workspace when building one??-->
    * Workfrontのオブジェクトタイプは、複数の階層や異なるワークスペースに表示することもできます。
-     <!--Not sure what this means: * Shared record can't be part of hierarchies.-->
+   * グローバル レコード タイプは、異なるワークスペースの階層の一部にすることはできません。
+
+     例えば、キャンペーンがグローバルレコードタイプで、Workspace 1 内の階層の一部である場合、Workspace 2 には既存のレコードタイプとして追加できますが、階層に含めることはできません。<!--verifying that this is not connectable RT and it is about global ones - checking in slack-->
    * リンクされたレコードタイプに対応するフィールドを作成しない接続を持つレコードタイプも、階層の一部にすることができます。 階層設定時に作成された新しい接続では、デフォルトで常に、リンクされたレコードタイプに対応するフィールドが作成されます。
 
 ## パンくずリストを表示する際の考慮事項
+
+レコードタイプ間に階層を作成すると、これらのレコードタイプに属するレコードのパンくずリストが生成されます。
+
+例えば、階層を作成し、「プログラム」に続いて「プロジェクト」を使用して「戦術」を使用してキャンペーンを接続した場合、階層内で接続されたいずれかのタイプのレコードに移動すると、階層内でレコードが配置されている場所を確認できます。
+
+次の点に注意してください。
+
+* レコードタイプが複数のワークスペースの複数の階層の一部である場合、レコードのページ上のレコードのパンくずリストから階層を切り替えることができます。
+* パンくずリストは、Workfrontと Planning をまたいで機能します。
+
+  例えば、Planning のキャンペーンと戦術およびWorkfrontのポートフォリオとプログラムに接続されたプロジェクトを見ると、パンくずリストから Planning とWorkfrontの両方の階層を切り替えることができます。
+
+  詳しくは、[ ワークスペース階層の作成 ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) を参照してください。
 
 

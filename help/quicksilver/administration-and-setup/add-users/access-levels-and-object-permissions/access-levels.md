@@ -9,20 +9,24 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 97%
+source-wordcount: '185'
+ht-degree: 85%
 
 ---
 
 # アクセスレベルの仕組み
 
+>[!NOTE]
+>
+>この記事では、従来のアクセスレベルについて説明します。 新しいアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+
 Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当てて、オブジェクトの表示や編集のアクセス権を付与できます。以下の記事では、アクセスレベルの仕組みを説明します。
 
 * [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-* [組み込みのアクセスレベル](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+* [ビルトインのアクセスレベル](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
 * [アクセスレベルと権限の連携の仕組み](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
 * [ユーザーのアクセスレベルとライセンスの一覧を表示](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
 * [ライセンスタイプ別のオブジェクトやエリアへのアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)

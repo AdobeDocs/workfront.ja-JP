@@ -10,16 +10,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 99%
+source-wordcount: '370'
+ht-degree: 93%
 
 ---
 
 # ライセンスの概要
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>この記事では、従来のアクセスレベルについて説明します。 新しいアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
 
 組織が Adobe Workfront を購入した際に、一定数のライセンスを購入しました。Workfront 管理者は、ユーザーにアクセスレベルを割り当てる際に、5 種類の Workfront ライセンスのうちのいずれかを各ユーザーに付与します。
 
@@ -41,7 +45,7 @@ Workfront 管理者は、ライセンスをユーザーに割り当てるので�
 
 >[!NOTE]
 >
->外部ライセンスは有料ライセンスではありません。主に、Workfront を使用しない共同作業者とドキュメントを共有する目的で設計されています。詳しくは、[組み込みのアクセスレベル](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)を参照してください。
+>外部ライセンスは有料ライセンスではありません。主に、Workfront を使用しない共同作業者とドキュメントを共有する目的で設計されています。詳しくは、[ビルトインのアクセスレベル](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)を参照してください。
 
 ## ライセンスによってアクセスレベルを定義する方法
 

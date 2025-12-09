@@ -9,14 +9,18 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
-source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 93%
+source-wordcount: '173'
+ht-degree: 81%
 
 ---
 
 # 新しいアクセスレベルの仕組み
+
+>[!NOTE]
+>
+>この記事では、新しいアクセスレベルについて説明します。 従来のアクセスレベルについて詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 
 Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当てて、オブジェクトの表示や編集のアクセス権を付与できます。以下の記事では、新しいアクセスレベルの仕組みを説明します。
 

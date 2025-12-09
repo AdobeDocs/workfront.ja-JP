@@ -5,21 +5,26 @@ content-type: reference
 product-area: system-administration
 keywords: アクセス、レベル、システム、管理者、標準、ライト、コントリビューター
 navigation-topic: access-levels
-description: 古いライセンスモデルと新しいライセンスモデルの異なるライセンスで利用できる機能の比較を参照してください。
+description: 従来のライセンスモデルと新しいライセンスモデルの異なるライセンスで利用できる機能の比較を参照してください。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 44%
+source-wordcount: '349'
+ht-degree: 41%
 
 ---
 
 # ライセンスモデル間での機能の比較
 
-次の表に、レガシ ライセンス モデルと新しいライセンス モデルでライセンスに使用できる機能を示します。
+Adobe Workfrontには、次の 2 種類のアクセスレベルがあります。
+
+* 新しいアクセス レベル。 詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+* 従来のアクセスレベル。 詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+
+次の表に、レガシーライセンスモデルと新しいライセンスモデルでライセンスに使用できる機能を示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +38,7 @@ ht-degree: 44%
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="5">[!UICONTROL レガシ &#x200B;]</th> 
+   <th colspan="5">[!UICONTROL レガシ ]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
    <th colspan="3">[!UICONTROL New]</th> 
@@ -42,14 +47,14 @@ ht-degree: 44%
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[!UICONTROL プランナ &#x200B;]</th> 
+   <th>[!UICONTROL プランナ ]</th> 
    <th>[!UICONTROL Worker]</th> 
    <th>[!UICONTROL Reviewer]</th> 
-  <th>[!UICONTROL 要求者 &#x200B;]</th> 
+  <th>[!UICONTROL 要求者 ]</th> 
    <th>[!UICONTROL External]</th>
    <th>[!UICONTROL Standard]</th> 
-   <th>[!UICONTROL ライト &#x200B;]</th> 
-   <th>[!UICONTROL 共同作成者 &#x200B;]</th> 
+   <th>[!UICONTROL ライト ]</th> 
+   <th>[!UICONTROL 共同作成者 ]</th> 
   </tr> 
  </thead> 
  <tbody> 

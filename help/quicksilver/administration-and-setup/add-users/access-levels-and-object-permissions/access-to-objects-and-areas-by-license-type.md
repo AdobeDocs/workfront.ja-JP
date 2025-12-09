@@ -9,16 +9,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 82%
+source-wordcount: '480'
+ht-degree: 78%
 
 ---
 
 # オブジェクトやエリアへのアクセス権（ライセンスタイプ別）
 
 <!-- Audited: 11/2025 -->
+
+>[!NOTE]
+>
+>この記事では、従来のアクセスレベルについて説明します。 新しいアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
 
 次の表に、各 Adobe Workfront ライセンスで Workfront のオブジェクトとエリアに対して許可されている最高レベルのアクセス（編集または表示）を示します。
 
@@ -27,11 +31,11 @@ ht-degree: 82%
 
   >[!NOTE]
   >
-  >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトの編集を制限する権限を指定できます。新しいライセンスタイプについて詳しくは、[&#x200B; オブジェクトに対する共有権限の概要 &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) を参照してください。
+  >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトの編集を制限する権限を指定できます。新しいライセンスタイプについて詳しくは、[ オブジェクトに対する共有権限の概要 ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) を参照してください。
 
   >[!NOTE]
   >
-  >この記事には、従来のライセンスタイプのオブジェクトアクセスに関する情報が含まれています。 新しいライセンスタイプについては、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) および [&#x200B; 新しいライセンスの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
+  >この記事には、従来のライセンスタイプのオブジェクトアクセスに関する情報が含まれています。 新しいライセンスタイプについては、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) および [ 新しいライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
 
 |   | プラン | ワーク | レビュー | リクエスト | 外部 |
 |---|---|---|---|---|---|
