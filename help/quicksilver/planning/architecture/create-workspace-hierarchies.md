@@ -34,7 +34,7 @@ hidefromtoc: yes
 
 階層では、ヘッダーに表示されるレコードタイプおよびレコード <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> のパンくずリストが生成されます。 これにより、ワークフローの任意のステージで、階層内の自分の位置を把握できます。
 
-階層とパンくずリストに関する一般的な情報については、[ 階層とパンくずリストの概要 ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md) を参照してください。
+階層とパンくずリストに関する一般的な情報については、[&#x200B; 階層とパンくずリストの概要 &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md) を参照してください。
 
 ## アクセス要件
 
@@ -75,7 +75,7 @@ hidefromtoc: yes
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -84,14 +84,14 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 {#step1-to-planning}
 
 1. ワークスペースカードをクリックします。
-1. ワークスペース名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**設定** をクリックします。
+1. ワークスペース名の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックし、**設定** をクリックします。
 **階層** セクションは、デフォルトで開きます。
 1. **階層** ページの右上隅にある **新規階層** をクリックします。
 1. **オブジェクトを追加** をクリックし、ドロップダウンメニューからオブジェクトを選択します。 これは階層内の親オブジェクトになります。
 現在のワークスペースからレコードタイプを選択するか、Workfrontからプロジェクトを選択できます。
 1. 「**オブジェクトを追加**」をクリックして、階層の最初の子である 2 番目のオブジェクトを追加し、ドロップダウンメニューで別のオブジェクトを選択します。
-   ![ フィールドが選択されていない新しい階層ボックス ](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
-1. **接続されたフィールドを選択**] をクリックして、2 つのオブジェクトを接続するフィールドを指定します。
+   ![&#x200B; フィールドが選択されていない新しい階層ボックス &#x200B;](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+1. **接続されたフィールドを選択**&rbrack; をクリックして、2 つのオブジェクトを接続するフィールドを指定します。
 1. （条件付き） 2 つのオブジェクトタイプ間に接続されたフィールドが存在する場合は、リストから選択します。 それ以外の場合は、「**新しい接続を追加**」をクリックします。
 
    >[!WARNING]
@@ -112,10 +112,10 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
       * **名前と画像**
       * **名前**
       * **画像**
-詳しくは、[ レコードタイプの接続 ](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
+詳しくは、[&#x200B; レコードタイプの接続 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
    1. 「**保存**」をクリックします。
 1. （オプション）上記の手順に従って、最大 4 つのオブジェクトタイプを階層に追加し続けます。 最初にすべてのオブジェクトタイプを追加してから、それらの間に接続フィールドを追加できます。
-1. （オプション） **削除** アイコン ![ 削除アイコン ](assets/minus-icon.png) をクリックして、接続を削除します。
+1. （オプション） **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/minus-icon.png) をクリックして、接続を削除します。
 1. **保存** をクリックして、階層を保存します。
 
    >[!TIP]

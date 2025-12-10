@@ -23,7 +23,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+>この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
 
 組織が Adobe Workfront を購入した際に、一定数のライセンスを購入しました。Workfront 管理者は、ユーザーにアクセスレベルを割り当てる際に、5 種類の Workfront ライセンスのうちのいずれかを各ユーザーに付与します。
 
