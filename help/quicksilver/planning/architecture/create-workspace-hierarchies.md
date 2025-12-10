@@ -4,10 +4,10 @@ description: 作業領域管理者は、Adobe Workfront Planning のレコード
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 12%
+source-wordcount: '619'
+ht-degree: 6%
 
 ---
 
@@ -34,8 +34,7 @@ hidefromtoc: yes
 
 階層では、ヘッダーに表示されるレコードタイプおよびレコード <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> のパンくずリストが生成されます。 これにより、ワークフローの任意のステージで、階層内の自分の位置を把握できます。
 
-階層とパンくずリストに関する一般的な情報については、[&#x200B; 階層とパンくずリストの概要 &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md) を参照してください。
-
+階層とパンくずリストに関する一般的な情報については、[ 階層とパンくずリストの概要 ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md) を参照してください。
 
 ## アクセス要件
 
@@ -65,7 +64,7 @@ hidefromtoc: yes
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>Standard</p>
+   <td><p>標準</p>
    </td> 
   </tr> 
   <tr> 
@@ -76,8 +75,63 @@ hidefromtoc: yes
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
 ## ワークスペース階層の作成
+
+{#step1-to-planning}
+
+1. ワークスペースカードをクリックします。
+1. ワークスペース名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**設定** をクリックします。
+**階層** セクションは、デフォルトで開きます。
+1. **階層** ページの右上隅にある **新規階層** をクリックします。
+1. **オブジェクトを追加** をクリックし、ドロップダウンメニューからオブジェクトを選択します。 これは階層内の親オブジェクトになります。
+現在のワークスペースからレコードタイプを選択するか、Workfrontからプロジェクトを選択できます。
+1. 「**オブジェクトを追加**」をクリックして、階層の最初の子である 2 番目のオブジェクトを追加し、ドロップダウンメニューで別のオブジェクトを選択します。
+   ![ フィールドが選択されていない新しい階層ボックス ](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+1. **接続されたフィールドを選択**] をクリックして、2 つのオブジェクトを接続するフィールドを指定します。
+1. （条件付き） 2 つのオブジェクトタイプ間に接続されたフィールドが存在する場合は、リストから選択します。 それ以外の場合は、「**新しい接続を追加**」をクリックします。
+
+   >[!WARNING]
+   >
+   >接続されたフィールドを作成したときに **リンクされたレコードタイプに対応するフィールドを作成** が選択されなかった場合は、続行する前にまずフィールドを編集する必要があります。
+
+1. （条件付き）新しい接続を追加する場合、次の操作を行います。
+
+   1. 接続したフィールドの名前を「**名前**」ボックスに追加します。
+   1. 次の接続タイプから選択します。
+
+      * **多対多**
+      * **1 対多**
+      * **多対 1**
+      * **1 対 1**
+   1. 次のいずれかのタイプのレコード外観を選択します。
+
+      * **名前と画像**
+      * **名前**
+      * **画像**
+詳しくは、[ レコードタイプの接続 ](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
+   1. 「**保存**」をクリックします。
+1. （オプション）上記の手順に従って、最大 4 つのオブジェクトタイプを階層に追加し続けます。 最初にすべてのオブジェクトタイプを追加してから、それらの間に接続フィールドを追加できます。
+1. （オプション） **削除** アイコン ![ 削除アイコン ](assets/minus-icon.png) をクリックして、接続を削除します。
+1. **保存** をクリックして、階層を保存します。
+
+   >[!TIP]
+   >
+   >接続されているフィールドがまだない場合は、「**保存**」ボタンはグレー表示になります。
+
+   次のことが発生します。
+
+   * 階層がワークスペースの **階層** セクションに追加されます。
+   * レコードのページに移動すると、接続フィールドに入力されるレコードに、パンくずリストのすべての接続が表示されます。
+1. （オプション）階層の上にマウスポインターを置いて、「**詳細**」メニューをクリックし、次のいずれかをクリックします。
+
+   * **編集**：変更を加えることができる **階層を編集** ボックスが開きます。
+   * **削除**：階層が完全に削除されます。 削除された階層は復元できません。 接続フィールドは削除されません。
+
+
+
+
+

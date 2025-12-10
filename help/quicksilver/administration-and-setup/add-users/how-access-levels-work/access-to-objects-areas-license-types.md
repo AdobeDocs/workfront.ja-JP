@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 88%
@@ -22,7 +22,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->この記事では、新しいアクセスレベルについて説明します。 従来のアクセスレベルについて詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+>この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 
 次の表に、各 Adobe Workfront ライセンスで Workfront のオブジェクトとエリアに対して許可されている最高レベルのアクセス（編集または表示）を示します。
 
