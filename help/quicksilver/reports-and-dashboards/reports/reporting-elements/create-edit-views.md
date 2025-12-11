@@ -6,10 +6,10 @@ description: ビューを使用して、画面に表示する情報のタイプ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 83%
+source-wordcount: '898'
+ht-degree: 63%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 83%
 
 ビューを使用して、画面に表示する情報のタイプをカスタマイズできます。Adobe Workfront では、複数のタイプのビューを使用できます。
 
-この記事では、リストとレポートの標準ビューを作成および編集する方法と、アジャイルビューを作成する方法について説明します。詳しくは、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
+この記事では、リストおよびレポートの標準ビューを作成および編集する方法について説明します。
+
+詳しくは、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -58,7 +60,7 @@ ht-degree: 83%
 
 ## ビューの作成またはカスタマイズ
 
-ビューの作成またはカスタマイズのプロセスは、標準ビューとアジャイルビューのどちらを作成またはカスタマイズしているかによって異なります。
+ビューの作成またはカスタマイズの手順は、標準ビュー、アジャイル ビュー、ボード ビューのどちらを作成またはカスタマイズするかによって異なります。
 
 * [標準ビューを作成またはカスタマイズ](#create-or-customize-a-standard-view)
 * [アジャイルビューを作成またはカスタマイズ](#create-or-customize-an-agile-view)
@@ -71,7 +73,7 @@ ht-degree: 83%
 
 1. 「**+新規ビュー**」ボタンをクリックして、新規ビューを作成します。
 または
-編集する既存のビューの右側にマウスポインターを置くと表示される **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+編集する既存のビューの右側にマウスポインターを置くと表示される **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 **ビューをカスタマイズ**&#x200B;ダイアログボックスが表示されます。
 
 1. 「**列のプレビュー**」セクションで、以下のいずれかを行います。
@@ -161,115 +163,116 @@ ht-degree: 83%
 
 ### アジャイルビューを作成またはカスタマイズ {#create-or-customize-an-agile-view}
 
-アジャイルビューを作成したり、以前に作成した既存のアジャイルビューをカスタマイズしたりできます。
+アジャイルビュー（ボードビューとも呼ばれます）は、プロジェクト上のタスクとイシューのリストに対してのみ表示されます。
 
->[!IMPORTANT]
->
->アジャイルビューは、プロジェクトの表示時にのみ使用できます。
+これらは事前に設定されていますが、特定の設定を変更できます。
 
-アジャイルビューについて詳しくは、[アジャイルビューでのプロジェクトの管理](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)の記事を参照してください。
+アジャイル ビューまたはボード ビューの詳細については、「[ アジャイル ビューでプロジェクトを管理する ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)」を参照してください。
+
+<!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >
->この手順は、従来のアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。
+>This procedure only applies to the legacy Agile view, not to the board view of a project.
 
-アジャイルビューを作成またはカスタマイズするには、以下のように行います。
+To create or customize an Agile view:
 
-1. プロジェクトのタスクのリストに移動します。
-1. **ボード**&#x200B;アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png) をクリックし、続いてボードビューの「**従来のアジャイルを使用**」をクリックします。
+1. Go to the list of tasks on a project.
+1. Click the **Board** icon ![Board icon](assets/board-icon-for-agile-view.png), and then click **Use legacy agile** on the board view.
 
-1. （条件付き）既存のアジャイルビューをカスタマイズするには、以下のように行います。
+1. (Conditional) To customize an existing Agile view:
 
-   1. **表示**&#x200B;ドロップダウンメニューをクリックし、カスタマイズするアジャイルビューを選択します。\
-      デフォルトのアジャイルビューはカスタマイズできません。
+   1. Click the **View** drop-down menu, then select the Agile view you want to customize.  
+      You cannot customize the default Agile view.
+   
+   1. Click the **View** drop-down menu again, then click **Customize View**.  
+      ![Customize view](assets/view-agile-customize.png)
 
-   1. **表示**&#x200B;ドロップダウンメニューを再度クリックし、続いて「**ビューをカスタマイズ**」をクリックします。\
-      ![&#x200B; ビューのカスタマイズ &#x200B;](assets/view-agile-customize.png)
+1. (Conditional) To create a new Agile view, click **New View**.  
+   The **Customize Agile View** dialog box displays.  
 
-1. （条件付き）アジャイルビューを新規作成するには、「**新規ビュー**」をクリックします。\
-   **アジャイルビューをカスタマイズ**&#x200B;ダイアログボックスが表示されます。
+1. In the **Customize Agile View** dialog box, specify a name for the Agile view.  
+   We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.  
+   This name is displayed in the **View** drop-down menu when selecting a view.
 
-1. **アジャイルビューをカスタマイズ**&#x200B;ダイアログボックスで、アジャイルビューの名前を指定します。\
-   ビュー名には「アジャイル」という単語を含めることをお勧めします。これはアジャイルビューであることをユーザーが認識できるようにするためです。\
-   この名前は、選択されたときに&#x200B;**表示**&#x200B;ドロップダウンメニューに表示されます。
+1. Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. ステータス列を定義して、アジャイルビューのストーリーボードに表示します。これらのタスクステータスは、[ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)で説明されているように、Workfront 管理者が定義したものです。
+   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
 
-   システムステータスのみが、アジャイルストーリーボードで使用できます。自分が属する個々のグループに対してのみステータスが使用可能な場合は、アジャイルストーリーボードではステータスは使用できません。さらに、カスタムグループのみが使用できるステータスにあるタスクは、アジャイルビューでプロジェクトを表示するときには表示されません。
-
-   ユーザーは、アジャイルストーリーボード上のステータス列の間でストーリーを移動できます。\
-   ステータス列を定義する際に、以下の操作を実行できます。
+   Users can move stories among these status columns on the Agile story board.  
+   When defining status columns, you can do the following:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>ステータス列の並べ替え：</strong> </td> 
-      <td> ステータス列を、表示する順番にドラッグします。<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
+      <td role="rowheader"><strong>Reorder status columns:</strong> </td> 
+      <td> Drag a status column to the order where you want it to appear.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>ステータス列を削除：</strong> </td> 
-      <td>削除する列の（x）アイコンをクリックします。<br>ビューにカスタムステータスが追加されていて、そのカスタムステータスが「新規」と同等でない限り、「新規」ステータスを削除することはできません。<br>カスタムステータスの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">ステータスの作成または編集</a>を参照してください。</td> 
+      <td role="rowheader"><strong>Remove status columns:</strong> </td> 
+      <td>Click the (x) icon on the column that you want to remove.<br>You cannot remove the "New" status unless a custom status has been added to the view and that custom status equates with "New."<br>For information about creating a custom status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>ステータス列を追加：</strong> </td> 
-      <td> <p><strong>プラス</strong>アイコンをクリックし、追加するステータスを選択します。<br>すべてのデフォルトのシステムステータスと、すべての自分と共有されているカスタムステータスが表示されます。<br>表示するステータスを最大 10 個まで設定できます。</p></td> 
+      <td role="rowheader"><strong>Add status columns:</strong> </td> 
+      <td> <p>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-   <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
-       -->
+   *********   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
+       *************
 
-1. **カードのカラーを関連付ける対象**&#x200B;エリアで、以下のオプションから選択します。
+1. In the **Associate Card Color to** area, select from the following options:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>ストーリー:</strong> </td> 
-      <td>サブタスクはすべて親タスクのカラーに一致するので、特定のスイムレーン内のすべてのストーリーのカラーが同じになります。<br>タスクにサブタスクがない場合や親タスクがない場合は、タスクの作成時にカラーがランダムに割り当てられます。</td> 
+      <td role="rowheader"><strong>Story:</strong> </td> 
+      <td>Any subtasks match the color of the parent task, so that the colors of all stories in any given swimlane are the same.<br>Colors are randomly assigned to tasks when they are created if the task does not have any subtasks or does not have a parent task.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>自由形式：</strong> </td> 
-      <td> <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">スクラムボード上でストーリーをカラー別に分類</a>の記事で説明されているように、ユーザーが手動でカラーを変更するまでは、すべてのカードはデフォルトで青で表示されます。 </td> 
+      <td role="rowheader"><strong>Free Form:</strong> </td> 
+      <td> All cards are displayed as blue by default until a user changes the color manually, as described in the article <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Categorize stories by color on the Scrum board</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>優先度：</strong> </td> 
-      <td> <p> 以下のように、ストーリーの優先度にカラーが関連付けられます。</p> 
+      <td role="rowheader"><strong>Priority:</strong> </td> 
+      <td> <p> Colors are associated with the story priority, as follows:</p> 
        <ul> 
-        <li>高 = 赤色</li> 
-        <li>中 = 黄色</li> 
-        <li>低 = 緑<br>Workfront 管理者が Workfront システムのカスタム優先度を設定している場合、最も高い優先度は赤、2 番目に高い優先度は黄色、残りは緑です。</li> 
+        <li>High = Red</li> 
+        <li>Medium = Yellow</li> 
+        <li>Low = Green<br>If your Workfront administrator has configured custom priorities for your Workfront system, the highest priority is red, the second-highest is yellow, and the remaining are green.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>タスク責任者：</strong> </td> 
-      <td> 同じプライマリ担当者を持つすべてのストーリーは同じカラーです。<br>プライマリ担当者は、最初にタスクに割り当てられたユーザーです。 </td> 
+      <td role="rowheader"><strong>Task Owner:</strong> </td> 
+      <td> All stories with the same primary assignee are the same color.<br>The primary assignee is the user who was first assigned to the task. </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. **追加フィールド** 領域で **フィールドの追加** をクリックし、ストーリーカードに追加するフィールドを選択します。 （これらは、ビューのカスタマイズ作成時やレポートの列の作成時に追加できるフィールドと同じです。）\
-   このプロセスを繰り返して、ストーリーカードに最大 3 つのフィールドを追加します。\
-   フィールドをストーリーカードに追加すると、フィールドは表示専用となり、フィールドにデータが入力されている場合にのみ表示されます。
+1. In the **Additional Fields** area, click **Add Field**, then select the field you want to add to story cards. (These are the same fields you can add when creating customizing a view or creating columns for a report.)  
+   Repeat this process to add up to three additional fields to the story cards.  
+   When you add fields to story cards, fields are view-only and display only when the field is populated.
 
-   デフォルトでは、以下のタイプのデータがストーリーカードに表示されます。
+   By default, the following types of data is displayed on the story card:
 
-   * タスクへの直接リンクを含むストーリー名
-   * プロジェクトへの直接リンクを含むプロジェクト名\
-     このリンクは、イテレーションでアジャイルビューを使用する場合にのみ表示されます。プロジェクトでアジャイルビューを使用する場合は表示されません。
-   * タスクの説明
-   * 現在のコミットメント
-   * 完了率を表示および編集するには、完了率自体を調整するか、完了したポイント数または時間数を調整します
-   * 割り当てられたユーザー
+   * Story name with a link directly to the task
+   * The project name with a link directly to the project  
+     This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.
+   * The task description
+   * Current commitment
+   * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete
+   * Assigned Users
 
-   追加のデータ（カスタムデータを含む）をストーリーカードに表示できます。様々な理由で、ストーリーカードに追加のフィールドを表示することが必要になる場合があります。例えば、プロジェクト内で複数の顧客のストーリーを処理する場合には顧客 ID を表示したり、タスクの開始日を表示したりすることができます。
+   You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the project, or you might want to display the Task Start Date.
 
-1. 「**保存**」をクリックします。\
-   アクセス権によって、ビューの保存方法が決まります。最初にビューを作成した場合は、変更を保存できます。それ以外の場合は、バージョンを保存するよう求められます。ビューに加えた変更は、そのビューを共有しているユーザーに影響を与えることに注意してください。
+1. Click **Save**.  
+   Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
-1. （オプション）「**リスト**」アイコンをクリックして、タスクのリストに戻ります。
+1. (Optional) Click the **List** icon to return to the list of tasks.
+
+-->

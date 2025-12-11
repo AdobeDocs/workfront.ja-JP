@@ -7,10 +7,10 @@ description: リストやレポートに表示する情報のタイプは、リ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 70%
 
 ---
 
@@ -43,24 +43,41 @@ Workfront のリストやレポートに適用できるビューのタイプは�
     </tr>
     <tr>
         <td><strong>アジャイルビュー</strong></td>
-        <td>プロジェクトの「タスク」セクションで、タスクのリストに適用できます。アジャイルビューをカスタマイズして他のユーザーと共有することができます。詳しくは、<a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Adobe Workfront でのビューの作成または編集</a>を参照してください。</td>
+        <td>ボードまたはアジャイルビューは、プロジェクトの「タスク」セクションのタスクのリストや、プロジェクトの「イシュー」セクションのイシューのリストに適用できます。 詳しくは、<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md"> アジャイルビューでのプロジェクトの管理 </a> を参照してください。</td>
     </tr>
     <tr>
         <td><strong>ガントビュー</strong></td>
-        <td>プロジェクトの「タスク」セクションのタスクのリストやプロジェクトのリストに適用したり、タスクやプロジェクトのレポートに追加したりすることができます。定義済みの組み込みオプションを使用して、ガントビューで表示する情報をカスタマイズできます。タスクやプロジェクトを表示するアクセス権を持つすべてのユーザーは、それらをガントビューで表示できます。詳しくは、<a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">ガントチャートの基本を学ぶ</a>を参照してください。</td>
+        <td>プロジェクトの「タスク」セクションのタスクのリストやプロジェクトのリストに適用したり、タスクやプロジェクトのレポートに追加したりすることができます。定義済みのビルトインのオプションを使用して、ガントビューで表示する情報をカスタマイズできます。タスクやプロジェクトを表示するアクセス権を持つすべてのユーザーは、それらをガントビューで表示できます。詳しくは、<a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">ガントチャートの基本を学ぶ</a>を参照してください。</td>
        </tr>
+
+<tr>
+        <td><strong>拡張ビュー</strong></td>
+        <td>拡張ビューは、拡張リストに基づいています。 Workfrontの一部のエリアで利用できます。 これらのリストは、リスト項目を表示するためにテーブル形式を使用し、標準のビューやリストとは異なるルックアンドフィールを持っています。 フィルタリング、グループ化、列の管理、検索など、ビューの管理も強化されています。 詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md"> 拡張リストの使用 </a> を参照してください</td>
+       </tr>    
 </table>
+
+
 
 <!--NOTE FOR MAYBE LATER: consider adding calendar and board views, or Milestone view (not customizable) to this list of views (above)?! -->
 
 ## ビューを共有
 
-ビューの共有方法について詳しくは、[フィルター、ビューまたはグループ化の共有](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)を参照してください。
+標準ビューの要素を共有できます。
+
+標準ビューの共有方法の詳細については、「[ フィルター、ビュー、グループ化を共有する ](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)」を参照してください。
+
+ガント ビューとアジャイル ビューは共有できません。 これらのビューが表示される領域にアクセスできるユーザーは誰でも、同じ情報を表示できます。
+
+<!-- add something about the enhanced views here, when we have a link-->
 
 ## ビューを削除
 
 ビューを削除する機能は、ビューを最初に作成したのか、ビューが共有されていたのかによって異なります。デフォルトのビューを削除することはできません。
 
-詳しくは、[フィルター、ビューおよびグループ化の削除](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+ガント ビューまたはアジャイル ビューは削除できません。
+
+標準ビューの削除の詳細については、「[ フィルター、ビュー、グループの削除 ](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)」を参照してください。
+
+<!-- add something about the enhanced views here, when we have a link-->
 
 

@@ -6,10 +6,10 @@ description: 重複している、または誤って作成された可能性の�
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 94%
+source-wordcount: '810'
+ht-degree: 92%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -98,37 +98,40 @@ ht-degree: 94%
 
 タスクを削除すると、タスクにリンクされている他のオブジェクトに影響を与えます。
 
-タスクを削除すると、タスクに添付されている次のオブジェクトも削除されます。
+次の点に注意してください。
 
-* ドキュメント
+* タスクを削除すると、タスクに添付されている次のオブジェクトも削除されます。
+
+   * ドキュメント
 
   チェックアウトされたドキュメントが添付されたタスクは削除できません。ドキュメントのチェックアウトについて詳しくは、[ドキュメントのチェックアウト](../../../documents/managing-documents/check-out-documents.md)を参照してください。
 
-* イシュー
-* サブタスク
-* メモ
-* 承認
+   * イシュー
+   * サブタスク
+   * メモ
+   * 承認
 
-Workfront インスタンスのタイムシートおよび時間設定で、Workfront 管理者またはグループ管理者が指定したプロジェクト、タスクまたはイシューの削除に関する環境設定によって、タスクに記録される時間は、タスクを削除する際に次のいずれかの方法で処理されます。
+* Workfront インスタンスのタイムシートおよび時間設定で、Workfront 管理者またはグループ管理者が指定したプロジェクト、タスクまたはイシューの削除に関する環境設定によって、タスクに記録される時間は、タスクを削除する際に次のいずれかの方法で処理されます。
 
-* タスクが後で復元された場合、プロジェクトに移動して、タスクで復元されません。
-* タスクが後で復元された場合、削除され、タスクで復元されます。
+   * タスクが後で復元された場合、プロジェクトに移動して、タスクで復元されません。
+   * タスクが後で復元された場合、削除され、タスクで復元されます。
 
   これは、時間が記録されたタスクを持つプロジェクトを削除しようとした場合にも該当します。
 
-  <!--
+  イシューに時間が記録されている場合の削除の環境設定について詳しくは、[タイムシートおよび時間設定の指定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
+   * タスクの費用がプロジェクトに移動します。
+
+   * タスクまたはタスクの承認に割り当てられたユーザーは、プロジェクトチームに残ります。
+
+  プロジェクトチームについて詳しくは、[プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
+
+* 子タスクを削除し、その親を別のプロジェクトに移動してから、削除した子タスクを復元すると、タスクはメインタスクとして元のプロジェクトに再度追加されます。
+
+<!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
-
-  イシューに時間が記録されている場合の削除の環境設定について詳しくは、[タイムシートおよび時間設定の指定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
-
-* タスクの費用がプロジェクトに移動します。
-
-* タスクまたはタスクの承認に割り当てられたユーザーは、プロジェクトチームに残ります。
-
-  プロジェクトチームについて詳しくは、[プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
 
 ## タスクの削除
 

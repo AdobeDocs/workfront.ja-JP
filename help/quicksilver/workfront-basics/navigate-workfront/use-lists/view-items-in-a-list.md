@@ -5,16 +5,16 @@ description: ' [!DNL Adobe Workfront]  内のオブジェクトのリストを�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 69%
+source-wordcount: '2301'
+ht-degree: 72%
 
 ---
 
 # [!DNL Adobe Workfront] のリストの概要
 
-<!--Audited: 11/2024-->
+<!--Audited: 12/2025-->
 
 [!DNL Adobe Workfront] 内のオブジェクトのリストを表示して、オブジェクトの開始日と期限、オブジェクトに割り当てられたユーザー、オブジェクトに関連付けられている他のオブジェクトなどの情報を取得できます。
 
@@ -34,7 +34,7 @@ ht-degree: 69%
    * 標準リスト
    * 拡張リスト
 
-  詳細については、この記事の [&#x200B; 標準リストと拡張リストの違い &#x200B;](#the-difference-between-the-standard-and-the-enhanced-lists) を参照してください。
+  詳細については、この記事の [ 標準リストと拡張リストの違い ](#the-difference-between-the-standard-and-the-enhanced-lists) を参照してください。
 
 ## アクセス要件
 
@@ -131,7 +131,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>プログラムのリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL ポートフォリオ &#x200B;] &gt;[!UICONTROL ポートフォリオをクリック &#x200B;] &gt;[!UICONTROL プログラム &#x200B;]</p> </li> 
+     <li> <p>[!UICONTROL ポートフォリオ ] &gt;[!UICONTROL ポートフォリオをクリック ] &gt;[!UICONTROL プログラム ]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programs]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -140,26 +140,26 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL ポートフォリオ &#x200B;] &gt;[!UICONTROL ポートフォリオをクリック &#x200B;] &gt;[!UICONTROL プロジェクト &#x200B;]</p> </li> 
-     <li> <p>[!UICONTROL ポートフォリオ &#x200B;] &gt;[!UICONTROL ポートフォリオをクリック &#x200B;] &gt;[!UICONTROL プログラム &#x200B;] &gt;[!UICONTROL プログラムをクリック &#x200B;] &gt;[!UICONTROL プロジェクト &#x200B;]</p> </li> 
+     <li> <p>[!UICONTROL ポートフォリオ ] &gt;[!UICONTROL ポートフォリオをクリック ] &gt;[!UICONTROL プロジェクト ]</p> </li> 
+     <li> <p>[!UICONTROL ポートフォリオ ] &gt;[!UICONTROL ポートフォリオをクリック ] &gt;[!UICONTROL プログラム ] &gt;[!UICONTROL プログラムをクリック ] &gt;[!UICONTROL プロジェクト ]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>タスクのリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt; [!UICONTROL タスク &#x200B;]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL タスク &#x200B;] &gt;[!UICONTROL タスクをクリック &#x200B;] &gt;[!UICONTROL サブタスク &#x200B;]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL タスク &#x200B;] &gt;[!UICONTROL タスクをクリック &#x200B;] &gt; [!UICONTROL 先行タスク*]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt; [!UICONTROL タスク ]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL タスク ] &gt;[!UICONTROL タスクをクリック ] &gt;[!UICONTROL サブタスク ]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL タスク ] &gt;[!UICONTROL タスクをクリック ] &gt; [!UICONTROL 先行タスク*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>イシューのリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt; [!UICONTROL クリック &#x200B;] プロジェクト &gt;[!UICONTROL の問題 &#x200B;]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL タスク &#x200B;] &gt;[!UICONTROL タスクをクリック &#x200B;] &gt; [!UICONTROL イシュー &#x200B;]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL タスク &#x200B;] &gt;[!UICONTROL タスクをクリック &#x200B;] &gt;[!UICONTROL サブタスク &#x200B;] &gt;[!UICONTROL タスクをクリック &#x200B;] &gt; [!UICONTROL タスクをクリック &#x200B;] &gt; [!UICONTROL イシュー &#x200B;]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt; [!UICONTROL クリック ] プロジェクト &gt;[!UICONTROL の問題 ]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL タスク ] &gt;[!UICONTROL タスクをクリック ] &gt; [!UICONTROL イシュー ]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL タスク ] &gt;[!UICONTROL タスクをクリック ] &gt;[!UICONTROL サブタスク ] &gt;[!UICONTROL タスクをクリック ] &gt; [!UICONTROL タスクをクリック ] &gt; [!UICONTROL イシュー ]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -195,56 +195,56 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL ポートフォリオ &#x200B;] &gt;[!UICONTROL ポートフォリオをクリック &#x200B;] &gt; [!UICONTROL ドキュメント &#x200B;]</p> </li> 
-     <li> <p>[!UICONTROL ポートフォリオ &#x200B;] &gt; [!UICONTROL ポートフォリオをクリック &#x200B;] &gt;[!UICONTROL プログラム &#x200B;] &gt;[!UICONTROL プログラムをクリック &#x200B;] &gt;[!UICONTROL ドキュメント &#x200B;]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL ドキュメント &#x200B;]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL タスク &#x200B;] &gt;[!UICONTROL タスクをクリック &#x200B;] &gt; [!UICONTROL ドキュメント &#x200B;]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt; [!UICONTROL クリック &#x200B;] a project &gt; [!UICONTROL Issues] &gt; [!UICONTROL クリック an issue] &gt; [!UICONTROL ドキュメント &#x200B;]</p> </li> 
+     <li> <p>[!UICONTROL ポートフォリオ ] &gt;[!UICONTROL ポートフォリオをクリック ] &gt; [!UICONTROL ドキュメント ]</p> </li> 
+     <li> <p>[!UICONTROL ポートフォリオ ] &gt; [!UICONTROL ポートフォリオをクリック ] &gt;[!UICONTROL プログラム ] &gt;[!UICONTROL プログラムをクリック ] &gt;[!UICONTROL ドキュメント ]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL ドキュメント ]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL タスク ] &gt;[!UICONTROL タスクをクリック ] &gt; [!UICONTROL ドキュメント ]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt; [!UICONTROL クリック ] a project &gt; [!UICONTROL Issues] &gt; [!UICONTROL クリック an issue] &gt; [!UICONTROL ドキュメント ]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>タイムシートのリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Timesheets]／[!UICONTROL All Timesheets]*</p> </li> 
+     <li> <p>[!UICONTROL タイムシート ] &gt; [!UICONTROL すべてのタイムシート ]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>請求料金のリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL 請求率*]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL 請求率*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>請求記録のリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt; [!UICONTROL プロジェクトをクリック &#x200B;] &gt; [!UICONTROL 請求記録 &#x200B;]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt; [!UICONTROL プロジェクトをクリック ] &gt; [!UICONTROL 請求記録 ]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>リスクのリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL リスク &#x200B;]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL リスク ]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>費用のリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL クリック &#x200B;] プロジェクト &gt;[!UICONTROL 費用 &#x200B;]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt; [!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL タスク &#x200B;] &gt;[!UICONTROL タスクをクリック &#x200B;] &gt;[!UICONTROL 費用 &#x200B;]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL クリック ] プロジェクト &gt;[!UICONTROL 費用 ]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt; [!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL タスク ] &gt;[!UICONTROL タスクをクリック ] &gt;[!UICONTROL 費用 ]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>時間エントリのリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL クリック &#x200B;] プロジェクト</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL タスク &#x200B;] &gt;[!UICONTROL タスクをクリック &#x200B;] &gt;[!UICONTROL 時間 &#x200B;]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL クリック &#x200B;] プロジェクト &gt;[!UICONTROL イシュー &#x200B;] &gt;[!UICONTROL クリック &#x200B;] イシュー &gt;[!UICONTROL 時間 &#x200B;]</p> </li>
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL クリック ] プロジェクト</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL タスク ] &gt;[!UICONTROL タスクをクリック ] &gt;[!UICONTROL 時間 ]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL クリック ] プロジェクト &gt;[!UICONTROL イシュー ] &gt;[!UICONTROL クリック ] イシュー &gt;[!UICONTROL 時間 ]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
@@ -259,7 +259,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Setup]／[!UICONTROL Groups]</p> </li>
-     <li> <p>[!UICONTROL 設定 &#x200B;] &gt;[!UICONTROL グループ &#x200B;] &gt;[!UICONTROL 親グループをクリック &#x200B;] &gt;[!UICONTROL サブグループ &#x200B;] </li> 
+     <li> <p>[!UICONTROL 設定 ] &gt;[!UICONTROL グループ ] &gt;[!UICONTROL 親グループをクリック ] &gt;[!UICONTROL サブグループ ] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -293,7 +293,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  </tbody> 
 </table>
 
-指定したエリアではリストをカスタマイズできません。[!DNL Workfront] 管理者は、システムレベルでカスタマイズされたリストを作成できます。また、レポートの編集が可能なアクセスレベルを持っている場合は、このオブジェクトのレポートを作成できます。
+*指定エリアのリストはカスタマイズできません。 [!DNL Workfront] 管理者は、システムレベルでカスタマイズされたリストを作成できます。また、レポートの編集が可能なアクセスレベルを持っている場合は、このオブジェクトのレポートを作成できます。
 
 ## リスト要素
 
@@ -332,11 +332,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 これらの要素は、デフォルトで各リストの上部に表示されます。固定されており、リストをスクロールしても移動しません。各要素を識別するアイコンにポインタを合わせます。
 
-![&#x200B; リスト要素 &#x200B;](assets/nwe-list-elements.png)
+![ リスト要素 ](assets/nwe-list-elements.png)
 
 次のエリアでリスト要素をカスタマイズし、他のユーザーと共有できます。
 
-* システムのデフォルトリスト（この記事の[&#x200B; [!DNL Adobe Workfront]](#default-workfront-lists) のリストの基本を学ぶの節を参照）
+* システムのデフォルトリスト（この記事の[ [!DNL Adobe Workfront]](#default-workfront-lists) のリストの基本を学ぶの節を参照）
 * 自分と共有されているレポート
 
 リストの構成要素は、レポートの構成要素と同じです。
@@ -491,7 +491,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL Summary]</td> 
-   <td> <p>選択した項目の [!UICONTROL Summary] ボックスの表示と非表示を切り替えます。</p> <p>これは、タスクとイシューに対してのみ使用できます。</p> <p>[!UICONTROL の概要 &#x200B;] パネルについては、<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref"> 概要の概要 </a> を参照してください。</p> </td> 
+   <td> <p>選択した項目の [!UICONTROL Summary] ボックスの表示と非表示を切り替えます。</p> <p>これは、タスクとイシューに対してのみ使用できます。</p> <p>[!UICONTROL の概要 ] パネルについては、<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref"> 概要の概要 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -625,15 +625,15 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 * 標準リスト
 
-  ![&#x200B; 標準プロジェクトリスト &#x200B;](assets/standard-list-screen-shot-gray-groupings.png)
+  ![ 標準プロジェクトリスト ](assets/standard-list-screen-shot-gray-groupings.png)
 
 * 拡張リスト
 
-  ![&#x200B; 拡張リスト &#x200B;](assets/enhanced-status-list.png)
+  ![ 拡張リスト ](assets/enhanced-status-list.png)
 
 各拡張リストの機能は、アクセス元のページによって異なります。
 
-拡張リストの詳細については、「[&#x200B; 拡張リストの使用 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)」を参照してください。
+拡張リストの詳細については、「[ 拡張リストの使用 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)」を参照してください。
 
 
 
@@ -649,25 +649,19 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
   </tr> 
   <tr>
   <td> <p>デフォルトで<strong>すべて</strong>の項目または最大で <strong>2000 個</strong>の項目を表示</p> </td> 
-   <td> デフォルトで最大 100 個の項目を表示し、スクロール後に最大 2000 個の項目を表示します </td> 
+   <td> 手動でスクロールした後にリスト内のすべての項目を表示する </td> 
   </tr>
 
 <tr> 
-   <td>リストの上部にあるアイコンは、アクセス場所に関係なく、すべてのリストでいくらか一貫しています。 一部のリスト、タスク、イシューまたはドキュメントには、これらのオブジェクトタイプの機能に関連する一意のアイコンがあります。 </td> 
-   <td>リストの上部にあるアイコンは、リストにアクセスする場所によって異なります。 また、リストの下部には、リストで項目を選択すると表示される青いバーがあります。</td> 
+   <td>リスト内の項目の操作は、すべてのオブジェクトタイプで一貫しており、リスト上部のアイコンを使用して行われます。  </td> 
+   <td>リスト内の項目の操作は、オブジェクトのタイプによって異なる場合があります。これを行うには、リスト項目を選択した後でアクティブになった青いツールバーに加えて、リスト上部のアイコンを使用します。 </td> 
   </tr>
 
-<tr> 
-   <td> <p>リスト上部のツールバーにあるアイコンを使用して、リスト内の項目を操作します</p> </td> 
-   <td> <p>更新する内容に応じて、次のいずれかの操作を行って、リスト内の項目を操作します。</p>
-   <ul><li>上部のツールバーにあるアイコンを使用して、検索、新しい項目の追加、並べ替え、フィルタリングなどのアクションを実行します</li>
-   <li>リストで項目を選択し、そのリストの下部にある青いツールバーのアイコンを使用して、項目の削除や表示などの一部のアクションを実行します</li></ul> 
-   </tr>   
-   </td> 
+</td> 
   </tr> 
   <tr> 
    <td><p>リスト内の項目にセルの色の変更を適用できます</p></td>
-   <td><p>セルの色の変更は、Workfront Planning でのみ、リスト内のアイテムに適用できます。 </p></td>
+   <td><p>リスト内の項目にセルの色の変更を適用することはできません。 </p></td>
    </td> 
    <td></td> 
   </tr> 
