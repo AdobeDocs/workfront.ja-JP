@@ -9,20 +9,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 88%
+source-wordcount: '468'
+ht-degree: 81%
 
 ---
 
 # 新しいライセンスによるオブジェクトやエリアへのアクセス
 
+{{highlighted-preview}}
+
 <!-- Audited: 2/2024 -->
 
 >[!NOTE]
 >
->この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+>この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 
 次の表に、各 Adobe Workfront ライセンスで Workfront のオブジェクトとエリアに対して許可されている最高レベルのアクセス（編集または表示）を示します。
 
@@ -44,7 +46,7 @@ ht-degree: 88%
     <tr>
         <td>プロジェクト</td>
         <td>編集</td>
-        <td>表示</td>
+        <td><span class="preview">編集**</span></td>
         <td>表示</td>
         <td>アクセスなし</td>
     </tr>
@@ -149,6 +151,8 @@ ht-degree: 88%
 </table>
 
 &#42; 投稿者ライセンスを持つユーザーは、自分と共有されているレポート、ダッシュボード、およびカレンダーのみを表示できます。
+
+Light ライセンスを持つ <span class="preview">&#42;&#42; ユーザーは、編集アクセスが有効な場合にのみ、プロジェクトレベルで時間を記録できます。 プロジェクトの作成、編集、削除、共有はできません。 ライト ユーザの既定レベルはビューです。</span>
 
 >[!NOTE]
 >
