@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
+source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 22%
@@ -25,7 +25,7 @@ ht-degree: 22%
 >* プレビュー：2025 年 10 月 13 日（PT）
 >* 実稼動高速リリース：2025 年 10 月 13 日（PT）
 >* 実稼動版（すべてのお客様向け）：2025年10月13日（PT）
->[!BADGE 予定外 &#x200B;]{type=Neutral}
+>[!BADGE 予定外 ]{type=Neutral}
 
 レポートの「概要」タブが更新され、次の機能が強化されました。
 
@@ -69,7 +69,9 @@ Workfront管理者には、組織がAdobe統合エクスペリエンスに移行
 
 詳しくは、[Workfront の Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
-[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3412388/){target=_blank}##拡張リストの更新
+[この機能のデモビデオを見る](https://video.tv.adobe.com/v/3412388/){target=_blank}
+
+## 拡張リストの更新
 
 >[!NOTE]
 >
@@ -82,4 +84,4 @@ Workfront管理者には、組織がAdobe統合エクスペリエンスに移行
 * 自分の要求ウィジェット
 * 優先度
 
-詳しくは、[&#x200B; 拡張リストの使用 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
+詳しくは、[ 拡張リストの使用 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
