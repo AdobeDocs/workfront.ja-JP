@@ -15,7 +15,7 @@ ht-degree: 31%
 
 このページでは、2026 年第 1 四半期リリースでプレビュー環境に加えられた機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
-2025 年第 4 四半期のリリースサイクルの現時点で利用できるすべての変更のリストについては、[2026 年第 1 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md) を参照してください。
+2025 年第 4 四半期のリリースサイクルの現時点で利用できるすべての変更のリストについては、[2026 年第 1 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md) を参照してください。
 
 
 ## 複数選択フィールドの選択制限

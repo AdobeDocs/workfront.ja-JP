@@ -25,7 +25,7 @@ ht-degree: 22%
 >* プレビュー：2025 年 10 月 13 日（PT）
 >* 実稼動高速リリース：2025 年 10 月 13 日（PT）
 >* 実稼動版（すべてのお客様向け）：2025年10月13日（PT）
->[!BADGE 予定外 ]{type=Neutral}
+>[!BADGE 予定外 &#x200B;]{type=Neutral}
 
 レポートの「概要」タブが更新され、次の機能が強化されました。
 
@@ -84,4 +84,4 @@ Workfront管理者には、組織がAdobe統合エクスペリエンスに移行
 * 自分の要求ウィジェット
 * 優先度
 
-詳しくは、[ 拡張リストの使用 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
+詳しくは、[&#x200B; 拡張リストの使用 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
