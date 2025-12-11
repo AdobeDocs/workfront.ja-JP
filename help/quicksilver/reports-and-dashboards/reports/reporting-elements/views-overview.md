@@ -64,7 +64,7 @@ Workfront のリストやレポートに適用できるビューのタイプは�
 
 標準ビューの要素を共有できます。
 
-標準ビューの共有方法の詳細については、「[ フィルター、ビュー、グループ化を共有する ](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)」を参照してください。
+標準ビューの共有方法の詳細については、「[&#x200B; フィルター、ビュー、グループ化を共有する &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)」を参照してください。
 
 ガント ビューとアジャイル ビューは共有できません。 これらのビューが表示される領域にアクセスできるユーザーは誰でも、同じ情報を表示できます。
 
@@ -76,7 +76,7 @@ Workfront のリストやレポートに適用できるビューのタイプは�
 
 ガント ビューまたはアジャイル ビューは削除できません。
 
-標準ビューの削除の詳細については、「[ フィルター、ビュー、グループの削除 ](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)」を参照してください。
+標準ビューの削除の詳細については、「[&#x200B; フィルター、ビュー、グループの削除 &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)」を参照してください。
 
 <!-- add something about the enhanced views here, when we have a link-->
 

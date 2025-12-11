@@ -73,7 +73,7 @@ ht-degree: 63%
 
 1. 「**+新規ビュー**」ボタンをクリックして、新規ビューを作成します。
 または
-編集する既存のビューの右側にマウスポインターを置くと表示される **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+編集する既存のビューの右側にマウスポインターを置くと表示される **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
 **ビューをカスタマイズ**&#x200B;ダイアログボックスが表示されます。
 
 1. 「**列のプレビュー**」セクションで、以下のいずれかを行います。
@@ -167,7 +167,7 @@ ht-degree: 63%
 
 これらは事前に設定されていますが、特定の設定を変更できます。
 
-アジャイル ビューまたはボード ビューの詳細については、「[ アジャイル ビューでプロジェクトを管理する ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)」を参照してください。
+アジャイル ビューまたはボード ビューの詳細については、「[&#x200B; アジャイル ビューでプロジェクトを管理する &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)」を参照してください。
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
