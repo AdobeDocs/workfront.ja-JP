@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 8%
+source-wordcount: '359'
+ht-degree: 9%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 8%
 
 * 誰かがあなたまたはチームをレコードコメントでタグ付けします
 
-  レコードコメント内の他のタグ付けについて詳しくは、[&#x200B; レコードコメントの管理 &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
-* 他のユーザーから、ビューまたはワークスペースにアクセスする許可を要求されています
-* ビューまたはワークスペース <!--Isk confirmed there is no notification for denying permissions - did not test--> ーバーへのアクセスが許可されたことを確認するメッセージが表示されます
+  レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
+* 他のユーザーから、ビューまたはワークスペース <!--<span class="preview">or record</span>--> にアクセスする許可を要求されています
+* ビューまたはワークスペース <!--<span class="preview">or record</span>--> ーバーへのアクセスが許可されたことを確認するメッセージが表示されます <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## アクセス要件
 
@@ -64,7 +64,7 @@ ht-degree: 8%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -142,9 +142,9 @@ OLD:
 
 ## コメントで誰かがあなたをタグ付けしたとき、アプリ内通知を管理します
 
-1. （条件付き）誰かがレコードのコメントで自分またはチームをタグ付けした後、Adobe Experience Cloudのアプリ内 **通知** アイコン ![Experience Cloud 通知アイコン &#x200B;](assets/experience-cloud-notifications-icon.png) に移動します。
+1. （条件付き）誰かがレコードのコメントで自分またはチームをタグ付けした後、Adobe Experience Cloudのアプリ内 **通知** アイコン ![Experience Cloud 通知アイコン ](assets/experience-cloud-notifications-icon.png) に移動します。
 
-   ![&#x200B; アプリ内通知の例 &#x200B;](assets/in-app-notification-example.png)
+   ![ アプリ内通知の例 ](assets/in-app-notification-example.png)
 
 1. 通知をクリックします。
 
@@ -155,8 +155,8 @@ OLD:
 
 ## 権限をリクエストおよび付与する際のアプリ内通知の管理
 
-ビューやワークスペースに対する権限を要求または付与された場合、アプリ内通知を受け取ります。
+ビューやワークスペースに対する権限を要求または付与された場合、アプリ内通知を受け取ります。<!--<span class="preview">or record</span>-->
 
-ビューまたはワークスペースに対する権限の要求、付与、または拒否の詳細については、[&#x200B; ビューまたはワークスペースに対する権限の要求 &#x200B;](/help/quicksilver/planning/access/request-permissions.md) を参照してください。
+権限のリクエスト、付与または拒否について詳しくは、[ ビューまたはワークスペースに対する権限のリクエスト ](/help/quicksilver/planning/access/request-permissions.md) を参照してください。
 
-Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 &#x200B;](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。
+Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 ](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。
