@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
+source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 3%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
@@ -66,14 +66,14 @@ Workfront ProofとAdobe Expressを使用すると、次のことができます
 
 * Adobe Expressと、Workfront Standard ライセンスを持つ少なくとも 1 つのWorkfront環境にアクセスするための権限が必要です。
 
-* Adobe Expressでドラフトのレビューを開始する前に、[Adobe Workfront レビューツールを使用してインタラクティブコンテンツをレビュー &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) をインストールする必要があります。
+* Adobe Expressでドラフトのレビューを開始する前に、[Adobe Workfront レビューツールを使用してインタラクティブコンテンツをレビュー ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) をインストールする必要があります。
 
 
 ## Workfrontでの承認ワークフローの設定
 
 標準ライセンスを持つプルーフ管理者は、ユーザーが Express テンプレートに承認ワークフローを追加する前に、Workfrontで承認ワークフローを作成する必要があります。
 
-詳しくは、[&#x200B; 自動ワークフローテンプレートの作成と管理 &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) を参照してください。
+詳しくは、[ 自動ワークフローテンプレートの作成と管理 ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) を参照してください。
 
 ## Express テンプレートに承認ワークフローを追加する
 
@@ -83,7 +83,7 @@ Express テンプレートを混在し直す場合は、公開する前に承認
 
 Adobe Expressの承認をリクエストするには、標準Workfront ライセンスが必要です。
 
-[&#x200B; デザインの承認を得る &#x200B;](https://helpx.adobe.com/jp/express/web/share-and-publish/share-and-collaborate/request-approval.html) 方法を説明します。
+[ デザインの承認を得る ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html) 方法を説明します。
 
 
 ## Express テンプレートをリミックスして、レビューと承認を受けるために送信
@@ -97,8 +97,13 @@ Adobe Express ユーザーは、ニーズに合わせて Express テンプレー
 * コメントを読む
 * その他
 
-<!--Learn how to get approval on designs.   
-need link to help article-->
+### 承認を要求するときにWorkfront プロジェクトを選ぶ
+
+再混在 Express テンプレートに対する承認をリクエストする際に、配達確認を送信するWorkfront プロジェクトを選択できます。 これにより、関連するすべてのアセットとプルーフを同じプロジェクト内で整理できます。
+
+プロジェクトが選択されていない場合、プルーフはデフォルトで Express 固有のプロジェクトに設定されます。
+
+詳しくは、[ レビューおよび承認用のテンプレートの送信 ](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html) を参照してください。
 
 ## Remixed Express ファイルの確認と承認
 
