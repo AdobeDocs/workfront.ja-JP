@@ -83,7 +83,7 @@ Express テンプレートを混在し直す場合は、公開する前に承認
 
 Adobe Expressの承認をリクエストするには、標準Workfront ライセンスが必要です。
 
-[&#x200B; デザインの承認を得る &#x200B;](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html) 方法を説明します。
+[&#x200B; デザインの承認を得る &#x200B;](https://helpx.adobe.com/jp/express/web/share-and-publish/share-and-collaborate/request-approval.html) 方法を説明します。
 
 
 ## Express テンプレートをリミックスして、レビューと承認を受けるために送信
@@ -103,7 +103,7 @@ Adobe Express ユーザーは、ニーズに合わせて Express テンプレー
 
 プロジェクトが選択されていない場合、プルーフはデフォルトで Express 固有のプロジェクトに設定されます。
 
-詳しくは、[&#x200B; レビューおよび承認用のテンプレートの送信 &#x200B;](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html) を参照してください。
+詳しくは、[&#x200B; レビューおよび承認用のテンプレートの送信 &#x200B;](https://helpx.adobe.com/jp/express/web/invite-collaborate/request-approval.html) を参照してください。
 
 ## Remixed Express ファイルの確認と承認
 
