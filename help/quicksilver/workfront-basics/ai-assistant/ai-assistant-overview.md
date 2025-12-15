@@ -5,9 +5,9 @@ description: Adobe Workfront の AI アシスタントについて
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 44db621643c76ab1f2c1b51d5e81cb0d1f827a58
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '851'
 ht-degree: 7%
 
 ---
@@ -54,18 +54,18 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 * 組織には Select、Prime、UltimateのいずれかのWorkfront プランが必要です
 * Adobeは、ファイルにAdobe生成 AI 契約を署名済みにする必要があります
 
-  契約の署名について詳しくは、この記事の [Adobe生成 AI 契約への署名 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
+  契約の署名について詳しくは、この記事の [Adobe生成 AI 契約への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
 
 ## AI アシスタントに関する考慮事項
 
 * AI アシスタントは、開いているページのコンテキストに依存します。 例えば、プロジェクトページで「このプロジェクトを要約」を AI アシスタントに入力すると、その特定のプロジェクトの概要が返されます。
 * Workfront管理者は、組織内のユーザーに対して AI アシスタントを有効にする必要があります。 AI アシスタントはアクセスレベルで有効になります。
 
-  詳しくは、[AI アシスタントを有効または無効にする &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+  詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
 * Workfront Planning AI Assistant には、Workfront AI Assistant とは異なる機能があります。
 
-  Adobe Workfront計画の AI アシスタントについて詳しくは、[Workfront計画 AI アシスタントの概要 &#x200B;](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) を参照してください。
+  Adobe Workfront計画の AI アシスタントについて詳しくは、[Workfront計画 AI アシスタントの概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) を参照してください。
 
 * AI アシスタントは現在、英語でのみ利用できます。
 
@@ -76,15 +76,15 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
 * プロジェクト、タスク、イシューまたはドキュメントの要約。
 
-  詳細については、[AI アシスタントを使用して要約する &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md) を参照してください。
+  詳細については、[AI アシスタントを使用して要約する ](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md) を参照してください。
 
 * Adobe Experience League に関するWorkfront ドキュメントから取得した手順や参照情報を提供する。
 
-  詳細については、「[AI アシスタントからヘルプを表示する &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)」を参照してください。
+  詳細については、「[AI アシスタントからヘルプを表示する ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)」を参照してください。
 
 * Workfront内の特定の項目を検索する。
 
-  詳しくは、[AI アシスタントを使用して、プロジェクト、タスク、問題を操作する &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) を参照してください。
+  詳しくは、[AI アシスタントを使用して、プロジェクト、タスク、問題を操作する ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) を参照してください。
 
 * 計算されたカスタム フィールドの数式を生成または調整しています。
 
@@ -92,11 +92,11 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
   >
   >この機能は、PrimeまたはUltimate Workfront プランを利用している組織のみが使用できます。
 
-  詳細については、[AI アシスタントを使用して計算フィールドの数式を生成または変更する &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) を参照してください。
+  詳細については、[AI アシスタントを使用して計算フィールドの数式を生成または変更する ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) を参照してください。
 
 * プロジェクトに関する更新、アップロードされたドキュメント、その他の注目すべき変更を優先度の 24 時間、3 日、7 日間の期間内にまとめます。
 
-詳しくは、[&#x200B; 優先度の作業のキャッチアップ &#x200B;](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
+詳しくは、[ 優先度の作業のキャッチアップ ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
 
 
 ## AI アシスタントで使用可能なオブジェクトタイプ
@@ -115,7 +115,7 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
 ## AI アシスタントへのアクセス
 
-1. Workfront ページの上部で、「AI アシスタント」アイコン ![AI アシスタントのアイコン &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) をクリックします。
+1. Workfront ページの上部で、「AI アシスタント」アイコン ![AI アシスタントのアイコン ](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) をクリックします。
 1. 質問を入力するか、画面の右側にあるパネルにプロンプトを表示します。
 
    このパネルに入力できない場合は、署名済みのAdobe Gen AI 契約がファイルにありません。
@@ -133,12 +133,16 @@ Adobe生成 AI 契約に署名されていないときに、ユーザーが AI �
 
 Adobe生成 AI 契約をリクエストするには：
 
-1. Workfrontの管理者は、「AI アシスタント」アイコン ![AI アシスタントのアイコン &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) をクリックします。
+1. Workfrontの管理者は、「AI アシスタント」アイコン ![AI アシスタントのアイコン ](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) をクリックします。
 1. AI アシスタント パネルで入力を開始します。
 1. Adobe生成 AI 契約メッセージが表示されたら、「**契約を確認**」をクリックします。
 1. Adobe Gen AI 契約に署名する組織内の個人の名前とメールアドレスを入力します。
 
    契約書はこのユーザーに送信され、署名が行われます。 署名して返された後、Adobeが契約書を確認し、組織に対して AI アシスタントが有効になります。
+
+   >[!NOTE]
+   >
+   >Adobeが AI アシスタントを確認して有効にするには、契約書に署名して返してから 1 ～ 3 営業日かかります。
 
 ## AI アシスタントでプロンプトを作成するためのヒント
 
