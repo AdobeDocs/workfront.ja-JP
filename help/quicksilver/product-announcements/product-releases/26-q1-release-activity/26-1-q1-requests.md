@@ -29,7 +29,7 @@ ht-degree: 7%
 
 この機能にアクセスするには、組織の AI が有効になっている必要があります。
 
-組織の AI を有効にするために必要なことなど、AI を利用したフォーム入力について詳しくは、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) を参照してください。
+組織の AI を有効にするために必要なことなど、AI を利用したフォーム入力について詳しくは、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) を参照してください。
 
 <!--## Share views in the Requests area and the My Requests widget
 
@@ -60,7 +60,7 @@ For information on request views, including sharing, see [Create and manage view
 
 従来のリクエストエクスペリエンスで作成されたドラフトは、新しいリクエストエクスペリエンスで利用できます。
 
-リクエストドラフトについて詳しくは、「[ ドラフトからのリクエストの作成 ](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)」を参照してください。
+リクエストドラフトについて詳しくは、「[&#x200B; ドラフトからのリクエストの作成 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)」を参照してください。
 
 ## 新しい要求エクスペリエンスで送信済み要求を削除
 
@@ -74,7 +74,7 @@ For information on request views, including sharing, see [Create and manage view
 
 以前は、リクエストの削除は使用できませんでした。
 
-詳細と手順については、[ 送信されたリクエストまたはリクエストドラフトの削除 ](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) を参照してください。
+詳細と手順については、[&#x200B; 送信されたリクエストまたはリクエストドラフトの削除 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) を参照してください。
 
 
 ## 以前に送信したリクエストを新しいリクエストエクスペリエンスにコピーして、新しいリクエストを作成します
@@ -89,7 +89,7 @@ For information on request views, including sharing, see [Create and manage view
 
 以前は、この機能は、新しいリクエスト用エクスペリエンスでは使用できませんでした。
 
-リクエストのコピーと送信について詳しくは、[ リクエストのコピーと送信 ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
+リクエストのコピーと送信について詳しくは、[&#x200B; リクエストのコピーと送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
 
 
 
