@@ -4,7 +4,7 @@ description: 2026 年第 1 四半期リクエストの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cf4c5888f58cb51c26176eae4aa1c8e011bbecf8
+source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 7%
@@ -29,7 +29,7 @@ ht-degree: 7%
 
 この機能にアクセスするには、組織の AI が有効になっている必要があります。
 
-組織の AI を有効にするために必要なことなど、AI を利用したフォーム入力について詳しくは、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) を参照してください。
+組織の AI を有効にするために必要なことなど、AI を利用したフォーム入力について詳しくは、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) を参照してください。
 
 <!--## Share views in the Requests area and the My Requests widget
 
@@ -51,7 +51,7 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >プレビュー：2025 年 11 月 20 日（PT）
->実稼動高速リリース：2026 年 12 月 11 日（PT）\
+>実稼動高速リリース：2026 年 1 月 14 日（PT）\
 >すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
 
 リクエストの作成と送信を簡単にするために、新しいリクエスト用エクスペリエンスにドラフトを保存する機能が追加されました。 リクエストの入力を開始して閉じると、リクエストはドラフト ステータスで保存され、ドラフトの作成に使用したリクエストフォームに表示されます。 その後、必要に応じてドラフトを再度開き、更新して送信できます。
@@ -60,7 +60,7 @@ For information on request views, including sharing, see [Create and manage view
 
 従来のリクエストエクスペリエンスで作成されたドラフトは、新しいリクエストエクスペリエンスで利用できます。
 
-リクエストドラフトについて詳しくは、「[&#x200B; ドラフトからのリクエストの作成 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)」を参照してください。
+リクエストドラフトについて詳しくは、「[ ドラフトからのリクエストの作成 ](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)」を参照してください。
 
 ## 新しい要求エクスペリエンスで送信済み要求を削除
 
@@ -74,7 +74,7 @@ For information on request views, including sharing, see [Create and manage view
 
 以前は、リクエストの削除は使用できませんでした。
 
-詳細と手順については、[&#x200B; 送信されたリクエストまたはリクエストドラフトの削除 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) を参照してください。
+詳細と手順については、[ 送信されたリクエストまたはリクエストドラフトの削除 ](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) を参照してください。
 
 
 ## 以前に送信したリクエストを新しいリクエストエクスペリエンスにコピーして、新しいリクエストを作成します
@@ -89,7 +89,7 @@ For information on request views, including sharing, see [Create and manage view
 
 以前は、この機能は、新しいリクエスト用エクスペリエンスでは使用できませんでした。
 
-リクエストのコピーと送信について詳しくは、[&#x200B; リクエストのコピーと送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
+リクエストのコピーと送信について詳しくは、[ リクエストのコピーと送信 ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
 
 
 
