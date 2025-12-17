@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1945'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Workspace Manager がAdobe Workfront Planning でレコードタイプのリク�
 
 Workfront ユーザーと外部ユーザーは、Planning レコードタイプに対してリクエストを送信し、レコードを作成できます。<!--double check on the external users-->
 
-ワークスペースマネージャーがリクエストフォームを作成し、レコードタイプに関連付ける方法について詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+ワークスペースマネージャーがリクエストフォームを作成し、レコードタイプに関連付ける方法について詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ## アクセス要件
 
@@ -61,7 +61,7 @@ Workfront ユーザーと外部ユーザーは、Planning レコードタイプ�
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>外部、コントリビューター、ライト、または標準のライセンス</p> 
+   <td><p>任意</p> 
   </td> 
   </tr> 
   <tr> 
@@ -71,7 +71,7 @@ Workfront ユーザーと外部ユーザーは、Planning レコードタイプ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -85,7 +85,7 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
    * レコードタイプ。
    * レコードタイプに関連付けられたリクエストフォーム。
 
-     詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+     詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 * リクエストフォームは、アクセス可能な方法で共有する必要があります。 次のシナリオが存在します。
 
@@ -109,7 +109,7 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 * 送信されたリクエストは、Workfrontの「リクエスト」領域の「送信済み」セクションの「計画」タブに表示されます。
 * フォーム送信後のリクエストフォームまたはリクエストの詳細ページでの特定のフィールドタイプの表示方法には制限があります。
 
-  詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+  詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -154,9 +154,9 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
    * リクエストフォームが承認に関連付けられている場合、リクエストは「Workfront リクエスト」エリアの「送信済み」セクションの「計画」タブに追加されます。 新しいレコードは、すべての承認者が承認した後にのみ、レコードタイプページに追加されます。
 
-     詳しくは、[&#x200B; リクエストフォームへの承認の追加 &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
+     詳しくは、[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
 
-     ![&#x200B; 「統合ワークフロー計画」タブの切替スイッチが付いたリクエスト領域 &#x200B;](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
+     ![ 「統合ワークフロー計画」タブの切替スイッチが付いたリクエスト領域 ](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
 
      >[!IMPORTANT]
      >
@@ -181,7 +181,7 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
 
    * 「**フィルター**」をクリックして、「計画」タブに表示するリクエストの条件の追加を開始します。
 
-     ![&#x200B; 「計画要求」タブでのフィルターの編集 &#x200B;](assets/filters-editing-box-in-requests-planning-tab.png)
+     ![ 「計画要求」タブでのフィルターの編集 ](assets/filters-editing-box-in-requests-planning-tab.png)
 
      次のフィールドでフィルタリングできます。
 
@@ -210,7 +210,7 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
 
    リクエストの詳細ページが開きます。
 
-   ![&#x200B; コメント付きのリクエストページ &#x200B;](assets/new-request-page-with-comment.png)
+   ![ コメント付きのリクエストページ ](assets/new-request-page-with-comment.png)
 
 1. （オプション）「コメント」領域にコメントを入力します。
 1. （条件付き）リクエストフォームが承認と関連付けられていない場合、またはリクエストが承認されている場合は、リクエストの名前をクリックし、「**レコード**」フィールドのレコードの名前をクリックします。
@@ -247,9 +247,9 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
 
    * リクエストフォームが承認に関連付けられている場合、リクエストは「Workfront リクエスト」エリアの「送信済み」セクションの「計画」タブに追加されます。 新しいレコードは、すべての承認者が承認した後にのみ、レコードタイプページに追加されます。
 
-     詳しくは、[&#x200B; リクエストフォームへの承認の追加 &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
+     詳しくは、[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
 
-     ![&#x200B; リクエストの「計画」タブ &#x200B;](assets/planning-tab-in-requests.png)
+     ![ リクエストの「計画」タブ ](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
@@ -274,7 +274,7 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
 
    リクエストの詳細ページが開きます。
 
-   ![&#x200B; コメント付きのリクエストページ &#x200B;](assets/new-request-page-with-comment.png)
+   ![ コメント付きのリクエストページ ](assets/new-request-page-with-comment.png)
 
 
 

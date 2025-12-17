@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 4%
@@ -69,7 +69,7 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>Standard</p> 
+   <td><p>任意</p> 
   </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -101,20 +101,20 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. （条件付き）従来のWorkfrontのリクエストエクスペリエンスを使用している場合は、次のいずれかの操作を行ってリクエストを開きます。
 
-   * Workfront Planning へのアクセス権を持ち、少なくとも 1 つの作業領域を表示できる場合、画面の右上隅にある **メインメニュー**![&#x200B; ドットのメインメニュー &#x200B;](assets/dots-menu.png) または左上隅にある **メインメニュー**![&#x200B; ラインのメインメニュー &#x200B;](assets/lines-menu.png) をクリックし、**要求**/**送信済み**/**計画** をクリックし、**レビュー保留中** または **レビュー中** のステータスで要求をクリックします。
+   * Workfront Planning へのアクセス権を持ち、少なくとも 1 つの作業領域を表示できる場合、画面の右上隅にある **メインメニュー**![ ドットのメインメニュー ](assets/dots-menu.png) または左上隅にある **メインメニュー**![ ラインのメインメニュー ](assets/lines-menu.png) をクリックし、**要求**/**送信済み**/**計画** をクリックし、**レビュー保留中** または **レビュー中** のステータスで要求をクリックします。
 
      >[!TIP]
      >
      >Workfront Planning へのアクセス権がない場合、またはワークスペースを表示するアクセス権がない場合は、メールまたはアプリ内通知を使用して承認するリクエストにのみアクセスできます。
 
-   * 画面の右上隅にある「**通知**」領域アイコン ![&#x200B; 統合シェルの通知領域アイコン &#x200B;](assets/notifications-area-icon-unified-shell.png) をクリックし、承認待ちの要求に関する通知をクリックして要求を開きます。
+   * 画面の右上隅にある「**通知**」領域アイコン ![ 統合シェルの通知領域アイコン ](assets/notifications-area-icon-unified-shell.png) をクリックし、承認待ちの要求に関する通知をクリックして要求を開きます。
    * 承認待ちのリクエストを通知するメール内のメール通知に移動し、「**リクエストを開く**」をクリックしてリクエストを開きます。<!--add the name of the button here, from the email-->
 
    リクエストページが読み取り専用モードで開きます。
 
-   ![&#x200B; レビューステータスの読み取り専用リクエストページ &#x200B;](assets/read-only-reqeust-page-in-review-status.png)
-1. Workfrontで新しい要求操作を使用している場合、画面の右上隅にある **メインメニュー**![&#x200B; ドットのメインメニュー &#x200B;](assets/dots-menu.png) をクリックするか、または左上隅にある **メインメニュー**![&#x200B; ラインのメインメニュー &#x200B;](assets/lines-menu.png) をクリックし（使用可能な場合）、**要求** をクリックし、**レビュー保留中** または **レビュー中** の状態で承認する要求をクリックします。
-1. （任意）リクエストの右上隅にある **承認** アイコン ![&#x200B; 承認アイコン &#x200B;](assets/approvals-icon.png) をクリックして、承認者を表示します。
+   ![ レビューステータスの読み取り専用リクエストページ ](assets/read-only-reqeust-page-in-review-status.png)
+1. Workfrontで新しい要求操作を使用している場合、画面の右上隅にある **メインメニュー**![ ドットのメインメニュー ](assets/dots-menu.png) をクリックするか、または左上隅にある **メインメニュー**![ ラインのメインメニュー ](assets/lines-menu.png) をクリックし（使用可能な場合）、**要求** をクリックし、**レビュー保留中** または **レビュー中** の状態で承認する要求をクリックします。
+1. （任意）リクエストの右上隅にある **承認** アイコン ![ 承認アイコン ](assets/approvals-icon.png) をクリックして、承認者を表示します。
 1. 「**レビューして承認**」をクリックして、次のいずれかを選択します。
 
    * **承認**：リクエストを承認します。 すべての承認者がリクエストを承認すると、リクエストフォームに関連付けられたレコードタイプのレコードが直ちに作成されます。

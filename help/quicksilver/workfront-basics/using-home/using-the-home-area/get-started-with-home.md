@@ -6,7 +6,7 @@ description: ホームは、作業を管理するのに役立ちます。 この
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 69%
@@ -16,6 +16,10 @@ ht-degree: 69%
 # ホームの基本を学ぶ
 
 <!--Audited: 12/2023-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -63,10 +67,16 @@ Adobe Workfront の新しいホームエクスペリエンスは、現在のホ�
     承認待ち、割り当て、委任、送信済みのすべての承認、承認を委任するボタン、ウィジェット内で直接承認に関する決定を行うボタンが表示されます。
 
 * **ドキュメント承認指標**\
-        平均ドキュメント承認時間および決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリスト ビューを表示します。 このウィジェットを使用するには、[&#x200B; 統合承認 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を有効にする必要があります。
+        平均ドキュメント承認時間および決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリスト ビューを表示します。 このウィジェットを使用するには、[ 統合承認 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を有効にする必要があります。
 
 * **メンション**\
-    マイアップデート ページと同様に、Workfront全体からの最近のコメントスレッドを表示します。 返信ボタンを使用して、ウィジェット内で返信を作成できます。このウィジェットには、タスクまたはイシューが過去 30 日間に更新されている限り、自分が割り当てられている、他のユーザーに割り当てられている、自分が所有している、自分がプライマリ連絡先である、または自分が作成したタスクとイシューに関して作成されたコメントも表示されます。
+    <!--In the Production environment, it--> マイアップデート ページと同様に、Workfront全体からの最近のコメントスレッドを表示します。 返信ボタンを使用して、ウィジェット内で返信を作成できます。このウィジェットには、タスクまたはイシューが過去 30 日間に更新されている限り、自分が割り当てられている、他のユーザーに割り当てられている、自分が所有している、自分がプライマリ連絡先である、または自分が作成したタスクとイシューに関して作成されたコメントも表示されます。
+
+  <!--<div class="preview">
+
+    In the Preview environment, it displays recent comments that you made or comments where other users tagged you that have been added in the past 2 weeks. You can use the reply button to compose a reply within the widget. 
+
+    </div>-->
 
 * **To Do**\
     この独自のウィジェットを使用すると、自由に編集できる個人用チェックリストに項目を追加できます。To-Do は個人プロジェクトのタスクとして追跡され、完了後最大 2 週間保持されます。
