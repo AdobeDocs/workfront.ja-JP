@@ -5,15 +5,16 @@ title: リクエスト エリアでのビューの作成
 description: 新しいリクエスト機能を使用する場合は、「リクエスト」領域のビューを作成して保存できます。
 author: Becky
 feature: Work Management
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 5%
+source-wordcount: '702'
+ht-degree: 9%
 
 ---
 
 # リクエスト エリアでのビューの作成または編集
 
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 新しいリクエスト機能を使用する場合は、「リクエスト」領域のビューを作成して保存できます。 これらの表示には、フィルターと列の配置が含まれます。
 
@@ -63,14 +64,14 @@ ht-degree: 5%
    * 管理者から、Workfront Planning へのアクセス権を付与されています
    * Workfront Planning Workspace に対して少なくとも表示権限がある
 
-   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください
+   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください
 
-1. **表示** ドロップダウン ![&#x200B; 表示ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、「**新しい表示**」を選択します。
+1. **表示** ドロップダウン ![ 表示ドロップダウン ](assets/view-icon-requests.png) をクリックし、「**新しい表示**」を選択します。
 
-   ![&#x200B; 新規ビュー &#x200B;](assets/create-new-view.png)
+   ![ 新規ビュー ](assets/create-new-view.png)
 
 1. 新しいビューの名前を入力し、[**作成**] をクリックします。
-1. [&#x200B; リクエスト エリアでのビューの編集 &#x200B;](#edit-a-view-in-the-requests-area) を続行します。
+1. [ リクエスト エリアでのビューの編集 ](#edit-a-view-in-the-requests-area) を続行します。
 
 ## 「リクエスト」領域でのビューの編集
 
@@ -85,13 +86,28 @@ ht-degree: 5%
    * 管理者から、Workfront Planning へのアクセス権を付与されています
    * Workfront Planning Workspace に対して少なくとも表示権限がある
 
-   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md)1 を参照してください。
+   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md)1 を参照してください。
 
-1. （オプション）ビューの名前を変更するには、「**ビュー**」ドロップダウン ![&#x200B; 「ビュー」ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、ビューの横の「。..」メニューをクリックして「**名前を変更**」を選択し、ビューの新しい名前を入力します。
-1. **表示** ドロップダウン ![&#x200B; 表示ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、編集する表示を選択します。
+1. （オプション）ビューの名前を変更するには、「**ビュー**」ドロップダウン ![ 「ビュー」ドロップダウン ](assets/view-icon-requests.png) をクリックし、ビューの横の「。..」メニューをクリックして「**名前を変更**」を選択し、ビューの新しい名前を入力します。
+1. **表示** ドロップダウン ![ 表示ドロップダウン ](assets/view-icon-requests.png) をクリックし、編集する表示を選択します。
+1. <span class="preview"> 列としてカスタムフィールドを追加するには、画面の右付近にある **列を追加** アイコン ![ 列を追加 ](assets/add-column.png) をクリックし、列としてビューに追加するカスタムフォームフィールドの横にあるプラスアイコンをクリックします。</span>
+
+   <span class="preview"> リスト内のオブジェクトに添付されたフォームのカスタムフィールドは、列として追加できます。</span>
+
+   >[!TIP]
+   >
+   >現在、実稼動環境で列を追加することはできません。
+1. （任意）「**列**」をクリックして、リクエストリストの列の非表示、表示、並べ替えを行います。
+
+   ![ 「列」ボックス ](assets/columns-editing-box-in-requests-planning-tab.png)
+
+   >[!TIP]
+   >
+   >現在、実稼動環境でこれ以上列を追加することはできません。
+
 1. （任意）「**フィルター**」をクリックして、「計画」タブに表示する要求の条件の追加を開始します。
 
-   ![&#x200B; 「計画要求」タブでのフィルターの編集 &#x200B;](assets/filters-editing-box-in-requests-planning-tab.png)
+   ![ 「計画要求」タブでのフィルターの編集 ](assets/filters-editing-box-in-requests-planning-tab.png)
 
    次のフィールドでフィルタリングできます。
 
@@ -102,16 +118,12 @@ ht-degree: 5%
    * **ステータス**：リクエストのステータス。
    * **入力者**：リクエストを追加したユーザーの名前。 Workfront以外のユーザーがリクエストを追加した場合は、「入力者 **フィールドに** が表示さ `N/A` ます。
 
+   <span class="preview"> プレビュー環境では、ビューに追加されたカスタムフィールドでフィルタリングすることもできます。</span>
+
    複数のフィルターを **And** または **Or** で結合できます。
 フィルター条件を追加すると、リクエストリストが自動的にフィルタリングされます。
 
-1. （任意）「**列**」をクリックして、リクエストリストの列の非表示、表示、並べ替えを行います。
 
-   ![&#x200B; 「列」ボックス &#x200B;](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >これ以上列を追加することはできません。
 
 >[!IMPORTANT]
 >
@@ -122,4 +134,4 @@ ht-degree: 5%
 
 Workfront管理者は、新しいビューをレイアウトテンプレートに追加できます。
 
-手順については、[&#x200B; レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
+手順については、[ レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
