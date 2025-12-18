@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 31%
+source-wordcount: '467'
+ht-degree: 24%
 
 ---
 
@@ -41,8 +41,8 @@ Workfront Planning で作成できるオブジェクトの数の制限を次の�
 | 1 行のテキストフィールドの文字数 | 1,000 文字 |
 | 段落フィールドの文字数 | 10,000 文字 |
 | 1 つのレコードタイプの段落フィールドの数 | 20 個の段落フィールド |
-| レコードタイプのテーブルに貼り付けることができるファイルのサイズ | 1 MB |
-| レコードタイプテーブルの API を通じて読み込めるファイルのサイズ | 1.5 MB |
+| レコードタイプのテーブルに情報をインポートするために使用できるファイルのサイズ | 1 MB |
+| API を使用してレコードタイプのテーブルに情報を読み込むために使用できるファイルのサイズ | 1.5 MB |
 | API リクエストを実行できるレート | 1 分あたり 200 件のリクエスト |
 | 1 人のユーザーが 1 つのレコードタイプで作成できるビューの数 | 100 |
 | レコードタイプを作成するために読み込むことができる Excel ファイルの CSV のサイズ | 5 MB |

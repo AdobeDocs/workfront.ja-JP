@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 93%
+source-wordcount: '1067'
+ht-degree: 79%
 
 ---
 
@@ -158,7 +158,7 @@ ht-degree: 93%
 プロジェクトのリストからプロジェクトを削除できます。
 
 1. プロジェクトのリストまたはプロジェクトレポートに移動します。
-1. 削除するプロジェクト（1 つまたは複数）を選択し、リストの上部にある **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+1. 削除するプロジェクト（1 つまたは複数）を選択し、リストの上部にある **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
 
 1. クリック「**はい、削除します**」をクリックして削除を確定します。
 
@@ -167,13 +167,41 @@ ht-degree: 93%
 ## プロジェクトレベルでプロジェクトを削除
 
 1. 削除するプロジェクトに移動します。
-1. プロジェクト名の右側にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) をクリックし、**プロジェクトを削除** をクリックします。
+1. プロジェクト名の右側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックし、**プロジェクトを削除** をクリックします。
 
-   ![&#x200B; 詳細メニューが展開されました &#x200B;](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![ 詳細メニューが展開されました ](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. 「**はい、削除します**」をクリックします。
 
    プロジェクトが削除され、30 日間ごみ箱に保存されます。この間 Workfront 管理者が、削除されたプロジェクトをごみ箱から復元することができます。
+
+## Workfront Planning レコードの接続されたレコード ページからプロジェクトを削除します
+
+>[!NOTE]
+>
+>この節では、Adobe Workfrontの追加機能であるAdobe Workfront Planning について説明します。
+>
+>Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+> 
+>Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+
+Workfront Planning の接続されたレコード ページからプロジェクトにアクセスして削除するには、次のものが必要です：
+
+* Workfront プロジェクトに接続された計画レコードタイプ。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+* 計画レコード。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
+* 計画レコードに接続されているプロジェクトを表示する、接続されているレコード ページ。 詳しくは、[ 接続されたレコードページのレコードへの追加 ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を参照してください。
+
+接続されたレコードページからレコードを削除するには：
+
+1. レコードに接続されたプロジェクトを表示する「接続されたレコード」ページで、プロジェクトの名前にポインタを合わせて **詳細** アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックします。
+
+   または
+
+   リストで 1 つまたは複数のプロジェクトを選択します。 プロジェクトリストの下部に青いバーが表示されます。
+
+1. **削除** をクリックし、**削除** をクリックして確定します。
+
+   プロジェクトが削除され、Workfrontのごみ箱に入れられます。
 
 ## 削除されたプロジェクトの復元
 

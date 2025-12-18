@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 42%
+source-wordcount: '444'
+ht-degree: 40%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -134,18 +134,23 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 {{step1-to-planning}}
 
-1. （条件付き）Workfront管理者の場合は、「**自分が参加しているワークスペース** **」をクリックして作成したワークスペースにアクセスしたり、「その他のワークスペース** をクリックして自分と共有されている他のワークスペースにアクセスしたりします。
+1. （条件付き）Workfrontの管理者は、次のいずれかをクリックします。
+
+   * **現在のワークスペース**：作成したワークスペースにアクセスします
+   * **その他のワークスペース** 共有されている他のワークスペースにアクセスします
+または
+     <span class="preview">**すべてのワークスペース** 自分が作成したワークスペースと共有されているワークスペースにアクセスする </span>
 
 1. （任意）「**すべて表示**」をクリックして、追加のワークスペースを表示します。 **すべてを表示** リンクは、ワークスペースカードが 3 行を超える場合にのみ表示されます。
 1. （任意） ClicK **表示を減らす** を使用して、画面に表示するワークスペースの数を制限します。
 1. ワークスペースを削除するには、次のいずれかの操作を行います。
 
-   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックします
+   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします
 または
-   * <span class="preview"> ワークスペース ページの右上隅にある「**検索**」アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックしてワークスペースを名前で検索し </span> ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックします。
+   * <span class="preview"> ワークスペース ページの右上隅にある「**検索**」アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックしてワークスペースを名前で検索し </span> ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします。
 1. 「**削除**」をクリックします。
 
-   ![&#x200B; ワークスペースを完全に削除する確認 &#x200B;](assets/permanently-delete-workspace-confirmation.png)
+   ![ ワークスペースを完全に削除する確認 ](assets/permanently-delete-workspace-confirmation.png)
 
 1. 表示されたスペースに「**削除**」と入力し、「**完全に削除**」をクリックします。 これは、大文字と小文字を区別しません。
 
