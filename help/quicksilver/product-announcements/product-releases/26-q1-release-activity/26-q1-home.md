@@ -31,5 +31,5 @@ ht-degree: 24%
 
 * メンションウィジェットには、ユーザーが過去 2 週間に行った、またはタグ付けしたコメントが含まれるようになりました。 この更新以前は、自分が割り当てられているタスクや問題、自分が別のユーザーに割り当てられている問題、自分がプライマリ連絡先であった問題、自分が作成し過去 30 日間に更新された問題に対して行われたコメントがウィジェットに表示されていました。
 
-詳しくは、[ ホームの基本を学ぶ ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
+詳しくは、[&#x200B; ホームの基本を学ぶ &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
 

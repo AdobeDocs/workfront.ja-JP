@@ -20,7 +20,7 @@ ht-degree: 7%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
 
 ## Workfront Planning のリクエストフォームの機能強化
@@ -37,7 +37,7 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 * フォームから作成されたリクエストが自動的に完了とマークされるタイミングを設定します。 リクエストされたオブジェクトが作成されたとき、またはリクエストされたオブジェクトが指定した条件に基づいて完了したときに、リクエストを完了とマークするように設定できます。
 <!--* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. -->
 
-リクエストフォームの作成とこれらのオプションの設定について詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+リクエストフォームの作成とこれらのオプションの設定について詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ## タイムライン表示とカレンダー表示への機能のドラッグ&amp;ドロップ
 
@@ -64,7 +64,7 @@ Workfront Planning で行ったリクエストをより簡単に伝えるため�
 
 以前は、Workfront Planning ではリクエストに対するコメントを使用できませんでした。
 
-コメントを含むリクエストの実行の詳細は、「[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+コメントを含むリクエストの実行の詳細は、「[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 <!--## Approve a Workfront Planning request in the My Approvals widget
 
@@ -94,7 +94,7 @@ For more information on approving requests, see [Approve a request in Adobe Work
 * テンプレートなしで新しいプロジェクトを追加できる接続されたプロジェクトを表示する際に、テーブルビューの下部に「新規行」リンクを追加しました
 * Workfront ポートフォリオおよびプログラム用の接続されたレコードページを作成できなくなりました。 接続レコードページは、Workfront プロジェクトに対してのみ作成できます。
 
-詳しくは、[ レコードページの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
+詳しくは、[&#x200B; レコードページの管理 &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
 
 <!--## Unified request form list now available
 
@@ -209,7 +209,7 @@ For more information on creating a request form and configuring these options, s
 >
 >プレビュー：2025 年 9 月 11 日（PT）
 >実稼動版（すべてのお客様向け）：2025年9月11日（PT）
->[!BADGE 予定外 ]{type=Neutral}
+>[!BADGE 予定外 &#x200B;]{type=Neutral}
 
 Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの両方を使用している場合は、GenStudioがデフォルトでサポートしているマーケティング概念よりも詳細に、キャンペーン、商品、ペルソナなどのマーケティング概念を定義してください。
 
@@ -224,7 +224,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 * 重複するデータ入力を避けます。
 * 計画とアクティブ化の取り組み間の整合性を維持します。
 
-詳しくは、[Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
+詳しくは、[Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
 
 ## カレンダーの月次表示でレコードのサイズを変更する
 
@@ -299,7 +299,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 
 この設定は、カレンダービューが月別に表示されている場合にのみ使用できます。 カレンダーが週別に表示されている場合、設定は使用できません。
 
-各オプションの制限を含め、詳しくは [ カレンダー表示の管理 ](/help/quicksilver/planning/views/manage-the-calendar-view.md) を参照してください。
+各オプションの制限を含め、詳しくは [&#x200B; カレンダー表示の管理 &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md) を参照してください。
 
 
 ## テーブル表示で選択タイプのフィールドに新しい選択肢を追加する
@@ -333,8 +333,8 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 
 リクエストの作成について詳しくは、以下を参照してください。
 
-* Workfrontの場合：[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* Workfront Planning の場合：[ レコードを作成するためのAdobe Workfront Planning 要求の発行 ](/help/quicksilver/planning/requests/submit-requests.md)
+* Workfrontの場合：[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* Workfront Planning の場合：[&#x200B; レコードを作成するためのAdobe Workfront Planning 要求の発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## 式フィールドの新しい制限
 
@@ -349,7 +349,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 * レコードタイプあたり 20 個の式フィールドという制限があります
 * 数式には、50,000 文字までの制限があります
 
-詳しくは、[ 式フィールドの概要 ](/help/quicksilver/planning/fields/formula-fields.md) を参照してください。
+詳しくは、[&#x200B; 式フィールドの概要 &#x200B;](/help/quicksilver/planning/fields/formula-fields.md) を参照してください。
 
 ## 数式の値を解決できない場合にエラーを表示する
 
@@ -375,7 +375,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 >
 >プレビュー：2025 年 8 月 7 日（PT）
 >すべてのお客様の実稼動環境：2025 年 8 月
->[!BADGE 予定外 ]{type=Neutral}
+>[!BADGE 予定外 &#x200B;]{type=Neutral}
 
 Workfront Planning の式フィールドとWorkfrontの計算カスタムフィールドに、次のように使用する新しい式を追加しました。
 
@@ -391,7 +391,7 @@ Workfront Planning の式フィールドとWorkfrontの計算カスタムフィ�
 >
 >プレビュー：2025 年 7 月 31 日（PT）
 >実稼動版（すべてのお客様向け）：2025年7月31日（PT）
->[!BADGE 予定外 ]{type=Neutral}
+>[!BADGE 予定外 &#x200B;]{type=Neutral}
 
 レコードテーブルビューで式フィールドを作成または編集する際に、式フィールドを拡大するための「最大化」ボタンを追加しました。 さらに、拡大された新しいウィンドウに「最小化」ボタンを追加して、フィールド作成ボックスに戻しました。
 
@@ -409,7 +409,7 @@ Workfront Planning の式フィールドとWorkfrontの計算カスタムフィ�
 
 この機能強化が行われるまで、接続されたレコード ページで接続されたレコードを表示することができたのは、レコードの詳細領域の全ページでした。
 
-詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
+詳しくは、[&#x200B; レコードページレイアウトの管理 &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
 
 <!--## Updates to Requesting experience 
 
@@ -461,7 +461,7 @@ For more information on creating requests see:
 
 ワークスペースページのレコードタイプカードの「詳細」メニューからレコードタイプを共有できるようになりました。 この機能強化の前は、共有オプションはレコードタイプページ内でのみ使用できました。
 
-詳しくは、[ レコードタイプの共有 ](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
+詳しくは、[&#x200B; レコードタイプの共有 &#x200B;](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
 
 ## すべてのWorkfront Planning ビューをフルスクリーン・モードで表示します
 
@@ -489,7 +489,7 @@ For more information on creating requests see:
 
 以前は、個々のユーザーのみを承認者として割り当てることができました。
 
-詳しくは、[Adobe Workfront Planning のリクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
+詳しくは、[Adobe Workfront Planning のリクエストフォームへの承認の追加 &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
 
 ## レコードの承認情報を表示する新しいフィールド
 
