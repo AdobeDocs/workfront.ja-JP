@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1871'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Workspace Manager がAdobe Workfront Planning でレコードタイプのリク�
 
 Workfront ユーザーと外部ユーザーは、Planning レコードタイプに対してリクエストを送信し、レコードを作成できます。<!--double check on the external users-->
 
-ワークスペースマネージャーがリクエストフォームを作成し、レコードタイプに関連付ける方法について詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+ワークスペースマネージャーがリクエストフォームを作成し、レコードタイプに関連付ける方法について詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ## アクセス要件
 
@@ -71,7 +71,7 @@ Workfront ユーザーと外部ユーザーは、Planning レコードタイプ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -85,7 +85,7 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
    * レコードタイプ。
    * レコードタイプに関連付けられたリクエストフォーム。
 
-     詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+     詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 * リクエストフォームは、アクセス可能な方法で共有する必要があります。 次のシナリオが存在します。
 
@@ -106,10 +106,11 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 * リクエストフォームを送信して作成されたレコードを、Workfront Planning で他の方法を使用して追加されたレコードと区別することはできません。
 
   詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
-* 送信されたリクエストは、Workfrontの「リクエスト」領域の「送信済み」セクションの「計画」タブに表示されます。
+* 送信されたリクエストは、Workfrontの「リクエスト」領域に表示されます。
+* 送信された Planning 要求は、新しい要求エクスペリエンスでのみ表示されます。 従来のリクエストエクスペリエンスでは、Planning リクエストを表示できません。
 * フォーム送信後のリクエストフォームまたはリクエストの詳細ページでの特定のフィールドタイプの表示方法には制限があります。
 
-  詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+  詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -130,19 +131,10 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
    >* 1 つ以上のワークスペースを表示するアクセス権があります。
    >
 
-<!--Production-->
+1. **送信するリクエスト** バーをクリックして、リクエストフォームのリストを開きます。
+1. リストからリクエストフォームを選択するか、リクエストフォーム名の入力を開始し、リストに表示されたら選択します。
 
-1. 実稼動環境で、「**新規リクエスト**」をクリックします。
-
-   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
-
-   **新規リクエスト** ボックスが開き、次の情報が表示されます。
-
-   * 最近アクセスした 6 つのWorkfront リクエストキューおよび Planning リクエストフォームが「最近」セクションに表示されます。
-   * 50 個の追加のWorkfront リクエストキューおよび Planning のリクエストフォームが、「すべてのリクエストフォーム **セクションにアルファベット順に表示され** す。 デフォルトで表示されないリクエストキューを検索できます。
-
-1. 最近アクセスしたリクエストフォーム領域からリクエストフォームまたはキューを選択するか、リストにフォームまたはキュー名を入力してから、表示されたら選択します。
-
+   ウィンドウが開き、上部にリクエストフォーム名が表示されます。
 1. リクエストフォームで使用可能なフィールドを更新します。 赤いアスタリスクが付いているフィールドは必須です。
 1. 「**送信**」をクリックします。
 
@@ -150,19 +142,13 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
    フォームが送信され、次の処理が行われます。
 
-   * リクエストフォームが承認に関連付けられていない場合、リクエストは「Workfront リクエスト」エリアの「送信済み」セクションの「計画」タブに追加され、新しいレコードがフォームに関連付けられたレコードタイプに追加されます。
+   * リクエストフォームが承認と関連付けられていない場合、リクエストは「Workfront リクエスト」エリアと「マイリクエスト」ウィジェットの「リクエスト」リストに追加され、新しいレコードがフォームに関連付けられたレコードタイプに追加されます。
 
-   * リクエストフォームが承認に関連付けられている場合、リクエストは「Workfront リクエスト」エリアの「送信済み」セクションの「計画」タブに追加されます。 新しいレコードは、すべての承認者が承認した後にのみ、レコードタイプページに追加されます。
+   * リクエストフォームが承認に関連付けられている場合、リクエストはWorkfrontの「リクエスト」エリアとマイリクエストウィジェットの「リクエスト」リストに追加されます。 新しいレコードは、承認者が承認した後にのみ、レコードタイプページに追加されます。
 
-     詳しくは、[&#x200B; リクエストフォームへの承認の追加 &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
+     詳しくは、[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
 
-     ![&#x200B; 「統合ワークフロー計画」タブの切替スイッチが付いたリクエスト領域 &#x200B;](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
-
-     >[!IMPORTANT]
-     >
-     >1 つ以上のワークスペースにアクセスできるすべてのユーザーは、リクエスト エリアの「計画」タブを表示できます。 表示可能な少なくとも権限を持つ、自分または他のユーザーがワークスペースに送信したリクエストのみを表示できます。 Workfront管理者は、システム内の任意のワークスペースに送信されたすべてのリクエストを表示できます。
-
-   * リクエストは、所有者、承認者、および少なくともワークスペースに対する表示権限を持つ人物にのみ表示されます。
+   * リクエストは、所有者、承認者、および少なくともワークスペースに対する表示権限を持つ人物にのみ表示されます。 Workfront管理者は、システム内の任意のワークスペースに送信されたすべてのリクエストを表示できます。
 
    * アプリ内と、リクエストが正常に送信されたかレビュー用に送信された旨のメール通知が届きます。
    * リクエストフォームが承認に関連付けられている場合、承認者は、リクエストをレビューして承認するためのアプリ内通知とメール通知を受け取ります。
@@ -174,14 +160,11 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
      >メールの確認または承認通知にリクエストへのリンクがあります。
 
 1. （任意）確認メッセージで「**リクエストを表示**」をクリックしてリクエストを開くか、「**X**」アイコンをクリックして確認を閉じます。
-
-1. （任意）「**リクエスト**」エリアの「**計画**」タブをクリックして、リクエストを表示します。
-Planning 要求フォームに送信された表示アクセス権を持つすべての要求がリストに表示されます。
 1. （オプション）次のいずれかの操作を行います。
 
    * 「**フィルター**」をクリックして、「計画」タブに表示するリクエストの条件の追加を開始します。
 
-     ![&#x200B; 「計画要求」タブでのフィルターの編集 &#x200B;](assets/filters-editing-box-in-requests-planning-tab.png)
+     ![ 「計画要求」タブでのフィルターの編集 ](assets/filters-editing-box-in-requests-planning-tab.png)
 
      次のフィールドでフィルタリングできます。
 
@@ -210,7 +193,7 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
 
    リクエストの詳細ページが開きます。
 
-   ![&#x200B; コメント付きのリクエストページ &#x200B;](assets/new-request-page-with-comment.png)
+   ![ コメント付きのリクエストページ ](assets/new-request-page-with-comment.png)
 
 1. （オプション）「コメント」領域にコメントを入力します。
 1. （条件付き）リクエストフォームが承認と関連付けられていない場合、またはリクエストが承認されている場合は、リクエストの名前をクリックし、「**レコード**」フィールドのレコードの名前をクリックします。
@@ -243,17 +226,15 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
 
    フォームが送信され、次の処理が行われます。
 
-   * リクエストフォームが承認に関連付けられていない場合、リクエストは「Workfront リクエスト」エリアの「送信済み」セクションの「計画」タブに追加され、新しいレコードがフォームに関連付けられたレコードタイプに追加されます。
+   * リクエストフォームが承認と関連付けられていない場合、リクエストは「Workfront リクエスト」エリアと「マイリクエスト」ウィジェットの「リクエスト」リストに追加され、新しいレコードがフォームに関連付けられたレコードタイプに追加されます。
 
-   * リクエストフォームが承認に関連付けられている場合、リクエストは「Workfront リクエスト」エリアの「送信済み」セクションの「計画」タブに追加されます。 新しいレコードは、すべての承認者が承認した後にのみ、レコードタイプページに追加されます。
+   * リクエストフォームが承認に関連付けられている場合、リクエストはWorkfrontの「リクエスト」エリアとマイリクエストウィジェットの「リクエスト」リストに追加されます。 新しいレコードは、すべての承認者が承認した後にのみ、レコードタイプページに追加されます。
 
-     詳しくは、[&#x200B; リクエストフォームへの承認の追加 &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
-
-     ![&#x200B; リクエストの「計画」タブ &#x200B;](assets/planning-tab-in-requests.png)
+     詳しくは、[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
 
      >[!IMPORTANT]
      >
-     >1 つ以上のワークスペースにアクセスできるすべてのユーザーは、リクエスト エリアの「計画」タブを表示できます。 表示可能な少なくとも権限を持つ、自分または他のユーザーがワークスペースに送信したリクエストのみを表示できます。 Workfront管理者は、システム内の任意のワークスペースに送信されたすべてのリクエストを表示できます。<!--ensure this is correct; asking team in slack-->
+     >表示可能な少なくとも権限を持つ、自分または他のユーザーがワークスペースに送信したリクエストのみを表示できます。 Workfront管理者は、システム内の任意のワークスペースに送信されたすべてのリクエストを表示できます。<!--ensure this is correct; asking team in slack-->
 
    * アプリ内と、リクエストが正常に送信されたかレビュー用に送信された旨のメール通知が届きます。
    * リクエストフォームが承認に関連付けられている場合、承認者は、リクエストをレビューして承認するためのアプリ内通知とメール通知を受け取ります。
@@ -262,7 +243,7 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
      >
      >メールおよびアプリ内通知は、組織のWorkfront インスタンスがAdobe Unified Experience にオンボードされている場合にのみ表示されます。
 
-   * <span class="preview"> 要求が承認され、レコードが作成された後、「承認者」および「承認日」フィールドに、承認に関する情報がレコードに表示されます。</span>
+   <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
 1. （任意）「**リクエストを表示**」をクリックして、Workfrontでリクエストを開きます。
 
@@ -274,7 +255,7 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
 
    リクエストの詳細ページが開きます。
 
-   ![&#x200B; コメント付きのリクエストページ &#x200B;](assets/new-request-page-with-comment.png)
+   ![ コメント付きのリクエストページ ](assets/new-request-page-with-comment.png)
 
 
 
@@ -293,6 +274,24 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
 
    Workfront Planning に「レコードタイプ」ページが開きます。
 
+<div class="preview">
 
+## 既存のリクエストをコピーしてリクエストを作成
+
+Workfrontのリクエストリストでリクエストをコピーし、詳細を編集して新しいリクエストとして送信できます。
+
+これは、新しいリクエスト側エクスペリエンスでのみ使用できます。
+
+手順については、[ リクエストのコピーと送信 ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
+
+## 既存のドラフトからのドラフトとリクエストの作成
+
+リクエストのドラフトを作成したあとドラフトに戻り、後でリクエストとして送信できます。
+
+これは、新しいリクエスト側エクスペリエンスでのみ使用できます。
+
+手順については、[ ドラフトからのリクエストの作成 ](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md) を参照してください。
+
+</div>
 
 
