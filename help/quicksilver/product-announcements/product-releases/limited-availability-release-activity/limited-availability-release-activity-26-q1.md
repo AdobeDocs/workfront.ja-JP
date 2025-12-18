@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
+source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront向けにリリースされている限定提供（LA）機能の一覧については、[Adobe Workfront限定提供（LA）機能のリリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md) を参照してください。
+Adobe Workfront向けにリリースされている限定提供（LA）機能の一覧については、[Adobe Workfront限定提供（LA）機能のリリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md) を参照してください。
 
 ## 限定提供の機能のリリースノート
 
@@ -35,6 +35,17 @@ Adobe Workfront向けにリリースされている限定提供（LA）機能の
 >実稼動リリース日：2025 年 11 月 20 日（PT）
 
 割合ベースの変更を、評価カード内の 1 つ以上の担当業務請求レートに適用できるようになりました。 各レートを 1 つずつ手動で更新する代わりに、1 回の操作で、選択したすべてのレートに変更を適用できます。
+
+### 詳細検索での KPI の制限
+
+>[!NOTE]
+>
+>実稼動リリース日：2025 年 12 月 18 日（PT）
+
+拡張割り当ておよびスタッフ計画での拡張検索の使いやすさを向上させるため、表の列に表示できる KPI のリストが制限されるようになりました。 主要指標のみを表示すると、情報をより迅速に見つけることができます。
+
+* 高度な割り当ての詳細検索では、**使用可能生産能力** KPI が使用可能です。 この指標は、ユーザーの基本合計容量を表します。
+* スタッフ計画の詳細検索では、「**残存スタッフ割当能力**」 KPI を使用できます。 この指標は、割り当て後に依然として利用可能な容量を反映します。
 
 ## 限定提供（LA）機能のメンテナンスアップデート
 
@@ -56,13 +67,13 @@ Adobe Workfront向けにリリースされている限定提供（LA）機能の
 
 **システムの日付有効為替レートを使用** チェックボックスがオフになっている場合、プロジェクトの詳細/財務エリアの **為替レートの日付** フィールドが非表示になりました。 以前は、プロジェクトを編集する際に、有効日付の為替レートが有効になっていない場合でも、プロジェクトの詳細に「日付」フィールドが表示されていました。
 
-<!--### Maintenance Updates week of December 7-13, 2025
+<!--### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 4-10, 2026
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
