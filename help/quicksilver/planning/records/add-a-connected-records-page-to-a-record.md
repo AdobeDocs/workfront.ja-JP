@@ -97,7 +97,7 @@ Adobe Workfront Planning のレコードに「接続されたレコード」ペ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -109,11 +109,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 次のいずれかの領域で **ページを追加** をクリックします。
 
    * レコードのプレビューウィンドウ
-   * レコードの詳細ページ。プレビューページの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックします。
+   * レコードの詳細ページ。プレビューページの右上隅にある **新しいタブで開く** アイコン ![&#x200B; 新しいタブで詳細を開くアイコン &#x200B;](assets/open-details-in-a-new-tab-icon.png) をクリックします。
 
    **ページを作成** ボックスが開きます。
 
-   ![ 接続されたレコードを追加ページモーダル ](assets/add-connection-view-page-modal.png)
+   ![&#x200B; 接続されたレコードを追加ページモーダル &#x200B;](assets/add-connection-view-page-modal.png)
 
 1. **ページ名** を追加し、「**接続されたレコードページ**」をクリックしてから、「**作成**」をクリックします。
 
@@ -129,7 +129,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    接続されたレコードの最初の 5 つのフィールドは、デフォルトで表示されます。<!--No lookup fields display by default.-->
 
-   ![ キャンペーンの詳細のオーディエンスに接続されたテーブル表示 ](assets/audience-connected-table-view-under-campaign-details-page.png)
+   ![&#x200B; キャンペーンの詳細のオーディエンスに接続されたテーブル表示 &#x200B;](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. （省略可能） リスト内で接続されているレコードまたはオブジェクト タイプの名前をクリックするか、そのレコードまたはオブジェクト タイプを検索し、リストに表示されたらクリックして、そのレコードまたはオブジェクト タイプのページを作成します。
 
@@ -148,7 +148,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
    * テーブル表示で、接続されたレコードからの情報をインラインで編集します。
 
-   * 接続されているレコードの名前にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします
+   * 接続されているレコードの名前にポインタを合わせ、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックします
 
      または
 
@@ -161,7 +161,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
       * 接続されたレコードタイプに新しいレコードを追加するには、**上または下にレコードを挿入** します。 ここに追加された新しいレコードも、現在のレコードに接続されます。 このオプションは、テーブルでレコードを選択する際に青いバーでは使用できません。
       * **削除**：レコードを削除します。 接続されたレコードを削除すると、そのレコードの種類と、レコードが接続されているすべての場所からレコードが削除されます。
 
-        テーブルビューでのレコードの編集については、[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md) を参照してください。
+        テーブルビューでのレコードの編集については、[&#x200B; レコードの編集 &#x200B;](/help/quicksilver/planning/records/edit-records.md) を参照してください。
 
         >[!TIP]
         >
@@ -208,8 +208,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * テーブル内のインライン編集プロジェクト情報。
    * **新しい行** をクリックして、テンプレートを使用せずにプロジェクトを作成します。 新しいプロジェクトは、現在のレコードにすぐに接続されます。
 
-     詳しくは、[ レコードに関連付ける際に、Workfront Planning からWorkfront オブジェクトを作成する ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
-   * プロジェクトの上にマウスポインターを置き、**詳細** メニュー [ 詳細メニュー ](assets/more-menu.png) をクリックしてください
+     詳しくは、[&#x200B; レコードに関連付ける際に、Workfront Planning からWorkfront オブジェクトを作成する &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
+   * プロジェクトの上にマウスポインターを置き、**詳細** メニュー [&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてください
 
      または
 
@@ -226,24 +226,24 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
       1. **ビュータイプ** エリアから **リスト** を選択します。
       1. 「**作成**」をクリックします。
 新しいリスト表示が表示ドロップダウンメニューに追加されます。
-      1. （オプション）作成したビューの名前にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、次のいずれかのオプションをクリックします。
+      1. （オプション）作成したビューの名前にポインタを合わせ、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、次のいずれかのオプションをクリックします。
 
          * **名前を変更**：ビューに新しい名前を追加します。
          * <span class="preview">**共有**</span>
-詳しくは、[ ビューの共有 ](/help/quicksilver/planning/access/share-views.md) を参照してください。
+詳しくは、[&#x200B; ビューの共有 &#x200B;](/help/quicksilver/planning/access/share-views.md) を参照してください。
          * **削除**
-詳しくは、[ レコードビューの削除 ](/help/quicksilver/planning/views/delete-record-views.md) を参照してください。
+詳しくは、[&#x200B; レコードビューの削除 &#x200B;](/help/quicksilver/planning/views/delete-record-views.md) を参照してください。
 
            ![](assets/view-more-menu-projects-connected-records-page.png)
-   * **フィルター** アイコン ![ フィルターアイコン ](assets/filter-icon.png) をクリックし、フィルターを使用して特定のプロジェクトを表示します。
+   * **フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) をクリックし、フィルターを使用して特定のプロジェクトを表示します。
 
      >[!TIP]
      >
      ><span class="preview">**所有者**、**スポンサー** などの人物タイプのフィールドの場合、ワイルドカードを使用して、ログインしたユーザーがこれらの役割に割り当てられているプロジェクトを表示できます。</span>
      >
-     >![ プロジェクトに接続されたレコードページのユーザーワイルドカードを使用してフィルター ](assets/filter-with-user-wildcard-project-connected-records-page.png)
+     >![&#x200B; プロジェクトに接続されたレコードページのユーザーワイルドカードを使用してフィルター &#x200B;](assets/filter-with-user-wildcard-project-connected-records-page.png)
      >
-   * **列** アイコン ![ 列アイコン ](assets/columns-icon.png) をクリックして、リストの列の表示と非表示を切り替えます。
+   * **列** アイコン ![&#x200B; 列アイコン &#x200B;](assets/columns-icon.png) をクリックして、リストの列の表示と非表示を切り替えます。
    * テーブルに既存のフィールドを追加するには、テーブル表示の右上隅にある「**+**」アイコンをクリックします。 フィールドは、追加する前に存在する必要があります。
 
      **列マネージャー** ボックスが開きます。 次の操作を実行します。
@@ -257,12 +257,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    または
 
-   タブの名前にポインタを合わせて、**その他** ![ その他メニュー ](assets/more-menu.png) をクリックしてから、**名前を変更** をクリックして、新しい [ 接続されたビュー ] タブに名前を変更します。
+   タブの名前にポインタを合わせて、**その他** ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**名前を変更** をクリックして、新しい [ 接続されたビュー ] タブに名前を変更します。
 
 
    <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
 
-1. （オプション）接続されたレコードページのタブの名前にポインタを合わせ、「**詳細**![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、「**削除**」をクリックしてタブを削除します。
+1. （オプション）接続されたレコードページのタブの名前にポインタを合わせ、「**詳細**![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**削除**」をクリックしてタブを削除します。
 
 <!--
 <div class="preview">

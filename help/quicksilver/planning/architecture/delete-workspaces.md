@@ -63,7 +63,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -140,12 +140,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. （任意） ClicK **表示を減らす** を使用して、画面に表示するワークスペースの数を制限します。
 1. ワークスペースを削除するには、次のいずれかの操作を行います。
 
-   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします
+   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックします
 または
-   * <span class="preview"> ワークスペース ページの右上隅にある「**検索**」アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックしてワークスペースを名前で検索し </span> ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします。
+   * <span class="preview"> ワークスペース ページの右上隅にある「**検索**」アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックしてワークスペースを名前で検索し </span> ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックします。
 1. 「**削除**」をクリックします。
 
-   ![ ワークスペースを完全に削除する確認 ](assets/permanently-delete-workspace-confirmation.png)
+   ![&#x200B; ワークスペースを完全に削除する確認 &#x200B;](assets/permanently-delete-workspace-confirmation.png)
 
 1. 表示されたスペースに「**削除**」と入力し、「**完全に削除**」をクリックします。 これは、大文字と小文字を区別しません。
 
