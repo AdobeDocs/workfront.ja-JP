@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 4%
+source-wordcount: '1116'
+ht-degree: 8%
 
 ---
 
@@ -80,7 +80,7 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -97,24 +97,29 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 >
 >組織のWorkfront インスタンスは、ユーザーがメールおよびアプリ内通知を受信できるように、Adobe統合エクスペリエンスにオンボーディングされている必要があります。
 
-リクエストを承認するには：
+作成レコードをリクエスト自体または <span class="preview"> ホームの自分の承認ウィジェット </span> からリクエストを承認できます。
+
+* [Workfront Planning の要求からの要求を承認する](#approve-a-request-from-the-request-in-workfront-planning)
+* [ホームの承認ウィジェットからのリクエストを承認](#approve-a-request-from-the-my-approvals-widget-in-home)
+
+### Workfront Planning の要求からの要求を承認する
 
 1. （条件付き）従来のWorkfrontのリクエストエクスペリエンスを使用している場合は、次のいずれかの操作を行ってリクエストを開きます。
 
-   * Workfront Planning へのアクセス権を持ち、少なくとも 1 つの作業領域を表示できる場合、画面の右上隅にある **メインメニュー**![&#x200B; ドットのメインメニュー &#x200B;](assets/dots-menu.png) または左上隅にある **メインメニュー**![&#x200B; ラインのメインメニュー &#x200B;](assets/lines-menu.png) をクリックし、**要求**/**送信済み**/**計画** をクリックし、**レビュー保留中** または **レビュー中** のステータスで要求をクリックします。
+   * Workfront Planning へのアクセス権を持ち、少なくとも 1 つの作業領域を表示できる場合、画面の右上隅にある **メインメニュー**![ ドットのメインメニュー ](assets/dots-menu.png) または左上隅にある **メインメニュー**![ ラインのメインメニュー ](assets/lines-menu.png) をクリックし、**要求**/**送信済み**/**計画** をクリックし、**レビュー保留中** または **レビュー中** のステータスで要求をクリックします。
 
      >[!TIP]
      >
      >Workfront Planning へのアクセス権がない場合、またはワークスペースを表示するアクセス権がない場合は、メールまたはアプリ内通知を使用して承認するリクエストにのみアクセスできます。
 
-   * 画面の右上隅にある「**通知**」領域アイコン ![&#x200B; 統合シェルの通知領域アイコン &#x200B;](assets/notifications-area-icon-unified-shell.png) をクリックし、承認待ちの要求に関する通知をクリックして要求を開きます。
+   * 画面の右上隅にある「**通知**」領域アイコン ![ 統合シェルの通知領域アイコン ](assets/notifications-area-icon-unified-shell.png) をクリックし、承認待ちの要求に関する通知をクリックして要求を開きます。
    * 承認待ちのリクエストを通知するメール内のメール通知に移動し、「**リクエストを開く**」をクリックしてリクエストを開きます。<!--add the name of the button here, from the email-->
 
    リクエストページが読み取り専用モードで開きます。
 
-   ![&#x200B; レビューステータスの読み取り専用リクエストページ &#x200B;](assets/read-only-reqeust-page-in-review-status.png)
-1. Workfrontで新しい要求操作を使用している場合、画面の右上隅にある **メインメニュー**![&#x200B; ドットのメインメニュー &#x200B;](assets/dots-menu.png) をクリックするか、または左上隅にある **メインメニュー**![&#x200B; ラインのメインメニュー &#x200B;](assets/lines-menu.png) をクリックし（使用可能な場合）、**要求** をクリックし、**レビュー保留中** または **レビュー中** の状態で承認する要求をクリックします。
-1. （任意）リクエストの右上隅にある **承認** アイコン ![&#x200B; 承認アイコン &#x200B;](assets/approvals-icon.png) をクリックして、承認者を表示します。
+   ![ レビューステータスの読み取り専用リクエストページ ](assets/read-only-reqeust-page-in-review-status.png)
+1. Workfrontで新しい要求操作を使用している場合、画面の右上隅にある **メインメニュー**![ ドットのメインメニュー ](assets/dots-menu.png) をクリックするか、または左上隅にある **メインメニュー**![ ラインのメインメニュー ](assets/lines-menu.png) をクリックし（使用可能な場合）、**要求** をクリックし、**レビュー保留中** または **レビュー中** の状態で承認する要求をクリックします。
+1. （任意）リクエストの右上隅にある **承認** アイコン ![ 承認アイコン ](assets/approvals-icon.png) をクリックして、承認者を表示します。
 1. 「**レビューして承認**」をクリックして、次のいずれかを選択します。
 
    * **承認**：リクエストを承認します。 すべての承認者がリクエストを承認すると、リクエストフォームに関連付けられたレコードタイプのレコードが直ちに作成されます。
@@ -128,3 +133,31 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * **却下**：リクエストが却下されました。
 
    リクエストは、Workfrontの「リクエスト」領域にある「送信済み」セクションの「計画」タブに残ります。
+
+<div class="preview">
+
+### ホームの承認ウィジェットからのリクエストを承認
+
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+
+   または
+
+   Adobe Workfront の左上隅にある[!UICONTROL ホーム]アイコン ![ホームアイコン](/help/_includes/assets/home-icon-30x29.png) をクリックします。
+
+1. 承認または却下するオブジェクトを見つけます。
+
+1. （オプション）コメントを追加するには、「承認」または「却下」の横のドロップダウン矢印をクリックし、メモを入力して「追加」をクリックします。
+
+1. 以下のうちのいずれかを選択します。
+
+   * **承認**：リクエストを承認します。 すべての承認者がリクエストを承認すると、リクエストフォームに関連付けられたレコードタイプのレコードが直ちに作成されます。
+   * **却下**：自分が唯一の承認者である場合でも、リクエストを却下します。 リクエストフォームに関連付けられたレコードタイプのレコードは作成されません。
+
+   リクエストを送信したユーザーは、リクエストが承認または却下されると、メールとアプリ内通知を受け取ります。
+
+   承認の決定に応じて、リクエストのステータスが次のように変わります。
+
+   * **完了**：リクエストは承認されました。
+   * **却下**：リクエストが却下されました。
+
+</div>
