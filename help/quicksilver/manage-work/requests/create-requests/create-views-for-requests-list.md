@@ -63,40 +63,40 @@ ht-degree: 16%
 
 ビューは、Workfrontの「リクエスト」エリア、またはホームのマイリクエスト ウィジェットで作成できます。
 
-1. 「リクエスト」リストにアクセスするには、Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックします。または（利用可能な場合）左上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、「**[!UICONTROL リクエスト]**」をクリックします。
+1. 「リクエスト」リストにアクセスするには、Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックします。または（利用可能な場合）左上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、「**[!UICONTROL リクエスト]**」をクリックします。
 
 1. ホームのリクエスト ウィジェットにアクセスするには：
 
-   1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+   1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
-1. リクエストリストまたはマイリクエストウィジェットで、**表示** ドロップダウン ![ 表示ドロップダウン ](assets/view-icon-requests.png) をクリックし、**新しい表示** を選択します。
+1. リクエストリストまたはマイリクエストウィジェットで、**表示** ドロップダウン ![&#x200B; 表示ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、**新しい表示** を選択します。
 
-   ![ 新規ビュー ](assets/create-new-view.png)
+   ![&#x200B; 新規ビュー &#x200B;](assets/create-new-view.png)
 
 1. 新しいビューの名前を入力し、[**作成**] をクリックします。
-1. [ リクエスト エリアでのビューの編集 ](#edit-a-view-in-the-requests-area) を続行します。
+1. [&#x200B; リクエスト エリアでのビューの編集 &#x200B;](#edit-a-view-in-the-requests-area) を続行します。
 
 ## 「リクエスト」領域でのビューの編集
 
 作成したビューを含め、既存のビューを編集できます。
 
-1. 「リクエスト」リストにアクセスするには、Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックします。または（利用可能な場合）左上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、「**[!UICONTROL リクエスト]**」をクリックします。
+1. 「リクエスト」リストにアクセスするには、Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックします。または（利用可能な場合）左上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、「**[!UICONTROL リクエスト]**」をクリックします。
 
 1. ホームのリクエスト ウィジェットにアクセスするには：
 
-   1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+   1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
 1. リクエスト リストまたはマイリクエストウィジェットで、編集するビューを見つけます。
 
-1. （オプション）ビューの名前を変更するには、「**ビュー**」ドロップダウン ![ 「ビュー」ドロップダウン ](assets/view-icon-requests.png) をクリックし、ビューの横の「。..」メニューをクリックして「**名前を変更**」を選択し、ビューの新しい名前を入力します。
-1. **表示** ドロップダウン ![ 表示ドロップダウン ](assets/view-icon-requests.png) をクリックし、編集する表示を選択します。
-1. <span class="preview"> 列としてカスタムフィールドを追加するには、画面の右付近にある **列を追加** アイコン ![ 列を追加 ](assets/add-column.png) をクリックし、列としてビューに追加するカスタムフォームフィールドの横にあるプラスアイコンをクリックします。</span>
+1. （オプション）ビューの名前を変更するには、「**ビュー**」ドロップダウン ![&#x200B; 「ビュー」ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、ビューの横の「。..」メニューをクリックして「**名前を変更**」を選択し、ビューの新しい名前を入力します。
+1. **表示** ドロップダウン ![&#x200B; 表示ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、編集する表示を選択します。
+1. <span class="preview"> 列としてカスタムフィールドを追加するには、画面の右付近にある **列を追加** アイコン ![&#x200B; 列を追加 &#x200B;](assets/add-column.png) をクリックし、列としてビューに追加するカスタムフォームフィールドの横にあるプラスアイコンをクリックします。</span>
 
    <span class="preview"> リスト内のオブジェクトに添付されたフォームのカスタムフィールドは、列として追加できます。</span>
 
@@ -105,7 +105,7 @@ ht-degree: 16%
    >現在、実稼動環境で列を追加することはできません。
 1. （任意）「**列**」をクリックして、リクエストリストの列の非表示、表示、並べ替えを行います。
 
-   ![ 「列」ボックス ](assets/columns-editing-box-in-requests-planning-tab.png)
+   ![&#x200B; 「列」ボックス &#x200B;](assets/columns-editing-box-in-requests-planning-tab.png)
 
    >[!TIP]
    >
@@ -113,7 +113,7 @@ ht-degree: 16%
 
 1. （任意）「**フィルター**」をクリックして、「計画」タブに表示する要求の条件の追加を開始します。
 
-   ![ 「計画要求」タブでのフィルターの編集 ](assets/filters-editing-box-in-requests-planning-tab.png)
+   ![&#x200B; 「計画要求」タブでのフィルターの編集 &#x200B;](assets/filters-editing-box-in-requests-planning-tab.png)
 
    次のフィールドでフィルタリングできます。
 
@@ -140,20 +140,20 @@ ht-degree: 16%
 
 Workfront管理者は、新しいビューをレイアウトテンプレートに追加できます。
 
-手順については、[ レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
+手順については、[&#x200B; レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
 
 ## ビューを共有
 
 作成したビューは、他のユーザー、チームまたはグループと共有できます。
 
-1. 「リクエスト」リストにアクセスするには、Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックします。または（利用可能な場合）左上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、「**[!UICONTROL リクエスト]**」をクリックします。
+1. 「リクエスト」リストにアクセスするには、Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックします。または（利用可能な場合）左上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、「**[!UICONTROL リクエスト]**」をクリックします。
 
 1. ホームのリクエスト ウィジェットにアクセスするには：
 
-   1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+   1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
 1. リクエスト リストまたはマイリクエストウィジェットで、共有するビューを見つけます。
 1. 共有するビューの上にマウスポインターを置き、表示されたら 3 ドットメニューをクリックします。
