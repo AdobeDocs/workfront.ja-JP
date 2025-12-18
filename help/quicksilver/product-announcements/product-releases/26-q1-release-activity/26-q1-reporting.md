@@ -4,9 +4,9 @@ description: 2026 年第 1 四半期レポートの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '1009'
 ht-degree: 4%
 
 ---
@@ -17,39 +17,35 @@ ht-degree: 4%
 
 2026年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2026年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)を参照してください。
 
-<!--
 
-## Currency updates in Canvas Dashboards
 
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
-
-We have made the following updates for currency fields:
-
-* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
-
-* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
-
-* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
-
--->
-
-<!--
-
-## Quick search table results in Canvas Dashboards
+## キャンバスダッシュボードでの通貨の更新
 
 >[!NOTE]
 >
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
+>プレビュー：2025 年 12 月 18 日（PT）
+>実稼動高速リリース：2026 年 1 月 14 日（PT）
+>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
 
-We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+通貨フィールドが次のように更新されました。
 
--->
+* Workfrontで複数通貨を定義した場合、作成時にダッシュボードのデフォルト通貨を選択できるようになりました。
+
+* レポートの作成時に通貨フィールドをロックできます。 これにより、ダッシュボードレベルの通貨プリファレンスがこれらの値の表示に影響を与えないことが保証されます。
+
+* ダッシュボードを表示する際、ユーザーはWorkfrontで定義された任意の通貨を切り替えることができます。 これらの変更は、ロックされた通貨フィールドを除くダッシュボード全体に適用されます。
+
+
+## キャンバスダッシュボードのクイック検索テーブルの結果
+
+>[!NOTE]
+>
+>プレビュー：2025 年 12 月 18 日（PT）
+>実稼動高速リリース：2026 年 1 月 14 日（PT）
+>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
+
+テーブルレポートにクイック検索を追加しました。 この検索はすべてのページで機能するので、現在表示されていないデータでも検索できます。
+
 
 ## 新しい「円グラフに合計を表示」オプション
 
@@ -67,7 +63,7 @@ We have added a quick search to Table reports. This search works across all page
 
 ユーザーは、合計のラベルを表示または非表示にしたり、カスタムラベル値を指定したりすることもできます。
 
-詳しくは、[&#x200B; キャンバスダッシュボードでのグラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[ キャンバスダッシュボードでのグラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 ## キャンバスダッシュボードの円グラフ用の新しい設定オプション
 
@@ -82,7 +78,7 @@ We have added a quick search to Table reports. This search works across all page
 * セグメントラベルを非表示にする：円グラフのセグメントラベルが長すぎてグラフの読みやすさに影響する場合に、円グラフでセグメントラベルを非表示にするように選択できるようになりました。
 * グラフの凡例の非表示と再配置：円グラフの凡例を非表示にするように選択できるようになりました。 凡例の位置は、グラフの右（デフォルト）、左、上、下に設定することもできます。
 
-詳しくは、[&#x200B; キャンバスダッシュボードでのグラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[ キャンバスダッシュボードでのグラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 ## キャンバスダッシュボードのグループ化数の改善
 
@@ -110,7 +106,7 @@ We have added a quick search to Table reports. This search works across all page
 
 注記：参照線は動的ではなく、複数の参照線は適用できません。 将来の機能強化については検討していますが、当面の計画はありません。
 
-詳しくは、[&#x200B; キャンバスダッシュボードでのグラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[ キャンバスダッシュボードでのグラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 ## キャンバスダッシュボードのチャートレポートの軸ラベルのカスタマイズ
 
@@ -122,7 +118,7 @@ We have added a quick search to Table reports. This search works across all page
 
 グラフレポートの軸ラベルをカスタマイズできるようになりました。 この新機能を使用すると、デフォルトのオブジェクトおよびフィールド パスの代わりに表示する置き換え軸ラベルを入力できます。 また、軸ラベル全体を非表示にすることもできます。
 
-詳しくは、[&#x200B; キャンバスダッシュボードでのグラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[ キャンバスダッシュボードでのグラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 ## キャンバスダッシュボードでのレポートの複製
 
@@ -130,7 +126,7 @@ We have added a quick search to Table reports. This search works across all page
 >
 >プレビューリリース：2025年10月23日（PT）
 >実稼動版（すべてのお客様向け）：2025年10月23日（PT）
->[!BADGE 予定外 &#x200B;]{type=Neutral}
+>[!BADGE 予定外 ]{type=Neutral}
 
 キャンバスダッシュボードで KPI、テーブル、またはグラフレポートを作成後に複製できるようになりました。 複製したら、必要に応じてレポートを編集してから保存できます。
 

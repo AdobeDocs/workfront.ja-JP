@@ -6,16 +6,19 @@ description: ダッシュボードを作成して、Adobe Workfrontの情報に�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 81%
+source-wordcount: '549'
+ht-degree: 80%
 
 ---
 
 # ダッシュボードの作成
 
 <!--Audited: 01/2025-->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境でのみ使用できます。</span>
+
 
 ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。最大 25 個の報告書、カレンダー、外部ページをダッシュボードに追加して、他のユーザーと共有して共同作業を最適化できます。
 
@@ -85,6 +88,11 @@ ht-degree: 81%
      <tr>
       <td role="rowheader"><strong>説明（オプション）</strong></td>
       <td>ダッシュボードの説明です。</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>通貨</strong></td>
+      <td><span class="preview">これは、ダッシュボードのデフォルトの通貨タイプです。 <br>
+      <br> ユーザーは、ダッシュボードをフィルタリングする際に、異なる通貨タイプを切り替えることができます。 詳しくは、<a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md"> 通貨タイプでダッシュボードをフィルタリングする </a> を参照してください。</span></td>
      </tr>
     </tbody>
    </table>
