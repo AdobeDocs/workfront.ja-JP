@@ -107,7 +107,7 @@ ht-degree: 61%
 フィルター条件を追加すると、リクエストリストが自動的にフィルタリングされます。
 1. （任意）ビューを使用して、検索するリクエストにフォーカスします。
 
-   手順については、[ リクエスト領域でのビューの作成または編集 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+   手順については、[&#x200B; リクエスト領域でのビューの作成または編集 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 
 >[!NOTE]
 >
@@ -252,6 +252,6 @@ ht-degree: 61%
 
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
-   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 
