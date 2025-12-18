@@ -6,10 +6,10 @@ description: リクエストはマイリクエスト ウィジェットで送信
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
+source-git-commit: ef44dcdc88da66d9cf357be53270ec717c06efe7
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 15%
+source-wordcount: '957'
+ht-degree: 13%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 15%
 
 リクエストは、マイリクエスト ウィジェットから直接作成できます。
 
-手順については、「ホーム領域から作業アイテムとプロジェクトを作成する [&#x200B; の &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) 要求を作成する」を参照してください。
+手順については、「ホーム領域から作業アイテムとプロジェクトを作成する [ の ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) 要求を作成する」を参照してください。
 
 <div class="preview">
 
@@ -76,7 +76,7 @@ ht-degree: 15%
 
 自分のリクエスト ウィジェットでリクエストをコピーし、編集して、新しいリクエストとして送信できます。
 
-手順については、「リクエストのコピーと送信 [&#x200B; の記事の「新しいリクエストエクスペリエンスでのリクエストのコピーと送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) を参照してください。
+手順については、「リクエストのコピーと送信 [ の記事の「新しいリクエストエクスペリエンスでのリクエストのコピーと送信 ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) を参照してください。
 
 </div>
 
@@ -86,7 +86,7 @@ ht-degree: 15%
 
 マイリクエスト ウィジェットでフィルターを設定するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
 1. マイリクエスト ウィジェットで、「**フィルター**」をクリックします。
 1. 一番左のフィールドで、フィルタリング対象を選択します。 利用可能なオプションは次のとおりです。
@@ -130,12 +130,12 @@ ht-degree: 15%
 
 マイリクエスト ウィジェットの列を調整するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
 1. 自分のリクエスト ウィジェットで、「**列**」をクリックします。
-1. （オプション）列を並べ替えるには、移動する列のドラッグハンドル ![&#x200B; ドラッグハンドル &#x200B;](assets/drag-handle.png) をクリックして、目的の場所までドラッグします。 リストの上部にある列は、マイリクエスト ウィジェットで一番左の列として表示されます。
+1. （オプション）列を並べ替えるには、移動する列のドラッグハンドル ![ ドラッグハンドル ](assets/drag-handle.png) をクリックして、目的の場所までドラッグします。 リストの上部にある列は、マイリクエスト ウィジェットで一番左の列として表示されます。
 1. （オプション）切り替えスイッチを使用して、自分のリクエスト ウィジェットに列を表示するかどうかを制御します。
-1. <span class="preview"> 列としてカスタムフィールドを追加するには、画面の右付近にある **列を追加** アイコン ![&#x200B; 列を追加 &#x200B;](assets/add-column.png) をクリックし、ウィジェットに列として追加するカスタムフォームフィールドの横にあるプラスアイコンをクリックします。</span>
+1. <span class="preview"> 列としてカスタムフィールドを追加するには、画面の右付近にある **列を追加** アイコン ![ 列を追加 ](assets/add-column.png) をクリックし、ウィジェットに列として追加するカスタムフォームフィールドの横にあるプラスアイコンをクリックします。</span>
 
    <span class="preview"> リスト内のオブジェクトに添付されたフォームのカスタムフィールドは、列として追加できます。</span>
 
@@ -145,10 +145,25 @@ ht-degree: 15%
 
 マイリクエスト ウィジェットで特定のリクエストを検索するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
 1. マイリクエスト ウィジェットの右上付近にある検索バーに、検索する用語を入力します。
 
    という用語を含んだリクエストは、オレンジでハイライト表示されます。
 
 1. （オプション）ハイライトされたリクエストにジャンプするには、検索バーの上向きまたは下向き矢印をクリックします。
+
+<div class="preview">
+
+## リクエストで作成されたオブジェクトに移動
+
+自分のリクエスト ウィジェットで、リクエストによって作成されたオブジェクトを検索できます。
+
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
+1. オブジェクトを作成したリクエストを見つけます。
+1. そのリクエストの **作成されたオブジェクト** 列にあるオブジェクト名をクリックします。
+
+   オブジェクトのページが開きます。
+
+</div>

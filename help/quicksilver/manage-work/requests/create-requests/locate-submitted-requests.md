@@ -8,15 +8,16 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
+source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 63%
+source-wordcount: '1309'
+ht-degree: 61%
 
 ---
 
 # 送信されたリクエストを見つける
 
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 次のタイプのリクエストのうち、自分または他のユーザーが送信したものや、開始したが送信を完了していないものを検索できます。これらのリクエストは、Adobe Workfront の次のエリアで検索できます。
 
@@ -71,11 +72,16 @@ ht-degree: 63%
 
 +++
 
-## 送信されたリクエストを見つける
+## 「要求」領域で送信済み要求を検索する
 
 送信されたリクエストの場所は、新しいリクエストエクスペリエンスと従来のリクエストエクスペリエンスのどちらを使用しているかによって異なります。
 
-### 新しい要求エクスペリエンスで送信済みの要求を見つける
+* [新しいリクエストエクスペリエンスで送信されたリクエストを見つける](#locate-submitted-requests-in-the-new-requesting-experience)
+* [従来のリクエストエクスペリエンスで送信されたリクエストを見つける](#locate-submitted-requests-in-the-legacy-requesting-experience)
+
+### 新しいリクエストエクスペリエンスで送信されたリクエストを見つける
+
+送信されたリクエストは、「リクエスト」エリアで見つけることができます <span class="preview"> このエリアには、それらのリクエストで作成されたオブジェクトへのリンクが含まれます </span>。
 
 自分または他のユーザーが新しい要求エクスペリエンスで送信した要求を見つけるには：
 
@@ -101,7 +107,7 @@ ht-degree: 63%
 フィルター条件を追加すると、リクエストリストが自動的にフィルタリングされます。
 1. （任意）ビューを使用して、検索するリクエストにフォーカスします。
 
-   手順については、[&#x200B; リクエスト領域でのビューの作成または編集 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+   手順については、[ リクエスト領域でのビューの作成または編集 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 
 >[!NOTE]
 >
@@ -246,6 +252,6 @@ ht-degree: 63%
 
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
-   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 
