@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 44%
+source-wordcount: '428'
+ht-degree: 42%
 
 ---
 
 
 # ワークスペースの削除
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -52,7 +52,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>Standard</p>
+   <td><p>標準</p>
    </td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -140,13 +140,15 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. （任意） ClicK **表示を減らす** を使用して、画面に表示するワークスペースの数を制限します。
 1. ワークスペースを削除するには、次のいずれかの操作を行います。
 
-   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックします
-または <!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
-   * ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックします。
+   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします
+または
+   * <span class="preview"> ワークスペース ページの右上隅にある「**検索**」アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックしてワークスペースを名前で検索し </span> ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします。
 1. 「**削除**」をクリックします。
 
-   ![&#x200B; ワークスペースを完全に削除する確認 &#x200B;](assets/permanently-delete-workspace-confirmation.png)
+   ![ ワークスペースを完全に削除する確認 ](assets/permanently-delete-workspace-confirmation.png)
 
 1. 表示されたスペースに「**削除**」と入力し、「**完全に削除**」をクリックします。 これは、大文字と小文字を区別しません。
 
    ワークスペースは削除され、復元できません。レコードタイプ、レコード、フィールドおよびそれらに関連付けられているビューも削除されます。<!--ensure this is right at or before GA-->
+
+
