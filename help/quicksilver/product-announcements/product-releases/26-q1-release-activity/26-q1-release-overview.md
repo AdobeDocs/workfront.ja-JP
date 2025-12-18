@@ -4,10 +4,10 @@ description: このページでは、2026 年第 1 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f126e75845e15ff5d4e0b327abcfafb1dbffd99
+source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
 workflow-type: tm+mt
-source-wordcount: '2152'
-ht-degree: 16%
+source-wordcount: '2888'
+ht-degree: 13%
 
 ---
 
@@ -56,6 +56,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> レイアウトテンプレートでの優先度の管理 </a>
+            <p>レイアウトテンプレート内の特定のユーザーに対して、優先度を有効または無効にできるようになりました。 以前、組織で優先度を無効にしていた場合、この変更を含むレイアウトテンプレートでは無効のままになります。</p>
+        </td>
+        <td>2025年12月18日（PT）</td>
+        <td>2025年1月14日（PT）</td>
+        <td>2025年1月15日（PT）</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> 計算されたカスタムフィールドに対するマルチフォームの競合のチェック </a>
+            <p>カスタムフィールドで式を編集する際に影響を受ける可能性のあるオブジェクトを可視化するために、競合をチェックするオプションを追加しました。 このダイアログ ボックスには、式の変更によって影響を受ける可能性のあるすべてのオブジェクトが、オブジェクト タイプ別にグループ化されて表示されます。 各オブジェクトの詳細に移動し、フィールドを確認して、フィールドをいずれかのフォームから削除するか、式を変更しないかを決定できます。</p>
+        </td>
+        <td>2025年12月18日（PT）</td>
+        <td>2025年1月14日（PT）</td>
+        <td>2025年1月15日（PT）</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> カスタム・オブジェクトに保管されたエントリ日とエントリ ID</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -127,6 +145,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+
+
 ### 統合の機能強化
 
 <table style="table-layout:auto">
@@ -140,6 +160,39 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
          <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-home.md" class="MCXref xref" xrefformat="{para}"> ホームのメンションウィジェットの更新 </a>
+            <p>ホームのメンションウィジェットに次の改善が加えられました。 <ul><li>ほとんどのWorkfront オブジェクトの「更新」領域の同じエクスペリエンスが、ホームのメンションウィジェットでも使用できるようになりました。 </li><li>メンションウィジェットには、ユーザーが過去 2 週間に行った、またはタグ付けしたコメントが含まれるようになりました</li><ul></p>
+        </td>
+        <td>2025年12月17日（PT）</td>
+        <td>2026年1月14日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+    </tr>   
+  </tbody>
+</table>
+
+### 統合の機能強化
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Creative Cloud Express でレビューを送信する際のWorkfront プロジェクトの選択 </a><p>![ バッジ オフ スケジュール ]{type=Neutral}</p>
+            <p>配達確認を送信するWorkfront プロジェクトを選択できます。 これにより、関連するすべてのアセットとプルーフを同じプロジェクト内で整理できます。 </p>
+        </td>
+        <td>2025年12月15日（PT）</td>
+        <td>2025年12月15日（PT）</td>
+        <td>2025年12月15日（PT）</td>
+    </tr>   
+    </tr>
+         <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets ネイティブ統合用Adobe Workfront </a> のアセットセレクターを更新しました
             <p>Adobe Workfront for Experience Manager Assets統合のアセットセレクターをアップグレードしました。 このアップグレードにより、AEM コレクションを選択してWorkfrontに直接取り込むことができるようになりました。 </p>
         </td>
@@ -150,7 +203,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Salesforce統合の新しいバージョンを </a> で利用できるようになりました
-            <p>Workfront API に対する最近の変更を最新の状態に保つために、新しいSalesforce統合を作成しました。 この新しい統合は、以前のバージョンと同じ機能を備え、API で非推奨となった機能が失われないように更新されました。</p><p>注意：新しいバージョンを含むWorkfront for Salesforce統合は、**2026 年 2 月 28 日（PT）**&#x200B;以降は使用できなくなります。 </p>
+            <p>Workfront API に対する最近の変更を最新の状態に保つために、新しいSalesforce統合を作成しました。 この新しい統合は、以前のバージョンと同じ機能を備え、API で非推奨となった機能が失われないように更新されました。</p><p>注意：新しいバージョンを含むWorkfront for Salesforce統合は、**2026 年 2 月 28 日（PT）**以降は使用できなくなります。 </p>
         </td>
         <td>2025年10月30日（PT）</td>
         <td>2025年10月30日（PT）</td>
@@ -193,6 +246,69 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+ <!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Currency updates in Canvas Dashboards</a>
+            <p>We have made the following updates for currency fields:<ul><li>When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. </li><li>When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.</li><li>When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields</li></ul></p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>-->
+ <!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> Quick search table results in Canvas Dashboards</a>
+            <p>We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.</p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>-->
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> 新しい「円グラフの合計を表示」オプション </a>
+            <p>円グラフをドーナツグラフに変換する、新しい「合計を表示」オプションが導入されました。 この機能を使用すると、グラフ内のすべてのセグメントの合計を表す一元的な値を表示できます。</p>
+        </td>
+        <td>2025年12月18日（PT）</td>
+        <td>2026年1月14日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> キャンバスダッシュボードの円グラフ用の新しい設定オプション </a>
+            <p>円グラフ用に、次の 2 つの新しい設定オプションが導入されました。 <ul><li>セグメントラベルを非表示にする：円グラフのセグメントラベルが長すぎてグラフの読みやすさに影響する場合に、円グラフでセグメントラベルを非表示にするように選択できるようになりました。</li><li>グラフの凡例の非表示と再配置：円グラフの凡例を非表示にするように選択できるようになりました。 凡例の位置は、グラフの右（デフォルト）、左、上、下に設定することもできます。 </li></ul></p>
+        </td>
+        <td>2025年12月18日（PT）</td>
+        <td>2026年1月14日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> キャンバスダッシュボードのグループ化数の改善 </a>
+            <p>キャンバスダッシュボードのグループ化バーを更新して、現在のページのレコード数とすべてのページにわたるグループ化の全体的なレコード数を表示しました。 </p>
+        </td>
+        <td>2025年12月18日（PT）</td>
+        <td>2026年1月14日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> キャンバスダッシュボードのレポートの新しい参照線機能 </a>
+            <p>棒グラフ、列グラフ、折れ線グラフで参照線を定義して、系列ベースのレポートのターゲットまたはしきい値 4 を設定できるようになりました。 </p>
+        </td>
+        <td>2025年12月18日（PT）</td>
+        <td>2026年1月14日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> キャンバスダッシュボードのグラフレポートの軸ラベルのカスタマイズ </a>
+            <p>グラフレポートの軸ラベルをカスタマイズできるようになりました。 この新機能を使用すると、デフォルトのオブジェクトおよびフィールド パスの代わりに表示する置き換え軸ラベルを入力できます。 また、軸ラベル全体を非表示にすることもできます。</p>
+        </td>
+        <td>2025年12月18日（PT）</td>
+        <td>2026年1月14日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+    </tr>   
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> キャンバスダッシュボードでのレポートの複製 </a><p>![ バッジ オフ スケジュール ]{type=Neutral}</p>
@@ -258,6 +374,42 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}"> 作成されたオブジェクトのリンクが、リクエスト エリアとマイリクエスト ウィジェットで使用できるようになりました </a>
+            <p>特定のリクエストで作成されたオブジェクトに簡単に移動できるように、「作成されたオブジェクト」列へのリンクを追加しました。 これで、この列のリンクをクリックして、作成したオブジェクトのページに直接移動できます。/p&gt;
+        </td>
+        <td>2025年12月18日（PT）</td>
+        <td>2026年1月14日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+    </tr> 
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create groupings in the Requests list and My Requests widget</a>
+            <p>To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.</p>
+        </td>
+        <td>December 18, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr> -->
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}"> リクエストリストとマイリクエストウィジェットへのカスタムフィールドの追加 </a>
+            <p>必要な情報を見やすくするために、ホームのリクエスト リストとマイリクエストウィジェットに列としてカスタムフィールドを追加する機能を追加しました。 これで、カスタムフォームのフィールドを列として追加でき、そのフィールドに情報が含まれるリクエストは、その情報をリストまたはウィジェットに表示します。</p><p>この機能は、新しいリクエスト エクスペリエンスでのみ使用できます。</p>
+        </td>
+        <td>2025年12月18日（PT）</td>
+        <td>2026年1月14日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}"> 現在のユーザーワイルドカードをリクエスト フィルターで使用できるようになりました </a>
+            <p>自分に適用されるリクエストをフィルタリングしやすくするために、現在のユーザーワイルドカードを作成しました。 これで、フィルタリング時に「自分（ログインしたユーザー）」を選択できます。 その後、フィルターはリクエストリストを表示しているユーザーに適用されます。   </p>
+        </td>
+        <td>2025年12月18日（PT）</td>
+        <td>2026年1月14日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">AI を活用したフォーム入力がリクエストに使用できるようになりました </a>
             <p>リクエストの作成を容易にするために、AI を活用したフォーム入力を作成しました。 これで、プロンプトに貼り付けたり、リクエストフォームにドキュメントをアップロードしたりするだけで、AI が関連情報を取り出してフォームに入力します。  </p>
         </td>
@@ -266,14 +418,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>2025年12月11日（PT）</td>
     </tr> 
     <tr>
-        <!--<td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
-            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}"> リクエスト エリアとマイリクエストウィジェットでのビューの共有 </a>
+            <p>必要な情報を確実に表示できるように、新しいレポートエクスペリエンスにビューを共有する機能を追加しました。 他のユーザー、チーム、グループとビューを共有できるようになりました。 </p>
         </td>
-        <td>December 4, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
-    </tr> -->
+        <td>2025年12月4日（PT）</td>
+        <td>2026年1月14日（PT）</td>
+        <td>2026年1月15日（PT）</td>
+    </tr> 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}"> リクエストのドラフトを新しいリクエストエクスペリエンスに保存する </a>
@@ -362,7 +514,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## インターフェイスの最新化
 
-ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 ## その他の領域のリリースノート
 
@@ -372,7 +524,7 @@ Workfront Fusion の新機能は、標準のリリーススケジュール以外
 
 ### Workfront計画の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 1 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md) を参照してください。
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 1 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md) を参照してください。
 
 このリリースの現時点では、次の更新はありません。
 
@@ -420,13 +572,13 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Microsoft Teams用Workfrontの新しいバージョン
 
-[Microsoftが新しい Teams クライアント &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
+[Microsoftが新しい Teams クライアント ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 
-更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。 新しい Teams クライアントでWorkfront統合をインストールまたは検証するには、[Microsoft Teams用のインストール  [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) を参照してください。
+更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。 新しい Teams クライアントでWorkfront統合をインストールまたは検証するには、[Microsoft Teams用のインストール  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) を参照してください。
 
 ### Workfront for Microsoft Outlook
 
-[Microsoftでは、従来の Exchange オンライン トークン &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
+[Microsoftでは、従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
 
 * **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
 
@@ -441,7 +593,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 
 ### Workfront のメンテナンスアップデート

@@ -4,10 +4,10 @@ description: 2026年第 1 四半期の管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
+source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 15%
+source-wordcount: '643'
+ht-degree: 11%
 
 ---
 
@@ -16,6 +16,36 @@ ht-degree: 15%
 このページでは、2026 年第 1 四半期リリースで行われた、プレビュー環境に対する管理者の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2026年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)を参照してください。
+
+## レイアウトテンプレートでの優先度の管理
+
+>[!NOTE]
+>
+>プレビュー：2025 年 12 月 2 日（Pt）
+>実稼動高速リリース：2026 年 1 月 14 日（PT）
+>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
+
+レイアウトテンプレート内の特定のユーザーに対して、優先度を有効または無効にできるようになりました。 以前、組織で優先度を無効にしていた場合、この変更を含むレイアウトテンプレートでは無効のままになります。
+
+リクエストに対するデフォルトのアクセス権を持つライセンスタイプの優先度が自動的に含まれます。 例えば、投稿者ライセンスではメインメニューにデフォルトでリクエスト、ボード、優先度が表示されますが、外部ライセンスではリクエストの表示と送信を行うアクセス権がないので、ドキュメントとボードのみが表示されます。
+
+
+詳細情報については、[レイアウトテンプレートを使用したメインメニューのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
+
+## 計算されたカスタムフィールドのマルチフォームの競合の確認
+
+>[!NOTE]
+>
+>プレビュー：2025 年 12 月 18 日（PT）
+>実稼動高速リリース：2026 年 1 月 14 日（PT）
+>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
+
+異なるカスタムフォームに添付されている場合、同じ計算フィールドに異なる式を含めることができます。 同じ計算フィールドを含む 2 つ以上のフォームがオブジェクトに添付されている場合、数式はすべてのフォームで同一である必要があります。 変更により競合が発生する可能性がある場合、式の編集は許可されません。
+
+カスタムフィールドで式を編集する際に影響を受ける可能性のあるオブジェクトを可視化するために、競合をチェックするオプションを追加しました。 このダイアログ ボックスには、式の変更によって影響を受ける可能性のあるすべてのオブジェクトが、オブジェクト タイプ別にグループ化されて表示されます。 各オブジェクトの詳細に移動し、フィールドを確認して、フィールドをいずれかのフォームから削除するか、式を変更しないかを決定できます。
+
+詳しくは、[ フォームへの計算フィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+
 
 ## エントリ日とカスタムオブジェクトに保存された入力者 ID
 
@@ -60,4 +90,8 @@ ht-degree: 15%
 * カスタムフィールドを追加できるWorkfrontのレポート、フィルター、ビュー、その他の場所からは除外されます
 * 他のカスタムフォームに追加するフィールドライブラリでは使用できません
 
-詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+
+
+
+

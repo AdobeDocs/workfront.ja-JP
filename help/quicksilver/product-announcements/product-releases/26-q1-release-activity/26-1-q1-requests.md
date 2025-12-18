@@ -4,10 +4,10 @@ description: 2026 年第 1 四半期リクエストの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
+source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 7%
+source-wordcount: '913'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,88 @@ ht-degree: 7%
 このページでは、2026 年第 1 四半期のリリースで行われた、プレビュー環境に対するリクエストの機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2026年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)を参照してください。
+
+## リクエストエリアとマイリクエストウィジェットで作成済みのオブジェクトリンクを使用できるようになりました
+
+>[!NOTE]
+>
+>プレビュー：2025 年 12 月 18 日（PT）
+>実稼動高速リリース：2026 年 1 月 14 日（PT）\
+>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
+
+特定のリクエストで作成されたオブジェクトに簡単に移動できるように、「作成されたオブジェクト」列へのリンクを追加しました。 これで、この列のリンクをクリックして、作成したオブジェクトのページに直接移動できます。
+
+以前は、この列にはオブジェクトの名前のみが含まれており、リンクは含まれていませんでした。
+
+これらのリンクの場所については、を参照してください。列の追加手順については、以下を参照してください。
+
+* [送信されたリクエストを見つける](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [自分のリクエスト ウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+
+<!--
+
+## Create groupings in the Requests list and My Requests widget
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026  
+>Production for everyone: January 15, 2026  
+
+To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.
+
+For more information on creating views for the Request list and My Requests widget, including adding groupings, see [Create or edit views in the Requests area and My Requests widget](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+-->
+
+## リクエスト エリアとマイリクエストウィジェットでのビューの共有
+
+>[!NOTE]
+>
+>プレビュー：2025 年 12 月 18 日（PT）
+>実稼動高速リリース：2026 年 1 月 14 日（PT）\
+>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
+
+必要な情報を確実に表示しやすくするために、新しいリクエスト用エクスペリエンスにビューを共有する機能を追加しました。 他のユーザー、チーム、グループとビューを共有できるようになりました。
+
+Workfrontのリクエスト エリアとホームのマイリクエスト ウィジェットの両方で、リクエストリストビューを共有できます。 共有機能はどちらの場所でも同じで、マイリクエスト ウィジェットとリクエスト エリア間を移動する際に、共有を含む表示設定は保持されます。
+
+共有を含むリクエストビューについて詳しくは、[ リクエストエリアでのビューの作成と管理 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+
+## リクエストリストとマイリクエストウィジェットにカスタムフィールドを追加
+
+>[!NOTE]
+>
+>プレビュー：2025 年 12 月 18 日（PT）
+>実稼動高速リリース：2026 年 1 月 14 日（PT）\
+>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
+
+必要な情報を見やすくするために、ホームのリクエスト リストとマイリクエストウィジェットに列としてカスタムフィールドを追加する機能を追加しました。 これで、カスタムフォームのフィールドを列として追加でき、そのフィールドに情報が含まれるリクエストは、その情報をリストまたはウィジェットに表示します。
+
+この機能は、新しいリクエスト エクスペリエンスでのみ使用できます。
+
+以前は、リクエストリストやマイリクエストウィジェットではカスタムフィールドを使用できませんでした。
+
+列の追加手順については、以下を参照してください。
+
+* [リクエスト エリアでのビューの作成または編集](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
+* [自分のリクエスト ウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+
+## 現在のユーザーワイルドカードを要求フィルターで使用できるようになりました
+
+>[!NOTE]
+>
+>プレビュー：2025 年 12 月 18 日（PT）
+>実稼動高速リリース：2026 年 1 月 14 日（PT）\
+>すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
+
+自分に適用されるリクエストをフィルタリングしやすくするために、現在のユーザーワイルドカードを作成しました。 これで、フィルタリング時に「自分（ログインしたユーザー）」を選択できます。 その後、フィルターはリクエストリストを表示しているユーザーに適用されます。
+
+これは、複数のユーザーが使用するビューにフィルターを追加する場合に便利です。 各ユーザーに適用されるフィルター結果が表示されます。
+
+ワイルドカードは、値がユーザーであるフィールドで使用できます。
+
+フィルターを含む、リクエストリストでのビューの設定について詳しくは、「[ リクエスト領域でのビューの作成または編集 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 
 ## AI を活用したフォーム入力がリクエストに使用できるようになりました
 
@@ -29,21 +111,7 @@ ht-degree: 7%
 
 この機能にアクセスするには、組織の AI が有効になっている必要があります。
 
-組織の AI を有効にするために必要なことなど、AI を利用したフォーム入力について詳しくは、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) を参照してください。
-
-<!--## Share views in the Requests area and the My Requests widget
-
->[!NOTE]
->
->Preview: December 4, 2025 
->Production fast release: December 11, 2025  
->Production for everyone: January 16, 2026  
-
-To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
-
-You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
-
-For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).-->
+組織の AI を有効にするために必要なことなど、AI を利用したフォーム入力について詳しくは、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) を参照してください。
 
 
 ## リクエストのドラフトを新しいリクエストエクスペリエンスに保存
@@ -60,7 +128,7 @@ For information on request views, including sharing, see [Create and manage view
 
 従来のリクエストエクスペリエンスで作成されたドラフトは、新しいリクエストエクスペリエンスで利用できます。
 
-リクエストドラフトについて詳しくは、「[&#x200B; ドラフトからのリクエストの作成 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)」を参照してください。
+リクエストドラフトについて詳しくは、「[ ドラフトからのリクエストの作成 ](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)」を参照してください。
 
 ## 新しい要求エクスペリエンスで送信済み要求を削除
 
@@ -74,7 +142,7 @@ For information on request views, including sharing, see [Create and manage view
 
 以前は、リクエストの削除は使用できませんでした。
 
-詳細と手順については、[&#x200B; 送信されたリクエストまたはリクエストドラフトの削除 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) を参照してください。
+詳細と手順については、[ 送信されたリクエストまたはリクエストドラフトの削除 ](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) を参照してください。
 
 
 ## 以前に送信したリクエストを新しいリクエストエクスペリエンスにコピーして、新しいリクエストを作成します
@@ -89,7 +157,7 @@ For information on request views, including sharing, see [Create and manage view
 
 以前は、この機能は、新しいリクエスト用エクスペリエンスでは使用できませんでした。
 
-リクエストのコピーと送信について詳しくは、[&#x200B; リクエストのコピーと送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
+リクエストのコピーと送信について詳しくは、[ リクエストのコピーと送信 ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
 
 
 
