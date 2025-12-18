@@ -4,9 +4,9 @@ description: このページでは、2026 年第 1 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: db74f7a97174ce0bca30684bc0871cca4b6ae4d9
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2890'
 ht-degree: 13%
 
 ---
@@ -39,6 +39,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [管理者機能の強化](#administrator-enhancements)
 * [ドキュメントと承認の機能強化](#documents-and-approvals-enhancements)
+* [ホームの機能強化](#home-enhancements)
 * [統合の機能強化](#integration-enhancements)
 * [プロジェクトの強化](#project-enhancements)
 * [レポートの機能強化](#reporting-enhancements)
@@ -147,7 +148,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 
 
-### 統合の機能強化
+### ホームの機能強化
 
 <table style="table-layout:auto">
   <tbody>
@@ -161,7 +162,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
          <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-home.md" class="MCXref xref" xrefformat="{para}"> ホームのメンションウィジェットの更新 </a>
-            <p>ホームのメンションウィジェットに次の改善が加えられました。 <ul><li>ほとんどのWorkfront オブジェクトの「更新」領域の同じエクスペリエンスが、ホームのメンションウィジェットでも使用できるようになりました。 </li><li>メンションウィジェットには、ユーザーが過去 2 週間に行った、またはタグ付けしたコメントが含まれるようになりました</li><ul></p>
+            <p>ホームのメンションウィジェットに次の改善を行いました。 <ul><li>ほとんどのWorkfront オブジェクトの「更新」領域の同じエクスペリエンスが、ホームのメンションウィジェットでも使用できるようになりました。 </li><li>メンションウィジェットには、ユーザーが過去 2 週間に行った、またはタグ付けしたコメントが含まれるようになりました</li><ul></p>
         </td>
         <td>2025年12月17日（PT）</td>
         <td>2026年1月14日（PT）</td>
@@ -183,7 +184,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
          <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Creative Cloud Express でレビューを送信する際のWorkfront プロジェクトの選択 </a><p>![ バッジ オフ スケジュール ]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Creative Cloud Express でレビューを送信する際のWorkfront プロジェクトの選択 </a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>配達確認を送信するWorkfront プロジェクトを選択できます。 これにより、関連するすべてのアセットとプルーフを同じプロジェクト内で整理できます。 </p>
         </td>
         <td>2025年12月15日（PT）</td>
@@ -203,7 +204,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Salesforce統合の新しいバージョンを </a> で利用できるようになりました
-            <p>Workfront API に対する最近の変更を最新の状態に保つために、新しいSalesforce統合を作成しました。 この新しい統合は、以前のバージョンと同じ機能を備え、API で非推奨となった機能が失われないように更新されました。</p><p>注意：新しいバージョンを含むWorkfront for Salesforce統合は、**2026 年 2 月 28 日（PT）**&#x200B;以降は使用できなくなります。 </p>
+            <p>Workfront API に対する最近の変更を最新の状態に保つために、新しいSalesforce統合を作成しました。 この新しい統合は、以前のバージョンと同じ機能を備え、API で非推奨となった機能が失われないように更新されました。</p><p>注意：新しいバージョンを含むWorkfront for Salesforce統合は、**2026 年 2 月 28 日（PT）**以降は使用できなくなります。 </p>
         </td>
         <td>2025年10月30日（PT）</td>
         <td>2025年10月30日（PT）</td>
@@ -311,7 +312,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> キャンバスダッシュボードでのレポートの複製 </a><p>![ バッジ オフ スケジュール ]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> キャンバスダッシュボードでのレポートの複製 </a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>キャンバスダッシュボードで KPI、テーブル、またはグラフレポートを作成後に複製できるようになりました。 複製したら、必要に応じてレポートを編集してから保存できます。</p>
         </td>
         <td>2025年10月23日（PT）</td>
@@ -514,7 +515,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## インターフェイスの最新化
 
-ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 ## その他の領域のリリースノート
 
@@ -524,7 +525,7 @@ Workfront Fusion の新機能は、標準のリリーススケジュール以外
 
 ### Workfront計画の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 1 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md) を参照してください。
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 1 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md) を参照してください。
 
 このリリースの現時点では、次の更新はありません。
 
@@ -572,13 +573,13 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Microsoft Teams用Workfrontの新しいバージョン
 
-[Microsoftが新しい Teams クライアント &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
+[Microsoftが新しい Teams クライアント ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 
-更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。 新しい Teams クライアントでWorkfront統合をインストールまたは検証するには、[Microsoft Teams用のインストール  [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) を参照してください。
+更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。 新しい Teams クライアントでWorkfront統合をインストールまたは検証するには、[Microsoft Teams用のインストール  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) を参照してください。
 
 ### Workfront for Microsoft Outlook
 
-[Microsoftでは、従来の Exchange オンライン トークン &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
+[Microsoftでは、従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
 
 * **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
 
@@ -593,7 +594,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 
 ### Workfront のメンテナンスアップデート
