@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 066f678d4b13371eeca6aced586e1853a973cc03
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 2%
+source-wordcount: '1497'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,24 @@ ht-degree: 2%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## 接続されたレコードページの改善
+
+>[!NOTE]
+>
+>プレビュー：2025 年 12 月 19 日（PT）
+>実稼動の高速化：2026 年 1 月 14 日（PT）
+>全員の実稼動：2026 年 1 月 15 日（PT）
+
+接続されたレコードページを柔軟に操作できるように、Workfront Planning のこの領域でビューの機能を強化しました。 レコードの接続済みレコードページの改善は次のとおりです。
+
+* レコードの接続されたレコードページにタイムラインとカレンダーの表示を追加できるようになりました。
+* 接続されたレコードページからすべてのビューを共有できるようになりました。 これらのページで共有されたビューは、Workfront Planning の他の領域で共有するすべてのユーザーに、システム全体で表示されます。 Planning の他の領域で共有されたすべてのビューは、共有されているユーザーと同じユーザーの接続されたレコード・ページにも表示されます。
+* 各レコードまたはオブジェクトタイプごとに 1 つの接続されたレコードページのみを許可する制限を追加しました。 この機能強化の前は、同じレコードまたはオブジェクトタイプに対して複数のページを追加できます。 1 つの接続されたレコードページで、同じレコードタイプに対して複数のビューを使用できるようになりました。
+* テーブル表示の下部に **新規行** リンクを、接続されたレコード ページの右上の領域に **レコードを接続** ボタンを追加しました。 この機能強化が行われるまで、**新規行** リンクと **レコードを接続** ボタンは、プロジェクトに接続されたページにのみ存在していました。
+
+詳しくは、[ 接続されたレコードページのレコードへの追加 ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を参照してください。
 
 ## プロジェクトの接続されたレコードページでビューを共有
 
@@ -31,7 +48,7 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 
 必要な情報を確実に表示できるように、プロジェクトの接続されたレコード ページにビューを共有する機能を追加しました。 他のユーザー、チーム、グループとビューを共有できるようになりました。
 
-詳しくは、[&#x200B; 接続されたレコードページのレコードへの追加 &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を参照してください。
+詳しくは、[ 接続されたレコードページのレコードへの追加 ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を参照してください。
 
 ## 現在のユーザーワイルドカードをプロジェクト接続表示フィルターで使用できるようになりました
 
@@ -47,7 +64,7 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 
 ワイルドカードは、値がユーザーであるフィールドで使用できます。
 
-フィルターを含むプロジェクト接続ビューの設定について詳しくは、[&#x200B; 接続されたレコードのページのレコードへの追加 &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を参照してください。
+フィルターを含むプロジェクト接続ビューの設定について詳しくは、[ 接続されたレコードのページのレコードへの追加 ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を参照してください。
 
 <!--
 
@@ -114,28 +131,9 @@ Workfront Planning の「Workspaces」メインページが次のように改善
 
 * 「**その他のワークスペース**」タブの名前は、「**すべてのワークスペース** に変更されました。これには、作成したワークスペースを含む、少なくとも表示権限を持つすべてのワークスペースが含まれます。
 
-詳しくは、[&#x200B; ワークスペースの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md) を参照してください。
+詳しくは、[ ワークスペースの編集 ](/help/quicksilver/planning/architecture/edit-workspaces.md) を参照してください。
 
-<!--
 
-## Improvements to connected records pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
-
-* You can now add a timeline and a calendar view to a record's connected records page.
-* You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
-* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
-* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
-
-For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-
--->
 
 ## GenStudio Workspace でのデフォルトの「ブランド接続」フィールドの製品およびペルソナへの追加
 
@@ -151,7 +149,7 @@ GenStudio for Performance Marketing Brand の接続フィールドが、Workfron
 
 この機能強化の前は、ブランド接続フィールドを、製品やペルソナを含む任意のレコードタイプに手動でのみ追加できました。 Brand GenStudio レコードタイプをWorkfront Planning の他のレコードタイプに手動で接続することはできます。
 
-詳しくは、[Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
+詳しくは、[Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
 
 ## GenStudio for Performance Marketing ユーザーの権限の Planning からの削除の制限
 
@@ -165,7 +163,7 @@ Workfront Planning オブジェクトからGenStudio for Performance Marketing �
 
 組織には、Workfront Planning とAdobe GenStudio for Performance Marketingの両方が必要です。
 
-詳しくは、[Adobe Workfront Planning と Adobe GenStudio for Performance Marketingの統合の基本を学ぶ &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
+詳しくは、[Adobe Workfront Planning と Adobe GenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
 
 
 ## セカンダリワークスペースのグローバルレコードタイプに対するビューの公開共有を削除しました
@@ -180,7 +178,7 @@ Workfront Planning オブジェクトからGenStudio for Performance Marketing �
 
 セカンダリワークスペースでグローバルレコードのビューを共有する際の、「公開共有」タブを削除しました。 既存のグローバルレコードタイプから別のワークスペースに追加されたグローバルレコードタイプからビューを公開して共有することはできません。 グローバルレコードタイプのビューは、元のワークスペースから公開で共有できます。
 
-詳しくは、[&#x200B; ビューの共有 &#x200B;](/help/quicksilver/planning/access/share-views.md) を参照してください。
+詳しくは、[ ビューの共有 ](/help/quicksilver/planning/access/share-views.md) を参照してください。
 
 
 ## GenStudio for Performance Marketing Brands とWorkfront Planning レコードタイプの連携
@@ -229,9 +227,9 @@ Workfrontの計画レコードタイプをAdobe GenStudio for Performance Market
 
 詳しくは、次の記事を参照してください。
 
-* [&#x200B; クロスワークスペースレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [ クロスワークスペースレコードタイプの概要 ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
-* [&#x200B; レコードタイプのワークスペース間機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [ レコードタイプのワークスペース間機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
 * [別のワークスペースからの既存のレコードタイプの追加](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 
@@ -247,7 +245,7 @@ Workfrontの計画レコードタイプをAdobe GenStudio for Performance Market
 
 注意：現在、組織に 1 つのレコードタイプに対して 30 を超える接続フィールドがある場合は、30 の制限を超える追加フィールドを保持できます。 ただし、制限を超えるレコードタイプに接続フィールドを追加することはできません。 今後、新しい制限の 30 個の接続フィールドが適用されます。
 
-詳しくは、[&#x200B; 接続されたレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
 ## 選択タイプのフィールドの選択肢に対して、ユーザーにわかりやすい値を設定します
 
