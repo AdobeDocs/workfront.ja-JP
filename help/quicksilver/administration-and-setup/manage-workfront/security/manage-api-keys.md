@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: 87d3443c7b08c59d435e852c6a17df297e7023d6
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 86%
+source-wordcount: '1356'
+ht-degree: 88%
 
 ---
 
@@ -19,6 +19,21 @@ ht-degree: 86%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+
+
+>[!IMPORTANT]
+>
+>Workfront では、`/login` エンドポイントまたは API キーの使用を推奨していません。代わりに、次のいずれかの認証方法を使用してください。
+>
+>* JWT を使用したサーバー認証
+>* OAuth2 を使用したユーザー認証
+>
+>これらの認証方法の設定手順については、[Workfront 統合用の OAuth2 アプリケーションの作成](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください
+>
+>Workfront でのサーバー認証の使用手順については、[JWT フローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)を参照してください
+>
+>Workfront でのユーザー認証を使用する手順については、[認証コードフローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)を参照してください
 
 API セキュリティ脆弱性を最小限に抑えるために、Adobe Workfront 管理者は、アプリケーションがユーザーに代わって Workfront へのアクセスに使用される API キーを管理できます。
 
@@ -74,10 +89,6 @@ Workfront 管理者には一意の API キーが割り当てられています�
 
 管理者ユーザーアカウントの API キーを生成、リセットまたは削除することができます。
 
->[!NOTE]
->
->API を使用して API キーを生成することもできます。詳しくは、[イベント登録 API](../../../wf-api/general/event-subs-api.md) にある[イベント登録 API](../../../wf-api/general/event-subs-api.md) の節を参照してください。
-
 {{step-1-to-setup}}
 
 1. **システム**／**顧客情報**&#x200B;をクリックします。
@@ -107,7 +118,7 @@ Workfront 管理者以外の役割を持つユーザーの API キーを生成�
    1. **システム**&#x200B;を展開し、次に「**シングルサインオン（SSO）**」をクリックします。
    1. **タイプ** フィールドで、組織が使用する SSO のタイプを選択します。
    1. タイプを選択した状態で、下にスクロールして「**有効**」チェックボックスをオフにします。
-      ![SSO を有効にする &#x200B;](assets/sysadmin-security-sso-disable-31620-350x320.png)
+      ![SSO を有効にする ](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. 「**保存**」をクリックします。
 
 
@@ -187,7 +198,7 @@ Workfront システムに関する特定のセキュリティ違反を懸念す�
 
 認証局から X.509 証明書を取得したら、Workfront にアップロードする必要があります。
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**設定** ![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
 1. **システム**&#x200B;を展開して、「**顧客情報**」をクリックします。
 
