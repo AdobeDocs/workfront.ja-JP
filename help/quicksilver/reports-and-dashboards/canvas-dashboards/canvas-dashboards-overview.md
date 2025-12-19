@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックを送信してください。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックを送信してください。
 >
 >バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 >
@@ -35,9 +35,9 @@ ht-degree: 5%
 
 ## 前提条件
 
-* 組織は、キャンバスダッシュボードベータ版の一部である必要があります。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
-* キャンバスダッシュボードを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新しいライセンス）が必要です。 Workfrontのライセンスタイプについて詳しくは、[ ライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) または [ 新規ライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
-* キャンバスダッシュボードを作成または編集するには、Workfront管理者から、アクセスレベルのダッシュボードへの編集アクセス権を付与されている必要があります。 編集アクセス権の付与について詳しくは、[ 報告書、ダッシュボード、カレンダーへのアクセスの許可 ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md) を参照してください。
+* 組織は、キャンバスダッシュボードベータ版の一部である必要があります。 詳しくは、[&#x200B; キャンバスダッシュボードのベータ版情報 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+* キャンバスダッシュボードを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新しいライセンス）が必要です。 Workfrontのライセンスタイプについて詳しくは、[&#x200B; ライセンスの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) または [&#x200B; 新規ライセンスの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
+* キャンバスダッシュボードを作成または編集するには、Workfront管理者から、アクセスレベルのダッシュボードへの編集アクセス権を付与されている必要があります。 編集アクセス権の付与について詳しくは、[&#x200B; 報告書、ダッシュボード、カレンダーへのアクセスの許可 &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md) を参照してください。
 
 ## キャンバスダッシュボードに関する記事
 
