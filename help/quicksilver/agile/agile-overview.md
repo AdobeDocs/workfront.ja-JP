@@ -34,15 +34,15 @@ Workfront で高度なアジャイル機能の使用を開始するには、次�
 
 1. カンバンチーム：バックログを管理し、[!UICONTROL かんばん]ボードを作成します。
 
-   詳しくは、[Agile バックログの管理 ](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) および [ かんばん概要 ](../agile/use-kanban-in-an-agile-team/kanban-overview.md) を参照してください。
+   詳しくは、[Agile バックログの管理 &#x200B;](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) および [&#x200B; かんばん概要 &#x200B;](../agile/use-kanban-in-an-agile-team/kanban-overview.md) を参照してください。
 
 1. スクラムチーム：バックログを管理し、イテレーションを作成して、[!UICONTROL スクラム]ボードを作成します。
 
-   詳しくは、[ アジャイルバックログの管理 ](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)、[ イテレーションの概要 ](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) および [ スクラムボードの概要 ](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md) を参照してください。
+   詳しくは、[&#x200B; アジャイルバックログの管理 &#x200B;](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)、[&#x200B; イテレーションの概要 &#x200B;](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) および [&#x200B; スクラムボードの概要 &#x200B;](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md) を参照してください。
 
 1. プロジェクトのタスクをチームのバックログまたはストーリーボードに追加します。
 
-   詳しくは、[ アジャイルバックログの管理 ](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)、[ 既存のタスクまたは問題を [!UICONTROL  かんばん ] ボードに追加 ](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)、[ ストーリーを既存の反復に追加 ](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) を参照してください。
+   詳しくは、[&#x200B; アジャイルバックログの管理 &#x200B;](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)、[&#x200B; 既存のタスクまたは問題を [!UICONTROL &#x200B; かんばん &#x200B;] ボードに追加 &#x200B;](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)、[&#x200B; ストーリーを既存の反復に追加 &#x200B;](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) を参照してください。
 
 ## プロジェクトでのアジャイルの使用
 

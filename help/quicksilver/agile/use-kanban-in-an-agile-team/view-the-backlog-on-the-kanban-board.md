@@ -58,4 +58,4 @@ ht-degree: 92%
 >
 >複数のチームをバックログ項目に追加した場合、タスクまたはイシューは、プライマリチームのバックログにのみ表示されます。プライマリチームは、最初に割り当てられたチームです。
 
-バックログについて詳しくは、[ アジャイルバックログの管理 ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) を参照してください。
+バックログについて詳しくは、[&#x200B; アジャイルバックログの管理 &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) を参照してください。
