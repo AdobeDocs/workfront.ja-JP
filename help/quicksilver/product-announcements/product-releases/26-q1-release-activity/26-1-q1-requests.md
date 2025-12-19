@@ -4,9 +4,9 @@ description: 2026 年第 1 四半期リクエストの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '918'
 ht-degree: 4%
 
 ---
@@ -62,7 +62,7 @@ For more information on creating views for the Request list and My Requests widg
 
 Workfrontのリクエスト エリアとホームのマイリクエスト ウィジェットの両方で、リクエストリストビューを共有できます。 共有機能はどちらの場所でも同じで、マイリクエスト ウィジェットとリクエスト エリア間を移動する際に、共有を含む表示設定は保持されます。
 
-共有を含むリクエストビューについて詳しくは、[&#x200B; リクエストエリアでのビューの作成と管理 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+共有を含むリクエストビューについて詳しくは、[ リクエストエリアでのビューの作成と管理 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 
 ## リクエストリストとマイリクエストウィジェットにカスタムフィールドを追加
 
@@ -97,7 +97,7 @@ Workfrontのリクエスト エリアとホームのマイリクエスト ウィ
 
 ワイルドカードは、値がユーザーであるフィールドで使用できます。
 
-フィルターを含む、リクエストリストでのビューの設定について詳しくは、「[&#x200B; リクエスト領域でのビューの作成または編集 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+フィルターを含む、リクエストリストでのビューの設定について詳しくは、「[ リクエスト領域でのビューの作成または編集 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 
 ## AI を活用したフォーム入力がリクエストに使用できるようになりました
 
@@ -111,7 +111,7 @@ Workfrontのリクエスト エリアとホームのマイリクエスト ウィ
 
 この機能にアクセスするには、組織の AI が有効になっている必要があります。
 
-組織の AI を有効にするために必要なことなど、AI を利用したフォーム入力について詳しくは、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) を参照してください。
+組織の AI を有効にするために必要なことなど、AI を利用したフォーム入力について詳しくは、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) を参照してください。
 
 
 ## リクエストのドラフトを新しいリクエストエクスペリエンスに保存
@@ -128,7 +128,7 @@ Workfrontのリクエスト エリアとホームのマイリクエスト ウィ
 
 従来のリクエストエクスペリエンスで作成されたドラフトは、新しいリクエストエクスペリエンスで利用できます。
 
-リクエストドラフトについて詳しくは、「[&#x200B; ドラフトからのリクエストの作成 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)」を参照してください。
+リクエストドラフトについて詳しくは、「[ ドラフトからのリクエストの作成 ](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)」を参照してください。
 
 ## 新しい要求エクスペリエンスで送信済み要求を削除
 
@@ -140,9 +140,9 @@ Workfrontのリクエスト エリアとホームのマイリクエスト ウィ
 
 リクエストを整理し整頓しやすくするために、新しいリクエスト用エクスペリエンスにリクエストを削除する機能が追加されました。 送信したリクエストを削除できるようになりました。 Workfront管理者とWorkfront Planning Workspace管理者は、リクエストを削除することもできます。
 
-以前は、リクエストの削除は使用できませんでした。
+以前は、この機能は、新しいリクエストエクスペリエンスでは使用できませんでした。
 
-詳細と手順については、[&#x200B; 送信されたリクエストまたはリクエストドラフトの削除 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) を参照してください。
+詳細と手順については、[ 送信されたリクエストまたはリクエストドラフトの削除 ](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) を参照してください。
 
 
 ## 以前に送信したリクエストを新しいリクエストエクスペリエンスにコピーして、新しいリクエストを作成します
@@ -157,7 +157,7 @@ Workfrontのリクエスト エリアとホームのマイリクエスト ウィ
 
 以前は、この機能は、新しいリクエスト用エクスペリエンスでは使用できませんでした。
 
-リクエストのコピーと送信について詳しくは、[&#x200B; リクエストのコピーと送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
+リクエストのコピーと送信について詳しくは、[ リクエストのコピーと送信 ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
 
 
 

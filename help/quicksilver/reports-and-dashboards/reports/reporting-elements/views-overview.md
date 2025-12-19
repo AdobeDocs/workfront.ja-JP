@@ -7,10 +7,10 @@ description: リストやレポートに表示する情報のタイプは、リ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 70%
+source-wordcount: '591'
+ht-degree: 69%
 
 ---
 
@@ -42,8 +42,8 @@ Workfront のリストやレポートに適用できるビューのタイプは�
         <td>これは、オブジェクトの任意のリストやレポートに適用できます。標準ビューは高度なカスタマイズが可能です。標準ビューをカスタマイズして他のユーザーと共有することができます。詳しくは、<a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Adobe Workfront でのビューの作成または編集</a>を参照してください。</td>
     </tr>
     <tr>
-        <td><strong>アジャイルビュー</strong></td>
-        <td>ボードまたはアジャイルビューは、プロジェクトの「タスク」セクションのタスクのリストや、プロジェクトの「イシュー」セクションのイシューのリストに適用できます。 詳しくは、<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md"> アジャイルビューでのプロジェクトの管理 </a> を参照してください。</td>
+        <td><strong>ボードビュー</strong></td>
+        <td>ボード ビューをプロジェクトの「タスク」セクションのタスクのリストや、プロジェクトの「イシュー」セクションのイシューのリストに適用して、アジャイル手法を使用してプロジェクトを管理できます。 詳しくは、<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md"> ボードビューでのアジャイルプロジェクトの管理 </a> を参照してください。</td>
     </tr>
     <tr>
         <td><strong>ガントビュー</strong></td>
@@ -64,9 +64,9 @@ Workfront のリストやレポートに適用できるビューのタイプは�
 
 標準ビューの要素を共有できます。
 
-標準ビューの共有方法の詳細については、「[&#x200B; フィルター、ビュー、グループ化を共有する &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)」を参照してください。
+標準ビューの共有方法の詳細については、「[ フィルター、ビュー、グループ化を共有する ](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)」を参照してください。
 
-ガント ビューとアジャイル ビューは共有できません。 これらのビューが表示される領域にアクセスできるユーザーは誰でも、同じ情報を表示できます。
+ガント ビューと掲示板ビューは共有できません。 これらのビューが表示される領域にアクセスできるユーザーは誰でも、同じ情報を表示できます。
 
 <!-- add something about the enhanced views here, when we have a link-->
 
@@ -74,9 +74,9 @@ Workfront のリストやレポートに適用できるビューのタイプは�
 
 ビューを削除する機能は、ビューを最初に作成したのか、ビューが共有されていたのかによって異なります。デフォルトのビューを削除することはできません。
 
-ガント ビューまたはアジャイル ビューは削除できません。
+ガントまたは掲示板のビューは削除できません。
 
-標準ビューの削除の詳細については、「[&#x200B; フィルター、ビュー、グループの削除 &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)」を参照してください。
+標準ビューの削除の詳細については、「[ フィルター、ビュー、グループの削除 ](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)」を参照してください。
 
 <!-- add something about the enhanced views here, when we have a link-->
 

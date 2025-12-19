@@ -6,10 +6,10 @@ description: ビューを使用して、画面に表示する情報のタイプ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 63%
+source-wordcount: '893'
+ht-degree: 61%
 
 ---
 
@@ -60,10 +60,7 @@ ht-degree: 63%
 
 ## ビューの作成またはカスタマイズ
 
-ビューの作成またはカスタマイズの手順は、標準ビュー、アジャイル ビュー、ボード ビューのどちらを作成またはカスタマイズするかによって異なります。
-
-* [標準ビューを作成またはカスタマイズ](#create-or-customize-a-standard-view)
-* [アジャイルビューを作成またはカスタマイズ](#create-or-customize-an-agile-view)
+ビューの作成またはカスタマイズのプロセスは、標準ビューとボードビューのどちらを作成またはカスタマイズするかによって異なります。
 
 ### 標準ビューを作成またはカスタマイズ {#create-or-customize-a-standard-view}
 
@@ -73,7 +70,7 @@ ht-degree: 63%
 
 1. 「**+新規ビュー**」ボタンをクリックして、新規ビューを作成します。
 または
-編集する既存のビューの右側にマウスポインターを置くと表示される **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+編集する既存のビューの右側にマウスポインターを置くと表示される **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 **ビューをカスタマイズ**&#x200B;ダイアログボックスが表示されます。
 
 1. 「**列のプレビュー**」セクションで、以下のいずれかを行います。
@@ -161,13 +158,15 @@ ht-degree: 63%
 
    アクセス権によって、ビューの保存方法が決まります。最初にビューを作成した場合は、変更を保存できます。それ以外の場合は、バージョンを保存するよう求められます。ビューに加えた変更は、そのビューを共有しているユーザーに影響を与えることに注意してください。
 
-### アジャイルビューを作成またはカスタマイズ {#create-or-customize-an-agile-view}
+### ボードビューの作成またはカスタマイズ {#create-or-customize-an-agile-view}
 
-アジャイルビュー（ボードビューとも呼ばれます）は、プロジェクト上のタスクとイシューのリストに対してのみ表示されます。
+ボードビューを使用して、アジャイル手法に従ってプロジェクトを管理できます。
+
+ボード表示は、プロジェクトのタスクおよびイシューのリストに対してのみ使用できます。
 
 これらは事前に設定されていますが、特定の設定を変更できます。
 
-アジャイル ビューまたはボード ビューの詳細については、「[&#x200B; アジャイル ビューでプロジェクトを管理する &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)」を参照してください。
+アジャイルまたはボードビューについて詳しくは、[ ボードビューでのアジャイルプロジェクトの管理 ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) を参照してください。
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
