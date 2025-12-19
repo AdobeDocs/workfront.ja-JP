@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: アジャイル ストーリーを移動
-description: アジャイルストーリーは、別のイテレーション（スクラムチームの場合）またはバックログ（かんばんチームとスクラムチームの場合）に移動できます。
+description: アジャイルストーリーは、別の反復（スクラムチームの場合）またはバックログ（かんばんチームとスクラムチームの場合）に移動できます。
 author: Jenny
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 70%
+ht-degree: 59%
 
 ---
 
-# アジャイルストーリーの移動
+# アジャイル ストーリーを移動
 
-アジャイルストーリーは、別のイテレーション（スクラムチームの場合）またはバックログ（かんばんチームとスクラムチームの場合）に移動できます。
+アジャイルストーリーは、別の反復（スクラムチームの場合）またはバックログ（かんばんチームとスクラムチームの場合）に移動できます。
 
 ## アクセス要件
 
@@ -34,7 +34,7 @@ ht-degree: 70%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 

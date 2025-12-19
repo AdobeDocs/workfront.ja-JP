@@ -6,16 +6,16 @@ description: 様々な方法を使って、1 つの反復で 1 つのアジャ�
 author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 96%
+ht-degree: 78%
 
 ---
 
-# アジャイルストーリーを作成する
+# アジャイルストーリーの作成
 
-様々な方法を使って、1 つの反復で 1 つのアジャイルストーリーを作成できます。アジャイルストーリーを作成したら、ストーリーにサブタスクを追加できます。
+反復にアジャイルストーリーを様々な方法で作成できます。 アジャイルストーリーを作成したら、ストーリーにサブタスクを追加できます。
 
 ストーリーまたはサブタスクを反復に追加すると、期間タイプが「[!UICONTROL シンプル]」に設定されます。また、タスクの制約が「固定日付」に設定され、日付は反復内でロックされます。反復期間のタイプやタスクの制約は変更できません。また、タスクの期間は 0 分を超える値にする必要があります。
 
@@ -38,7 +38,7 @@ ht-degree: 96%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -51,9 +51,9 @@ ht-degree: 96%
 
 +++
 
-## イテレーションでのアジャイルストーリーの作成
+## 反復でのアジャイルストーリーの作成
 
-1. ストーリーを作成するアジャイルなイテレーションに移動します。
+1. ストーリーを作成するアジャイル イテレーションに移動します。
 
    {{step1-to-team}}
 
@@ -85,7 +85,7 @@ ht-degree: 96%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimate]（ポイント）</strong></td>
-      <td>ストーリーの見積りを指定します。 アジャイルチームがストーリーをポイント単位で推定するように設定されている場合、デフォルトでは1ポイントが8時間になります。見積もりは、ストーリーに[!UICONTROL Planned Hours]として追加されます。<br>例えば、ストーリーを 3 ポイントと見積もる場合、デフォルトの動作では、24 [!UICONTROL Planned Hours] がストーリーに追加されます。<br>ストーリーにサブタスクが含まれる場合は、すべてのサブタスクの合計見積もりで親ストーリーの見積もりが決まることに注意してください。詳しくは、<a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">既存の反復へのストーリーの追加</a>を参照してください。</td>
+      <td>ストーリーの見積りを指定します。 アジャイルチームがポイントでストーリーを見積もるように設定されている場合、デフォルトでは 1 ポイントは 8 時間になります。 見積もりは、ストーリーに[!UICONTROL Planned Hours]として追加されます。<br>例えば、ストーリーを 3 ポイントと見積もる場合、デフォルトの動作では、24 [!UICONTROL Planned Hours] がストーリーに追加されます。<br>ストーリーにサブタスクが含まれる場合は、すべてのサブタスクの合計見積もりで親ストーリーの見積もりが決まることに注意してください。詳しくは、<a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">既存の反復へのストーリーの追加</a>を参照してください。</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Parent Project]</strong></td>
@@ -104,17 +104,17 @@ ht-degree: 96%
 
 1. 「**[!UICONTROL ストーリーを保存]**」をクリックします。
 
-## バックログにアジャイルストーリーを作成
+## バックログでのアジャイルストーリーの作成
 
-[アジャイルバックログの管理](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)の記事の、[バックログに新規ストーリーを作成](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories)節で説明されているように、アジャイルバックログからアジャイルストーリーを作成できます。
+「アジャイルバックログの管理」の記事の [ バックログで新しいストーリーを作成 ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) の説明に従って、アジャイルバックログからアジャイルストーリーを作成でき [[!UICONTROL  す ]。](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
-## タスクまたはイシューをアジャイルストーリーとして追加
+## アジャイルストーリーとしてのタスクまたはイシューの追加
 
 既存のタスクやイシューをストーリーとしてイテレーションに追加できます。詳しくは、[既存のイテレーションへのストーリーの追加](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)または[[!UICONTROL スクラム]ボードからのストーリーとイシューの追加](../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)を参照してください。
 
-## アジャイルストーリーにサブタスクを作成
+## アジャイルストーリーへのサブタスクの作成
 
-次のどちらかの方法を使用して、アジャイルストーリーにサブタスクを作成できます。
+次のいずれかの方法を使用して、アジャイルストーリーにサブタスクを作成できます。
 
 * 「**[!UICONTROL サブタスク]**」タブを使用する（[サブタスクの作成](../../manage-work/tasks/create-tasks/create-subtasks.md)の[サブタスクを作成](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks)で説明）
 

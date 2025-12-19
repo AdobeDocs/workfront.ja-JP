@@ -7,10 +7,10 @@ description: リストやレポートに表示する情報のタイプは、リ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 69%
+ht-degree: 67%
 
 ---
 
@@ -39,7 +39,7 @@ Workfront のリストやレポートに適用できるビューのタイプは�
 <table style="table-layout:auto">
     <tr>
         <td><strong>標準ビュー</strong></td>
-        <td>これは、オブジェクトの任意のリストやレポートに適用できます。標準ビューは高度なカスタマイズが可能です。標準ビューをカスタマイズして他のユーザーと共有することができます。詳しくは、<a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Adobe Workfront でのビューの作成または編集</a>を参照してください。</td>
+        <td>オブジェクトの任意のリストまたはレポートに適用できます。 標準ビューは高度なカスタマイズが可能です。標準ビューをカスタマイズして他のユーザーと共有することができます。詳しくは、<a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Adobe Workfront でのビューの作成または編集</a>を参照してください。</td>
     </tr>
     <tr>
         <td><strong>ボードビュー</strong></td>
@@ -64,7 +64,7 @@ Workfront のリストやレポートに適用できるビューのタイプは�
 
 標準ビューの要素を共有できます。
 
-標準ビューの共有方法の詳細については、「[&#x200B; フィルター、ビュー、グループ化を共有する &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)」を参照してください。
+標準ビューの共有方法の詳細については、「[ フィルター、ビュー、グループ化を共有する ](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)」を参照してください。
 
 ガント ビューと掲示板ビューは共有できません。 これらのビューが表示される領域にアクセスできるユーザーは誰でも、同じ情報を表示できます。
 
@@ -76,7 +76,7 @@ Workfront のリストやレポートに適用できるビューのタイプは�
 
 ガントまたは掲示板のビューは削除できません。
 
-標準ビューの削除の詳細については、「[&#x200B; フィルター、ビュー、グループの削除 &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)」を参照してください。
+標準ビューの削除の詳細については、「[ フィルター、ビュー、グループの削除 ](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)」を参照してください。
 
 <!-- add something about the enhanced views here, when we have a link-->
 

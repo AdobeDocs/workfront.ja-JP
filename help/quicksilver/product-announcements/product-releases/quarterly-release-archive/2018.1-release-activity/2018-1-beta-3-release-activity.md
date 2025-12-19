@@ -2,25 +2,25 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.1 ベータ版 3 リリースアクティビティ
-description: このページでは、2018.1 ベータ版 3 リリースでプレビュー環境で最近使用されたすべての変更について説明します。この機能は、2018年1月7日（PT）にプレビュー環境で使用できるようになりました。2018 年初頭に、実稼動環境で利用可能になる予定です。
+description: このページでは、2018.1 ベータ版 3 リリースでプレビュー環境で最近使用されたすべての変更について説明します。この機能は、2018年1月7日（PT）にプレビュー環境で使用できるようになりました。2018 年初頭に、本番環境で利用可能になる予定です。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # 2018.1 ベータ版 3 リリースアクティビティ
 
-このページでは、2018.1 ベータ版 3 リリースでプレビュー環境で最近使用されたすべての変更について説明します。この機能は、2018年1月7日（PT）にプレビュー環境で使用できるようになりました。2018 年初頭に、実稼動環境で利用可能になる予定です。
+このページでは、2018.1 ベータ版 3 リリースでプレビュー環境で最近使用されたすべての変更について説明します。この機能は、2018年1月7日（PT）にプレビュー環境で使用できるようになりました。2018 年初頭に、本番環境で利用可能になる予定です。
 
 >[!IMPORTANT]
 >
->このページで説明する機能は、実稼動環境で使用可能になる前に変更される場合があります。
+>このページで説明する機能は、本番環境で使用可能になる前に変更される場合があります。
 
 2018年1月に行われたすべての変更のリストについては、[2018.1 リリースアクティビティの概要](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)を参照してください。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 他のユーザーのパスワードのリセットについて詳しくは、[ユーザーのプロファイルの編集](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
-グループ管理者の機能について詳しくは、[グループの作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)内の「グループ管理者の機能」の節を参照してください。
+グループ管理者の機能について詳しくは、[ グループの作成 ](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) の「グループ管理者の機能」の節を参照してください。
 
 ### グループ管理者用のアクセスレベル設定オプション {#access-level-setup-options-for-group-administrators}
 
@@ -60,7 +60,7 @@ Workfront の管理者は、グループ管理者が他のユーザーとして�
 
 ユーザーのアクセスレベルの設定について詳しくは、[ユーザーへのアクセス権の付与](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
-グループ管理者の機能について詳しくは、[グループの作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)内の「グループ管理者の機能」の節を参照してください。
+グループ管理者の機能について詳しくは、[ グループの作成 ](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) の「グループ管理者の機能」の節を参照してください。
 
 ### グループのタイムシートプロファイルを作成 {#create-timesheet-profiles-for-groups}
 
@@ -70,7 +70,7 @@ Workfront の管理者は、グループ管理者が他のユーザーとして�
 
 タイムシートプロファイルの作成について詳しくは、[タイムシートプロファイルの作成、編集、割り当て](../../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
-グループ管理者の機能について詳しくは、[グループの作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)内の「グループ管理者の機能」の節を参照してください。
+グループ管理者の機能について詳しくは、[ グループの作成 ](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) の「グループ管理者の機能」の節を参照してください。
 
 ### ユーザーの削除された項目をグループ管理者として復元 {#recover-deleted-items-for-users-as-a-group-administrator}
 
@@ -78,7 +78,7 @@ Workfront の管理者は、グループ管理者が他のユーザーとして�
 
 Workfront で削除した項目を復元する方法について詳しくは、[削除した項目の復元](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)を参照してください。
 
-グループ管理者の機能について詳しくは、[グループの作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)内の「グループ管理者の機能」の節を参照してください。
+グループ管理者の機能について詳しくは、[ グループの作成 ](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) の「グループ管理者の機能」の節を参照してください。 
 
 ## HTML5 プルーフビューアの改善 {#html5-proofing-viewer-improvements}
 
@@ -176,7 +176,7 @@ Workfront Proof アカウントに既に存在するドキュメントプルー�
 
 ### タスクまたはイシューの詳細ページから直接イテレーションにタスクとイシューを追加する {#add-tasks-and-issues-to-the-iteration-directly-from-the-task-or-issue-details-page}
 
-現在アジャイルチームに割り当てられているタスクやイシューを、タスクやイシューから直接イテレーションに追加できるようになりました。
+アジャイルチームに現在割り当てられているタスクとイシューを、タスクまたはイシューから直接反復に追加できるようになりました。
 
 以前は、バックログからのみイテレーションにタスクを追加できました。 
 
@@ -184,19 +184,19 @@ Workfront Proof アカウントに既に存在するドキュメントプルー�
 
 ### アジャイルチームのスクラムバックログとストーリーボードにイシューを含める {#include-issues-on-the-scrum-backlog-and-story-board-for-an-agile-team}
 
-スクラムアジャイル方法論を使用する場合、アジャイルチームのバックログにデフォルトでイシューが含まれるようになりました（かんばん方法論を使用する場合、イシューはアジャイルチームのバックログに表示されません）。
+スクラムアジャイル手法を使用する場合、イシューはアジャイルチームのバックログにデフォルトで含まれるようになりました（かんばん手法を使用する場合、イシューはアジャイルチームのバックログには表示されません）。
 
 この変更以前は、バックログに追加できたのはタスクだけでした。イシューを追加する場合は、イシューを追加する前に、まずイシューをタスクに変換する必要がありました。
 
-バックログでのイシューの使用については、[アジャイルバックログを管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
+バックログでのイシューの使用方法については、を参照してください。  [ アジャイルバックログの管理 ](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
 ### アジャイルチームのバックログへのグループ化とフィルターの適用 {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
-「グループ化」および「フィルター」オプションがアジャイルバックログで使用できるようになり、グループ別にバックログを整理し、特定のタスクとイシューに対するフィルターを設定できます。
+グループ化とフィルターのオプションがアジャイルバックログで使用できるようになりました。グループ化によってバックログを整理し、特定のタスクと問題をフィルタリングできます。
 
-この変更以前は、ビューでアジャイルバックログに適用できるようになっていました。
+この変更を行う前は、アジャイルバックログのビューに適用できました。
 
-詳しくは、[アジャイルバックログを管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)の[アジャイルバックログを管理](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
+詳しくは、を参照してください  [ アジャイルバックログの管理 ](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) の  [ アジャイルバックログの管理 ](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
 ### 空白のイテレーションを作成し後で更新する {#create-a-blank-iteration-and-update-it-later}
 

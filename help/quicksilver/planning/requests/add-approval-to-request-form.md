@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '680'
 ht-degree: 5%
 
 ---
@@ -31,9 +31,9 @@ Adobe Workfront Planning のリクエスト・フォームに承認プロセス�
 
 この記事では、ワークスペースマネージャーがレコードタイプに関連付けられたリクエストフォームに承認を追加する方法について説明します。
 
-Adobe Workfront Planning でのリクエストフォームの作成について詳しくは、[Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+Adobe Workfront Planning でのリクエストフォームの作成について詳しくは、[Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
-レコードを作成するレコード・タイプにリクエストを発行する方法は、「レコードを作成するためのAdobe Workfront Planning リクエストの発行 [&#x200B; を参照してください &#x200B;](/help/quicksilver/planning/requests/submit-requests.md)。
+レコードを作成するレコード・タイプにリクエストを発行する方法は、「レコードを作成するためのAdobe Workfront Planning リクエストの発行 [ を参照してください ](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## アクセス要件
 
@@ -58,7 +58,7 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>Standard</p> 
+   <td><p>標準</p> 
   </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -84,12 +84,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## リクエストフォームへの承認の追加
 
-1. [Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) の説明に従って、レコードタイプのリクエストフォームの作成を開始します。
+1. [Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) の説明に従って、レコードタイプのリクエストフォームの作成を開始します。
 1. **設定** をクリックします。
 
    **設定** 領域が表示されます。
 
-   ![&#x200B; 「設定」タブ &#x200B;](assets/configuration-tab.png)
+   ![ 「設定」タブ ](assets/configuration-tab.png)
 1. **承認者** フィールドに、承認者として設定するユーザーまたはチームの名前の入力を開始し、リストに表示されたら選択します。
 1. （オプションおよび条件付き）複数の承認者を設定し、決定を行う承認者が 1 人だけの場合は、「**1 つの決定のみが必要**」オプションを有効にします。
 
@@ -102,7 +102,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >* 複数の承認者を追加し、「1 人の承認が必要」オプションが有効になっていない場合、Workfront Planning でレコードが作成される前に、すべての承認者がリクエストを承認する必要があります。
    >
-   >* 少なくとも 1 人の承認者が要求を拒否した場合、要求は拒否され、レコードは作成されません。 リクエストは、Workfrontの「リクエスト」領域にある「送信済み」セクションの「計画」タブに残ります。
+   >* 少なくとも 1 人の承認者が要求を拒否した場合、要求は拒否され、レコードは作成されません。 リクエストは、Workfrontのリクエスト エリアに残ります。
    >
    >* 複数の承認者を追加し、「必要な決定が 1 つのみ」オプションが有効になっていない場合、リクエストが承認または却下される前に、すべての承認者が決定を行う必要があります。
    >
@@ -121,4 +121,4 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >   組織のWorkfront インスタンスは、ユーザーがメールおよびアプリ内通知を受信できるように、Adobe統合エクスペリエンスにオンボーディングされている必要があります。
 
 
-   リクエストの承認について詳しくは、[&#x200B; リクエストの承認 &#x200B;](/help/quicksilver/planning/requests/approve-request.md) を参照してください。
+   リクエストの承認について詳しくは、[ リクエストの承認 ](/help/quicksilver/planning/requests/approve-request.md) を参照してください。

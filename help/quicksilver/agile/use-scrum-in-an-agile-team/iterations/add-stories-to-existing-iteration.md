@@ -6,10 +6,10 @@ description: イテレーションにストーリーを追加する方法は様�
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 84%
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 84%
 
 次のいずれかの方法で、イテレーションにストーリーを追加できます。
 
-* イテレーションが作成された後のバックログから追加（詳しくは、[アジャイルバックログの管理](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)の[バックログからイテレーションまたは[!UICONTROL かんばん]ボードにストーリーを移動](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)の節を参照）
+* [ アジャイルバックログを管理 [!UICONTROL  の ] バックログからイテレーションまたは ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) かんばん [ ボードへのストーリーの移動 ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) セクションで説明しているように、イテレーションが作成された後のバックログから。
 
 * 個々のタスクまたはイシューの[!UICONTROL 詳細]ページから追加
 * タスクまたはイシューのリストから追加
@@ -37,7 +37,7 @@ ht-degree: 84%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -95,7 +95,7 @@ ht-degree: 84%
 または
 反復に追加するタスクまたは問題を含むプロジェクト、レポート、またはダッシュボードに移動します。 次に、1 つ以上のタスクまたは問題を選択します。
 
-1. **[!UICONTROL 詳細]**![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png)/**[!UICONTROL イテレーションに追加]** をクリックします。
+1. **[!UICONTROL 詳細]**![ 詳細アイコン ](assets/more-icon.png)/**[!UICONTROL イテレーションに追加]** をクリックします。
 非アジャイルチームに割り当てられたタスクやイシューを割り当てることはできません。
 
 1. 「**[!UICONTROL 追加先]**」ボックスにイテレーションの名前の入力を開始し、リストに表示されたら選択します。

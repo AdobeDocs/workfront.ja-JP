@@ -7,10 +7,10 @@ description: アジャイルは、チームが扱いやすい少量の作業を�
 author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 99%
+ht-degree: 85%
 
 ---
 
@@ -34,15 +34,15 @@ Workfront で高度なアジャイル機能の使用を開始するには、次�
 
 1. カンバンチーム：バックログを管理し、[!UICONTROL かんばん]ボードを作成します。
 
-   詳しくは、[アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)と[かんばんの概要](../agile/use-kanban-in-an-agile-team/kanban-overview.md)を参照してください。
+   詳しくは、[Agile バックログの管理 ](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) および [ かんばん概要 ](../agile/use-kanban-in-an-agile-team/kanban-overview.md) を参照してください。
 
 1. スクラムチーム：バックログを管理し、イテレーションを作成して、[!UICONTROL スクラム]ボードを作成します。
 
-   詳しくは、[アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)、[イテレーションの概要](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)および[スクラムボードの概要](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)を参照してください。
+   詳しくは、[ アジャイルバックログの管理 ](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)、[ イテレーションの概要 ](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) および [ スクラムボードの概要 ](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md) を参照してください。
 
 1. プロジェクトのタスクをチームのバックログまたはストーリーボードに追加します。
 
-   詳しくは、[アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)、[[!UICONTROL かんばん]ボードへの既存のタスクまたはイシューの追加](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)および[既存のイテレーションへのストーリーの追加](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)を参照してください。
+   詳しくは、[ アジャイルバックログの管理 ](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)、[ 既存のタスクまたは問題を [!UICONTROL  かんばん ] ボードに追加 ](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)、[ ストーリーを既存の反復に追加 ](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) を参照してください。
 
 ## プロジェクトでのアジャイルの使用
 

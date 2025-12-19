@@ -6,10 +6,10 @@ description: '[!UICONTROL バックログ]列をかんばんボードに直接�
 author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 91%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -58,4 +58,4 @@ ht-degree: 91%
 >
 >複数のチームをバックログ項目に追加した場合、タスクまたはイシューは、プライマリチームのバックログにのみ表示されます。プライマリチームは、最初に割り当てられたチームです。
 
-バックログについて詳しくは、[アジャイルバックログの管理](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
+バックログについて詳しくは、[ アジャイルバックログの管理 ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) を参照してください。

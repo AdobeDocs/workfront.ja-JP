@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 15%
+source-wordcount: '676'
+ht-degree: 16%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 15%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -85,17 +85,17 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。
+1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。
 
    レコードタイプに関連付けられたすべてのリクエストフォームがテーブル表示に表示されます。
-1. リクエストフォームの名前にポインタを合わせ、名前の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、**共有** をクリックします。
+1. リクエストフォームの名前にポインタを合わせ、名前の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**共有** をクリックします。
 1. 次のいずれかを選択して、共有の選択肢を更新します。
 
    * ワークスペースに対する表示またはそれ以上のアクセス権を持つすべてのユーザー
    * ワークスペースに対する参加またはそれ以上のアクセス権を持つすべてのユーザー
    * リンクを知っているすべてのユーザー
 
-   詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+   詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 1. （任意）リクエストフォームの共有を変更し、新しいリンクを使用して新しいユーザーグループに共有する場合は、「**リンクをコピー**」をクリックします。
 
 ## レコードタイプのリクエストフォームを非公開にする
@@ -112,16 +112,16 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。
+1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。
 
    レコードタイプに関連付けられたすべてのリクエストフォームがテーブル表示に表示されます。
-1. リクエストフォームの名前にポインタを合わせ、名前の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**非公開**」をクリックします。
+1. リクエストフォームの名前にポインタを合わせ、名前の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、「**非公開**」をクリックします。
 
 または
 
 リクエストフォームの名前をクリックして開き、リクエストフォームの右上隅にある「**非公開**」をクリックします。
 
-![&#x200B; ハイライト表示された「非公開」ボタン &#x200B;](assets/unpublish-button-highlighted.png)
+![ ハイライト表示された「非公開」ボタン ](assets/unpublish-button-highlighted.png)
 
 フォームが非公開になったことを知らせる確認が画面の下部に表示されます。
 
@@ -133,4 +133,4 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    リクエストフォームを使用して以前に追加したレコードは、レコードタイプページに残ります。
 
-   以前に追加されたリクエストは、Workfrontの「計画」タブの「リクエスト」領域に残ります。
+   以前に追加されたリクエストは、Workfrontのリクエスト エリアに残ります。
