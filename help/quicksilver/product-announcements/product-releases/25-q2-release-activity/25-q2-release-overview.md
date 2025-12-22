@@ -318,7 +318,7 @@ Workfrontのプラットフォームを引き続き強化していく中で、AP
 
 >[!IMPORTANT]
 >
->Workfront Fusion のドキュメントが新しい場所に移動されました。 Fusion の情報、手順、リリースについては、[Workfront Fusion ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) を参照してください。
+>Workfront Fusion のドキュメントが新しい場所に移動されました。 Fusion の情報、手順、リリースについては、[Workfront Fusion ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home) を参照してください。
 >
 >現在の Fusion ドキュメントの各記事には、新しい場所にある対応する記事へのリンクが含まれています。 ブックマークを更新してください。
 >
@@ -352,7 +352,7 @@ API バージョン 19 では、いくつかのリソースとエンドポイン
 
 ### Workfront のメンテナンスアップデート
 
-2025年第 2 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
+2025年第 2 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 

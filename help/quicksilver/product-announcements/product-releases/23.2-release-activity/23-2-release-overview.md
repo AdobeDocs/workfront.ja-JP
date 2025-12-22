@@ -653,7 +653,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-23.2 リリースで行われたメンテナンス更新については、[Workfront メンテナンス更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
+23.2 リリースで行われたメンテナンス更新については、[Workfront メンテナンス更新](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 
