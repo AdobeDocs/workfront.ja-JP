@@ -103,7 +103,7 @@ Workfront の使用を新しい Workfront エクスペリエンスと一致さ�
 
 再設計されたインターフェイスは、最近更新したテンプレートからプロジェクトを作成する場合のエクスペリエンスと同じです。
 
-詳しくは、[ イシューのプロジェクトへの変換 ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md) を参照してください。
+詳しくは、[&#x200B; イシューのプロジェクトへの変換 &#x200B;](../../../manage-work/issues/convert-issues/convert-issue-to-project.md) を参照してください。
 
 ## リスト、レポート、ダッシュボードからテンプレートを使用してイシューをプロジェクトに変換
 

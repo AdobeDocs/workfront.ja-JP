@@ -44,11 +44,11 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 レコード間またはオブジェクト タイプ間の接続を確立すると、接続フィールドが Planning レコード タイプに追加されます。 「接続」フィールドでは、個々のレコードを相互に接続し、リンクされたレコードまたはオブジェクトタイプのフィールドをWorkfront Planning レコードに表示できます。
 
-接続タイプに関する一般的な情報については、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+接続タイプに関する一般的な情報については、[&#x200B; 接続されたレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
-レコードまたはレコードを他のアプリケーションのオブジェクトと接続する方法については、「[ レコードを接続する ](/help/quicksilver/planning/records/connect-records.md)」を参照してください。
+レコードまたはレコードを他のアプリケーションのオブジェクトと接続する方法については、「[&#x200B; レコードを接続する &#x200B;](/help/quicksilver/planning/records/connect-records.md)」を参照してください。
 
-レコードタイプとレコードの接続例については、[ レコードタイプとレコードの接続例 ](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md) を参照してください。
+レコードタイプとレコードの接続例については、[&#x200B; レコードタイプとレコードの接続例 &#x200B;](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md) を参照してください。
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -105,7 +105,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -187,13 +187,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
 1. テーブルビューの右上隅にある **+** アイコンをクリックし、「**新しい接続**」タブをクリックします。
 
-   ![Workfront AEMのオプションを含む新しい「接続」タブ ](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+   ![Workfront AEMのオプションを含む新しい「接続」タブ &#x200B;](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
 1. レコードタイプを検索するか、次のいずれかを選択します。
 
    * 現在のワークスペースからのレコードタイプ
 
-     ![ 同じワークスペースレコードタイプの複数選択接続ピッカー ](assets/multi-select-connection-picker-record-type.png)
+     ![&#x200B; 同じワークスペースレコードタイプの複数選択接続ピッカー &#x200B;](assets/multi-select-connection-picker-record-type.png)
 
      >[!TIP]
      >
@@ -204,11 +204,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
      >[!TIP]
      >
-     >他のワークスペースからレコードの種類にアクセスできるようにするには、**他のワークスペースでこのレコードの種類への接続を許可** 設定を [**詳細設定**<span class="preview"> または [**レコードの種類の編集**</span>] ボックスの [**ワークスペース間の設定**] タブで有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
+     >他のワークスペースからレコードの種類にアクセスできるようにするには、**他のワークスペースでこのレコードの種類への接続を許可** 設定を &lbrack;**詳細設定**<span class="preview"> または [**レコードの種類の編集**</span>] ボックスの [**ワークスペース間の設定**] タブで有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
      >
-     >詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。<!--update screen shot at production-->
+     >詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。<!--update screen shot at production-->
      >
-     >![ レコードタイプを編集ボックスの「詳細設定」タブ ](assets/edit-record-type-box-advanced-settings-tab.png)
+     >![&#x200B; レコードタイプを編集ボックスの「詳細設定」タブ &#x200B;](assets/edit-record-type-box-advanced-settings-tab.png)
 
      <!--Old:
         [!TIP]
@@ -216,21 +216,21 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
         ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
         -->
 
-   詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
+   詳しくは、[&#x200B; レコードタイプの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
    * 「**Workfront オブジェクトタイプ**」セクションからの&#x200B;**プロジェクト、ポートフォリオ、プログラム、会社**&#x200B;または&#x200B;**グループ**。
 
-     ![Workfront プロジェクト連携の選択 ](assets/multi-select-connection-picker-project.png)
+     ![Workfront プロジェクト連携の選択 &#x200B;](assets/multi-select-connection-picker-project.png)
 
    * 「**Adobe アプリケーション**」セクションからの **Experience Manager Assets**。
 
-     ![AEM Assets接続の選択 ](assets/aem-assets-connection-selection.png)
+     ![AEM Assets接続の選択 &#x200B;](assets/aem-assets-connection-selection.png)
 
      選択したレコードまたはオブジェクト タイプの [ 新しい接続 ] タブが開きます。
 
-   * **2}Adobe GenStudio** セクションのAdobe GenStudio for Performance Marketingの **ブランド }**
+   * **2&rbrace;Adobe GenStudio** セクションのAdobe GenStudio for Performance Marketingの **ブランド &rbrace;**
 
-     ![GenStudio Brand 接続の選択 ](assets/brand-genstudio-connection-selection.png)
+     ![GenStudio Brand 接続の選択 &#x200B;](assets/brand-genstudio-connection-selection.png)
 
 1. **名前** フィールドを、新しく接続されたフィールドの名前で更新します。この名前は、元のレコードタイプのテーブルビューまたはレコードページに表示されます。 これにより、元のレコードタイプのテーブル表示に接続されたレコード列（またはフィールド）が作成されます。 デフォルトでは、フィールド名は接続先のレコードまたはオブジェクトの名前です。
 
@@ -241,7 +241,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 接続レコードフィールドに関する情報を追加して、「**説明**」フィールドを更新します。 フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
 1. （条件付き） 2 つの異なるワークスペース（レコードタイプとAdobe Experience Manager アセットオブジェクト）またはレコードタイプとGenStudio Brand のレコードタイプを関連付ける場合は、「**複数のレコードを許可**」を選択します。 これを選択すると、元のレコードに「接続されたレコードタイプ」フィールドが表示されたときに、ユーザーが複数のレコードを追加できるように指定できます。 これはデフォルトで選択されています。
 
-   ![ 別のワークスペースからのレコードタイプへの新しい接続 ](assets/new-connection-allow-multiple-records-box.png)
+   ![&#x200B; 別のワークスペースからのレコードタイプへの新しい接続 &#x200B;](assets/new-connection-allow-multiple-records-box.png)
 
 1. （条件付き）同じワークスペースのレコードタイプを接続する場合、または Planning レコードタイプをWorkfront オブジェクトタイプに接続する場合は、次のいずれかを選択します。
 
@@ -416,7 +416,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * **フィールドを編集**：フィールドの **名前** と **説明** 情報を更新します。
    * **ルックアップフィールドを編集**：任意のリンクされたレコードのフィールドを追加または削除します。
 
-   ![ テーブル列のフィールドおよびルックアップフィールドの編集ドロップダウンメニュー ](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![&#x200B; テーブル列のフィールドおよびルックアップフィールドの編集ドロップダウンメニュー &#x200B;](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    ルックアップ フィールドを追加または削除するには、上記の手順 16 ～ 17 の指示に従います。<!--ensure these step numbers stay accurate-->
 

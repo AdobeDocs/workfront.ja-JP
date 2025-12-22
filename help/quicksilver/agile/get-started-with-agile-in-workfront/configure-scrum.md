@@ -15,7 +15,7 @@ ht-degree: 76%
 
 # [!UICONTROL スクラム]の設定
 
-[!DNL Adobe Workfront] アジャイルチームの作成 [ の説明に従って、](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) でアジャイルチームを作成できます。 アジャイルチームを作成する際に、チームが作業を完了するために使用する方法を選択できます。 以下のオプションから選択できます。
+[!DNL Adobe Workfront] アジャイルチームの作成 [&#x200B; の説明に従って、](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) でアジャイルチームを作成できます。 アジャイルチームを作成する際に、チームが作業を完了するために使用する方法を選択できます。 以下のオプションから選択できます。
 
 * スクラム
 * かんばん
@@ -79,7 +79,7 @@ ht-degree: 76%
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL  標準 ]、[!UICONTROL  プラン ] または [!UICONTROL  ワーク ] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
+   [!UICONTROL &#x200B; 標準 &#x200B;]、[!UICONTROL &#x200B; プラン &#x200B;] または [!UICONTROL &#x200B; ワーク &#x200B;] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションの&#x200B;**[!UICONTROL ストーリーを見積もり]**&#x200B;エリアで、ストーリーのサイズ（作業負荷）の見積もりにポイントと時間を使用するかどうかを選択します。ポイントを選択した場合は、1 ポイントが何時間に相当するかを指定します。（デフォルトは 1 ポイント = 8 時間です）。 これは、ストーリーに追加された予定時間数です。
@@ -135,7 +135,7 @@ ht-degree: 76%
 
 ### プロジェクトのステータス列を設定 {#configure-status-columns-for-projects}
 
-プロジェクトのステータス列を設定する方法については、[ [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でビューを作成または編集の記事の、[[!UICONTROL アジャイル]ビューを作成またはカスタマイズ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)の節を参照してください。
+プロジェクトのステータス列を設定する方法については、[&#x200B; [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でビューを作成または編集の記事の、[[!UICONTROL アジャイル]ビューを作成またはカスタマイズ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)の節を参照してください。
 
 ## アジャイルストーリーボードのストーリーカードに表示する追加フィールドの設定
 

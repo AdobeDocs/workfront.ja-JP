@@ -106,7 +106,7 @@ ht-degree: 75%
 
 ## バックログでのアジャイルストーリーの作成
 
-「アジャイルバックログの管理」の記事の [ バックログで新しいストーリーを作成 ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) の説明に従って、アジャイルバックログからアジャイルストーリーを作成でき [[!UICONTROL  す ]。](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
+「アジャイルバックログの管理」の記事の [&#x200B; バックログで新しいストーリーを作成 &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) の説明に従って、アジャイルバックログからアジャイルストーリーを作成でき [[!UICONTROL &#x200B; す &#x200B;]。](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
 ## アジャイルストーリーとしてのタスクまたはイシューの追加
 

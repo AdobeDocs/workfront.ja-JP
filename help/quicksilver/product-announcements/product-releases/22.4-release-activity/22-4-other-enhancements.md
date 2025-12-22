@@ -23,7 +23,7 @@ ht-degree: 97%
 
 このプラグインは InDesign でインストールできるようになりました。作業項目の詳細にアクセスしたり、更新領域で同僚と共同作業したり、レビュー用のプルーフを送信したりといったことを、すべて XD を離れずに行えます。Adobe Creative Cloud Marketplace にアクセスして、今すぐプラグインをダウンロードしてください。
 
-プラグインについて詳しくは、 [!DNL Creative Cloud] アプリケーション](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)用の [[!DNL Adobe Workfront]  プラグインを参照してください。
+プラグインについて詳しくは、 [!DNL Creative Cloud] アプリケーション[&#128279;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)用の [!DNL Adobe Workfront]  プラグインを参照してください。
 
 [今すぐ Marketplace で Adobe Workfront for InDesign をダウンロード](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign)。
 

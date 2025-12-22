@@ -37,9 +37,9 @@ recommendations: noDisplay, noCatalog
 
 Planning からGenStudioワークスペースを表示し、両方のシステムで情報を更新できます。
 
-GenStudio Performance Marketing のGenStudio Workspace の使用と管理については、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
+GenStudio Performance Marketing のGenStudio Workspace の使用と管理については、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
 
-GenStudioとWorkfront Planning の統合に関する一般的な情報については、[Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
+GenStudioとWorkfront Planning の統合に関する一般的な情報については、[Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -104,9 +104,9 @@ GenStudioとWorkfront Planning の統合に関する一般的な情報につい�
 </tbody> 
 </table>
 
-Adobe Workfront Planning へのアクセスについて詳しくは、[Adobe Workfront Planning へのアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+Adobe Workfront Planning へのアクセスについて詳しくは、[Adobe Workfront Planning へのアクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
-Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
+Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
 
 +++   
 
@@ -210,17 +210,17 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->GenStudio Workspace を管理する前に、[Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
+>GenStudio Workspace を管理する前に、[Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
 >
 
 1. GenStudioへのアクセス権も持つユーザーとしてWorkfrontにログインします。
-1. 左上隅の **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、**[!UICONTROL 計画]** をクリックします。
+1. 左上隅の **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、**[!UICONTROL 計画]** をクリックします。
 
    Workfront計画のメインページが開きます。
 
 1. **その他のワークスペース** をクリックし、**System** によって作成され、カードに **GenStudio** タグが付いているという表示を持つワークスペースを見つけます。
 
-   ![ タグ付きGenStudio Workspace カード ](assets/genstudio-card-with-tag-highlighted.png)
+   ![&#x200B; タグ付きGenStudio Workspace カード &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
 
 1. **GenStudio Workspace カード** をクリックして、Workfront Planning でGenStudio Workspace を開きます。
 1. デフォルトでは、次のGenStudio レコードタイプが作成され、Workfront Planning から表示されます。
@@ -236,20 +236,20 @@ CAN YOU DO THIS??
 
    <!--check screen shot-->
 
-   ![ タグ付きGenStudio レコードタイプカード ](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+   ![&#x200B; タグ付きGenStudio レコードタイプカード &#x200B;](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 
-1. ワークスペース名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、次のいずれかをクリックします。
+1. ワークスペース名の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックし、次のいずれかをクリックします。
 
    * **編集**
 
-     詳しくは、[ ワークスペースの編集 ](/help/quicksilver/planning/architecture/edit-workspaces.md) を参照してください。
+     詳しくは、[&#x200B; ワークスペースの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md) を参照してください。
      <!--* **Delete** - this will generate an error message, per Iskuhi, so don't document as an option/ possibility-->
 
      <!--For information, see [Delete workspaces](/help/quicksilver/planning/architecture/delete-workspaces.md). -->
 
 1. 右上隅の **共有** をクリックして、他のユーザーとワークスペースを共有します。
 
-   詳しくは、「ワークスペースの共有 [ を参照してください ](/help/quicksilver/planning/access/share-workspaces.md)
+   詳しくは、「ワークスペースの共有 [&#x200B; を参照してください &#x200B;](/help/quicksilver/planning/access/share-workspaces.md)
 
    >[!NOTE]
    >
@@ -261,43 +261,43 @@ CAN YOU DO THIS??
 
 1. レコードタイプカードのいずれかをクリックして、そのタイプのレコードを表示します。
 
-   レコードタイプ、ビュー、フィールドを管理するには、この記事の [Workfront Planning からのGenStudio レコードタイプの管理 ](#manage-genstudio-record-types-from-workfront-planning) の節を参照してください。
+   レコードタイプ、ビュー、フィールドを管理するには、この記事の [Workfront Planning からのGenStudio レコードタイプの管理 &#x200B;](#manage-genstudio-record-types-from-workfront-planning) の節を参照してください。
 
 
 ## Workfront Planning のGenStudio Workspace からレコードタイプ、ビューおよびレコードを管理します
 
 >[!NOTE]
 >
->GenStudio Workspace を管理する前に、[Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
+>GenStudio Workspace を管理する前に、[Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
 >
 
-1. この記事の [Workfront Planning からのGenStudio Workspace の管理 ](#manage-the-genstudio-workspace-from-workfront-planning) の説明に従って、Workfront Planning のGenStudio Workspace に移動し、レコードタイプ ページを開きます。
+1. この記事の [Workfront Planning からのGenStudio Workspace の管理 &#x200B;](#manage-the-genstudio-workspace-from-workfront-planning) の説明に従って、Workfront Planning のGenStudio Workspace に移動し、レコードタイプ ページを開きます。
 
-1. レコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、次のいずれかをクリックします。
+1. レコードタイプ名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックし、次のいずれかをクリックします。
 
    * **編集**
 
-     詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
+     詳しくは、[&#x200B; レコードタイプの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
    * **自動化の管理**
 
-     詳しくは、[Adobe Workfront Planning の自動設定の構成 ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) を参照してください。
+     詳しくは、[Adobe Workfront Planning の自動設定の構成 &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) を参照してください。
    * **リクエストフォームの管理**
 
      複数のリクエストフォームを作成できます。 リクエストフォームは、Workfrontの「リクエスト」エリアで利用できます。また、リクエストフォームを公開したり、リンクで共有したりすることもできます。
 
-     詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+     詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 1. ビューまたはレコードの種類を共有するには、次の操作を行います。
 
    * レコードタイプページの右上隅にある「**共有**」をクリックし、次のいずれかをクリックします。
       * **レコードタイプの共有**
-詳しくは、[ レコードタイプの共有 ](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
+詳しくは、[&#x200B; レコードタイプの共有 &#x200B;](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
       * **現在のビューを共有**
-詳しくは、[ ビューの共有 ](/help/quicksilver/planning/access/share-views.md) を参照してください。
+詳しくは、[&#x200B; ビューの共有 &#x200B;](/help/quicksilver/planning/access/share-views.md) を参照してください。
       * **ビューリンクのコピー**
 ビューへのリンクがクリップボードにコピーされました。
       * **現在のビューをエクスポート**
-詳しくは、[ テーブルビューからのレコードのエクスポート ](/help/quicksilver/planning/records/export-records-from-the-table-view.md) を参照してください。
+詳しくは、[&#x200B; テーブルビューからのレコードのエクスポート &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md) を参照してください。
 
         >[!NOTE]
         >
@@ -309,7 +309,7 @@ CAN YOU DO THIS??
 
      詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
-   * **フルスクリーン** アイコン ![ フルスクリーンでフルビューを開くアイコン ](assets/open-full-screen-icon.png) をクリックして、任意の表示をフルスクリーンモードで開きます。
+   * **フルスクリーン** アイコン ![&#x200B; フルスクリーンでフルビューを開くアイコン &#x200B;](assets/open-full-screen-icon.png) をクリックして、任意の表示をフルスクリーンモードで開きます。
 
    * ビューの要素をビューから管理します。
 
@@ -345,7 +345,7 @@ CAN YOU DO THIS??
 
 1. テーブル表示でレコードを選択し、「**削除**」をクリックします。
 
-   詳しくは、[ レコードの削除 ](/help/quicksilver/planning/records/delete-records.md) を参照してください。
+   詳しくは、[&#x200B; レコードの削除 &#x200B;](/help/quicksilver/planning/records/delete-records.md) を参照してください。
 
    削除されたレコードは、GenStudioからすぐに削除されます。
 
@@ -353,13 +353,13 @@ CAN YOU DO THIS??
    >
    >削除されたレコードは、Workfront Planning のテーブルビュー「最近削除されたレコード」ビンから復元できます。 GenStudioから削除されたレコードは、Workfront Planning の「最近削除された項目」ビンからも復元できます。
 
-   詳しくは、[ 削除されたレコードの復元 ](/help/quicksilver/planning/records/restore-deleted-records.md) を参照してください
+   詳しくは、[&#x200B; 削除されたレコードの復元 &#x200B;](/help/quicksilver/planning/records/restore-deleted-records.md) を参照してください
 
 1. 以下を作成するには、テーブルビューの右上隅にある「+」アイコンをクリックします。
 
    * フィールド
 
-     詳しくは、[ フィールドの作成 ](/help/quicksilver/planning/fields/create-fields.md) を参照してください。
+     詳しくは、[&#x200B; フィールドの作成 &#x200B;](/help/quicksilver/planning/fields/create-fields.md) を参照してください。
 
    * 接続
 

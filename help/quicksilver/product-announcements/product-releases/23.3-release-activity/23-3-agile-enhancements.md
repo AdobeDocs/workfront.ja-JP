@@ -126,7 +126,7 @@ Workfront ボードでのカードの配置は、列ポリシーに基づいて�
 
 カードはアジャイルチームのかんばんボードから削除されず、カードのステータスの変更が両方のボードに同期されます。 Workfront ボードに切り替える準備が整うまで、両方のボードをアクティブにしておくことができます。
 
-詳しくは、[Agile Team かんばんカードのWorkfront ボードへの移行 ](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md) を参照してください。
+詳しくは、[Agile Team かんばんカードのWorkfront ボードへの移行 &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md) を参照してください。
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3420425/){target=_blank}
 

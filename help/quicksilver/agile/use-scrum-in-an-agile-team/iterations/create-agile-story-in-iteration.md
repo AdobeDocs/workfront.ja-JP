@@ -15,7 +15,7 @@ ht-degree: 80%
 
 # 反復でのアジャイルストーリーの作成
 
-この記事では、既にイテレーションに参加している場合に新しいアジャイルストーリーを作成する方法について説明します。 タスク、イシュー、その他の [!DNL Adobe Workfront] ークフロー領域からアジャイルストーリーを作成する方法については、[ 既存の反復にストーリーを追加 ](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) を参照してください。
+この記事では、既にイテレーションに参加している場合に新しいアジャイルストーリーを作成する方法について説明します。 タスク、イシュー、その他の [!DNL Adobe Workfront] ークフロー領域からアジャイルストーリーを作成する方法については、[&#x200B; 既存の反復にストーリーを追加 &#x200B;](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) を参照してください。
 
 ## アクセス要件
 

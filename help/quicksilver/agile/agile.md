@@ -25,7 +25,7 @@ ht-degree: 44%
 * [ボードの基本を学ぶ：記事インデックス](../agile/get-started-with-boards/get-started-with-boards.md)
 * [ボードでのアジャイル計画ツールの使用](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
 * [アジャイルの概要](../agile/agile-overview.md)
-* [ [!DNL Adobe Workfront] のアジャイルの概要](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+* [&#x200B; [!DNL Adobe Workfront] のアジャイルの概要](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [アジャイルチームのかんばん](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [アジャイルチームのスクラム](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [アジャイル環境での作業](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)

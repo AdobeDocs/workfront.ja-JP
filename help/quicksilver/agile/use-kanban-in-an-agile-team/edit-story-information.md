@@ -104,10 +104,10 @@ ht-degree: 83%
 1. [!UICONTROL かんばん]ボードに移動します。
 1. ストーリータイルを展開して、ストーリーに関連するすべてのフィールドを表示します。
 
-   ![ ストーリーカード ](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![&#x200B; ストーリーカード &#x200B;](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. （オプション）フィールドを編集するには、フィールドをクリックして変更を加えます。
-ストーリータイルを編集するには、タスクまたはイシューに対する [!UICONTROL  編集 ] 権限が必要です。
+ストーリータイルを編集するには、タスクまたはイシューに対する [!UICONTROL &#x200B; 編集 &#x200B;] 権限が必要です。
 それぞれのフィールドと編集可能かどうかについて詳しくは、[表示および編集できる情報について](#understand-what-information-can-be-viewed-and-edited)を参照してください。
 
 >[!NOTE]

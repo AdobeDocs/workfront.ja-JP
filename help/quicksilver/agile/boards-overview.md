@@ -28,12 +28,12 @@ ht-degree: 83%
 * チームの作業を 1 か所で整理および管理する
 * かんばんボードの取り込み列などのアジャイル計画ツールを使用する
 
-基本的なボード機能の使用方法について詳しくは、[ボードの基本を学ぶ：記事インデックス](../agile/get-started-with-boards/get-started-with-boards.md)を参照してください。ボードにおけるアジャイル計画ツールについて詳しくは、[ アジャイル計画ツールの概要 ](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md) を参照してください。
+基本的なボード機能の使用方法について詳しくは、[ボードの基本を学ぶ：記事インデックス](../agile/get-started-with-boards/get-started-with-boards.md)を参照してください。ボードにおけるアジャイル計画ツールについて詳しくは、[&#x200B; アジャイル計画ツールの概要 &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md) を参照してください。
 
 プロジェクトでのボードの使用について詳しくは、[アジャイルビューでのプロジェクト管理](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
 
-モバイルアプリでボードにアクセスすることもできます。詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL  ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
+モバイルアプリでボードにアクセスすることもできます。詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL &#x200B; ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
 
 ボードの機能に関するビデオチュートリアルについて詳しくは、[[!DNL Adobe Workfront] [!UICONTROL ボード]のビデオデモ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)を参照してください。
 
-[!DNL Workfront] のその他のアジャイルツールについて詳しくは、「[ アジャイルの概要 ](../agile/agile-overview.md)」を参照してください。
+[!DNL Workfront] のその他のアジャイルツールについて詳しくは、「[&#x200B; アジャイルの概要 &#x200B;](../agile/agile-overview.md)」を参照してください。

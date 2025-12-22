@@ -23,9 +23,9 @@ ht-degree: 56%
 
 [!DNL Workfront] は、次のアジャイル方法論をサポートします。
 
-* **[!UICONTROL スクラム]**：チームには、完了する必要がある作業のバックログがあります。チームが特定の量の作業に取り組む準備ができると、その作業はバックログからイテレーションに移動されます。スクラムチームの管理について詳しくは、[ アジャイルチームのスクラム ](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md) を参照してください。
+* **[!UICONTROL スクラム]**：チームには、完了する必要がある作業のバックログがあります。チームが特定の量の作業に取り組む準備ができると、その作業はバックログからイテレーションに移動されます。スクラムチームの管理について詳しくは、[&#x200B; アジャイルチームのスクラム &#x200B;](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md) を参照してください。
 
-* **[!UICONTROL かんばん]：** チームは、カンバンビューで事前に設定されたステータス間で作業を移動します。デフォルトのステータスは、バックログ、処理中、完了です。かんばんチームの管理について詳しくは、[ アジャイルチームのかんばん ](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md) を参照してください。
+* **[!UICONTROL かんばん]：** チームは、カンバンビューで事前に設定されたステータス間で作業を移動します。デフォルトのステータスは、バックログ、処理中、完了です。かんばんチームの管理について詳しくは、[&#x200B; アジャイルチームのかんばん &#x200B;](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md) を参照してください。
 
 ## アクセス要件
 
@@ -71,10 +71,10 @@ ht-degree: 56%
 * [!DNL Kanban] Agile ストーリーボードにバックログを表示します。
 詳しくは、[バックログを[!UICONTROL かんばん]ボードに追加](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)を参照してください。
 
-* 他の項目が完了に等しいステータスに移動されると、バックログの項目がアジャイルストーリーボード [!UICONTROL  かんばん ] に自動的に追加されるように設定します。
+* 他の項目が完了に等しいステータスに移動されると、バックログの項目がアジャイルストーリーボード [!UICONTROL &#x200B; かんばん &#x200B;] に自動的に追加されるように設定します。
 詳しくは、[かんばんを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)の記事にある[バックログから自動的に追加されるようにストーリーを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)の節を参照してください。
 
-* [!UICONTROL  かんばん）アジャイルストーリーボードに表示される進行中の作業（WIP] の制限を設定します。
+* [!UICONTROL &#x200B; かんばん）アジャイルストーリーボードに表示される進行中の作業（WIP] の制限を設定します。
 詳しくは、[かんばんボードでの作業中（WIP）の制限を管理](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)を参照してください。
 
 ### [!DNL Workfront] でスクラムを使用するメリット
@@ -87,7 +87,7 @@ ht-degree: 56%
 * アジャイルチームのバックログに問題を含める
 * サブタスクは、[!UICONTROL スクラム]ストーリーボードに表示可能
 * バーンダウンチャートを表示して、イテレーション中のストーリーに対する進行状況を確認
-詳しくは、[ アジャイルバーンダウンチャートの概要 ](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md) を参照してください。
+詳しくは、[&#x200B; アジャイルバーンダウンチャートの概要 &#x200B;](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md) を参照してください。
 
 ## アジャイルチームの作成
 
@@ -95,7 +95,7 @@ ht-degree: 56%
 
 1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) を選択し、「**[!UICONTROL 新規チームを作成]**」をクリックします。
 
-   ![ 新規チームを作成を選択 ](assets/create-new-team.png)
+   ![&#x200B; 新規チームを作成を選択 &#x200B;](assets/create-new-team.png)
 
    「新規チーム」ボックスが表示されます。
 
@@ -154,8 +154,8 @@ ht-degree: 56%
 1. アジャイルチームに変換するチームを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL  標準 ]、[!UICONTROL  プラン ] または [!UICONTROL  ワーク ] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
-   ![ 編集を選択 ](assets/edit-team-settings.png)
+   [!UICONTROL &#x200B; 標準 &#x200B;]、[!UICONTROL &#x200B; プラン &#x200B;] または [!UICONTROL &#x200B; ワーク &#x200B;] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
+   ![&#x200B; 編集を選択 &#x200B;](assets/edit-team-settings.png)
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションで、「**[!UICONTROL アジャイルチームです]**」を選択します。
 
