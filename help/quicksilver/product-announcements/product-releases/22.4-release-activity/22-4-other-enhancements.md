@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Workfront でフィールドを変更すると、Workfront のポートフォリ
 
 以前は、狭いエリアで説明をスクロールする以外、すべてのコンテンツを表示することができませんでした。
 
-この説明の強化は、アジャイルチームと非アジャイルチームの両方に適用されます。
+説明に対するこの機能強化は、アジャイルチームとアジャイル以外のチームの両方に適用されます。
 
 詳しくは、[チームを作成](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md)を参照してください。
 

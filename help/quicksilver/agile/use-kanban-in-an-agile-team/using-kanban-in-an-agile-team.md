@@ -3,19 +3,19 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: アジャイルチームのかんばん
-description: アジャイルチームでのかんばんの使用に関して詳しくは、以下の記事を参照してください。
+description: アジャイルチームでかんばんを使用する方法について詳しくは、これらの記事を参照してください。
 author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 20bb4534-796c-48ac-b43e-85717fefe1bf
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 96%
+ht-degree: 81%
 
 ---
 
-# アジャイルチームにおけるかんばん
+# アジャイルチームのかんばん
 
 この節では、次の記事を扱います。
 

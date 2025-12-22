@@ -7,10 +7,10 @@ description: かんばんボードの機能をより深く理解するには、�
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 88%
+ht-degree: 82%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 88%
 
 以下の節を参照すると、[!UICONTROL かんばん]ボードがどのように機能するかをより詳しく理解できます。
 
-K[!UICONTROL anban] 手法については、[&#x200B; アジャイルチームの作成 &#x200B;](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) を参照してください。
+K[!UICONTROL anban] 手法については、[ アジャイルチームの作成 ](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) を参照してください。
 
-アジャイルチーム [!UICONTROL &#x200B; かんばん &#x200B;] ボードから [!DNL Workfront] [!UICONTROL &#x200B; ボード &#x200B;] への移行に興味がある場合は、[&#x200B; アジャイルチーム [!UICONTROL &#x200B; かんばん &#x200B;] カードを  [!DNL Workfront]  ボードに移行 &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md) を参照してください。
+Agile チーム [!UICONTROL  かんばん ] ボードから [!DNL Workfront] [!UICONTROL  ボード ] への移行に興味がある場合は、[Agile チーム [!UICONTROL  かんばん ] カードを  [!DNL Workfront]  ボードに移行 ](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md) を参照してください。
 
 ## [!UICONTROL かんばん]ボードのレイアウトと機能
 
 [!UICONTROL かんばん]ボードは、次の要素で構成されます。
 
-**バックログ列**：現在バックログに残っているすべてのタスクを表示します。この列は、デフォルトでは表示されません。[!UICONTROL &#x200B; かんばん &#x200B;] ボードにバックログを表示する方法など、バックログについて詳しくは、[&#x200B; アジャイルバックログの管理 &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) を参照してください。
+**バックログ列**：現在バックログに残っているすべてのタスクを表示します。この列は、デフォルトでは表示されません。[!UICONTROL  かんばん ] ボードにバックログを表示する方法など、バックログについて詳しくは、[ アジャイルバックログの管理 ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) を参照してください。
 
 **ストーリーのステータス**：ストーリーがどのステータス列にあるかに基づいて、ストーリーの進行状況を示します。
 
 詳しくは、[[!UICONTROL カンバン]ボードのストーリーのステータスの更新](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)を参照してください。
 
-ストーリーステータスは、アジャイルビューを変更することでプロジェクトに合わせてカスタマイズできます。詳しくは、[&#x200B; [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でのビューの作成または編集の[[!UICONTROL アジャイルビューの作成またはカスタマイズ]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)の節を参照してください。
+ストーリーのステータスは、「アジャイルビューの作成またはカスタマイズ [[!UICONTROL 」の節 ]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) のビューの作成または編集 [ で説明されているように、アジャイルビューを変更するこ  [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でプロジェクトに合わせてカスタマイズできます。
 
 >[!NOTE]
 >

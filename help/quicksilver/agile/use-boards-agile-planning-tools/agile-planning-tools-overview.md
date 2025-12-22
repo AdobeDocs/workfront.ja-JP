@@ -7,10 +7,10 @@ description: アドホックなカードと接続されたカードを使用し�
 author: Jenny
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 72%
+ht-degree: 54%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 72%
 >
 >ワークストリームとその関連ツールは、特定の顧客グループでのみ使用できます。
 
-特定のアジャイル方法論にコミットすることなく、顧客やチームに適した方法で、これらのツールのいずれかまたはすべてを使用できます。
+特定のアジャイル手法をコミットすることなく、これらのツールの一部または全部を、ユーザーとチームに適した方法で使用できます。
 
 この節では、次の記事を扱います。
 
@@ -44,7 +44,7 @@ ht-degree: 72%
 * [ボードへの取り込み列の追加](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [ボードでのグループの使用](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [カードの減少を設定する](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [アジャイルチームのかんばんカードの Workfront ボードへの移行](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+* [Agile Team のかんばんカードのWorkfront ボードへの移行](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [ワークストリームでイテレーションを作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)

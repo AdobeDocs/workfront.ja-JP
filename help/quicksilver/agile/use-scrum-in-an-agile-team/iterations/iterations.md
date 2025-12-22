@@ -8,10 +8,10 @@ author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * [イテレーションの概要](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
 * [イテレーションを作成](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
-* [イテレーションでのアジャイルストーリーの作成](../../../agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
+* [反復でのアジャイルストーリーの作成](../../../agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
 * [既存のイテレーションにストーリーを追加](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
 * [イテレーションを表示](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
 * [イテレーションを削除](../../../agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)

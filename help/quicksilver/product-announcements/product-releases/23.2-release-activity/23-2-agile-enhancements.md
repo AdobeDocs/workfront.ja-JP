@@ -6,16 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 23.2 アジャイルの強化
 
-このページでは、プレビュー環境の 23.2 リリースで行われたすべてのアジャイルの機能強化について説明します。これらの機能強化は、23.2 リリースで実稼動環境での利用ができるようになります。
+このページでは、23.2 リリースでプレビュー環境に対して行われたすべてのアジャイル機能の強化について説明します。これらの機能強化は、23.2 リリースで本番環境での利用ができるようになります。
 
 23.2 リリースサイクルの、現時点で利用可能なすべての変更点のリストについては、[23.2 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)を参照してください。
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## Adobe Workfront Boards で利用可能なイテレーション機能
 
-Workfront ボードで利用できるいくつかの新機能により、アジャイルスクラム機能の使用が可能になります。次の機能が含まれています。
+Workfront ボードで利用できるいくつかの新機能を使用すると、アジャイルスクラム機能を使用できます。 次の機能が含まれています。
 
 * 同じチームに関連するボードをグループ化し、共同作業を行うためのワークストリーム
 * カードのリスト、または作業のバックログ。ソースを使用して Workfront のタスクとイシューにカードを接続するオプションがあります。

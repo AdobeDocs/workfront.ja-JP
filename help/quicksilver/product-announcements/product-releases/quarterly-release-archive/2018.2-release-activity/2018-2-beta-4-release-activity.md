@@ -2,25 +2,25 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.2 ベータ版 4 リリースアクティビティ
-description: このページでは、2018.2 Beta 4 リリースによりプレビュー環境で最近利用可能になったすべての変更について説明します。この機能は、2018年5月17日（PT）にプレビュー環境で使用できるようになります。2018年7月に、実稼動環境で利用可能になる予定です。
+description: このページでは、2018.2 Beta 4 リリースによりプレビュー環境で最近利用可能になったすべての変更について説明します。この機能は、2018年5月17日（PT）にプレビュー環境で使用できるようになります。2018年7月に、本番環境で利用可能になる予定です。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1705'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # 2018.2 ベータ版 4 リリースアクティビティ
 
-このページでは、2018.2 Beta 4 リリースによりプレビュー環境で最近利用可能になったすべての変更について説明します。この機能は、2018年5月17日（PT）にプレビュー環境で使用できるようになります。2018年7月に、実稼動環境で利用可能になる予定です。
+このページでは、2018.2 Beta 4 リリースによりプレビュー環境で最近利用可能になったすべての変更について説明します。この機能は、2018年5月17日（PT）にプレビュー環境で使用できるようになります。2018年7月に、本番環境で利用可能になる予定です。
 
 >[!IMPORTANT]
 >
->このページで説明する機能は、実稼動環境で使用可能になる前に変更される場合があります。
+>このページで説明する機能は、本番環境で使用可能になる前に変更される場合があります。
 
 2018.2 で行われたすべての変更のリストについては、[2018.2 リリースアクティビティの概要](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md) を参照してください。
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 ## アジャイルチームのステータスを設定するためのインターフェイスの改善 {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
-アジャイルチームのステータスを設定するためのインターフェイスが、次の改善を加えて更新されました。
+アジャイルチームのステータスを設定するためのインターフェイスが次の改善を加えて更新されました。
 
 * 新しいルックアンドフィール
 * ドラッグ＆ドロップでステータス列を並べ替え
@@ -179,7 +179,7 @@ Internet Explorer または Safari ブラウザーを使用する場合、「ク
 
 クリップボードから画像を貼り付ける方法について詳しくは、[クリップボードからの画像の貼り付け](../../../../documents/managing-documents/paste-image-clipboard.md)を参照してください。
 
-## Android 向けの新しいベータ環境と新機能 {#new-beta-environment-for-android-along-with-new-features}
+## Android 向けの新しい Beta 環境と新機能 {#new-beta-environment-for-android-along-with-new-features}
 
 ベータ版テスターに新規登録すると、一般公開される前にチームが取り組んでいるモバイルアプリの最新の機能を体験できるようになりました。この環境は、現在、Workfront モバイルアプリで Android のデバイスのみでサポートされています。
 

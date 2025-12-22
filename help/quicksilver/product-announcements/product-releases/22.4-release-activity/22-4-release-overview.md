@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3232'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 このページでは、22.4 リリースに含まれる機能について説明します。
 
-これらの機能強化は、2022年10月6日および 7日（PT）の 22.4 リリースで、実稼動環境で使用可能になりました。
+これらの機能強化は、2022年10月6日および 7日（PT）の 22.4 リリースで、本番環境で使用可能になりました。
 
 ## Adobe Workfront の機能強化
 
@@ -588,7 +588,7 @@ ht-degree: 99%
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">22.4 リリース期間中のルックアンドフィールの更新</a> </p>
-                        <p>Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対するマイナーな更新が、22.4 リリース期間内に行われています。これらの機能強化はプレビューにリリース後、最低 2 週間で実稼動環境で利用できるようになります。 </p>
+                        <p>Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対するマイナーな更新が、22.4 リリース期間内に行われています。これらの機能強化はプレビューにリリース後、最低 2 週間で本番環境で利用できるようになります。 </p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -678,7 +678,7 @@ Campaigns は、2022年7月に 22.3 リリースでプレビューベータ版�
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> 展開されたチームの説明 </a></p>
                         <p>チームエリアで、説明をクリックしてポップアップで表示すると、チームの完全な説明を表示できます。説明内の URL はポップアップでクリック可能で、説明テキスト内をクリックして編集できます（チーム設定の編集にアクセスできる場合）。</p>
                         <p>以前は、狭いエリアで説明をスクロールする以外、すべてのコンテンツを表示することができませんでした。</p>
-<p>この説明の強化は、アジャイルチームと非アジャイルチームの両方に適用されます。</p>
+<p>説明に対するこの機能強化は、アジャイルチームとアジャイル以外のチームの両方に適用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -733,11 +733,11 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスの更新](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
+22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスの更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### 22.4 リリースウェビナー
 
-22.4 リリース ウェビナーは、2022年9月2日木曜日午前 9 時（PDT）に開催されます。[ここからウェビナーに登録できます](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)。
+22.4 リリースウェビナーは、2022 年 9 月 22 日木曜日の午前 9:00 （PDT）に開催されます。 [ここからウェビナーに登録できます](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt)。
 
 ### トレーニングの更新
 

@@ -6,22 +6,22 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 23.1 アジャイルの機能強化
 
-このページでは、23.1 リリースでプレビュー環境に対して行われたすべてのアジャイル機能強化について説明します。これらの機能強化は、2023年1月16日の週に実稼動環境で利用可能になる予定です。
+このページでは、23.1 リリースでプレビュー環境に対して行われたすべてのアジャイル機能強化について説明します。これらの機能強化は、2023年1月16日の週に本番環境で利用可能になる予定です。
 
 23.1 リリースで使用可能なすべての変更点の一覧について詳しく、[23.1 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)を参照してください。
 
 ## Workfront Boards のスクラム計画
 
-Adobe Workfront ボードの新しいスクラム計画機能は、アジャイルなプロセスを管理する柔軟なオプションを提供します。これらのツールを使用して、次の操作を実行できます。
+Adobe Workfront ボードの新しいスクラム計画機能は、アジャイルプロセスを管理するための柔軟なオプションを提供します。 これらのツールを使用して、次の操作を実行できます。
 
 * イテレーションまたはスプリントでの作業をトラック
 * 速度を利用してチームのコミットメントを導く

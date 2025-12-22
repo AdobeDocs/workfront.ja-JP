@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 7a29fcef1ee9a3010b7efc0713b5bbe9ca48b5cc
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '13634'
 ht-degree: 82%
@@ -1047,26 +1047,26 @@ ht-degree: 82%
       * [タグの追加](agile/get-started-with-boards/add-tags.md)
       * [ボードの管理者ビューの管理](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)
       * [ボードのメール通知と環境設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-   * ボードのアジャイル計画ツールの使用 {#agile-planning-boards}
+   * ボードでのアジャイル計画ツールの使用 {#agile-planning-boards}
       * [アジャイル計画ツールの概要：記事インデックス](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [ボードでの進行中の作業（WIP）の上限の管理](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [ボードへの取り込み列の追加](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [ボードでのグループの使用](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [カードの減少を設定する](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [アジャイルチームのかんばんカードの Workfront ボードへの移行](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+      * [Agile Team のかんばんカードのWorkfront ボードへの移行](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [ワークストリームでイテレーションを作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [ワークストリームボード上でバックログを設定](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
       * [イテレーション指標をレビュー](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * [アジャイルの概要](agile/agile-overview.md)
-   * Adobe Workfront でのアジャイルの概要 {#agile-in-workfront}
-      * [Adobe Workfront でのアジャイルの概要](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+   * Adobe Workfrontでのアジャイルの概要 {#agile-in-workfront}
+      * [Adobe Workfrontでのアジャイルの概要](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
       * [アジャイルチームの作成](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [かんばんの設定](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [スクラムの設定](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-   * アジャイルチームにおけるかんばん {#kanban}
-      * [アジャイルチームにおけるかんばん](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
+   * アジャイルチームのかんばん {#kanban}
+      * [アジャイルチームのかんばん](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [かんばんの概要](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [かんばんボードの既存のストーリーへのサブタスクの追加](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
       * [既存のタスクまたはイシューのかんばんボードへの追加](agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
@@ -1080,8 +1080,8 @@ ht-degree: 82%
       * [かんばんボード上でストーリーのフラグを使用](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
       * [かんばんボードへのバックログの追加](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
       * [かんばんボードからのストーリーの削除](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-   * アジャイルチームにおけるスクラム {#scrum}
-      * [アジャイルチームにおけるスクラム](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
+   * アジャイルチームのスクラム {#scrum}
+      * [アジャイルチームのスクラム](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
       * バーンダウン {#burndown}
          * [バーンダウン](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [アジャイルバーンダウンチャートの概要](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
@@ -1093,7 +1093,7 @@ ht-degree: 82%
          * [イテレーション](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [イテレーションの概要](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [イテレーションを作成](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
-         * [イテレーションでのアジャイルストーリーの作成](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
+         * [反復でのアジャイルストーリーの作成](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
          * [既存のイテレーションにストーリーを追加](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [イテレーションを表示](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [イテレーションを削除](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
@@ -1114,7 +1114,7 @@ ht-degree: 82%
       * [アジャイルストーリーの作成](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [アジャイルバックログの管理](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
       * [アジャイル ストーリーを移動](agile/work-in-an-agile-environment/move-an-agile-story.md)
-   * アジャイルに関するヒント、テクニックおよびトラブルシューティング {#tips-tricks-agile}
+   * アジャイルのヒント、テクニック、トラブルシューティング {#tips-tricks-agile}
       * [アジャイルに関するヒント、テクニックおよびトラブルシューティング](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [アジャイルストーリーボードにカスタムステータスが表示されない](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * ドキュメント {#documents}
@@ -1769,7 +1769,7 @@ ht-degree: 82%
          * [KPI クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [フライトプランクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [プロジェクトアクティビティクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-         * [&#x200B; プロジェクトツリーマップクエリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+         * [ プロジェクトツリーマップクエリ ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [チーム別アクティビティ クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
       * Data Connect のヒント、テクニック、トラブルシューティング{#troubleshooting-data-connect}
          * [Data Connect のヒント、テクニック、トラブルシューティング](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
@@ -2183,7 +2183,7 @@ ht-degree: 82%
       * [Adobe Workfront Planning のメール通知の管理](planning/notifications/manage-planning-email-notifications.md)
       * [Adobe Workfront Planning のアプリ内通知の管理](planning/notifications/manage-planning-in-app-notifications.md)
    * Adobe Workfront Planning and Gen Studio for Performance Marketing Integration {#planning-and-genstudio-integration}
-      * [Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合：記事一覧 &#x200B;](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
+      * [Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合：記事一覧 ](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
       * [Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Adobe Workfront Planning でのGenStudio Workspace の管理](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [Workfront Planning ワークスペースのGenStudioへの昇格](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
@@ -2198,7 +2198,7 @@ ht-degree: 82%
          * [Adobe Workfront for Creative Cloud アプリケーションのインストール](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Photoshop 用 Adobe Workfront をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Adobe Workfront for XD をインストールして開きます。](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-         * [&#x200B; [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+         * [ [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
       * Creative Cloud アプリケーション用 Adobe Workfront プラグインで作業を管理 {#manage-wf-cc}
          * [Creative Cloud アプリケーション用 Adobe Workfront プラグインで作業を管理](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Adobe Workfront プラグインを使用して作業を検索](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
@@ -2206,7 +2206,7 @@ ht-degree: 82%
          * [Adobe Workfront プラグインを使用して作業を更新](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Adobe Workfront プラグインを使用して作業アイテムを完了とマーク](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Adobe Workfront プラグインを使用して時間を記録](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントやプルーフを更新 {#upload-docs-proofs-wf-cc}
          * [ドキュメントやプルーフを  [!DNL Adobe Workfront plugin]  から  [!DNL Creative Cloud] にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントやプルーフを更新](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
@@ -2216,8 +2216,8 @@ ht-degree: 82%
          * [XD アートボードをドキュメントとして Workfront にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [&#x200B; [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [&#x200B; [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [ [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator および InDesign 向け Workfront 拡張機能 {#workfront-for-illustrator-indesign}
          * [Illustrator および InDesign 向け Workfront 拡張機能の使用](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Jira 用 Adobe Workfront {#workfront-for-jira}

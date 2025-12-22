@@ -2,20 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: イテレーションを作成
-description: イテレーションは、スクラムアジャイルチームが作業処理能力を計画する際の主要なコンポーネントです。 [!DNL Adobe Workfront]  を使ってチームのニーズに合わせて複数のイテレーションを作成することで、スクラムアジャイルチームが作業を管理できます。
+description: 反復は、スクラムアジャイルチームが作業処理能力を計画する際の重要なコンポーネントになります。 [!DNL Adobe Workfront]  スクラムアジャイルチームは、チームニーズに対応するために複数のイテレーションを作成することで、作業を管理できます。
 author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 78%
+ht-degree: 68%
 
 ---
 
 # イテレーションを作成
 
-イテレーションは、スクラムアジャイルチームが作業処理能力を計画する際の主要なコンポーネントです。[!DNL Adobe Workfront] を使ってチームのニーズに合わせて複数のイテレーションを作成することで、スクラムアジャイルチームが作業を管理できます。
+反復は、スクラムアジャイルチームが作業処理能力を計画する際の重要なコンポーネントになります。 [!DNL Adobe Workfront] を使用すると、スクラムアジャイルチームは、チームニーズに対応するために複数のイテレーションを作成して作業を管理できます。
 
 ## アクセス要件
 
@@ -53,7 +53,7 @@ ht-degree: 78%
 
 1. 「**[!UICONTROL イテレーション]**」タブで、「**[!UICONTROL イテレーションを追加]**」をクリックします。
 
-   ![&#x200B; 「イテレーションを追加」をクリック &#x200B;](assets/click-add-iteration.png)
+   ![ 「イテレーションを追加」をクリック ](assets/click-add-iteration.png)
 
 1. 以下を指定します。
 
@@ -75,7 +75,7 @@ ht-degree: 78%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong></td> 
-      <td><p>イテレーションを終了する日付を入力します。[!DNL Workfront] では、開始日から 4 週間以内の終了日を設定することをお勧めします。</p><p>ヒント：終了日は必ず稼働日にしてください。バーンダウンチャートの計算に使用されるのは稼働日のみです。<br>デフォルトでは、バーンダウンチャートはデフォルトのスケジュールを使用して稼働日を定義します（<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールを作成</a>で説明しています）。また、チーム固有の非稼働日を組み込むには、アジャイルチームが代替スケジュールを使用するように選択できます（<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">アジャイルチームの作成</a>の「バーンダウンチャートの代替チームスケジュールの定義」で説明しています）。</p></td> 
+      <td><p>イテレーションを終了する日付を入力します。[!DNL Workfront] では、開始日から 4 週間以内の終了日を設定することをお勧めします。</p><p>ヒント：終了日は必ず稼働日にしてください。バーンダウンチャートの計算に使用されるのは稼働日のみです。<br>デフォルトでは、バーンダウンチャートはデフォルトのスケジュールを使用して稼働日を定義します（<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールを作成</a>で説明しています）。また、チーム固有の非稼働日を取り込むために、アジャイルチームは代替スケジュールを使用するように選択できます（「アジャイルチームの作成 <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref"> の「バーンダウンチャートに対する代替チームスケジュールの定義」を参照 </a> てください）。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacity]</strong></td> 
@@ -104,7 +104,7 @@ ht-degree: 78%
 
 >[!NOTE]
 >
-> 「バックログ」タブで反復を計画する際に、「ストーリー」タブまたは「イシュー」タブを切り替えたり、追加のタスクを追加したりすることはできません。 イテレーションが作成されたら、既存のストーリーまたはイシューを追加できます。 詳しくは、以下 [&#x200B; 「バックログ」タブの既存のイテレーションへのタスクまたは問題の追加 &#x200B;](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) を参照してください。
+> 「バックログ」タブで反復を計画する際に、「ストーリー」タブまたは「イシュー」タブを切り替えたり、追加のタスクを追加したりすることはできません。 イテレーションが作成されたら、既存のストーリーまたはイシューを追加できます。 詳しくは、以下 [ 「バックログ」タブの既存のイテレーションへのタスクまたは問題の追加 ](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) を参照してください。
 
 
 1. 次の情報を指定します。
@@ -123,7 +123,7 @@ ht-degree: 78%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong> </td> 
-      <td><p>イテレーションが終了する日付を指定します。[!DNL Workfront]では、終了日を開始日から 4 週間以内に設定することをお勧めします。</p><p>ヒント：終了日は必ず稼働日にしてください。バーンダウンチャートの計算に使用されるのは稼働日のみです。<br>デフォルトでは、バーンダウンチャートはデフォルトのスケジュールを使用して稼働日を定義します（<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールを作成</a>で説明しています）。また、チーム固有の非稼働日を組み込むには、アジャイルチームが代替スケジュールを使用するように選択できます（<a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">バーンダウンチャートに代替のチームスケジュールを使用</a>で説明されています）。</p></td> 
+      <td><p>イテレーションが終了する日付を指定します。[!DNL Workfront]では、終了日を開始日から 4 週間以内に設定することをお勧めします。</p><p>ヒント：終了日は必ず稼働日にしてください。バーンダウンチャートの計算に使用されるのは稼働日のみです。<br>デフォルトでは、バーンダウンチャートはデフォルトのスケジュールを使用して稼働日を定義します（<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールを作成</a>で説明しています）。また、チーム固有の非稼働日を取り込むために、アジャイルチームは代替スケジュールを使用するように選択できます（<a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref"> バーンダウンチャートに代替チームスケジュールを使用 </a> を参照）。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 
@@ -148,7 +148,7 @@ ht-degree: 78%
 
 1. 反復に追加するストーリーまたはイシューを選択します。 バックログの上部にあるストーリーが優先されます。
 
-   ![&#x200B; 作業項目の移動 &#x200B;](assets/move-to-iteration.png)
+   ![ 作業項目の移動 ](assets/move-to-iteration.png)
 
    >[!NOTE]
    >
@@ -161,6 +161,6 @@ ht-degree: 78%
 
 [!UICONTROL イテレーション終了日]マイナス（-）[!UICONTROL タスクの期間]は（=）[!UICONTROL タスクの予定開始日]
 
-プロジェクト開始日がイテレーション開始日より後で、プロジェクト終了日がイテレーション終了日より後の場合、イテレーション終了日の代わりに [!UICONTROL &#x200B; プロジェクト終了日 &#x200B;] が使用されます。
+プロジェクト開始日がイテレーション開始日より後で、プロジェクト終了日がイテレーション終了日より後の場合、イテレーション終了日の代わりに [!UICONTROL  プロジェクト終了日 ] が使用されます。
 
 個々のスクラムチームが、デフォルトではイテレーション日付よりも、プロジェクト日付を使用するように設定できます。詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事の[作業アイテムをイテレーションに追加する際に日付を適用する方法を設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)を参照してください。

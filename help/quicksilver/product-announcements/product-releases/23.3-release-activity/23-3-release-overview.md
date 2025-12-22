@@ -5,16 +5,16 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2799'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
 # 23.3 リリースの概要
 
-このページでは、23.3 リリースに含まれる機能について説明します。これらの機能強化は、2023年7月20日（PT）および 2023年7月21日（PT）の 23.3 リリースで実稼動環境で使用可能になりました。
+このページでは、23.3 リリースに含まれる機能について説明します。これらの機能強化は、2023年7月20日（PT）および 2023年7月21日（PT）の 23.3 リリースで本番環境で使用可能になりました。
 
 23.3 リリースウェビナーは 2023年6月29日（PT）に開催されました。[こちら](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview)でウェビナーに登録してオンデマンド録画を視聴できます。
 
@@ -98,8 +98,8 @@ ht-degree: 98%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">フォームデザイナー Beta に表示されるロジックとスキップロジックのインジケーターおよびルールの表示</a></p>
-                        <p>2023年7月21日（PT）に、フォームデザイナーのパブリックベータ版が、プレビュー環境および実稼動環境で再度有効になりました。さらに、フォームデザイナー内の従来のカスタムフォームで作成された既存の論理ルールを表示できるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">フォーム designer Beta に表示されるロジックとスキップロジックのインジケーターおよびルールの表示</a></p>
+                        <p>2023年7月21日（PT）に、フォーム designer のパブリックベータ版が、プレビュー環境および実稼動環境で再度有効になりました。さらに、フォーム designer 内の従来のカスタムフォームで作成された既存の論理ルールを表示できるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -281,8 +281,8 @@ ht-degree: 98%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">アジャイルチームのかんばんカードをボードに移行</a></p>
-                        <p>アジャイルチームのかんばんボード上の新しい「<b>ボードに追加</b>」ボタンを使用すると、かんばんボードから Workfront ボードにすべてのカードを追加できます。新しい Workfront ボードを作成するか、既存のボードにカードを追加するかを選択できます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}"> アジャイルチームのかんばんカードのボードへの移行 </a></p>
+                        <p>Agile Team かんばんボードの新しい <b> ボードに追加 </b> ボタンを使用すると、かんばんボードからWorkfront ボードにすべてのカードを追加できます。 新しい Workfront ボードを作成するか、既存のボードにカードを追加するかを選択できます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -486,7 +486,7 @@ ht-degree: 98%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront フィールドをカスタム Experience Manager Assets メタデータフィールドにマッピング</a></p>
-                        <p>ネイティブ統合により、ネイティブと組み込みの Workfront フィールドの両方を、Experience Manager Assets as a Cloud Service のカスタムメタデータスキーマフィールドにマッピングできるようになりました。</p>
+                        <p>ネイティブ統合により、ネイティブとビルトインの Workfront フィールドの両方を、Experience Manager Assets as a Cloud Service のカスタムメタデータスキーマフィールドにマッピングできるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -689,7 +689,7 @@ ht-degree: 98%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">新しいベータ版コメントエクスペリエンスの強化</a></p>
-                        <p>「更新」セクションの強化は、23.3 リリース期間内に、新しいベータ版コメントエクスペリエンスに提供される予定です。特に指定のない限り、これらの機能強化は、23.3 リリースの実稼動環境で利用可能になります。</p>
+                        <p>「更新」セクションの強化は、23.3 リリース期間内に、新しいベータ版コメントエクスペリエンスに提供される予定です。特に指定のない限り、これらの機能強化は、23.3 リリースの本番環境で利用可能になります。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -705,7 +705,7 @@ ht-degree: 98%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">新しいカンバスダッシュボードエクスペリエンスの機能強化</a></p>
-                        <p>カンバスダッシュボードの機能強化は、23.3 リリースの期間内に提供されます。特に指定のない限り、これらの機能強化は、23.3 リリースの実稼動環境で利用可能になります。 
+                        <p>カンバスダッシュボードの機能強化は、23.3 リリースの期間内に提供されます。特に指定のない限り、これらの機能強化は、23.3 リリースの本番環境で利用可能になります。 
  </p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -722,7 +722,7 @@ ht-degree: 98%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.3 リリース期間中のルックアンドフィールの更新</a></p>
-                        <p>Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対するマイナーアップデートは、23.3 リリースの期間中に行われます。これらの機能強化はプレビューにリリース後、最低 2 週間で実稼動環境で利用できるようになります。</p>
+                        <p>Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対するマイナーアップデートは、23.3 リリースの期間中に行われます。これらの機能強化はプレビューにリリース後、最低 2 週間で本番環境で利用できるようになります。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -768,7 +768,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスのアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
+22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスのアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 

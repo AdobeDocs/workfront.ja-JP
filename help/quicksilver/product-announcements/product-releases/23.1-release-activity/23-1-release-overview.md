@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 99%
@@ -123,7 +123,7 @@ ht-degree: 99%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront ボードのスクラム計画が</a><span style="color: #ff0000;">近日公開！</span></p>
-                        <p>Adobe Workfront ボードの新しいスクラム計画機能は、アジャイルなプロセスを管理する柔軟なオプションを提供します。これらのツールを使用して、次の操作を実行できます。
+                        <p>Adobe Workfront ボードの新しいスクラム計画機能は、アジャイルプロセスを管理するための柔軟なオプションを提供します。 これらのツールを使用して、次の操作を実行できます。
                         <ul>
                         <li>イテレーションまたはスプリントでの作業をトラック</li>
                         <li>速度を利用してチームのコミットメントを導く</li>
@@ -521,7 +521,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスのアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
+22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスのアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 

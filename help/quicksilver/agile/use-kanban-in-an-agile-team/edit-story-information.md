@@ -6,10 +6,10 @@ description: かんばんボード上のストーリータイルを表示する�
 author: Jenny
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 87%
+ht-degree: 83%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 87%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">[!DNL Adobe Workfront]</a> のビューの概要の「アジャイルビューの作成とカスタマイズ」で説明されている、アジャイルビューの修正によってアジャイルビューに追加された可能性がある追加フィールド（カスタムフィールドを含む）。</p> </td> 
+   <td> <p><a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref"> の [!DNL Adobe Workfront]</a> ビューの概要」の「アジャイルビューの作成とカスタマイズ」で説明されているように、アジャイルビューを変更することでアジャイルビューに追加された追加フィールド（カスタムフィールドを含む）について</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -86,7 +86,7 @@ ht-degree: 87%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -104,10 +104,10 @@ ht-degree: 87%
 1. [!UICONTROL かんばん]ボードに移動します。
 1. ストーリータイルを展開して、ストーリーに関連するすべてのフィールドを表示します。
 
-   ![&#x200B; ストーリーカード &#x200B;](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![ ストーリーカード ](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. （オプション）フィールドを編集するには、フィールドをクリックして変更を加えます。
-ストーリータイルを編集するには、タスクまたはイシューに対する [!UICONTROL &#x200B; 編集 &#x200B;] 権限が必要です。
+ストーリータイルを編集するには、タスクまたはイシューに対する [!UICONTROL  編集 ] 権限が必要です。
 それぞれのフィールドと編集可能かどうかについて詳しくは、[表示および編集できる情報について](#understand-what-information-can-be-viewed-and-edited)を参照してください。
 
 >[!NOTE]

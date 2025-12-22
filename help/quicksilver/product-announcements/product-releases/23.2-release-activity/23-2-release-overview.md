@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # 23.2 リリースの概要
 
-このページでは、23.1 リリースに含まれる機能について説明します。これらの機能強化は、2023年4月6日（PT）および 2023年4月7日（PT）の 23.2 リリースで、実稼動環境で使用可能になりました。
+このページでは、23.1 リリースに含まれる機能について説明します。これらの機能強化は、2023年4月6日（PT）および 2023年4月7日（PT）の 23.2 リリースで、本番環境で使用可能になりました。
 
 今後のリリースの準備に関するヒントについて詳しくは、[Adobe Workfront の四半期リリースへの準備](/help/quicksilver/product-announcements/product-releases/release-readiness.md)を参照してください。
 
@@ -73,9 +73,9 @@ ht-degree: 99%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいフォームデザイナーベータ版でカスタムフォームの作成</a>
-                        <p>新しいフォームデザイナーには、フィールド、キャンバスおよびフィールド設定をすべて同時に表示できる、新しいキャンバススタイルのワークスペースが追加されました。</p>
-                        <p>新しいフォームデザイナーでは、次の機能が追加されました。 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいフォーム designer（Beta）でのカスタムフォームの作成</a>
+                        <p>新しいフォーム designer には、フィールド、キャンバスおよびフィールド設定をすべて同時に表示できる、新しいキャンバススタイルのワークスペースが追加されました。</p>
+                        <p>新しいフォーム designer では、次の機能が追加されました。 
                         <ul>
                         <li><strong>フィールドをコピー</strong>：フィールド上のコピーアイコンをキャンバスから直接クリックして、既存のフィールドをコピーできるようになりました。</li>
                         <li><strong>デフォルトセクションを使用</strong>：フォーム作成者がフォームの上部にセクションを追加していない場合は、キャンバスに「デフォルト」セクションが表示されるので、ユーザーはカスタムセクションが割り当てられていないフィールドの権限を調整できます。 </li>
@@ -149,7 +149,7 @@ ht-degree: 99%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront ボードで利用可能なイテレーション機能</a></p>
-                        <p>Workfront ボードで利用できるいくつかの新機能により、アジャイルスクラム機能の使用が可能になります。次の機能が含まれています。
+                        <p>Workfront ボードで利用できるいくつかの新機能を使用すると、アジャイルスクラム機能を使用できます。 次の機能が含まれています。
                         <ul>
                         <li>同じチームに関連するボードをグループ化し、共同作業を行うためのワークストリーム</li>
                         <li>カードのリスト、または作業のバックログ。ソースを使用して Workfront のタスクとイシューにカードを接続するオプションがあります。</li>
@@ -481,7 +481,7 @@ ht-degree: 99%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">モバイルアプリでの生体認証ログインとボードコレクション</span></a>
-                        <p>生体認証ログインは、モバイルアプリへ迅速にログインするためのオプションになりました。初回ログイン後に生体認証が設定されると、時折パスワードを再確認するだけで、ユーザーは指紋または顔認識を使用してアプリに素早く再ログインできます。さらに、後の更新の際に提供される一般的なログイン操作に対して、多くのルックアンドフィールが改善されます。</p>
+                        <p>生体認証ログインは、モバイルアプリへ迅速にログインするためのオプションになりました。初回ログイン後に生体認証が設定されると、時折パスワードを再確認するだけで、ユーザーはフィンガープリントまたは顔認識を使用してアプリに素早く再ログインできます。さらに、後の更新の際に提供される一般的なログイン操作に対して、多くのルックアンドフィールが改善されます。</p>
                         <p>モバイルアプリでボードコレクションもサポートされるようになりました。モバイルユーザーはモバイルボードリストから、デスクトップバージョンでアクセス権のあるコレクションを表示できます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -609,7 +609,7 @@ ht-degree: 99%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md" class="MCXref xref" xrefformat="{para}">23.2 リリース期間のルックアンドフィールの更新</a></p>
-                        <p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールのアップデートは、23.2 リリース期間内に実行されます。これらの機能強化はプレビューにリリース後、最低 2 週間で実稼動環境で利用できるようになります。 </p>
+                        <p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールのアップデートは、23.2 リリース期間内に実行されます。これらの機能強化はプレビューにリリース後、最低 2 週間で本番環境で利用できるようになります。 </p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -653,7 +653,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-23.2 リリースで行われたメンテナンス更新については、[Workfront メンテナンス更新](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
+23.2 リリースで行われたメンテナンス更新については、[Workfront メンテナンス更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 

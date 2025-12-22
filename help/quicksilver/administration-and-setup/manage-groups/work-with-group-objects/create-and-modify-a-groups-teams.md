@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -57,10 +57,10 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. チームを作成または変更するグループの名前をクリックします。
-1. 左側のパネルで「**チーム** ![&#x200B; チーム &#x200B;](assets/teams.png)」をクリックすると、グループに関連付けられたチームと、グループに含まれる可能性のあるサブグループに関連付けられたチームがリストされます。
+1. 左側のパネルで「**チーム** ![ チーム ](assets/teams.png)」をクリックすると、グループに関連付けられたチームと、グループに含まれる可能性のあるサブグループに関連付けられたチームがリストされます。
 
 1. 次のいずれかの操作を行います。
 
@@ -103,7 +103,7 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
       </tbody> 
      </table>
 
-   * **チームを編集**：少なくとも 1 つのチームを選択し、**&#x200B;** 編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、次のオプションを使用して設定します。
+   * **チームを編集**：少なくとも 1 つのチームを選択し、**** 編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、次のオプションを使用して設定します。
 
      <table style="table-layout:auto"> 
       <col> 
@@ -135,7 +135,7 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
        </tr> 
        <tr> 
        <td role="rowheader">アジャイル</td> 
-       <td>これがアジャイルチームかどうかを指定します。アジャイルチームとその作業の管理方法について詳しくは、<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">アジャイルチームの作成</a>を参照してください。</td> 
+       <td>アジャイル チームかどうかを指定します。 アジャイルチームとその作業を管理する方法について詳しくは、<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref"> アジャイルチームの作成 </a> を参照してください。</td> 
        </tr> 
        <tr> 
        <td role="rowheader">作業</td> 
@@ -152,5 +152,5 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
       </tbody> 
      </table>
 
-   * **チームを削除**：少なくとも 1 つのチームを選択し、削除アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
-   * **チームのリストをエクスポート**: **エクスポート** ![&#x200B; エクスポートアイコン &#x200B;](assets/export.png) をクリックして、エクスポートされたリストに使用するファイル形式を選択します。
+   * **チームを削除**：少なくとも 1 つのチームを選択し、削除アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
+   * **チームのリストをエクスポート**: **エクスポート** ![ エクスポートアイコン ](assets/export.png) をクリックして、エクスポートされたリストに使用するファイル形式を選択します。

@@ -2,24 +2,24 @@
 content-type: reference
 navigation-topic: boards
 title: Agile Team のかんばんカードのWorkfront ボードへの移行
-description: 作業アイテムをアジャイルチームかんばんボードから新規または既存の Workfront ボードに移行できます。
+description: Agile Team かんばんボードから新規または既存のWorkfront ボードに作業項目を移行できます。
 author: Jenny
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 84%
+ht-degree: 70%
 
 ---
 
-# アジャイルチームのかんばんカードの Workfront ボードへの移行
+# Agile Team のかんばんカードのWorkfront ボードへの移行
 
-作業アイテムをアジャイルチームかんばんボードから新規または既存の Workfront ボードに移行できます。移行を実行すると、かんばんボード上のすべてのカードが Workfront ボードにコピーされます。特定のカードを選択することはできません。
+Agile Team かんばんボードから新規または既存のWorkfront ボードに作業項目を移行できます。 移行を実行すると、かんばんボード上のすべてのカードが Workfront ボードにコピーされます。特定のカードを選択することはできません。
 
-Workfront ボードでのカードの配置は、列ポリシーに基づいています。（例えば、ポリシーを使用すると、ステータスが「処理中」のすべてのカードを特定の列に移動できます。列ポリシーについて詳しくは、[&#x200B; ボード列の管理 &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) を参照してください。）ポリシーがない場合、またはカードがポリシーと一致しない場合、カードはボードの一番左の列に配置されます。 現時点では、レガシーボードのバックログ列のカードは Workfront ボードに追加されません。
+Workfront ボードでのカードの配置は、列ポリシーに基づいています。（例えば、ポリシーを使用すると、ステータスが「処理中」のすべてのカードを特定の列に移動できます。列ポリシーについて詳しくは、[ ボード列の管理 ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) を参照してください。）ポリシーがない場合、またはカードがポリシーと一致しない場合、カードはボードの一番左の列に配置されます。 現時点では、レガシーボードのバックログ列のカードは Workfront ボードに追加されません。
 
-カードはアジャイルチームかんばんボードからは削除されず、カードの状態の変更は両方のボードに同期します。Workfront ボードに切り替える準備が整うまで、両方のボードをアクティブにしておくことができます。
+カードはアジャイルチームのかんばんボードから削除されず、カードのステータスの変更が両方のボードに同期されます。 Workfront ボードに切り替える準備が整うまで、両方のボードをアクティブにしておくことができます。
 
 ## アクセス要件
 

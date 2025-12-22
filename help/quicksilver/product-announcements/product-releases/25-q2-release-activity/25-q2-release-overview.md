@@ -1,20 +1,20 @@
 ---
 title: 2025年第 2 四半期リリースの概要
-description: このページでは、2025年第 2 四半期リリースに含まれる機能について説明します。これらの機能強化は、その四半期を通じて実稼動動環境で利用できるようになる予定です。
+description: このページでは、2025年第 2 四半期リリースに含まれる機能について説明します。これらの機能強化は、その四半期を通じて本番動環境で利用できるようになる予定です。
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
 # 2025年第 2 四半期リリースの概要
 
-このページでは、2025年第 2 四半期リリースに含まれる機能について説明します。これらの機能強化は、その四半期を通じて実稼動動環境で利用できるようになる予定です。
+このページでは、2025年第 2 四半期リリースに含まれる機能について説明します。これらの機能強化は、その四半期を通じて本番動環境で利用できるようになる予定です。
 
 <span class="preview">オフサイクル機能（2025年第 2 四半期のリリース日より前に実稼動にリリースされるもの）は、黄色でハイライト表示されています。</span>
 
@@ -26,7 +26,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 
 | 毎月のリリース | 四半期リリース |
 | ----------------- | ----------------- |
-| <ul><li>25.2 （2025 年 2 月 13 日（PT））</li><li>25.3 （2025 年 3 月 13 日（PT））</li><li>25.4（2025年4月10日（PT））</li></ul> | <ul><li>25.4（2025年4月10日（PT））</li></ul> |
+| <ul><li>25.2 （2025 年 2 月 13 日（PT））</li><li>25.3 （2025 年 3 月 13 日（PT））</li><li>25.4 （2025 年 4 月 10 日（PT））</li></ul> | <ul><li>25.4 （2025 年 4 月 10 日（PT））</li></ul> |
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            カスタムフォームロジックの機能強化</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+            カスタムフォームロジックの機能強化</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>カスタム Forms ロジックビルダーのインターフェイスが更新され、ロジックルールを作成する場所が増えました。 この新しいデザインは、今後追加される可能性のある追加のロジックタイプにより簡単に対応できます。</p><p>現在の表示およびスキップロジックオプションに加えて、検証ロジックも使用できます。</p>
         </td>
         <td>
@@ -68,7 +68,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             計算カスタムフィールドに追加された式</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
+            [!BADGE In production ]{type=Informative}
             <p>Workfrontの計算カスタムフィールドで、ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT、ADDHOUR の式を使用できるようになりました。 各式の定義と例は、計算エディターとExperience Leagueで入手できます。</p>
         </td>
         <td>
@@ -105,7 +105,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            デスクトッププルーフビューアーのアップデート </a></p>[!BADGE In production &#x200B;]{type=Informative}
+            デスクトッププルーフビューアーのアップデート </a></p>[!BADGE In production ]{type=Informative}
             <p>デスクトッププルーフビューアがバージョン 2.1.45 に更新されました。このアップデートにより、ビューアはを使用できるようになります
             <ul><li>Electron バージョン 35</li><li>Chromium バージョン 134</li><ul></p>
         </td>
@@ -120,7 +120,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            ドキュメントレポートで複数のドキュメントを一度に編集する </a></p>[!BADGE In production &#x200B;]{type=Informative}
+            ドキュメントレポートで複数のドキュメントを一度に編集する </a></p>[!BADGE In production ]{type=Informative}
             <p>ドキュメントレポートで、複数のドキュメントを一度に編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。</p>
         </td>
         <td>
@@ -143,7 +143,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            モバイルアプリのプルーフの機能強化（iOSのみ）</a><p>[!BADGE In production &#x200B;]{type=Informative}</p></p>
+            モバイルアプリのプルーフの機能強化（iOSのみ）</a><p>[!BADGE In production ]{type=Informative}</p></p>
             <p>Adobe Workfront モバイルアプリのプルーフ機能には、次の複数の機能強化を使用できます。
             <ul>
             <li>共有されたリンクから、モバイルメールアプリケーションからプルーフファイルを開くことができるようになりました。 以前は、メールからのリンクはサポートされておらず、Workfront モバイルアプリから配達確認にアクセスする必要がありました。</li>
@@ -175,7 +175,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            プロジェクトを編集ボックスで編集する際に、プロジェクトにコメントを追加する</a><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+            プロジェクトを編集ボックスで編集する際に、プロジェクトにコメントを追加する</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>プロジェクトを編集ボックスでコメントを編集しながら、プロジェクトにコメントを追加できるようになりました。 また、複数のプロジェクトを一括して編集する際に、一度にコメントを追加することもできます。 この更新以前は、プロジェクトの編集時にこの機能は存在していませんでした。</p>
         </td>
         <td>
@@ -199,7 +199,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            データ接続でドキュメントの承認および決定データを使用できるようになりました</a><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+            データ接続でドキュメントの承認および決定データを使用できるようになりました</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>データ接続でドキュメントの承認と決定のデータにアクセスできるようになりました。 このデータセットは、Workfrontのプルーフ機能からのドキュメント承認と、Workfront ドキュメントで行われている Frame.io 承認を結び付けます。 BI ビジュアライゼーションを通じて、サイクル時間、サイクル数および遅延承認のタイムラインへの影響を説明できるようになりました。</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront カレンダーの更新</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront カレンダーの更新</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>Workfrontカレンダーのルックアンドフィールを、Workfrontの他のエリアと一致するモダンなデザインに更新しました。 現在のWorkfront カレンダーとは、次のようなわずかな機能違いがあります。
             <ul>
             <li>カレンダーへのアドホック項目の追加方法</li>
@@ -242,8 +242,8 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             バージョン アップグレード エンドポイントを使用して、新しいイベント サブスクリプション バージョンにアップグレードします</a></p>
-            [!BADGE In production &#x200B;]{type=Informative}
-            <p>Workfrontに、イベント購読のバージョンが追加されました。 新しいバージョンはWorkfront API に対する変更ではなく、イベント購読機能に対する変更です。 イベント購読にギャップを作成することなく、イベント購読を新しいバージョンに切り替えることができます</p>
+            [!BADGE In production ]{type=Informative}
+            <p>Workfrontに、イベント購読のバージョンが追加されました。 新しいバージョンは Workfront API に対する変更ではなく、イベント登録機能に対する変更です。イベント購読にギャップを作成することなく、イベント購読を新しいバージョンに切り替えることができます</p>
         </td>
         <td>
             <p><b>公開日：</b></p>
@@ -255,7 +255,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Adobe Admin Console ユーザーの変更をWorkfront更新フィードの「システム」として表す</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Workfrontの管理者がWorkfront ユーザーのユーザー情報に変更を加えると、Adobe Admin Consoleは、ユーザーの更新領域にある「システム」アクティビティ タブで、この変更を「システム」に属するものとして記録するようになりました。 これはAdobe Admin Console管理者を指します。</p>
+            Adobe Admin Console ユーザーの変更をWorkfront更新フィードの「システム」として表す</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Workfrontの管理者がWorkfront ユーザーのユーザー情報に変更を加えると、Adobe Admin Consoleは、ユーザーの更新領域にある「システム」アクティビティ タブで、この変更を「システム」に属するものとして記録するようになりました。 これはAdobe Admin Console管理者を指します。</p>
         </td>
         <td>
             <p><b>公開日：</b></p>
@@ -299,26 +299,26 @@ Workfrontのプラットフォームを引き続き強化していく中で、AP
 プロジェクトの従来のアジャイルビューは、25.3 リリース（2025 年 3 月 13 日（PT））でWorkfrontから削除されます。 ボード アイコンをクリックすると、プロジェクトのアジャイルビューでタスクを表示できます。 既存の従来のアジャイルツールは、引き続きチーム エリアで使用できます。
 
 以下の画像は、削除される従来のアジャイルオプションを示しています。
-![&#x200B; 従来のアジャイルビューリンク &#x200B;](assets/project-agile-board-view.png)
+![ 従来のアジャイルビューリンク ](assets/project-agile-board-view.png)
 
 
 #### Enhanced Analytics の廃止
 
 使用率が低く、低下しているため、2025 年 5 月 25 日の週に Enhanced Analytics 製品を非推奨（廃止予定）にすることを決定しました。
 弊社の Data Connect 製品を代替品として検討することをお勧めします。 データ接続を使用すると、好みのビジネスインテリジェンスツールを使用して、カスタマイズ可能な類似のビジュアライゼーションを作成できます。
-この非推奨（廃止予定）について詳しくは、[Enhanced Analytics 非推奨ガイド &#x200B;](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) を参照してください。
+この非推奨（廃止予定）について詳しくは、[Enhanced Analytics 非推奨ガイド ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) を参照してください。
 
 ## お知らせ
 
 ### インターフェイスの最新化
 
-ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 ### Workfront Fusion の機能強化
 
 >[!IMPORTANT]
 >
->Workfront Fusion のドキュメントが新しい場所に移動されました。 Fusion の情報、手順、リリースについては、[Workfront Fusion ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home) を参照してください。
+>Workfront Fusion のドキュメントが新しい場所に移動されました。 Fusion の情報、手順、リリースについては、[Workfront Fusion ドキュメント ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) を参照してください。
 >
 >現在の Fusion ドキュメントの各記事には、新しい場所にある対応する記事へのリンクが含まれています。 ブックマークを更新してください。
 >
@@ -328,7 +328,7 @@ Workfront Fusion の新機能は、標準のリリーススケジュール以外
 
 ### Workfront計画の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront計画の 2025 年第 2 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md) を参照してください。
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront計画の 2025 年第 2 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md) を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 
@@ -348,11 +348,11 @@ API バージョン 19 では、いくつかのリソースとエンドポイン
 
 新機能と更新内容については、[API バージョン 19 の新機能](/help/quicksilver/wf-api/api/new-api-version-19.md)を参照してください。
 
-現在サポートされている API バージョンについて詳しくは、「[API バージョン管理とサポートスケジュール &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md)」を参照してください。
+現在サポートされている API バージョンについて詳しくは、「[API バージョン管理とサポートスケジュール ](/help/quicksilver/wf-api/api/api-version-support-schedule.md)」を参照してください。
 
 ### Workfront のメンテナンスアップデート
 
-2025年第 2 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
+2025年第 2 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 

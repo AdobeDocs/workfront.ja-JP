@@ -3,17 +3,17 @@ content-type: tips-tricks-troubleshooting
 product-area: agile-and-teams
 navigation-topic: tips-tricks-and-troubleshooting-agile
 title: アジャイルストーリーボードにカスタムステータスが表示されない
-description: アジャイルストーリーボードでカスタムステータスを使用する場合は、 [!DNL Adobe Workfront]  管理者は、最初にシステム全体のステータスとしてカスタムステータスを作成する必要があります。
+description: アジャイルストーリーボードでカスタムステータスを使用する場合、管理者は  [!DNL Adobe Workfront]  最初にカスタムステータスをシステム全体のステータスとして作成する必要があります。
 author: Jenny
 feature: Agile
 exl-id: dcf71cd0-da56-48e7-85bf-393f5cec3ae3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '82'
-ht-degree: 100%
+ht-degree: 14%
 
 ---
 
 # アジャイルストーリーボードにカスタムステータスが表示されない
 
-アジャイルストーリーボードでカスタムステータスを使用する場合は、[!DNL Adobe Workfront] 管理者は、最初にシステム全体のステータスとしてカスタムステータスを作成する必要があります。詳しくは、[!DNL Workfront] 管理者が[ステータスの作成または編集](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
+アジャイルストーリーボードでカスタムステータスを使用する場合、[!DNL Adobe Workfront] 管理者は、最初にカスタムステータスをシステム全体のステータスとして作成する必要があります。 詳しくは、[!DNL Workfront] 管理者が[ステータスの作成または編集](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。

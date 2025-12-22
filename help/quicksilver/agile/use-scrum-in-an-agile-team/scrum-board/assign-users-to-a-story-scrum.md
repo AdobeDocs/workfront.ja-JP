@@ -6,10 +6,10 @@ description: スクラムボード上のストーリーにユーザーを割り�
 author: Jenny
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -44,9 +44,9 @@ ht-degree: 91%
 
 {{step1-to-team}}
 
-1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しい[!UICONTROL スクラム]チームを選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しい[!UICONTROL スクラム]チームを選択するか、検索バーでチームを検索します。
 
-1. ユーザーを割り当てるストーリーボードを含むアジャイルイテレーションまたはプロジェクトに移動します。イテレーションに移動する方法については、[イテレーションの表示](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)を参照してください。
+1. ユーザーを割り当てるストーリーボードを含むアジャイル イテレーションまたはプロジェクトに移動します。 イテレーションに移動する方法については、[イテレーションの表示](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)を参照してください。
 1. ユーザーを追加するストーリーボードのストーリータイルに移動します。
 1. ストーリータイル（または既に割り当てられている場合はユーザーアバター）上のチームアバターをクリックし、ストーリーに割り当てるユーザーの名前を入力してから、名前が表示されたらその名前をクリックします。おすすめユーザーを選択することもできます。
 

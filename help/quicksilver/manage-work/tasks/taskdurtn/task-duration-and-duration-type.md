@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 70%
+ht-degree: 68%
 
 ---
 
@@ -153,7 +153,7 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
   <tr> 
    <th scope="col"> <p><strong>シンプル</strong> </p> </th> 
    <td scope="col"> <p>各担当者が配分される時間数に基づいて、予定時間数と期間（この期間タイプでは同じ）を決定します。 </p> <p>Workfront は、各担当者の予定割り当て時間数を合計して、予定時間数を計算します。 </p> <p>各担当者に配分される時間数を手動で変更し、それに応じて予定時間数と期間を変更することができます。すべての担当者に割り当てられた時間数の合計を選択した場合、その数は各担当者に均等に割り振られます。</p> <p>詳しくは、<a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">期間タイプの概要：シンプル</a>を参照してください。</p> </td> 
-   <td scope="col"> <p>割り当て時間数の合計を選択すると、担当者間で時間が均等に配分されます。ただし、プロジェクトマネージャーは、各担当者の時間を手動で調整できます。 </p> <p>タスクの予定時間数と期間は、シンプル期間タイプをインラインで、またはタスクレベルで編集できます。 </p> <p>アジャイルチームがタスクに割り当てられている場合、期間タイプは自動的に「シンプル」に設定され、変更できません。アジャイルチームのタスク期間は 0 分以上である必要があります。</p> </td> 
+   <td scope="col"> <p>割り当て時間数の合計を選択すると、担当者間で時間が均等に配分されます。ただし、プロジェクトマネージャーは、各担当者の時間を手動で調整できます。 </p> <p>タスクの予定時間数と期間は、シンプル期間タイプをインラインで、またはタスクレベルで編集できます。 </p> <p>アジャイルチームがタスクに割り当てられた場合、「期間タイプ」は自動的に「シンプル」に設定され、変更できません。 アジャイルチームのタスク期間は 0 分以上にする必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -181,7 +181,7 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 * 親タスクの期間を計算する場合、システムでは、最初に上記の式によって期間を計算してから、スケジュールを適用します。
 
 
-詳しくは、[&#x200B; タスクの元の期間と元の予定時間数の概要 &#x200B;](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
+詳しくは、[ タスクの元の期間と元の予定時間数の概要 ](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
 
 ## タスクの期間タイプの変更
 

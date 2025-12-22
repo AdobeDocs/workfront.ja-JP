@@ -6,16 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '537'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 23.2 リリース期間中のルックアンドフィールのアップデート
 
-このページでは、23.3 リリース期間内に行われた、Adobe Workfront アプリケーションの様々な領域のルックアンドフィールのアップデートについて説明します。これらの機能強化はプレビューにリリース後、最低 2 週間で実稼動環境で利用できるようになります。
+このページでは、23.3 リリース期間内に行われた、Adobe Workfront アプリケーションの様々な領域のルックアンドフィールのアップデートについて説明します。これらの機能強化はプレビューにリリース後、最低 2 週間で本番環境で利用できるようになります。
 
 23.2 リリースで利用可能なすべての変更点の一覧について詳しくは、[23.2 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)を参照してください。
 
@@ -44,7 +44,7 @@ Workfront の最新リストと一致するように、リクエスト領域の�
 
 * ユーザーのグローバル検索
 * ログイン名のページ（Workfront の他の領域と同様に、最新の外観と操作性が提供されます）
-* アジャイルイテレーションストーリーボード上の新しいサブタスクフォーム
+* アジャイル反復ストーリーボードの新しいサブタスクフォーム
 * 反復を編集ダイアログ
 * チームを作成ダイアログ
 * チームを編集ページ

@@ -6,10 +6,10 @@ description: かんばんボード上のストーリータイルを表示する�
 author: Jenny
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 92%
+ht-degree: 77%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 92%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>プロジェクトへの直接リンクを含むプロジェクト名<br>このリンクは、イテレーションでアジャイルビューを使用する場合、ストーリー（サブタスクではなく親タスク）にのみ表示されます。プロジェクトでアジャイルビューを使用している場合は表示されません。</p> </td> 
+   <td> <p>プロジェクトに直接リンクしているプロジェクト名 <br> このリンクは、反復でアジャイルビューを使用する場合、ストーリー（親タスクではなく、サブタスク）にのみ表示されます。プロジェクトでアジャイルビューを使用する場合は表示されません。</p> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -62,7 +62,7 @@ ht-degree: 92%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">[!UICONTROL Adobe Workfront] でのビューの概要</a>の「[!UICONTROL Agile] ビューの作成およびカスタマイズ」で説明されているような、アジャイルビューを修正することによってアジャイルビューに追加された可能性がある追加フィールド（カスタムフィールドを含む）。</p> </td> 
+   <td> <p><a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">[!UICONTROL Adobe Workfront] の [ ビューの概要 ] の「[!UICONTROL Agile] ビューの作成とカスタマイズ」で説明されているように、アジャイル ビューを変更することでアジャイル ビューに追加される可能性のある追加フィールド（カスタム フィールドを含む） </a>。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -106,10 +106,10 @@ ht-degree: 92%
 
 1. 左パネルで、「**[!UICONTROL イテレーション]**」を選択して特定のイテレーションを選ぶか、「**[!UICONTROL 進行中のイテレーション]**」を選択します。
 
-1. [!UICONTROL スクラム]アジャイルストーリーボードに移動します。
+1. アジャイルストーリーボード [!UICONTROL  スクラム ] に移動します。
 1. [!UICONTROL ストーリー]タイルを展開して、ストーリーに関連するすべてのフィールドを表示します。
 
-   ![&#x200B; ストーリーカード &#x200B;](assets/agile-storycard-scrum-2021-350x333.png)
+   ![ ストーリーカード ](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. （オプション）フィールドを編集するには、フィールドをクリックして、変更を加えます。
 

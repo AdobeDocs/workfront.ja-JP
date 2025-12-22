@@ -8,10 +8,10 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 93%
+ht-degree: 90%
 
 ---
 
@@ -91,7 +91,7 @@ Adobe Workfront 管理者は、設定エリアからチームを作成できま�
      </tr> 
      <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
       <td role="rowheader">これはアジャイルチームです</td> 
-      <td>この新しいチームをアジャイルチームに設定する場合は、この項目を選択します。アジャイルチームについて詳しくは、<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">アジャイルチームの作成</a>を参照してください。</td> 
+      <td>この新しいチームをアジャイルチームに設定する場合は、この項目を選択します。 アジャイルチームについて詳しくは、<a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref"> アジャイルチームの作成 </a> を参照してください。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">作業</td> 

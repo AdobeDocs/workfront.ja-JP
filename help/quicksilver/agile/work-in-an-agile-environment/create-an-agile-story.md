@@ -2,14 +2,14 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: アジャイルストーリーの作成
-description: 様々な方法を使って、1 つの反復で 1 つのアジャイルストーリーを作成できます。アジャイルストーリーを作成したら、ストーリーにサブタスクを追加できます。
+description: 反復にアジャイルストーリーを様々な方法で作成できます。 アジャイルストーリーを作成したら、ストーリーにサブタスクを追加できます。
 author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 78%
+ht-degree: 75%
 
 ---
 
@@ -106,7 +106,7 @@ ht-degree: 78%
 
 ## バックログでのアジャイルストーリーの作成
 
-「アジャイルバックログの管理」の記事の [&#x200B; バックログで新しいストーリーを作成 &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) の説明に従って、アジャイルバックログからアジャイルストーリーを作成でき [[!UICONTROL &#x200B; す &#x200B;]。](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
+「アジャイルバックログの管理」の記事の [ バックログで新しいストーリーを作成 ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) の説明に従って、アジャイルバックログからアジャイルストーリーを作成でき [[!UICONTROL  す ]。](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
 ## アジャイルストーリーとしてのタスクまたはイシューの追加
 

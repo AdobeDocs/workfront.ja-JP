@@ -6,10 +6,10 @@ description: かんばんボードの各列に対して、進行中の作業（W
 author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 85%
+ht-degree: 80%
 
 ---
 
@@ -36,7 +36,7 @@ WIP の上限は視覚的に警告が表示されるだけで、各ステータ�
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -47,9 +47,9 @@ WIP の上限は視覚的に警告が表示されるだけで、各ステータ�
 
 ## [!UICONTROL かんばん]ボードで[!UICONTROL 進行中の作業]（WIP）の上限を表示
 
-アジャイルチームに WIP の上限を設定すると、かんばんボードの各列（[!UICONTROL 完了]」列以外）の右上隅に WIP の上限が表示されます。
+アジャイルチームの WIP 制限が設定されると、かんばんボードの各列の右上隅に表示されます（「[!UICONTROL  完了 ] 列を除く）。
 
-[!UICONTROL &#x200B; かんばん &#x200B;] ボード上のいずれかの列の上限を超えると、上限が赤でハイライト表示され、メッセージが表示されます。
+[!UICONTROL  かんばん ] ボード上のいずれかの列の上限を超えると、上限が赤でハイライト表示され、メッセージが表示されます。
 ![WIP の上限](assets/kanban-wip.png)
 
 ## [!UICONTROL かんばん]ボードで[!UICONTROL 進行中の作業]（WIP）の上限を更新

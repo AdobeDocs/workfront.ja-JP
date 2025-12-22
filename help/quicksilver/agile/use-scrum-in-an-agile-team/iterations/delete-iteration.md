@@ -2,20 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: イテレーションを削除
-description: アジャイルチームのイテレーションが不要になった場合は、そのイテレーションを削除できます。
+description: アジャイルチームのイテレーションが不要になった場合は、削除できます。
 author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 61%
+ht-degree: 52%
 
 ---
 
 # イテレーションを削除
 
-アジャイルチームのイテレーションが不要になった場合は、そのイテレーションを削除できます。
+アジャイルチームのイテレーションが不要になった場合は、削除できます。
 
 イテレーションを削除すると、イテレーション上のすべてのストーリーがバックログに移動します。 タスクとイシューはプロジェクトにも残ります。
 
@@ -36,11 +36,11 @@ ht-degree: 61%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>反復が割り当てられているアジャイルチームのメンバーである必要があります</td> 
+   <td>反復が割り当てられたアジャイルチームのメンバーである必要があります</td> 
   </tr>
  </tbody> 
 </table>
@@ -56,4 +56,4 @@ ht-degree: 61%
 1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
 1. 左のパネルで、「**[!UICONTROL イテレーション]**」を選択します。
-1. 削除するイテレーションを選択し、「[!UICONTROL **削除**]」アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+1. 削除するイテレーションを選択し、「[!UICONTROL **削除**]」アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。

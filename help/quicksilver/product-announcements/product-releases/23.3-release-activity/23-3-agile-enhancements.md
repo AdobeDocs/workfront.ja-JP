@@ -5,16 +5,16 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 23.3 アジャイルの強化
 
-このページでは、23.3 リリースで行われたすべてのボードとアジャイルの機能強化について説明します。これらの機能強化は、2023年7月20日（PT）および 2023年7月21日（PT）の 23.3 リリースで実稼動環境で使用可能になりました。
+このページでは、23.3 リリースで行われたすべてのボードとアジャイルの機能強化について説明します。 これらの機能強化は、2023年7月20日（PT）および 2023年7月21日（PT）の 23.3 リリースで本番環境で使用可能になりました。
 
 23.3 リリースサイクルのこの時点で使用可能なすべての変更点のリストについて詳しくは、[23.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)を参照してください。
 
@@ -118,15 +118,15 @@ ht-degree: 100%
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
-## アジャイルチームかんばんカードをボードに移行
+## アジャイルチームのかんばんカードのボードへの移行
 
-アジャイルチームのかんばんボードの新しい「**ボードに追加**」ボタンを使用すると、かんばんボードから Workfront ボードにすべてのカードを追加できます。新しい Workfront ボードを作成するか、既存のボードにカードを追加するかを選択できます。
+Agile Team かんばんボードの新しい **ボードに追加** ボタンを使用すると、かんばんボードからWorkfront ボードにすべてのカードを追加できます。 新しい Workfront ボードを作成するか、既存のボードにカードを追加するかを選択できます。
 
-Workfront ボードでのカードの配置は、列ポリシーに基づいています。（例えば、ポリシーは、ステータスが「処理中」のすべてのカードを特定の列に移動できます）。ポリシーがない場合またはカードがポリシーと一致しない場合、カードは一番左の列に配置されます。現時点では、レガシーボードのバックログ列のカードは Workfront ボードに追加されません。
+Workfront ボードでのカードの配置は、列ポリシーに基づいています。（例えば、ポリシーを使用して、「処理中」のステータスを持つすべてのカードを特定の列に移動できます）。 ポリシーがない場合、またはポリシーに一致しないカードの場合、カードは一番左の列に配置されます。 現時点では、レガシーボードのバックログ列のカードは Workfront ボードに追加されません。
 
-カードはアジャイルチームかんばんボードからは削除されず、カードの状態の変更は両方のボードに同期します。Workfront ボードに切り替える準備が整うまで、両方のボードをアクティブにしておくことができます。
+カードはアジャイルチームのかんばんボードから削除されず、カードのステータスの変更が両方のボードに同期されます。 Workfront ボードに切り替える準備が整うまで、両方のボードをアクティブにしておくことができます。
 
-詳しくは、[アジャイルチームかんばんカードを Workfront ボードに移行](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)を参照してください。
+詳しくは、[Agile Team かんばんカードのWorkfront ボードへの移行 ](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md) を参照してください。
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3420425/){target=_blank}
 

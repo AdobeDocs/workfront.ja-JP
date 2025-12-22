@@ -6,10 +6,10 @@ description: かんばんボード上でストーリーに直接ユーザーを�
 author: Jenny
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 78%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -47,9 +47,9 @@ ht-degree: 78%
 
 {{step1-to-team}}
 
-1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックして、ドロップダウンメニューから新しいかんばんチームを選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、続いてドロップダウンメニューから新しいかんばんチームを選択するか、検索バーでチームを検索します。
 
-1. ユーザーを割り当てるアジャイル[!UICONTROL かんばん]ボードに移動します。
+1. ユーザーを割り当てるアジャイル [!UICONTROL  かんばん ] ボードに移動します。
 1. ユーザーを追加する[!UICONTROL かんばん]ボードのストーリータイルに移動します。
 1. ストーリータイル（または既に割り当てられている場合はユーザーアバター）上のチームアバターをクリックし、ストーリーに割り当てるユーザーの名前を入力してから、名前が表示されたらその名前をクリックします。おすすめユーザーを選択することもできます。
 

@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4718'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ in October 2021
 , this page will be updated with all functionality included with 21.4.</p>
 -->
 
-これらの機能強化は、2021年10月4日（PT）の週に実稼動環境で公開されました。
+これらの機能強化は、2021年10月4日（PT）の週に本番環境で公開されました。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -252,7 +252,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong>利用可能になる日時：</strong> <p>プレビューリリース：2021年9月9日（PT）<br></p> <p>実稼動版リリース： 21.4 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">プロジェクトのアジャイルビューへの変更</a> </p> <p>21.3 リリースの一環として、アジャイルカードのヘッダーとストーリーボード（<a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">アジャイルカードのヘッダーとストーリーボードのアップデート</a>を参照）を改善しました。これらのアップデートは、イテレーションに加えて、プロジェクトのアジャイルビューにも適用されました。</p> <p>21.4 リリースでは、プロジェクトのアジャイルビュー用にこれらの機能強化を元に戻しています。アジャイルのイテレーションに対して変更は行われていません。</p> <p>プロジェクトのアジャイルビューに関して元に戻される変更を以下に示します。</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}"> プロジェクトのアジャイルビューの変更 </a> </p> <p>21.3 リリースの一環として、アジャイルカードのヘッダーとストーリーボードを改善しました（<a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}"> アジャイルカードのヘッダーとストーリーボードの更新 </a> を参照）。 これらの更新は、反復と、プロジェクトのアジャイルビューに適用されました。</p> <p>21.4 リリースでは、プロジェクトのアジャイルビューに関するこれらの機能強化を元に戻しています。 アジャイル反復は変更されていません。</p> <p>プロジェクトのアジャイルビューに関して取り消される変更は、次のとおりです。</p> 
     <ul> 
      <li> <p>ストーリーカードとボードの列の幅が調整可能。</p> </li> 
      <li> <p>列に背景の網掛けが適用されない。</p> </li> 

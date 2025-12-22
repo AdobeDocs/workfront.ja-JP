@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: 反復でのアジャイルストーリーの作成
-description: この記事では、既にイテレーションを行っている場合に、新しいアジャイルストーリーを作成する方法について説明します。
+description: この記事では、既にイテレーションに参加している場合に新しいアジャイルストーリーを作成する方法について説明します。
 author: Jenny
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 93%
+ht-degree: 80%
 
 ---
 
-# イテレーションでのアジャイルストーリーの作成
+# 反復でのアジャイルストーリーの作成
 
-この記事では、既にイテレーションを行っている場合に、新しいアジャイルストーリーを作成する方法について説明します。[!DNL Adobe Workfront] のタスク、イシュー、その他の領域からのアジャイルストーリーついて詳しくは、[既存のイテレーションにストーリーを追加](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)を参照してください。 
+この記事では、既にイテレーションに参加している場合に新しいアジャイルストーリーを作成する方法について説明します。 タスク、イシュー、その他の [!DNL Adobe Workfront] ークフロー領域からアジャイルストーリーを作成する方法については、[ 既存の反復にストーリーを追加 ](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) を参照してください。
 
 ## アクセス要件
 
@@ -30,7 +30,7 @@ ht-degree: 93%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -43,9 +43,9 @@ ht-degree: 93%
 
 +++
 
-## イテレーションでのアジャイルストーリーの作成
+## 反復でのアジャイルストーリーの作成
 
-1. ストーリーを作成するアジャイルなイテレーションに移動します。
+1. ストーリーを作成するアジャイル イテレーションに移動します。
 
    {{step1-to-team}}
 

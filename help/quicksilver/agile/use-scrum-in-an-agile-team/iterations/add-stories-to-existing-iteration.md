@@ -6,10 +6,10 @@ description: イテレーションにストーリーを追加する方法は様�
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 81%
 
 次のいずれかの方法で、イテレーションにストーリーを追加できます。
 
-* [&#x200B; アジャイルバックログを管理 [!UICONTROL &#x200B; の &#x200B;] バックログからイテレーションまたは &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) かんばん [&#x200B; ボードへのストーリーの移動 &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) セクションで説明しているように、イテレーションが作成された後のバックログから。
+* [ アジャイルバックログを管理 [!UICONTROL  の ] バックログからイテレーションまたは ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) かんばん [ ボードへのストーリーの移動 ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) セクションで説明しているように、イテレーションが作成された後のバックログから。
 
 * 個々のタスクまたはイシューの[!UICONTROL 詳細]ページから追加
 * タスクまたはイシューのリストから追加
@@ -83,7 +83,7 @@ ht-degree: 81%
 プロジェクトへの管理アクセス権を持っている場合は、任意のイテレーションに任意のタスクまたはイシューを追加できます。タスクまたはイシューをイテレーションに移動する際は、次の点に注意してください。
 
 * 複数のチームを追加する場合、タスクまたはイシューは 1 つのチームのイテレーションにのみ表示されます。これは、以下の手順 3 で選択するイテレーションです。
-* タスクまたはイシューがアジャイルチームに割り当てられ、別のチームのイテレーションに移動しても、チームの割り当ては変更されません。
+* タスクまたは問題がアジャイルチームに割り当てられ、別のチームの反復に移動された場合、チームの割り当ては変更されません。
 * タスクまたはイシューがチームに割り当てられていない場合、そのイテレーションを所有するチームにタスクまたはイシューが割り当てられます。
 * 親タスクをイテレーションに追加することはできません。子タスクを追加する場合、親タスクはスイムレーンとしてスクラムボードに表示されます。
 
@@ -95,8 +95,8 @@ ht-degree: 81%
 または
 反復に追加するタスクまたは問題を含むプロジェクト、レポート、またはダッシュボードに移動します。 次に、1 つ以上のタスクまたは問題を選択します。
 
-1. **[!UICONTROL 詳細]**![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png)/**[!UICONTROL イテレーションに追加]** をクリックします。
-非アジャイルチームに割り当てられたタスクやイシューを割り当てることはできません。
+1. **[!UICONTROL 詳細]**![ 詳細アイコン ](assets/more-icon.png)/**[!UICONTROL イテレーションに追加]** をクリックします。
+アジャイル以外のチームに割り当てられたタスクや問題を割り当てることはできません。
 
 1. 「**[!UICONTROL 追加先]**」ボックスにイテレーションの名前の入力を開始し、リストに表示されたら選択します。
 

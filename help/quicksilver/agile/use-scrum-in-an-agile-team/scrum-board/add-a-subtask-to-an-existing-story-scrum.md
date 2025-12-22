@@ -6,10 +6,10 @@ description: 既存のストーリーのサブタスクを作成する場合は�
 author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -60,9 +60,9 @@ ht-degree: 96%
 
 {{step1-to-team}}
 
-1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
-1. サブタスクを追加するストーリーを含むアジャイルイテレーションまたはプロジェクトに移動します。イテレーションに移動する方法については、[イテレーションを表示](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)を参照してください。
+1. サブタスクを追加するストーリーを含むアジャイルイテレーションまたはプロジェクトに移動します。 イテレーションに移動する方法については、[イテレーションを表示](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)を参照してください。
 1. サブタスクを追加するストーリーボードのストーリータイルに移動します。
 1. **[!UICONTROL サブタスクを追加]**&#x200B;をメインストーリーカードでクリックし、ストーリーにサブタスクを作成します。
 
@@ -72,7 +72,7 @@ ht-degree: 96%
 
    **[!UICONTROL サブタスクを追加]**&#x200B;をサブタスクタイルでクリックし、サブタスクにサブタスクを作成します。
 
-   [!DNL Workfront] がサポートするサブタスクのレベルは無制限ですが、アジャイルストーリーボードに表示されるのは 2 レベル（サブタスクのサブタスク）のみです。
+   [!DNL Workfront] では無限レベルのサブタスクがサポートされますが、アジャイルストーリーボードには 2 つのレベル（サブタスクのサブタスク）のみが表示されます。
 
    ![サブタスクを追加](assets/agile-story-addsubtask2-NWE.png)
 

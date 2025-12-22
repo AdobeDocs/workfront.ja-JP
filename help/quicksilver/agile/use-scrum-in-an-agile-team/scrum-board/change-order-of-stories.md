@@ -6,10 +6,10 @@ description: ストーリーボード上でのストーリーの表示順序は�
 author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 77%
+ht-degree: 73%
 
 ---
 
@@ -57,6 +57,6 @@ ht-degree: 77%
 
 ## プロジェクト内のストーリーの順序を変更
 
-アジャイルイテレーションとは異なり、アジャイルビューでプロジェクトを表示する際には、ストーリーの順序を変更することはできません。プロジェクトのストーリーの順序を変更するには、プロジェクトを標準ビューで表示する必要があります。
+アジャイル反復とは異なり、アジャイルビューでプロジェクトを表示する際にストーリー順序を変更することはできません。 プロジェクトのストーリーの順序を変更するには、プロジェクトを標準ビューで表示する必要があります。
 
-プロジェクトビューを変更する方法について詳しくは、[!UICONTROL アジャイル]ビュー[&#128279;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)にある[!UICONTROL プロジェクトを管理]を参照してください。アジャイルビューを選択する代わりに、標準ビューを選択します。
+プロジェクトビューを変更する方法について詳しくは、[!UICONTROL アジャイル]ビュー](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)にある[[!UICONTROL プロジェクトを管理]を参照してください。アジャイル ビューを選択する代わりに、標準ビューを選択します。

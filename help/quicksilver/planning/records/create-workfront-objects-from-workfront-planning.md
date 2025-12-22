@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '1267'
-ht-degree: 5%
+source-wordcount: '1257'
+ht-degree: 6%
 
 ---
 
@@ -32,7 +32,7 @@ Workfront Planning からAdobe Workfrontオブジェクトを作成するには�
   ここでは、Workfront Planning からWorkfrontオブジェクトを作成し、Planning レコードから接続する方法について説明します。
 * レコードのページから自動化を使用する場合。
 
-  オートメーションを使用したWorkfrontオブジェクトの作成については、[Adobe Workfront計画レコードのオートメーションを使用したオブジェクトの作成 &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
+  オートメーションを使用したWorkfrontオブジェクトの作成については、[Adobe Workfront計画レコードのオートメーションを使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -67,7 +67,7 @@ Workfront オブジェクトをWorkfront Planning レコードに接続して作
    * レコードタイプのテーブル表示
    * 接続フィールドのレコードの「詳細」領域
 
-Planning レコードとWorkfrontオブジェクトの接続の詳細は、[&#x200B; レコードの接続 &#x200B;](/help/quicksilver/planning/records/connect-records.md) を参照してください。
+Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md) を参照してください。
 
 ## アクセス要件
 
@@ -111,7 +111,7 @@ Planning レコードとWorkfrontオブジェクトの接続の詳細は、[&#x2
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++ 
 
@@ -185,7 +185,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * Workfront プロジェクト、ポートフォリオまたはプログラムに接続されたレコードタイプ。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 * Workfront オブジェクトに接続されたレコードタイプのレコード。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
-* この記事の [&#x200B; アクセス要件 &#x200B;](#access-requirements) の節で説明しているように、Workfront Planning およびWorkfrontでの正しいアクセス権と権限。
+* この記事の [ アクセス要件 ](#access-requirements) の節で説明しているように、Workfront Planning およびWorkfrontでの正しいアクセス権と権限。
 
 ## Workfront Planning のレコードにプロジェクトを結び付けながらプロジェクトを作成します
 
@@ -198,20 +198,20 @@ Workfront Planning の次の領域で、プロジェクトをWorkfront Planning 
 
 他のレコードから接続する際にプロジェクトを作成するには：
 
-1. [&#x200B; レコードの接続 &#x200B;](/help/quicksilver/planning/records/connect-records.md) の記事の説明に従って、レコードの詳細ページまたはレコードタイプのテーブルに移動し、Workfront Planning レコードとWorkfront プロジェクトの接続を開始します。
+1. [ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md) の記事の説明に従って、レコードの詳細ページまたはレコードタイプのテーブルに移動し、Workfront Planning レコードとWorkfront プロジェクトの接続を開始します。
 
 1. （条件付き） **プロジェクトを追加** をクリック
 または
 プロジェクトの名前の入力を開始し、見つからない場合は **プロジェクトを追加** をクリックします。 「追加」ボタンの後に、入力したプロジェクト名が続きます。
 
-   ![&#x200B; 接続フィールドから接続する際にプロジェクトを追加 &#x200B;](assets/add-project-when-connecting-it-from-connection-field.png)
+   ![ 接続フィールドから接続する際にプロジェクトを追加 ](assets/add-project-when-connecting-it-from-connection-field.png)
 
    **プロジェクトを作成** ボックスが開きます。
 
 1. （任意） **プロジェクト名** を更新します。 デフォルトでは、プロジェクトの名前は、レコードから接続する際に検索項目として追加した名前に基づいて付けられます。
 1. （任意）「**プロジェクトテンプレート**」を選択します。 テンプレートを選択しない場合、Workfrontはタスクを含まない空のプロジェクトを作成します。
 1. 「**作成**」をクリックします。
-1. （条件付き）テンプレートからプロジェクトを作成することを選択した場合は、記事 [&#x200B; テンプレートを使用したプロジェクトの作成 &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) の手順に従って、プロジェクトの追加を完了します。
+1. （条件付き）テンプレートからプロジェクトを作成することを選択した場合は、記事 [ テンプレートを使用したプロジェクトの作成 ](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) の手順に従って、プロジェクトの追加を完了します。
 
    新しいプロジェクトが作成され、選択したレコードの接続されたフィールドに追加されます。
 
@@ -227,11 +227,11 @@ Workfront Planning の次の領域で、プロジェクトをWorkfront Planning 
 
 1. プロジェクトの **接続されたレコードのページ** を追加します。
 
-   詳しくは、「レコードページレイアウトの管理 [&#x200B; の「接続されたレコードページをレコードに追加する」の節を参照し &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md) ください。
+   詳しくは、[ 接続されたレコードページのレコードへの追加 ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を参照してください。
 
    接続されたレコード ページがテーブル ビューに表示されます。 接続されたプロジェクトがテーブルに表示されます。
 
-   ![&#x200B; 接続されたレコードページのプロジェクト テーブルビュー &#x200B;](assets/projects-connected-records-page-table.png)
+   ![ 接続されたレコードページのプロジェクト テーブルビュー ](assets/projects-connected-records-page-table.png)
 
 1. プロジェクト テーブルで **新規行** をクリックして、プロジェクトを追加します。
 
@@ -244,7 +244,7 @@ Workfront Planning の次の領域で、プロジェクトをWorkfront Planning 
 
 計画レコードから接続するポートフォリオを作成する手順は、次のとおりです。
 
-1. [&#x200B; レコードの接続 &#x200B;](/help/quicksilver/planning/records/connect-records.md) の記事の説明に従って、レコードの詳細ページまたはレコードタイプのテーブルに移動し、Workfront Planning レコードとWorkfront ポートフォリオの接続を開始します。
+1. [ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md) の記事の説明に従って、レコードの詳細ページまたはレコードタイプのテーブルに移動し、Workfront Planning レコードとWorkfront ポートフォリオの接続を開始します。
 
 1. （条件付き） **ポートフォリオを追加** をクリック
 
@@ -252,7 +252,7 @@ Workfront Planning の次の領域で、プロジェクトをWorkfront Planning 
 
    ポートフォリオ名の入力を開始し、見つからない場合は **ポートフォリオを追加** をクリックします。 「追加」ボタンの後に、入力したポートフォリオ名が表示されます。
 
-   ![&#x200B; 接続フィールドから接続する際にポートフォリオを追加 &#x200B;](assets/add-portfolio-when-connecting-it-from-connection-field.png)
+   ![ 接続フィールドから接続する際にポートフォリオを追加 ](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
    ポートフォリオが作成され、選択したレコードの接続フィールドに追加されます。
 
@@ -264,7 +264,7 @@ Workfront Planning の次の領域で、プロジェクトをWorkfront Planning 
 
 Planning レコードから接続するプログラムを作成するには、次の手順に従います。
 
-1. [&#x200B; レコードの接続 &#x200B;](/help/quicksilver/planning/records/connect-records.md) の記事の説明に従って、レコードの詳細ページまたはレコードタイプのテーブルに移動し、Workfront Planning レコードとWorkfront ポートフォリオの接続を開始します。
+1. [ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md) の記事の説明に従って、レコードの詳細ページまたはレコードタイプのテーブルに移動し、Workfront Planning レコードとWorkfront ポートフォリオの接続を開始します。
 
 1. 「**プログラムを追加**」をクリックします
 
@@ -272,7 +272,7 @@ Planning レコードから接続するプログラムを作成するには、�
 
    プログラム名の入力を開始し、見つからない場合は **プログラムを追加** をクリックします。 「追加」ボタンの後に、入力したプログラム名が続きます。
 
-   ![&#x200B; 接続フィールドから接続する際にWorkfront プログラムを追加する &#x200B;](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+   ![ 接続フィールドから接続する際にWorkfront プログラムを追加する ](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 
    **プログラムを作成** ボックスが開きます。
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 16%
@@ -25,7 +25,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 この記事では、Adobe Workfront Planning でレコードを接続する際に考慮する必要がある考慮事項について説明します。
 
-レコードを相互に、または別のオブジェクトに接続する方法については、「[&#x200B; レコードの接続 &#x200B;](/help/quicksilver/planning/records/connect-records.md)」を参照してください。
+レコードを相互に、または別のオブジェクトに接続する方法については、「[ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md)」を参照してください。
 
 
 ## レコードの接続に関する考慮事項
@@ -43,7 +43,8 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 * ワークスペースおよびレコードタイプに対するWorkfront Planning and View 以上のアクセス権を持つユーザーは誰でも、レコード間またはレコードと他のアプリケーションのオブジェクト間で確立した関連付けを確認できます。 そのようなユーザーは、接続先のアプリケーションの権限に関係なく、接続されたレコードとオブジェクトを表示できます。
 * ワークスペースに対する管理権限と、接続されたレコードがあるレコードタイプを持っている場合は、他のユーザーの接続を表示および編集できます。
-* 1 つのレコードを別のアプリケーションの 1 つまたは複数のオブジェクトに接続できます。これは、レコードタイプの接続時に選択した接続タイプによって異なります。 詳しくは、「接続されたレコードタイプの概要 [&#x200B; の「接続タイプ」の節を参照してください &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+* 1 つのレコードを別のアプリケーションの 1 つまたは複数のオブジェクトに接続できます。これは、レコードタイプの接続時に選択した接続タイプによって異なります。 詳しくは、「接続されたレコードタイプの概要 [ の「接続タイプ」の節を参照してください ](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+  <!--* <span class="preview">If connected record types are part of hierarchies, you can access any object type within the hierarchy from the records' pages. For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>-->
 
 ## レコードを接続できる領域
 
@@ -61,4 +62,4 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    * Workfront オブジェクトの Planning セクション。
    * Workfront オブジェクトのカスタムフォームの Planning 接続フィールド。
 
-  詳しくは、[Workfront オブジェクトからのレコード接続の管理 &#x200B;](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
+  詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。

@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront]  で定義されたスケジュールは�
 author: Jenny
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 92%
+ht-degree: 86%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 [!DNL Adobe Workfront] で定義されたスケジュールは、バーンダウンから休日（週末と祝日）を除外することにより、バーンダウンチャートに影響を与えます。
 
-デフォルトでは、バーンダウンチャートはデフォルトのスケジュールを使用します。アジャイルチームは、デフォルトのスケジュールに加えて、チーム固有の非稼働日を組み込むために代替スケジュールを使用することも選択できます。この代替スケジュールは、チームに割り当てられたイテレーションのバーンダウンチャートに反映されます。代替スケジュールは、バーンダウンチャートにのみ影響します。（デフォルトのスケジュールと、[!DNL Workfront] 管理者がチーム固有のスケジュールを作成する方法について詳しくは、[スケジュールを作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。）
+デフォルトでは、バーンダウンチャートはデフォルトのスケジュールを使用します。デフォルトのスケジュールに加えて、アジャイルチームは、チーム固有の非稼働日を組み込むために、代替スケジュールを使用することもできます。 この代替スケジュールは、チームに割り当てられたイテレーションのバーンダウンチャートに反映されます。代替スケジュールは、バーンダウンチャートにのみ影響します。（デフォルトのスケジュールと、[!DNL Workfront] 管理者がチーム固有のスケジュールを作成する方法について詳しくは、[スケジュールを作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。）
 
 バーンダウンチャートでは、半日は考慮されません。例えば、チームが毎週金曜日に 4 時間働く場合、バーンダウンチャートでは丸 1 日として表されます。
 
@@ -40,7 +40,7 @@ ht-degree: 92%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ ht-degree: 92%
 
 {{step1-to-team}}
 
-1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。

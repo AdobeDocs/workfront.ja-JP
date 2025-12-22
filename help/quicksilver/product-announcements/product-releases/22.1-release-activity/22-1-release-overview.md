@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 99%
@@ -37,7 +37,7 @@ in October 2021
 , this page will be updated with all functionality included with 22.1. </p>
 -->
 
-これらの機能強化は、2022 年 1 月 17 日の週に実稼動環境で利用可能になりました。
+これらの機能強化は、2022 年 1 月 17 日の週に本番環境で利用可能になりました。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -80,7 +80,7 @@ For specific release dates and times for each cluster, see the
    <td> <p>プレビューリリース： 2021 年 12 月 16 日<br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後 2022年7月にサポート終了となります。)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#create" class="MCXref xref" xrefformat="{para}">OAuth2 アプリを作成してアプリケーションを Workfront と統合</a> </p> <p>Workfront で組み込みの統合が提供されていない他のアプリケーションと Workfront を統合できるようになりました。統合するアプリケーションの OAuth2 アプリを作成すると、データが安全な業界標準の OAuth2 認証プロトコルで保護されていることを確認しながら、そのアプリケーションで Workfront にアクセスできるようになります。</p> <p>以前は、他のアプリケーションとの統合に使用できるのは、組み込みの統合、Workfront Fusion または Workfront API のみでした。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#create" class="MCXref xref" xrefformat="{para}">OAuth2 アプリを作成してアプリケーションを Workfront と統合</a> </p> <p>Workfront でビルトインの統合が提供されていない他のアプリケーションと Workfront を統合できるようになりました。統合するアプリケーションの OAuth2 アプリを作成すると、データが安全な業界標準の OAuth2 認証プロトコルで保護されていることを確認しながら、そのアプリケーションで Workfront にアクセスできるようになります。</p> <p>以前は、他のアプリケーションとの統合に使用できるのは、ビルトインの統合、Workfront Fusion または Workfront API のみでした。</p> </td> 
    <td><strong>公開日：</strong> <p>プレビューリリース：2021年12月8日（PT）<br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -184,7 +184,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>公開日：</strong> <p>プレビューリリース：2021年11月18日（PT） <br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#filter" class="MCXref xref" xrefformat="{para}">アジャイルボードのユーザーリストでフィルターにかけると、割り当てが最も多いユーザーが最初に表示されます</a> </p> <p>現在は、割り当てが最も多いユーザーが最初にフィルターに表示され、リストをスクロールせずに見つけやすくなります。</p> <p>以前は、かんばんボードとスクラムボードの両方で、ユーザーリストでフィルタリングするとアルファベット順に表示されていました。 </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#filter" class="MCXref xref" xrefformat="{para}"> アジャイルボードのユーザーリストでのフィルタリングでは、割り当てが最も多いユーザーが最初に表示される </a> </p> <p>現在は、割り当てが最も多いユーザーが最初にフィルターに表示され、リストをスクロールせずに見つけやすくなります。</p> <p>以前は、かんばんボードとスクラムボードの両方で、ユーザーリストでフィルタリングするとアルファベット順に表示されていました。 </p> </td> 
    <td><strong>公開日：</strong> <p>プレビューリリース：2021年11月11日（PT） <br></p> <p>実稼動版リリース：22.1 リリースを使用 <b style="color: #ff0000;">（22.1 リリースから削除されました。プレビューでは使用できなくなりました。）</b></p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -205,11 +205,11 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">イシューレベルでテンプレートを使用してイシューをプロジェクトに変換する際の新しいエクスペリエンス</a> </p> <p>一貫して新しい Workfront エクスペリエンスで Workfront を使用できるように、イシューページからテンプレートを使用してイシューをプロジェクトに変換する際のインターフェイスを再設計しました。</p> <p>イシューの変換を選択した直後から、お気に入りリストにアクセスしやすくなりました。</p> <p>再設計されたインターフェイスは、最近更新したテンプレートからプロジェクトを作成する場合のエクスペリエンスと同じです。</p> </td> 
-   <td><strong>利用可能になる日時：</strong> <p>プレビューリリース：2021年12月8日（PT）<br></p> <p>実稼動版 22.1 リリース <span style="color: #ff0000; font-weight: bold;">（この機能は、2022年3月4日（PT）に実稼動環境から一時的に削除されました。その後、2022年4月28日（PT）より段階的に公開されました。公開は 2022年5月5日（PT）に完了しました。現在では、すべての顧客がプレビューと実稼動で使用できるようになっています。）</span></p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td><strong>利用可能になる日時：</strong> <p>プレビューリリース：2021年12月8日（PT）<br></p> <p>本番 22.1 リリース <span style="color: #ff0000; font-weight: bold;">（この機能は、2022年3月4日（PT）に本番環境から一時的に削除されました。その後、2022年4月28日（PT）より段階的に公開されました。公開は 2022年5月5日（PT）に完了しました。現在では、すべての顧客がプレビューと実稼動で使用できるようになっています。）</span></p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#convert" class="MCXref xref" xrefformat="{para}">リスト、レポート、ダッシュボードからテンプレートを使用してイシューをプロジェクトに変換</a> </p> <p>作業の効率を高め、ペースの速い環境でイシューを簡単に変換できるように、リスト、レポート、ダッシュボードのテンプレートを使用してイシューをプロジェクトに変換できる機能を追加しました。</p> <p>この機能強化以前は、この機能は、イシューページからイシューを変換した場合にのみ利用できました。</p> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：2021年12月8日（PT）<br></p> <p>実稼動版 22.1 リリース <span style="color: #ff0000; font-weight: bold;">（この機能は、2022年3月4日（PT）に実稼動環境から一時的に削除されました。その後、2022年4月28日（PT）より段階的に公開されました。公開は 2022年5月5日（PT）に完了しました。現在では、すべての顧客がプレビューと実稼動で使用できるようになっています。）</span></p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：2021年12月8日（PT）<br></p> <p>本番 22.1 リリース <span style="color: #ff0000; font-weight: bold;">（この機能は、2022年3月4日（PT）に本番環境から一時的に削除されました。その後、2022年4月28日（PT）より段階的に公開されました。公開は 2022年5月5日（PT）に完了しました。現在では、すべての顧客がプレビューと実稼動で使用できるようになっています。）</span></p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -330,7 +330,7 @@ For specific release dates and times for each cluster, see the
      <li> <p>ユーザーが現在のタイムシートを持っている場合、タイムシートエリアがその現在のタイムシートに開くようになり、現在のタイムシートを検索してクリックする時間を節約できます。現在のタイムシートがない場合でも、タイムシートエリアには、現在の「マイタイムシート」セクションが表示されます。</p> </li> 
      <li> <p>時間を入力するためにポインタを合わせるかクリックした行がハイライト表示され、可視性が向上します。</p> </li> 
      <li> <p>タイムシートボタンを含むフッターが固定され、ページの下部にスクロールせずに常に保存およびキャンセルできるようになりました。また、ページの先頭にすぐに戻るための新しい「先頭に戻る」ボタンもこのエリアに追加しました。</p> </li> 
-     <li> <p>新しい警告通知で、未保存の変更に関する警告が表示され、タイムシートから移動する際に情報が失われるのを防ぐことができます。</p> </li> 
+     <li> <p>新しい警告通知で、保存されていない変更に関する警告が表示され、タイムシートから移動する際に情報が失われるのを防ぐことができます。</p> </li> 
     </ul> </td> 
    <td><strong>公開日：</strong> <p>プレビューリリース：2021年12月2日（PT）<br></p> <p>実稼動版リリース：22.1 リリース</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic（<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月（PT）に廃止され</a>、続いて 2022年7月（PT）に Workfront Classic のサポートが終了になります。）</p> </td> 
   </tr> 

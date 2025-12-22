@@ -3,14 +3,14 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: ワークストリームでのイテレーションの作成
-description: イテレーションとは、作業の完了のために予約された一定時間のことです。アジャイルチームでは、イテレーションをスプリントと呼ぶ場合もあります。
+description: イテレーションとは、作業の完了のために予約された一定時間のことです。一部のアジャイルチームは、イテレーションをスプリントと呼ぶ場合があります。
 author: Jenny
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 >
 >ワークストリームは、特定の顧客グループのみが使用できます。
 
-イテレーションとは、作業の完了のために予約された一定時間のことです。アジャイルチームでは、イテレーションをスプリントと呼ぶ場合もあります。
+イテレーションとは、作業の完了のために予約された一定時間のことです。一部のアジャイルチームは、イテレーションをスプリントと呼ぶ場合があります。
 
 ## アクセス要件
 

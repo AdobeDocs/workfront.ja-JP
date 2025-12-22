@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '3829'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -118,7 +118,7 @@ For specific release dates and times for each cluster, see the
 >
 >この記事で説明している機能を使用するには、組織に以下が必要です。
 >
->* Pro 以上の [Adobe Workfront プラン](https://business.adobe.com/jp/products/workfront/pricing.html)。
+>* Pro 以上の [Adobe Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)。
 >* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 >
 >  Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
@@ -151,32 +151,32 @@ For specific release dates and times for each cluster, see the
 >以下が必要です。
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/jp/products/workfront/pricing.html" target="_blank">Workfront プラン</a>*</p> </td> 
->&gt;   <td>ビジネス以上</td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>ライセンスタイプ*</p> </td> 
->&gt;   <td> <p>レビュー以上。詳しくは、<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">製品</td> 
->&gt;   <td>Workfront のシナリオプランナー <p>Workfront のシナリオプランナーについて詳しくは、<a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">シナリオプランナーの概要</a>を参照してください。</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"><strong>アクセスレベル*</strong> </td> 
->&gt;   <td> <p>シナリオプランナーへの表示アクセス権またはそれ以上</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"> <p><strong>オブジェクトの権限</strong> </p> </td> 
->&gt;   <td> <p>プランへの表示権限またはそれ以上</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">シナリオプランナーのプランへのアクセス権をリクエスト</a>を参照してください。</p> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
->&gt;*保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront プラン</a>*</p> </td> 
+&gt;   <td>ビジネス以上</td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>ライセンスタイプ*</p> </td> 
+&gt;   <td> <p>レビュー以上。詳しくは、<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">製品</td> 
+&gt;   <td>Workfront のシナリオプランナー <p>Workfront のシナリオプランナーについて詳しくは、<a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">シナリオプランナーの概要</a>を参照してください。</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"><strong>アクセスレベル*</strong> </td> 
+&gt;   <td> <p>シナリオプランナーへの表示アクセス権またはそれ以上</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"> <p><strong>オブジェクトの権限</strong> </p> </td> 
+&gt;   <td> <p>プランへの表示権限またはそれ以上</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">シナリオプランナーのプランへのアクセス権をリクエスト</a>を参照してください。</p> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
+&gt;*保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
  
 
@@ -227,7 +227,7 @@ For specific release dates and times for each cluster, see the
    <td> <p>ベータ版プレビューリリース：2020年6月17日（PT）</p> <p>実稼動版リリース：2020年7月2日（PT）</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">アジャイルボードは、一度に 50 個の作業アイテムを読み込む</a> </p> <p>アジャイルツールの速度とパフォーマンスを向上させるために、最大 50 枚のカードが様々な場所に読み込まれるようになりました。アジャイルボードに 50 個を超える作業項目がある場合は、ボードまたはバックログの下部にボタンが表示され、追加の作業項目を読み込むことができます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">アジャイルボードは、一度に 50 個の作業アイテムを読み込む</a> </p> <p>アジャイルツールの速度とパフォーマンスを向上させるために、様々な場所に最大 50 枚のカードが読み込まれるようになりました。 アジャイルボードに 50 個を超える作業項目がある場合、ボードまたはバックログの下部にボタンが表示され、追加の作業項目を読み込むことができます。</p> </td> 
    <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月19日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -451,7 +451,7 @@ API のバージョンについて詳しくは、[API のバージョン管理�
 
 Workfront One を使用すると、Workfront の重要なコンテンツ、リソース、ニュースをすべて 1 か所で、1 回のログインで見つけることができます。エクスペリエンス、コミュニティ、トレーニングの各サイトを統合し、探しているものを見つけやすくしました。
 
-[Workfront One の詳細](https://business.adobe.com/jp/products/workfront.html)
+[Workfront One の詳細](https://business.adobe.com/products/workfront.html)
 
 ### 20.3 リリースウェビナー {#20-3-release-webinar}
 
