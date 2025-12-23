@@ -24,7 +24,7 @@ Workspace Manager では、接続されたレコードタイプとAdobe Workfron
 
 階層は、レコードタイプ間、またはレコードタイプとWorkfront プロジェクト間の関連付けです。
 
-階層の作成については、「[ ワークスペース階層の作成 ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)」を参照してください。
+階層の作成については、「[&#x200B; ワークスペース階層の作成 &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)」を参照してください。
 
 ワークスペースで階層を使用する利点は次のとおりです。
 
@@ -80,7 +80,7 @@ Workspace Manager では、接続されたレコードタイプとAdobe Workfron
 
 例えば、階層を作成して、戦術、アクティビティ、プロジェクトの順にキャンペーンを接続した場合、階層内で接続されている任意のタイプのレコードに移動すると、階層内でレコードが配置されている場所を確認できます。
 
-![ パンくず ](assets/breadcrumbs-on-project.png)
+![&#x200B; パンくず &#x200B;](assets/breadcrumbs-on-project.png)
 
 次の点に注意してください。
 
@@ -90,7 +90,7 @@ Workspace Manager では、接続されたレコードタイプとAdobe Workfron
 
   例えば、Planning のキャンペーンと戦術およびWorkfrontのポートフォリオとプログラムに接続されたプロジェクトを調べる場合、パンくずリストから Planning とWorkfrontの両方のオブジェクトタイプを切り替えることができます。
 
-  詳しくは、[ ワークスペース階層の作成 ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) を参照してください。
+  詳しくは、[&#x200B; ワークスペース階層の作成 &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) を参照してください。
 * レコードを編集すると、変更がすべてのワークスペースと、レコードが含まれているすべての階層から表示されます。
 
 

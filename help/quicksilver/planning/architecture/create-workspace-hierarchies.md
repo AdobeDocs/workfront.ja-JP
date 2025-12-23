@@ -28,7 +28,7 @@ ht-degree: 7%
 
 階層は、ヘッダーに表示される各レコードのパンくずリストを生成します。 これにより、ワークフローの任意のステージで、階層内の自分の位置を把握できます。
 
-階層とパンくずリストに関する一般的な情報については、[ 階層とパンくずリストの概要 ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md) を参照してください。
+階層とパンくずリストに関する一般的な情報については、[&#x200B; 階層とパンくずリストの概要 &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md) を参照してください。
 
 ## アクセス要件
 
@@ -65,7 +65,7 @@ ht-degree: 7%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -76,7 +76,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 {#step1-to-planning}
 
 1. ワークスペースカードをクリックします。
-1. ワークスペース名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**設定** をクリックします。
+1. ワークスペース名の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックし、**設定** をクリックします。
 **階層** セクションは、デフォルトで開きます。
 1. **階層** ページの右上隅にある **新規階層** をクリックします。
 1. **オブジェクトを追加** をクリックし、ドロップダウンメニューからオブジェクトタイプを選択します。 これが階層内の最初のオブジェクトタイプになります。<!--logged bug to correct to "Add object type"-->
@@ -88,9 +88,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 「**オブジェクトを追加**」をクリックして、階層の最初の子である 2 番目のオブジェクトタイプを追加し、ドロップダウンメニューで別のオブジェクトタイプを選択します。
 追加された各オブジェクトタイプは、以前のオブジェクトタイプの子になります。
 
-   ![ フィールドが選択されていない新しい階層ボックス ](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+   ![&#x200B; フィールドが選択されていない新しい階層ボックス &#x200B;](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
 
-1. **接続されたフィールドを選択**] をクリックして、2 つのオブジェクトを接続するフィールドを指定します。
+1. **接続されたフィールドを選択**&rbrack; をクリックして、2 つのオブジェクトを接続するフィールドを指定します。
 1. （条件付き）接続フィールドが複数ある場合は、リストから 1 つ選択します。
 
    または
@@ -132,7 +132,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    1. ワークスペースの **設定** 領域に戻って **新規階層** を再度クリックし、手順に従って階層を作成します。
 
 1. （オプション）上記の手順に従って、最大 4 つのオブジェクトタイプを階層に追加し続けます。 最初にすべてのオブジェクトタイプを追加してから、それらの間に接続フィールドを追加できます。
-1. （オプション） **削除** アイコン ![ 削除アイコン ](assets/minus-icon.png) をクリックして、接続を削除します。
+1. （オプション） **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/minus-icon.png) をクリックして、接続を削除します。
 1. **保存** をクリックして、階層を保存します。
 
    >[!TIP]
@@ -148,11 +148,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >子レコードタイプから 1 つのレコードを、親レコードタイプから最大 10 個のレコードに接続できます。
    >
-   >詳しくは、[ 階層とパンくずリストの概要 ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md) を参照してください。
+   >詳しくは、[&#x200B; 階層とパンくずリストの概要 &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md) を参照してください。
 
 1. （任意）階層の上にマウスポインターを置き、「**詳細**」メニューをクリックします。
 
-   ![ 階層の詳細メニューが展開されました ](assets/hierarchy-more-menu-expanded.png)
+   ![&#x200B; 階層の詳細メニューが展開されました &#x200B;](assets/hierarchy-more-menu-expanded.png)
 
 1. 次のいずれかをクリックします。
 
