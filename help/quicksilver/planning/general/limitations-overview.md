@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 24%
+source-wordcount: '514'
+ht-degree: 23%
 
 ---
 
@@ -52,6 +52,10 @@ Workfront Planning で作成できるオブジェクトの数の制限を次の�
 | <span class="preview">1 つのレコードタイプの接続フィールドの数 </span> | <span class="preview">30</span> |
 | 式フィールドの式の文字数 | 50,000 |
 | Planning オブジェクトを共有できるエンティティの数（ユーザー、役割、チーム、会社、グループ） | 100 |
+| <span class="preview"> 階層内のレコードタイプの数 </span> | 4 |
+| <span class="preview"> ワークスペース内の階層の数 </span> | 5 |
+| <span class="preview"> 階層内の 1 つの子に接続された親レコードの数 </span> | 10 |
+| 複数選択の接続タイプで 1 つのレコードに接続されたレコードの数。<span class="preview"> レコード間に階層が設定されていない </span> | 500 |
 
 *管理が困難になり、ワークフローが断片化される可能性があるので、ワークスペースが多くなりすぎることはお勧めしません。
 

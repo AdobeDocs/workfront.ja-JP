@@ -1,28 +1,18 @@
 ---
 title: 階層とパンくずの概要
-description: ワークスペース内のレコードタイプ間に複数のワークスペース階層を作成できます。
-hide: true
-hidefromtoc: true
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 3%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Hierarchy and Breadcrumb Overview
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: レコードタイプを接続した後に、ワークスペース内のレコードタイプ間に複数のワークスペース階層を作成できます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 2%
+
 ---
--->
+
+
 
 # 階層とパンくずの概要
 
@@ -30,11 +20,11 @@ hidefromtoc: yes
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-Workspace Manager では、Adobe Workfront Planning のレコード・タイプと他のオブジェクト・タイプの間に、柔軟だが構造化された階層を定義できます。
+Workspace Manager では、接続されたレコードタイプとAdobe Workfront Planning のその他のオブジェクトタイプの間に、柔軟だが構造化された階層を定義できます。
 
 階層は、レコードタイプ間、またはレコードタイプとWorkfront プロジェクト間の関連付けです。
 
-階層の作成については、「[&#x200B; ワークスペース階層の作成 &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)」を参照してください。
+階層の作成については、「[ ワークスペース階層の作成 ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)」を参照してください。
 
 ワークスペースで階層を使用する利点は次のとおりです。
 
@@ -45,7 +35,7 @@ Workspace Manager では、Adobe Workfront Planning のレコード・タイプ�
 
 ## 階層を使用する場合の考慮事項
 
-* 1 つのワークスペースに対して複数の階層を作成できます。
+* 1 つのワークスペースに対して最大 5 つの階層を作成できます。
 * 最大 4 つのレコード タイプとオブジェクト タイプを 1 つの階層に接続できます。
 * ワークスペース階層では、次のオブジェクトタイプのみを接続できます。
    * 階層を構築するワークスペースに属するレコードタイプ。
@@ -60,6 +50,9 @@ Workspace Manager では、Adobe Workfront Planning のレコード・タイプ�
   * 選択したレコードタイプ間に接続が既に存在する場合は、既存の接続が再利用されます。
 * 連携が存在しない場合、Workfrontは階層設定の一部として連携を作成します。
 * 階層に含めるレコードおよびオブジェクト タイプの接続されたフィールドに対して、**リンクされたレコード タイプに対応するフィールドを作成** 設定をオンにする必要があります。
+* 階層の一部である場合は、レコードタイプを削除できません。
+* フィールドで参照されているレコードタイプが階層の一部である場合、接続フィールドは削除できません。 レコードタイプを削除するには、まず階層からレコードタイプを削除するか、階層を削除する必要があります。
+* 接続されたレコードタイプからルックアップフィールドを削除できます。 フィールド内の情報は復元できません。
 * 階層設定のルールを次に示します。
    * レコードタイプは、特定のワークスペースに 1 つの親レコードタイプのみを持つことができます。
 
@@ -77,23 +70,27 @@ Workspace Manager では、Adobe Workfront Planning のレコード・タイプ�
    * グローバルレコードタイプは、複数の階層内の複数のワークスペースに追加されると、それらのワークスペースに表示されることがあります。
 
      例えば、キャンペーンがグローバルレコードタイプで、Workspace 1 内の階層の一部である場合、Workspace 2 に既存のレコードタイプとして追加し、その階層の一部にすることができます。 ただし、Workspace 1 でグローバルレコードタイプとして指定され、Workspace 2 に追加されていない場合にのみ、Workspace 2 の階層に含めることはできません。
+   * 接続されたレコード タイプが階層の一部である場合、子レコード タイプから 1 つのレコードを親レコード タイプから最大 10 個のレコードに接続できます。
+
+     例えば、親としてのキャンペーンと子レコードとしてのペルソナの間に階層を作成した場合、同じペルソナを最大 10 個のキャンペーンに接続できます。
 
 ## パンくずリストを表示する際の考慮事項
-
-<!-- this might be incomplete, because I have no UI for this yet-->
 
 レコードタイプ間に階層を作成すると、これらのレコードタイプに属するレコードのパンくずリストが生成されます。
 
 例えば、階層を作成して、戦術、アクティビティ、プロジェクトの順にキャンペーンを接続した場合、階層内で接続されている任意のタイプのレコードに移動すると、階層内でレコードが配置されている場所を確認できます。
 
+![ パンくず ](assets/breadcrumbs-on-project.png)
+
 次の点に注意してください。
 
 * レコードタイプが複数の階層の一部である場合は、レコードのページ上にあるレコードのパンくずリストから階層を切り替えることができます。
+* 階層内のレコードタイプに複数のレコードがある場合は、パンくずリストからレコードを選択できます。
 * パンくずリストは、Workfrontと Planning をまたいで機能します。
 
   例えば、Planning のキャンペーンと戦術およびWorkfrontのポートフォリオとプログラムに接続されたプロジェクトを調べる場合、パンくずリストから Planning とWorkfrontの両方のオブジェクトタイプを切り替えることができます。
 
-  詳しくは、[&#x200B; ワークスペース階層の作成 &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) を参照してください。
+  詳しくは、[ ワークスペース階層の作成 ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) を参照してください。
 * レコードを編集すると、変更がすべてのワークスペースと、レコードが含まれているすべての階層から表示されます。
 
 
