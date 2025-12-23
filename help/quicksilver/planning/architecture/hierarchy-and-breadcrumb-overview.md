@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Workspace Manager では、接続されたレコードタイプとAdobe Workfron
 
 階層は、レコードタイプ間、またはレコードタイプとWorkfront プロジェクト間の関連付けです。
 
-階層の作成については、「[&#x200B; ワークスペース階層の作成 &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)」を参照してください。
+階層の作成については、「[ ワークスペース階層の作成 ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)」を参照してください。
 
 ワークスペースで階層を使用する利点は次のとおりです。
 
@@ -46,8 +46,9 @@ Workspace Manager では、接続されたレコードタイプとAdobe Workfron
    * AEM Assets。
 * 階層には、Planning レコード・タイプとWorkfrontプロジェクトの両方を同時に含めることができます。
 
-       例えば、同じワークスペース階層内の子として、計画戦術とWorkfront プロジェクトを含むキャンペーンレコードタイプを指定できます。
-  * 選択したレコードタイプ間に接続が既に存在する場合は、既存の接続が再利用されます。
+  例えば、同じワークスペース階層内の子として、計画戦術とWorkfront プロジェクトを含むキャンペーンレコードタイプを持つことができます。
+
+* 選択したレコードタイプ間に接続が既に存在する場合は、既存の接続が再利用されます。
 * 連携が存在しない場合、Workfrontは階層設定の一部として連携を作成します。
 * 階層に含めるレコードおよびオブジェクト タイプの接続されたフィールドに対して、**リンクされたレコード タイプに対応するフィールドを作成** 設定をオンにする必要があります。
 * 階層の一部である場合は、レコードタイプを削除できません。
@@ -80,7 +81,7 @@ Workspace Manager では、接続されたレコードタイプとAdobe Workfron
 
 例えば、階層を作成して、戦術、アクティビティ、プロジェクトの順にキャンペーンを接続した場合、階層内で接続されている任意のタイプのレコードに移動すると、階層内でレコードが配置されている場所を確認できます。
 
-![&#x200B; パンくず &#x200B;](assets/breadcrumbs-on-project.png)
+![ パンくず ](assets/breadcrumbs-on-project.png)
 
 次の点に注意してください。
 
@@ -90,7 +91,7 @@ Workspace Manager では、接続されたレコードタイプとAdobe Workfron
 
   例えば、Planning のキャンペーンと戦術およびWorkfrontのポートフォリオとプログラムに接続されたプロジェクトを調べる場合、パンくずリストから Planning とWorkfrontの両方のオブジェクトタイプを切り替えることができます。
 
-  詳しくは、[&#x200B; ワークスペース階層の作成 &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) を参照してください。
+  詳しくは、[ ワークスペース階層の作成 ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) を参照してください。
 * レコードを編集すると、変更がすべてのワークスペースと、レコードが含まれているすべての階層から表示されます。
 
 
