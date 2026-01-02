@@ -17,7 +17,7 @@ ht-degree: 67%
 
 [!DNL Workfront] の [!DNL Adobe Unified Experience] を使用すると、[!DNL Adobe] アプリケーションのすべてを 1 回のログインで 1 か所で管理できます。[!DNL Adobe] ナビゲーションエリアは、[!DNL Workfront] とシームレスに統合されています。いくつかの機能には違いがあり、[!DNL Workfront] インスタンスは統合エクスペリエンスに移行されるため、お客様の疑問にお答えします。
 
-[!DNL Adobe Unified Experience] にログインする方法について詳しくは、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。.
+[!DNL Adobe Unified Experience] にログインする方法について詳しくは、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。.
 
 ## [!DNL Adobe Unified Experience] および [!DNL Workfront only] エクスペリエンスの比較
 
@@ -53,7 +53,7 @@ Workfront統合エクスペリエンス上に組織があるかどうかを判�
 
 [!DNL Admin Console] について詳しくは、次の記事を確認します。
 
-* [ [!DNL Adobe Admin Console] の準備](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+* [&#x200B; [!DNL Adobe Admin Console] の準備](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
 * [プラットフォームベースの管理上の違い（[!DNL Adobe Workfront]／[!DNL Adobe Business Platform]）](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
 * [[!DNL Adobe Admin Console] の概要](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)
 
