@@ -6,9 +6,9 @@ description: ' [!DNL Workfront]  および Adobe Experience Cloud の間には�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
+source-git-commit: 4ce69180b8f419ff5634d0dba802f9fb57cd758b
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1395'
 ht-degree: 67%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 67%
 
 [!DNL Workfront] の [!DNL Adobe Unified Experience] を使用すると、[!DNL Adobe] アプリケーションのすべてを 1 回のログインで 1 か所で管理できます。[!DNL Adobe] ナビゲーションエリアは、[!DNL Workfront] とシームレスに統合されています。いくつかの機能には違いがあり、[!DNL Workfront] インスタンスは統合エクスペリエンスに移行されるため、お客様の疑問にお答えします。
 
-[!DNL Adobe Unified Experience] にログインする方法について詳しくは、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。.
+[!DNL Adobe Unified Experience] にログインする方法について詳しくは、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。.
 
 ## [!DNL Adobe Unified Experience] および [!DNL Workfront only] エクスペリエンスの比較
 
@@ -53,7 +53,7 @@ Workfront統合エクスペリエンス上に組織があるかどうかを判�
 
 [!DNL Admin Console] について詳しくは、次の記事を確認します。
 
-* [&#x200B; [!DNL Adobe Admin Console] の準備](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+* [ [!DNL Adobe Admin Console] の準備](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
 * [プラットフォームベースの管理上の違い（[!DNL Adobe Workfront]／[!DNL Adobe Business Platform]）](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
 * [[!DNL Adobe Admin Console] の概要](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)
 
@@ -61,9 +61,8 @@ Workfront統合エクスペリエンス上に組織があるかどうかを判�
 
 既存のお客様には、移行のスケジュールするためにご連絡させていただきます。移行チームのサポート員からお客様にプロセスを説明し、できるだけ簡単で手間のかからない移行を行うために、[!DNL Admin Console] の設定についてアドバイスおよび移行に必要なドキュメントへのリンクを提供します。
 
-* [[!DNL Adobe Workfront] サポートの概要](https://experienceleague.adobe.com/ja/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] 情報](https://experienceleague.adobe.com/ja/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/ja/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] サポートの概要](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/overview)
+* [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)
 
 ### 既に Federated ID に対してこれを有効にしている会社の [!DNL Adobe Admin Console] ールは、[!DNL Workfront] SSO の設定とは異なりますか。
 
