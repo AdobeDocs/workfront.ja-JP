@@ -23,9 +23,9 @@ ht-degree: 35%
 >
 >Jira を使用する場合は、組織の統合のニーズに合わせてWorkfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)」を参照してください。
+>Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)」を参照してください。
 
 <!--
 
@@ -47,8 +47,8 @@ ht-degree: 35%
 
 この節では、次の記事を扱います。
 
-* [ [!DNL Adobe Workfront for Jira] のインストール](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
-* [ [!DNL Adobe Workfront for Jira] の設定](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
-* [ [!DNL Adobe Workfront]  と  [!DNL Jira] 間の項目のリンク](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
-* [ [!DNL Jira]  と  [!DNL Adobe Workfront] 間のリンクされた項目の更新](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
+* [&#x200B; [!DNL Adobe Workfront for Jira] のインストール](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
+* [&#x200B; [!DNL Adobe Workfront for Jira] の設定](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
+* [&#x200B; [!DNL Adobe Workfront]  と  [!DNL Jira] 間の項目のリンク](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
+* [&#x200B; [!DNL Jira]  と  [!DNL Adobe Workfront] 間のリンクされた項目の更新](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
 * [[!UICONTROL [!DNL Jira] Activity Log] の表示](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
