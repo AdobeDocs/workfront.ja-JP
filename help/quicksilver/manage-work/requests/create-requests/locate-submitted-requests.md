@@ -1,35 +1,37 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: 送信されたリクエストの検索
-description: 自分または他のユーザーが送信したリクエストや、未送信でドラフトとして保存されていたリクエストを検索できる Adobe Workfront のエリアについて説明します。
+title: 送信されたリクエストを表示
+description: 自分または他のユーザーが送信したリクエストや、自分が送信したことがなく、ドラフトとして保存されたリクエストを表示できるAdobe Workfrontの領域について説明します。
 author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
+source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 61%
+source-wordcount: '1406'
+ht-degree: 54%
 
 ---
 
-# 送信されたリクエストを見つける
+# 送信されたリクエストを表示する
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
-次のタイプのリクエストのうち、自分または他のユーザーが送信したものや、開始したが送信を完了していないものを検索できます。これらのリクエストは、Adobe Workfront の次のエリアで検索できます。
+自分または他のユーザーが送信したリクエストや、自分が開始したが送信を完了していないリクエストを表示できます。 これらのリクエストは、Adobe Workfront の次のエリアで検索できます。
 
-* Workfrontのリクエスト エリアの **Workfront** タブ：次の節で、Workfront リクエストキューに送信されたリクエストを確認します。
+* Workfrontのリクエスト エリアの **Workfront** タブ：次の節では、Workfront リクエストキューに送信されたリクエストを表示します。
    * **「送信済み」セクション**：自分または他のユーザーが送信し、自分が表示以上のアクセス権を持っているすべてのリクエスト。
    * **「ドラフト」セクション**：開始したが、未完成で送信していないすべてのリクエスト。ドラフトリクエストについて詳しくは、[Adobe Workfront リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
-  >[!TIP]
+  >[!NOTE]
   >
-  >自分のドラフトリクエストのみを表示できます。
+  >* 自分のドラフトリクエストのみを表示できます。
+  >* <span class="preview"> 新しいリクエストエクスペリエンスでは、送信されたリクエストとドラフトが同じリストに含まれます。</span>
+  >* <span class="preview"> 従来のエクスペリエンスで作成されたドラフトは、新しい要求元エクスペリエンスには表示されません。</span>
 
-* Workfrontの「要求」エリアの「**計画**」タブ：Workfrontの計画リクエストフォームに送信された要求を検索します。 Workfront Planning パッケージを購入する必要があります。 詳しくは、次の記事を参照してください。
+* Workfrontの「要求」エリアの「**計画**」タブ：Workfrontの計画リクエストフォームに送信された要求を表示します。 Workfront Planning パッケージを購入する必要があります。 詳しくは、次の記事を参照してください。
 
    * [Adobe Workfront Planning でのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)
    * [レコードを作成するためのAdobe Workfront Planning 要求の発行](/help/quicksilver/planning/requests/submit-requests.md)
@@ -72,18 +74,18 @@ ht-degree: 61%
 
 +++
 
-## 「要求」領域で送信済み要求を検索する
+## 「要求」エリアで送信された要求を表示する
 
-送信されたリクエストの場所は、新しいリクエストエクスペリエンスと従来のリクエストエクスペリエンスのどちらを使用しているかによって異なります。
+送信されたリクエストの表示は、新しいリクエストエクスペリエンスと従来のリクエストエクスペリエンスのどちらを使用しているかによって異なります。
 
-* [新しいリクエストエクスペリエンスで送信されたリクエストを見つける](#locate-submitted-requests-in-the-new-requesting-experience)
-* [従来のリクエストエクスペリエンスで送信されたリクエストを見つける](#locate-submitted-requests-in-the-legacy-requesting-experience)
+* [新しい要求エクスペリエンスで送信された要求を表示する](#view-submitted-requests-in-the-new-requesting-experience)
+* [従来のリクエストエクスペリエンスでの送信済みリクエストの表示](#view-submitted-requests-in-the-legacy-requesting-experience)
 
-### 新しいリクエストエクスペリエンスで送信されたリクエストを見つける
+### 新しい要求エクスペリエンスで送信された要求を表示する
 
-送信されたリクエストは、「リクエスト」エリアで見つけることができます <span class="preview"> このエリアには、それらのリクエストで作成されたオブジェクトへのリンクが含まれます </span>。
+送信されたリクエストは、「リクエスト」エリアで表示できます <span class="preview"> このエリアには、リクエストで作成されたオブジェクトへのリンクが含まれます </span>。
 
-自分または他のユーザーが新しい要求エクスペリエンスで送信した要求を見つけるには：
+自分または他のユーザーが新しい要求エクスペリエンスで送信した要求を表示するには：
 
 {{step1-to-requests}}
 
@@ -92,7 +94,7 @@ ht-degree: 61%
    リクエスト リストが表示されます。
 
 1. （オプション）リクエストを検索するには、リストの右上にある検索バーに入力を開始します。 入力中に検索結果が表示されます。
-1. （任意）「**フィルター**」をクリックして、検索するリクエストの条件の追加を開始します。
+1. （任意）「**フィルター**」をクリックして、表示するリクエストの条件の追加を開始します。
 
    次のフィールドでフィルタリングできます。
 
@@ -105,18 +107,26 @@ ht-degree: 61%
 
    複数のフィルターを **And** または **Or** で結合できます。
 フィルター条件を追加すると、リクエストリストが自動的にフィルタリングされます。
-1. （任意）ビューを使用して、検索するリクエストにフォーカスします。
+1. （任意）ビューを使用して、表示するリクエストにフォーカスします。
 
-   手順については、[&#x200B; リクエスト領域でのビューの作成または編集 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+   手順については、[ リクエスト領域でのビューの作成または編集 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+1. （オプション） ステータス列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。
+
+   * ドラフト：このリクエストはまだ送信されていません。
+   * レビュー保留中
+   * レビュー中
+   * 却下
+   * 処理中
+   * 完了
 
 >[!NOTE]
 >
 >* Workfront Planning がある場合は、Workfrontと Planning のリクエストが同じリストに表示されます。 Workfront リクエストの値 `Issue` は、「オブジェクトタイプ」列に表示されます。
 >* リクエスト リストが表示され、50 件のリクエストが表示されます。 その他のリクエストを表示するには、リストの下部までスクロールします。
 
-### 従来のリクエストエクスペリエンスで送信されたリクエストを見つける
+### 従来のリクエストエクスペリエンスでの送信済みリクエストの表示
 
-レガシーリクエストエクスペリエンスで、自分または他のユーザーが送信したリクエストを見つけるには：
+レガシーリクエストエクスペリエンスで自分または他のユーザーが送信したリクエストを表示するには、次のようにします。
 
 {{step1-to-requests}}
 
@@ -252,6 +262,13 @@ ht-degree: 61%
 
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
-   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+
+
+1. （オプション） ステータス列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。
+
+   * ドラフト：このリクエストはまだ送信されていません。
+   * 処理中
+   * 完了
 
 
