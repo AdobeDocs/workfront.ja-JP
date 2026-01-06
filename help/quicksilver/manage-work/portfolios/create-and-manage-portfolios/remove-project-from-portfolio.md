@@ -6,10 +6,10 @@ description: プロジェクトをポートフォリオから削除して別の�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 77%
+ht-degree: 81%
 
 ---
 
@@ -44,13 +44,13 @@ ht-degree: 77%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオおよびプロジェクトを削除するプロジェクトに対する [!UICONTROL 管理 &#x200B;] 権限</p>
-   <p>プロジェクトへの [!UICONTROL Delete] アクセス権を持つ [!UICONTROL 管理 &#x200B;] 権限を持ち、ポートフォリオから削除できます</p> </td> 
+   <td> <p>ポートフォリオおよびプロジェクトを削除するプロジェクトに対する [!UICONTROL 管理 ] 権限</p>
+   <p>プロジェクトへの [!UICONTROL Delete] アクセス権を持つ [!UICONTROL 管理 ] 権限を持ち、ポートフォリオから削除できます</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -86,11 +86,11 @@ ht-degree: 77%
 ## ポートフォリオからのプロジェクトの削除
 
 1. ポートフォリオに移動し、左パネルの「**[!UICONTROL プロジェクト]**」をクリックします。
-1. 削除するプロジェクトを選択します。 
+1. 削除するプロジェクトを選択します。
 
-   ![&#x200B; プロジェクトを削除ボタン &#x200B;](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![ プロジェクトを削除ボタン ](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
-1. 「**[!UICONTROL プロジェクトの削除]**」をクリックします。
-1. 「**[!UICONTROL 削除]**」をクリックしてプロジェクトを [!DNL Workfront] から削除するか、「**[!UICONTROL ポートフォリオから]**&#x200B;**[!UICONTROL 削除する]**」をクリックして、選択したポートフォリオから削除します。
+1. **[!UICONTROL プロジェクトを削除]** をクリックします。
+1. 「**[!UICONTROL 削除]**」をクリックしてプロジェクトを [!DNL Workfront] から削除するか、「**[!UICONTROL ポートフォリオから]****[!UICONTROL 削除する]**」をクリックして、選択したポートフォリオから削除します。
 
 1. （オプションおよび条件付き）ポートフォリオから削除したプロジェクトを見つけて、別のポートフォリオに関連付けます。ポートフォリオへのプロジェクトの関連付けについては、[ポートフォリオへのプロジェクトの追加](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)を参照してください。

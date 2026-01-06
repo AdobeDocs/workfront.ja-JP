@@ -6,10 +6,10 @@ description: 重複している、または誤って作成された可能性の�
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 92%
+source-wordcount: '782'
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 重複している、または誤って作成された可能性のあるタスクを削除できます。
 
-履歴情報（更新、スケジュールの変更、ステータス、その他のフィールド）を含むタスクの場合は、タスクを閉じるか、削除する代わりに「無効」とマークすることをお勧めします。これにより、プロジェクトの履歴情報を保持できます。
+履歴情報（更新、スケジュールの変更、ステータス、その他のフィールド）があるタスクの場合は、削除する代わりに、タスクを閉じたり、無効としてマークしたりすることをお勧めします。 これは、プロジェクトの履歴情報を保持するのに役立ちます。
 
 ## アクセス要件
 
@@ -68,7 +68,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects with access to&nbsp;Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects with access to Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,7 +89,7 @@ ht-degree: 92%
 * タスクに記録された時間がある場合、Workfront またはグループ管理者は、Workfront インスタンスでタスクとイシューの環境設定を行うことで、これらのタスクの削除を許可する必要があります。これは、時間が記録されたタスクを持つプロジェクトを削除しようとした場合にも該当します。
 
   <!--
-  (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
+  (NOTE: the last statement is NWE only; not possible in classic)
   -->
 
   時間が記録されたイシューの削除を有効にする方法について詳しくは、[システム全体のタスクとイシューの環境設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
@@ -140,9 +140,8 @@ ht-degree: 92%
 
 ### プロジェクト内の複数のタスクを同時に削除する  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-to-projects}}
 
-1. 「**プロジェクト**」をクリックします。
 1. 削除するタスクを含むプロジェクト名をクリックします。
 1. 左側のパネルの「**タスク**」をクリックします。
 1. 次のいずれかの操作を行います。
@@ -170,9 +169,8 @@ ht-degree: 92%
 
 ### 単一のタスクの削除 {#delete-a-single-task}
 
-1. Adobe Workfront の右上にある&#x200B;**メインメニュー**&#x200B;アイコン（![](assets/main-menu-icon.png)）をクリックします。
+{{step1-to-projects}}
 
-1. 「**プロジェクト**」をクリックします。
 1. 削除するタスクを含むプロジェクト名をクリックします。
 1. 左側のパネルの「**タスク**」をクリックします。
 1. 削除するタスクの名前をクリックします。

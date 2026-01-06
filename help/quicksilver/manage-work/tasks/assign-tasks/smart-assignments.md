@@ -7,7 +7,7 @@ description: タスクとイシューの割り当てを管理する場合、ス�
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 77%
@@ -43,23 +43,23 @@ ht-degree: 77%
 
 * 割り当て列のイシューのリストまたはレポート
 
-  ![&#x200B; 問題リストの割り当て列 &#x200B;](assets/smart-assignments-issue-list.png)
+  ![ 問題リストの割り当て列 ](assets/smart-assignments-issue-list.png)
 
 * 割り当て列のタスク リストまたはレポート
 
-  ![&#x200B; 「タスク・リストの割当て」列 &#x200B;](assets/smart-assignments-task-list.png)
+  ![ 「タスク・リストの割当て」列 ](assets/smart-assignments-task-list.png)
 
 * 「割り当て」フィールドのタスクヘッダー
 
-  ![&#x200B; タスク ヘッダーの [ 割り当て ] フィールド &#x200B;](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![ タスク ヘッダーの [ 割り当て ] フィールド ](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 「割り当て」フィールドのイシューヘッダー
 
-  ![&#x200B; 問題ヘッダー割り当てフィールド &#x200B;](assets/smart-assignments-issue-header.png)
+  ![ 問題ヘッダー割り当てフィールド ](assets/smart-assignments-issue-header.png)
 
 * 割り当てエリアのタスクまたはイシューの概要パネル
 
-  ![&#x200B; 概要パネルの割り当て領域 &#x200B;](assets/issue-assignments-summary-panel.png)
+  ![ 概要パネルの割り当て領域 ](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -73,7 +73,7 @@ ht-degree: 77%
 
 * タスクまたはイシューを割り当てる際のこの割り当て先エリアのワークロードバランサー
 
-  ![&#x200B; ワークロードバランサーの「割り当て」領域 &#x200B;](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  ![ ワークロードバランサーの「割り当て」領域 ](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## スマート割り当て条件
 
@@ -144,7 +144,7 @@ Workfrontは、イシューに対して計算するのと同じ方法で、タ�
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![&#x200B; スマート割り当ての例 &#x200B;](assets/smart-assignments-issue-header.png)
+![ スマート割り当ての例 ](assets/smart-assignments-issue-header.png)
 
 次の条件の組み合わせに基づいて、スマート割り当てドロップダウンリストでユーザー候補が提示されます（最も重要候補から最も重要でない候補の順に表示されます）。
 
@@ -192,7 +192,7 @@ Workfrontは、イシューに対して計算するのと同じ方法で、タ�
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Make smart assignments</h2>
-<p>(NOTE:&nbsp;this was moved to its own article: make-smart-assignments.) </p>
+<p>(NOTE: this was moved to its own article: make-smart-assignments.) </p>
 <p>Smart assignments are available in most locations where you can make assignments in Workfront.</p>
 <p>You can use smart assignments on tasks and issues that have previously been assigned to a job role or a team.</p> <note type="note">
 You must have a Plan or a Work license and have at least Contribute permissions to a task or an issue to be able to make assignments to the task or the issue. You must have the Make Assignments option enabled in your permission level to make assignments.

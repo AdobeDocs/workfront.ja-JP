@@ -6,10 +6,10 @@ description: タスクの予定コストと実際のコスト、およびそれ�
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 プロジェクト内の個々のタスクに対してコストタイプを設定できます。各コストタイプは、予定コストと実際のコストの値に影響を与えます。
 
-Adobe Workfront でのコストの追跡について詳しくは、[コストを追跡](../../../manage-work/projects/project-finances/track-costs.md)を参照してください。
+Adobe Workfrontでのコストの追跡について詳しくは、[ コストの追跡 ](../../../manage-work/projects/project-finances/track-costs.md) を参照してください。
 
 ## アクセス要件
 
@@ -69,7 +69,7 @@ Adobe Workfront でのコストの追跡について詳しくは、[コストを
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects, Tasks, and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects, Tasks, and Financial Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 

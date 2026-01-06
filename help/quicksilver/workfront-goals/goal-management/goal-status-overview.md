@@ -7,10 +7,10 @@ description: 目標ステータスは、目標がアクティブで現在の進�
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 94%
+ht-degree: 90%
 
 ---
 
@@ -58,9 +58,9 @@ ht-degree: 94%
   | クローズ | いいえ | はい | いいえ | - |
 
 * クローズした目標を開くと、目標の進行状況も更新されます。
-* 目標に対して実行する特定のアクションのステータスも更新されます。目標ステータスを更新する方法について詳しくは、次の記事を参照してください。
+* 目標に対して実行する特定のアクションでも、そのステータスが更新されます。 目標ステータスの更新方法について詳しくは、次の記事を参照してください。
 
-   * [Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)
+   * [Adobe Workfront Goals で目標を作成](../../workfront-goals/goal-management/create-goals.md)
    * [Adobe Workfront Goals での目標のアクティブ化](../../workfront-goals/goal-management/activate-goals.md)
    * [Adobe Workfront Goals での目標の削除と非アクティブ化](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
    * [Adobe Workfront Goals での目標のクローズと再オープン](../../workfront-goals/goal-management/close-and-reopen-goals.md)

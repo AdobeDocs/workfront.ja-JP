@@ -7,10 +7,10 @@ description: 投資回収率（ROI）は、ポートフォリオマネージャ�
 author: Lisa
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 100%
+ht-degree: 74%
 
 ---
 
@@ -31,16 +31,16 @@ Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budge
 * **プロジェクト予定利益**：これは、ビジネスケースのプロジェクト情報エリアに入力する際にプロジェクト所有者が指定する手動エントリです。これは、プロジェクトを完了した場合にプロジェクトに生じる利益のプロジェクト所有者による推定値です。これは特定の金額の通貨で、正の値にする必要があります。\
   プロジェクトの予定利益について詳しくは、[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)の記事の「プロジェクト情報」の節を参照してください。
 
-* **プロジェクトの予算計上コスト**：プロジェクトの立ち上げ当初に見積もった、プロジェクトに関連する合計コストです。
+* **プロジェクト予算コスト**：これは、プロジェクトを最初に起動したときに見積もられた、プロジェクトに関連するコストの合計です。
 
-  **予算計上コスト**&#x200B;は、ビジネスケースのリソース予算計上のエリアで計算された&#x200B;**予算計上労力コスト**&#x200B;の値を使用します。この値には、リソースプランナーで担当業務に予算計上された時間と、それぞれの担当業務の 1 時間あたりのコストが考慮されます。\
+  **予算計上コスト** では、ビジネス ケースのリソース予算計上エリアで計算された **予算計上労力コスト** の値を使用し、リソース プランナの担当業務に予算計上された時間と、各担当業務の時間当たりのコスト率が考慮されます。\
   詳しくは、[予算計上コストの計算](../../../manage-work/projects/project-finances/budgeted-cost.md)を参照してください。
 
 ## プロジェクト投資回収率（ROI）の検索
 
 Workfront の次のエリアで、プロジェクトの ROI の値を表示できます。
 
-* ポートフォリオオプティマイザー（プロジェクトがポートフォリオに関連付けられている場合）
+* Portfolioオプティマイザー（プロジェクトがポートフォリオに関連付けられている場合）
 
   >[!NOTE]
   >
@@ -48,11 +48,11 @@ Workfront の次のエリアで、プロジェクトの ROI の値を表示で�
 
   ポートフォリオオプティマイザーについて詳しくは、[ポートフォリオオプティマイザーの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)の記事を参照してください。
 
-* 次のリストとレポートに「プロジェクト ROI」フィールドがあります。
+* 次のリストおよびレポートの「プロジェクト ROI」フィールド：
 
    * プロジェクト
    * タスク
    * イシュー
    * プロジェクト（財務データ）
 
-  Workfront でのレポート作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事を参照してください。
+  Workfront でのレポート作成について詳しくは、「[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)」の記事を参照してください。

@@ -6,9 +6,9 @@ description: プログラムとは、プロジェクトの境界を越えて共�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1244'
 ht-degree: 76%
 
 ---
@@ -104,13 +104,13 @@ Workfrontでプログラムを作成するには、次のいずれかの方法�
 
   Workfront Planning パッケージを追加する必要があります。
 
-  Adobe Workfront Planning へのアクセスについて詳しくは、[Workfront Planning へのアクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+  Adobe Workfront Planning へのアクセスについて詳しくは、[Workfront Planning へのアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
-  レコードにポートフォリオを追加してポートフォリオを作成する方法については、「レコードの作成 [&#x200B; に関する記事の「接続時にレコードを作成する」を参照し &#x200B;](/help/quicksilver/planning/records/create-records.md) ください。
+  レコードにポートフォリオを追加してポートフォリオを作成する方法については、「レコードの作成 [ に関する記事の「接続時にレコードを作成する」を参照し ](/help/quicksilver/planning/records/create-records.md) ください。
 
 ## プログラムを作成
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックして、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
+{{step1-click-main-menu}}
 
 1. 次のいずれかの操作を行います。
 
@@ -184,7 +184,7 @@ Workfrontでプログラムを作成するには、次のいずれかの方法�
    プログラムへのプロジェクトの追加については、[プログラムへのプロジェクトの追加](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)を参照してください。
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
-1. （オプション）プログラム名の横にある **[!UICONTROL その他メニュー]**![&#x200B; その他メニュー &#x200B;](assets/more-icon.png) をクリックし、**[!UICONTROL プログラムのアクティベートを解除]** をクリックします。
+1. （オプション）プログラム名の横にある **[!UICONTROL その他メニュー]**![ その他メニュー ](assets/more-icon.png) をクリックし、**[!UICONTROL プログラムのアクティベートを解除]** をクリックします。
 
    プログラムのアクティブ化を解除した場合は、そのプログラムをユーザーがプロジェクトに追加しようとしても、プログラムはプログラムリストに表示されなくなります。[!UICONTROL プログラム]エリアからは、このプログラムに引き続きアクセスできます。
 

@@ -7,10 +7,10 @@ description: 関連性がなくなった場合は、Adobe Workfront Goals の目
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 79%
+source-wordcount: '646'
+ht-degree: 83%
 
 ---
 
@@ -187,11 +187,9 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-   これにより、Workfront 目標エリアが開き、デフォルトで目標リストが表示されます。
+これにより、Workfront 目標エリアが開き、デフォルトで目標リストが表示されます。
 
 1. 結果とアクティビティを削除する目標の名前をクリックします。
 
@@ -199,7 +197,7 @@ How you delete results and activities differs depending on the environment you u
 
 1. 左パネルの「**進行状況インジケーター**」をクリックします。
 
-1. 結果またはアクティビティを選択し、リスト上部の **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+1. 結果またはアクティビティを選択し、リスト上部の **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
 
 1. 「**削除**」をクリックして削除を確定します。結果またはアクティビティは削除され、復元できません。目標の完了率が更新され、削除されたアクティビティまたは結果が除外されます。
 
@@ -232,18 +230,15 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. 右上隅で&#x200B;**メインメニュー**&#x200B;アイコン、「**目標**」の順にクリックします。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   これにより、Workfront 目標エリアが開き、デフォルトで目標リストが表示されます。
+これにより、Workfront 目標エリアが開き、デフォルトで目標リストが表示されます。
 
 1. 結果とアクティビティを削除する目標の名前をクリックします。
 
    目標ページが開きます。
 1. 左パネルの「**進行状況インジケーター**」をクリックします。
-1. プロジェクトを選択し、リストの上部にある **切断** アイコン ![&#x200B; 切断アイコン &#x200B;](assets/disconnect-icon.png) をクリックします。
+1. プロジェクトを選択し、リストの上部にある **切断** アイコン ![ 切断アイコン ](assets/disconnect-icon.png) をクリックします。
 1. 「**連携解除**」をクリックして確定します。
 
    プロジェクトは目標に接続されていません。目標の完了率が更新され、連携解除されたプロジェクトが除外されます。

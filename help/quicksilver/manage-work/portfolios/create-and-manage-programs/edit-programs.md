@@ -6,10 +6,10 @@ description: 自分が作成したプログラムに関する情報を編集で�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 56%
+ht-degree: 53%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 56%
    >
    >プログラムに関するすべての情報を編集する場合は、手順 4 に進みます。
 
-   ![&#x200B; カスタムフォームセクションを使用したプログラムの詳細 &#x200B;](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![ カスタムフォームセクションを使用したプログラムの詳細 ](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -79,10 +79,10 @@ ht-degree: 56%
    「[!UICONTROL 詳細]」セクションの情報を編集するには、以下を行います。
 
    1. （オプション）右上隅の&#x200B;**[!UICONTROL すべて折りたたむ]**&#x200B;アイコンをクリックして、すべてのエリアを折りたたみます。
-   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![&#x200B; 右向き矢印 &#x200B;](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
+   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![ 右向き矢印 ](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
    1. 「[!UICONTROL プログラムの詳細]」セクションに表示されるフィールドについては、以下に説明するように、引き続き[!UICONTROL プログラムの編集]ボックスでプログラムを編集します。
-   1. （オプション）プログラムにカスタムフォームが添付されていない場合は、「**[!UICONTROL カスタムフォームを追加]**」フィールドにフォームの名前を入力していき、リストに名前が表示されたら選択して、「**[!UICONTROL 変更を保存]**」をクリックします。
-   1. （オプション） **[!UICONTROL 書き出し]** アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックして、[!UICONTROL &#x200B; 概要 &#x200B;] とカスタムフォームの情報をPDF ファイルに書き出し、「**[!UICONTROL 書き出し]**」をクリックします。 次の中から選択します。
+   1. （オプション）プログラムに添付されているカスタムフォームがない場合は、「**[!UICONTROL カスタムフォームを追加]**」フィールドにフォームの名前を入力し始め、リストに表示されたら選択して、「**[!UICONTROL 変更を保存]**」をクリックします。
+   1. （オプション） **[!UICONTROL 書き出し]** アイコン ![ 書き出しアイコン ](assets/export.png) をクリックして、[!UICONTROL  概要 ] とカスタムフォームの情報をPDF ファイルに書き出し、「**[!UICONTROL 書き出し]**」をクリックします。 次の中から選択します。
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
       * [!UICONTROL 概要]
@@ -90,19 +90,19 @@ ht-degree: 56%
 
       PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-      ![&#x200B; ポートフォリオ詳細のエクスポート &#x200B;](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![ ポートフォリオ詳細のエクスポート ](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       詳しくは、[カスタムフォームとオブジェクト詳細の書き出し](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
 
 1. 1 つ以上のプログラムに関するすべての情報を編集するには、次のいずれかを行います。
 
-   * プログラム名の横にある **[!UICONTROL その他]** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-icon.png) をクリックし、**[!UICONTROL 編集 &#x200B;] をクリックします**。
-   * プログラムの一覧に移動して、編集する 1 つ以上のプログラムを選択し、一覧の上部にある **[!UICONTROL 編集]** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+   * プログラム名の横にある **[!UICONTROL その他]** メニュー ![ その他メニュー ](assets/more-icon.png) をクリックし、**[!UICONTROL 編集 ] をクリックします**。
+   * プログラムの一覧に移動して、編集する 1 つ以上のプログラムを選択し、一覧の上部にある **[!UICONTROL 編集]** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
      **[!UICONTROL プログラムを編集]** ボックスが表示されます。
 
-     ![&#x200B; プログラムを編集ボックス &#x200B;](assets/edit-program-0925.png)
+     ![ プログラムを編集ボックス ](assets/edit-program-0925.png)
 
      すべてのプログラムフィールドが[!UICONTROL プログラムの編集]ボックスで使用でき、左パネルに表示されたエリアにグループ化されています。
 
@@ -115,7 +115,7 @@ ht-degree: 56%
 
    >[!TIP]
    >
-   >複数のプログラムのカスタムフィールドを一度に再計算するには、リスト内の複数のプログラムを選択し、リストの上部にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-icon.png) をクリックしてから、**式を再計算** をクリックします。
+   >複数のプログラムのカスタムフィールドを一度に再計算するには、リスト内の複数のプログラムを選択し、リストの上部にある **その他** メニュー ![ その他のメニュー ](assets/more-icon.png) をクリックしてから、**式を再計算** をクリックします。
 
 ### [!UICONTROL 概要] {#overview}
 
@@ -123,7 +123,7 @@ ht-degree: 56%
 1. 「**[!UICONTROL 概要]**」をクリックし、以下のフィールドを指定します。
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;note below drafted for now)</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: note below drafted for now)</p>
    -->
 
    <!--
@@ -151,7 +151,7 @@ ht-degree: 56%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>グループがプログラムに関連付けられている場合や、プログラムを完了する責任がある場合は、1 つのグループの名前を追加します。 </p> <p><b>ヒント</b></p>  <p>[!UICONTROL プログラムの詳細 &#x200B;] ページから [!UICONTROL グループ &#x200B;] フィールドにアクセスする場合は、次の手順を実行して適切なグループを選択していることを確認します。 </p> <p>グループ名の上にマウスポインターを置き、その横にある [!UICONTROL information] アイコン <img src="assets/info-icon.png"> をクリックします。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>このオプションは、[!UICONTROL Edit Program]ボックスでは使用できません。 </p> </p> </td> 
+      <td> <p>グループがプログラムに関連付けられている場合や、プログラムを完了する責任がある場合は、1 つのグループの名前を追加します。 </p> <p><b>ヒント</b></p>  <p>[!UICONTROL プログラムの詳細 ] ページから [!UICONTROL グループ ] フィールドにアクセスする場合は、次の手順を実行して適切なグループを選択していることを確認します。 </p> <p>グループ名の上にマウスポインターを置き、その横にある [!UICONTROL information] アイコン <img src="assets/info-icon.png"> をクリックします。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>このオプションは、[!UICONTROL Edit Program]ボックスでは使用できません。 </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -174,7 +174,7 @@ ht-degree: 56%
 
    >[!NOTE]
    >
-   >[!DNL Workfront] 管理者がカスタムフォームのセクションの権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰でも表示または編集できるとは限りません。カスタムフォームのセクション内のフィールドを編集する権限は、プログラム自体に対する権限によって異なります。カスタムフォームのセクションに対する権限の設定について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+   >[!DNL Workfront] 管理者がカスタムフォームのセクションの権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰でも表示または編集できるとは限りません。カスタムフォームのセクション内のフィールドを編集する権限は、プログラム自体に対する権限によって異なります。カスタムフォームのセクションに対する権限の設定について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 1. カスタムフォームのフィールドを更新して、「**[!UICONTROL 保存]** をクリックするか、次の節を続行します。
 
@@ -183,7 +183,7 @@ ht-degree: 56%
 1. 上記の説明に従って、プログラムの編集を開始します。
 1. 「**[!UICONTROL コメント]**」をクリックします。
 
-   ![&#x200B; プログラムを編集ボックスの「コメント」ボックス &#x200B;](assets/comment-box-on-edit-program.png)
+   ![ プログラムを編集ボックスの「コメント」ボックス ](assets/comment-box-on-edit-program.png)
 
 1. 「**[!UICONTROL 各プログラムに更新を追加]**」フィールドにコメントを追加します。
 1. （オプション）**[!UICONTROL ユーザー]**&#x200B;アイコンをクリックして、コメントにユーザーまたはチームを追加します。
@@ -203,7 +203,7 @@ ht-degree: 56%
 プログラムを一括編集すると、更新したすべての情報は選択したすべてのプログラムに適用され、各プログラムの元の情報は上書きされます。
 
 1. プログラムのリストに移動し、いくつかのプログラムを選択します。
-1. リスト上部の **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. リスト上部の **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    **プログラムを編集** ボックスが開きます。
 1. 次の節の情報を更新します。
@@ -212,5 +212,5 @@ ht-degree: 56%
    * カスタムフォーム
    * コメント
 
-   詳細については、この記事の手順 4 から始まる [&#x200B; プログラムの編集 &#x200B;](#edit-programs-1) を参照してください。<!--ensure this stays accurate-->
+   詳細については、この記事の手順 4 から始まる [ プログラムの編集 ](#edit-programs-1) を参照してください。<!--ensure this stays accurate-->
 

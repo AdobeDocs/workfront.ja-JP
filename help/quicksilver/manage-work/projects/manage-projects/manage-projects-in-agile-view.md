@@ -6,7 +6,7 @@ description: アジャイル機能は、アジャイル手法（チームバッ�
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 42%
@@ -21,7 +21,7 @@ ht-degree: 42%
 
 チームバックログを使用するアジャイル環境で作業し、バックログのタスクから反復を作成できます。
 
-詳しくは、[&#x200B; アジャイル環境での作業 &#x200B;](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md) を参照してください。
+詳しくは、[ アジャイル環境での作業 ](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md) を参照してください。
 
 ## アクセス要件
 
@@ -84,7 +84,7 @@ ht-degree: 42%
     <ul> 
      <li> <p>Projects</p> </li> 
      <li> <p>Reports, Dashboards, Calendars</p> </li> 
-     <li> <p>Filters, Views,&nbsp;Groupings</p> </li> 
+     <li> <p>Filters, Views, Groupings</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -111,6 +111,6 @@ ht-degree: 42%
 
    詳しくは、[ボード列の管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)と[カードに表示されるフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)を参照してください。プロジェクトのボードビューでは列ポリシーを定義できないことに注意してください。
 
-1. （オプション）リスト表示に戻るには、「**リスト** アイコン ![&#x200B; リストアイコン &#x200B;](assets/list-icon.png) をクリックします。
+1. （オプション）リスト表示に戻るには、「**リスト** アイコン ![ リストアイコン ](assets/list-icon.png) をクリックします。
 
    タスクまたは問題のリストが表示されます。

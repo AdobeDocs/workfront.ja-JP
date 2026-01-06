@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
@@ -71,7 +71,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>プロジェクト、タスク、イシュー、および財務データに対する表示以上のアクセス権</p>  </td> 
+   <td> <p>プロジェクト、タスク、問題、および財務データへの表示以上のアクセス</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -117,7 +117,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 ## すべての共有レベルに対する財務の権限
 
-次の表に、オブジェクトに対する表示、参加、管理の権限をユーザーに付与した場合に、ユーザーに与えられる財務の権限を示します。
+次の表に、オブジェクトに対する表示、投稿、または管理の権限をユーザーに付与した場合に、ユーザーが取得できる財務権限を示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -136,26 +136,26 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td>請求記録の管理</td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
+   <td> <p>  </p> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>役割の請求レートとコスト率の管理と表示</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>ユーザー請求レートとコスト率の管理と表示</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>財務情報を表示</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
    <td>リソース計画ツールでコスト別に情報を表示する</td> 
@@ -166,8 +166,8 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td>リソース計画ツールでリソース予算計上*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>リソース計画ツールでのリソースの表示*</td> 

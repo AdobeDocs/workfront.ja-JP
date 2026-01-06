@@ -7,10 +7,10 @@ description: 残存作業時間の優先は、Adobe Workfront のタスクに設
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 ## 残存作業時間の優先の期間タイプの概要
 
-Workfront またはグループ管理者は、システムまたはグループのデフォルトの期間タイプを残存作業時間の優先に設定できます。この場合、すべての新しいタスクは、この期間タイプで作成されます。システムレベルまたはグループレベルのプロジェクト環境設定の一部として、タスクやイシューの環境設定を変更する方法については、[システム全体のタスクとイシュー環境を設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+Workfrontまたはグループ管理者は、システムまたはグループのデフォルトの期間タイプを作業量に基づいて設定できます。 この場合、すべての新しいタスクはこの期間タイプで作成されます。 システムレベルまたはグループレベルのプロジェクト環境設定の一部として、タスクやイシューの環境設定を変更する方法については、[システム全体のタスクとイシュー環境を設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
 このシナリオでは、プロジェクトマネージャーとして、タスクが実際に残存作業時間の優先のタスクかどうかを検討する時間を取らない限り、プロジェクトプランが恣意的に短縮されるリスクがあります。
 

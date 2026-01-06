@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> 
+   <p>Work またはそれ以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 * プロジェクトを共有する場合、特に指定のない限り、すべてのタスク、イシューおよびドキュメントは同じ権限を継承します。
 
-  プロジェクトに対するユーザーの権限に基づいてプロジェクトでのタスクやイシューへのアクセス権を管理する方法について詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事で[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)の節を参照してください。
+  プロジェクトに対するユーザーの権限に基づいてプロジェクトでのタスクやイシューへのアクセス権を管理する方法について詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事で[](../../manage-work/projects/manage-projects/edit-projects.md#access)の節を参照してください。
 
   Workfront 管理者は、ドキュメントがユーザーのアクセスレベルの上位のオブジェクトから権限を継承するかどうかを指定できます。ドキュメントに対する継承された権限の制限について詳しくは、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
@@ -94,14 +94,14 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 * 次のいずれかの操作を行って手動で操作：
 
    * プロジェクトチームにユーザーを追加。プロジェクトチームにユーザーを追加すると、プロジェクトに対する表示権限が自動的に取得されます。\
-     プロジェクトチームへのユーザーの追加について詳しくは、「プロジェクトチームの概要 [&#x200B; のプロジェクトチームへのユーザーの追加の節を参照してください &#x200B;](../../manage-work/projects/planning-a-project/project-team-overview.md)
+     プロジェクトチームへのユーザーの追加について詳しくは、「プロジェクトチームの概要 [ のプロジェクトチームへのユーザーの追加の節を参照してください ](../../manage-work/projects/planning-a-project/project-team-overview.md)
    * プロジェクトを個別に、または一括で共有（「**共有**」オプションを使用する場合）。
 
 * 次のいずれかの操作を行って自動的に行います。
 
    * 既に他のユーザーと共有されている&#x200B;**ポートフォリオ**&#x200B;または&#x200B;**プログラム**&#x200B;にプロジェクトを配置。ポートフォリオやプログラムに対してユーザーが持っている権限と同じ権限を、プロジェクトに対しても取得します。\
      プロジェクトを&#x200B;**ポートフォリオ**&#x200B;に追加する方法について詳しくは、[ポートフォリオへのプロジェクトの追加](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)を参照してください。\
-     プロジェクトを **プログラム** に追加する方法については、[&#x200B; プロジェクトをプログラムに追加 &#x200B;](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) を参照してください。
+     プロジェクトを **プログラム** に追加する方法については、[ プロジェクトをプログラムに追加 ](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) を参照してください。
 オブジェクトに対する継承された権限の表示について詳しくは、[オブジェクトで継承された権限の表示](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)を参照してください。
 
    * プロジェクトの作成に使用したテンプレートで、プロジェクト共有にエンティティを追加します。テンプレートからプロジェクトを共有する方法については、[テンプレートを共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
@@ -111,7 +111,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
      >
      >テンプレートを添付または保存する際に、テンプレートプロジェクト共有ルールをクリアできます。
 
-   * プロジェクトを編集し、**このプロジェクトへのアクセス権が付与されたユーザーに**&#x200B;の設定を定義。詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
+   * プロジェクトを編集し、「**このプロジェクトへのアクセス権が付与された場合** 設定を定義します。  詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -127,7 +127,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch. (NOTE: drafted because linked above)&nbsp;</li>
+<li value="1">Go to a project whose sharing permissions you want for all projects you create from scratch. (NOTE: drafted because linked above)  </li>
 <li value="2"> Click the More menu, then click <strong>Sharing</strong>. </li>
 <li value="3"> <p>In the Project Access box that displays, near the upper-right corner, click the gear icon <img src="assets/gear-icon-settings.png">, then click <strong>Set as my project access template</strong>.</p> <p>The entities that are granted permissions on the selected project have the same permissions for all the projects you create from scratch in the future.</p> <p> The project access template overrides the sharing defaults granted to you by the Workfront administrator in your Access Level.<br>For more information about specifying sharing defaults for projects in the Access Level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> </li>
 <li value="4">Click <strong>Save</strong>.</li>
@@ -142,7 +142,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. プロジェクト名の右側にある「**共有**」をクリックします。 **共有 [ プロジェクト名]** ダイアログボックスが開きます。
 
-   ![&#x200B; プロジェクトを共有ボタン &#x200B;](assets/share-project.png)
+   ![ プロジェクトを共有ボタン ](assets/share-project.png)
 
 1. 「**プロジェクトアクセスの許可**」フィールドに、プロジェクトを共有するユーザー、チーム、役割、グループまたは会社の名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
@@ -156,7 +156,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    * **招待されたユーザーのみがアクセスできます：** プロジェクトに招待されたユーザーのみがプロジェクトにアクセスできます（デフォルト）。
    * **システム内の全員が閲覧可能**：システム内のすべてのユーザーが招待なしにプロジェクトを閲覧できます。
 
-1. （任意）選択したプロジェクトアクセス設定をすべての新規プロジェクトに自動的に適用するには、**歯車** アイコン ![&#x200B; 歯車アイコンを選択 &#x200B;](assets/gear-icon.png) をクリックし、「自分のプロジェクトアクセステンプレートとして設定 **とインラインでチェックボックスをオンにします**。
+1. （任意）選択したプロジェクトアクセス設定をすべての新規プロジェクトに自動的に適用するには、**歯車** アイコン ![ 歯車アイコンを選択 ](assets/gear-icon.png) をクリックし、「自分のプロジェクトアクセステンプレートとして設定 **とインラインでチェックボックスをオンにします**。
 
    >[!NOTE]
    >
@@ -176,7 +176,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. （任意）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、プロジェクトに対する特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-permission-options.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-permission-options.png)
 
 1. （任意）リンクを使用してプロジェクトをすばやく共有するには、「**リンクをコピー**」をクリックして受信者に転送します。
 
@@ -186,9 +186,9 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 {{step1-to-projects}}
 
-1. **プロジェクト** ページで、共有する各プロジェクトの左側にあるボックスを選択し、ページ上部にある **共有** アイコン ![&#x200B; 共有アイコン &#x200B;](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
+1. **プロジェクト** ページで、共有する各プロジェクトの左側にあるボックスを選択し、ページ上部にある **共有** アイコン ![ 共有アイコン ](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
 
-   ![&#x200B; プロジェクトの一括共有 &#x200B;](assets/bulk-share-icon.png)
+   ![ プロジェクトの一括共有 ](assets/bulk-share-icon.png)
 
 1. 「**プロジェクトアクセスの許可**」フィールドに、プロジェクトを共有するユーザー、チーム、役割、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
@@ -211,7 +211,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. （任意）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、プロジェクトに対する特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-permission-options.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-permission-options.png)
 
 1. 「**保存**」をクリックします。
 
@@ -220,18 +220,18 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Configure default permissions for a project</h2>
 <p>(NOTE: drafted because I added one more way to automatically share the project above in the bullet list and linked it to Edit Projects) </p>
-<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing&nbsp;the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#ways-to-share-a-project" class="MCXref xref">Ways to share a project</a>. </p>
+<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing  the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#ways-to-share-a-project" class="MCXref xref">Ways to share a project</a>. </p>
 <p>To configure the default permissions that are included with each access level:</p>
 <ol>
 <li value="1">Go to the project where you want to set the default permissions.</li>
 <li value="2"> <p>Click the More menu <img src="assets/more-icon.png">, then click <strong>Edit</strong>. <img src="assets/edit-icon.png"></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 <li value="3">Click <strong>Access</strong> in the list on the left.</li>
-<li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#Understanding_Project_Permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
+<li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see  <a title="Project Permissions" href="#Understanding_Project_Permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
 The
 <strong>Delete</strong> access in the
-<strong>Manage</strong> permission level determines whether users can&nbsp;delete the project itself. Users with
+<strong>Manage</strong> permission level determines whether users can  delete the project itself. Users with
 <strong>Manage</strong> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have
-<strong>Manage</strong> permissions to the tasks and issues.&nbsp;
+<strong>Manage</strong> permissions to the tasks and issues.  
 </note> </li>
 <li value="5">Click <strong>Save Changes</strong>.</li>
 </ol>
@@ -259,20 +259,20 @@ The
   <tr> 
    <td> <p>カスタムフォームを追加</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>カスタムフィールドを更新</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>承認プロセスを追加</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>プロジェクトを承認</p> </td> 
@@ -283,14 +283,14 @@ The
   <tr> 
    <td> <p>時間を承認</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>✓  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>プロジェクトを作成</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>ドキュメントを追加</p> </td> 
@@ -308,25 +308,25 @@ The
    <td> <p>タスクを追加</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>プロジェクトのコピー</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>プロジェクトの削除</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>予定日の変更</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>プロジェクトを共有</p> </td> 
@@ -336,8 +336,8 @@ The
   </tr> 
   <tr> 
    <td> <p>システム全体で共有</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
@@ -355,44 +355,44 @@ The
   <tr> 
    <td> <p>ステータスの変更</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>時間の記録</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>割り当ての編集</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>ベースラインを管理</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>リスクを管理*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>財務の管理*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>費用を追加／編集*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>財務情報を表示*</p> </td> 
@@ -403,8 +403,8 @@ The
   <tr> 
    <td> <p>テンプレートを添付</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>テンプレートとして保存</p> </td> 
@@ -415,20 +415,20 @@ The
   <tr> 
    <td> <p>ビジネスケースを追加／編集</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>プロジェクト詳細を編集</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>スタッフを編集</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>MS Project にエクスポートする</p> </td> 
@@ -439,20 +439,20 @@ The
   <tr> 
    <td> <p>財務／タイムラインを再計算*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>キューのプロパティを設定</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>    </p> </td> 
   </tr> 
   <tr> 
    <td> <p>リストでプロジェクトを一括編集</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
  </tbody> 
 </table>

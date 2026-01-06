@@ -6,10 +6,10 @@ description: CEO、マネージャー、または個人の投稿者であって�
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 84%
+source-wordcount: '635'
+ht-degree: 88%
 
 ---
 
@@ -219,17 +219,15 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+目標リストが表示されます。
 
-   目標リストが表示されます。
 1. 「**新しい目標**」をクリックします。
 
    「新しい目標」ボックスが表示されます。
 
-   ![&#x200B; 新しい目標ボックス &#x200B;](assets/new-goal-box-unshimmed.png)
+   ![ 新しい目標ボックス ](assets/new-goal-box-unshimmed.png)
 
 1. 次のフィールドに情報を入力します。
    * **目標名**：目標の名前を入力します。必須フィールドです。

@@ -6,10 +6,10 @@ description: 必要がなくなった場合は、プログラムからプロジ�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontのドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください
+*詳しくは、[Workfrontのドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください
 
 +++
 
@@ -88,11 +88,11 @@ ht-degree: 91%
 1. プログラムに移動し、左側のパネルで「**[!UICONTROL プロジェクト]**」をクリックします。
 
 1. 削除するプロジェクトを選択
-1. **[!UICONTROL プロジェクトの削除]**&#x200B;ドロップダウンメニューをクリックします。
-1. **[!UICONTROL 削除]**／**[!UICONTROL はい、削除します]**&#x200B;をクリックして、Workfront からプロジェクトを削除します。
+1. **[!UICONTROL プロジェクトを削除]** ドロップダウンメニューをクリックします。
+1. **[!UICONTROL 削除]**/**[!UICONTROL はい、削除]** をクリックして、Workfrontからプロジェクトを削除します。
 
    または
 
-   「**[!UICONTROL プログラムから]**&#x200B;**[!UICONTROL 削除]**」をクリックして、選択したプログラムから削除します。
+   「**[!UICONTROL プログラムから]****[!UICONTROL 削除]**」をクリックして、選択したプログラムから削除します。
 
    「[!UICONTROL プログラムから削除]」をクリックした場合、プロジェクトは選択したプログラムと関連付けられなくなります。

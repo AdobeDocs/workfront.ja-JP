@@ -7,10 +7,10 @@ description: テンプレートを作成した後、テンプレートタスク�
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '4633'
-ht-degree: 75%
+ht-degree: 74%
 
 ---
 
@@ -52,7 +52,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>Standard</p>
+   <td> <p>標準</p>
    <p>プラン </p></td> 
   </tr> 
   <tr> 
@@ -118,8 +118,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    1. （任意）左側のパネルで **ドキュメント** をクリックして、ドキュメントをテンプレートタスクに追加します。 テンプレートを使用してプロジェクトを作成すると、ドキュメントはプロジェクトタスクに転送されます。
    1. （条件付き）テンプレートタスクに関する限られた情報を編集するには、左パネルで「**テンプレートタスクの詳細**」をクリックし、詳細セクションのエリアに移動して、それぞれのエリアの情報を編集します。
    1. （オプション）次のいずれかの操作を行います。
-      * **すべて折りたたむ** アイコン ![&#x200B; すべて折りたたむアイコン &#x200B;](assets/collapse-all-icon.png) をクリックすると、すべての領域が折りたたまれます。
-      * **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックして、下の任意の領域から選択するか、**すべて編集** をクリックして、すべての領域の情報を編集します。
+      * **すべて折りたたむ** アイコン ![ すべて折りたたむアイコン ](assets/collapse-all-icon.png) をクリックすると、すべての領域が折りたたまれます。
+      * **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックして、下の任意の領域から選択するか、**すべて編集** をクリックして、すべての領域の情報を編集します。
 
          * 概要
          * カスタムForms
@@ -130,27 +130,27 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
         >
         >「詳細」領域に表示されるすべてのフィールドについて詳しくは、以下に説明するように、「テンプレートタスクを編集」ボックスを使用してすべてのフィールドを引き続き編集します。
 
-   1. （任意）左側のパネルで「**サブタスク**」セクションをクリックして、テンプレートタスクの子を追加します。 テンプレートタスクのサブタスクの追加は、プロジェクトタスクのサブタスクの追加と似ています。 詳しくは、「サブタスクの作成」の「タスクサブタスクからサブタスクを作成する [&#x200B; 節を参照してくだ &#x200B;](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) い。
+   1. （任意）左側のパネルで「**サブタスク**」セクションをクリックして、テンプレートタスクの子を追加します。 テンプレートタスクのサブタスクの追加は、プロジェクトタスクのサブタスクの追加と似ています。 詳しくは、「サブタスクの作成」の「タスクサブタスクからサブタスクを作成する [ 節を参照してくだ ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) い。
    1. （任意）左側のパネルで **費用** をクリックし、テンプレートタスクに費用を追加します。 テンプレートタスクの費用は、テンプレートを使用してプロジェクトを作成する際に、将来のプロジェクトタスクに転送されます。
    1. （任意）左側のパネルの **承認** をクリックして承認を作成するか、テンプレートタスクにグローバルまたはグループレベルの承認を添付します。 承認は、今後のプロジェクトタスクに転送されます。
-   1. （任意）左側のパネルで「**先行タスク**」セクションをクリックして、テンプレートタスクの先行タスクを追加します。 テンプレートタスク先行タスクの追加は、プロジェクトタスク先行タスクの追加と似ています。 詳しくは、[&#x200B; 先行タスクエリアを使用した先行タスク関係の作成 &#x200B;](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md) を参照してください。
+   1. （任意）左側のパネルで「**先行タスク**」セクションをクリックして、テンプレートタスクの先行タスクを追加します。 テンプレートタスク先行タスクの追加は、プロジェクトタスク先行タスクの追加と似ています。 詳しくは、[ 先行タスクエリアを使用した先行タスク関係の作成 ](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md) を参照してください。
 
 1. （オプション）複数のテンプレートタスクを一括編集するには、複数のテンプレートタスクを選択して、テンプレートリストの上部にある「**編集**」をクリックします。
-1. （条件付き）テンプレートタスクに関するすべての情報、または複数のタスクに関するすべての情報を同時に編集するには、リストからタスクをクリックして選択し、リストの上部にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. （条件付き）テンプレートタスクに関するすべての情報、または複数のタスクに関するすべての情報を同時に編集するには、リストからタスクをクリックして選択し、リストの上部にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    新しいエクスペリエンスに **テンプレートタスクを編集** ボックスが表示されます。
 
-   ![&#x200B; テンプレートの編集タスクの新しいエクスペリエンス &#x200B;](assets/edit-template-task-box-unshimmed.png)
+   ![ テンプレートの編集タスクの新しいエクスペリエンス ](assets/edit-template-task-box-unshimmed.png)
 
    >[!TIP]
    >
    >また、リストでテンプレートタスクを選択し、ヘッダーのテンプレートタスク名の右側にある **編集** をクリックして **テンプレートタスクを編集** ボックスを開くこともできます。
 
-   この記事の [&#x200B; 新しいエクスペリエンスを使用したテンプレートタスクの編集 &#x200B;](#edit-a-template-task-using-the-new-experience) の節で説明しているように、テンプレートタスクの編集を続行します。
+   この記事の [ 新しいエクスペリエンスを使用したテンプレートタスクの編集 ](#edit-a-template-task-using-the-new-experience) の節で説明しているように、テンプレートタスクの編集を続行します。
 
 1. （オプション） **テンプレートタスクを編集** ボックスの下部にある **古いエクスペリエンスに切り替える** をクリックして、古いエクスペリエンスの **テンプレートタスクを編集** ボックスを開きます。
 
-   ![&#x200B; テンプレートタスクを編集 &#x200B;](assets/edit-template-tasks-box-classic-350x356.png)
+   ![ テンプレートタスクを編集 ](assets/edit-template-tasks-box-classic-350x356.png)
 
 1. 次のセクションのいずれかに情報を指定することを検討してください。
 
@@ -161,7 +161,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [カスタムフォーム](#custom-forms)
    * [コメント](#comment)
 
-1. この記事の [&#x200B; 古いエクスペリエンスを使用したテンプレートタスクの編集 &#x200B;](#edit-a-template-task-using-the-old-experience) の節で説明しているように、テンプレートタスクの編集を続行します。
+1. この記事の [ 古いエクスペリエンスを使用したテンプレートタスクの編集 ](#edit-a-template-task-using-the-old-experience) の節で説明しているように、テンプレートタスクの編集を続行します。
 
 ### 古いエクスペリエンスを使用したテンプレートタスクの編集
 
@@ -239,10 +239,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
      </tr> 
      <tr> 
       <td role="rowheader"><span style="font-weight: bold;">開始日</span><span style="font-weight: normal;">（オプションおよび条件付き）</span> </td> 
-      <td> <p> テンプレートのタスクの開始日は、タスク制約が次のいずれかの場合にのみ指定できます。</p> 
+      <td> <p> テンプレート タスクの開始日は、タスク制約が次のいずれかである場合にのみ指定できます。</p> 
        <ul> 
         <li>指定日に開始</li> 
-        <li>指定日以後に開始</li> 
+        <li>指定日以降に開始</li> 
         <li>指定日までに開始</li> 
         <li>固定日付</li> 
        </ul> <p>タスクが開始される将来のプロジェクトのタイムライン内の日付に対応します。その他のすべての制約については、Workfront がタスク間の先行タスクの依存関係に基づいて開始日を計算します。 </p> </td> 
@@ -318,7 +318,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. 「**設定**」をクリックします。
 
-   ![&#x200B; テンプレート タスク設定の編集 &#x200B;](assets/edit-template-tasks-settings-classic-350x231.png)
+   ![ テンプレート タスク設定の編集 ](assets/edit-template-tasks-settings-classic-350x231.png)
 
 1. 次のいずれかを更新します。
 
@@ -399,7 +399,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 #### カスタムフォーム {#custom-forms}
 
-タスクがプロジェクトに追加された際に、デフォルトでタスクに自動的に添付されるカスタムフォームを定義できます。 既定のタスクのカスタム フォームを含めるためのプロジェクトの設定については、「プロジェクトの編集 [&#x200B; の [ タスク ] セクションを参照し &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) ください。
+タスクがプロジェクトに追加された際に、デフォルトでタスクに自動的に添付されるカスタムフォームを定義できます。 既定のタスクのカスタム フォームを含めるためのプロジェクトの設定については、「プロジェクトの編集 [ の [ タスク ] セクションを参照し ](../../../manage-work/projects/manage-projects/edit-projects.md) ください。
 
 また、カスタムフォームをテンプレートタスクに追加することで、テンプレートからプロジェクトを作成する際に、プロジェクトの今後のタスクにカスタムフォームを追加することもできます。
 
@@ -412,7 +412,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    このフィールドで選択できるカスタムフォームを作成する必要があります。
 アクティブなカスタムフォームのみがリストに表示されます。
-カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 テンプレートタスクには最大 10 個のカスタムフォームを追加できます。
 フォームは、テンプレートから作成されたタスクに自動的に追加されます。
 1. （条件付きおよびオプション）テンプレートタスクにカスタム フォームを添付した場合は、フォーム上のフィールドを編集します。テンプレートタスクを保存する前に、すべての必須フィールドを指定する必要があります。
@@ -477,7 +477,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. 「**テンプレートタスクを編集**」ボックスで、左パネルの **概要** をクリックします。
 
-   ![&#x200B; テンプレートタスク編集の概要セクション &#x200B;](assets/template-task-edit-overview.png)
+   ![ テンプレートタスク編集の概要セクション ](assets/template-task-edit-overview.png)
 
 1. 次のいずれかを更新します。
 
@@ -519,10 +519,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
      </tr> 
      <tr> 
       <td role="rowheader"><span style="font-weight: bold;">開始日</span><span style="font-weight: normal;">（オプションおよび条件付き）</span> </td> 
-      <td> <p> テンプレートのタスクの開始日は、タスク制約が次のいずれかの場合にのみ指定できます。</p> 
+      <td> <p> テンプレート タスクの開始日は、タスク制約が次のいずれかである場合にのみ指定できます。</p> 
        <ul> 
         <li>指定日に開始</li> 
-        <li>指定日以後に開始</li> 
+        <li>指定日以降に開始</li> 
         <li>指定日までに開始</li> 
         <li>固定日付</li> 
        </ul> <p>タスクが開始される将来のプロジェクトのタイムライン内の日付に対応します。その他のすべての制約については、Workfront がタスク間の先行タスクの依存関係に基づいて開始日を計算します。 </p> </td> 
@@ -550,7 +550,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <li>大</li></ul>
 
    <p><b>重要</b></p>
-      <p>テンプレート タスクの編集時に [ 作業量 ] フィールドが表示されるのは、テンプレート タスクの編集時に &lbrack;<b> 作業量を使用してタスクの予定時間数を自動的に計算する </b> 設定を選択した場合のみです。</p>
+      <p>テンプレート タスクの編集時に [ 作業量 ] フィールドが表示されるのは、テンプレート タスクの編集時に [<b> 作業量を使用してタスクの予定時間数を自動的に計算する </b> 設定を選択した場合のみです。</p>
 
    </td> 
      </tr> 
@@ -568,7 +568,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. 「**テンプレートタスクを編集**」ボックスで、左パネルの **割り当て** をクリックします。
 
-   ![&#x200B; テンプレート タスク編集割り当て &#x200B;](assets/template-task-edit-assignments.png)
+   ![ テンプレート タスク編集割り当て ](assets/template-task-edit-assignments.png)
 
 1. 「**ユーザー、役割、チームを検索**」フィールドに担当者の名前の入力を開始し、リストに表示されたら選択します
 
@@ -618,7 +618,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. 「**テンプレートタスクを編集**」ボックスで、左パネルの **財務** をクリックします。
 
-   ![&#x200B; テンプレート タスク編集財務セクション &#x200B;](assets/template-task-edit-finance.png)
+   ![ テンプレート タスク編集財務セクション ](assets/template-task-edit-finance.png)
 
 1. 次のいずれかを更新します。
 
@@ -662,21 +662,21 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 #### カスタムフォーム {#custom-forms-1}
 
-タスクがプロジェクトに追加された際に、デフォルトでタスクに自動的に添付されるカスタムフォームを定義できます。 既定のタスクのカスタム フォームを含めるためのプロジェクトの設定については、「プロジェクトの編集 [&#x200B; の [ タスク ] セクションを参照し &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) ください。
+タスクがプロジェクトに追加された際に、デフォルトでタスクに自動的に添付されるカスタムフォームを定義できます。 既定のタスクのカスタム フォームを含めるためのプロジェクトの設定については、「プロジェクトの編集 [ の [ タスク ] セクションを参照し ](../../../manage-work/projects/manage-projects/edit-projects.md) ください。
 
 また、カスタムフォームをテンプレートタスクに追加することで、テンプレートからプロジェクトを作成する際に、プロジェクトの今後のタスクにカスタムフォームを追加することもできます。
 
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. 「**テンプレートタスクを編集**」ボックスで、左パネルの **カスタムForms** をクリックします。
 
-   ![&#x200B; テンプレート タスクのカスタム フォームの編集セクション &#x200B;](assets/template-task-edit-custom-forms.png)
+   ![ テンプレート タスクのカスタム フォームの編集セクション ](assets/template-task-edit-custom-forms.png)
 
 1. テンプレートタスクに関連付けるカスタムフォームを選択します。
 
    このフィールドで選択できるカスタムフォームを作成する必要があります。
 アクティブなカスタムフォームのみがリストに表示されます。
 
-   カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+   カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
    テンプレートタスクには最大 10 個のカスタムフォームを追加できます。
 フォームは、テンプレートから作成されたタスクに自動的に追加されます。
@@ -700,7 +700,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. **テンプレート タスクを編集ボックス** で、左パネルの **設定** をクリックします。
 
-   ![&#x200B; テンプレート タスク編集設定セクション &#x200B;](assets/template-task-edit-settings.png)
+   ![ テンプレート タスク編集設定セクション ](assets/template-task-edit-settings.png)
 
 1. 次のいずれかを更新します。
 
@@ -761,7 +761,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. 「**テンプレートタスクを編集**」ボックスで、左パネルの **コメント** をクリックします。
 
-   ![&#x200B; テンプレート タスクのコメント セクションの編集 &#x200B;](assets/template-task-edit-comment.png)
+   ![ テンプレート タスクのコメント セクションの編集 ](assets/template-task-edit-comment.png)
 
 1. **テンプレートタスクに更新を追加** 領域で、テンプレートタスクの更新ストリームに表示するコメントを使用可能フィールドに指定します。 このコメントは、テンプレートおよびテンプレートタスクへの表示アクセス権とメモの表示アクセス権を持つすべてのユーザーに表示されます。
 1. 「**保存**」をクリックします。

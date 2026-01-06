@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 68%
+ht-degree: 66%
 
 ---
 
@@ -69,13 +69,13 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 
 予定開始日から予定完了日までの通常の時間と経過時間の両方でタスク期間を指定できます。
 
-リスト内でタスクの期間を更新する場合は、Workfront の時間の単位を示すために以下の略語を使用できます。
+リスト内のタスクの期間を更新する場合、Workfrontで時間の単位を示すために、次の略語を使用できます。
 
 | 時間の単位 | 省略形 |
 |---|---|
 | 分 | M |
 | 時間 | H |
-| 日。これがデフォルトです。 | D |
+| 日 これがデフォルトです。 | D |
 | 週 | W |
 | か月 | 月・木 |
 | 経過時間数 (分) | EM |
@@ -181,7 +181,7 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 * 親タスクの期間を計算する場合、システムでは、最初に上記の式によって期間を計算してから、スケジュールを適用します。
 
 
-詳しくは、[&#x200B; タスクの元の期間と元の予定時間数の概要 &#x200B;](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
+詳しくは、[ タスクの元の期間と元の予定時間数の概要 ](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
 
 ## タスクの期間タイプの変更
 

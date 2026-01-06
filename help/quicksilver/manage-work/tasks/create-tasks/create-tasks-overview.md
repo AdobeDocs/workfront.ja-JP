@@ -6,10 +6,10 @@ description: プロジェクトを作成した後でのみ、プロジェクト�
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
 
 * システムレベルのデフォルト情報
 
-  Workfront 管理者またはグループ管理者は、プロジェクト環境設定のタスクとイシューのエリアで、タスクのシステムレベルのデフォルトを確定します。タスクとイシューの環境設定について詳しくは、[システム全体のタスクとイシューの環境設定を行う](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)または[グループのタスクとイシューの環境設定を行う](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
+  Workfront管理者またはグループ管理者が、「プロジェクト環境設定」の「タスクとイシュー」領域でタスクのシステムレベルのデフォルトを設定します。 タスクとイシューの環境設定について詳しくは、[システム全体のタスクとイシューの環境設定を行う](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)または[グループのタスクとイシューの環境設定を行う](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
 
 * プロジェクトレベルのデフォルト情報
 

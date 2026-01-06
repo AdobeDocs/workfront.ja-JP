@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 87%
+source-wordcount: '199'
+ht-degree: 95%
 
 ---
 
@@ -48,17 +48,15 @@ ht-degree: 87%
 
 ## eAuth 対応環境でのユーザーのパスワードのリセット
 
-1. [!DNL Workfront] ージの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックしてから、**[!UICONTROL ユーザー]**![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png) をクリックします。
+{{step-1-to-users}}
 
-
-
-1. パスワードのリセットが必要な&#x200B;**[!UICONTROL ユーザー]**&#x200B;を選択します。
-   ![&#x200B; ユーザーの選択 &#x200B;](assets/100520classicnweselectuser-350x105.png)
+1. パスワードのリセットが必要な&#x200B;**[!UICONTROL ユーザー]**を選択します。
+   ![ ユーザーの選択 ](assets/100520classicnweselectuser-350x105.png)
 
 1. 目的の&#x200B;**[!UICONTROL ユーザー]**&#x200B;を選択した後に表示される「**[!UICONTROL その他]」ボタン**&#x200B;をクリックし、ドロップダウンメニューから「**[!UICONTROL パスワードを忘れた場合の E メールの送信]**」オプションを選択します。
 
-   ![&#x200B; パスワードを忘れた場合の E メールの送信 &#x200B;](assets/100520classicnwesendemail-350x134.png)
+   ![ パスワードを忘れた場合の E メールの送信 ](assets/100520classicnwesendemail-350x134.png)
 
 「**[!UICONTROL パスワードを忘れた場合の E メールの送信]**」オプションを選択すると、選択したユーザーに、自身のパスワードを変更する手順が記載されたメールが送信されます。
 
-![E メールをリセット &#x200B;](assets/pwresetemail-resized-350x461.png)
+![E メールをリセット ](assets/pwresetemail-resized-350x461.png)

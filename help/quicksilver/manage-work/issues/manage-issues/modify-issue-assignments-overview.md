@@ -7,10 +7,10 @@ description: ユーザー、チームまたは担当業務に対するイシュ�
 author: Lisa
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## イシューに対するユーザー割り当てを変更するタイミング
 
-次のような様々な理由で、複数のイシューに対するユーザー割り当てを変更する場合があります。
+次のような様々な理由で、複数のイシューのユーザー割り当てを変更したい場合があります。
 
 * ユーザーがチームに参加する、またはチームから脱退する
 * ユーザーがイシューの期限を超える休暇を取る

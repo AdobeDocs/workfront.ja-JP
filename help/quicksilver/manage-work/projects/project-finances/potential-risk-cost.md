@@ -7,10 +7,10 @@ description: プロジェクトの潜在リスクコストでは、プロジェ�
 author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 85%
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 プロジェクトの潜在リスクコストでは、プロジェクトリスクの潜在的なコストと発生する確率が考慮されます。
 
-## プロジェクトの潜在的なリスクコストの概要
+## プロジェクトの潜在リスクコストの概要
 
 Adobe Workfrontは、次の数式を使用して、プロジェクトの潜在リスクコストを計算します。
 

@@ -6,10 +6,10 @@ description: プロジェクトのリソース管理者を指定して、プロ�
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 95%
+source-wordcount: '731'
+ht-degree: 98%
 
 ---
 
@@ -162,9 +162,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 ## テンプレートのリソース管理者の指定
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
-
-1. 「**テンプレート**」をクリックします。
+{{step1-to-templates}}
 
 1. 次のいずれかの操作を行います。
 

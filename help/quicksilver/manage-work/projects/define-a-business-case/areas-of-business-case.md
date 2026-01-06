@@ -6,7 +6,7 @@ description: この記事では、プロジェクトのビジネスケースの�
 author: Becky
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 43%
@@ -23,7 +23,7 @@ ht-degree: 43%
 
 プロジェクトに表示される前に、Adobe Workfront管理者またはグループ管理者がビジネスケース内のすべてのセクションを有効にする必要があります（プロジェクト情報セクションを除く）。 「プロジェクト情報」セクションは、デフォルトで有効になっています。
 
-ビジネスケースの領域を有効にする方法については、記事 [&#x200B; システム全体のプロジェクト環境設定の指定 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) の「ビジネスケース」の節を参照してください。
+ビジネスケースの領域を有効にする方法については、記事 [ システム全体のプロジェクト環境設定の指定 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) の「ビジネスケース」の節を参照してください。
 
 プロジェクトのビジネスケースに含まれるエリアを次に示します。
 
@@ -82,7 +82,7 @@ ht-degree: 43%
 
 プロジェクトでPortfolio Optimizer でスコアを受け取るには、目標の定義はオプションです。 このセクションは、ビジネスケースの唯一のオプションセクションです。ビジネスケースの他のすべてのセクションは、Portfolio Optimizer でプロジェクトにスコアリングする前に完了する必要があります。 目標を作成する際に、目標の優先度レベルを指定できます。
 
-詳しくは、[&#x200B; ビジネスケースの目標の作成 &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md) を参照してください。
+詳しくは、[ ビジネスケースの目標の作成 ](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md) を参照してください。
 
 ## 費用
 
@@ -99,9 +99,9 @@ Workfront 管理者はカスタム費用タイプを設定できます。
 
 予算計上コストと純価について詳しくは、[ビジネスケースの財務フィールドの概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md)を参照してください。
 
-費用について詳しくは、[&#x200B; プロジェクト費用の管理 &#x200B;](../../../manage-work/projects/project-finances/manage-project-expenses.md) を参照してください。
+費用について詳しくは、[ プロジェクト費用の管理 ](../../../manage-work/projects/project-finances/manage-project-expenses.md) を参照してください。
 
-カスタム費用タイプの作成について詳しくは、「[&#x200B; カスタム費用タイプの作成 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)」を参照してください。
+カスタム費用タイプの作成について詳しくは、「[ カスタム費用タイプの作成 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)」を参照してください。
 
 ## リソース予算計上
 
@@ -133,7 +133,7 @@ Workfront 管理者はカスタム費用タイプを設定できます。
 * ここに表示される情報は、システムレベルのリソースプランナーやシナリオプランナーにも表示されます。
 
   <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in&nbsp;NWE&nbsp;only)<br></p>
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in NWE only)<br></p>
   -->
 
 * 役割が 1 時間当たりのコスト率に関連付けられている場合、リソースを予算計上すると、プロジェクトの予算計上労力コストが「リソース予算計上」領域に表示されます。 予算計上労力コストは、プロジェクトの通貨で表示されます。
@@ -156,9 +156,9 @@ Workfront 管理者はカスタムリスクタイプを設定できます。
 
 プロジェクトの純価値の詳細については、[ビジネスケースの財務フィールドの概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md)を参照してください。
 
-リスクの作成の詳細については、「[&#x200B; プロジェクトのリスクの作成と編集 &#x200B;](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)」を参照してください。
+リスクの作成の詳細については、「[ プロジェクトのリスクの作成と編集 ](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)」を参照してください。
 
-カスタム危険タイプの作成および編集の詳細については、「[&#x200B; 危険タイプの編集および作成 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)」を参照してください。
+カスタム危険タイプの作成および編集の詳細については、「[ 危険タイプの編集および作成 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)」を参照してください。
 
 ## スコアカード
 
@@ -168,7 +168,7 @@ Workfront 管理者はカスタムリスクタイプを設定できます。
 
 プロジェクトへのスコアカードの適用および整合性スコアの生成について詳しくは、[プロジェクトへのスコアカードの適用および整合性スコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)を参照してください。
 
-スコアカードの作成について詳しくは、[&#x200B; スコアカードの作成 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) を参照してください。
+スコアカードの作成について詳しくは、[ スコアカードの作成 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) を参照してください。
 
 ## カスタムフォーム
 
@@ -180,7 +180,7 @@ Workfront 管理者はカスタムリスクタイプを設定できます。
 
 ビジネスケースのエリアを有効にする方法について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
-カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 カスタムフォームの適用について詳しくは、[ビジネスケースへのカスタムフォームの添付](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)を参照してください。
 
@@ -221,14 +221,14 @@ Workfront 管理者はカスタムリスクタイプを設定できます。
 <ol>
 <li value="1">Go to the <strong>Business Case</strong> area of a project. </li>
 <li value="2"> <p>In the<strong>Business Case Summary</strong> area, click <strong>Export</strong>.<br>A PDF file is downloaded to your computer. The file contains all areas of the Business Case in an easy to read format.</p> <p> <img src="assets/bc-summary-exported-350x160.png" alt="BC_Summary_exported.png" style="width: 350;height: 160;"> </p> </li>
-<li value="3">(Optional) You can attach the PDF file to an email, or print it.&nbsp;</li>
+<li value="3">(Optional) You can attach the PDF file to an email, or print it. </li>
 </ol>
 </div>
 -->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.&nbsp; The file contains all areas of the Business Case in an easy to read format.</p>
+<p>You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.  The file contains all areas of the Business Case in an easy to read format.</p>
 <p>For information about how to export the Business Case, see <a href="../../../manage-work/projects/define-a-business-case/export-business-case.md" class="MCXref xref">Export the Business Case of a project </a></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and will replace the info above, when the standalone arrticle is live >> Becky!)</p>
 -->

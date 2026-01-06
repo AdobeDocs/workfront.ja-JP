@@ -6,10 +6,10 @@ description: 共有にアクセスできるオブジェクトに対する他の�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 80%
+ht-degree: 78%
 
 ---
 
@@ -65,13 +65,13 @@ ht-degree: 80%
 
 1. （条件付き）プログラム、ポートフォリオおよびドキュメントの場合は、次の操作を行います。
 
-   1. オブジェクト名の横にある **詳細** アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、「**共有**」または「**共有** をクリックします。
+   1. オブジェクト名の横にある **詳細** アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、「**共有**」または「**共有** をクリックします。
 
       ![share](assets/share-a-document-350x160.png)
 
    1. ユーザー、チーム、グループ、会社、担当業務の横にある **x** をクリックし「オブジェクトアクセス」ボックスから削除します。
 
-      ![&#x200B; 権限を削除 &#x200B;](assets/remove-permissions-on-portfolio.png)
+      ![ 権限を削除 ](assets/remove-permissions-on-portfolio.png)
 
    1. **[ユーザー名 ] のWorkfront アクセス権限が削除されます。この** ドロップダウン メニューで、ユーザーのアクセス権限を選択したオブジェクトのみから削除するか、関連付けられたすべての子オブジェクトから削除するかを選択します。
 
@@ -84,7 +84,7 @@ ht-degree: 80%
    1. 「**削除**」をクリックします。
 「**次から &lt;ユーザー名> を削除**」ドロップダウンメニューで、選択したオブジェクトのみからアクセス権を削除するか、それに関連付けられているすべての子オブジェクトからアクセス権を削除するかを選択します。
 
-      ![&#x200B; 削除 &#x200B;](assets/remove-permissions-on-project-nwe-350x479.png)
+      ![ 削除 ](assets/remove-permissions-on-project-nwe-350x479.png)
 
    次のシナリオが存在します。
 
@@ -115,7 +115,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
    The following scenarios exist:
 
-   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
+   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.  
    * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
    **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
@@ -132,7 +132,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 
 ## 継承した権限を削除
 
-継承された権限はオブジェクトから削除できます。これにより、親オブジェクトへのユーザーのアクセスに関係なく、所有者は子オブジェクトへのアクセス権を取得するユーザーを特定できます。
+継承されたアクセス許可はオブジェクトから削除することができ、親オブジェクトへのユーザーのアクセス権に関係なく、子オブジェクトへのアクセス権を取得するユーザーを所有者が特定できるようになります。
 
 >[!IMPORTANT]
 >
@@ -154,7 +154,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 
 ## オブジェクトを非公開にする
 
-システム全体でオブジェクトを共有している場合や、オブジェクトを公開して外部のユーザーと共有している場合は、システム全体または公開の権限を削除して、再び非公開にすることができます。 
+システム全体でオブジェクトを共有している場合や、オブジェクトを公開して外部のユーザーと共有している場合は、システム全体または公開の権限を削除して、再び非公開にすることができます。
 
 オブジェクトをシステム全体または公開で使用できるようにする方法について詳しくは、[オブジェクトを共有](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
 
@@ -164,7 +164,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
    例えば、レポートに移動します。
 1. 「**レポートのアクション**」、「**共有**」の順にクリックします。
 
-   ![&#x200B; プライベートにする &#x200B;](assets/report-permissions-make-private-nwe-350x477.png)
+   ![ プライベートにする ](assets/report-permissions-make-private-nwe-350x477.png)
 
 1. 歯車アイコンをクリックし、「**これを外部ユーザーに公開** のチェックを外します。
 1. **アクセス権を持つユーザー** ドロップダウンメニューで、**招待されたユーザーのみがアクセスできる** をクリックして、すべてのWorkfront ユーザーとの共有を停止します。

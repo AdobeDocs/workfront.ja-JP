@@ -6,10 +6,10 @@ description: タスクの財務情報を表示または編集するには、「�
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 85%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -70,7 +70,7 @@ ht-degree: 85%
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Tasks</p> <p>View access to&nbsp;Financial&nbsp;Data or higher</p> <p>You must have Edit access to&nbsp;Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View access to Financial Data or higher</p> <p>You must have Edit access to Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -100,7 +100,7 @@ ht-degree: 85%
 
 1. 「**財務**」をクリックして展開し、タスクの財務情報を表示します。
 
-   「詳細」セクションの右上にある&#x200B;**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックし、「**財務**」をクリックします。
+   詳細セクションの右上隅にある&#x200B;**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックし、「**財務**」をクリックします。
 
 1. 編集可能なフィールドをシングルクリックして編集するか、「**+ 追加**」をクリックして空のフィールドに情報を追加します。
 1. 「**財務**」で次の情報を確認または編集します。
@@ -147,7 +147,7 @@ ht-degree: 85%
       <td> <p>ユーザーまたは担当業務の時間単価、予定時間数、収益タイプに基づいて、タスクに関連する収益が算出されます。コストの追跡について詳しくは、 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">実際の収益</td> 
+      <td role="rowheader">実収益</td> 
       <td> <p>ユーザーまたは担当業務の時間単価、実際の時間、収益タイプに基づいて、タスクに関連付けられた収益が算されます。コストの追跡について詳しくは、 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
@@ -166,4 +166,4 @@ ht-degree: 85%
     </tbody> 
    </table>
 
-1. （条件付き）「財務」セクションのフィールドを編集する場合は、「**変更を**&#x200B;**保存**」をクリックします。
+1. （条件付き）「財務」セクションのフィールドを編集する場合は、「**変更を****保存**」をクリックします。

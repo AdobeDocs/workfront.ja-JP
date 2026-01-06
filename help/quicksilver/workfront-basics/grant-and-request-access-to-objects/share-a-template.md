@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、ユーザーのアクセスレベル
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 95%
+ht-degree: 92%
 
 ---
 
@@ -42,13 +42,13 @@ Adobe Workfront 管理者は、ユーザーのアクセスレベルを割り当�
       * 表示
       * 管理
 
-   * このテンプレートを使用して今後作成されるプロジェクト。個々のプロジェクトに付与するのと同じレベルの権限を、テンプレートから作成されたプロジェクトに付与できます。 
+   * このテンプレートを使用して今後作成されるプロジェクト。個々のプロジェクトに付与するのと同じレベルの権限を、テンプレートから作成されたプロジェクトに付与できます。
 
      テンプレートから作成されたプロジェクトをテンプレートレベルで共有する方法については、[プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md)を参照してください。
 
 * テンプレートまたはテンプレートから作成されたプロジェクトを共有する場合、ユーザーは、テンプレートまたはプロジェクトに関連付けられているすべての子オブジェクトに対して同じ権限をデフォルトで継承します。
 
-  Workfront のオブジェクトの階層について詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)を参照してください。
+  Workfrontのオブジェクトの階層について詳しくは、   [Adobe Workfrontのオブジェクトについて ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
 * テンプレートを共有する場合、特に指定のない限り、すべてのテンプレートタスクおよびドキュメントと、そのテンプレートから今後作成されるプロジェクトに関するイシューは、同じ権限を継承します。
 
@@ -61,7 +61,7 @@ Adobe Workfront 管理者は、ユーザーのアクセスレベルを割り当�
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Share a template</h2>
-<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)&nbsp;</p>
+<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)  </p>
 <ol>
 <li value="1"> <p>Go to the template you want to share with other entities, click <strong>Template Actions</strong>, then <strong>Template Sharing</strong>.<br>Or</p> <p>Navigate to a list of templates, and select multiple templates from the list, then click <strong>Share Template</strong>.</p> <note type="note">
 If you select multiple templates, you cannot view who already has permissions to the individual templates.
@@ -90,9 +90,9 @@ You can share an object only with active users, teams,
 </note> </li>
 <li value="3">From the drop-down menu, select which level of permissions you want to grant.<br>Select from the following:<br>
 <ul>
-<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.&nbsp;</li>
+<li><strong>No access</strong>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.  </li>
 <li><strong>View</strong>: Users with these permissions can view projects created from the template.</li>
-<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template&nbsp;</li>
+<li><strong>Contribute</strong>: Users with these permissions can contribute to projects created from the template  </li>
 <li><strong>Manage</strong>: Users with these permissions can manage or delete projects created from this template.<br><img src="assets/share-project-from-template-350x268.png" alt="share_project_from_template.png" style="width: 350;height: 268;"></li>
 </ul></li>
 <li value="4">(Optional) Click <strong>Advanced Settings</strong> to fine-tune your settings for each level of permissions. </li>
@@ -120,17 +120,17 @@ You can share an object only with active users, teams,
   <tr> 
    <td>コピー</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>削除</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>テンプレートの詳細を編集</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>テンプレートの表示</td> 
@@ -144,12 +144,12 @@ You can share an object only with active users, teams,
   </tr> 
   <tr> 
    <td>システム全体で共有</td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>ドキュメントを追加</p> <p>ヒント：時には、プロジェクトにドキュメントを追加しているつもりで、プロジェクトテンプレートにドキュメントを追加してしまうユーザーがいます。この設定を無効にすることで、受信者のこのような行動を防ぐことができます。</p> </td> 
-   <td> </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

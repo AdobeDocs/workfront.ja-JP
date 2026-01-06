@@ -7,7 +7,7 @@ description: 解決可能オブジェクトとは、解決策が解決オブジ�
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 47%
@@ -40,7 +40,7 @@ Workfront の管理者またはグループ管理者は、システム内また�
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above)&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above) </p>
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
 <ol>
 <li value="1">Log in to Workfront as a Workfront administrator <span>or group administrator.</span></li>
@@ -81,10 +81,10 @@ Workfront管理者またはグループ管理者がシステムレベルまた�
 次のシナリオが存在します。
 
 * Workfrontまたはグループの管理者が、元の問題を保持してその解決をタスクに、元の問題を保持してその解決を選択したプロジェクトに結び付け、「変換中にこれらの設定を変更できるようにする」を選択していない場合、イシューをタスクまたはプロジェクトに変換する際には、これらの設定を変更できません。\
-  ![&#x200B; プロジェクト環境設定のイシュー領域 &#x200B;](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![ プロジェクト環境設定のイシュー領域 ](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * Workfrontまたはグループの管理者が、元のイシューを保持してその解決をタスクに結び付け、元のイシューを保持してその解決を選択または未選択のプロジェクトに結び付け、「変換中にこれらの設定を変更できるようにする」を選択した場合、イシューをタスクまたはプロジェクトに変換する際にこれらの設定を変更できます。\
-  ![&#x200B; イシューを保持するオプション &#x200B;](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![ イシューを保持するオプション ](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 イシューのタスクやプロジェクトへの変換について詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
@@ -107,7 +107,7 @@ Workfront管理者またはグループ管理者がシステムレベルまた�
 <li><p><strong>Issue</strong></p></li>
 </ul><p>The field for the resolving object displays. </p></li>
 <li value="5">After selecting the object, start typing the name of a specific project, task, or issue in the available field and select it when it appears in the drop-down list. </li>
-<li value="6">Click <strong>Save</strong>&nbsp;<strong>Changes</strong>.<br>The original issue becomes the Resolvable Object for the project, task, or issue you selected in step 4 and 5.<br><note type="note">
+<li value="6">Click <strong>Save</strong> <strong>Changes</strong>.<br>The original issue becomes the Resolvable Object for the project, task, or issue you selected in step 4 and 5.<br><note type="note">
 One project, task, or issue may have multiple issues as Resolvable Objects.
 </note></li>
 </ol>
@@ -167,7 +167,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 タスクまたはプロジェクトのステータスをカスタムステータスに変更すると、次の 2 つの条件を満たす場合にのみ、イシューのステータスがカスタムイシューステータスに変更されます。
 
-* 「解決オブジェクトのステータスが変更された」オプションが選択されている場合は、解決可能なイシューのステータスを自動的に更新します。 詳しくは、「解決可能なオブジェクトを処理するためのAdobe Workfrontの設定 [&#x200B; を参照してください &#x200B;](#set-up-adobe-workfront-to-handle-resolvable-objects)。
+* 「解決オブジェクトのステータスが変更された」オプションが選択されている場合は、解決可能なイシューのステータスを自動的に更新します。 詳しくは、「解決可能なオブジェクトを処理するためのAdobe Workfrontの設定 [ を参照してください ](#set-up-adobe-workfront-to-handle-resolvable-objects)。
 
 * プロジェクトまたはタスクのカスタムステータスは、イシューのカスタムステータスと同じ 3 文字コードです。
 
@@ -198,7 +198,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 1. ページの左側で、「**タスクの詳細**」または「**プロジェクトの詳細** タブを選択します。
 1. 「**概要**」セクションの下部で、タスクまたはプロジェクトの解決可能オブジェクトが表示されている **この解決済み** フィールドを見つけます。
 
-   ![&#x200B; この「解決」フィールド &#x200B;](assets/this-resolves-field.png)
+   ![ この「解決」フィールド ](assets/this-resolves-field.png)
 
    >[!NOTE]
    >
@@ -208,7 +208,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 イシューの一覧で、**ステータスアイコン**&#x200B;列または&#x200B;**フラグ**&#x200B;列でステータスアイコンを見つけることで、解決オブジェクトとしてラベル付けされているイシューをこのアイコンで特定できます。
 
-![&#x200B; 解決中のオブジェクト &#x200B;](assets/resolving-icon.png)
+![ 解決中のオブジェクト ](assets/resolving-icon.png)
 
 ## レポートでの解決可能オブジェクトおよび解決オブジェクト情報の表示
 

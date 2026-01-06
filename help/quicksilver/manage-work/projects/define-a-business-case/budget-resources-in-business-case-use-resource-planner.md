@@ -5,10 +5,10 @@ description: リソース計画の一環として、プロジェクトレベル�
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 82%
+ht-degree: 77%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 82%
 
 >[!TIP]
 >
->プロジェクトレベルのリソースプランナーに入力した情報は、システムレベルのリソースプランナーにも表示されます。その逆も同じです。リソースプランナーについて詳しくは、[リソースプランナーの概要](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)を参照してください。
+>プロジェクトレベルのリソースプランナーに入力した情報は、システムレベルのリソースプランナーにも表示されます。 その逆も同じです。リソースプランナーについて詳しくは、[リソースプランナーの概要](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)を参照してください。
 
 Adobe Workfront シナリオプランナーを使用して、ビジネスケースのリソースを予算計上することもできます。詳しくは、[シナリオプランナーを使用したビジネスケースのリソースの予算計上](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)を参照してください。
 
@@ -96,7 +96,7 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
 
 1. 予算計上するプロジェクトにリソースを移動します。
 1. 左パネルの&#x200B;**ビジネスケース**&#x200B;をクリックします。
-1. （条件付き）会社が Workfront シナリオプランナーのライセンスを持っていない場合は、「**リソース予算計上**」セクションの「**リソース予算計上を編集**」をクリックして、手順 5 に進みます。
+1. （条件付き）会社にWorkfront シナリオプランナーのライセンスがない場合は、「**リソース予算** セクションの **リソース予算の編集** をクリックして、ステップ 5 に進みます。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">(NOTE: ensure it stays right - this is 5 instead of 6 because step 2 won't print for nwe)</p>
@@ -114,11 +114,11 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
 
    これは、プロジェクトの予算計上時間数を使用して、プロジェクトの予算計上労力コストを計算します。
 
-   シナリオプランナーは、新しい Adobe Workfront エクスペリエンスでのみ使用でき、追加のライセンスが必要です。Workfront シナリオプランナーについては、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
+   シナリオプランナーは、新しい Adobe Workfront エクスペリエンスでのみ使用でき、追加のライセンスが必要です。Workfront のシナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
 
    >[!NOTE]
    >
-   >プロジェクトの作業を開始する際に、リソースプランナーとシナリオプランナーのどちらを使用するかを決定することをお勧めします。プロジェクトの期間中にこの 2 つを頻繁に切り替えると、プロジェクトのリソースを予算計上する方法に一貫性がなくなる可能性があります。
+   >プロジェクトの作業を開始する際に、リソースプランナーとシナリオプランナーのどちらを使用するかを決定することをお勧めします。 プロジェクトの期間中にこの 2 つを頻繁に切り替えると、プロジェクトのリソースを予算計上する方法に一貫性がなくなる可能性があります。
 
 1. 「**-- リソースプールの選択 --**」フィールドで、1 つまたは複数の&#x200B;**リソースプール**&#x200B;を指定します。
 
@@ -132,7 +132,7 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
 
    選択したプロジェクトを対象に、リソースプランナーが表示されます。
 
-   デフォルトでは、このプロジェクトに関連付けられている最初の 20 件の担当業務が、「リソース予算計上」セクションにアルファベット順に表示されます。 
+   デフォルトでは、このプロジェクトに関連付けられている最初の 20 件の担当業務が、「リソース予算計上」セクションにアルファベット順に表示されます。
 
    リソースプランナーについて詳しくは、[リソースプランナーの概要](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)を参照してください。
 
@@ -152,7 +152,7 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
    >   
    >
 
-    
+
 
 1. **今日** をクリックすると、今日の期間に戻ります。
 1. （任意）「**週**」、「**月**」または「**四半期**」をクリックして、プロジェクトの情報を様々な期間で表示します。

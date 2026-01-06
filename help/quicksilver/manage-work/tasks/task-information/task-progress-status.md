@@ -7,7 +7,7 @@ description: Adobe Workfront は、タスクのタイムライン全体でのタ
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 97%
@@ -39,7 +39,7 @@ Adobe Workfront は、タスクのタイムライン全体でのタスクの進�
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td scope="col"> <p> </p> <p><strong>予定通り</strong> </p> </td> 
+   <td scope="col"> <p> </p> <p><strong>予定通り</strong> </p> </td> 
    <td scope="col"> <p>すべての見込み日が予定日と一致する場合、タスクは<strong>予定通り</strong>と見なされます。また、この進捗ステータスは、プロジェクトが予定より早く、見込み日が予定日より前になる可能性もあります。</p> <p>見込み日について詳しくは、<a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">プロジェクト、タスクおよびイシューに関する見込み完了日の概要</a>を参照してください。</p> <p>予定完了日のタスクについて詳しくは、次の記事を参照してください。</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">タスクの予定開始日の概要</a> </p> </li> 

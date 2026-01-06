@@ -6,14 +6,14 @@ description: 進捗が「トラブル発生中」と表示された目標は達�
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 86%
+source-wordcount: '748'
+ht-degree: 77%
 
 ---
 
-# Adobe Workfront Goals でイシューがある目標を確認
+# Adobe Workfront Goals で発生している目標の確認
 
 <!--Audited: 4/2025-->
 
@@ -128,9 +128,9 @@ ht-degree: 86%
 </tbody>
 </table>-->
 
-## 目標が「トラブル発生中」の進行状況に至ることを防ぐための推奨事項
+## 問題が発生しているの進行に達するための目標を回避するための推奨事項
 
-目標が、「トラブル発生中」の進行状況に至る前に、頻繁にモニタリングして、「危険あり」の進行状況になったときに、その進行状況を調整することができます。「危険あり」の目標は「トラブル発生中」の進行状況に至る恐れがあります。目標の進行状況について詳しくは、[Adobe Workfront Goals の目標の進行状況と条件の概要](../../workfront-goals/goal-management/calculate-goal-progress.md)を参照してください。
+目標が「問題あり」の進捗に達する前に、頻繁に目標を監視し、「危険」の進捗に達したときに進捗を調整できます。 リスクのある目標は、トラブルに巻き込まれる危険があります。 目標の進捗の詳細については、[Adobe Workfront Goals における目標の進捗と条件の概要 ](../../workfront-goals/goal-management/calculate-goal-progress.md) を参照してください。
 
 目標が「トラブル発生中」の進行状況に至る前に、次のことをお勧めします。
 
@@ -139,16 +139,13 @@ ht-degree: 86%
 
 ## 目標リストで「トラブル発生中」の目標を確認
 
-目標は、Workfront Goals のどのセクションでも確認できます。Workfront Goals のセクションについて詳しくは、[Adobe Workfront Goals セクションの概要](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)を参照してください。
+Workfront Goals の任意のセクションで目標をレビューできます。 Workfront Goals の節について詳しくは、[Adobe Workfront Goals の節の概要 ](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md) を参照してください。
 
 この記事では、目標リストで目標を確認する方法について説明します。
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)/**目標** をクリックします。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Workfront Goal エリアが開き、デフォルトで「目標リスト」セクションが表示されます。
+Workfront Goal エリアが開き、デフォルトで「目標リスト」セクションが表示されます。
 
 1. （推奨）目標リストのエリアで、以下のフィルターを調整して、「リスクあり」の目標を確認します。
 
@@ -170,7 +167,7 @@ ht-degree: 86%
 
 1. 進行状況バーのインジケーターの上にポインタを合わせると、実際の進行状況の割合と、今日の期待値が表示されます。
 
-   ![GOal の進行状況のホバーの詳細 &#x200B;](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![GOal の進行状況のホバーの詳細 ](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. （オプション）フィルターを使用して、特定の所有者に属する目標を検索します。
 
@@ -180,7 +177,7 @@ ht-degree: 86%
 
    結果とアクティビティのアップデートについて詳しくは、[Adobe Workfront Goals での目標の進行状況のアップデート](../goal-review-and-workfront-goals-sections/check-in-goals.md)を参照してください。
 
-   ![&#x200B; 実際の進捗状況 &#x200B;](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![ 実際の進捗状況 ](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

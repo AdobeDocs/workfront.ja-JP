@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 73%
+ht-degree: 65%
 
 ---
 
@@ -111,18 +111,18 @@ ht-degree: 73%
 
 1. 左側のパネルで **プロジェクト詳細** を選択します。
 
-1. 右上隅の **プロジェクトを編集** アイコン ![&#x200B; 編集アイコン &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) をクリックし、表示されるドロップダウンで **概要** を選択します。
+1. 右上隅の **プロジェクトを編集** アイコン ![ 編集アイコン ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) をクリックし、表示されるドロップダウンで **概要** を選択します。
 
 1. 「**プロジェクト日付**」セクションで、「**スケジュールモード**」フィールドをクリックし、「**完了日**」を選択します。
 
 1. プロジェクトの&#x200B;**予定完了日**&#x200B;を指定します。
 1. 「**変更を保存**」をクリックします。
 
-   プロジェクトにタスクを追加すると、プロジェクトの&#x200B;**予定開始日**&#x200B;は、すべてのタスクの合計期間に基づいて計算されます。
+   プロジェクトにタスクを追加し始めると、プロジェクトの **予定開始日** がすべてのタスクの合計期間に基づいて計算されます。
 
 ## プロジェクトの計画完了日を自動的に設定
 
-プロジェクトの予定完了日は、プロジェクトの開始日からスケジュールする際に、Workfront によって自動的に計算されます。 
+プロジェクトの予定完了日は、プロジェクトの開始日からスケジュールする際に、Workfront によって自動的に計算されます。
 
 「開始日」からプロジェクトをスケジュールする手順は、次のとおりです。
 
@@ -134,14 +134,14 @@ ht-degree: 73%
 
 1. 左側のパネルで **プロジェクト詳細** を選択します。
 
-1. 右上隅の **プロジェクトを編集** アイコン ![&#x200B; 編集アイコン &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) をクリックし、表示されるドロップダウンで **概要** を選択します。
+1. 右上隅の **プロジェクトを編集** アイコン ![ 編集アイコン ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) をクリックし、表示されるドロップダウンで **概要** を選択します。
 
 1. 「**プロジェクト日付**」セクションで、「**スケジュールモード**」フィールドをクリックし、「**開始日**」を選択します。
 
 1. プロジェクトの&#x200B;**予定開始日**&#x200B;を指定します。
 1. 「**変更を保存**」をクリックします。
 
-   プロジェクトにタスクを追加すると、プロジェクトの&#x200B;**予定完了日**&#x200B;は、すべてのタスクの合計期間に基づいて計算されます。
+   プロジェクトにタスクを追加し始めると、すべてのタスクの合計期間に基づいてプロジェクトの **予定完了日** が計算されます。
 
    タスクの期間について詳しくは、[タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
 
@@ -151,15 +151,15 @@ ht-degree: 73%
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>The Planned Completion Date of a task</h2>
 <p>(NOTE: drafted because I created a new article, here: /Content/Manage work/Tasks/Task information/task-planned-completion-date.htm)</p>
-<p>You can either specify the Planned Completion Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria.&nbsp;</p>
+<p>You can either specify the Planned Completion Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria. </p>
 <ul>
 <li><a href="#manually-set-the-planned-completion-date-of-a-task" class="MCXref xref">Manually set the Planned Completion Date of a task</a> </li>
 <li><a href="#how-the-planned-completion-date-is-calculated-for-a-task" class="MCXref xref">How the Planned Completion Date is calculated for a task</a> </li>
 </ul>
 <p><strong>Manually set the Planned Completion Date of a task</strong></p>
-<p>Setting the Planned Completion Date of a task depends on the type of Task Constraint you assign to the task.&nbsp;</p>
-<p>You can manually set the Planned Completion Date&nbsp;when creating a task, as described in&nbsp;the article <a href="../../../manage-work/tasks/create-tasks/create-tasks-in-project.md" class="MCXref xref">Create tasks in a project</a>.</p>
-<p>You can manually specify the Planned Completion Date when you select any of the following Task Constraints:&nbsp;</p>
+<p>Setting the Planned Completion Date of a task depends on the type of Task Constraint you assign to the task. </p>
+<p>You can manually set the Planned Completion Date when creating a task, as described in the article <a href="../../../manage-work/tasks/create-tasks/create-tasks-in-project.md" class="MCXref xref">Create tasks in a project</a>.</p>
+<p>You can manually specify the Planned Completion Date when you select any of the following Task Constraints: </p>
 <table border="1" cellspacing="15" cellpadding="1">
 <col>
 <col>
@@ -186,12 +186,12 @@ ht-degree: 73%
 <li> <p>Task Constraint</p> <p>For more information about Task Constraints, see the article <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>.</p> </li>
 <li> <p>Task predecessor relationship</p> <p>For more information about task predecessors, see the article <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overview of task predecessors</a>.</p> </li>
 <li>Project Completion Date, when the project is scheduled from Completion Date.</li>
-<li> <p>The time off schedule of the Primary&nbsp;Assignee of the task. </p> <p>When the Primary Assignee has time off scheduled during the duration of the task, the planned dates of the task adjust accordingly when the <strong>Consider user time off in task durations</strong> setting is selected for the <strong>User Time Off</strong> field. New projects inherit this setting from the Project&nbsp;Preferences area, but you can edit the setting at the project level. </p> <p>For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, the task Planned Completion Date becomes June 4. </p> <p>For information about the <strong>User Time Off</strong> preference, see the articles <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> or <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> </li>
+<li> <p>The time off schedule of the Primary Assignee of the task. </p> <p>When the Primary Assignee has time off scheduled during the duration of the task, the planned dates of the task adjust accordingly when the <strong>Consider user time off in task durations</strong> setting is selected for the <strong>User Time Off</strong> field. New projects inherit this setting from the Project Preferences area, but you can edit the setting at the project level. </p> <p>For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, the task Planned Completion Date becomes June 4. </p> <p>For information about the <strong>User Time Off</strong> preference, see the articles <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> or <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> </li>
 </ul>
-<p>When set automatically, the Planned Completion Date&nbsp;is determined based on the following calculation:&nbsp;</p>
+<p>When set automatically, the Planned Completion Date is determined based on the following calculation: </p>
 <p><code>Planned Completion Date = Planned Start Date + Duration</code> </p>
 <p>For example, if your task has a start date of September 16 and a duration of 10 days, the Planned Completion Date is September 26.</p> <note type="note">
-&nbsp;The Update Type for the project must also be&nbsp;set to Automatic and On Change or Automatically in order for the Planned Hours and Duration to be automatically&nbsp;adjusted.
+ The Update Type for the project must also be set to Automatic and On Change or Automatically in order for the Planned Hours and Duration to be automatically adjusted.
 <br>For more information about the Update Type, see the article
 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.
 </note>

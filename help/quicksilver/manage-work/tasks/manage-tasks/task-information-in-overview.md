@@ -6,10 +6,10 @@ description: タスクの情報を表示または編集するには、「タス�
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 93%
   <tr> 
    <td> <p>Adobe Workfront プラン </p> </td> 
    <td><p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>アクセスレベル設定</td> 
@@ -122,7 +122,7 @@ ht-degree: 93%
 1. 編集可能なフィールドをシングルクリックして編集するか、「**+ 追加**」をクリックして空のフィールドに情報を追加します。
 1. 下記のフィールドのいずれかを表示または編集します。
 
-   すべてのフィールドが編集可能であるわけではありません。 
+   すべてのフィールドが編集可能なわけではありません。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -199,7 +199,7 @@ ht-degree: 93%
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>日。これがデフォルトです。 </td> 
+            <td>日 これがデフォルトです。 </td> 
             <td>D</td> 
            </tr> 
            <tr> 
@@ -261,7 +261,7 @@ ht-degree: 93%
        <div> 
         <p>タスクの完了に必要な工数。プロジェクトマネージャーは、タスクの完了に必要な作業量を見積もる際に、予定時間数の代わりにこのフィールドを使用することにします。このフィールドは、次の条件を満たした場合にのみ表示されます。</p> 
         <ul> 
-         <li> <p>タスクの期間タイプが「シンプル」である。 </p> <p>ヒント：タスクの期間タイプを変更すると、このフィールドはグレー表示になります。 </p> </li> 
+         <li> <p>タスクの期間タイプはシンプルです。 </p> <p>ヒント：タスク期間の種類を変更すると、このフィールドは淡色表示になります。 </p> </li> 
          <li>プロジェクトマネージャーが、プロジェクトの「作業量を使うとタスクの予定時間数を自動的に計算できます」フィールドを有効にしてある。 </li> 
         </ul> 
         <p>次のオプションから選択します。</p> 
@@ -343,7 +343,7 @@ ht-degree: 93%
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">最終更新日</td> 
-      <td> <p>タスクが最後に更新された日付。 </p> <p>ヒント：Workfront では、タスクが編集され保存されるたびに更新日を記録します。</p> </td> 
+      <td> <p>タスクが最後に更新された日付。 </p> <p>ヒント：Workfrontでは、ユーザーがタスクを編集して保存するたびに更新日を記録します。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">最終更新者</td> 
@@ -365,7 +365,7 @@ ht-degree: 93%
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -385,7 +385,7 @@ ht-degree: 93%
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--

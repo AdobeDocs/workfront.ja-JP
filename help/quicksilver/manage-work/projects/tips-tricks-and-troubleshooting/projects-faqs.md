@@ -4,10 +4,10 @@ description: この記事には、Adobe Workfrontのプロジェクトに関す�
 author: Alina
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 95%
+ht-degree: 92%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 95%
 
 ### 回答
 
-プロジェクトの「完了モード」が「自動」に設定されている場合、すべてのタスクとイシューが完了すると、プロジェクトのステータスが自動的に「完了」に変わります。これを他のステータスに変更することはできません。完了したプロジェクトを「現在」に切り替えられるようにするには、プロジェクトの「完了モード」を「手動」に設定しておく必要があります。詳しくは、[プロジェクトのステータスを「完了」から「現在」に変更できません](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)を参照してください。
+プロジェクトの「完了モード」が「自動」に設定されている場合、すべてのタスクとイシューが完了すると、プロジェクトのステータスが自動的に「完了」に変わります。これを他のステータスに変更することはできません。プロジェクト全体を現在に戻すには、プロジェクトの完了モードを手動に設定する必要があります。 詳しくは、[プロジェクトのステータスを「完了」から「現在」に変更できません](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)を参照してください。
 
 ## 適切な権限を持っているのに、プロジェクトをポートフォリオに追加できないのはなぜですか。
 
@@ -98,6 +98,6 @@ ht-degree: 95%
 
 Adobe Workfront 管理者によって、アクセスレベルで自分が所属する会社、グループ、チームのみを表示できるように制限されています。探しているチームは、所属するチームの 1 つではありません。
 
-![&#x200B; 所属するチーム、グループ、会社のみを表示 &#x200B;](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![ 所属するチーム、グループ、会社のみを表示 ](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 システム内のすべてのチームをユーザーが表示できるようにする方法について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。

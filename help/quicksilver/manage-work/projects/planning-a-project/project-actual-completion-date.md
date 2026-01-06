@@ -7,10 +7,10 @@ description: プロジェクト、タスクおよびイシューには、Adobe W
 author: Alina
 feature: Work Management
 exl-id: 0baba359-a61d-43d7-8336-1f45c7f34374
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ Workfront 管理者やグループ管理者は、タスクまたはイシュー�
 
 
 
-## 実際の完了日を検索
+## 実際の完了日を見つける
 
 実際の完了日は、Workfront の次の領域で確認できます。
 

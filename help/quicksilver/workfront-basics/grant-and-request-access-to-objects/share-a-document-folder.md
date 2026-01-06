@@ -6,10 +6,10 @@ description: ドキュメントエリアで、フォルダーとそのコンテ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 98%
+source-wordcount: '839'
+ht-degree: 99%
 
 ---
 
@@ -94,11 +94,11 @@ ht-degree: 98%
 
 ## フォルダーの共有
 
-1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**ドキュメント**」をクリックします。
+{{step1-to-documents}}
 
-   または
+または
 
-   Workfront オブジェクトを開いた状態で、左側のパネルで「**ドキュメント**」をクリックします。
+Workfront オブジェクトを開いた状態で、左側のパネルで「**ドキュメント**」をクリックします。
 
 1. フォルダーを選択して、ツールバーの共有アイコン ![](assets/share-icon.png) をクリックします。
 
@@ -139,7 +139,7 @@ ht-degree: 98%
 ## 共有されたフォルダーのコンテンツにユーザーがアクセスする方法
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
 現時点では、フォルダーを共有している場合、受信者のドキュメントエリアにそのフォルダーは表示されません。ただし、ドキュメントレポートを実行すると、ドキュメントにアクセスできます。

@@ -6,7 +6,7 @@ description: 多数のウィジェットから選択して、ホームページ�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 17%
@@ -276,7 +276,7 @@ ht-degree: 17%
       <td> <p>リクエストを表示 
       <ul>
       <li>送信し、まだ開いていること。 </li> 
-      <li>実際の完了日がない場合、または解決オブジェクトに実際の完了日がない場合、「自分のオープン要求」サブタブにリストされます。 </li> 
+      <li>実際の完了日がない場合、または解決オブジェクトに実際の完了日がない場合、「自分のオープン要求」サブタブにリストされます。  </li> 
       </ul>
       <p><b> 注 </b> 
       ステータスが「クローズ」と等しくないリクエストは、オープンと見なされます。</p> </td> 
@@ -290,7 +290,7 @@ ht-degree: 17%
 
 自分のリクエスト ウィジェットには、ウィジェットに表示するリクエストを制御できるカスタマイズ可能なフィルターが備わっています。 このフィルターは、様々なフィールドと値に対して設定でき、AND および OR を使用して条件をスタックできます。
 
-自分のリクエスト ウィジェットのフィルターを設定する手順については、「自分のリクエスト ウィジェットの使用」の [&#x200B; リクエストをフィルタリング &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) を参照してください。
+自分のリクエスト ウィジェットのフィルターを設定する手順については、「自分のリクエスト ウィジェットの使用」の [ リクエストをフィルタリング ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) を参照してください。
 
 </div>
 

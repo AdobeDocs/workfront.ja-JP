@@ -7,10 +7,10 @@ description: 指定日までに開始（SNLT）は、指定した日付より前
 author: Alina
 feature: Work Management
 exl-id: 86139ce6-c6b1-4ac4-a5cb-fd4aa899a025
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 SNLT 制約を使用する際は、次の点に注意してください。
 
 * プロジェクトが完了日以降にスケジュール設定されている場合は、指定日までに開始制約を使用する必要があります。この場合、タスクにソフト制約を指定してから、他の依存タスクをリスクとして強制的に表示させることができます。
-* プロジェクトでスケジュールモードに完了日以降にスケジュール設定が指定されており、タスクの開始日のシステムまたはグループのデフォルトが今日である場合、指定日までに開始がデフォルトの制約になります。新しいタスクのデフォルトの制約を設定する場所については、[システム全体のタスクとイシューの環境設定を指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+* プロジェクトで「完了日からスケジュール」のスケジュール・モードを使用し、タスクの「開始日」にシステムまたはグループのデフォルトが「今日」の場合のデフォルト制約は、「指定日までに開始」です。 新しいタスクのデフォルトの制約を設定する場所については、[システム全体のタスクとイシューの環境設定を指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 * 開始日からスケジュールプロジェクトで SNLT 制約を使用すると、Adobe Workfront はできるだけ早くタスクと同様にタスクをスケジュール設定します。
 * SNLT 制約のあるタスクを別のプロジェクトに移動またはコピーすると、制約の日付およびプロジェクトの開始日と完了日によって、タスクの制約またはプロジェクトの日付が変更される可能性があります。次のシナリオが存在します。
 

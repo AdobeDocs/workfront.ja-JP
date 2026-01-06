@@ -6,10 +6,10 @@ description: この記事では、Adobe Workfront で目標を検索し、管理
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 68%
+source-wordcount: '363'
+ht-degree: 74%
 
 ---
 
@@ -128,19 +128,16 @@ ht-degree: 68%
 
 ## Workfront Goals へのアクセス
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
+{{step1-to-goals}}
 
-   <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   目標リストが表示されます。
+目標リストが表示されます。
 
 
-   >[!IMPORTANT]
-   >
-   >   Workfront Goals に正しくアクセスできたら、デフォルトでは、目標リストに自分または他のユーザーが作成した目標を表示できます。
+>[!IMPORTANT]
+>
+>   Workfront Goals に正しくアクセスできたら、デフォルトでは、目標リストに自分または他のユーザーが作成した目標を表示できます。
 
-   <!--   
+<!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
    -->
 
@@ -196,13 +193,16 @@ To access an individual goal in the Production environment:
 
 個々の目標にアクセスするには次の手順に従います。
 
-1. Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコンをクリックし、「**目標**」をクリックします。
+{{step1-to-goals}}
+
 デフォルトでは、目標リストが表示されます。
-   ![&#x200B; 目標リスト &#x200B;](assets/goal-list-unshimmed.png)
+
+![ 目標リスト ](assets/goal-list-unshimmed.png)
+
 1. リストで目標の名前をクリックします。
 目標のページが表示されます。
-   ![&#x200B; 目標ページ &#x200B;](assets/goal-page-unshimmed.png)
-1. 目標名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックすると、目標をさらに編集または共有できます。
+   ![ 目標ページ ](assets/goal-page-unshimmed.png)
+1. 目標名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックすると、目標をさらに編集または共有できます。
 1. 左側のパネルにある「**目標の詳細**」をクリックして、目標に関する情報を編集します。詳しくは、[Adobe Workfront Goals の目標の詳細セクションで目標を更新](../goal-management/update-goals-in-goal-details-panel.md)を参照してください。
 
 

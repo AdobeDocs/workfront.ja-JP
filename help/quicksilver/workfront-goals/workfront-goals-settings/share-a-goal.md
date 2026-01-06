@@ -6,10 +6,10 @@ description: 目標を共有する場合、目標を作成していないユー�
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 87%
+source-wordcount: '724'
+ht-degree: 91%
 
 ---
 
@@ -166,12 +166,9 @@ ht-degree: 87%
 
 ## 目標を共有する
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)/**目標** をクリックします。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   目標リストが表示されます。
+目標リストが表示されます。
 
 1. リストで目標の名前をクリックします。目標ページが開きます。
 
@@ -181,7 +178,7 @@ ht-degree: 87%
 
    目標アクセスボックスが表示されます。
 
-   ![&#x200B; 目標へのアクセス &#x200B;](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![ 目標へのアクセス ](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. 次のいずれかの操作を行います。
 
@@ -248,32 +245,32 @@ ht-degree: 87%
   <tr> 
    <td>結果やアクティビティを編集</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>目標の結果やアクティビティを追加</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>プロジェクトをアクティビティとして目標に関連付け**</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>目標を削除</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>結果やアクティビティを削除</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>目標からプロジェクトを切断</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,4 +283,4 @@ ht-degree: 87%
 
 プロジェクト権限については、[Adobe Workfront でプロジェクトを共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
 
- 
+

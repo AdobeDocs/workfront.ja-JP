@@ -6,10 +6,10 @@ description: イシューを変換せずに、イシューの解決策をプロ�
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues,&nbsp;Tasks, Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Issues, Tasks, Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -95,7 +95,7 @@ ht-degree: 92%
 1. 解決策を別のイシューの解決策またはタスクやプロジェクトの解決策に結び付けるイシューに移動します。
 1. 左パネルで「**問題の詳細**」をクリックしてから、**概要**&#x200B;エリアを展開します。
 
-   ![&#x200B; 問題の詳細アイコン &#x200B;](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![ 問題の詳細アイコン ](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. 「**解決者**」フィールドをクリックし、次の解決オブジェクトのタイプから選択します。
 

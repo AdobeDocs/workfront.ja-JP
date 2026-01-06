@@ -6,18 +6,18 @@ description: ポートフォリオオプティマイザーでは、[!UICONTROL �
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 9e86f6eb-dd82-4731-aebb-ce8da1df5614
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 100%
+ht-degree: 52%
 
 ---
 
 # ポートフォリオ内の[!UICONTROL 純価値に対するリスク]の計算
 
-[!UICONTROL ポートフォリオオプティマイザー]では、[!UICONTROL 純価値に対するリスク]指標が、[!UICONTROL ポートフォリオオプティマイザー]に表示されるすべてのプロジェクトによって提供される[!UICONTROL 純価値]を考慮して、潜在的なリスクを測定します。
+[!UICONTROL Portfolio Optimizer] では、[!UICONTROL  純価に対するリスク ] 指標は、[!UICONTROL Portfolio Optimizer] に表示されるすべてのプロジェクトから提供される [!UICONTROL  純価 ] を考慮して潜在的なリスクを測定します。
 
-ポートフォリオで最も効率を高めるには、[!UICONTROL リスク]指標が低く、[!UICONTROL 純価値]指標が高いことを確認します。
+ポートフォリオ内で最も効率を高めるには、[!UICONTROL  リスク ] インジケーターが低く、[!UICONTROL  純価 ] インジケーターが高くなるようにしたいと考えています。
 
 [!UICONTROL リスク]および[!UICONTROL 純価値]指標は、相互にどのように関係しているかという観点から表現されます。
 
@@ -43,4 +43,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[!UICONTROL 純価値に対するリスク]指標は、ポートフォリオに関連付けられているすべてのプロジェクトに対してではなく、[!UICONTROL ポートフォリオオプティマイザー]で表示されるプロジェクトに基づいて計算されます。
+>[!UICONTROL  純価値に対するリスク ] インジケーターは、ポートフォリオに関連付けられたすべてのプロジェクトではなく、[!UICONTROL Portfolio Optimizer] に表示されるプロジェクトに基づいて計算されます。

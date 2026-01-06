@@ -7,7 +7,7 @@ description: プロジェクト状況は、プロジェクトの進行状況を�
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 100%
@@ -78,25 +78,25 @@ ht-degree: 100%
    <td><strong>プロジェクト状況</strong></td> 
    <td><strong>プロジェクトの進捗ステータス</strong></td> 
    <td><strong>Workfront 状況インジケーター</strong></td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>目標どおり</td> 
    <td>進捗ステータスが予定どおりのプロジェクトの場合、プロジェクトの状況は<strong>予定どおり</strong>です。 </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>リスクあり</td> 
    <td>プロジェクトの進捗ステータスが「<strong>遅れ</strong>」または「<strong>危険あり</strong>」の場合、プロジェクトの状況は「<strong>危険あり</strong>」になります。</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>トラブル発生中</td> 
    <td>プロジェクトの進捗ステータスが「<strong>遅延</strong>」の場合、プロジェクトの状況は「<strong>トラブル発生中</strong>」になります。 </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

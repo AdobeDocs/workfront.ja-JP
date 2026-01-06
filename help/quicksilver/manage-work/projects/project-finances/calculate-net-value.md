@@ -7,10 +7,10 @@ description: プロジェクト純価は、利益を計算してコストを削�
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 95%
+ht-degree: 56%
 
 ---
 
@@ -31,26 +31,26 @@ Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
 * **予定利益**：これは、ビジネスケースの&#x200B;**プロジェクト情報**&#x200B;エリアに入力する際にプロジェクト所有者が指定する手動エントリです。\
   プロジェクトの予定利益の詳細については、[ビジネスケースのエリアの概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[プロジェクト情報](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info)の節を参照してください。
 
-* **予算計上コスト**：プロジェクトを初めて立ち上げる際に推定される、プロジェクトに関連する合計コストです。
+* **予算コスト**：これは、プロジェクトを最初に起動したときに見積もられた、プロジェクトに関連するコストの合計です。
 
-  **予算計上コスト**&#x200B;は、ビジネスケースのリソース予算エリアで計算された&#x200B;**予算計上労力コスト**&#x200B;の値を使用します。この値では、リソースプランナーで担当業務に予算計上された時間と、それぞれの担当業務の 1 時間あたりのコストを考慮します。\
-  予算計上コストはプロジェクト&#x200B;**純価**&#x200B;に影響します。予算計上コストの計算について詳しくは、[予算計上コストの計算](../../../manage-work/projects/project-finances/budgeted-cost.md)を参照してください。
+  **予算計上コスト** では、ビジネス ケースのリソース予算計上エリアで計算された **予算計上労力コスト** の値を使用し、リソース プランナの担当業務に予算計上された時間と、各担当業務の時間当たりのコスト率が考慮されます。\
+  予算コストはプロジェクトの **純価** に影響します。 予算コストの計算方法の詳細については、「[ 予算コストの計算 ](../../../manage-work/projects/project-finances/budgeted-cost.md)」を参照してください。
 
 * **潜在リスクコスト**：これは、ビジネスケースやプロジェクトの「リスク」タブで定義されている、プロジェクト上の任意のリスクに関連するコストです。\
   プロジェクトの潜在リスクコストの計算について詳しくは、[潜在リスクコストの計算](../../../manage-work/projects/project-finances/potential-risk-cost.md)を参照してください。
 
-   
+
 
 ## プロジェクト純価を見つけます。
 
 プロジェクト純価は、Workfront の次のエリアにあります。
 
-* ビジネスケースのビジネスケースの概要領域 \
-  ビジネスケースの概要領域の詳細については、[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)の「[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)」の節を参照してください。
+* ビジネスケース概要エリア\
+  「ビジネスケースの概要」領域について詳しくは、[ プロジェクトのビジネスケースを作成 ](../../../manage-work/projects/define-a-business-case/create-business-case.md)[ プロジェクトのビジネスケースを作成 ](../../../manage-work/projects/define-a-business-case/create-business-case.md) の「ビジネスケースの概要について」の節を参照してください。
 
-  ![&#x200B; ビジネスケースの純価 &#x200B;](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  ![ ビジネスケースの純価 ](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* ポートフォリオオプティマイザー（プロジェクトがポートフォリオに関連付けられている場合）
+* Portfolioオプティマイザー（プロジェクトがポートフォリオに関連付けられている場合）
 
   >[!TIP]
   >
@@ -58,7 +58,7 @@ Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
 
   ポートフォリオオプティマイザーについて詳しくは、[ポートフォリオオプティマイザーの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)を参照してください。
 
-* 次のリストおよびレポートの「プロジェクト純価」フィールド：
+* 次のリストおよびレポートの「プロジェクト純値」フィールド：
 
    * プロジェクト
    * タスク

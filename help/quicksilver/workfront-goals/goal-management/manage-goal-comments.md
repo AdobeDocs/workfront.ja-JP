@@ -6,10 +6,10 @@ description: Adobe Workfront Goals で表示できるすべての目標にコメ
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 42%
+source-wordcount: '209'
+ht-degree: 55%
 
 ---
 
@@ -138,12 +138,14 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 
 目標に対するコメントは、目標のページの「更新」セクションで追加できます。
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、または右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png) をクリックして、**目標** をクリックします。
+{{step1-to-goals}}
+
 これにより、目標リストが開きます。
+
 1. コメントを追加する目標を探し、その名前をクリックして目標ページを開きます。
 1. 左側のパネルの「**更新**」をクリックします。
 
-   Workfront オブジェクトに対するコメントの管理について詳しくは、[&#x200B; 作業の更新 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
+   Workfront オブジェクトに対するコメントの管理について詳しくは、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 

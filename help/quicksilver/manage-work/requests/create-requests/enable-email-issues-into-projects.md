@@ -6,10 +6,10 @@ description: ユーザーがメールでイシューをプロジェクトに追�
 author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 <!-- Audited: 4/2025 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
 ユーザーがメールでプロジェクトにイシューを追加できるようにプロジェクトを設定できます。プロジェクトがリクエストキューとして指定されている場合にのみ、イシューをプロジェクトにメールで送信できます。 リクエストキュープロジェクトの作成について詳しくは、[リクエストキューを作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
@@ -76,7 +76,7 @@ ht-degree: 81%
 >* Workfront では、すべてのクラスターにわたるリクエストキューごとに 1 つの一意のメールを使用できます。リクエストキューを無効にする場合、作成したメールアドレスが取り込みメールアドレスボックスに残っている限り、そのメールアドレスが保持されます。取り込みメールの使用を中止する場合は、今後使用できるよう、取り込みメールフィールドから削除する必要があります。
 >
 >* リクエストキューに複数のキュートピックまたはトピックグループがある場合、Workfrontはメールでリクエストを送信するキュートピックをランダムに選択するので、メールでリクエストを管理するのが困難になります。
->  &#x200B;>メールを通じてリクエストを受け取るように設定したプロジェクトには、複数のキュートピックを含めないことをお勧めします。送信されたリクエストが異なるリソースやプロジェクトを対象としている場合は、送信後に手動でルーティングまたは移動する必要があります。
+>メールを通じてリクエストを受け取るように設定したプロジェクトには、複数のキュートピックを含めないことをお勧めします。送信されたリクエストが異なるリソースやプロジェクトを対象としている場合は、送信後に手動でルーティングまたは移動する必要があります。
 
 1. メールでのイシューの受信を有効にするプロジェクトに移動します。
 1. 左側のパネルで **キューの詳細** をクリックします。
@@ -94,7 +94,7 @@ ht-degree: 81%
    >
    >* このメールアドレスは一意である必要があるので、削除した場合は将来使用できなくなる可能性があります。
    <!--
-   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
+   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in Workfront. Only emails created from this email address are added as issues.
    -->
 
 1. （オプション）「**E メールで送信に失敗した問題のすべてを転送する**」を選択し、下のボックスに転送メールアドレスを入力します。

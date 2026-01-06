@@ -7,10 +7,10 @@ description: 予定割り当て時間は、Adobe Workfront のタスクに設定
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 89%
+ht-degree: 82%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 -->
 
 * 予定割り当て時間の期間タイプを使用する場合は、タスクの期間と予定時間数の両方を指定する必要があります。次に、Workfront は、予定時間数を期間内の時間数で割り、タスクに割り当てられたリソース数で配分率（割り当て）を各リソースに対して計算します。各リソースの配分率は、同じ値で均等に配分されます。この場合、各リソースの配分値を変更することはできません。
-* Workfront またはグループ管理者は、システムまたはグループのデフォルトの期間タイプを、予定割り当て時間として設定できます。この場合、すべての新しいタスクは、この期間タイプで作成されます。システムレベルまたはグループレベルのプロジェクト環境設定の一部として、タスクやイシューの環境設定を変更する方法については、[システム全体のタスクとイシュー環境を設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+* Workfrontまたはグループ管理者は、システムまたはグループのデフォルトの期間タイプを計算済み割り当てとして設定できます。 この場合、すべての新しいタスクはこの期間タイプで作成されます。 システムレベルまたはグループレベルのプロジェクト環境設定の一部として、タスクやイシューの環境設定を変更する方法については、[システム全体のタスクとイシュー環境を設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
   この場合、タスクのデフォルトの期間は 1 日、デフォルトの予定時間数は 0 時間になります。プロジェクトマネージャーがより正確な期間を設定し、予定時間数フィールドに現実的な見積もりを入力しない限り、リソースの割り当てが不十分として表示されます。
 

@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1196'
-ht-degree: 50%
+ht-degree: 45%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> 
+   <p>Work またはそれ以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -69,12 +69,12 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    * 管理
    * 参加
 * タスクを共有すると、デフォルトでは、ユーザーはタスクに関連付けられたすべての子オブジェクトに対して同じ権限を継承します。 例えば、タスクに添付された子タスク、イシューおよびドキュメントに対して同じ権限を継承します。\
-  Workfront のオブジェクトの階層について詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)を参照してください。
+  Workfrontのオブジェクトの階層について詳しくは、   [Adobe Workfrontのオブジェクトについて ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
   Workfront 管理者は、ドキュメントがユーザーのアクセスレベルの上位のオブジェクトから権限を継承するかどうかを指定できます。ドキュメントに対する継承された権限の制限について詳しくは、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 * タスクから継承された権限を削除できます。\
-  継承された権限をオブジェクトから削除する方法について詳しくは、[オブジェクトから権限の削除](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)を参照してください。
+  継承されたアクセス許可をオブジェクトから削除する方法の詳細については、を参照してください。   [ オブジェクトから権限を削除 ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## タスクの共有方法
 
@@ -87,7 +87,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    * プロジェクト、プログラムまたはポートフォリオなど、タスクの任意の親オブジェクトに対する権限を指定します。タスクは、親オブジェクトから権限を継承します。オブジェクトに対する継承された権限の表示について詳しくは、[オブジェクトの継承された権限の表示](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)を参照してください。
    * タスクが存在するプロジェクトの作成に使用するテンプレートで、プロジェクト共有にエンティティを追加します。テンプレートからのプロジェクトの共有について詳しくは、[テンプレートの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
 
-   * プロジェクトの編集時に、プロジェクト内のすべてのタスクに対する権限を指定します。プロジェクトに対するユーザーの権限に基づいて、プロジェクト上のタスクへのアクセスを管理する方法について詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事の [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) の節を参照してください。
+   * プロジェクトを編集する際に、プロジェクト内のすべてのタスクに対する権限を指定します。  プロジェクトに対するユーザーの権限に基づいてプロジェクトのタスクへのアクセスを管理する方法については、記事 [](../../manage-work/projects/manage-projects/edit-projects.md#access) プロジェクトの編集 [ の ](../../manage-work/projects/manage-projects/edit-projects.md) の節を参照してください。
 
   >[!TIP]
   >
@@ -99,7 +99,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. タスク名の右側にある「**共有**」をクリックします。 **共有 [ タスク名]** ダイアログボックスが開きます。
 
-   ![&#x200B; 「タスクを共有」ボタン &#x200B;](assets/share-task-button.png)
+   ![ 「タスクを共有」ボタン ](assets/share-task-button.png)
 
 1. **タスクへのアクセスの許可** フィールドに、タスクを共有するユーザー、チーム、役割、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
@@ -121,7 +121,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. （オプション）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、タスクに対する特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-permission-options.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-permission-options.png)
 
 1. （オプション）タスクの子オブジェクトに対して継承された権限をオフにするには、**継承された権限** でインラインの **オフ** をクリックします。
 
@@ -134,9 +134,9 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. 共有するタスクを含むプロジェクトに移動します。
 
-1. プロジェクトページの「**タスク**」タブで、共有する各タスクの左側にあるボックスを選択し、ページ上部にある **共有** アイコン ![&#x200B; 共有アイコン &#x200B;](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
+1. プロジェクトページの「**タスク**」タブで、共有する各タスクの左側にあるボックスを選択し、ページ上部にある **共有** アイコン ![ 共有アイコン ](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
 
-   ![&#x200B; タスクの一括共有 &#x200B;](assets/bulk-share-tasks.png)
+   ![ タスクの一括共有 ](assets/bulk-share-tasks.png)
 
 1. **タスクへのアクセスの許可** フィールドに、タスクを共有するユーザー、チーム、役割、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
@@ -159,7 +159,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 1. （オプション）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、タスクに対する特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-permission-options.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-permission-options.png)
 
 1. 「**保存**」をクリックします。
 
@@ -185,13 +185,13 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    <td scope="row">タスクを追加</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">先行タスクの追加</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">イシューを追加</td> 
@@ -202,26 +202,26 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td scope="row">タスクを削除</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row"> <p>一般タスクの編集<br></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">タスクステータスの変更</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">タスク制約の編集</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">タスクの表示</td> 
@@ -244,50 +244,50 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td scope="row">タスクの移動*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">時間の記録</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">予定日の変更</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">割り当ての受け入れ</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">割り当て</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">カスタムフォームを添付</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">カスタムフィールドを編集</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">承認プロセスを作成</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">タスクを承認</td> 
@@ -298,14 +298,14 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td scope="row">財務情報を編集*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">費用を追加／編集</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">財務情報を表示</td> 
@@ -327,8 +327,8 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   </tr> 
   <tr> 
    <td scope="row">システム全体で共有</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

@@ -6,10 +6,10 @@ description: プロジェクトの役割の配分パネルでは、プロジェ�
 author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 59%
+source-wordcount: '458'
+ht-degree: 61%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 59%
 >* [タスクリストのプロジェクトとイニシアチブの役割の配分を表示](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
 >* [ワークロードバランサーのプロジェクトとイニシアチブの役割の配分を表示](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  役割割り当てパネルにイニシアティブ時間を表示するには、シナリオ プランナ ライセンスが必要です。 シナリオプランナーについては、[&#x200B; シナリオプランナーの基本を学ぶ &#x200B;](../../../scenario-planner/get-started-with-scenario-planning.md) を参照してください。
+>  役割割り当てパネルにイニシアティブ時間を表示するには、シナリオ プランナ ライセンスが必要です。 シナリオプランナーについては、[ シナリオプランナーの基本を学ぶ ](../../../scenario-planner/get-started-with-scenario-planning.md) を参照してください。
 >
 >過去に会社がAdobe Scenario Planner を購入したことがある場合は、新しいバージョンに変更されています。 シナリオプランナーは購入できなくなりました。
 
@@ -104,18 +104,19 @@ able style="table-layout:auto">
 
 ## 役割の配分パネルでプロジェクトの予定時間数を表示
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、「**プロジェクト**」をクリックします。
-1. プロジェクト名をクリックしてアクセスします。プロジェクトページが開きます。
+{{step1-to-projects}}
+
+1. アクセスするプロジェクトの名前をクリックします。 これにより、プロジェクト ページが開きます。
 1. 左側のパネルで、次のいずれかをクリックします。
 
    * **タスク**
    * **ワークロードバランサー**
 
-1. **役割配分を表示** アイコン ![&#x200B; 役割配分を表示アイコン &#x200B;](assets/show-role-allocation-icon.png) をクリックします。
+1. **役割配分を表示** アイコン ![ 役割配分を表示アイコン ](assets/show-role-allocation-icon.png) をクリックします。
 
    役割の配分パネルが表示されます。
 
-   ![&#x200B; 予定時間数のみを含む役割割り当てパネル &#x200B;](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![ 予定時間数のみを含む役割割り当てパネル ](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. **役割の割り当て** パネルで次の情報を確認します。
 

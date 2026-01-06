@@ -7,10 +7,10 @@ description: アクティビティは目標の進捗を測るものさしです�
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 74%
+ht-degree: 78%
 
 ---
 
@@ -152,7 +152,7 @@ Adding activities to goals differs depending on which environment you use.
 
    ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
-1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
+1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal. Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
 
    1. If you selected **Manual progress bar**:
@@ -193,14 +193,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 1. 目標リストから、目標の名前をクリックし、目標のページを開きます。
 1. 左側のパネルの「**進捗状況インジケーター**」をクリックします。
 1. 新しい進捗状況インジケータードロップダウンメニューから、**アクティビティを作成**&#x200B;をクリックします。
 
    新規アクティビティボックスが開きます。
 
-   ![&#x200B; 新しいアクティビティボックス &#x200B;](assets/new-activity-box-unshimmed.png)
+   ![ 新しいアクティビティボックス ](assets/new-activity-box-unshimmed.png)
 
 1. 「アクティビティ名」フィールドにアクティビティの名前を入力します。必須フィールドです。
 1. （オプション）アクティビティを他のユーザーに割り当てる場合は、「**アクティビティ所有者**」フィールドから自分の名前を削除します。デフォルトでは、アクティビティを作成したユーザーが所有者となります。

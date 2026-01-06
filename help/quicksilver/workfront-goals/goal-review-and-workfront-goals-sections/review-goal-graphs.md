@@ -6,10 +6,10 @@ description: 目標の全体的な正常性とその進捗の経時的な傾向�
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 88%
+source-wordcount: '899'
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->選択した期間の目標の合計数を「グラフ」セクションで確認できます。ただし、Workfront Goals では、全体的な目標の進捗ステータスと完了率を計算する際に、ステータスがアクティブおよびクローズの目標のみを考慮します。
+>選択した期間の目標の合計数は、グラフ セクションで確認できます。 ただし、Workfront Goals では、目標の全体的な進捗ステータスと完了率を計算する際に、ステータスがアクティブおよびクローズの目標のみが考慮されます。
 
 ## アクセス要件
 
@@ -148,8 +148,8 @@ ht-degree: 88%
    <td role="rowheader">目標進捗グラフ</td> 
    <td> <p>目標期間中の目標に対する更新を週単位で表示する折れ線グラフです。目標の進捗チャートには、次の情報が表示されます。</p> 
     <ul> 
-     <li>選択した期間内のすべてのアクティブな目標およびクローズした目標の平均予想および実際の完了率。完了率の進捗は、ノードで示される週単位の増分に分割されます。 </li> 
-     <li>前週以降のアクティブな目標とクローズした目標の全体的な進捗の平均割合。 </li> 
+     <li>選択した期間における、すべてのアクティブな目標とクローズした目標の予想および実際の完了率の平均。 完了率の進捗は、ノードで示される週単位の増分に分割されます。 </li> 
+     <li>前週以降のアクティブな目標とクローズされた目標の全体的な進捗率。 </li> 
     </ul> <p>ヒント：目標の進捗チャートは、選択した期間外で目標に対して更新が行われた場合、情報が表示されない場合があります。 </p> </td> 
   </tr> 
  </tbody> 
@@ -157,16 +157,13 @@ ht-degree: 88%
 
 ## グラフでの目標の進捗の確認
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)/**目標** をクリックします。
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Workfront Goals エリアが開きます。
+Workfront Goals エリアが開きます。
 
 1. 左側のパネルで「**グラフ**」をクリックします。
 
-   ![&#x200B; 左パネルのグラフ &#x200B;](assets/graphs-in-left-panel.png)
+   ![ 左パネルのグラフ ](assets/graphs-in-left-panel.png)
 
    「グラフ」セクションが表示されます。
 
@@ -185,7 +182,7 @@ ht-degree: 88%
 
 1. 以下の表の情報を確認し、目標のヘルスチャートを確認してください。
 
-   ![&#x200B; ゲージグラフ &#x200B;](assets/gauge-graph-wf-align-350x230.png)
+   ![ ゲージグラフ ](assets/gauge-graph-wf-align-350x230.png)
 
    | 目標の合計数 | チャートの下部にある数は、選択した期間内のすべての目標の数を、選択したすべてのステータスで示します。 |
    |---|---|
@@ -195,7 +192,7 @@ ht-degree: 88%
 
 1. 目標進捗チャートを確認する際に、以下の表の情報を確認してください。
 
-   ![&#x200B; 折れ線グラフ &#x200B;](assets/line-graph-wf-align-350x161.png)
+   ![ 折れ線グラフ ](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 
@@ -224,4 +221,4 @@ ht-degree: 88%
 
    チャートの下部にある「**ベースライン**」をクリックすると、チャートから予想される進捗が削除されます。
 
- 
+

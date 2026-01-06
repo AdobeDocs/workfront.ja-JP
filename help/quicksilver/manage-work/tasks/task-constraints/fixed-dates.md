@@ -7,7 +7,7 @@ description: タスクの正確な開始日と終了日を指定する場合は�
 author: Alina
 feature: Work Management
 exl-id: 084f54a6-e757-405c-b388-5d5f61608e71
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 98%
@@ -46,7 +46,7 @@ ht-degree: 98%
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Use the Fixed Dates Task Constraint</h2>
-<p>(NOTE:&nbsp;replaced with new article linked above) </p>
+<p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to Finish No Later Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

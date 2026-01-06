@@ -6,10 +6,10 @@ description: 自分が作成したオブジェクトや自分と共有された�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1289'
-ht-degree: 89%
+ht-degree: 84%
 
 ---
 
@@ -52,7 +52,7 @@ Workfront で以下のオブジェクトを他のユーザーと共有できま�
 
 * **プルーフ**：詳しくは、[Workfront でのプルーフの共有](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)を参照してください。
 
-* **レポート、ダッシュボード、カレンダー**：詳しくは、[レポート、ダッシュボード、カレンダーの共有](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)を参照してください。さらに、次の記事も参照してください。
+* **報告書、ダッシュボード、カレンダー**：詳しくは、[ 報告書、ダッシュボード、カレンダーの共有 ](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) を参照してください。  また、次の記事も参照してください。
 
    * [Adobe Workfront でのレポートの共有](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [ダッシュボードの共有](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
@@ -93,7 +93,7 @@ Workfront で以下のオブジェクトを他のユーザーと共有できま�
 * Workfrontは、ユーザーとオブジェクトを共有すると、そのユーザーに通知を送信します。 通知は、次の両方の設定が有効な場合に送信されます。
 
    * **ユーザーに対するオブジェクト共有** および **チームに対するオブジェクト共有** のメール通知は、システム管理者またはグループ管理者が「設定」エリアで有効にします。 詳しくは、[システムの全ユーザーに対するイベント通知の設定](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)を参照してください。
-   * **誰かが自分とオブジェクトを共有** および **誰かが自分のチームとオブジェクトを共有** 通知は、ユーザーのプロファイルページで有効になります。 詳しくは、[&#x200B; 独自のメール通知の変更 &#x200B;](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) を参照してください。
+   * **誰かが自分とオブジェクトを共有** および **誰かが自分のチームとオブジェクトを共有** 通知は、ユーザーのプロファイルページで有効になります。 詳しくは、[ 独自のメール通知の変更 ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) を参照してください。
 
   ユーザーの通知設定を有効にするには、まずシステムレベルまたはグループレベルの設定を有効にする必要があります。
 
@@ -160,17 +160,17 @@ Workfront の権限は、階層的に継承されます。つまり、親オブ�
 
 たとえば、あるユーザーにプロジェクトへの参加権限を与えると、ユーザーはそのプロジェクトに関連するすべてのタスクとイシュー（子オブジェクト）に対する参加権限を持ちます。
 
-上記の例では、子オブジェクトの権限を制限することはできません。プロジェクトに関連付けられた子オブジェクトに対して参加権限を持たせたくない場合は、継承された権限をオブジェクトから手動で削除し、その後、詳細設定を含め、個々のユーザーの権限を調整する必要があります。 
+上記の例では、子オブジェクトの権限を制限することはできません。プロジェクトに関連付けられた子オブジェクトに対して参加権限を持たせたくない場合は、継承された権限をオブジェクトから手動で削除し、その後、詳細設定を含め、個々のユーザーの権限を調整する必要があります。
 
 Workfront のオブジェクトの階層と相互依存関係について詳しくは、[Adobe Workfront オブジェクトの概要](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事の[オブジェクトの相互依存性と階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects)の節を参照してください。
 
 >[!NOTE]
 >
->Workfront 管理者は、アクセスレベルでドキュメントの継承された権限を無効にできます。アクセスレベルでドキュメントの継承された権限を無効にする方法について詳しくは、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+>Workfront管理者は、アクセスレベルでドキュメントに対する継承された権限を無効にすることができます。  アクセス レベルのドキュメントに対する継承されたアクセス許可を無効にする方法の詳細については、「カスタム アクセス レベルを作成または変更する [ を参照してください ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-### 組織のメンバーシップによって取得された権限 {#permissions-acquired-through-organizational-memberships}
+### 組織のメンバーシップを通じて取得した権限   {#permissions-acquired-through-organizational-memberships}
 
-オブジェクト上のユーザーのグループに対して管理権限を付与し、同じオブジェクト上でそのグループ内の個々のユーザーに対して表示権限を付与すると、そのユーザーはオブジェクト上のグループメンバーシップを通して最高レベルの権限（管理）を付与されます。 
+オブジェクト上のユーザーのグループに対して管理権限を付与し、同じオブジェクト上でそのグループ内の個々のユーザーに対して表示権限を付与すると、そのユーザーはオブジェクト上のグループメンバーシップを通して最高レベルの権限（管理）を付与されます。
 
 権限レベルが高い組織単位（グループ、チーム、担当業務、または会社）に既に属するユーザーに低い権限を付与する場合は、組織単位から権限を削除し、低い権限を持つユーザーを個別に追加する必要があります。
 
@@ -179,10 +179,10 @@ Workfront のオブジェクトの階層と相互依存関係について詳し�
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Remove permissions from objects</h2>
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">AL: draft/ hide this div when Becky makes Remove permissions from objects live and replace with the drafted content with the link at the top of this section</p>
-<p>You can remove permissions from objects you have access to Share. Removing permissions from objects is identical for all objects that can be shared.&nbsp;</p> <note type="note">
-&nbsp;You cannot remove permissions when you share items in bulk. You can remove permissions only when selecting individual items.&nbsp;
+<p>You can remove permissions from objects you have access to Share. Removing permissions from objects is identical for all objects that can be shared.  </p> <note type="note">
+  You cannot remove permissions when you share items in bulk. You can remove permissions only when selecting individual items.  
 </note>
-<p>To remove permissions from objects consider the following:&nbsp;</p>
+<p>To remove permissions from objects consider the following:  </p>
 <ul>
 <li><a href="#remove-entities-from-the-sharing-list-of-an-object" class="MCXref xref">Remove entities from the sharing list of an object</a> </li>
 <li><a href="#remove-inherited-permissions" class="MCXref xref">Remove inherited permissions</a> </li>
@@ -190,38 +190,38 @@ Workfront のオブジェクトの階層と相互依存関係について詳し�
 </ul>
 <p><strong>Remove entities from the sharing list of an object</strong></p>
 <p>You can remove entities from the sharing list of an object to remove their permissions from the object.</p>
-<p>To remove permissions from objects:&nbsp;</p>
+<p>To remove permissions from objects:  </p>
 <ol>
 <li value="1">Navigate to an object on which you want to modify the permissions.</li>
-<li value="2">Click the <strong>Actions</strong> menu, then click <strong>Sharing</strong>.<br>For example, on a project, click <strong>Project Actions</strong>, then <strong>Sharing</strong>.&nbsp;</li>
+<li value="2">Click the <strong>Actions</strong> menu, then click <strong>Sharing</strong>.<br>For example, on a project, click <strong>Project Actions</strong>, then <strong>Sharing</strong>.  </li>
 <li value="3">Click the <strong>x</strong> next to the name of a user, team, group, company, job role to remove them.<br></li>
 <li value="4">In the <strong><User Name>'s Workfront access will be removed from this</strong> drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it.<br>The following scenarios exist:
 <ul>
-<li>If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they are granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;</li>
-<li>If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they have been given individual permission on each child object.&nbsp;</li>
+<li>If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they are granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.  </li>
+<li>If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they have been given individual permission on each child object.  </li>
 </ul></li>
 <li value="5">Click <strong>Save</strong>.</li>
 </ol>
 <p> <p><strong>Remove inherited permissions</strong></p> </p>
-<p>Inherited permissions can be removed from objects allowing for owners to specifically&nbsp;identify who will get access to children objects regardless of the access of a user to a parent object. Only users with Manage permission are able to remove inherited permissions.</p>
+<p>Inherited permissions can be removed from objects allowing for owners to specifically  identify who will get access to children objects regardless of the access of a user to a parent object. Only users with Manage permission are able to remove inherited permissions.</p>
 <p>To remove inherited permissions:</p>
 <ol>
 <li value="1">Navigate to an object to which you have Manage permissions. <br>For example, navigate to a task.</li>
 <li value="2">Go to the sharing list as described in the <a href="#Share" class="MCXref xref">Overview of sharing permissions on objects</a> section in this article. </li>
-<li value="3">Select the <strong>X</strong>&nbsp;mark next to <strong>Inherited Permission</strong>&nbsp;on the sharing box to remove&nbsp;anyone listed there.<br><br>This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list&nbsp; individual entities in the sharing list of the task to grant permissions on the task.<br><note type="note">
+<li value="3">Select the <strong>X</strong>  mark next to <strong>Inherited Permission</strong>  on the sharing box to remove  anyone listed there.<br><br>This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list   individual entities in the sharing list of the task to grant permissions on the task.<br><note type="note">
 You cannot remove individual entities from the Inherited Permissions list. You can only disable the Inherited Permissions for all entities listed.
 </note></li>
-<li value="4">Click <strong>Save</strong>.&nbsp;</li>
+<li value="4">Click <strong>Save</strong>.  </li>
 </ol>
 <p><strong>Make an object private</strong></p>
-<p>If you have shared an object system-wide, or you have shared it with external uses by making it public, you can make it private again by removing the system-wide or public permissions.&nbsp;</p>
+<p>If you have shared an object system-wide, or you have shared it with external uses by making it public, you can make it private again by removing the system-wide or public permissions.  </p>
 <p>For more information about making an object available system-wide, or publicly, see the section <a href="#Share" class="MCXref xref">Overview of sharing permissions on objects</a> in this article.</p>
 <p>To make an object private:</p>
 <ol>
 <li value="1">Go to the object you want to make private.<br>For example, navigate to a report.</li>
 <li value="2">Click <strong>Report Actions</strong>, then <strong>Sharing</strong>.<br><br></li>
 <li value="3">Click <strong>Remove public access</strong> to remove the access of external users to viewing the report.</li>
-<li value="4">Click <strong>Remove system-wide access</strong> to stop sharing it with all Workfront users.&nbsp;</li>
+<li value="4">Click <strong>Remove system-wide access</strong> to stop sharing it with all Workfront users.  </li>
 <li value="5">Click <strong>Save</strong>.</li>
 </ol>
 </div>
@@ -237,8 +237,8 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 ## オブジェクトに対する権限のリクエスト
 
-表示する権限を持たないオブジェクトへのリンクを受信した場合、またはオブジェクトに対して低い権限を持っており、より高いレベルの権限へのリクエストが必要な場合は、そのオブジェクトに対する権限をリクエストできます。 
+表示する権限を持たないオブジェクトへのリンクを受信した場合、またはオブジェクトに対して低い権限を持っており、より高いレベルの権限へのリクエストが必要な場合は、そのオブジェクトに対する権限をリクエストできます。
 
-オブジェクトに対する共有権限を持つすべてのユーザーが、オブジェクトへのアクセス権をリクエストできます。 
+オブジェクトに対する共有権限を持つすべてのユーザーが、オブジェクトへのアクセス権をリクエストできます。
 
 オブジェクトに対する権限のリクエストについて詳しくは、[オブジェクトへのアクセスのリクエスト](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)を参照してください。

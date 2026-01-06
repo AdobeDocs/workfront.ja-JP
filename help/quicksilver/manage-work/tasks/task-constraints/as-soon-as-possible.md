@@ -7,7 +7,7 @@ description: 「できるだけ早く」は、タスクの開始時間をプロ�
 author: Alina
 feature: Work Management
 exl-id: 9cb232fe-bc74-4433-afac-88be69514c88
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 98%
@@ -26,7 +26,7 @@ ht-degree: 98%
 
   新しいタスクのデフォルトの制約を設定する場所については、[システム全体のタスクとイシューの環境設定を指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
-タスクの制約を更新する方法について詳しくは、[タスクの制約の更新](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)を参照してください。
+タスクでタスクの制約を更新する方法については、[タスクでタスクの制約を更新](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -45,7 +45,7 @@ ht-degree: 98%
 ## 最も早い空き時間とできるだけ早くの違い
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"]) </p>
 -->
 
 「最も早い空き時間」の制約は、次の条件がすべて存在する場合、「できるだけ早く」の制約とは異なります。

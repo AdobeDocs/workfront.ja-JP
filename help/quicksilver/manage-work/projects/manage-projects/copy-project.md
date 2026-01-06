@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 60%
+ht-degree: 62%
 
 ---
 
@@ -120,17 +120,17 @@ ht-degree: 60%
 
 {{step1-to-projects}}
 
-1. プロジェクトリストからコピーするプロジェクトを選択し、プロジェクト名の右側にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/more-icon.png) をクリックします。
+1. プロジェクトリストからコピーするプロジェクトを選択し、プロジェクト名の右側にある **その他** アイコン ![ その他メニュー ](assets/more-icon.png) をクリックします。
 
    または
 
-   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/more-icon.png) をクリックします。
+   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他メニュー ](assets/more-icon.png) をクリックします。
 
 1. **その他** ドロップダウンメニューで、「**コピー**」をクリックします。 **プロジェクト名 [ のコピー]** ダイアログボックスが表示されます。
 
 1. （任意） **プロジェクト名** を更新します。 デフォルトでは、新しい名前は **元のプロジェクト名のコピー [ にな]** ます。
 
-   ![&#x200B; 「プロジェクトをコピー」ボックス &#x200B;](assets/copy-of-project-box.png)
+   ![ 「プロジェクトをコピー」ボックス ](assets/copy-of-project-box.png)
 
 1. **ステータス** を選択します。 デフォルトでは、元のプロジェクトのステータスが選択されます。
 

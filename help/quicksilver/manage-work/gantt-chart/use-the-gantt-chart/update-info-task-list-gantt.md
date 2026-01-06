@@ -6,10 +6,10 @@ description: Adobe Workfront タスクリストのガントチャートには、
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 90%
 
 <!--Audited: 08/2025-->
 
-Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート &#x200B;] には、プロジェクトまたはテンプレート上のタスクに関する詳細が表示されます。
+Adobe Workfront タスクリストの [!UICONTROL  ガントチャート ] には、プロジェクトまたはテンプレート上のタスクに関する詳細が表示されます。
 
-テンプレートのタスクリスト [!UICONTROL &#x200B; ガントチャート &#x200B;] には、テンプレートのタスクリストで行われた更新がテンプレートタスクレベルで反映されます。 テンプレートに関連付けられている[!UICONTROL ガントチャート]は編集できません。
+テンプレートのタスクリスト [!UICONTROL  ガントチャート ] には、テンプレートのタスクリストで行われた更新がテンプレートタスクレベルで反映されます。 テンプレートに関連付けられている[!UICONTROL ガントチャート]は編集できません。
 
 プロジェクトでは、タスクリストの[!UICONTROL ガントチャート]でタスク情報を直接更新できます。
 
@@ -93,7 +93,7 @@ Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート
 1. 変更するプロジェクトに移動します。
 1. 左パネルの「**[!UICONTROL タスク]**」をクリックします。
 
-   ![&#x200B; タスクエリア &#x200B;](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![ タスクエリア ](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. **[!UICONTROL ガントチャート]**&#x200B;アイコンをクリックします。
 
@@ -103,7 +103,7 @@ Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート
 
 1. （オプション）**[!UICONTROL 計画モード]**&#x200B;アイコンをクリックし、「手動保存」オプションの「**[!UICONTROL 標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 
-   ![&#x200B; 手動設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ 手動設定を有効にする ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. タスクのタイムラインにポインタを合わせて、タイムラインインジケーターを別の日付までドラッグします。
 1. タスクの正しい新しい完了日で、インジケーターをドロップします。
@@ -133,7 +133,7 @@ Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート
 
 1. （オプション）**[!UICONTROL 計画モード]**&#x200B;アイコンをクリックし、「手動保存」オプションの「**[!UICONTROL 標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 
-   ![&#x200B; 手動設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ 手動設定を有効にする ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 先行タスク関係を作成するには、タスクの開始点をクリックし、タスクの終了点までドラッグします。
 1. 先行タスク関係を削除するには、2 つのタスクを接続する先行タスクラインをクリックして選択し、キーボードの **[!UICONTROL Delete]** キーを押します。\
@@ -165,7 +165,7 @@ Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート
 
 1. （オプション）**[!UICONTROL 計画モード]**&#x200B;アイコンをクリックし、「手動保存」オプションの「**[!UICONTROL 標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 
-   ![&#x200B; 手動設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ 手動設定を有効にする ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. タスクの中央にポインタを合わせ、多方向矢印を見つけます。
 1. タスクをクリックし、目的の日付までドラッグします。
@@ -246,7 +246,7 @@ Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this is drafted because I moved the whole content to the article linked above)</p>
+<p>(NOTE: this is drafted because I moved the whole content to the article linked above)</p>
 <ol>
 <li value="1">Go to the project you want to level.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> In the <strong>Tasks</strong> area, click the <strong>Gantt chart</strong> icon.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">All changes are saved automatically when the <strong>Autosave</strong> option is enabled. It is enabled by default. </p> </li>

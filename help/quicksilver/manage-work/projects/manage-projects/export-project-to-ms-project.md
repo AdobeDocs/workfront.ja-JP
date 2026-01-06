@@ -6,22 +6,22 @@ description: Adobe Workfront プロジェクトを Microsoft Project に書き�
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 63%
+ht-degree: 67%
 
 ---
 
 # プロジェクトの Microsoft Project へのエクスポート
 
-Adobe Workfront プロジェクトを Microsoft Project に書き出すことができます。 
+Adobe Workfront プロジェクトを Microsoft Project に書き出すことができます。
 
 >[!IMPORTANT]
 >
 >* すべての Workfront フィールドが Microsoft Project ファイルに転送されるわけではありません。\
 >  Workfront と Microsoft Project の間のフィールドの互換性の詳細については、[Microsoft Project フィールドの Adobe Workfront プロジェクトへのマッピング](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)を参照してください。
->* あるアプリケーションから別のアプリケーションにプロジェクトを転送する回数を制限することをお勧めします。 
+>* あるアプリケーションから別のアプリケーションにプロジェクトを転送する回数を制限することをお勧めします。
 >
 
 ## アクセス要件
@@ -54,7 +54,7 @@ Adobe Workfront プロジェクトを Microsoft Project に書き出すことが
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -89,16 +89,16 @@ Adobe Workfront プロジェクトを Microsoft Project に書き出すことが
 
 プロジェクトは、Workfront のプロジェクトページ、プロジェクトリスト、レポートから書き出すことができます。
 
-1. 書き出すプロジェクトに移動し、プロジェクト名の右側にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) をクリックします
+1. 書き出すプロジェクトに移動し、プロジェクト名の右側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックします
 
-   ![&#x200B; 詳細ドロップダウン &#x200B;](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ 詳細ドロップダウン ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    または
 
-   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある「詳細」アイコン ![&#x200B; 詳細メニュー &#x200B;](assets/qs-more-menu.png) をクリックします。
+   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある「詳細」アイコン ![ 詳細メニュー ](assets/qs-more-menu.png) をクリックします。
 
-   ![&#x200B; 詳細メニューが展開されました &#x200B;](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![ 詳細メニューが展開されました ](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
-1. 「**MS プロジェクトを書き出し**」をクリックします。
+1. **MS Project をエクスポート** をクリックします。
 
-   プロジェクトが XML ファイルとしてコンピューターにダウンロードされ、Microsoft Project に読み込む準備が整います。 
+   プロジェクトが XML ファイルとしてコンピューターにダウンロードされ、Microsoft Project に読み込む準備が整います。

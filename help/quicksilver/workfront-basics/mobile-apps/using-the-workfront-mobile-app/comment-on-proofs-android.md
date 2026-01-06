@@ -6,10 +6,10 @@ description: プルーフに対する既存のコメントをレビューおよ�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 100%
    ![描画ツールの設定](assets/android-drawingtoolsettings-350x328.png)
 
 1. プルーフドキュメントにシェイプを描画します。**[!UICONTROL 取り消し]**&#x200B;アイコン ![取り消し](assets/android-undo-icon-30x31.png) を選択して、描画を取り消します。
-1. (条件付き）シェイプを選択し、「**[!UICONTROL 設定]**」でシェイプの設定を編集するか、「**[!UICONTROL 削除]**」でシェイプを削除します。
+1. （条件付き）図形を選択し、**[!UICONTROL 設定]** を選択して図形の設定を編集するか、**[!UICONTROL 削除]** を選択して図形を削除します。
 
    ![描画メニュー](assets/android-drawing-settingsremove-350x166.png)
 

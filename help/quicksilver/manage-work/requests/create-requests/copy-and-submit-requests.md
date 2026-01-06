@@ -6,10 +6,10 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 87%
+source-wordcount: '1539'
+ht-degree: 85%
 
 ---
 
@@ -127,13 +127,13 @@ ht-degree: 87%
 1. （オプション）必要に応じて、次の情報を更新します。
 
    * **リクエストタイプ**：コピーしたリクエストが保存されるリクエストキュー。デフォルトでは、コピーされたリクエストは、元のリクエストのリクエストキューに保存されます。
-   * **トピックグループ**&#x200B;および&#x200B;**トピックをキュー**（選択されている場合）。名前またはトピックグループとキューのトピックは、環境に合わせてカスタマイズされます。デフォルトでは、コピーしたリクエストは、元のリクエストのトピックグループおよびキューのトピックに保存されます。
+   * **トピックグループ** および **キュートピック** （選択されている場合） 名前またはトピックグループとキューのトピックは、環境に合わせてカスタマイズされます。デフォルトでは、コピーしたリクエストは、元のリクエストのトピックグループおよびキューのトピックに保存されます。
 
      >[!TIP]
      >
      >パスが元のリクエストのパスから変更された場合、リクエストのキューの作成者はキューを変更しました。
 
-1. （オプション）コピーしたリクエストの情報を更新します。プロジェクト上の「**キューの詳細**」サブタブの「**新しいイシューフィールド**」セクションで、リクエストキュー作成者がどのフィールドを有効にするかに応じて、次のフィールドのいずれかが表示されます。
+1. （オプション）コピーしたリクエストの情報を更新します。プロジェクトの「**キューの詳細**」サブタブの「**新規問題フィールド**」セクションでリクエストキューの作成者が有効にしたフィールドに応じて、次のフィールドのいずれかが表示されます。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -141,7 +141,7 @@ ht-degree: 87%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>件名</strong> </td> 
-      <td>元のリクエストの名前を表示します。必要に応じて更新します。更新しない場合、Workfront は、コピーしたリクエストに <b>&lt;Name of original request&gt; のコピー</b>という名前を付けます。これは必須フィールドです。</td> 
+      <td>元のリクエストの名前を表示します。必要に応じて更新します。 それ以外の場合、Workfrontはコピーしたリクエストに名前を付けます <b>Copy of &lt;Original request&gt;</b>。 これは必須フィールドです。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>説明</strong> </td> 
@@ -230,14 +230,15 @@ ht-degree: 87%
 
 リクエストは、Workfrontの「リクエスト」領域、またはホームの「マイリクエスト」ウィジェットからコピーして送信できます。
 
-1. 「リクエスト」リストにアクセスするには、Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックします。または（利用可能な場合）左上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、「**[!UICONTROL リクエスト]**」をクリックします。
+{{step1-to-requests}}
 
 1. ホームのリクエスト ウィジェットにアクセスするには：
 
-   1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+   {{step1-to-home}}
+
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
 1. リクエスト リストまたはマイリクエストウィジェットで、コピーするリクエストにポインタを合わせます。
 

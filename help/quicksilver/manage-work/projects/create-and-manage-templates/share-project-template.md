@@ -6,10 +6,10 @@ description: テンプレートをユーザーと共有したり、テンプレ�
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 92%
+source-wordcount: '724'
+ht-degree: 87%
 
 ---
 
@@ -93,11 +93,11 @@ Workfront の権限について詳しくは、[オブジェクトに対する共
 {{step1-to-templates}}
 
 1. 次のいずれかの操作を行います。\
-   テンプレートの名前をクリックして開き、**詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png)/**テンプレート共有** をクリックします。
+   テンプレートの名前をクリックして開き、**詳細** メニュー ![ 詳細アイコン ](assets/more-icon.png)/**テンプレート共有** をクリックします。
 
    または
 
-   リストからテンプレートを選択し、共有アイコン ![](assets/share-icon.png) をクリックし、さらに「**テンプレート**」をクリックします。
+   リストからテンプレートを選択し、共有アイコン ![ テンプレートを共有 ](assets/share-icon.png) をクリックして、「**テンプレート** をクリックします。
 
    >[!TIP]
    >
@@ -117,7 +117,7 @@ Workfront の権限について詳しくは、[オブジェクトに対する共
 
    * **管理**：この権限を持つユーザーは、テンプレートを編集または削除できます。
 
-     ここで利用できる詳細設定 ![](assets/gear-icon-in-access-levels.png) について詳しくは、[テンプレートの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)の記事にある[テンプレート共有の詳細設定](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions)の節を参照してください。
+     ここで利用できる詳細設定 ![ 歯車アイコン ](assets/gear-icon-in-access-levels.png) について詳しくは、記事 [](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) テンプレートの共有 [ の「テンプレート共有の詳細設定 ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) を参照してください。
 
 1. 「**保存**」をクリックします。
 
@@ -128,7 +128,7 @@ Workfront の権限について詳しくは、[オブジェクトに対する共
 テンプレートから作成された今後のプロジェクトをユーザーと共有するには、以下のように行います。
 
 1. 次のいずれかの操作を行います。\
-   テンプレートの名前をクリックして開き、**詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png)/**テンプレート共有** をクリックします。
+   テンプレートの名前をクリックして開き、**詳細** メニュー ![ 詳細アイコン ](assets/more-icon.png)/**テンプレート共有** をクリックします。
 
    ![テンプレートからプロジェクトを共有](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
@@ -145,9 +145,9 @@ Workfront の権限について詳しくは、[オブジェクトに対する共
 1. 各エンティティのドロップダウンメニューから、次のいずれかを選択します。
 
    * **アクセスなし**：テンプレートにアクセスできないユーザーを指定できます。\
-     このオプションは、テンプレートからプロジェクトを一括共有する場合にのみ使用できます。 
+     このオプションは、テンプレートからプロジェクトを一括共有する場合にのみ使用できます。
    * **表示**：この権限を持つユーザーは、テンプレートから作成されたプロジェクトを表示できます。
-   * **参加**：この権限を持つユーザーは、テンプレートから作成されたプロジェクトに参加できます。
+   * **投稿**：これらの権限を持つユーザーは、テンプレートから作成されたプロジェクトに投稿できます
    * **管理**：この権限を持つユーザーは、このテンプレートから作成されたプロジェクトを管理または削除できます。
 
 1. （オプション）**オプション**&#x200B;アイコンをクリックして、プロジェクトをシステム全体で使用できるようにします。

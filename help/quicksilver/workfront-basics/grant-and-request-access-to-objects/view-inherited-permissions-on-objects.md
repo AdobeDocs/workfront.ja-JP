@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 ユーザーに付与されるアクセスレベルに加えて、自分が作成した特定のオブジェクトや、自分が共有のアクセス権を持つ特定のオブジェクトを表示または編集する権限をユーザーに付与することもできます。アクセスレベルと権限について詳しくは、[アクセスレベルと権限の連携方法](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)を参照してください。
 
-Adobe Workfront では、オブジェクトは親オブジェクトから権限を継承します。
+オブジェクトは、Adobe Workfrontの親オブジェクトから権限を継承します。
 
 Workfront のオブジェクトの階層について詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)を参照してください。
 
@@ -68,7 +68,7 @@ Workfront のオブジェクトの階層について詳しくは、[Adobe Workfr
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> 
+   <p>Work またはそれ以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -107,6 +107,6 @@ Workfront のオブジェクトの階層について詳しくは、[Adobe Workfr
    >
    >継承された権限を削除するには、オブジェクトに対する管理権限が必要です。
 
- 
 
- 
+
+

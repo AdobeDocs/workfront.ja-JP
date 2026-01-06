@@ -6,10 +6,10 @@ description: プロジェクトのタスクスケジュール間に競合が生�
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 プロジェクトのタスクスケジュール間に競合が生じる場合があります。リソースとタスクを再スケジュールして、すべてのタスクを現実的なスケジュール内で完了できるように、リソースを標準化したり、リソースの競合に対処したりできます。タスクの標準化について詳しくは、[ガントチャートのリソースの標準化](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)を参照してください。
 
-プロジェクトマネージャーまたはタスクの担当者として、個々のタスクに標準化の遅延を追加して、リソースまたはスケジュールの競合を考慮することもできます。つまり、Adobe Workfront のレベルでタスクをより現実的なスケジュールに従ってリソースの競合を回避するために、遅延を伴ってタスクをスケジュールする場合があります。
+プロジェクトマネージャーまたはタスクの担当者として、個々のタスクに標準化の遅延を追加して、リソースまたはスケジュールの競合を考慮することもできます。つまり、Adobe Workfrontでタスクを平準化するときに、より現実的なスケジュールでリソースの競合を解決できるように、タスクが遅れてスケジュールされる場合があります。
 
 タスクに標準化の遅延を追加すると、タスクの完了予定日が調整されます。完了予定日について詳しくは、[プロジェクト、タスクおよびイシューに関する予定完了日の概要](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)を参照してください。
 
@@ -36,7 +36,7 @@ ht-degree: 95%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p>
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -93,7 +93,7 @@ ht-degree: 95%
    時間の単位に対して、次のオプションから選択します。
 
    * 分
-   * 時間.これがデフォルトです。
+   * 時間。 これがデフォルトです。
    * 日
    * 週
    * 月
@@ -109,4 +109,4 @@ ht-degree: 95%
 
 1. 「**保存**」をクリックします。
 
- 
+

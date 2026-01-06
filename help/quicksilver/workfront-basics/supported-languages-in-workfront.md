@@ -6,10 +6,10 @@ description: ブラウザーの言語設定と Workfront 内のデフォルト�
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 65%
+source-wordcount: '1137'
+ht-degree: 66%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 65%
 
 ブラウザー（Adobe Admin Consoleに移行されていない場合）またはWorkfront プロファイルの言語環境設定（Adobe Admin Consoleの場合）とWorkfront内のデフォルトのメールのロケールを調整することで、Adobe Experience CloudおよびAdobe Workfrontからのメールを表示する言語を変更できます。
 
-Workfront を表示する言語を変更するには、この記事の [&#x200B; 言語の変更 &#x200B;](#change-the-language) を参照してください。
+Workfront を表示する言語を変更するには、この記事の [ 言語の変更 ](#change-the-language) を参照してください。
 
 Workfront の用語は、Workfront が更新されるたびに、サポート対象の言語に合わせて更新されます。
 
@@ -32,7 +32,7 @@ Workfront は、次の言語をサポートしています。
 * ポルトガル語（pt-BR）
 * 韓国語（ko）
 * 中国語 - 簡体字（zh-CN）
-* 中国語 - 繁体字（zh-TW）
+*   中国語 - 繁体字（zh-TW）
 
 ブラウザーでWorkfrontを表示する際に使用する言語は、組織がAdobe Admin Console上にない場合はブラウザーの言語設定によって、組織がAdobe Admin Console上にある場合はAdobe Experience Cloud プロファイルの言語によって制御されます。 どちらの場合も、「サポートされる言語」リストに表示されている言語を選択していることを確認してください。
 
@@ -72,7 +72,7 @@ Workfront 内の web プルーフビューアは、Workfront でサポートさ�
 
 次の言語は、プルーフツールではサポートされていません。
 
-* 中国語 - 繁体字（zh-TW）
+*   中国語 - 繁体字（zh-TW）
 * 韓国語（ko-KR）
 
 Web プルーフビューアにアクセスするには、会社がプルーフ用ライセンスを購入する必要があります。
@@ -92,7 +92,7 @@ Workfront Proof でサポートされる言語について詳しくは、[Workfr
 * Workfront Fusion では、ユーザー入力フィールドで英語以外のテキスト文字の使用はサポートされていません。
 
 Workfront Fusion にアクセスするには、会社が Workfront Fusion ライセンスを購入している必要があります。\
-Workfront Fusion について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+Workfront Fusion について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 ## 言語を変更
 
@@ -109,7 +109,7 @@ Workfront Fusion について詳しくは、[Adobe Workfront Fusion の概要](h
 | URL | Adobe Experience | 言語コントロール |
 |---|---|---|
 | (CompanyName).my.workfront.com | Adobe Admin Consoleに移行されていません | [ブラウザーの言語の変更](#change-the-browser-language) |
-| experience.adobe.com | Adobe Admin Consoleに移行しました | [Adobe Experience Cloudの言語の変更 &#x200B;](#change-the-adobe-experience-cloud-language) |
+| experience.adobe.com | Adobe Admin Consoleに移行しました | [Adobe Experience Cloudの言語の変更 ](#change-the-adobe-experience-cloud-language) |
 
 * [ブラウザーの言語の変更](#change-the-browser-language)
 * [Adobe Experience Cloudの言語の変更](#change-the-adobe-experience-cloud-language)
@@ -146,7 +146,8 @@ Workfront でサポートされている言語について詳しくは、[Adobe 
 デフォルトの Workfront メールロケールを変更するには：
 
 1. Workfront 管理者として Workfront にログインします。
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、「**設定**![](assets/gear-icon-settings.png) をクリックします。
+
+{{step-1-to-setup}}
 
 1. **システム**／**顧客情報**&#x200B;をクリックします。
 
@@ -160,11 +161,13 @@ Workfront でサポートされている言語について詳しくは、[Adobe 
 
 >[!NOTE]
 >
->組織がAdobe統合エクスペリエンス上にある場合、言語環境設定はAdobe プロファイルに保存され、メールのロケールは使用されません。 この記事の [Adobe Experience Cloud言語の変更 &#x200B;](#change-the-adobe-experience-cloud-language) を参照してください。
+>組織がAdobe統合エクスペリエンス上にある場合、言語環境設定はAdobe プロファイルに保存され、メールのロケールは使用されません。 この記事の [Adobe Experience Cloud言語の変更 ](#change-the-adobe-experience-cloud-language) を参照してください。
 
 ユーザーのメールロケールを変更するには：
 
-1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン![](assets/main-menu-icon.png)、ユーザープロファイルの画像の順にクリックします。
+{{step1-click-main-menu}}
+
+1. ユーザープロファイルの画像をクリックします。
 
 1. その他メニュー![](assets/more-icon.png)、「**編集**」の順にクリックします。
 

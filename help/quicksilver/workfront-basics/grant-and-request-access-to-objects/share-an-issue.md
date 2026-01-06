@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、ユーザーにアクセスレベル
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> 
+   <p>Work またはそれ以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 * イシューの作成者は、デフォルトでその管理権限を持っています。
 * イシューは、個別に共有することも、一度に複数共有することもできます。イシューの共有は、Workfront の他のアイテムを共有する場合と同じです。Workfront でのアイテムの共有について詳しくは、[オブジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
-* イシューに対しては、次の権限を付与できます。
+* イシューに次の権限を付与できます。
 
    * 表示
    * 参加
@@ -85,7 +85,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
    * そのイシュー、プロジェクト、プログラム、ポートフォリオの任意の親オブジェクトに対する権限を指定します。イシューは親オブジェクトから権限を継承します。オブジェクトの継承された権限の表示については、[オブジェクトの継承された権限の表示](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)を参照してください。
    * そのイシューがあるプロジェクトの作成に使用したテンプレートで、プロジェクト共有にエンティティを追加します。テンプレートからプロジェクトを共有する方法については、[テンプレートの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
 
-   * プロジェクトを編集するときに、プロジェクト内のすべてのイシューに対する権限を指定します。プロジェクトに対するユーザーの権限に基づいてプロジェクトのイシューやリクエストへのアクセス権を管理する方法については、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事の [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) の節を参照してください。
+   * プロジェクトを編集するときに、プロジェクト内のすべてのイシューに対する権限を指定します。プロジェクトに対するユーザーの権限に基づいてプロジェクトのイシューやリクエストへのアクセス権を管理する方法については、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事の [](../../manage-work/projects/manage-projects/edit-projects.md#access) の節を参照してください。
 
      >[!TIP]
      >
@@ -107,7 +107,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue at the project level</h2>
-<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)&nbsp;</p>
+<p>(NOTE: this info duplicates in Edit projects - linked there instead (above).)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are added to a project.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -117,7 +117,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 <ul>
 <li><strong>View</strong></li>
 <li><strong>Contribute</strong></li>
-<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.&nbsp;</li>
+<li><strong>Manage</strong><br>Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue.  </li>
 </ul></li>
 <li value="5">(Optional) Select the <strong>Also grant ... access to the project</strong> field to also grant View, Contribute, or Manage permissions to the projects to the user assigned to the issue</li>
 <li value="6">In the <strong>When someone submits a REQUEST ...</strong> field, select from the following permissions levels:
@@ -132,7 +132,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 </ul>
 </note></li>
 </ul></li>
-<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="7"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong> field.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="8">Click <strong>Save Changes</strong>.</li>
 </ol>
 </div>
@@ -141,7 +141,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Automatically share an issue in request queues</h2>
-<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)&nbsp;</p>
+<p>(NOTE: drafted because it's duplicated from Create a Request Queue which is linked above)  </p>
 <p>As the Project Owner, you can grant permissions automatically to users as the issues are submitted to a request queue.</p>
 <ol>
 <li value="1">Go to the project whose issues you want to share automatically.</li>
@@ -153,7 +153,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 <li><strong>Contribute Access</strong> </li>
 <li> <p><strong>Manage Access</strong> </p> </li>
 </ul> <p>Now, when someone submits a request to the selected project, they are granted the specified permissions to the request.</p> </li>
-<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.&nbsp;</p> </li>
+<li value="5"> <p>(Optional) Select the <strong>People from the same company will inherit the same permissions for all requests</strong>.</p> <p>People from the same company as the user submitting the request are granted the same permissions on the requests as the user.  </p> </li>
 <li value="6">Click <strong>Save</strong>.</li>
 </ol>
 </div>
@@ -165,7 +165,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 1. イシュー名の右側にある「**共有**」をクリックします。 **共有 [ イシュー名]** ダイアログボックスが開きます。
 
-   ![&#x200B; 問題を共有ボタン &#x200B;](assets/share-issue-button.png)
+   ![ 問題を共有ボタン ](assets/share-issue-button.png)
 
 1. **イシューへのアクセス権の付与** フィールドに、イシューを共有するユーザー、チーム、役割、グループ、会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
@@ -187,7 +187,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 1. （任意）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、イシューに対する特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-permission-options.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-permission-options.png)
 
 1. （任意）リンクを使用して問題をすばやく共有するには、「**リンクをコピー**」をクリックして受信者に転送します。
 
@@ -197,9 +197,9 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 1. 共有するイシューを含むプロジェクトに移動します。
 
-1. プロジェクトページの「**イシュー**」タブで、共有する各イシューの左側にあるボックスを選択し、ページ上部にある **共有** アイコン ![&#x200B; 共有アイコン &#x200B;](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
+1. プロジェクトページの「**イシュー**」タブで、共有する各イシューの左側にあるボックスを選択し、ページ上部にある **共有** アイコン ![ 共有アイコン ](assets/share-icon.png) をクリックします。 共有モーダルが開きます。
 
-   ![&#x200B; 一括共有の問題 &#x200B;](assets/bulk-share-issues.png)
+   ![ 一括共有の問題 ](assets/bulk-share-issues.png)
 
 1. 「**イシューへのアクセスの許可**」フィールドで、イシューを共有するユーザー、チーム、役割、グループ、会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
@@ -222,7 +222,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 1. （任意）付与した権限レベルの横にある「詳細オプション」アイコンをクリックして、イシューに対する特定の権限を設定します。
 
-   ![&#x200B; 設定済みの高度な権限オプション &#x200B;](assets/advanced-permission-options.png)
+   ![ 設定済みの高度な権限オプション ](assets/advanced-permission-options.png)
 
 1. 「**保存**」をクリックします。
 
@@ -245,26 +245,26 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
   <tr> 
    <td> <p>イシューを追加</p> </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
-   <td>削除 </td> 
+   <td>削除  </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>カスタムフォームを添付</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>カスタムフィールドを編集</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>イシューを承認</td> 
@@ -275,8 +275,8 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
   <tr> 
    <td>承認プロセスを追加</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>ドキュメントを追加</td> 
@@ -293,26 +293,26 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
   <tr> 
    <td>イシューを移動</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>時間の記録</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>プロジェクトに変換*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>割り当ての受け入れ</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>アップデート／コメント</td> 
@@ -323,14 +323,14 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
   <tr> 
    <td>予定日の変更</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>割り当ての作成</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>共有</td> 
@@ -340,8 +340,8 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
   </tr> 
   <tr> 
    <td>システム全体で共有</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

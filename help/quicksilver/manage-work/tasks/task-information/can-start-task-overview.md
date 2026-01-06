@@ -7,10 +7,10 @@ description: タスクを開始する準備が整ったら、Adobe Workfront は
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 77%
+ht-degree: 71%
 
 ---
 
@@ -33,6 +33,6 @@ Workfront は、タスクの「開始可能」フィールドを True に設定�
 ## 開始する準備が整ったタスクの識別に関する考慮事項
 
 * タスクと先行タスクの「依存関係タイプ」が「開始 - 開始」の場合は、先行タスクの関係が解決されて後続タスクを開始できるように、先行タスクを開始する必要があります。依存関係タイプについて詳しくは、[タスク依存関係タイプの概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)を参照してください。
-* タスクにプロジェクト間先行タスクがある場合、先行タスクの完了によって、後続タスクに自動的に適用する「開始可能」インジケーターはトリガーされません。後続のタスクが「開始可能」タスクとして表示される前に、後続のプロジェクトのタイムラインを手動で再計算するか、Workfront で自動的に再計算される必要があります。プロジェクトタイムラインの再計算について詳しくは、[プロジェクトタイムラインの再計算](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
+* タスクにプロジェクト間先行タスクがある場合、先行タスクの完了によって、後続タスクに自動的に適用する「開始可能」インジケーターはトリガーされません。後続タスクが「開始可能」タスクとして表示される前に、後続タスクのプロジェクトまたはWorkfrontのタイムラインを手動で再計算する必要があります。 プロジェクトタイムラインの再計算について詳しくは、[プロジェクトタイムラインの再計算](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 
   プロジェクト間の先行タスクについて詳しくは、[プロジェクト間の先行タスクの作成](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)を参照してください。

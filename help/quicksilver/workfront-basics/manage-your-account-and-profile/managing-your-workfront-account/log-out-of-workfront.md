@@ -6,10 +6,10 @@ description: セキュリティ上の理由から、 [!DNL Adobe Workfront]  か
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 84%
+source-wordcount: '206'
+ht-degree: 96%
 
 ---
 
@@ -60,5 +60,7 @@ ht-degree: 84%
 
 ## [!DNL Workfront] アカウントからログアウト
 
-1. **[!UICONTROL の右上隅にある]** メインメニュー ![&#x200B; アイコン &#x200B;](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront] をクリックしてから、**[!UICONTROL ログアウト]**![&#x200B; ログアウトアイコン &#x200B;](assets/logout-icon.png) をクリックします。
+{{step1-click-main-menu}}
+
+1. **[!UICONTROL ログアウト]**![ ログアウトアイコン ](assets/logout-icon.png) をクリックします。
 1. これによりログインページに戻り、ユーザー名とパスワードを再入力できます。

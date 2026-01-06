@@ -5,10 +5,10 @@ author: Becky
 draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 87%
+ht-degree: 79%
 
 ---
 
@@ -58,11 +58,11 @@ ht-degree: 87%
 1. リクエストの送信を開始します（[Adobe Workfront のリクエストの作成および送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照）。
 1. 次のいずれかの操作を行います。
 
-   * リクエストタイプフィールドでリクエストキューを選択
+   * 「リクエストタイプ」フィールドでリクエストキューを選択します
    * リクエストキューと最大 10 個のトピックグループを選択
-   * リクエストキュー、トピックグループおよびキューのトピックを選択
+   * リクエストキュー、トピックグループおよびキュートピックを選択
 
-1. リクエストを送信する前に、ページの右上隅の「**パスを共有**」をクリックします。
+1. リクエストを送信する前に、ページの右上隅にある **パスを共有** をクリックします。
 
    これにより、前の手順で選択したリクエストキュー、トピックグループまたはキューのトピックへのリンクがクリップボードにコピーされます。
 
