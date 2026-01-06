@@ -4,10 +4,10 @@ description: 2026 年第 1 四半期の統合の強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0434e500daa257ec9070c5bb0279eb30545f64d
+source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 11%
+source-wordcount: '183'
+ht-degree: 19%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 11%
 
 以前は、プルーフは Express 固有のプロジェクトに自動的に追加されていました。
 
-詳しくは、[Adobe ExpressとWorkfront Proofの統合 &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。
+詳しくは、[Adobe ExpressとWorkfront Proofの統合 ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。
 
 ## Adobe Workfront for Experience Manager Assetsのネイティブ統合用にアセットセレクターを更新しました
 
@@ -42,19 +42,23 @@ ht-degree: 11%
 
 Adobe Workfront for Experience Manager Assets統合のアセットセレクターをアップグレードしました。 このアップグレードにより、AEM コレクションを選択してWorkfrontに直接取り込むことができるようになりました。
 
-## Salesforce統合の新しいバージョンが利用できるようになりました
+<!--
+
+## New version of Salesforce integration now available
 
 >[!IMPORTANT]
 >
->より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、新しいバージョンを含むWorkfront for Salesforce統合は、**2026 年 2 月 28 日** 以降は利用できなくなります。
+>To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. 
 
 >[!NOTE]
 >
->プレビュー：2025 年 10 月 30 日（PT）
->実稼動高速リリース：2025 年 10 月 30 日（PT）\
->すべてのユーザー向けの実稼動：2025 年 10 月 30 日（PT）
+>Preview: October 30, 2025 
+>Production fast release: October 30, 2025  
+>Production for everyone: October 30, 2025  
 
-Workfront API に対する最近の変更を最新の状態に保つために、新しいSalesforce統合を作成しました。 この新しい統合は、以前のバージョンと同じ機能を備え、API で非推奨となった機能が失われないように更新されました。
+To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.
 
-新しい統合のダウンロードとインストールの手順とリンクについては、[Salesforce用Adobe Workfrontのインストール &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) を参照してください。
+For instructions and links for downloading and installing the new integration, see [Install Adobe Workfront for Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+
+-->
 
