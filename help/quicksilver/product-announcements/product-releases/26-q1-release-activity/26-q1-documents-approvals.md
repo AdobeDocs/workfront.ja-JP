@@ -4,9 +4,9 @@ description: 2026 年第 1 四半期のドキュメントと承認の強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0197be82879cbd2abfd053e4a93002884db252b4
+source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 12%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 2026年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2026年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)を参照してください。
 
-## Creative Cloud Express でレビューを送信する際のWorkfront プロジェクトの選択
+## Adobe Expressでレビューを送信する際のWorkfront プロジェクトの選択
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 12%
 
 以前は、プルーフは Express 固有のプロジェクトに自動的に追加されていました。
 
-詳しくは、[Adobe ExpressとWorkfront Proofの統合 &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。
+詳しくは、[Adobe ExpressとWorkfront Proofの統合 ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。
 
 ## Workfront プルーフを使用したAdobe Expressの組織間サポート
 
@@ -41,7 +41,7 @@ ht-degree: 12%
 
 Workfront プルーフを使用したAdobe Expressのクロスオーガニゼーションサポートを導入します。 この機能強化により、複数の IMS 組織で業務を行うお客様は、プルーフワークフローをシームレスに使用および管理できるようになります。
 
-詳しくは、[Adobe ExpressとWorkfront Proofの統合の基本を学ぶ &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。
+詳しくは、[Adobe ExpressとWorkfront Proofの統合の基本を学ぶ ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。
 
 
 ## Adobe Experience Managerが Frame.io 統合で利用できるようになりました。
@@ -54,5 +54,5 @@ Workfront プルーフを使用したAdobe Expressのクロスオーガニゼー
 
 これで、Experience Manager Assetsを使用して、&#x200B;レビューと承認のサイクルを経たデジタルアセットを管理および保存できます。 この統合により、Adobe Experience Manager、Frame.io、Workfrontの機能を活用して、コンテンツ管理や共同作業のプロセスを合理化できます。
 
-詳しくは、[Adobe Experience Managerを Frame.io 統合環境で使用する &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md) を参照してください。
+詳しくは、[Adobe Experience Managerを Frame.io 統合環境で使用する ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md) を参照してください。
 
