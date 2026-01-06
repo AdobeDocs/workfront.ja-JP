@@ -63,7 +63,7 @@ ht-degree: 4%
 
 ユーザーは、合計のラベルを表示または非表示にしたり、カスタムラベル値を指定したりすることもできます。
 
-詳しくは、[ キャンバスダッシュボードでのグラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードでのグラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 ## キャンバスダッシュボードの円グラフ用の新しい設定オプション
 
@@ -78,7 +78,7 @@ ht-degree: 4%
 * セグメントラベルを非表示にする：円グラフのセグメントラベルが長すぎてグラフの読みやすさに影響する場合に、円グラフでセグメントラベルを非表示にするように選択できるようになりました。
 * グラフの凡例の非表示と再配置：円グラフの凡例を非表示にするように選択できるようになりました。 凡例の位置は、グラフの右（デフォルト）、左、上、下に設定することもできます。
 
-詳しくは、[ キャンバスダッシュボードでのグラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードでのグラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 ## キャンバスダッシュボードのグループ化数の改善
 
@@ -106,7 +106,7 @@ ht-degree: 4%
 
 注記：参照線は動的ではなく、複数の参照線は適用できません。 将来の機能強化については検討していますが、当面の計画はありません。
 
-詳しくは、[ キャンバスダッシュボードでのグラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードでのグラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 ## キャンバスダッシュボードのチャートレポートの軸ラベルのカスタマイズ
 
@@ -118,7 +118,7 @@ ht-degree: 4%
 
 グラフレポートの軸ラベルをカスタマイズできるようになりました。 この新機能を使用すると、デフォルトのオブジェクトおよびフィールド パスの代わりに表示する置き換え軸ラベルを入力できます。 また、軸ラベル全体を非表示にすることもできます。
 
-詳しくは、[ キャンバスダッシュボードでのグラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードでのグラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 ## キャンバスダッシュボードでのレポートの複製
 
@@ -126,7 +126,7 @@ ht-degree: 4%
 >
 >プレビューリリース：2025年10月23日（PT）
 >実稼動版（すべてのお客様向け）：2025年10月23日（PT）
->[!BADGE 予定外 ]{type=Neutral}
+>[!BADGE 予定外 &#x200B;]{type=Neutral}
 
 キャンバスダッシュボードで KPI、テーブル、またはグラフレポートを作成後に複製できるようになりました。 複製したら、必要に応じてレポートを編集してから保存できます。
 
