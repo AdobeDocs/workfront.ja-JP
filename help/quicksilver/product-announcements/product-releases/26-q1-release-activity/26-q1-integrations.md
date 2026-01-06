@@ -30,7 +30,7 @@ ht-degree: 19%
 
 以前は、プルーフは Express 固有のプロジェクトに自動的に追加されていました。
 
-詳しくは、[Adobe ExpressとWorkfront Proofの統合 ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。
+詳しくは、[Adobe ExpressとWorkfront Proofの統合 &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。
 
 ## Adobe Workfront for Experience Manager Assetsのネイティブ統合用にアセットセレクターを更新しました
 
