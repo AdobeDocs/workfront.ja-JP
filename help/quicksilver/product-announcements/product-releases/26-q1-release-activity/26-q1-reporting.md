@@ -4,9 +4,9 @@ description: 2026 年第 1 四半期レポートの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '933'
 ht-degree: 4%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 4%
 
 ユーザーは、合計のラベルを表示または非表示にしたり、カスタムラベル値を指定したりすることもできます。
 
-詳しくは、[&#x200B; キャンバスダッシュボードでのグラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[ キャンバスダッシュボードでのグラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 ## キャンバスダッシュボードの円グラフ用の新しい設定オプション
 
@@ -78,7 +78,7 @@ ht-degree: 4%
 * セグメントラベルを非表示にする：円グラフのセグメントラベルが長すぎてグラフの読みやすさに影響する場合に、円グラフでセグメントラベルを非表示にするように選択できるようになりました。
 * グラフの凡例の非表示と再配置：円グラフの凡例を非表示にするように選択できるようになりました。 凡例の位置は、グラフの右（デフォルト）、左、上、下に設定することもできます。
 
-詳しくは、[&#x200B; キャンバスダッシュボードでのグラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[ キャンバスダッシュボードでのグラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 ## キャンバスダッシュボードのグループ化数の改善
 
@@ -106,7 +106,7 @@ ht-degree: 4%
 
 注記：参照線は動的ではなく、複数の参照線は適用できません。 将来の機能強化については検討していますが、当面の計画はありません。
 
-詳しくは、[&#x200B; キャンバスダッシュボードでのグラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[ キャンバスダッシュボードでのグラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 ## キャンバスダッシュボードのチャートレポートの軸ラベルのカスタマイズ
 
@@ -118,7 +118,7 @@ ht-degree: 4%
 
 グラフレポートの軸ラベルをカスタマイズできるようになりました。 この新機能を使用すると、デフォルトのオブジェクトおよびフィールド パスの代わりに表示する置き換え軸ラベルを入力できます。 また、軸ラベル全体を非表示にすることもできます。
 
-詳しくは、[&#x200B; キャンバスダッシュボードでのグラフレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
+詳しくは、[ キャンバスダッシュボードでのグラフレポートの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) を参照してください。
 
 ## キャンバスダッシュボードでのレポートの複製
 
@@ -126,7 +126,7 @@ ht-degree: 4%
 >
 >プレビューリリース：2025年10月23日（PT）
 >実稼動版（すべてのお客様向け）：2025年10月23日（PT）
->[!BADGE 予定外 &#x200B;]{type=Neutral}
+>[!BADGE 予定外 ]{type=Neutral}
 
 キャンバスダッシュボードで KPI、テーブル、またはグラフレポートを作成後に複製できるようになりました。 複製したら、必要に応じてレポートを編集してから保存できます。
 
@@ -151,16 +151,6 @@ ht-degree: 4%
 * その他のグループ：ID
 * その他の役割：ID
 * その他のチーム：ID
-
-## キャンバスダッシュボードでのグループ化数の表示を改善しました
-
->[!NOTE]
->
->プレビュー：2025 年 11 月 6 日（PT）
->実稼動高速リリース：2025 年 11 月 13 日（PT）
->すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
-
-表レポートに結果の複数のページがあり、表がグループ化で構成されている場合、表には、現在のページのレコード金額と、すべてのページの全体的なレコード数の両方が表示されるようになりました。 例えば、テーブルレポートに 7 つのグループがあり、最初のページに 3 が表示されている場合、テーブルには 3/7 が表示されます。
 
 
 ## キャンバスダッシュボードの読み込み時間を改善する新しいガードレール
