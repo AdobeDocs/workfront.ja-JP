@@ -181,7 +181,7 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 * 親タスクの期間を計算する場合、システムでは、最初に上記の式によって期間を計算してから、スケジュールを適用します。
 
 
-詳しくは、[ タスクの元の期間と元の予定時間数の概要 ](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
+詳しくは、[&#x200B; タスクの元の期間と元の予定時間数の概要 &#x200B;](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
 
 ## タスクの期間タイプの変更
 

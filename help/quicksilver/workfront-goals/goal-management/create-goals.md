@@ -227,7 +227,7 @@ Creating goals differs depending on what environment you use.
 
    「新しい目標」ボックスが表示されます。
 
-   ![ 新しい目標ボックス ](assets/new-goal-box-unshimmed.png)
+   ![&#x200B; 新しい目標ボックス &#x200B;](assets/new-goal-box-unshimmed.png)
 
 1. 次のフィールドに情報を入力します。
    * **目標名**：目標の名前を入力します。必須フィールドです。

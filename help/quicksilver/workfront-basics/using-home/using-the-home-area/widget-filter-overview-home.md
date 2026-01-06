@@ -290,7 +290,7 @@ ht-degree: 17%
 
 自分のリクエスト ウィジェットには、ウィジェットに表示するリクエストを制御できるカスタマイズ可能なフィルターが備わっています。 このフィルターは、様々なフィールドと値に対して設定でき、AND および OR を使用して条件をスタックできます。
 
-自分のリクエスト ウィジェットのフィルターを設定する手順については、「自分のリクエスト ウィジェットの使用」の [ リクエストをフィルタリング ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) を参照してください。
+自分のリクエスト ウィジェットのフィルターを設定する手順については、「自分のリクエスト ウィジェットの使用」の [&#x200B; リクエストをフィルタリング &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) を参照してください。
 
 </div>
 

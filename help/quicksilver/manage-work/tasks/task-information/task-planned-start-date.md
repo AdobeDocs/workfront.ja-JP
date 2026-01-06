@@ -31,7 +31,7 @@ ht-degree: 45%
 
 タスクの予定開始日を設定するかどうかは、タスクに割り当てたタスク制約の種類に応じて異なります。
 
-タスクの作成時に予定開始日を手動で設定できます。 詳しくは、[ プロジェクトでのタスクの作成 ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) を参照してください。
+タスクの作成時に予定開始日を手動で設定できます。 詳しくは、[&#x200B; プロジェクトでのタスクの作成 &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) を参照してください。
 
 次のいずれかのタスク制約を選択する際に、予定開始日を手動で指定できます。
 
@@ -64,11 +64,11 @@ ht-degree: 45%
 
   Workfrontまたはグループ管理者は、新しいタスクをプロジェクトの予定開始日と同じ日に開始するか、タスクを作成した日に開始するかを決定できます。
 
-  タスクとイシューの環境設定については、[ システム全体のタスクとイシューの環境設定を設定 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) を参照してください。
+  タスクとイシューの環境設定については、[&#x200B; システム全体のタスクとイシューの環境設定を設定 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) を参照してください。
 
 * タスクの制約
 
-  タスク制約の詳細については、「[ タスク制約の概要 ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)」を参照してください。
+  タスク制約の詳細については、「[&#x200B; タスク制約の概要 &#x200B;](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)」を参照してください。
 
 * タスクの先行関係
 
@@ -81,7 +81,7 @@ ht-degree: 45%
 
   例えば、「できるだけ早く」の制約を持つタスクが 6 月 1 日に開始して 6 月 3 日に完了するようにスケジュールされていて、プライマリ担当者が 6 月 1 日を休暇としてマークしている場合、タスクの予定開始日は 6 月 2 日になります。
 
-  ユーザーの休暇の環境設定については、[ システム全体のプロジェクト環境設定を設定 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) または [ プロジェクトを編集 ](../../../manage-work/projects/manage-projects/edit-projects.md) を参照してください。
+  ユーザーの休暇の環境設定については、[&#x200B; システム全体のプロジェクト環境設定を設定 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) または [&#x200B; プロジェクトを編集 &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) を参照してください。
 
 自動的に設定された場合、「予定開始日」は次の計算に基づいて決定されます。
 
@@ -94,4 +94,4 @@ Planned Start Date = Planned Completion Date - Task Duration
 >[!NOTE]
 >
 > また、予定時間数と期間を自動的に調整するには、プロジェクトの更新タイプを [ 自動 ] と [ 変更時 ] または [ 自動 ] に設定する必要があります。\
->更新の種類の詳細については、[ プロジェクトの更新の種類を選択する ](../../../manage-work/projects/manage-projects/select-project-update-type.md) を参照してください。
+>更新の種類の詳細については、[&#x200B; プロジェクトの更新の種類を選択する &#x200B;](../../../manage-work/projects/manage-projects/select-project-update-type.md) を参照してください。

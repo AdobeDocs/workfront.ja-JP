@@ -50,13 +50,13 @@ ht-degree: 95%
 
 {{step-1-to-users}}
 
-1. パスワードのリセットが必要な&#x200B;**[!UICONTROL ユーザー]**を選択します。
-   ![ ユーザーの選択 ](assets/100520classicnweselectuser-350x105.png)
+1. パスワードのリセットが必要な&#x200B;**[!UICONTROL ユーザー]**&#x200B;を選択します。
+   ![&#x200B; ユーザーの選択 &#x200B;](assets/100520classicnweselectuser-350x105.png)
 
 1. 目的の&#x200B;**[!UICONTROL ユーザー]**&#x200B;を選択した後に表示される「**[!UICONTROL その他]」ボタン**&#x200B;をクリックし、ドロップダウンメニューから「**[!UICONTROL パスワードを忘れた場合の E メールの送信]**」オプションを選択します。
 
-   ![ パスワードを忘れた場合の E メールの送信 ](assets/100520classicnwesendemail-350x134.png)
+   ![&#x200B; パスワードを忘れた場合の E メールの送信 &#x200B;](assets/100520classicnwesendemail-350x134.png)
 
 「**[!UICONTROL パスワードを忘れた場合の E メールの送信]**」オプションを選択すると、選択したユーザーに、自身のパスワードを変更する手順が記載されたメールが送信されます。
 
-![E メールをリセット ](assets/pwresetemail-resized-350x461.png)
+![E メールをリセット &#x200B;](assets/pwresetemail-resized-350x461.png)

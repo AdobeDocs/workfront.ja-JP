@@ -95,7 +95,7 @@ ht-degree: 95%
 1. 解決策を別のイシューの解決策またはタスクやプロジェクトの解決策に結び付けるイシューに移動します。
 1. 左パネルで「**問題の詳細**」をクリックしてから、**概要**&#x200B;エリアを展開します。
 
-   ![ 問題の詳細アイコン ](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![&#x200B; 問題の詳細アイコン &#x200B;](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. 「**解決者**」フィールドをクリックし、次の解決オブジェクトのタイプから選択します。
 

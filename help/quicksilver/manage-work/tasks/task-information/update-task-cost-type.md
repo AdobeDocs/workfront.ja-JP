@@ -19,7 +19,7 @@ ht-degree: 91%
 
 プロジェクト内の個々のタスクに対してコストタイプを設定できます。各コストタイプは、予定コストと実際のコストの値に影響を与えます。
 
-Adobe Workfrontでのコストの追跡について詳しくは、[ コストの追跡 ](../../../manage-work/projects/project-finances/track-costs.md) を参照してください。
+Adobe Workfrontでのコストの追跡について詳しくは、[&#x200B; コストの追跡 &#x200B;](../../../manage-work/projects/project-finances/track-costs.md) を参照してください。
 
 ## アクセス要件
 

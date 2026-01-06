@@ -48,7 +48,7 @@ Adobe Workfront 管理者は、ユーザーのアクセスレベルを割り当�
 
 * テンプレートまたはテンプレートから作成されたプロジェクトを共有する場合、ユーザーは、テンプレートまたはプロジェクトに関連付けられているすべての子オブジェクトに対して同じ権限をデフォルトで継承します。
 
-  Workfrontのオブジェクトの階層について詳しくは、   [Adobe Workfrontのオブジェクトについて ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
+  Workfrontのオブジェクトの階層について詳しくは、   [Adobe Workfrontのオブジェクトについて &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
 * テンプレートを共有する場合、特に指定のない限り、すべてのテンプレートタスクおよびドキュメントと、そのテンプレートから今後作成されるプロジェクトに関するイシューは、同じ権限を継承します。
 

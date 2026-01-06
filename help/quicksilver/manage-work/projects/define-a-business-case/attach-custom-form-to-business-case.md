@@ -16,7 +16,7 @@ ht-degree: 68%
 
 カスタムフォームは、既存の Adobe Workfront フィールドに表示されない情報を収集するために使用されます。
 
-カスタム Formsの作成の詳細については、「[ カスタム フォームを作成する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+カスタム Formsの作成の詳細については、「[&#x200B; カスタム フォームを作成する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 ## アクセス要件
 
@@ -69,7 +69,7 @@ ht-degree: 68%
 
 ## カスタムフォームをビジネスケースに添付
 
-カスタムフォームをビジネスケースに追加するには、Workfront 管理者が設定でこのオプションを選択する必要があります。設定でカスタムフォームを有効にする方法について詳しくは、[ システム全体のプロジェクト環境設定の指定 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) を参照してください。
+カスタムフォームをビジネスケースに追加するには、Workfront 管理者が設定でこのオプションを選択する必要があります。設定でカスタムフォームを有効にする方法について詳しくは、[&#x200B; システム全体のプロジェクト環境設定の指定 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) を参照してください。
 
 カスタムフォームを添付するには、以下の操作を実行します。
 
@@ -79,7 +79,7 @@ ht-degree: 68%
 
 1. （オプション）カスタムフォームの詳細を展開するには、カスタムフォーム名の左側にある矢印をクリックします。
 
-   ![ カスタムフォームの詳細を展開 ](assets/expand-custom-form-details.png)
+   ![&#x200B; カスタムフォームの詳細を展開 &#x200B;](assets/expand-custom-form-details.png)
 
 <!--1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)

@@ -17,17 +17,17 @@ ht-degree: 97%
 
 プルーフに対する既存のコメントをレビューおよび解決し、新しいコメントや注釈をプルーフドキュメントに追加できます。
 
-プルーフに対するコメントのアクセス権は、[!DNL Adobe Workfront] と同じです。プルーフ機能について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+プルーフに対するコメントのアクセス権は、[!DNL Adobe Workfront] と同じです。プルーフ機能について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 >[!NOTE]
 >
->プルーフの所有者がプルーフをロックした場合、そのプルーフにコメントすることはできません。詳しくは、[ [!DNL Adobe Workfront]  モバイルアプリでプルーフをレビューし、決定する](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)の記事内の[プルーフのロックとロック解除](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)を参照してください。
+>プルーフの所有者がプルーフをロックした場合、そのプルーフにコメントすることはできません。詳しくは、[&#x200B; [!DNL Adobe Workfront]  モバイルアプリでプルーフをレビューし、決定する](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)の記事内の[プルーフのロックとロック解除](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md#lock)を参照してください。
 
 ## プルーフの既存コメントのレビュー
 
 プルーフドキュメントに対して行われたコメントをレビューできます。コメントには、コメントが参照するドキュメントのエリアを呼び出すための図面が関連付けられている場合が多くあります。図面には、矢印、線、長方形、ハイライト表示、フリーハンドの図面を含めることができます。
 
-1. ドキュメントのプルーフを開きます。詳しくは、[ [!DNL Adobe Workfront]  モバイルアプリでプルーフをレビューし、決定する](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)を参照してください。
+1. ドキュメントのプルーフを開きます。詳しくは、[&#x200B; [!DNL Adobe Workfront]  モバイルアプリでプルーフをレビューし、決定する](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)を参照してください。
 1. ドキュメントページでコメントアイコン ![ドキュメント上のコメントアイコン](assets/mobile-comment-icon-on-proofdoc-30x34.png) を選択し、コメントと、関連する図面および添付ファイルを開きます。
 
    コメントに複数の返信がある場合は、「**[!UICONTROL 返信を表示]**」を選択してすべての返信を表示するか、コメントシートを上下にスワイプして、さらに多くの内容を表示します。
@@ -81,7 +81,7 @@ ht-degree: 97%
 
 プルーフコメントをドキュメントの特定のエリアに関連付けることができます。コメントを付けるエリアを選択するには、描画ツールを使用します。
 
-1. ドキュメントのプルーフを開きます。詳しくは、[ [!DNL Adobe Workfront]  モバイルアプリでプルーフをレビューし、決定する](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)を参照してください。
+1. ドキュメントのプルーフを開きます。詳しくは、[&#x200B; [!DNL Adobe Workfront]  モバイルアプリでプルーフをレビューし、決定する](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)を参照してください。
 1. プルーフ画面の下部にあるツールバーから描画ツールを選択します。
 
    ![プルーフコメントのツールバー](assets/android-proof-comment-toolbar-350x102.png)
@@ -103,7 +103,7 @@ ht-degree: 97%
 
    プルーフにコメントが追加されると、連絡先にメール通知が届きます。
 
-1. コメントに添付ファイルを追加するには、![[!UICONTROL 添付ファイル]アイコン ](assets/mobile-paper-clip-icon.png) を選択します。「**[!UICONTROL ドキュメントを選択]**」または「**[!UICONTROL 写真を撮る]**」を選択し、プロンプトに従って、コメントにファイルまたは写真を添付します。
+1. コメントに添付ファイルを追加するには、![[!UICONTROL 添付ファイル]アイコン &#x200B;](assets/mobile-paper-clip-icon.png) を選択します。「**[!UICONTROL ドキュメントを選択]**」または「**[!UICONTROL 写真を撮る]**」を選択し、プロンプトに従って、コメントにファイルまたは写真を添付します。
 
    添付ファイルを削除するには、サムネール画像の「X」をクリックします。
 

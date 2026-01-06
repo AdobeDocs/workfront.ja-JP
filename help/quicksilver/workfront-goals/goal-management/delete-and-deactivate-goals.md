@@ -191,9 +191,9 @@ Deactivating goals differs depending on which environment you use.
 
    目標ページが開きます。
 
-   ![ 目標ページ ](assets/goal-page-unshimmed.png)
+   ![&#x200B; 目標ページ &#x200B;](assets/goal-page-unshimmed.png)
 
-1. 目標名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックしてから、「**アクティベートを解除** をクリックします。
+1. 目標名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、「**アクティベートを解除** をクリックします。
 
 1. 目標が非アクティブ化され、そのステータスは非アクティブになります。
 
@@ -238,7 +238,7 @@ Deleting  goals differs depending on which environment you use.
 目標リストが表示されます。
 
 1. 目標の名前をクリックします。目標ページが開きます。
-1. 目標名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックし、**目標を削除** をクリックしてから、**削除** をクリックします。
+1. 目標名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、**目標を削除** をクリックしてから、**削除** をクリックします。
 
    目標とそのアクティビティおよび結果も削除され、復元することはできません。目標または子目標に関連付けられたプロジェクトは削除されません。
 

@@ -98,6 +98,6 @@ ht-degree: 92%
 
 Adobe Workfront 管理者によって、アクセスレベルで自分が所属する会社、グループ、チームのみを表示できるように制限されています。探しているチームは、所属するチームの 1 つではありません。
 
-![ 所属するチーム、グループ、会社のみを表示 ](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![&#x200B; 所属するチーム、グループ、会社のみを表示 &#x200B;](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 システム内のすべてのチームをユーザーが表示できるようにする方法について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。

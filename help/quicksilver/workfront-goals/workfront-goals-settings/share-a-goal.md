@@ -178,7 +178,7 @@ ht-degree: 91%
 
    目標アクセスボックスが表示されます。
 
-   ![ 目標へのアクセス ](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![&#x200B; 目標へのアクセス &#x200B;](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. 次のいずれかの操作を行います。
 

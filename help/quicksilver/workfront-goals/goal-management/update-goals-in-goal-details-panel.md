@@ -221,9 +221,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    これにより、左側に&#x200B;**目標の詳細**&#x200B;セクションが開きます。
 
-   ![ 目標ページ ](assets/goal-page-unshimmed.png)
+   ![&#x200B; 目標ページ &#x200B;](assets/goal-page-unshimmed.png)
 
-1. 右上隅の **編集アイコン**![ 編集アイコン ](assets/edit-icon.png) をクリックし、「**すべて編集**」または「**概要** をクリックします
+1. 右上隅の **編集アイコン**![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックし、「**すべて編集**」または「**概要** をクリックします
 
    または
 

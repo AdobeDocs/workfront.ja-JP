@@ -43,23 +43,23 @@ ht-degree: 77%
 
 * 割り当て列のイシューのリストまたはレポート
 
-  ![ 問題リストの割り当て列 ](assets/smart-assignments-issue-list.png)
+  ![&#x200B; 問題リストの割り当て列 &#x200B;](assets/smart-assignments-issue-list.png)
 
 * 割り当て列のタスク リストまたはレポート
 
-  ![ 「タスク・リストの割当て」列 ](assets/smart-assignments-task-list.png)
+  ![&#x200B; 「タスク・リストの割当て」列 &#x200B;](assets/smart-assignments-task-list.png)
 
 * 「割り当て」フィールドのタスクヘッダー
 
-  ![ タスク ヘッダーの [ 割り当て ] フィールド ](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![&#x200B; タスク ヘッダーの [ 割り当て ] フィールド &#x200B;](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 「割り当て」フィールドのイシューヘッダー
 
-  ![ 問題ヘッダー割り当てフィールド ](assets/smart-assignments-issue-header.png)
+  ![&#x200B; 問題ヘッダー割り当てフィールド &#x200B;](assets/smart-assignments-issue-header.png)
 
 * 割り当てエリアのタスクまたはイシューの概要パネル
 
-  ![ 概要パネルの割り当て領域 ](assets/issue-assignments-summary-panel.png)
+  ![&#x200B; 概要パネルの割り当て領域 &#x200B;](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -73,7 +73,7 @@ ht-degree: 77%
 
 * タスクまたはイシューを割り当てる際のこの割り当て先エリアのワークロードバランサー
 
-  ![ ワークロードバランサーの「割り当て」領域 ](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  ![&#x200B; ワークロードバランサーの「割り当て」領域 &#x200B;](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## スマート割り当て条件
 
@@ -144,7 +144,7 @@ Workfrontは、イシューに対して計算するのと同じ方法で、タ�
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![ スマート割り当ての例 ](assets/smart-assignments-issue-header.png)
+![&#x200B; スマート割り当ての例 &#x200B;](assets/smart-assignments-issue-header.png)
 
 次の条件の組み合わせに基づいて、スマート割り当てドロップダウンリストでユーザー候補が提示されます（最も重要候補から最も重要でない候補の順に表示されます）。
 

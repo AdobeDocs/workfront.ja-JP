@@ -62,5 +62,5 @@ ht-degree: 96%
 
 {{step1-click-main-menu}}
 
-1. **[!UICONTROL ログアウト]**![ ログアウトアイコン ](assets/logout-icon.png) をクリックします。
+1. **[!UICONTROL ログアウト]**![&#x200B; ログアウトアイコン &#x200B;](assets/logout-icon.png) をクリックします。
 1. これによりログインページに戻り、ユーザー名とパスワードを再入力できます。

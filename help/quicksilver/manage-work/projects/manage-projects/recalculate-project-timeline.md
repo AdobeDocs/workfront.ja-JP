@@ -111,7 +111,7 @@ Workfrontでは、次のすべての条件を満たすプロジェクトのタ�
 * 現在のステータスがある。
 * プロジェクトの更新の種類が [ 自動 ] または [ 自動および変更時 ] に設定されています。
 
-  詳しくは、[ プロジェクト更新タイプの概要 ](../../../manage-work/projects/planning-a-project/project-update-type-overview.md) を参照してください。
+  詳しくは、[&#x200B; プロジェクト更新タイプの概要 &#x200B;](../../../manage-work/projects/planning-a-project/project-update-type-overview.md) を参照してください。
 
 * 過去 3 か月以内の最終更新日がある。 Workfront管理者は、このデフォルトの機能を変更できます。 詳しくは、[プロジェクトのタイムライン再計算の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
 
@@ -177,11 +177,11 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 プロジェクトのタイムラインは、プロジェクトページ、またはプロジェクトリストやレポートから、Workfront で再計算できます。
 
-1. タイムラインを再計算するプロジェクトに移動して、プロジェクト名の左側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックします。
+1. タイムラインを再計算するプロジェクトに移動して、プロジェクト名の左側にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) をクリックします。
 
    または
 
-   プロジェクトリストまたはレポートに移動して、1 つまたは複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックします。
+   プロジェクトリストまたはレポートに移動して、1 つまたは複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) をクリックします。
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
@@ -213,7 +213,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 Workfront の管理者は、「タイムラインを再計算」の診断を実行して、Workfront システム内のすべてのタイムラインを直ちに再計算できます。これにより、すべてのプロジェクトマネージャーは、予定日と見込み日の両方に対する外部の変更の影響を即座に確認できます。
 
-Workfront サイト全体のタイムラインの再計算の詳細については、「プロジェクトのタイムライン再計算の設定 [ のWorkfront インスタンス全体のタイムラインの再計算の節を参照してください ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
+Workfront サイト全体のタイムラインの再計算の詳細については、「プロジェクトのタイムライン再計算の設定 [&#x200B; のWorkfront インスタンス全体のタイムラインの再計算の節を参照してください &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

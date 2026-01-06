@@ -89,7 +89,7 @@ Workfrontでは、EAC の計算は、プロジェクトで選択したパフォ�
 EAC = Total Planned Hours / CPI*
 ```
 
-&#42; コストパフォーマンスインデックス [ コストパフォーマンスインデックス（CPI）を計算 ](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0 の場合、EAC =予定時間数+実際の時間数の合計。 これは、時間が取り込まれたが、プロジェクト／タスクが 0%完了の場合に発生します。
+&#42; コストパフォーマンスインデックス [&#x200B; コストパフォーマンスインデックス（CPI）を計算 &#x200B;](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0 の場合、EAC =予定時間数+実際の時間数の合計。 これは、時間が取り込まれたが、プロジェクト／タスクが 0%完了の場合に発生します。
 
 CPI 計算について詳しくは、[コスト効率指数（CPI）の計算](../../../manage-work/projects/project-finances/calculate-cpi.md)を参照してください。
 
@@ -137,4 +137,4 @@ BCWP（作業実行の予算）合計 = すべての最上位タスク（親タ�
 
    EAC の値が「**完了時の見積もり**」フィールドに表示されます。
 
-   ![ プロジェクトの EAC](assets/eac-highlighted-on-project-350x112.png)
+   ![&#x200B; プロジェクトの EAC](assets/eac-highlighted-on-project-350x112.png)
