@@ -7,9 +7,9 @@ description: ここでは、Workfront Data Connect のデータの構造と内�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
+source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8878'
+source-wordcount: '8904'
 ht-degree: 9%
 
 ---
@@ -42,14 +42,57 @@ Data Connect で使用して、最もinsightの高い方法でWorkfront デー�
 
 ## エンティティ関係図
 
-Workfront（およびデータ接続データレイク）のオブジェクトは、個々の値だけでなく、他のオブジェクトとの関係によって定義されます。 以下のエンティティ関係図は、データ接続のオブジェクト関係の高度なマッピングを提供します。 この図は、次のリンクを使用して表示およびダウンロードできます。
+Workfront（およびデータ接続データレイク）のオブジェクトは、個々の値だけでなく、他のオブジェクトとの関係によって定義されます。
 
-[データ接続エンティティ関係図](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+以下の ERD （Entity Relationship Diagrams）は、コアのWorkfrontオブジェクトに対する Data Connect のオブジェクト関係の高度なマッピングを提供します。
 
 >[!IMPORTANT]
 >
->指定されたエンティティ関係図（ERD）は、アプリケーション内の関係数が多いので、完全な ERD が読み取れなくなるので、意図的に不完全です。<br>
->次の図は、以下の [&#x200B; 用語テーブル &#x200B;](#terminology-table) セクションのプロジェクト テーブルに記載されている関係を使用して、プロジェクト データ ビューのデータを隣接するオブジェクトに結合する方法の例を示しています。 このパターンがプロジェクトオブジェクトの関係について理解されれば、完全な ERD は必要ないと想定されます
+>ダイアグラムは、1 つのオブジェクトを中心としたものであり、Workfront アプリケーション全体の完全な ER ダイアグラムを表すものではありません。<br>
+>これらの図は、関係を使用してデータを隣接するオブジェクトに結合する方法の例を示すことを目的としています。
+
+### エンティティ関係図の例
+
++++ 展開するとサンプル図が表示されます
+
+>[!TIP]
+>
+>図をより詳細に表示するには、画像を右クリックして「**新しいタブで画像を開く**」を選択します。
+
+
+### 割り当て
+
+![ 割り当てエンティティの関係図 ](assets/Assignment-centered-ERD.png)
+
+
+### ドキュメントとドキュメントの承認
+
+![ ドキュメントとドキュメントの承認エンティティの関係図 ](assets/Document-and-Document-Approvals-centered-ERD.png)
+
+### 時間およびタイムシート
+
+![ 時間とタイムシートのエンティティ関係を示す図 ](assets/Hours-and-Timesheet-centered-ERD.png)
+
+
+### イシュー
+
+![ 問題エンティティ関係ダイアグラム ](assets/Issue-centered-ERD.png)
+
+### プロジェクト
+
+![ プロジェクト エンティティ関係ダイアグラム ](assets/Project-centered-ERD.png)
+
+
+### タスク
+
+![ タスクエンティティ関係ダイアグラム ](assets/Task-centered-ERD.png)
+
+
+### ユーザー
+
+![ ユーザーエンティティ関係図 ](assets/User-centered-ERD.png)
+
++++
 
 ## 日付タイプ
 
@@ -1665,15 +1708,15 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
 >
 >レコードのタイプは、`enumClass` プロパティを使用して識別されます。 想定されるタイプは次のとおりです。<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### ドキュメント
