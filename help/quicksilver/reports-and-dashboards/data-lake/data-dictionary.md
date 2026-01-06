@@ -62,35 +62,35 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
 
 ### 割り当て
 
-![ 割り当てエンティティの関係図 ](assets/Assignment-centered-ERD.png)
+![&#x200B; 割り当てエンティティの関係図 &#x200B;](assets/Assignment-centered-ERD.png)
 
 
 ### ドキュメントとドキュメントの承認
 
-![ ドキュメントとドキュメントの承認エンティティの関係図 ](assets/Document-and-Document-Approvals-centered-ERD.png)
+![&#x200B; ドキュメントとドキュメントの承認エンティティの関係図 &#x200B;](assets/Document-and-Document-Approvals-centered-ERD.png)
 
 ### 時間およびタイムシート
 
-![ 時間とタイムシートのエンティティ関係を示す図 ](assets/Hours-and-Timesheet-centered-ERD.png)
+![&#x200B; 時間とタイムシートのエンティティ関係を示す図 &#x200B;](assets/Hours-and-Timesheet-centered-ERD.png)
 
 
 ### イシュー
 
-![ 問題エンティティ関係ダイアグラム ](assets/Issue-centered-ERD.png)
+![&#x200B; 問題エンティティ関係ダイアグラム &#x200B;](assets/Issue-centered-ERD.png)
 
 ### プロジェクト
 
-![ プロジェクト エンティティ関係ダイアグラム ](assets/Project-centered-ERD.png)
+![&#x200B; プロジェクト エンティティ関係ダイアグラム &#x200B;](assets/Project-centered-ERD.png)
 
 
 ### タスク
 
-![ タスクエンティティ関係ダイアグラム ](assets/Task-centered-ERD.png)
+![&#x200B; タスクエンティティ関係ダイアグラム &#x200B;](assets/Task-centered-ERD.png)
 
 
 ### ユーザー
 
-![ ユーザーエンティティ関係図 ](assets/User-centered-ERD.png)
+![&#x200B; ユーザーエンティティ関係図 &#x200B;](assets/User-centered-ERD.png)
 
 +++
 
@@ -1708,15 +1708,15 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
 >
 >レコードのタイプは、`enumClass` プロパティを使用して識別されます。 想定されるタイプは次のとおりです。<br>
 ><ul><li>CONDITION_OPTASK</li>
-&gt;<li>CONDITION_PROJ</li>
-&gt;<li>CONDITION_TASK</li>
-&gt;<li>PRIORITY_OPTASK</li>
-&gt;<li>PRIORITY_PROJ</li>
-&gt;<li>PRIORITY_TASK</li>
-&gt;<li>SEVERITY_OPTASK</li>
-&gt;<li>STATUS_OPTASK</li>
-&gt;<li>STATUS_PROJ</li>
-&gt;<li>STATUS_TASK</li></ul>
+>&gt;<li>CONDITION_PROJ</li>
+>&gt;<li>CONDITION_TASK</li>
+>&gt;<li>PRIORITY_OPTASK</li>
+>&gt;<li>PRIORITY_PROJ</li>
+>&gt;<li>PRIORITY_TASK</li>
+>&gt;<li>SEVERITY_OPTASK</li>
+>&gt;<li>STATUS_OPTASK</li>
+>&gt;<li>STATUS_PROJ</li>
+>&gt;<li>STATUS_TASK</li></ul>
 
 
 ### ドキュメント
