@@ -3,13 +3,13 @@ title: Adobe Exchangeからアプリを取得してインストールする
 description: Adobe App Builder を活用した Workfront UI 拡張機能を使用すると、顧客およびパートナーはカスタマイズされたユーザーエクスペリエンスを作成できます。
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
+exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
+source-git-commit: 92d4cd209a4e40f80420a3aebb116077cd2141a8
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Exchangeからアプリを取得してインストールする
 
@@ -27,7 +27,7 @@ Workfront パートナーは、Workfront UI 拡張機能を活用しています
 
 #### Adobe Workfront内でリアルタイムの結果を直接確認できる
 
-Adobe Workfrontのお客様と提携し、日常のボトルネックを予測可能な結果の繰り返し可能なソリューションに変えます。 アドビのソリューションライブラリの拡大により、従業員が作業する場所でライブデータを使用して、精度、速度、説明責任を高めることができます。 リーダーが今何が起こっているかを確認し、次に何が起こるべきかを計画するのを助けることができます。 現在利用可能でインストール準備が整っている AtAppStore Adobe Exchange アプリを確認し、現在の優先度に合ったものを選択してから、ニーズの拡大に合わせて拡張します。
+AtApp はAdobe Workfrontのお客様と提携し、日常のボトルネックを予測可能な結果の繰り返し可能なソリューションに変えます。 ソリューションのライブラリの増加により、従業員の勤務場所からのライブデータを活用して、精度、速度、説明責任を高めることができます。 AtApp を使用すると、リーダーは現在何が起きているかを確認し、次に何が起こるべきかを計画できます。 ユーザーは、現在利用可能でインストール準備が整っている AtAppStore Adobe Exchange アプリを参照し、現在の優先度に合ったアプリを選択し、ニーズの拡大に合わせて拡張することができます。
 
 * [Excel Updater](https://exchange.adobe.com/apps/ec/abtt1rq7o9/atapp-excel-updater):Excel Updater ソリューションを使用すると、API の学習、コードの記述、サーバーのセットアップを行わなくても、コスト効率に優れた方法でWorkfrontにデータを統合できます。このソリューションは、1 回限りのデータ読み込みと繰り返しのデータ読み込みの両方に最適です。
 
@@ -37,15 +37,31 @@ Adobe Workfrontのお客様と提携し、日常のボトルネックを予測�
 
 ### Workfocus
 
-Workfocus は、Workfront向けの高度な自動化および統合ソリューションを提供します。 彼らのアプリは以下に焦点を当てています。
+WorkFocus は、Adobe Workfront、Workfront Fusion、Workfront プランニング、Firefly、AEM Assets、ENTERPRISE AUTOMATION を専門とするAdobeのゴールドソリューションパートナーです。 アドビは、独自の FCoE アプリケーションを活用した Fusion Center of Excellence （FCoE）を確立することにより、組織が責任を持って自動化を拡大できるよう支援します。
 
-* タイムラインの合理化
+#### Fusion センターオブエクセレンス（FCoE）アプリケーション
 
-* Fusion ワークフローの自動化
+WorkFocus Fusion Center of Excellence アプリケーションを使用すると、企業全体でAdobe Workfront Fusion の価値を管理、拡張、最大化できます。
 
-* インスタンス間の共同作業の有効化
+多くのチームは、Fusion シナリオの断片化、自動化の所有権と価値に関する可視性の制限、一貫性のない標準、自動化の拡散に苦労しています。 FCoE アプリケーションは、Fusion 自動化用の記録の中央システムを提供することで、これらの課題を解決します。
 
-Workfocus アプリは、Workfront内でネイティブに動作するように設計されており、UI 拡張機能を活用して、生産性を向上させ手作業を軽減する強力なツールをユーザーに提供します。
+主な機能は次のとおりです。
+
+* Fusion シナリオの一元的なガバナンスと所有権
+* 取り込みからサポートまでのシナリオライフサイクル管理
+* ROI と価値実現のトラッキング
+* エンタープライズクラスの標準、ドキュメント、エラー処理
+* エンタープライズ向けのスケーラブルなオペレーティングモデル
+
+その結果、迅速な価値実現、リスクの軽減、Fusion によるビジネスへの測定可能な影響が得られます。
+
+#### WorkFocus の基本を学ぶ
+
+WorkFocus チームは、組織に Fusion Center of Excellence のカスタムデモのスケジュールを設定し、アプリケーションの無料トライアルを設定するよう勧めています。
+
+ロードマップには、2026 年のWorkfront コアセンターオブエクセレンスおよびWorkfront計画センターオブエクセレンスのリリースが含まれています。 Fusion Center of Excellence のクライアントになることで、企業は今後のソリューションのロードマップに影響を与え、エンタープライズWorkfrontガバナンスの将来を形成する機会を得ることができます。
+
+WorkFocus は、Workfront、Workfront Fusion、Workfront プランニング、Firefly、AEM Assets、エンドツーエンドのコンテンツSupply chain全体で戦略的パートナーとしてどのように機能するかを話し合うことを熱望しています。
 
 ## 前提条件と権限
 
@@ -67,11 +83,11 @@ Workfocus アプリは、Workfront内でネイティブに動作するように�
 
 Adobeのお客様は、Adobe Exchange Marketplace から直接アプリを参照、検索およびインストールして、Workfront内で使用できます。
 
-Adobe App Builderで作成されたアプリは、Adobe Exchangeでは _0&rbrace;App Builder アプリケーション &rbrace; として表示されます。_&#x200B;各アプリリストには、顧客がアプリの価値を理解するのに役立つドキュメント、スクリーンショット、使用手順が含まれています。
+Adobe App Builderで作成されたアプリは、Adobe Exchangeでは _0}App Builder アプリケーション } として表示されます。_&#x200B;各アプリリストには、顧客がアプリの価値を理解するのに役立つドキュメント、スクリーンショット、使用手順が含まれています。
 
 Workfrontのアプリを表示するには、Adobe Exchangeに移動して、Workfront互換アプリを検索します。 Workfront App Builder アプリのリストをフィルタリングすることもできます。
 
-1. 左側のパネルで **0&rbrace;Experience Cloud&rbrace; をクリックします。**
+1. 左側のパネルで **0}Experience Cloud} をクリックします。**
 1. 左側のパネルで **Product** を見つけ、「**Workfront**」を選択します。
 1. 「**アプリの種類**」を展開し、「**App Builder**」を選択します。
 
@@ -84,7 +100,7 @@ Workfrontのアプリを表示するには、Adobe Exchangeに移動して、Wor
 1. アプリの名前をクリックします。
 1. アプリリストの右上隅にあるボタンをクリックします。
 1. **はい、続行** をクリックし、使用許諾契約書に同意します。
-   ![&#x200B; 使用許諾契約の確認 &#x200B;](assets/2-aquire-application.png)
+   ![ 使用許諾契約の確認 ](assets/2-aquire-application.png)
 
 ### システム管理者向けのアクション
 
@@ -104,7 +120,7 @@ Workfrontのアプリを表示するには、Adobe Exchangeに移動して、Wor
 
 承認されると、アプリケーションをインストールできるようになります。
 
-![&#x200B; アプリのレビューと承認 &#x200B;](assets/3-manage.png)
+![ アプリのレビューと承認 ](assets/3-manage.png)
 
 ## アプリのインストール
 
@@ -114,7 +130,7 @@ Workfrontのアプリを表示するには、Adobe Exchangeに移動して、Wor
 1. 「アプリの詳細を表示」をクリックします。
 1. 画面の左側で環境を選択するか、新しい環境を追加します。
 1. **デプロイ** をクリックします。
-   ![&#x200B; アプリのデプロイ &#x200B;](assets/10-env-details-2.png)
+   ![ アプリのデプロイ ](assets/10-env-details-2.png)
 1. インストール権限または使用権限を割り当てます（必要な場合）。
 
    組織が製品プロファイルまたはユーザーグループを介してアプリへのアクセスを制御している場合は、ユーザーがインストールを続行して使用できるように、アプリを適切なプロファイルまたはグループに割り当てます。
@@ -125,7 +141,7 @@ Workfrontのアプリを表示するには、Adobe Exchangeに移動して、Wor
 
 アプリをレイアウトテンプレートに追加するには、レイアウトテンプレートを開き、メインメニューまたはセカンダリメニュー領域に移動します。 「追加」アイコンを使用してアプリを追加します。
 
-![&#x200B; レイアウトテンプレートへのアプリの追加 &#x200B;](assets/add-to-lt.png)
+![ レイアウトテンプレートへのアプリの追加 ](assets/add-to-lt.png)
 
 ## アプリのサポートに連絡
 
