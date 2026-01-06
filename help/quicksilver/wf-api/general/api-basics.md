@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 084f19973941b391d3d7e62c4901eee8ec975527
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
 source-wordcount: '4396'
 ht-degree: 97%
@@ -51,7 +51,7 @@ Workfront API を呼び出すために使用する URL について詳しくは�
 
 オブジェクトタイプは大文字と小文字が区別されず、省略形の ObjCode（proj など）、または代替オブジェクト名（project など）を指定できます。
 
-オブジェクト、有効な ObjCodes、およびオブジェクト フィールドの一覧については、を参照してください  [API エクスプローラー &#x200B;](../../wf-api/general/api-explorer.md)。
+オブジェクト、有効な ObjCodes、およびオブジェクト フィールドの一覧については、を参照してください  [API エクスプローラー ](../../wf-api/general/api-explorer.md)。
 
 >[!NOTE]
 >
@@ -266,7 +266,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 次の表に、Workfront API で使用できる修飾子の一部を示します。
 
 | **修飾子** | **説明** | **例** |
-|---|---|---|
+| --- | --- | --- |
 | eq | クローズ済みのステータスの結果を返す | <pre>...status=cls&amp;status_Mod=eq...</pre> |
 | ne | クローズ済みのステータスではない結果を返す | <pre>...status=cls&amp;status_Mod=ne...</pre> |
 | gte | 完了率が 50 以上の結果を返す | <pre>...percentComplete=50&amp;percentComplete_Mod=gte...</pre> |
