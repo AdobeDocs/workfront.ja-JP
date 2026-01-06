@@ -83,11 +83,11 @@ WorkFocus は、Workfront、Workfront Fusion、Workfront プランニング、Fi
 
 Adobeのお客様は、Adobe Exchange Marketplace から直接アプリを参照、検索およびインストールして、Workfront内で使用できます。
 
-Adobe App Builderで作成されたアプリは、Adobe Exchangeでは _0}App Builder アプリケーション } として表示されます。_&#x200B;各アプリリストには、顧客がアプリの価値を理解するのに役立つドキュメント、スクリーンショット、使用手順が含まれています。
+Adobe App Builderで作成されたアプリは、Adobe Exchangeでは _0&rbrace;App Builder アプリケーション &rbrace; として表示されます。_&#x200B;各アプリリストには、顧客がアプリの価値を理解するのに役立つドキュメント、スクリーンショット、使用手順が含まれています。
 
 Workfrontのアプリを表示するには、Adobe Exchangeに移動して、Workfront互換アプリを検索します。 Workfront App Builder アプリのリストをフィルタリングすることもできます。
 
-1. 左側のパネルで **0}Experience Cloud} をクリックします。**
+1. 左側のパネルで **0&rbrace;Experience Cloud&rbrace; をクリックします。**
 1. 左側のパネルで **Product** を見つけ、「**Workfront**」を選択します。
 1. 「**アプリの種類**」を展開し、「**App Builder**」を選択します。
 
@@ -100,7 +100,7 @@ Workfrontのアプリを表示するには、Adobe Exchangeに移動して、Wor
 1. アプリの名前をクリックします。
 1. アプリリストの右上隅にあるボタンをクリックします。
 1. **はい、続行** をクリックし、使用許諾契約書に同意します。
-   ![ 使用許諾契約の確認 ](assets/2-aquire-application.png)
+   ![&#x200B; 使用許諾契約の確認 &#x200B;](assets/2-aquire-application.png)
 
 ### システム管理者向けのアクション
 
@@ -120,7 +120,7 @@ Workfrontのアプリを表示するには、Adobe Exchangeに移動して、Wor
 
 承認されると、アプリケーションをインストールできるようになります。
 
-![ アプリのレビューと承認 ](assets/3-manage.png)
+![&#x200B; アプリのレビューと承認 &#x200B;](assets/3-manage.png)
 
 ## アプリのインストール
 
@@ -130,7 +130,7 @@ Workfrontのアプリを表示するには、Adobe Exchangeに移動して、Wor
 1. 「アプリの詳細を表示」をクリックします。
 1. 画面の左側で環境を選択するか、新しい環境を追加します。
 1. **デプロイ** をクリックします。
-   ![ アプリのデプロイ ](assets/10-env-details-2.png)
+   ![&#x200B; アプリのデプロイ &#x200B;](assets/10-env-details-2.png)
 1. インストール権限または使用権限を割り当てます（必要な場合）。
 
    組織が製品プロファイルまたはユーザーグループを介してアプリへのアクセスを制御している場合は、ユーザーがインストールを続行して使用できるように、アプリを適切なプロファイルまたはグループに割り当てます。
@@ -141,7 +141,7 @@ Workfrontのアプリを表示するには、Adobe Exchangeに移動して、Wor
 
 アプリをレイアウトテンプレートに追加するには、レイアウトテンプレートを開き、メインメニューまたはセカンダリメニュー領域に移動します。 「追加」アイコンを使用してアプリを追加します。
 
-![ レイアウトテンプレートへのアプリの追加 ](assets/add-to-lt.png)
+![&#x200B; レイアウトテンプレートへのアプリの追加 &#x200B;](assets/add-to-lt.png)
 
 ## アプリのサポートに連絡
 
