@@ -153,7 +153,7 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>ASSEMBLING ステージが失敗すると、プロモーションパッケージは自動的にこのステータスになります。</p><p>パッケージをアセンブリステージに戻すには、アセンブリプロセスを再度トリガーする必要があります。</p><p>パッケージのアセンブリについて詳しくは、環境プロモーションパッケージの作成または編集に関する記事の <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package"> 既存のパッケージの編集またはアセンブリ </a> の節を参照してください。</td> 
+   <td><p>ASSEMBLING ステージが失敗すると、プロモーションパッケージは自動的にこのステータスになります。</p><p>パッケージをアセンブリステージに戻すには、アセンブリプロセスを再度トリガーする必要があります。</p><p>パッケージのアセンブリについて詳しくは、環境プロモーションパッケージの作成または編集に関する記事の <a href="https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package"> 既存のパッケージの編集またはアセンブリ </a> の節を参照してください。</td> 
   </tr> 
   </tbody> 
 </table>

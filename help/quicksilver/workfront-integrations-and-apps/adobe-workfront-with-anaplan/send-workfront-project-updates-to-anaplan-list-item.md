@@ -55,7 +55,7 @@ ht-degree: 98%
 
 この表の情報について詳しくは、[ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)を参照してください。
+Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)を参照してください。
 
 +++
 
