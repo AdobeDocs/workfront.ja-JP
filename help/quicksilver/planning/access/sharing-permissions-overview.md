@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 22%
@@ -30,7 +30,7 @@ ht-degree: 22%
 
 Adobe Workfront Planning のワークスペース、レコード・タイプまたはビューに対する権限を共有または削除できます。
 
-また、Planning 要求フォームを共有することもできます。 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+また、Planning 要求フォームを共有することもできます。 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ここでは、Workfront Planning の作業領域、レコード・タイプ、レコード、フィールドおよびビューの権限レベルについて説明します。
 
@@ -46,7 +46,7 @@ Workfront Planning では、次のオブジェクトを手動で共有できま�
    * ワークスペースを共有すると、そのワークスペースに関連付けられているすべてのレコードタイプ、レコードおよびフィールドも共有されます。
    * ワークスペースを共有する場合、ビューは共有されません。 ビューは個別に共有されます。
 
-  詳しくは、「ワークスペースの共有 [&#x200B; を参照してください &#x200B;](/help/quicksilver/planning/access/share-workspaces.md)
+  詳しくは、「ワークスペースの共有 [ を参照してください ](/help/quicksilver/planning/access/share-workspaces.md)
 
 * レコードタイプ
 
@@ -54,7 +54,7 @@ Workfront Planning では、次のオブジェクトを手動で共有できま�
    * ワークスペースに付与された権限のレベルは、レコードタイプの継承権限として表示されます。
    * ユーザーがワークスペースで持っている権限レベルよりも高い権限レベルを持つレコードタイプを共有することはできません。
 
-  詳しくは、[&#x200B; レコードタイプの共有 &#x200B;](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
+  詳しくは、[ レコードタイプの共有 ](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
 
 
 * ビュー
@@ -239,7 +239,7 @@ The following are the levels of permissions for record types:
 | Delete | ✓      |       |                            
 | Share  | ✓       |       |                           
 | View   | ✓      | ✓     |                         
-| Apply  | ✓      | ✓     |  
+| Apply  | ✓      | ✓     |
 
 
 |        | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|

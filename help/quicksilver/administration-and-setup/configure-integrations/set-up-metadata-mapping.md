@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -48,6 +48,8 @@ ht-degree: 93%
 
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
++++
+
 ## [!DNL Workfront] メタデータについて
 
 [!DNL Workfront] 内のドキュメントのメタデータは、関連するプロジェクト名、タスクの説明、予定完了日などの情報を入れることができます。[!DNL Workfront] 管理者は、[!DNL Workfront] から次の [!DNL Workfront] アプリケーションに送信されるドキュメントにメタデータが入るように、[!DNL Workfront] を設定することができます。
@@ -64,7 +66,7 @@ ht-degree: 93%
 
 様々な [!DNL Workfront DAM] のメタデータフィールドに同じ [!DNL Workfront] フィールドをマッピングできますが、複数の [!DNL Workfront] メタデータフィールドに対しては、そのアプリケーションのどれでも、メタデータフィールドを使用することはできません。
 
-複数の [!DNL Workfront] フィールドを構成して [!DNL Workfront] アプリケーションの 1 つのメタデータフィールドに書き出すには、最初に [!DNL Workfront] に計算カスタムフィールドを作成して、オブジェクトの個々のカスタムフィールドをすべて表示します。次に、計算 [!DNL Workfront] フィールドを [!DNL Workfront] アプリケーションのメタフィールドにマッピングします。計算カスタムフィールドについて詳しくは、「[&#x200B; フォームに計算フィールドを追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)」を参照してください。
+複数の [!DNL Workfront] フィールドを構成して [!DNL Workfront] アプリケーションの 1 つのメタデータフィールドに書き出すには、最初に [!DNL Workfront] に計算カスタムフィールドを作成して、オブジェクトの個々のカスタムフィールドをすべて表示します。次に、計算 [!DNL Workfront] フィールドを [!DNL Workfront] アプリケーションのメタフィールドにマッピングします。計算カスタムフィールドについて詳しくは、「[ フォームに計算フィールドを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)」を参照してください。
 
 メタデータマッピングプロセスのフィールドをマッピングする前に、[!DNL Workfront] でアプリケーションを有効にする必要があります。詳しくは、[ドキュメント統合を設定](../../administration-and-setup/configure-integrations/configure-document-integrations.md)を参照してください。
 
@@ -74,7 +76,7 @@ ht-degree: 93%
 
 1. 左側のパネルで、**[!UICONTROL ドキュメント]**／**[!UICONTROL メタデータ マッピング]**&#x200B;をクリックします。
 
-   ![&#x200B; メタデータマッピング &#x200B;](assets/metadata-mapping.png)
+   ![ メタデータマッピング ](assets/metadata-mapping.png)
 
 1. 「**[!UICONTROL マッピングのソース フィールドを選択]**」ボックスで、[!DNL Workfront DAM] にマッピングする Workfront フィールドの名前を一部入力し、名前がリストに表示されたらそれを選択します。
 1. 「**[!UICONTROL マッピングのターゲット フィールドを選択]**」ボックスで、選択した [!DNL Workfront] フィールドの情報を入力するフィールドを選択します。

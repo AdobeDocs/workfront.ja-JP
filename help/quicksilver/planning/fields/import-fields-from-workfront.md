@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 20%
@@ -59,7 +59,7 @@ ht-degree: 20%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++  
 
@@ -194,11 +194,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    任意の列のヘッダーにポインタを合わせ、フィールド名の後の下向き矢印をクリックしてから、「**左に挿入** または **右に挿入** をクリックして新しいフィールドを追加します。
 1. **新規フィールド** タブの右下隅にある「**既存を追加** をクリックします。<!--check UI - did they change this??-->
 
-   ![Workfrontから既存のフィールドを追加モーダル &#x200B;](assets/add-existing-fields-from-workfront-modal.png)
+   ![Workfrontから既存のフィールドを追加モーダル ](assets/add-existing-fields-from-workfront-modal.png)
 
 1. 検索領域に既存のWorkfront フィールドの名前の入力を開始し、リストに表示されたら **+** をクリックします。
 1. （オプション）別のフィールドを入力し、リストに表示されたら **+** をクリックします。
-1. （任意） **フィルター** アイコン ![&#x200B; インポートフィールドのフィルター &#x200B;](assets/filters-in-import-fields-icon.png) アイコンをクリックして、次のフィールドの一方または両方を更新します。
+1. （任意） **フィルター** アイコン ![ インポートフィールドのフィルター ](assets/filters-in-import-fields-icon.png) アイコンをクリックして、次のフィールドの一方または両方を更新します。
 
    * オブジェクトタイプ：フィールドを読み込むWorkfront オブジェクトタイプを選択します。
    * カスタムフォーム：Workfrontから 1 つまたは複数のカスタムフォームを選択します。 最初にオブジェクトタイプを選択しなくても、カスタムフォームを選択できます。

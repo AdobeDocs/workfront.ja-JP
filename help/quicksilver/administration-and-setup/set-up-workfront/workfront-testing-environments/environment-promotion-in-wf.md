@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 49%
@@ -29,7 +29,7 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
    * [環境のプロモーションパッケージの作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Workfront API を使用してこのプロセスを実行する手順については、[API を使用した  [!DNL Workfront]  環境間でのオブジェクトの移動  [!DNL Workfront]  を参照してください &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)。
+* Workfront API を使用してこのプロセスを実行する手順については、[API を使用した  [!DNL Workfront]  環境間でのオブジェクトの移動  [!DNL Workfront]  を参照してください ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)。
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -153,14 +153,14 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>ASSEMBLING ステージが失敗すると、プロモーションパッケージは自動的にこのステータスになります。</p><p>パッケージをアセンブリステージに戻すには、アセンブリプロセスを再度トリガーする必要があります。</p><p>パッケージのアセンブリについて詳しくは、環境プロモーションパッケージの作成または編集に関する記事の <a href="https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package"> 既存のパッケージの編集またはアセンブリ </a> の節を参照してください。</td> 
+   <td><p>ASSEMBLING ステージが失敗すると、プロモーションパッケージは自動的にこのステータスになります。</p><p>パッケージをアセンブリステージに戻すには、アセンブリプロセスを再度トリガーする必要があります。</p><p>パッケージのアセンブリについて詳しくは、環境プロモーションパッケージの作成または編集に関する記事の <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package"> 既存のパッケージの編集またはアセンブリ </a> の節を参照してください。</td> 
   </tr> 
   </tbody> 
 </table>
 
 ## リソース
 
-* 環境推進に関するよくある質問については、[&#x200B; 環境推進に関するよくある質問 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md) を参照してください。
-* トラブルシューティングの推奨事項については、[&#x200B; 環境プロモーションのトラブルシューティング &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md) を参照してください。
+* 環境推進に関するよくある質問については、[ 環境推進に関するよくある質問 ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md) を参照してください。
+* トラブルシューティングの推奨事項については、[ 環境プロモーションのトラブルシューティング ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md) を参照してください。
 
 

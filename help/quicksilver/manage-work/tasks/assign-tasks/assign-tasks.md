@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 81%
@@ -70,7 +70,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td> <p>Standard</p>
+   <td> <p>標準</p>
    <p>Work またはそれ以上</p>
    </td> 
   </tr> 
@@ -191,7 +191,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （オプション）**自動保存**&#x200B;ドロップダウンメニューをクリックし、以下のオプションから選択します。
 
    | オプション | オプションの説明 |
-   |---|---| 
+   |---|---|
    | 自動保存 | タスクに加えた変更は自動的に保存され、元に戻すことはできません |
    | 手動保存 | 変更を手動で保存する必要があります。保存する前であれば変更内容を元に戻すことができます。 |
    | タイムラインの計画 | 変更を手動で保存する必要があります。保存する前であれば変更内容を元に戻すことができます。手動保存を選択する場合よりも、変更およびすべてのプロジェクトの依存関係を保存する方がより迅速です。 |
@@ -212,7 +212,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
+1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![ 人物アイコン ](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
 
    詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
@@ -238,7 +238,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. 新しいエクスペリエンスを使用して、引き続きタスクを割り当てます。
 
-   詳しくは、この記事の [&#x200B; 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる &#x200B;](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) を参照してください。
+   詳しくは、この記事の [ 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる ](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) を参照してください。
 
 1. （オプション） **タスクを編集** ボックスの下部にある「**古いエクスペリエンスに戻る** をクリックして、古いエクスペリエンスを開きます。
 

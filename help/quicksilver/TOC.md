@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 8cbaa087be44ffd8142bd864e3fb47ffef992372
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '13645'
+source-wordcount: '13638'
 ht-degree: 82%
 
 ---
@@ -1437,7 +1437,6 @@ ht-degree: 82%
          * [リスト内の複数のイシューに対するユーザー割り当ての変更](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [フィードバック待ちから進行中へイシューステータスを自動的に更新する](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * ガントチャート {#the-gantt-chart}
-      * ガントチャート {#the-gantt-chart}
       * [ガントチャート](manage-work/gantt-chart/the-gantt-chart.md)
       * ガントチャートの概要 {#gantt-chart-overview}
          * [ガントチャートの概要](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
@@ -1770,7 +1769,7 @@ ht-degree: 82%
          * [KPI クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [フライトプランクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [プロジェクトアクティビティクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-         * [&#x200B; プロジェクトツリーマップクエリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+         * [ プロジェクトツリーマップクエリ ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [チーム別アクティビティ クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
       * Data Connect のヒント、テクニック、トラブルシューティング{#troubleshooting-data-connect}
          * [Data Connect のヒント、テクニック、トラブルシューティング](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
@@ -2184,7 +2183,7 @@ ht-degree: 82%
       * [Adobe Workfront Planning のメール通知の管理](planning/notifications/manage-planning-email-notifications.md)
       * [Adobe Workfront Planning のアプリ内通知の管理](planning/notifications/manage-planning-in-app-notifications.md)
    * Adobe Workfront Planning and Gen Studio for Performance Marketing Integration {#planning-and-genstudio-integration}
-      * [Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合：記事一覧 &#x200B;](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
+      * [Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合：記事一覧 ](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
       * [Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Adobe Workfront Planning でのGenStudio Workspace の管理](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [Workfront Planning ワークスペースのGenStudioへの昇格](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
@@ -2192,14 +2191,13 @@ ht-degree: 82%
    * [Adobe Workfront 統合](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront のビルトインの統合の概要](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront 統合方法](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * レビューと承認の統合 {#review-approval-integrations}
    * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Creative Cloud アプリケーション用のAdobe Workfront プラグインのインストール {#install-wf-cc}
          * [Adobe Workfront for Creative Cloud アプリケーションのインストール](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Photoshop 用 Adobe Workfront をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Adobe Workfront for XD をインストールして開きます。](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-         * [&#x200B; [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+         * [ [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
       * Creative Cloud アプリケーション用 Adobe Workfront プラグインで作業を管理 {#manage-wf-cc}
          * [Creative Cloud アプリケーション用 Adobe Workfront プラグインで作業を管理](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Adobe Workfront プラグインを使用して作業を検索](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
@@ -2207,7 +2205,7 @@ ht-degree: 82%
          * [Adobe Workfront プラグインを使用して作業を更新](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Adobe Workfront プラグインを使用して作業アイテムを完了とマーク](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Adobe Workfront プラグインを使用して時間を記録](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントやプルーフを更新 {#upload-docs-proofs-wf-cc}
          * [ドキュメントやプルーフを  [!DNL Adobe Workfront plugin]  から  [!DNL Creative Cloud] にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントやプルーフを更新](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
@@ -2217,8 +2215,8 @@ ht-degree: 82%
          * [XD アートボードをドキュメントとして Workfront にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [&#x200B; [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [&#x200B; [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [ [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator および InDesign 向け Workfront 拡張機能 {#workfront-for-illustrator-indesign}
          * [Illustrator および InDesign 向け Workfront 拡張機能の使用](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Jira 用 Adobe Workfront {#workfront-for-jira}
