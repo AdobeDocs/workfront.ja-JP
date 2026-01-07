@@ -4,10 +4,10 @@ description: 2026年第 1 四半期の管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
+source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 11%
+source-wordcount: '676'
+ht-degree: 10%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 11%
 
 カスタムフィールドで式を編集する際に影響を受ける可能性のあるオブジェクトを可視化するために、競合をチェックするオプションを追加しました。 このダイアログ ボックスには、式の変更によって影響を受ける可能性のあるすべてのオブジェクトが、オブジェクト タイプ別にグループ化されて表示されます。 各オブジェクトの詳細に移動し、フィールドを確認して、フィールドをいずれかのフォームから削除するか、式を変更しないかを決定できます。
 
-詳しくは、[&#x200B; フォームへの計算フィールドの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+詳しくは、[ フォームへの計算フィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 
 ## エントリ日とカスタムオブジェクトに保存された入力者 ID
@@ -73,8 +73,6 @@ ht-degree: 11%
 
 詳しくは、[レイアウトテンプレートを作成および管理](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-
-
 ## カスタムフィールドのアクティブフラグによるフィールド管理の改善
 
 >[!NOTE]
@@ -90,7 +88,11 @@ ht-degree: 11%
 * カスタムフィールドを追加できるWorkfrontのレポート、フィルター、ビュー、その他の場所からは除外されます
 * 他のカスタムフォームに追加するフィールドライブラリでは使用できません
 
-詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+>[!NOTE]
+>
+>レポート、フィルター、ビュー、グループ化からの除外は、フィールドが非アクティブになった後で行われます。 フィールドが非アクティブとマークされても、そのフィールドを使用する既存のレポート要素は変更または削除されません。
+
+詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 
 
