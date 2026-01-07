@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
+source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront向けにリリースされている限定提供（LA）機能の一覧については、[Adobe Workfront限定提供（LA）機能のリリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md) を参照してください。
+Adobe Workfront向けにリリースされている限定提供（LA）機能の一覧については、[Adobe Workfront限定提供（LA）機能のリリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md) を参照してください。
 
 ## 限定提供の機能のリリースノート
 
@@ -67,13 +67,13 @@ Adobe Workfront向けにリリースされている限定提供（LA）機能の
 
 **システムの日付有効為替レートを使用** チェックボックスがオフになっている場合、プロジェクトの詳細/財務エリアの **為替レートの日付** フィールドが非表示になりました。 以前は、プロジェクトを編集する際に、有効日付の為替レートが有効になっていない場合でも、プロジェクトの詳細に「日付」フィールドが表示されていました。
 
-<!--### Maintenance Updates week of January 4-10, 2026
+### 2026 年 1 月 4 日～10 日のメンテナンス更新週
 
-**Title**
+**担当業務の割合で、有効日に空白が生じることができるようになりました**
 
-text
+担当業務レートの有効日には、重複する日付は許可されていませんが、ギャップが許可されるようになりました。 ギャップ中は、請求レート階層の他の領域を使用して、タスクの収益タイプに基づいて請求レートが決定されます。
 
-### Maintenance Updates week of January 11-17, 2026
+<!--### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
