@@ -4,9 +4,9 @@ description: 2026 年第 1 四半期リクエストの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '900'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 4%
 >すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
 
 特定のリクエストで作成されたオブジェクトに簡単に移動できるように、「作成されたオブジェクト」列へのリンクを追加しました。 これで、この列のリンクをクリックして、作成したオブジェクトのページに直接移動できます。
+
+このリンクは、リクエスト自体でオブジェクトが作成された場合にのみ使用できます。 リクエストがプロジェクトまたは他のオブジェクトに変換された場合、その変換後のオブジェクトへのリンクは、新しいリクエストのエクスペリエンスのリクエストリストで使用できません。
 
 以前は、この列にはオブジェクトの名前のみが含まれており、リンクは含まれていませんでした。
 
@@ -60,7 +62,7 @@ For more information on creating views for the Request list and My Requests widg
 
 必要な情報を確実に表示しやすくするために、新しいリクエスト用エクスペリエンスにビューを共有する機能を追加しました。 他のユーザー、チーム、グループとビューを共有できるようになりました。
 
-共有を含むリクエストビューについて詳しくは、[&#x200B; リクエストエリアでのビューの作成と管理 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+共有を含むリクエストビューについて詳しくは、[ リクエストエリアでのビューの作成と管理 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 
 ## リクエストリストとマイリクエストウィジェットにカスタムフィールドを追加
 
@@ -95,7 +97,7 @@ For more information on creating views for the Request list and My Requests widg
 
 ワイルドカードは、値がユーザーであるフィールドで使用できます。
 
-フィルターを含む、リクエストリストでのビューの設定について詳しくは、「[&#x200B; リクエスト領域でのビューの作成または編集 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+フィルターを含む、リクエストリストでのビューの設定について詳しくは、「[ リクエスト領域でのビューの作成または編集 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 
 ## AI を活用したフォーム入力がリクエストに使用できるようになりました
 
@@ -109,7 +111,7 @@ For more information on creating views for the Request list and My Requests widg
 
 この機能にアクセスするには、組織の AI が有効になっている必要があります。
 
-組織の AI を有効にするために必要なことなど、AI を利用したフォーム入力について詳しくは、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) を参照してください。
+組織の AI を有効にするために必要なことなど、AI を利用したフォーム入力について詳しくは、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) を参照してください。
 
 
 ## リクエストのドラフトを新しいリクエストエクスペリエンスに保存
@@ -124,7 +126,7 @@ For more information on creating views for the Request list and My Requests widg
 
 以前は、この機能は、新しいリクエストエクスペリエンスでは使用できませんでした。
 
-リクエストドラフトについて詳しくは、「[&#x200B; ドラフトからのリクエストの作成 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)」を参照してください。
+リクエストドラフトについて詳しくは、「[ ドラフトからのリクエストの作成 ](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md)」を参照してください。
 
 ## 新しい要求エクスペリエンスで送信済み要求を削除
 
@@ -138,7 +140,7 @@ For more information on creating views for the Request list and My Requests widg
 
 以前は、この機能は、新しいリクエストエクスペリエンスでは使用できませんでした。
 
-詳細と手順については、[&#x200B; 送信されたリクエストまたはリクエストドラフトの削除 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) を参照してください。
+詳細と手順については、[ 送信されたリクエストまたはリクエストドラフトの削除 ](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) を参照してください。
 
 
 ## 以前に送信したリクエストを新しいリクエストエクスペリエンスにコピーして、新しいリクエストを作成します
@@ -153,7 +155,7 @@ For more information on creating views for the Request list and My Requests widg
 
 以前は、この機能は、新しいリクエスト用エクスペリエンスでは使用できませんでした。
 
-リクエストのコピーと送信について詳しくは、[&#x200B; リクエストのコピーと送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
+リクエストのコピーと送信について詳しくは、[ リクエストのコピーと送信 ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
 
 
 
