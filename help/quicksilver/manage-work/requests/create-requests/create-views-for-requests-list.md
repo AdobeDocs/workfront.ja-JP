@@ -5,10 +5,10 @@ title: リクエスト エリアでのビューの作成と管理
 description: 新しいリクエスト機能を使用する場合は、「リクエスト」領域のビューを作成して保存できます。
 author: Becky
 feature: Work Management
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 9%
+source-wordcount: '706'
+ht-degree: 10%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 9%
 
 新しいリクエスト機能を使用する場合は、「リクエスト」領域のビューを作成して保存できます。 これらの表示には、フィルターと列の配置が含まれます。
 
-ビューは、Workfrontの「リクエスト」領域と、ホームの「マイリクエスト」ウィジェットで作成および管理できます。 表示設定は、リクエスト領域とウィジェットの間に保持されます。
+ビューは、Workfrontの「リクエスト」領域で作成および管理できます。
 
 >[!IMPORTANT]
 >
->この機能は、新しいリクエスト用エクスペリエンスでのみ使用できます。
+>* この機能は、新しいリクエスト用エクスペリエンスでのみ使用できます。
+>* ホームのマイリクエストウィジェットでは、表示設定は使用できません。
 
 ## アクセス要件
 
@@ -61,26 +62,18 @@ ht-degree: 9%
 
 ## リクエスト エリアでのビューの作成
 
-ビューは、Workfrontの「リクエスト」エリア、またはホームのマイリクエスト ウィジェットで作成できます。
+ビューは、Workfrontの「リクエスト」領域で作成できます。
 
 1. リクエスト リストにアクセスするには：
 
    {{step1-to-requests}}
 
-1. ホームのリクエスト ウィジェットにアクセスするには：
+1. リクエストリストで「**表示**」ドロップダウン ![ 表示ドロップダウン ](assets/view-icon-requests.png) をクリックし、「**新しい表示**」を選択します。
 
-   {{step1-to-home}}
-
-   1. 自分のリクエスト ウィジェットを見つけます。
-
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
-
-1. リクエストリストまたはマイリクエストウィジェットで、**表示** ドロップダウン ![&#x200B; 表示ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、**新しい表示** を選択します。
-
-   ![&#x200B; 新規ビュー &#x200B;](assets/create-new-view.png)
+   ![ 新規ビュー ](assets/create-new-view.png)
 
 1. 新しいビューの名前を入力し、[**作成**] をクリックします。
-1. [&#x200B; リクエスト エリアでのビューの編集 &#x200B;](#edit-a-view-in-the-requests-area) を続行します。
+1. [ リクエスト エリアでのビューの編集 ](#edit-a-view-in-the-requests-area) を続行します。
 
 ## 「リクエスト」領域でのビューの編集
 
@@ -89,20 +82,11 @@ ht-degree: 9%
 1. リクエスト リストにアクセスするには：
 
    {{step1-to-requests}}
+1. [ 要求 ] ボックスの一覧で、編集するビューを見つけます。
 
-1. ホームのリクエスト ウィジェットにアクセスするには：
-
-   {{step1-to-home}}
-
-   1. 自分のリクエスト ウィジェットを見つけます。
-
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
-
-1. リクエスト リストまたはマイリクエストウィジェットで、編集するビューを見つけます。
-
-1. （オプション）ビューの名前を変更するには、「**ビュー**」ドロップダウン ![&#x200B; 「ビュー」ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、ビューの横の「。..」メニューをクリックして「**名前を変更**」を選択し、ビューの新しい名前を入力します。
-1. **表示** ドロップダウン ![&#x200B; 表示ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、編集する表示を選択します。
-1. <span class="preview"> 列としてカスタムフィールドを追加するには、画面の右付近にある **列を追加** アイコン ![&#x200B; 列を追加 &#x200B;](assets/add-column.png) をクリックし、列としてビューに追加するカスタムフォームフィールドの横にあるプラスアイコンをクリックします。</span>
+1. （オプション）ビューの名前を変更するには、「**ビュー**」ドロップダウン ![ 「ビュー」ドロップダウン ](assets/view-icon-requests.png) をクリックし、ビューの横の「。..」メニューをクリックして「**名前を変更**」を選択し、ビューの新しい名前を入力します。
+1. **表示** ドロップダウン ![ 表示ドロップダウン ](assets/view-icon-requests.png) をクリックし、編集する表示を選択します。
+1. <span class="preview"> 列としてカスタムフィールドを追加するには、画面の右付近にある **列を追加** アイコン ![ 列を追加 ](assets/add-column.png) をクリックし、列としてビューに追加するカスタムフォームフィールドの横にあるプラスアイコンをクリックします。</span>
 
    <span class="preview"> リスト内のオブジェクトに添付されたフォームのカスタムフィールドは、列として追加できます。</span>
 
@@ -111,7 +95,7 @@ ht-degree: 9%
    >現在、実稼動環境で列を追加することはできません。
 1. （任意）「**列**」をクリックして、リクエストリストの列の非表示、表示、並べ替えを行います。
 
-   ![&#x200B; 「列」ボックス &#x200B;](assets/columns-editing-box-in-requests-planning-tab.png)
+   ![ 「列」ボックス ](assets/columns-editing-box-in-requests-planning-tab.png)
 
    >[!TIP]
    >
@@ -119,7 +103,7 @@ ht-degree: 9%
 
 1. （任意）「**フィルター**」をクリックして、「計画」タブに表示する要求の条件の追加を開始します。
 
-   ![&#x200B; 「計画要求」タブでのフィルターの編集 &#x200B;](assets/filters-editing-box-in-requests-planning-tab.png)
+   ![ 「計画要求」タブでのフィルターの編集 ](assets/filters-editing-box-in-requests-planning-tab.png)
 
    次のフィールドでフィルタリングできます。
 
@@ -146,7 +130,7 @@ ht-degree: 9%
 
 Workfront管理者は、新しいビューをレイアウトテンプレートに追加できます。
 
-手順については、[&#x200B; レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
+手順については、[ レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
 
 ## ビューを共有
 
@@ -156,15 +140,7 @@ Workfront管理者は、新しいビューをレイアウトテンプレート�
 
    {{step1-to-requests}}
 
-1. ホームのリクエスト ウィジェットにアクセスするには：
-
-   {{step1-to-home}}
-
-   1. 自分のリクエスト ウィジェットを見つけます。
-
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
-
-1. リクエスト リストまたはマイリクエストウィジェットで、共有するビューを見つけます。
+1. [ 要求 ] ボックスの一覧で、共有するビューを見つけます。
 1. 共有するビューの上にマウスポインターを置き、表示されたら 3 ドットメニューをクリックします。
 1. 「**共有**」を選択します。
 1. 開いたダイアログで、ビューを共有するユーザー、チーム、またはグループの名前を入力し、表示されたらリストから選択します。
