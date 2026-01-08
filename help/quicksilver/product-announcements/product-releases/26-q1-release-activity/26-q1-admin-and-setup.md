@@ -4,9 +4,9 @@ description: 2026年第 1 四半期の管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
+source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '685'
 ht-degree: 10%
 
 ---
@@ -21,9 +21,11 @@ ht-degree: 10%
 
 >[!NOTE]
 >
+>この機能は、プレビュー環境では一時的に使用できません
 >プレビュー：2025 年 12 月 2 日（Pt）
 >実稼動高速リリース：2026 年 1 月 14 日（PT）
 >すべてのユーザー向けの実稼動：2026 年 1 月 15 日（PT）
+
 
 レイアウトテンプレート内の特定のユーザーに対して、優先度を有効または無効にできるようになりました。 以前、組織で優先度を無効にしていた場合、この変更を含むレイアウトテンプレートでは無効のままになります。
 
@@ -44,7 +46,7 @@ ht-degree: 10%
 
 カスタムフィールドで式を編集する際に影響を受ける可能性のあるオブジェクトを可視化するために、競合をチェックするオプションを追加しました。 このダイアログ ボックスには、式の変更によって影響を受ける可能性のあるすべてのオブジェクトが、オブジェクト タイプ別にグループ化されて表示されます。 各オブジェクトの詳細に移動し、フィールドを確認して、フィールドをいずれかのフォームから削除するか、式を変更しないかを決定できます。
 
-詳しくは、[&#x200B; フォームへの計算フィールドの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+詳しくは、[ フォームへの計算フィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 
 ## エントリ日とカスタムオブジェクトに保存された入力者 ID
@@ -92,7 +94,7 @@ ht-degree: 10%
 >
 >レポート、フィルター、ビュー、グループ化からの除外は、フィールドが非アクティブになった後で行われます。 フィールドが非アクティブとマークされても、そのフィールドを使用する既存のレポート要素は変更または削除されません。
 
-詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 
 
