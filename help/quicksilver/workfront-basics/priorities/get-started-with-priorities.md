@@ -27,7 +27,7 @@ ht-degree: 7%
 
 「優先度」作業リストおよびカレンダには、自分に割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
 
-<span class="preview">Workfront管理者は、レイアウトテンプレートのユーザーの優先度を有効にすることができます。 詳しくは、[ レイアウトテンプレートを使用してメインメニューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) を参照してください。</span>
+<span class="preview">Workfront管理者は、レイアウトテンプレートのユーザーの優先度を有効にすることができます。 詳しくは、[&#x200B; レイアウトテンプレートを使用してメインメニューをカスタマイズする &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) を参照してください。</span>
 
 ## 作業の検索と整理
 
@@ -103,7 +103,7 @@ ht-degree: 7%
 * ステータス
 * プロジェクト
 
-詳しくは、[ 優先度での作業のフィルタリングとグループ化 ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) を参照してください。
+詳しくは、[&#x200B; 優先度での作業のフィルタリングとグループ化 &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) を参照してください。
 
 ### 重要な作業アイテムの優先順位付けに自分をフォーカス
 
@@ -116,9 +116,9 @@ ht-degree: 7%
 
 作業アイテムにフォーカスレベルを割り当てたら、列を並べ替えて、ワークリストの上部に緊急のアイテムを表示できます。
 
-詳しくは、[ 重要な作業項目の優先順位の設定 ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) を参照してください。
+詳しくは、[&#x200B; 重要な作業項目の優先順位の設定 &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) を参照してください。
 
-![ 作業リスト ](assets/worklist.png)
+![&#x200B; 作業リスト &#x200B;](assets/worklist.png)
 
 ### カレンダービューの使用
 
@@ -132,8 +132,8 @@ ht-degree: 7%
 >
 >ライト、レビュー、コントリビューター、リクエスターのライセンスでは、優先度へのアクセスが制限されています。 これらのライセンス タイプがタスクや問題とどのようにやり取りするかについての詳細は、を参照してください。
 >
->* [ 新規ライセンスのためのオブジェクトおよび領域へのアクセス ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
->* [ 新しいアクセスレベル用にオブジェクトタイプごとに使用可能な機能 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [&#x200B; 新規ライセンスのためのオブジェクトおよび領域へのアクセス &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [&#x200B; 新しいアクセスレベル用にオブジェクトタイプごとに使用可能な機能 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
 >* [ライセンスタイプ別のオブジェクトやエリアへのアクセス](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
 >* [各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
 
@@ -144,17 +144,17 @@ ht-degree: 7%
 
 「更新」セクションには、システムの更新と、過去 90 日間にユーザーが行った最新の更新が最大 200 件表示されます。
 
-詳しくは、[ 優先度でのコメントの追加と表示 ](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md) を参照してください。
+詳しくは、[&#x200B; 優先度でのコメントの追加と表示 &#x200B;](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md) を参照してください。
 
-![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
+![&#x200B; 更新、時間をログ記録、アップロード &#x200B;](assets/update-log-upload.png)
 
 ### 時間を記録
 
 作業アイテムの時間をログに記録して、そのアイテムに費やした時間数を示すことができます。 休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。記録した時刻がタイムシートに表示されます。
 
-詳しくは、「[ 優先度で時間を記録する ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md) を参照してください。
+詳しくは、「[&#x200B; 優先度で時間を記録する &#x200B;](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md) を参照してください。
 
-![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
+![&#x200B; 更新、時間をログ記録、アップロード &#x200B;](assets/update-log-upload.png)
 
 ### ファイルのアップロード
 
@@ -165,18 +165,18 @@ ht-degree: 7%
 * 追加ファイル
 * 接続されたドキュメント統合からのファイルの読み込み
 
-詳しくは、[ 優先度でのファイルのアップロード ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) を参照してください。
+詳しくは、[&#x200B; 優先度でのファイルのアップロード &#x200B;](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) を参照してください。
 
-![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
+![&#x200B; 更新、時間をログ記録、アップロード &#x200B;](assets/update-log-upload.png)
 
 
 ### クイックリンクの追加
 
 頻繁に使用するリンクを作業項目の詳細ページに埋め込むことができます。 クイックリンクを使用すると、リンクにすばやくアクセスまたはコピーできます。
 
-![ クイックリンク ](assets/quick-links.png)
+![&#x200B; クイックリンク &#x200B;](assets/quick-links.png)
 
-詳しくは、[ 優先度でクイックリンクを追加および管理 ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md) を参照してください。
+詳しくは、[&#x200B; 優先度でクイックリンクを追加および管理 &#x200B;](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md) を参照してください。
 
 ### ドキュメントを表示
 
@@ -196,9 +196,9 @@ ht-degree: 7%
 
 [!DNL Catch me up] 機能を使用して、見逃した内容を確認します。 キャッチアップでは、24 時間、3 日、7 日以内に、プロジェクトに関する更新、アップロードされたドキュメント、承認、その他の注目すべき変更点をまとめます。
 
-詳しくは、[ 優先度の作業のキャッチアップ ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
+詳しくは、[&#x200B; 優先度の作業のキャッチアップ &#x200B;](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
 
-![ 追いついて ](assets/catch-me-up.png)
+![&#x200B; 追いついて &#x200B;](assets/catch-me-up.png)
 
 <!--need new screen for prod-->
 
