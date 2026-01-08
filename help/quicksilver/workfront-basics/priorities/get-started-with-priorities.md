@@ -6,14 +6,16 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1017'
 ht-degree: 7%
 
 ---
 
 # [!DNL Priorities] の基本を学ぶ
+
+{{preview-fast-release-general}}
 
 優先度は、タスクの所有者に合わせて調整された、合理化された直感的なエクスペリエンスです。 優先度は、ワークリストから始めて、段階的にロールアウトされます。
 
@@ -24,6 +26,8 @@ ht-degree: 7%
 * パーソナライズされた機能：タスクの所有者向けに独自に設計された機能を活用できます
 
 「優先度」作業リストおよびカレンダには、自分に割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
+
+<span class="preview">Workfront管理者は、レイアウトテンプレートのユーザーの優先度を有効にすることができます。 詳しくは、[ レイアウトテンプレートを使用してメインメニューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) を参照してください。</span>
 
 ## 作業の検索と整理
 
@@ -49,7 +53,7 @@ ht-degree: 7%
       <td>項目を次で表示 
       <ul>
       <li>未完了の先行タスクまたはタスク制約はありません</li>
-      <p>および</p>
+      <p>and</p>
       <li>予定開始日が過去または最大 2 週間以内です</li>
       </ul>
       </td>
@@ -76,7 +80,7 @@ ht-degree: 7%
     <td>割り当てられたタスクまたは問題を含むプロジェクトを表示します</td>
     </tr>
     <tr>
-    <td>期限日</td>
+    <td>期日</td>
     <td>作業を予定完了日別に表示</td>
     </tr>
     <tr>
@@ -99,7 +103,7 @@ ht-degree: 7%
 * ステータス
 * プロジェクト
 
-詳しくは、[&#x200B; 優先度での作業のフィルタリングとグループ化 &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) を参照してください。
+詳しくは、[ 優先度での作業のフィルタリングとグループ化 ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) を参照してください。
 
 ### 重要な作業アイテムの優先順位付けに自分をフォーカス
 
@@ -112,9 +116,9 @@ ht-degree: 7%
 
 作業アイテムにフォーカスレベルを割り当てたら、列を並べ替えて、ワークリストの上部に緊急のアイテムを表示できます。
 
-詳しくは、[&#x200B; 重要な作業項目の優先順位の設定 &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) を参照してください。
+詳しくは、[ 重要な作業項目の優先順位の設定 ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) を参照してください。
 
-![&#x200B; 作業リスト &#x200B;](assets/worklist.png)
+![ 作業リスト ](assets/worklist.png)
 
 ### カレンダービューの使用
 
@@ -128,8 +132,8 @@ ht-degree: 7%
 >
 >ライト、レビュー、コントリビューター、リクエスターのライセンスでは、優先度へのアクセスが制限されています。 これらのライセンス タイプがタスクや問題とどのようにやり取りするかについての詳細は、を参照してください。
 >
->* [&#x200B; 新規ライセンスのためのオブジェクトおよび領域へのアクセス &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
->* [&#x200B; 新しいアクセスレベル用にオブジェクトタイプごとに使用可能な機能 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [ 新規ライセンスのためのオブジェクトおよび領域へのアクセス ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [ 新しいアクセスレベル用にオブジェクトタイプごとに使用可能な機能 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
 >* [ライセンスタイプ別のオブジェクトやエリアへのアクセス](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
 >* [各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
 
@@ -140,17 +144,17 @@ ht-degree: 7%
 
 「更新」セクションには、システムの更新と、過去 90 日間にユーザーが行った最新の更新が最大 200 件表示されます。
 
-詳しくは、[&#x200B; 優先度でのコメントの追加と表示 &#x200B;](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md) を参照してください。
+詳しくは、[ 優先度でのコメントの追加と表示 ](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md) を参照してください。
 
-![&#x200B; 更新、時間をログ記録、アップロード &#x200B;](assets/update-log-upload.png)
+![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
 
 ### 時間を記録
 
 作業アイテムの時間をログに記録して、そのアイテムに費やした時間数を示すことができます。 休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。記録した時刻がタイムシートに表示されます。
 
-詳しくは、「[&#x200B; 優先度で時間を記録する &#x200B;](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md) を参照してください。
+詳しくは、「[ 優先度で時間を記録する ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md) を参照してください。
 
-![&#x200B; 更新、時間をログ記録、アップロード &#x200B;](assets/update-log-upload.png)
+![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
 
 ### ファイルのアップロード
 
@@ -161,18 +165,18 @@ ht-degree: 7%
 * 追加ファイル
 * 接続されたドキュメント統合からのファイルの読み込み
 
-詳しくは、[&#x200B; 優先度でのファイルのアップロード &#x200B;](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) を参照してください。
+詳しくは、[ 優先度でのファイルのアップロード ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) を参照してください。
 
-![&#x200B; 更新、時間をログ記録、アップロード &#x200B;](assets/update-log-upload.png)
+![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
 
 
 ### クイックリンクの追加
 
 頻繁に使用するリンクを作業項目の詳細ページに埋め込むことができます。 クイックリンクを使用すると、リンクにすばやくアクセスまたはコピーできます。
 
-![&#x200B; クイックリンク &#x200B;](assets/quick-links.png)
+![ クイックリンク ](assets/quick-links.png)
 
-詳しくは、[&#x200B; 優先度でクイックリンクを追加および管理 &#x200B;](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md) を参照してください。
+詳しくは、[ 優先度でクイックリンクを追加および管理 ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md) を参照してください。
 
 ### ドキュメントを表示
 
@@ -192,9 +196,9 @@ ht-degree: 7%
 
 [!DNL Catch me up] 機能を使用して、見逃した内容を確認します。 キャッチアップでは、24 時間、3 日、7 日以内に、プロジェクトに関する更新、アップロードされたドキュメント、承認、その他の注目すべき変更点をまとめます。
 
-詳しくは、[&#x200B; 優先度の作業のキャッチアップ &#x200B;](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
+詳しくは、[ 優先度の作業のキャッチアップ ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
 
-![&#x200B; 追いついて &#x200B;](assets/catch-me-up.png)
+![ 追いついて ](assets/catch-me-up.png)
 
 <!--need new screen for prod-->
 
@@ -202,7 +206,8 @@ ht-degree: 7%
 
 タスクまたはイシューの詳細ページでリアルタイムの更新を表示できます。 また、リアルタイムプレゼンス指標を使用して、自分と同時に他のユーザーがページを表示しているかどうかを確認することもできます。
 
-## 考慮事項
 
-* Workfront管理者は、現時点では、レイアウトテンプレートを使用して優先度をカスタマイズできません。
-* 優先度のタスクへのアクセスはタブ間で行われます。 今後、ドキュメント、サブタスク、承認などのタブを追加する予定です。 「フィードバックを送信 **ボタンを使用してフィードバックを送信することにより、これらの項目が必要であることをお知らせくだ** い。
+<!--
+## Considerations
+
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
