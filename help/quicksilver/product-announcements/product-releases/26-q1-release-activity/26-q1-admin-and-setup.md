@@ -46,7 +46,7 @@ ht-degree: 10%
 
 カスタムフィールドで式を編集する際に影響を受ける可能性のあるオブジェクトを可視化するために、競合をチェックするオプションを追加しました。 このダイアログ ボックスには、式の変更によって影響を受ける可能性のあるすべてのオブジェクトが、オブジェクト タイプ別にグループ化されて表示されます。 各オブジェクトの詳細に移動し、フィールドを確認して、フィールドをいずれかのフォームから削除するか、式を変更しないかを決定できます。
 
-詳しくは、[ フォームへの計算フィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+詳しくは、[&#x200B; フォームへの計算フィールドの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 
 ## エントリ日とカスタムオブジェクトに保存された入力者 ID
@@ -94,7 +94,7 @@ ht-degree: 10%
 >
 >既存のフィールドを非アクティブにすると、その時点からレポート要素やカスタムフォームで使用できなくなります。 非アクティブなフィールドが現在レポートまたはフォームで使用されている場合、そのフィールドと履歴データは元の場所に残ります。
 
-詳しくは、[ カスタムフィールド、セクション区切り、ウィジェットの追加または編集 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) を参照してください。
+詳しくは、[&#x200B; カスタムフィールド、セクション区切り、ウィジェットの追加または編集 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) を参照してください。
 
 
 
