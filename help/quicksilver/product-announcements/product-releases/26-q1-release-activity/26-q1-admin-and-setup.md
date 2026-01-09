@@ -4,9 +4,9 @@ description: 2026年第 1 四半期の管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
+source-git-commit: a524dd5519f450543e486d83bff6134a15f548d7
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '700'
 ht-degree: 10%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 10%
 
 カスタムフィールドで式を編集する際に影響を受ける可能性のあるオブジェクトを可視化するために、競合をチェックするオプションを追加しました。 このダイアログ ボックスには、式の変更によって影響を受ける可能性のあるすべてのオブジェクトが、オブジェクト タイプ別にグループ化されて表示されます。 各オブジェクトの詳細に移動し、フィールドを確認して、フィールドをいずれかのフォームから削除するか、式を変更しないかを決定できます。
 
-詳しくは、[&#x200B; フォームへの計算フィールドの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+詳しくは、[ フォームへの計算フィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 
 ## エントリ日とカスタムオブジェクトに保存された入力者 ID
@@ -92,9 +92,9 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->レポート、フィルター、ビュー、グループ化からの除外は、フィールドが非アクティブになった後で行われます。 フィールドが非アクティブとマークされても、そのフィールドを使用する既存のレポート要素は変更または削除されません。
+>既存のフィールドを非アクティブにすると、その時点からレポート要素やカスタムフォームで使用できなくなります。 非アクティブなフィールドが現在レポートまたはフォームで使用されている場合、そのフィールドと履歴データは元の場所に残ります。
 
-詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[ カスタムフィールド、セクション区切り、ウィジェットの追加または編集 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) を参照してください。
 
 
 

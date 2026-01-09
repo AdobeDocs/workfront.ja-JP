@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
+source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 34%
+source-wordcount: '409'
+ht-degree: 33%
 
 ---
 
@@ -27,11 +27,11 @@ Workfrontのフィールド エリアから直接新しいカスタムフィー�
 
 >[!NOTE]
 >
->レポート、フィルター、ビュー、グループ化からの除外は、フィールドが非アクティブになった後で行われます。 フィールドが非アクティブとマークされても、そのフィールドを使用する既存のレポート要素は変更または削除されません。
+>既存のフィールドを非アクティブにすると、その時点からレポート要素やカスタムフォームで使用できなくなります。 非アクティブなフィールドが現在レポートまたはフォームで使用されている場合、そのフィールドと履歴データは元の場所に残ります。
 
-カスタムフォームからカスタムフィールドを削除した場合、そのフィールドは追加先となったその他のすべてのフォームに存在し、フォームまたは「フィールド」領域で編集できます。 フィールドの削除について詳しくは、[&#x200B; システムからカスタムフィールドまたはウィジェットを削除する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md) を参照してください。
+カスタムフォームからカスタムフィールドを削除した場合、そのフィールドは追加先となったその他のすべてのフォームに存在し、フォームまたは「フィールド」領域で編集できます。 フィールドの削除について詳しくは、[ システムからカスタムフィールドまたはウィジェットを削除する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md) を参照してください。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## アクセス要件
 
@@ -70,7 +70,7 @@ Workfrontのフィールド エリアから直接新しいカスタムフィー�
 1. **新規カスタムフィールド** をクリックします。
 1. 表示されるボックスに、追加する項目の必須情報とオプション情報を入力します。
 
-   詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. 「**作成**」をクリックします。
 
@@ -83,7 +83,7 @@ Workfrontのフィールド エリアから直接新しいカスタムフィー�
 1. カスタムフィールド、セクション区切りまたはウィジェットを選択し、![編集アイコン](assets/edit-icon.png) をクリックします。
 1. 表示されるボックスで、編集中の項目に対して使用可能なオプションを変更します。
 
-   詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. 完了したら、「**編集**」をクリックします。
 
