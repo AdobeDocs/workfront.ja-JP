@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 49%
+source-wordcount: '384'
+ht-degree: 44%
 
 ---
 
 
 # レコードタイプの概要
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -34,7 +38,7 @@ Workfront Planning のオブジェクト・タイプは「レコード・タイ�
 
 Workfront Planning では、組織のニーズに合ったカスタムレコードタイプを作成できます。
 
-レコードタイプの作成について詳しくは、[&#x200B; レコードタイプの作成 &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) を参照してください。
+レコードタイプの作成について詳しくは、[ レコードタイプの作成 ](/help/quicksilver/planning/architecture/create-record-types.md) を参照してください。
 
 * テンプレートからワークスペースを作成する際、次のワークスペースセクションにレコードタイプが作成されます。
 
@@ -46,7 +50,8 @@ Workfront Planning では、組織のニーズに合ったカスタムレコー�
 * 最初から作成したワークスペースにレコードタイプを作成する際、ワークスペース内に作成した任意のセクションにレコードタイプを配置できます。
 * レコードタイプの作成時、自分とワークスペースへのアクセス権を付与したユーザーのみが、このレコードタイプを表示できます。
 * ワークスペースのレコードタイプを作成する前に、ワークスペースを作成する必要があります。
-* 1 つのワークスペースまたはWorkfront インスタンスに含めることができるレコードタイプの数の制限については、[Adobe Workfront Planning オブジェクトの制限事項の概要 &#x200B;](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
+* 1 つのワークスペースまたはWorkfront インスタンスに含めることができるレコードタイプの数の制限については、[Adobe Workfront Planning オブジェクトの制限事項の概要 ](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
+* <span class="preview"> レコードタイプをグローバルとして指定できます。 グローバル レコード タイプは、既存のレコード タイプとして他のワークスペースに追加できます。 詳しくは、[ConfConfigure cross-workspace capabilities for record typesigure](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span> を参照してください。
 
 
 <!--
