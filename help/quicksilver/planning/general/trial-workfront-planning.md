@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront Planning の体験版プログラムの概要
+title: Adobe Workfront Planning の無料体験版の概要
 description: Adobe Workfrontでは現在、Adobe Workfront Planning を 60 日間無料で利用できます。 この体験版では、Planning が全体像に関する戦略と、それを実現する日常業務をどのように結び付けるかを確認する機会です。 プランニングを使用すると、マーケティングライフサイクルを一元的に把握できるので、チーム間のコラボレーション、キャンペーンのリアルタイム追跡、自動ワークフローを改善できます。 カスタムワークスペースを作成し、インタラクティブなタイムラインとカレンダーでの作業を視覚化できます。 この体験版では、Planning が日常業務と戦略目標を連携させ、実行を効率化し、組織の測定可能な結果を推進するのにどのように役立つかを実際に確認できます。
 author: Alina
 feature: Workfront Planning
@@ -7,7 +7,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Adobe Workfrontでは現在、Adobe Workfront Planning を 60 日間無料で利
 
 >[!NOTE]
 >
->Workfront Planning の現在のお客様は、Workfront Planning の体験版をご利用いただけません。 この体験版は、Planning をご利用のお客様ではないWorkfrontのお客様がWorkfront Planning を体験し、全体像に基づく戦略とそれを実現する日々の作業を結びつける方法を確認する機会です。
+>Workfront Planning の現在のお客様は、Workfront Planning の体験版をご利用いただけません。 この体験版は、Planning のお客様ではないWorkfront <!-- is it Workfront or Adobe, or anyone--> のお客様がWorkfront Planning を体験し、全体像の戦略とそれを実現する日常業務をどのように結び付けるかを確認する機会です。
 
 
 プランニングを使用すると、マーケティングライフサイクルを一元的に把握できるので、チーム間のコラボレーション、キャンペーンのリアルタイム追跡、自動ワークフローを改善できます。 カスタムワークスペースを作成し、インタラクティブなタイムラインとカレンダーでの作業を視覚化できます。
@@ -43,7 +43,7 @@ Workfront Planning の無料体験版に参加するには、会社に次のも�
 
 * 任意の新しいAdobe Workfrontまたはワークフローパッケージ
 Workfront Planning 体験版は、従来のWorkfront パッケージでは使用できません
-詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 * Adobe Admin Consoleへのアクセス
 * Identity Management System （IMS）に参加する
 * 組織のWorkfront インスタンスで使用可能な署名済みの法的契約
@@ -64,7 +64,7 @@ Workfront管理者の 1 人は、組織内のすべてのユーザーがWorkfron
 
          または
 
-         画面の右上隅にある **Workfrontのお知らせエリアに移動し**&#x200B;[ すべてのお知らせ ] をクリックすると、お知らせセンターにWorkfront Planning の試用版に関するメッセージが表示されます。**すべての通知**
+         画面の右上隅にある **Workfrontのお知らせエリアに移動し**[ すべてのお知らせ ] をクリックすると、お知らせセンターにWorkfront Planning の試用版に関するメッセージが表示されます。**すべての通知**
       1. **体験版契約を確認** をクリックします。<!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
       1. 契約書を確認した後、「**同意する**」をクリックします。
 
@@ -75,7 +75,7 @@ Workfront管理者の 1 人は、組織内のすべてのユーザーがWorkfron
 
          または
 
-         画面の右上隅にある **Workfrontのお知らせ領域に移動して**&#x200B;[ すべてのお知らせ ]&#x200B;**をクリックし、Workfront Planning の試用版に関するお知らせセンターのメッセージを見つけ** す
+         画面の右上隅にある **Workfrontのお知らせ領域に移動して**[ すべてのお知らせ ]**をクリックし、Workfront Planning の試用版に関するお知らせセンターのメッセージを見つけ** す
 
          または
 
@@ -91,9 +91,9 @@ Workfront管理者の 1 人は、組織内のすべてのユーザーがWorkfron
          * その他のすべてのユーザーには、表示権限があります。
       1. （条件付き） 2026 年 3 月 1 日（PT）以降は、「**ベストプラクティスのワークスペース**」タブの調査を開始して、ワークスペースまたはそのオブジェクトを他のユーザーと共有します。
 
-         Adobe Workfront Planning の使用方法の詳細については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+         Adobe Workfront Planning の使用方法の詳細については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
-         Workfront Planning の使用のベストプラクティスについては、[Adobe Workfront Planning のベストプラクティス &#x200B;](/help/quicksilver/planning/general/planning-best-practices.md) を参照してください。
+         Workfront Planning の使用のベストプラクティスについては、[Adobe Workfront Planning のベストプラクティス ](/help/quicksilver/planning/general/planning-best-practices.md) を参照してください。
 
 <!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps above - ???  -->
 
