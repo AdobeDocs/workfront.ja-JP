@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: approvals
 title: AI レビュー担当者の作成
-description: GenStudio Foundationで 1 つ以上のブランドを設定したら、複数の AI レビュー担当者を作成して、承認テンプレートや個々のレビューおよび承認のリクエストに割り当てることができます。
+description: Workfrontで 1 つ以上のブランドを設定したら、複数の AI レビュー担当者を作成して、承認テンプレートや個々のレビューおよび承認のリクエストに割り当てることができます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
+source-git-commit: de5f5d709ace99b7794ff2eaeb4ee7849cff8182
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 16%
+source-wordcount: '246'
+ht-degree: 22%
 
 ---
 
@@ -20,11 +20,8 @@ ht-degree: 16%
 >
 >この機能は現在ベータ版です。
 
-GenStudio Foundationで 1 つ以上のブランドを設定したら、複数の AI レビュー担当者を作成して、承認テンプレートや個々のレビューおよび承認のリクエストに割り当てることができます。
+Workfrontで 1 つ以上のブランドを設定したら、複数の AI レビュー担当者を作成して、承認テンプレートや個々のレビューおよび承認のリクエストに割り当てることができます。
 
->[!NOTE]
->
->AI レビュー担当者は、レビューおよび承認ワークフローの意思決定者となるようには設計されていません。 アセットを指定されたブランド要件に合わせるためのスコアと推奨事項のみが提供されます。
 
 ## アクセス要件
 
@@ -55,11 +52,15 @@ GenStudio Foundationで 1 つ以上のブランドを設定したら、複数の
 
 ## 前提条件
 
-開始する前に、GenStudio Foundationで画像ブランドガイドラインを設定する必要があります。
-
-画像ブランドガイドラインについて詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
+開始する前に、Workfrontで画像ブランドガイドラインを設定する必要があります。 詳しくは、[AI レビュアーのブランドの設定 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md) を参照してください。
 
 ## AI レビュー担当者の追加
+
+>[!NOTE]
+>
+>AI レビュー担当者は、レビューおよび承認ワークフローの意思決定者となるようには設計されていません。 アセットを指定されたブランド要件に合わせるためのスコアと推奨事項のみが提供されます。
+
+AI レビュー担当者を追加するには：
 
 {{step-1-to-setup}}
 
