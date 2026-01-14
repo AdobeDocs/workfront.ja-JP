@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '2853'
-ht-degree: 26%
+source-wordcount: '2877'
+ht-degree: 25%
 
 ---
 
@@ -38,17 +38,17 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 >[!NOTE]
 >
-><span class="preview">1 つのレコードタイプに対して最大 30 個の接続フィールドを持つことができます。</span>
+>1 つのレコードタイプに対して最大 30 個の接続フィールドを持つことができます。
 
 ここでは、2 つのWorkfront Planning レコードタイプまたは 1 つのWorkfront Planning レコードタイプを別のアプリケーションのオブジェクトに関連付ける方法について説明します。
 
 レコード間またはオブジェクト タイプ間の接続を確立すると、接続フィールドが Planning レコード タイプに追加されます。 「接続」フィールドでは、個々のレコードを相互に接続し、リンクされたレコードまたはオブジェクトタイプのフィールドをWorkfront Planning レコードに表示できます。
 
-接続タイプに関する一般的な情報については、[&#x200B; 接続されたレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+接続タイプに関する一般的な情報については、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
-レコードまたはレコードを他のアプリケーションのオブジェクトと接続する方法については、「[&#x200B; レコードを接続する &#x200B;](/help/quicksilver/planning/records/connect-records.md)」を参照してください。
+レコードまたはレコードを他のアプリケーションのオブジェクトと接続する方法については、「[ レコードを接続する ](/help/quicksilver/planning/records/connect-records.md)」を参照してください。
 
-レコードタイプとレコードの接続例については、[&#x200B; レコードタイプとレコードの接続例 &#x200B;](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md) を参照してください。
+レコードタイプとレコードの接続例については、[ レコードタイプとレコードの接続例 ](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md) を参照してください。
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -89,7 +89,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets ライセンス、およびAEM Assets を Planning レコードタイプと統合するためのAEM AssetsとWorkfrontの統合。</p>
    <p>詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials：記事インデックス </a> を参照してください。 </p></li>
    <li><p> レコードタイプとGenStudio ブランドを接続するためのAdobe GenStudio for Performance Marketing ライセンス</p>
-   <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ </a> を参照してください。</p></li></ul>
+   <p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ </a> を参照してください。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -105,7 +105,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -187,13 +187,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
 1. テーブルビューの右上隅にある **+** アイコンをクリックし、「**新しい接続**」タブをクリックします。
 
-   ![Workfront AEMのオプションを含む新しい「接続」タブ &#x200B;](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+   ![Workfront AEMのオプションを含む新しい「接続」タブ ](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
 1. レコードタイプを検索するか、次のいずれかを選択します。
 
    * 現在のワークスペースからのレコードタイプ
 
-     ![&#x200B; 同じワークスペースレコードタイプの複数選択接続ピッカー &#x200B;](assets/multi-select-connection-picker-record-type.png)
+     ![ 同じワークスペースレコードタイプの複数選択接続ピッカー ](assets/multi-select-connection-picker-record-type.png)
 
      >[!TIP]
      >
@@ -204,11 +204,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
      >[!TIP]
      >
-     >他のワークスペースからレコードの種類にアクセスできるようにするには、**他のワークスペースでこのレコードの種類への接続を許可** 設定を &lbrack;**詳細設定**<span class="preview"> または [**レコードの種類の編集**</span>] ボックスの [**ワークスペース間の設定**] タブで有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
+     >**他のワークスペースでこのレコードの種類への接続を許可する** 設定は、レコードの種類が他のワークスペースからアクセスできるようにするには、**詳細設定** または **レコードの種類を編集** ボックスの **ワークスペース間の設定** タブで、有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
      >
-     >詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。<!--update screen shot at production-->
+     >詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。<!--update screen shot at production-->
      >
-     >![&#x200B; レコードタイプを編集ボックスの「詳細設定」タブ &#x200B;](assets/edit-record-type-box-advanced-settings-tab.png)
+     >![ レコードタイプを編集ボックスの「詳細設定」タブ ](assets/edit-record-type-box-advanced-settings-tab.png)
 
      <!--Old:
         [!TIP]
@@ -216,21 +216,21 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
         ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
         -->
 
-   詳しくは、[&#x200B; レコードタイプの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
+   詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
    * 「**Workfront オブジェクトタイプ**」セクションからの&#x200B;**プロジェクト、ポートフォリオ、プログラム、会社**&#x200B;または&#x200B;**グループ**。
 
-     ![Workfront プロジェクト連携の選択 &#x200B;](assets/multi-select-connection-picker-project.png)
+     ![Workfront プロジェクト連携の選択 ](assets/multi-select-connection-picker-project.png)
 
    * 「**Adobe アプリケーション**」セクションからの **Experience Manager Assets**。
 
-     ![AEM Assets接続の選択 &#x200B;](assets/aem-assets-connection-selection.png)
+     ![AEM Assets接続の選択 ](assets/aem-assets-connection-selection.png)
 
      選択したレコードまたはオブジェクト タイプの [ 新しい接続 ] タブが開きます。
 
-   * **2&rbrace;Adobe GenStudio** セクションのAdobe GenStudio for Performance Marketingの **ブランド &rbrace;**
+   * **2}Adobe GenStudio** セクションのAdobe GenStudio for Performance Marketingの **ブランド }**
 
-     ![GenStudio Brand 接続の選択 &#x200B;](assets/brand-genstudio-connection-selection.png)
+     ![GenStudio Brand 接続の選択 ](assets/brand-genstudio-connection-selection.png)
 
 1. **名前** フィールドを、新しく接続されたフィールドの名前で更新します。この名前は、元のレコードタイプのテーブルビューまたはレコードページに表示されます。 これにより、元のレコードタイプのテーブル表示に接続されたレコード列（またはフィールド）が作成されます。 デフォルトでは、フィールド名は接続先のレコードまたはオブジェクトの名前です。
 
@@ -241,7 +241,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 接続レコードフィールドに関する情報を追加して、「**説明**」フィールドを更新します。 フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
 1. （条件付き） 2 つの異なるワークスペース（レコードタイプとAdobe Experience Manager アセットオブジェクト）またはレコードタイプとGenStudio Brand のレコードタイプを関連付ける場合は、「**複数のレコードを許可**」を選択します。 これを選択すると、元のレコードに「接続されたレコードタイプ」フィールドが表示されたときに、ユーザーが複数のレコードを追加できるように指定できます。 これはデフォルトで選択されています。
 
-   ![&#x200B; 別のワークスペースからのレコードタイプへの新しい接続 &#x200B;](assets/new-connection-allow-multiple-records-box.png)
+   ![ 別のワークスペースからのレコードタイプへの新しい接続 ](assets/new-connection-allow-multiple-records-box.png)
 
 1. （条件付き）同じワークスペースのレコードタイプを接続する場合、または Planning レコードタイプをWorkfront オブジェクトタイプに接続する場合は、次のいずれかを選択します。
 
@@ -252,9 +252,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    >[!TIP]
    >
-   >* <span class="preview">1 つのレコードタイプに対する接続フィールド数の制限 30 個 </span> に加えて、1 つのレコードタイプに対するフィールド数には 500 個の制限があります。 この制限に達するのを避けるために、特に分類レコードタイプでは、この設定をオフにすることをお勧めします。
+   >* 1 つのレコードタイプに対して 30 個の接続フィールドという制限に加えて、1 つのレコードタイプに対して 500 個のフィールドという制限があります。 この制限に達するのを避けるために、特に分類レコードタイプでは、この設定をオフにすることをお勧めします。
    >
-   >* <span class="preview"> リンクされたレコードタイプで **対応するフィールドを作成** を選択することは、階層を作成するための前提条件です。</span>
+   >* **リンクされたレコードタイプに対応するフィールドを作成** を選択することは、階層を作成するための前提条件です。
 
 1. （条件付き） **リンクされたレコードタイプに対応するフィールドを作成** を有効にした場合は、次のオプションから選択して、ユーザーが接続できるレコード数と接続できるレコード数を示します。
 
@@ -263,7 +263,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * 多対 1
    * 1 対 1
 
-   接続タイプについて詳しくは、[&#x200B; 接続されたレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+   接続タイプについて詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
    >[!NOTE]
    >
@@ -279,7 +279,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    >[!NOTE]
    >
-   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
 
 1. （条件付き）Experience Manager Assets、Workfront Planning レコードタイプ、またはGenStudio ブランドに接続する場合は、**レコードの外観** 領域で次のいずれかのオプションを選択します。
@@ -294,7 +294,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >* 複数のレコードをリンクできるようにすると、サムネールのみを表示して、レコードビューなどの小さな領域のスペースを節約できる場合があります。
    >
-   >* レコードの名前は、レコードのプライマリフィールドです。 詳しくは、[プライマリフィールドの概要 &#x200B;](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
+   >* レコードの名前は、レコードのプライマリフィールドです。 詳しくは、[プライマリフィールドの概要 ](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
    >
    >* Workfront オブジェクトタイプを選択する場合、レコードの外観は使用できません。
    >
@@ -309,6 +309,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >* Workfront オブジェクトの日付フィールドの情報は、Workfront Planning では、Workfrontでの表示方法に関係なく、24 時間形式で表示されます。
    >
    >   例えば、プロジェクトの予定開始日がWorkfrontで午後 3:00 と表示された場合、Workfront Planning の読み込まれた参照フィールドでは 15:00 と表示されます。
+   >* 実稼動環境では、人物フィールドをルックアップフィールドとして追加できません。 <span class="preview"> 人物フィールドをプレビュー環境のルックアップフィールドとして追加できます。</span>
+   >
 
 1. 「**作成**」をクリックします。
 
@@ -320,7 +322,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    **-** アイコンをクリックして、**選択されたフィールド**&#x200B;エリアからフィールドを削除します。
 
-   ![[ 他のレコード タイプのルックアップ フィールドを追加する ] ボックス &#x200B;](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+   ![[ 他のレコード タイプのルックアップ フィールドを追加する ] ボックス ](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
    レコードやオブジェクトをリンクした後、接続されたフィールドの値が自動的に入力されます。
 
@@ -353,7 +355,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    > 参照日フィールドをタイムライン ビューとカレンダービューの開始日および終了日として追加できるようにする場合は、フィールドを追加するときにアグリゲータ値を選択する必要があります。 例えば、参照日フィールドには、MAXまたは MIN アグリゲータを選択できます。
 
-   ![&#x200B; リンクされた数値フィールドのアグリゲータドロップダウン &#x200B;](assets/aggregator-drop-down-for-number-linked-field.png)
+   ![ リンクされた数値フィールドのアグリゲータドロップダウン ](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -386,7 +388,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >* **一意**:100,000 ドル
    >
 
-1. （オプション） **検索** アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) を使用して、フィールドを検索します。
+1. （オプション） **検索** アイコン ![ 検索アイコン ](assets/search-icon.png) を使用して、フィールドを検索します。
 
 1. 「**フィールドを追加**」をクリックして変更を保存します。
 
@@ -407,7 +409,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      >[!TIP]
      >
      > リンクされたレコードフィールドは、それぞれのアプリケーションの別のアプリケーションのオブジェクトには作成されません。
-     >分類的レコードタイプへのリンクは作成しないことをお勧めします。すべてのレコードタイプに対して、500 個のフィールド <span class="preview">30 個の接続されたフィールドの制限に加えて </span>500 個のフィールドに制限があります。
+     >すべてのレコードタイプに対する接続されたフィールドの制限 30 個に加えて、500 個のフィールドに制限があるので、分類レコードタイプへのリンクを作成しないことをお勧めします。
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 
@@ -416,7 +418,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * **フィールドを編集**：フィールドの **名前** と **説明** 情報を更新します。
    * **ルックアップフィールドを編集**：任意のリンクされたレコードのフィールドを追加または削除します。
 
-   ![&#x200B; テーブル列のフィールドおよびルックアップフィールドの編集ドロップダウンメニュー &#x200B;](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![ テーブル列のフィールドおよびルックアップフィールドの編集ドロップダウンメニュー ](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    ルックアップ フィールドを追加または削除するには、上記の手順 16 ～ 17 の指示に従います。<!--ensure these step numbers stay accurate-->
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 22%
+source-wordcount: '464'
+ht-degree: 20%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 22%
 
 # Adobe Workfront Planning オブジェクトの制限事項の概要
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、高速リリースを有効にしたお客様には、実稼動環境でも同じ機能が利用できます。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,13 +49,13 @@ Workfront Planning で作成できるオブジェクトの数の制限を次の�
 | レコードタイプを作成するために CSV または Excel ファイルに読み込むことができる行数 | 25,000 |
 | CSV または Excel ファイルに読み込んでレコードタイプを作成できる列数 | 500 |
 | 1 つのレコードタイプの数式フィールドの数 | 20 |
-| <span class="preview">1 つのレコードタイプの接続フィールドの数 </span> | <span class="preview">30</span> |
+| 1 つのレコードタイプの接続フィールドの数 | 30 |
 | 式フィールドの式の文字数 | 50,000 |
 | Planning オブジェクトを共有できるエンティティの数（ユーザー、役割、チーム、会社、グループ） | 100 |
-| <span class="preview"> 階層内のレコードタイプの数 </span> | 4 |
-| <span class="preview"> ワークスペース内の階層の数 </span> | 5 |
-| <span class="preview"> 階層内で、子レコードタイプの 1 つのレコードに接続された親レコードタイプのレコードの数 </span> | 10 |
-| 複数選択の接続タイプで 1 つのレコードに接続されたレコードの数。<span class="preview"> レコード間に階層が設定されていない </span> | 500 |
+| 階層内のレコードタイプの数 | 4 |
+| ワークスペース内の階層数 | 5 |
+| 階層内で、子レコードタイプから 1 つのレコードに接続された親レコードタイプのレコードの数 | 10 |
+| 複数選択の接続タイプで 1 つのレコードに接続され、レコード間に階層が設定されていないレコードの数 | 500 |
 
 *管理が困難になり、ワークフローが断片化される可能性があるので、ワークスペースが多くなりすぎることはお勧めしません。
 

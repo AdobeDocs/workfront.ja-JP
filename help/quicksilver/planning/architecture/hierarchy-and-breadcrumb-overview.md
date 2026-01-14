@@ -1,14 +1,14 @@
 ---
 title: 階層とパンくずの概要
-description: レコードタイプを接続した後に、ワークスペース内のレコードタイプ間に複数のワークスペース階層を作成できます。
+description: Workspace Manager では、接続されたレコードタイプとAdobe Workfront Planning のその他のオブジェクトタイプの間に、柔軟だが構造化された階層を定義できます。 階層は、レコードタイプ間、またはレコードタイプとWorkfront プロジェクト間の関連付けです。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 2%
+source-wordcount: '1001'
+ht-degree: 0%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 2%
 
 # 階層とパンくずの概要
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Workspace Manager では、接続されたレコードタイプとAdobe Workfront Planning のその他のオブジェクトタイプの間に、柔軟だが構造化された階層を定義できます。
 
 階層は、レコードタイプ間、またはレコードタイプとWorkfront プロジェクト間の関連付けです。
 
-階層の作成については、「[&#x200B; ワークスペース階層の作成 &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)」を参照してください。
+階層の作成については、「[ ワークスペース階層の作成 ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)」を参照してください。
 
 ワークスペースで階層を使用する利点は次のとおりです。
 
@@ -81,7 +81,7 @@ Workspace Manager では、接続されたレコードタイプとAdobe Workfron
 
 例えば、階層を作成して、戦術、アクティビティ、プロジェクトの順にキャンペーンを接続した場合、階層内で接続されている任意のタイプのレコードに移動すると、階層内でレコードが配置されている場所を確認できます。
 
-![&#x200B; パンくず &#x200B;](assets/breadcrumbs-on-project.png)
+![ パンくず ](assets/breadcrumbs-on-project.png)
 
 次の点に注意してください。
 
@@ -91,7 +91,7 @@ Workspace Manager では、接続されたレコードタイプとAdobe Workfron
 
   例えば、Planning のキャンペーンと戦術およびWorkfrontのポートフォリオとプログラムに接続されたプロジェクトを調べる場合、パンくずリストから Planning とWorkfrontの両方のオブジェクトタイプを切り替えることができます。
 
-  詳しくは、[&#x200B; ワークスペース階層の作成 &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) を参照してください。
+  詳しくは、[ ワークスペース階層の作成 ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) を参照してください。
 * レコードを編集すると、変更がすべてのワークスペースと、レコードが含まれているすべての階層から表示されます。
 
 

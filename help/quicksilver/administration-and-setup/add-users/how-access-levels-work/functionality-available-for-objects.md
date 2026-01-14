@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 527a5de08a89bdd4d27d508113b8b0f4b2d73089
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 92%
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+>この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 
 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
 
@@ -31,8 +31,8 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->* この記事では、新しいWorkfront パッケージモデルのアクセスレベルで使用できる機能について説明します。 現在のパッケージモデルで使用可能な機能を確認するには、[&#x200B; 様々なアクセスレベルの各オブジェクトタイプで使用可能な機能 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
->* 最新モデルのさまざまなパッケージで利用できる機能の一覧については、[Adobe Workfrontの価格とパッケージ &#x200B;](https://business.adobe.com/jp/products/workfront/pricing.html) を参照してください。
+>* この記事では、新しいWorkfront パッケージモデルのアクセスレベルで使用できる機能について説明します。 現在のパッケージモデルで使用可能な機能を確認するには、[ 様々なアクセスレベルの各オブジェクトタイプで使用可能な機能 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
+>* 最新モデルのさまざまなパッケージで利用できる機能の一覧については、[Adobe Workfrontの価格とパッケージ ](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
 
 ## プロジェクト
 
@@ -125,7 +125,7 @@ ht-degree: 92%
 | イシューをプロジェクトに変換 | ✓ |   |   |   |
 | イシューのタスクへの変換 | ✓ |   |   |   |
 | 割り当ての承認 | ✓ |   |   |   |
-| 割り当ての作成 | ✓ |   |   |   |
+| 割り当ての作成 | ✓ | ✓ | ✓ |   |
 | 更新とコメントの追加 | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
@@ -225,11 +225,11 @@ ht-degree: 92%
 |--------------------------------|----------|--------|-------------|---------------|
 | 作成 | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | 削除（ドキュメントおよびフォルダー） | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| 共有 | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| 共有 | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | 公開（外部）の共有 | ✓&#42; |   |   |   |
 | システム全体で共有 | ✓&#42; |   |   |   |
 | 表示 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
-| 詳細の編集 | ✓ | ✓ | ✓ |   |
+| 詳細の編集 | ✓ | ✓ | ✓ |   |
 | ダウンロード | ✓ | ✓ | ✓ | ✓ |
 | チェックアウト | ✓ | ✓ | ✓ |   |
 | 承認者の追加（ドキュメント） | ✓ | ✓ | ✓ |   |
