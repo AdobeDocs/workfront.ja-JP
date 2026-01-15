@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 59%
+source-wordcount: '532'
+ht-degree: 58%
 
 ---
 
 # レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ
-
-{{preview-fast-release-general}}
 
 Adobe Workfront 管理者またはグループ管理者は、レイアウトテンプレートを使用して、ユーザーがオブジェクトのページを開いた際にオブジェクトヘッダーに表示されるフィールドを設定できます。
 
@@ -25,7 +23,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 >
 >オブジェクトヘッダーのカスタマイズは、現在、プロジェクト、タスクおよびイシューに対して使用できます。
 
-![&#x200B; オブジェクトヘッダーフィールド &#x200B;](assets/object-header-fields.png)
+![ オブジェクトヘッダーフィールド ](assets/object-header-fields.png)
 
 レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -47,7 +45,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td><p>Standard</p>
+   <td><p>標準</p>
        <p>プラン</p></td>
   </tr> 
   </tr> 
@@ -70,7 +68,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. [!UICONTROL &#x200B; ヘッダーフィールド &#x200B;] セクションで、現在のフィールドの上にマウスポインターを置いて、次のいずれかの操作を行います。
+1. [!UICONTROL  ヘッダーフィールド ] セクションで、現在のフィールドの上にマウスポインターを置いて、次のいずれかの操作を行います。
    * **x** アイコンをクリックしてフィールドを削除
 
      または
@@ -79,7 +77,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![&#x200B; オブジェクトヘッダーフィールドの非表示および移動アイコン &#x200B;](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![ オブジェクトヘッダーフィールドの非表示および移動アイコン ](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. 1 つのオブジェクトのヘッダーには、最大 5 つのフィールドを含めることができます。
 既に 5 つのフィールドが選択されている場合、新しいフィールドを追加する前に、1 つのフィールドを削除する必要があります。
@@ -93,22 +91,13 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
    >
    >* イシューのヘッダーに「解決オブジェクト」フィールドを追加すると、イシューに関連付けられた解決オブジェクトがある場合、そのフィールドは「解決するイシュー、タスク、またはプロジェクト」に変わります。
 
-   ![&#x200B; ヘッダーにフィールドを追加 &#x200B;](assets/add-field-to-header-in-lt-list.png)
+   ![ ヘッダーにフィールドを追加 ](assets/add-field-to-header-in-lt-list.png)
 
 1. （任意）フィールドを別の順序でドラッグ&amp;ドロップします。
 
-1. <span class="preview"> プレビュー環境の場合：レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。</span>
-
-   <span class="preview">または</span>
-
-   <span class="preview"> カスタマイズが終了したら、「**保存して閉じる** をクリックします。</span>
-
-1. 実稼動環境の場合：レイアウトテンプレートのカスタマイズを続行します。
+1. レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。
 
    または
 
-   カスタマイズが終了したら、「**保存**」をクリックします。
+   カスタマイズが終了したら、「保存して閉じる **をクリックし** す。
 
-   >[!TIP]
-   >
-   >いつでも「**保存**」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。

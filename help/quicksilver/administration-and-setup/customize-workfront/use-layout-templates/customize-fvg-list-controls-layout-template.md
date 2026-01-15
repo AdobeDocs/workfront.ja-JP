@@ -8,20 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 80%
+source-wordcount: '763'
+ht-degree: 82%
 
 ---
 
 # レイアウトテンプレートを使用したフィルター、表示およびグループ化のカスタマイズ
 
-{{preview-fast-release-general}}
-
 Adobe Workfront の管理者は、レイアウトテンプレートを使用して、フィルター、表示、グループ化の各ドロップダウンメニューに表示するリストコントロールを指定できます。これらのメニューは、プロジェクトのタスクリストなど、Workfront 全体のリストの上に表示されます。
 
-![&#x200B; フィルタービューのグループ化レイアウトテンプレート &#x200B;](assets/filter-view-grouping-layout-templates.png)
+![ フィルタービューのグループ化レイアウトテンプレート ](assets/filter-view-grouping-layout-templates.png)
 
 レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -62,25 +60,25 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
 ## フィルター、表示、およびグループ化のリスト コントロールのカスタマイズ
 
 1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
-1. ![&#x200B; ユーザーの表示項目をカスタマイズ &#x200B;](assets/down-arrow-blue.png) の下の下向き矢印 **下向き矢印** をクリックし、表示されるドロップダウンメニューで **リスト** をクリックします。
+1. ![ ユーザーの表示項目をカスタマイズ ](assets/down-arrow-blue.png) の下の下向き矢印 **下向き矢印** をクリックし、表示されるドロップダウンメニューで **リスト** をクリックします。
 
-   ![&#x200B; ユーザーの表示内容のカスタマイズ &#x200B;](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![ ユーザーの表示内容のカスタマイズ ](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. ![&#x200B; カスタマイズするリストを選択 &#x200B;](assets/down-arrow-blue.png) の下の下向き矢印 **下向き矢印** をクリックし、リストのフィルター、表示、グループ化コントロールをカスタマイズするWorkfront オブジェクトの種類を選択します。
+1. ![ カスタマイズするリストを選択 ](assets/down-arrow-blue.png) の下の下向き矢印 **下向き矢印** をクリックし、リストのフィルター、表示、グループ化コントロールをカスタマイズするWorkfront オブジェクトの種類を選択します。
 
-   ![&#x200B; カスタマイズするリストを選択 &#x200B;](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![ カスタマイズするリストを選択 ](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >カスタマイズするプロジェクトをリストとして選択し、フィルタセクションにある、自分が所属するプロジェクト、または自分が所有するプロジェクトを無効にすると、ユーザーはそのフィルターを表示したり使用したりすることができなくなります。
    >
-   >* リストの上にあるフィルターアイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) をクリックすると表示されるフィルターのリストで、以下を行います。
+   >* リストの上にあるフィルターアイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックすると表示されるフィルターのリストで、以下を行います。
    >   
-   >  ![&#x200B; フィルターを無効にする &#x200B;](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![ フィルターを無効にする ](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* プロジェクトエリアヘッダーの上にあるヘッダーで、以下のように行います。
    >   
-   >  ![&#x200B; 「フィルターを無効にする」ボタン &#x200B;](assets/disable-filter-pills.png)
+   >  ![ 「フィルターを無効にする」ボタン ](assets/disable-filter-pills.png)
 
 1. （オプション）レイアウトテンプレートのデフォルトのフィルター、表示またはグループ化を変更する場合は、フィルター、表示またはグループ化にポインタを合わせて、**デフォルトとして設定**&#x200B;をクリックします。
 
@@ -118,18 +116,8 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
     </tbody> 
    </table>
 
-1. <span class="preview"> プレビュー環境の場合：レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。</span>
-
-   <span class="preview">または</span>
-
-   <span class="preview"> カスタマイズが終了したら、「**保存して閉じる** をクリックします。</span>
-
-1. 実稼動環境の場合：レイアウトテンプレートのカスタマイズを続行します。
+1. レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。
 
    または
 
-   カスタマイズが終了したら、「**保存**」をクリックします。
-
-   >[!TIP]
-   >
-   >いつでも「**保存**」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
+   カスタマイズが終了したら、「保存して閉じる **をクリックし** す。

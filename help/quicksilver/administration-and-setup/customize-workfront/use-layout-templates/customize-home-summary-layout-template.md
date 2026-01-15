@@ -8,18 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 52%
+source-wordcount: '767'
+ht-degree: 53%
 
 ---
 
 # レイアウトテンプレートを使用した概要パネルのカスタマイズ
 
 <!--Audited: 11/2024-->
-
-{{preview-fast-release-general}}
 
 レイアウトテンプレートを使用すると、ユーザーがタスクまたは問題をクリックしたときに概要パネルに表示される内容を設定できます。 以下の手順を使用して行う各設定は、概要パネルに影響します。 ただし、これらのカスタマイズは「ドキュメントの概要」パネルには適用されません。
 
@@ -72,7 +70,7 @@ ht-degree: 52%
 
 1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
 
-1. ![&#x200B; ユーザーの表示項目をカスタマイズ &#x200B;](assets/dropdown-arrow.png) の下の下向き矢印 **下向き矢印** をクリックし、**概要パネル** をクリックします。
+1. ![ ユーザーの表示項目をカスタマイズ ](assets/dropdown-arrow.png) の下の下向き矢印 **下向き矢印** をクリックし、**概要パネル** をクリックします。
 
 1. 下に表示されるリストで、概要パネルをカスタマイズするオブジェクトタイプをクリックします。
 
@@ -127,15 +125,15 @@ ht-degree: 52%
 
 1. （条件付き）前の手順で「タスク」または「イシュー」をクリックした場合は、カスタマイズするタスクまたはイシューのカテゴリを選択します。
 
-   ![&#x200B; カスタマイズするカテゴリを選択 &#x200B;](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![ カスタマイズするカテゴリを選択 ](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. （条件付き） **プライマリアクションを設定** ボタン ドロップダウンメニューが表示された場合（左側のリストで **タスク** または **イシュー** を選択した場合）、ユーザーがタスクまたはイシューを表示したときに概要パネルで使用できるプライマリアクション（**完了** または **ステータス**）をクリックします。
 
-   ![&#x200B; プライマリアクションを設定 &#x200B;](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![ プライマリアクションを設定 ](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. 選択したオブジェクトタイプのフィールドを追加 ![&#x200B; 項目を追加 &#x200B;](assets/add-item-plus-in-circle-blue.png) または非表示 ![&#x200B; 項目を非表示 &#x200B;](assets/close-or-hide---x.png) にします。
+1. 選択したオブジェクトタイプのフィールドを追加 ![ 項目を追加 ](assets/add-item-plus-in-circle-blue.png) または非表示 ![ 項目を非表示 ](assets/close-or-hide---x.png) にします。
 
-   ![&#x200B; フィールドの追加と非表示 &#x200B;](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![ フィールドの追加と非表示 ](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 手順 3～6 を繰り返し、他のオブジェクトタイプの概要パネルをカスタマイズします。
 1. 左下隅付近の **グローバル設定** をクリックし、概要のAdobe Workfront オブジェクトに関連する次のオプションのいずれかを有効または無効にします。
@@ -168,20 +166,10 @@ ht-degree: 52%
     </tbody> 
    </table>
 
-1. <span class="preview"> プレビュー環境の場合：レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。</span>
-
-   <span class="preview">または</span>
-
-   <span class="preview"> カスタマイズが終了したら、「**保存して閉じる** をクリックします。</span>
-
-1. 実稼動環境の場合：レイアウトテンプレートのカスタマイズを続行します。
+1. レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。
 
    または
 
-   カスタマイズが終了したら、「**保存**」をクリックします。
-
-   >[!TIP]
-   >
-   >いつでも「**保存**」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
+   カスタマイズが終了したら、「保存して閉じる **をクリックし** す。
 
 レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。

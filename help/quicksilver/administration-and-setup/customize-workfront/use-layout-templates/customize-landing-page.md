@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 67%
+source-wordcount: '395'
+ht-degree: 68%
 
 ---
 
 # レイアウトテンプレートを使用してランディングページをカスタマイズ
-
-{{preview-fast-release-general}}
 
 Adobe Workfront 管理者は、レイアウトテンプレートを使用して、ユーザーが Workfront にログインしたときに表示するエリアを指定できます。
 
@@ -50,7 +48,7 @@ Adobe Workfront 管理者は、レイアウトテンプレートを使用して�
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td><p>Standard</p>
+   <td><p>標準</p>
        <p>プラン</p></td>
   </tr> 
   </tr> 
@@ -101,20 +99,10 @@ Adobe Workfront 管理者は、レイアウトテンプレートを使用して�
    >
    >* Workfront のシナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
    >
-   >* Workfront Planning については、[Adobe Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+   >* Workfront Planning については、[Adobe Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
-1. <span class="preview"> プレビュー環境の場合：レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。</span>
-
-   <span class="preview">または</span>
-
-   <span class="preview"> カスタマイズが終了したら、「**保存して閉じる** をクリックします。</span>
-
-1. 実稼動環境の場合：レイアウトテンプレートのカスタマイズを続行します。
+1. レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。
 
    または
 
-   カスタマイズが終了したら、「**保存**」をクリックします。
-
-   >[!TIP]
-   >
-   >いつでも「**保存**」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
+   カスタマイズが終了したら、「保存して閉じる **をクリックし** す。

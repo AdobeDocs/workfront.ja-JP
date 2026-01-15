@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 87%
+source-wordcount: '525'
+ht-degree: 91%
 
 ---
 
@@ -19,15 +19,13 @@ ht-degree: 87%
 
 <!--Audited: 09/2024-->
 
-{{preview-fast-release-general}}
-
 >[!IMPORTANT]
 >
 >このページで説明する手順は、まだ [!DNL Adobe Experience Cloud] にオンボーディングしていない組織にのみ適用されます。
 >
 > 組織が [!DNL Adobe Experience Cloud] にオンボーディング済みの場合、ブランディングは利用できません。
 
-特定のグループ、チーム、担当業務およびユーザーの上部ナビゲーション領域とメインメニューのロゴをカスタマイズできます。これは、大規模な組織内で独自のブランディングを持つにグループに特に役立ちます。
+レイアウトテンプレートを使用して、特定のグループ、チーム、担当業務およびユーザーの上部ナビゲーション領域とメインメニューのロゴをカスタマイズできます。これは、大規模な組織内で独自のブランディングを持つにグループに特に役立ちます。
 
 グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
@@ -70,7 +68,7 @@ ht-degree: 87%
 ## レイアウトテンプレートを使用した Adobe Workfront のブランディング
 
 1. [レイアウトテンプレートを作成および管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されているように、レイアウトテンプレートの使用を開始します。
-1. ![&#x200B; ユーザーの表示項目をカスタマイズ &#x200B;](assets/dropdown-arrow.png) の下の下向き矢印 **下向き矢印** をクリックし、「**ブランディング**」をクリックします。
+1. ![ ユーザーの表示項目をカスタマイズ ](assets/dropdown-arrow.png) の下の下向き矢印 **下向き矢印** をクリックし、「**ブランディング**」をクリックします。
 1. このレイアウトテンプレートが割り当てられているユーザー向けに、ブランディングイメージを使用して Workfront をカスタマイズするには、次のいずれかの変更を行います。
 
    <table style="table-layout:auto"> 
@@ -88,20 +86,10 @@ ht-degree: 87%
     </tbody> 
    </table>
 
-1. <span class="preview"> プレビュー環境の場合：レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。</span>
-
-   <span class="preview">または</span>
-
-   <span class="preview"> カスタマイズが終了したら、「**保存して閉じる** をクリックします。</span>
-
-1. 実稼動環境の場合：レイアウトテンプレートのカスタマイズを続行します。
+1. レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。
 
    または
 
-   カスタマイズが終了したら、「**保存**」をクリックします。
-
-   >[!TIP]
-   >
-   >いつでも「**保存**」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
+   カスタマイズが終了したら、「保存して閉じる **をクリックし** す。
 
 レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
