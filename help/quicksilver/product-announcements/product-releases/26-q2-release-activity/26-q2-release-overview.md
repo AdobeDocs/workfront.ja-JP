@@ -4,10 +4,10 @@ description: このページでは、2026年第 2 四半期リリースに含ま
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 39%
+source-wordcount: '708'
+ht-degree: 35%
 
 ---
 
@@ -37,10 +37,49 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront の機能強化
 
-
+* [管理者機能の強化](#administrator-enhancements)
 * [その他の機能強化](#other-enhancements)
 
+### 管理者機能の強化
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfrontのメール通知用の新しい IP アドレス </a><p></p>
+            <p>Workfrontからメール通知を送信するために使用される IP アドレスを更新しています。 メールまたはファイアウォールの許可リストを維持している場合は、以下の新しい IP アドレスを追加して <b>Workfront通知が引き続き配信されるようにする </b> 必要があります）。</p><p>これらの更新は、承認、リマインダー、プルーフ通知、その他のシステムメッセージなど、Workfront アプリケーションで生成されたすべてのアウトバウンドメールに適用されます。</p>
+            <ul>
+            <li>米国：
+            <ul>
+            <li>206.55.149.212</li>
+            <li>206.55.149.214</li>
+            <li>206.55.149.215</li>
+            <li>206.55.149.213</li>
+            <li>206.55.149.211</li>
+            </ul>
+            </li>
+            <li>EU: 
+            <ul>
+            <li>24.110.76.224</li>
+            <li>24.110.76.223</li>
+            </ul>
+            </li>
+            </ul> </p>
+        </td>
+        <td><p>2026年1月15日（PT）</p></td>
+        <td><p>2026年1月15日（PT）</p></td>
+        <td><p>2026年1月15日（PT）</p></td>
+    <tr>
+            </tbody>
+        </table>
 
 ### その他の機能強化
 
@@ -85,7 +124,7 @@ Workfront Fusion の新機能は、標準のリリーススケジュール以外
 
 ### Workfront計画の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 2 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md) を参照してください。
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 2 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md) を参照してください。
 
 このリリースの現時点では、次の更新はありません。
 
@@ -130,7 +169,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 
 ### Workfront のメンテナンスアップデート
