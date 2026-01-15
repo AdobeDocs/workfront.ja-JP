@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 77%
@@ -16,8 +16,6 @@ ht-degree: 77%
 ---
 
 # 計算フィールドをフォームに追加する
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -85,7 +83,7 @@ ht-degree: 77%
 >
 >計算済みの式を変更すると、オブジェクトのフィールド値が古くなる場合があります。これらのフィールドで常に最新の計算を表示するには、以下の操作のいずれかを行います。
 >
->* 添付されたカスタムフォームのデータを編集したオブジェクトを保存した後、オブジェクトのメインページの「詳細」アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックして、カスタム式を再計算します。
+>* 添付されたカスタムフォームのデータを編集したオブジェクトを保存した後、オブジェクトのメインページの「詳細」アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックして、カスタム式を再計算します。
 >* オブジェクトを一括編集する際に、「カスタム式を再計算」オプションを選択します。
 >* カスタムフォームで計算カスタムフィールドを編集する場合は、「以前の計算を更新」オプションを選択します。
 
@@ -95,22 +93,18 @@ ht-degree: 77%
 
 1. 左側のパネルで **カスタムForms**、**Forms** の順にクリックします。
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. 「**新規カスタムフォーム**」をクリックします。
 
 1. **新規カスタムフォーム** ダイアログで、カスタムフォームを添付するオブジェクトタイプを選択し、「**続行**」をクリックします。
 1. 画面の左上で、「**フィールドライブラリ**」をクリックします。
 
-   ![&#x200B; フィールドライブラリ &#x200B;](assets/field-library.png)
+   ![ フィールドライブラリ ](assets/field-library.png)
 
 1. 検索ボックスを使用するか、「**計算済み**」セクションを展開して必要な計算済みフィールドを見つけ、カスタムフォーム内の表示したい場所にフィールドをドラッグします。
 
-1. <span class="preview"> （条件付き） **競合のチェック** をクリックして、この計算フィールドの式を変更することによって影響を受ける可能性のあるすべてのオブジェクトを確認します。</span>
+1. （条件付き） **競合のチェック** をクリックして、この計算フィールドの式を変更することによって影響を受ける可能性のあるすべてのオブジェクトを確認します。
 
-   <span class="preview"> 同じ計算フィールドを含む 2 つ以上のフォームがオブジェクトに添付されている場合、数式はすべてのフォームで同一である必要があります。 変更により競合が発生する可能性がある場合、式の編集は許可されません。</span>
+   同じ計算フィールドを含む 2 つ以上のフォームがオブジェクトに添付されている場合、数式はすべてのフォームで同一である必要があります。 変更により競合が発生する可能性がある場合、式の編集は許可されません。
 
 1. （オプション）前の手順を繰り返して、その他のフィールドを追加します。
 
@@ -139,15 +133,11 @@ ht-degree: 77%
 
 1. 「**新規カスタムフォーム**」をクリックします。
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. **新規カスタムフォーム** ダイアログで、カスタムフォームを添付するオブジェクトタイプを選択し、「**続行**」をクリックします。
 
 1. 画面の左側で、**計算済み**&#x200B;を見つけ、キャンバス上のセクションにドラッグします。
 
-   ![&#x200B; フィールドをセクションにドラッグ &#x200B;](assets/drag-field-to-section.png)
+   ![ フィールドをセクションにドラッグ ](assets/drag-field-to-section.png)
 
 1. 画面の右側で、追加するカスタムフィールドのタイプに使用できるオプションを設定します。
 
@@ -176,8 +166,8 @@ ht-degree: 77%
       <p><strong> メモ </strong>: <strong> 通貨 </strong> 形式の計算フィールドには引用符を含めないでください。 例えば、"800.00" ではなく、800.00 を使用してください。引用符を使用すると、通貨タイプの言語形式の微妙な違いにより、予期しない結果が生じる可能性があります。</p></td>
      </tr> 
      <tr>
-      <td><span class="preview">アクティブ</span></td>
-      <td><span class="preview"><p>このオプションは、デフォルトでオンになっています。<p><p>フィールドを非アクティブに設定すると、そのフィールドはレポート、フィルター、ビューから除外され、カスタムフォームフィールドライブラリでは使用できなくなります。</p></span></td>
+      <td>アクティブ</td>
+      <td><p>このオプションは、デフォルトでオンになっています。<p><p>フィールドを非アクティブに設定すると、そのフィールドはレポート、フィルター、ビューから除外され、カスタムフォームフィールドライブラリでは使用できなくなります。</p></td>
      </tr>
     </tbody> 
    </table>
@@ -288,7 +278,7 @@ ht-degree: 77%
            >
            ><div>オブジェクトに添付されたカスタムフォームでは、計算されたカスタムフィールドの日付と時刻のステートメントは、組織のインスタンスとユーザープロファイルに設定されたタイムゾーン設定ではなく、協定世界時（UTC）で計算および保存されます。カスタムフォームの計算は、各ユーザーの個々のタイムゾーンに基づいて生成されます。</div>
 
-      +++
+        +++
 
    1. 大きいテキストボックスをクリックし、計算に追加できる&#x200B;**式**&#x200B;および&#x200B;**フィールド**&#x200B;をクリックします。
 
@@ -304,15 +294,15 @@ ht-degree: 77%
       >
       >次のいずれかの操作を実行して、計算に関するヘルプを確認することができます。
       > 
-      >* 計算内の式にポインタを合わせると、説明、その使用方法を示す例および **詳細情報** の記事 [&#x200B; 計算データ式の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) の詳細へのリンクが表示されます。
-      >  ![&#x200B; 式のヘルプテキスト &#x200B;](assets/hover-expression-help-text.jpg)
+      >* 計算内の式にポインタを合わせると、説明、その使用方法を示す例および **詳細情報** の記事 [ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) の詳細へのリンクが表示されます。
+      >  ![ 式のヘルプテキスト ](assets/hover-expression-help-text.jpg)
       >* 追加したコンポーネントを識別するには、色分けを使用します。式は青色で表示され、フィールドは緑色で表示されます。
-      >  ![&#x200B; フィールド式のカラー &#x200B;](assets/colors-fields-expressions.jpg)
+      >  ![ フィールド式のカラー ](assets/colors-fields-expressions.jpg)
       >* 計算エラーを見つけます。計算エラーはピンク色で強調表示されます。強調表示されたエラーの上にポインタを合わせると、その原因に関する簡単な説明が表示されます。
-      >  ![&#x200B; エラーヘルプ &#x200B;](assets/error-help.png)
+      >  ![ エラーヘルプ ](assets/error-help.png)
       >* 計算の下のエリアで、既存の Workfront オブジェクトの結果をプレビューします。
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![&#x200B; 計算をプレビュー &#x200B;](assets/preview-calc.jpg)
+      >  ![ 計算をプレビュー ](assets/preview-calc.jpg)
       >* 左側に表示される行番号を使用して、長い計算で式を参照します。
 
       +++

@@ -7,16 +7,14 @@ description: フォームをオブジェクトに添付した後に、カスタ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 56%
+ht-degree: 57%
 
 ---
 
 # カスタムフォームフィールドの情報を編集する
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -90,7 +88,7 @@ ht-degree: 56%
 
 ## 前提条件
 
-* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 * オブジェクトには、カスタムフォームを添付する必要があります。
 
   カスタムフォームをオブジェクトに追加する方法について詳しくは、[オブジェクトにカスタムフォームを追加する](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
@@ -102,13 +100,13 @@ ht-degree: 56%
 カスタムフォームを持つことのできるオブジェクトについて詳しくは、[カスタムフォームの概要](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)を参照してください。
 
 1. カスタムフォームの情報を編集するオブジェクトのリスト（イテレーションのリストを除く）に移動します。
-1. リスト内の 1 つまたは複数のオブジェクトを選択し、リスト上部の **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. リスト内の 1 つまたは複数のオブジェクトを選択し、リスト上部の **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. 左側のパネルの **編集 &lt; オブジェクト >** ボックス内で **カスタムForms** をクリックします。
 
    オブジェクトに添付されたカスタムフォームがある場合、フォームの名前は「**カスタムForms**」セクションにエリアとして表示されます。
 1. アクセス権のある任意のフィールドに情報を入力します。
 
-   ![&#x200B; 請求記録にカスタムフォームを含む編集ボックス &#x200B;](assets/edit-box-with-custom-forms-on-billing-record.png)
+   ![ 請求記録にカスタムフォームを含む編集ボックス ](assets/edit-box-with-custom-forms-on-billing-record.png)
 
    複数のカスタムフォームがオブジェクトに添付されている場合は、すべてのフォームに対してこれを行います。
 
@@ -122,9 +120,9 @@ ht-degree: 56%
 
    >[!NOTE]
    >
-   ><span class="preview"> 複数の選択を許可するフィールドによって、選択できるオプションの数が制限される場合があります。 チェックボックスと複数選択のドロップダウンは、5,000 個に制限されています。</span>
+   >複数の選択を許可するフィールドによって、選択できるオプションの数が制限される場合があります。 チェックボックスと複数選択のドロップダウンは、5,000 個に制限されています。
 
-   すべてのフィールドタイプについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   すべてのフィールドタイプについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. 「**保存**」をクリックします。
 
@@ -150,7 +148,7 @@ ht-degree: 56%
 
       同じ領域の **編集** アイコンをクリックして、添付されたフォームのフィールドの編集を開始します。
 
-      ![&#x200B; イテレーションカスタムフォームを編集 &#x200B;](assets/edit-iteration-custom-form.png)
+      ![ イテレーションカスタムフォームを編集 ](assets/edit-iteration-custom-form.png)
 
    1. 「**変更を保存**」をクリックします。
 
