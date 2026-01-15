@@ -8,16 +8,14 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 50%
+source-wordcount: '1544'
+ht-degree: 47%
 
 ---
 
 # 送信されたリクエストを表示する
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 自分または他のユーザーが送信したリクエストや、自分が開始したが送信を完了していないリクエストを表示できます。 これらのリクエストは、Adobe Workfront の次のエリアで検索できます。
 
@@ -28,8 +26,8 @@ ht-degree: 50%
   >[!NOTE]
   >
   >* 自分のドラフトリクエストのみを表示できます。
-  >* <span class="preview"> 新しいリクエストエクスペリエンスでは、送信されたリクエストとドラフトが同じリストに含まれます。</span>
-  >* <span class="preview"> 従来のエクスペリエンスで作成されたドラフトは、新しい要求元エクスペリエンスには表示されません。</span>
+  >* 新しいリクエストエクスペリエンスでは、送信されたリクエストとドラフトが同じリストに含まれます。
+  >* 従来のエクスペリエンスで作成されたドラフトは、新しい要求元エクスペリエンスには表示されません。
 
 * Workfrontの「要求」エリアの「**計画**」タブ：Workfrontの計画リクエストフォームに送信された要求を表示します。 Workfront Planning パッケージを購入する必要があります。 詳しくは、次の記事を参照してください。
 
@@ -83,7 +81,11 @@ ht-degree: 50%
 
 ### 新しい要求エクスペリエンスで送信された要求を表示する
 
-「要求」領域で送信済の要求を表示できます <span class="preview"> この領域には、Planning 要求によって作成されたオブジェクトへのリンクが含まれます </span>。
+「要求」領域で送信済の要求を表示できます。この領域には、Planning 要求によって作成されたオブジェクトへのリンクが含まれます。
+
+>[!NOTE]
+>
+>作成されたオブジェクトへのリンクは、要求そのものがオブジェクトを作成した場合に、新しい要求エクスペリエンスで使用できるのは Planning 要求のみです。 Workfront リクエストがプロジェクトまたは他のオブジェクトに変換された場合、その変換後のオブジェクトへのリンクは、新しいリクエスト環境のリクエストリストで使用できません。
 
 自分または他のユーザーが新しい要求エクスペリエンスで送信した要求を表示するには：
 
@@ -109,7 +111,7 @@ ht-degree: 50%
 フィルター条件を追加すると、リクエストリストが自動的にフィルタリングされます。
 1. （任意）ビューを使用して、表示するリクエストにフォーカスします。
 
-   手順については、[&#x200B; リクエスト領域でのビューの作成または編集 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+   手順については、[ リクエスト領域でのビューの作成または編集 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 1. （オプション） ステータス列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。
 
    * ドラフト：このリクエストはまだ送信されていません。
@@ -120,7 +122,7 @@ ht-degree: 50%
       * Workfront ワークフロー：リクエストが変換され、作業が進行中です。
       * Workfront Planning: リクエスト完了は、特定の Planning フィールドにマップされ、フィールド値がまだ完了値と一致していません。
 
-        詳しくは、「Adobe Workfront Planning でのリクエストフォームの作成と管理」の [&#x200B; 設定の詳細の設定 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) を参照してください。
+        詳しくは、「Adobe Workfront Planning でのリクエストフォームの作成と管理」の [ 設定の詳細の設定 ](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) を参照してください。
    * 完了：リクエストが完了します。
 
 >[!NOTE]
@@ -266,13 +268,13 @@ ht-degree: 50%
 
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
-   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 
 1. （オプション） ステータス列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。
 
    * ドラフト：このリクエストはまだ送信されていません。
-   * 処理中
+   * 進行状況
    * 完了
 
 

@@ -6,16 +6,14 @@ description: 予定作業は、Adobe Workfront ではプロジェクトとタス
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
 workflow-type: tm+mt
-source-wordcount: '2546'
-ht-degree: 83%
+source-wordcount: '2532'
+ht-degree: 82%
 
 ---
 
 # リクエストの作成と送信
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 <!--Audited: 12/2023-->
 
@@ -45,7 +43,7 @@ Workfront Planning でレコードを作成するには、次の方法で、Work
 
 * Workfrontの「リクエスト」領域のWorkfront Planning リクエストフォームから。
 
-  Workfront Planning パッケージを購入する必要があります。 詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+  Workfront Planning パッケージを購入する必要があります。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 ## アクセス要件
 
@@ -100,7 +98,7 @@ Workfront 管理者は、リクエストキューの次のコンポーネント�
   詳しくは、[トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。
 
 * （オプション）リクエストのカスタムフォーム。\
-  詳しくは、「カスタムフォームの作成 [&#x200B; を参照してください &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+  詳しくは、「カスタムフォームの作成 [ を参照してください ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 * （オプション）リクエストの承認プロセス。\
   詳しくは、[作業アイテムの承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
@@ -109,7 +107,10 @@ Workfront 管理者は、リクエストキューの次のコンポーネント�
 
 Workfront web アプリでリクエストを作成すると、Workfront はリクエストをドラフトとして保存してから送信します。リクエストキューを選択し、その情報の入力を開始するとすぐに、Workfront がドラフトを作成します。
 
-引き続きリクエストを送信することもできますし、入手できる限りの情報を入力し、いったん作業を離れて後でリクエストを完了することもできます。Workfrontは、開始したリクエストのドラフトを「ドラフト」フォルダー <span class="preview"> またはリクエストリスト </span> に保存します。
+引き続きリクエストを送信することもできますし、入手できる限りの情報を入力し、いったん作業を離れて後でリクエストを完了することもできます。Workfrontは、開始したリクエストのドラフトを保存します。 これらは、次の場所で確認できます。
+
+* 新しいリクエスト経験：リクエストリスト
+* 従来の要求経験：ドラフト フォルダー
 
 >[!IMPORTANT]
 >
@@ -145,7 +146,7 @@ Workfront web アプリでリクエストを作成するには：
    >新しい要求エクスペリエンスに関して、次の点を考慮します。
    >* このリストには、Workfront リクエストキューとWorkfront Planning リクエストフォームの両方が含まれています。
    >* オブジェクトタイプでリストをフィルタリングできます。
-   >* <span class="preview"> 新しいリクエストエクスペリエンスでは、ドラフトは送信されたリクエストと同じリストに見つかります </span>。
+   >* 新しいリクエストエクスペリエンスでは、ドラフトは送信されたリクエストと同じリストに見つかります。
 
 1. （条件付き）新しいエクスペリエンスに切り替えた場合は、トピックグループとキューのトピックを選択し、フォームの更新を続行します。
 
@@ -376,8 +377,8 @@ Planning 要求を発行するには、Workfront Planning パッケージを購�
 
 詳しくは、次の記事を参照してください。
 
-* [Adobe Workfront Planning でリクエストフォームを作成および管理します &#x200B;](/help/quicksilver/planning/requests/create-request-form.md)。
-* [&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md)。
+* [Adobe Workfront Planning でリクエストフォームを作成および管理します ](/help/quicksilver/planning/requests/create-request-form.md)。
+* [ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 送信されたリクエストを見つける
 

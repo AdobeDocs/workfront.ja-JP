@@ -8,7 +8,7 @@ author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: 3c5f7d54e29398b61ffd15b71dbfd462aabd7a0c
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 79%
@@ -16,10 +16,6 @@ ht-degree: 79%
 ---
 
 # リクエストを作成する
-
-<!--
-{{highlighted-preview}}
--->
 
 Adobe Workfront では、リクエストとイシューは交換可能です。次のいずれかを行うことで、リクエストを作成できます。
 

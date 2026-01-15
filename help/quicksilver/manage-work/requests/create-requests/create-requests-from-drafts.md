@@ -6,16 +6,14 @@ description: 新しいリクエストを入力する際に Workfront が提案�
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 72%
+source-wordcount: '814'
+ht-degree: 71%
 
 ---
 
 # ドラフトからリクエストを作成
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 新しいリクエストを入力する際に Workfront が提案する利用可能なドラフトを使用する以外に、「ドラフト」セクションからドラフトリクエストにアクセスし、そこから送信を完了することもできます。
 
@@ -64,15 +62,10 @@ ht-degree: 72%
 
 ドラフトからリクエストを作成する手順は、新しいリクエスト用エクスペリエンスと従来のエクスペリエンスで異なります。
 
-* <span class="preview">[&#x200B; 新しいリクエストエクスペリエンスでドラフトからのリクエストを作成する &#x200B;](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [新しいリクエストエクスペリエンスでドラフトからのリクエストを作成する](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [従来のリクエストエクスペリエンスでドラフトからのリクエストを作成する](#create-requests-from-drafts-in-the-legacy-requesting-experience)
 
-<div class="preview">
-
 ### 新しいリクエストエクスペリエンスでドラフトからのリクエストを作成する
-
-
-
 
 1. ドラフトを開きます。
 
@@ -91,15 +84,13 @@ ht-degree: 72%
 
    誤ってドラフトを破棄した場合は、画面の下部にあるメッセージの **元に戻す** を直ちにクリックできます。 このオプションは数秒間のみ使用できます。
 
-   ドラフトの削除について詳しくは、「[&#x200B; 送信されたリクエストまたはリクエストドラフトの削除 &#x200B;](../../../manage-work/requests/create-requests/delete-request-draft.md)」を参照してください。
+   ドラフトの削除について詳しくは、「[ 送信されたリクエストまたはリクエストドラフトの削除 ](../../../manage-work/requests/create-requests/delete-request-draft.md)」を参照してください。
 
 1. （任意）ドラフトを送信せずに変更を保存するには、新しいリクエスト ページを離れます。 変更内容は自動的に保存されます。
 
 1. リクエストの情報を入力したら、「**送信**」をクリックします。
 
    リクエストを送信すると、ドラフトは削除され、復元できません。
-
-</div>
 
 ### 従来のリクエストエクスペリエンスでドラフトからのリクエストを作成する
 

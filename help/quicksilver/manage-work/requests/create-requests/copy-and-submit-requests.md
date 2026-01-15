@@ -6,17 +6,15 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1517'
 ht-degree: 85%
 
 ---
 
 # リクエストのコピーと送信
 
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 同様のリクエストを頻繁に送信する場合は、既存の送信済みリクエストをコピーできます。この場合、既存のリクエストをコピーし、最小限の変更を加えて、新しいリクエストとして再送信できます。
 
@@ -224,8 +222,6 @@ ht-degree: 85%
 
    コピーされたリクエストは、指定したリクエストキューで新しいリクエストとして送信されます。
 
-<div class="preview">
-
 ## 新しいリクエストエクスペリエンスでリクエストをコピーして送信する
 
 リクエストは、Workfrontの「リクエスト」領域、またはホームの「マイリクエスト」ウィジェットからコピーして送信できます。
@@ -238,7 +234,7 @@ ht-degree: 85%
 
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
 1. リクエスト リストまたはマイリクエストウィジェットで、コピーするリクエストにポインタを合わせます。
 
@@ -263,5 +259,4 @@ ht-degree: 85%
 
    コピーしたリクエストは、新しいリクエストとして送信されます。
 
-</div>
 

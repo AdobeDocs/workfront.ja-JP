@@ -6,16 +6,14 @@ description: 送信されたリクエストまたはリクエストのドラフ�
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 36%
+source-wordcount: '618'
+ht-degree: 31%
 
 ---
 
 # 送信されたリクエストまたはリクエストドラフトの削除
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の本番環境でのみ使用できます。</span>
 
 新しいリクエスト用エクスペリエンスで作成した、送信済みのリクエストまたはリクエストドラフトを削除できます。 Workfront管理者と Planning Workspace 管理者は、リクエストを削除することもできます。
 
@@ -63,16 +61,13 @@ ht-degree: 36%
 
 +++
 
-
-<div class="preview">
-
-## リクエストを削除 <!--or request drafts --> 新しいリクエストエクスペリエンスで
+## 新しいリクエストエクスペリエンスでのリクエストまたはリクエストドラフトの削除
 
 リクエストの削除は、Workfrontのリクエスト エリア、またはホームのマイリクエストウィジェットで実行できます。
 
-* Workfront管理者は <!-- and drafts--> 組織内のリクエストを削除できます。
-* Workfront Planning Workspace 管理者は、自身が管理する Planning Workspace に <!--and drafts--> る要求を削除できます。
-* ユーザーは、自身が送信したリクエスト <!--and drafts--> 削除できます。
+* Workfront管理者は、組織内のリクエストとドラフトを削除できます。
+* Workfront Planning Workspace 管理者は、自身が管理する Planning Workspace の要求および草案を削除できます。
+* ユーザーは、送信したリクエストとドラフトを削除できます。
 
 ### 3 ドットメニューからのリクエストの削除
 
@@ -84,14 +79,14 @@ ht-degree: 36%
 
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
-1. リクエストリストまたはマイリクエストウィジェットで、削除するリクエスト <!--or draft --> にポインタを合わせます。
+1. リクエストリストまたはマイリクエストウィジェットで、削除するリクエストまたはドラフトにポインタを合わせます。
 
    「。..」メニューが表示されます。
    ![](assets/more-menu.png)
 
-1. リクエスト **ージ名の右側にある** 詳細 <!--or draft--> メニューをクリックしてから、**削除** をクリックします。
+1. リクエスト名またはドラフト名の右側にある **詳細** メニューをクリックしてから、「**削除**」をクリックします。
 
    または
 
@@ -103,7 +98,7 @@ ht-degree: 36%
 
 1. 開いたダイアログで、「**削除**」をクリックします。
 
-   リクエスト <!--or draft--> が削除されます。
+   リクエストまたはドラフトが削除されます。
 
 ### 一括削除リクエスト
 
@@ -115,7 +110,7 @@ ht-degree: 36%
 
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
 1. リクエスト リストまたは自分のリクエスト ウィジェットで、削除する各リクエストの左側にあるボックスをクリックします。
 1. ページ下部の青いバーで、「**削除**」をクリックします。
