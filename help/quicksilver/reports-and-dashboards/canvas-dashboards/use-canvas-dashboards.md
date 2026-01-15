@@ -17,7 +17,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックを送信してください。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックを送信してください。
 >
 >バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 >
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 1. 既存のダッシュボードの名前をクリックして開きます。
-   ![ ダッシュボードを開く ](assets/open-dashboard.png)
+   ![&#x200B; ダッシュボードを開く &#x200B;](assets/open-dashboard.png)
 
 <!--## Navigating the Dashboard
 
@@ -57,7 +57,7 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 1. 既存のダッシュボードの名前をクリックして開きます。
-   ![ ダッシュボードを開く ](assets/open-dashboard.png)
+   ![&#x200B; ダッシュボードを開く &#x200B;](assets/open-dashboard.png)
 1. カスタマイズするテーブルレポートを見つけます。
 1. 次のいずれかのオプションを選択して、レポートをカスタマイズします。
 
