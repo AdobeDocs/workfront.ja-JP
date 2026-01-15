@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 27%
+source-wordcount: '673'
+ht-degree: 26%
 
 ---
 
 
 # ワークスペースの編集
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -65,7 +65,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -132,22 +132,20 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. （条件付き）Workfrontの管理者は、次のいずれかをクリックします。
 
    * **現在のワークスペース**：作成したワークスペースにアクセスします
-   * **その他のワークスペース** 共有されている他のワークスペースにアクセスします
-または
-     <span class="preview">**すべてのワークスペース** 自分が作成したワークスペースと共有されているワークスペースにアクセスする </span>
+   * **すべてのワークスペース** 自分が作成したワークスペースと共有されているワークスペースにアクセスする
 
 1. （任意）「**すべて表示**」をクリックして、追加のワークスペースを表示します。 **すべてを表示** リンクは、ワークスペースカードが 3 行を超える場合にのみ表示されます。
 1. （任意） ClicK **表示を減らす** を使用して、画面に表示するワークスペースの数を制限します。
 1. ワークスペースを編集するには、次のいずれかの操作を行います。
 
-   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックします
+   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします
 または
-   * <span class="preview"> ワークスペース ページの右上隅にある「**検索**」アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックしてワークスペースを名前で検索し </span> ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックします。
+   * 「ワークスペース」ページの右上隅にある **検索** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックしてワークスペースを名前で検索し、ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします。
 1. 「**編集**」をクリックします。
 
    **ワークスペースを編集** ボックスが表示されます。
 
-   ![&#x200B; ワークスペースを編集ボックス &#x200B;](assets/edit-workspace-box.png)
+   ![ ワークスペースを編集ボックス ](assets/edit-workspace-box.png)
 
 1. 「**ワークスペースを編集** ボックスで次の情報を更新します。
 
@@ -160,16 +158,16 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. （オプション）新しいワークスペースセクションを追加するには、次のいずれかの操作を行います。
 
    * ワークスペースの下部にある「**セクションを追加**」をクリックします。
-   * セクション名にポインタを合わせて、「**詳細**」メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックし、「**上にセクションを追加**」または「**下にセクションを追加**」をクリックします。
+   * セクション名にポインタを合わせて、「**詳細**」メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックし、「**上にセクションを追加**」または「**下にセクションを追加**」をクリックします。
 
 1. （オプション）セクションの場所を変更するには、次のいずれかの操作を行います。
 
-   * セクション名にカーソルを合わせて **グラブ** アイコン ![&#x200B; グラブアイコン &#x200B;](assets/grab-icon.png) をクリックし、適切な場所にドラッグ&amp;ドロップします。
-   * セクションの名前にポインタを合わせて、**その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックし、**上へ移動** または **下へ移動** をクリックします。 セクションは、ワークスペース内で上下に移動します。
+   * セクション名にカーソルを合わせて **グラブ** アイコン ![ グラブアイコン ](assets/grab-icon.png) をクリックし、適切な場所にドラッグ&amp;ドロップします。
+   * セクションの名前にポインタを合わせて、**その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**上へ移動** または **下へ移動** をクリックします。 セクションは、ワークスペース内で上下に移動します。
 
 1. （オプション）ワークスペースセクションを削除するには、次の手順を実行します。
 
-   1. セクションの名前にポインタを合わせて、**その他** メニュー ![[ その他 ] メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**削除** をクリックしてください。<!--add screen shot when UI is final?-->
+   1. セクションの名前にポインタを合わせて、**その他** メニュー ![[ その他 ] メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックしてください。<!--add screen shot when UI is final?-->
    1. 新しいセクションを選択し、すべてのレコードタイプをそのセクションに移動して、「**削除**」をクリックします。<!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       すべてのレコードタイプが選択セクションに移動され、セクションが削除されます。
@@ -178,17 +176,17 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-1. （オプション）レコードタイプのカードにポインタを合わせ、右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、**編集** をクリックして、レコードタイプの外観を変更します。
+1. （オプション）レコードタイプのカードにポインタを合わせ、右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックして、レコードタイプの外観を変更します。
 
-   詳しくは、[&#x200B; レコードタイプの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
+   詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
-1. （オプション）レコードタイプのカードにポインタを合わせ、右上隅にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**削除** をクリックしてレコードタイプを削除します。
+1. （オプション）レコードタイプのカードにポインタを合わせ、右上隅にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックしてレコードタイプを削除します。
 
-   詳しくは、[&#x200B; レコードタイプの削除 &#x200B;](/help/quicksilver/planning/architecture/delete-record-types.md) を参照してください。
+   詳しくは、[ レコードタイプの削除 ](/help/quicksilver/planning/architecture/delete-record-types.md) を参照してください。
 
 1. （オプション）レコードタイプカードをクリックしてドラッグし、新しい場所にドロップします。 レコードタイプは、ワークスペースセクション間でドラッグ&amp;ドロップできます。
 
-   ![&#x200B; レコードタイプのワークスペースへのドラッグ&amp;ドロップ &#x200B;](assets/drag-and-drop-record-types-in-a-workspace.png)
+   ![ レコードタイプのワークスペースへのドラッグ&amp;ドロップ ](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. （任意）他のユーザーとワークスペースを共有するには、ワークスペースの右上隅にある「**共有**」をクリックします。
 

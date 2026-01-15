@@ -6,23 +6,21 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 26%
+source-wordcount: '751'
+ht-degree: 25%
 
 ---
 
 
 # Adobe Workfront Planning のアクセスの概要
 
-<!--leave the global record type reference in yellow till Jan 2026-->
-
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -32,7 +30,7 @@ ht-degree: 26%
 >
 >詳しくは、アカウントマネージャーにお問い合わせください
 >
->Adobe Workfront Planning の詳細については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Adobe Workfront Planning の詳細については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 Adobe Workfront Planning を使用するには、ライセンスと共有権限の制約があります。
 
@@ -65,12 +63,11 @@ Workfront Planning を使用するには、次のアクセス権が必要です�
    <ul><li><p>任意のWorkfront パッケージと Planning パッケージ</p></li>
    <li><p>任意のワークフローと Planning PrimeおよびUltimate パッケージ</p></li></ul>
 
-<div class="preview">
-   <p>グローバルレコードタイプへのアクセスの場合：</p>
+<p>グローバルレコードタイプへのアクセスの場合：</p>
    <ul><li><p>任意のWorkfront パッケージと Planning Plus パッケージ</p></li>
    <li><p>任意のワークフローパッケージと Planning PrimeおよびUltimate パッケージ</p></li></ul> </td></tr>
-   </div>
-   <tr>
+
+<tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
    <p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p>
@@ -146,7 +143,7 @@ Workfront インスタンスのユーザーからWorkfront Planning エリアを
 
 1. **メインメニュー**/**設定**/**インターフェイス**/**レイアウトテンプレート** に移動して、レイアウトテンプレートを開くか作成します。
 
-   レイアウトテンプレートのカスタマイズについて詳しくは、[&#x200B; レイアウトテンプレートの作成と管理 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
+   レイアウトテンプレートのカスタマイズについて詳しくは、[ レイアウトテンプレートの作成と管理 ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
 
 1. Workfront Planning へのアクセス権を付与するユーザーにレイアウトテンプレートを割り当てます。
 
@@ -160,7 +157,7 @@ Workfront インスタンスのユーザーからWorkfront Planning エリアを
 
 ユーザーの編集または作成時にアクセスレベルを設定する際に、ユーザーにライセンスを割り当てることができます。
 
-詳しくは、[&#x200B; ユーザープロファイルの編集 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
+詳しくは、[ ユーザープロファイルの編集 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
 
 ## アクセスレベルを設定
 

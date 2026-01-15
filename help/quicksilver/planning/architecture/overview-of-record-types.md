@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 44%
+source-wordcount: '352'
+ht-degree: 34%
 
 ---
 
 
 # レコードタイプの概要
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -38,20 +38,26 @@ Workfront Planning のオブジェクト・タイプは「レコード・タイ�
 
 Workfront Planning では、組織のニーズに合ったカスタムレコードタイプを作成できます。
 
-レコードタイプの作成について詳しくは、[&#x200B; レコードタイプの作成 &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) を参照してください。
+レコードタイプの作成について詳しくは、[ レコードタイプの作成 ](/help/quicksilver/planning/architecture/create-record-types.md) を参照してください。
 
 * テンプレートからワークスペースを作成する際、次のワークスペースセクションにレコードタイプが作成されます。
 
    * **運用レコードタイプ**：戦略的計画、イニシアチブ、または予定作業を表すレコードタイプ。 例えば、キャンペーン、アクティビティ、戦術、商談は、運用レコードタイプです。
    * **分類**：運用レコードタイプに関する属性を取り込むレコードタイプ。例えば、地域、住所、オーディエンスは分類です。
 
-  これらのセクションの名前を変更または削除したり、さらに作成したりできます。
+  セクションとレコードタイプの名前を変更または削除したり、追加を作成したりできます。
 
 * 最初から作成したワークスペースにレコードタイプを作成する際、ワークスペース内に作成した任意のセクションにレコードタイプを配置できます。
-* レコードタイプの作成時、自分とワークスペースへのアクセス権を付与したユーザーのみが、このレコードタイプを表示できます。
+* レコードタイプを作成すると、ワークスペースへのアクセス権を付与したユーザーとレコードタイプのみがワークスペースにアクセスできます。
 * ワークスペースのレコードタイプを作成する前に、ワークスペースを作成する必要があります。
-* 1 つのワークスペースまたはWorkfront インスタンスに含めることができるレコードタイプの数の制限については、[Adobe Workfront Planning オブジェクトの制限事項の概要 &#x200B;](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
-* <span class="preview"> レコードタイプをグローバルとして指定できます。 グローバル レコード タイプは、既存のレコード タイプとして他のワークスペースに追加できます。 詳しくは、[ConfConfigure cross-workspace capabilities for record typesigure](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span> を参照してください。
+
+  1 つのワークスペースまたはWorkfront インスタンスに含めることができるレコードタイプの数の制限については、[Adobe Workfront Planning オブジェクトの制限事項の概要 ](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
+* 複数のワークスペースでレコードタイプを使用するには、レコードタイプをグローバルまたは接続可能として指定できます。
+
+   * グローバル レコード タイプは、既存のレコード タイプとして他のワークスペースに追加できます。
+   * 接続可能レコードタイプは、他のワークスペースから接続できます。
+
+  詳しくは、[ レコードタイプに対するクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 
 
 <!--

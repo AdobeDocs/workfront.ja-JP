@@ -6,10 +6,10 @@ description: ホームは、作業を管理するのに役立ちます。 この
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 65%
+source-wordcount: '992'
+ht-degree: 66%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 65%
 
 <!--Audited: 12/2023-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -67,16 +67,13 @@ Adobe Workfront の新しいホームエクスペリエンスは、現在のホ�
     承認待ち、割り当て、委任、送信済みのすべての承認、承認を委任するボタン、ウィジェット内で直接承認に関する決定を行うボタンが表示されます。
 
 * **ドキュメント承認指標**\
-        平均ドキュメント承認時間および決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリスト ビューを表示します。 このウィジェットを使用するには、[&#x200B; 統合承認 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を有効にする必要があります。
+        平均ドキュメント承認時間および決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリスト ビューを表示します。 このウィジェットを使用するには、[ 統合承認 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を有効にする必要があります。
 
 * **メンション**\
-    実稼動環境では、マイアップデート ページと同様に、Workfront全体からの最新のコメントスレッドが表示されます。 返信ボタンを使用して、ウィジェット内で返信を作成できます。このウィジェットには、タスクまたはイシューが過去 30 日間に更新されている限り、自分が割り当てられている、他のユーザーに割り当てられている、自分が所有している、自分がプライマリ連絡先である、または自分が作成したタスクとイシューに関して作成されたコメントも表示されます。
+        自分が行った最近のコメントや、過去 2 週間に追加された、他のユーザーが自分にタグ付けしたコメントが表示されます。 「返信」ボタンを使用して、ウィジェット内に返信を作成できます。
 
-  <div class="preview">
+  <!--old: In the Production environment, it displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.-->
 
-  プレビュー環境では、自分が行った最近のコメントや、過去 2 週間に追加された他のユーザーが自分にタグ付けしたコメントが表示されます。 「返信」ボタンを使用して、ウィジェット内に返信を作成できます。
-
-  </div>
 
 * **To Do**\
     この独自のウィジェットを使用すると、自由に編集できる個人用チェックリストに項目を追加できます。To-Do は個人プロジェクトのタスクとして追跡され、完了後最大 2 週間保持されます。

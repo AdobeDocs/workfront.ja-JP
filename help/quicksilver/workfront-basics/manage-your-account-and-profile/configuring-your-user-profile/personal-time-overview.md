@@ -7,7 +7,7 @@ description: 承認された休暇がいつ発生するかを Adobe Workfront �
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 75%
@@ -18,7 +18,7 @@ ht-degree: 75%
 
 <!-- Audited: 12/2025 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] は、個人の休暇を管理、累積または追跡するために、組織の既存システムを複製または置き換えるようには設計されていません。
 
@@ -74,7 +74,7 @@ ht-degree: 75%
 >
 >Adobe統合エクスペリエンスを利用している場合は、上部のナビゲーション領域の右上隅にある **Adobe** のアカウントメニュー（プロファイル画像）をクリックし、**Workfrontのプロファイル** をクリックします。
 >
->![workfront プロファイル &#x200B;](assets/aue-profile.png)
+>![workfront プロファイル ](assets/aue-profile.png)
 
 1. 左パネルの「**[!UICONTROL 休暇]**」をクリックします。
 1. 個人の休暇に希望する日付を選択します。

@@ -6,10 +6,10 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 33%
+source-wordcount: '584'
+ht-degree: 32%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 33%
 
 # フィールドの削除
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -50,10 +50,10 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
 または
 <li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
 
-<p><span class="preview">グローバルレコードタイプからフィールドを削除する手順は次のとおりです。</span></p>
-<ul><li><p><span class="preview">任意のWorkfront パッケージと Planning Plus パッケージ</span></p></li>
+<p>グローバルレコードタイプからフィールドを削除する手順は次のとおりです。</p>
+<ul><li><p>任意のWorkfront パッケージと Planning Plus パッケージ</p></li>
 または
-<li><p><span class="preview">あらゆるワークフローおよび Planning PrimeおよびUltimate パッケージ</span></p></li></ul>
+<li><p>あらゆるワークフローおよび Planning PrimeおよびUltimate パッケージ</p></li></ul>
 
 <p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
    </td> 
@@ -70,7 +70,7 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -149,7 +149,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
-* <span class="preview"> セカンダリワークスペースに追加されたグローバルレコードのフィールドは、セカンダリワークスペースから削除できません。</span>
+* セカンダリ ワークスペースに追加されているグローバル レコードのフィールドは、セカンダリ ワークスペースから削除できません。
 
 ## フィールドを削除
 
@@ -169,7 +169,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. 削除するフィールドを列ヘッダーで見つけてその上にポインタを合わせ、フィールド名の後の下向き矢印をクリックします。
 
-   ![&#x200B; テーブルヘッダーのフィールド名の後の矢印メニューがハイライト表示されている &#x200B;](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![ テーブルヘッダーのフィールド名の後の矢印メニューがハイライト表示されている ](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. 「**削除**」をクリックします。<!-- check this: they might replace it with **Delete field**-->
 
@@ -184,4 +184,4 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * 選択したレコードに属するフィールドを削除すると、そのフィールドは削除され、どのレコードにも関連付けられなくなります。 このフィールドが他のレコードの参照フィールドとして追加されると、これらのフィールドも削除されます。
    * 接続フィールドを削除すると、選択したレコードからそのフィールドが削除されます。 また、対応する接続フィールドも元のレコードから削除されます。
    * 接続されたレコードから追加されたルックアップ フィールドを削除すると、選択したレコードの種類からフィールドが削除されますが、元のレコードの種類には残ります。
-   * <span class="preview"> プライマリワークスペースのグローバルレコードタイプからフィールドを削除すると、そのレコードタイプが追加されたすべてのワークスペースから削除されます。 グローバルレコードタイプのフィールドをセカンダリワークスペースから削除することはできません。</span>
+   * プライマリワークスペースのグローバルレコードタイプからフィールドを削除すると、そのレコードタイプが追加されたすべてのワークスペースから削除されます。 グローバルレコードタイプのフィールドをセカンダリワークスペースから削除することはできません。
