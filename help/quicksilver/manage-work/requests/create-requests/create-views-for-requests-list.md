@@ -66,12 +66,12 @@ ht-degree: 7%
 
    {{step1-to-requests}}
 
-1. リクエストリストで「**表示**」ドロップダウン ![ 表示ドロップダウン ](assets/view-icon-requests.png) をクリックし、「**新しい表示**」を選択します。
+1. リクエストリストで「**表示**」ドロップダウン ![&#x200B; 表示ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、「**新しい表示**」を選択します。
 
-   ![ 新規ビュー ](assets/create-new-view.png)
+   ![&#x200B; 新規ビュー &#x200B;](assets/create-new-view.png)
 
 1. 新しいビューの名前を入力し、[**作成**] をクリックします。
-1. [ リクエスト エリアでのビューの編集 ](#edit-a-view-in-the-requests-area) を続行します。
+1. [&#x200B; リクエスト エリアでのビューの編集 &#x200B;](#edit-a-view-in-the-requests-area) を続行します。
 
 ## 「リクエスト」領域でのビューの編集
 
@@ -82,9 +82,9 @@ ht-degree: 7%
    {{step1-to-requests}}
 1. [ 要求 ] ボックスの一覧で、編集するビューを見つけます。
 
-1. （オプション）ビューの名前を変更するには、「**ビュー**」ドロップダウン ![ 「ビュー」ドロップダウン ](assets/view-icon-requests.png) をクリックし、ビューの横の「。..」メニューをクリックして「**名前を変更**」を選択し、ビューの新しい名前を入力します。
-1. **表示** ドロップダウン ![ 表示ドロップダウン ](assets/view-icon-requests.png) をクリックし、編集する表示を選択します。
-1. 列としてカスタムフィールドを追加するには、画面の右付近にある **列を追加** アイコン ![ 列を追加 ](assets/add-column.png) をクリックし、列としてビューに追加するカスタムフォームフィールドの横にあるプラスアイコンをクリックします。
+1. （オプション）ビューの名前を変更するには、「**ビュー**」ドロップダウン ![&#x200B; 「ビュー」ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、ビューの横の「。..」メニューをクリックして「**名前を変更**」を選択し、ビューの新しい名前を入力します。
+1. **表示** ドロップダウン ![&#x200B; 表示ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、編集する表示を選択します。
+1. 列としてカスタムフィールドを追加するには、画面の右付近にある **列を追加** アイコン ![&#x200B; 列を追加 &#x200B;](assets/add-column.png) をクリックし、列としてビューに追加するカスタムフォームフィールドの横にあるプラスアイコンをクリックします。
 
    >リスト内のオブジェクトに添付されたフォームのカスタムフィールドを、列として追加できます。
 
@@ -121,7 +121,7 @@ ht-degree: 7%
 
 Workfront管理者は、新しいビューをレイアウトテンプレートに追加できます。
 
-手順については、[ レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
+手順については、[&#x200B; レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
 
 ## ビューを共有
 
