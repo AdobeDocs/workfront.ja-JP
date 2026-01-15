@@ -83,7 +83,7 @@ ht-degree: 77%
 >
 >計算済みの式を変更すると、オブジェクトのフィールド値が古くなる場合があります。これらのフィールドで常に最新の計算を表示するには、以下の操作のいずれかを行います。
 >
->* 添付されたカスタムフォームのデータを編集したオブジェクトを保存した後、オブジェクトのメインページの「詳細」アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックして、カスタム式を再計算します。
+>* 添付されたカスタムフォームのデータを編集したオブジェクトを保存した後、オブジェクトのメインページの「詳細」アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックして、カスタム式を再計算します。
 >* オブジェクトを一括編集する際に、「カスタム式を再計算」オプションを選択します。
 >* カスタムフォームで計算カスタムフィールドを編集する場合は、「以前の計算を更新」オプションを選択します。
 
@@ -98,7 +98,7 @@ ht-degree: 77%
 1. **新規カスタムフォーム** ダイアログで、カスタムフォームを添付するオブジェクトタイプを選択し、「**続行**」をクリックします。
 1. 画面の左上で、「**フィールドライブラリ**」をクリックします。
 
-   ![ フィールドライブラリ ](assets/field-library.png)
+   ![&#x200B; フィールドライブラリ &#x200B;](assets/field-library.png)
 
 1. 検索ボックスを使用するか、「**計算済み**」セクションを展開して必要な計算済みフィールドを見つけ、カスタムフォーム内の表示したい場所にフィールドをドラッグします。
 
@@ -137,7 +137,7 @@ ht-degree: 77%
 
 1. 画面の左側で、**計算済み**&#x200B;を見つけ、キャンバス上のセクションにドラッグします。
 
-   ![ フィールドをセクションにドラッグ ](assets/drag-field-to-section.png)
+   ![&#x200B; フィールドをセクションにドラッグ &#x200B;](assets/drag-field-to-section.png)
 
 1. 画面の右側で、追加するカスタムフィールドのタイプに使用できるオプションを設定します。
 
@@ -294,15 +294,15 @@ ht-degree: 77%
       >
       >次のいずれかの操作を実行して、計算に関するヘルプを確認することができます。
       > 
-      >* 計算内の式にポインタを合わせると、説明、その使用方法を示す例および **詳細情報** の記事 [ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) の詳細へのリンクが表示されます。
-      >  ![ 式のヘルプテキスト ](assets/hover-expression-help-text.jpg)
+      >* 計算内の式にポインタを合わせると、説明、その使用方法を示す例および **詳細情報** の記事 [&#x200B; 計算データ式の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) の詳細へのリンクが表示されます。
+      >  ![&#x200B; 式のヘルプテキスト &#x200B;](assets/hover-expression-help-text.jpg)
       >* 追加したコンポーネントを識別するには、色分けを使用します。式は青色で表示され、フィールドは緑色で表示されます。
-      >  ![ フィールド式のカラー ](assets/colors-fields-expressions.jpg)
+      >  ![&#x200B; フィールド式のカラー &#x200B;](assets/colors-fields-expressions.jpg)
       >* 計算エラーを見つけます。計算エラーはピンク色で強調表示されます。強調表示されたエラーの上にポインタを合わせると、その原因に関する簡単な説明が表示されます。
-      >  ![ エラーヘルプ ](assets/error-help.png)
+      >  ![&#x200B; エラーヘルプ &#x200B;](assets/error-help.png)
       >* 計算の下のエリアで、既存の Workfront オブジェクトの結果をプレビューします。
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![ 計算をプレビュー ](assets/preview-calc.jpg)
+      >  ![&#x200B; 計算をプレビュー &#x200B;](assets/preview-calc.jpg)
       >* 左側に表示される行番号を使用して、長い計算で式を参照します。
 
       +++
