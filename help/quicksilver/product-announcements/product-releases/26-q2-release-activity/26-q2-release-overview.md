@@ -1,0 +1,142 @@
+---
+title: 2026年第 2 四半期リリースの概要
+description: このページでは、2026年第 2 四半期リリースに含まれる機能について説明します。これらの機能強化は、その四半期を通じて本番動環境で利用できるようになる予定です。
+author: Courtney
+feature: Product Announcements
+recommendations: noDisplay, noCatalog
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 39%
+
+---
+
+# 2026年第 2 四半期リリースの概要
+
+このページでは、2026 年 4 月に予定されている 2026 年第 2 四半期のリリースに含まれる機能について説明します。
+
+このページの機能強化は、プレビュー環境で利用できます。 このページは、2026 年第 2 四半期のリリースが、予定されている実稼動リリースに近づくにつれて、追加の機能強化を加えて更新されます。
+
+
+<!-- Keep commented until Final Preview release.
+
+The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+
+>[!IMPORTANT]
+>
+>
+>月次リリースと四半期リリースは、特に指定がない限り、毎月第 2 週の木曜日に公開される予定です。
+>
+>| 毎月のリリース | 四半期リリース |
+>|----|----|
+>| <ul><li>26.2 （2026 年 2 月 12 日（PT））</li><li>26.3 （2026 年 3 月 12 日（PT））</li><li>26.4 （2026 年 4 月 15 日（Pt））</li></ul> | <ul><li>26.1 （2026 年 4 月 16 日）</li></ul> |
+>
+>各四半期の最終リリース（今四半期 26.4）では、迅速リリーススケジュールのユーザーに対して、1 日早い（2026 年 4 月 15 日（PT））リリースが届きます。
+>
+>迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
+
+## Adobe Workfront の機能強化
+
+
+* [その他の機能強化](#other-enhancements)
+
+
+
+### その他の機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Adobeの統合エクスペリエンスを、より多くのWorkfront組織で利用できるようになりました </a><p></p>
+            <p>Adobe Unified Experience のメリットに企業がアクセスできるように、アドビでは既存のWorkfrontのお客様が利用できるようにするサービスを引き続き提供します。</p>
+        </td>
+        <td><p>2025年12月11日（PT）</p></td>
+        <td><p>2026年2月11日（PT）</p></td>
+        <td><p>2026年2月11日（PT）</p></td>
+    <tr>
+            </tbody>
+        </table>
+
+
+<!--### Functionality soon to be removed from Workfront-->
+
+<!--
+
+## Interface modernization
+
+We are updating the interface throughout Adobe Workfront to improve the user experience and unify it with other Adobe applications. These changes are released outside the standard release schedule. For a list of these changes, see [Interface Modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+-->
+
+## その他の領域のリリースノート
+
+### Workfront Fusion の機能強化
+
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+
+### Workfront計画の機能強化
+
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 2 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md) を参照してください。
+
+このリリースの現時点では、次の更新はありません。
+
+* シナリオプランナー
+* プルーフ
+* Goals
+
+## デスクトッププルーフビューアのアップデート
+
+### バージョン 2.1.54
+
+**すべてのお客様向けの実稼動リリース：2025 年 12 月 11 日**
+
+デスクトッププルーフビューアが 2.1.52 から 2.1.54 にに更新されました。この更新には、内部ツールの更新が含まれていましたが、エンドユーザーの機能には影響しませんでした。
+
+2.1.53 バージョンには、内部ツールの変更も含まれています。
+
+このアップデートは、Macと Windows の両方に対応しています。
+
+## お知らせ
+
+### API バージョン 21
+
+Workfront API バージョン 21 は、2025 年 10 月 23 日（PT）にリリースされました。 API バージョン 21 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
+
+>[!IMPORTANT]
+>
+>この API バージョンの変更は、既存の API 呼び出しに影響を与える可能性のある重大な変更を特徴としています。 これは、API バージョン 21 がイベント購読バージョン 2 を使用しているためです。
+>
+> 複数選択フィールドの場合、イベント購読バージョン 2 は常に配列として送信します。 バージョン 1 では、複数の値が選択されている場合、配列が送信されました。 1 つの値のみが選択された場合、文字列が送信されます。
+
+新機能と更新内容については、[API バージョン 21 の新機能](/help/quicksilver/wf-api/api/new-api-version-21.md)を参照してください。
+
+API バージョンの詳細については、[API のバージョン管理とサポートスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
+
+### その他のWorkfront統合の移行
+
+より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、次の統合は **2026 年 2 月 28 日** 以降は利用できなくなります。
+
+* Workfront for G Suite
+* Workfront for Jira
+* SalesforceのWorkfront。
+
+Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+
+
+### Workfront のメンテナンスアップデート
+
+2025年第 2 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)を参照してください。
+
+### トレーニングの更新
+
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)の「新機能」の節を参照してください。

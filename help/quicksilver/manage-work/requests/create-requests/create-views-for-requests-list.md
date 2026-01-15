@@ -5,9 +5,9 @@ title: リクエスト エリアでのビューの作成と管理
 description: 新しいリクエスト機能を使用する場合は、「リクエスト」領域のビューを作成して保存できます。
 author: Becky
 feature: Work Management
-source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '693'
 ht-degree: 7%
 
 ---
@@ -66,12 +66,12 @@ ht-degree: 7%
 
    {{step1-to-requests}}
 
-1. リクエストリストで「**表示**」ドロップダウン ![&#x200B; 表示ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、「**新しい表示**」を選択します。
+1. リクエストリストで「**表示**」ドロップダウン ![ 表示ドロップダウン ](assets/view-icon-requests.png) をクリックし、「**新しい表示**」を選択します。
 
-   ![&#x200B; 新規ビュー &#x200B;](assets/create-new-view.png)
+   ![ 新規ビュー ](assets/create-new-view.png)
 
 1. 新しいビューの名前を入力し、[**作成**] をクリックします。
-1. [&#x200B; リクエスト エリアでのビューの編集 &#x200B;](#edit-a-view-in-the-requests-area) を続行します。
+1. [ リクエスト エリアでのビューの編集 ](#edit-a-view-in-the-requests-area) を続行します。
 
 ## 「リクエスト」領域でのビューの編集
 
@@ -82,9 +82,9 @@ ht-degree: 7%
    {{step1-to-requests}}
 1. [ 要求 ] ボックスの一覧で、編集するビューを見つけます。
 
-1. （オプション）ビューの名前を変更するには、「**ビュー**」ドロップダウン ![&#x200B; 「ビュー」ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、ビューの横の「。..」メニューをクリックして「**名前を変更**」を選択し、ビューの新しい名前を入力します。
-1. **表示** ドロップダウン ![&#x200B; 表示ドロップダウン &#x200B;](assets/view-icon-requests.png) をクリックし、編集する表示を選択します。
-1. 列としてカスタムフィールドを追加するには、画面の右付近にある **列を追加** アイコン ![&#x200B; 列を追加 &#x200B;](assets/add-column.png) をクリックし、列としてビューに追加するカスタムフォームフィールドの横にあるプラスアイコンをクリックします。
+1. （オプション）ビューの名前を変更するには、「**ビュー**」ドロップダウン ![ 「ビュー」ドロップダウン ](assets/view-icon-requests.png) をクリックし、ビューの横の「。..」メニューをクリックして「**名前を変更**」を選択し、ビューの新しい名前を入力します。
+1. **表示** ドロップダウン ![ 表示ドロップダウン ](assets/view-icon-requests.png) をクリックし、編集する表示を選択します。
+1. 列としてカスタムフィールドを追加するには、画面の右付近にある **列を追加** アイコン ![ 列を追加 ](assets/add-column.png) をクリックし、列としてビューに追加するカスタムフォームフィールドの横にあるプラスアイコンをクリックします。
 
    >リスト内のオブジェクトに添付されたフォームのカスタムフィールドを、列として追加できます。
 
@@ -93,15 +93,7 @@ ht-degree: 7%
    >現在、実稼動環境で列を追加することはできません。
 1. （任意）「**列**」をクリックして、リクエストリストの列の非表示、表示、並べ替えを行います。
 
-   ![&#x200B; 「列」ボックス &#x200B;](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >現在、実稼動環境でこれ以上列を追加することはできません。
-
-1. （任意）「**フィルター**」をクリックして、「計画」タブに表示する要求の条件の追加を開始します。
-
-   ![&#x200B; 「計画要求」タブでのフィルターの編集 &#x200B;](assets/filters-editing-box-in-requests-planning-tab.png)
+1. （任意）「**フィルター**」をクリックして、表示するリクエストの条件の追加を開始します。
 
    次のフィールドでフィルタリングできます。
 
@@ -129,7 +121,7 @@ ht-degree: 7%
 
 Workfront管理者は、新しいビューをレイアウトテンプレートに追加できます。
 
-手順については、[&#x200B; レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
+手順については、[ レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
 
 ## ビューを共有
 
