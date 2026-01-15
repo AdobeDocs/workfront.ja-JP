@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 88%
+source-wordcount: '1603'
+ht-degree: 86%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 88%
 
 ## Workfront クラスターの場所を特定
 
-ファイアウォール上で許可リストに追加する必要がある IP アドレスは、実稼働環境が実行されるクラスターによって異なります。
+ファイアウォール上で許可リストに追加する必要がある IP アドレスは、本番環境が実行されるクラスターによって異なります。
 
 組織のクラスターを検索するには、次の手順に従います。
 
@@ -124,13 +124,16 @@ ht-degree: 88%
      <li>35.161.82.137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
-     <li>54.71.252.65</li> 
-    </ul> <p>次の IP アドレスについて詳しくは、<a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">21.1 リリースでの Adobe Workfront メールの新規 IP アドレス</a>を参照してください。</p> 
-    <ul> 
+     <li>54.71.252.65</li>
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
      <li>23.251.237.109</li> 
      <li>23.251.237.106</li> 
+     <li>206.55.149.212</li>
+     <li>206.55.149.214</li>
+     <li>206.55.149.215</li>
+     <li>206.55.149.213</li>
+     <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -138,7 +141,7 @@ ht-degree: 88%
 
 ### クラスター 4 に許可する IP アドレス {#ip-addresses-to-allow-for-cluster-4}
 
-実稼動環境がクラスター 4 上にある場合、SSO、ドキュメント web フック統合用に次の IP アドレスを追加し、Workfront アプリケーションからメールを受信します。
+本番環境がクラスター 4 上にある場合、SSO、ドキュメント web フック統合用に次の IP アドレスを追加し、Workfront アプリケーションからメールを受信します。
 
 * 52.31.132.175
 * 52.19.188.226
@@ -161,15 +164,14 @@ ht-degree: 88%
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-
-次の IP アドレスについて詳しくは、[21.1 リリースでの Adobe Workfront メールの新規 IP アドレス](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)を参照してください。
-
 * 23.251.239.98
 * 23.251.239.99
+* 24.110.76.224
+* 24.110.76.223
 
 ### クラスター 6 に許可する IP アドレス {#ip-addresses-to-allow-for-cluster-6}
 
-実稼動環境がクラスター 6 上にある場合は、次の IP アドレスを追加します。
+本番環境がクラスター 6 上にある場合は、次の IP アドレスを追加します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -187,6 +189,11 @@ ht-degree: 88%
      <li>34.66.82.65</li> 
      <li>34.66.82.66</li> 
      <li>34.66.82.67</li> 
+    <li>206.55.149.212</li>
+   <li>206.55.149.214</li>
+   <li>206.55.149.215</li>
+   <li>206.55.149.213</li>
+   <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
   <tr> 
@@ -220,6 +227,13 @@ ht-degree: 88%
 * 20.36.133.48/28
 * 20.81.156.240/28
 * 172.172.84.48/28
+
+### クラスター 11 に許可する IP アドレス
+
+クラスター 11 上のWorkfront アプリケーションからメールを受信するには、次の IP アドレスを追加します。
+
+* 24.110.76.224
+* 24.110.76.223
 
 ### 体験版に使用する IP アドレス
 
