@@ -15,7 +15,7 @@ ht-degree: 34%
 
 このページでは、2026 年第 2 四半期リリースでプレビュー環境に加えられた機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
-2026 年第 2 四半期のリリースサイクルのこの時点で使用できるすべての変更のリストについては、[2026 年第 2 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md) を参照してください。
+2026 年第 2 四半期のリリースサイクルのこの時点で使用できるすべての変更のリストについては、[2026 年第 2 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md) を参照してください。
 
 
 ## Adobeの統合エクスペリエンスを多数のWorkfront組織で利用できるようになりました
