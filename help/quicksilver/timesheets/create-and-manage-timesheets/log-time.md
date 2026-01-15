@@ -74,7 +74,7 @@ Workfront にログインできる時間の種類について詳しくは、[時
 * タイムシートには、すべてのログに記録された日付の合計時間が含まれます。タイムラインの計算で除外するように設定されている場合でも、（[システム全体のプロジェクト環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)で説明されているように）週末を常に含みます。
 * タイムシートに表示される項目の最大数は 45 です。タイムシートの時間枠に一致する日付を持つ 45 項目を超える場合は、最も新しく更新された項目のみが表示されます。
 * 請求済み請求記録に含まれる時間エントリは灰色表示になり、タイムシートで編集できません。詳しくは、[請求記録の作成](../../manage-work/projects/project-finances/create-billing-records.md)を参照してください。
-* デフォルトでは、個人タスクはタイムシートに表示されません。個人タスクは、タイムシートに時間が記録された場合にのみ表示されます。個人タスクの時間を記録した後、タスクをタイムシートに固定すると、そのタスクは固定されたままタイムシートに残ります。詳しくは、[ ホームエリアからの作業項目とプロジェクトの作成 ](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
+* デフォルトでは、個人タスクはタイムシートに表示されません。個人タスクは、タイムシートに時間が記録された場合にのみ表示されます。個人タスクの時間を記録した後、タスクをタイムシートに固定すると、そのタスクは固定されたままタイムシートに残ります。詳しくは、[&#x200B; ホームエリアからの作業項目とプロジェクトの作成 &#x200B;](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
 
 ## 時間を記録 {#log-time-section}
 
@@ -192,7 +192,7 @@ Workfront の次の領域で時間を記録できます。
    >   * Windows コンピューターの場合は、Ctrl + Option + +
    >   * Mac コンピューターの場合は、Cmd + Option + +
 
-   時間タイプは、システム、プロジェクト、ユーザーレベルで定義されている内容に応じて使用できます。詳しくは、[ 時間タイプと空き時間の定義 ](define-hour-types-and-availability.md) を参照してください。
+   時間タイプは、システム、プロジェクト、ユーザーレベルで定義されている内容に応じて使用できます。詳しくは、[&#x200B; 時間タイプと空き時間の定義 &#x200B;](define-hour-types-and-availability.md) を参照してください。
 
    タイムシートを閉じた後は、時間タイプを変更できません。
 
@@ -316,7 +316,7 @@ Workfront の次の領域で時間を記録できます。
 手動で追加したタイムシートから項目を削除するには、次の手順に従います。
 
 1. 項目に対して時間が記録されていないことを確認します。
-1. タイムシートから項目の固定を解除するには、項目の横にある&#x200B;**固定を解除**&#x200B;アイコン ![ 項目を固定 ](assets/pin-icon.png) をクリックします。
+1. タイムシートから項目の固定を解除するには、項目の横にある&#x200B;**固定を解除**&#x200B;アイコン ![&#x200B; 項目を固定 &#x200B;](assets/pin-icon.png) をクリックします。
 
    >[!TIP]
    >
@@ -344,13 +344,13 @@ Workfront の次の領域で時間を記録できます。
 
    **ログ時間** ボックスが表示されます。
 
-   ![ ホームのタスクの時間をログボックス ](assets/log-time-ui-for-task-from-new-home.png)
+   ![&#x200B; ホームのタスクの時間をログボックス &#x200B;](assets/log-time-ui-for-task-from-new-home.png)
 
 1. 次の情報を指定します。
 
    * **時間タイプ**：デフォルトで表示されるものと異なる場合は、ドロップダウンメニューから「時間タイプ」を選択します。
 
-     システムで設定されている時間タイプによって、ここで提供されるオプションは異なる場合があります。時間タイプの設定について詳しくは、[ 時間タイプと空き時間の定義 ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
+     システムで設定されている時間タイプによって、ここで提供されるオプションは異なる場合があります。時間タイプの設定について詳しくは、[&#x200B; 時間タイプと空き時間の定義 &#x200B;](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
 
    * **担当業務**：（条件付き）Workfront 管理者またはグループ管理者が「**手動で担当業務を時間エントリに割り当てます**」設定を有効にしている場合は、ドロップダウンメニューから「**担当業務**」を選択します。オブジェクトに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。この設定について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
@@ -387,7 +387,7 @@ Workfront の次の領域で時間を記録できます。
 
 プロジェクト、タスク、またはイシューの「更新」セクションで時間を記録するには、以下が必要です。
 
-* この記事の [ アクセス要件 ](#access-requirements) の節で説明しているように、正しいアクセスと権限です。 アクセスレベルが「軽」で、プロジェクトの時間をログに記録している場合は、時間をログに記録するためのアクセス権を持つ、プロジェクトに対する Contribute 以上の権限も必要です。 プロジェクトに対する権限の付与について詳しくは、[ プロジェクトの共有 ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md) を参照してください。
+* この記事の [&#x200B; アクセス要件 &#x200B;](#access-requirements) の節で説明しているように、正しいアクセスと権限です。 アクセスレベルが「軽」で、プロジェクトの時間をログに記録している場合は、時間をログに記録するためのアクセス権を持つ、プロジェクトに対する Contribute 以上の権限も必要です。 プロジェクトに対する権限の付与について詳しくは、[&#x200B; プロジェクトの共有 &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md) を参照してください。
 
 * プロジェクトに時間を直接記録するには、Workfront管理者がシステム領域の [!UICONTROL **タイムシートと時間**]>[!UICONTROL **環境設定**] の下にある「プロジェクトに直接時間を記録」設定を有効にする必要があります。
 
@@ -407,13 +407,13 @@ Workfront の次の領域で時間を記録できます。
    >   
    >   1 日に含まれる時間数が「日数の入力」ボックスの右上隅に表示されます。
 
-   ![ 「更新」領域のタスクの「時間をログに記録」ボックス ](assets/log-time-box-in-updates-stream.png)
+   ![&#x200B; 「更新」領域のタスクの「時間をログに記録」ボックス &#x200B;](assets/log-time-box-in-updates-stream.png)
 
 1. 次の情報を指定します。
 
    * **時間タイプ**：デフォルトで表示されるものと異なる場合は、ドロップダウンメニューから「時間タイプ」を選択します。
 
-     システムで設定されている時間タイプによって、ここで提供されるオプションは異なる場合があります。時間タイプの設定について詳しくは、[ 時間タイプと空き時間の定義 ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
+     システムで設定されている時間タイプによって、ここで提供されるオプションは異なる場合があります。時間タイプの設定について詳しくは、[&#x200B; 時間タイプと空き時間の定義 &#x200B;](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
 
    * **担当業務**：（条件付き）Workfront 管理者またはグループ管理者が「**手動で担当業務を時間エントリに割り当てます**」設定を有効にしている場合は、ドロップダウンメニューから「**担当業務**」を選択します。オブジェクトに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。この設定について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
@@ -433,7 +433,7 @@ Workfront の次の領域で時間を記録できます。
 
 以下がすべて必要です。
 
-* タイムシートおよび時間に管理アクセス権を持つ標準またはプランライセンス、またはプロジェクトへの編集アクセス権を持つライトライセンス。 タイムシートおよび時間への管理アクセスの付与について詳しくは、[ 特定の領域への管理アクセスのユーザーへの付与 ](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) を参照してください。 タイムシートおよび時間への管理アクセスは、Light ライセンスでは利用できません。
+* タイムシートおよび時間に管理アクセス権を持つ標準またはプランライセンス、またはプロジェクトへの編集アクセス権を持つライトライセンス。 タイムシートおよび時間への管理アクセスの付与について詳しくは、[&#x200B; 特定の領域への管理アクセスのユーザーへの付与 &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) を参照してください。 タイムシートおよび時間への管理アクセスは、Light ライセンスでは利用できません。
 * プロジェクトへの「参加」またはそれ以上の権限と「時間の記録」へのアクセス権。プロジェクトに関する権限の付与について詳しくは、[Adobe Workfront でのプロジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
 * プロジェクトに時間を直接記録したい場合は、Workfront管理者が「設定」エリアの **タイムシートと時間/環境設定** セクションで「プロジェクトに直接時間を記録」設定を有効にする必要があります。 時間数をユーザーが直接プロジェクトに記録できるようにする方法について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
@@ -445,7 +445,7 @@ Workfront の次の領域で時間を記録できます。
 
    **ログ時間** ボックスが表示されます。
 
-   ![ タスクの「時間」セクションに時間を記録する ](assets/log-time-box-in-hours-section-on-task.png)
+   ![&#x200B; タスクの「時間」セクションに時間を記録する &#x200B;](assets/log-time-box-in-hours-section-on-task.png)
 
 1. 次の情報を指定します。
 
@@ -456,7 +456,7 @@ Workfront の次の領域で時間を記録できます。
 
      システムで設定される時間タイプによって、表示されるオプションは異なる場合があります。
 
-     時間タイプの設定について詳しくは、[ 時間タイプと空き時間の定義 ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
+     時間タイプの設定について詳しくは、[&#x200B; 時間タイプと空き時間の定義 &#x200B;](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
 
    * **担当業務**：（条件付き）Workfront 管理者またはグループ管理者が「**手動で担当業務を時間エントリに割り当てます**」設定を有効にしている場合は、ドロップダウンメニューから「**担当業務**」を選択します。オブジェクトに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。この設定について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
    * **週別カレンダー**：プロジェクト、タスクまたは問題の時間数を入力します。
@@ -492,7 +492,7 @@ Workfront モバイルアプリで時間を記録できます。
 >* クローズしたタイムシートに属する時間エントリは変更できません。 最初にタイムシートを再度開いてから、時間エントリ情報を変更する必要があります。
 >* 時間タイプを収益としてカウントしないタイプから収益としてカウントする別のタイプに変更すると、プロジェクトの財務の変更も発生します。 時間タイプを収益としてカウントするタイプから収益としてカウントしないタイプに変更すると、プロジェクトの財務も更新されます。
 >
->詳しくは、[ 時間タイプの管理 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) を参照してください。
+>詳しくは、[&#x200B; 時間タイプの管理 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) を参照してください。
 >
 
 次の領域でログ時間を編集できます。
@@ -513,7 +513,7 @@ Workfront モバイルアプリで時間を記録できます。
 
    * 時間数
    * 時間タイプ。 時間タイプは、プロジェクト固有のタイプにのみ変更できます。
-   * 担当業務の割り当て。 担当業務の割り当ては、設定で有効にした場合にのみ変更できます。 詳しくは、[ タイムシートおよび時間環境設定の設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) を参照してください。
+   * 担当業務の割り当て。 担当業務の割り当ては、設定で有効にした場合にのみ変更できます。 詳しくは、[&#x200B; タイムシートおよび時間環境設定の設定 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) を参照してください。
    * 時間エントリの説明。
 
 

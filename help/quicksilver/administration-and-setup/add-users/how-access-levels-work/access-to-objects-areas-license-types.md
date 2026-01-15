@@ -22,7 +22,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+>この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 
 次の表に、各 Adobe Workfront ライセンスで Workfront のオブジェクトとエリアに対して許可されている最高レベルのアクセス（編集または表示）を示します。
 
