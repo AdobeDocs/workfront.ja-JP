@@ -38,7 +38,7 @@ Workfront Planning のオブジェクト・タイプは「レコード・タイ�
 
 Workfront Planning では、組織のニーズに合ったカスタムレコードタイプを作成できます。
 
-レコードタイプの作成について詳しくは、[ レコードタイプの作成 ](/help/quicksilver/planning/architecture/create-record-types.md) を参照してください。
+レコードタイプの作成について詳しくは、[&#x200B; レコードタイプの作成 &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) を参照してください。
 
 * テンプレートからワークスペースを作成する際、次のワークスペースセクションにレコードタイプが作成されます。
 
@@ -51,13 +51,13 @@ Workfront Planning では、組織のニーズに合ったカスタムレコー�
 * レコードタイプを作成すると、ワークスペースへのアクセス権を付与したユーザーとレコードタイプのみがワークスペースにアクセスできます。
 * ワークスペースのレコードタイプを作成する前に、ワークスペースを作成する必要があります。
 
-  1 つのワークスペースまたはWorkfront インスタンスに含めることができるレコードタイプの数の制限については、[Adobe Workfront Planning オブジェクトの制限事項の概要 ](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
+  1 つのワークスペースまたはWorkfront インスタンスに含めることができるレコードタイプの数の制限については、[Adobe Workfront Planning オブジェクトの制限事項の概要 &#x200B;](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
 * 複数のワークスペースでレコードタイプを使用するには、レコードタイプをグローバルまたは接続可能として指定できます。
 
    * グローバル レコード タイプは、既存のレコード タイプとして他のワークスペースに追加できます。
    * 接続可能レコードタイプは、他のワークスペースから接続できます。
 
-  詳しくは、[ レコードタイプに対するクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+  詳しくは、[&#x200B; レコードタイプに対するクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 
 
 <!--

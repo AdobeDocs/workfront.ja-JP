@@ -67,7 +67,7 @@ Adobe Workfront の新しいホームエクスペリエンスは、現在のホ�
     承認待ち、割り当て、委任、送信済みのすべての承認、承認を委任するボタン、ウィジェット内で直接承認に関する決定を行うボタンが表示されます。
 
 * **ドキュメント承認指標**\
-        平均ドキュメント承認時間および決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリスト ビューを表示します。 このウィジェットを使用するには、[ 統合承認 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を有効にする必要があります。
+        平均ドキュメント承認時間および決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリスト ビューを表示します。 このウィジェットを使用するには、[&#x200B; 統合承認 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を有効にする必要があります。
 
 * **メンション**\
         自分が行った最近のコメントや、過去 2 週間に追加された、他のユーザーが自分にタグ付けしたコメントが表示されます。 「返信」ボタンを使用して、ウィジェット内に返信を作成できます。

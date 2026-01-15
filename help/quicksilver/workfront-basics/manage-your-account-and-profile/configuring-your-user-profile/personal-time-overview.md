@@ -74,7 +74,7 @@ ht-degree: 75%
 >
 >Adobe統合エクスペリエンスを利用している場合は、上部のナビゲーション領域の右上隅にある **Adobe** のアカウントメニュー（プロファイル画像）をクリックし、**Workfrontのプロファイル** をクリックします。
 >
->![workfront プロファイル ](assets/aue-profile.png)
+>![workfront プロファイル &#x200B;](assets/aue-profile.png)
 
 1. 左パネルの「**[!UICONTROL 休暇]**」をクリックします。
 1. 個人の休暇に希望する日付を選択します。

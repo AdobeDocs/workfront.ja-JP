@@ -62,7 +62,7 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++     
 
@@ -147,7 +147,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
   >フィールドの設定が変更されたという通知は他のユーザーには送信されません。
 
 * 接続されたレコードから既存の参照フィールドを編集できます。
-* この記事の [ フィールド設定の編集 ](#edit-field-settings-1) のセクションで説明したフィールドの編集に加えて、テーブル ビューでレコードを編集するときにフィールド値を更新する、単一選択または複数選択のフィールドの選択肢を編集することができます。 詳細については、この記事の [ テーブル ビューでレコードを編集するときに既存の選択フィールドに新しい選択肢を追加する ](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) を参照してください。
+* この記事の [&#x200B; フィールド設定の編集 &#x200B;](#edit-field-settings-1) のセクションで説明したフィールドの編集に加えて、テーブル ビューでレコードを編集するときにフィールド値を更新する、単一選択または複数選択のフィールドの選択肢を編集することができます。 詳細については、この記事の [&#x200B; テーブル ビューでレコードを編集するときに既存の選択フィールドに新しい選択肢を追加する &#x200B;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) を参照してください。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -176,7 +176,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    フィールドの列ヘッダーをダブルクリックします。
 
-   ![ テーブルヘッダーのフィールド名の後の矢印メニューがハイライト表示されている ](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![&#x200B; テーブルヘッダーのフィールド名の後の矢印メニューがハイライト表示されている &#x200B;](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. フィールドに関する情報を更新し、「**保存**」をクリックします。
 
@@ -211,7 +211,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 「ステータス」という単一選択フィールドに「新規」および「クローズ」の選択肢があり、「処理中」ステータスの選択肢を追加するとします。 次のいずれかの操作を行って、選択肢を追加できます。
 
-* フィールドを編集しています。 詳しくは、この記事の「フィールド設定を編集 [ の節を参照し ](#edit-field-settings-1) ください。
+* フィールドを編集しています。 詳しくは、この記事の「フィールド設定を編集 [&#x200B; の節を参照し &#x200B;](#edit-field-settings-1) ください。
 * テーブル表示でレコードを編集する際に、新しいオプションを追加します（下図を参照）。
 
 レコードの編集時に既存の選択フィールドに新しい選択肢を追加するには、次の手順を実行します。
@@ -221,7 +221,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. フィールドのセルをダブルクリックして、フィールドをインラインで編集し始めます。
 1. 追加する選択肢の名前を入力し、[**選択肢の追加**] をクリックします。
 
-   ![ テーブル表示の単一選択フィールドに選択肢を追加 ](assets/add-choice-in-table-view-for-single-select-field.png)
+   ![&#x200B; テーブル表示の単一選択フィールドに選択肢を追加 &#x200B;](assets/add-choice-in-table-view-for-single-select-field.png)
 
    新しい選択肢が単一選択フィールドにすぐに追加されます。
 
