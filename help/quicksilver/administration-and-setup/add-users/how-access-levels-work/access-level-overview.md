@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 90%
+source-wordcount: '1749'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+>この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 
 Adobe Workfront の管理者は、次の 2 つの目的でユーザーにアクセスレベルを割り当てます。
 
@@ -117,7 +117,7 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
 * ワークに関連するすべてのアイテムとアップデートを表示
 * プロジェクト、タスク、イシューを承認
 * ダッシュボードとレポートの表示
-* タスクおよび問題に関する時間を追跡しタイムシートを承認する
+* プロジェクト、タスク、問題の時間を追跡し、タイムシートを承認します
 * イシューの作成と管理
 
 ライトアクセスレベルのユーザーは、以下の権限があります。
@@ -125,6 +125,7 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
 * 作業アイテムを割り当てることはできますが、完了できません。
 * メインメニューでリクエストやドキュメントにアクセスできます。
 * 限られたオブジェクト作成権限。プロジェクト、ポートフォリオ、プログラムまたはレポートは作成できません。
+* 編集アクセスが有効になっている場合は、プロジェクトレベルでのみ時間を記録できます。 プロジェクトの作成、編集、削除、共有はできません。
 
 >[!NOTE]
 >
@@ -151,8 +152,8 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
   <tr> 
    <td>プロジェクト</td> 
    <td> </td> 
-   <td>✓</td> 
    <td> </td> 
+   <td>✓（プロジェクトレベルで時間を記録する場合）</td> 
   </tr> 
   <tr> 
    <td>タスク</td> 
@@ -379,7 +380,7 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
 
 ユーザーがオブジェクトを使用して実行できるアクティビティは、アクセスレベルと、ユーザーに付与されている権限の組み合わせで定義されます。
 
-![&#x200B; セキュリティモデルの階層 &#x200B;](assets/security-model-hierachy-copy.png)
+![ セキュリティモデルの階層 ](assets/security-model-hierachy-copy.png)
 
 ### オブジェクトの共有を通じて権限を付与
 
