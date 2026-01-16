@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+source-git-commit: 85c6985d27ef0806e9152ecf2cbd90ca63a588c6
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1523'
 ht-degree: 93%
 
 ---
@@ -101,7 +101,7 @@ Adobe Workfront 管理者は、以下に説明する監査ログを使用して�
 
 ### ビジネスルール
 
-Business Rules は、Ultimate Workfrontプランを購入したお客様のみが利用できます。 詳細は、[&#x200B; ビジネス・ルールの作成および編集 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
+Business Rules は、Ultimate Workfrontプランを購入したお客様のみが利用できます。 詳細は、[ ビジネス・ルールの作成および編集 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
 
 ユーザーが次のいずれかの操作を行うと、ビジネス・ルール監査ログ・エントリが生成されます。
 
@@ -208,7 +208,7 @@ Business Rules は、Ultimate Workfrontプランを購入したお客様のみ�
 * カスタムセクションの名前または説明を変更
 * カスタムセクションの削除
 
-カスタムフォームのカスタムセクションについて詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+カスタムフォームのカスタムセクションについて詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 ### 為替レート {#exchange-rate}
 
@@ -236,7 +236,7 @@ Business Rules は、Ultimate Workfrontプランを購入したお客様のみ�
    * ユーザーの追加または削除
    * サブグループの追加または削除
 
-### s {#job-role}
+### 担当業務 {#job-role}
 
 ユーザーが次のいずれかの操作を行うと、担当業務監査ログエントリが生成されます。
 
