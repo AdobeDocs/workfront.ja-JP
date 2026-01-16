@@ -49,7 +49,7 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 * [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 -->
@@ -60,8 +60,8 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 
 >[!TAB 既知の問題]
 
-* [既知の問題](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
-* [&#x200B; メンテナンスの更新 &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
+* [既知の問題](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/issues/overview)
+* [&#x200B; メンテナンスの更新 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)
 
 
 >[!ENDTABS]
@@ -80,7 +80,7 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Workfront管理の基本を学ぶ</a></li>
-    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Workfront Fusion の基本を学ぶ</li>
+    <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Workfront Fusion の基本を学ぶ</li>
     <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Adobe Exchangeからアプリを取得してインストールする</a></li>
     </ul>
  </td>
@@ -120,9 +120,9 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 
 ### ラーニングとトレーニングのセクションの探索
 
-* **トレーニング資料**: [Workfront トレーニング &#x200B;](https://experienceleague.adobe.com/en/browse/workfront) ページに移動すると、Workfrontの機能と設定をより深く理解するためのトレーニングビデオと記事のライブラリが表示されます。 また、[learning.adobe.com](https://learning.adobe.com/) で有料のトレーニング資料にアクセスすることもできます。
-* **コース**：様々なWorkfront機能を論理的な順序で使用する方法を説明する [&#x200B; 構造化されたラーニングコース &#x200B;](https://experienceleague.adobe.com/home?Solution=Workfront#courses) を見つけます。
+* **トレーニング資料**: [Workfront トレーニング &#x200B;](https://experienceleague.adobe.com/ja/browse/workfront) ページに移動すると、Workfrontの機能と設定をより深く理解するためのトレーニングビデオと記事のライブラリが表示されます。 また、[learning.adobe.com](https://learning.adobe.com/) で有料のトレーニング資料にアクセスすることもできます。
+* **コース**：様々なWorkfront機能を論理的な順序で使用する方法を説明する [&#x200B; 構造化されたラーニングコース &#x200B;](https://experienceleague.adobe.com/home?lang=ja&Solution=Workfront#courses) を見つけます。
 
 ### コミュニティフォーラムで回答を検索
 
-* **質問する**: ドキュメントが質問に答えない場合は、[Workfront コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) に投稿してみてください。このフォーラムでは、他のユーザーやエキスパートからサポートを提供しています。
+* **質問する**: ドキュメントが質問に答えない場合は、[Workfront コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja) に投稿してみてください。このフォーラムでは、他のユーザーやエキスパートからサポートを提供しています。
