@@ -22,7 +22,7 @@ ht-degree: 0%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront向けにリリースされている限定提供（LA）機能の一覧については、[Adobe Workfront限定提供（LA）機能のリリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md) を参照してください。
+Adobe Workfront向けにリリースされている限定提供（LA）機能の一覧については、[Adobe Workfront限定提供（LA）機能のリリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md) を参照してください。
 
 ## 限定提供の機能のリリースノート
 
