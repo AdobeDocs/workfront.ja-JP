@@ -8,7 +8,7 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+source-git-commit: 7dca87a4f73fed9597f2a623b969569aa03cf5b3
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront向けにリリースされている限定提供（LA）機能の一覧については、[Adobe Workfront限定提供（LA）機能のリリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md) を参照してください。
+Adobe Workfront向けにリリースされている限定提供（LA）機能の一覧については、[Adobe Workfront限定提供（LA）機能のリリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md) を参照してください。
 
 ## 限定提供の機能のリリースノート
 
@@ -48,6 +48,12 @@ text
 text
 
 ### Maintenance Updates week of January 25-31, 2026
+
+**Title**
+
+text
+
+### Maintenance Updates week of February 1-7, 2026
 
 **Title**
 
