@@ -43,7 +43,7 @@ Workfront Planning の無料体験版に参加するには、会社に次のも�
 
 * 任意の新しいAdobe Workfrontまたはワークフローパッケージ
 Workfront Planning 体験版は、従来のWorkfront パッケージでは使用できません
-詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 * Adobe Admin Consoleへのアクセス
 * Identity Management System （IMS）に参加する
 * 組織のWorkfront インスタンスで使用可能な署名済みの法的契約
@@ -64,7 +64,7 @@ Workfront管理者の 1 人は、組織内のすべてのユーザーがWorkfron
 
          または
 
-         画面の右上隅にある **Workfrontのお知らせエリアに移動し**[ すべてのお知らせ ] をクリックすると、お知らせセンターにWorkfront Planning の試用版に関するメッセージが表示されます。**すべての通知**
+         画面の右上隅にある **Workfrontのお知らせエリアに移動し**&#x200B;[ すべてのお知らせ ] をクリックすると、お知らせセンターにWorkfront Planning の試用版に関するメッセージが表示されます。**すべての通知**
       1. **体験版契約を確認** をクリックします。<!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
       1. 契約書を確認した後、「**同意する**」をクリックします。
 
@@ -75,7 +75,7 @@ Workfront管理者の 1 人は、組織内のすべてのユーザーがWorkfron
 
          または
 
-         画面の右上隅にある **Workfrontのお知らせ領域に移動して**[ すべてのお知らせ ]**をクリックし、Workfront Planning の試用版に関するお知らせセンターのメッセージを見つけ** す
+         画面の右上隅にある **Workfrontのお知らせ領域に移動して**&#x200B;[ すべてのお知らせ ]&#x200B;**をクリックし、Workfront Planning の試用版に関するお知らせセンターのメッセージを見つけ** す
 
          または
 
@@ -91,9 +91,9 @@ Workfront管理者の 1 人は、組織内のすべてのユーザーがWorkfron
          * その他のすべてのユーザーには、表示権限があります。
       1. （条件付き） 2026 年 3 月 2 日（PT）以降は、「**ベストプラクティスのワークスペース**」タブの調査を開始して、ワークスペースまたはそのオブジェクトを他のユーザーと共有します。
 
-         Adobe Workfront Planning の使用方法の詳細については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+         Adobe Workfront Planning の使用方法の詳細については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
-         Workfront Planning の使用のベストプラクティスについては、[Adobe Workfront Planning のベストプラクティス ](/help/quicksilver/planning/general/planning-best-practices.md) を参照してください。
+         Workfront Planning の使用のベストプラクティスについては、[Adobe Workfront Planning のベストプラクティス &#x200B;](/help/quicksilver/planning/general/planning-best-practices.md) を参照してください。
 
 <!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps above - ???  -->
 
