@@ -66,7 +66,7 @@ Workfrontの計画について詳しくは、次の記事を参照してくだ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -80,7 +80,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * Planning Designerを使用するには、Workfront AI アシスタントを使用するための要件を満たす必要があります。
 
-  詳しくは、[AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
+  詳しくは、[AI アシスタントの前提条件 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
 
 * Planning Designerを使用するには、システム管理者が設定の「システム環境設定」領域で有効にする必要があります。
 
@@ -125,7 +125,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
   読み込んだドキュメントからレコードを作成する機能は、Planning Designerでのみ使用でき、AI アシスタントでは使用できません。
 
-  使用できるファイルのタイプとサイズについては、記事 [AI を使用したフォーム入力を使用して、プロンプトやドキュメントを使用してリクエストを入力 ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) の「ドキュメントガードレール」の節を参照してください。
+  使用できるファイルのタイプとサイズについては、記事 [AI を使用したフォーム入力を使用して、プロンプトやドキュメントを使用してリクエストを入力 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) の「ドキュメントガードレール」の節を参照してください。
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
 
@@ -136,19 +136,19 @@ Workfront管理者は、最初に組織の Planning Designerを有効にする�
 <!--add steps here-->
 
 1. システム管理者としてWorkfrontにログインします。
-1. 画面の左上隅にある **メインメニュー**![ メインメニューアイコン ](assets/main-menu-shell.png) をクリックし、**設定** をクリックします。
+1. 画面の左上隅にある **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-shell.png) をクリックし、**設定** をクリックします。
 1. 左側のパネルで **システム** /をクリックし、**AI 環境設定** 領域に移動します。
 1. 次の設定をオンにします。
    * **AI を有効にする**
    * **AI ベータ版のオプトイン**
    * **Designerの計画**
 
-   ![ システム環境設定でのDesigner設定の計画 ](assets/planning-designer-toggle-in-system-preferences.png)
+   ![&#x200B; システム環境設定でのDesigner設定の計画 &#x200B;](assets/planning-designer-toggle-in-system-preferences.png)
 1. 「**保存**」をクリックします。
 
    システム内で Standard ライセンスを持つすべてのユーザーは、計画領域のワークスペース メインページの **AI を使用したデザイン** ボタンを表示できるようになりました。<!--check screen shot-->
 
-   ![ ワークスペースページの「AI を使用したデザイン」ボタン ](assets/design-with-ai-button-on-workspaces-page.png)
+   ![&#x200B; ワークスペースページの「AI を使用したデザイン」ボタン &#x200B;](assets/design-with-ai-button-on-workspaces-page.png)
 
    これで、すべてのユーザーが Planning Designerを開始および使用して、Workfront Planning オブジェクトを作成および更新できます。
 
@@ -156,7 +156,7 @@ Workfront管理者は、最初に組織の Planning Designerを有効にする�
 
 特に指定がない限り、Workfront Planning Designerまたは AI アシスタントを使用して、Planning でオブジェクトを作成または更新できます。
 
-1. Workfrontにログインし、左上隅の **メインメニュー** アイコン ![ ラインメインメニュー ](assets/lines-main-menu.png) をクリックします。
+1. Workfrontにログインし、左上隅の **メインメニュー** アイコン ![&#x200B; ラインメインメニュー &#x200B;](assets/lines-main-menu.png) をクリックします。
 
 1. **計画** をクリックします。 計画エリアが開きます。
 
@@ -164,7 +164,7 @@ Workfront管理者は、最初に組織の Planning Designerを有効にする�
 
    **計画Designer** ウィンドウが開きます。
 
-   ![ 計画Designerウィンドウ ](assets/planning-designer-window.png)
+   ![&#x200B; 計画Designerウィンドウ &#x200B;](assets/planning-designer-window.png)
 
 1. 指定されたスペースで、AI アシスタントのコマンドの入力を開始し、完了したら [Enter] をクリックします。
 
@@ -198,8 +198,8 @@ Workfront管理者は、最初に組織の Planning Designerを有効にする�
 
    プロンプトの右側のプレビュー領域で、ワークスペース、レコードタイプ、フィールド、ビュー、およびレコードを確認できます。
 1. （オプション）オブジェクトをさらに編集するための追加プロンプトを入力します。
-1. （オプション） **AI Workspace プレビュー画面を切り替える** アイコン ![ プレビュー画面を非表示または表示アイコン ](assets/hide-show-preview-screen-in-planning-designer.png) をクリックして、右側のプレビュー画面を開いたり閉じたりします。
-1. **ワークスペースを新しいタブで開くアイコン**![ ワークスペースを新しいタブで開くアイコン ](assets/open-workspace-on-new-tab-icon.png) をクリックして、更新しているワークスペースを新しいタブで開きます。
+1. （オプション） **AI Workspace プレビュー画面を切り替える** アイコン ![&#x200B; プレビュー画面を非表示または表示アイコン &#x200B;](assets/hide-show-preview-screen-in-planning-designer.png) をクリックして、右側のプレビュー画面を開いたり閉じたりします。
+1. **ワークスペースを新しいタブで開くアイコン**![&#x200B; ワークスペースを新しいタブで開くアイコン &#x200B;](assets/open-workspace-on-new-tab-icon.png) をクリックして、更新しているワークスペースを新しいタブで開きます。
 1. **閉じる** アイコン **X** をクリックして、Planning Designerを閉じ、ワークスペースエリアを開きます。
 1. PlanningDesignerを使用して編集したワークスペースを開き、そのオブジェクトにさらに変更を加えます。
 
