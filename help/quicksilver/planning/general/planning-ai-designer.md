@@ -56,7 +56,7 @@ Adobe Planning Designerを使用すると、新しい作業領域を生成した
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -72,10 +72,10 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * Planning Designerを使用するには、まず組織の AI アシスタントを有効にする必要があります。 AI アシスタントを組織内の全員が使用できるようにするには、次の機能を有効にする必要があります。
 
-   * 会社のユーザーが AI アシスタントを使用できるようにするには、組織で AI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントの概要 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) を参照してください。
+   * 会社のユーザーが AI アシスタントを使用できるようにするには、組織で AI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントの概要 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) を参照してください。
    * Workfrontで組織の AI アシスタントが有効になると、メインのWorkfront管理者が使用できるようになります。 詳しくは、[システムの基本情報を設定](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
 
-   * Workfront管理者は、他のすべてのユーザーに対して AI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+   * Workfront管理者は、他のすべてのユーザーに対して AI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントを有効または無効にする &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
    * AI アシスタントは、各ページのコンテキストで機能します。 AI アシスタントに対して送信するリクエストでは、開いているページで使用できる機能を参照する必要があります。
 
@@ -157,7 +157,7 @@ Workfront管理者は、最初に組織の Planning Designerを有効にする�
 
 特に指定がない限り、Workfront Planning Designerまたは AI アシスタントを使用して、Planning でオブジェクトを作成または更新できます。
 
-1. Workfrontにログインし、画面の右上隅にある **メインメニュー** アイコン ![ ドットメインメニュー ](assets/dots-main-menu.png) をクリックするか、左上隅にある **メインメニュー** アイコン ![ ラインメインメニュー ](assets/lines-main-menu.png) をクリックします。
+1. Workfrontにログインし、画面の右上隅にある **メインメニュー** アイコン ![&#x200B; ドットメインメニュー &#x200B;](assets/dots-main-menu.png) をクリックするか、左上隅にある **メインメニュー** アイコン ![&#x200B; ラインメインメニュー &#x200B;](assets/lines-main-menu.png) をクリックします。
 
 1. **計画** をクリックします。 計画エリアが開きます。
 
