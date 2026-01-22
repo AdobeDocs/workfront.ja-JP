@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1883'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 5%
 
 * レコードへのリンクの共有。
 
-  詳しくは、「[&#x200B; リンクを使用してレコードを共有する &#x200B;](/help/quicksilver/planning/records/share-records.md)」を参照してください。
+  詳しくは、「[ リンクを使用してレコードを共有する ](/help/quicksilver/planning/records/share-records.md)」を参照してください。
 
 * ワークスペースとレコードタイプを共有することで、ワークスペース内のすべてのレコードを他のユーザーと共有します。
 
@@ -53,7 +53,7 @@ ht-degree: 5%
 >ワークスペースへのアクセス権を持つユーザーには、ワークスペース内のすべてのレコードに対する少なくとも表示権限が自動的に付与されます。
 >ビューを共有しても、レコードに対する権限はユーザーに付与されません。 共有ワークスペースのみが、レコードタイプとレコードに対する権限をユーザーに付与できます。
 >
->Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
+>Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
 
 
 ## アクセス要件
@@ -106,7 +106,7 @@ ht-degree: 5%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -184,13 +184,13 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
 1. 次のいずれかの操作を行います。
 
-   * テーブル表示で、レコード名の上にマウスポインターを置き、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから **共有** をクリックします。
+   * テーブル表示で、レコード名の上にマウスポインターを置き、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから **共有** をクリックします。
    * テーブル表示でレコードを選択し、リスト下部の青いツールバー上の **共有** をクリックします。
    * 任意の表示で、レコードの名前をクリックし、レコードの詳細ページの右上隅にある **共有** をクリックします。
 
    **共有** ボックスが開きます。
 
-   ![&#x200B; 権限が継承されたレコードの権限 &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![ 権限が継承されたレコードの権限 ](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. （オプション） **アクセスできるユーザー** 領域では、「**ワークスペースのすべてのユーザーが表示** オプションがデフォルトで選択されています。  ワークスペースおよびレコードタイプに対する **表示** 以上の権限を持つすべてのユーザーは、レコードに対する同じ権限を持ちます。
 
@@ -198,7 +198,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    >[!TIP]
    >
-   >継承された権限リストから個々のエンティティを削除することはできません。
+   >継承された権限リストから個々のエンティティを削除することはできません。<!--test this!-->
 
 1. （オプションおよび条件付き）レコードを特定のエンティティと共有し、ワークスペースに対して既に付与されているレコードタイプとは異なるアクセス権を付与する場合は、次の操作を行います。
 
@@ -220,10 +220,11 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    >[!IMPORTANT]
    >
-   >* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+   >* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
    >* ワークスペースおよびレコードタイプに対する投稿権限または管理権限を持つユーザーは、レコードに対する管理権限を保持します。 表示権限は淡色表示されます。<!--this is not dimmed at this time, Lilit to check-->
    >* ユーザーがレコードタイプに対して投稿以上を持っている場合、ユーザーにそのレコードに対するより小さな権限を付与することはできません。
    > 詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
+   >* あるユーザーとレコードを共有すると、そのユーザーのプライマリ担当業務 <span class="preview"> およびメール </span> もフィールドに表示されます。 ユーザーのメールを表示するには、アクセスレベルでユーザーオブジェクトに対して「連絡先情報を表示」設定を有効にする必要があります。
 
 1. ワークスペースへのアクセス権を持たないユーザーにレコードを表示するには、「**このビューへのアクセスを許可**」フィールドにユーザー、グループ、チーム、会社、担当業務の名前の入力を開始し、リストに表示されたらクリックします。
 
@@ -244,7 +245,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    詳しくは、[Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md) を参照してください。
 
-1. コピーしたリンクを他のユーザーと共有します。リンクを受け取るユーザーは、アクティブユーザーで、レコードタイプページにアクセスして選択したビューに表示できるようにするには、Workfrontにログインする必要があります。 表示するには、そのレコードタイプに対する権限が必要です。 詳しくは、「[&#x200B; リンクを使用してレコードを共有する &#x200B;](/help/quicksilver/planning/records/share-records.md)」も参照してください。
+1. コピーしたリンクを他のユーザーと共有します。リンクを受け取るユーザーは、アクティブユーザーで、レコードタイプページにアクセスして選択したビューに表示できるようにするには、Workfrontにログインする必要があります。 表示するには、そのレコードタイプに対する権限が必要です。 詳しくは、「[ リンクを使用してレコードを共有する ](/help/quicksilver/planning/records/share-records.md)」も参照してください。
 
 ## レコードに対する権限の削除
 
@@ -255,14 +256,14 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 1. レコードの共有を停止するワークスペースを開き、レコードの種類のカードをクリックします。 レコードタイプページが開きます。
 1. 次のいずれかの操作を行います。
 
-   * テーブル表示で、レコード名の上にマウスポインターを置き、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから **共有** をクリックします。
+   * テーブル表示で、レコード名の上にマウスポインターを置き、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから **共有** をクリックします。
    * テーブル表示でレコードを選択し、リスト下部の青いツールバー上の **共有** をクリックします。
    * 任意の表示で、レコードの名前をクリックし、レコードの詳細ページの右上隅にある **共有** をクリックします。
 
    **共有** ボックスが開きます。
 1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、名前の右側にある権限ドロップダウンメニューを展開して、「**削除**」をクリックします。<!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![&#x200B; レコードに対する権限の削除 &#x200B;](assets/remove-option-on-record-sharing-drop-down.png)
+   ![ レコードに対する権限の削除 ](assets/remove-option-on-record-sharing-drop-down.png)
 
 1. 「**保存**」をクリックします。
 

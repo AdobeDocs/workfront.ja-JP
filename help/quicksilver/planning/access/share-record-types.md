@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 4%
+source-wordcount: '1547'
+ht-degree: 6%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 4%
 
 # レコードタイプの共有
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -31,8 +31,8 @@ ht-degree: 4%
 >ワークスペースへのアクセス権を持つユーザーには、ワークスペース内のすべてのレコードタイプに対する少なくとも表示権限が自動的に付与されます。
 >ビューを共有しても、ユーザーはレコードタイプに対する権限を持ちません。 共有ワークスペースのみが、レコードタイプに対する権限をユーザーに付与できます。
 >
->* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
->* 詳しくは、この記事の [&#x200B; レコードタイプを共有する場合の考慮事項 &#x200B;](#considerations-when-sharing-record-types) の節を参照してください。
+>* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
+>* 詳しくは、この記事の [ レコードタイプを共有する場合の考慮事項 ](#considerations-when-sharing-record-types) の節を参照してください。
 
 ## アクセス要件
 
@@ -85,7 +85,7 @@ ht-degree: 4%
 </table>
 
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -183,8 +183,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * グローバルレコードタイプは、元のワークスペースと追加先のその他のセカンダリワークスペースの両方で共有できます。
 
-  詳しくは、[&#x200B; クロスワークスペースレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) を参照してください。
-
+  詳しくは、[ クロスワークスペースレコードタイプの概要 ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) を参照してください。
 
 
 ## レコードタイプに対する権限の共有
@@ -202,14 +201,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    **共有** ボックスが開きます。
 
-   ![&#x200B; 継承された権限を持つレコードタイプの権限 &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![ 継承された権限を持つレコードタイプの権限 ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. （オプション） **アクセスできるユーザー** 領域では、「**ワークスペースのすべてのユーザーが表示** オプションがデフォルトで選択されています。  ワークスペースに対する表示以上の権限を持つすべてのユーザーは、レコードタイプを表示できます。
-
-   >[!WARNING]
-   >
-   >個々のユーザーとレコードタイプを共有することはできません。 個々のユーザーをレコードタイプに追加すると、そのユーザーもワークスペースに追加されます。
-
 
 1. （任意）「**継承された権限**」オプションのユーザー数をクリックして、ワークスペースから権限を継承するユーザー、チーム、グループ、会社または担当業務を表示します。
 
@@ -230,11 +224,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    >[!IMPORTANT]
    >
-   >* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+   >* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
    >* ワークスペースでのレコードタイプに対する権限よりも大きな権限をユーザーに付与することはできません。
    >* ワークスペースに対する管理権限を持っているユーザーには、レコードタイプに対する管理権限よりも少ない権限を付与することはできません。
    >* ワークスペースに対する投稿権限があるユーザーには、レコードタイプに対する権限を小さくすることができます。
    > 詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
+   >* レコードタイプをユーザーと共有すると、プライマリ担当業務 <span class="preview"> およびメール </span> もフィールドに表示されます。 ユーザーのメールを表示するには、アクセスレベルでユーザーオブジェクトに対して「連絡先情報を表示」設定を有効にする必要があります。
 
 1. ワークスペースへのアクセス権を持たないユーザーにレコードタイプを表示する権限を付与するには、「**このビューへのアクセスを許可**」フィールドにユーザー、グループ、チーム、会社、担当業務の名前を入力し始め、リストに表示されたらクリックします。
 
@@ -267,7 +262,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    **共有** ボックスが開きます。
 1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、名前の右側にある権限ドロップダウンメニューを展開して、「**削除**」をクリックします。<!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![&#x200B; レコードタイプ共有ドロップダウンの「削除」オプション &#x200B;](assets/remove-option-on-record-type-sharing-drop-down.png)
+   ![ レコードタイプ共有ドロップダウンの「削除」オプション ](assets/remove-option-on-record-type-sharing-drop-down.png)
 
 1. 「**保存**」をクリックします。
 
