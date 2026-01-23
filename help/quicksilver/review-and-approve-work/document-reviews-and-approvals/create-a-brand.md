@@ -6,9 +6,9 @@ description: AI レビュアーのブランドの設定
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '410'
 ht-degree: 10%
 
 ---
@@ -57,9 +57,9 @@ AI レビュー担当者は、ブランドガイドラインを使用して、�
 
 * 組織がAdobe IMS（Identity Management System）に移行している必要があります。
 * Workfront インスタンスでは、統合承認が有効になっている必要があります。
-  <!--* Your organization must have GenStudio Foundation.-->
+* GenStudio Foundationが必要です。
 * Adobeには、Adobe生成 AI 契約がファイルに署名済みである必要があります。
-契約の署名について詳しくは、[Adobe Gen AI 契約への署名 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
+契約の署名について詳しくは、[Adobe Gen AI 契約への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
 
 ## PDFを使用したブランドの作成
 
@@ -69,7 +69,7 @@ AI レビュー担当者は、ブランドガイドラインを使用して、�
 1. 画面の右上隅にある「**ブランドを追加**」をクリックします。
 1. ブランドに名前を付けます。
 1. 「PDF をアップロード」をクリックして、ブランドファイルをアップロードします。
-   ![&#x200B; ブランド pdf のアップロード &#x200B;](assets/upload-PDF.png)
+   ![ ブランド pdf のアップロード ](assets/upload-PDF.png)
 1. 「**続行**」をクリックします。
 1. ブランドガイドラインを含んだ 1 つ以上のPDF ファイルをアップロードし、「**ブランドを追加**」をクリックします。
 1. ファイルがアップロードされたら、抽出したブランド要素をレビューして、ブランドガイドラインに一致していることを確認します。
@@ -117,7 +117,7 @@ AI レビュー担当者は、ブランドガイドラインを使用して、�
     </tr>
     </table>
 
-   ![&#x200B; ブランド要素の手動追加 &#x200B;](assets/brand-elements.png)
+   ![ ブランド要素の手動追加 ](assets/brand-elements.png)
 
 
 1. 終了したら、「**公開**」をクリックして、AI レビュー担当者がブランドを使用できるようにします。
