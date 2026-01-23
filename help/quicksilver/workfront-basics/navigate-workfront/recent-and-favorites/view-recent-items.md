@@ -6,10 +6,10 @@ description: '[!UICONTROL 最近]のメニューは上部のナビゲーショ�
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5a92066372efe8bd5391632556550e6063301114
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 75%
+source-wordcount: '205'
+ht-degree: 80%
 
 ---
 
@@ -44,16 +44,14 @@ ht-degree: 75%
 
 +++
 
-
 ## 最近のアイテムの表示
 
 1. 任意のページの右上隅にある&#x200B;**[!UICONTROL 最近]**&#x200B;のアイコン ![[!UICONTROL 最近]](assets/recents-icon-40x43.png) をクリックします。
 
-   ![最近のリスト](assets/recents-list-2022-350x319.png)
+   ![最近のリスト](assets/recents-list.png)
 
    各オブジェクトタイプには、最近表示したアイテムが最後から 5 つまで表示されています。
 
 1. （オプション）最近使用したアイテムのリストを広げるには、オブジェクトタイプの最後の項目のすぐ下にある「**[!UICONTROL さらに表示]**」をクリックすると、その前に表示された 10 アイテムが表示されます。リストを広げると、オブジェクトタイプごとに最大 20 アイテムまで表示できます。
-1. リストを閉じるには、右上の X をクリックします。
 
 最近のアイテムをお気に入りに登録する方法については、[お気に入りの表示と管理](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)を参照してください。
