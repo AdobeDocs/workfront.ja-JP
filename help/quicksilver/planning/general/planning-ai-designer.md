@@ -4,10 +4,10 @@ description: Adobe Planning Designerを使用すると、新しい作業領域�
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 866b237db5d109b0a435145119a6412e41d960ab
+source-git-commit: bd3dde54d986416af847b2f3b2a1e8570d5ce3f2
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 6%
+source-wordcount: '1278'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +35,7 @@ Workfrontの計画について詳しくは、次の記事を参照してくだ�
 * [Adobe Workfront Planning のアクセスの概要](/help/quicksilver/planning/access/access-overview.md)
 
 
-## アクセス要件
+## アクセス要件 <!--edit theses??-->
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
@@ -66,26 +66,35 @@ Workfrontの計画について詳しくは、次の記事を参照してくだ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
 ## 計画Designerのクローズ済Betaプログラムへの登録
 
-<!--edit this Or create a new article under Beta programs?? -->
+現在、sargism@adobe.comにメールを送信することで、Planning DesignerのクローズドBetaプログラムへの参加をリクエストできます。
 
-現在、Planning DesignerのクローズドBetaプログラムへの参加をリクエストできます。
+メールが届いたら、エンジニアリングチームがWorkfront インスタンスで Planning Designerを有効にします。
+
+>[!IMPORTANT]
+>
+>計画Designerをシステムで使用するには、まず会社が AI アシスタント契約に同意する必要があります。
 
 ## Designerの計画に関する考慮事項
 
-* Planning Designerを使用するには、Workfront AI アシスタントを使用するための要件を満たす必要があります。
+* Planning Designerを使用するには、まず組織の AI アシスタントを有効にする必要があります。 AI アシスタントを組織内の全員が使用できるようにするには、次の設定が必要です。
 
-  詳しくは、[AI アシスタントの前提条件 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
+   * Workfrontは、AI アシスタントを組織で使用できるようにする必要があります。
 
-* Planning Designerを使用するには、システム管理者が設定の「システム環境設定」領域で有効にする必要があります。
+     詳しくは、[AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
+   * Workfrontが AI アシスタントを組織で使用できるようになったら、Workfrontのメイン管理者がアクセスできます。
 
-* プロンプトを使用して、計画領域からWorkfront AI アシスタントを使用するか、または計画Designerを使用して、計画オブジェクトを作成できます。
+     詳しくは、[システムの基本情報を設定](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
+   * Workfront管理者は AI Assistant 契約に同意し、他のすべてのユーザーに対して AI Assistant を有効にする必要があります。
 
+     詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+* システム管理者が組織の AI アシスタントを有効にした後、計画アシスタントが組織で使用可能になっている場合、既定ではすべてのユーザーが利用できます。
+* 計画Designerで実行されるアクションは、計画エリアで AI アシスタントを使用して実行することもできます。
 * 計画領域で AI アシスタントが実行するアクションや、計画Designerが実行するアクションは、Workfront計画権限とWorkfront アクセスレベルのコンテキストで行われます。
 
   詳しくは、次の記事を参照してください。
@@ -93,11 +102,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * [Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)
    * [Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)
 
-* ユーザーに代わって Planning Designerが行った変更は、レコードの履歴パネルで追跡されます。
+* AI アシスタントや Planning Designerがユーザーに代わって行った変更は、レコードの履歴パネルで追跡されます。
 
-* コマンドを使用してアクションを取り消すことができます。 例えば、「最後の変更を取り消す」と入力して、変更を元に戻すことができます。
+* 計画Designerが実行したアクションは永続的であり、元に戻すことができない可能性があります。 例えば、フィールドを削除すると、元に戻すことはできません。 Designerによって提案されたすべてのアクションをレビューしてから承認します。
 
-* Planning Designerを使用してオブジェクトを作成、更新または削除する際に、意図したアクションが表示され、確認を求められます。 その後、アクションを確認またはキャンセルできます。
+  >[!IMPORTANT]
+  >
+  >Planning Designerを使用してオブジェクトを作成、更新または削除する場合、プロンプトは元に戻せない処理に対してのみ確認を求めます。 例えば、レコードタイプやワークスペースを削除すると、元に戻せません。 レコードを削除することはできません。 レコードタイプまたはワークスペースを削除しようとすると、Planning Designerによって確認が求められます。
 
 * 計画Designerを使用してワークスペースとレコードタイプを作成すると、ビューとフィールドも自動的に作成されます。
 
@@ -107,7 +118,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * ワークスペースの作成と設定
 
-* レコードタイプの作成
+* グローバルレコードタイプの定義とワークスペースへの追加を含む、レコードタイプの作成
 
 * デザイン フィールドまたは数式フィールド
 
@@ -121,56 +132,44 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * カスタムビューの作成
 
-* ドキュメントを読み込んでレコードを作成します。
+* ドキュメントを読み込んでレコードを作成
 
-  読み込んだドキュメントからレコードを作成する機能は、Planning Designerでのみ使用でき、AI アシスタントでは使用できません。
+  例えば、会社の組織図の写真をアップロードし、それに基づいて Planning Designerでワークスペースを作成できます。
 
-  使用できるファイルのタイプとサイズについては、記事 [AI を使用したフォーム入力を使用して、プロンプトやドキュメントを使用してリクエストを入力 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) の「ドキュメントガードレール」の節を参照してください。
+  読み込んだドキュメントからオブジェクトを作成する機能は、Planning Designerでのみ使用でき、AI アシスタントでは使用できません。
+
+  >[!IMPORTANT]
+  >
+  >.XLSX および.CSV ファイルタイプはサポートされていますが、Planning Designerを使用した大規模なレコード読み込みには使用できません。
+  >現時点で大量のレコードをインポートする必要がある場合は、Planning で使用できる手動機能を使用してインポートすることをお薦めします。
+  >
+  >詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードの作成 ](/help/quicksilver/planning/records/import-file-to-create-records.md) を参照してください。
+  >ファイルタイプの制限については、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) の「アップロードするドキュメントに基づいて提案を取得する」の節を参照してください。
+
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
-
-## 組織の計画Designerを有効にする
-
-Workfront管理者は、最初に組織の Planning Designerを有効にする必要があります。
-
-<!--add steps here-->
-
-1. システム管理者としてWorkfrontにログインします。
-1. 画面の左上隅にある **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-shell.png) をクリックし、**設定** をクリックします。
-1. 左側のパネルで **システム** /をクリックし、**AI 環境設定** 領域に移動します。
-1. 次の設定をオンにします。
-   * **AI を有効にする**
-   * **AI ベータ版のオプトイン**
-   * **Designerの計画**
-
-   ![&#x200B; システム環境設定でのDesigner設定の計画 &#x200B;](assets/planning-designer-toggle-in-system-preferences.png)
-1. 「**保存**」をクリックします。
-
-   システム内で Standard ライセンスを持つすべてのユーザーは、計画領域のワークスペース メインページの **AI を使用したデザイン** ボタンを表示できるようになりました。<!--check screen shot-->
-
-   ![&#x200B; ワークスペースページの「AI を使用したデザイン」ボタン &#x200B;](assets/design-with-ai-button-on-workspaces-page.png)
-
-   これで、すべてのユーザーが Planning Designerを開始および使用して、Workfront Planning オブジェクトを作成および更新できます。
 
 ## PlanningDesignerを使用したオブジェクトの作成または更新
 
 特に指定がない限り、Workfront Planning Designerまたは AI アシスタントを使用して、Planning でオブジェクトを作成または更新できます。
 
-1. Workfrontにログインし、左上隅の **メインメニュー** アイコン ![&#x200B; ラインメインメニュー &#x200B;](assets/lines-main-menu.png) をクリックします。
+1. Workfrontにログインし、左上隅の **メインメニュー** アイコン ![ ラインメインメニュー ](assets/lines-main-menu.png) をクリックして、「**計画**」をクリックします。
 
-1. **計画** をクリックします。 計画エリアが開きます。
+   **計画** エリアが開きます。
+
+   ![ ワークスペースページの「AI を使用したデザイン」ボタン ](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. **AI でデザイン** をクリックします。
 
    **計画Designer** ウィンドウが開きます。
 
-   ![&#x200B; 計画Designerウィンドウ &#x200B;](assets/planning-designer-window.png)
+   ![ 計画Designerウィンドウ ](assets/planning-designer-window.png)
 
-1. 指定されたスペースで、AI アシスタントのコマンドの入力を開始し、完了したら [Enter] をクリックします。
+1. 指定されたスペースで、AI アシスタントのプロンプトの入力を開始し、完了したら [Enter] をクリックします。
 
    <!--add screen shot-->
 
-   例えば、次のようなリクエストを入力できます。
+   例えば、次のようなプロンプトを入力できます。
 
    * キャンペーンを管理するための 5 つのレコードタイプを含むワークスペースの作成と設定
 
@@ -196,12 +195,35 @@ Workfront管理者は、最初に組織の Planning Designerを有効にする�
 
    オブジェクトの作成に同意すると、変更がプロンプト領域の右側に表示されます。
 
-   プロンプトの右側のプレビュー領域で、ワークスペース、レコードタイプ、フィールド、ビュー、およびレコードを確認できます。
+   プロンプトの右側のプレビュー領域で、ワークスペース、レコードタイプ、フィールド、ビュー、およびレコードを表示できます。
+
+   >[!TIP]
+   >
+   >確認を行わなくても、すぐに作成されるオブジェクトもあります。
+
 1. （オプション）オブジェクトをさらに編集するための追加プロンプトを入力します。
-1. （オプション） **AI Workspace プレビュー画面を切り替える** アイコン ![&#x200B; プレビュー画面を非表示または表示アイコン &#x200B;](assets/hide-show-preview-screen-in-planning-designer.png) をクリックして、右側のプレビュー画面を開いたり閉じたりします。
-1. **ワークスペースを新しいタブで開くアイコン**![&#x200B; ワークスペースを新しいタブで開くアイコン &#x200B;](assets/open-workspace-on-new-tab-icon.png) をクリックして、更新しているワークスペースを新しいタブで開きます。
+1. （オプション） **プレビュー画面の表示/非表示** アイコン ![ プレビュー画面の表示/非表示アイコン ](assets/hide-show-preview-screen-in-planning-designer.png) をクリックして、右側のプレビュー画面を開いたり閉じたりします。
+1. **ワークスペースを新しいタブで開くアイコン**![ ワークスペースを新しいタブで開くアイコン ](assets/open-workspace-on-new-tab-icon.png) をクリックして、更新しているワークスペースを新しいタブで開きます。
 1. **閉じる** アイコン **X** をクリックして、Planning Designerを閉じ、ワークスペースエリアを開きます。
 1. PlanningDesignerを使用して編集したワークスペースを開き、そのオブジェクトにさらに変更を加えます。
+
+## 組織の計画Designerをオフにする
+
+Workfront管理者が AI アシスタント契約を承諾すると、デフォルトでは、組織内のすべてのユーザーに対してDesignerの計画が有効になります。
+
+オフにするには：
+
+1. システム管理者としてWorkfrontにログインします。
+1. 画面の左上隅にある **メインメニュー**![ メインメニューアイコン ](assets/main-menu-shell.png) をクリックし、**設定** をクリックします。
+1. 左側のパネルで **システム** /をクリックし、**AI 環境設定** 領域に移動します。
+1. **Planning Designer** 設定をオフにします。<!--add new screen shot with info icon-->
+
+   ![ システム環境設定でのDesigner設定の計画 ](assets/planning-designer-toggle-in-system-preferences.png)
+1. 「**保存**」をクリックします。
+
+   これにより、システム内のすべてのユーザーの Planning Designerが削除されます。
+
+
 
 
 
