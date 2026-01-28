@@ -1,5 +1,5 @@
 ---
-title: アクセスレベルと権限の連携方法
+title: 従来のアクセスレベルと権限の連携方法
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,25 +10,25 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 96%
+source-wordcount: '901'
+ht-degree: 95%
 
 ---
 
-# アクセスレベルと権限の連携の仕組み
+# 従来のアクセスレベルと権限の連携方法
 
 >[!NOTE]
 >
->この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+>この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
 
 Adobe Workfront 管理者は、各ユーザーが持つ必要のあるアクセスレベルを決定します。このアクセスレベルは、ユーザーがシステム内のオブジェクトタイプやエリアで表示および操作できる内容を定義します。
 
 ユーザーは、他のユーザーが個々のオブジェクトを共有し、それらに対する特定の権限を付与すると、それらのオブジェクトにアクセスできるようになります。
 
 
-![&#x200B; セキュリティモデルの階層 &#x200B;](assets/security-model-hierachy.png)
+![ セキュリティモデルの階層 ](assets/security-model-hierachy.png)
 
 例えば、アクセスレベルでタスクを作成できると表示されていて、特定のプロジェクトに対して受け取る権限でタスクを追加できない場合、Workfront の他の場所でタスクを作成できても、そのプロジェクトにタスクを追加できません。
 

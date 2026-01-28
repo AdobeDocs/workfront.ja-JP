@@ -1,5 +1,5 @@
 ---
-title: 新しいライセンスの概要
+title: ライセンスの概要
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,20 +10,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 93%
 
 ---
 
-# 新しいライセンスの概要
+# ライセンスの概要
 
 <!-- Audited: 12/2023 -->
 
 >[!NOTE]
 >
->この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+>この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 
 組織で Adobe Workfront を購入した際に、一定数のライセンスが購入されました。Workfront 管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 2 種類の有料の Workfront ライセンスのいずれかを付与します。
 

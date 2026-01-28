@@ -1,5 +1,5 @@
 ---
-title: アクセスレベルの仕組み
+title: 従来のアクセスレベルの仕組み
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
@@ -9,28 +9,28 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 85%
+source-wordcount: '196'
+ht-degree: 60%
 
 ---
 
-# アクセスレベルの仕組み
+# 従来のアクセスレベルの仕組み
 
 >[!NOTE]
 >
->この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+>この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
 
 Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当てて、オブジェクトの表示や編集のアクセス権を付与できます。以下の記事では、アクセスレベルの仕組みを説明します。
 
-* [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-* [ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-* [ビルトインのアクセスレベル](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-* [アクセスレベルと権限の連携の仕組み](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-* [ユーザーのアクセスレベルとライセンスの一覧を表示](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-* [ライセンスタイプ別のオブジェクトやエリアへのアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-* [各オブジェクトタイプで使用できる機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+* [ レガシーアクセスレベルの概要 ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+* [ 従来のライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+* [ ビルトインのレガシーアクセスレベル ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+* [ 従来のアクセスレベルと権限の連携方法 ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+* [ ユーザーのアクセスレベルとライセンスのリスト化（レガシー） ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+* [ ライセンスタイプ別のオブジェクトおよび領域へのアクセス（従来） ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+* [ 各オブジェクトタイプで使用可能な機能（従来のアクセスレベル） ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
 
 ## 関連トピック
 

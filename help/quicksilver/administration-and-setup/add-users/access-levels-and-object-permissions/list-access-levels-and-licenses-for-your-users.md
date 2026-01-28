@@ -1,5 +1,5 @@
 ---
-title: ユーザーのアクセスレベルとライセンスのリスト
+title: ユーザーのアクセスレベルとライセンスのリスト化（レガシー）
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,18 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 91%
+source-wordcount: '336'
+ht-degree: 88%
 
 ---
 
-# ユーザーのアクセスレベルとライセンスの一覧を表示
+# ユーザーのアクセスレベルとライセンスのリスト化（レガシー）
 
 >[!NOTE]
 >
->この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+>この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
 
 ユーザーリストまたはレポートで、各ユーザーに割り当てられているアクセスレベルとライセンスを確認できます。
 

@@ -1,5 +1,5 @@
 ---
-title: アクセスレベルの概要
+title: 従来のアクセスレベルの概要
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,20 +10,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 81%
+source-wordcount: '330'
+ht-degree: 79%
 
 ---
 
-# アクセスレベルの概要
+# レガシーアクセスレベルの概要
 
 <!-- Audited: 12/2023 -->
 
 >[!NOTE]
 >
->この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+>この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
 
 
 Adobe Workfront の管理者は、次の 2 つの目的でユーザーにアクセスレベルを割り当てます。
@@ -35,7 +35,7 @@ Adobe Workfront の管理者は、次の 2 つの目的でユーザーにアク�
 
 「外部」は主に、Workfront を使用しない共同作業者とドキュメントを共有するために設計された無料のライセンスです。
 
-![&#x200B; 従来のアクセスレベルおよびライセンス &#x200B;](assets/access-levels-and-licenses-old.png)
+![ 従来のアクセスレベルおよびライセンス ](assets/access-levels-and-licenses-old.png)
 
 アクセスレベルに関するトピックについては、次の記事を参照してください。
 

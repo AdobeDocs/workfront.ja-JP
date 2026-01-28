@@ -1,5 +1,5 @@
 ---
-title: 新規アクセス レベルの概要
+title: アクセスレベルの概要
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,18 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1747'
 ht-degree: 89%
 
 ---
 
-# 新規アクセスレベルの概要
+# アクセスレベルの概要
 
 >[!NOTE]
 >
->この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+>この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 
 Adobe Workfront の管理者は、次の 2 つの目的でユーザーにアクセスレベルを割り当てます。
 
@@ -380,7 +380,7 @@ Workfront には、5 つの新しいビルトインのアクセスレベルが�
 
 ユーザーがオブジェクトを使用して実行できるアクティビティは、アクセスレベルと、ユーザーに付与されている権限の組み合わせで定義されます。
 
-![&#x200B; セキュリティモデルの階層 &#x200B;](assets/security-model-hierachy-copy.png)
+![ セキュリティモデルの階層 ](assets/security-model-hierachy-copy.png)
 
 ### オブジェクトの共有を通じて権限を付与
 

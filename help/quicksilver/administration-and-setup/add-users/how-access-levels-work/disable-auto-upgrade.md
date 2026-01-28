@@ -1,5 +1,5 @@
 ---
-title: 新しいライセンスプランで無料ユーザーの自動アップグレードオプションを無効にする
+title: 非有料ユーザーの自動アップグレードオプションを無効にする
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 86%
+source-wordcount: '188'
+ht-degree: 92%
 
 ---
 
-# 新しいライセンスプランの有料ユーザーに対して自動アップグレードオプションを無効にする
+# 非有料ユーザーの自動アップグレードオプションを無効にする
 
 プルーフおよびドキュメントの決定は、新しいプランでは 無償 Workfront ライセンスすべてに対して制限されます。ユーザーが割り当てられた決定数に達すると、デフォルトでライトライセンスにアップグレードされます。
 

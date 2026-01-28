@@ -4,26 +4,26 @@ content-type: reference
 product-area: system-administration
 keywords: アクセス, モデル, ファネル, ダイアグラム, レベル, 権限
 navigation-topic: access-levels
-title: 新しいアクセスレベルのオブジェクトタイプごとに使用可能な機能
+title: 各オブジェクトタイプで使用可能な機能
 description: 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: eec482dceb9a35225cb28cccc13811a91536cc83
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1326'
 ht-degree: 92%
 
 ---
 
-# 各オブジェクトタイプに対して新しいアクセスレベルで使用可能な機能
+# 各オブジェクトタイプで使用可能な機能
 
 {{highlighted-preview}}
 
 >[!NOTE]
 >
->この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+>この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 
 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
 
@@ -31,8 +31,8 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->* この記事では、新しいWorkfront パッケージモデルのアクセスレベルで使用できる機能について説明します。 現在のパッケージモデルで使用可能な機能を確認するには、[&#x200B; 様々なアクセスレベルの各オブジェクトタイプで使用可能な機能 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
->* 最新モデルのさまざまなパッケージで利用できる機能の一覧については、[Adobe Workfrontの価格とパッケージ &#x200B;](https://business.adobe.com/jp/products/workfront/pricing.html) を参照してください。
+>* この記事では、新しいWorkfront パッケージモデルのアクセスレベルで使用できる機能について説明します。 現在のパッケージモデルで使用可能な機能を確認するには、[ 様々なアクセスレベルの各オブジェクトタイプで使用可能な機能 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
+>* 最新モデルのさまざまなパッケージで利用できる機能の一覧については、[Adobe Workfrontの価格とパッケージ ](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
 
 ## プロジェクト
 
@@ -372,7 +372,7 @@ ht-degree: 92%
 
 <!-- ask Alina about this section -->
 
-| アクション | ビュー | 編集 |
+| アクション | 表示 | 編集 |
 |---|---|---|
 | 作成 |   | ✓ |
 | すべての目標を編集・削除 |   | ✓ |
