@@ -23,7 +23,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+>この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 
 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
 
@@ -31,8 +31,8 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->* この記事では、新しいWorkfront パッケージモデルのアクセスレベルで使用できる機能について説明します。 現在のパッケージモデルで使用可能な機能を確認するには、[ 様々なアクセスレベルの各オブジェクトタイプで使用可能な機能 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
->* 最新モデルのさまざまなパッケージで利用できる機能の一覧については、[Adobe Workfrontの価格とパッケージ ](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
+>* この記事では、新しいWorkfront パッケージモデルのアクセスレベルで使用できる機能について説明します。 現在のパッケージモデルで使用可能な機能を確認するには、[&#x200B; 様々なアクセスレベルの各オブジェクトタイプで使用可能な機能 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
+>* 最新モデルのさまざまなパッケージで利用できる機能の一覧については、[Adobe Workfrontの価格とパッケージ &#x200B;](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
 
 ## プロジェクト
 

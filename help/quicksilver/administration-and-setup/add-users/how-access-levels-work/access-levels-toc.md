@@ -20,7 +20,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[ アクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+>この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 
 Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当てて、オブジェクトの表示や編集のアクセス権を付与できます。以下の記事では、新しいアクセスレベルの仕組みを説明します。
 

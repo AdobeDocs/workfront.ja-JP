@@ -21,14 +21,14 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+>この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
 
 Adobe Workfront 管理者は、各ユーザーが持つ必要のあるアクセスレベルを決定します。このアクセスレベルは、ユーザーがシステム内のオブジェクトタイプやエリアで表示および操作できる内容を定義します。
 
 ユーザーは、他のユーザーが個々のオブジェクトを共有し、それらに対する特定の権限を付与すると、それらのオブジェクトにアクセスできるようになります。
 
 
-![ セキュリティモデルの階層 ](assets/security-model-hierachy.png)
+![&#x200B; セキュリティモデルの階層 &#x200B;](assets/security-model-hierachy.png)
 
 例えば、アクセスレベルでタスクを作成できると表示されていて、特定のプロジェクトに対して受け取る権限でタスクを追加できない場合、Workfront の他の場所でタスクを作成できても、そのプロジェクトにタスクを追加できません。
 
