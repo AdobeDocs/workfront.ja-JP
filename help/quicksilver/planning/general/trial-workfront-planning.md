@@ -3,9 +3,9 @@ title: Adobe Workfront Planning の無料体験版の概要
 description: Adobe Workfrontでは、Adobe Workfront Planning の 60 日間無料トライアルを提供しています。 この体験版では、Planning が全体像に関する戦略と、それを実現する日常業務をどのように結び付けるかを確認する機会です。 プランニングを使用すると、マーケティングライフサイクルを一元的に把握できるので、チーム間のコラボレーション、キャンペーンのリアルタイム追跡、自動ワークフローを改善できます。 カスタムワークスペースを作成し、インタラクティブなタイムラインとカレンダーでの作業を視覚化できます。 この体験版では、計画によって、日常業務と戦略目標を一致させ、実行を効率化し、組織の測定可能な結果を推進する方法を実際に確認できます。
 hidefromtoc: true
 hide: true
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1148'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ Workfront管理者の 1 人は、組織内のすべてのユーザーがWorkfron
 
       * **Workfront Planning 体験版に関する情報を含むアプリ内バナーに従ってください**
 
-      * 画面の右上隅にある **Workfrontのお知らせエリアに移動し**&#x200B;[ すべてのお知らせ ] をクリックすると、お知らせセンターにWorkfront Planning の試用版に関するメッセージが表示されます。**すべての通知**
+      * 画面の右上隅にある **Workfrontのお知らせエリアに移動し**[ すべてのお知らせ ] をクリックすると、お知らせセンターにWorkfront Planning の試用版に関するメッセージが表示されます。**すべての通知**
    1. **体験版契約を確認** をクリックします。<!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
    1. 契約書を確認した後、「**同意する**」をクリックします。
    1. （条件付き）システム管理者でない場合は、**Workfront Planning 体験版** に関する情報を含むアプリ内バナーに従い、「**詳細情報**」をクリックします。
@@ -116,7 +116,7 @@ Workfront管理者の 1 人は、組織内のすべてのユーザーがWorkfron
 
       * **Workfront Planning 体験版に関する情報を含むアプリ内バナーに従ってください**
 
-      * 画面の右上隅にある **Workfrontのお知らせ領域に移動して**&#x200B;[ すべてのお知らせ ]&#x200B;**をクリックし、Workfront Planning の試用版に関するお知らせセンターのメッセージを見つけ** す
+      * 画面の右上隅にある **Workfrontのお知らせ領域に移動して**[ すべてのお知らせ ]**をクリックし、Workfront Planning の試用版に関するお知らせセンターのメッセージを見つけ** す
 
       * **設定**／**システム**／**環境設定**&#x200B;に移動します。
    1. （条件付き）「**設定**」エリアにいる場合は、「**その他の環境設定**」セクションに移動し、「**体験版契約を確認**」をクリックします。
@@ -132,22 +132,23 @@ Workfront管理者の 1 人は、組織内のすべてのユーザーがWorkfron
    1. （条件付き）システム管理者でない場合で、システム管理者がまだ体験版契約を受け入れていない場合は、**Workfront Planning 体験版** に関する情報を含むアプリ内バナーの手順に従い、「**詳細情報**」をクリックします。
 
       Workfront Planning の体験版およびWorkfront Planning について詳しくは、こちらを参照してください。
-   1. （条件付き）システム管理者でない場合に、システム管理者が体験版契約に同意したら、**Workfront Planning 体験版に関する情報を含むアプリ内バナーに従って**&#x200B;**Planning を開く** をクリックします。
+   1. （条件付き）システム管理者でない場合に、システム管理者が体験版契約に同意したら、**Workfront Planning 体験版に関する情報を含むアプリ内バナーに従って****Planning を開く** をクリックします。
 
       **ベストプラクティスのワークスペース** タブを探索し、ワークスペースまたはワークスペースのオブジェクトを他のユーザーと共有します。
 
-      Adobe Workfront Planning の使用方法の詳細については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+      Adobe Workfront Planning の使用方法の詳細については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
-      Workfront Planning の使用のベストプラクティスについては、[Adobe Workfront Planning のベストプラクティス &#x200B;](/help/quicksilver/planning/general/planning-best-practices.md) を参照してください。
+      Workfront Planning の使用のベストプラクティスについては、[Adobe Workfront Planning のベストプラクティス ](/help/quicksilver/planning/general/planning-best-practices.md) を参照してください。
 
 ## 無料体験期間中のWorkfront Planning データへのアクセス権
 
 * **2026 年 3 月 2 日～5 月 1 日**:
 
-  **Planning 体験版** 領域の「**ベスト・プラクティス・ワークスペース**」タブで使用可能なデータに対して次の権限が付与されます。
+  無料体験版では、Planning 領域のワークスペースに対して次の権限が付与されます。
 
-   * すべてのシステム管理者には、計画領域の「ベストプラクティスのワークスペース」タブに対する管理権限があります。
-   * その他のすべてのユーザーには、計画領域の「ベストプラクティスのワークスペース」タブに対する表示権限があります。
+   * すべてのシステム管理者には、「ワークスペース」タブに対する管理権限があります。
+   * 他のすべてのユーザーには「ワークスペース」 タブの表示権限がありますが、システム管理者はワークスペースに管理権限を付与できます。
+   * システム管理者を含むすべてのユーザーは、計画領域の「ベストプラクティスのワークスペース」タブに対する表示権限を持っています。
 
 * **2026 年 5 月 1 日以降：**
 
