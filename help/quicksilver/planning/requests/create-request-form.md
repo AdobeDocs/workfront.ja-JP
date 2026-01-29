@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '3518'
 ht-degree: 4%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 4%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 
 {{planning-important-intro}}
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 この記事では、ワークスペースマネージャーがレコードタイプに関連付けられたリクエストフォームを作成する方法について説明します。
 
-レコードを作成するレコード・タイプにリクエストを発行する方法は、「レコードを作成するためのAdobe Workfront Planning リクエストの発行 [&#x200B; を参照してください &#x200B;](/help/quicksilver/planning/requests/submit-requests.md)。
+レコードを作成するレコード・タイプにリクエストを発行する方法は、「レコードを作成するためのAdobe Workfront Planning リクエストの発行 [ を参照してください ](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## アクセス要件
 
@@ -65,7 +65,7 @@ ht-degree: 4%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -73,7 +73,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 リクエストを送信した後、リクエストフォームに表示されるフィールドとその値がレコードまたはリクエストの詳細ページに表示される方法には、制限があります。
 
-Workfront Planning 要求の発行の詳細は、[&#x200B; レコードを作成するためのAdobe Workfront Planning 要求の発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+Workfront Planning 要求の発行の詳細は、[ レコードを作成するためのAdobe Workfront Planning 要求の発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 * リクエストフォーム、リクエストフォームで作成されたレコードまたはリクエストの詳細ページに表示されるフィールドには、以下のような制限があります。
 
@@ -118,7 +118,7 @@ Workfront Planning 要求の発行の詳細は、[&#x200B; レコードを作成
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページ ヘッダーのレコードの種類名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックし、既にフォームがあり、追加のフォームを作成する場合は **リクエストフォームを作成** または **リクエストフォームを管理** をクリックします。
+1. ページ ヘッダーのレコードの種類名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、既にフォームがあり、追加のフォームを作成する場合は **リクエストフォームを作成** または **リクエストフォームを管理** をクリックします。
 1. （条件付き）別のフォームを追加する場合は、「**新規リクエストフォーム**」をクリックします。
 
    「リクエストフォームを作成」ボックスが開きます。
@@ -131,7 +131,7 @@ Workfront Planning 要求の発行の詳細は、[&#x200B; レコードを作成
 1. 「**作成**」をクリックします。
 
    選択したレコードタイプのリクエストフォームが「フォーム」タブで開きます。
-1. [&#x200B; フォームの設定 &#x200B;](#configure-the-form) を続行します。
+1. [ リクエストフォームの詳細を設定 ](#set-up-details-for-the-request-form) の手順を続行します。
 
 <!--
 
@@ -166,12 +166,16 @@ Workfront Planning 要求の発行の詳細は、[&#x200B; レコードを作成
 フォームの詳細はタブに分かれています。
 
 * 「**フォーム**」タブを使用すると、フィールドとコンテンツ要素をフォームに追加できます
-* 「**設定**」タブでは、フォームの承認プロセスを設定したり、リクエスト完了オプションを設定したりできます &lt;。
+* 「**設定**」タブでは、フォームの承認プロセスを設定したり、リクエスト完了オプションを設定したりできます。
+
+  >[!NOTE]
+  >
+  ><span class="preview"> プレビュー環境では、「設定」タブが「設定」タブに置き換わります。</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### フォームの詳細の設定
 
-1. [&#x200B; リクエストフォームの作成の開始 &#x200B;](#begin-creating-a-request-form) の節で説明されているように、リクエストフォームの作成または編集を開始します。
+1. [ リクエストフォームの作成の開始 ](#begin-creating-a-request-form) の節で説明されているように、リクエストフォームの作成または編集を開始します。
 
    または
 
@@ -179,7 +183,7 @@ Workfront Planning 要求の発行の詳細は、[&#x200B; レコードを作成
 
    選択したレコードタイプのリクエストフォームが「フォーム」タブで開きます。
 
-   ![&#x200B; キャンペーンリクエストフォーム編集モード &#x200B;](assets/campaigns-request-form-edit-mode.png)
+   ![ キャンペーンリクエストフォーム編集モード ](assets/campaigns-request-form-edit-mode.png)
 
    リクエストフォームには、デフォルトで次の情報が含まれています。
 
@@ -223,23 +227,31 @@ Workfront Planning 要求の発行の詳細は、[&#x200B; レコードを作成
    * **説明テキスト**
    * **セクション区切り**
 
-   カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+   カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 1. （オプション） **プレビュー** をクリックして、他のユーザーが新しいレコードを送信する際にフォームを使用する際のフォームの表示方法を表示します。
-1. フォームの詳細を設定する場合は、[&#x200B; 設定の詳細を設定 &#x200B;](#set-up-configuration-details) を続行するか、「[&#x200B; リクエストフォームの作成を完了 &#x200B;](#complete-request-form-creation)」に移動します。
+1. 次のいずれかの操作を続けます。
+
+   * [ 実稼動環境でフォームの詳細を設定する場合は、](#set-up-configuration-details) 設定の詳細を設定します
+   * <span class="preview">[ 設定を指定 ](#configure-settings) 実稼動環境でフォームに関する詳細を設定する場合 </span>
+   * これ以上の設定を行わない場合は、[ リクエストフォームの作成を完了 ](#complete-request-form-creation) します。
 
 #### 設定の詳細
 
+>[!NOTE]
+>
+>このタブは、実稼動環境でのみ使用できます。
+
 「設定」タブでは、承認プロセスを設定し、このフォームから作成されたリクエストが完了としてマークされるタイミングを設定できます。
 
-1. [&#x200B; リクエストフォームの作成の開始 &#x200B;](#begin-creating-a-request-form) の節で説明されているように、リクエストフォームの作成または編集を開始します。
+1. [ リクエストフォームの作成の開始 ](#begin-creating-a-request-form) の節で説明されているように、リクエストフォームの作成または編集を開始します。
 
    選択したレコードタイプのリクエストフォームが「フォーム」タブで開きます。
-1. （オプション） [&#x200B; フォーム詳細の設定 &#x200B;](#set-up-form-details) の説明に従って、フォーム詳細を設定します。
+1. （オプション） [ フォーム詳細の設定 ](#set-up-form-details) の説明に従って、フォーム詳細を設定します。
 
 1. （オプション）承認者を追加する場合は、「**設定**」タブをクリックし、「**承認者** フィールドに少なくとも 1 人のユーザーまたはチームを追加して、このレコードフォームの新しいリクエストを承認します。
 
-   ![&#x200B; 「設定」タブ &#x200B;](assets/configuration-tab.png)
+   ![ 「設定」タブ ](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -248,13 +260,89 @@ Workfront Planning 要求の発行の詳細は、[&#x200B; レコードを作成
    * 複数の承認者を追加し、「必要な決定が 1 つのみ」オプションが有効になっていない場合、リクエストが承認または却下される前に、すべての承認者が決定を行う必要があります。
    * チームが承認者として設定されている場合、チームからの決定は 1 つだけ必要です。
 
-   リクエストフォームへの承認の追加について詳しくは、「[&#x200B; リクエストフォームへの承認の追加 &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md)」を参照してください。
+   リクエストフォームへの承認の追加について詳しくは、「[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md)」を参照してください。
 
 1. （条件付き）承認者の 1 人が承認した後にレコードを作成する場合は、「**決定は 1 つだけ必要**」チェックボックスをオンにします。
 
 1. このフォームから作成された要求を、要求されたオブジェクトの作成時に完了とマークするか、または要求されたオブジェクトの完了時にマークするかを選択します。
 1. （条件付き）リクエストされたオブジェクトが完了したときにリクエストが完了とマークされるようにを選択した場合は、オブジェクトが完了したときに示されるフィールドと値を選択します。 例えば、作成されたオブジェクトのステータスが「完了」に設定されている場合に、「ステータス」フィールドと値「完了」を選択してリクエストを完了できます。
-1. &#x200B;<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[&#x200B; リクエストフォームの作成を完了 &#x200B;](#complete-request-form-creation) に進みます。
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[ リクエストフォームの作成を完了 ](#complete-request-form-creation) に進みます。
+
+<div class="preview">
+
+### 設定を行う
+
+>[!NOTE]
+>
+>このタブは、プレビュー環境でのみ使用できます。
+
+「設定」タブでは、承認ルールを設定し、このフォームから作成されたリクエストが完了としてマークされるタイミングを設定できます。
+
+#### 承認ルールの設定
+
+承認ルールは、送信されたリクエストのフィールド値に基づいて承認プロセスを定義します。
+
+例えば、リクエストフォームに「キャンペーンタイプ」フィールドがある場合、フィールドの値が「デジタル」の場合は 1 人のユーザーにリクエストを送信し、値が「印刷」の場合は別のユーザーにリクエストを送信するルールを作成できます。
+
+承認ルールを追加する際は、次の点を考慮してください。
+
+* ルールは順序で優先度が付けられます。 最初のルール条件が満たされると、リストの下部にあるルールの条件も満たされた場合でも、そのルールが適用されます。
+* 条件が満たされない場合は、デフォルトのルールが適用されます。
+* 承認ルールには、1 人または複数の承認者を追加できます。
+* 少なくとも 1 人の承認者が要求を拒否した場合、要求は拒否され、レコードは作成されません。 リクエストは、Workfrontのリクエスト エリアに残ります。
+* 複数の承認者を追加し、「必要な決定が 1 つのみ」オプションが有効になっていない場合、リクエストが承認または却下される前に、すべての承認者が決定を行う必要があります。
+* チームが承認者として設定されている場合、チームからの決定は 1 つだけ必要です。
+
+承認の追加について詳しくは、[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
+
+リクエストフォームの承認ルールを設定するには：
+
+1. [ リクエストフォームの作成の開始 ](#begin-creating-a-request-form) の節で説明されているように、リクエストフォームの作成または編集を開始します。
+
+   選択したレコードタイプのリクエストフォームが「フォーム」タブで開きます。
+1. （オプション） [ フォーム詳細の設定 ](#set-up-form-details) の説明に従って、フォーム詳細を設定します。
+
+1. 承認ルールの設定を開始するには、左側のナビゲーションで「承認 ![ 承認アイコン ](assets/approvals-icon-on-form.png) をクリックします。
+
+1. （オプション）デフォルトの承認プロセスを設定する場合、「デフォルトの承認ルール」領域の「**承認者**」フィールドに少なくとも 1 人のユーザーまたはチームを追加し、デフォルト承認者のいずれかが承認した後にレコードを作成するには、「**決定は 1 つだけ必要**」チェックボックスをクリックします。
+
+   ![ デフォルトの承認ルール領域 ](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. （オプション）追加の承認ルールごとに、次の手順を実行します。
+
+   1. 「**承認ルールを追加**」をクリックします
+   1. プレースホルダータイトル「名称未設定の承認ルール」をクリックし、承認ルールの名前を入力します。
+   1. **フィールドを選択** をクリックし、ルールをアクティブにするフィールドを選択します。
+   1. ルールの演算子を選択します。 演算子は、フィールドのタイプによって異なります。
+   1. 選択した演算子に値が必要な場合は、プラスアイコンをクリックして 1 つ以上の値を追加します。
+   1. （オプション） AND または OR を使用して条件をさらに追加するには、「条件を追加」をクリックし、追加の条件を設定します。
+   1. 承認ルールの「アクション」領域にある「**承認者**」フィールドに、条件が満たされたときに承認者に設定するユーザーまたはチームを少なくとも 1 つ追加します。
+   1. （条件付き）承認者の 1 人が承認した後にレコードを作成する場合は、「**決定は 1 つだけ必要**」チェックボックスをオンにします。
+
+1. （オプション）ルーティングルールを並べ替えるには、ルールの左側のドラッグハンドルをクリックして目的の場所までルールをドラッグします。
+
+   デフォルトのルールを並べ替えることはできません。
+
+1. （任意）ルーティングルールを削除するには、ルールの右側にある **X** をクリックします。
+1. 「**保存**」をクリックして、承認ルールを保存します。
+1. 続行 [ リクエスト完了オプションを設定 ](#set-request-completion-options)
+
+#### リクエスト完了オプションの設定
+
+完了オプションを使用すると、リクエストされたオブジェクトが作成されたときにリクエストを完了とマークするか、作成されたオブジェクトが完了したときにリクエストを完了とマークするかを設定できます。 指定した条件に基づいて、オブジェクトが完了するタイミングを定義します。
+
+1. [ リクエストフォームの作成の開始 ](#begin-creating-a-request-form) の節で説明されているように、リクエストフォームの作成または編集を開始します。
+
+   選択したレコードタイプのリクエストフォームが「フォーム」タブで開きます。
+1. （オプション） [ フォーム詳細の設定 ](#set-up-form-details) の説明に従って、フォーム詳細を設定します。
+
+1. このフォームから作成された要求を、要求されたオブジェクトの作成時に完了とマークするか、または要求されたオブジェクトの完了時にマークするかを選択します。
+1. （条件付き）リクエストされたオブジェクトが完了したときにリクエストが完了とマークされるようにを選択した場合は、オブジェクトが完了したときに示されるフィールドと値を選択します。 例えば、作成されたオブジェクトのステータスが「完了」に設定されている場合に、「ステータス」フィールドと値「完了」を選択してリクエストを完了できます。
+1. <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[ リクエストフォームの作成を完了 ](#complete-request-form-creation) に進みます。
+
+</div>
 
 <!--
  
@@ -287,8 +375,8 @@ For information on creating automations in other areas of Workfront Planning, se
 
 ### 完全なリクエストフォームの作成
 
-1. [&#x200B; リクエストフォームの作成の開始 &#x200B;](#begin-creating-a-request-form) および [&#x200B; リクエストフォームの詳細の設定 &#x200B;](#set-up-details-for-the-request-form) の説明に従って、フォームを作成および設定します。
-1. （オプション）ヘッダーのフォーム名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**編集**」をクリックしてフォーム名を更新します。
+1. [ リクエストフォームの作成の開始 ](#begin-creating-a-request-form) および [ リクエストフォームの詳細の設定 ](#set-up-details-for-the-request-form) の説明に従って、フォームを作成および設定します。
+1. （オプション）ヘッダーのフォーム名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、「**編集**」をクリックしてフォーム名を更新します。
 
 1. 「**公開**」をクリックしてフォームを公開し、フォームの一意のリンクを取得します。
 
@@ -301,7 +389,7 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. **共有** をクリックして、フォームを他のユーザーと共有します。
 
-   リクエストフォームの共有について詳しくは、この記事の [&#x200B; リクエストフォームの共有 &#x200B;](#share-a-request-form) の節を参照してください
+   リクエストフォームの共有について詳しくは、この記事の [ リクエストフォームの共有 ](#share-a-request-form) の節を参照してください
 1. ヘッダーでフォーム名の左側にある左向き矢印をクリックして、フォームを閉じます。
 
    **リクエストフォーム** テーブル表示が開き、フォームが追加されます。
@@ -317,11 +405,11 @@ For information on creating automations in other areas of Workfront Planning, se
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。
+1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。
 
    レコードタイプに関連付けられたすべてのリクエストフォームがテーブル表示に表示されます。
 
-1. （オプション）テーブル表示でリクエストフォームの名前の上にマウスポインターを置き、フォーム名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックして、次のいずれかをクリックします。
+1. （オプション）テーブル表示でリクエストフォームの名前の上にマウスポインターを置き、フォーム名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、次のいずれかをクリックします。
 
    * **フォームを編集**：フォームの情報をさらに編集するには、これをクリックします。
    * **非公開**：このボタンをクリックしてフォームを非公開にすると、Workfrontのリクエスト領域から削除されます。
@@ -329,33 +417,33 @@ For information on creating automations in other areas of Workfront Planning, se
    * **リンクをコピー**：フォームを開かずにリクエストフォームのリンクをすばやくコピーする場合は、これをクリックします。
    * **削除**：フォームを削除するには、これをクリックします。 フォームを使用して追加されたリクエストとレコードはすべて削除されません。 フォームを復元できません。
 
-   ![&#x200B; リクエストフォームリストからのリクエストフォームの「詳細」メニュー &#x200B;](assets/more-menu-on-request-form-from-request-forms-list.png)
+   ![ リクエストフォームリストからのリクエストフォームの「詳細」メニュー ](assets/more-menu-on-request-form-from-request-forms-list.png)
 
 1. ヘッダーにある **リクエストフォーム** の左側の左向き矢印をクリックして、リクエストフォームテーブルを閉じます。
 
    レコードタイプのページが開きます。
-1. （オプションおよび条件付き）ヘッダーのレコードタイプ名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックし、次のいずれかの操作を行います。
+1. （オプションおよび条件付き）ヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、次のいずれかの操作を行います。
 
    1. 「**リクエストフォームを更新**」をクリックしてリクエストフォームに変更を加え、リクエストフォームをクリックして開いて編集します。
    1. **リクエストフォームにリンクをコピー** をクリックして、フォームへのリンクを他のユーザーと共有します。
 
-1. （オプション）Workfrontの **リクエスト** エリアに移動して、リクエストを送信する共有フォームを見つけます。 詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+1. （オプション）Workfrontの **リクエスト** エリアに移動して、リクエストを送信する共有フォームを見つけます。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 ## リクエストフォームの共有
 
-1. この記事の [&#x200B; レコードタイプのリクエストフォームを作成する &#x200B;](#create-a-request-form-for-a-record-type) の節の説明に従ってリクエストフォームを作成します。
-1. レコードタイプのページでリクエストフォームの名前の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックします。
+1. この記事の [ レコードタイプのリクエストフォームを作成する ](#create-a-request-form-for-a-record-type) の節の説明に従ってリクエストフォームを作成します。
+1. レコードタイプのページでリクエストフォームの名前の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックします。
 1. **共有** をクリックして、フォームを他のユーザーと共有します。
 
 1. フォームを内部的に共有するには、「**内部共有**」タブを選択し、「**このフォームを送信するためのアクセス権を付与**」フィールドでユーザー、チーム、担当業務、グループまたは会社の名前を検索して、リストに表示されたら選択します。 **送信** 権限は、各エンティティに対してデフォルトで選択されています。
 
-   ![&#x200B; リクエストフォームの共有ボックス &#x200B;](assets/share-box-for-request-form.png)
+   ![ リクエストフォームの共有ボックス ](assets/share-box-for-request-form.png)
 
 1. （オプション）エンティティ名の後のドロップダウンメニューをクリックして「**削除**」をクリックすると、リストから削除されてフォームの共有が停止されます。
 
    >[!NOTE]
    >
-   >チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+   >チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 
 1. 「**このフォームを通じてリクエストを送信できるユーザー**」セクションで、このフォームにアクセスできるユーザーのタイプを次のオプションから選択します。
 
@@ -365,7 +453,7 @@ For information on creating automations in other areas of Workfront Planning, se
 1. （オプション）「**リンクをコピー**」をクリックして、アクセス権を持つユーザーとフォームへのリンクを共有します。 リンクがクリップボードにコピーされます。
 1. フォームを公開で共有するには、「**公開共有**」タブを選択し、「**公開リンクを作成** 設定を有効にします。
 
-   ![&#x200B; 請求書類の公開 &#x200B;](assets/share-request-form-publicly-tab.png)
+   ![ 請求書類の公開 ](assets/share-request-form-publicly-tab.png)
 
    >[!WARNING]
    >
@@ -393,6 +481,6 @@ For information on creating automations in other areas of Workfront Planning, se
 
    フォーム共有オプションが保存され、リンクがクリップボードにコピーされます。 他のユーザーと共有できるようになりました。
 
-   リクエストフォームへのリンクを使用してレコードを作成する方法については、「[Adobe Workfront Planning リクエストの送信 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md)」を参照してください。
+   リクエストフォームへのリンクを使用してレコードを作成する方法については、「[Adobe Workfront Planning リクエストの送信 ](/help/quicksilver/planning/requests/submit-requests.md)」を参照してください。
 
 1. **フォーム** タブの右下隅にある「**保存**」をクリックしてフォームを保存します。
