@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 81%
+source-wordcount: '2424'
+ht-degree: 76%
 
 ---
 
@@ -212,7 +212,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
+1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![ 人物アイコン ](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
 
    詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
@@ -223,6 +223,10 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. タスクに担当者を追加した後、Enter キーを押すか、ページ上の任意の場所をクリックして、「自動保存」を選択した場合に変更を保存します。それ以外の場合は、「**保存**」をクリックします。
 
 ## リストから複数のタスクを一括で割り当て
+
+複数のタスクをリストから一括して割り当てる方法は、選択する環境によって異なります。
+
+### 実稼動環境でのリストからの複数のタスクの一括割り当て
 
 1. 一括で割り当てるタスクのリストに移動します。
 1. （条件付き）「**自動保存**」オプションは、プロジェクトのタスクのリストにある場合に選択します。
@@ -238,14 +242,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. 新しいエクスペリエンスを使用して、引き続きタスクを割り当てます。
 
-   詳しくは、この記事の [&#x200B; 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる &#x200B;](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) を参照してください。
+   詳しくは、この記事の [ 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる ](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) を参照してください。
 
 1. （オプション） **タスクを編集** ボックスの下部にある「**古いエクスペリエンスに戻る** をクリックして、古いエクスペリエンスを開きます。
-
-   >[!TIP]
-   >
-   >実稼動環境でのタスクの割り当ては、古いエクスペリエンスでのみ使用できます。
-
 
 1. （条件付き）古いエクスペリエンスを使用し、「**割り当て**」領域で **担当者** ボックスを選択し、すべてのタスクに割り当てるユーザー、担当業務、またはチームの名前の入力を開始します。
 
@@ -315,8 +314,48 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. （任意）既存の担当者をすべてのタスクから削除する場合は、「**ユーザー、役割またはチームを検索**」フィールドで、名前の横にある **x** をクリックします。
 
 1. 「**保存**」をクリックします。
-1. （オプションおよび条件付き）タスクのリストに **割り当て先** または **割り当て** フィールドが表示されている場合は、タスクのこれらの列の 1 つ内をクリックし、担当者の名前の横にある **X アイコン** をクリックすると、タスクから削除できます
+1. （オプションおよび条件付き）タスクのリストに **割り当て先** または **割り当て** フィールドが表示されたら、タスクのこれらの列の 1 つ内をクリックして、担当者の名前の横にある **X アイコン** をクリックすると、タスクから削除できます。
 
+<div class="preview">
+
+### プレビュー環境でのリストからの複数のタスクの一括割り当て
+
+1. 一括で割り当てるタスクのリストに移動します。
+1. （条件付き）「**自動保存**」オプションは、プロジェクトのタスクのリストにある場合に選択します。
+
+   >[!IMPORTANT]
+   >
+   >プロジェクトにタスクを手動で保存する場合は、タスクを一括で編集できません。
+
+1. タスクリストで複数のタスクを選択します。
+1. 「**編集**」をクリックします。
+
+   **タスクを編集** ボックスが開きます。
+
+1. **割り当て** エリアで、表示された **ユーザー、役割、チームを検索** フィールドにユーザー、チーム、または役割の名前を入力し始め、リストに表示されたらクリックします
+
+   >[!IMPORTANT]
+   >
+   >タスクが既に割り当てられている場合、ここに指定したリソースは、タスク上の既存のリソースを置き換える代わりに、タスクに追加されます。
+
+1. 選択したタスクに対して、次のフィールドを指定します。
+
+   * 割り当て名にポインタを合わせて、「**タスクを作成**」をクリックし、どの担当者がプライマリのオーナーであるかを示します。
+   * **期間タイプ**
+
+     タスクの期間のタイプについて詳しくは、[タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
+
+   * **期間**
+   * **予定時間数**
+
+     （詳しくは、[タスクの編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください）
+
+1. （任意）既存の担当者をすべてのタスクから削除する場合は、「**ユーザー、役割またはチームを検索**」フィールドで、名前の横にある **x** をクリックします。
+
+1. 「**保存**」をクリックします。
+1. （オプションおよび条件付き）タスクのリストに **割り当て先** または **割り当て** フィールドが表示されたら、タスクのこれらの列の 1 つ内をクリックして、担当者の名前の横にある **X アイコン** をクリックすると、タスクから削除できます。
+
+</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
