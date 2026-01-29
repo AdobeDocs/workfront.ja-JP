@@ -59,7 +59,7 @@ Workfront統合エクスペリエンス上に組織があるかどうかを判�
 
 ### 移行を容易にするために必要な作業
 
-既存のお客様には、移行のスケジュールするためにご連絡させていただきます。移行チームのサポート担当者が、お客様にプロセスを順を追って説明し、[!DNL Admin Console] の設定についてアドバイスを行い、移行をできる限りシンプルで手間のかからない方法で行うために必要なドキュメントへのリンクを提供します。 詳しくは、[[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq) を参照してください。
+既存のお客様には、移行のスケジュールするためにご連絡させていただきます。移行チームのサポート担当者が、お客様にプロセスを順を追って説明し、[!DNL Admin Console] の設定についてアドバイスを行い、移行をできる限りシンプルで手間のかからない方法で行うために必要なドキュメントへのリンクを提供します。 詳しくは、[[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/workfront/faq) を参照してください。
 
 ### 既に Federated ID に対してこれを有効にしている会社の [!DNL Adobe Admin Console] ールは、[!DNL Workfront] SSO の設定とは異なりますか。
 
