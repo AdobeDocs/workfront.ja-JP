@@ -19,7 +19,7 @@ ht-degree: 3%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
 ## レコードの詳細プレビューボックスに表示されるフィールドを設定する
 
@@ -33,7 +33,7 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 
 この新しい設定では、レコードの詳細プレビューエリアから、テーブル表示で非表示になっているフィールドを含めるか除外するかを選択することができます。
 
-詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
+詳しくは、[&#x200B; レコードページレイアウトの管理 &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
 
 ## 元の要求の新しい Planning 接続フィールド
 
@@ -63,7 +63,7 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 
 承認ルールはリクエストフォームで作成されます。
 
-詳細および手順については、「Adobe Workfront Planning の要求フォームに承認を追加する [」の ](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form) 要求フォームに承認ルールを追加する」を参照してください。
+詳細および手順については、「Adobe Workfront Planning の要求フォームに承認を追加する [」の &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form) 要求フォームに承認ルールを追加する」を参照してください。
 
 ## Workfront Planning のユーザー先行入力フィールドにメールを表示する
 
@@ -94,6 +94,6 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 
 2 つの Planning レコードタイプを接続する際、ルックアップフィールドに人物フィールドを追加できるようになりました。
 
-詳しくは、[ レコードタイプの接続 ](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
+詳しくは、[&#x200B; レコードタイプの接続 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
 
 

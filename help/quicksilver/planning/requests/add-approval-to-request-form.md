@@ -29,9 +29,9 @@ Adobe Workfront Planning のリクエスト・フォームに承認プロセス�
 
 この記事では、ワークスペースマネージャーがレコードタイプに関連付けられたリクエストフォームに承認を追加する方法について説明します。
 
-Adobe Workfront Planning でのリクエストフォームの作成について詳しくは、[Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+Adobe Workfront Planning でのリクエストフォームの作成について詳しくは、[Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
-レコードを作成するレコード・タイプにリクエストを発行する方法は、「レコードを作成するためのAdobe Workfront Planning リクエストの発行 [ を参照してください ](/help/quicksilver/planning/requests/submit-requests.md)。
+レコードを作成するレコード・タイプにリクエストを発行する方法は、「レコードを作成するためのAdobe Workfront Planning リクエストの発行 [&#x200B; を参照してください &#x200B;](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## アクセス要件
 
@@ -67,7 +67,7 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -82,12 +82,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## 実稼動環境でのリクエストフォームへの承認の追加
 
-1. [Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) の説明に従って、レコードタイプのリクエストフォームの作成を開始します。
+1. [Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) の説明に従って、レコードタイプのリクエストフォームの作成を開始します。
 1. **設定** をクリックします。
 
    **設定** 領域が表示されます。
 
-   ![ 「設定」タブ ](assets/configuration-tab.png)
+   ![&#x200B; 「設定」タブ &#x200B;](assets/configuration-tab.png)
 1. **承認者** フィールドに、承認者として設定するユーザーまたはチームの名前の入力を開始し、リストに表示されたら選択します。
 1. （オプションおよび条件付き）複数の承認者を設定し、決定を行う承認者が 1 人だけの場合は、「**1 つの決定のみが必要**」オプションを有効にします。
 
@@ -119,7 +119,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >   組織のWorkfront インスタンスは、ユーザーがメールおよびアプリ内通知を受信できるように、Adobe統合エクスペリエンスにオンボーディングされている必要があります。
 
 
-   リクエストの承認について詳しくは、[ リクエストの承認 ](/help/quicksilver/planning/requests/approve-request.md) を参照してください。
+   リクエストの承認について詳しくは、[&#x200B; リクエストの承認 &#x200B;](/help/quicksilver/planning/requests/approve-request.md) を参照してください。
 
 <div class="preview">
 
@@ -142,16 +142,16 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 リクエストフォームの承認ルールを設定するには：
 
-1. [Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) の説明に従って、レコードタイプのリクエストフォームの作成を開始します。
+1. [Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) の説明に従って、レコードタイプのリクエストフォームの作成を開始します。
 1. 「**設定**」をクリックします。
 
    「設定」タブが表示されます。
 
-1. 承認ルールの設定を開始するには、左側のパネルで **承認** ![ 承認アイコン ](assets/approvals-icon-on-form.png) をクリックします。
+1. 承認ルールの設定を開始するには、左側のパネルで **承認** ![&#x200B; 承認アイコン &#x200B;](assets/approvals-icon-on-form.png) をクリックします。
 
 1. （オプション）デフォルトの承認プロセスを設定する場合は、「**デフォルトの承認ルール**」領域の「**承認者**」フィールドに少なくとも 1 人のユーザーまたはチームを追加し、デフォルト承認者のいずれかが承認した後にレコードを作成するには、「**決定は 1 つだけ必要**」チェックボックスをクリックします。
 
-   ![ デフォルトの承認ルール領域 ](assets/default-approvers.png)
+   ![&#x200B; デフォルトの承認ルール領域 &#x200B;](assets/default-approvers.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 

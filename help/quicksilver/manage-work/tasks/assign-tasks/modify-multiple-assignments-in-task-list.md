@@ -28,7 +28,7 @@ this article is similar and updates on this one might need to be repeated here: 
 
 このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-詳しくは、[2026 年第 2 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md) を参照してください。
+詳しくは、[2026 年第 2 四半期リリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md) を参照してください。
 
 </div>
 
@@ -197,7 +197,7 @@ When assigning users to work, their availability according to their schedules af
 
          >[!NOTE]
          >
-         >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[ タスク期間と期間タイプの概要 ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
+         >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[&#x200B; タスク期間と期間タイプの概要 &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
          >
          >
          >このフィールドが空白の場合、値はタスク間で異なりますが、変更は可能です。
@@ -248,7 +248,7 @@ When assigning users to work, their availability according to their schedules af
 
       >[!NOTE]
       >
-      >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[ タスク期間と期間タイプの概要 ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
+      >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[&#x200B; タスク期間と期間タイプの概要 &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
       >
       >
       >このフィールドが空白の場合、値はタスク間で異なりますが、変更は可能です。
