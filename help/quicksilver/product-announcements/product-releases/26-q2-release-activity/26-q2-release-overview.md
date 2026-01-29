@@ -4,10 +4,10 @@ description: このページでは、2026年第 2 四半期リリースに含ま
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e12cf9e34adda0a2fb9e8026f2c94cdfc0b41fd
+source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 35%
+source-wordcount: '813'
+ht-degree: 33%
 
 ---
 
@@ -29,7 +29,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
->| <ul><li>26.2 （2026 年 2 月 12 日（PT））</li><li>26.3 （2026 年 3 月 12 日（PT））</li><li>26.4 （2026 年 4 月 15 日（Pt））</li></ul> | <ul><li>26.1 （2026 年 4 月 16 日）</li></ul> |
+>| <ul><li>26.2（2026年2月12日（PT））</li><li>26.3（2026年3月12日（PT））</li><li>26.4 （2026 年 4 月 15 日（Pt））</li></ul> | <ul><li>26.1 （2026 年 4 月 16 日）</li></ul> |
 >
 >各四半期の最終リリース（今四半期 26.4）では、迅速リリーススケジュールのユーザーに対して、1 日早い（2026 年 4 月 15 日（PT））リリースが届きます。
 >
@@ -38,6 +38,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront の機能強化
 
 * [管理者機能の強化](#administrator-enhancements)
+* [プロジェクトの強化](#project-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### 管理者機能の強化
@@ -52,6 +53,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>プレビュー</strong></td>
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> リッチテキストフィールドタイプがカスタムフォームで使用できるようになりました </a><p>カスタムフォームの新しい <b> リッチテキスト </b> フィールドタイプは堅牢なテキストエディターで、太字、斜体、下線、箇条書き、番号付け、ハイパーリンク、ブロック引用の従来のオプションに加えて、上付き文字、下付き文字、見出し、表などの書式設定オプションが用意されています。 文字数の制限は 15,000 のままです。</p>
+        </td>
+        <td><p>2026年1月29日（PT）</p></td>
+        <td><p>2026年2月12日（PT）</p></td>
+        <td><p>2026年4月16日（PT）</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfrontのメール通知用の新しい IP アドレス </a><p></p>
@@ -81,6 +90,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### プロジェクトの強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}"> タスクを単一または一括割り当てした場合のエクスペリエンス </a> 更新されました<p>[!BADGE Off schedule]{type=Neutral}</p><p> 単一のタスクの編集時または一括編集時に、「タスクを編集」ボックスの「割り当て」セクションを更新しました。 </p>
+        </td>
+        <td><p>2026年1月26日（PT）</p></td>
+        <td><p>2026 年 2 月 5 日より</p></td>
+        <td><p>2026 年 2 月 5 日より</p></td>
+    </tr>
+            </tbody>
+        </table>
+
 ### その他の機能強化
 
 <table>
@@ -101,7 +133,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>2025年12月11日（PT）</p></td>
         <td><p>2026年2月11日（PT）</p></td>
         <td><p>2026年2月11日（PT）</p></td>
-    <tr>
+    </tr>
             </tbody>
         </table>
 
@@ -124,7 +156,7 @@ Workfront Fusion の新機能は、標準のリリーススケジュール以外
 
 ### Workfront計画の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 2 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md) を参照してください。
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 2 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md) を参照してください。
 
 このリリースの現時点では、次の更新はありません。
 
@@ -169,10 +201,10 @@ API バージョンの詳細については、[API のバージョン管理と�
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 
-### Workfront のメンテナンスアップデート
+### Workfront のメンテナンス更新
 
 2025年第 2 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)を参照してください。
 
