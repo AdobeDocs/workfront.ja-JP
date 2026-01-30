@@ -6,9 +6,9 @@ description: イシューのステータスを更新して、イシューの発�
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '640'
 ht-degree: 97%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 97%
 Workfront のイシューのデフォルトのステータスは次のとおりです。
 
 * 新規
-* 処理中
+* 進行状況
 * フィードバック待ち
 * 保留中
 * 解決されない
@@ -122,13 +122,13 @@ Workfront の次のエリアでイシューのステータスを更新できま�
 
    イシューのヘッダーのバブル内をクリックして、割合を入力します。
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![ ヘッダーのタスク完了率を更新 ](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 1. （オプション）更新に関する追加情報を指定するには、次のいずれかの操作を行います。
 
    * 更新に関するメモを追加するには、「**更新**」セクションに移動し、「**新しいコメント**」をクリックして、メモを入力します。
 
-     ![](assets/nwe-issue-update-stream-message-box-350x125.png)
+     ![ 問題：更新ストリームメッセージボックス ](assets/nwe-issue-update-stream-message-box-350x125.png)
 
    * 特定のユーザーに更新について通知するには、コメントを入力した際に表示される「**人物またはチームにタグ付け**」フィールドにユーザーの名前を入力します。詳しくは、[更新時の他のユーザーへのタグ付け](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
    * イシューのコミット日を更新するには、「**イシューの詳細**」をクリックし、「**コミット日**」フィールドを編集します。詳しくは、[イシューを編集](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)を参照してください。
@@ -147,7 +147,7 @@ When you are updating an issue status, you can also add an explanation about the
 1. Go to an issue that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the issue header and select a new status.
 
-   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
+   ![Issue status expanded in header](assets/nwe-issue-status-expanded-in-header-350x370.png)
 
 1. To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue.
 
@@ -155,7 +155,7 @@ When you are updating an issue status, you can also add an explanation about the
 
    Click inside the bubble in the header of the issue to enter a percentage.
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![Update task percent in header](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 -->
 
@@ -185,7 +185,7 @@ Workfront は、以下の表に示すアクションが発生すると、イシ�
   <tr> 
    <td>イシューの完了率を 100％から低い数に更新</td> 
    <td>クローズ </td> 
-   <td>処理中</td> 
+   <td>進行状況</td> 
   </tr> 
   <tr> 
    <td>イシューに関連付けられた解決オブジェクトのステータスを更新</td> 

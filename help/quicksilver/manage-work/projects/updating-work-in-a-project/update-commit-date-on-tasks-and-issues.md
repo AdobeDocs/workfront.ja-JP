@@ -6,10 +6,10 @@ description: 割り当てられたタスクやイシューのコミット日は�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 51%
+source-wordcount: '599'
+ht-degree: 50%
 
 ---
 
@@ -133,8 +133,8 @@ Workfrontの次の領域で、タスクまたはイシューのコミット日�
 >
 >詳しくは、次の記事を参照してください。
 >
->* [&#x200B; 概要 &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [&#x200B; レイアウトテンプレートを使用して概要パネルをカスタマイズする &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+>* [ 概要 ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [ レイアウトテンプレートを使用して概要パネルをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
 
 1. 自分が&#x200B;**所有者**&#x200B;として割り当てられているタスクまたはイシューに移動します。
@@ -143,13 +143,13 @@ Workfrontの次の領域で、タスクまたはイシューのコミット日�
 
 1. （条件付きおよびオプション）Workfront管理者またはグループ管理者がコミット日をタスクまたは問題ヘッダーに追加した場合は、ヘッダーの **コミット日** フィールドをクリックし、カレンダーから日付を選択します。 コミット日がヘッダーにない場合は、次の手順に進みます。
 
-   ![](assets/commit-date-task-header.png)
+   ![ タスクヘッダーのコミット日 ](assets/commit-date-task-header.png)
 
 1. 左側のパネルで「**タスクの詳細**」または「**イシューの詳細**」をクリックします。
 1. 「**概要**」をクリックして展開します。
 1. 「**コミット日**」フィールドを更新します。
 
-   ![](assets/task-commit-date-edit-highlighted-details-page.png)
+   ![ 詳細ページでハイライト表示されたタスクコミット日の編集 ](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. 「**変更を保存**」をクリックします。
 
@@ -159,15 +159,15 @@ Workfrontの次の領域で、タスクまたはイシューのコミット日�
 
      代わりに、コミット日と、タスクまたはイシューの見込み完了日が同じになります。
 
-     ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+     ![ 詳細で強調表示されているタスクの予定完了日 ](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * プロジェクト所有者には、タスクまたは問題の新しいコミット日を提案したことがWorkfrontのアプリ内通知で通知されます。
    * 「更新」セクションでは、新しいコミット日が提案されたことがプロジェクト所有者に通知されます。この時点で、プロジェクト所有者はタスクまたは問題の予定完了日を提案したコミット日に一致するように更新できます。
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+     ![ 更新ストリームで、コミット日がプロジェクトのタイムラインに影響を与えるプロジェクト所有者の通知 ](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
 
-     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     <!--![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
      この変更によってトリガーされる通知と更新について詳しくは、[コミット日の概要](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)の記事で「コミット日の変更でトリガーされる通知と更新」の節を参照してください。
 

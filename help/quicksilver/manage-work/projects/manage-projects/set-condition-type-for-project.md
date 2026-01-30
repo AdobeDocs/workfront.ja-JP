@@ -6,10 +6,10 @@ description: プロジェクトマネージャーは、プロジェクトの状�
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 68%
+source-wordcount: '304'
+ht-degree: 72%
 
 ---
 
@@ -88,10 +88,10 @@ ht-degree: 68%
 1. 状況タイプを更新するプロジェクトに移動します。
 1. 次のいずれかの操作を行います。
 
-   * プロジェクト名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) をクリックし、**編集** をクリックします。
+   * プロジェクト名の右側にある **その他** メニュー ![ その他メニュー ](assets/qs-more-menu.png) をクリックし、**編集** をクリックします。
    * 左側のパネルにある「**プロジェクト詳細**」をクリックします。
 
-   ![](assets/update-condition-type-nwe-350x108.png)
+   ![ 条件タイプを更新 ](assets/update-condition-type-nwe-350x108.png)
 
 1. 「**状況タイプ**」フィールドで、次のいずれかを選択します。
 

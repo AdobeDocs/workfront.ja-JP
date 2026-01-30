@@ -6,10 +6,10 @@ description: タスクのステータスを更新すると、タスクの場所�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 66%
+source-wordcount: '635'
+ht-degree: 68%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 66%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p>
+   <p>Work またはそれ以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -113,13 +113,13 @@ ht-degree: 66%
 
    **完了率** バブル内をダブルクリックして、新しいパーセンテージを手動で入力します。
 
-   ![](assets/percent-complete-status-widgets-task-header.png)
+   ![ 完了率ステータスウィジェットのタスクヘッダー ](assets/percent-complete-status-widgets-task-header.png)
 
 1. （オプション）更新に関する追加情報を指定するには、次のいずれかの操作を行います。
 
    * 更新に関するメモを追加するには、「**更新**」セクションに移動し、「**新しいコメント**」をクリックして、メモを入力します。
 
-     ![&#x200B; タスクへの更新の追加 &#x200B;](assets/add-update-to-task.png)
+     ![ タスクへの更新の追加 ](assets/add-update-to-task.png)
 
    * 特定のユーザーに更新について通知するには、コメントを入力した際に表示される「**人物またはチームにタグ付け**」フィールドにユーザーの名前を入力します。詳しくは、[更新時の他のユーザーへのタグ付け](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
    * タスクのコミット日を更新するには、「**タスクの詳細**」をクリックし、「**コミット日**」フィールドを編集します。 詳しくは、[タスクを編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
@@ -142,7 +142,7 @@ ht-degree: 66%
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
 
 ## タスクのステータスを自動的に更新
 
@@ -170,7 +170,7 @@ Workfront は、以下の表に示すアクションが発生すると、タス�
   <tr> 
    <td>タスクの完了率を 100％から低い数値に更新</td> 
    <td>完了</td> 
-   <td>処理中</td> 
+   <td>進行状況</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>「タスクを開始」ボタンをクリックして割り当てられたタスクの作業を開始</span> </td> 

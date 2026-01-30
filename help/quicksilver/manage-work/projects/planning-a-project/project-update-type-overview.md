@@ -7,10 +7,10 @@ description: プロジェクトの更新タイプは、Adobe Workfront がプロ
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 70%
+source-wordcount: '520'
+ht-degree: 69%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 70%
 
   タスクまたはプロジェクトを更新し、タイムラインの再計算をトリガーすると、利用可能なすべての日付が直ちに表示され、作業を続行できます。タスクが 100 を超えるプロジェクトでは、計算に時間がかかる日付は淡色表示になります。
 
-  ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+  ![ インライン編集時に日付がグレー表示になる ](assets/dates-dimmed-when-insline-editing-350x146.png)
 
   これは、再計算がまだ完了しておらず、日付が変更される可能性があることを示しています。
 
@@ -49,5 +49,5 @@ ht-degree: 70%
   >
   >計画中ステータスの場合、プロジェクトは毎晩自動的には再計算されません。変更時にのみ再計算されます。
 
-* **手動のみ：** プロジェクトタイムラインは、「プロジェクトタイムラインの再計算 **の「手動の再計算」の節で説明されているように、** タイムラインを再計算 [&#x200B; するオプションを選択した場合にのみ更新され &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) す。\
+* **手動のみ：** プロジェクトタイムラインは、「プロジェクトタイムラインの再計算 **の「手動の再計算」の節で説明されているように、** タイムラインを再計算 [ するオプションを選択した場合にのみ更新され ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) す。\
   プロジェクトに一度に多くの変更を加え、個々を変更した後ではなくすべての変更が行われた後でタイムラインの再計算を実行する場合は、このオプションを選択できます。

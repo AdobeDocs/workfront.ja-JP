@@ -8,19 +8,26 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 47%
+source-wordcount: '1483'
+ht-degree: 45%
 
 ---
 
 # 送信されたリクエストを表示する
 
-自分または他のユーザーが送信したリクエストや、自分が開始したが送信を完了していないリクエストを表示できます。 これらのリクエストは、Adobe Workfront の次のエリアで検索できます。
+自分または他のユーザーが送信したリクエストや、自分が開始したが送信を完了していないリクエストを表示できます。 未完了のリクエストはドラフトとして保存されます。
+
+送信されたリクエストは、Adobe Workfrontの次の領域で見つけることができます。
 
 * Workfrontの「リクエスト」エリア
 * ホームのマイリクエストウィジェット
+
+リクエスト エリアには、表示方法に応じて次のリクエストが表示されます。
+
+* 従来のエクスペリエンスを使用する場合、Workfrontは次のことをリクエストします
+* 新しいエクスペリエンスを使用する場合、Workfrontだけでなく、Planning リクエストも参照してください。
 
   >[!NOTE]
   >
@@ -104,19 +111,19 @@ ht-degree: 47%
 フィルター条件を追加すると、リクエストリストが自動的にフィルタリングされます。
 1. （任意）ビューを使用して、表示するリクエストにフォーカスします。
 
-   手順については、[&#x200B; リクエスト領域でのビューの作成または編集 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+   手順については、[ リクエスト領域でのビューの作成または編集 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 1. （オプション） ステータス列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。
 
-   * ドラフト：このリクエストはまだ送信されていません。
-   * レビュー保留中：（計画のみ）この要求には承認者が含まれ、どの承認者も要求をオープンしていません。
-   * レビュー中：（Planning のみ）この要求には承認者がいて、少なくとも 1 人の承認者が要求をオープンしましたが、決定は行われていません。
-   * 却下：（Planning のみ）このリクエストには承認者がいて、却下されています。
-   * 処理中：
-      * Workfront ワークフロー：リクエストが変換され、作業が進行中です。
-      * Workfront Planning: リクエスト完了は、特定の Planning フィールドにマップされ、フィールド値がまだ完了値と一致していません。
+   * **ドラフト**：このリクエストはまだ送信されていません。
+   * **レビュー保留中**: （計画のみ）この要求には承認者が含まれ、どの承認者も要求を開いていません。
+   * **レビュー中**: （Planning のみ）この要求には承認者がいて、少なくとも 1 人の承認者が要求を開きましたが、決定は行われていません。
+   * **却下**: （Planning のみ）このリクエストには承認者がいて、却下されています。
+   * **処理中**:
+      * Workfront リクエスト：リクエストが変換され、作業が進行中です。
+      * Workfront Planning 要求：要求完了は特定の計画フィールドにマップされ、フィールド値がまだ完了値と一致していません。
 
-        詳しくは、「Adobe Workfront Planning でのリクエストフォームの作成と管理」の [&#x200B; 設定の詳細の設定 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) を参照してください。
-   * 完了：リクエストが完了します。
+        詳しくは、「Adobe Workfront Planning でのリクエストフォームの作成と管理」の [ 設定の詳細の設定 ](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) を参照してください。
+   * **完了**：リクエストが完了しました。
 
 >[!NOTE]
 >
@@ -261,7 +268,7 @@ ht-degree: 47%
 
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
-   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 
 1. （オプション） ステータス列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。

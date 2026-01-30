@@ -6,10 +6,10 @@ description: プロジェクトの状況は、プロジェクトに関連する�
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 83%
+source-wordcount: '531'
+ht-degree: 82%
 
 ---
 
@@ -110,7 +110,7 @@ Adobe Workfront 管理者は、環境にカスタムの状況を作成できま�
 
 1. 「**状況タイプ**」フィールドが「**手動**」に設定されていることを確認します。
 
-   ![](assets/project-details-overview-select-condition.png)
+   ![ プロジェクト詳細の概要の選択条件 ](assets/project-details-overview-select-condition.png)
 
 1. 「**状況**」フィールドで、関連する作業が順調に進んでいるかどうかや遅延があるかどうかについての理解に一致するものを、次のオプションから選択します。
 
