@@ -116,7 +116,7 @@ Adobe Workfront では、プロジェクト、タスクおよびイシューに�
 1. 実際の開始日を表示するプロジェクトをクリックします。
 1. 左側のパネルで **プロジェクト詳細** をクリックし、「**概要** セクションに移動します。
 
-   ![ ハイライト表示されたプロジェクトの実際の開始日 ](assets/nwe-project-actual-start-date--highlighted-350x367.png)
+   ![&#x200B; ハイライト表示されたプロジェクトの実際の開始日 &#x200B;](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
    **実際の開始日** は、他のプロジェクト日付に沿って表示されます。
 

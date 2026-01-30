@@ -159,7 +159,7 @@ Saving a project as a template differs in the Production and the Preview environ
 -->
 
 1. テンプレートとして保存するプロジェクトに移動します。
-1. ヘッダーのプロジェクト名の右側にある **その他** メニュー ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックして、**テンプレートとして保存** をクリックします。
+1. ヘッダーのプロジェクト名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックして、**テンプレートとして保存** をクリックします。
 1. **テンプレートとして保存** セクションで、テンプレートの次の情報を指定します。
 
    <table style="table-layout:auto"> 
@@ -194,17 +194,17 @@ Saving a project as a template differs in the Production and the Preview environ
    フォームを並べ替えるには、フォームを正しい順序でドラッグ&amp;ドロップします。
 フォームを削除するには、フォームを選択して「**削除**」をクリックします。 **キャンセル** をクリックして、選択したフォームを削除します。
 
-   ![ 「テンプレートとして保存」ボックスのカスタムフォーム領域 ](assets/custom-forms-ara-in-save-as-template-box.png)
+   ![&#x200B; 「テンプレートとして保存」ボックスのカスタムフォーム領域 &#x200B;](assets/custom-forms-ara-in-save-as-template-box.png)
 
 1. 必要に応じて、添付されたカスタムフォームの情報を更新します。 情報がテンプレートに転送されます。
 
 1. 左側のパネルで **オプション** をクリックし、テンプレートに転送する情報の横にあるチェックボックスを選択します。 選択解除された項目は、テンプレートに転送されません。 デフォルトでは、すべてのオプションの選択は解除されています。
 
-   ![ 「テンプレートとして保存」ボックスの「オプション」領域 ](assets/options-area-in-save-as-template-box.png)
+   ![&#x200B; 「テンプレートとして保存」ボックスの「オプション」領域 &#x200B;](assets/options-area-in-save-as-template-box.png)
 
 1. 左側のパネルで **除外** をクリックし、プロジェクトから除外するタスクを選択します。 デフォルトでは、すべてのタスクの選択は解除されています。
 
-   ![ 「テンプレートとして保存」ボックスの「除外」領域 ](assets/exclude-area-save-as-template-box.png)
+   ![&#x200B; 「テンプレートとして保存」ボックスの「除外」領域 &#x200B;](assets/exclude-area-save-as-template-box.png)
 
 1. 画面の右上隅にある「**終了してテンプレートを保存**」をクリックします。
 

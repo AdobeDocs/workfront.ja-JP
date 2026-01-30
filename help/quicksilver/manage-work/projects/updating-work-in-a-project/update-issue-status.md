@@ -122,13 +122,13 @@ Workfront の次のエリアでイシューのステータスを更新できま�
 
    イシューのヘッダーのバブル内をクリックして、割合を入力します。
 
-   ![ ヘッダーのタスク完了率を更新 ](assets/nwe-updatetaskpercentinheader-350x54.png)
+   ![&#x200B; ヘッダーのタスク完了率を更新 &#x200B;](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 1. （オプション）更新に関する追加情報を指定するには、次のいずれかの操作を行います。
 
    * 更新に関するメモを追加するには、「**更新**」セクションに移動し、「**新しいコメント**」をクリックして、メモを入力します。
 
-     ![ 問題：更新ストリームメッセージボックス ](assets/nwe-issue-update-stream-message-box-350x125.png)
+     ![&#x200B; 問題：更新ストリームメッセージボックス &#x200B;](assets/nwe-issue-update-stream-message-box-350x125.png)
 
    * 特定のユーザーに更新について通知するには、コメントを入力した際に表示される「**人物またはチームにタグ付け**」フィールドにユーザーの名前を入力します。詳しくは、[更新時の他のユーザーへのタグ付け](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
    * イシューのコミット日を更新するには、「**イシューの詳細**」をクリックし、「**コミット日**」フィールドを編集します。詳しくは、[イシューを編集](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)を参照してください。

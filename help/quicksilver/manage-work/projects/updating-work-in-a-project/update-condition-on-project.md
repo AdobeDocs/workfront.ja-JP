@@ -110,7 +110,7 @@ Adobe Workfront 管理者は、環境にカスタムの状況を作成できま�
 
 1. 「**状況タイプ**」フィールドが「**手動**」に設定されていることを確認します。
 
-   ![ プロジェクト詳細の概要の選択条件 ](assets/project-details-overview-select-condition.png)
+   ![&#x200B; プロジェクト詳細の概要の選択条件 &#x200B;](assets/project-details-overview-select-condition.png)
 
 1. 「**状況**」フィールドで、関連する作業が順調に進んでいるかどうかや遅延があるかどうかについての理解に一致するものを、次のオプションから選択します。
 
