@@ -88,7 +88,7 @@ ht-degree: 55%
 
 ## 前提条件
 
-* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 * オブジェクトには、カスタムフォームを添付する必要があります。
 
   カスタムフォームをオブジェクトに追加する方法について詳しくは、[オブジェクトにカスタムフォームを追加する](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
@@ -100,13 +100,13 @@ ht-degree: 55%
 カスタムフォームを持つことのできるオブジェクトについて詳しくは、[カスタムフォームの概要](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)を参照してください。
 
 1. カスタムフォームの情報を編集するオブジェクトのリスト（イテレーションのリストを除く）に移動します。
-1. リスト内の 1 つまたは複数のオブジェクトを選択し、リスト上部の **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+1. リスト内の 1 つまたは複数のオブジェクトを選択し、リスト上部の **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
 1. 左側のパネルの **編集 &lt; オブジェクト >** ボックス内で **カスタムForms** をクリックします。
 
    オブジェクトに添付されたカスタムフォームがある場合、フォームの名前は「**カスタムForms**」セクションにエリアとして表示されます。
 1. アクセス権のある任意のフィールドに情報を入力します。
 
-   ![ 請求記録にカスタムフォームを含む編集ボックス ](assets/edit-box-with-custom-forms-on-billing-record.png)
+   ![&#x200B; 請求記録にカスタムフォームを含む編集ボックス &#x200B;](assets/edit-box-with-custom-forms-on-billing-record.png)
 
    複数のカスタムフォームがオブジェクトに添付されている場合は、すべてのフォームに対してこれを行います。
 
@@ -122,7 +122,7 @@ ht-degree: 55%
    >
    >複数の選択を許可するフィールドによって、選択できるオプションの数が制限される場合があります。 チェックボックスと複数選択のドロップダウンは、5,000 個に制限されています。
 
-   すべてのフィールドタイプについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   すべてのフィールドタイプについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. 「**保存**」をクリックします。
 
@@ -130,7 +130,7 @@ ht-degree: 55%
    >
    >フォームを保存するには、まず、フォーム上のすべての必須フィールドに入力する必要があります。必須フィールドの名前の後には、アスタリスクが付きます。
    >
-   >![ 必須のカスタムフィールド ](assets/nwe-required-custom-field.png)
+   >![&#x200B; 必須のカスタムフィールド &#x200B;](assets/nwe-required-custom-field.png)
 
    オブジェクト内の計算カスタムフィールドで参照される別のオブジェクト内のデータを変更した場合、その変更はオブジェクトに自動的には反映されません。オブジェクト内のすべての計算カスタムフィールドを手動で更新する方法については、[オブジェクトのすべての計算カスタムフィールドを再計算する方法](#recalculate-all-calculated-custom-fields-for-an-object)を参照してください。
 
@@ -148,7 +148,7 @@ ht-degree: 55%
 
       同じ領域の **編集** アイコンをクリックして、添付されたフォームのフィールドの編集を開始します。
 
-      ![ イテレーションカスタムフォームを編集 ](assets/edit-iteration-custom-form.png)
+      ![&#x200B; イテレーションカスタムフォームを編集 &#x200B;](assets/edit-iteration-custom-form.png)
 
    1. 「**変更を保存**」をクリックします。
 
@@ -177,7 +177,7 @@ ht-degree: 55%
    * プログラム
    * ドキュメント
 
-1. オブジェクト名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-icon.png) をクリックし、**式の再計算** をクリックします。
+1. オブジェクト名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-icon.png) をクリックし、**式の再計算** をクリックします。
 
    これにより、当該オブジェクトのフォーム上のすべてのカスタムフィールドが再計算されます。
 
@@ -217,9 +217,9 @@ ht-degree: 55%
    * ポートフォリオ
    * プログラム
    * 費用
-1. **その他** メニュー ![ その他メニュー ](assets/more-icon.png) をクリックしてから、「**カスタム式の再計算**」をクリックします。
+1. **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-icon.png) をクリックしてから、「**カスタム式の再計算**」をクリックします。
 
-![ プロジェクトリストのタイムラインの財務ドロップダウン式の再計算 ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![&#x200B; プロジェクトリストのタイムラインの財務ドロップダウン式の再計算 &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 Workfrontは、選択されたすべてのプロジェクトのすべてのカスタムフィールドを直ちに計算します。
 すべてのオブジェクトのすべてのリストにこの機能があるわけではありません。

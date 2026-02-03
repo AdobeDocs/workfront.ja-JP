@@ -36,7 +36,7 @@ Workfrontのどの領域からタスクまたはイシューにアクセスす�
 
 * タスクまたはイシューが最初に割り当てられ、ステータスが「新規」になると、ボタンは「作業開始」と表示されます。
 
-  ![ 作業をするボタン ](assets/nwe-work-on-it-button.png)
+  ![&#x200B; 作業をするボタン &#x200B;](assets/nwe-work-on-it-button.png)
 
   >[!TIP]
   >
@@ -44,7 +44,7 @@ Workfrontのどの領域からタスクまたはイシューにアクセスす�
 
 * 「作業対象」をクリックして確定すると、ボタンが「完了としてマーク」に変わります。 「作業開始」ボタンにアクセスできる場所について詳しくは、この記事の[「作業開始」と「完了」ボタンを検索する](#locate-the-work-on-it-and-done-button)の節を参照してください。
 
-  ![ 「完了としてマーク」ボタン ](assets/nwe-mark-as-done-button-350x122.png)
+  ![&#x200B; 「完了としてマーク」ボタン &#x200B;](assets/nwe-mark-as-done-button-350x122.png)
 
 
 <!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.

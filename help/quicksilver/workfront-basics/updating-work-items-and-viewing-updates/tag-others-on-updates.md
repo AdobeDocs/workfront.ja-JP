@@ -88,7 +88,7 @@ ht-degree: 81%
  </tbody> 
 </table>
 
-詳しくは、[Workfrontのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfrontのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -167,13 +167,13 @@ ht-degree: 81%
 
    タグ付きエンティティの名前が、アバターの横に最大 2 つのエンティティまで表示されます。3 つ以上のエンティティがタグ付けされている場合は、最初のエンティティの名前に加えて、タグ付けされている追加のエンティティの数が表示されます。
 
-   ![ メンバーアイコンが展開されました ](assets/members-icons-expanded-unshimmed.png)
+   ![&#x200B; メンバーアイコンが展開されました &#x200B;](assets/members-icons-expanded-unshimmed.png)
 
    コメントテキストでタグ付けされている場合、そのコメント内で自分の名前がハイライト表示されます。
 
    作業項目の更新時に使用できる追加機能について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. （オプション）コメントの右上隅にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、「**編集**」をクリックします。 タグ付けされたユーザーを削除して、「**送信**」をクリックします。
+1. （オプション）コメントの右上隅にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**編集**」をクリックします。 タグ付けされたユーザーを削除して、「**送信**」をクリックします。
 
    >[!IMPORTANT]
    >
