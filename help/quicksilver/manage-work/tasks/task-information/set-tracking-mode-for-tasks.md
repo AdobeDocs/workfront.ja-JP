@@ -51,7 +51,7 @@ Adobe Workfront でタスクの進捗状態がどのように更新されるか�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -87,13 +87,13 @@ Adobe Workfront でタスクの進捗状態がどのように更新されるか�
 ## タスクのトラッキングモードの設定
 
 1. トラッキングモードを設定するタスクに移動します。
-1. タスク名の横にある **その他** アイコン ![ オブジェクトの詳細アイコン ](assets/qs-more-icon-on-an-object.png) をクリックし、**編集** をクリックします。
+1. タスク名の横にある **その他** アイコン ![&#x200B; オブジェクトの詳細アイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックし、**編集** をクリックします。
 
    タスクの編集ダイアログボックスが開きます。
 
 1. 「**設定**」セクションで、「**トラッキングモード**」ドロップダウンメニューを使用して、タスクのトラッキングモードを選択します。
 
-   ![ タスク設定を編集セクションの「トラッキングモード」フィールド ](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
+   ![&#x200B; タスク設定を編集セクションの「トラッキングモード」フィールド &#x200B;](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. 次のオプションから選択します。
 

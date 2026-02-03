@@ -99,7 +99,7 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
 -->
 
-![ タスクの期間経過日数 ](assets/duration-elapsed-days-tasks-nwe-350x282.png)
+![&#x200B; タスクの期間経過日数 &#x200B;](assets/duration-elapsed-days-tasks-nwe-350x282.png)
 
 タスクの期間を指定する際は、次の点に注意してください。
 
@@ -181,7 +181,7 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 * 親タスクの期間を計算する場合、システムでは、最初に上記の式によって期間を計算してから、スケジュールを適用します。
 
 
-詳しくは、[ タスクの元の期間と元の予定時間数の概要 ](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
+詳しくは、[&#x200B; タスクの元の期間と元の予定時間数の概要 &#x200B;](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
 
 ## タスクの期間タイプの変更
 

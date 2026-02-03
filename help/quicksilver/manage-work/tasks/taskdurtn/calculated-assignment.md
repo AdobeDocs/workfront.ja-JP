@@ -46,7 +46,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 例えば、次に説明するシナリオでは、各タスクの期間は 3 日です。プロジェクトマネージャーは、期間（3 日または 24 時間）と予定時間数の両方を手動で入力します。その結果、配分率（または割り当て率）は、次のように計算されます。
 
-![ 計算された割り当て期間の種類 ](assets/calcassign-350x80.png)
+![&#x200B; 計算された割り当て期間の種類 &#x200B;](assets/calcassign-350x80.png)
 
 ## タスクの期間タイプを予定割り当て時間に変更
 

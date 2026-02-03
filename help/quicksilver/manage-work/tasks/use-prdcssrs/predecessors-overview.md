@@ -140,4 +140,4 @@ Workfront の次のエリアで、先行タスク情報を表示できます。�
 
 * タスクにアクセスする際のタスクヘッダーで表示します。
 
-  ![ タスクヘッダーの先行タスク情報 ](assets/qs-predecessor-info-in-task-header-350x141.png)
+  ![&#x200B; タスクヘッダーの先行タスク情報 &#x200B;](assets/qs-predecessor-info-in-task-header-350x141.png)

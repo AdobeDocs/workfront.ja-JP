@@ -111,7 +111,7 @@ ht-degree: 38%
 フィルター条件を追加すると、リクエストリストが自動的にフィルタリングされます。
 1. （任意）ビューを使用して、表示するリクエストにフォーカスします。
 
-   手順については、[ リクエスト領域でのビューの作成または編集 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+   手順については、[&#x200B; リクエスト領域でのビューの作成または編集 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 1. （オプション） ステータス列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。
 
    * **ドラフト**：このリクエストはまだ送信されていません。
@@ -122,7 +122,7 @@ ht-degree: 38%
       * Workfront リクエスト：リクエストが変換され、作業が進行中です。
       * Workfront Planning 要求：要求完了は特定の計画フィールドにマップされ、フィールド値がまだ完了値と一致していません。
 
-        詳しくは、「Adobe Workfront Planning でのリクエストフォームの作成と管理」の [ 設定の詳細の設定 ](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) を参照してください。
+        詳しくは、「Adobe Workfront Planning でのリクエストフォームの作成と管理」の [&#x200B; 設定の詳細の設定 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) を参照してください。
    * **完了**：リクエストが完了しました。
 
 >[!NOTE]
@@ -145,7 +145,7 @@ ht-degree: 38%
    >
    >送信済みリクエストリストの列はカスタマイズできません。
 
-   ![ 送信済み要求の新しいリスト ](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![&#x200B; 送信済み要求の新しいリスト &#x200B;](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. 次の列がデフォルトで表示されます。
@@ -189,17 +189,17 @@ ht-degree: 38%
    >
    >送信済みリクエストのリストから移動したとき、選択された並べ替えオプションが保持されます。
 
-1. （オプション）リスト内のリクエストを選択し、「**概要を開く**」アイコン ![ 概要をテキストで開く ](assets/open-summary-with-text-nwe.png) をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメントやドキュメントを追加したり、割り当てたりします。 概要パネルについて詳しくは、[概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
+1. （オプション）リスト内のリクエストを選択し、「**概要を開く**」アイコン ![&#x200B; 概要をテキストで開く &#x200B;](assets/open-summary-with-text-nwe.png) をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメントやドキュメントを追加したり、割り当てたりします。 概要パネルについて詳しくは、[概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
    >[!TIP]
    >
    >概要パネルが既に開いている場合は、概要を開くアイコンが、概要を閉じるアイコンに変わります。
 
-1. （オプションおよび条件付き）右上隅の **X** アイコンまたは **概要を閉じる** アイコン ![ 概要をテキストで閉じる ](assets/close-summary-with-text-nwe.png) をクリックして、概要パネルを閉じます。
+1. （オプションおよび条件付き）右上隅の **X** アイコンまたは **概要を閉じる** アイコン ![&#x200B; 概要をテキストで閉じる &#x200B;](assets/close-summary-with-text-nwe.png) をクリックして、概要パネルを閉じます。
 
    イシューがタスクまたはプロジェクトに変換され、変換処理でイシューが削除された場合、概要パネルは空白になります。イシューの変換について詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
-1. リストの右上にある **フィルターアイコン**![ フィルターアイコン ](assets/filter-nwepng.png) から、次のテーブルにリストされているフィルターのいずれかを選択します。
+1. リストの右上にある **フィルターアイコン**![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) から、次のテーブルにリストされているフィルターのいずれかを選択します。
 
    >[!TIP]
    >
@@ -232,7 +232,7 @@ ht-degree: 38%
     </tbody> 
    </table>
 
-1. （任意）リストの上部にある **フィルターページ** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックして、名前でリクエストを検索します。 リストは、検索条件に一致する結果で更新されます。
+1. （任意）リストの上部にある **フィルターページ** アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックして、名前でリクエストを検索します。 リストは、検索条件に一致する結果で更新されます。
 
 1. （条件付き）Workfront リクエストキューのみを表示するには、`Issue` のオブジェクトタイプを検索またはフィルタリングします。</span>
 
@@ -266,9 +266,9 @@ ht-degree: 38%
 
    **フィルター** および **列** を使用して、Planning 要求リスト内の情報を更新します。
 
-   ![ 「要求」エリアで「計画」タブが送信されたセクション ](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+   ![&#x200B; 「要求」エリアで「計画」タブが送信されたセクション &#x200B;](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
-   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 
 1. （オプション） ステータス列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。

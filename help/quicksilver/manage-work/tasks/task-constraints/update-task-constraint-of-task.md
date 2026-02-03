@@ -80,7 +80,7 @@ ht-degree: 95%
 1. 左パネルの「**タスク**」セクションをクリックします。
 1. 左パネルの「**タスクの詳細**」をクリックし、概要エリアで「**タスクの制約**」をクリックします。
 
-   ![ 概要のすべてのオプションに対するタスク制約 ](assets/task-constraint-all-options-in-overview-350x254.png)
+   ![&#x200B; 概要のすべてのオプションに対するタスク制約 &#x200B;](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. 次のオプションから選択します。
 

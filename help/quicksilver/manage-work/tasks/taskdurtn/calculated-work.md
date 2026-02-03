@@ -80,7 +80,7 @@ Work Required (Planned Hours) = SUM[(Duration of the task in hours) x (Percent a
 
 この場合、各担当者は予定作業タスクを 100％割り当てられます。
 
-![ 計算された作業時間の期間のタイプ ](assets/calcwork-350x71.png)
+![&#x200B; 計算された作業時間の期間のタイプ &#x200B;](assets/calcwork-350x71.png)
 
 ## タスクの期間タイプを予定作業に変更
 

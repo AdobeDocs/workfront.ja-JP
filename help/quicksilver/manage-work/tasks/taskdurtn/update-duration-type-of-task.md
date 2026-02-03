@@ -87,7 +87,7 @@ ht-degree: 94%
 1. 左側のパネルで、「**タスク**」をクリックします。
 1. 左側のパネルメニューで「**タスクの詳細**」をクリックし、概要エリアで「**期間タイプ**」をクリックします。
 
-   ![ 概要のすべてのオプションに期間タイプを指定 ](assets/duration-type-all-options-on-overview-350x155.png)
+   ![&#x200B; 概要のすべてのオプションに期間タイプを指定 &#x200B;](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. 次のオプションから選択します。
 

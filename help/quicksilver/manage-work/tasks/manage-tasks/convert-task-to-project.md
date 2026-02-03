@@ -199,13 +199,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 ## タスクをプロジェクトに変換
 
 1. プロジェクトに変換するタスクに移動します。
-1. **その他** アイコン ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**プロジェクトに変換** をクリックします。
+1. **その他** アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**プロジェクトに変換** をクリックします。
 1. 次のいずれかのオプションを選択します。
 
    * **新規プロジェクト**：テンプレートを使用せずにプロジェクトを作成します。
    * 「**テンプレートから選択**」セクションのテンプレート
 
-     ![ タスクをプロジェクトテンプレートに変換オプション ドロップダウンメニュー ](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![&#x200B; タスクをプロジェクトテンプレートに変換オプション ドロップダウンメニュー &#x200B;](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. 表示される通知で「**続行**」をクリックします。
 1. **プロジェクトに変換**&#x200B;ボックスで、次の情報を指定します。

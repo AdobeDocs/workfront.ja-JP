@@ -113,7 +113,7 @@ ht-degree: 91%
    >
    >Workfront 管理者またはグループ管理者がレイアウトテンプレートを設定する方法によっては、「タスクの詳細」セクションのフィールドが再配置されるか、表示されない場合があります。詳しくは、[レイアウトテンプレートを使用した詳細ビューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
-1. 「詳細」セクションの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、「**概要** をクリックします。
+1. 「詳細」セクションの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**概要** をクリックします。
 
    >[!TIP]
    >

@@ -82,7 +82,7 @@ ht-degree: 88%
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
    * **ユーザーとチーム** または **担当業務** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   ![ タスクリスト内のスマート割り当ての例 ](assets/smart-assignments-task-list.png)
+   ![&#x200B; タスクリスト内のスマート割り当ての例 &#x200B;](assets/smart-assignments-task-list.png)
 
    詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 

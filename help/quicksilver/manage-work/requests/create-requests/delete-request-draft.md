@@ -79,9 +79,9 @@ ht-degree: 32%
 
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
-1. ホームの **リクエスト** リストまたは **マイリクエスト** ウィジェットで、削除するリクエストまたはドラフトにポインタを合わせて、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします。
+1. ホームの **リクエスト** リストまたは **マイリクエスト** ウィジェットで、削除するリクエストまたはドラフトにポインタを合わせて、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックします。
 
 1. **削除** をクリックします
 
@@ -107,7 +107,7 @@ ht-degree: 32%
 
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
 1. リクエスト リストまたは自分のリクエスト ウィジェットで、削除する各リクエストの左側にあるボックスをクリックします。
 1. ページ下部の青いバーで、「**削除**」をクリックします。

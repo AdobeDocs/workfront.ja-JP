@@ -54,13 +54,13 @@ Workfront またはグループ管理者がシステムまたはグループレ�
 
   親の合計予定時間数は、各子のすべての予定時間数の合計を表します。
 
-  ![ タスクの完了率および予定時間数を使用するプロジェクト ](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![&#x200B; タスクの完了率および予定時間数を使用するプロジェクト &#x200B;](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * システムが期間に基づいて完了率を計算する場合、親タスクの完了率は次の式を使用して計算されます。
 
   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-  ![ タスクの完了率および期間を計算したプロジェクト ](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![&#x200B; タスクの完了率および期間を計算したプロジェクト &#x200B;](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!IMPORTANT]
   >
@@ -77,7 +77,7 @@ Workfront またはグループ管理者がシステムまたはグループレ�
 
   プロジェクトの合計予定時間数は、プロジェクトのすべての主要タスクの予定時間数の合計です。
 
-  ![ タスクの完了率および予定時間数を使用するプロジェクト ](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![&#x200B; タスクの完了率および予定時間数を使用するプロジェクト &#x200B;](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
   >[!NOTE]
   >
@@ -91,7 +91,7 @@ Workfront またはグループ管理者がシステムまたはグループレ�
   >
   >プロジェクトの期間は、完了率が表示される主要タスクのすべての期間の合計です。例えば、期間が 2 日のスタンドアロンタスクと期間が 5 日の親タスクがあり、それらの作業が完了しているプロジェクトでは、2 つのタスクが同じ日に開始できる場合でも、合計期間は 7 日になります。
 
-  ![ タスクの完了率および期間を計算したプロジェクト ](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![&#x200B; タスクの完了率および期間を計算したプロジェクト &#x200B;](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!NOTE]
   >
@@ -101,7 +101,7 @@ Workfront またはグループ管理者がシステムまたはグループレ�
 
 タスクの期間を使用してプロジェクトの完了率を計算する場合は、次の例を考慮してください。
 
-![ タスクの完了率および期間を計算したプロジェクト ](assets/project-with-tasks-percent-complete-duration-calculation.png)
+![&#x200B; タスクの完了率および期間を計算したプロジェクト &#x200B;](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
 次の情報は、プロジェクトの完了率を計算するために使用されます。
 

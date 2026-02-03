@@ -32,7 +32,7 @@ ht-degree: 77%
 
 このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-詳しくは、[2026 年第 2 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md) を参照してください。
+詳しくは、[2026 年第 2 四半期リリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md) を参照してください。
 
 </div>
 
@@ -78,7 +78,7 @@ ht-degree: 77%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -129,7 +129,7 @@ ht-degree: 77%
 * 「現在」ステータスのプロジェクトのタスクトリガーの通知の更新：タスクに割り当てられたユーザーが混乱するのを避けるには、プロジェクトのステータスが「現在」の場合に編集タスクをできる限り制限します。
 * 承認プロセス内のタスクは編集できません。承認プロセスでのタスクのログ時間またはステータスの更新のみが可能です。
 
-  ![ 承認プロセスでタスクを編集 ](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![&#x200B; 承認プロセスでタスクを編集 &#x200B;](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * 完了、無効または承認保留中のステータスを持つプロジェクトのタスクに対するドキュメントの編集や追加は、Workfront 管理者またはグループ管理者がプロジェクト環境設定エリアでこの機能を有効にした場合にのみ行うことができます。プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
@@ -162,7 +162,7 @@ ht-degree: 77%
 1. 編集するタスクをクリックします。
 1. （オプション）タスクに関する限定的な情報を編集するには、左側のパネルで「**タスクの詳細**」をクリックします。
 
-   ![ タスクの詳細が展開されました ](assets/nwe-task-details-expanded-350x273.png)
+   ![&#x200B; タスクの詳細が展開されました &#x200B;](assets/nwe-task-details-expanded-350x273.png)
 
    タスクの詳細セクションの次のエリアにある情報を編集することを検討してください。
 
@@ -184,15 +184,15 @@ ht-degree: 77%
 
    「詳細」セクションの情報を編集するには、次の手順を実行します。
 
-   1. （オプション）右上隅の **すべて折りたたむ** アイコン ![ すべて折りたたむアイコン ](assets/collapse-all-icon.png) をクリックすると、すべての領域が折りたたまれます。
-   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![ 右向き矢印 ](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
+   1. （オプション）右上隅の **すべて折りたたむ** アイコン ![&#x200B; すべて折りたたむアイコン &#x200B;](assets/collapse-all-icon.png) をクリックすると、すべての領域が折りたたまれます。
+   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![&#x200B; 右向き矢印 &#x200B;](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
    1. 「タスクの詳細」タブでの情報の編集について詳しくは、次の記事を参照してください。
 
       * [「タスク詳細概要」領域でのタスク情報の管理](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [タスクの詳細セクションでのタスクの財政の管理](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. （オプション）タスクにカスタムフォームが添付されていない場合は、「**カスタムフォームの追加**」フィールドに値を入力を開始し、リストに表示されたらフォームを選択して、「**変更を保存**」をクリックします。
-   1. （オプション） **書き出し** アイコン ![ 書き出しアイコン ](assets/export.png) をクリックして、概要とカスタムフォーム情報をPDF ファイルに書き出し、「**書き出し**」をクリックします。 次の中から選択します。
+   1. （オプション） **書き出し** アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックして、概要とカスタムフォーム情報をPDF ファイルに書き出し、「**書き出し**」をクリックします。 次の中から選択します。
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
       * 概要
@@ -200,15 +200,15 @@ ht-degree: 77%
 
       PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-      ![ 「書き出し」ボタンを含むイシューの詳細選択ボックス ](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![&#x200B; 「書き出し」ボタンを含むイシューの詳細選択ボックス &#x200B;](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       詳しくは、[カスタムフォームとオブジェクトの詳細の書き出し](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
-1. （条件付き）タスクに関するすべての情報を編集するには、タスクの管理権限を持つユーザーとして、タスク名の横にある **詳細** メニュー ![ 詳細アイコン ](assets/more-icon.png) をクリックし、「**編集** をクリックします。
+1. （条件付き）タスクに関するすべての情報を編集するには、タスクの管理権限を持つユーザーとして、タスク名の横にある **詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、「**編集** をクリックします。
 
    または
 
-   タスクのリストからタスクを選択し、リスト上部の **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+   タスクのリストからタスクを選択し、リスト上部の **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
 
    タスクを編集ボックスが開きます。
 
@@ -241,7 +241,7 @@ ht-degree: 77%
 1. 上記の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで&#x200B;**タスク名**&#x200B;をクリックします。
 
-   ![ タスクを編集ボックスの「タスク名」セクション ](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   ![&#x200B; タスクを編集ボックスの「タスク名」セクション &#x200B;](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. タスクの名前をアップデートします。
 
@@ -252,7 +252,7 @@ ht-degree: 77%
 1. 上記の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**承認**」をクリックします。
 
-   ![ 概要セクションの編集タスクボックス ](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![&#x200B; 概要セクションの編集タスクボックス &#x200B;](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. タスクに関する以下の情報をアップデートします。
 
@@ -524,7 +524,7 @@ ht-degree: 77%
    1. （任意） **タスクを編集** ボックスの下部にある **古いエクスペリエンスに切り替える** をクリックします。
 割り当てエリアが古いエクスペリエンスで開きます。
 
-      ![ 「タスクを編集」ボックスの「割り当て」セクション ](assets/nwe-assignments-section-edit-task-box-350x217.png)
+      ![&#x200B; 「タスクを編集」ボックスの「割り当て」セクション &#x200B;](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. （条件付き）古いエクスペリエンスを使用して、次の操作を行います。
 
@@ -687,7 +687,7 @@ ht-degree: 77%
 1. 上記の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**割り当て**」をクリックします。
 
-   ![ 「タスクを編集」ボックスの「割り当て」セクション ](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   ![&#x200B; 「タスクを編集」ボックスの「割り当て」セクション &#x200B;](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. **ユーザー、役割、またはチームを検索** をクリックして、タスクに割り当てるユーザー、役割、またはチームの名前の入力を開始し、リストに表示されたらクリックするか Enter キーを押します。
 
@@ -843,11 +843,11 @@ ht-degree: 77%
 1. 上記の説明に従ってタスクの編集を開始します。
 1. 左側のパネルで&#x200B;**カスタムフォーム**&#x200B;をクリックするか、カスタムフォームが既に添付されている場合には、その名前をクリックします。
 
-   ![ カスタムフォームセクションの編集タスクボックス ](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![&#x200B; カスタムフォームセクションの編集タスクボックス &#x200B;](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. 「**カスタムフォームを追加**」をクリックし、タスクに関連付けるカスタムフォームまたはフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。
 
-   カスタムフォームの作成について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。タスクには最大 10 個のカスタムフォームを追加できます
+   カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。タスクには最大 10 個のカスタムフォームを追加できます
 
 1. （条件付き）カスタムフォームをタスクに添付した場合は、フォーム上の任意のフィールドを編集します。タスクを保存する前に、必須フィールドをすべて指定する必要があります。
 
@@ -862,7 +862,7 @@ ht-degree: 77%
 1. [タスクを編集](#Edit2)の節の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**財務**」をクリックします。
 
-   ![ 財務セクションの編集タスク ボックス ](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![&#x200B; 財務セクションの編集タスク ボックス &#x200B;](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. 次のフィールドを更新します。
 
@@ -905,7 +905,7 @@ ht-degree: 77%
 1. [タスクを編集](#Edit2)の節の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**設定**」をクリックします。
 
-   ![[ タスクの編集 ] ボックスの [ 設定 ] セクション ](assets/nwe-settings-section-edit-task-box-350x304.png)
+   ![[ タスクの編集 ] ボックスの [ 設定 ] セクション &#x200B;](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. 次のフィールドを更新します。
 
@@ -971,7 +971,7 @@ ht-degree: 77%
 1. [タスクを編集](#Edit2)の節の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで **コメント** をクリックします。
 
-   ![ タスクを編集ボックスの「コメント」セクション ](assets/comment-section-on-edit-task-box.png)
+   ![&#x200B; タスクを編集ボックスの「コメント」セクション &#x200B;](assets/comment-section-on-edit-task-box.png)
 
 1. 指定されたスペースに更新を追加します。
 1. （オプション）次のいずれかを更新に追加します。
@@ -992,14 +992,14 @@ ht-degree: 77%
 システム管理者またはグループ管理者は、タスクヘッダーに表示されるフィールドをカスタマイズできます。詳しくは、[レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
 
-![ 承認なしの依存関係を持つタスクヘッダー ](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![&#x200B; 承認なしの依存関係を持つタスクヘッダー &#x200B;](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 次のフィールドは、デフォルトでタスクヘッダーに含まれています。
 
 * タスク名
 * 完了率
 
-  詳しくは、[ タスクの完了率の表示と更新 ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
+  詳しくは、[&#x200B; タスクの完了率の表示と更新 &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
 * 割り当て
 * 予定完了日
 
@@ -1014,4 +1014,4 @@ ht-degree: 77%
 
 リスト内のタスクに加えた変更を自動的に保存する場合は、リスト内のタスクを一括で編集し、そのすべての情報を同時に更新できます。
 
-タスクの一括保存について詳しくは、「リストでのタスクの編集 [ の「タスクの一括編集」の節を参照してくだ ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) い。
+タスクの一括保存について詳しくは、「リストでのタスクの編集 [&#x200B; の「タスクの一括編集」の節を参照してくだ &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) い。
