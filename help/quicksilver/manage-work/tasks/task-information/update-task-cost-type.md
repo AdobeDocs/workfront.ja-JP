@@ -6,10 +6,10 @@ description: タスクの予定コストと実際のコスト、およびそれ�
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 91%
+source-wordcount: '223'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 プロジェクト内の個々のタスクに対してコストタイプを設定できます。各コストタイプは、予定コストと実際のコストの値に影響を与えます。
 
-Adobe Workfrontでのコストの追跡について詳しくは、[&#x200B; コストの追跡 &#x200B;](../../../manage-work/projects/project-finances/track-costs.md) を参照してください。
+Adobe Workfrontでのコストの追跡について詳しくは、[ コストの追跡 ](../../../manage-work/projects/project-finances/track-costs.md) を参照してください。
 
 ## アクセス要件
 
@@ -84,7 +84,7 @@ Adobe Workfrontでのコストの追跡について詳しくは、[&#x200B; コ�
 1. 左側のパネルで「**タスクの詳細**」をクリックして、**財務**&#x200B;エリアを展開します。
 1. 「**コストタイプ**」をダブルクリックして、タスクに適用するコストタイプを選択します。
 
-   ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
+   ![ タスクの詳細のタスクのコストタイプオプション ](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    次のオプションから選択します。
 

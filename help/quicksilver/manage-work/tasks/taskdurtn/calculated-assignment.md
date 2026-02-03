@@ -7,10 +7,10 @@ description: 予定割り当て時間は、Adobe Workfront のタスクに設定
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 82%
+source-wordcount: '485'
+ht-degree: 81%
 
 ---
 
@@ -46,7 +46,7 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 例えば、次に説明するシナリオでは、各タスクの期間は 3 日です。プロジェクトマネージャーは、期間（3 日または 24 時間）と予定時間数の両方を手動で入力します。その結果、配分率（または割り当て率）は、次のように計算されます。
 
-![](assets/calcassign-350x80.png)
+![ 計算された割り当て期間の種類 ](assets/calcassign-350x80.png)
 
 ## タスクの期間タイプを予定割り当て時間に変更
 

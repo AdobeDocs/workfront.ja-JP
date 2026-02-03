@@ -6,10 +6,10 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 85%
+source-wordcount: '1520'
+ht-degree: 82%
 
 ---
 
@@ -104,19 +104,19 @@ ht-degree: 85%
 
 1. 新規としてコピーして送信するリクエストを検索し、次のいずれかの操作を行います。
 
-   * 選択して、送信済みのリクエストリストの左上隅で&#x200B;**コピー** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) をクリックします。
+   * これを選択し、「送信済みリクエスト」リストの左上隅にある **コピー**![ コピーして送信 ](assets/copy-and-submit-as-new-requests-area-nwe.png) アイコンをクリックします。
 
    >[!TIP]
    >
    > 最初にリクエストを選択していない場合、コピーアイコンはグレー表示になります。
 
-   * リクエスト名の右側にある「**その他**」メニュー ![](assets/more-icon.png)、「**新規としてコピーして送信**」の順にクリックします。
+   * リクエスト名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックし、「**新規としてコピーして送信**」をクリックします。
 
      または
 
      選択したリクエストを右クリックし、「**新規としてコピーして送信**」をクリックします。
 
-     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![ 選択されたその他のメニューオプションを要求 ](assets/request-selected-more-menu-options-nwe-350x191.png)
 
      >[!TIP]
      >
@@ -234,14 +234,11 @@ ht-degree: 85%
 
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
-1. リクエスト リストまたはマイリクエストウィジェットで、コピーするリクエストにポインタを合わせます。
+1. ホームの **リクエスト** リストまたは **マイリクエスト** ウィジェットで、コピーするリクエストにポインタを合わせて、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします。
 
-   「。..」メニューが表示されます。
-   ![](assets/more-menu.png)
-
-1. 要求名の右側にある **詳細** メニューをクリックしてから、「**コピー**」をクリックします。
+1. 「**コピー**」をクリックします
 
    または
 

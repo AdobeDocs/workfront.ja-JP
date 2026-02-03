@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 98%
+source-wordcount: '890'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -97,7 +97,7 @@ ht-degree: 98%
 
    新規タスクダイアログボックスが表示されます。
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![ タスクを作成する小さい画面 ](assets/nwe-create-task-small-screen-350x272.png)
 
 1. 「**その他のオプション**」をクリックして、「**タスク名**」フィールドにタスクの名前を入力します。
 1. 新しいタスクを追加した場合と同じ方法で、タスクの更新を続行します。新しいタスクの追加について詳しくは、[プロジェクトでタスクを作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)を参照してください。
@@ -109,7 +109,7 @@ ht-degree: 98%
 1. 左側のパネルにある「**概要**」をクリックします。
 1. 「**繰り返しスケジュール**」セクションまで下にスクロールして、「**これを繰り返しタスクにする**」オプションを選択します。
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![ 繰り返しスケジュール選択の新規繰り返しタスク ](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. **頻度**&#x200B;ドロップダウンリストで、タスクを実行する時間単位の数と時間単位の種類を選択します。次のオプションから選択します。
 
@@ -155,7 +155,7 @@ ht-degree: 98%
 
    または
 
-   「**`<number>` 発生後**」を選択して、定期タスクの発生回数を指定します。Workfront は、このフィールドで指定した数と同じ回数の定期タスクを作成します。
+   「**`<number>` 発生後**」を選択して、定期タスクの発生回数を指定します。Workfront は、このフィールドで指定した数と同じ回数の繰り返しタスクを作成します。
 
 1. 「**タスクを作成**」をクリックします。
 
@@ -163,7 +163,7 @@ ht-degree: 98%
 
    親の定期タスクから自動入力されるフィールドについて詳しくは、[定期タスクの概要](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)を参照してください。
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![ タスクリスト内のタスクの再カール ](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. （オプション）各定期タスクを、プロジェクト内の他のタスクと同様に変更します。
 

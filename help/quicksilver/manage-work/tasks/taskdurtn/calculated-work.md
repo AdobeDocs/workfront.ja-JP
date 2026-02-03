@@ -7,10 +7,10 @@ description: 予定作業は、Adobe Workfront のタスクに設定できる期
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 93%
+source-wordcount: '568'
+ht-degree: 92%
 
 ---
 
@@ -80,7 +80,7 @@ Work Required (Planned Hours) = SUM[(Duration of the task in hours) x (Percent a
 
 この場合、各担当者は予定作業タスクを 100％割り当てられます。
 
-![](assets/calcwork-350x71.png)
+![ 計算された作業時間の期間のタイプ ](assets/calcwork-350x71.png)
 
 ## タスクの期間タイプを予定作業に変更
 

@@ -1,5 +1,5 @@
 ---
-title: 成功のフレームワーク：キャンペーン階層のモデル化
+title: 成功のアーキテクチャ：キャンペーン階層のモデル化
 description: 「重心」とマルチワークスペースアーキテクチャを使用して、複雑なビジネスプロセスをスケーラブルで管理されたキャンペーン階層に翻訳する方法を説明します。
 feature: Workfront Planning
 role: User, Admin
@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 成功のフレームワーク：キャンペーン階層のモデル化
+# 成功のアーキテクチャ：キャンペーン階層のモデル化
 
 <!--see the file again for additional comments from Seth and others-->
 

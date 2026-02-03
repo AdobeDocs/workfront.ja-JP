@@ -7,10 +7,10 @@ description: タスクに先行タスク関係を追加すると、依存関係�
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 70%
+source-wordcount: '262'
+ht-degree: 67%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 70%
 
 タスク 1 をタスク 2 の先行タスクにしようとすると、タスク 1 はタスク 2 が完了するまで開始できないけれど、タスク 2 はタスク 1 が終了するまで開始できないので、依存関係ループエラーが発生します。
 
-![](assets/dependency-loop-error-message-350x209.png)
+![ 依存関係ループエラーメッセージ ](assets/dependency-loop-error-message-350x209.png)
 
-![](assets/dependency-loop-in-task-list-nwe-350x97.png)
+![ タスク リストの依存関係ループ ](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## 依存関係ループに関する考慮事項
 

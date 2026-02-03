@@ -6,10 +6,10 @@ description: 送信されたリクエストまたはリクエストのドラフ�
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 31%
+source-wordcount: '608'
+ht-degree: 32%
 
 ---
 
@@ -79,14 +79,11 @@ ht-degree: 31%
 
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
-1. リクエストリストまたはマイリクエストウィジェットで、削除するリクエストまたはドラフトにポインタを合わせます。
+1. ホームの **リクエスト** リストまたは **マイリクエスト** ウィジェットで、削除するリクエストまたはドラフトにポインタを合わせて、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします。
 
-   「。..」メニューが表示されます。
-   ![](assets/more-menu.png)
-
-1. リクエスト名またはドラフト名の右側にある **詳細** メニューをクリックしてから、「**削除**」をクリックします。
+1. **削除** をクリックします
 
    または
 
@@ -110,7 +107,7 @@ ht-degree: 31%
 
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
 1. リクエスト リストまたは自分のリクエスト ウィジェットで、削除する各リクエストの左側にあるボックスをクリックします。
 1. ページ下部の青いバーで、「**削除**」をクリックします。

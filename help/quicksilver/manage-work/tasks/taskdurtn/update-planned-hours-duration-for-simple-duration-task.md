@@ -6,10 +6,10 @@ description: デフォルトでは、予定時間数に基づいてシンプル�
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 80%
+source-wordcount: '450'
+ht-degree: 78%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 80%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>Standard 以上</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -91,13 +91,13 @@ ht-degree: 80%
 1. タスクのリストで、期間タイプを変更するタスクの名前をクリックします。
 1. 次のいずれかの操作を行います。
 
-   * タスクの名前の横にある&#x200B;**その他**&#x200B;アイコン ![](assets/qs-more-icon-on-an-object.png) をクリックし、「**編集**」、「**割り当て**」の順にクリックします。
+   * タスク名の横にある **その他** アイコン ![ オブジェクトの詳細アイコン ](assets/qs-more-icon-on-an-object.png) をクリックし、**編集**/**割り当て** をクリックします。
    * タスクヘッダーの「割り当て先」領域で **割り当て先** または割り当ての名前をクリックし、**詳細** をクリックします。
 
 1. すべての割り当ての **予定時間数**&#x200B;の合計値を入力します（例：10 時間）。予定時間数の合計は、タスクに割り当てられたすべてのリソースに均等に配分されます。
 1. （オプション）タスクに割り当てられた各リソースの予定時間数を手動で調整します。 リソースに個別に割り当てられた新しい時間を反映するためにタスクの更新を行う予定時間の合計数です。
 1. タスクの&#x200B;**期間**&#x200B;の値を入力します（例：2 日）。
 
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![ 詳細割り当て単純期間複数リソース ](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. 「**保存**」をクリックします。

@@ -6,10 +6,10 @@ description: タスクの財務情報を表示または編集するには、「�
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 87%
+source-wordcount: '838'
+ht-degree: 84%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 87%
 1. 「**タスクの詳細**」をクリックします。
 1. （オプション）タスクの詳細ページの右上にある「**すべて折りたたむ**」アイコンをクリックします。
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![ 詳細ページの「すべて折りたたむ」アイコン ](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ ht-degree: 87%
 
 1. 「**財務**」をクリックして展開し、タスクの財務情報を表示します。
 
-   詳細セクションの右上隅にある&#x200B;**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックし、「**財務**」をクリックします。
+   「詳細」セクションの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、「**財務** をクリックします。
 
 1. 編集可能なフィールドをシングルクリックして編集するか、「**+ 追加**」をクリックして空のフィールドに情報を追加します。
 1. 「**財務**」で次の情報を確認または編集します。
@@ -166,4 +166,4 @@ ht-degree: 87%
     </tbody> 
    </table>
 
-1. （条件付き）「財務」セクションのフィールドを編集する場合は、「**変更を**&#x200B;**保存**」をクリックします。
+1. （条件付き）「財務」セクションのフィールドを編集する場合は、「**変更を****保存**」をクリックします。

@@ -7,10 +7,10 @@ description: プロジェクトのクリティカルパスの決定は、Adobe W
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 48%
+source-wordcount: '689'
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 48%
 
 * プロジェクトの作業分割構造。
 
-  詳しくは、[&#x200B; プロジェクトの作業分解構造の決定 &#x200B;](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md) を参照してください。
+  詳しくは、[ プロジェクトの作業分解構造の決定 ](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md) を参照してください。
 
 * 各タスクが完了するまでに要する時間（期間）。
 * タスク間の依存関係。
@@ -38,7 +38,7 @@ ht-degree: 48%
      >タスクの後続タスクの日付が、そのタスクの依存タスクの日付またはプロジェクトの日付に直接影響を与えていない場合、後続タスクはクリティカル パス上にありません。
      >
      >
-     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >![ クリティカルパス上に後続タスクがない ](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
    * サブタスクがクリティカル パス タスクと識別された場合、見込み開始日と親タスクの時間がサブタスクと同じであれば、その親タスクもクリティカル パス タスクと識別されます。
@@ -63,7 +63,7 @@ ht-degree: 48%
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
    <p>標準<p>
-   <p>ワークまたはそれ以上</p>
+   <p>Work またはそれ以上</p>
     </td> 
   </tr> 
   <tr> 
@@ -131,7 +131,7 @@ Workfront アプリケーションの次のエリアで、クリティカルパ�
 
    ![gantt_chart_icon__1_.png](assets/gantt-icon.png)
 
-1. 「ガントチャート」セクションの右上隅にある **オプション** アイコン ![&#x200B; オプションアイコン &#x200B;](assets/options-icon.png) をクリックし、表示されるドロップダウンで **クリティカルパス** オプションを選択します。 クリティカルパス上のタスクのタイムラインに赤い線が表示されるようになりました。
+1. 「ガントチャート」セクションの右上隅にある **オプション** アイコン ![ オプションアイコン ](assets/options-icon.png) をクリックし、表示されるドロップダウンで **クリティカルパス** オプションを選択します。 クリティカルパス上のタスクのタイムラインに赤い線が表示されるようになりました。
 
    ![crtitical_path_on_gant__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
 
@@ -145,17 +145,17 @@ Workfront アプリケーションの次のエリアで、クリティカルパ�
 
 1. 左側のパネルで、「**タスク**」をクリックします。 **タスク** タブが開きます。
 
-1. **表示** アイコン ![&#x200B; 表示アイコン &#x200B;](assets/view-icon.png) をクリックし、「**ステータス**」を選択します。 クリティカル パス上のタスクには、リストの **フラグ** 列に **クリティカル パス** フラグが表示されます。
+1. **表示** アイコン ![ 表示アイコン ](assets/view-icon.png) をクリックし、「**ステータス**」を選択します。 クリティカル パス上のタスクには、リストの **フラグ** 列に **クリティカル パス** フラグが表示されます。
 
    または
 
-   **フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filters-icon.png) をクリックし、「**+新しいフィルター**」を選択します。
+   **フィルター** アイコン ![ フィルターアイコン ](assets/filters-icon.png) をクリックし、「**+新しいフィルター**」を選択します。
 1. 最初のフィールドに「*重要*」と入力し、リストの「**タスク**」セクションの下に表示されたら選択します。
 
-   ![&#x200B; タスクが重要なフィルターです &#x200B;](assets/task-is-critical.png)
+   ![ タスクが重要なフィルターです ](assets/task-is-critical.png)
 
 1. 2 番目のドロップダウンメニューで **Is true** が選択されていることを確認します。
 
-   ![true ドロップダウン &#x200B;](assets/critical-path-filter.png)
+   ![true ドロップダウン ](assets/critical-path-filter.png)
 
 1. フィルターパネルを閉じます。 タスク リストには、クリティカル パス上のタスクのみが表示されるようになりました。

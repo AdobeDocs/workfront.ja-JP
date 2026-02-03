@@ -6,10 +6,10 @@ description: プロジェクトのタスクスケジュール間に競合が生�
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 91%
+source-wordcount: '391'
+ht-degree: 90%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 91%
 
 1. 「**設定**」をクリックします。
 
-   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![ タスク編集時の標準化の遅延 ](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. 時間単位で、「**標準化の遅延**」を指定して、時間の単位を選択します。\
    リソースの競合が原因で、リソースがタスクの開始を遅らせる時間です。

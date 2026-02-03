@@ -6,10 +6,10 @@ description: Adobe Workfrontでは、タスクに親子関係を設定できま�
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 73%
+source-wordcount: '578'
+ht-degree: 68%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Workfrontでは、タスクに親子関係を設定できます。 子タ�
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -96,12 +96,12 @@ Adobe Workfrontでは、タスクに親子関係を設定できます。 子タ�
 1. （条件付き）子タスクにするタスクが、親にするタスクの直下にまだ存在しない場合は、タスクリスト内の適切な場所にドラッグ&amp;ドロップします。
 1. サブタスクにするタスクを選択し、以下のいずれかの操作を行います。
 
-   * **インデント**&#x200B;アイコン![](assets/indent-icon-nwe-33x29.png)をクリックし、選択したタスクを、その直上にあるタスクのサブタスクにします。
+   * **インデント** アイコン ![ インデントアイコン ](assets/indent-icon-nwe-33x29.png) をクリックして、選択したタスクをそのすぐ上のタスクのサブタスクにします。
    * 標準の英語 QWERTY キーボードを使用する場合は、キーボードの Option + >（Mac）または Alt + >（Windows）を押します。他の言語では、Option +（Mac）または Alt +（Windows）コマンドを使用してインデントすることができます。
 
      >[!TIP]
      >
-     >インライン編集でタスクを編集する際には、キーボードショートカットは機能しません。その場合は、インデントアイコン ![](assets/indent-icon-nwe-33x29.png) を使用して、サブタスクを作成します。
+     >インライン編集でタスクを編集する際には、キーボードショートカットは機能しません。この場合は、インデントアイコン ![ インデントアイコン ](assets/indent-icon-nwe-33x29.png) を使用して、サブタスクを作成します。
 
    * 親タスクとして指定したいタスクの上に、タスクをドラッグ＆ドロップします。
 
@@ -132,7 +132,7 @@ Adobe Workfrontでは、タスクに親子関係を設定できます。 子タ�
 1. サブタスクをメインタスクにするプロジェクトに移動します。
 1. 左側のパネルで「**タスク**」セクションをクリックします。
 1. メインタスクにしたいサブタスクを選択します。
-1. **アウトデント**&#x200B;アイコン ![](assets/outdent-icon-nwe-31x29.png) をクリックし、サブタスクをメインタスクにします。
+1. **アウトデント** アイコン ![ アウトデントアイコン ](assets/outdent-icon-nwe-31x29.png) をクリックして、サブタスクをメインタスクにします。
 
    または
 

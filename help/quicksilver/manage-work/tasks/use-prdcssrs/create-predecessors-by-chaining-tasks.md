@@ -6,10 +6,10 @@ description: Adobe Workfront では、複数の方法で先行タスクの関係
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 92%
+source-wordcount: '282'
+ht-degree: 96%
 
 ---
 
@@ -85,7 +85,7 @@ Adobe Workfront では、複数の方法で先行タスクの関係を作成で�
 1. 左パネルで「**タスク**」をクリックします。
 1. （条件付き）タスクリストの右上隅にある「**自動保存**」を選択し、連鎖させたいタスクを選択します。
 
-   ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
+   ![ ハイライト表示の自動保存アイコン ](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >

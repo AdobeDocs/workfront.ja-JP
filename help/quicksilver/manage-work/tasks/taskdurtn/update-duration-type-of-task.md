@@ -6,10 +6,10 @@ description: タスクの期間タイプは、タスクに割り当てられた�
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 91%
+source-wordcount: '292'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 91%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>Standard 以上</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -87,7 +87,7 @@ ht-degree: 91%
 1. 左側のパネルで、「**タスク**」をクリックします。
 1. 左側のパネルメニューで「**タスクの詳細**」をクリックし、概要エリアで「**期間タイプ**」をクリックします。
 
-   ![](assets/duration-type-all-options-on-overview-350x155.png)
+   ![ 概要のすべてのオプションに期間タイプを指定 ](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. 次のオプションから選択します。
 

@@ -6,10 +6,10 @@ description: Adobe Workfront でタスクの進捗状態がどのように更新
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 69%
+source-wordcount: '207'
+ht-degree: 71%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Workfront でタスクの進捗状態がどのように更新されるか�
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p>
 
-<p>ワークまたはそれ以上</p> 
+<p>Work またはそれ以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Adobe Workfront でタスクの進捗状態がどのように更新されるか�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -87,13 +87,13 @@ Adobe Workfront でタスクの進捗状態がどのように更新されるか�
 ## タスクのトラッキングモードの設定
 
 1. トラッキングモードを設定するタスクに移動します。
-1. タスク名の横にある **詳細** アイコン ![](assets/qs-more-icon-on-an-object.png) をクリックし、「**編集** をクリックします。
+1. タスク名の横にある **その他** アイコン ![ オブジェクトの詳細アイコン ](assets/qs-more-icon-on-an-object.png) をクリックし、**編集** をクリックします。
 
    タスクの編集ダイアログボックスが開きます。
 
 1. 「**設定**」セクションで、「**トラッキングモード**」ドロップダウンメニューを使用して、タスクのトラッキングモードを選択します。
 
-   ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
+   ![ タスク設定を編集セクションの「トラッキングモード」フィールド ](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. 次のオプションから選択します。
 

@@ -6,10 +6,10 @@ description: タスクの制約は、プロジェクト上でタスクを開始�
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 97%
+source-wordcount: '304'
+ht-degree: 95%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 97%
 1. 左パネルの「**タスク**」セクションをクリックします。
 1. 左パネルの「**タスクの詳細**」をクリックし、概要エリアで「**タスクの制約**」をクリックします。
 
-   ![](assets/task-constraint-all-options-in-overview-350x254.png)
+   ![ 概要のすべてのオプションに対するタスク制約 ](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. 次のオプションから選択します。
 

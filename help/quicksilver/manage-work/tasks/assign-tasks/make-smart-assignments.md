@@ -6,10 +6,10 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 84%
   <tr> 
    <td>Adobe Workfront プラン</td> 
    <td> <p>標準</p>
-   <p>ワークまたはそれ以上</p>
+   <p>Work またはそれ以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -75,14 +75,14 @@ ht-degree: 84%
    <!--For issues, the smart assignments display in the following sections: 
       * **Users and teams**
       * **Job roles**
-        ![](assets/smart-assignments-issue-header.png)-->
+        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)-->
 
    スマート割り当ては、次のセクションに表示されます <!--, depending on which phase of the algorithm's calculation identified the assignments-->
 
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
    * **ユーザーとチーム** または **担当業務** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   ![&#x200B; タスクリスト内のスマート割り当ての例 &#x200B;](assets/smart-assignments-task-list.png)
+   ![ タスクリスト内のスマート割り当ての例 ](assets/smart-assignments-task-list.png)
 
    詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 

@@ -7,10 +7,10 @@ description: できるだけ遅く（ALAP）は、タスクの完了時間をプ
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 81%
+source-wordcount: '385'
+ht-degree: 77%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 この制約を使用すると、先行タスクまたは依存タスクのスケジュールが変更される可能性があります。
 
-先行タスク関係の詳細については、「[&#x200B; タスク先行タスクの使用：記事のインデックス &#x200B;](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)」を参照してください。
+先行タスク関係の詳細については、「[ タスク先行タスクの使用：記事のインデックス ](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)」を参照してください。
 
 プロジェクトで「完了日から」のスケジュール・モードを使用し、タスクの開始日のデフォルトがプロジェクトの予定日に基づいている場合、デフォルト制約は「可能な限り遅く」です。
 
@@ -61,13 +61,13 @@ ht-degree: 81%
 
   **例：**&#x200B;例えば、タスク A がタスク B の先行タスクであるとします。タスク A には「最も遅い空き時間」の制約が適用され、タスク B には「できるだけ早く」の制約が適用されます。この場合、タスク A はプロジェクトの開始にできるだけ近いタイミングでスケジュールされます。
 
-  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![ 利用可能な最新の時間タスク制約 ](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **できるだけ遅く：**&#x200B;このシナリオでは、先行タスクに「できるだけ遅く」の制約を適用すると、先行タスクが優先されます。
 
   **例：**&#x200B;例えば、タスク A がタスク B の先行タスクであるとします。タスク A には「できるだけ遅く」の制約が適用され、タスク B には「できるだけ早く」の制約が適用されます。この場合、タスク A はプロジェクトの終了にできるだけ近いタイミングでスケジュールされます。
 
-  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![ タスクリスト内の「可能な限り遅く」タスク制約 ](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 
 

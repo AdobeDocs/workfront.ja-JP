@@ -7,10 +7,10 @@ description: タスクの優先度を定義して、タスクの重要度を指�
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 94%
+source-wordcount: '277'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 94%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -102,5 +102,5 @@ ht-degree: 94%
 
 1. 優先度を変更するタスクに移動します。
 1. 左パネルでの「**タスクの詳細**」をクリックします。
-1. **編集**&#x200B;アイコン ![](assets/qs-edit-icon.png) をクリックしたあと、**概要**&#x200B;エリアで「**優先度**」フィールドの値を選択します。
-1. 「**変更を**&#x200B;**保存**」をクリックします。
+1. **編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックし、**概要** 領域で **優先度** フィールドの値を選択します。
+1. 「**変更を****保存**」をクリックします。

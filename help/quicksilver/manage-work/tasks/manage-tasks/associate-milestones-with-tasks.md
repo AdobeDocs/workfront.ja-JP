@@ -6,10 +6,10 @@ description: タスクにマイルストーンを関連付けることで、プ�
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 93%
+source-wordcount: '372'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 93%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> 
+   <p>Work またはそれ以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ ht-degree: 93%
 
 マイルストーンパスをプロジェクトに関連付けたら、タスクにマイルストーンを割り当てることができます。
 
-1. タスクに移動し、タスク名の右にある&#x200B;**その他**&#x200B;アイコン ![](assets/more-icon.png) をクリックして「**編集**」を選択します。
+1. タスクに移動し、タスク名の右側にある **その他** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
 
    タスクとマイルストーンには 1:1 の関係があります。 同じマイルストーンを複数のタスクに関連付けることはできません。各タスクを 1 つのマイルストーンにリンクすることも、各マイルストーンを 1 つのタスクにマッピングすることもできます。
 
@@ -111,8 +111,8 @@ ht-degree: 93%
 
    詳しくは、[Adobe Workfront でのビューの作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)を参照してください。
 
-   ![](assets/amwt3.png)
+   ![ 状態アイコン ](assets/amwt3.png)
 
 1. （オプション）プロジェクトの一覧で、**マイルストーン**&#x200B;のビューを選択して、マイルストーンタスクの進捗状況を特定します。
 
-   ![](assets/milestone-view-project-list.png)
+   ![ マイルストーン ビュープロジェクト リスト ](assets/milestone-view-project-list.png)

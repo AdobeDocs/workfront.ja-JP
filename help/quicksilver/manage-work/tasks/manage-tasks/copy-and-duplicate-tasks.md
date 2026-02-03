@@ -6,10 +6,10 @@ description: タスクをプロジェクトから別のプロジェクトにコ�
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 98%
+source-wordcount: '1744'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -108,9 +108,9 @@ ht-degree: 98%
    タスクレポートに移動します。
 
 1. （条件付き）タスクを含むプロジェクトを開いた場合は、左側のパネルで「**タスク**」をクリックします。
-1. 「**プランモード**」アイコン ![](assets/qs-list-mode-or-save-mode-icon-small.png) をクリックし、「**自動保存**」オプションが有効になっていることを確認します。
+1. **プランモード** アイコン ![ リストモードまたは保存モードアイコン ](assets/qs-list-mode-or-save-mode-icon-small.png) をクリックし、「**自動保存**」オプションが有効になっていることを確認します。
 
-   ![](assets/autosave-icon-on-highlighted-350x202.png)
+   ![ およびハイライト表示された自動保存アイコン ](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -120,9 +120,9 @@ ht-degree: 98%
 
    * タスクリストの上部で、**その他メニュー**&#x200B;をクリックし、続いて&#x200B;**コピー先**&#x200B;をクリックします。
    * 選択したタスクを右クリックし、**コピー先**&#x200B;をクリックします。
-   * 1 つのタスクを選択する場合、リスト内のタスク名の横にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon-task-list.png) をクリックし、続いて「**指定の場所にコピー**」を選択します。
+   * 1 つのタスクを選択する場合は、リスト内のタスク名の横にある **その他** メニュー ![ タスクリストの詳細アイコン ](assets/more-icon-task-list.png) をクリックし、「**コピー先**」をクリックします。
 
-   ![](assets/copy-task-in-list-nwe-350x131.png)
+   ![ リストのタスクをコピー ](assets/copy-task-in-list-nwe-350x131.png)
 
 1. 「[タスクレベルでタスクをコピー](#copy-a-task-at-the-task-level)」の節の説明に従って、ステップ 4 からタスクのコピーを続行します。
 
@@ -136,9 +136,9 @@ ht-degree: 98%
 
 1. Workfront システム内のタスクを検索して見つけます。
 1. タスクの名前をクリックして開きます。
-1. タスク名の横にある&#x200B;**その他**&#x200B;ドロップダウンメニュー ![](assets/qs-more-menu.png) をクリックし、続いて「**指定の場所にコピー**」を選択します。
+1. タスク名の横にある **その他** ドロップダウンメニュー ![ その他メニュー ](assets/qs-more-menu.png) をクリックし、「**コピー先**」をクリックします。
 
-   ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
+   ![ タスクレベルの「タスクのコピー先」オプション ](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
    「タスクをコピー」ボックスが表示されます。
 
@@ -148,7 +148,7 @@ ht-degree: 98%
    >
    >リスト内の複数のタスクをコピーする場合、このフィールドはグレー表示になり、編集できません。タスク名フィールドにポインタを合わせると、選択したすべてのタスクのリストが表示されます。
    >
-   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
+   >![ 複数のタスクのタスクをコピーするボックス ](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
 1. タスクをコピーする&#x200B;**宛先プロジェクト**&#x200B;の名前を「**宛先プロジェクトを選択**」フィールドに入力します。
 
@@ -163,7 +163,7 @@ ht-degree: 98%
 1. （条件付き）選択したプロジェクトへのアクセス権がない場合は、「**アクセスをリクエスト**」をクリックして、プロジェクトへのアクセス権をリクエストします。
 1. （条件付き）対象プロジェクトのタスクの 1 つにタスクを追加するアクセス権がある場合は、アクセスをリクエストせずに、引き続き選択した対象プロジェクトにタスクをコピーします。
 
-   ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
+   ![ プロジェクトからタスク要求アクセスをコピー ](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
@@ -251,7 +251,7 @@ ht-degree: 98%
 
    または
 
-   リスト内の複数のタスクを選択する場合、**タスクをコピー**&#x200B;をクリックします。
+   リスト内の複数のタスクを選択する場合、**タスクをコピー**をクリックします。
 コピーされたタスクは指定したプロジェクト上にあり、選択した親タスクのサブタスクか、プロジェクト上の最後のタスクになります。
 
 ## タスクを複製
@@ -290,11 +290,11 @@ ht-degree: 98%
 1. 左側のパネルの「**タスク**」をクリックします。
 1. 次のいずれかの操作を行います。
 
-   * （条件付き）**プランモード**&#x200B;アイコン ![](assets/qs-list-mode-or-save-mode-icon-small.png) をクリックし、「**自動保存**」オプションが有効になっていることを確認し、複製するタスクを選択して、**その他のメニュー** ![](assets/qs-more-menu-29x11.png)／**複製**&#x200B;をクリックします。
+   * （条件付き） **計画モード** アイコン ![ リストモードまたは保存モードの小さいアイコン ](assets/qs-list-mode-or-save-mode-icon-small.png) をクリックして、「**自動保存**」オプションが有効になっていることを確認し、複製するタスクを選択して、**詳細メニュー**![ 詳細メニュー ](assets/qs-more-menu-29x11.png)/**複製** をクリックします。
 
-     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![ リストメニュー項目の重複タスク ](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * （条件付き）**プランモード**&#x200B;アイコン ![](assets/qs-list-mode-or-save-mode-icon-small.png)／**手動保存**／**標準**&#x200B;または&#x200B;**タイムラインの計画**&#x200B;をクリックし、次の操作を行います。
+   * （条件付き） **計画モード** アイコン ![ リストモードまたは保存モードの小さいアイコン ](assets/qs-list-mode-or-save-mode-icon-small.png)/**手動保存**/**標準** または **タイムライン計画** をクリックして、次の操作を実行します。
 
       1. 複製する 1 つまたは複数のタスクを選択し、「**複製**」をクリックします。
       1. （オプション）「**取り消し**」をクリックして変更を元に戻し、タスクを複製しないようにします。
