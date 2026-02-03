@@ -6,16 +6,14 @@ description: Adobe Workfront は、2025年10月23日（PT）に API バージョ
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 040e714c2f81ba764c7895be430446add1250a83
+source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '932'
 ht-degree: 79%
 
 ---
 
 # API バージョン 21 の新機能
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 >[!IMPORTANT]
 >
@@ -680,8 +678,6 @@ Rate オブジェクトは、Workfront の請求料金を表します。
 
 Role オブジェクト（担当業務）は、デザイナーやプロダクトマネージャーなど、ユーザーが入力できる機能またはスキルセットを表します。
 
-<div class="preview">
-
 <table>
   <col/>
   <col/>
@@ -709,8 +705,6 @@ Role オブジェクト（担当業務）は、デザイナーやプロダクト
     </tr>
   </tbody>
 </table>
-
-</div>
 
 ### スケジュール済みレポート （SCHREP）
 
