@@ -6,10 +6,10 @@ description: 1 つのオブジェクトにアタッチされたカスタムフ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 85%
+source-wordcount: '1064'
+ht-degree: 77%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 85%
 
 ## 前提条件
 
-* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 * オブジェクトには、カスタムフォームを添付する必要があります。
 
   カスタムフォームをオブジェクトに追加する方法についての情報は、[オブジェクトにカスタムフォームを追加](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
@@ -86,10 +86,10 @@ ht-degree: 85%
 
 1. 追加したカスタムフォームの順序を変更するオブジェクトに移動し、オブジェクトの編集を開始します。
 
-   **例：** 例えば、プロジェクトのカスタムフォームを管理するには、プロジェクトに移動し、**その他**&#x200B;メニュー![](assets/more-icon.png)、**編集**&#x200B;の順にクリックします。
+   **例：** 例えば、プロジェクトのカスタムフォームを管理するには、プロジェクトに移動して、**詳細** メニュー ![ 詳細メニュー ](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
 
-1. プロジェクト、タスク、およびイシューの&#x200B;**カスタムフォーム**&#x200B;セクションで、カスタムフォーム名の横にある ![](assets/move-icon---dots.png) アイコンをクリックします。他のすべてのオブジェクトについては、「**フォームの管理**」をクリックします。このオプションは、1 つ以上のカスタムフォームがオブジェクトに添付されている場合にのみ表示されます。
-1. フォーム ![](assets/move-icon---dots.png) をリスト内の新しい場所にドラッグします。
+1. プロジェクト、タスクおよび問題用の **カスタムForms** セクションで、カスタムフォームの名前の横にある ![ 移動アイコン ](assets/move-icon---dots.png) アイコンをクリックします。 他のすべてのオブジェクトについては、「**フォームの管理**」をクリックします。このオプションは、1 つ以上のカスタムフォームがオブジェクトに添付されている場合にのみ表示されます。
+1. フォーム ![ 移動アイコン ](assets/move-icon---dots.png) をリストの新しい場所にドラッグします。
 1. プロジェクト、タスク、およびイシューのカスタムフォームの場合は、「**保存**」をクリックします。
 
    他のすべてのオブジェクトに対して、**管理は完了しました** > **変更を保存** をクリックします。
@@ -104,8 +104,8 @@ ht-degree: 85%
 
    例えば、プロジェクトに移動する場合は、「**プロジェクトの詳細**」セクションをクリックします。
 
-1. オブジェクトのページの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**すべて編集** をクリックします。
-1. カスタムフォーム名の右側 **ある** 削除 ![](assets/delete-icon.png) アイコンをクリックし、「**削除**」をクリックして確定してオブジェクトからフォームを削除するか、「**キャンセル**」をクリックして削除を防ぎます。
+1. オブジェクトのページの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、「**すべて編集** をクリックします。
+1. カスタムフォーム名の右側にある **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックし、**削除** をクリックして、オブジェクトからフォームを確認して削除するか、**キャンセル** をクリックして削除しないようにします。
 1. 「**変更を保存**」をクリックします。
 
 ## 同じカスタムフィールドを含む複数のカスタムフォームを管理
@@ -116,7 +116,7 @@ ht-degree: 85%
 
   同じオブジェクトに添付された異なるフォーム上の同じフィールドに異なる値を設定することはできません。
 
-* 2 つの異なるオブジェクトに同じ計算フィールドがある場合、エラーを避けるためにそれらの計算が同一である必要があります。複数のフォームを含むカスタムフォームに計算フィールドを追加する方法については、[&#x200B; フォームに計算フィールドを追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+* 2 つの異なるオブジェクトに同じ計算フィールドがある場合、エラーを避けるためにそれらの計算が同一である必要があります。複数のフォームを含むカスタムフォームに計算フィールドを追加する方法については、[ フォームに計算フィールドを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 ## オブジェクトを一括編集するときに複数のカスタムフォームを管理
 
@@ -135,7 +135,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 オブジェクトを一括編集するときに複数のカスタムフォームを編集するには、次の手順を実行します。
 
-1. リストオブジェクトで、カスタムフォームが添付されているオブジェクトを選択し、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+1. リストオブジェクトで、カスタムフォームが添付されているオブジェクトを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. 「**カスタムフォーム**」をクリックします。
 
    選択したすべてのオブジェクトに添付されているカスタムフォームのみを編集できます。

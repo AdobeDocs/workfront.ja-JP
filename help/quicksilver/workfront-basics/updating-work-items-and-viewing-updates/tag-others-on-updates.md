@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクトにアップデートコメント
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 82%
+source-wordcount: '960'
+ht-degree: 81%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-詳しくは、[Workfrontのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfrontのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -167,13 +167,13 @@ ht-degree: 82%
 
    タグ付きエンティティの名前が、アバターの横に最大 2 つのエンティティまで表示されます。3 つ以上のエンティティがタグ付けされている場合は、最初のエンティティの名前に加えて、タグ付けされている追加のエンティティの数が表示されます。
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![ メンバーアイコンが展開されました ](assets/members-icons-expanded-unshimmed.png)
 
    コメントテキストでタグ付けされている場合、そのコメント内で自分の名前がハイライト表示されます。
 
    作業項目の更新時に使用できる追加機能について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. （オプション）コメントの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックしたあと、「**編集**」をクリックします。タグ付けされたユーザーを削除して、「**送信**」をクリックします。
+1. （オプション）コメントの右上隅にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、「**編集**」をクリックします。 タグ付けされたユーザーを削除して、「**送信**」をクリックします。
 
    >[!IMPORTANT]
    >
@@ -206,7 +206,7 @@ You can manually tag users in the legacy Updates section.
    >
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   ![](assets/tag-users-in-update.png)
+   ![Tag users in update](assets/tag-users-in-update.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
@@ -225,7 +225,7 @@ You can manually tag users in the legacy Updates section.
 
    You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
-   ![](assets/tagging-transparency-350x192.png)
+   ![Tagging transparency](assets/tagging-transparency-350x192.png)
 -->
 
 作業項目の更新時に使用できる追加機能について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。

@@ -1,14 +1,14 @@
 ---
 content-type: overview
 title: 概要パネルについて
-description: 概要パネルを使用すると、タスクやイシュー、ドキュメントのリスト、またはタスクやイシューを表示する  [!DNL Adobe Workfront]  の他のエリアから直接、作業アイテムの情報を確認および更新できます。
+description: 概要パネルを使用すると、タスクのイシューやドキュメントのリスト、またはタスクやイシューを表示するその他の領域から作業項目の情報を直接確認  [!DNL Adobe Workfront]  よび更新できます。
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 93%
+source-wordcount: '908'
+ht-degree: 83%
 
 ---
 
@@ -107,11 +107,11 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 ## タスクまたはイシューのリストで[!UICONTROL 概要]パネルを表示する
 
 1. タスクまたはイシューに移動し、リストからアイテムを選択します。
-1. **[!UICONTROL 概要]**&#x200B;アイコン ![](assets/qs-summary-in-new-toolbar-small.png) をクリックします。
+1. **[!UICONTROL 概要]** アイコン ![ 新しいツールバーの概要 ](assets/qs-summary-in-new-toolbar-small.png) をクリックします
 
    または
 
-   [!UICONTROL リクエスト]エリアの「[!UICONTROL 送信済み]」セクションにある&#x200B;**[!UICONTROL 概要を開く]**&#x200B;アイコン ![](assets/open-summary-with-text-nwe.png) をクリックします。
+   **[!UICONTROL リクエスト]** エリアの ![ 送信済み ](assets/open-summary-with-text-nwe.png) セクションにある [!UICONTROL  概要を開く ] アイコン [!UICONTROL  概要をテキストで開く ] をクリックします。
 
    概要を開いた後、他のタスクやイシューをクリックまたは選択しても、概要は手動で閉じるまで開いたままになります。
 
@@ -123,13 +123,13 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 1. （オプション）[!UICONTROL 概要]パネルを閉じるには、次のいずれかの操作を行います。
 
-   * タスクまたは問題のリストで、**[!UICONTROL 概要を開く]**&#x200B;アイコン ![](assets/summary-panel-icon.png) をクリックします。
+   * タスクまたは問題のリストで、「**[!UICONTROL 概要を開く]**」アイコン ![ 概要パネルアイコン ](assets/summary-panel-icon.png) をクリックします
 
      または
 
      [!UICONTROL 概要]パネルの右上隅にある **X** アイコンをクリックします。
 
-   * [!UICONTROL リクエスト]領域の「[!UICONTROL 送信済み]」セクションで、**[!UICONTROL 概要を閉じる]**&#x200B;アイコン ![](assets/close-summary-with-text-nwe.png) をクリックします。
+   * [!UICONTROL  リクエスト ] エリアの「[!UICONTROL  送信済み ]」セクションで、**[!UICONTROL 概要を閉じる]** アイコン ![ 概要をテキストで閉じる ](assets/close-summary-with-text-nwe.png) をクリックします
 
      または
 
@@ -137,7 +137,7 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 ## [!UICONTROL 完了率]
 
-[!UICONTROL &#x200B; 概要 &#x200B;] の上部にある進捗の青いバブルを使用して、選択したタスクまたは問題の完了率を更新します。 数値を入力するか、通芯記号を正しいパーセンテージにドラッグします。
+[!UICONTROL  概要 ] の上部にある進捗の青いバブルを使用して、選択したタスクまたは問題の完了率を更新します。 数値を入力するか、通芯記号を正しいパーセンテージにドラッグします。
 
 概要パネルでバブルをドラッグ&amp;ドロップすると、完了率が 1 点増分で更新されます。 小数は入力できません。
 

@@ -2,10 +2,9 @@
 title: リクエストキューへのリンクの共有
 description: リクエストの送信時に、リクエストキュー、トピックグループまたはキューのトピックへのリンクを共有できます。
 author: Becky
-draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 79%
