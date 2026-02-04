@@ -5,9 +5,9 @@ title: キャンバスダッシュボードでの通貨フィールドの使用
 description: キャンバスダッシュボードで通貨フィールドを使用できます。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '622'
 ht-degree: 10%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
@@ -69,11 +69,11 @@ ht-degree: 10%
 
 ## 前提条件
 
-1. この記事に記載されている機能を使用するには、Workfront インスタンスに複数の通貨タイプを設定する必要があります。 詳しくは、「[&#x200B; 為替レートの設定 &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md) を参照してください。
+1. この記事に記載されている機能を使用するには、Workfront インスタンスに複数の通貨タイプを設定する必要があります。 詳しくは、「[ 為替レートの設定 ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md) を参照してください。
 
    >[!IMPORTANT]
    >
-   >この記事で説明されている機能は、ネイティブ通貨フィールドにのみ適用されます。 通貨の為替レートがある場合、カスタム通貨フィールドのサポートは近日中に設定されます。
+   >この記事で説明されている機能は、ネイティブ通貨フィールドにのみ適用されます。 カスタム通貨フィールドのサポートは、近日中に提供されます。
 
 
 ## キャンバスダッシュボードのデフォルト通貨の設定
@@ -120,7 +120,7 @@ ht-degree: 10%
 1. ダッシュボードの詳細ページの右上隅にある「通貨」ドロップダウンメニューをクリックします。
 1. リストから目的の通貨タイプを選択します。
 
-   ![&#x200B; 通貨ドロップダウンの変更 &#x200B;](assets/filter-by-currency.png)
+   ![ 通貨ドロップダウンの変更 ](assets/filter-by-currency.png)
 
 
 ## 制限事項
