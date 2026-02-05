@@ -18,7 +18,7 @@ Workfrontの AI アシスタントは、アカウントデータと特定のオ�
 
 この記事では、明確なプロンプトを記述する方法、情報を要求できるオブジェクト タイプ、必要に応じて情報を検証するために追加のリソースにアクセスする方法など、AI アシスタントの現在のベスト プラクティスについて学習します。
 
-AI アシスタントについて詳しくは、「[AI アシスタントの概要 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)」を参照してください。
+AI アシスタントについて詳しくは、「[AI アシスタントの概要 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)」を参照してください。
 
 >[!NOTE]
 >
@@ -52,16 +52,16 @@ AI アシスタントから最も有用な情報にアクセスするには、�
 * **期間を含める**: AI アシスタントにオブジェクトに特定の期間を指定すると、処理する必要があるデータを絞り込むのに役立ち、応答でよりターゲットを絞った情報が得られます。
 * **一度に 1 つのことを尋ねる**：無関係な複数のリクエストが 1 つのプロンプトに含まれる場合、AI アシスタントは適切な情報を提供できません。
 
-推奨されるプロンプトの詳細については、この記事の次のセクションを参照してください：[ プロンプトの例 ](#prompt-examples)。
+推奨されるプロンプトの詳細については、この記事の次のセクションを参照してください：[&#x200B; プロンプトの例 &#x200B;](#prompt-examples)。
 
 
 ### AI アシスタントの応答の検証
 
 AI アシスタントの開発のこの段階では、Workfront プロセスに関する情報を要求する際に、提供される情報を確認することをお勧めします。 それには、プロンプト応答の「ソース」セクションに表示される記事リンクをクリックします。
 
-![Sources セクション ](assets/sources-section.png)
+![Sources セクション &#x200B;](assets/sources-section.png)
 
-Workfront プロセスのプロンプトについて詳しくは、この記事の [Workfrontのアクションについてのプロンプト ](#prompts-to-learn-about-workfront-actions) を参照してください。
+Workfront プロセスのプロンプトについて詳しくは、この記事の [Workfrontのアクションについてのプロンプト &#x200B;](#prompts-to-learn-about-workfront-actions) を参照してください。
 
 
 ## プロンプトの例
