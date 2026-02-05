@@ -1,24 +1,24 @@
 ---
-title: AI アシスタントがベストプラクティスを促します
+title: AI アシスタントのプロンプトとベストプラクティス
 content-type: reference
 description: AI アシスタントを使用する際のベストプラクティスについて説明し、プロンプトの例のリストを示します。
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: 4bab0129d694d7134a5dae90474678226368ca78
+source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 4%
 
 ---
 
-# AI アシスタントがベストプラクティスを促します
+# AI アシスタントのプロンプトとベストプラクティス
 
 Workfrontの AI アシスタントは、アカウントデータと特定のオブジェクトタイプに関する有用な情報を提供することで、作業をより効果的に達成するのに役立つ強力なツールです。
 
 この記事では、明確なプロンプトを記述する方法、情報を要求できるオブジェクト タイプ、必要に応じて情報を検証するために追加のリソースにアクセスする方法など、AI アシスタントの現在のベスト プラクティスについて学習します。
 
-AI アシスタントについて詳しくは、「[AI アシスタントの概要 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)」を参照してください。
+AI アシスタントについて詳しくは、「[AI アシスタントの概要 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)」を参照してください。
 
 >[!NOTE]
 >
@@ -52,16 +52,16 @@ AI アシスタントから最も有用な情報にアクセスするには、�
 * **期間を含める**: AI アシスタントにオブジェクトに特定の期間を指定すると、処理する必要があるデータを絞り込むのに役立ち、応答でよりターゲットを絞った情報が得られます。
 * **一度に 1 つのことを尋ねる**：無関係な複数のリクエストが 1 つのプロンプトに含まれる場合、AI アシスタントは適切な情報を提供できません。
 
-推奨されるプロンプトの詳細については、この記事の次のセクションを参照してください：[&#x200B; プロンプトの例 &#x200B;](#prompt-examples)。
+推奨されるプロンプトの詳細については、この記事の次のセクションを参照してください：[ プロンプトの例 ](#prompt-examples)。
 
 
 ### AI アシスタントの応答の検証
 
 AI アシスタントの開発のこの段階では、Workfront プロセスに関する情報を要求する際に、提供される情報を確認することをお勧めします。 それには、プロンプト応答の「ソース」セクションに表示される記事リンクをクリックします。
 
-![Sources セクション &#x200B;](assets/sources-section.png)
+![Sources セクション ](assets/sources-section.png)
 
-Workfront プロセスのプロンプトについて詳しくは、この記事の [Workfrontのアクションについてのプロンプト &#x200B;](#prompts-to-learn-about-workfront-actions) を参照してください。
+Workfront プロセスのプロンプトについて詳しくは、この記事の [Workfrontのアクションについてのプロンプト ](#prompts-to-learn-about-workfront-actions) を参照してください。
 
 
 ## プロンプトの例
