@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '7642'
-ht-degree: 93%
+source-wordcount: '7726'
+ht-degree: 92%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -130,7 +130,7 @@ ht-degree: 93%
 
 1. （オプション）右上隅の「**自分が参加するプロジェクト**」または「**自分が所有するプロジェクト**」をクリックして、自分が所有者であるプロジェクト、またはプロジェクトチームの一員であるプロジェクトを表示します。
 
-   ![&#x200B; 自分のボタンにプロジェクト &#x200B;](assets/projects-on-my-own-buttons-350x302.png)
+   ![ 自分のボタンにプロジェクト ](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
@@ -140,7 +140,7 @@ ht-degree: 93%
 
 1. （オプション）プロジェクトに関する限定的な情報を編集するには、左パネルの「**プロジェクト詳細**」をクリックします。プロジェクトに関するすべての情報を編集する場合は、手順 5 に進みます。<!--accurate?!-->
 
-   ![&#x200B; プロジェクト詳細の展開 &#x200B;](assets/nwe-project-details-expanded-350x298.png)
+   ![ プロジェクト詳細の展開 ](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
@@ -148,15 +148,15 @@ ht-degree: 93%
 
    「詳細」セクションの情報を編集するには、次の手順を実行します。
 
-   1. （オプション）右上隅の **すべて折りたたむ** アイコン ![&#x200B; すべて折りたたむアイコン &#x200B;](assets/collapse-icon.png) をクリックすると、すべての領域が折りたたまれます。
-   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![&#x200B; 右向き矢印 &#x200B;](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
+   1. （オプション）右上隅の **すべて折りたたむ** アイコン ![ すべて折りたたむアイコン ](assets/collapse-icon.png) をクリックすると、すべての領域が折りたたまれます。
+   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![ 右向き矢印 ](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
    1. 「プロジェクトの詳細」タブでの情報の編集について詳しくは、次の記事を参照してください。
 
       * [プロジェクトの概要エリアで情報を管理](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [プロジェクトの財務エリアでの情報の管理](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. （オプション）カスタムフォームを添付するには、「**カスタムフォームを追加**」フィールドにフォームの名前の入力を開始し、リストに表示されたらフォームを選択して、「**変更を保存**」をクリックします。
-   1. （オプション） **書き出し** アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックして、概要とカスタムフォーム情報をPDF ファイルに書き出し、「**書き出し**」をクリックします。 次の中から選択します。
+   1. （オプション） **書き出し** アイコン ![ 書き出しアイコン ](assets/export.png) をクリックして、概要とカスタムフォーム情報をPDF ファイルに書き出し、「**書き出し**」をクリックします。 次の中から選択します。
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
       * 概要
@@ -164,16 +164,16 @@ ht-degree: 93%
 
       PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-      ![&#x200B; 「書き出し」ボタンを含む「イシューの詳細を書き出し」選択ボックス &#x200B;](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![ 「書き出し」ボタンを含む「イシューの詳細を書き出し」選択ボックス ](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       詳しくは、[カスタムフォームとオブジェクトの詳細を書き出す](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
    「プロジェクトの詳細」セクションに表示されるフィールドについて詳しくは、次に説明するように、「プロジェクトを編集」ボックスでプロジェクトの編集を続けます。
-1. プロジェクトに関するすべての情報を編集するには、プロジェクト名の横にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/qs-more-menu.png) をクリックし、**編集** をクリックします。
+1. プロジェクトに関するすべての情報を編集するには、プロジェクト名の横にある **詳細** メニュー ![ 詳細メニュー ](assets/qs-more-menu.png) をクリックし、**編集** をクリックします。
 
    または
 
-   プロジェクトのリストから 1 つ以上のプロジェクトを選択し、リストの上部にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+   プロジェクトのリストから 1 つ以上のプロジェクトを選択し、リストの上部にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    プロジェクトを一括編集する方法について詳しくは、この記事の[プロジェクトの一括編集](#edit-projects-in-bulk)の節を参照してください。
 
@@ -211,7 +211,7 @@ ht-degree: 93%
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左側のパネルの「**プロジェクト名**」をクリックします。
 
-   ![&#x200B; プロジェクトを編集ボックスのプロジェクト名領域 &#x200B;](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![ プロジェクトを編集ボックスのプロジェクト名領域 ](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. プロジェクトの名前を更新します。
 
@@ -222,7 +222,7 @@ ht-degree: 93%
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左側のパネルにある「**承認**」をクリックします。
 
-   ![&#x200B; プロジェクト編集ボックスの「概要」エリア &#x200B;](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![ プロジェクト編集ボックスの「概要」エリア ](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. プロジェクトに関する次の情報を更新します。
 
@@ -368,13 +368,13 @@ ht-degree: 93%
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左パネルで「**カスタムフォーム**」をクリックします。
 
-   ![&#x200B; プロジェクトを編集ボックスのカスタムフォーム &#x200B;](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![ プロジェクトを編集ボックスのカスタムフォーム ](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. 「**カスタムフォームを追加**」ボックスをクリックし、リストからフォームを選択してプロジェクトに添付します。デフォルトでは、最初の 40 個のフォームがアルファベット順に表示されます。リストにフォームが表示されない場合は、名前の入力を開始し、リストに表示されたら選択します。
 
    >[!NOTE]
    >
-   >このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのプロジェクトには、最大 10 個のカスタムフォームを追加できます。
+   >このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのプロジェクトには、最大 10 個のカスタムフォームを追加できます。
 
 
 1. （条件付き）カスタムフォームをプロジェクトに添付した場合は、フォーム上の任意のフィールドを編集します。プロジェクトを保存する前に、すべての必須フィールドを指定する必要があります。
@@ -403,7 +403,7 @@ ht-degree: 93%
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左側のパネルで「**財務**」をクリックします。
 
-   ![&#x200B; プロジェクト編集ボックスの「財務」エリア &#x200B;](assets/nwe-finance-in-edit-project-box-350x183.png)
+   ![ プロジェクト編集ボックスの「財務」エリア ](assets/nwe-finance-in-edit-project-box-350x183.png)
 
 1. プロジェクトの次の財務情報を更新します。
 
@@ -461,7 +461,7 @@ ht-degree: 93%
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左側のパネルで「**プロジェクト設定**」をクリックします。
 
-   ![&#x200B; プロジェクト編集ボックスの「プロジェクト設定」領域 &#x200B;](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![ プロジェクト編集ボックスの「プロジェクト設定」領域 ](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. 次の情報を更新します。
 
@@ -585,7 +585,7 @@ ht-degree: 93%
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左パネルの「**タスク設定**」をクリックします。
 
-   ![&#x200B; プロジェクトを編集ボックスのタスク設定 &#x200B;](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   ![ プロジェクトを編集ボックスのタスク設定 ](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
 1. 「**タスク既定の承認プロセス**」フィールドで、プロジェクトに追加する際にすべての新規タスクに関連付けるタスク承認プロセスを選択します。
 
@@ -596,10 +596,10 @@ ht-degree: 93%
    * 同じグループから複数のプロジェクトを選択すると、システムレベルとグループ固有の両方のタスク承認プロセスがこのフィールドに表示されます。
    * 異なるグループから複数のプロジェクトを選択すると、このフィールドにはシステムレベルのタスク承認プロセスのみが表示されます。
 
-1. すべての新しいタスクをプロジェクトに追加する際に、それらに関連付けるカスタムフォーム（複数可）を、「**タスク既定のカスタム フォーム**」フィールドで選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのタスクに最大 10 個のカスタムフォームを関連付けることができます。
+1. すべての新しいタスクをプロジェクトに追加する際に、それらに関連付けるカスタムフォーム（複数可）を、「**タスク既定のカスタム フォーム**」フィールドで選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのタスクに最大 10 個のカスタムフォームを関連付けることができます。
 1. （オプション）予定時間数ではなく作業量を使用したタスク作業量の管理を有効にする場合は、「**作業量を使うとタスクの予定時間数を自動的に計算できます**」を選択します。
 
-   ![&#x200B; プロジェクトを編集ボックスでの作業量 &#x200B;](assets/nwe-work-effort-on-projects-350x182.png)
+   ![ プロジェクトを編集ボックスでの作業量 ](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. （条件付きおよびオプション）「作業量を使うとタスクの予定時間数を自動的に計算できます」を選択した場合、各作業量レベルのドロップダウンメニューをクリックし、各レベルのパーセンテージを選択します。次のパーセンテージ値がデフォルトです。
 
@@ -624,7 +624,7 @@ ht-degree: 93%
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左パネルの「**問題設定**」をクリックします。
 
-   ![&#x200B; プロジェクトを編集ボックスのイシュー設定 &#x200B;](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![ プロジェクトを編集ボックスのイシュー設定 ](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. （オプション）「**ユーザーがインラインで問題を追加できるようにする**」オプションの選択を解除します。デフォルトで選択されています。
 
@@ -653,10 +653,19 @@ ht-degree: 93%
 
 ### アクセス {#access}
 
+ユーザーがプロジェクトに受け取る権限のほか、これらのオブジェクトタイプのいずれかを操作する際のプロジェクトのタスクとイシューを定義できます。
+
+>[!IMPORTANT]
+>
+>プロジェクトを編集する際に、プロジェクト、タスク、および問題に対する権限を変更すると、アクセス権が変更された後に、ユーザーがこれらのオブジェクトタイプを操作する際に権限を付与する方法が確立されます。
+>
+>この設定を変更しても、ユーザーが既に割り当てられているか、含まれている項目に対する、これらのオブジェクトタイプへのユーザーの権限は遡って変更されません。
+
+
 1. 前述の説明に従って、プロジェクトの編集を開始します。
 1. 左側のパネルで「**アクセス**」をクリックします。
 
-   ![&#x200B; プロジェクトを編集ボックスのアクセス領域 &#x200B;](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![ プロジェクトを編集ボックスのアクセス領域 ](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. プロジェクトに関する以下の&#x200B;**アクセス**&#x200B;情報を指定します。
 
@@ -705,7 +714,7 @@ ht-degree: 93%
 
    ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
 
-1. 指定されたスペースにコメントを追加します。 Workfrontが、プロジェクトの「更新」領域にコメントを追加します。 作業の更新について詳しくは、[&#x200B; 作業の更新 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
+1. 指定されたスペースにコメントを追加します。 Workfrontが、プロジェクトの「更新」領域にコメントを追加します。 作業の更新について詳しくは、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 1. 「**保存**」をクリックします。
 
 
@@ -715,7 +724,7 @@ ht-degree: 93%
 
 システム管理者またはグループ管理者は、プロジェクトヘッダーに表示されるフィールドをカスタマイズできます。
 
-![&#x200B; プロジェクトヘッダー &#x200B;](assets/project-header-350x18.png)
+![ プロジェクトヘッダー ](assets/project-header-350x18.png)
 
 デフォルトでは、次のフィールドがプロジェクトヘッダーに含まれています。
 
@@ -749,21 +758,21 @@ ht-degree: 93%
 
 * 同じフィールドに異なる値を持つプロジェクトを選択すると、フィールドの「プロジェクトを編集」ボックスに「複数の値」のインジケーターが表示されます。チェックボックス、ラジオボタン、切替スイッチの各フィールドの横には、「複数の値」インジケーターが表示されます。
 
-  ![&#x200B; プロジェクトの一括編集における「日付の複数値インジケーター」ボックス &#x200B;](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![ プロジェクトの一括編集における「日付の複数値インジケーター」ボックス ](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * 「複数の値」インジケーターに加えて、選択したプロジェクトの 1 つ以上で選択したオプションが異なる場合、複数のオプションがあるフィールドは、次のいずれかの方法で表示されます。
 
    * チェックボックスフィールドには、選択したプロジェクトの一部ではチェックされているが、すべてではチェックされていないオプションにチェックボックスの代わりに、線が表示されます。
 
-     ![&#x200B; プロジェクトの一括編集での「複数値インジケーター」チェックボックス &#x200B;](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![ プロジェクトの一括編集での「複数値インジケーター」チェックボックス ](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * 切替スイッチタイプのフィールドはグレー表示になり、選択した一部のプロジェクトで有効になっているが、すべてのプロジェクトで有効になっていないオプションが中央に表示されます。
 
-  ![&#x200B; プロジェクトの一括編集でハイライト表示された複数の値 &#x200B;](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![ プロジェクトの一括編集でハイライト表示された複数の値 ](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * 一部のオプションが選択されているが、すべてではないラジオボタンタイプのフィールドは、すべてのラジオボタンが空として表示されます。
 
-     ![&#x200B; 複数値インジケーターのラジオボタンの一括編集プロジェクトボックス &#x200B;](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+     ![ 複数値インジケーターのラジオボタンの一括編集プロジェクトボックス ](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * 複数オプションフィールドで 1 つのオプションを更新する場合（切替スイッチまたはチェックボックスのセットとして表示されるフィールドなど）、他のすべてのオプションは選択したプロジェクト間で一致する必要があります。
 
@@ -778,10 +787,10 @@ ht-degree: 93%
 {{step1-to-projects}}
 
 1. リスト内の複数のプロジェクトを選択します。
-1. リスト上部の **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. リスト上部の **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 **プロジェクトを編集**&#x200B;ダイアログボックスが開きます。
 
-   ![&#x200B; プロジェクトを一括で編集モーダル &#x200B;](assets/edit-projects-in-bulk-modal-unshimmed.png)
+   ![ プロジェクトを一括で編集モーダル ](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
 Workfront 管理者またはグループ管理者がレイアウトテンプレートを変更する方法によっては、「プロジェクトを編集」ボックスの左側のパネルにあるエリアまたはこれらのエリアに表示されるフィールドが再配置されるか、表示されない場合があります。詳しくは、[レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
@@ -795,7 +804,7 @@ Workfront 管理者またはグループ管理者がレイアウトテンプレ�
 
    選択したすべてのプロジェクトに添付されるカスタムフォームは、**カスタムフォーム**&#x200B;領域の共通の&#x200B;**サブセクションの**&#x200B;カスタムフォームで表示されます。
 
-   ![&#x200B; 一括編集プロジェクトで共通するカスタムフォーム &#x200B;](assets/custom-forms-in-common-unshimmed.png)
+   ![ 一括編集プロジェクトで共通するカスタムフォーム ](assets/custom-forms-in-common-unshimmed.png)
 
    >[!TIP]
    >
@@ -804,7 +813,7 @@ Workfront 管理者またはグループ管理者がレイアウトテンプレ�
 1. **カスタムフォームを追加**&#x200B;フィールドにカスタムフォームの名前を入力します。
 
 
-   ![Formsは、プロジェクトの一括編集で既にインジケーターを添付しています &#x200B;](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   ![Formsは、プロジェクトの一括編集で既にインジケーターを添付しています ](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    選択したプロジェクトに既に添付されているカスタムフォームは、**カスタムフォームを追加**&#x200B;フィールドの&#x200B;**添付されたフォーム**&#x200B;サブセクションに表示されます。
 
@@ -832,10 +841,10 @@ Workfront 管理者またはグループ管理者がレイアウトテンプレ�
 イシューの設定エリアの編集について詳しくは、この記事の、[イシューの設定](#issue-settings)の節を参照してください。
 1. 選択したすべてのプロジェクトのアクセス設定を編集するには、「**アクセス**」をクリックします。
 アクセスエリアの編集について詳しくは、この記事の、[アクセス](#access)の節を参照してください。
-1. **コメント** をクリックし、表示されたスペースにコメントを追加します。 Workfrontが、各プロジェクトの **更新** 領域にコメントを追加します。 作業の更新について詳しくは、[&#x200B; 作業の更新 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
+1. **コメント** をクリックし、表示されたスペースにコメントを追加します。 Workfrontが、各プロジェクトの **更新** 領域にコメントを追加します。 作業の更新について詳しくは、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 1. （オプション）「プロジェクトを編集」ボックスに追加した情報を削除するには、編集したフィールドの上にポインタを合わせて、フィールドの右上にある「**x**」破棄アイコンをクリックします。
 
-   ![&#x200B; 一括編集プロジェクトのフィールドの破棄アイコン &#x200B;](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   ![ 一括編集プロジェクトのフィールドの破棄アイコン ](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. （オプション）**プロジェクトを編集**&#x200B;ページの最下部で「**キャンセル**」をクリックして、すべてのプロジェクトに対して行われたすべての変更を削除します。
 1. 「**保存**」をクリックします。

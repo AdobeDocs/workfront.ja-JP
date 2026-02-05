@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 6%
@@ -28,7 +28,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 レコードのプレビューおよびページのレイアウトを変更すると、同じ種類のすべてのレコードのプレビューボックスおよび詳細ページに変更が反映されます。
 
-ここでは、レコードのプレビューボックスまたはレコード ページのレイアウトと外観を変更する方法について説明します。 レコードの編集方法については、「[&#x200B; レコードの編集 &#x200B;](/help/quicksilver/planning/records/edit-records.md)」を参照してください。
+ここでは、レコードのプレビューボックスまたはレコード ページのレイアウトと外観を変更する方法について説明します。 レコードの編集方法については、「[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md)」を参照してください。
 
 レコードページの編集を開始する前に、レコードタイプとレコードを作成する必要があります。
 
@@ -73,7 +73,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -157,13 +157,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * レコードのプレビューで行った表示の変更は、レコードの詳細ページにすぐに表示されます。 レコードページで加えた変更は、レコードプレビューボックスにも表示されます。
 
-* レコードにカバー画像またはサムネールを追加することが、レコードのプレビューまたはページの全体的なレイアウトの一部ではない。 各レコードに一意のカバー画像またはサムネールを追加できます。 詳しくは、[&#x200B; レコードへのカバー画像の追加 &#x200B;](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) および [&#x200B; レコードへのサムネールの追加 &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
+* レコードにカバー画像またはサムネールを追加することが、レコードのプレビューまたはページの全体的なレイアウトの一部ではない。 各レコードに一意のカバー画像またはサムネールを追加できます。 詳しくは、[ レコードへのカバー画像の追加 ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) および [ レコードへのサムネールの追加 ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
 
 * レコードのページに次のタイプのページを追加できます。
 
    * 接続されたレコードページ
 
-     詳しくは、[&#x200B; 接続されたレコードページをレコードに追加する &#x200B;](#add-a-connected-records-page-to-a-record) の節を参照してください。
+     詳しくは、[ 接続されたレコードページをレコードに追加する ](#add-a-connected-records-page-to-a-record) の節を参照してください。
 
 ## レコードのプレビューまたはページへのセクションの追加
 
@@ -171,7 +171,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * ページ上に配置できるセクションの数に制限はありません。
 * 空のセクションを指定することはできません。 セクションに少なくとも 1 つのフィールドが必要です。
-* あるセクションから別のセクションにフィールドをドラッグ&amp;ドロップできます。 詳しくは、この記事の「[&#x200B; レコードのプレビューまたは詳細ページのフィールドの管理 &#x200B;](#manage-fields-in-the-records-details-tab) を参照してください。
+* あるセクションから別のセクションにフィールドをドラッグ&amp;ドロップできます。 詳しくは、この記事の「[ レコードのプレビューまたは詳細ページのフィールドの管理 ](#manage-fields-in-the-records-details-tab) を参照してください。
 * セクションからすべてのフィールドを削除すると、そのセクションは自動的に削除され、元に戻すことはできません。
 
 レコードのプレビューまたはページにセクションを追加するには：
@@ -190,25 +190,25 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    または
 
-   テーブルビューで、最初の列の **詳細を開く** アイコン ![&#x200B; テーブル名フィールドで詳細を開くアイコン &#x200B;](assets/open-details-icon-in-table-name-field.png) をクリックします。
+   テーブルビューで、最初の列の **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。
 
-   レコードのプレビューがビューで開きます。
+   <span class="preview"> レコードのプレビューがビューで開きます。</span>
 
-   ![&#x200B; 詳細ボックス &#x200B;](assets/details-box.png)
+   ![ 詳細ボックス ](assets/details-box.png)
 
-1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![&#x200B; 新しいタブで詳細を開くアイコン &#x200B;](assets/open-details-in-a-new-tab-icon.png) 新しいタブでレコードのページを開く）をクリックします。
+1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) 新しいタブでレコードのページを開く）をクリックします。
 
    レコードページが開きます。 「詳細」タブがデフォルトで開きます。
 
-   ![&#x200B; 詳細ページ &#x200B;](assets/details-page.png)
+   ![ 詳細ページ ](assets/details-page.png)
 
-1. レコードのプレビューまたはページの「**詳細**」タブで、フィールドの左側の空白にマウスポインターを置き、「**セクションを追加** アイコン ![&#x200B; セクションを追加アイコン &#x200B;](assets/add-section-icon.png) をクリックして、セクションを追加します。
+1. レコードのプレビューまたはページの「**詳細**」タブで、フィールドの左側の空白にマウスポインターを置き、「**セクションを追加** アイコン ![ セクションを追加アイコン ](assets/add-section-icon.png) をクリックして、セクションを追加します。
 1. セクション名の内側をクリックして **名称未設定セクション** を名前に置き換え、Enter キーを押します。 セクションの下に表示されるフィールドは、自動的に新しいセクションの一部になります。
-1. この記事の節 [&#x200B; レコードのプレビューまたは詳細ページのフィールドの管理 &#x200B;](#manage-fields-in-the-records-details-tab) で説明しているように、新しいセクションへのフィールドのドラッグ&amp;ドロップを開始します。
+1. この記事の節 [ レコードのプレビューまたは詳細ページのフィールドの管理 ](#manage-fields-in-the-records-details-tab) で説明しているように、新しいセクションへのフィールドのドラッグ&amp;ドロップを開始します。
 
-1. （オプション）セクションの名前の上にマウスポインターを置いて、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックします。
+1. （オプション）セクションの名前の上にマウスポインターを置いて、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします。
 
-   ![&#x200B; レコードページのセクションのその他のメニューオプション &#x200B;](assets/more-menu-options-for-section-on-record-page.png)
+   ![ レコードページのセクションのその他のメニューオプション ](assets/more-menu-options-for-section-on-record-page.png)
 1. （オプション）次のいずれかの操作を行って、セクションを編集します。
 
    * **名前変更** をクリックして、セクションの名前を変更します
@@ -229,19 +229,19 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. セクション名の左側にある下向き矢印をクリックして折りたたむか、右向き矢印をクリックして展開します。
 デフォルトでは、すべてのセクションが展開されます。
 
-1. （オプション）セクション名の左側にある **グラブ** アイコン ![&#x200B; グラブアイコン &#x200B;](assets/grab-icon.png) をクリックし、目的の場所にドラッグ&amp;ドロップします。
+1. （オプション）セクション名の左側にある **グラブ** アイコン ![ グラブアイコン ](assets/grab-icon.png) をクリックし、目的の場所にドラッグ&amp;ドロップします。
 
    レコードを表示するすべてのユーザーに対して、同じタイプのすべてのレコードのプレビューとページの両方で、セクションの新しい位置が更新されます。
 
    セクションとフィールドの順序に対するすべての変更は、自動的に保存されます。
 
-1. （オプション） **エクスポート** メニュー ![&#x200B; レコードの詳細ページのエクスポートアイコン &#x200B;](assets/export-icon-in-record-details-page.png) をクリックして、「詳細」タブを Word またはPDF ファイルにエクスポートします。 詳しくは、[&#x200B; レコードの詳細のエクスポート &#x200B;](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
+1. （オプション） **エクスポート** メニュー ![ レコードの詳細ページのエクスポートアイコン ](assets/export-icon-in-record-details-page.png) をクリックして、「詳細」タブを Word またはPDF ファイルにエクスポートします。 詳しくは、[ レコードの詳細のエクスポート ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
 1. （オプション）「**詳細**」タブの横にある「**接続**」タブをクリックします。 場合によっては、[**接続**] タブをクリックする前に **詳細** をクリックする必要があります。
 
    選択したレコードに接続されているすべてのレコードまたはオブジェクトが、レコードタイプの名前または属するアプリケーションの名前の下に表示されます。
 
-   ![Workfront Planning のレコードの「接続」タブ &#x200B;](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Workfront Planning のレコードの「接続」タブ ](assets/connections-tab-on-record-in-workfront-planning.png)
 
 1. （オプション）「接続」タブの右上隅にある「**すべてのレコードを表示**」設定を選択します。 接続されているレコードがまだないレコードも含め、すべての接続されているレコードタイプが表示されます。 デフォルトでは、切替スイッチは選択解除されており、接続されたレコードがないレコードタイプは非表示になっています。
 
@@ -269,11 +269,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    または
 
-   テーブルビューで、最初の列の **詳細を開く** アイコン ![&#x200B; テーブル名フィールドで詳細を開くアイコン &#x200B;](assets/open-details-icon-in-table-name-field.png) をクリックします。
+   テーブルビューで、最初の列の **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。
 
-   レコードのプレビューがビューで開きます。
+   <span class="preview"> レコードのプレビューがビューで開きます。</span>
 
-   ![&#x200B; 詳細ボックス &#x200B;](assets/details-box.png)
+   ![ 詳細ボックス ](assets/details-box.png)
 
 1. <span class="preview"> （オプションおよび条件付き）詳細ページに表示するフィールドに応じて、次のいずれかの操作を行います。</span>
 
@@ -296,13 +296,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    </div>
 
-1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![&#x200B; 新しいタブアイコンで詳細ボックスを開く &#x200B;](assets/open-details-in-a-new-tab-icon.png)<!--check the icon; they are changing it--> をクリックして、レコードのページを新しいタブで開きます。
+1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブアイコンで詳細ボックスを開く ](assets/open-details-in-a-new-tab-icon.png)<!--check the icon; they are changing it--> をクリックして、レコードのページを新しいタブで開きます。
 
    レコード **詳細** ページが新しいタブで開きます。
 
-   ![&#x200B; 詳細ページ &#x200B;](assets/details-page.png)
+   ![ 詳細ページ ](assets/details-page.png)
 
-1. レコード **詳細** タブで、フィールド名の左側にある **グラブ** アイコン ![&#x200B; グラブアイコン &#x200B;](assets/grab-icon.png) をクリックしてから、目的の場所にドラッグ&amp;ドロップします。
+1. レコード **詳細** タブで、フィールド名の左側にある **グラブ** アイコン ![ グラブアイコン ](assets/grab-icon.png) をクリックしてから、目的の場所にドラッグ&amp;ドロップします。
 
    >[!TIP]
    >
@@ -318,7 +318,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 レコードの詳細領域に [ 接続されたレコード ] ページのタブを追加すると、接続されたレコードまたはオブジェクトの情報を表示できます。 これにより、テーブル表示またはリスト表示の接続されたレコードがタブに追加されます。
 
-詳しくは、[&#x200B; 接続されたレコードページのレコードへの追加 &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を参照してください。
+詳しくは、[ 接続されたレコードページのレコードへの追加 ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を参照してください。
 
 <!--this content has been moved to the page linked above
 Consider the following when adding a Connected records page to a record: 
