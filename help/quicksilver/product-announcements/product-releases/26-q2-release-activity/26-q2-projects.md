@@ -4,10 +4,10 @@ description: 2026年第 2 四半期のプロジェクトの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
+source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 35%
+source-wordcount: '272'
+ht-degree: 21%
 
 ---
 
@@ -16,6 +16,27 @@ ht-degree: 35%
 このページでは、2026 年第 2 四半期リリースで行われた、プレビュー環境に対するプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2026年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)を参照してください。
+
+## および単一または一括割り当てのテンプレートタスクのタイミングとエクスペリエンスが更新されました
+
+>[!NOTE]
+>
+>プレビュー：2026 年 2 月 5 日（PT）
+>実稼動：2026 年 2 月 5 日より\
+>[!BADGE  スケジュール外 ]{type=Neutral}
+
+単一のテンプレートタスクの編集または一括編集を行う際に、「テンプレートタスクを編集」ボックスの「割り当て」セクションを更新しました。  
+この更新には、次の変更が含まれています。 
+
+* テンプレートタスクにリソースを割り当てる新しいエクスペリエンスが追加されました。 この機能は、1 つのテンプレートタスクを一括編集する場合でも、複数のテンプレートタスクを一括編集する場合でも使用できるようになりました。 「割り当て」セクションに次のフィールドを追加しました。 
+
+   * 割り当て 
+   * 所有者またはタスク所有者 
+   * 割り当て先の役割 
+
+* 「古いエクスペリエンスに戻す」オプションが削除されました。
+
+詳しくは、[ テンプレートタスクの編集 ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md) を参照してください
 
 ## タスクを単一または一括割り当てする際のエクスペリエンスを更新しました
 

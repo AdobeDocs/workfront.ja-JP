@@ -4,10 +4,10 @@ description: このページでは、2026年第 2 四半期リリースに含ま
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 33%
+source-wordcount: '854'
+ht-degree: 31%
 
 ---
 
@@ -104,6 +104,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>四半期ごと</strong></td>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}"> および単一または一括割り当てのテンプレートタスクのタイミングとエクスペリエンスが更新されました </a><p>[!BADGE Off schedule]{type=Neutral}</p><p> 単一のテンプレートタスクの編集または一括編集を行う際に、「テンプレートタスクを編集」ボックスの「割り当て」セクションを更新しました。  </p>
+        </td>
+        <td><p>2026年2月5日（PT）</p></td>
+        <td><p>2026 年 2 月 5 日より</p></td>
+        <td><p>2026 年 2 月 5 日より</p></td>
+    </tr>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}"> タスクを単一または一括割り当てした場合のエクスペリエンス </a> 更新されました<p>[!BADGE Off schedule]{type=Neutral}</p><p> 単一のタスクの編集時または一括編集時に、「タスクを編集」ボックスの「割り当て」セクションを更新しました。 </p>
         </td>
         <td><p>2026年1月26日（PT）</p></td>
@@ -156,7 +164,7 @@ Workfront Fusion の新機能は、標準のリリーススケジュール以外
 
 ### Workfront計画の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 2 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md) を参照してください。
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 2 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md) を参照してください。
 
 このリリースの現時点では、次の更新はありません。
 
@@ -201,7 +209,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 
 ### Workfront のメンテナンス更新
