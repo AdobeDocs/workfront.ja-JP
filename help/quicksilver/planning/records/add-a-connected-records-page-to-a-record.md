@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '1843'
 ht-degree: 3%
 
 ---
-
 
 # 接続されたレコード ページをレコードに追加する
 
@@ -76,7 +76,7 @@ Adobe Workfront Planning のレコードに「接続されたレコード」ペ�
    <ul><li><p>Adobe Experience Manager Assets ライセンス、およびAEM Assets を Planning レコードタイプと統合するためのAEM AssetsとWorkfrontの統合。</p>
    <p>詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials：記事インデックス </a> を参照してください。 </p></li>
    <li><p> レコードタイプとGenStudio ブランドを接続するためのAdobe GenStudio for Performance Marketing ライセンス</p>
-   <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ </a> を参照してください。</p></li></ul>
+   <p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ </a> を参照してください。</p></li></ul>
    </td> 
   </tr>
 
@@ -95,7 +95,7 @@ Adobe Workfront Planning のレコードに「接続されたレコード」ペ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -107,11 +107,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 次のいずれかの領域で **ページを追加** をクリックします。
 
    * レコードのプレビューウィンドウ
-   * レコードの詳細ページ。プレビューページの右上隅にある **新しいタブで開く** アイコン ![&#x200B; 新しいタブで詳細を開くアイコン &#x200B;](assets/open-details-in-a-new-tab-icon.png) をクリックします。
+   * レコードの詳細ページ。プレビューページの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックします。
 
    **ページを作成** ボックスが開きます。
 
-   ![&#x200B; 接続されたレコードを追加ページモーダル &#x200B;](assets/add-connection-view-page-modal.png)
+   ![ 接続されたレコードを追加ページモーダル ](assets/add-connection-view-page-modal.png)
 
 1. **ページ名** を追加し、**ページタイプ** の **接続されたレコードページ** をクリックして、**作成** をクリックします。
 1. （省略可能） リスト内で接続されているレコードまたはオブジェクト タイプの名前をクリックするか、そのレコードまたはオブジェクト タイプを検索し、リストに表示されたらクリックして、そのレコードまたはオブジェクト タイプのページを作成します。
@@ -123,7 +123,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. （オプションおよび条件付き）ページを作成するレコード タイプまたはオブジェクト タイプの接続されたフィールドが複数表示される場合は、[ 接続されたレコード ] ページに表示するレコードまたはオブジェクトのフィールドを **参照フィールドを選択** リストからクリックします。
 
-   ![&#x200B; 参照フィールドの選択リスト &#x200B;](assets/select-reference-field-list-on-connected-records-page.png)
+   ![ 参照フィールドの選択リスト ](assets/select-reference-field-list-on-connected-records-page.png)
 
    接続されたレコード ページに、次のいずれかのページが追加されます。
 
@@ -138,22 +138,22 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    接続されたレコードの最初の 5 つのフィールドは、デフォルトで表示されます。 デフォルトでは、参照フィールドは表示されません。
 
-   ![&#x200B; キャンペーンの詳細のオーディエンスに接続されたテーブル表示 &#x200B;](assets/audience-connected-table-view-under-campaign-details-page.png)
+   ![ キャンペーンの詳細のオーディエンスに接続されたテーブル表示 ](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. （条件付き）接続されたレコード ページに表示するレコードの種類に応じて、次のいずれかの操作を行います。
 
    * 計画レコードの管理
-詳しくは、この記事の [Planning レコードの接続されたレコードの管理ページ &#x200B;](#manage-the-connected-records-page-for-planning-records) の節を参照してください。
+詳しくは、この記事の [Planning レコードの接続されたレコードの管理ページ ](#manage-the-connected-records-page-for-planning-records) の節を参照してください。
    * Workfront プロジェクトの管理
-詳しくは、この記事の [Workfront プロジェクトの接続されたレコードのページの管理 &#x200B;](#manage-the-connected-records-page-for-workfront-projects) を参照してください。
+詳しくは、この記事の [Workfront プロジェクトの接続されたレコードのページの管理 ](#manage-the-connected-records-page-for-workfront-projects) を参照してください。
 
 1. （オプション）「**接続されたレコード」ページ** タブの名前をダブルクリックします
 
    または
 
-   タブの名前にポインタを合わせ、**その他** ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**名前を変更** をクリックして、新しく接続されたレコードページタブに名前を変更します。
+   タブの名前にポインタを合わせ、**その他** ![ その他メニュー ](assets/more-menu.png) をクリックしてから、**名前を変更** をクリックして、新しく接続されたレコードページタブに名前を変更します。
 
-1. （オプション）接続されたレコードページのタブの名前にポインタを合わせ、**詳細** ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**削除** をクリックしてタブを削除します。
+1. （オプション）接続されたレコードページのタブの名前にポインタを合わせ、**詳細** ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックしてタブを削除します。
 
 ### Planning レコードの接続されたレコード ページの管理
 
@@ -223,7 +223,7 @@ When you create a connected records page for connected Planning records in the P
 
 1. テーブルの下部にある「**新しい行**」をクリックして、新しいレコードを追加します。 新しいレコードは、選択したレコードに自動的に接続されます。
 1. テーブル表示で、接続されたレコードからの情報をインラインで編集します。
-1. 接続されているレコードの名前にポインタを合わせ、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックします
+1. 接続されているレコードの名前にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします
 
    または
 
@@ -236,7 +236,7 @@ When you create a connected records page for connected Planning records in the P
    * 接続されたレコードタイプに新しいレコードを追加するには、**上または下にレコードを挿入** します。 ここに追加された新しいレコードも、現在のレコードに接続されます。 このオプションは、テーブルでレコードを選択する際に青いバーでは使用できません。
    * **削除**：レコードを削除します。 接続されたレコードを削除すると、そのレコードの種類と、レコードが接続されているすべての場所からレコードが削除されます。 削除されたレコードは、レコードタイプの **最近削除された項目** ビンに移動します。
 
-     テーブルビューでのレコードの編集については、[&#x200B; レコードの編集 &#x200B;](/help/quicksilver/planning/records/edit-records.md) を参照してください。
+     テーブルビューでのレコードの編集については、[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md) を参照してください。
 
      >[!TIP]
      >
@@ -265,18 +265,18 @@ When you create a connected records page for connected Planning records in the P
    1. **ビュータイプ** 領域から、次のいずれかのタイプのビューを選択します。
 
       * テーブル
-詳しくは、[&#x200B; テーブル表示の管理 &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) を参照してください。
+詳しくは、[ テーブル表示の管理 ](/help/quicksilver/planning/views/manage-the-table-view.md) を参照してください。
       * タイムライン
-詳しくは、[&#x200B; タイムライン表示の管理 &#x200B;](/help/quicksilver/planning/views/manage-the-timeline-view.md) を参照してください。
+詳しくは、[ タイムライン表示の管理 ](/help/quicksilver/planning/views/manage-the-timeline-view.md) を参照してください。
       * カレンダー
-詳しくは、[&#x200B; カレンダー表示の管理 &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md) を参照してください。
+詳しくは、[ カレンダー表示の管理 ](/help/quicksilver/planning/views/manage-the-calendar-view.md) を参照してください。
 
-        詳しくは、この記事の [&#x200B; 接続されたレコードのページから複数のビューを管理する &#x200B;](#manage-multiple-views-from-the-connected-records-page) の節を参照してください。
+        詳しくは、この記事の [ 接続されたレコードのページから複数のビューを管理する ](#manage-multiple-views-from-the-connected-records-page) の節を参照してください。
 
    1. 「**作成**」をクリックします。
 新しいビューが「ビュー」ドロップダウンメニューに追加されます。
 
-   1. （オプション）作成したビューの名前にポインタを合わせ、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、次のいずれかのオプションをクリックします。
+   1. （オプション）作成したビューの名前にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、次のいずれかのオプションをクリックします。
 
       * **名前を変更**：ビューに新しい名前を追加します。
       * **共有**
@@ -285,9 +285,9 @@ When you create a connected records page for connected Planning records in the P
       * **書き出し**
 
       * **削除**
-詳しくは、[&#x200B; レコードビューの削除 &#x200B;](/help/quicksilver/planning/views/delete-record-views.md) を参照してください。
+詳しくは、[ レコードビューの削除 ](/help/quicksilver/planning/views/delete-record-views.md) を参照してください。
 
-        ![&#x200B; プロジェクトの接続されたレコード ページの「詳細を表示」メニュー &#x200B;](assets/view-more-menu-projects-connected-records-page.png)
+        ![ プロジェクトの接続されたレコード ページの「詳細を表示」メニュー ](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >
@@ -295,76 +295,42 @@ When you create a connected records page for connected Planning records in the P
 
 ### Workfront プロジェクトの「接続されたレコード」ページを管理します
 
-接続されたWorkfront プロジェクトの「接続されたレコード」ページを作成する場合、次の操作を行います。
+接続されたWorkfront プロジェクトに「接続されたレコード」ページを作成する場合、次の手順を実行してページを管理します。
 
 1. レコードタイプのページに移動し、レコードの名前をクリックします。 これにより、レコードのプレビューページが開きます。
-1. Workfront プロジェクトを表示する接続済みレコードページのタブをクリックします。
+1. Workfront プロジェクトを表示する [ 接続されたレコード ] ページのタブをクリックします。
 選択したレコードに接続されているプロジェクトがリスト表示に表示されます。
 1. 接続されたレコードページの右上隅にある「**レコードを接続**」をクリックして、既存のプロジェクトを接続します。
 
    詳しくは、[レコードを接続する](/help/quicksilver/planning/records/connect-records.md)を参照してください。
-1. テーブル内のインライン編集プロジェクト情報。
-1. **新しい行** をクリックして、テンプレートを使用せずにプロジェクトを作成します。 新しいプロジェクトは、現在のレコードに自動的に接続されます。
+1. リスト表示のセル内をダブルクリックして、プロジェクトのフィールドを編集します。 読み取り専用のフィールドがあります。
+1. リスト表示を編集するには、次のいずれかの操作を行います。
 
-   詳しくは、[&#x200B; レコードに関連付ける際に、Workfront Planning からWorkfront オブジェクトを作成する &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
+   * **新しい行** をクリックして、テンプレートを使用せずにプロジェクトを作成します。 新しいプロジェクトは、現在のレコードに自動的に接続されます。
 
-1. リストのプロジェクト名にポインタを合わせて、「**詳細**」メニュー [&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックします。
+     詳しくは、[ レコードに関連付ける際に、Workfront Planning からWorkfront オブジェクトを作成する ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
+   * 既存のプロジェクトを追加するには、ビューの右上隅にある「**レコードを作成**」をクリックします。 プロジェクトは、選択したレコードに直ちに接続されます。
 
-   または
+   * リストのプロジェクト名にポインタを合わせ、**詳細** メニュー [ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**表示** をクリックすると、別のタブでプロジェクトが開きます
 
-   1 つ以上のプロジェクトを選択し、リストの下部にある青いバーに注目して、次のいずれかをクリックします。
+     または
 
-   * **削除**：プロジェクトを削除します。 プロジェクトを削除すると、レコードから切断され、Workfrontのごみ箱に移動されます。 Workfront管理者は、削除されたプロジェクトを、削除されてから最大 30 日後まで復元できます。
-   * **切断**：レコードからプロジェクトを切断します。 プロジェクトの接続を解除すると、プロジェクトとその参照フィールドのすべての値が現在のレコードから削除されます。
+     1 つ以上のプロジェクトを選択し、リストの下部にあるアクションバーから **削除** または **切断** をクリックして、リストから項目を削除します。
 
-     >[!TIP]
-     >
-     >複数のプロジェクトを選択して切断したり、削除することができます。
-     >
 
-1. ビューのドロップダウンメニューをクリックし、**新規ビュー** をクリックしてページの新しいビューを追加するには、次の手順を実行します。
+   * ビューのドロップダウン メニューをクリックし、[**新しいビュー**] をクリックしてページに新しいビューを追加し、次の操作を行うか、または新しい名前の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、ビューの **名前を変更**、**共有**、または **削除** をクリックします。
 
-   1. **ビュー名** を追加します。
-   1. **ビュータイプ** エリアから **リスト** を選択します。
-   1. 「**作成**」をクリックします。
-新しいリスト表示が「**マイビュー** エリアの表示ドロップダウンメニューに追加されます。
+     管理権限のないシステムビューやビューの名前変更、共有、削除はできません。
 
-      詳しくは、この記事の [&#x200B; 接続されたレコードのページから複数のビューを管理する &#x200B;](#manage-multiple-views-from-the-connected-records-page) の節を参照してください。
+     ![ プロジェクトの接続されたレコード ページの「詳細を表示」メニュー ](assets/view-more-menu-projects-connected-records-page.png)
 
-   1. （オプション）作成したビューの名前にポインタを合わせ、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、次のいずれかのオプションをクリックします。
-      * **名前を変更**：ビューに新しい名前を追加します。
-      * **共有**
+   * 次のいずれかをクリックして、ビューの要素を更新します。
 
-        詳しくは、[ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
+      * **フィルター** でリスト内の情報量を制限
+      * **列** 列の非表示や順序の変更
+      * テーブル表示の右上隅にある「**+**」アイコンを使用して、既存のフィールドをリストに追加します。 フィールドは、追加する前に存在する必要があります。
 
-      * **削除**
-詳しくは、[&#x200B; レコードビューの削除 &#x200B;](/help/quicksilver/planning/views/delete-record-views.md) を参照してください。
-
-        ![&#x200B; プロジェクトの接続されたレコード ページの「詳細を表示」メニュー &#x200B;](assets/view-more-menu-projects-connected-records-page.png)
-
-        >[!NOTE]
-        >
-        >Workfrontで作成されたシステムビューの名前変更、共有、削除はできません。
-
-   1. **フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) をクリックし、フィルターを使用して特定のプロジェクトを表示します。
-
-      >[!TIP]
-      >
-      >**所有者**、**スポンサー** などの人物タイプのフィールドの場合、ワイルドカードを使用して、ログインしたユーザーがこれらの役割に割り当てられているプロジェクトを表示できます。
-      >
-      >![&#x200B; プロジェクトに接続されたレコードページのユーザーワイルドカードを使用してフィルター &#x200B;](assets/filter-with-user-wildcard-project-connected-records-page.png)
-      >
-
-   1. **列** アイコン ![&#x200B; 列アイコン &#x200B;](assets/columns-icon.png) をクリックして、リストの列の表示と非表示を切り替えます。
-   1. テーブルに既存のフィールドを追加するには、テーブル表示の右上隅にある「**+**」アイコンをクリックします。 フィールドは、追加する前に存在する必要があります。
-
-      **列マネージャー** ボックスが開きます。 次の操作を実行します。
-
-      1. 「**利用可能**」列で既存のオブジェクトフィールドを検索し、フィールド名の右側にある **+** をクリックして、「**選択済み**」列に追加します。
-
-         選択したフィールドは、接続されたレコード ページのテーブル ビューに追加されます。
-      1. **選択済み** 列のフィールドの右側にある **-** をクリックして、テーブル表示から削除します。
-      1. **保存** をクリックして、接続されたレコードページのテーブルビューを保存します。
+   リスト表示でのオブジェクトの管理の詳細については、「[ リスト表示の管理 ](/help/quicksilver/planning/views/manage-the-list-view.md)」を参照してください。
 
 <!-- this is repetitive from an earlier section above: 
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 68%
+source-wordcount: '94'
+ht-degree: 65%
 
 ---
 
@@ -26,5 +26,6 @@ ht-degree: 68%
 * [テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 * [カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)
+* [リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)
 * [レコードビューを削除](/help/quicksilver/planning/views/delete-record-views.md)
 * [レコードビューを複製](/help/quicksilver/planning/views/duplicate-record-views.md)
