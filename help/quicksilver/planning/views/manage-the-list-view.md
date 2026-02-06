@@ -66,7 +66,7 @@ Adobe Workfront Planning のレコードの「接続されたレコード」ペ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++ 
 
@@ -76,24 +76,24 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    * Workfront プロジェクト
 
-  接続レコード ページを作成する方法については、[ レコードに接続レコード ページを追加する ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を参照してください。
+  接続レコード ページを作成する方法については、[&#x200B; レコードに接続レコード ページを追加する &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を参照してください。
 * レコードの接続済みレコードページでリストビューを表示する前に、Workfront プロジェクトを Planning レコードタイプに関連付ける必要があります。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
-* リスト表示は、拡張リストに似ています。 詳しくは、[ 拡張リストの使用 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
+* リスト表示は、拡張リストに似ています。 詳しくは、[&#x200B; 拡張リストの使用 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
 
 
 ## リスト表示の管理 {#manage-a-list-view}
 
-Workfrontでのリストビューの管理について詳しくは、[ 拡張リストの使用 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
+Workfrontでのリストビューの管理について詳しくは、[&#x200B; 拡張リストの使用 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
 
 {{step1-to-planning}}
 
 1. ワークスペースカードをクリックし、レコードタイプのカードをクリックします。
 1. 任意の表示でレコードの名前をクリックして、レコードのプレビューまたは詳細ページを開きます。
-1. **レコードへの接続されたレコード ページの追加** の記事で説明されているように、接続されたプロジェクトに [ 接続されたレコード ページ ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を追加します。
+1. **レコードへの接続されたレコード ページの追加** の記事で説明されているように、接続されたプロジェクトに [&#x200B; 接続されたレコード ページ &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) を追加します。
 
    接続されたレコード ページには、リスト表示でレコードに接続されたプロジェクトが表示されます。
 
-   ![ リスト表示の接続されたレコードページのプロジェクト ](assets/projects-on-connected-records-page-list-view.png)
+   ![&#x200B; リスト表示の接続されたレコードページのプロジェクト &#x200B;](assets/projects-on-connected-records-page-list-view.png)
 
 1. （オプション）次のいずれかの操作を行って、リスト表示を変更します。
 
@@ -101,7 +101,7 @@ Workfrontでのリストビューの管理について詳しくは、[ 拡張リ
 
       ビューは、システム全体で共有されます。 あるレコードタイプに対してプロジェクト ビューを作成すると、接続されたプロジェクトを表示する他のレコードタイプで表示できます。
 
-   1. 既存のビューの名前にポインタを合わせて **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックし、次のいずれかをクリックします。
+   1. 既存のビューの名前にポインタを合わせて **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックし、次のいずれかをクリックします。
       * **名前を変更**：ビューに新しい名前を付けます。
       * **共有**：他のユーザーとビューを共有します
       * **削除**：ビューを削除します。
@@ -112,8 +112,8 @@ Workfrontでのリストビューの管理について詳しくは、[ 拡張リ
       >
       >システム・ビューは変更できません。
       >
-   1. **フィルター** アイコン ![ フィルターアイコン ](assets/filter-icon.png) をクリックして、ビューにフィルターを追加します。 結果は、リスト内で直ちにフィルタリングされます。 フィルターを保存して名前を付けることはできません。 フィルターは、今後ページにアクセスしたときに記憶されるもので、共有ビューの一部です。
-   1. **列** アイコン ![ 列アイコン ](assets/columns-icon.png) をクリックして、表示する列またはビューで非表示にする列を選択します。
+   1. **フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) をクリックして、ビューにフィルターを追加します。 結果は、リスト内で直ちにフィルタリングされます。 フィルターを保存して名前を付けることはできません。 フィルターは、今後ページにアクセスしたときに記憶されるもので、共有ビューの一部です。
+   1. **列** アイコン ![&#x200B; 列アイコン &#x200B;](assets/columns-icon.png) をクリックして、表示する列またはビューで非表示にする列を選択します。
    1. 列名にポインタを合わせ、列名の左にある下向き矢印をクリックして、次のいずれかをクリックします。
       * **名前を変更**：列に **カスタムラベル** を追加します。 Workfrontの元のフィールドの名前は変更されません。
       * **並べ替え**：選択したフィールドでリストを並べ替えます。 並べ替えの方向を示す並べ替えアイコンが列ヘッダーに追加されます。
@@ -135,7 +135,7 @@ Workfrontでのリストビューの管理について詳しくは、[ 拡張リ
 
    読み取り専用のフィールドがあります。 例えば、プロジェクトの完了率は、システムによって計算されたフィールドであり、手動で編集することはできません。
 
-1. リスト内の項目の名前にポインタを合わせ、「**詳細**」メニュー [ 詳細メニュー ](assets/more-menu.png) をクリックしてから、「**表示**」をクリックして別のタブでプロジェクトを開きます
+1. リスト内の項目の名前にポインタを合わせ、「**詳細**」メニュー [&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**表示**」をクリックして別のタブでプロジェクトを開きます
 
    または
 
@@ -144,5 +144,5 @@ Workfrontでのリストビューの管理について詳しくは、[ 拡張リ
    * **削除**：プロジェクトを削除します。 プロジェクトを削除すると、レコードから切断され、Workfrontのごみ箱に移動されます。 Workfront管理者は、削除されたプロジェクトを、削除されてから最大 30 日後まで復元できます。
    * **切断**：レコードからプロジェクトを切断します。 プロジェクトの接続を解除すると、プロジェクトとその参照フィールドのすべての値が現在のレコードから削除されます。
 
-   ![ 接続されたレコードページのリストビューのアクションバー ](assets/actions-bar-connected-records-page-list-view.png)
+   ![&#x200B; 接続されたレコードページのリストビューのアクションバー &#x200B;](assets/actions-bar-connected-records-page-list-view.png)
 
