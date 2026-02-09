@@ -5,10 +5,10 @@ description: AI を使用すると、プロンプトを入力したりドキュ�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b34d7f48a51acf4bd6ddfa203c9e0024b2e8c280
+source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 8%
+source-wordcount: '1416'
+ht-degree: 7%
 
 ---
 
@@ -16,13 +16,9 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->この機能を使用するには、Workfront AI アシスタントを使用するための要件を満たす必要があります。 詳しくは、[AI アシスタントの前提条件 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
+>この機能を使用するには、Workfront AI アシスタントを使用するための要件を満たす必要があります。 詳しくは、[AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
 
 AI フォーム入力は、入力したプロンプトに基づいてリクエストフィールドに自動入力するのに役立ちます。 また、メールやアップロードされたドキュメントなど、テキストに基づくフィールドに入力することもできます。 リクエストを送信する前に、これらの提案を承認または却下できます。
-
-AI フォーム入力によって、既に入力したフィールドが上書きされることはありません。
-
-ユーザーは、アクセス権のないデータの候補を受け取ることはありません。
 
 ## アクセス要件
 
@@ -59,17 +55,26 @@ AI フォーム入力によって、既に入力したフィールドが上書�
 
 ## 前提条件
 
-AI フォーム入力を使用してプロンプトまたはドキュメントを使用してリクエストを入力するには、次の **すべて** を適用する必要があります。
+AI を活用したフォームの入力を使用してプロンプトやドキュメントを使用してリクエストを入力するには、次の **すべて** を適用する必要があります。
 
 * 組織がAdobe IMS（Identity Management System）に移行している必要があります
 * Adobe統合エクスペリエンスを有効にする必要があります
 * 組織には Select、Prime、UltimateのいずれかのWorkfront プランが必要です
 * Adobeは、ファイルにAdobe生成 AI 契約を署名済みにする必要があります
 
-  契約書への署名について詳しくは、「AI アシスタントの概要」の [AdobeGen AI 契約書への署名 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
+  契約書への署名について詳しくは、「AI アシスタントの概要」の [AdobeGen AI 契約書への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
 * 組織のシステム設定で、AI アシスタントを有効にする必要があります。 これは、Workfront管理者が管理します。
 
-  システム設定で AI アシスタントを有効にする方法については、[AI アシスタントを有効または無効にする &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+  システム設定で AI アシスタントを有効にする方法については、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+
+## AI を活用したフォーム入力を使用する際の考慮事項
+
+AI を活用したフォーム入力を使用する場合は、次の点を考慮してください
+
+* AI フォーム入力によって、既に入力したフィールドが上書きされることはありません。
+* ユーザーは、アクセス権のないデータの候補を受け取ることはありません。
+* AI を利用したフォーム入力で使用するファイルは、24 時間 Azure ストレージにアップロードされます。 これはドキュメント処理に必要です。
+* Azure にアップロードされたすべてのファイルは、現在、24 時間のストレージウィンドウの US Azure クラスターに保存されています。
 
 ## テキストプロンプトから提案を取得する
 
@@ -85,13 +90,13 @@ AI フォーム入力は、メールなどのテキストに基づいてフィ�
 
 1. リクエストの作成を開始します。
 
-   手順については、[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+   手順については、[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
 
-1. テキストプロンプトをフォーム全体に適用するには、フォーム名の下にある AI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png) をクリックします。
+1. テキストプロンプトをフォーム全体に適用するには、フォーム名の下にある AI アイコン ![AI アイコン ](assets/request-prompt-icon.png) をクリックします。
 
    または
 
-   1 つのセクションにテキストプロンプトを適用するには、セクション名の横にある AI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png) をクリックします。
+   1 つのセクションにテキストプロンプトを適用するには、セクション名の横にある AI アイコン ![AI アイコン ](assets/request-prompt-icon.png) をクリックします。
 
 1. テキストをプロンプトボックスに貼り付けます。
 1. **フォームに入力** をクリックします。
@@ -99,7 +104,7 @@ AI フォーム入力は、メールなどのテキストに基づいてフィ�
    Workfrontによってフォームの候補が生成されます。
 1. フィールドの提案ごとに、そのフィールドに対して「**確定**」または **却下** を選択します。
 
-   ![&#x200B; 提案を承認または却下 &#x200B;](assets/accept-reject-suggestion.png)
+   ![ 提案を承認または却下 ](assets/accept-reject-suggestion.png)
 
    または
 
@@ -269,13 +274,13 @@ AI フォーム入力にドキュメントをアップロードする際は、�
 
 1. リクエストの作成を開始します。
 
-   手順については、[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+   手順については、[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
 
-1. フォーム全体にドキュメントを適用するには、フォーム名の下にある AI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png) をクリックします。
+1. フォーム全体にドキュメントを適用するには、フォーム名の下にある AI アイコン ![AI アイコン ](assets/request-prompt-icon.png) をクリックします。
 
    または
 
-   1 つのセクションにドキュメントを適用するには、セクション名の横にある AI アイコン ![AI アイコン &#x200B;](assets/request-prompt-icon.png) をクリックします。
+   1 つのセクションにドキュメントを適用するには、セクション名の横にある AI アイコン ![AI アイコン ](assets/request-prompt-icon.png) をクリックします。
 
 1. **ファイルをアップロード** をクリックし、ファイルマネージャーからファイルを選択します。
 
@@ -287,7 +292,7 @@ AI フォーム入力にドキュメントをアップロードする際は、�
    Workfrontによってフォームの候補が生成されます。
 1. フィールドの提案ごとに、そのフィールドに対して「**確定**」または **却下** を選択します。
 
-   ![&#x200B; 提案を承認または却下 &#x200B;](assets/accept-reject-suggestion.png)
+   ![ 提案を承認または却下 ](assets/accept-reject-suggestion.png)
 
    または
 
@@ -302,4 +307,4 @@ AI フォーム入力にドキュメントをアップロードする際は、�
 期待した提案が得られない場合は、次のいずれかが原因である可能性があります。
 
 * 以前のリクエストのフィールド値を提案するには、システムに 1 か月以上のリクエストデータが必要です。
-* 提案を取り込むドキュメントをアップロードする際に、ドキュメントのアップロードガードレールに従っていない可能性があります。 詳しくは、この記事の [&#x200B; ドキュメントアップロードガードレール &#x200B;](#document-upload-guardrails) を参照してください。
+* 提案を取り込むドキュメントをアップロードする際に、ドキュメントのアップロードガードレールに従っていない可能性があります。 詳しくは、この記事の [ ドキュメントアップロードガードレール ](#document-upload-guardrails) を参照してください。
