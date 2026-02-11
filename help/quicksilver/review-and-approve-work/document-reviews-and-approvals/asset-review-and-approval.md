@@ -34,13 +34,13 @@ ht-degree: 1%
 * 従来のレポートを使用した承認レポートの作成
 * ホームエリアの自分の承認ウィジェットで承認リクエストにアクセスする
 
-詳しくは、[ レガシードキュメントの承認 ](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes) を参照してください。
+詳しくは、[&#x200B; レガシードキュメントの承認 &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes) を参照してください。
 
 ## 統合承認
 
 統合承認は、従来の承認システムを再設計したものです。 現在は限定リリースで提供されており、包括的な関係者のエンゲージメントとバージョン固有のドキュメント承認を必要とする企業にとって、実用的で効果的なソリューションになるよう設計されています。
 
-統合承認について詳しくは、「[ 統合承認の概要 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)」を参照してください。
+統合承認について詳しくは、「[&#x200B; 統合承認の概要 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)」を参照してください。
 
 統合承認で利用できる主な機能：
 
@@ -51,18 +51,18 @@ ht-degree: 1%
 * テンプレートの作成と使用
 
 * プルーフビューアでの確認、コメント、決定
-プルーフビューアの使用について詳しくは、[ 統合承認とプルーフの併用 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) を参照してください。
+プルーフビューアの使用について詳しくは、[&#x200B; 統合承認とプルーフの併用 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) を参照してください。
 
 * Workfrontのホームウィジェットで、承認に関する複数の主要業績評価指標を表示します
 
 * キャンバスダッシュボード（現在はベータ版）を使用して、統合承認に関するレポートの詳細を表示します
-レポートについて詳しくは、[ レビューおよび承認用のレポートダッシュボードの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) を参照してください。
+レポートについて詳しくは、[&#x200B; レビューおよび承認用のレポートダッシュボードの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) を参照してください。
 
-* 複数のステージ承認の作成 [!BADGE  近日公開 ]{type=Informative}
+* 複数のステージ承認の作成 [!BADGE &#x200B; 近日公開 &#x200B;]{type=Informative}
 
 * ホームエリアの自分の承認ウィジェットでレビューおよび承認リクエストにアクセスする
 
-* AI レビュー担当者を使用して、ブランドのコンプライアンスレビューを自動化します。 詳しくは、[Workfront AI レビュアーの基本を学ぶ ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) を参照してください。
+* AI レビュー担当者を使用して、ブランドのコンプライアンスレビューを自動化します。 詳しくは、[Workfront AI レビュアーの基本を学ぶ &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) を参照してください。
 
 
 ## プルーフの承認
