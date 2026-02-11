@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '2479'
-ht-degree: 75%
+source-wordcount: '1617'
+ht-degree: 82%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 75%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-詳しくは、[2026 年第 2 四半期リリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md) を参照してください。
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md). 
 
-</div>
+</div>-->
 
 ユーザー、担当業務やチームにタスクを割り当てて、タスクの完了担当者を指定できます。一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
 
@@ -212,7 +212,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
+1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![ 人物アイコン ](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
 
    詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
@@ -223,102 +223,6 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. タスクに担当者を追加した後、Enter キーを押すか、ページ上の任意の場所をクリックして、「自動保存」を選択した場合に変更を保存します。それ以外の場合は、「**保存**」をクリックします。
 
 ## リストから複数のタスクを一括で割り当て
-
-複数のタスクをリストから一括して割り当てる方法は、選択する環境によって異なります。
-
-### 実稼動環境でのリストからの複数のタスクの一括割り当て
-
-1. 一括で割り当てるタスクのリストに移動します。
-1. （条件付き）「**自動保存**」オプションは、プロジェクトのタスクのリストにある場合に選択します。
-
-   >[!IMPORTANT]
-   >
-   >プロジェクトにタスクを手動で保存する場合は、タスクを一括で編集できません。
-
-1. タスクリストで複数のタスクを選択します。
-1. 「**編集**」をクリックします。
-
-   **タスクを編集** ダイアログボックスが新しいエクスペリエンスで開きます。
-
-1. 新しいエクスペリエンスを使用して、引き続きタスクを割り当てます。
-
-   詳しくは、この記事の [&#x200B; 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる &#x200B;](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) を参照してください。
-
-1. （オプション） **タスクを編集** ボックスの下部にある「**古いエクスペリエンスに戻る** をクリックして、古いエクスペリエンスを開きます。
-
-1. （条件付き）古いエクスペリエンスを使用し、「**割り当て**」領域で **担当者** ボックスを選択し、すべてのタスクに割り当てるユーザー、担当業務、またはチームの名前の入力を開始します。
-
-   >[!IMPORTANT]
-   >
-   >タスクが既に割り当てられている場合、ここに指定したリソースは、タスク上の既存のリソースを置き換える代わりに、タスクに追加されます。
-
-1. （オプション）複数のリソースをタスクに割り当てる場合は、**タスク責任者**&#x200B;列にあるラジオボタンを選択して、タスクの主担当者または所有者であるリソースを示します。これは、チームには使用できません。
-1. （条件付き）選択したすべてのタスクに残存作業時間の優先または予定割り当て時間の期間タイプがある場合、タスクに割り当てられた各リソースに対して&#x200B;**割り当て％**&#x200B;を指定します。これは、これらのリソースがタスクの完了に費やす時間を示します。これは、ユーザーと担当業務でのみ使用できます。
-
-   または
-
-   選択したすべてのタスクの期間の種類がシンプルの場合は、タスクに割り当てられた各リソースの&#x200B;**時間**&#x200B;量を指定します。すべてのリソースの全時間の合計は、タスクの予定時間数と等しくする必要があります。
-
-   >[!IMPORTANT]
-   >
-   >選択したタスクの期間の種類や選択したタスクの期間の種類が異なる場合は、割り当ての割合またはリソースごとの時間数を指定できません。
-
-   タスクの期間のタイプについて詳しくは、[タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
-
-1. （オプション）ユーザーをタスクに割り当てる場合、**担当者の役割**&#x200B;列の&#x200B;**役割を選択**&#x200B;ドロップダウンメニューから、ユーザーがタスクで果たすべき役割を選択します。役割を選択しない場合、Workfront はユーザーの主要役割を自動的選択します。
-
-1. （オプション）すべてのタスクから既存の担当者を削除する場合は、以下の操作のいずれかを行います。
-
-   1. タスクから削除するユーザー、役割、チームの名前を入力し、リストに表示されたらそれを選択し、**担当者を削除**&#x200B;をクリックしてさらに担当者を削除します。
-   1. **既存の担当者をすべて削除**&#x200B;をクリックし、選択したすべてのタスクからすべての担当者を削除します。
-
-1. 「**変更を保存**」をクリックします。
-1. （オプションおよび条件付き）タスクのリストに「割り当て先」フィールドまたは「割り当て」フィールドが表示されたら、タスクのこれらの列のいずれかの内側をクリックし、担当者の名前の横にある **X アイコン**&#x200B;をクリックして、タスクから削除します。
-
-
-#### 新しいエクスペリエンスのリストから複数のタスクを一括で割り当てる
-
-1. 一括で割り当てるタスクのリストに移動します。
-1. （条件付き）「**自動保存**」オプションは、プロジェクトのタスクのリストにある場合に選択します。
-
-   >[!IMPORTANT]
-   >
-   >プロジェクトにタスクを手動で保存する場合は、タスクを一括で編集できません。
-
-1. タスクリストで複数のタスクを選択します。
-1. 「**編集**」をクリックします。
-
-   **タスクを編集**&#x200B;ダイアログボックスが開きます。
-
-1. **割り当て** エリアで、表示された **ユーザー、役割、チームを検索** フィールドにユーザー、チーム、または役割の名前を入力し始め、リストに表示されたらクリックします
-
-   または
-
-   「**自分に割り当て**」をクリックして、自分に割り当てます。
-
-   >[!IMPORTANT]
-   >
-   >タスクが既に割り当てられている場合、ここに指定したリソースは、タスク上の既存のリソースを置き換える代わりに、タスクに追加されます。
-
-1. 「**期間タイプ**」フィールド内をクリックし、期間タイプを選択します。
-
-   タスクの期間のタイプについて詳しくは、[タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
-
-1. （条件付き）選択した **期間タイプ** に応じて、次のフィールドを更新します。
-
-   * 期間
-   * 予定時間数
-
-     （詳しくは、[タスクの編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください）
-
-1. （任意）既存の担当者をすべてのタスクから削除する場合は、「**ユーザー、役割またはチームを検索**」フィールドで、名前の横にある **x** をクリックします。
-
-1. 「**保存**」をクリックします。
-1. （オプションおよび条件付き）タスクのリストに **割り当て先** または **割り当て** フィールドが表示されたら、タスクのこれらの列の 1 つ内をクリックして、担当者の名前の横にある **X アイコン** をクリックすると、タスクから削除できます。
-
-<div class="preview">
-
-### プレビュー環境でのリストからの複数のタスクの一括割り当て
 
 1. 一括で割り当てるタスクのリストに移動します。
 1. （条件付き）「**自動保存**」オプションは、プロジェクトのタスクのリストにある場合に選択します。
@@ -355,7 +259,6 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 「**保存**」をクリックします。
 1. （オプションおよび条件付き）タスクのリストに **割り当て先** または **割り当て** フィールドが表示されたら、タスクのこれらの列の 1 つ内をクリックして、担当者の名前の横にある **X アイコン** をクリックすると、タスクから削除できます。
 
-</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -372,3 +275,98 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 -->
 
 
+<!--Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
+
+### Assign multiple tasks in bulk from a list in the Production environment
+
+1. Go to a list of tasks that you want to assign in bulk. 
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens in the new experience.
+
+1. Continue assigning the tasks using the new experience.
+
+   For more information, see the section [Assign multiple tasks in bulk from a list in the new experience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in this article.
+
+1. (Optional) Click **Switch back to old experience** at the bottom of the **Edit Tasks** box to open the old experience.
+
+1. (Conditional) Using the old experience, in the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the tasks.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks. 
+
+1. (Optional) Select the radio button in the **Task Owner** column to indicate which resource is the primary assignee or the Owner of the task, when you assign more than one resource to the task. This is not available for teams. 
+1. (Conditional) Specify the **Allocation %** for each resource assigned to the task if all the tasks you selected have a Duration Type of Effort Driven or Calculated Assignment. This indicates how much of their time these resources should spend on completing the task. This is only available for users and job roles.
+
+   Or
+
+   Specify the amount of **Hours** for each resource assigned to the task if all the tasks you selected have a Duration Type of Simple. The total of all hours for all resources should equal the number of Planned Hours for the task.
+
+   >[!IMPORTANT]
+   >
+   >You cannot specify the allocation percentage or the number of hours per resource if the tasks you selected have different Duration Types or of the tasks you selected have different Duration Types.
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Optional) Select a role that the user should fulfill on the task from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to tasks. If you do not select a role, Workfront automatically selects the user's Primary Role. 
+
+1. (Optional) If you want to remove existing assignees from all tasks do one of the following:
+
+   1. Start typing the name of a user, role, or team you want to remove from the task, then select it when it appears on the list and click **Remove Assignee** to remove more assignees.
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected tasks.
+
+1. Click **Save Changes**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+
+#### Assign multiple tasks in bulk from a list in the new experience
+
+1. Go to a list of tasks that you want to assign in bulk.
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens.
+
+1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
+
+   Or 
+
+   Click **Assign to me** to assign it to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+
+1. Click inside the **Duration Type** field and choose a Duration Type. 
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+
+   * Duration
+   * Planned Hours
+
+      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+
+1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+
+1. Click **Save**.
+1. (Optional and conditional) When the **Assigned to** or the **Assignments** fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+<div class="preview">
+### Assign multiple tasks in bulk from a list in the Preview environment
+-->

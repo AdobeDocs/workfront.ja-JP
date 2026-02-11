@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 71%
+source-wordcount: '762'
+ht-degree: 79%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 71%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-詳しくは、[2026 年第 2 四半期リリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md) を参照してください。
+For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).  
 
-</div>
+</div>-->
 
 タスクの割り当てを管理する場合、タスクのリストの一括編集機能を使用して、複数のタスクに対して同時に変更を加えることができます。
 
@@ -125,92 +125,7 @@ When assigning users to work, their availability according to their schedules af
    >
    >「**割り当て先**」フィールドは使用しないでください。これにより、タスクのプライマリ所有者のみが検索され、プライマリ所有者に割り当てられるユーザーは検索されません。
 
-1. 割り当てを変更するタスクを選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
-
-   タスクの割り当ての編集は、選択した環境によって異なります。
-
-1. （条件付き）実稼動環境を使用してタスクを割り当てると、新しいエクスペリエンスに **タスクを編集** ボックスが開きます。 実稼動環境で次の操作を行います。
-
-   1. 担当者を追加または削除するには、次のいずれかの操作を行います。
-
-      * 担当者を追加するには、「**ユーザー、役割、チームを検索**」フィールドに担当者の名前を入力し始め、リストに表示されたら選択します。
-      * 担当者を削除するには、名前の右側にある **x** アイコンをクリックします。 すべてのタスクに共通の担当者のみがリストに表示されます。
-      * 「自分に割り当て」をクリックして、選択したタスクを自分に割り当てます。
-
-   1. （条件付き）新しいエクスペリエンスを使用する場合は、「**保存**」をクリックします。
-
-   1. （任意） **タスクを編集** ボックスの下部にある **古いエクスペリエンスに切り替える** をクリックします。
-
-      古いエクスペリエンスで **タスクを編集** ボックスが開きます。
-
-   1. （条件付き）古いエクスペリエンスで、次の手順を実行して担当者を変更します。
-
-      1. **割り当て**&#x200B;セクションに移動します。
-
-         >[!IMPORTANT]
-         >
-         >担当者を削除すると、タスクの時間と割り当ての割合に影響を与える場合があります。詳しくは、[割り当て先を削除すると、タスクの時間と割り当て率にどのような影響が及ぶか](#how-removing-assignees-affects-task-hours-and-allocation-percentages)を参照してください。
-
-      1. 担当者を追加または削除するには、次のいずれかの操作を行います。
-
-         * 新しい割り当て先を追加するには：
-
-            1. **割り当て** セクションで、「**担当者**」を選択します。
-
-               選択したすべてのタスクで共通する情報が表示されます。例えば、同じユーザーがすべてのタスクに割り当てられている場合、そのユーザーは&#x200B;**担当者**&#x200B;列に表示されます。選択したタスク間で情報が共通でない場合は、情報は表示されません。
-
-            1. ユーザー、役割またはチームの名前を入力していき、名前がリストに表示されたら選択します。割り当てが追加され、選択したタスクの現在の割り当ては置き換えられません。
-
-           >[!TIP]
-           >
-           > * 複数のユーザー、担当業務やチームを割り当てることができます。アクティブなユーザー、担当業務およびチームのみを割り当てることができます。
-           >   
-           > * ユーザー割り当てを追加する際には、アバター、ユーザーの主要な役割やメールアドレスに注意して、同じ名前のユーザーを区別してください。ユーザーを追加したときに表示するには、少なくとも 1 つの担当業務に関連付ける必要があります。ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
-           > 
-           >   非アクティブ化前にユーザー、担当業務やチームが、非アクティブ化される前に割り当てられた場合、ユーザー、担当業務やチームは作業アイテムに割り当てられたままになります。この場合、以下の操作をお勧めします。
-           >   
-           >     * 作業アイテムをアクティブなリソースに再割り当てする。
-           >     * 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
-
-
-         * 個々の割り当て先を削除するには：
-
-            1. 割り当てリストに割り当て先が表示されている場合は、削除する割り当て先の名前の横にある **X アイコン**&#x200B;をクリックします。
-
-               または
-
-               （条件付き）削除したい割り当て先が、選択したイシューの一部にのみ割り当てられているために「割り当て」セクションに表示されない場合は、「**担当者を削除**」をクリックして削除したい割り当て先の名前を入力し始め、名前がドロップダウンリストに表示されたらクリックします。
-
-         * 既存の割り当て先をすべて削除するには：
-
-            1. 「**既存の担当者をすべて削除**」をクリックし、「**はい、担当者をすべて削除します**」をクリックします。
-
-               これにより、共通の担当者（編集ダイアログボックスに表示される担当者）だけでなく、選択したすべてのタスクのすべての担当者も削除されます。
-
-           ユーザーをタスクから削除すると、タスクの時間や配分率に影響を与える可能性があります。
-
-           詳しくは、[タスクの割り当て変更の概要](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)を参照してください。
-
-      1. （オプション）担当者に対して、次のいずれかのオプションを変更します。
-
-         * （条件付き） **割り当て率または時間**：新しい配分率または時間を指定します。
-
-         >[!NOTE]
-         >
-         >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[&#x200B; タスク期間と期間タイプの概要 &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
-         >
-         >
-         >このフィールドが空白の場合、値はタスク間で異なりますが、変更は可能です。
-
-         * **タスク責任者**：このオプションを選択すると、担当者が編集中のすべてのタスクの、タスクの所有者になります。
-         * **割り当て先の役割**：ドロップダウンリストから役割を選択します。選択しない場合、Adobe Workfront はユーザーのプライマリ役割を自動的に選択します。
-
-      1. 「**変更を保存**」をクリックします。
-
-
-1. <span class="preview"> （条件付き） プレビュー環境を使用してタスクを割り当てると、「**タスクを編集** ボックスが開きます。 プレビュー環境で </span> を実行します。
-
-   <div class="preview">
+1. 割り当てを変更するタスクを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    1. 担当者を追加または削除するには、次のいずれかの操作を行います。
 
@@ -248,7 +163,7 @@ When assigning users to work, their availability according to their schedules af
 
       >[!NOTE]
       >
-      >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[&#x200B; タスク期間と期間タイプの概要 &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
+      >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[ タスク期間と期間タイプの概要 ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
       >
       >
       >このフィールドが空白の場合、値はタスク間で異なりますが、変更は可能です。
@@ -261,7 +176,92 @@ When assigning users to work, their availability according to their schedules af
 
    1. 「**保存**」をクリックします。
 
-      </div>
+<!-- temporary content - for Assignments redesign:
+
+Editing assignments on tasks differs depending on which environment you choose. 
+
+1. (Conditional) If you are using the Production environment to assign tasks, the **Edit Tasks** box opens in the new experience. Do the following in the Production environment: 
+
+   1. To add or remove assignees, do one of the following:
+
+      * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
+      * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
+      * Click Assign to me to assign the selected tasks to yourself.
+
+   1. (Conditional) When using the new experience, click **Save**.
+
+   1. (Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.
+      
+      The **Edit Tasks** box opens in the old experience.
+
+   1. (Conditional) In the old experience, do the following to modify the assignees:
+
+      1. Go to the **Assignments** section.
+
+         >[!IMPORTANT]
+         >
+         >Removing assignees can affect the task hours and allocation percentages. For more information, see the section [How removing assignees affects task hours and allocation percentages](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in this article.
+
+      1. Do one of the following to add or remove assignees:
+
+         * To add a new assignee:
+
+            1. In the **Assignments** section, select **Assignee**.
+
+               Information that is common across all tasks selected displays. For example, if the same user is assigned to all tasks, that user displays in the **Assignee** column. If information is not common across the tasks selected, no information displays.
+            
+            1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected tasks.
+
+            >[!TIP]
+            >
+            > * You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+            >   
+            > * When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them. You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+            > 
+            >   If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
+            >   
+            >     * Reassign the work item to active resources.
+            >     * Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+
+
+         * To remove individual assignees:
+
+            1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+
+               Or
+
+               (Conditional) If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the tasks that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+
+         * To remove all existing assignees:
+
+            1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
+
+               This removes not only common assignees (assignees that are displayed in the edit dialog box), but also all assignees on all the selected tasks.
+
+            Removing users from tasks can affect task hours and allocation percentages.
+            
+            For more information, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+
+      1. (Optional) Modify any of the following options for assignees:
+
+         * (Conditional) **Allocation % or Hours**: Specify a new allocation percentage or hours.
+
+         >[!NOTE]
+         >
+         >This option can be modified only if the Duration Type is the same across all tasks that are being edited. When the Duration Type is Calculated Work or Effort Driven you can update the Allocation %. When the Duration Type is Simple you can update the Hours. For information about Duration Type, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >If the field is blank, this means that the value is different across tasks; however, you are still able to modify it.
+
+         * **Task Owner**: Select this option to make the assignee the owner of the task for all tasks being edited.
+         * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Adobe Workfront automatically selects the Primary Role of the user. 
+
+      1. Click **Save Changes.**
+        
+
+1. <span class="preview">(Conditional) If you are using the Preview environment to assign tasks, the **Edit Tasks** box opens. Do the following in the Preview environment: </span>
+
+   <div class="preview">-->
 
 
 

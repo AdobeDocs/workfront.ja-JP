@@ -5,15 +5,17 @@ recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1470'
 ht-degree: 4%
 
 ---
 
-
 # Adobe Workfront Planning Designerの基本を学ぶ
+
+<!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
 >[!IMPORTANT]
 >
@@ -21,9 +23,9 @@ ht-degree: 4%
 >
 >この記事では、Adobe Workfrontの追加機能であるAdobe Workfront Planning について説明します。
 >
->Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+>Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 > 
->Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 AI を活用したAdobe プランニング Designerを使用して、ワークスペースとデータ構造を簡単に設定できます。 Planning Designerは、ワークスペースの作成と構成から、フィールドと式の定義、レコードの管理、変更履歴の確認、およびカスタム ビューの作成まで、すべてをサポートします。
 
@@ -67,7 +69,7 @@ Workfrontの計画について詳しくは、次の記事を参照してくだ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -85,13 +87,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ベータ版プログラム中に、Planning Designerに関するフィードバックを送信できます。
 
-1. Workfrontにログインし、左上隅の **メインメニュー** アイコン ![&#x200B; ラインメインメニュー &#x200B;](assets/lines-main-menu.png) をクリックして、「**計画**」をクリックします。
+1. Workfrontにログインし、左上隅の **メインメニュー** アイコン ![ ラインメインメニュー ](assets/lines-main-menu.png) をクリックして、「**計画**」をクリックします。
 
    **計画** エリアが開きます。
 
 1. **AI で作成** をクリックします。<!--update this tag name when they change it-->
 
-   **計画Workspace** ウィンドウの **Designer設定** エリアが開きます。<!--replace shot below when they rename the area to Planning Designer-->
+   **計画Designer** ウィンドウが開きます。
 
 1. ページ下部の **フィードバックを送信する** をクリックします。
 1. 表示されたスペースにフィードバックを追加し、「**送信**」をクリックします。
@@ -103,13 +105,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    * Workfrontは、AI アシスタントを組織で使用できるようにする必要があります。
 
-     詳しくは、[AI アシスタントの前提条件 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
+     詳しくは、[AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
    * Workfrontが AI アシスタントを組織で使用できるようになったら、Workfrontのメイン管理者がアクセスできます。
 
      詳しくは、[システムの基本情報を設定](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
    * Workfront管理者は AI Assistant 契約に同意し、他のすべてのユーザーに対して AI Assistant を有効にする必要があります。
 
-     詳しくは、[AI アシスタントを有効または無効にする &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+     詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 * システム管理者が組織の AI アシスタントを有効にすると、Planning Designerが組織で使用可能になっている場合、デフォルトではすべてのユーザーが使用できます。
 * 計画Designerで実行されるアクションは、計画エリアで AI アシスタントを使用して実行することもできます。
 * 計画領域で AI アシスタントが実行するアクションや、計画Designerが実行するアクションは、Workfront計画権限とWorkfront アクセスレベルのコンテキストで行われます。
@@ -160,8 +162,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
   >.XLSX および.CSV ファイルタイプはサポートされていますが、Planning Designerを使用した大規模なレコード読み込みには使用できません。
   >現時点で大量のレコードをインポートする必要がある場合は、Planning で使用できる手動機能を使用してインポートすることをお薦めします。
   >
-  >詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードの作成 &#x200B;](/help/quicksilver/planning/records/import-file-to-create-records.md) を参照してください。
-  >ファイルタイプの制限については、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) の「アップロードするドキュメントに基づいて提案を取得する」の節を参照してください。
+  >詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードの作成 ](/help/quicksilver/planning/records/import-file-to-create-records.md) を参照してください。
+  >ファイルタイプの制限については、[AI を利用したフォーム入力を使用してプロンプトやドキュメントを使用してリクエストを入力する ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md) の「アップロードするドキュメントに基づいて提案を取得する」の節を参照してください。
 
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
@@ -170,17 +172,17 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 特に指定がない限り、Workfront Planning Designerまたは AI アシスタントを使用して、Planning でオブジェクトを作成または更新できます。
 
-1. Workfrontにログインし、左上隅の **メインメニュー** アイコン ![&#x200B; ラインメインメニュー &#x200B;](assets/lines-main-menu.png) をクリックして、「**計画**」をクリックします。
+1. Workfrontにログインし、左上隅の **メインメニュー** アイコン ![ ラインメインメニュー ](assets/lines-main-menu.png) をクリックして、「**計画**」をクリックします。
 
    **計画** エリアが開きます。<!--update screen shot when they change the name of the button-->
 
-   ![&#x200B; ワークスペースページの「AI を使用したデザイン」ボタン &#x200B;](assets/design-with-ai-button-on-workspaces-page.png)
+   ![ ワークスペースページの「AI を使用したデザイン」ボタン ](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. **AI で作成** をクリックします。<!--update this when they change it-->
 
-   **計画Workspace** ウィンドウの **Designer設定** エリアが開きます。<!--replace shot below when they rename the area to Planning Designer-->
+   **計画Designer** ウィンドウが開きます。<!--remove the Beta tag here when this removes from Beta-->
 
-   ![&#x200B; 計画Designerウィンドウ &#x200B;](assets/planning-designer-window.png)
+   ![ 計画Designerウィンドウ ](assets/planning-designer-window.png)
 
 1. 指定されたスペースで、AI アシスタントのプロンプトの入力を開始し、完了したら [Enter] をクリックします。
 
@@ -219,8 +221,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >確認を行わなくても、すぐに作成されるオブジェクトもあります。
 
 1. （オプション）オブジェクトをさらに編集するための追加プロンプトを入力します。
-1. （オプション） **プレビュー画面の表示/非表示** アイコン ![&#x200B; プレビュー画面の表示/非表示アイコン &#x200B;](assets/hide-show-preview-screen-in-planning-designer.png) をクリックして、右側のプレビュー画面を開いたり閉じたりします。
-1. **ワークスペースを新しいタブで開くアイコン**![&#x200B; ワークスペースを新しいタブで開くアイコン &#x200B;](assets/open-workspace-on-new-tab-icon.png) をクリックして、更新しているワークスペースを新しいタブで開きます。
+1. （オプション） **プレビュー画面の表示/非表示** アイコン ![ プレビュー画面の表示/非表示アイコン ](assets/hide-show-preview-screen-in-planning-designer.png) をクリックして、右側のプレビュー画面を開いたり閉じたりします。
+1. **ワークスペースを新しいタブで開くアイコン**![ ワークスペースを新しいタブで開くアイコン ](assets/open-workspace-on-new-tab-icon.png) をクリックして、更新しているワークスペースを新しいタブで開きます。
 1. **閉じる** アイコン **X** をクリックして、Planning Designerを閉じ、ワークスペースエリアを開きます。
 1. PlanningDesignerを使用して編集したワークスペースを開き、そのオブジェクトにさらに変更を加えます。
 
@@ -231,17 +233,11 @@ Workfront管理者が AI アシスタント契約を承諾すると、デフォ�
 オフにするには：
 
 1. システム管理者としてWorkfrontにログインします。
-1. 画面の左上隅にある **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-shell.png) をクリックし、**設定** をクリックします。
+1. 画面の左上隅にある **メインメニュー**![ メインメニューアイコン ](assets/main-menu-shell.png) をクリックし、**設定** をクリックします。
 1. 左側のパネルで **システム** /をクリックし、**AI 環境設定** 領域に移動します。
 1. **オンボーディングの計画** 設定をオフにします。<!--add new screen shot with info icon and new name of the toggle; ensure you don't show the AI Reviewer if it is not in Prod yet-->
 
-   ![&#x200B; システム環境設定でのDesigner設定の計画 &#x200B;](assets/planning-designer-toggle-in-system-preferences.png)
+   ![ システム環境設定でのDesigner設定の計画 ](assets/planning-designer-toggle-in-system-preferences.png)
 1. 「**保存**」をクリックします。
 
    これにより、システム内のすべてのユーザーの Planning Designerが削除されます。
-
-
-
-
-
-
