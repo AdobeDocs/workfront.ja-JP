@@ -118,8 +118,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    1. （任意）左側のパネルで **ドキュメント** をクリックして、ドキュメントをテンプレートタスクに追加します。 テンプレートを使用してプロジェクトを作成すると、ドキュメントはプロジェクトタスクに転送されます。
    1. （条件付き）テンプレートタスクに関する限られた情報を編集するには、左パネルで「**テンプレートタスクの詳細**」をクリックし、詳細セクションのエリアに移動して、それぞれのエリアの情報を編集します。
    1. （オプション）次のいずれかの操作を行います。
-      * **すべて折りたたむ** アイコン ![ すべて折りたたむアイコン ](assets/collapse-all-icon.png) をクリックすると、すべての領域が折りたたまれます。
-      * **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックして、下の任意の領域から選択するか、**すべて編集** をクリックして、すべての領域の情報を編集します。
+      * **すべて折りたたむ** アイコン ![&#x200B; すべて折りたたむアイコン &#x200B;](assets/collapse-all-icon.png) をクリックすると、すべての領域が折りたたまれます。
+      * **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックして、下の任意の領域から選択するか、**すべて編集** をクリックして、すべての領域の情報を編集します。
 
          * 概要
          * カスタムForms
@@ -130,16 +130,16 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
         >
         >「詳細」領域に表示されるすべてのフィールドについて詳しくは、以下に説明するように、「テンプレートタスクを編集」ボックスを使用してすべてのフィールドを引き続き編集します。
 
-   1. （任意）左側のパネルで「**サブタスク**」セクションをクリックして、テンプレートタスクの子を追加します。 テンプレートタスクのサブタスクの追加は、プロジェクトタスクのサブタスクの追加と似ています。 詳しくは、「サブタスクの作成」の「タスクサブタスクからサブタスクを作成する [ 節を参照してくだ ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) い。
+   1. （任意）左側のパネルで「**サブタスク**」セクションをクリックして、テンプレートタスクの子を追加します。 テンプレートタスクのサブタスクの追加は、プロジェクトタスクのサブタスクの追加と似ています。 詳しくは、「サブタスクの作成」の「タスクサブタスクからサブタスクを作成する [&#x200B; 節を参照してくだ &#x200B;](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) い。
    1. （任意）左側のパネルで **費用** をクリックし、テンプレートタスクに費用を追加します。 テンプレートタスクの費用は、テンプレートを使用してプロジェクトを作成する際に、将来のプロジェクトタスクに転送されます。
    1. （任意）左側のパネルの **承認** をクリックして承認を作成するか、テンプレートタスクにグローバルまたはグループレベルの承認を添付します。 承認は、今後のプロジェクトタスクに転送されます。
-   1. （任意）左側のパネルで「**先行タスク**」セクションをクリックして、テンプレートタスクの先行タスクを追加します。 テンプレートタスク先行タスクの追加は、プロジェクトタスク先行タスクの追加と似ています。 詳しくは、[ 先行タスクエリアを使用した先行タスク関係の作成 ](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md) を参照してください。
+   1. （任意）左側のパネルで「**先行タスク**」セクションをクリックして、テンプレートタスクの先行タスクを追加します。 テンプレートタスク先行タスクの追加は、プロジェクトタスク先行タスクの追加と似ています。 詳しくは、[&#x200B; 先行タスクエリアを使用した先行タスク関係の作成 &#x200B;](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md) を参照してください。
 
-1. （条件付き）テンプレートタスクまたは複数のタスクに関するすべての情報を同時に編集するには、リストから選択をクリックし、リストの上部にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+1. （条件付き）テンプレートタスクまたは複数のタスクに関するすべての情報を同時に編集するには、リストから選択をクリックし、リストの上部にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
 
    「**テンプレートタスクの編集**」ボックスが表示されます。
 
-   ![ テンプレートの編集タスクの新しいエクスペリエンス ](assets/edit-template-task-box-unshimmed.png)
+   ![&#x200B; テンプレートの編集タスクの新しいエクスペリエンス &#x200B;](assets/edit-template-task-box-unshimmed.png)
 
    >[!TIP]
    >
@@ -180,7 +180,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. 「**テンプレートタスクを編集**」ボックスで、左パネルの **概要** をクリックします。
 
-   ![ テンプレートタスク編集の概要セクション ](assets/template-task-edit-overview.png)
+   ![&#x200B; テンプレートタスク編集の概要セクション &#x200B;](assets/template-task-edit-overview.png)
 
 1. 次のいずれかを更新します。
 
@@ -253,7 +253,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <li>大</li></ul>
 
    <p><b>重要</b></p>
-      <p>テンプレート タスクの編集時に [ 作業量 ] フィールドが表示されるのは、テンプレート タスクの編集時に [<b> 作業量を使用してタスクの予定時間数を自動的に計算する </b> 設定を選択した場合のみです。</p>
+      <p>テンプレート タスクの編集時に [ 作業量 ] フィールドが表示されるのは、テンプレート タスクの編集時に &lbrack;<b> 作業量を使用してタスクの予定時間数を自動的に計算する </b> 設定を選択した場合のみです。</p>
 
    </td> 
      </tr> 
@@ -273,7 +273,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    **割り当て** エリアが開きます。
 
-   ![ テンプレートタスクの割り当て ](assets/assignments-edit-template-tasks-box.png)
+   ![&#x200B; テンプレートタスクの割り当て &#x200B;](assets/assignments-edit-template-tasks-box.png)
 
 1. **ユーザー、担当業務、またはチームを検索** フィールドにユーザー、担当業務、またはチームの名前を入力し始め、リストに表示されたら選択します。
 
@@ -417,7 +417,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. 「**テンプレートタスクを編集**」ボックスで、左パネルの **財務** をクリックします。
 
-   ![ テンプレート タスク編集財務セクション ](assets/template-task-edit-finance.png)
+   ![&#x200B; テンプレート タスク編集財務セクション &#x200B;](assets/template-task-edit-finance.png)
 
 1. 次のいずれかを更新します。
 
@@ -461,21 +461,21 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ### カスタムフォーム {#custom-forms-2}
 
-タスクがプロジェクトに追加された際に、デフォルトでタスクに自動的に添付されるカスタムフォームを定義できます。 既定のタスクのカスタム フォームを含めるためのプロジェクトの設定については、「プロジェクトの編集 [ の [ タスク ] セクションを参照し ](../../../manage-work/projects/manage-projects/edit-projects.md) ください。
+タスクがプロジェクトに追加された際に、デフォルトでタスクに自動的に添付されるカスタムフォームを定義できます。 既定のタスクのカスタム フォームを含めるためのプロジェクトの設定については、「プロジェクトの編集 [&#x200B; の [ タスク ] セクションを参照し &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) ください。
 
 また、カスタムフォームをテンプレートタスクに追加することで、テンプレートからプロジェクトを作成する際に、プロジェクトの今後のタスクにカスタムフォームを追加することもできます。
 
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. 「**テンプレートタスクを編集**」ボックスで、左パネルの **カスタムForms** をクリックします。
 
-   ![ テンプレート タスクのカスタム フォームの編集セクション ](assets/template-task-edit-custom-forms.png)
+   ![&#x200B; テンプレート タスクのカスタム フォームの編集セクション &#x200B;](assets/template-task-edit-custom-forms.png)
 
 1. テンプレートタスクに関連付けるカスタムフォームを選択します。
 
    このフィールドで選択できるカスタムフォームを作成する必要があります。
 アクティブなカスタムフォームのみがリストに表示されます。
 
-   カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+   カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
    テンプレートタスクには最大 10 個のカスタムフォームを追加できます。
 フォームは、テンプレートから作成されたタスクに自動的に追加されます。
@@ -499,7 +499,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. **テンプレート タスクを編集ボックス** で、左パネルの **設定** をクリックします。
 
-   ![ テンプレート タスク編集設定セクション ](assets/template-task-edit-settings.png)
+   ![&#x200B; テンプレート タスク編集設定セクション &#x200B;](assets/template-task-edit-settings.png)
 
 1. 次のいずれかを更新します。
 
@@ -560,7 +560,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートタスクの編集を開始します。
 1. 「**テンプレートタスクを編集**」ボックスで、左パネルの **コメント** をクリックします。
 
-   ![ テンプレート タスクのコメント セクションの編集 ](assets/template-task-edit-comment.png)
+   ![&#x200B; テンプレート タスクのコメント セクションの編集 &#x200B;](assets/template-task-edit-comment.png)
 
 1. **テンプレートタスクに更新を追加** 領域で、テンプレートタスクの更新ストリームに表示するコメントを使用可能フィールドに指定します。 このコメントは、テンプレートおよびテンプレートタスクへの表示アクセス権とメモの表示アクセス権を持つすべてのユーザーに表示されます。
 1. 「**保存**」をクリックします。
