@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 91%
+source-wordcount: '677'
+ht-degree: 87%
 
 ---
 
@@ -58,9 +58,9 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、プロジ�
 ## カスタムアクセスレベルを使用してプロジェクトへのユーザーのアクセス権を設定
 
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
-1. 「表示 ![&#x200B; またはプロジェクトの右側にある &#x200B;](assets/gear-icon-settings.png) 編集 **ボタンの歯車アイコン** 歯車設定アイコン **&#x200B;**&#x200B;をクリックし、付与するアビリティーを **設定を微調整** から選択します。
+1. 「表示 ![ またはプロジェクトの右側にある ](assets/gear-icon-settings.png) 編集 **ボタンの歯車アイコン** 歯車設定アイコン **** をクリックし、付与するアビリティーを **設定を微調整** から選択します。
 
-   ![&#x200B; プロジェクトをコピーするための設定の微調整 &#x200B;](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![ プロジェクトをコピーするための設定の微調整 ](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >
@@ -68,6 +68,8 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、プロジ�
    >* レビューライセンスを持つユーザーは、変換されたイシューからのプロジェクトに対する表示権限を持ちますが、その表示権限は制限されています。
    >* ユーザーが他のユーザーとプロジェクトを共有する際に付与できる権限について詳しくは、[Adobe Workfront でのプロジェクトの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
    >* 特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランクのオブジェクトに対するユーザーのアクセスには影響しません。例えば、ユーザーのアクセスレベルでユーザーによるプロジェクトの削除を制限できますが、プロジェクトよりも下位にあるタスクの削除は制限されません。オブジェクトの階層について詳しくは、[Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事にある[オブジェクトの相互依存性と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)の節を参照してください。
+   * アクセス レベルで財務データへのアクセスが許可されていないユーザーは、他のユーザーが財務データを表示できるアクセスを許可することはできません。 これには、財務データを表示するプロジェクトへのアクセス権の付与や、財務データを表示するためのアクセスレベルの変更が含まれます。
+
 
 1. （オプション）「作成」オプションの右側にある&#x200B;**共有のデフォルトを設定**&#x200B;をクリックし、続いて&#x200B;**ルールを追加**&#x200B;をクリックして、新しいプロジェクト用の共有ルールを追加します。
 

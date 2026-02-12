@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 97%
+source-wordcount: '823'
+ht-degree: 94%
 
 ---
 
@@ -58,6 +58,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 
 Workfront の財務データへのアクセス権をユーザーに付与する場合は、以下の点を考慮してください。
 
+* アクセス レベルで財務データへのアクセスが許可されていないユーザーは、他のユーザーが財務データを表示できるアクセスを許可することはできません。 これには、財務データを表示するプロジェクトへのアクセス権の付与や、財務データを表示するためのアクセスレベルの変更が含まれます。
 * アクセスレベルで財務データへのアクセスが許可されていないユーザーからは、プロジェクトに対するリスクは引き起こされません。詳しくは、[プロジェクトのリスクを作成および編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)を参照してください。
 * また、アクセスレベルを使用して、ユーザーがリソース割り当ての予算を設定したり表示したりするために、どのリソース管理アクティビティを採用できるかを決定することもできます。詳しくは、[リソース管理へのアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)を参照してください。
 

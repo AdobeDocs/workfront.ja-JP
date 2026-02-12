@@ -6,10 +6,10 @@ description: 自分が作成したオブジェクトや自分と共有された�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 84%
+source-wordcount: '1332'
+ht-degree: 82%
 
 ---
 
@@ -52,7 +52,7 @@ Workfront で以下のオブジェクトを他のユーザーと共有できま�
 
 * **プルーフ**：詳しくは、[Workfront でのプルーフの共有](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)を参照してください。
 
-* **報告書、ダッシュボード、カレンダー**：詳しくは、[&#x200B; 報告書、ダッシュボード、カレンダーの共有 &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) を参照してください。  また、次の記事も参照してください。
+* **報告書、ダッシュボード、カレンダー**：詳しくは、[ 報告書、ダッシュボード、カレンダーの共有 ](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) を参照してください。  また、次の記事も参照してください。
 
    * [Adobe Workfront でのレポートの共有](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [ダッシュボードの共有](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
@@ -93,13 +93,15 @@ Workfront で以下のオブジェクトを他のユーザーと共有できま�
 * Workfrontは、ユーザーとオブジェクトを共有すると、そのユーザーに通知を送信します。 通知は、次の両方の設定が有効な場合に送信されます。
 
    * **ユーザーに対するオブジェクト共有** および **チームに対するオブジェクト共有** のメール通知は、システム管理者またはグループ管理者が「設定」エリアで有効にします。 詳しくは、[システムの全ユーザーに対するイベント通知の設定](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)を参照してください。
-   * **誰かが自分とオブジェクトを共有** および **誰かが自分のチームとオブジェクトを共有** 通知は、ユーザーのプロファイルページで有効になります。 詳しくは、[&#x200B; 独自のメール通知の変更 &#x200B;](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) を参照してください。
+   * **誰かが自分とオブジェクトを共有** および **誰かが自分のチームとオブジェクトを共有** 通知は、ユーザーのプロファイルページで有効になります。 詳しくは、[ 独自のメール通知の変更 ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) を参照してください。
 
   ユーザーの通知設定を有効にするには、まずシステムレベルまたはグループレベルの設定を有効にする必要があります。
 
 ## 制限を共有
 
-オブジェクトは、最大 100 個のエンティティ（ユーザー、チーム、グループ、担当業務、会社）と共有できます。この制限を回避するため、個別のユーザーとではなく、グループ、チームまたは会社とオブジェクトを共有することをお勧めします。
+* オブジェクトは、最大 100 個のエンティティ（ユーザー、チーム、グループ、担当業務、会社）と共有できます。この制限を回避するため、個別のユーザーとではなく、グループ、チームまたは会社とオブジェクトを共有することをお勧めします。
+* アクセス レベルで財務データへのアクセスが許可されていないユーザーは、他のユーザーが財務データを表示できるアクセスを許可することはできません。 これには、財務データを表示するプロジェクトへのアクセス権の付与や、財務データを表示するためのアクセスレベルの変更が含まれます。
+
 
 ## オブジェクトの権限を共有
 
@@ -166,7 +168,7 @@ Workfront のオブジェクトの階層と相互依存関係について詳し�
 
 >[!NOTE]
 >
->Workfront管理者は、アクセスレベルでドキュメントに対する継承された権限を無効にすることができます。  アクセス レベルのドキュメントに対する継承されたアクセス許可を無効にする方法の詳細については、「カスタム アクセス レベルを作成または変更する [&#x200B; を参照してください &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+>Workfront管理者は、アクセスレベルでドキュメントに対する継承された権限を無効にすることができます。  アクセス レベルのドキュメントに対する継承されたアクセス許可を無効にする方法の詳細については、「カスタム アクセス レベルを作成または変更する [ を参照してください ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
 ### 組織のメンバーシップを通じて取得した権限   {#permissions-acquired-through-organizational-memberships}
 
