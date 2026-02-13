@@ -1,12 +1,14 @@
 ---
 cloud: Experience Cloud
 solution: Workfront
+landing-page-name: workfront
+landing-page-breadcrumb-title: Workfront
 product-previous: experience cloud
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/workfront.ja-JP
 index: true
-source-git-commit: 5a503571db40307757a8f503b0c7366238649eff
+source-git-commit: 589d13da22a9d9af3357766c3c7983997cbd5630
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 100%
