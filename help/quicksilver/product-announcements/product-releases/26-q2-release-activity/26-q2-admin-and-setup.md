@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
+source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 21%
+source-wordcount: '281'
+ht-degree: 20%
 
 ---
 
@@ -25,14 +25,16 @@ ht-degree: 21%
 >[!NOTE]
 >
 >プレビュー：2026 年 1 月 29 日（PT）
->実稼動迅速リリース：2026 年 2 月 12 日（PT）\
+>実稼動迅速リリース：2026 年 2 月 12 日（PT）
 >すべてのユーザー向けの実稼動：2026 年 4 月 16 日（PT）
+>
+>この機能は、2026 年 2 月 13 日（PT）に実稼動環境から一時的に削除されました。
 
 カスタムフォームの新しい **リッチテキスト** フィールドタイプは堅牢なテキストエディターで、太字、斜体、下線、箇条書き、番号付け、ハイパーリンク、ブロック引用の従来のオプションに加えて、上付き文字、下付き文字、見出し、表などの書式設定オプションが用意されています。 文字数の制限は 15,000 のままです。
 
 リッチテキストフィールドタイプが、テキストを書式設定フィールドタイプに置き換えています。 右側のフィールドオプションのボタンをクリックして、フィールドが書式設定されている既存のテキストをリッチテキストにすばやく変換できます。 変換する場合、履歴データはフィールドに残り、レポートでも同じように使用されます。
 
-詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## Workfront メール通知用の新しい IP アドレス
 

@@ -4,9 +4,10 @@ description: このページでは、2026年第 2 四半期リリースに含ま
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
+exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
+source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '866'
 ht-degree: 31%
 
 ---
@@ -58,7 +59,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> リッチテキストフィールドタイプがカスタムフォームで使用できるようになりました </a><p>カスタムフォームの新しい <b> リッチテキスト </b> フィールドタイプは堅牢なテキストエディターで、太字、斜体、下線、箇条書き、番号付け、ハイパーリンク、ブロック引用の従来のオプションに加えて、上付き文字、下付き文字、見出し、表などの書式設定オプションが用意されています。 文字数の制限は 15,000 のままです。</p>
         </td>
         <td><p>2026年1月29日（PT）</p></td>
-        <td><p>2026年2月12日（PT）</p></td>
+        <td><p>2026年2月12日（PT）</p>
+            <p>この機能は、2026 年 2 月 13 日（PT）に実稼動環境から一時的に削除されました。</p></td>
         <td><p>2026年4月16日（PT）</p></td>
     </tr>
     <tr>
@@ -164,7 +166,7 @@ Workfront Fusion の新機能は、標準のリリーススケジュール以外
 
 ### Workfront計画の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 2 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md) を参照してください。
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 2 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md) を参照してください。
 
 このリリースの現時点では、次の更新はありません。
 
@@ -209,7 +211,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 
 ### Workfront のメンテナンス更新
