@@ -34,7 +34,7 @@ ht-degree: 20%
 
 リッチテキストフィールドタイプが、テキストを書式設定フィールドタイプに置き換えています。 右側のフィールドオプションのボタンをクリックして、フィールドが書式設定されている既存のテキストをリッチテキストにすばやく変換できます。 変換する場合、履歴データはフィールドに残り、レポートでも同じように使用されます。
 
-詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## Workfront メール通知用の新しい IP アドレス
 
