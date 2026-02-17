@@ -66,7 +66,7 @@ AI レビュー担当者は、ブランドガイドラインを使用して、�
 * Workfront インスタンスでは、統合承認が有効になっている必要があります。
 * GenStudio Foundationが必要です。
 * Adobeには、Adobe生成 AI 契約がファイルに署名済みである必要があります。
-契約の署名について詳しくは、[Adobe Gen AI 契約への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
+契約の署名について詳しくは、[Adobe Gen AI 契約への署名 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
 
 
 ## PDFを使用したブランドの作成
@@ -77,7 +77,7 @@ AI レビュー担当者は、ブランドガイドラインを使用して、�
 1. 画面の右上隅にある「**ブランドを追加**」をクリックします。
 1. ブランドに名前を付けます。
 1. 「PDF をアップロード」をクリックして、ブランドファイルをアップロードします。
-   ![ ブランド pdf のアップロード ](assets/upload-PDF.png)
+   ![&#x200B; ブランド pdf のアップロード &#x200B;](assets/upload-PDF.png)
 1. 「**続行**」をクリックします。
 1. ブランドガイドラインを含んだ 1 つ以上のPDF ファイルをアップロードし、「**ブランドを追加**」をクリックします。
 1. ファイルがアップロードされたら、抽出したブランド要素をレビューして、ブランドガイドラインに一致していることを確認します。
@@ -125,7 +125,7 @@ AI レビュー担当者は、ブランドガイドラインを使用して、�
     </tr>
     </table>
 
-   ![ ブランド要素の手動追加 ](assets/brand-elements.png)
+   ![&#x200B; ブランド要素の手動追加 &#x200B;](assets/brand-elements.png)
 
 
 1. 終了したら、「**公開**」をクリックして、AI レビュー担当者がブランドを使用できるようにします。
