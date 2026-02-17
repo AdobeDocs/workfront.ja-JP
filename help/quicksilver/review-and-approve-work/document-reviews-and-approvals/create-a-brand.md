@@ -6,9 +6,10 @@ description: AI レビュアーのブランドの設定
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
+source-git-commit: 07b401c70dfd209d13c34cf62844f334f3260af1
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '429'
 ht-degree: 10%
 
 ---
@@ -42,11 +43,17 @@ AI レビュー担当者は、ブランドガイドラインを使用して、�
    <td> <p>システム管理者である必要があります。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Admin Consoleの権限</td> 
-   <td> <p>Brand Manager をGenStudioする必要があります。</p></td> 
+   <td role="rowheader">Admin Consoleの権限*</td> 
+   <td> <p>Brand Manager をGenStudioする必要があります。</p>
+    <p>メモ：GenStudio Brand Manager を選択するには、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions"> ブランド権限の割り当て </a> に示す手順に従う必要があります。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
@@ -59,7 +66,8 @@ AI レビュー担当者は、ブランドガイドラインを使用して、�
 * Workfront インスタンスでは、統合承認が有効になっている必要があります。
 * GenStudio Foundationが必要です。
 * Adobeには、Adobe生成 AI 契約がファイルに署名済みである必要があります。
-契約の署名について詳しくは、[Adobe Gen AI 契約への署名 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
+契約の署名について詳しくは、[Adobe Gen AI 契約への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
+
 
 ## PDFを使用したブランドの作成
 
@@ -69,7 +77,7 @@ AI レビュー担当者は、ブランドガイドラインを使用して、�
 1. 画面の右上隅にある「**ブランドを追加**」をクリックします。
 1. ブランドに名前を付けます。
 1. 「PDF をアップロード」をクリックして、ブランドファイルをアップロードします。
-   ![&#x200B; ブランド pdf のアップロード &#x200B;](assets/upload-PDF.png)
+   ![ ブランド pdf のアップロード ](assets/upload-PDF.png)
 1. 「**続行**」をクリックします。
 1. ブランドガイドラインを含んだ 1 つ以上のPDF ファイルをアップロードし、「**ブランドを追加**」をクリックします。
 1. ファイルがアップロードされたら、抽出したブランド要素をレビューして、ブランドガイドラインに一致していることを確認します。
@@ -117,7 +125,7 @@ AI レビュー担当者は、ブランドガイドラインを使用して、�
     </tr>
     </table>
 
-   ![&#x200B; ブランド要素の手動追加 &#x200B;](assets/brand-elements.png)
+   ![ ブランド要素の手動追加 ](assets/brand-elements.png)
 
 
 1. 終了したら、「**公開**」をクリックして、AI レビュー担当者がブランドを使用できるようにします。
