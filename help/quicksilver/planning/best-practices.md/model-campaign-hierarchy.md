@@ -5,10 +5,8 @@ feature: Workfront Planning
 role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 1%
@@ -91,7 +89,7 @@ Planning の実装が成功したレベルと、プロセスでサポートす�
 
 エンタープライズグレードのレコードのマーケティングシステムは、単一のワークスペースでは構築されません。 レコードの種類を自然な重心で管理する「ハブアンドスポーク」アーキテクチャを使用します。
 
-詳しくは、[&#x200B; 戦略的なホームのロールアウト：30 日間のランチパッド &#x200B;](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md) を参照してください。
+詳しくは、[ 戦略的なホームのロールアウト：30 日間のランチパッド ](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md) を参照してください。
 
 ハブアンドスポーク方式を使用してアーキテクチャを構築するには、次の手順を作成する必要があります。
 
@@ -166,7 +164,7 @@ Workfront Planning は戦略的な意図の未来ですが、Canvas Dashboard �
 
   Workfront Planning で戦術またはキャンペーンが作成されると、そのレコードで対応するPortfolioまたはプログラムがWorkfrontで生成されます。
 
-  詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
+  詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
 
 これにより、次のことが可能になります。
 
