@@ -22,9 +22,9 @@ ht-degree: 0%
 >
 >この記事で推奨される機能をサポートするには、Workfront Planning Prime以降のパッケージが必要です。
 >
->Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+>Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 > 
->Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 Adobe Workfront Planning の大まかなプランとWorkfrontでの日々の実行の間で戦略的なスレッドを作成する方法を説明します。 接続を使用して、戦略と実行の間にブリッジを構築できます。
 
@@ -50,7 +50,7 @@ Adobe Workfront Planning の大まかなプランとWorkfrontでの日々の実�
 
 このフィールドタイプは、Workfront Planning のすべての関係の背後にあるエンジンです。 特定のレコードタイプ（チャネル戦術など）を、Planning またはWorkfrontに住んでいるかどうかに関係なく、他のオブジェクトタイプにリンクできることを明確にするという意図を表すものです。
 
-詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+詳しくは、[&#x200B; 接続されたレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
 ### 接続を作成するタイミングを定義
 
@@ -94,7 +94,7 @@ Adobe Workfront Planning の大まかなプランとWorkfrontでの日々の実�
 
   これにより、人間による監督やプレースホルダーの作成が可能になり、プロジェクトが本当に必要なときにのみワークフロー環境で生成されるようになります。
 
-  詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
+  詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
 
 
 ### 自動アクティベーションの作成
@@ -103,7 +103,7 @@ Adobe Workfront Planning の大まかなプランとWorkfrontでの日々の実�
 
 このアプローチには、Adobe Workfront Fusion のライセンスが必要です。
 
-詳しくは、[Workfront Fusion の設定と管理：記事のインデックス ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc) を参照してください。
+詳しくは、[Workfront Fusion の設定と管理：記事のインデックス &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc) を参照してください。
 
 * **送信トリガーの使用：** フォームは 1 つのクリーンな送信イベントを提供するので、Fusion の自動化のトリガーとして使用できます。 Fusion シナリオを使用すると、フォームの送信を検出し、Workfrontでリンクされたプロジェクトを直ちに生成できます。
 

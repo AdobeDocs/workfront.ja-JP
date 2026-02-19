@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >この記事で推奨される機能をサポートするには、Workfront Planning Prime以降のパッケージが必要です。
 >
->Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+>Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 > 
->Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 次の記事では、安全性を優先し、中断を最小限に抑え、すばやく成果を上げる戦略を使用して組織でAdobe Workfront Planning を展開する方法に関するヒントを説明します。
 

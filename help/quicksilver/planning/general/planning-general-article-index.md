@@ -30,7 +30,7 @@ ht-degree: 24%
 * [2023 年のAdobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Adobe Workfront Planning オブジェクトの制限事項の概要](/help/quicksilver/planning/general/limitations-overview.md)
 * [Adobe Workfrontの実装計画時の推奨事項](/help/quicksilver/planning/general/planning-best-practices.md)
-* [Adobe Workfront Planning Designerの概要 ](/help/quicksilver/planning/general/planning-ai-designer.md)
+* [Adobe Workfront Planning Designerの概要 &#x200B;](/help/quicksilver/planning/general/planning-ai-designer.md)
   <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
 
 

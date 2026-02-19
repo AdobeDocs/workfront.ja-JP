@@ -25,7 +25,7 @@ ht-degree: 2%
 
 この記事では、Workfrontの計画を始める際に推奨するよくある質問とベストプラクティスについて説明します。
 
-詳細については、[Adobe Workfront計画のベストプラクティス：記事一覧 ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) の記事も参照することをお勧めします。
+詳細については、[Adobe Workfront計画のベストプラクティス：記事一覧 &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) の記事も参照することをお勧めします。
 
 
 ## 設定のベストプラクティス
@@ -261,7 +261,7 @@ Workfront Planning の構成に関するよくある質問を次に示します�
 
 #### レコードタイプのリクエストフォームを作成または編集するにはどうすればよいですか？
 
-* ✅ ワークスペースへの管理アクセス権を持つユーザーは誰でも、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) の記事に記載されている手順に従うことができます。
+* ✅ ワークスペースへの管理アクセス権を持つユーザーは誰でも、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) の記事に記載されている手順に従うことができます。
 
 
 #### 要求フォームを使用して新しいレコードを送信できるユーザー

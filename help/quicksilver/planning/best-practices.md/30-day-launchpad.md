@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >この記事で推奨される機能をサポートするには、Workfront Planning Prime以降のパッケージが必要です。
 >
->Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+>Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 > 
->Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 このガイドを使用して、Adobe Workfront Planning を展開して、心理的安全性を優先し、混乱を最小限に抑え、迅速な勝利を実現する戦略を設計する方法を学びます。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 * **戦略を機能に結び付ける：** 計画レコードとWorkfront オブジェクトの間のリンクを有効にします。
 
-  詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+  詳しくは、[&#x200B; 接続されたレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
 * **現在のデータをミラーリング：** チームの既存のツール（Excel や他のコアアプリケーションなど）を使用してWorkfront Planning に入力し、データに精通し、関連性があると感じられるようにします。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 2. Workfrontでのリンクされたプロジェクトの作成をトリガーします。
 
-詳しくは、[Adobe Workfront Planning の自動設定の構成 ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) を参照してください。
+詳しくは、[Adobe Workfront Planning の自動設定の構成 &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) を参照してください。
 
 これにより、チームが戦略的な意図を自動的に確認し、実行作業をトリガーに委ねることができます。 この画期的な瞬間は、戦略と仕事の間のブリッジの価値を証明し、賛同を構築します。
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 * **取り込みフォームの導入：** リクエストフォームを戦略的リクエストの新しいゲートウェイとして使用し、データの整合性を確保します。
 
-  詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+  詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 * **監視と標準化：** グローバル分類ワークスペースを使用して、パイロットチームによるツールの使用方法を確認します。 これらの実際の例は、最終的なエンタープライズデザインを形作ります。
 

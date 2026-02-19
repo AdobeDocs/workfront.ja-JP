@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >この記事で推奨される機能をサポートするには、Workfront Planning Prime以降のパッケージが必要です。
 >
->Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+>Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 > 
->Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 マーケティングチームは、戦略やクリエイティブな作業ではなく、毎週、レポートに丸一日を費やすことになります。
 
@@ -105,7 +105,7 @@ Adobe Workfrontを既に使用している場合、Workfront Planning の使用�
 
 手動レポートでチームをドレインしている場合は、会話を開始します。 Workfront Planning を有効にする方法についてはWorkfrontの管理者に相談するか、Adobeに問い合わせて、Planning でキャンペーン戦略をリアルタイムで明確にする方法を確認してください。
 
-Workfront Planning を見たことがある、または既に購入していて、調査を開始する場合は、[Adobe Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+Workfront Planning を見たことがある、または既に購入していて、調査を開始する場合は、[Adobe Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 ## 継続させるためのベストプラクティス
 
