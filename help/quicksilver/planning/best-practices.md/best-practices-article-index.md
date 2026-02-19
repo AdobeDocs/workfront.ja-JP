@@ -6,14 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 699bc34b-98c8-4620-9fdc-992d1ab9f501
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront計画のベストプラクティス：記事索引
+
+>[!IMPORTANT]
+>
+>この記事では、Adobe Workfrontの追加機能であるAdobe Workfront Planning について説明します。
+>
+>この記事で推奨される機能をサポートするには、Workfront Planning Prime以降のパッケージが必要です。
+>
+>Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+> 
+>Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 次の記事では、安全性を優先し、中断を最小限に抑え、すばやく成果を上げる戦略を使用して組織でAdobe Workfront Planning を展開する方法に関するヒントを説明します。
 

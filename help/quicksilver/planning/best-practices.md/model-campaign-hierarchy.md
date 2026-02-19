@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1537'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,15 @@ ht-degree: 1%
 
 <!--see the file again for additional comments from Seth and others-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>この記事では、Adobe Workfrontの追加機能であるAdobe Workfront Planning について説明します。
+>
+>この記事で推奨される機能をサポートするには、Workfront Planning Prime以降のパッケージが必要です。
+>
+>Adobe Workfront Planning にアクセスするための要件の一覧については、[Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+> 
+>Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 Adobe Workfront Planning で重心とマルチワークスペースアーキテクチャを使用して、複雑なビジネスプロセスをスケーラブルで管理されたキャンペーン階層に変換する方法について説明します。
 
@@ -89,7 +97,7 @@ Planning の実装が成功したレベルと、プロセスでサポートす�
 
 エンタープライズグレードのレコードのマーケティングシステムは、単一のワークスペースでは構築されません。 レコードの種類を自然な重心で管理する「ハブアンドスポーク」アーキテクチャを使用します。
 
-詳しくは、[&#x200B; 戦略的なホームのロールアウト：30 日間のランチパッド &#x200B;](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md) を参照してください。
+詳しくは、[ 戦略的なホームのロールアウト：30 日間のランチパッド ](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md) を参照してください。
 
 ハブアンドスポーク方式を使用してアーキテクチャを構築するには、次の手順を作成する必要があります。
 
@@ -164,7 +172,7 @@ Workfront Planning は戦略的な意図の未来ですが、Canvas Dashboard �
 
   Workfront Planning で戦術またはキャンペーンが作成されると、そのレコードで対応するPortfolioまたはプログラムがWorkfrontで生成されます。
 
-  詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
+  詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
 
 これにより、次のことが可能になります。
 
