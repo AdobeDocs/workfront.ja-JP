@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '178'
 ht-degree: 24%
 
 ---
@@ -29,8 +29,8 @@ ht-degree: 24%
 * [2024 年のAdobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md)
 * [2023 年のAdobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Adobe Workfront Planning オブジェクトの制限事項の概要](/help/quicksilver/planning/general/limitations-overview.md)
-* [Adobe Workfrontの実装計画時の推奨事項](/help/quicksilver/planning/general/planning-best-practices.md)
-* [Adobe Workfront Planning Designerの概要 &#x200B;](/help/quicksilver/planning/general/planning-ai-designer.md)
+* [Adobe Workfront Planning の実装に関する推奨事項](/help/quicksilver/planning/general/planning-best-practices.md)
+* [Adobe Workfront Planning Designerの概要 ](/help/quicksilver/planning/general/planning-ai-designer.md)
   <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
 
 
