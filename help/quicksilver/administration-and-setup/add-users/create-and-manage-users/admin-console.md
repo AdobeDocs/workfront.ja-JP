@@ -246,7 +246,7 @@ Adobe Admin Console でのユーザーの一括編集について詳しくは、
 >* ユーザーがAdmin Console ユーザーグループにあり、製品プロファイルが 1 つ以上のユーザーグループに追加されている場合、Workfrontからユーザーをディアクティベートしても、実際には製品から削除されません。 ユーザーをAdmin Consoleのユーザーグループから削除する必要があります。
 >* Adobe Admin Consoleからユーザーを削除すると、そのユーザーはWorkfrontでアクティベート解除されますが、Workfrontからは削除されません。
 
-Adobeでユーザーを削除する手順については、Adobe Admin Console ドキュメントの [ ディレクトリユーザーの管理 ](https://helpx.adobe.com/jp/enterprise/using/manage-directory-users.html) を参照してください。
+Adobeでユーザーを削除する手順については、Adobe Admin Console ドキュメントの [&#x200B; ディレクトリユーザーの管理 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/manage-directory-users.html) を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
