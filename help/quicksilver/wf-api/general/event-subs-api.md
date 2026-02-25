@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
+source-git-commit: 3afa0fbfb8a82a7dc1a2e9c65d04aa1be7b6f1f8
 workflow-type: tm+mt
-source-wordcount: '3387'
-ht-degree: 93%
+source-wordcount: '3190'
+ht-degree: 97%
 
 ---
 
@@ -919,92 +919,6 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 "filterConnector": 'AND'
 ```
 
-### フィルターグループの使用（組み合わせフィルター）
-
-イベント購読では、ネストされた論理条件をサポートする標準フィルターに加えて、フィルターグループをサポートしています。
-
-フィルターグループを使用すると、イベント購読フィルター内にネストされた論理条件（AND/OR）を作成できます。
-
-各フィルターグループには、次を含めることができます。
-
-* 独自のコネクタ：`AND` または `OR`
-* スタンドアロンフィルターと同じ構文と動作に従った複数のフィルター
-
-グループ内のすべてのフィルターがサポートする：
-
-* 比較演算子：`eq`、`ne`、`gt`、`gte`、`lt`、`lte`、`contains`、`notContains`、`containsOnly`、`changed`
-* 状態オプション：`newState`、`oldState`
-* フィールドターゲティング：任意の有効なオブジェクトフィールド名
-
-グループには少なくとも 2 つのフィルターを含める必要があります
-
-```
-{
-  "objCode": "TASK",
-  "eventType": "UPDATE",
-  "authToken": "token",
-  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
-  "filters": [
-    {
-      "fieldName": "percentComplete",
-      "fieldValue": "100",
-      "comparison": "lt"
-    },
-    {
-      "type": "group",
-      "connector": "OR",
-      "filters": [
-        {
-          "fieldName": "status",
-          "fieldValue": "CUR",
-          "comparison": "eq"
-        },
-        {
-          "fieldName": "priority",
-          "fieldValue": "1",
-          "comparison": "eq"
-        }
-      ]
-    }
-  ],
-  "filterConnector": "AND"
-}
-```
-
-この例は、次を示しています。
-
-
-* 最上位フィルター（グループ外）:
-
-  { &quot;`fieldName`&quot;: &quot;`percentComplete`&quot;, &quot;`fieldValue`&quot;: &quot;`100`&quot;, &quot;`comparison`&quot;: &quot;`lt`&quot; }
-
-  このフィルターは、更新されたタスクの percentComplete フィールドが 100 未満であるかどうかを確認します。
-
-* フィルターグループ（`OR` でネストされたフィルター）:
-
-  { &quot;`type`&quot;: &quot;`group`&quot;, &quot;`connector`&quot;: &quot;`OR`&quot;, &quot;`filters`&quot;: [{ &quot;`fieldName`&quot;: &quot;`status`&quot;, &quot;`fieldValue`&quot;: &quot;`CUR`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }, { &quot;`fieldName`&quot;: &quot;`priority`&quot;, &quot;`fieldValue`&quot;: &quot;`1`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }] }
-
-  このグループは、次の 2 つの内部フィルターを評価します。
-
-   * 最初に、タスクのステータスが「CUR」（現在）に等しいかどうかを確認します。
-
-   * 次に、優先度が「1」（優先度：高）に等しいかどうかを確認します。
-
-  コネクターは「OR」であるため、いずれかの条件が true の場合、このグループはフィルターを通過します。
-
-* トップレベルコネクタ（filterConnector:`AND`）:
-
-  最上位フィルター間の最も外側のコネクタは `AND` です。
-
-  つまり、イベントが一致するためには、最上位フィルターとグループの両方が条件を満たす必要があります。
-
-* 次の場合に購読がトリガーされます。
-
-  percentComplete が 100 未満です
-
-  および
-
-  ステータスが「CUR」であるか、優先度が「1」に等しい。
 
 #### パフォーマンスと制限
 
