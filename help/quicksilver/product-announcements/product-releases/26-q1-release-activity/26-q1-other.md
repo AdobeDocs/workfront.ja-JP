@@ -22,7 +22,7 @@ ht-degree: 84%
 
 イベント購読では、ネストされた論理条件をサポートするために、スタンドアロンフィルターと共にフィルターグループをサポートするようになりました。 公開ドキュメントを更新して、新しい変更を反映させる必要があります。
 
-詳しくは、記事 Event subscriptions API の [ フィルターグループの使用 ](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) を参照してください。
+詳しくは、記事 Event subscriptions API の [&#x200B; フィルターグループの使用 &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) を参照してください。
 
 
 ## 複数選択フィールドの選択制限
