@@ -28,7 +28,7 @@ ht-degree: 19%
 
 デフォルトでは、カスタムフォーム上のすべてのセクションは、フォーム自体が展開されると展開されます。 カスタムフォームデザイナーの新しいオプションを使用すると、ユーザーがフォームを開いたときに、デフォルトで折りたたむセクションをマークできます。 このオプションは、フィールドではなくセクションレベルで適用されます。
 
-詳しくは、[ フォームの整理とプレビュー ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
+詳しくは、[&#x200B; フォームの整理とプレビュー &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
 
 ## リッチテキストフィールドタイプがカスタムフォームで使用できるようになりました
 
@@ -44,7 +44,7 @@ ht-degree: 19%
 
 リッチテキストフィールドタイプが、テキストを書式設定フィールドタイプに置き換えています。 右側のフィールドオプションのボタンをクリックして、フィールドが書式設定されている既存のテキストをリッチテキストにすばやく変換できます。 変換する場合、履歴データはフィールドに残り、レポートでも同じように使用されます。
 
-詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## Workfront メール通知用の新しい IP アドレス
 
