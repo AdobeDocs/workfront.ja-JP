@@ -7,24 +7,24 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: baa50860-e23a-4be8-8192-f0400099294f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 100%
+source-wordcount: '1066'
+ht-degree: 98%
 
 ---
 
 # 2019.2 リリースアクティビティの概要
 
-このページでは、2019.2 リリースに含まれる機能について説明します。このコンテンツを PDF 形式でダウンロードするには、[こちら](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5)に移動します。
+このページでは、2019.2 リリースに含まれる機能について説明します。<!-- To download this content in PDF format, go [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).-->
 
 >[!NOTE]
 >
->2019.2 リリースは以下の日付で、実稼動環境で利用できるようになりました。
+>2019.2 リリースは以下の日付で、本番環境で利用できるようになりました。
 >
->* *クラスター 2、クラスター 4、クラスター 6 の Workfront の実稼動環境 - 5月23日（PT）*
->* *クラスター 1、クラスター 3、クラスター 5 の Workfront の実稼動環境 - 5月24日（PT）*
->* *Workfront Proof の実稼動環境 - 5月21日（PT）*
+>* *クラスター 2、クラスター 4、クラスター 6 の Workfront の本番環境 - 5月23日（PT）*
+>* *クラスター 1、クラスター 3、クラスター 5 の Workfront の本番環境 - 5月24日（PT）*
+>* *Workfront Proof の本番環境 - 5月21日（PT）*
 
 2019.2 リリースには、システム管理者とその他のユーザーの両方に対する機能強化が含まれています。
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 * [リソースプランナーのフィルターの改善点](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#resource)
 
-  新しいフィールド（グループ）を組み込みのフィルター条件に追加する場合、リソースプランナーでのフィルター操作がより簡単になりました。
+  新しいフィールド（グループ）をビルトインのフィルター条件に追加する場合、リソースプランナーでのフィルター操作がより簡単になりました。
 
 * [リソースプランナーにポートフォリオ優先度を表示](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#resource)
 
