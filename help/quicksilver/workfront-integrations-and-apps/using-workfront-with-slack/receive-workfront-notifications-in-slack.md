@@ -6,10 +6,10 @@ description: ' [!DNL Slack] での  [!DNL Adobe Workfront]  通知の受信'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 97%
+source-wordcount: '614'
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 97%
 ## [!DNL Slack] 用に [!DNL Workfront] 通知を設定 {#configure-workfront-notifications-for-slack}
 
 1. （条件付き）[!DNL Slack] インスタンスに [!DNL Workfront] が追加された後、[!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  へのアクセスを参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  へのアクセスを参照してください。
 
 1. 任意のチャネルから、メッセージフィールドに次のいずれかのコマンドを入力します。
 
@@ -76,6 +76,12 @@ ht-degree: 97%
    * [!UICONTROL 自分に新しいタスクまたはイシューに割り当てられている]
    * [!UICONTROL チームに新しいタスクまたはイシューが割り当てられている]
    * [!UICONTROL 新しい承認またはアクセスリクエストを受け取る]
+
+     >[!NOTE]
+     >
+     >承認は、従来のドキュメントの承認を指します。 統合ドキュメント承認は、現在 [!DNL Slack] ではサポートされていません。 Workfrontの様々な承認システムについて詳しくは、「[ ドキュメント承認で使用できる機能 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)」を参照してください。
+
+
    * [!UICONTROL 自分が更新を受信する対象者として追加された]
    * [!UICONTROL 自分が参加中のスレッドに対して誰かがコメントした]
    * [!UICONTROL 購読しているタスク、イシュー、またはプロジェクトが更新された]
@@ -99,10 +105,10 @@ ht-degree: 97%
 
 1. [!UICONTROL Slack] にログインします。
 1. [!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」節を参照してください。
 
 1. [!DNL Slack] 用の [!DNL Workfront] 通知が有効になっていることを確認します。\
-   どの [!DNL Workfront] 通知を [!DNL Slack] にも通知されるように設定できるかについて詳しくは、[&#x200B; [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack) 用の  [!DNL Workfront]  設定を参照してください。
+   どの [!DNL Workfront] 通知を [!DNL Slack] にも通知されるように設定できるかについて詳しくは、[ [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack) 用の  [!DNL Workfront]  設定を参照してください。
 
 1. **[!DNL Workfront]** チャネルにアクセスして [!DNL Workfront] 通知を検索します。
 1. （条件付きおよびオプション）次のいずれかの操作を行います。
