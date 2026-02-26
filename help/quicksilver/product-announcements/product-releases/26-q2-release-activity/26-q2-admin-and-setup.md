@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
+source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 20%
+source-wordcount: '348'
+ht-degree: 16%
 
 ---
 
@@ -18,15 +18,19 @@ ht-degree: 20%
 
 2026年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2026年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)を参照してください。
 
+## デフォルトでカスタムフォームセクションを折りたたむ
 
+デフォルトでは、カスタムフォーム上のすべてのセクションは、フォーム自体が展開されると展開されます。 カスタムフォームデザイナーの新しいオプションを使用すると、ユーザーがフォームを開いたときに、デフォルトで折りたたむセクションをマークできます。 このオプションは、フィールドではなくセクションレベルで適用されます。
+
+詳しくは、[ フォームの整理とプレビュー ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
 
 ## リッチテキストフィールドタイプがカスタムフォームで使用できるようになりました
 
 >[!NOTE]
 >
 >プレビュー：2026 年 1 月 29 日（PT）
->実稼動迅速リリース：2026 年 2 月 12 日（PT）
->すべてのユーザー向けの実稼動：2026 年 4 月 16 日（PT）
+>実稼動環境の迅速リリース：未定
+>すべてのユーザー向けの実稼動環境：未定
 >
 >この機能は、2026 年 2 月 13 日（PT）に実稼動環境から一時的に削除されました。
 
@@ -34,7 +38,7 @@ ht-degree: 20%
 
 リッチテキストフィールドタイプが、テキストを書式設定フィールドタイプに置き換えています。 右側のフィールドオプションのボタンをクリックして、フィールドが書式設定されている既存のテキストをリッチテキストにすばやく変換できます。 変換する場合、履歴データはフィールドに残り、レポートでも同じように使用されます。
 
-詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## Workfront メール通知用の新しい IP アドレス
 

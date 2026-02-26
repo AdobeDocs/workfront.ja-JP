@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
+source-git-commit: 4c12d32523bcca10962b56d9abd5854e8400ce3f
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 31%
+source-wordcount: '1074'
+ht-degree: 55%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 31%
 
 このページでは、2026 年 4 月に予定されている 2026 年第 2 四半期のリリースに含まれる機能について説明します。
 
-このページの機能強化は、プレビュー環境で利用できます。 このページは、2026 年第 2 四半期のリリースが、予定されている実稼動リリースに近づくにつれて、追加の機能強化を加えて更新されます。
+このページの機能強化は、プレビュー環境で利用できます。このページは、2026 年第 2 四半期のリリースが、予定されている実稼動リリースに近づくにつれて、追加の機能強化を加えて更新されます。
 
 
 <!-- Keep commented until Final Preview release.
@@ -39,7 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront の機能強化
 
 * [管理者機能の強化](#administrator-enhancements)
-* [プロジェクトの強化](#project-enhancements)
+* [ドキュメントの機能強化](#document-enhancements)
+* [プロジェクトの機能強化](#project-enhancements)
+* [レポートの機能強化](#reporting-enhancements)
+* [機能強化のリクエスト](#requesting-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### 管理者機能の強化
@@ -54,6 +57,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>プレビュー</strong></td>
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> デフォルトでカスタムフォームセクションを折りたたむ </a><p>デフォルトでは、カスタムフォーム上のすべてのセクションは、フォーム自体が展開されると展開されます。 カスタムフォームデザイナーの新しいオプションを使用すると、ユーザーがフォームを開いたときに、デフォルトで折りたたむセクションをマークできます。 このオプションは、フィールドではなくセクションレベルで適用されます。</p>
+        </td>
+        <td><p>2025年2月26日（PT）</p></td>
+        <td><p>2026年3月12日（PT）</p></td>
+        <td><p>2026年4月16日（PT）</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> リッチテキストフィールドタイプがカスタムフォームで使用できるようになりました </a><p>カスタムフォームの新しい <b> リッチテキスト </b> フィールドタイプは堅牢なテキストエディターで、太字、斜体、下線、箇条書き、番号付け、ハイパーリンク、ブロック引用の従来のオプションに加えて、上付き文字、下付き文字、見出し、表などの書式設定オプションが用意されています。 文字数の制限は 15,000 のままです。</p>
@@ -92,7 +103,44 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
-### プロジェクトの強化
+<!--
+
+### Document enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Multi‑stage approval workflows available for unified approvals</a><p></p>
+            <p>Multi‑stage approval workflows are now available in unified approvals, helping organizations enforce structured, repeatable approval processes that reflect how work is reviewed in the real world. </p>
+        </td>
+        <td><p>February 26, 2025</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Set up and use multi-stage approval workflow templates</a><p></p>
+            <p>You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. </p>
+        </td>
+        <td><p>February 26, 2025</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>
+             </tbody>
+        </table>   
+
+-->
+
+### プロジェクトの機能強化
 
 <table>
             <col style="width: 50%;" />
@@ -114,12 +162,78 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}"> タスクを単一または一括割り当てした場合のエクスペリエンス </a> 更新されました<p>[!BADGE Off schedule]{type=Neutral}</p><p> 単一のタスクの編集時または一括編集時に、「タスクを編集」ボックスの「割り当て」セクションを更新しました。 </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}"> タスクを単一または一括割り当てした場合のエクスペリエンス </a> 更新されました<p>[!BADGE Off schedule]{type=Neutral}</p><p> 単一のタスクの編集時または一括編集時に、「タスクを編集」ボックスの「割り当て」セクションを更新しました。 </p>
         </td>
         <td><p>2026年1月26日（PT）</p></td>
         <td><p>2026 年 2 月 5 日より</p></td>
         <td><p>2026 年 2 月 5 日より</p></td>
     </tr>
+            </tbody>
+        </table>
+
+### レポートの機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}"> レポートの作成時に表示されるカスタムフィールドラベル </a><p></p>
+            <p>レポート作成ツールのフィールド名およびオブジェクトの前にカスタムフィールドラベルが表示されるようになり、フィールドを見つけやすくなりました。 フィールドラベルは、リストでフィルター、ビュー、グループ化を定義する際にも表示されます。</p>
+        </td>
+        <td><p>2025年2月26日（PT）</p></td>
+        <td><p>2026年3月12日（PT）</p></td>
+        <td><p>2026年4月16日（PT）</p></td>
+    </tr>
+<!--    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Shareable Report Folders</a><p></p>
+            <p>You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control.</p>
+        </td>
+        <td><p>February 26, 2025</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>-->
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Improved Date Labels for Chart Groupings in Canvas Dashboards</a><p></p>
+            <p>Charts that group data by date now display clearer, more readable date labels. With this update, date labels dynamically adjust based on the selected Group by option—such as day, week, month, or year—making charts easier to read and interpret at a glance.</p>
+        </td>
+        <td><p>February 26, 2025</p></td>
+        <td><p>March 12, 2026</p></td>
+        <td><p>April 16, 2026</p></td>
+    </tr>-->
+             </tbody>
+        </table>
+
+### 機能強化のリクエスト
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 25%;" />
+            <tbody>
+               <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}"> 拡張ビューの更新された共有エクスペリエンス </a><p></p>
+            <p>新規リクエスト エリアで、ユーザーと拡張ビューを共有し、ビュー権限を付与すると、ユーザーはビュー要素を変更でき、それらの変更はユーザーの個人環境設定に保存されます。 変更を含むビューのコピーを保存するか、共有ビューを元の設定にリセットするオプションが追加されました。 コピーしたビューを他のユーザーと共有することもできます。 </p>
+        </td>
+           <td><p>2025年2月26日（PT）</p></td>
+        <td><p>2026年3月12日（PT）</p></td>
+        <td><p>2026年4月16日（PT）</p></td>
+ </tr>
             </tbody>
         </table>
 
@@ -137,8 +251,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>四半期ごと</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Adobeの統合エクスペリエンスを、より多くのWorkfront組織で利用できるようになりました </a><p></p>
-            <p>Adobe Unified Experience のメリットに企業がアクセスできるように、アドビでは既存のWorkfrontのお客様が利用できるようにするサービスを引き続き提供します。</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience がより多くの Workfront 組織で利用可能に</a><p></p>
+            <p>組織が Adobe Unified Experience のメリットにアクセスできるように、既存の Workfront のお客様向けに、引き続きサービスを提供します。</p>
         </td>
         <td><p>2025年12月11日（PT）</p></td>
         <td><p>2026年2月11日（PT）</p></td>
@@ -158,60 +272,60 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 -->
 
-## その他の領域のリリースノート
+## その他のエリアに関するリリースノート
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、実稼動環境の標準リリーススケジュール以外のサイクルで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
-### Workfront計画の機能強化
+### Workfront Planning の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 2 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md) を参照してください。
+Workfront Planning の新機能は、実稼動環境で使用できます。最新機能について詳しくは、[Adobe Workfront Planning の 2026 年第 2 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md) を参照してください。
 
-このリリースの現時点では、次の更新はありません。
+現時点では、リリースには以下に関するアップデートは含まれていまません。
 
 * シナリオプランナー
 * プルーフ
-* Goals
+* 目標
 
-## デスクトッププルーフビューアのアップデート
+## デスクトッププルーフビューアーのアップデート
 
 ### バージョン 2.1.54
 
-**すべてのお客様向けの実稼動リリース：2025 年 12 月 11 日**
+**実稼動版リリース（すべてのお客様向け）：2025年12月11日（PT）**
 
-デスクトッププルーフビューアが 2.1.52 から 2.1.54 にに更新されました。この更新には、内部ツールの更新が含まれていましたが、エンドユーザーの機能には影響しませんでした。
+デスクトッププルーフビューアーが 2.1.52 から 2.1.54 にアップデートされました。このアップデートには、内部ツールのアップデートが含まれていましたが、エンドユーザーの機能には影響しませんでした。
 
 2.1.53 バージョンには、内部ツールの変更も含まれています。
 
-このアップデートは、Macと Windows の両方に対応しています。
+このアップデートは、Mac と Windows の両方に対応しています。
 
 ## お知らせ
 
 ### API バージョン 21
 
-Workfront API バージョン 21 は、2025 年 10 月 23 日（PT）にリリースされました。 API バージョン 21 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
+Workfront API バージョン 21 は 2025年10月23日（PT）にリリースされました。API バージョン 21 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
 
 >[!IMPORTANT]
 >
->この API バージョンの変更は、既存の API 呼び出しに影響を与える可能性のある重大な変更を特徴としています。 これは、API バージョン 21 がイベント購読バージョン 2 を使用しているためです。
+>この API バージョンの変更には、既存の API 呼び出しに影響を与える可能性のある重大な変更が含まれています。これは、API バージョン 21 ではイベント登録バージョン 2 が使用されているためです。
 >
-> 複数選択フィールドの場合、イベント購読バージョン 2 は常に配列として送信します。 バージョン 1 では、複数の値が選択されている場合、配列が送信されました。 1 つの値のみが選択された場合、文字列が送信されます。
+> 複数選択フィールドの場合、イベント登録バージョン 2 では常に配列として送信されます。バージョン 1 では、複数の値が選択されている場合に、配列が送信されました。1 つの値のみが選択されている場合は、文字列が送信されました。
 
-新機能と更新内容については、[API バージョン 21 の新機能](/help/quicksilver/wf-api/api/new-api-version-21.md)を参照してください。
+新機能とアップデートについて詳しくは、[API バージョン 21 の新機能](/help/quicksilver/wf-api/api/new-api-version-21.md)を参照してください。
 
 API バージョンの詳細については、[API のバージョン管理とサポートスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
-### その他のWorkfront統合の移行
+### その他の Workfront 統合の移行
 
-より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、次の統合は **2026 年 2 月 28 日** 以降は利用できなくなります。
+より安定したスケーラブルな統合を実現するために、アドビでは、Workfront の自動処理と統合 （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。この移行プロセスの一環として、次の統合は **2026年2月28日（PT）**&#x200B;以降は利用できなくなります。
 
 * Workfront for G Suite
 * Workfront for Jira
-* SalesforceのWorkfront。
+* Salesforce 用 Workfront
 
-Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Google Workspace を使用した組織の統合のニーズに対しては、Workfront の自動処理と統合を使用することをお勧めします。
+Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 
 ### Workfront のメンテナンス更新
