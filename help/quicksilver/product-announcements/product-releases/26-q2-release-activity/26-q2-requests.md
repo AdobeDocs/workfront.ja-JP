@@ -29,7 +29,7 @@ ht-degree: 25%
 
 この更新は、新しいリクエスト エリアの拡張ビューでのみ使用できます。
 
-詳しくは、[ 拡張リストの使用 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
+詳しくは、[&#x200B; 拡張リストの使用 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
 
 
 

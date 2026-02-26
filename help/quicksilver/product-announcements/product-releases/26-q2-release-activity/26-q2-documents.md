@@ -58,5 +58,5 @@ For more information, see [Create a document approval workflow](/help/quicksilve
 * 承認開始時の手動セットアップ時間の短縮
 * 必要な関係者が適切な段階で関与していることを確認
 
-詳しくは、[ ドキュメント用の承認ワークフローテンプレートの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
+詳しくは、[&#x200B; ドキュメント用の承認ワークフローテンプレートの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
 
