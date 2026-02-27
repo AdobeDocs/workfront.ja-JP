@@ -4,10 +4,11 @@ description: 2026 年第 2 四半期レポートの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8bcea5cec9f68deacc5f89ca7703303a1b00769f
+exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
+source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 23%
+source-wordcount: '428'
+ht-degree: 16%
 
 ---
 
@@ -31,29 +32,25 @@ ht-degree: 23%
 
 詳しくは、[カスタムレポートを作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
-<!--
-
-## Shareable Report Folders
+## 共有可能な報告書フォルダー
 
 >[!NOTE]
 >
->Preview: February 26, 2026
->Production fast release: March 12, 2026
->Production for everyone: April 16, 2026
+>プレビュー：2026 年 2 月 26 日（PT）
+>実稼動（迅速リリース）：2026年3月12日（PT）
+>実稼動（全ユーザー）：2026年4月16日（PT）
 
-You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control:
+共有可能なレポートフォルダーを使用して、レポートを整理および共有できるようになりました。 この新機能により、大量のレポートを管理するチームは、拡張性と一貫性のあるアクセス制御を維持できます。
 
-* **Create organized folder structures**: System administrators can create top-level folders, and users with manage access can create subfolders up to 4 levels deep.
-* **Granular permission controls**: Share folders with two permission levels:
-   * View: Users can open reports and share folders
-   * Manage: Users can edit folder details, add/remove items, and automatically receive manage access to all reports within the folder
-* **Inherited permissions**: Permissions cascade from parent folders to all subfolders and reports within the folder tree
-* **Enhanced list experience**: When you enable sharable folders, you will have access to the enhanced list experience. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+* **整理されたフォルダー構造の作成**：システム管理者は最上位のフォルダーを作成でき、管理アクセス権を持つユーザーはサブフォルダーを最大 4 レベルの深さまで作成できます。
+* **詳細な権限制御**：次の 2 つの権限レベルでフォルダーを共有します。
+   * 表示：ユーザーはレポートを開いてフォルダーを共有できます
+   * 管理：ユーザーは、フォルダーの詳細の編集、項目の追加と削除およびフォルダー内のすべてのレポートへの管理アクセス権の自動受信を行うことができます
+* **継承された権限**：親フォルダーからフォルダーツリー内のすべてのサブフォルダーとレポートに権限がカスケードされます
+* **強化されたリストエクスペリエンス**：共有可能なフォルダーを有効にすると、強化されたリストエクスペリエンスにアクセスできるようになります。 詳しくは、[ 拡張リストの使用 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
 
 
-For more information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
-
--->
+詳しくは、「共有可能なレポートフォルダーの使用 [ を参照してください ](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)。
 
 ## キャンバスダッシュボードのグラフのグループ化の日付ラベルを改善しました
 
@@ -63,10 +60,12 @@ For more information, see [Use shareable report folders](/help/quicksilver/repor
 >実稼動（迅速リリース）：2026年3月12日（PT）
 >実稼動（全ユーザー）：2026年4月16日（PT）
 
+>[!NOTE]
+>
+>キャンバスダッシュボードは現在ベータ版です。
+
 データを日付別にグループ化するグラフで、より明確で読みやすい日付ラベルが表示されるようになりました。 この更新により、日付ラベルは、選択した「グループ化の基準」オプション（日、週、月、年など）に基づいて動的に調整されるようになり、グラフを一目で読みやすく、解釈しやすくなりました。
 
 <table> <tbody> <tr> <td>日</td> <td>完全な日付が表示されます。 例：3/12/2026</td> </tr> <tr> <td>週</td> <td>書式設定された週の開始日を表示します。 例、2026 年 3 月 8 日</td> </tr> <tr> <td>月</td> <td>月と年が表示されます。 2026 年 3 月の例</td> </tr> <tr> <td>年</td> <td>年のみを表示します。 例：2026</td> </tr> </tbody> </table>
 
 以前は、グラフのグループ化には、選択した期間の開始日が常に数値形式で表示されていました。
-
-
