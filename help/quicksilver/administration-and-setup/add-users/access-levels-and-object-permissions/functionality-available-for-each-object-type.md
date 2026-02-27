@@ -10,20 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 57632f1949e849aca3f26874382f1101b9b0cf89
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 92%
+source-wordcount: '1585'
+ht-degree: 93%
 
 ---
 
 # 様々なアクセスレベルの各オブジェクトタイプで使用可能な機能（レガシー）
 
-{{highlighted-preview}}
-
 >[!NOTE]
 >
->この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[&#x200B; 新しいアクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) を参照してください。
+>この記事では、従来のアクセスレベルについて説明します。現在のアクセスレベルについて詳しくは、[新しいアクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)を参照してください。
 
 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
 
@@ -31,7 +29,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->この記事では、現在のWorkfront パッケージモデルのアクセスレベルで使用できる機能について説明します。 新しいパッケージモデルで使用可能な機能を確認するには、[&#x200B; 新しいアクセスレベルの各オブジェクトタイプで使用可能な機能 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) を参照してください。
+>この記事では、現在のWorkfront パッケージモデルのアクセスレベルで使用できる機能について説明します。 新しいパッケージモデルで使用可能な機能を確認するには、[ 新しいアクセスレベルの各オブジェクトタイプで使用可能な機能 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) を参照してください。
 
 ## プロジェクト
 
@@ -193,7 +191,7 @@ ht-degree: 92%
 | 共有 | ✓&#42; | ✓ | ✓ |  |  |
 | カレンダーとレポートを公開して共有 | ✓&#42; |  |  |  |  |
 | システム全体で共有 | ✓&#42; |  |  |  |  |
-| 表示 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| ビュー | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | 編集 | ✓ |  |  |  |  |
 | コピー | ✓ |  |  |  |  |
 
@@ -506,7 +504,6 @@ ht-degree: 92%
 | 請求記録の管理 | ✓ |  |  |
 | 費用の管理 | ✓ | ✓ |  |
 | 財務データの表示 | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">レートカードの管理</span> | ✓ |  |  |
 | リソース計画ツールでコスト別に情報を表示する | ✓ |  |  |
 | リソース計画ツールでのリソース予算計上&#42;&#42; | ✓ |  |  |
 | リソース計画ツールでのリソース配分の表示&#42; | ✓ | ✓ | ✓ |
@@ -550,7 +547,7 @@ ht-degree: 92%
 | プランとイニシアチブに関する担当業務情報の追加または編集&#42; | ✓ | ✓ | ✓ |  |  |
 | プランとイニシアチブに関するコスト情報を追加または編集&#42; | ✓ | ✓ | ✓ |  |  |
 | プランとイニシアチブの削除 | ✓ | ✓ | ✓ |  |  |
-| メインメニューでシナリオを表示 ![&#x200B; シナリオプランナーアイコン &#x200B;](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |  |
+| メインメニューでシナリオを表示 ![ シナリオプランナーアイコン ](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |  |
 | ユーザーが作成したプランとイニシアチブの表示&#42; | ✓ | ✓ | ✓ |  |  |
 
 {style="table-layout:auto"}
@@ -563,7 +560,7 @@ ht-degree: 92%
 
 ## Workfront Goals のエリア
 
-| アクション | 表示 | 編集 |
+| アクション | ビュー | 編集 |
 |---|---|---|
 | 作成 |  | ✓ |
 | すべての目標を編集・削除 |  | ✓ |
