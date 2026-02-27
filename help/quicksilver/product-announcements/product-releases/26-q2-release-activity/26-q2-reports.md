@@ -47,10 +47,10 @@ ht-degree: 16%
    * 表示：ユーザーはレポートを開いてフォルダーを共有できます
    * 管理：ユーザーは、フォルダーの詳細の編集、項目の追加と削除およびフォルダー内のすべてのレポートへの管理アクセス権の自動受信を行うことができます
 * **継承された権限**：親フォルダーからフォルダーツリー内のすべてのサブフォルダーとレポートに権限がカスケードされます
-* **強化されたリストエクスペリエンス**：共有可能なフォルダーを有効にすると、強化されたリストエクスペリエンスにアクセスできるようになります。 詳しくは、[ 拡張リストの使用 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
+* **強化されたリストエクスペリエンス**：共有可能なフォルダーを有効にすると、強化されたリストエクスペリエンスにアクセスできるようになります。 詳しくは、[&#x200B; 拡張リストの使用 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
 
 
-詳しくは、「共有可能なレポートフォルダーの使用 [ を参照してください ](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)。
+詳しくは、「共有可能なレポートフォルダーの使用 [&#x200B; を参照してください &#x200B;](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)。
 
 ## キャンバスダッシュボードのグラフのグループ化の日付ラベルを改善しました
 
