@@ -6,10 +6,10 @@ description: インストール後 [!DNL Adobe Workfront] 対象： [!DNL Salesf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 80%
+source-wordcount: '110'
+ht-degree: 37%
 
 ---
 
@@ -17,112 +17,116 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Salesforce統合は **2026 年 2 月 28 日** 以降は使用できなくなります。
+>より安定した拡張性の高い統合を実現するために、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しました。 この移行プロセスの一環として、Workfront for Salesforceの統合は **利用できなくなりました**。
 >
 >組織のSalesforceとの統合のニーズに応じて、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 >
->SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
-[!DNL Adobe Workfront for Salesforce] をインストールすると、[!DNL Salesforce] の商談およびアカウントから [!DNL Workfront] リクエストを送信できるようになります。この機能は、[!DNL Classic] と [!DNL Lightning Experience] の両方のフレームワークに存在します。
+<!--
 
-## アクセス要件
+After installing [!DNL Adobe Workfront for Salesforce], you can submit [!DNL Workfront] requests from [!DNL Salesforce] Opportunities and Accounts. This functionality exists in both the [!DNL Classic] and [!DNL Lightning Experience] frameworks.
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>標準</p>
-   <p>プラン</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 前提条件
+## Prerequisites
 
-[!DNL Salesforce] の商談やアカウントから [!DNL Workfront] リクエストを送信するには、お使いの環境が以下の条件を満たしていることを確認してください。
+To submit a [!DNL Workfront] request from a [!DNL Salesforce] Opportunity or Account ensure that you have the following in your environment:
 
-* [!DNL Workfront] 管理者が [!DNL Workfront for Salesforce] をインストールしてある。\
-   [!DNL Workfront for Salesforce] のインストールについて詳しくは、[&#x200B; [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) のインストールを参照してください。
+* Your [!DNL Workfront] administrator has installed [!DNL Workfront for Salesforce].\
+   For more information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
-* [!DNL Workfront] 管理者が、[!UICONTROL 商談]ページと[!UICONTROL アカウント]ページのレイアウトに「[!DNL Workfront]」セクションを追加してある。\
-   ページレイアウトへの「[!DNL Workfront]」セクションの追加について詳しくは、[&#x200B; [!DNL Salesforce] ユーザーに対する「 [!DNL Adobe Workfront] 」セクションの設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
+* Your [!DNL Workfront] administrator has added the [!DNL Workfront] section to your [!UICONTROL Opportunity] and [!UICONTROL Account] page layouts.\
+   For more information about adding the [!DNL Workfront] section to a page layout, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-* [!DNL Workfront] アカウントがあり、商談またはアカウント内の「[!DNL Workfront]」セクションからログインできる。\
-   ログインすると「[!UICONTROL 新しい要求]」タブが表示され、リクエストを入力できるようになります。
+* You have a [!DNL Workfront] account and you can log in to it from the [!DNL Workfront] section inside your Opportunity or Account.\
+   Once you log in, you can see the [!UICONTROL New Requests] tab where you can start entering requests.
 
-## [!DNL Salesforce] からの [!DNL Workfront] リクエストの送信
+## Submit [!DNL Workfront] requests from [!DNL Salesforce]
 
-1. Salesforce で商談またはアカウントに移動します。
-1. 「[!DNL Workfront]」セクションに移動します。
-1. 「**[!UICONTROL 新しい要求]**」タブで、**[!UICONTROL リクエストタイプを選択]**&#x200B;ドロップダウンメニューからリクエストタイプを選択します。
+1. Go to an Opportunity or Account in Salesforce.
+1. Go to the [!DNL Workfront] section.
+1. In the **[!UICONTROL New Requests]** tab, select a request type in the **[!UICONTROL Select a Request Type]** drop-down menu.
 
-   Workfront で表示されるリクエストキューと同じものが表示されます。
+   You can see the same request queues that you have access to see in Workfront. 
 
-1. リクエストに使用できるフィールドに入力していきます。
+1. Start filling out the available fields for your request.
 
-   [!DNL Salesforce] からのリクエストの送信は、[!DNL Workfront] web アプリケーションでのリクエストの送信と同じです。
-
-   >[!NOTE]
-   >
-   >[!DNL Salesforce] の [!DNL Workfront] プラグインを使用したドキュメントのアップロードは、一時的に利用できなくなっています。
-
-   引き続き、[&#x200B; [!DNL Adobe Workfront] リクエストの作成と送信](../../manage-work/requests/create-requests/create-submit-requests.md)で説明されている手順に従います。
-
-1. 「**[!UICONTROL 送信]**」をクリックします。
-
-## [!DNL Workfront] リクエストの表示
-
-1. [!DNL Salesforce] で商談またはアカウントに移動します。
-1. 「**[!DNL Workfront]**」セクションに移動します。
+   Submitting a request from [!DNL Salesforce] is identical to submitting a request in the [!DNL Workfront] web application.
 
    >[!NOTE]
    >
-   >[!DNL Workfront] 管理者によるこのセクションの設定によっては、別の名前が付けられている場合があります。
+   >Uploading a document using the [!DNL Workfront] plugin in [!DNL Salesforce] is temporarily unavailable.
 
-1. 「**[!UICONTROL 送信済みの要求]**」タブを選択します。
+   Continue to follow the steps described in [Create and submit [!DNL Adobe Workfront] requests](../../manage-work/requests/create-requests/create-submit-requests.md).
 
-   このタブには、自分または他のユーザーがこの商談またはアカウントから送信したすべてのリクエストが表示されきます。Web アプリケーションでこのリクエストキューに送信されたリクエストは、[!DNL Salesforce] のこのリストには表示されません。
+1. Click **[!UICONTROL Submit]**.
+
+## View [!DNL Workfront] requests
+
+1. Go to an Opportunity or Account in [!DNL Salesforce].
+1. Go to the **[!DNL Workfront]** section.
 
    >[!NOTE]
    >
-   >Web アプリケーションでこのリクエストキューに送信されたリクエストは、Salesforce のこのリストには表示されません。
+   >Depending on how your [!DNL Workfront] administrator configured this section, it might have a different name.
+
+1. Select the **[!UICONTROL Submitted Requests]** tab.
+
+   You can view all the requests that you or others have submitted from this Opportunity or Account in this tab.Requests that are submitted to this request queue in the web application do not display in this list in [!DNL Salesforce].
+
+   >[!NOTE]
+   >
+   >Requests that are submitted to this request queue in the web application do not display in this list in Salesforce.
 
    ![salesforce_submitted_requests.png](assets/salesforce-submitted-requests-350x58.png)
 
-   送信済みのリクエストに関する次の情報が表示されます。
+   You can view the following information about the submitted requests:
 
-   * リクエスト名（[!UICONTROL 件名]列）
-   * 参照番号
-   * リクエストタイプ
-   * ステータス
-   * 送信日
-   * 要求者名
-   * 割り当て先の名前
+   * Requests Name (in the [!UICONTROL Subject] column)
+   * Reference Number
+   * Request Type
+   * Status
+   * Submitted on Date
+   * Requested by Name
+   * Assigned to Name\
 
-     この情報が [!DNL Workfront] で更新されると、このリストでも更新されます。
+      When this information is updated in [!DNL Workfront], it is also updated in this list.
 
-1. （オプション）リクエストの名前をクリックして [!DNL Workfront] で開きます。
+1. (Optional) Click the name of the request to open it in [!DNL Workfront].
 
-1. （オプション）「**[!UICONTROL [!DNL Salesforce]]**&#x200B;に移動」をクリックして、Workfront の以下のエリアからイシューが発生した商談またはアカウントにアクセスします。
+1. (Optional) Click **[!UICONTROL Go to [!DNL Salesforce]]** to access the Opportunity or Account where the issue originated from the following areas of Workfront:
 
-   * イシューの[!UICONTROL 詳細]セクション
-   * リストでイシューを選択する際の概要パネルで、リストのツールバーの [!UICONTROL &#x200B; 概要を開く &#x200B;]![&#x200B; 概要パネルアイコン &#x200B;](assets/summary-panel-icon.png) をクリックします。
-   * イシューヘッダー（[!UICONTROL 統合]フィールドが使用可能なとき）。システム管理者またはグループ管理者が、レイアウトテンプレートに[!UICONTROL 統合]フィールドを追加して、イシューヘッダーに「Salesforce に移動」リンクを表示する必要があります。詳しくは、[レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
+   * In the [!UICONTROL Details] section of the issue
+   * In the Summary panel  when selecting the issue in a list, after clicking [!UICONTROL Open Summary] ![Summary panel icon](assets/summary-panel-icon.png) in the list's toolbar.
+   * In the issue header, when the [!UICONTROL Integrations] field is available. Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the issue header. For more information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    >[!NOTE]
    >
-   >「[!UICONTROL Salesforce に移動]」リンクは、イシューを表示できるすべての [!DNL Workfront] ユーザーに表示されます。イシューが記録された [!DNL Salesforce] の商談またはアカウントに移動するには、[!DNL Salesforce] アカウントが必要です。
+   >The [!UICONTROL Go to Salesforce] link is visible to all [!DNL Workfront] users who can view the issue. You must have a [!DNL Salesforce] account to be able to go to the [!DNL Salesforce] Opportunity or Account where the issue was logged.
+
+   -->

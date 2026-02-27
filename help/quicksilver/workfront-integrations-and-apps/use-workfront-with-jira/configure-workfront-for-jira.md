@@ -6,10 +6,10 @@ description: ' [!DNL Jira] および  [!DNL Workfront]  システムを統合す
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: e06713b8871ba5e7bfae58f67ee246c9c1163a63
+source-git-commit: 204324d5a5aaffbe47d31709096e739b62acecb8
 workflow-type: tm+mt
-source-wordcount: '2454'
-ht-degree: 95%
+source-wordcount: '94'
+ht-degree: 25%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Jira の統合は **2026 年 2 月 28 日** 以降は利用できなくなります。
+>より安定した拡張性の高い統合を実現するために、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しました。 この移行プロセスの一環として、Workfront for Jira の統合は **利用できなくなりました**。
 >
 >Jira を使用する場合は、組織の統合のニーズに合わせてWorkfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 >
->Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)」を参照してください。
+>Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)」を参照してください。
 
 <!--
 
@@ -38,194 +38,196 @@ ht-degree: 95%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
-[!DNL Adobe Workfront for Jira] を使用すると、[!DNL Jira] システムと [!DNL Workfront] システムを統合できます。
+<!--
 
-アドオンをインストールした後、[!DNL Workfront] 作業アイテムが作成される場合に、[!DNL Jira] のイシューを自動的に作成するワークフローを定義できます。両方のアプリケーションの項目がリンクされ、両方のシステムで情報の一部が自動的に更新されます。
+You can use [!DNL Adobe Workfront for Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
 
-[!DNL Workfront] のすべてのユーザーおよび [!DNL Jira] は、この統合からメリットを得ることができます。最も頻繁に作業するシステムのライセンスのみ必要で、両方のシステムのライセンスが必要になるわけではありません。
+After installing the add-on, you can define workflows that create [!DNL Jira] issues automatically when [!DNL Workfront] work items are created. The items in both applications become linked, and some of their information automatically updates in both systems.
 
-このアドオンは、[!UICONTROL サーバー]および[!UICONTROL OnDemand]（または[!UICONTROL クラウド]）の [!DNL Jira] ソフトウェアのバージョンの両方で使用できます。
+All users in [!DNL Workfront] and [!DNL Jira] can benefit from this integration. They only need a license for the system in which they work the most, and not for both systems. 
 
-[!DNL Jira] が現在サポートしている [!DNL Workfront for Jira] のバージョンのリストについて、[&#128279;](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) [!DNL Atlassian Marketplace] での [!DNL Workfront for Jira] を参照してください。
+This add-on is available for both the [!UICONTROL Server] and [!UICONTROL OnDemand] (or [!UICONTROL Cloud]) versions of [!DNL Jira] Software.
 
-## アクセス要件
+For a list of [!DNL Jira] versions that [!DNL Workfront for Jira] currently supports, see [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) at the [!DNL Atlassian Marketplace].
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td><p>任意</p>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>標準 </p>
-       <p>プラン </p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard </p>
+       <p>Plan </p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Jira アクセス</td> 
-   <td> <p>システム管理者のアクセス権</p> <p>重要：ユーザーに関連付けられた既存のシステム管理者アカウントを使用するのではなく、Jira とWorkfrontで個別のシステム管理者アカウントを作成して、この統合専用にすることをお勧めします。</p> </td> 
+   <td role="rowheader">Jira access</td> 
+   <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in Jira and Workfront to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 前提条件
+## Prerequisites
 
-[!DNL Workfront for Jira] を設定する前に、以下を行う必要があります。
+Before you can configure [!DNL Workfront for Jira], you must:
 
-* [!DNL Workfront for Jira] をインストールします。
-[!DNL Workfront for Jira] のインストールの手順については、[&#x200B; [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md) をインストールを参照してください。
+* Install [!DNL Workfront for Jira].
+   For instructions on installing [!DNL Workfront for Jira], see [Install [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
-## [!DNL Workfront for Jira] の設定
+## Configure [!DNL Workfront for Jira]
 
-[!DNL Workfront for Jira] を設定することで、次の操作を実行できます。
+By configuring [!DNL Workfront for Jira], you can:
 
-* [!DNL Workfront] 項目が作成される場合、[!DNL Jira] 項目を作成するトリガーを定義します。
-* [!DNL Jira] および [!DNL Workfront] の間にリンクされた項目間で同期するフィールドを指定します。
-
->[!NOTE]
->
->* [!DNL Jira] 環境で [!DNL Workfront for Jira] を設定した後に、すべての [!DNL Jira] ユーザーは、[!DNL Jira] の項目上に [!DNL Workfront] の右側のパネルが表示されることを確認できます。パネルには、[!DNL Workfront] からリンクされる項目に関する情報が含まれています。または、[!DNL Jira] 項目にリンクされる [!DNL Workfront] 項目は、何もないことを指定します。
->* [!DNL Jira Server] インストールを使用時に、Workfront 統合のトリガーとして識別されたプロジェクトに関連するイシューに対してのみ、Workfront パネルが表示されます。[!DNL Workfront to Jira] ワークフローのトリガーの設定の詳細については、[&#x200B; [!DNL Jira]  および  [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront) 間の項目を自動的にリンクするトリガーを設定を参照してください。
->
-
-[!DNL Workfront for Jira] を設定するには、以下を実行します。
-
-1. [!DNL Jira] に [!DNL Jira] 管理者としてログインします。
-1. メインの [!DNL Jira] のメニューで「**[!UICONTROL 設定]**」をクリックします。
-1. 「**[!UICONTROL アドオン]**」を選択し、次に「**[!UICONTROL アドオンの管理]**」をクリックします。
-
-1. **[!DNL Workfront]** アドオンを展開します。
-1. 「**[!UICONTROL 設定]**」をクリックします。
-1. 画面のプロンプトに従って、[!DNL Workfront] にログインします。
-
-   >[!NOTE]
-   >
-   >ユーザーは、接続を成功させるには、[!UICONTROL Workfront]で有効な`apiKey`何かを持つ必要があります。
-
-   [!DNL Workfront] 管理者として [!DNL Workfront] にログインする必要があります。
-
-   >[!NOTE]
-   >
-   >* [!UICONTROL Workfront]は、ほとんどの web ベースの統合で、ユーザーの認証と承認に使用される標準である OAuth 2.0 を使用した [!DNL Jira] に接続します。
-   >* [!DNL Workfront] アカウントのドメインの入力を求められたら、次の形式で入力します。*yourCompany&#39;sDomain.my.workfront.com*&#x200B;会社のドメインは通常、会社の名前です。
-   >* 拡張認証は、[!DNL Workfront] 管理者が拡張認証をこの統合に対して有効にするまで使用できません。
-
-1. Jira で、「**[!UICONTROL トリガー]**」タブを選択して、[!DNL Workfront] アイテムが新規に作成されるときに [!DNL Jira] アイテムが自動的に作成されるように設定します。
-
-   ワークフロントから [!DNL Jira] へのトリガーの設定について詳しくは、[&#x200B; [!DNL Jira]  と  [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront) の間で項目を自動的にリンクするためのトリガーを設定を参照してください。
-
-1. 「**[!UICONTROL 設定]**」タブを選択して、リンクされた [!DNL Jira] 項目と [!DNL Workfront] 項目の間のフィールドの同期を設定します。
-
-   [!DNL Jira] と [!DNL Workfront] の間のフィールドの同期の設定について詳しくは、[&#x200B; [!DNL Jira]  項目と  [!DNL Workfront]  項目の間のフィールド同期を設定](#configure-field-synchronization-between-jira-and-workfront-items)を参照してください。
-
-   >[!NOTE]
-   >
-   >トリガーと 2 つのアプリケーション間のフィールドの同期を定義した後は、タスクまたはイシューを作成できる [!DNL Workfront] ユーザーが [!DNL Jira] での項目の作成をトリガーする可能性があります。ユーザーは、作成する項目の条件が [!DNL Jira] のトリガーと一致する場合、ユーザーは、[!DNL Jira] ライセンスがない場合でも項目を作成できます。また、[!DNL Jira] ユーザーはすぐに [!DNL Jira] 項目の作業を開始し、[!DNL Workfront] ライセンスがなくても [!DNL Workfront] で更新を確認できます。[!DNL Workfront] での更新は、[!DNL Jira] にも表示されます。
-
-1. （オプション）「**[!UICONTROL アクティビティログ]**」タブを選択して、統合中に発生した可能性のあるエラーを確認します。
-
-   [!UICONTROL アクティビティログ]について詳しくは、[&#x200B; [!DNL Jira] [!UICONTROL アクティビティログ]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)を表示を参照してください。
-
-## [!DNL Jira] と [!DNL Workfront] の間で項目を自動的にリンクするためのトリガーを設定
-
-[!DNL Jira] のシステム管理者は、[!DNL Workfront] の項目が特定の条件を満たしたときに [!DNL Jira] にイシューを自動的に作成するトリガーを定義できます。
+* Define triggers that will create [!DNL Jira] items when [!DNL Workfront] items are created.
+* Specify which fields should synchronize between items linked between [!DNL Jira] and [!DNL Workfront].
 
 >[!NOTE]
 >
->統合が [!DNL Jira] で新しいイシューを作成するまでに最大 10 分かかる場合があります。
+>* After you configure [!DNL Workfront for Jira] on your [!DNL Jira] environment, all [!DNL Jira] users see a [!DNL Workfront] right panel on all [!DNL Jira] items. The panel contains information about the items that might be linked from [!DNL Workfront] or specifies that no [!DNL Workfront] items are linked to [!DNL Jira] items. 
+>* When using the [!DNL Jira Server] installation, only the issues that are associated with projects identified as triggers for the Workfront integration display the Workfront panel. For more information about setting up triggers for the [!DNL Workfront to Jira] workflow, see [Configure triggers for automatically linking items between [!DNL Jira] and [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront).
+>
 
-[!DNL Workfront] 項目が作成されたときに、[!DNL Jira] 項目の作成をトリガーするように設定する場合は、以下を考慮してください。
+To configure [!DNL Workfront for Jira]:
 
-* 統合は単方向です。[!DNL Workfront] で作成した項目のみが [!DNL Jira] で自動的に作成されるようにトリガーできます。[!DNL Jira] で作成した項目を [!DNL Workfront] で自動的に作成するようにトリガーすることはできません。
-* 使用できるトリガー数に制限はありません。
-* [!DNL Workfront] で作成した項目が複数のトリガーに一致する場合、[!DNL Jira] には 1 つの項目だけが作成されます。項目は、最初のトリガーに従って（[!DNL Jira] で定義された順序で）[!DNL Jira] に作成されます。その他のすべてのトリガーは無視されます。
-* [!DNL Workfront] の中の 1 つの項目のみが、Jira 内の 1 つの項目にリンクできます。1 つの [!DNL Workfront] 項目を複数の [!DNL Jira] イシューにリンクしたり、1 つの [!DNL Jira] イシューを複数の [!DNL Workfront] 項目にリンクしたりすることはできません。
+1. Log in to [!DNL Jira] as a [!DNL Jira] administrator.
+1. Click **[!UICONTROL Settings]** in the main [!DNL Jira] menu.
+1. Click **[!UICONTROL Add-ons]**, then click **[!UICONTROL Manage add-ons]**.
 
-[!DNL Jira] で項目を自動的に作成するためのトリガーを構成するには、以下のように行います。
-
-1. システム管理者として [!DNL Jira] にログインします。
-1. メイン [!DNL Jira] メニューで「**[!UICONTROL 設定]**」をクリックします。
-1. 「**[!UICONTROL アドオン]**」、「**[!UICONTROL アドオンを管理]**」の順にクリックします。
-1. **[!DNL Workfront]** アドオンを展開します。
-1. 「**[!UICONTROL 設定]**」をクリックします。
-1. システム管理者として [!DNL Workfront] にログインします。
-
-   Jira では「**[!UICONTROL トリガー]**」タブがデフォルトで選択されています。
-
-1. 「**[!UICONTROL トリガーを追加]**」をクリックして、新しいトリガーを追加します。
-1. 「**[!UICONTROL Workfront チーム/ユーザー/役割]**」フィールドで、[!DNL Workfront] チーム、ユーザー、または担当業務の名前を指定し、リストに表示されたらクリックして選択します。
+1. Expand the **[!DNL Workfront]** add-on.
+1. Click **[!UICONTROL Configure]**.
+1. Follow the prompts to log in to [!DNL Workfront].
 
    >[!NOTE]
    >
-   >同じチーム、ユーザー、役割に複数のトリガーを設定することはできません。
+   >The user must have a valid `apiKey` in [!UICONTROL Workfront] to create a successful connection.
 
-   ユーザーがタスクまたはイシューを作成し、これらのエンティティのいずれかに割り当てると、イシューが [!DNL [!DNL Jira]] に自動的に作成されます。
+   You must log in to [!DNL Workfront] as a [!DNL Workfront] administrator to continue the configuration.
 
-1. 「**[!UICONTROL [!DNL Jira]プロジェクト]**」フィールドで、[!DNL Jira] プロジェクトの名前を入力し、リストに表示されたらクリックして選択します。
+   >[!NOTE]
+   >
+   >* [!UICONTROL Workfront] connects to [!DNL Jira] using OAuth 2.0, a standard used by most web-based integrations for the authentication and authorization of users.
+   >* When you are prompted to enter the domain of your [!DNL Workfront] account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
+   >* Enhanced Authentication is not available until a [!DNL Workfront] administrator enables it for this integration.
 
-   [!DNL Jira] イシューが作成されると、ここで指定したプロジェクトに配置されます。
+1. In Jira, select the **[!UICONTROL Triggers]** tab to configure the automatic creation of [!DNL Jira] items as new [!DNL Workfront] items are created.
 
-1. ドロップダウンメニューから「**[!UICONTROL イシュータイプ]**」を選択します。
+   For more information about setting up triggers for the Workfront to [!DNL Jira] workflow, see [Configure triggers for automatically linking items between [!DNL Jira] and [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront).
 
-   これは、[!DNL Jira] の特定のプロジェクトの設定に基づいて、このトリガーの条件が満たされたときに、[!DNL Jira] で作成されるイシュータイプを示します。
+1. Select the **[!UICONTROL Setup]** tab to configure the synchronization of fields between linked [!DNL Jira] and [!DNL Workfront] items.
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+   For more information about setting up the synchronization of fields between [!DNL Jira] and [!DNL Workfront], see [Configure field synchronization between [!DNL Jira] and [!DNL Workfront] Items](#configure-field-synchronization-between-jira-and-workfront-items).
 
-   この設定を使用すると、[!DNL Workfront] ユーザーが指定されたトリガーに一致する項目を作成するたびに、新しいイシューが [!DNL Jira] に作成されます。
+   >[!NOTE]
+   >
+   >After you define the triggers and the synchronization of fields between the two applications, any [!DNL Workfront] user who can create tasks or issues could potentially trigger the creation of an item in [!DNL Jira]. The user can create an item if the criteria on the item they create match the triggers in [!DNL Jira], even if the user does not have a [!DNL Jira] license. Also, any [!DNL Jira] user can immediately start working on the [!DNL Jira] item, and their updates are visible in [!DNL Workfront], without them having a [!DNL Workfront] license. Any updates in [!DNL Workfront] are also visible on the [!DNL Jira] items. 
 
-## [!DNL Jira] 項目と [!DNL Workfront] 項目間のフィールド同期を設定
+1. (Optional) Select the **[!UICONTROL Activity Log]** tab to review any errors that might have occurred during the integration.
 
-[!DNL Jira] 管理者は、[!DNL Workfront] と Jira の間でリンクされているアイテムで、自動的に同期するフィールドを定義できます。特定のフィールドは [!DNL Workfront] 項目から [!DNL Jira] 項目に同期でき、その他のフィールドは Jira から Workfront に同期します。
+   For more information about the [!UICONTROL Activity Log], see [View the [!DNL Jira] [!UICONTROL Activity Log]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md).
 
-2 つのアプリケーション間でリンクされた項目でどのフィールドを自動的に同期するかを定義するには、以下のように行います。
+## Configure triggers for automatically linking items between [!DNL Jira] and [!DNL Workfront] 
 
-1. [!DNL Jira] に Jira 管理者としてログインします。
-1. メイン [!DNL Jira] メニューで「**[!UICONTROL 設定]**」をクリックします。
-1. 「**[!UICONTROL アドオン]**」、「**[!UICONTROL アドオンを管理]**」の順にクリックします。
-1. **[!DNL Workfront]** アドオンを展開します。
-1. 「**[!UICONTROL 設定]**」をクリックします。
-1. Workfront 管理者として [!DNL Workfront] にログインします。
-1. Jira で、「**[!UICONTROL 設定]**」タブをクリックします。
-1. 「**[!UICONTROL Jira から Workfront に同期]**」セクションで、Workfront で更新された際に [!DNL Jira] で更新するフィールドを選択します。
+As the [!DNL Jira] system administrator, you can define triggers that would automatically create issues in [!DNL Jira] when an item in [!DNL Workfront] meets certain criteria.
 
-   1. フィールドの同期頻度として、次のいずれかを選択します。
+>[!NOTE]
+>
+>It could take up to 10 minutes for the integration to create new issues in [!DNL Jira].
+
+Consider the following when configuring triggering the creation of [!DNL Jira] items as [!DNL Workfront] items are created:
+
+* The integration is unidirectional: You can only trigger items that you create in [!DNL Workfront] to be automatically created in [!DNL Jira]. You cannot trigger items that you create in [!DNL Jira] to automatically be created in [!DNL Workfront]. 
+* There is no limit to how many triggers you can have. 
+* If an item that you create in [!DNL Workfront] matches more than one of the triggers, only one item is created in [!DNL Jira]. The item is created in [!DNL Jira] according to the first trigger (in the order that they have been defined in [!DNL Jira]). All other triggers are ignored. 
+* Only one item in [!DNL Workfront] can be linked to one item in Jira. You can never link one [!DNL Workfront] item to multiple [!DNL Jira] issues, or one [!DNL Jira] issue to multiple [!DNL Workfront] items. 
+
+To configure triggers for automatically creating items in [!DNL Jira]: 
+
+1. Log in to [!DNL Jira] as a system administrator.
+1. Click **[!UICONTROL Settings]** in the main [!DNL Jira] menu.
+1. Click **[!UICONTROL Add-ons]**, then **[!UICONTROL Manage add-ons]**.
+1. Expand the **[!DNL Workfront]** add-on.
+1. Click **[!UICONTROL Configure]**.
+1. Log in to [!DNL Workfront] as a system administrator.
+
+   The **[!UICONTROL Triggers]** tab is selected by default in Jira.
+
+1. Click **[!UICONTROL Add trigger]** to add a new trigger.
+1. In the **[!UICONTROL Workfront team/user/role]** field, specify the name of a [!DNL Workfront] team, user, or job role, then click to select it when it displays in the list. 
+
+   >[!NOTE]
+   >
+   >You cannot have multiple triggers for the same team, user, or role.
+
+   When someone creates a task or an issue and assigns it to one of these entities, an issue is automatically created in [!DNL [!DNL Jira]].
+
+1. In the **[!UICONTROL [!DNL Jira] project]** field, start typing the name of a [!DNL Jira] project, then click to select it when it displays in the list.
+
+   When the [!DNL Jira] issue is created, it is placed on the project you chose here.
+
+1. Select an **I[!UICONTROL ssue type]** from the drop-down menu.
+
+   This indicates the issue type that is created in [!DNL Jira] when the conditions of this trigger are met, based on your settings for that specific project in [!DNL Jira].
+
+1. Click **[!UICONTROL Save]**. 
+
+   With this configuration, every time a [!DNL Workfront] user creates an item that matches the specified triggers, a new issue is created in [!DNL Jira].
+
+## Configure field synchronization between [!DNL Jira] and [!DNL Workfront] Items 
+
+As the [!DNL Jira] administrator, you can define which fields should automatically synchronize on items that are linked between [!DNL Workfront] and Jira. Certain fields can synchronize from the [!DNL Workfront] to the [!DNL Jira] item, and others synchronize from Jira to Workfront. 
+
+To define what fields should automatically synchronize on items linked between the two applications:
+
+1. Log in to [!DNL Jira] as a Jira administrator.
+1. Click **[!UICONTROL Settings]** in the main [!DNL Jira] menu.
+1. Click **[!UICONTROL Add-ons]**, then **[!UICONTROL Manage add-ons]**.
+1. Expand the **[!DNL Workfront]** add-on.
+1. Click **[!UICONTROL Configure]**.
+1. Log in to [!DNL Workfront] as a Workfront administrator.
+1. In Jira, click the **[!UICONTROL Setup]** tab.
+1. In the **[!UICONTROL Synchronize from Workfront to Jira]** section, select the fields that you want to update in [!DNL Jira] when they are updated in Workfront. 
+
+   1. Select any of the following frequencies with which the fields are synchronized:
 
       <table style="table-layout:auto">
          <tr>
               <td>[!UICONTROL On Creation]</td>
-              <td>Workfront で項目を作成された場合、指定したフィールドは、リンクされた Workfront と [!DNL Jira] 項目の間で同期されます。</td>
+              <td>The fields you specify are synchronized between the linked Workfront and [!DNL Jira] items when the item is created in Workfront.</td>
           </tr>
           <tr>
               <td>[!UICONTROL Always]</td>
-              <td>指定したフィールドは、Workfront でフィールドが更新されると、リンクされた Workfront と [!DNL Jira] 項目の間で同期されます。 </td>
+              <td>The fields you specify are synchronized between the linked Workfront and [!DNL Jira] items when the fields are updated in Workfront. </td>
           </tr>
           <tr>
               <td>[!UICONTROL Never]</td>
-              <td>指定したフィールドは、リンクされた [!DNL Workfront] および [!DNL Jira] 項目の間で同期されることはありません。[!DNL Jira] には、[!DNL Workfront] でフィールドが更新されたことを示すものはありません。 </td>
+              <td>The fields you specify are never synchronized between the linked [!DNL Workfront] and [!DNL Jira] items. There is no indication in [!DNL Jira] that the field was updated in [!DNL Workfront]. </td>
           </tr>
       </table>
 
-   1. [!DNL Workfront] から [!DNL Jira] にフィールドを同期するには、次のいずれかを選択します。
+   1. Select any of the following to synchronize the fields from [!DNL Workfront] to [!DNL Jira]: 
 
       <table style="table-layout:auto">
        <col>
@@ -233,31 +235,31 @@ ht-degree: 95%
        <tbody>
         <tr>
          <td role="rowheader">[!UICONTROL Name]</td>
-         <td><p>[!DNL Workfront] のタスクまたはイシューの名前は、[!DNL Jira] でリンク先のイシューの名前になります。</p><p>メモ：新しい項目が [!DNL Jira] で自動的に作成される場合、このフィールドがここで有効にされているかどうかに関係なく、[!DNL Workfront] 名は常に [!DNL Jira] 項目で更新されます。[!DNL Jira] 項目が手動で [!DNL Workfront] 項目にリンクされている場合、「<strong>常に</strong>」このフィールドを同期するように選択すると、[!DNL Workfront] 項目の名前のみが [!DNL Jira] で更新されます。項目を手動または自動でリンクする方法について詳しくは、<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md" class="MCXref xref">[!DNL Adobe Workfront] および [!DNL Jira]</a> の間の項目をリンクするを参照してください。</p></td>
+         <td><p>The name of a task or an issue in [!DNL Workfront] becomes the name of the issue to which it is linked in [!DNL Jira].</p><p>Note: When new items are created in [!DNL Jira] automatically, the [!DNL Workfront] Name always updates on the [!DNL Jira] item, regardless of whether this field is enabled here or not. When a [!DNL Jira] item is manually linked to a [!DNL Workfront] item, the Name of the [!DNL Workfront] item only updates in [!DNL Jira] when you select to <strong>Always</strong> synchronize this field. For more information about linking items manually or automatically, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md" class="MCXref xref">Link items between [!DNL Adobe Workfront] and [!DNL Jira]</a>.</p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Description]</td>
-         <td>[!DNL Workfront] でのタスクまたはイシューの説明は、[!DNL Jira] でリンク先のイシューの説明になります。</td>
+         <td>The description of a task or an issue in [!DNL Workfront] becomes the description of the issue to which it is linked in [!DNL Jira].</td>
         </tr>
         <tr>
-         <td role="rowheader">ドキュメント</td>
-         <td><p>[!DNL Workfront] でタスクまたはイシューに添付されたドキュメントは、Jira でリンクされているイシューにも添付されています。[!DNL Workfront] からの新しいドキュメントバージョンは、別のドキュメントとして Jira に追加され、<i>_v&lt;version number&gt;</i> が付加され、Workfront で番号付きバージョンを示します。 </p><p>例えば、[!DNL Workfront] でドキュメントの名前が <strong>Main Ad</strong> で、新しいバージョンを [!DNL Workfront] で追加する場合、新しいバージョンは、<strong>Main Ad_v2</strong> という名前の新しいドキュメントとして、[!DNL Jira] に転送されます。</p><p>重要： <p>ドキュメントを同期する場合、次の点を考慮してください。</p>
+         <td role="rowheader">Documents</td>
+         <td><p>Documents attached to a task or an issue in [!DNL Workfront] are also attached to the issue to which it is linked in Jira. New document versions from [!DNL Workfront] are added as separate documents to Jira and are appended with <i>_v&lt;version number></i> to indicate the numbered version in Workfront. </p><p>For example, if the name of a document in [!DNL Workfront] is <strong>Main Ad</strong>, and you add a new version to it in [!DNL Workfront], the new version is transferred to [!DNL Jira] as a new document with the name <strong>Main Ad_v2</strong>.</p><p>Important: <p>Consider the following when syncing documents:</p>
            <ul>
-            <li><p>5MB を超えるドキュメントは同期されません。ドキュメントが大きすぎてドキュメントの同期に失敗した場合は、アクティビティログにエラーが記録されます。 </p><p>アクティビティログについて詳しくは、<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">Jira アクティビティログの表示</a>を参照してください。</p></li>
-            <li><p>外部サーバーからのタスクやイシューにリンクされたドキュメントは、[!DNL Jira] 項目に転送されません。[!DNL Workfront] でタスクまたはイシューに直接アップロードされたドキュメントのみが [!DNL Jira] でリンクされたイシューに転送されます。</p></li>
-            <li><p>ドキュメントからプルーフを作成するには、[!DNL Workfront] でプルーフを生成する必要があります。 </p><p>プルーフの生成について詳しくは、<a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md" class="MCXref xref">ドキュメントのプルーフの作成</a>の<a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#create-a-proof-for-an-existing-document" class="MCXref xref">既存のドキュメントのプルーフの作成</a>を参照してください。<br></p></li>
+            <li><p>Documents larger than 5MB do not sync. If a document sync fails because the document is too large, an error is logged in the activity log. </p><p>For more information on the activity log, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">View the Jira Activity Log</a>.</p></li>
+            <li><p>Documents that are linked to tasks and issues from external servers are not transferred to the [!DNL Jira] items. Only documents uploaded directly on the task or the issue in [!DNL Workfront] are transferred to the linked issue in [!DNL Jira].</p></li>
+            <li><p>To create a proof from a document, you must generate the proof in [!DNL Workfront]. </p><p>For more information on generating a proof, see <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#create-a-proof-for-an-existing-document" class="MCXref xref">Create a proof for an existing document </a>in <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md" class="MCXref xref">Create a proof for a document</a>.<br></p></li>
            </ul></p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Planned Completion Date]</td>
-         <td><p>[!DNL Workfront] でタスクまたはイシューの[!UICONTROL Planned Completion Date]は、[!DNL Jira] でリンクされているイシューの[!UICONTROL Due Date]になります。</p><p>メモ：この値を同期するには、[!DNL Jira] イシューの<strong>[!UICONTROL Due Date]</strong>を確実に表示します。</p></td>
+         <td><p>The [!UICONTROL Planned Completion Date] of a task or an issue in [!DNL Workfront] becomes the [!UICONTROL Due Date] of the issue to which it is linked in [!DNL Jira].</p><p>Note: Ensure that you display <strong>[!UICONTROL Due Date]</strong> on [!DNL Jira] issues, for this value to synchronize.</p></td>
         </tr>
        </tbody>
       </table>
 
-1. 「**[!UICONTROL [!DNL Jira] から[!DNL Workfront]]** に同期」セクションで、[!DNL Jira] で更新された場合に [!DNL Workfront] で更新するフィールドを選択します。
+1. In the **[!UICONTROL Synchronize from [!DNL Jira] to [!DNL Workfront]]** section, select the fields that you want to update in [!DNL Workfront] when they are updated in [!DNL Jira]. 
 
-   1. フィールドの同期頻度として、次のいずれかを選択します。
+   1. Select any of the following frequencies with which the fields are synchronized:
 
       <table style="table-layout:auto">
        <col>
@@ -265,16 +267,16 @@ ht-degree: 95%
        <tbody>
         <tr>
          <td role="rowheader">[!UICONTROL Always]</td>
-         <td>指定したフィールドは、[!DNL Jira] でフィールドが更新された場合、リンクされた [!DNL Workfront] 項目および [!DNL Jira] 項目の間で常に同期されます。</td>
+         <td>The fields you specify are always synchronized between the linked [!DNL Workfront] and [!DNL Jira] items when the fields are updated in [!DNL Jira]. </td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Never]</td>
-         <td><p>指定したフィールドは、リンクされた [!DNL Workfront] 項目および [!DNL Jira] 項目の間で同期されることはありません。[!DNL Workfront] には、[!DNL Jira] でフィールドが更新されたことを示すものはありません。</p><p>メモ：「実行しない」を選択した場合、[!DNL Jira] イシューの左 [!DNL Workfront] パネルで [!DNL Workfront] フィールドは [!DNL Jira] から手動で更新できます。これらの更新は、[!DNL Jira] および [!DNL Workfront] で、[!DNL Jira] 項目ではなく、[!DNL Workfront] 項目にのみ表示されます。</p></td>
+         <td><p>The fields you specify are never synchronized between the linked [!DNL Workfront] and [!DNL Jira] items. There is no indication in [!DNL Workfront] that the field was updated in [!DNL Jira]. </p><p>Note: When you select Never, [!DNL Workfront] fields can still be manually updated from [!DNL Jira] in the left [!DNL Workfront] panel of the [!DNL Jira] issue. Those updates appear only on [!DNL Workfront] items in [!DNL Jira] and [!DNL Workfront] and not on [!DNL Jira] items.</p></td>
         </tr>
        </tbody>
       </table>
 
-   1. [!DNL Jira] から [!DNL Workfront] の次のフィールドのいずれかを選択して同期します。
+   1. Select to synchronize any of the following fields from [!DNL Jira] to [!DNL Workfront]:
 
       <table style="table-layout:auto">
        <col>
@@ -282,28 +284,28 @@ ht-degree: 95%
        <tbody>
         <tr>
          <td role="rowheader">[!UICONTROL Status]</td>
-         <td>[!DNL Jira] のイシューの [!UICONTROL Status] は、[!DNL Workfront] でリンクされているタスクまたはイシューの [!UICONTROL Status] になります。<br>[!DNL Workfront] ステータスについて詳しくは、<a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">ステータスの作成または編集</a>を参照してください。</td>
+         <td>The [!UICONTROL Status] of an issue in [!DNL Jira] becomes the [!UICONTROL Status] of the task or issue to which it is linked in [!DNL Workfront].<br>For more information about [!DNL Workfront] statuses, see <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Assignee]</td>
-         <td><p>[!DNL Jira] のイシューの [!UICONTROL Assignee] は、[!DNL Workfront] でリンクされているタスクまたはイシューの [!UICONTROL Assignee] になります。</p><p>重要：[!DNL Jira] で [!DNL Workfront] アカウントを持たないユーザーに対してアイテムを割り当てる際に、「<strong>[!DNL Jira] ユーザーが [!DNL Workfront] アカウントを持っていない場合 [!DNL Workfront] でユーザーを自動的に作成する</strong>」が「<strong>[!UICONTROL Always]</strong>」に設定されている場合のみ、統合により、[!DNL Workfront] で新しいアクティブユーザーが作成されます。このユーザーは [!DNL Workfront] ライセンスを所有しません。アクティブユーザーは、[!DNL Workfront] で作業アイテムに割り当てることができますが、更新に含めることはできません。 </p></td>
+         <td><p>The [!UICONTROL Assignee] of an issue in [!DNL Jira] becomes the [!UICONTROL Assignee] of the task or issue to which it is linked in [!DNL Workfront].</p><p>Important: When you assign an item in [!DNL Jira] to a user who does not have a [!DNL Workfront] account, the integration creates a new active user in [!DNL Workfront] only when <strong>Automatically create a user in [!DNL Workfront] if the [!DNL Jira] user does not have a [!DNL Workfront] account</strong> is set to <strong>[!UICONTROL Always]</strong>. This user does not occupy a [!DNL Workfront] license. Active users can be assigned to work items in [!DNL Workfront], but cannot be included in updates. </p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Attachments]</td>
-         <td>[!DNL Jira] のイシューの添付ファイルは、[!DNL Workfront] でリンクされているタスクまたはイシューにも添付されます。</td>
+         <td>Attachments of an issue in [!DNL Jira] are also attached to the task or issue to which it is linked in [!DNL Workfront]. </td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Comments]</td>
-         <td><p>[!DNL Jira] イシューに対するコメントは、[!UICONTROL Updates] エリアのリンクされた [!DNL Workfront] 項目にも投稿されます。逆に、[!DNL Workfront] のタスクまたはイシューに関して [!UICONTROL Updates] エリアに投稿されたコメントは、リンクされたイシューに対する [!DNL Jira] のネイティブのコメントストリームに同期されます。 </p><p>デフォルトでは、<strong>[!UICONTROL Always]</strong> に設定されています。ここで <strong>[!UICONTROL Never]</strong> を選択した場合でも、[!DNL Workfront] または [!DNL Jira] でリンクされたアイテムに手動でコメントを投稿できます。</p></td>
+         <td><p>A comment on a [!DNL Jira] issue is also posted on the linked [!DNL Workfront] item in the [!UICONTROL Updates] area. Conversely, a comment posted in the [!UICONTROL Updates] area for a [!DNL Workfront] task or issue syncs to [!DNL Jira]'s native comment stream for the linked issue. </p><p>This is set to <strong>[!UICONTROL Always]</strong> by default. If you select <strong>[!UICONTROL Never]</strong> here, you can still post comments manually on a linked item either in [!DNL Workfront] or in [!DNL Jira].</p></td>
         </tr>
        </tbody>
       </table>
 
-1. 「**[!UICONTROL その他]**」セクションで、リンクされたアイテム間で更新するその他のフィールドを選択します。
+1. In the **[!UICONTROL OTHER]** section, select which additional fields should be updated between linked items. 
 
-   1. 指定したフィールドが更新されたとき、[!DNL Jira] または [!DNL Workfront] で&#x200B;**[!UICONTROL 常に]**&#x200B;更新するのか、**[!UICONTROL 決して]**&#x200B;更新しないのかを決定するオプションを選択します。
+   1. Select an option to determine whether the fields you specify **[!UICONTROL Always]** or **[!UICONTROL Never]** update in [!DNL Jira] or [!DNL Workfront] when they are modified.
 
-   1. 次のフィールドと更新から選択します。
+   1. Select from the following fields and updates:
 
       <table style="table-layout:auto">
        <col>
@@ -311,56 +313,58 @@ ht-degree: 95%
        <tbody>
         <tr>
          <td role="rowheader">[!UICONTROL Copy [!DNL Workfront] Custom Data in the right panel in [!DNL Jira]]</td>
-         <td><p>[!DNL Workfront] の右パネルにアイテムの [!DNL Workfront] カスタムデータが表示されます。</p><p>メモ：カスタムフォームセクションは、[!DNL Workfront] システム管理者のアクセスレベルで [!DNL Workfront] の右パネルに表示されます。</p></td>
+         <td><p>Displays the [!DNL Workfront] Custom Data of an item in the [!DNL Workfront] right panel.</p><p>Note:  Custom Form sections are displayed in the [!DNL Workfront] right panel with the access level of the [!DNL Workfront] System Administrator.</p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Copy [!DNL Workfront] Priority in the right panel in [!DNL Jira]]</td>
-         <td>[!DNL Workfront] の右パネルにアイテムの [!DNL Workfront] 優先度が表示されます。</td>
+         <td>Displays the [!DNL Workfront] Priority of an item in the [!DNL Workfront] right panel.</td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Add an update in the [!DNL Workfront] Updates tab about Due Date changes in [!DNL Jira]]</td>
-         <td>リンクされた [!DNL Jira] アイテムで [!UICONTROL Due Date] が変更された場合、[!DNL Workfront] アイテムの [!UICONTROL Update] タブにコメントを追加します。</td>
+         <td>Adds a comment in the [!UICONTROL Update] tab of the [!DNL Workfront] item when the [!UICONTROL Due Date] changes in linked [!DNL Jira] item.</td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Automatically create a user in [!DNL Workfront] if the [!DNL Jira] user does not have a [!DNL Workfront] account]</td>
-         <td><p>次のシナリオが存在します。</p>
+         <td><p>The following scenarios exist:</p>
           <ul>
-           <li>「<strong>[!UICONTROL Always]</strong>」を選択すると、[!DNL Workfront] アカウントを持たない [!DNL Jira] ユーザーが、リンクされた [!DNL Jira] イシューで以下のアクションを実行するたびに、統合によって新しい Workfront ユーザーが作成されます。
+           <li>When you select <strong>[!UICONTROL Always]</strong>, you enable the integration to create a new Workfront user every time a [!DNL Jira] user without a [!DNL Workfront] account performs the following actions on a linked [!DNL Jira] issue:
             <ul>
-             <li>[!DNL Jira] イシューに割り当てられている</li>
-             <li><p>[!DNL Jira] イシューに時間を記録する</p><p>この新しいユーザーは [!DNL Workfront] ライセンスを所有していません。デフォルト設定は「常に」です。[!DNL Workfront] でこのように作成されたユーザーには、名前に [!UICONTROL Jira] が追加されます。</p></li>
+             <li>Is assigned to a [!DNL Jira] issue</li>
+             <li><p>Logs time to a [!DNL Jira] issue</p><p>This new user does not occupy a [!DNL Workfront] license. The default setting is Always. The user created this way in [!DNL Workfront] has "[!UICONTROL Jira]" added to their name.</p></li>
             </ul></li>
-           <li>「<strong>[!UICONTROL Never]</strong>」を選択すると、次のようになります。
+           <li>When you select <strong>[!UICONTROL Never]</strong>, the following things happen:
             <ul>
-             <li>[!DNL Workfront] アイテムに対する [!DNL Jira] 割り当ては表示されなくなります。この場合、[!DNL Workfront] で行われた割り当てのみが [!DNL Workfront] アイテムに表示されます。</li>
-             <li>[!DNL Workfront] アカウントを持たないユーザーが、リンクされた [!DNL Jira] イシューに記録した時間は、リンクされた [!DNL Workfront] アイテムには自動的に転送されません。[!DNL Jira] イシューの右パネルにある [!DNL Workfront] アイテムには引き続き時間を記録できます。</li>
+             <li>You are not able to see any [!DNL Jira] assignments on the [!DNL Workfront] items. In this case, only assignments made in [!DNL Workfront] display on the [!DNL Workfront] items.</li>
+             <li>The time logged to a linked [!DNL Jira] issue by a user without a [!DNL Workfront] account does not automatically transfer to the linked [!DNL Workfront] item. You can still log time on the [!DNL Workfront] item in the right panel of the [!DNL Jira] issue.</li>
             </ul></li>
           </ul></td>
         </tr>
        </tbody>
       </table>
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. Click **[!UICONTROL Save]**.
 
-   この設定で指定されたフィールドを [!DNL Jira] または [!DNL Workfront] のアイテムで更新するたびに、他のアプリケーションでリンクされたアイテムも更新されようになります。
+   Now, every time a user updates any of the fields specified in this configuration on an item in either [!DNL Jira] or [!DNL Workfront], the linked item in the other application is updated as well. 
 
-## トラブルシューティング
+## Troubleshooting
 
-### トリガーフィールドに「[!UICONTROL 見つかりませんでした]」とマークされているため、[!DNL Jira] ではアイテムを作成できません
+### Items cannot be created in [!DNL Jira] because of trigger fields marked "[!UICONTROL Couldn't be found]"
 
-#### 問題
+#### Problem
 
-[!DNL Workfront for Jira] アプリケーションでエラーが発生すると、[!DNL Workfront] はさらなる複雑化を防ぐためにトリガーを無効にします。これらのトリガーが無効になっている場合、「[!UICONTROL 見つかりませんでした]」と表示されます。
+When an error occurs with the [!DNL Workfront for Jira] application, [!DNL Workfront] disables the triggers to prevent further complications. When those triggers are disabled, they display as "[!UICONTROL Couldn't be found]."
 
-#### ソリューション
+#### Solution
 
-トリガーを無効にしたエラーを見つけます。エラーは [!DNL Workfront for Jira] の[!UICONTROL アクティビティログ]で確認できます。
+Locate the error that disabled the triggers. You can find the error in the [!DNL Workfront for Jira] [!UICONTROL Activity Log].
 
-この動作の最も一般的な原因は、「[!UICONTROL フィールド &#39;duedate&#39; を設定できません適切な画面に表示されていないか、不明です。]」というエラーです。
+The most common cause of this behavior is the error "[!UICONTROL Field 'duedate' cannot be set. It is not on the appropriate screen, or unknown.]"
 
-このエラーは、「[!UICONTROL 予定完了日]」を [!DNL Workfront] から [!DNL Jira] に同期しようとしていることを意味します。これを行うには、[!DNL Jira] オブジェクトに「[!UICONTROL 期限]」というフィールドがあることを確認する必要があります。このフィールドがない場合、[!DNL Workfront] は [!DNL Workfront] から予定完了日を同期できず、トリガーが無効になります。
+This error means that you are attempting to sync the "[!UICONTROL Planned Completion Date]" from [!DNL Workfront] to [!DNL Jira]. In order to do this, you must ensure that your [!DNL Jira] objects have a field called "[!UICONTROL Due Date]." If they do not have this field, [!DNL Workfront] is unable to sync the planned completion date from [!DNL Workfront] and disables your triggers.
 
-このエラーを解決するには、次のいずれかを試してください。
+To resolve this error, try one of the following:
 
-* [!DNL Jira] 管理者に、影響を受ける [!DNL Jira] オブジェクトを更新して、期限フィールドが確実に存在するように依頼してください。
-* Workfront の[!UICONTROL 設定]ページで、[!DNL Workfront] の完了予定日の同期を無効にします。
+* Ask your [!DNL Jira] administrator to update the affected [!DNL Jira] objects to ensure that they have a due date field.
+* Disable the synchronization of [!DNL Workfront]'s planned completion date in the Workfront [!UICONTROL Setup] page.
+
+-->

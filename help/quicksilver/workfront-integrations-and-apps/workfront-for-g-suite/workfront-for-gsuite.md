@@ -3,16 +3,16 @@ content-type: overview;reference
 product-area: workfront-integrations
 keywords: google,doc,ドキュメント,シート,スライド
 navigation-topic: workfront-integrations-navigation-topic
-title: Google WorkspaceのAdobe Workfront
+title: Google Workspace 用 Adobe Workfront
 description: Adobe Workfront for Google Workspaceを使用すると、最も重要な作業にアクセスでき、Gmail、Google カレンダー、Google ドライブ内に滞在しながら他のユーザーとの共同作業も可能になります。 これらのアプリケーションから移動せずに、メールで送信されたリクエストや作業の更新を取り込んで、Workfront に追加できます。期限、優先度、ドキュメント、更新および追加のコンテキストなど、Workfront で発生していることを、受信トレイから離れずに確認できます。承認の決定を行ったり、コメントに返信したり、新しい作業リクエストを受け入れたりできます。また、メールを個人のプロジェクトタスクに変換したり、作業や優先度を他のユーザーに割り当てたりできます。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 48%
+source-wordcount: '215'
+ht-degree: 41%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 48%
 
 >[!IMPORTANT]
 >
->より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Google Workspaceの次のWorkfront機能は、**2026 年 2 月 28 日** 以降は使用できなくなります。
+>より安定した拡張性の高い統合を実現するために、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しました。 このトランジションプロセスの一環として、Google Workspaceの次のWorkfront機能は **使用できなくなりました**。
 >
 >* Workfront内からのGoogle Workspace機能へのアクセス
 >
@@ -28,34 +28,38 @@ ht-degree: 48%
 >
 >Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 >
->Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [&#x200B; および &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [&#x200B; を参照してください。](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
-[!DNL Adobe Workfront for Google Workspace] を使用すると、自分の最も重要な仕事につながり、[!DNL Gmail]、[!DNL Google Calendar]および [!DNL Google Drive]内で他のユーザーと共同作業できるようになります。これらのアプリケーションから移動せずに、メールで送信されたリクエストや作業の更新を取り込んで、[!DNL Workfront] に追加できます。期限、優先度、ドキュメント、更新、追加のコンテキストなど、[!DNL Workfront] で発生していることを、受信トレイから移動せずに確認できます。承認の決定を行ったり、コメントに返信したり、新しい作業リクエストを受け入れたりできます。また、メールを個人のプロジェクトタスクに変換したり、作業や優先度を他のユーザーに割り当てたりできます。
+<!--
 
-次のヘルプ記事は、[!DNL Workfront for Google Workspace] の使用を開始するのに役立ちます。
+[!DNL Adobe Workfront for Google Workspace] connects you to your most important work and allows you to collaborate with others while staying within [!DNL Gmail], [!DNL Google Calendar], and [!DNL Google Drive]. Without leaving these applications, you can capture emailed requests or work updates and add them to [!DNL Workfront]. You can check what's happening in [!DNL Workfront], including due dates, priority, documents, updates and additional context, without leaving your inbox. You can make approval decisions, reply to comments, or accept new work requests. And you can convert your emails to either personal project tasks or assign work and priority to others.
 
-* [インストール [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
-* [Workfront for Google Workspaceのプライバシーと権限](../../workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
-* [&#x200B; [!DNL Adobe Workfront for Google Workspace] へのログインとログアウト](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
+These Help articles can help you get started using [!DNL Workfront for Google Workspace]:
 
-次の記事では、[!DNL Google Workspace] を移動せずに [!DNL Workfront] オブジェクトを管理する方法について説明します。
+* [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+* [Privacy and permissions in Workfront for Google Workspace](../../workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
+* [Log in and out of [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
 
-* [&#x200B; [!DNL Adobe Workfront]  の場所から  [!DNL Google Workspace] ホームコンテンツへのアクセス](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
-* [&#x200B; [!DNL Adobe Workfront]  からのオブジェ  [!DNL Google Workspace] トの更新](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-* [&#x200B; [!DNL Google Workspace] の場所からドキュメントを表示および管理します。](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
-* [&#x200B; [!DNL Adobe Workfront] Google Workspace[!UICONTROL &#x200B; からのオブジェクトの詳細の表示と管理 &#x200B;]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
-* [&#x200B; [!DNL Adobe Workfront] Google Workspace[!UICONTROL &#x200B; から &#x200B;] オブジェクトの更新を表示](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
+These explain how to manage [!DNL Workfront] objects without leaving [!DNL Google Workspace]:
 
-次の記事では、[!DNL Workfront] 通知メールを受信したときに、作業アイテムの詳細を表示したりそれに対応したりする方法について説明します。
+* [Access [!DNL Adobe Workfront] Home content from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
+* [Update an [!DNL Adobe Workfront] object from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
+* [View and manage documents from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
+* [View and manage [!DNL Adobe Workfront] object details from [!UICONTROL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
+* [View [!DNL Adobe Workfront] object updates from [!UICONTROL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
 
-* [管理  [!DNL Adobe Workfront]  通知の詳細  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
-* [&#x200B; [!DNL Adobe Workfront]  からのア  [!DNL Google Workspace] プデート通知に返信する](../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
+These explain how to view and respond to details about a work item when you receive a [!DNL Workfront] notification email.
 
-次の記事では、[!DNL Workfront] 以外のメールのコンテンツを使用して [!DNL Workfront] オブジェクトおよび更新を作成する方法について説明します。
+* [Manage [!DNL Adobe Workfront] notification details from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
+* [Reply to a [!DNL Adobe Workfront] update notification from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
 
-* [メール  [!DNL Google Workspace]  オブジェクト  [!DNL Adobe Workfront]  更新に変換](../../workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
-* [メールコンテンツを使用した  [!DNL Adobe Workfront]  タスク  [!DNL Google Workspace]  作成](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
-* [メールコンテンツ  [!DNL Adobe Workfront]  使用したイシュー  [!DNL Google Workspace]  作成](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-* [メールコンテンツ  [!DNL Adobe Workfront]  使用から  [!DNL Google Workspace]  項目の更新](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+These explain how you can create [!DNL Workfront] objects and updates using content from non-[!DNL Workfront] emails:
+
+* [Turn [!DNL Google Workspace] emails into [!DNL Adobe Workfront] objects and updates](../../workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
+* [Create an [!DNL Adobe Workfront] task in [!DNL Google Workspace] using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
+* [Create an [!DNL Adobe Workfront] issue in [!DNL Google Workspace] using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
+* [Update an [!DNL Adobe Workfront] item from [!DNL Google Workspace] using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+
+-->

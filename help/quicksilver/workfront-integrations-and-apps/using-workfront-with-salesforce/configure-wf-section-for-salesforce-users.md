@@ -6,10 +6,10 @@ description: ' [!DNL Workfront]  管理者は、 [!DNL Adobe Workfront]  for Sal
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 86%
+source-wordcount: '125'
+ht-degree: 44%
 
 ---
 
@@ -17,153 +17,158 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Salesforce統合は **2026 年 2 月 28 日** 以降は使用できなくなります。
+>より安定した拡張性の高い統合を実現するために、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しました。 この移行プロセスの一環として、Workfront for Salesforceの統合は **利用できなくなりました**。
 >
 >組織のSalesforceとの統合のニーズに応じて、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 >
->SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
-[!DNL Workfront] 管理者は、[!DNL Adobe Workfront] for [!DNL Salesforce] をインストールした後に、[!UICONTROL Salesforce] の新しいセクションで[!UICONTROL 商談]ページレイアウトおよび[!UICONTROL アカウント]
-ページレイアウトに追加することにより、ユーザーがそれを使用できるようになります。
+<!--
 
-[!DNL Workfront for Salesforce] のインストールについて詳しくは、[&#x200B; [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) のインストールを参照してください。
+After you install [!DNL Adobe Workfront] for [!DNL Salesforce] as a [!DNL Workfront] administrator, you can make it available to your users by adding it in a new section to their [!UICONTROL Opportunity] and [!UICONTROL Account]
+ page layouts in [!UICONTROL Salesforce]. 
 
-ユーザーが [!DNL Classic] フレームワークと [!DNL Lightning Experience] フレームワークの両方で [!DNL Workfront] を使用できるようにするために、[!DNL WorkfrontOpportunities] と [!DNL WorkfrontAccounts] [!UICONTROL Visualforce] ページを[!UICONTROL 商談]ページレイアウトおよび[!UICONTROL アカウント]ページレイアウトにそれぞれ追加する必要があります。
+For information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+
+For users to have [!DNL Workfront] available in both the [!DNL Classic] and [!DNL Lightning Experience] frameworks, you must add the [!DNL WorkfrontOpportunities] and the [!DNL WorkfrontAccounts] [!UICONTROL Visualforce] pages to the [!UICONTROL Opportunity] and [!UICONTROL Accounts] page layouts, respectively.
 
 
 
-## アクセス要件
+## Access requirements
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>標準</p>
-   <p>プラン</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 前提条件
+## Prerequisites
 
-* システム管理者アカウントにアクセスできる [!DNL Salesforce] インスタンスが必要です。
-* システム管理者アカウントにアクセスできる [!DNL Workfront] インスタンスが必要です。
+* You must have a [!DNL Salesforce] instance with access to a system administrator account.
+* You must have a [!DNL Workfront] instance with access to a system administrator account.
 
-## [!DNL Salesforce Classic] フレームワークで [!DNL Workfront] セクションを設定
+## Configure the [!DNL Workfront] section in the [!DNL Salesforce Classic] framework
 
-1. Workfront 管理者として [!DNL Salesforce] にログインします。
-1. 「**[!UICONTROL 設定]」**&#x200B;をクリックします。
-1. 「**[!UICONTROL ビルド]**」セクションで、**[!UICONTROL カスタマイズ]**&#x200B;を展開します。
+1. Log in to [!DNL Salesforce] as a Workfront administrator.
+1. Click **[!UICONTROL Setup].**
+1. In the **[!UICONTROL Build]** section, expand **[!UICONTROL Customize].**
 
-1. **[!UICONTROL 商談]**&#x200B;を展開し、次に「**[!UICONTROL ページレイアウト]**」をクリックして、[!DNL Workfront] セクションを商談に追加します。
+1. Expand **[!UICONTROL Opportunities]**, then click **[!UICONTROL Page Layouts]** to add the [!DNL Workfront] section to an Opportunity.
 
-   または
+   Or
 
-   **[!UICONTROL アカウント]**&#x200B;を展開し、次に「**[!UICONTROL ページレイアウト]**」をクリックして、[!DNL Workfront] セクションをアカウントに追加します。
+   Expand **[!UICONTROL Accounts]**, then click **[!UICONTROL Page Layouts]** to add the [!DNL Workfront] section to an Account
+.
 
+1. Click **[!UICONTROL Edit]** on an existing layout.
 
-1. 既存のレイアウト上の「**[!UICONTROL 編集]**」をクリックします。
+   Or
 
-   または
+   Click **[!UICONTROL New]** to add a new layout. 
 
-   「**[!UICONTROL 新規]**」をクリックして、新しいレイアウトを追加します。
+1. (Optional) Drag the **[!UICONTROL Section]** component to the layout and drop it in the desired position.\
 
-1. （オプション）**[!UICONTROL セクション]**&#x200B;コンポーネントをレイアウトにドラッグし、希望の位置にドロップします。
+1. (Optional) Specify a name for the new section.
 
-1. （オプション）新しいセクションの名前を指定します。
+   We recommend that you name this section **[!DNL Workfront]**.
 
-   このセクションに「**[!DNL Workfront]**」と名前を付けることをお勧めします。
+1. (Optional) Specify the desired **[!UICONTROL Layout]** and **[!UICONTROL Tab-key Order]** for the new section.
 
-1. （オプション）新しいセクションの目的の&#x200B;**[!UICONTROL レイアウト]**&#x200B;および&#x200B;**[!UICONTROL タブキーの順序]**&#x200B;を指定します。
+   We recommend that you select **[!UICONTROL 1-Column]** layout for the [!DNL Workfront] section. 
 
-   **[!UICONTROL [!DNL Workfront] セクションの 1 列]**&#x200B;レイアウトを選択することをお勧めします。
+1. Click **[!UICONTROL OK]**.
+1. In the **[!UICONTROL Layout]** area, click **[!UICONTROL Visualforce Pages].**
 
-1. 「**[!UICONTROL OK]**」をクリックします。
-1. **[!UICONTROL レイアウト]**&#x200B;領域で、**[!UICONTROL Visualforce ページ]**&#x200B;をクリックします。
+1. Drag and drop the **[!UICONTROL WorkfrontOpportunities]** component to the new section in the **[!UICONTROL Opportunities]** Layout.
 
-1. **[!UICONTROL WorkfrontOpportunities]** コンポーネントを&#x200B;**[!UICONTROL 商談]**&#x200B;レイアウトの新しいセクションにドラッグ＆ドロップします。
+   Or
 
-   または
+   Drag and drop the **[!UICONTROL WorkfrontAccounts]** component to the new section in the  **[!UICONTROL Account]** Layout.\
 
-   **[!UICONTROL WorkfrontAccounts]** コンポーネントを&#x200B;**[!UICONTROL アカウント]**&#x200B;レイアウトの新しいセクションにドラッグ＆ドロップします。
+1. Click the **[!UICONTROL Properties]** icon in the upper right of the newly added component.\
 
-1. 新しく追加されたコンポーネントの右上にある「**[!UICONTROL プロパティ]**」アイコンをクリックします。
+1. To achieve an optimal display, specify the following properties for the [!DNL Workfront Visualforce] page:
 
-1. 最適な表示を実現するには、[!DNL Workfront Visualforce] ページに次のプロパティを指定します。
+   * **[!UICONTROL Width (in pixels or %)]**: 100%
+   * **[!UICONTROL Height (in pixels)]**: 600
+   * Select **[!UICONTROL Show scrollbars]**.
 
-   * **[!UICONTROL 幅（ピクセル単位または％）]**：100％
-   * **[!UICONTROL 高さ（ピクセル単位）]**：600
-   * 「**[!UICONTROL スクロールバーを表示]**」を選択します。
+1. Click **[!UICONTROL OK]**. 
+1. Click **[!UICONTROL Save]** to save your layout.
 
-1. 「**[!UICONTROL OK]**」をクリックします。
-1. 「**[!UICONTROL 保存]**」をクリックしてレイアウトを保存します。
+   All users who have this layout assigned to them are now able to see the [!DNL Workfront] section on their [!UICONTROL Opportunities] or [!UICONTROL Accounts] objects.
 
-   このレイアウトを割り当てたすべてのユーザーが、[!UICONTROL 商談]オブジェクトまたは[!UICONTROL アカウント]オブジェクトで [!DNL Workfront] セクションを参照できるようになりました。
+   Users see a [!DNL Workfront] login screen on the [!DNL Workfront] section. If they do not have a [!DNL Workfront] account, they can collapse the section, but not remove it from their layout. 
 
-   ユーザーには、[!DNL Workfront] セクションで [!DNL Workfront] ログイン画面が表示されます。[!DNL Workfront] アカウントを持っていない場合は、セクションを折りたたむことはできますが、レイアウトから削除できません。
+## Configure the [!DNL Workfront] section in the [!DNL Salesforce Lightning Experience] framework
 
-## [!DNL Salesforce Lightning Experience] フレームワークで [!DNL Workfront] セクションを設定
+You can add the [!DNL Workfront] section to the layout of a [!DNL Salesforce] [!UICONTROL Opportunity] or Account
+ in the [!DNL Salesforce Lightning Experience] framework either by accessing the [!UICONTROL Setup] area, or from an Account
+ or [!UICONTROL Opportunity] object. 
 
-[!UICONTROL 設定]領域にアクセスするか、アカウントまたは[!UICONTROL 商談]オブジェクトからアクセスすることで、
-[!DNL Salesforce Lightning Experience] フレームワークの [!DNL Salesforce] の[!UICONTROL 商談]またはアカウントのレイアウトに [!DNL Workfront] セクションを追加できます。
+* [Configure the [!DNL Workfront] section at the [!UICONTROL Setup] level](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
+* [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
 
-* [[!UICONTROL 設定]レベルで  [!DNL Workfront]  セクションを設定](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
-* [商談またはアカウントレベルで  [!DNL Workfront]  セクションを設定](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
+### Configure the [!DNL Workfront] section at the [!UICONTROL Setup] level {#configure-the-workfront-section-at-the-setup-level}
 
-### [!UICONTROL 設定]レベルで [!DNL Workfront] セクションを設定 {#configure-the-workfront-section-at-the-setup-level}
+1. Log into [!DNL Salesforce] as a system administrator. 
+1. Click the **[!UICONTROL Setup]** icon, then click **[!UICONTROL Setup]**.
 
-1. システム管理者として [!DNL Salesforce] にログインします。
-1. **[!UICONTROL 設定]**&#x200B;アイコン、「**[!UICONTROL 設定]**」の順にクリックします。
+1. Expand **[!UICONTROL Object and Fields]**, then click **[!UICONTROL Object Manager]**.
 
-1. **[!UICONTROL オブジェクトとフィールド]**&#x200B;を展開し、「**[!UICONTROL オブジェクトマネージャー]**」をクリックします。
+1. Click **[!UICONTROL Opportunity]** to customize the layout of an Opportunity.
 
-1. 「**[!UICONTROL 機会]**」をクリックして、機会のレイアウトをカスタマイズします。
+   Or
 
-   または
+   Click **[!UICONTROL Account]** to customize the layout of an Account.
 
-   「**[!UICONTROL アカウント]**」をクリックして、アカウントのレイアウトをカスタマイズします。
+1. Click **[!UICONTROL Page Layouts]**.
+1. Click the name of an existing page layout to edit it.
 
-1. 「**[!UICONTROL ページレイアウト]**」をクリックします。
-1. 既存のページレイアウトの名前をクリックして編集します。
+   Or
 
-   または
+   Click **[!UICONTROL New]** to create a new page layout.
 
-   「**[!UICONTROL 新規]**」をクリックして、新しいページレイアウトを作成します。
+1. Continue with [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) below.
 
-1. 以下の[機会レベルまたはアカウント レベルでの  [!DNL Workfront]  セクションの設定](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)に進みます。
+### Configure the [!DNL Workfront] Section at the Opportunity or Account level {#configure-the-workfront-section-at-the-opportunity-or-account-level}
 
-### 機会またはアカウントレベルでの [!DNL Workfront] セクションの設定 {#configure-the-workfront-section-at-the-opportunity-or-account-level}
+1. Log in to [!DNL Salesforce] as a system administrator. 
+1. Go to an **[!UICONTROL Opportunity]** or **[!UICONTROL Account]**.
 
-1. システム管理者として [!DNL Salesforce] にログインします。
-1. 「**[!UICONTROL 機会]**」または「**[!UICONTROL アカウント]**」に移動します。
+1. Click the **[!UICONTROL Setup]** icon, then click **[!UICONTROL Edit Page]**.
 
-1. **[!UICONTROL 設定]** アイコン、**[!UICONTROL ページを編集]** の順にクリックします。
+1. Expand the **[!UICONTROL Custom-Managed]** section.
+1. Drag and drop the **[!DNL Workfront]** component on your [!UICONTROL Opportunity] or Account
+ page.
 
-1. 「**[!UICONTROL カスタム管理]**」セクションを展開します。
-1. 「[!UICONTROL 機会]」または「アカウント」ページに
-**[!DNL Workfront]** コンポーネントをドラッグ ＆ドロップします。
+   We recommend using the full width of the page for the [!DNL Workfront] section instead of one of the columns of the layout.
 
-   [!DNL Workfront] セクションには、レイアウトの 1 つの列ではなく、ページの全幅を使用することをお勧めします。
+1. Click **[!UICONTROL Save]**.
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
-
-   このレイアウトが割り当てられているすべてのユーザーが、「[!UICONTROL 機会]」または「[!UICONTROL アカウント]」のオブジェクトで「[!DNL Workfront]」セクションを表示できるようになりました。
+   All users who have this layout assigned to them are now able to see the [!DNL Workfront] section on their [!UICONTROL Opportunities] or [!UICONTROL Accounts] objects.
 
    >[!NOTE]
    >
-   >ユーザーには、「[!DNL Workfront]」セクションに [!DNL Workfront] ログイン画面が表示されます。[!DNL Workfront] アカウントを持っていない場合、セクションを折りたたむことはできますが、レイアウトから削除することはできません。ユーザーは、有効にした認証方法（強化認証または Security Assertion Markup Language（SAML）URL）を使用してログインできます。
+   >Users see a [!DNL Workfront] login screen on the [!DNL Workfront] section. If they do not have a [!DNL Workfront] account, they can collapse the section, but not remove it from their layout. Users can log in using the authentication method you have enabled: Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.
+
+   -->
 

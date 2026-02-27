@@ -7,10 +7,10 @@ description: ' [!DNL Adobe Workfront] for Salesforce をインストールする
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 61%
+source-wordcount: '110'
+ht-degree: 37%
 
 ---
 
@@ -20,80 +20,84 @@ ht-degree: 61%
 
 >[!IMPORTANT]
 >
->より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Salesforce統合は **2026 年 2 月 28 日** 以降は使用できなくなります。
+>より安定した拡張性の高い統合を実現するために、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しました。 この移行プロセスの一環として、Workfront for Salesforceの統合は **利用できなくなりました**。
 >
 >組織のSalesforceとの統合のニーズに応じて、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 >
->SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
-[!DNL Adobe Workfront for Salesforce] をインストールして、[!DNL Salesforce] ユーザーが [!DNL Salesforce] を終了せずに [!DNL Workfront] リクエストを送信したり、プロジェクトを自動的に作成したりできます。
+<!--
 
-[!DNL Workfront] 管理者は、[!DNL Workfront for Salesforce] をダウンロードして設定できます。その後、他のすべての [!DNL Salesforce] ユーザーと共有できます。
+You can install [!DNL Adobe Workfront for Salesforce] to allow your [!DNL Salesforce] users to submit [!DNL Workfront] requests and automatically create projects without ever leaving [!DNL Salesforce].
 
-[!DNL Workfront for Salesforce] のインストールについて詳しくは、[インストール： [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) を参照してください。
+As a [!DNL Workfront] administrator, you can download and configure [!DNL Workfront for Salesforce]. Then, you can share it with all other [!DNL Salesforce] users.
 
-[!DNL Salesforce] にすべてのユーザー向けの [!DNL Workfront] セクションを設定する方法について詳しくは、[&#x200B; [!DNL Salesforce] ユーザー向けの [!DNL Adobe Workfront] セクションの設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
+For more information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
-## アクセス要件
+For more information about configuring the [!DNL Workfront] section in [!DNL Salesforce] for all users, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>標準</p>
-   <p>プラン</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
 ## [!DNL Workfront for Salesforce]
 
-[!DNL Workfront for Salesforce] の使用時には以下を行えます。
+You can do the following when using [!DNL Workfront for Salesforce]:
 
-* [!DNL Salesforce] のオポチュニティまたはアカウント内で新しい [!DNL Workfront] リクエストを手動で作成する。
+* Manually create new [!DNL Workfront] requests from [!DNL Salesforce] within an Opportunity or an Account.
 
-  詳しくは、[&#x200B; オブジェクトからの送信  [!DNL Adobe Workfront]  リクエスト  [!DNL Salesforce]  を参照してください &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)。
+   For more information, see [Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
-* [!DNL Salesforce] で特定の条件が満たされたときに、[!DNL Workfront] でプロジェクトの作成を自動的にトリガーする。[!DNL Salesforce] からプロセスを作成するためのトリガーを [!DNL Salesforce] システム管理者が設定する必要があります。
+* Automatically trigger the creation of projects in [!DNL Workfront] when certain criteria are met in [!DNL Salesforce]. Your [!DNL Salesforce] system administrator must configure triggers for creating projects from [!DNL Salesforce].
 
-  [!DNL Salesforce] からの [!DNL Workfront] プロジェクトの作成について詳しくは、[&#x200B; [!DNL Salesforce] オブジェクトからの [!DNL Adobe Workfront] プロジェクトの作成](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)を参照してください。
+   For more information about creating [!DNL Workfront] projects from [!DNL Salesforce], see [Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
-[!DNL Workfront] for [!DNL Salesforce] を使用する際は以下を考慮します。
+Consider the following when working with [!DNL Workfront] for [!DNL Salesforce]:
 
-* アドビでは、[!DNL Salesforce Classic] および [!DNL Lightning Experience] のどちらのフレームワークもサポートしています。
-* アイテムは [!DNL Salesforce] から [!DNL Workfront] までのみ作成できます。
-* [!DNL Workfront] の項目に関する情報を [!DNL Salesforce] に表示することができます。この情報はカスタマイズできません。
+* We support both the [!DNL Salesforce Classic] and [!DNL Lightning Experience] frameworks.
+* Items can be created only from [!DNL Salesforce] to [!DNL Workfront].
+* You can view some information about the [!DNL Workfront] items in [!DNL Salesforce]. This information cannot be customized.
 
-  [!DNL Salesforce] に表示できる [!DNL Workfront] フィールドのリストについては、[&#x200B; [!DNL Salesforce] オブジェクトからの [!DNL Adobe Workfront] リクエストの送信](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)と[&#x200B; [!DNL Salesforce] オブジェクトからの [!DNL Adobe Workfront] プロジェクトの作成](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)を参照してください。
+   For a list of [!DNL Workfront] fields that you can view from [!DNL Salesforce], see  [Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)  and [Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
-* Workfront で「[!UICONTROL Salesforce に移動]」リンクをクリックすることで、[!DNL Salesforce] にリンクしている項目に直接アクセスできます。
+* You can directly access items linked to [!DNL Salesforce] by clicking the [!UICONTROL Go to Salesforce] link from Workfront.
 
-  [!DNL Salesforce] の [!DNL Workfront] の項目に関する情報は表示できませんが、WorkfrontにはSalesforceの項目に移動するリンクがあり、そこで確認できます。
+   You cannot view any information about the [!DNL Salesforce] items in [!DNL Workfront], but there's a link in Workfront that takes you to the item in Salesforce so you can review it there.
 
-  [!UICONTROL Salesforceに移動 &#x200B;] リンクが次の領域に表示されます。
+   [!UICONTROL The Go to Salesforce] link displays in the following areas:
 
-   * プロジェクトまたはイシューの [!UICONTROL &#x200B; 詳細 &#x200B;] セクション。
-   * プロジェクトまたはイシューのヘッダー。
+    * The [!UICONTROL Details] section of a project or an issue.
+    * The header of a project or an issue.
 
-     プロジェクトまたはイシューのヘッダーに「[!UICONTROL Salesforce に移動]」リンクを表示するには、システム管理者またはグループ管理者がレイアウトテンプレートに「[!UICONTROL 統合]」フィールドを追加する必要があります。
-   * リストのツールバーで [!DNL Summary] 概要を開く  概要パネルアイコン ![&#x200B; をクリックした後、リストでイシューを選択する際のイシューの &#x200B;](assets/summary-panel-icon.png) パネル。
+      Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the [!UICONTROL Go to Salesforce] link in the project or issue header.
+    * The [!DNL Summary] panel  of an issue when selecting the issue in a list, after clicking [!UICONTROL Open Summary] ![Summary panel icon](assets/summary-panel-icon.png) in the list's toolbar.
 
-     >[!NOTE]
-     >
-     >「[!UICONTROL Salesforce に移動]」リンクは、プロジェクトまたはイシューを表示できるすべての [!DNL Workfront] ユーザーに表示されます。イシューが記録された [!DNL Salesforce] オポチュニティまたはアカウントに移動するには、[!DNL Salesforce] アカウントが必要です。
+      >[!NOTE]
+      >
+      >The [!UICONTROL Go to Salesforce] link is visible to all [!DNL Workfront] users who can view the project or the issue. You must have a [!DNL Salesforce] account to be able to go to the [!DNL Salesforce] Opportunity or Account where the issue was logged.
 
-* 一方のアプリケーション内のある項目のフィールドを更新しても、もう一方のアプリケーション内のリンクされた項目に関する情報は更新されません。
+* Updating fields on one item in one application does not update any information on linked items in the other application.
+
+-->
