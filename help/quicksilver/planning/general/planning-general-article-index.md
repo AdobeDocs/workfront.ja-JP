@@ -6,15 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 24%
+source-wordcount: '187'
+ht-degree: 55%
 
 ---
 
 
-# Adobe Workfront計画一般情報：記事索引
+# Adobe Workfront Planning に関する一般情報：記事インデックス
 
 {{planning-important-intro}}
 
@@ -22,15 +22,15 @@ ht-degree: 24%
 
 次の記事を確認してください。
 
-* [Adobe Workfrontの計画の概要](/help/quicksilver/planning/general/planning-overview.md)
-* [Adobe Workfront計画 AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
-* [Adobe Workfront計画 API の基本](/help/quicksilver/planning/general/planning-api-basics.md)
+* [Adobe Workfront Planning の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)
+* [Adobe Workfront Planning の AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
+* [Adobe Workfront Planning API の基本](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Adobe Workfront Planning オブジェクトの制限事項の概要](/help/quicksilver/planning/general/limitations-overview.md)
-* [2024 年のAdobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md)
-* [2023 年のAdobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Adobe Workfront Planning の 2024年リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md)
+* [Adobe Workfront Planning の 2023年リリースアクティビティ](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Adobe Workfront Planning オブジェクトの制限事項の概要](/help/quicksilver/planning/general/limitations-overview.md)
 * [Adobe Workfront Planning の実装に関する推奨事項](/help/quicksilver/planning/general/planning-best-practices.md)
-* [Adobe Workfront Planning Designerの概要 &#x200B;](/help/quicksilver/planning/general/planning-ai-designer.md)
-  <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
+* [Adobe Workfront Planning Designerの基本を学ぶ](/help/quicksilver/planning/general/planning-ai-designer.md)
+* [Adobe Workfront Planning の無料体験版の使用を開始](/help/quicksilver/planning/general/trial-workfront-planning.md)
 
 
