@@ -399,7 +399,7 @@ Workfront Planning にアクセスするには、次の手順に従います。
 
 * [Adobe Workfront Planning API の基本](/help/quicksilver/planning/general/planning-api-basics.md)：Adobe Workfront Planning API の目的は、HTTP 上で動作する RESTful アーキテクチャを導入することで、Planning との統合の構築を簡略化することです。
 
-* [Adobe Workfront Planning とAdobe GenStudio for Performance Marketing との統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)：Workfront Planning の GenStudio ワークスペースで、GenStudio for Performance Marketing のレコードを管理できます。
+* [Adobe Workfront Planning とAdobe GenStudio for Performance Marketing との統合の基本を学ぶ &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)：Workfront Planning の GenStudio ワークスペースで、GenStudio for Performance Marketing のレコードを管理できます。
 
 * **Workfront Planning のレポート機能**：Workfront キャンバスダッシュボードを使用して、Workfront のレポートで Workfront Planning の情報を表示できるようになりました。詳しくは、[キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)を参照してください。
 
