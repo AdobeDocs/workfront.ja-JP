@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 30%
+source-wordcount: '1025'
+ht-degree: 28%
 
 ---
 
@@ -63,7 +63,7 @@ This article describes how you can share a view with others. For information abo
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -128,7 +128,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## ワークスペースの共有に関する考慮事項
 
-* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
+* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
 * ワークスペースは、組織内のユーザー、チーム、役割、グループまたは会社と共有できます。
 * チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。
 * 組織外のユーザーとワークスペースを共有することはできません。
@@ -149,37 +149,29 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. 共有するワークスペースを開き、画面の右上隅にある「**共有**」をクリックします。 共有ボックスが開きます。
 
-   ![&#x200B; ワークスペースの右上にある「共有」ボタン &#x200B;](assets/share-button-on-workspace-top-right.png)
+   ![ ワークスペースの右上にある「共有」ボタン ](assets/share-button-on-workspace-top-right.png)
 
-   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
+1. <span class="preview"> （条件付き）持っているアクセスレベルに応じて、次のいずれかの操作を行います。
 
-1. <span class="preview"> （条件付き）システム管理者は、次のオプションから選択してください。</span>
+   * システム管理者の場合は、次のオプションから選択します。</span>
 
-   <div class="preview">
+      * <span class="preview">**招待されたユーザーのみがアクセスできます**：共有ボックスでエンティティを選択し、ワークスペースへのアクセスを選択する必要があります。 これはデフォルトの選択です。</span>
+      * <span class="preview">**システム内の全員が表示可能**:Planning へのアクセス権を持つシステム内の全員が、Planning の自分の **ワークスペース** 領域でワークスペースを表示できます。</span>
 
-   * **招待されたユーザーのみがアクセスできます**：共有ボックスでエンティティを選択し、ワークスペースへのアクセスを選択する必要があります。 これはデフォルトの選択です。
-   * **システム内の全員が表示可能**: Planning へのアクセス権を持つシステム内の全員が、Planning の自分の **ワークスペース** 領域でワークスペースを表示できます。
+   * <span class="preview"> （条件付き） Standard ライセンスを持つワークスペースマネージャーの場合、次のいずれかの選択肢が表示されますが、変更することはできません。</span>
 
-   </div>
+      * <span class="preview">**招待されたユーザーのみがアクセスできます**。 これはデフォルト設定です。</span>
+      * <span class="preview">**システム内の全員が閲覧可能**</span>
 
-   <!--only  for March 4:
+     <span class="preview"> ワークスペースのグローバル権限を変更するには、システム管理者に依頼する必要があります。</span>
 
-      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+1. 「**このワークスペースへのアクセスを許可**」フィールドに、ユーザー、グループ、チーム、会社または担当業務の名前の入力を開始し、リストに表示されたらクリックします。
 
-         <div class="preview">
-         
-         * **Only invited people can access**
-         * **Everyone in the system can view**
-         
-         </div>-->
-
-1. 「**このワークスペースへのアクセスを許可**」フィールドに、ユーザー、グループ、チーム、会社または担当業務の名前の入力を開始し、リストに表示されたらクリックします。<!--update screen shot at the release of system-wide permissions for workspaces-->
-
-   ![UI をグループと共有 &#x200B;](assets/sharing-ui-with-groups.png)
+   <span class="preview">![UI をグループと共有 ](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >
-   >* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+   >* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
    >
    >* あるユーザーとワークスペースを共有すると、そのユーザーのプライマリ担当業務 <span class="preview"> およびメール </span> もフィールドに表示されます。 ユーザーのメールを表示するには、アクセスレベルでユーザーオブジェクトに対して「連絡先情報を表示」設定を有効にする必要があります。
 
@@ -202,16 +194,16 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. （条件付き）ワークスペースの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
 
    * アプリ内通知
-     ![&#x200B; アクセスリクエストのアプリ内通知 &#x200B;](assets/in-app-notification-for-access-request.png)
+     ![ アクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request.png)
    * メール通知
-     ![&#x200B; アクセスリクエストのメール通知 &#x200B;](assets/email-notification-for-access-request.png)
+     ![ アクセスリクエストのメール通知 ](assets/email-notification-for-access-request.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
 メール通知で「**すべての通知を表示**」をクリックし、リスト内の通知をクリックします。
 
    **保留中のアクセスリクエスト** ボックスが表示されます。
 
-   ![&#x200B; 通知リストの承認ボックス &#x200B;](assets/notifications-list-approval-box.png)
+   ![ 通知リストの承認ボックス ](assets/notifications-list-approval-box.png)
 
 1. （オプション）権限を承認するユーザーについて、ユーザー名の右側にあるドロップダウンメニューから次のいずれかのオプションを選択します。
    * **表示**
