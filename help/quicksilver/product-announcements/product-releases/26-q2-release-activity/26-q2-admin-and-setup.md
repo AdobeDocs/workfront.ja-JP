@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 19%
+source-wordcount: '466'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,23 @@ ht-degree: 19%
 このページでは、2026 年第 2 四半期リリースで行われた、プレビュー環境に対する管理者の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2026年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)を参照してください。
+
+## カスタム四半期は、「設定」で個別のページとして使用できるようになりました
+
+>[!NOTE]
+>
+>プレビュー：2026 年 3 月 5 日（PT）
+>実稼動（迅速リリース）：2026年4月15日（PT）
+>実稼動（全ユーザー）：2026年4月16日（PT）
+
+プロジェクト環境設定セクションからカスタム四半期エリアを移動しました。 現在は、設定のスタンドアロンセクションになっています。 
+この更新には、次のものが含まれます。
+
+* 「カスタム四半期」領域が「設定」のプロジェクト環境設定セクションから削除されます
+* カスタム四半期セクションがセットアップの左側のパネルに追加されます。 機能は変わりません。 
+* カスタム四半期セクションが、グループのプロジェクト環境設定セクションから削除されました。 グループ管理者には、カスタム四半期の設定が表示されなくなりました。 
+
+詳しくは、[ カスタム四半期の有効化 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) を参照してください。
 
 ## デフォルトでカスタムフォームセクションを折りたたむ
 
@@ -28,7 +45,7 @@ ht-degree: 19%
 
 デフォルトでは、カスタムフォーム上のすべてのセクションは、フォーム自体が展開されると展開されます。 カスタムフォームデザイナーの新しいオプションを使用すると、ユーザーがフォームを開いたときに、デフォルトで折りたたむセクションをマークできます。 このオプションは、フィールドではなくセクションレベルで適用されます。
 
-詳しくは、[&#x200B; フォームの整理とプレビュー &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
+詳しくは、[ フォームの整理とプレビュー ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
 
 ## リッチテキストフィールドタイプがカスタムフォームで使用できるようになりました
 
@@ -44,7 +61,7 @@ ht-degree: 19%
 
 リッチテキストフィールドタイプが、テキストを書式設定フィールドタイプに置き換えています。 右側のフィールドオプションのボタンをクリックして、フィールドが書式設定されている既存のテキストをリッチテキストにすばやく変換できます。 変換する場合、履歴データはフィールドに残り、レポートでも同じように使用されます。
 
-詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## Workfront メール通知用の新しい IP アドレス
 
