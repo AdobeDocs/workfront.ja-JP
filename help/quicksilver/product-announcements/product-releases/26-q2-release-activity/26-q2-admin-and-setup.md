@@ -33,7 +33,7 @@ ht-degree: 16%
 * カスタム四半期セクションがセットアップの左側のパネルに追加されます。 機能は変わりません。 
 * カスタム四半期セクションが、グループのプロジェクト環境設定セクションから削除されました。 グループ管理者には、カスタム四半期の設定が表示されなくなりました。 
 
-詳しくは、[ カスタム四半期の有効化 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) を参照してください。
+詳しくは、[&#x200B; カスタム四半期の有効化 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) を参照してください。
 
 ## デフォルトでカスタムフォームセクションを折りたたむ
 
@@ -45,7 +45,7 @@ ht-degree: 16%
 
 デフォルトでは、カスタムフォーム上のすべてのセクションは、フォーム自体が展開されると展開されます。 カスタムフォームデザイナーの新しいオプションを使用すると、ユーザーがフォームを開いたときに、デフォルトで折りたたむセクションをマークできます。 このオプションは、フィールドではなくセクションレベルで適用されます。
 
-詳しくは、[ フォームの整理とプレビュー ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
+詳しくは、[&#x200B; フォームの整理とプレビュー &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
 
 ## リッチテキストフィールドタイプがカスタムフォームで使用できるようになりました
 
@@ -61,7 +61,7 @@ ht-degree: 16%
 
 リッチテキストフィールドタイプが、テキストを書式設定フィールドタイプに置き換えています。 右側のフィールドオプションのボタンをクリックして、フィールドが書式設定されている既存のテキストをリッチテキストにすばやく変換できます。 変換する場合、履歴データはフィールドに残り、レポートでも同じように使用されます。
 
-詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## Workfront メール通知用の新しい IP アドレス
 
