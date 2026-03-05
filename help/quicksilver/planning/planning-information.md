@@ -1,20 +1,20 @@
 ---
-title: Adobe Workfront計画の一般情報
+title: Adobe Workfront Planning に関する一般情報
 description: マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。この節の記事では、Planning 機能を設定する方法およびキャンペーン管理業務の一環として Planning 機能の使用を開始する方法について説明します。
-short-description: 組織でAdobe Workfront Planning を実装し、効果的に使用する方法についてドキュメントと関連資料を参照してください。
+short-description: 組織で Adobe Workfront Planning を実装し、効果的に使用する方法について詳しくは、本ドキュメントおよびその他のリソースを参照してください。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: ddb72bcf8e1a330e39f1e52a1d89d9478a7afb98
+source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 21%
+source-wordcount: '577'
+ht-degree: 98%
 
 ---
 
-# Adobe Workfrontの計画に関する一般情報
+# Adobe Workfront Planning に関する一般情報
 
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
@@ -30,21 +30,21 @@ ht-degree: 21%
 
 以下の節の記事では、Workfront Planning を設定し、使用を開始する方法について説明します。
 
-Adobe Workfront Planning の一般情報と用語の理解については、[Adobe Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください
+Adobe Workfront Planning の一般情報と用語について詳しくは、[Adobe Workfront Planning の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 
 ## Workfront Planning のアーキテクチャと機能
 
 次の節では、Workfront Planning で現在利用できる機能の詳細を説明する記事を含みます。
 
-* [&#x200B; アクセス情報と権限情報：記事インデックス &#x200B;](/help/quicksilver/planning/access/access-information.md) には、次の情報が含まれます。
+* [アクセス情報と権限情報：記事インデックス](/help/quicksilver/planning/access/access-information.md)には、次の情報が含まれます。
 
-   * Workfront ライセンスと Planning 権限
-   * 共有権限の計画
+   * Workfront のライセンスと Planning の権限
+   * Planning の共有権限
    * ビューの共有
-   * ワークスペース （レコードとフィールド）の共有
+   * ワークスペース（レコードとフィールド）の共有
    * レコードタイプ（レコードとフィールド）の共有
 
-* [&#x200B; アーキテクチャ：記事インデックス &#x200B;](/help/quicksilver/planning/architecture/architecture-information.md) 次の情報が含まれます。
+* [アーキテクチャ：記事インデックス](/help/quicksilver/planning/architecture/architecture-information.md)には、次の情報が含まれます。
 
    * ワークスペースの作成、編集、削除
    * レコードタイプの作成、編集、削除
@@ -52,49 +52,56 @@ Adobe Workfront Planning の一般情報と用語の理解については、[Ado
    * レコードタイプの接続とレコードタイプの接続例
    * Workspace テンプレート
 
-* [&#x200B; フィールド：記事インデックス &#x200B;](/help/quicksilver/planning/fields/fields-information.md) 次の情報が含まれます。
+* [フィールド：記事インデックス](/help/quicksilver/planning/fields/fields-information.md)には、次の情報が含まれます。
 
    * フィールドの作成、編集、削除
    * 数式フィールド
    * プライマリフィールド
 
-* [&#x200B; レコード：記事インデックス &#x200B;](/help/quicksilver/planning/records/records-information.md) 次の情報が含まれます。
+* [レコード：記事インデックス](/help/quicksilver/planning/records/records-information.md)には、次の情報が含まれます。
 
    * レコードの作成、編集、削除
    * レコードの接続
    * レコードへのカバー画像またはサムネールの追加
    * レコードページのレイアウトの管理
-   * 「コメントと履歴を記録」セクション
+   * コメントの記録と履歴セクション
    * レコードの共有
-   * WorkfrontからのWorkfront計画レコードの管理
+   * Workfront からの Workfront Planning レコードの管理
 
-* [Adobe Workfront Planning リクエスト：記事インデックス &#x200B;](/help/quicksilver/planning/requests/requests-article-index.md) には、次の情報が含まれます：
+* [Adobe Workfront Planning リクエスト：記事インデックス](/help/quicksilver/planning/requests/requests-article-index.md)には、次の情報が含まれます。
 
-   * レコードタイプのリクエストフォームを作成する方法。
+   * レコードタイプのリクエストフォームの作成方法。
    * ユーザーがレコードタイプのリクエストフォームにリクエストを送信し、レコードを作成する方法。
 
-* [Views：記事インデックス &#x200B;](/help/quicksilver/planning/views/views-information.md) には、次の情報が含まれます。
+* [ビュー：記事インデックス](/help/quicksilver/planning/views/views-information.md)には、次の情報が含まれます。
 
    * レコードビューの作成
-   * テーブル、タイムライン、カレンダーの表示を管理する
+   * テーブル、タイムライン、カレンダーのビューの管理
 
-* [&#x200B; 通知：記事インデックス &#x200B;](/help/quicksilver/planning/notifications/notifications-information.md) には、次の情報が含まれます。
+* [通知：記事インデックス](/help/quicksilver/planning/notifications/notifications-information.md)には、次の情報が含まれます。
 
    * 通知設定の管理
-   * アプリ内通知の計画
-   * メール通知の計画
+   * Planning のアプリ内通知
+   * Planning のメール通知
 
-## Workfrontの計画で利用できるその他の機能
+## Workfrontの計画に使用できるその他の機能
 
-* [Adobe Workfront Planning API の基礎 &#x200B;](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。
+* [Adobe Workfront Planning API の基本](/help/quicksilver/planning/general/planning-api-basics.md)：Adobe Workfront Planning API の目的は、HTTP 上で動作する RESTful アーキテクチャを導入することで、Planning との統合の構築を簡略化することです。
 
-* [Workfront Fusion のAdobe Workfront Planning モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
+* [Workfront Fusion の Adobe Workfront Planning モジュール](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：Adobe Workfront Planning モジュールを使用すると、Workfront Planning でイベントが発生した場合にシナリオをトリガーできます。また、レコードの作成、読み取り、更新、削除、および Adobe Workfront Planning のアカウントへのカスタム API 呼び出しも実行できます。
 
-* [Adobe Workfront Planning AI Assistant の概要 &#x200B;](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront AI Assistant for Planning を使用すると、レコードを検索したり、コマンドを使用してアシスタントで作業することにより、レコードを作成、更新、および削除したりできます。
+* [Adobe Workfront Planning の AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：Workfront Planning の AI アシスタントを使用すると、コマンドを実行して、アシスタントに代行してもらうことによって、レコードの検索、作成、更新、削除などの作業を行うことができます。
 
-* [Adobe Workfront Planning の自動の構成 &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md): Adobe Workfront Planning で自動を構成できます。この場合、アクティブ化すると、計画レコードからトリガーされたときにWorkfrontにオブジェクトが作成されるか、Workfront Planning にレコードが作成されます。
+* [Adobe Workfront Planning の自動化の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)：Adobe Workfront Planning で自動化を設定できます。アクティブ化すると、Planning レコードからトリガーされたときに Workfront にオブジェクトが作成されるか、Workfront Planning にレコードが作成されます。
 
-* [Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md):Workfront Planning のGenStudio ワークスペースで、GenStudio for Performance Marketingからのレコードを管理できます。
+* [Adobe Workfront Planning とAdobe GenStudio for Performance Marketing との統合の基本を学ぶ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)：Workfront Planning の GenStudio ワークスペースで、GenStudio for Performance Marketing のレコードを管理できます。
 
-* **Workfront Planning のレポート機能**: Workfront キャンバス ダッシュボードを使用して、Workfront Planning の情報をレポートで表示できるようになりました。 詳しくは、[&#x200B; キャンバスダッシュボードの概要 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
+* **Workfront Planning のレポート機能**：Workfront キャンバス ダッシュボードを使用して、Workfront のレポートで Workfront Planning の情報を表示できるようになりました。詳しくは、[キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)を参照してください。
 
+## Workfront Planning のリリースアクティビティ
+
+<!--update this with the new release activity page - the article index for all Planning releases-->
+
+アドビでは、定期的に Workfront Planning の新機能をリリースしています。
+
+リリースされた機能の最新のリストについて詳しくは、[Adobe Workfront Planning のリリースアクティビティ：記事インデックス](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
