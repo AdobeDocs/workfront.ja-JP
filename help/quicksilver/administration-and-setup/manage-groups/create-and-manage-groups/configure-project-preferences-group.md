@@ -75,7 +75,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ**![ グループアイコン ](assets/groups-icon.png) をクリックします。
+1. 左側のパネルで、**グループ**![&#x200B; グループアイコン &#x200B;](assets/groups-icon.png) をクリックします。
 
 1. プロジェクトの環境設定を指定するグループの名前をクリックします。
 1. 左側のパネルで、**プロジェクトの環境設定**&#x200B;をクリックします。
@@ -218,7 +218,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 <p>1 人のユーザーをプロジェクトのタスクに割り当て、プロジェクトとユーザーの両方にスケジュールを関連付けると、[!UICONTROL Workfront] では次のスケジュールが使用されます。</p> 
     <ul> 
      <li><strong>[!UICONTROL User]</strong>：タイムラインを計算するタスクに割り当てられたユーザーのスケジュール。</li> 
-     <li><strong>[!UICONTROL プロジェクト ]</strong>: タスクのタイムラインを計算するプロジェクトのスケジュール。</li> 
+     <li><strong>[!UICONTROL プロジェクト &#x200B;]</strong>: タスクのタイムラインを計算するプロジェクトのスケジュール。</li> 
     </ul> <p>スケジュールについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">スケジュールの作成</a>を参照してください。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 

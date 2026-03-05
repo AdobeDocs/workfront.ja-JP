@@ -65,7 +65,7 @@ ht-degree: 88%
 1. 左側のパネルで、**[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL プロジェクト]**&#x200B;をクリックします。
 
 1. **プロジェクト設定**&#x200B;ページで、以下の 4 つのセクションのいずれかに進み、[!UICONTROL プロジェクトステータス]、[!UICONTROL タイムライン]、[!UICONTROL ビジネスケース]、[!UICONTROL 終了後の操作]の設定を行います。
-1. 組織全体のすべてのグループで同じプロジェクト環境設定を使用する場合は、各環境設定がロック ![ ロック切り替え ](assets/lock-toggle-button.png) になっていることを確認します（これはデフォルトです）。
+1. 組織全体のすべてのグループで同じプロジェクト環境設定を使用する場合は、各環境設定がロック ![&#x200B; ロック切り替え &#x200B;](assets/lock-toggle-button.png) になっていることを確認します（これはデフォルトです）。
 
    >[!IMPORTANT]
    >
@@ -139,7 +139,7 @@ ht-degree: 88%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
    <td> <p>プロジェクトの見込み総コストを表す[!UICONTROL Estimate at Completion]（EAC）の計算に [!DNL Workfront] で使用されるデータを決定します。</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>：EAC の式に [!UICONTROL Actual Hours] または [!UICONTROL Actual Labor Cost] を入力することで、親タスクおよびプロジェクトの EAC が決定されます。計算には、親タスクまたはプロジェクトに直接追加された[!UICONTROL Actual Hours]または[!UICONTROL Costs and Expenses]が含まれます。</li> 
@@ -220,7 +220,7 @@ ht-degree: 88%
 <p>プロジェクト内のタスクに 1 人のユーザーを割り当て、プロジェクトとそのタスクに割り当てられたユーザーの両方にスケジュールが関連付けられている場合、[!UICONTROL Workfront] では次のスケジュールが使用されます。</p> 
     <ul> 
      <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] は、タスクに割り当てられたユーザーのスケジュールを使用してタイムラインを計算します。</li> 
-     <li><strong>[!UICONTROL プロジェクト ]</strong>: [!DNL Workfront] は、プロジェクトのスケジュールを使用してタスクのタイムラインを計算します。</li> 
+     <li><strong>[!UICONTROL プロジェクト &#x200B;]</strong>: [!DNL Workfront] は、プロジェクトのスケジュールを使用してタスクのタイムラインを計算します。</li> 
     </ul> <p>スケジュールについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">スケジュールの作成</a>を参照してください。</p>
 </td> 
   </tr>
@@ -239,7 +239,7 @@ ht-degree: 88%
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
    <td> <span class="preview"> プレビュー環境のプロジェクト環境設定セクションからカスタム四半期エリアが削除されました。</span> 
    <span class="preview"> 詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> カスタム四半期の有効化 </a> を参照してください。</p></span>
-   <p>実稼動環境で、プロジェクトに取り組むユーザーのカスタムの年四半期を設定します。 カスタム四半期は通常、暦年の従来の四半期分類と一致しない四半期です。複数のカスタム四半期を追加できます。   <p><b>メモ</b>： </p><p>[!DNL Workfront] 管理者は [!UICONTROL カスタム四半期 ] 環境設定をロック解除できず、グループ管理者はグループレベルでこれらの設定を編集できません。</p> </td> 
+   <p>実稼動環境で、プロジェクトに取り組むユーザーのカスタムの年四半期を設定します。 カスタム四半期は通常、暦年の従来の四半期分類と一致しない四半期です。複数のカスタム四半期を追加できます。   <p><b>メモ</b>： </p><p>[!DNL Workfront] 管理者は [!UICONTROL カスタム四半期 &#x200B;] 環境設定をロック解除できず、グループ管理者はグループレベルでこれらの設定を編集できません。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -272,7 +272,7 @@ ht-degree: 88%
     <ul> 
      <li><strong>[!UICONTROL タスクの追加と編集：]</strong> ユーザーに次の操作を許可します：
       <ul>
-       <li><p>プロジェクトが [!UICONTROL 完了 ]、[!UICONTROL 停止 ]、または [!UICONTROL 承認保留中 ] に設定された後に、プロジェクト内のタスクを編集します。</p>
+       <li><p>プロジェクトが [!UICONTROL 完了 &#x200B;]、[!UICONTROL 停止 &#x200B;]、または [!UICONTROL 承認保留中 &#x200B;] に設定された後に、プロジェクト内のタスクを編集します。</p>
            <p>注意：このオプションを選択しない場合でも、ユーザーは費用エントリを追加および編集できます。 時間の記録には別の設定があります。 ユーザーが完了または停止ステータスのプロジェクトに時間を記録することを許可または禁止するには、<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md"> タイムシートおよび時間環境設定の設定 </a> を参照してください。</p></li>
        <li>プロジェクトにタスクを追加する。</li>
       </ul></li>
