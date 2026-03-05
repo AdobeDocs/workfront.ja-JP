@@ -21,7 +21,7 @@ ht-degree: 21%
 
 ビジネスプロファイルをユーザーに割り当てるには、グループおよび関連するアクセスレベルを割り当てる必要があります。
 
-ビジネスプロファイルについて詳しくは、[ ビジネスプロファイルの概要 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md) を参照してください。
+ビジネスプロファイルについて詳しくは、[&#x200B; ビジネスプロファイルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md) を参照してください。
 
 ## ユーザーのビジネスプロファイルの作成
 
