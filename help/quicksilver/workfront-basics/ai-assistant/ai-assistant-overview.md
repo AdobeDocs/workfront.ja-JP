@@ -5,10 +5,10 @@ description: Adobe Workfront の AI アシスタントについて
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
+source-git-commit: 2619aa432a8c0b12d0d910df8eb05447fa50f387
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 99%
 
 ---
 
@@ -22,28 +22,26 @@ Workfront の AI アシスタントは、アプリ内の情報やおすすめを
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：任意</p>
-       <p>または</p>
-       <p>現在：使用できません</p></td>
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>Select 以上 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：使用できません</p></td>
+   <td><p>標準</p>
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## AI アシスタントの前提条件
 
