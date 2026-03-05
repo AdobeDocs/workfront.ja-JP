@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 57%
+source-wordcount: '451'
+ht-degree: 52%
 
 ---
 
-# カスタム四半期を有効にする
+# カスタム四半期の有効化
 
-<!--Audited: 11/2024-->
+<!--Audited: 03/2026-->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 レポートの目的で、組織の四半期がカレンダーの日付（営業日や買い物日など）以外の特定の条件に基づいている場合は、カスタム四半期を作成できます。
 
@@ -58,34 +62,36 @@ ht-degree: 57%
 
 {{step-1-to-setup}}
 
-1. **[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL プロジェクト]をクリックします。**
+1. （条件付き）カスタム四半期にアクセスする環境に応じて、次のいずれかの操作を行います。
 
-1. 「**[!UICONTROL タイムライン]**」セクションで、「**[!UICONTROL カスタム四半期を有効にする]**」を選択します。
+   * 実稼動環境で、**[!UICONTROL プロジェクト環境設定]**/**[!UICONTROL プロジェクト ].** をクリックします。
+   * <span class="preview"> プレビュー環境で、「**[!UICONTROL カスタム四半期]**」をクリックします。</span>
+
+1. **[!UICONTROL カスタム四半期を有効にする]** を選択します。
 
 1. 「2021 年度第 1 四半期」などのカスタム四半期の名前を入力します。
 1. カスタム四半期の開始日と終了日を選択します。
 
-   ![&#x200B; カスタム四半期 &#x200B;](assets/custom-quarters-nwe.png)
+   ![ カスタム四半期 ](assets/custom-quarters-nwe.png)
 
 1. （オプション）「**[!UICONTROL カスタム四半期を追加]**」をクリックして、システムにカスタム四半期を追加します。
 
    >[!IMPORTANT]
    >
    > [!DNL Workfront Planning] を購入した場合、四半期の間にギャップや重複があると、カスタム四半期を保存できません。
-   >![&#x200B; 重複警告のあるカスタム四半期 &#x200B;](assets/custom-quarters-with-overlap-warning.png)
+   >![ 重複警告のあるカスタム四半期 ](assets/custom-quarters-with-overlap-warning.png)
    >四半期の間のギャップと重複は、[!DNL Workfront] 顧客にのみ許可されています。
 
 1. （オプションおよび条件付き）会社が [!DNL Workfront] のみを購入した場合、[!DNL Workfront Planning] を付けずに、会計四半期を参照するレポート要素を作成します。
 
+   **例：**[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
 
-   **例：**&#x200B;[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
-
-   ![&#x200B; カスタム四半期を使用したプロジェクトフィルター &#x200B;](assets/example-of-project-filter-with-custom-quarters.png)
+   ![ カスタム四半期を使用したプロジェクトフィルター ](assets/example-of-project-filter-with-custom-quarters.png)
 
    「今四半期」、「次四半期」、「前四半期」の参照は、カスタム四半期の新しい参照に置き換えられます。
 
    レポート要素について詳しくは、[レポート要素：フィルター、ビュー、およびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)を参照してください。
 
    フィルターの作成について詳しくは、[フィルターを作成または編集 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
-1. （オプションおよび条件付き） [!DNL Workfront Planning] へのアクセス権を持っている場合は、レコードタイプのページに移動して、タイムライン表示を開きます。 ビューには、新しいカスタム四半期が表示されます。
+1. （オプションおよび条件付き）会社がWorkfront Planning を購入し、[!DNL Workfront Planning] へのアクセス権を持っている場合は、レコードタイプページに移動してタイムラインビューを開きます。 ビューには、新しいカスタム四半期が表示されます。
 詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
