@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,8 @@ ht-degree: 94%
 
    デフォルトでは、計画、作業、レビュアーやリクエストのライセンスを持つユーザーは、完全な表示および編集の機能を持ちます。外部ユーザーライセンスを持つユーザーは、フィルター、ビュー、グループ化にアクセスできません。
 
-   <!--If this changes, undraft section with table below
+   <!--
+   If this changes, undraft section with table below
    -->
 
 1. （オプション）作業中のアクセスレベルの他のオブジェクトやエリアのアクセス設定を指定するには、[Adobe Workfront へのアクセスを設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)にある記事のうちの 1 つ（[タスクへのアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)、[財務データへのアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)など）に従って、作業を続けます。
@@ -66,9 +67,11 @@ ht-degree: 94%
 
    作成したアクセスレベルは、ユーザーに割り当てることができます。詳しくは、[ユーザープロファイルを編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
-<!--## Access to filters, views, and groupings by license type
+<!--
+## Access to filters, views, and groupings by license type
 
-Drafting out this section for now because the table is redundant since all four license types can do everything.</span>-->
+Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
+-->
 
 この表は、Workfront 管理者がそれぞれのライセンスタイプを持つユーザーに許可できるフィルター、ビュー、グループ化の内容を示しています。Workfront ライセンスタイプについて詳しくは、[Adobe Workfront のライセンスの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)を参照してください。
 

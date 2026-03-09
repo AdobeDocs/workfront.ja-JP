@@ -1,5 +1,5 @@
 ---
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 89%
@@ -7,7 +7,8 @@ ht-degree: 89%
 ---
 # スニペット
 
-<!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+<!-- 
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
 <!-- General -->
 
@@ -55,7 +56,7 @@ ht-degree: 89%
 >
 >このページで説明する手順は、まだ [!DNL Adobe Experience Cloud] にオンボーディングされていない組織にのみ適用されます。
 >
-> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。
+> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。
 
 ## 手順 1 - メインメニューのみをクリックする {#step1-click-main-menu}
 
@@ -63,7 +64,7 @@ ht-degree: 89%
 
 ## 手順 1 - メインメニューシェルのみをクリック {#step1-click-main-menu-shell-only}
 
-1. 左上隅の **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックします。
+1. 左上隅の **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックします。
 
 ## 手順 1 - メインメニューをクリックしてから次をクリックします {#step1-click-mm-then-click}
 
@@ -105,7 +106,7 @@ ht-degree: 89%
 >
 >2024 年 7 月 18 日（PT）の 24.7 リリース以降、レガシーフォームビルダーは使用できなくなりました。 フォームデザイナーは、Adobe Workfrontでカスタムフォームを作成および編集するためのデフォルトのエクスペリエンスになりました。
 >
->詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+>詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## 適切なグループをチームに関連付ける {#right-group-team}
 
@@ -172,7 +173,7 @@ ht-degree: 89%
 
 ## 手順 1 - ホームに進む - {#step1-to-home}
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
 
 ## ホームアイコンをクリックする {#click-home}
 
@@ -187,7 +188,7 @@ ht-degree: 89%
 
 ## 手順 1 – 優先事項の把握 –  {#step1-to-priorities}
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は左上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**[!UICONTROL 優先度]** をクリックします。
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は左上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**[!UICONTROL 優先度]** をクリックします。
 
 <!-- Integrations -->
 
@@ -220,78 +221,66 @@ ht-degree: 89%
 1. （オプション）自動プルーフワークフロー設定の調整
 
    <table>
-      <tr>
-         <td colspan="2" ><strong>プルーフステージ</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>ステージの無効化
-         </td>
-         <td>
+   <tr>
+      <td colspan="2" ><strong>プルーフステージ</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>ステージの無効化
+      </td>
+      <td>
       <ol>
-
-   <li>「すべて選択」を切り替えて、すべてのステージを無効にします。 
+      <li>「すべて選択」を切り替えて、すべてのステージを無効にします。 
       <p>または</p></li>
       <li>個々のステージを切り替えます。</li>
-
-   </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>受信者の追加
-         </td>
-         <td>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>受信者の追加
+      </td>
+      <td>
       <ol>
-
-   <li>新しい受信者を追加ボックスに、ユーザーの名前の入力を開始します。
-
-   <li>プルーフの役割を指定します。
-
-   <li>受信者向けのメールアラートのタイプを選択します。 
+      <li>新しい受信者を追加ボックスに、ユーザーの名前の入力を開始します。</li>
+      <li>プルーフの役割を指定します。</li>
+      <li>受信者向けのメールアラートのタイプを選択します。</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>期限の設定
+      </td>
+      <td>
+      <ol>
+      <li>期限を選択します。</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td colspan="2" ><strong>メール通知</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>プルーフに関する受信者への通知
+      </td>
+      <td>
+      <ol>
+      <li>プルーフの作成時にユーザーに通知する場合は、このチェックボックスを有効にします。</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>カスタムメッセージの追加
+      </td>
+      <td>
+      <ol>
+      <li>件名を入力します。
+      <li>カスタムメッセージを入力します。
       </li>
       </ol>
-         </td>
+      </td>
       </tr>
-      <tr>
-         <td>期限の設定
-         </td>
-         <td>
-      <ol>
-
-   <li>期限を選択します。
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td colspan="2" ><strong>メール通知</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>プルーフに関する受信者への通知
-         </td>
-         <td>
-      <ol>
-
-   <li>プルーフの作成時にユーザーに通知する場合は、このチェックボックスを有効にします。
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>カスタムメッセージの追加
-         </td>
-         <td>
-      <ol>
-
-   <li>件名を入力します。
-
-   <li>カスタムメッセージを入力します。
-      </li>
-      </ol>
-         </td>
-      </tr>
-      </table>
+   </table>
 
 <!-- Workfront Planning -->
 
@@ -316,9 +305,10 @@ ht-degree: 89%
 >
 >Workfront Planning へのアクセス要件のリストについて詳しくは、[Adobe Workfront Planning へのアクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 > 
->Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
-<!--Old - before Oct. 15, 2025:
+<!--
+Old - before Oct. 15, 2025:
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
@@ -331,9 +321,11 @@ ht-degree: 89%
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).-->
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
-<!--OLD: 
+<!--
+OLD: 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -464,11 +456,11 @@ ht-degree: 89%
    >* イシュータイプはカスタマイズ可能で、環境によっては、以下に示すように異なる名前が付けられる場合があります。\
    >  デフォルトのタスクタイプおよびイシュータイプは次のとおりです。
    >     
-   >   * タスク
-   >   * イシュー
-   >   * リクエスト
-   >   * 変更依頼
-   >   * バグレポート
+   >  * タスク
+   >  * イシュー
+   >  * リクエスト
+   >  * 変更依頼
+   >  * バグレポート
 
    タスクまたはイシューが複数のユーザーに割り当てられている場合は、チームに選択した複数のステータスに加えて、ドロップダウンメニューに「担当部分は完了」オプションが表示されます。
 
@@ -530,5 +522,4 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
-
 
