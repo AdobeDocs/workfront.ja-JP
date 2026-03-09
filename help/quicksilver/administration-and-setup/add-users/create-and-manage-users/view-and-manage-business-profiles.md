@@ -8,7 +8,10 @@ description: Adobe Workfront 管理者は、ユーザーにアクセスレベル
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 85085b2e03e2dc9db50b49e89b4cf2c0f8b74093
+hide: true
+hidefromtoc: true
+exl-id: 2227cdb7-909c-429d-a078-4f508157a679
+source-git-commit: 1389c6a1f41a14bafd6b70e2e079e40d22d47b07
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 21%
@@ -21,7 +24,7 @@ ht-degree: 21%
 
 ビジネスプロファイルをユーザーに割り当てるには、グループおよび関連するアクセスレベルを割り当てる必要があります。
 
-ビジネスプロファイルについて詳しくは、[&#x200B; ビジネスプロファイルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md) を参照してください。
+ビジネスプロファイルについて詳しくは、[ ビジネスプロファイルの概要 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md) を参照してください。
 
 ## ユーザーのビジネスプロファイルの作成
 
