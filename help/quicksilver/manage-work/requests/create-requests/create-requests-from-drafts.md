@@ -84,7 +84,7 @@ ht-degree: 70%
 
    誤ってドラフトを破棄した場合は、画面の下部にあるメッセージの **元に戻す** を直ちにクリックできます。 このオプションは数秒間のみ使用できます。
 
-   ドラフトの削除について詳しくは、「[ 送信されたリクエストまたはリクエストドラフトの削除 ](../../../manage-work/requests/create-requests/delete-request-draft.md)」を参照してください。
+   ドラフトの削除について詳しくは、「[&#x200B; 送信されたリクエストまたはリクエストドラフトの削除 &#x200B;](../../../manage-work/requests/create-requests/delete-request-draft.md)」を参照してください。
 
 1. （任意）ドラフトを送信せずに変更を保存するには、新しいリクエスト ページを離れます。 変更内容は自動的に保存されます。
 
@@ -100,7 +100,7 @@ ht-degree: 70%
 
    それぞれのリクエストキューのそれぞれのキュートピックのドラフトがこのリストに表示されます。
 
-   ![ ドラフトのリストを含むドラフトセクション ](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   ![&#x200B; ドラフトのリストを含むドラフトセクション &#x200B;](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. （オプション）列の見出しをクリックして、その列でリストを並べ替えます。
 
@@ -133,7 +133,7 @@ ht-degree: 70%
 
      送信する準備がまだ整っておらず、後で戻って完了する場合は、「**閉じる**」をクリックします。リクエストは「ドラフト」セクションに保存され、次回このリクエストキューのリクエストを送信する際に利用できます。
 
-     ![ 新しい要求で送信、閉じる、破棄のボタン ](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![&#x200B; 新しい要求で送信、閉じる、破棄のボタン &#x200B;](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      リクエストを送信すると、ドラフトは削除され、復元できません。
 

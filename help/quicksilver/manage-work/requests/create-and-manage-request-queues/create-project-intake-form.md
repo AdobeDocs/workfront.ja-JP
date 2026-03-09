@@ -69,7 +69,7 @@ ht-degree: 7%
 
 Workfront プロジェクトの取り込みフォームは、作成されたプロジェクト固有のプロパティを設定するために、Workfront Planning Automations をサポートします。
 
-Planning の自動化の詳細は、[Adobe Workfront Planning の自動化の構成 ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) を参照してください。
+Planning の自動化の詳細は、[Adobe Workfront Planning の自動化の構成 &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) を参照してください。
 
 ### 承認設定
 
@@ -94,7 +94,7 @@ Planning の自動化の詳細は、[Adobe Workfront Planning の自動化の構
 
 プロジェクト取り込みフォームは、新しい要求エクスペリエンスでのみ使用できます。
 
-新しいリクエスト機能について詳しくは、[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+新しいリクエスト機能について詳しくは、[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
 
 #### 共有
 
@@ -157,7 +157,7 @@ Planning の自動化の詳細は、[Adobe Workfront Planning の自動化の構
    * **説明テキスト**
    * **セクション区切り**
 
-   カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+   カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 1. フォームの左側にある「**自動**」タブをクリックし、次のいずれかの操作を行います。
 
@@ -178,9 +178,9 @@ Planning の自動化の詳細は、[Adobe Workfront Planning の自動化の構
    * すべての承認者は、プロジェクトが承認または拒否される前に決定を行う必要があります。
    * チームが承認者として設定されている場合、チームからの決定は 1 つだけ必要です。
 
-     リクエストフォームへの承認の追加について詳しくは、「[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md)」を参照してください。
+     リクエストフォームへの承認の追加について詳しくは、「[&#x200B; リクエストフォームへの承認の追加 &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md)」を参照してください。
 
-1. （オプション）ヘッダーのフォーム名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、「**編集**」をクリックしてフォーム名を更新します。
+1. （オプション）ヘッダーのフォーム名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**編集**」をクリックしてフォーム名を更新します。
 
 1. 「**公開**」をクリックしてフォームを公開し、フォームの一意のリンクを取得します。
 
@@ -196,7 +196,7 @@ Planning の自動化の詳細は、[Adobe Workfront Planning の自動化の構
 
    **リクエストフォーム** テーブル表示が開き、フォームが追加されます。
 
-1. （オプション）テーブル表示でリクエストフォームの名前の上にマウスポインターを置き、フォーム名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、次のいずれかをクリックします。
+1. （オプション）テーブル表示でリクエストフォームの名前の上にマウスポインターを置き、フォーム名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックして、次のいずれかをクリックします。
 
    * **フォームを編集**：フォームの情報をさらに編集するには、これをクリックします。
    * **非公開**：このボタンをクリックしてフォームを非公開にすると、Workfrontのリクエスト領域から削除されます。
