@@ -3,17 +3,17 @@ product-area: requests
 navigation-topic: create-requests
 title: 送信されたリクエストの再リクエストドラフトを削除
 description: 送信されたリクエストまたはリクエストのドラフトを削除できます。
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 32%
+ht-degree: 34%
 
 ---
 
-# 送信されたリクエストまたはリクエストドラフトの削除
+# 送信されたリクエストまたはリクエストのドラフトの削除
 
 新しいリクエスト用エクスペリエンスで作成した、送信済みのリクエストまたはリクエストドラフトを削除できます。 Workfront管理者と Planning Workspace 管理者は、リクエストを削除することもできます。
 
@@ -38,7 +38,7 @@ ht-degree: 32%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>投稿者以上</p>
+   <td> <p>コントリビューター以上</p>
    <p>リクエスト以上</p>
     </td> 
   </tr> 
@@ -79,9 +79,9 @@ ht-degree: 32%
 
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
-1. ホームの **リクエスト** リストまたは **マイリクエスト** ウィジェットで、削除するリクエストまたはドラフトにポインタを合わせて、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックします。
+1. ホームの **リクエスト** リストまたは **マイリクエスト** ウィジェットで、削除するリクエストまたはドラフトにポインタを合わせて、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします。
 
 1. **削除** をクリックします
 
@@ -107,7 +107,7 @@ ht-degree: 32%
 
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
 1. リクエスト リストまたは自分のリクエスト ウィジェットで、削除する各リクエストの左側にあるボックスをクリックします。
 1. ページ下部の青いバーで、「**削除**」をクリックします。

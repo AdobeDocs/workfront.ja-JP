@@ -1,13 +1,13 @@
 ---
 title: リクエストキューへのリンクの共有
 description: リクエストの送信時に、リクエストキュー、トピックグループまたはキューのトピックへのリンクを共有できます。
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 79%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>投稿者以上</p>
+   <td> <p>コントリビューター以上</p>
    <p>リクエスト以上</p>
     </td> 
   </tr> 

@@ -1,12 +1,12 @@
 ---
 title: リクエストのコピーと送信
 description: 同様のリクエストを頻繁に送信する場合は、既存の送信済みリクエストをコピーできます。この場合、既存のリクエストをコピーし、最小限の変更を加えて、新しいリクエストとして再送信できます。
-author: Becky
+author: Alina
 feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 82%
@@ -32,7 +32,7 @@ ht-degree: 82%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>投稿者以上</p>
+   <td> <p>コントリビューター以上</p>
    <p>リクエスト以上</p>
     </td> 
   </tr> 
@@ -104,19 +104,19 @@ ht-degree: 82%
 
 1. 新規としてコピーして送信するリクエストを検索し、次のいずれかの操作を行います。
 
-   * これを選択し、「送信済みリクエスト」リストの左上隅にある **コピー**![&#x200B; コピーして送信 &#x200B;](assets/copy-and-submit-as-new-requests-area-nwe.png) アイコンをクリックします。
+   * これを選択し、「送信済みリクエスト」リストの左上隅にある **コピー**![ コピーして送信 ](assets/copy-and-submit-as-new-requests-area-nwe.png) アイコンをクリックします。
 
    >[!TIP]
    >
    > 最初にリクエストを選択していない場合、コピーアイコンはグレー表示になります。
 
-   * リクエスト名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、「**新規としてコピーして送信**」をクリックします。
+   * リクエスト名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックし、「**新規としてコピーして送信**」をクリックします。
 
      または
 
      選択したリクエストを右クリックし、「**新規としてコピーして送信**」をクリックします。
 
-     ![&#x200B; 選択されたその他のメニューオプションを要求 &#x200B;](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![ 選択されたその他のメニューオプションを要求 ](assets/request-selected-more-menu-options-nwe-350x191.png)
 
      >[!TIP]
      >
@@ -234,9 +234,9 @@ ht-degree: 82%
 
    1. 自分のリクエスト ウィジェットを見つけます。
 
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
-1. ホームの **リクエスト** リストまたは **マイリクエスト** ウィジェットで、コピーするリクエストにポインタを合わせて、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックします。
+1. ホームの **リクエスト** リストまたは **マイリクエスト** ウィジェットで、コピーするリクエストにポインタを合わせて、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックします。
 
 1. 「**コピー**」をクリックします
 

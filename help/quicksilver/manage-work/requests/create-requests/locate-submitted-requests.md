@@ -3,15 +3,15 @@ product-area: requests
 navigation-topic: create-requests
 title: 送信されたリクエストを表示
 description: 自分または他のユーザーが送信したリクエストや、自分が送信したことがなく、ドラフトとして保存されたリクエストを表示できるAdobe Workfrontの領域について説明します。
-author: Becky
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 38%
+source-wordcount: '1363'
+ht-degree: 44%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 38%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>投稿者以上</p>
+   <td> <p>コントリビューター以上</p>
    <p>リクエスト以上</p>
     </td> 
   </tr> 
@@ -85,50 +85,43 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->作成されたオブジェクトへのリンクは、要求そのものがオブジェクトを作成した場合に、新しい要求エクスペリエンスで使用できるのは Planning 要求のみです。 Workfront リクエストがプロジェクトまたは他のオブジェクトに変換された場合、その変換後のオブジェクトへのリンクは、新しいリクエスト環境のリクエストリストで使用できません。
+>リクエスト自体でレコードを作成した場合、作成されたオブジェクトへのリンクを新しいリクエスト環境で使用できるのは、Planning リクエストに対してのみです。
+>
+>Workfront リクエストがプロジェクトまたは他のオブジェクトに変換された場合、変換後のオブジェクトへのリンクは、新しいリクエストエクスペリエンスのリクエストリストで使用できません。
 
 自分または他のユーザーが新しい要求エクスペリエンスで送信した要求を表示するには：
 
 {{step1-to-requests}}
 
-1. 画面の右上隅にある **新しいエクスペリエンスを使用** トグルが有効になっていることを確認します。
+1. 画面の右上隅にある **新しいエクスペリエンスを使用** 設定がオンになっていることを確認します。
 
    リクエスト リストが表示されます。
 
-1. （オプション）リクエストを検索するには、リストの右上にある検索バーに入力を開始します。 入力中に検索結果が表示されます。
+1. （オプション）リクエストを検索するには、リストの右上隅にある検索バーに入力を開始します。 入力中に検索結果が表示されます。
 1. （任意）「**フィルター**」をクリックして、表示するリクエストの条件の追加を開始します。
 
-   次のフィールドでフィルタリングできます。
+   フィルターについて詳しくは、[ リクエスト エリアでのビューの作成と管理 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 
-   * **Workspace**: リクエストフォームが関連付けられているワークスペース。
-   * **レコードタイプ**：リクエストフォームが関連付けられているレコードタイプ。
-   * **エントリ日**：リクエストが送信された日付。
-   * **リクエストフォーム**：リクエストの送信に使用されるリクエストフォームの名前。
-   * **ステータス**：リクエストのステータス。
-   * **入力者**：リクエストを追加したユーザーの名前。 Workfront以外のユーザーがリクエストを追加した場合は、「入力者 **フィールドに** が表示さ `N/A` ます。
+1. （オプション） **ビュー** ドロップダウンメニューをクリックして、ビューを更新したり、他のユーザーと共有したりします。
 
-   複数のフィルターを **And** または **Or** で結合できます。
-フィルター条件を追加すると、リクエストリストが自動的にフィルタリングされます。
-1. （任意）ビューを使用して、表示するリクエストにフォーカスします。
-
-   手順については、[&#x200B; リクエスト領域でのビューの作成または編集 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
-1. （オプション） ステータス列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。
+   詳しくは、[ リクエスト領域でのビューの作成または編集 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+1. （オプション） **ステータス** 列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。
 
    * **ドラフト**：このリクエストはまだ送信されていません。
    * **レビュー保留中**: （計画のみ）この要求には承認者が含まれ、どの承認者も要求を開いていません。
    * **レビュー中**: （Planning のみ）この要求には承認者がいて、少なくとも 1 人の承認者が要求を開きましたが、決定は行われていません。
-   * **却下**: （Planning のみ）このリクエストには承認者がいて、却下されています。
+   * **却下**: （Planning のみ）このリクエストには承認者がいて、却下されています。 このリクエストはレコードを作成しません。
    * **処理中**:
       * Workfront リクエスト：リクエストが変換され、作業が進行中です。
       * Workfront Planning 要求：要求完了は特定の計画フィールドにマップされ、フィールド値がまだ完了値と一致していません。
 
-        詳しくは、「Adobe Workfront Planning でのリクエストフォームの作成と管理」の [&#x200B; 設定の詳細の設定 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) を参照してください。
+        詳しくは、「Adobe Workfront Planning でのリクエストフォームの作成と管理」の [ 設定の詳細の設定 ](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) を参照してください。
    * **完了**：リクエストが完了しました。
 
 >[!NOTE]
 >
->* Workfront Planning がある場合は、Workfrontと Planning のリクエストが同じリストに表示されます。 Workfront リクエストの値 `Issue` は、「オブジェクトタイプ」列に表示されます。
->* リクエスト リストが表示され、50 件のリクエストが表示されます。 その他のリクエストを表示するには、リストの下部までスクロールします。
+>* Workfront Planning がある場合は、Workfrontと Planning のリクエストが同じリストに表示されます。 Workfront リクエストには、`Issue` オブジェクトタイプ **列の値** が表示されます。
+>* デフォルトでは、最大 50 件のリクエストが「リクエスト」領域のリストに表示されます。 その他のリクエストを表示するには、リストの下部までスクロールします。
 
 ### 従来のリクエストエクスペリエンスでの送信済みリクエストの表示
 
@@ -145,7 +138,7 @@ ht-degree: 38%
    >
    >送信済みリクエストリストの列はカスタマイズできません。
 
-   ![&#x200B; 送信済み要求の新しいリスト &#x200B;](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![ 送信済み要求の新しいリスト ](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. 次の列がデフォルトで表示されます。
@@ -189,17 +182,17 @@ ht-degree: 38%
    >
    >送信済みリクエストのリストから移動したとき、選択された並べ替えオプションが保持されます。
 
-1. （オプション）リスト内のリクエストを選択し、「**概要を開く**」アイコン ![&#x200B; 概要をテキストで開く &#x200B;](assets/open-summary-with-text-nwe.png) をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメントやドキュメントを追加したり、割り当てたりします。 概要パネルについて詳しくは、[概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
+1. （オプション）リスト内のリクエストを選択し、「**概要を開く**」アイコン ![ 概要をテキストで開く ](assets/open-summary-with-text-nwe.png) をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメントやドキュメントを追加したり、割り当てたりします。 概要パネルについて詳しくは、[概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
    >[!TIP]
    >
    >概要パネルが既に開いている場合は、概要を開くアイコンが、概要を閉じるアイコンに変わります。
 
-1. （オプションおよび条件付き）右上隅の **X** アイコンまたは **概要を閉じる** アイコン ![&#x200B; 概要をテキストで閉じる &#x200B;](assets/close-summary-with-text-nwe.png) をクリックして、概要パネルを閉じます。
+1. （オプションおよび条件付き）右上隅の **X** アイコンまたは **概要を閉じる** アイコン ![ 概要をテキストで閉じる ](assets/close-summary-with-text-nwe.png) をクリックして、概要パネルを閉じます。
 
    イシューがタスクまたはプロジェクトに変換され、変換処理でイシューが削除された場合、概要パネルは空白になります。イシューの変換について詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
-1. リストの右上にある **フィルターアイコン**![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) から、次のテーブルにリストされているフィルターのいずれかを選択します。
+1. リストの右上にある **フィルターアイコン**![ フィルターアイコン ](assets/filter-nwepng.png) から、次のテーブルにリストされているフィルターのいずれかを選択します。
 
    >[!TIP]
    >
@@ -232,17 +225,19 @@ ht-degree: 38%
     </tbody> 
    </table>
 
-1. （任意）リストの上部にある **フィルターページ** アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックして、名前でリクエストを検索します。 リストは、検索条件に一致する結果で更新されます。
-
-1. （条件付き）Workfront リクエストキューのみを表示するには、`Issue` のオブジェクトタイプを検索またはフィルタリングします。</span>
-
+1. （任意）リストの上部にある **フィルターページ** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックして、名前でリクエストを検索します。 リストは、検索条件に一致する結果で更新されます。
 
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+
+   1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
+   <li> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   -->
+
+   <!--
+   <li>(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
    <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
@@ -262,19 +257,18 @@ ht-degree: 38%
 
 1. 「**ドラフト**」をクリックして、すべてのドラフトリクエストを表示します。Workfront は、このフォルダー内の各リクエストキューに対して無制限の数のドラフトを保存します。既にドラフトのあるキュートピックの新しいリクエストを入力すると、既存のドラフトを使用するように求められます。詳しくは、[ドラフトからリクエストを作成](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)を参照してください。
 
-1. （オプションおよび条件付き）Workfront Planning パッケージを購入した場合は、左側のパネルで「**Planning**」タブをクリックし、「**送信済み**」をクリックしてWorkfront Planning 要求を表示します。
+   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
+      Use **Filters** and **Columns** to update the information in the Planning request list. 
+      ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+      For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+   -->
 
-   **フィルター** および **列** を使用して、Planning 要求リスト内の情報を更新します。
 
-   ![&#x200B; 「要求」エリアで「計画」タブが送信されたセクション &#x200B;](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+1. （オプション） **ステータス** 列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。
 
-   詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
-
-
-1. （オプション） ステータス列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。
-
-   * ドラフト：このリクエストはまだ送信されていません。
-   * 進行状況
-   * 完了
+   * **ドラフト**：このリクエストはまだ送信されていません。
+   * **処理中**
+   * **完了**
 
 

@@ -6,10 +6,10 @@ description: この記事では、Adobe Workfront で目標を検索し、管理
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 74%
+source-wordcount: '376'
+ht-degree: 82%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 
@@ -39,13 +39,14 @@ ht-degree: 74%
   <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p>
+   <p>Adobe WorkfrontUltimate</p><p><b>メモ</b></p>
+<p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p>
+   <p>コントリビューター以上</p>
    <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
@@ -197,12 +198,12 @@ To access an individual goal in the Production environment:
 
 デフォルトでは、目標リストが表示されます。
 
-![&#x200B; 目標リスト &#x200B;](assets/goal-list-unshimmed.png)
+![ 目標リスト ](assets/goal-list-unshimmed.png)
 
 1. リストで目標の名前をクリックします。
 目標のページが表示されます。
-   ![&#x200B; 目標ページ &#x200B;](assets/goal-page-unshimmed.png)
-1. 目標名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックすると、目標をさらに編集または共有できます。
+   ![ 目標ページ ](assets/goal-page-unshimmed.png)
+1. 目標名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックすると、目標をさらに編集または共有できます。
 1. 左側のパネルにある「**目標の詳細**」をクリックして、目標に関する情報を編集します。詳しくは、[Adobe Workfront Goals の目標の詳細セクションで目標を更新](../goal-management/update-goals-in-goal-details-panel.md)を参照してください。
 
 

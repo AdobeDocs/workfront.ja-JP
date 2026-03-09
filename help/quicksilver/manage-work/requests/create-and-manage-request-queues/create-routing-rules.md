@@ -3,15 +3,15 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: ルーティングルールの作成
 description: ルーティングルールは、Adobe Workfrontがリクエストキューに送信される際にイシューに対して行う処理を制御します。
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 

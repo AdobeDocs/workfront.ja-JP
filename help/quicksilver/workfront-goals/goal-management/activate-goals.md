@@ -6,10 +6,10 @@ description: 目標を作成すると、Adobe Workfront Goals はそれをドラ
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 76%
+source-wordcount: '439'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 
@@ -47,7 +47,8 @@ ht-degree: 76%
   <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p>
+   <p>Adobe WorkfrontUltimate</p><p><b>メモ</b></p>
+<p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr> 
   <tr>
@@ -155,8 +156,8 @@ ht-degree: 76%
 
 1. アクティブ化する目標に移動します。目標ページが開きます。
 
-1. 目標名の右側にある **その他** メニュー ![&#x200B; その他のアイコン &#x200B;](../goal-management/assets/more-icon.png) をクリックしてから、「**アクティベート**」をクリックします。
+1. 目標名の右側にある **その他** メニュー ![ その他のアイコン ](../goal-management/assets/more-icon.png) をクリックしてから、「**アクティベート**」をクリックします。
 
-   ![&#x200B; 詳細メニューが展開されました &#x200B;](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![ 詳細メニューが展開されました ](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    目標のステータスがアクティブに変わります。目標の進捗状況をトラックできるようになり、目標はチェックインセクションに表示されるほか、Workfront 目標のグラフセクションでも考慮されるようになりました。

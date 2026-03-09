@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: キュートピックを作成
 description: キューのトピックは、ルーティングルールと連携して、作業依頼をユーザー、担当業務、チームにを自動的に割り当てたり、プロジェクトに配置したりします。キューのトピックでは、ルーティングルールを実装するために必要な条件を定義します。
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '964'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -179,7 +179,7 @@ ht-degree: 78%
 1. 左側のパネルで **キュートピック** をクリックします。
 1. 編集するキュートピックをクリックします。
 
-使用可能な編集オプションについては、この記事の [&#x200B; キュートピックの作成 &#x200B;](#create-a-queue-topic) を参照してください。
+使用可能な編集オプションについては、この記事の [ キュートピックの作成 ](#create-a-queue-topic) を参照してください。
 
 ## キュートピックの削除
 
@@ -188,5 +188,5 @@ ht-degree: 78%
 1. 削除するキュートピックを含むプロジェクトまたはテンプレートに移動します。
 1. 左側のパネルで **キュートピック** をクリックします。
 1. 削除する各キュートピックの名前の横にあるボックスをクリックします。 ボックスにチェックマークが表示されます。
-1. ページ上部の **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+1. ページ上部の **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
 
