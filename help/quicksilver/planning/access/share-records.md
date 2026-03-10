@@ -7,34 +7,40 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1886'
 ht-degree: 5%
 
 ---
-
 
 <!--update metadata with real information at release-->
 
 # レコードの共有
 
-<!--this will NOT be available in Preview ever - find a way to add this in this article that is prominent-->
+<!--
+this will NOT be available in Preview ever - find a way to add this in this article that is prominent
+-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
-
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-レコードタイプ内の個々のレコードに対するユーザーの権限を調整できます。
+Adobe Workfront Planning のレコードタイプ内の個々のレコードに対するユーザーの権限を調整できます。
+
+>[!WARNING]
+>
+>この記事で説明する情報は、プレビュー環境では使用できません。 実稼動環境でのみ、Workfront Planning のすべてのユーザーが使用できます。
 
 次の方法で Adobe Workfront Planning レコードを共有できます。
 
 * レコードへのリンクの共有。
 
-  詳しくは、「[&#x200B; リンクを使用してレコードを共有する &#x200B;](/help/quicksilver/planning/records/share-records.md)」を参照してください。
+  詳しくは、「[ リンクを使用してレコードを共有する ](/help/quicksilver/planning/records/share-records.md)」を参照してください。
 
 * ワークスペースとレコードタイプを共有することで、ワークスペース内のすべてのレコードを他のユーザーと共有します。
 
@@ -44,23 +50,24 @@ ht-degree: 5%
 
    * [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
 
-* 「**共有** オプションを使用してレコードを共有します。
+* **共有** オプションを使用して、個々のレコードを共有するか、複数のレコードを一括して共有します。
 
-  この記事では、「**共有** オプションを使用して他のユーザーとレコードを共有する方法について説明します。
+  ここでは、「**共有** オプションを使用して他のユーザーとレコードを共有する方法について説明します。
 
 >[!IMPORTANT]
 >
->ワークスペースへのアクセス権を持つユーザーには、ワークスペース内のすべてのレコードに対する少なくとも表示権限が自動的に付与されます。
->ビューを共有しても、レコードに対する権限はユーザーに付与されません。 共有ワークスペースのみが、レコードタイプとレコードに対する権限をユーザーに付与できます。
+>* ワークスペースへのアクセス権を持つユーザーには、ワークスペース内のすべてのレコードに対する少なくとも表示権限が自動的に付与されます。
+>* ビューを共有しても、レコードに対する権限はユーザーに付与されません。 共有ワークスペースのみが、レコードタイプとレコードに対する権限をユーザーに付与できます。
 >
->Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
-
+>Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
+<!--
+at GA, check that the Workfront plans article linked below has Planning info
+-->
 
 <table style="table-layout:auto"> 
 <col> 
@@ -106,19 +113,20 @@ ht-degree: 5%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
 ## レコードを共有する際の考慮事項
 
-<!--maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information-->
+<!--
+maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information
+-->
 
 <!--checking on the below with Lilit-->
 
 * 人物、グループ、チーム、会社、担当業務のエンティティとレコードを共有できます。
-* レコードを共有すると、そのレコードがシステム内に表示されるすべての場所でユーザーは同じアクセス権を持ちます。
-* レコードに対する権限を制限すると、そのレコードが追加されているシステム内のどこにも、そのレコードとその参照フィールドの値が表示されなくなります。
+* レコードに対するアクセス許可を制限すると、そのレコードと、そのレコードのルックアップ フィールドの値が、そのレコードが表示されるシステム内の任意の場所に表示されなくなります。
 * Workfrontは、最大 5 件のレコードの深い接続でレコードの権限を確認し、共有されているレコードのみを表示できるようにします。
 * レコードに付与できる権限レベルは次のとおりです。
 
@@ -140,7 +148,6 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      >
      >レコード タイプまたはレコードに対する **ワークスペース内の全員に表示権限** を付与すると、継承された権限が無効になっている場合でも、ワークスペース権限の共有リストに表示されるすべてのユーザーは、レコード タイプとレコードに対して同じ権限を持ちます。
 
-
 * ユーザーとレコードを共有すると、デフォルトでは、レコードタイプに対する権限と同じ権限で追加されます。
 
   例：
@@ -148,13 +155,24 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * レコードタイプに対する表示権限を持っている場合、レコードに対する表示権限を取得します
    * レコードタイプに対する投稿権限または管理権限を持っている場合、レコードに対する管理権限を取得します
 
-* ワークスペースマネージャーは、レコードタイプまたはワークスペースに対する権限を持たないユーザーとレコードを共有できます。 この場合、追加されたエンティティの横に、ワークスペースまたはレコードタイプへのアクセス権がないことを知らせる警告が表示されます。 <!--ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too--> ユーザーをレコードに追加してレコードタイプとワークスペースにも追加するか、共有をキャンセルできます。
+* ワークスペースマネージャーは、レコードタイプまたはワークスペースに対する権限を持たないユーザーとレコードを共有できます。 この場合、追加されたエンティティの横に、ワークスペースまたはレコードタイプへのアクセス権がないことを知らせる警告が表示されます。  ユーザーをレコードに追加してレコードタイプとワークスペースにも追加するか、共有をキャンセルすることができます。
 
-* ユーザーがワークスペースおよびレコードタイプに対する管理権限または投稿権限を持ち、それらをレコード権限に追加すると、表示権限がグレー表示されます。 レコードタイプに対する権限と同じ権限がレコードに保持され、レコードに対する下位の権限を付与することはできません。<!--Lilit is checking on this, it is not working correctly-->
+<!--
+ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too
+-->
 
-  ワークスペースまたはレコードタイプに対する表示権限がある場合、レコードに対する表示権限を保持します。 継承された権限を無効にし、「招待されたユーザーのみがアクセスできる」設定を選択することで、レコードに管理権限を付与できます。<!-- I think this is right, but because of the above not working, I can't test-->
+* ユーザーがワークスペースおよびレコードタイプに対する管理権限または投稿権限を持ち、それらをレコード権限に追加すると、表示権限がグレー表示されます。 レコードタイプに対する権限と同じ権限がレコードに保持され、レコードに対する下位の権限を付与することはできません。
+<!--
+Lilit is checking on this, it is not working correctly
+-->
 
-<!-- not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.-->
+<!--
+   check on this: I cannot disable inherited permissions when this setting is ON and this documented in a TIP below: When they have View permissions to the workspace or the record type, they retain View permissions to the records. You can grant them Manage permissions to the record by disabling Inherited permissions and selecting the Only invited people can access setting.
+   -->
+
+<!-- 
+   not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.
+   -->
 
 * 1 つのレコードに対して継承された権限を無効にすることができます。この場合、個々のレコードに権限を付与したり、「**ワークスペース内の全員が表示可能**」オプションに属している場合は権限を取得したりできます。
 
@@ -162,16 +180,17 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
   例えば、レコードが表示権限を持つユーザーと共有され、そのレコードのグループが管理アクセス権を持つ場合、そのレコードに対する管理権限を取得します。
 
-<!--Too granular??
-
-If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
-
-If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions -->
+  <!--
+   Too granular??
+   If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
+   If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions 
+   -->
 
 * 連結レコードの数式フィールドまたはルックアップ フィールドが、アクセス権のないレコードのフィールドに基づいている場合、そのレコードがアクセスできない要因となっている正しい計算が表示されます。
 
-<!-- not sure if any of the Share record types points might match here - ask Lilit??-->
-
+  <!--
+   not sure if any of the Share record types points might match here - ask Lilit??
+   -->
 
 ## レコードの共有権限
 
@@ -184,13 +203,13 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
 1. 次のいずれかの操作を行います。
 
-   * テーブル表示で、レコード名の上にマウスポインターを置き、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから **共有** をクリックします。
+   * テーブル表示で、レコード名の上にマウスポインターを置き、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから **共有** をクリックします。
    * テーブル表示でレコードを選択し、リスト下部の青いツールバー上の **共有** をクリックします。
    * 任意の表示で、レコードの名前をクリックし、レコードの詳細ページの右上隅にある **共有** をクリックします。
 
    **共有** ボックスが開きます。
 
-   ![&#x200B; 権限が継承されたレコードの権限 &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![ 権限が継承されたレコードの権限 ](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. （オプション） **アクセスできるユーザー** 領域では、「**ワークスペースのすべてのユーザーが表示** オプションがデフォルトで選択されています。  ワークスペースおよびレコードタイプに対する **表示** 以上の権限を持つすべてのユーザーは、レコードに対する同じ権限を持ちます。
 
@@ -208,7 +227,12 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
    >
    >Workspace管理者には、引き続きレコードタイプとレコードに対する管理権限があります。
 
-   1. （オプション） **アクセス権限を持つユーザー** エリアから **招待されたユーザーのみがアクセス** を選択します。
+   1. （オプション） **アクセス権限を持つユーザー** エリアから **招待されたユーザーのみがアクセス** を選択します。 レコードを共有する個々のユーザー、グループ、チームまたは会社を指定する必要があります。
+
+      >[!TIP]
+      >
+      >この設定が選択されている場合、継承された権限を無効または有効にすることはできません。
+
 
    1. 「**このレコードタイプへのアクセスを許可**」フィールドで、ワークスペースまたはレコードタイプに付与される権限レベルとは異なる権限レベルを付与するユーザー、チーム、グループ、会社または担当業務を追加します。
    1. 次のいずれかのアクセス許可レベルを選択します。
@@ -220,7 +244,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    >[!IMPORTANT]
    >
-   >* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+   >* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
    >* ワークスペースおよびレコードタイプに対する投稿権限または管理権限を持つユーザーは、レコードに対する管理権限を保持します。 表示権限は淡色表示されます。<!--this is not dimmed at this time, Lilit to check-->
    >* ユーザーがレコードタイプに対して投稿以上を持っている場合、ユーザーにそのレコードに対するより小さな権限を付与することはできません。
    > 詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
@@ -245,7 +269,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
    詳しくは、[Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md) を参照してください。
 
-1. コピーしたリンクを他のユーザーと共有します。リンクを受け取るユーザーは、アクティブユーザーで、レコードタイプページにアクセスして選択したビューに表示できるようにするには、Workfrontにログインする必要があります。 表示するには、そのレコードタイプに対する権限が必要です。 詳しくは、「[&#x200B; リンクを使用してレコードを共有する &#x200B;](/help/quicksilver/planning/records/share-records.md)」も参照してください。
+1. コピーしたリンクを他のユーザーと共有します。リンクを受け取るユーザーは、アクティブユーザーで、レコードタイプページにアクセスして選択したビューに表示できるようにするには、Workfrontにログインする必要があります。 表示するには、そのレコードタイプに対する権限が必要です。 詳しくは、「[ リンクを使用してレコードを共有する ](/help/quicksilver/planning/records/share-records.md)」も参照してください。
 
 ## レコードに対する権限の削除
 
@@ -256,14 +280,14 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 1. レコードの共有を停止するワークスペースを開き、レコードの種類のカードをクリックします。 レコードタイプページが開きます。
 1. 次のいずれかの操作を行います。
 
-   * テーブル表示で、レコード名の上にマウスポインターを置き、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから **共有** をクリックします。
+   * テーブル表示で、レコード名の上にマウスポインターを置き、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから **共有** をクリックします。
    * テーブル表示でレコードを選択し、リスト下部の青いツールバー上の **共有** をクリックします。
    * 任意の表示で、レコードの名前をクリックし、レコードの詳細ページの右上隅にある **共有** をクリックします。
 
    **共有** ボックスが開きます。
 1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、名前の右側にある権限ドロップダウンメニューを展開して、「**削除**」をクリックします。<!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![&#x200B; レコードに対する権限の削除 &#x200B;](assets/remove-option-on-record-sharing-drop-down.png)
+   ![ レコードに対する権限の削除 ](assets/remove-option-on-record-sharing-drop-down.png)
 
 1. 「**保存**」をクリックします。
 
