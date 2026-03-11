@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 8bcea5cec9f68deacc5f89ca7703303a1b00769f
+source-git-commit: 995de2bc4ea3284d9411b0e9f624cb7611774b95
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 29%
+source-wordcount: '66'
+ht-degree: 53%
 
 ---
 
@@ -42,21 +42,25 @@ For more information, see [Create a document approval workflow](/help/quicksilve
 
 -->
 
-## 複数ステージ承認ワークフローテンプレートの設定と使用
+<!--
+
+## Set up and use multi-stage approval workflow templates
 
 >[!NOTE]
 >
->プレビュー：2026 年 2 月 26 日（PT）
->実稼動（迅速リリース）：2026年3月12日（PT）
->実稼動（全ユーザー）：2026年4月16日（PT）
+>Preview: February 26, 2026
+>Production fast release: March 12, 2026
+>Production for everyone: April 16, 2026
 
-複数ステージの承認ワークフローテンプレートを設定して再利用できるようになりました。これにより、繰り返し可能な承認ワークフロー全体で一貫したガバナンスを簡単に適用できます。
+You can now configure and reuse multi-stage approval workflow templates, making it easier to apply consistent governance across repeatable approval workflows. 
 
-承認ワークフローテンプレートを使用すると、次のことができます。
+With approval workflow templates, you can: 
 
-* 一意の参加者と期限で順次承認ステージを作成する
-* 承認開始時の手動セットアップ時間の短縮
-* 必要な関係者が適切な段階で関与していることを確認
+* Create sequential approval stages with unique participants and deadlines
+* Reduce manual setup time during approval initiation
+* Ensure required stakeholders are engaged at the right stage
 
-詳しくは、[&#x200B; ドキュメント用の承認ワークフローテンプレートの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
+For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
+
+-->
