@@ -6,27 +6,25 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 12%
+source-wordcount: '887'
+ht-degree: 14%
 
 ---
 
 
 # CSV または Excel ファイルから情報を読み込んで、レコードを作成
 
-<!--
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
 レコードは、レコードタイプの個々のインスタンスであり、Adobe Workfront Planning のオブジェクトタイプです。 Workfront Planning では、CSV または Excel ファイルから情報をインポートしてレコードを作成できます。
 
-レコードの作成について詳しくは、「[&#x200B; レコードの作成 &#x200B;](/help/quicksilver/planning/records/create-records.md)」を参照してください。
+レコードの作成について詳しくは、「[ レコードの作成 ](/help/quicksilver/planning/records/create-records.md)」を参照してください。
 
 ## アクセス要件
 
@@ -62,7 +60,7 @@ ht-degree: 12%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++  
 
@@ -147,7 +145,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * 最終変更日、最終変更者
    * 承認日、承認者
    * ユーザー
-     <!--* <span class="preview">Record ID</span>-->
+   * <span class="preview"> レコード ID</span>
    * 複数選択または単一選択のフィールドがインポートされ、Planning の類似のフィールドより多くの選択肢がある場合、インポート中に追加のオプションが作成されます。 ワークスペースに対する管理権限を持つユーザーのみが、新しい選択肢を読み込むことができます。
 
 ## CSV または Excel ファイルの読み込みによるレコードの作成
@@ -162,22 +160,22 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. レコードをインポートするレコードの種類のカードをクリックします。
 1. 画面の右上隅にある「**新規レコード**」をクリックします。
 
-   ![&#x200B; レコードを追加する方法を選択する 3 ボタン ボックス &#x200B;](assets/choose-way-to-add-records-three-button-box.png)
+   ![ レコードを追加する方法を選択する 3 ボタン ボックス ](assets/choose-way-to-add-records-three-button-box.png)
 1. **ファイルからアップロード** をクリックし、**続行** をクリックします。<!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. コンピューターに保存済みの Excel ファイルまたは CSV ファイルをドラッグアンドドロップするか、「**CSV ファイルまたは Excel ファイルを選択**」をクリックして参照します。
 1. **プレビューと編集** をクリックします。
 1. （条件付き）読み込まれたファイルに複数のシートがある場合は、読み込むシートのラジオボタンを **読み込むシートを選択** ボックスで選択し、**次へ** をクリックします。 それ以外の場合は、次の手順に進みます。
 
-   ![&#x200B; レコードをインポートするシートを選択 &#x200B;](assets/select-a-sheet-to-import-box.png)
+   ![ レコードをインポートするシートを選択 ](assets/select-a-sheet-to-import-box.png)
 1. **計画フィールドを列ヘッダーにマッピングする** で、シートの各列の情報に最も一致する **計画フィールド** を選択します。
 
-   ![&#x200B; レコードをインポートする際の計画フィールドの列へのマッピング &#x200B;](assets/map-planning-fields-to-columns-when-importing-records.png)
+   ![ レコードをインポートする際の計画フィールドの列へのマッピング ](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    各行は新しいレコードを表します。「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
 
    >[!TIP]
    >
-   >すべてのフィールドタイプがサポートされているわけではありません。 詳しくは、この記事の「[Excel ファイルまたは CSV ファイルを使用したレコードの読み込みに関する考慮事項 &#x200B;](#considerations-about-importing-records-using-an-excel-or-csv-file) を参照してください。
+   >すべてのフィールドタイプがサポートされているわけではありません。 詳しくは、この記事の「[Excel ファイルまたは CSV ファイルを使用したレコードの読み込みに関する考慮事項 ](#considerations-about-importing-records-using-an-excel-or-csv-file) を参照してください。
 
 
 1. （オプションおよび条件付き）ワークスペースに対する管理権限がある場合は、画面の左下隅にある **欠落しているオプションを作成** を選択します。 有効にすると、単一選択フィールドと複数選択フィールドの欠落している選択肢が追加されます。

@@ -6,15 +6,15 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 25%
+ht-degree: 30%
 
 ---
 
 
-# Adobe Workfront Planning のアクセスの概要
+# Adobe Workfront Planning へのアクセスの概要
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
@@ -24,13 +24,13 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->この記事では、Adobe Workfrontの追加機能であるAdobe Workfront Planning について説明します。
+>この記事の情報は、Adobe Workfront の追加機能である Adobe Workfront Planning に関するものです。
 >
 >Workfront Planning が機能にアクセスするには、会社がパッケージを追加購入する必要があります。
 >
 >詳しくは、アカウントマネージャーにお問い合わせください
 >
->Adobe Workfront Planning の詳細については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Workfront Planning について詳しくは、[Adobe Workfront Planning の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 
 Adobe Workfront Planning を使用するには、ライセンスと共有権限の制約があります。
 
@@ -143,7 +143,7 @@ Workfront インスタンスのユーザーからWorkfront Planning エリアを
 
 1. **メインメニュー**/**設定**/**インターフェイス**/**レイアウトテンプレート** に移動して、レイアウトテンプレートを開くか作成します。
 
-   レイアウトテンプレートのカスタマイズについて詳しくは、[&#x200B; レイアウトテンプレートの作成と管理 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
+   レイアウトテンプレートのカスタマイズについて詳しくは、[ レイアウトテンプレートの作成と管理 ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
 
 1. Workfront Planning へのアクセス権を付与するユーザーにレイアウトテンプレートを割り当てます。
 
@@ -157,7 +157,7 @@ Workfront インスタンスのユーザーからWorkfront Planning エリアを
 
 ユーザーの編集または作成時にアクセスレベルを設定する際に、ユーザーにライセンスを割り当てることができます。
 
-詳しくは、[&#x200B; ユーザープロファイルの編集 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
+詳しくは、[ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 ## アクセスレベルを設定
 
