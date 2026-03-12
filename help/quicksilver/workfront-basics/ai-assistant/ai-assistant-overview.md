@@ -5,10 +5,10 @@ description: Adobe Workfront の AI アシスタントについて
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 2619aa432a8c0b12d0d910df8eb05447fa50f387
+source-git-commit: 418ea6e9728cb0e8d178fa201ece35328547eedb
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 99%
+source-wordcount: '856'
+ht-degree: 97%
 
 ---
 
@@ -140,7 +140,8 @@ Adobe 生成 AI 契約をリクエストするには：
 
    >[!NOTE]
    >
-   >署名済み契約書を返送後、アドビが内容を確認し、AI アシスタントを有効にするまで 1～3 営業日かかります。
+   >* 署名済み契約書を返送後、アドビが内容を確認し、AI アシスタントを有効にするまで 1～3 営業日かかります。
+   >* 有効にした後、組織のインスタンスで使用できる AI アシスタントのオプションが表示されない場合は、Workfront カスタマーサポートにお問い合わせください。
 
 ## AI アシスタントでプロンプトを作成する際のヒント
 
