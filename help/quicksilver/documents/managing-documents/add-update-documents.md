@@ -56,14 +56,14 @@ ht-degree: 68%
 
 ## 「レガシーのドキュメント」領域でドキュメントに更新を追加
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[ 従来のWorkfront ストレージとAdobe エンタープライズストレージの違い ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[&#x200B; 従来のWorkfront ストレージとAdobe エンタープライズストレージの違い &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 ### ドキュメントの更新を追加または返信
 
 1. ドキュメントを含むオブジェクトに移動し、左パネルの「**ドキュメント**」を選択します。
 1. 必要なドキュメントを検索し、次のいずれかの操作を行います。
 
-   * リストのドキュメントをクリックし、右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-summary-in-new-toolbar-small.png) をクリックして新しいコメントを追加するか、**返信** をクリックして既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
+   * リストのドキュメントをクリックし、右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-summary-in-new-toolbar-small.png) をクリックして新しいコメントを追加するか、**返信** をクリックして既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
    * ドキュメントの上にマウスポインタを合わせて、**ドキュメントの詳細**&#x200B;をクリックし、左パネルの「**更新**」をクリックします。
 オブジェクトへの更新の追加について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
@@ -83,9 +83,9 @@ ht-degree: 68%
 
 ## 「新規ドキュメント」領域でドキュメントに更新を追加
 
-エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 1. ドキュメントを含むオブジェクトに移動し、左パネルの「**ドキュメント**」を選択します。
-1. 必要なドキュメントを見つけ、コメントアイコン ![ コメントアイコン ](assets/new-doc-comment-icon.png) をクリックして、コメントパネルを開きます。
+1. 必要なドキュメントを見つけ、コメントアイコン ![&#x200B; コメントアイコン &#x200B;](assets/new-doc-comment-icon.png) をクリックして、コメントパネルを開きます。
 1. テキストボックスにコメントを入力し、「**送信**」をクリックします。
-   ![ 新規ドキュメントコメントパネル ](assets/comments-new-doc.png)
+   ![&#x200B; 新規ドキュメントコメントパネル &#x200B;](assets/comments-new-doc.png)

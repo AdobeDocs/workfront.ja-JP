@@ -52,7 +52,7 @@ ht-degree: 40%
 
 ## 従来のドキュメント領域でのドキュメントのプレビュー
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[ 従来のWorkfront ストレージとAdobe エンタープライズストレージの違い ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[&#x200B; 従来のWorkfront ストレージとAdobe エンタープライズストレージの違い &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 ドキュメントをプレビューするには：
 
@@ -74,7 +74,7 @@ ht-degree: 40%
 
 ## 新しいドキュメント領域でのドキュメントのプレビュー
 
-エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 一部のファイル形式はプレビューできません。
 
@@ -152,6 +152,6 @@ ht-degree: 40%
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、左パネルで **ドキュメント** を選択します。
 1. 必要なドキュメントを見つけ、ドキュメント名をクリックします。
-   ![ ドキュメントのプレビュー ](assets/preview-new-doc.png)
+   ![&#x200B; ドキュメントのプレビュー &#x200B;](assets/preview-new-doc.png)
 
 

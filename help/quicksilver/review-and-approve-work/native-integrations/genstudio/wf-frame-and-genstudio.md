@@ -90,13 +90,13 @@ You must be a system administrator to enable this integration.
 
 1 人または 2 人のレビュー担当者に対して単純な単一ステージテンプレートを作成することも、多数のステージと依存関係を持つ複雑なレビュー用に複数ステージテンプレートを作成することもできます。
 
-Workfrontで承認ワークフローテンプレートを作成する方法については、「[ ドキュメント用の承認ワークフローテンプレートの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)」を参照してください。
+Workfrontで承認ワークフローテンプレートを作成する方法については、「[&#x200B; ドキュメント用の承認ワークフローテンプレートの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)」を参照してください。
 
 ### GenStudio for Performance Marketingのテンプレートを選択または変更
 
 GenStudio for Performance Marketingでレビューを開始する際には、必要なテンプレートを選択するだけです。 ユーザーは、任意の統合承認承認ワークフローテンプレートを簡単に変更し、いつでもレビュー担当者とステージを追加または削除できます。
 
-詳しくは、[ レビューと承認をリクエスト ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review) を参照してください。
+詳しくは、[&#x200B; レビューと承認をリクエスト &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review) を参照してください。
 
 ## Frame.io ビューアでのGenStudio for Performance Marketing ドラフトコンテンツのレビューと承認
 
@@ -108,11 +108,11 @@ Frame.io ビューアを使用すると、次のことができます
 * ドラフトをマークアップして、変更が必要なものを表示します
 * 決定を下す
 
-Frame.io ビューアの使用について詳しくは、[ メディアへのコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media) を参照してください。
+Frame.io ビューアの使用について詳しくは、[&#x200B; メディアへのコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media) を参照してください。
 
 
 ## 最終承認および公開用にGenStudio for Performance Marketingでレビューの決定を表示する
 
 アセットのレビューと承認が完了したら、レビューの決定を確認し、GenStudio for Performance Marketingから直接コンテンツを公開できます。
 
-詳しくは、「[ 承認されたコンテンツの公開 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)」を参照してください。
+詳しくは、「[&#x200B; 承認されたコンテンツの公開 &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)」を参照してください。

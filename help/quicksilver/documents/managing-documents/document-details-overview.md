@@ -20,7 +20,7 @@ ht-degree: 29%
 
 ## レガシ ドキュメント エリア
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[ 従来のWorkfront ストレージとAdobe エンタープライズストレージの違い ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[&#x200B; 従来のWorkfront ストレージとAdobe エンタープライズストレージの違い &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 
 
@@ -35,7 +35,7 @@ ht-degree: 29%
 * ドキュメントの説明を編集
 * ドキュメントをチェックイン／チェックアウト
 
-さらに、ドキュメント名の横にある「その他」アイコン ![ その他メニュー ](assets/more-icon.png) を使用して、次のアクションを実行できます。
+さらに、ドキュメント名の横にある「その他」アイコン ![&#x200B; その他メニュー &#x200B;](assets/more-icon.png) を使用して、次のアクションを実行できます。
 
 * 共有
 * 移動
@@ -55,7 +55,7 @@ ht-degree: 29%
 
   Workfront Proof でプルーフカスタムフィールドを設定する必要があります。詳しくは、[Workfront Proof でのカスタムフィールドの作成と管理](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)を参照してください。
 
-![ ドキュメントの詳細 ](assets/doc-details-full-legacy.png)
+![&#x200B; ドキュメントの詳細 &#x200B;](assets/doc-details-full-legacy.png)
 
 ### 従来のドキュメント エリアでドキュメントの詳細ページを開きます
 
@@ -63,12 +63,12 @@ ht-degree: 29%
 
 1. ドキュメントにポインタを合わせ、「**ドキュメントの詳細**」をクリックします。
 
-   ![ ドキュメントの詳細 ](assets/doc-details-legacy.png)
+   ![&#x200B; ドキュメントの詳細 &#x200B;](assets/doc-details-legacy.png)
 
 
 ## 新規ドキュメント領域
 
-エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 ドキュメントの詳細ページで、ドキュメントに対して次のアクションを実行できます。
 
@@ -91,7 +91,7 @@ ht-degree: 29%
 </tr>
 </table>
 
-![ ドキュメントの詳細のメニューアイコン ](assets/more-menu-new-doc.png)
+![&#x200B; ドキュメントの詳細のメニューアイコン &#x200B;](assets/more-menu-new-doc.png)
 
 
 ### 新しいドキュメント エリアでドキュメントの詳細パネルを開きます
@@ -99,4 +99,4 @@ ht-degree: 29%
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、左パネルで **ドキュメント** を選択します。
 1. ドキュメントを選択し、「**詳細を表示**」をクリックします。
 
-   ![ ドキュメントの詳細 ](assets/doc-details.png)
+   ![&#x200B; ドキュメントの詳細 &#x200B;](assets/doc-details.png)

@@ -61,7 +61,7 @@ ht-degree: 41%
 
 ## 従来のドキュメントエクスペリエンスでのドキュメントの概要
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[ 従来のWorkfront ストレージとAdobe エンタープライズストレージの違い ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[&#x200B; 従来のWorkfront ストレージとAdobe エンタープライズストレージの違い &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 ### 従来のドキュメントエクスペリエンスで概要ビューを開く
 
@@ -69,9 +69,9 @@ ht-degree: 41%
 
 1. **ドキュメント** ページで、リスト内のドキュメントを選択します。
 
-1. ページの右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
+1. ページの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-summary-in-new-toolbar-small.png) をクリックします。 **ドキュメントの概要** サイドパネルが開きます。
 
-   ![ 概要の詳細 ](assets/document-summary-panel.png)
+   ![&#x200B; 概要の詳細 &#x200B;](assets/document-summary-panel.png)
 
    概要を開いた後は、手動で閉じるまで、このページで開いたままになります（他のドキュメントをクリックした場合でも）。
 
@@ -87,13 +87,13 @@ ht-degree: 41%
 
 「概要」セクションを展開すると、画像サムネールの表示やダウンロード、プルーフの開き、基本的な説明の更新、ドキュメントのチェックアウトなどを行うことができます。
 
-![ ドキュメントの概要 ](assets/details-section.png)
+![&#x200B; ドキュメントの概要 &#x200B;](assets/details-section.png)
 
 #### カスタムフォーム {#custom-forms}
 
 「カスタムフォーム」セクションでは、ドキュメントに関連付けられたカスタムフォームを追加、編集、表示できます。カスタムフォームの名前を入力し、ドキュメントに追加します。詳しくは、[ドキュメントへのカスタムフォームの追加または編集](../../documents/managing-documents/add-custom-form-documents.md)を参照してください。
 
-![ ドキュメントの概要へのカスタムフォームの追加 ](assets/custom-forms-section.png)
+![&#x200B; ドキュメントの概要へのカスタムフォームの追加 &#x200B;](assets/custom-forms-section.png)
 
 ### 更新
 
@@ -110,11 +110,11 @@ ht-degree: 41%
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [ドキュメント承認のリクエスト](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![ ドキュメントの概要承認 ](assets/approvals-section.png)
+![&#x200B; ドキュメントの概要承認 &#x200B;](assets/approvals-section.png)
 
 ### バージョン
 
-「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。その他アイコン ![ その他アイコン ](assets/more-icon.png) をクリックすると、次の操作を実行できます。
+「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。その他アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックすると、次の操作を実行できます。
 
 * プルーフを開きます。
 * プルーフまたはドキュメントをダウンロードします。
@@ -122,17 +122,17 @@ ht-degree: 41%
 * ドキュメントの詳細に移動します。
 * プルーフまたはドキュメントの削除。
 
-![ ドキュメント概要のバージョン ](assets/versions-section.png)
+![&#x200B; ドキュメント概要のバージョン &#x200B;](assets/versions-section.png)
 
 ## 新しいドキュメントエクスペリエンスのドキュメントの概要
 
-エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 ### 詳細
 
 「詳細」セクションを使用して、概要レベルの情報を表示し、カスタムフォームを操作します。
 
-![ 新しいドキュメントエクスペリエンスのドキュメント概要の詳細 ](assets/summary-details.png)
+![&#x200B; 新しいドキュメントエクスペリエンスのドキュメント概要の詳細 &#x200B;](assets/summary-details.png)
 
 ### 承認
 
@@ -141,9 +141,9 @@ ht-degree: 41%
 承認と Frame.io の詳細については、を参照してください。
 
 * [Frame.io の統合の基本を学ぶ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
-* [ ドキュメントレビューまたは承認リクエストの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+* [&#x200B; ドキュメントレビューまたは承認リクエストの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
-![ 新しいドキュメントエクスペリエンスでのドキュメントの概要の承認 ](assets/summary-approvals.png)
+![&#x200B; 新しいドキュメントエクスペリエンスでのドキュメントの概要の承認 &#x200B;](assets/summary-approvals.png)
 
 
 <!-- resubmit the approval and cancel the previous decision, or delete the approval. Document approvers can use the Summary to make a decision.-->
@@ -161,10 +161,10 @@ ht-degree: 41%
 * バージョンの共有
 * バージョンの削除
 
-![ 新しいドキュメントエクスペリエンスのドキュメント概要バージョン ](assets/summary-versions.png)
+![&#x200B; 新しいドキュメントエクスペリエンスのドキュメント概要バージョン &#x200B;](assets/summary-versions.png)
 
 ### 履歴
 
 「履歴」セクションを使用すると、ドキュメントに関連するすべてのアクティビティのリストを表示できます。
 
-![ 新しいドキュメントエクスペリエンスのドキュメント概要履歴 ](assets/summary-history.png)
+![&#x200B; 新しいドキュメントエクスペリエンスのドキュメント概要履歴 &#x200B;](assets/summary-history.png)

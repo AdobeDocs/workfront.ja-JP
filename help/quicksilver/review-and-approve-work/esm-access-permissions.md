@@ -39,7 +39,7 @@ Workfrontのアクセスレベルは、Workfront内でのみ適用されます�
 
 Workfront環境でAdobe エンタープライズストレージを有効にしている場合は、Adobe エンタープライズストレージプロジェクトと従来のWorkfront ストレージプロジェクトの両方を作成できます。 従来のWorkfront ストレージプロジェクトでは、Workfrontで表示されるプロジェクト名の横にアイコンが表示されます。 Adobe エンタープライズストレージプロジェクトにアイコンが表示されない。
 
-![ プロジェクト名の横にある従来の workfront ストレージアイコン ](assets/legacy-project-icon.png)
+![&#x200B; プロジェクト名の横にある従来の workfront ストレージアイコン &#x200B;](assets/legacy-project-icon.png)
 
 
 ### Adobe エンタープライズストレージのみを使用する環境

@@ -83,7 +83,7 @@ ht-degree: 25%
 
 ## レガシードキュメント領域のプレビュー環境のドキュメントの概要から、追加の承認者またはレビュー担当者を追加します
 
-組織がWorkfront ストレージ上にある場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージの比較 ](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage) を参照してください。
+組織がWorkfront ストレージ上にある場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージの比較 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage) を参照してください。
 
 ドキュメントの概要から追加の承認者またはレビュー担当者を追加するには：
 
@@ -95,13 +95,13 @@ ht-degree: 25%
 
 1. 「**承認**」セクションまでスクロールし、「**ワークフローを編集**」をクリックします。
 
-   ![ 承認ワークフローを編集 ](assets/edit-approval-in-legacy.png)
+   ![&#x200B; 承認ワークフローを編集 &#x200B;](assets/edit-approval-in-legacy.png)
 
 1. 承認者またはレビュー担当者を追加するステージを見つけ、テキストボックスにユーザーの名前またはメールを追加します。 必要に応じて、チーム全体を追加することもできます。
 
 1. 名前を追加したら、承認者かレビュアーかを選択します。
 
-   ![ 承認者またはレビュアードロップダウン ](assets/choose-approver-or-reviewer.png)
+   ![&#x200B; 承認者またはレビュアードロップダウン &#x200B;](assets/choose-approver-or-reviewer.png)
 
 1. 手順 5～6 を繰り返して、承認者またはレビュー担当者を追加します。
 保存すると、追加された参加者には、ドキュメントで承認またはレビューが必要であることを通知するメール通知が届きます。
@@ -111,14 +111,14 @@ ht-degree: 25%
 
 ## 新しいドキュメント領域のドキュメントの概要からさらに承認者またはレビュー担当者を追加します
 
-エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[ エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[&#x200B; エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、左パネルで **ドキュメント** を選択します。
 
 1. ドキュメントをクリックしてから、ページの右側にある **承認** アイコンをクリックします。
 
-   ![ ドキュメントの概要に承認者を追加 ](assets/approvals-icon-new.png)
+   ![&#x200B; ドキュメントの概要に承認者を追加 &#x200B;](assets/approvals-icon-new.png)
 
 
 1. **ワークフローを編集** をクリックします。
@@ -127,7 +127,7 @@ ht-degree: 25%
 
 1. 名前を追加したら、承認者かレビュアーかを選択します。
 
-   ![ 承認者またはレビュアードロップダウン ](assets/choose-approver-or-reviewer.png)
+   ![&#x200B; 承認者またはレビュアードロップダウン &#x200B;](assets/choose-approver-or-reviewer.png)
 
 1. 手順 5～6 を繰り返して、承認者またはレビュー担当者を追加します。
 保存すると、追加された参加者には、ドキュメントで承認またはレビューが必要であることを通知するメール通知が届きます。

@@ -15,7 +15,7 @@ ht-degree: 31%
 
 # ドキュメントフォルダーを作成
 
-ドキュメントをフォルダーに整理できます。Workfrontには現在、ドキュメント エリアの 2 つのバージョン（従来のドキュメント エリアと新しいドキュメント エリア）があります。 使用するバージョンは、組織が従来のWorkfront ストレージとエンタープライズストレージのどちらに属しているかによって異なります。 これらのストレージタイプについて詳しくは、[Adobe エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+ドキュメントをフォルダーに整理できます。Workfrontには現在、ドキュメント エリアの 2 つのバージョン（従来のドキュメント エリアと新しいドキュメント エリア）があります。 使用するバージョンは、組織が従来のWorkfront ストレージとエンタープライズストレージのどちらに属しているかによって異なります。 これらのストレージタイプについて詳しくは、[Adobe エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 ## アクセス要件
 
@@ -48,7 +48,7 @@ ht-degree: 31%
 
 ## 従来のドキュメント領域でのドキュメントフォルダーの作成
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[Adobe エンタープライズストレージと従来のWorkfront ストレージの違い ](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage) を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[Adobe エンタープライズストレージと従来のWorkfront ストレージの違い &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage) を参照してください。
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 
 1. 右側のパネルの上にある表示オプションをクリックして、ドキュメントの表示方法を変更します。
 
-   ![ ドキュメント表示オプション ](assets/screenshot-2016-07-07-12.46.54.png)
+   ![&#x200B; ドキュメント表示オプション &#x200B;](assets/screenshot-2016-07-07-12.46.54.png)
 
 ### フォルダーとサブフォルダーの作成
 
@@ -90,21 +90,21 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 
 ## 新規ドキュメントエリアでのドキュメントフォルダーの作成
 
-エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 ### システム生成フォルダー
 
 ドキュメントをタスクまたは問題にアップロードすると、Workfrontによってそのタスクまたは問題の名前が付いたシステム生成フォルダーが自動的に作成されます。 このフォルダーはタスクまたは問題にリンクされ、権限を継承します。 システム生成フォルダーは、プロジェクトレベルのドキュメント領域に表示されます。
 
-フォルダー権限について詳しくは、「ドキュメント権限の仕組み [ を参照してください ](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)。
+フォルダー権限について詳しくは、「ドキュメント権限の仕組み [&#x200B; を参照してください &#x200B;](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)。
 
 ### サブフォルダーの作成
 
 システムで生成されたフォルダー内にサブフォルダーを作成して、ドキュメントをさらに整理できます。 すべてのサブフォルダーは親フォルダーから権限を継承します。
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、左パネルで **ドキュメント** を選択します。
-1. サブフォルダーを作成するフォルダーをクリックし、「**フォルダーを追加**![ フォルダーアイコンを追加 ](assets/add-folder-icon.png) アイコンをクリックします。
-   ![ サブフォルダーを追加 ](assets/add-subfolder.png)
+1. サブフォルダーを作成するフォルダーをクリックし、「**フォルダーを追加**![&#x200B; フォルダーアイコンを追加 &#x200B;](assets/add-folder-icon.png) アイコンをクリックします。
+   ![&#x200B; サブフォルダーを追加 &#x200B;](assets/add-subfolder.png)
 1. サブフォルダーの名前を入力し、「**作成**」をクリックします。
 
 ### フォルダー名の変更
@@ -114,10 +114,10 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 フォルダーの名前を変更するには：
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、左パネルで **ドキュメント** を選択します。
-1. 名前を変更するフォルダーを見つけて、「**その他**![ アイコン ](assets/more-icon.png) アイコンをクリックします。
+1. 名前を変更するフォルダーを見つけて、「**その他**![&#x200B; アイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
 1. **名前を変更** をクリックして、フォルダーの新しい名前を入力します。
 
-   ![ フォルダー名を変更 ](assets/rename-folder.png)
+   ![&#x200B; フォルダー名を変更 &#x200B;](assets/rename-folder.png)
 
 1. **名前変更** をクリックします。
 
@@ -133,11 +133,11 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 フォルダーを移動するには：
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、左パネルで **ドキュメント** を選択します。
-1. 移動するフォルダーを見つけ、**その他** ![ アイコン ](assets/more-icon.png) アイコンをクリックします。
+1. 移動するフォルダーを見つけ、**その他** ![&#x200B; アイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
 1. 「**移動**」をクリックして、フォルダーの移動先のプロジェクト、タスクまたはイシューを選択します。
 
 
-   ![ フォルダーを移動 ](assets/rename-folder.png)
+   ![&#x200B; フォルダーを移動 &#x200B;](assets/rename-folder.png)
 
 <!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new documents area -->
 
@@ -146,7 +146,7 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 フォルダーを削除するには：
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、左パネルで **ドキュメント** を選択します。
-1. 削除するフォルダーを見つけ、**その他** ![ アイコン ](assets/more-icon.png) アイコンをクリックします。
+1. 削除するフォルダーを見つけ、**その他** ![&#x200B; アイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
 1. 「**削除**」をクリックします。
 
-   ![ フォルダーを削除 ](assets/rename-folder.png)
+   ![&#x200B; フォルダーを削除 &#x200B;](assets/rename-folder.png)

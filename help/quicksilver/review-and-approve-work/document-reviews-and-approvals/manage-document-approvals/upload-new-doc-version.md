@@ -79,7 +79,7 @@ ht-degree: 15%
 1. 新しいファイルを前のドキュメントの上にドラッグ&amp;ドロップします。 これにより、新しいバージョンが自動的に作成されます。
 
 1. ドキュメントのアップロードが完了したら、ドキュメントを選択し、「**ドキュメントの詳細**」をクリックします。
-   ![ ドキュメントの詳細ページを開く ](assets/open-doc-details.png)
+   ![&#x200B; ドキュメントの詳細ページを開く &#x200B;](assets/open-doc-details.png)
 
 
 1. 左側のパネルで「**承認**」をクリックし、「**追加**」をクリックします。
@@ -91,14 +91,14 @@ ht-degree: 15%
 
    >[!TIP]
    >
-   >   Standard ライセンスを持つユーザーは、設定領域から再利用可能な承認テンプレートを作成できます。 詳しくは、[ ドキュメント用の承認ワークフローテンプレートの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
+   >   Standard ライセンスを持つユーザーは、設定領域から再利用可能な承認テンプレートを作成できます。 詳しくは、[&#x200B; ドキュメント用の承認ワークフローテンプレートの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
 
 
 1. （任意）承認の期限を設定します。 ユーザーとチームには、指定した期限の 72 時間前と 24 時間前にメールで通知が届きます。
 
 1. すべてのレビュー担当者と承認者を追加したら、「**リクエストを送信**」をクリックします。 参加者には、メールで通知されます。
 
-   ![ 承認用に新しいバージョンを送信 ](assets/add-previous-participants.png)
+   ![&#x200B; 承認用に新しいバージョンを送信 &#x200B;](assets/add-previous-participants.png)
 
 
 
@@ -108,7 +108,7 @@ ht-degree: 15%
 
 ## プレビュー環境のレガシードキュメント領域に新しいバージョンを追加するには、ドラッグ&amp;ドロップを使用します
 
-組織がWorkfront ストレージ上にある場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージの比較 ](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage) を参照してください。
+組織がWorkfront ストレージ上にある場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージの比較 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage) を参照してください。
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ ht-degree: 15%
 1. 新しいファイルを前のドキュメントの上にドラッグ&amp;ドロップします。 これにより、新しいバージョンが自動的に作成されます。
 
 1. ドキュメントのアップロードが完了したら、ドキュメントを選択してドキュメントの概要パネルを開きます。 ここでは、パネルの上部にバージョン番号が表示されます。
-   ![ ドキュメントの詳細ページを開く ](assets/open-doc-details.png)
+   ![&#x200B; ドキュメントの詳細ページを開く &#x200B;](assets/open-doc-details.png)
 
 
 1. 「**承認** セクションまでスクロールします。
@@ -163,7 +163,7 @@ ht-degree: 15%
 
    >[!TIP]
    >
-   >   Standard ライセンスを持つユーザーは、設定領域から再利用可能な承認テンプレートを作成できます。 詳しくは、[ ドキュメント用の承認ワークフローテンプレートの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
+   >   Standard ライセンスを持つユーザーは、設定領域から再利用可能な承認テンプレートを作成できます。 詳しくは、[&#x200B; ドキュメント用の承認ワークフローテンプレートの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
 
 
 
@@ -171,7 +171,7 @@ ht-degree: 15%
 
    承認ワークフローが開始し、新しいドキュメントバージョンで承認が必要であるという通知が承認者に届きます。 以前のドキュメントバージョンがロックされ、以前のバージョンに対する未処理の承認が取り消されます。
 
-   ![ リクエストの承認 ](assets/request-approval.png)
+   ![&#x200B; リクエストの承認 &#x200B;](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
 
 

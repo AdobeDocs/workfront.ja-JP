@@ -60,15 +60,15 @@ ht-degree: 56%
 
 ## 従来のドキュメント領域でのドキュメントの移動
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Adobe エンタープライズストレージと従来のWorkfront ストレージの違い ](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage) を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Adobe エンタープライズストレージと従来のWorkfront ストレージの違い &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage) を参照してください。
 
 ドキュメントを移動するには：
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **移動** アイコン ![ 移動アイコン ](assets/move-document--25x19.png) をクリックします。
-   ![ ページ上のアイコンの場所を移動 ](assets/move-doc-legacy.png)
+1. **移動** アイコン ![&#x200B; 移動アイコン &#x200B;](assets/move-document--25x19.png) をクリックします。
+   ![&#x200B; ページ上のアイコンの場所を移動 &#x200B;](assets/move-doc-legacy.png)
 
 1. 表示されるボックスのドロップダウンメニューから、「**イシュー**」、「**プロジェクト**」または「**タスク**」をクリックして、ドキュメントを移動するオブジェクトの種類を指定します。
 
@@ -84,7 +84,7 @@ ht-degree: 56%
 
 ## 新しいドキュメント エリアでドキュメントを移動する
 
-エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 ドキュメントを移動するには：
 
@@ -92,7 +92,7 @@ ht-degree: 56%
 1. 必要なドキュメントを見つけます。
 1. ページ下部の **移動** をクリックします。
 
-![ ページ上のアイコンの場所を移動 ](assets/move-new-doc.png)
+![&#x200B; ページ上のアイコンの場所を移動 &#x200B;](assets/move-new-doc.png)
 
 1. 表示されたボックスのドロップダウンメニューから、「**イシュー**」、「**プロジェクト** または「**タスク**」をクリックして、ドキュメントを移動するオブジェクトのタイプを指定します。
 

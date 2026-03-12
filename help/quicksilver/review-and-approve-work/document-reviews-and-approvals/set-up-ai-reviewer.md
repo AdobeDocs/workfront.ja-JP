@@ -52,7 +52,7 @@ Workfrontで 1 つ以上のブランドを設定したら、複数の AI レビ�
 
 ## 前提条件
 
-開始する前に、Workfrontで画像ブランドガイドラインを設定する必要があります。 詳しくは、[AI レビュアーのブランドの設定 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md) を参照してください。
+開始する前に、Workfrontで画像ブランドガイドラインを設定する必要があります。 詳しくは、[AI レビュアーのブランドの設定 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md) を参照してください。
 
 ## AI レビュー担当者の追加
 

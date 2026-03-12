@@ -52,25 +52,25 @@ ht-degree: 54%
 
 ## 従来のドキュメント領域でのドキュメントの削除
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[ 従来のWorkfront ストレージとAdobe エンタープライズストレージの違い ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[&#x200B; 従来のWorkfront ストレージとAdobe エンタープライズストレージの違い &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 ドキュメントを削除するには：
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、左パネルで **ドキュメント** を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. ドキュメント エリアの上にある **削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
+1. ドキュメント エリアの上にある **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
 
 1. 表示されるボックスで、「**はい、削除します**」をクリックして確定します。
 
    システム管理者またはグループ管理者は、[削除した項目を復元](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)で説明されているように、ドキュメントを削除してから 30 日以内は復元できます。
 
-   ![ ドキュメントの削除 ](assets/delete-documents-legacy.png)
+   ![&#x200B; ドキュメントの削除 &#x200B;](assets/delete-documents-legacy.png)
 
 
 ## 新しいドキュメント エリアでのドキュメントの削除
 
-エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 ドキュメントを削除するには：
 
@@ -82,4 +82,4 @@ ht-degree: 54%
 
    システム管理者またはグループ管理者は、[削除した項目を復元](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)で説明されているように、ドキュメントを削除してから 30 日以内は復元できます。
 
-   ![ ドキュメントの削除 ](assets/delete-documents-new.png)
+   ![&#x200B; ドキュメントの削除 &#x200B;](assets/delete-documents-new.png)
