@@ -6,10 +6,10 @@ description: ドキュメントは、Adobe Workfront から個別または一括
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 84%
+source-wordcount: '356'
+ht-degree: 57%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 84%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p>
+   <p>コントリビューター以上</p>
    <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
@@ -50,16 +50,22 @@ ht-degree: 84%
 
 +++
 
-## 個々のドキュメントをダウンロード
+## 従来のドキュメント領域でのドキュメントのダウンロード
+
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[ 従来のWorkfront ストレージとAdobe エンタープライズストレージの違い ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+
+### 従来のドキュメント領域での個々のドキュメントのダウンロード
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **選択したダウンロード** アイコン ![&#x200B; 選択したダウンロードアイコン &#x200B;](assets/download-icon.png) をクリックします。
+1. **選択したダウンロード** アイコン ![ 選択したダウンロードアイコン ](assets/download-icon.png) をクリックします。
 
-## 複数のドキュメントを同時にダウンロード
+![ 個々のドキュメントのダウンロード ](assets/legacy-doc-download.png)
 
-複数のドキュメントを同時にダウンロードできます。 
+### 従来のドキュメント領域での複数ドキュメントの同時ダウンロード
+
+複数のドキュメントを同時にダウンロードできます。
 
 1. ダウンロードするドキュメントを含む「ドキュメント」エリアに移動します。
 1. （オプション）ダウンロードする個々のドキュメントをドキュメントのリストから選択します。
@@ -69,6 +75,15 @@ ht-degree: 84%
    >Box、Dropbox、Google Drive などから Workfront にリンクされたドキュメントを一括でダウンロードすることはできません。
 
 1. （オプション）ダウンロードするドキュメントを含むフォルダーをフォルダーのリストから選択します。
-1. 「選択したダウンロード」アイコン ![&#x200B; 「選択したダウンロード」アイコン &#x200B;](assets/download-icon.png) をクリックします。
+1. 「選択したダウンロード」アイコン ![ 「選択したダウンロード」アイコン ](assets/download-icon.png) をクリックします。
 
    フォルダーは .zip ファイルとしてダウンロードされ、最大 4GB に制限されます。
+
+## 新しいドキュメント エリアでのドキュメントのダウンロード
+
+エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+
+1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、左パネルで **ドキュメント** を選択します。
+1. 必要なドキュメントを見つけて、「**ダウンロード**」をクリックします。
+
+![ ドキュメントをダウンロード ](assets/download-new-doc.png)

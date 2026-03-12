@@ -6,10 +6,10 @@ description: テンプレートをフレームワークとして使用して、A
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 80%
 
 1. 次のいずれかの操作を行います。
 
-   * 左上隅の **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) またはAdobe Workfrontの右上隅の **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックし（使用可能な場合）、「**プロジェクト**」をクリックして「**新規プロジェクト**」を展開します。
+   * 左上隅の **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) またはAdobe Workfrontの右上隅の **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックし（使用可能な場合）、「**プロジェクト**」をクリックして「**新規プロジェクト**」を展開します。
    * ポートフォリオに移動し、「**新規プロジェクト**」を展開します。
 
      >[!TIP]
@@ -165,7 +165,7 @@ ht-degree: 80%
       * テンプレート内のすべてのタスクの数
       * テンプレートのカスタムフォームの名前
 
-   1. （任意）左側のペインのテンプレート名の上にマウスポインターを置き、**お気に入り**&#x200B;**アイコン**![&#x200B; お気に入りアイコン &#x200B;](assets/favorites-icon-small.png) をクリックして、後で使用するためにお気に入りとしてマークします。
+   1. （オプション）左側のパネルでテンプレート名の上にマウスポインターを置き、**お気に入り****アイコン**![ お気に入りアイコン ](assets/favorites-icon-small.png) をクリックして、後で使用するためにお気に入りとしてマークします。
 
       または
 
@@ -209,7 +209,7 @@ ht-degree: 80%
 {{step1-to-templates}}
 
 1. 使用するテンプレートの名前をクリックします。
-1. ヘッダーのテンプレート名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、**プロジェクトを作成** をクリックします。
+1. ヘッダーのテンプレート名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックし、**プロジェクトを作成** をクリックします。
 
    ![テンプレートからプロジェクトを作成](assets/project-sharing-on-template.png)
 

@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 80%
+source-wordcount: '117'
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,8 @@ ht-degree: 80%
 * [カスタム費用タイプを作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [スコアカードを作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
 * [プロジェクトのタイムライン再計算を設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-* [カスタム四半期を有効にする](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
-* [組織の高速リリースを有効化または無効化](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+* [カスタム四半期の有効化](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+* [組織の迅速リリースの有効化または無効化](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+* [Adobe エンタープライズストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
 * [場所を設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
 * [評価カードを管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)

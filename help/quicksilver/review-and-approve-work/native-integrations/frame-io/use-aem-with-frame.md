@@ -1,22 +1,22 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Frame.io 統合でのAdobe Experience Managerの使用
-description: Frame.io 統合でのAdobe Experience Managerの使用
+title: Frame.io 統合での Adobe Experience Manager の使用
+description: Frame.io 統合での Adobe Experience Manager の使用
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 8c5202bcdb367266d31a2e056eed9a286f286518
+exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 81%
+source-wordcount: '1431'
+ht-degree: 82%
 
 ---
 
+# Frame.io 統合での Adobe Experience Manager の使用
 
-# Frame.io 統合でのAdobe Experience Managerの使用
-
-[!DNL Experience Manager Assets]&#x200B;&#x200B;を使用して、レビューと承認のサイクルを経たデジタルアセットを管理および保存できます。 この統合により、Adobe Experience Manager、Frame.io、Workfrontの機能を活用して、コンテンツ管理や共同作業のプロセスを合理化できます。
+[!DNL Experience Manager Assets]&#x200B;&#x200B;を使用して、レビューと承認のサイクルを経たデジタルアセットを管理および保存できます。 この統合により、Adobe Experience Manager、Frame.io、Workfront の機能を活用して、コンテンツ管理や共同作業のプロセスを合理化できます。
 
 ## Experience Manager Assets統合の設定
 
@@ -48,11 +48,11 @@ ht-degree: 81%
    </td>
    <td>
   <p>統合を設定するには：</p>
-   <p>Standard</p>
+   <p>標準</p>
    <p>プラン</p>
 
 <p>ドキュメントをExperience Manager Assetsに送信するには：</p>
-   <p>投稿者以上</p>
+   <p>コントリビューター以上</p>
    <p>リクエスト以上</p>
    </td>
   </tr>
@@ -60,7 +60,7 @@ ht-degree: 81%
     <tr>
    <td>Adobe Experience Manager ライセンス
    </td>
-   <td>Standard
+   <td>標準
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ ht-degree: 81%
 開始する前に、
 
 * [!DNL Adobe Admin Console] の組織 ID に [!DNL Workfront] と [!DNL Adobe Experience Manager Assets] が関連付けられている必要があります。詳しくは、[プラットフォームベースの管理の違い（[!DNL Adobe Workfront]／[!DNL Adobe Business Platform]）](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
-* Workfront インスタンスは、Adobe Enterprise Storage を使用している必要があります。
+* Workfront インスタンスは、Adobe エンタープライズストレージを使用している必要があります。
 
 
 ## 統合情報の設定
@@ -121,10 +121,10 @@ ht-degree: 81%
 
 メタデータフィールドを設定するには、次の手順に従います。
 
-1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
+1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
 
 
-1. Workfront でカスタムフォームフィールドを設定します。[!DNL Workfront] には、使用できるビルトインのカスタムフィールドが多数あります。ただし、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) で説明されているように、独自のカスタムフィールドを作成することもできます。
+1. Workfront でカスタムフォームフィールドを設定します。[!DNL Workfront] には、使用できるビルトインのカスタムフィールドが多数あります。ただし、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) で説明されているように、独自のカスタムフィールドを作成することもできます。
 
 +++ **サポートされている Workfront フィールドおよび Experience Manager Assets フィールドについて詳しくはこちらを展開** 
 
@@ -151,7 +151,7 @@ Workfront でサポートされている任意のフィールドを、Experience
 
 Experience Manager Assets でタグを作成すると、タグは「メタデータ」セクションのタグドロップダウンに表示されます。フィールドをタグにリンクするには、メタデータマッピングエリアの Experience Manager Assets フィールドドロップダウンで `xcm:keywords` を選択します。
 
-タグの作成および管理方法など、Experience Manager Assets のタグについて詳しくは、[タグの管理](https://experienceleague.adobe.com/ja/docs/experience-manager-64/administering/contentmanagement/tags)を参照してください。
+タグの作成および管理方法など、Experience Manager Assets のタグについて詳しくは、[タグの管理](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)を参照してください。
 
 **Experience Manager Assets のカスタムメタデータスキーマフィールド**
 
@@ -200,7 +200,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
 1. [!DNL Experience Manager Assets] フィールドで、事前入力されたカテゴリを検索するか、検索フィールドに 2 文字以上入力して、追加のカテゴリにアクセスします。
 1. 必要に応じて、手順 2 および 3 を繰り返します。
    ![メタデータフィールド](assets/metadata-no-asset-toggle.png)
-1. [!UICONTROL **保存**] をクリックするか、この記事の [&#x200B; オブジェクトメタデータの同期 &#x200B;](#object-metadata-sync) の節に移動します。
+1. [!UICONTROL **保存**] をクリックするか、この記事の [ オブジェクトメタデータの同期 ](#object-metadata-sync) の節に移動します。
 
 
 
@@ -240,34 +240,39 @@ Workfront から Experience Manager Assets または Assets Essentials にユー
 ドキュメントを送信するには：
 
 1. **ドキュメント**&#x200B;に移動して、Workfront エリアに移動し、送信するドキュメントを選択します。
-1. 「**送信先**」をクリックして、管理者が設定した Experience Manager 統合を選択します。
+1. 画面の下部にあるバーで、「**送信先**」をクリックします。
+
+1. 管理者によって設定されたExperience Manager統合を選択し、「**送信**」をクリックします。
 
    >[!NOTE]
    >
    >Workfront 管理者は、この統合に対して任意の名前を選択できるので、Assets や Assets Essentials とは明記されていない場合があります。
 
-   ![&#x200B; 送信先 &#x200B;](assets/send-to-aem.png)
 
 1. アセットの保存先を選択し、「**フォルダーを選択**」をクリックします。
-1. 目的の宛先が見つかったら、「**保存**」をクリックします。
 
-### 新しいバージョンを送信
 
-以前に Workfront にアップロードしたドキュメントに新しいバージョンを追加できます。詳しくは、[新しいバージョンのドキュメントのアップロード](/help/quicksilver/documents/managing-documents/upload-new-document-version.md)を参照してください。最新バージョンがアップロードされたら、そのバージョンを Assets Essentials に送信できます。Workfront でマッピングされたフィールドが変更された場合、新しいバージョンは、送信時に Assets Essentials のメタデータを更新します。
+<!-- not sure if this is in yet
+
+### Send a new version
+
+You can add a new version to a document you have previously uploaded to Workfront. For more information, see [Upload a new version of a document](/help/quicksilver/documents/managing-documents/upload-new-document-version.md). After the latest version is uploaded, you can send it to Assets Essentials. If a mapped field in Workfront has changed, the new version updates the metadata in Assets Essentials when it sends.
 
 >[!IMPORTANT]
 >
->新しいバージョンを Workfront にアップロードする前に、ファイル名を変更することをお勧めします。以前のバージョンと同じファイル名を持つ新しいバージョンをアップロードした場合、Workfront からダウンロードできるのは最新バージョンのみです。ファイル名に関係なく、すべてのバージョンをExperience Manager Assetsまたは Assets Essentials からダウンロードできます。<!--Is this still a thing with ESM?-->
+>Before you upload a new version to Workfront, we recommend renaming the file. If you upload a new version with the exact same file name as a previous version, only the most recent version can be downloaded from Workfront. All versions can be downloaded from Experience Manager Assets or Assets Essentials regardless of the file name. - is this accuate for ESM?
 
-最新バージョンを送信するには、次の手順に従います。
+To send the most recent version:
 
-1. Workfront の&#x200B;**ドキュメント**&#x200B;エリアに移動して、ドキュメントを探します。
-1. 「**送信先**」を選択し、管理者が設定した Experience Manager 統合を選択します。
+1. Go to the **Documents** area in Workfront, and locate the document.
+1. In the bar at the bottom of the screen, click **Send to**. 
+
+1. Choose the Experience Manager integration your administrator set up, then click **Send**.
 
    >[!NOTE]
    >
-   >Workfront 管理者は、この統合の名前を任意に選択できるので、Assets や Assets Essentials とは明記されていない場合があります。
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
 
-   ![&#x200B; 送信先 &#x200B;](assets/send-to-aem.png)
-
-1. 「**保存**」をクリックします。新しいバージョンは、以前のバージョンと同じ場所に保存されます。
+1. Click **Save**. The new version saves in the same location as the previous version.
+ 
+ -->
