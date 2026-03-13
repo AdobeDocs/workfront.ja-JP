@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: bbd00374a6b291582cd03b9d0471d8547eb6ab7f
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 39%
+source-wordcount: '377'
+ht-degree: 42%
 
 ---
 
@@ -32,15 +32,7 @@ ht-degree: 39%
 
 * **料金：** 詳しくは、[https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/) を参照してください。
 
-## データベースチームへの [!DNL Postgres] データダンプファイルの依頼
 
-お客様は、カスタマーサポートチームにリクエストを送信する必要があります。カスタマーサポートチームは、お客様のデータと共にデータベースダンプファイル（.dmp [!DNL Postgres] ファイル）をエクスポートするよう、データベースチームにリクエストを送信します。 追加のリクエストは、NOC チームに送信され、保存されているすべてのドキュメントを取得します。
-
-* **長所**：カスタムフィールドや、システムに保存されているドキュメントを含め、データロード全体を取得します。
-
-* **短所**：このファイルを読み取るには、ファイルを [!DNL Postgres] データベースにアップロードして、テーブル間の関係を再構築する必要があります。 ドキュメントは別のファイルサーバーに保存され、NOC チームによる別のプロセスを使用して個別に抽出する必要があります。 この場合、ドキュメントは組織化されておらず、すべて GUID で参照されます。
-
-* **コスト**：チームがファイルを作成するのにかかる時間に応じて、このダウンロードに関連するコストがあります。 詳しくは、またはこのプロセスを開始するには、AE または CAE に確認してください。
 
 ## [!UICONTROL キックスタート]を使用した書き出し
 
