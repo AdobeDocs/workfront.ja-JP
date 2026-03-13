@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
+source-git-commit: c2c32716d8c08c6aa7f9f408db29b8a645cf2e68
 workflow-type: tm+mt
-source-wordcount: '13808'
+source-wordcount: '13813'
 ht-degree: 98%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 98%
       * 2026年第 2 四半期リリース {#release-26-q2}
          * [2026年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [2026年第 2 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
+         * [2026 年第 2 四半期ドキュメントの機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
          * [2026年第 2 四半期のプロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
          * [2026 年第 2 四半期レポートの機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
          * [2026 年第 2 四半期の機能強化のリクエスト](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
@@ -2118,7 +2119,7 @@ ht-degree: 98%
    * Adobe Workfront Planning のベストプラクティス {#adobe-workfront-planning-best-practices}
       * [Adobe Workfrontのベストプラクティス：記事インデックス](planning/best-practices.md/best-practices-article-index.md)
       * [戦略的なホームの展開：30 日間のランチパッド](planning/best-practices.md/30-day-launchpad.md)
-      * [&#x200B; 成功のアーキテクト：キャンペーン階層のモデリング &#x200B;](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [ 成功のアーキテクト：キャンペーン階層のモデリング ](planning/best-practices.md/model-campaign-hierarchy.md)
       * [マーケティングカレンダーの作成：デッキなし、明確さ](planning/best-practices.md/marketing-calendar.md)
       * [初めての勝利を持続可能な勢いに変える：マネージドスケーリングのプレイブック](planning/best-practices.md/playbook-how-to-scale.md)
       * [橋渡し：戦略的意図をプロジェクトに結び付ける](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
@@ -2224,7 +2225,7 @@ ht-degree: 98%
          * [Adobe Workfront for Creative Cloud アプリケーションのインストール](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Photoshop 用 Adobe Workfront をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Adobe Workfront for XD をインストールして開きます。](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-         * [&#x200B; [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+         * [ [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
       * Creative Cloud アプリケーション用の Adobe Workfront プラグインで作業を管理 {#manage-wf-cc}
          * [Creative Cloud アプリケーション用の Adobe Workfront プラグインで作業を管理](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Adobe Workfront プラグインを使用して作業を検索](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
@@ -2232,7 +2233,7 @@ ht-degree: 98%
          * [Adobe Workfront プラグインを使用して作業を更新](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Adobe Workfront プラグインを使用して作業アイテムを完了とマーク](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Adobe Workfront プラグインを使用して時間を記録](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントとプルーフのアップロード {#upload-docs-proofs-wf-cc}
          * [ドキュメントやプルーフを  [!DNL Adobe Workfront plugin]  から  [!DNL Creative Cloud] にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントとプルーフのアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
@@ -2242,8 +2243,8 @@ ht-degree: 98%
          * [XD アートボードをドキュメントとして Workfront にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [&#x200B; [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [&#x200B; [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [ [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator および InDesign 向け Workfront 拡張機能 {#workfront-for-illustrator-indesign}
          * [Illustrator および InDesign 向け Workfront 拡張機能の使用](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Jira 用 Adobe Workfront {#workfront-for-jira}

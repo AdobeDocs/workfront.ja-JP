@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
+source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 16%
+source-wordcount: '548'
+ht-degree: 14%
 
 ---
 
@@ -17,6 +17,22 @@ ht-degree: 16%
 このページでは、2026 年第 2 四半期リリースでプレビュー環境に対して行われたレポートの機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2026年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)を参照してください。
+
+## New Authentication Options for Data Connect Connection
+
+>[!NOTE]
+>
+>プレビュー：2026 年 3 月 12 日（PT）
+>実稼動（迅速リリース）：2026年3月12日（PT）
+>実稼動（全ユーザー）：2026年4月16日（PT）
+
+RSA キーまたはプログラムによるアクセストークン （PAT）接続を使用して Data Connect に対する認証を行い、従来のユーザー名/パスワード資格情報に代わるより安全で柔軟な代替手段を追加できるようになりました。
+
+These new options allow organizations to maintain stable connections from Power BI, Tableau, and other third‑party BI tools without relying on user-based login methods.
+
+>[!IMPORTANT]
+>
+>2026 年 6 月に、多要素認証（MFA）を使用するために、ユーザー名とパスワードの資格情報が必要になります。 Data Connect からサードパーティのビジュアライゼーションツール、データプロセッサー、スクリプトにデータを読み込むために使用されるサービスユーザーアカウントについては、認証プロセスで MFA と連携しない場合は、RSA または PAT ベースの認証に移行することをお勧めします。
 
 ## レポートの構築時に表示されるカスタムフィールドラベル
 
@@ -47,10 +63,10 @@ ht-degree: 16%
    * 表示：ユーザーはレポートを開いてフォルダーを共有できます
    * 管理：ユーザーは、フォルダーの詳細の編集、項目の追加と削除およびフォルダー内のすべてのレポートへの管理アクセス権の自動受信を行うことができます
 * **継承された権限**：親フォルダーからフォルダーツリー内のすべてのサブフォルダーとレポートに権限がカスケードされます
-* **強化されたリストエクスペリエンス**：共有可能なフォルダーを有効にすると、強化されたリストエクスペリエンスにアクセスできるようになります。 詳しくは、[&#x200B; 拡張リストの使用 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
+* **強化されたリストエクスペリエンス**：共有可能なフォルダーを有効にすると、強化されたリストエクスペリエンスにアクセスできるようになります。 詳しくは、[ 拡張リストの使用 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
 
 
-詳しくは、「共有可能なレポートフォルダーの使用 [&#x200B; を参照してください &#x200B;](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)。
+詳しくは、「共有可能なレポートフォルダーの使用 [ を参照してください ](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)。
 
 ## キャンバスダッシュボードのグラフのグループ化の日付ラベルを改善しました
 
