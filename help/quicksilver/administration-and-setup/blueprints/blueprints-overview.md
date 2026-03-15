@@ -22,7 +22,7 @@ ht-degree: 99%
 
 ブループリントは、Workfront の一般的なユースケースに対応する Workfront オブジェクトのセットです。ブループリントをダウンロードしてインストールし、特定のユースケースに合わせてオブジェクトを設定できます。
 
-![ ブループリントのメインページ ](assets/blueprints-main-page-catalog.png)
+![&#x200B; ブループリントのメインページ &#x200B;](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >

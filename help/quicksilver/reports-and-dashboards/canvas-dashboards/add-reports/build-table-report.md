@@ -17,8 +17,8 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
@@ -27,7 +27,7 @@ ht-degree: 15%
 
 キャンバスダッシュボードにテーブルレポートを追加すると、データをテーブル形式で視覚化できます。
 
-![ テーブルレポートの例 ](assets/table-example-main.png)
+![&#x200B; テーブルレポートの例 &#x200B;](assets/table-example-main.png)
 
 ## アクセス要件
 
@@ -107,7 +107,7 @@ ht-degree: 15%
 
 1. **フィルター**&#x200B;セクションを構成するには、次の手順を実行します：
 
-   1. 左側のパネルで、「**フィルター** ![ フィルターアイコン ](assets/filter-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、「**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックします。
 
    1. **フィルターを編集** を選択します。
 
@@ -117,7 +117,7 @@ ht-degree: 15%
 
 1. 次の手順に従って、「ドリルダウン・グループ設定 **セクションを構成し** す。
 
-   1. 左側のパネルで、「**グループ設定**![ グループ設定アイコン ](assets/drilldown-group-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、「**グループ設定**![&#x200B; グループ設定アイコン &#x200B;](assets/drilldown-group-icon.png) アイコンをクリックします。
 
    1. **グループ化を追加** ボタンをクリックし、グループ化として作成するフィールドを選択します。 グループ化の列は、右側のプレビューセクションに表示されます。
 
@@ -127,7 +127,7 @@ ht-degree: 15%
 
 この節では、保留中のドキュメント承認を表示するテーブルレポートを作成する手順を説明します。
 
-テーブルレポートの例について詳しくは、[ レビューおよび承認用のレポートダッシュボードの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) を参照してください。
+テーブルレポートの例について詳しくは、[&#x200B; レビューおよび承認用のレポートダッシュボードの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) を参照してください。
 
 {{step1-to-dashboards}}
 
@@ -152,7 +152,7 @@ ht-degree: 15%
 
 1. **テーブルを作成** セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、「**テーブル列**![ テーブル列アイコン ](assets/drilldown-column.png) アイコンをクリックします。
+   1. 左側のパネルで、「**テーブル列**![&#x200B; テーブル列アイコン &#x200B;](assets/drilldown-column.png) アイコンをクリックします。
    1. **列を追加** をクリックします。
    1. 下にスクロールして、**ドキュメント承認**/**ステータス** を選択します。
    1. 次の列を追加します。
@@ -232,7 +232,7 @@ ht-degree: 15%
 * **Workfront フィールド** : ネイティブフィールドのみ。
 * **関係**：接続されたレコード。
 
-![ レポート可能オブジェクトの選択 ](assets/reportable-objects-selection.png)
+![&#x200B; レポート可能オブジェクトの選択 &#x200B;](assets/reportable-objects-selection.png)
 
 ### 子オブジェクトの参照
 

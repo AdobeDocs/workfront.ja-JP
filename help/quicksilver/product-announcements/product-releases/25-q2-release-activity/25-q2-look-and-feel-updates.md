@@ -33,7 +33,7 @@ Workfrontの他の領域のデザインと一致するように、複数のレ�
 * カスタムフォーム
 * 休暇
 
-詳しくは、[ カスタムレポートの作成 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) を参照してください。
+詳しくは、[&#x200B; カスタムレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) を参照してください。
 
 
 ## Google Drive ドキュメント統合ダイアログのルックアンドフィールの更新
@@ -82,7 +82,7 @@ Google Drive のドキュメント統合を使用して新しいバージョン�
 
 Workfrontの他の領域のデザインと一致するように、「設定」領域で費用タイプを追加および編集するためのダイアログのルックアンドフィールを更新しました。
 
-詳しくは、[ カスタム費用タイプの作成 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md) を参照してください。
+詳しくは、[&#x200B; カスタム費用タイプの作成 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md) を参照してください。
 
 ## 「危険タイプを編集」ボックスのルックアンドフィールの更新
 
@@ -92,7 +92,7 @@ Workfrontの他の領域のデザインと一致するように、「設定」�
 
 Workfrontの「設定」エリアで既存の危険タイプを更新した場合の、「危険タイプを編集」ボックスのルックアンドフィールを更新しました。 この新しいデザインは、Workfrontの他の領域と一致するようになりました。
 
-詳しくは、[ 危険タイプの編集と作成 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md) を参照してください。
+詳しくは、[&#x200B; 危険タイプの編集と作成 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md) を参照してください。
 
 ## 「新しい危険タイプ」ボックスのルックアンドフィールの更新
 
@@ -102,7 +102,7 @@ Workfrontの「設定」エリアで既存の危険タイプを更新した場�
 
 Workfrontの設定エリアで新しい危険タイプを追加した場合の、新しい危険タイプ ボックスのルックアンドフィールを更新しました。 この新しいデザインは、Workfrontの他の領域と一致するようになりました。
 
-詳しくは、[ 危険タイプの編集と作成 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md) を参照してください。
+詳しくは、[&#x200B; 危険タイプの編集と作成 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md) を参照してください。
 
 ## プロジェクトの「キューの詳細」領域に対する更新のルックアンドフィール
 
@@ -137,7 +137,7 @@ Workfrontの他の領域のデザインと一致するように、プロジェ�
 
 設定エリアのマイルストーンパスリストのルックアンドフィールを、Workfrontの他のエリアのデザインと一致するように更新しました。
 
-詳しくは、[ マイルストーンパスの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) を参照してください。
+詳しくは、[&#x200B; マイルストーンパスの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) を参照してください。
 
 ## プロジェクトビューのプロジェクトマイルストーンパスの更新済みビュー
 
@@ -149,7 +149,7 @@ Workfrontの他の領域のデザインと一致するように、プロジェ�
 
 この更新では、各マイルストーンの色とカラーコードに関する情報も追加しました。
 
-詳しくは、[ マイルストーンパスの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) を参照してください。
+詳しくは、[&#x200B; マイルストーンパスの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) を参照してください。
 
 ## ドキュメントメールの一時的なルックアンドフィールの変更
 
@@ -174,4 +174,4 @@ Workfrontの他の領域のデザインと一致するように、プロジェ�
 * 「システム全体で表示」オプションに「システム内の全員が表示可能」と表示されるようになりました。 このオプションは、以前と同じように機能します。
 * 詳細な共有設定にアクセスするための新しいアイコンが追加されました。
 
-共有ダイアログの場所について詳しくは、[ オブジェクトに対する権限の付与とリクエスト ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) を参照してください。
+共有ダイアログの場所について詳しくは、[&#x200B; オブジェクトに対する権限の付与とリクエスト &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) を参照してください。

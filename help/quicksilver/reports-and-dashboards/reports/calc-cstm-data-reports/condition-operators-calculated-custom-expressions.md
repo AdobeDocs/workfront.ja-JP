@@ -37,7 +37,7 @@ Workfront の「IF」ステートメントを使用して、レポートおよ�
 
 レポート内の計算済みカスタムフィールドおよび計算済みカスタムデータの構文の違いについて詳しくは、[計算済みカスタムフィールドと計算済み列の比較](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)を参照してください。
 
-ビジネス・ルールの詳細は、[ ビジネス・ルールの作成と編集 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
+ビジネス・ルールの詳細は、[&#x200B; ビジネス・ルールの作成と編集 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
 
 API エクスプローラーを参照して、計算済みカスタム式で参照するフィールドを見つけます。API エクスプローラーについて詳しくは、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を参照してください。
 

@@ -50,9 +50,9 @@ Report Builder と List Builder を使用して、ビュー、フィルターお
 
 テキストモードを使用して、計算カスタムフィールドをカスタムフォームに追加できます。
 
-計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
-テキストモードで計算カスタムフィールドを作成する方法について詳しくは、[ 計算フィールドをフォームに追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+テキストモードで計算カスタムフィールドを作成する方法について詳しくは、[&#x200B; 計算フィールドをフォームに追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 例えば、項目が作業中とマークされた時点の日時スタンプを表示する計算カスタムフィールドを追加できます。この計算を他のステータスに使用できます。
 

@@ -101,7 +101,7 @@ Adobe Workfront 管理者は、すべてのタスクやイシューが期日に�
 
    例えば、タスクが金曜日に割り当てられ、期間が経過日数で 3 日の場合、タスクの完了日は月曜日（土曜日と日曜日が週末の場合）に設定されます。タスクの期間が 3 日（経過日数ではない）の場合、タスクの完了日は水曜日に設定されます。
 
-   ![ 時間増分 ](assets/time-increments-for-automatic-reminder.png)
+   ![&#x200B; 時間増分 &#x200B;](assets/time-increments-for-automatic-reminder.png)
 
 1. 「**保存**」をクリックします。
 

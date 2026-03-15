@@ -26,7 +26,7 @@ ht-degree: 89%
 * [レポートの実行](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
 * [マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
 * [レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-* [ 時間枠でレポートをフィルタリング ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
+* [&#x200B; 時間枠でレポートをフィルタリング &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
 * [レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [レポートへのグラフの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
 * [レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)
@@ -39,7 +39,7 @@ ht-degree: 89%
 * [一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
 * [レポート設定の編集](../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
 * [レポートの所有者の変更](../../../reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-* [ 仕訳レポートを使用した更新領域のレポート ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+* [&#x200B; 仕訳レポートを使用した更新領域のレポート &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
 * [ユーザーのデリゲーションレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
 
 <!--outdated: For in-depth training on reports, see [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

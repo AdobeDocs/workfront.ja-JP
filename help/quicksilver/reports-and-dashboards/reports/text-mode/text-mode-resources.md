@@ -28,7 +28,7 @@ ht-degree: 95%
 * [テキストモードの構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [テキストモードを使用したビューの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [テキストモードを使用したフィルターの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [ テキストモードを使用したグループ化の編集 ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+* [&#x200B; テキストモードを使用したグループ化の編集 &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 * [カスタムビュー、フィルタ、およびグループ化の例：記事インデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
   <!--  (NOTE: this is linked here although from another section)  -->

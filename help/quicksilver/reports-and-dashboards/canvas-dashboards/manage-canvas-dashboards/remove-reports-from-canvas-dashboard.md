@@ -18,7 +18,7 @@ ht-degree: 20%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[&#x200B; キャンバスダッシュボードのベータ版情報 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 ダッシュボードを作成し、そのダッシュボードにレポートを追加したら、その特定のダッシュボードに適用されなくなった古いレポートを削除できます。
 
@@ -77,8 +77,8 @@ ht-degree: 20%
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 
-1. **キャンバスダッシュボード** ページで、更新するダッシュボードの右上隅にある **詳細**![ 詳細アイコン ](assets/more-icon.png) アイコンを選択し、「**削除**」を選択します。
+1. **キャンバスダッシュボード** ページで、更新するダッシュボードの右上隅にある **詳細**![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) アイコンを選択し、「**削除**」を選択します。
 
-   ![ レポートを削除 ](assets/delete-a-report.png)
+   ![&#x200B; レポートを削除 &#x200B;](assets/delete-a-report.png)
 
 1. 表示された **レポートを削除** ダイアログボックスで、「**削除**」をクリックします。 レポートが削除され、ダッシュボードから削除されます。

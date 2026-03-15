@@ -62,8 +62,8 @@ ht-degree: 81%
 
 1. 共有するカレンダーに移動します。
 1. Click the **More** menu next to the calendar name, then click **Sharing**.
-   ![ カレンダーの詳細メニュー ](assets/more-menu-calendar.png)
-1. **** へのアクセス権限付与の相手フィールドに、カレンダーを共有するユーザー、チーム、役割、グループまたは会社の名前を入力し、ドロップダウンリストに名前が表示されたらクリックします。\
+   ![&#x200B; カレンダーの詳細メニュー &#x200B;](assets/more-menu-calendar.png)
+1. **&#x200B;**&#x200B;へのアクセス権限付与の相手フィールドに、カレンダーを共有するユーザー、チーム、役割、グループまたは会社の名前を入力し、ドロップダウンリストに名前が表示されたらクリックします。\
    権限の設定について詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
 1. （オプション）カレンダーへのアクセスを許可するユーザー、チーム、役割またはグループごとに手順 3 を繰り返します。
@@ -97,7 +97,7 @@ ht-degree: 81%
 1. 共有するカレンダーに移動します。
 1. 「**[!UICONTROL カレンダーのアクション]**」をクリックして、「**[!UICONTROL 共有]**」をクリックします。
 1. Click the **More** menu next to the calendar name.
-   ![ カレンダーの詳細メニュー ](assets/more-menu-calendar.png)
+   ![&#x200B; カレンダーの詳細メニュー &#x200B;](assets/more-menu-calendar.png)
 lick **Copy public link**.
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -107,9 +107,9 @@ lick **Copy public link**.
 
 1. 共有するカレンダーに移動します。
 1. Click the **More** menu next to the calendar name, then click **[!UICONTROL Get Sharable Link]**.
-   ![ カレンダーの詳細メニュー ](assets/more-menu-calendar.png)
+   ![&#x200B; カレンダーの詳細メニュー &#x200B;](assets/more-menu-calendar.png)
 
    >[!NOTE]
    >
-   >[!DNL Workfront] ユーザーがリンクを使用してカレンダーにアクセスするには、カレンダーへのアクセス権を持っている必要があります。アクセス権を付与するには、[ [!DNL Workfront]  ユーザーとのカレンダーの共有](#share-a-calendar-with-workfront-users)を参照してください。\
+   >[!DNL Workfront] ユーザーがリンクを使用してカレンダーにアクセスするには、カレンダーへのアクセス権を持っている必要があります。アクセス権を付与するには、[&#x200B; [!DNL Workfront]  ユーザーとのカレンダーの共有](#share-a-calendar-with-workfront-users)を参照してください。\
    >ユーザーがアクセス権を持っていない場合、リンクをブラウザーに貼り付けた後にリクエストできます。

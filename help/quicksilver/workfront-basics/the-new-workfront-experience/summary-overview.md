@@ -107,11 +107,11 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 ## タスクまたはイシューのリストで[!UICONTROL 概要]パネルを表示する
 
 1. タスクまたはイシューに移動し、リストからアイテムを選択します。
-1. **[!UICONTROL 概要]** アイコン ![ 新しいツールバーの概要 ](assets/qs-summary-in-new-toolbar-small.png) をクリックします
+1. **[!UICONTROL 概要]** アイコン ![&#x200B; 新しいツールバーの概要 &#x200B;](assets/qs-summary-in-new-toolbar-small.png) をクリックします
 
    または
 
-   **[!UICONTROL リクエスト]** エリアの ![ 送信済み ](assets/open-summary-with-text-nwe.png) セクションにある [!UICONTROL  概要を開く ] アイコン [!UICONTROL  概要をテキストで開く ] をクリックします。
+   **[!UICONTROL リクエスト]** エリアの ![&#x200B; 送信済み &#x200B;](assets/open-summary-with-text-nwe.png) セクションにある [!UICONTROL &#x200B; 概要を開く &#x200B;] アイコン [!UICONTROL &#x200B; 概要をテキストで開く &#x200B;] をクリックします。
 
    概要を開いた後、他のタスクやイシューをクリックまたは選択しても、概要は手動で閉じるまで開いたままになります。
 
@@ -123,13 +123,13 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 1. （オプション）[!UICONTROL 概要]パネルを閉じるには、次のいずれかの操作を行います。
 
-   * タスクまたは問題のリストで、「**[!UICONTROL 概要を開く]**」アイコン ![ 概要パネルアイコン ](assets/summary-panel-icon.png) をクリックします
+   * タスクまたは問題のリストで、「**[!UICONTROL 概要を開く]**」アイコン ![&#x200B; 概要パネルアイコン &#x200B;](assets/summary-panel-icon.png) をクリックします
 
      または
 
      [!UICONTROL 概要]パネルの右上隅にある **X** アイコンをクリックします。
 
-   * [!UICONTROL  リクエスト ] エリアの「[!UICONTROL  送信済み ]」セクションで、**[!UICONTROL 概要を閉じる]** アイコン ![ 概要をテキストで閉じる ](assets/close-summary-with-text-nwe.png) をクリックします
+   * [!UICONTROL &#x200B; リクエスト &#x200B;] エリアの「[!UICONTROL &#x200B; 送信済み &#x200B;]」セクションで、**[!UICONTROL 概要を閉じる]** アイコン ![&#x200B; 概要をテキストで閉じる &#x200B;](assets/close-summary-with-text-nwe.png) をクリックします
 
      または
 
@@ -137,7 +137,7 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 ## [!UICONTROL 完了率]
 
-[!UICONTROL  概要 ] の上部にある進捗の青いバブルを使用して、選択したタスクまたは問題の完了率を更新します。 数値を入力するか、通芯記号を正しいパーセンテージにドラッグします。
+[!UICONTROL &#x200B; 概要 &#x200B;] の上部にある進捗の青いバブルを使用して、選択したタスクまたは問題の完了率を更新します。 数値を入力するか、通芯記号を正しいパーセンテージにドラッグします。
 
 概要パネルでバブルをドラッグ&amp;ドロップすると、完了率が 1 点増分で更新されます。 小数は入力できません。
 

@@ -57,7 +57,7 @@ Workfront管理者は、ビルトインレポートを非表示にして、ユ�
 
 ## ビルトインのレポートの概要 {#overview-of-built-in-reports}
 
-組み込みレポートのコピーを作成して、新しいレポートとして保存できます。 組み込みレポートのコピーを作成する方法の詳細については、「[ レポートのコピーを作成する ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)」の [ 新しいバージョンのレポートを作成する ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) を参照してください。
+組み込みレポートのコピーを作成して、新しいレポートとして保存できます。 組み込みレポートのコピーを作成する方法の詳細については、「[&#x200B; レポートのコピーを作成する &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)」の [&#x200B; 新しいバージョンのレポートを作成する &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) を参照してください。
 
 Workfront パッケージには、次のレポートが付属しています。これらのレポートは、最低でもアクセスレベルでビルトインのレポートの表示権限を持つすべてのユーザーが利用可能です。
 
@@ -373,8 +373,8 @@ Workfront パッケージには、次のレポートが付属しています。�
 1. 「**レポート**」オブジェクトの下で、「**グローバル ID**」を選択します。
 
 1. フィルター修飾子のドロップダウンメニューで、「**空白でない**」を選択します。\
-   ![ システムレポートのグローバル ID フィルター ](assets/qs-global-id-filter-for-system-reports-350x179.png)
+   ![&#x200B; システムレポートのグローバル ID フィルター &#x200B;](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. 「**フィルターを保存**」をクリックします。\
    レポートリストには、ビルトインレポートのみが表示されます。\
-   使用可能なビルトインレポートの詳細については、この記事の「[ ビルトインレポートの概要 ](#overview-of-built-in-reports) を参照してください。
+   使用可能なビルトインレポートの詳細については、この記事の「[&#x200B; ビルトインレポートの概要 &#x200B;](#overview-of-built-in-reports) を参照してください。

@@ -16,7 +16,7 @@ ht-degree: 8%
 
 このページでは、2024 年第 3 四半期のリリースで行われた、プレビュー環境に対するすべての financial management の機能強化について説明します。 これらの機能強化は、2024 年第 3 四半期リリースの実稼動環境で利用できるようになります。
 
-2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
+2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
 
 ## プロジェクトおよびタスクに使用できる請求可能および請求不可の費用フィールド
 

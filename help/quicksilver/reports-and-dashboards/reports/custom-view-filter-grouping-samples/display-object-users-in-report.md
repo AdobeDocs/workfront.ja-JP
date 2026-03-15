@@ -55,7 +55,7 @@ ht-degree: 97%
 
 プロジェクトに関連付けられているすべてのユーザーをプロジェクトリストまたはレポートのビューに表示できます。これには、プロジェクトの「ユーザー」セクションに一覧表示されているすべてのユーザーが含まれます。また、プロジェクトのタスクやイシューに割り当てられた際に関連付けられた役割を、プロジェクトレポートで表示することもできます。
 
-![ ユーザーおよび役割に関する情報を含むプロジェクト ](assets/project-with-user-and-role-information-report-350x100.png)
+![&#x200B; ユーザーおよび役割に関する情報を含むプロジェクト &#x200B;](assets/project-with-user-and-role-information-report-350x100.png)
 
 プロジェクト上のすべてのユーザーとその役割を表示するプロジェクトレポートの作成について詳しくは、[表示：担当業務を持つプロジェクトユーザーのリスト](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)を参照してください。
 
@@ -65,7 +65,7 @@ ht-degree: 97%
 
 「割り当て」フィールドをビューに追加すると、タスクに割り当てられているすべてのユーザー、役割、またはチームをタスクリストまたはレポートのビューに表示できます。
 
-![ 割り当てフィールド ](assets/assignments-field-task-view-350x124.png)
+![&#x200B; 割り当てフィールド &#x200B;](assets/assignments-field-task-view-350x124.png)
 
 タスクフィルター内の次のフィールドを参照すると、タスクに割り当てられたユーザー、担当業務、またはチームでフィルタリングできます。
 
@@ -73,7 +73,7 @@ ht-degree: 97%
 * 割り当てられた役割
 * チーム
 
-![ タスクフィルターでのユーザーと役割の割り当て ](assets/assignment-users-roles-task-filter-350x334.png)
+![&#x200B; タスクフィルターでのユーザーと役割の割り当て &#x200B;](assets/assignment-users-roles-task-filter-350x334.png)
 
 ## イシューに割り当てられているすべてのユーザー、担当業務、またはチームを表示する
 

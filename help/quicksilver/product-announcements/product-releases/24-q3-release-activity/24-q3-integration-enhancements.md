@@ -16,7 +16,7 @@ ht-degree: 8%
 
 このページでは、2024 年第 3 四半期リリースで行われた、プレビュー環境へのすべての統合機能強化について説明します。 これらの機能強化は、2024 年第 3 四半期リリースの実稼動環境で利用できるようになります。
 
-2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
+2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
 
 ## Workfront for Experience Manager Assetsと Assets Essentials の機能強化
 
@@ -26,6 +26,6 @@ ht-degree: 8%
 
 Experience Manager Assetsと Assets Essentials 統合のWorkfrontで次の改善が行われました。
 
-* この統合では、クラウドサービスプロバイダーとしての GCP がサポートされるようになりました。 AWSとAzureは以前はサポートされていました。 詳しくは、[Adobe Experience Manager Assets統合の概要 ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md) を参照してください。
+* この統合では、クラウドサービスプロバイダーとしての GCP がサポートされるようになりました。 AWSとAzureは以前はサポートされていました。 詳しくは、[Adobe Experience Manager Assets統合の概要 &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md) を参照してください。
 
 * 統合を通じてExperience Managerに送信されるファイルのサイズ上限が 30 GB に増えました。 以前は、上限は 5 GB でした。 詳しくは、[Experience Manager Assets または Assets Essentials へのドキュメントの送信](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)を参照してください。

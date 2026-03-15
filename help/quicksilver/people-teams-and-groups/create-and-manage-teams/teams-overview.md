@@ -20,7 +20,7 @@ ht-degree: 99%
 
 [!DNL Adobe Workfront] のチームの目的は、各部署の職場での実際の動きを捉えることです。
 
-グループの代わりにチームを使用する方法について詳しくは、[ [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md) のグループとチームを参照してください。
+グループの代わりにチームを使用する方法について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md) のグループとチームを参照してください。
 
 ## チームの編成
 
