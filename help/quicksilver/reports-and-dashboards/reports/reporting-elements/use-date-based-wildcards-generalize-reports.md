@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 日付ベースのワイルドカードを使用したレポートの一般化
 description: 特定のレポート要素を作成するときに、特定の情報の代わりにワイルドカードを使用することで、レポートを一般化できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 

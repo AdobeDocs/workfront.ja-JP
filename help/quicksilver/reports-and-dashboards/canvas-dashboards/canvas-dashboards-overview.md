@@ -2,15 +2,15 @@
 product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards
 title: キャンバスダッシュボードの概要
-description: キャンバスダッシュボードについて学ぶ
-author: Courtney and Jenny
+description: カンバスダッシュボードの詳細
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 5%
+ht-degree: 25%
 
 ---
 
@@ -18,34 +18,34 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックを送信してください。
+>カンバスダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが使用できます。 この段階では、機能の一部が完全でない場合や、意図したとおりに機能しない場合があります。 Canvas Dashboardsベータ版の概要記事の[フィードバックの提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)セクションの手順に従って、エクスペリエンスに関するフィードバックを送信してください。
 >
->バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
+>バグまたは技術的な問題に関するフィードバックがある場合は、Workfrontサポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 >
 >このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
->* Amazon Web Services用に独自のキーを持参
+>* Amazon Web Services用に自分の鍵を持ち込む
 >* Azure
 >* Google Cloud Platform
 
-キャンバスダッシュボードを使用すると、サイズ変更、ドラッグ&amp;ドロップなど、多くの柔軟なレイアウトオプションを提供するキャンバスにレポートタイプを追加することで、Adobe Workfront データを簡単に視覚化できます。
+カンバスダッシュボードでは、カンバスにレポートの種類を追加することで、Adobe Workfrontのデータを簡単に表示できます。カンバスは、サイズ変更、ドラッグ&amp;ドロップなどの柔軟なレイアウトオプションを多数備えています。
 
-キャンバスダッシュボードを使用すると、ドキュメントの承認決定やWorkfrontの計画など、新しく追加されたWorkfront機能に関するレポートを作成できます。
+Canvas Dashboardsを使用すると、文書の承認判断やWorkfrontの計画など、新しく追加されたWorkfront機能に関するレポートを作成できます。
 
 
 ## 前提条件
 
-* 組織は、キャンバスダッシュボードベータ版の一部である必要があります。 詳しくは、[&#x200B; キャンバスダッシュボードのベータ版情報 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
-* キャンバスダッシュボードを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新しいライセンス）が必要です。 Workfrontのライセンスタイプについて詳しくは、[&#x200B; ライセンスの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) または [&#x200B; 新規ライセンスの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
-* キャンバスダッシュボードを作成または編集するには、Workfront管理者から、アクセスレベルのダッシュボードへの編集アクセス権を付与されている必要があります。 編集アクセス権の付与について詳しくは、[&#x200B; 報告書、ダッシュボード、カレンダーへのアクセスの許可 &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md) を参照してください。
+* 組織はCanvasダッシュボードベータ版に含まれている必要があります。 詳細については、[Canvasダッシュボードのベータ情報](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)を参照してください。
+* Canvasダッシュボードを作成するには、プランライセンス（現在のライセンス）またはスタンダードライセンス（新しいライセンス）が必要です。 Workfrontのライセンスの種類については、[ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)または[新規ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
+* Canvasダッシュボードを作成または編集するには、Workfront管理者から、アクセスレベルにあるダッシュボードへの編集権限を付与されている必要があります。 編集アクセス権の付与の詳細については、[レポート、ダッシュボード、カレンダーへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)を参照してください。
 
-## キャンバスダッシュボードに関する記事
+## Canvasダッシュボードの記事
 
 * キャンバスダッシュボードの使用
 
    * [キャンバスダッシュボードの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
 
-* キャンバスダッシュボードベータ版
+* キャンバスダッシュボードのベータ版
 
    * [キャンバスダッシュボードベータ版の情報](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
@@ -53,7 +53,7 @@ ht-degree: 5%
 
    * [キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
 
-* レポートを追加
+* レポートの追加
 
    * [キャンバスダッシュボードへの既存のレポートの追加](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
    * [キャンバスダッシュボードでの KPI レポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
@@ -67,58 +67,58 @@ ht-degree: 5%
    * [キャンバスダッシュボードのフィルタリング](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
    * [キャンバスダッシュボードの名前または説明の変更](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
    * [キャンバスダッシュボードの削除](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
-   * [キャンバスダッシュボードのレイアウトテンプレートへの追加](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
+   * [レイアウトテンプレートへのキャンバスダッシュボードの追加](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
 
 * レポートを管理
 
-   * [キャンバスダッシュボードでのレポートの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+   * [キャンバスダッシュボードでのウィジェットの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
    * [キャンバスダッシュボードでのレポートフィルターの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
    * [キャンバスダッシュボードでのレポートの削除](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
 
-## 現在および予定されている機能
+## 現在の機能と計画されている機能
 
-ベータ版で現在サポートされているレポートタイプのリストと、ベータ版の過程でキャンバスダッシュボードに追加する予定のその他の機能のリストを以下に示します。
+以下に、現在ベータ版でサポートされているレポートタイプのリストと、ベータ版でCanvasダッシュボードに追加する予定のその他の機能のリストを示します。
 
-### サポートされるレポートタイプ
+### サポートされているレポートタイプ
 
 * 既存のレポート
-* グラフレポート
-* KPI レポート
-* テーブルレポート
+* チャートレポート
+* KPIレポート
+* 表レポート
 
 ### 新しくリリースされた機能
 
 * 汎用性の高いダッシュボードレイアウト設定
 * ダッシュボード共有
-* 保留中の承認レポート
-* Workfront計画レポート
-* AND/OR フィルター
-* テーブルの列と行の条件付き書式
-* KPI およびグラフレポートのドリルダウン設定
+* 承認待ちレポート
+* Workfront Planningレポート
+* および/またはフィルタリング
+* 表の列と行の条件付き書式設定
+* KPIおよびグラフレポートのドリルダウン構成
 * テーブル結果のグループ化
 * ダッシュボードレベルのフィルターとユーザーが適用したオーバーレイフィルター
 
 
-### 開発の機能
+### 開発中の機能
 
-* その他のWorkfront オブジェクトタイプ
-* ユーザビリティの強化
-* ダッシュボードのレポートブロックとしてWorkfrontのプランニングビューを含める
-* ダッシュボードをWorkfront Planning ビューとして使用する
-* Azure および GCP のお客様へのサポートの拡張
+* その他のWorkfrontオブジェクトタイプ
+* 使いやすさの向上
+* ダッシュボードにレポートブロックとしてWorkfront Planningビューを含める
+* ダッシュボードをWorkfront Planningビューとして使用する
+* AzureおよびGCPのお客様へのサポートの拡張
 * パフォーマンスの最適化
 
-### 今後のロードマップの機能
+### 今後のロードマップ機能
 
 >[!NOTE]
 >
->以下に示すロードマップの優先度は、ベータ版の期間中に受け取ったフィードバックに基づいて調整されます。
+>以下に示すロードマップの優先度は、ベータ版期間中に受け取ったフィードバックに基づいて調整されます。
 
-* 埋め込み web ビュー
+* 埋め込みWebビュー
 * カレンダー
 * リソース管理レポート
-* その他のホーム画面ウィジェット
-* ダッシュボード概要の送信
+* 追加のホーム画面ウィジェット
+* ダッシュボードの概要の送信
 * レポートのコピー
 * ダッシュボードのコピー
 

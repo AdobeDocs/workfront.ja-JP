@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: カレンダーレポートでの予定日の使用
 description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。「見込日」フィールドは、タスク、イシューおよびプロジェクトに関するカレンダーレポートで使用できます。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -131,8 +131,8 @@ ht-degree: 86%
 1. カレンダーのグループ化の条件文を設定します。
 
 
-   ![&#x200B; カレンダーのオブジェクトを選択 &#x200B;](assets/calendar-field-name.png)
-条件の設定について詳しくは、[&#x200B; フィルターと条件の修飾子 &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) を参照してください。
+   ![ カレンダーのオブジェクトを選択 ](assets/calendar-field-name.png)
+条件の設定について詳しくは、[ フィルターと条件の修飾子 ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) を参照してください。
 
 1. （オプション）手順 1 ～ 4 を繰り返して、カレンダーのグループ化に使用する追加のオブジェクトを指定します。
 1. **[!UICONTROL タスク／プロジェクト／イシューのラベルを次の値に設定…]**&#x200B;フィールドで、このカレンダーグループ内のオブジェクトにカレンダー内でどのようにラベルを付けるかを選択します。
@@ -141,7 +141,7 @@ ht-degree: 86%
    >
    >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
 
-   ![&#x200B; タスク ラベルの設定 &#x200B;](assets/set-task-labels.png)
+   ![ タスク ラベルの設定 ](assets/set-task-labels.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

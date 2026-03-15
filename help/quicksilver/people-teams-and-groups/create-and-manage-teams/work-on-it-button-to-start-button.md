@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: '[ 作業をする ] ボタンを [ 開始 ] ボタンに置き換える'
 description: Adobe Workfront のデフォルト設定には、割り当てられた項目に対して表示されるタスクとイシューの「作業をする」ボタンが含まれています。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 

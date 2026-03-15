@@ -3,13 +3,13 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: 問題の「完了」ボタンの設定
 description: 「完了」ボタンは、タスクまたはイシューのステータスを自動的に設定できます。デフォルトで、担当者がワーク項目で「完了」をクリックすると、Adobe Workfront はイシューを解決済みとしてマークします。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 95%
    >  デフォルトのタスクタイプおよびイシュータイプは次のとおりです。
    >     
    >   * [!UICONTROL タスク]
-   >   * [!UICONTROL イシュー]
+   >   * [!UICONTROL 問題]
    >   * [!UICONTROL リクエスト]
    >   * [!UICONTROL 変更依頼]
    >   * [!UICONTROL バグレポート]

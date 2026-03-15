@@ -1,25 +1,25 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: キャンバスダッシュボードのレイアウトテンプレートへの追加
+title: レイアウトテンプレートへのキャンバスダッシュボードの追加
 description: キャンバスダッシュボードをレイアウトテンプレートに追加すると、ホームランディングページと置き換わったり、オブジェクトの左側のパネルに表示されたり、上部のバーにピン留めされたりすることができます。
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
-# キャンバスダッシュボードのレイアウトテンプレートへの追加
+# レイアウトテンプレートへのキャンバスダッシュボードの追加
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->&#x200B;>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
->&#x200B;>このベータ版は、次のクラウドプロバイダーでは利用できません。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
+>このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
 >* Azure
@@ -27,7 +27,7 @@ ht-degree: 7%
 
 キャンバスダッシュボードをレイアウトテンプレートに追加すると、ホームランディングページに置き換わったり、オブジェクトの左側のパネルに表示されたり、Adobe Workfront全体の上部バーにピン留めされたりすることができます。
 
-![&#x200B; 左パネル &#x200B;](assets/left-panel.png)
+![ 左パネル ](assets/left-panel.png)
 
 ## アクセス要件
 
@@ -80,7 +80,7 @@ ht-degree: 7%
 
 1. テンプレートの詳細ページの「**ユーザーに表示する項目をカスタマイズ**」ドロップダウンで、ダッシュボードを追加するオブジェクトを選択します。
 
-   ![&#x200B; ユーザーに表示する項目のドロップダウンをカスタマイズする &#x200B;](assets/customize-what-users-see.png)
+   ![ ユーザーに表示する項目のドロップダウンをカスタマイズする ](assets/customize-what-users-see.png)
 
 1. 「**左パネル**」セクションの下部までスクロールし、「**ダッシュボードを追加**」をクリックします。
 

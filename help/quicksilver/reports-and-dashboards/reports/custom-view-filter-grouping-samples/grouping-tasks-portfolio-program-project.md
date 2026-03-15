@@ -4,13 +4,13 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: グループ化：Portfolio、プログラム、プロジェクト別のタスク
 description: このタスクのグループ化を使用して、ポートフォリオ別、プログラム別、および関連付けられているプロジェクト別にタスクをグループ化します。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 68%
+ht-degree: 75%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 68%
 
 このタスクのグループ化を使用して、ポートフォリオ別、プログラム別、および関連付けられているプロジェクト別にタスクをグループ化します。
 
-![Portfolio プログラム プロジェクトのグループ化 &#x200B;](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![Portfolio プログラム プロジェクトのグループ化 ](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## アクセス要件
 

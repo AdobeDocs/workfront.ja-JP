@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 共有列のデータがダッシュボードレポートに表示されない
 description: レポートが複数列のダッシュボードレイアウトに配置されている場合、共有列のデータは表示されませんが、単一列のレイアウトには表示されます。改行も上書きされます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b8307182-3ec1-4f16-8427-48ef7a65f969
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -32,7 +32,7 @@ shortview=true
 
 ## ソリューション
 
-レポートで使用するビューにアクセスし、テキストモードを開きます。（詳細情報については、[テキストモードを使用したビューの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)を参照してください）。共有／結合された列で使用されている列を含め、レポート内のすべての列にラベルを付けます。
+レポートで使用するビューにアクセスし、テキストモードを開きます。（詳しくは、[ テキストモードを使用したビューの編集 ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md) を参照してください）。共有/結合列で使用されている列を含む、レポートのすべての列に、次のラベルを付けます
 
 ```
 shortview=true

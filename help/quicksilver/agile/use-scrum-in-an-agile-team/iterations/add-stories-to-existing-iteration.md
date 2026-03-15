@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: 既存の反復へのストーリーの追加
 description: イテレーションにストーリーを追加する方法は様々です。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 76%
@@ -17,7 +17,7 @@ ht-degree: 76%
 
 次のいずれかの方法で、イテレーションにストーリーを追加できます。
 
-* [&#x200B; アジャイルバックログを管理 [!UICONTROL &#x200B; の &#x200B;] バックログからイテレーションまたは &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) かんばん [&#x200B; ボードへのストーリーの移動 &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) セクションで説明しているように、イテレーションが作成された後のバックログから。
+* [ アジャイルバックログを管理 [!UICONTROL  の ] バックログからイテレーションまたは ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) かんばん [ ボードへのストーリーの移動 ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) セクションで説明しているように、イテレーションが作成された後のバックログから。
 
 * 個々のタスクまたはイシューの[!UICONTROL 詳細]ページから追加
 * タスクまたはイシューのリストから追加
@@ -95,7 +95,7 @@ ht-degree: 76%
 または
 反復に追加するタスクまたは問題を含むプロジェクト、レポート、またはダッシュボードに移動します。 次に、1 つ以上のタスクまたは問題を選択します。
 
-1. **[!UICONTROL 詳細]**![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png)/**[!UICONTROL イテレーションに追加]** をクリックします。
+1. **[!UICONTROL 詳細]**![ 詳細アイコン ](assets/more-icon.png)/**[!UICONTROL イテレーションに追加]** をクリックします。
 アジャイル以外のチームに割り当てられたタスクや問題を割り当てることはできません。
 
 1. 「**[!UICONTROL 追加先]**」ボックスにイテレーションの名前の入力を開始し、リストに表示されたら選択します。

@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: フィルター：承認保留の現在のプロジェクトを表示
 description: 次のプロジェクトフィルターは、「現在 - 承認保留」ステータスのプロジェクトを表示します。ログインユーザーは、プロジェクトスポンサーまたはポートフォリオマネージャーです。
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 72%
+ht-degree: 79%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 72%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
+   <p>レポートを変更するための「標準」または「プラン」</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -58,10 +58,10 @@ ht-degree: 72%
 このフィルターを適用するには、次の手順に従います。
 
 1. プロジェクトのリストに移動します。
-1. **フィルター** ドロップダウンメニューから「**新しいフィルター**」を選択します。
+1. **フィルター**&#x200B;ドロップダウンメニューから、**新しいフィルター**&#x200B;を選択します。
 
-1. **テキストモード** をクリックします。
+1. **テキストモード**&#x200B;をクリックします。
 1. 表示された領域で、次のコードをコピーして貼り付けます。
    <pre>status=CUR:A<br>sponsorID=$$USER.ID<br>OR:a:status=CUR:A<br>OR:a:portfolio:ownerID=$$USER.ID</pre>
 
-1. **適用**/**新規保存** をクリックします。
+1. **適用** > **新規として保存**&#x200B;をクリックします。

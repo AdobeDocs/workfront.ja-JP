@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: アジャイルチームの作成と管理
 description: アジャイルチームの作成および管理方法について詳しくは、アジャイルチームの作成を参照してください。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 86d115cf-0931-453f-aa0f-c96b31eb61d5
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 0%
@@ -15,4 +15,4 @@ ht-degree: 0%
 
 # アジャイルチームの作成と管理
 
-アジャイルチームの作成および管理方法について詳しくは、[&#x200B; アジャイルチームの作成 &#x200B;](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) を参照してください。
+アジャイルチームの作成および管理方法について詳しくは、[ アジャイルチームの作成 ](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) を参照してください。

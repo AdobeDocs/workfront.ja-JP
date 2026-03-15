@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードの印刷
 description: ダッシュボードを印刷したり .PDF ファイルに書き出したりできます。ダッシュボードを印刷するには、ダッシュボードを表示する権限が必要です。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 95%
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
       <p>標準</p>
-      <p>ワークまたはそれ以上</p>
+      <p>Work またはそれ以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ ht-degree: 95%
 1. 印刷するダッシュボードに移動します。
 1. 次のいずれかの操作を行います。
 
-   * **ダッシュボード アクション**/**印刷プレビュー** をクリックします
+   * **ダッシュボードアクション** > **印刷プレビュー**&#x200B;をクリックします
 
    * **Ctrl + P** キー（Windows の場合）または **Command + P** キー（Mac の場合）を押します。
 

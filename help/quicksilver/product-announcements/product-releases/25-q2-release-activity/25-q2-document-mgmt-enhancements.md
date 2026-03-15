@@ -1,20 +1,20 @@
 ---
 title: 2025年第 2 四半期のプロジェクトの機能強化
 description: 2025年第 2 四半期のプロジェクトの機能強化
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
-source-git-commit: beb3c8052264036c455288327a20acad66d27570
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 60%
+ht-degree: 65%
 
 ---
 
 # 2025年第 2 四半期のドキュメント管理の機能強化
 
-このページでは、2025年第 2 四半期にプレビュー環境にリリースされた、すべてのドキュメント管理の機能強化について説明します。これらの機能強化は、前述のように実稼動環境で利用できるようになります。
+このページでは、2025年第 2 四半期にプレビュー環境にリリースされた、すべてのドキュメント管理の機能強化について説明します。これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2025年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
 
@@ -51,7 +51,7 @@ For more information, see [Use new document approvals and proofing together](/he
 * Electron バージョン 35
 * Chromium バージョン 134
 
-このアップデートは、Macと Windows の両方に対応しています。
+このアップデートは、Mac と Windows の両方に対応しています。
 
 ## ドキュメントレポートで複数のドキュメントを一度に編集する
 
@@ -61,4 +61,4 @@ For more information, see [Use new document approvals and proofing together](/he
 
 ドキュメントレポートで、複数のドキュメントを一度に編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。
 
-詳しくは、[&#x200B; ドキュメントの一括編集 &#x200B;](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md) を参照してください。
+詳しくは、[ ドキュメントの一括編集 ](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md) を参照してください。

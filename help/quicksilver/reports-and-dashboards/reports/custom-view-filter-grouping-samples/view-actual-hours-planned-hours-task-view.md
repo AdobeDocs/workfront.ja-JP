@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：タスク表示の同じ列の予定時間数に対する実際の時間数
 description: このタスク ビューでは、各タスクの予定時間に対する実際の記録時間数が表示されます。 予定時間と実際の時間の時間差異も、別の列に表示されます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 49%
+ht-degree: 54%
 
 ---
 

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：すべてのプロジェクト チーム ユーザーおよび役割を含むプロジェクト
+title: 表示：すべてのプロジェクトチームユーザーおよびロールを含むプロジェクト
 description: このプロジェクトビューには、プロジェクトチームに割り当てられたユーザーと担当業務の一覧が表示されます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 84a1e065-992e-4aa5-81ba-e699ac704837
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 73%
+ht-degree: 78%
 
 ---
 
@@ -41,8 +41,8 @@ ht-degree: 73%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>投稿者またはビューの変更リクエスト </p>
+   <p>レポートを変更するための「標準」または「プラン」</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -65,13 +65,13 @@ ht-degree: 73%
 1. プロジェクトのリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューから、**新規表示**&#x200B;を選択します。
 
-1. **列プレビュー** 領域で、1 列以外のすべての列を削除します。
-1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え** > **テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. **列のプレビュー**&#x200B;領域で、1つの列を除くすべての列を削除します。
+1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え** > **テキストモードの編集**&#x200B;をクリックします。
+1. **[テキストモードの編集]**&#x200B;ボックスで見つかったテキストを削除し、次のコードで置き換えます：
 
 
 
 
    <pre>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.link.linkproperty.0.valueformat=int<br>column.0.link.lookup=link.view<br>column.0.link.valuefield=objCode<br>column.0.link.valueformat=val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=60<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=150<br>column.1.description=Team Users<br>column.1.link.linkproperty.0.name=ID<br>column.1.link.linkproperty.0.valuefield=userID<br>column.1.link.linkproperty.0.valueformat=int<br>column.1.link.page=/userView.cmd<br>column.1.listdelimiter=<br>column.1.listmethod=nested(projectUsers).lists<br>column.1.namekey=user.plural<br>column.1.stretch=30<br>column.1.type=iterate<br>column.1.valuefield=user:name<br>column.1.valueformat=HTML<br>column.1.width=150<br>column.2.description=Team Roles<br>column.2.link.linkproperty.0.name=ID<br>column.2.link.linkproperty.0.valuefield=ID<br>column.2.link.linkproperty.0.valueformat=int<br>column.2.link.page=/roleView.cmd<br>column.2.listdelimiter=<br>column.2.listmethod=nested(roles).lists<br>column.2.namekey=jobrole.plural<br>column.2.stretch=10<br>column.2.type=iterate<br>column.2.valuefield=name<br>column.2.valueformat=HTML<br>column.2.width=150.stretch=0</pre>
 
-1. **完了**/**ビューを保存** をクリックします。
+1. 「**完了**」/「**ビューを保存**」をクリックします。

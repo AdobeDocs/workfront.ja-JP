@@ -2,14 +2,14 @@
 navigation-topic: notifications
 title: イベント通知用のメール件名のカスタマイズ
 description: イベント通知でトリガーされるメールの件名行をカスタマイズできます。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 86%
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 86%
 
 例えば、「自分が更新を受信する対象者として追加されました」には 2 つの異なる件名行があります。1 つ目はタスク、イシュー、テンプレートタスクおよびドキュメント（「referenceObject」とも呼ばれる）に関するもので、2 つ目はオブジェクト（「topReferenceObject」とも呼ばれる）に関するもので、これはユーザーがポートフォリオ、プログラムなどのコメントを作成できるようにするものです。
 
-![&#x200B; イベントの件名が複数ではありません &#x200B;](assets/ev-multiple-subject.png)
+![ イベントの件名が複数ではありません ](assets/ev-multiple-subject.png)
 
 タスク、イシュー、テンプレートタスクやドキュメントに関する会話にユーザーが含まれる場合は、最初の件名行を含むメールが生成されます。件名には「referenceObject:name」が含まれ、システムによってオブジェクトが定義され、件名フィールドに適切な名前が表示されます。 メールの件名行は、「プロジェクト ABC 上のタスク 123 についてのコメント」のようになります。
 
@@ -99,6 +99,6 @@ ht-degree: 86%
 
 
 
-![&#x200B; イベントの件名が複数ではありません &#x200B;](assets/Ev-not-mult-subj-lines.png)
+![ イベントの件名が複数ではありません ](assets/Ev-not-mult-subj-lines.png)
 
 メールの件名行を編集し、どちらかの件名行にフィールドを追加するには、この記事にある[イベント通知のメール件名行をカスタマイズ](#customize-email-subject-lines-for-event-notifications)を参照してください。

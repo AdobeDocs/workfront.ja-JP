@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: 条件付き書式でのフィールドを比較
 description: 条件付き書式を使用すると、ビュー内の 2 つの異なるフィールドを比較し、フィールド間で特定の条件が満たされた場合にそれらをハイライト表示できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 80%
+ht-degree: 83%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 80%
 1. ビルダーにある既存の値を使用した比較条件を入力し、条件付き書式を指定します。\
    例えば、実際の開始日が予定開始日より後（または値が予定開始日より大きい）のタスクを強調表示します。「次よりも大きい」修飾子を選択し、日付フィールドで実際の日付を選択します。
 
-   ![&#x200B; 実際の開始日の条件付き書式 &#x200B;](assets/cond-format-1-350x84.png)
+   ![ 実際の開始日の条件付き書式 ](assets/cond-format-1-350x84.png)
 
 1. （オプション）行全体に書式を適用する場合、「**行全体に適用**」を選択します。
 1. 「**保存**」をクリックします。

@@ -4,13 +4,13 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：タスク リスト内のタスク インデントを表示します
 description: このタスクビューでは、タスク名列にコードを追加して、プロジェクトの作業分割構造に従ってインデントされたタスクを表示できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 63%
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 63%
 
 このタスクビューでは、タスク名列にコードを追加して、プロジェクトの作業分割構造に従ってインデントされたタスクを表示できます。
 
-![&#x200B; タスクのインデントの表示 &#x200B;](assets/view-text-mode-indentation-task-list-350x171.png)
+![ タスクのインデントの表示 ](assets/view-text-mode-indentation-task-list-350x171.png)
 
 ## アクセス要件
 

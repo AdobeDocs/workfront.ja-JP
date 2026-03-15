@@ -1,11 +1,11 @@
 ---
 title: 2024 年第 3 四半期のリソース管理の強化
 description: 2024 年第 3 四半期のリソース管理の強化
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 40ca0460-5a01-4df9-b3dc-72055a272072
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 6%
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 このページでは、2024 年第 3 四半期リリースで行われた、プレビュー環境に対するすべてのリソース管理の機能強化について説明します。 これらの機能強化は、2024 年第 3 四半期リリースの実稼動環境で利用できるようになります。
 
-2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
+2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
 
 ## ワークロードバランサーに反映された休暇
 

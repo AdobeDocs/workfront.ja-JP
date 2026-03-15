@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：タスクおよびプロジェクトの元の問題の詳細
 description: イシューがタスクまたはプロジェクトに変換されると、タスクまたはプロジェクトとイシューの間に解決オブジェクト関係が確立されます。このビューには、タスクまたはプロジェクトが完了すると自動的に完了するイシューのフィールドが表示されます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 62%
+ht-degree: 67%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 62%
 
 ![task_with_resolving_issue_fields.png](assets/task-with-resolving-issue-fields-350x38.png)
 
-詳しくは、[&#x200B; 表示：タスクまたはプロジェクトリストに元のイシュー情報を表示する &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md) も参照してください。
+詳しくは、[ 表示：タスクまたはプロジェクトリストに元のイシュー情報を表示する ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md) も参照してください。
 
 ## アクセス要件
 

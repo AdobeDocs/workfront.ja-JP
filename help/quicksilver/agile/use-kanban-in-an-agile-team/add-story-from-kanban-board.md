@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: かんばんボードからストーリーと問題を追加
 description: かんばんボードから直接、新しいストーリーやイシューをすばやく作成できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 86%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 

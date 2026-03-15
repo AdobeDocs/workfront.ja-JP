@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: レポートの実行中に次のエラーメッセージが表示されます。「現在ログインしていません。」
 description: 「現在ログインしていません」というエラーメッセージについて説明します。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 87%
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 87%
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
      <p>標準</p>
-     <p>ワークまたはそれ以上</p>
+     <p>Work またはそれ以上</p>
    </td> 
   </tr> 
   <tr> 

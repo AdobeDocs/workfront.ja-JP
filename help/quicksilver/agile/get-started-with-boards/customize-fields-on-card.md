@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
 title: カードに表示するフィールドのカスタマイズ
 description: フィールドを無効にしてカードのフルビューや縮小ビューで表示されないようにするか、縮小カードビューでフィールドを非表示にすることで、カードに表示するフィールドをカスタマイズできます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 96%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr> 

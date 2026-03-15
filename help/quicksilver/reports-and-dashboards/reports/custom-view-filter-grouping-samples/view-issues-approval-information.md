@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：承認情報に関する問題
 description: 次のイシュービューには、承認プロセス、ステップ、承認者の名前および承認前のイシューのステータスが表示されます。これらのフィールドの一部は、標準のインターフェイスビルダーからアクセスできません。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4e123844-a0d6-474b-87fb-d30ed391ad07
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 61%
+ht-degree: 67%
 
 ---
 

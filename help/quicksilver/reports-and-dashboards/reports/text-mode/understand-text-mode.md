@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: テキストモードの概要
 description: レポートやリストを構成する要素を作成する際に標準またはテキストモードのインターフェイスを使用して、Adobe Workfront でレポートやリストを作成できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 86%
 
 >[!TIP]
 >
->カスタムフィールドのテキストモードのバージョンを使用することによって、計算カスタムフィールドの機能を拡張することもできます。計算カスタムフィールドを作成するための構文とルールは、レポートやリストで使用するものとは異なります。計算カスタムフィールドの追加について詳しくは、[&#x200B; 計算フィールドのフォームへの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+>カスタムフィールドのテキストモードのバージョンを使用することによって、計算カスタムフィールドの機能を拡張することもできます。計算カスタムフィールドを作成するための構文とルールは、レポートやリストで使用するものとは異なります。計算カスタムフィールドの追加について詳しくは、[ 計算フィールドのフォームへの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 * レポートでテキストモードの使用を開始する前に、テキストモードの言語をより深く理解するために、高度なレポートに関するクラスを受講することを強くお勧めします。
 * Workfront ソフトウェアのアップデート後も作成したレポートがそのまま残るように、標準モードを使用することをお勧めします。テキストモードでは、より複雑な表示、フィルター、グループ化を作成できますが、メンテナンスがより複雑になるため、Workfront ソフトウェアの更新時に保証されません。

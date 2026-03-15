@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: ボードの削除またはアーカイブ
 description: Workfront でボードを削除またはアーカイブできます。ボードを削除すると、Workfront から完全に削除されますが、ボードをアーカイブするとすべてのカードが保持され、後で復元できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 82%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr> 

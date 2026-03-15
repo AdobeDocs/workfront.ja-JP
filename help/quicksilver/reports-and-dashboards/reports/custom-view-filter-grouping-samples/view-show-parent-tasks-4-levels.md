@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：最大 4 レベルの親タスクを表示します
 description: このタスクビューでは、最初の列にタスク名が表示され、（存在する場合は）同じリスト内の別の列に最大 4 つの親タスクが表示されます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 66b45d64-794d-4adc-b208-2ded0dc9c5dc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 

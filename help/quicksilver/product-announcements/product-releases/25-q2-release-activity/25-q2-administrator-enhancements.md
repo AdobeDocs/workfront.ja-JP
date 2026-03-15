@@ -1,20 +1,20 @@
 ---
 title: 2025年第 2 四半期の管理者の機能強化
 description: 2025年第 2 四半期の管理者の機能強化
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 99caa38d-cf0a-4986-b0fe-976cb3b29c58
-source-git-commit: 4cd5a6fca97958c8ba072fab391fd939f531f479
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 25%
+ht-degree: 29%
 
 ---
 
 # 2025年第 2 四半期の管理者の機能強化
 
-このページでは、プレビュー環境の 2025年第 2 四半期リリースで行われた管理者の機能強化について説明します。これらの機能強化は、前述のように実稼動環境で利用できるようになります。
+このページでは、プレビュー環境の 2025年第 2 四半期リリースで行われた管理者の機能強化について説明します。これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2025年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
 
@@ -32,14 +32,14 @@ ht-degree: 25%
 
 検証ロジックの式エディターを使用すると、複雑なロジック式を作成できます。
 
-詳しくは、[&#x200B; カスタムフォームとフィールドへの論理ルールの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) を参照してください。
+詳しくは、[ カスタムフォームとフィールドへの論理ルールの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) を参照してください。
 
 ## 計算カスタムフィールドに追加された式
 
 >[!NOTE]
 >
->プレビューリリース：2025 年 1 月 31 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 1 月 31 日（PT）
+>プレビューリリース：2025年1月31日（PT）、すべての顧客向けの実稼動版リリース：2025年1月31日（PT）
 
 Workfrontの計算カスタムフィールドで、ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT、ADDHOUR の式を使用できるようになりました。 各式の定義と例は、計算エディターとExperience Leagueで入手できます。
 
-詳しくは、[&#x200B; 計算データ式の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
+詳しくは、[ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。

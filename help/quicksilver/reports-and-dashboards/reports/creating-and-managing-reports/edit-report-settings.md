@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: レポート設定を編集する
 description: レポートの設定を編集して、他のユーザーに対するレポートの表示方法や、レポートを実行する前にユーザーが求める情報の種類を定義できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 

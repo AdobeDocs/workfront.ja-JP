@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: ボードからのメンバーの追加または削除
 description: ユーザーがボードを表示したりカードに割り当てられたりする前に、ボードにメンバーとして追加する必要があります。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 58%
+ht-degree: 62%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 58%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr> 
@@ -89,7 +89,7 @@ ht-degree: 58%
 >ボード所有者を変更する機能は、基本、遡及、かんばんボードで使用できますが、動的なボードでは使用できません。
 
 1. ボードにアクセスします。
-1. ボード名の横にある **[!UICONTROL その他]** メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL ボード所有者を変更]**」を選択します。
+1. ボード名の横にある **[!UICONTROL その他]** メニュー ![ その他メニュー ](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL ボード所有者を変更]**」を選択します。
 1. ボード所有者を変更ダイアログボックスで、所有者にするユーザーを検索して選択します。
 
    既にボードのメンバーになっているユーザーを検索することはできません。 既存のメンバーを所有者にするには、まずボードから削除する必要があります。 ユーザーをボードの所有者にすると、ユーザーはボードに追加されます。

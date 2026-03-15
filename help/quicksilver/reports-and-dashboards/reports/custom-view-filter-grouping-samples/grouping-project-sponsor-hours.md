@@ -4,13 +4,13 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: グループ化：プロジェクト スポンサー（時間）
 description: この時間のグループ化では、時間が記録されるプロジェクトスポンサー別に時間数を整理します。時間グループ化の標準 Report Builder インターフェイスでは、プロジェクトスポンサーフィールドへのマッピングは提供されません。このフィールドにアクセスするには、テキストモードインターフェイスを使用する必要があります。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 76%
+ht-degree: 82%
 
 ---
 

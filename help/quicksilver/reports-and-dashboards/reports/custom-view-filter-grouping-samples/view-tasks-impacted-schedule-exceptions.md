@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：スケジュールの例外の影響を受けたタスク
 description: このタスクビューは、週末、個人の休暇またはその他のスケジュール例外が発生した場合に、完了が遅れるタスクを特定します。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d7c77fa-d9a7-4e91-8dae-ad3aaca6f1da
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 67%
+ht-degree: 71%
 
 ---
 

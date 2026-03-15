@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: ワークストリームの管理
 description: ワークストリームは、作業時の共同作業用に設定可能なボードとカードのグループです。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '934'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 97%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr> 

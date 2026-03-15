@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：列内のオブジェクトへのリンクを削除
 description: ビューに表示する一部のオブジェクトは、デフォルトでは、オブジェクトの「詳細」ページにリンクされます。例えば、プロジェクト名を表示する列はプロジェクトへのリンクで、ユーザー名を表示する列はユーザーのプロファイルページへのリンクです。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 72%
+ht-degree: 76%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 72%
 
    または
 
-   **編集アイコン**![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックして既存のビューを編集し、ビューを選択します。
+   **編集アイコン**![ 編集アイコン ](assets/edit-icon.png) をクリックして既存のビューを編集し、ビューを選択します。
 
 1. 「**列を追加**」をクリックして新しい列を追加します。
 

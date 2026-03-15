@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: かんばんボード上の既存のストーリーへのサブタスクの追加
 description: かんばんボード上の既存のストーリーのサブタスクを作成する方法については、この記事を参照してください。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 88%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 

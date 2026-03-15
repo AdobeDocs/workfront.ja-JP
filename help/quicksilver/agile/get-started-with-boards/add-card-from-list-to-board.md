@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Workfront ボードへの既存のタスクまたは問題の追加
 description: リスト表示またはレポート表示からAdobe Workfront のボードに任意のタスクまたはイシューを追加できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 91%
    <td role="rowheader">Adobe Workfront プラン</td>
    <td>
    <p>標準</p> 
-   <p>ワークまたはそれ以上</p>
+   <p>Work またはそれ以上</p>
    </td>
   </tr>
   <tr>

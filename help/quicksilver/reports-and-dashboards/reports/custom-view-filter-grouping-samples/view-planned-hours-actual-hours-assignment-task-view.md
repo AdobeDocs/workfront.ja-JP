@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：タスク ビューの割り当てあたりの予定時間数と実際の時間数
 description: このタスクビューには、タスクの合計予定時間数、各担当者に割り当てられた予定時間数（タスクが複数のユーザーに割り当てられている場合）、タスクの実際の時間数の合計、各担当者が記録した実際の時間数が表示されます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f249ff57-50c7-4aa9-a563-cb7f5562b96a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 37%
+ht-degree: 42%
 
 ---
 

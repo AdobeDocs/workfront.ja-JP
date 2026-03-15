@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: タグを追加
 description: カードにタグを追加して、類似性を視覚的に示すことができます。そうすると、追加したタグでフィルタリングして、関連するカードを表示できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 96%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr> 

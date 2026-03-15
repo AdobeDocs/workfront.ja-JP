@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: フィルター：同じフィールド （「AND」ステートメント）を参照する複数のフィルタールールを作成します
+title: フィルター：同じフィールド（'AND'ステートメント）を参照する複数のフィルタールールを作成します
 description: 標準モードのインターフェイスでは、同じフィールドを参照する複数のフィルターを（AND 修飾子を使用して）作成しようとした場合、レポートを保存して Report Builder を終了すると、フィルターの 1 つが削除されます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 85%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
+   <p>レポートを変更するための「標準」または「プラン」</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -64,8 +64,8 @@ ht-degree: 85%
 
 1. タスクのリストに移動します。
 1. **フィルター**&#x200B;ドロップダウンメニューから、「**新規フィルター**」を選択します。
-1. **テキストモード** をクリックします。
-1. 表示されたボックスに、次のコードを追加します。
+1. **テキストモード**&#x200B;をクリックします。
+1. 表示されるボックスに、次のコードを追加します。
 
    ```
    name=green
@@ -91,4 +91,4 @@ ht-degree: 85%
    >   
    >これらのステートメントでは大文字と小文字が区別されます。
 
-1. **適用** をクリックしてから、**新規保存** をクリックします。
+1. **[適用]**&#x200B;をクリックし、**[新しいファイルとして保存]**&#x200B;をクリックします。

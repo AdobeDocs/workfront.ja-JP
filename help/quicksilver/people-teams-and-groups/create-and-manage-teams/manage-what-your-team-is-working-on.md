@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: チームの作業内容の管理
+title: チームの作業内容を管理
 description: チームが現在作業しているタスクとイシューのカレンダービューを確認できます。未割り当て項目の割り当て、現在の割り当ての調整などを行うことができます。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 88%
@@ -21,4 +21,4 @@ ht-degree: 88%
 
 チームに割り当てられた作業を管理する方法について詳しくは、[[!UICONTROL ワークロードバランサー]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
 
-![&#x200B; ワークロードバランサーを表示するチームページ &#x200B;](assets/team-page-workload-balancer.png)
+![ワークロードバランサーを表示しているチームページ](assets/team-page-workload-balancer.png)

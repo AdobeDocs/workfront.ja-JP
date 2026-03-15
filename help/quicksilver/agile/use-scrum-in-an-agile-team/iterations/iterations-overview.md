@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: イテレーションの概要
+title: Iterations Overview
 description: アジャイルイテレーションは、完了ステータス、バーンダウン、ストーリーボードの 3 つのエリアで構成されます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: db32d3b9-f573-43e3-b4fb-49b75162057b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 92%
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 アジャイルイテレーションは、完了ステータス、バーンダウン、およびストーリーボードの 3 つのエリアで構成されます。
 
-![&#x200B; イテレーション表示 &#x200B;](assets/agile-iteration-with-callouts.png)
+![Iteration view](assets/agile-iteration-with-callouts.png)
 
 バーンダウンチャートと完了ステータスについては、[[!UICONTROL バーンダウン]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)の節を参照してください。
 

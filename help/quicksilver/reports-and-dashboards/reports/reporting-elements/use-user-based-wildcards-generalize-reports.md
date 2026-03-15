@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: ユーザーベースのワイルドカードを使用してレポートを一般化する
 description: 特定のレポート要素を作成するときに、特定の情報の代わりにワイルドカードを使用することで、レポートを一般化できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 

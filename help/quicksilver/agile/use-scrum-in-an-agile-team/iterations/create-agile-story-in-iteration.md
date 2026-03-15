@@ -1,21 +1,21 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: iterations
-title: 反復でのアジャイルストーリーの作成
-description: この記事では、既にイテレーションに参加している場合に新しいアジャイルストーリーを作成する方法について説明します。
-author: Jenny
+title: イテレーションでアジャイルストーリーを作成する
+description: この記事では、既にイテレーションに入っている場合に、新しいアジャイルストーリーを作成する方法について説明します。
+author: Courtney
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
-# 反復でのアジャイルストーリーの作成
+# イテレーションでのアジャイルストーリーの作成
 
-この記事では、既にイテレーションに参加している場合に新しいアジャイルストーリーを作成する方法について説明します。 タスク、イシュー、その他の [!DNL Adobe Workfront] ークフロー領域からアジャイルストーリーを作成する方法については、[&#x200B; 既存の反復にストーリーを追加 &#x200B;](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) を参照してください。
+この記事では、既にイテレーションに入っている場合に、新しいアジャイルストーリーを作成する方法について説明します。 [!DNL Adobe Workfront]のタスク、問題、またはその他の領域からアジャイルストーリーを作成する方法の詳細については、[既存のイテレーションにストーリーを追加する](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)を参照してください。
 
 ## アクセス要件
 
@@ -34,7 +34,7 @@ ht-degree: 80%
   </tr>
    <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>ストーリーが含まれるプロジェクトへのアクセスの管理 </td> 
+   <td>ストーリーが含まれているプロジェクトへのアクセスを管理 </td> 
   </tr>
  </tbody> 
 </table>
@@ -43,9 +43,9 @@ ht-degree: 80%
 
 +++
 
-## 反復でのアジャイルストーリーの作成
+## イテレーションでのアジャイルストーリーの作成
 
-1. ストーリーを作成するアジャイル イテレーションに移動します。
+1. ストーリーを作成するアジャイルイテレーションに移動します。
 
    {{step1-to-team}}
 
@@ -55,7 +55,7 @@ ht-degree: 80%
    1. ストーリーを作成する特定のイテレーションの名前をクリックします。
    1. 左側のパネルで、「**[!UICONTROL ストーリー]**」を選択します。
 
-1.  **[!UICONTROL 新規ストーリー]** をクリックします。
+1.  **[!UICONTROL [新しいストーリー]]**&#x200B;をクリックします。
 1. 次の情報を指定します。
 
    <table style="table-layout:auto">

@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: フィルター：ステータスが異なるグループに関連付けられている場合、同じ名前のステータスで項目を表示します
 description: 3 文字のキー NST を使用して、タスクステータスをグループ A に割り当て、「新しいステータス」という名前を付けることができます。3 文字のキー NES を使用して、別のタスクステータスをグループ B に割り当て、「新しいステータス」という名前を付けることもできます。2 つのステータスの名前は同じにすることができますが、3 文字のコードは常に一意です。グループステータスについて詳しくは、グループステータスを作成または編集を参照してください。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 61%
+ht-degree: 64%
 
 ---
 

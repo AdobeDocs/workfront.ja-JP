@@ -4,13 +4,13 @@ product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：タイムシート ビューで超過コストを計算する
 description: Adobe Workfront では、超過作業時間はデフォルトでは計算されませんが、超過作業時間を計算するタイムシートレポートを作成できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 74%
+ht-degree: 78%
 
 ---
 

@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードへのリクエストキューの埋め込み
 description: 新しいリクエストキューをダッシュボードに埋め込むと、リクエストエリアに移動せずに、ユーザがリクエストキューに直接アクセスできるようになります。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 97%
 
    これにより、リクエストキューまたはキュートピックへのリンクが、画面に表示された状態でコピーされます。ユーザーは、リクエストタイプ、または利用可能なトピックグループおよびキュートピックを更新できます。
 
-   ![&#x200B; 共有パスを使用したリクエストキュー &#x200B;](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![ 共有パスを使用したリクエストキュー ](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### リクエストキューへのリンクとリクエストタイプを変更できる機能を取得 {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -114,7 +114,7 @@ ht-degree: 97%
 
    ユーザーは、必要なトピックグループやキュートピックを選択したり、別のリクエストタイプを選択したりすることができます。
 
-   ![&#x200B; リクエストキューの URL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![ リクエストキューの URL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### リクエストタイプを変更できないリクエストキューへのリンクを取得 {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -143,7 +143,7 @@ ht-degree: 97%
 
    ユーザーは、選択したリクエストタイプに必要な任意のトピックグループまたはキューのトピックを選択できます。別のリクエストタイプは選択できません。
 
-   ![&#x200B; リクエストキューコード &#x200B;](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![ リクエストキューコード ](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## ダッシュボードへのリクエストキューの埋め込み
 
@@ -157,7 +157,7 @@ ht-degree: 97%
 
 1. 「**外部ページを追加**」をクリックします。
 
-   ![&#x200B; 外部ページ &#x200B;](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![ 外部ページ ](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. 「**外部ページを追加**」ボックスで、次のフィールドを編集します。
 

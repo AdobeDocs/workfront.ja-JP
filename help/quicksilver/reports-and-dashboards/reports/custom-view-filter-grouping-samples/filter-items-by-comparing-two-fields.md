@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: フィルター：2 つのフィールドを比較して、リスト内の項目を除外する
 description: 2 つのフィールドを比較することで、リストから項目をフィルタリングできます。例えば、タスクの実際の完了日が予定完了日よりも後のタスクのみを表示できます。
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 72%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
+   <p>レポートを変更するための「標準」または「プラン」</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -56,20 +56,20 @@ ht-degree: 72%
 ## 2 つのフィールドの比較による項目のフィルタリング
 
 1. タスクのリストに移動します。
-1. **フィルター** ドロップダウンメニューから「**新しいフィルター**」を選択します。
+1. **フィルター**&#x200B;ドロップダウンメニューから、**新しいフィルター**&#x200B;を選択します。
 
-1. **タスク :Actual 完了日**/**次の日以降**/**日付を選択** のフィルターを追加します。
+1. **タスク:Actualの完了日** > **次より後** > **日付を選択**&#x200B;のフィルターを追加します。
 
    >[!TIP]
    >
    >選択したフィールドに使用するフィルター修飾子を選択します（使用可能な場合）。
 
-1. **テキストモード** をクリックします。
-1. 表示された領域で、次のコードを追加します。
+1. **テキストモード**&#x200B;をクリックします。
+1. 表示される領域に、次のコードを追加します。
 
    ```
    actualCompletionDate=FIELD:plannedCompletionDate
    actualCompletionDate_Mod=gt
    ```
 
-1. **適用**/**新規保存** をクリックします。
+1. **適用** > **新規として保存**&#x200B;をクリックします。

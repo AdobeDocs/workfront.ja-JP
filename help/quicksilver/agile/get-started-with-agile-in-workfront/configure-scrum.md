@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: スクラムの設定
 description: スクラムアジャイルチームに対しては、チーム作成中または作成後に、次のオプションを設定できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 76%
@@ -15,7 +15,7 @@ ht-degree: 76%
 
 # [!UICONTROL スクラム]の設定
 
-[!DNL Adobe Workfront] アジャイルチームの作成 [&#x200B; の説明に従って、](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) でアジャイルチームを作成できます。 アジャイルチームを作成する際に、チームが作業を完了するために使用する方法を選択できます。 以下のオプションから選択できます。
+[!DNL Adobe Workfront] アジャイルチームの作成 [ の説明に従って、](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) でアジャイルチームを作成できます。 アジャイルチームを作成する際に、チームが作業を完了するために使用する方法を選択できます。 以下のオプションから選択できます。
 
 * スクラム
 * かんばん
@@ -79,10 +79,10 @@ ht-degree: 76%
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL &#x200B; 標準 &#x200B;]、[!UICONTROL &#x200B; プラン &#x200B;] または [!UICONTROL &#x200B; ワーク &#x200B;] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
+   [!UICONTROL  標準 ]、[!UICONTROL  プラン ] または [!UICONTROL  ワーク ] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
-1. **[!UICONTROL アジャイル]**&#x200B;セクションの&#x200B;**[!UICONTROL ストーリーを見積もり]**&#x200B;エリアで、ストーリーのサイズ（作業負荷）の見積もりにポイントと時間を使用するかどうかを選択します。ポイントを選択した場合は、1 ポイントが何時間に相当するかを指定します。（デフォルトは 1 ポイント = 8 時間です）。 これは、ストーリーに追加された予定時間数です。
+1. **[!UICONTROL アジャイル]**&#x200B;セクションの&#x200B;**[!UICONTROL ストーリーを見積もり]**&#x200B;エリアで、ストーリーのサイズ（作業負荷）の見積もりにポイントと時間を使用するかどうかを選択します。ポイントを選択した場合は、1 ポイントが何時間に相当するかを指定します。（デフォルトは1 pt = 8時間）。 これは、ストーリーに追加される計画時間数です。
 
    **例：**&#x200B;ストーリーをポイント単位で見積もることを選択し、1 ポイントが 8 時間に相当し、ストーリーが 3 ポイントと見積もられる場合、24 予定時間数がストーリーに追加されます。
 
@@ -99,7 +99,7 @@ ht-degree: 76%
 
 アジャイルチームのストーリーボードに存在するステータスを定義できます。 ストーリーボードに表示されるステータスはこれらのみです。
 
-アジャイルチームに関連付けられたストーリーボードに使用できるステータスを定義するには：
+アジャイルチームに関連付けられたストーリーボードで使用可能なステータスを定義するには、次の手順を実行します。
 
 {{step1-to-team}}
 
@@ -135,9 +135,9 @@ ht-degree: 76%
 
 ### プロジェクトのステータス列を設定 {#configure-status-columns-for-projects}
 
-プロジェクトのステータス列を設定する方法については、[&#x200B; [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でビューを作成または編集の記事の、[[!UICONTROL アジャイル]ビューを作成またはカスタマイズ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)の節を参照してください。
+プロジェクトのステータス列を設定する方法については、[ [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でビューを作成または編集の記事の、[[!UICONTROL アジャイル]ビューを作成またはカスタマイズ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)の節を参照してください。
 
-## アジャイルストーリーボードのストーリーカードに表示する追加フィールドの設定
+## アジャイルのストーリーボードのストーリーカードに表示する追加フィールドの設定
 
 フィールドをストーリーカードに追加すると、フィールドは表示専用となり、フィールドにデータが入力されている場合にのみ表示されます。
 

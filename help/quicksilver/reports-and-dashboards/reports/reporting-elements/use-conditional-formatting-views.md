@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: ビューでの条件付き形式の使用
 description: レポートを Adobe Workfront の他のユーザーと共有する際は、レポートの表示をカスタマイズし、特定の情報を読みやすく、または目立つようにすることを検討します。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -50,8 +50,8 @@ ht-degree: 95%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</strong></td> 
    <td> 
-    <p>レポート ビューの標準またはプラン</p>
-    <p>投稿者またはリスト表示のリクエスト</p>
+    <p>レポートビューの標準またはプラン</p>
+    <p>共同作成者またはリストビューの要求</p>
    </td>
   </tr> 
   <tr> 
@@ -135,7 +135,7 @@ ht-degree: 95%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>テキストの色</strong></td> 
-      <td> <p>カラーセレクターを使用して、テキストの表示カラーを選択します。</p> <p><b>メモ</b></p> <p> フィールドにハイパーリンクが含まれている場合、テキストの色の選択はこのフィールドには適用されません。</p> </td> 
+      <td> <p>カラーセレクターを使用して、テキストの表示色を選択します。</p> <p><b>メモ</b></p> <p> フィールドにハイパーリンクが含まれている場合、テキストの色の選択はこのフィールドには適用されません。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>テキスト形式</strong></td> 

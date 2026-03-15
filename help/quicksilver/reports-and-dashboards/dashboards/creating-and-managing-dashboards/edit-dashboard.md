@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードの編集
 description: ダッシュボードの目的は、情報にすばやくアクセスできるようにすることです。ダッシュボードには、レポート、カレンダーおよび外部ページを追加できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 85%
 1. 編集するダッシュボードに移動します。
 1. 「**ダッシュボードの操作**」をクリックしたあと、「**編集**」をクリックします。
 
-   ![&#x200B; ダッシュボードを編集 &#x200B;](assets/unshimmed-edit-dashboard.png)
+   ![ダッシュボードの編集](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >
@@ -90,7 +90,7 @@ ht-degree: 85%
    * **名前**：ダッシュボードの名前を編集します。
    * **説明**：ダッシュボードの説明を指定します。
 
-1. [**利用可能な報告書とカレンダー**] セクションで、検索バーに報告書、カレンダー、または外部ページの名前を入力し始め、レイアウト ウィンドウで、右側に報告書、カレンダー、または外部ページをドラッグ アンド ドロップします。
+1. [**使用可能なレポートと予定表**]セクションで、検索バーにレポート、予定表、または外部ページの名前を入力し、レイアウトウィンドウでレポート、予定表、または外部ページを右にドラッグアンドドロップします。
 
    >[!NOTE]
    >

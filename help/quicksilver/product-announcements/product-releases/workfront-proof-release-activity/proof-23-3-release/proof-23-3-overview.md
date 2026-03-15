@@ -3,12 +3,12 @@ product-previous: workfront-proof
 content-type: release-notes
 navigation-topic: proof-release-activity
 title: 23.3 リリースに伴う Adobe Workfront Proof
-description: このページでは、23.3 リリースに伴い実稼動環境にリリースされる、新しい Adobe Workfront エクスペリエンスにおける Adobe Workfront Proof の機能について説明します。
-author: Nolan
+description: このページでは、23.3 リリースに伴い本番環境にリリースされる、新しい Adobe Workfront エクスペリエンスにおける Adobe Workfront Proof の機能について説明します。
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # 23.3 リリースに伴う Adobe Workfront Proof
 
-このページでは、23.3 リリース期間内に実稼動環境にリリースされる Adobe Workfront Proof の機能について説明します。
+このページでは、23.3 リリース期間内に本番環境にリリースされる Adobe Workfront Proof の機能について説明します。
 
 23.3 リリースサイクルのこの時点での Workfront のすべてのエリアで利用可能なすべての変更のリストについては、[23.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)を参照してください。
 

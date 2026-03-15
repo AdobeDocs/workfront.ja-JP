@@ -1,11 +1,11 @@
 ---
 title: 2024年第 2 四半期のドキュメント管理の機能強化
 description: 2024年第 2 四半期のドキュメント管理の機能強化
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # 2024年第 2 四半期のドキュメント管理の機能強化
 
-このページでは、2024年第 2 四半期にプレビュー環境にリリースされた、すべてのドキュメント管理の機能強化について説明します。この機能強化は、2024年第 2 四半期のリリースにおいて実稼動環境で利用できるようになります。
+このページでは、2024年第 2 四半期にプレビュー環境にリリースされた、すべてのドキュメント管理の機能強化について説明します。この機能強化は、2024年第 2 四半期のリリースにおいて本番環境で利用できるようになります。
 
 2024年第 2 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)を参照してください。
 

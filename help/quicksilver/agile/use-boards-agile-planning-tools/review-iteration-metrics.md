@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: イテレーション指標のレビュー
 description: 指標は、ワークストリームのイテレーションプロセスボード上でイテレーションごとに利用できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 91%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr> 

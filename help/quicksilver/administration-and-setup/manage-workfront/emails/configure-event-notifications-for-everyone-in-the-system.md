@@ -1,14 +1,14 @@
 ---
 title: システム内の全員に対するイベント通知の設定
 description: イベント通知は、特定のイベントが発生したときにユーザーにメールを送信します。Adobe Workfront 管理者またはプランナーのアクセスレベルを持つユーザーは、システム内のすべてのユーザーに対するイベント通知を設定できます。イベント通知の設定は、その設定の有効化と無効化で構成されます。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 83%
 
 1. **メール**／**通知**&#x200B;をクリックします。
 
-   ![&#x200B; 設定メールの通知領域 &#x200B;](assets/notifications-area-under-setup-emails.png)
+   ![ 設定メールの通知領域 ](assets/notifications-area-under-setup-emails.png)
 
 
 1. 「**イベント通知**」タブが開くことを確認します。
@@ -84,7 +84,7 @@ ht-degree: 83%
 
    メール通知の件名行のカスタマイズについて詳しくは、[イベント通知のメール件名をカスタマイズする](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)を参照してください。
 
-1. （オプション）メール通知の設定のロックを解除して、グループ管理者がグループごとに個別に設定できるようにする場合は、通知の右側にあるボタン ![&#x200B; ロック切り替え &#x200B;](assets/lock-toggle-button.png) をクリックして、ロック解除位置 ![&#x200B; ロック解除切り替え &#x200B;](assets/unlock-toggle-button.png) に切り替えます。
+1. （オプション）メール通知の設定のロックを解除して、グループ管理者がグループごとに個別に設定できるようにする場合は、通知の右側にあるボタン ![ ロック切り替え ](assets/lock-toggle-button.png) をクリックして、ロック解除位置 ![ ロック解除切り替え ](assets/unlock-toggle-button.png) に切り替えます。
 
    詳しくは、[すべてのグループに対するイベント通知の設定をロックまたはロック解除](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)を参照してください。
 

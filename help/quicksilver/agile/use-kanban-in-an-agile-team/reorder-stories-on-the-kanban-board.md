@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: かんばんボード上のストーリーの並べ替え
 description: 場合によっては、かんばんボードのステータス列内にストーリーを表示する順序を変更する必要があります。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 92%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
  </tbody> 
 </table>

@@ -4,11 +4,11 @@ product-area: reporting
 navigation-topic: reports
 title: レポート要素の概要
 description: Adobe Workfront のレポートとリストはすべて、ビュー、フィルター、グループ化の 3 つの重要な要素を組み合わせたものです。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%

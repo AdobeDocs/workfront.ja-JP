@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: スクラムボード上のストーリーとサブタスクのステータスの更新
 description: アジャイルストーリーボードから直接ストーリーのステータスを変更して、ストーリーがイテレーションまたはプロジェクト全体でどのように進行しているかを反映させることができます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 71%

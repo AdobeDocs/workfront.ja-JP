@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: イテレーションを表示
 description: 特定のチームのすべての反復を表示することも、個々の反復を表示することもできます。反復には、その反復に含まれるストーリー、イシュー、ドキュメントに関するデータが表示されます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 85%
+ht-degree: 91%
 
 ---
 

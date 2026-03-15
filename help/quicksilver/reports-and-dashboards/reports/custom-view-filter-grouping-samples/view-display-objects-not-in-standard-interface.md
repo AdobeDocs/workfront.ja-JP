@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：標準インタフェースに含まれていないオブジェクトを表示します
 description: 標準モードのインターフェイスに含まれていないオブジェクトをビューで表示できます。テキストモードで参照する場合にのみ、これを実行できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 

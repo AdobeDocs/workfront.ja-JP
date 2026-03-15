@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: ボードへのアドホックカードの追加
+title: 掲示板にアドホックカードを追加する
 description: アドホックカードをボードにすばやく追加して、ボード上のメンバーに割り当てることができます。カードは、タスク、イシュー、ユーザー、グループまたはボードに含める任意のタイプのアイテムを表すことができます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 93%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr> 
@@ -110,7 +110,7 @@ ht-degree: 93%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>「<strong>[!UICONTROL New comment]</strong>」フィールド内をクリックして、コメントを入力します。書式設定ツールを使用して、テキストの書式を設定します。 （アドホックカードのコメントでは画像を使用できません）。 ユーザーまたはチームにタグ付けするには、コメント領域の下部にある検索ボックスを使用します。 ユーザーは、ボード上のメンバーである必要はありません。</p><p><strong>メモ：</strong> 現時点では、アドホックカードのコメントでタグ付けされたユーザーにはメール通知は送信されません。
+      <td><p>「<strong>[!UICONTROL New comment]</strong>」フィールド内をクリックして、コメントを入力します。書式設定ツールを使用して、テキストを書式設定します。 （アドホックカードの注釈には画像を使用できません）。 ユーザーまたはチームにタグを付けるには、コメント領域の下部にある検索ボックスを使用します。 ユーザーは、ボード上のメンバーである必要はありません。</p><p><strong>メモ：</strong> 現時点では、アドホックカードのコメントでタグ付けされたユーザーにはメール通知は送信されません。
       </p><p>「<strong>[!UICONTROL Submit]</strong>」をクリックして、コメントをカードに追加します。</p>
       <p>コメント機能について詳しくは、<a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">作業の更新</a>を参照してください。</p></td>
      </tr>

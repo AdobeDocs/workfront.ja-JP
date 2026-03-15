@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: スクラムボード上のストーリーへのユーザーの割り当て
 description: スクラムボード上のストーリーにユーザーを割り当てる方法については、この記事を参照してください。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 88%

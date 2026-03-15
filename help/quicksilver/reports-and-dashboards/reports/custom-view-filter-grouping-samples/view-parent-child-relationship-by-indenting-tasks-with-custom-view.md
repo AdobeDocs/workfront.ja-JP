@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：タスクをインデントしてタスクの親子関係を表示します
 description: タスクリストにカスタムビューを追加し、リストを書き出す前にこのビューが選択されていることを確認することで、書き出したタスクリストで親子関係の区別を維持できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 72%
 
 タスクリストにカスタムビューを追加し、リストを書き出す前にこのビューが選択されていることを確認することで、書き出したタスクリストで親子関係の区別を維持できます。
 
-![&#x200B; 親の子インデント &#x200B;](assets/parent-child-indented-custom-view-350x94.png)
+![ 親の子インデント ](assets/parent-child-indented-custom-view-350x94.png)
 
 ## アクセス要件
 

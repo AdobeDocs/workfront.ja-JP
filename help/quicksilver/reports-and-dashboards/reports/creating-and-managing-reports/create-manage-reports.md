@@ -4,11 +4,11 @@ product-area: reporting
 navigation-topic: reports
 title: レポートを作成および管理する
 description: レポートの作成および管理を学ぶ
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 89%
@@ -26,7 +26,7 @@ ht-degree: 89%
 * [レポートの実行](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
 * [マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
 * [レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-* [&#x200B; 時間枠でレポートをフィルタリング &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
+* [ 時間枠でレポートをフィルタリング ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
 * [レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [レポートへのグラフの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
 * [レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)
@@ -39,7 +39,7 @@ ht-degree: 89%
 * [一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
 * [レポート設定の編集](../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
 * [レポートの所有者の変更](../../../reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-* [&#x200B; 仕訳レポートを使用した更新領域のレポート &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+* [ 仕訳レポートを使用した更新領域のレポート ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
 * [ユーザーのデリゲーションレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
 
 <!--outdated: For in-depth training on reports, see [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

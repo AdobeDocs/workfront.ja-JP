@@ -1,11 +1,11 @@
 ---
 title: 2024年第 1 四半期のボードの機能強化
 description: 2024年第 1 四半期のボードの機能強化
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fc47f84-b419-4a0e-8945-cfcac1e87be8
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # 2024年第 1 四半期のボードの機能強化
 
-このページでは、プレビュー環境に対して 2024年第 1 四半期リリースで行われたすべてのボードの機能強化について説明します。これらの機能強化は、24.1 リリースの実稼動環境で使用できるようになりました。
+このページでは、プレビュー環境に対して 2024年第 1 四半期リリースで行われたすべてのボードの機能強化について説明します。これらの機能強化は、24.1 リリースの本番環境で使用できるようになりました。
 
 2024年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2024年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)を参照してください。
 

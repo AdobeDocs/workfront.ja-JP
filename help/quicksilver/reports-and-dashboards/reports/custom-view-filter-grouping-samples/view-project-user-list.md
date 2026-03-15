@@ -4,13 +4,13 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：担当業務を持つプロジェクトユーザーのリスト
 description: このビューをプロジェクトリストまたはレポートに適用して、プロジェクトに関連付けられているユーザーのリストと、プロジェクトで実行する担当業務のリストを表示できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a3f59f69-7f39-4814-bd2f-7734d620081e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 74%
+ht-degree: 78%
 
 ---
 

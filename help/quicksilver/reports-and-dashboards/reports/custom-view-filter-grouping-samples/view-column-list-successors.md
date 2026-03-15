@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：列にタスクの後続タスクのリストを追加
 description: タスクビューに列を追加して、後続タスクのリストを表示できます。後続タスクの列には、後続タスクの番号と名前が含まれます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 

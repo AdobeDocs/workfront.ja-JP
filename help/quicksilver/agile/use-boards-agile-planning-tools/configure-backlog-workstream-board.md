@@ -4,13 +4,13 @@ content-type: reference
 navigation-topic: boards
 title: ワークストリームボードでのバックログの設定
 description: ワークストリームのボードにバックログ列の表示を選択し、ワークストリームカードリストからボードバックログに取り込まれるカードのクエリを定義できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr> 

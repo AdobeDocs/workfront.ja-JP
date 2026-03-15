@@ -5,13 +5,13 @@ keywords: 監査, 履歴, カスタム, フィールド
 navigation-topic: calculate-custom-data-reports
 title: 計算済みカスタムフィールドの例：フィールドの編集履歴の表示
 description: ユーザーが定期的にカスタムフィールドを更新し、フィールドに加えられたすべての変更のログと変更が発生した日付をキャプチャする場合は、計算済みカスタムフィールドにその情報をキャプチャすることができます。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 52%
+ht-degree: 55%
 
 ---
 

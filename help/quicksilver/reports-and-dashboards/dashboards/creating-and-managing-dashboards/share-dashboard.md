@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードの共有
 description: Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当てるときに、ダッシュボードを表示または編集するためのアクセス権を付与します。ユーザーに付与するアクセスレベルに加えて、自分が共有を行うアクセス権を持っている特定のダッシュボードを、表示、管理する権限をユーザーに付与することもできます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 76%
+ht-degree: 79%
 
 ---
 

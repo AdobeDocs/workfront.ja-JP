@@ -1,20 +1,20 @@
 ---
 title: 2025年第 1 四半期の更新ストリームと通知の機能強化
 description: 2025年第 1 四半期の更新ストリームと通知の機能強化
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
-source-git-commit: ec74d34bc69f2f1424414453f9fdf94e539a75fd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 41%
+ht-degree: 46%
 
 ---
 
 # 2025年第 1 四半期の更新ストリームと通知の機能強化
 
-このページでは、プレビュー環境への 2025年第 1 四半期リリースで行われた、すべての更新ストリームと通知の機能強化について説明します。この機能強化は、2025年第 1 四半期のリリースにおいて実稼動環境で利用できるようになります。
+このページでは、プレビュー環境への 2025年第 1 四半期リリースで行われた、すべての更新ストリームと通知の機能強化について説明します。この機能強化は、2025年第 1 四半期のリリースにおいて本番環境で利用できるようになります。
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
 
@@ -26,7 +26,7 @@ ht-degree: 41%
 
 ホームのメンションウィジェットとマイアップデート領域のメンションセクションのコメント機能が更新されます。 現在は、ほとんどのWorkfront オブジェクトの「更新」領域にある同じエクスペリエンスが、メンションウィジェットと「マイアップデート」の「メンション」セクションでも利用できるようになりました。
 
-この機能強化に先立って、これらの領域では従来のコメントエクスペリエンスを使用できました。
+この機能強化以前は、これらの領域で従来のコメントエクスペリエンスが使用できました。
 
 >[!NOTE]
 >
@@ -38,6 +38,6 @@ ht-degree: 41%
 
 詳しくは、次の記事を参照してください。
 
-* [&#x200B; ホームでウィジェットを追加、編集、削除 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
+* [ ホームでウィジェットを追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 
 * [マイ更新エリアの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md)

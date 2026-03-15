@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：親タスクの名前をすべて大文字で表示
 description: この列をタスクビューに追加すると、親タスクの名前をすべて大文字で表示できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 63%
+ht-degree: 69%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 63%
 
 この列をタスクビューに追加すると、親タスクの名前をすべて大文字で表示できます。
 
-![&#x200B; すべて大文字の親タスクを含む列 &#x200B;](assets/column-task-with-all-caps-parent-350x112.png)
+![ すべて大文字の親タスクを含む列 ](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## アクセス要件
 
@@ -60,7 +60,7 @@ ht-degree: 63%
 タスクビューでこの列を作成するには、以下のように行います。
 
 1. タスクのリストに移動します。
-1. **表示** ドロップダウンメニューからビューを選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. **表示** ドロップダウンメニューからビューを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 または\
    **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 

@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: アジャイル計画ツールの概要：記事インデックス
 description: アドホックなカードと接続されたカードを使用してボードを作成する場合、ボード上の追加のアジャイル計画ツールを利用できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 54%
+ht-degree: 64%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 54%
 * [ボードへの取り込み列の追加](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [ボードでのグループの使用](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [カードの減少を設定する](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Agile Team のかんばんカードのWorkfront ボードへの移行](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+* [アジャイルチームのかんばんカードの Workfront ボードへの移行](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [ワークストリームでイテレーションを作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)

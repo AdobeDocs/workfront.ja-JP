@@ -3,11 +3,11 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: テキストモード構文の概要
 description: テキストモードのインタフェースを使用すると、リストおよびレポート内で、より複雑なビュー、フィルター、グループ化、およびカスタマイズされたプロンプトを作成できます。テキストモードを使用すると、標準モードのインターフェイスでは使用できないフィールドとその属性にアクセスできます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 98%

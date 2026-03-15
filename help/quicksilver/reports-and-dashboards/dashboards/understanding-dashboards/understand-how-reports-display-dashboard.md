@@ -4,10 +4,10 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: ダッシュボードでのレポートの表示について
 description: ダッシュボードに追加されたレポートの表示方法を管理できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5ec2380e-e4fc-42f5-a553-b61c11573b9b
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 40%

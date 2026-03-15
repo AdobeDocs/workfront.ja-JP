@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算済みカスタムフィールドの例：イシューのカスタムフォームにイシュー作成者の管理者を表示する
 description: 計算済みカスタムフィールドを使用すると、イシューに添付されたカスタムフォームにイシュー作成者の管理者の名前を表示できます。同じ文を使用して、プロジェクト、イシュー、その他のオブジェクトに類似した計算フィールドを作成できます。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 92%
    カスタムフォームの作成方法とカスタムフォームに計算済みフィールドを追加する方法について詳しくは、次の記事を参照してください。
 
    * [カスタムフォームを作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
-   * [計算フィールドをフォームに追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+   * [フォームへの計算フィールドの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 
 1. 次のテキストモードコードをカスタムフォームの&#x200B;**計算**&#x200B;フィールドにコピーして貼り付けます：
 

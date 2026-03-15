@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：問題の送信パス
 description: イシューレポートのビューに、イシューが送信されたパスを表示できます。このパスは、イシューが最初に送信されたキュー、トピックグループ、キューのトピックを指します。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 61%
+ht-degree: 67%
 
 ---
 

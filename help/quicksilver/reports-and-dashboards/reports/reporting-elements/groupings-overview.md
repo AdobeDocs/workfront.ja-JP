@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Adobe Workfront でのグループの概要
 description: グループ化を追加して、レポートやリストの情報のレイアウトを管理できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 85%
@@ -34,7 +34,7 @@ ht-degree: 85%
 
 デフォルトでは、レポートまたはリストでグループ化がグレーのハイライトで表示されます。 レポートまたはリストの結果は、個々のグループの下に、ハイライトなしで表示されます。
 
-![&#x200B; グループ化の例 &#x200B;](assets/grouping-example-blue.png)
+![ グループ化の例 ](assets/grouping-example-blue.png)
 
 1 つのレポートには、最大 3 つのグループを追加できます。マトリックスレポートを作成すると、最大 4 つのグループに分けて情報を整理できます。マトリックスレポートについて詳しくは、[マトリックスレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)を参照してください。
 
@@ -67,7 +67,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->&#x200B;> グループ内の次のフィールドの値を集計する場合は、親オブジェクト（親タスクなど）に次の例外が適用されます。
+>> グループ内の次のフィールドの値を集計する場合は、親オブジェクト（親タスクなど）に次の例外が適用されます。
 >
 >* 実際の時間数を除くすべての数値、通貨、日付のフィールドで、子タスクとスタンドアロン タスクの値のみを集計します。 親タスクまたは親の親の値は集計されません。 親タスクのみを含むリストの数値、通貨、日付の各フィールドを集計しても、グループ化バーに集計値が表示されません。
 >

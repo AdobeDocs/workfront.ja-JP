@@ -3,20 +3,20 @@ content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
 title: データ接続クエリの例
-description: クエリの例を使用すると、特定の種類のクエリの構文と構造を把握できます。
-author: Nolan
+description: サンプルクエリを使用すると、特定の種類のクエリの構文と構造に慣れることができます。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '923'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Workfront Data Connect クエリの例
 
-このページには、Workfront Data Connect データをより有効に活用するために、特定の種類のクエリの構文と構造を理解するために使用できる、基本的なクエリの例が含まれています。
+このページには、Workfront Data Connectのデータをより効果的に活用するために、特定の種類のクエリの構文と構造に慣れるために使用できる基本的なサンプルクエリが含まれています。
 
 ## カスタムデータクエリ
 
@@ -50,10 +50,10 @@ WHERE ExpandedProjectName is not null
 
 上記のクエリは、次のデータを返します。
 
-* `projectid`：ネイティブ Workfront プロジェクト ID。
-* `parametervalues`:JSON オブジェクトを格納する列。
-* `name`: Workfrontのネイティブ プロジェクト名。
-* `Business Unit`:`parametervalues` オブジェクトに含まれるカスタムデータ値。
+* `projectid`:ネイティブのWorkfrontプロジェクトID。
+* `parametervalues`: JSONオブジェクトを格納する列です。
+* `name`:ネイティブのWorkfrontプロジェクト名です。
+* `Business Unit`: `parametervalues`オブジェクトに含まれるカスタムデータ値です。
 * `Project ID`:`parametervalues` オブジェクトに含まれるカスタムデータ値。
 * `Expanded Project Name`:`parametervalues` オブジェクトに含まれるカスタムデータ値。
 
@@ -63,8 +63,8 @@ WHERE ExpandedProjectName is not null
 
 `<field_name>:"<parameter_name>"::<data_type> as <column_name>`
 
-* `<field_name>` は、クエリ対象のテーブル内の JSON オブジェクトの名前です。 カスタムデータの場合、これは常に `parametervalues` になります。
-* `<parameter_name>` はフォーム設定ツールで見つかった `parametername` 文字列ですが、この値と一致しない場合もあります。
+* `<field_name>`は、照会されているテーブル内のJSONオブジェクトの名前です。 カスタムデータの場合、これは常に`parametervalues`になります。
+* `<parameter_name>`は、フォーム構成ツールで見つかった`parametername`文字列ですが、常にこの値と一致するとは限りません。
 
 >[!NOTE]
 >
@@ -94,9 +94,9 @@ WHERE ExpandedProjectName is not null
 
 ### シナリオ
 
-組織のリーダーは、作業ライフサイクルの各段階で時間を費やしすぎていると考えています。 プロセスを改善するためのレコメンデーションを行う前に、プロジェクトのステータスが時間の経過と共に変化する頻度と、プロジェクトが特定のステータスにとどまる日数のベースライン測定を作成します。
+組織のリーダーシップは、作業ライフサイクルの各段階で時間を費やしすぎていると考えています。 プロセスを改善するための推奨事項を作成する前に、プロジェクトのステータスが時間経過とともに変化する頻度およびプロジェクトが特定のステータスにとどまる日数を測定する基準を作成する必要があります。
 
-PROJECTS_EVENT データビューを使用して、プロジェクトオブジェクトに対する各ステータス変更のリストを取り込みます。 新しいステータスを前のステータスと比較し、以前に割り当てられたステータスの有効な時間範囲を取得して、そのステータスで費やした日数を計算します。
+PROJECTS_EVENTデータビューを使用して、プロジェクトオブジェクトに対する各ステータス変更のリストを取り込みます。 新しいステータスを前のステータスと比較し、前に割り当てられたステータスの有効時間範囲を取得し、そのステータスで費やされた日数を計算します。
 
 このプロジェクトごとの各ステータスでの滞在時間の生の出力を使用すると、ビジュアライゼーションの作成を開始したり、データをさらに集計して、ステータス、プロジェクトタイプまたは年の時間別にステータス期間の平均を作成したりできます。 その後、このベースラインを使用して、リーダーシップの期待に応えるために測定できるベンチマークを設定します。
 
@@ -151,7 +151,7 @@ FROM
 
 上記のクエリは、次のデータを返します。
 
-* `PROJECTID`：ステータス変更イベントに関連付けられたWorkfront プロジェクト ID。
+* `PROJECTID`:ステータス変更イベントに関連付けられたWorkfrontプロジェクトID。
 * `PROJECT_NAME`:Workfrontのプロジェクト名。
 * `PREVIOUS_STATUS`：変更直前のプロジェクトのステータス。
 * `STATUS`：変更後のプロジェクトのステータス。
@@ -161,31 +161,31 @@ FROM
 
 ### 説明
 
-クエリでは、Data Connect の変更イベントトラッキング機能を使用します。  以前のイベントとは異なる新しいステータス値を持つイベントがトリガーされた日付を特定します。 
+クエリは、データ接続の変更イベント追跡機能を使用します。  以前のイベントとは異なる新しいステータス値を持つイベントがトリガーされた日付を決定します。 
 
-クエリを内側から確認します。 
+クエリを内側から外側に表示する： 
 
-1. 前のステータスが異なるレコードを計算： 
+1. 前の状態が異なるレコードを計算する： 
    * すべての変更イベントに対して、lag （）関数を使用して status の以前の値を特定します。 
 
 2. 変更されたレコードのみをフィルタリングします。 
 
    * ステップ 1 の計算（前のステータス）からレコードを選択します。=現在のステータス。 
 
-3. 開始/終了有効タイムスタンプおよび期間を日数で計算します。 
+3. 開始/終了有効タイムスタンプと期間を日単位で計算します。 
 
-   * `<status_begin_effective_timestamp>`：手順 2 で計算します。 
+   * `<status_begin_effective_timestamp>`：手順2で計算されました。 
 
-   * `<status_end_effective_timestamp>`：次の（lead （））に基づいて計算されます。 `<status_begin_effective_timestamp>`: ステータスが NULL でない場合 `<status_begin_effective_timestamp>` のみ表示されます。 
+   * `<status_end_effective_timestamp>`：次の(lead())に基づいて計算されます。 `<status_begin_effective_timestamp>`: ステータスが NULL でない場合 `<status_begin_effective_timestamp>` のみ表示されます。 
    * `<status_duration_days>`:`<status_begin_effective_timestamp>` と `<status_end_effective_timestamp>` のデータの違い 
 
 >[!NOTE]
 >
 >PowerBI または Tableau では、このクエリを独自の「ビュー」として使用することをお勧めします。  `<object>_event view` から他のフィールドを取り込む場合は、このクエリからの出力を `<object>_event view` に結合し直します。  結合フィールドは次のようになります。<br>
->&#x200B;>projects_event の場合： 
->&#x200B;>`From projects_event p`
->&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
->&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>projects_event の場合： 
+>`From projects_event p`
+>`Join <above query> c on c.projectid = p.projectid  `
+>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

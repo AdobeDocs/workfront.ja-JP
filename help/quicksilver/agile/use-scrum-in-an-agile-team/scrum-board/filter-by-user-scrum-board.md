@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: スクラムボードのユーザーでフィルタリング
 description: スクラムボードのフィルターを使用して、どの作業項目が他のユーザーに関連付けられ、どの作業項目が未割り当てであるかを確認できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: ccb1dc6e-b6c0-4897-9278-7410f10d40ae
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 

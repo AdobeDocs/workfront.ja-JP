@@ -4,13 +4,13 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: グループ化：時間リスト内のプロジェクト所有者のホーム グループ
 description: プロジェクト所有者のホームグループの名前を時間リストまたはレポートに表示できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 

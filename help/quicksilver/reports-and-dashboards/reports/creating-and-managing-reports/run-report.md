@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: レポートを実行する
 description: 表示するアクセス権のあるすべてのレポートを実行できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -92,7 +92,7 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
 
 * レポート設定を編集し、レポートを保存します。
 * ビュー、グループまたはフィルターを変更します。
-* **再読み込みアイコン**![&#x200B; 再読み込みアイコン &#x200B;](assets/unshimmed-report-refresh-icon.png) をクリックします
+* **再読み込みアイコン**![ 再読み込みアイコン ](assets/unshimmed-report-refresh-icon.png) をクリックします
 このオプションは、レポートが保存された時刻を示すメッセージ ボックス内のページの右上隅か、レポートが配置されているダッシュボードの右上隅にあります。 ダッシュボードの再読み込みについて詳しくは、[ダッシュボードの概要](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)の記事の「ダッシュボードを表示」の節を参照してください。
 
 * 「概要」タブ、「マトリックス」タブまたは「グラフ」タブに移動して、最初のページ以外のレポートのページにアクセスします。

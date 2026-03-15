@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: カードの管理
 description: カードは、ボード上の任意の列に移動したり、カードをコピーしたりできます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr> 

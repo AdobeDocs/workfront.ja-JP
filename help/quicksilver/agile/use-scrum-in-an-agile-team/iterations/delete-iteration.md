@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: イテレーションを削除
 description: アジャイルチームのイテレーションが不要になった場合は、削除できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 52%
@@ -56,4 +56,4 @@ ht-degree: 52%
 1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
 1. 左のパネルで、「**[!UICONTROL イテレーション]**」を選択します。
-1. 削除するイテレーションを選択し、「[!UICONTROL **削除**]」アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+1. 削除するイテレーションを選択し、「[!UICONTROL **削除**]」アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。

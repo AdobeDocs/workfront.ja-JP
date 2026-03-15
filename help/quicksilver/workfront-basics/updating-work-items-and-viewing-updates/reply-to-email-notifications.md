@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: メール通知への返信
 description: プロジェクト、タスク、イシューなどのオブジェクトに対するコメントから生成された Workfront のメール通知に応答して、Adobe Workfront アプリケーションで行われた元のコメントに返信を追加できます。
-author: Nolan and Alina
+author: Courtney and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '555'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 89%
    <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> <p>イシューとドキュメントの場合：</p>
 
-<ul><li><p>投稿者以上</p></li>
+<ul><li><p>コントリビューター以上</p></li>
    <li><p>リクエスト以上</p></li></ul>
 
 <p>その他すべてのオブジェクトの場合：</p>

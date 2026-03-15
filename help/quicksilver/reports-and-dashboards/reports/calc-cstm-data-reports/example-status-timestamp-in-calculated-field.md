@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算済みカスタムフィールドの例：カスタムフォームにステータスタイムスタンプを表示する
 description: 次の計算フィールドは、オブジェクトのステータスが処理中（INP）の場合の日付を示しています。 イシュー、タスクまたはプロジェクトに関する計算カスタムフィールドにも同じ情報を使用できます。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 

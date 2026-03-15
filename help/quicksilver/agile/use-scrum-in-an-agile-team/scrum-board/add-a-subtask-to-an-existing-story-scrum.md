@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: スクラムボード上の既存のストーリーへのサブタスクの追加
+title: スクラムボード上の既存のストーリーにサブタスクを追加する
 description: 既存のストーリーのサブタスクを作成する場合は、ストーリーの更新方法に影響するので、プロジェクトの「完了モード」の設定に注意してください。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 92%
@@ -72,7 +72,7 @@ ht-degree: 92%
 
    **[!UICONTROL サブタスクを追加]**&#x200B;をサブタスクタイルでクリックし、サブタスクにサブタスクを作成します。
 
-   [!DNL Workfront] では無限レベルのサブタスクがサポートされますが、アジャイルストーリーボードには 2 つのレベル（サブタスクのサブタスク）のみが表示されます。
+   [!DNL Workfront]は無制限のレベルのサブタスクをサポートしますが、アジャイルストーリーボードには2つのレベル（サブタスクのサブタスク）のみが表示されます。
 
    ![サブタスクを追加](assets/agile-story-addsubtask2-NWE.png)
 

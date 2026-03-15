@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードからの外部ページを削除
 description: 不要になった外部ページは、ダッシュボードから削除できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 77%
+ht-degree: 83%
 
 ---
 
@@ -61,11 +61,11 @@ ht-degree: 77%
 
 1. 「**ダッシュボードの操作**」をクリックしたあと、「**編集**」をクリックします。
 
-   ![&#x200B; ダッシュボードを編集 &#x200B;](assets/unshimmed-edit-dashboard.png)
+   ![ ダッシュボードを編集 ](assets/unshimmed-edit-dashboard.png)
 
-1. 画面の右側で、削除する外部ページを見つけて、「**削除**」アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
+1. 画面の右側で、削除する外部ページを見つけて、「**削除**」アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
 
-   ![&#x200B; ダッシュボード内の「外部ページを削除」アイコン &#x200B;](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![ ダッシュボード内の「外部ページを削除」アイコン ](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. 左下隅にある「**保存して閉じる**」をクリックします。
 

@@ -2,13 +2,13 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: 「カスタムビュー、フィルター、グループ化の例：記事インデックス」
+title: カスタムビュー、フィルター、グループ化の例：記事インデックス
 description: このセクションでは、Adobe Workfront アカウントで使用できるカスタムビュー、フィルター、グループ化の例を示します。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 96%
@@ -43,11 +43,11 @@ ht-degree: 96%
 * [ビュー：時間と日付の差異を計算](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
 * [ビュー：列の 2 つのフィールド間の計算結果を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
 * [ビュー：後続タスクのリストを列に追加](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-* [&#x200B; 表示とグループ化：プロジェクトの実際の期間を、グループの平均で集計して表示します &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+* [ 表示とグループ化：プロジェクトの実際の期間を、グループの平均で集計して表示します ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
 * [ビュー：時間リスト内のタスクの詳細とイシューの詳細の組み合わせ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [ビュー：列に文字列ではなく画像を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [ビュー：標準インタフェースに含まれていないオブジェクトを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [&#x200B; 表示：タスクまたはプロジェクトリストに元のイシューの情報を表示する &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [ 表示：タスクまたはプロジェクトリストに元のイシューの情報を表示する ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
 * [ビュー：タスクビューにプログラムとポートフォリオの情報を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
 * [ビュー：タスクリストにタスクのインデントを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [ビュー：プルーフへのリンクを含むドキュメントレポート](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)

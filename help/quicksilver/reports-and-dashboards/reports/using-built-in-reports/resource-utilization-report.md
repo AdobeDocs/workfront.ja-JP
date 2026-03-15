@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: リソース稼動率レポートの概要
 description: 稼働率レポートでは、1 つ以上のプロジェクトの進捗状況やコストを 1 つのレポートに表示できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c85b880a-c4a7-49ed-8118-ef9942a47bc3
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 100%

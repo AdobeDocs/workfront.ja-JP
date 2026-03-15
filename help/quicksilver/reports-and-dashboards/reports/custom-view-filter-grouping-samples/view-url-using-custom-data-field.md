@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：カスタムデータフィールドを使用した外部 URL
+title: 表示：カスタムデータフィールドを使用した外部URL
 description: タスクビューで「カスタム URL」という名前の計算済みカスタムフィールドを使用して、内部カスタム URL へのリンクを表示できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 75%
+ht-degree: 78%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 75%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>投稿者またはビューの変更リクエスト </p>
+   <p>レポートを変更するための「標準」または「プラン」</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -64,7 +64,7 @@ ht-degree: 75%
 
 ## 「カスタム URL」計算済みカスタムフィールドの作成
 
-計算カスタムフィールドの作成について詳しくは、[&#x200B; 計算フィールドのフォームへの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+計算ユーザー設定フィールドの作成の詳細については、[フォームに計算フィールドを追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
 カスタムフォームを作成するアクセス権がある場合は、「カスタム URL」と呼ばれるタスクの計算済みカスタムフィールドを作成できます。このフィールドは、「**タスクの詳細**」タブ内の「**概要**」サブタブに直接リンクします。
 
@@ -73,7 +73,7 @@ ht-degree: 75%
 
    CONCAT(&#39;&#39;https://`<domain>`.my.workfront.com&quot;,&quot;/&quot;,&quot;task/&quot;,ID,&quot;/overview&#39;&#39;)
 
-1. 「`<domain>`」を実際のドメイン名（角括弧を除く）に置き換えます。 この URL の `/overview` の部分では、タスクの左側のパネルにある **概要** セクションへのリンクが示されます。
+1. 「`<domain>`」を実際のドメイン名（角かっこなし）で置き換えます。 このURLの`/overview`部分は、タスクの左パネルにある&#x200B;**概要**&#x200B;セクションへのリンクを示しています。
 
 1. **計算済みカスタムフィールド**&#x200B;の作成後、このフィールドと&#x200B;**カスタムフォーム**&#x200B;を新しいビューに表示する Adobe Workfront の複数のタスクに添付します。
 
@@ -81,7 +81,7 @@ ht-degree: 75%
 
 以下の例のタスク&#x200B;**ビュー**&#x200B;では、「カスタム URL」と呼ばれる&#x200B;**計算済みカスタムフィールド**&#x200B;が「**詳細**」タブ内の「**概要**」サブタブおよびタスクの「**URL**」フィールドへの直接リンクとして表示されます。
 
-（assets/task-view-with-custom-url-field-quicksilver-350x70.png）
+(assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
 このビューをカスタマイズするには、次の手順に従います。
 
@@ -90,8 +90,8 @@ ht-degree: 75%
 1. 「**ビューをカスタマイズ**」をクリックします。
 1. 最初の列を除くビュー内のすべての列を削除します。
 1. 最初の列のヘッダーをクリックします。
-1. **テキストモードに切り替え**/**テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスのテキストを削除して、以下のコードに置き換えます。
+1. **[テキストモードに切り替える]** > **[テキストモードの編集]**&#x200B;をクリックします。
+1. **テキストモードの編集**&#x200B;ボックスのテキストを削除し、次のコードに置き換えます：
 
 
    ```
@@ -135,6 +135,6 @@ ht-degree: 75%
    column.2.width=150
    ```
 
-   この例では、「column.1」です。行では、「カスタム URL」フィールドの値が、タスクの **概要** セクションへのリンクとして、「列。2」として表示されます。 タスクの **URL フィールド**&#x200B;に保存された値が表示されます。
+   この例では、「column.1」です。行は、[カスタムURL]フィールドの値を、タスクの&#x200B;**概要**&#x200B;セクションへのリンクとして、&#39;列。2&#39;として表示します。 タスクの **URL フィールド**&#x200B;に保存された値が表示されます。
 
-1. **完了**/**ビューを保存** をクリックします。
+1. 「**完了**」/「**ビューを保存**」をクリックします。

@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: ボードでのコネクテッドカードの使用
 description: Workfront の既存のタスクやイシューに接続するカードをボードに追加できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 6e136bed16c2b20f05267ac181dcc462b1a2aed4
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 89%
@@ -30,7 +30,7 @@ ht-degree: 89%
 * [!UICONTROL サブタスク]
 * [!UICONTROL ドキュメント]
 
-接続したカードをWorkfrontと同期するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL &#x200B; 詳細メニュー &#x200B;]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続項目を同期]** を選択します。 アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、再度同期されます。
+接続したカードをWorkfrontと同期するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL  詳細メニュー ]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続項目を同期]** を選択します。 アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、再度同期されます。
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 89%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr> 

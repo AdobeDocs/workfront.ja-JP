@@ -4,13 +4,13 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: 作業およびチーム要求の管理
 description: リクエストは、保留中のタスクまたはイシューの割り当てを表します。ワークリクエストは個人に対して行われ、チームリクエストはチームに対して行われます。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 93%
   <p>レビュー以上</p>
    <p>リクエストを再割り当てするには：
    <p>標準</p>
-   <p>ワークまたはそれ以上</p></td>
+   <p>Work またはそれ以上</p></td>
   </tr> 
  </tbody> 
 </table>

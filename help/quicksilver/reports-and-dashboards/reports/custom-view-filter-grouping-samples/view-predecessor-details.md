@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：先行タスクの詳細
 description: このタスクビューには、コレクションビューを使用して、タスクの先行タスクの詳細が表示されます。コレクションビューでは、「1 対多」の関係にあるオブジェクトに関する情報を表示できます。この場合、それぞれのタスク（1 つ）に複数の先行タスク（多）を設定できます。このビューには、タスクの名前、その先行タスクの名前、先行タスクのプロジェクト名、先行タスクの予定完了日、先行タスクのステータスが表示されます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 76%
+ht-degree: 81%
 
 ---
 

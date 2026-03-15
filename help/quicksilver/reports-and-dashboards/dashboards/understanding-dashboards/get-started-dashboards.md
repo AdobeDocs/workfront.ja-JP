@@ -4,13 +4,13 @@ product-area: dashboards
 navigation-topic: understand-dashboards
 title: ダッシュボードの基本を学ぶ
 description: ダッシュボードの目的は、情報に素早くアクセスできるようにすることです。レポートで情報を収集し、ダッシュボードに配置することで、情報にアクセスしやすくすることができます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 87%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>投稿者以上</p>
+      <p>コントリビューター以上</p>
       <p>レビュー以上</p>
    </td> 
   </tr> 
@@ -78,7 +78,7 @@ ht-degree: 87%
   ダッシュボードの共有について詳しくは、[レポート、ダッシュボードおよびカレンダーの共有](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)と[ダッシュボードの共有](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)を参照してください。
 
 * 左側のパネルのWorkfront内の任意の領域またはオブジェクトにダッシュボードを追加します。\
-  左側のパネルへのダッシュボードの追加について詳しくは、[Adobe Workfrontの左側のナビゲーション &#x200B;](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) を参照してください。
+  左側のパネルへのダッシュボードの追加について詳しくは、[Adobe Workfrontの左側のナビゲーション ](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) を参照してください。
 
 * ダッシュボードをレイアウトテンプレートに配置します。このテンプレートは、ユーザーと共有できます。\
   レイアウトテンプレートを使用したダッシュボードの共有について詳しくは、[レイアウトテンプレートを使用した左側のパネルのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
@@ -100,7 +100,7 @@ ht-degree: 87%
 ダッシュボードは次の方法で表示できます。
 
 * オブジェクトの左側のパネルからダッシュボードにアクセスします。
-ダッシュボードを左側のパネルに配置する方法について詳しくは、[Adobe Workfrontの左側のナビゲーション &#x200B;](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) を参照してください。
+ダッシュボードを左側のパネルに配置する方法について詳しくは、[Adobe Workfrontの左側のナビゲーション ](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) を参照してください。
 
 * ダッシュボードを検索して手動でアクセスします。
 

@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: フィルター：配信がスケジュールされているレポートを表示
+title: フィルタ：配信予定のレポートを表示
 description: このレポートフィルターには、Adobe Workfront で自動的に配信されるようにスケジュールされたすべてのレポートが表示されます。標準ビューを使用することが最適です。
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 88%
@@ -35,8 +35,8 @@ ht-degree: 88%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
+   <p>レポートを変更するための「標準」または「プラン」</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 

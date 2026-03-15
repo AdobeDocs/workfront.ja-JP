@@ -3,10 +3,10 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードの作成
 description: ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。レポート、カレンダー、外部ページをダッシュボードに追加して他の人たちと共有し、最適なコラボレーションを実現できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 84%

@@ -2,13 +2,14 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: キャンバスダッシュボードの作成：記事インデックス
-description: この節の記事を参照してください。
-author: Courtney and Jenny
+description: このセクションの記事を表示します。
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 6f2db600-9ffa-4e27-88e3-17e8ab072f7d
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 12%
+ht-degree: 40%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[&#x200B; キャンバスダッシュボードのベータ版情報 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+>カンバスダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが使用できます。 詳細については、[キャンバスダッシュボードのベータ情報](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)を参照してください。
 
 
 この節では、次の記事について説明します。

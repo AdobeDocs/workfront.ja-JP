@@ -3,15 +3,15 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: レポートの追加：記事インデックス
 description: この節の記事を参照してください。
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: ca819287f6a541d188c67b65465fe314c7b3109e
+exl-id: 9be0ae99-f810-49f9-987c-e4f93ef1a86a
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 11%
+ht-degree: 88%
 
 ---
-
 
 # レポートの追加：記事インデックス
 

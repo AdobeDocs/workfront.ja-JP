@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: バーンダウンチャートのデータの同期
 description: バーンダウンチャートは、プロジェクトまたはイテレーション内のデータと自動的に同期されます。バーンダウンチャートがプロジェクトまたはイテレーションのデータと同期しなくなった場合は、手動で同期できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：タスク ビューの期間と予定作業時間の基準差異
-description: 期間と予定作業時間の基準計画の差異を表示します。
-author: Nolan
+title: ビュー：タスクビューの期間と予定作業時間の基準差異
+description: 期間と予定作業時間の基準差異を表示します。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 60%
+ht-degree: 65%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->次のビューに表示されるデータは、実際のタスクの値と、デフォルトのベースライン タスクに関連付けられた値を比較しています。
+>次のビューに表示されるデータは、実績タスク値と既定の基準計画タスクに関連付けられている値を比較しています。
 
 ![baseline_variance_in_a_task_view.png](assets/baseline-variance-in-a-task-view-350x38.png)
 
@@ -45,8 +45,8 @@ ht-degree: 60%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
+   <p>レポートを変更するための「標準」または「プラン」</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -66,9 +66,9 @@ ht-degree: 60%
 ## タスクビューにおける期間と予定作業のベースライン差異の表示
 
 1. タスクのリストに移動します。
-1. **ビュー** ドロップダウンメニューで **新規ビュー** を選択するか、既存のビューを編集します。
+1. **表示**&#x200B;ドロップダウンメニューで、**新しい表示**&#x200B;を選択するか、既存の表示を編集します。
 1. ビューの最初の列を除くすべての列を削除します。
-1. 最初の列を選択した状態で、「**テキストモードに切り替え**」をクリックし、「**テキストビューを編集**」をクリックします。
+1. 最初の列を選択した状態で、**[テキストモードに切り替え]**&#x200B;をクリックし、**[テキストビューの編集]**&#x200B;をクリックします。
 1. 以下のテキストをコピーし、ビューの最初の列にペーストします。
 
    ```

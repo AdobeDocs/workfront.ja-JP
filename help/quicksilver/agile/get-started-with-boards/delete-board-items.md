@@ -1,29 +1,29 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: ボードからのカードの削除またはアーカイブ
+title: Delete or Archive a Card from a Board
 description: ボードからカードを削除すると、そのカードは完全に削除され、復元できません。カードをアーカイブすると、アーカイブに送信され、後でボードに復元できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 67%
+ht-degree: 70%
 
 ---
 
 # ボードからカードを削除またはアーカイブする
 
-ボードからアドホックカードを削除すると、そのカードは完全に削除され、復元できなくなります。 接続されたカードは、削除された後、手動でボードに再度追加できます。
+When you delete an ad hoc card from a board, it is permanently deleted and can&#39;t be restored. Connected cards can be manually added back to a board after they are deleted.
 
-接続されたカードを動的ボードから削除すると、このボードタイプが特定のプロジェクトからすべてのタスクと問題を取り込むため、ボードを更新した際に再び表示されます。 カードを削除するには、接続されたタスクまたはイシューをWorkfront プロジェクトから削除する必要があります。
+If you delete a connected card from a dynamic board, it will reappear when you refresh the board because this board type pulls in all tasks and issues from a specific project. To delete the card, you must delete the connected task or issue from the Workfront project.
 
-取り込み列を持つ他のボードタイプから接続されたカードを削除すると、接続されたタスクまたは問題がまだ完了とマークされていない場合、ボードを更新したときにカードが取り込み列に再び表示されます。 取り込み列について詳しくは、[&#x200B; ボードへの取り込み列の追加 &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) を参照してください。
+When you delete a connected card from any other board type that has an intake column, the card will reappear in the intake column when you refresh the board if the connected task or issue is not yet marked complete. For more information on intake columns, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 カードをアーカイブすると、アーカイブに送信され、後でボードに復元できます。
 
-アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、再度同期されます。
+Archived cards do not sync to Workfront tasks and issues. カードを復元すると、再度同期されます。
 
 ## アクセス要件
 
@@ -40,7 +40,7 @@ ht-degree: 67%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr> 
@@ -66,9 +66,9 @@ ht-degree: 67%
 
    アーカイブしたカードは、表示するフィルターを適用しない限り、ボードに表示されません。詳しくは、[ボードをフィルタリングしてアーカイブされたカードを表示](#filter-a-board-to-show-archived-cards)を参照してください。
 
-   [!UICONTROL アーカイブ]アイコン ![&#x200B; アーカイブ &#x200B;](assets/archive-icon-spectrum-25x20.png) は、アーカイブされたカードに表示されます。アーカイブしたカードは編集できませんが、削除したり、別の列に移動したりすることはできます。
+   [!UICONTROL アーカイブ]アイコン ![ アーカイブ ](assets/archive-icon-spectrum-25x20.png) は、アーカイブされたカードに表示されます。アーカイブしたカードは編集できませんが、削除したり、別の列に移動したりすることはできます。
 
-1. アーカイブしたカードを復元するには、**[!UICONTROL その他]**&#x200B;メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL 復元]**」を選択します。
+1. アーカイブしたカードを復元するには、**[!UICONTROL その他]**&#x200B;メニュー ![ その他のメニュー ](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL 復元]**」を選択します。
 
 ## ボードをフィルタリングしてアーカイブされたカードを表示する
 

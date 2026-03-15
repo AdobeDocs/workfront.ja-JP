@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: フィルター：不完全なプロジェクト間の後続タスクを表示する
 description: このタスクフィルターは、不完全なプロジェクト間の後続タスクを返します。
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: aea955b1-581a-4ce0-8634-863ba1083c05
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 65%
+ht-degree: 74%
 
 ---
 

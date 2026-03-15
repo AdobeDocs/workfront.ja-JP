@@ -4,13 +4,13 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: ビュー：プログラムとPortfolioの情報をタスク ビューに表示します
 description: このタスクビューには、タスクのプロジェクトに関連付けられたプログラムとポートフォリオが表示されます。この情報は、タスクビューの作成時に Report Builder で使用できません。使用できるのはテキストモードのみです。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 70%
+ht-degree: 75%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 70%
 
 タスクリストからプロジェクト、プログラム、ポートフォリオへのリンクも表示されます。
 
-![&#x200B; プログラムとポートフォリオを表示 &#x200B;](assets/view--program-and-portfolio-350x116.png)
+![ プログラムとポートフォリオを表示 ](assets/view--program-and-portfolio-350x116.png)
 
 ## アクセス要件
 

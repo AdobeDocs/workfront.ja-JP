@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Adobe Workfront でのビューの作成または編集
 description: ビューを使用して、画面に表示する情報のタイプをカスタマイズできます。Adobe Workfront では、複数のタイプのビューを使用できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 61%
@@ -38,7 +38,7 @@ ht-degree: 61%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</strong></td> 
    <td> 
-    <p>投稿者以上</p>
+    <p>コントリビューター以上</p>
     <p>リクエスト以上</p>
    </td>
   </tr> 
@@ -70,7 +70,7 @@ ht-degree: 61%
 
 1. 「**+新規ビュー**」ボタンをクリックして、新規ビューを作成します。
 または
-編集する既存のビューの右側にマウスポインターを置くと表示される **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+編集する既存のビューの右側にマウスポインターを置くと表示される **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 **ビューをカスタマイズ**&#x200B;ダイアログボックスが表示されます。
 
 1. 「**列のプレビュー**」セクションで、以下のいずれかを行います。
@@ -166,7 +166,7 @@ ht-degree: 61%
 
 これらは事前に設定されていますが、特定の設定を変更できます。
 
-アジャイルまたはボードビューについて詳しくは、[&#x200B; ボードビューでのアジャイルプロジェクトの管理 &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) を参照してください。
+アジャイルまたはボードビューについて詳しくは、[ ボードビューでのアジャイルプロジェクトの管理 ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) を参照してください。
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

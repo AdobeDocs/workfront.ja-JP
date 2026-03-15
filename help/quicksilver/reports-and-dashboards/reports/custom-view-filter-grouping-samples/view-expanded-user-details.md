@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：展開されたユーザーの詳細
 description: このユーザービューには、ユーザーに関する情報が表示されます。名前、アクセスレベル、会社に加えて、グループ、チーム、担当業務のリストが表示されます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a978b43-4718-43fb-80b8-844b35e09d06
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 67%
+ht-degree: 73%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 67%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>投稿者またはビューの変更リクエスト </p>
+   <p>レポートを変更するための「標準」または「プラン」</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -63,8 +63,8 @@ ht-degree: 67%
 1. **表示**&#x200B;ドロップダウンメニューから、**新規表示**&#x200B;を選択します。
 
 1. **列のプレビュー**&#x200B;領域で、1 つを除くすべての列を削除します。
-1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え** > **テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え** > **テキストモードの編集**&#x200B;をクリックします。
+1. **[テキストモードの編集]**&#x200B;ボックスで見つかったテキストを削除し、次のコードで置き換えます：
 
    ```
    column.0.descriptionkey=name 
@@ -151,4 +151,4 @@ ht-degree: 67%
    column.5.width=150
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
+1. 「**完了**」/「**ビューを保存**」をクリックします。

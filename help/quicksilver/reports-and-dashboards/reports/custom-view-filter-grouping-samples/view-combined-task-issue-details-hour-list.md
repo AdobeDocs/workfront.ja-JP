@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：時間リスト内のタスクと問題の詳細の組み合わせ
+title: 'View: Combined Task and Issue Details in an Hour List'
 description: この時間ビューは、sharecol タグを使用して、タスク名列やイシュー名列に加えて、タスクやイシューの予定時間数を組み合わせたものです。時間エントリはタスクかイシューのどちらかにのみ属することができるので、両方のオブジェクトが同じ列に同時に表示されることはありません。ビューの各行には、タスクかイシューのどちらかの情報が入力されます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 61%
+ht-degree: 66%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 61%
 
 <!--Audited:11/2024-->
 
-この時間表示は、タスクと問題の名前の列と、`sharecol` タグを使用したタスクと問題の予定時間を組み合わせたものです。 時間エントリはタスクかイシューのどちらかにのみ属することができるので、両方のオブジェクトが同じ列に同時に表示されることはありません。ビューの各行には、タスクかイシューのどちらかの情報が入力されます。
+This hour view combines the Task and Issue Name columns, as well as the Task and Issue Planned Hours using the `sharecol` tag. 時間エントリはタスクかイシューのどちらかにのみ属することができるので、両方のオブジェクトが同じ列に同時に表示されることはありません。ビューの各行には、タスクかイシューのどちらかの情報が入力されます。
 
-`sharecol` タグについて詳しくは、[&#x200B; 表示：1 つの共有列における複数の列の情報の結合 &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) を参照してください。
+To learn more about the `sharecol` tag, see [View: merge information from multiple columns in one shared column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 ![custom_view_hours_with_task_and_issue_information.png](assets/custom-view-hours-with-350x48.png)
 
@@ -39,8 +39,8 @@ ht-degree: 61%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
+   <p>レポートを変更するための「標準」または「プラン」</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -62,8 +62,8 @@ ht-degree: 61%
 1. 時間のリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューで、「**新規ビュー**」をクリックします。
 1. **列のプレビュー**&#x200B;領域で、1 つを除くすべての列を削除します。
-1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え** > **テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. Click the header of the remaining column, then click **Switch to Text Mode** > **Edit Text Mode**.
+1. **[テキストモードの編集]**&#x200B;ボックスで見つかったテキストを削除し、次のコードで置き換えます：
 
    ```
    column.1.querysort=project:name
@@ -157,5 +157,5 @@ ht-degree: 61%
    column.8.width=150
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
-1. （オプション）ビュー名を更新し、「**ビューを保存**」をクリックします。
+1. 「**完了**」/「**ビューを保存**」をクリックします。
+1. （オプション）ビュー名を更新し、**[ビューの保存]**&#x200B;をクリックします。

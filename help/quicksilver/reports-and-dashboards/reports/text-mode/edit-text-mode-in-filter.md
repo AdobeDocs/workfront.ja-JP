@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: テキストモードを使用したフィルターの編集
 description: テキストモードを使用してリストまたはレポートのフィルターを編集し、標準インターフェースで使用できないフィールドにアクセスして、より複雑なフィルターを作成できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1044'
-ht-degree: 84%
+ht-degree: 86%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 84%
 
 1. 次のいずれかの操作を行います。
 
-   リストからフィルターにアクセスするには、リストに移動して **フィルター** アイコンをクリックし、変更する **フィルター** サイドパネルのフィルターにカーソルを置いて **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。 **フィルター** サイドパネルに選択したフィルターが表示されるか、従来のフィルタービルダーが開きます。
+   リストからフィルターにアクセスするには、リストに移動して **フィルター** アイコンをクリックし、変更する **フィルター** サイドパネルのフィルターにカーソルを置いて **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。 **フィルター** サイドパネルに選択したフィルターが表示されるか、従来のフィルタービルダーが開きます。
 
    または
 

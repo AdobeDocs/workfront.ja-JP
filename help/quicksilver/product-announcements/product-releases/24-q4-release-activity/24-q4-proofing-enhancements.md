@@ -1,11 +1,11 @@
 ---
 title: 2024 年第 4 四半期プルーフの機能強化
 description: 2024 年第 4 四半期プルーフの機能強化
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 337fca96-9773-4683-a82c-f6d2f5f261a0
-source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 24%
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # 2024 年第 4 四半期プルーフの機能強化
 
-このページでは、2024 年第 4 四半期リリースで行われた、プレビュー環境に対するすべてのプルーフの機能強化について説明します。 この機能強化は、2024年第 4 四半期のリリースにおいて実稼動環境で利用できるようになります。
+このページでは、2024 年第 4 四半期リリースで行われた、プレビュー環境に対するすべてのプルーフの機能強化について説明します。 この機能強化は、2024年第 4 四半期のリリースにおいて本番環境で利用できるようになります。
 
 2024年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。
 

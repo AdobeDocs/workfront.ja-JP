@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: カレンダーレポートへのアドホックイベントの追加
 description: カレンダーにアドホックイベントを追加できます。アドホックイベントは、カレンダーで単にリマインダーとして機能し、プロジェクト、タスク、イシューには関連付けられません。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 53%
+ht-degree: 60%
 
 ---
 
@@ -60,4 +60,4 @@ ht-degree: 53%
 1. イベントの色を選択します。
 1. イベントが複数日にまたがる必要があるかどうかを選択します。
 1. カレンダーアイコンを使用して日付を入力または選択します。
-   ![&#x200B; アドホックイベントを追加 &#x200B;](assets/add-ad-hoc.png)
+   ![ アドホックイベントを追加 ](assets/add-ad-hoc.png)

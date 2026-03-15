@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: ストーリー情報を編集
 description: かんばんボード上のストーリータイルを表示する場合、特定の情報は、ストーリータイルから直接、インラインで編集することができます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 83%
@@ -104,10 +104,10 @@ ht-degree: 83%
 1. [!UICONTROL かんばん]ボードに移動します。
 1. ストーリータイルを展開して、ストーリーに関連するすべてのフィールドを表示します。
 
-   ![&#x200B; ストーリーカード &#x200B;](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![ ストーリーカード ](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. （オプション）フィールドを編集するには、フィールドをクリックして変更を加えます。
-ストーリータイルを編集するには、タスクまたはイシューに対する [!UICONTROL &#x200B; 編集 &#x200B;] 権限が必要です。
+ストーリータイルを編集するには、タスクまたはイシューに対する [!UICONTROL  編集 ] 権限が必要です。
 それぞれのフィールドと編集可能かどうかについて詳しくは、[表示および編集できる情報について](#understand-what-information-can-be-viewed-and-edited)を参照してください。
 
 >[!NOTE]

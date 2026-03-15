@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: かんばんボード上のストーリーに関するフラグの使用
 description: ' [!DNL Kanban]  ボードで、フラグは、ストーリーが次のステータスに移行する準備ができていることを視覚的に示します。これにより、かんばんチームは、ステータス間でストーリーを移動する際に、「プッシュ」アプローチではなく「プル」アプローチを使用できます。'
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '476'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 83%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p> 
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -67,15 +67,15 @@ ht-degree: 83%
 
 1. 現在のフラグをクリックし、次のフラグオプションから選択します。
 
-   * **[!UICONTROL 順調 &#x200B;]:** ストーリーは適切なステータスにあり、現時点では、何もする必要はありません。
+   * **[!UICONTROL 順調 ]:** ストーリーは適切なステータスにあり、現時点では、何もする必要はありません。
 
      かんばんボードの各ストーリーの既定のフラグです。
      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL ブロック済み]：**&#x200B;ストーリーは次のステータスに進めません。ストーリーにこのフラグを設定した場合、ストーリーは WIP 制限にカウントされません。（WIP 制限について詳しくは、「かんばんの設定 [&#x200B; を参照し &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) ください。
+   * **[!UICONTROL ブロック済み]：**&#x200B;ストーリーは次のステータスに進めません。ストーリーにこのフラグを設定した場合、ストーリーは WIP 制限にカウントされません。（WIP 制限について詳しくは、「かんばんの設定 [ を参照し ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) ください。
 
      ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL 取り込み準備完了 &#x200B;]:** ストーリーを、チームの別のメンバーが次のステータスに移動する準備が整いました。
+   * **[!UICONTROL 取り込み準備完了 ]:** ストーリーを、チームの別のメンバーが次のステータスに移動する準備が整いました。
 
      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)

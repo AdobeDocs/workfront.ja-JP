@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: テキストモードを使用したグループ化の編集
 description: テキストモードを使用して、リストまたはレポートのグループ化を編集すると、標準インターフェイスで使用できないフィールドにアクセスして、より複雑なグループを作成できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1539'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 93%
 1. 次のいずれかの操作を行います。
 
    1. レポートからグループ化にアクセスするには、レポートに移動し、**レポートアクション**／**編集**／「**グループ化**」タブをクリックします。
-   1. リストからグループ化にアクセスするには、リストに移動して、**グループ化** ドロップダウンメニューから、変更するグループ化にマウスを移動し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+   1. リストからグループ化にアクセスするには、リストに移動して、**グループ化** ドロップダウンメニューから、変更するグループ化にマウスを移動し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
       グループ化ビルダーが開きます。
 

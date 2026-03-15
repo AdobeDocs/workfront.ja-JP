@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示とグループ化：プロジェクトの実際の期間をグループ化の平均で集計して表示します
 description: プロジェクトレポートに以下の列を追加して、グループ化内の平均として集計された実際の期間を表示できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 32%
+ht-degree: 42%
 
 ---
 
-# 表示とグループ化：グループ化の平均で集計したプロジェクトの実際の期間を表示します
+# ビューおよびグループ化：プロジェクトの実際の期間をグループ内の平均値で集計して表示
 
 <!--Audited: 11/2024-->
 
@@ -61,7 +61,7 @@ ht-degree: 32%
 
 1. プロジェクトリストに移動します。
 1. （必須） プロジェクトの実際の期間の集計平均値を表示するには、プロジェクトリストにグループ化を追加する必要があります。\
-   グループ化の作成について詳しくは、[Adobe Workfrontのグループ化の概要 &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) を参照してください。
+   グループ化の作成について詳しくは、[Adobe Workfrontのグループ化の概要 ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) を参照してください。
 1. **表示** ドロップダウンメニューを展開し、「**表示をカスタマイズ**」を選択します。
 1. 「**列を追加**」をクリックします。
 1. **テキストモードに切り替え** をクリックしてから、**テキストモードを編集** をクリックします。

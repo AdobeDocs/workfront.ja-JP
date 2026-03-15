@@ -1,18 +1,19 @@
 ---
 product-area: reports and dashboards
 navigation-topic: data-connect
-title: Data Connect のデータ更新の監視ビューの使用
+title: Data Connect におけるデータ更新の監視ビューの使用
 description: Data Connect を使用すると、Workfront管理者は、最新の更新中に Data Lake の日付に対して行われた最新の更新の詳細なレコードにアクセスできます。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
+exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Data Connect のデータ更新の監視ビューの使用
+# Data Connect におけるデータ更新の監視ビューの使用
 
 データ更新の監視ビューには、最新の更新中にデータレイクの日付に対して行われた最新の更新が表示されます。 このビューのデータは、データ読み込みが正常に完了するたびに更新されます。
 
@@ -87,4 +88,3 @@ ht-degree: 2%
         <br><b> メモ </b>：同じレコードが更新間に複数回作成および更新されるので、これは、CREATE、UPDATE またはDELETE イベントの影響を受けるレコードの合計数とは異なります。  </td>
     </tr>
    </table>
-

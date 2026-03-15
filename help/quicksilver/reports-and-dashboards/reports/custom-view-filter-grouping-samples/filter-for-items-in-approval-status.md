@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: フィルター：承認ステータスの項目のみを表示
 description: 特定のステータスの項目（現在「承認待ち」にある項目）のみを表示できます。これは、承認ステータスを持つ他のオブジェクトに対しても同じように機能します。
-author: Lisa and Jenny
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 72%
+ht-degree: 77%
 
 ---
 

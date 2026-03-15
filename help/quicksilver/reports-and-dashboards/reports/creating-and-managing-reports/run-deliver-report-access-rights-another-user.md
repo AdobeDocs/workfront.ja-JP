@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: 別のユーザーのアクセス権を持つレポートを実行および配信する
 description: デフォルトでは、ユーザーは自分に表示権限があるレポート内のオブジェクトのみを表示できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 94%
 1. 「**報告書設定**」をクリックします。
 
 1. 「**次のアクセス権限でこの報告書を作成する：**」フィールドに、レポートを表示するユーザー名の入力を開始し、リストに表示されたら選択します。\
-   ![&#x200B; 次のアクセス権限で実行 &#x200B;](assets/unshimmed-access-rights-of.png)
+   ![ 次のアクセス権限で実行 ](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -101,7 +101,7 @@ ht-degree: 94%
 
 別のユーザーのアクセス権限でレポートを配信するには：
 
-1. Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
+1. Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 
 1. 別のユーザーのアクセス権限で配信するレポートを選択します。
 1. レポートの名前をクリックして選択します。
@@ -109,7 +109,7 @@ ht-degree: 94%
 1. 「**報告書の送信**」をクリックします。
 
 1. レポートをメールで配信する際に使用するレポート表示権限が属するユーザーの名前を「**次のアクセス権限でこの報告書を届ける**」フィールドに入力していき、目的のユーザー名がリストに表示されたら選択します。デフォルトでは、レポートを作成するユーザーの名前です。\
-   ![&#x200B; アクセス権が設定された報告書を送信しました &#x200B;](assets/unshimmed-send-report-access-rights-of.png)
+   ![ アクセス権が設定された報告書を送信しました ](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

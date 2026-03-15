@@ -1,9 +1,9 @@
 ---
 title: 削除されたオブジェクト内の割り当てが、担当者レポートに予期せず表示される
 description: 削除されたオブジェクト内の割り当てが、担当者レポートに予期せず表示される
-author: Nolan
+author: Courtney
 draft: Probably
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%

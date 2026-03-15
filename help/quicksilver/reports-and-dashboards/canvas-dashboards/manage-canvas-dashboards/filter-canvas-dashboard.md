@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: キャンバスダッシュボードのフィルタリング
 description: キャンバスダッシュボードの作成後に、フィルターを適用できます。
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
@@ -73,7 +73,7 @@ ht-degree: 12%
 
 ダッシュボードをフィルタリングするには、ダッシュボードを作成する必要があります。
 
-詳しくは、[&#x200B; キャンバスダッシュボードの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) を参照してください。
+詳しくは、[ キャンバスダッシュボードの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) を参照してください。
 
 ## ダッシュボードのフィルタリング
 
@@ -111,7 +111,7 @@ ht-degree: 12%
 
    1. ルールボックスの右側にある **編集** アイコンを選択します。
 
-      ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png)
+      ![ 編集アイコン ](assets/edit-icon.png)
 
    1. 「**条件を追加**」をクリックして、次の情報を追加します。
       * フィルターの基準にするフィールドを選択します。
@@ -119,7 +119,7 @@ ht-degree: 12%
 
    1. （任意）「**フィルターグループを追加**」をクリックして、別のフィルター条件セットを追加します。 セット間のデフォルトの演算子は AND です。演算子をクリックして OR に変更します。
 
-1. [&#x200B; パート 2：ダッシュボードプロンプトの作成 &#x200B;](#part-2-define-a-dashboard-prompt) に進みます。
+1. [ パート 2：ダッシュボードプロンプトの作成 ](#part-2-define-a-dashboard-prompt) に進みます。
 
 
 ### パート 2：ダッシュボードプロンプトの定義
@@ -159,7 +159,7 @@ ht-degree: 12%
 
 1. 「**保存**」をクリックして、フィルターをダッシュボードに適用します。
 
-1. [&#x200B; パート 3：ダッシュボードプロンプトの適用 &#x200B;](#step-3-apply-a-dashboard-prompt) に進みます。
+1. [ パート 3：ダッシュボードプロンプトの適用 ](#step-3-apply-a-dashboard-prompt) に進みます。
 
 ### 手順 3：ダッシュボードプロンプトの適用
 
@@ -174,8 +174,8 @@ ht-degree: 12%
 1. ダッシュボードの詳細ページの左上隅にある「**フィルター**」をクリックします。 フィルターのサイドパネルが開きます。
 
 1. **次の条件でレコードを表示…** セクションで、表示される 1 つまたはすべてのプロンプトの条件を選択します。 プロンプトが適用され、**ダッシュボードフィルターが適用されました** タグがレポートウィジェットの隅に表示されます。
-   ![&#x200B; 条件を選択 &#x200B;](assets/prompts-list.png)
+   ![ 条件を選択 ](assets/prompts-list.png)
 
-1. 右上隅の **閉じる** アイコン ![&#x200B; 閉じるアイコン &#x200B;](assets/close-icon.png) をクリックして、パネルを非表示にします。
+1. 右上隅の **閉じる** アイコン ![ 閉じるアイコン ](assets/close-icon.png) をクリックして、パネルを非表示にします。
 
 

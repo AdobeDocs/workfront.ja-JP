@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードへのレポートを追加
 description: レポートを新規または既存のダッシュボードに、レポートから直接追加できます。また、既存のレポートをダッシュボードに追加することもできます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 
 <!-- Audited: 1/2025 -->
 
-レポートを新規または既存のダッシュボードに、レポートから直接追加できます。また、[&#x200B; ダッシュボードの作成 &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) で説明しているように、ダッシュボードに既存のレポートを追加することもできます。 1 つのダッシュボードに追加できるレポート、カレンダーまたは外部ページは最大 25 個であることに注意してください。
+レポートを新規または既存のダッシュボードに、レポートから直接追加できます。また、[ ダッシュボードの作成 ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) で説明しているように、ダッシュボードに既存のレポートを追加することもできます。 1 つのダッシュボードに追加できるレポート、カレンダーまたは外部ページは最大 25 個であることに注意してください。
 
 >[!NOTE]
 >

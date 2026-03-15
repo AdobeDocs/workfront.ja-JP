@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算済みデータ式の概要
 description: データ式を使用して、Adobe Workfront で計算済みのカスタムデータフィールドを定義できます。計算式は、新しいフィールドを生成するステートメントで Workfront の既存のフィールドを接続します。
-author: Jenny, Lisa
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '2551'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 * カスタムフォームの計算済みカスタムフィールド
 
-  Workfrontのカスタムフォーム上に計算カスタムフィールドを作成する方法について詳しくは、[&#x200B; 計算フィールドをフォームに追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+  Workfront のカスタムフォームで計算済みカスタムフィールドを作成する方法について詳しくは、[フォームへの計算フィールドの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
 * テキストモードを使用する場合の、レポートまたはリスト内の計算済みカスタム列
 
@@ -133,7 +133,7 @@ ht-degree: 88%
   </tr> 
   <tr> 
    <td><strong>ADDHOURS</strong> </td> 
-   <td> <p>日付に時間数を追加します。次のような形式です。</p>
+   <td> <p>日付に時間数を追加し、次の形式に設定されます。</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
    <p>メモ：この式は、Workfront Planning ではサポートされていません。</p></td> 
@@ -385,7 +385,7 @@ ht-degree: 88%
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong> 配列 </strong> </td> 
+   <td><strong>ARRAY</strong> </td> 
    <td> <p>文字列を配列に変換します。区切り文字には任意の文字列を使用できます。</p> 
    <p>式の形式は次のとおりです。</p>
    <p><code>ARRAY(string1, "delimiter")</code></p> 
@@ -394,7 +394,7 @@ ht-degree: 88%
 
 <tr> 
    <td><strong>ARRAYCONTAINS</strong> </td> 
-   <td> <p>リストまたは配列内の特定の値を検索します。 値が見つかった場合、この関数は True を返し、それ以外の場合は False を返します。 </p> 
+   <td> <p>リストまたは配列内の特定の値を検索します。値が見つかった場合、この関数は True を返し、それ以外の場合は False を返します。 </p> 
    <p>式の形式は次のとおりです。</p>
    <p><code>ARRAYCONTAINS(array, value)</code></p> 
    </td> 
@@ -403,7 +403,7 @@ ht-degree: 88%
 
 <tr> 
    <td><strong>ARRAYLENGTH</strong> </td> 
-   <td> <p>配列内の要素の数を返します。次のような形式になります。</p>
+   <td> <p>配列の要素の数を返し、次の形式で表します。</p>
    <p><code>ARRAYLENGTH(array)</code></p> 
    </td> 
   </tr>
@@ -452,9 +452,9 @@ ht-degree: 88%
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong> 形式 </strong> </td> 
-   <td><p>書式設定されたテキストを返します。 FORMAT では、ここに示すパラメータ オプションのみを使用できます。</p>
-   <p>カラーオプションは$$POSITIVE、$$INFORMATIVE、$$NEGATIVE、$$NOTICE で、その他の書式設定オプションは$$BOLD、$$ITALIC、$$UNDERLINE です。 1 つのカラーオプションと、最大 3 つの他の書式設定オプションのみが許可されます。 カラーオプションを指定しない場合、システムのデフォルトのカラーが適用されます。</p>
+   <td><strong>FORMAT</strong> </td> 
+   <td><p>書式設定されたテキストを返します。FORMAT では、ここに示すパラメーターオプションのみを使用できます。</p>
+   <p>カラーオプションは $$POSITIVE、$$INFORMATIVE、$$NEGATIVE、$$NOTICE で、その他の書式設定オプションは $$BOLD、$$ITALIC、$$UNDERLINE です。1 つのカラーオプションと、最大 3 つのその他の書式設定オプションのみ許可されます。カラーオプションを指定しない場合、システムのデフォルトのカラーが適用されます。</p>
    <p>式の形式は次のとおりです。</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>メモ：この式は、Workfront Planning ではサポートされていません。</p></td> 
@@ -528,8 +528,8 @@ ht-degree: 88%
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong> パスカル </strong> </td> 
-   <td> <p>入力文字列を PascalCase に変換します。変換するには、各単語の最初の文字を大文字にし、すべてのスペースを削除します。 </p>
+   <td><strong>PASCAL</strong> </td> 
+   <td> <p>入力文字列を PascalCase に変換して、各単語の最初の文字を大文字にし、すべてのスペースを削除します。 </p>
    <p>式の形式は次のとおりです。</p>
    <p><code>PASCAL(string) </code></p>
    <p>例えば、「hello world」は「HelloWorld」になります</p> 
@@ -552,10 +552,10 @@ ht-degree: 88%
 
 <tr> 
    <td><strong>REPLACEPATTERN</strong> </td> 
-   <td> <p>指定されたパターンの一致を置換文字列で置き換えます。 </p> 
+   <td> <p>指定されたパターンの一致を置換文字列で置換します。 </p> 
    <p>式の形式は次のとおりです。</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>例えば、REPLACEPATTERN （"foo123bar", "\d+", "_"）は、文字列「foo_bar」を生成します。
+   <p>例えば、REPLACEPATTERN("foo123bar", "\d+", "_") は、文字列「foo_bar」を生成します。
    </td> 
   </tr> 
   <tr> 
@@ -571,15 +571,15 @@ ht-degree: 88%
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong> ソルタスカレイ </strong> </td> 
-   <td> <p>配列要素を昇順に並べ、最初の要素の型に変換します。</p>
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>配列要素を昇順に並べ、最初の要素のタイプに変換します。</p>
    <p>式の形式は次のとおりです。</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>例えば、["-12.6", -13.0] は ["-12.6", "-13"] になります。</p>
    <p>メモ：この式は、Workfront Planning ではサポートされていません。</p></td> 
   </tr>
   <tr> 
-   <td><strong>SORTDESCCARRAY</strong> </td> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
    <td> <p>配列要素を降順で並べ替え、最初の要素のタイプに変換します。</p>
    <p>式の形式は次のとおりです。</p>
    <p><code>SORTDESCARRAY(array)</code></p>
@@ -609,7 +609,7 @@ ht-degree: 88%
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong> 切り替え </strong> </td> 
+   <td><strong>SWITCH</strong> </td> 
    <td> <p>値のリストに対して式を評価し、最初に一致した値に対応する結果を返します。</p>
    <p>式の形式は次のとおりです。</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>

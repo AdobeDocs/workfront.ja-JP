@@ -5,14 +5,14 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: ' [!DNL Adobe Workfront]  モバイルアプリへのアクセスを有効に、または無効にすることができます。'
-author: Nolan
+author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 87%
+ht-degree: 94%
 
 ---
 
@@ -60,6 +60,6 @@ ht-degree: 87%
 
 1. 「**[!UICONTROL 保存]」** をクリックします。
 
-[!DNL Workfront]モバイルアプリをサイトで有効にした後の使用方法について詳しくは、[&#x200B; [!DNL Adobe Workfront] モバイルアプリの使用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)を参照してください。
+[!DNL Workfront]モバイルアプリをサイトで有効にした後の使用方法について詳しくは、[ [!DNL Adobe Workfront] モバイルアプリの使用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)を参照してください。
 
-[!DNL Workfront for Outlook] の使用方法に関して詳しくは、[&#x200B; [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) を使用の節を参照してください。
+[!DNL Workfront for Outlook] の使用方法に関して詳しくは、[ [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) を使用の節を参照してください。

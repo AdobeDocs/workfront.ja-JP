@@ -6,12 +6,12 @@ title: JumpSeat 統合の設定
 description: ' [!DNL JumpSeat] を [!DNL Workfront] と統合して、カスタムの製品内ガイダンスを作成できます。'
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-author: Nolan, Becky
+author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 76%
+ht-degree: 82%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 76%
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 
@@ -111,4 +111,4 @@ https://{mycompanyname}.jumpseat.io
 
 >[!TIP]
 >
->[!DNL JumpSeat] 統合の設定について詳しくは、[!DNL JumpSeat]JumpSeat+Workfront[&#x200B; の &#x200B;](https://jumpseat.io/landing-page/jumpseat-workfront/) ドキュメントを参照してください。
+>[!DNL JumpSeat] 統合の設定について詳しくは、[!DNL JumpSeat]JumpSeat+Workfront[ の ](https://jumpseat.io/landing-page/jumpseat-workfront/) ドキュメントを参照してください。

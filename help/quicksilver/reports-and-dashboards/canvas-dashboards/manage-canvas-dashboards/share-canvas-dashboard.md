@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: キャンバスダッシュボードの共有
 description: キャンバスダッシュボードは、他のAdobe Workfront ユーザーと共有して、ユーザーが表示したり編集したりできるようにします。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 Canvas Dashboardsベータ版の概要記事の[フィードバックの提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)セクションの手順に従って、エクスペリエンスに関するフィードバックを送信してください。<br>
+>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
@@ -70,7 +70,7 @@ ht-degree: 8%
 
 ## ダッシュボードの共有に関する考慮事項
 
-* ダッシュボードは、ユーザー、チーム、グループ、担当業務、会社のリソースに共有できます。
+* ダッシュボードは、ユーザー、チーム、グループ、ジョブロール、または会社のリソースに共有できます。
 
 * デフォルトでは、ダッシュボードの作成者はそのダッシュボードの管理権限を持っています。
 
@@ -92,11 +92,11 @@ ht-degree: 8%
 
 1. **キャンバスダッシュボード** ページで、共有するダッシュボードを選択します。
 
-1. ページの右上隅にある「**共有**」ボタンをクリックします。 **ダッシュボード共有** ダイアログボックスが表示されます。
+1. ページの右上隅にある&#x200B;**共有**&#x200B;ボタンをクリックします。 [**ダッシュボードの共有**]ダイアログボックスが表示されます。
 
-   ![&#x200B; 共有ボタン &#x200B;](assets/share-button.png)
+   ![共有ボタン](assets/share-button.png)
 
-1. **アクセス権の付与先** フィールドに、キャンバスダッシュボードを共有する特定のユーザー、チーム、役割、グループまたは会社の名前の入力を開始し、ドロップダウンリストに表示されたら選択します。
+1. 「**アクセスを許可**」フィールドで、Canvasダッシュボードを共有する特定のユーザー、チーム、ロール、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示されたら選択します。
 
 1. （オプション）リソースのダッシュボードへのアクセス権を編集するには、リソース名の横にある **表示** をクリックし、表示されるドロップダウンリストで **管理** を選択します。
 
@@ -112,4 +112,4 @@ ht-degree: 8%
    >
    > 個々のユーザーの環境設定や、メール通知のシステム除外が適用される場合があります。<br>
    > 通知は、ユーザーと直接共有した場合にのみ送信されます。 グループ、役割、会社およびチームに共有しても、メール通知は生成されません。<br>
-   > レイアウトテンプレートから継承された権限では、ダッシュボードへのアクセスに関するメール通知は生成されません。
+   > レイアウトテンプレートから継承された権限では、ダッシュボードへのアクセスに関する電子メール通知は生成されません。

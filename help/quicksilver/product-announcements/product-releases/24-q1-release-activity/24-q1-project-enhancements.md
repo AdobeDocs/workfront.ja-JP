@@ -1,11 +1,11 @@
 ---
 title: 2024年第 1 四半期のプロジェクトの機能強化
 description: 2024年第 1 四半期のプロジェクトの機能強化
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 90%
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 # 2024年第 1 四半期のプロジェクトの機能強化
 
-このページでは、2024年第 1 四半期リリースでプレビュー環境に対して行われたすべてのプロジェクトの機能強化について説明します。この機能強化は、2024年第 1 四半期のリリースにおいて実稼動環境で利用できるようになります。
+このページでは、2024年第 1 四半期リリースでプレビュー環境に対して行われたすべてのプロジェクトの機能強化について説明します。この機能強化は、2024年第 1 四半期のリリースにおいて本番環境で利用できるようになります。
 
 2024年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2024年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)を参照してください。
 

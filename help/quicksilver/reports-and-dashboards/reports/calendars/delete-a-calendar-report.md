@@ -3,13 +3,13 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: カレンダーレポートの削除
 description: 自分が所有しているカレンダーや、自分と共有している他のユーザーによるカレンダーを削除できます。削除すると、そのカレンダーを共有したユーザーは、そのカレンダーにアクセスできなくなります。
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 70%
+ht-degree: 78%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 70%
 
 1. 削除するカレンダーに移動します。
 1. 「カレンダー」ドロップダウンメニューの横にある **詳細** メニューをクリックします。
-   ![&#x200B; カレンダーの詳細メニュー &#x200B;](assets/more-menu-calendar.png)
+   ![ カレンダーの詳細メニュー ](assets/more-menu-calendar.png)
 
 1. ドロップダウンリストから「**[!UICONTROL 削除]**」を選択します。
 1. 「**[!UICONTROL 削除]**」をクリックします。

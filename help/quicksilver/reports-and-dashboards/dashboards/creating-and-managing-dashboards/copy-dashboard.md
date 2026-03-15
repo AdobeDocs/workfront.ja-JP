@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードのコピー
 description: ダッシュボードとそのコンテンツのすべて（レポート、カレンダー、外部ページ）をコピーできます。ダッシュボードの内容をコピーする場合、元のダッシュボードに表示されている内容をそのまま保持するか、元のダッシュボードの内容のコピーを新規項目として作成するかを選択できます。また、新しいダッシュボードで項目を転送またはコピーしないように選択することもできます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 96%
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または左上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) （利用可能な場合）をクリックし、「**[!UICONTROL ダッシュボード]**」を選択します。
 
-1. コピーするダッシュボードを選択し、**コピー**![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png) をクリックします。\
+1. コピーするダッシュボードを選択し、**コピー**![ コピーアイコン ](assets/copy-icon.png) をクリックします。\
    または\
    コピーするダッシュボードを開き、**ダッシュボードのアクション**／**コピー**&#x200B;の順にクリックします。\
    ダッシュボードコピーダイアログボックスが表示されます。元のダッシュボード上のすべての項目が表示されます。

@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: スクラムボードでのストーリーとイシューの管理
 description: ストーリーやイシューをスクラムボードから別のイテレーションやバックログに移動したり、スクラムボードから削除したりできます。ストーリーやイシューを削除すると、30 日間ごみ箱に移動され、システム管理者のみが復元できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 84%
@@ -48,7 +48,7 @@ ht-degree: 84%
 
 +++
 
-## [!UICONTROL &#x200B; スクラム &#x200B;] ボードからのストーリーまたはイシューの移動
+## [!UICONTROL  スクラム ] ボードからのストーリーまたはイシューの移動
 
 {{step1-to-team}}
 
@@ -77,7 +77,7 @@ ht-degree: 84%
 
 1. 「**[!UICONTROL 移動]**」をクリックします。
 
-## [!UICONTROL &#x200B; スクラム &#x200B;] ボードからのストーリーまたはイシューの削除
+## [!UICONTROL  スクラム ] ボードからのストーリーまたはイシューの削除
 
 {{step1-to-team}}
 

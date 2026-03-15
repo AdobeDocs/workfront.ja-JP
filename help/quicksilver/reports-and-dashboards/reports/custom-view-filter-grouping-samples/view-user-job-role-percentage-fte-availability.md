@@ -4,13 +4,13 @@ product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：FTE の空き時間に対するユーザーの担当業務の割合
 description: ユーザーリストのビューに列を追加して、ユーザーが関連付けられている担当業務のリストと、ユーザープロファイルで定義されている各担当業務の FTE 使用可能時間の割合を表示できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 63%
+ht-degree: 68%
 
 ---
 

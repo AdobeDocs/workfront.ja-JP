@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: アジャイルバーンダウンチャートの概要
 description: バーンダウンチャートには、ストーリーがイテレーションまたはプロジェクトでどのように進行しているかが視覚的に表示されます。実際のバーンダウン率は、イテレーションまたはプロジェクトタイムラインの理想的なバーンダウン率に対して測定されます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 96%

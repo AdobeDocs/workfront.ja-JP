@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: スクラムボードからのストーリーとイシューの追加
+title: Add Stories and Issues from the Scrum Board
 description: スクラムボードから直接新しいストーリーやイシューを作成することも、ボードから既存のストーリーやイシューを追加することもできます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 

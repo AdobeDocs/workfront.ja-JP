@@ -4,11 +4,11 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: チーム要求の操作
 description: Workfront でチームリクエストを扱う方法について詳しくは、以下の記事を参照してください。
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: 3d3b786d-217c-414b-b0b9-812f4de9133f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 88%

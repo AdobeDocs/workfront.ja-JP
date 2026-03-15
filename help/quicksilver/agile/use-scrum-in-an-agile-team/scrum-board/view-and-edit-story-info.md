@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: スクラムボードでのストーリー情報の表示と編集
 description: かんばんボード上のストーリータイルを表示する場合、特定の情報は、ストーリータイルから直接、インラインで編集することができます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 77%
@@ -106,10 +106,10 @@ ht-degree: 77%
 
 1. 左パネルで、「**[!UICONTROL イテレーション]**」を選択して特定のイテレーションを選ぶか、「**[!UICONTROL 進行中のイテレーション]**」を選択します。
 
-1. アジャイルストーリーボード [!UICONTROL &#x200B; スクラム &#x200B;] に移動します。
+1. アジャイルストーリーボード [!UICONTROL  スクラム ] に移動します。
 1. [!UICONTROL ストーリー]タイルを展開して、ストーリーに関連するすべてのフィールドを表示します。
 
-   ![&#x200B; ストーリーカード &#x200B;](assets/agile-storycard-scrum-2021-350x333.png)
+   ![ ストーリーカード ](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. （オプション）フィールドを編集するには、フィールドをクリックして、変更を加えます。
 

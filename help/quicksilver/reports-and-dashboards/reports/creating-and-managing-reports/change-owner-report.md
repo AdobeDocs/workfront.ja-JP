@@ -3,10 +3,10 @@ product-area: reporting;user-management
 navigation-topic: create-and-manage-reports
 title: レポートの所有者の変更
 description: レポートの所有者は変更できません。ただし、レポートをコピーすると、コピーしたレポートの所有者に自動的になります。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8089cbeb-4258-48b8-b13a-dfbd739c526a
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%

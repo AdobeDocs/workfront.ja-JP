@@ -1,10 +1,11 @@
 ---
 title: 2025 年第 3 四半期の更新および通知の強化
 description: 2025 年第 3 四半期プロジェクトの強化
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: da73dc4e060e018e7a9254319bbaab6d333ce056
+exl-id: 26ed0bee-2fd4-480d-b55c-3c5a289d25b0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 9%
@@ -13,9 +14,9 @@ ht-degree: 9%
 
 # 2025 年第 3 四半期の更新および通知の強化
 
-このページでは、2025 年第 3 四半期リリースで行われた、プレビュー環境に対するすべての更新と通知の機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
+このページでは、2025 年第 3 四半期リリースで行われた、プレビュー環境に対するすべての更新と通知の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
-2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
+2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -30,5 +31,3 @@ ht-degree: 9%
 パフォーマンスの向上を実現するために、コメントに人物を追加する際に変更されたエクスペリエンスを導入しました。 これで、コメントにユーザーまたはチームを追加し始めた後も、「ユーザーまたはチームをタグ付け」リンクがコメントボックスに永続的に残ります。 この変更が行われる前は、コメントへの人物またはチームの追加を開始した後、「人物またはチームをタグ付け」リンクが削除されていました。 この変更は、コメントを追加できるすべてのWorkfront オブジェクトに導入されました。
 
 詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
-
-

@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: グループ化：リストへの 4 番目のグループの追加
 description: マトリックスレポートでは、4 つのグループを作成できます。マトリックスレポートについて詳しくは、「マトリックスレポートの作成」を参照してください。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 1147a47b-c6e2-496e-b202-eefeb500054e
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 79%
+ht-degree: 85%
 
 ---
 

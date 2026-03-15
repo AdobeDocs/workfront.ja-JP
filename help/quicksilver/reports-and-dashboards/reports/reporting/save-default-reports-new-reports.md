@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: デフォルトのレポートを新しいレポートとして保存
 description: Adobe Workfront のインスタンスに含まれるデフォルトのレポートのコピーを変更し、新しいレポートとして保存できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e3fa0bc6-a8c3-408e-924f-228c270ff579
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 100%

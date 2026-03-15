@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：すべての日付差異を持つタスク
 description: このタスクビューは、Adobe Workfront アカウントで提供される「すべての日付」ビューに似ています。このビューには、2 つの日付の間の日数の差を計算する、差異列が含まれています。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 75%
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 75%
 
 ビューでの計算の使用について詳しくは、[テキストモードの一般的な使用の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)の[テキストモードの一般的な使用の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)を参照してください。
 
-![&#x200B; すべての日付を含むタスクを表示 &#x200B;](assets/view-task-with-all-dates-variance.png)
+![ すべての日付を含むタスクを表示 ](assets/view-task-with-all-dates-variance.png)
 
 ## アクセス要件
 

@@ -1,14 +1,14 @@
 ---
 title: 2024年第 2 四半期の更新ストリームと通知の機能強化
 description: 2024年第 2 四半期の更新ストリームと通知の機能強化
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 95%
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 >
 >プレビューリリース：2024年4月11日（PT）。すべてのお客様向けの実稼動版：24.4 リリース（2024年4月11日（PT））
 
-アプリケーション全体で一貫したエクスペリエンスを提供するために、新しいコメント機能をイテレーションに追加しました。 詳しくは、[&#x200B; セクションの概要を更新 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
+アプリケーション全体で一貫したエクスペリエンスを提供するために、新しいコメント機能をイテレーションに追加しました。 詳しくは、[ セクションの概要を更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
 
 ## 従来のコメントエリアへのアクセス権限の削除
 
@@ -58,7 +58,7 @@ ht-degree: 95%
 
 詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3427992/){target=_blank}（この特定の機能の説明は 2:47 から始まります）
+[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能の説明は 2:47 から始まります）
 
 ## 読み取り専用のコメントをサポートする新しいコメントエクスペリエンスの「システムアクティビティ」タブ
 
@@ -70,7 +70,7 @@ ht-degree: 95%
 
 詳しくは、[「更新」セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
 
-[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3427992/){target=_blank}（この特定の機能の説明は 2:00 から始まります）
+[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能の説明は 2:00 から始まります）
 
 ## コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「更新ストリーム」タブ
 
@@ -84,7 +84,7 @@ ht-degree: 95%
 
 詳しくは、[「更新」セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
 
-[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3427992/){target=_blank}（この特定の機能の説明は 0:31 から始まります）
+[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能の説明は 0:31 から始まります）
 
 ## 概要パネルで新しいコメントストリームを利用できるようになりました。
 

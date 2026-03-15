@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: ワークストリームでのイテレーションの作成
 description: イテレーションとは、作業の完了のために予約された一定時間のことです。一部のアジャイルチームは、イテレーションをスプリントと呼ぶ場合があります。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 92%
@@ -37,7 +37,7 @@ ht-degree: 92%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr>  

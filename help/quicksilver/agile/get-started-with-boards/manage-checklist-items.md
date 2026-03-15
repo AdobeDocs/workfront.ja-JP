@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: カードのチェックリスト項目の管理
 description: カードのチェックリストを使用すると、作業をより少ない単位に分割したり、カードにメモを追加したりできます。チェックリスト項目は、アドホックカードと接続されたカードの両方で使用できます。
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p>
    </td> 
   </tr> 

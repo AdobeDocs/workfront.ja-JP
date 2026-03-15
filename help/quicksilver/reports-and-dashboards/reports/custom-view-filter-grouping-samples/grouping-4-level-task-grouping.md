@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: グループ化：Portfolio所有者、プログラム所有者、プロジェクト所有者およびプロジェクトステータスの 4 レベルのタスクのグループ化
 description: このタスクグループ化では、4 レベルのグループ化を提供します。この場合、タスクは、ポートフォリ所有者、プログラム所有者、プロジェクト所有者およびプロジェクトステータス別にグループ化されます。標準インターフェイスを使用する場合は、最大 3 レベルのグループ化に限られます。第 4 レベルを追加するには、テキストモードを使用する必要があります。同時に 4 つを超える条件でレポートをグループ化することはできません。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a1780a57-b94c-4d3a-b526-9bf45dba21f1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 

@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: using-built-in-reports
 title: ビュー内のビルトインステータスアイコン
 description: ビルトインの「状態アイコン」フィールドをビューの列として追加し、オブジェクトの主要ポイントをより明確に表示できます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 * オブジェクトに追加のメモが関連付けられている
 * 費用は請求可能または払い戻し可能
 * タスクがクリティカルパス上にある
-* ユーザーが会社またはチームに属しているか、個人のタイムゾーンが異なります
+* ユーザーが会社やチームに所属している場合、または個人のタイムゾーンが異なる場合
 
 次の点に注意してください。
 
@@ -58,7 +58,7 @@ ht-degree: 96%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-      <p>投稿者以上</p>
+      <p>コントリビューター以上</p>
       <p>リクエスト以上</p>
    </td>
   </tr>
@@ -105,7 +105,7 @@ ht-degree: 96%
 
    * *ステータスアイコン*
    * *フラグ*
-   * *ビューアイコン* （ドキュメントビューのみ）
+   * *アイコンの表示* （ドキュメントビューのみ）。
 
    ビルトインのアイコンは、これらのいずれかの名前の下に表示されます。\
    テンプレートビューには、「**ステータスアイコン**」フィールドと「**フラグ**」フィールドの両方が含まれます。この場合、2 つの列に同じアイコンが表示されます。\

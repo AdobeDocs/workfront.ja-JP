@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: 「メール通知：記事インデックス」
+title: メール通知：記事インデックス
 description: Adobe Workfront 管理者は、ユーザーへのイベント通知、リマインダー通知、およびメールテンプレートを設定できます。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94b07085-8e3d-4137-9820-38aaa257a3ed
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 96%

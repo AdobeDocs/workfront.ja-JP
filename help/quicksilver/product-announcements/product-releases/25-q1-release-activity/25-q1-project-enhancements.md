@@ -1,11 +1,11 @@
 ---
 title: 2025年第 1 四半期のプロジェクトの機能強化
 description: 2025年第 1 四半期のプロジェクトの機能強化
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 40%
@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # 2025年第 1 四半期のプロジェクトの機能強化
 
-このページでは、2025年第 1 四半期リリースでプレビュー環境に対して行われたすべてのプロジェクトの機能強化について説明します。これらの機能強化は、前述のように実稼動環境で利用できるようになります。
+このページでは、2025年第 1 四半期リリースでプレビュー環境に対して行われたすべてのプロジェクトの機能強化について説明します。これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
 

@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：レポートで使用されるレポート要素
 description: このビューには、Adobe Workfront で各レポートをレポートのリストで使用する際に、レポートを作成するために使用されるビュー、フィルター、グループ化が表示されます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 57%
+ht-degree: 63%
 
 ---
 

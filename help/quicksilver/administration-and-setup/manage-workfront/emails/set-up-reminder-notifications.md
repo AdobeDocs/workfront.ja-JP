@@ -1,11 +1,11 @@
 ---
-title: リマインダ通知の設定
-description: リマインダー通知は、指定された基準に基づいてユーザーに送信されるメールを生成します。 リマインダ通知は、タスク、問題、プロジェクトまたはタイムシートに対して実行する必要のあるアクションをユーザーに通知します。
-author: Alina, Nolan
+title: リマインダー通知を設定
+description: リマインダー通知では、指定した条件に基づいてユーザーに送信される電子メールが生成されます。 アラーム通知は、タスク、懸案事項、プロジェクト、またはタイムシートに対して実行する必要があるアクションをユーザーに通知します。
+author: Alina, Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 81%
@@ -16,11 +16,11 @@ ht-degree: 81%
 
 <!-- Audited: 1/2024 -->
 
-Workfront管理者は、ユーザーにリマインダー通知を作成し、ユーザーが特に注意を払うオブジェクトに関連付けることができます。
+Workfront管理者は、ユーザーへのリマインダー通知を作成して、ユーザーが特に注意を払うオブジェクトに関連付けることができます。
 
-リマインダー通知は、指定された基準に基づいてユーザーに送信されるメールを生成します。 リマインダ通知は、タスク、問題、プロジェクトまたはタイムシートに対して実行する必要のあるアクションをユーザーに通知します。
+リマインダー通知では、指定した条件に基づいてユーザーに送信される電子メールが生成されます。 アラーム通知は、タスク、懸案事項、プロジェクト、またはタイムシートに対して実行する必要があるアクションをユーザーに通知します。
 
-リマインダー通知を作成した後、ユーザーはリマインダー通知をプロジェクト、タスク、イシュー、タイムシートなどの作業項目に手動で関連付けることができます。 詳しくは、[&#x200B; オブジェクトにリマインダー通知を添付する &#x200B;](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md) を参照してください。
+リマインダー通知を作成した後、ユーザーはリマインダー通知をプロジェクト、タスク、懸案事項、タイムシートなどの作業項目に手動で関連付けることができます。 詳細については、[オブジェクトにリマインダー通知を添付する](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md)を参照してください。
 
 <!--
 DRAFTED IN FLARE:
@@ -76,7 +76,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 1. **メール**／**通知**／**リマインダー通知**&#x200B;をクリックします。
 
-   ![&#x200B; 「リマインダー通知」タブ &#x200B;](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![[アラーム通知]タブ](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
 1. **新しいリマインダー通知**&#x200B;をクリックします。
 
@@ -100,7 +100,7 @@ An example of how this can be used would be helpful here and/or in the section <
         <ul> 
          <li> <p>リマインダー通知は、指定した日付の 24 時間後、すべての条件が満たされると開始されます。</p> </li> 
          <li> <p>プロジェクト、タスク、イシューに関するリマインダー通知は、米国山岳時間の毎晩深夜にトリガーされます。その日のリマインダー通知の対象となるすべてのオブジェクトは、その日の直後に指定されたユーザーに通知をトリガーします。</p> </li> 
-         <li> <p>タイムシートのリマインダーは、組織のタイムゾーン、およびタイムシートの終了日、開始日または最終更新日に基づいています。 個々のユーザーのタイムゾーンは、リマインダー通知のタイミングには影響しません。</p> 
+         <li> <p>タイムシートのアラームは、組織のタイムゾーン、およびタイムシートの[終了日]、[開始日]、または[最終更新日]に基づいています。 個々のユーザーのタイムゾーンは、リマインダー通知のタイミングには影響しません。</p> 
       </li> 
         </ul> </p> </td> 
      </tr> 
@@ -132,14 +132,14 @@ An example of how this can be used would be helpful here and/or in the section <
      </tr> 
      <tr> 
       <td role="rowheader">受信者</td> 
-      <td><p>リマインダ通知の対象オブジェクトに応じて、通知を受信するユーザーのタイプを次の中から選択します。</p>
+      <td><p>リマインダー通知の対象オブジェクトに応じて、通知を受け取るユーザーのタイプを次から選択します。</p>
       <ul>
       <li>割り当て先</li>
       <li>入力者</li>
-      <li>プロジェクト チーム （プロジェクト チームのすべてのユーザーにリマインダーが送信されます）</li>
-      <li>依存タスク担当者（依存タスクに割り当てられたユーザーがリマインダーを受け取る）</li>
+      <li>プロジェクトチーム（プロジェクトチーム内のすべてのユーザーにリマインダーが送信されます）</li>
+      <li>依存タスク担当者（依存タスクに割り当てられたユーザーにリマインダーが送信されます）</li>
       <li>プロジェクト所有者</li>
-      <li>割り当て先（タスクまたは問題に割り当てられたユーザーがリマインダーを受け取る）</li>
+      <li>割り当て先（タスクまたは問題に割り当てられたユーザーにリマインダーが送信されます）</li>
       <li>タイムシート所有者</li>
       <li>タイムシート承認者</li>
       <li>タイムシート所有者のマネージャー</li></ul>
@@ -174,4 +174,4 @@ An example of how this can be used would be helpful here and/or in the section <
 
    リマインダー通知で指定されたユーザーに、メールが届きます。
 
-![&#x200B; リマインダ通知テスト &#x200B;](assets/reminder-test.png)
+![リマインダー通知テスト](assets/reminder-test.png)

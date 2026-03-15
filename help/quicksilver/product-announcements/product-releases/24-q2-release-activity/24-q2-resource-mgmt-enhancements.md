@@ -1,11 +1,11 @@
 ---
 title: 2024 年第 2 四半期のリソース管理の強化
 description: 2024 年第 2 四半期のリソース管理の強化
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # 2024 年第 2 四半期のリソース管理の強化
 
-このページでは、2024年第 2 四半期リリースでプレビュー環境に対して行われたリソース管理のすべての機能強化について説明します。この機能強化は、2024年第 2 四半期のリリースにおいて実稼動環境で利用できるようになります。
+このページでは、2024年第 2 四半期リリースでプレビュー環境に対して行われたリソース管理のすべての機能強化について説明します。この機能強化は、2024年第 2 四半期のリリースにおいて本番環境で利用できるようになります。
 
 2024年第 2 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)を参照してください。
 

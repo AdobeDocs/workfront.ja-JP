@@ -1,13 +1,13 @@
 ---
 title: 既存のグループを編集
 description: 既存のグループを編集
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 87%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 87%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</strong></td> 
    <td> 
-    <p>投稿者以上</p>
+    <p>コントリビューター以上</p>
     <p>リクエスト以上</p>
    </td>
   </tr> 
@@ -64,7 +64,7 @@ ht-degree: 87%
 
 1. カスタマイズしたいグループ化を含むオブジェクトのリストに移動します。
 1. **グループ化**&#x200B;アイコンをクリックします。
-1. カスタマイズするグループ化を選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. カスタマイズするグループ化を選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    ![編集アイコンを選択します。](assets/customizegrouping-nwe-standard-350x291.png)
 

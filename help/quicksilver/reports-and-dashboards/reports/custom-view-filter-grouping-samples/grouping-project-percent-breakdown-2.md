@@ -4,13 +4,13 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: グループ化：プロジェクト割合内訳 2
 description: このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。内訳には、10% ポイントの増分の完了率値が 0～10%、11～20%、21～30% などが表示されます。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 67%
+ht-degree: 72%
 
 ---
 

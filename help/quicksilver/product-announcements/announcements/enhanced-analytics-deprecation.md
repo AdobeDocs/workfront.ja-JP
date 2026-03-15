@@ -1,19 +1,19 @@
 ---
 navigation-topic: announcements
-title: Enhanced Analytics 廃止ガイド
+title: 拡張分析の廃止ガイド
 description: このページでは、今後の Enhanced Analytics の廃止について説明します。
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Enhanced Analytics 廃止ガイド
+# 拡張分析の廃止ガイド
 
 使用が減り、機能が制限されているので、Enhanced Analytics は間もなくAdobe Workfrontから廃止されます。 代わりに、Enhanced Analytics では実現できなかった強力な新しいビジュアライゼーションを作成するだけでなく、現在使用している Enhanced Analytics のビジュアライゼーションを再現できるWorkfront Data Connect がリリースされました。 組織でトランジションを成功させるために、このページには、変更点、トランジションの準備方法、よくある質問への回答に関する情報が含まれています。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 **代わりに使用できるものは何ですか？**
 
-* Workfront Data Connect では、Enhanced Analytics のビジュアライゼーションをレプリケートできます。 詳しくは、以下の [Workfront Data Connect で Enhanced Analytics のビジュアライゼーションをレプリケートする &#x200B;](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) を参照してください。
+* Workfront Data Connect では、Enhanced Analytics のビジュアライゼーションをレプリケートできます。 詳しくは、以下の [Workfront Data Connect で Enhanced Analytics のビジュアライゼーションをレプリケートする ](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) を参照してください。
 
 ## 廃止に向けた準備
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ### Workfront Data Connect の使用を開始する
 
-最初の推奨事項は、お客様の組織がWorkfront Data Connect に確実にアクセスできるようにし、できるだけ早くその使用に慣れることです。 データ接続機能とその使用方法について詳しくは、[Workfront Data Connect の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
+最初の推奨事項は、お客様の組織がWorkfront Data Connect に確実にアクセスできるようにし、できるだけ早くその使用に慣れることです。 データ接続機能とその使用方法について詳しくは、[Workfront Data Connect の概要 ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
 
 Data Connect は、新しいUltimate プラン <!--, and can be purchased as an add-on to the new Select and Prime plans--> に含まれています。 なお、従来のWorkfront プランを使用している組織は Data Connect を使用できません。 現在のプランと Data Connect の購入方法については、Workfront アカウント担当者にお問い合わせください。
 
@@ -51,8 +51,8 @@ Workfront Data Connect を使用すると、多くの新しいビジュアライ
 * [KPI クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
 * [フライトプランクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
 * [プロジェクトアクティビティクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-* [&#x200B; プロジェクトツリーマップクエリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
-* [チーム別アクティビティ クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
+* [プロジェクトツリーマップクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+* [チーム別アクティビティクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 
 ### ヘルプを要求
 

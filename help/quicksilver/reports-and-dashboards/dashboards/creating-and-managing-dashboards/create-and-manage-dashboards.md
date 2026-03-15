@@ -4,11 +4,11 @@ product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: ダッシュボードの作成および管理
 description: Adobe Workfront でダッシュボードを作成する方法について詳しくは、これらの記事をご覧ください。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: a7f29a8e-1aa8-4c6c-adeb-e6177291999a
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 100%

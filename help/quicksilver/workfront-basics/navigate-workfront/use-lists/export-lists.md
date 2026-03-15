@@ -3,12 +3,12 @@ navigation-topic: use-lists
 title: リストのエクスポート
 description: オブジェクトのリストを Adobe Workfront から書き出すことができます。Workfront のオブジェクトのリストに 2,000 個を超える項目が含まれている場合、リストを書き出すことが、1 ページでリスト内のすべての項目をレビューする唯一の方法です。
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 81%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上 </p>
+   <p>コントリビューター以上 </p>
    <p>リクエスト以上</p>
    </td> 
   </tr> 
@@ -45,7 +45,7 @@ ht-degree: 81%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>リストが含まれるオブジェクトに対する [!UICONTROL ビュー &#x200B;] アクセス許可</p>  </td> 
+   <td> <p>リストが含まれるオブジェクトに対する [!UICONTROL ビュー ] アクセス許可</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +76,7 @@ ht-degree: 81%
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. **[!UICONTROL エクスポート]** アイコン ![&#x200B; エクスポート &#x200B;](assets/export.png) をクリックします。
+1. **[!UICONTROL エクスポート]** アイコン ![ エクスポート ](assets/export.png) をクリックします。
 
 1. 次の形式から選択します。
 
