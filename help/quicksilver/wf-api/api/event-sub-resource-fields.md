@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 11fe205b9590b6f8330e0923bbe47d2ed693cf16
+source-git-commit: 9a3b04a40cf871661ba5451c0dc611057f7e4f5d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 74%
+source-wordcount: '1051'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 74%
 
 イベントサブスクリプションリソースフィールドは、イベントサブスクリプションで設定済みのエンドポイントにアウトバウンドメッセージを送信するイベントのトリガーを表します。リソースフィールドが編集されると、UPDATE イベントがトリガーされます。
 
-データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、Event Subscription API の記事 [&#x200B; ネストされたフィルターの使用 &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) を参照してください。
+データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、Event Subscription API の記事 [ ネストされたフィルターの使用 ](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) を参照してください。
 
 次の表に、イベントサブスクリプションリソースで使用できるフィールドを示します。
 
@@ -2446,7 +2446,7 @@ ht-degree: 74%
   </tr> 
   <tr> 
    <td>人材の配置プラン<p>（イベント サブ v2）</p></td> 
-   <td>スタッフ</td> 
+   <td>STAFFP</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -2588,7 +2588,7 @@ ht-degree: 74%
    <td>url</td> 
   </tr> 
   <tr> 
-   <td>スタッフ計画パラメーター値 <p>（イベント サブ v2）</p></td> 
+   <td>人材の配置プランのパラメーター値 <p>（イベント サブ v2）</p></td> 
    <td>SPVAL</td> 
    <td>customerID</td> 
   </tr> 
@@ -2647,7 +2647,7 @@ ht-degree: 74%
   </tr> 
   <tr> 
    <td>人材の配置プランリソース <p>（イベント サブ v2）</p></td> 
-   <td>スタッフ</td> 
+   <td>STAFFR</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -2734,8 +2734,8 @@ ht-degree: 74%
    <td>totalEstimatedRevenue</td> 
   </tr> 
   <tr> 
-   <td>スタッフ計画のリソース属性値<p>（イベント サブ v2）</p></td> 
-   <td>スパーバル</td> 
+   <td>人材の配置プランのリソース属性値<p>（イベント サブ v2）</p></td> 
+   <td>SPAVAL</td> 
    <td>attributeAttachableID</td> 
   </tr> 
   <tr> 
@@ -2782,7 +2782,7 @@ ht-degree: 74%
    <td>refGroupId</td> 
   </tr> 
   <tr> 
-   <td>スタッフ計画資源属性値セット <p>（イベント サブ v2）</p></td> 
+   <td>人材の配置プランのリソース属性値セット <p>（イベント サブ v2）</p></td> 
    <td>SAVSET</td> 
    <td>attributeAttachableID</td> 
   </tr> 
@@ -2809,8 +2809,8 @@ ht-degree: 74%
   </tr> 
   <tr> 
   <tr> 
-   <td>スタッフ計画のリソース パラメーター値 <p>（イベント サブ v2）</p></td> 
-   <td>SVAL</td> 
+   <td>人材の配置プランのリソースパラメーター値 <p>（イベント サブ v2）</p></td> 
+   <td>SRPVAL</td> 
    <td>customerID</td> 
   </tr> 
   <tr> 
@@ -2885,6 +2885,11 @@ ht-degree: 74%
    <td> </td> 
    <td> </td> 
    <td>billingRecordID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>canStart</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3109,12 +3114,12 @@ ht-degree: 74%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>deliverableScoreCardID</td> 
+   <td>customerID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>customerID</td> 
+   <td>deliverableScoreCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
