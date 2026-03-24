@@ -65,11 +65,11 @@ ht-degree: 5%
 
 ビジネスルールの形式は、「定義された条件が満たされた場合、ユーザーはオブジェクトに対するアクションを禁止され、メッセージが表示されます」です。
 
-ビジネスルールのプロパティおよびその他の関数の構文は、カスタムフォームの計算フィールドの構文と同じです。 構文について詳しくは、[ フォームデザイナーで計算フィールドを追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
+ビジネスルールのプロパティおよびその他の関数の構文は、カスタムフォームの計算フィールドの構文と同じです。 構文について詳しくは、[&#x200B; フォームデザイナーで計算フィールドを追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
 IF ステートメントについて詳しくは、[&quot;IF&quot; ステートメントの概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)および[計算カスタムフィールドの条件演算子](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)を参照してください。
 
-ユーザーベースのワイルドカードについて詳しくは、[ ユーザーベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)を参照してください。
+ユーザーベースのワイルドカードについて詳しくは、[&#x200B; ユーザーベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)を参照してください。
 
 日付ベースのワイルドカードについて詳しくは、[日付ベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)を参照してください。
 
@@ -125,7 +125,7 @@ IF(
 1. 「**新しいビジネスルール**」をクリックします。
 1. ビジネスルールを割り当てるオブジェクトタイプを選択し、**続行**&#x200B;をクリックします。
 
-   ![ オブジェクトを選択](assets/object-for-business-rule3.png)
+   ![&#x200B; オブジェクトを選択](assets/object-for-business-rule3.png)
 
    ビジネスルールは、次のオブジェクトに適用できます。
 
@@ -178,11 +178,11 @@ IF(
 
      この例では、「詳細情報」がURLにリンクされます。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URLは括弧で囲む必要がありますが、括弧内のリンクテキストは必要ありません。 完全なURLを表示することができ、クリック可能なリンクになります。
 
-   ![ ビジネスルールダイアログを追加](assets/add-business-rule-dialog-no-ai-button.png)
+   ![&#x200B; ビジネスルールダイアログを追加](assets/add-business-rule-dialog-no-ai-button.png)
 
    この例は、プロジェクトのビジネスルールです。 現在の月が11月の場合、ユーザーは新しいプロジェクトを作成できません。このメッセージは、これを説明しています。
 
-   ビジネスルールの詳細な例については、この記事の「[ ビジネスルールのシナリオ ](#scenarios-for-business-rules)」を参照してください。
+   ビジネスルールの詳細な例については、この記事の「[&#x200B; ビジネスルールのシナリオ &#x200B;](#scenarios-for-business-rules)」を参照してください。
 
 1. （オプション）右側のパネルの式&#x200B;**式**&#x200B;と&#x200B;**フィールド**&#x200B;を使用して、ルールの作成を支援します。
 
