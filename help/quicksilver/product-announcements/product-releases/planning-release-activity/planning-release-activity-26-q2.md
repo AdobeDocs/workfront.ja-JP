@@ -20,7 +20,7 @@ ht-degree: 15%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## パンくずリストの再設計
 
@@ -62,7 +62,7 @@ For information, see [Create fields](/help/quicksilver/planning/fields/create-fi
 
 この更新の前は、管理者以外のユーザーは、レコードタイプを接続可能にすることができませんでした。 これにより、レコードタイプを特定のワークスペースから接続できるようになります。 レコードタイプをシステム内のすべてのワークスペースから接続可能にすることはできません。
 
-詳しくは、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
+詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
 
 ## トリガーベースドオートメーション
 
@@ -149,7 +149,7 @@ Workfront オブジェクトとWorkfront Planning レコードタイプの間に
 
 この更新は、プロジェクトを表示する際に、レコードの接続されたレコードページのリストビューでのみ使用できます。
 
-詳しくは、[ リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
+詳しくは、[&#x200B; リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
 
 ## リスト表示に条件付き書式を適用する
 
@@ -161,7 +161,7 @@ Workfront オブジェクトとWorkfront Planning レコードタイプの間に
 
 レコードの接続されたレコードページのリストビューで、プロジェクトに条件付き書式設定を適用できるようになりました。 この機能は、この機能強化の前にリストビューに存在しませんでした。
 
-詳しくは、[ リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
+詳しくは、[&#x200B; リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
 
 ## セカンダリワークスペースのグローバルレコードタイプの改善
 
@@ -191,7 +191,7 @@ Workfront オブジェクトとWorkfront Planning レコードタイプの間に
 
 この新しい設定では、レコードの詳細プレビュー領域からテーブルビューで非表示になっているフィールドを含めるか除外するかを選択できます。
 
-詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 ## 元のリクエストの新しいプランニング接続フィールド
 
@@ -221,7 +221,7 @@ Workfront オブジェクトとWorkfront Planning レコードタイプの間に
 
 承認ルールは、リクエストフォームで作成されます。
 
-詳しくは、「[ リクエストフォームに承認ルールを追加する](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form)」を参照してください。Adobe Workfront Planningの「リクエストフォームに承認を追加する」を参照してください。
+詳しくは、「[&#x200B; リクエストフォームに承認ルールを追加する](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form)」を参照してください。Adobe Workfront Planningの「リクエストフォームに承認を追加する」を参照してください。
 
 ## Workfront Planningのユーザー先行入力フィールドにメールを表示する
 
@@ -252,4 +252,4 @@ Workfront オブジェクトとWorkfront Planning レコードタイプの間に
 
 2つのプランニングレコードタイプを接続する際に、ルックアップフィールドに「人物」フィールドを追加できるようになりました。
 
-詳しくは、[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+詳しくは、[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
