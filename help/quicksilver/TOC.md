@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: c2c32716d8c08c6aa7f9f408db29b8a645cf2e68
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
 source-wordcount: '13813'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 98%
       * 2026年第 2 四半期リリース {#release-26-q2}
          * [2026年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [2026年第 2 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
-         * [2026 年第 2 四半期ドキュメントの機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
+         * [2026年第2四半期ドキュメントの機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
          * [2026年第 2 四半期のプロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
-         * [2026 年第 2 四半期レポートの機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
-         * [2026 年第 2 四半期の機能強化のリクエスト](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
-         * [2026 年第 2 四半期のその他の機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
+         * [2026年第2四半期レポートの機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
+         * [2026年第2四半期の機能強化の要望](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
+         * [2026年第2四半期その他の機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
       * 2026年第 1 四半期リリース {#release-26-q1}
          * [2026年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
          * [2026年第 1 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)
@@ -521,27 +521,27 @@ ht-degree: 98%
          * [監査ログの表示と書き出し](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [ユーザーログイン情報を表示](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console でのユーザー管理](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-         * [ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+         * [ビジネスプロファイル概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
          * [ビジネスプロファイルの表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)
       * アクセスレベルの仕組み {#access-levels}
          * [アクセスレベルの仕組み](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [アクセスレベルの概要](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
          * [ライセンスの概要](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [ライセンスによるオブジェクトおよび領域へのアクセス](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [各オブジェクトタイプで使用可能な機能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-         * [非有料ユーザーの自動アップグレードオプションを無効にする](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+         * [ライセンスによるオブジェクトとエリアへのアクセス](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [各オブジェクトタイプで使用できる機能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [無料ユーザーの自動アップグレードオプションを無効にする](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [ライセンスモデル間における機能の比較](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
       * 従来のアクセスレベルの仕組み {#legacy-access-levels}
          * [従来のアクセスレベルの仕組み](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [レガシーアクセスレベルの概要](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [従来のライセンスの概要](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [従来のアクセスレベルの概要](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [レガシーライセンスの概要](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
          * [従来のアクセスレベルと権限](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [ライセンス タイプ別のオブジェクトと領域へのアクセス（従来）](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [ライセンスタイプ別のオブジェクトおよび領域へのアクセス（レガシー）](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
          * [各オブジェクトタイプの機能（レガシー）](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [各オブジェクトタイプへの設定可能なアクセス（レガシー）](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [組み込みアクセス レベル （レガシー）](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [ユーザーのアクセスレベルとライセンスのリスト（レガシー）](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+         * [各オブジェクトタイプの設定可能なアクセス（レガシー）](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [組み込みのアクセス レベル （レガシー）](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [ユーザーのアクセスレベルとライセンスの一覧表示（レガシー）](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Workfront へのアクセスの設定 {#configure-access}
          * [アクセス権の設定](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [カスタムアクセスレベルの作成または変更](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -1561,7 +1561,7 @@ ht-degree: 98%
          * [キャンバスダッシュボードの管理：記事インデックス](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [キャンバスダッシュボードの共有](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
          * [キャンバスダッシュボードでのレポートの配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
-         * [キャンバスダッシュボードでの通貨フィールドの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
+         * [Canvas ダッシュボードでの通貨フィールドの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
          * [キャンバスダッシュボードのフィルタリング](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
          * [キャンバスダッシュボードの名前または説明の変更](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
          * [キャンバスダッシュボードの削除](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
@@ -1841,6 +1841,8 @@ ht-degree: 98%
       * [概要を使用してワークロードバランサーの作業アイテムを更新](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * 作業のレビューと承認 {#review-and-approve-work}
    * [作業のレビューと承認](review-and-approve-work/review-and-approve-work.md)
+   * [統一されたレビューと承認の概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+   * [レビューと承認の統合を始める](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
    * [無償ユーザーに対する限定的なドキュメントおよびプルーフの決定の概要](review-and-approve-work/proof-doc-decision-limits.md)
    * 作業承認 {#work-approvals}
       * [作業承認](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1856,8 +1858,7 @@ ht-degree: 98%
       * [送信した承認の取り消し](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * 統合承認 {#document-reviews-and-approvals}
       * [統合ドキュメント承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [ドキュメント承認に使用可能な機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-      * [統合承認の概要](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [ドキュメント承認で利用可能な機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Workfront AI レビュアーの基本を学ぶ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [アドビのエンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)
@@ -1865,11 +1866,11 @@ ht-degree: 98%
       * アセットとドキュメントの承認の設定と管理 {#manage-asset-review-and-approval}
          * [統合承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [AI レビュアーの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
-         * [AI レビュアーのブランドの設定](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+         * [AI レビュアーのブランドを設定する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
          * [ドキュメント承認ワークフローの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [ドキュメント承認ワークフローへの承認者またはレビュー担当者の追加](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [ドキュメント承認ワークフローからの承認者またはレビュー担当者の削除](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [ドキュメント用の承認ワークフローテンプレートの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [ドキュメント承認ワークフローから承認者またはレビュー担当者を削除する](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [ドキュメントの承認ワークフローテンプレートの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [統合承認とプルーフの併用](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [新しいドキュメントバージョンのアップロードと承認のリクエスト](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
          * [レビューおよび承認のレポートダッシュボードの作成](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
@@ -1996,9 +1997,7 @@ ht-degree: 98%
          * [インタラクティブなプルーフを新しいバージョンとして追加した場合、プルーフのバージョンをダウンロードまたはプレビューすることはできません](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * ネイティブ統合 {#native-integrations}
       * [ネイティブ統合のレビューと承認：記事インデックス](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-      * [Frame.io 統合の概要](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
-      * [Frame.io の統合の基本を学ぶ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
-      * [GenStudio for Performance Marketingと Frame.io の統合の概要](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
+      * [GenStudio for Performance MarketingとFrame.ioの連携についてさらに詳しく](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
       * [プルーフと Creative Cloud Express の基本を学ぶ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [プルーフと GenStudio for Performance Marketing の統合の基本を学ぶ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [Frame.io 統合での Adobe Experience Manager の使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
@@ -2104,30 +2103,30 @@ ht-degree: 98%
       * [Workfront Goals での目標の共有](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Adobe Workfront Goals の通知を有効にする](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Workfront Planning {#adobe-workfront-planning}
-   * [Adobe Workfront計画の一般情報と記事一覧](planning/planning-information.md)
+   * [Adobe Workfront計画の一般的な情報と記事インデックス](planning/planning-information.md)
    * Adobe Workfront Planning に関する一般情報 {#adobe-workfront-planning-general-information}
       * [Adobe Workfront Planning に関する一般情報：記事インデックス](planning/general/planning-general-article-index.md)
       * [Adobe Workfront Planning の基本を学ぶ](planning/general/planning-overview.md)
-      * [Adobe Workfront Planning の実装に関する推奨事項](planning/general/planning-best-practices.md)
+      * [Adobe Workfront計画の導入に関する推奨事項](planning/general/planning-best-practices.md)
       * [Adobe Workfront Planning API の基本](planning/general/planning-api-basics.md)
       * [Adobe Workfront Planning の AI アシスタントの概要](planning/general/planning-ai-assistant-overview.md)
-      * [Adobe Workfront Planning Designerの基本を学ぶ](planning/general/planning-ai-designer.md)
+      * [Adobe Workfront計画Designerの基本を学ぶ](planning/general/planning-ai-designer.md)
       * [Adobe Workfront Planning の 2024年リリースアクティビティ](planning/general/release-activity.md)
       * [Adobe Workfront Planning の 2023年リリースアクティビティ](planning/general/release-activity-archives-2023.md)
       * [Adobe Workfront Planning オブジェクトの制限事項の概要](planning/general/limitations-overview.md)
       * [Adobe Workfront Planning の無料体験版の使用を開始](planning/general/trial-workfront-planning.md)
    * Adobe Workfront Planning のベストプラクティス {#adobe-workfront-planning-best-practices}
       * [Adobe Workfrontのベストプラクティス：記事インデックス](planning/best-practices.md/best-practices-article-index.md)
-      * [戦略的なホームの展開：30 日間のランチパッド](planning/best-practices.md/30-day-launchpad.md)
-      * [&#x200B; 成功のアーキテクト：キャンペーン階層のモデリング &#x200B;](planning/best-practices.md/model-campaign-hierarchy.md)
-      * [マーケティングカレンダーの作成：デッキなし、明確さ](planning/best-practices.md/marketing-calendar.md)
-      * [初めての勝利を持続可能な勢いに変える：マネージドスケーリングのプレイブック](planning/best-practices.md/playbook-how-to-scale.md)
-      * [橋渡し：戦略的意図をプロジェクトに結び付ける](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
+      * [戦略的ホーム：30日間のランチパッドを展開](planning/best-practices.md/30-day-launchpad.md)
+      * [成功の設計：キャンペーン階層のモデル化](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [マーケティングカレンダーを作成する：デッキ不要、わかりやすさ](planning/best-practices.md/marketing-calendar.md)
+      * [初勝利を持続可能な勢いに変える：管理された拡張のプレイブック](planning/best-practices.md/playbook-how-to-scale.md)
+      * [橋渡しをする：戦略的な意図をプロジェクトに結びつける](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
    * Adobe Workfront Planning のアーキテクチャ {#adobe-workfront-planning-architecture}
       * [アーキテクチャ：記事インデックス](planning/architecture/architecture-information.md)
       * [ワークスペースの概要](planning/architecture/workspaces-overview.md)
       * [ワークスペースの作成](planning/architecture/create-workspaces.md)
-      * [階層とパンくずの概要](planning/architecture/hierarchy-and-breadcrumb-overview.md)
+      * [階層とパンくずリストの概要](planning/architecture/hierarchy-and-breadcrumb-overview.md)
       * [ワークスペース階層の作成](planning/architecture/create-workspace-hierarchies.md)
       * [レコードタイプの概要](planning/architecture/overview-of-record-types.md)
       * [レコードタイプの作成](planning/architecture/create-record-types.md)
@@ -2225,7 +2224,7 @@ ht-degree: 98%
          * [Adobe Workfront for Creative Cloud アプリケーションのインストール](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Photoshop 用 Adobe Workfront をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Adobe Workfront for XD をインストールして開きます。](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-         * [&#x200B; [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+         * [ [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
       * Creative Cloud アプリケーション用の Adobe Workfront プラグインで作業を管理 {#manage-wf-cc}
          * [Creative Cloud アプリケーション用の Adobe Workfront プラグインで作業を管理](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Adobe Workfront プラグインを使用して作業を検索](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
@@ -2233,7 +2232,7 @@ ht-degree: 98%
          * [Adobe Workfront プラグインを使用して作業を更新](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Adobe Workfront プラグインを使用して作業アイテムを完了とマーク](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Adobe Workfront プラグインを使用して時間を記録](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントとプルーフのアップロード {#upload-docs-proofs-wf-cc}
          * [ドキュメントやプルーフを  [!DNL Adobe Workfront plugin]  から  [!DNL Creative Cloud] にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントとプルーフのアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
@@ -2243,8 +2242,8 @@ ht-degree: 98%
          * [XD アートボードをドキュメントとして Workfront にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [&#x200B; [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [&#x200B; [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [ [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator および InDesign 向け Workfront 拡張機能 {#workfront-for-illustrator-indesign}
          * [Illustrator および InDesign 向け Workfront 拡張機能の使用](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Jira 用 Adobe Workfront {#workfront-for-jira}
