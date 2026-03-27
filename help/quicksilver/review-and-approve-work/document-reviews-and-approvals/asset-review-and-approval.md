@@ -34,7 +34,7 @@ ht-degree: 1%
 * 従来のレポートを使用した承認レポートの作成
 * ホーム領域のマイ承認ウィジェットで承認リクエストにアクセスする
 
-詳しくは、[ レガシードキュメントの承認](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes)を参照してください。
+詳しくは、[&#x200B; レガシードキュメントの承認](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes)を参照してください。
 
 ## 統合承認
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 * Workfrontのホームウィジェットで、承認の複数の主要業績評価指標を表示します
 
 * 現在ベータ版のCanvas ダッシュボードを使用して、統合承認に関するレポートの詳細を表示します
-レポートについて詳しくは、[ レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
+レポートについて詳しくは、[&#x200B; レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
 
 * 複数ステージの承認の作成
 
