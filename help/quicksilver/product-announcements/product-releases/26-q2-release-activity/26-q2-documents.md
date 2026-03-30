@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 14%
@@ -22,15 +22,19 @@ ht-degree: 14%
 
 ## WorkfrontとFrame.ioを活用した統合レビューと承認
 
-Workfrontと、合理化されたレビューと承認のエクスペリエンスを提供するFrame.ioを活用した統一レビューと承認の機能をご紹介します。
 
-この新機能は、新規のお客様と更新時に既存のお客様が利用できます。
+>[!IMPORTANT]
+>
+>この新機能は、新規のお客様と更新時に既存のお客様が利用できます。
+
+
+Workfrontと、合理化されたレビューと承認のエクスペリエンスを提供するFrame.ioを活用した統一レビューと承認の機能をご紹介します。
 
 ### 最新情報
 
 #### 新しいドキュメント体験
 
-モダンなルックアンドフィールで、完全にリニューアルされたドキュメント体験をお楽しみください。 更新されたインターフェイスはナビゲーションを簡素化し、わかりやすさを向上させ、チームが単一の統合環境でレビューと承認を容易に管理できるようにします。 詳しくは、[&#x200B; ドキュメント エリアの概要](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
+モダンなルックアンドフィールで、完全にリニューアルされたドキュメント体験をお楽しみください。 更新されたインターフェイスはナビゲーションを簡素化し、わかりやすさを向上させ、チームが単一の統合環境でレビューと承認を容易に管理できるようにします。 詳しくは、[ ドキュメント エリアの概要](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
 
 #### 複数ステージの承認
 
@@ -68,7 +72,7 @@ Adobe Enterprise Storageにアクセスすることで、Adobe Creative Cloudな
 * 必要な決定が完了したときにのみ承認を進行させることができます
 * 承認進捗の可視化
 
-詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## 多段階の承認ワークフローテンプレートを設定して使用する
 
@@ -86,4 +90,4 @@ Adobe Enterprise Storageにアクセスすることで、Adobe Creative Cloudな
 * 承認開始時の手動設定時間を短縮
 * 必要な関係者が適切な段階で関与するようにします
 
-詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
