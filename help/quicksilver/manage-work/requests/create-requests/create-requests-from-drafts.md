@@ -98,7 +98,7 @@ ht-degree: 70%
 
    それぞれのリクエストキューのそれぞれのキュートピックのドラフトがこのリストに表示されます。
 
-   ![下書きのリストを含む下書きセクション ](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   ![下書きのリストを含む下書きセクション &#x200B;](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. （オプション）列の見出しをクリックして、その列でリストを並べ替えます。
 
@@ -131,7 +131,7 @@ ht-degree: 70%
 
      送信する準備がまだ整っておらず、後で戻って完了する場合は、「**閉じる**」をクリックします。リクエストは「ドラフト」セクションに保存され、次回このリクエストキューのリクエストを送信する際に利用できます。
 
-     ![新しいリクエストの送信、閉じる、破棄ボタン ](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![新しいリクエストの送信、閉じる、破棄ボタン &#x200B;](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      リクエストを送信すると、ドラフトは削除され、復元できません。
 
