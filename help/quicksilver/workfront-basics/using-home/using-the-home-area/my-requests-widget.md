@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: マイリクエストウィジェットの使用
-description: リクエストはマイリクエスト ウィジェットで送信できます。 フィルターと列を使用してウィジェットをカスタマイズすることもできます。
+description: マイリクエストウィジェットでリクエストを送信できます。 また、フィルターと列を使用してウィジェットをカスタマイズすることもできます。
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 3893a57fb7ae31a1649b20beccc1f0b79f2421fb
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 11%
+source-wordcount: '659'
+ht-degree: 15%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->この記事では、新しいマイリクエストウィジェットについて説明します。 新しいウィジェットを表示するには、新しい要求エクスペリエンスを有効にする必要があります。
->「リクエスト」領域で新しいリクエスト用エクスペリエンスを有効にできます。
+>この記事では、新しいMy Requests ウィジェットについて説明します。 新しいウィジェットを表示するには、新しいリクエスト用エクスペリエンスを有効にする必要があります。
+>リクエスト領域で新しいリクエストエクスペリエンスを有効にできます。
 
-自分のリクエスト ウィジェットには、送信したリクエストが表示されます。 リクエストのフィルタリング、特定のリクエストの検索、列の順序と表示の調整を行うことができます。 また、マイリクエスト ウィジェットから新しいリクエストを作成することもできます。
+My Requests ウィジェットには、送信したリクエストが表示されます。 リクエストをフィルタリングしたり、特定のリクエストを検索したり、列の順序や表示を調整したりできます。 マイリクエストウィジェットから新しいリクエストを作成することもできます。
 
 >[!NOTE]
 >
->* 自分のリクエスト ウィジェットが読み込まれると、最大 50 件のリクエストが表示されます。 さらにリクエストを表示するには、リストを下にスクロールします。
+>* マイリクエストウィジェットが読み込まれると、最大50件のリクエストが表示されます。 さらにリクエストを表示するには、リストを下にスクロールします。
 
 ## アクセス要件
 
@@ -36,8 +36,8 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
-   <td> <p>任意のWorkfrontまたはワークフローパッケージ</p>
-   <p>Workfront Planning リクエストおよび作成されたオブジェクトにアクセスするためのWorkfront Planning パッケージ</p>
+   <td> <p>任意のWorkfrontまたはWorkflow パッケージ</p>
+   <p>Workfront計画リクエストと作成されたオブジェクトにアクセスするためのWorkfront計画パッケージ</p>
     </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ ht-degree: 11%
    </tr> 
    -->
    <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
-   <td> <p>会話でタグ付けされているか、承認の解決が必要なオブジェクト （プロジェクト、タスク、問題、ドキュメント）への表示またはそれ以上のアクセス</p> </td> 
+   <td> <p>会話でタグ付けされたオブジェクトや承認を解決する必要があるオブジェクト（プロジェクト、タスク、イシュー、ドキュメント）への表示以上のアクセス権</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
@@ -68,113 +68,143 @@ ht-degree: 11%
 
 ## リクエストの作成
 
-リクエストは、マイリクエスト ウィジェットから直接作成できます。
+マイリクエストウィジェットから直接リクエストを作成できます。
 
-手順については、[&#x200B; ホームエリアから作業アイテムとプロジェクトを作成する &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request) の記事の [&#x200B; リクエストを作成する &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) の節を参照してください。
+手順については、「[作業項目とプロジェクトをホーム エリア ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request)から作成する」の「[ リクエストを作成](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)」の節を参照してください。
 
 ## リクエストをコピーする
 
-自分のリクエスト ウィジェットでリクエストをコピーし、編集して、新しいリクエストとして送信できます。
+マイリクエストウィジェットでリクエストをコピーして編集し、新しいリクエストとして送信できます。
 
-手順については、[&#x200B; リクエストのコピーと送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) を参照してください。
+手順については、[要求のコピーと送信](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md)を参照してください。
 
-## リクエストのフィルタリング
+## マイリクエストウィジェットのリクエストリストの情報を管理する
 
-自分のリクエスト ウィジェットには、ウィジェットに表示するリクエストを制御できるカスタマイズ可能なフィルターが備わっています。 このフィルターは、様々なフィールドと値に対して設定でき、AND および OR 演算子を使用して条件をスタックできます。
+<!--
+The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
-マイリクエスト ウィジェットでフィルターを設定するには：
+To configure the filter in the My Requests widget:
+-->
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
-1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックして **マイリクエスト** を見つけ、クリックして **ホーム** に追加します。
-1. **マイリクエスト** ウィジェットで、「**フィルター**」をクリックします。
-1. フィルターの基準にするフィールドを選択します。 利用可能なオプションは次のとおりです。
+1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/lines-main-menu.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. （条件付き）ホーム画面に&#x200B;**マイリクエスト** ウィジェットを追加するには。 **カスタマイズ**&#x200B;をクリックして&#x200B;**マイリクエスト**&#x200B;を見つけ、それをクリックして&#x200B;**ホーム**&#x200B;に追加します。
+1. （オプション）情報がリクエストリストに表示される方法を管理するには、リストの次のビュー要素を更新します。
 
-   * ワークスペース
-   * オブジェクトタイプ
-   * エントリ日
-   * リクエストフォーム
-   * ステータス
-   * 入力者
-   * リクエストまたは作成されたオブジェクトからのカスタムフィールド
+   * 表示
+   * フィルター
+   * 列
 
-1. 次のフィールドで、このフィルター条件に使用する演算子を選択します。 使用できる演算子は、選択したフィールドによって異なります。
-1. （条件付き）演算子の右側にフィールドが表示される場合、フィルタリングの基準にする値を選択します。
-1. （オプション）別のフィルター条件を追加するには、「**条件を追加** をクリックし、手順 4～6 を繰り返します。
-1. （オプションおよび条件付き）複数の条件がある場合は、条件の左側にある **And** または **Or** をクリックして、And または Or 値を切り替えます。
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
 
-フィルターは自動的に保存されます。
+   リクエストリストでの情報の管理について詳しくは、[拡張リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。
+
+
+<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+1. Select the field that you want to filter by. Available options are:
+
+   * Workspace
+   * Object type
+   * Entry date
+   * Request form
+   * Status
+   * Entered by
+   * Custom fields from the request or from the created object   
+
+1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
+1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
+1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
+1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
+
+
+The filter is saved automatically.
+
+-->
 
 >[!TIP]
 >
->Adobe Workfrontの他にWorkfront Planning を購入している場合、マイリクエスト ウィジェットにはWorkfrontとWorkfront Planning の両方のリクエストが含まれます。
+>組織がAdobe Workfrontに加えてWorkfront Planningを購入した場合、マイリクエストウィジェットにはWorkfrontとWorkfront Planningの両方のリクエストが含まれます。
 > 
->* Workfront リクエストのみをフィルタリングするには、フィルターを **オブジェクトタイプ**/**次のいずれかを含む**/**イシュー** に設定します。
->* Workfront Planning リクエストのみをフィルタするには、フィルタを **オブジェクト・タイプ**/**次のいずれも持たない**/**イシュー** に設定します。
+>* Workfront リクエストのみをフィルタリングするには、フィルターを&#x200B;**Object type** > **Has any of** > **Issues**&#x200B;に設定します。
+>* Workfront Planning リクエストのみをフィルタリングするには、フィルターを&#x200B;**Object type** > **Has none of** > **Issues**&#x200B;に設定します。
 
-## 列の調整または追加
+<!--
 
-自分のリクエスト ウィジェットに表示する使用可能な列を選択し、その順序を設定できます。
+## Adjust or add columns
 
-使用可能な列は次のとおりです。
+You can choose which of the available columns appear on the My Requests widget, and set their order.
 
-* 件名
-* 作成されたオブジェクト
-* オブジェクトタイプ
-* ステータス
-* リクエストフォーム
-* エントリ日
-* 入力者
+Available columns include:
 
-マイリクエスト ウィジェットの列を調整するには：
+* Subject
+* Created object
+* Object type
+* Status
+* Request form
+* Entry date
+* Entered by
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
-1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックして **マイリクエスト** を見つけ、クリックして **ホーム** に追加します。
-1. **マイリクエスト** ウィジェットで、「**列**」をクリックします。
-1. （オプション）列を並べ替えるには、移動する列のドラッグハンドル ![&#x200B; ドラッグハンドル &#x200B;](assets/drag-handle.png) をクリックして、目的の場所までドラッグします。 リストの上部にある列は、最初の列としてマイリクエスト ウィジェットに表示されます。
-1. （オプション）リクエストリストの列の表示/非表示を切り替えるトグルを使用します。
-1. 列としてカスタムフィールドを追加するには、リストの右上隅にある **列の追加** アイコン ![&#x200B; 列の追加 &#x200B;](assets/add-column.png) をクリックし、ウィジェットに列として追加するカスタムフィールドの横にあるプラスアイコンをクリックします。
+To adjust the columns on the My Requests widget:
 
-   リスト内のオブジェクトに添付されたフォームのカスタムフィールドを、列として追加できます。
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
+1. In the **My Requests** widget, click **Columns**.
+1. (Optional) To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the first column.
+1. (Optional) Use the toggle to hide or show the column in the requests list.
+1. To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) in the upper-right corner of the list, and click the plus icon next to the custom field that you want to add as a column to the widget.
 
-列環境設定は自動的に保存されます。
+   Custom fields on forms attached to the object in the list are available to add as columns.
 
-## ビューの作成
+Column preferences are saved automatically.
 
-マイリクエスト ウィジェットでビューを作成して、リクエストリストでの情報の表示方法を変更できます。
+-->
 
-マイリクエスト ウィジェットでビューを使用する場合は、次の点を考慮してください。
+<!--
 
-* 自分のリクエスト ウィジェットのビューには、ビューに適用された列とフィルターが含まれます。
-* ビューを作成して他のユーザーと共有できます。 共有する前にビューに対して選択したフィルターと列は、共有するビューに含まれます。
-* 次に示すのは、編集、共有、削除ができないシステム表示です。
+## Create a view
 
-   * ウィジェット統合リクエストのデフォルト表示
-* マイリクエスト ウィジェットでのビューの作成と編集は、拡張リストに似ています。 詳しくは、[&#x200B; 拡張リストの使用 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
+You can create views in the My Requests widget to change the way the information displays in the request list. 
+
+Consider the following when working with views in the My Requests widget:
+
+* A view in the My Requests widget contains the columns and filters applied to the view.
+* You can create views and share them with others. The filters and columns you select for the view before you share it are included in the views you share. 
+* The following is a system view which you cannot edit, share, or delete: 
+
+   * Widget Unified Requests Default View
+* Creating and editing a view in the My Requests widget is similar to enhanced lists. For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
+
+-->
 
 ## 検索リクエスト
 
-マイリクエスト ウィジェットで特定のリクエストを検索するには：
+マイリクエストウィジェットで特定のリクエストを検索するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
-1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックして **マイリクエスト** を見つけ、クリックして **ホーム** に追加します。
-1. マイリクエスト ウィジェットの右上付近にある検索バーに、検索する用語を入力します。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. （条件付き）ホーム画面に&#x200B;**マイリクエスト** ウィジェットを追加するには。 **カスタマイズ**&#x200B;をクリックして&#x200B;**マイリクエスト**&#x200B;を見つけ、それをクリックして&#x200B;**ホーム**&#x200B;に追加します。
+1. マイリクエストウィジェットの右上付近にある検索バーで、検索する語句を入力します。
 
-   という用語を含んだリクエストは、オレンジでハイライト表示されます。
+   用語を含むリクエストはオレンジ色で強調表示されます。
 
-1. （オプション）ハイライトされたリクエストにジャンプするには、検索バーの上向きまたは下向き矢印をクリックします。
+1. （オプション）強調表示されたリクエストにジャンプするには、検索バーの上向き矢印または下向き矢印をクリックします。
 
-## リクエストで作成されたオブジェクトに移動
+## リクエストによって作成されたオブジェクトに移動
 
-自分のリクエスト ウィジェットで、リクエストによって作成されたオブジェクトを検索できます。
+リクエストで作成されたオブジェクトは、マイリクエストウィジェットで見つけることができます。
 
 >[!NOTE]
 >
->作成されたオブジェクトへのリンクは、要求そのものがオブジェクトを作成した場合に、新しい要求エクスペリエンスで使用できるのは Planning 要求のみです。 Workfront リクエストがプロジェクトまたは他のオブジェクトに変換された場合、変換後のオブジェクトへのリンクは、新しいリクエストエクスペリエンスのリクエストリストで使用できません。
+>作成されたオブジェクトへのリンクは、新しいリクエストのエクスペリエンスでは、リクエスト自体がオブジェクトを作成した場合にのみ、Planning リクエストでのみ使用できます。 Workfront リクエストがプロジェクトまたは他のオブジェクトに変換された場合、変換後のオブジェクトへのリンクは、新しいリクエストエクスペリエンスのリクエストリストで使用できません。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
-1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックして **マイリクエスト** を見つけ、クリックして **ホーム** に追加します。
-1. オブジェクトを作成したリクエストを見つけます。
-1. そのリクエストの **作成されたオブジェクト** 列にあるオブジェクト名をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. （条件付き）ホーム画面に&#x200B;**マイリクエスト** ウィジェットを追加するには。 **カスタマイズ**&#x200B;をクリックして&#x200B;**マイリクエスト**&#x200B;を見つけ、それをクリックして&#x200B;**ホーム**&#x200B;に追加します。
+1. オブジェクトを作成したリクエストを探します。
+1. そのリクエストの&#x200B;**作成済みオブジェクト**&#x200B;列のオブジェクト名をクリックします。
 
    オブジェクトのページが開きます。
 

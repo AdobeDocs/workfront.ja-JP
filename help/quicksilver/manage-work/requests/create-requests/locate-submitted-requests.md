@@ -1,39 +1,51 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: 送信されたリクエストを表示
-description: 自分または他のユーザーが送信したリクエストや、自分が送信したことがなく、ドラフトとして保存されたリクエストを表示できるAdobe Workfrontの領域について説明します。
+title: 送信された要求の表示
+description: 自分または他のユーザーが送信したリクエスト、または自分が未送信でドラフトとして保存されたリクエストを表示できるAdobe Workfrontの領域について説明します。
 author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 44%
+source-wordcount: '1347'
+ht-degree: 45%
 
 ---
 
 # 送信されたリクエストを表示する
 
-自分または他のユーザーが送信したリクエストや、自分が開始したが送信を完了していないリクエストを表示できます。 未完了のリクエストはドラフトとして保存されます。
+<!--
+Remove production and preview references at release
+-->
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
+
+自分または他のユーザーが送信したリクエスト、または開始したリクエストを表示できますが、送信を完了したことはありません。 未完成のリクエストはドラフトとして保存されます。
 
 送信されたリクエストは、Adobe Workfrontの次の領域で見つけることができます。
 
-* Workfrontの「リクエスト」エリア
+* Workfrontのリクエスト領域
 * ホームのマイリクエストウィジェット
 
-リクエスト エリアには、表示方法に応じて次のリクエストが表示されます。
+「要求」領域には、表示する方法に応じて、次の要求が表示されます。
 
-* 従来のエクスペリエンスを使用する場合、Workfrontは次のことをリクエストします
-* 新しいエクスペリエンスを使用する場合、Workfrontだけでなく、Planning リクエストも参照してください。
+* 従来のエクスペリエンスを使用する際のWorkfront リクエスト
+* Workfrontを新しいエクスペリエンスを使用する際のプランニングリクエストと同様に使用できます。
 
   >[!NOTE]
   >
   >* 自分のドラフトリクエストのみを表示できます。
-  >* 新しいリクエストエクスペリエンスでは、送信されたリクエストとドラフトが同じリストに含まれます。
-  >* 従来のエクスペリエンスで作成されたドラフトは、新しい要求元エクスペリエンスには表示されません。
+  >* 新しいリクエストエクスペリエンスでは、送信されたリクエストとドラフトが同じリストに表示されます。
+  >* 従来のエクスペリエンスで作成されたドラフトは、新しいリクエストエクスペリエンスには表示されません。
 
 ## アクセス要件
 
@@ -45,8 +57,8 @@ ht-degree: 44%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p>任意のAdobe Workfront またはAdobe ワークフローパッケージ</p> 
-   <p>任意のAdobe Workfront Planning パッケージ</p>
+   <td> <p>任意のAdobe WorkfrontまたはAdobe Workflow パッケージ</p> 
+   <p>任意のAdobe Workfront計画パッケージ</p>
    </td> 
   </tr> 
   <tr> 
@@ -61,7 +73,7 @@ ht-degree: 44%
   </tr>
   <tr>
    <td role="rowheader">オブジェクト権限</td> 
-   <td><p>リクエストに対する権限以上を表示</p></td> 
+   <td><p>リクエストに対する権限以上を表示します</p></td> 
   </tr> 
   <!--
   tr> 
@@ -76,64 +88,83 @@ ht-degree: 44%
 
 +++
 
-## 「要求」エリアで送信された要求を表示する
+## リクエスト領域で送信されたリクエストを表示する
 
-送信されたリクエストの表示は、新しいリクエストエクスペリエンスと従来のリクエストエクスペリエンスのどちらを使用しているかによって異なります。
+送信されたリクエストの表示は、新しいリクエスト体験を使用しているか、従来のリクエスト体験を使用しているかによって異なります。
 
-* [新しい要求エクスペリエンスで送信された要求を表示する](#view-submitted-requests-in-the-new-requesting-experience)
-* [従来のリクエストエクスペリエンスでの送信済みリクエストの表示](#view-submitted-requests-in-the-legacy-requesting-experience)
+* [送信されたリクエストを新しいリクエストエクスペリエンスで表示](#view-submitted-requests-in-the-new-requesting-experience)
+* [送信されたリクエストを従来のリクエスト体験で表示](#view-submitted-requests-in-the-legacy-requesting-experience)
 
-### 新しい要求エクスペリエンスで送信された要求を表示する
-
-送信されたリクエストは「リクエスト」エリアで確認できます。このエリアには、Adobe Workfront Planning のリクエストで作成されたオブジェクトへのリンクが含まれます。
+### 送信されたリクエストを新しいリクエストエクスペリエンスで表示
 
 >[!NOTE]
 >
->リクエスト自体でレコードを作成した場合、作成されたオブジェクトへのリンクを新しいリクエスト環境で使用できるのは、Planning リクエストに対してのみです。
+>* Workfront Planningがある場合は、WorkfrontとPlanning リクエストが同じリストに表示されます。 Workfront リクエストは、`Issue` オブジェクトタイプ **列に値**&#x200B;を表示します。
+>* デフォルトでは、最大50件のリクエストがリクエスト領域のリストに表示されます。 その他のリクエストを表示するには、リストの一番下までスクロールします。
+
+送信済みリクエストは、リクエスト領域で表示できます。この領域には、実稼動環境<!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment-->でAdobe Workfront Planning リクエストによって作成されたレコードへのリンクが含まれます。
+
+>[!NOTE]
+>
+>作成されたオブジェクトへのリンクは、新しいリクエストのエクスペリエンスでは、リクエスト自体がレコードを作成した場合にのみ、Planning リクエストでのみ使用できます。
 >
 >Workfront リクエストがプロジェクトまたは他のオブジェクトに変換された場合、変換後のオブジェクトへのリンクは、新しいリクエストエクスペリエンスのリクエストリストで使用できません。
 
-自分または他のユーザーが新しいリクエスト中のエクスペリエンスで送信したリクエストを表示するには、次の手順を実行します。
-
-{{step1-to-requests}}
-
-1. 画面の右上隅にある&#x200B;**新しいエクスペリエンスを使用**&#x200B;設定がオンになっていることを確認します。
-
-   要求リストが表示されます。
-
-1. （オプション）リクエストを検索するには、リストの右上隅にある検索バーに入力を開始します。 入力中に検索結果が表示されます。
-1. （任意）「**フィルター**」をクリックして、表示するリクエストの条件の追加を開始します。
-
-   フィルターについて詳しくは、[&#x200B; リクエスト エリアでのビューの作成と管理 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
-
-1. （オプション） **ビュー** ドロップダウンメニューをクリックして、ビューを更新したり、他のユーザーと共有したりします。
-
-   詳しくは、[&#x200B; リクエスト領域でのビューの作成または編集 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
-1. （オプション） **ステータス** 列を確認して、リクエストのステータスを確認します。 新しい要求エクスペリエンスでは、次のステータスを使用できます。
-
-   * **ドラフト**：このリクエストはまだ送信されていません。
-   * **レビュー保留中**: （計画のみ）この要求には承認者が含まれ、どの承認者も要求を開いていません。
-   * **レビュー中**: （Planning のみ）この要求には承認者がいて、少なくとも 1 人の承認者が要求を開きましたが、決定は行われていません。
-   * **却下**: （Planning のみ）このリクエストには承認者がいて、却下されています。 このリクエストはレコードを作成しません。
-   * **処理中**:
-      * Workfront リクエスト：リクエストが変換され、作業が進行中です。
-      * Workfront計画要求：要求完了は計画フィールドにマップされます。フィールド値は完了値にまだ一致していません。
-
-        詳しくは、「Adobe Workfront Planningでリクエストフォームを作成して管理する」の[構成の詳細の設定](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details)を参照してください。
-   * **完了**：要求が完了しました。
-
+<!--
+replace the note above with this at release: 
 >[!NOTE]
 >
->* Workfront Planning がある場合は、Workfrontと Planning のリクエストが同じリストに表示されます。 Workfront リクエストには、`Issue` オブジェクトタイプ **列の値** が表示されます。
->* デフォルトでは、最大 50 件のリクエストが「リクエスト」領域のリストに表示されます。 その他のリクエストを表示するには、リストの下部までスクロールします。
+>Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
+>
+>If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
+><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
+-->
 
-### 従来のリクエストエクスペリエンスでの送信済みリクエストの表示
-
-レガシーリクエストエクスペリエンスで自分または他のユーザーが送信したリクエストを表示するには、次のようにします。
+新しいリクエストエクスペリエンスで自分または他のユーザーが送信したリクエストを表示するには：
 
 {{step1-to-requests}}
 
-1. （条件付き）Workfront Planning パッケージを購入した場合は、「**Workfront**」タブをクリックしてWorkfront リクエストを表示します。
+1. 画面の右上隅にある「**新しいエクスペリエンスを使用**」設定がオンになっていることを確認します。
+
+   リクエストリストが表示されます。
+
+1. （オプション）リクエストを検索するには、リストの右上隅にある検索バーに入力を開始します。 入力時に検索結果が表示されます。
+1. （オプション）情報がリクエストリストに表示される方法を管理するには、リストの次のビュー要素を更新します。
+
+   * 表示
+   * フィルター
+   * 列
+
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
+
+   リクエストリストでの情報の管理について詳しくは、[拡張リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。
+
+1. （オプション）「**ステータス**」列を確認して、リクエストのステータスを確認します。 新しいリクエストエクスペリエンスでは、次のステータスを使用できます。
+
+   * **ドラフト**：このリクエストはまだ送信されていません。
+   * **保留中のレビュー**: （計画のみ）このリクエストには承認者が含まれており、どの承認者もリクエストを開いていません。
+   * **レビュー中**: （計画のみ）このリクエストには承認者が含まれており、少なくとも1人の承認者がリクエストを開きましたが、決定は行われていません。
+   * **却下**: （計画のみ）このリクエストには承認者が含まれており、却下されています。 このリクエストはレコードを作成しません。
+   * **進行中**:
+      * Workfront リクエスト：リクエストが変換され、作業が進行中です。
+      * Workfront計画リクエスト：リクエストの完了は特定の計画フィールドにマッピングされ、フィールド値はまだ完了値と一致しません。
+
+        詳しくは、「Adobe Workfront Planningでのリクエストフォームの作成と管理」の「[設定の詳細](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details)」を参照してください。
+   * **完了**：リクエストが完了しました。
+
+### 送信されたリクエストを従来のリクエスト体験で表示
+
+レガシーリクエストエクスペリエンスで自分または他のユーザーが送信したリクエストを表示するには：
+
+{{step1-to-requests}}
+
+1. （条件付き）組織がWorkfront計画パッケージを購入した場合は、「**Workfront**」タブをクリックしてWorkfront リクエストを表示します。
 1. 左パネルの「**送信済み**」をクリックして、送信されたすべてのリクエストを表示します。
 
    最大 2,000 件のリクエストを表示でき、リクエストは複数のページにわたって表示される可能性があります。
@@ -142,7 +173,7 @@ ht-degree: 44%
    >
    >送信済みリクエストリストの列はカスタマイズできません。
 
-   ![&#x200B; 送信済み要求の新しいリスト &#x200B;](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![新しいリストを送信しました](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. 次の列がデフォルトで表示されます。
@@ -186,17 +217,17 @@ ht-degree: 44%
    >
    >送信済みリクエストのリストから移動したとき、選択された並べ替えオプションが保持されます。
 
-1. （オプション）リスト内のリクエストを選択し、「**概要を開く**」アイコン ![&#x200B; 概要をテキストで開く &#x200B;](assets/open-summary-with-text-nwe.png) をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメントやドキュメントを追加したり、割り当てたりします。 概要パネルについて詳しくは、[概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
+1. （オプション）リストでリクエストを選択し、**概要を開く** アイコン ![ テキストで概要を開く](assets/open-summary-with-text-nwe.png)をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメント、ドキュメントを追加したり、割り当てたりします。 概要パネルについて詳しくは、[概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
    >[!TIP]
    >
    >概要パネルが既に開いている場合は、概要を開くアイコンが、概要を閉じるアイコンに変わります。
 
-1. （オプションおよび条件付き）右上隅の **X** アイコンまたは **概要を閉じる** アイコン ![&#x200B; 概要をテキストで閉じる &#x200B;](assets/close-summary-with-text-nwe.png) をクリックして、概要パネルを閉じます。
+1. （オプションおよび条件付き）右上隅の&#x200B;**X** アイコンまたは&#x200B;**概要を閉じる** アイコン ![概要をテキスト ](assets/close-summary-with-text-nwe.png)で閉じる」をクリックして、概要パネルを閉じます。
 
    イシューがタスクまたはプロジェクトに変換され、変換処理でイシューが削除された場合、概要パネルは空白になります。イシューの変換について詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
-1. リストの右上にある **フィルターアイコン**![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) から、次のテーブルにリストされているフィルターのいずれかを選択します。
+1. リストの右上にある&#x200B;**フィルターアイコン** ![ フィルターアイコン ](assets/filter-nwepng.png)から、以下の表に示すフィルターのいずれかを選択します。
 
    >[!TIP]
    >
@@ -229,7 +260,7 @@ ht-degree: 44%
     </tbody> 
    </table>
 
-1. （任意）リストの上部にある **フィルターページ** アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックして、名前でリクエストを検索します。 リストは、検索条件に一致する結果で更新されます。
+1. （オプション）リストの上部にある&#x200B;**フィルターページ** アイコン ![検索アイコン ](assets/search-icon.png)をクリックして、リクエストを名前で検索します。 リストは、検索条件に一致する結果で更新されます。
 
    <!--
 
@@ -269,10 +300,10 @@ ht-degree: 44%
    -->
 
 
-1. （オプション）「**ステータス**」列を確認して、リクエストのステータスを確認します。 新しいリクエスト用エクスペリエンスでは、次のステータスが使用できます。
+1. （オプション）「**ステータス**」列を確認して、リクエストのステータスを確認します。 新しいリクエストエクスペリエンスでは、次のステータスを使用できます。
 
-   * **ドラフト**：この要求はまだ送信されていません。
-   * **処理中**
+   * **ドラフト**。 このリクエストはまだ送信されていません。
+   * **進行中**
    * **完了**
 
 
