@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
+source-git-commit: 729c8512f7aa239f0858e18295a0c77e6b7e3328
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 **手順 1**：まだセッション ID がない場合は、doLogin() または getSessionID() メソッドを使用して取得してください。ユーザーのメールアドレスとパスワードを使用して「ログイン」するには前者を使用し、ユーザーのメールアドレスと認証トークンがある場合は後者の方法を使用します。
 
-**手順 2：**次に、プルーフを作成します。createProof() メソッドを使用し、少なくとも必須フィールドは送信します（現在は 5 つしかありません）。Hash パラメーターを「web」に設定し、SourceName パラメーターを、取得する web ページの URL に設定してください。
+**手順 2：** 次に、プルーフを作成します。createProof() メソッドを使用し、少なくとも必須フィールドは送信します（現在は 5 つしかありません）。Hash パラメーターを「web」に設定し、SourceName パラメーターを、取得する web ページの URL に設定してください。
 
 アカウントにログインすると、プルーフが表示されます。
 
