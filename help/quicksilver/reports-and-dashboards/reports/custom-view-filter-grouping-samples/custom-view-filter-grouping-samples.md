@@ -8,7 +8,9 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 96%
@@ -43,11 +45,11 @@ ht-degree: 96%
 * [ビュー：時間と日付の差異を計算](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
 * [ビュー：列の 2 つのフィールド間の計算結果を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
 * [ビュー：後続タスクのリストを列に追加](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-* [&#x200B; 表示とグループ化：プロジェクトの実際の期間を、グループの平均で集計して表示します &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+* [表示とグループ化：グループ化の平均で集計されたプロジェクトの実際の期間を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
 * [ビュー：時間リスト内のタスクの詳細とイシューの詳細の組み合わせ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [ビュー：列に文字列ではなく画像を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [ビュー：標準インタフェースに含まれていないオブジェクトを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [&#x200B; 表示：タスクまたはプロジェクトリストに元のイシューの情報を表示する &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [表示：タスクまたはプロジェクトのリストに元の問題情報を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
 * [ビュー：タスクビューにプログラムとポートフォリオの情報を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
 * [ビュー：タスクリストにタスクのインデントを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [ビュー：プルーフへのリンクを含むドキュメントレポート](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
@@ -263,7 +265,7 @@ ht-degree: 96%
 <p><li>Click the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu again, then click <strong>Share Filter</strong>, <strong>Share View</strong>, or <strong>Share Grouping</strong>.<br />The Filter Access, View Access, or Grouping Access dialog box is displayed.<br /><img src="/hc/en-us/article_attachments/209683908/share_filterviewgrouping.png" alt="" /></li></p>
 <p><li>Complete either of the following, depending on who you want to share with:</li></p>
 <p><ul></p>
-<p><li><strong>To share with individual users, teams, roles, groups, or companies:</strong> In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.<br />Repeat this process to share access with multiple users, teams, roles, groups, or companies.</li></p>
+<p><li><strong>To share with individual users, teams, roles, groups, or companies:</strong> In the provided field, begin typing the name of the user, team, role, group, company, <span class="preview">or business profile</span> you want to share with, then click the name when it appears in the drop-down list.<br />Repeat this process to share access with multiple users, teams, roles, groups, or companies.</li></p>
 <p><li><strong>To share with all users in the system:</strong> Click the <strong>Settings</strong> icon, then click <strong>Make this visible system-wide</strong>.<br />Your administrator must select the Share System-wide option for this option to be available.&nbsp;For more information,&nbsp;see <a href="/hc/en-us/articles/217179297" target="_blank" rel="noopener">"Creating or Modifying Access Levels"</a> and&nbsp;<a href="/hc/en-us/articles/217179407" target="_blank" rel="noopener">"Reporting Permissions."</a></li></p>
 <p></ul></p>
 <p><li>(Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant. <br /><img src="/hc/en-us/article_attachments/209684008/share_filterviewgrouping_dropdown.png" alt="" /><br />You can select from the following options:<br /><strong>View it:</strong> Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.<br /><strong>Manage it:</strong> Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.<br /><strong>Share:</strong> Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</li></p>

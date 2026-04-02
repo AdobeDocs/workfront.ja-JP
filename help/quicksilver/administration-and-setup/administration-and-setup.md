@@ -9,10 +9,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 100%
+source-wordcount: '76'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,8 @@ ht-degree: 100%
 * [ユーザー管理](../administration-and-setup/add-users/add-users.md)
 * [Adobe Workfront をカスタマイズ](../administration-and-setup/customize-workfront/customize-workfront.md)
 * [Adobe Workfront を管理](../administration-and-setup/manage-workfront/manage-workfront.md)
-* [グループを管理](../administration-and-setup/manage-groups/manage-groups.md)
+* [グループの管理](../administration-and-setup/manage-groups/manage-groups.md)
+* [エンタープライズ操作の管理：記事インデックス](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
 * [統合の設定](../administration-and-setup/configure-integrations/workfront-integrations.md)
 * [ブループリント](../administration-and-setup/blueprints/blueprints.md)
 * [管理と設定に関するヒント、テクニックおよびトラブルシューティング](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)

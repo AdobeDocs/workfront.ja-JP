@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: 会社レベルでの担当業務請求率の上書き
+title: 会社レベルでの担当職請求率の上書き
 description: 担当業務を作成する際に、その役割の時間単位の請求率を選択するオプションがあります。会社に固有の時間単位の請求率を作成できます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 94%
+source-wordcount: '436'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!DNL Adobe Workfront] package</td> 
+   <td>[!DNL Adobe Workfront] パッケージ</td> 
    <td><p>任意</p></td> 
   </tr> 
   <tr> 
@@ -83,4 +83,4 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >プロジェクトで変更された担当業務の請求率は、そのプロジェクトにのみ影響します。会社レベルで変更された請求率は、すべてのプロジェクトに影響を与えます。詳しくは、[担当業務の請求率の上書きとプロジェクトでの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+   >プロジェクトで変更された担当業務の請求率は、そのプロジェクトにのみ影響します。会社レベルで変更された請求率は、すべてのプロジェクトに影響を与えます。詳しくは、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。

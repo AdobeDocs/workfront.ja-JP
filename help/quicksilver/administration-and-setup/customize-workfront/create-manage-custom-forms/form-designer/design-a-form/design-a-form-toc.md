@@ -10,21 +10,22 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 091edfd8-8b69-4a56-9dae-ec73828a3f64
-source-git-commit: 01eeed1f73c47b79344ca60f3f6d866452cad140
+source-git-commit: 2084f3c924dde609ac14ff4270e0f61d0b5d5d25
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 44%
+source-wordcount: '102'
+ht-degree: 92%
 
 ---
 
 # フォームのデザイン：記事インデックス
 
-この節では、次の記事を扱います。
+この節には、次の記事が含まれます。
 
-* [カスタムフォームを作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+* [カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 * [コピーからのフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
-* [計算フィールドをフォームに追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+* [フォームへの計算フィールドの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 * [カスタムフォームおよびフィールドへの論理ルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
-* [カスタムフォームにおける高度なロジックの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
-* [カスタムフォームの外部検索フィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
+* [カスタムフォームの高度なロジックの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
+* [カスタムフィールドの財務データへのアクセス制限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)
+* [カスタムフォームの外部ルックアップフィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
 * [フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)

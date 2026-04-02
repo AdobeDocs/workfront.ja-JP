@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 92%
+source-wordcount: '960'
+ht-degree: 78%
 
 ---
 
 # レイアウトテンプレートにユーザーを割り当て
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 作成したレイアウトテンプレートを、使用する必要のある任意のユーザー、担当業務、チーム、またはグループに割り当てることができます。
 
@@ -28,6 +32,8 @@ ht-degree: 92%
 レイアウトテンプレートについて詳しくは、[レイアウトテンプレート](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)を参照してください。
 
 グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
+
+<span class="preview"> レイアウトテンプレートとビジネスプロファイルについて詳しくは、[ ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。</span>
 
 ## アクセス要件
 
@@ -65,20 +71,20 @@ ht-degree: 92%
 
    >[!TIP]
    >
-   >レイアウトテンプレートに問題がなければ、[&#x200B; 新しいレイアウトテンプレートのテスト &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md) の説明に従ってテストすることをお勧めします。
+   >レイアウトテンプレートに満足したら、[新しいレイアウトテンプレートのテスト ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)の説明に従って、レイアウトテンプレートをテストすることをお勧めします。
 
 1. ページの上位のセクションで「**割り当て先:**」をクリックします。
-1. 表示されるボックスで、「**ユーザー、担当業務、チーム、またはグループを追加する**」をクリックし、ユーザー、担当業務、チームまたはグループの名前の入力を開始し、ドロップダウンに表示されたら名前をクリックします。
+1. 表示されるボックスで、**ユーザー、担当業務、チーム、グループ、<span class="preview">またはアクセス レベル</span>**&#x200B;をクリックし、ユーザー、担当業務、チーム、グループ、<span class="preview">またはアクセス レベル </span>の名前を入力し始め、ドロップダウンに表示されたら名前をクリックします。
 
    最近追加された名前には、青色の背景が表示されます。これは、追加したばかりの名前とリストに既に存在する名前を区別できるため、既存のレイアウトテンプレートを編集する際に役立ちます。
 
-   情報アイコン ![&#x200B; 情報アイコン &#x200B;](assets/info-icon.png) は、別のレイアウトテンプレートに既に割り当てられているユーザー、担当業務、チーム、グループの名前の右側に表示されます。 アイコンの上にポインタを合わせると、そのレイアウトテンプレートの名前が表示され、既存の割り当てを上書きするかどうかを決定できます。
+   情報アイコン ![情報アイコン ](assets/info-icon.png)は、既に別のレイアウトテンプレートに割り当てられているユーザー、担当業務、チーム、グループ、<span class="preview">またはアクセスレベル </span>の名前の右側に表示されます。 アイコンの上にポインタを合わせると、そのレイアウトテンプレートの名前が表示され、既存の割り当てを上書きするかどうかを決定できます。
 
-1. 前の 2 つの手順を繰り返し、必要に応じて、レイアウトテンプレートを他のユーザー、担当業務、チームまたはグループに割り当てます。
+1. 前の2つの手順を繰り返して、必要に応じて、レイアウトテンプレートを他のユーザー、担当業務、チーム、グループ、<span class="preview">またはアクセスレベル </span>に割り当てます。
 
    一度に 100 までのユーザーを割り当てることができます。
 
-1. **完了** をクリックしてから、左下隅の **保存して閉じる** をクリックします。
+1. **完了**&#x200B;をクリックし、左下隅の&#x200B;**保存して閉じる**&#x200B;をクリックします。
 
    この手順では、レイアウトテンプレートの作成と割り当てのプロセスを完了します。
 
@@ -90,6 +96,7 @@ ht-degree: 92%
 * ユーザーが持つ特定の担当業務に対して
 * ユーザーが属している特定のチームに対して
 * ユーザーが属している特定のグループに対して
+* <span class="preview"> ユーザーが割り当てられている特定のアクセス レベルに</span>
 
 ただし、ユーザーには、一度に 1 つのレイアウトテンプレートのみが表示されます。表示されるテンプレートは、次の優先度階層によって決まります。
 
@@ -106,9 +113,12 @@ ht-degree: 92%
 
   ユーザーのホームグループに割り当てられたテンプレートのみが、ユーザーに表示されます。他のグループに割り当てられたテンプレートは表示されません。
 
+* <span class="preview"> アクセス レベル：個人ユーザーとして、またはプライマリ担当業務を持つユーザーとして、またはホームチームのメンバーとして、またはホームグループのメンバーとして、レイアウトテンプレートが割り当てられていない場合、そのユーザーは自分のアクセス レベルに割り当てられたテンプレートを見ます。</span>
+
 ## レイアウトテンプレートに割り当てられた多数のユーザー
 
-<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+<!--
+If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
 -->
 2,000 人を超えるユーザーをレイアウトテンプレートに割り当てる場合、次のいずれかを実行することをお勧めします。
 

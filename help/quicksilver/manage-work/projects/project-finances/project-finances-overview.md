@@ -2,16 +2,16 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: プロジェクトの財務：記事インデックス
+title: プロジェクト財務：記事インデックス
 description: 以下の記事には、プロジェクトの財務情報を検索できるエリアと、プロジェクトの財務管理方法に関する情報が含まれています。
 author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 5a112a0fe9f7e40f57fef82b35860615c9408b95
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 98%
+source-wordcount: '242'
+ht-degree: 80%
 
 ---
 
@@ -69,13 +69,9 @@ ht-degree: 98%
 
 [予定労力コストの計算](../../../manage-work/projects/project-finances/planned-labor-cost.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/export-billing-record-details.md" class="MCXref xref" xrefformat="{para}">Export billing record details as a PDF file</a> </p>
--->
+[収益とコスト階層の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/how-workfront-calculates-finances.md" class="MCXref xref" xrefformat="{para}">How Adobe Workfront calculates finances </a> </p>
--->
+[プロジェクト レベルでのユーザー原価率の上書き](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
 
 ## 請求レート
 
@@ -85,8 +81,14 @@ ht-degree: 98%
 
 [プロジェクトレベルの請求レートの会社レベルの請求率での上書き](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
 
-[担当業務に対する請求レートの上書きとプロジェクトにおける収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+[プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
 [プロジェクトレベルでの担当業務請求レートの上書き](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
 
+[プロジェクト レベルでのユーザーの請求レートの上書き](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
+
 [プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+
+[請求用の担当業務の設定](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+
+[残業率の定義](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)

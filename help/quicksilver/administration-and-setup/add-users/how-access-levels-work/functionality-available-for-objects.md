@@ -4,26 +4,26 @@ content-type: reference
 product-area: system-administration
 keywords: アクセス, モデル, ファネル, ダイアグラム, レベル, 権限
 navigation-topic: access-levels
-title: 各オブジェクトタイプで使用可能な機能
+title: 各オブジェクトタイプで使用できる機能
 description: 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 1721d6d4c2059fa32d0fd2ae80af4bd26a8f06a7
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 92%
+source-wordcount: '1555'
+ht-degree: 91%
 
 ---
 
-# 各オブジェクトタイプで使用可能な機能
+# 各オブジェクトタイプで使用できる機能
 
 {{highlighted-preview}}
 
 >[!NOTE]
 >
->この記事の情報は、現在のアクセスレベルを指しています。 従来のアクセスレベルについて詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+>この記事の情報は、現在のアクセスレベルに関するものです。従来のアクセスレベルについて詳しくは、[アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
 
 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
 
@@ -31,8 +31,8 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->* この記事では、新しいWorkfront パッケージモデルのアクセスレベルで使用できる機能について説明します。 現在のパッケージモデルで使用可能な機能を確認するには、[&#x200B; 様々なアクセスレベルの各オブジェクトタイプで使用可能な機能 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
->* 最新モデルのさまざまなパッケージで利用できる機能の一覧については、[Adobe Workfrontの価格とパッケージ &#x200B;](https://business.adobe.com/jp/products/workfront/pricing.html) を参照してください。
+>* この記事では、新しいWorkfront パッケージモデルのアクセスレベルで利用できる機能について説明します。 現在のパッケージモデルで利用可能な機能を確認するには、様々なアクセスレベルで各オブジェクトタイプで利用可能な[機能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)を参照してください。
+>* 最新モデルの様々なパッケージで利用できる機能の一覧については、[Adobe Workfrontの価格とパッケージ ](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 ## プロジェクト
 
@@ -59,6 +59,7 @@ ht-degree: 92%
 | リスクの管理 | ✓ |   |   |   |
 | 財務の管理 | ✓ |   |   |   |
 | 費用を追加／編集 | ✓ |   |   |   |
+| <span class="preview"> レートカードを添付</span> | ✓ |   |   |   |
 | テンプレートの添付 | ✓ |   |   |   |
 | テンプレートとして保存 | ✓ |   |   |   |
 | ビジネスケースの追加／編集 | ✓ |   |   |   |
@@ -232,7 +233,7 @@ ht-degree: 92%
 | 詳細の編集 | ✓ | ✓ | ✓ |   |
 | ダウンロード | ✓ | ✓ | ✓ | ✓ |
 | チェックアウト | ✓ | ✓ | ✓ |   |
-| 承認者の追加（ドキュメント） | ✓ | ✓ | ✓ |   |
+| 承認者（ドキュメント）の追加 | ✓ | ✓ | ✓ |   |
 | ドキュメントの承認 | ✓ | ✓ | ✓ | ✓ |
 | カスタムフォームの添付 | ✓ | ✓ | ✓ |   |
 | カスタムフィールドを編集 | ✓ | ✓ | ✓ |   |
@@ -243,7 +244,7 @@ ht-degree: 92%
 | バージョンの削除 | ✓ | ✓ | ✓ |   |
 | プレビュー | ✓ | ✓ | ✓ | ✓ |
 | プルーフの承認 | ✓ | ✓ | ✓ | ✓ |
-| 配達確認の生成 | ✓ |   |   |   |
+| プルーフを生成 | ✓ |   |   |   |
 | プルーフの削除 | ✓ | ✓ | ✓ |   |
 | 追加／削除&#42;&#42; | ✓ | ✓ | ✓ |   |
 | 名前を変更&#42;&#42; | ✓ | ✓ | ✓ |   |
@@ -255,6 +256,36 @@ ht-degree: 92%
 &#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。
 
 ## ユーザー
+
+<div class="preview">
+
+プレビュー環境では、次のオプションを使用できます。
+
+| アクション | 標準 | ライト | コントリビューター | 外部ユーザー** |
+|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
+| 作成 | ✓* |   |   |   |
+| 削除 | ✓* |   |   |   |
+| 請求レートを編集 | ✓* |   |   |   |
+| 連絡先情報を編集 | ✓* |   |   |   |
+| コスト率を編集 | ✓* |   |   |   |
+| 一般財務を編集 | ✓* |   |   |   |
+| 任意のユーザーの編集、削除、非アクティブ化、ログイン、またはパスワードのリセット | ✓* |   |   |   |
+| 管理グループ内のユーザーの編集、削除、非アクティブ化、ログイン、またはパスワードのリセット | ✓* |   |   |   |
+| ユーザーの表示 | ✓ | ✓ | ✓ |   |
+| 連絡先情報の表示 | ✓ | ✓ | ✓ |   |
+| 請求料率を表示 | ✓* |   |   |   |
+| コスト率を表示 | ✓* |   |   |   |
+| 一般財務を表示 | ✓* |   |   |   |
+
+{style="table-layout:auto"}
+
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。
+
+&#42;&#42;外部ユーザーは他のユーザーのみを検索できます。
+
+</div>
+
+これらのオプションは、実稼動環境で使用できます。
 
 | アクション | 標準 | ライト | コントリビューター | 外部ユーザー** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
@@ -270,6 +301,63 @@ ht-degree: 92%
 &#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。
 
 &#42;&#42;外部ユーザーは他のユーザーのみを検索できます。
+
+<!--
+
+<div class="preview">
+
+## Job Roles
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+</div>
+
+## Companies
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
+| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+## Groups
+
+|  Action           |  Standard  |  Light  |  Contributor  | External user |
+|-------------------|------------|---------|---------------|---------------|
+| Share             | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
+| View              | ✓          | ✓       | ✓             | &nbsp;        |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+
+-->
 
 ## チーム
 
@@ -306,6 +394,34 @@ ht-degree: 92%
 
 財務データに対するフルアクセス権を持つのは、標準ライセンスを持つユーザーのみです。
 
+<div class="preview">
+
+プレビュー環境では、次のオプションを使用できます。
+
+| アクション | 標準 | ライト | コントリビューター | 外部ユーザー |
+|--------------------------------------------------------------|----------|--------|-------------|---------------|
+| 請求レートを編集 | ✓&#42; |   |   |   |
+| コスト率を編集 | ✓&#42; |   |   |   |
+| 一般財務を編集 | ✓&#42; |   |   |   |
+| 請求料率を表示 | ✓&#42; | ✓&#42; |   |   |
+| コスト率を表示 | ✓&#42; | ✓&#42; |   |   |
+| 一般財務を表示 | ✓&#42; | ✓&#42; |   |   |
+| 請求記録の管理 | ✓ |   |   |   |
+| 費用の管理 | ✓ |   |   |   |
+| リソース計画ツールでコスト別に情報を表示する | ✓ |   |   |   |
+| リソース計画ツールでのリソース予算計上&#42;&#42; | ✓ |   |   |   |
+| リソース計画ツールでのリソース配分の表示&#42; | ✓ | ✓ |   |   |
+| プロジェクトのリスクの作成 | ✓ |   |   |   |
+| プロジェクトのリスクの表示 | ✓ | ✓ |   |   |
+
+{style="table-layout:auto"}
+
+&#42;アクセスレベルを使用して、Workfront 管理者は、この機能を無効または有効にできます。
+
+</div>
+
+これらのオプションは、実稼動環境で使用できます。
+
 | アクション | 標準 | ライト | コントリビューター | 外部ユーザー |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | 役割請求率と役割コスト率を編集 | ✓&#42; |   |   |   |
@@ -315,7 +431,6 @@ ht-degree: 92%
 | 請求記録の管理 | ✓ |   |   |   |
 | 費用の管理 | ✓ |   |   |   |
 | 財務データの表示 | ✓&#42; | ✓&#42; |   |   |
-| <span class="preview">レートカードの管理</span> | ✓ |   |   |   |
 | リソース計画ツールでコスト別に情報を表示する | ✓ |   |   |   |
 | リソース計画ツールでのリソース予算計上&#42;&#42; | ✓ |   |   |   |
 | リソース計画ツールでのリソース配分の表示&#42; | ✓ | ✓ |   |   |
@@ -334,7 +449,7 @@ ht-degree: 92%
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | プランナー内の優先度と予算計上時間数を編集します | ✓&#42; |   |   |   |
 | リソースプールの作成、編集、削除&#42;&#42; | ✓&#42; |   |   |   |
-| ワークロードバランサーの予定時間数を更新する &#42;&#42;&#42; | ✓&#42; |   |   |   |
+| ワークロードバランサー&#42;&#42;&#42;の予定時間数の更新 | ✓&#42; |   |   |   |
 | リソースプランナーでのプロジェクトの優先度の表示 | ✓&#42; |   |   |   |
 | リソース計画ツールでのリソース配分の表示 | ✓&#42; | ✓&#42; |   |   |
 | リソースプールの表示 | ✓&#42; | ✓&#42; |   |   |
@@ -368,11 +483,31 @@ ht-degree: 92%
 
 &#42; ユーザーがプランまたはイニシアチブで財務データを表示するには、財務データへのアクセス権が必要です。詳しくは、[財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
 
+<div class="preview">
+
+## 評価カード
+
+標準ライセンスを持つユーザーのみがレートカードに完全にアクセスできます。
+
+| アクション | 標準 | ライト | コントリビューター | 外部ユーザー |
+|-------------------|------------|---------|---------------|---------------|
+| 表示 | ✓ | ✓ |   |   |
+| 編集 | ✓ |   |   |   |
+| 作成 | ✓* |   |   |   |
+| 削除 | ✓* |   |   |   |
+| 共有 | ✓* | ✓* |   |   |
+
+{style="table-layout:auto"}
+
+&#42;アクセスレベルを使用して、Workfront 管理者は、この機能を無効または有効にできます。
+
+</div>
+
 ## Workfront Goals のエリア
 
 <!-- ask Alina about this section -->
 
-| アクション | 表示 | 編集 |
+| アクション | ビュー | 編集 |
 |---|---|---|
 | 作成 |   | ✓ |
 | すべての目標を編集・削除 |   | ✓ |

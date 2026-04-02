@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 94%
+source-wordcount: '853'
+ht-degree: 82%
 
 ---
 
@@ -58,16 +58,21 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 
 Workfront の財務データへのアクセス権をユーザーに付与する場合は、以下の点を考慮してください。
 
-* アクセス レベルで財務データへのアクセスが許可されていないユーザーは、他のユーザーが財務データを表示できるアクセスを許可することはできません。 これには、財務データを表示するプロジェクトへのアクセス権の付与や、財務データを表示するためのアクセスレベルの変更が含まれます。
+* アクセス レベルが財務データへのアクセスを許可していないユーザーは、他のユーザーが財務データを表示できるようにするアクセスを許可できません。 これには、財務データを表示するプロジェクトへのアクセス権を与えたり、財務データを表示できるようにアクセスレベルを変更したりすることが含まれます。
 * アクセスレベルで財務データへのアクセスが許可されていないユーザーからは、プロジェクトに対するリスクは引き起こされません。詳しくは、[プロジェクトのリスクを作成および編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)を参照してください。
 * また、アクセスレベルを使用して、ユーザーがリソース割り当ての予算を設定したり表示したりするために、どのリソース管理アクティビティを採用できるかを決定することもできます。詳しくは、[リソース管理へのアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)を参照してください。
+* <span class="preview">請求レート、コスト率、一般的な財務へのアクセスは個別であり、複雑な財務の詳細を処理する様々なユーザーの役割をより正確に制御できます。 一般財務は、請求率とコスト率を含まない追加の財務データです。</span>
 
 ## カスタムアクセスレベルを使用して財務データへのユーザーアクセスを設定
 
 1. [カスタムアクセスレベルを作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
 1. 財務データの右にある「**表示**」ボタンまたは「**編集**」ボタンの歯車アイコン![](assets/gear-icon-settings.png)をクリックし、続いて「**設定を微調整**」で付与する機能を選択します。
 
-   ![](assets/financial-data-fine-tune-nwe.png)
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   ![財務データアクセスの微調整](assets/financial-data-access-fine-tune.png)
+
+   本番環境のサンプル画像：
+   ![財務データアクセスの微調整](assets/financial-data-fine-tune-nwe.png)
 
 1. （オプション）**管理アクセスを許可**&#x200B;エリアで、以下のオプションを選択します。
 
@@ -126,15 +131,9 @@ If you make changes here, make them also in the "Grant access to" articles where
 
 * プロジェクトおよびタスクオブジェクトの下にある「財務」セクション
 * ビジネスケース
-* 請求レートおよび請求記録
-* <span class="preview">評価カード</span>
-* ユーザーの環境設定での 1 時間当たりのコストと 1 時間当たりの請求
-
-  上記の手順 4 の「表示」ボタンにある歯車アイコン ![](assets/gear-icon-settings.png) で設定できます。
-
+* プロジェクトの請求レートと請求記録
+* ユーザープロファイルの1時間あたりのコストと1時間あたりの請求
 * 担当業務に関する 1 時間当たりのコストと 1 時間当たりの請求
-
-  上記の手順 4 の「表示」ボタンにある歯車アイコン ![](assets/gear-icon-settings.png) で設定できます。
 
 ### 表示アクセス権
 
@@ -142,8 +141,8 @@ If you make changes here, make them also in the "Grant access to" articles where
 
 * プロジェクトおよびタスクオブジェクトの下にある「財務」セクション
 * ビジネスケース
-* 請求レートおよび請求記録
-* ユーザーの環境設定での 1 時間当たりのコストと 1 時間当たりの請求
+* プロジェクトの請求レートと請求記録
+* ユーザープロファイルの1時間あたりのコストと1時間あたりの請求
 
   上記の手順 4 の「表示」ボタンにある歯車アイコン ![](assets/gear-icon-settings.png) で設定できます。
 
@@ -157,9 +156,8 @@ If you make changes here, make them also in the "Grant access to" articles where
 
 * プロジェクトおよびタスクオブジェクトの下にある「財務」セクション
 * ビジネスケース
-* 請求レートおよび請求記録
-* <span class="preview">評価カード</span>
-* ユーザーの環境設定での 1 時間当たりのコストと 1 時間当たりの請求
+* プロジェクトの請求レート、請求記録、コスト率
+* ユーザープロファイルの1時間あたりのコストと1時間あたりの請求
 
   上記の手順 4 の「編集」ボタンにある歯車アイコン ![](assets/gear-icon-settings.png) で設定できます。
 

@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 100%
 
 ---
@@ -40,4 +40,4 @@ ht-degree: 100%
 
 新機能のレートカードを使用すると、場所に基づいて、担当業務ごとに複数の請求率を定義できます。担当業務と場所に対する請求率には、有効日も含めることができます。レートカードをプロジェクトに添付して、特定の担当業務と場所に対してすべてのレート情報を一度に適用できます。場所に基づく役割をタスクに割り当てることもでき、割り当てレベルでそのレートを上書きすることができます。
 
-詳しくは、[ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)、[担当業務の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)、[レートカードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)、および[請求と売上高の概要](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)を参照してください。
+詳細については、[ユーザープロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)、[担当業務の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)、[請求と収益の概要](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)を参照してください。

@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfrontへのアクセスの設定
+title: Adobe Workfrontへのアクセス権の設定
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 97%
+source-wordcount: '202'
+ht-degree: 92%
 
 ---
 
@@ -37,8 +37,10 @@ ht-degree: 97%
 * [財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [フィルター、ビュー、およびグループ化に対するアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [シナリオプランナーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
-* [リソース管理へのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [リソース管理に対するアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [レートカードへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Adobe Workfront Goals へのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* [ブランド権限へのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
 
 ## 関連トピック
 

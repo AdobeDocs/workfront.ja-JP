@@ -8,9 +8,11 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1823'
 ht-degree: 5%
 
 ---
@@ -29,7 +31,7 @@ ht-degree: 5%
 
 <div class="preview">
 
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
 
 </div>
 
@@ -87,11 +89,11 @@ Organizations that have the Workflow Ultimate package can also configure busines
 
 ビジネスルール検証の形式は、「定義された条件が満たされた場合、ユーザーはオブジェクトに対するアクションから除外され、メッセージが表示されます」です。
 
-ビジネスルールのプロパティおよびその他の関数の構文は、カスタムフォームの計算フィールドの構文と同じです。 構文について詳しくは、[&#x200B; フォームデザイナーで計算フィールドを追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
+ビジネスルールのプロパティおよびその他の関数の構文は、カスタムフォームの計算フィールドの構文と同じです。 構文について詳しくは、[ フォームデザイナーで計算フィールドを追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
 IF ステートメントについて詳しくは、[&quot;IF&quot; ステートメントの概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)および[計算カスタムフィールドの条件演算子](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)を参照してください。
 
-ユーザーベースのワイルドカードについて詳しくは、[&#x200B; ユーザーベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)を参照してください。
+ユーザーベースのワイルドカードについて詳しくは、[ ユーザーベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)を参照してください。
 
 日付ベースのワイルドカードについて詳しくは、[日付ベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)を参照してください。
 
@@ -139,34 +141,51 @@ IF(
 )
 ```
 
+### ビジネスルールでローカライズを有効にする
 
-<!--
+組織でカスタムローカライゼーションを使用している場合は、ビジネスルール内のビジネスルールメッセージの翻訳を有効にする必要があります。 翻訳が有効になっていない場合、メッセージのテキストがローカライゼーションリストに含まれ、ユーザーのブラウザーが適切な言語に設定されていても、メッセージは英語でリーダーに表示されます。
 
-## Scenarios for business rule automation
+ルールを設定する場合は、メッセージの前にTRANSLATEという単語を挿入し、メッセージを括弧で囲みます。
+
+>[!BEGINSHADEBOX]
+
+例：
+
+この例では、「完了したプロジェクトは編集できません」というメッセージが設定のローカライゼーション領域に含まれており、ユーザーのブラウザーがローカライズされた言語に設定されていることを前提としています。
+
+* `IF({status} = "CPL", "You cannot edit completed projects.") `
+メッセージは英語で表示されます。
+* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
+メッセージがローカライズされた言語で表示されます。
+
+>[!ENDSHADEBOX]
+
+カスタムローカライゼーションについて詳しくは、[ カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)を参照してください。
+
+## ビジネスルール自動化のシナリオ
 
 >[!NOTE]
 >
->Your organization must have a Workflow Ultimate package to use business rule automation.
+>ビジネスルールの自動処理を使用するには、組織にWorkflow Ultimate パッケージが必要です。
 
-The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+ビジネスルール自動化の形式は、「定義された条件が満たされた場合、選択した自動化がトリガーされます」です。
 
-Business rule automation formulas do not require an error message
+ビジネスルールの自動化式では、エラーメッセージは必要ありません
 
-To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+プロジェクトの作成時など、選択したオブジェクトとアクションが発生するたびにオートメーションが実行されるようにするには、次の数式を使用します。
 
 ```
 IF(true, true)
 ```
 
-To share a project only if that's project has been approved, use a formula like the following:
+プロジェクトが承認されている場合にのみプロジェクトを共有するには、次のような数式を使用します。
 
 ```
 IF({status} = "APR", true)
 ```
 
-You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+ビジネス ルールの検証[ シナリオ ](#scenarios-for-business-rule-validation)の節で説明しているように、ビジネス ルール アクションでワイルドカードを使用できます。
 
--->
 
 ## 新しいビジネスルールの追加
 
@@ -185,7 +204,7 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
 1. ビジネスルールを割り当てるオブジェクトタイプを選択します。
 
-   ![&#x200B; オブジェクトを選択](assets/object-for-business-rule4.png)
+   ![ オブジェクトを選択](assets/object-for-business-rule4.png)
 
    ビジネスルールは、次のオブジェクトに適用できます。
 
@@ -210,15 +229,15 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * テンプレート
    * 休暇
    * リソースプール
+   * 担当業務
+   * 労力以外のリソースカテゴリ
+   * リソースプール
+   * 休暇
+   * 時間
+   * 人材の配置プラン
+   * テンプレート
+   * 人材の配置プランのリソース
 <!--
-   * <span class="preview">Job role</span>
-   * <span class="preview">Non-labor resource category</span>
-   * <span class="preview">Resource Pool</span>
-   * <span class="preview">Time Off</span>
-   * <span class="preview">Hour</span>
-   * <span class="preview">Staffing Plan</span>
-   * <span class="preview">Template</span>
-   * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
 -->
 
@@ -242,17 +261,17 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * 「オブジェクト」は、ビジネスルールの作成時に選択したオブジェクトタイプです。 ダイアログの見出しに表示されます。
    * 「アクション」は、ルールに対して選択したトリガー（オブジェクトの作成、編集、削除）です。
    * オブジェクトとアクションは既に定義されているため、数式に含めることはできません。
-   * カスタムエラーメッセージ <!--<span class="preview">is included only if the rule is for validation, and </span>-->は、ビジネスルールをトリガーするときにユーザーに表示されます。 問題の原因と修正方法について明確な指示を与える必要があります。
+   * カスタムエラーメッセージ <span class="preview">は、ルールが検証用の場合にのみ含まれ、ビジネスルールをトリガーすると</span>がユーザーに表示されます。 問題の原因と修正方法について明確な指示を与える必要があります。
 
      エラーメッセージに静的URLを含めることで、ドキュメントやその他の便利なページにリンクし、ルールの制約の中でユーザーがアクションを変更する方法をガイドできます。
 
      この例では、「詳細情報」がURLにリンクされます。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URLは括弧で囲む必要がありますが、括弧内のリンクテキストは必要ありません。 完全なURLを表示することができ、クリック可能なリンクになります。
 
-   ![&#x200B; ビジネスルールダイアログを追加](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
+   ![ ビジネスルールダイアログを追加](assets/add-business-rule-new.png)
 
    この例は、プロジェクトのビジネスルールです。 現在の月が11月の場合、ユーザーは新しいプロジェクトを作成できません。このメッセージは、これを説明しています。
 
-   ビジネスルールの詳細な例については、この記事の「[&#x200B; ビジネスルールのシナリオ &#x200B;](#scenarios-for-business-rules)」を参照してください。
+   ビジネスルールの詳細な例については、この記事の「[ ビジネスルールのシナリオ ](#scenarios-for-business-rules)」を参照してください。
 
 1. （オプション）右側のパネルの式&#x200B;**式**&#x200B;と&#x200B;**フィールド**&#x200B;を使用して、ルールの作成を支援します。
 
@@ -264,17 +283,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    その他のパッケージの場合、このオプションは事前に選択されています。
 
-<!--
+1. <span class="preview"> （条件付き）別のアクションを自動化するには、アクションを選択します。</span>
 
-1. (Conditional) To automate another action,, select the action. 
-
-   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+   <span class="preview">これらのアクションについて詳しくは、この記事の「[ ビジネスルールの自動化オプション ](#business-rule-automation-options)」の節を参照してください。</span>
 
    >[!NOTE]
    >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
-
-   -->
+   ><span class="preview">検証以外のアクションを使用するには、組織がWorkflow Ultimate パッケージに属している必要があります。 これらの他のオプションが表示されない場合、組織はWorkflow Ultimate パッケージにありません。</span>
 
 1. ビジネスルールの作成が完了したら、**保存**&#x200B;をクリックします。
 
@@ -282,24 +297,22 @@ You can use wildcards in business rule actions, as described in the section [Sce
 >
 >ビジネスルールを追加したら、関連するオブジェクトを追加、編集、または削除してルールが適切に適用されていることを確認して、ルールをテストする必要があります。
 
-<!--
-
 <div class="preview">
 
-### Business rule automation options
+### ビジネスルールの自動化オプション
 
-   >[!NOTE]
-   >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+>[!NOTE]
+>
+>検証以外のアクションを使用するには、組織がWorkflow Ultimate パッケージに属している必要があります。 その他のオプションが表示されない場合、組織はWorkflow Ultimate パッケージにありません。
 
-You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+これらのアクションは、ビジネスルールがトリガーされたときに自動化するように設定できます。 使用可能なアクションは、選択したオブジェクトタイプによって異なります。
 
-|Automation|Further configuration|
+| 自動化 | さらに設定 |
 |---|---|
-|Attach a custom form|Select the custom form that you want to add|
-|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+| カスタムフォームの添付 | 追加するカスタムフォームを選択します |
+| オブジェクトを共有 | オブジェクトを共有するユーザー、役割、グループ、会社、またはアクセスレベルを選択します。 |
 
--->
+</div>
 
 ## ビジネスルールをアクティブ化
 
@@ -310,3 +323,4 @@ You can set these actions to automate when the business rule is triggered. Avail
 1. ルールのリストでビジネスルールを選択し、編集アイコンをクリックします。
 1. ビジネスルールダイアログで「**はアクティブです**」の「**はい**」を選択します。
 1. 「**保存**」をクリックします。
+

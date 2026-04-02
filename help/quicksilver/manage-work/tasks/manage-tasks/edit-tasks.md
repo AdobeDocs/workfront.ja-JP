@@ -2,19 +2,23 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: タスクの編集
-description: 自分で作成したタスクに関する情報を編集したり、自分が投稿権限または管理権限を持っているタスクに関する情報を編集できます。 この記事では、権限がある場合にタスクの検索、検索、編集方法を説明します。
+description: 作成したタスク、またはContributeまたはManage権限を持つタスクに関する情報を編集できます。 この記事では、タスクを検索、検索、編集する権限がある場合に、タスクを検索、検索、編集する方法について説明します。
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '3928'
-ht-degree: 79%
+source-wordcount: '4076'
+ht-degree: 76%
 
 ---
 
 # タスクの編集
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -28,13 +32,16 @@ ht-degree: 79%
 </div>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div> -->
+</div>
+-->
+
 
 自分で作成したタスクに関する情報、または Contribute または Manage 権限を持っているタスクに関する情報を編集できます。
 
@@ -48,7 +55,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p>任意</p> </td> 
+   <td>  <p>ユーザーおよび役割の時間別収益タイプとコストタイプを使用し、残業率を追加するには：Workflow Ultimate</p>
+      <p>その他のすべての設定を編集し、その他のすべての収益タイプとコストタイプを使用するには：任意のWorkfrontまたはワークフローパッケージ</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
@@ -78,11 +86,12 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,7 +127,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## タスクの編集に関する制限
 
@@ -129,7 +139,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 * 「現在」ステータスのプロジェクトのタスクトリガーの通知の更新：タスクに割り当てられたユーザーが混乱するのを避けるには、プロジェクトのステータスが「現在」の場合に編集タスクをできる限り制限します。
 * 承認プロセス内のタスクは編集できません。承認プロセスでのタスクのログ時間またはステータスの更新のみが可能です。
 
-  ![&#x200B; 承認プロセスでタスクを編集 &#x200B;](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![承認プロセスを含むタスクの編集](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * 完了、無効または承認保留中のステータスを持つプロジェクトのタスクに対するドキュメントの編集や追加は、Workfront 管理者またはグループ管理者がプロジェクト環境設定エリアでこの機能を有効にした場合にのみ行うことができます。プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
@@ -162,7 +172,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 1. 編集するタスクをクリックします。
 1. （オプション）タスクに関する限定的な情報を編集するには、左側のパネルで「**タスクの詳細**」をクリックします。
 
-   ![&#x200B; タスクの詳細が展開されました &#x200B;](assets/nwe-task-details-expanded-350x273.png)
+   ![ タスクの詳細が拡張されました](assets/nwe-task-details-expanded-350x273.png)
 
    タスクの詳細セクションの次のエリアにある情報を編集することを検討してください。
 
@@ -184,15 +194,15 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
    「詳細」セクションの情報を編集するには、次の手順を実行します。
 
-   1. （オプション）右上隅の **すべて折りたたむ** アイコン ![&#x200B; すべて折りたたむアイコン &#x200B;](assets/collapse-all-icon.png) をクリックすると、すべての領域が折りたたまれます。
-   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![&#x200B; 右向き矢印 &#x200B;](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
+   1. （オプション）右上隅の&#x200B;**すべて折りたたむ** アイコン ![すべてのアイコンを折りたたむ](assets/collapse-all-icon.png)をクリックして、すべての領域を折りたたみます。
+   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある&#x200B;**右向き矢印** ![右向き矢印](assets/right-pointing-arrow.png)をクリックして、編集する領域を展開します。
    1. 「タスクの詳細」タブでの情報の編集について詳しくは、次の記事を参照してください。
 
       * [「タスク詳細概要」領域でのタスク情報の管理](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [タスクの詳細セクションでのタスクの財政の管理](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. （オプション）タスクにカスタムフォームが添付されていない場合は、「**カスタムフォームの追加**」フィールドに値を入力を開始し、リストに表示されたらフォームを選択して、「**変更を保存**」をクリックします。
-   1. （オプション） **書き出し** アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックして、概要とカスタムフォーム情報をPDF ファイルに書き出し、「**書き出し**」をクリックします。 次の中から選択します。
+   1. （オプション）「**書き出し**」アイコン「![書き出しアイコン ](assets/export.png)」をクリックして、概要およびカスタムフォーム情報をPDF ファイルに書き出してから、「**書き出し**」をクリックします。 次の中から選択します。
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
       * 概要
@@ -200,21 +210,21 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
       PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-      ![&#x200B; 「書き出し」ボタンを含むイシューの詳細選択ボックス &#x200B;](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![書き出しボタン付き問題の詳細の選択ボックス ](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       詳しくは、[カスタムフォームとオブジェクトの詳細の書き出し](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
-1. （条件付き）タスクに関するすべての情報を編集するには、タスクの管理権限を持つユーザーとして、タスク名の横にある **詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、「**編集** をクリックします。
+1. （条件付き）タスクに関するすべての情報を編集するには、タスクに対する管理権限を持つユーザーとして、タスクの名前の横にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
 
    または
 
-   タスクのリストからタスクを選択し、リスト上部の **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+   タスクのリストからタスクを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
    タスクを編集ボックスが開きます。
 
    >[!IMPORTANT]
    >
-   >「編集」オプションを表示するには、タスクに対する管理権限が必要です。
+   >「編集」オプションを表示するには、タスクの管理権限が必要です。
 
    すべてのタスクフィールドが、タスクを編集ボックスで使用でき、左側のパネルに表示されるエリアでグループ化されます。
 
@@ -234,14 +244,14 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
    >[!NOTE]
    >
-   >Workfront管理者またはグループ管理者によるレイアウト テンプレートの設定に応じて、[ タスクの編集 ] ボックスのフィールドの配置が変更されたり、表示されなかったりする場合があります。 詳しくは、[レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
+   >Workfront管理者またはグループ管理者がレイアウトテンプレートを設定する方法によっては、「タスクを編集」ボックスのフィールドが再配置されたり、表示されないことがあります。 詳しくは、[レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
 ### タスク名 {#task-name}
 
 1. 上記の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで&#x200B;**タスク名**&#x200B;をクリックします。
 
-   ![&#x200B; タスクを編集ボックスの「タスク名」セクション &#x200B;](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   タスクを編集ボックスの![ タスク名セクション ](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. タスクの名前をアップデートします。
 
@@ -252,7 +262,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 1. 上記の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**承認**」をクリックします。
 
-   ![&#x200B; 概要セクションの編集タスクボックス &#x200B;](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![概要セクション編集タスク ボックス ](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. タスクに関する以下の情報をアップデートします。
 
@@ -269,16 +279,16 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
      </tr> 
      <tr> 
       <td role="rowheader">ステータス</td> 
-      <td> <p>タスクの開発ステージを示すタスクのステータスを選択します。</p> <p><b>ヒント</b>
+      <td> <p>タスクがどの開発段階にあるのかを示すタスクのステータスを選択します。</p> <p><b>ヒント</b>
 
    タスクのステータスを、タスクのヘッダーでアップデートできます。 </p>
 
-   <p>Workfrontまたはグループ管理者が、タスクステータスの名前をカスタマイズできます。 詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md"> ステータスの作成または編集 </a> を参照してください。 
+   <p>Workfrontまたはグループ管理者は、タスクステータスの名前をカスタマイズできます。 詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md"> ステータスの作成または編集</a>を参照してください。 
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">優先度</td> 
-      <td> <p>これは、タスクに優先順位を付けることができる視覚的なフラグです。 </p> <p>次のオプションから選択します。 </p> 
+      <td> <p>タスクの優先順位を視覚的に示すフラグです。 </p> <p>次のオプションから選択します。 </p> 
        <ul> 
       <li> <p> なし</p> </li> 
       <li> <p> 低 </p> </li> 
@@ -288,7 +298,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
        </ul> <p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。タスクの優先度については、<a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">タスクの優先度の更新</a>.を参照してください。 </p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader"><span style="font-weight: bold;"> タスクの日付と制約セクション </span> </td> 
+      <td colspan="2" role="rowheader"><span style="font-weight: bold;"> タスクの日付と制約の節</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">タスクの制約</td> 
@@ -312,7 +322,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
      </tr> 
      <tr> 
       <td role="rowheader">コミット日時</td> 
-      <td> <p>これは、タスクに割り当てられたユーザーがそのタスクの完了期限として約束する日付です。この日付は、予定完了日と異なる場合があります。 担当者のみがこのフィールドを編集できます。Workfront でのコミット日について詳しくは、<a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">コミット日の概要</a>を参照してください。 </p> </td> 
+      <td> <p>これは、タスクに割り当てられたユーザーがそのタスクの完了期限として約束する日付です。これは、予定完了日とは異なる場合があります。 担当者のみがこのフィールドを編集できます。Workfront でのコミット日について詳しくは、<a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">コミット日の概要</a>を参照してください。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">予定開始日時</td> 
@@ -325,16 +335,16 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
      </tr> 
      <tr> 
       <td role="rowheader">予定完了日時</td> 
-      <td> <p>タスクの計画時に予想される完了日。Workfrontは、次のいくつかの要因を使用して「予定完了日」を設定します。</p> 
+      <td> <p>タスクの計画時に予想される完了日。Workfrontでは、次の要素を使用して予定完了日を設定します。</p> 
        <ul> 
-      <li>予定完了日は、予定開始日にタスクの期間を加算することによって、予定開始日から計算されます。プロジェクトマネージャーまたは Workfront 管理者がタスクの期間を指定すると、予定完了日の更新がトリガーされます。予定日が変更される場合、多くの場合、タスクの期間が更新されていることが原因です。</li> 
+      <li>予定完了日は、予定開始日にタスクの期間を加算することによって、予定開始日から計算されます。プロジェクトマネージャーまたは Workfront 管理者がタスクの期間を指定すると、予定完了日の更新がトリガーされます。予定日が変更された場合、タスクの期間が更新されたことが原因であることが多くあります。</li> 
       <li>タスクの制約が「固定日付」か「指定日に終了」のいずれかである場合、プロジェクトマネージャーまたはタスク責任者は、予定完了日を手動で設定できます。タスクの制約について詳しくは、<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスク制約の概要</a>を参照してください。</li> 
       <li>タスクの期間タイプが変更され、同時にタスクのリソース数が変更されると、予定完了日も変更されます。期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">実際の開始日時</td> 
-      <td> <p>タスクの実際の開始日を指定します。デフォルトは、通常、タスクのステータスを「処理中」に変更すると自動的に入力されます。 実際の開始日は、プロジェクトマネージャーまたはタスク責任者が手動で変更することもできます。 </p> </td> 
+      <td> <p>タスクの実際の開始日を指定します。通常、タスクのステータスを「進行中」に変更すると、デフォルトは自動的に入力されます。 実際の開始日は、プロジェクトマネージャーまたはタスク責任者が手動で変更することもできます。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">実際の完了日時</td> 
@@ -349,9 +359,9 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
    <p>タスクの完了に必要な工数。プロジェクトマネージャーは、タスクの完了に必要な作業量を見積もる際に、予定時間数の代わりにこのフィールドを使用することにします。このフィールドは、次の条件を満たした場合にのみ表示されます。</p> 
       <ul> 
-      <li> <p>タスクの期間タイプはシンプルです。 </p> <p><b>ヒント</b>
+      <li> <p>タスクにはシンプルな期間タイプがあります。 </p> <p><b>ヒント</b>
 
-   タスク期間の種類を変更すると、このフィールドは淡色表示になります。 </p> </li>
+   タスク期間タイプを変更すると、このフィールドはグレー表示になります。 </p> </li>
    <li>プロジェクトマネージャーが、プロジェクトの「作業量を使うとタスクの予定時間数を自動的に計算できます」フィールドを有効にしてある。 </li> 
       </ul> 
       <p>次のオプションから選択します。</p> 
@@ -362,7 +372,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
       </ul> 
       <p><b>メモ</b>
 
-   工数を更新すると、タスクの予定時間数が更新される可能性があります。プロジェクトの更新タイプが「自動」の場合、更新は即時に行われます。プロジェクトの更新タイプが「手動」の場合は、更新された予定時間数を表示するためにタイムラインを再計算する必要があります。 </p>
+   工数を更新すると、タスクの予定時間数が更新される可能性があります。プロジェクトの更新タイプが「自動」の場合、更新は即時に行われます。プロジェクト更新タイプが「手動」の場合、更新された予定時間数を確認するには、タイムラインを再計算する必要があります。 </p>
 
    <p>予定時間数ではなく作業量を使用してタスク量を見積もる方法について詳しくは、<a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">作業量の概要</a>を参照してください。 </p> 
     </td> 
@@ -376,16 +386,16 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 >[!TIP]
 >
->タスクの割り当てを一括で編集する場合、選択したタスク間で値が異なるフィールドに複数値インジケーターが表示されます。
+>タスクの割り当てを一括編集すると、選択したタスク間で値が異なるフィールドに対して、複数の値インジケーターが表示されます。
 >
 >選択した各タスクの個々の割り当てを表示することはできません。
 
 1. 上記の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**割り当て**」をクリックします。
 
-   ![&#x200B; 「タスクを編集」ボックスの「割り当て」セクション &#x200B;](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   タスクを編集ボックスの![割り当てセクション ](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
-1. **ユーザー、役割、またはチームを検索** をクリックして、タスクに割り当てるユーザー、役割、またはチームの名前の入力を開始し、リストに表示されたらクリックするか Enter キーを押します。
+1. **ユーザー、役割、またはチームを検索**&#x200B;をクリックし、タスクに割り当てるユーザー、役割、またはチームの名前を入力し始めます。その後、そのタスクをクリックするか、リストに表示されたらEnter キーを押します。
 
    >[!TIP]
    >
@@ -397,7 +407,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
    >* 作業アイテムをアクティブなリソースに再割り当てする。
    >* 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
 
-1. （オプション）担当者の名前にポインタを合わせて、「**プライマリする**」をクリックして、担当者をプライマリ担当者にするかタスクのオーナーにするかを指定します。 チームをタスクのプライマリ担当者にすることはできません。
+1. （オプション）担当者の名前にカーソルを合わせ、**プライマリを作成**&#x200B;をクリックして、担当者が主要な担当者であるか、タスクのオーナーであるかを示します。 チームをタスクのプライマリ担当者にすることはできません。
 1. （オプション）次のフィールドを更新します。
 
    <table style="table-layout:auto"> 
@@ -411,7 +421,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
       <li> <p>タスクに割り当てられたリソースの数 </p> </li> 
       <li> <p>タスクの完了に必要な合計作業量 </p> </li> 
       <li> <p> タスクの合計期間。 </p> </li> 
-       </ul> <p>Workfront管理者またはグループ管理者が、システムまたはグループのタスクに対してデフォルトの「期間タイプ」設定を選択します。 プロジェクトのデフォルトの設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref"> システム全体のタスクおよびイシューの環境設定の設定 </a> を参照してください。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク継続期間と期間タイプの概要</a>を参照してください。 </p> <p>次のオプションから選択します。 </p> 
+       </ul> <p>Workfront管理者またはグループ管理者は、システムまたはグループ内のタスクのデフォルトの期間タイプ設定を選択します。 プロジェクトのデフォルト設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref"> システム全体のタスクとイシューの環境設定の設定</a>を参照してください。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク継続期間と期間タイプの概要</a>を参照してください。 </p> <p>次のオプションから選択します。 </p> 
        <ul> 
       <li> <p>予定割り当て時間 </p> </li> 
       <li> <p> 予定作業 </p> </li> 
@@ -458,7 +468,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
       <td>H</td> 
       </tr> 
       <tr> 
-      <td>日 これがデフォルトです。 </td> 
+      <td>日数： これがデフォルトです。 </td> 
       <td>D</td> 
       </tr> 
       <tr> 
@@ -502,7 +512,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
       </tr> 
       <tr> 
       <td role="rowheader">予定時間数</td> 
-      <td> <p>タスクの予定時間数を時間単位で指定します。 これは、タスクの担当者が完了するまでにかかる実際の時間です。 タスクの予定時間数を指定できるのは、[ 期間タイプ ] が [ 割り当て計算 ] に設定されている場合のみです。 期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</p> 
+      <td> <p>タスクの予定時間数を時間単位で指定します。 これは、タスクの担当者が完了するのにかかる実際の時間です。 期間タイプが「計算済み割り当て」に設定されている場合にのみ、タスクの予定時間数を指定できます。 期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</p> 
       <b>メモ</b>
       <p>
       繰り返しタスクを作成する場合、予定時間数はそれぞれの繰り返しタスクの時間です。親タスクの予定時間数は、すべてのタスクからのすべての予定時間数の合計です。繰り返しタスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクを作成</a>を参照してください。
@@ -537,13 +547,13 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 1. 上記の説明に従ってタスクの編集を開始します。
 1. 左側のパネルで&#x200B;**カスタムフォーム**&#x200B;をクリックするか、カスタムフォームが既に添付されている場合には、その名前をクリックします。
 
-   ![&#x200B; カスタムフォームセクションの編集タスクボックス &#x200B;](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![ カスタムフォームセクション編集タスクボックス ](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. 「**カスタムフォームを追加**」をクリックし、タスクに関連付けるカスタムフォームまたはフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。
 
-   カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。タスクには最大 10 個のカスタムフォームを追加できます
+   カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。最大10個のカスタムフォームをタスクに追加できます
 
-1. （条件付き）カスタムフォームをタスクに添付した場合は、フォーム上の任意のフィールドを編集します。タスクを保存する前に、必須フィールドをすべて指定する必要があります。
+1. （条件付き）カスタムフォームをタスクに添付した場合は、フォーム上の任意のフィールドを編集します。タスクを保存する前に、すべての必須フィールドを指定する必要があります。
 
    >[!NOTE]
    >
@@ -556,7 +566,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 1. [タスクを編集](#Edit2)の節の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**財務**」をクリックします。
 
-   ![&#x200B; 財務セクションの編集タスク ボックス &#x200B;](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![財務セクション編集タスク ボックス ](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. 次のフィールドを更新します。
 
@@ -572,6 +582,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
         <li> <p>固定 (毎時) </p> </li> 
         <li> <p> ユーザー (毎時) </p> </li> 
         <li> <p> 役割（毎時）</p> </li> 
+        <li> <p> <span class="preview"> ユーザーと役割（時間単位） </span></p> </li> 
        </ul> <p>コストの追跡について詳しくは、<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。システムまたはグループのタスクに対するデフォルトのコストタイプ設定は、Workfront 管理者またはグループ管理者が選択します。プロジェクトのデフォルトの設定については、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクトの環境設定の指定</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
@@ -581,14 +592,26 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
       <li> <p> 請求不可 </p> </li> 
       <li> <p>ユーザー (毎時) </p> </li> 
       <li> <p>役割（毎時） </p> </li> 
+      <li> <p> <span class="preview"> ユーザーと役割（時間単位） </span></p> </li> 
       <li> <p>固定 (毎時) </p> </li> 
       <li> <p>ユーザー (毎時) (キャップ付き) </p> </li> 
       <li> <p>役割（毎時）（キャップ付き） </p> </li> 
+      <li> <p> <span class="preview"> キャップ付きのユーザーと役割（時間単位） </span></p> </li> 
       <li> <p>ユーザー（毎時）+ 固定 </p> </li> 
       <li> <p>役割（毎時）+ 固定 </p> </li> 
+      <li> <p> <span class="preview"> ユーザーと役割の時間単位プラス固定</span></p> </li> 
       <li> <p>固定収益 </p> </li> 
-       </ul> <p>収益の追跡について詳しくは、<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">請求と収益の概要</a>を参照してください。 </p> <p>システムまたはグループのタスクに対する収益タイプのデフォルト設定は、Workfront 管理者またはグループ管理者が選択します。プロジェクトのデフォルトの設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクトの環境設定を指定</a>を参照してください。</p> </td> 
+       </ul> <p>収益のトラッキングについて詳しくは、<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">請求と収益の概要</a>および<a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">収益とコスト階層の概要</a>を参照してください。 </p> <p>システムまたはグループのタスクに対する収益タイプのデフォルト設定は、Workfront 管理者またはグループ管理者が選択します。プロジェクトのデフォルトの設定については、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクトの環境設定の指定</a>を参照してください。</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">時間外労働率</span></td> 
+      <td><span class="preview"><p>タスクの残業乗数（1.5または2.0など）を入力します。デフォルトは1.0 （乗数なし）です。 詳しくは、<a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">残業率の定義</a>を参照してください。</p><p>「残業率」フィールドを表示するには、次の手順を実行します。</p>
+       <ul>
+       <li>タスクの収益タイプは、ユーザーと役割の時間単位である必要があります。 詳しくは、<a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">収益とコスト階層の概要</a>を参照してください。</li>
+       <li>このフィールドは、レイアウトテンプレートで、タスクの詳細ビューの「財務」領域で有効にする必要があります。 詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md"> レイアウトテンプレートを使用した詳細ビューのカスタマイズ </a>を参照してください。</li>
+       </ul>
+      </span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -599,7 +622,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 1. [タスクを編集](#Edit2)の節の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**設定**」をクリックします。
 
-   ![[ タスクの編集 ] ボックスの [ 設定 ] セクション &#x200B;](assets/nwe-settings-section-edit-task-box-350x304.png)
+   タスクを編集ボックスの![設定セクション ](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. 次のフィールドを更新します。
 
@@ -624,7 +647,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
      </tr> 
      <tr> 
       <td role="rowheader">標準化の遅延</td> 
-      <td> <p>標準化の遅延を時間単位で指定します。 </p> <p> 平準化の遅延について詳しくは、<a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">タスクの平準化の遅延をアップデート</a>を参照してください。 </p> </td> 
+      <td> <p>レベリング遅延を時間単位で指定します。 </p> <p> 平準化の遅延について詳しくは、<a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">タスクの平準化の遅延をアップデート</a>を参照してください。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">承認プロセス</td> 
@@ -663,19 +686,19 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 ### コメント
 
 1. [タスクを編集](#Edit2)の節の説明に従って、タスクの編集を開始します。
-1. 左側のパネルで **コメント** をクリックします。
+1. 左側のパネルで「**コメント**」をクリックします。
 
-   ![&#x200B; タスクを編集ボックスの「コメント」セクション &#x200B;](assets/comment-section-on-edit-task-box.png)
+   ![ タスクボックスの編集に関するコメントセクション ](assets/comment-section-on-edit-task-box.png)
 
-1. 指定されたスペースに更新を追加します。
-1. （オプション）次のいずれかを更新に追加します。
+1. 提供されたスペースにアップデートを追加します。
+1. （オプション）次のいずれかをアップデートに追加します。
 
-   * **ユーザーをタグ付け** エリアで更新にユーザーまたはチームを追加するか、@を使用して更新に含めます。
-   * 「**会社に非公開**」チェックボックスを選択して、会社内のユーザーに対して更新を非公開にします。
+   * ユーザーまたはチームを&#x200B;**人物をタグ付け** エリアで更新に追加するか、@を使用して更新に含めます。
+   * 「**会社に対して非公開**」チェックボックスを選択して、更新を会社内のユーザーに対して非公開に保ちます。
 
    >[!TIP]
    >
-   >**会社に非公開** 設定は、Workfront プロファイルが会社に関連付けられている場合にのみ使用できます。
+   >会社に対する&#x200B;**非公開**&#x200B;設定は、Workfront プロファイルが会社に関連付けられている場合にのみ使用できます。
 
 1. 「**保存**」をクリックします。
 
@@ -686,20 +709,20 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 システム管理者またはグループ管理者は、タスクヘッダーに表示されるフィールドをカスタマイズできます。詳しくは、[レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
 
-![&#x200B; 承認なしの依存関係を持つタスクヘッダー &#x200B;](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![承認がなく、依存関係を持つタスクヘッダー](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-次のフィールドは、デフォルトでタスクヘッダーに含まれています。
+デフォルトでは、次のフィールドがタスクヘッダーに含まれます。
 
 * タスク名
 * 完了率
 
-  詳しくは、[&#x200B; タスクの完了率の表示と更新 &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
+  詳しくは、[ タスクの完了率の表示と更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)を参照してください。
 * 割り当て
 * 予定完了日
 
   >[!CAUTION]
   >
-  >一部のタスクの制約やその他の依存関係により、タスクの予定完了日を編集できない場合があります。 タスクの制約については、[タスクの制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)を参照してください。
+  >タスクの制約やその他の依存関係により、タスクの予定完了日を編集できない場合があります。 タスクの制約については、[タスクの制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)を参照してください。
 
 * ステータス
 * 現在の承認プロセスで承認者として設定されている場合、承認の決定を行う
@@ -708,9 +731,10 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 リスト内のタスクに加えた変更を自動的に保存する場合は、リスト内のタスクを一括で編集し、そのすべての情報を同時に更新できます。
 
-タスクの一括保存について詳しくは、「リストでのタスクの編集 [&#x200B; の「タスクの一括編集」の節を参照してくだ &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) い。
+タスクを一括保存する方法について詳しくは、[ リスト内のタスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)の記事の「タスクを一括編集」の節を参照してください。
 
-<!--Temporary content while changing Assignments area: 
+<!--
+Temporary content while changing Assignments area: 
 
 Editing assignments is different in the Edit Task box depending on which environment you choose.
 
@@ -848,7 +872,8 @@ Editing assignments is different in the Edit Task box depending on which environ
          </table>
       
    
-      <!--<tr> 
+      <!--
+      <tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -1019,4 +1044,5 @@ Editing assignments is different in the Edit Task box depending on which environ
 
 <div class="preview">
 
-#### Edit the Assignments area in the Preview environment-->
+#### Edit the Assignments area in the Preview environment
+-->
