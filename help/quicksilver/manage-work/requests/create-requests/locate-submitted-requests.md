@@ -8,10 +8,12 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 45%
+source-wordcount: '1441'
+ht-degree: 42%
 
 ---
 
@@ -21,13 +23,9 @@ ht-degree: 45%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 自分または他のユーザーが送信したリクエスト、または開始したリクエストを表示できますが、送信を完了したことはありません。 未完成のリクエストはドラフトとして保存されます。
 
@@ -45,7 +43,7 @@ Remove production and preview references at release
   >
   >* 自分のドラフトリクエストのみを表示できます。
   >* 新しいリクエストエクスペリエンスでは、送信されたリクエストとドラフトが同じリストに表示されます。
-  >* 従来のエクスペリエンスで作成されたドラフトは、新しいリクエストエクスペリエンスには表示されません。
+  >* 従来のエクスペリエンスで作成されたドラフトは、新しいリクエストエクスペリエンスに表示されません。
 
 ## アクセス要件
 
@@ -90,6 +88,10 @@ Remove production and preview references at release
 
 ## リクエスト領域で送信されたリクエストを表示する
 
+送信されたリクエストは、リクエスト エリアまたはホームのマイリクエストウィジェットで表示できます。
+
+マイリクエストについて詳しくは、[ マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
+
 送信されたリクエストの表示は、新しいリクエスト体験を使用しているか、従来のリクエスト体験を使用しているかによって異なります。
 
 * [送信されたリクエストを新しいリクエストエクスペリエンスで表示](#view-submitted-requests-in-the-new-requesting-experience)
@@ -102,23 +104,15 @@ Remove production and preview references at release
 >* Workfront Planningがある場合は、WorkfrontとPlanning リクエストが同じリストに表示されます。 Workfront リクエストは、`Issue` オブジェクトタイプ **列に値**&#x200B;を表示します。
 >* デフォルトでは、最大50件のリクエストがリクエスト領域のリストに表示されます。 その他のリクエストを表示するには、リストの一番下までスクロールします。
 
-送信済みリクエストは、リクエスト領域で表示できます。この領域には、実稼動環境<!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment-->でAdobe Workfront Planning リクエストによって作成されたレコードへのリンクが含まれます。
+送信されたリクエストは、リクエスト領域およびホームのマイリクエストウィジェットで表示できます。
 
 >[!NOTE]
 >
->作成されたオブジェクトへのリンクは、新しいリクエストのエクスペリエンスでは、リクエスト自体がレコードを作成した場合にのみ、Planning リクエストでのみ使用できます。
+>新しいリクエストエクスペリエンスを有効にすると、次のオブジェクトはリクエスト領域およびマイリクエストウィジェットのリクエストリストからのリンクを持ちます。
 >
->Workfront リクエストがプロジェクトまたは他のオブジェクトに変換された場合、変換後のオブジェクトへのリンクは、新しいリクエストエクスペリエンスのリクエストリストで使用できません。
-
-<!--
-replace the note above with this at release: 
->[!NOTE]
->
->Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
->
->If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
-><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
--->
+>* 「件名」フィールドでリクエストを計画およびWorkfrontします。
+>* 「オブジェクト作成」フィールドのPlanning リクエストから作成されたPlanning レコード。
+>* <span class="preview">Workfrontのタスクとイシューは、Workfrontのリクエストから変換され、プレビュー環境の「オブジェクトを作成」フィールドに表示されます。</span>
 
 新しいリクエストエクスペリエンスで自分または他のユーザーが送信したリクエストを表示するには：
 
@@ -135,13 +129,13 @@ replace the note above with this at release:
    * フィルター
    * 列
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
+
+   * グループ
+   * セルを書式設定
+   * 行の高さ
+
+   </div>
 
    リクエストリストでの情報の管理について詳しくは、[拡張リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。
 
@@ -217,17 +211,17 @@ replace the note above with this at release:
    >
    >送信済みリクエストのリストから移動したとき、選択された並べ替えオプションが保持されます。
 
-1. （オプション）リストでリクエストを選択し、**概要を開く** アイコン ![&#x200B; テキストで概要を開く](assets/open-summary-with-text-nwe.png)をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメント、ドキュメントを追加したり、割り当てたりします。 概要パネルについて詳しくは、[概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
+1. （オプション）リストでリクエストを選択し、**概要を開く** アイコン ![ テキストで概要を開く](assets/open-summary-with-text-nwe.png)をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメント、ドキュメントを追加したり、割り当てたりします。 概要パネルについて詳しくは、[概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
    >[!TIP]
    >
    >概要パネルが既に開いている場合は、概要を開くアイコンが、概要を閉じるアイコンに変わります。
 
-1. （オプションおよび条件付き）右上隅の&#x200B;**X** アイコンまたは&#x200B;**概要を閉じる** アイコン ![概要をテキスト &#x200B;](assets/close-summary-with-text-nwe.png)で閉じる」をクリックして、概要パネルを閉じます。
+1. （オプションおよび条件付き）右上隅の&#x200B;**X** アイコンまたは&#x200B;**概要を閉じる** アイコン ![概要をテキスト ](assets/close-summary-with-text-nwe.png)で閉じる」をクリックして、概要パネルを閉じます。
 
    イシューがタスクまたはプロジェクトに変換され、変換処理でイシューが削除された場合、概要パネルは空白になります。イシューの変換について詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
-1. リストの右上にある&#x200B;**フィルターアイコン** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)から、以下の表に示すフィルターのいずれかを選択します。
+1. リストの右上にある&#x200B;**フィルターアイコン** ![ フィルターアイコン ](assets/filter-nwepng.png)から、以下の表に示すフィルターのいずれかを選択します。
 
    >[!TIP]
    >
@@ -260,7 +254,7 @@ replace the note above with this at release:
     </tbody> 
    </table>
 
-1. （オプション）リストの上部にある&#x200B;**フィルターページ** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックして、リクエストを名前で検索します。 リストは、検索条件に一致する結果で更新されます。
+1. （オプション）リストの上部にある&#x200B;**フィルターページ** アイコン ![検索アイコン ](assets/search-icon.png)をクリックして、リクエストを名前で検索します。 リストは、検索条件に一致する結果で更新されます。
 
    <!--
 
@@ -292,7 +286,8 @@ replace the note above with this at release:
 
 1. 「**ドラフト**」をクリックして、すべてのドラフトリクエストを表示します。Workfront は、このフォルダー内の各リクエストキューに対して無制限の数のドラフトを保存します。既にドラフトのあるキュートピックの新しいリクエストを入力すると、既存のドラフトを使用するように求められます。詳しくは、[ドラフトからリクエストを作成](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)を参照してください。
 
-   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   <!--
+   Planning tab has been removed and no longer visible in legacy Requests area: 
    (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
       Use **Filters** and **Columns** to update the information in the Planning request list. 
       ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
