@@ -1,13 +1,15 @@
 ---
-title: Adobe Workfront Planning の無料体験版の概要
-description: Adobe Workfrontでは、Adobe Workfront Planning の 60 日間無料トライアルを提供しています。 この体験版では、Planning が全体像に関する戦略と、それを実現する日常業務をどのように結び付けるかを確認する機会です。 プランニングを使用すると、マーケティングライフサイクルを一元的に把握できるので、チーム間のコラボレーション、キャンペーンのリアルタイム追跡、自動ワークフローを改善できます。 カスタムワークスペースを作成し、インタラクティブなタイムラインとカレンダーでの作業を視覚化できます。 この体験版では、計画によって、日常業務と戦略目標を一致させ、実行を効率化し、組織の測定可能な結果を推進する方法を実際に確認できます。
+title: Adobe Workfront計画の無料体験版を始める
+description: Adobe Workfrontでは、Adobe Workfront計画の60日間の無料トライアルを提供しています。 このトライアルでは、プランニングが、大局的な戦略とそれを実現する日々の作業をどのように結びつけるのかを確認できます。 プランニングにより、マーケティングライフサイクルを一元的に可視化し、部門間の優れたコラボレーション、キャンペーンのリアルタイムの追跡、自動化されたワークフローを実現できます。 カスタムワークスペースを作成し、インタラクティブなタイムラインとカレンダーで作業を視覚化することができます。 このトライアルでは、プランニングが、日々の作業を戦略目標に合わせて合理化し、組織に測定可能な成果をもたらすのにどのように役立つのかを実感できます。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2184'
 ht-degree: 4%
 
 ---
@@ -20,234 +22,239 @@ ht-degree: 4%
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
-Adobe Workfront Planning は、マーケティングライフサイクルを一元的に可視化し、チーム間の共同作業、キャンペーンのリアルタイムトラッキング、自動ワークフローを可能にします。 カスタムワークスペースを作成し、インタラクティブなタイムラインとカレンダーでの作業を視覚化できます。
+Adobe Workfront計画では、マーケティングライフサイクルを一元的に可視化し、部門間の優れたコラボレーション、キャンペーンのリアルタイムの追跡、ワークフローの自動化を実現できます。 カスタムワークスペースを作成し、インタラクティブなタイムラインとカレンダーで作業を視覚化することができます。
 
 >[!IMPORTANT]
 >
->* Adobe Workfrontでは、Workfront Planning のお客様でなくてもAdobe Workfront Planning をご利用いただいているすべてのお客様に対して、Adobe Workfront Planning の 60 日間無料トライアルを提供しています。
+>* Adobe Workfrontでは、Adobe Workfront計画をご利用でないAdobe Workfrontのお客様を対象に、Workfront計画の60日間の無料体験版を提供しています。
 >
->* 体験版は、2026 年 3 月 2 日～5 月 1 日の間に利用できます。
+>* サインアップ期間は2026年4月1日に終了し、現在は閉鎖されています。
 >
->* 体験版は、公開後 60 日間は利用でき、参加してから 60 日間は利用できないことに注意してください。
->* サインアップ期間は 2026 年 4 月 1 日に終了します。
+>* 体験版の契約書に同意し、体験版に登録した場合、2026年3月2日から5月1日の間に利用できます。
+>
+>* 体験版は、発売日から60日間は利用でき、参加した日から60日間は利用できないことに注意してください。
+>
 
-この体験版では、プランニングによって、日常業務と戦略目標を連携させ、実行を効率化し、組織の測定可能な結果を促進する方法を実際に確認できます。
+このトライアルでは、プランニングが、日々の作業を戦略目標に合わせて合理化し、組織に測定可能な成果をもたらすのにどのように役立つのかを実感できます。
 
-Workfront管理者が契約に同意して無料体験版にサインアップすると、2026 年 3 月 2 日から組織内のすべてのユーザーがWorkfront Planning を利用できるようになります。
+Workfront管理者が契約書に同意し、無料トライアルに申し込むと、2026年3月2日から組織内のすべてのユーザーがWorkfront Planningを利用できるようになります。
 
-Workfront Planning の無料体験版では、次の機能を利用できます。
+Workfront Planningの無償体験版では、次の機能を利用できます。
 
-* キュレートされた複数ワークスペースの計画環境
+* キュレーションされたマルチワークスペースプランニング環境
 * 次の機能を含むWorkfront Planning Prime パッケージ。
 
    * 無制限のワークスペース
-   * ワークスペースあたり 500,000 件のレコード
-   * 合計 200 万のワークスペース
-   * グローバルレコードタイプ
-* どこから始めればよいかを把握するためのサンプルデータ
-* プレーンな言語を使用するか、既存のアーティファクトをアップロードできる AI ガイドのオンボーディングで、計画は AI を使用してカスタム構造を生成します。 これにより、ワークスペース、レコードの種類、フィールド、およびビューが自動的に作成されます。
-* 製品内トレーニングおよびガイダンス
-* 特定の役割に合わせて調整された、セットアップ中のマイルストーンを明確に示します。
+   * 500,000 レコード/ワークスペース
+   * 200万ワークスペース
+   * グローバルなレコードタイプ
+* サンプルデータから始めましょう
+* AIを利用したオンボーディングでは、平易な言葉を使ったり、既存の成果物をアップロードしたりすることができます。プランニング部門はAIを活用してカスタム構造を生成します。 これにより、ワークスペース、レコードタイプ、フィールド、ビューが自動的に作成されます。
+* 製品内トレーニングとガイダンス
+* 特定の役割に合わせてカスタマイズされた、設定中のマイルストーンを明確に示します。
 
 ## 体験版に参加するための前提条件
 
-Workfront Planning の無料トライアルに参加するには、貴社が次の要件を満たしている必要があります。
+Workfront Planningの無料トライアルに参加するには、次の要件を満たす必要があります。
 
-* 次の新しいAdobe Workfrontまたはワークフローパッケージが用意されていること。
+* 次のいずれかの新しいAdobe Workfront パッケージまたはWorkflow パッケージを用意します。
 
    * 選択
    * Prime
    * Ultimate
 
-  Workfront Planning の体験版は、従来のWorkfront パッケージでは使用できません。
+  Workfront計画の体験版は、従来のWorkfront パッケージでは利用できません。
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-* Adobe Admin Consoleにアクセスできる
-* Identity Management System （IMS）に含まれる
-* 2026 年 1 月 26 日（PT）から 4 月 1 日（PT）の間、組織のWorkfront インスタンスで使用できる法的体験版契約に同意します。 体験版契約に同意するには、Workfront管理者である必要があります。
+* Adobe Admin Consoleにアクセスする
+* Identity Management方式（IMS）に含まれる
+* 2026年1月26日から4月1日の間に、組織のWorkfront インスタンスで使用可能な法務トライアル契約に同意します。 体験版契約書に同意するには、Workfront管理者である必要があります。
 
 ## 重要な日付の概要
 
-Adobe Workfront Planning の無料体験版に関連する重要な日付を次に示します。
+Adobe Workfront Planning無料体験版の提供に関連する重要な日付は次のとおりです。
 
-* **2026 年 1 月 26 日（PT）**:Workfront Planning の無料体験版バナーが、Workfrontのお客様にリリースされました。 バナーには以下が含まれています。
+* **2026年1月26日**: Workfront計画の無料トライアル バナーがWorkfrontのお客様にリリースされました。 バナーには以下が含まれています。
    * このドキュメントへのリンク。
-   * 体験版契約同意ウィンドウ。 Workfront管理者のみが契約に同意できます。 試用版の契約は、この日付からいつでも受け入れることができます。
-* **2026 年 3 月 2 日** Workfrontプランニング体験版を公開。
+   * 試用契約書の承認ウィンドウ。 Workfrontの管理者のみが契約書に同意できます。 この日付からいつでも体験版契約書に同意できます。
+* **2026年3月2日**: Workfront計画体験版が開始されました。
 
-  体験版のローンチにより、次の項目がWorkfront インスタンスに追加されます。
+  体験版のローンチに伴い、次の項目がWorkfront インスタンスに追加されます。
 
-   * すべてのユーザーに対して、Workfrontの計画バナーが引き続き表示されます。 このドキュメントへのリンクがバナーに含まれています。
-   * **体験版契約をレビュー** 環境設定が **設定** 領域に追加されます。
+   * Workfront計画バナーは、引き続きすべてのユーザーに表示されます。 このドキュメントへのリンクがバナーに含まれています。
+   * **体験版契約書の確認**&#x200B;の環境設定が&#x200B;**設定**&#x200B;領域に追加されます。
 
   次のシナリオが存在します。
 
-   * この日付より前に、Workfrontの管理者が契約を承諾している場合は、メインメニューに Planning エリアを表示し、Workfront Planning の使用を開始できます。
+   * Workfront管理者がこの日付より前に契約書に同意している場合は、メインメニューにプランニング エリアがあり、Workfront プランニングの使用を開始できます。
 
   >[!NOTE]
   >
-  >Workfrontのライセンスタイプに関係なく、システム内のすべてのユーザーのメインメニューに計画エリアが表示されます。
+  >Workfront ライセンスの種類に関係なく、システム内のすべてのユーザーのメインメニューに計画領域が表示されます。
 
-   * この日付までにWorkfront管理者が契約を承諾していない場合、Planning 体験版プログラムを知らせるバナーはすべてのユーザーに対して表示されますが、Planning はまだメインメニューで使用できません。 Workfront Planning にアクセスするには、まずシステム管理者が契約に同意する必要があります。
+   * Workfront管理者がこの日付より前に契約書に同意していない場合、Planning体験版プログラムを告知するバナーはすべてのユーザーに表示されますが、Planningはまだメインメニューで使用できません。 Workfront Planningにアクセスするには、まずシステム管理者が契約書に同意する必要があります。
 
-* **2026 年 4 月 1 日**：体験版に登録できなくなりました。
+* **2026年4月1日**：体験版に登録できなくなりました。
 
-  以下の項目がWorkfront インスタンスから削除されます。
+  次の項目は、Workfront インスタンスから削除されます。
 
-   * Workfront Planning 体験版バナー。
-   * **体験版契約をレビュー** 環境設定が **設定** エリアから削除されました。
+   * Workfront Planningの体験版バナー。
+   * **体験版の契約書を確認**&#x200B;の環境設定が&#x200B;**設定**&#x200B;領域から削除されます。
 
-* **2026 年 5 月 1 日**:Workfront Planning の体験版が終了し、Planning へのアクセス権が削除されます。
+* **2026年5月1日**: Workfront Planningの体験版が終了し、Planningへのアクセス権が削除されます。
 
-  体験版に参加した場合、Workfrontは体験版が終了した後にデータを保護します。 ただし、この日付を過ぎるとアクセスできなくなります。
+  体験版に参加した場合、体験版終了後にWorkfrontがデータを保護します。 ただし、この日付を過ぎるとアクセスできなくなります。
 
-  本契約への同意の時期に関係なく、この日付をもって Planning へのアクセスが停止されます。
+  契約書に同意した場合に関係なく、この日付でPlanningへのアクセスは終了します。
 
-* **2026 年 11 月 30 日**:Workfrontでは、この日以降、データの保護を行わなくなりました。 この日付より前にWorkfront Planning を購入した場合は、Planning とデータに再びアクセスできます。
+* **2026年11月30日**：この日以降、Workfrontでデータのセキュリティが保護されなくなりました。 この日付より前にWorkfront Planningを購入した場合は、Planningおよびデータにアクセスできるようになります。
 
-<!--Lauren wanted this out: 
-* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
+<!--
+Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date.
+-->
 
-## 無料体験中および無料体験後のWorkfront Planning データへの権限
+## 無料体験版中および無料体験版後のWorkfront Planning データへの権限
 
-組織内のすべてのユーザーは、体験版中に、次のWorkfront Planning パッケージとWorkfront Planning への権限レベルを受け取ります。
+組織内のすべてのユーザーは、体験版中に、次のWorkfront計画パッケージとWorkfront計画に対する権限レベルを受け取ります。
 
-* **2026 年 3 月 2 日～5 月 1 日**:
+* **2026年3月2日～5月1日**:
 
-  Workfrontまたはワークフローライセンスのアクセスレベルに関係なく、Workfront Planning 体験版プログラムへの参加を承認すると、Workfront Planning Prime ライセンスが付与されます。
+  WorkfrontまたはWorkflow ライセンスのアクセスレベルに関係なく、Workfront計画トライアルプログラムへの参加を承認すると、Workfront計画Prime ライセンスが付与されます。
 
-  システム内のユーザーは、無料トライアル中に Planning 領域のワークスペースに対して次の権限を受け取ります。
+  無料トライアル中に、システム内のユーザーは、プランニング領域のワークスペースに対して次の権限を付与されます。
 
-   * すべてのシステム管理者には、自分が参加しているワークスペースおよび「すべてのワークスペース」タブに対する管理権限があります。
-   * 他のすべてのユーザーには「ワークスペース」領域に対する表示権限がありますが、システム管理者は、そこに表示されるワークスペースに対する管理権限をユーザーに付与できます。
-   * システム管理者を含むすべてのユーザーには、計画領域の「サンプル」ワークスペースタブに対する表示権限があります。
+   * すべてのシステム管理者は、「自分が所属するワークスペース」および「すべてのワークスペース」タブに対する管理権限を持っています。
+   * 他のすべてのユーザーにはワークスペース領域に対する表示権限がありますが、システム管理者は、そこに表示されるワークスペースに対する管理権限を付与できます。
+   * システム管理者を含むすべてのユーザーには、プランニング領域の「サンプルワークスペース」タブに対する表示権限があります。
 
-* **2026 年 5 月 1 日以降：**
+* **2026年5月1日以降：**
 
-  システム内のすべてのユーザーのWorkfront Planning へのアクセス権が削除され、Workfrontによってデータが保護されます。
+  システム内のすべてのユーザーがWorkfront Planningにアクセスできなくなり、Workfrontがデータを保護します。
 
-## Workfrontの計画に関する追加情報
+## Workfront Planningに関する詳細情報
 
-Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+Workfront計画の一般的な詳細については、[Adobe Workfront計画の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 
-Workfront Planning の実装方法のベスト プラクティスについては、[Adobe Workfront Planning のベスト プラクティスに関する記事のインデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) を参照してください。
+Workfront計画の導入方法に関するベストプラクティスについては、[Adobe Workfront計画のベストプラクティス：記事インデックス ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)を参照してください。
 
 <!--
 
-this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live: -->
+this information will be live on March 2 - the How to sign up below will be a ### instead of a ## section and the Navigate the trial section will be visible; also adjust ALL the ##s when you make this live:
+-->
 
-## Adobe Workfront Planning の無料体験版に登録する
+## Adobe Workfront Planningの無償体験版に登録する
 
-Workfront管理者の 1 人は、組織内のすべてのユーザーがWorkfront Planning の無料体験版にアクセスできるようにする前に、法的体験版契約を確認して署名する必要があります。
+Workfront管理者は、組織内の全員がWorkfront Planningの無料体験版にアクセスする前に、法的体験版の契約書を確認して署名する必要があります。
 
-Planning 体験版への新規登録は 2026 年 1 月 26 日（PT）から利用可能になりました。
+計画体験版への登録は、2026年1月26日（PT）から可能です。
 
-体験版が開始され、2026 年 3 月 2 日に Planning 体験版を開始するためのアクセス権が組織に付与されました。
+体験版が開始され、組織は2026年3月2日に計画体験版を開始するためのアクセス権を取得しました。
 
 >[!NOTE]
 >
->1 人のシステム管理者のみが契約に同意する必要があります。 すべてのシステム管理者が受け入れる必要はありません。
+>契約書に同意する必要があるシステム管理者は1人だけです。 すべてのシステム管理者が承認する必要はありません。
 
-### 2026 年 1 月 26 日（PT）から 3 月 2 日（PT）まで Planning 体験版に登録する
-
->[!WARNING]
->
->この期間はクローズされました。 詳しくは、この記事の [2026 年 3 月 2 日～4 月 1 日の間に Planning 体験版に登録 &#x200B;](#enroll-in-the-planning-trial-between-march-2-and-april-1-2026) を参照してください。
-
-1. （条件付き）システム管理者としてAdobe Workfrontにログインします。
-1. 次のいずれかの操作を行います。
-
-   * **Workfront Planning 体験版に関する情報を含むアプリ内バナーに従ってください**
-
-   * 画面の右上隅にある **Workfrontのお知らせエリアに移動し**&#x200B;[ すべてのお知らせ ] をクリックすると、お知らせセンターにWorkfront Planning の試用版に関するメッセージが表示されます。**すべての通知**
-1. **体験版契約を確認** をクリックします。<!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
-1. 契約書を確認した後、「**同意する**」をクリックします。
-1. （条件付き）システム管理者でない場合は、**Workfront Planning 体験版** に関する情報を含むアプリ内バナーに従い、「**詳細情報**」をクリックします。
-
-   Workfront Planning の体験版とWorkfront Planning について詳しくは、この記事を参照してください。
-
-### 2026 年 3 月 2 日（PT）から 4 月 1 日（PT）まで Planning 体験版に登録
+### 2026年1月26日から3月2日までの計画体験版に登録します
 
 >[!WARNING]
 >
->オプトイン期間は 2026 年 4 月 1 日に終了します。 ただし、Planning の体験版機能は 2026 年 5 月 1 日（PT）まで使用できます。
+>現在、この期間は終了しています。 詳しくは、この記事の「[2026年3月2日から4月1日までの計画体験版に登録する](#enroll-in-the-planning-trial-between-march-2-and-april-1-2026)」の節を参照してください。
 
-1. （条件付き）システム管理者としてAdobe Workfrontにログインします。
+1. （条件付き）Adobe Workfront as a System Administratorにログインします。
+1. 次のいずれかの操作を行います。
+
+   * **Workfront計画体験版**&#x200B;に関する情報を含むアプリ内バナーに従います
+
+   * 画面の右上隅にある&#x200B;**Workfront通知エリア**&#x200B;に移動し、**すべての通知**&#x200B;をクリックして、Workfront計画体験版に関する通知センターメッセージを見つけます。
+1. **体験版契約書の確認**&#x200B;をクリックします。<!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
+1. 契約書を確認したら、**同意**&#x200B;をクリックします。
+1. （条件付き）システム管理者でない場合は、**Workfront計画体験版**&#x200B;に関する情報を含むアプリ内バナーに従い、**詳細情報**&#x200B;をクリックします。
+
+   Workfront計画の体験版とWorkfront計画について詳しくは、この記事を参照してください。
+
+### 2026年3月2日から4月1日までの計画体験版に登録します
+
+>[!WARNING]
+>
+>オプトイン期間は2026年4月1日に終了します。 ただし、計画体験版の機能は2026年5月1日まで利用できます。
+
+1. （条件付き）Adobe Workfront as a System Administratorにログインします。
 
 1. 次のいずれかの操作を行います。
 
-   * **Workfront Planning 体験版に関する情報を含むアプリ内バナーに従ってください**
+   * **Workfront計画体験版**&#x200B;に関する情報を含むアプリ内バナーに従います
 
-   * 画面の右上隅にある **Workfrontのお知らせ領域に移動して**&#x200B;[ すべてのお知らせ ]&#x200B;**をクリックし、Workfront Planning の試用版に関するお知らせセンターのメッセージを見つけ** す
+   * 画面の右上隅にある&#x200B;**Workfront通知エリア**&#x200B;に移動し、**すべての通知**&#x200B;をクリックして、Workfront計画体験版に関する通知センターメッセージを見つけます
 
    * **設定**／**システム**／**環境設定**&#x200B;に移動します。
-1. （条件付き）「**設定**」エリアにいる場合は、「**その他の環境設定**」セクションに移動し、「**体験版契約を確認**」をクリックします。
-1. 契約書を確認した後、「**同意する**」をクリックします。
+1. （条件付き）お客様が&#x200B;**セットアップ** エリアにいる場合は、**その他の環境設定** セクションに移動し、**体験版の契約書を確認**&#x200B;をクリックします。
+1. 契約書を確認したら、**同意**&#x200B;をクリックします。
 
-   2026 年 5 月 1 日（PT）まで、Workfront Planning 体験版に登録されています。
+   お客様の組織は、2026年5月1日までWorkfront計画体験版に登録されます。
 
-   試用版の契約に同意すると、次のことが発生します。
+   体験版の契約書に同意すると、次のことが発生します。
 
-   * プランニング エリアは、システム内のすべてのユーザーとユーザーのメイン メニューに追加され、**体験版** インジケーターが表示されます。
-   * システム管理者は、「計画」領域の **サンプルワークスペース** タブへの管理アクセス権を受け取ります。
-   * 標準ユーザーは、Planning の **サンプル・ワークスペース** タブへの表示アクセス権を受け取り、独自のワークスペース、レコード・タイプ、レコード、フィールド、ビューを作成して他のユーザーと共有できます。
-   * 他のすべてのユーザーは、計画領域の **サンプルワークスペース** タブへの表示アクセス権を受け取り、他のユーザーが共有すると他のワークスペースにアクセスできるようになります。
-1. （条件付き）システム管理者でない場合で、システム管理者がまだ体験版契約を受け入れていない場合は、**Workfront Planning 体験版** に関する情報を含むアプリ内バナーの手順に従い、「**詳細情報**」をクリックします。
+   * プランニング領域が、システム内のユーザーおよびユーザー全員のメインメニューに追加され、**体験版** インジケーターが表示されます。
+   * システム管理者は、計画領域の「**サンプルワークスペース**」タブに対する管理アクセス権を受け取ります。
+   * 標準ユーザーは、Planningの「**サンプルワークスペース**」タブへの表示アクセス権を受け取り、独自のワークスペース、レコードタイプ、レコード、フィールドおよびビューを作成して、それらを他のユーザーと共有できます。
+   * 他のすべてのユーザーは、プランニング領域の「**サンプルワークスペース**」タブへの表示アクセス権を取得し、他のユーザーが共有すると、他のワークスペースにアクセス権を取得できます。
+1. （条件付き）お客様がシステム管理者ではなく、システム管理者がまだ体験版を承認していない場合は、**Workfront計画体験版**&#x200B;に関する情報を含むアプリ内バナーに従い、**詳細情報**&#x200B;をクリックします。
 
-   Workfront Planning の体験版とWorkfront Planning について詳しくは、この記事を参照してください。
-1. （条件付き）システム管理者でない場合に、システム管理者が体験版契約に同意したら、**Workfront Planning 体験版に関する情報を含むアプリ内バナーに従って**&#x200B;**Planning を開く** をクリックします。
+   Workfront計画の体験版とWorkfront計画について詳しくは、この記事を参照してください。
+1. （条件付き）お客様がシステム管理者ではなく、システム管理者が体験版契約書に同意している場合は、**Workfront計画の体験版**&#x200B;に関する情報を含むアプリ内バナーに従い、**計画を開く**&#x200B;をクリックします。
 
-   「**サンプルワークスペース**」タブの調査を開始し、共有されているワークスペースを確認、使用または共有します。
+   「**サンプルワークスペース**」タブの探索を開始し、共有されているワークスペースを確認、使用、または共有します。
 
-Adobe Workfront Planning の使用方法の詳細については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+Workfront Planningの使用について詳しくは、[Adobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 
-Workfront Planning の実装方法のベスト プラクティスについては、[Adobe Workfront Planning のベスト プラクティスに関する記事のインデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) を参照してください。
+Workfront計画の導入方法に関するベストプラクティスについては、[Adobe Workfront計画のベストプラクティス：記事インデックス ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)を参照してください。
 
 
-## 無料体験版を通じてWorkfrontの計画を体験する
+## Workfront Planningを体験しましょう
 
-サンプルの Planning ワークスペースとそのオブジェクトを確認できるほか、Workfront Planning 体験版への登録時に独自のワークスペースを作成できます。
+サンプルのプランニング ワークスペースとそのオブジェクトを確認したり、Workfront プランニング体験版に登録するときに独自のワークスペースを作成したりできます。
 
-1. （条件付きおよび必須） Workfront管理者として、無料体験版契約に署名します。
+1. （条件付き、必須）Workfront管理者は、無料体験版契約書に署名します。
 
-   詳しくは、この記事の [Adobe Workfront Planning 無料体験版に登録 &#x200B;](#enroll-in-the-adobe-workfront-planning-free-trial) の節を参照してください。
-1. **メインメニュー** アイコン ![](assets/main-menu-shell.png) をクリックしてから、**計画** をクリックします。 アイコンの横には **体験版** ラベルが表示されます。
+   詳しくは、この記事の「[Adobe Workfront計画の無料体験版に登録する](#enroll-in-the-adobe-workfront-planning-free-trial)」の節を参照してください。
+1. **メインメニュー** アイコン ![](assets/main-menu-shell.png)をクリックし、**計画**&#x200B;をクリックします。 アイコンの横に&#x200B;**体験版** ラベルが表示されます。
 
-   **サンプルワークスペース** タブに **計画** エリアが開きます。
+   「**計画**」エリアが「**サンプルワークスペース**」タブで開きます。
 1. 「**サンプルワークスペース**」タブで使用可能な次のワークスペースを確認します。
 
-   * **グローバル分類および分類**：レコードのマーケティングシステムの基盤となる Planning オブジェクトタイプのサンプルが含まれています。
+   * **グローバル分類と分類**: マーケティング記録システムの基盤となるサンプル プランニング オブジェクトの種類が含まれています。
 
-     このワークスペースのすべてのレコードタイプは、Workfront Planning 構造の構築ブロックを構成できます。 すべてのレコードタイプはグローバルで、他のすべてのワークスペースから追加または接続できます。 詳しくは、[&#x200B; クロスワークスペースレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) を参照してください。
+     このワークスペース内のすべてのレコードタイプは、Workfront Planning構造の非構築ブロックを構成できます。 すべてのレコードタイプはグローバルであり、他のすべてのワークスペースから追加または接続できます。 詳しくは、[ クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
-     グローバル分類ワークスペースの使用方法についての推奨事項については、[&#x200B; 最初の勝利を持続可能な勢いに変える：管理されたスケーリングのプレイブック &#x200B;](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md) を参照してください。
-   * 追加のサンプルワークスペース：次のワークスペースは、組織と作業構造をアーキテクチャ化するために、サンプル会社（Fréscopa）が特定のワークスペース、レコードタイプ、フィールドおよびビューとして必要とする可能性のあるものの例として機能します。
+     グローバル分類ワークスペースの使用方法に関する推奨事項については、[最初の成果を持続可能な勢いに変える：管理された拡張のためのプレイブック ](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md)を参照してください。
+   * 追加のサンプルワークスペース：次のワークスペースは、サンプル企業（Fréscopa）が特定のワークスペース、レコードタイプ、フィールド、および組織構造と作業構造のアーキテクチャに対するビューとして必要なワークスペースの例として機能します。
 
-      * **フレスコパ・グローバル・マーケティング**
-      * **Fréscopa ソーシャルマーケティング**
+      * **Fréscopa グローバルマーケティング**
+      * **Fréscopa Social Marketing**
       * **Fréscopa Media &amp; PR**
-      * **フレスコパ・エグゼクティブ・カンパニーのリーダーシップ**
+      * **Fréscopa Executive Company Leadership**
 
    >[!NOTE]
    >
-   >システム管理者は、サンプルワークスペースを編集できます。 ただし、ガイダンスとして使用する際には保持し、代わりにサンプルとして提供するワークスペースをミラーリングして独自のワークスペースを構築することをお勧めします。
+   >システム管理者は、サンプルワークスペースを編集できる場合があります。 ただし、ガイダンスに使用する場合は、それらを維持し、サンプルとして提供するワークスペースをミラーリングして独自のワークスペースを構築することをお勧めします。
 
-1. **ワークスペースを作成** をクリックして、独自のワークスペースを作成します。
+1. 「**ワークスペースを作成**」をクリックして、独自のワークスペースを作成します。
 
    詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
-   システム管理者として、新しいワークスペースが **すべてのワークスペース** および **自分が参加しているワークスペース** タブに表示されます。
+   システム管理者の場合、新しいワークスペースは&#x200B;**すべてのワークスペース**&#x200B;と&#x200B;**自分が所属するワークスペース**&#x200B;のタブに表示されます。
 
    >[!TIP]
    >
-   >標準ライセンスユーザーは、「ワークスペース **領域に表示されるワークスペースを作成でき** す。
+   >標準ライセンス ユーザーは、**ワークスペース**&#x200B;領域に表示されるワークスペースを作成できます。
 
-1. **AI で作成** をクリックすると、AI アシスタントが仕様に基づいてワークスペースを作成します。<!--(**********have they changed the button to Generate or is it Create???*********)-->
+1. 「**AIを使用して作成**」をクリックすると、AI アシスタントが仕様に基づいてワークスペースを作成できます。<!--(**********have they changed the button to Generate or is it Create???*********)-->
 
-   詳しくは、[Adobe Workfront Planning Designerの基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-ai-designer.md) を参照してください。
+   詳しくは、「[Adobe Workfront計画Designerの基本を学ぶ](/help/quicksilver/planning/general/planning-ai-designer.md)」を参照してください。
 
    >[!IMPORTANT]
    >
-   >体験版中にWorkfront Planning で Planning Adobe Designerを使用するには、Gen AI 契約に署名する必要はありません。
+   >体験版中にWorkfront PlanningでPlanning Designerを使用できるようにするために、Adobe Gen AI契約書に署名する必要はありません。
 
 1. 作成したワークスペースで、次のいずれかを作成します。
 
@@ -262,7 +269,7 @@ Workfront Planning の実装方法のベスト プラクティスについては
      詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
    * フィールド
 
-     各レコードタイプにカスタムフィールドを作成したり、Workfrontから読み込んだり、他のレコードタイプ、Workfront オブジェクトタイプまたはオブジェクトタイプへの接続を他のアプリケーションから作成したりできます。
+     レコードタイプごとにカスタムフィールドを作成したり、Workfrontから読み込んだり、他のレコードタイプ、Workfront オブジェクトタイプ、または他のアプリケーションのオブジェクトタイプへの接続を作成したりできます。
 
      詳しくは、次の記事を参照してください。
 
@@ -276,26 +283,26 @@ Workfront Planning の実装方法のベスト プラクティスについては
      詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。
    * レコードタイプ
 
-     詳しくは、[&#x200B; レコードタイプの共有 &#x200B;](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
+     詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
    * ビュー
 
-     詳しくは、[&#x200B; ビューの共有 &#x200B;](/help/quicksilver/planning/access/share-views.md) を参照してください。
+     詳しくは、[ ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
 
-   Workfrontのプランニングを実装する方法と、ガバナンスの中心を構築する方法について詳しくは、この記事の [Workfrontのプランニングに関する追加情報 &#x200B;](#additional-information-about-workfront-planning) を参照してください。
+   Workfront Planningの導入方法と、そのガバナンスの中心を構築する方法について詳しくは、この記事の「[Workfront Planning](#additional-information-about-workfront-planning)」の節を参照してください。
 1. （オプション）作成したワークスペースを編集するには、次のいずれかの操作を行います。
 
    * ワークスペースを開き、手動で変更します。
 
      詳しくは、[ワークスペースの編集](/help/quicksilver/planning/architecture/edit-workspaces.md)を参照してください。
-   * 作業領域名の横にある **AI で編集** をクリックして、**Planning Designer** を開き、AI を使用して作業スペースをさらに変更します。
+   * ワークスペース名の横にある「**AIで編集**」をクリックして&#x200B;**プランニング Designer**」を開き、AIを使用してワークスペースをさらに変更します。
 
-     詳しくは、[Adobe Workfront Planning Designerの基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-ai-designer.md) を参照してください。
-1. （オプション）ユーザーについて **メインメニュー** からプランニング エリアを削除するには、ユーザーに割り当てられた **レイアウトテンプレート** をカスタマイズして、レイアウトテンプレートの **メインメニューを設定** エリアから削除します。
+     詳しくは、「[Adobe Workfront計画Designerの基本を学ぶ](/help/quicksilver/planning/general/planning-ai-designer.md)」を参照してください。
+1. （オプション）ユーザーの&#x200B;**メインメニュー**&#x200B;からプランニング領域を削除するには、ユーザーに割り当てられた&#x200B;**レイアウトテンプレート**&#x200B;をカスタマイズし、レイアウトテンプレートの&#x200B;**メインメニューの設定**&#x200B;領域から削除します。
 
    詳しくは、[レイアウトテンプレートを使用したメインメニューのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
    >[!TIP]
    >
-   >レイアウトテンプレートを使用してWorkfrontのインスタンスから Planning プロモーションバナーを削除することはできません。
+   >レイアウトテンプレートを使用して、WorkfrontのインスタンスからPlanning プロモーションバナーを削除することはできません。
 
 

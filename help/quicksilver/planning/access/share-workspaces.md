@@ -6,16 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 28%
+source-wordcount: '1064'
+ht-degree: 27%
 
 ---
 
 # ワークスペースを共有
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
@@ -24,7 +26,8 @@ ht-degree: 28%
 Adobe Workfront Planning で作業する際、ワークスペースを他のユーザーと共有して共同作業を確実に行うことができます。
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 >[!NOTE]
 >
@@ -46,9 +49,9 @@ This article describes how you can share a view with others. For information abo
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよび Planning パッケージ</p> 
+<p>任意のWorkfrontおよびプランニングパッケージ</p> 
 または
-<p>任意のワークフローおよび計画パッケージ</p> 
+<p>任意のワークフローとプランニングパッケージ</p> 
  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
@@ -63,11 +66,12 @@ This article describes how you can share a view with others. For information abo
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -124,17 +128,18 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## ワークスペースの共有に関する考慮事項
 
-* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
-* ワークスペースは、組織内のユーザー、チーム、役割、グループまたは会社と共有できます。
-* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。
+* Workfront Planningでのオブジェクトの共有に関する一般的な情報については、[Adobe Workfront Planningでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)も参照してください。
+* ワークスペースは、組織内のユーザー、チーム、役割、グループ、または会社と共有できます。
+* グループ、グループ、企業、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。
 * 組織外のユーザーとワークスペースを共有することはできません。
-* ワークスペースを共有すると、そのワークスペースに関連付けられているすべてのレコードタイプ、レコードおよびフィールドも共有されます。
-* ワークスペースを共有する場合、ビューは共有されません。 ビューは別々に共有する必要があります。
-* Workspaceの権限は、レコードタイプで継承された権限として表示されます。
+* ワークスペースを共有すると、ワークスペースに関連付けられたすべてのレコードタイプ、レコード、フィールドも共有されます。
+* ワークスペースを共有する場合、ビューは共有されません。 ビューを個別に共有する必要があります。
+* Workspace権限は、レコードタイプに対して継承された権限として表示されます。
 
 ## ワークスペースに対する権限の共有
 
@@ -149,31 +154,35 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. 共有するワークスペースを開き、画面の右上隅にある「**共有**」をクリックします。 共有ボックスが開きます。
 
-   ![&#x200B; ワークスペースの右上にある「共有」ボタン &#x200B;](assets/share-button-on-workspace-top-right.png)
+   ワークスペースの右上の![共有ボタン ](assets/share-button-on-workspace-top-right.png)
 
-1. <span class="preview"> （条件付き）持っているアクセスレベルに応じて、次のいずれかの操作を行います。
+1. <span class="preview"> （条件付き）アクセス レベルに応じて、次のいずれかの操作を行います。
 
    * システム管理者の場合は、次のオプションから選択します。</span>
 
-      * <span class="preview">**招待されたユーザーのみがアクセスできます**：共有ボックスでエンティティを選択し、ワークスペースへのアクセスを選択する必要があります。 これはデフォルトの選択です。</span>
-      * <span class="preview">**システム内の全員が表示可能**:Planning へのアクセス権を持つシステム内の全員が、Planning の自分の **ワークスペース** 領域でワークスペースを表示できます。</span>
+      * <span class="preview">**招待されたユーザーのみが**&#x200B;にアクセスできます。共有ボックスでエンティティを選択し、ワークスペースへのアクセス権を選択する必要があります。 これがデフォルトの選択範囲です。</span>
+      * <span class="preview">**システム内のすべてのユーザーが表示できます**:Planningにアクセスできるシステム内の全員が、Planningの&#x200B;**ワークスペース**&#x200B;領域のワークスペースを表示できます。</span>
 
-   * <span class="preview"> （条件付き） Standard ライセンスを持つワークスペースマネージャーの場合、次のいずれかの選択肢が表示されますが、変更することはできません。</span>
+   * <span class="preview"> （条件付き）標準ライセンスを持つワークスペース マネージャーの場合、次のいずれかの選択項目が表示されますが、変更することはできません。</span>
 
-      * <span class="preview">**招待されたユーザーのみがアクセスできます**。 これはデフォルト設定です。</span>
-      * <span class="preview">**システム内の全員が閲覧可能**</span>
+      * <span class="preview">**招待されたユーザーのみが**&#x200B;にアクセスできます。 これは既定の設定です。</span>
+      * <span class="preview">**システム内のすべてのユーザーが**</span>&#x200B;を表示できます
 
      <span class="preview"> ワークスペースのグローバル権限を変更するには、システム管理者に依頼する必要があります。</span>
 
-1. 「**このワークスペースへのアクセスを許可**」フィールドに、ユーザー、グループ、チーム、会社または担当業務の名前の入力を開始し、リストに表示されたらクリックします。
+1. **このワークスペースへのアクセス権を付与** フィールドで、ユーザー、グループ、チーム、会社、または担当業務の名前を入力し始め、リストに表示されたらクリックします。
 
-   <span class="preview">![UI をグループと共有 &#x200B;](assets/sharing-ui-with-groups.png)</span>
+   <span class="preview">![ グループとUIを共有](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >
-   >* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+   >* グループ、グループ、企業、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
    >
-   >* あるユーザーとワークスペースを共有すると、そのユーザーのプライマリ担当業務 <span class="preview"> およびメール </span> もフィールドに表示されます。 ユーザーのメールを表示するには、アクセスレベルでユーザーオブジェクトに対して「連絡先情報を表示」設定を有効にする必要があります。
+   >* ユーザーとワークスペースを共有すると、そのユーザーの主要な担当業務<span class="preview">とその電子メール </span>もフィールドに表示されます。 ユーザーの電子メールを表示するには、アクセスレベルのUsers オブジェクトで「連絡先情報を表示」設定を有効にする必要があります。
+
+1. <span class="preview"> （オプション）グループ、チーム、役割、または会社と共有する場合は、エンティティの名前にカーソルを合わせ、右向きの矢印をクリックして、権限を受け取っているユーザーのリストを展開します。</span>
+
+   ![ グループとワークスペースを共有](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
 1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
    * 表示
@@ -185,34 +194,34 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. コピーしたリンクを他のユーザーと共有します。リンクを受け取ったユーザーがそのワークスペースにアクセスするには、アクティブユーザーであり、かつ Workfront にログインする必要があります。
 1. 「**保存**」をクリックします。
 
-   ワークスペースを共有したユーザーは、権限に関するアプリ内通知とメール通知の両方を受け取ります。
+   ワークスペースを共有したユーザーは、ワークスペースに対する権限を持つことに関するアプリ内通知とメール通知の両方を受け取ります。
 
-## 権限リクエストからのワークスペースに対する権限の付与
+## 権限リクエストからワークスペースに権限を付与する
 
-権限のないワークスペースへのリンクにアクセスするユーザーは、ワークスペースに対する権限をリクエストできます。 ワークスペースに対する管理権限を持つすべてのユーザーは、権限リクエストを受け取り、権限を付与または拒否できます。
+権限を持たないワークスペースへのリンクにアクセスするユーザーは、ワークスペースに対する権限をリクエストできます。 ワークスペースに対する管理権限を持つすべてのユーザーは、権限リクエストを受け取り、権限を付与または拒否できます。
 
-1. （条件付き）ワークスペースの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
+1. （条件付き）ワークスペースのマネージャーである場合、次の領域でビューにアクセスするためのリクエストを他のユーザーから受け取る可能性があります。
 
    * アプリ内通知
-     ![&#x200B; アクセスリクエストのアプリ内通知 &#x200B;](assets/in-app-notification-for-access-request.png)
+     ![ アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
    * メール通知
-     ![&#x200B; アクセスリクエストのメール通知 &#x200B;](assets/email-notification-for-access-request.png)
+     ![ アクセス要求のメール通知](assets/email-notification-for-access-request.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
-メール通知で「**すべての通知を表示**」をクリックし、リスト内の通知をクリックします。
+メール通知から、**すべての通知を表示**&#x200B;をクリックし、リスト内の通知をクリックします。
 
-   **保留中のアクセスリクエスト** ボックスが表示されます。
+   「**保留中のアクセス要求**」ボックスが表示されます。
 
-   ![&#x200B; 通知リストの承認ボックス &#x200B;](assets/notifications-list-approval-box.png)
+   ![通知リストの承認ボックス ](assets/notifications-list-approval-box.png)
 
-1. （オプション）権限を承認するユーザーについて、ユーザー名の右側にあるドロップダウンメニューから次のいずれかのオプションを選択します。
+1. （オプション）権限を承認するユーザーの場合、ユーザー名の右側にあるドロップダウンメニューから次のいずれかのオプションを選択します。
    * **表示**
    * **参加**
    * **管理**
-1. 権限を承認または拒否するユーザーを選択し、「**すべて承認**」または「**すべて拒否** をクリックします。
-1. **保留中のアクセスリクエスト** の左側にある左向き矢印をクリックし、「**保存**」をクリックします。
+1. 権限を承認または拒否するユーザーを選択し、**すべてを承認**&#x200B;または&#x200B;**すべてを拒否**&#x200B;をクリックします。
+1. **保留中のアクセス要求**&#x200B;の左側にある左向き矢印をクリックし、**保存**&#x200B;をクリックします。
 
-   リクエストを承認すると、ユーザーはワークスペースの共有ボックスに追加されます。 権限をリクエストするユーザーに、リクエストが承認されたことを示すメールが届きます。<!--will they also get an in-app notification??-->
+   リクエストを承認すると、ユーザーはワークスペースの共有ボックスに追加されます。 権限を要求するユーザーは、要求が承認されたことを確認する電子メールを受信します。<!--will they also get an in-app notification??-->
 
 
 ## ワークスペースに対する権限の削除
@@ -221,9 +230,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 {{step1-to-planning}}
 
 1. 権限を削除するワークスペースを開き、画面の右上隅の「**共有**」をクリックします。
-1. ワークスペースを共有するエンティティ名の右側にあるドロップダウンメニューをクリックし、「**削除**」をクリックします。
+1. ワークスペースを共有しているエンティティの名前の右側にあるドロップダウンメニューをクリックし、**削除**&#x200B;をクリックします。
 1. 「**保存**」をクリックします。
 
    削除されたユーザーは、ワークスペースまたはそのオブジェクトにアクセスできなくなります。
 
-   ワークスペースへのアクセスから削除されたユーザーには、これらの権限がなくなったという通知はありません。
+   ワークスペースへのアクセスから削除されたユーザーに対して、これらの権限を持たなくなった旨の通知はありません。
