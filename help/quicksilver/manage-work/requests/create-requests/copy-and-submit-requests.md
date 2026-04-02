@@ -117,7 +117,7 @@ ht-degree: 78%
 
    1. **My Requests** ウィジェットを探します。
 
-      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
+      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
 
 1. ホームの&#x200B;**リクエスト** リストまたは&#x200B;**マイリクエスト** ウィジェットで、コピーするリクエストにカーソルを合わせ、名前の横にある&#x200B;**詳細** メニューをクリックします。
 
@@ -159,13 +159,13 @@ ht-degree: 78%
 
 1. 新規としてコピーして送信するリクエストを検索し、次のいずれかの操作を行います。
 
-   * それを選択し、送信済みリクエストリストの左上隅にある「**コピー**![ コピーして送信」アイコン ](assets/copy-and-submit-as-new-requests-area-nwe.png)をクリックします。
+   * それを選択し、送信済みリクエストリストの左上隅にある「**コピー**![&#x200B; コピーして送信」アイコン &#x200B;](assets/copy-and-submit-as-new-requests-area-nwe.png)をクリックします。
 
    >[!TIP]
    >
    > 最初にリクエストを選択していない場合、コピーアイコンはグレー表示になります。
 
-   * リクエスト名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**コピーをクリックして新規として送信**
+   * リクエスト名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**コピーをクリックして新規として送信**
 
      または
 

@@ -24,7 +24,7 @@ ht-degree: 28%
 ワークスペースは、組織単位で使用されるレコードタイプのコレクションであり、単位の作業ライフサイクルとプロセスを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
 
 
-![Workspaces ランディングページ管理者アカウント ](assets/workspaces-landing-page-admin-account.png)
+![Workspaces ランディングページ管理者アカウント &#x200B;](assets/workspaces-landing-page-admin-account.png)
 
 ## ワークスペースに関する考慮事項
 
@@ -41,7 +41,7 @@ ht-degree: 28%
 
 * ワークスペースとは、組織部門（チーム、グループ、部門、部門）が作業をおこなうフレームワークのことです。 フィールドに関連付けることはできません。 フィールドに関連付けられるのは、ワークスペース内のレコードタイプのみです。
 
-  詳しくは、[ レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
+  詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 * Workfront ライセンスに応じて、ワークスペースはプランニング エリアの次のタブに表示されます。
 
    * システム管理者の場合、ワークスペースは次のタブに表示されます。
