@@ -20,7 +20,7 @@ ht-degree: 81%
 >title="リソース プール"
 >abstract="リソースプールとは、プロジェクトの完了に同時に必要なユーザーのコレクションです。リソースプールを作成したら、それをプロジェクトとテンプレートに関連付けることができます。"
 
-リソースプールは、Adobe Workfront でリソースをより簡単に管理するのに役立つユーザーのコレクションです。リソースプールについて詳しくは、[ リソースプールの概要](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)を参照してください。
+リソースプールは、Adobe Workfront でリソースをより簡単に管理するのに役立つユーザーのコレクションです。リソースプールについて詳しくは、[&#x200B; リソースプールの概要](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)を参照してください。
 
 ## アクセス要件
 
@@ -97,8 +97,8 @@ ht-degree: 81%
    >
    >リソースプール内のユーザー数に制限はありません。ただし、リソース管理が課題になる可能性があるので、リソースプールに多くのユーザーを追加しすぎないようにすることをお勧めします。ユーザーのリストには、リソースプール内の最初の 2,000 人のユーザーがアルファベット順で表示されます。
 
-   ![ ユーザーがリソースプールに追加されました](assets/users-in-resource-pool2.png)
+   ![&#x200B; ユーザーがリソースプールに追加されました](assets/users-in-resource-pool2.png)
 
-1. （オプション）ユーザー名の右側にあるX アイコンをクリックして、ユーザーを削除します。 リソースプールからユーザーを削除する方法について詳しくは、[ リソースプールからユーザーを削除](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)を参照してください。
+1. （オプション）ユーザー名の右側にあるX アイコンをクリックして、ユーザーを削除します。 リソースプールからユーザーを削除する方法について詳しくは、[&#x200B; リソースプールからユーザーを削除](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)を参照してください。
 1. （オプション）「**検索**」オプションを使用して、リソースプール内のユーザーを検索します。
 1. 「**作成**」をクリックします。
