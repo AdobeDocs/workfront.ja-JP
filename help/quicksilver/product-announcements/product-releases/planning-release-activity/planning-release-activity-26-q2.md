@@ -7,10 +7,12 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 15%
+source-wordcount: '1882'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +22,139 @@ ht-degree: 15%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+
+## リスト表示の行の高さを上げる新機能
+
+>[!NOTE]
+>
+>プレビュー：2026年4月2日（PT）
+>実稼動（迅速リリース）：2026年4月15日（PT）
+>実稼動（全ユーザー）：2026年4月16日（PT）
+
+リストビューで行の高さを調整するための新しい設定が追加されました。
+
+詳しくは、リスト表示の管理（help/quicksilver/planning/views/manage-the-list-view.md）を参照してください。
+
+詳しくは、[ リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
+
+## 公開共有ビューにレコードタイプ名と表示アイコンを追加
+
+>[!NOTE]
+>
+>プレビュー：2026年4月2日（PT）
+>実稼動（迅速リリース）：2026年4月15日（PT）
+>実稼動（全ユーザー）：2026年4月16日（PT）
+
+受信者がレコードタイプへの公開共有リンクを開いたときに受信したビューを常に把握できるように、表示アイコンとビュー名に加えて、レコードタイプの名前を共有ビューページに追加しました。
+
+詳しくは、[ ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください
+
+## リクエストフォームリストに追加された新しいグループ化機能
+
+>[!NOTE]
+>
+>プレビュー：2026年4月2日（PT）
+>実稼動（迅速リリース）：2026年4月15日（PT）
+>実稼動（全ユーザー）：2026年4月16日（PT）
+
+情報をより適切に整理するために、レコードタイプのリクエストフォームページでアイテムをグループ化する機能が追加されました。
+
+この機能強化の前は、この機能はこの領域には存在しませんでした。
+
+詳しくは、[ リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
+
+## 共有エンティティのリストを展開してユーザーを表示
+
+>[!NOTE]
+>
+>プレビュー：2026年4月2日（PT）
+>実稼動（迅速リリース）：2026年4月15日（PT）
+>実稼動（全ユーザー）：2026年4月16日（PT）
+
+ワークスペースまたはビューを共有する際に、グループ、チーム、会社、役割を展開して、メンバーを表示できるようになりました。 この機能強化の前は、これらのオブジェクトに対するメンバーシップリストは、レコードタイプを共有する場合にのみ使用されていました。
+
+詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。
+
+## Workfrontプランニングの導入に役立つマルチワークスペースのベストプラクティステンプレート
+
+>[!NOTE]
+>
+>プレビュー：2026年4月2日（PT）
+>実稼動（迅速リリース）：2026年4月15日（PT）
+>実稼動（全ユーザー）：2026年4月16日（PT）
+
+Workfront計画の導入を効率化するためのテンプレートパッケージをご紹介します。 ベストプラクティスのフレームワークテンプレートをインストールすると、Workfrontで戦略的プランニングを始めるために必要なすべての情報を含むワークスペースを最大6つ作成できます。
+
+マルチワークスペーステンプレートには、作成した任意のカスタムワークスペースで使用できるコアレコードタイプを確立するグローバルテンプレートが含まれています。 さらに、テンプレートには、さらに5つのワークスペースが含まれており、サンプルとして使用でき、相互に接続され、Workfront内の他のオブジェクトに接続されています。
+
+詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+
+>[!NOTE]
+>
+> この機能強化は、Prime以降のパッケージを持つお客様のみが利用できます。
+
+## 任意のWorkfront計画ページからのWorkfront計画オブジェクトのグローバル検索
+
+>[!NOTE]
+>
+>プレビュー：2026年4月2日（PT）
+>実稼動（迅速リリース）：2026年4月15日（PT）
+>実稼動（全ユーザー）：2026年4月16日（PT）
+
+Workfront Planningの任意のページのワークスペース、レコードタイプ、またはビューを検索するには、任意のPlanning ページの次の主要な組み合わせを使用します。
+
+* Windowsの場合はCTRL+K
+* Macの⌘+K
+
+プランニング ランディングページに追加された新しい検索ボックスから、ワークスペース、レコードタイプ、またはビューを検索することもできます。
+
+詳しくは、[ワークスペースの編集](/help/quicksilver/planning/architecture/edit-workspaces.md)を参照してください。
+
+## レコードの接続されたページ内のプロジェクトリストに追加の条件付き書式を適用する
+
+>[!NOTE]
+>
+>プレビュー：2026年4月2日（PT）
+>実稼動（迅速リリース）：2026年4月15日（PT）
+>実稼動（全ユーザー）：2026年4月16日（PT）
+
+レコードの接続されたページ内のプロジェクトのリストに、追加の条件付き書式を適用できるようになりました。
+
+新しい条件付き書式設定機能には、次のものが含まれます。
+
+* テキストにカラーを追加
+
+* セル内のテキストを太字または斜体にする
+
+* 条件付き書式を行全体に適用する機能
+
+この機能強化の前は、セルの背景にカラーを追加する機能のみが存在していました。
+
+詳しくは、[ リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
+
+## リスト表示にフィルターのパーソナライズされた名前を追加しました
+
+>[!NOTE]
+>
+>プレビュー：2026年4月2日（PT）
+>実稼動（迅速リリース）：2026年4月15日（PT）
+>実稼動（全ユーザー）：2026年4月16日（PT）
+
+リストビューに、チーム、グループ、会社、および役割フィルターに次のパーソナライズされた名前を追加しました。
+
+* マイホームチーム、マイチーム
+
+* マイホームグループ、マイグループ
+
+* My primary role, My roles
+
+* マイ会社
+
+フィルターオプションを表示するには、ビューに表示されるオブジェクトにフィールドが存在する必要があります。
+
+詳しくは、[ リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
 
 ## パンくずリストの再設計
 
@@ -62,7 +196,7 @@ For information, see [Create fields](/help/quicksilver/planning/fields/create-fi
 
 この更新の前は、管理者以外のユーザーは、レコードタイプを接続可能にすることができませんでした。 これにより、レコードタイプを特定のワークスペースから接続できるようになります。 レコードタイプをシステム内のすべてのワークスペースから接続可能にすることはできません。
 
-詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
+詳しくは、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
 
 ## トリガーベースドオートメーション
 
@@ -149,7 +283,7 @@ Workfront オブジェクトとWorkfront Planning レコードタイプの間に
 
 この更新は、プロジェクトを表示する際に、レコードの接続されたレコードページのリストビューでのみ使用できます。
 
-詳しくは、[&#x200B; リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
+詳しくは、[ リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
 
 ## リスト表示に条件付き書式を適用する
 
@@ -161,7 +295,7 @@ Workfront オブジェクトとWorkfront Planning レコードタイプの間に
 
 レコードの接続されたレコードページのリストビューで、プロジェクトに条件付き書式設定を適用できるようになりました。 この機能は、この機能強化の前にリストビューに存在しませんでした。
 
-詳しくは、[&#x200B; リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
+詳しくは、[ リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
 
 ## セカンダリワークスペースのグローバルレコードタイプの改善
 
@@ -191,7 +325,7 @@ Workfront オブジェクトとWorkfront Planning レコードタイプの間に
 
 この新しい設定では、レコードの詳細プレビュー領域からテーブルビューで非表示になっているフィールドを含めるか除外するかを選択できます。
 
-詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[ レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 ## 元のリクエストの新しいプランニング接続フィールド
 
@@ -221,7 +355,7 @@ Workfront オブジェクトとWorkfront Planning レコードタイプの間に
 
 承認ルールは、リクエストフォームで作成されます。
 
-詳しくは、「[&#x200B; リクエストフォームに承認ルールを追加する](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form)」を参照してください。Adobe Workfront Planningの「リクエストフォームに承認を追加する」を参照してください。
+詳しくは、「[ リクエストフォームに承認ルールを追加する](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form)」を参照してください。Adobe Workfront Planningの「リクエストフォームに承認を追加する」を参照してください。
 
 ## Workfront Planningのユーザー先行入力フィールドにメールを表示する
 
@@ -252,4 +386,4 @@ Workfront オブジェクトとWorkfront Planning レコードタイプの間に
 
 2つのプランニングレコードタイプを接続する際に、ルックアップフィールドに「人物」フィールドを追加できるようになりました。
 
-詳しくは、[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+詳しくは、[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。

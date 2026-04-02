@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '13813'
+source-wordcount: '13913'
 ht-degree: 97%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 97%
          * [2026年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [2026年第 2 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
          * [2026年第2四半期ドキュメントの機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
+         * [2026年第2四半期のエンタープライズオペレーションの強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md)
          * [2026年第 2 四半期のプロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
          * [2026年第2四半期レポートの機能強化](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
          * [2026年第2四半期の機能強化の要望](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
@@ -463,9 +464,8 @@ ht-degree: 97%
          * [組織の迅速リリースの有効化または無効化](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [Adobe エンタープライズストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
          * [ビジネスルールの作成および編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
-         * [場所を設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
-         * [評価カードを管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
-         * [テンプレートからの評価カードの読み込み](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/import-rate-cards.md)
+         * [カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
+         * [AI共同作業者の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
       * スケジュールとタイムシートの環境設定の指定 {#configure-timesheets-schedules}
          * [スケジュールとタイムシートの環境設定の指定](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [スケジュールの概要](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -561,7 +561,9 @@ ht-degree: 97%
          * [フィルター、ビュー、グループ化へのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
          * [シナリオプランナーへのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [リソース管理に対するアクセスの許可](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+         * [レートカードへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
          * [Workfront Goals へのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+         * [ブランド権限へのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
       * Workfront でのシングルサインオン {#sso}
          * [シングルサインオン：記事インデックス](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [シングルサインオンの概要](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
@@ -588,6 +590,7 @@ ht-degree: 97%
          * [メインメニューをカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
          * [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [左側のパネルのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+         * [レイアウトテンプレートを使用して詳細メニューをカスタマイズする](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
          * [詳細ビューのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [レイアウトテンプレートを使用した概要パネルのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [新しいホームのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
@@ -611,6 +614,7 @@ ht-degree: 97%
             * [フォームへの計算フィールドの追加](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [カスタムフォームおよびフィールドへの論理ルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
             * [カスタムフォームの高度なロジックの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
+            * [カスタムフィールドの財務データへのアクセス制限](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)
             * [カスタムフォームの外部ルックアップフィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [フォームの整理とプレビュー](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
          * カスタムフォームの管理 {#manage-custom-forms}
@@ -783,6 +787,15 @@ ht-degree: 97%
          * [グループのプロジェクトテンプレートの管理](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
          * [グループの削除された項目の管理](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
          * [グループの復元された項目の管理](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
+   * エンタープライズオペレーションの管理 {#manage-enterprise-operations}
+      * [エンタープライズ操作の管理：記事インデックス](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
+      * [エンタープライズオペレーション機能の概要](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-capabilities-overview.md)
+      * [場所を設定](/help/quicksilver/administration-and-setup/manage-enterprise-operations/configure-locations.md)
+      * [レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)
+      * [評価カードを管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
+      * [テンプレートからの評価カードの読み込み](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
+      * [プロジェクトへのプッシュ率の変更](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
+      * [ レートカードの共有](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
    * 統合の設定 {#configure-integrations}
       * [統合の設定](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront 統合](administration-and-setup/configure-integrations/workfront-integrations-1.md)
@@ -879,7 +892,7 @@ ht-degree: 97%
       * [優先度：記事インデックス](workfront-basics/priorities/priorities-toc.md)
       * [優先度の基本を学ぶ](workfront-basics/priorities/get-started-with-priorities.md)
       * [優先度でのプロジェクトと作業アイテムの詳細の表示](workfront-basics/priorities/view-task-project-details.md)
-      * [優先度での作業のフィルタリングおよびグループ化](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+      * [作業のフィルタリング、グループ化、並べ替えを優先度で行う](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [ワークリスト列のカスタマイズ](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [重要な作業アイテムの優先順位付け](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
       * [優先度でのタスクとイシューの作成](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
@@ -1224,6 +1237,7 @@ ht-degree: 97%
          * [テンプレートを使用したプロジェクトの作成](manage-work/projects/create-projects/create-project-from-template.md)
          * [Microsoft Project からプロジェクトを読み込む](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [プロジェクトのベースラインを作成](manage-work/projects/create-projects/create-baselines.md)
+         * [プロジェクトのスナップショットの作成と表示](manage-work/projects/create-projects/create-snapshots.md)
       * プロジェクトの作業の更新 {#update-work-on-a-project}
          * [プロジェクトの作業の更新：記事インデックス](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [グループに関連付けられた作業へのステータスの適用](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1298,13 +1312,18 @@ ht-degree: 97%
          * [プロジェクトの財務エリアでの情報の管理](manage-work/projects/project-finances/manage-project-finance-area.md)
          * [プロジェクト通貨の変更](manage-work/projects/project-finances/change-project-currency.md)
          * [コストの追跡](manage-work/projects/project-finances/track-costs.md)
+         * [プロジェクト レベルでのユーザー原価率の上書き](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
          * [プロジェクトの費用の管理](manage-work/projects/project-finances/manage-project-expenses.md)
+         * [収益とコスト階層の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
          * [請求と収益の概要](manage-work/projects/project-finances/billing-and-revenue-overview.md)
          * [請求記録の作成](manage-work/projects/project-finances/create-billing-records.md)
          * [プロジェクトレベルの請求レートの会社レベルの請求率での上書き](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
-         * [担当業務に対する請求レートの上書きとプロジェクトにおける収益の計算の概要](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+         * [プロジェクトでの請求レートの上書きと収益の計算の概要](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [プロジェクトレベルでの担当業務請求レートの上書き](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [プロジェクト レベルでのユーザーの請求レートの上書き](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
          * [プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+         * [請求用の担当業務の設定](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+         * [残業率の定義](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)
          * [プロジェクトの予定利益の概要](manage-work/projects/project-finances/project-planned-benefit.md)
          * [パフォーマンスインデックスメソッド（PIM）の設定](manage-work/projects/project-finances/set-pim.md)
          * [投資回収率（ROI）の計算](manage-work/projects/project-finances/calculate-roi.md)
@@ -1860,23 +1879,22 @@ ht-degree: 97%
       * [統合ドキュメント承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [ドキュメント承認で利用可能な機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Workfront AI レビュアーの基本を学ぶ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+      * [Workfront Content Reviewerの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [アドビのエンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * [Adobe エンタープライズストレージモデルのオブジェクト権限とアクセスレベルの概要](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
       * アセットとドキュメントの承認の設定と管理 {#manage-asset-review-and-approval}
          * [統合承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-         * [AI レビュアーの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
-         * [AI レビュアーのブランドを設定する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
-         * [ドキュメント承認ワークフローの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [ドキュメント承認ワークフローへの承認者またはレビュー担当者の追加](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [ドキュメント承認ワークフローから承認者またはレビュー担当者を削除する](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [ドキュメントの承認ワークフローテンプレートの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [コンテンツレビュアーのブランドを作成および管理する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+         * [ドキュメントのレビューおよび承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [アセットまたはドキュメントへのレビュアーまたは承認者の追加](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [アセットまたはドキュメントからの承認者またはレビュアーの削除](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [アセットおよびドキュメントの承認テンプレートの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [統合承認とプルーフの併用](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [新しいドキュメントバージョンのアップロードと承認のリクエスト](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
          * [レビューおよび承認のレポートダッシュボードの作成](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * アセットとドキュメントのレビューと承認 {#review-and-approve-documents}
          * [ドキュメントのレビューと承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [AI レビュアーのスコアとフィードバックの表示](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+         * [コンテンツレビュー担当者のスコアとフィードバックを表示](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [ドキュメントのレビュー](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [ドキュメントを承認](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
          * [Frame.io ビューアーでのドキュメントのレビューと承認](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
@@ -2224,7 +2242,7 @@ ht-degree: 97%
          * [Adobe Workfront for Creative Cloud アプリケーションのインストール](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Photoshop 用 Adobe Workfront をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Adobe Workfront for XD をインストールして開きます。](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-         * [&#x200B; [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+         * [ [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
       * Creative Cloud アプリケーション用の Adobe Workfront プラグインで作業を管理 {#manage-wf-cc}
          * [Creative Cloud アプリケーション用の Adobe Workfront プラグインで作業を管理](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Adobe Workfront プラグインを使用して作業を検索](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
@@ -2232,7 +2250,7 @@ ht-degree: 97%
          * [Adobe Workfront プラグインを使用して作業を更新](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Adobe Workfront プラグインを使用して作業アイテムを完了とマーク](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Adobe Workfront プラグインを使用して時間を記録](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントとプルーフのアップロード {#upload-docs-proofs-wf-cc}
          * [ドキュメントやプルーフを  [!DNL Adobe Workfront plugin]  から  [!DNL Creative Cloud] にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントとプルーフのアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
@@ -2242,8 +2260,8 @@ ht-degree: 97%
          * [XD アートボードをドキュメントとして Workfront にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [&#x200B; [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [&#x200B; [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [ [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator および InDesign 向け Workfront 拡張機能 {#workfront-for-illustrator-indesign}
          * [Illustrator および InDesign 向け Workfront 拡張機能の使用](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Jira 用 Adobe Workfront {#workfront-for-jira}
