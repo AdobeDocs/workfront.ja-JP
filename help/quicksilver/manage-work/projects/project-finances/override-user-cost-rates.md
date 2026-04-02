@@ -21,7 +21,7 @@ ht-degree: 27%
 
 この記事では、プロジェクトのシステムユーザーコスト率を上書きする方法について説明します。
 
-プロジェクトのコストの計算について詳しくは、[収益とコスト階層の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)および[ コストの追跡](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)を参照してください。
+プロジェクトのコストの計算について詳しくは、[収益とコスト階層の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)および[&#x200B; コストの追跡](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)を参照してください。
 
 ## アクセス要件
 
@@ -90,7 +90,7 @@ ht-degree: 27%
    * **開始日**：原価率の上書きが開始される日付。
    * **終了日**：原価率の上書きが終了した日付。
 
-   ![有効な日付を示す「新規ユーザー原価率」ボックス ](assets/new-user-cost-rate-box.png)
+   ![有効な日付を示す「新規ユーザー原価率」ボックス &#x200B;](assets/new-user-cost-rate-box.png)
 
    Workfrontでは、プロジェクトのコストを計算する際に、これらの時間枠の間に発生した時間に上書きジョブロール率を適用します。
 

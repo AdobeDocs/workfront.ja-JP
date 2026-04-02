@@ -83,4 +83,4 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >プロジェクトで変更された担当業務の請求率は、そのプロジェクトにのみ影響します。会社レベルで変更された請求率は、すべてのプロジェクトに影響を与えます。詳しくは、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+   >プロジェクトで変更された担当業務の請求率は、そのプロジェクトにのみ影響します。会社レベルで変更された請求率は、すべてのプロジェクトに影響を与えます。詳しくは、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。

@@ -92,7 +92,7 @@ ht-degree: 33%
 
      Workfrontでの基本通貨の設定について詳しくは、[為替レートの設定](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)を参照してください。
 
-     プロジェクトの通貨の変更について詳しくは、[ プロジェクトの通貨の変更](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)を参照してください。
+     プロジェクトの通貨の変更について詳しくは、[&#x200B; プロジェクトの通貨の変更](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)を参照してください。
 
    * **コスト率**：これは、担当業務の時間当たりのコスト率です。 この値は、役割に関連するタスクとイシューの予定コストと実際のコスト、最終的にはプロジェクトの予定コストと実際のコストを計算します。選択した通貨を使用してレートを入力します。
 
@@ -100,7 +100,7 @@ ht-degree: 33%
 
      一部の日付は自動的に追加されます。例えば、最初のコスト率に終了日が設定されていない場合に、2 番目のコスト率を追加して開始日を 2025年5月1日とすると、ギャップが生じないように、最初のコスト率に終了日 2025年4月30日が追加されます。
 
-     Workfrontでのコストの計算方法について詳しくは、[ コストの追跡](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)を参照してください。
+     Workfrontでのコストの計算方法について詳しくは、[&#x200B; コストの追跡](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)を参照してください。
 
      >[!TIP]
      >
@@ -130,7 +130,7 @@ ht-degree: 33%
 
 レート属性は、ジョブロールやユーザーなど、レートが存在するWorkfrontの領域でサポートされます。 担当業務に属性が適用されると、その割り当ては自動的に正しい率に解決されます。
 
-詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
 
 {{step-1-to-setup}}
 
@@ -147,7 +147,7 @@ ht-degree: 33%
 
    または
 
-   既存のレートを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックして更新します。
+   既存のレートを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックして更新します。
 
    >[!NOTE]
    >
@@ -157,7 +157,7 @@ ht-degree: 33%
 
    >[!NOTE]
    >
-   >これらの属性は個別に定義され、収益とコストの計算に影響を与える可能性があります。 詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+   >これらの属性は個別に定義され、収益とコストの計算に影響を与える可能性があります。 詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
 
 1. レートの&#x200B;**通貨**&#x200B;を選択します。 Workfront管理者は、設定領域に基本通貨を追加します。 選択範囲を別の使用可能な通貨に変更したり、有効な日付範囲で通貨を変更したりできます。
 
@@ -167,7 +167,7 @@ ht-degree: 33%
 
    Workfrontでの基本通貨の設定について詳しくは、[為替レートの設定](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)を参照してください。
 
-   プロジェクトの通貨の変更について詳しくは、[ プロジェクトの通貨の変更](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)を参照してください。
+   プロジェクトの通貨の変更について詳しくは、[&#x200B; プロジェクトの通貨の変更](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)を参照してください。
 
 1. （条件付き）請求率については、この担当業務の&#x200B;**請求率**&#x200B;を入力してください。
 
@@ -195,7 +195,7 @@ ht-degree: 33%
 
    一部の日付は自動的に追加されます。例えば、最初の原価率に終了日がなく、開始日が5月1日の2番目の原価率を追加した場合、最初の原価率に4月30日の終了日が追加され、ギャップが存在しません。
 
-   Workfrontでのコストの計算方法について詳しくは、[ コストの追跡](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)を参照してください。
+   Workfrontでのコストの計算方法について詳しくは、[&#x200B; コストの追跡](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)を参照してください。
 
    >[!TIP]
    >

@@ -73,12 +73,12 @@ ht-degree: 85%
 1. 左側のパネルで「**プロジェクト詳細**」をクリックして、**財務情報**&#x200B;エリアに移動します。
 1. 「**通貨**」フィールドの「**追加**」をクリックし、プロジェクトのデフォルト通貨として使用する通貨を選択します。Workfront 管理者が Workfront インスタンスに設定したすべての通貨が表示されます。
 
-   ![ プロジェクトの通貨](assets/currency-on-project.png)
+   ![&#x200B; プロジェクトの通貨](assets/currency-on-project.png)
 
 1. （条件付き）Workfront システムに設定されているデフォルト通貨以外の通貨を選択する場合は、システムで基準通貨として設定される通貨との関連で、選択した通貨のレートを指定します。
 
    >[!NOTE]
    >
-   ><span class="preview">このプロジェクトで「**システムから日付有効な為替レートを使用」設定がオンになっている場合、為替レートの上書きは許可されません。**&#x200B;詳しくは、[ プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)を参照してください。</span>
+   ><span class="preview">このプロジェクトで「**システムから日付有効な為替レートを使用」設定がオンになっている場合、為替レートの上書きは許可されません。**&#x200B;詳しくは、[&#x200B; プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)を参照してください。</span>
 
 1. 「**変更を保存**」をクリックします。

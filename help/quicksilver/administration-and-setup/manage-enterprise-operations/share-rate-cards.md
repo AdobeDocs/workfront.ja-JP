@@ -56,7 +56,7 @@ ht-degree: 17%
 {{step-1-to-setup}}
 
 1. 左側のパネルで、「[!UICONTROL **レートカード**]」をクリックします。
-1. リスト内の1つ以上のレートカードの横にあるチェックボックスを選択し、**共有** アイコン ![共有アイコン ](assets/share-icon.png)をクリックします。
+1. リスト内の1つ以上のレートカードの横にあるチェックボックスを選択し、**共有** アイコン ![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。
 1. 表示されるボックスで、[!UICONTROL **レート カードのアクセス権を**]&#x200B;に付与の下で、レート カードを共有するエンティティの名前を入力し始め、オプションのリストから選択します。
 1. エンティティ名の右側にあるドロップダウンをクリックし、このレートカードの権限レベルを選択します。
 
@@ -65,9 +65,9 @@ ht-degree: 17%
 
 1. アクセス権を調整するには、付与した権限レベルの横にある詳細オプションアイコンをクリックして、レートカードに対する特定の権限を設定します。
 
-   ![共有レートカード ](assets/share-rate-card-options.png)
+   ![共有レートカード &#x200B;](assets/share-rate-card-options.png)
 
 1. 「[!UICONTROL **保存**]」をクリックします。
 
-   共有について詳しくは、[ オブジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
+   共有について詳しくは、[&#x200B; オブジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
 

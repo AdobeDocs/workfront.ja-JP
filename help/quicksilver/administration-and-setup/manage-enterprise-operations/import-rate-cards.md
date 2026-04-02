@@ -20,9 +20,9 @@ ht-degree: 3%
 
 すべての担当業務とレートを手動で追加する代わりに、テンプレートファイルを使用してExcelでレートカードを作成し、Adobe Workfrontに読み込むことができます。
 
-この記事で説明されているレートカードの例を確認するには、[ サンプルファイル ](assets/rate-cards-sample.zip)をダウンロードしてください。
+この記事で説明されているレートカードの例を確認するには、[&#x200B; サンプルファイル &#x200B;](assets/rate-cards-sample.zip)をダウンロードしてください。
 
-レートカードについて詳しくは、[ レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
+レートカードについて詳しくは、[&#x200B; レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
 ## テンプレートファイルを操作するための重要なルール
 
@@ -51,7 +51,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL レートカード ]へのアクセスを編集</td> 
+   <td>[!UICONTROL レートカード &#x200B;]へのアクセスを編集</td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,7 +82,7 @@ ht-degree: 3%
 
 レートカードをすべて作成し、このタブに表示します。 各行は1つのレートカードを表します。
 
-![ レートカード読み込みテンプレートファイルの「RTCRD」タブ ](assets/rate-card-import-template-tab1.png)
+![&#x200B; レートカード読み込みテンプレートファイルの「RTCRD」タブ &#x200B;](assets/rate-card-import-template-tab1.png)
 
 1. 各行にレートカードの情報を入力します。
 
@@ -114,7 +114,7 @@ ht-degree: 3%
 
 意図しない限り、日付が重複していないことを確認してください。
 
-レートカード読み込みテンプレートファイルの![RATE_RTCRD タブ ](assets/rate-card-import-template-tab2.png)
+レートカード読み込みテンプレートファイルの![RATE_RTCRD タブ &#x200B;](assets/rate-card-import-template-tab2.png)
 
 1. 各行のレートの情報を入力します。
 
@@ -167,7 +167,7 @@ ht-degree: 3%
 
 エイリアスはシステムに追加されますが、このタブの情報に基づいてジョブロールに接続されません。
 
-![ レートカード読み込みテンプレートファイルの「RSALS」タブ ](assets/rsals-tab-rate-card-import.png)
+![&#x200B; レートカード読み込みテンプレートファイルの「RSALS」タブ &#x200B;](assets/rsals-tab-rate-card-import.png)
 
 1. 各行にエイリアスの名前を入力します。
 
@@ -177,7 +177,7 @@ ht-degree: 3%
 
 このタブでは、特定のレートカードのリソースとエイリアスの間の接続を定義できます。
 
-レートカード読み込みテンプレートファイルの「![RCRMET_RTCRD_RSALS」タブ ](assets/rcrmet-tab-rate-card-import.png)
+レートカード読み込みテンプレートファイルの「![RCRMET_RTCRD_RSALS」タブ &#x200B;](assets/rcrmet-tab-rate-card-import.png)
 
 1. 各行の情報を入力します。
 
