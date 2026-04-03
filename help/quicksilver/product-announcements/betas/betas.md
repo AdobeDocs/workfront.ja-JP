@@ -29,7 +29,7 @@ ht-degree: 10%
 
 * プロジェクトのヘルス
 
-  詳しくは、[ プロジェクトの正常性の概要](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)を参照してください。
+  詳しくは、[&#x200B; プロジェクトの正常性の概要](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)を参照してください。
 
 * Workfront Content Reviewer
 

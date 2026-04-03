@@ -22,7 +22,7 @@ ht-degree: 0%
 
 コンテンツレビュアーは、レビューと承認ワークフローの意思決定者となるように設計されていません。 指定されたブランド要件に合致するスコアとレコメンデーションのみが提供されます。
 
-![ コンテンツレビュー担当者からのフィードバック ](assets/ai-reviewer-output.png)
+![&#x200B; コンテンツレビュー担当者からのフィードバック &#x200B;](assets/ai-reviewer-output.png)
 
 ## スコアとフィードバックの表示
 
@@ -34,13 +34,13 @@ ht-degree: 0%
 
    ドキュメントをアップロードするドキュメント領域に移動し、ドキュメントの概要パネルを開きます。
 1. 「**スコア**」をクリックします。
-   ![ ドキュメントのスコアを表示](assets/view-score.png)
+   ![&#x200B; ドキュメントのスコアを表示](assets/view-score.png)
 
 スコアとフィードバックウィンドウで、コンテンツレビュー担当者は、アセットが指定されたガイドラインを満たさない方法を説明します。
-![ コンテンツレビュー担当者のフィードバックには注意が必要](assets/ai-reviewer-needs-attention.png)
+![&#x200B; コンテンツレビュー担当者のフィードバックには注意が必要](assets/ai-reviewer-needs-attention.png)
 
 ## 新しいバージョンをアップロードし、コンテンツレビュアーをもう一度追加します
 
 コンテンツレビュー担当者のフィードバックに基づいてアセットを調整する必要がある場合は、新しいバージョンをアップロードして新しいレビューを開始できます。
 
-詳しくは、[新しいドキュメントのバージョンをアップロードし、承認をリクエスト ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)するを参照してください。
+詳しくは、[新しいドキュメントのバージョンをアップロードし、承認をリクエスト &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)するを参照してください。
