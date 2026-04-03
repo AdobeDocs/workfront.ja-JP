@@ -126,7 +126,7 @@ ht-degree: 59%
    >
    >ログインユーザーのタスクやイシューが常に表示されるとは限らないので、ボードフィルターでは「自分」（ログインユーザー）ワイルドカードを使用しないことをお勧めします。ボードに正しいタスクとイシューを設定したら、ボードをフィルタリングして特定の割り当て先のアイテムを表示できます。詳しくは、[フィルタリングおよびボード内で検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
 
-   フィルターの作成について詳しくは、[ フィルターの作成または編集 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)の記事の「標準ビルダーでのフィルターの作成または編集」の節を参照してください。
+   フィルターの作成について詳しくは、[&#x200B; フィルターの作成または編集 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)の記事の「標準ビルダーでのフィルターの作成または編集」の節を参照してください。
 
 1. フィルターに名前を付け、**[!UICONTROL 保存]**&#x200B;をクリックします。 フィルターは、保存されたフィルターのリストに表示され、自動的に取り込み列に適用されます。
 

@@ -22,7 +22,7 @@ ht-degree: 68%
 
 このタスクビューでは、タスク名列にコードを追加して、プロジェクトの作業分割構造に従ってインデントされたタスクを表示できます。
 
-![ タスクのインデントを表示](assets/view-text-mode-indentation-task-list-350x171.png)
+![&#x200B; タスクのインデントを表示](assets/view-text-mode-indentation-task-list-350x171.png)
 
 ## アクセス要件
 

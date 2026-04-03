@@ -92,7 +92,7 @@ Old:
 
 ## 前提条件
 
-* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 * オブジェクトには、カスタムフォームを添付する必要があります。
 
   カスタムフォームをオブジェクトに追加する方法について詳しくは、[オブジェクトにカスタムフォームを追加する](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
@@ -104,7 +104,7 @@ Old:
 カスタムフォームを持つことのできるオブジェクトについて詳しくは、[カスタムフォームの概要](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)を参照してください。
 
 1. 反復のリストを除き、カスタムフォームの情報を編集するオブジェクトのリストに移動します。
-1. リスト内の1つまたは複数のオブジェクトを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. リスト内の1つまたは複数のオブジェクトを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 1. **編集&lt; オブジェクト >** ボックス内の左側のパネルの&#x200B;**カスタム Forms**&#x200B;をクリックします。
 
    オブジェクトにカスタムフォームが添付されている場合、フォームの名前が「**カスタムForms**」セクションにエリアとして表示されます。
@@ -126,7 +126,7 @@ Old:
    >
    >複数の選択を許可するフィールドでは、選択できるオプションの数が制限される場合があります。 チェックボックスと複数選択ドロップダウンの選択範囲は5000に制限されています。
 
-   すべてのフィールドタイプについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   すべてのフィールドタイプについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 「**保存**」をクリックします。
 
@@ -134,7 +134,7 @@ Old:
    >
    >フォームを保存するには、まず、フォーム上のすべての必須フィールドに入力する必要があります。必須フィールドの名前の後には、アスタリスクが付きます。
    >
-   >![必須カスタムフィールド ](assets/nwe-required-custom-field.png)
+   >![必須カスタムフィールド &#x200B;](assets/nwe-required-custom-field.png)
 
    オブジェクト内の計算カスタムフィールドで参照される別のオブジェクト内のデータを変更した場合、その変更はオブジェクトに自動的には反映されません。オブジェクト内のすべての計算カスタムフィールドを手動で更新する方法については、[オブジェクトのすべての計算カスタムフィールドを再計算する方法](#recalculate-all-calculated-custom-fields-for-an-object)を参照してください。
 
@@ -223,7 +223,7 @@ Old:
    * 費用
 1. **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**カスタム式の再計算**&#x200B;をクリックします。
 
-![ エクスプレッションの再計算タイムラインの財務ドロップダウン （プロジェクトリスト内） ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![&#x200B; エクスプレッションの再計算タイムラインの財務ドロップダウン （プロジェクトリスト内） &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 Workfrontは、選択したすべてのプロジェクトのすべてのカスタムフィールドを即座に計算します。
 すべてのオブジェクトのすべてのリストにこの機能があるわけではありません。

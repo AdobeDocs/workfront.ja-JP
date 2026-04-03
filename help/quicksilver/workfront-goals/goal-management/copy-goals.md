@@ -230,7 +230,7 @@ To copy goals in the Production environment:
 -->
 
 
-1. 目標に移動し、**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックしてから、**目標をコピー**&#x200B;をクリックします。
+1. 目標に移動し、**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**目標をコピー**&#x200B;をクリックします。
 
    ![目標ボックスをコピー](assets/copy-goal-box-unshimmed.png)
 

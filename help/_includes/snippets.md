@@ -57,7 +57,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 >
 >このページで説明する手順は、まだ [!DNL Adobe Experience Cloud] にオンボーディングされていない組織にのみ適用されます。
 >
-> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。
+> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。
 
 ## 手順 1 - メインメニューのみをクリックする {#step1-click-main-menu}
 
@@ -65,7 +65,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 手順1 - メインメニューシェルのみをクリック {#step1-click-main-menu-shell-only}
 
-1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
+1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
 
 ## 手順 1 - メインメニューをクリックしてから次をクリックします {#step1-click-mm-then-click}
 
@@ -107,7 +107,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 >
 >従来のフォームビルダーは、2024年7月18日（PT）の24.7 リリースで使用できなくなります。 フォームデザイナーは、Adobe Workfrontでカスタムフォームを作成および編集するためのデフォルトのエクスペリエンスになりました。
 >
->詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+>詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 適切なグループをチームに関連付ける {#right-group-team}
 
@@ -174,7 +174,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 手順 1 - ホームに進む - {#step1-to-home}
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
 
 ## ホームアイコンをクリックする {#click-home}
 

@@ -20,10 +20,10 @@ ht-degree: 51%
 
 <!-- Audited: 5/2025 -->
 
-[!UICONTROL  スクラム ] アジャイルストーリーボードは、完了ステータスとバーンダウンチャートとともに表示されます。 これらのアジャイルコンポーネントは、[!UICONTROL Adobe Workfront]の次の状況で使用できます。
+[!UICONTROL &#x200B; スクラム &#x200B;] アジャイルストーリーボードは、完了ステータスとバーンダウンチャートとともに表示されます。 これらのアジャイルコンポーネントは、[!UICONTROL Adobe Workfront]の次の状況で使用できます。
 
-* ヒントが得られると思います。 純粋なアジャイル環境（バックログとイテレーションを含む）でアジャイルストーリーボード、バーンダウンチャート、完了ステータスを使用する方法について詳しくは、[ アジャイル環境での作業](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)を参照してください。
-* アジャイルビューでプロジェクトを表示する場合。 既存のプロジェクト内でアジャイルストーリーボード、バーンダウンチャート、完了ステータスを活用する方法について詳しくは、[ アジャイルビューでのプロジェクトの管理](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
+* ヒントが得られると思います。 純粋なアジャイル環境（バックログとイテレーションを含む）でアジャイルストーリーボード、バーンダウンチャート、完了ステータスを使用する方法について詳しくは、[&#x200B; アジャイル環境での作業](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)を参照してください。
+* アジャイルビューでプロジェクトを表示する場合。 既存のプロジェクト内でアジャイルストーリーボード、バーンダウンチャート、完了ステータスを活用する方法について詳しくは、[&#x200B; アジャイルビューでのプロジェクトの管理](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
 
 ![アジャイルイテレーション](assets/agile-iteration-with-callouts.png)
 
@@ -75,4 +75,4 @@ ht-degree: 51%
 
 この同じロジックは、第 2 レベルのサブタスク（サブタスクのサブタスク）にも適用されます。サブタスクに1つ以上のセカンドレベルサブタスクが同じアジャイルチームに割り当てられ、イテレーションに属している場合、バックログには2番目のレベルサブタスクのみが表示されます。
 
-バックログについて詳しくは、[ アジャイルバックログの管理](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
+バックログについて詳しくは、[&#x200B; アジャイルバックログの管理](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。

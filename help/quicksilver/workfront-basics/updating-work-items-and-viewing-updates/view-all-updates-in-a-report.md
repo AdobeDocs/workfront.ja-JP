@@ -27,7 +27,7 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->レポートを作成して、ジャーナルエントリレポートを使用してプレビューでオブジェクトの更新を表示できます。詳しくは、「[ ジャーナルエントリレポートを使用した更新領域に関するレポート ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
+>レポートを作成して、ジャーナルエントリレポートを使用してプレビューでオブジェクトの更新を表示できます。詳しくは、「[&#x200B; ジャーナルエントリレポートを使用した更新領域に関するレポート &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
 
 ## アクセス要件
 
@@ -119,7 +119,7 @@ Old:
 1. （オプション）「**フィルター**」をクリックしてから、**フィルタールールを追加**&#x200B;します。
 1. **Note** > **Note Text** > **Is Not Blank**&#x200B;のフィルターを追加します。
 
-   ![ メモのテキストフィールドが空白でないフィルター](assets/note-note-text-not-blank-filter.png)
+   ![&#x200B; メモのテキストフィールドが空白でないフィルター](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >

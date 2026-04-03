@@ -415,7 +415,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 次の情報では、実稼動環境に新しいコメントエクスペリエンスをリリースするための主要なマイルストーンを含むタイムラインについて説明します。 以下のマイルストーンに加えて、小さな機能強化も継続して行いコメントエクスペリエンスを改善し続けます。
 
-ベータ版期間終了後の新しいコメント機能のリリースについて詳しくは、現在のリリースの概要ページを参照してください。 詳しくは、[製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md)を参照してください。
+ベータ版期間終了後の新しいコメント機能のリリースについて詳しくは、現在のリリースの概要ページを参照してください。 詳しくは、[製品リリース &#x200B;](/help/quicksilver/product-announcements/product-releases/product-releases.md)を参照してください。
 
 新しいコメント機能のリリースに関するスケジュールは次のとおりです。
 

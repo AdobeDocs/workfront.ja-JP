@@ -69,7 +69,7 @@ ht-degree: 92%
 
    * **[!UICONTROL これはアジャイルチームです]:**&#x200B;この新しいチームをアジャイルチームに設定する場合は、このオプションを選択します。
 
-     アジャイルチームについて詳しくは、[ アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
+     アジャイルチームについて詳しくは、[&#x200B; アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
 
    * **[!UICONTROL チームメンバー]：**&#x200B;チームに追加するユーザーの名前を入力し始め、ドロップダウンリストに表示されたら名前を選択します。
 

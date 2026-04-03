@@ -87,14 +87,14 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
 
 ## クイックフィルターをリストに適用する
 
-1. クイックフィルターをサポートするリストまたはレポートに移動し、ツールバーの&#x200B;**[!UICONTROL クイックフィルター] アイコン** ![ クイックフィルターアイコン ](assets/qs-quick-filter-icon.png)をクリックします。
+1. クイックフィルターをサポートするリストまたはレポートに移動し、ツールバーの&#x200B;**[!UICONTROL クイックフィルター] アイコン** ![&#x200B; クイックフィルターアイコン &#x200B;](assets/qs-quick-filter-icon.png)をクリックします。
 
    または
 
@@ -122,7 +122,7 @@ ht-degree: 88%
    1. リスト内の項目をすべて選択するか、複数選択して、「**[!UICONTROL 編集]**」をクリックして、項目を一括編集します。
    1. 編集が完了したら、「**[!UICONTROL 変更を保存]**」をクリックします。
 
-1. （オプション）クイックフィルターで見つかった項目を書き出すには、リスト内の項目をすべて選択してから、**[!UICONTROL 書き出し]** アイコン ![書き出しアイコン ](assets/export.png)をクリックします。
+1. （オプション）クイックフィルターで見つかった項目を書き出すには、リスト内の項目をすべて選択してから、**[!UICONTROL 書き出し]** アイコン ![書き出しアイコン &#x200B;](assets/export.png)をクリックします。
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

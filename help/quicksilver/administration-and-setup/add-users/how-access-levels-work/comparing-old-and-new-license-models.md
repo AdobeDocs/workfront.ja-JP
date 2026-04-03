@@ -24,7 +24,7 @@ ht-degree: 44%
 Adobe Workfrontには、次の2種類のアクセスレベルがあります。
 
 * 新しいアクセスレベル。 詳しくは、[新しいアクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)を参照してください。
-* 従来のアクセスレベル： 詳しくは、[ アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
+* 従来のアクセスレベル： 詳しくは、[&#x200B; アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
 
 次の表は、従来のライセンスモデルと新しいライセンスモデルでライセンスで使用できる機能を示しています。
 

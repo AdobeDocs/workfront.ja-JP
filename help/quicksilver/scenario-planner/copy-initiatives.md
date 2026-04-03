@@ -124,9 +124,9 @@ Old:
    * コピーしたイニシアチブはプロジェクトに接続されません。
    * 1 回以上公開されているプロジェクトの場合、プロジェクトの [!DNL Scenario Planner] セクションは変更されません。
 
-  プロジェクトへのイニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
+  プロジェクトへのイニシアチブの公開について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
 
-  プロジェクトへの読み込みによるイニシアチブの作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) でプランにプロジェクトを読み込むを参照してください。
+  プロジェクトへの読み込みによるイニシアチブの作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) でプランにプロジェクトを読み込むを参照してください。
 
 ## イニシアチブをコピーする
 
@@ -137,7 +137,7 @@ Old:
 1. プランの名前をクリックして開き、コピーするイニシアチブを確認します。
 1. コピーするイニシアチブの左側にあるボックスを選択し、プランの下部に表示されるメニューから、「**[!UICONTROL コピー]**」をクリックします。
 
-   ![ イニシアチブのコピー](assets/bottom-manage-initiative-menu-350x45.png)
+   ![&#x200B; イニシアチブのコピー](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront] はイニシアチブをすぐにコピーし、最後に選択したイニシアチブの下に配置します。
 
@@ -155,6 +155,6 @@ Old:
 
 1. （オプション）新しく作成したイニシアチブの優先度を更新します。
 
-   イニシアチブの優先順位について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md) のイニシアチブ優先度を更新を参照してください。
+   イニシアチブの優先順位について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md) のイニシアチブ優先度を更新を参照してください。
 
 1. 「**[!UICONTROL プランを保存]**」をクリックして、変更を保存します。

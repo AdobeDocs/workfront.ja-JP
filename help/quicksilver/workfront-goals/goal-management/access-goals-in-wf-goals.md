@@ -202,12 +202,12 @@ To access an individual goal in the Production environment:
 
 デフォルトでは、目標リストが表示されます。
 
-![目標リスト ](assets/goal-list-unshimmed.png)
+![目標リスト &#x200B;](assets/goal-list-unshimmed.png)
 
 1. リストで目標の名前をクリックします。
 目標のページが表示されます。
-   ![目標ページ ](assets/goal-page-unshimmed.png)
-1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックして、目標をさらに編集または共有します。
+   ![目標ページ &#x200B;](assets/goal-page-unshimmed.png)
+1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックして、目標をさらに編集または共有します。
 1. 左側のパネルにある「**目標の詳細**」をクリックして、目標に関する情報を編集します。詳しくは、[Adobe Workfront Goals の目標の詳細セクションで目標を更新](../goal-management/update-goals-in-goal-details-panel.md)を参照してください。
 
 

@@ -71,7 +71,7 @@ ht-degree: 51%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -184,11 +184,11 @@ Old:
 
    レコードの&#x200B;**詳細**&#x200B;ページが開きます。デフォルトではコメントエリアが右側のパネルに開きます。
 
-1. （条件付き）右側のパネルがデフォルトで開かない場合は、右上隅の「**コメントを表示** ![ コメントを表示](assets/show-comments-icon.png)」アイコンをクリックして、「コメント」セクションを開きます。
+1. （条件付き）右側のパネルがデフォルトで開かない場合は、右上隅の「**コメントを表示** ![&#x200B; コメントを表示](assets/show-comments-icon.png)」アイコンをクリックして、「コメント」セクションを開きます。
 
 1. **新しいコメント**&#x200B;ボックスにコメントを入力します。
 
-   ![ レコード ](assets/empty-comment-box-on-record.png)の空のコメントボックス
+   ![&#x200B; レコード &#x200B;](assets/empty-comment-box-on-record.png)の空のコメントボックス
 
    >[!TIP]
    >
@@ -197,7 +197,7 @@ Old:
 1. （オプション）変更の取り消しまたはやり直しを行うには、以下のショートカットキーを使用します。
    * CTRL + Z （⌘+z for Mac）で変更を元に戻す
    * CTRL + Y （⌘+y for Mac）で変更をやり直す
-1. （オプションおよび条件付き）Workfront インスタンスがAdobe Unified Experienceの一部である場合は、**@**&#x200B;の後にユーザーまたはチームの名前を追加して、更新でタグ付けします。 詳細については、この記事の「[ レコードに対するコメントに関する考慮事項](#considerations-about-commenting-on-a-record)」を参照してください。
+1. （オプションおよび条件付き）Workfront インスタンスがAdobe Unified Experienceの一部である場合は、**@**&#x200B;の後にユーザーまたはチームの名前を追加して、更新でタグ付けします。 詳細については、この記事の「[&#x200B; レコードに対するコメントに関する考慮事項](#considerations-about-commenting-on-a-record)」を参照してください。
 
 1. （オプション）リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字の追加、またはアップデートへのリンクを行い、コンテンツを強化します。
 
@@ -211,7 +211,7 @@ Old:
    Workfront Planning レコードを含むオブジェクトの更新について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 1. （オプション）コメントの右上隅にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックしてコメントを削除します。
-1. （オプション）「**コメントを非表示**」アイコン「![ コメントを非表示にする](assets/hide-comments-icon.png)」をクリックして、右側のパネルを閉じます。
+1. （オプション）「**コメントを非表示**」アイコン「![&#x200B; コメントを非表示にする](assets/hide-comments-icon.png)」をクリックして、右側のパネルを閉じます。
 
 <!--
       >[!TIP]

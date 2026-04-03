@@ -134,7 +134,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>プログラムのリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL クリックしてポートフォリオ ] &gt;[!UICONTROL プログラム ]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL クリックしてポートフォリオ &#x200B;] &gt;[!UICONTROL プログラム &#x200B;]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programs]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -143,7 +143,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROLはポートフォリオをクリック ] &gt;[!UICONTROL Projects]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL はポートフォリオをクリック &#x200B;] &gt;[!UICONTROL Projects]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL click a portfolio] &gt;[!UICONTROL Programs] &gt;[!UICONTROL click a program] &gt;[!UICONTROL Projects]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -151,9 +151,9 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>タスクのリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt; [!UICONTROL タスク ]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL タスク ] &gt;[!UICONTROL タスクをクリック ] &gt;[!UICONTROL タスク ]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL タスク ] &gt;[!UICONTROL タスクをクリック ] &gt; [!UICONTROL先行者*]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt; [!UICONTROL タスク &#x200B;]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL タスク &#x200B;] &gt;[!UICONTROL タスクをクリック &#x200B;] &gt;[!UICONTROL タスク &#x200B;]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL タスク &#x200B;] &gt;[!UICONTROL タスクをクリック &#x200B;] &gt; [!UICONTROL 先行者*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -198,10 +198,10 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROLはポートフォリオをクリック ] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL はポートフォリオをクリック &#x200B;] &gt; [!UICONTROL Documents]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL click a portfolio] &gt;[!UICONTROL Programs] &gt;[!UICONTROL click a program] &gt;[!UICONTROL documents]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL ドキュメント ]</p> </li> 
-     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL タスク ] &gt;[!UICONTROL タスクをクリック ] &gt; [!UICONTROL ドキュメント ]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL ドキュメント &#x200B;]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL タスク &#x200B;] &gt;[!UICONTROL タスクをクリック &#x200B;] &gt; [!UICONTROL ドキュメント &#x200B;]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click] a project &gt; [!UICONTROL Issues] &gt;[!UICONTROL click an issue] &gt; [!UICONTROL documents]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -209,35 +209,35 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>タイムシートのリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL タイムシート ] &gt; [!UICONTROL All タイムシート ]*</p> </li> 
+     <li> <p>[!UICONTROL タイムシート &#x200B;] &gt; [!UICONTROL All タイムシート &#x200B;]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>請求料金のリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL請求率*]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL 請求率*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>請求記録のリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL プロジェクト ] &gt; [!UICONTROL プロジェクトをクリック ] &gt; [!UICONTROL請求記録]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt; [!UICONTROL プロジェクトをクリック &#x200B;] &gt; [!UICONTROL 請求記録]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>リスクのリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL プロジェクトをクリック ] &gt;[!UICONTROL リスク ]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL プロジェクトをクリック &#x200B;] &gt;[!UICONTROL リスク &#x200B;]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>費用のリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL プロジェクト ] &gt;[!UICONTROL クリック ] プロジェクト &gt;[!UICONTROL費用]</p> </li> 
+     <li> <p>[!UICONTROL プロジェクト &#x200B;] &gt;[!UICONTROL クリック &#x200B;] プロジェクト &gt;[!UICONTROL 費用]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Expenses]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -245,7 +245,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td>時間エントリのリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL クリック ] プロジェクト</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL クリック &#x200B;] プロジェクト</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Hours]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] a project &gt;[!UICONTROL Issues] &gt;[!UICONTROL click] an issue &gt;[!UICONTROL Hours]</p> </li>
     </ul> </td> 
@@ -262,7 +262,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Setup]／[!UICONTROL Groups]</p> </li>
-     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL親グループをクリック ] &gt;[!UICONTROL Subgroups] </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL 親グループをクリック &#x200B;] &gt;[!UICONTROL Subgroups] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -335,11 +335,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 これらの要素は、デフォルトで各リストの上部に表示されます。固定されており、リストをスクロールしても移動しません。各要素を識別するアイコンにポインタを合わせます。
 
-![ リスト要素](assets/nwe-list-elements.png)
+![&#x200B; リスト要素](assets/nwe-list-elements.png)
 
 次のエリアでリスト要素をカスタマイズし、他のユーザーと共有できます。
 
-* システムのデフォルトリスト（この記事の[ [!DNL Adobe Workfront]](#default-workfront-lists) のリストの基本を学ぶの節を参照）
+* システムのデフォルトリスト（この記事の[&#x200B; [!DNL Adobe Workfront]](#default-workfront-lists) のリストの基本を学ぶの節を参照）
 * 自分と共有されているレポート
 
 リストの構成要素は、レポートの構成要素と同じです。
@@ -628,11 +628,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 * 標準リスト
 
-  ![標準プロジェクトリスト ](assets/standard-list-screen-shot-gray-groupings.png)
+  ![標準プロジェクトリスト &#x200B;](assets/standard-list-screen-shot-gray-groupings.png)
 
 * 拡張リスト
 
-  ![強化リスト ](assets/enhanced-status-list.png)
+  ![強化リスト &#x200B;](assets/enhanced-status-list.png)
 
 強化された各リストの機能は、アクセス元のページによって異なります。
 

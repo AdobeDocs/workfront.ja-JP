@@ -26,7 +26,7 @@ Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
-[!DNL Adobe Workfront]管理者は、システムの[!UICONTROL  リソース管理]環境設定を設定できます。 これらの環境設定は、ユーザーの時間数、FTE 使用可能時間またはキャパシティが [!DNL Workfront] リソーススケジュールおよび計画ツールでどのように計算されるかを決定します。
+[!DNL Adobe Workfront]管理者は、システムの[!UICONTROL &#x200B; リソース管理]環境設定を設定できます。 これらの環境設定は、ユーザーの時間数、FTE 使用可能時間またはキャパシティが [!DNL Workfront] リソーススケジュールおよび計画ツールでどのように計算されるかを決定します。
 
 ## アクセス要件
 
@@ -83,7 +83,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
    * **既定のスケジュール**: [!DNL Workfront]では、システムの既定のスケジュールとユーザーの個別のFTEを使用して、リソース管理ツールでユーザーの利用可能時間を計算します。
 
-     詳しくは、[ スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)および[ ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+     詳しくは、[&#x200B; スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)および[&#x200B; ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
      このオプションを選択すると、Workfrontは次の数式を使用してユーザーの利用可能時間を計算します。
 
@@ -133,7 +133,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
    * **ユーザーのスケジュール**：[!DNL Workfront] では、ユーザーのスケジュールとシステムの[!UICONTROL デフォルトのスケジュール]を使用して、リソース管理ツールでユーザーの利用可能な [!UICONTROL FTE] 値を計算します。使用可能な時間は、ユーザーのスケジュールに従って計算され、ユーザーの[!UICONTROL FTE]の値は無視されます。 これはデフォルトの設定です。
 
-     詳しくは、[ スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)および[ ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+     詳しくは、[&#x200B; スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)および[&#x200B; ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
      >[!NOTE]
      >

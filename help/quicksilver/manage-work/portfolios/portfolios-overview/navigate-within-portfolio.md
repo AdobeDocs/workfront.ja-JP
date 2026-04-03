@@ -56,7 +56,7 @@ ht-degree: 75%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -99,7 +99,7 @@ Old:
    * **[!UICONTROL 所有ポートフォリオ]**：[!UICONTROL ポートフォリオ管理者]に指定されたポートフォリオのリストを含みます。
    * **[!UICONTROL すべて]**：少なくともビューにアクセスできるすべてのポートフォリオが含まれます。
 
-     ポートフォリオへのアクセスについて詳しくは、[ アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
+     ポートフォリオへのアクセスについて詳しくは、[&#x200B; アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
 ポートフォリオに対する権限について詳しくは、[ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください。
 
      新しいポートフォリオを追加するには、[ポートフォリオの作成](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)を参照してください。
@@ -110,7 +110,7 @@ Old:
    * ポートフォリオが[!UICONTROL 予定通り]かどうか
    * ポートフォリオが[!UICONTROL 予算通り]かどうか
    * [!UICONTROL 投資回収率]（ROI）
-   * ポートフォリオの [!UICONTROL  整合性]
+   * ポートフォリオの [!UICONTROL &#x200B; 整合性]
    * ポートフォリオの[!UICONTROL 純価]
 
 1. （オプション）左側のパネルの「**[!UICONTROL プロジェクト]**」をクリックして、選択したポートフォリオに関連付けられたプロジェクトを表示し、次のいずれかのフィルターを&#x200B;**[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューから選択します。
@@ -133,14 +133,14 @@ Old:
      フィルターの作成について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 
-1. 左側のパネルの&#x200B;**[!UICONTROL プログラム]**をクリックして、ポートフォリオ内にプログラムを作成するか、既存のプログラムを管理します。
+1. 左側のパネルの&#x200B;**[!UICONTROL プログラム]**&#x200B;をクリックして、ポートフォリオ内にプログラムを作成するか、既存のプログラムを管理します。
 プログラムについて詳しくは、[プログラムの作成と管理](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)を参照してください。
 
 1. （オプション）**[!UICONTROL ポートフォリオの詳細]**&#x200B;領域を展開して、「**[!UICONTROL 概要]**」または「**[!UICONTROL カスタムフォーム]**」をクリックし、ポートフォリオに関する情報を編集します。
 
 1. （オプション）左側のパネルの「**[!UICONTROL ポートフォリオ最適化]**」をクリックして、ポートフォリオのパフォーマンスを最適化します。
 
-   ![ プロジェクトを含むPortfolio optimizer](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![&#x200B; プロジェクトを含むPortfolio optimizer](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
@@ -162,4 +162,4 @@ Old:
 
    * 他のユーザーとポートフォリオを共有します。
 
-1. （オプション）ポートフォリオ名の右側にある&#x200B;**星** アイコン ![星アイコン ](assets/qs-star-icon-favorites-39x38.png)をクリックして、お気に入りのリストにポートフォリオを追加します。
+1. （オプション）ポートフォリオ名の右側にある&#x200B;**星** アイコン ![星アイコン &#x200B;](assets/qs-star-icon-favorites-39x38.png)をクリックして、お気に入りのリストにポートフォリオを追加します。

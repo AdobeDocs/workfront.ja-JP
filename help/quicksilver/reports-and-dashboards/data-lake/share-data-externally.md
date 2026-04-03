@@ -92,7 +92,7 @@ Data Connect データレイクを外部製品に接続するには、まず、[
 
 1. 左側のパネルで、**システム**/**データ接続**&#x200B;をクリックします。
 
-1. **許可されたIP** タブをクリックし、削除するIP アドレスの右側にあるゴミ箱アイコン ![削除アイコン ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)をクリックします。
+1. **許可されたIP** タブをクリックし、削除するIP アドレスの右側にあるゴミ箱アイコン ![削除アイコン &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)をクリックします。
 
 1. 表示されるウィンドウで、チェックボックスをオンにして確認し、**削除**&#x200B;をクリックします。
 

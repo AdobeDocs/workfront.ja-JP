@@ -53,7 +53,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -191,4 +191,4 @@ Old:
 
    イシューアイコンは、イシューがあるプロジェクトの&#x200B;**ステータスアイコン**&#x200B;列に表示されます。
 
-   ![問題アイコン ](assets/project-list-with-issue-icon-350x132.png)を含むプロジェクトリスト
+   ![問題アイコン &#x200B;](assets/project-list-with-issue-icon-350x132.png)を含むプロジェクトリスト

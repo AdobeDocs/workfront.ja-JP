@@ -48,4 +48,4 @@ Adobe Workfrontには、作業を容易に達成できるように、AdobeのAI 
 
 Workfront管理者は、組織のAI アシスタントを有効または無効にできます。 AI アシスタントは、Select プラン、Prime プラン、Ultimate プランのインスタンスで利用できます。
 
-WorkfrontのAI アシスタントについて詳しくは、[AI アシスタント：記事インデックス ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)を参照してください。
+WorkfrontのAI アシスタントについて詳しくは、[AI アシスタント：記事インデックス &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)を参照してください。

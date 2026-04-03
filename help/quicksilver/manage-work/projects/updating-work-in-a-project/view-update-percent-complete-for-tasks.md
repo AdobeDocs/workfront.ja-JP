@@ -104,7 +104,7 @@ Old:
 
 * **タスクヘッダー**: タスクヘッダーのタスクの完了率を更新できます。
 
-  ![ ヘッダーの割合を更新](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![&#x200B; ヘッダーの割合を更新](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 * **タスクの概要パネル内**：次のエリアでタスクを表示する際に、概要パネルの上部でタスクの完了率を更新できます。
 
@@ -112,13 +112,13 @@ Old:
    * タイムシート
    * ワークロードバランサー
 
-  ![ タスクの概要の更新率が強調表示されました](assets/update-percent-complete-in-task-summary-highlighted.png)
+  ![&#x200B; タスクの概要の更新率が強調表示されました](assets/update-percent-complete-in-task-summary-highlighted.png)
 
   詳しくは、[概要について](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください
 
 * **ホーム**: タスクまたはイシューの完了率は、ホーム領域の概要パネルまたはマイワークウィジェットから更新できます。
 
-  詳しくは、[ ホームの使用を開始する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)を参照してください。
+  詳しくは、[&#x200B; ホームの使用を開始する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)を参照してください。
 
 ## タスクの完了率を更新する際の考慮事項
 
@@ -134,7 +134,7 @@ Old:
 
 1. タスクの完了率を更新する領域のいずれかに移動します。
 
-   詳しくは、この記事の「[ タスクの完了率を更新できる領域](#areas-where-you-can-update-the-percent-complete-of-a-task)」の節を参照してください。
+   詳しくは、この記事の「[&#x200B; タスクの完了率を更新できる領域](#areas-where-you-can-update-the-percent-complete-of-a-task)」の節を参照してください。
 
 1. 完了率を更新するタスクの「**完了率**」フィールドを見つけます。
 

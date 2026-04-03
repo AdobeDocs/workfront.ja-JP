@@ -113,7 +113,7 @@ Old:
 
 1. プランへのリンクをクリックします。
 
-   ![ プランに対する権限の要求](assets/request-access-to-plan-350x277.png)
+   ![&#x200B; プランに対する権限の要求](assets/request-access-to-plan-350x277.png)
 
 1. **[!UICONTROL アクセス権をリクエスト]**&#x200B;ドロップダウンメニューで、付与する権限のレベルを指定します。次の中から選択します。
 
@@ -122,20 +122,20 @@ Old:
 
    [!DNL Scenario Planner] へのアクセスレベルよりも高い権限をリクエストすることはできません。例えば、[!DNL Scenario Planner] への表示アクセス権がある場合、[!UICONTROL 管理]権限をリクエストすることはできません。
 
-   様々なレベルの権限について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) でプランを共有を参照してください。
+   様々なレベルの権限について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) でプランを共有を参照してください。
 
-   Workfront 管理者が [!DNL Scenario Planner] へのアクセスを管理する方法について詳しくは、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権を付与を参照してください。
+   Workfront 管理者が [!DNL Scenario Planner] へのアクセスを管理する方法について詳しくは、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権を付与を参照してください。
 
 1. （オプション）「**[!UICONTROL コメントを残すボックス]**」にコメントまたはリクエストを入力し、「**[!UICONTROL アクセス権をリクエスト]**」をクリックします。
 
    次の処理が行われます。
 
    * [!DNL Workfront] はプラン所有者にメール通知を送信し、プラン所有者はリクエストされた権限を付与できます。\
-     ![ アクセスを要求メール通知](assets/request-access-to-plan-email-350x156.png)
+     ![&#x200B; アクセスを要求メール通知](assets/request-access-to-plan-email-350x156.png)
 
    * プラン所有者がリクエストされた権限を付与すると、権限が付与されたことを知らせるメールが届きます（[!DNL Workfront] 管理者がシステムで「ユーザー宛オブジェクトの共有」通知を有効にし、ユーザーがプロファイルで「[!UICONTROL 誰かが自分とオブジェクトを共有]」メール通知を有効にしている場合）。
 
-     ![許可された電子メールへのアクセス ](assets/access-granted-to-plan-email-350x172.png)
+     ![許可された電子メールへのアクセス &#x200B;](assets/access-granted-to-plan-email-350x172.png)
 
    * また、[!UICONTROL ホーム]領域と [!DNL Workfront] モバイルアプリからもプランへの権限を付与できます。
 

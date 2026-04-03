@@ -92,7 +92,7 @@ Old
 
 1. **[!UICONTROL 最適化]**&#x200B;アイコンをクリックします。
 
-   ![最適化アイコン ](assets/optimize-icon-portfolio-optimizer.png)
+   ![最適化アイコン &#x200B;](assets/optimize-icon-portfolio-optimizer.png)
 
    プロジェクトのスコア付けに使用できるカテゴリが、[!UICONTROL 最適化]アイコンの左側に表示されます。
 

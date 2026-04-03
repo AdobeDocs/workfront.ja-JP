@@ -61,13 +61,13 @@ ht-degree: 54%
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. ドキュメント領域の上にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete.png)をクリックします。
+1. ドキュメント領域の上にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
 
 1. 表示されるボックスで、「**はい、削除します**」をクリックして確定します。
 
    システム管理者またはグループ管理者は、[削除した項目を復元](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)で説明されているように、ドキュメントを削除してから 30 日以内は復元できます。
 
-   ![ ドキュメントの削除](assets/delete-documents-legacy.png)
+   ![&#x200B; ドキュメントの削除](assets/delete-documents-legacy.png)
 
 
 ## 新規ドキュメント領域でのドキュメントの削除
@@ -84,4 +84,4 @@ ht-degree: 54%
 
    システム管理者またはグループ管理者は、[削除した項目を復元](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)で説明されているように、ドキュメントを削除してから 30 日以内は復元できます。
 
-   ![ ドキュメントの削除](assets/delete-documents-new.png)
+   ![&#x200B; ドキュメントの削除](assets/delete-documents-new.png)

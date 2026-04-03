@@ -148,4 +148,4 @@ EST ユーザーは、午前9:00時（ESTが正午）に開始するようにス
 
 設定した時刻がタイムゾーンの異なるユーザー向けに [!DNL Workfront] によってオブジェクト内で変換されないようにする場合は、オブジェクトに添付するカスタムフォームで、日付フィールドではなくテキストフィールドを使用します。これにより、入力した時刻が、プロジェクトのすべてのメンバーに対して表示されます。
 
-この場合、開発者のタイムゾーンとの時差を計算して作業の開始日時と終了日時を判断できるようにすることをフォームのユーザーに注意することをお勧めします。これは、カスタムフォームに入力する説明文や、そのフィールドのツールヒントに含めることもできます。詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+この場合、開発者のタイムゾーンとの時差を計算して作業の開始日時と終了日時を判断できるようにすることをフォームのユーザーに注意することをお勧めします。これは、カスタムフォームに入力する説明文や、そのフィールドのツールヒントに含めることもできます。詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。

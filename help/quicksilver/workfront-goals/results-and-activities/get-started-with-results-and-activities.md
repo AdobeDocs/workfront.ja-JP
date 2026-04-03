@@ -65,7 +65,7 @@ Old:
 >
 > 目標は、アクティビティ、結果、プロジェクト、連携された目標を、合計 1000 件以上持つことはできません。</span>
 
-この記事では、アクティビティと結果の概要を説明します。目標の調整について詳しくは、[Adobe Workfront Goalsの目標の調整：記事インデックス ](../../workfront-goals/goal-alignment/goal-alignment.md)を参照してください。 プロジェクトを目標に接続する方法について詳しくは、[Adobe Workfront Goals の目標へのプロジェクトの追加](../results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
+この記事では、アクティビティと結果の概要を説明します。目標の調整について詳しくは、[Adobe Workfront Goalsの目標の調整：記事インデックス &#x200B;](../../workfront-goals/goal-alignment/goal-alignment.md)を参照してください。 プロジェクトを目標に接続する方法について詳しくは、[Adobe Workfront Goals の目標へのプロジェクトの追加](../results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
 
 ## 結果の概要
 
@@ -205,7 +205,7 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> ****
+  <tr> **&#x200B;**
    <td>開始値と終了値の間の値の範囲が提供され、これらの値を達成するにはどの程度近いかを示します。終了値に近い値は、目標の進捗状況の値を計算します。 </td> 
    <td>✔</td> 
    <td>✔</td> 

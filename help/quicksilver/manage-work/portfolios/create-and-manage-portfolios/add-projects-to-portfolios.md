@@ -61,7 +61,7 @@ ht-degree: 71%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -98,13 +98,13 @@ Old:
 
 1. ポートフォリオに移動し、左側のパネルで「**[!UICONTROL プロジェクト]**」をクリックします。
 
-   ![ プロジェクトを含むPortfolio](assets/qs-portfolio-with-projects-350x90.png)
+   ![&#x200B; プロジェクトを含むPortfolio](assets/qs-portfolio-with-projects-350x90.png)
 
 1. 「**[!UICONTROL 新規プロジェクト]**」をクリックして、プロジェクトを追加する方法を選択します。
 
    >[!TIP]
    >
-   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
+   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -135,7 +135,7 @@ Old:
     </tbody> 
    </table>
 
-   ![新規プロジェクトのドロップダウン ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![新規プロジェクトのドロップダウン &#x200B;](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. （条件付き）既存のプロジェクトを追加することを選択した場合、「**プロジェクトを追加**」ボックスが開きます。<!--check this after UI changes-->
 

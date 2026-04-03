@@ -60,7 +60,7 @@ ht-degree: 78%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -95,7 +95,7 @@ Old:
 
 プロジェクトレポートを作成して、[!UICONTROL リクエスト済み]のステータスを持つプロジェクトを表示できます。
 
-プロジェクトレポートを作成してプロジェクトの要求を承認する方法について詳しくは、[[!UICONTROL  ビジネスケースを承認]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)の「[ プロジェクトレポートを作成してビジネスケースを承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)」の節を参照してください。
+プロジェクトレポートを作成してプロジェクトの要求を承認する方法について詳しくは、[[!UICONTROL &#x200B; ビジネスケースを承認]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)の「[&#x200B; プロジェクトレポートを作成してビジネスケースを承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)」の節を参照してください。
 
 ## ポートフォリオ内でリクエストされたプロジェクトをレビュー
 
@@ -129,7 +129,7 @@ Old:
 
    * **[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューで、プロジェクトのステータスを他のステータスに変更します。
 
-     ![ プロジェクトのステータスをドロップダウンから変更](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![&#x200B; プロジェクトのステータスをドロップダウンから変更](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
 
 
 

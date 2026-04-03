@@ -71,7 +71,7 @@ ht-degree: 73%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -155,8 +155,8 @@ Old:
 1. 任意のビューから、レコードの名前をクリックします。
 
    レコードのページが開きます。コメントエリアがデフォルトで右パネルに開きます。
-1. **履歴を表示** アイコン ![履歴を表示アイコン ](assets/show-history-icon.png)をクリックします。 レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。
-1. （オプション） **履歴を非表示** アイコン ![履歴を非表示アイコン ](assets/hide-history-icon.png)をクリックして、右側のパネルを閉じます。
+1. **履歴を表示** アイコン ![履歴を表示アイコン &#x200B;](assets/show-history-icon.png)をクリックします。 レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。
+1. （オプション） **履歴を非表示** アイコン ![履歴を非表示アイコン &#x200B;](assets/hide-history-icon.png)をクリックして、右側のパネルを閉じます。
 
 ## 履歴セクションに関する考慮事項
 

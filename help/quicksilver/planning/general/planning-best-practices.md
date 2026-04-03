@@ -29,7 +29,7 @@ ht-degree: 2%
 > 
 >Workfront計画の一般的な詳細については、[Adobe Workfront計画の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 >
->詳しくは、[Adobe Workfront計画のベストプラクティス：記事インデックス ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)の記事を参照することをお勧めします。
+>詳しくは、[Adobe Workfront計画のベストプラクティス：記事インデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)の記事を参照することをお勧めします。
 
 マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。
 

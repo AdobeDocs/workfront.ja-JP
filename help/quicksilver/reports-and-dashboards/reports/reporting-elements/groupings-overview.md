@@ -36,7 +36,7 @@ ht-degree: 85%
 
 デフォルトでは、グループ化はレポートまたはリスト内のグレーのハイライトに表示されます。 レポートまたはリストの結果は、個々のグループの下に、ハイライトなしで表示されます。
 
-![ グループ化の例](assets/grouping-example-blue.png)
+![&#x200B; グループ化の例](assets/grouping-example-blue.png)
 
 1 つのレポートには、最大 3 つのグループを追加できます。マトリックスレポートを作成すると、最大 4 つのグループに分けて情報を整理できます。マトリックスレポートについて詳しくは、[マトリックスレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)を参照してください。
 

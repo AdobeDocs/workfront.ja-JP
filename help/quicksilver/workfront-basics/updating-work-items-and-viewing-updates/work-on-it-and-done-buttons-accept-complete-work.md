@@ -38,7 +38,7 @@ ht-degree: 65%
 
 * タスクまたはイシューが最初に割り当てられ、ステータスが「新規」になると、ボタンは「作業開始」と表示されます。
 
-  ![作業ボタン ](assets/nwe-work-on-it-button.png)
+  ![作業ボタン &#x200B;](assets/nwe-work-on-it-button.png)
 
   >[!TIP]
   >
@@ -46,7 +46,7 @@ ht-degree: 65%
 
 * 「作業を完了」をクリックすると、ボタンが「完了」に変わります。 「作業開始」ボタンにアクセスできる場所について詳しくは、この記事の[「作業開始」と「完了」ボタンを検索する](#locate-the-work-on-it-and-done-button)の節を参照してください。
 
-  ![完了としてマーク ボタン ](assets/nwe-mark-as-done-button-350x122.png)
+  ![完了としてマーク ボタン &#x200B;](assets/nwe-mark-as-done-button-350x122.png)
 
 
 <!--

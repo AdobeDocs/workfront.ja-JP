@@ -172,7 +172,7 @@ Removing goal alignment differs depending on which environment you use.
 
    ![目標の調整を再移動](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. **タイプ：目標** グループで、目標を選択し、リストの上部にある&#x200B;**切断** アイコン ![切断アイコン ](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)をクリックします。
+1. **タイプ：目標** グループで、目標を選択し、リストの上部にある&#x200B;**切断** アイコン ![切断アイコン &#x200B;](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)をクリックします。
 
    連携解除ボックスが表示されます。
 

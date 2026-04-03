@@ -160,7 +160,7 @@ Old:
 
 1. アクティブ化する目標に移動します。目標ページが開きます。
 
-1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](../goal-management/assets/more-icon.png)をクリックし、**アクティブ化**&#x200B;をクリックします。
+1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](../goal-management/assets/more-icon.png)をクリックし、**アクティブ化**&#x200B;をクリックします。
 
    ![その他のメニューが展開されました](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 

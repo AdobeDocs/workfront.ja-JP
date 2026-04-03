@@ -22,15 +22,15 @@ ht-degree: 82%
 
 以下の節を参照すると、[!UICONTROL かんばん]ボードがどのように機能するかをより詳しく理解できます。
 
-K[!UICONTROL anban]手法について詳しくは、[ アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
+K[!UICONTROL anban]手法について詳しくは、[&#x200B; アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
 
-アジャイルチーム [!UICONTROL  カンバン ] ボードから[!DNL Workfront] [!UICONTROL  ボード ]への移行を検討している場合は、[ アジャイルチーム [!UICONTROL  カンバン ] カードを [!DNL Workfront]  ボード ](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)に移行するを参照してください。
+アジャイルチーム [!UICONTROL &#x200B; カンバン &#x200B;] ボードから[!DNL Workfront] [!UICONTROL &#x200B; ボード &#x200B;]への移行を検討している場合は、[&#x200B; アジャイルチーム [!UICONTROL &#x200B; カンバン &#x200B;] カードを [!DNL Workfront]  ボード &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)に移行するを参照してください。
 
 ## [!UICONTROL かんばん]ボードのレイアウトと機能
 
 [!UICONTROL かんばん]ボードは、次の要素で構成されます。
 
-**バックログ列**：現在バックログに残っているすべてのタスクを表示します。この列は、デフォルトでは表示されません。バックログについて詳しくは、[!UICONTROL  カンバン ] ボードに表示する方法を含め、[ アジャイルバックログの管理](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
+**バックログ列**：現在バックログに残っているすべてのタスクを表示します。この列は、デフォルトでは表示されません。バックログについて詳しくは、[!UICONTROL &#x200B; カンバン &#x200B;] ボードに表示する方法を含め、[&#x200B; アジャイルバックログの管理](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
 
 **ストーリーのステータス**：ストーリーがどのステータス列にあるかに基づいて、ストーリーの進行状況を示します。
 

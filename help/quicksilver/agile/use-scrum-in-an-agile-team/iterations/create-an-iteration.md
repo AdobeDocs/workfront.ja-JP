@@ -55,7 +55,7 @@ ht-degree: 68%
 
 1. 「**[!UICONTROL 反復]**」タブで、「**[!UICONTROL 反復を追加]**」をクリックします。
 
-   ![反復を追加をクリック ](assets/click-add-iteration.png)
+   ![反復を追加をクリック &#x200B;](assets/click-add-iteration.png)
 
 1. 以下を指定します。
 
@@ -163,6 +163,6 @@ ht-degree: 68%
 
 [!UICONTROL イテレーション終了日]マイナス（-）[!UICONTROL タスクの期間]は（=）[!UICONTROL タスクの予定開始日]
 
-プロジェクト開始日がイテレーション開始日より後で、プロジェクト終了日がイテレーション終了日より後の場合は、[!UICONTROL  プロジェクト終了日]がイテレーション終了日の代わりに使用されます。
+プロジェクト開始日がイテレーション開始日より後で、プロジェクト終了日がイテレーション終了日より後の場合は、[!UICONTROL &#x200B; プロジェクト終了日]がイテレーション終了日の代わりに使用されます。
 
 個々のスクラムチームが、デフォルトではイテレーション日付よりも、プロジェクト日付を使用するように設定できます。詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事の[作業アイテムをイテレーションに追加する際に日付を適用する方法を設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)を参照してください。

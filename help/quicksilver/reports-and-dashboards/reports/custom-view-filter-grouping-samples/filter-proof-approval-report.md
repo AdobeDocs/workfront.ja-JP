@@ -69,10 +69,10 @@ ht-degree: 48%
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   独自のプルーフ承認レポートを作成するには、右上隅の&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** アイコン ![ メインメニューライン ](assets/lines-main-menu.png)をクリックします。使用可能な場合は、**レポート** ![ レポートアイコン ](assets/reports-in-main-menu.png)をクリックします。
+   独自のプルーフ承認レポートを作成するには、右上隅の&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png)をクリックします。使用可能な場合は、**レポート** ![&#x200B; レポートアイコン &#x200B;](assets/reports-in-main-menu.png)をクリックします。
 
 1. 「**新規レポート**」をクリックします。 オブジェクトタイプのリストが表示されます。
-1. リストの&#x200B;**プルーフ承認**をクリックします。
+1. リストの&#x200B;**プルーフ承認**&#x200B;をクリックします。
 レポートビルダーが開きます。
 1. 「**フィルター**」、「**フィルタールールを追加**」の順にクリックします。
 

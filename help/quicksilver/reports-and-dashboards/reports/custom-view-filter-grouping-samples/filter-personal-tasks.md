@@ -26,7 +26,7 @@ ht-degree: 23%
 
 個人タスクはプロジェクトに関連付けられていませんが、必要に応じてプロジェクトに移動できます。 詳しくは、[個人用タスクの作成](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)を参照してください。
 
-![個人タスクレポート ](assets/personal-tasks-report.png)
+![個人タスクレポート &#x200B;](assets/personal-tasks-report.png)
 
 ## アクセス要件
 

@@ -106,7 +106,7 @@ Old:
 
 ## 前提条件
 
-カスタムフォームをオブジェクトに追加するには、Workfront 管理者または Plan ライセンスと、カスタムフォームへの管理アクセス権を持つユーザーが環境内にカスタムフォームを作成する必要があります。詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームをオブジェクトに追加するには、Workfront 管理者または Plan ライセンスと、カスタムフォームへの管理アクセス権を持つユーザーが環境内にカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## カスタムフォームのオブジェクトへの追加
 
@@ -118,7 +118,7 @@ Old:
 ### オブジェクトを編集してカスタムフォームをオブジェクトに追加 {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. カスタムフォームを追加するオブジェクトに移動します。
-1. **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**編集** ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**編集** ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 1. **カスタムフォーム**／**フォームを追加**&#x200B;をクリックし、ドロップダウンメニューから最大 10 個のフォームを選択します。
 
 1. （オプション）カスタムフォームの編集可能なフィールドの情報を更新します。
@@ -163,11 +163,11 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. オブジェクトのリストに移動します。
 1. リスト内の複数のオブジェクトを選択します。
 
-1. **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
    または
 
-   リストの上部にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+   リストの上部にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 1. 左側のパネルで「**カスタムフォーム**」をクリックします。
 1. **選択**&#x200B;ドロップダウンメニューで、選択したすべてのオブジェクトに関連付けるフォームを選択します。
 

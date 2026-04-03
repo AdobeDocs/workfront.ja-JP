@@ -24,7 +24,7 @@ ht-degree: 18%
 
 Chromium 130.0.6723.152を使用する最新バージョンのElectron 33.3.0でDesktop Viewerをアップデートしました。
 
-デスクトップ校正ビューアのインストールについて詳しくは、[ デスクトップ校正ビューアのインストール ](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)を参照してください。
+デスクトップ校正ビューアのインストールについて詳しくは、[&#x200B; デスクトップ校正ビューアのインストール &#x200B;](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)を参照してください。
 
 
 最新バージョン：2.1.44
@@ -39,4 +39,4 @@ Chromium 130.0.6723.152を使用する最新バージョンのElectron 33.3.0で
 
 新しいAdobe Workfront レビューツールは、すべての一般的なブラウザーでのZIP コンテンツのレビューをサポートしています。 ZIP コンテンツに加えて、新しい拡張機能はURL コンテンツのレビューもサポートし、現在ベータ版です。
 
-新しい拡張機能をインストールするには、[Adobe Workfront レビューツールでインタラクティブコンテンツをレビュー](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)の「[拡張機能をインストール ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)」の節を参照してください。
+新しい拡張機能をインストールするには、[Adobe Workfront レビューツールでインタラクティブコンテンツをレビュー](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)の「[拡張機能をインストール &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)」の節を参照してください。

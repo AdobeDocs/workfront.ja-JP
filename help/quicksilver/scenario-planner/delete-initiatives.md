@@ -110,9 +110,9 @@ Old:
    * イニシアチブはシナリオから削除されますが、[!DNL Scenario Planner]エリアは「[!UICONTROL プロジェクトの詳細]」セクションに残ります。
    * 削除したイニシアチブがシナリオで唯一の公開イニシアチブである場合は、プランが公開されたことを示す指標も削除されます。
 
-     プロジェクトへのイニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
+     プロジェクトへのイニシアチブの公開について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
 
-     プロジェクトの読み込みによるイニシアチブの作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランにプロジェクトを読み込むを参照してください。
+     プロジェクトの読み込みによるイニシアチブの作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランにプロジェクトを読み込むを参照してください。
 
 1 度に 1 つのイニシアチブを削除することも、複数のイニシアチブを一括で削除することもできます。
 
@@ -145,7 +145,7 @@ Old:
 1. 計画の名前をクリックして開き、削除するイニシアチブを確認します。
 1. 削除するイニシアチブの左側にあるボックスを選択し、計画の下部に表示されるメニューから、「**[!UICONTROL 削除]**」、「**[!UICONTROL はい、削除します]**」の順にクリックします。
 
-   ![ イニシアチブメニューの管理](assets/bottom-manage-initiative-menu-350x45.png)
+   ![&#x200B; イニシアチブメニューの管理](assets/bottom-manage-initiative-menu-350x45.png)
 
    イニシアチブとその担当業務およびコスト情報は、プランから削除されます。
 

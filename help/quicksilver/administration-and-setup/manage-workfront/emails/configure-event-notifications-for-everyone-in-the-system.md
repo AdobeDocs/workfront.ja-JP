@@ -86,7 +86,7 @@ ht-degree: 86%
 
    メール通知の件名行のカスタマイズについて詳しくは、[イベント通知のメール件名をカスタマイズする](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)を参照してください。
 
-1. （オプション）メール通知の設定をロック解除して、グループ管理者が自分のグループに対して個別に設定できるようにするには、通知の右側にある「![ ロック切り替え](assets/lock-toggle-button.png)」ボタンをクリックして、ロック解除された位置「![ ロック解除](assets/unlock-toggle-button.png)」に切り替えます。
+1. （オプション）メール通知の設定をロック解除して、グループ管理者が自分のグループに対して個別に設定できるようにするには、通知の右側にある「![&#x200B; ロック切り替え](assets/lock-toggle-button.png)」ボタンをクリックして、ロック解除された位置「![&#x200B; ロック解除](assets/unlock-toggle-button.png)」に切り替えます。
 
    詳しくは、[すべてのグループに対するイベント通知の設定をロックまたはロック解除](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)を参照してください。
 

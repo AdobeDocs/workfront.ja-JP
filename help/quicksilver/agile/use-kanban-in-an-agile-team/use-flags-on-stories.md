@@ -69,12 +69,12 @@ ht-degree: 86%
 
 1. 現在のフラグをクリックし、次のフラグオプションから選択します。
 
-   * **[!UICONTROL トラック ]:** ストーリーは適切なステータスであり、現時点ではアクションを実行する必要はありません。
+   * **[!UICONTROL トラック &#x200B;]:** ストーリーは適切なステータスであり、現時点ではアクションを実行する必要はありません。
 
      かんばんボードの各ストーリーの既定のフラグです。
      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL ブロック済み]：**&#x200B;ストーリーは次のステータスに進めません。ストーリーにこのフラグを設定した場合、ストーリーは WIP 制限にカウントされません。（WIP制限について詳しくは、[ カンバンの設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)を参照してください）。
+   * **[!UICONTROL ブロック済み]：**&#x200B;ストーリーは次のステータスに進めません。ストーリーにこのフラグを設定した場合、ストーリーは WIP 制限にカウントされません。（WIP制限について詳しくは、[&#x200B; カンバンの設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)を参照してください）。
 
      ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
 

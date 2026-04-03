@@ -1,7 +1,7 @@
 ---
 content-type: overview
 navigation-topic: use-the-gantt-chart
-title: '[!UICONTROL  ガント ] チャートの基本を学ぶ'
+title: '[!UICONTROL &#x200B; ガント &#x200B;] チャートの基本を学ぶ'
 description: Adobe Workfront のガントチャートは、タスクやプロジェクトのリストのタイムラインを視覚的に表現します。
 author: Alina
 feature: Work Management
@@ -73,9 +73,9 @@ The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
    * タスクまたはテンプレートタスクに移動し、左パネルの「[!UICONTROL **サブタスク**]」をクリックします。
    * タスクレポート
 
-1. タスクリストの上部にある&#x200B;[!UICONTROL **ガント**] アイコン ![ ガントアイコン ](assets/gantt-icon-nwe.png)をクリックします。
+1. タスクリストの上部にある&#x200B;[!UICONTROL **ガント**] アイコン ![&#x200B; ガントアイコン &#x200B;](assets/gantt-icon-nwe.png)をクリックします。
 
-   ![ タスクリストガント ](assets/task-list-gantt.png)
+   ![&#x200B; タスクリストガント &#x200B;](assets/task-list-gantt.png)
 
    タスクリストの[!UICONTROL ガントチャート]がタスクリストの右側に開きます。
 
@@ -120,7 +120,7 @@ The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 1. プロジェクトリストの上部にある&#x200B;[!UICONTROL **ガント**]&#x200B;アイコンをクリックします。
 
-   ![ プロジェクト リスト ガント ](assets/project-list-gantt.png)
+   ![&#x200B; プロジェクト リスト ガント &#x200B;](assets/project-list-gantt.png)
 
    プロジェクトリストの[!UICONTROL ガントチャート]が開きます。
 

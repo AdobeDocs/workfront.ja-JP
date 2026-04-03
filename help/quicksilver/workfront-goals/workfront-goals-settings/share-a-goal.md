@@ -183,7 +183,7 @@ Old:
 
    目標アクセスボックスが表示されます。
 
-   ![目標アクセス ](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![目標アクセス &#x200B;](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. 次のいずれかの操作を行います。
 

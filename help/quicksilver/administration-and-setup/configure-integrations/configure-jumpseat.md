@@ -92,7 +92,7 @@ ht-degree: 82%
 
 https://{mycompanyname}.jumpseat.io
 
->>
+&#x200B;>>
 
 >[!ENDSHADEBOX]
 

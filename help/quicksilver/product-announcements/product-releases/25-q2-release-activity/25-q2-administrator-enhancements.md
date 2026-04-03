@@ -34,7 +34,7 @@ ht-degree: 29%
 
 検証ロジックの数式エディターを使用すると、複雑なロジック式を作成できます。
 
-詳細については、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
+詳細については、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
 
 ## 計算カスタムフィールドに式が追加されました
 

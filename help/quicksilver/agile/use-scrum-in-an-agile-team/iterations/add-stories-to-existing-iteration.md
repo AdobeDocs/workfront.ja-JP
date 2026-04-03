@@ -19,7 +19,7 @@ ht-degree: 76%
 
 次のいずれかの方法で、イテレーションにストーリーを追加できます。
 
-* 「[ バックログからイテレーションにストーリーを移動する」または「[!UICONTROL  アジャイルバックログの管理]」の「](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) カンバン [ ボード ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)」の節で説明しているように、イテレーション作成後のバックログから
+* 「[&#x200B; バックログからイテレーションにストーリーを移動する」または「[!UICONTROL &#x200B; アジャイルバックログの管理]」の「](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) カンバン [&#x200B; ボード &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)」の節で説明しているように、イテレーション作成後のバックログから
 
 * 個々のタスクまたはイシューの[!UICONTROL 詳細]ページから追加
 * タスクまたはイシューのリストから追加
@@ -97,7 +97,7 @@ ht-degree: 76%
 または
 イテレーションに追加するタスクまたはイシューを含むプロジェクト、レポート、またはダッシュボードに移動します。 次に、1つ以上のタスクまたはイシューを選択します。
 
-1. **[!UICONTROL 詳細]** ![詳細アイコン ](assets/more-icon.png) > **[!UICONTROL 反復に追加]**をクリックします。
+1. **[!UICONTROL 詳細]** ![詳細アイコン &#x200B;](assets/more-icon.png) > **[!UICONTROL 反復に追加]**&#x200B;をクリックします。
 アジャイル以外のチームに割り当てられたタスクやイシューを割り当てることはできません。
 
 1. 「**[!UICONTROL 追加先]**」ボックスで、イテレーションの名前を入力し、リストに表示されたら選択します。

@@ -61,7 +61,7 @@ ht-degree: 94%
 
 カスタムフォームをレポートで参照するには、その前にカスタムフォームが存在する必要があります。
 
-カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## カスタムフォームのコンテンツの参照
 
@@ -70,13 +70,13 @@ ht-degree: 94%
 >[!NOTE]
 >
 >複数のオプションを持つフィールドの場合、非表示のものも含め、レポートのフィルターとプロンプトですべてのオプションを使用できます。\
->複数のオプションを持つカスタムフィールドから選択肢を非表示にする方法について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+>複数のオプションを持つカスタムフィールドから選択肢を非表示にする方法について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 レポートを作成する場合は、フォームのオブジェクトタイプをフィールドソースとして使用し、カスタムフィールドの名前をフィールド名として使用します。
 
 例えば、**コンサルタント**&#x200B;というカスタムフィールドを含むすべてのプロジェクトにカスタムフォームを適用するとします。Olivia Kim がコンサルタントであるプロジェクトをすべてリストするレポートを作成するには、**プロジェクト**&#x200B;のオブジェクトタイプをフィールドソースとして使用し、**コンサルタント**&#x200B;をフィールド名として使用します。フィルタ修飾子を「**次に等しい**」に設定し、Olivia Kim と入力します。
 
-![ コンサルタントフィルター](assets/qs-consultant-filter-example-350x126.png)
+![&#x200B; コンサルタントフィルター](assets/qs-consultant-filter-example-350x126.png)
 
 レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
@@ -105,13 +105,13 @@ ht-degree: 94%
 1. [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
 1. 「**列**」タブで、参照するカスタムフォームの適用先となるオブジェクトタイプを展開し、「**カテゴリ名**」をクリックします。\
    例えば、タスクに関連付けられているすべてのカスタムフォームを表示するには、「**タスク**」フィールドソースを展開して、「**カテゴリ名**」フィールド名をクリックします。\
-   ![ カテゴリ名列](assets/qs-category-name-column-350x267.png)
+   ![&#x200B; カテゴリ名列](assets/qs-category-name-column-350x267.png)
 
 オブジェクトに関連付けられている主要なカスタムフォームのみを表示するには：
 
 1. [カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
 1. 「**列**」タブで、「**カテゴリ**」フィールドソースを展開し、「**名前**」フィールド名をクリックします。\
-   ![ カテゴリ名](assets/qs-category-name-column-2-350x248.png)
+   ![&#x200B; カテゴリ名](assets/qs-category-name-column-2-350x248.png)
 
 ### レポートフィルターでカスタムフォームを参照する {#reference-custom-forms-in-a-report-filter}
 
@@ -119,7 +119,7 @@ ht-degree: 94%
 
 1. [カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
 1. 「**フィルター**」タブで、「**カテゴリ**」を展開し、「**名前**」をクリックします。\
-   ![ カテゴリ名フィルター](assets/qs-categories-name-filter-350x311.png)
+   ![&#x200B; カテゴリ名フィルター](assets/qs-categories-name-filter-350x311.png)
 
 1. 使用する条件修飾子を選択します。
 
@@ -144,7 +144,7 @@ ht-degree: 94%
 
 1. [カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
 1. 「**フィルター**」タブで、「**カテゴリ**」フィールドソースを展開し、「**名前**」フィールド名をクリックします。\
-   ![ カテゴリ名フィルター](assets/qs-category-name-filter-350x437.png)
+   ![&#x200B; カテゴリ名フィルター](assets/qs-category-name-filter-350x437.png)
 
 1. 使用する条件修飾子を選択します。
 
@@ -169,4 +169,4 @@ ht-degree: 94%
 
 1. [カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
 1. 「**グループ化**」タブで、「**カテゴリ**」を展開し、「**名前**」をクリックします。\
-   ![ カテゴリ名のグループ化](assets/qs-category-name-grouping-350x373.png)
+   ![&#x200B; カテゴリ名のグループ化](assets/qs-category-name-grouping-350x373.png)

@@ -59,7 +59,7 @@ ht-degree: 84%
 
 ## 前提条件
 
-1. [!DNL Workfront] インスタンスで使用可能なフィールド内に、カスタム日付フィールドと値が設定されている必要があります。カスタム日付で設定されたカスタムフォームがない場合は、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の手順に従ってください。
+1. [!DNL Workfront] インスタンスで使用可能なフィールド内に、カスタム日付フィールドと値が設定されている必要があります。カスタム日付で設定されたカスタムフォームがない場合は、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の手順に従ってください。
 1. カレンダーに追加する予定のプロジェクト、タスク、またはイシューにカスタムフォームを添付し、日付を指定します。詳しくは、[オブジェクトにカスタムフォームを追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
 
 ## 項目のグループを設定
@@ -68,7 +68,7 @@ ht-degree: 84%
 
 {{step1-to-calendars}}
 
-1. 新しいアイテムのグループを追加するカレンダーを選択し、「その他」メニューをクリックしてから、**編集**します。
+1. 新しいアイテムのグループを追加するカレンダーを選択し、「その他」メニューをクリックしてから、**編集**&#x200B;します。
 または
 **[!UICONTROL +新しいカレンダー]**&#x200B;をクリックし、プロジェクト名を入力してから、**[!UICONTROL 詳細アイテムを追加]**&#x200B;をクリックします。
 
@@ -138,6 +138,6 @@ ht-degree: 84%
    >
    >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
 
-   ![ タスクリベルの設定](assets/set-task-labels.png)
+   ![&#x200B; タスクリベルの設定](assets/set-task-labels.png)
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

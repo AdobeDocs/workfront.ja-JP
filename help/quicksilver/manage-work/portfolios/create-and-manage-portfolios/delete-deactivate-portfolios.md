@@ -106,7 +106,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. 次のいずれかの操作を行います。
 
-   * リストでポートフォリオを選択し、**[!UICONTROL 削除]** アイコン ![削除アイコン ](assets/delete.png)をクリックします。
+   * リストでポートフォリオを選択し、**[!UICONTROL 削除]** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
    * ポートフォリオをクリックして開き、ポートフォリオ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックしてから、**Portfolio**&#x200B;を削除します。
 1. 「**[!UICONTROL はい、削除]**」をクリックして確認します。
 
@@ -124,7 +124,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
 1. ポートフォリオの名前をクリックします。
-1. ポートフォリオ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**[!UICONTROL Portfolioを非アクティブ化]**をクリックします。
+1. ポートフォリオ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**[!UICONTROL Portfolioを非アクティブ化]**&#x200B;をクリックします。
 ポートフォリオは直ちに無効になります。
 1. （オプション）ポートフォリオ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**[!UICONTROL Portfolioをアクティブ化]**&#x200B;して再アクティブ化します。
 

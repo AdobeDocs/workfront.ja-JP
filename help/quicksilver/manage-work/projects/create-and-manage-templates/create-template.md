@@ -128,7 +128,7 @@ Old:
 
    新しいエクスペリエンスで「**テンプレート タスクを作成**」ボックスが開きます。
 
-   ![新しいテンプレート タスクの新しいエクスペリエンス ](assets/new-template-task-box-unshimmed.png)
+   ![新しいテンプレート タスクの新しいエクスペリエンス &#x200B;](assets/new-template-task-box-unshimmed.png)
 
 1. （条件付き）新しいエクスペリエンスを使用して、**テンプレート タスクを作成** ボックスの次の領域で情報を更新します。
 
@@ -148,7 +148,7 @@ Old:
 
    古いエクスペリエンスで&#x200B;**新しいテンプレート タスク**&#x200B;が開きます。
 
-   ![新しいテンプレート タスク ボックス ](assets/new-template-task-box.png)
+   ![新しいテンプレート タスク ボックス &#x200B;](assets/new-template-task-box.png)
 
    >[!TIP]
    >
@@ -163,7 +163,7 @@ Old:
    * カスタムフォーム
    * ドキュメントの添付
 
-     テンプレートタスクの情報の更新は、プロジェクトのタスクの編集に似ています。 詳しくは、[ タスクの編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。<!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+     テンプレートタスクの情報の更新は、プロジェクトのタスクの編集に似ています。 詳しくは、[&#x200B; タスクの編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。<!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
 
    >[!NOTE]
    >
@@ -180,7 +180,7 @@ Old:
    >
    >このガントチャートから直接タスクを編集することはできません。
 
-1. 新しいテンプレートに情報を追加するには、ヘッダーのテンプレート名の左側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
+1. 新しいテンプレートに情報を追加するには、ヘッダーのテンプレート名の左側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
 
    テンプレートの編集について詳しくは、[プロジェクトテンプレートの編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
 
@@ -188,7 +188,7 @@ Old:
    >
    >   プロジェクトテンプレートとグループとの関連付け（またはグループの欠如）は、プロジェクト、タスク、イシューの環境設定がテンプレート内の特定の設定を決定する方法に影響します。
    >
-   >詳細については、[ グループのプロジェクトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)の記事の「テンプレートとテンプレートタスクに対する環境設定の適用方法」の節を参照してください。
+   >詳細については、[&#x200B; グループのプロジェクトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)の記事の「テンプレートとテンプレートタスクに対する環境設定の適用方法」の節を参照してください。
 
 1. 「**保存**」をクリックします。
 1. （オプション）次の項目をテンプレートに追加します
@@ -207,7 +207,7 @@ Old:
    * 費用
    * 承認
 
-   詳しくは、[ プロジェクトテンプレートを編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)の記事の「テンプレートにアイテムを追加する」の節を参照してください。
+   詳しくは、[&#x200B; プロジェクトテンプレートを編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)の記事の「テンプレートにアイテムを追加する」の節を参照してください。
 
 
 

@@ -77,7 +77,7 @@ ht-degree: 72%
 
    **新しいスコアカード** ボックスが開きます。
 
-   ![新しいスコアカード ボックス ](assets/new-scorecard-350x173.png)
+   ![新しいスコアカード ボックス &#x200B;](assets/new-scorecard-350x173.png)
 
 1. **[!UICONTROL スコアカード名]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を指定します。
 
@@ -126,11 +126,11 @@ ht-degree: 72%
 {{step-1-to-setup}}
 
 1. 左側のパネルで「**[!UICONTROL スコアカード]**」をクリックします。
-1. リストでスコアカードを選択し、スコアカード リストの上部にある&#x200B;**コピー** アイコン ![ スコアカード アイコン ](assets/copy-scorecard-icon.png)をクリックします。
+1. リストでスコアカードを選択し、スコアカード リストの上部にある&#x200B;**コピー** アイコン ![&#x200B; スコアカード アイコン &#x200B;](assets/copy-scorecard-icon.png)をクリックします。
 
    「**スコアカードをコピー**」ボックスが開きます。
 
-   ![ スコアカード ボックスをコピー](assets/copy-scorecard-box.png)
+   ![&#x200B; スコアカード ボックスをコピー](assets/copy-scorecard-box.png)
 
 1. 次の情報を指定します。
 
@@ -148,6 +148,6 @@ ht-degree: 72%
 
 プロジェクトのビジネスケースを作成する際に、スコアカードをプロジェクトに追加します。プロジェクトへのスコアカードの追加について詳しくは、[プロジェクトへのスコアカードの適用およびアラインメントスコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)を参照してください。
 
-プロジェクト権限について詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でのプロジェクトの共有を参照してください。
+プロジェクト権限について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でのプロジェクトの共有を参照してください。
 
 

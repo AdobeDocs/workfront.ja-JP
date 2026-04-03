@@ -56,7 +56,7 @@ Adobe Workfront プロジェクトを Microsoft Project に書き出すことが
  </tbody> 
 </table>
 
-* この表の詳細については、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* この表の詳細については、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -95,7 +95,7 @@ Old:
 
 1. 書き出すプロジェクトに移動し、プロジェクト名の右側にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/qs-more-menu.png)をクリックします
 
-   ![その他のドロップダウン ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![その他のドロップダウン &#x200B;](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    または
 

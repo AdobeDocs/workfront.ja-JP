@@ -21,9 +21,9 @@ ht-degree: 88%
 
 自分が作成したプラン、または誰かが共有したプランに基づいて、イニシアチブに優先順位を付けることができます。
 
-計画の作成の詳細については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
+計画の作成の詳細については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
 
-イニシアチブの作成の詳細については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
+イニシアチブの作成の詳細については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
 
 ## アクセス要件
 
@@ -134,7 +134,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
       * **[!UICONTROL 下部]**：選択したイニシアチブをイニシアチブリストの一番下に移動します。選択されたイニシアチブは計画の最後にリストされます。
       * **[!UICONTROL 数字を選択]**：選択したイニシアチブを、ここで指定したイニシアチブの後に移動します。
 
-        ![ イニシアチブの優先順位付け](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![&#x200B; イニシアチブの優先順位付け](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] は、選択したイニシアチブを指定した場所に即座に配置し、それに応じてすべてのイニシアチブの数が更新されます。
 

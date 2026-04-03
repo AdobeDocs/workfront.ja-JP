@@ -35,7 +35,7 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 この記事には、Workfront Planning に関する一般的な情報が含まれています。
 
-Adobe Workfront Planningのドキュメントを含む記事の一覧については、[Workfront Planningの一般情報と記事インデックス ](/help/quicksilver/planning/planning-information.md)を参照してください。
+Adobe Workfront Planningのドキュメントを含む記事の一覧については、[Workfront Planningの一般情報と記事インデックス &#x200B;](/help/quicksilver/planning/planning-information.md)を参照してください。
 
 ## Adobe Workfront Planning の概要
 
@@ -452,7 +452,7 @@ Workfront Planning にアクセスするには、次の手順に従います。
 
 ## Workfront Planning のその他のリソース
 
-* [Adobe Workfront計画に関する一般情報と記事のインデックス ](/help/quicksilver/planning/planning-information.md): Workfront計画に関するドキュメントを含むすべての記事のインデックスで、関心のある分野ごとにグループ化されています。
+* [Adobe Workfront計画に関する一般情報と記事のインデックス &#x200B;](/help/quicksilver/planning/planning-information.md): Workfront計画に関するドキュメントを含むすべての記事のインデックスで、関心のある分野ごとにグループ化されています。
 * [Adobe Workfront Planning の AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：Workfront Planning の AI アシスタントを使用すると、コマンドを実行することによって、レコードの検索、作成、更新、削除などの作業をアシスタントに代行してもらうことができます。
 
   <!--
@@ -465,7 +465,7 @@ Workfront Planning にアクセスするには、次の手順に従います。
 
 * [Adobe Workfront Planning API の基本](/help/quicksilver/planning/general/planning-api-basics.md)：Adobe Workfront Planning API の目的は、HTTP 上で動作する RESTful アーキテクチャを導入することで、Planning との統合の構築を簡略化することです。
 
-* [Adobe Workfront Planning とAdobe GenStudio for Performance Marketing との統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)：Workfront Planning の GenStudio ワークスペースで、GenStudio for Performance Marketing のレコードを管理できます。
+* [Adobe Workfront Planning とAdobe GenStudio for Performance Marketing との統合の基本を学ぶ &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)：Workfront Planning の GenStudio ワークスペースで、GenStudio for Performance Marketing のレコードを管理できます。
 
 * **Workfront Planning のレポート機能**：Workfront キャンバスダッシュボードを使用して、Workfront のレポートで Workfront Planning の情報を表示できるようになりました。詳しくは、[キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)を参照してください。
 

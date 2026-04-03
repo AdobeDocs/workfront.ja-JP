@@ -65,7 +65,7 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -126,7 +126,7 @@ Old:
 1. プロジェクトに移動した場合は、左側のパネルで「**イシュー**」をクリックします。
 1. 移動する 1 つまたは複数のイシューを選択し、イシューリストの上部にある&#x200B;**「その他」メニュー**&#x200B;をクリックし、「**指定の場所に移動**」をクリックします。
 
-   ![ コピーしてリンクに移動](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![&#x200B; コピーしてリンクに移動](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. 「[手順2から1つの問題を移動](#move-a-single-issue)」の節で説明しているように、問題の移動を続行します。
 

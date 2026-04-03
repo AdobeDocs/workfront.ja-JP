@@ -120,7 +120,7 @@ Old:
 1. 実際の開始日を表示するプロジェクトをクリックします。
 1. 左側のパネルで「**プロジェクトの詳細**」をクリックし、**概要** セクションに移動します。
 
-   ![ プロジェクトの実際の開始日が強調表示されました](assets/nwe-project-actual-start-date--highlighted-350x367.png)
+   ![&#x200B; プロジェクトの実際の開始日が強調表示されました](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
    **実際の開始日**&#x200B;は、他のプロジェクトの日付と共に表示されます。
 

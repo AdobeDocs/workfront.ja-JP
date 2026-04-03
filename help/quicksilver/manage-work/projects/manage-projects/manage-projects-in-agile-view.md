@@ -23,7 +23,7 @@ ht-degree: 44%
 
 チームのバックログを使用し、バックログ上のタスクからイテレーションを作成できるアジャイル環境で作業できます。
 
-詳しくは、[ アジャイル環境での作業](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)を参照してください。
+詳しくは、[&#x200B; アジャイル環境での作業](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)を参照してください。
 
 ## アクセス要件
 
@@ -115,6 +115,6 @@ old:
 
    詳しくは、[ボード列の管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)と[カードに表示されるフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)を参照してください。プロジェクトのボードビューでは列ポリシーを定義できないことに注意してください。
 
-1. （オプション）リスト表示に戻るには、**リスト** アイコン ![ リストアイコン ](assets/list-icon.png)をクリックします。
+1. （オプション）リスト表示に戻るには、**リスト** アイコン ![&#x200B; リストアイコン &#x200B;](assets/list-icon.png)をクリックします。
 
    タスクまたは問題のリストが表示されます。

@@ -64,7 +64,7 @@ ht-degree: 77%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Adobe Workfront]<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">の「</a> ビューの概要」の「[!UICONTROL アジャイルビューの作成とカスタマイズ」で説明されているように、アジャイルビューを変更してアジャイルビューに追加された可能性のある追加フィールド（カスタムフィールドを含む）です。</p> </td> 
+   <td> <p>[!UICONTROL Adobe Workfront]<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">の「</a> ビューの概要」の「アジャイルビューの作成とカスタマイズ」で説明されているように、アジャイルビューを変更してアジャイルビューに追加された可能性のある追加フィールド（カスタムフィールドを含む）です。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -108,10 +108,10 @@ ht-degree: 77%
 
 1. 左パネルで、「**[!UICONTROL イテレーション]**」を選択して特定のイテレーションを選ぶか、「**[!UICONTROL 進行中のイテレーション]**」を選択します。
 
-1. [!UICONTROL  スクラム ] アジャイルストーリーボードに移動します。
+1. [!UICONTROL &#x200B; スクラム &#x200B;] アジャイルストーリーボードに移動します。
 1. [!UICONTROL ストーリー]タイルを展開して、ストーリーに関連するすべてのフィールドを表示します。
 
-   ![ ストーリーカード ](assets/agile-storycard-scrum-2021-350x333.png)
+   ![&#x200B; ストーリーカード &#x200B;](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. （オプション）フィールドを編集するには、フィールドをクリックして、変更を加えます。
 

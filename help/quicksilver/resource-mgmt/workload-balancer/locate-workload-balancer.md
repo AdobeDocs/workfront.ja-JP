@@ -97,7 +97,7 @@ ht-degree: 63%
 
 ### チームのワークロードバランサーへのアクセス
 
-Workfrontのチームについて詳しくは、[ チームの概要](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md)を参照してください。
+Workfrontのチームについて詳しくは、[&#x200B; チームの概要](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md)を参照してください。
 
 {{step1-to-team}}
 
@@ -105,7 +105,7 @@ Workfrontのチームについて詳しくは、[ チームの概要](/help/quic
 
 1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
-   ![ チームのワークロードバランサー](assets/nwe-balancer-team-350x172.png)
+   ![&#x200B; チームのワークロードバランサー](assets/nwe-balancer-team-350x172.png)
 
    チームのワークロードバランサーには、デフォルトで次の情報が表示されます。
 
@@ -181,7 +181,7 @@ Workfrontのチームについて詳しくは、[ チームの概要](/help/quic
       (NOTE: ensure this stays correct)
      -->
 
-1. （オプション）「[ レイアウトテンプレートを使用して左側のパネルをカスタマイズ ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)」の説明に従って、ダッシュボードをレイアウトテンプレートで共有します。
+1. （オプション）「[&#x200B; レイアウトテンプレートを使用して左側のパネルをカスタマイズ &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)」の説明に従って、ダッシュボードをレイアウトテンプレートで共有します。
 
 
 <!--

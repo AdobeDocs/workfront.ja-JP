@@ -24,7 +24,7 @@ ht-degree: 5%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront向けにリリースされたすべての制限付き機能の一覧については、[Adobe Workfront制限付き機能リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)を参照してください。
+Adobe Workfront向けにリリースされたすべての制限付き機能の一覧については、[Adobe Workfront制限付き機能リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)を参照してください。
 
 ## 制限付き機能のリリースノート
 

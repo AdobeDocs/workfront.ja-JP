@@ -78,7 +78,7 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
    プロンプトについて詳しくは、[レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)を参照してください。\
    レポートの内容は、右上隅のタイムスタンプとともに表示されます。このタイムスタンプには、レポートを実行したユーザーのコンテキストにある、レポートを実行した日時とタイムゾーンが含まれます。
 
-1. （オプション） **再読み込みアイコン** ![再読み込みアイコン ](assets/unshimmed-report-refresh-icon.png)をクリックして、レポートがしばらくブラウザーに表示されている場合に、レポートの結果を更新します。
+1. （オプション） **再読み込みアイコン** ![再読み込みアイコン &#x200B;](assets/unshimmed-report-refresh-icon.png)をクリックして、レポートがしばらくブラウザーに表示されている場合に、レポートの結果を更新します。
 
 1. （条件付き）レポートでフィルターまたはプロンプトを使用する場合は、「**フィルターとプロンプトを表示**」をクリックして、表示中のレポートで使用されているフィルターとプロンプトのリストを表示します。レポートにフィルターのみが含まれる場合、またはプロンプトのみが含まれる場合は、「**フィルターを表示**」または「**プロンプトを表示**」が表示されます。
 
@@ -94,7 +94,7 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
 
 * レポート設定を編集し、レポートを保存します。
 * ビュー、グループまたはフィルターを変更します。
-* **リロードアイコン** ![ リロードアイコン ](assets/unshimmed-report-refresh-icon.png)をクリックします
+* **リロードアイコン** ![&#x200B; リロードアイコン &#x200B;](assets/unshimmed-report-refresh-icon.png)をクリックします
 このオプションは、レポートが保存された時間を示すメッセージボックス内のページの右上隅に表示されるか、レポートが配置されるダッシュボードの右上隅に表示されます。 ダッシュボードの再読み込みについて詳しくは、[ダッシュボードの概要](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)の記事の「ダッシュボードを表示」の節を参照してください。
 
 * 「概要」タブ、「マトリックス」タブまたは「グラフ」タブに移動して、最初のページ以外のレポートのページにアクセスします。

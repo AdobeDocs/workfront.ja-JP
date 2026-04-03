@@ -112,7 +112,7 @@ Old:
 
   Workfront Planningへのアクセスについて詳しくは、[Adobe Workfront Planningへのアクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
-  レコードに追加してポートフォリオを作成する方法について詳しくは、「[ レコードを作成](/help/quicksilver/planning/records/create-records.md)」の「レコードを接続する際にレコードを作成する」の節を参照してください。
+  レコードに追加してポートフォリオを作成する方法について詳しくは、「[&#x200B; レコードを作成](/help/quicksilver/planning/records/create-records.md)」の「レコードを接続する際にレコードを作成する」の節を参照してください。
 
 ## プログラムを作成
 

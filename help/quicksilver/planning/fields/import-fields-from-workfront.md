@@ -63,7 +63,7 @@ ht-degree: 21%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -204,7 +204,7 @@ Old:
 
 1. 検索領域に既存のWorkfront フィールドの名前を入力し、リストに表示されたら「**+**」をクリックします。
 1. （オプション）別のフィールドを入力し、リストに表示されたら「**+**」をクリックします。
-1. （オプション）「**フィルター**」アイコン「![ インポートフィールドアイコン ](assets/filters-in-import-fields-icon.png)」をクリックし、次のいずれかのフィールドまたは両方のフィールドを更新します。
+1. （オプション）「**フィルター**」アイコン「![&#x200B; インポートフィールドアイコン &#x200B;](assets/filters-in-import-fields-icon.png)」をクリックし、次のいずれかのフィールドまたは両方のフィールドを更新します。
 
    * オブジェクトタイプ：フィールドを読み込むWorkfront オブジェクトタイプを選択します。
    * カスタムフォーム：Workfrontから1つまたは複数のカスタムフォームを選択します。 最初にオブジェクトタイプを選択せずにカスタムフォームを選択できます。

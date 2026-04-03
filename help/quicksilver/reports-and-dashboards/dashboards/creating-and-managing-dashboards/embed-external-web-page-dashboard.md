@@ -168,7 +168,7 @@ ht-degree: 87%
    ![外部ページのインライン編集](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. 「**外部ページの編集**」ボックスで、変更するフィールドを更新し、「**保存**」をクリックします。
-1. （オプション） **削除** アイコン ![削除アイコン ](assets/delete.png)をクリックして、外部ページをダッシュボードから削除します。 詳しくは、[ダッシュボードからの外部ページを削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)を参照してください。
+1. （オプション） **削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックして、外部ページをダッシュボードから削除します。 詳しくは、[ダッシュボードからの外部ページを削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)を参照してください。
 1. 「**保存して閉じる**」をクリックします。
 
 ## レポートで外部ページを表示する
@@ -179,7 +179,7 @@ ht-degree: 87%
 
 1. **新規レポート**&#x200B;をクリックし、**外部セクション**&#x200B;を選択します。
 
-   ![外部セクション ](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![外部セクション &#x200B;](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. （オプション）レポートの「表示」タブ、「フィルター」タブ、または「グループ化」タブを更新します。
 

@@ -33,7 +33,7 @@ ht-degree: 91%
 
 テキストモードについて詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
 
-組み込みの時間枠変更機能の一覧については、[時間枠によるレポートのフィルタリング ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)の記事を参照してください。
+組み込みの時間枠変更機能の一覧については、[時間枠によるレポートのフィルタリング &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)の記事を参照してください。
 
 フィルターおよび条件付き形式設定ステートメントでは、次の条件修飾子を使用できます。
 

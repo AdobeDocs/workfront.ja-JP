@@ -59,7 +59,7 @@ ht-degree: 11%
 
 1. 「[!UICONTROL **指標**]」タブをクリックします。 使用状況の指標は&#x200B;**Compute Usage** グラフに表示され、実行されたクエリの数は&#x200B;**クエリ数** グラフに表示されます。
 
-   ![ データ接続の使用状況の指標](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-usage-metrics.png)
+   ![&#x200B; データ接続の使用状況の指標](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-usage-metrics.png)
 
 1. （オプション）両方のグラフに含まれる情報の時間範囲を変更するには、[!UICONTROL **ビューを選択**] ドロップダウンメニューを使用します。
 

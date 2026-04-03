@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # アジャイルチームの構築と管理
 
-アジャイルチームの作成と管理方法について詳しくは、[ アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
+アジャイルチームの作成と管理方法について詳しくは、[&#x200B; アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。

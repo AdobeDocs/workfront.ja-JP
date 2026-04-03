@@ -205,8 +205,8 @@ Closing goals differs depending on what environment you use.
 
    目標ページが開きます。
 
-   ![目標ページ ](assets/goal-page-unshimmed.png)
-1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**閉じる**&#x200B;をクリックします。
+   ![目標ページ &#x200B;](assets/goal-page-unshimmed.png)
+1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**閉じる**&#x200B;をクリックします。
 
    目標が閉じ、画面の右上隅に確認メッセージが表示されます。
 
@@ -267,7 +267,7 @@ Reopening goals differs depending on what environment you use.
 1. クローズした目標の名前をクリックします。
 
    目標ページが開きます。
-1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**再開** > **再開**&#x200B;します。
+1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**再開** > **再開**&#x200B;します。
 
    次のことが発生します。
    * 目標が開き、ステータスが「アクティブ」になります。

@@ -19,7 +19,7 @@ ht-degree: 89%
 
 <!-- Audited: 1/2025 -->
 
-レポートを新規または既存のダッシュボードに、レポートから直接追加できます。[ ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)の説明に従って、既存のレポートをダッシュボードに追加することもできます。 1つのダッシュボードに追加できるレポート、カレンダー、外部ページは最大25個までです。
+レポートを新規または既存のダッシュボードに、レポートから直接追加できます。[&#x200B; ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)の説明に従って、既存のレポートをダッシュボードに追加することもできます。 1つのダッシュボードに追加できるレポート、カレンダー、外部ページは最大25個までです。
 
 >[!NOTE]
 >

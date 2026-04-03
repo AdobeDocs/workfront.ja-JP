@@ -119,8 +119,8 @@ Old:
 
 1. タスクを作成するプロジェクトに移動します。
 1. 左側のパネルの「**タスク**」をクリックします。
-1. （条件付き）現在アジャイルビューでタスクリストを表示している場合は、右上隅の「**リスト表示**」アイコン「![ アジャイルビューのリスト表示](assets/list-view-in-agile-view-for-tasks.png)」をクリックして、タスクリストを表示します。
-1. （オプション）タスクリスト **の** プランモード ![ アイコン ](assets/nwe-plan-mode-icon-task-list.png) プランモードアイコンをクリックし、**手動保存**&#x200B;を選択してから、**標準**&#x200B;または&#x200B;**タイムライン計画**&#x200B;のいずれかを選択します。 これにより、デフォルトで有効になっている&#x200B;**自動保存**&#x200B;オプションが無効になります。
+1. （条件付き）現在アジャイルビューでタスクリストを表示している場合は、右上隅の「**リスト表示**」アイコン「![&#x200B; アジャイルビューのリスト表示](assets/list-view-in-agile-view-for-tasks.png)」をクリックして、タスクリストを表示します。
+1. （オプション）タスクリスト **の** プランモード ![&#x200B; アイコン &#x200B;](assets/nwe-plan-mode-icon-task-list.png) プランモードアイコンをクリックし、**手動保存**&#x200B;を選択してから、**標準**&#x200B;または&#x200B;**タイムライン計画**&#x200B;のいずれかを選択します。 これにより、デフォルトで有効になっている&#x200B;**自動保存**&#x200B;オプションが無効になります。
 
    ![「手動保存」を選択](assets/manual-save-option.png)
 
@@ -143,11 +143,11 @@ Old:
 
       タスクのフィールドをすべてアップデートするには、「**その他のオプション**」をクリックすると「**タスクを作成**」ボックスが開きます。
 
-      ![ タスクの小さいボックスを作成](assets/nwe-create-task-small-screen-350x272.png)
+      ![&#x200B; タスクの小さいボックスを作成](assets/nwe-create-task-small-screen-350x272.png)
 
       「**タスクを作成**」ボックスが開きます。
 
-      ![ タスクの大きなボックスを作成](assets/create-task-larger-box-nwe-350x244.png)
+      ![&#x200B; タスクの大きなボックスを作成](assets/create-task-larger-box-nwe-350x244.png)
 
 
       >[!NOTE]
@@ -197,7 +197,7 @@ Old:
 
          これにより、新しいタスクが子タスク、または前のタスクのサブタスクになります。
 
-         子タスクについて詳しくは、[ サブタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)の「タスク サブタスクからサブタスクを作成する」セクションを参照してください。
+         子タスクについて詳しくは、[&#x200B; サブタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)の「タスク サブタスクからサブタスクを作成する」セクションを参照してください。
 
       1. （条件付き）「**さらにタスクを追加**」を押した後に「**自動保存**」オプションを無効にした場合は、次の操作を行うことができます。
 
@@ -214,13 +214,13 @@ Old:
    詳しくは、[個人用タスクの作成](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)を参照してください。
 1. 個人タスクフィルターを作成し、タスクレポートまたはリストに適用します。
 
-   詳しくは、[ フィルター：個人タスク ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)を参照してください。
+   詳しくは、[&#x200B; フィルター：個人タスク &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)を参照してください。
 
-   ![個人タスクレポート ](assets/personal-tasks-report.png)
+   ![個人タスクレポート &#x200B;](assets/personal-tasks-report.png)
 1. 個人用タスクレポートでタスク名をクリックして開きます。
 
    Workfrontは、個人用タスクをリストされていない個人用プロジェクトに保存します。このプロジェクトには、常に「&lt; ユーザーのフルネーム >&#39;のタスク」というパターンに従って名前が付けられます。 例えば、個人用プロジェクトを「Rick&#39;s Tasks」という名前にすることができます。
 
-1. タスクページから、**詳細メニュー** ![詳細アイコン ](assets/more-icon.png)をクリックし、**移動**&#x200B;をクリックします。 タスクの移動について詳しくは、[ タスクの移動](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。
+1. タスクページから、**詳細メニュー** ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**移動**&#x200B;をクリックします。 タスクの移動について詳しくは、[&#x200B; タスクの移動](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。
 
    タスクの移動が完了すると、選択したプロジェクトにタスクが表示されます。 プロジェクトタイムラインは、新しいタスクのタイムラインの影響を受ける可能性があります。

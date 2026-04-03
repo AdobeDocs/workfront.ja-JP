@@ -85,7 +85,7 @@ Also - take out all the references to Preview and Prod at prod final
 1. 「**リソースプール**」フィールドでリソースプールの名前の入力を開始し、リストにその名前が表示されたら選択します。\
    1 つのプロジェクトまたはテンプレートに複数のリソースプールを関連付けることができます。
 
-   ![ プロジェクト設定](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![&#x200B; プロジェクト設定](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. 「**保存**」をクリックします。
 
@@ -102,7 +102,7 @@ Also - take out all the references to Preview and Prod at prod final
 リソースプールを複数のプロジェクトに一括で関連付けるには：
 
 1. プロジェクトのリストに移動します。
-1. 複数のプロジェクトを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. 複数のプロジェクトを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
 1. 「**設定**」をクリックします。
 1. 「**リソースプール**」フィールドでリソースプールの名前の入力を開始し、リストでその名前が表示されたら選択します。\

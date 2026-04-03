@@ -98,11 +98,11 @@ Adobe Workfront Planning の一般情報と用語について詳しくは、[Ado
 
 * [Adobe Workfront Planning の自動化の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)：Adobe Workfront Planning で自動化を設定できます。アクティブ化すると、Planning レコードからトリガーされたときに Workfront にオブジェクトが作成されるか、Workfront Planning にレコードが作成されます。
 
-* [Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス ](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): GenStudio for Performance Marketingのレコードは、Workfront計画のGenStudio Workspaceで管理できます。
+* [Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): GenStudio for Performance Marketingのレコードは、Workfront計画のGenStudio Workspaceで管理できます。
 
 * **Workfront計画レポート機能**: Workfront Canvas ダッシュボードを使用すると、レポートでWorkfront計画に関する情報を確認できます。 詳しくは、[キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)を参照してください。
 
-* [Adobe Workfront計画のベストプラクティス：記事インデックス ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：安全性を優先し、混乱を最小限に抑え、迅速に成果を上げる戦略を使用して、組織でAdobe Workfront計画を展開する方法に関するヒントを説明します。
+* [Adobe Workfront計画のベストプラクティス：記事インデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：安全性を優先し、混乱を最小限に抑え、迅速に成果を上げる戦略を使用して、組織でAdobe Workfront計画を展開する方法に関するヒントを説明します。
 
 ## Workfront Planning のリリースアクティビティ
 

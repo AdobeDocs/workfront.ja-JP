@@ -65,7 +65,7 @@ AIは、過去のリクエストにもとづいてリクエストフィールド
 
 1. リクエストの作成を開始します。
 
-   手順については、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+   手順については、[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
 1. フィールドへの入力を開始します。
 

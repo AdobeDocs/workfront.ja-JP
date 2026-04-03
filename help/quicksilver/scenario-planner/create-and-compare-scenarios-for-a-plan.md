@@ -108,13 +108,13 @@ Old:
 
 1. プランを作成するか、既存のプランの名前をクリックします。
 
-   計画の作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) で計画を作成および編集を参照してください。
+   計画の作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) で計画を作成および編集を参照してください。
 
    最初に作成したプランは、「[!UICONTROL 初期シナリオ]」として自動的に保存されます。
 
 1. 既存のシナリオの横にある下向き矢印をクリックし、**[!UICONTROL コピー]**&#x200B;アイコンを選択します。
 
-   ![ シナリオのコピー](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![&#x200B; シナリオのコピー](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    これにより、コピーされたシナリオと同じ情報を持つ新しいシナリオが作成されます。計画の 2 番目のシナリオの場合は「[!UICONTROL シナリオ 2]」、3 番目のシナリオの場合は「[!UICONTROL シナリオ 3]」という名前が自動的に付けられます。シナリオの名前は変更できません。 作成できるコピーの数に制限はありません。
 
@@ -132,7 +132,7 @@ Old:
      >
      >シナリオのイニシアチブを削除すると、すべてのシナリオからではなく、選択したシナリオからのみ削除されます。
 
-     イニシアチブの作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) のイニシアチブを作成および編集を参照してください。
+     イニシアチブの作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) のイニシアチブを作成および編集を参照してください。
 
    * イニシアチブの優先順位を更新
    * 人材や予算の情報を調整
@@ -151,7 +151,7 @@ Old:
 
    計画の既存のシナリオはすべて、横に並べたカード形式で表示されます。初期シナリオは常に最初にリストされ、静的です。
 
-   ![Senario カード ](assets/scenario-cards-overlapping-350x166.png)
+   ![Senario カード &#x200B;](assets/scenario-cards-overlapping-350x166.png)
 
 1. （オプション）右にスクロールして、すべてのシナリオカードを表示します。
 
@@ -209,7 +209,7 @@ Old:
    >初期シナリオと追加のシナリオで情報が異なる場合は、変更された値の横に上向き矢印または下向き矢印が表示され、初期シナリオと比較して、その値の増減を示します。
    >
    >
-   >![ シナリオカードの矢印](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >![&#x200B; シナリオカードの矢印](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >例えば、予算、担当業務の数、イニシアチブの数がシナリオごとに変わる場合があります。
 
@@ -223,9 +223,9 @@ Old:
 
    説明フィールドをクリックして更新し、画面の任意の場所をクリックして変更を保存します。
 
-1. （オプション）シナリオを&#x200B;**[!UICONTROL 詳細]** メニュー![詳細アイコン ](assets/more-icon.png)から&#x200B;**[!UICONTROL コピー]**&#x200B;または&#x200B;**[!UICONTROL 削除]**&#x200B;をクリックします。
+1. （オプション）シナリオを&#x200B;**[!UICONTROL 詳細]** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)から&#x200B;**[!UICONTROL コピー]**&#x200B;または&#x200B;**[!UICONTROL 削除]**&#x200B;をクリックします。
 
-   ![ シナリオのコピーまたは削除](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![&#x200B; シナリオのコピーまたは削除](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    シナリオをコピーすると、自動的にカードページに表示され、「[!UICONTROL シナリオ] `<next number in order>`」のパターンに従って名前が変更されます。
 
@@ -233,6 +233,6 @@ Old:
 
    削除したシナリオは復元できません。
 
-   シナリオの削除について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/delete-plans.md) のプランを削除を参照してください。
+   シナリオの削除について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/delete-plans.md) のプランを削除を参照してください。
 
 1. 「**[!UICONTROL プランを保存]**」をクリックして、シナリオとプランを保存します。

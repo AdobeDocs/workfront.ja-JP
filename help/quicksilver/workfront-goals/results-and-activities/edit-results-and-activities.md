@@ -191,10 +191,10 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. **メインメニュー** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックしてから、**目標**&#x200B;をクリックします。
+1. **メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックしてから、**目標**&#x200B;をクリックします。
 1. 目標リストで目標の名前をクリックし、目標ページを開きます。
 1. 左パネルの「**進行状況インジケーター**」をクリックします。
-1. 進行状況インジケーターリストで結果を選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. 進行状況インジケーターリストで結果を選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
    「結果を編集」ボックスが開きます。
 
@@ -236,14 +236,14 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. **メインメニュー** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックしてから、**目標**&#x200B;をクリックします。
+1. **メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックしてから、**目標**&#x200B;をクリックします。
 1. 目標リストで目標の名前をクリックし、目標ページを開きます。
 1. 左パネルの「**進行状況インジケーター**」をクリックします。
-1. 進行状況インジケーターリストでアクティビティを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. 進行状況インジケーターリストでアクティビティを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
    「アクティビティを編集」ボックスが開きます。
 
-   ![ アクティビティボックスを編集](assets/edit-activity-box-unshimmed.png)
+   ![&#x200B; アクティビティボックスを編集](assets/edit-activity-box-unshimmed.png)
 
 1. 次の情報を編集します。
 

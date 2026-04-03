@@ -80,8 +80,8 @@ ht-degree: 15%
 1. Workfrontでドキュメントに移動します。
 1. 新しいファイルを前のドキュメントの上にドラッグ&amp;ドロップします。 これにより、自動的に新しいバージョンが作成されます。
 
-1. ドキュメントのアップロードが完了したら、ドキュメントを選択し、**ドキュメントの詳細**をクリックします。
-   ![ ドキュメントの詳細ページを開く](assets/open-doc-details.png)
+1. ドキュメントのアップロードが完了したら、ドキュメントを選択し、**ドキュメントの詳細**&#x200B;をクリックします。
+   ![&#x200B; ドキュメントの詳細ページを開く](assets/open-doc-details.png)
 
 
 1. 左側のパネルで「**承認**」をクリックし、「**追加**」をクリックします。
@@ -93,7 +93,7 @@ ht-degree: 15%
 
    >[!TIP]
    >
-   >   標準ライセンスを持つユーザーは、設定領域から再利用可能な承認テンプレートを作成できます。 詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+   >   標準ライセンスを持つユーザーは、設定領域から再利用可能な承認テンプレートを作成できます。 詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
 
 1. （オプション）承認の期限を設定します。 ユーザーとチームには、指定された期限の72時間、24時間前に電子メールで通知されます。
@@ -110,7 +110,7 @@ ht-degree: 15%
 
 ## ドラッグ&amp;ドロップを使用して、従来のドキュメント領域のプレビュー環境に新しいバージョンを追加します
 
-組織がWorkfront ストレージを使用している場合は、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージ ](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)の比較を参照してください。
+組織がWorkfront ストレージを使用している場合は、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージ &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)の比較を参照してください。
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ ht-degree: 15%
 1. 新しいファイルを前のドキュメントの上にドラッグ&amp;ドロップします。 これにより、自動的に新しいバージョンが作成されます。
 
 1. ドキュメントのアップロードが完了したら、ドキュメントを選択してドキュメント概要パネルを開きます。 ここでは、パネルの上部にバージョン番号が表示されます。
-   ![ ドキュメントの詳細ページを開く](assets/open-doc-details.png)
+   ![&#x200B; ドキュメントの詳細ページを開く](assets/open-doc-details.png)
 
 
 1. **承認** セクションまでスクロールします。
@@ -165,7 +165,7 @@ ht-degree: 15%
 
    >[!TIP]
    >
-   >   標準ライセンスを持つユーザーは、設定領域から再利用可能な承認テンプレートを作成できます。 詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+   >   標準ライセンスを持つユーザーは、設定領域から再利用可能な承認テンプレートを作成できます。 詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
 
 

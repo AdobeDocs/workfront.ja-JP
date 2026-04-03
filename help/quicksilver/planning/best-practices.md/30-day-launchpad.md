@@ -82,7 +82,7 @@ ht-degree: 3%
 
 * **スポークをサポートするハブを設計します。** グローバル分類ワークスペースは、パイロットチームにとって最も重要なオブジェクト（特定のブランドまたは製品）に特化してフォーカスできます。 これにより、企業のガバナンスとチームの自律性の間の協力的な連携を強化しながら、デザイン作業を管理可能に保つことができます。
 
-  詳しくは、[ クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+  詳しくは、[&#x200B; クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 * **保護者ではなくイネーブラとして行動する：** ルール設定から機能構築に役割を移します。 プランニング環境を構築する際にチームと連携します。
 

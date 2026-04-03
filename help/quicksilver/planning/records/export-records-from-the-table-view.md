@@ -67,7 +67,7 @@ ht-degree: 6%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -149,11 +149,11 @@ Old:
 
    * テーブル表示タブの名前にカーソルを合わせ、ビュー名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**書き出し**&#x200B;をクリックします。
 
-   ![ ビューの詳細メニュー](assets/view-more-menu-with-duplicate-option.png)
+   ![&#x200B; ビューの詳細メニュー](assets/view-more-menu-with-duplicate-option.png)
 
    * 「**共有**」 > 「**現在のビューを書き出し**」をクリックします。 このオプションは、テーブルビューを表示する場合にのみ使用できます。
 
-   ![ レコードタイプとビュー共有オプションを含む共有ボタン ](assets/share-button-with-record-type-and-view-sharing-options.png)
+   ![&#x200B; レコードタイプとビュー共有オプションを含む共有ボタン &#x200B;](assets/share-button-with-record-type-and-view-sharing-options.png)
 
 1. 次のいずれかの形式を選択します。
 

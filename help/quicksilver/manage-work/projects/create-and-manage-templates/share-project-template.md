@@ -97,11 +97,11 @@ Old:
 {{step1-to-templates}}
 
 1. 次のいずれかの操作を行います。\
-   テンプレートの名前をクリックして開き、**詳細** メニュー![詳細アイコン ](assets/more-icon.png)、次に&#x200B;**テンプレート共有**&#x200B;をクリックします。
+   テンプレートの名前をクリックして開き、**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)、次に&#x200B;**テンプレート共有**&#x200B;をクリックします。
 
    または
 
-   リストからテンプレートを選択し、共有アイコン ![ テンプレートを共有](assets/share-icon.png)をクリックしてから、**テンプレート**&#x200B;をクリックします。
+   リストからテンプレートを選択し、共有アイコン ![&#x200B; テンプレートを共有](assets/share-icon.png)をクリックしてから、**テンプレート**&#x200B;をクリックします。
 
    >[!TIP]
    >
@@ -121,7 +121,7 @@ Old:
 
    * **管理**：この権限を持つユーザーは、テンプレートを編集または削除できます。
 
-     ここで使用できる詳細設定![ ギアアイコン ](assets/gear-icon-in-access-levels.png)について詳しくは、[ テンプレートの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions)の「[ テンプレート共有の詳細設定」の節](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
+     ここで使用できる詳細設定![&#x200B; ギアアイコン &#x200B;](assets/gear-icon-in-access-levels.png)について詳しくは、[&#x200B; テンプレートの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions)の「[&#x200B; テンプレート共有の詳細設定」の節](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
 
 1. 「**保存**」をクリックします。
 
@@ -132,7 +132,7 @@ Old:
 テンプレートから作成された今後のプロジェクトをユーザーと共有するには、以下のように行います。
 
 1. 次のいずれかの操作を行います。\
-   テンプレートの名前をクリックして開き、**詳細** メニュー![詳細アイコン ](assets/more-icon.png)、次に&#x200B;**テンプレート共有**&#x200B;をクリックします。
+   テンプレートの名前をクリックして開き、**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)、次に&#x200B;**テンプレート共有**&#x200B;をクリックします。
 
    ![テンプレートからプロジェクトを共有](assets/project-sharing-on-template-nwe-2022-350x172.png)
 

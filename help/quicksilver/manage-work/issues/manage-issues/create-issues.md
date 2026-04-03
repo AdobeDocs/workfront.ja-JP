@@ -70,7 +70,7 @@ ht-degree: 89%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -156,7 +156,7 @@ Old:
 1. イシューのリストの上部にある「**新しいイシュー**」をクリックします。
 「新規イシュー」ボックスが表示されます。
 
-   ![新しい問題ボックス ](assets/new-issue-box-matches-new-request-ui.png)
+   ![新しい問題ボックス &#x200B;](assets/new-issue-box-matches-new-request-ui.png)
 
 1. （条件付き）プロジェクト作成者がプロジェクト上にキューのトピックまたはトピックグループを作成した場合、それらは新しいイシューフォームに追加されます。新しいイシューの&#x200B;**トピックグループ**&#x200B;または&#x200B;**キューのトピック**&#x200B;を指定します。トピックグループとキューのトピックには、環境に合わせてカスタマイズされた名前が付いています。\
    トピックグループの作成の詳細については、[トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。キューのトピックの作成について詳しくは、[キューのトピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
@@ -225,7 +225,7 @@ Old:
    >
    >プロジェクトの編集ボックスで「ユーザーがインラインで問題を追加できるようにする」設定が選択解除されている場合、このオプションはグレー表示になります。詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
-   ![さらに問題を追加ボタン ](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
+   ![さらに問題を追加ボタン &#x200B;](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
 1. 「名前」フィールドにイシューの名前を入力し、イシューに関する詳細情報の追加をインラインで続行します。
 

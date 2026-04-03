@@ -107,7 +107,7 @@ Old:
 
 会社が [!DNL Workfront Scenario Planner] ライセンスを購入している場合、プロジェクトの[!UICONTROL タスク]セクションでイニシアチブおよびイニシアチブにリンクされているプロジェクトとの間のリソース割り当てを調整できます。
 
-1. （条件付き）プロジェクトは、この記事の[ タスクリスト ](#show-role-allocation-for-projects-and-initiatives-in-the-task-list)の「プロジェクトとイニシアチブの役割の割り当てを表示」セクションで説明されている方法のいずれかを使用して、イニシアチブに接続する必要があります。
+1. （条件付き）プロジェクトは、この記事の[&#x200B; タスクリスト &#x200B;](#show-role-allocation-for-projects-and-initiatives-in-the-task-list)の「プロジェクトとイニシアチブの役割の割り当てを表示」セクションで説明されている方法のいずれかを使用して、イニシアチブに接続する必要があります。
 
    >[!IMPORTANT]
    >
@@ -177,7 +177,7 @@ Old:
      >
      >タスクとイシューを編集するには、追加のアクセス権と権限が必要です。
 
-   * イニシアチブの割り当て超過を示す役割に必要な時間数を増やします。詳しくは、[ [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
+   * イニシアチブの割り当て超過を示す役割に必要な時間数を増やします。詳しくは、[&#x200B; [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
 
      >[!NOTE]
      >

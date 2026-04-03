@@ -115,7 +115,7 @@ Old:
 
 1. 左側のパネルで「**プロジェクトの詳細**」を選択します。
 
-1. 右上隅の&#x200B;**プロジェクトを編集** アイコン ![編集アイコン ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png)をクリックし、表示されるドロップダウンで&#x200B;**概要**&#x200B;を選択します。
+1. 右上隅の&#x200B;**プロジェクトを編集** アイコン ![編集アイコン &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png)をクリックし、表示されるドロップダウンで&#x200B;**概要**&#x200B;を選択します。
 
 1. **プロジェクトの日付** セクションで、**スケジュール モード** フィールドをクリックし、**完了日**&#x200B;を選択します。
 
@@ -138,7 +138,7 @@ Old:
 
 1. 左側のパネルで「**プロジェクトの詳細**」を選択します。
 
-1. 右上隅の&#x200B;**プロジェクトを編集** アイコン ![編集アイコン ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png)をクリックし、表示されるドロップダウンで&#x200B;**概要**&#x200B;を選択します。
+1. 右上隅の&#x200B;**プロジェクトを編集** アイコン ![編集アイコン &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png)をクリックし、表示されるドロップダウンで&#x200B;**概要**&#x200B;を選択します。
 
 1. **プロジェクトの日付** セクションで、**スケジュール モード** フィールドをクリックし、**開始日**&#x200B;を選択します。
 

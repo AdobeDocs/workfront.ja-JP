@@ -74,7 +74,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-* この表の詳細については、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* この表の詳細については、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -120,7 +120,7 @@ Old:
 
 >[!NOTE]
 >
->更新フィードでは、最大 300 個のビルトインのフィールドとカスタムフィールドを追跡できます。フィールドの最大数を追跡しており、[!UICONTROL すべてのフィールド ] サブタブに表示されない追加のフィールドを追跡する場合は、新しいフィールドを追跡するために、最初に追跡されたフィールドの一部を削除する必要があります。 更新フィールドからフィールドを削除する方法の詳細については、[ トラッキングしないフィールドの削除](#remove-fields-you-don-t-want-tracked)を参照してください。
+>更新フィードでは、最大 300 個のビルトインのフィールドとカスタムフィールドを追跡できます。フィールドの最大数を追跡しており、[!UICONTROL すべてのフィールド &#x200B;] サブタブに表示されない追加のフィールドを追跡する場合は、新しいフィールドを追跡するために、最初に追跡されたフィールドの一部を削除する必要があります。 更新フィールドからフィールドを削除する方法の詳細については、[&#x200B; トラッキングしないフィールドの削除](#remove-fields-you-don-t-want-tracked)を参照してください。
 
 {{step-1-to-setup}}
 
@@ -151,8 +151,8 @@ Old:
    >
    >[!DNL Workfront]が既にフィールドを追跡している場合、リストから2回目に追加することはできません。
 
-1. [!DNL Workfront]で追跡するフィールドをすべて追加したら、**[!UICONTROL 追加]**をクリックします。
-追加した組み込みフィールドは**[!UICONTROL 組み込みフィールド]** サブタブに表示され、カスタムフィールドは&#x200B;**[!UICONTROL カスタムフィールド]** サブタブに表示されます。
+1. [!DNL Workfront]で追跡するフィールドをすべて追加したら、**[!UICONTROL 追加]**&#x200B;をクリックします。
+追加した組み込みフィールドは&#x200B;**[!UICONTROL 組み込みフィールド]** サブタブに表示され、カスタムフィールドは&#x200B;**[!UICONTROL カスタムフィールド]** サブタブに表示されます。
 **[!UICONTROL すべてのフィールド]** サブタブには、[!DNL Workfront]が追跡する組み込みフィールドとカスタムフィールドの両方が表示されます。
 
 ### 追跡しないフィールドを削除 {#remove-fields-you-don-t-want-tracked}
@@ -165,7 +165,7 @@ Old:
 
 1. 「**[!UICONTROL トラッキングフィールド]**」タブで、「**[!UICONTROL すべてのフィールド]**」サブタブを選択します。 現在追跡されているビルトインフィールドとカスタムフィールドの両方が表示されます。
 
-1. トラッキングを停止するフィールドを選択し、**[!UICONTROL 削除]** アイコン ![削除アイコン ](assets/remove-icon.png)をクリックします。
+1. トラッキングを停止するフィールドを選択し、**[!UICONTROL 削除]** アイコン ![削除アイコン &#x200B;](assets/remove-icon.png)をクリックします。
 
 1. 表示される「**[!UICONTROL フィールドを削除]**」ボックスで、「**[!UICONTROL はい、削除します]**」をクリックして確定します。
 

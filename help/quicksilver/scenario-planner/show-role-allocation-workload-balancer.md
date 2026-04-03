@@ -109,8 +109,8 @@ Old:
 
 1. （条件付き）以下の記事に記載されている方法のいずれかを使用して、プロジェクトをイニシアチブに接続します。
 
-   * [ [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md) のプランにプロジェクトを読み込みます。
-   * [ [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md) でイニシアチブを公開することにより、プロジェクトを更新または作成します。
+   * [&#x200B; [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md) のプランにプロジェクトを読み込みます。
+   * [&#x200B; [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md) でイニシアチブを公開することにより、プロジェクトを更新または作成します。
 
    >[!IMPORTANT]
    >
@@ -128,7 +128,7 @@ Old:
 
    [!UICONTROL 役割の割り当て]パネルが表示されます。
 
-   ![役割の割り当てパネル ](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![役割の割り当てパネル &#x200B;](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -190,7 +190,7 @@ Old:
      >
      >タスクとイシューを編集するには、追加のアクセス権と権限が必要です。
 
-   * イニシアチブの割り当て超過を示す役割に必要な時間数を増やします。詳しくは、[ [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) のイニシアチブを作成と編集を参照してください。
+   * イニシアチブの割り当て超過を示す役割に必要な時間数を増やします。詳しくは、[&#x200B; [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) のイニシアチブを作成と編集を参照してください。
 
      >[!NOTE]
      >

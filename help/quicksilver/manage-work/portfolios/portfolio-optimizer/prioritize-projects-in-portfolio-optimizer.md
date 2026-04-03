@@ -105,7 +105,7 @@ Old:
 1. 左側のパネルで「**[!UICONTROL ポートフォリオの最適化]**」をクリックします。
 1. [!UICONTROL プロジェクト最適化]領域で、プロジェクトの優先度を変更するには、優先度の高い順にプロジェクトをドラッグし、目的の表示位置にドロップします。
 
-   ![ プロジェクトを含むPortfolio optimizer](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![&#x200B; プロジェクトを含むPortfolio optimizer](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    プロジェクトの再配置が完了したら、プロジェクトの最適化領域で「**[!UICONTROL 優先度を設定]**」をクリックします。プロジェクトには、新しい順序に基づいて新しい番号が割り振られます。
 

@@ -68,7 +68,7 @@ ht-degree: 30%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -144,8 +144,8 @@ Old:
    レコードタイプページが開きます。
 デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. 現在のビュー名の横にあるドロップダウンアイコン ![ ドロップダウンアイコン ](assets/drop-down-icon.png)をクリックし、ビューの名前にカーソルを合わせ、**詳細**&#x200B;をクリックしてから&#x200B;**複製**&#x200B;します。
+1. 現在のビュー名の横にあるドロップダウンアイコン ![&#x200B; ドロップダウンアイコン &#x200B;](assets/drop-down-icon.png)をクリックし、ビューの名前にカーソルを合わせ、**詳細**&#x200B;をクリックしてから&#x200B;**複製**&#x200B;します。
 
-   ![ オプション付きの表示に関する詳細メニュー](assets/more-menu-for-views-expanded-with-delete-option.png)
+   ![&#x200B; オプション付きの表示に関する詳細メニュー](assets/more-menu-for-views-expanded-with-delete-option.png)
 
    ビューが複製され、新しいビューの名前が次のパターンに従います。`Original view's name (Copy)`新しいビュータブは、すべてのビュータブの最後に表示されます。

@@ -19,7 +19,7 @@ ht-degree: 78%
 
 ドキュメントのステータスは、ドキュメントリストで直接表示できます。
 
-![ ドキュメントリストのステータス ](assets/status-in-doc-list.png)
+![&#x200B; ドキュメントリストのステータス &#x200B;](assets/status-in-doc-list.png)
 
 
 以下のステータスを使用できます。

@@ -45,7 +45,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL Edit] [!UICONTROL Portfolios]および[!UICONTROL プログラム ]へのアクセス </p> </td> 
+   <td> <p>[!UICONTROL Edit] [!UICONTROL Portfolios]および[!UICONTROL プログラム &#x200B;]へのアクセス </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -54,7 +54,7 @@ ht-degree: 53%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -93,7 +93,7 @@ Old:
 
    「**プログラムを追加**」ボックスが開きます。<!--check screen shot - I logged changes for this casing-->
 
-   ![ プログラムボックスを追加](assets/add-programs-box.png)
+   ![&#x200B; プログラムボックスを追加](assets/add-programs-box.png)
 
    >[!IMPORTANT]
    >
@@ -103,7 +103,7 @@ Old:
 
    複数のプログラムを追加できます。
 
-1. （オプション）プログラムをポートフォリオに追加しない場合は、プログラム名の横にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete-icon.png)をクリックします。
+1. （オプション）プログラムをポートフォリオに追加しない場合は、プログラム名の横にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete-icon.png)をクリックします。
 
 1. 「**[!UICONTROL プログラムを追加]**」をクリックします。
 

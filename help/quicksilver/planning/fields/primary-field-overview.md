@@ -34,9 +34,9 @@ ht-degree: 12%
 * 数値
 * 式
 
-![ プライマリフィールドとしてハイライト表示された別のテキストフィールド ](assets/another-text-field-as-a-primary-field-highlighted.png)
+![&#x200B; プライマリフィールドとしてハイライト表示された別のテキストフィールド &#x200B;](assets/another-text-field-as-a-primary-field-highlighted.png)
 
-フィールドをプライマリフィールドとして指定する方法について詳しくは、[ テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
+フィールドをプライマリフィールドとして指定する方法について詳しくは、[&#x200B; テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 
 ## プライマリフィールドの概要
 

@@ -101,7 +101,7 @@ Old:
 
    新規タスクダイアログボックスが表示されます。
 
-   ![ タスクの小さい画面を作成](assets/nwe-create-task-small-screen-350x272.png)
+   ![&#x200B; タスクの小さい画面を作成](assets/nwe-create-task-small-screen-350x272.png)
 
 1. 「**その他のオプション**」をクリックして、「**タスク名**」フィールドにタスクの名前を入力します。
 1. 新しいタスクを追加した場合と同じ方法で、タスクの更新を続行します。新しいタスクの追加について詳しくは、[プロジェクトでタスクを作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)を参照してください。
@@ -113,7 +113,7 @@ Old:
 1. 左側のパネルにある「**概要**」をクリックします。
 1. 「**繰り返しスケジュール**」セクションまで下にスクロールして、「**これを繰り返しタスクにする**」オプションを選択します。
 
-   ![繰り返しスケジュール選択の新しい繰り返しタスク ](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![繰り返しスケジュール選択の新しい繰り返しタスク &#x200B;](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. **頻度**&#x200B;ドロップダウンリストで、タスクを実行する時間単位の数と時間単位の種類を選択します。次のオプションから選択します。
 
@@ -167,7 +167,7 @@ Old:
 
    親の定期タスクから自動入力されるフィールドについて詳しくは、[定期タスクの概要](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)を参照してください。
 
-   ![ タスクリスト内のタスクの再実行](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![&#x200B; タスクリスト内のタスクの再実行](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. （オプション）各定期タスクを、プロジェクト内の他のタスクと同様に変更します。
 

@@ -22,7 +22,7 @@ ht-degree: 78%
 
 タスクリストにカスタムビューを追加し、リストを書き出す前にこのビューが選択されていることを確認することで、書き出したタスクリストで親子関係の区別を維持できます。
 
-![親の子インデント ](assets/parent-child-indented-custom-view-350x94.png)
+![親の子インデント &#x200B;](assets/parent-child-indented-custom-view-350x94.png)
 
 ## アクセス要件
 

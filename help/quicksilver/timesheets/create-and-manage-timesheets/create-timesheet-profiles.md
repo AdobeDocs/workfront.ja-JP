@@ -167,11 +167,11 @@ Old info:
 
 1. 「**保存**」をクリックします。
 
-1. タイムシートのプロファイルリストの上部で、**詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**タイムシートを生成**&#x200B;をクリックします。
+1. タイムシートのプロファイルリストの上部で、**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**タイムシートを生成**&#x200B;をクリックします。
 
    タイムシートが正常に生成されたことを確認するメッセージが画面の下部に表示されます。 新しいタイムシートは、作成した新しいプロファイルに基づいて生成されます。
 
-   詳しくは、[ タイムシートを手動で生成する](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)を参照してください。
+   詳しくは、[&#x200B; タイムシートを手動で生成する](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)を参照してください。
 
    タイムシート プロファイルが初めてタイムシートを生成する際には、現在の時間を含むタイムフレームと次のタイムフレームの両方に対して、ユーザーごとに2つのタイムシートが作成されます。
 

@@ -28,7 +28,7 @@ ht-degree: 56%
 
 一度に複数のドキュメントを編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。
 
-詳しくは、[ ドキュメントの一括編集](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)を参照してください。
+詳しくは、[&#x200B; ドキュメントの一括編集](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)を参照してください。
 
 ## ドキュメントのバージョン承認に使用できる新しい引き出しステータス
 
@@ -38,4 +38,4 @@ ht-degree: 56%
 
 承認待ちの文書に新しいバージョンを追加すると、以前のバージョンの承認が「撤回」と表示され、新しいバージョンの追加により以前の承認プロセスが終了したことを示します。
 
-詳しくは、[新しいドキュメントのバージョンをアップロードし、承認をリクエスト ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)するを参照してください。
+詳しくは、[新しいドキュメントのバージョンをアップロードし、承認をリクエスト &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)するを参照してください。

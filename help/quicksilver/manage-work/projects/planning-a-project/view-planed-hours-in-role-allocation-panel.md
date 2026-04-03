@@ -26,7 +26,7 @@ ht-degree: 61%
 >* [タスクリストのプロジェクトとイニシアチブの役割の配分を表示](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
 >* [ワークロードバランサーのプロジェクトとイニシアチブの役割の配分を表示](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  役割の割り当てパネルにイニシアチブ時間を表示するには、シナリオプランナーライセンスが必要です。 シナリオプランナーについて詳しくは、[ シナリオプランナーの基本を学ぶ](../../../scenario-planner/get-started-with-scenario-planning.md)を参照してください。
+>  役割の割り当てパネルにイニシアチブ時間を表示するには、シナリオプランナーライセンスが必要です。 シナリオプランナーについて詳しくは、[&#x200B; シナリオプランナーの基本を学ぶ](../../../scenario-planner/get-started-with-scenario-planning.md)を参照してください。
 >
 >過去にAdobe Scenario Plannerを導入したことがある企業であれば、その導入はスムーズに行うことができます。 シナリオプランナーは購入できなくなりました。
 
@@ -116,11 +116,11 @@ able style="table-layout:auto">
    * **タスク**
    * **ワークロードバランサー**
 
-1. **役割の割り当てを表示** アイコン ![役割の割り当てを表示アイコン ](assets/show-role-allocation-icon.png)をクリックします。
+1. **役割の割り当てを表示** アイコン ![役割の割り当てを表示アイコン &#x200B;](assets/show-role-allocation-icon.png)をクリックします。
 
    役割の配分パネルが表示されます。
 
-   ![予定時間のみ含む役割の割り当てパネル ](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![予定時間のみ含む役割の割り当てパネル &#x200B;](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. **役割の割り当て** パネルで、次の情報を確認します。
 

@@ -101,9 +101,9 @@ Old:
 
 ## 前提条件
 
-計画内にイニシアチブを作成する前に、計画を作成するか、別のユーザーと計画を共有する必要があります。計画の作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
+計画内にイニシアチブを作成する前に、計画を作成するか、別のユーザーと計画を共有する必要があります。計画の作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
 
-イニシアチブについて詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md) のイニシアチブの概要を参照してください。
+イニシアチブについて詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md) のイニシアチブの概要を参照してください。
 
 ## イニシアチブの作成
 
@@ -112,11 +112,11 @@ Old:
 * 最初から。
 * プランにプロジェクトを読み込む
 
-  プロジェクトをプラン内のイニシアチブとして読み込む方法について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランにプロジェクトを読み込むを参照してください。
+  プロジェクトをプラン内のイニシアチブとして読み込む方法について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランにプロジェクトを読み込むを参照してください。
 
 * 既存のイニシアチブをコピーする。
 
-  イニシアチブのコピーについて詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md) でイニシアチブをコピーを参照してください。
+  イニシアチブのコピーについて詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md) でイニシアチブをコピーを参照してください。
 
 イニシアチブを最初から作成するには、以下のように行います。
 
@@ -138,7 +138,7 @@ Old:
 1. （オプション）イニシアチブバーの端をドラッグして、期間を 1 か月超に延長し、イニシアチブの最後の月を表示する場所にリリースします。
 1. （オプションおよび条件付き）イニシアチブの期間がプランの期間より短い場合は、プランのタイムライン上の別の位置にイニシアチブバーをドラッグ＆ドロップして、別の時間枠に移動します。
 
-   ![ タイムライン上でイニシアチブを移動](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![&#x200B; タイムライン上でイニシアチブを移動](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -164,7 +164,7 @@ Old:
 
 1. イニシアチブのバーをクリックします。イニシアチブの詳細パネルが右側に開きます。
 
-   ![ イニシアチブの詳細パネル ](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![&#x200B; イニシアチブの詳細パネル &#x200B;](assets/initiative-details-panel-multiple-months-350x626.png)
 
    次の情報を指定または確認します。
 
@@ -230,9 +230,9 @@ Old:
 
    >[!NOTE]
    >
-   >プランの担当業務の数と予算、編集中のイニシアチブの担当業務の数とコスト、およびその上にあるすべてのイニシアチブのコストを定義済みで、それらすべてがプランに指定した金額を超える場合、[!DNL Workfront] はそのイニシアチブを完了するのに十分なリソースがないと判断する場合があります。[!DNL Workfront] がこのイニシアチブを達成しようとすると、これが競合としてマークされ、赤いバーで表示されます。競合したイニシアチブに続くすべてのイニシアチブが赤い背景で表示されます。リソースが不十分な最初のイニシアチブから始めて、イニシアチブのニーズの一部を調整する必要が生じる場合があります。競合するイニシアチブの調整について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) でのイニシアチブの競合を解決を参照してください。
+   >プランの担当業務の数と予算、編集中のイニシアチブの担当業務の数とコスト、およびその上にあるすべてのイニシアチブのコストを定義済みで、それらすべてがプランに指定した金額を超える場合、[!DNL Workfront] はそのイニシアチブを完了するのに十分なリソースがないと判断する場合があります。[!DNL Workfront] がこのイニシアチブを達成しようとすると、これが競合としてマークされ、赤いバーで表示されます。競合したイニシアチブに続くすべてのイニシアチブが赤い背景で表示されます。リソースが不十分な最初のイニシアチブから始めて、イニシアチブのニーズの一部を調整する必要が生じる場合があります。競合するイニシアチブの調整について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) でのイニシアチブの競合を解決を参照してください。
 
-1. （オプション）担当業務の名前にカーソルを合わせ、**[!UICONTROL ごみ箱アイコン]** ![削除アイコン ](assets/delete.png)をクリックして、イニシアチブから削除します。
+1. （オプション）担当業務の名前にカーソルを合わせ、**[!UICONTROL ごみ箱アイコン]** ![削除アイコン &#x200B;](assets/delete.png)をクリックして、イニシアチブから削除します。
 
 1. （条件付き）イニシアチブに変更を加えた場合は、「**[!UICONTROL 適用]**」をクリックします。
 
@@ -255,4 +255,4 @@ Old:
 
    これで、イニシアチブが計画に含まれるようになりました。
 
-   計画からイニシアチブを削除する方法について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md) 内のイニシアチブを削除を参照してください。
+   計画からイニシアチブを削除する方法について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md) 内のイニシアチブを削除を参照してください。

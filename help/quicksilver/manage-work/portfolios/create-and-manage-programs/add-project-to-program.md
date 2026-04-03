@@ -63,7 +63,7 @@ ht-degree: 58%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -107,7 +107,7 @@ old:
 
    >[!TIP]
    >
-   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
+   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -147,7 +147,7 @@ old:
    1. 「**[!UICONTROL プロジェクトを追加]**」ボックスで、「**このプログラムにプロジェクトを追加**」フィールドにプロジェクトの名前を入力し、リストに表示されたら選択します。<!--check casing on links and buttons-->
 
       複数のプロジェクトを追加できます。
-   1. （オプション）プログラムに追加しない場合は、プロジェクト名の横にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete-icon.png)をクリックします。
+   1. （オプション）プログラムに追加しない場合は、プロジェクト名の横にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete-icon.png)をクリックします。
 
    1. 「**[!UICONTROL プロジェクトを追加]**」をクリックします。<!--check at unshimming-->
 

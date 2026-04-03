@@ -81,7 +81,7 @@ ht-degree: 76%
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL Work]のライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL Work]のライセンスを持つチームメンバーのみがこのオプションを表示します。
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションの&#x200B;**[!UICONTROL ストーリーを見積もり]**&#x200B;エリアで、ストーリーのサイズ（作業負荷）の見積もりにポイントと時間を使用するかどうかを選択します。ポイントを選択した場合は、1 ポイントが何時間に相当するかを指定します。（デフォルトは1 ポイント = 8時間です）。 これは、ストーリーに追加される予定時間数です。
@@ -137,7 +137,7 @@ ht-degree: 76%
 
 ### プロジェクトのステータス列を設定 {#configure-status-columns-for-projects}
 
-プロジェクトのステータス列を設定する方法については、[ [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でビューを作成または編集の記事の、[[!UICONTROL アジャイル]ビューを作成またはカスタマイズ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)の節を参照してください。
+プロジェクトのステータス列を設定する方法については、[&#x200B; [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でビューを作成または編集の記事の、[[!UICONTROL アジャイル]ビューを作成またはカスタマイズ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)の節を参照してください。
 
 ## アジャイルストーリーボードのストーリーカードに表示する追加フィールドを設定します
 
@@ -166,7 +166,7 @@ ht-degree: 76%
 1. **[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するアジャイルチームを選択します。
-1. **[!UICONTROL 詳細]** メニューをクリックし、**[!UICONTROL 編集]**を選択します。
+1. **[!UICONTROL 詳細]** メニューをクリックし、**[!UICONTROL 編集]**&#x200B;を選択します。
 このオプションは、[!UICONTROL プラン]または[!UICONTROL ワーク]ライセンスを持つチームメンバーのみに表示されます。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
@@ -219,7 +219,7 @@ ht-degree: 76%
 {{step1-to-team}}
 
 1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
-1. **[!UICONTROL 詳細]** メニューをクリックし、**[!UICONTROL 編集]**を選択します。
+1. **[!UICONTROL 詳細]** メニューをクリックし、**[!UICONTROL 編集]**&#x200B;を選択します。
 このオプションは、[!UICONTROL プラン]または[!UICONTROL ワーク]ライセンスを持つチームメンバーのみに表示されます。
 1. 「[!UICONTROL アジャイル]」セクションの[!UICONTROL 作業アイテムがイテレーションに追加されるとき]エリアで、次のオプションから選択します。
 

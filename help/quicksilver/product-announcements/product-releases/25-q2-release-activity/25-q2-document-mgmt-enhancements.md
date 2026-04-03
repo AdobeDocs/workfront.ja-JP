@@ -63,4 +63,4 @@ For more information, see [Use new document approvals and proofing together](/he
 
 ドキュメント レポートで一度に複数のドキュメントを編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。
 
-詳しくは、[ ドキュメントの一括編集](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)を参照してください。
+詳しくは、[&#x200B; ドキュメントの一括編集](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)を参照してください。

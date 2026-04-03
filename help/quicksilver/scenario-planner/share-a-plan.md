@@ -113,7 +113,7 @@ Old:
   NOTE: ensure this stays this way and they don't restrict Workers from SP as well?? OR ensure you can even SEE Requestors as an option or they are not grayed out??)
   -->
 
-様々なライセンスタイプの[!DNL Scenario Planner]へのアクセス権については、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)へのアクセス権の付与を参照してください。
+様々なライセンスタイプの[!DNL Scenario Planner]へのアクセス権については、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)へのアクセス権の付与を参照してください。
 
 ## 計画の共有に関する考慮事項
 
@@ -205,7 +205,7 @@ Old:
 
 プロジェクトのアクセスレベルについては、[プロジェクトへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)を参照してください。
 
-プロジェクト権限について詳しくは、[ [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でプロジェクトを共有を参照してください。
+プロジェクト権限について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でプロジェクトを共有を参照してください。
 
 ## 計画の共有
 
@@ -225,7 +225,7 @@ Old:
 
    または
 
-   複数のプランを選択して一括で共有する場合は、プランのリストの上部にある&#x200B;**[!UICONTROL 共有]** アイコン ![共有アイコン ](assets/share-icon-26x26.png)をクリックして、[!UICONTROL  プラン ] アクセス ボックスを開きます。
+   複数のプランを選択して一括で共有する場合は、プランのリストの上部にある&#x200B;**[!UICONTROL 共有]** アイコン ![共有アイコン &#x200B;](assets/share-icon-26x26.png)をクリックして、[!UICONTROL &#x200B; プラン &#x200B;] アクセス ボックスを開きます。
 
    >[!TIP]
    >
