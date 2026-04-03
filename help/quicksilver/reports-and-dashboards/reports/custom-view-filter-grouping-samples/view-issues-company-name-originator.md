@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：作成者の会社名に関するイシュー
+title: 表示：発信元の会社名に関する問題
 description: このイシュービューには、イシューを送信したユーザーに関連付けられた会社名が表示されます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 60%
@@ -37,8 +39,8 @@ ht-degree: 60%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -60,9 +62,9 @@ ht-degree: 60%
 
 1. イシューのリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューから、**新規表示**&#x200B;を選択します。
-1. **列プレビュー** 領域で、1 列以外のすべての列を削除します。
-1. 残りの列のヘッダーをクリックし、[**テキスト モードに切り替え**] をクリックしてから、[**テキスト モードの編集**] をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. **列プレビュー**&#x200B;領域で、1列を除くすべての列を削除します。
+1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え**&#x200B;をクリックしてから、**テキストモードを編集**&#x200B;をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
 
    ```
@@ -131,5 +133,5 @@ ht-degree: 60%
    column.5.width=151
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
-1. （オプション）ビュー名を更新し、「**ビューを保存**」をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。
+1. （オプション）ビュー名を更新し、**ビューを保存**&#x200B;をクリックします。

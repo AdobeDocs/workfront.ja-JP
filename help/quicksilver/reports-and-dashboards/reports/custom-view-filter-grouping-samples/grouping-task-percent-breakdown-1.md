@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: グループ化：タスク割合内訳 1
+title: グループ化：タスクのパーセント分類1
 description: このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。分類には、25 パーセントポイント増分の完了率の値が表示されます：0～25％、25～50％など。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ddb9496c-9347-4dc9-a4ce-b9017abd0bb2
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 82%
@@ -46,8 +48,8 @@ ht-degree: 82%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -70,10 +72,10 @@ ht-degree: 82%
 
 1. タスクのリストに移動します。
 1. **グループ化**&#x200B;ドロップダウンメニューで「**新規グループ化**」を選択します。
-1. **グループ化を追加** をクリックします。
+1. 「**グループ化を追加**」をクリックします。
 
 1. 「**テキストモードに切り替え**」をクリックします。
-1. **グループ化** 領域のテキストを削除します。
+1. **Group by**&#x200B;領域のテキストを削除します。
 1. 次のコードでテキストを置き換えます。
 
    ```
@@ -84,5 +86,5 @@ ht-degree: 82%
    group.0.valueformat=string
    ```
 
-1. **完了**/**グループ化を保存** をクリックします。
-1. （オプション）グループ化名を更新し、「**グループ化を保存**」をクリックします。
+1. 「**完了**」 > 「**グループ化を保存**」をクリックします。
+1. （オプション）グループ化名を更新し、**グループ化を保存**&#x200B;をクリックします。

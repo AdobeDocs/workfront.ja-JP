@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1841'
 ht-degree: 97%
@@ -132,7 +134,7 @@ ht-degree: 97%
 
    >[!INFO]
    >
-   >**例：**&#x200B;このブループリントの新規イシューの環境設定では、4 つのキューのトピックが提供されます。ユーザーは、イシューを作成する際に、これらのトピックの 1 つを選択します。（トピックグループは 1 つしか存在しないので、自動的に適用され、ユーザーは選択する必要はありません）。 ユーザーが問題を完了して送信すると、割り当て先の担当業務またはチームがルーティングルールで決定されます。
+   >**例：**このブループリントの新規イシューの環境設定では、4 つのキューのトピックが提供されます。ユーザーは、イシューを作成する際に、これらのトピックの 1 つを選択します。（トピックグループは1つしか存在しないため、自動的に適用され、ユーザーは選択する必要はありません）。 ユーザーが問題を完了して送信すると、ルーティングルールによって、割り当てられたジョブロールまたはチームが決定されます。
    >![新規イシューの環境設定の例](assets/Blueprints_IssuePrefsDetails.png)
    >![新規イシューのキューのトピック](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![担当業務にルーティングされたイシュー](assets/Blueprints_ProjectShowsIssueAssignment.png)

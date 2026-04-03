@@ -2,12 +2,14 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
-title: カードリストの使用
+title: カードリストの利用
 description: ワークストリーム上にカードリストを作成し、カードをイテレーションに追加できます。
 author: Courtney
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 99%

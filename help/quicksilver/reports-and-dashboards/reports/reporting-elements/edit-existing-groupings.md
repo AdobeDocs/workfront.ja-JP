@@ -4,7 +4,9 @@ description: 既存のグループを編集
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 91%
@@ -40,7 +42,7 @@ ht-degree: 91%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>報告書、ダッシュボード、カレンダーへのアクセスを編集して、報告書のグループ化を編集します</p>
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートのグループ化を編集する</p>
    </td> 
   </tr> 
   <tr> 
@@ -64,7 +66,7 @@ ht-degree: 91%
 
 1. カスタマイズしたいグループ化を含むオブジェクトのリストに移動します。
 1. **グループ化**&#x200B;アイコンをクリックします。
-1. カスタマイズするグループ化を選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. カスタマイズするグループ化を選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
    ![編集アイコンを選択します。](assets/customizegrouping-nwe-standard-350x291.png)
 
@@ -89,4 +91,4 @@ ht-degree: 91%
 1. 手順 4、5、6 を繰り返して、追加のグループ化を定義します。\
    情報を整理するために、最大 3 つのグループを定義できます。マトリックスレポートを作成すると、最大 4 つのグループに分けて情報を整理できます。マトリックスレポートについて詳しくは、[マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)を参照してください。
 
-1. **グループ化を保存** をクリックして、現在のグループ化を自分の変更に置き換えます。
+1. 「**グループ化を保存**」をクリックして、現在のグループ化を変更内容に置き換えます。

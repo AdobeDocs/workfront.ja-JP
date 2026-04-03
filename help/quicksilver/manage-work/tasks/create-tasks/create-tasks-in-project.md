@@ -7,7 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 53%
@@ -18,28 +20,28 @@ ht-degree: 53%
 
 <!-- Audited: 10/2024 -->
 
-Adobe Workfrontでは次の方法でタスクを作成できます。
+Adobe Workfrontでは、次の方法でタスクを作成できます。
 
-* プロジェクトを作成した後、ゼロからタスクをプロジェクトに作成します。
+* プロジェクトの作成後、プロジェクトでタスクをゼロから作成します。
 
-  プロジェクトを作成したら、タスクを追加および変更して、プロジェクト計画を整理できます。 プロジェクトの作成について詳しくは、[プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md)を参照してください。
+  プロジェクトを作成したら、タスクを追加して変更し、プロジェクト計画を整理できます。 プロジェクトの作成について詳しくは、[プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md)を参照してください。
 
-* テンプレートをプロジェクトに追加して、タスクを作成します。
+* プロジェクトにテンプレートを追加して、タスクを作成します。
 
   詳しくは、[プロジェクトへのテンプレートの添付](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md)を参照してください。
 
-* 個人タスクを作成し、プロジェクトに移動します。
+* 個人タスクを作成してプロジェクトに移動する：
 
-  個人タスクを作成するには、次のいずれかの操作を行います。
+  次のいずれかの操作を行って、個人タスクを作成できます。
 
-   * アドホック作業要求を作成してユーザーに送信する
-   * ホームエリアでの To Do アイテムの作成
+   * アドホック作業リクエストを作成し、ユーザーに送信する
+   * ホーム領域でのTo Do アイテムの作成
 
-  プロジェクトにない個人用タスクを作成する方法については、「[&#x200B; 個人用タスクの作成 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)」を参照してください。
+  プロジェクトにない個人用タスクの作成について詳しくは、[個人用タスクの作成](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)を参照してください。
 
-  個人タスクをプロジェクトに移動すると、そのタスクが作業タスクになります。
+  個人用タスクをプロジェクトに移動して、作業タスクにすることができます。
 
-この記事では、タスクをゼロから作成する方法と、個人のタスクをプロジェクトに移動する方法について説明します。
+この記事では、タスクをゼロから作成する方法と、個人タスクをプロジェクトに移動する方法について説明します。
 
 次の方法でタスクを作成することもできます。
 
@@ -80,7 +82,8 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,14 +113,14 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
 
 ## プロジェクトでのタスクの作成
 
-プロジェクトでタスクを作成することは、テンプレートでタスクを作成することと似ています。 テンプレートタスクをテンプレートに追加する場合は、以下に説明する手順に従います。
+プロジェクトでのタスクの作成は、テンプレートでのタスクの作成に似ています。 テンプレートにテンプレートタスクを追加する場合は、次の手順に従います。
 
 プロジェクトにタスクを作成するには：
 
 1. タスクを作成するプロジェクトに移動します。
 1. 左側のパネルの「**タスク**」をクリックします。
-1. （条件付き）現在アジャイルビューでタスクリストを表示している場合、右上隅にある **リスト表示** アイコン ![&#x200B; タスクのアジャイルビューでのリスト表示 &#x200B;](assets/list-view-in-agile-view-for-tasks.png) をクリックして、タスクリストを表示します。
-1. （オプション） **計画モード** アイコン ![&#x200B; タスク・リストの計画モード・アイコン &#x200B;](assets/nwe-plan-mode-icon-task-list.png) をクリックして **手動保存** を選択し、**標準** または **タイムライン計画** を選択します。 これにより、デフォルトで有効になっている&#x200B;**自動保存**&#x200B;オプションが無効になります。
+1. （条件付き）現在アジャイルビューでタスクリストを表示している場合は、右上隅の「**リスト表示**」アイコン「![ アジャイルビューのリスト表示](assets/list-view-in-agile-view-for-tasks.png)」をクリックして、タスクリストを表示します。
+1. （オプション）タスクリスト **の** プランモード ![ アイコン ](assets/nwe-plan-mode-icon-task-list.png) プランモードアイコンをクリックし、**手動保存**&#x200B;を選択してから、**標準**&#x200B;または&#x200B;**タイムライン計画**&#x200B;のいずれかを選択します。 これにより、デフォルトで有効になっている&#x200B;**自動保存**&#x200B;オプションが無効になります。
 
    ![「手動保存」を選択](assets/manual-save-option.png)
 
@@ -130,21 +133,21 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
    * タスクリストの最上部の「**新規タスク**」をクリックします。
    * タスクリストの下部にある「**さらにタスクを追加**」をクリックします。
 
-   ![&#x200B; ハイライト表示されたリストの「新規タスク」または「タスクを追加」ボタン &#x200B;](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
+   ![新しいタスクまたはリスト内のタスクを追加ボタンがハイライト表示されている](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
-1. （条件付き） **新規タスク** をクリックした場合、次の操作を行います。
+1. （条件付き）新しいタスク **をクリックした場合は、次の操作を行います。**
 
-   1. タスクをすばやく作成する場合は、「**新規タスク**」ボックス内の限定されたフィールドリストのいずれかのフィールドを指定し、「**タスクを作成**」をクリックします。
+   1. **新規タスク** ボックス内のフィールドの制限リストにあるフィールドのいずれかを指定し、タスクをすばやく作成する場合は、「**タスクを作成**」をクリックします。
 
       または
 
       タスクのフィールドをすべてアップデートするには、「**その他のオプション**」をクリックすると「**タスクを作成**」ボックスが開きます。
 
-      ![&#x200B; タスク作成の小さいボックス &#x200B;](assets/nwe-create-task-small-screen-350x272.png)
+      ![ タスクの小さいボックスを作成](assets/nwe-create-task-small-screen-350x272.png)
 
       「**タスクを作成**」ボックスが開きます。
 
-      ![&#x200B; タスクの大きいボックスを作成 &#x200B;](assets/create-task-larger-box-nwe-350x244.png)
+      ![ タスクの大きなボックスを作成](assets/create-task-larger-box-nwe-350x244.png)
 
 
       >[!NOTE]
@@ -173,7 +176,7 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
 
    特に、複数のタスクをリストに追加する場合は、このオプションを使用することをお勧めします。
 
-   ![&#x200B; インラインでさらにタスクを追加 &#x200B;](assets/add-more-tasks-inline.png)
+   ![さらにタスクをインラインで追加](assets/add-more-tasks-inline.png)
 
 1. （条件付き）次のいずれかを行います。
 
@@ -194,30 +197,30 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
 
          これにより、新しいタスクが子タスク、または前のタスクのサブタスクになります。
 
-         子タスクの詳細については、「サブタスクの作成」の「タスクのサブタスク セクションからサブタスクを作成する [&#x200B; を参照し &#x200B;](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) ください。
+         子タスクについて詳しくは、[ サブタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)の「タスク サブタスクからサブタスクを作成する」セクションを参照してください。
 
       1. （条件付き）「**さらにタスクを追加**」を押した後に「**自動保存**」オプションを無効にした場合は、次の操作を行うことができます。
 
          * いつでも「**元に戻す**」をクリックして最後の変更を元に戻したり、「**キャンセル**」をクリックしてタスクリストに加えたすべての変更を元に戻したりできます。
          * 以前に「**元に戻す**」をクリックした場合は、「**やり直し**」をクリックして、最後にキャンセルした変更を再適用できます。
          * 「**保存**」をクリックすると、タスクリストに変更を保存できます。
-   1. （任意）タスクリストで、「**先行タスク**」セクションをクリックして、タスクに先行タスクを追加します。 詳しくは、[&#x200B; 先行タスクエリアを使用した先行タスク関係の作成 &#x200B;](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md) を参照してください。
-   1. （オプション）タスクリストで、「**サブタスク**」セクションをクリックして、子タスクを追加します。 詳しくは、[サブタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)を参照してください。
+   1. （オプション）タスクリストで「**先行タスク**」セクションをクリックして、タスクに先行タスクを追加します。 詳しくは、[先行タスク領域を使用した先行タスク関係の作成](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)を参照してください。
+   1. （オプション）タスクリストで「**サブタスク**」セクションをクリックして、子タスクを追加します。 詳しくは、[サブタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)を参照してください。
 
 ## 個人タスクをプロジェクトに移動してタスクを作成する
 
 1. （条件付き）自分または他のユーザーが個人用タスクを作成したことを確認します。
 
-   詳しくは、[&#x200B; 個人タスクの作成 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) を参照してください。
-1. 個人用タスク フィルターを作成し、タスク レポートまたはリストに適用します。
+   詳しくは、[個人用タスクの作成](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)を参照してください。
+1. 個人タスクフィルターを作成し、タスクレポートまたはリストに適用します。
 
-   詳しくは、[&#x200B; フィルター：個人用タスク &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md) を参照してください。
+   詳しくは、[ フィルター：個人タスク ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)を参照してください。
 
-   ![&#x200B; 個人タスクレポート &#x200B;](assets/personal-tasks-report.png)
-1. 個人タスクレポートのタスク名をクリックして開きます。
+   ![個人タスクレポート ](assets/personal-tasks-report.png)
+1. 個人用タスクレポートでタスク名をクリックして開きます。
 
-   Workfrontは、リストにない個人プロジェクトに個人のタスクを保存します。このプロジェクトは、常に「&lt; ユーザーのフルネーム > のタスク」というパターンに従って名前が付けられます。 例えば、個人プロジェクトの名前を「Rick&#39;s Tasks」とすることができます。
+   Workfrontは、個人用タスクをリストされていない個人用プロジェクトに保存します。このプロジェクトには、常に「&lt; ユーザーのフルネーム >&#39;のタスク」というパターンに従って名前が付けられます。 例えば、個人用プロジェクトを「Rick&#39;s Tasks」という名前にすることができます。
 
-1. タスクページで、**その他メニュー**![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**移動** をクリックします。 タスクの移動の詳細については、「[&#x200B; タスクの移動 &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)」を参照してください。
+1. タスクページから、**詳細メニュー** ![詳細アイコン ](assets/more-icon.png)をクリックし、**移動**&#x200B;をクリックします。 タスクの移動について詳しくは、[ タスクの移動](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。
 
-   タスクの移動が完了すると、選択したプロジェクトにタスクが表示されます。 プロジェクトタイムラインは、新しいタスクのタイムラインの影響を受ける場合があります。
+   タスクの移動が完了すると、選択したプロジェクトにタスクが表示されます。 プロジェクトタイムラインは、新しいタスクのタイムラインの影響を受ける可能性があります。

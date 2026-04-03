@@ -1,12 +1,14 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: タスクのユーザーと役割の割り当て時間の管理
+title: タスクに対するユーザーおよび役割の割り当て時間の管理
 description: タスクにユーザーまたはロールを割り当てると、タスクを完了するために一定時間作業するように割り当てられます。タスク期間のタイプが「シンプル」の場合、各ユーザーまたは担当業務がタスクに割り当てられた際に割り当てられる時間数を、手動で変更できます。
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 69%
@@ -20,17 +22,19 @@ ht-degree: 69%
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
-割り当て時間は、割り当てられたリソースがタスクの作業に費やす予定時間の合計を表します。 時間は、タスクの期間全体を通して、ユーザーが割り当てられた時間を、特定の 1 日、1 週間、1 か月に表します。
+配分時間とは、割り当てられたリソースがタスクに取り組む予定の合計時間を表します。 時間とは、タスクの期間を通じて、特定の日、平日、週、月にユーザーが割り当てられる時間を表します。
 
-タスクに対して高度な割り当てを行う際に、割り当て時間を変更できます。
+タスクに対して高度な割り当てをおこなう場合、割り当て時間を変更できます。
 
 >[!NOTE]
 >
@@ -50,7 +54,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td> <p>Standard</p>
+   <td> <p>標準</p>
    <p>Work またはそれ以上</p>
    </td> 
   </tr> 
@@ -73,9 +77,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-<!--Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+<!--
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
 
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.-->
+<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
+-->
 
 
 ## タスクの時間配分を変更する際の考慮事項
@@ -91,7 +97,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
    * [期間タイプの概要：シンプル](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
 
-* タスクに [ シンプル期間 ] タイプが設定されている場合、各ユーザーまたは担当業務に割り当てられた時間数を手動で変更して、一部のタスクの担当者が他のタスクよりも作業に時間がかかる可能性があることを示すことができます。
+* タスクにシンプルな期間タイプがある場合、各ユーザーまたはジョブロールに割り当てられた時間数を手動で変更して、タスク担当者の中には、タスクに取り組む時間が他の担当者よりも多い可能性があることを示すことができます。
 * タスクに割り当てられたチームに配分された時間数を変更することはできません。
 * イシューのユーザーまたは担当業務の割り当てを手動で変更することはできません。
 * また、ワークロードバランサーを使用して、タスクやイシューに対するユーザーの日別、週別、月別の割り当てを管理することもできます。詳しくは、[ワークロードバランサーでのユーザー割り当ての管理](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)を参照してください。
@@ -99,10 +105,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 ## タスクのユーザーまたは役割の時間配分を変更
 
 1. 時間配分を変更する割り当てのタスクに移動します。
-1. タスクヘッダーの **割り当て** エリアをクリックし、**詳細** をクリックします。
+1. タスクヘッダーの「**割り当て**」領域をクリックし、「**詳細**」をクリックします。
 1. タスクの&#x200B;**期間タイプ**&#x200B;が&#x200B;**シンプル**&#x200B;であることを確認します。
-1. 各タスク担当者の **割り当て** フィールドを変更します。 これは、タスクの期間全体に対する、このタスクへの各割り当ての全体的な配分です。これにより、タスクの全体 **予定時間数** も更新される可能性があります。
+1. タスク担当者ごとに&#x200B;**割り当て** フィールドを変更します。 これは、タスクの期間全体に対する、このタスクへの各割り当ての全体的な配分です。これにより、タスクの全体的な&#x200B;**予定時間**&#x200B;も更新される場合があります。
 
-   ![&#x200B; 割り当ての変更 &#x200B;](assets/advanced-assignments-duration-type-allocations.png)
+   ![割り当てを変更](assets/advanced-assignments-duration-type-allocations.png)
 
 1. 「**保存**」をクリックします。

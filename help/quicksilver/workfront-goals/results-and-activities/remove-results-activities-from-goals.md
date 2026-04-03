@@ -7,7 +7,9 @@ description: 関連性がなくなった場合は、Adobe Workfront Goals の目
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 87%
@@ -16,7 +18,8 @@ ht-degree: 87%
 
 # Adobe Workfront Goals の目標からの進行状況インジケーターの削除
 
-<!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
+<!--
+ for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->
 
 関連性がなくなった場合は、目標から結果、アクティビティおよびプロジェクトを削除できます。
@@ -51,7 +54,7 @@ ht-degree: 87%
  <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p><p><b>メモ</b></p>
+   <p>Adobe Workfront Ultimate</p><p><b>メモ</b></p>
 <p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr>
@@ -75,7 +78,7 @@ ht-degree: 87%
  </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの「目標」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
@@ -85,7 +88,8 @@ ht-degree: 87%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -139,11 +143,12 @@ ht-degree: 87%
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## 前提条件
 
-結果、アクティビティまたはプロジェクトに目標を関連付ける必要があります。
+結果、アクティビティ、プロジェクトに関連付けられた目標がある必要があります。
 
 ## 結果、アクティビティ、および目標からのプロジェクトの接続を削除する際の考慮事項
 
@@ -198,7 +203,7 @@ How you delete results and activities differs depending on the environment you u
 
 1. 左パネルの「**進行状況インジケーター**」をクリックします。
 
-1. 結果またはアクティビティを選択し、リスト上部の **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+1. 結果またはアクティビティを選択し、リストの上部にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete-icon.png)をクリックします。
 
 1. 「**削除**」をクリックして削除を確定します。結果またはアクティビティは削除され、復元できません。目標の完了率が更新され、削除されたアクティビティまたは結果が除外されます。
 
@@ -239,7 +244,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 
    目標ページが開きます。
 1. 左パネルの「**進行状況インジケーター**」をクリックします。
-1. プロジェクトを選択し、リストの上部にある **切断** アイコン ![&#x200B; 切断アイコン &#x200B;](assets/disconnect-icon.png) をクリックします。
+1. プロジェクトを選択し、リストの上部にある&#x200B;**切断** アイコン ![切断アイコン ](assets/disconnect-icon.png)をクリックします。
 1. 「**連携解除**」をクリックして確定します。
 
    プロジェクトは目標に接続されていません。目標の完了率が更新され、連携解除されたプロジェクトが除外されます。

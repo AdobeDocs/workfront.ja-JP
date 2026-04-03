@@ -1,12 +1,14 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: イシューの解決を他のイシュー、タスク、プロジェクトに手動で結び付ける
+title: 問題の解決を他の問題、タスク、またはプロジェクトに手動で関連付ける
 description: イシューを変換せずに、イシューの解決策をプロジェクト、タスク、またはイシューの解決策に手動で結び付けることができます。イシューは、選択したプロジェクト、タスク、またはイシューの解決可能なオブジェクトの 1 つになります。これを行うと、プロジェクト、タスク、またはイシュートリガーのステータスが変更されると、元のイシューのステータスも変更されます。
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 95%
@@ -39,12 +41,12 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>投稿者以上</p> 
+   <td><p>コントリビューター以上</p> 
    <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>イシュー、タスク、プロジェクトへのアクセスを編集</p> </td> 
+   <td> <p>イシュー、タスク、プロジェクトへのアクセス権の編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -57,7 +59,8 @@ ht-degree: 95%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +83,8 @@ ht-degree: 95%
    <td> <p>Manage permissions to the issue you link to another issue, task, or project</p> <p>View or higher permissions to the issue, task, or project you add to the existing issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 前提条件
 
@@ -95,13 +99,13 @@ ht-degree: 95%
 1. 解決策を別のイシューの解決策またはタスクやプロジェクトの解決策に結び付けるイシューに移動します。
 1. 左パネルで「**問題の詳細**」をクリックしてから、**概要**&#x200B;エリアを展開します。
 
-   ![&#x200B; 問題の詳細アイコン &#x200B;](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![問題の詳細アイコン ](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. 「**解決者**」フィールドをクリックし、次の解決オブジェクトのタイプから選択します。
 
    * **プロジェクト**
    * **タスク**
-   * **イシュー**
+   * **問題**
 
    選択したオブジェクトに応じて、次のフィールドが表示されます。
 

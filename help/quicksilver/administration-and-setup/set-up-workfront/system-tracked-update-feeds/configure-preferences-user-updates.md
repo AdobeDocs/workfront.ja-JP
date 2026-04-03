@@ -2,16 +2,18 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
-title: ユーザーアップデートの環境設定を行う
+title: ユーザー更新の環境設定
 description: ユーザーがオブジェクトの[!UICONTROL 更新]領域にコメントを追加する際に特定の機能にアクセスできるようにする設定を指定できます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 71%
+ht-degree: 75%
 
 ---
 
@@ -30,7 +32,7 @@ ht-degree: 71%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] パッケージ</td> 
    <td><p>任意</p></td> 
   </tr> 
   <tr> 
@@ -41,18 +43,19 @@ ht-degree: 71%
   </tr>  
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td><p>システム管理者：これらの手順をシステムレベルで実行します。 </p>
-   <p>プランナー：グループのマネージャーであることに加え、そのグループに対してこれらの手順を実行します。</p></td>
+   <td><p>システム管理者は、システムレベルでこれらの手順を実行します。 </p>
+   <p>プランナーは、グループのマネージャーであることに加えて、グループに対してこれらの手順を実行します。</p></td>
   </tr> 
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+* この表の詳細については、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -73,7 +76,8 @@ ht-degree: 71%
    <td><p>To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.</p><p>To perform them for a group, you must be a manager of that group.</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## ユーザーが更新で画像を追加できるようにする
 
@@ -85,7 +89,7 @@ ht-degree: 71%
 >* 画像は、オブジェクト上の[!UICONTROL 更新]タブからアクセスでき、[!UICONTROL メインメニュー]の[!UICONTROL ドキュメント]エリアでも使用できます。
 >
 
-1. **[!UICONTROL の右上隅にある]** メインメニュー ![&#x200B; アイコン &#x200B;](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront] をクリックし、**[!UICONTROL 設定]**![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
+1. **[!UICONTROL の右上隅にある]** メインメニュー![ アイコン ](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront]をクリックし、**[!UICONTROL 設定]** ![ ギア設定アイコン ](assets/gear-icon-settings.png)をクリックします。
 1. 左パネルで、**[!UICONTROL インターフェイス]**／**[!UICONTROL フィードの更新]**&#x200B;を選択します。
 1. 「**[!UICONTROL 環境設定]**」タブを選択します。
 

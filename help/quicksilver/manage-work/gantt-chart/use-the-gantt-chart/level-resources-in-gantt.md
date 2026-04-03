@@ -2,14 +2,16 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: '[!UICONTROL ガントチャート]でのリソースの標準化'
-description: 同じリソースが 2 つの異なるタスクに割り当てられている場合は、リソースの平準化を使用してタスクのタイムラインを調整し、タスクが同時に発生しないようにすることができます。 この記事では、ガントチャートでリソースのレベルを設定する方法について説明します。
+description: 同じリソースが2つの異なるタスクに割り当てられている場合、リソースの平準化を使用してタスクのタイムラインを調整し、同時に発生しないようにすることができます。 この記事では、ガントチャートでリソースをレベル設定する方法について説明します。
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 80%
 
 <!--Audited: 08/2025-->
 
-リソースの平準化を使用してタスクのタイムラインを調整すると、同じリソースが複数のタスクに同時に割り当てられている場合に、それらのタスクが同時に発生しないようにすることができます。
+リソースの平準化を使用して、同じリソースが同時に複数のタスクに割り当てられている場合に備えて、タスクのタイムラインを調整して同時に発生しないようにすることができます。
 
 プロジェクトでのリソースの標準化には、次の 2 つの目的があります。
 
@@ -33,7 +35,7 @@ ht-degree: 80%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +58,8 @@ ht-degree: 80%
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +84,8 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
    <td> <p>[!UICONTROL Manage] access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## リソースの標準化の概要
 
@@ -96,7 +100,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
 * 先行タスク関係は、リソースの標準化よりも優先されます。
 * [!UICONTROL ガントチャート]で標準化を調整するには、プロジェクトの「**[!UICONTROL リソースの標準化]**」を「**[!UICONTROL 手動]**」に設定する必要があります。プロジェクトに対する管理権限がある場合は、プロジェクトでこの設定を調整し、**[!UICONTROL プロジェクトの編集]**&#x200B;ボックスで「**[!UICONTROL 手動]**」ではなく「**[!UICONTROL 自動]**」を選択することで、システムに自動的にリソースを標準化させることができます。
 
-  ![&#x200B; リソースの標準化モード &#x200B;](assets/resource-leveling-mode-350x177.png)
+  ![ リソースの平準化モード ](assets/resource-leveling-mode-350x177.png)
 
 * プロジェクト所有者またはタスク担当者は、タスクに標準化の遅延を導入して、タスクに追加の時間が必要になる可能性が高いことを示すことができます。タスクに標準化の遅延を追加する方法については、[タスク標準化の遅延の更新](../../../manage-work/tasks/task-information/task-leveling-delay.md)を参照してください。
 
@@ -115,7 +119,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
    >
    >「[!UICONTROL 自動保存]」オプションが有効になっている場合、[!UICONTROL ガントチャート]でリソースを標準化することはできません。
 
-   ![&#x200B; 手動設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![手動設定が有効になりました](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. **[!UICONTROL リソースの標準化]**&#x200B;ドロップダウンメニューをクリックします。
 
@@ -130,7 +134,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
    >
    >同じ期間に発生する複数のタスクにリソースが割り当てられている場合、リソース配分が超過することがあります。
 
-1. （オプションおよび条件付き）自動保存オプションを無効にした場合、変更をキャンセルまたは複製する場合は **[!UICONTROL 取り消し]** または **[!UICONTROL やり直し]** アイコンをクリックします。
+1. （オプションおよび条件付き）自動保存オプションを無効にしている場合は、変更をキャンセルまたは複製する場合は、**[!UICONTROL 取り消し]**&#x200B;または&#x200B;**[!UICONTROL やり直し]** アイコンをクリックします。
 
    >[!TIP]
    >

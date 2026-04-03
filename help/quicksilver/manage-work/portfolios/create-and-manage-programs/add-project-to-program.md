@@ -2,14 +2,16 @@
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: プログラムへのプロジェクトの追加
-description: ポートフォリオ内のプログラムに追加することで、プロジェクトを整理できます。1 つのプログラム内に複数のプロジェクトを含めることができますが、1 つのプロジェクトに関連付けることができるプログラムは 1 つだけです。 プログラムにプロジェクトを追加すると、そのプロジェクトはプログラムのポートフォリオに自動的に同時に追加されます。
+description: ポートフォリオ内のプログラムに追加することで、プロジェクトを整理できます。1つのプログラム内に複数のプロジェクトを含めることができますが、1つのプロジェクトに関連付けることができるのは1つのプログラムのみです。 プログラムにプロジェクトを追加すると、同時に自動的にプログラムのポートフォリオに追加されます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 56%
+ht-degree: 58%
 
 ---
 
@@ -17,15 +19,17 @@ ht-degree: 56%
 
 <!--Audited: 08/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 ポートフォリオ内のプログラムに追加することで、プロジェクトを整理できます。1 つのプログラム内に複数のプロジェクトを含めることができますが、1 つのプログラムに関連付けることができるのは 1 つのプログラムのみです。
 
 プログラムにプロジェクトを追加する前に、このポートフォリオ内にポートフォリオとプログラムを作成する必要があります。
 
-プログラムにプロジェクトを追加すると、そのプロジェクトはプログラムのポートフォリオに自動的に同時に追加されます。
+プログラムにプロジェクトを追加すると、同時に自動的にプログラムのポートフォリオに追加されます。
 
 ポートフォリオの作成について詳しくは、[ポートフォリオの作成](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)を参照してください。
 
@@ -40,7 +44,7 @@ ht-degree: 56%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -50,20 +54,21 @@ ht-degree: 56%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
-   <td> <p>プログラムまたはそれ以降への [!UICONTROL 編集 &#x200B;] アクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
+   <td> <p>[!UICONTROL Edit] プログラム以上へのアクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プログラムに対する [!UICONTROL Manage] 権限</p> <p>プロジェクトへの [!UICONTROL Manage] 権限</p> </td> 
+   <td> <p>プログラムに対する[!UICONTROL Manage]権限</p> <p>プロジェクトへの [!UICONTROL Manage] 権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
-<!--old:
+<!--
+old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +94,8 @@ ht-degree: 56%
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## 既存のプログラムにプロジェクトを追加する
 
@@ -101,7 +107,7 @@ ht-degree: 56%
 
    >[!TIP]
    >
-   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
+   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -132,17 +138,17 @@ ht-degree: 56%
     </tbody> 
    </table>
 
-1. （任意）「**[!UICONTROL 既存プロジェクト]**」を選択すると、「**プロジェクトの追加**」ボックスが開きます。<!--check at unshimming-->
+1. （条件付き）既存のプロジェクト **[!UICONTROL を選択した場合、「]** プロジェクトを追加&#x200B;**」ボックスが開きます。**<!--check at unshimming-->
 
-   ![&#x200B; プログラムに既存のプロジェクトを追加ボックス &#x200B;](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
+   ![既存のプロジェクトをプログラムボックスに追加](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
 
 1. 次の操作を実行します。
 
-   1. 「**[!UICONTROL プロジェクトを追加]**」ボックスの「**このプログラムにプロジェクトを追加**」フィールドにプロジェクトの名前を入力し、リストに表示されたら選択します。<!--check casing on links and buttons-->
+   1. 「**[!UICONTROL プロジェクトを追加]**」ボックスで、「**このプログラムにプロジェクトを追加**」フィールドにプロジェクトの名前を入力し、リストに表示されたら選択します。<!--check casing on links and buttons-->
 
       複数のプロジェクトを追加できます。
-   1. （オプション）プロジェクト名をプログラムに追加しない場合は、プロジェクト名の横にある **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+   1. （オプション）プログラムに追加しない場合は、プロジェクト名の横にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete-icon.png)をクリックします。
 
    1. 「**[!UICONTROL プロジェクトを追加]**」をクリックします。<!--check at unshimming-->
 
-      プロジェクトがプログラムの **[!UICONTROL プロジェクト]** タブに表示され、プログラムとプログラムの各ポートフォリオに関連付けられます。
+      プロジェクトは、プログラムの「**[!UICONTROL プロジェクト]**」タブに表示され、プログラムとそれぞれのプログラムのポートフォリオに関連付けられます。

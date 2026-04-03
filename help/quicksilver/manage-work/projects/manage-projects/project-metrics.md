@@ -1,17 +1,19 @@
 ---
 content-type: overview;how-to-procedural
 product-area: projects
-keywords: 分析、指標、プロジェクト、タスク、担当者、完了、ステータス、期限切れ、予定
+keywords: 分析，指標，プロジェクト，タスク，担当者，完了，ステータス，期限切れ，今後の予定
 navigation-topic: manage-projects
-title: プロジェクト指標について
+title: プロジェクト指標の理解
 description: プロジェクト指標を使用すると、プロジェクトで発生していることをビジュアライゼーションで表示し、プロジェクトのニーズやステータスをすばやく評価できます。プロジェクトの左側のパネルにある指標領域の解釈方法を説明します。
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -33,7 +35,7 @@ ht-degree: 90%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>ライト以上</p>
+   <td> <p>明るいまたはそれ以上</p>
    <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +53,8 @@ ht-degree: 90%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +78,8 @@ ht-degree: 90%
    <td> <p>View permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 前提条件
 
@@ -89,7 +93,7 @@ ht-degree: 90%
 
 プロジェクト指標を使用すると、プロジェクトで発生していることをビジュアライゼーションで表示し、プロジェクトのニーズやステータスをすばやく評価できます。
 
-![&#x200B; プロジェクト指標 &#x200B;](assets/project-metrics-full-screen-350x238.png)
+![ プロジェクト指標](assets/project-metrics-full-screen-350x238.png)
 
 指標領域では、プロジェクト全体の健全性のほか、次の情報を確認できます。
 
@@ -101,17 +105,19 @@ ht-degree: 90%
 
 これらのタスクやイシューの確認について詳しくは、[指標の詳細を表示](#view-metrics-details)を参照してください。
 
-<!--this was deprecated: 
+<!--
+this was deprecated: 
 >[!TIP]
 >
 >To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
->To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
+-->
 
 ## プロジェクトの KPI
 
 主要業績評価指標（KPI）は、指標領域の上部に表示されます。
 
-![&#x200B; プロジェクト指標 &#x200B;](assets/project-metrics-kpis-350x52.png)
+![ プロジェクト指標](assets/project-metrics-kpis-350x52.png)
 
 これらの KPI は、次のカテゴリに分類されます。
 
@@ -124,7 +130,7 @@ ht-degree: 90%
 >[!TIP]
 >
 >特定の KPI の作業項目リストを表示するには、その KPI をクリックします。このリストでは、特定の作業アイテムをクリックして、新規タブに詳細を表示できます。\
->![&#x200B; 完了したタスク &#x200B;](assets/completed-tasks-dialog-350x75.png)\
+>![完了したタスク ](assets/completed-tasks-dialog-350x75.png)\
 >詳しくは、[指標の詳細を表示](#view-metrics-details)を参照してください。
 
 ## タスクまたはイシューの棒グラフ
@@ -133,23 +139,23 @@ ht-degree: 90%
 
 このグラフでステータスを選択すると、プロジェクトのタスクまたはイシューのステータスをすべて表示できます。各ステータスは、グラフの棒でグループ化されます。このグラフには、すべてのデフォルトのシステムステータスとカスタムステータスが表示されます。
 
-![&#x200B; タスクの問題（状態別） &#x200B;](assets/project-metrics-task-issue-by-status-350x120.png)
+![ ステータス別タスクの問題](assets/project-metrics-task-issue-by-status-350x120.png)
 
 このグラフで優先度を選択すると、プロジェクトのタスクまたはイシューの優先度をすべて表示できます。
 
-![&#x200B; タスクと問題（優先度別） &#x200B;](assets/project-metrics-task-issue-by-priority-350x121.png)
+![ タスクとイシュー（優先度別） ](assets/project-metrics-task-issue-by-priority-350x121.png)
 
 >[!TIP]
 >
 >特定のステータスまたは優先度を持つ作業項目のリストを表示するには、グラフの棒をクリックします。このリストでは、特定の作業アイテムをクリックして、新規タブに詳細を表示できます。\
->![[ 完了したタスク ] ボックス &#x200B;](assets/completed-tasks-dialog-350x75.png)\
+>![完了したタスク ボックス ](assets/completed-tasks-dialog-350x75.png)\
 >詳しくは、[指標の詳細を表示](#view-metrics-details)を参照してください。
 
 ## ドーナツグラフ
 
 プロジェクト KPI の下にあるドーナツグラフを使用すると、プロジェクト内の完了作業アイテムと未完了作業アイテムの比率を確認できます。
 
-![&#x200B; 完了ステータス別のタスクまたは問題 &#x200B;](assets/tasks-issues-by-complete-status-350x250.png)
+![完了状況別のタスクまたは問題](assets/tasks-issues-by-complete-status-350x250.png)
 
 グラフの上にあるドロップダウンメニューで、次の項目を選択できます。
 
@@ -160,14 +166,14 @@ ht-degree: 90%
 >[!TIP]
 >
 >完了または未完了な作業アイテムのリストを表示するには、ドーナツグラフで該当するセクションをクリックします。このリストでは、特定の作業アイテムをクリックして、新規タブに詳細を表示できます。\
->![[ 完了したタスク ] ボックス &#x200B;](assets/completed-tasks-dialog-350x75.png)\
+>![完了したタスク ボックス ](assets/completed-tasks-dialog-350x75.png)\
 >詳しくは、[指標の詳細の表示](#view-metrics-details)を参照してください。
 
 ## 担当者の棒グラフ
 
 担当者の棒グラフには、プロジェクト内の各ユーザーに割り当てられたタスクの数が表示されます。この数は、ドロップダウンメニューから選択したカテゴリによって異なります。
 
-![&#x200B; タスクおよび問題（割り当て先別） &#x200B;](assets/tasks-issues-by-assignee-350x104.png)
+![担当者によるタスクと問題](assets/tasks-issues-by-assignee-350x104.png)
 
 次のカテゴリでプロジェクトのタスク割り当てを確認することを選択できます。
 
@@ -180,7 +186,7 @@ ht-degree: 90%
 >[!TIP]
 >
 >選択したカテゴリで特定のユーザーに割り当てられている作業アイテムのリストを表示するには、グラフでユーザー名の横にあるバーをクリックします。このリストでは、特定の作業アイテムをクリックして、新規タブに詳細を表示できます。\
->![[ 完了したタスク ] ボックス &#x200B;](assets/completed-tasks-dialog-350x75.png)\
+>![完了したタスク ボックス ](assets/completed-tasks-dialog-350x75.png)\
 >詳しくは、[指標の詳細の表示](#view-metrics-details)を参照してください。
 
 ## 指標の詳細の表示 {#view-metrics-details}
@@ -188,11 +194,11 @@ ht-degree: 90%
 指標エリアでグラフを操作して、グラフの様々な側面を確認したり、グラフ内のタスクやイシューをより詳細に調べたりできます。
 
 1. 指標を表示するプロジェクトに移動します。
-1. 左側のパネルで、「**指標**」をクリックします。\
+1. 左側のパネルで、**指標**&#x200B;をクリックします。\
    指標エリアのグラフには、デフォルトでタスクの情報が表示されます。\
-   ![&#x200B; 指標セクション &#x200B;](assets/metrics-section-350x298.png)
+   ![指標セクション ](assets/metrics-section-350x298.png)
 
-1. （条件付き）ドロップダウン矢印がグラフに表示される場合は、グラフの **ドロップダウン矢印** アイコン ![&#x200B; ドロップダウン矢印 &#x200B;](assets/dropdown-arrow.png) をクリックし、メニューから必要なオプションを選択します。\
+1. （条件付き）グラフにドロップダウン矢印が表示される場合は、グラフの&#x200B;**ドロップダウン矢印** アイコン ![ ドロップダウン矢印](assets/dropdown-arrow.png)をクリックし、メニューから必要なオプションを選択します。\
    各グラフのメニューに表示されるオプションについて詳しくは、上記の関連する節を参照してください。
 
 1. （オプション）ページ上の指標のタスクやイシューを詳しく調べるには、以下の手順を実行します。
@@ -201,7 +207,7 @@ ht-degree: 90%
 
       タスクまたはイシューのリストが表示されます。
 
-      ![[ 完了したタスク ] ボックス &#x200B;](assets/completed-tasks-dialog-350x75.png)
+      ![完了したタスク ボックス ](assets/completed-tasks-dialog-350x75.png)
 
    1. リストの下部にある矢印を使用して、確認するタスクまたはイシューを見つけます。
 
@@ -209,13 +215,13 @@ ht-degree: 90%
 
       特定のページにタスクやイシューを表示するには、特定の数を選択します。
 
-      ![&#x200B; ページネーション &#x200B;](assets/pagination-300x152.png)
+      ![Pagination](assets/pagination-300x152.png)
 
    1. さらに詳細を表示するには、タスクまたはイシューを選択します。
 
       タスクまたはイシューが新規タブで開きます。
 
-1. （オプション）プロジェクト指標ダッシュボードを.png ファイルに書き出すには、**書き出し** アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックし、ドロップダウンメニューから **PNG として書き出し** を選択します。
+1. （オプション）プロジェクト指標ダッシュボードを.png ファイルに書き出すには、**書き出し** アイコン ![書き出しアイコン ](assets/export.png)をクリックし、ドロップダウンメニューから「**PNGとして書き出し**」を選択します。
 
    >[!TIP]
    >

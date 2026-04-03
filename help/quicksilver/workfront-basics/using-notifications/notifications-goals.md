@@ -6,10 +6,12 @@ description: 通知：Goals
 author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -36,7 +38,7 @@ ht-degree: 89%
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
    <td>
-   <p>投稿者以上</p>
+   <p>コントリビューター以上</p>
     <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
@@ -56,14 +58,14 @@ ht-degree: 89%
 
 ## 前提条件
 
-* [!DNL Goals] 通知を更新するユーザーには、[!DNL Goals] メインメニュー [!UICONTROL &#x200B; の &#x200B;] 領域を含むレイアウトテンプレートが必要です。
+* [!DNL Goals]通知を更新するユーザーには、[!DNL Goals] メインメニュー[!UICONTROL の]領域を含むレイアウトテンプレートが必要です。
 
 
-## [!UICONTROL &#x200B; ユーザープロファイル &#x200B;]エリアにある [!DNL Goals] の通知
+## [!UICONTROL  ユーザープロファイル ]エリアにある [!DNL Goals] の通知
 
 次のテーブルに表示される通知は、[!DNL Workfront Goals] で発生しているイベントに関する警告です。例えば、目標、結果、アクティビティを割り当てているユーザーや、所有する目標、結果、アクティビティを更新しているユーザーなどです。受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
-![&#x200B; 通知環境設定 &#x200B;](assets/goals-notifications-preferences-350x114.png)
+![通知の環境設定](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >
@@ -95,7 +97,8 @@ ht-degree: 89%
   </tbody> 
 </table>
 
-<!--these were removed at some point: 
+<!--
+these were removed at some point: 
 
    <td><strong>Someone liked my comment on a Goal</strong></td> 
    <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 

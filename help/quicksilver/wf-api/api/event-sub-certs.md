@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: 0921cc0e45a0a845404df90fc8789efc764f5790
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 88%
@@ -16,7 +18,8 @@ ht-degree: 88%
 
 # イベント登録用のクライアント TLS の設定
 
-<!--Configuring Client TLS for Event Subscription
+<!--
+Configuring Client TLS for Event Subscription
 Steps to Verify Workfront's Client Certificate
 Examples for Server configuration
 NGINX
@@ -34,7 +37,7 @@ Sandbox 2
 
 >[!NOTE]
 >
->イベント購読がにイベントを送信するサーバーがバージョン 1.3 をサポートしている場合、イベント購読は TLS バージョン 1.3 を使用します。接続サーバーがバージョン 1.3 をサポートしていない場合、イベント購読は TLS バージョン 1.2 を使用します。
+>イベントサブスクリプションがイベントを送信するサーバーがバージョン 1.3をサポートしている場合、イベントサブスクリプションはTLS バージョン 1.3を使用します。接続サーバーがバージョン 1.3をサポートしていない場合、イベントサブスクリプションはTLS バージョン 1.2を使用します。
 
 
 

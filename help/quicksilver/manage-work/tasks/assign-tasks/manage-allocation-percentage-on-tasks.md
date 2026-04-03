@@ -1,12 +1,14 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: タスクのユーザーまたは役割の割り当て率を管理します
+title: タスクに対するユーザーまたは役割の割り当て率の管理
 description: 配分率は、割り当てられたリソースが 1 日に 1 回のタスクで作業する予定の時間を表します。タスクの期間中にリソースが配分される、（ユーザーまたはプロジェクトのスケジュールに従った）作業日の割合です。
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 82%
@@ -17,18 +19,20 @@ ht-degree: 82%
 
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 
 配分率は、割り当てられたリソースが 1 日に 1 回のタスクで作業する予定の時間を表します。タスクの期間中にリソースが配分される、（ユーザーまたはプロジェクトのスケジュールに従った）作業日の割合です。
 
-タスクに対して高度な割り当てを行う際に、割り当て率を変更できます。
+タスクに対して高度な割り当てを行う場合は、割り当て率を変更できます。
 
 >[!NOTE]
 >
@@ -48,7 +52,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td> <p>Standard</p>
+   <td> <p>標準</p>
    <p>Work またはそれ以上</p>
    </td> 
   </tr> 
@@ -89,7 +93,7 @@ Take this piece out of the table above when we remove the new experience/ after 
 ## タスクに対するユーザーまたは役割の配分率を変更
 
 1. 配分率を変更するリソースを持つタスクに移動します。
-1. タスクヘッダーの **割り当て** エリアをクリックし、**詳細** をクリックします。
+1. タスクヘッダーの「**割り当て**」領域をクリックし、「**詳細**」をクリックします。
 
 1. タスクの&#x200B;**期間タイプ**&#x200B;が次のいずれかであることを確認します。
 
@@ -101,12 +105,12 @@ Take this piece out of the table above when we remove the new experience/ after 
    >* 期間タイプが予定割り当て時間の場合、Workfront は次の数式を使用して各担当者の配分率を計算します。`Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`
    >* 期間タイプがシンプルの場合、配分率ではなく、各リソースに割り当てられた時間を見積もることができます。
 
-1. 各タスク担当者の **割り当て** フィールドを変更します。
+1. タスク担当者ごとに&#x200B;**割り当て** フィールドを変更します。
 
    変更できるのは、ユーザーと担当業務の割り当てに関する配分率のみです。
 
    タスクに割り当てられたチームの配分率は変更できません。
 
-   ![&#x200B; 配分率の変更 &#x200B;](assets/advanced-assignments-allocation-percentage.png)
+   ![割り当て率を変更](assets/advanced-assignments-allocation-percentage.png)
 
 1. 「**保存**」をクリックします。

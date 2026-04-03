@@ -1,12 +1,14 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: ' [!DNL Adobe Workfront] のリスト内の項目のインライン編集'
+title: リスト内のインライン編集アイテム： [!DNL Adobe Workfront]
 description: オブジェクトがリストまたはレポートに表示されるときは、オブジェクトをインラインで編集できます。リストまたはレポートに表示されるオブジェクトの情報を編集すると、オブジェクトは直ちに更新されます。
 feature: Get Started with Workfront
 author: Courtney
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 94%
@@ -21,7 +23,7 @@ ht-degree: 94%
 
 オブジェクトに添付されていないカスタムフォームに含まれるフィールドをインライン編集すると、カスタムフォームは自動的にオブジェクトに追加されます。フィールドが複数のカスタムフォーム上に存在する場合は、最も新しく更新されたカスタムフォームがオブジェクトに添付されます。
 
-リストについて詳しくは、[&#x200B; のリストの基本を学ぶ [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)を参照してください。
+リストについて詳しくは、[ のリストの基本を学ぶ [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)を参照してください。
 
 [!DNL Adobe Workfront] ではリストまたはレポートに表示されるほとんどのオブジェクトはインラインで編集できますが、次のような制限があります。
 
@@ -33,7 +35,7 @@ ht-degree: 94%
 
   デフォルトの通貨の表示については、[独自の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)記事の[独自の通貨を使用したレポートの編集](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies)節を参照してください。
 * リストに表示されるフラグとアイコンは編集できません。
-* 他のレポートから取得されたレポートフィールドをインライン編集することはできません。
+* 他のレポートから取得したレポートフィールドをインライン編集することはできません。
 
 ## アクセス要件
 
@@ -88,14 +90,14 @@ ht-degree: 94%
 
    フィールドが編集可能な場合は、リストに表示されるフィールドとその他すべてのフィールドが編集可能なセルに変わります。
 
-   ![&#x200B; 編集可能なセル &#x200B;](assets/nwe-editable-cells-350x131.png)
+   ![編集可能なセル ](assets/nwe-editable-cells-350x131.png)
 
 1. このセル内の情報を編集し、[!UICONTROL Enter] キーを押します。
 
    >[!NOTE]
    >
    >カスタムフィールドを書式設定を許可するように設定している場合は、更新されたリストのフィールドをインライン編集する際に、テキストを太字、斜体または下線にできます。
-   >カスタムフィールドの形式の設定について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   >カスタムフィールドの書式設定について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
    >更新されたリストについては、[リストの基本を学ぶ [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)の「更新されたリストと従来のリストの違い」の節を参照してください。
 
 1. [!UICONTROL Tab] キーを押して、次の編集可能なセルに移動します。

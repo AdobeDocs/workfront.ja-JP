@@ -2,13 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: プロジェクトの予定完了日を設定する
+title: プロジェクトの予定完了日の設定
 description: プロジェクトの予定完了日とは、プロジェクトが完了するように設定された日付です。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 65%
@@ -19,7 +21,7 @@ ht-degree: 65%
 
 <!-- Audited: 4/2025 -->
 
-プロジェクトの予定完了日は、プロジェクトが完了するように設定された日付です。
+プロジェクトの予定完了日とは、プロジェクトが完了するように設定された日付です。
 
 プロジェクトの予定開始日と予定完了日は、プロジェクトのタスクの日付に依存します。この記事では、プロジェクトの予定完了日を手動または自動で設定する方法について説明します。タスクの予定完了日について詳しくは、[タスクの予定完了日の概要](../../../manage-work/tasks/task-information/task-planned-completion-date.md)を参照してください。
 
@@ -58,7 +60,8 @@ ht-degree: 65%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,7 +93,8 @@ ht-degree: 65%
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## プロジェクトの予定完了日を手動で設定
 
@@ -105,20 +109,20 @@ ht-degree: 65%
 
 {{step1-to-projects}}
 
-1. **新規プロジェクト** をクリックし、ドロップダウンから **新規プロジェクト** を選択します。
+1. 「**新規プロジェクト**」をクリックし、ドロップダウンから「**新規プロジェクト**」を選択します。
 
    プロジェクトの作成について詳しくは、「[プロジェクトを作成](../../../manage-work/projects/create-projects/create-project.md)」の記事を参照してください。
 
-1. 左側のパネルで **プロジェクト詳細** を選択します。
+1. 左側のパネルで「**プロジェクトの詳細**」を選択します。
 
-1. 右上隅の **プロジェクトを編集** アイコン ![&#x200B; 編集アイコン &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) をクリックし、表示されるドロップダウンで **概要** を選択します。
+1. 右上隅の&#x200B;**プロジェクトを編集** アイコン ![編集アイコン ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png)をクリックし、表示されるドロップダウンで&#x200B;**概要**&#x200B;を選択します。
 
-1. 「**プロジェクト日付**」セクションで、「**スケジュールモード**」フィールドをクリックし、「**完了日**」を選択します。
+1. **プロジェクトの日付** セクションで、**スケジュール モード** フィールドをクリックし、**完了日**&#x200B;を選択します。
 
 1. プロジェクトの&#x200B;**予定完了日**&#x200B;を指定します。
 1. 「**変更を保存**」をクリックします。
 
-   プロジェクトにタスクを追加し始めると、プロジェクトの **予定開始日** がすべてのタスクの合計期間に基づいて計算されます。
+   プロジェクトへのタスクの追加を開始すると、プロジェクトの&#x200B;**予定開始日**&#x200B;がすべてのタスクの合計期間に基づいて計算されます。
 
 ## プロジェクトの計画完了日を自動的に設定
 
@@ -128,20 +132,20 @@ ht-degree: 65%
 
 {{step1-to-projects}}
 
-1. **新規プロジェクト** をクリックし、表示されるドロップダウンから **新規プロジェクト** を選択します。
+1. **新規プロジェクト**&#x200B;をクリックし、表示されるドロップダウンから&#x200B;**新規プロジェクト**&#x200B;を選択します。
 
    プロジェクトの作成について詳しくは、「[プロジェクトを作成](../../../manage-work/projects/create-projects/create-project.md)」の記事を参照してください。
 
-1. 左側のパネルで **プロジェクト詳細** を選択します。
+1. 左側のパネルで「**プロジェクトの詳細**」を選択します。
 
-1. 右上隅の **プロジェクトを編集** アイコン ![&#x200B; 編集アイコン &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) をクリックし、表示されるドロップダウンで **概要** を選択します。
+1. 右上隅の&#x200B;**プロジェクトを編集** アイコン ![編集アイコン ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png)をクリックし、表示されるドロップダウンで&#x200B;**概要**&#x200B;を選択します。
 
-1. 「**プロジェクト日付**」セクションで、「**スケジュールモード**」フィールドをクリックし、「**開始日**」を選択します。
+1. **プロジェクトの日付** セクションで、**スケジュール モード** フィールドをクリックし、**開始日**&#x200B;を選択します。
 
 1. プロジェクトの&#x200B;**予定開始日**&#x200B;を指定します。
 1. 「**変更を保存**」をクリックします。
 
-   プロジェクトにタスクを追加し始めると、すべてのタスクの合計期間に基づいてプロジェクトの **予定完了日** が計算されます。
+   プロジェクトにタスクを追加すると、プロジェクトの&#x200B;**予定完了日**&#x200B;がすべてのタスクの合計期間に基づいて計算されます。
 
    タスクの期間について詳しくは、[タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
 

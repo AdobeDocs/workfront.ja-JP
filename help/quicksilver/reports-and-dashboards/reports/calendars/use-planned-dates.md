@@ -1,12 +1,14 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Use Planned Dates in a Calendar Report
+title: カレンダーレポートでの予定日の使用
 description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。予定日フィールドは、タスク、イシュー、プロジェクトに関するカレンダーレポートで使用できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 91%
@@ -46,7 +48,7 @@ ht-degree: 91%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>報告書、ダッシュボード、およびカレンダーへのアクセスを編集します</p></td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権の編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -65,9 +67,9 @@ ht-degree: 91%
 
 {{step1-to-calendars}}
 
-1. Select the calendar you want to add a new group of items to.
+1. アイテムの新しいグループを追加するカレンダーを選択します。
 または
-Click **[!UICONTROL + New Calendar]** and enter the calendar name.
+**[!UICONTROL +新しいカレンダー]**&#x200B;をクリックし、カレンダー名を入力します。
 
    >[!NOTE]
    >
@@ -121,7 +123,7 @@ Click **[!UICONTROL + New Calendar]** and enter the calendar name.
 
 1. 次のセクションに進みます。
 
-## Add objects to the group of items in Preview
+## プレビューのアイテムのグループにオブジェクトを追加
 
 項目の表示方法を設定した後、カレンダーに表示するオブジェクトをグループに追加する必要があります。
 
@@ -150,7 +152,7 @@ Click **[!UICONTROL + New Calendar]** and enter the calendar name.
    >
    >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
 
-   ![&#x200B; タスク ラベルの設定 &#x200B;](assets/set-task-labels.png)
+   ![ タスクリベルの設定](assets/set-task-labels.png)
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。

@@ -6,7 +6,9 @@ description: テンプレートをフレームワークとして使用して、A
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 82%
@@ -61,13 +63,13 @@ ht-degree: 82%
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>プロジェクトおよびテンプレートへのアクセス権の編集</p>
-   <p>使用するテンプレートにPortfolioとプログラムが含まれている場合、ポートフォリオとプログラムへのアクセスを編集します</p>  
+   <p>使用するテンプレートにPortfolioとプログラムが含まれている場合は、ポートフォリオとプログラムへのアクセス権を編集します</p>  
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>テンプレートに対する権限の表示</p> 
-  <p>使用するテンプレートにPortfolioとプログラムが含まれている場合、プロジェクトを作成するには、ポートフォリオとプログラムに対する管理権限が必要です </p> 
+  <p>使用するテンプレートにPortfolioとプログラムが含まれている場合は、プロジェクトを作成するためのポートフォリオとプログラムに対する管理権限が必要です </p> 
    <p>プロジェクトを作成すると、そのプロジェクトに対する管理権限が自動的に付与されます。</p></td> 
   </tr> 
  </tbody> 
@@ -77,7 +79,8 @@ ht-degree: 82%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,7 +111,8 @@ ht-degree: 82%
    <p>When you create a project, you automatically receive Manage permissions to the project.</p></td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 「プロジェクト」エリアでのテンプレートからのプロジェクトの作成
 
@@ -120,7 +124,7 @@ ht-degree: 82%
 
 1. 次のいずれかの操作を行います。
 
-   * 左上隅の **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) またはAdobe Workfrontの右上隅の **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックし（使用可能な場合）、「**プロジェクト**」をクリックして「**新規プロジェクト**」を展開します。
+   * 左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、またはAdobe Workfrontの右上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新しいプロジェクト**&#x200B;を展開します。
    * ポートフォリオに移動し、「**新規プロジェクト**」を展開します。
 
      >[!TIP]
@@ -153,7 +157,7 @@ ht-degree: 82%
 
    次の操作を実行します。
 
-   1. **テンプレートから新規プロジェクト** をクリックします。
+   1. 「**テンプレートから新規プロジェクト**」をクリックします。
    1. **テンプレートの検索**&#x200B;フィールドで、テンプレートの名前を入力し、リストに表示されたらクリックして選択します。
    1. 右側でテンプレートの詳細を確認します。
 
@@ -165,7 +169,7 @@ ht-degree: 82%
       * テンプレート内のすべてのタスクの数
       * テンプレートのカスタムフォームの名前
 
-   1. （オプション）左側のパネルでテンプレート名の上にマウスポインターを置き、**お気に入り**&#x200B;**アイコン**![&#x200B; お気に入りアイコン &#x200B;](assets/favorites-icon-small.png) をクリックして、後で使用するためにお気に入りとしてマークします。
+   1. （オプション）左側のパネルでテンプレート名の名前にカーソルを合わせ、**お気に入り** **アイコン** ![お気に入りアイコン ](assets/favorites-icon-small.png)をクリックして、後で使用するためにお気に入りとしてマークします。
 
       または
 
@@ -179,7 +183,8 @@ ht-degree: 82%
 
       ![テンプレートの詳細](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
-      <!--no longer available, after unshimming - Oct 2025:
+      <!--
+      no longer available, after unshimming - Oct 2025:
       >[!NOTE]
       >
       >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**.
@@ -193,12 +198,12 @@ ht-degree: 82%
 
    ![新規プロジェクトボックス](assets/new-project-from-template-box.png)
 
-1. （条件付き）テンプレートにフィールドが既に入力されている場合、そのフィールドは **新しいプロジェクト** ボックスに事前入力されます。
+1. （条件付き）フィールドがテンプレートに既に入力されている場合、そのフィールドは&#x200B;**新規プロジェクト** ボックスに事前入力されます。
 
    プロジェクトに合わせて、事前入力された値を編集します。
 
    詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
-1. **プロジェクトを作成** をクリックします。
+1. 「**プロジェクトを作成**」をクリックします。
 
    前の手順で変更しなかった場合、テンプレートで定義したすべての詳細は、新しく作成されたプロジェクトに自動的に関連付けられます。
 
@@ -209,22 +214,22 @@ ht-degree: 82%
 {{step1-to-templates}}
 
 1. 使用するテンプレートの名前をクリックします。
-1. ヘッダーのテンプレート名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、**プロジェクトを作成** をクリックします。
+1. ヘッダーのテンプレート名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、「**プロジェクトを作成**」をクリックします。
 
    ![テンプレートからプロジェクトを作成](assets/project-sharing-on-template.png)
 
    **新規プロジェクト** ボックスが開きます。
 
-1. プロジェクトの名前を入力します。 Workfrontは、このテンプレートの名前を使用して新しいプロジェクトに名前を付けます。
+1. プロジェクトの名前を入力します。 Workfrontでは、テンプレートの名前を使用して、新しいプロジェクトに名前を付けます。
 
-1. 「**新規プロジェクト**」ボックスの各セクションを確認し、必要な変更を加えます。
+1. **新規プロジェクト** ボックスの各セクションを確認し、必要な変更を加えます。
 
    ![新規プロジェクトボックス](assets/new-project-from-template-box.png)
 
-   テンプレートに既にフィールドが入力されている場合、そのフィールドは&#x200B;**新規プロジェクト**&#x200B;ボックスで事前に入力されています。事前入力された値を編集して、プロジェクトに合わせることができます。
+   テンプレートに既にフィールドが入力されている場合、そのフィールドは&#x200B;**新規プロジェクト**&#x200B;ボックスで事前に入力されています。プロジェクトに合わせて、事前入力された値を編集できます。
 
    詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
-1. **プロジェクトを作成** をクリックします。
+1. 「**プロジェクトを作成**」をクリックします。
 
    前の手順で変更しなかった場合、テンプレートで定義したすべての詳細は、新しく作成されたプロジェクトに自動的に関連付けられます。

@@ -2,13 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-title: プロジェクトの概要領域での情報の管理
+title: プロジェクトの概要エリアで情報を管理する
 description: 「プロジェクトの詳細」セクションの概要エリアにアクセスして、プロジェクトの情報を表示または編集できます。この領域で表示または編集できるフィールドの数は限られています。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 82%
@@ -37,7 +39,7 @@ ht-degree: 82%
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront プラン</p> </td> 
-   <td><p>ライト以上</p> 
+   <td><p>明るいまたはそれ以上</p> 
    <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +58,8 @@ ht-degree: 82%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,23 +85,24 @@ ht-degree: 82%
    <p>Manage access to the project to edit information about the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 「概要」セクションへのアクセス
 
 1. 「概要」セクションを表示するプロジェクトに移動します。
 1. 左側のパネルの「**プロジェクト詳細**」をクリックします。
-1. **概要** セクションは、最初にプロジェクト詳細の一部として表示され、デフォルトで展開される必要があります
+1. **概要** セクションは、プロジェクトの詳細の一部として最初に表示され、デフォルトで展開される必要があります
 
    または
 
-   「詳細」セクションの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**概要** をクリックします。 概要エリアが開き、編集できます。
+   詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、**概要**&#x200B;をクリックします。 概要エリアが開き、編集できます。
 
    >[!NOTE]
    >
    >Workfront 管理者がレイアウトテンプレートを設定した方法によっては、「概要」セクションが最初に表示されない場合があり、その場合は折りたたまれています。詳しくは、[レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
-1. （条件付き）プロジェクトに更新する必要があるが、このセクションには表示されない特定のフィールドがある場合、プロジェクト名の横にある **その他メニュー**![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、**編集** をクリックして、その他のプロジェクトフィールドを表示します。
+1. （条件付き）プロジェクトで更新する必要があるものの、このセクションに表示されていない特定のフィールドがある場合は、プロジェクト名の横にある&#x200B;**詳細メニュー** ![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックして他のプロジェクトフィールドを表示します。
 
    プロジェクトの編集について詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
@@ -127,27 +131,27 @@ ht-degree: 82%
      </tr> 
      <tr> 
       <td role="rowheader">優先度</td> 
-      <td>プロジェクトの指定された優先度または重要度として機能します。</td> 
+      <td>プロジェクトの優先度または重要度として機能します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">ステータス</td> 
-      <td> <p>プロジェクトのステータス。 </p> <p>ヒント：すべてのタスクとイシューが完了していない限り、プロジェクトを完了することはできません。プロジェクトの完了モードが「自動」に設定されている場合、プロジェクトを手動で完了することはできません。 </p> </td> 
+      <td> <p>プロジェクトのステータス： </p> <p>ヒント：すべてのタスクとイシューが完了していない限り、プロジェクトを完了することはできません。プロジェクトの完了モードが「自動」に設定されている場合、プロジェクトを手動で完了することはできません。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">状況タイプ</td> 
-      <td>管理者がプロジェクトの「条件」を設定するか、Workfrontが設定するかを指定します。 プロジェクトの状況について詳しくは、「<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref"> プロジェクトの状況および状況のタイプの概要 </a>」を参照してください。</td> 
+      <td>管理者がプロジェクトの条件を設定するか、Workfrontが設定するかを指定します。 プロジェクトの条件について詳しくは、<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref"> プロジェクトの条件と条件タイプの概要</a>を参照してください。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">スケジュールモード</td> 
-      <td>プロジェクトのスケジュール方法を設定します。 例えば、プロジェクトが開始日からスケジュールされているか、完了日からスケジュールされているかなどです。 </td> 
+      <td>プロジェクトのスケジュール方法を設定します。 例えば、プロジェクトが開始日からスケジュールされているか、完了日からスケジュールされているかなど。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">予定開始日時</td> 
-      <td> プロジェクトを開始する予定の日時。これは、プロジェクトが開始日からスケジュールされたときに、プロジェクト管理者が手動で設定します。 Workfrontは、プロジェクトのタスクの期間に基づいて、プロジェクトが「完了日」からスケジュールされたときに、この日付を自動的に設定します。</td> 
+      <td> プロジェクトを開始する予定の日時。これは、プロジェクトが開始日からスケジュールされている場合に、プロジェクトマネージャーが手動で設定します。 Workfrontは、プロジェクト内のタスクの期間に基づいて、プロジェクトが完了日からスケジュールされる日付を自動的に設定します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">予定完了日時</td> 
-      <td> プロジェクトを完了する予定の日時。これは、プロジェクトが完了日からスケジュールされる際に、プロジェクトマネージャーが手動で設定します。Workfrontは、プロジェクトのタスクの期間に基づいて、プロジェクトが開始日からスケジュールされたときに、この日付を自動的に設定します。 </td> 
+      <td> プロジェクトを完了する予定の日時。これは、プロジェクトが完了日からスケジュールされる際に、プロジェクトマネージャーが手動で設定します。Workfrontは、プロジェクト内のタスクの期間に基づいて、プロジェクトが開始日からスケジュールされる日付を自動的に設定します。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ポートフォリオ</td> 
@@ -239,7 +243,7 @@ ht-degree: 82%
       <td><span>プロジェクトがイニシアチブにリンクされる、イニシアチブの終了月の最終日。</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>FTE と時間数のイニシアティブ担当業務 </span> </td> 
+      <td role="rowheader"><span>FTEと時間数のイニシアチブの担当業務</span> </td> 
       <td> <p>関連付けられている担当業務とそのイニシアチブへの時間割り当てに関する情報。これには以下が含まれます。</p> 
        <ul> 
         <li>担当業務名</li> 

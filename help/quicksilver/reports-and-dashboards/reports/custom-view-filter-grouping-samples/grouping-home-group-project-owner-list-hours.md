@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: グループ化：時間リスト内のプロジェクト所有者のホーム グループ
+title: グループ化：時間リスト内のプロジェクト所有者のホームグループ
 description: プロジェクト所有者のホームグループの名前を時間リストまたはレポートに表示できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 78%
@@ -39,8 +41,8 @@ ht-degree: 78%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -65,7 +67,7 @@ ht-degree: 78%
 1. **グループ化**&#x200B;ドロップダウンメニューで「**新規グループ化**」を選択します。
 
 1. 「**テキスト モードに切り替える**」をクリックします。
-1. **グループ化** 領域のテキストを削除します。
+1. **Group by**&#x200B;領域のテキストを削除します。
 1. 次のコードでテキストを置き換えます。
 
 ```
@@ -89,5 +91,5 @@ group.2.valueformat=string
 textmode=true
 ```
 
-1. **完了**/**グループ化を保存** をクリックします。
-1. （オプション）グループ化の名前を更新し、「**グループ化を保存**」をクリックします。
+1. 「**完了**」 > 「**グループ化を保存**」をクリックします。
+1. （オプション）グループ化の名前を更新し、**グループ化を保存**&#x200B;をクリックします。

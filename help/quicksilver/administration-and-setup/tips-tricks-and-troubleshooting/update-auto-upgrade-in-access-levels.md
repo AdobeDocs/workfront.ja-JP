@@ -11,7 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 1f7fce86-0ba9-4407-842d-5f8625c9de70
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 85%
@@ -26,7 +28,8 @@ ht-degree: 85%
 
 自動アップグレードオプションとして割り当てられているアクセスレベルを表示するには、次の手順に従います。
 <!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png). -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png).
+-->
 
 1. 右パネルの「**アクセスレベル**」をクリックします。
 
@@ -42,6 +45,6 @@ ht-degree: 85%
 
 新しい自動アップグレードオプションをアクセスレベルに割り当てるには、次の手順に従います。
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**設定** ![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
+1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**セットアップ** ![ ギア設定アイコン ](assets/gear-icon-settings.png)をクリックします。
 
 1. 右パネルの「**アクセスレベル**」をクリックします。

@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：複数行プロジェクト ビュー
+title: ビュー：複数行のプロジェクトビュー
 description: レポートの複数行のプロジェクトビューについて説明します。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 57%
@@ -21,13 +23,13 @@ ht-degree: 57%
 このプロジェクトビューでは、以下の操作を実行できます。
 
 * プロジェクト情報を複数行の形式で表示します。\
-  ビューでは、`sharecol=true` タグを使用して、同じ列ヘッダーの下の複数のフィールドを組み合わせます。 このタグについて詳しくは、[表示：複数の列の情報を 1 つの共有列に結合](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)を参照してください。
+  ビューでは、`sharecol=true` タグを使用して、同じ列ヘッダーの下の複数のフィールドを結合します。 このタグについて詳しくは、[表示：複数の列の情報を 1 つの共有列に結合](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)を参照してください。
 
-* HTMLの改行タグ（`<br>`）を保持するプレースホルダー列を使用して、説明をプロジェクト名の下に強制的に表示します（例：）。
+* HTML改行タグ （`<br>`）を保持するプレースホルダー列を使用して、説明をプロジェクト名の下に強制的に表示します（例：）。
 * プロジェクト名に続く丸括弧で、プロジェクト所有者を表示します。
 * プロジェクト名をプロジェクトへのリンクとして表示します。
 
-![&#x200B; 積み重ねビューのあるプロジェクト行 &#x200B;](assets/project-multi-row-stacked-view-350x219.png)
+![積み重ねビューを持つプロジェクト行](assets/project-multi-row-stacked-view-350x219.png)
 
 ## アクセス要件
 
@@ -44,8 +46,8 @@ ht-degree: 57%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -66,9 +68,9 @@ ht-degree: 57%
 
 1. プロジェクトのリストに移動します。
 1. **ビュー**&#x200B;ドロップダウンメニューから、「**新規ビュー**」をクリックします。
-1. ビューの列を 1 つだけ除き、すべて削除します。
-1. 残りの列を選択し、「**テキストモードに切り替え**」をクリックしてから、「**テキストモードを編集** をクリックします。
-1. **テキストを編集モード** でテキストを削除し、以下のテキストモードをコピーして列内に貼り付けます。
+1. 1つを除き、ビュー内のすべての列を削除します。
+1. 残りの列を選択し、**テキストモードに切り替え**、**テキストモードを編集**&#x200B;の順にクリックします。
+1. **テキストモードを編集**&#x200B;でテキストを削除し、下のテキストモードを列の内側にコピー&amp;ペーストします。
 
    ```
    column.0.linkedname=direct
@@ -180,4 +182,4 @@ ht-degree: 57%
    ```
 
 
-1. **完了**/**ビューを保存** をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。

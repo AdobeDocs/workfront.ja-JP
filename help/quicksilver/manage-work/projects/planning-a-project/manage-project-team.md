@@ -2,15 +2,17 @@
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: プロジェクトチームの管理
-description: プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。プロジェクトチームのメンバーは、プロジェクトの「人物」セクションまたはプロジェクトの作成に使用される可能性のあるテンプレートの「人物」セクションに表示されます。
+description: プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。プロジェクトチームのメンバーは、プロジェクトの「人物」セクションまたはプロジェクトの作成に使用されるテンプレートの「人物」セクションに表示されます。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 22%
+source-wordcount: '830'
+ht-degree: 24%
 
 ---
 
@@ -18,7 +20,8 @@ ht-degree: 22%
 
 <!--take preview and production references out at production - August 7-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
@@ -32,18 +35,18 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 プロジェクトチームのメンバーは、プロジェクトの「ユーザー」セクションに表示されます。
 
-プロジェクトテンプレートの人物セクションに表示されるユーザーは、プロジェクトがテンプレートから作成された後、プロジェクトチームになります。
+プロジェクトテンプレートの「人物」セクションに表示されるユーザーは、テンプレートからプロジェクトを作成した後で、プロジェクトチームになります。
 
-次のユーザーは、プロジェクトとテンプレートの両方について、プロジェクトチームに自動的に追加されます。
+プロジェクトとテンプレートの両方で、次のユーザーがプロジェクトチームに自動的に追加されます。
 
 * 所有者
 * スポンサー
 * タスクに割り当てられたユーザー
-* イシューに割り当てられたユーザー（プロジェクトの場合のみ）
+* イシューに割り当てられたユーザー（プロジェクトのみ）
 
-プロジェクトチームのユーザーは、プロジェクトに関する通知を受け取ります。 詳しくは、[&#x200B; イベント通知タイプ &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
+プロジェクトチームのユーザーは、プロジェクトに関する通知を受け取ります。 詳しくは、[ イベント通知タイプ ](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
 
-プロジェクトおよびテンプレートのチームのユーザーを追加（プロジェクトに対してのみ）、削除、または更新を送信することで、ユーザーを管理できます。
+プロジェクトおよびテンプレートのチーム内のユーザーを管理するには、ユーザーを追加（プロジェクト専用）、削除、または更新を送信します。
 
 ## アクセス要件
 
@@ -78,7 +81,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-<!--Old access: 
+<!--
+Old access: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -141,7 +145,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
  For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+ drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -199,99 +203,100 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Select one or multiple users in the list, then click **Send Update to User**.
 
-   <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
+   update screen shot when they fix the bug - the text above the box needs to match the OLD box, below
 
-![&#x200B; プロジェクトの「ユーザーに更新を送信」ボックス &#x200B;](assets/send-update-to-user-on-project-box-2025.png)
+   ![Send update to user box on the project](assets/send-update-to-user-on-project-box-2025.png)
 
-<!--Old UI for projects but the text above the comment box is right and matches the functionality):
-   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
+   Old UI for projects but the text above the comment box is right and matches the functionality):
+   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)
+-->
 
-**ユーザーに更新を送信** ボックスが開きます。
+「**ユーザーに更新を送信」ボックスが開きます。**
 
 1. 次のいずれかの操作を行います。
 
    * 選択したユーザーの更新を追加します。
-   * ロックアイコンをクリックして、会社内のユーザーに対して更新を非公開にします。
-   * 同じアップデートを受け取るように追加のユーザーにタグを付けます。
+   * ロックアイコンをクリックして、会社のユーザーに対してアップデートを非公開にします。
+   * 追加のユーザーをタグ付けして、同じ更新を受け取ります。
    * 「**送信**」をクリックします。
 
-   更新内容がプロジェクトの「**更新**」セクションに追加され、選択したすべてのユーザーがタグ付きユーザーとして表示されます。
+   更新はプロジェクトの&#x200B;**更新** セクションに追加され、選択したすべてのユーザーがタグ付きユーザーとして表示されます。
 
-   ユーザーに対して有効になっている場合はユーザーにメール通知が届き、新しい更新に関するアプリ内通知が届く場合があります。
+   ユーザーは、有効になっている場合はメール通知を受け取り、新しい更新に関するアプリ内通知を受け取る場合があります。
 
-1. （任意） **エクスポート** アイコン ![&#x200B; エクスポートアイコン &#x200B;](assets/export-icon.png) をクリックして、ユーザーのリストをファイルにエクスポートします
+1. （オプション） **書き出し** アイコン ![書き出しアイコン ](assets/export-icon.png)をクリックして、ユーザーのリストをファイルに書き出します
 
    または
 
-   ユーザーを選択して「**書き出し** アイコンをクリックし、特定のユーザーのみを書き出します。
+   ユーザーを選択し、**書き出し** アイコンをクリックして、特定のユーザーのみを書き出します。
 
-## テンプレートでの人物の管理
+## テンプレート上の人物の管理
 
-1. プロジェクト チームを管理するテンプレートに移動します。
+1. プロジェクトチームを管理するテンプレートに移動します。
 
    >[!TIP]
    >
-   >人物セクションに表示するには、タスクまたはテンプレートの関係者に割り当てられたユーザーが必要です。
+   >タスクまたはテンプレート上の関係者としてユーザーを割り当てて、「人物」セクションに表示させる必要があります。
 
-1. 左側のパネルで **人物** をクリックします。
+1. 左側のパネルで「**人**」をクリックします。
 
-1. リストで 1 人または複数のユーザーを選択し、「**削除** アイコンをクリックして、チームから削除します。
+1. リスト内の1人または複数のユーザーを選択し、**削除** アイコンをクリックしてチームから削除します。
 
-1. **はい、選択したユーザーを削除** をクリックして、ユーザーを確認して削除します。
+1. 「**はい、選択したユーザーを削除**」をクリックして、ユーザーを確認および削除します。
 
-   ユーザーがテンプレートタスクから削除され、割り当て解除されます。
+   ユーザーは削除され、テンプレートタスクから割り当て解除されます。
 
-   詳細については、この記事の [&#x200B; プロジェクトチームからユーザーを削除する際の考慮事項 &#x200B;](#considerations-for-removing-users-from-a-project-team) の節を参照してください。
+   詳しくは、この記事の「[ プロジェクトチームからユーザーを削除する際の考慮事項](#considerations-for-removing-users-from-a-project-team)」を参照してください。
 
-1. （任意）ユーザーに更新を送信するには、「**すべて更新**」をクリックして、リストのすべてのユーザーに更新を送信します
+1. （オプション）更新をユーザーに送信するには、**すべてを更新**&#x200B;をクリックして、リスト内のすべてのユーザーに更新を送信します
 
    または
 
-   リストから 1 人または複数のユーザーを選択し、「**ユーザーに更新を送信**」をクリックします。
+   リストから1人または複数のユーザーを選択し、**更新をユーザーに送信**&#x200B;をクリックします。
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
-   ![&#x200B; テンプレートの「ユーザーに更新を送信」ボックス &#x200B;](assets/send-update-to-user-on-template-box.png)
+   ![ テンプレート ](assets/send-update-to-user-on-template-box.png)のユーザーボックスに更新を送信
 
-   **ユーザーに更新を送信** ボックスが開きます。
+   「**ユーザーに更新を送信」ボックスが開きます。**
 
 1. 次の操作を実行します。
 
    * 選択したユーザーの更新を追加します。
-   * **ユーザーをタグ付け** をクリックして、同じ更新を受信する追加のユーザーをタグ付けします。
-   * 「**会社に非公開**」オプションを選択して、会社内のユーザーに対して更新を非公開にします。
+   * 「**ユーザーにタグ付け**」をクリックして、追加のユーザーにタグ付けして、同じ更新プログラムを受信します。
+   * 会社のユーザーに対してアップデートを非公開にするには、「**会社に対して非公開にする**」オプションを選択します。
    * 「**送信**」をクリックします。
 
      >[!TIP]
      >
-     >**会社に非公開** 設定は、Workfront プロファイルが会社に関連付けられている場合にのみ使用できます。
+     >会社に対する&#x200B;**非公開**&#x200B;設定は、Workfront プロファイルが会社に関連付けられている場合にのみ使用できます。
 
-   更新内容は、タグ付けされた各ユーザーのプロファイルの「**更新**」セクションに追加されます。
+   更新は、タグ付けされた各ユーザーのプロファイルの&#x200B;**更新** セクションに追加されます。
 
-   ユーザーに対して有効になっている場合はユーザーにメール通知が届き、新しい更新に関するアプリ内通知が届く場合があります。
+   ユーザーは、有効になっている場合はメール通知を受け取り、新しい更新に関するアプリ内通知を受け取る場合があります。
 
-1. **エクスポート** アイコン ![&#x200B; エクスポートアイコン &#x200B;](assets/export-icon.png) をクリックして、ユーザーのリストをファイルにエクスポートします
+1. **書き出し** アイコン ![書き出しアイコン ](assets/export-icon.png)をクリックして、ユーザーのリストをファイルに書き出します
 
    または
 
-   ユーザーを選択して「**書き出し** アイコンをクリックし、特定のユーザーのみを書き出します。
+   ユーザーを選択し、**書き出し** アイコンをクリックして、特定のユーザーのみを書き出します。
 
 ## プロジェクトチームからユーザーを削除する際の考慮事項
 
 プロジェクト上のユーザーの役割からユーザーを削除しても、そのユーザーはプロジェクトチームの一員に留まりす。
 
-プロジェクトチームに送信された通知を受信しないようにするには、プロジェクトチームまたはプロジェクトの「ユーザー」セクションからユーザーを削除する必要があります。
+プロジェクトチームに送信された通知の受信を停止するには、プロジェクトチームからプロジェクトの「人物」セクションから削除する必要があります。
 
 プロジェクトのタスクまたはイシューに割り当てられているユーザーをプロジェクトチームから削除すると、そのユーザーは未完了のタスクとイシューから割り当て解除されます。この場合、タスクとイシューはワークロードバランサーの未割り当て作業エリアに戻ります。
 
-完了したタスクと問題に割り当てられたユーザーは、プロジェクトチームから削除した後でも、タスクと問題に引き続き割り当てられます。
+完了したタスクとイシューに割り当てられたユーザーは、プロジェクトチームから削除した後でも、タスクとイシューに割り当てられたままになります。
 
-次のユーザーは、プロジェクトまたはテンプレートの人物セクションから削除すると、プロジェクトでの役割から削除されます。
+次のユーザーは、プロジェクトまたはテンプレートの「ユーザー」セクションから削除すると、プロジェクト上の役割から削除されます。
 
-* 未完了タスクに割り当てられたユーザー
-* 未完了の問題に割り当てられたユーザー
+* 不完全なタスクに割り当てられたユーザー
+* 不完全な問題に割り当てられたユーザー
 
-次のユーザーは、プロジェクトまたはテンプレートの人物セクションから削除しても、プロジェクトでの役割から削除されません。
+次のユーザーは、プロジェクトまたはテンプレートの「ユーザー」セクションから削除しても、プロジェクト上の役割から削除されません。
 
 * 所有者
 * スポンサー

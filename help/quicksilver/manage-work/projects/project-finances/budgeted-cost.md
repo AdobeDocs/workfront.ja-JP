@@ -3,11 +3,13 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: 予算コストの計算
-description: 稼動率レポートを使用して予算計上コスト追跡プロジェクトの進捗状況を計算する
+description: 利用状況レポートを使用した予算計上コスト追跡プロジェクトの進捗状況の計算
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 97%
@@ -75,9 +77,11 @@ ht-degree: 97%
     </tr> 
     <tr> 
      <td>プロジェクト予算計上コスト</td> 
-     <td> <!--
+     <td>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>プロジェクトレポート</p> <p>プロジェクト（財務データ）レポート</p> <p>タスクレポート</p> <p>イシューレポート</p> <p>予算計上時間数レポート</p> <p>レポートの作成について詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">カスタムレポートの作成</a>の記事を参照してください。</p> </td> 
+      -->
+      <p>プロジェクトレポート</p> <p>プロジェクト（財務データ）レポート</p> <p>タスクレポート</p> <p>イシューレポート</p> <p>予算計上時間数レポート</p> <p>レポートの作成について詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">カスタムレポートの作成</a>の記事を参照してください。</p> </td>
     </tr> 
    </tbody> 
   </table>

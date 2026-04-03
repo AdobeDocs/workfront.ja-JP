@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -21,22 +23,24 @@ ht-degree: 70%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 スコアカードは、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合するかを測定します。スコアカードは、多くの場合、組織の使命、価値、戦略的目標を反映しています。
 
-ポートフォリオマネージャーは、スコアカードの質問と回答を定義して、プロジェクトの優先順位付けと選択時に有意義で価値のあるものにすることができます。
+ポートフォリオマネージャーは、スコアカードの質問と回答を定義し、プロジェクトの優先順位付けと選択時に、有意義で価値のあるものにすることができます。
 
-[!DNL Adobe Workfront] 管理者は、ポートフォリオマネージャーのレコメンデーションに基づいてスコアカードを作成できます。
+[!DNL Adobe Workfront]管理者は、ポートフォリオ マネージャーからの推奨事項に基づいてスコアカードを作成できます。
 
 スコアカードに対して選択した質問と回答は、異なるプロジェクトを比較するための整合値を提供するために、定量化可能である必要があります。
 
-次の方法でスコアカードを作成できます。
+スコアカードは、次の方法で作成できます。
 
 * 最初から
-* 既存のコピー
+* 既存のものをコピーすることで
 
 ## アクセス要件
 
@@ -48,7 +52,7 @@ ht-degree: 70%
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront パッケージ</td> 
-   <td><p>Workfrontまたは Workflow Prime以降</p></td> 
+   <td><p>WorkfrontまたはWorkflow Prime以降</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
@@ -65,15 +69,15 @@ ht-degree: 70%
 
 +++
 
-## スコアカードをゼロから作成する
+## スコアカードをゼロから作成
 
 {{step-1-to-setup}}
 
-1. 「**[!UICONTROL スコアカード]**」をクリックし、「**[!UICONTROL 新規スコアカード]**」をクリックします。
+1. **[!UICONTROL スコアカード]**&#x200B;をクリックしてから、**[!UICONTROL 新規スコアカード]**&#x200B;をクリックします。
 
-   「**新規スコアカード**」ボックスが開きます。
+   **新しいスコアカード** ボックスが開きます。
 
-   ![&#x200B; 新しいスコアカードボックス &#x200B;](assets/new-scorecard-350x173.png)
+   ![新しいスコアカード ボックス ](assets/new-scorecard-350x173.png)
 
 1. **[!UICONTROL スコアカード名]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を指定します。
 
@@ -113,30 +117,30 @@ ht-degree: 70%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   これによりスコアカードが作成され、プロジェクト管理者がプロジェクトのビジネス ケースに添付できるようになります。
+   これにより、スコアカードが作成され、プロジェクトマネージャーはそれをプロジェクトのビジネスケースに添付できます。
 
 ## 既存のスコアカードのコピー
 
-既存のスコアカードをコピーして編集することで、スコアカードを作成できます。
+スコアカードを作成するには、既存のスコアカードをコピーして編集します。
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで **[!UICONTROL スコアカード]** をクリックします。
-1. リストでスコアカードを選択し、スコアカードリストの上部にある **コピー** アイコン ![&#x200B; スコアカードコピー &#x200B;](assets/copy-scorecard-icon.png) アイコンをクリックします。
+1. 左側のパネルで「**[!UICONTROL スコアカード]**」をクリックします。
+1. リストでスコアカードを選択し、スコアカード リストの上部にある&#x200B;**コピー** アイコン ![ スコアカード アイコン ](assets/copy-scorecard-icon.png)をクリックします。
 
-   「**スコアカードをコピー** ボックスが開きます。
+   「**スコアカードをコピー**」ボックスが開きます。
 
-   ![&#x200B; スコアカードボックスをコピー &#x200B;](assets/copy-scorecard-box.png)
+   ![ スコアカード ボックスをコピー](assets/copy-scorecard-box.png)
 
 1. 次の情報を指定します。
 
-   * **スコアカード**：スコアカードの名前を更新します。  デフォルトでは、名前は次の形式に従って自動的に更新されます。
+   * **スコアカード**: スコアカードの名前を更新します。  デフォルトでは、名前は次の形式に従って自動的に更新されます。
 
      `Original scorecard name (Copy)`
    * **説明**: スコアカードに関する追加情報を入力します。
 1. 「**保存**」をクリックします。
 
-   元のスコアカードと同じ情報を持つ新しいスコアカードが作成されます。 プロジェクトマネージャーは、プロジェクトのビジネスケースに添付できるようになりました。
+   これにより、元のスコアカードと同じ情報を持つ新しいスコアカードが作成されます。 プロジェクトマネージャーは、プロジェクトのビジネスケースにデータを添付できます。
 
 ## プロジェクトへのスコアカードの適用
 
@@ -144,6 +148,6 @@ ht-degree: 70%
 
 プロジェクトのビジネスケースを作成する際に、スコアカードをプロジェクトに追加します。プロジェクトへのスコアカードの追加について詳しくは、[プロジェクトへのスコアカードの適用およびアラインメントスコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)を参照してください。
 
-プロジェクト権限について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でのプロジェクトの共有を参照してください。
+プロジェクト権限について詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でのプロジェクトの共有を参照してください。
 
 

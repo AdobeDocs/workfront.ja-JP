@@ -6,10 +6,12 @@ description: Adobe Workfront プラグインを使用して作業を更新でき
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +33,8 @@ ht-degree: 90%
  </col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td>Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,7 +42,8 @@ ht-degree: 90%
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">その他の製品</td> 
    <td>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</td> 
@@ -87,11 +91,11 @@ ht-degree: 90%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
 1. **[!UICONTROL 作業リスト]**&#x200B;から、更新の投稿先となる作業アイテムを選択します。
 1. ナビゲーションバーの「**[!UICONTROL 更新]**」をクリックします。\
-   ![Photoshopの更新 &#x200B;](assets/photoshop-update-350x295.png)
+   ![Photoshopの更新](assets/photoshop-update-350x295.png)
 
 1. 「**[!UICONTROL 新しい更新]**」をクリックします。
 1. 更新内容を入力します。

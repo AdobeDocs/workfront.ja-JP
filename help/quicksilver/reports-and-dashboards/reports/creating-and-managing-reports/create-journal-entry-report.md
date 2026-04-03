@@ -1,11 +1,13 @@
 ---
-title: 仕訳入力レポートを使用した更新領域のレポート
+title: 仕訳レポートを使用した更新領域のレポート
 description: ジャーナルエントリレポートには、これまで Adobe Workfront API を介してのみ利用可能であった、プロジェクト、タスク、イシューなどのオブジェクトの更新エリアからのシステム更新が表示されます。これは特定のユースケースを対象とした高度なレポートですが、よりわかりやすい形式により、Workfront 内のプロジェクトアクティビティやシステム更新に関するレポートを簡単に作成できるようになります。
 author: Courtney
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2763'
 ht-degree: 94%
@@ -69,7 +71,7 @@ ht-degree: 94%
 
 この記事で説明している操作を実行する前に、次の点を確認する必要があります。
 
-* レポート対象のすべてのフィールド（カスタムフィールドを含む）は、Workfrontで追跡されます。 追跡されている更新エリアのデータのみをレポートできます。
+* レポート対象のフィールド（カスタムフィールドを含む）はすべてWorkfrontで追跡されます。 追跡されている更新エリアのデータのみをレポートできます。
 
   Workfront で追跡するフィールドの追加方法については、[システム更新の設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 
@@ -164,7 +166,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅のにある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
+   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -236,9 +238,9 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    列の追加について詳しくは、[Adobe Workfront の概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
-1. 「**フィルター**」タブで「**フィルタールールを追加**」をクリックし、フィルタールール **フィールド名**/**次と等しい**/**ステータス** を追加します。
+1. 「**フィルター**」タブで、**フィルタールールを追加**&#x200B;をクリックし、フィルタールール **フィールド名** > **等しい** > **ステータス**&#x200B;を追加します。
 
-   ![&#x200B; ジャーナルエントリステータスフィルター &#x200B;](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![ ジャーナルエントリのステータス フィルター](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -278,7 +280,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
+   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -322,10 +324,12 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. 「**フィルター**」タブで、「**フィルタールールを追加**」をクリックし、以下を追加します。
 
    * **変更の種類**／**が次に等しい**／**削除**
-   * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名 >**
+   * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名>**
 
-     <!--WRITER check link; this png file has spaces
-     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     <!--
+     WRITER check link; this png file has spaces
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)
+     -->
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
@@ -362,11 +366,11 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
+   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
-1. 「**列（表示）**」タブで、次の列が存在することを確認するか、「**列を追加**」をクリックして追加します。
+1. 「**列（表示）**」タブで、「**列を追加**」をクリックして、次の列を追加します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -423,17 +427,17 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    列の追加について詳しくは、[Adobe Workfront の概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
-1. 「**フィルター**」タブで「**フィルタールールを追加**」をクリックし、次のフィルターを追加します。
+1. 「**フィルター**」タブで、「**フィルタールールを追加**」をクリックし、次のフィルターを追加します。
 
    * **ジャーナルエントリフィールド名**／**次を含む**／**DE**
 
      >[!TIP]
      >
-     >このレポートを特定のカスタムフィールドに制限するには、フィルタールール **ジャーナルエントリフィールド名** > **次と等しい** > **&lt; カスタムフィールド名 >** を追加します。
+     >このレポートを特定のカスタムフィールドに制限するには、フィルタールール **ジャーナルエントリフィールド名** > **次と等しい** > **&lt; カスタムフィールド名>**&#x200B;を追加します。
 
    * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト >**。
 
-   ![&#x200B; カスタムフォーム変更フィルター &#x200B;](assets/qs-custom-form-changes-filter-350x92.png)
+   ![ カスタムフォーム変更フィルター](assets/qs-custom-form-changes-filter-350x92.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
@@ -464,7 +468,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
+   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -529,12 +533,12 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    列の追加の詳細情報については、「[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)」を参照してください。
 
-1. 「**フィルター**」タブで **フィルタールールを追加** をクリックし、次の情報を追加します。
+1. 「**フィルター**」タブで、「**フィルタールールを追加**」をクリックし、次の項目を追加します。
 
    * **フィールド名**／**次と等しい**／**日付**
-   * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名 >**.
+   * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名>**。
 
-   ![&#x200B; 予定完了日の変更フィルター &#x200B;](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![予定完了日変更フィルター](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
@@ -565,7 +569,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
-   ![&#x200B; 仕訳の選択 &#x200B;](assets/nwe-select-journal-entry-350x273.png)
+   ![ ジャーナルエントリを選択](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder が読み込まれます。
 
@@ -621,9 +625,9 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. 「**フィルター**」タブで、「**フィルタールールを追加**」をクリックし、以下を追加します。
 
    * **フィールド名**／**次と等しい**／**ownerID**
-   * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名 >**.
+   * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名>**。
 
-   ![&#x200B; 所有者変更フィルター &#x200B;](assets/qs-owner-changes-filter-350x94.png)
+   ![所有者変更フィルター](assets/qs-owner-changes-filter-350x94.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
@@ -645,4 +649,4 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
 1. 「**保存して閉じる**」をクリックします。
 
-   新規仕訳レポートが表示されます。
+   新しい仕訳レポートが表示されます。

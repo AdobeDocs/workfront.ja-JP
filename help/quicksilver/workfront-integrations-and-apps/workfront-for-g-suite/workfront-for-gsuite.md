@@ -4,12 +4,14 @@ product-area: workfront-integrations
 keywords: google,doc,ドキュメント,シート,スライド
 navigation-topic: workfront-integrations-navigation-topic
 title: Google Workspace 用 Adobe Workfront
-description: Adobe Workfront for Google Workspaceを使用すると、最も重要な作業にアクセスでき、Gmail、Google カレンダー、Google ドライブ内に滞在しながら他のユーザーとの共同作業も可能になります。 これらのアプリケーションから移動せずに、メールで送信されたリクエストや作業の更新を取り込んで、Workfront に追加できます。期限、優先度、ドキュメント、更新および追加のコンテキストなど、Workfront で発生していることを、受信トレイから離れずに確認できます。承認の決定を行ったり、コメントに返信したり、新しい作業リクエストを受け入れたりできます。また、メールを個人のプロジェクトタスクに変換したり、作業や優先度を他のユーザーに割り当てたりできます。
+description: Adobe Workfront for Google Workspaceを使用すると、重要な作業に連携し、Gmail、Google カレンダー、Google ドライブ内で他のユーザーと共同作業を行うことができます。 これらのアプリケーションから移動せずに、メールで送信されたリクエストや作業の更新を取り込んで、Workfront に追加できます。期限、優先度、ドキュメント、更新および追加のコンテキストなど、Workfront で発生していることを、受信トレイから離れずに確認できます。承認の決定を行ったり、コメントに返信したり、新しい作業リクエストを受け入れたりできます。また、メールを個人のプロジェクトタスクに変換したり、作業や優先度を他のユーザーに割り当てたりできます。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 228fd22f1894689c0d256270350cc82954901641
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 41%
@@ -20,17 +22,17 @@ ht-degree: 41%
 
 >[!IMPORTANT]
 >
->より安定した拡張性の高い統合を実現するために、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しました。 このトランジションプロセスの一環として、Google Workspaceの次のWorkfront機能は **使用できなくなりました**。
+>そこで、より安定したスケーラブルな統合を提供するために、Adobe Workfrontは、Workfront Automation and Integration （Fusion）を利用した、最新の柔軟な統合アプローチに移行しました。 この移行プロセスの一環として、次のGoogle Workspace向けWorkfront機能&#x200B;**は使用できなくなりました**。
 >
->* Workfront内からのGoogle Workspace機能へのアクセス
+>* WorkfrontからGoogle Workspaceの機能にアクセスする
 >
->* Gmail またはWorkfrontのカレンダーサイトパネルからのGoogle タスクの表示と管理
+>* GmailまたはGoogle カレンダーサイトパネルからのWorkfront タスクの表示と管理
 >
->Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
+>組織のGoogle Workspaceとの統合ニーズには、Workfront Automation and Integrationを使用することをお勧めします。
 >
->Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+>Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 >
->Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [&#x200B; および &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [&#x200B; を参照してください。](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能について詳しくは、[Gmail modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)および[Google Calendar modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)を参照してください。
 
 <!--
 

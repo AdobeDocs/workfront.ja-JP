@@ -1,12 +1,14 @@
 ---
-title: Adobe Workfront Planning のアプリ内通知の管理
-description: 自分または自分のチームがレコードコメントでタグ付けされると、そのタグに関するメール通知が届きます。
+title: Adobe Workfront Planningのアプリ内通知の管理
+description: 誰かがレコードコメントで自分やチームにタグを付けると、そのタグのメール通知が届きます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 9%
@@ -18,13 +20,13 @@ ht-degree: 9%
 
 {{planning-important-intro}}
 
-次のシナリオが発生した場合は、Workfront Planning からアプリ内通知を受け取ることができます。
+次のシナリオが存在する場合、Workfront Planningからアプリ内通知を受け取ることができます。
 
-* 誰かがあなたまたはチームをレコードコメントでタグ付けします
+* 誰かがレコードのコメントで自分やチームにタグを付けます
 
-  レコードコメント内の他のタグ付けについて詳しくは、[&#x200B; レコードコメントの管理 &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
-* 他のユーザーから、ビューまたはワークスペース <!--<span class="preview">or record</span>--> にアクセスする許可を要求されています
-* ビューまたはワークスペース <!--<span class="preview">or record</span>--> ーバーへのアクセスが許可されたことを確認するメッセージが表示されます <!--Isk confirmed there is no notification for denying permissions - did not test-->
+  レコードコメント内の他のユーザーのタグ付けについて詳しくは、[ レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
+* ビューまたはワークスペース <!--<span class="preview">or record</span>-->へのアクセス許可を求めるユーザーがいます
+* 誰かが、ビューまたはワークスペース <!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test-->に対するアクセス権が付与されたことを確認します
 
 ## アクセス要件
 
@@ -42,12 +44,12 @@ ht-degree: 9%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
+<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>ライト以上</p>
+   <td><p>明るいまたはそれ以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,14 +59,14 @@ ht-degree: 9%
   </tr> 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
-   <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
+   <td> LightまたはContributor ライセンスを持つユーザーには、Planningを含むレイアウトテンプレートを割り当てる必要があります。
+   <p>標準ユーザーとシステム管理者は、デフォルトでプランニング領域を有効にできます。</p></div></li></ul>
 </td>
   </tr> 
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -140,31 +142,31 @@ OLD:
 +++
 -->
 
-## コメントで誰かがあなたをタグ付けしたとき、アプリ内通知を管理します
+## 誰かがコメントであなたをタグ付けしたときに、アプリ内通知を管理します
 
-1. （条件付き）誰かがレコードのコメントで自分またはチームをタグ付けした後、Adobe Experience Cloudのアプリ内 **通知** アイコン ![Experience Cloud 通知アイコン &#x200B;](assets/experience-cloud-notifications-icon.png) に移動します。
+1. （条件付き）誰かがレコードのコメントで自分やチームにタグを付けた後、Adobe Experience Cloudのアプリ内&#x200B;**通知** アイコン ![Experience cloud通知アイコン ](assets/experience-cloud-notifications-icon.png)に移動します。
 
-   ![&#x200B; アプリ内通知の例 &#x200B;](assets/in-app-notification-example.png)
+   ![ アプリ内通知の例](assets/in-app-notification-example.png)
 
 1. 通知をクリックします。
 
-   Workfront Planning に「レコードの詳細」ページが開きます。 レコードを更新したり、コメントに返信したりできます。
+   Workfront Planningでレコードの詳細ページが開きます。 レコードを更新したり、コメントに返信したりできます。
 
-1. （任意） **すべて既読としてマーク** をクリックして、すべての通知を既読にしたことを示します。
-1. （任意）「**すべて表示**」をクリックして、Adobe Experience Cloudの **通知** ページに移動します。
+1. （オプション）「**すべてを既読としてマーク**」をクリックして、すべての通知を読み取ったことを示します。
+1. （オプション）「**すべて表示**」をクリックして、Adobe Experience Cloudの&#x200B;**通知** ページに移動します。
 
-## 権限をリクエストおよび付与する際のアプリ内通知の管理
+## 権限をリクエストおよび付与する際のアプリ内通知を管理します
 
-ビュー、ワークスペース、またはレコードのタイプに対する権限を要求または付与された場合に、アプリ内通知を受け取ります。<!--<span class="preview">or record</span>-->
+誰かがビュー、ワークスペース、またはレコードタイプに対して権限をリクエストまたは付与すると、アプリ内通知が届きます。<!--<span class="preview">or record</span>-->
 
-権限のリクエスト、付与または拒否について詳しくは、[&#x200B; ビューまたはワークスペースに対する権限のリクエスト &#x200B;](/help/quicksilver/planning/access/request-permissions.md) を参照してください。
+権限の要求、付与、または拒否について詳しくは、[ ビューまたはワークスペースへの権限の要求](/help/quicksilver/planning/access/request-permissions.md)を参照してください。
 
-Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 &#x200B;](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。
+Workfront計画の通知の管理について詳しくは、[Adobe Workfront計画の通知の環境設定の管理](/help/quicksilver/planning/notifications/manage-notification-preferences.md)を参照してください。
 
-## Planning リクエストの承認時または拒否時のアプリ内通知の管理
+## Planning リクエストの承認または却下の際のアプリ内通知の管理
 
-承認リクエストが送信されたとき、または送信されたリクエストが承認されたときに、アプリ内通知を受け取ります。
+誰かが承認リクエストを送信したとき、または誰かが送信したリクエストを承認したときに、アプリ内通知が届きます。
 
-リクエストの送信について詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの送信 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+リクエストの送信について詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
-リクエストの承認について詳しくは、[Adobe Workfront Planning でのリクエストの承認 &#x200B;](/help/quicksilver/planning/requests/approve-request.md) を参照してください。
+リクエストの承認について詳しくは、[Adobe Workfront Planningでのリクエストの承認](/help/quicksilver/planning/requests/approve-request.md)を参照してください。

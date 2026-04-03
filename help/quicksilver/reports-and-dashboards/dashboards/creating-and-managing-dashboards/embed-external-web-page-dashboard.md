@@ -6,7 +6,9 @@ description: 外部 web ページをダッシュボードに埋め込んで、Ad
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 87%
@@ -24,7 +26,7 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >* セキュリティ上の理由から、一部の web サイトでは web ページを iframe として埋め込むことができません。ダッシュボードに埋め込む web ページでこれが許可されていない場合、そのページはダッシュボードに表示されません。ただし、ダッシュボードの名前をクリックして、外部ページにアクセスすることはできます。\
->![&#x200B; 空の外部ページレポート &#x200B;](assets/qs-empty-external-page-report-350x165.png)\
+>![外部ページレポートが空です](assets/qs-empty-external-page-report-350x165.png)\
 >所有している web サイトに埋め込みを許可するには、web 管理者と協力して、**X-Frame-Options** 設定を調整します。詳しくは、[X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options) を参照してください。
 >
 >
@@ -74,7 +76,7 @@ ht-degree: 87%
   </tr>  
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ダッシュボードへのアクセスの編集</p> </td> 
+   <td> <p>ダッシュボードへのアクセス権の編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,7 +113,7 @@ ht-degree: 87%
 
 1. **レイアウト／レポートを追加／カレンダーを追加**&#x200B;のエリアの下にある&#x200B;**外部ページを追加**&#x200B;をクリックします。
 
-   ![&#x200B; 外部ページを追加 &#x200B;](assets/qs-add-external-page-350x239.png)
+   ![外部ページを追加](assets/qs-add-external-page-350x239.png)
 
    **外部ページを追加**&#x200B;ボックスが表示されます。
 
@@ -125,7 +127,7 @@ ht-degree: 87%
 
       * Web ページへの https（暗号化）URL。\
         https（暗号化）ページのみが URL により読み込まれます。\
-        ![&#x200B; 外部ページを追加ダイアログ &#x200B;](assets/add-external-page-dialog-qs-350x247.png)
+        ![外部ページダイアログを追加](assets/add-external-page-dialog-qs-350x247.png)
 
       * 特定の web サイトのセッション情報を含むテンプレート URL。\
         例：*https://localhost/?session={!$$SESSION}*
@@ -162,11 +164,11 @@ ht-degree: 87%
 
    「**ダッシュボード詳細**」ボックスが開きます。
 
-1. **ダッシュボードの詳細** ボックスの **レイアウトを選択/レポートを追加** 領域で、更新する外部ページを見つけて、その上にカーソルを置いて **編集** アイコンをクリックします。\
-   ![&#x200B; 外部ページのインライン編集 &#x200B;](assets/nwe-inline-edit-external-page-350x226.png)
+1. 「**ダッシュボードの詳細**」ボックスの「**レイアウトを選択/ レポートを追加**」領域で、更新する外部ページを見つけ、その上にカーソルを置いて「**編集**」アイコンをクリックします。\
+   ![外部ページのインライン編集](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. 「**外部ページの編集**」ボックスで、変更するフィールドを更新し、「**保存**」をクリックします。
-1. （任意） **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックして、ダッシュボードから外部ページを削除します。 詳しくは、[ダッシュボードからの外部ページを削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)を参照してください。
+1. （オプション） **削除** アイコン ![削除アイコン ](assets/delete.png)をクリックして、外部ページをダッシュボードから削除します。 詳しくは、[ダッシュボードからの外部ページを削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)を参照してください。
 1. 「**保存して閉じる**」をクリックします。
 
 ## レポートで外部ページを表示する
@@ -175,9 +177,9 @@ ht-degree: 87%
 
 {{step1-to-reports}}
 
-1. **新規レポート** をクリックし、**外部セクション** を選択します。
+1. **新規レポート**&#x200B;をクリックし、**外部セクション**&#x200B;を選択します。
 
-   ![&#x200B; 外部セクション &#x200B;](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![外部セクション ](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. （オプション）レポートの「表示」タブ、「フィルター」タブ、または「グループ化」タブを更新します。
 
@@ -185,5 +187,5 @@ ht-degree: 87%
 
 1. 「**保存して閉じる**」をクリックします。
 
-   新しいレポートには、システム内の外部ページに関連付けられた名前と URL を表示できます。
+   新しいレポートでは、システム内の任意の外部ページに関連付けられている名前とURLを表示できます。
 

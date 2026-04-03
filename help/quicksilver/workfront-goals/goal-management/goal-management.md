@@ -2,32 +2,35 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Adobe Workfront Goals での目標管理：記事索引
-description: Workfront Goals の使用開始や目標の使用の重要性、目標の作成、編集、コメント、管理の方法、目標の情報のフィルタリングおよび印刷方法については、次の記事を参照してください。
+title: Adobe Workfront Goalsの目標管理：記事インデックス
+description: 次の記事では、Workfront Goalsの開始点、目標を使用する重要性、目標の作成、編集、コメント、および管理方法、目標情報のフィルタリングおよび印刷方法について説明します。
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 64%
+ht-degree: 82%
 
 ---
 
-# Adobe Workfront Goals での目標管理：記事インデックス
+# Adobe Workfront Goals での目標の管理：記事インデックス
 
 <!--Audited: 10/2025-->
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 >
 >Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >

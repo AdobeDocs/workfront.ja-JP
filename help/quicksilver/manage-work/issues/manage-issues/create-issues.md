@@ -1,17 +1,19 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: 問題の作成
+title: イシューの作成
 description: プロジェクトに取り組んでいると、予期しないイベントが発生することがあります。これらの予期しないイベントは、特定のプロジェクトやタスクに対するイシューとして記録できます。適切なアクセス権を持つユーザーは、プロジェクトまたはタスクが完了に向けて進行するにつれてイシューのステータスを表示および監視できるため、長時間にわたるメールチェーンや状況会議の必要がなくなります。予定イベントであるタスクとは異なり、イシューは Adobe Workfront の予定外の作業アイテムを表します。
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1461'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -52,10 +54,10 @@ ht-degree: 88%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <ul><li>投稿者以上</li>
-   <li>タスクまたはプロジェクトの「イシュー」セクションのイシューを編集するためのライト以上</li></ul>
+   <ul><li>コントリビューター以上</li>
+   <li>タスクまたはプロジェクトの「イシュー」セクションでイシューを編集するには、ライト以上</li></ul>
    または
-   <ul><li>リクエスト以上</li> <li>タスクまたはプロジェクトの「イシュー」セクションでレビュー以上のイシューを編集する</li></ul> </td> 
+   <ul><li>リクエスト以上</li> <li>タスクまたはプロジェクトの「イシュー」セクションでイシューを編集するには、レビュー以上を行います</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -68,11 +70,12 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 <!--
 (NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
@@ -116,22 +120,22 @@ ht-degree: 88%
 
 ## 新しいイシューフォームの準備
 
-組織では、いつ、どのようにイシューを記録するかについて、明確に定義されたプロセスを導入する必要があります。このプロセスを設定する場合、最初の手順はイシューの送信に必要なフォームを作成することです。
+組織では、いつ、どのようにイシューを記録するかについて、明確に定義されたプロセスを導入する必要があります。このプロセスを設定する場合、最初の手順は、問題の提出に必要なフォームを作成することです。
 
-ユーザーは次の方法でイシューをプロジェクトに追加できます。
+ユーザーは、次の方法でプロジェクトに問題を追加できます。
 
 * タスクやプロジェクトに直接追加できます。
 * リクエストキューに送信します。
 
 新しいイシューフォームには、イシューを迅速に解決するのに役立つ重要な情報が含まれている場合があります。
 
-ユーザーがイシューをプロジェクトまたはそのタスクに追加した際に次の情報を含めるように、「新しいイシュー」フォームを設定できます。
+ユーザーがプロジェクトまたはそのタスクに問題を追加する際に、次の情報を含めるように新しい問題フォームを設定できます。
 
 * カスタムフィールド
 * 承認
-* 割当（ルーティング規則）
+* 割り当て（ルーティング ルール）
 
-新しいイシューまたはリクエストのフィールドは、イシューが記録されるプロジェクトの「キューの詳細」セクションで定義されます。
+新しいイシューまたはリクエストのフィールドは、イシューがログに記録されるプロジェクトの「キューの詳細」セクションで定義されます。
 
 プロジェクトのキューの詳細セクションの設定については、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
@@ -152,7 +156,7 @@ ht-degree: 88%
 1. イシューのリストの上部にある「**新しいイシュー**」をクリックします。
 「新規イシュー」ボックスが表示されます。
 
-   ![&#x200B; 新しいイシューボックス &#x200B;](assets/new-issue-box-matches-new-request-ui.png)
+   ![新しい問題ボックス ](assets/new-issue-box-matches-new-request-ui.png)
 
 1. （条件付き）プロジェクト作成者がプロジェクト上にキューのトピックまたはトピックグループを作成した場合、それらは新しいイシューフォームに追加されます。新しいイシューの&#x200B;**トピックグループ**&#x200B;または&#x200B;**キューのトピック**&#x200B;を指定します。トピックグループとキューのトピックには、環境に合わせてカスタマイズされた名前が付いています。\
    トピックグループの作成の詳細については、[トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。キューのトピックの作成について詳しくは、[キューのトピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
@@ -221,7 +225,7 @@ ht-degree: 88%
    >
    >プロジェクトの編集ボックスで「ユーザーがインラインで問題を追加できるようにする」設定が選択解除されている場合、このオプションはグレー表示になります。詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
-   ![&#x200B; 「さらにイシューを追加」ボタン &#x200B;](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
+   ![さらに問題を追加ボタン ](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
 1. 「名前」フィールドにイシューの名前を入力し、イシューに関する詳細情報の追加をインラインで続行します。
 
@@ -237,7 +241,7 @@ ht-degree: 88%
 
 ## 新規リクエストの入力によるイシューの作成 {#create-issues-by-entering-a-new-request}
 
-イシューを受け取る受け皿となるプロジェクトを指定することができます。このタイプのプロジェクトは、Workfront ではリクエストキューと呼ばれます。リクエストキューは、メインメニューのリクエスト エリアからアクセスできます。
+イシューを受け取る受け皿となるプロジェクトを指定することができます。このタイプのプロジェクトは、Workfront ではリクエストキューと呼ばれます。リクエストキューには、メインメニューのリクエスト領域からアクセスできます。
 
 >[!TIP]
 >

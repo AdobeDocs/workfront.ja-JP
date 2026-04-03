@@ -5,10 +5,12 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2701'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -171,11 +173,13 @@ Workfront のすべての Flash ベースのツールを削除する際には、
   </tr> 
   <tr> 
    <td> <p><strong>リソース見積り</strong> </p> <p>各レガシーリソースプールの「リソースの見積もり」タブは、1 つのレガシーリソースプールのコンテキストでのみ、リソース予算マネージャーと同じ目的を果たしました。このツールには、不正確なデータと空き時間の手動入力という、リソース予算マネージャーやレガシーリソースプールと同じ制限がありました。 </p> </td> 
-   <td> <p>ユーザーの空き時間を自動的に計算することにより、リソースの見積もりは廃止され、削除されました。</p> <p>このツールは、プロジェクトのビジネスケースのレガシーリソースプールとレガシーリソース見積もりでは削除されます。 <!--
+   <td> <p>ユーザーの空き時間を自動的に計算することにより、リソースの見積もりは廃止され、削除されました。</p> <p>このツールは、プロジェクトのビジネスケースのレガシーリソースプールとレガシーリソース見積もりで削除されます。
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
       </MadCap:conditionalText>
-     --></p> </td> 
+     -->
+     </p> </td>
   </tr> 
   <tr> 
    <td> <p><strong>キャパシティプランナー</strong> </p> <p>キャパシティプランナーは、リソースの空き時間に応じてレガシーリソースプール内のリソースを予算化し、プロジェクトを優先順位付けする Workfront のツールでした。キャパシティプランナーの情報を提供したリソース見積もりとリソース予算マネージャーのデータが不完全な場合、プロジェクトの優先順位付けは、ユーザーの空き時間に対して再確認する必要がありました。</p> <p>システム内のすべての担当業務を含む単一のレガシーリソースプールを使用するシナリオが最も一般的でした。これにより、キャパシティプランナーが多数のプロジェクトを読み込もうとすると、パフォーマンスの問題が発生しました。</p> </td> 
@@ -187,7 +191,7 @@ Workfront のすべての Flash ベースのツールを削除する際には、
   </tr> 
   <tr> 
    <td> <p><strong>リソースの見積もりレポート</strong> </p> <p>リソース管理にレガシーツールを使用すると、ビジネスケースから予算および予定時間数についてレポートできました。これにより、特定の期間における各担当業務の予算および予定作業の合計を示すマトリックスレポートを作成できました。このレポートは編集できず、レポートの結果に基づいてリソースの予算を変更できませんでした。 </p> </td> 
-   <td> <p><strong>稼動率レポート</strong> </p> <p>組み込みの稼動率レポートには、計画済み、予算済み、および実績時間、コスト、および収益が並べて表示されます。 </p> <p>稼動率レポートの使用について詳しくは、<a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">リソース稼動率情報を表示</a>を参照してください。 </p> 
+   <td> <p><strong>稼動率レポート</strong> </p> <p>ビルトインの稼動率レポートには、計画済み、予算済み、および実績時間、コスト、および収益が並べて表示されます。 </p> <p>稼動率レポートの使用について詳しくは、<a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">リソース稼動率情報を表示</a>を参照してください。 </p> 
     <div> 
      <p><strong>レポート可能な予算計上時間</strong> </p> 
      <p>予算計上時間のレポートを作成して、リソースプランナーで予算に設定された時間をレポートフォームでレビューします。 </p> 
@@ -212,7 +216,8 @@ Workfront のすべての Flash ベースのツールを削除する際には、
          <li>作業アイテムに対するユーザーの割り当てを管理します。 </li>
          <li>担当者領域を参照できない可能性のある他のユーザーと、ワークロードバランサーを共有できます。共有可能なリンク機能を使用して、ワークロードバランサーへのリンクを共有し、カスタムダッシュボードに埋め込みます。これらのダッシュボードを共有すると、「ユーザーを表示」へのアクセス権を持つすべてのユーザーがこれらのダッシュボードを表示できます。</li>
         </ul><p>ワークロードバランサーは、担当者領域で使用できます。 </p><p>ワークロードバランサーについて詳しくは、<a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">ワークロードバランサーの概要</a>を参照してください。</p></li> 
-      </ul> <!--
+      </ul>
+      <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
          <ul>
@@ -228,7 +233,8 @@ Workfront のすべての Flash ベースのツールを削除する際には、
           <li>User - the Allocation tab is eliminated as the same information can be accessed in the User View of the Resource Planner.</li>
          </ul></li> 
        </ul>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
   <tr> 

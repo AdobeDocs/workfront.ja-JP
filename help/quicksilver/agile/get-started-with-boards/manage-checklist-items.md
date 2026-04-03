@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: カードのチェックリスト項目の管理
+title: カード上のチェックリスト項目の管理
 description: カードのチェックリストを使用すると、作業をより少ない単位に分割したり、カードにメモを追加したりできます。チェックリスト項目は、アドホックカードと接続されたカードの両方で使用できます。
 author: Courtney
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 98%

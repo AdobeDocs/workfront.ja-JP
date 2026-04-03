@@ -1,12 +1,14 @@
 ---
 navigation-topic: notifications
-title: イベント通知用のメール件名のカスタマイズ
+title: イベント通知用にメール主体をカスタマイズする
 description: イベント通知でトリガーされるメールの件名行をカスタマイズできます。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 89%
@@ -83,11 +85,11 @@ ht-degree: 89%
 
 例えば、「自分が更新を受信する対象者として追加されました」には 2 つの異なる件名行があります。1 つ目はタスク、イシュー、テンプレートタスクおよびドキュメント（「referenceObject」とも呼ばれる）に関するもので、2 つ目はオブジェクト（「topReferenceObject」とも呼ばれる）に関するもので、これはユーザーがポートフォリオ、プログラムなどのコメントを作成できるようにするものです。
 
-![&#x200B; イベントの件名が複数ではありません &#x200B;](assets/ev-multiple-subject.png)
+![ イベントが複数の件名ではありません](assets/ev-multiple-subject.png)
 
-タスク、イシュー、テンプレートタスクやドキュメントに関する会話にユーザーが含まれる場合は、最初の件名行を含むメールが生成されます。件名には「referenceObject:name」が含まれ、システムによってオブジェクトが定義され、件名フィールドに適切な名前が表示されます。 メールの件名行は、「プロジェクト ABC 上のタスク 123 についてのコメント」のようになります。
+タスク、イシュー、テンプレートタスクやドキュメントに関する会話にユーザーが含まれる場合は、最初の件名行を含むメールが生成されます。件名には「referenceObject:name」が含まれており、システムはオブジェクトを定義し、件名フィールドに適切な名前を表示します。 メールの件名行は、「プロジェクト ABC 上のタスク 123 についてのコメント」のようになります。
 
-プロジェクトの会話に追加すると、2 番目の件名のメールが生成されます。ここで、件名には「topReferenceObject:name」が含まれており、Workfrontはどのオブジェクトが参照されたかを再度識別し、件名に「topReferenceObject:name」ではなくオブジェクト名を返します。 メールの件名行は、「プロジェクト ABC についてのコメント」のようになります。
+プロジェクトの会話に追加すると、2 番目の件名のメールが生成されます。ここで、件名には「topReferenceObject:name」が含まれており、Workfrontは参照されたオブジェクトを識別し、件名に「topReferenceObject:name」ではなく、そのオブジェクト名を返します。 メールの件名行は、「プロジェクト ABC についてのコメント」のようになります。
 
 メールの件名行を編集し、どちらかの件名行にフィールドを追加するには、この記事にある[イベント通知のメール件名行をカスタマイズ](#customize-email-subject-lines-for-event-notifications)を参照してください。
 
@@ -99,6 +101,6 @@ ht-degree: 89%
 
 
 
-![&#x200B; イベントの件名が複数ではありません &#x200B;](assets/Ev-not-mult-subj-lines.png)
+![ イベントが複数の件名ではありません](assets/Ev-not-mult-subj-lines.png)
 
 メールの件名行を編集し、どちらかの件名行にフィールドを追加するには、この記事にある[イベント通知のメール件名行をカスタマイズ](#customize-email-subject-lines-for-event-notifications)を参照してください。

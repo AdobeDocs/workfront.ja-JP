@@ -2,14 +2,16 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: ボードビューでのアジャイルプロジェクトの管理
-description: アジャイル機能は、アジャイル手法（チームバックログの管理やイテレーションの作成など）に通常伴う管理の課題なしに、プロジェクトに活用できます。
+description: アジャイル手法に伴う管理上の課題（チームのバックログの管理やイテレーションの作成など）に悩まされることなく、プロジェクトにアジャイル機能を活用することができます。
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
@@ -17,11 +19,11 @@ ht-degree: 42%
 
 <!-- Audited: 11/2025 -->
 
-アジャイル機能は、アジャイル手法（チームバックログの管理やイテレーションの作成など）に通常伴う管理の課題なしに、プロジェクトに活用できます。
+アジャイル手法に伴う管理上の課題（チームのバックログの管理やイテレーションの作成など）に悩まされることなく、プロジェクトにアジャイル機能を活用することができます。
 
-チームバックログを使用するアジャイル環境で作業し、バックログのタスクから反復を作成できます。
+チームのバックログを使用し、バックログ上のタスクからイテレーションを作成できるアジャイル環境で作業できます。
 
-詳しくは、[&#x200B; アジャイル環境での作業 &#x200B;](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md) を参照してください。
+詳しくは、[ アジャイル環境での作業](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)を参照してください。
 
 ## アクセス要件
 
@@ -39,7 +41,7 @@ ht-degree: 42%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>ライト以上</p>
+   <td> <p>明るいまたはそれ以上</p>
    <p>レビュー以上</p> 
     </td> 
   </tr> 
@@ -63,7 +65,8 @@ ht-degree: 42%
 
 +++
 
-<!--old:
+<!--
+old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,14 +95,15 @@ ht-degree: 42%
    <td> <p>View permissions to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## ボードビューでのプロジェクトの表示
 
-プロジェクト開発にアジャイル機能を活用するために、リストではなくボードビューで、プロジェクトのタスクまたはイシューの両方を表示できます。
+アジャイル機能をプロジェクト開発に活用するには、リストではなくボードビューでプロジェクトのタスクとイシューの両方を表示できます。
 
-1. アジャイル手法に従って管理するプロジェクトに移動し、左パネルで **タスク** または **イシュー** をクリックします。
+1. アジャイル手法に従って管理するプロジェクトに移動し、左側のパネルで「**タスク**」または「**問題**」をクリックします。
 1. **ボードビュー**&#x200B;アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png) をクリックします。
 
    プロジェクトのボードビューがデフォルトで表示されます。
@@ -111,6 +115,6 @@ ht-degree: 42%
 
    詳しくは、[ボード列の管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)と[カードに表示されるフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)を参照してください。プロジェクトのボードビューでは列ポリシーを定義できないことに注意してください。
 
-1. （オプション）リスト表示に戻るには、「**リスト** アイコン ![&#x200B; リストアイコン &#x200B;](assets/list-icon.png) をクリックします。
+1. （オプション）リスト表示に戻るには、**リスト** アイコン ![ リストアイコン ](assets/list-icon.png)をクリックします。
 
    タスクまたは問題のリストが表示されます。

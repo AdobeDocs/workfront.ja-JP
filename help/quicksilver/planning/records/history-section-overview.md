@@ -6,18 +6,22 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '593'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
 # 履歴セクションの概要
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -44,12 +48,12 @@ ht-degree: 72%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
+<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>投稿者以上</p>
+   <td><p>コントリビューター以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -60,18 +64,19 @@ ht-degree: 72%
   </tr> 
   <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
-   <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
+   <td> LightまたはContributor ライセンスを持つユーザーには、Planningを含むレイアウトテンプレートを割り当てる必要があります。
+   <p>標準ユーザーとシステム管理者は、デフォルトでプランニング領域を有効にできます。</p></div></li></ul>
 </td>
   </tr>  
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -133,7 +138,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 </td>
   </tr>
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## レコードの履歴セクションを見つける
 
@@ -141,22 +147,22 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. ワークスペースのカードをクリックします。
 
-   ワークスペースが開き、カードにレコードタイプが表示されます。
+   ワークスペースが開き、レコードタイプがカードに表示されます。
 
-1. レコードタイプのカードをクリックします。
-レコードタイプのページが開き、そのタイプのすべてのレコードが表示されます。
+1. レコードタイプカードをクリックします。
+レコードタイプページが開き、そのタイプのすべてのレコードが表示されます。
 
-1. 任意のビューで、レコードの名前をクリックします。
+1. 任意のビューから、レコードの名前をクリックします。
 
    レコードのページが開きます。コメントエリアがデフォルトで右パネルに開きます。
-1. **履歴を表示** アイコン ![&#x200B; 履歴を表示アイコン &#x200B;](assets/show-history-icon.png) をクリックします。 レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。
-1. （オプション） **履歴を非表示** アイコン ![&#x200B; 履歴を非表示アイコン &#x200B;](assets/hide-history-icon.png) をクリックして、右側のパネルを閉じます。
+1. **履歴を表示** アイコン ![履歴を表示アイコン ](assets/show-history-icon.png)をクリックします。 レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。
+1. （オプション） **履歴を非表示** アイコン ![履歴を非表示アイコン ](assets/hide-history-icon.png)をクリックして、右側のパネルを閉じます。
 
 ## 履歴セクションに関する考慮事項
 
 レコードのフィールドに加えた変更は、レコードのページの右パネルにある「履歴」セクションで確認できます。
 
-![&#x200B; コメントの履歴領域 &#x200B;](assets/history-area-in-comments.png)
+コメントの![履歴領域](assets/history-area-in-comments.png)
 
 * Workfront Planning は、次の情報を「履歴」セクションに記録します。
 

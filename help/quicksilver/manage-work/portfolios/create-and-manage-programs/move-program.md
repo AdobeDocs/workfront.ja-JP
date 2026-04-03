@@ -1,15 +1,17 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: Portfolioへの既存プログラムの追加
+title: 既存のプログラムのPortfolioへの追加
 description: 既存のプログラムをポートフォリオに追加できます。プログラムは 2 つの異なるポートフォリオに存在できないため、既存のプログラムを追加すると、そのプログラムは 1 つのポートフォリオから別のポートフォリオへと永続的に移動されます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 49%
+ht-degree: 53%
 
 ---
 
@@ -17,9 +19,11 @@ ht-degree: 49%
 
 <!--Audited: 10/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 既存のプログラムをポートフォリオに追加できます。プログラムは 2 つの異なるポートフォリオに存在できないため、既存のプログラムを追加すると、そのプログラムは 1 つのポートフォリオから別のポートフォリオへと永続的に移動されます。
 
@@ -32,7 +36,7 @@ ht-degree: 49%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +45,7 @@ ht-degree: 49%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL 編集 &#x200B;] [!UICONTROL ポートフォリオ &#x200B;] および [!UICONTROL プログラム &#x200B;] へのアクセス </p> </td> 
+   <td> <p>[!UICONTROL Edit] [!UICONTROL Portfolios]および[!UICONTROL プログラム ]へのアクセス </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -50,11 +54,12 @@ ht-degree: 49%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,28 +82,29 @@ ht-degree: 49%
    <td> <p>[!UICONTROL Manage] permissions to the portfolio and the program</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## ポートフォリオに既存プログラムの追加
 
-1. ポートフォリオに移動し、左パネルの **[!UICONTROL プログラム]** をクリックします。
+1. ポートフォリオに移動し、左側のパネルで「**[!UICONTROL プログラム]**」をクリックします。
 1. 「**[!UICONTROL 新規プログラム]**」をクリックします。
 1. 「**[!UICONTROL 既存のプログラム]**」をクリックします。
 
-   **プログラムを追加** ボックスが開きます。<!--check screen shot - I logged changes for this casing-->
+   「**プログラムを追加**」ボックスが開きます。<!--check screen shot - I logged changes for this casing-->
 
-   ![&#x200B; プログラムボックスを追加 &#x200B;](assets/add-programs-box.png)
+   ![ プログラムボックスを追加](assets/add-programs-box.png)
 
    >[!IMPORTANT]
    >
    >既存のプログラムを追加すると、そのプログラムに関連するすべてのプロジェクトがポートフォリオに追加されます。このようにプロジェクトを不用意に移動しないように注意してください。
 
-1. 「**[!UICONTROL このポートフォリオにプログラムを追加]**」フィールドにプログラムの名前を入力し、リストに表示されたら選択します。<!--see the name of this field, I suggested changes here-->
+1. 「**[!UICONTROL このポートフォリオにプログラムを追加]**」フィールドに、プログラムの名前を入力し、リストに表示されたら選択します。<!--see the name of this field, I suggested changes here-->
 
    複数のプログラムを追加できます。
 
-1. （オプション）プログラムをポートフォリオに追加しない場合は、プログラム名の横にある **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+1. （オプション）プログラムをポートフォリオに追加しない場合は、プログラム名の横にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete-icon.png)をクリックします。
 
-1. **[!UICONTROL プログラムの追加]** をクリックします。
+1. 「**[!UICONTROL プログラムを追加]**」をクリックします。
 
-   プログラムは、選択したポートフォリオの **[!UICONTROL プログラム]** タブに表示されます。
+   プログラムは、選択したポートフォリオの&#x200B;**[!UICONTROL プログラム]** タブに表示されます。

@@ -7,7 +7,9 @@ description: Workfront でボードを削除またはアーカイブできます
 author: Courtney
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 88%
@@ -18,7 +20,7 @@ ht-degree: 88%
 
 [!DNL Workfront] でボードを削除またはアーカイブできます。ボードを削除すると、[!DNL Workfront] から完全に削除されますが、ボードをアーカイブするとすべてのカードが保持され、後で復元できます。
 
-ボードの所有者のみがボードを削除できます。
+ボードを削除できるのは、ボードの所有者のみです。
 
 ## アクセス要件
 
@@ -57,7 +59,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >削除できるボードは、自分が作成した、または所有者として名前が付けられたボードのみです。メンバーとして追加されたボードは削除できません。
+   >メンバーとして追加したボードではなく、作成したボードまたは所有者の名前が付いたボードのみを削除できます。
 
    ![ボードの詳細メニュー](assets/boards-board-more-menu.png)
 

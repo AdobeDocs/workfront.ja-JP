@@ -7,10 +7,12 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: d3db97d2b36bdba955d8cbf6a9bd784dff5a440c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +39,7 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Second Quarter 2025 release overview</a> </p> </li>
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">First Quarter 2025 release overview</a> </p> </li>
     <td> <ul>
-    <li> <p><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li>      
+    <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li>      
      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning Second Quarter 2025 release activity</a> </p> </li>
      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning First Quarter 2025 release activity</a> </p> </li>
      </ul>   </td>    </tr>
@@ -48,7 +50,7 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md" class="MCXref xref" xrefformat="{para}">Third Quarter 2024 release overview</a> </p> </li>
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Second Quarter 2024 release overview</a> </p> </li>
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">First Quarter 2024 release overview</a> </p> </li>
- <td> <ul>    <li> <p><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> 
+ <td> <ul>    <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> 
    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning Fourth Quarter 2024 release activity</a> </p> </li></ul>   </td> 
    </tr>
   <tr data-mc-conditions=""> 
@@ -61,7 +63,7 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
     </ul> </td> 
    <td>    <ul> 
      <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Goals with the 23.3 release</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> 
     </ul></td> 
   </tr>
   <tr data-mc-conditions=""> 
@@ -73,7 +75,7 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
      <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}">22.1 Release overview</a> </p> </li> 
     </ul> </td> 
    <td><ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> 
     </ul></td> 
   </tr> 
   <tr> 
@@ -87,7 +89,7 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
    <td> 
     <ul> 
      <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Goals with the 21.2 release</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -103,11 +105,12 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-release-activity.md">Adobe Workfront Goals release activity</a> <li><a href="../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Scenario Planner release activity</a> </li> <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </li> </li> 
+     <li><a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-release-activity.md">Adobe Workfront Goals release activity</a> <li><a href="../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Scenario Planner release activity</a> </li> <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </li> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 <table style="table-layout:auto">
   <col>
@@ -127,8 +130,8 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
       </td>
       <td>
         <ul>
-          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion リリースアクティビティ</a></li>
-          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront計画リリースアクティビティ：記事索引</a></li>
+          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion のリリースアクティビティ</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning のリリースアクティビティ：記事インデックス</a></li>
         </ul>
       </td>
     </tr>
@@ -144,11 +147,11 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
       </td>
       <td>
         <ul>
-          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion リリースアクティビティ</a></li>
-          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontの 2025 年第 4 四半期リリースアクティビティ</a></li>
-             <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning の 2025 年第 3 四半期リリースアクティビティ</a></li>
-          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontの 2025 年第 2 四半期リリースアクティビティ</a></li>
-          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront計画の 2025 年第 1 四半期リリースアクティビティ</a></li>
+          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion のリリースアクティビティ</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront の 2025年第 4 四半期リリースアクティビティ</a></li>
+             <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning の 2025年第 3 四半期リリースアクティビティ</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning の 2025年第 2 四半期リリースアクティビティ</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning の 2025年第 1 四半期リリースアクティビティ</a></li>
         </ul>
       </td>
     </tr>
@@ -159,13 +162,13 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
           <li><a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">2024年第 4 四半期リリースの概要</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md" class="MCXref xref" xrefformat="{para}">2024年第 3 四半期リリースの概要</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">2024年第 2 四半期リリースの概要</a></li>
-          <li><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">2024 年第 1 四半期リリースの概要</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">2024年第 1 四半期リリースの概要</a></li>
         </ul>
       </td>
       <td>
         <ul>
-          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion リリースアクティビティ</a></li>
-          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning 2024 年第 4 四半期リリースアクティビティ</a></li>
+          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion のリリースアクティビティ</a></li>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning の 2024年第 4 四半期リリースアクティビティ</a></li>
         </ul>
       </td>
     </tr>
@@ -188,8 +191,8 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
       </td>
       <td>
         <ul>
-          <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md" class="MCXref xref" xrefformat="{para}">23.3 リリースに伴う Adobe Workfront Goals</a></li>
-          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion リリースアクティビティ</a></li>
+          <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Goals と 23.3 リリース</a></li>
+          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion のリリースアクティビティ</a></li>
         </ul>
       </td>
     </tr>
@@ -205,7 +208,7 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
       </td>
       <td>
         <ul>
-          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion リリースアクティビティ</a></li>
+          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion のリリースアクティビティ</a></li>
         </ul>
       </td>
     </tr>
@@ -221,8 +224,8 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
       </td>
       <td>
         <ul>
-          <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}">21.2 リリースに伴う Adobe Workfront Goals</a></li>
-          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion リリースアクティビティ</a></li>
+          <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Goals と 21.2 リリース</a></li>
+          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion のリリースアクティビティ</a></li>
         </ul>
       </td>
     </tr>
@@ -252,9 +255,9 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
       </td>
       <td>
         <ul>
-          <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Goals リリースアクティビティ</a></li>
+          <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Goals のリリースアクティビティ</a></li>
           <li><a href="../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront シナリオプランナーのリリースアクティビティ</a></li>
-          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion リリースアクティビティ</a></li>
+          <li><a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion のリリースアクティビティ</a></li>
         </ul>
       </td>
     </tr>

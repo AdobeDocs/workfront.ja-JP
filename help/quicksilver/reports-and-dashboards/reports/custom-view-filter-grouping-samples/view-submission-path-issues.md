@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：問題の送信パス
+title: ビュー：イシューの提出パス
 description: イシューレポートのビューに、イシューが送信されたパスを表示できます。このパスは、イシューが最初に送信されたキュー、トピックグループ、キューのトピックを指します。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 67%
@@ -37,8 +39,8 @@ ht-degree: 67%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -59,11 +61,11 @@ ht-degree: 67%
 ## イシューの送信パスを表示
 
 1. イシューのリストに移動します。
-1. **ビュー** ドロップダウンメニューから「**新規ビュー**」を選択します。
+1. **ビュー** ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 
-1. **列のプレビュー** 領域で、「**列を追加**」をクリックします。
-1. 新しい列のヘッダーをクリックし、**テキストモードに切り替え**/**テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. **列プレビュー**&#x200B;領域で、**列を追加**&#x200B;をクリックします。
+1. 新しい列のヘッダーをクリックし、**テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```
    displayname= Issue Path
@@ -73,4 +75,4 @@ ht-degree: 67%
    valueformat=HTML
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。

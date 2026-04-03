@@ -1,12 +1,14 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Adobe Workfront Goals の目標リストでの目標の管理
+title: Adobe Workfront Goalsの目標リストでの目標の管理
 description: 自分または他のユーザーが目標を作成した後、その進行状況と情報を目標リストでレビューできます。目標の作成について詳しくは、「Adobe Workfront Goals での目標の作成」を参照してください。
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 82%
@@ -40,7 +42,7 @@ ht-degree: 82%
  <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p><p><b>メモ</b></p>
+   <p>Adobe Workfront Ultimate</p><p><b>メモ</b></p>
 <p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr>
@@ -64,7 +66,7 @@ ht-degree: 82%
  </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの「目標」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
@@ -74,7 +76,8 @@ ht-degree: 82%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -125,7 +128,8 @@ ht-degree: 82%
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## 目標リストでの目標の管理
 
@@ -242,9 +246,10 @@ ht-degree: 82%
 
 目標リストで目標を管理するには、次の手順に従います。
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
+1. 右上隅の&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**目標**&#x200B;をクリックします。
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   <!--
+    Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    デフォルトでは「目標リスト」セクションが表示されます。デフォルトでは、目標のステータス、期間または所有者に関係なく、目標を表示できます。
@@ -279,7 +284,7 @@ ht-degree: 82%
 
      詳しくは、[目標の進捗状況を Adobe Workfront Goals で計算](../goal-management/calculate-goal-progress.md)を参照してください。
 
-1. 目標リストの右上隅にあるフィルターアイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) をクリックし、フィルターを適用して、重要な目標のみを表示します。
+1. 目標リストの右上隅にあるフィルターアイコン ![ フィルターアイコン ](assets/filter-icon.png)をクリックし、フィルターを適用して、自分にとって重要な目標のみを表示します。
 
    Workfront Goals でのフィルターの使用について詳しくは、[Adobe Workfront Goals での情報のフィルター](../goal-management/filter-information-wf-goals.md)を参照してください。
 
@@ -289,10 +294,10 @@ ht-degree: 82%
 1. （オプション）同じ列を降順で並べ替えるには、列のフィールドを再度クリックします。
 1. 目標の名前をクリックして、目標のページを開きます。
 1. リストから 1 つの目標を選択し、リストの上部にある次のオプションの 1 つをクリックします。
-   * **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) 目標に関する情報を編集できます。 詳しくは、[Adobe Workfront Goals の目標を編集](../goal-management/edit-goals.md)を参照してください。
-   * **共有** アイコン ![&#x200B; 共有アイコン &#x200B;](assets/share-icon.png) を使用して、他のユーザーと目標を共有します。 詳しくは、[Adobe Workfront Goals の目標を共有](../workfront-goals-settings/share-a-goal.md)を参照してください。
-   * **関連付けを開く** アイコン ![&#x200B; 関連付けを開くアイコン &#x200B;](assets/align-icon-unshimmed.png) 目標の関連付け領域を開く このオプションは、選択した目標が別の目標に一致している場合にのみ表示されます。
-   * 目標を削除するには **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックし、確認するには **削除** をクリックします。  詳しくは、[Adobe Workfront Goals の目標を削除および非アクティブ化](../goal-management/delete-and-deactivate-goals.md)を参照してください。
+   * 目標に関する情報を編集するには、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)を使用します。 詳しくは、[Adobe Workfront Goals の目標を編集](../goal-management/edit-goals.md)を参照してください。
+   * **共有** アイコン ![共有アイコン ](assets/share-icon.png)を使用して、他のユーザーと目標を共有します。 詳しくは、[Adobe Workfront Goals の目標を共有](../workfront-goals-settings/share-a-goal.md)を参照してください。
+   * **整列を開く** アイコン ![整列アイコン ](assets/align-icon-unshimmed.png)を開いて、目標整列エリアを開きます。 このオプションは、選択した目標が別の目標に一致している場合にのみ表示されます。
+   * **削除** アイコン ![削除アイコン ](assets/delete-icon.png)をクリックして目標を削除し、**削除**&#x200B;をクリックして確認します。  詳しくは、[Adobe Workfront Goals の目標を削除および非アクティブ化](../goal-management/delete-and-deactivate-goals.md)を参照してください。
 
 
 

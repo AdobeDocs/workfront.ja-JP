@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: フィルター：同じフィールド（'AND'ステートメント）を参照する複数のフィルタールールを作成します
+title: Filter：同じフィールド（'AND' ステートメント）を参照する複数のフィルタールールを作成します
 description: 標準モードのインターフェイスでは、同じフィールドを参照する複数のフィルターを（AND 修飾子を使用して）作成しようとした場合、レポートを保存して Report Builder を終了すると、フィルターの 1 つが削除されます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 88%
@@ -42,8 +44,8 @@ ht-degree: 88%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
-   <p>レポートを変更するための「標準」または「プラン」</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -91,4 +93,4 @@ ht-degree: 88%
    >   
    >これらのステートメントでは大文字と小文字が区別されます。
 
-1. **[適用]**&#x200B;をクリックし、**[新しいファイルとして保存]**&#x200B;をクリックします。
+1. **適用**&#x200B;をクリックしてから、**新規保存**&#x200B;をクリックします。

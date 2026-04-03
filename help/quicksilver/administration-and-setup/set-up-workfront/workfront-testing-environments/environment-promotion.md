@@ -9,7 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2088'
 ht-degree: 88%
@@ -18,7 +20,7 @@ ht-degree: 88%
 
 # [!DNL Workfront] Environment Promotion API を使用して [!DNL Workfront] 環境間でオブジェクトを移動する
 
-環境プロモーション機能を使用すると、設定関連のオブジェクトを環境間で移動できます。 この記事の説明に従って、Workfront API を使用してこれらのオブジェクトを移動できます。
+環境プロモーション機能を使用すると、設定関連のオブジェクトをある環境から別の環境に移動できます。 この記事の説明に従って、Workfront API を使用してこれらのオブジェクトを移動できます。
 
 Workfront アプリケーションを使用して環境間でオブジェクトを移動する手順については、以下を参照してください。
 
@@ -107,7 +109,7 @@ SessionID: abc1234
 
 最初のステップでは、「ASSEMBLING」ステータスの空のプロモーションパッケージが作成されます。
 
-2 番目のステップでは、POST 本文で指定された `objectCollections` 配列を使用して、Workfront に要求されたレコードを組み立てます。要求されたレコードの数と Workfront の設定によっては、このステップが完了するまでに数分かかる場合があります。このプロセスの終わりに、空のプロモーションパッケージに `packageEntities` が反映され、ステータスが自動的に「DRAFT」に設定されます。
+2 番目のステップでは、POST 本文で指定された `objectCollections` 配列を使用して、Workfront に要求されたレコードを組み立てます。要求されたレコードの数と Workfront の設定によっては、このステップが完了するまでに数分かかる場合があります。このプロセスの終わりに、空のプロモーションパッケージが `packageEntities` で更新され、ステータスが自動的に「DRAFT」に設定されます。
 
 
 >[!NOTE]
@@ -531,7 +533,7 @@ Deleted
   </tr> 
   <tr> 
    <td>OVERWRITING</td> 
-   <td><p>このアクションは自動的に設定されません。</p><p>このアクションにより、ターゲット環境に存在するオブジェクトを更新できます。<code>/install</code> 呼び出しを実行する前に、割り当てられた CREATE または USEEXISTING アクションを手動で上書きする機能を提供します。<ul><li>ユーザーは、テスト環境でオブジェクトを更新し、OVERWRITING アクションを使用してターゲット環境でそのオブジェクトを更新できます。</p></li><li><p>ユーザーが最初に 1 つのプロモーションパッケージをインストールし、将来の新しい（または更新された）パッケージに初期パッケージ内のオブジェクトへの変更が含まれる場合、ユーザーは OVERWRITING を使用して、以前にインストールされたオブジェクトを置き換える（上書きする）ことができます。 </p><p>上書きの詳細については、この記事の [ 上書き ] （#overwriting）を参照してください。</li><ul></td> 
+   <td><p>このアクションは自動的に設定されません。</p><p>このアクションにより、ターゲット環境に存在するオブジェクトを更新できます。<code>/install</code> 呼び出しを実行する前に、割り当てられた CREATE または USEEXISTING アクションを手動で上書きする機能を提供します。<ul><li>ユーザーは、テスト環境でオブジェクトを更新し、OVERWRITING アクションを使用してターゲット環境でそのオブジェクトを更新できます。</p></li><li><p>ユーザーが最初に 1 つのプロモーションパッケージをインストールし、将来の新しい（または更新された）パッケージに初期パッケージ内のオブジェクトへの変更が含まれる場合、ユーザーは OVERWRITING を使用して、以前にインストールされたオブジェクトを置き換える（上書きする）ことができます。 </p><p>上書きについて詳しくは、この記事の[上書き] （#overwriting）の節を参照してください。</li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORE</td> 
@@ -915,17 +917,17 @@ _空_
 
 ## 上書き
 
-これは 3 段階のプロセスです。
+これは3つのステップで構成されています。
 
-1. 翻訳マップを作成します（「インストールの準備」フェーズに類似しています）。
-1. 生成された翻訳マップを編集し、上書きするオブジェクトの `action` フィールドと `targetId` フィールドを設定します。 アクションは `OVERWRITING`、`targetId` は上書きするオブジェクトの uuid にしてください
+1. 翻訳マップの作成（これは「インストールの準備」フェーズと類似しています）
+1. 生成された翻訳マップを編集し、上書きする任意のオブジェクトの`action`および`targetId` フィールドを設定します。 アクションは`OVERWRITING`で、`targetId`は上書きするオブジェクトのUUIDである必要があります
 1. インストールを実行します。
 
-* [手順 1 – 翻訳マップの作成](#step-1---create-a-translation-map)
-* [手順 2 – 翻訳マップの変更](#step-2---modify-the-translation-map)
-* [手順 3 - インストール](#step-3---install)
+* [手順1 – 翻訳マップの作成](#step-1---create-a-translation-map)
+* [ステップ 2 – 翻訳マップを変更する](#step-2---modify-the-translation-map)
+* [手順3 - インストール](#step-3---install)
 
-### **手順 1 – 翻訳マップの作成**
+### **手順1 – 翻訳マップの作成**
 
 #### URL
 
@@ -939,7 +941,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 応答
 
-翻訳マップ（`202 - OK` ステータス）
+`202 - OK` ステータスの翻訳マップ
 
 ```json
 {
@@ -1012,19 +1014,19 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 }
 ```
 
-### 手順 2 – 翻訳マップの変更
+### ステップ 2 – 翻訳マップを変更する
 
-この手順にはエンドポイントがありません。
+このステップのエンドポイントはありません。
 
-1. [&#x200B; 手順 1 – 翻訳マップの作成 &#x200B;](#step-1---create-a-translation-map) で返された翻訳マップで、インストールするオブジェクトのリストを調べます。
-1. 各オブジェクトのアクションフィールドを目的のインストールアクションに更新します。
-1. 各オブジェクトの `targetId` を検証します。 set アクションが `USEEXISTING` または `OVERWRITING` の場合、`targetId` は、ターゲット環境のターゲットオブジェクトの UUID に設定する必要があります。 その他のアクションの場合は、targetId を空の文字列にする必要があります。
+1. [手順1 – 翻訳マップを作成](#step-1---create-a-translation-map)で返された翻訳マップで、インストールされるオブジェクトのリストを調べます。
+1. 各オブジェクトのアクションフィールドを、目的のインストールアクションに更新します。
+1. 各オブジェクトの`targetId`を検証します。 設定アクションが`USEEXISTING`または`OVERWRITING`の場合、`targetId`は宛先環境のターゲットオブジェクトのUUIDに設定する必要があります。 その他のアクションの場合、targetIdは空の文字列である必要があります。
 
    >[!NOTE]
    >
-   >競合が検出された場合、`targetId` は既に入力されています。
+   >衝突が検出された場合、`targetId`は既に入力されています。
 
-### **手順 3 - インストール**
+### **手順3 - インストール**
 
 #### URL
 
@@ -1034,7 +1036,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 本文
 
-これは、単一のフィールド `translationMap` を持つオブジェクトで、[&#x200B; 手順 2 – 翻訳マップの変更 &#x200B;](#step-2---modify-the-translation-map) で変更した翻訳マップと等しくなります。
+これは、1つのフィールド `translationMap`を持つオブジェクトです。これは、[手順2 – 翻訳マップの変更](#step-2---modify-the-translation-map)で変更した翻訳マップと等しくなります。
 
 ```json
 {
@@ -1113,11 +1115,12 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 応答
 
-応答には、`{uuid of the created installation}` と `202 - ACCEPTED` ステータスが含まれます。
+応答には、`{uuid of the created installation}`と`202 - ACCEPTED` ステータスが含まれます。
 
 例：`b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
-<!--table templates
+<!--
+table templates
 
 <table style="table-layout:auto"> 
  <col> 

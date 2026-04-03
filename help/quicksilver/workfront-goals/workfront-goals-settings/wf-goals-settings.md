@@ -8,10 +8,12 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 50%
+ht-degree: 83%
 
 ---
 
@@ -21,13 +23,14 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 >
 >Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -44,9 +47,10 @@ ht-degree: 50%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).  -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
-次の記事では、目標に関連する通知と、Adobe Workfront Goals で目標を共有する方法について説明します。
+目標関連の通知と、Adobe Workfront Goalsで目標を共有する方法について詳しくは、次の記事を参照してください。
 
 * [Adobe Workfront Goals の通知の有効化](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * [Workfront Goals での目標の共有](../../workfront-goals/workfront-goals-settings/share-a-goal.md)

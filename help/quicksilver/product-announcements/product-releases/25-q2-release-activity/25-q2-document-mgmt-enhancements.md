@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 65%
@@ -46,7 +48,7 @@ For more information, see [Use new document approvals and proofing together](/he
 >
 >プレビューリリース：2025年3月20日（PT）。すべてのお客様向けの実稼動版：2025年3月20日（PT）
 
-デスクトッププルーフビューアがバージョン 2.1.45 に更新されました。このアップデートにより、ビューアはを使用できるようになります
+デスクトップ校正ビューアがバージョン 2.1.45に更新されました。この更新により、ビューアーは
 
 * Electron バージョン 35
 * Chromium バージョン 134
@@ -59,6 +61,6 @@ For more information, see [Use new document approvals and proofing together](/he
 >
 >プレビューリリース：2025年2月6日（PT）。すべてのお客様向けの実稼動版：2025年3月13日（PT）
 
-ドキュメントレポートで、複数のドキュメントを一度に編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。
+ドキュメント レポートで一度に複数のドキュメントを編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。
 
-詳しくは、[&#x200B; ドキュメントの一括編集 &#x200B;](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md) を参照してください。
+詳しくは、[ ドキュメントの一括編集](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)を参照してください。

@@ -2,15 +2,17 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Adobe Workfront Goals の目標の整合性の概要
+title: Adobe Workfront Goalsでの目標調整の概要
 description: 目標を関連付けることにより、各自の目標を互いに、またチームやグループ、会社の組織的な目標と連携させることで、組織の全員が達成すべきことについて同じ考えを持っていることを確認します。
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -20,14 +22,15 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 > 
 >Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 
-<!--Old:
+<!--
+Old:
 >Your organization must have the following to use the functionality described in this article:
 >
 >* For the new plan and license structure:
@@ -41,11 +44,12 @@ ht-degree: 88%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).-->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 目標の関連付けは、目標管理の重要な部分です。各自の目標をお互いに、またチームやグループ、会社の組織的な目標と連携させることで、戦略を前進させるために何が必要かについて、組織の全員が同じ考えを持っていることを確認できます。
 
-最上位の会社、チームまたはグループの目標を設定してレビューした後、直属の部下とチームメンバーは、最上位レベルから重なる、より焦点を絞った目標を作成する必要があります。 これらの目標の範囲は、より狭く、目標の責任者として指定された個人とその影響範囲を考慮に入れる必要があります。目標は、その目標が関連付けられた親目標を達成するために、ユーザーやそのチームが何を達成しなければならないかという問いに答える必要があります。
+企業、チーム、グループのトップレベルの目標を設定し、レビューした後、直接的なレポートとチームメンバーは、トップレベルから連鎖する、より焦点を絞った目標を作成する必要があります。 これらの目標の範囲は、より狭く、目標の責任者として指定された個人とその影響範囲を考慮に入れる必要があります。目標は、その目標が関連付けられた親目標を達成するために、ユーザーやそのチームが何を達成しなければならないかという問いに答える必要があります。
 
 目標の関連付けに関するベストプラクティスについて詳しくは、[Adobe Workfront Goals の概要](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)を参照してください。
 
@@ -102,7 +106,7 @@ ht-degree: 88%
 -->
 以下のエリアで、子目標と親目標を表示できます。
 
-* 目標のページのタイプ グループの下にある進捗インジケーター :Goal セクション。
+* 目標のページの「タイプ :Goal」グループの下にある「進捗状況インジケーター」セクション。
 * 目標ページの「目標の整合」セクション。
 
 

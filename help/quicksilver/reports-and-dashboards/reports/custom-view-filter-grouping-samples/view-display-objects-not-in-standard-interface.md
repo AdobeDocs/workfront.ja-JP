@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：標準インタフェースに含まれていないオブジェクトを表示します
+title: ビュー：標準インターフェイスに含まれていないオブジェクトを表示
 description: 標準モードのインターフェイスに含まれていないオブジェクトをビューで表示できます。テキストモードで参照する場合にのみ、これを実行できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 86%
@@ -43,8 +45,8 @@ ht-degree: 86%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -68,14 +70,14 @@ ht-degree: 86%
 
 1. 「**列を追加**」をクリックして、**この列に表示**&#x200B;フィールドに「ポートフォリオ所有者 ID」を入力し、リストに表示されたら選択します。
 
-1. **テキストモードに切り替え** をクリックしてから、**テキストモードを編集** をクリックします。
+1. 「**テキストモードに切り替え**」、「**テキストモードを編集**」の順にクリックします。
 1. `valuefield` 行（`valuefield=portfolio:ownerID`）を次の行に置き換えます。
 
    `valuefield=portfolio:owner:name`
 
    または
 
-   「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+   「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```
    valuefield=portfolio:owner:name
@@ -91,4 +93,4 @@ ht-degree: 86%
    >
    >テキストモードを使用して `ID` フィールドを `name` フィールドに置き換えるには、常に `valuefield` 行の `ID` を `:name` に置き換えます。
 
-1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存**」をクリックします。

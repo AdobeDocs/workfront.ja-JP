@@ -1,12 +1,14 @@
 ---
-title: レコードタイプを削除
+title: レコードタイプの削除
 description: 関係がなくなったレコードタイプは削除できます。レコードタイプを削除すると、レコード、フィールド、ビューなど、レコードタイプに関連付けられているすべての情報も削除されます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 21%
@@ -18,9 +20,11 @@ ht-degree: 21%
 
 # レコードタイプの削除
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -28,7 +32,7 @@ ht-degree: 21%
 
 ただし、レコードタイプを削除すると、そのレコードタイプに関連付けられているすべての情報も削除されます。詳しくは、この記事で[レコードタイプを削除する際の考慮事項](#considerations-when-deleting-record-types)の節を参照してください。
 
-レコードタイプについて詳しくは、[&#x200B; レコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
+レコードタイプについて詳しくは、[ レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -49,16 +53,16 @@ ht-degree: 21%
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <ul> 
-<li><p>任意のWorkfrontと任意の Planning パッケージ</p></li>
+<li><p>任意のWorkfrontおよびプランニングパッケージ</p></li>
 または
-<li><p>任意のワークフローおよび任意の計画パッケージ</p></li></ul>
+<li><p>任意のワークフローとプランニングパッケージ</p></li></ul>
 
-<p>グローバル・レコード・タイプを削除する手順は、次のとおりです。</p>
-<ul><li><p>任意のWorkfront パッケージと Planning Plus パッケージ</p></li>
+<p>グローバルレコードタイプを削除するには：</p>
+<ul><li><p>任意のWorkfront パッケージとPlanning Plus パッケージ</p></li>
 または
-<li><p>任意のワークフローと Planning PrimeまたはUltimate パッケージ</p></li></ul>
+<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li></ul>
 
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
@@ -73,11 +77,12 @@ ht-degree: 21%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -150,101 +155,101 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 * 削除したレコードタイプやその情報は復元できません。
 * 削除するレコードタイプに関連付けられているフィールドとレコードを別のレコードタイプで再作成してから削除することをお勧めします。
 
-* 他のワークスペースに追加されているグローバル レコード タイプは削除できません。
+* 他のワークスペースに追加されたグローバルレコードタイプは削除できません。
 
-  詳細については、この記事の「グローバル レコード タイプを削除する [&#x200B; を参照し &#x200B;](#delete-global-record-types) ください。
+  詳しくは、この記事の「[ グローバルレコードタイプを削除](#delete-global-record-types)」の節を参照してください。
 
 ## レコードタイプの削除
 
 {{step1-to-planning}}
 
-1. レコードタイプを削除するワークスペースをクリックします。
+1. 削除するレコードタイプのワークスペースをクリックします。
 
    または
 
-   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開してワークスペースを検索し、リストに表示されたら選択します。
+   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開し、ワークスペースを検索して、リストに表示されるときに選択します。
 
    ワークスペースが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
-   * レコードタイプカードにポインタを合わせ、「**詳細**」メニューをクリックしてから **削除** をクリックします。
-   * 削除するレコードの種類のカードをクリックし、レコードの種類ページで、レコードの種類名の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックし、[**削除**] をクリックします。
+   * レコードタイプカードにカーソルを合わせ、**詳細** メニューをクリックしてから&#x200B;**削除**&#x200B;します。
+   * 削除するレコードタイプのカードをクリックし、レコードタイプページから、レコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックします。
 
      >[!TIP]
      >
-     >グローバルレコードタイプは、追加されたセカンダリワークスペースからレコードタイプページから削除することはできません。 ワークスペースのレコードタイプカードからのみ削除できます。
+     >レコードの種類ページから追加されたセカンダリワークスペースから、グローバルなレコードの種類を削除することはできません。 削除できるのは、ワークスペースのレコードタイプカードのみです。
 
-     ![&#x200B; レコードタイプを完全に削除する確認 &#x200B;](assets/permanently-delete-record-type-confirmation.png)
+     ![ レコードタイプの確認を完全に削除](assets/permanently-delete-record-type-confirmation.png)
 
 
-1. 確認ボックスに **削除** と入力し、「**完全に削除**」をクリックします。 これは、大文字と小文字を区別しません。
+1. 確認ボックスに「**delete**」と入力し、**完全に削除**」をクリックします。 大文字と小文字を区別しません。
 
-   選択したレコードタイプは、フィールド、関連レコード、ビューと共に削除され、復元できません。
+   選択したレコードタイプとそのフィールド、関連するレコード、ビューは削除され、復元できません。
 
-## グローバル レコード タイプの削除
+## グローバルなレコードタイプの削除
 
-グローバル レコード タイプを削除する場合は、次のシナリオが発生します。
+グローバルレコードタイプを削除する場合、次のシナリオが存在します。
 
-* グローバルとして設定されたレコードタイプがまだ別のワークスペースに追加されていない場合は、元のワークスペースから削除できます。
+* グローバルとして設定されたレコードタイプがまだ別のワークスペースに追加されていない場合は、そのレコードタイプを元のワークスペースから削除できます。
 
-* グローバルレコードタイプとして設定されたレコードタイプが 1 つ以上の他のワークスペースに追加されている場合、元のワークスペースから削除することはできません。 まず、グローバル レコード タイプを追加先のセカンダリ ワークスペースから削除する（削除する）必要があります。その後、グローバル レコード タイプを元のワークスペースから完全に削除できます。
+* グローバルレコードタイプとして設定されたレコードタイプが、他の少なくとも1つのワークスペースに追加されている場合、元のワークスペースから削除することはできません。 最初に追加されたセカンダリワークスペースからグローバルレコードタイプを削除（削除）する必要があります。次に、元のワークスペースからグローバルレコードタイプを完全に削除できます。
 
-### グローバルレコードタイプの元のワークスペースからの削除
+### 元のワークスペースからグローバルレコードタイプを削除する
 
-関係がなくなったレコードタイプは、元のワークスペースから削除できます。
+レコードタイプが関連性がなくなった場合は、元のワークスペースからレコードタイプを削除できます。
 
 すべてのレコードとフィールドも削除され、復元できません。
 
 1. 元のワークスペースのグローバルレコードタイプに移動します。
 
-1. （条件付き）グローバルレコードタイプがセカンダリワークスペースに追加されているかどうかに応じて、次のいずれかの操作をおこないます。
+1. （条件付き）グローバルレコードタイプがセカンダリワークスペースに追加されているかどうかに応じて、次のいずれかの操作を行います。
 
-   * レコードの種類がセカンダリ ワークスペースに追加されなかった場合、レコードの種類のカードの **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png)、またはページ上のレコードの種類の名前の右側をクリックし、[**削除**] をクリックします。
-   * レコードタイプが 1 つ以上の他のセカンダリワークスペースに追加された場合、最初にセカンダリワークスペースに移動し、そのスペースからグローバルレコードを削除します。
+   * レコードタイプがセカンダリワークスペースに追加されていない場合は、レコードタイプのカードの&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックするか、ページのレコードタイプの名前の右側にある「**削除**」をクリックします。
+   * レコードタイプが他の少なくとも1つのセカンダリワークスペースに追加された場合は、まずセカンダリワークスペースに移動し、そのスペースからグローバルレコードを削除します。
 
-     詳しくは、この記事の [&#x200B; セカンダリワークスペースからグローバルレコードタイプを削除する &#x200B;](#delete-a-global-record-type-from-a-secondary-workspace) を参照してください。
+     詳しくは、この記事の「[ セカンダリワークスペースからグローバルレコードタイプを削除する](#delete-a-global-record-type-from-a-secondary-workspace)」の節を参照してください。
 
-1. （条件付き）この記事の「レコードタイプを削除 [&#x200B; の節で説明しているように、レコードタイプの削除を続行 &#x200B;](#delete-record-types-1) ます。
+1. （条件付き）この記事の「[ レコードタイプを削除](#delete-record-types-1)」の節で説明しているように、レコードタイプの削除を続行します。
 
    次のことが発生します。
 
-   * グローバルレコードタイプが元のワークスペースから削除され、レコードタイプ、そのレコードおよびフィールドは復元できません。
-   * セカンダリワークスペースのすべてのグローバルレコードとそのレコードもこのワークスペースから削除されます。
+   * グローバルなレコードタイプは元のワークスペースから削除され、レコードタイプは、そのレコードとフィールドを復元できません。
+   * セカンダリワークスペースからのすべてのグローバルレコードとそのレコードも、このワークスペースから削除されます。
 
-### グローバルレコードタイプのセカンダリワークスペースからの削除
+### セカンダリワークスペースからグローバルレコードタイプを削除する
 
-追加したレコードタイプは、不要になったら別のワークスペースから削除できます。
+不要になった場合は、別のワークスペースから追加したレコードタイプを削除できます。
 
 次の点に注意してください。
 
-* グローバルレコードタイプをセカンダリワークスペースから削除しても、レコードタイプは元のワークスペースに残ります。
+* セカンダリワークスペースからグローバルレコードタイプを削除すると、レコードタイプは元のワークスペースに残ります。
 
-* グローバルレコードタイプをセカンダリワークスペースから削除すると、次の項目も削除されます。
+* セカンダリワークスペースからグローバルレコードタイプを削除すると、次の項目も削除されます。
 
    * セカンダリワークスペースから追加されたレコードは、セカンダリワークスペースと元のワークスペースから削除され、復元できません。
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
-* セカンダリ ワークスペースから削除されたグローバル レコード タイプはリカバリできません。
+* セカンダリワークスペースから削除されたグローバルレコードタイプは復元できません。
 
-* 元のレコードタイプは、元のワークスペースと、それが追加された他のワークスペースに残ります。
+* 元のレコードタイプは、元のワークスペースと、追加された他のワークスペースに残ります。
 
-* セカンダリワークスペースのレコードタイプに追加されたビューは保持され、共有されている場合は他のワークスペースに表示されます。
+* セカンダリワークスペースのレコードタイプに追加されたビューは保持され、共有されている場合は、他のワークスペースに表示されます。
 
 セカンダリワークスペースからグローバルレコードタイプを削除するには：
 
 1. セカンダリワークスペースのグローバルレコードタイプに移動します。
 
-1. （オプション）レコードタイプのカードの **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**削除**」をクリックします。
-1. （条件付き）表示されたフィールドに **削除** と入力し、「**完全に削除**」をクリックします。
+1. （オプション）レコードタイプのカードの&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックします。
+1. （条件付き）指定されたフィールドに「**delete**」と入力し、**完全に削除**」をクリックします。
 
-   ![&#x200B; セカンダリ グローバル レコード タイプの削除の確認ボックス &#x200B;](assets/delete-secondary-global-record-type.png)
+   ![ セカンダリグローバルレコードタイプの削除の確認ボックス ](assets/delete-secondary-global-record-type.png)
 
    次のことが発生します。
 
-   * グローバル レコード タイプから作成されたレコード タイプは、選択したセカンダリ ワークスペースから削除されます。
+   * グローバルレコードタイプから作成されたレコードタイプは、選択したセカンダリワークスペースから削除されます。
    * フィールドを含む元のレコードタイプは、元のワークスペースに残ります。
    * レコードタイプは、追加された他のすべてのワークスペースに残ります。
-   * セカンダリワークスペースからレコードタイプに追加されたレコード <!--and fields--> が削除されます。 グローバルレコードタイプが追加された追加のワークスペースから追加された他のすべてのレコードは、それぞれのワークスペースと元のワークスペースに保持されます。 &lt;!- フィールドが追加されたワークスペースに保持されます。
+   * セカンダリワークスペースからレコードタイプに追加されたレコード <!--and fields-->が削除されます。 グローバルレコードタイプが追加された追加のワークスペースから追加されたその他すべてのレコードは、それぞれのワークスペースと元のワークスペースに保存されます。 &lt;! – フィールドは、追加されたワークスペースに保存されます。
 
 

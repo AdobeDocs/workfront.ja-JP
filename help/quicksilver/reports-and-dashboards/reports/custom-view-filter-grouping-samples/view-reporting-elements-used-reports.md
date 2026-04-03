@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：レポートで使用されるレポート要素
+title: ビュー：レポートで使用されるレポート要素
 description: このビューには、Adobe Workfront で各レポートをレポートのリストで使用する際に、レポートを作成するために使用されるビュー、フィルター、グループ化が表示されます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 63%
@@ -20,7 +22,7 @@ ht-degree: 63%
 
 このビューには、Adobe Workfront で各レポートをレポートのリストで使用する際に、レポートを作成するために使用されるビュー、フィルター、グループ化が表示されます。
 
-レポートのすべての要素で使用されている `valuefields` または `valueexpressions` を確認できます。
+レポートのすべての要素で使用されている`valuefields`または`valueexpressions`を確認できます。
 
 ![report_with_elements_definitions.png](assets/report-with-elements-definitions-350x130.png)
 
@@ -39,8 +41,8 @@ ht-degree: 63%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -62,9 +64,9 @@ ht-degree: 63%
 
 1. レポートのリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューから、**新規表示**&#x200B;を選択します。
-1. **列プレビュー** 領域で、1 列以外のすべての列を削除します。
-1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え** > **テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. **列プレビュー**&#x200B;領域で、1列を除くすべての列を削除します。
+1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
 
    ```
@@ -108,4 +110,4 @@ ht-degree: 63%
    column.5.valueformat=HTML
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。

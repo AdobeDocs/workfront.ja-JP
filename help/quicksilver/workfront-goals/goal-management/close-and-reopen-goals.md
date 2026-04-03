@@ -1,12 +1,14 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals での目標のクローズと再オープン
+title: Adobe Workfront Goalsで目標を閉じて再度開く
 description: 目標が完了したこと、または目標が古くなったので作業を終了したことを示す場合は、目標をクローズすることができます。
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 90%
@@ -43,7 +45,7 @@ ht-degree: 90%
  <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p><p><b>メモ</b></p>
+   <p>Adobe Workfront Ultimate</p><p><b>メモ</b></p>
 <p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr> 
@@ -67,7 +69,7 @@ ht-degree: 90%
  </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの「目標」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
@@ -77,7 +79,8 @@ ht-degree: 90%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -128,7 +131,8 @@ ht-degree: 90%
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## 目標をクローズまたは再度開く際の考慮事項
 
@@ -201,17 +205,17 @@ Closing goals differs depending on what environment you use.
 
    目標ページが開きます。
 
-   ![&#x200B; 目標ページ &#x200B;](assets/goal-page-unshimmed.png)
-1. 目標名の右側にある **その他** メニュー ![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) をクリックしてから、「**閉じる** をクリックします。
+   ![目標ページ ](assets/goal-page-unshimmed.png)
+1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**閉じる**&#x200B;をクリックします。
 
    目標が閉じ、画面の右上隅に確認メッセージが表示されます。
 
-   ![&#x200B; 目標クローズの確認 &#x200B;](assets/goal-close-confirmation-with-add-closing-notes-link.png)
+   ![目標の終了確認](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
 1. （オプション）確認ボックスで、「**クローズメモを追加**」をクリックして、この目標についてと、なぜ閉じる必要があるかについてのコメントを追加します。
 1. クローズメモを追加し、「**メモを追加**」をクリックします。
 
-   ![&#x200B; クロージングメモボックスを追加 &#x200B;](assets/add-closing-notes-box-unshimmed.png)
+   ![終了メモ ボックスを追加](assets/add-closing-notes-box-unshimmed.png)
 
    コメントは、目標のページの「目標の詳細」セクションにあるクローズメモエリアに表示されます。
 
@@ -263,7 +267,7 @@ Reopening goals differs depending on what environment you use.
 1. クローズした目標の名前をクリックします。
 
    目標ページが開きます。
-1. 目標名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、**再度開く**/**再度開く** を選択します。
+1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**再開** > **再開**&#x200B;します。
 
    次のことが発生します。
    * 目標が開き、ステータスが「アクティブ」になります。

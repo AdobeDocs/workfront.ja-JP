@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: バーンダウンチャートのデータの同期
+title: バーンダウンチャートでのデータの同期
 description: バーンダウンチャートは、プロジェクトまたはイテレーション内のデータと自動的に同期されます。バーンダウンチャートがプロジェクトまたはイテレーションのデータと同期しなくなった場合は、手動で同期できます。
 author: Courtney
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 95%
@@ -33,7 +35,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>ライト以上</p> 
+   <td> <p>明るいまたはそれ以上</p> 
    <p>レビュー以上</p> </td> 
   </tr>
  </tbody> 

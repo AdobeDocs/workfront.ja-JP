@@ -1,12 +1,14 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Adobe Workfront Goals での目標の関連付けの削除
+title: Adobe Workfront Goalsでの目標の整合性の削除
 description: 2 つの目標を接続しても意味がない場合は、それらの目標間の整合性を削除できます。
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 85%
@@ -43,7 +45,7 @@ ht-degree: 85%
  <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p><p><b>メモ</b></p>
+   <p>Adobe Workfront Ultimate</p><p><b>メモ</b></p>
 <p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr> 
@@ -66,7 +68,7 @@ ht-degree: 85%
 </td>
  </tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの「目標」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
@@ -75,7 +77,8 @@ ht-degree: 85%
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -124,7 +127,8 @@ ht-degree: 85%
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## 前提条件
 
@@ -166,9 +170,9 @@ Removing goal alignment differs depending on which environment you use.
 1. Workfront の&#x200B;**目標**&#x200B;エリアにアクセスし、目標の名前をクリックして、目標のページを開きます。
 1. 親目標の目標ページで、左パネルの&#x200B;**進行状況インジケーター**&#x200B;をクリックします。
 
-   ![&#x200B; 目標の整合性の再移動 &#x200B;](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![目標の調整を再移動](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. **タイプ：目標** グループ化で、目標を選択し、リストの上部にある **切断** アイコン ![&#x200B; 切断アイコン &#x200B;](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) をクリックします。
+1. **タイプ：目標** グループで、目標を選択し、リストの上部にある&#x200B;**切断** アイコン ![切断アイコン ](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)をクリックします。
 
    連携解除ボックスが表示されます。
 

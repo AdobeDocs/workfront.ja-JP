@@ -1,12 +1,14 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: プロジェクトの状態タイプの設定
+title: プロジェクトの条件タイプの設定
 description: プロジェクトマネージャーは、プロジェクトの状況タイプを更新して、プロジェクトの状況の計算方法を決定できます。プロジェクト状況は、プロジェクトの進行状況を視覚的に表したものです。
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 72%
@@ -43,8 +45,8 @@ ht-degree: 72%
    <td role="rowheader">オブジェクト権限</td> 
    <td> 
     <ul> 
-     <li> <p>プロジェクトに権限を付与して「プロジェクトの詳細」領域で条件タイプを編集する </p> </li> 
-     <li> <p>プロジェクトに対する権限を管理し、「プロジェクトを編集」ボックスで条件タイプを編集します</p> </li> 
+     <li> <p>プロジェクトに権限を付与して、「プロジェクトの詳細」領域の「条件タイプ」を編集します </p> </li> 
+     <li> <p>プロジェクトに対する権限を管理して、「プロジェクトを編集」ボックスで条件タイプを編集します</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -54,7 +56,8 @@ ht-degree: 72%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,17 +84,18 @@ ht-degree: 72%
     </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## プロジェクトの状況タイプの設定
 
 1. 状況タイプを更新するプロジェクトに移動します。
 1. 次のいずれかの操作を行います。
 
-   * プロジェクト名の右側にある **その他** メニュー ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) をクリックし、**編集** をクリックします。
+   * プロジェクト名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/qs-more-menu.png)をクリックし、**編集**&#x200B;をクリックします。
    * 左側のパネルにある「**プロジェクト詳細**」をクリックします。
 
-   ![&#x200B; 条件タイプを更新 &#x200B;](assets/update-condition-type-nwe-350x108.png)
+   ![条件タイプの更新](assets/update-condition-type-nwe-350x108.png)
 
 1. 「**状況タイプ**」フィールドで、次のいずれかを選択します。
 
@@ -101,8 +105,8 @@ ht-degree: 72%
 
    * **進捗ステータス：** Workfront は、プロジェクトの進捗ステータスに基づいて状況を設定します。進捗ステータスの計算方法について詳しくは、[プロジェクトの進捗ステータスの概要](../../../manage-work/projects/planning-a-project/project-progress-status.md)を参照してください。
 
-1. 「プロジェクトを編集」ボックスで条件タイプを修正したら、「**保存**」をクリックします。
+1. 「プロジェクトを編集」ボックスで条件タイプを変更する場合は、**保存**&#x200B;をクリックします。
 
-   「プロジェクト詳細」セクションで条件タイプを変更したら、「**変更を保存**」をクリックします。
+   プロジェクトの詳細セクションで条件タイプを変更する場合は、**変更を保存**&#x200B;をクリックします。
 
 

@@ -6,7 +6,9 @@ description: ' [!DNL Adobe Workfront] 内のオブジェクトのヘッダーを
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3697'
 ht-degree: 95%
@@ -32,12 +34,14 @@ ht-degree: 95%
 
    ![](assets/project-header-350x18.png)
 
-<!--## [!UICONTROL Home] header overview 
+<!--
+## [!UICONTROL Home] header overview 
 
 The following headers are available in Home:
 
 * Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
-* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.
+-->
 
 ## カスタマイズ可能なヘッダー
 
@@ -81,8 +85,8 @@ The following headers are available in Home:
    <td> <p>「[!UICONTROL PROJECT]」というテキストが、ヘッダーのプロジェクト名の上に表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">プロジェクトの「アクション」領域</td> 
-   <td> <p>プロジェクト名の横のアクション エリアに「<b> 共有 </b>」オプションを含む内容が表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
+   <td role="rowheader">プロジェクトのアクション領域</td> 
+   <td> <p>プロジェクト名の横に、<b>共有</b> オプションを含むアクション領域が表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -145,7 +149,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">タスクのアクション領域</td> 
-   <td> <p>タスク名の横のアクション領域に「<b> 共有 </b>」オプションを含む内容が表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>「依存関係」アイコンが表示された場合は、アイコンをクリックして、タスクの先行タスクまたは後続タスクを表示できます。</p> </td> 
+   <td> <p>タスクの名前の横に、<b>共有</b> オプションを含むアクション領域が表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>「依存関係」アイコンが表示された場合は、アイコンをクリックして、タスクの先行タスクまたは後続タスクを表示できます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -208,7 +212,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">イシューのアクションエリア</td> 
-   <td> <p>イシュー名の横のアクション領域に、「<b> 共有 </b>」オプションを含む内容が表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>[!UICONTROL Dependency] アイコンが表示された場合は、アイコンをクリックして、イシューの先行タスクまたは後続タスクを表示できます。</p>  </td> 
+   <td> <p>問題の名前の横に、<b>共有</b> オプションを含むアクション領域が表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>[!UICONTROL Dependency] アイコンが表示された場合は、アイコンをクリックして、イシューの先行タスクまたは後続タスクを表示できます。</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -275,7 +279,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">プログラムのアクションエリア</td> 
-   <td> <p>プログラム名の横のアクション領域に、「<b> 共有 </b>」オプションを含む内容が表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
+   <td> <p>プログラムの名前の横に、<b>共有</b> オプションを含むアクション領域が表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -329,7 +333,7 @@ The following headers are available in Home:
    <td> <p>ポートフォリオが非アクティブ化されている場合、ヘッダーのポートフォリオ名の上に「[!UICONTROL PORTFOLIO DEACTIVATED]」というテキストが表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ポートフォリオの「アクション」エリア</td> 
+   <td role="rowheader">ポートフォリオのアクション領域</td> 
    <td> <p>ポートフォリオ名の横に、[!UICONTROL actions]エリアが表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
@@ -486,14 +490,14 @@ The following headers are available in Home:
    <td> <p>「[!UICONTROL BILLING RECORD]」というテキストが、ヘッダー内の請求記録の名前の上に表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">請求記録の詳細メニュー</td> 
+   <td role="rowheader">請求記録の「その他」メニュー</td> 
    <td> <p>請求記録の名前の横に [!UICONTROL More] メニュー <img src="assets/more-menu.png"> が表示され、次のオプションを選択できます。</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
      <li> <p> 削除 </p> </li> 
     </ul>
     <p><b>メモ</b></p>
-    <p>ステータスが「請求済み」の請求記録には、「詳細」メニューは表示されません。 請求済みレコードは編集または削除できません。</p>
+    <p>「その他」メニューは、「請求済」ステータスの請求記録には表示されません。 請求済みレコードを編集または削除することはできません。</p>
      </td> 
   </tr> 
   <tr> 
@@ -534,7 +538,8 @@ The following headers are available in Home:
   <tr> 
    <td role="rowheader">ユーザーの名前とタイトル</td> 
    <td> <p> ユーザーのタイトルは、名前の上にすべて大文字で表示されます。ヘッダーのユーザーの名前は編集できません。</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr> 
     <td role="rowheader">Name of the object type</td> 
     <td> <p>The name of the object type does not display.</p> </td> 
@@ -593,7 +598,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">チームのアクションエリア</td> 
-   <td> <p>チーム名の横に、アクション エリアが表示されます。</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
+   <td> <p>チーム名の横にアクション領域が表示されます。</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">チームメンバーのプロファイル画像</td> 
@@ -636,7 +641,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">イテレーションのアクションエリア</td> 
-   <td> <p>イテレーション名の横に、「アクション」領域が表示されます。</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
+   <td> <p>イテレーションの名前の横に、アクション領域が表示されます。</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">所有者</td> 
    <td>これは、イテレーションの [!UICONTROL Owner] です。ヘッダーの [!UICONTROL Owner] は編集できません。</td> 
@@ -776,7 +781,7 @@ The following headers are available in Home:
    <td> <p>「[!UICONTROL COMPANY]」というテキストが、ヘッダーの会社名の上に表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">会社の詳細メニュー</td> 
+   <td role="rowheader">会社のその他のメニュー</td> 
    <td> <p>会社の名前の横に [!UICONTROL More] メニュー <img src="assets/more-menu.png"> が表示され、次のオプションを選択できます。</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
@@ -790,7 +795,7 @@ The following headers are available in Home:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-プランは、[!DNL Workfront Scenario Planner] のオブジェクトです。[!DNL Scenario Planner] について詳しくは、[&#x200B; [!DNL Scenario Planner]  の概要](../../scenario-planner/scenario-planner-overview.md)を参照してください。
+プランは、[!DNL Workfront Scenario Planner] のオブジェクトです。[!DNL Scenario Planner] について詳しくは、[ [!DNL Scenario Planner]  の概要](../../scenario-planner/scenario-planner-overview.md)を参照してください。
 
 プランヘッダーには、次の情報が表示されます。
 
@@ -861,7 +866,7 @@ The following headers are available in Home:
 
 ![](assets/goal-header.png)
 
-会社が Workfront Goals にアクセスできる場合は、戦略的目標を作成できます。[!DNL Workfront Goals] について詳しくは、[&#x200B; [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md) の基本を学ぶを参照してください。
+会社が Workfront Goals にアクセスできる場合は、戦略的目標を作成できます。[!DNL Workfront Goals] について詳しくは、[ [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md) の基本を学ぶを参照してください。
 
 目標ヘッダーには、次の情報が表示されます。
 
@@ -888,9 +893,9 @@ The following headers are available in Home:
    <td> <p>ヘッダーの目標名の上に、「[!UICONTROL GOAL]」というテキストが表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">目標の「その他」メニュー</td> 
-   <td> <p>目標の名前の横に、「詳細」メニュー <img src="assets/more-icon.png"> ージが表示されます。</p> </p>
-   目標の「その他」メニューから、次のアクションを実行できます。
+   <td role="rowheader">目標のその他のメニュー</td> 
+   <td> <p>目標の名前の横に、その他のメニュー<img src="assets/more-icon.png">が表示されます。</p> </p>
+   目標のその他メニューから、次のアクションを実行できます。
    <ul><li>[!UICONTROL Edit]</li>
    <li>[!UICONTROL Copy goal]</li>
    <li>[!UICONTROL Delete goal]</li>

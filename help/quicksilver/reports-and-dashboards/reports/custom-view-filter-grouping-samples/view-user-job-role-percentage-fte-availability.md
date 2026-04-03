@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：FTE の空き時間に対するユーザーの担当業務の割合
+title: 表示：FTEの可用性に対するユーザー担当業務の割合
 description: ユーザーリストのビューに列を追加して、ユーザーが関連付けられている担当業務のリストと、ユーザープロファイルで定義されている各担当業務の FTE 使用可能時間の割合を表示できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 68%
@@ -39,8 +41,8 @@ ht-degree: 68%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -61,12 +63,12 @@ ht-degree: 68%
 ## FTE 使用可能時間のユーザー担当業務の割合を表示
 
 1. ユーザーのリストに移動します。
-1. **ビュー** ドロップダウンメニューから「**新規ビュー**」を選択します。
+1. **ビュー** ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 
-1. **列のプレビュー** 領域で、「**列を追加**」をクリックします。
+1. **列プレビュー**&#x200B;領域で、**列を追加**&#x200B;をクリックします。
 
-1. 新しい列のヘッダーをクリックし、**テキストモードに切り替え**/**テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. 新しい列のヘッダーをクリックし、**テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```
    displayname=Roles Time Percentage
@@ -78,6 +80,6 @@ ht-degree: 68%
    valueformat=HTML
    ```
 
-1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存**」をクリックします。
 
-1. （オプション）ビュー名を更新し、「**ビューを保存**」をクリックします。
+1. （オプション）ビュー名を更新し、**ビューを保存**&#x200B;をクリックします。

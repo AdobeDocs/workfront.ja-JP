@@ -1,39 +1,43 @@
 ---
-title: レコードタイプの設定エリアの設定
-description: 「レコードタイプを編集」ボックスでレコードタイプを編集する以外に、「設定」ページでレコードタイプを編集することもできます。
+title: レコードタイプの設定領域の設定
+description: レコードタイプを編集ボックスでレコードタイプを編集するだけでなく、設定ページでレコードタイプを編集することもできます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+exl-id: 4674d539-7a16-4d51-a564-e79dc9b4afca
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
-
 # レコードタイプの設定エリアの設定
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-レコードタイプの追加設定は、Adobe Workfront Planning に保存された後で指定できます。
+レコードタイプがAdobe Workfront Planningに保存された後で、そのレコードタイプの追加設定を行うことができます。
 
-レコードタイプに対して定義する機能に応じて、次のいずれかの操作を実行して追加の設定を指定できます。
+レコードタイプに対して定義する機能に応じて、次のいずれかの操作を行って追加の設定を行うことができます。
 
 <!--the above will need to be reworded when we add automations and manage request forms to this area-->
 
 * 編集
 
-  詳しくは、[&#x200B; レコードタイプの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
+  詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
 
-* レコードタイプの設定ページの設定。
+* レコードタイプの「設定」ページを設定します。
 
-  この記事では、設定ページを設定してレコードタイプを編集する方法を説明します。
+  この記事では、設定ページを設定してレコードタイプを編集する方法について説明します。
 
 ## アクセス要件
 
@@ -51,25 +55,25 @@ ht-degree: 9%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよび Planning パッケージ</p>
-<p>任意のワークフローおよび計画パッケージ</p>
+<p>任意のWorkfrontおよびプランニングパッケージ</p>
+<p>任意のワークフローとプランニングパッケージ</p>
 
 <p><b>メモ</b></p>
 
-<p>接続可能なレコード・タイプを構成する手順は、次のとおりです。</p>
+<p>接続可能なレコードタイプを設定するには：</p>
 
 <ul> 
-<li><p>任意のWorkfrontおよび Planning パッケージ</p></li>
+<li><p>任意のWorkfrontおよびプランニングパッケージ</p></li>
 または
-<li><p>任意のワークフローパッケージと Planning PrimeまたはUltimate パッケージ</p></li></ul>
+<li><p>任意のワークフローパッケージとPlanning PrimeまたはUltimate パッケージ</p></li></ul>
 
 <p>グローバルレコードタイプを設定するには：</p>
 
 <ul> 
-<li><p>任意のWorkfront パッケージと Planning Plus パッケージ</p></li>
+<li><p>任意のWorkfront パッケージとPlanning Plus パッケージ</p></li>
 または
-<li><p>任意のワークフローパッケージと Planning PrimeまたはUltimate パッケージ</p></li></ul>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p>
+<li><p>任意のワークフローパッケージとPlanning PrimeまたはUltimate パッケージ</p></li></ul>
+<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p>
 
 </td> </tr>
   <tr> 
@@ -85,11 +89,12 @@ ht-degree: 9%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++    
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -153,7 +158,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## 設定ページでのレコードタイプ情報の設定
 
-レコードタイプに対してクロスワークスペース機能を定義するには、設定ページで情報を設定します。
+設定ページで情報を設定することで、レコードタイプのクロスワークスペース機能を定義できます。
 
 <!--the intro above will change when we can configure more in this area -->
 
@@ -164,24 +169,24 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    ワークスペースページが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
-   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、**設定** をクリックします。
+   * レコードタイプのカードにカーソルを合わせ、レコードタイプカードの右上隅にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**設定**&#x200B;をクリックします
 
-     ![&#x200B; レコードタイプカードのその他のメニューオプション &#x200B;](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+     ![ レコードタイプ カードのその他のメニューオプション ](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
      または
 
-   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**設定** をクリックします。
+   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**設定**&#x200B;をクリックします。
 
    <!--update screen shot at prod??-->
 
-   ![&#x200B; 設定ページのクロスワークスペース設定 &#x200B;](assets/settings-page-cross-workspace-settings.png)
+   ![設定ページのワークスペース間の設定](assets/settings-page-cross-workspace-settings.png)
 
-1. 「**クロスワークスペース設定**」セクションは、デフォルトで選択されています。
+1. **クロスワークスペース設定** セクションがデフォルトで選択されています。
 1. 次のいずれかの設定をオンまたはオフにします。
 
-   * **このレコードタイプを他のワークスペースに追加することを許可** して、これがグローバルレコードタイプであることを示します
-   * **他のワークスペースでこのレコードタイプへの接続を許可** して、接続可能なレコードタイプであることを示します。
+   * **このレコードタイプを他のワークスペース**&#x200B;に追加して、これがグローバルなレコードタイプであることを示します
+   * **他のワークスペース**&#x200B;でこのレコードタイプへの接続を許可して、これが接続可能なレコードタイプであることを示します。
 
-   この設定は、デフォルトではオフになっています。
+   設定はデフォルトでオフになっています。
 
-   詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+   詳細については、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください

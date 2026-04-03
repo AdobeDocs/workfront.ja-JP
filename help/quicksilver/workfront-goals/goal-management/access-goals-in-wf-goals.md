@@ -1,12 +1,14 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals での目標へのアクセスとオープン
+title: Adobe Workfront Goalsでの目標へのアクセスとオープン
 description: この記事では、Adobe Workfront で目標を検索し、管理する方法について説明します。
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 82%
@@ -39,7 +41,7 @@ ht-degree: 82%
   <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p><p><b>メモ</b></p>
+   <p>Adobe Workfront Ultimate</p><p><b>メモ</b></p>
 <p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr>
@@ -63,7 +65,7 @@ ht-degree: 82%
   </tr> 
   <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの「目標」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
  </tbody> 
@@ -73,7 +75,8 @@ ht-degree: 82%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -125,7 +128,8 @@ ht-degree: 82%
 </td>
   </tr>
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Workfront Goals へのアクセス
 
@@ -198,12 +202,12 @@ To access an individual goal in the Production environment:
 
 デフォルトでは、目標リストが表示されます。
 
-![&#x200B; 目標リスト &#x200B;](assets/goal-list-unshimmed.png)
+![目標リスト ](assets/goal-list-unshimmed.png)
 
 1. リストで目標の名前をクリックします。
 目標のページが表示されます。
-   ![&#x200B; 目標ページ &#x200B;](assets/goal-page-unshimmed.png)
-1. 目標名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックすると、目標をさらに編集または共有できます。
+   ![目標ページ ](assets/goal-page-unshimmed.png)
+1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックして、目標をさらに編集または共有します。
 1. 左側のパネルにある「**目標の詳細**」をクリックして、目標に関する情報を編集します。詳しくは、[Adobe Workfront Goals の目標の詳細セクションで目標を更新](../goal-management/update-goals-in-goal-details-panel.md)を参照してください。
 
 

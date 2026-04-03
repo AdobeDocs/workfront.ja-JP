@@ -1,27 +1,29 @@
 ---
-title: CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成
-description: レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。Workfront Planning では、CSV または Excel ファイルから情報をインポートすることで、組織のライフサイクルで必要な作業項目を示すカスタムレコードタイプを作成できます。
+title: CSVまたはExcel ファイルから情報を読み込むことで、レコードタイプを作成する
+description: レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。Workfront Planningでは、CSVまたはExcel ファイルから情報をインポートすることで、組織のライフサイクルに必要な作業項目を示すカスタムレコードタイプを作成できます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 33%
 
 ---
 
-# CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成
+# CSVまたはExcel ファイルから情報を読み込んで、レコードタイプを作成する
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
-レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。Workfront Planning では、CSV または Excel ファイルから情報をインポートすることで、組織のライフサイクルで必要な作業項目を示すカスタムレコードタイプを作成できます。
+レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。Workfront Planningでは、CSVまたはExcel ファイルから情報をインポートすることで、組織のライフサイクルに必要な作業項目を示すカスタムレコードタイプを作成できます。
 
 ## アクセス要件
 
@@ -39,10 +41,10 @@ ht-degree: 33%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontと任意の Planning パッケージ</p>
+<p>任意のWorkfrontおよびプランニングパッケージ</p>
 または
-<p>任意のワークフローおよび任意の計画パッケージ</p>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+<p>任意のワークフローとプランニングパッケージ</p>
+<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
@@ -57,11 +59,12 @@ ht-degree: 33%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -117,25 +120,26 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
   </tr> 
  
 </tbody> 
-</table>-->
+</table>
+-->
 
 
-## Excel または CSV ファイルを使用したレコードタイプの読み込みに関する考慮事項
+## ExcelまたはCSV ファイルを使用したレコードタイプの読み込みに関する考慮事項
 
-* Excel ファイルの各シートがレコードタイプになります。 シートの名前がレコードタイプの名前になります。
-* シートが 1 つだけの場合、または CSV ファイルを読み込む場合、ファイルの名前がレコードタイプの名前になります。
+* Excel ファイルの各シートがレコードタイプになります。 シートの名前は、レコードタイプの名前になります。
+* シートが1枚しかない場合、またはCSV ファイルを読み込む場合、ファイル名はレコードタイプの名前になります。
 * 各シートの列ヘッダーは、各レコードタイプに関連付けられたフィールドになります。
 * フィールドは、それぞれのレコードタイプについて一意です。
 * 各シートの各行は、各レコードタイプに関連付けられた一意のレコードになります。
 * Excel ファイルの各シートの上限は次のとおりです：
    * 25,000 行
    * 500 列
-* ファイルのサイズは 5 MB 以下にしてください。
+* ファイルのサイズは5 MB以下にする必要があります。
 * 空のシートはサポートされていません。
-* 次のタイプのフィールドはサポートされておらず、インポートシートのフィールドにマッピングできません。
+* 次のタイプのフィールドはサポートされていないため、インポートシートのフィールドにマッピングできません。
 
-   * Workfront、AEM Assets オブジェクトタイプまたはGenStudio ブランドへの接続フィールド。
-   * 接続された Planning レコード、Workfront、AEM Assets オブジェクト、GenStudio ブランドのフィールドを検索します。
+   * フィールドをWorkfront、AEM Assets オブジェクトタイプ、またはGenStudio Brandsに接続します。
+   * 接続されたプランニングレコード、Workfront、AEM Assets オブジェクトまたはGenStudio Brandsからフィールドを検索します。
    * 数式フィールド
    * 作成日、作成者
    * 最終変更日、最終変更者
@@ -143,27 +147,27 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * ユーザー
    * <span class="preview"> レコード ID</span>
 
-Excel または CSV ファイルを使用してレコードタイプを読み込むには：
+ExcelまたはCSV ファイルを使用してレコードタイプを読み込むには：
 
 {{step1-to-planning}}
 
-1. レコードタイプを作成するワークスペースをクリックします。
+1. レコードタイプを作成するワークスペースをクリックします，
 
    または
 
-   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開してワークスペースを検索し、リストに表示されたら選択します。
+   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開し、ワークスペースを検索して、リストに表示されるときに選択します。
 1. 「**レコードタイプを追加**」をクリックします。
-1. **ファイルからアップロード** をクリックします。
-1. コンピューターに以前に保存した Excel または CSV ファイルをドラッグ&amp;ドロップするか、「**CSV または Excel ファイルを選択**」をクリックして参照してから選択します。
-1. **プレビューと編集** をクリックします。
+1. 「**ファイルからアップロード**」をクリックします。
+1. 以前にコンピューターに保存したExcelまたはCSV ファイルをドラッグ&amp;ドロップするか、**CSVまたはExcel ファイルを選択**&#x200B;して参照し、選択します。
+1. 「**プレビューして編集**」をクリックします。
 
-   **プレビューと編集** ボックスが表示され、次の情報が表示されます。
+   「**プレビューと編集**」ボックスに次の情報が表示されます。
 
    * 左パネルに、シートまたは将来のレコードタイプの名前が表示されます。Workfront Planning により、新しいレコードタイプごとにデフォルトでアイコンとカラーが選択されます。
    * 最初のシートまたはレコードタイプが選択され、関連付けられたフィールド名が列ヘッダーとして表示されます。各フィールドのタイプは、デフォルトで選択されています。
    * 各行は新しいレコードを表します。「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
 
-   ![&#x200B; プレビューと編集ボックス &#x200B;](assets/preview-and-edit-box.png)
+   ![ プレビューと編集ボックス ](assets/preview-and-edit-box.png)
 
 1. （オプション）左パネルの各シート名をクリックすると、シートに含まれる情報を確認できます。
 
@@ -171,29 +175,29 @@ Excel または CSV ファイルを使用してレコードタイプを読み込
    >
    >空のシートはサポートされておらず、淡色の表示になります。
 
-1. （オプション）左側のパネルから読み込まないシートの選択を解除します。
+1. （オプション）左側のパネルから読み込みたくないシートの選択を解除します。
 
-   ![&#x200B; 読み込むシートを選択ドロップダウン（未選択 &#x200B;](assets/select-sheets-to-import-drop-down-with-unselected.png)
+   ![選択されていないドロップダウンを読み込むシートを選択](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
    選択を解除したシートは、グレーの背景で表示されます。
 
-1. （オプション）列ヘッダーの右側にある下向き矢印をクリックして、「**フィールド**」タブで次のいずれかの操作を行います。
+1. （オプション）列ヘッダーの右側にある下向き矢印をクリックして、「**フィールド**」タブで次のいずれかを実行します。
 
-   ![&#x200B; レコードタイプマッピングのインポートボックスの「フィールド」タブ &#x200B;](assets/field-tab-on-record-type-import-mapping-box.png)
+   レコードタイプマッピングインポートボックスの![ フィールドタブ ](assets/field-tab-on-record-type-import-mapping-box.png)
 
-   * いずれかのフィールドの名前を変更する
-   * **フィールドタイプ** を変更する
-   * フィールド **説明** を更新
+   * フィールドの1つの名前を変更する
+   * **フィールドタイプ**&#x200B;の変更
+   * フィールド **説明**&#x200B;を更新します
 
-1. （オプション）「**接続**」タブをクリックして、列内の情報を他のレコードタイプの接続されたフィールドにマッピングします。
+1. （オプション）「**接続**」タブをクリックして、列の情報を他のレコードタイプから接続されたフィールドにマッピングします。
 
-   ![&#x200B; レコードタイプの読み込みマッピングボックスの「接続」タブ &#x200B;](assets/connection-tab-on-record-type-import-mapping-box.png)
+   レコードタイプ読み込みマッピングボックスの![接続タブ ](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >
-   >マッピングできるのは、Workfront Planning に接続されたレコードのフィールドのみです。 Workfront、AEM Assets、GenStudio Brands のいずれかの接続からフィールドにマッピングすることはできません。 詳しくは、この記事の「[Excel または CSV ファイルを使用したレコードタイプの読み込みに関する考慮事項 &#x200B;](#considerations-about-importing-record-types-using-an-excel-or-csv-file) の節を参照してください。
+   >Workfront Planningの接続されたレコードのフィールドにのみマッピングできます。 Workfront、AEM Assets、またはGenStudio Brandsの接続からフィールドにマッピングすることはできません。 詳細については、この記事の「[ExcelまたはCSV ファイルを使用したレコードタイプの読み込みに関する考慮事項](#considerations-about-importing-record-types-using-an-excel-or-csv-file)」を参照してください。
 
-1. （任意）フィールドに関する情報を更新したら、「**保存**」をクリックします。
+1. （条件付き）フィールドに関する情報を更新したら、**保存**&#x200B;をクリックします。
 
 1. ファイルを読み込む準備が整ったら「**読み込み**」をクリックします。
 
@@ -205,4 +209,4 @@ Excel または CSV ファイルを使用してレコードタイプを読み込
 
    レコードタイプページのフィールドとレコードの管理を開始できます。
 
-   Workfront Planning およびワークスペースへのアクセス権を持つすべてのユーザーは、インポートされたレコードタイプとその情報を表示および編集できるようになりました。
+   Workfront Planningおよびワークスペースにアクセスできるユーザーは、読み込まれたレコードタイプとその情報を表示および編集できるようになりました。

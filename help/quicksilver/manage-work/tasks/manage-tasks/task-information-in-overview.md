@@ -1,12 +1,14 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: タスクの詳細の「概要」領域でタスク情報を管理
-description: タスクの情報を表示または編集するには、「タスクの詳細」セクションの「概要」領域にアクセスします。 「タスクの詳細」セクションで表示または編集できるフィールドの数は限られています。
+title: タスク詳細概要領域でのタスク情報の管理
+description: タスクの詳細セクションの「概要」エリアにアクセスして、タスクの情報を表示または編集できます。 タスクの詳細セクションで表示または編集できるフィールドの数は限られています。
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2104'
 ht-degree: 91%
@@ -19,7 +21,7 @@ ht-degree: 91%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-タスクの情報を表示または編集するには、「タスクの詳細」セクションの「概要」領域にアクセスします。 「タスクの詳細」セクションで表示または編集できるフィールドの数は限られています。
+タスクの詳細セクションの「概要」エリアにアクセスして、タスクの情報を表示または編集できます。 タスクの詳細セクションで表示または編集できるフィールドの数は限られています。
 
 タスクのすべての情報の編集については、[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
 
@@ -48,12 +50,12 @@ ht-degree: 91%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>アクセスレベル設定</td> 
-   <td> <p>プロジェクトとタスクへのアクセス権またはそれ以上の権限</p> <p>適切なアクセスレベルを持っていてもタスクの「詳細」セクションを編集できない場合は、Adobe Workfrontに問い合わせて、アクセスレベルに追加の制限があるかどうかを確認してください。 </td> 
+   <td> <p>プロジェクトとタスクへのアクセス権またはそれ以上の権限</p> <p>適切なアクセスレベルを持っていても、タスクの「詳細」セクションを編集できない場合は、Adobe Workfrontにアクセスレベルに追加の制限が設定されているかどうかを確認します。 </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>オブジェクト権限</p> </td> 
    <td> <p>プロジェクトへの参加権限またはそれ以上の権限</p> <p>「タスクの詳細」セクションの情報を閲覧するための、タスクの表示権限。 </p> 
-   <p>タスクの投稿権限で「詳細」セクションの次の情報を更新する：</p>
+   <p>タスクの権限を設定して、「詳細」セクションの次の情報を更新します。</p>
 
 <ul>
    <li>説明</li>
@@ -69,7 +71,8 @@ ht-degree: 91%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -99,7 +102,8 @@ ht-degree: 91%
    <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 「タスクの詳細」セクションの概要エリアでのタスク情報の編集
 
@@ -113,7 +117,7 @@ ht-degree: 91%
    >
    >Workfront 管理者またはグループ管理者がレイアウトテンプレートを設定する方法によっては、「タスクの詳細」セクションのフィールドが再配置されるか、表示されない場合があります。詳しくは、[レイアウトテンプレートを使用した詳細ビューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
-1. 「詳細」セクションの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**概要** をクリックします。
+1. 詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、**概要**&#x200B;をクリックします。
 
    >[!TIP]
    >
@@ -199,7 +203,7 @@ ht-degree: 91%
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>日 これがデフォルトです。 </td> 
+            <td>日数： これがデフォルトです。 </td> 
             <td>D</td> 
            </tr> 
            <tr> 
@@ -261,7 +265,7 @@ ht-degree: 91%
        <div> 
         <p>タスクの完了に必要な工数。プロジェクトマネージャーは、タスクの完了に必要な作業量を見積もる際に、予定時間数の代わりにこのフィールドを使用することにします。このフィールドは、次の条件を満たした場合にのみ表示されます。</p> 
         <ul> 
-         <li> <p>タスクの期間タイプはシンプルです。 </p> <p>ヒント：タスク期間の種類を変更すると、このフィールドは淡色表示になります。 </p> </li> 
+         <li> <p>タスクにはシンプルな期間タイプがあります。 </p> <p>ヒント：タスク期間タイプを変更すると、このフィールドはグレー表示になります。 </p> </li> 
          <li>プロジェクトマネージャーが、プロジェクトの「作業量を使うとタスクの予定時間数を自動的に計算できます」フィールドを有効にしてある。 </li> 
         </ul> 
         <p>次のオプションから選択します。</p> 
@@ -343,7 +347,7 @@ ht-degree: 91%
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">最終更新日</td> 
-      <td> <p>タスクが最後に更新された日付。 </p> <p>ヒント：Workfrontでは、ユーザーがタスクを編集して保存するたびに更新日を記録します。</p> </td> 
+      <td> <p>タスクが最後に更新された日付。 </p> <p>ヒント：Workfrontでは、ユーザーがタスクを編集および保存するたびに更新日が記録されます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">最終更新者</td> 

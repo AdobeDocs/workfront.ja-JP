@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: かんばんボード上のストーリーに関するフラグの使用
+title: カンバンボードのストーリーにフラグを使用する
 description: ' [!DNL Kanban]  ボードで、フラグは、ストーリーが次のステータスに移行する準備ができていることを視覚的に示します。これにより、かんばんチームは、ステータス間でストーリーを移動する際に、「プッシュ」アプローチではなく「プル」アプローチを使用できます。'
 author: Courtney
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 86%
@@ -61,21 +63,21 @@ ht-degree: 86%
 1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しい[!UICONTROL かんばん]チームを選択するか、検索バーでチームを検索します。
 
 1. ストーリーのステータスを変更する[!UICONTROL かんばん]ボードに移動します。
-1. ストーリータイルを展開すると、フラグが表示されます。
+1. ストーリータイルを展開して、フラグを表示します。
 デフォルトでは、各ストーリーに対してフラグは「**[!UICONTROL 順調]**」に設定されます。
    ![かんばんカード](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. 現在のフラグをクリックし、次のフラグオプションから選択します。
 
-   * **[!UICONTROL 順調 &#x200B;]:** ストーリーは適切なステータスにあり、現時点では、何もする必要はありません。
+   * **[!UICONTROL トラック ]:** ストーリーは適切なステータスであり、現時点ではアクションを実行する必要はありません。
 
      かんばんボードの各ストーリーの既定のフラグです。
      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL ブロック済み]：**&#x200B;ストーリーは次のステータスに進めません。ストーリーにこのフラグを設定した場合、ストーリーは WIP 制限にカウントされません。（WIP 制限について詳しくは、「かんばんの設定 [&#x200B; を参照し &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) ください。
+   * **[!UICONTROL ブロック済み]：**&#x200B;ストーリーは次のステータスに進めません。ストーリーにこのフラグを設定した場合、ストーリーは WIP 制限にカウントされません。（WIP制限について詳しくは、[ カンバンの設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)を参照してください）。
 
      ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL 取り込み準備完了 &#x200B;]:** ストーリーを、チームの別のメンバーが次のステータスに移動する準備が整いました。
+   * **[!UICONTROL 引き出す準備ができました]:** ストーリーは、チームの別のメンバーによって次のステータスに移動する準備ができています。
 
      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)

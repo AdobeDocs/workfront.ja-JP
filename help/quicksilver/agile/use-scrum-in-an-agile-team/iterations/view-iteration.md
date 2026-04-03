@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: イテレーションを表示
+title: イテレーションの表示
 description: 特定のチームのすべての反復を表示することも、個々の反復を表示することもできます。反復には、その反復に含まれるストーリー、イシュー、ドキュメントに関するデータが表示されます。
 author: Courtney
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 91%
@@ -33,7 +35,7 @@ ht-degree: 91%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>ライト以上</p> 
+   <td> <p>明るいまたはそれ以上</p> 
    <p>レビュー以上</p> </td> 
   </tr>
  </tbody> 
@@ -58,7 +60,7 @@ ht-degree: 91%
    >「**[!UICONTROL 進行中の反復]**」が左側のパネルに表示されるのは、レイアウトテンプレートに割り当てられ、その反復に少なくとも 1 つのタスクまたはイシューがある場合のみです。詳しくは、[レイアウトテンプレートを使用した左側のパネルのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
 
 
-1. （任意）表示する特定のイテレーションの名前をクリックします。
+1. （オプション）表示する特定のイテレーションの名前をクリックします。
 反復のストーリーが表示されます。
 
    ![[!UICONTROL イテレーションのストーリー]](assets/iteration-stories-list.png)

@@ -2,12 +2,14 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: カレンダーのエラーメッセージ： 'このカレンダーには、非アクティブ化されたユーザーの表示権限があります。'
+title: 'カレンダーのエラーメッセージ : 「このカレンダーには、非アクティブ化されたユーザーの表示権限があります。」'
 description: エラーメッセージ「このカレンダーにはアクティブ化を解除したユーザーの表示権限があります」について説明します。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 94%

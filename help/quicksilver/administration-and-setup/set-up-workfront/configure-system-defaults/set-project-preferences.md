@@ -2,13 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: システム全体のプロジェクト環境設定の指定
+title: システム全体のプロジェクト環境設定
 description: ' [!DNL Adobe Workfront]  管理者は、システム全体で作成されるすべてのプロジェクトに対して、デフォルトの環境設定を指定できます。これらの環境設定は、プロジェクト、タスクおよびイシューの動作に影響を与えます。'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2701'
 ht-degree: 88%
@@ -19,9 +21,11 @@ ht-degree: 88%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 [!DNL Adobe Workfront] 管理者は、システム全体で作成されるすべてのプロジェクトに対して、デフォルトの環境設定を指定できます。これらの環境設定は、プロジェクト、タスクおよびイシューの動作に影響を与えます。
@@ -39,7 +43,7 @@ ht-degree: 88%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!DNL Adobe Workfront] package</td> 
+   <td>[!DNL Adobe Workfront] パッケージ</td> 
    <td><p>任意</p></td> 
   </tr> 
   <tr> 
@@ -65,7 +69,7 @@ ht-degree: 88%
 1. 左側のパネルで、**[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL プロジェクト]**&#x200B;をクリックします。
 
 1. **プロジェクト設定**&#x200B;ページで、以下の 4 つのセクションのいずれかに進み、[!UICONTROL プロジェクトステータス]、[!UICONTROL タイムライン]、[!UICONTROL ビジネスケース]、[!UICONTROL 終了後の操作]の設定を行います。
-1. 組織全体のすべてのグループで同じプロジェクト環境設定を使用する場合は、各環境設定がロック ![&#x200B; ロック切り替え &#x200B;](assets/lock-toggle-button.png) になっていることを確認します（これはデフォルトです）。
+1. 組織全体のすべてのグループで同じプロジェクト環境設定を使用する場合は、各環境設定がロックされていることを確認します![ ロック切り替え](assets/lock-toggle-button.png) （これはデフォルトです）。
 
    >[!IMPORTANT]
    >
@@ -120,7 +124,7 @@ ht-degree: 88%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calculate Percent Complete based on]</td> 
-   <td> <p>Workfrontは、プロジェクト内の各タスクの完了率と、各タスクの期間または予定時間を使用して、プロジェクトまたは親タスクの完了率を計算します。</p><p>各タスクの完了率は、タスクの担当者が手動で設定します。</p><p>ここで、Workfrontでタスクの期間または予定時間数を使用してプロジェクトの完了率を計算するかどうかを選択できます。</p> <p>「[!UICONTROL Duration]」を選択した場合、プロジェクト内の各タスクの期間でプロジェクトの全体的な完了率が決まり、各サブタスクの期間で親タスクの全体的な完了率が決まります。</p> <p>「[!UICONTROL Duration]」を選択した場合は、「[!UICONTROL Timelines]」セクションで「[!UICONTROL Typical hours per work day]」と「[!UICONTROL Typical work days per week]」を必ず指定してください。[!DNL Workfront] では、期間に基づいてタスクの完了率を計算する際にこの情報を使用します。 </p> <p>「[!UICONTROL Planned Hours]」を選択する場合、各プロジェクトのすべてのタスクに「[!UICONTROL Planned Hours]」の数値が定義されており、その数値がゼロでないことを確認します。</p><p>詳しくは、「<a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md"> プロジェクト完了率の概要 </a>」を参照してください。</p></td> 
+   <td> <p>Workfrontは、プロジェクト内の各タスクの完了率と、各タスクの期間または予定時間を使用して、プロジェクトまたは親タスクの完了率を計算します。</p><p>各タスクの完了率は、タスク担当者が手動で設定します。</p><p>ここで、Workfrontでタスクの期間または予定時間数を使用して、プロジェクトの完了率を計算するかどうかを選択できます。</p> <p>「[!UICONTROL Duration]」を選択した場合、プロジェクト内の各タスクの期間でプロジェクトの全体的な完了率が決まり、各サブタスクの期間で親タスクの全体的な完了率が決まります。</p> <p>「[!UICONTROL Duration]」を選択した場合は、「[!UICONTROL Timelines]」セクションで「[!UICONTROL Typical hours per work day]」と「[!UICONTROL Typical work days per week]」を必ず指定してください。[!DNL Workfront] では、期間に基づいてタスクの完了率を計算する際にこの情報を使用します。 </p> <p>「[!UICONTROL Planned Hours]」を選択する場合、各プロジェクトのすべてのタスクに「[!UICONTROL Planned Hours]」の数値が定義されており、その数値がゼロでないことを確認します。</p><p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md"> プロジェクト完了率の概要</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 
@@ -139,7 +143,7 @@ ht-degree: 88%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>プロジェクトの見込み総コストを表す[!UICONTROL Estimate at Completion]（EAC）の計算に [!DNL Workfront] で使用されるデータを決定します。</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>：EAC の式に [!UICONTROL Actual Hours] または [!UICONTROL Actual Labor Cost] を入力することで、親タスクおよびプロジェクトの EAC が決定されます。計算には、親タスクまたはプロジェクトに直接追加された[!UICONTROL Actual Hours]または[!UICONTROL Costs and Expenses]が含まれます。</li> 
@@ -217,10 +221,10 @@ ht-degree: 88%
    <td> 
 <p>プロジェクトにスケジュールが割り当てられていない場合や、タスクに割り当てられたユーザーにスケジュールが割り当てられていない場合、[!DNL Workfront] では、システムのデフォルトのスケジュールを使用して、タスクのタイムラインを計算します。</p>
 
-<p>プロジェクト内のタスクに 1 人のユーザーを割り当て、プロジェクトとそのタスクに割り当てられたユーザーの両方にスケジュールが関連付けられている場合、[!UICONTROL Workfront] では次のスケジュールが使用されます。</p> 
+<p>1人のユーザーをプロジェクト内のタスクに割り当て、プロジェクトとタスクに割り当てられたユーザーの両方にスケジュールが関連付けられている場合、[!UICONTROL Workfront]は次のスケジュールを使用します。</p> 
     <ul> 
-     <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] は、タスクに割り当てられたユーザーのスケジュールを使用してタイムラインを計算します。</li> 
-     <li><strong>[!UICONTROL プロジェクト &#x200B;]</strong>: [!DNL Workfront] は、プロジェクトのスケジュールを使用してタスクのタイムラインを計算します。</li> 
+     <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront]は、タスクに割り当てられたユーザーのスケジュールを使用してタイムラインを計算します。</li> 
+     <li><strong>[!UICONTROL プロジェクト ]</strong>: [!DNL Workfront]は、プロジェクトのスケジュールを使用して、タスクのタイムラインを計算します。</li> 
     </ul> <p>スケジュールについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">スケジュールの作成</a>を参照してください。</p>
 </td> 
   </tr>
@@ -237,9 +241,9 @@ ht-degree: 88%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
-   <td> <span class="preview"> プレビュー環境のプロジェクト環境設定セクションからカスタム四半期エリアが削除されました。</span> 
-   <span class="preview"> 詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> カスタム四半期の有効化 </a> を参照してください。</p></span>
-   <p>実稼動環境で、プロジェクトに取り組むユーザーのカスタムの年四半期を設定します。 カスタム四半期は通常、暦年の従来の四半期分類と一致しない四半期です。複数のカスタム四半期を追加できます。   <p><b>メモ</b>： </p><p>[!DNL Workfront] 管理者は [!UICONTROL カスタム四半期 &#x200B;] 環境設定をロック解除できず、グループ管理者はグループレベルでこれらの設定を編集できません。</p> </td> 
+   <td> <span class="preview"> プレビュー環境の「プロジェクト環境設定」セクションから「カスタム四半期」領域が削除されました。</span> 
+   <span class="preview">詳細については、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> カスタム四半期を有効にする</a>を参照してください。</p></span>
+   <p>実稼動環境で、プロジェクトに取り組むユーザーに対してカスタムの四半期単位を設定します。 カスタム四半期は通常、暦年の従来の四半期分類と一致しない四半期です。複数のカスタム四半期を追加できます。   <p><b>メモ</b>： </p><p>[!DNL Workfront] 管理者は[!UICONTROL Custom Quarters]の環境設定をロック解除できず、グループ管理者はこれらの設定をグループレベルで編集できません。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -270,10 +274,10 @@ ht-degree: 88%
    <td role="rowheader"> <p>[!UICONTROL After a Project is marked Complete, Dead, or it is Pending Approval, people can still]</p> </td> 
    <td> <p>プロジェクトのステータスが<strong>[!UICONTROL Complete]</strong>、<strong>[!UICONTROL Dead]</strong>または<strong>[!UICONTROL Pending Approval]</strong>とマークされた後にプロジェクト内のタスク、イシュー、ドキュメントおよびその他のオブジェクトがどうなるかに関して、組織（または、グループのプロジェクト環境設定を指定している場合はグループ）のルールを決定します。</p> 
     <ul> 
-     <li><strong>[!UICONTROL タスクの追加と編集：]</strong> ユーザーに次の操作を許可します：
+     <li><strong>[!UICONTROL タスクの追加と編集：]</strong> ユーザーは次のことができます。
       <ul>
-       <li><p>プロジェクトが [!UICONTROL 完了 &#x200B;]、[!UICONTROL 停止 &#x200B;]、または [!UICONTROL 承認保留中 &#x200B;] に設定された後に、プロジェクト内のタスクを編集します。</p>
-           <p>注意：このオプションを選択しない場合でも、ユーザーは費用エントリを追加および編集できます。 時間の記録には別の設定があります。 ユーザーが完了または停止ステータスのプロジェクトに時間を記録することを許可または禁止するには、<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md"> タイムシートおよび時間環境設定の設定 </a> を参照してください。</p></li>
+       <li><p>プロジェクトが[!UICONTROL Complete]、[!UICONTROL Dead]または[!UICONTROL Pending Approval]にマークされた後、プロジェクト内のタスクを編集します。</p>
+           <p>注意：このオプションを選択しない場合でも、ユーザーは経費入力を追加および編集できます。 ログ時間には別の設定があります。 完了済みまたは停止済みの状態のプロジェクトでユーザーが時間を記録することを許可または禁止するには、<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md"> タイムシートと時間の環境設定の設定</a>を参照してください。</p></li>
        <li>プロジェクトにタスクを追加する。</li>
       </ul></li>
      <li><strong>[!UICONTROL Add and edit issues]</strong>：ユーザーが以下を行えます。

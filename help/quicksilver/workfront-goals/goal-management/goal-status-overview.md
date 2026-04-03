@@ -2,15 +2,17 @@
 content-type: overview;reference
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals の目標ステータスの概要
+title: Adobe Workfront Goalsの目標ステータスの概要
 description: 目標ステータスは、目標がアクティブで現在の進行状況を記録しているか、非アクティブ、ドラフトまたは達成済みかを示します。
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -20,13 +22,14 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 >
 >Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -43,7 +46,8 @@ ht-degree: 90%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 ## Workfront Goals の目標ステータスを更新する際の考慮事項
 
@@ -58,14 +62,14 @@ ht-degree: 90%
   | クローズ | いいえ | はい | いいえ | - |
 
 * クローズした目標を開くと、目標の進行状況も更新されます。
-* 目標に対して実行する特定のアクションでも、そのステータスが更新されます。 目標ステータスの更新方法について詳しくは、次の記事を参照してください。
+* 目標に対して実行する特定のアクションも、そのステータスを更新します。 目標ステータスの更新方法について詳しくは、次の記事を参照してください。
 
    * [Adobe Workfront Goals で目標を作成](../../workfront-goals/goal-management/create-goals.md)
    * [Adobe Workfront Goals での目標のアクティブ化](../../workfront-goals/goal-management/activate-goals.md)
    * [Adobe Workfront Goals での目標の削除と非アクティブ化](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
    * [Adobe Workfront Goals での目標のクローズと再オープン](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
-## Workfront Goals の目標ステータスの概要
+## Workfront Goalsの目標ステータスの概要
 
 Workfront Goals の目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
 

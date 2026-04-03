@@ -2,11 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: リスト内のタスクを編集
-description: リストに表示されるフィールドを編集することで、タスクのリスト内のタスク情報を編集できます。変更内容をWorkfrontに保存する方法を指定するには、タスクのリストでプランモードを定義する必要があります。 変更は、手動または自動で保存できます。
+description: リストに表示されるフィールドを編集することで、タスクのリスト内のタスク情報を編集できます。Workfrontに変更を保存する方法を指定するには、タスクのリストでプランモードを定義する必要があります。 変更は手動または自動で保存できます。
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 63%
@@ -17,13 +19,15 @@ ht-degree: 63%
 
 <!-- Audited: 10/2025 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div>-->
+</div>
+-->
 
 リストに表示されるフィールドを編集することで、タスクのリスト内のタスク情報を編集できます。タスクを編集するその他の方法について詳しくは、[タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
 
@@ -60,7 +64,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,11 +89,12 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
    <td> <p>Contribute or higher permissions to the task and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## リスト内のタスクの編集に関する考慮事項 {#considerations-about-editing-tasks-in-a-list}
 
-リストでタスクを編集すると、変更がプロジェクトのタイムラインに与える影響を明確に把握しながら、複数のタスクに対して同時に変更を加えることができます。
+リスト内のタスクを編集することは、複数のタスクを同時に変更し、変更がプロジェクトのタイムラインにどのような影響を与えるかを明確に把握するための迅速な方法です。
 
 リスト内のタスクを編集する際は、以下の点に注意してください。
 
@@ -118,24 +124,24 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
      >
      >デフォルトでは、Workfront は、タスクに対する変更をサブタスクセクションまたはタスクレポートに自動的に保存します。
 
-* タスクの編集を開始する前に計画モードを定義することで、Workfrontでリスト内のタスクに加えた変更をいつ保存するかを制御できます。
+* タスクの編集を開始する前にプラン モードを定義することで、Workfrontでリスト内のタスクに加えた変更を保存するタイミングを制御できます。
 
-  変更内容を保存するWorkfrontは、次のどちらかを選択できます。
+  次の方法で、Workfrontで行った変更を保存するかどうかを指定できます。
 
-   * 変更のたびに自動的に
-   * 手動で行う場合は、[ 保存 ] をクリックした後で行います。
+   * 自動的に、あらゆる変更の後
+   * 手動では、「保存」をクリックした後にのみ行います。
 
-  Workfrontがリスト内のタスクに加えた変更をいつ保存するかについての詳細は、この記事の「リスト内のタスクを編集する前にプラン モードを変更する [&#x200B; を参照してください &#x200B;](#modify-plan-mode-before-editing-tasks-in-a-list)。
+  Workfrontがリスト内のタスクに加えた変更を保存するタイミングの設定について詳しくは、この記事の「[ リスト内のタスクを編集する前にプランモードを変更する](#modify-plan-mode-before-editing-tasks-in-a-list)」セクションを参照してください。
 
 * 他のユーザーは、タスクに対して行った更新を表示する前に、ページを更新する必要があります。
 
-## リストでタスクを編集する前にプランモードを変更
+## リスト内のタスクを編集する前にプラン モードを変更する
 
-リスト内のタスクに加えた変更を、発生時に自動的に保存するか、または各変更を手動で保存するかを指定できます。 これを行うには、タスクを編集する前に、タスクのリストでプランモードを変更する必要があります。
+リスト内のタスクに加えた変更が、発生したときに自動的に保存されるか、各変更を手動で保存するかを指定できます。 これを行うには、タスクを編集する前に、タスクのリストで計画モードを変更する必要があります。
 
 >[!IMPORTANT]
 >
->タスクを自動で保存するか手動で保存するかに応じて、リストのタスクを編集する際に他のユーザーの情報を上書きする場合があります。詳しくは、[&#x200B; タスクリスト内の同時変更の保存の概要 &#x200B;](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md) を参照してください。
+>タスクを自動で保存するか手動で保存するかに応じて、リストのタスクを編集する際に他のユーザーの情報を上書きする場合があります。詳しくは、[ タスクリスト内での同時変更の保存の概要](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)を参照してください。
 
 更新の種類として「自動」または「自動・変更時」が選択されているプロジェクトのリストに変更を保存すると、Workfront はプロジェクトのタイムラインと、プロジェクト内およびプロジェクト間のすべての依存関係をアップデートします。プロジェクトが大きい場合や、依存関係が多い場合は、タイムラインの計算に時間がかかる場合があります。タスクリストの編集方法の中には、変更を保存する方法に応じて、他の方法よりも速く編集できるものがあります。
 
@@ -143,13 +149,13 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 * アップデートのたびに、Workfront で自動的に変更を保存することができます。
 
-  詳しくは、この記事の [&#x200B; 変更を自動的に保存するようにプランモードを設定する &#x200B;](#set-the-plan-mode-to-automatically-save-changes) の節を参照してください。
+  詳しくは、この記事の「[変更を自動的に保存するようにプラン モードを設定する](#set-the-plan-mode-to-automatically-save-changes)」を参照してください。
 
 * 「保存」ボタンを使用して、手動で複数の変更を一度に適用するタイミングを制御できます。
 
-  詳しくは、この記事の [&#x200B; 手動で変更を保存するようにプランモードを設定 &#x200B;](#set-the-plan-mode-to-manually-save-changes) 節を参照してください。
+  詳しくは、この記事の「[変更を手動で保存するプラン モードを設定する](#set-the-plan-mode-to-manually-save-changes)」の節を参照してください。
 
-### 変更が自動的に保存されるように計画モードを設定します。
+### 変更を自動的に保存するようにプランモードを設定する
 
 >[!TIP]
 >
@@ -159,7 +165,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 * カスタムビューをタスクリストに適用し、アップデートするためのアクセス権があるタスク関連フィールドを編集することができます。
 * 自動保存された変更を元に戻すことはできません。これはデフォルトの設定です。
-* プロジェクトの更新の種類が自動または自動で、「変更時」の場合、Workfrontでは、変更のたびに、プロジェクトのタイムラインと、プロジェクト内およびプロジェクト間のすべての依存関係が自動的に再計算されます。 プロジェクトの更新の種類について詳しくは、[プロジェクトの更新の種類を選択](../../../manage-work/projects/manage-projects/select-project-update-type.md)を参照してください。
+* 「プロジェクト更新タイプ」が「自動」または「変更時」の場合、Workfrontは、プロジェクトのタイムラインを再計算し、プロジェクト内およびプロジェクト間のすべての依存関係を、変更後に自動的に再計算します。 プロジェクトの更新の種類について詳しくは、[プロジェクトの更新の種類を選択](../../../manage-work/projects/manage-projects/select-project-update-type.md)を参照してください。
 
 リスト内のタスクを編集し、変更を自動的に保存するには、以下のように行います。
 
@@ -168,19 +174,19 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 1. **プロジェクト** ページで、プロジェクトを選択します。
 1. 左側のパネルで、「**タスク**」セクションをクリックします。
 
-1. リストの上部にある **プランモード** アイコン ![&#x200B; プランモードアイコン &#x200B;](assets/plan-mode-icon.png) をクリックし、「**自動保存**」オプションが選択されていることを確認します。
+1. リストの上部にある&#x200B;**プランモード** アイコン ![ プランモードアイコン ](assets/plan-mode-icon.png)をクリックし、**自動保存** オプションが選択されていることを確認します。
 
-   ![&#x200B; 自動保存設定を有効にする &#x200B;](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+   ![自動保存設定を有効にする](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
 1. 手動でアップデートする権限を持つフィールドを編集します。
 
 1. （オプション）**Escape** を押して、変更をキャンセルします。
-1. キーボードの **Enter** （Windows）または **Return** （Mac）を押して、タスクとプロジェクトタイムラインに対する変更を保存します。
+1. キーボードの&#x200B;**Enter** （Windows）または&#x200B;**Return** （Mac）を押して、タスクとプロジェクトのタイムラインに変更を保存します。
 1. （オプション）変更するタスクを右クリックします。
 
    または
 
-   タスク名の右側にある **その他** メニュー ![&#x200B; タスクリストの詳細アイコン &#x200B;](assets/more-icon-task-list.png) をクリックします。
+   タスク名の右側にあるタスクリスト **の**&#x200B;詳細![ メニュー](assets/more-icon-task-list.png)詳細アイコンをクリックします。
 
 1. （オプション）以下のオプションから選択します。
 
@@ -202,7 +208,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
      </tr>
      <tr> 
       <td role="rowheader">編集</td> 
-      <td><p>タスクを編集できる「タスクを編集」ボックスを開きます。</p><p>タスクの編集について詳しくは、<a href="#edit-tasks-in-a-list" class="MCXref xref">リスト内でタスクを編集</a>を参照してください。</p></td> 
+      <td><p>タスクを編集できる「タスクを編集」ボックスが開きます。</p><p>タスクの編集について詳しくは、<a href="#edit-tasks-in-a-list" class="MCXref xref">リスト内でタスクを編集</a>を参照してください。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">削除</td> 
@@ -231,14 +237,14 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
     </tbody> 
    </table>
 
-### 変更を手動で保存するように計画モードを設定します。 {#edit-tasks-in-a-list-and-manually-save-changes}
+### 変更を手動で保存するプラン モードを設定します {#edit-tasks-in-a-list-and-manually-save-changes}
 
 リスト内のタスクに加えた変更を手動で保存できます。この方法で変更を保存する場合、保存する前に変更を元に戻すことができる自由度があります。
 
 >[!TIP]
 >
 >* サブタスクセクションまたはタスクレポートでタスクを編集している場合、リスト内のタスクに加えた変更を元に戻すことはできません。
->* 元に戻すことができる変更の数に制限はありません。タスクの元の状態に達するまで、それらをすべて 1 つずつ元に戻すことができます。
+>* 元に戻すことができる変更の数に制限はありません。タスクの元の状態に達するまで、それらをすべて1つずつ逆にすることができます。
 >
 
 タスクリスト内の変更を手動で保存する場合は、以下の点を考慮してください。
@@ -249,12 +255,12 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
    * プロジェクトに登録します。
    * プロジェクトをお気に入りのリストに追加します。
-   * リストでタスクの名前をクリックして、タスクを開きます。
+   * リスト内の名前をクリックして、タスクを開きます。
 
 * タスクを一括編集します。 複数のタスクを選択すると、「編集」アイコンが無効になります。
 * Workfront は、変更を保存した後にのみ、タスクに加えた変更に関する通知をトリガーします。
 
-リスト内のタスクに対する変更を手動で保存する方法は 2 つあります。
+リスト内のタスクに変更を手動で保存するには、次の2つの方法があります。
 
 * [「手動保存標準」オプションを選択すると、タスクリストの変更を手動で保存](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-standard-option)
 * [「タイムライン計画を手動保存」オプションを選択すると、タスクリストの変更を手動で保存](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option)
@@ -263,12 +269,12 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 >[!TIP]
 >
->プロジェクトに 2000 を超えるタスクがある場合、またはプロジェクトに多くの依存関係がある場合には、タスクに加えた変更と、それらの変更がプロジェクトのすべての依存関係に与える影響を視覚的に識別するのに時間がかかることがあります。この場合、変更の保存に予想以上の時間がかかる可能性があります。
+>プロジェクトに 2000 を超えるタスクがある場合、またはプロジェクトに多くの依存関係がある場合には、タスクに加えた変更と、それらの変更がプロジェクトのすべての依存関係に与える影響を視覚的に識別するのに時間がかかることがあります。この場合、変更の保存には予想以上に時間がかかる場合があります。
 
 「手動保存標準」オプションを選択した後にリスト内のタスクをアップデートする場合は、以下の点に注意してください。
 
 * タスクリストにカスタムビューを適用し、管理する権限を持つタスク関連のフィールドを、そのビュー内で編集できます。
-* プロジェクトの「更新の種類」が「自動」または「自動」で、「変更時」の場合、「保存」をクリックすると、Workfrontはプロジェクトのタイムラインと、プロジェクト内およびプロジェクト間のすべての依存関係を計算します。 プロジェクトの更新タイプについて詳しくは、[プロジェクトの更新タイプを選択](../../../manage-work/projects/manage-projects/select-project-update-type.md)を参照してください。
+* 「プロジェクト更新タイプ」が「自動」または「変更時」の場合、「保存」をクリックすると、Workfrontはプロジェクトのタイムラインと、プロジェクト内およびプロジェクト間のすべての依存関係を計算します。 プロジェクトの更新タイプについて詳しくは、[プロジェクトの更新タイプを選択](../../../manage-work/projects/manage-projects/select-project-update-type.md)を参照してください。
 
 「手動保存標準」オプションを選択する際に、リスト内のタスクを編集するには、次の手順に従います。
 
@@ -278,29 +284,29 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 1. 左側のパネルで、「**タスク**」セクションをクリックします。
 
-1. リストの上部にある **プランモード** アイコン ![&#x200B; プランモードアイコン &#x200B;](assets/plan-mode-icon.png) をクリックします。
+1. リストの上部にある&#x200B;**プランモード** アイコン ![ プランモードアイコン ](assets/plan-mode-icon.png)をクリックします。
 
-1. **プランモード** ダイアログで、**手動保存** を選択し、**標準** をクリックします。
+1. **プランモード** ダイアログで、**手動保存**&#x200B;を選択し、**標準**&#x200B;をクリックします。
 
-   ![&#x200B; 手動保存の設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![手動保存設定を有効にする](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. **適用** をクリックします。 ツールバー設定が表示され、変更の取り消し、やり直し、保存のオプションが表示されます。
+1. 「**適用**」をクリックします。 ツールバー設定が表示され、変更の取り消し、やり直し、保存のオプションが表示されます。
 
-   ![&#x200B; 手動保存ツールバー &#x200B;](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+   ![ ツールバーの手動保存](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. 手動で更新する権限を持つフィールド内をクリックします。フィールドが編集可能になり、変更を加えることができます。
 
-1. キーボードの **Enter** （Windows）または **Return** （Mac）を押して、変更内容を一時的に保存します。
+1. キーボードの&#x200B;**Enter** （Windows）または&#x200B;**Return** （Mac）を押して、変更を一時的に保存します。
 
-1. （オプション） **取り消し** アイコン ![&#x200B; 取り消しアイコン &#x200B;](assets/undo-icon-on-task-list.png) をクリックして、変更を元に戻し、フィールドを元の状態に戻します。
+1. （オプション）「**取り消し**」アイコン「![取り消しアイコン ](assets/undo-icon-on-task-list.png)」をクリックして、変更を元に戻し、フィールドを元の状態に戻します。
 
-1. （オプションおよび条件付き） **やり直し** アイコン ![&#x200B; やり直しアイコン &#x200B;](assets/redo-icon-on-task-list.png) をクリックして、取り消した変更を復元します。
+1. （オプションおよび条件付き） **やり直し** アイコン ![やり直しアイコン ](assets/redo-icon-on-task-list.png)をクリックして、元に戻した変更を復元します。
 
 1. （オプション）変更するタスクを右クリックします。
 
    または
 
-   **その他** メニュー ![&#x200B; タスクリストのモードアイコン &#x200B;](assets/more-icon-task-list.png) をクリックします。
+   タスクリスト **の**&#x200B;詳細![ メニュー](assets/more-icon-task-list.png) モードアイコンをクリックします。
 
 1. （オプション）以下のオプションから選択します。
 
@@ -355,7 +361,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 * 2,000 個を超えるタスクがあるプロジェクトには、「タイムライン計画を手動保存」オプションを適用できません。
 * タスクリストにカスタムビュー、フィルター、またはグループ化を適用することはできません。表示、フィルター、グループ化の各ドロップダウンメニューとアジャイルビューアイコンは無効になっています。デフォルトで適用されるビューは、フィールドの数が制限されています。
 * プロジェクトの更新タイプが「自動」または「自動・変更時」の場合、プロジェクトのタイムラインとすべてのプロジェクト内依存関係は、変更後に自動的に計算されます。
-* プロジェクトの [ 更新の種類 ] が [ 自動 ] または [ 自動 ] で、[ 変更時 ] の場合、[ 保存 ] をクリックすると、プロジェクト間の依存関係が計算されます。 プロジェクトの更新タイプについて詳しくは、[プロジェクトの更新タイプを選択](../../../manage-work/projects/manage-projects/select-project-update-type.md)を参照してください。
+* プロジェクト更新タイプが「自動」または「変更時」の場合、「保存」をクリックすると、プロジェクト間の依存関係が計算されます。 プロジェクトの更新タイプについて詳しくは、[プロジェクトの更新タイプを選択](../../../manage-work/projects/manage-projects/select-project-update-type.md)を参照してください。
 
 「タイムライン計画を手動保存」オプションを使用する際にリスト内のタスクを編集する手順は、次のとおりです。
 
@@ -366,19 +372,19 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 1. 左側のパネルで、「**タスク**」セクションをクリックします。
 
-1. リストの上部にある **プランモード** アイコン ![&#x200B; プランモードアイコン &#x200B;](assets/plan-mode-icon.png) をクリックします。
+1. リストの上部にある&#x200B;**プランモード** アイコン ![ プランモードアイコン ](assets/plan-mode-icon.png)をクリックします。
 
-1. **プランモード** ダイアログで、**手動保存** を選択し、**タイムライン計画** をクリックします。
+1. **プランモード** ダイアログで、**手動保存**&#x200B;を選択し、**タイムライン計画**&#x200B;をクリックします。
 
-   ![&#x200B; タイムライン計画設定の適用 &#x200B;](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
+   ![ タイムライン計画設定の適用](assets/manual-timeline-planning-setting-enabled-quicksilver-task-list-350x490.png)
 
    >[!TIP]
    >
-   >タスクの数が 2000 を超えるプロジェクトでは、「**時間計画**」オプションはグレー表示されます。
+   >2,000を超えるタスクを含むプロジェクトの場合、**タイムプランニング** オプションはグレー表示になります。
 
 1. 「**適用**」をクリックします。
 
-   リストでは、次の変更が行われます。
+   リストで次の変更が行われます。
 
    * 表示、グループ化、およびフィルターのドロップダウンメニューが削除され、ビューが次のフィールドに置き換えられます。
 
@@ -396,19 +402,19 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
    * アジャイルビューアイコンが削除されます。
    * ツールバー設定が表示され、変更の取り消し、やり直し、保存のオプションが表示されます。
 
-     ![&#x200B; 手動保存ツールバー &#x200B;](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![ ツールバーの手動保存](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. 手動でアップデートする権限を持つフィールドを編集します。
 
-1. キーボードの **Enter** （Windows）または **Return** （Mac）を押して、変更内容を一時的に保存します。
-1. （オプション） **取り消し** アイコン ![&#x200B; 取り消しアイコン &#x200B;](assets/undo-icon-on-task-list.png) をクリックして、変更を元に戻し、フィールドを元の状態に戻します。
-1. （オプションおよび条件付き） **やり直し** アイコン ![&#x200B; やり直しアイコン &#x200B;](assets/redo-icon-on-task-list.png) をクリックして、取り消した変更を元に戻します。
+1. キーボードの&#x200B;**Enter** （Windows）または&#x200B;**Return** （Mac）を押して、変更を一時的に保存します。
+1. （オプション）「**取り消し**」アイコン「![取り消しアイコン ](assets/undo-icon-on-task-list.png)」をクリックして、変更を元に戻し、フィールドを元の状態に戻します。
+1. （オプションおよび条件付き） **やり直し** アイコン ![やり直しアイコン ](assets/redo-icon-on-task-list.png)をクリックして、元に戻した変更を復元します。
 
 1. （オプション）変更するタスクを右クリックします。
 
    または
 
-   **その他** メニュー ![&#x200B; アスクリストのその他アイコン &#x200B;](assets/more-icon-task-list.png) をクリックします。
+   アセットリスト **の**&#x200B;詳細![ メニュー](assets/more-icon-task-list.png)詳細アイコンをクリックします。
 
 1. 次のオプションから選択します。
 
@@ -458,7 +464,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 1. 左側のパネルで、「**タスク**」セクションをクリックします。 プロジェクトのタスクのリストが表示されます。
 
-1. 編集するタスクを選択し、リストの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/task-summary-icon.png) をクリックします。 **タスクの概要** パネルが開きます。
+1. 編集するタスクを選択し、リストの右上隅にある「**概要を開く**」アイコン「![概要を開く」アイコン「](assets/task-summary-icon.png)」をクリックします。 **タスクの概要** パネルが開きます。
 
 1. （オプション）**更新**&#x200B;エリアでタスクの更新を入力します。
 1. 次のアイコンまたはエリアのいずれかをクリックしてタスクに移動し、タスクレベルで情報を編集します。
@@ -469,7 +475,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
     <tbody> 
      <tr> 
       <td role="rowheader">ドキュメント</td> 
-      <td>ドキュメントをタスクに追加します。 </td> 
+      <td>タスクにドキュメントを追加します。 </td> 
      </tr> 
           <tr> 
       <td role="rowheader">カスタムフォーム</td> 
@@ -477,44 +483,44 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
      </tr> 
      <tr> 
       <td role="rowheader">時間</td> 
-      <td>時間を記録します。</td> 
+      <td>作業時間の記録。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">承認</td> 
-      <td>タスク承認を追加します。</td> 
+      <td>タスクの承認の追加：</td> 
      </tr> 
      <tr> 
     </tbody> 
    </table>
 
-1. パネルの右上隅にある「**X**」をクリックして閉じます。
+1. パネルの右上隅にある&#x200B;**X**&#x200B;をクリックして閉じます。
 
 ## タスクを一括編集
 
-複数のタスクを同時に編集できます。 選択したタスクを一括編集できるように、タスクに対する管理権限があることを確認します。
+複数のタスクを同時に編集できます。 選択したタスクを一括で編集するには、そのタスクに対する管理権限があることを確認します。
 
 {{step1-to-projects}}
 
 1. **プロジェクト** ページで、プロジェクトを選択します。
 1. 左側のパネルで、「**タスク**」セクションをクリックします。
 
-1. リストの上部にある **プランモード** アイコン ![&#x200B; プランモードアイコン &#x200B;](assets/plan-mode-icon.png) をクリックし、「**自動保存**」オプションが選択されていることを確認します。
+1. リストの上部にある&#x200B;**プランモード** アイコン ![ プランモードアイコン ](assets/plan-mode-icon.png)をクリックし、**自動保存** オプションが選択されていることを確認します。
 
-   ![&#x200B; 自動保存設定を有効にする &#x200B;](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
+   ![自動保存設定を有効にする](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
    >[!IMPORTANT]
    >
-   >タスクを手動で保存する際に、タスクを一括編集することはできません。
+   >タスクを手動で保存する場合、タスクを一括編集することはできません。
 
-1. タスク リストで複数のタスクを選択します。
-1. （オプション）計算されたカスタムフィールドのすべての情報を更新するには、タスクリストの上部にある **その他** メニュー ![&#x200B; その他 &#x200B;](assets/more-icon.png) メニュー **その他の式の再計算** をクリックします。
-1. **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。 **タスクを編集** ボックスが開きます。
+1. タスクリストで複数のタスクを選択します。
+1. （オプション）タスクリストの上部にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**式を再計算**&#x200B;して、計算されたカスタムフィールドのすべての情報を更新します。
+1. **編集** アイコン ![編集アイコン ](assets/qs-edit-icon.png)をクリックします。 「**タスクを編集**」ボックスが開きます。
 
-   すべてのタスクの情報を編集する方法は、1 つのタスクの情報を編集する方法と同じです。
+   すべてのタスクに関する情報の編集は、1つのタスクに関する情報の編集と同じです。
 
    タスクの編集について詳しくは、[タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
 
-1. 次のいずれかの領域で選択したすべてのタスクについて、変更する情報を指定します。
+1. 次のいずれかの領域で選択したすべてのタスクに対して、変更する情報を指定します。
 
    * 概要
    * 割り当て
@@ -527,15 +533,16 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
    >[!NOTE]
    >
    >* 選択したすべてのタスクに関して変更中の情報は、「**割り当て**」フィールドを除き、個々のタスクに関する既存の情報を上書きします。一括編集で新しい担当者を追加すると、その担当者は選択したすべてのタスクに追加されます。選択したタスクに他の担当者が割り当てられている場合、一括編集で追加された担当者に加えて、割り当てられたままになります。
-   >* タスク期間を編集する場合は、選択したタスクに同じタスク制約を設定する必要があります。 それ以外の場合、「**期間**」フィールドには値が入力されません。
+   >* タスク期間を編集する場合は、選択したタスクに同じタスク制約が適用されている必要があります。 それ以外の場合、**期間** フィールドは入力されません。
    >
    >* アクティブなカスタムフォームのみがリストに表示されます。選択したタスクに共通するカスタムフォームがない場合、このセクションにはフォームが表示されません。
-   >* 編集できるのは、選択したすべてのタスクに添付され、編集する権限があるフォーム上のフィールドのみです。  カスタムフォームの一括編集について詳しくは、「[&#x200B; オブジェクトに添付されたカスタムフォームの管理 &#x200B;](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)」を参照してください。
+   >* 編集できるのは、選択したすべてのタスクに添付され、編集権限を持つフォームのフィールドのみです。  カスタムフォームの一括編集について詳しくは、[ オブジェクトに添付されたカスタムフォームの管理](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)を参照してください。
 
 1. 「**保存**」をクリックします。
 
 
-<!--Temporary content while changing the Assignments area:
+<!--
+Temporary content while changing the Assignments area:
 
 Editing multiple tasks at the same time differs depending on what environment you choose. 
 
@@ -600,4 +607,5 @@ Editing multiple tasks at the same time differs depending on what environment yo
 
 <div class="preview">
 
-### Edit tasks in bulk in the Preview environment-->
+### Edit tasks in bulk in the Preview environment
+-->

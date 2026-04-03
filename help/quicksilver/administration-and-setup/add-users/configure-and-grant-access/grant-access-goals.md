@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront Goals へのアクセス権の付与
+title: Adobe Workfront Goalsへのアクセス権の付与
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
@@ -8,7 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 86%
@@ -35,7 +37,7 @@ Adobe Workfront 管理者は、アクセスレベルを使用し、[アクセス
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>Standard</p>
+   <td><p>標準</p>
    <p>プラン</p></td> 
   </tr> 
   <tr> 
@@ -49,7 +51,8 @@ Adobe Workfront 管理者は、アクセスレベルを使用し、[アクセス
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,7 +75,8 @@ Adobe Workfront 管理者は、アクセスレベルを使用し、[アクセス
    <td> <p>You must have the System Administrator access level.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## カスタムアクセスレベルを使用した、ユーザーへの Workfront Goals へのアクセス権の付与
 
@@ -89,9 +93,9 @@ Adobe Workfront 管理者は、アクセスレベルを使用し、[アクセス
 
 ## ライセンスタイプ別の Workfront Goals へのアクセス権
 
-Workfront管理者は、アクセスレベルを使用して、次のライセンスを持つユーザーにWorkfront Goals へのアクセス権を付与できます。
+Workfront管理者は、アクセスレベルを使用して、次のライセンスを持つユーザーにWorkfront Goalsへのアクセス権を付与できます。
 
 * 標準、ライト、コントリビューター
-* 計画、作業、要求、またはレビューのライセンスです。
+* ライセンスの計画、作業、リクエスト、またはレビュー。
 
 Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。

@@ -6,18 +6,22 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '874'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
 # レコードのコメントの管理
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -44,12 +48,12 @@ ht-degree: 50%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
+<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>投稿者以上</p>
+   <td><p>コントリビューター以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -60,18 +64,19 @@ ht-degree: 50%
   </tr> 
   <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
-   <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
+   <td> LightまたはContributor ライセンスを持つユーザーには、Planningを含むレイアウトテンプレートを割り当てる必要があります。
+   <p>標準ユーザーとシステム管理者は、デフォルトでプランニング領域を有効にできます。</p></div></li></ul>
 </td>
   </tr>  
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -133,7 +138,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 </td>
   </tr>
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 
@@ -151,16 +157,16 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
   例えば、Workfront のプロジェクトに追加されたコメントは、Workfront Planning のキャンペーンにリンクされている同じプロジェクトには表示されず、プロジェクトの Workfront Planning レコードに追加されたコメントは Workfront には表示されません。
 
-* ユーザーまたはチームにタグを付けて、最新情報に注意を引くことができます。 個別にタグ付けされたユーザーとタグ付けされたチームのユーザーの両方が、アプリ内通知と、更新に関するメールを受信します。
+* ユーザーやチームにタグを付けて、注目をアップデートに集めることができます。 個別にタグ付けされたユーザーとタグ付けされたチームのユーザーの両方が、アプリ内通知と更新情報に関するメールを受け取ります。
 
   >[!NOTE]
   >
-  >   Adobe統合エクスペリエンスにオンボーディングしたユーザーのユーザーのみが、アプリ内通知とメール通知の両方を受け取ります。 会社がAdobe統合エクスペリエンスを使用しているかどうかを判断するには、[WorkfrontのAdobe統合エクスペリエンス &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+  >   Adobe Unified Experienceに登録したお客様のユーザーのみが、アプリ内通知とメール通知の両方を受け取ることができます。 自社がAdobe Unified Experienceを使用しているかどうかを判断するには、[Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)を参照してください。
 
 * Workfront Planning の次のエリアから、レコードに更新を追加したり、変更履歴を確認したりできます。
 
    * レコードの詳細ページから。
-   * ビューの「レコードの詳細」ボックスに移動します。
+   * ビューから、レコードの詳細ボックスに。
 
 ### レコードに対するコメントの管理
 
@@ -168,44 +174,44 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. ワークスペースのカードをクリックします。
 
-   ワークスペースが開き、カードにレコードタイプが表示されます。
+   ワークスペースが開き、レコードタイプがカードに表示されます。
 
-1. レコードタイプのカードをクリックします。
-レコードタイプのページが開き、そのタイプのすべてのレコードが表示されます。
+1. レコードタイプカードをクリックします。
+レコードタイプページが開き、そのタイプのすべてのレコードが表示されます。
 
 1. 「**表示**」ドロップダウンメニューからテーブルビューを選択します。
 1. テーブルビューでレコードの名前をクリックします。
 
    レコードの&#x200B;**詳細**&#x200B;ページが開きます。デフォルトではコメントエリアが右側のパネルに開きます。
 
-1. （条件付き）デフォルトで右側のパネルが開かない場合は、右上隅にある **コメントを表示**![&#x200B; コメントを表示アイコン &#x200B;](assets/show-comments-icon.png) アイコンをクリックして、「コメント」セクションを開きます。
+1. （条件付き）右側のパネルがデフォルトで開かない場合は、右上隅の「**コメントを表示** ![ コメントを表示](assets/show-comments-icon.png)」アイコンをクリックして、「コメント」セクションを開きます。
 
 1. **新しいコメント**&#x200B;ボックスにコメントを入力します。
 
-   ![&#x200B; レコードのコメントボックスを空にする &#x200B;](assets/empty-comment-box-on-record.png)
+   ![ レコード ](assets/empty-comment-box-on-record.png)の空のコメントボックス
 
    >[!TIP]
    >
-   >入力を完了してコメントを送信する前に「コメント」セクションから移動すると、ログオフしてログオンし直した後も、コメントがドラフトモードでページに保持されます。<!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
+   >入力を終了する前に「コメント」セクションから移動し、コメントを送信すると、ログオフして再度ログオンした後でも、コメントがドラフトモードでページに残ります。<!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. （オプション）変更の取り消しまたはやり直しを行うには、以下のショートカットキーを使用します。
-   * Ctrl + Z （Macの場合は ⌘ + Z）
-   * Ctrl + Y （Macの場合は ⌘ + Y）で、変更をやり直します
-1. （オプションおよび条件付き）Workfront インスタンスがAdobe統合エクスペリエンスの一部である場合は、**@** に続けてユーザー名またはチーム名を追加して、更新でタグ付けします。 詳細については、この記事の [&#x200B; レコードにコメントする場合の考慮事項 &#x200B;](#considerations-about-commenting-on-a-record) を参照してください。
+   * CTRL + Z （⌘+z for Mac）で変更を元に戻す
+   * CTRL + Y （⌘+y for Mac）で変更をやり直す
+1. （オプションおよび条件付き）Workfront インスタンスがAdobe Unified Experienceの一部である場合は、**@**&#x200B;の後にユーザーまたはチームの名前を追加して、更新でタグ付けします。 詳細については、この記事の「[ レコードに対するコメントに関する考慮事項](#considerations-about-commenting-on-a-record)」を参照してください。
 
-1. （オプション） リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字または更新へのリンクの追加を行い、コンテンツを充実させます。
+1. （オプション）リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字の追加、またはアップデートへのリンクを行い、コンテンツを強化します。
 
    >[!TIP]
    >
-   >レコードのコメントに画像を追加することはできません。
+   >レコードコメントに画像を追加することはできません。
 
 
 1. 引き続きレコードにコメントを追加します。
 
-   Workfront Planning レコードを含むオブジェクトの更新の詳細は、[&#x200B; 作業の更新 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
+   Workfront Planning レコードを含むオブジェクトの更新について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. （オプション）コメントの右上隅にある **その他** アイコン ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、**削除** をクリックしてコメントを削除します。
-1. （オプション） **コメントを非表示** アイコン ![&#x200B; コメントを非表示アイコン &#x200B;](assets/hide-comments-icon.png) をクリックして、右側のパネルを閉じます。
+1. （オプション）コメントの右上隅にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックしてコメントを削除します。
+1. （オプション）「**コメントを非表示**」アイコン「![ コメントを非表示にする](assets/hide-comments-icon.png)」をクリックして、右側のパネルを閉じます。
 
 <!--
       >[!TIP]
@@ -238,7 +244,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
     * **Copy body text**: This copies the text of the comment to your clipboard.
     * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 
 
-    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
+    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+    -->
 
 ## 履歴セクションの概要
 

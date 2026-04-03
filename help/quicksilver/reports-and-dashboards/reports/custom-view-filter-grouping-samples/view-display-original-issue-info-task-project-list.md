@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：タスクまたはプロジェクトリストに元のイシューの情報を表示する
+title: 表示：タスクまたはプロジェクトリストに元のイシュー情報を表示
 description: イシューをリスト内のタスクとプロジェクトに変換した後、タスクリストとプロジェクトリストのビューに元のイシューからの情報を表示できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 85%
 
 ---
 
-# 表示：タスクまたはプロジェクトリストに元のイシューの情報を表示する
+# 表示：タスクまたはプロジェクトのリストに元のイシュー情報を表示
 
 イシューをリスト内のタスクとプロジェクトに変換した後、タスクとプロジェクトリストのビューに元のイシューについて次の情報を表示できます。
 

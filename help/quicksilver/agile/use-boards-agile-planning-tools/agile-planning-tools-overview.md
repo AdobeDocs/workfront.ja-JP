@@ -3,11 +3,13 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: アジャイル計画ツールの概要：記事インデックス
-description: アドホックなカードと接続されたカードを使用してボードを作成する場合、ボード上の追加のアジャイル計画ツールを利用できます。
+description: アドホックカードとコネクテッドカードを使用してボードを作成する場合、ボード上の追加のアジャイルプランニングツールを活用できます。
 author: Courtney
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 64%
@@ -18,7 +20,7 @@ ht-degree: 64%
 
 <!-- Audited: 5/2025 -->
 
-アドホックなカードと接続されたカードを使用してボードを作成する場合、追加のアジャイル計画ツールを利用できます。
+アドホックカードとコネクテッドカードを使用してボードを作成する場合は、追加のアジャイルプランニングツールを活用できます。
 
 かんばんに役立つツールは次のとおりです。
 
@@ -36,7 +38,7 @@ ht-degree: 64%
 >
 >ワークストリームとその関連ツールは、特定の顧客グループでのみ使用できます。
 
-特定のアジャイル手法をコミットすることなく、これらのツールの一部または全部を、ユーザーとチームに適した方法で使用できます。
+特定のアジャイル手法を採用することなく、自社やチームに最適な方法で、これらのツールを使用できます。
 
 この節では、次の記事を扱います。
 

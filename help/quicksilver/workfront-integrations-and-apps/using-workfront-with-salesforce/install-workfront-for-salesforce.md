@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: ddd1c964c4c885f71dfa30d1790cfbc6e26d6781
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 36%
@@ -20,13 +22,13 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->より安定した拡張性の高い統合を実現するために、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しました。 この移行プロセスの一環として、Workfront for Salesforceの統合は **利用できなくなりました**。
+>そこで、より安定したスケーラブルな統合を提供するために、Adobe Workfrontは、Workfront Automation and Integration （Fusion）を利用した、最新の柔軟な統合アプローチに移行しました。 この移行プロセスの一環として、Salesforce向けWorkfront統合&#x200B;**は利用できなくなりました**。
 >
->組織のSalesforceとの統合のニーズに応じて、Workfront Automation and Integration を使用することをお勧めします。
+>組織のSalesforceとの統合ニーズには、Workfront Automation and Integrationを使用することをお勧めします。
 >
->Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+>Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 >
->SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)を参照してください。
 
 <!--
 

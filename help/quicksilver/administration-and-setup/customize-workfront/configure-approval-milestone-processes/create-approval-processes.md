@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -49,10 +51,10 @@ ht-degree: 91%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront パッケージ*</td> 
-   <td><p>システムレベルまたは単一使用の承認プロセスの場合：</p><ul><li><p>任意のパッケージ</p></li></ul>
+   <td role="rowheader">Adobe Workfrontパッケージ*</td> 
+   <td><p>システムレベルまたは単回使用の承認プロセスの場合：</p><ul><li><p>任意パッケージ</p></li></ul>
    <p>グループレベルの承認プロセスの場合：</p>
-   <ul><li><p>PrimeまたはUltimateのワークフロー</p></li>
+   <ul><li><p>Workflow PrimeまたはUltimate</p></li>
    <li><p>Workfront PrimeまたはUltimate</p></li></ul>
    </td>
 
@@ -65,17 +67,18 @@ ht-degree: 91%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>システム管理者または承認プロセスへの管理者アクセス権を持つユーザーは、特定のグループに対してシステムレベルの承認プロセスまたはグループレベルの承認プロセスを作成できます。</p> 
-   <p>グループ管理者で承認プロセスへの管理者アクセス権を持っている場合は、管理するグループに対してグループレベルの承認プロセスを作成できます。</p> </td> 
+   <td> <p>システム管理者または承認プロセスへの管理アクセス権がある場合は、特定のグループに対してシステムレベルの承認プロセスまたはグループレベルの承認プロセスを作成できます。</p> 
+   <p>グループ管理者で、承認プロセスへの管理アクセス権がある場合は、管理するグループに対してグループレベルの承認プロセスを作成できます。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+* この表の詳細については、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 
 ## 作業アイテムのシステムレベルまたはグループレベルのグローバル承認プロセスを作成する
@@ -112,9 +116,10 @@ For more detail about the information in this table, see [Access requirements in
 
    または
 
-   グループレベルの承認プロセスを作成する場合は、**グループ**![&#x200B; グループアイコン &#x200B;](assets/groups-icon.png) をクリックし、グループの名前をクリックして、**承認** をクリックします。
+   グループレベルの承認プロセスを作成する場合は、**グループ** ![ グループアイコン ](assets/groups-icon.png)をクリックし、グループの名前をクリックしてから、**承認**&#x200B;をクリックします。
 
-   <!--hidden for the new tab redesign - August 2023: 
+   <!--
+   hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
@@ -148,7 +153,7 @@ For more detail about the information in this table, see [Access requirements in
        </ul> 
        <p>必須フィールドです。</p>
        <p>このオプションは、1 回限りの承認プロセスには使用できません。</p> 
-       <p><b>警告</b></p> <p> グループ固有の承認プロセスを変更すると、作業項目に既に関連付けられている既存の承認プロセスが変更される場合があります。 これらの変更点について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。</p> 
+       <p><b>警告</b></p> <p> グループ固有の承認プロセスを変更すると、既に作業項目に関連付けられている既存の承認プロセスが変更される可能性があります。 これらの変更点について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。</p> 
        <p>グループのページからグループの承認プロセスを一覧表示および管理する方法について詳しくは、<a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">グループレベルの承認プロセス</a>を参照してください。 </p> 
        <p>承認プロセスへの管理者アクセス権について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
      </tr> 
@@ -257,4 +262,4 @@ For more detail about the information in this table, see [Access requirements in
 
 デフォルトでは、プロジェクト、タスクおよびイシューに対する権限を管理するユーザーは、1 回限りの承認プロセスを作成できます。プロジェクト、タスクおよびイシューに 1 回限りの承認プロセスを追加する方法について詳しくは、[新規または既存の承認プロセスと作業の関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)の記事の [1 回限りの承認プロセスをプロジェクト、タスク、イシュー、テンプレートまたはテンプレートのタスクに関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process)の節を参照してください。
 
-また、作業アイテムに関連付けられたグローバル承認プロセスの設定を変更することもできます。これらの変更は、システムレベルの承認プロセスに関連するプロジェクト、タスクまたはイシューにのみ影響します。詳しくは、「新規または既存の承認プロセスの作業への関連付け [&#x200B; の「特定のオブジェクトで使用するグローバル承認プロセスの変更」の節を参照し &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) ください。
+また、作業アイテムに関連付けられたグローバル承認プロセスの設定を変更することもできます。これらの変更は、システムレベルの承認プロセスに関連するプロジェクト、タスクまたはイシューにのみ影響します。詳細については、[新しい承認プロセスまたは既存の承認プロセスを作業](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)に関連付ける記事の「特定のオブジェクトで使用するためのグローバル承認プロセスの変更」の節を参照してください。

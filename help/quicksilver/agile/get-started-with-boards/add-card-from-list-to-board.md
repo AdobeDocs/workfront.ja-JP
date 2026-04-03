@@ -1,19 +1,21 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Workfront ボードへの既存のタスクまたは問題の追加
+title: 既存のタスクまたは問題をWorkfront ボードに追加する
 description: リスト表示またはレポート表示からAdobe Workfront のボードに任意のタスクまたはイシューを追加できます。
 author: Courtney
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 94%
 
 ---
 
-# [!DNL Workfront] ボードへの既存のタスクまたは問題の追加
+# 既存のタスクまたは問題を[!DNL Workfront] ボードに追加
 
 >[!IMPORTANT]
 >
@@ -42,7 +44,7 @@ ht-degree: 94%
   </tr>
   <tr>
    <td role="rowheader">オブジェクト権限</td>
-   <td>タスクまたは問題に対する以上の権限を表示 </td>
+   <td>タスクまたは問題に対する表示権限またはそれ以上の権限 </td>
   </tr>
  </tbody>
 </table>
@@ -55,7 +57,7 @@ ht-degree: 94%
 
 {{step1-click-main-menu}}
 
-1. **[!UICONTROL プロジェクト]**、**[!UICONTROL レポート]**、**[!UICONTROL ダッシュボード]** のいずれかを選択します。
+1. 次のいずれかを選択します：**[!UICONTROL プロジェクト]**、**[!UICONTROL レポート]**、または&#x200B;**[!UICONTROL ダッシュボード]**。
 1. ボードまたはワークストリームに追加するタスクまたはイシューが含まれるプロジェクト、レポート、またはダッシュボードに移動します。
 1. 1 つ以上のタスクまたはイシューを選択します。
 

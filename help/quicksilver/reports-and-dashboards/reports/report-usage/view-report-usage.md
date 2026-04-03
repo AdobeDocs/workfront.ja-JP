@@ -6,7 +6,9 @@ description: レポートの使用状況を表示
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 96%
@@ -72,7 +74,7 @@ ht-degree: 96%
 
 ## レポートの使用状況に関する情報を、レポートリストのビューに表示する
 
-1. Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
+1. Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
 
 1. レポートのリストで、**表示**&#x200B;ドロップダウンメニューをクリックします。
 1. （オプション）**レポートの使用状況**&#x200B;ビューをクリックすると、最も一般的なレポート使用状況情報が表示されます。\
@@ -101,7 +103,7 @@ ht-degree: 96%
 
 ## 使用情報によるレポートリストのフィルタリング {#filter-a-report-list-by-usage-information}
 
-1. Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
+1. Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
 1. レポートのリストで、**フィルター**&#x200B;ドロップダウンメニューをクリックします。
 1. 「**新規フィルター**」をクリックし、次に「**フィルター規則の追加**」をクリックします。
 1. 次のフィールドのいずれかに入力を開始し、**報告書**&#x200B;オブジェクトの下のリストに表示されたら、それらを選択して、新しいフィルター規則として追加します。
@@ -116,7 +118,7 @@ ht-degree: 96%
    * **最終表示日**：最後にレポートが表示された日付を表示します
 
 1. フィールドの修飾子を選択し、プロンプトが表示されたら値を指定します。\
-   ![&#x200B; レポート使用状況フィルターの統計 &#x200B;](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![使用状況フィルター統計を報告](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. 「**フィルターの保存**」をクリックします。\
    これにより、定義した使用情報に合致するレポートのリストが表示されます。\

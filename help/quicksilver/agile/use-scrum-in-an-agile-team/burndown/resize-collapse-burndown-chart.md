@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: バーンダウングラフのサイズ変更と折りたたみ
+title: バーンダウンチャートのサイズ変更と折りたたみ
 description: バーンダウンチャートのサイズを変更したり折りたたんだりして、ストーリーボード上で占める部分を調整できます。
 author: Courtney
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 94%
@@ -35,7 +37,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>明るい以上</p> 
+   <td> <p>明るいまたはそれ以上</p> 
    <p>レビュー以上</p> </td> 
   </tr>
  </tbody> 
@@ -53,7 +55,7 @@ ht-degree: 94%
 
 1. サイズを変更するバーンダウンチャートを含むイテレーションに移動します。
 1. バーンダウンチャートの下線にポインタを合わせ、チャートを希望のサイズにドラッグします。
-   ![バーンダウングラフのサイズを変更する](assets/burndown-resize.png)
+   ![ バーンダウンチャートのサイズ変更](assets/burndown-resize.png)
 
 ## バーンダウンチャートの折りたたみ
 

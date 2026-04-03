@@ -6,10 +6,13 @@ description: キャンバスダッシュボードの使用
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 41e283ceccd0a95daae005d998a2ed8050a1ab0b
+exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -17,29 +20,30 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックを送信してください。
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。
 >
->バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 >
->このベータ版は、次のクラウドプロバイダーでは利用できません。
+>このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
->* Amazon Web Services用に独自のキーを持参
+>* Amazon Web Services用に独自のキーを持ち込む
 >* Azure
 >* Google Cloud Platform
 
-キャンバスダッシュボードを使用すると、柔軟なキャンバスレイアウトに様々なレポートタイプを追加して、Adobe Workfront データを視覚化できます。 この記事では、キャンバスダッシュボードを効果的に使用する方法の概要を説明します。
+カンバスダッシュボードを使用すると、柔軟なカンバスレイアウトにさまざまなレポートタイプを追加することで、Adobe Workfront データを視覚化できます。 この記事では、Canvas ダッシュボードを効果的に使用する方法の概要を説明します。
 
-## キャンバスダッシュボードへのアクセス
+## Canvas ダッシュボードへのアクセス
 
-キャンバスダッシュボードにアクセスするには、Adobe Workfrontのダッシュボードセクションに移動します。 ここから、既存のダッシュボードを表示したり、必要な権限を持っている場合は新しいダッシュボードを作成したりできます。
+Canvas ダッシュボードにアクセスするには、Adobe Workfrontの「ダッシュボード」セクションに移動します。 必要な権限があれば、そこから既存のダッシュボードを表示したり、新しいダッシュボードを作成したりできます。
 
 {{step1-to-dashboards}}
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 1. 既存のダッシュボードの名前をクリックして開きます。
-   ![&#x200B; ダッシュボードを開く &#x200B;](assets/open-dashboard.png)
+   ![ ダッシュボードを開く](assets/open-dashboard.png)
 
-<!--## Navigating the Dashboard
+<!--
+## Navigating the Dashboard
 
 Once you open a Canvas Dashboard, you can interact with the reports displayed on the dashboard. You can resize, drag, and drop reports to customize the layout according to your preferences.
 
@@ -47,30 +51,30 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
 
 -->
 
-## レポートの操作
+## Reportsの操作
 
-ダッシュボードの個々のレポートを操作できます。
+ダッシュボードで個々のレポートを操作できます。
 
-### テーブルレポートの一時的なカスタマイズ
+### テーブルレポートを一時的にカスタマイズする
 
-ダッシュボードのテーブルレポートを一時的にカスタマイズできます。 これらの変更は現在のセッションにのみ適用され、元のレポート設定には影響しません。
+ダッシュボードのテーブルレポートを一時的にカスタマイズできます。 これらの変更は、現在のセッションにのみ適用され、元のレポート設定には影響しません。
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 1. 既存のダッシュボードの名前をクリックして開きます。
-   ![&#x200B; ダッシュボードを開く &#x200B;](assets/open-dashboard.png)
-1. カスタマイズするテーブルレポートを見つけます。
-1. 次のいずれかのオプションを選択して、レポートをカスタマイズします。
+   ![ ダッシュボードを開く](assets/open-dashboard.png)
+1. カスタマイズする表レポートを探します。
+1. レポートをカスタマイズするには、次のいずれかのオプションを選択します。
 
    | オプション | 説明 |
    |--------|-------------|
-   | **列を追加** | 「**列の追加**」をクリックして、レポートに列を追加します。 |
-   | **列を設定** | レポート内の特定の列の表示/非表示を選択します。 |
+   | **列を追加** | 「**列を追加**」をクリックして、レポートに列を追加します。 |
+   | **列の設定** | レポートの特定の列の表示と非表示を選択します。 |
    | **行の高さ** | レポートの行の高さを調整します。 |
-   | **スナップ スクロール** | レポート内を移動しやすくするために、スナップ スクロールを有効または無効にします。 |
+   | **スクロールをスナップ** | レポート内で簡単に移動できるように、スナップ スクロールを有効または無効にします。 |
 
    >[!IMPORTANT]
    >
-   >これらの変更は現在のセッションにのみ適用され、元のレポート設定には影響しません。 これらの変更を永続的にするには、レポートを編集する必要があります。
+   >これらの変更は、現在のセッションにのみ適用され、元のレポート設定には影響しません。 これらの変更を永続的に行うには、レポートを編集する必要があります。
 
 
 <!--
@@ -111,14 +115,15 @@ When you sort by the same field that your report is grouped by, the group order 
 
 After customizing your Canvas Dashboard, you can save your changes. Additionally, you can share the dashboard with other users in your organization, provided you have the appropriate sharing permissions.
 
-For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.-->
+For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.
+-->
 
-## グループ化されたデータを含んだレポートの表示
+## グループ化されたデータを使用したレポートの表示
 
-レポート作成者は、グループ化されたデータを表示するようにレポートを設定できます。 レポートにグループ化がある場合、グループ化されたデータを展開または折りたたむと、詳細を表示できます。
+レポート作成者は、グループ化されたデータを表示するようにレポートを設定できます。 レポートにグループ化がある場合は、グループ化されたデータを展開または折りたたんで、詳細を表示できます。
 
-デフォルトでは、グループ化自体は、フィールドタイプに応じて、アルファベット順または時系列に並べ替えられます。 各グループ内のデータは、グループ化の並べ替え順とは無関係に並べ替えられます。
+デフォルトでは、フィールドタイプに応じて、グループ化自体がアルファベット順または時系列で並べ替えられます。 各グループ内のデータは、グループ化の並べ替え順序とは独立して並べ替えられます。
 
-列見出しをクリックすると、各グループ内のデータを並べ替えることができます。 グループ化フィールドとは異なるフィールドで並べ替えても、グループの順序は変更されません。
+列ヘッダーをクリックして、各グループ内のデータを並べ替えることができます。 グループ化フィールドとは異なるフィールドで並べ替えると、グループの順序は変更されません。
 
-ただし、レポートのグループ化と同じフィールドで並べ替えを行うと、グループの順序が変わる場合があります。 例えば、通常 A ～ Z を実行するテキストベースのグループ化は、Z ～ A に切り替わる場合があります。
+ただし、レポートをグループ化したフィールドと同じフィールドで並べ替えると、グループの順序が変更される場合があります。 例えば、通常A～Zを実行するテキストベースのグループ化では、Z～Aに切り替えることができます。

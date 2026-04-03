@@ -1,30 +1,34 @@
 ---
 title: レコードへのカバー画像の追加
-description: レコードの編集時に、Adobe Workfront Planning のレコード・ページに表紙を追加することで、レコードをパーソナライズできます。
+description: レコードを編集する際に、Adobe Workfront Planningのレコードページにカバー画像を追加することで、レコードをパーソナライズできます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
 
 # レコードへのカバー画像の追加
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-レコードの編集時に、Adobe Workfront Planning のレコード・ページに表紙を追加することで、レコードをパーソナライズできます。
+レコードを編集する際に、Adobe Workfront Planningのレコードページにカバー画像を追加することで、レコードをパーソナライズできます。
 
-レコードの編集方法については、「[&#x200B; レコードの編集 &#x200B;](/help/quicksilver/planning/records/edit-records.md)」を参照してください。
+レコードの編集について詳しくは、[ レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 
@@ -46,8 +50,8 @@ ht-degree: 11%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
+<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
@@ -56,18 +60,19 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースおよびレコードタイプへの投稿以上の権限  </p>  
+   <td>   <p>ワークスペースおよびレコードタイプに対する権限の貢献度を上げます  </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr>   
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -123,32 +128,33 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
-## レコードページの表紙画像に関する考慮事項
+## レコードページカバー画像に関する考慮事項
 
-表紙画像を追加して、レコードのページをパーソナライズできます。
+レコードにカバー画像を追加することで、レコードのページをパーソナライズできます。
 
 次の点に注意してください。
 
-* カバー画像は、1 つのレコードに固有で、同じタイプのすべてのレコードには適用されません。
+* カバー画像は1つのレコードに固有であり、同じタイプのすべてのレコードには適用されません。
 * カバー画像として追加できるのは画像ファイルのみです。
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* 任意のビューのレコードプレビューまたはレコードページから、カバー画像を個々のレコードに追加できます。
-* レコード ビューからカバー画像を追加することはできません。
-* Workfrontは、レコードを作成するたびに、カバー画像を自動的にアップロードします。 この画像は後で変更できます。
+* カバー画像は、任意のビューのレコードプレビューまたはレコードページから個々のレコードに追加できます。
+* レコードビューからカバー画像を追加することはできません。
+* レコードを作成するたびに、Workfrontがカバー画像を自動的にアップロードします。 この画像は後で変更できます。
 
 ## レコードへのカバー画像の追加
 
-レコードのプレビューまたはページの上部にカバー画像を追加して、レコードをパーソナライズできます。
+レコードのプレビューまたはページの上部にカバー画像を追加することで、レコードをパーソナライズできます。
 
 {{step1-to-planning}}
 
-1. レコードをパーソナライズするワークスペースをクリックします。
+1. レコードをパーソナライズするワークスペースをクリックします，
 
    または
 
-   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開してワークスペースを検索し、リストに表示されたら選択します。
+   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開し、ワークスペースを検索して、リストに表示されるときに選択します。
 
    ワークスペースが開き、レコードタイプが表示されます。
 
@@ -156,50 +162,50 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    レコードタイプのページが開きます。
 
-1. 任意の種類のビューから、レコードをクリックします
+1. 任意のタイプのビューから、レコードをクリックします
 
    または
 
-   テーブルビューで、最初の列の **詳細を開く** アイコン ![&#x200B; 詳細を開くアイコン &#x200B;](assets/open-details-icon-in-table-name-field.png) をクリックします。
+   テーブルビューで、最初の列の&#x200B;**詳細を開く** アイコン ![詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png)をクリックします。
 
    レコードのプレビューがビューで開きます。
 
-   ![&#x200B; 詳細プレビューボックス &#x200B;](assets/details-box.png)
+   ![詳細プレビューボックス ](assets/details-box.png)
 
 
-1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![&#x200B; 新しいタブで開く &#x200B;](assets/open-details-in-a-new-tab-icon.png) アイコン <!--check the icon; they are changing it--> 新しいタブでレコードのページを開く）をクリックします。
+1. （オプション）レコードプレビューの右上隅にある「**新しいタブで開く**」アイコン「![新しいタブで開く」アイコン「](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->」をクリックして、レコードのページを新しいタブで開きます。
 
    レコードページが開きます。
 
-   ![&#x200B; 詳細ページ &#x200B;](assets/details-page.png)
+   ![詳細ページ ](assets/details-page.png)
 
-1. レコードのプレビューまたは詳細ページで、レコード名の上のスペースにマウスポインターを置いて、「**カバーを追加**」をクリックします。
+1. レコードのプレビューまたは詳細ページで、レコード名の上のスペースにカーソルを合わせ、**カバーを追加**&#x200B;をクリックします。
 
    または
 
-   既存のカバー画像にポインタを合わせ、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**アップロード** をクリックしてください。 <!--check the casing here; I logged a bug for this-->
-**レコードカバー** ボックスが **アップロード** タブで開きます。
+   既存のカバー画像にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**アップロード**&#x200B;をクリックします。 <!--check the casing here; I logged a bug for this-->
+**レコードカバー** ボックスが&#x200B;**アップロード** タブで開きます。
 
-   ![&#x200B; アップロード用のレコードカバーボックス &#x200B;](assets/record-cover-box-for-upload.png)
+   ![ アップロード用のレコードカバーボックス ](assets/record-cover-box-for-upload.png)
 
-1. **画像を参照** をクリックし、コンピューター上の画像を参照して選択して追加します。
+1. 「**画像を参照**」をクリックし、コンピューター上の画像を参照して選択し、追加します。
 
-1. （任意）保存前に画像を削除するには、**新しい画像をアップロード** アイコン ![&#x200B; 新しい画像をアップロード アイコン &#x200B;](assets/upload-new-image-icon.png) をクリックして、新しい画像をアップロードします。
+1. （オプション）画像を保存する前に削除するには、**新しい画像をアップロード** アイコン ![新しい画像をアップロード アイコン ](assets/upload-new-image-icon.png)をクリックし、新しい画像をアップロードします。
 
-1. （オプション）「**ギャラリー**」タブをクリックして、画像ギャラリー内の画像をクリックします。 画像ギャラリーは変更できません。
+1. （オプション）「**ギャラリー**」タブをクリックし、画像のギャラリー内の画像をクリックします。 画像のギャラリーは変更できません。
 
-   ![&#x200B; ギャラリー用カバーボックスの記録 &#x200B;](assets/record-cover-box-for-gallery.png)
+   ![ ギャラリーの表紙ボックスを記録](assets/record-cover-box-for-gallery.png)
 
-1. **画像を使用** をクリックします。
+1. 「**画像を使用**」をクリックします。
 
-   画像はレコードのプレビューページまたは詳細ページの上部にアップロードされ、変更は自動的に保存されます。
+   画像はレコードプレビューまたは詳細ページの上部にアップロードされ、変更は自動的に保存されます。
 
-   ![&#x200B; 表紙付きレコードページ &#x200B;](assets/record-page-with-cover-image.png)
+   ![表紙画像を含むレコードページ ](assets/record-page-with-cover-image.png)
 
-1. （オプション）画像の上にマウスポインターを置き、カバー画像の右下隅にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、次のいずれかの操作を行います。
+1. （オプション）画像にカーソルを合わせ、カバー画像の右下隅にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックしてから、次のいずれかの操作を行います。
 
-   * カバー画像を置き換える場合は **アップロード** をクリックし、手順 6 を繰り返して新しい画像をアップロードして保存します。
-   * **再配置** をクリックし、**再配置** ツール ![&#x200B; 再配置ツールアイコン &#x200B;](assets/reposition-tool-icon.png) を使用してカバー画像を中央に配置し、完了したら **保存** をクリックします。
-   * **削除** をクリックして、カバー画像を削除します。
+   * 表紙画像を置き換える場合は、「**アップロード**」をクリックし、手順6を繰り返して新しい画像をアップロードして保存します。
+   * **再配置**&#x200B;をクリックし、**再配置** ツール ![再配置ツールアイコン ](assets/reposition-tool-icon.png)を使用してカバー画像の中央に配置し、完了したら「**保存**」をクリックします。
+   * 「**削除**」をクリックして、カバー画像を削除します。
 
    Workfront では、変更を自動的に保存します。

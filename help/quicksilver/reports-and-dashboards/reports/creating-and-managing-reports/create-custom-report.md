@@ -6,7 +6,9 @@ description: レポートを作成することで、Adobe Workfront 内で組織
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 93%
@@ -51,7 +53,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>作成するレポートへの管理権限を取得します</p>  </td> 
+   <td> <p>作成したレポートに対する管理権限を取得できます</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,13 +72,13 @@ ht-degree: 93%
 
    使用可能なオブジェクトレポートについて詳しくは、[Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事で[オブジェクトに関するレポート](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)の節を参照してください。
 
-   ![&#x200B; 新しいレポートを選択 &#x200B;](assets/nwe-select-new-report-350x666.png)
+   ![新しいレポートを選択](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
    >また、既存のレポートのコピーを作成して、レポートを作成することもできます。詳しくは、[レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)を参照してください。
 
-1. （オプション）新しいレポートのタイトルを編集するには、Report Builder の左上隅にあるテキストフィールドに目的のレポートタイトルを入力します。 互換性の問題を回避するには、UTF-8 文字のみを使用することをお勧めします。
+1. （オプション）新しいレポートのタイトルを編集するには、レポートビルダーの左上隅にあるテキストフィールドに、目的のレポートタイトルを入力します。 互換性の問題を回避するために、UTF-8文字のみを使用することをお勧めします。
 
 1. Report Builder で、次の内容をレポートに追加します。
 
@@ -126,11 +128,11 @@ ht-degree: 93%
 
    または
 
-   既存の列を変更するには、Report Builder の左上隅にある **この列フィールドに表示** 領域の現在のフィールドの右側にある ![&#x200B; 削除 &#x200B;](assets/remove-column-icon.png) アイコン **削除** アイコン（列の削除アイコン）をクリックし、新しいフィールドの入力を開始します。その後、新しいフィールドがリストに表示されたらクリックします。
+   既存の列を変更するには、列をクリックし、レポートビルダーの左上隅にある「**この列フィールドに表示**」領域の現在のフィールドの右側にある「![削除](assets/remove-column-icon.png)」アイコン「**列アイコンを削除**」をクリックし、新しいフィールドを入力し、リストに表示されたらクリックします。
 
    列に表示されるフィールドについて詳しくは、[Adobe Workfront の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 
-   ![&#x200B; 列の先行入力を追加 &#x200B;](assets/nwe-add-column-typeahead-350x459.png)
+   ![先行列を追加](assets/nwe-add-column-typeahead-350x459.png)
 
 1. （オプション）**カラム設定**&#x200B;エリアで、「**このカラムを基準にして並べ替え**」を選択して、列の値を降順のアルファベット順で昇順に並べ替えるには、リストでこの列を最初の並べ替え基準として使用するかどうかを指定します。
 
@@ -202,7 +204,7 @@ ht-degree: 93%
 
    「**既存のグループ化を適用**」を選択して、リストに表示される既存のグループを選択します。
 
-   ![&#x200B; グループ化を追加 &#x200B;](assets/nwe-add-grouping-350x230.png)
+   ![ グループ化を追加](assets/nwe-add-grouping-350x230.png)
 
 1. グループ化として追加するフィールドの入力を開始します。フィールドが使用可能な場合は、関連付けることが可能な各オブジェクトに対してが設定されます。フィールドの名前をクリックして、そのグループに追加します。
 1. （オプション）テキストモードでグループ化を作成する場合は、「**テキストモードに切り替え**」をクリックします。テキストモードの使用について詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
@@ -234,7 +236,7 @@ ht-degree: 93%
    または\
    「**既存のフィルターを適用**」を選択し、既存のフィルターを使用します。
 
-   ![&#x200B; フィルターの追加 &#x200B;](assets/nwe-add-a-filter-350x93.png)
+   ![ フィルターを追加](assets/nwe-add-a-filter-350x93.png)
 
 1. 「**フィルタールールを追加**」をクリックした場合は、フィルターとして追加するフィールドの入力を開始します。フィールドが使用可能な場合は、関連付けることが可能な各オブジェクトに対してが設定されます。フィールドの名前をクリックして、そのフィルターに追加します。\
    フィルター修飾子を使用して、フィルターを作成します。フィルター修飾子について詳しくは、[フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
@@ -254,7 +256,7 @@ ht-degree: 93%
 1. この記事の[レポートの作成](#create-a-report)セクションの説明に従って、レポートの作成を開始します。
 1. Report Builder で、「**グラフ**」タブを選択し、追加するグラフのタイプを選択します。
 
-   ![&#x200B; グラフの追加 &#x200B;](assets/nwe-add-a-chart-350x247.png)
+   ![ グラフを追加](assets/nwe-add-a-chart-350x247.png)
 
    レポートでのグラフの作成について詳しくは、[レポートにグラフを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)を参照してください。
 

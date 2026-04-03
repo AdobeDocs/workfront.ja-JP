@@ -5,7 +5,9 @@ description: Adobe Workfront の AI アシスタントについて
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 418ea6e9728cb0e8d178fa201ece35328547eedb
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 97%
@@ -30,7 +32,7 @@ Workfront の AI アシスタントは、アプリ内の情報やおすすめを
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p>Select 以上 </p> </td> 
+   <td> <p>Select以上 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
@@ -141,7 +143,7 @@ Adobe 生成 AI 契約をリクエストするには：
    >[!NOTE]
    >
    >* 署名済み契約書を返送後、アドビが内容を確認し、AI アシスタントを有効にするまで 1～3 営業日かかります。
-   >* 有効にした後、組織のインスタンスで使用できる AI アシスタントのオプションが表示されない場合は、Workfront カスタマーサポートにお問い合わせください。
+   >* 有効にした後、組織のインスタンスで利用可能なAI アシスタントのオプションが表示されない場合は、Workfront カスタマーサポートにお問い合わせください。
 
 ## AI アシスタントでプロンプトを作成する際のヒント
 
@@ -150,7 +152,7 @@ Adobe 生成 AI 契約をリクエストするには：
 プロンプトを入力する場合は、`using (keyword)` というフレーズを含めます。
 
 | キーワード | エフェクト |
-| --- | --- | 
+| --- | --- |
 | `workfront` | Workfront とやり取りしてください。 |
 | `planning` | Workfront Planning とやり取りしてください。 |
 | `help` | Experience League ドキュメントからの情報を返してください。 |

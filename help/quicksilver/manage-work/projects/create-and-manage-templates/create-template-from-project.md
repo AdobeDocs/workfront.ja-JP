@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 58%
+ht-degree: 61%
 
 ---
 
@@ -64,7 +66,8 @@ ht-degree: 58%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -86,12 +89,13 @@ ht-degree: 58%
    <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you create it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## プロジェクトからテンプレートを作成
 
 1. テンプレートとして保存するプロジェクトに移動します。
-1. **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**テンプレートとして保存** をクリックします。
+1. **詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックしてから、**テンプレートとして保存**&#x200B;をクリックします。
 1. テンプレートに次の情報を指定します。
 
    <table style="table-layout:auto"> 
@@ -118,28 +122,28 @@ ht-degree: 58%
    </table>
 
 1. 左側のパネルで「**カスタムフォーム**」をクリックします。
-1. 「**カスタムフォームを追加**」フィールドをクリックし、プロジェクトのカスタムの名前の入力を開始するか、リストから選択します。
+1. 「**カスタムフォームを追加**」フィールドをクリックして、のプロジェクトカスタムの名前を入力するか、リストから1つを選択します。
 
-   既にカスタムフォームがプロジェクトに関連付けられている場合、これらのカスタムフォームからの既存のフィールド内のすべての情報がフォームに表示されます。
+   任意のカスタムフォームが既にプロジェクトに関連付けられている場合、そのカスタムフォームの既存のフィールド内のすべての情報がフォームに表示されます。
 
-   1 つのテンプレートに最大 10 個のカスタムフォームを含めることができます。
+   1つのテンプレートには、最大10個のカスタムフォームを含めることができます。
 
-1. フォームの名前にポインタを合わせ、クリックして新しい場所にドラッグ&amp;ドロップします。
+1. フォームの名前にカーソルを合わせ、クリックして新しい場所にドラッグ&amp;ドロップします。
 
-   ![&#x200B; プロジェクトをテンプレートとして保存 &#x200B;](assets/save-project-as-template-top-of-the-form.png)
+   ![ テンプレートの先頭にプロジェクトを保存](assets/save-project-as-template-top-of-the-form.png)
 
-1. 左側のパネルで **オプション** をクリックし、テンプレートに転送するフィールドまたは項目を選択します。
+1. 左側のパネルで「**オプション**」をクリックし、テンプレートに転送するフィールドまたは項目を選択します。
 
-   デフォルトでは、すべての項目がオンになっています。 選択解除された項目は、テンプレートに転送されません。
+   すべての項目はデフォルトでオンになっています。 選択されていない項目は、テンプレートに転送されません。
 
-   ![&#x200B; テンプレートとして保存オプション &#x200B;](assets/save-project-as-template-options-area.png)
+   ![ テンプレートとして保存オプション ](assets/save-project-as-template-options-area.png)
 
-1. 左側のパネルで **除外** をクリックし、プロジェクトから除外するタスクを選択します。
+1. 左側のパネルで「**除外**」をクリックし、プロジェクトから除外するタスクを選択します。
 
-   ![&#x200B; テンプレートとして保存で除外 &#x200B;](assets/save-project-as-template-exclude-area.png)
+   ![ テンプレートとして保存を除外](assets/save-project-as-template-exclude-area.png)
 
 1. 「**完了してテンプレートを保存**」をクリックします。
 
-   テンプレートが、使用可能なテンプレートのリストに表示されます。 ユーザーは、新しいテンプレートを既存のプロジェクトに添付するか、それを使用してプロジェクトを作成できます。
+   これで、テンプレートが使用可能なテンプレートのリストに表示されます。 ユーザーは、新しいテンプレートを既存のプロジェクトに添付するか、それを使用してプロジェクトを作成できます。
 
 

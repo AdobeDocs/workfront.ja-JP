@@ -1,17 +1,20 @@
 ---
-title: Adobe Planning スタンドアロンの基本を学ぶ
-description: この記事では、スタンドアロン版のAdobe Workfront Planning を使用するメリットを享受する方法について説明します。
+title: Adobe計画スタンドアロンの基本を学ぶ
+description: ここでは、Adobe Workfront Planningのスタンドアロン版を使用するメリットについて説明します。
 hidefromtoc: true
 hide: true
 exl-id: 99ebed04-0440-4990-a122-4d29f73c2201
-source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-<!--Update metadata with this at release:
+<!--
+Update metadata with this at release:
 
 ---
 title: Get Started with Planning Standalone
@@ -23,30 +26,32 @@ recommendations: noDisplay, noCatalog
 ---
 -->
 
-# Adobe Planning スタンドアロンの概要
+# Adobe Planning Standaloneの基本を学ぶ
 
-<!--I think we will need to delete this folder and just use the Planning existing folder with all capabilities to speak about Planning; then, we'll speak about WF proper as a third party application (like GenS and AEM etc)>
+<!--
+I think we will need to delete this folder and just use the Planning existing folder with all capabilities to speak about Planning; then, we'll speak about WF proper as a third party application (like GenS and AEM etc)>
 
 This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.
 
 ## How your company can acquire an Adobe Workfront Standalone Planning license
 
-Whether you are an Adobe Workfront customer or not, you can speak with your Adobe account representation about a Workfront Planning Standalone license. <!--do people HAVE to be WF or Adobe customers at all, or can anyone buy this?-->
+Whether you are an Adobe Workfront customer or not, you can speak with your Adobe account representation about a Workfront Planning Standalone license. -do people HAVE to be WF or Adobe customers at all, or can anyone buy this?
+-->
 
-## 統合バージョンとスタンドアロンのWorkfront Planning バージョン
+## 統合版とスタンドアロン版のWorkfront計画
 
-統合バージョンのWorkfront Planning を使用すると、次のことができます。
+Workfront Planningの統合版では、次のことが可能です。
 
-* Planning オブジェクトのWorkfrontオブジェクトへの接続
-* Workfrontから Planning レコードタイプへの既存のカスタムフィールドの追加
-* 計画情報に基づくWorkfront プロジェクトの自動作成
-* Workfrontの Canvas Dashboard レポート・システムのプランニング情報を参照してください
+* Planning オブジェクトをWorkfront オブジェクトに接続する
+* Workfrontの既存のカスタムフィールドをプランニングレコードタイプに追加する
+* 計画情報に基づいてWorkfront プロジェクトを自動作成する
+* WorkfrontのCanvas Dashboard レポートシステムの計画情報を参照してください
 
-スタナローンバージョンのWorkfront Planning を使用すると、次のことができます。
+Workfront Planningのスタンドアロン版では、次のことが可能です。
 
-* Workfront Planning のスタンドアロンのオープン API を使用して、Planning オブジェクトを他のアプリケーション <!--ask Lilit and I think this is an Integrated benefit also--> 統合します。
+* Workfront Planning Standalone オープン APIを使用して、Planning オブジェクトを他のアプリケーション <!--ask Lilit and I think this is an Integrated benefit also-->と統合します
 
 
-## Workfront Planning のスタンドアロン用語
+## Workfront Planningのスタンドアロン用語
 
 <!--should we link to the regular Planning terminology? - help/quicksilver/planning/general/planning-overview.md -->

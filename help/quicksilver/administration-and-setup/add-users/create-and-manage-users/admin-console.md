@@ -5,7 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 793419db3e9552e2e425aec26300b8c2b4ab8583
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1638'
 ht-degree: 94%
@@ -14,9 +16,11 @@ ht-degree: 94%
 
 # Adobe Admin Console でのユーザー管理
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -243,17 +247,17 @@ Adobe Admin Console でのユーザーの一括編集について詳しくは、
 
 >[!NOTE]
 >
->* ユーザーがAdmin Console ユーザーグループにあり、製品プロファイルが 1 つ以上のユーザーグループに追加されている場合、Workfrontからユーザーをディアクティベートしても、実際には製品から削除されません。 ユーザーをAdmin Consoleのユーザーグループから削除する必要があります。
->* Adobe Admin Consoleからユーザーを削除すると、そのユーザーはWorkfrontでアクティベート解除されますが、Workfrontからは削除されません。
+>* ユーザーがAdmin Console ユーザーグループに属しており、そのユーザーグループの1つ以上に製品プロファイルが追加されている場合、Workfrontからユーザーを非アクティブ化しても、実際には製品から削除されません。 Admin Consoleのユーザーグループからユーザーを削除する必要があります。
+>* Adobe Admin Consoleからユーザーを削除すると、Workfrontではユーザーが無効になりますが、Workfrontからは削除されません。
 
-Adobeでユーザーを削除する手順については、Adobe Admin Console ドキュメントの [&#x200B; ディレクトリユーザーの管理 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/manage-directory-users.html) を参照してください。
+Adobe Admin Consoleでユーザーを削除する手順については、Adobe ドキュメントの[ ディレクトリユーザーの管理](https://helpx.adobe.com/jp/enterprise/using/manage-directory-users.html)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/jp/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>

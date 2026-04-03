@@ -1,15 +1,17 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals における目標の進捗と条件の概要
+title: Adobe Workfront目標における目標の進捗状況と条件の概要
 description: 目標の進捗は、アクティビティ、結果、子目標などの進捗状況インジケーターによって推進されます。目標の状況は、現在の時点での目標の進捗によって決定されます。
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -19,13 +21,14 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 >
 >Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
-<!--Old:
+<!--
+Old:
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -40,7 +43,8 @@ ht-degree: 93%
 >   * A Pro or higher 
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
-> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+> Contact your Workfront account manager to learn about a Workfront Goals license.
+ -->
 
 
 Adobe Workfront は、進捗状況インジケーターの進捗に基づいて、目標の進捗状況を自動的に計算します。
@@ -117,7 +121,7 @@ Goal progress percentage = Actual percent complete * 100 / Expected percent comp
 
 次のグラフは、状況のラベルと進捗率の関係を示しています。
 
-![&#x200B; 進捗ステータスラベルがグラフ化されました &#x200B;](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![進行状況ラベルがグラフ表示されました](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 次の表に、それぞれのラベルに関連付けられた「目標の状況」ラベルと目標の進捗率を示します。
 

@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：列の文字列ではなく画像を表示します
+title: ビュー：列に文字列ではなく画像を表示
 description: テキストモードを使用して、ビュー内のオブジェクトの名前を画像に置き換えることができます。また、置き換えるオブジェクトを開くためのリンクを画像に追加できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 86%
@@ -24,7 +26,7 @@ ht-degree: 86%
 >
 >画像は実際の解像度で表示されるので、小さな画像を使用してください。
 
-![&#x200B; プロジェクト名を画像とリンクに置き換える &#x200B;](assets/replace-project-name-with-image-and-link-350x125.png)
+![ プロジェクト名を画像とリンクに置き換え](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## アクセス要件
 
@@ -41,8 +43,8 @@ ht-degree: 86%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -79,10 +81,10 @@ ht-degree: 86%
    1. ブラウザーに応じて「**画像の場所をコピー**」または「**リンクを取得**」を右クリックして選択します。これで、その特定の画像の URL が取得され、クリップボードから貼り付けることができます。
    1. そのリンクを持つユーザー全員がリンクに移動するだけで画像を表示する権限を持ち、そのリンクにアクセスするためにログインする必要がないことを確認します。
 
-1. プロジェクトに移動し、プロジェクト名の横にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon-45x33.png) をクリックしてから、**編集** をクリックします。
+1. プロジェクトに移動し、プロジェクト名の横にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon-45x33.png)をクリックし、**編集**&#x200B;をクリックします。
 
 1. 「**URL**」フィールドで、画像にリンクを追加します。
-1. プロジェクトの一覧のプロジェクト ビューに移動します。
+1. プロジェクトのリストのプロジェクトビューに移動します。
 1. **表示**&#x200B;ドロップダウンメニューをクリックして、「**新規ビュー**」をクリックします。
 1. **プロジェクト名**&#x200B;の列見出しをクリックし、次に「**テキストモードに切り替え**」をクリックします。
 
@@ -103,5 +105,5 @@ ht-degree: 86%
    valueformat=
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
+1. **完了** / **ビューを保存**をクリックします。
 選択したイメージは、プロジェクトビューのプロジェクト名に置き換えられ、そのイメージはプロジェクトへのリンクになります。

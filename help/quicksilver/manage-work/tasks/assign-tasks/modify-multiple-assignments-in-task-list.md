@@ -1,13 +1,15 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: タスクリスト内の複数のユーザー割り当ての変更
+title: タスクリストでの複数のユーザー割り当ての変更
 description: タスクの割り当てを管理する場合、タスクのリストの一括編集機能を使用して、複数のタスクに対して同時に変更を加えることができます。
 author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 79%
@@ -24,13 +26,15 @@ ht-degree: 79%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).  
 
-</div>-->
+</div>
+-->
 
 タスクの割り当てを管理する場合、タスクのリストの一括編集機能を使用して、複数のタスクに対して同時に変更を加えることができます。
 
@@ -64,7 +68,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
   </tr> 
   <tr> 
    <td>オブジェクト権限</td>
-   <td>タスクへの投稿以上の権限</td>
+   <td>タスクに対する権限の貢献度を上げます</td>
   </tr>
  </tbody>
 </table>
@@ -125,20 +129,20 @@ When assigning users to work, their availability according to their schedules af
    >
    >「**割り当て先**」フィールドは使用しないでください。これにより、タスクのプライマリ所有者のみが検索され、プライマリ所有者に割り当てられるユーザーは検索されません。
 
-1. 割り当てを変更するタスクを選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. 割り当てを変更するタスクを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
    1. 担当者を追加または削除するには、次のいずれかの操作を行います。
 
-      * 担当者を追加するには、「**ユーザー、役割、チームを検索**」フィールドに担当者の名前を入力し始め、リストに表示されたら選択します。
+      * 担当者を追加するには、**人、役割、またはチームを検索** フィールドに担当者の名前を入力し始め、リストに表示されるときに担当者を選択します。
 
         新しい担当者が、選択したタスクの既存の担当者に追加されます。
-      * 担当者を削除するには、「担当者を削除 **ボックスで担当者の名前をクリックし** す
+      * 担当者を削除するには、**担当者の削除** ボックスで担当者の名前をクリックします
 
         または
 
-        **既存の担当者をすべて削除** をクリックします。
+        「**既存のすべての担当者を削除**」をクリックします。
 
-        担当者が選択したすべてのタスクから削除されます。
+        選択したすべてのタスクから担当者が削除されます。
 
         ユーザーをタスクから削除すると、タスクの時間や配分率に影響を与える可能性があります。
 
@@ -163,12 +167,12 @@ When assigning users to work, their availability according to their schedules af
 
       >[!NOTE]
       >
-      >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[&#x200B; タスク期間と期間タイプの概要 &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
+      >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[ タスク期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
       >
       >
       >このフィールドが空白の場合、値はタスク間で異なりますが、変更は可能です。
 
-      * **プライマリを作成**：選択したタスクにポインタを合わせて、このオプションを選択すると、担当者は編集中のすべてのタスクのタスクの所有者になります。
+      * **プライマリを行う**：選択したタスクにカーソルを合わせ、このオプションを選択すると、編集中のすべてのタスクの担当者がタスクのオーナーになります。
       * **割り当て先の役割**：ドロップダウンリストから役割を選択します。選択しない場合、Adobe Workfront はユーザーのプライマリ役割を自動的に選択します。
       * **期間タイプ**
       * **期間**
@@ -176,7 +180,8 @@ When assigning users to work, their availability according to their schedules af
 
    1. 「**保存**」をクリックします。
 
-<!-- temporary content - for Assignments redesign:
+<!--
+ temporary content - for Assignments redesign:
 
 Editing assignments on tasks differs depending on which environment you choose. 
 
@@ -261,7 +266,8 @@ Editing assignments on tasks differs depending on which environment you choose.
 
 1. <span class="preview">(Conditional) If you are using the Preview environment to assign tasks, the **Edit Tasks** box opens. Do the following in the Preview environment: </span>
 
-   <div class="preview">-->
+   <div class="preview">
+   -->
 
 
 

@@ -9,10 +9,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +28,8 @@ ht-degree: 96%
 
 Adobe Workfront サーバーでは、認証と承認に SAML 2.0 プロトコルを利用します。更新後、新しい証明書は 1 年間有効です。ID プロバイダーで証明書を更新する時期が来ると、証明書の更新が必要であることを示す警告が Workfront に表示されます。Workfront 管理者は、この変更をシステムレベルで管理できます。
 
-<!--Use this Important note box in the last few weeks before each update.
+<!--
+Use this Important note box in the last few weeks before each update.
 
 You must take action to update the metadata in your identity provider with the information from the renewed certificate before the specified date. Mismatched certificates can keep your users from logging in to Workfront after November 22, 2022.
  

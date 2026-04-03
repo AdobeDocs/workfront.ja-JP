@@ -8,7 +8,9 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 32%
@@ -17,17 +19,17 @@ ht-degree: 32%
 
 # Workfront Data Connect の概要
 
-Workfront Data Connectでは、Snowflakeテクノロジを使用してWorkfrontデータにアクセスできるため、ビジネスクリティカルな質問に回答し、プロセスの価値を測定することができます。 この機能を使用すると、法人のお客様は、Workfrontデータレイクから直接データ視覚化ツールを使用してデータを分析したり、Workfrontデータをお客様が所有するデータウェアハウスに書き出したりできます。
+Workfront Data Connectでは、Snowflakeを利用してWorkfrontのデータにアクセスできるため、ビジネスに不可欠な疑問に答え、プロセスの価値を測定できます。 この機能により、企業のお客様は、Workfront データレイクから直接データビジュアライゼーションツールを使用してデータを分析したり、お客様所有のデータウェアハウスにWorkfront データを書き出したりできます。
 
-サブスクライバーは、選択したビジネスインテリジェンスツール（Tableau、Data、Domo、Lookerなど）をData Connectに接続し、次の種類のPower BIを使用してデータビジュアライゼーションを行うことができます。
+加入者は、選択したビジネスインテリジェンスツール（Tableau、Power BI、Domo、Lookerなど）をData Connectに接続し、次の種類のデータを使用してデータビジュアライゼーションを作成できます。
 
-* 低レーテンシー、現在の状態データ
-* ポイント・イン・タイム比較のイベント・レコードの変更
-* トレンド分析用の日次の履歴スナップショット
+* 低遅延、現状データ
+* 特定の時点を比較するためのイベントレコードの変更
+* トレンド分析のための日々の履歴スナップショット
 
-## データ接続：記事のインデックス
+## データ接続：記事インデックス
 
-データ接続の詳細については、次の記事を参照してください。
+Data Connectについて詳しくは、次の記事を参照してください。
 
 * [Snowflake のリーダーアカウントまたは接続の作成](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Workfront Data Connect への接続の確立](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)

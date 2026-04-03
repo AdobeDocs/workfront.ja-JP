@@ -6,7 +6,9 @@ description: ' [!DNL Adobe Workfront for design and video]  は、Adobe Marketpl
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 281733f00654911e2c1114485fca018b6a0feec1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 76%
@@ -34,7 +36,7 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->[!DNL Photoshop] および [!DNL XD] については別のインストール手順があります。詳しくは、[&#x200B; [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) のインストールと[インストール [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)を参照してください。
+>[!DNL Photoshop] および [!DNL XD] については別のインストール手順があります。詳しくは、[ [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) のインストールと[インストール [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)を参照してください。
 
 
 ## アクセス要件
@@ -47,7 +49,8 @@ ht-degree: 76%
  <col> 
  </col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package/td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -56,7 +59,8 @@ ht-degree: 76%
    <td>
    <p>Standard</p>
     <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">その他の製品</td> 
    <td><p>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</p></td> 
@@ -76,7 +80,7 @@ ht-degree: 76%
 
 [!DNL Adobe Admin Console] 管理者は、[!DNL Creative Cloud] 展開パッケージに [!DNL Adobe Workfront for design and video] を含めることができます。詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
-[&#x200B; こちらのビデオチュートリアルをご覧ください &#x200B;](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
+[ ビデオチュートリアルをここで表示](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
 また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
 
@@ -104,7 +108,7 @@ ht-degree: 76%
    >
    >Premiere Pro を使用している場合、このメニューにアクセスするには、プロジェクトを開いておく必要があります。
 
-   ![Workfront メニュー &#x200B;](assets/adobe-workfront-menu.png)
+   ![Workfront メニュー](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -124,9 +128,9 @@ ht-degree: 76%
    >
    >* ドメインを検索するには、ブラウザーを開いて [!DNL Workfront] インスタンスに移動し、次の URL の最初の部分をコピーします。
    >
-   >![&#x200B; ドメインの検索 &#x200B;](assets/domain-350x50.png)
+   >![ ドメインの検索](assets/domain-350x50.png)
    >
-   >* Workfront インスタンスがExperience Cloudと統合されていて、ドメインが「`experience.adobe.com`」で始まる場合は、Admin Consoleの製品/WorkfrontにあるWorkfront ドメインを提供するように管理者に依頼します。
+   >* Workfront インスタンスがExperience Cloudと統合され、ドメインが`experience.adobe.com`で始まる場合は、管理者に対して、Admin ConsoleのProduct > WorkfrontにあるWorkfront ドメインを提供するように依頼します。
 
 1. ブラウザーで [!DNL Workfront] の資格情報を入力し、「**[!UICONTROL ログイン]**」をクリックします。会社がシングルサインオン（SSO）を使用している場合は、SSO プロバイダーのページにリダイレクトされ、そこからログインします。
 
@@ -145,23 +149,23 @@ ht-degree: 76%
 
 ### ログインエラーのトラブルシューティング
 
-**ログインしようとすると、「エラーが発生しました」というエラーが表示される**
+ログインしようとすると、**「エラーが発生しました」エラーが表示される**
 
 
-`experience.adobe.com` で始まる URL を使用してプラグインにログインすることはできません。
+`experience.adobe.com`で始まるURLを使用してプラグインにログインすることはできません。
 
-![&#x200B; ログインエラー &#x200B;](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
+![ ログインエラー](assets/plugin-log-in-error.png) ![ ドメイン ](assets/incorrect-domain.png)
 
 
-この問題を修正するには、
+この問題を修正するには，
 
 1. プラグインのドメインを保存するフォルダーを削除します。
 
    >[!TIP]
    >
-   >Macで、Finder に移動し、**Command+Shift+G** を押して、に移動します。  `~/Library/Application Support/Workfront` をクリックしてから、**Workfront** フォルダーを削除します。
+   >Macで、Finderに移動し、**Command+Shift+G**&#x200B;を押し、に移動します。  `~/Library/Application Support/Workfront`を開き、**Workfront** フォルダーを削除します。
 
 
-1. プラグインに戻り、Workfront ドメインを入力します。 ドメインは、`company-name.my.workfront.com` ではなく `experience.adobe.com` である必要があります。
+1. プラグインに戻り、Workfront ドメインを入力します。 ドメインは`company-name.my.workfront.com`ではなく`experience.adobe.com`である必要があります。
 
-   Adobe Unified Experience を使用している場合に [Workfront ドメインを検索する &#x200B;](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) には、設定/顧客情報に移動します。
+   Adobe統合エクスペリエンスを利用している場合は、[Workfront ドメインを検索するには、「設定」、「お客様情報」に移動します。](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)

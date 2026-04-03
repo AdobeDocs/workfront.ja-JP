@@ -2,12 +2,14 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
-title: ブループリントカタログを参照し、ブループリントのインストールをリクエストします
+title: ブループリントカタログを参照し、ブループリントのインストールをリクエストする
 description: ブループリントは、ビジネスと共に成長する作業管理システムを構築するために役立つ基本的な構成要素を提供します。すべての  [!DNL Adobe Workfront]  ユーザーはブループリントのカタログを参照できます。 [!DNL Workfront]  管理者がブループリントリクエストを有効にしている場合、管理者に特定のブループリントをインストールするようリクエストすることもできます。
 author: Courtney
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 95%
@@ -29,12 +31,12 @@ ht-degree: 95%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontパッケージ</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>コントリビューター以上</p><p>要求者以上</p>
+   <td><p>コントリビューター以上</p><p>依頼者以上</p>
   </td> 
   </tr> 
  </tbody> 
@@ -56,7 +58,7 @@ ht-degree: 95%
    * ユースケース（[!UICONTROL 人事]や[!UICONTROL マーケティング] など）
    * 成熟度レベル（[!UICONTROL 管理]または[!UICONTROL 統合]）
    * インストールステータス（[!UICONTROL インストール済み] また末[!UICONTROL インストール]）
-   * ブループリントタイプ（<!--Custom Form, -->[!UICONTROL ダッシュボード]、[!UICONTROL 組織構造]、[!UICONTROL プロジェクトテンプレート]<!--, Request Queue, Setup Feature-->）
+   * ブループリントタイプ（[!UICONTROL ダッシュボード]、[!UICONTROL 組織構造]、[!UICONTROL プロジェクトテンプレート]<!-- above Custom Form; here, Request Queue, Setup Feature-->）
 
 1. （オプション）ブループリントの&#x200B;**[!UICONTROL 詳細]**&#x200B;をクリックして、その仕組みを確認してください。
 

@@ -1,12 +1,14 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: タスクおよび問題のコミット日の更新
+title: タスクと問題に関するコミット日の更新
 description: 割り当てられたタスクやイシューのコミット日は手動で更新できます。Adobe Workfront でのコミット日について詳しくは、「コミット日の概要」を参照してください。
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 50%
@@ -18,11 +20,13 @@ ht-degree: 50%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+-->
 
 割り当てられたタスクやイシューのコミット日は手動で更新できます。Adobe Workfront でのコミット日について詳しくは、[コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
 
@@ -62,7 +66,7 @@ ht-degree: 50%
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>タスクまたはイシューの管理権限</p>
-   <p> コミット日を更新するには、タスクまたは問題に割り当てられている必要があります </p>
+   <p> コミット日を更新するには、タスクまたはイシューに割り当てられる必要があります </p>
     </td> 
   </tr> 
  </tbody> 
@@ -72,7 +76,8 @@ ht-degree: 50%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -108,63 +113,64 @@ ht-degree: 50%
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 前提条件
 
-タスクまたは問題のコミット日を編集する前に、コミット日を更新する必要があるタスクまたは問題に割り当てる必要があります。
+タスクまたはイシューのコミット日を編集するには、タスクまたはイシューのコミット日を更新する必要があるタスクまたはイシューに割り当てる必要があります。
 
 ## タスクやイシューのコミット日の更新
 
 
 Workfrontの次の領域で、タスクまたはイシューのコミット日を更新できます。
 
-* タスクまたは問題の「詳細」セクション
+* タスクまたは問題の詳細セクション
 * タスクまたはイシューのヘッダー
 
-  Workfront管理者またはグループ管理者は、レイアウトテンプレートのタスクまたはイシューヘッダーにコミット日を追加して、タスクまたはイシューページから表示する必要があります。
+  Workfrontまたはグループ管理者は、レイアウトテンプレートのタスクまたはイシューのヘッダーにコミット日を追加して、タスクまたはイシューのページから表示する必要があります。
 詳しくは、[レイアウトテンプレートを使用してオブジェクトヘッダーをカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
 コミット日の更新は、タスクとイシューで同じです。
 
 >[!NOTE]
 >
->システム管理者またはグループ管理者に依頼して、「コミット日」フィールドを概要パネルに追加し、Workfrontの様々な領域で更新しやすくすることができます。
+>システム管理者またはグループ管理者に、Workfrontの様々な領域で簡単に更新できるように、「コミット日」フィールドを概要パネルに追加するように依頼できます。
 >
 >詳しくは、次の記事を参照してください。
 >
->* [&#x200B; 概要 &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [&#x200B; レイアウトテンプレートを使用して概要パネルをカスタマイズする &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+>* [概要](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [ レイアウトテンプレートを使用して概要パネルをカスタマイズする](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
 
 1. 自分が&#x200B;**所有者**&#x200B;として割り当てられているタスクまたはイシューに移動します。
 
    タスクやイシューのタスク所有者の確認方法について詳しくは、[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)の記事で[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments)の節を参照してください。
 
-1. （条件付きおよびオプション）Workfront管理者またはグループ管理者がコミット日をタスクまたは問題ヘッダーに追加した場合は、ヘッダーの **コミット日** フィールドをクリックし、カレンダーから日付を選択します。 コミット日がヘッダーにない場合は、次の手順に進みます。
+1. （条件付きとオプション）Workfrontまたはグループ管理者がコミット日をタスクまたはイシューのヘッダーに追加した場合は、ヘッダーの「**コミット日**」フィールドをクリックし、カレンダーから日付を選択します。 コミット日がヘッダーにない場合は、次の手順に進みます。
 
-   ![&#x200B; タスクヘッダーのコミット日 &#x200B;](assets/commit-date-task-header.png)
+   ![ タスクヘッダーのコミット日](assets/commit-date-task-header.png)
 
 1. 左側のパネルで「**タスクの詳細**」または「**イシューの詳細**」をクリックします。
 1. 「**概要**」をクリックして展開します。
 1. 「**コミット日**」フィールドを更新します。
 
-   ![&#x200B; 詳細ページでハイライト表示されたタスクコミット日の編集 &#x200B;](assets/task-commit-date-edit-highlighted-details-page.png)
+   詳細ページで![ タスクのコミット日の編集がハイライト表示されている](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. 「**変更を保存**」をクリックします。
 
-   この変更を行った後、次の処理が行われます。
+   この変更を行うと、次のようになります。
 
    * タスクまたはイシューのコミット日と予定完了日が同じになります。
 
      代わりに、コミット日と、タスクまたはイシューの見込み完了日が同じになります。
 
-     ![&#x200B; 詳細で強調表示されているタスクの予定完了日 &#x200B;](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+     ![ タスクの予定完了日（詳細が強調表示されている） ](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * プロジェクト所有者には、タスクまたは問題の新しいコミット日を提案したことがWorkfrontのアプリ内通知で通知されます。
-   * 「更新」セクションでは、新しいコミット日が提案されたことがプロジェクト所有者に通知されます。この時点で、プロジェクト所有者はタスクまたは問題の予定完了日を提案したコミット日に一致するように更新できます。
+   * プロジェクト所有者には、タスクまたは問題の新しいコミット日が提案されたことをWorkfront アプリ内通知で通知します。
+   * プロジェクト所有者には、「更新」セクションで新しいコミット日を提案したことが通知され、この時点で、タスクまたは問題の予定完了日を、提案したコミット日と一致するように更新できます。
 
-     ![&#x200B; 更新ストリームで、コミット日がプロジェクトのタイムラインに影響を与えるプロジェクト所有者の通知 &#x200B;](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+     ![ コミット日がプロジェクトのタイムラインに影響する更新ストリームのプロジェクト所有者の通知](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
 
      <!--![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->

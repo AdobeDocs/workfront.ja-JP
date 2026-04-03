@@ -10,7 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: e092a3e827d984a39ae82c73824a0aadcf4e227b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 84%
@@ -35,10 +37,10 @@ ht-degree: 84%
 * [ユーザー属性をマッピングおよび新しいユーザーを自動プロビジョニング](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
 * [ユーザーを非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [ユーザーを削除](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-* [&#x200B; 監査ログの概要 &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* [監査ログの概要](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [監査ログを表示および書き出し](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [ユーザーログイン情報を表示](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Adobe Admin Console でのユーザー管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-* [ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+* [ビジネスプロファイル概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
 * [ビジネスプロファイルの表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)
 

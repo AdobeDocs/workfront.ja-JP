@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: ストーリーをかんばんボードから削除
+title: かんばんボードからストーリーを削除
 description: かんばんボードからストーリーまたはイシューを削除できます。ストーリーやイシューを削除すると、30 日間ごみ箱に移動され、システム管理者のみが復元できます。
 author: Courtney
 feature: Agile
 exl-id: 5e838f0a-b26d-4bbe-b9e9-3161e3958b58
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 93%
@@ -38,7 +40,7 @@ ht-degree: 93%
   </tr>
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>タスクまたはイシューへのアクセスの管理 </td> 
+   <td>タスクまたは問題へのアクセスを管理します </td> 
   </tr> 
  </tbody> 
 </table>

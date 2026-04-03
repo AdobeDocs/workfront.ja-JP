@@ -1,12 +1,14 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: 更新で他のユーザーにタグ付け
+title: 更新時に他のユーザーをタグ付け
 description: Adobe Workfront オブジェクトにアップデートコメントを付けると、プロジェクトのすべてのユーザーが、送信された情報が表示することができます。プロジェクトに参加していないユーザーにもこの情報を表示するメリットがある場合があります。プロジェクトに参加していないユーザーをプロジェクトに含める代わりに、アップデート時にそうしたユーザーにタグ付けすれば、プロジェクトを共有することができます。タグ付けしたユーザーは、イベント通知を受け取ります。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 81%
@@ -43,7 +45,7 @@ ht-degree: 81%
 
 ユーザーがフォローしない可能性のあるオブジェクトにユーザーの注意を引きたい場合は、オブジェクトをアップデートする際にユーザーにタグを付けることができます。
 
-オブジェクトにユーザー割り当てたり、登録させたりしてオブジェクトに含める代わりに、アップデート時にタグ付けすれば、オブジェクトを共有することができます。タグ付けされたユーザーには、入力した更新に関するWorkfront通知が届きます。 通知設定に応じて、入力した更新に関するメールも送信されます。
+オブジェクトにユーザー割り当てたり、登録させたりしてオブジェクトに含める代わりに、アップデート時にタグ付けすれば、オブジェクトを共有することができます。タグ付けされたユーザーには、入力した更新に関するWorkfront通知が届きます。 通知設定に応じて、入力した更新に関する電子メールも送信されます。
 
 ## アップデートでのユーザーのタグ付けに関する考慮事項
 
@@ -67,32 +69,33 @@ ht-degree: 81%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
-   <td> <p>イシューとドキュメントの場合：</p>
+   <td> <p>問題とドキュメントの場合：</p>
 
-<ul><li><p>投稿者以上</p></li>
+<ul><li><p>コントリビューター以上</p></li>
    <li><p>リクエスト以上</p></li></ul>
 
-<p>その他すべてのオブジェクトの場合：</p>
-   <ul><li><p>ライト以上</p></li>
+<p>その他すべてのオブジェクト：</p>
+   <ul><li><p>明るいまたはそれ以上</p></li>
    <li><p>レビュー以上</p></li></ul>
 
 </td>  
   </tr>
    <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
-   <td> <p>ユーザーにタグ付けするオブジェクトへの表示以上のアクセス</p> </td> 
+   <td> <p>ユーザーをタグ付けするオブジェクトへのアクセス権を表示または上げる</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>ユーザーにタグを付けるオブジェクトに対する表示以上の権限</p> </td> 
+   <td role="rowheader"><strong>オブジェクトの権限</strong></td> 
+   <td> <p>ユーザーをタグ付けするオブジェクトに対する表示権限またはそれ以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfrontのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -115,13 +118,14 @@ ht-degree: 81%
    <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 更新時の他のユーザーのタグ付け
 
-次の方法で、更新で他のユーザーにタグ付けできます。
+更新時に他のユーザーをタグ付けするには、次の方法があります。
 
-* **自動**：ユーザーがスレッドを開始したり、コメントを追加したり、返信を追加したりすると、ユーザーは自動的にタグ付けされ、コメントボックスの人物またはチームにタグ付け領域に追加されます。
+* **自動的**: ユーザーがスレッドを開始したり、コメントを追加したり、返信を追加したりすると、自動的にタグ付けされ、コメントボックスの「人物またはチームをタグ付け」エリアに追加されます。
 * **手動**：ユーザーを手動でコメントボックスの「人物またはチームにタグ付け」エリアに追加します。
 
 また、コメントの編集時やコメントへの返信時に誤ってタグ付けされたユーザーを削除することもできます。
@@ -148,7 +152,7 @@ ht-degree: 81%
 
    ![ユーザーをタグ付け](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. （オプション）更新を非公開にするには、更新ボックスの右下隅にある「**社外秘**」を有効にします。これにより、会社内のユーザーだけに更新が表示されます。
+1. （オプション）更新を非公開にするには、更新ボックスの右下隅にある「**社外秘**」を有効にします。これにより、社内のユーザーのみが更新を表示できるようになります。
 
    「**社外秘**」オプションは、Workfront プロファイルで会社が指定されている場合にのみ使用できます。
 
@@ -167,13 +171,13 @@ ht-degree: 81%
 
    タグ付きエンティティの名前が、アバターの横に最大 2 つのエンティティまで表示されます。3 つ以上のエンティティがタグ付けされている場合は、最初のエンティティの名前に加えて、タグ付けされている追加のエンティティの数が表示されます。
 
-   ![&#x200B; メンバーアイコンが展開されました &#x200B;](assets/members-icons-expanded-unshimmed.png)
+   ![ メンバーのアイコンが拡張されました](assets/members-icons-expanded-unshimmed.png)
 
-   コメントテキストでタグ付けされている場合、そのコメント内で自分の名前がハイライト表示されます。
+   コメントテキスト内でタグ付けすると、それらのコメントで自分の名前が強調表示されます。
 
    作業項目の更新時に使用できる追加機能について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. （オプション）コメントの右上隅にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**編集**」をクリックします。 タグ付けされたユーザーを削除して、「**送信**」をクリックします。
+1. （オプション）コメントの右上隅にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;をクリックします。 タグ付けされたユーザーのいずれかを削除し、**送信**&#x200B;をクリックします。
 
    >[!IMPORTANT]
    >

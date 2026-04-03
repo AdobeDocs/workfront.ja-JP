@@ -8,7 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 82%
@@ -65,7 +67,7 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->Adobe統合エクスペリエンスを使用している場合は、次のアプリケーション URL を使用する必要があります。`.workfront.adobe.com`
+>Adobe Unified Experienceを利用している場合は、次のアプリケーション URLを使用する必要があります：`.workfront.adobe.com`。
 
 
 
@@ -82,7 +84,7 @@ ht-degree: 82%
 {{step-1-to-setup}}
 
 1. 左パネルで、**[!UICONTROL システム]**／**[!UICONTROL [!DNL JumpSeat]統合]**&#x200B;をクリックします。
-1. **[!UICONTROL [!DNL JumpSeat]URL]** を入力します。この URL は、[!DNL JumpSeat] の拡張機能アイコンにあります。
+1. **[!UICONTROL [!DNL JumpSeat]URL]**&#x200B;を入力します。これは、[!DNL JumpSeat]の拡張機能アイコンにあります。
 
 >[!BEGINSHADEBOX]
 
@@ -90,7 +92,7 @@ ht-degree: 82%
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 
@@ -111,4 +113,4 @@ https://{mycompanyname}.jumpseat.io
 
 >[!TIP]
 >
->[!DNL JumpSeat] 統合の設定について詳しくは、[!DNL JumpSeat]JumpSeat+Workfront[&#x200B; の &#x200B;](https://jumpseat.io/landing-page/jumpseat-workfront/) ドキュメントを参照してください。
+>[!DNL JumpSeat]統合の設定について詳しくは、[!DNL JumpSeat]JumpSeat+Workfront[の](https://jumpseat.io/landing-page/jumpseat-workfront/) ドキュメントを参照してください。

@@ -7,7 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 79%
@@ -22,15 +24,16 @@ ht-degree: 79%
 
 トピックグループまたはプロジェクトに割り当てることができるキューのトピックの数に制限はありません。キューのトピックは、レポート可能なオブジェクトタイプです。
 
-キュートピックは、個々のプロジェクトまたはプロジェクトテンプレートに対して作成できます。
+個々のプロジェクトまたはプロジェクトテンプレート用のキュートピックを作成できます。
 
-作成したキュートピックは、プロジェクトまたはテンプレート間で移動できません。
+作成したキューのトピックを、あるプロジェクトまたはテンプレートから別のプロジェクトに移動することはできません。
 
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-<!--drafted - replace table with P&P:
+<!--
+drafted - replace table with P&P:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -96,7 +99,7 @@ ht-degree: 79%
    * [トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [カスタムフォームを作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
-1. ヘルプ要求キューとして有効にするように選択したプロジェクトまたはテンプレートに移動し、新しいキュートピックを作成する場所に移動します。\
+1. ヘルプリクエストキューとして有効にするプロジェクトまたはテンプレートと、新しいキュートピックを作成する場所に移動します。\
    プロジェクトをヘルプリクエストキューとして指定する方法について詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
    関連するキュートピックは、トピックグループ下に整理できます。これにより、リクエストを行う際に、要求者に一連のドロップダウンメニューが表示されます。
@@ -107,7 +110,7 @@ ht-degree: 79%
 
    トピックグループの作成について詳しくは、[トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。
 
-1. 左側のパネルで **キュートピック** をクリックします。
+1. 左側のパネルで「**トピックをキュー**」をクリックします。
 1. 「**新規キュートピック**」をクリックします。
 1. **新規キュートピック**&#x200B;フォームで、次を入力します。
 
@@ -129,7 +132,7 @@ ht-degree: 79%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>カスタムフォーム</strong> </td> 
-      <td>キューのトピックに関連付けるカスタムフォームを選択します。イシューをキューのトピックに関連付ける前に、イシューのカスタムフォームを作成する必要があります。カスタムフォームの作成について詳しくは、「<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> カスタムフォームの作成 </a>」を参照してください。</td> 
+      <td>キューのトピックに関連付けるカスタムフォームを選択します。イシューをキューのトピックに関連付ける前に、イシューのカスタムフォームを作成する必要があります。カスタムフォームの作成について詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> カスタムフォームの作成</a>を参照してください。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>デフォルトの承認</strong></td> 
@@ -171,22 +174,22 @@ ht-degree: 79%
 1. 「**保存**」をクリックします。\
    「リクエストキュー」と「トピックグループ」が選択されたので、「キュートピック」が使用可能になり、Workfront の「要求」エリアに表示されます。
 
-## キュートピックの編集
+## キューのトピックの編集
 
-既存のキュー・トピックを編集するには、次の手順に従います。
+既存のキュートピックを編集するには：
 
 1. 編集するキュートピックを含むプロジェクトまたはテンプレートに移動します。
-1. 左側のパネルで **キュートピック** をクリックします。
+1. 左側のパネルで「**トピックをキュー**」をクリックします。
 1. 編集するキュートピックをクリックします。
 
-使用可能な編集オプションについては、この記事の [&#x200B; キュートピックの作成 &#x200B;](#create-a-queue-topic) を参照してください。
+使用可能な編集オプションについて詳しくは、この記事の「[ キューのトピックを作成](#create-a-queue-topic)」を参照してください。
 
-## キュートピックの削除
+## キューのトピックの削除
 
-1 つ以上のキュートピックを同時に削除できます。
+1つ以上のキュートピックを同時に削除できます。
 
 1. 削除するキュートピックを含むプロジェクトまたはテンプレートに移動します。
-1. 左側のパネルで **キュートピック** をクリックします。
-1. 削除する各キュートピックの名前の横にあるボックスをクリックします。 ボックスにチェックマークが表示されます。
-1. ページ上部の **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
+1. 左側のパネルで「**トピックをキュー**」をクリックします。
+1. 削除する各キュートピックの名前の横にあるボックスをクリックします。 チェックマークがボックスに表示されます。
+1. ページ上部の&#x200B;**削除** アイコン ![削除アイコン ](assets/delete-icon.png)をクリックします。
 

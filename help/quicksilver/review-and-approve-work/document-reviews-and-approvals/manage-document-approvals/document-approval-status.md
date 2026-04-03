@@ -2,22 +2,24 @@
 product-area: documents
 navigation-topic: approvals
 title: ドキュメントの決定ステータスの概要
-description: ドキュメントの決定ステータスのリストと説明
+description: ドキュメントの決定ステータスがリストされ、説明されます
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 73%
+ht-degree: 78%
 
 ---
 
 # ドキュメントの決定ステータスの概要
 
-ドキュメントのステータスは、ドキュメントリストで直接確認できます。
+ドキュメントのステータスは、ドキュメントリストで直接表示できます。
 
-![&#x200B; ドキュメントリスト内のステータス &#x200B;](assets/status-in-doc-list.png)
+![ ドキュメントリストのステータス ](assets/status-in-doc-list.png)
 
 
 以下のステータスを使用できます。
@@ -98,7 +100,7 @@ ht-degree: 73%
                                 <p>少なくとも 1 人の承認者が「変更して承認済み」の決定を行いました</p>
                                 <p>他の承認者は「承認済み」という決定を行っている可能性があります
                             </li>
-                            <p>注意：このオプションは、レビューと承認に Frame.io 統合を使用している場合には使用できません。</p>
+                            <p>注意：このオプションは、レビューと承認にFrame.io統合を使用している場合は使用できません。</p>
                         </ul>
                     </td>
                 </tr>
@@ -107,9 +109,11 @@ ht-degree: 73%
                     </td>
                     <td>
                         <ul>
-                           <!--<li>
+                           <!--
+                           <li>
                                 <p>All approvals and reviews are complete</p>
-                            </li>-->
+                            </li>
+                            -->
                             <li>
                                 <p>すべての承認者が「承認済み」という決定を行っている可能性があります
                             </li>

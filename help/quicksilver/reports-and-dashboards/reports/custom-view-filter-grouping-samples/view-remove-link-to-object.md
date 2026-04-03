@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：列内のオブジェクトへのリンクを削除
+title: 表示：列内のオブジェクトへのリンクの削除
 description: ビューに表示する一部のオブジェクトは、デフォルトでは、オブジェクトの「詳細」ページにリンクされます。例えば、プロジェクト名を表示する列はプロジェクトへのリンクで、ユーザー名を表示する列はユーザーのプロファイルページへのリンクです。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 76%
@@ -37,8 +39,8 @@ ht-degree: 76%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -64,7 +66,7 @@ ht-degree: 76%
 
    または
 
-   **編集アイコン**![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックして既存のビューを編集し、ビューを選択します。
+   **編集アイコン** ![編集アイコン ](assets/edit-icon.png)をクリックして既存のビューを編集し、ビューを選択します。
 
 1. 「**列を追加**」をクリックして新しい列を追加します。
 
@@ -72,8 +74,8 @@ ht-degree: 76%
 
    オブジェクトへのリンクを含む既存の列をクリックします。
 
-1. **テキストモードに切り替え**/**テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. **テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```
    displayname=Task Name
@@ -89,7 +91,7 @@ ht-degree: 76%
    >
    >次のように調整して、他のオブジェクトにも同様のコードを使用できます。
    >
-   >* コードの `valuefield` 行を `valueexpression` に置き換え、中括弧で囲まれた同じ名前を等号の後に残します。
+   >* コードの`valuefield`行を`valueexpression`に置き換え、等号の後に同じ名前を中括弧で囲みます。
    >* 列の元のテキストから `link.` で始まる行をすべて削除します。例えば、次の行をすべて削除します。
    >
    >  ```
@@ -101,5 +103,5 @@ ht-degree: 76%
    >  ```
    >
 
-1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存**」をクリックします。
 

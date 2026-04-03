@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: グループ化：プロジェクト スポンサー（時間）
+title: グループ化：時間のプロジェクト スポンサー
 description: この時間のグループ化では、時間が記録されるプロジェクトスポンサー別に時間数を整理します。時間グループ化の標準 Report Builder インターフェイスでは、プロジェクトスポンサーフィールドへのマッピングは提供されません。このフィールドにアクセスするには、テキストモードインターフェイスを使用する必要があります。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 82%
@@ -37,8 +39,8 @@ ht-degree: 82%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -63,7 +65,7 @@ ht-degree: 82%
 1. **グループ化**&#x200B;ドロップダウンメニューで「**新規グループ化**」を選択します。
 
 1. 「**テキスト モードに切り替える**」をクリックします。
-1. 表示される領域のテキストを削除し、以下のコードに置き換えます。
+1. 表示される領域のテキストを削除し、次のコードに置き換えます。
 
 ```
    group.0.linkedname=project:sponsor:name
@@ -74,4 +76,4 @@ ht-degree: 82%
 ```
 
 1. 「**完了**」をクリックします。
-1. グループ化名を更新し、「**グループ化を保存**」をクリックします。
+1. グループ化名を更新し、**グループ化を保存**&#x200B;をクリックします。

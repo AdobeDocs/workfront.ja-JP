@@ -2,14 +2,16 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: プロジェクトテンプレートのコピー
-description: プロジェクトテンプレートをゼロから作成する以外に、既存のテンプレートをコピーして変更することもできます。
+description: プロジェクトテンプレートをゼロから作成するだけでなく、既存のテンプレートをコピーして修正することもできます。
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 40%
 
 <!--Audited: 5/2025-->
 
-プロジェクトテンプレートをゼロから作成する以外に、既存のテンプレートをコピーしてAdobe Workfrontで変更することもできます。
+プロジェクトテンプレートをゼロから作成するだけでなく、既存のテンプレートをコピーしてAdobe Workfrontで変更することもできます。
 
 ## アクセス要件
 
@@ -49,11 +51,12 @@ ht-degree: 40%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
-<!--Old:
+<!--
+Old:
 
  <col> 
  <col> 
@@ -76,7 +79,8 @@ ht-degree: 40%
    <td> <p>View or higher permissions to a template</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## テンプレートのコピーに関する考慮事項
 
@@ -102,17 +106,17 @@ ht-degree: 40%
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. コピーするテンプレートに移動します。
-1. ヘッダーのテンプレート名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、「**コピー**」をクリックします。
+1. ヘッダーのテンプレート名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**コピー**&#x200B;をクリックします。
 
    「**テンプレートをコピー**」ボックスが開きます。
 
-   ![&#x200B; 「テンプレートをコピー」ボックス &#x200B;](assets/copy-template-box.png)
+   ![ テンプレートボックスをコピー](assets/copy-template-box.png)
 
 1. 「**新しいテンプレート名**」フィールドにテンプレートの名前を指定します。
 
-   デフォルトでは、Workfrontは新しい名前を `Copy of Original template name` というフォーマットで設定します。
+   デフォルトでは、Workfrontは次のフォーマットに従って新しい名前を設定します：`Copy of Original template name`。
 
-1. 元のテンプレートから新しいテンプレートにすべてのタスクとテンプレートの割り当てを保持する場合は、「**タスクとテンプレートのユーザー割り当てを保持**」オプションを選択します。 テンプレートのタスクの割り当ておよびテンプレートの所有者とスポンサーは、コピーされたテンプレートに転送されます。
+1. 元のテンプレートからすべてのタスクとテンプレートの割り当てを新しいテンプレートに移行する場合は、「**タスクとテンプレートに対するユーザーの割り当てを保持**」オプションを選択します。 テンプレートタスクの割り当て、およびテンプレート所有者とスポンサーがコピーされたテンプレートに転送されます。
 1. 「**保存**」をクリックしてテンプレートのコピーを作成します。
 
-   新しいテンプレートが、Workfrontの「テンプレート」領域のテンプレートリストに表示されます。
+   新しいテンプレートは、Workfrontのテンプレート領域のテンプレートリストに表示されます。

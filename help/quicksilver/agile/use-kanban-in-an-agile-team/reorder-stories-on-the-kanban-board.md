@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
-title: かんばんボード上のストーリーの並べ替え
+title: カンバンボードでのストーリーの並べ替え
 description: 場合によっては、かんばんボードのステータス列内にストーリーを表示する順序を変更する必要があります。
 author: Courtney
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 97%

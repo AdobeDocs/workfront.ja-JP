@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: かんばんボード上のストーリーへのユーザーの割り当て
-description: かんばんボード上でストーリーに直接ユーザーを割り当てることができます。
+title: カンバンボードでのストーリーへのユーザーの割り当て
+description: カンバンボードから直接ストーリーにユーザーを割り当てることができます。
 author: Courtney
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 79%
@@ -15,7 +17,7 @@ ht-degree: 79%
 
 # ユーザーを[!UICONTROL かんばん]ボード上のストーリーに割り当てる
 
-かんばんボード上でストーリーに直接ユーザーを割り当てることができます。
+カンバンボードから直接ストーリーにユーザーを割り当てることができます。
 
 ## アクセス要件
 
@@ -49,7 +51,7 @@ ht-degree: 79%
 
 1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、続いてドロップダウンメニューから新しいかんばんチームを選択するか、検索バーでチームを検索します。
 
-1. ユーザーを割り当てるアジャイル [!UICONTROL &#x200B; かんばん &#x200B;] ボードに移動します。
+1. ユーザーを割り当てるアジャイル [!UICONTROL  カンバン ] ボードに移動します。
 1. ユーザーを追加する[!UICONTROL かんばん]ボードのストーリータイルに移動します。
 1. ストーリータイル（または既に割り当てられている場合はユーザーアバター）上のチームアバターをクリックし、ストーリーに割り当てるユーザーの名前を入力してから、名前が表示されたらその名前をクリックします。おすすめユーザーを選択することもできます。
 

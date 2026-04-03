@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: かんばんボード上の既存のストーリーへのサブタスクの追加
+title: カンバンボードの既存のストーリーへのサブタスクの追加
 description: かんばんボード上の既存のストーリーのサブタスクを作成する方法については、この記事を参照してください。
 author: Courtney
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 92%
@@ -48,7 +50,7 @@ ht-degree: 92%
   </tr>
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>サブタスクが属するタスクへの投稿またはアクセスの管理</td> 
+   <td>サブタスクが属するタスクへのアクセス権を設定または管理する</td> 
   </tr> 
  </tbody> 
 </table>

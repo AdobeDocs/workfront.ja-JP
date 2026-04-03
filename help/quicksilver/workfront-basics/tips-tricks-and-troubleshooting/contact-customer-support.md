@@ -6,7 +6,9 @@ description: Adobe Workfront のお客様は、電話またはオンラインで
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 79%
@@ -29,7 +31,7 @@ ht-degree: 79%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開してアクセス要件を表示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +50,7 @@ ht-degree: 79%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td>システム管理者である必要があります。</td>
+   <td>あなたはシステム管理者でなければなりません。</td>
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +67,8 @@ ht-degree: 79%
 * EMEA: +44 800 169 0454
 * オーストラリア：+61 180 035 8683
 
-<!--Old numbers - before 2/10/2025:
+<!--
+Old numbers - before 2/10/2025:
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -82,7 +85,7 @@ ht-degree: 79%
 >オンラインサポートチケットを送信できるのは、承認されたサポート担当者（またはサポート資格のあるユーザー）のみです。
 
 
-1. [[!DNL Experience League]](https://experienceleague.adobe.com/ja) web サイトから、ページの上部の **[!UICONTROL サポート]** をクリックします。
+1. [[!DNL Experience League]](https://experienceleague.adobe.com) web サイトから、ページの上部の **[!UICONTROL サポート]** をクリックします。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -90,11 +93,11 @@ ht-degree: 79%
 
    [!UICONTROL サポート]ホームページから、未解決のサポートケースに移動したり、新しいケースを記録したり、[!UICONTROL サポート]のトップ記事を表示したり、追加の学習ソースにアクセスしたりできます。
 
-   Workfrontの学習について詳しくは、[&#x200B; ヘルプセンター &#x200B;](https://learning.adobe.com/resources/help-center.html) を参照してください。
+   Workfrontの学習について詳しくは、[ ヘルプセンター](https://learning.adobe.com/resources/help-center.html)を参照してください。
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
-1. 左側のサイドバーで **[!UICONTROL チケットを開く]** をクリックします。
+1. 左側のサイドバーで「**[!UICONTROL チケットを開く]**」をクリックします。
 [!UICONTROL ケース作成]ページが開き、製品名（[!DNL Adobe Workfront]、[!DNL Adobe Workfront Fusion] など）、ケースのタイトル、ケースの説明を入力できます。
 
    >[!TIP]
@@ -122,7 +125,7 @@ ht-degree: 79%
 
 ## サポートケースの表示と管理
 
-1. **[!UICONTROL マイケース]** ページに移動します。 このページは、ケースを送信すると開きます。または、左側のナビゲーションで **[!UICONTROL マイケース]** をクリックして開くこともできます。
+1. **[!UICONTROL マイケース]** ページに移動します。 このページは、ケースを送信するときに開きます。または、左側のナビゲーションで「**[!UICONTROL マイケース]**」をクリックして開くことができます。
 
 1. （オプション）ページ上部のオプションを使用して、**製品（[!DNL Experience Cloud] ソリューション）**&#x200B;またはケースの&#x200B;**[!UICONTROL ステータス]**（[!UICONTROL オープン]またはクローズ）でフィルタリングします。また、[!UICONTROL 検索]ボックスを使用して、サポートケースに関連するキーワードを検索することもできます。
 
@@ -132,12 +135,13 @@ ht-degree: 79%
 
 1. （オプション）ケースビューで、担当のケース所有者と一緒に最新のコメントを確認し、追加の添付ファイルや回答があれば追加します。
 
-1. （オプション）ケースをエスカレートするには、ページの右側にある **[!UICONTROL ケースの詳細]** の下の **[!UICONTROL 管理にエスカレート]** をクリックします。
+1. （オプション）ケースをエスカレーションするには、**[!UICONTROL ケースの詳細]**&#x200B;の下のページの右側にある&#x200B;**[!UICONTROL 管理にエスカレーション]**&#x200B;をクリックします。
 
 1. （オプション）ケースを閉じるには、「**[!UICONTROL ケースを閉じる]**」ボタンをクリックします。
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=ja)
+<!--
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

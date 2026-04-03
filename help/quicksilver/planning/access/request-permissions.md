@@ -1,38 +1,42 @@
 ---
-title: ビューまたはWorkspaceに対する権限のリクエスト
-description: アクセス権のないビューまたはワークスペースへのリンクが他のユーザーと共有されている場合、そのビューまたはワークスペースを開くためのアクセス許可を要求できます。 この記事では、開くことができない共有リンクが発生した場合に、ビューまたはワークスペースへのアクセスをリクエストする手順について説明します。
+title: ビューまたはWorkspaceへの権限のリクエスト
+description: アクセス権のないビューまたはワークスペースへのリンクを誰かが共有した場合、アクセス権を要求して開くことができます。 この記事では、開くことができない共有リンクに遭遇した場合に、ビューまたはワークスペースへのアクセスをリクエストする手順について説明します。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
 # ビューまたはワークスペースに対する権限のリクエスト
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
->この記事で説明されている機能は、組織がAdobe統合エクスペリエンスにオンボーディングされた場合にのみ使用できます。
+>この記事で説明する機能は、組織がAdobe Unified Experienceにオンボーディングされている場合にのみ使用できます。
 >
 >詳しくは、[Workfront の Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
 
-アクセス権がないビューまたはワークスペースへのリンクが他のユーザーによって共有されている場合、そのビューまたはワークスペースに対する権限をリクエストできます。
+アクセス権を持たないビューまたはワークスペースへのリンクを誰かが共有すると、ビューまたはワークスペースへのアクセス権をリクエストできます。
 
-ビューに対する権限のリクエストは、ワークスペースに対する権限のリクエストと似ています。
+ビューに対する権限の要求は、ワークスペースに対する権限の要求と似ています。
 
-この記事では、他のユーザーがリンクを共有していて、共有ページにアクセスできない場合に、ビューまたはワークスペースへのアクセスをリクエストする方法について説明します。
+この記事では、共有ページにアクセスできないユーザーがリンクを共有した場合に、ビューまたはワークスペースへのアクセスをリクエストする方法について説明します。
 
-ビューとワークスペースに対する権限の付与については、次の記事を参照してください。
+ビューとワークスペースへの権限の付与について詳しくは、次の記事を参照してください。
 
 * [ビューの共有](/help/quicksilver/planning/access/share-views.md)
 * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
@@ -52,9 +56,9 @@ ht-degree: 7%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよび Planning パッケージ</p> 
+<p>任意のWorkfrontおよびプランニングパッケージ</p> 
 または
-<p>任意のワークフローおよび計画パッケージ</p> 
+<p>任意のワークフローとプランニングパッケージ</p> 
  </tr>
 
 <tr> 
@@ -69,15 +73,15 @@ ht-degree: 7%
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>  <p>許可リクエストが許可されると、次の権限を取得できます。</p>
+   <td>  <p>権限のリクエストが付与されると、次の権限を取得できます。</p>
    <ul><li><p>ビューの表示または管理</p></li>
-   <li><p>ワークスペースの表示、投稿または管理</p></li></ul>  
-   <p>ワークスペースおよびビューに対する管理権限を持つユーザーのみが、ビューを公開して共有できます。</p></td> 
+   <li><p>ワークスペースの表示、投稿、または管理</p></li></ul>  
+   <p>ワークスペースとビューに対する管理権限を持つユーザーのみがビューを公開できます。</p></td> 
   </tr> 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
-   <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
+   <td> LightまたはContributor ライセンスを持つユーザーには、Planningを含むレイアウトテンプレートを割り当てる必要があります。
+   <p>標準ユーザーとシステム管理者は、デフォルトでプランニング領域を有効にできます。</p></div></li></ul>
 
 </td>
   </tr>
@@ -85,11 +89,12 @@ ht-degree: 7%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
-<!--Old:
+<!--
+ Old:
  
  <table style="table-layout:auto"> 
 <col> 
@@ -157,29 +162,30 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
   </tr>
  
 </tbody> 
-</table> -->
+</table>
+-->
 
 
-## ビューまたはワークスペースに対する権限のリクエスト
+## ビューまたはワークスペースへの権限のリクエスト
 
-ビューに対する権限のリクエストは、ワークスペースに対する権限のリクエストと似ています。
+ビューに対する権限の要求は、ワークスペースに対する権限の要求と似ています。
 
-アクセス権のないワークスペースまたはビューへのリンクが他のユーザーによって共有された場合：
+誰かがワークスペースまたはアクセス権のないビューへのリンクを共有した場合：
 
-1. ビューまたはワークスペースで、共有されているリンクをクリックします。
+1. ビューまたはワークスペース用に共有されているリンクをクリックします。
 
-   **アクセス権がありません** ページが表示され、ビューまたはワークスペースに対するアクセス権がないことを示すメッセージが表示されます。
+   アクセス権がない&#x200B;**** ページが表示され、ビューまたはワークスペースへのアクセス権がないことを知らせます。
 
-   ![&#x200B; 表示へのアクセスをリクエスト &#x200B;](assets/request-access-to-view.png)
+   ![ ビューへのアクセスを要求](assets/request-access-to-view.png)
 
-1. （条件付き）共有リンクが、アクセス権を持つワークスペースのビュー用である場合は、「**既存のビューで開く**」をクリックします。 ワークスペースへのアクセス権を持っている場合、レコードタイプページがデフォルトのビューで開きます。
+1. （条件付き）共有されたリンクが、アクセス権を持つワークスペースのビュー用である場合は、**既存のビューで開く**&#x200B;をクリックします。 ワークスペースにアクセスする権限がある場合は、レコードタイプページがデフォルトビューで開きます。
 
-1. （オプションおよび条件付き）ワークスペースを表示する権限がない場合、使用可能なボックスにパーソナライズされたメッセージを追加し、「**アクセスをリクエスト**」をクリックします。
+1. （オプションおよび条件付き）ワークスペースを表示する権限がない場合は、使用可能なボックスにパーソナライズされたメッセージを追加し、**アクセスをリクエスト**&#x200B;をクリックします。
 
-   ビューまたはワークスペースに対する管理権限を持つすべてのユーザーは、アクセスリクエストに関する次の通知を受け取ります。
+   ビューまたはワークスペースに対する管理権限を持つすべてのユーザーは、アクセスリクエストに対して次の通知を受け取ります。
    * アプリ内通知
-     ![&#x200B; アクセスリクエストのアプリ内通知 &#x200B;](assets/in-app-notification-for-access-request.png)
+     ![ アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
    * メール通知
-     ![&#x200B; アクセスリクエストのメール通知 &#x200B;](assets/email-notification-for-access-request.png)
+     ![ アクセス要求のメール通知](assets/email-notification-for-access-request.png)
 
-1. （条件付き）ビューまたはワークスペースマネージャーからビューまたはワークスペースに対する権限を付与されると、権限が付与されたことを確認するメール通知とアプリ内通知が届きます。<!--check this - I was not able to test this, but Isk confirmed.-->
+1. （条件付き）ビューまたはワークスペースマネージャーがビューまたはワークスペースに権限を付与すると、権限が付与されたことを確認するメール通知とアプリ内通知が届きます。<!--check this - I was not able to test this, but Isk confirmed.-->

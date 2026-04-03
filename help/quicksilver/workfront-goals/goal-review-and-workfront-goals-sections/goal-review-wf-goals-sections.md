@@ -2,31 +2,34 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: 目標のレビューとAdobe Workfrontの目標のセクション：記事のインデックス
+title: 目標レビューとAdobe Workfront目標セクション：記事インデックス
 description: 次の記事では、目標のレビューと、Adobe Workfront で目標を管理できるセクションについて説明します。
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 47%
+ht-degree: 72%
 
 ---
 
-# 目標のレビューとAdobe Workfrontの目標のセクション：記事のインデックス
+# 目標のレビューとAdobe Workfront目標のセクション：記事インデックス
 
 <!--Audited: 10/2025-->
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳細については、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 >
 >Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -46,7 +49,7 @@ ht-degree: 47%
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
 -->
 
-次の記事では、目標のレビューについて説明し、Adobe Workfrontで目標を管理できる節を理解します。
+次の記事では、目標の確認と、Adobe Workfrontで目標を管理できるセクションについて説明します。
 
 * [Adobe Workfront Goals セクションの概要](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
 * [Adobe Workfront Goals の目標リストにおける目標の管理](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)

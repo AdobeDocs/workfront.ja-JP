@@ -7,7 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 82%
@@ -20,13 +22,15 @@ ht-degree: 82%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md). 
 
-</div>-->
+</div>
+-->
 
 ユーザー、担当業務やチームにタスクを割り当てて、タスクの完了担当者を指定できます。一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
 
@@ -100,8 +104,10 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 * チームは、タスクやイシューのプライマリの担当者にすることはできません。ユーザーや担当業務のみが、タスクやイシューのプライマリとして指定できます。
 
-<!-- If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
-You cannot make a team be a Primary on a task/ issue. (Alina) -->
+<!--
+ If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
+You cannot make a team be a Primary on a task/ issue. (Alina)
+-->
 
 * プロジェクトのタスクやイシューは、最初に 1 つ以上のチームまたは担当業務に割り当てられる場合があります。プロジェクトを開始する準備が整ったら、ユーザーに割り当てる必要が生じる場合もあります。
 
@@ -144,17 +150,17 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## 単一のタスクを割り当て
 
 1. 割り当てるタスクに移動します。
-1. タスクのヘッダーにある **割り当て** フィールドの **割り当て先** をクリックします
+1. タスクのヘッダーの「**割り当て**」フィールドで「**割り当て**」をクリックします
 
    または
 
-   タスクが既に割り当てられている場合は、割り当ての名前をクリックします。
+   タスクが既に割り当てられている場合は、割り当て名をクリックします。
 
    ![割り当て](assets/assignments-from-task-header-0825.png)
 
 1. 次のいずれかの操作を行います。
 
-   * 割り当てるユーザー、担当業務、またはチームの名前の入力を開始し、リストに表示されたらクリックします。
+   * 割り当てるユーザー、担当業務、またはチームの名前を入力し始め、リストに表示されたらクリックします。
 
      >[!TIP]
      >
@@ -162,9 +168,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
-   * （条件付き） **ユーザーとチーム** または **担当業務** リストに表示されている名前の 1 つをクリックします。 詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
+   * （条件付き）表示される&#x200B;**ユーザーとチーム**&#x200B;または&#x200B;**ジョブロール**&#x200B;のリストの名前のいずれかをクリックします。 詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
-     タスクに割り当てるユーザー、チーム、担当業務の名前の入力を開始し、リストに表示されたら選択できます。
+     タスクに割り当てるユーザー、チーム、または担当業務の名前を入力し始め、リストに表示されたら選択できます。
 
    * 「**詳細**」をクリックします。
 
@@ -173,7 +179,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. 「**保存**」をクリックします。
 1. （オプションおよび条件付き）「**詳細**」をクリックした場合、タスクの右側のパネルにある&#x200B;**「X」アイコン**&#x200B;をクリックして、割り当てを削除します。
 
-## リストをインライン編集時にタスクを割り当て
+## インライン編集時にリスト内のタスクを割り当てる
 
 いずれかの割り当てフィールドがリストの表示に示されている場合、リストまたはレポート内のタスクを割り当てることができます。これは、タスクをより迅速に割り当てる方法です。この記事では、リスト内の 1 つのタスクの割り当てを変更する方法について説明します。リスト内の複数のタスクに対する複数の割り当てを変更する方法について詳しくは、[タスクリスト内の複数のユーザー割り当ての変更](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)を参照してください。
 
@@ -212,7 +218,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
+1. （条件付き）割り当てフィールドで、リストの下部にある&#x200B;**詳細**&#x200B;をクリックするか、割り当てボックスの右上隅にある&#x200B;**人物アイコン** ![人物アイコン ](assets/teams.png)をクリックして、**高度な割り当て** ボックスを開き、高度な割り当てを作成します。
 
    詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
@@ -234,17 +240,17 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. タスクリストで複数のタスクを選択します。
 1. 「**編集**」をクリックします。
 
-   **タスクを編集** ボックスが開きます。
+   「**タスクを編集**」ボックスが開きます。
 
-1. **割り当て** エリアで、表示された **ユーザー、役割、チームを検索** フィールドにユーザー、チーム、または役割の名前を入力し始め、リストに表示されたらクリックします
+1. **割り当て**&#x200B;領域で、指定された&#x200B;**人、役割、またはチームを検索** フィールドにユーザー、チーム、または役割の名前を入力し始め、リストに表示されたらクリックします
 
    >[!IMPORTANT]
    >
    >タスクが既に割り当てられている場合、ここに指定したリソースは、タスク上の既存のリソースを置き換える代わりに、タスクに追加されます。
 
-1. 選択したタスクに対して、次のフィールドを指定します。
+1. 選択したタスクの次のフィールドを指定します。
 
-   * 割り当て名にポインタを合わせて、「**タスクを作成**」をクリックし、どの担当者がプライマリのオーナーであるかを示します。
+   * 割り当て名にカーソルを合わせ、**プライマリを作成**&#x200B;をクリックして、どの担当者がタスクのオーナーであるかを示します。
    * **期間タイプ**
 
      タスクの期間のタイプについて詳しくは、[タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
@@ -254,10 +260,10 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
      （詳しくは、[タスクの編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください）
 
-1. （任意）既存の担当者をすべてのタスクから削除する場合は、「**ユーザー、役割またはチームを検索**」フィールドで、名前の横にある **x** をクリックします。
+1. （オプション）すべてのタスクから既存の担当者を削除する場合は、**人物、役割、またはチームを検索** フィールドで、名前の横にある&#x200B;**x**&#x200B;をクリックします。
 
 1. 「**保存**」をクリックします。
-1. （オプションおよび条件付き）タスクのリストに **割り当て先** または **割り当て** フィールドが表示されたら、タスクのこれらの列の 1 つ内をクリックして、担当者の名前の横にある **X アイコン** をクリックすると、タスクから削除できます。
+1. （オプションおよび条件付き）タスクのリストに「**割り当て先**」または「**割り当て**」フィールドが表示されたら、タスクのこれらの列内のいずれかをクリックし、担当者の名前の横にある&#x200B;**X アイコン**」をクリックしてタスクから削除します。
 
 
 <!--
@@ -275,7 +281,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 -->
 
 
-<!--Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
+<!--
+Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
 
 ### Assign multiple tasks in bulk from a list in the Production environment
 

@@ -1,5 +1,5 @@
 ---
-title: ユーザーがモバイルアプリケーションにアクセスできるようにする
+title: ユーザーによるモバイルアプリケーションへのアクセスの有効化
 product-previous: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
@@ -9,7 +9,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 94%
@@ -60,6 +62,6 @@ ht-degree: 94%
 
 1. 「**[!UICONTROL 保存]」** をクリックします。
 
-[!DNL Workfront]モバイルアプリをサイトで有効にした後の使用方法について詳しくは、[&#x200B; [!DNL Adobe Workfront] モバイルアプリの使用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)を参照してください。
+[!DNL Workfront]モバイルアプリをサイトで有効にした後の使用方法について詳しくは、[ [!DNL Adobe Workfront] モバイルアプリの使用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)を参照してください。
 
-[!DNL Workfront for Outlook] の使用方法に関して詳しくは、[&#x200B; [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) を使用の節を参照してください。
+[!DNL Workfront for Outlook] の使用方法に関して詳しくは、[ [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) を使用の節を参照してください。

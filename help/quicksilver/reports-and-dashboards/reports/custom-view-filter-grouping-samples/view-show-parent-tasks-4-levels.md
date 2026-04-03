@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：最大 4 レベルの親タスクを表示します
+title: 表示：最大4 レベルの親タスクを表示
 description: このタスクビューでは、最初の列にタスク名が表示され、（存在する場合は）同じリスト内の別の列に最大 4 つの親タスクが表示されます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 66b45d64-794d-4adc-b208-2ded0dc9c5dc
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 78%
@@ -37,8 +39,8 @@ ht-degree: 78%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -60,8 +62,8 @@ ht-degree: 78%
 
 1. タスクのリストに移動します。
 1. **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
-1. **列プレビュー** 領域で、1 列以外のすべての列を削除します。
-1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え** > **テキストモードを編集** をクリックします。
+1. **列プレビュー**&#x200B;領域で、1列を除くすべての列を削除します。
+1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
 1. 「**テキストモード**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
 
@@ -147,6 +149,6 @@ ht-degree: 78%
    column.4.width=150
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。
 
    タスクの名前が最初の列に表示され、タスクに親がある場合は、残りの列に最大 4 つの親が表示されます。

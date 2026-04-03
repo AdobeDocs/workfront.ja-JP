@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：タスク リスト内のタスク インデントを表示します
+title: 表示：タスクリストでのタスクリストのインデントの表示
 description: このタスクビューでは、タスク名列にコードを追加して、プロジェクトの作業分割構造に従ってインデントされたタスクを表示できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 68%
@@ -20,7 +22,7 @@ ht-degree: 68%
 
 このタスクビューでは、タスク名列にコードを追加して、プロジェクトの作業分割構造に従ってインデントされたタスクを表示できます。
 
-![&#x200B; タスクのインデントの表示 &#x200B;](assets/view-text-mode-indentation-task-list-350x171.png)
+![ タスクのインデントを表示](assets/view-text-mode-indentation-task-list-350x171.png)
 
 ## アクセス要件
 
@@ -37,8 +39,8 @@ ht-degree: 68%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -60,9 +62,9 @@ ht-degree: 68%
 1. タスクのリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューで、「**新規ビュー**」をクリックします。
 
-1. **列を追加** をクリックし、「この列に表示 **フィールドに「タスク名」と入力し始め、リストに表示されたら選択します。**
+1. 「**列を追加**」をクリックし、「**この列に表示**」フィールドに「タスク名」と入力し、リストに表示されたら選択します。
 
-1. 新しい列から、**テキストモードに切り替え** > **テキストモードを編集** をクリックします。
+1. 新しい列から、**テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
 1. `valuefield=` 行にあるテキストを削除し、次のコードに置き換えます。
 
    ```
@@ -70,5 +72,5 @@ ht-degree: 68%
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))
    ```
 
-1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
-1. （オプション）ビュー名を更新し、「**ビューを保存**」をクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存**」をクリックします。
+1. （オプション）ビュー名を更新し、**ビューを保存**&#x200B;をクリックします。

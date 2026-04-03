@@ -2,12 +2,14 @@
 filename: configure-card-falloff.md
 content-type: reference
 navigation-topic: boards
-title: カードフォールオフの設定
+title: カード減衰の設定
 description: カードをスケジュールに従ってアーカイブしたり、ボードから外れたりするようにボードを設定できます。
 author: Courtney
 feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 98%

@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Snowflake用のリーダーアカウントの作成
+title: Snowflakeのリーダーアカウントの作成
 description: Data Connect データにアクセスするには、まずSnowflake リーダーアカウントを作成する必要があります。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 32f738e56a471407997031e13bb22abe81ac535c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 5%
@@ -16,15 +18,15 @@ ht-degree: 5%
 
 # Snowflake のリーダーアカウントまたは接続の作成
 
-Data Connect データにアクセスするには、まず組織のSnowflake リーダー（またはサービス）アカウントを作成してから、Data Connect にアクセスするユーザーまたはツールごとに新しい接続を作成する必要があります。
+Data Connect データにアクセスするには、まず組織のSnowflake リーダー（またはサービス）アカウントを作成し、Data Connectにアクセスするユーザーまたはツールごとに新しい接続を作成する必要があります。
 
-接続を作成したら、「既存の接続」タブのデータ接続ページ（メインメニュー/設定/システム/データ接続）で接続をクリックすると、関連する URL とユーザー名が表示されます。
+接続を作成した後、「既存の接続」タブのデータ接続ページ（メインメニュー/設定/システム/データ接続）で接続をクリックすると、関連するURLとユーザー名を見つけることができます。
 
-新しく作成した外部データとの接続の使用について詳しくは、[Workfront Data Connect への接続の確立 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md) を参照してください。
+新しく作成した外部製品との接続の使用について詳しくは、[Workfront Data Connectへの接続の確立](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。 
++++ 展開してアクセス要件を表示します。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +46,7 @@ Data Connect データにアクセスするには、まず組織のSnowflake リ
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である必要があります</p></td> 
+   <td> <p>あなたはWorkfrontの管理者でなければなりません</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,97 +57,97 @@ Data Connect データにアクセスするには、まず組織のSnowflake リ
 
 ## リーダーアカウントの作成
 
-接続の作成を開始するには、組織の新しいSnowflake リーダーアカウントを作成する必要があります。
+接続の作成を開始する前に、組織の新しいSnowflake リーダーアカウントを作成する必要があります。
 
 >[!IMPORTANT]
 >
->このプロセスは、組織ごとに 1 回だけ完了する必要があります。 以下に説明する場所に「**Reader アカウントを作成**」ボタンがない場合、リーダーアカウントは既に作成されています。
+>このプロセスは、組織ごとに1回のみ完了する必要があります。 以下の場所に「**Reader アカウントを作成**」ボタンがない場合、リーダーアカウントは既に作成されています。
 
 リーダーアカウントを作成するには：
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
+1. Adobe Workfrontの右上隅にある&#x200B;**[!UICONTROL Main Menu]** アイコン ![Main Menu](/help/_includes/assets/main-menu-icon.png)をクリックするか（使用可能な場合）、左上隅にある&#x200B;**[!UICONTROL Main Menu]** アイコン ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックしてから、**Setup**&#x200B;をクリックします。
 
-1. 左側のパネルで、**システム**/**データ接続** をクリックします。
+1. 左側のパネルで、**システム**/**データ接続**&#x200B;をクリックします。
 
-1. 「**Reader アカウントを作成**」ボタンをクリックして、組織のリーダーアカウントの作成を開始します。 この処理は自動的に行われますが、完了するまでに最大 24 時間かかる場合があります。
+1. 「**Reader アカウントを作成**」ボタンをクリックして、組織のリーダーアカウントの作成を開始します。 このプロセスは自動的に行われますが、完了するには最大で24時間かかる場合があります。
 
-1. 完了すると、リーダーアカウントがアクティブになったことを説明するダイアログウィンドウが表示されます。 ブラウザーページを更新して、「**新しい接続を作成**」ボタンにアクセスできるようにします。
+1. 完了すると、リーダーアカウントがアクティブになったことを示すダイアログウィンドウが表示されます。 ブラウザーページを更新して、**新しい接続を作成** ボタンにアクセスします。
 
-![Reader アカウントが作成されましたダイアログ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+![Reader アカウント作成ダイアログ ](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
 
 ## 接続の作成
 
 >[!IMPORTANT]
 >
->2026 年 6 月に、多要素認証（MFA）を使用するために、ユーザー名とパスワードの資格情報が必要になります。 Data Connect からサードパーティのビジュアライゼーションツール、データプロセッサー、スクリプトにデータを読み込むために使用されるサービスユーザーアカウントについては、認証プロセスで MFA と連携しない場合は、RSA または PAT ベースの認証に移行することをお勧めします。
+>2026年6月、多要素認証（MFA）を使用するには、ユーザー名/パスワードの資格情報が必要になります。 Data Connectから、認証プロセスでMFAで動作しないサードパーティのビジュアライゼーションツール、データプロセッサー、スクリプトにデータを読み込むために使用されるサービスユーザーアカウントのRSAまたはPAT ベースの認証に移行することをお勧めします。
 
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
+1. Adobe Workfrontの右上隅にある&#x200B;**[!UICONTROL Main Menu]** アイコン ![Main Menu](/help/_includes/assets/main-menu-icon.png)をクリックするか（使用可能な場合）、左上隅にある&#x200B;**[!UICONTROL Main Menu]** アイコン ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックしてから、**Setup**&#x200B;をクリックします。
 
-1. 左側のパネルで、**システム**/**データ接続** をクリックします。
+1. 左側のパネルで、**システム**/**データ接続**&#x200B;をクリックします。
 
-1. **新しい接続を作成** をクリックします。
+1. 「**新しい接続を作成**」をクリックします。
 
-1. 表示されたウィンドウで、「**接続参照の説明**」に接続の名前を、「**接続ユーザー**」にユーザー名を入力し、「**接続を生成**」をクリックします。
+1. 表示されるウィンドウで、**接続参照の説明**&#x200B;に接続の名前を入力し、**接続ユーザー**&#x200B;にユーザー名を入力して、**接続を生成**&#x200B;をクリックします。
 
-   ![&#x200B; 新しい接続の作成 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
+   ![新しい接続を作成](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. 接続の認証方法を選択してください：
+1. 接続の認証方法を選択します。
    * [パスワード認証](#password-authentication)
-   * [プログラムによるアクセストークン認証](#programmatic-access-token-authentication)
+   * [プログラマティックアクセストークン認証](#programmatic-access-token-authentication)
    * [RSA キー認証](#rsa-key-authentication)
 
 ### パスワード認証
 
-1. **パスワード**/**接続を生成** をクリックします。
+1. 「**パスワード**」をクリックし、「**接続を生成**」をクリックします。
 
-1. **デフォルトのパスワード** と、Snowflakeでデータを表示できる URL が生成されます。 Snowflakeへの初めてのログインでは、選択したユーザー名とパスワードを使用する必要があります。そのため、URL と同様に記録が保持されていることを確認します。 完了したことを示すボックスをオンにし、「**閉じる**」をクリックします。
+1. **デフォルトのパスワード**&#x200B;と、Snowflakeを通じてデータを表示できるURLが生成されます。 初めてSnowflakeにサインインする際に選択したユーザー名でパスワードを使用する必要があります。そのため、URLと同様にパスワードの記録を保持するようにしてください。 確認ボックスをオンにして、**閉じる**&#x200B;をクリックします。
 
-   ![&#x200B; デフォルトのアカウントパスワード &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
+   ![既定のアカウント パスワード ](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
-1. ブラウザーを使用してSnowflakeを開き、前の手順の URL に移動して、選択したユーザー名と前の手順のデフォルトのパスワードを入力し、「**ログイン**」をクリックします。
+1. ブラウザーを使用してSnowflakeを開き、前の手順で選択したURLに移動し、前の手順で選択したユーザー名とデフォルトのパスワードを入力してから、**ログイン**&#x200B;をクリックします。
 
-1. 初めてログインに成功すると、新しいパスワードを選択するように求められます。 「**新しいパスワード**」フィールドと「**パスワードを確認**」フィールドの両方に目的のパスワードを入力し、「**送信**」をクリックします。
+1. 初めて正常にログインすると、新しいパスワードを選択するように求められます。 **新しいパスワード**&#x200B;と&#x200B;**パスワードの確認** フィールドに任意のパスワードを入力し、**送信**&#x200B;をクリックします。
 
-   ![Snowflakeのパスワードをリセット &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
+   ![Snowflake パスワードのリセット ](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. これで、ユーザー名と新しいパスワードを使用して、Snowflakeの Data Connect Data Lake または選択したビジネスビジュアライゼーションツールにアクセスできるようになりました。
+1. ユーザー名と新しいパスワードを使用して、SnowflakeのData Connect データレイクまたは任意のビジネスビジュアライゼーションツールにアクセスできるようになりました。
 
-### プログラムによるアクセストークン認証
+### プログラマティックアクセストークン認証
 
-1. **プログラムによるアクセストークン** をクリックします。
+1. 「**プログラマティックアクセストークン**」をクリックします。
 
-1. **有効期限** フィールドに、トークンの有効期限を入力します。 有効期限は最大 365 日後まで選択できます。
+1. トークンの有効期限を「**有効期限**」フィールドに入力します。 有効期限は、最大365日後まで選択できます。
 
-1. **接続を生成** をクリックします。
+1. 「**接続を生成**」をクリックします。
 
-1. 認証に使用できる PAT トークンが生成され、Snowflake環境の URL が提供されます。 指定した PAT およびユーザー名を使用して、サードパーティのビジュアライゼーションツールまたはデータプロセッサーからSnowflakeに接続できます。 必ず、URL と共に記録を残してください。 完了したことを示すボックスをオンにし、「**閉じる**」をクリックします。
+1. 認証に使用できるPAT トークンが生成され、Snowflake環境のURLが提供されます。 サードパーティのビジュアライゼーションツールまたはデータプロセッサーからSnowflakeに接続するには、PATとユーザー名を使用します。 URLだけでなく、データの記録も保持するようにしてください。 確認ボックスをオンにして、**閉じる**&#x200B;をクリックします。
 
-   ![&#x200B; プログラムによるアクセストークンダイアログ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
+   ![ プログラマティック アクセス トークン ダイアログ ](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
 
 
 ### RSA キー認証
 
-1. **RSA キー** をクリックします。
+1. **RSA キー**&#x200B;をクリックします。
 
-1. 「**RSA 公開鍵**」フィールドに RSA 公開鍵を入力します。
+1. **RSA公開鍵** フィールドにRSA公開鍵を入力します。
 
-1. **接続を生成** をクリックします。
+1. 「**接続を生成**」をクリックします。
 
-1. 接続が生成され、Snowflake環境の URL が提供されます。 指定した RSA キーとユーザー名を使用して、サードパーティのビジュアライゼーションツールまたはデータプロセッサーからSnowflakeに接続できます。
+1. 接続が生成され、Snowflake環境のURLが提供されます。 RSA キーとユーザー名を使用して、サードパーティのビジュアライゼーションツールまたはデータプロセッサーからSnowflakeに接続できます。
 
 
 
-Snowflakeへのログインに選択したユーザー名で RSA キーを使用する必要があるので、URL と同様に記録が保持されていることを確認します。 完了したことを示すボックスをオンにし、「**閉じる**」をクリックします。
+Snowflakeへのログインに選択したユーザー名でRSA キーを使用する必要があります。そのため、URLと同様にRSA キーの記録を保持するようにしてください。 確認ボックスをオンにして、**閉じる**&#x200B;をクリックします。
 
-![RSA キーダイアログ &#x200B;](assets/rsa-test.png)
+![RSA キーダイアログ ](assets/rsa-test.png)
 
-## リーダーアカウントの取り消し
+## リーダーアカウントの失効
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
+1. Adobe Workfrontの右上隅にある&#x200B;**[!UICONTROL Main Menu]** アイコン ![Main Menu](/help/_includes/assets/main-menu-icon.png)をクリックするか（使用可能な場合）、左上隅にある&#x200B;**[!UICONTROL Main Menu]** アイコン ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックしてから、**Setup**&#x200B;をクリックします。
 
-1. 左側のパネルで、**システム**/**データアクセス** をクリックします。
+1. 左側のパネルで、**システム**/**データアクセス**&#x200B;をクリックします。
 
-1. 取り消すアカウントの右側にあるごみ箱アイコン ![&#x200B; 削除アイコン &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) をクリックします。
+1. 取り消すアカウントの右側にあるゴミ箱アイコン ![削除アイコン ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png)をクリックします。
 
-1. 表示されるウィンドウで、チェックボックスをオンにして「**削除**」をクリックします。
+1. 表示されるウィンドウで、チェックボックスをオンにして確認し、**削除**&#x200B;をクリックします。

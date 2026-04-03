@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: グループ化：グループ化の表示名を編集する
+title: グループ化：グループ化での表示名の編集
 description: リストやレポートのグループ化を、ユーザーにとってよりなじみのある名前に変更できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 73%
@@ -22,11 +24,11 @@ ht-degree: 73%
 
 例えば、標準のポートフォリオ名のグループ化をプロジェクトのリストに適用すると、グループ化の名前は&#x200B;*ポートフォリオ：名前：`<name of portfolio>`* として表示されます。
 
-![未編集の名前でグループ化しています](assets/grouping-unedited-name-350x167.png)
+![未編集の名前でグループ化](assets/grouping-unedited-name-350x167.png)
 
 テキストモードを使用してこのグループ化を変更し、読みやすい名前を表示できます。
 
-![編集した名前でグループ化](assets/grouping-edited-name-350x160.png)
+![編集済みの名前でグループ化](assets/grouping-edited-name-350x160.png)
 
 ## アクセス要件
 
@@ -43,8 +45,8 @@ ht-degree: 73%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
-   <p>レポートを変更するための「標準」または「プラン」</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -68,7 +70,7 @@ ht-degree: 73%
 1. プロジェクトのリストに移動します。
 1. **グループ化**&#x200B;ドロップダウンメニューで「**新規グループ化**」を選択します。
 
-1. [**グループ化の追加**]をクリックし、[**グループ化：**]フィールドに「Portfolio名」と入力し、一覧に表示されたら選択します。
+1. 「**グループ化を追加**」をクリックし、「**グループ化：**」フィールドに「Portfolio名」と入力し始め、リストに表示されたら選択します。
 
 1. 「**テキスト モードに切り替える**」をクリックします。
 1. 次のいずれかの操作を行います。
@@ -79,7 +81,7 @@ ht-degree: 73%
      `group.0.displayname=Your Value`
 
 
-     例えば、次のコードを入力すると、表示名が「Portfolio」に変わります。
+     例えば、次のコードを追加して、表示名を「Portfolio」に変更します。
 
      `group.0.displayname=Portfolio`
 
@@ -87,7 +89,7 @@ ht-degree: 73%
 
      `group.0.name=Your Value`
 
-     例えば、次のコードを入力すると、表示名が「Portfolio」に変わります。
+     例えば、次のコードを追加して、表示名を「Portfolio」に変更します。
 
      `group.0.name=Portfolio`
 
@@ -96,9 +98,9 @@ ht-degree: 73%
      >また、`group.0.name=` と `group.0.displayname=` の行を空白にすることもできます。この場合、グループ化にはグループ化の基準となる値が表示されます。
 
 
-     ![名前のない編集済みの名前でグループ化しています](assets/grouping-edited-name-no-name-350x162.png)
+     ![名前のない編集済みの名前でグループ化](assets/grouping-edited-name-no-name-350x162.png)
 
 1. 「**完了**」をクリックし、「**グループ化の保存**」をクリックします。
-1. （オプション）グループ名を更新し、**[グループの保存]**&#x200B;をクリックします。
+1. （オプション）グループ化名を更新し、**グループ化を保存**&#x200B;をクリックします。
 
    グループ化のデフォルト名は、テキストモードの情報に従って変更されます。

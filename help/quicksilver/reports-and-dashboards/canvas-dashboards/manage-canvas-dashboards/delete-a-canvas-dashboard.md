@@ -2,11 +2,13 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: キャンバスダッシュボードの削除
-description: You can arrange how reports display in a Canvas dashbaord after they've been added to one.
+description: カンバスダッシュボードにレポートを追加した後、レポートの表示方法を調整できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 23%
@@ -17,16 +19,16 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
->If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Please note that this beta is not available on the following cloud providers:
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
->* Bring Your Own Key for Amazon Web Services
+>* Amazon Web Services用に独自のキーを持ち込む
 >* Azure
 >* Google Cloud Platform
 
 
-Once you no longer have a need for a Canvas Dashboard, you can remove it from Adobe Workfront.
+Canvas ダッシュボードが不要になったら、Adobe Workfrontから削除できます。
 
 ## アクセス要件
 
@@ -60,7 +62,7 @@ Once you no longer have a need for a Canvas Dashboard, you can remove it from Ad
     </tr>  
         <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td><p>Manage permissions for the dashboard</p>
+   <td><p>ダッシュボードの権限の管理</p>
   </td> 
   </tr>
 </tbody> 
@@ -71,26 +73,26 @@ Once you no longer have a need for a Canvas Dashboard, you can remove it from Ad
 
 ## 前提条件
 
-You must create a dashboard before it can be deleted.
+削除する前にダッシュボードを作成する必要があります。
 
-For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 ## ダッシュボードの削除
 
 >[!WARNING]
 >
-> Once a dashboard is deleted, the dashboard and all of its customized reports and/or visualizations cannot be recovered.<br>
-> If you delete a dashboard that contains a classic report, the classic report will not be deleted.
+> ダッシュボードを削除すると、ダッシュボードとそのすべてのカスタマイズされたレポートまたはビジュアライゼーションを復元できません。<br>
+> クラシックレポートを含むダッシュボードを削除すると、クラシックレポートは削除されません。
 
 {{step1-to-dashboards}}
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 
-1. On the **Canvas Dashboards** page, select the dashboard you want to delete.
+1. **Canvas ダッシュボード** ページで、削除するダッシュボードを選択します。
 
-1. In the upper-right corner, select the **More** ![More icon](assets/more-icon.png) icon, then select **Delete dashboard**.
-   ![Delete dashboard](assets/delete-dashboard.png)
+1. 右上隅で、**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンを選択し、**ダッシュボードを削除**を選択します。
+   ![ ダッシュボードを削除](assets/delete-dashboard.png)
 
-1. In the **Delete dashboard** dialog box, select the **I confirm I want to delete this dashboard** checkbox.
+1. **ダッシュボードを削除** ダイアログボックスで、「**このダッシュボードを削除することを確認します**」チェックボックスを選択します。
 
 1. 「**削除**」をクリックします。

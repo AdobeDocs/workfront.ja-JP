@@ -1,30 +1,34 @@
 ---
-title: フィールド設定を編集
-description: Adobe Workfront Planning では、作成済みのフィールドのフィールド設定を編集できます。 ここでは、Workfront計画フィールドの設定を編集する方法について説明します。
+title: フィールド設定の編集
+description: Adobe Workfront Planningでは、作成済みのフィールドのフィールド設定を編集できます。 ここでは、Workfront計画フィールドの設定を変更する方法について説明します。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
 
-# フィールド設定を編集
+# フィールド設定の編集
 
 <!--leave the choice value information in yellow till January 2026-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning の既存のフィールドの設定を編集できます。
+Adobe Workfront Planningでは、既存のフィールドの設定を編集できます。
 
 Adobe Workfront Planning フィールドの作成については、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
 
@@ -46,8 +50,8 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
+<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
@@ -62,11 +66,12 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++     
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,44 +127,46 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p></td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## フィールド設定の編集に関する考慮事項
 
 フィールドの設定を変更する前に、次の点を考慮する必要があります。
 
-* フィールド設定は、レコードタイプ テーブルからのみ編集できます。
-* レコードページまたはテーブルビュー以外の他のビューでは、フィールドの設定を編集できません。
+* フィールド設定は、レコードタイプテーブルからのみ編集できます。
+* レコードページまたはテーブルビュー以外の他のビューでフィールドの設定を編集することはできません。
 * フィールドを保存した後は、フィールドタイプを編集できません。
 * 数値、パーセンテージ、通貨のいずれかのフィールドについて、そのフィールドが添付されているレコードに既に負の値が格納されている場合は、選択済みの「負の数を許可」設定の選択を解除することはできません。
-* フィールドを保存した後で、次のフィールド要素の設定を編集できます。
+* フィールドを保存した後、次のフィールド要素の設定を編集できます。
 
-   * フィールドの名前または説明
+   * 任意のフィールドの名前または説明
    * 単一選択または複数選択フィールドのオプション。
-   * 数式フィールドの式を指定します。
+   * 数式フィールドの式。
 
   >[!WARNING]
   >
-  >数式が変更されたり、選択タイプ フィールドにオプションが追加または削除されたりすると、設定が変更されたフィールドに既に情報が保存されているレコードのデータが失われます。
+  >数式の式が変更されたり、select-type フィールドからオプションが追加または削除されたりすると、設定が変更されたフィールドに既に保存されている情報を持つレコードのデータが失われます。
   >
-  >フィールドの設定を変更した場合、このデータ損失が発生する可能性があることを示す警告や表示はありません。
+  >フィールドの設定を変更すると、このデータ損失が発生する可能性があるという警告や兆候はありません。
   >
-  >フィールドの設定が変更されたという通知は他のユーザーには送信されません。
+  >フィールド設定が変更されたことを他のユーザーに通知しません。
 
-* 接続されたレコードから既存の参照フィールドを編集できます。
-* この記事の [&#x200B; フィールド設定の編集 &#x200B;](#edit-field-settings-1) のセクションで説明したフィールドの編集に加えて、テーブル ビューでレコードを編集するときにフィールド値を更新する、単一選択または複数選択のフィールドの選択肢を編集することができます。 詳細については、この記事の [&#x200B; テーブル ビューでレコードを編集するときに既存の選択フィールドに新しい選択肢を追加する &#x200B;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) を参照してください。
+* 接続されたレコードから既存のルックアップフィールドを編集できます。
+* この記事の「[ フィールド設定を編集](#edit-field-settings-1)」セクションで説明されているようにフィールドを編集するだけでなく、フィールド値を更新しながら、テーブルビューでレコードを編集する際に、1つまたは複数の選択フィールドの選択肢を編集することもできます。 詳しくは、この記事の「[ テーブルビューでレコードを編集する際に既存の選択フィールドに新しい選択肢を追加する](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)」セクションを参照してください。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
-<!--this is not yet true, but it might come later:
+<!--
+this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
 -->
 
-## フィールド設定を編集
+## フィールド設定の編集
 
 {{step1-to-planning}}
 
-1. レコード フィールドを編集するワークスペースをクリックします。
+1. レコードフィールドを編集するワークスペースをクリックします。
 
    ワークスペースが開き、ワークスペース内のすべてのレコードタイプがカードに表示されます。
 
@@ -167,7 +174,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    レコードタイプのページが開きます。
 
-1. （条件付き） **テーブル表示** のタブをクリックします。
+1. （条件付き） **テーブルビュー**&#x200B;のタブをクリックします。
 
    そのレコードタイプに関連付けられている既存のすべてのレコードが、テーブルビューの行に表示されます。
 1. 編集するフィールドの列ヘッダーにポインタを合わせ、フィールド名の後の下向き矢印をクリックして「**フィールドを編集**」をクリックします。
@@ -176,7 +183,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    フィールドの列ヘッダーをダブルクリックします。
 
-   ![&#x200B; テーブルヘッダーのフィールド名の後の矢印メニューがハイライト表示されている &#x200B;](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![ テーブルヘッダーのフィールド名の後の矢印メニューが強調表示される](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. フィールドに関する情報を更新し、「**保存**」をクリックします。
 
@@ -188,42 +195,42 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >* フィールドを保存した後は、フィールドタイプを更新できません。
    >
-   >* フィールド設定（フィールドのオプションや数式）を変更すると、変更されたフィールドに既に情報が含まれているレコードの値は、リアルタイムで更新されます。 フィールド設定の変更によってトリガーされる値の変更に関する警告や監査ログはありません。 フィールドを表示するすべてのユーザーには、変更を加えた新しい値が直ちに表示されます。
+   >* フィールド設定（フィールドオプションまたは数式式）を変更すると、変更されたフィールドに既に情報を含むレコードは、値をリアルタイムで更新します。 フィールド設定の変更によってトリガーされた値の変更に対する警告や監査ログはありません。 フィールドを表示するすべてのユーザーには、変更が適用された新しい値がすぐに表示されます。
 
-   フィールド情報は、ワークスペースを表示するアクセス権を持つすべてのユーザーに対して更新されます。
+   フィールド情報は、ワークスペースを表示するためのアクセス権を持つ全員が更新されます。
 
-1. （条件付き）接続されたレコードフィールドの場合は、**ルックアップフィールドを編集** をクリックし、接続されたレコードタイプにルックアップフィールドを追加または削除します。
+1. （条件付き）接続されたレコードフィールドの場合は、**参照フィールドを編集**&#x200B;をクリックし、接続されたレコードタイプからいずれかの参照フィールドを追加または削除します。
 
    詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 
-## テーブル ビューでレコードを編集するときに、既存の選択フィールドに新しい選択肢を追加する
+## テーブルビューでレコードを編集するときに、既存の選択フィールドに新しい選択肢を追加する
 
 <!--some of this information is also available in Edit records article - update both when necessary-->
 
-テーブル ビューでレコードを編集するときに、新しい選択肢を既存の単一選択フィールドまたは複数選択フィールドに追加できます。
+テーブルビューでレコードを編集する際に、既存の単一選択フィールドまたは複数選択フィールドに新しい選択肢を追加できます。
 
 >[!IMPORTANT]
 >
->この節で説明する機能は、テーブル表示でのみ使用できます。 単一選択フィールドまたは複数選択フィールドが表示される他の領域では使用できません。
+>この節で説明する機能は、テーブルビューでのみ使用できます。 1つまたは複数の選択フィールドが表示される他の領域では使用できません。
 
 **例**
 
-「ステータス」という単一選択フィールドに「新規」および「クローズ」の選択肢があり、「処理中」ステータスの選択肢を追加するとします。 次のいずれかの操作を行って、選択肢を追加できます。
+「新規」および「クローズ」の選択肢を持つ「ステータス」という単一選択フィールドがあり、進行中ステータスの選択肢を追加する場合があります。 次のいずれかの操作を行って、選択肢を追加できます。
 
-* フィールドを編集しています。 詳しくは、この記事の「フィールド設定を編集 [&#x200B; の節を参照し &#x200B;](#edit-field-settings-1) ください。
-* テーブル表示でレコードを編集する際に、新しいオプションを追加します（下図を参照）。
+* フィールドの編集。 詳しくは、この記事の「[ フィールド設定を編集](#edit-field-settings-1)」の節を参照してください。
+* 以下の説明に従って、テーブルビューでレコードを編集する際に新しいオプションを追加します。
 
-レコードの編集時に既存の選択フィールドに新しい選択肢を追加するには、次の手順を実行します。
+レコードを編集する際に、既存の選択フィールドに新しい選択肢を追加するには、次の手順に従います。
 
-1. レコードタイプのページに移動し、テーブル表示を開きます。
-1. 選択肢を追加する単一選択フィールドまたは複数選択フィールドを、新しい列としてテーブル ビューに追加します。 詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
-1. フィールドのセルをダブルクリックして、フィールドをインラインで編集し始めます。
-1. 追加する選択肢の名前を入力し、[**選択肢の追加**] をクリックします。
+1. レコードタイプページに移動し、テーブルビューを開きます。
+1. テーブルビューで選択肢を追加する1つまたは複数の選択フィールドを新しい列として追加します。 詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
+1. フィールドのセルをダブルクリックして、フィールドのインライン編集を開始します。
+1. 追加する選択肢の名前を入力し、**選択肢を追加**&#x200B;をクリックします。
 
-   ![&#x200B; テーブル表示の単一選択フィールドに選択肢を追加 &#x200B;](assets/add-choice-in-table-view-for-single-select-field.png)
+   ![ テーブルビューの単一選択フィールドに選択肢を追加](assets/add-choice-in-table-view-for-single-select-field.png)
 
-   新しい選択肢が単一選択フィールドにすぐに追加されます。
+   新しい選択肢は、すぐに単一選択フィールドに追加されます。
 
-   各選択肢に新しい値も追加されます。 選択値は、API 呼び出しまたは他の統合で使用できます。 詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
+   新しい値も各選択肢に追加されます。 API呼び出しやその他の統合では、選択肢の値を使用できます。 詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
 

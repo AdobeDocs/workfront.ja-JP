@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 56%
@@ -24,16 +26,16 @@ ht-degree: 56%
 >
 >プレビューリリース：2024年11月21日（PT）。迅速リリース用の実稼動版：24.12 リリース（2024年12月12日（PT））。四半期リリース用の実稼動版：25.1 リリース（2025年1月16日（PT））
 
-複数のドキュメントを一度に編集できるようになりました。 説明を編集して、カスタムフォームを更新できます。
+一度に複数のドキュメントを編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。
 
-詳細については、[ドキュメントの一括編集](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)を参照してください。
+詳しくは、[ ドキュメントの一括編集](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)を参照してください。
 
-## 新しい「取り消し済み」ステータスを文書バージョンの承認に使用できます
+## ドキュメントのバージョン承認に使用できる新しい引き出しステータス
 
 >[!NOTE]
 >
 >プレビューリリース：2024年11月7日（PT）。迅速リリース用の実稼動版：24.11 リリース（2024年11月14日（PT））。四半期リリース用の実稼動版：25.1 リリース（2025年1月16日（PT））
 
-承認待ちの文書に新しいバージョンが追加されると、以前のバージョンの承認が「取り消し済み」と表示されます。これは、新しいバージョンが追加されたために以前の承認プロセスが終了したことを示しています。
+承認待ちの文書に新しいバージョンを追加すると、以前のバージョンの承認が「撤回」と表示され、新しいバージョンの追加により以前の承認プロセスが終了したことを示します。
 
-詳細については、[新しいドキュメントバージョンをアップロードし、承認を要求する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)を参照してください。
+詳しくは、[新しいドキュメントのバージョンをアップロードし、承認をリクエスト ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)するを参照してください。

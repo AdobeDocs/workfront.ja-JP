@@ -2,16 +2,18 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: システム全体のタスクおよびイシューの環境設定を行う
+title: システム全体のタスクとイシューの環境設定
 description: タスクとイシューに関するシステム全体の環境設定を指定できます。これらの環境設定は、Workfront でのユーザーによるタスクおよびイシューの作成方法に影響します。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2228'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -19,12 +21,16 @@ ht-degree: 85%
 
 <!-- Audited: 2/2024 -->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
-Linked to Converting Issues.-->
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
+Linked to Converting Issues.
+-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 [!DNL Adobe Workfront] 管理者は、タスクとイシューに関するシステム全体の環境設定を指定できます。これらの環境設定は、[!DNL Workfront] でのユーザーによるタスクおよびイシューの作成方法に影響します。
@@ -41,7 +47,7 @@ Linked to Converting Issues.-->
  <col> 
  <tbody> 
   <tr> 
-   <td>[!DNL Adobe Workfront] package</td> 
+   <td>[!DNL Adobe Workfront] パッケージ</td> 
    <td><p>任意</p></td> 
   </tr> 
   <tr> 
@@ -94,7 +100,7 @@ Linked to Converting Issues.-->
     <tr> 
     <td role="rowheader">[!UICONTROL Revenue Type]</td> 
     <td> <p>タスクの計画収益見積もりと実績収益見積もりを計算します。<strong>[!UICONTROL Revenue Type]</strong> が <strong>[!UICONTROL Not Billable]</strong> に設定されている場合、予定時間数と記録された実際の時間数ではタスクの収益見積もりは生成されず、タスクの作業はプロジェクトレベルの収益には寄与しません。</p>
-         <p>様々な収益タイプについて詳しくは、<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md"> 請求と収益の概要 </a> を参照してください。</p></td> 
+         <p>様々な収益タイプについて詳しくは、<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">請求と収益の概要</a>を参照してください。</p></td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Cost Type]</td> 
@@ -118,7 +124,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL 問題をタスクに変換する際に が発生する &#x200B;]</td> 
+    <td role="rowheader">[!UICONTROL イシューをタスクに変換する場合]</td> 
     <td> <p>このセクションの設定で、イシューからタスクへ変換するプロセスで起こることを定めます。</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>：イシューを変換する場合、タスクが完了するまで、イシューはイシューとして表示され続けます。タスクが完了すると、イシューのステータスは自動的に [!UICONTROL Closed] に変わります。選択を解除すると、イシューは削除されます。</p> <p><b>メモ</b>：  <p>この設定のステータスに関係なく、イシューを削除するアクセス権や権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。イシューに対するアクセス権および権限について詳しくは、次を参照してください。</p> 
@@ -148,7 +154,7 @@ Linked to Converting Issues.-->
 
 ### [!UICONTROL 削除] {#deletion}
 
-**[!UICONTROL ユーザーがログ時間のあるタスクおよび問題を削除することを許可]**：時間が記録されるタスクまたは問題を削除することを許可するかどうかを決定できます。 このオプションはデフォルトで選択されています。
+**[!UICONTROL ユーザーがログ時間のあるタスクと問題を削除することを許可する]**：時間がログに記録されているタスクまたは問題の削除を許可するかどうかを決定できます。 このオプションはデフォルトで選択されています。
 
 >[!TIP]
 >
@@ -164,11 +170,11 @@ Linked to Converting Issues.-->
 
 ### 移動
 
-**[!UICONTROL ユーザーがログ時間のあるタスクおよび問題を移動することを許可]**：時間が記録されるタスクまたは問題を移動することを許可するかどうかを決定できます。 このオプションはデフォルトで選択されています。
+**[!UICONTROL ユーザーが時間を記録したタスクと問題を移動することを許可する]**：時間を記録したタスクまたは問題の移動を許可するかどうかを決定できます。 このオプションはデフォルトで選択されています。
 
-* 選択すると、時間がログに記録されたタスクと問題を移動できます。 時間は、タスクや問題とも移動します。
+* 選択すると、時間がログに記録されているタスクとイシューを移動できます。 時間はタスクやイシューとともに移動します。
 
-* このオプションの選択を解除すると、ログ時間のあるタスクや問題を別のプロジェクトに移動する際に禁止を示す警告が表示されます。 警告は、管理者がタスクまたはログ時間に関する問題の移動を許可しないことを指定します。 時間が記録されたタスクまたは問題は移動できません。 このオプションの選択を解除した場合でも、同じプロジェクト内でタスクを移動できます。
+* このオプションの選択を解除すると、時間が記録されたタスクまたは問題を別のプロジェクトに移動すると、禁止の警告が表示されます。 警告は、管理者がログ時間を含むタスクや問題の移動を許可しないことを指定します。 時間がログに記録されているタスクまたは問題は移動できません。 このオプションの選択が解除されている場合でも、同じプロジェクト内でタスクを移動できます。
 
 ### [!UICONTROL 実際の日付] {#actual-dates}
 
@@ -197,20 +203,20 @@ Linked to Converting Issues.-->
 
 ### 委任
 
-「**[!UICONTROL ユーザーがタスクおよびイシューを委任することを許可]**」設定を有効にすると、システム内のすべてのユーザーが一時的に他のユーザーに作業を委任できます。
+**[!UICONTROL ユーザーがタスクと問題]**&#x200B;の委任を許可する設定を有効にすると、システム内のすべてのユーザーが一時的に他のユーザーに作業を委任できるようになります。
 
 この設定を有効にすると、次の情報が表示されます。
 
-* [!UICONTROL **ホーム**] エリアにある [!UICONTROL &#x200B; マイ作業 &#x200B;]、[!UICONTROL &#x200B; マイタスク &#x200B;] または [!UICONTROL &#x200B; マイイシュー &#x200B;] ウィジェットの [!UICONTROL &#x200B; 委任 &#x200B;] リンク。 ここからタスクとイシューの割り当てを委任できます。
+* [!UICONTROL **委任**] リンクは、[!UICONTROL  マイワーク ]、[!UICONTROL  マイタスク ]、または[!UICONTROL  マイイシュー] ウィジェットの[!UICONTROL  ホーム ]領域にあります。 そこからタスクやイシューの割り当てを委任することができます。
 
   >[!NOTE]
   >
-  >  「[!UICONTROL **承認を委任**]」リンクは、「[!UICONTROL &#x200B; ホーム &#x200B;] 領域で常に有効になっています。
+  >  [!UICONTROL **承認を委任**] リンクは、[!UICONTROL  ホーム ]領域で常に有効になっています。
 
 * タスクまたはイシューのヘッダー内の「[!UICONTROL 割り当てと委任]」エリアで、タスクまたはイシューが別のユーザーに委任されたことを示すメッセージ。
-* タスクまたはイシューが [!UICONTROL &#x200B; ホーム &#x200B;] の [!UICONTROL &#x200B; 担当作業 &#x200B;] ウィジェットで別のユーザーに委任されていることを示します。
+* タスクまたはイシューが、[!UICONTROL  ホーム ]の[!UICONTROL  マイワーク ] ウィジェットで別のユーザーに委任されたことを示す表示。
 
-  「[!UICONTROL &#x200B; ユーザーがタスクおよび問題を委任することを許可 &#x200B;]」設定を無効にすると、現在スケジュールされている委任が停止され、委任されたユーザーには、委任が停止したことを通知するメールが届きます。
+  「[!UICONTROL  ユーザーがタスクと問題]を委任することを許可する」設定を無効にすると、現在スケジュールされている委任が停止され、委任されたユーザーには、委任が停止されたというメール通知が送信されます。
 
 他のユーザーへの作業の委任について詳しくは、次の記事を参照してください。
 
@@ -298,7 +304,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 1. 次のいずれかの操作を行います。
 
-   * グループの下のグループの管理者がグループの環境設定を設定できるようにするには、そのロックを解除します ![&#x200B; ロック解除切替スイッチ &#x200B;](assets/unlock-toggle-button.png)。
+   * グループの下のグループの管理者がグループの環境設定を行えるようにするには、そのグループのロックを解除します。![切り替え](assets/unlock-toggle-button.png)。
    * グループとその下のすべてのグループで環境設定の設定を使用する場合は、ロックされている（デフォルト）ことを確認します。
 
      >[!IMPORTANT]

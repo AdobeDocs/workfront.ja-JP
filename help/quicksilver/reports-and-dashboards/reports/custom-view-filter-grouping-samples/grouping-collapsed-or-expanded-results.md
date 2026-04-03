@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: グループ化：テキストモードを使用してグループ化の結果を折りたたむか展開するかを指定します
+title: グループ化：グループ化の結果をテキストモードで折りたたむか、拡張するかを示します
 description: グループ化：テキストモードでグループ化の結果を折りたたむか展開するかを指定します
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 84%
@@ -51,8 +53,8 @@ ht-degree: 84%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -74,7 +76,7 @@ ht-degree: 84%
 1. オブジェクトのリストに移動します。
 1. **グループ化**&#x200B;ドロップダウンメニューで、「**新規グループ化**」を選択します。
 
-1. グループ化を追加して、「**テキストモードに切り替え**」をクリックします。
+1. グループ化を追加し、**テキストモードに切り替え**&#x200B;をクリックします。
 
    または
 
@@ -87,4 +89,4 @@ ht-degree: 84%
    `group.0.iscollapsed=false`
 
 1. 「**完了**」、「**グループ化の保存**」の順にクリックします。
-1. （オプション）グループ化の名前を更新し、「**グループ化を保存**」をクリックします。
+1. （オプション）グループ化の名前を更新し、**グループ化を保存**&#x200B;をクリックします。

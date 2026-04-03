@@ -1,12 +1,14 @@
 ---
 product-area: projects
 navigation-topic: task-duration
-title: シンプル期間タイプでタスクの予定時間数と期間を更新します
+title: シンプル期間タイプを使用して、タスクの予定時間と期間を更新する
 description: デフォルトでは、予定時間数に基づいてシンプル期間タイプでタスクの期間が計算されます。ただし、Workfront の特定のエリアでは、予定時間数タスクとシンプル期間のタスクの期間を手動で編集することもできます。
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 78%
@@ -37,7 +39,7 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>Standard 以上</p> 
+   <td><p>Standard以上</p> 
    <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +57,8 @@ ht-degree: 78%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ ht-degree: 78%
    <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## タスクの予定時間数と期間のシンプルな期間タイプでの更新
 
@@ -91,13 +95,13 @@ ht-degree: 78%
 1. タスクのリストで、期間タイプを変更するタスクの名前をクリックします。
 1. 次のいずれかの操作を行います。
 
-   * タスク名の横にある **その他** アイコン ![&#x200B; オブジェクトの詳細アイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックし、**編集**/**割り当て** をクリックします。
-   * タスクヘッダーの「割り当て先」領域で **割り当て先** または割り当ての名前をクリックし、**詳細** をクリックします。
+   * タスク名の横にあるオブジェクト **の**&#x200B;詳細![ アイコン ](assets/qs-more-icon-on-an-object.png)詳細アイコンをクリックし、**編集**、**割り当て**&#x200B;をクリックします。
+   * タスク ヘッダーの「**割り当て先**」または「割り当て先」セクションの割り当て名をクリックし、「**詳細**」をクリックします。
 
 1. すべての割り当ての **予定時間数**&#x200B;の合計値を入力します（例：10 時間）。予定時間数の合計は、タスクに割り当てられたすべてのリソースに均等に配分されます。
-1. （オプション）タスクに割り当てられた各リソースの予定時間数を手動で調整します。 リソースに個別に割り当てられた新しい時間を反映するためにタスクの更新を行う予定時間の合計数です。
+1. （オプション）タスクに割り当てられた各リソースの予定時間数を手動で調整します。 タスク更新の予定時間数の合計数は、リソースに個別に割り当てられた新しい時間を反映します。
 1. タスクの&#x200B;**期間**&#x200B;の値を入力します（例：2 日）。
 
-   ![&#x200B; 詳細割り当て単純期間複数リソース &#x200B;](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![高度な割り当て単純期間、複数のリソース ](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. 「**保存**」をクリックします。

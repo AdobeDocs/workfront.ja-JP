@@ -1,34 +1,38 @@
 ---
-title: レコードビューを複製
-description: 複数のバージョンのビューを保持し、バージョン間でわずかな変更を加える場合、Adobe Workfront Planning でビューを複製できます。 この記事では、ビューを複製する方法について説明します。
+title: レコードビューの重複
+description: 複数のバージョンのビューを保持し、バージョン間で少し変更したい場合は、Adobe Workfront Planningでビューを複製できます。 この記事では、ビューを複製する方法について説明します。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 28%
+ht-degree: 30%
 
 ---
 
-# レコードビューを複製
+# レコードビューの複製
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
 
-複数のバージョンのビューを保持し、バージョン間でわずかな変更を加える場合、Adobe Workfront Planning でビューを複製できます。
+複数のバージョンのビューを保持し、バージョン間で少し変更したい場合は、Adobe Workfront Planningでビューを複製できます。
 
 ビューを複製すると、既存のビューと同一のコピーが作成されます。
 
 元のビューの共有権限は、複製されたビューには移行されません。
 
-ビューの複製は、Workfront Planning のすべてのタイプのビューで同じです。
+ビューの複製は、Workfront Planningのすべてのタイプのビューに対して同じです。
 
 ## アクセス要件
 
@@ -46,10 +50,10 @@ ht-degree: 28%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontと任意の Planning パッケージ</p>
+<p>任意のWorkfrontおよびプランニングパッケージ</p>
 
-<p>任意のワークフローおよび任意の計画パッケージ</p>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+<p>任意のワークフローとプランニングパッケージ</p>
+<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
@@ -59,16 +63,17 @@ ht-degree: 28%
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ビューに対する権限を管理</p>  
-   <p>ビュー設定を一時的に変更したり、複製したりするためのビューへのアクセス許可を表示します。</p> </td> 
+   <p>ビューの権限を表示して、ビュー設定を一時的に変更したり、ビュー設定を複製したりできます。</p> </td> 
   </tr>   
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -123,9 +128,10 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    <p>View permissions to a view to temporarily change the view settings or to duplicate it.</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
-## レコードビューを複製
+## レコードビューの複製
 
 {{step1-to-planning}}
 
@@ -135,11 +141,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. レコードタイプのカードをクリックします。
 
-   レコードタイプ ページが開きます。
+   レコードタイプページが開きます。
 デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. 現在のビュー名の横にあるドロップダウンアイコン ![&#x200B; ドロップダウンアイコン &#x200B;](assets/drop-down-icon.png) をクリックし、ビューの名前にポインタを合わせて **詳細** をクリックしてから、「複製 **をクリックし** す。
+1. 現在のビュー名の横にあるドロップダウンアイコン ![ ドロップダウンアイコン ](assets/drop-down-icon.png)をクリックし、ビューの名前にカーソルを合わせ、**詳細**&#x200B;をクリックしてから&#x200B;**複製**&#x200B;します。
 
-   ![&#x200B; オプション付きビューの詳細メニュー &#x200B;](assets/more-menu-for-views-expanded-with-delete-option.png)
+   ![ オプション付きの表示に関する詳細メニュー](assets/more-menu-for-views-expanded-with-delete-option.png)
 
    ビューが複製され、新しいビューの名前が次のパターンに従います。`Original view's name (Copy)`新しいビュータブは、すべてのビュータブの最後に表示されます。

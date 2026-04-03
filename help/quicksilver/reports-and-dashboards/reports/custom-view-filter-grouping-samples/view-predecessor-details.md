@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：先行タスクの詳細
+title: ビュー：先行タスクの詳細
 description: このタスクビューには、コレクションビューを使用して、タスクの先行タスクの詳細が表示されます。コレクションビューでは、「1 対多」の関係にあるオブジェクトに関する情報を表示できます。この場合、それぞれのタスク（1 つ）に複数の先行タスク（多）を設定できます。このビューには、タスクの名前、その先行タスクの名前、先行タスクのプロジェクト名、先行タスクの予定完了日、先行タスクのステータスが表示されます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 81%
@@ -39,8 +41,8 @@ ht-degree: 81%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -64,8 +66,8 @@ ht-degree: 81%
 1. **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 
 1. **列のプレビュー**&#x200B;領域で、1 つを除くすべての列を削除します。
-1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え**/**テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```
    column.0.displayname=
@@ -104,4 +106,4 @@ ht-degree: 81%
    column.4.valueformat=HTML
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。

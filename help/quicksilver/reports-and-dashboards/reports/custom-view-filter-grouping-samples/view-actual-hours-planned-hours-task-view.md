@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：タスク表示の同じ列の予定時間数に対する実際の時間数
-description: このタスク ビューでは、各タスクの予定時間に対する実際の記録時間数が表示されます。 予定時間と実際の時間の時間差異も、別の列に表示されます。
+description: このタスクビューでは、タスクに記録された実際の時間数が、各タスクに計画された時間数にわたって表示されます。 「計画」と「実際の時間」の間の「時間差異」も別の列に表示されます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 54%
@@ -16,7 +18,7 @@ ht-degree: 54%
 
 # 表示：タスク表示の同じ列の予定時間数に対する実際の時間数
 
-このタスク ビューでは、各タスクの予定時間に対する実際の記録時間数が表示されます。 予定時間と実際の時間の時間差異も、別の列に表示されます。
+このタスクビューでは、タスクに記録された実際の時間数が、各タスクに計画された時間数にわたって表示されます。 「計画」と「実際の時間」の間の「時間差異」も別の列に表示されます。
 
 ![actual_vs_planned_in_task_report.png](assets/actual-vs-planned-in-task-report-350x58.png)
 
@@ -37,8 +39,8 @@ ht-degree: 54%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -63,8 +65,8 @@ ht-degree: 54%
 1. **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 1. **列のプレビュー**&#x200B;領域で、1 つを除くすべての列を削除します。
 1. 残りの列のヘッダーをクリックし、「**テキストモードに切り替え**」をクリックします。
-1. テキストモード領域にマウスポインターを置き、「**テキストモードを編集**」をクリックします。
-1. テキストモードボックスで見つかったテキストを削除し、次のコードに置き換えます。
+1. テキストモード領域にマウスポインターを置き、**テキストモードを編集**&#x200B;をクリックします。
+1. テキストモードボックスに表示されるテキストを削除し、次のコードに置き換えます。
 
    ```
    column.0.descriptionkey=name
@@ -109,4 +111,4 @@ ht-degree: 54%
    column.3.valueformat=customNumberAsString
    ```
 
-1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存**」をクリックします。

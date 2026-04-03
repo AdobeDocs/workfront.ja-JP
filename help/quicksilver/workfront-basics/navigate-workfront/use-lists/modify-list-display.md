@@ -1,11 +1,13 @@
 ---
 navigation-topic: use-lists
-title: リストの表示方法の変更
+title: リストの表示方法を変更する
 description: ' [!DNL Adobe Workfront] では、リストの表示方法をカスタマイズできます。対象のリストを表示している他のユーザーには、変更は反映されません。'
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 98%
@@ -88,7 +90,7 @@ ht-degree: 98%
 
 1. （オプションおよび条件付き）画面に特定の数の項目を表示する場合は、画面の右下隅にある&#x200B;**[!UICONTROL 表示中]**&#x200B;ドロップダウンメニューから、**100**、**250**、**500**、**[!UICONTROL すべて]**&#x200B;または **2000** 項目の表示を選択します。
 
-   ![&#x200B; ページにリスト番号 &#x200B;](assets/list-number-page-350x119.png)
+   ![ ページのリスト番号](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >
@@ -98,7 +100,7 @@ ht-degree: 98%
    >書式設定されたテキストフィールドがオブジェクトに含まれる大きなリストの場合に最高のパフォーマンスを得るには、この数を 250 に制限することをお勧めします。
    >
    >
-   >2 つのリストタイプについて詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) のリストの基本を学ぶの記事で[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。
+   >2 つのリストタイプについて詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) のリストの基本を学ぶの記事で[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。
 
    リストの結果はページ分割され、選択された数の項目がページごとに表示されます。前向きおよび後向きの矢印をクリックするか、特定のページを選択すると、他のページの結果にアクセスできます。
 

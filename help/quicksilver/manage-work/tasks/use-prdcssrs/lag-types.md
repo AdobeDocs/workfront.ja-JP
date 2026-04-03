@@ -2,15 +2,17 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: 間隔の種類の概要
+title: ラグタイプの概要
 description: ラグとは、強制的な先行タスクの完了後、依存タスクの開始までに経過する必要がある時間（正のラグ）、または先行タスクの開始前に依存タスクを開始できる時間（負のラグ）のことです。
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -54,7 +56,8 @@ ht-degree: 98%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ ht-degree: 98%
    <td> <p>Manage permissions to the tasks and the project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## ラグタイプ {#lag-types}
 

@@ -2,12 +2,14 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: レポートの実行中に次のエラーメッセージが表示されます。「現在ログインしていません。」
+title: レポートの実行時に「現在ログインしていません」というエラーメッセージが表示される。
 description: 「現在ログインしていません」というエラーメッセージについて説明します。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 94%

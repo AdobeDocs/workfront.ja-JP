@@ -1,27 +1,29 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: ホームエリアからの作業項目とプロジェクトの作成
-description: '[!UICONTROL &#x200B; ホーム &#x200B;] エリアから作業項目およびプロジェクトを作成できます。'
+title: ホーム エリアからの作業項目とプロジェクトの作成
+description: 作業項目とプロジェクトは、[!UICONTROL  ホーム ]領域から作成できます。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
-# ホームエリアからの作業項目とプロジェクトの作成
+# ホームエリアからの作業アイテムとプロジェクトの作成
 
-[!UICONTROL &#x200B; ホーム &#x200B;] エリアから作業項目およびプロジェクトを作成できます。
+作業項目とプロジェクトは、[!UICONTROL  ホーム ]領域から作成できます。
 
-ホームでは、次のことができます
+ホームから、次のことができます
 
 * リクエストの送信
-* 特定のプロジェクトへのタスクと問題の追加
-* テンプレートまたは空のプロジェクトからプロジェクトを作成するか、MS プロジェクトをインポートします。
+* 特定のプロジェクトへのタスクとイシューの追加
+* テンプレートからプロジェクトを作成するか、空白のプロジェクトを作成するか、MS プロジェクトを読み込みます。
 
 ## アクセス要件
 
@@ -39,7 +41,7 @@ ht-degree: 8%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
    <td>
     <p>標準</p> 
-    <p>ワークまたはそれ以上</p> </td> 
+    <p>Work またはそれ以上</p> </td> 
   </tr> 
     <tr> 
    <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
@@ -47,7 +49,7 @@ ht-degree: 8%
   </tr> 
    <tr> 
    <td role="rowheader"><strong>その他の製品</strong></td> 
-   <td>計画リクエストまたはリクエストフォームを表示するには、Adobe Workfront Planning が必要です。</td>
+   <td>プランニングリクエストまたはリクエストフォームを表示するには、Adobe Workfront Planningが必要です</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
@@ -60,102 +62,102 @@ ht-degree: 8%
 
 +++
 
-## 個人の To Do アイテムを作成する
+## 個人のToDo アイテムの作成
 
-[!UICONTROL &#x200B; ホーム &#x200B;] エリアの To Do ウィジェットに、個人の To Do アイテムを作成できます。 To Do アイテムは、自分で作成する個人用タスクです。
+[!UICONTROL  ホーム ] エリアのTo-dos ウィジェットで、個人のTo-Do アイテムを作成できます。 ToDo アイテムは、自分で作成した個人的なタスクです。
 
-自分および他のユーザーは、自分の個人タスクを個人タスクレポートで表示できます。 必要に応じて、そこからプロジェクトに追加できます。
+個人タスクレポートでは、自分と他のユーザーが個人タスクを表示できます。 その後、必要に応じてプロジェクトに追加することができます。
 
 >[!TIP]
 >
->ユーザープロファイルページから他のユーザーまたは自分に送信した作業項目も、ユーザーのホーム領域の To-Do ウィジェットに表示されます。 詳しくは、[&#x200B; 個人タスクの作成 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) を参照してください。
+>ユーザープロファイルページから他のユーザーまたは自分に送信した作業項目も、ユーザーのホーム領域のTo-Do ウィジェットに表示されます。 詳しくは、[個人用タスクの作成](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)を参照してください。
 
 
-To Do 項目を作成するには：
+ToDo アイテムを作成するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、左上隅の **メインメニュー**![&#x200B; メインメニューラインのアイコン &#x200B;](assets/lines-main-menu.png) をクリックして（使用可能な場合）、**[!UICONTROL ホーム]** をクリックします。
-1. （条件付き） **カスタマイズ** をクリックし、**To-Do** をクリックして、To-Do ウィジェットをホーム画面に追加します。
-1. **To Do** ウィジェットに移動し、「**To Do を追加** をクリックします。
-1. 個人の To Do アイテムの名前を入力し、[Enter] をクリックします。
-1. （オプション） **日付** アイコン ![&#x200B; 日付アイコン &#x200B;](assets/date-icon.png) をクリックして、項目の期限を追加します。
-   ![&#x200B; 私の作業 To-Do](assets/my-work-to-dos.png)
-1. （任意）個人用タスクレポートまたはフィルターを作成します。 個人用タスク フィルタの作成については、「[&#x200B; フィルタ：個人用タスク &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)」を参照してください。
-個人タスクレポートには、自分の To Do 項目と他のユーザーの To Do 項目を表示できます。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** ![ メインメニューライン アイコン ](assets/lines-main-menu.png)をクリックしてから、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. （条件付き）「**カスタマイズ**」をクリックし、**To-dos**」をクリックして、To-dos ウィジェットをホーム画面に追加します。
+1. **To-do** ウィジェットに移動し、**To-do**&#x200B;を追加をクリックします。
+1. 個人のToDo項目の名前を入力し、「Enter」をクリックします。
+1. （オプション）「**日付**」アイコン「![日付アイコン ](assets/date-icon.png)」をクリックして、項目の期日を追加します。
+   ![自分の作業用ToDo](assets/my-work-to-dos.png)
+1. （オプション）個人用タスクレポートまたはフィルターを作成します。 個人タスクフィルターの作成について詳しくは、[ フィルター：個人タスク ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)を参照してください。
+個人タスクレポートでは、ToDo項目だけでなく、他のユーザーのToDo項目も表示できます。
 
 ## プロジェクトへのタスクの追加
 
-ホーム エリアから既存のプロジェクトに直接タスクを追加できます。
+ホーム領域から直接、既存のプロジェクトにタスクを追加できます。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
-1. （条件付き） **マイタスク** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイタスク** を検索します。
-1. **マイタスク** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![&#x200B; 新規タスクを作成 &#x200B;](assets/create-new-task.png)
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. （条件付き）ホーム画面に&#x200B;**マイタスク** ウィジェットを追加します。 **カスタマイズ**&#x200B;をクリックして、**マイタスク**&#x200B;を見つけます。
+1. **マイタスク** ウィジェットに移動し、**新規**をクリックします。
+   ![新しいタスクを作成](assets/create-new-task.png)
 1. **新規タスク** ダイアログボックスで、タスク名を入力します。
-1. プロジェクト名の入力を開始し、リストから名前を選択します。
+1. プロジェクト名を入力し、リストから名前を選択します。
 1. （オプション）次のフィールドに情報を入力します。
 
    | フィールド | 手順 |
    |----------|----------|
    | **説明** | 説明を入力します。 |
-   | **割り当て** | ユーザーを割り当てます。 |
+   | **割り当て** | ユーザーの割り当て： |
    | **期間** | 期間を入力します。 |
-   | **予定完了日** | 計画完了日を選択します。 |
-   | **その他のオプション** | その他のオプションを選択して、タスクのその他の設定を構成します。 タスクの作成について詳しくは、[&#x200B; タスクの編集 &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) を参照してください。 |
+   | **予定完了日** | 予定完了日を選択します。 |
+   | **その他のオプション** | その他のオプションを選択して、タスクの設定を追加します。 タスクの作成について詳しくは、[ タスクの編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。 |
 
-1. **タスクを作成** をクリックします。
+1. 「**タスクを作成**」をクリックします。
 
 
-## プロジェクトへのイシューの追加
+## プロジェクトにイシューを追加する
 
 ホーム領域から既存のプロジェクトにイシューを直接追加できます。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
-1. （条件付き） **マイ問題** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイイシュー** を見つけます。
-1. **自分のイシュー** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![&#x200B; 新しいイシューを作成 &#x200B;](assets/create-new-issue.png)
-1. **新しいイシュー** ダイアログボックスで、プロジェクト名の入力を開始し、リストから名前を選択します。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. （条件付き）ホーム画面に&#x200B;**マイイシュー** ウィジェットを追加します。 「**カスタマイズ**」をクリックし、**自分の問題**&#x200B;を見つけます。
+1. **マイイシュー** ウィジェットに移動し、**新規**をクリックします。
+   ![新しい問題を作成](assets/create-new-issue.png)
+1. **新しい問題ダイアログ** ボックスで、プロジェクト名の入力を開始し、リストから名前を選択します。
 1. イシュー名を入力します。
 1. （オプション）次のフィールドに情報を入力します。
 
    | フィールド | 手順 |
    |----------|----------|
    | **説明** | 説明を入力します。 |
-   | **割り当て** | ユーザーを割り当てます。 |
-   | **優先度** | 優先度レベルを選択します。 |
+   | **割り当て** | ユーザーの割り当て： |
+   | **優先度** | 優先度レベルの選択： |
    | **ドキュメント** | ドキュメントをアップロードします。 |
 
-1. **新しいイシューを保存** をクリックします。
+1. **新しい問題を保存**&#x200B;をクリックします。
 
 ## リクエストの作成
 
-リクエストは、ホーム エリアから直接作成できます。
+リクエストは、ホーム領域から直接作成できます。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
-1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
-1. **マイリクエスト** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![&#x200B; 新しいリクエストの作成 &#x200B;](assets/create-new-request-new.png)
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. （条件付き）ホーム画面に&#x200B;**マイリクエスト** ウィジェットを追加するには。 **カスタマイズ**&#x200B;をクリックして、**自分のリクエスト**&#x200B;を見つけます。
+1. **My Requests** ウィジェットに移動し、**New**をクリックします。
+   ![新しいリクエストを作成](assets/create-new-request-new.png)
 
-1. **新規リクエスト** ダイアログで、検索バーにWorkfront リクエストキューまたはWorkfront Planning リクエストフォームの名前を入力し始め、表示されたら選択します。
+1. **新しいリクエスト** ダイアログで、検索バーにWorkfront リクエストキューまたはWorkfront Planning リクエストフォームの名前を入力し始め、表示されたら選択します。
 1. 関連するフィールドに入力します。
 1. 「**送信**」をクリックします。
 
-リクエストの送信について詳しくは、[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+リクエストの送信について詳しくは、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
-## プロジェクトを作成
+## プロジェクトの作成
 
-ホームエリアから直接プロジェクトを作成できます。
+プロジェクトは、ホーム領域から直接作成できます。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
-1. （条件付き） **マイプロジェクト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイプロジェクト** を見つけます。
-1. **マイプロジェクト** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![&#x200B; 新規プロジェクトを作成 &#x200B;](assets/create-new-project.png)
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. （条件付き）ホーム画面に&#x200B;**My Projects** ウィジェットを追加します。 **カスタマイズ**&#x200B;をクリックして、**マイプロジェクト**&#x200B;を見つけます。
+1. **My Projects** ウィジェットに移動し、**New**をクリックします。
+   ![新しいプロジェクトを作成](assets/create-new-project.png)
 1. 次のいずれかのオプションを選択します。
 
    | フィールド | 手順 |
    |----------|----------|
-   | テンプレートから | テンプレートからプロジェクトを作成する手順について詳しくは、[&#x200B; テンプレートを使用してプロジェクトを作成 &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) を参照してください。 |
-   | 空のプロジェクト | 空のプロジェクトを作成する手順について詳しくは、[&#x200B; ゼロからプロジェクトを作成 &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch) を参照してください。 |
-   | MS Project を読み込み | MS プロジェクトを読み込む手順について詳しくは、[Microsoft プロジェクトからプロジェクトを読み込む &#x200B;](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md) を参照してください。 |
+   | テンプレートから | テンプレートからプロジェクトを作成する詳細な手順については、[ テンプレートを使用したプロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)にアクセスしてください。 |
+   | 空のプロジェクト | 空のプロジェクトの作成手順の詳細については、[ ゼロからプロジェクトを作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch)に移動してください。 |
+   | MS Project を読み込み | MS プロジェクトの読み込みの詳細な手順については、[Microsoft プロジェクトからプロジェクトを読み込む](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md)を参照してください。 |
 
 
 <!--
@@ -164,7 +166,8 @@ To Do 項目を作成するには：
 You can create a board directly from the Home area:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**.
+-->
 
 
 
@@ -182,4 +185,5 @@ You can create a board directly from the Home area:
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date.
+-->

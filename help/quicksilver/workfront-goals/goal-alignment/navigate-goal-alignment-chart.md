@@ -1,12 +1,14 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Adobe Workfront Goals の「目標の整合性」セクションへの移動
+title: Adobe Workfront Goalsの「目標の調整」セクションを移動します
 description: 「目標の整合性」セクションを使用して、組織全体の目標揃えの全体像をフローチャートに表示します。整合させた目標は、階層ツリー内で相互に接続するカードに表示されます。
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 82%
@@ -41,7 +43,7 @@ ht-degree: 82%
   <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p>
+   <p>Adobe Workfront Ultimate</p>
 
 <p><b>メモ</b></p>
 <p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
@@ -50,7 +52,7 @@ ht-degree: 82%
   <tr> 
    <td> <p>Adobe Workfront プラン</p> </td> 
    <td> <p>コントリビューター以上</p> 
-     <p>要求者以上</p> </td> 
+     <p>依頼者以上</p> </td> 
   </tr>
 
 <td><p>アクセスレベル設定</p> </td> 
@@ -62,17 +64,18 @@ ht-degree: 82%
 <p>目標に対する編集権限を管理</p>
   <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの「目標」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
  </tbody> 
 </table>
 
-詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto">
 <col>
@@ -124,7 +127,8 @@ Or
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## 目標の関連付けページへの移動
 
@@ -151,7 +155,7 @@ Or
      </tr> 
      <tr> 
       <td role="rowheader">所有者名</td> 
-      <td>目標所有者として指定されたユーザー、チーム、グループまたは組織の名前。 </td> 
+      <td>ユーザー、チーム、グループ、または目標所有者として指定された組織の名前。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">目標名</td> 
@@ -161,14 +165,15 @@ Or
       <td role="rowheader">目標進捗バー<span>および進捗</span></td> 
       <td> <p>目標の進捗は、現在達成されている目標の量を示します。これは、目標の期間の開始以降の経過時間に基づいて、目標に関連するすべての目標、結果およびアクティビティの進捗の平均を自動計算します。目標の進捗の計算について詳しくは、<a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront Goals の目標進捗と条件の概要</a>を参照してください。 </p> 
        <div> 
-        <p>現在の日付までの目標の実際の進捗状況。 次のプログレス値と色は、目標が予定どおりに達成される可能性が高いことを示しています。 </p> 
+        <p>現在の日付での目標の実際の進捗状況。 次の進捗状況の値と色は、目標が時間通りに達成される可能性を示しています。 </p> 
         <ul> 
          <li><span>目標どおり</span>（緑のインジケーター）：目標まで時間通りに進捗しており、時間通りに達成されるでしょう。</li> 
-         <li> <span> 危険 </span> （黄色のインジケーター）：目標は遅れていて、時間通りに達成されない可能性があります。</li> 
-         <li> <span> 問題あり </span> （赤いインジケーター）：目標が時間通りに達成されない危険があります。 </li> 
+         <li> <span>危険</span> （黄色のインジケーター）：目標は遅れて実行され、時間内に達成されない可能性があります。</li> 
+         <li> <span> トラブル </span> （赤いインジケーター）：目標が時間通りに達成されない危険があります。 </li> 
         </ul> 
        </div> </td> 
-     </tr> <!--
+     </tr>
+     <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Updated on date </td> 
        <td> <p>The date when the goal was last updated</p> <p>(NOTE: drafted because I think this was removed with the alignment chart redesign - 21.1) </p> </td> 
@@ -183,11 +188,11 @@ Or
 
    他の目標に整合させた目標は、その数が目標カードの下に表示されます。
 
-   ![&#x200B; 整列グラフの矢印 &#x200B;](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![整列グラフの矢印](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. 目標の下の&#x200B;**下向き矢印**&#x200B;アイコンをクリックして、子目標をさらに展開し表示します。
 
-   ![&#x200B; 整列グラフの矢印 &#x200B;](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![整列グラフの矢印](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -195,23 +200,23 @@ Or
 
 1. （条件付き）現在のフィルターでアラインメントに関与する一部の目標が除外されている場合は、すべての目標が表示されるというわけではないことを示す警告メッセージが表示されます。
 
-   ![&#x200B; 親目標が除外されました &#x200B;](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![親の目標が除外されました](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
-1. 「**表示**」をクリックし、フィルターによって現在除外されている目標を表示します。
+1. 「**それらを表示**」をクリックして、フィルターによって現在除外されている目標を表示します。
 
    次のようにアラインメントチャートが変更されます。
 
    * 以前フィルターで削除された連結目標が、アラインメントチャートに表示されるようになりました。
    * 右上隅のフィルターは黄色で囲まれていますが、これは現在適用されていないことを示しています。
 
-     ![&#x200B; 黄色のフィルタ ハイライト &#x200B;](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![黄色のフィルターのハイライト ](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      フィルター名の左側に、フィルターを再適用リンクが表示されます。
 
 1. （オプション）「**フィルターを再適用**」をクリックして元の結果に戻り、目標の階層を表示します。
 1. （オプション）進行状況のインジケーターの上にポインタを合わせて、現在の 1 日の目標の進行状況を把握します。
 
-   ![&#x200B; 整列グラフにマウスポインターを合わせる &#x200B;](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![整列グラフにマウスを置く](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    次の情報が表示されます。
 

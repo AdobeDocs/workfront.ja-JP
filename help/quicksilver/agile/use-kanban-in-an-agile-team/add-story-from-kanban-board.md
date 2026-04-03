@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: かんばんボードからストーリーと問題を追加
+title: カンバンボードからのストーリーとイシューの追加
 description: かんばんボードから直接、新しいストーリーやイシューをすばやく作成できます。
 author: Courtney
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 93%
@@ -38,7 +40,7 @@ ht-degree: 93%
   </tr>
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td>タスクまたはイシューへのアクセスの管理 </td> 
+   <td>タスクまたは問題へのアクセスを管理します </td> 
   </tr> 
  </tbody> 
 </table>

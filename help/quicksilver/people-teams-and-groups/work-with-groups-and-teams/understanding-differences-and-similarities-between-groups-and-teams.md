@@ -2,12 +2,14 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
-title: Workfrontのグループとチーム
-description: グループとチームは、Adobe Workfrontのユーザーの集まりです。 グループとチームの違いと類似点について説明します。
+title: Workfrontにおけるグループとチームの比較
+description: グループとグループは、Adobe Workfrontのユーザーコレクションです。 グループとチームの違いと類似点について説明します。
 author: Courtney and Becky
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 81%
@@ -34,9 +36,9 @@ ht-degree: 81%
 
 ## チームを使用して、部門内の作業構造を表します
 
-部門チームの日々の作業構造に合わせてチームを設定することをお勧めします。
+部門チームの日常業務に合わせて、チームを構成することをお勧めします。
 
-たとえば、給与チーム、買掛金担当チーム、および売掛金担当チームがあるとします。 通常、これらの各チームの職員は、これらのチームにとって類似したプロジェクト、タスクまたはイシューに取り組みます。
+たとえば、給与計算チーム、買掛金チームおよび売掛金チームがあるとします。 通常、これらの各チームの職員は、これらのチームにとって類似したプロジェクト、タスクまたはイシューに取り組みます。
 
 チームの作成と管理について詳しくは、[チームの作成と管理](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)を参照してください。
 

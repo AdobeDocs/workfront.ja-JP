@@ -2,12 +2,14 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: フィルター：以前の校正バージョンを省略する校正承認レポート
+title: 'Filter: Proof Approval Report to Omit Previous Proof Versions'
 description: プルーフの承認レポートでは、「現在のドキュメントのバージョン」フィルターを使用して、承認待ちのプルーフの現在のバージョンのみを含めることができるようになりました。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 48%
@@ -18,7 +20,7 @@ ht-degree: 48%
 
 <!--Audited: 10/2024-->
 
-校正承認レポートで、**現在のドキュメントバージョン**&#x200B;フィルターを使用して、承認待ちの校正の現在のバージョンのみを含めることができます。
+プルーフの承認レポートでは、**現在のドキュメントバージョン** フィルターを使用して、承認待ちのプルーフの現在のバージョンのみを含めることができます。
 
 これは、例えば、複数のバージョンを持つプルーフの承認を求められた場合に役に立ちます。「現在のドキュメントのバージョン」フィルターを使用してプルーフ承認レポートを実行すると、そのレポートには、承認を待っている各プルーフの現在のバージョンのみが一覧表示され、作業する必要がなくなった以前のバージョンは除外されます。
 
@@ -37,8 +39,8 @@ ht-degree: 48%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
-   <p>レポートを変更するための「標準」または「プラン」</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -57,7 +59,7 @@ ht-degree: 48%
 
 ## プルーフ承認レポートをフィルタリングしてプルーフの以前のバージョンを除外
 
-校正承認レポートのフィルターを作成できます。
+プルーフ承認レポートのフィルターを作成できます。
 
 1. 既にプルーフの承認レポートがある場合は、そのレポートを開きます。
 
@@ -67,10 +69,10 @@ ht-degree: 48%
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   独自の校正承認レポートを作成するには、右上隅の&#x200B;**メインメニュー**&#x200B;アイコン![メインメニューアイコン](assets/main-menu-icon.png)をクリックするか、左上隅の&#x200B;**メインメニュー**&#x200B;アイコン![メインメニュー行](assets/lines-main-menu.png)をクリックします（使用可能な場合）。**レポート** ![レポートアイコン](assets/reports-in-main-menu.png)をクリックします。
+   独自のプルーフ承認レポートを作成するには、右上隅の&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** アイコン ![ メインメニューライン ](assets/lines-main-menu.png)をクリックします。使用可能な場合は、**レポート** ![ レポートアイコン ](assets/reports-in-main-menu.png)をクリックします。
 
-1. **新しいレポート**&#x200B;をクリックします。 オブジェクトタイプのリストが表示されます。
-1. 一覧の[**承認の証明**]をクリックします。
+1. 「**新規レポート**」をクリックします。 オブジェクトタイプのリストが表示されます。
+1. リストの&#x200B;**プルーフ承認**をクリックします。
 レポートビルダーが開きます。
 1. 「**フィルター**」、「**フィルタールールを追加**」の順にクリックします。
 
@@ -78,9 +80,9 @@ ht-degree: 48%
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Tell Proof Lehi this isn't visible unless you scroll to it over on the right, not at all obvious. When on a laptop.</p>
    -->
 
-1. **レポートのフィルタールールを設定**&#x200B;ボックス内をクリックし、一覧から&#x200B;**承認の証明**&#x200B;を選択します。
-1. **Proof Approval**&#x200B;オブジェクトの下のリストで、**現在のドキュメントバージョン**&#x200B;をクリックします。
-1. フィルタモディファイヤで[等しい]を選択し、[はい]を選択します。
-1. Adobe Workfrontの左下隅にある&#x200B;**保存+閉じる**&#x200B;をクリックし、表示されるボックスで「**適用**」をクリックします。
+1. 「**フィルターのルールを設定」ボックス内をクリックし、リストから「** プルーフの承認&#x200B;**」を選択します。**
+1. **プルーフ承認** オブジェクトのリストで、**現在のドキュメント バージョン**&#x200B;をクリックします。
+1. フィルター修飾子に「等しい」を選択し、「True」を選択します。
+1. Adobe Workfrontの左下隅にある&#x200B;**保存+閉じる**&#x200B;をクリックし、表示されるボックスで&#x200B;**適用**&#x200B;をクリックします。
 
-   校正承認レポートでは、校正承認がこのフィルタリング基準と一致する場合、文書の現在のバージョンに関連付けられた校正のみが表示されます。
+   プルーフの承認がこのフィルター条件に一致する場合、プルーフの承認レポートには、ドキュメントの現在のバージョンに関連付けられたプルーフのみが表示されます。

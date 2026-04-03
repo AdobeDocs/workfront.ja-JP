@@ -8,7 +8,9 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 95%
@@ -28,7 +30,7 @@ ht-degree: 95%
 * [テキストモードの構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [テキストモードを使用したビューの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [テキストモードを使用したフィルターの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [&#x200B; テキストモードを使用したグループ化の編集 &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+* [ テキストモードを使用したグループ化の編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 * [カスタムビュー、フィルタ、およびグループ化の例：記事インデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
   <!--  (NOTE: this is linked here although from another section)  -->

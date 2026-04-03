@@ -1,12 +1,14 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: スマート割り当ての作成
+title: スマート割り当ての実行
 description: スマート割り当てを使用して、作業を完了するのが最適なユーザーを特定できます。スマート割り当ては、業務に最も適したリソースを決定するアルゴリズムに基づいて作業アイテムをリソースに割り当てる際に Adobe Workfront に表示される、ユーザー、役割またはチームに関する提案です。スマート割り当てについて詳しくは、スマート割り当ての概要を参照してください。
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 88%
@@ -70,19 +72,21 @@ ht-degree: 88%
    * ワークロードバランサーのタスクまたはイシュー
      <!--* <span class="preview">A New Task</span> or New Issue box, as you add <span class="preview">a new task</span> or issue to a project-->
 
-1. 「割り当て」フィールドにカーソルを置き、2 秒間待ちます。
+1. 「割り当て」フィールドにカーソルを置き、2秒間待ちます。
 
-   <!--For issues, the smart assignments display in the following sections: 
+   <!--
+   For issues, the smart assignments display in the following sections: 
       * **Users and teams**
       * **Job roles**
-        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)-->
+        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)
+        -->
 
-   スマート割り当ては、次のセクションに表示されます <!--, depending on which phase of the algorithm's calculation identified the assignments-->
+   スマート割り当ては、次のセクション <!--, depending on which phase of the algorithm's calculation identified the assignments-->に表示されます。
 
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
-   * **ユーザーとチーム** または **担当業務** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
+   * **ユーザーとチーム**&#x200B;または&#x200B;**担当業務** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   ![&#x200B; タスクリスト内のスマート割り当ての例 &#x200B;](assets/smart-assignments-task-list.png)
+   ![ タスクリストのスマート割り当ての例](assets/smart-assignments-task-list.png)
 
    詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 

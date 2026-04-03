@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：割り当てられたユーザーの会社およびホームグループ
+title: 表示：割り当てられたユーザーの会社とホームグループ
 description: このタスクビューには、タスクのプライマリ所有者の会社とホームグループが表示されます。これらの値は、標準インターフェイスでは使用できませんが、テキストモードでアクセスできます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 70%
@@ -20,7 +22,7 @@ ht-degree: 70%
 
 このタスクビューには、タスクのプライマリ所有者の会社とホームグループが表示されます。これらの値は、標準インターフェイスでは使用できませんが、テキストモードでアクセスできます。
 
-![&#x200B; 割り当てられたユーザーの会社およびホーム グループを表示する &#x200B;](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![割り当てられたユーザーの会社とホームグループを表示](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## アクセス要件
 
@@ -37,8 +39,8 @@ ht-degree: 70%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -60,10 +62,10 @@ ht-degree: 70%
 1. タスクのリストに移動します。
 1. **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 
-1. **列プレビュー** 領域で、1 列以外のすべての列を削除します。
+1. **列プレビュー**&#x200B;領域で、1列を除くすべての列を削除します。
 1. 残りの列のヘッダーをクリックし、「**テキストモードに切り替え**」をクリックします。
-1. **テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. 「**テキストモードを編集**」をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```
    column.0.descriptionkey=name
@@ -122,5 +124,5 @@ ht-degree: 70%
    column.3.width=150
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
-1. （オプション）ビュー名を更新し、「**ビューを保存**」をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。
+1. （オプション）ビュー名を更新し、**ビューを保存**&#x200B;をクリックします。

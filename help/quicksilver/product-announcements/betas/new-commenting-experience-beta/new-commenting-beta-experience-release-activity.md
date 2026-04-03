@@ -9,7 +9,9 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1870'
 ht-degree: 93%
@@ -24,16 +26,17 @@ ht-degree: 93%
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
 * <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+-->
 
 
 >[!IMPORTANT]
 >
 >この記事に記載されている情報は、新しいコメントエクスペリエンスのベータ版フェーズでリリースされた機能についてのものです。
 >
->新しいコメント機能のベータ版プログラムは 2023 年 4 月に開始し、2023 年 10 月に終了して、2023 年 10 月リリースを迎えました。
+>新しいコメント機能のベータプログラムは、2023年4月に開始され、2023年10月のリリースで2023年10月に終了しました。
 > 
->新しいコメントエクスペリエンスに含まれているすべての機能は、2024 年 4 月 11 日（PT）以降、実稼動環境のすべての顧客が使用できるようになりました。
+>新しいコメントエクスペリエンスに含まれるすべての機能は、2024年4月11日以降、実稼動環境のすべてのユーザーが利用できるようになりました。
 >詳しくは、[新しいコメントエクスペリエンス](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
 >
 
@@ -52,7 +55,7 @@ ht-degree: 93%
 
 23.2 リリース（2023年4月6日（PT））から 2023年第 4 四半期リリース（2023年10月26日（PT））までのベータ版フェーズで、次の機能がコメントエクスペリエンスに追加されました。
 
-ベータ版プログラムの終了後にリリースされた機能は、リリース時に現在のリリースページでメッセージ化されていました。
+ベータプログラムの終了後にリリースされた機能は、リリース時に現在のリリースページでメッセージが表示されました。
 
 次の情報は、最新の更新以降の毎週のリリースアクティビティについてのものです。
 
@@ -317,19 +320,19 @@ ht-degree: 93%
 
 コメント機能のベータ版に関する問題、および目標に対して、次のメンテナンスアップデートがリリースされました。
 
-コメントの編集時に添付画像を編集します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a> の「4 月 27 日のメンテナンス更新」の節を参照してください。
+コメントの編集時に添付画像を編集します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>の記事の「4月27日のメンテナンス更新」の節を参照してください。
 
 ### 2023年4月20日（PT）
 
 コメント機能のベータ版に関する問題、および目標に対して、次のメンテナンスアップデートがリリースされました。
 
-コメント機能のベータ版エクスペリエンスでの目標やイシューの更新から離れる際に画像を下書きとして保持します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a> の「4 月 20 日のメンテナンス更新」の節を参照してください。
+コメント機能のベータ版エクスペリエンスでの目標やイシューの更新から離れる際に画像を下書きとして保持します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>の記事の「4月20日のメンテナンス更新」の節を参照してください。
 
 ### 2023年4月17日（PT）
 
 コメント機能のベータ版に関する問題、および目標に対して、次のメンテナンスアップデートがリリースされました。
 
-イシュー（新しいコメント機能のベータ版エクスペリエンス）と目標の「更新」セクションで、表示されている画面エリアの外に新しいコメントを表示します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a> の「4 月 17 日のメンテナンス更新」の節を参照してください。
+イシュー（新しいコメント機能のベータ版エクスペリエンス）と目標の「更新」セクションで、表示されている画面エリアの外に新しいコメントを表示します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>の記事の「4月17日のメンテナンス更新」の節を参照してください。
 
 
 ### 2023年4月6日（PT）の週

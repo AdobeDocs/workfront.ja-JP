@@ -6,19 +6,23 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
 
 # レコードにサムネールを追加する
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -46,8 +50,8 @@ ht-degree: 26%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
+<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
@@ -56,17 +60,18 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースおよびレコードタイプへの投稿以上の権限  </p>  
+   <td>   <p>ワークスペースおよびレコードタイプに対する権限の貢献度を上げます  </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr>   
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,7 +127,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## レコードのサムネールに関する考慮事項
@@ -131,11 +137,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 次の点に注意してください。
 
-* サムネールは 1 つのレコードに固有で、同じタイプのすべてのレコードには適用されません。
+* サムネールは1つのレコードに固有であり、同じタイプのすべてのレコードには適用されません。
 * サムネールとして追加できるのは、画像ファイルのみです。
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* サムネール画像は、テーブル表示の個々のレコード、またはレコードのページやプレビューボックスから追加できます。
-* Workfrontでは、レコードを作成するたびに、サムネール画像を自動的にアップロードします。 この画像は後で変更できます。
+* サムネール画像は、テーブルビュー内の個々のレコード、またはレコードのページまたはプレビューボックスから追加できます。
+* Workfrontでは、レコードを作成するたびにサムネイル画像が自動的にアップロードされます。 この画像は後で変更できます。
 * サムネールはレコード情報に属し、レコードが表示される領域に表示されます。 例えば、次のエリアでは、レコード情報と共にサムネールが表示されます。
 
    * テーブルビューのレコードのプライマリフィールド
@@ -144,30 +150,30 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## レコードにサムネールを追加する
 
-サムネールは次の方法で追加できます。
+サムネールは、次の方法で追加できます。
 
-* [テーブル表示からのレコードへのサムネールの追加](#add-a-thumbnail-to-a-record-from-the-table-view)
-* [詳細ページからのレコードへのサムネールの追加](#add-a-thumbnail-to-a-record-from-the-details-page)
+* [テーブルビューからレコードにサムネールを追加する](#add-a-thumbnail-to-a-record-from-the-table-view)
+* [詳細ページからレコードにサムネールを追加する](#add-a-thumbnail-to-a-record-from-the-details-page)
 
-### テーブル表示からのレコードへのサムネールの追加
+### テーブルビューからレコードにサムネールを追加する
 
 {{step1-to-planning}}
 
-1. サムネールを追加するレコードのワークスペースをクリックし、レコードタイプ カードをクリックします。
+1. サムネールを追加するレコードのワークスペースをクリックし、レコードタイプカードをクリックします。
 
    レコードタイプページが開きます。
 1. **表示**&#x200B;ドロップダウンメニューからテーブルビューを選択します。選択したタイプのすべてのレコードがテーブルに表示されます。
-1. プライマリフィールド情報の上にマウスポインターを置き、**詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**サムネール** をクリックしてください。
+1. プライマリフィールド情報にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**サムネール**&#x200B;をクリックします。
 
-   ![&#x200B; さらに記録メニューが展開されました &#x200B;](assets/record-more-menu-expanded.png)
+   ![さらにメニューを追加しました](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
-   >   プライマリフィールドは、テーブルビューの最初の列に表示されるフィールドです。プライマリフィールドは常にフリーズされ、非表示や再配置はできません。 プライマリフィールドが式フィールドの場合、「詳細」メニューで「サムネール」オプションを使用できません。
+   >   プライマリフィールドは、テーブルビューの最初の列に表示されるフィールドです。プライマリフィールドは常にフリーズされ、非表示にしたり再配置したりすることはできません。 プライマリフィールドが数式フィールドの場合、「サムネール」オプションは「その他」メニューでは使用できません。
 
-   「**サムネールを記録** ボックスにデフォルトで **アップロード** タブが開きます。
+   「**アップロード**」タブは、デフォルトで&#x200B;**サムネールを記録** ボックスに開きます。
 
-   サムネールのアップロードについて詳しくは、この記事の [&#x200B; 詳細ページからレコードにサムネールを追加する &#x200B;](#add-a-thumbnail-to-a-record-from-the-details-page) の手順 6 から始まる節を参照してください。<!--see if this is accurate-->
+   サムネールのアップロードについて詳しくは、手順6から始めて、この記事の詳細ページ [からレコードにサムネールを](#add-a-thumbnail-to-a-record-from-the-details-page)追加するを参照してください。<!--see if this is accurate-->
 
 <!--
    ![Record thumbnail box for upload](assets/record-thumbnail-box-for-upload.png) 
@@ -193,51 +199,52 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
 
-1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![More menu](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![Remove image icon](assets/remove-image-icon.png), then click **Save changes**. -->
+1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![More menu](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![Remove image icon](assets/remove-image-icon.png), then click **Save changes**.
+-->
 
-### 詳細ページからのレコードへのサムネールの追加
+### 詳細ページからレコードにサムネールを追加する
 
 {{step1-to-planning}}
 
-1. サムネールを追加するレコードのワークスペースをクリックし、レコードタイプ カードをクリックします。
+1. サムネールを追加するレコードのワークスペースをクリックし、レコードタイプカードをクリックします。
 
    レコードタイプページが開きます。
-1. 任意のビューで、レコードをクリックして開きます。
+1. 任意のビューから、レコードをクリックして開きます。
 
    詳細プレビューボックスが表示されます。
-1. （オプション）右上隅にある **新しいタブで開く** アイコン ![&#x200B; 詳細を新しいタブアイコンで開く &#x200B;](assets/open-details-in-a-new-tab-icon.png) をクリックします。
+1. （オプション）右上隅の&#x200B;**新しいタブで開く** アイコン ![新しいタブアイコンで詳細を開く](assets/open-details-in-a-new-tab-icon.png)をクリックします。
 
    レコードの詳細ページが開きます。
 
-1. （条件付き）レコードのプレビューまたは詳細ページで、サムネール画像またはアイコン ![&#x200B; 詳細ページのサムネールアイコンを記録 &#x200B;](assets/record-thumbnail-icon-on-details-page.png) にカーソルを置き、レコード名の上のスペースにカーソルを置いて **サムネールを追加** または **サムネールを編集** をクリックします。
+1. （条件付き）レコードプレビューまたは詳細ページで、サムネール画像またはアイコン ![詳細ページのサムネールアイコンにカーソルを合わせ、レコード名の上のスペースにカーソルを合わせ、](assets/record-thumbnail-icon-on-details-page.png) サムネールを追加&#x200B;**または** サムネールを編集&#x200B;**をクリックします。**
 
-   「**サムネールを記録** ボックスにデフォルトで **アップロード** タブが開きます。
+   「**アップロード**」タブは、デフォルトで&#x200B;**サムネールを記録** ボックスに開きます。
 
-   ![&#x200B; アップロード用にサムネールボックスを記録する &#x200B;](assets/record-thumbnail-box-for-upload.png)
+   ![ アップロード用のサムネールボックスを記録](assets/record-thumbnail-box-for-upload.png)
 
-1. ファイルをドラッグ&amp;ドロップして、サムネールとして追加
+1. サムネールとして追加するファイルをドラッグ&amp;ドロップします
 
    または
 
-   **画像を参照**」をクリックして、追加する画像ファイルを参照します。 ファイルはお使いのコンピューターに保存しておく必要があります。
+   「**画像を参照**」をクリックし、追加する画像ファイルを参照します。 ファイルはお使いのコンピューターに保存しておく必要があります。
 
-1. （任意）「サムネールを記録 **ボックスに画像をアップロードした後**、サイジングツールを使用して画像を切り抜き、サイズを変更します。
-1. （オプション） **新しい画像をアップロード** アイコン ![&#x200B; 新しい画像をアップロード &#x200B;](assets/upload-new-image-icon.png) アイコンをクリックして、別の画像をアップロードします。
-1. （オプション）「**ギャラリー**」タブをクリックして、画像をクリックします。 画像ギャラリーは変更できません。
+1. （オプション）画像を&#x200B;**サムネールを記録** ボックスにアップロードした後、サイズツールを使用して画像を切り抜き、サイズを変更します。
+1. （オプション）「**新しい画像をアップロード**」アイコン「![新しい画像をアップロード」アイコン「](assets/upload-new-image-icon.png)」をクリックして、別の画像をアップロードします。
+1. （オプション）「**ギャラリー**」タブをクリックし、画像をクリックします。 画像のギャラリーは変更できません。
 
-   ![&#x200B; ギャラリーのサムネイル ボックスを記録する &#x200B;](assets/record-thumbnail-box-for-gallery.png)
+   ![ ギャラリーのサムネールボックスを記録](assets/record-thumbnail-box-for-gallery.png)
 
-1. （オプション）サムネールを保存前に削除するには、画像の右側にある **削除** アイコン ![&#x200B; 画像を削除アイコン &#x200B;](assets/remove-image-icon.png) をクリックします。
+1. （オプション）サムネールを保存する前に削除するには、画像の右側にある&#x200B;**削除** アイコン ![画像を削除アイコン ](assets/remove-image-icon.png)をクリックします。
 
 1. 「**画像を使用**」をクリックして、画像をサムネールとして追加します。
-これにより、「サムネールを記録 **ボックスが閉じ** す。
-サムネールは、レコードが表示されるWorkfront Planning の領域に表示されます。
+これにより、**レコードサムネール** ボックスが閉じます。
+サムネールは、レコードが表示されるWorkfront Planningの領域に表示されます。
 
    >[!TIP]
    >
-   >   このビューにサムネールを表示するには、テーブル表示でサムネール フィールドを有効にする必要があります。 この機能は、デフォルトでは無効になっています。
+   >   このビューにサムネールを表示するには、テーブルビューの「サムネール」フィールドを有効にする必要があります。 デフォルトでは無効になっています。
 
-1. （オプション）保存後にサムネールを削除するには、任意のビューのレコードをクリックして詳細ページを開き、サムネール画像にカーソルを置いて **詳細** メニュー ![&#x200B; 詳細メニューアイコン &#x200B;](assets/more-menu.png)>**削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/remove-image-icon.png) をクリックします。 サムネール画像が削除されます。
+1. （オプション）保存後にサムネールを削除するには、任意のビューのレコードをクリックして詳細ページを開き、サムネール画像にカーソルを合わせて&#x200B;**詳細メニューアイコン**&#x200B;詳細メニューアイコン ![> ](assets/more-menu.png)削除&#x200B;**アイコン**&#x200B;削除アイコン ![をクリックします。 ](assets/remove-image-icon.png)サムネール画像が削除されます。
 
 
 <!--

@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: グループ化：プロジェクトパーセント内訳1
+title: グループ化：プロジェクトのパーセント分類1
 description: このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7cdc8e56-3486-4e78-b494-b2ba9389c1f7
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 77%
@@ -18,7 +20,7 @@ ht-degree: 77%
 
 <!--Audited: 10/2024-->
 
-このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。ブレイクダウンでは、完了率の値が25%のポイント増分（0 ～ 25%、26 ～ 50%、51 ～ 75%など）で表示されます。
+このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。内訳は、25%のポイント増分のパーセント完了価値を示しています：0-25%、26-50%、51-75%など。
 
 次のグループ化では、プロジェクトを完了率の値で整理して、次のいずれかのグループに分けています。
 
@@ -46,8 +48,8 @@ ht-degree: 77%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
-   <p>レポートを変更するための「標準」または「プラン」</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -82,5 +84,5 @@ ht-degree: 77%
    group.0.valueformat=string
    ```
 
-1. 「**完了**」/「**グループ化を保存**」をクリックします。
-1. （オプション）グループ化の名前を更新し、**[グループ化の保存]**&#x200B;をクリックします。
+1. 「**完了**」 > 「**グループ化を保存**」をクリックします。
+1. （オプション）グループ化の名前を更新し、**グループ化を保存**&#x200B;をクリックします。

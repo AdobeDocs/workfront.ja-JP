@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Combined Task and Issue Details in an Hour List'
+title: 表示：時間リスト内のタスクとイシューの詳細の組み合わせ
 description: この時間ビューは、sharecol タグを使用して、タスク名列やイシュー名列に加えて、タスクやイシューの予定時間数を組み合わせたものです。時間エントリはタスクかイシューのどちらかにのみ属することができるので、両方のオブジェクトが同じ列に同時に表示されることはありません。ビューの各行には、タスクかイシューのどちらかの情報が入力されます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 66%
@@ -18,9 +20,9 @@ ht-degree: 66%
 
 <!--Audited:11/2024-->
 
-This hour view combines the Task and Issue Name columns, as well as the Task and Issue Planned Hours using the `sharecol` tag. 時間エントリはタスクかイシューのどちらかにのみ属することができるので、両方のオブジェクトが同じ列に同時に表示されることはありません。ビューの各行には、タスクかイシューのどちらかの情報が入力されます。
+この時間表示では、`sharecol` タグを使用して、タスクとイシューの名前の列と、タスクとイシュー予定時間数が組み合わされています。 時間エントリはタスクかイシューのどちらかにのみ属することができるので、両方のオブジェクトが同じ列に同時に表示されることはありません。ビューの各行には、タスクかイシューのどちらかの情報が入力されます。
 
-To learn more about the `sharecol` tag, see [View: merge information from multiple columns in one shared column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+`sharecol` タグについて詳しくは、[表示：1つの共有列の複数の列から情報を結合](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)を参照してください。
 
 ![custom_view_hours_with_task_and_issue_information.png](assets/custom-view-hours-with-350x48.png)
 
@@ -39,8 +41,8 @@ To learn more about the `sharecol` tag, see [View: merge information from multip
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
-   <p>レポートを変更するための「標準」または「プラン」</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -62,8 +64,8 @@ To learn more about the `sharecol` tag, see [View: merge information from multip
 1. 時間のリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューで、「**新規ビュー**」をクリックします。
 1. **列のプレビュー**&#x200B;領域で、1 つを除くすべての列を削除します。
-1. Click the header of the remaining column, then click **Switch to Text Mode** > **Edit Text Mode**.
-1. **[テキストモードの編集]**&#x200B;ボックスで見つかったテキストを削除し、次のコードで置き換えます：
+1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```
    column.1.querysort=project:name
@@ -157,5 +159,5 @@ To learn more about the `sharecol` tag, see [View: merge information from multip
    column.8.width=150
    ```
 
-1. 「**完了**」/「**ビューを保存**」をクリックします。
-1. （オプション）ビュー名を更新し、**[ビューの保存]**&#x200B;をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。
+1. （オプション）ビュー名を更新し、**ビューを保存**&#x200B;をクリックします。

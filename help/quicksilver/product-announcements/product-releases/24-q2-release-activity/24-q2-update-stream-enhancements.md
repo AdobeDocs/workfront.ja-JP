@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 92%
@@ -18,13 +20,13 @@ ht-degree: 92%
 
 2024年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)を参照してください。
 
-## イテレーションに新しいコメントエクスペリエンスが追加されました
+## 新しいコメントエクスペリエンスが反復に追加されました
 
 >[!NOTE]
 >
 >プレビューリリース：2024年4月11日（PT）。すべてのお客様向けの実稼動版：24.4 リリース（2024年4月11日（PT））
 
-アプリケーション全体で一貫したエクスペリエンスを提供するために、新しいコメント機能をイテレーションに追加しました。 詳しくは、[&#x200B; セクションの概要を更新 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
+アプリケーション全体を通じて一貫性のあるエクスペリエンスを提供するために、新しいコメント機能を反復に追加しました。 詳しくは、[更新セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
 
 ## 従来のコメントエリアへのアクセス権限の削除
 
@@ -58,7 +60,7 @@ ht-degree: 92%
 
 詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能の説明は 2:47 から始まります）
+[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能に関する議論は2:47から始まります）
 
 ## 読み取り専用のコメントをサポートする新しいコメントエクスペリエンスの「システムアクティビティ」タブ
 
@@ -70,7 +72,7 @@ ht-degree: 92%
 
 詳しくは、[「更新」セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
 
-[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能の説明は 2:00 から始まります）
+[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能に関する議論は2:00から始まります）
 
 ## コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「更新ストリーム」タブ
 
@@ -84,7 +86,7 @@ ht-degree: 92%
 
 詳しくは、[「更新」セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
 
-[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能の説明は 0:31 から始まります）
+[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能に関する議論は0:31から始まります）
 
 ## 概要パネルで新しいコメントストリームを利用できるようになりました。
 

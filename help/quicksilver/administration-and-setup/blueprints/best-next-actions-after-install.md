@@ -9,7 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 98%
@@ -97,4 +99,4 @@ ht-degree: 98%
 
 ### 関連するフォームにカスタムデータを配布する
 
-ダッシュボードのブループリントに含まれる一部のレポートには、レポートの表示、フィルター、またはグループ化のカスタムデータフィールドがあります。場合によっては、ブループリントには、これらのフィールドが関連付けられたフォームも含まれます。ただし、多くの場合、カスタムフィールドはカスタムフォームに適用されません。列、フィルター、またはグループが正しく機能するには、これらのフィールドは、ユーザー、プロジェクト、タスク、またはその他のオブジェクトレコードに接続されているフォームに関連付ける必要があります。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+ダッシュボードのブループリントに含まれる一部のレポートには、レポートの表示、フィルター、またはグループ化のカスタムデータフィールドがあります。場合によっては、ブループリントには、これらのフィールドが関連付けられたフォームも含まれます。ただし、多くの場合、カスタムフィールドはカスタムフォームに適用されません。列、フィルター、またはグループが正しく機能するには、これらのフィールドは、ユーザー、プロジェクト、タスク、またはその他のオブジェクトレコードに接続されているフォームに関連付ける必要があります。詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。

@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: スクラムボード上のストーリーとサブタスクのステータスの更新
-description: アジャイルストーリーボードから直接ストーリーのステータスを変更して、ストーリーがイテレーションまたはプロジェクト全体でどのように進行しているかを反映させることができます。
+title: スクラムボードのストーリーとサブタスクのステータスの更新
+description: アジャイルストーリーボードから直接ストーリーのステータスを変更して、イテレーションやプロジェクトにおけるストーリーの進捗状況を反映することができます。
 author: Courtney
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 71%
@@ -15,7 +17,7 @@ ht-degree: 71%
 
 # ストーリーとサブタスクのステータスを[!UICONTROL スクラム]ボード上で更新
 
-アジャイルストーリーボードから直接ストーリーのステータスを変更して、ストーリーがイテレーションまたはプロジェクト全体でどのように進行しているかを反映させることができます。
+アジャイルストーリーボードから直接ストーリーのステータスを変更して、イテレーションやプロジェクトにおけるストーリーの進捗状況を反映することができます。
 
 >[!NOTE]
 >

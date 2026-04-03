@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：列の幅を永続的に編集
+title: 表示：列の幅を永続的に編集します
 description: 余白をドラッグ＆ドロップして、目的の幅に合わせて一時的に列の幅を変更できます。詳しくは、列の幅と順序を変更を参照してください。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 91%
@@ -37,8 +39,8 @@ ht-degree: 91%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -73,7 +75,7 @@ ht-degree: 91%
    既存の列の列ヘッダーをクリックします。
 
 1. 「**テキストモードに切り替え**」をクリックします。
-1. **テキストモードを編集**.T をクリックします
+1. 「**テキストモードを編集**.T」をクリックします
 1. 列のテキストモードに次のコードを追加します。
 
    ```
@@ -83,6 +85,6 @@ ht-degree: 91%
 
    **幅**&#x200B;の行で、ビューで表示する列の幅を表す任意の数値（ピクセル単位）を指定します。
 
-1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存**」をクリックします。
 
 

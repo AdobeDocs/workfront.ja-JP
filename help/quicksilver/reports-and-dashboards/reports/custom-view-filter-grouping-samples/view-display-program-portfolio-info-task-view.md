@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: ビュー：プログラムとPortfolioの情報をタスク ビューに表示します
+title: ビュー：タスクビューでのプログラムとPortfolioの情報の表示
 description: このタスクビューには、タスクのプロジェクトに関連付けられたプログラムとポートフォリオが表示されます。この情報は、タスクビューの作成時に Report Builder で使用できません。使用できるのはテキストモードのみです。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 75%
@@ -20,7 +22,7 @@ ht-degree: 75%
 
 タスクリストからプロジェクト、プログラム、ポートフォリオへのリンクも表示されます。
 
-![&#x200B; プログラムとポートフォリオを表示 &#x200B;](assets/view--program-and-portfolio-350x116.png)
+![ プログラムとポートフォリオを表示](assets/view--program-and-portfolio-350x116.png)
 
 ## アクセス要件
 
@@ -37,8 +39,8 @@ ht-degree: 75%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -60,8 +62,8 @@ ht-degree: 75%
 1. **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 
 1. **列のプレビュー**&#x200B;領域で、1 つを除くすべての列を削除します。
-1. 残りの列のヘッダーをクリックし、「**テキストモードに切り替え**」をクリックして、「**テキストモードを編集**」をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え**&#x200B;をクリックしてから、**テキストモードを編集**&#x200B;をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```
    column.0.descriptionkey=name
@@ -132,4 +134,4 @@ ht-degree: 75%
    column.3.width=150 
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。

@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: ボードを作成または編集
+title: ボードの作成または編集
 description: '[!UICONTROL ボード]ダッシュボードから、ボードを新規作成したり、既存のボードを編集したりすることができます。'
 author: Courtney
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 89%
@@ -72,7 +74,7 @@ ht-degree: 89%
 
       >[!NOTE]
       >
-      >ダイナミックボードのカード上限は、700 件のタスクと 700 件のイシューで、合計 1,400 枚のカードです。ボード上のカード数が多いと、ボードのパフォーマンスに影響を与える可能性があります。 アーカイブされたすべてのカードは、非表示と表示の両方で、この制限にカウントされます。
+      >ダイナミックボードのカード上限は、700 件のタスクと 700 件のイシューで、合計 1,400 枚のカードです。ボード上のカードの数が多いと、ボードのパフォーマンスに影響を与える可能性があります。 アーカイブされたすべてのカードは、非表示と表示の両方で、この制限にカウントされます。
 
    1. （オプション）「[!UICONTROL **完了したカードをアーカイブしない**]」を選択すると、ボード上に完了したタスクとイシューが「完了」列にカードとして表示されます。このオプションを選択しない場合、ボード作成時に完了したカードは、アーカイブされたカードとしてボードに取り込まれます。
 
@@ -84,7 +86,7 @@ ht-degree: 89%
 
       これは、取り込み列にフィルターを作成するのと同じ手順です。詳しくは、[ボードに取り込み列を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)を参照してください。
 
-      動的ボードを作成した後に動的ボードのフィルターを更新すると、Workfrontのタスクまたはイシューに含まれていないカード設定（タグなど）はリセットされます。
+      ダイナミックボードの作成後にフィルターを更新すると、Workfrontのタスクやイシュー（タグなど）に含まれていないカード設定がリセットされます。
 
    1. フィルターを追加したら、[!UICONTROL **ボードを作成**]&#x200B;を参照してください。
 
@@ -106,7 +108,7 @@ ht-degree: 89%
 1. ダッシュボードで、ボードを選択して開きます。
 1. 必要に応じて、ボードを編集します。ボード名をクリックして名前を変更できます。
 
-   接続されたカードをWorkfrontと同期し、新しいタスクや問題をボードまたは取り込み列に追加するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL &#x200B; 詳細メニュー &#x200B;]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続済み項目を同期]** を選択します。
+   接続されたカードをWorkfrontと同期し、新しいタスクと問題をボードまたは取り込み列に取り込むには、ボード名の横にある&#x200B;**[!UICONTROL 詳細]** メニュー![[!UICONTROL 詳細メニュー]](assets/more-icon-spectrum.png)をクリックし、**[!UICONTROL 接続されたアイテムを同期]**&#x200B;を選択します。
 
    詳しくは、[ボードに対するメンバーの追加または削除](../../agile/get-started-with-boards/add-members-to-board.md)、[ボード列を管理](../../agile/get-started-with-boards/manage-board-columns.md)、および[ボードへのカードの追加](../../agile/get-started-with-boards/add-card-to-board.md)を参照してください。
 

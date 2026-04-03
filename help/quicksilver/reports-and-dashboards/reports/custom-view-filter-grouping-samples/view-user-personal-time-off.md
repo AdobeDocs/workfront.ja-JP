@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：ユーザーの個人の休暇
-description: 'View: User Personal Time Off'
+description: ビュー：ユーザーの個人休暇
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 84%
@@ -39,8 +41,8 @@ ht-degree: 84%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -59,7 +61,7 @@ ht-degree: 84%
 
 ## ユーザーの個人の休暇を表示
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Reports > New Report**.
+1. 右上隅の&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**レポート >新規レポート**&#x200B;をクリックします。
 1. ドロップダウンメニューから、「**休暇**」を選択します。
 1. 「**保存して閉じる**」をクリックします。
 

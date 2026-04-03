@@ -1,12 +1,14 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals の目標の詳細セクションでの目標の更新
+title: Adobe Workfront Goalsの「目標の詳細」セクションの「目標の更新」
 description: 目標の詳細パネルにアクセスして、個別の目標の情報を更新できます。
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 89%
@@ -42,7 +44,7 @@ ht-degree: 89%
  <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p><p><b>メモ</b></p>
+   <p>Adobe Workfront Ultimate</p><p><b>メモ</b></p>
 <p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr>
@@ -66,7 +68,7 @@ ht-degree: 89%
  </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの「目標」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
@@ -76,7 +78,8 @@ ht-degree: 89%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -127,7 +130,8 @@ ht-degree: 89%
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## 目標の詳細セクションで、目標を更新
 
@@ -155,7 +159,8 @@ Updating goals in the Goal Details panel differs depending on where you access t
    >
    >You can also click the name of a goal in the Goal Alignment, Check-in, or Pulse sections. 
    >
-   ><!-- drafted for goal redesign:
+   ><!--
+   > drafted for goal redesign:
    >Add this to the TIP above with goal redesign: 
    >
    >The Check-in and Pulse sections have been removed from the Preview environment.
@@ -222,9 +227,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    これにより、左側に&#x200B;**目標の詳細**&#x200B;セクションが開きます。
 
-   ![&#x200B; 目標ページ &#x200B;](assets/goal-page-unshimmed.png)
+   ![目標ページ ](assets/goal-page-unshimmed.png)
 
-1. 右上隅の **編集アイコン**![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックし、「**すべて編集**」または「**概要** をクリックします
+1. 右上隅の&#x200B;**編集アイコン** ![編集アイコン ](assets/edit-icon.png)をクリックし、**すべてを編集**&#x200B;または&#x200B;**概要**&#x200B;をクリックします
 
    または
 

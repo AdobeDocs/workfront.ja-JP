@@ -1,12 +1,14 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals で目標をアクティブ化
+title: Adobe Workfront Goalsで目標をアクティブ化
 description: 目標を作成すると、Adobe Workfront Goals はそれをドラフトのステータスで保存します。下書きの目標は目標管理には含まれません。
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 86%
@@ -47,7 +49,7 @@ ht-degree: 86%
   <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p><p><b>メモ</b></p>
+   <p>Adobe Workfront Ultimate</p><p><b>メモ</b></p>
 <p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr> 
@@ -65,7 +67,7 @@ ht-degree: 86%
  </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの「目標」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
@@ -75,7 +77,8 @@ ht-degree: 86%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -126,7 +129,8 @@ ht-degree: 86%
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## 前提条件
 
@@ -156,8 +160,8 @@ ht-degree: 86%
 
 1. アクティブ化する目標に移動します。目標ページが開きます。
 
-1. 目標名の右側にある **その他** メニュー ![&#x200B; その他のアイコン &#x200B;](../goal-management/assets/more-icon.png) をクリックしてから、「**アクティベート**」をクリックします。
+1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](../goal-management/assets/more-icon.png)をクリックし、**アクティブ化**&#x200B;をクリックします。
 
-   ![&#x200B; 詳細メニューが展開されました &#x200B;](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![その他のメニューが展開されました](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    目標のステータスがアクティブに変わります。目標の進捗状況をトラックできるようになり、目標はチェックインセクションに表示されるほか、Workfront 目標のグラフセクションでも考慮されるようになりました。

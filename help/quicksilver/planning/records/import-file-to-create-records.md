@@ -1,12 +1,14 @@
 ---
-title: CSV または Excel ファイルから情報を読み込んでレコードを作成
-description: レコードは、レコードタイプの個々のインスタンスであり、Adobe Workfront Planning のオブジェクトタイプです。 Workfront Planning では、CSV または Excel ファイルから情報をインポートしてレコードを作成できます。
+title: CSVまたはExcel ファイルから情報をインポートしてレコードを作成する
+description: レコードは、Adobe Workfront Planningのオブジェクトタイプであるレコードタイプの個々のインスタンスです。 Workfront Planningでは、CSVまたはExcel ファイルから情報を読み込むことで、レコードを作成できます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 14%
@@ -16,15 +18,15 @@ ht-degree: 14%
 
 # CSV または Excel ファイルから情報を読み込んで、レコードを作成
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
-レコードは、レコードタイプの個々のインスタンスであり、Adobe Workfront Planning のオブジェクトタイプです。 Workfront Planning では、CSV または Excel ファイルから情報をインポートしてレコードを作成できます。
+レコードは、Adobe Workfront Planningのオブジェクトタイプであるレコードタイプの個々のインスタンスです。 Workfront Planningでは、CSVまたはExcel ファイルから情報を読み込むことで、レコードを作成できます。
 
-レコードの作成について詳しくは、「[&#x200B; レコードの作成 &#x200B;](/help/quicksilver/planning/records/create-records.md)」を参照してください。
+レコードの作成について詳しくは、[ レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
 ## アクセス要件
 
@@ -42,8 +44,8 @@ ht-degree: 14%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
+<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
@@ -53,19 +55,20 @@ ht-degree: 14%
 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td> <p>レコードを読み込むワークスペースおよびレコードタイプに対する投稿以上の権限。 </p>
+   <td> <p>レコードを読み込むワークスペースおよびレコードタイプに対して、より高い権限を付与します。 </p>
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
    </td> 
   </tr>  
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -123,79 +126,80 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 
-## Excel または CSV ファイルを使用したレコードの読み込みに関する考慮事項
+## ExcelまたはCSV ファイルを使用したレコードの読み込みに関する考慮事項
 
 * 各シートの列ヘッダーは、レコードに関連付けられたフィールドになります。
-* 各シートの各行は、一意のレコードに関連付けられます。
-* Excel ファイルに複数のシートが含まれている場合、インポート時に選択したシートの情報のみがインポートされます。
-* ファイルのサイズは次の値を超えないようにします。
+* 各シートの各行は、関連付けられた一意のレコードになります。
+* Excel ファイルに複数のシートが含まれている場合は、読み込みプロセスで選択した1つのシートの情報のみが読み込まれます。
+* ファイルは次の値を超えてはなりません。
    * 25,000 行
    * 500 列
-* ファイルのサイズは 5 MB 以下にしてください。
+* ファイルのサイズは5 MB以下にする必要があります。
 * 空のシートはサポートされていません。
-* 次のタイプのフィールドはサポートされておらず、インポートシートのフィールドにマッピングできません。
+* 次のタイプのフィールドはサポートされていないため、インポートシートのフィールドにマッピングできません。
 
-   * WorkfrontおよびAEM Assets オブジェクトタイプへの接続フィールド 接続フィールドのみを Planning レコード タイプにマップできます。
-   * 接続された Planning レコードまたはWorkfrontおよびAEM Assetsオブジェクトからのフィールドの参照
+   * WorkfrontおよびAEM Assets オブジェクトタイプにフィールドを接続します。 接続フィールドのみをPlanning レコードタイプにマッピングできます。
+   * 接続されたPlanning レコードまたはWorkfrontおよびAEM Assets オブジェクトからのルックアップフィールド
    * 数式フィールド
    * 作成日、作成者
    * 最終変更日、最終変更者
    * 承認日、承認者
    * ユーザー
    * <span class="preview"> レコード ID</span>
-   * 複数選択または単一選択のフィールドがインポートされ、Planning の類似のフィールドより多くの選択肢がある場合、インポート中に追加のオプションが作成されます。 ワークスペースに対する管理権限を持つユーザーのみが、新しい選択肢を読み込むことができます。
+   * 複数選択または単一選択フィールドが読み込まれ、Planningの類似フィールドよりも多くの選択肢がある場合、読み込み中に追加のオプションが作成されます。 ワークスペースに対する管理権限を持つユーザーのみが、新しい選択肢をインポートできます。
 
-## CSV または Excel ファイルの読み込みによるレコードの作成
+## CSVまたはExcel ファイルを読み込んでレコードを作成する
 
 {{step1-to-planning}}
 
-1. レコードを作成するワークスペースをクリックします。
+1. レコードを作成するワークスペースをクリックします，
 
    または
 
-   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開してワークスペースを検索し、リストに表示されたら選択します。
-1. レコードをインポートするレコードの種類のカードをクリックします。
-1. 画面の右上隅にある「**新規レコード**」をクリックします。
+   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開し、ワークスペースを検索して、リストに表示されるときに選択します。
+1. レコードを読み込むレコードタイプのカードをクリックします。
+1. 画面の右上隅にある&#x200B;**新しいレコード**&#x200B;をクリックします。
 
-   ![&#x200B; レコードを追加する方法を選択する 3 ボタン ボックス &#x200B;](assets/choose-way-to-add-records-three-button-box.png)
-1. **ファイルからアップロード** をクリックし、**続行** をクリックします。<!--add screen shot when all three buttons are added - with the Submit a request button-->
+   ![ レコードを3つのボタンボックスに追加する方法を選択](assets/choose-way-to-add-records-three-button-box.png)
+1. 「**ファイルからアップロード**」、「**続行**」の順にクリックします。<!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. コンピューターに保存済みの Excel ファイルまたは CSV ファイルをドラッグアンドドロップするか、「**CSV ファイルまたは Excel ファイルを選択**」をクリックして参照します。
-1. **プレビューと編集** をクリックします。
-1. （条件付き）読み込まれたファイルに複数のシートがある場合は、読み込むシートのラジオボタンを **読み込むシートを選択** ボックスで選択し、**次へ** をクリックします。 それ以外の場合は、次の手順に進みます。
+1. 「**プレビューして編集**」をクリックします。
+1. （条件付き）読み込んだファイルに複数のシートがある場合は、**読み込むシートを選択** ボックスで読み込むシートのラジオボタンを選択し、**次へ**&#x200B;をクリックします。 それ以外は、次のステップに進みます。
 
-   ![&#x200B; レコードをインポートするシートを選択 &#x200B;](assets/select-a-sheet-to-import-box.png)
-1. **計画フィールドを列ヘッダーにマッピングする** で、シートの各列の情報に最も一致する **計画フィールド** を選択します。
+   ![ レコードを読み込むシートを選択](assets/select-a-sheet-to-import-box.png)
+1. **プランニングフィールドを列ヘッダーにマッピングする**&#x200B;で、シートの各列の情報に最も一致する&#x200B;**プランニングフィールド**&#x200B;を選択します。
 
-   ![&#x200B; レコードをインポートする際の計画フィールドの列へのマッピング &#x200B;](assets/map-planning-fields-to-columns-when-importing-records.png)
+   ![ レコードの読み込み時にプランニングフィールドを列にマッピング ](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    各行は新しいレコードを表します。「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
 
    >[!TIP]
    >
-   >すべてのフィールドタイプがサポートされているわけではありません。 詳しくは、この記事の「[Excel ファイルまたは CSV ファイルを使用したレコードの読み込みに関する考慮事項 &#x200B;](#considerations-about-importing-records-using-an-excel-or-csv-file) を参照してください。
+   >すべてのフィールドタイプがサポートされているわけではありません。 詳しくは、この記事の「[ExcelまたはCSV ファイルを使用したレコードの読み込みに関する考慮事項](#considerations-about-importing-records-using-an-excel-or-csv-file)」を参照してください。
 
 
-1. （オプションおよび条件付き）ワークスペースに対する管理権限がある場合は、画面の左下隅にある **欠落しているオプションを作成** を選択します。 有効にすると、単一選択フィールドと複数選択フィールドの欠落している選択肢が追加されます。
+1. （オプションおよび条件付き）ワークスペースに対する管理権限がある場合は、画面の左下隅にある「**見つからないオプションを作成**」を選択します。 有効にすると、単一選択フィールドと複数選択フィールドの選択肢が追加されます。
 
    >[!NOTE]
    >
-   >たとえば、選択したレコード・タイプに、新規、進行中、クローズという選択肢を持つ単一選択ステータス・フィールドがあり、ファイルからインポートしたステータス・フィールドにも「保留中ステータス」選択肢がある場合、「保留中ステータス」選択肢も追加されます。
+   >例えば、選択したレコードタイプに「新規」、「進行中」、「クローズ」のオプションを含む単一選択の「ステータス」フィールドがあり、ファイルから読み込まれた「ステータス」フィールドにも「保留中ステータス」のオプションがある場合、「保留中」ステータスのオプションも追加されます。
    >
-   >ワークスペースに対する管理権限がない場合、レコードをインポートできますが、追加の選択肢は作成されません。 代わりに、「プランニングフィールドを列ヘッダーにマッピング」ボックスの右上隅に **接続に存在しない選択肢、単一選択フィールドまたは複数選択フィールドは追加されません** というメッセージが表示されます。
+   >ワークスペースに対する管理権限がない場合は、レコードを読み込むことができますが、追加の選択肢は作成されません。 代わりに、「計画フィールドを列ヘッダーにマッピング」ボックスの右上隅に次のメッセージが表示されます。**接続に存在しない選択肢、単一または複数選択フィールドは追加されません**。
 
 1. 「**インポート**」をクリックします。
 
    次の情報が Workfront Planning にインポートされます。
 
-   * 選択したレコードタイプのテーブル表示の下部に表示される新しいレコード。
-   * 各レコードに関連付けられている既存フィールドの新しいフィールド値。
-   * Planning に存在しない複数選択フィールドまたは単一選択フィールドの新しい選択肢。 <!--when we add connected records - add those here too-->
+   * 選択したレコードタイプのテーブルビューの下部に表示される新しいレコード。
+   * 各レコードに関連付けられた既存のフィールドの新しいフィールド値。
+   * Planningに存在しなかった複数選択または単一選択フィールドの新しい選択肢。 <!--when we add connected records - add those here too-->
 
-   「レコードタイプ」ページでフィールドとレコードの管理を開始できます。
+   レコードタイプ ページでフィールドとレコードの管理を開始できます。
 
-   Workfront Planning およびワークスペースへのアクセス権を持つすべてのユーザーは、インポートされたレコードとその情報を表示および編集できるようになりました。
+   Workfront Planningおよびワークスペースにアクセスできるユーザーは、読み込まれたレコードとその情報を表示および編集できるようになりました。
 
    <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->

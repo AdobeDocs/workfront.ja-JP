@@ -6,10 +6,12 @@ description: プロジェクトのリクエストは、Adobe Workfront でステ
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -39,7 +41,7 @@ ht-degree: 76%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] パッケージ</td> 
    <td><p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -58,11 +60,12 @@ ht-degree: 76%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,31 +88,32 @@ ht-degree: 76%
    <td> <p>[!UICONTROL View] permissions or higher on the portfolio</p> <p>[!UICONTROL Manage] permissions on the projects to update their status</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## プロジェクトレポートでリクエストされたプロジェクトをレビュー
 
 プロジェクトレポートを作成して、[!UICONTROL リクエスト済み]のステータスを持つプロジェクトを表示できます。
 
-プロジェクト報告書を作成してプロジェクト要求を承認する方法の詳細については、[[!UICONTROL &#x200B; プロジェクト報告書の作成によるビジネス ケースの承認 &#x200B;]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) の [&#x200B; ビジネス ケースの承認 &#x200B;](../../../manage-work/projects/define-a-business-case/approve-business-case.md) を参照してください。
+プロジェクトレポートを作成してプロジェクトの要求を承認する方法について詳しくは、[[!UICONTROL  ビジネスケースを承認]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)の「[ プロジェクトレポートを作成してビジネスケースを承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)」の節を参照してください。
 
 ## ポートフォリオ内でリクエストされたプロジェクトをレビュー
 
 1. リクエストされたプロジェクトをレビューするポートフォリオに移動します。
-1. 左側のパネルで **[!UICONTROL プロジェクト]** をクリックします
+1. 左側のパネルの&#x200B;**[!UICONTROL プロジェクト]**&#x200B;をクリックします
 1. **[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューから、「**[!UICONTROL リクエスト済み]**」を選択します。
 
    ステータスが&#x200B;**[!UICONTROL リクエスト済み]**&#x200B;のプロジェクトのみがリストに表示されます。
 
    >[!TIP]
    >
-   > ステータスが **[!UICONTROL リクエスト]** であることに加えて、このリストに表示するには、プロジェクトが選択したPortfolioに関連付けられている必要があります。
+   > ステータスが&#x200B;**[!UICONTROL リクエスト済み]**&#x200B;であることに加え、このリストに表示するには、選択したPortfolioにプロジェクトを関連付ける必要があります。
 
 1. リスト内のプロジェクトの名前をクリックして開きます。
 1. 左側のパネルの「**[!UICONTROL プロジェクト詳細]**」をクリックします。
 1. 以下の操作のいずれかを行います。
 
-   * **[!UICONTROL ビジネスケース]** をクリックし、「**[!UICONTROL ビジネスケースの概要]** 領域の「**[!UICONTROL 承認]** または [!UICONTROL &#x200B; 却下 &#x200B;] をクリックして、ビジネスケースを承認または却下します。
+   * **[!UICONTROL ビジネスケース]**&#x200B;をクリックし、**[!UICONTROL ビジネスケースの概要]**&#x200B;領域の&#x200B;**[!UICONTROL 承認]**&#x200B;または[!UICONTROL 却下]をクリックして、ビジネスケースを承認または却下します。
 
      ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 
@@ -125,7 +129,7 @@ ht-degree: 76%
 
    * **[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューで、プロジェクトのステータスを他のステータスに変更します。
 
-     ![&#x200B; ドロップダウンからのプロジェクトステータスの変更 &#x200B;](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![ プロジェクトのステータスをドロップダウンから変更](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
 
 
 

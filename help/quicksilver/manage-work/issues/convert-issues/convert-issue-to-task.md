@@ -1,15 +1,17 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: イシューのタスクへの変換
-description: イシューの送信後にイシューを完了するためにさらに作業が必要な場合は、Adobe Workfrontでイシューをタスクに変換できます。
+title: 問題をタスクに変換
+description: 問題が提出された後、問題を完了するためにさらなる作業が必要な場合は、その問題をAdobe Workfrontのタスクに変換できます。
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1043'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 87%
 
 <!--Audited: 08/2025-->
 
-イシューの送信後にイシューを完了するためにさらに作業が必要な場合は、Adobe Workfrontでイシューをタスクに変換できます。
+問題が提出された後、問題を完了するためにさらなる作業が必要な場合は、その問題をAdobe Workfrontのタスクに変換できます。
 
 イシューの変換に関する一般的な情報については、[Adobe Workfront におけるイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
@@ -47,7 +49,7 @@ ht-degree: 87%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>イシューの表示権限</p> <p>プロジェクトへの投稿権限</p> <p>イシューが変換された後に、タスクに対する管理権限を取得します</p> </td> 
+   <td> <p>イシューの表示権限</p> <p>プロジェクトへの投稿権限</p> <p>問題が変換された後、タスクへの管理権限を取得します</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +59,8 @@ ht-degree: 87%
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -79,11 +82,12 @@ ht-degree: 87%
    <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## 考慮事項
 
-* 問題をタスクに変換する際には、処理の制限が 5 分あります。 イシューに多数のドキュメントが添付されていて、変換に失敗した場合は、ドキュメントの一部を削除して、もう一度試す必要がある可能性があります。
+* 問題をタスクに変換する場合、5分間の処理制限があります。 問題に多数のドキュメントが添付されていて、変換できない場合は、一部のドキュメントを削除して、もう一度やり直す必要がある場合があります。
 
 ## イシューをタスクに変換
 
@@ -91,7 +95,7 @@ ht-degree: 87%
 1. 変換するイシューをクリックして、イシューのランディングページに移動します。
 1. イシューの&#x200B;[!UICONTROL **その他**]&#x200B;メニューをクリックし、[!UICONTROL **タスクに変換**]&#x200B;を選択します。
 
-   ![&#x200B; 問題の詳細メニュー &#x200B;](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![その他のメニューを発行](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -99,7 +103,7 @@ ht-degree: 87%
 
 1. [!UICONTROL タスク名]セクションでタスクの名を前を更新します。デフォルトでは、タスクの名前は元のイシューの名前と同じになります。
 
-   ![&#x200B; タスクに変換ボックス &#x200B;](assets/convert-to-task-box-nwe.png)
+   ![ タスクボックスに変換](assets/convert-to-task-box-nwe.png)
 
 1. [!UICONTROL **宛先プロジェクト**]&#x200B;をクリックし、新しいタスクを配置するプロジェクトの名前を&#x200B;[!UICONTROL **宛先プロジェクト**]&#x200B;フィールドに入力し始め、リストに表示されたらそれを選択します。デフォルトでは、イシューのプロジェクトが選択されています。
 
@@ -146,7 +150,7 @@ ht-degree: 87%
    >[!TIP]
    >
    >* イシューに添付された複数のオブジェクトのカスタムフォームをイシューとタスクの両方で使用するように設定すると、イシューとタスクのカスタムフォームの両方にフィールドが存在する場合、フォームに保存されたすべての情報が変換時に保持されます。
-   >* 計算フィールドを持つ複数のオブジェクトのカスタムフォームがイシューおよびタスクに添付されている場合、イシューおよびタスクには、フォームの計算カスタムフィールドで参照されているすべてのフィールドとの互換性が必要です。互換性がない場合は、調整を行うように警告するメッセージが表示されます。詳しくは、[&#x200B; フォームへの計算フィールドの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+   >* 計算フィールドを持つ複数のオブジェクトのカスタムフォームがイシューおよびタスクに添付されている場合、イシューおよびタスクには、フォームの計算カスタムフィールドで参照されているすべてのフィールドとの互換性が必要です。互換性がない場合は、調整を行うように警告するメッセージが表示されます。詳しくは、[フォームへの計算フィールドの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
    >* 宛先プロジェクトのタスクデフォルトカスタムフォームフィールドにデフォルトフォームが定義されている場合、プロジェクトの編集時に、それらのタスクフォームも新しいタスクに追加されます。元のイシューとデフォルトのタスクフォームのフィールドに共通するカスタムフィールドには、イシューフィールドの情報が事前に入力されます。
 
 

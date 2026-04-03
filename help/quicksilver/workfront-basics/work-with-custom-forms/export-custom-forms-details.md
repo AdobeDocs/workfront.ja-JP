@@ -1,10 +1,12 @@
 ---
-title: カスタムのFormsとオブジェクトの詳細の書き出し
+title: カスタム Formsとオブジェクトの詳細の書き出し
 description: オブジェクトの「詳細」セクションから概要とカスタムフォーム情報を PDF ファイルに書き出すことができます。その後、PDF を印刷または他のユーザーと共有できます。
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 90%
@@ -47,12 +49,12 @@ ht-degree: 90%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
-   <td><p>問題の場合：</p>
-   <ul><li><p>投稿者以上</p></li>
-   <li><p>要求者以上</p> </li></ul>
-   <p>プロジェクトおよびタスクの場合：</p>
-   <ul><li><p>ライト以上</p></li>
-   <li><p>Reviewer 以上</p></li></ul>
+   <td><p>問題について：</p>
+   <ul><li><p>コントリビューター以上</p></li>
+   <li><p>依頼者以上</p> </li></ul>
+   <p>プロジェクトとタスク：</p>
+   <ul><li><p>明るいまたはそれ以上</p></li>
+   <li><p>レビュアー以上</p></li></ul>
     </td> 
   </tr> 
   <tr> 
@@ -70,7 +72,8 @@ ht-degree: 90%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -92,7 +95,8 @@ ht-degree: 90%
    <td> <p>View or higher permissions to the project, task, or issue whose form you want to export</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 前提条件
 
@@ -105,7 +109,7 @@ ht-degree: 90%
 
    カスタムフォームを添付しフォーム上の情報を編集するための適切なアクセス権
 
-カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 オブジェクトへのフォームの添付については、[オブジェクトへのカスタムフォームの追加](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
 
@@ -124,7 +128,7 @@ ht-degree: 90%
 
    概要エリアとすべてのカスタムフォームを書き出す場合は、「**すべて選択**」を選択することもできます。
 
-   ![&#x200B; 「カスタムフォームを書き出し」ボタン &#x200B;](assets/export-custom-form-button-menu.png)
+   ![ カスタムフォームの書き出しボタン ](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >
@@ -133,7 +137,7 @@ ht-degree: 90%
    >   * グループ管理者または Workfront 管理者が概要エリアのすべてのフィールドを選択解除し、オブジェクトにカスタムフォームが添付されている場合は、「概要」セクションが表示されません。
    >   * グループ管理者または Workfront 管理者が概要エリアのすべてのフィールドを選択解除し、オブジェクトにカスタムフォームが添付されていない場合は、「書き出し」ドロップダウンメニューが表示されません。
    >   * オブジェクトにカスタムフォームが添付されていない場合は、概要エリアのみを書き出すことができます。
-   >   * ロジックの裏で動作しフォームに表示されないカスタムフィールドは、書き出されません。カスタムフォームへのロジックの追加について詳しくは、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) を参照してください。
+   >   * ロジックの裏で動作しフォームに表示されないカスタムフィールドは、書き出されません。カスタムフォームへのロジックの追加について詳しくは、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
 
    PDF ファイルが生成され、お使いのコンピューターにダウンロードされます。この PDF ファイルには、次の情報が含まれています。
 

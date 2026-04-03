@@ -7,7 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 82%
@@ -16,7 +18,7 @@ ht-degree: 82%
 
 # Frame.io 統合での Adobe Experience Manager の使用
 
-[!DNL Experience Manager Assets]&#x200B;&#x200B;を使用して、レビューと承認のサイクルを経たデジタルアセットを管理および保存できます。 この統合により、Adobe Experience Manager、Frame.io、Workfront の機能を活用して、コンテンツ管理や共同作業のプロセスを合理化できます。
+[!DNL Experience Manager Assets]}&#x200B;を使用して、レビューと承認サイクルを経たデジタルアセットを管理および保存できます。 この統合により、Adobe Experience Manager、Frame.io、Workfront の機能を活用して、コンテンツ管理や共同作業のプロセスを合理化できます。
 
 ## Experience Manager Assets統合の設定
 
@@ -51,7 +53,7 @@ ht-degree: 82%
    <p>標準</p>
    <p>プラン</p>
 
-<p>ドキュメントをExperience Manager Assetsに送信するには：</p>
+<p>Experience Manager Assetsにドキュメントを送信するには：</p>
    <p>コントリビューター以上</p>
    <p>リクエスト以上</p>
    </td>
@@ -121,10 +123,10 @@ ht-degree: 82%
 
 メタデータフィールドを設定するには、次の手順に従います。
 
-1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
+1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
 
 
-1. Workfront でカスタムフォームフィールドを設定します。[!DNL Workfront] には、使用できるビルトインのカスタムフィールドが多数あります。ただし、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) で説明されているように、独自のカスタムフィールドを作成することもできます。
+1. Workfront でカスタムフォームフィールドを設定します。[!DNL Workfront] には、使用できるビルトインのカスタムフィールドが多数あります。ただし、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)で説明しているように、独自のカスタムフィールドを作成することもできます。
 
 +++ **サポートされている Workfront フィールドおよび Experience Manager Assets フィールドについて詳しくはこちらを展開** 
 
@@ -151,7 +153,7 @@ Workfront でサポートされている任意のフィールドを、Experience
 
 Experience Manager Assets でタグを作成すると、タグは「メタデータ」セクションのタグドロップダウンに表示されます。フィールドをタグにリンクするには、メタデータマッピングエリアの Experience Manager Assets フィールドドロップダウンで `xcm:keywords` を選択します。
 
-タグの作成および管理方法など、Experience Manager Assets のタグについて詳しくは、[タグの管理](https://experienceleague.adobe.com/ja/docs/experience-manager-64/administering/contentmanagement/tags)を参照してください。
+タグの作成および管理方法など、Experience Manager Assets のタグについて詳しくは、[タグの管理](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)を参照してください。
 
 **Experience Manager Assets のカスタムメタデータスキーマフィールド**
 
@@ -200,7 +202,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
 1. [!DNL Experience Manager Assets] フィールドで、事前入力されたカテゴリを検索するか、検索フィールドに 2 文字以上入力して、追加のカテゴリにアクセスします。
 1. 必要に応じて、手順 2 および 3 を繰り返します。
    ![メタデータフィールド](assets/metadata-no-asset-toggle.png)
-1. [!UICONTROL **保存**] をクリックするか、この記事の [&#x200B; オブジェクトメタデータの同期 &#x200B;](#object-metadata-sync) の節に移動します。
+1. [!UICONTROL **保存**]&#x200B;をクリックするか、この記事の[ オブジェクトメタデータ同期](#object-metadata-sync) セクションに移動します。
 
 
 
@@ -208,9 +210,9 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 [!DNL Workfront] ポートフォリオ、プログラム、プロジェクト、タスク、イシューおよびドキュメントフィールドにマッピングされた [!DNL Experience Manager] フィールドは、[!DNL Workfront] でフィールドが変更されると自動的に更新されます。
 
-このオプションを有効にすると、Adobe Experience Manager にプッシュされたすべてのアセットが、Workfrontのドキュメントの詳細ページにドキュメントのAdobe Experience Manager メタデータのリアルタイム表示を表示します。
+このオプションを有効にすると、Adobe Experience Managerにプッシュされたアセットは、Workfrontのドキュメント詳細ページにドキュメントのAdobe Experience Manager メタデータのリアルタイムビューを表示します。
 
-1. 「**[!UICONTROL オブジェクトメタデータを同期]**」フィールドを有効にし、「**保存** をクリックします。
+1. 「**[!UICONTROL オブジェクトメタデータを同期]**」フィールドを有効にし、**保存**&#x200B;をクリックします。
 
 >[!IMPORTANT]
 >
@@ -219,9 +221,9 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 ## Experience Manager Assets または Assets Essentials へのドキュメントの送信
 
-Workfront から Experience Manager Assets または Assets Essentials にドキュメントを送信できます。Workfrontから Assets Essentials にアップロードおよび送信されたドキュメントは、引き続きドキュメントストレージ全体にカウントされます。
+Workfront から Experience Manager Assets または Assets Essentials にドキュメントを送信できます。WorkfrontからAssets Essentialsにアップロードおよび送信されたドキュメントは、引き続きドキュメント全体のストレージに対してカウントされます。
 
-この統合を通じてExperience Managerに送信されるAssetsのサイズ制限は、**5o TB** です。
+この統合を通じてExperience Managerに送信されたAssetsのサイズ制限は&#x200B;**5o TB**&#x200B;です。
 
 <!--In the Preview environment, Assets sent to Experience Manager through this integration have a size limit of **30 GB**.-->
 
@@ -229,20 +231,20 @@ Workfront から Experience Manager Assets または Assets Essentials にアセ
 
 >[!INFO]
 >
->**例** プロジェクトに添付されたアセットを最初に送信すると、メタデータは、Experience Manager Assetsまたは Assets Essentials にマッピングされ、ポートフォリオやプログラムなどの親オブジェクトからマッピングされたメタデータもマッピングされます。
+>**例** プロジェクトにアタッチされたアセットを初めて送信する場合、メタデータはExperience Manager AssetsまたはAssets Essentialsにマッピングされます。また、ポートフォリオやプログラムなどの親オブジェクトからマッピングされたメタデータもマッピングされます。
 
 
 
 ### Workfront からドキュメントを送信
 
-Workfront から Experience Manager Assets または Assets Essentials にユーザーがドキュメントを送信すると、マッピングされたメタデータはドキュメントに沿って転送されます。ドキュメントの送信後、Workfront でドキュメントのメタデータに加えた変更は、Assets や Assets Essentials には反映されません。Workfrontのマッピングされたフィールドが変更された場合は、更新されたメタデータを含む新しいバージョンのドキュメントをAssetsまたは Assets Essentials に送信する必要があります。
+Workfront から Experience Manager Assets または Assets Essentials にユーザーがドキュメントを送信すると、マッピングされたメタデータはドキュメントに沿って転送されます。ドキュメントの送信後、Workfront でドキュメントのメタデータに加えた変更は、Assets や Assets Essentials には反映されません。Workfrontでマッピングされたフィールドが変更された場合は、更新されたメタデータを含む新しいバージョンのドキュメントをAssetsまたはAssets Essentialsに送信する必要があります。
 
 ドキュメントを送信するには：
 
 1. **ドキュメント**&#x200B;に移動して、Workfront エリアに移動し、送信するドキュメントを選択します。
-1. 画面の下部にあるバーで、「**送信先**」をクリックします。
+1. 画面下部のバーで、**送信先**&#x200B;をクリックします。
 
-1. 管理者によって設定されたExperience Manager統合を選択し、「**送信**」をクリックします。
+1. 管理者が設定したExperience Manager統合を選択し、**Send**&#x200B;をクリックします。
 
    >[!NOTE]
    >
@@ -252,7 +254,8 @@ Workfront から Experience Manager Assets または Assets Essentials にユー
 1. アセットの保存先を選択し、「**フォルダーを選択**」をクリックします。
 
 
-<!-- not sure if this is in yet
+<!--
+ not sure if this is in yet
 
 ### Send a new version
 

@@ -2,11 +2,13 @@
 product-area: projects;resource-management
 navigation-topic: manage-projects
 title: プロジェクトのリソースのスケジュール
-description: 1 つのプロジェクトのリソースをスケジュールして、各リソースがどのような作業に割り当てられるか、および作業の完了にどのくらいの時間を費やす必要があるかを示すことができます。プロジェクトレベルでワークロードバランサーを使用して、プロジェクトのリソースをスケジュールし、各リソースに時間を割り当てることができます。
+description: 1 つのプロジェクトのリソースをスケジュールして、各リソースがどのような作業に割り当てられるか、および作業の完了にどのくらいの時間を費やす必要があるかを示すことができます。プロジェクトのリソースをスケジュールし、プロジェクトレベルでワークロードバランサーを使用して各リソースに時間を割り当てることができます。
 author: Alina, Lisa
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 71%
@@ -17,7 +19,7 @@ ht-degree: 71%
 
 <!--Audited: 5/2025-->
 
-1 つのプロジェクトのリソースをスケジュールして、各リソースがどのような作業に割り当てられるか、および作業の完了にどのくらいの時間を費やす必要があるかを示すことができます。プロジェクトレベルでワークロードバランサーを使用して、プロジェクトのリソースをスケジュールし、各リソースに時間を割り当てることができます。
+1 つのプロジェクトのリソースをスケジュールして、各リソースがどのような作業に割り当てられるか、および作業の完了にどのくらいの時間を費やす必要があるかを示すことができます。プロジェクトのリソースをスケジュールし、プロジェクトレベルでワークロードバランサーを使用して各リソースに時間を割り当てることができます。
 
 ## アクセス要件
 
@@ -38,7 +40,7 @@ ht-degree: 71%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>次へのアクセスを編集：</p> 
+   <td> <p>次のアクセス権を編集します。</p> 
     <ul> 
      <li> <p>リソース管理</p> </li> 
      <li> <p>プロジェクト</p> </li> 
@@ -57,7 +59,8 @@ ht-degree: 71%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 You must have the following access to perform the steps in this article:
 
@@ -88,7 +91,8 @@ You must have the following access to perform the steps in this article:
    <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## プロジェクトのリソースをスケジュール
 

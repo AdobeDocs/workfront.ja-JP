@@ -2,12 +2,14 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: 作業およびチーム要求の管理
+title: 作業リクエストとチームリクエストの管理
 description: リクエストは、保留中のタスクまたはイシューの割り当てを表します。ワークリクエストは個人に対して行われ、チームリクエストはチームに対して行われます。
 author: Courtney
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 96%
@@ -37,8 +39,8 @@ ht-degree: 96%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>リクエストの割り当てまたは作業を行うには：
-   <p>ライト以上</p>
+   <p>リクエストを割り当てたり作業したりするには：
+   <p>明るいまたはそれ以上</p>
   <p>レビュー以上</p>
    <p>リクエストを再割り当てするには：
    <p>標準</p>

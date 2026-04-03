@@ -2,16 +2,18 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
-title: システム更新の構成
+title: システム更新の設定
 description: Workfront は、オブジェクトの[!UICONTROL 更新]エリアで自動システム更新を生成し、ユーザーがオブジェクトに対して実行した変更を記録します。 [!DNL Workfront]  管理者は、 [!DNL Workfront]  がどのオブジェクトフィールドおよびアクションを追跡するかを設定して、システム更新を記録できます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 47%
+ht-degree: 48%
 
 ---
 
@@ -27,7 +29,8 @@ The highlighted information on this page refers to functionality not yet general
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div> -->
+</div>
+-->
 
 [!DNL Adobe Workfront] は、オブジェクトの[!UICONTROL 更新]エリアで自動システム更新を生成し、次のイベントを記録します。
 
@@ -55,7 +58,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] パッケージ</td> 
    <td><p>任意</p></td> 
   </tr> 
   <tr> 
@@ -71,11 +74,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+* この表の詳細については、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -96,7 +100,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## [!DNL Workfront] がオブジェクトタイプのどのフィールドを追跡するかを決定
 
@@ -104,8 +109,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 >[!NOTE]
 >
->* 計算 [!DNL Workfront] れたカスタムフィールドに関する更新を追跡および記録することはできません。
->* プロジェクト、タスク、イシュー、ポートフォリオ、プログラムおよびユーザーのシステム更新をカスタマイズできます。テンプレート、ドキュメント、タイムシートのシステム更新はカスタマイズできませんが、[!DNL Workfront] ではこれらのオブジェクトのシステム更新が記録されます。
+>* [!DNL Workfront]は、計算されたカスタム フィールドに関する更新を追跡および記録できません。
+>* プロジェクト、タスク、イシュー、ポートフォリオ、プログラムおよびユーザーのシステム更新をカスタマイズできます。テンプレート、ドキュメント、またはタイムシートのシステム更新をカスタマイズすることはできませんが、[!DNL Workfront]はこれらのオブジェクトのシステム更新を記録します。
 >
 
 
@@ -115,20 +120,20 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 >[!NOTE]
 >
->更新フィードでは、最大 300 個のビルトインのフィールドとカスタムフィールドを追跡できます。最大数のフィールドを追跡していて、「[!UICONTROL &#x200B; すべてのフィールド &#x200B;]」サブタブに表示されていない追加フィールドを追跡する場合、新しいフィールドを追跡するには、最初に追跡対象のフィールドのいくつかを削除する必要があります。 更新フィールドからフィールドを削除する方法について詳しくは、[&#x200B; 追跡しないフィールドの削除 &#x200B;](#remove-fields-you-don-t-want-tracked) を参照してください。
+>更新フィードでは、最大 300 個のビルトインのフィールドとカスタムフィールドを追跡できます。フィールドの最大数を追跡しており、[!UICONTROL すべてのフィールド ] サブタブに表示されない追加のフィールドを追跡する場合は、新しいフィールドを追跡するために、最初に追跡されたフィールドの一部を削除する必要があります。 更新フィールドからフィールドを削除する方法の詳細については、[ トラッキングしないフィールドの削除](#remove-fields-you-don-t-want-tracked)を参照してください。
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで「**[!UICONTROL インターフェイス]**」をクリックし、「**[!UICONTROL フィードを更新]** をクリックします。
-1. （オプション）「**追跡対象フィールド**」タブで、更新フィードで追跡するフィールドのタイプに応じて、次のいずれかのサブタブをクリックします。
+1. 左側のパネルで、「**[!UICONTROL インターフェイス]**」、「**[!UICONTROL フィードを更新]**」の順にクリックします。
+1. （オプション）「**追跡されたフィールド**」タブで、更新フィードで追跡するフィールドのタイプに応じて、次のいずれかのサブタブをクリックします。
 
    * **組み込みフィールド**：組み込みフィールドのリストを表示します。
-   * **カスタムフィールド**：カスタムフィールドのリストを表示します。 リストで使用する前にカスタムフィールドを作成する必要があります。
-   * **すべてのフィールド**：組み込みフィールドとカスタムフィールドの両方のリストを表示します。
+   * **カスタムフィールド**：カスタムフィールドのリストを表示します。 カスタムフィールドをリストで使用する前に作成する必要があります。
+   * **すべてのフィールド**：ビルトインフィールドとカスタムフィールドの両方のリストを表示します。
 
-1. **[!UICONTROL フィールドを追加]** をクリックして、追跡するオブジェクトをドロップダウンから選択します。
+1. 「**[!UICONTROL フィールドを追加]**」をクリックし、ドロップダウンから追跡するオブジェクトを選択します。
 
-   「更新」領域を持つすべてのオブジェクトで、フィールドの手動選択を使用できるわけではありません。
+   「更新」領域を持つすべてのオブジェクトでは、フィールドを手動で選択することはできません。
 
    次のオブジェクトのフィールドから選択します。
 
@@ -139,28 +144,28 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * プログラム
    * ユーザー
 
-   **フィールドを追加** ボックスが、選択したオブジェクトごとに開きます。
-1. 「**フィールドを追加**」ボックスに、オブジェクトの組み込み（標準）フィールドまたはカスタムフィールドの入力を開始し、リストに表示されたら選択します。
+   選択した各オブジェクトについて、**フィールドを追加** ボックスが開きます。
+1. 「**フィールドを追加**」ボックスで、オブジェクトの組み込み（標準）フィールドまたはカスタムフィールドのいずれかを入力し始め、リストに表示されたら選択します。
 
    >[!NOTE]
    >
-   >既にフィールドをトラッキングしている [!DNL Workfront] 合は、リストから 2 回目は追加できません。
+   >[!DNL Workfront]が既にフィールドを追跡している場合、リストから2回目に追加することはできません。
 
-1. 追跡するすべてのフィールド [!DNL Workfront] 追加したら、「**[!UICONTROL 追加]** をクリックします。
-追加した組み込みフィールドは「**[!UICONTROL 組み込みフィールド]** サブタブの下に表示され、カスタムフィールドは「**[!UICONTROL カスタムフィールド]** サブタブの下に表示されます。
-**[!UICONTROL すべてのフィールド]** サブタブには、トラックする組み込みフィールドとカスタムフィールドの両方が表示 [!DNL Workfront] れます。
+1. [!DNL Workfront]で追跡するフィールドをすべて追加したら、**[!UICONTROL 追加]**をクリックします。
+追加した組み込みフィールドは**[!UICONTROL 組み込みフィールド]** サブタブに表示され、カスタムフィールドは&#x200B;**[!UICONTROL カスタムフィールド]** サブタブに表示されます。
+**[!UICONTROL すべてのフィールド]** サブタブには、[!DNL Workfront]が追跡する組み込みフィールドとカスタムフィールドの両方が表示されます。
 
 ### 追跡しないフィールドを削除 {#remove-fields-you-don-t-want-tracked}
 
-特定のタイプのオブジェクトに対してシステムが追跡したくないフィールドを、[!DNL Workfront] インターフェイス全体で削除できます。
+特定のタイプのオブジェクトを追跡しないフィールドは、[!DNL Workfront] インターフェイス全体で削除できます。
 
 {{step-1-to-setup}}
 
-1. **[!UICONTROL インターフェイス]** をクリックし、**[!UICONTROL フィードを更新]** をクリックします。
+1. 「**[!UICONTROL インターフェイス]**」、「**[!UICONTROL フィードを更新]**」の順にクリックします。
 
-1. **[!UICONTROL トラッキングフィールド]** タブで「**[!UICONTROL すべてのフィールド]** サブタブを選択します。 現在追跡中のビルトインフィールドとカスタムフィールドの両方が表示されます。
+1. 「**[!UICONTROL トラッキングフィールド]**」タブで、「**[!UICONTROL すべてのフィールド]**」サブタブを選択します。 現在追跡されているビルトインフィールドとカスタムフィールドの両方が表示されます。
 
-1. トラッキングを停止するフィールドを選択し、**[!UICONTROL 削除]** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/remove-icon.png) をクリックします。
+1. トラッキングを停止するフィールドを選択し、**[!UICONTROL 削除]** アイコン ![削除アイコン ](assets/remove-icon.png)をクリックします。
 
 1. 表示される「**[!UICONTROL フィールドを削除]**」ボックスで、「**[!UICONTROL はい、削除します]**」をクリックして確定します。
 
@@ -168,13 +173,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## [!DNL Workfront] がオブジェクトタイプのどのアクションを追跡するかを決定
 
-[!DNL Workfront] ーザーインターフェイス [!DNL Workfront] は、ユーザーがオブジェクトに対して実行するアクションを追跡できます。
+ユーザーが[!DNL Workfront] インターフェイス内のオブジェクトに対して実行するアクションを[!DNL Workfront]回追跡できます。
 
-例えば、ユーザーがタスクまたは問題 [!DNL Workfront] 割り当てを変更するたびに更新を記録することができます。
+例えば、ユーザーがタスクまたは問題への割り当てを変更するたびに、[!DNL Workfront]に更新を記録させることができます。
 
 変更は、タスクまたはイシューの[!UICONTROL 更新]エリアに、システム更新として表示されます。
 
-次の表に、[!DNL Workfront] でオブジェクトに対して追跡できるアクションを示します。
+次の表に、[!DNL Workfront]のオブジェクトで追跡できるアクションを示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -245,11 +250,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 {{step-1-to-setup}}
 
-1. **[!UICONTROL インターフェイス]** をクリックし、**[!UICONTROL フィードを更新]** をクリックします。
+1. 「**[!UICONTROL インターフェイス]**」、「**[!UICONTROL フィードを更新]**」の順にクリックします。
 
 1. 「**[!UICONTROL アクション]**」タブをクリックします。
 
-1. アクションのチェックボックスを選択して有効にするか、選択解除して無効にします。
+1. アクションのチェックボックスを選択して有効にするか、選択を解除して無効にします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   アクションを無効にすると、そのアクションに関して以前に記録された更新は、記録された [!UICONTROL &#x200B; 更新 &#x200B;] 領域に保持されます。 無効 [!DNL Workfront] したアクションの新しい更新の記録を停止します。
+   アクションを無効にすると、そのアクションに関して以前に記録された更新は、そのアクションが記録された[!UICONTROL 更新]領域に保持されます。 [!DNL Workfront]は、無効なアクションの新しい更新の記録を停止します。

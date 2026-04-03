@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: グループ化：Portfolio所有者、プログラム所有者、プロジェクト所有者およびプロジェクトステータスの 4 レベルのタスクのグループ化
+title: グループ化：Portfolioオーナー、プログラムオーナー、プロジェクトオーナー、プロジェクトステータスの4 レベルのタスクグループ化
 description: このタスクグループ化では、4 レベルのグループ化を提供します。この場合、タスクは、ポートフォリ所有者、プログラム所有者、プロジェクト所有者およびプロジェクトステータス別にグループ化されます。標準インターフェイスを使用する場合は、最大 3 レベルのグループ化に限られます。第 4 レベルを追加するには、テキストモードを使用する必要があります。同時に 4 つを超える条件でレポートをグループ化することはできません。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a1780a57-b94c-4d3a-b526-9bf45dba21f1
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 86%
@@ -37,8 +39,8 @@ ht-degree: 86%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -64,8 +66,8 @@ ht-degree: 86%
 
 1. 「**テキストモードに切り替える**」をクリックします。
 1. **レポートをグループ化**&#x200B;エリアのテキストを削除します。
-1. 表示されたボックス内のテキストを次のコードに置き換えます。
+1. ボックス内のテキストを次のコードに置き換えます。
    <pre>group.0.linkedname=project<br>group.0.name=Portfolio Owner<br>group.0.notime=false<br>group.0.valuefield=project:portfolio:owner:name<br>group.0.valueformat=string<br>group.1.linkedname=project<br>group.1.name=Program Owner<br>group.1.notime=false<br>group.1.valuefield=project:program:owner:name<br>group.1.valueformat=string<br>group.2.linkedname=projectOwnerMM<br>group.2.listgrouingparsedmethod=nested(project).nested(owner).string(name)<br>group.2.namekey=projectownermm<br>group.2.notime=false<br>group.2.valuefield=projectOwnerMM:name<br>group.2.valueformat=string<br>group.3.enumclass=com.attask.common.constants.ProjectStatusEnum<br>group.3.linkedname=project<br>group.3.namekey=view.relatedcolumn<br>group.3.namekeyargkey.0=project<br>group.3.namekeyargkey.1=status<br>group.3.notime=false<br>group.3.valuefield=project:status<br>group.3.valueformat=val</pre>
 
 1. 「**完了**」をクリックし、「**グループ化の保存**」をクリックします。
-1. （オプション）グループ化の名前を更新し、「**グループ化を保存**」をクリックします。
+1. （オプション）グループ化の名前を更新し、**グループ化を保存**&#x200B;をクリックします。

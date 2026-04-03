@@ -1,5 +1,5 @@
 ---
-title: ' [!DNL SharePoint]  統合の設定'
+title: ' [!DNL SharePoint] 統合の設定'
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,7 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 95%
@@ -25,9 +27,9 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->新しい [!DNL SharePoint] 統合は、22.3 リリース（2022 年 7 月）で実稼動環境にリリースされました。
+>新しい[!DNL SharePoint]統合は、22.3 リリース（2022年7月）で実稼動環境にリリースされました。
 >
->* ユーザーは、従来の [!DNL SharePoint] 統合を通じてリンクされたドキュメントに引き続きアクセスできますが、それを通じてドキュメントをリンクすることはできません。 SharePointからドキュメントをリンクするには、新しい [!DNL SharePoint] 統合を使用する必要があります。
+>* ユーザーは、従来の[!DNL SharePoint]統合を通じてリンクされたドキュメントに引き続きアクセスできますが、その統合を通じてドキュメントをリンクすることはできません。 SharePointからドキュメントをリンクするには、新しい[!DNL SharePoint]統合を使用する必要があります。
 >
 >* 従来のSharePoint統合が設定されていない場合は、追加できません。 ドキュメントをSharePointにリンクするには、新しいSharePoint統合を使用する必要があります。
 >
@@ -170,7 +172,7 @@ ht-degree: 95%
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
 1. 左側のナビゲーションで&#x200B;**[!UICONTROL ドキュメント]**&#x200B;を選択したあと、**[!UICONTROL クラウドプロバイダー]**&#x200B;を選択します。
-1. **[!DNL SharePoint]**&#x200B;オプションと&#x200B;**[!UICONTROL [!DNL SharePoint] (Graph API)]**&#x200B;オプションが両方とも有効になっていることを確認します。
+1. **[!DNL SharePoint]**&#x200B;オプションと&#x200B;**[!UICONTROL [!DNL SharePoint](Graph API)]**&#x200B;オプションが両方とも有効になっていることを確認します。
 1. **[!UICONTROL 保存]**&#x200B;をクリックします。
 1. 左側のナビゲーションで&#x200B;**[!UICONTROL ドキュメント]**&#x200B;を選択したあと、**[!UICONTROL [!DNL SharePoint]統合]**&#x200B;を選択します。
 1. 既存のすべての統合のリストの左側にあるチェックマークを選択したあと、「**[!UICONTROL 無効にする]**」を選択します。
@@ -185,11 +187,13 @@ ht-degree: 95%
 >
 > [!DNL SharePoint] クライアントシークレットは [!DNL Microsoft] で処理されるので、クライアントシークレットの機能と手順は、[!DNL Microsoft] による [!DNL SharePoint] の更新に応じて変更される可能性があります。[!DNL SharePoint] の手順と機能の最新情報については、常に [!DNL Microsoft] のドキュメントを参照してください。
 
-<!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
+<!--
+1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
-1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
+-->
 
-1. [&#x200B; [!DNL SharePoint]  アドインで期限が切れたクライアントシークレットの置換](https://docs.microsoft.com/ja-jp/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)の説明に従って、新しいクライアントシークレットを生成します。
+1. [ [!DNL SharePoint]  アドインで期限が切れたクライアントシークレットの置換](https://docs.microsoft.com/ja-jp/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)の説明に従って、新しいクライアントシークレットを生成します。
 1. このクライアントシークレットを安全な場所にコピーします。
 1. [!DNL Workfront] に管理者としてログインします。
 1. Workfront で、Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](assets/main-menu-icon.png) をクリックするか、（利用可能であれば）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして、**[!UICONTROL セットアップ]** ![セットアップ](/help/_includes/assets/gear-icon-setup.png) をクリックします。
@@ -483,7 +487,8 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
   [!DNL SharePoint] でこれを検証するには、SharePoint でサイトコレクションの権限を確認します。
 
-<!--* The [!DNL SharePoint] Site App must have access to the site collection.
+<!--
+* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
 
@@ -495,7 +500,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
       
 -->
 
-### 問題：以前にリンクされた [!DNL SharePoint] 内のフォルダーとドキュメントにアクセスできません。 {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
+### 問題：[!DNL SharePoint]内の以前にリンクされたフォルダーとドキュメントにアクセスできません。 {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
 解決策：
 
@@ -511,4 +516,5 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 #### Solution:
 
-This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.
+-->

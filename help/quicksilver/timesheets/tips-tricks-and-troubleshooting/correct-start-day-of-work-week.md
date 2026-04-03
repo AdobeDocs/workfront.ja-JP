@@ -2,12 +2,14 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: タイムシートの稼働日の開始日を修正する
-description: タイムシートの週の開始日が、週の開始日予測と一致しません。
+title: タイムシートの作業週の開始日を修正
+description: タイムシートの週の開始日が、私の期待する週単位の開始日と一致しません。
 author: Lisa
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 5%
@@ -20,21 +22,22 @@ ht-degree: 5%
 
 ## 問題
 
-タイムシートの週の開始日が、週の開始日予測と一致しません。
+タイムシートの週の開始日が、私の期待する週単位の開始日と一致しません。
 
-この問題は、通常、ユーザーが定期タイムシートに割り当てられていないが、タイムシートが手動で作成された場合に発生します。
+これは通常、タイムシート プロファイルに割り当てられていない場合や、タイムシートが手動で作成された場合に発生します。
 
 
 ## ソリューション
 
-Workfront管理者は、[&#x200B; タイムシートプロファイルの作成、編集、割り当て &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) に説明しているように、タイムシートプロファイルを作成し、全員をプロファイルに割り当てる必要があります。 Workfront管理者は、タイムシートの開始日を、期待される週の開始日以外の日に設定することができます。 これらのユーザーに問い合わせて、定期タイムシートの開始日を調べてください。
+Workfront管理者は、[ タイムシート プロファイルの作成、編集、割り当て](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)の説明に従って、タイムシート プロファイルを作成し、全員をプロファイルに割り当てる必要があります。 Workfrontの管理者は、タイムシートの開始日を、予定される週次の開始日以外の日に定義することができます。 タイムシート プロファイルの開始日がタイムシートの開始日を確認します。
 
-タイムシートを手動で作成した場合、タイムシートの週の開始日には、「自分の設定を構成する [&#x200B; の記事で説明されているように、ユーザーのプロファイルの電子メールのロケール設定が使用され &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) す。
+タイムシートが手動で作成された場合、タイムシートの週の開始日には、ユーザーのプロファイルで電子メールロケール設定が使用されます。詳しくは、[個人設定の設定](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
 
-例えば、「メールのロケール」を英語（米国）に設定した場合、タイムシートの週は日曜日に始まります。 または、「メールのロケール」が英語（英国）に設定された場合、タイムシートの週は月曜日に始まります。
+例えば、メールロケールが英語（米国）に設定されている場合、タイムシートの週は日曜日から始まります。 または、メールロケールを英語（英国）に設定した場合、タイムシートの週は月曜日から始まります。
 
 
-<!--This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
+<!--
+This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
 
 ## Problem
 

@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：列にタスクの後続タスクのリストを追加
+title: ビュー：列のタスク後継のリストの追加
 description: タスクビューに列を追加して、後続タスクのリストを表示できます。後続タスクの列には、後続タスクの番号と名前が含まれます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 70%
@@ -37,8 +39,8 @@ ht-degree: 70%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -61,10 +63,10 @@ ht-degree: 70%
 この列をタスクビューに追加するには、次の手順に従います。
 
 1. タスクリストに移動します。
-1. **ビュー** ドロップダウンメニューを展開し、「**新規ビュー**」をクリックします。
+1. **ビュー** ドロップダウンメニューを展開し、**新しいビュー**&#x200B;をクリックします。
 1. 「**列を追加**」をクリックします。
-1. **テキストモードに切り替え** をクリックしてから、**テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスのすべてのテキストを削除し、次のコードに置き換えます。
+1. 「**テキストモードに切り替え**」をクリックし、「**テキストモードを編集**」をクリックします。
+1. 「**テキストモードを編集**」ボックス内のすべてのテキストを削除し、次のコードに置き換えます。
 
    ```
    displayname=Task Successors
@@ -76,4 +78,4 @@ ht-degree: 70%
    valueformat=HTML
    ```
 
-1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存**」をクリックします。

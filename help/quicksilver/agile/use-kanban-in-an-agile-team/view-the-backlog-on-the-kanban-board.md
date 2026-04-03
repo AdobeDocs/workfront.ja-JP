@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: かんばんボードへのバックログの追加
+title: バックログをカンバンボードに追加する
 description: '[!UICONTROL バックログ]列をかんばんボードに直接表示できます。 [!DNL Kanban]  ボードの[!UICONTROL バックログ]列には、 [!DNL Kanban]  ボードのバックログの最初の 20 個の項目が含まれます。タスクやイシューをバックログに表示するには、ステータスが「現在」に相当するプロジェクトに属している必要があります。'
 author: Courtney
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 92%
@@ -58,4 +60,4 @@ ht-degree: 92%
 >
 >複数のチームをバックログ項目に追加した場合、タスクまたはイシューは、プライマリチームのバックログにのみ表示されます。プライマリチームは、最初に割り当てられたチームです。
 
-バックログについて詳しくは、[&#x200B; アジャイルバックログの管理 &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) を参照してください。
+バックログについて詳しくは、[ アジャイルバックログの管理](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。

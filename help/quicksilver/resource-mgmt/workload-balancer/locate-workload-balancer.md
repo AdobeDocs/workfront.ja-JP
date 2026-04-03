@@ -3,14 +3,16 @@ product-area: resource-management
 keywords: 作業,チーム,スタッフ,リソース
 navigation-topic: the-workload-balancer
 title: ワークロードバランサーの使用場所
-description: ワークロードバランサーは、リソース エリアの複数のプロジェクト、チーム、プロジェクト、ユーザーに対して使用できます。
+description: ワークロードバランサーは、リソース領域の複数のプロジェクト、チーム、プロジェクト、ユーザーで使用できます。
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 61%
+ht-degree: 63%
 
 ---
 
@@ -21,7 +23,7 @@ ht-degree: 61%
 ワークロードバランサーには、以下の方法でアクセスできます。
 
 * Adobe Workfront によって事前に定義されたいくつかの領域からアクセス
-* ダッシュボードとして左側のパネルに追加する
+* 左側のパネルにダッシュボードとして追加すると
 
 この記事では、ワークロードバランサーにアクセスできるエリアについて説明します。
 
@@ -51,8 +53,8 @@ ht-degree: 61%
   <tr> 
    <td>Adobe Workfront プラン</td> 
    <td><p>標準</p>
-       <p>リソース エリアでワークロードバランサーを使用する場合は、計画します。作業、チームまたはプロジェクトのワークロードバランサーを使用する場合は、次のようにします</p>
-       <p><span class="preview">注意：すべてのユーザーは、ライセンス要件なしで、独自のユーザープロファイルでワークロードバランサーにアクセスできます。</span></p></td>
+       <p>計画：リソーシング領域でワークロードバランサーを使用する場合、作業：チームまたはプロジェクトのワークロードバランサーを使用する場合</p>
+       <p><span class="preview">注意：すべてのユーザーは、ライセンス要件なしで、独自のユーザープロファイルでWorkload Balancerにアクセスできます。</span></p></td>
   </tr> 
    <td>アクセスレベル設定</td> 
    <td> <p>次の項目に対する表示以上のアクセス権：</p> 
@@ -95,7 +97,7 @@ ht-degree: 61%
 
 ### チームのワークロードバランサーへのアクセス
 
-Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x200B;](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md) を参照してください。
+Workfrontのチームについて詳しくは、[ チームの概要](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md)を参照してください。
 
 {{step1-to-team}}
 
@@ -103,7 +105,7 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x
 
 1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
-   ![&#x200B; チームのワークロードバランサー &#x200B;](assets/nwe-balancer-team-350x172.png)
+   ![ チームのワークロードバランサー](assets/nwe-balancer-team-350x172.png)
 
    チームのワークロードバランサーには、デフォルトで次の情報が表示されます。
 
@@ -123,7 +125,7 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x
 
    プロジェクトのワークロードバランサーが表示されます。
 
-   ![&#x200B; プロジェクトのワークロードバランサー &#x200B;](assets/nwe-balancer-project-350x152.png)
+   プロジェクト ![の](assets/nwe-balancer-project-350x152.png) ワークロードバランサー
 
    プロジェクトのワークロードバランサーには、デフォルトで以下の情報が表示されます。
 
@@ -136,7 +138,7 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x
 
 ### ユーザーのワークロードバランサーへのアクセス
 
-すべてのユーザーが、自分のプロファイルでワークロードバランサーを表示するアクセス権を持ちます。 ユーザーのワークロードバランサーデータは読み取り専用です。 作業の割り当て、作業の割り当て解除、割り当ての調整をユーザーレベルで行うことはできません。
+すべてのユーザーは、自分のプロファイルでワークロードバランサーを表示するアクセス権があります。 ユーザーのワークロードバランサーデータは読み取り専用です。 ユーザーレベルでは、作業の割り当て、作業の割り当て解除、割り当ての調整はできません。
 
 ユーザーのワークロードバランサーでは、すべての表示設定を使用できます。 詳しくは、[ワークロードバランサーの操作](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)を参照してください。
 
@@ -146,17 +148,17 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x
 
    ユーザーのワークロードバランサーが表示されます。
 
-   ![&#x200B; ユーザーのワークロードバランサー &#x200B;](assets/workload-balancer-user.png)
+   ユーザー![の](assets/workload-balancer-user.png)Workload Balancer
 
-   デフォルトでは、ユーザーのワークロードバランサーには、次の情報が表示されます。
+   ユーザーのワークロードバランサーには、デフォルトで次の情報が表示されます。
 
    * **割り当てられた作業**：特定のユーザーに割り当てられたタスクと問題。
 
-## ワークロードバランサーをダッシュボードとして左側のパネルに追加する
+## ワークロードバランサーをダッシュボードとして左側のパネルに追加します
 
-ワークロードバランサーを、カスタマイズ可能なオブジェクトの左側のパネルにダッシュボードとして追加できます。
+カスタマイズ可能なオブジェクトの左側のパネルに、ワークロードバランサーをダッシュボードとして追加できます。
 
-ワークロードバランサーに既に適用したほとんどのカスタマイズは、左側のパネルに追加しても保持されます。
+ワークロードバランサーに既に適用したほとんどのカスタマイズは、左側のパネルに追加するときに保持されます。
 
 1. 次のいずれかのエリアに移動して、ワークロードバランサーにアクセスします。
 
@@ -171,15 +173,15 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要 &#x
       (NOTE: ensure this stays correct)
       -->
 
-1. [Workfront オブジェクトまたは領域の左側のパネルにダッシュボードを追加する &#x200B;](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) の説明に従って、オブジェクトの左側のナビゲーションパネルにダッシュボードを追加し、カスタムタブにダッシュボードを配置します。
+1. 「[Workfront オブジェクトまたは領域](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)の左側のパネルにダッシュボードを追加して、ダッシュボードをカスタムタブに配置する」の説明に従って、オブジェクトの左側のナビゲーションパネルにダッシュボードを追加します。
 
-   ダッシュボードからワークロードバランサーにアクセスする場合、手順 1 にリストされている元のエリアの 1 つから直接アクセスしているかのように表示できます。
+   ダッシュボードからワークロードバランサーにアクセスする場合、手順1に記載されている元の領域から直接アクセスしているかのように、ワークロードバランサーを表示できます。
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
-1. （オプション） [&#x200B; レイアウトテンプレートを使用した左パネルのカスタマイズ &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) の説明に従って、レイアウトテンプレートでダッシュボードを共有します。
+1. （オプション）「[ レイアウトテンプレートを使用して左側のパネルをカスタマイズ ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)」の説明に従って、ダッシュボードをレイアウトテンプレートで共有します。
 
 
 <!--
@@ -197,4 +199,5 @@ For a project:
    * Assign work to any user that might not be on the project.
 
    * View additional work that users are assigned to on other projects.
-   * Adjust user allocations to work items.-->
+   * Adjust user allocations to work items.
+   -->

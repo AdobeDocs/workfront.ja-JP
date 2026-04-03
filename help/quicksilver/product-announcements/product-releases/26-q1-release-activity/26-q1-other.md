@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
-source-git-commit: 58a04a3c2eb9d0db195f89391e607c3061f2d784
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 84%
@@ -18,11 +20,11 @@ ht-degree: 84%
 
 2026年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2026年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)を参照してください。
 
-## イベント購読で、フィルターポップアップがサポートされるようになりました。
+## イベントサブスクリプションでフィルターグループがサポートされるようになりました
 
-イベント購読では、ネストされた論理条件をサポートするために、スタンドアロンフィルターと共にフィルターグループをサポートするようになりました。 公開ドキュメントを更新して、新しい変更を反映させる必要があります。
+イベントサブスクリプションでは、ネストされた論理条件をサポートするために、フィルターグループとスタンドアロンフィルターがサポートされるようになりました。 公開ドキュメントは、新しい変更を反映するように更新する必要があります。
 
-詳しくは、記事 Event subscriptions API の [&#x200B; フィルターグループの使用 &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) を参照してください。
+詳しくは、「[ フィルターグループの使用](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)」を参照してください。
 
 
 ## 複数選択フィールドの選択制限

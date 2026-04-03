@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：タスクおよびプロジェクトの元の問題の詳細
+title: 表示：タスクとプロジェクトの発信元のイシューの詳細
 description: イシューがタスクまたはプロジェクトに変換されると、タスクまたはプロジェクトとイシューの間に解決オブジェクト関係が確立されます。このビューには、タスクまたはプロジェクトが完了すると自動的に完了するイシューのフィールドが表示されます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 67%
@@ -18,7 +20,7 @@ ht-degree: 67%
 
 <!--Audited: 11/2024-->
 
-イシューがタスクまたはプロジェクトに変換されると、タスクまたはプロジェクトとイシューの間に解決オブジェクト関係が確立されます。この表示には、タスクまたはプロジェクトが完了すると自動的に完了する問題の次のフィールドが表示されます。
+イシューがタスクまたはプロジェクトに変換されると、タスクまたはプロジェクトとイシューの間に解決オブジェクト関係が確立されます。このビューには、タスクまたはプロジェクトの完了時に自動的に完了するイシューの次のフィールドが表示されます。
 
 * 名前
 * エントリ日
@@ -30,7 +32,7 @@ ht-degree: 67%
 
 ![task_with_resolving_issue_fields.png](assets/task-with-resolving-issue-fields-350x38.png)
 
-詳しくは、[&#x200B; 表示：タスクまたはプロジェクトリストに元のイシュー情報を表示する &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md) も参照してください。
+詳細については、「[表示：タスクまたはプロジェクトのリストに元の問題情報を表示する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)」も参照してください。
 
 ## アクセス要件
 
@@ -47,8 +49,8 @@ ht-degree: 67%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -71,8 +73,8 @@ ht-degree: 67%
 1. タスクのリストまたはプロジェクトのリストに移動します。
 1. **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 1. **列のプレビュー**&#x200B;領域で、1 つを除くすべての列を削除します。
-1. 残りの列のヘッダーをクリックし、「**テキストモードに切り替え**」をクリックしてから、「**テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え**、次に&#x200B;**テキストモードを編集**&#x200B;をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```
    column.0.textmode=false
@@ -141,4 +143,4 @@ ht-degree: 67%
    column.7.width=150
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。

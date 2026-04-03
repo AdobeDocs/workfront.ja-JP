@@ -6,7 +6,9 @@ description: Adobe Workfront では、レポートやリストに様々な形式
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 90%
@@ -35,7 +37,7 @@ valuefield=plannedCompletionDate
 
 テキストモードを使用した Workfront レポートおよびリストでの条件付き書式の適用について詳しくは、[テキストモードでの条件付き書式の使用](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)を参照してください。
 
-次の `valueformat` テキストモードの値を使用して、日付を書式設定できます。
+日付は、次の`valueformat` テキストモード値を使用して書式設定できます。
 
 | **形式** | 例  | ***valueformat=*** |
 |---|---|---|
@@ -44,4 +46,4 @@ valuefield=plannedCompletionDate
 | MM/DD/YY | 10/11/18 | `shortAtDate` |
 | 月、日、年 | 2018年10月11日（PT） | `mediumAtDate` |
 | DW, Mth, Day, YR | 2018年10月11日(PT) | `partialAtDate` |
-| DW, Mth, Day, YR Time | 2018 年 10 月 11 日（月）午後 12:00 | `fullAtDate` |
+| DW, Mth, Day, YR Time | 2018年10月11日（月）午後12:00 | `fullAtDate` |

@@ -6,10 +6,12 @@ description: この記事を読んで、Workfront へのログイン方法を学
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +28,7 @@ ht-degree: 74%
 
   会社のドメイン名は、[!DNL Workfront] によって確立されます。ドメイン名を変更する場合は、カスタマーサポートチームにお問い合わせください。カスタマーサポートチームへの問い合わせ方法について詳しくは、[カスタマーサポートに連絡](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 
-* **ユーザー名：**&#x200B;[!DNL Workfront] 管理者がユーザー名を設定します。
+* **ユーザー名：**[!DNL Workfront] 管理者がユーザー名を設定します。
 * **パスワード：**&#x200B;システムが SSO 用に設定されていない場合は、[!DNL Workfront] 管理者からのメールの招待状を受信した後に [!DNL Workfront] パスワードを設定します。
 
   SSO を使用した [!DNL Workfront] へのログインについて詳しくは、この記事内の[SSO を使用した  [!DNL Workfront]  へのログイン](#log-in-to-workfront-with-sso)を参照してください。
@@ -48,7 +50,7 @@ ht-degree: 74%
   <tr> 
    <td>Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p>
+   <p>コントリビューター以上</p>
    <p>リクエスト以上</p> </td> 
   </tr> 
  </tbody> 
@@ -77,7 +79,7 @@ ht-degree: 74%
 
 ## SSO を使用した [!DNL Workfront] へのログイン
 
-[!DNL Workfront] 管理者が [!DNL Workfront] をシングルサインオンソリューションと統合した場合、[!DNL Workfront] にログインする際に必要な情報について、担当者に問い合わせる必要があります。Workfront と SSO ソリューションの統合について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
+[!DNL Workfront] 管理者が [!DNL Workfront] をシングルサインオンソリューションと統合した場合、[!DNL Workfront] にログインする際に必要な情報について、担当者に問い合わせる必要があります。Workfront と SSO ソリューションの統合について詳しくは、[ [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
 
 [!DNL Workfront] にログインするために、お使いの SSO ユーザー名とパスワードを使用
 
@@ -100,9 +102,9 @@ ht-degree: 74%
 
 1. ログインを完了します。
 
-## 会社ドメインを使用して、[!DNL Workfront] モバイルアプリにログインします
+## 会社ドメインを使用して、[!DNL Workfront] モバイルアプリにログインします。
 
-1. [!DNL Workfront] モバイルアプリを起動し、「**会社のドメインでログイン**」をクリックします。
+1. [!DNL Workfront] モバイルアプリを起動し、「**会社ドメインでログイン**」をクリックします。
 
 1. 組織のドメインを入力します。
 
@@ -112,7 +114,8 @@ ht-degree: 74%
    >
    >これは通常、会社名です。不明な場合は、[!DNL Workfront] 管理者にお問い合わせください。
 
-<!--1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
+<!--
+1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
 
    The [!DNL Workfront] URL should display in the following format:
    **`yourDomain.my.workfront.com`**
@@ -127,32 +130,33 @@ ht-degree: 74%
 
 1. Tap **[!UICONTROL Continue in browser]**.
 1. Specify the **[!UICONTROL Username]** of your [!DNL Workfront] account or SAML user.
-1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.-->
+1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.
+-->
 
-1. （条件付き）初めてログインする場合、[!DNL Workfront] モバイルアプリがアカウントにアクセスするための権限を要求するページが表示されます。 「**アクセスを許可**」をクリックして続行します。
+1. （条件付き）初めてログインする場合、[!DNL Workfront] モバイルアプリがアカウントにアクセスする権限を要求するページが表示されます。「**アクセスを許可**」をクリックして続行します。
 
-1. デスクトップ サイトと同じようにログインできる Web ページにリダイレクトされます。 このプロセスは組織のWorkfrontの設定によって異なります。詳しくは、上記の [SSO を使用せずに  [!DNL Workfront]  ログイン &#x200B;](#log-in-to-workfront-without-sso) または [SSO を使用して  [!DNL Workfront]  ログイン &#x200B;](#log-in-to-workfront-with-sso) を参照してください。
+1. デスクトップサイトと同じようにログインできる web ページにリダイレクトされます。このプロセスは組織の Workfront の設定によって異なります。詳しくは、上記の [SSO を使用せずに  [!DNL Workfront]  にログイン](#log-in-to-workfront-without-sso)、または [SSO を使用して  [!DNL Workfront]  にログイン](#log-in-to-workfront-with-sso)を参照してください。
 
-   完了すると、によってモバイルアプリにリダイレクトされ、ログインします。
+   完了すると、モバイルアプリにリダイレクトされ、ログインできます。
 
 1. 「**[!UICONTROL 了解しました]**」または「**[!UICONTROL はじめに]**」をタップして、表示されたチュートリアル内を移動します。
 
    これらのチュートリアルは、アプリに初めてアクセスしたときにのみ表示されます。[!DNL Workfront] モバイルアプリをアンインストールし再インストールした場合、または別のユーザーとしてログインした場合にのみ再度表示されます。チュートリアルを閉じた後に表示されるエリアは、表示するように選択したエリアです。
 
-## [!DNL Workfront] ID を使用して、[!DNL Adobe] モバイルアプリにログインします
+## [!DNL Adobe] ID を使用した [!DNL Workfront] モバイルアプリへのログイン
 
 1. [!DNL Workfront] モバイルアプリを起動し、「**[!DNL Adobe] ID でログイン**」をクリックします。
 
 >[!NOTE]
 >
->IMS のiOS ユーザーの場合は、「**会社のドメインでログイン** を選択し、[!DNL Workfront] 管理者から提供されたドメインを使用して、[!DNL Adobe] ID を使用してログインできます。
+>IMS の iOS ユーザーの場合は、「**会社ドメインでログイン**」を選択し、[!DNL Workfront] 管理者から提供されたドメインを使用して、[!DNL Adobe] ID を使用してログインできます。
 
 1. メールを入力し、「**続行**」をクリックします。
 
-1. （条件付き）ログインに使用するアカウントを選択します。 **ID が組織に関連付けられている場合、通常、これは** 会社または学校アカウント [!DNL Adobe] になります。
+1. （条件付き）ログインに使用するアカウントを選択します。[!DNL Adobe] ID が組織に関連付けられている場合、通常、これは&#x200B;**会社または学校アカウント**&#x200B;になります。
 
 1. （条件付き）アカウントが複数の組織に関連付けられている場合に使用するプロファイルを選択します。
 
-1. サインインしました。 「**[!UICONTROL 了解しました]**」または「**[!UICONTROL はじめに]**」をタップして、表示されたチュートリアル内を移動します。
+1. ログインが実行されます。「**[!UICONTROL 了解しました]**」または「**[!UICONTROL はじめに]**」をタップして、表示されたチュートリアル内を移動します。
 
    これらのチュートリアルは、アプリに初めてアクセスしたときにのみ表示されます。[!DNL Workfront] モバイルアプリをアンインストールし再インストールした場合、または別のユーザーとしてログインした場合にのみ再度表示されます。チュートリアルを閉じた後に表示されるエリアは、表示するように選択したエリアです。

@@ -1,14 +1,16 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: 更新に返信する
+title: 更新に返信
 description: 作業オブジェクトの更新に対して、誰かが追加または返信すると、その返信がそのオブジェクトの「更新」セクションの通信スレッドに表示されます。オブジェクトに対する表示アクセス権を持っている場合は、更新に返信を追加したり、「いいね！」をクリックしたりできます。
 author: Courtney and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 72%
@@ -43,13 +45,13 @@ ht-degree: 72%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-作業オブジェクトに関するコメントまたはシステム更新に対してユーザーが返信すると、その返信が通信スレッドのオブジェクトの「コメント」セクションと「すべての」タブに表示されます。
+誰かが作業オブジェクトに関するコメントまたはシステム更新に返信すると、その返信は、そのオブジェクトの「更新」セクションの「コメント」タブと「すべての更新」タブの通信スレッドに表示されます。
 
 >[!IMPORTANT]
 >
->「システムアクティビティ」タブでシステムの更新に返信することはできません。 2024 年 4 月 11 日（PT）より前の従来のコメントエクスペリエンスで行われたシステム更新への返信は、読み取り専用として表示されます。
+>「システムアクティビティ」タブでシステムの更新に返信できません。 2024年4月11日（PT）より前の従来のコメントエクスペリエンスで行われたシステム更新に対する返信は、読み取り専用として表示されます。
 
-この記事では、Workfront内のほとんどのオブジェクトからのコメントに返信する方法を説明します。 様々なオブジェクトの更新セクションの違いについては、[&#x200B; 更新セクションの概要 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
+この記事では、Workfrontのほとんどのオブジェクトからコメントに返信する方法について説明します。 様々なオブジェクトの更新セクションの違いについては、[更新セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -65,13 +67,13 @@ ht-degree: 72%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
-   <td> <p>イシューとドキュメントの場合：</p>
+   <td> <p>問題とドキュメントの場合：</p>
 
 <ul><li><p>コントリビューター以上</p></li>
    <li><p>リクエスト以上</p></li></ul>
 
-<p>その他すべてのオブジェクトの場合：</p>
-   <ul><li><p>ライト以上</p></li>
+<p>その他すべてのオブジェクト：</p>
+   <ul><li><p>明るいまたはそれ以上</p></li>
    <li><p>レビュー以上</p></li></ul>
 
 </td>  
@@ -91,7 +93,8 @@ ht-degree: 72%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -116,13 +119,14 @@ ht-degree: 72%
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Workfront での更新または返信に対する返信
 
 表示できるオブジェクトのスレッド内のコメントに返信したり、Workfront 管理者またはグループ管理者としてログインし、別のユーザーの代わりにコメントに返信したりできます。詳しくは、[別のユーザーとしてログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)を参照してください。
 
-### コメントに返信する
+### コメントへの返信
 
 オブジェクトの「更新」セクションのコメントへの返信は、Workfrontのほとんどのオブジェクトで同様です。
 
@@ -131,12 +135,12 @@ ht-degree: 72%
 
    または
 
-   [**すべて**] タブをクリックし、[**コメントで返信**] をクリックして、[ コメント ] タブでコメントを開き、返信します。 「すべて」タブでは返信できません。
+   「**すべて**」タブをクリックし、「**コメントで返信**」をクリックして、「コメント」タブでコメントを開き、コメントに返信します。 「すべて」タブでは返信できません。
 
 1. （オプション）以前の更新のテキストを返信に含めるには、返信したいコメントの右上隅にある&#x200B;**その他**&#x200B;メニューをクリックしたあと、「**引用返信**」をクリックします。以前の更新のテキストが入力エリアに表示され、灰色の縦線が付きます。
 1. 「**返信**」をクリックします。
 
-   ![&#x200B; 「返信して更新」空のボックス &#x200B;](assets/reply-to-update-empty-box.png)
+   ![空のボックスを更新する返信](assets/reply-to-update-empty-box.png)
 
    会話に積極的に参加しているユーザーが「**返信を追加...**」ボックスの下部に表示されます。さらに追加したり、関係なくなったものを削除したりできます。これらのユーザー、およびオブジェクトを購読しているユーザーは、オブジェクトに対して更新や返信が行われるたびに通知を受け取ります。さらに多くのユーザーをタグ付けして、返信に含めることもできます。さらに多くのユーザーをタグ付けするには、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
 
@@ -148,7 +152,7 @@ ht-degree: 72%
 
 1. 「**送信**」をクリックして返信を保存します。
 
-1. （オプション）返信を管理するその他のオプションについては、返信するコメントの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックします。 詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+1. （オプション）返信するコメントの右上隅にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックして、返信を管理するオプションを増やします。 詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

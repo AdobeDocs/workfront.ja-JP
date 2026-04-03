@@ -6,10 +6,12 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -20,9 +22,11 @@ ht-degree: 45%
 
 # リンクを使用したレコードの共有
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -34,7 +38,7 @@ ht-degree: 45%
 
 * レコードタイプのテーブルビューのレコードを表示する際に、レコードのページへのリンクをコピーします。
 
-* ワークスペースとレコードタイプを共有すると、ワークスペース内のすべてのレコードを他のユーザーと共有できます。
+* ワークスペースとレコードタイプを共有することで、ワークスペース内のすべてのレコードを他のユーザーと共有できます。
 
   詳しくは、次の記事を参照してください。
 
@@ -42,7 +46,8 @@ ht-degree: 45%
 
    * [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
 
-<!--When we release record-level permissions, replace the bullets above with these:
+<!--
+When we release record-level permissions, replace the bullets above with these:
 
 You can share an Adobe Workfront Planning record in the following ways: 
 
@@ -89,34 +94,35 @@ You can share an Adobe Workfront Planning record in the following ways:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontと任意の Planning パッケージ</p> <p>任意のワークフローおよび任意の計画パッケージ</p>
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront アカウント担当者にお問い合わせください。 </p> 
+<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
+<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>投稿者以上</p>
+   <td><p>コントリビューター以上</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>  <p>ワークスペースに対する表示以上の権限と、リンクを使用してレコードを共有するためのレコードタイプ</p>
+   <td>  <p>リンクを使用してレコードを共有するワークスペースおよびレコードタイプに対する表示以上の権限</p>
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
   </tr> 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
-   <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
+   <td> LightまたはContributor ライセンスを持つユーザーには、Planningを含むレイアウトテンプレートを割り当てる必要があります。
+   <p>標準ユーザーとシステム管理者は、デフォルトでプランニング領域を有効にできます。</p></div></li></ul>
 </td>
   </tr> 
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -178,7 +184,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 </td>
   </tr>
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## レコードタイプのテーブルビューからレコードリンクの共有
@@ -199,9 +206,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    または
 
-   レコードの名前にポインタを合わせ、「**その他**」メニュー ![&#x200B; その他メニュー &#x200B;](assets/more-menu.png) をクリックしてから、「**リンクをコピー**」をクリックします。
+   レコードの名前にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**リンクをコピー**&#x200B;をクリックします。
 
-   ![&#x200B; レコード行のコンテキストメニュー &#x200B;](assets/contextual-menu-for-record-row.png)
+   レコード行![の](assets/contextual-menu-for-record-row.png) コンテキストメニュー
 
    リンクがクリップボードにコピーされます。
 
@@ -216,26 +223,26 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## ワークスペースを共有することで、ワークスペース内のすべてのレコードを共有します。
 
-ワークスペースを他のユーザーと共有する場合は、ワークスペース内のすべてのレコードを共有できます。
+他のユーザーとワークスペースを共有する場合、ワークスペース内のすべてのレコードを共有できます。
 
 レコードタイプとレコードは、ワークスペースから同じ権限を継承します。
 
-ワークスペースに対する管理権限を持つユーザーのみが、そのワークスペースを他のユーザーと共有できます。
+ワークスペースに対する管理権限を持つユーザーのみが他のユーザーと共有できます。
 
 詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。
 
-## レコードタイプを共有することで、レコードタイプ内のすべてのレコードを共有する
+## レコードタイプを共有して、レコードタイプ内のすべてのレコードを共有する
 
-レコードはレコードタイプから権限を継承します。
+レコードは、レコードタイプから権限を継承します。
 
 デフォルトでは、レコードタイプはワークスペースから権限を継承します。
 
 ただし、次のいずれかの操作を行うことができます。
 
-* レコードタイプのワークスペースから継承された権限を無効にします。 これにより、レコードに対するより高い権限が削除されますが、ワークスペース、レコードタイプおよびレコードに対する表示権限は保持されます。
-* ワークスペースに対する権限を持っていない場合でも、レコードタイプに対する権限をユーザーに手動で付与します。 これにより、ワークスペースに対する表示権限が自動的に付与されます。 これにより、レコードに対する権限がユーザーに付与されます。
+* レコードタイプのワークスペースから継承された権限を無効にします。 これにより、レコードに対する高い権限は削除されますが、ワークスペース、レコードタイプ、レコードに対する表示権限は保持されます。
+* ユーザーがワークスペースに対する権限を持っていない場合でも、ユーザーにレコードタイプに対して手動で権限を付与します。 これにより、ワークスペースに対する表示権限が自動的に付与されます。 これにより、ユーザーにレコードに対する権限が付与されます。
 
 ワークスペースに対する管理権限を持つユーザーのみが、そのレコードタイプとレコードを他のユーザーと共有できます。
 
-詳しくは、[&#x200B; レコードタイプの共有 &#x200B;](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
+詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
 

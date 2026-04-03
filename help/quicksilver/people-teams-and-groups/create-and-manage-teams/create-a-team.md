@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: グループを作成
+title: チームの作成
 description: チームを作成すると、デフォルトでチームの所有者になります。
 author: Courtney
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 92%
@@ -65,9 +67,9 @@ ht-degree: 92%
      >
      >チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、チームのメンバーにならなくてもチームを管理できます。グループ管理者は、メインメニューからチーム領域に移動し、チームを切り替え矢印 ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、管理するグループに割り当てられているすべてのチームのリストを表示します。
 
-   * **[!UICONTROL アジャイルチームです]:**&#x200B;この新しいチームをアジャイルチームとして構成する場合は、このオプションを選択してください。
+   * **[!UICONTROL これはアジャイルチームです]:**&#x200B;この新しいチームをアジャイルチームに設定する場合は、このオプションを選択します。
 
-     アジャイルチームの詳細については、[アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
+     アジャイルチームについて詳しくは、[ アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
 
    * **[!UICONTROL チームメンバー]：**&#x200B;チームに追加するユーザーの名前を入力し始め、ドロップダウンリストに表示されたら名前を選択します。
 

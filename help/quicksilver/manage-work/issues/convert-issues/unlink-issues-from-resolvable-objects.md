@@ -1,15 +1,17 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: 解決されたオブジェクトから問題のリンクを解除する
+title: 解決中のオブジェクトからイシューのリンク解除
 description: イシューをプロジェクトまたはタスクに変換してプロジェクトまたはタスクを作成する場合、元のイシューを保持するオプションがあります。イシューの変換中にこのオプションを使用できるようにするには、Adobe Workfront 管理者がこの設定を有効にする必要があります。イシューをプロジェクトやタスクに変換する方法について詳しくは、Adobe Workfront でのイシューの変換の概要を参照してください。
 author: Alina
 feature: Work Management
 exl-id: c18160e5-9f95-4575-a1b3-b4f7e5334844
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -45,12 +47,12 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>投稿者以上</p>
+   <td> <p>コントリビューター以上</p>
    <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>イシューへのアクセス権を編集</p> <p>タスクおよびプロジェクトへのアクセスの表示</p> </td> 
+   <td> <p>イシューへのアクセス権を編集</p> <p>タスクとプロジェクトへのアクセスを表示</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -63,7 +65,8 @@ ht-degree: 96%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -85,7 +88,8 @@ ht-degree: 96%
    <td> <p>Manage permissions on the issue</p> <p>View permissions on the task or project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## プロジェクト、タスクまたはイシューからのイシューのリンク解除
 
@@ -97,5 +101,5 @@ ht-degree: 96%
 
    これにより、イシューの解決オブジェクトが削除されます。
 
-1. 「**変更を**&#x200B;**保存**」をクリックします。\
+1. 「**変更を****保存**」をクリックします。\
    イシューがプロジェクト、タスクまたはイシューにリンクされなくなり、イシューを個別に解決できるようになりました。

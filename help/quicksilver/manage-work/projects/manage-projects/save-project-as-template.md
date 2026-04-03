@@ -2,11 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: プロジェクトをテンプレートとして保存
-description: プロジェクトをテンプレートとして保存保存をテンプレートとして保存」をプロジェクトレベルで使用すると、UI に表示されます。このリンク先にある別の記事でも詳しく説明しています（詳しい手順を説明します）。
+description: プロジェクトをテンプレートとして保存プロジェクトレベルで「テンプレートとして保存」すると、ユーザーはUIでそれを確認できます。このリンクには、より詳細な別の記事があります（ステップバイステップ）。
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 55%
@@ -66,7 +68,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,7 +95,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## プロジェクトをテンプレートとして保存
 
@@ -159,8 +163,8 @@ Saving a project as a template differs in the Production and the Preview environ
 -->
 
 1. テンプレートとして保存するプロジェクトに移動します。
-1. ヘッダーのプロジェクト名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックして、**テンプレートとして保存** をクリックします。
-1. **テンプレートとして保存** セクションで、テンプレートの次の情報を指定します。
+1. ヘッダーのプロジェクト名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/qs-more-icon-on-an-object.png)をクリックし、**テンプレートとして保存**&#x200B;します。
+1. 「**テンプレートとして保存**」セクションで、テンプレートの次の情報を指定します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -189,22 +193,22 @@ Saving a project as a template differs in the Production and the Preview environ
     </tbody> 
    </table>
 
-1. 左側のパネルで **カスタムForms** をクリックして、フォームを削除または並べ替えます。
+1. 左側のパネルの&#x200B;**カスタム Forms**&#x200B;をクリックして、フォームを削除または並べ替えます。
 
    フォームを並べ替えるには、フォームを正しい順序でドラッグ&amp;ドロップします。
-フォームを削除するには、フォームを選択して「**削除**」をクリックします。 **キャンセル** をクリックして、選択したフォームを削除します。
+フォームを削除するには、フォームを選択し、**削除**&#x200B;をクリックします。 **キャンセル**&#x200B;をクリックして、選択したフォームを削除します。
 
-   ![&#x200B; 「テンプレートとして保存」ボックスのカスタムフォーム領域 &#x200B;](assets/custom-forms-ara-in-save-as-template-box.png)
+   ![ テンプレートとして保存ボックスのカスタムフォーム領域](assets/custom-forms-ara-in-save-as-template-box.png)
 
-1. 必要に応じて、添付されたカスタムフォームの情報を更新します。 情報がテンプレートに転送されます。
+1. 必要に応じて、添付されたカスタムフォームの情報を更新します。 情報はテンプレートに転送されます。
 
-1. 左側のパネルで **オプション** をクリックし、テンプレートに転送する情報の横にあるチェックボックスを選択します。 選択解除された項目は、テンプレートに転送されません。 デフォルトでは、すべてのオプションの選択は解除されています。
+1. 左側のパネルで「**オプション**」をクリックし、テンプレートに転送する情報の横にあるチェックボックスを選択します。 選択されていない項目は、テンプレートに転送されません。 デフォルトでは、すべてのオプションの選択が解除されています。
 
-   ![&#x200B; 「テンプレートとして保存」ボックスの「オプション」領域 &#x200B;](assets/options-area-in-save-as-template-box.png)
+   テンプレートとして保存ボックスの![ オプション領域](assets/options-area-in-save-as-template-box.png)
 
-1. 左側のパネルで **除外** をクリックし、プロジェクトから除外するタスクを選択します。 デフォルトでは、すべてのタスクの選択は解除されています。
+1. 左側のパネルで「**除外**」をクリックし、プロジェクトから除外するタスクを選択します。 デフォルトでは、すべてのタスクの選択が解除されます。
 
-   ![&#x200B; 「テンプレートとして保存」ボックスの「除外」領域 &#x200B;](assets/exclude-area-save-as-template-box.png)
+   ![ テンプレートとして保存ボックス内の領域を除外](assets/exclude-area-save-as-template-box.png)
 
 1. 画面の右上隅にある「**終了してテンプレートを保存**」をクリックします。
 

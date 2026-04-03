@@ -1,12 +1,14 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: グラフを確認して、Adobe Workfront Goals の目標の進捗トレンドを理解する
+title: グラフを確認して、Adobe Workfront Goalsの目標進捗トレンドを把握する
 description: 目標の全体的な正常性とその進捗の経時的な傾向は、Adobe Workfront Goals の「グラフ」セクションで確認できます。このセクションのグラフでは、各目標の進捗を分類することはできませんが、代わりに、すべての目標の進捗ステータスと指定した期間の進捗の全体的なスナップショットが表示されます。
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 85%
@@ -21,7 +23,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->選択した期間の目標の合計数は、グラフ セクションで確認できます。 ただし、Workfront Goals では、目標の全体的な進捗ステータスと完了率を計算する際に、ステータスがアクティブおよびクローズの目標のみが考慮されます。
+>選択した期間の目標の合計数は、「グラフ」セクションに表示されます。 ただし、Workfront Goalsでは、全体的な目標の進捗状況と完了率を計算する際に、ステータスが「アクティブ」と「クローズ」の目標のみを考慮します。
 
 ## アクセス要件
 
@@ -42,7 +44,7 @@ ht-degree: 85%
  <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p><p><b>メモ</b></p>
+   <p>Adobe Workfront Ultimate</p><p><b>メモ</b></p>
 <p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr>
@@ -66,7 +68,7 @@ ht-degree: 85%
  </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの「目標」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
@@ -76,7 +78,8 @@ ht-degree: 85%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -127,7 +130,8 @@ ht-degree: 85%
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Workfront Goals のグラフのタイプ
 
@@ -149,8 +153,8 @@ ht-degree: 85%
    <td role="rowheader">目標進捗グラフ</td> 
    <td> <p>目標期間中の目標に対する更新を週単位で表示する折れ線グラフです。目標の進捗チャートには、次の情報が表示されます。</p> 
     <ul> 
-     <li>選択した期間における、すべてのアクティブな目標とクローズした目標の予想および実際の完了率の平均。 完了率の進捗は、ノードで示される週単位の増分に分割されます。 </li> 
-     <li>前週以降のアクティブな目標とクローズされた目標の全体的な進捗率。 </li> 
+     <li>選択した期間のすべてのアクティブな目標とクローズした目標の平均予測完了率と実際の完了率。 完了率の進捗は、ノードで示される週単位の増分に分割されます。 </li> 
+     <li>前週以降のアクティブな目標とクローズした目標の全体的な平均進捗率。 </li> 
     </ul> <p>ヒント：目標の進捗チャートは、選択した期間外で目標に対して更新が行われた場合、情報が表示されない場合があります。 </p> </td> 
   </tr> 
  </tbody> 
@@ -164,7 +168,7 @@ Workfront Goals エリアが開きます。
 
 1. 左側のパネルで「**グラフ**」をクリックします。
 
-   ![&#x200B; 左パネルのグラフ &#x200B;](assets/graphs-in-left-panel.png)
+   ![左側のパネルのグラフ ](assets/graphs-in-left-panel.png)
 
    「グラフ」セクションが表示されます。
 
@@ -183,7 +187,7 @@ Workfront Goals エリアが開きます。
 
 1. 以下の表の情報を確認し、目標のヘルスチャートを確認してください。
 
-   ![&#x200B; ゲージグラフ &#x200B;](assets/gauge-graph-wf-align-350x230.png)
+   ![ ゲージグラフ ](assets/gauge-graph-wf-align-350x230.png)
 
    | 目標の合計数 | チャートの下部にある数は、選択した期間内のすべての目標の数を、選択したすべてのステータスで示します。 |
    |---|---|
@@ -193,7 +197,7 @@ Workfront Goals エリアが開きます。
 
 1. 目標進捗チャートを確認する際に、以下の表の情報を確認してください。
 
-   ![&#x200B; 折れ線グラフ &#x200B;](assets/line-graph-wf-align-350x161.png)
+   ![折れ線グラフ ](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

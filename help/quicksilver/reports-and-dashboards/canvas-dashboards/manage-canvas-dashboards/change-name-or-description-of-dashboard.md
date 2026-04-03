@@ -2,11 +2,13 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: キャンバスダッシュボードの名前または説明の変更
-description: キャンバスダッシュボードの作成後、名前または説明を編集できます。
+description: Canvas ダッシュボードの名前や説明は、作成後に編集できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 24%
@@ -17,18 +19,18 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
->このベータ版は、次のクラウドプロバイダーでは利用できません。
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
->* Amazon Web Services用に独自のキーを持参
+>* Amazon Web Services用に独自のキーを持ち込む
 >* Azure
 >* Google Cloud Platform
 
 
-キャンバスダッシュボードの作成後、名前または説明を編集できます。
+Canvas ダッシュボードの名前や説明は、作成後に編集できます。
 
-ダッシュボードに加える変更は、そのダッシュボードにアクセスできるすべてのユーザーに影響を与えます。
+ダッシュボードに加えた変更は、ダッシュボードにアクセスできるすべてのユーザーに影響します。
 
 ## アクセス要件
 
@@ -61,7 +63,7 @@ ht-degree: 24%
   </tr>  
     <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td><p>ダッシュボードの権限管理</p>
+   <td><p>ダッシュボードの権限の管理</p>
   </td> 
   </tr>
 </tbody> 
@@ -74,14 +76,14 @@ ht-degree: 24%
 
 名前または説明を変更する前に、ダッシュボードを作成する必要があります。
 
-詳しくは、[&#x200B; キャンバスダッシュボードの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) を参照してください。
+詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 
 ## ダッシュボードの名前と説明の変更
 
 >[!NOTE]
 >
->キャンバスダッシュボードを共有したユーザーは、キャンバスダッシュボードのインベントリリストとダッシュボードの詳細セクションで名前と説明を確認できます。
+>Canvas ダッシュボードを共有したユーザーは、Canvas ダッシュボードのインベントリリストとダッシュボードの詳細セクションでその名前と説明を確認できます。
 
 {{step1-to-dashboards}}
 
@@ -89,9 +91,9 @@ ht-degree: 24%
 
 1. 名前を変更するダッシュボードをクリックするか、説明を更新します。
 
-1. 画面上部のダッシュボード名の右側にある **詳細** ![&#x200B; 詳細アイコン &#x200B;](assets/details-icon.png) アイコンをクリックします。
+1. 画面上部のダッシュボード名の右側にある&#x200B;**詳細** ![詳細アイコン ](assets/details-icon.png) アイコンをクリックします。
 
-1. 新しい **名前** と **説明** を入力します。
+1. 新しい&#x200B;**名前**&#x200B;と&#x200B;**説明**&#x200B;を入力します。
 
 1. 「**保存**」をクリックします。
 

@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：すべての日付差異を持つタスク
+title: 表示：全日付差異を含むタスク
 description: このタスクビューは、Adobe Workfront アカウントで提供される「すべての日付」ビューに似ています。このビューには、2 つの日付の間の日数の差を計算する、差異列が含まれています。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 79%
@@ -29,7 +31,7 @@ ht-degree: 79%
 
 ビューでの計算の使用について詳しくは、[テキストモードの一般的な使用の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)の[テキストモードの一般的な使用の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)を参照してください。
 
-![&#x200B; すべての日付を含むタスクを表示 &#x200B;](assets/view-task-with-all-dates-variance.png)
+![すべての日付を含むタスクを表示](assets/view-task-with-all-dates-variance.png)
 
 ## アクセス要件
 
@@ -46,8 +48,8 @@ ht-degree: 79%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -71,8 +73,8 @@ ht-degree: 79%
 1. **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 
 1. **列のプレビュー**&#x200B;領域で、1 つを除くすべての列を削除します。
-1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え** > **テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```
    column.1.descriptionkey=name
@@ -284,4 +286,4 @@ ht-degree: 79%
    row.0.styledef.case.0.comparison.usefield=false
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。

@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：タスクをインデントしてタスクの親子関係を表示します
+title: 表示：タスクをインデントして、タスクの親子関係を表示します
 description: タスクリストにカスタムビューを追加し、リストを書き出す前にこのビューが選択されていることを確認することで、書き出したタスクリストで親子関係の区別を維持できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 78%
@@ -20,7 +22,7 @@ ht-degree: 78%
 
 タスクリストにカスタムビューを追加し、リストを書き出す前にこのビューが選択されていることを確認することで、書き出したタスクリストで親子関係の区別を維持できます。
 
-![&#x200B; 親の子インデント &#x200B;](assets/parent-child-indented-custom-view-350x94.png)
+![親の子インデント ](assets/parent-child-indented-custom-view-350x94.png)
 
 ## アクセス要件
 
@@ -37,8 +39,8 @@ ht-degree: 78%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -62,7 +64,7 @@ ht-degree: 78%
 1. **ビュー**&#x200B;ドロップダウンメニューをクリックし、**新規ビュー**&#x200B;を選択します。
 1. 「**タスク名**」列ヘッダーをクリックします。
 1. 右上隅の「**テキストモードに切り替え**」を選択します。
-1. **テキストモードを編集** をクリックし、既存のテキストをすべて削除します。
+1. 「**テキストモードを編集**」をクリックし、既存のテキストをすべて削除します。
 1. 次のテキストを貼り付けます。
 
 
@@ -76,4 +78,4 @@ ht-degree: 78%
    valueformat=HTML
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。

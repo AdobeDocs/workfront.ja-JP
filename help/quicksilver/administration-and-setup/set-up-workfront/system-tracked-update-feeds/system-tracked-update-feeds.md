@@ -9,10 +9,12 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -20,23 +22,23 @@ ht-degree: 54%
 
 <!-- Audited: 08/2025-->
 
-[!DNL Adobe Workfront] は、オブジェクトの「[!UICONTROL &#x200B; 更新 &#x200B;] セクションにステータス情報を記録することで、特定のオブジェクトで発生しているアクティビティをキャプチャします。
+[!DNL Adobe Workfront]は、オブジェクトの[!UICONTROL 更新] セクションにステータス情報を記録することで、特定のオブジェクトで行われているアクティビティをキャプチャします。
 
-「更新」セクションについて詳しくは、「[&#x200B; 更新」セクションの概要 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
+「更新」セクションについて詳しくは、[更新セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
 
 [!UICONTROL 更新]エリアには、次のタイプの更新が含まれます。
 
-* **ユーザー更新：**&#x200B;ユーザーが手動で入力したもの。コメント、返信、メモとも呼ばれます。 ユーザーの更新は、オブジェクトの「更新」セクションの「コメント」タブと「すべて」タブに表示されます。
+* **ユーザー更新：**&#x200B;ユーザーが手動で入力したもの。コメント、返信、メモとも呼ばれます。 ユーザーの更新は、オブジェクトの「更新」セクションの「コメント」タブと「すべてのタブ」に表示されます。
 
   ユーザーの更新の設定について詳しくは、[ユーザー更新の環境設定の指](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)を参照してください。
 
   ![アップデート](assets/updates-qs-350x125.png)
 
-* **システム更新：** システムによって自動的に行われたもの。システムの更新には、アイテムにどのような変更が発生したかを説明する簡単なメモが含まれます。 システムの更新は、「システム」アクティビティと、オブジェクトの「更新」セクションの「すべて」タブに表示されます。
+* **システム更新：** システムによって自動的に行われたもの。システムのアップデートには、アイテムにどのような変更が起こったのかを説明する簡単なメモが含まれます。 システム更新は、オブジェクトの「更新」セクションの「システム活動」タブと「すべてのタブ」に表示されます。
 
   システム更新フィードおよびそれらを有効にする方法について詳しくは、[システム更新の設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 
-  ![&#x200B; システム更新の例 &#x200B;](assets/system-updates-example-unified-stream.png)
+  ![ システム更新の例](assets/system-updates-example-unified-stream.png)
 
 
   <!--
@@ -53,7 +55,7 @@ ht-degree: 54%
 
    * [!UICONTROL プロジェクト]
    * [!UICONTROL タスク]
-   * [!UICONTROL イシュー]
+   * [!UICONTROL 問題]
    * [!UICONTROL ポートフォリオ]
    * [!UICONTROL プログラム]
    * [!UICONTROL ユーザー]
@@ -68,7 +70,7 @@ ht-degree: 54%
    * [!UICONTROL 反復]
    * [!UICONTROL 目標]
 
-     すべてのWorkfront パッケージにWorkfront Goals が含まれているわけではありません。 詳しくは、[Workfront Goals の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+     Workfrontのパッケージに、Workfront Goalsが含まれているわけではありません。 詳しくは、[Workfront Goals の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
    * ボード上の[!UICONTROL カード]
 
      カードの更新について詳しくは、[ボードでの接続されたカードの使用](../../../agile/get-started-with-boards/connected-cards.md)を参照してください。
@@ -82,16 +84,17 @@ ht-degree: 54%
    * [!UICONTROL イテレーション]
 
 
-<!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
+<!--
+hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
 
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* ユーザーの更新は「コメント」タブに表示され、システムの更新は「システムアクティビティ」タブと「すべて」タブに表示されます。
+* ユーザー更新は「コメント」タブに表示され、システム更新は「システムアクティビティ」タブとすべてのタブに表示されます。
 
-  「システム」アクティビティまたは「すべて」のタブを持たないオブジェクトのリストについては、「[&#x200B; 更新」セクションの概要を参照してください &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+  システム アクティビティまたは「すべての」タブを持たないオブジェクトのリストについては、[更新セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください
 
-* システムの更新に返信を追加することはできません。 ただし、2024 年 4 月 11 日（PT）より前の従来のコメントエクスペリエンスのシステムアクティビティレコードに対して行われた返信は、読み取り専用として「システムアクティビティ」タブに入力されます。
+* システムの更新に返信を追加することはできません。 ただし、2024年4月11日（PT）より前の従来のコメントエクスペリエンスでシステムアクティビティレコードに対して行われた応答は、読み取り専用としてシステムアクティビティタブに入力されます。
 
 <!--
 * The following are differences between the new and the legacy commenting experience: 

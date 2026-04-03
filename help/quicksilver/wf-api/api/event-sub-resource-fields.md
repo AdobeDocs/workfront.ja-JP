@@ -7,7 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 9a3b04a40cf871661ba5451c0dc611057f7e4f5d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 77%
@@ -18,14 +20,14 @@ ht-degree: 77%
 
 イベントサブスクリプションリソースフィールドは、イベントサブスクリプションで設定済みのエンドポイントにアウトバウンドメッセージを送信するイベントのトリガーを表します。リソースフィールドが編集されると、UPDATE イベントがトリガーされます。
 
-データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、Event Subscription API の記事 [&#x200B; ネストされたフィルターの使用 &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) を参照してください。
+データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、「イベント購読API」の「[ ネストされたフィルターの使用](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters)」を参照してください。
 
 次の表に、イベントサブスクリプションリソースで使用できるフィールドを示します。
 
 >[!NOTE]
 >
->* 一部のオブジェクトは、イベント購読バージョン 2 でのみ使用できます。 これらのオブジェクトには、表で注記が付けられています。
->* このページにリストされるフィールドは、そのフィールドの値が null の場合でも、配信されたイベントに常に存在します。
+>* 一部のオブジェクトは、Event Subscriptions バージョン 2でのみ使用できます。 これらのオブジェクトはテーブルに書き留められます。
+>* このページにリストされているフィールドは、そのフィールドの値がnullの場合でも、常に配信されたイベントに存在します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +42,7 @@ ht-degree: 77%
  </thead> 
  <tbody> 
   <tr> 
-   <td>承認<p>（イベント サブ v2）</p></td> 
+   <td>承認<p>（イベントサブ v2）</p></td> 
    <td>承認</td> 
    <td>createdAt</td> 
   </tr> 
@@ -88,7 +90,7 @@ ht-degree: 77%
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>承認ステージ<p>（イベント サブ v2）</p></td> 
+   <td>承認ステージ<p>（イベントサブ v2）</p></td> 
    <td>approval_stage</td> 
    <td>approvalID</td> 
   </tr> 
@@ -151,7 +153,7 @@ ht-degree: 77%
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>承認ステージ参加者<p>（イベント サブ v2）</p></td> 
+   <td>承認ステージ参加者<p>（イベントサブ v2）</p></td> 
    <td>approval_stage_participant</td> 
    <td>createdAt</td> 
   </tr> 
@@ -216,12 +218,12 @@ ht-degree: 77%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> realUserId </td> 
+   <td> realUserID </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> requesterID </td> 
+   <td> 依頼者ID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -487,7 +489,7 @@ ht-degree: 77%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>注意：LastUpdateDate は、各日に初めて更新された場合にのみイベントをトリガーします。 </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>注意：LastUpdateDateは、各日に最初に更新されたイベントのみをトリガーします。 </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -547,12 +549,12 @@ ht-degree: 77%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>顧客：名前</td> 
+   <td>customer:name</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>顧客：objCode</td> 
+   <td>customer:objCode</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -577,7 +579,7 @@ ht-degree: 77%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>グループ<p><b> 注意 </b>：このフィールドはフィルタリングできません。</p></td> 
+   <td>グループ<p><b> メモ </b>：このフィールドはフィルタリングできません。</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1045,7 +1047,7 @@ ht-degree: 77%
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>フィールド<p>（イベント サブ v2）</p></td> 
+   <td>フィールド<p>（イベントサブ v2）</p></td> 
    <td>FIELD</td> 
    <td>createdAt</td> 
   </tr> 
@@ -2185,7 +2187,7 @@ ht-degree: 77%
    <td><span>requesterID</span> </td> 
   </tr> 
   <tr> 
-   <td>レコード<p><p>（イベント サブ v2）</p></td> 
+   <td>レコード<p><p>（イベントサブ v2）</p></td> 
    <td>RECORD</td> 
    <td>createdAt</td> 
   </tr> 
@@ -2202,7 +2204,7 @@ ht-degree: 77%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>data<p><b> 注意 </b>：このフィールドはフィルタリングできません。</p></td> 
+   <td>data<p><b> メモ </b>：このフィールドはフィルタリングできません。</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2235,7 +2237,7 @@ ht-degree: 77%
    <td>updatedBy</td> 
   </tr> 
   <tr> 
-   <td>レコードタイプ<p><p>（イベント サブ v2）</p> </td> 
+   <td>レコードタイプ<p><p>（イベントサブ v2）</p> </td> 
    <td>RECORD_TYPE </td> 
    <td>色</td> 
   </tr> 
@@ -2257,7 +2259,7 @@ ht-degree: 77%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>data<p><b> 注意 </b>：このフィールドはフィルタリングできません。</p></td> 
+   <td>data<p><b> メモ </b>：このフィールドはフィルタリングできません。</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2277,7 +2279,7 @@ ht-degree: 77%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>フィールド<p><b> 注意 </b>：このフィールドはフィルタリングできません。</p></td> 
+   <td>フィールド<p><b> メモ </b>：このフィールドはフィルタリングできません。</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2445,7 +2447,7 @@ ht-degree: 77%
    <td>viewID</td> 
   </tr> 
   <tr> 
-   <td>人材の配置プラン<p>（イベント サブ v2）</p></td> 
+   <td>人材の配置プラン<p>（イベントサブ v2）</p></td> 
    <td>STAFFP</td> 
    <td>accessorIDs</td> 
   </tr> 
@@ -2588,7 +2590,7 @@ ht-degree: 77%
    <td>url</td> 
   </tr> 
   <tr> 
-   <td>人材の配置プランのパラメーター値 <p>（イベント サブ v2）</p></td> 
+   <td>人材の配置プランのパラメーター値 <p>（イベントサブ v2）</p></td> 
    <td>SPVAL</td> 
    <td>customerID</td> 
   </tr> 
@@ -2638,7 +2640,7 @@ ht-degree: 77%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>リッチテキスト ID</td> 
+   <td>richTextID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2646,7 +2648,7 @@ ht-degree: 77%
    <td>textVal</td> 
   </tr> 
   <tr> 
-   <td>人材の配置プランリソース <p>（イベント サブ v2）</p></td> 
+   <td>人材の配置プランリソース <p>（イベントサブ v2）</p></td> 
    <td>STAFFR</td> 
    <td>accessorIDs</td> 
   </tr> 
@@ -2716,7 +2718,7 @@ ht-degree: 77%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>スタッフ計画 ID</td> 
+   <td>staffingPlanID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2734,7 +2736,7 @@ ht-degree: 77%
    <td>totalEstimatedRevenue</td> 
   </tr> 
   <tr> 
-   <td>人材の配置プランのリソース属性値<p>（イベント サブ v2）</p></td> 
+   <td>人材の配置プランのリソース属性値<p>（イベントサブ v2）</p></td> 
    <td>SPAVAL</td> 
    <td>attributeAttachableID</td> 
   </tr> 
@@ -2779,10 +2781,10 @@ ht-degree: 77%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>refGroupId</td> 
+   <td>refGroupID</td> 
   </tr> 
   <tr> 
-   <td>人材の配置プランのリソース属性値セット <p>（イベント サブ v2）</p></td> 
+   <td>人材の配置プランのリソース属性値セット <p>（イベントサブ v2）</p></td> 
    <td>SAVSET</td> 
    <td>attributeAttachableID</td> 
   </tr> 
@@ -2809,7 +2811,7 @@ ht-degree: 77%
   </tr> 
   <tr> 
   <tr> 
-   <td>人材の配置プランのリソースパラメーター値 <p>（イベント サブ v2）</p></td> 
+   <td>人材の配置プランのリソースパラメーター値 <p>（イベントサブ v2）</p></td> 
    <td>SRPVAL</td> 
    <td>customerID</td> 
   </tr> 
@@ -2859,7 +2861,7 @@ ht-degree: 77%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>リッチテキスト ID</td> 
+   <td>richTextID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3529,7 +3531,7 @@ ht-degree: 77%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>userRoles <p>メモ：このフィールドで使用できるのは、変更された比較演算子のみです</p></td> 
+   <td>userRoles <p>注意：このフィールドには変更された比較演算子のみを使用できます</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3537,7 +3539,7 @@ ht-degree: 77%
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>ワークスペース<p><p>（イベント サブ v2）</p></td> 
+   <td>ワークスペース<p><p>（イベントサブ v2）</p></td> 
    <td>WORKSPACE</td> 
    <td>色</td> 
   </tr> 

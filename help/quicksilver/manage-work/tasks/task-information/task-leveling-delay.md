@@ -1,12 +1,14 @@
 ---
 product-area: projects
 navigation-topic: task-information
-title: タスクの標準化の遅延の更新
+title: 更新タスクの平準化遅延
 description: プロジェクトのタスクスケジュール間に競合が生じる場合があります。リソースとタスクを再スケジュールして、すべてのタスクを現実的なスケジュール内で完了できるように、リソースを標準化したり、リソースの競合に対処したりできます。タスクの標準化について詳しくは、ガントチャートのリソースの標準化を参照してください。
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 90%
@@ -17,7 +19,7 @@ ht-degree: 90%
 
 プロジェクトのタスクスケジュール間に競合が生じる場合があります。リソースとタスクを再スケジュールして、すべてのタスクを現実的なスケジュール内で完了できるように、リソースを標準化したり、リソースの競合に対処したりできます。タスクの標準化について詳しくは、[ガントチャートのリソースの標準化](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md)を参照してください。
 
-プロジェクトマネージャーまたはタスクの担当者として、個々のタスクに標準化の遅延を追加して、リソースまたはスケジュールの競合を考慮することもできます。つまり、Adobe Workfrontでタスクを平準化するときに、より現実的なスケジュールでリソースの競合を解決できるように、タスクが遅れてスケジュールされる場合があります。
+プロジェクトマネージャーまたはタスクの担当者として、個々のタスクに標準化の遅延を追加して、リソースまたはスケジュールの競合を考慮することもできます。言い換えれば、Adobe Workfrontがタスクをレベルアップするときに、より現実的なスケジュールでリソースの競合を克服できるように、遅延を使用してタスクをスケジュールできます。
 
 タスクに標準化の遅延を追加すると、タスクの完了予定日が調整されます。完了予定日について詳しくは、[プロジェクト、タスクおよびイシューに関する予定完了日の概要](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)を参照してください。
 
@@ -53,7 +55,8 @@ ht-degree: 90%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +79,8 @@ ht-degree: 90%
    <td> <p>Manage permissions to Tasks </p> <p>Contribute or higher permissions to Projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## タスクへの標準化の延期の追加
 
@@ -85,7 +89,7 @@ ht-degree: 90%
 
 1. 「**設定**」をクリックします。
 
-   ![&#x200B; タスク編集時の標準化の遅延 &#x200B;](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![ タスクを編集する際の遅延の平準化](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. 時間単位で、「**標準化の遅延**」を指定して、時間の単位を選択します。\
    リソースの競合が原因で、リソースがタスクの開始を遅らせる時間です。
@@ -93,7 +97,7 @@ ht-degree: 90%
    時間の単位に対して、次のオプションから選択します。
 
    * 分
-   * 時間。 これがデフォルトです。
+   * 時間数： これがデフォルトです。
    * 日
    * 週
    * 月

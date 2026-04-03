@@ -1,5 +1,5 @@
 ---
-source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 89%
@@ -8,7 +8,8 @@ ht-degree: 89%
 # スニペット
 
 <!-- 
-Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. 
+-->
 
 <!-- General -->
 
@@ -20,9 +21,9 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
 
-## プレビューと迅速リリースの一般 {#preview-fast-release-general}
+## プレビューと高速リリースの一般 {#preview-fast-release-general}
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
@@ -56,15 +57,15 @@ Add snippets within the section that the snippet is used. Snippets that are used
 >
 >このページで説明する手順は、まだ [!DNL Adobe Experience Cloud] にオンボーディングされていない組織にのみ適用されます。
 >
-> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。
+> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。
 
 ## 手順 1 - メインメニューのみをクリックする {#step1-click-main-menu}
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックして、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
 
-## 手順 1 - メインメニューシェルのみをクリック {#step1-click-main-menu-shell-only}
+## 手順1 - メインメニューシェルのみをクリック {#step1-click-main-menu-shell-only}
 
-1. 左上隅の **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックします。
+1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
 
 ## 手順 1 - メインメニューをクリックしてから次をクリックします {#step1-click-mm-then-click}
 
@@ -76,23 +77,23 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 <!-- Notes for Workflow packaging -->
 
-## ワークフローUltimateのメモ {#ultimate-package}
+## Workflow Ultimateに関する注意 {#ultimate-package}
 
 >[!IMPORTANT]
 >
 >この機能を使用するには、ワークフローUltimate パッケージが必要です。
 
-## ワークフローPrime/Ultimateのメモ {#prime-or-ultimate-package}
+## Workflow Prime/Ultimateに関する注意 {#prime-or-ultimate-package}
 
 >[!IMPORTANT]
 >
->この機能を使用するには、ワークフローPrimeまたはワークフローUltimateパッケージが必要です。
+>この機能を使用するには、Workflow PrimeまたはWorkflow Ultimate パッケージが必要です。
 
-## コスト /請求分割用のワークフローパッケージのメモ {#workflow-package-for-cost-billing}
+## 原価/請求分割のワークフローパッケージに関する注意 {#workflow-package-for-cost-billing}
 
 >[!IMPORTANT]
 >
->請求とコストの個別権限を表示するには、ワークフローの選択、PrimeまたはUltimate パッケージが必要です。
+>ワークフロー選択、Prime、またはUltimate パッケージを使用して、請求とコストの権限を個別に確認する必要があります。
 
 <!-- Admin and Setup -->
 
@@ -100,13 +101,13 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
 
-## フォームデザイナーから GA へ {#form-designer-default}
+## フォームデザイナーから一般公開 {#form-designer-default}
 
 >[!IMPORTANT]
 >
->2024 年 7 月 18 日（PT）の 24.7 リリース以降、レガシーフォームビルダーは使用できなくなりました。 フォームデザイナーは、Adobe Workfrontでカスタムフォームを作成および編集するためのデフォルトのエクスペリエンスになりました。
+>従来のフォームビルダーは、2024年7月18日（PT）の24.7 リリースで使用できなくなります。 フォームデザイナーは、Adobe Workfrontでカスタムフォームを作成および編集するためのデフォルトのエクスペリエンスになりました。
 >
->詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+>詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 適切なグループをチームに関連付ける {#right-group-team}
 
@@ -173,7 +174,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 手順 1 - ホームに進む - {#step1-to-home}
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
 
 ## ホームアイコンをクリックする {#click-home}
 
@@ -186,9 +187,9 @@ Add snippets within the section that the snippet is used. Snippets that are used
 >* リンクされたページを別のページに置き換える。この場合、ページの右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または（使用可能な場合は）左上隅で&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、「**[!UICONTROL ホーム]**」をクリックします。
 >
 
-## 手順 1 – 優先事項の把握 –  {#step1-to-priorities}
+## ステップ 1 – 優先順位の取得 –  {#step1-to-priorities}
 
-1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は左上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**[!UICONTROL 優先度]** をクリックします。
+1. Adobe Workfrontの右上隅にある&#x200B;**[!UICONTROL Main Menu]** アイコン ![Main Menu](/help/_includes/assets/main-menu-icon.png)をクリックするか（使用可能な場合）、左上隅にある&#x200B;**[!UICONTROL Main Menu]** アイコン ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックしてから、**[!UICONTROL Priorities]**&#x200B;をクリックします。
 
 <!-- Integrations -->
 
@@ -288,14 +289,14 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして、「**[!UICONTROL Planning]**」をクリックします。
 
-   Workfront計画のランディングページが開きます。
+   Workfront Planningのランディングページが開きます。
 
-1. （オプションおよび条件付き）Workfrontの管理者は、次のいずれかのタブをクリックします。
+1. （オプションおよび条件付き）Workfront管理者の場合は、次のいずれかのタブをクリックします。
 
-   * **マイワークスペース**：作成したワークスペースが表示されます。
-   * **その他のワークスペース**：共有されているワークスペースを含む、Workfront Planning 内のすべてのワークスペースが表示されます。
+   * **自分のワークスペース**：作成したワークスペースを表示します。
+   * **その他のワークスペース**：共有されているワークスペースを含め、Workfront Planningのすべてのワークスペースを表示します。
 
-   他のすべてのユーザーについては、作成または共有したすべてのワークスペースが **ワークスペース** 領域に表示されます。
+   その他のすべてのユーザーに対して、自分で作成または共有したすべてのワークスペースが、**ワークスペース**&#x200B;領域に表示されます。
 
 ## Workfront計画の重要な概要 –  {#planning-important-intro}
 
@@ -305,7 +306,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 >
 >Workfront Planning へのアクセス要件のリストについて詳しくは、[Adobe Workfront Planning へのアクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 > 
->Adobe Workfront Planning の一般情報については、[Workfront Planning の基本を学ぶ &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+>Workfront計画の一般的な詳細については、[Adobe Workfront計画の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 
 <!--
 Old - before Oct. 15, 2025:
@@ -387,7 +388,7 @@ OLD:
 
 **最新バージョン**:
 
-* Mac:2025 年 12 月 11 日現在 2.1.54
+* Mac:2.1.54 （2025年12月11日現在）
 * Windows: 2.1.54 / 12/11/2025
 
 <!-- Release -->

@@ -2,12 +2,14 @@
 content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: タイムシート レイアウトの概要
+title: タイムシートレイアウトの概要
 description: この記事では、Adobe Workfront のタイムシートのレイアウトについて説明します。タイムシートをカスタマイズして利用し、時間を記録する方法をより深く理解できます。
 author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 99%
@@ -18,11 +20,13 @@ ht-degree: 99%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 この記事では、Adobe Workfront のタイムシートのレイアウトについて説明します。タイムシートをカスタマイズして利用し、時間を記録する方法をより深く理解できます。
 
@@ -151,8 +155,10 @@ ht-degree: 99%
 
 詳しくは、[単一回使用のタイムシートの作成](../create-and-manage-timesheets/create-tmshts.md)または[定期タイムシートの作成、編集、割り当て](../create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
-<!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
-You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
+<!--
+drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
+You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.
+-->
 
 ## 時間エントリのコメント
 

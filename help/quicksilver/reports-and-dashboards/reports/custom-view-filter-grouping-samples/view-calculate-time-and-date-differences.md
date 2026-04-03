@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：日時の差異を計算する
+title: ビュー：時間と日付の違いを計算
 description: 時間と日付の差異の計算について説明します。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 89%
@@ -46,8 +48,8 @@ ht-degree: 89%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
-   <p>レポートを変更するための「標準」または「プラン」</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -68,7 +70,7 @@ ht-degree: 89%
 
 例えば、タスクの予定完了日と実際の完了日の差を計算できます。
 
-![日付の差異を表示](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![日付の違いを表示](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. タスクのリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューで、「**新規ビュー**」をクリックします。
@@ -98,7 +100,7 @@ ht-degree: 89%
 オブジェクトとその親のリストについて詳しくは、[Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)にある「相互依存関係とオブジェクトの階層について」の節を参照してください。\
 例えば、タスクの予定完了日と、その親タスクまたはタスクが属するプロジェクトの予定完了日との差を計算できます。
 
-![計画完了日の差異の表示](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![予定完了日の差分を表示](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. タスクのリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューで、「**新規ビュー**」をクリックします。
@@ -107,8 +109,8 @@ ht-degree: 89%
 
 1. 「**列を追加**」をクリックし、さらに「**この列に表示**」フィールドに「予定完了日」を入力し始めるとリストに表示されるので、それを選択します。
 
-1. **[列の追加]**&#x200B;をクリックし、**[テキストモードに切り替え]** > **[テキストモードの編集]**&#x200B;をクリックします。
-1. **[テキストモードの編集]**&#x200B;ボックスで見つかったテキストを削除し、次のいずれかのコードで置き換えます。
+1. **列を追加**&#x200B;をクリックし、**テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のいずれかのコードに置き換えます。
 
    * プロジェクトの計画完了日とタスクの計画完了日の差を表示するには、以下のように行います。
 
@@ -127,4 +129,4 @@ ht-degree: 89%
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. 「**完了**」をクリックしてから、「**ビューを保存**」をクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存**」をクリックします。

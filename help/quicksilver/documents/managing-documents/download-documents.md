@@ -6,7 +6,9 @@ description: ドキュメントは、Adobe Workfront から個別または一括
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 57%
@@ -50,20 +52,20 @@ ht-degree: 57%
 
 +++
 
-## 従来のドキュメント領域でのドキュメントのダウンロード
+## レガシードキュメント領域でのドキュメントのダウンロード
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[&#x200B; 従来のWorkfront ストレージとAdobe エンタープライズストレージの違い &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[従来のWorkfront ストレージとAdobe エンタープライズ ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
-### 従来のドキュメント領域での個々のドキュメントのダウンロード
+### レガシードキュメント領域で個々のドキュメントをダウンロードする
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **選択したダウンロード** アイコン ![&#x200B; 選択したダウンロードアイコン &#x200B;](assets/download-icon.png) をクリックします。
+1. **選択したダウンロード** アイコン ![選択したダウンロード アイコン ](assets/download-icon.png)をクリックします。
 
-![&#x200B; 個々のドキュメントのダウンロード &#x200B;](assets/legacy-doc-download.png)
+![個別のドキュメントをダウンロード ](assets/legacy-doc-download.png)
 
-### 従来のドキュメント領域での複数ドキュメントの同時ダウンロード
+### レガシードキュメント領域で複数のドキュメントを同時にダウンロードする
 
 複数のドキュメントを同時にダウンロードできます。
 
@@ -75,15 +77,15 @@ ht-degree: 57%
    >Box、Dropbox、Google Drive などから Workfront にリンクされたドキュメントを一括でダウンロードすることはできません。
 
 1. （オプション）ダウンロードするドキュメントを含むフォルダーをフォルダーのリストから選択します。
-1. 「選択したダウンロード」アイコン ![&#x200B; 「選択したダウンロード」アイコン &#x200B;](assets/download-icon.png) をクリックします。
+1. 「選択した項目をダウンロード」アイコン ![選択した項目をダウンロード ](assets/download-icon.png)をクリックします。
 
    フォルダーは .zip ファイルとしてダウンロードされ、最大 4GB に制限されます。
 
-## 新しいドキュメント エリアでのドキュメントのダウンロード
+## 新規ドキュメント領域でのドキュメントのダウンロード
 
-エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
-1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、左パネルで **ドキュメント** を選択します。
-1. 必要なドキュメントを見つけて、「**ダウンロード**」をクリックします。
+1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
+1. 必要なドキュメントを見つけたら、**ダウンロード**&#x200B;をクリックします。
 
-![&#x200B; ドキュメントをダウンロード &#x200B;](assets/download-new-doc.png)
+![ ドキュメントをダウンロード ](assets/download-new-doc.png)

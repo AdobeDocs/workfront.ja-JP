@@ -1,12 +1,14 @@
 ---
 product-area: projects
 navigation-topic: use-the-gantt-chart
-title: タスク リスト ガント チャートの情報を更新
-description: Adobe Workfront タスクリストのガントチャートには、プロジェクトまたはテンプレート上のタスクに関する詳細が表示されます。
+title: タスクリストガントチャートの情報の更新
+description: Adobe Workfrontのタスクリストのガントチャートには、プロジェクトまたはテンプレートにあるタスクの詳細が表示されます。
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 91%
@@ -17,9 +19,9 @@ ht-degree: 91%
 
 <!--Audited: 08/2025-->
 
-Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート &#x200B;] には、プロジェクトまたはテンプレート上のタスクに関する詳細が表示されます。
+Adobe Workfrontのタスクリストの[!UICONTROL  ガントチャート ]には、プロジェクトまたはテンプレートにあるタスクに関する詳細が表示されます。
 
-テンプレートのタスクリスト [!UICONTROL &#x200B; ガントチャート &#x200B;] には、テンプレートのタスクリストで行われた更新がテンプレートタスクレベルで反映されます。 テンプレートに関連付けられている[!UICONTROL ガントチャート]は編集できません。
+テンプレートでは、タスクリスト [!UICONTROL  ガントチャート ]は、テンプレートのタスクリストで行われた更新をテンプレートタスクレベルに反映します。 テンプレートに関連付けられている[!UICONTROL ガントチャート]は編集できません。
 
 プロジェクトでは、タスクリストの[!UICONTROL ガントチャート]でタスク情報を直接更新できます。
 
@@ -40,7 +42,7 @@ Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] パッケージ</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +65,8 @@ Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,14 +89,15 @@ Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート
    <td> <p>[!UICONTROL Manage] access to the project and tasks </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## タスク期間の変更
 
 1. 変更するプロジェクトに移動します。
 1. 左パネルの「**[!UICONTROL タスク]**」をクリックします。
 
-   ![&#x200B; タスクエリア &#x200B;](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![ タスク領域](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. **[!UICONTROL ガントチャート]**&#x200B;アイコンをクリックします。
 
@@ -103,7 +107,7 @@ Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート
 
 1. （オプション）**[!UICONTROL 計画モード]**&#x200B;アイコンをクリックし、「手動保存」オプションの「**[!UICONTROL 標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 
-   ![&#x200B; 手動設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![手動設定が有効になりました](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. タスクのタイムラインにポインタを合わせて、タイムラインインジケーターを別の日付までドラッグします。
 1. タスクの正しい新しい完了日で、インジケーターをドロップします。
@@ -133,7 +137,7 @@ Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート
 
 1. （オプション）**[!UICONTROL 計画モード]**&#x200B;アイコンをクリックし、「手動保存」オプションの「**[!UICONTROL 標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 
-   ![&#x200B; 手動設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![手動設定が有効になりました](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 先行タスク関係を作成するには、タスクの開始点をクリックし、タスクの終了点までドラッグします。
 1. 先行タスク関係を削除するには、2 つのタスクを接続する先行タスクラインをクリックして選択し、キーボードの **[!UICONTROL Delete]** キーを押します。\
@@ -165,7 +169,7 @@ Adobe Workfront タスクリストの [!UICONTROL &#x200B; ガントチャート
 
 1. （オプション）**[!UICONTROL 計画モード]**&#x200B;アイコンをクリックし、「手動保存」オプションの「**[!UICONTROL 標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 
-   ![&#x200B; 手動設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![手動設定が有効になりました](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. タスクの中央にポインタを合わせ、多方向矢印を見つけます。
 1. タスクをクリックし、目的の日付までドラッグします。

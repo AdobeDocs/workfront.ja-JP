@@ -6,10 +6,12 @@ description: 次の Adobe Creative Cloud アプリケーションを離れるこ
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +29,8 @@ ht-degree: 95%
  <col> 
  <col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
@@ -36,7 +39,8 @@ ht-degree: 95%
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">その他の製品</td> 
    <td>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</td> 
@@ -122,4 +126,4 @@ ht-degree: 95%
 
 [!UICONTROL メニュー]アイコンを使用して、プロジェクト内の親項目に移動できます。
 
-![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
+![作業リストに戻る](assets/go-back-to-work-list-350x314.png)

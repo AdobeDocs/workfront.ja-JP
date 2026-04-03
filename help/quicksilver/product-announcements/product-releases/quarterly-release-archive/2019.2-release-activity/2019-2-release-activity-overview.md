@@ -7,7 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: baa50860-e23a-4be8-8192-f0400099294f
-source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 98%
@@ -16,7 +18,7 @@ ht-degree: 98%
 
 # 2019.2 リリースアクティビティの概要
 
-このページでは、2019.2 リリースに含まれる機能について説明します。<!-- To download this content in PDF format, go [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).-->
+このページでは、2019.2 リリースに含まれる機能に関する情報を提供します。<!-- To download this content in PDF format, go [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).-->
 
 >[!NOTE]
 >

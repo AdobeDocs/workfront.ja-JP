@@ -2,13 +2,15 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: ルーティングルールの作成
-description: ルーティングルールは、Adobe Workfrontがリクエストキューに送信される際にイシューに対して行う処理を制御します。
+description: ルーティングルールは、Adobe Workfrontがリクエストキューに送信されるときの問題の処理を制御します。
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 86%
@@ -23,7 +25,7 @@ ht-degree: 86%
 
 ルーティングルールは、送信されたイシューまたはリクエストを解決するのに最適な特定のユーザーまたは担当業務にイシューを送信します。ルーティングルールは通常、キュートピックに関連付けられており、イシューまたはリクエストにどのルーティングルールを適用するかを制御するために使用されます。
 
-作成したルーティング規則を、あるプロジェクトから別のプロジェクトに移動することはできません。
+作成したルーティングルールは、あるプロジェクトから別のプロジェクトに移動することはできません。
 
 ## アクセス要件
 
@@ -60,8 +62,8 @@ ht-degree: 86%
 ## ルーティングルールを作成
 
 1. リクエストのルーティングルールを追加するプロジェクトに移動します。
-1. 左側のパネルで **ルーティングルール** をクリックします。
-1. **新規ルーティングルール** をクリックして、新しいルールを追加します。 「**新規ルーティング規則**」ボックスが開きます。
+1. 左側のパネルで「**ルーティングルール**」をクリックします。
+1. 「**新しいルーティングルール**」をクリックして、新しいルールを追加します。 「**新しいルーティングルール**」ボックスが開きます。
 
    ![新規ルーティングルールボックス](assets/new-routing-rule-box.png)
 1. ルーティングルールに次の情報を入力します。

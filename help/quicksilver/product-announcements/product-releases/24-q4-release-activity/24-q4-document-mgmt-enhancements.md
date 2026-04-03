@@ -1,20 +1,22 @@
 ---
-title: Fourth Quarter 2024 Document management enhancements
-description: Fourth Quarter 2024 Document management enhancements
+title: 2024年第4四半期の文書管理の機能強化
+description: 2024年第4四半期の文書管理の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2af72926-a46a-4265-aa01-064436b93622
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 34%
 
 ---
 
-# Fourth Quarter 2024 Document management enhancements
+# 2024年第4四半期の文書管理の機能強化
 
-This page describes all document management enhancements made with the Fourth Quarter 2024 release to the Preview environment. この機能強化は、2024年第 4 四半期のリリースにおいて本番環境で利用できるようになります。
+このページでは、2024年第4四半期リリースで行われたすべてのドキュメント管理の機能強化をプレビュー環境で説明します。 この機能強化は、2024年第 4 四半期のリリースにおいて本番環境で利用できるようになります。
 
 2024年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。
 
@@ -22,22 +24,22 @@ This page describes all document management enhancements made with the Fourth Qu
 >
 >このページに記載されている機能は、段階的なリリースの一部で、特定のお客様のみが利用できます。
 
-## View document decision status directly in the document list
+## ドキュメントの決定ステータスをドキュメントリストで直接表示
 
 >[!NOTE]
 >
->~~Preview release: October 3, 2024~~; Production for all customers: With the 24.10 release (October 17, 2024)
+>~~プレビューリリース：2024年10月3日~~、すべてのユーザー向け実稼動環境：24.10 リリース（2024年10月17日）を使用
 
-文書の決定状況を文書リストに直接表示できるようになりました。
+ドキュメントの決定ステータスをドキュメントリストで直接表示できるようになりました。
 
-For more information, see [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+詳しくは、[ ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)を参照してください。
 
-## Quickly add previous reviewers and approvers to new document versions
+## 以前のレビュー担当者や承認者を新しいドキュメントのバージョンにすばやく追加
 
 >[!NOTE]
 >
->Preview release: October 3, 2024; Production for all customers: With the 24.10 release (October 17, 2024)
+>プレビューリリース：2024年10月3日（PT）、すべてのユーザー向けの実稼動：24.10 リリース（2024年10月17日（PT））
 
-以前の文書バージョンからレビュー担当者と承認者をすばやく追加できるようになりました。
+以前のドキュメントのバージョンからレビュー担当者や承認者をすばやく追加できるようになりました。
 
 <!-- For more information, see [Upload a new document version and request an approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md). -->

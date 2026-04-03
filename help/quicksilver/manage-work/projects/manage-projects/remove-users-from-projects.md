@@ -1,15 +1,17 @@
 ---
 product-area: projects;user-management
 navigation-topic: manage-projects
-title: プロジェクトからユーザーを削除
+title: プロジェクトからのユーザーの削除
 description: プロジェクトの作業の完了に関与しなくなったユーザーを、プロジェクトから削除できます。
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -51,7 +53,8 @@ ht-degree: 93%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +79,8 @@ ht-degree: 93%
    <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## ユーザーの削除が既存のタスク、イシュー、プロジェクトに与える影響
 
@@ -101,7 +105,7 @@ ht-degree: 93%
 
 1. ユーザーを削除するプロジェクトに移動します。
 
-1. 左側のパネルで **ユーザー** をクリックし、削除するユーザーを選択します。
+1. 左側のパネルで「**ユーザー**」をクリックし、削除するユーザーを選択します。
 
 1. ユーザーのリスト上部にある&#x200B;**削除**&#x200B;アイコン ![項目を削除](assets/remove-icon---x-in-circle.png) をクリックします。
 

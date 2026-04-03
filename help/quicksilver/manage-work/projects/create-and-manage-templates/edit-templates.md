@@ -2,11 +2,13 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: プロジェクトテンプレートの編集
-description: プロジェクトテンプレートを編集して、今後のプロジェクトのプロセスおよび設定の変更を反映させることができます。 一度に 1 つのテンプレートを編集することも、複数のテンプレートを一括編集することもできます。
+description: プロジェクトテンプレートを編集して、今後のプロジェクトのプロセスや設定の変更を反映させることができます。 一度に1つのテンプレートを編集することも、複数のテンプレートを一括編集することもできます。
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '4971'
 ht-degree: 87%
@@ -31,17 +33,17 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 -->
 
 
-プロジェクトテンプレートを編集して、今後のプロジェクトのプロセスおよび設定の変更を反映させることができます。
+プロジェクトテンプレートを編集して、今後のプロジェクトのプロセスや設定の変更を反映させることができます。
 
-テンプレートで変更を更新して保存した後、テンプレートを使用してプロジェクトを作成すると、新しい変更が新しいプロジェクトに表示されます。
+テンプレートの変更を更新して保存すると、テンプレートを使用してプロジェクトを作成するときに、新しい変更が新しいプロジェクトに表示されます。
 
-テンプレートに加えた変更は、そのテンプレートを現在使用しているプロジェクトには反映されません。
+テンプレートで行った変更は、そのテンプレートを現在使用しているプロジェクトには反映されません。
 
-一度に 1 つのテンプレートを編集することも、テンプレートを一括編集することもできます。
+一度に1つのテンプレートを編集することも、テンプレートを一括編集することもできます。
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開してアクセス要件を表示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,11 +74,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+* この表の詳細については、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,13 +110,14 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## テンプレートを編集 {#edit-a-template}
 
 1. 編集するテンプレートに移動します。
 1. （条件付き）テンプレートに関する限られた情報を編集するには、左パネルの「**テンプレートの詳細**」をクリックし、左パネルに一覧表示されているエリアに移動して、それぞれのエリアの情報を編集します。
-1. 「詳細」セクションの情報を編集するには、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックして、以下の任意の領域から選択するか、**すべて編集** をクリックして、すべての領域の情報を編集します。
+1. 詳細セクションで情報を編集するには、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、次のいずれかの領域から選択するか、**すべてを編集**&#x200B;をクリックして、すべての領域で情報を編集します。
 
    * 概要
    * カスタムフォーム
@@ -126,9 +130,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >
    >詳細エリアに表示されるすべてのフィールドについては、以下のテンプレートの編集ボックスを使用したすべてのフィールドの編集に進みます。
 
-1. （条件付き）テンプレートに関するすべての情報を編集するには、テンプレート名の横にある **詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、「**編集**」をクリックします。
+1. （条件付き）テンプレートに関するすべての情報を編集するには、テンプレート名の横にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
 
-   **テンプレートの編集**&#x200B;ボックスが開きます。このボックス内のセクションには、テンプレートの「詳細」セクションで使用できるフィールドと、その他のフィールドが含まれています。
+   **テンプレートの編集**&#x200B;ボックスが開きます。このボックスのセクションには、テンプレートの詳細セクションで使用可能なフィールドと、その他のフィールドが含まれています。
 
 1. 以下のセクションのいずれかで、情報の編集を検討します。
 
@@ -136,7 +140,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [概要](#overview-preview)
    * [財務](#finance-preview)
    * [カスタムフォーム](#custom-forms-preview)
-   * [&#x200B; テンプレート設定 &#x200B;](#template-settings)
+   * [ テンプレート設定](#template-settings)
    * [タスク設定](#task-settings)
    * [問題設定](#issue-settings)
    * [アクセス](#access-preview)
@@ -159,7 +163,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. 「**テンプレートを編集**」ボックス内で、**概要**&#x200B;をクリックします。
 
-   ![[ テンプレートを編集 ] ボックスの [ 概要 ] セクション &#x200B;](assets/edit-template-box-overview-section.png)
+   ![ テンプレートボックスの編集の概要セクション ](assets/edit-template-box-overview-section.png)
 
 1. 次のフィールドを更新します。
 
@@ -188,7 +192,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        </tr>
    <tr> 
       <td role="rowheader"><strong>アクティブ</strong></td> 
-      <td><p>テンプレートをアクティブにする場合は、このオプションをオンにします。 他のユーザーがこのテンプレートを見つけて、プロジェクトの作成時にプロジェクトに添付できます。 使用されていないテンプレートをディアクティベートする場合は、このオプションをオフにします。 非アクティブ化されたテンプレートをプロジェクトに添付できません。 これはデフォルトで有効になっています。 </p><p><b>ヒント</b></p>
+      <td><p>テンプレートをアクティブにする場合は、このオプションをオンにします。 プロジェクトを作成する際に、他のユーザーがこのテンプレートを見つけてプロジェクトに添付できます。 使用されなくなったテンプレートを無効にする場合は、このオプションをオフにします。 非アクティブ化されたテンプレートをプロジェクトに添付することはできません。 これはデフォルトで有効になっています。 </p><p><b>ヒント</b></p>
 
    <p>この記事の「テンプレートのアクティベートまたはアクティベート解除」の節で説明しているように、テンプレートヘッダーからテンプレートをアクティベート解除できます。</p></td> 
      </tr>
@@ -264,7 +268,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. 「**テンプレートを編集**」ボックスで、**財務**&#x200B;をクリックします。
 
-   ![&#x200B; テンプレート ボックスの [ 財務 ] セクションの編集 &#x200B;](assets/edit-template-box-finance-section.png)
+   ![ テンプレートボックスを編集ファイナンスセクション ](assets/edit-template-box-finance-section.png)
 
 1. 次のフィールドを更新します。
 
@@ -282,11 +286,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
      </tr> 
      <tr> 
       <td role="rowheader"><strong>パフォーマンスインデックスメソッド</strong></td> 
-      <td><p>将来のプロジェクトの達成額メトリックを時間またはコストのどちらで計算するかを指定します。 パフォーマンスインデックスメソッドについて詳しくは、<a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">パフォーマンスインデックスメソッド（PIM）を設定</a>を参照してください。 </p></td> 
+      <td><p>今後のプロジェクトのアーンドバリュー指標を、時間またはコストを使用して計算するかどうかを指定します。 パフォーマンスインデックスメソッドについて詳しくは、<a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">パフォーマンスインデックスメソッド（PIM）を設定</a>を参照してください。 </p></td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>予定利益</strong></td> 
-      <td><p>このテンプレートから作成されるプロジェクトの予定利益を指定します。予定利益は、プロジェクトのビジネスケースとポートフォリオオプティマイザーで使用されます。 </p><p>プロジェクトの予定利益について詳しくは、<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">プロジェクトの予定利益の概要</a>を参照してください。プロジェクトの正味価値が計算される際には、プロジェクトの予定利益が考慮されます。 </p><p>Portfolio Optimizer の使用について詳しくは、<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Portfolio Optimizer でのプロジェクトの管理 </a> を参照してください。 </p></td> 
+      <td><p>このテンプレートから作成されるプロジェクトの予定利益を指定します。予定利益は、プロジェクトのビジネスケースとポートフォリオオプティマイザーで使用されます。 </p><p>プロジェクトの予定利益について詳しくは、<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">プロジェクトの予定利益の概要</a>を参照してください。プロジェクトの正味価値が計算される際には、プロジェクトの予定利益が考慮されます。 </p><p>Portfolio Optimizerの使用について詳しくは、<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Portfolio Optimizerでのプロジェクトの管理</a>を参照してください。 </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>固定コスト</strong></td> 
@@ -311,13 +315,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. **テンプレートを編集**&#x200B;ボックスで、「**カスタムフォーム**」をクリックします。
 
-   ![&#x200B; テンプレートボックスのカスタムFormsセクションを編集 &#x200B;](assets/edit-template-box-custom-forms-section.png)
+   ![ テンプレートボックスを編集カスタム Forms セクション ](assets/edit-template-box-custom-forms-section.png)
 
    テンプレートに既に添付されているカスタムフォームの名前が左のパネルに表示されます。
 
 1. 「**カスタムフォームを追加**」フィールドの中をクリックして、テンプレートに関連付けるカスタムフォーム（複数可）を選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。
 
-   アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+   アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
    1 つのテンプレートに最大 10 個のカスタムフォームを追加できます。
 
@@ -338,7 +342,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. **テンプレートを編集**&#x200B;ボックスで、「**プロジェクト設定**」をクリックします。
 
-   ![&#x200B; テンプレート ボックス テンプレート設定の編集 &#x200B;](assets/edit-template-box-project-settings-section.png)
+   ![ テンプレート ボックス テンプレート設定の編集セクション ](assets/edit-template-box-project-settings-section.png)
 
 1. 次のフィールドを更新します。
 
@@ -426,14 +430,14 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        <td role="rowheader"><strong>リソースプール</strong> </td> 
        <td> <p>テンプレートに関連付けられたリソースプールを指定します。リソースプールとは、プロジェクトを完了するために同時に必要になるユーザーの集まりです。リソースプールについて詳しくは、<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">リソースプールの概要</a>を参照してください。</p> <p> <p><b>メモ</b>
 
-        テンプレートを一括編集する場合、選択したすべてのテンプレートに共通するリソースプールのみがこのフィールドに表示されます。 選択したテンプレートに共有リソースプールがない場合、このフィールドは空になります。ここで指定したリソースプールは、テンプレートの個々のリソースプールを上書きします。&lt;/p> &lt;/p> &lt;/td>
+        テンプレートを一括編集すると、選択したすべてのテンプレートに共通のリソースプールのみが、このフィールドに表示されます。 選択したテンプレートに共有リソースプールがない場合、このフィールドは空になります。ここで指定したリソースプールは、テンプレートの個々のリソースプールを上書きします。&lt;/p> &lt;/p> &lt;/td>
        &lt;/tr>
    
    <tr> 
       <td role="rowheader"><strong>プロジェクト時間の承認</strong></td>
 
-   <td><p>このオプションを選択して、このテンプレートから作成されたプロジェクトの今後のプロジェクト所有者に、プロジェクトに記録された時間の承認を要求します。</p> 
-      <p>請求レコードを使用していて、このオプションを選択した場合、プロジェクトの承認された時間のみが請求レコードの請求可能な時間として表示されます。 </p>
+   <td><p>このテンプレートから作成されたプロジェクトのプロジェクト所有者が、プロジェクトに記録された時間を承認する必要がある場合は、このオプションを選択します。</p> 
+      <p>請求記録を使用していて、このオプションを選択した場合、プロジェクトで承認された時間のみが、請求記録で使用可能な請求可能時間として表示されます。 </p>
       <p>プロジェクトの承認時間は、タイムシートの承認とは無関係です。プロジェクトで時間を承認する必要がある場合については詳しくは、<a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">プロジェクトの承認に要する時間</a>を参照してください。</p>
       </td> 
       </tr> 
@@ -479,10 +483,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. **テンプレートの編集**&#x200B;ボックスで、「**タスクの設定**」をクリックします。
 
-   ![&#x200B; テンプレート ボックス タスク設定の編集 &#x200B;](assets/edit-template-box-task-settings-section.png)
+   ![ テンプレート ボックスのタスク設定セクション ](assets/edit-template-box-task-settings-section.png)を編集
 
 1. 「**タスク既定の承認プロセス**」ボックスで、このテンプレートで作成されたプロジェクトに新しいタスクを追加する場合に、すべての新しいタスクに関連付けるタスク承認プロセスを選択します。承認プロセスをタスクに関連付けるには、まず、タスクの承認プロセスを作成する必要があります。アクティブな承認プロセスのみがリストに表示されます。承認プロセスの作成について詳しくは、[承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
-1. 「**タスクのデフォルトのカスタムフォーム**」ボックスで、このテンプレートから作成されたプロジェクトにカスタムフォーム（複数可）を追加する際に、すべての新しいタスクに関連付けるカスタムフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのタスクに最大 10 個のカスタムフォームを関連付けることができます。
+1. 「**タスクのデフォルトのカスタムフォーム**」ボックスで、このテンプレートから作成されたプロジェクトにカスタムフォーム（複数可）を追加する際に、すべての新しいタスクに関連付けるカスタムフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 1 つのタスクに最大 10 個のカスタムフォームを関連付けることができます。
 1. （オプション）テンプレートから作成されたプロジェクトで予定時間数ではなく作業量を使用してタスクを管理する場合は、「**作業量を使うとタスクの予定時間数を自動的に計算できます**」を選択します。
 1. （条件付きおよびオプション）「作業量を使うとタスクの予定時間数を自動的に計算できます」を選択した場合は、ドロップダウンメニューをクリックし、作業量の各レベルで割合を更新します。デフォルト値は以下のとおりです。
 
@@ -507,7 +511,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. 「**テンプレートを編集**」ボックスで、「**問題設定**」をクリックします。
 
-   ![&#x200B; テンプレート ボックスの問題設定の編集 &#x200B;](assets/edit-template-box-issue-settings-section.png)
+   ![ テンプレートボックスの問題設定の編集セクション ](assets/edit-template-box-issue-settings-section.png)
 
 1. （オプション）「**ユーザーがインラインで問題を追加できるようにする**」オプションの選択を解除します。これはデフォルトで有効になっています。
 
@@ -534,7 +538,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. 「**テンプレートを編集**」ボックスで「**アクセス**」をクリックします。
 
-   ![&#x200B; テンプレート ボックスの [ アクセスの編集 ] セクション &#x200B;](assets/edit-template-box-access-section.png)
+   ![ テンプレート ボックスの編集アクセス セクション ](assets/edit-template-box-access-section.png)
 
    テンプレートに指定したアクセス権は、テンプレートを使用してプロジェクトを作成する際に、プロジェクトに関連付けられたユーザーのアクセス権になります。
 
@@ -585,12 +589,15 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    このテンプレートを使用してプロジェクトを作成すると、これらの設定はすべて新しいプロジェクトに転送されます。
 
-<!--I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
+<!--
+I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
 >[!NOTE]
 >
->Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.
+-->
 
-<!-- This section is here by mistake - it should be maybe in layout templates?? 
+<!--
+ This section is here by mistake - it should be maybe in layout templates?? 
 
 ### Linked folders (conditional availability) {#linked-folders}
 
@@ -609,14 +616,14 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 ### コメント
 
 1. 前述の説明に従って、テンプレートの編集を開始します。
-1. 「**テンプレートを編集**」ボックスで、「**コメント**」をクリックします。
+1. **テンプレートを編集** ボックスで、**コメント**&#x200B;をクリックします。
 
-   ![&#x200B; テンプレート ボックス コメント セクションを編集 &#x200B;](assets/edit-template-box-comment-section.png)
-1. 行っている更新に関するコメントを追加したり、追加のユーザーにタグを付けたり、**会社の非公開** ボックスを選択して会社内のユーザーに対して更新を非公開にしたり、「**保存** をクリックしたりします。
+   ![ テンプレートボックスの編集コメントのセクション ](assets/edit-template-box-comment-section.png)
+1. 更新に関するコメントを追加するか、追加ユーザーをタグ付けするか、**会社にプライベート** ボックスを選択して、更新を社内のユーザーにプライベートに保ち、**保存**&#x200B;をクリックします。
 
    >[!TIP]
    >
-   >**会社に非公開** 設定は、Workfront プロファイルが会社に関連付けられている場合にのみ使用できます。
+   >会社に対する&#x200B;**非公開**&#x200B;設定は、Workfront プロファイルが会社に関連付けられている場合にのみ使用できます。
 
 ## テンプレートを一括編集
 
@@ -627,16 +634,17 @@ Editing templates in bulk differs depending on which environment you are using.
 
 ### Edit templates in bulk in the Production environment 
 
-*****************and hide the first line below************ -->
+*****************and hide the first line below************
+-->
 
 {{step1-to-templates}}
 
 1. リスト内の複数のテンプレートを選択します。
-1. **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. **編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
    **テンプレートを編集**&#x200B;ダイアログボックスが開きます。
 
-   ![&#x200B; テンプレートの編集 &#x200B;](assets/bulk-edit-templates-0925.png)
+   ![ テンプレートを編集](assets/bulk-edit-templates-0925.png)
 
 1. 左側のセクションをクリックして、選択したすべてのテンプレートを編集します。
 
@@ -717,7 +725,7 @@ To edit templates in bulk:
 * ドキュメント
 * リスク
 
-  リスクの作成の詳細については、「[&#x200B; プロジェクトのリスクの作成と編集 &#x200B;](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)」を参照してください。
+  リスクの作成について詳しくは、[ プロジェクトのリスクの作成と編集](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)を参照してください。
 
 * 承認プロセス
 
@@ -725,7 +733,7 @@ To edit templates in bulk:
 
 * 請求レート
 
-  テンプレートの請求レートの追加は、プロジェクトに請求レートを追加する場合と似ています。 詳しくは、[プロジェクトレベルで担当業務の請求レートを上書き](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)を参照してください。
+  テンプレートに請求レートを追加することは、プロジェクトに請求レートを追加することと似ています。 詳しくは、[プロジェクトレベルで担当業務の請求レートを上書き](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)を参照してください。
 
 * 費用
 
@@ -733,11 +741,11 @@ To edit templates in bulk:
 
 * キューの詳細
 
-  プロジェクトまたはテンプレートへのキュー詳細の追加については、[&#x200B; リクエストキューの作成 &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) を参照してください。
+  プロジェクトまたはテンプレートへのキュー詳細の追加について詳しくは、[ リクエストキューの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
 * トピックグループとキューのトピック
 
-  プロジェクトまたはテンプレートにトピック グループとキュートピックを追加する方法については、次の記事を参照してください。
+  プロジェクトまたはテンプレートへのトピックグループとキュートピックの追加について詳しくは、次の記事を参照してください。
 
    * [トピックグループを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [キュートピックを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
@@ -762,12 +770,12 @@ To edit templates in bulk:
 
 テンプレートを非アクティブ化するには、以下のように行います。
 
-1. アクティブなテンプレートに移動して、テンプレート名の横にある **その他**![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) メニューをクリックし、**非アクティブ化** をクリックします。
+1. アクティブなテンプレートに移動し、テンプレート名の横にある&#x200B;**詳細** ![詳細アイコン ](assets/more-icon.png) メニューをクリックし、**非アクティブ化**&#x200B;をクリックします。
 
-   ![&#x200B; テンプレートを非アクティブ化 &#x200B;](assets/deactivate-template-link-in-more-menu.png)
+   ![ テンプレートを非アクティブ化](assets/deactivate-template-link-in-more-menu.png)
 
    このテンプレートはアクティブではなくなり、ユーザーはこのテンプレートからプロジェクトを作成できなくなりました。
-1. （オプション）テンプレートをアクティブ化するには、テンプレート名の横にある **その他** アイコン ![&#x200B; メニューをクリックし &#x200B;](assets/more-icon.png) 「**アクティブ化**」をクリックします。
+1. （オプション）テンプレートをアクティベートするには、テンプレート名の横にある&#x200B;**詳細** ![詳細アイコン ](assets/more-icon.png) メニューをクリックし、**アクティベート**&#x200B;をクリックします。
 
    これでテンプレートがアクティブになり、プロジェクトにアタッチしたり、プロジェクトの作成に使用したりできます。
 
@@ -1264,7 +1272,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
    Now, when you use this template to create a project all these settings will transfer to the new project.
 
 
-   <!--drafted section below for the edit template story: 
+   <!--
+   drafted section below for the edit template story: 
    remove this tag and add the Preview blurb at the top of this article in yellow, if it's not already there. Keep the "div class" tags below until 23.1 production: 
 
 

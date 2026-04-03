@@ -1,15 +1,17 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: リストでイシューを編集
+title: リスト内のイシューの編集
 description: 個々のイシューを編集することも、イシューリストまたはレポート内のイシューを編集することもできます。この記事では、リスト内のイシューを編集する方法について説明します。
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -18,13 +20,15 @@ ht-degree: 78%
 <!--Audited: 10/2025-->
 
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 個々のイシューを編集することも、イシューリストまたはレポート内のイシューを編集することもできます。この記事では、リスト内のイシューを編集する方法について説明します。
 
@@ -46,11 +50,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
 
-<ul><li><p>投稿者以上</p> </li>
+<ul><li><p>コントリビューター以上</p> </li>
    <li><p>プロジェクトの「イシュー」セクションでイシューを編集するためのライト以上のライセンス</p></li></ul> 
     または
-   <ul><li><p>要求者以上</p> </li>
-   <li><p>プロジェクトの「イシュー」セクションでイシューを編集するためのレビュアー以上のライセンス</p></li></ul> 
+   <ul><li><p>依頼者以上</p> </li>
+   <li><p>プロジェクトの「問題」セクションで問題を編集するためのレビュー担当者以上のライセンス</p></li></ul> 
    </td> 
   </tr> 
   <tr> 
@@ -68,7 +72,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +96,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## イシューのインライン編集
 
@@ -110,7 +116,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. プロジェクトまたはタスク内のイシューのリストに移動します。
 1. 手動で更新する権限を持つフィールド内をクリックします。フィールドが編集可能になり、変更を加えることができます。
 
-   ![&#x200B; 問題をインラインで編集 &#x200B;](assets/edit-issues-inline-350x34.png)
+   ![ インラインで問題を編集](assets/edit-issues-inline-350x34.png)
 
 1. 変更を受け入れる場合は、Enter キーを押します。変更は直ちに保存されます。
 
@@ -121,23 +127,23 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. プロジェクトまたはタスク内のイシューのリストに移動します。
 1. 次のいずれかの操作を行います。
 
-   * リストでイシューを選択し、ツールバーの **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
-   * イシューの名前をクリックし、「**編集**」をクリックします。
+   * リストで問題を選択し、ツールバーの&#x200B;**編集** アイコン ![編集アイコン ](assets/qs-edit-icon.png)をクリックします。
+   * 問題の名前をクリックし、**編集**&#x200B;をクリックします。
 
-     これらのアクションのいずれかを実行すると、「**イシューを編集** ボックスが開きます。
+     これらのアクションのいずれかが、**問題を編集** ボックスを開きます。
 
-     **イシューを編集** ボックスでのイシューの編集について詳しくは、[&#x200B; イシューの編集 &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) を参照してください。
+     **問題の編集** ボックスでの問題の編集について詳しくは、[問題の編集](../../../manage-work/issues/manage-issues/edit-issues.md)を参照してください。
 
 ## 概要を使用してイシューを編集
 
-概要パネルを使用して、リストのイシューを編集できます。
+概要パネルを使用して、リスト内のイシューを編集できます。
 
 1. 編集するイシューを含むプロジェクトに移動します。
 1. 左側のパネルで「**イシュー**」をクリックします。
 
    プロジェクトのイシューのリストが表示されます。
 
-1. 編集するイシューを選択し、イシューリストの右上隅にある **概要を開く** アイコン ![&#x200B; 概要を開くアイコン &#x200B;](assets/qs-open-summary-icon-in-new-toolbar-small.png) をクリックします。
+1. 編集する問題を選択し、問題リストの右上隅にある&#x200B;**概要を開く** アイコン ![概要アイコン ](assets/qs-open-summary-icon-in-new-toolbar-small.png)をクリックします。
 
    **概要**&#x200B;が開きます。
 
@@ -146,10 +152,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    | アイコン | アクション |
    |---|---|
-   | ドキュメント ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents-icon-in-summary.png) | 「**ここをクリックして追加**」をクリックして、イシューにドキュメントを追加します。 |
-   | 詳細 ![&#x200B; 詳細アイコン &#x200B;](assets/details-icon-in-summary.png) | クリックして、イシューに関する情報を更新します。 |
-   | 時間 ![&#x200B; 時間を記録 &#x200B;](assets/log-time-icon-in-summary.png) | クリックして時間を記録します。 |
-   | 承認 ![&#x200B; 承認アイコン &#x200B;](assets/approvals-icon-in-summary.png) | クリックして、イシューの承認を追加します。 |
+   | ドキュメント ![ ドキュメントアイコン ](assets/documents-icon-in-summary.png) | 「**ここをクリックして追加**」をクリックして、イシューにドキュメントを追加します。 |
+   | 詳細![詳細アイコン ](assets/details-icon-in-summary.png) | クリックして、イシューに関する情報を更新します。 |
+   | 時間![時間を記録](assets/log-time-icon-in-summary.png) | クリックして時間を記録します。 |
+   | 承認![承認アイコン ](assets/approvals-icon-in-summary.png) | クリックして、イシューの承認を追加します。 |
 
 1. （オプション）**概要を開く**&#x200B;アイコンを再びクリックするか、概要の右上にある&#x200B;**X アイコン**&#x200B;をクリックしてパネルを閉じ、イシューをインラインで編集します。
 
@@ -164,7 +170,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. プロジェクト名をクリックして、プロジェクトにアクセスします。
 1. 左側のパネルで「**イシュー**」をクリックします。
 1. リストから複数のイシューを選択します。
-1. **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. **編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
    **イシューを編集**&#x200B;ダイアログボックスが開きます。
 
@@ -196,7 +202,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    選択したすべてのイシューに対して、行った変更がすべて表示されます。
 
-1. （オプション）リストですべてのイシューを選択した状態で、イシューリストの上部にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-icon.png) をクリックしてから、**式の再計算** をクリックします。
+1. （オプション）リストですべての問題を選択した状態で、問題リストの上部にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**式の再計算**&#x200B;をクリックします。
 
    >[!IMPORTANT]
    >

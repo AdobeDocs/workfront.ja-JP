@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：列の内容を非表示にする
+title: ビュー：列のコンテンツを非表示にする
 description: ビューの列で情報を非表示にしたい場合があります。これを行うには、列のテキストモードを変更します。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 76%
@@ -41,8 +43,8 @@ ht-degree: 76%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -67,8 +69,8 @@ ht-degree: 76%
 
 1. 「**列を追加**」をクリックして、「**このカラムに表示**」フィールドに「タスク番号」と入力していき、リストに表示されたら選択します。
 
-1. **テキストモードに切り替え** をクリックしてから、**テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. 「**テキストモードに切り替え**」、「**テキストモードを編集**」の順にクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```
    displayname=
@@ -85,7 +87,7 @@ ht-degree: 76%
    このコードの重要な変更点は次のとおりで、その結果、列が非表示になります。
 
    * `displayname=`：この行は空白にする必要があります。
-   * `valuefield=`：この行は `value=` に置き換える必要があります。この行は空白にする必要があります。
-   * `width=`: フィールドによって、値は **0** または **1** である必要があります。
+   * `valuefield=`：この行は`value=`に置き換える必要があります。空白にする必要があります。
+   * `width=`: フィールドによっては、値が&#x200B;**0**&#x200B;または&#x200B;**1**&#x200B;である必要があります。
 
-1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存**」をクリックします。

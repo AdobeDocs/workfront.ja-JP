@@ -6,7 +6,9 @@ description: テキストモードの一般的な使用例の概要
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 92%
@@ -32,7 +34,7 @@ ht-degree: 92%
 
 Report Builder と List Builder を使用して、ビュー、フィルターおよびグループ化を作成することをお勧めします。ただし、テキストモードを使用してレポートやリストの内容を強化できる場合もあります。
 
-テキストモードは、Workfrontで以下を実現する場合に使用できます。
+Workfrontで次の操作を行う場合は、テキストモードを使用できます。
 
 * カスタムフォームで計算カスタムフィールドを作成します。\
   計算カスタムフィールドについて詳しくは、この記事の[計算カスタムフィールドでテキストモードを使用](#use-text-mode-in-calculated-custom-fields)の節を参照してください。
@@ -42,7 +44,7 @@ Report Builder と List Builder を使用して、ビュー、フィルターお
    * [フィルターでのテキストモードを使用](#use-text-mode-in-filters)
    * [グループ化でテキストモードを使用](#use-text-mode-in-groupings)
 
-* カスタムプロンプトを作成します。テキストモードを使用する場合のみ、カスタムプロンプトを作成できます。
+* カスタムプロンプトを作成します。カスタムプロンプトは、テキストモードを使用してのみ作成できます。
 
   カスタムプロンプトの作成について詳しくは、[レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)を参照してください。
 
@@ -50,9 +52,9 @@ Report Builder と List Builder を使用して、ビュー、フィルターお
 
 テキストモードを使用して、計算カスタムフィールドをカスタムフォームに追加できます。
 
-計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+計算されたカスタム フィールドをカスタム フォームに追加する方法について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
-テキストモードで計算カスタムフィールドを作成する方法について詳しくは、[&#x200B; 計算フィールドをフォームに追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+テキストモードで計算カスタムフィールドを作成する方法について詳しくは、[計算フィールドをフォームに追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
 例えば、項目が作業中とマークされた時点の日時スタンプを表示する計算カスタムフィールドを追加できます。この計算を他のステータスに使用できます。
 

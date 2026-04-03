@@ -1,11 +1,13 @@
 ---
-title: システム内の全員に対するイベント通知の設定
+title: システム内のすべてのユーザーに対するイベント通知の設定
 description: イベント通知は、特定のイベントが発生したときにユーザーにメールを送信します。Adobe Workfront 管理者またはプランナーのアクセスレベルを持つユーザーは、システム内のすべてのユーザーに対するイベント通知を設定できます。イベント通知の設定は、その設定の有効化と無効化で構成されます。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 86%
@@ -52,7 +54,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>リマインダ通知への管理アクセス権を持つプランナまたはそれ以上</p> </td> 
+   <td> <p>リマインダー通知への管理アクセス権を持つプランナー以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +74,7 @@ ht-degree: 86%
 
 1. **メール**／**通知**&#x200B;をクリックします。
 
-   ![&#x200B; 設定メールの通知領域 &#x200B;](assets/notifications-area-under-setup-emails.png)
+   ![設定メールの下の通知領域](assets/notifications-area-under-setup-emails.png)
 
 
 1. 「**イベント通知**」タブが開くことを確認します。
@@ -84,7 +86,7 @@ ht-degree: 86%
 
    メール通知の件名行のカスタマイズについて詳しくは、[イベント通知のメール件名をカスタマイズする](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)を参照してください。
 
-1. （オプション）メール通知の設定のロックを解除して、グループ管理者がグループごとに個別に設定できるようにする場合は、通知の右側にあるボタン ![&#x200B; ロック切り替え &#x200B;](assets/lock-toggle-button.png) をクリックして、ロック解除位置 ![&#x200B; ロック解除切り替え &#x200B;](assets/unlock-toggle-button.png) に切り替えます。
+1. （オプション）メール通知の設定をロック解除して、グループ管理者が自分のグループに対して個別に設定できるようにするには、通知の右側にある「![ ロック切り替え](assets/lock-toggle-button.png)」ボタンをクリックして、ロック解除された位置「![ ロック解除](assets/unlock-toggle-button.png)」に切り替えます。
 
    詳しくは、[すべてのグループに対するイベント通知の設定をロックまたはロック解除](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)を参照してください。
 

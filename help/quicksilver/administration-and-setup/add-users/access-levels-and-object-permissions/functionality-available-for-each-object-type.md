@@ -4,20 +4,22 @@ content-type: reference
 product-area: system-administration
 keywords: アクセス, モデル, ファネル, ダイアグラム, レベル, 権限
 navigation-topic: access-levels
-title: 様々なアクセスレベルの各オブジェクトタイプで使用可能な機能（レガシー）
+title: 様々なアクセスレベル（レガシー）の各オブジェクトタイプで使用できる機能
 description: 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 57632f1949e849aca3f26874382f1101b9b0cf89
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 93%
 
 ---
 
-# 様々なアクセスレベルの各オブジェクトタイプで使用可能な機能（レガシー）
+# 様々なアクセスレベルで各オブジェクトタイプで使用できる機能（レガシー）
 
 >[!NOTE]
 >
@@ -29,7 +31,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->この記事では、現在のWorkfront パッケージモデルのアクセスレベルで使用できる機能について説明します。 新しいパッケージモデルで使用可能な機能を確認するには、[&#x200B; 新しいアクセスレベルの各オブジェクトタイプで使用可能な機能 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) を参照してください。
+>この記事では、現在のWorkfront パッケージモデルのアクセスレベルで利用できる機能について説明します。 新しいパッケージモデルで使用可能な機能を確認するには、[新しいアクセスレベルの各オブジェクトタイプで使用可能な機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)を参照してください。
 
 ## プロジェクト
 
@@ -363,7 +365,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td>任意のユーザーの編集、削除、非アクティブ化、ログイン、またはパスワードのリセット</td> 
-   <td>✓*<p><b> 注意 </b>：システム管理者のユーザーとしてログインすることはできません。</p></td> 
+   <td>✓*<p><b> メモ </b>: システム管理者であるユーザーはログインできません。</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -371,7 +373,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td>管理グループ内のユーザーの編集、削除、非アクティブ化、ログイン、またはパスワードのリセット</td> 
-   <td>✓*<p><b> 注意 </b>：システム管理者のユーザーとしてログインすることはできません。</p></td> 
+   <td>✓*<p><b> メモ </b>: システム管理者であるユーザーはログインできません。</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -524,7 +526,7 @@ ht-degree: 93%
 |---|---|---|---|---|---|
 | プランナー内の優先度と予算計上時間数を編集します | ✓&#42; |  |  |  |  |
 | リソースプールの作成、編集、削除&#42;&#42; | ✓&#42; |  |  |  |  |
-| ワークロードバランサーの予定時間数を更新する &#42;&#42;&#42; | ✓* |  |  |  |  |
+| ワークロードバランサー&#42;&#42;&#42;の予定時間数の更新 | ✓* |  |  |  |  |
 | リソースプランナーでのプロジェクトの優先度の表示 | ✓&#42; |  |  |  |  |
 | リソース計画ツールでのリソース配分の表示 | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
 | リソースプールの表示 | ✓&#42; | ✓&#42; | ✓&#42; |  |  |
@@ -547,7 +549,7 @@ ht-degree: 93%
 | プランとイニシアチブに関する担当業務情報の追加または編集&#42; | ✓ | ✓ | ✓ |  |  |
 | プランとイニシアチブに関するコスト情報を追加または編集&#42; | ✓ | ✓ | ✓ |  |  |
 | プランとイニシアチブの削除 | ✓ | ✓ | ✓ |  |  |
-| メインメニューでシナリオを表示 ![&#x200B; シナリオプランナーアイコン &#x200B;](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |  |
+| メインメニューでのシナリオの表示![ シナリオプランナーアイコン ](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |  |
 | ユーザーが作成したプランとイニシアチブの表示&#42; | ✓ | ✓ | ✓ |  |  |
 
 {style="table-layout:auto"}

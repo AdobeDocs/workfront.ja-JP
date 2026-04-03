@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 48%
@@ -20,47 +22,47 @@ ht-degree: 48%
 
 
 
-## 割り当ての提案に関するルックアンドフィールの更新
+## 課題の提案に関するルックアンドフィールの更新
 
 >[!NOTE]
 >
 >プレビューリリース：2024年4月30日（PT）。迅速リリース用の実稼動版：24.5 リリース（2024年5月16日（PT））。四半期リリース用の実稼動版：24.7 リリース（2024年7月18日（PT））
 
-割り当て提案リストを、Workfrontのすべての領域で一貫した、より現代的なデザインに更新しました。 ヘッダー、リスト表示または詳細割り当て画面からタスクまたは問題に割り当てを追加した場合、エクスペリエンスは同じです。 提案はセクションに分かれているので、割り当てに適した人物、チーム、担当業務をすばやく見つけることができます。
+「割り当て候補」リストを更新し、Workfrontのあらゆる領域で一貫性のある、より現代的なデザインに変更しました。 ヘッダー、リスト表示、または詳細割り当て画面からタスクまたはイシューに割り当てを追加すると、エクスペリエンスは同じです。 提案はセクションに分かれており、割り当ての適切な人物、チーム、または担当業務をすばやく見つけるのに役立ちます。
 
-詳しくは、[&#x200B; タスクの割り当て &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)、[&#x200B; イシューの割り当て &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) および [&#x200B; 高度な割り当ての作成 &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md) を参照してください。
+詳しくは、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)、[課題の割り当て](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)、[高度な割り当ての作成](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
-## ドキュメント詳細のカスタムフォームのルックアンドフィールの更新
-
->[!NOTE]
->
->プレビューリリース：2024年4月29日（PT）。迅速リリース用の実稼動版：24.5 リリース（2024年5月16日（PT））。四半期リリース用の実稼動版：24.7 リリース（2024年7月18日（PT））
-
-ドキュメントの詳細/ カスタム Forms ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。 ページでは、外部検索フィールドなどの高度なカスタムフォーム機能がサポートされるようになりました。
-
-詳しくは、[&#x200B; ドキュメントの詳細の概要 &#x200B;](/help/quicksilver/documents/managing-documents/document-details-overview.md) を参照してください。
-
-## イテレーションの詳細に関するカスタムフォームのルックアンドフィールの更新
+## ドキュメントの詳細に関するカスタムフォームのルックアンドフィールの更新
 
 >[!NOTE]
 >
 >プレビューリリース：2024年4月29日（PT）。迅速リリース用の実稼動版：24.5 リリース（2024年5月16日（PT））。四半期リリース用の実稼動版：24.7 リリース（2024年7月18日（PT））
 
-イテレーションの詳細/ カスタム Forms ページを更新して、Workfrontの他の領域と一致する、より現代的なデザインに変更しました。 ページでは、外部検索フィールドなどの高度なカスタムフォーム機能がサポートされるようになりました。
+ドキュメントの詳細/カスタム Forms ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。 ページで、外部ルックアップフィールドなどの高度なカスタムフォーム機能がサポートされるようになりました。
 
-詳しくは [&#x200B; 反復でのアジャイルストーリーの作成 &#x200B;](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md) を参照してください。
+詳しくは、[ ドキュメントの詳細の概要](/help/quicksilver/documents/managing-documents/document-details-overview.md)を参照してください。
 
-## 「グループ」領域のルックアンドフィールの更新
+## イテレーションの詳細に関するカスタムフォームのルックアンドフィール更新
+
+>[!NOTE]
+>
+>プレビューリリース：2024年4月29日（PT）。迅速リリース用の実稼動版：24.5 リリース（2024年5月16日（PT））。四半期リリース用の実稼動版：24.7 リリース（2024年7月18日（PT））
+
+イテレーションの詳細/カスタム Forms ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。 ページで、外部ルックアップフィールドなどの高度なカスタムフォーム機能がサポートされるようになりました。
+
+詳しくは、[反復でのアジャイルストーリーの作成](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)を参照してください。
+
+## グループ領域のルックアンドフィールの更新
 
 >[!NOTE]
 >
 >プレビューリリース：2024年4月18日（PT）。迅速リリース用の実稼動版：24.5 リリース（2024年5月16日（PT））。四半期リリース用の実稼動版：24.7 リリース（2024年7月18日（PT））
 
-設定/ グループ エリアの主なグループ リストを、Workfrontの他のエリアと一致する、より現代的なデザインに更新しました。 グループやサブグループのすべてのダイアログ（追加、編集、コピー、ディアクティベート、削除）は、グループ リストでアクセスしても、特定のグループやサブグループの詳細メニューでアクセスしても、デザインが更新されます。
+設定/グループ領域のメイングループリストを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。 グループおよびサブグループのすべてのダイアログ（追加、編集、コピー、非アクティブ化、削除）には、特定のグループまたはサブグループの「グループ」リストまたは「その他」メニューからアクセスしても、デザインが更新されます。
 
-詳しくは、[&#x200B; グループの作成 &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) および [&#x200B; グループの管理 &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md) を参照してください。
+詳しくは、[ グループの作成](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)および[ グループの管理](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)を参照してください。
 
-## 為替レートリストのルックアンドフィールの更新
+## 為替レート リストのルックアンドフィールの更新
 
 >[!NOTE]
 >

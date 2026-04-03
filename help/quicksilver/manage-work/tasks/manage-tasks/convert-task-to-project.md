@@ -1,12 +1,14 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: タスクのプロジェクトへの変換
+title: タスクをプロジェクトに変換
 description: プロジェクト内のタスクを完了するために必要な労力が当初の予定よりも多い場合、タスクをプロジェクトに変換できます。
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 80%
@@ -15,13 +17,15 @@ ht-degree: 80%
 
 # タスクをプロジェクトに変換
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 プロジェクト内のタスクを完了するために必要な労力が当初の予定よりも多い場合、タスクをプロジェクトに変換できます。
 
@@ -44,7 +48,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p>テンプレートを使用してプロジェクトに変換する際の、テンプレートへの表示以上のアクセス</p> </td> 
+   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p>テンプレートを使用してプロジェクトに変換する際に、テンプレートへのアクセス権を表示または高くする</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -57,7 +61,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +85,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <td> <p>Manage permissions to a task</p> <p>View permissions on a template, if converting to a project using a template</p> <p>After creating the project, you have Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## タスクをプロジェクトに変換する際の考慮事項
 
@@ -88,9 +94,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 元のタスクが削除されます。
 * すべてのサブタスク、イシュー、メモは、新規プロジェクトにまとめられます。
 * ドキュメント、ドキュメントのバージョンおよびプルーフは、新規プロジェクトに移動されます。
-* タスクをプロジェクトに変換する場合、処理の制限は 5 分です。 タスクに多数のドキュメントが添付されていて、変換に失敗した場合は、一部のドキュメントを削除して、もう一度試す必要がある可能性があります。
+* タスクをプロジェクトに変換する場合、5分間の処理制限があります。 タスクに多数のドキュメントが添付されていて、変換できない場合は、一部のドキュメントを削除して、もう一度試す必要がある場合があります。
 * すべてのサブタスクとイシューのステータスと完了率は保持されます。
-* タスクの担当者と、タスクをプロジェクトに変換したユーザーは、プロジェクトの共有ユーザーになります。
+* タスクを割り当てたユーザーと、タスクをプロジェクトに変換したユーザーは、プロジェクトで共有ユーザーになります。
 * プロジェクトの開始日は、タスクの開始日に設定されます。
 * 次の表では、プロジェクト情報およびその情報がテンプレートから転送されるかまたはタスクから転送されるかを示します。
 
@@ -199,26 +205,26 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 ## タスクをプロジェクトに変換
 
 1. プロジェクトに変換するタスクに移動します。
-1. **その他** アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**プロジェクトに変換** をクリックします。
+1. **詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックしてから、**プロジェクトに変換**&#x200B;します。
 1. 次のいずれかのオプションを選択します。
 
-   * **新規プロジェクト**：テンプレートを使用せずにプロジェクトを作成します。
+   * テンプレートを使用せずにプロジェクトを作成するには、**新しいプロジェクト**
    * 「**テンプレートから選択**」セクションのテンプレート
 
-     ![&#x200B; タスクをプロジェクトテンプレートに変換オプション ドロップダウンメニュー &#x200B;](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![ タスクをプロジェクトテンプレートに変換オプション ドロップダウンメニュー](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. 表示される通知で「**続行**」をクリックします。
 1. **プロジェクトに変換**&#x200B;ボックスで、次の情報を指定します。
 
    * **名前**：プロジェクトに名前を付けます。デフォルト名はタスクの名前です。 必須フィールドです。
    * **説明**：このプロジェクトの目的を説明します。
-   * （条件付き）テンプレートからプロジェクトを作成することを選択した場合は、「**プロジェクトに変換**」ボックスの使用可能なフィールドを更新します。
+   * （条件付き）テンプレートからプロジェクトを作成することを選択した場合は、**プロジェクトに変換** ボックスの使用可能なフィールドを更新します。
 
      プロジェクトのフィールドの編集について詳しくは、[プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
      >[!TIP]
      >
-     >「プロジェクトに変換」ボックスの「財務」セクションのフィールドを更新するには、アクセスレベルの財務データに対する編集アクセス権が必要です。 アクセスレベルで財務データへの表示アクセス権を持っている場合、テンプレートからのすべての財務情報は新しいプロジェクトに転送され、問題を変換している間は編集できません。 詳しくは、[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)および[テンプレートの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
+     >「プロジェクトに変換」ボックスの「財務」セクションのフィールドを更新するには、アクセスレベルで「財務データの編集」アクセス権が必要です。 アクセスレベルで財務データへの表示アクセス権がある場合、テンプレートからのすべての財務情報が新しいプロジェクトに転送され、問題の変換中に編集することはできません。 詳しくは、[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)および[テンプレートの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
 
    * （オプション）**カスタムフォーム**&#x200B;を新規プロジェクトに追加します。
 
@@ -227,6 +233,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
      >タスクに添付された複数オブジェクトのカスタムフォームをタスクとプロジェクトの両方で使用するように設定すると、フォームに保存されたすべての情報が変換時に保持されます。
      >
      >
-     >変換用のテンプレートを使用していて、テンプレートに添付されたカスタムフォームに、タスクに添付されたカスタムフォームにもカスタムフィールドが含まれている場合は、タスクのフィールド値が新規プロジェクトで使用されます。ただし、タスクのカスタムフィールドが空の場合は、テンプレートの値が使用されます。
+     >変換用のテンプレートを使用していて、テンプレートに添付されたカスタムフォームに、タスクに添付されたカスタムフォームにもカスタムフィールドが含まれている場合は、タスクのフィールド値が新規プロジェクトで使用されます。ただし、タスクでカスタムフィールドが空の場合は、テンプレートの値が使用されます。
 
-1. **プロジェクトに変換** をクリックします。
+1. 「**プロジェクトに変換**」をクリックします。

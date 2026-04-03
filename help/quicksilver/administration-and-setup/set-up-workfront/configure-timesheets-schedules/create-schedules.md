@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +21,8 @@ ht-degree: 98%
 
 <!--Audited: 01/2024-->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 Linked to Editing Users, Editing Projects, Creating and managing groups
 -->
 
@@ -44,7 +47,7 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
  <col> 
  <tbody> 
   <tr> 
-   <td>[!DNL Adobe Workfront] package</td> 
+   <td>[!DNL Adobe Workfront] パッケージ</td> 
    <td><p>任意</p></td> 
   </tr> 
   <tr> 

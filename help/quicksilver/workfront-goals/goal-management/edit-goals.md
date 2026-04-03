@@ -1,12 +1,14 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals で目標を編集する
+title: Adobe Workfront Goalsでの目標の編集
 description: 既存の目標を、任意の期間およびステータスで編集できます。
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 85%
@@ -38,7 +40,7 @@ ht-degree: 85%
  <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p><p><b>メモ</b></p>
+   <p>Adobe Workfront Ultimate</p><p><b>メモ</b></p>
 <p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr>
@@ -62,7 +64,7 @@ ht-degree: 85%
  </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの「目標」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
@@ -72,7 +74,8 @@ ht-degree: 85%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -124,7 +127,8 @@ ht-degree: 85%
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## 目標の編集に関する考慮事項
 
@@ -199,12 +203,12 @@ Editing goals differs depending on what environment you use.
 1. 目標をクリックします。\
    目標ページが表示されます。
 
-   ![&#x200B; 目標ページ &#x200B;](assets/goal-page-unshimmed.png)
+   ![目標ページ ](assets/goal-page-unshimmed.png)
 
 1. 目標の情報を編集するには、次のいずれかを行います。
    * 目標ヘッダーに表示されるフィールドをクリックして更新します。ヘッダーの一部のフィールドは編集できません。
-   * 目標名の右側にある **その他のアイコン**![&#x200B; その他のアイコン &#x200B;](assets/more-icon.png) をクリックし、**編集** をクリックします。
-   * 左側のパネルで **目標の詳細** をクリックし、右上隅の **編集アイコン**![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、**すべて編集** をクリックします。 「目標の詳細」セクションのフィールドを更新します。
+   * 目標名の右側にある&#x200B;**詳細アイコン** ![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
+   * 左側のパネルで&#x200B;**目標の詳細**&#x200B;をクリックし、右上隅の&#x200B;**編集アイコン** ![編集アイコン ](assets/edit-icon.png)をクリックしてから、**すべてを編集**&#x200B;をクリックします。 「目標の詳細」セクションのフィールドを更新します。
 
      >[!IMPORTANT]
      >

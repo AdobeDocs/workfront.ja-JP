@@ -1,12 +1,14 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals で目標を作成する
+title: Adobe Workfront Goalsでの目標の作成
 description: CEO、マネージャー、または個人の投稿者であっても、Adobe Workfront Goals で目標を作成し、自分の作業を、自分の目標や組織の戦略を概略化した目標に合わせることができます。
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 93%
@@ -38,7 +40,7 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
  <tr>
   <td> <p>Adobe Workfront パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p><p><b>メモ</b></p>
+   <p>Adobe Workfront Ultimate</p><p><b>メモ</b></p>
 <p>別のWorkfront パッケージをお持ちの場合は、Workfront担当者にお問い合わせください。</p>
    </td> 
   </tr>
@@ -62,7 +64,7 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
  </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>システム管理者を含むすべてのユーザーには、メインメニューの「目標」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>
@@ -72,7 +74,8 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto">
 <col>
@@ -125,7 +128,8 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## 目標作成のガイドライン
 
@@ -228,7 +232,7 @@ Creating goals differs depending on what environment you use.
 
    「新しい目標」ボックスが表示されます。
 
-   ![&#x200B; 新しい目標ボックス &#x200B;](assets/new-goal-box-unshimmed.png)
+   ![新しい目標ボックス ](assets/new-goal-box-unshimmed.png)
 
 1. 次のフィールドに情報を入力します。
    * **目標名**：目標の名前を入力します。必須フィールドです。

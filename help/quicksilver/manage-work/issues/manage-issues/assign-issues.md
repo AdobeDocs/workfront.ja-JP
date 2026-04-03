@@ -7,10 +7,12 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 74%
+ht-degree: 75%
 
 ---
 
@@ -18,13 +20,15 @@ ht-degree: 74%
 
 <!--Audited: 10/2024-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 ユーザー、役割、およびチームにイシューを割り当てて、イシューの完了担当者を指定できます。イシューの割り当てについて一般的な情報については、[イシューの割り当ての変更についての概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)を参照してください。
 
@@ -49,7 +53,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1 つまたは複数のリソースに個々のイシューレベルでイシューを割り当てたり、複数のリソースを複数のイシューに一度に割り当てたりできます。
 
-問題とタスクの割り当ては、Adobe Workfrontと似ています。 タスクの割り当てに関する一般情報については、[タスクの割り当て変更の概要](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)を参照してください。
+Adobe Workfrontでのイシューとタスクの割り当ては似ています。 タスクの割り当てに関する一般情報については、[タスクの割り当て変更の概要](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -65,16 +69,16 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td> <p>投稿者以上</p>
+   <td> <p>コントリビューター以上</p>
    <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td> <p>イシューへのアクセス権を編集</p> <p>プロジェクトおよびタスクへの表示以上のアクセス権を持ち、1 つの問題を割り当てる</p> </td> 
+   <td> <p>イシューへのアクセス権を編集</p> <p>1つの問題を割り当てるためのプロジェクトとタスクへの表示以上のアクセス</p> </td> 
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 
-   <td> <p>イシューに対する権限の管理</p> <p> 1 つのイシューを割り当てる際に、イシューが存在するプロジェクトまたはタスクへの権限以上を表示する</p><p>複数のイシューを割り当てる場合は、イシューが存在するプロジェクトまたはタスクに対する権限以上を投稿します。</p> </td> 
+   <td> <p>イシューに対する権限の管理</p> <p> 1つのイシューを割り当てるときに、イシューが配置されているプロジェクトまたはタスクに対する権限以上を表示します</p><p>複数のイシューを割り当てる場合、イシューが配置されているプロジェクトまたはタスクに対して権限を割り当てるか、それ以上の権限を割り当てます。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,7 +118,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-## イシューヘッダーで 1 つのイシューを割り当てる
+## イシューヘッダーで1つのイシューを割り当てる
 
 1. 割り当てる問題に移動します。
 1. **割り当て**&#x200B;エリアのイシューヘッダーの右上隅にある「**割り当て先**」をクリックします。
@@ -123,15 +127,15 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    イシューが既に割り当てられている場合は、現在の割り当ての名前をクリックします。
 
-   ![&#x200B; 割り当て先ボタン &#x200B;](assets/assign-to-button-in-header.png)
+   ![ ボタンに割り当て](assets/assign-to-button-in-header.png)
 
 1. 次のいずれかの操作を行います。
 
    * 割り当てるユーザー、役割、またはチームの名前を入力し、リストに表示されたらクリックします。
 
-     ![&#x200B; 割り当て検索 &#x200B;](assets/smart-assignments-issue-header.png)
+     ![割り当て検索](assets/smart-assignments-issue-header.png)
 
-   * （条件付き）使用可能なリストの名前、役割、チームのいずれかをクリックします
+   * （条件付き）使用可能なリストの名前、役割、またはチームのいずれかをクリックします
    * 「**自分に割り当て**」をクリックして、自分に割り当てる
    * 「**詳細**」をクリックします。
 
@@ -146,16 +150,18 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
      >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
      >
 
-     <!-- this doesn't apply to issues; if it does, add this to the TIP above: 
-      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
+     <!--
+       this doesn't apply to issues; if it does, add this to the TIP above: 
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+      -->
 
 
 1. 「**保存**」をクリックして、イシューの割り当てを完了します。
-1. （任意）イシューのヘッダーにある「割り当て」領域で、割り当ての名前の横にある **X** アイコンをクリックして、割り当てを削除します。
+1. （オプション）問題のヘッダーの「割り当て」エリアで、割り当ての名前の横にある&#x200B;**X アイコン**&#x200B;をクリックして、割り当てを削除します。
 
-## リスト内でインライン編集して問題を割り当てる
+## リストでインライン編集してイシューを割り当てる
 
-いずれかの割り当てフィールドがリストの表示に示されている場合、リストまたはレポート内のイシューを割り当てることができます。この方法を使用すると、イシューをより迅速に割り当てることができます。
+いずれかの割り当てフィールドがリストの表示に示されている場合、リストまたはレポート内のイシューを割り当てることができます。これは、問題を割り当てるための迅速な方法です。
 
 表示に示されるフィールドに応じて、イシューに以下のエンティティを割り当てることができます。
 
@@ -172,11 +178,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    * 「**割り当て先**」または「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザーの名前の入力を開始し、リストに表示されたらクリックします。
 
-     ![&#x200B; 割り当て先フィールド &#x200B;](assets/assigned-to-field-task-list-nwe.png)
+     ![ フィールドに割り当て](assets/assigned-to-field-task-list-nwe.png)
 
    * 「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザー、担当業務、またはアクティブなチームの名前の入力を開始し、リストに表示されたらクリックします。
 
-     ![&#x200B; 割り当てフィールド &#x200B;](assets/assignments-field-0825.png)
+     ![割り当てフィールド ](assets/assignments-field-0825.png)
 
    >[!TIP]
    >
@@ -186,7 +192,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >
    >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
-1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン** ![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、「詳細な割り当て」ボックスを開き、詳細な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
+1. （条件付き）割り当てフィールドで、リストの下部にある&#x200B;**詳細**&#x200B;をクリックするか、割り当てボックスの右上隅にある&#x200B;**人物アイコン** ![人物アイコン ](assets/teams.png)をクリックして、「詳細な割り当て」ボックスを開き、高度な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
    >[!TIP]
    >
@@ -194,11 +200,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. イシューに担当者を追加した後、Enter キーを押すか、ページ上の任意の場所をクリックして、変更を保存します。
 
-## イシューを編集ボックスでのイシューの割り当て
+## 「イシューを編集」ボックスでイシューを割り当てる
 
-イシューは、「イシューを編集」ボックスで編集するときに割り当てることができます。
+イシューを編集ボックスでイシューを編集するときに、イシューを割り当てることができます。
 
-詳しくは、「イシューの編集 [&#x200B; の「割り当て &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) の節を参照してください。
+詳しくは、[問題の編集](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)の「割り当て」の節を参照してください。
 
 ## 一括でイシューを割り当てる
 
@@ -238,25 +244,25 @@ Assigning issues in bulk is different depending on what environment you choose t
 
 1. 一括で割り当てるイシューのリストに移動します。
 1. リストから複数のイシューを選択します。
-1. **編集アイコン**![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
+1. **編集アイコン** ![編集アイコン ](assets/qs-edit-icon.png)をクリックします。
 
    **イシューを編集**&#x200B;ダイアログボックスが開きます。
 
-1. 左側のパネルの **割り当て** をクリックし、**割り当て** 領域の **ユーザー、役割、またはチームを検索** フィールドにユーザー、役割、またはチームの名前を入力し始め、リストに表示されたらクリックします
+1. 左側のパネルの&#x200B;**割り当て**&#x200B;をクリックし、**割り当て**&#x200B;領域で、**人、役割、またはチームを検索** フィールドにユーザー、役割、またはチームの名前を入力し始め、リストに表示されたらクリックします
 
    または
 
-   「**自分に割り当て**」をクリックして、イシューを自分に割り当てます。
+   「**自分に割り当て**」をクリックして、自分に問題を割り当てます。
 
    >[!IMPORTANT]
    >
    >イシューが既に割り当てられている場合、ここに指定したリソースは、イシュー上の既存のリソースを置き換える代わりに、イシューに追加されます。
 
-1. （任意）既存の担当者をすべてのイシューから削除する場合は、名前の横にある **x** をクリックします。
+1. （オプション）すべての問題から既存の担当者を削除する場合は、名前の横にある&#x200B;**x**&#x200B;をクリックします。
 
-1. （任意）「予定時間数 **」フィ** ルドを更新します。 詳しくは、[&#x200B; イシューの編集 &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) を参照してください。
+1. （オプション） P **予定時間数** フィールドを更新します。 詳しくは、[問題の編集](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)を参照してください。
 
 1. 「**保存**」をクリックします。
-1. （オプションおよび条件付き）問題のリストに **割り当て先** または **割り当て** フィールドが表示されたら、問題に関するこれらの列の 1 つ内をクリックしてから、担当者の名前の横にある **X アイコン** をクリックして、問題から削除します。
+1. （オプションおよび条件付き）課題のリストに「**割り当て先**」または「**割り当て**」フィールドが表示されたら、課題の列の1つをクリックし、担当者の名前の横にある&#x200B;**X アイコン**」をクリックして課題から削除します。
 
 

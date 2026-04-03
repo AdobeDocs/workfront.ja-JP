@@ -1,25 +1,28 @@
 ---
-title: AI アシスタントで計算フィールドの数式を修正する
+title: AI アシスタントを使用した計算フィールド数式の修正
 content-type: reference
-description: AI アシスタントを使用して、計算フィールドの無効なカスタム式に含まれるエラーを解決できます。
+description: AI アシスタントを使用して、計算フィールドの無効なカスタム式のエラーを解決できます。
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# AI アシスタントで計算フィールドの数式を生成または変更する
+# AI アシスタントを使用して計算フィールドの数式を生成または修正
 
 >[!IMPORTANT]
 >
 >AI アシスタントを使用して数式を生成する機能がAdobe Workfrontから削除されました。
 
 
-<!-- You can use AI Assistant to generate formulas based on a prompt you provide. You can also resolve errors in your invalid custom expressions in calculated fields.
+<!--
+ You can use AI Assistant to generate formulas based on a prompt you provide. You can also resolve errors in your invalid custom expressions in calculated fields.
 
 
 ## Access requirements 
@@ -54,9 +57,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-<!--## Generate a calculated field expression-->
+## Generate a calculated field expression
 
-<!-- ## Revise a calculated field expression
+## Revise a calculated field expression
 
 When you are creating the calculated field in the custom form builder, an error message appears under the field if the formula is invalid.
 

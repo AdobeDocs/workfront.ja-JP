@@ -8,7 +8,9 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 85%
@@ -68,7 +70,7 @@ ht-degree: 85%
 
 ## 従来のドキュメント領域でのドキュメントの一括編集
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Adobe エンタープライズストレージと従来のWorkfront ストレージの違い &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage) を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Adobe エンタープライズストレージと従来のWorkfront ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)を参照してください。
 
 ドキュメントを一括編集するには：
 
@@ -95,24 +97,24 @@ ht-degree: 85%
     </table>
 1. 「**保存**」をクリックします。
 
-## 新しいドキュメント エリアでドキュメントを一括編集する
+## 新規ドキュメント領域でドキュメントを一括編集する
 
 
-エンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ドキュメントを一括編集するには：
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. キーボードの Ctrl キーまたは Cmd キーを押し、編集するドキュメントを選択します。
-1. ページ下部の「編集」をクリックします。
-   ![&#x200B; 複数ドキュメントの編集 &#x200B;](assets/bulk-edit-documents.png)
+1. ページの下部にある「編集」をクリックします。
+   ![複数のドキュメントを編集](assets/bulk-edit-documents.png)
 1. （オプション）**説明**&#x200B;を追加または編集します。各ドキュメントの説明が異なる場合は、「説明」ボックスに&#x200B;_複数の値_&#x200B;が表示されます。すべてのドキュメントに同じ説明を追加できますが、一括編集時に個々のドキュメントの説明を編集できません。
 1. カスタムフォームで次の変更を行います。
 
    <table>
     <tr>
     <td><strong>フォームの追加</strong></td>
-    <td>「<strong> カスタムフォーム </strong>」セクションでは、選択したドキュメントに新しいカスタムフォームを追加できます。 選択したすべてのドキュメントに添付されたカスタムフォームが、「<strong> 共通のカスタムフォーム </strong> セクションに表示されます。  </td>
+    <td>「<strong> カスタムフォーム </strong>」セクションで、選択したドキュメントに新しいカスタムフォームを追加できます。 選択したすべてのドキュメントに添付されたカスタムフォームは、<strong>共通のカスタムフォーム </strong> セクションに表示されます。  </td>
     </tr>
     <tr>
     <td><strong>フォームの編集</strong></td>

@@ -2,12 +2,14 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: 'ボードの早期機能オプトイン  [!DNL Workfront] '
+title: ' [!DNL Workfront]  ボードの早期機能オプトイン'
 description: この記事では、 [!DNL Workfront Boards]  の初期の機能オプトインについて説明します。
 author: Courtney
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 99%
@@ -214,7 +216,7 @@ ht-degree: 99%
 
 [!DNL Workfront] 管理者がボードの早期機能を有効にすると、組織内のすべてのユーザーがオプトインします。
 
-ただし、[!DNL Workfront] 管理者は、レイアウトテンプレートを使用して、個々のユーザーまたはグループに対し、[!UICONTROL &#x200B; メインメニュー]で「ボード」オプションを非表示にできます。詳しくは、[レイアウトテンプレートを使用して[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
+ただし、[!DNL Workfront] 管理者は、レイアウトテンプレートを使用して、個々のユーザーまたはグループに対し、[!UICONTROL  メインメニュー]で「ボード」オプションを非表示にできます。詳しくは、[レイアウトテンプレートを使用して[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
 >[!NOTE]
 >

@@ -1,16 +1,18 @@
 ---
 product-area: workfront-integrations
-keywords: adobe、box、dropbox、microsoft、sharepoint、slack、webdam、zoom
+keywords: adobe,box,dropbox,microsoft,sharepoint,slack,webdam,zoom
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront のビルトインの統合の概要
 description: ' [!DNL Adobe Workfront]  をサードパーティのアプリケーションと統合できます。これらの統合により、 [!DNL Workfront]  のユーティリティを拡張し、これを組織のニーズに合わせて調整できます。例えば、マーケティング業界のクリエイティブワーカーの場合、Adobe Creative Cloud アドインを使用して、Photoshop から Workfront に直接アセットを書き出すことができます。'
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 79%
+ht-degree: 99%
 
 ---
 
@@ -43,18 +45,18 @@ ht-degree: 79%
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
+     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
      <p>詳細情報と手順について詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Experience Manager Assetsと Assets Essentials </p>  </p> </td> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets と Assets Essentials </p>  </p> </td> 
    <td> 
     <ul> 
-     <li>WorkfrontとAdobe Experience Managerの間でリンクされたフォルダーを自動的に作成 
-      <li>既存のリンクされたアセットのメタデータの同期</p></li>
-      <li>Workfrontで変更された場合、ポートフォリオ、プログラム、プロジェクト、タスク、問題、ドキュメントのメタデータを自動的に更新します。</li>
-      <li>複数の Experience Manager Assets リポジトリを 1 つの Workfront 環境に、または複数の Workfront 環境を組織 ID をまたいで 1 つの Experience Manager Assets リポジトリにスムーズに接続できます。</li></ul>
-     <p>詳細と手順については、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets統合の概要 </a> を参照してください</p> 
+     <li>Workfront と Adobe Experience Manager 間でリンクされたフォルダーを自動的に作成 
+      <li>既存のリンクされたアセットのメタデータを同期</p></li>
+      <li>Workfront で変更されたときに、ポートフォリオ、プログラム、プロジェクト、タスク、イシュー、ドキュメントのメタデータを自動的に更新</li>
+      <li>複数の Experience Manager Assets リポジトリを 1 つの Workfront 環境に、または複数の Workfront 環境を組織 ID をまたいで 1 つの Experience Manager Assets リポジトリにスムーズに接続します。</li></ul>
+     <p>詳細と手順について詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets 統合の概要</a>を参照してください。</p> 
      </td>
   </tr> 
   <tr> 
@@ -78,13 +80,15 @@ ht-degree: 79%
      <li>ドキュメントとフォルダーのリンク先 [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td role="rowheader">Microsoft Calendars (Office 365 / Outlook Live)</td> 
    <td> 
     <ul> 
      <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p>
     </ul> </td> 
-  </tr>-->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader"> <p>Microsoft OneDrive</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -92,7 +96,8 @@ ht-degree: 79%
      <li>ドキュメントとフォルダーのリンク先 [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td role="rowheader"> <p>Microsoft Outlook</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
@@ -101,9 +106,10 @@ ht-degree: 79%
      <li>Create new tasks from an email </li> 
      <li>Comment on [!DNL Workfront] items </li> 
     </ul> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b> 注意 </b>:2025 年 7 月 1 日をもって、Microsoftは Classic Teams デスクトップアプリのサポートを終了します。 その結果、Classic Teams デスクトップアプリが使用できなくなると、WorkfrontとMicrosoft Teamsの統合はサポートされなくなります。 </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>メモ</b>：Microsoft は、2025年7月1日（PT）をもって Classic Teams デスクトップアプリのサポートを終了します。この結果、Classic Teams デスクトップアプリが使用できなくなると、Workfront とMicrosoft Teams の統合もサポートされなくなります。 </p> </td> 
    <td> 
     <ul> 
      <li>[!DNL Microsoft Teams] で [!DNL Workfront] 通知を受信 </li> 

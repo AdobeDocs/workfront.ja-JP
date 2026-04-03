@@ -2,12 +2,14 @@
 content-type: overview
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: シナリオプランナーのイニシアチブの概要
+title: シナリオプランナーでのイニシアチブの概要
 description: シナリオプランナーは、新しい Adobe Workfront エクスペリエンスでのみ使用でき、追加のライセンスが必要です。Workfront シナリオプランナーについて詳しくは、シナリオプランナーの概要を参照してください。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 99%
@@ -16,7 +18,7 @@ ht-degree: 99%
 
 # [!DNL Scenario Planner] のイニシアチブの概要
 
-ビジネスマネージャーとして、[!DNL Adobe Workfront Scenario Planner] でのプランのイニシアチブを作成できます。プランの作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) でのプランの作成および編集の記事を参照してください。
+ビジネスマネージャーとして、[!DNL Adobe Workfront Scenario Planner] でのプランのイニシアチブを作成できます。プランの作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) でのプランの作成および編集の記事を参照してください。
 
 ## イニシアチブの概要
 
@@ -26,7 +28,7 @@ ht-degree: 99%
 * イニシアチブの完了に必要な作業に関連する固定コストを見積もります。
 * イニシアチブが完了する際に会社が得る可能性のある予定利益を見積もります。
 
-イニシアチブに関する情報を表示するには、プラン内の個々のイニシアチブにアクセスできます。イニシアチブの作成とアクセスについて詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) のイニシアチブの作成および編集の記事を参照してください。
+イニシアチブに関する情報を表示するには、プラン内の個々のイニシアチブにアクセスできます。イニシアチブの作成とアクセスについて詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) のイニシアチブの作成および編集の記事を参照してください。
 
 ## イニシアチブに関する考慮事項
 
@@ -35,9 +37,9 @@ ht-degree: 99%
 * イニシアチブを作成する前に、プランを作成する必要があります。
 * イニシアチブを最初から作成したり、プランにプロジェクトを読み込んだりできます。プロジェクトはプラン内のイニシアチブになります。
 
-  最初からイニシアチブを作成する方法について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でのイニシアチブの作成および編集を参照してください。
+  最初からイニシアチブを作成する方法について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でのイニシアチブの作成および編集を参照してください。
 
-  プランにプロジェクトを読み込んで、プロジェクトからイニシアチブを作成する方法について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) でプランにプロジェクトを読み込むを参照してください。
+  プランにプロジェクトを読み込んで、プロジェクトからイニシアチブを作成する方法について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) でプランにプロジェクトを読み込むを参照してください。
 
 * イニシアチブはプランよりも小さい計画単位でプランの一部としてのみ作成されます。
 * イニシアチブの最短期間は 1 か月です。イニシアチブの最長期間は 5 年です。
@@ -45,11 +47,11 @@ ht-degree: 99%
 * 1 つのプランに複数のイニシアチブを作成できます。各イニシアチブでは、部署での作業を達成するための高レベルな戦略の概要を説明できます。
 * プラン内のイニシアチブに優先順位を付けて、最も重要なイニシアチブに対して最も多くの予算と最も多くのリソースを確実に確保されるようにできます。
 * プラン内でイニシアチブを作成する場合、そのプランを表示するすべてのユーザーが、プラン内のすべてのイニシアチブを表示することもできます。
-* イニシアチブを公開して、プロジェクトを作成したり、リンクされたプロジェクトを更新したりできます。イニシアチブの公開について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でイニチアチブを公開することでプロジェクトの更新または作成を参照してください。
+* イニシアチブを公開して、プロジェクトを作成したり、リンクされたプロジェクトを更新したりできます。イニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でイニチアチブを公開することでプロジェクトの更新または作成を参照してください。
 
 ## イニシアチブに関する財務情報
 
-個々のイニシアチブに関する財務情報を確認して、プラン内でのイニシアチブの適合を把握できます。イニシアチブへのアクセスについて詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) のイニシアチブを作成および編集を参照してください。
+個々のイニシアチブに関する財務情報を確認して、プラン内でのイニシアチブの適合を把握できます。イニシアチブへのアクセスについて詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) のイニシアチブを作成および編集を参照してください。
 
 プラン内でイニシアチブにアクセスすることで、イニシアチブに関する次の財務指標を表示できます。
 
@@ -96,14 +98,16 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-<!--drafted content from People Costs:
+<!--
+drafted content from People Costs:
 (NOTE: drafted below)</p> 
        <p>Depending on whether the plan is set up to use FTEs or hours, Workfront uses the following formulas to calculate People Cost:</p> 
        <ul> 
         <li> <p>When using FTEs: </p> <p><code>People Costs = SUM(Job role hourly rate * Number of months in the Duration * 160 * Number of FTEs)</code>, where 160 is the total number of working hours in a month. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><span style="font-weight: normal;"> When estimating resources using FTEs,(NOTE: drafted and yellow and fix the rest of the sentence)
       <p>When using hours:</p> 
       <p><code>Monthly People Costs = SUM(Job role hourly rate * Number of hours estimated for an initiative)</code> </p> 
-      <p>For information about setting up the plan to use hours or FTE, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>.</p>-->
+      <p>For information about setting up the plan to use hours or FTE, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>.</p>
+      -->
 
 ## レポート内のイニシアチブ情報
 
@@ -132,4 +136,4 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-*これらのフィールドには、イニシアチブがプロジェクトから作成されたか、少なくとも 1 回プロジェクトに公開された場合にのみ、イニシアチブにリンクされたプロジェクトの情報が入力されます。イニシアチブの公開について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でイニシアチブを公開することでプロジェクトを更新または作成を参照してください。
+*これらのフィールドには、イニシアチブがプロジェクトから作成されたか、少なくとも 1 回プロジェクトに公開された場合にのみ、イニシアチブにリンクされたプロジェクトの情報が入力されます。イニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でイニシアチブを公開することでプロジェクトを更新または作成を参照してください。

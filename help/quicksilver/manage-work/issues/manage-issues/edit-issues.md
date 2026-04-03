@@ -2,16 +2,18 @@
 product-area: projects
 navigation-topic: manage-issues
 title: 問題の編集
-description: 自分が作成したイシューに関する情報を編集したり、他のユーザーがイシューを共有している場合は、そのユーザーが作成したイシューに関する情報を編集したりできます。 この記事では、権限があれば、イシューを検索、検索、編集する方法について説明します。
+description: 自分が作成したイシュー、または他のユーザーがイシューを共有した場合に作成したイシューに関する情報を編集できます。 この記事では、権限がある場合に、イシューを検索、検索、編集する方法について説明します。
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2532'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -19,13 +21,15 @@ ht-degree: 83%
 
 <!--Audited: 10/2025-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 自分が作成したイシューに関する情報や、他のユーザーとイシューを共有した場合は他のユーザーが作成したイシューに関する情報を編集できます。
 
@@ -45,10 +49,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <ul><li>投稿者以上</li>
-   <li>タスクまたはプロジェクトの「イシュー」セクションのイシューを編集するためのライト以上</li></ul>
-   または：
-   <ul><li>リクエスト以上</li> <li>タスクまたはプロジェクトの「イシュー」セクションでレビュー以上のイシューを編集する</li></ul> </td> 
+   <td> <ul><li>コントリビューター以上</li>
+   <li>タスクまたはプロジェクトの「イシュー」セクションでイシューを編集するには、ライト以上</li></ul>
+   または
+   <ul><li>リクエスト以上</li> <li>タスクまたはプロジェクトの「イシュー」セクションでイシューを編集するには、レビュー以上を行います</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
@@ -67,12 +71,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,7 +110,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## イシューを編集する際の制限事項
 
@@ -120,10 +126,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. **メインメニュー**&#x200B;に移動します。
 1. 「**プロジェクト**」をクリックし、プロジェクトの名前をクリックして、プロジェクトを開きます。
-1. （任意） **タスク** をクリックしてから、タスクの名前をクリックしてタスクを開きます。
+1. （オプション）「**タスク**」をクリックし、タスクの名前をクリックしてタスクを開きます。
 1. 左側のパネルで「**イシュー**」をクリックします。
 
-   ![&#x200B; イシューアイコン &#x200B;](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![問題アイコン ](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. （オプション）イシューに関する限定的な情報を編集するには、左側のパネルで「**イシューの詳細**」をクリックします。
 
@@ -134,9 +140,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    「詳細」セクションの情報を編集するには、次の手順を実行します。
 
    1. （オプション）すべてのエリアを折りたたむには、右上隅の&#x200B;**すべて折りたたむ**&#x200B;アイコンをクリックします。
-   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![&#x200B; 右向き矢印 &#x200B;](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
+   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある&#x200B;**右向き矢印** ![右向き矢印](assets/right-pointing-arrow.png)をクリックして、編集する領域を展開します。
    1. （オプション）カスタムフォームを添付するには、「**カスタムフォームを追加**」フィールドにフォームの名前の入力を開始し、リストに表示されたらフォームを選択して、「**変更を保存**」をクリックします。
-   1. （オプション） **書き出し** アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export.png) をクリックして、概要とカスタムフォーム情報をPDF ファイルに書き出し、「**書き出し**」をクリックします。 次の中から選択します。
+   1. （オプション）「**書き出し**」アイコン「![書き出しアイコン ](assets/export.png)」をクリックして、概要およびカスタムフォーム情報をPDF ファイルに書き出してから、「**書き出し**」をクリックします。 次の中から選択します。
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
       * 概要
@@ -144,13 +150,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
       PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-      ![&#x200B; 問題の詳細をエクスポート &#x200B;](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![問題の詳細を書き出し](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       詳しくは、[カスタムフォームとオブジェクトの詳細の書き出し](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
    「イシューの詳細」セクションに表示されるフィールドの詳細を表示するには、下記に示す「イシューの編集」ボックスでイシューの編集を続けます。
 
-1. イシューに関するすべての情報を編集するには、リストでイシューを選択し、リストの上部にある **編集** をクリックします
+1. 問題に関するすべての情報を編集するには、リストで問題を選択し、リストの上部にある&#x200B;**編集**&#x200B;をクリックします
 
    または
 
@@ -183,7 +189,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 「**イシュー名**」をクリックします。
 
-   ![&#x200B; イシュー名セクション &#x200B;](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![問題名セクション ](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. 「**イシュー名**」フィールドを更新します。
 1. 「**保存**」をクリックするか、以降のセクションの編集を続けます。
@@ -193,7 +199,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 「**概要**」をクリックします。
 
-   ![&#x200B; イシューの概要セクション &#x200B;](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![問題の概要セクション ](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. 以下の表のフィールドを更新または確認します。
 
@@ -235,9 +241,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    <tr> 
    <td role="rowheader">イシュー条件</td> 
-   <td> <p>イシューの状態は、その進行状況を示すためにイシューに配置されるフラグです。</p> 
+   <td> <p>イシューの条件とは、イシューの進行状況を示すフラグをイシューに配置することです。</p> 
    <p>タスクまたはイシューの状況は、自動または手動で設定できます。</p>
-   <p>状態を変更するには、問題に割り当てられている必要があります。</p>
+   <p>条件を変更するには、イシューに割り当てる必要があります。</p>
    <p>次のオプションから選択します。</p> 
       <ul> 
    <li> <p style="font-weight: bold;">順調</p> </li> 
@@ -256,7 +262,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        <ul> 
         <li> <p><strong>バグレポート</strong> </p> </li> 
         <li> <p><strong>変更依頼</strong> </p> </li> 
-        <li> <p><strong>イシュー</strong> </p> </li> 
+        <li> <p><strong>問題</strong> </p> </li> 
         <li> <p><strong>リクエスト</strong> </p> </li> 
        </ul> <p>Workfront 管理者が選択したプロジェクトの環境設定に応じて、イシューのタイプ名が異なる場合があります。</p> </td> 
      </tr> 
@@ -295,11 +301,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader">解決オブジェクト</td> 
       <td> <p>これは、イシューが別のオブジェクトによって解決されたかどうかを示します。ドロップダウンメニューから、このイシューをタスク、プロジェクト、または別のイシューのいずれで解決するかを選択し、このイシューを解決するタスク、プロジェクト、またはこのイシューの名前の入力を開始します。名前がリストに表示されたら、選択します。</p>
 
-   <b> 備考 </b>
+   <b> メモ </b>
 
    <ul><li>イシューを解決するオブジェクトを選択すると、イシューのステータスは解決オブジェクトのステータスにリンクされ、イシューで変更することはできません。オブジェクトの解決について詳しくは、<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解決および解決可能なオブジェクトの概要</a>を参照してください。</li>
 
-   <li>別のタスク、イシュー、またはプロジェクトによって解決されるようにイシューを接続した場合、イシューからの情報は、解決オブジェクト （「解決済み」フィールドにリストされているタスク、イシュー、またはプロジェクト）に転送されません。 </li>
+   <li>別のタスク、イシュー、またはプロジェクトによって解決されるイシューを接続すると、イシューの情報は解決オブジェクト（解決済みフィールドにリストされているタスク、イシュー、またはプロジェクト）に転送されません。 </li>
 
    <li>システム管理者またはグループ管理者がイシューのカスタムヘッダーに「解決者」フィールドを追加すると、イシューに関連付けられた解決オブジェクトがある場合、フィールドは「イシューの解決」、「タスクの解決」、または「プロジェクトの解決」に変わります。
 
@@ -326,9 +332,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 左側のパネルで「**割り当て**」をクリックします。
 
-   ![&#x200B; イシューの割り当てセクション &#x200B;](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![問題割り当てセクション ](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. **ユーザー、役割、チームを検索** をクリックして、イシューに割り当てるユーザー、役割、チームの名前の入力を開始し、リストに表示されたらクリックするか Enter キーを押します。
+1. **ユーザー、役割、チームを検索**&#x200B;をクリックし、イシューに割り当てるユーザー、役割、またはチームの名前を入力し始めます。次に、イシューをクリックするか、リストに表示されたらEnter キーを押します。
 
    <!--
    (NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)
@@ -348,7 +354,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >* 作業アイテムをアクティブなリソースに再割り当てする。
    >* 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
 
-   <!--1. In the Production environment:
+   <!--
+   1. In the Production environment:
          1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
          1. Update the following fields: 
          <table style="table-layout:auto"> 
@@ -368,19 +375,20 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
             Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>-->
+         </table>
+         -->
 
 
-1. （任意）「**自分に割り当て**」をクリックして、イシューを自分に割り当てます。
-1. （任意）「**予定時間数**」フィールドを更新します。
+1. （オプション）「**自分に割り当て**」をクリックして、自分に問題を割り当てます。
+1. （オプション）「**予定時間数**」フィールドを更新します。
 
-   **予定時間** は、イシューの担当者が完了するまでにかかる時間です。
+   **予定時間数**&#x200B;は、イシューの担当者が完了するのに必要な時間数です。
 
    >[!NOTE]
    >
-   >問題の予定時間数を変更しても、問題の予定完了日は変更されません。
+   >イシューの予定時間を変更しても、イシューの予定完了日は変更されません。
 
-1. すべてのイシューから割り当てを削除するには、[&#x200B; イシューの割り当て &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) を参照してください。
+1. すべての問題から割り当てを削除するには、[問題の割り当て](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)を参照してください。
 
 1. 「**保存**」をクリックするか、以降のセクションの編集を続けます。
 
@@ -389,15 +397,15 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 「**カスタムフォーム**」をクリックします。
 
-   ![&#x200B; カスタムフォームセクションの公開 &#x200B;](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![ カスタムフォームの発行セクション ](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. 「**カスタムフォームを追加**」フィールドで、イシューに関連付けるカスタムフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのイシューには、最大 10 個のカスタムフォームを追加できます。
+1. 「**カスタムフォームを追加**」フィールドで、イシューに関連付けるカスタムフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 1 つのイシューには、最大 10 個のカスタムフォームを追加できます。
 
 1. （条件付き）カスタムフォームをイシューに添付した場合は、フォーム上の任意のフィールドを編集します。イシューを保存する前に、すべての必須フィールドを指定する必要があります。
 
    >[!NOTE]
    >
-   >Workfront 管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。カスタムフォームのセクション内のフィールドを編集する権限は、イシュー自体に対する権限によって異なります。カスタムフォームのセクションに対する権限の設定について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 イシューの権限の設定については、[イシューの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)を参照してください。
+   >Workfront 管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。カスタムフォームのセクション内のフィールドを編集する権限は、イシュー自体に対する権限によって異なります。カスタムフォームのセクションに対する権限の設定について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 イシューの権限の設定については、[イシューの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)を参照してください。
 
 1. 「**保存**」をクリックするか、次のセクションの編集に進みます。
 
@@ -406,7 +414,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 「**設定**」をクリックします。
 
-   ![&#x200B; 問題設定アイコン &#x200B;](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![問題設定アイコン ](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    次の情報を更新します。
 
@@ -450,14 +458,14 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 システム管理者またはグループ管理者は、イシューヘッダーに表示されるフィールドをカスタマイズできます。詳しくは、[レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
-![&#x200B; 問題ヘッダー &#x200B;](assets/issue-header-350x19.png)
+![問題ヘッダー](assets/issue-header-350x19.png)
 
 デフォルトでは、次のフィールドがイシューヘッダーに含まれています。
 
 * イシュー名
 * 完了率
 
-  詳しくは、[&#x200B; タスクの完了率の表示と更新 &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
+  詳しくは、[ タスクの完了率の表示と更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)を参照してください。
 * 割り当て
 * 予定完了日時
 * ステータス

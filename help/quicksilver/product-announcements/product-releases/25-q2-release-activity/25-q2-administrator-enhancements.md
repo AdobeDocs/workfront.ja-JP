@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 99caa38d-cf0a-4986-b0fe-976cb3b29c58
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 29%
@@ -24,22 +26,22 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->プレビューリリース：2025 年 3 月 13 日（PT）、すべてのお客様向けの実稼動リリース：25.4 リリースの場合（2025 年 4 月 10 日（PT））
+>プレビューリリース：2025年3月13日（PT）、すべてのユーザー向けの実稼動リリース：25.4 リリース（2025年4月10日（PT））
 
-カスタム Forms ロジックビルダーのインターフェイスが更新され、ロジックルールを作成する場所が増えました。 この新しいデザインは、今後追加される可能性のある追加のロジックタイプにより簡単に対応できます。
+カスタムフォームロジックビルダーのインターフェイスが更新され、ロジックルールを作成する余裕が増えました。 この新しい設計は、将来的に追加される可能性のある追加のロジックタイプに、より簡単に対応できます。
 
-現在の表示およびスキップロジックオプションに加えて、検証ロジックが使用できるようになりました。 この論理タイプがフィールドに適用されると、フィールド値が定義済みの検証条件を満たす場合、エラーメッセージが表示されます。 検証は、他のフィールドの値やオブジェクトのステータスに基づいて行うことができます。
+現在の表示およびスキップロジックのオプションに加えて、検証ロジックが使用できるようになりました。 このロジックタイプがフィールドに適用されると、フィールド値が定義された検証条件を満たす場合にエラーメッセージが表示されます。 検証は、他のフィールドの値またはオブジェクトのステータスに基づいて行うことができます。
 
-検証ロジックの式エディターを使用すると、複雑なロジック式を作成できます。
+検証ロジックの数式エディターを使用すると、複雑なロジック式を作成できます。
 
-詳しくは、[&#x200B; カスタムフォームとフィールドへの論理ルールの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) を参照してください。
+詳細については、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
 
-## 計算カスタムフィールドに追加された式
+## 計算カスタムフィールドに式が追加されました
 
 >[!NOTE]
 >
 >プレビューリリース：2025年1月31日（PT）、すべての顧客向けの実稼動版リリース：2025年1月31日（PT）
 
-Workfrontの計算カスタムフィールドで、ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT、ADDHOUR の式を使用できるようになりました。 各式の定義と例は、計算エディターとExperience Leagueで入手できます。
+Workfrontの計算カスタムフィールドで、ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT、ADDHOURの式が使用できるようになりました。 各式の定義と例は、計算エディターおよびExperience Leagueで使用できます。
 
-詳しくは、[&#x200B; 計算データ式の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
+詳しくは、[計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。

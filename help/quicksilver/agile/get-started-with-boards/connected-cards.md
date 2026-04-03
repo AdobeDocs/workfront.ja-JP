@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: ボードでのコネクテッドカードの使用
+title: ボードでコネクテッドカードを使用する
 description: Workfront の既存のタスクやイシューに接続するカードをボードに追加できます。
 author: Courtney
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 89%
@@ -30,7 +32,7 @@ ht-degree: 89%
 * [!UICONTROL サブタスク]
 * [!UICONTROL ドキュメント]
 
-接続したカードをWorkfrontと同期するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL &#x200B; 詳細メニュー &#x200B;]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続項目を同期]** を選択します。 アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、再度同期されます。
+接続されたカードをWorkfrontと同期するには、ボード名の横にある&#x200B;**[!UICONTROL 詳細]** メニュー![[!UICONTROL 詳細メニュー]](assets/more-icon-spectrum.png)をクリックし、**[!UICONTROL 接続されたアイテムを同期]**&#x200B;を選択します。 アーカイブされたカードは、Workfrontのタスクや問題に同期されません。 カードを復元すると、再度同期されます。
 
 >[!NOTE]
 >
@@ -166,7 +168,7 @@ ht-degree: 89%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>「<strong>[!UICONTROL New comment]</strong>」フィールド内をクリックして、コメントを入力します。書式設定ツールを使用して、テキストの書式を設定します。 ユーザーまたはチームにタグ付けするには、コメントエリアの下部にある検索ボックスを使用します。ユーザーは、ボード上のメンバーである必要はありません。接続されたカードのタグ付きユーザーは、メール通知を受け取ります。</p><p>「<strong>[!UICONTROL Submit]</strong>」をクリックして、コメントをカードに追加します。</p>
+      <td><p>「<strong>[!UICONTROL New comment]</strong>」フィールド内をクリックして、コメントを入力します。書式設定ツールを使用してテキストを書式設定します。 ユーザーまたはチームにタグ付けするには、コメントエリアの下部にある検索ボックスを使用します。ユーザーは、ボード上のメンバーである必要はありません。接続されたカードのタグ付きユーザーは、メール通知を受け取ります。</p><p>「<strong>[!UICONTROL Submit]</strong>」をクリックして、コメントをカードに追加します。</p>
       <p>コメント機能について詳しくは、<a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">作業の更新</a>を参照してください。</p></td>
      </tr>
      <tr> 
@@ -189,19 +191,19 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->動的ボード上で接続されているカードを切断すると、このボードタイプが特定のプロジェクトからすべてのタスクと問題を取り込むため、ボードを更新した際に再び表示されます。
+>ダイナミックボード上の接続されているカードを切断すると、ボードを更新すると、このボードタイプによって特定のプロジェクトからすべてのタスクとイシューが取り込まれるため、カードが再表示されます。
 >
->接続されたカードを、取り込み列を持つ他のボードタイプから切断した場合、接続されたタスクまたは問題がまだ完了とマークされていない場合、ボードを更新すると、カードは取り込み列に再び表示されます。
+>取り込み列を持つ他のボードタイプから接続されたカードを取り外すと、接続されたタスクまたは問題がまだ完了していない場合に、ボードを更新すると、カードが取り込み列に再度表示されます。
 >
->どちらのシナリオでも、更新後、同じタスクまたは問題に対して 2 つのカード（アドホックカードと接続されたカード）が表示されます。
+>どちらのシナリオでも、更新後に、同じタスクまたは問題に対して2つのカード（アドホックカードと接続されたカード）が表示されます。
 
-ボードレベルでカードの接続を解除するには：
+ボード レベルでカードを切断するには：
 
 1. ボードにアクセスします。
 1. 接続されたカードの&#x200B;**[!UICONTROL その他]**&#x200B;メニュー![その他メニュー](assets/more-icon-spectrum.png)をクリックし、**[!UICONTROL 接続解除]**&#x200B;を選択します。
 1. 「**[!UICONTROL 接続解除]**」をクリックします。
 
-カードレベルでカードの接続を解除するには：
+カードをカード レベルで切断するには：
 
 1. ボードにアクセスし、接続されたカードを開きます。
 1. カード詳細の接続エリアにある&#x200B;**[!UICONTROL その他]**&#x200B;メニュー![その他メニュー](assets/more-icon-spectrum.png)をクリックし、**[!UICONTROL 接続解除]**&#x200B;を選択します。

@@ -7,10 +7,12 @@ description: 作業量の概要
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -38,11 +40,13 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td role="rowheader">作業量 </td> 
-   <td> <p>タスクの完了に 1 日あたりの作業量が小、中、大のどれになるかを定義する手動のラベルです。<!--
+   <td> <p>ユーザーがタスクを完了するために日々の労力が少なからず、中程度か、大量であるかを定義する手作業のラベルです。
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
       </MadCap:conditionalText>
-     --> </p> <p>作業量に関して、次の点を考慮します。</p> 
+     -->
+     </p> <p>作業量に関して、次の点を考慮します。</p>
     <ul> 
      <li>このフィールドは、シンプル期間タイプのタスクでのみ使用できます。 </li> 
      <li>このラベルの使用を有効にして、プロジェクトレベルで関連付けられる作業時間の割合を定義できます。 </li> 
@@ -90,7 +94,8 @@ ht-degree: 97%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,7 +121,8 @@ ht-degree: 97%
    <td> <p>Manage permissions to a project and its tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 作業量を使用する際の考慮事項
 
@@ -130,15 +136,15 @@ ht-degree: 97%
 
 ## 予定時間数ではなく作業量の使用を有効にする
 
-1. プロジェクトに移動して **詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、**編集** をクリックします。
+1. プロジェクトに移動し、**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックしてから、**編集**&#x200B;をクリックします。
 1. 「**タスク設定**」をクリックし、「**作業量を使用してタスクの予定時間数を自動的に計算**」オプションを選択します。デフォルトでは、このオプションは選択されていません。
 
-   ![&#x200B; 事業の努力 &#x200B;](assets/nwe-work-effort-on-projects-350x182.png)
+   ![ プロジェクトの作業量](assets/nwe-work-effort-on-projects-350x182.png)
 
    プロジェクトで作業量の使用を有効にする方法について詳しくは、[プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md)の記事の「タスク設定」の節を参照してください。
 
 1. 左側のパネルで「**タスク**」をクリックし、タスクの名前を選択してアクセスします。
-1. **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**編集** をクリックします。 タスクにシンプルな期間タイプが含まれていることを確認します。
+1. **詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。 タスクにシンプルな期間タイプが含まれていることを確認します。
 
    >[!TIP]
    >
@@ -146,7 +152,7 @@ ht-degree: 97%
 
 1. **概要**&#x200B;エリアで、「作業量」ドロップダウンメニューをクリックして、タスクを完了するのに必要な作業量を修正します。
 
-   ![&#x200B; タスクの編集ページの作業量 &#x200B;](assets/work-effort-on-edit-task-page-350x239.png)
+   ![ タスクの編集ページでの作業量](assets/work-effort-on-edit-task-page-350x239.png)
 
    タスクの「作業量」フィールドを更新する方法について詳しくは、次の記事を参照してください。
 

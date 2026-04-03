@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: グループ化：グループ内のすべてのオブジェクトに共通の計算値でリスト結果を整理します
+title: グループ化：グループ化のすべてのオブジェクトに共通の計算値でリスト結果を整理します
 description: タスクを表示するときに、完了率でグループ化し、0～25、26～50、51～75、75～99、100 の範囲に分けたい場合があります。これは、テキストモードを使用してグループ化を作成することで可能です。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 82%
@@ -37,8 +39,8 @@ ht-degree: 82%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>フィルターの変更をコントリビューターまたはリクエスト </p>
-   <p>レポートを変更するための「標準」または「プラン」</p>
+   <p>コントリビューターまたはフィルターを変更するリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -74,4 +76,4 @@ ht-degree: 82%
    ```
 
 1. 「**完了**」、「**グループ化の保存**」の順にクリックします。
-1. （オプション）グループ名を更新し、**[グループの保存]**&#x200B;をクリックします。
+1. （オプション）グループ化名を更新し、**グループ化を保存**&#x200B;をクリックします。

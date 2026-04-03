@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: '[ 作業をする ] ボタンを [ 開始 ] ボタンに置き換える'
+title: 「作業中」ボタンを「開始」ボタンに置き換える
 description: Adobe Workfront のデフォルト設定には、割り当てられた項目に対して表示されるタスクとイシューの「作業をする」ボタンが含まれています。
 author: Courtney
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 96%
@@ -72,7 +74,7 @@ ht-degree: 96%
 
 1. **[!UICONTROL チーム]**&#x200B;ドロップダウンメニューで、チームを選択します。\
    または\
-   **[!UICONTROL 新規チームを作成]** をクリックします。
+   「**[!UICONTROL 新しいチームを作成]**」をクリックします。
 
 1. **[!UICONTROL その他]**&#x200B;アイコン ![](assets/more-icon.png)、「**[!UICONTROL 編集]**」の順にクリックします。
 
@@ -91,7 +93,7 @@ ht-degree: 96%
 
 {{step-1-to-users}}
 
-1. ホームチームに関連付ける 1 人または複数のユーザーを選択します。
+1. ホームチームに関連付けるユーザーを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。\
    ![](assets/user-settings-nwe-350x291.png)
 

@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
-title: カードに表示するフィールドのカスタマイズ
+title: カードに表示するフィールドをカスタマイズする
 description: フィールドを無効にしてカードのフルビューや縮小ビューで表示されないようにするか、縮小カードビューでフィールドを非表示にすることで、カードに表示するフィールドをカスタマイズできます。
 author: Courtney
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 98%

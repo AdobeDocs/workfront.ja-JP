@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 表示：スケジュールの例外の影響を受けたタスク
+title: ビュー：スケジュール例外の影響を受けるタスク
 description: このタスクビューは、週末、個人の休暇またはその他のスケジュール例外が発生した場合に、完了が遅れるタスクを特定します。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d7c77fa-d9a7-4e91-8dae-ad3aaca6f1da
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 71%
@@ -27,7 +29,7 @@ ht-degree: 71%
 * タスクの予定開始日から予定完了日までの日数に従ったタスクの期間（カレンダー期間）
 * プロジェクトのスケジュール上でタスクを開始する日の番号（カレンダー開始日）
 * タスクの予定開始日から予定完了日までの平日数に従ったタスクの平日期間（平日期間）
-* 1 週間の期間がタスクの期間よりも長い場合、タスクの期間に例外日が含まれていると、タスクは「例外」としてマークされます。\
+* 週の日の期間がタスクの期間よりも大きい場合、タスクの期間に例外の日があることを示唆している場合、タスクは「例外」としてマークされます。\
   ![tasks_with_calendar_exceptions.png](assets/tasks-with-calendar-exceptions-350x51.png)
 
 ## アクセス要件
@@ -45,8 +47,8 @@ ht-degree: 71%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ビューの投稿者または変更依頼 </p>
-   <p>レポートを変更するための標準またはプラン</p>
+   <p>ビューを変更するコントリビューターまたはリクエスト </p>
+   <p>レポートを修正する標準または計画</p>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -69,8 +71,8 @@ ht-degree: 71%
 1. タスクのリストに移動します。
 1. **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 1. **列のプレビュー**&#x200B;領域で、1 つを除くすべての列を削除します。
-1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え** > **テキストモードを編集** をクリックします。
-1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
+1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
+1. 「**テキストモードを編集**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```
    column.0.descriptionkey=name
@@ -184,4 +186,4 @@ ht-degree: 71%
    column.7.width=80
    ```
 
-1. **完了**/**ビューを保存** をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。
