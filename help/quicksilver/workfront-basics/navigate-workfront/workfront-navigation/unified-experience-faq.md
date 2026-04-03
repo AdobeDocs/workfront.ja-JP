@@ -61,7 +61,7 @@ ht-degree: 64%
 
 ### 移行を促進するために、お客様は何をすべきでしょうか？
 
-既存のお客様には、移行のスケジュールするためにご連絡させていただきます。移行チームのサポート担当者は、お客様にプロセスを説明し、[!DNL Admin Console]の設定に関するアドバイスを提供し、できるだけシンプルで手間のかからないものにするために必要なドキュメントへのリンクを提供します。 詳しくは、[[!DNL Adobe Business Platform] および [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)を参照してください。
+既存のお客様には、移行のスケジュールするためにご連絡させていただきます。移行チームのサポート担当者は、お客様にプロセスを説明し、[!DNL Admin Console]の設定に関するアドバイスを提供し、できるだけシンプルで手間のかからないものにするために必要なドキュメントへのリンクを提供します。 詳しくは、[[!DNL Adobe Business Platform] および [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/workfront/faq)を参照してください。
 
 ### フェデレーション IDに対してすでに有効になっている企業の[!DNL Adobe Admin Console]に対して、[!DNL Workfront] SSOとは異なる設定をどのように処理しますか？
 

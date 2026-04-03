@@ -320,19 +320,19 @@ ht-degree: 93%
 
 コメント機能のベータ版に関する問題、および目標に対して、次のメンテナンスアップデートがリリースされました。
 
-コメントの編集時に添付画像を編集します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>の記事の「4月27日のメンテナンス更新」の節を参照してください。
+コメントの編集時に添付画像を編集します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>の記事の「4月27日のメンテナンス更新」の節を参照してください。
 
 ### 2023年4月20日（PT）
 
 コメント機能のベータ版に関する問題、および目標に対して、次のメンテナンスアップデートがリリースされました。
 
-コメント機能のベータ版エクスペリエンスでの目標やイシューの更新から離れる際に画像を下書きとして保持します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>の記事の「4月20日のメンテナンス更新」の節を参照してください。
+コメント機能のベータ版エクスペリエンスでの目標やイシューの更新から離れる際に画像を下書きとして保持します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>の記事の「4月20日のメンテナンス更新」の節を参照してください。
 
 ### 2023年4月17日（PT）
 
 コメント機能のベータ版に関する問題、および目標に対して、次のメンテナンスアップデートがリリースされました。
 
-イシュー（新しいコメント機能のベータ版エクスペリエンス）と目標の「更新」セクションで、表示されている画面エリアの外に新しいコメントを表示します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>の記事の「4月17日のメンテナンス更新」の節を参照してください。
+イシュー（新しいコメント機能のベータ版エクスペリエンス）と目標の「更新」セクションで、表示されている画面エリアの外に新しいコメントを表示します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>の記事の「4月17日のメンテナンス更新」の節を参照してください。
 
 
 ### 2023年4月6日（PT）の週
