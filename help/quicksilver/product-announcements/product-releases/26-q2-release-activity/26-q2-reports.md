@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 12%
+source-wordcount: '872'
+ht-degree: 11%
 
 ---
 
@@ -20,6 +20,29 @@ ht-degree: 12%
 
 2026年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2026年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)を参照してください。
 
+## ドキュメントのバージョンの現在のバージョンフィールド
+
+>[!NOTE]
+>
+>プレビュー：2026年4月2日（PT）
+>実稼動（迅速リリース）：2026年4月15日（PT）
+>実稼動（全ユーザー）：2026年4月16日（PT）
+
+ドキュメントの最新バージョンを識別およびレポートしやすくするために、`currentVersion` ブール値フィールドをDocument Version オブジェクトに追加しました。
+今回の更新で：
+
+* フィルター、ビュー、グループ化、グラフで`currentVersion`を使用できます。
+* このフィールドは、ドキュメントのバージョンレポート用のカンバスフィールド選択で使用できます。
+
+* 新しいバージョンがアップロードされた場合：
+
+   * 新しいバージョンは`TRUE`としてマークされています
+   * 以前のバージョンは`FALSE`としてマークされています
+
+* レポートでは、Canvas ダッシュボードと従来のレポート全体で現在のバージョンを一貫して特定できます
+
+`isCurrentVersion`または`isDocumentCurrentVersion`を使用するクラシックレポートの既存のフィルターは、引き続き文書化されたとおりに機能します。
+
 ## スケジュールされたレポート配信で、リンクベースのメールがサポートされるようになりました
 
 >[!NOTE]
@@ -28,13 +51,13 @@ ht-degree: 12%
 >実稼動（迅速リリース）：2026年4月15日（PT）
 >実稼動（全ユーザー）：2026年4月16日（PT）
 
-Workfrontに、スケジュール済みレポート用の新しいリンク配信タイプが追加されました。 このオプションを選択すると、ファイルを生成して添付する代わりに、Workfrontのレポートへの直接リンクを含む電子メールが送信され、受信者はアプリケーションの最新データを確認できます。
+Workfrontに、スケジュール済みレポート用の新しいリンク配信タイプが追加されました。 ファイルを生成して添付する代わりに、Workfrontのレポートへの直接リンクを含むメールが送信され、受信者はアプリケーション内の最新のデータを{{$include }}表示できます。
 
 リンク オプションは、新しく作成されたスケジュール済みレポート配信ルールのデフォルト配信タイプになりましたが、既存のファイルベースのフォーマット（HTML、PDF、Excel、TSV）は引き続き使用できます。
 
 この変更に伴い、レポート配信メールのルックアンドフィールも更新されました。
 
-詳しくは、[自動レポート配信のスケジュール &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
+詳しくは、[自動レポート配信のスケジュール ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
 
 ## Canvas ダッシュボードでレポートを特定のユーザーとして実行する
 
