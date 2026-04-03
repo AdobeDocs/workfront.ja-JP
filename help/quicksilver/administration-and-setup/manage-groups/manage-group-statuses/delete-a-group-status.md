@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6c7dd2504ce20274f8b80a306fc1075ec5761da6
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 94%
+source-wordcount: '544'
+ht-degree: 91%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 94%
   </tr>
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
+   <td>グループのグループ管理者またはシステム管理者でなければなりません。</td>
   </tr>
  </tbody> 
 </table>
@@ -63,9 +63,9 @@ ht-degree: 94%
 1. 左側のパネルで、「**グループ**」をクリックします。
 1. 最上位グループの名前をクリックします。
 1. 左側のパネルで、「**ステータス**」をクリックします。
-1. 表示されるステータスのリストで、削除するステータスの上にポインタを合わせ、右端に表示されたら「**削除**」をクリックします。
+1. 表示されるステータスのリストで、削除するステータスのチェックボックスをクリックし、画面の下部にあるバナーの「**削除**」をクリックします。
 
-   ![削除](assets/hover-click-delete.jpg)
+   ![削除](assets/delete-status.png)
 
 1. 表示されるボックスで、ステータスを選択して、削除するステータスを使用していたオブジェクト（プロジェクト、タスク、イシュー、承認プロセス）の置き換えステータスを指定します。
 
@@ -84,7 +84,7 @@ ht-degree: 94%
 
         デフォルトの Workfront のステータスについて詳しくは、[システムプロジェクトステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)、[システムタスクステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)、および[システムのイシューステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)の 4 つの必須のイシューステータスに関する情報を参照してください。
 
-1. 「**ステータスを削除**」をクリックします。
+1. 「**削除**」をクリックします。
 
    削除済みステータスがグループ内のそのタイプのデフォルトステータスの場合は、置き換えステータスがその代わりに使用されます。
 
