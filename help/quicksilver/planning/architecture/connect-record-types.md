@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '2982'
+source-wordcount: '3044'
 ht-degree: 27%
 
 ---
@@ -51,9 +51,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 接続タイプの一般的な情報については、[接続されたレコードタイプの概要](/help/quicksilver/planning/architecture/connect-record-types-overview.md)を参照してください。
 
-レコードまたはレコードを他のアプリケーションのオブジェクトと接続する方法については、[&#x200B; レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+レコードまたはレコードを他のアプリケーションのオブジェクトと接続する方法については、[ レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
-レコードタイプとレコードの接続例については、[&#x200B; レコードタイプとレコードの接続例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)を参照してください。
+レコードタイプとレコードの接続例については、[ レコードタイプとレコードの接続例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)を参照してください。
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -94,7 +94,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assetsライセンスと、AEM Assetsとプランニングレコードタイプを連携させるAEM AssetsとWorkfrontの統合。</p>
    <p>詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets Essentials向けAdobe Workfront：記事インデックス </a>を参照してください。 </p></li>
    <li><p> レコードタイプとGenStudio Brandsを連携させるAdobe GenStudio for Performance Marketingライセンス</p>
-   <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
+   <p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -213,9 +213,9 @@ Old:
      >
      >他のワークスペースでこのレコードタイプへの接続を許可するには、**レコードタイプを編集** ボックスの「**クロスワークスペース設定**」タブにあるレコードタイプに対して、**他のワークスペースでのレコードタイプへの接続を許可する**&#x200B;設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、ワークスペースセクションは表示されません。
      >
-     >詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。<!--update screen shot at production-->
+     >詳しくは、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。<!--update screen shot at production-->
      >
-     >![&#x200B; レコードタイプボックスのクロスワークスペース設定タブを編集](assets/edit-record-type-box-advanced-settings-tab.png)
+     >![ レコードタイプボックスのクロスワークスペース設定タブを編集](assets/edit-record-type-box-advanced-settings-tab.png)
 
      <!--
         Old:
@@ -224,7 +224,7 @@ Old:
         ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
         -->
 
-   詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+   詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
 
    * 「**Workfront オブジェクトタイプ**」セクションからの&#x200B;**プロジェクト、ポートフォリオ、プログラム、会社**&#x200B;または&#x200B;**グループ**。
 
@@ -242,7 +242,7 @@ Old:
      >
      >詳しくは、次の記事を参照してください。
      >* [Adobe Workfront Planningでリクエストフォームを作成および管理](/help/quicksilver/planning/requests/create-request-form.md)
-     >* [&#x200B; レコードを作成するためのAdobe Workfront計画リクエストを送信](/help/quicksilver/planning/requests/submit-requests.md)。
+     >* [ レコードを作成するためのAdobe Workfront計画リクエストを送信](/help/quicksilver/planning/requests/submit-requests.md)。
 
      ![元のリクエスト接続の選択](assets/original-request-connection-selection.png)
 
@@ -282,6 +282,10 @@ Old:
    >* 1つのレコードタイプに対する接続フィールドの制限は30件ですが、1つのレコードタイプに対する接続フィールドの制限は500件です。 この制限に達しないように、特に分類レコードタイプの場合は、この設定をオフにすることをお勧めします。
    >
    >* リンクされたレコードタイプ **で「**&#x200B;対応するフィールドを作成」を選択することは、階層を作成するための前提条件です。
+   >
+   >* リンクされたレコードフィールドは、それぞれのアプリケーション内の別のアプリケーションのオブジェクトに対して作成されません。 例えば、Planning レコードに接続されたWorkfront オブジェクトに対して作成されたフィールドはありません。
+   >
+   >   
 
 1. （条件付き）リンクされたレコードタイプ **で「**&#x200B;対応するフィールドを作成」を有効にした場合は、次のオプションから、ユーザーが接続できるレコード数と接続元レコード数を指定します。
 
@@ -306,7 +310,7 @@ Old:
 
    >[!NOTE]
    >
-   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront計画フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。
+   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront計画フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。
 
 
 1. （条件付き）Experience Manager Assets、Workfront計画レコードタイプ、またはGenStudio ブランドへの接続を選択する場合は、**外観を記録** エリアで次のいずれかのオプションを選択します。
@@ -329,7 +333,14 @@ Old:
 
 1. **参照フィールドを選択**&#x200B;して、接続先のレコードタイプからフィールドを追加します。 ルックアップフィールドは、リンク先のレコードタイプまたはオブジェクトタイプに関連付けられたフィールドです。リンクすると、リンク元のレコードにリンクしているレコードまたはオブジェクトの情報が表示されます。 これはデフォルトで選択されています。
 
+   <!--
+    When reference fields are coming, change the first bullet in the TIP below with this: 
+    >* In the Production environment, you cannot add Workfront reference fields (for example, the Project Group or Company from a Workfront Project) as lookup fields in Planning. <span class="preview">You can add Workfront reference fields as lookup fields in the Preview environment.</span>
+    -->
+
    >[!TIP]
+   >
+   >* 参照フィールドとして別のアプリケーションから参照フィールドを追加することはできません。 例えば、Workfront プロジェクトに接続する場合、PlanningのルックアップフィールドとしてProject GroupまたはCompanyを追加することはできません。
    >
    >* 実稼動環境では、Workfront ユーザーフィールド（プロジェクトオーナーやプロジェクトスポンサーなどのフィールドを含む）をルックアップフィールドとして追加することはできません。 <span class="preview"> ユーザーフィールドをプレビュー環境のルックアップフィールドとして追加できます。</span>
    >
@@ -381,7 +392,7 @@ Old:
    >
    > タイムラインビューとカレンダービューの開始日と終了日としてフィールドを追加できるようにする場合は、ルックアップ日フィールドを追加する際に集計の値を選択する必要があります。 例えば、検索日フィールドにMAXまたはMIN アグリゲーターを選択できます。
 
-   ![&#x200B; リンクされた数値フィールドの集計ドロップダウン &#x200B;](assets/aggregator-drop-down-for-number-linked-field.png)
+   ![ リンクされた数値フィールドの集計ドロップダウン ](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -414,7 +425,7 @@ Old:
    >* **一意**: $100,000
    >
 
-1. （オプション） **検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)を使用して、フィールドを検索します。
+1. （オプション） **検索** アイコン ![検索アイコン ](assets/search-icon.png)を使用して、フィールドを検索します。
 
 1. 「**フィールドを追加**」をクリックして変更を保存します。
 
@@ -443,7 +454,7 @@ Old:
    * **フィールドを編集**: フィールドの&#x200B;**名前**&#x200B;と&#x200B;**説明**&#x200B;情報を更新します。
    * **ルックアップフィールドを編集**：任意のリンクされたレコードのフィールドを追加または削除します。
 
-   ![&#x200B; テーブル列のフィールドとルックアップフィールドの編集ドロップダウンメニュー](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![ テーブル列のフィールドとルックアップフィールドの編集ドロップダウンメニュー](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    ルックアップフィールドを追加または削除するには、上記の手順16 ～ 17の手順に従います。<!--ensure these step numbers stay accurate-->
 
