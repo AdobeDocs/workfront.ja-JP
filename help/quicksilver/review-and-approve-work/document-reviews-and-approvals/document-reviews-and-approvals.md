@@ -8,10 +8,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b4577935-ee03-47b7-a629-2c03e8f42592
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: 81193a488747127b8e4cf9857612e7f985871357
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 28%
+ht-degree: 70%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 28%
 
 このセクションには、以下のセクションがあります。
 
-* [ドキュメント承認に使用可能な機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+* [ドキュメント承認で利用可能な機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
 * [統合承認の概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-* [ドキュメント決定ステータス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-* [AI レビュアーの基本を学ぶ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+* [ドキュメントの決定ステータス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+* [コンテンツレビュアーを始める](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
 * [統合承認の設定と管理：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-* [ドキュメントの確認と承認：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+* [ドキュメントのレビューと承認：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
 
