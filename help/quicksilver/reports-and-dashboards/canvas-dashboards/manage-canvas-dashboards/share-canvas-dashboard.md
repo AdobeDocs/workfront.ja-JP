@@ -8,19 +8,21 @@ feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 13%
+source-wordcount: '607'
+ht-degree: 12%
 
 ---
 
 # キャンバスダッシュボードの共有
 
+{{highlighted-preview}}
+
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
@@ -84,6 +86,8 @@ Canvas ダッシュボードを他のAdobe Workfront ユーザーと共有して
 
 * ダッシュボードがレイアウトテンプレートを通じて配布されると、ダッシュボード（およびそのレポート）の自動表示権限が、レイアウトテンプレートに割り当てられたすべてのリソースに付与されます。
 
+* <span class="preview"> ダッシュボード上のレポートが「ユーザーとして実行」オプションで設定されている場合、すべてのビューアには、選択したユーザーの権限に基づくデータが表示されます。ユーザーは自分の権限ではなく、選択したユーザーの権限に基づくデータを表示します。 そのため、通常はアクセスできないデータを閲覧する可能性があります。 ダッシュボード上の一部のレポートで「ユーザーとして実行」を使用し、その他のレポートを使用しない場合は、レポート間で一貫性のないデータが表示される可能性があります。</span>
+
 
 ## キャンバスダッシュボードの共有
 
@@ -96,7 +100,7 @@ Canvas ダッシュボードを他のAdobe Workfront ユーザーと共有して
 
 1. ページの右上隅にある「**共有**」ボタンをクリックします。 **ダッシュボード共有** ダイアログボックスが表示されます。
 
-   ![共有ボタン &#x200B;](assets/share-button.png)
+   ![共有ボタン ](assets/share-button.png)
 
 1. 「**アクセスを許可する**」フィールドで、キャンバスダッシュボードを共有する特定のユーザー、チーム、役割、グループ、または会社の名前を入力し始め、ドロップダウンリストに表示されたら選択します。
 

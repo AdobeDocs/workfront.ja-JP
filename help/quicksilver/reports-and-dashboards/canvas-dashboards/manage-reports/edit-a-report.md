@@ -8,19 +8,21 @@ feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 16%
+source-wordcount: '586'
+ht-degree: 14%
 
 ---
 
 # キャンバスダッシュボードでのウィジェットの編集
 
+{{highlighted-preview}}
+
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
@@ -74,7 +76,7 @@ ht-degree: 16%
 
 ダッシュボードを編集する前に、レポートをダッシュボードに追加する必要があります。
 
-詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 ## レポートの編集
 
@@ -82,11 +84,17 @@ ht-degree: 16%
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 
-1. **Canvas ダッシュボード** ページで、編集するレポートの右上隅にある&#x200B;**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) アイコンをクリックし、**編集**&#x200B;を選択します。
+1. **Canvas ダッシュボード** ページで、編集するレポートの右上隅にある&#x200B;**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンをクリックし、**編集**&#x200B;を選択します。
 
-   ![&#x200B; レポートの編集](assets/edit-report-box.png)
+   ![ レポートの編集](assets/edit-report-box.png)
 
-1. **設定** ダイアログボックスで、左側に一覧表示されているセクションの情報を編集します。 これらのセクションは、編集中のレポートタイプによって異なります。
+1. <span class="preview">**設定** ダイアログボックスで、左側に一覧表示されているセクションの情報を編集します。 これらのセクションは、編集中のレポートタイプによって異なります。
+
+   >[!TIP]
+   >
+   >すべてのレポートタイプの「詳細」セクションには、**のアクセス権を持つ**&#x200B;このレポートを実行するオプションが含まれています。 これを使用して、権限を使用してレポートデータをレンダリングするユーザーを指定し、すべてのダッシュボードビューアに同じデータを表示します。 詳細については、[KPI レポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)、[ グラフ レポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)または[ テーブル レポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)を参照してください。
+
+   </span>
 
 1. （オプション） KPI レポートを編集する場合は、必要に応じて次の節で情報を編集します。
 
@@ -106,7 +114,7 @@ ht-degree: 16%
    * **列の設定をドリルダウン**
    * **ドリルダウン グループ設定**
 
-   これらのセクションについて詳しくは、[&#x200B; チャートレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)を参照してください。
+   これらのセクションについて詳しくは、[ チャートレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)を参照してください。
 
 1. （オプション）表レポートを編集する場合は、必要に応じて次の節で情報を編集します。
 
@@ -115,7 +123,7 @@ ht-degree: 16%
    * **フィルター**
    * **グループ設定**
 
-   これらのセクションについて詳しくは、[&#x200B; テーブルレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)を参照してください。
+   これらのセクションについて詳しくは、[ テーブルレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)を参照してください。
 
 1. レポートを更新するには、**保存**&#x200B;をクリックします。
 
@@ -129,6 +137,6 @@ ht-degree: 16%
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 
-1. **Canvas ダッシュボード** ページで、編集するレポートの右上隅にある&#x200B;**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) アイコンをクリックし、**編集**&#x200B;を選択します。
+1. **Canvas ダッシュボード** ページで、編集するレポートの右上隅にある&#x200B;**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンをクリックし、**編集**&#x200B;を選択します。
 
 1. 「**レポート選択**」ボックスで、既存のレポートウィジェットのデータを置換するレポートと一致する「**追加**」をクリックします。

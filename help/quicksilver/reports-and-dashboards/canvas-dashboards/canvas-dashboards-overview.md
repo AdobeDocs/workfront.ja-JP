@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '534'
 ht-degree: 25%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。
 >
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 >
@@ -38,8 +38,8 @@ Adobe Canvas Dashboardsでは、ドキュメントの承認決定やWorkfront計
 ## 前提条件
 
 * お客様の組織がCanvas Dashboards betaに参加している必要があります。 詳しくは、[Canvas ダッシュボードのベータ情報](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)を参照してください。
-* Canvas ダッシュボードを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新規ライセンス）が必要です。 Workfront ライセンスの種類について詳しくは、[&#x200B; ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)または[新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
-* Workfront管理者は、Canvas ダッシュボードを作成または編集するために、アクセスレベルのダッシュボードへの「編集」アクセス権を付与する必要があります。 編集アクセス権の付与について詳しくは、[&#x200B; レポート、ダッシュボード、カレンダーへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)を参照してください。
+* Canvas ダッシュボードを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新規ライセンス）が必要です。 Workfront ライセンスの種類について詳しくは、[ ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)または[新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
+* Workfront管理者は、Canvas ダッシュボードを作成または編集するために、アクセスレベルのダッシュボードへの「編集」アクセス権を付与する必要があります。 編集アクセス権の付与について詳しくは、[ レポート、ダッシュボード、カレンダーへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)を参照してください。
 
 ## Canvas ダッシュボードの記事
 
@@ -99,6 +99,7 @@ Adobe Canvas Dashboardsでは、ドキュメントの承認決定やWorkfront計
 * KPIおよびチャートレポートのドリルダウン設定
 * テーブル結果のグループ化
 * ダッシュボードレベルのフィルターとユーザー適用のオーバーレイフィルター
+* レポートのユーザー設定として実行
 
 
 ### 開発中の機能

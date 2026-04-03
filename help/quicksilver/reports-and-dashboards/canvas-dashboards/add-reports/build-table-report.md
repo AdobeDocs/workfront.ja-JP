@@ -8,19 +8,22 @@ feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 15%
+source-wordcount: '1302'
+ht-degree: 14%
 
 ---
 
 # キャンバスダッシュボードでのテーブルレポートの作成
 
+{{highlighted-preview}}
+
+
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
@@ -97,9 +100,17 @@ ht-degree: 15%
 
    1. レポート **説明**&#x200B;を入力します。
 
+   1. <span class="preview"> （オプション）このレポートを&#x200B;**アクセス権**&#x200B;のフィールドで実行し、レポートを使用する権限を持つユーザーの名前を入力し始め、リストに表示されるユーザーを選択します。 レポートを別のユーザーとして実行するように設定すると、ダッシュボードのすべてのビューアに、自分のアクセスレベルに関係なく、同じデータが表示されます。 ユーザーを選択しない場合、各ビューアには自分の権限に基づくデータが表示されます。
+
+      >[!IMPORTANT]
+      >
+      >選択したユーザーが非アクティブ化されるか、関連するワークスペースまたはレコードタイプへのアクセス権を失った場合、レポートに不完全なデータが表示されるか、レンダリングに失敗する可能性があります。
+
+   </span>
+
 1. 次の手順に従って、**ビルドテーブル** セクションを設定します。
 
-   1. 左側のパネルで、**テーブル列** ![&#x200B; テーブルを作成アイコン &#x200B;](assets/drilldown-column.png) アイコンをクリックします。
+   1. 左側のパネルで、**テーブル列** ![ テーブルを作成アイコン ](assets/drilldown-column.png) アイコンをクリックします。
 
    1. **列を追加**&#x200B;をクリックし、テーブルに列として表示するフィールドを選択します。 列は右側のプレビューセクションに表示されます。
 
@@ -109,7 +120,7 @@ ht-degree: 15%
 
 1. 次の手順に従って、**Filter** セクションを設定します。
 
-   1. 左側のパネルで、**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、**フィルター** ![ フィルターアイコン ](assets/filter-icon.png) アイコンをクリックします。
 
    1. **フィルターを編集**&#x200B;を選択します。
 
@@ -119,7 +130,7 @@ ht-degree: 15%
 
 1. 「**ドリルダウングループ設定**」セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、**グループ設定** ![&#x200B; グループ設定アイコン &#x200B;](assets/drilldown-group-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、**グループ設定** ![ グループ設定アイコン ](assets/drilldown-group-icon.png) アイコンをクリックします。
 
    1. 「**グループ化を追加**」ボタンをクリックし、グループ化として作成するフィールドを選択します。 グループ化列は、右側のプレビューセクションに表示されます。
 
@@ -129,7 +140,7 @@ ht-degree: 15%
 
 この節では、保留中のドキュメント承認を表示するテーブルレポートを作成する手順について説明します。
 
-テーブル レポートの例について詳しくは、[&#x200B; レビューと承認用のレポート ダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
+テーブル レポートの例について詳しくは、[ レビューと承認用のレポート ダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
 
 {{step1-to-dashboards}}
 
@@ -154,7 +165,7 @@ ht-degree: 15%
 
 1. 次の手順に従って、**ビルドテーブル** セクションを設定します。
 
-   1. 左側のパネルで、**テーブル列** ![&#x200B; テーブル列アイコン &#x200B;](assets/drilldown-column.png) アイコンをクリックします。
+   1. 左側のパネルで、**テーブル列** ![ テーブル列アイコン ](assets/drilldown-column.png) アイコンをクリックします。
    1. 「**列を追加**」をクリックします。
    1. 下にスクロールして、**ドキュメント承認**/**ステータス**&#x200B;を選択します。
    1. 次の列を追加します。
@@ -195,7 +206,7 @@ ht-degree: 15%
 
 
 1. 次の手順に従って、**Filter** セクションを設定します。
-   1. 左側のパネルで、**フィルター** ![&#x200B; フィルタータブアイコン &#x200B;](assets/filter-tab.png) アイコンをクリックします。
+   1. 左側のパネルで、**フィルター** ![ フィルタータブアイコン ](assets/filter-tab.png) アイコンをクリックします。
    1. 「**フィルターを編集**」をクリックしてから、**条件を追加**&#x200B;をクリックします。
    1. 空の条件フィルターをクリックし、**フィールドを選択**&#x200B;をクリックします。
    1. **ステータス**&#x200B;を選択します。
@@ -224,7 +235,7 @@ ht-degree: 15%
 * **Workfront オブジェクト**：ネイティブ Workfront ワークフローオブジェクト。
 * **プランニングレコードタイプ**: Workfront Planningで定義されたカスタムレコードタイプ。
 
-![&#x200B; セクション ドロップダウン &#x200B;](assets/sections-dropdown.png)
+![ セクション ドロップダウン ](assets/sections-dropdown.png)
 
 基本エンティティオブジェクトを選択すると、**セクション** ドロップダウンが更新され、選択できるフィールドタイプオプションが表示されます。
 
@@ -234,7 +245,7 @@ ht-degree: 15%
 * **Workfront フィールド**：ネイティブフィールドのみ。
 * **関係**：接続レコード。
 
-![&#x200B; レポート可能なオブジェクトの選択](assets/reportable-objects-selection.png)
+![ レポート可能なオブジェクトの選択](assets/reportable-objects-selection.png)
 
 ### 子オブジェクトの参照
 
