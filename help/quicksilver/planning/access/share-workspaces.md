@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -66,7 +66,7 @@ This article describes how you can share a view with others. For information abo
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -154,25 +154,33 @@ Old:
 
 1. 共有するワークスペースを開き、画面の右上隅にある「**共有**」をクリックします。 共有ボックスが開きます。
 
-   ワークスペースの右上の![共有ボタン &#x200B;](assets/share-button-on-workspace-top-right.png)
+   ワークスペースの右上の![共有ボタン ](assets/share-button-on-workspace-top-right.png)
 
 1. <span class="preview"> （条件付き）アクセス レベルに応じて、次のいずれかの操作を行います。
 
    * システム管理者の場合は、次のオプションから選択します。</span>
 
-      * <span class="preview">**招待されたユーザーのみが**&#x200B;にアクセスできます。共有ボックスでエンティティを選択し、ワークスペースへのアクセス権を選択する必要があります。 これがデフォルトの選択範囲です。</span>
-      * <span class="preview">**システム内のすべてのユーザーが表示できます**:Planningにアクセスできるシステム内の全員が、Planningの&#x200B;**ワークスペース**&#x200B;領域のワークスペースを表示できます。</span>
+     <div class="preview">
+
+      * **招待されたユーザーのみが**&#x200B;にアクセスできます。共有ボックスでエンティティを選択し、ワークスペースへのアクセス権を選択する必要があります。 これはデフォルトの選択です。
+      * **システム内の全員が表示できます**:Planningにアクセスできるシステム内の全員が、Planningの&#x200B;**ワークスペース**&#x200B;領域のワークスペースを表示できます。
+
+     </div>
 
    * <span class="preview"> （条件付き）標準ライセンスを持つワークスペース マネージャーの場合、次のいずれかの選択項目が表示されますが、変更することはできません。</span>
 
-      * <span class="preview">**招待されたユーザーのみが**&#x200B;にアクセスできます。 これは既定の設定です。</span>
-      * <span class="preview">**システム内のすべてのユーザーが**</span>&#x200B;を表示できます
+     <div class="preview">
 
-     <span class="preview"> ワークスペースのグローバル権限を変更するには、システム管理者に依頼する必要があります。</span>
+      * **招待されたユーザーのみが**&#x200B;にアクセスできます。 これはデフォルトの設定です。
+      * **システム内のすべてのユーザーが**&#x200B;を表示できます
+
+     ワークスペースのグローバル権限を変更するには、システム管理者に依頼する必要があります。
+
+     </div>
 
 1. **このワークスペースへのアクセス権を付与** フィールドで、ユーザー、グループ、チーム、会社、または担当業務の名前を入力し始め、リストに表示されたらクリックします。
 
-   <span class="preview">![&#x200B; グループとUIを共有](assets/sharing-ui-with-groups.png)</span>
+   <span class="preview">![ グループとUIを共有](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >
@@ -182,7 +190,7 @@ Old:
 
 1. <span class="preview"> （オプション）グループ、チーム、役割、または会社と共有する場合は、エンティティの名前にカーソルを合わせ、右向きの矢印をクリックして、権限を受け取っているユーザーのリストを展開します。</span>
 
-   ![&#x200B; グループとワークスペースを共有](assets/share-workspace-role-expanding-arrow-highlighted.png)
+   ![ グループとワークスペースを共有](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
 1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
    * 表示
@@ -203,16 +211,16 @@ Old:
 1. （条件付き）ワークスペースのマネージャーである場合、次の領域でビューにアクセスするためのリクエストを他のユーザーから受け取る可能性があります。
 
    * アプリ内通知
-     ![&#x200B; アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
+     ![ アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
    * メール通知
-     ![&#x200B; アクセス要求のメール通知](assets/email-notification-for-access-request.png)
+     ![ アクセス要求のメール通知](assets/email-notification-for-access-request.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
 メール通知から、**すべての通知を表示**&#x200B;をクリックし、リスト内の通知をクリックします。
 
    「**保留中のアクセス要求**」ボックスが表示されます。
 
-   ![通知リストの承認ボックス &#x200B;](assets/notifications-list-approval-box.png)
+   ![通知リストの承認ボックス ](assets/notifications-list-approval-box.png)
 
 1. （オプション）権限を承認するユーザーの場合、ユーザー名の右側にあるドロップダウンメニューから次のいずれかのオプションを選択します。
    * **表示**

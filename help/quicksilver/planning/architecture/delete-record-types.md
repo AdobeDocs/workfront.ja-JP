@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1160'
 ht-degree: 21%
 
 ---
@@ -20,11 +20,9 @@ ht-degree: 21%
 
 # レコードタイプの削除
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -32,7 +30,7 @@ ht-degree: 21%
 
 ただし、レコードタイプを削除すると、そのレコードタイプに関連付けられているすべての情報も削除されます。詳しくは、この記事で[レコードタイプを削除する際の考慮事項](#considerations-when-deleting-record-types)の節を参照してください。
 
-レコードタイプについて詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
+レコードタイプについて詳しくは、[ レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -77,7 +75,7 @@ ht-degree: 21%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -157,7 +155,7 @@ Old:
 
 * 他のワークスペースに追加されたグローバルレコードタイプは削除できません。
 
-  詳しくは、この記事の「[&#x200B; グローバルレコードタイプを削除](#delete-global-record-types)」の節を参照してください。
+  詳しくは、この記事の「[ グローバルレコードタイプを削除](#delete-global-record-types)」の節を参照してください。
 
 ## レコードタイプの削除
 
@@ -169,6 +167,13 @@ Old:
 
    ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開し、ワークスペースを検索して、リストに表示されるときに選択します。
 
+   >[!TIP]
+   >
+   ><span class="preview">次のキーボードの組み合わせを使用して、任意のWorkfront計画ページからグローバル検索ボックスを開き、ワークスペースを検索できます。</span>
+   >
+   >* Windows<span class="preview">の</span>CTRL+K
+   >* Mac<span class="preview">⌘の</span>+K
+
    ワークスペースが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
@@ -179,7 +184,7 @@ Old:
      >
      >レコードの種類ページから追加されたセカンダリワークスペースから、グローバルなレコードの種類を削除することはできません。 削除できるのは、ワークスペースのレコードタイプカードのみです。
 
-     ![&#x200B; レコードタイプの確認を完全に削除](assets/permanently-delete-record-type-confirmation.png)
+     ![ レコードタイプの確認を完全に削除](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. 確認ボックスに「**delete**」と入力し、**完全に削除**」をクリックします。 大文字と小文字を区別しません。
@@ -207,9 +212,9 @@ Old:
    * レコードタイプがセカンダリワークスペースに追加されていない場合は、レコードタイプのカードの&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックするか、ページのレコードタイプの名前の右側にある「**削除**」をクリックします。
    * レコードタイプが他の少なくとも1つのセカンダリワークスペースに追加された場合は、まずセカンダリワークスペースに移動し、そのスペースからグローバルレコードを削除します。
 
-     詳しくは、この記事の「[&#x200B; セカンダリワークスペースからグローバルレコードタイプを削除する](#delete-a-global-record-type-from-a-secondary-workspace)」の節を参照してください。
+     詳しくは、この記事の「[ セカンダリワークスペースからグローバルレコードタイプを削除する](#delete-a-global-record-type-from-a-secondary-workspace)」の節を参照してください。
 
-1. （条件付き）この記事の「[&#x200B; レコードタイプを削除](#delete-record-types-1)」の節で説明しているように、レコードタイプの削除を続行します。
+1. （条件付き）この記事の「[ レコードタイプを削除](#delete-record-types-1)」の節で説明しているように、レコードタイプの削除を続行します。
 
    次のことが発生します。
 
@@ -243,7 +248,7 @@ Old:
 1. （オプション）レコードタイプのカードの&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックします。
 1. （条件付き）指定されたフィールドに「**delete**」と入力し、**完全に削除**」をクリックします。
 
-   ![&#x200B; セカンダリグローバルレコードタイプの削除の確認ボックス &#x200B;](assets/delete-secondary-global-record-type.png)
+   ![ セカンダリグローバルレコードタイプの削除の確認ボックス ](assets/delete-secondary-global-record-type.png)
 
    次のことが発生します。
 

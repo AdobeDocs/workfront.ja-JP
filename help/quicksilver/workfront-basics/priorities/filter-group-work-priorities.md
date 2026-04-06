@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
+source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 15%
+source-wordcount: '663'
+ht-degree: 14%
 
 ---
 
@@ -155,7 +155,8 @@ ht-degree: 15%
 
 1. ワークリストの左上にある「**グループ**」をクリックします。
 1. ワークリストを整理するグループを選択します。
-   ![グループ](assets/groups-new.png)
+
+![グループ](assets/groups-new.png)
 
 +++展開すると、使用可能なグループに関する詳細情報が表示されます
 
@@ -172,9 +173,9 @@ ht-degree: 15%
 
 マイ優先度またはステータスでグループ化する場合は、個々の作業項目をカテゴリ間でドラッグ&amp;ドロップできます。
 
-1. **ステータス**&#x200B;または&#x200B;**自分の優先度**&#x200B;で作業をグループ化します。
+1. **ステータス**&#x200B;または&#x200B;**自分のフォーカス**&#x200B;で作業をグループ化します。
 2. 作業項目にカーソルを合わせて&#x200B;**ドラッグ** アイコンをクリックし、目的のカテゴリに移動します。
-   ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-and-drop.png)
+   ![ ドラッグ アイコン ](assets/drag-and-drop.png)
 
 ## 作品の並べ替え
 
@@ -182,7 +183,7 @@ ht-degree: 15%
 
 グループ内の作業を並べ替えるには、**グループ**&#x200B;を開き、昇順または降順で並べ替えるかどうかを選択します。
 
-![&#x200B; グループで並べ替え](assets/sort-in-groups.png)
+![ グループで並べ替え](assets/sort-in-groups.png)
 
 ### 列を並べ替え
 
@@ -192,6 +193,6 @@ ht-degree: 15%
 
 ### すべてのグループセクションを展開または折りたたむ
 
-すべてのグループセクションを展開または折りたたむには、**グループ**&#x200B;を開き、**すべてを展開**&#x200B;または&#x200B;**すべてを折りたたむ**&#x200B;をクリックします。
+すべてのグループセクションを展開または折りたたむには、**グループ**&#x200B;を開き、グループ化が折りたたまれている場合は「**すべて展開**」、グループ化が展開されている場合は「**すべて折りたたむ**」をクリックします。
 
-![&#x200B; グループを展開または折りたたむ](assets/expand-collapse-groups.png)
+![ グループを展開または折りたたむ](assets/expand-collapse-groups.png)
