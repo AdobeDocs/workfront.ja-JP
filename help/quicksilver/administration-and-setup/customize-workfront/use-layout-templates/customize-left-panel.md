@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
+source-git-commit: f490d72b46073786cc079eec0640a0b535533281
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1226'
 ht-degree: 44%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 44%
 
 例えば、プロジェクトの表示時に左側のパネルに表示される次の項目を指定できます。
 
-![&#x200B; プロジェクトの左パネル &#x200B;](assets/left-panel-in-project.png)
+![ プロジェクトの左パネル ](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -71,7 +71,7 @@ ht-degree: 44%
 ## [!DNL Workfront] でエリアの左パネルをカスタマイズ
 
 1. [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
-1. ![&#x200B; ユーザーに表示される内容をカスタマイズ &#x200B;](assets/dropdown-arrow.png)の下の下向き矢印&#x200B;**[!UICONTROL 下向き矢印]**&#x200B;をクリックし、オブジェクトの種類の名前または左側のパネルをカスタマイズする[!DNL Workfront]領域をクリックします。
+1. ![ ユーザーに表示される内容をカスタマイズ ](assets/dropdown-arrow.png)の下の下向き矢印&#x200B;**[!UICONTROL 下向き矢印]**&#x200B;をクリックし、オブジェクトの種類の名前または左側のパネルをカスタマイズする[!DNL Workfront]領域をクリックします。
 
    左側のパネルをカスタマイズできるオブジェクトタイプと[!DNL Workfront]領域を次の表に示します。
 
@@ -90,7 +90,7 @@ ht-degree: 44%
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>プロジェクト名</td> 
-      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [ !UICONTROHours], TROICONL Workload Balancer&rbrack;, [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL キューの詳細], [!UICONTROL ルーティングルール &#x200B;], [!UICONTROL キューのトピック &#x200B;], [!UICONTROL トピックグループ &#x200B;], [!UICONTROL メトリクス &#x200B;], [!UICONTROL プランニング &#x200B;]*, [!UICONTROL カスタムアプリケーション &#x200B;]**</td> 
+      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROHours], TROICONL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL キューの詳細], [!UICONTROL ルーティングルール ], [!UICONTROL キューのトピック ], [!UICONTROL トピックグループ ], [!UICONTROL メトリクス ], [!UICONTROL プランニング ]*, [!UICONTROL カスタムアプリケーション ]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
@@ -110,7 +110,7 @@ ht-degree: 44%
      <tr> 
       <td>[!UICONTROL Program]</td> 
       <td>プログラム名</td> 
-      <td>[!UICONTROL プロジェクト &#x200B;]、[!UICONTROL プログラムの詳細]、[!UICONTROL アップデート &#x200B;]、[!UICONTROL ドキュメント &#x200B;]、[!UICONTROL プランニング &#x200B;]*、[!UICONTROL カスタム アプリケーション &#x200B;]**</td> 
+      <td>[!UICONTROL プロジェクト ]、[!UICONTROL プログラムの詳細]、[!UICONTROL アップデート ]、[!UICONTROL ドキュメント ]、[!UICONTROL プランニング ]*、[!UICONTROL カスタム アプリケーション ]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Template]</td> 
@@ -141,8 +141,8 @@ ht-degree: 44%
      </tr> 
      <tr> 
       <td><span class="preview">[!UICONTROL Resourcing]</span></td> 
-      <td><span class="preview">[!UICONTROL メインメニュー]の[!UICONTROL リソース &#x200B;] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
-      <td><span class="preview">[!UICONTROL Planner] （非表示にすることはできません）、[!UICONTROL Workload Balancer]、[!UICONTROL 利用状況]、[!UICONTROL リソースプール &#x200B;]</span></td> 
+      <td><span class="preview">[!UICONTROL メインメニュー]の[!UICONTROL リソース ] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
+      <td><span class="preview">[!UICONTROL Planner] （非表示にすることはできません）、[!UICONTROL Workload Balancer]、[!UICONTROL利用状況]、[!UICONTROL リソースプール ]</span></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -180,14 +180,14 @@ ht-degree: 44%
        <td><span class="preview">[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</span></td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL レートカード &#x200B;]</span></td> 
+       <td><span class="preview">[!UICONTROL レートカード ]</span></td> 
        <td><span class="preview">レートカードの名前</span></td> 
-       <td><span class="preview">[!UICONTROL の担当業務と料金]、[!UICONTROL の料金表の詳細]、[!UICONTROL の費用タイプと料金]</span></td> 
+       <td><span class="preview">[!UICONTROL ジョブの役割と率] （非表示にすることはできません）、[!UICONTROL レート カードの詳細]</span></td> 
      </tr>
      <tr> 
        <td><span class="preview">[!UICONTROL Group]</span></td> 
        <td><span class="preview">グループの名前</span></td> 
-       <td><span class="preview">[!UICONTROL グループ メンバー]、[!UICONTROL サブグループ メンバー]、[!UICONTROL グループの詳細]、[!UICONTROL プロジェクト環境設定]、[!UICONTROL タスクと問題環境設定]、[!UICONTROL タイムシートと時間]、[!UICONTROL サブグループ &#x200B;]、[!UICONTROL ステータス &#x200B;]、[!UICONTROL イベント通知]、[!UICONTROL プロジェクト &#x200B;]、[!UICONTROL プロジェクト &#x200B;] Templates&rbrack;, [!UICONTROL Recently Deleted], [!UICONTROL Recently Restored], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL タイムシート プロファイル &#x200B;], [!UICONTROL レイアウト テンプレート &#x200B;]</span></td> 
+       <td><span class="preview">[!UICONTROL グループ メンバー]、[!UICONTROL サブグループ メンバー]、[!UICONTROL グループの詳細]、[!UICONTROL プロジェクト環境設定]、[!UICONTROL タスクと問題環境設定]、[!UICONTROL タイムシートと時間]、[!UICONTROL サブグループ ]、[!UICONTROL ステータス ]、[!UICONTROL イベント通知]、[!UICONTROL プロジェクト ]、[!UICONTROL プロジェクト ] Templates], [!UICONTROL Recently Deleted], [!UICONTROL Recently Restored], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL タイムシート プロファイル ], [!UICONTROL レイアウト テンプレート ]</span></td> 
      </tr>
      <!--
       <tr> 
@@ -203,20 +203,6 @@ ht-degree: 44%
        <td>My Timesheets, Timesheets I Approve, All Timesheets (cannot be hidden) </td> 
       </tr>
      --> 
-     <!--
-      <tr> 
-       <td>Resourcing</td> 
-       <td>The name of the resource</td> 
-       <td>Planner (cannot be hidden), Workload Balancer, Utilization, Resource Pools </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>User Details</td> 
-       <td>____________</td> 
-       <td>Details (cannot be hidden), Org Chart, Time Off, Custom Forms </td> 
-      </tr>
-     --> 
     </tbody> 
    </table>
 
@@ -227,9 +213,9 @@ ht-degree: 44%
 
 1. **[!UICONTROL 左パネル]** リストで、次のいずれかの操作を行って、選択した[!DNL Workfront]領域またはオブジェクトタイプの左パネルに表示されるユーザーを決定します。
 
-   * **表示** ![表示アイコン &#x200B;](assets/add-secondary-nav-item.png)または&#x200B;**非表示** ![非表示アイコン &#x200B;](assets/delete-secondary-nav-item.png) アイコンをクリックして、左側のパネルでセクションを表示または非表示にします。 **表示**&#x200B;または&#x200B;**非表示** アイコンがない項目を非表示にすることはできません。
+   * **表示** ![表示アイコン ](assets/add-secondary-nav-item.png)または&#x200B;**非表示** ![非表示アイコン ](assets/delete-secondary-nav-item.png) アイコンをクリックして、左側のパネルでセクションを表示または非表示にします。 **表示**&#x200B;または&#x200B;**非表示** アイコンがない項目を非表示にすることはできません。
 
-   * 項目![移動アイコン &#x200B;](assets/move-icon---dots.png)をドラッグして、左側のパネルで順序を変更します。
+   * 項目![移動アイコン ](assets/move-icon---dots.png)をドラッグして、左側のパネルで順序を変更します。
 
    >[!NOTE]
    >
@@ -242,8 +228,8 @@ ht-degree: 44%
    >その他の領域をカスタマイズする方法については、次の記事を参照してください。
    >
    >* [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [&#x200B; レイアウトテンプレートを使用して[!UICONTROL 概要パネル &#x200B;]をカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-   >* [&#x200B; レイアウトテンプレートを使用したホームのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
+   >* [ レイアウトテンプレートを使用して[!UICONTROL 概要パネル ]をカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [ レイアウトテンプレートを使用したホームのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* [レイアウトテンプレートを使用して Adobe  [!DNL Workfront]  をブランディング](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
