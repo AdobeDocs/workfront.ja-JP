@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: d2fcb0725672f1b8a976e3f55046af99b56a6412
+source-git-commit: b934764d12aa81f836b5d71b624ce9d83aab63b1
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 30%
+source-wordcount: '602'
+ht-degree: 29%
 
 ---
 
@@ -62,15 +62,13 @@ ht-degree: 30%
 
 リクエストエリアのリクエストリストとホームのマイリクエストウィジェットに条件付き書式を適用できるようになりました。 この機能は、この機能強化の前にリストビューに存在しませんでした。
 
-詳しくは、「[&#x200B; リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
+詳しくは、「[ リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
 
 ## リクエスト領域およびマイリクエストウィジェットのリクエストリストに追加された定義済みビュー
 
 >[!NOTE]
 >
->プレビュー：2026年4月2日（PT）
->プロダクション高速リリース：2026年4月15日（PT）
->実稼動（全ユーザー）：2026年4月16日（PT）
+>定義済みビューにはプレビューリリースはなく、4月16日に実稼動環境に直接リリースされます。
 
 リクエストリストをより適切に整理するために、リクエスト エリアのリクエストリストとホームのマイリクエストウィジェットに、次の事前定義済みビューを追加しました。
 
@@ -81,7 +79,7 @@ ht-degree: 30%
 
 Workfront管理者は、レイアウトテンプレートにビューを追加または削除できます。 ビューを編集、削除、共有することはできません。 それらをコピーして、コピーを更新または共有できます。
 
-詳しくは、「[&#x200B; リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
+詳しくは、「[ リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
 
 ## リクエストリストとマイリクエストウィジェットでグループ化を作成する
 
