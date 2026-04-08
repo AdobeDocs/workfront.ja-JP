@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 551f316bcfd5e0a1390e7be4679e06cd6808e969
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '13917'
+source-wordcount: '13922'
 ht-degree: 97%
 
 ---
@@ -552,6 +552,7 @@ ht-degree: 97%
          * [イシューへのアクセスを許可](administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
          * [ドキュメントに対するアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
          * [ユーザーへのアクセスを許可](administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+         * [担当業務へのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md)
          * [チームに対するアクセスの許可](administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
          * [テンプレートへのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
          * [レポート、ダッシュボード、カレンダーへのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
@@ -795,7 +796,7 @@ ht-degree: 97%
       * [評価カードを管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
       * [テンプレートからの評価カードの読み込み](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
       * [プロジェクトへのプッシュ率の変更](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
-      * [&#x200B; レートカードの共有](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
+      * [ レートカードの共有](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
    * 統合の設定 {#configure-integrations}
       * [統合の設定](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront 統合](administration-and-setup/configure-integrations/workfront-integrations-1.md)
@@ -2243,7 +2244,7 @@ ht-degree: 97%
          * [Adobe Workfront for Creative Cloud アプリケーションのインストール](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Photoshop 用 Adobe Workfront をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Adobe Workfront for XD をインストールして開きます。](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-         * [&#x200B; [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+         * [ [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
       * Creative Cloud アプリケーション用の Adobe Workfront プラグインで作業を管理 {#manage-wf-cc}
          * [Creative Cloud アプリケーション用の Adobe Workfront プラグインで作業を管理](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Adobe Workfront プラグインを使用して作業を検索](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
@@ -2251,7 +2252,7 @@ ht-degree: 97%
          * [Adobe Workfront プラグインを使用して作業を更新](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Adobe Workfront プラグインを使用して作業アイテムを完了とマーク](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Adobe Workfront プラグインを使用して時間を記録](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントとプルーフのアップロード {#upload-docs-proofs-wf-cc}
          * [ドキュメントやプルーフを  [!DNL Adobe Workfront plugin]  から  [!DNL Creative Cloud] にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントとプルーフのアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
@@ -2261,8 +2262,8 @@ ht-degree: 97%
          * [XD アートボードをドキュメントとして Workfront にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [&#x200B; [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [&#x200B; [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [ [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [ [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator および InDesign 向け Workfront 拡張機能 {#workfront-for-illustrator-indesign}
          * [Illustrator および InDesign 向け Workfront 拡張機能の使用](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Jira 用 Adobe Workfront {#workfront-for-jira}

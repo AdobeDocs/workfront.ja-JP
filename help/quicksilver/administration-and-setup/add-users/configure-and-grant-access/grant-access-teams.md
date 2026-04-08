@@ -1,14 +1,14 @@
 ---
-title: チームへのアクセス権の付与
+title: グループへのアクセス権の付与
 description: Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront のチームへのユーザーのアクセス権を定義できます
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -44,12 +44,12 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront 
 
 +++
 
-## カスタムのアクセスレベルを使用して、ユーザーを編集するユーザーのアクセス権を設定
+## カスタムアクセスレベルを使用して、チームを編集するためのユーザーのアクセス権を設定します
 
 1. アクセスレベルの作成または編集を行います。詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 1. 「チーム」の右側にある&#x200B;**表示**&#x200B;ボタンまたは&#x200B;**編集**&#x200B;ボタンにある歯車アイコン ![](assets/gear-icon-settings.png) をクリックし、付与する権限を&#x200B;**設定を微調整する**&#x200B;で選択します。
 
-   ![&#x200B; チームの微調整 &#x200B;](assets/fine-tune-teams.png)
+   ![ チームを微調整](assets/fine-tune-teams.png)
 
    * **表示**：任意のライセンスを持つユーザーがチームを表示する方法を設定する場合は、次のオプションを変更します。
 
@@ -125,4 +125,4 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront 
 
 ## ライセンスタイプ別のチームへのアクセス権
 
-各アクセスレベルのユーザーがイシューに対して実行できる内容については、[各オブジェクトタイプで利用可能な機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)の記事の[チーム](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams)の節を参照してください。
+各アクセスレベルのユーザーがチームで実行できる処理について詳しくは、記事[各オブジェクトタイプで使用できる機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams)のTeams[の節を参照してください。](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)

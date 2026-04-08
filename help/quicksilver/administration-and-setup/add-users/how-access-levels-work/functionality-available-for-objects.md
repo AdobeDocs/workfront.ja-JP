@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1721d6d4c2059fa32d0fd2ae80af4bd26a8f06a7
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 91%
+source-wordcount: '1597'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 91%
 >[!NOTE]
 >
 >* この記事では、新しいWorkfront パッケージモデルのアクセスレベルで利用できる機能について説明します。 現在のパッケージモデルで利用可能な機能を確認するには、様々なアクセスレベルで各オブジェクトタイプで利用可能な[機能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)を参照してください。
->* 最新モデルの様々なパッケージで利用できる機能の一覧については、[Adobe Workfrontの価格とパッケージ &#x200B;](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
+>* 最新モデルの様々なパッケージで利用できる機能の一覧については、[Adobe Workfrontの価格とパッケージ ](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 ## プロジェクト
 
@@ -302,30 +302,30 @@ ht-degree: 91%
 
 &#42;&#42;外部ユーザーは他のユーザーのみを検索できます。
 
-<!--
-
 <div class="preview">
 
-## Job Roles
+## 担当業務
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
+| アクション | 標準 | ライト | コントリビューター | 外部ユーザー |
 |-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+| 表示 | ✓ | ✓ | ✓ |   |
+| 編集 | ✓ |   |   |   |
+| 作成 | ✓* |   |   |   |
+| 削除 | ✓* |   |   |   |
+| 請求レートを編集 | ✓* |   |   |   |
+| コスト率を編集 | ✓* |   |   |   |
+| 一般財務を編集 | ✓* |   |   |   |
+| 請求料率を表示 | ✓* |   |   |   |
+| コスト率を表示 | ✓* |   |   |   |
+| 一般財務を表示 | ✓* |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+&#42;アクセスレベルを使用して、Workfront 管理者は、この機能を無効または有効にできます。
 
 </div>
+
+<!--
 
 ## Companies
 
