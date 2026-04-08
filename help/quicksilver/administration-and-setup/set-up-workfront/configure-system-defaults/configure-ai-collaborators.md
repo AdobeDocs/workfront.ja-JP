@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 25c4d4435cc3507ab2d163600a8c42be66efd4c2
+source-git-commit: 25d5fef46bc8f02e92d778685c2ad6e93439f9ff
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 7%
+source-wordcount: '407'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
 
 利用可能なAI共同作業者タイプは次のとおりです。
 
-* レビュアー：ブランドまたはブランドのブレインを使用して共同作業者を作成し、その共同作業者をアセットのレビュアーとして割り当てます。
+* レビュアー：ブランド <!-- or Adobe Brand Intelligence-->を使用して共同作業者を作成し、その共同作業者をアセットのレビュアーとして割り当てます。
 
   詳しくは、[Workfront Content Reviewerの基本を学ぶ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)を参照してください。
 
@@ -70,7 +70,7 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
   詳しくは、「[Adobe生成AI契約書に署名する](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)」を参照してください。WorkfrontのAI アシスタントの記事を参照してください。
 * レビューアータイプのAI コラボレーターに使用するには、Workfrontでブランドを設定しておく必要があります。
 
-  手順については、[&#x200B; コンテンツレビュアーのブランドの作成と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)を参照してください。
+  手順については、[ コンテンツレビュアーのブランドの作成と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)を参照してください。
 
 ## レビュー担当者タイプのAI コラボレーターを新規作成する
 
@@ -85,9 +85,9 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
    >現在、レビューアータイプのみが使用できます。 将来的には、より多くのAI コラボレーターのタイプが利用可能になる予定です。
 
 1. 「共同作業者の名前」フィールドに、共同作業者の名前を入力します。 これは、タスクで使用可能な担当者のリストに表示される名前です。
-1. 共同作業者がレビューにブランドを使用するか、ブランドの脳を使用するかを選択します。
-1. （条件付き） AI コラボレーターがブランド ブレインを使用する場合は、使用するテナントを選択します。
-1. （条件付き） AI共同作業者がブランドを使用する場合は、使用するブランドとブランドガイドラインを選択します。
+   <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
+   <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
+1. <!--(Conditional) If the AI Collaborator will use a Brand,-->使用するブランドとブランドのガイドラインを選択します。
 1. 「**保存**」をクリックします。
 
 ## AI共同作業者の管理
@@ -98,5 +98,5 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
 
 1. 左側のナビゲーションで、**AI Collaborators**&#x200B;をクリックします。
 1. （条件付き）共同作業者を編集するには、編集する共同作業者の名前をクリックし、「共同作業者を編集」ウィンドウで編集を行い、**保存**&#x200B;をクリックします。
-1. （条件付き）共同作業者をコピーするには、コピーするAI共同作業者の行にあるコピーアイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-ai-collaborator.png)をクリックし、コピーの名前をクリックして、共同作業者を編集ウィンドウで編集し、**保存**&#x200B;をクリックします。
-1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン &#x200B;](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
+1. （条件付き）共同作業者をコピーするには、コピーするAI共同作業者の行にあるコピーアイコン ![ コピーアイコン ](assets/copy-ai-collaborator.png)をクリックし、コピーの名前をクリックして、共同作業者を編集ウィンドウで編集し、**保存**&#x200B;をクリックします。
+1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン ](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
