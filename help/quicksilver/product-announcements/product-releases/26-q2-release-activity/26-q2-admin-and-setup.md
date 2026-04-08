@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
+source-git-commit: 16ca615d8a0432f371debb832236e788ee5beb88
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '563'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 15%
 
 2026年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2026年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)を参照してください。
 
-## AI共同作業者が利用可能になりました
+## Content Review AI Collaboratorが利用可能になりました
 
 >[!NOTE]
 >
@@ -28,13 +28,11 @@ ht-degree: 15%
 >実稼動（迅速リリース）：2026年4月15日（PT）
 >実稼動（全ユーザー）：2026年4月16日（PT）
 
-アドビでは、AI コラボレーターを作成し、日常業務でAIを容易に活用できるようにしました。 AI協力者とは、AI エージェントをプロジェクトやタスクに組み込む手法のひとつです。 ブランドガイドラインを使用してAI コラボレーターを設定し、ユーザーと同様にタスクに割り当てることができます。
+アドビでは、AIを日常業務で容易に活用できるように、コンテンツレビューAI コラボレーターを開発しました。 共同作業者とは、AI エージェントをプロジェクトやタスクに組み込む方法です。 ブランドガイドラインを使用してAI コラボレーターを設定し、ユーザーと同様にタスクに割り当てることができます。
 
-現在、AI コラボレーターはコンテンツのレビューに使用できます。 AI Collaboratorの機能は、今後さらに追加される予定です。
+現在、コンテンツレビューは利用可能な唯一のAI共同作業者です。 AI Collaboratorの機能は、今後さらに追加される予定です。
 
-<!--
-For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
--->
+詳しくは、[AI コラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)を参照してください。
 
 ## カスタム四半期は、セットアップの別ページとして使用できるようになりました
 
@@ -51,7 +49,7 @@ For more information, see [Configure AI Collaborators](/help/quicksilver/adminis
 * 「カスタム四半期」セクションが左側の設定パネルに追加されます。 機能は同じままです。 
 * 「カスタム四半期」セクションが、グループの「プロジェクト環境設定」セクションから削除されました。 グループ管理者は、カスタム四半期の設定を表示できなくなりました。 
 
-詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[ カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## カスタムフォームセクションをデフォルトで折りたたむ
 
@@ -63,7 +61,7 @@ For more information, see [Configure AI Collaborators](/help/quicksilver/adminis
 
 デフォルトでは、カスタムフォーム自体が展開されると、カスタムフォームのすべてのセクションが展開されます。 カスタムフォームデザイナーの新しいオプションを使用すると、ユーザーがフォームを開いたときに、デフォルトで折りたたむセクションにマークを付けることができます。 このオプションは、フィールドではなく、セクションレベルで適用されます。
 
-詳細については、[&#x200B; フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
+詳細については、[ フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
 
 ## リッチテキストフィールドタイプがカスタムフォームで使用できるようになりました
 
@@ -79,7 +77,7 @@ For more information, see [Configure AI Collaborators](/help/quicksilver/adminis
 
 リッチテキストフィールドタイプは、テキストを書式設定フィールドタイプに置き換えます。 右側のフィールドオプションのボタンをクリックすると、書式設定フィールドを含む既存のテキストをリッチテキストにすばやく変換できます。 変換すると、履歴データはフィールドに残り、レポートで同じ方法で使用されます。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## Workfrontのメール通知用の新しいIP アドレス
 
