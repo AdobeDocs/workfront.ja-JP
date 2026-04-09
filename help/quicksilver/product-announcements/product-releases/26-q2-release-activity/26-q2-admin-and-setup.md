@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 16ca615d8a0432f371debb832236e788ee5beb88
+source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '562'
 ht-degree: 15%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 15%
 * 「カスタム四半期」セクションが左側の設定パネルに追加されます。 機能は同じままです。 
 * 「カスタム四半期」セクションが、グループの「プロジェクト環境設定」セクションから削除されました。 グループ管理者は、カスタム四半期の設定を表示できなくなりました。 
 
-詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[ カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## カスタムフォームセクションをデフォルトで折りたたむ
 
@@ -61,9 +61,9 @@ ht-degree: 15%
 
 デフォルトでは、カスタムフォーム自体が展開されると、カスタムフォームのすべてのセクションが展開されます。 カスタムフォームデザイナーの新しいオプションを使用すると、ユーザーがフォームを開いたときに、デフォルトで折りたたむセクションにマークを付けることができます。 このオプションは、フィールドではなく、セクションレベルで適用されます。
 
-詳細については、[&#x200B; フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
+詳細については、[ フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
 
-## リッチテキストフィールドタイプがカスタムフォームで使用できるようになりました
+## リッチテキストフィールドは、テキストを書式設定フィールドタイプに置き換えます
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ ht-degree: 15%
 
 リッチテキストフィールドタイプは、テキストを書式設定フィールドタイプに置き換えます。 右側のフィールドオプションのボタンをクリックすると、書式設定フィールドを含む既存のテキストをリッチテキストにすばやく変換できます。 変換すると、履歴データはフィールドに残り、レポートで同じ方法で使用されます。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## Workfrontのメール通知用の新しいIP アドレス
 
