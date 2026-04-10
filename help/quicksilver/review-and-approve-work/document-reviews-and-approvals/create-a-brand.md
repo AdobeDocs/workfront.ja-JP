@@ -66,7 +66,7 @@ ht-degree: 7%
 
 ## 前提条件
 
-1. ブランドを作成する前に、Admin ConsoleおよびWorkfrontのアクセスレベルでブランド権限へのアクセス権を付与する必要があります。 手順については、[ ブランド権限へのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)を参照してください。
+1. ブランドを作成する前に、Admin ConsoleおよびWorkfrontのアクセスレベルでブランド権限へのアクセス権を付与する必要があります。 手順については、[&#x200B; ブランド権限へのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)を参照してください。
 
 
 ## PDFを使用したブランドの構築
@@ -77,7 +77,7 @@ ht-degree: 7%
 1. 画面の右上隅にある「**ブランドを追加**」をクリックします。
 1. ブランドに名前を付けます。
 1. 「**PDFをアップロード**」をクリックして、ブランドファイルをアップロードします。
-   ![ ブランド pdfをアップロード ](assets/upload-PDF.png)
+   ![&#x200B; ブランド pdfをアップロード &#x200B;](assets/upload-PDF.png)
 1. 「**続行**」をクリックします。
 1. ブランドガイドラインを含む1つ以上のPDF ファイルをアップロードし、**ブランドを追加**&#x200B;をクリックします。
 1. ファイルがアップロードされたら、抽出したブランド要素を確認して、ブランドガイドラインに準拠していることを確認します。
@@ -125,7 +125,7 @@ ht-degree: 7%
     </tr>
     </table>
 
-   ![ ブランド要素を手動で追加](assets/brand-elements.png)
+   ![&#x200B; ブランド要素を手動で追加](assets/brand-elements.png)
 
 
 1. 完了したら、**公開**&#x200B;をクリックして、ブランドをコンテンツレビュー担当者が利用できるようにします。
