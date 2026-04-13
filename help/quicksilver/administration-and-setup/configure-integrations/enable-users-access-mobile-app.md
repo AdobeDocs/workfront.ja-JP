@@ -58,4 +58,4 @@ ht-degree: 92%
 1. **[!UICONTROL システム]** を展開し、次に&#x200B;**[!UICONTROL 環境設定]** をクリックします。
 1. 「**[!UICONTROL 保存]」** をクリックします。
 
-[!DNL Workfront]モバイルアプリをサイトで有効にした後の使用方法について詳しくは、[ [!DNL Adobe Workfront] モバイルアプリの使用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)を参照してください。
+[!DNL Workfront]モバイルアプリをサイトで有効にした後の使用方法について詳しくは、[&#x200B; [!DNL Adobe Workfront] モバイルアプリの使用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)を参照してください。

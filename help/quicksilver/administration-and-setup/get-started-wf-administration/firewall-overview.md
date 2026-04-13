@@ -101,10 +101,10 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
 
    クラスターは、「**基本情報**」セクションの右上隅近くに表示されます。
 
-   ![ クラスターの検索](assets/locate-cluster.png)
+   ![&#x200B; クラスターの検索](assets/locate-cluster.png)
 
 1. Workfront パッケージを表示するには、**ライセンス**&#x200B;を選択します。
 
    パッケージがページの右上隅付近に表示されます。
 
-   ![ プランの検索](assets/locate-plan.png)
+   ![&#x200B; プランの検索](assets/locate-plan.png)
