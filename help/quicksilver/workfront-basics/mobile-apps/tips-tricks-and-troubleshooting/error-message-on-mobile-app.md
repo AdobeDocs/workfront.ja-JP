@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: ' [!DNL Adobe Workfront]  モバイルアプリのエラーメッセージ：「お使いのアカウントは API が有効になっていません。」'
-description: ' [!DNL Adobe Workfront]  モバイルアプリのエラーメッセージ：「お使いのアカウントは API が有効になっていません。」'
+title: ' [!DNL Adobe Workfront]  モバイルアプリのエラーメッセージ：「お使いのアカウントはAPIが有効になっていません。」'
+description: ' [!DNL Adobe Workfront]  モバイルアプリのエラーメッセージ：「お使いのアカウントはAPIが有効になっていません。」'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 68%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 1. **[!UICONTROL 設定]**&#x200B;エリアに移動します。
 1. **[!UICONTROL システム]**&#x200B;メニューを開き、「**[!UICONTROL 環境設定]**」をクリックします。
 
-1. **[!UICONTROL セキュリティ]**&#x200B;セクションで、「**[!UICONTROL ユーザーに [!DNL Workfront] のモバイルアプリケーションの使用を許可する」と「[!DNL Workfront Outlook] アドイン]**&#x200B;オプション」を選択して有効にします。
+1. 「**[!UICONTROL セキュリティ]**」セクションで、「**[!UICONTROL ユーザーが[!DNL Workfront]のモバイルアプリケーション]**」オプションを選択して有効にします。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。\
-   システム内のすべてのユーザーは、モバイルアプリから、および [!DNL Outlook] から [!DNL Workfront] にアクセスできるようになります。
+   システム内のすべてのユーザーが、モバイルアプリから[!DNL Workfront]にアクセスできるようになりました。

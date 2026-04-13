@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: ファイアウォールの許可リスト
+title: ファイアウォールの許可リストを設定する
 description: ファイアウォールやメールサーバーが、特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをその許可リストに追加する必要があります。これにより、環境と Adobe Workfront サーバー間の通信が開き、ユーザーは Workfront からメッセージを送信し、Active Directory または LDAP で SSO を使用することが可能になります。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1569'
 ht-degree: 86%
 
 ---
@@ -70,12 +70,6 @@ ht-degree: 86%
 
 ## 許可リストに追加する IP アドレス
 
->[!IMPORTANT]
->
->一部の Workfront 統合は、静的 IP アドレスで設定できないため、許可リストが有効な場合は機能しません。次の統合を使用するには、許可リストを無効にする必要があります。
->
->* Workfront for Outlook
-
 * [クラスター 1、2、3、5、7、8、9 に対して許可する IP アドレス](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [クラスター 4 に許可する IP アドレス](#ip-addresses-to-allow-for-cluster-4)
 * [クラスター 6 に許可する IP アドレス](#ip-addresses-to-allow-for-cluster-6)
@@ -88,7 +82,7 @@ ht-degree: 86%
 
 ### クラスター 1、2、3、5、7、8、9 に対して許可する IP アドレス {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-実稼動環境がクラスター 1、2、3、5、7、8、9 にある場合、次の IP アドレスを許可する必要があります。
+実稼動環境がクラスター1、2、3、5、7、8、または9上にある場合は、次のIP アドレスを許可する必要があります。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -197,7 +191,7 @@ ht-degree: 86%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">メールサービスを使用するには</td> 
+   <td role="rowheader">メールサービスを利用するには</td> 
    <td> 
     <ul> 
      <li>54.240.60.174</li> 
@@ -230,7 +224,7 @@ ht-degree: 86%
 
 ### クラスター 11 に許可する IP アドレス
 
-クラスター 11 上のWorkfront アプリケーションからメールを受信するには、次の IP アドレスを追加します。
+クラスター11上のWorkfront アプリケーションからメールを受信するには、次のIP アドレスを追加します。
 
 * 24.110.76.224
 * 24.110.76.223
@@ -341,7 +335,7 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-また、組織でアウトバウンドネットワークフィルタリングを使用している場合は、次のドメインを許可リストに追加して、システムからWorkfront Fusion にアクセスできるようにします。 これらの URL は、Fusion の Webhook に使用されます。
+また、組織でアウトバウンドネットワークフィルタリングを使用している場合は、次のドメインをWorkfrontに追加して、システムが許可リストに加える Fusionにアクセスできるようにします。 これらのURLは、FusionのWebhookに使用されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -440,7 +434,7 @@ Workfront for Jira 統合を使用するためには、次の IP アドレスを
 * *.static.workfront.com
 
 
-  これは、次のすべてのドメインを組み込んだ静的ドメインです。 必要に応じて、個々のドメインを追加できます。
+  これは、次のすべてのドメインを含む静的ドメインです。 必要に応じて、個々のドメインを追加できます。
 
    * mfe.static.workfront.com
    * mfe-c.static.workfront.com
@@ -448,7 +442,7 @@ Workfront for Jira 統合を使用するためには、次の IP アドレスを
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-組織がAdobe Unified Experience 上にある場合は、次のドメインを使用します。 これらのドメインについては `*.adobe.com` で説明していますが、必要に応じて追加できます。
+組織がAdobe Unified Experienceを利用している場合は、次のドメインが使用されます。 これらのドメインは`*.adobe.com`でカバーされていますが、必要に応じて追加できます。
 
 * &lt;your domain>.my.workfront.adobe.com
 * &lt;your domain>.preview.workfront.adobe.com
@@ -456,15 +450,15 @@ Workfront for Jira 統合を使用するためには、次の IP アドレスを
 * &lt;your domain>.sb02.workfront.adobe.com
 
 
-Workfront Fusion の場合、次のドメインを追加します。
+Workfront Fusionの場合は、次のドメインを追加します。
 
-* Adobe統合エクスペリエンス以外の組織の場合：
+* Adobe Unified Experienceを利用していない場合：
    * app.workfrontfusion.com （米国AWS）
    * app-eu.workfrontfusion.com （EU AWS）
-   * app-az.workfrontfusion.com （米国 Azure）
+   * app-az.workfrontfusion.com （米国Azure）
 
-* Adobe統合エクスペリエンスの組織の場合
-（これらのドメインについては `*.adobe.com` で説明していますが、必要に応じて追加できます。）
+* Adobe Unified Experience Managerの導入について
+（これらのドメインは`*.adobe.com`でカバーされていますが、必要に応じて追加できます）。
 
    * fusion.adobe.com
    * app-eu.fusion.adobe.com

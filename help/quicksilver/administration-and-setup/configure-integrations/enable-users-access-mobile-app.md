@@ -11,10 +11,10 @@ role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 77970e17611a61308018db82d4b72fb7fe988ac1
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 94%
+source-wordcount: '117'
+ht-degree: 92%
 
 ---
 
@@ -56,12 +56,6 @@ ht-degree: 94%
 1. ページの右上隅にある&#x200B;**[!UICONTROL 設定]** をクリックします。
 
 1. **[!UICONTROL システム]** を展開し、次に&#x200B;**[!UICONTROL 環境設定]** をクリックします。
-
-1. **[!UICONTROL Workfront のモバイルアプリケーションおよび[!DNL Workfront Outlook]アドインを使わせる]**&#x200B;設定を選択し、ユーザーが [!DNL Workfront] モバイルアプリまたは [!DNL Workfront] を Outlook で [!DNL Workfront] を使用できるようにします。\
-   このオプションは、デフォルトで有効になっています。
-
 1. 「**[!UICONTROL 保存]」** をクリックします。
 
-[!DNL Workfront]モバイルアプリをサイトで有効にした後の使用方法について詳しくは、[&#x200B; [!DNL Adobe Workfront] モバイルアプリの使用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)を参照してください。
-
-[!DNL Workfront for Outlook] の使用方法に関して詳しくは、[&#x200B; [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) を使用の節を参照してください。
+[!DNL Workfront]モバイルアプリをサイトで有効にした後の使用方法について詳しくは、[ [!DNL Adobe Workfront] モバイルアプリの使用](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)を参照してください。

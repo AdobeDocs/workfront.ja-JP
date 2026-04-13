@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '111'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 100%
 * [カスタムフォームの機能強化](custom-form-enhancements.md)
 * [iOS および Android 用のモバイルアプリを更新しました（2017年8月初旬）](updated-mobile-app.md)
 * [Adobe Workfront で必要な TLS 1.2](tls-1-disabled.md)
-* [Outlook 365 アドインが利用可能になりました](../../outlook-365-add-in/outlook-365-add-in-now-available.md)
 * [Adobe Workfront における Flash ベースのツールの代替](replace-flash-tools.md)
 * [新しい Adobe Workfront 管理システムでは、リクエストキューの POP メールを 21.1 に置き換える](pop-removal-request-queue.md)
 * [新しい Adobe Workfront 管理システムでは、リクエストキューの POP メールを 21.1 に置き換える](pop-removal-request-queue.md)
