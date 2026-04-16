@@ -24,7 +24,7 @@ ht-degree: 23%
 
 レートカードの作成について詳しくは、[レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
-プロジェクトの担当業務の請求レートの上書きおよびプロジェクト収益の計算に関する一般的な情報については、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+プロジェクトの担当業務の請求レートの上書きおよびプロジェクト収益の計算に関する一般的な情報については、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
 ## アクセス要件
 
@@ -65,7 +65,7 @@ ht-degree: 23%
 
    「**レートカードを添付**」ボックスが開きます。 リストからレートカードを検索できます。
 
-   ![ レートカードボックスを添付](assets/attach-rate-card-dialog.png)
+   ![&#x200B; レートカードボックスを添付](assets/attach-rate-card-dialog.png)
 
    >[!NOTE]
    >
@@ -87,6 +87,6 @@ ht-degree: 23%
 
 1. プロジェクトに移動します。
 1. 左側のパネルで「**料金**」をクリックし、「**請求**」を選択します。
-1. **削除** アイコン ![削除アイコン ](assets/remove-icon.png)をクリックします。
+1. **削除** アイコン ![削除アイコン &#x200B;](assets/remove-icon.png)をクリックします。
 1. 確認メッセージの「**確認**」をクリックして、レートカードを削除します。
 

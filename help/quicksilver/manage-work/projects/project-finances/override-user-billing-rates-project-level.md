@@ -20,7 +20,7 @@ ht-degree: 23%
 
 この記事では、プロジェクトのシステムユーザーの請求レートを上書きする方法について説明します。
 
-プロジェクトの請求レートの上書きとプロジェクト収益の計算について詳しくは、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+プロジェクトの請求レートの上書きとプロジェクト収益の計算について詳しくは、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
 プロジェクトでの収益の計算について詳しくは、[収益とコスト階層の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)およびユーザーと役割の割り当てに基づくタスクの[収益計算](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) セクション（[請求と収益の概要](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)）を参照してください。
 
@@ -87,7 +87,7 @@ ht-degree: 23%
    * **開始日**：請求レートの上書きが開始される日付。
    * **終了日**：請求レートの上書きが終了した日付。
 
-   ![有効な日付を表示する新規ユーザー請求率ボックス ](assets/new-user-billing-rate-on-project2.png)
+   ![有効な日付を表示する新規ユーザー請求率ボックス &#x200B;](assets/new-user-billing-rate-on-project2.png)
 
    Workfrontでは、プロジェクトの収益を計算する際に、これらの時間枠の間に発生した時間にオーバーライドのユーザーレートが適用されます。
 

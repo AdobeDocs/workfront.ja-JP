@@ -19,7 +19,7 @@ ht-degree: 20%
 
 プロジェクト <!--or a staffing plan-->にレートカードが添付されている場合でも、レートカードのレートを調整できます。 その後、レートカードが添付されているプロジェクト <!--and staffing plans -->に対して、オプションでこれらのレートをプッシュできます。 新しいレートをプッシュしない場合、元のレートはプロジェクト <!-- or staffing plan-->に残ります。
 
-プロジェクトへのレートカードの添付について詳しくは、[ プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)を参照してください。
+プロジェクトへのレートカードの添付について詳しくは、[&#x200B; プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)を参照してください。
 
 ## アクセス要件
 
@@ -39,7 +39,7 @@ ht-degree: 20%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL レートカード ]へのアクセスを編集</td> 
+   <td>[!UICONTROL レートカード &#x200B;]へのアクセスを編集</td> 
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 
