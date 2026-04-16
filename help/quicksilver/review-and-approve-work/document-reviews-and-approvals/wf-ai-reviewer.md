@@ -63,7 +63,7 @@ Workfront Content Reviewerは、コンテンツをレビューする際にブラ
 ブランドガイドラインを設定するには、システム管理者は次の手順に従う必要があります。
 
 1. [ブランド権限へのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
-1. [ コンテンツレビュアー](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)のブランドを作成および管理します。
+1. [&#x200B; コンテンツレビュアー](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)のブランドを作成および管理します。
 
 
 ## コンテンツレビュアーの作成
@@ -90,18 +90,18 @@ Workfront Content Reviewerは、コンテンツをレビューする際にブラ
 
 作成した承認テンプレートは、プロジェクト、タスク、イシューの「ドキュメント」エリアのアセットに適用できます。
 
-詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
-AI レビューアーを表示する![ テンプレートリスト ](assets/ai-review-templates.png)
+AI レビューアーを表示する![&#x200B; テンプレートリスト &#x200B;](assets/ai-review-templates.png)
 
 ### 個人のレビューと承認のリクエスト
 
 ユーザーが個々のレビューと承認のリクエストを作成する場合、他の参加者と一緒にコンテンツレビュー担当者を追加したり、コンテンツレビュー担当者のみで1つのリクエストを作成してブランドコンプライアンスを確認したりできます。
 
-詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 
-![ コンテンツレビュアーが個別の承認リクエストに追加されました](assets/new-stage.png)
+![&#x200B; コンテンツレビュアーが個別の承認リクエストに追加されました](assets/new-stage.png)
 
 ## コンテンツレビュー担当者のスコアとフィードバックを表示
 
@@ -113,5 +113,5 @@ AI レビューアーを表示する![ テンプレートリスト ](assets/ai-r
 
 アセットがブランドガイドラインを満たしていない場合、クリエイターは新しいバージョンをアップロードでき、承認所有者はコンテンツレビュアーで2回目のレビューと承認リクエストを作成できます。
 
-スコアとフィードバックの表示について詳しくは、[ コンテンツレビュー担当者のスコアとフィードバックの表示](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)を参照してください。
+スコアとフィードバックの表示について詳しくは、[&#x200B; コンテンツレビュー担当者のスコアとフィードバックの表示](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)を参照してください。
 

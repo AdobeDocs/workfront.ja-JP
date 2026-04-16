@@ -60,7 +60,7 @@ ht-degree: 18%
 
 ## レガシードキュメント領域のドキュメント概要から、追加の承認者またはレビュー担当者を追加します
 
-組織がWorkfront ストレージを使用している場合は、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージ ](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)の比較を参照してください。
+組織がWorkfront ストレージを使用している場合は、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージ &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)の比較を参照してください。
 
 ドキュメントの概要から承認者またはレビュー担当者を追加するには：
 
@@ -78,7 +78,7 @@ ht-degree: 18%
 
 1. 名前が追加されたら、承認者またはレビュアーのどちらかであるかを選択します。
 
-   ![承認者またはレビュー担当者のドロップダウン ](assets/choose-approver-or-reviewer.png)
+   ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-approver-or-reviewer.png)
 
 1. 手順5～6を繰り返して、承認者またはレビュー担当者を追加します。
 保存すると、追加された参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
@@ -87,14 +87,14 @@ ht-degree: 18%
 
 ## 新しいドキュメント領域のドキュメント概要から、追加の承認者またはレビュー担当者を追加します
 
-組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント領域が表示されます。 エンタープライズストレージについて詳しくは、[ エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント領域が表示されます。 エンタープライズストレージについて詳しくは、[&#x200B; エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 
 1. 「**ワークフローを編集**」をクリックします。
@@ -103,7 +103,7 @@ ht-degree: 18%
 
 1. 名前が追加されたら、承認者またはレビュアーのどちらかであるかを選択します。
 
-   ![承認者またはレビュー担当者のドロップダウン ](assets/choose-approver-or-reviewer.png)
+   ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-approver-or-reviewer.png)
 
 1. 手順5～6を繰り返して、承認者またはレビュー担当者を追加します。
 保存すると、追加された参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
