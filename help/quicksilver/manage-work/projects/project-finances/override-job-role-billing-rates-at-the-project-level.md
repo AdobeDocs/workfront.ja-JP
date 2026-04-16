@@ -21,9 +21,9 @@ ht-degree: 37%
 
 この記事では、プロジェクトのシステム担当業務の請求料金を上書きする方法について説明します。
 
-プロジェクトの担当業務の請求レートの上書きおよびプロジェクト収益の計算に関する一般的な情報については、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+プロジェクトの担当業務の請求レートの上書きおよびプロジェクト収益の計算に関する一般的な情報については、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
-プロジェクトの収益を計算するために使用される担当業務の詳細については、記事[請求と収益の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)の「[収益とコスト階層の概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)」および「[ ユーザーと役割の割り当てに基づくタスクの収益計算](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)」セクションを参照してください。
+プロジェクトの収益を計算するために使用される担当業務の詳細については、記事[請求と収益の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)の「[収益とコスト階層の概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)」および「[&#x200B; ユーザーと役割の割り当てに基づくタスクの収益計算](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)」セクションを参照してください。
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ ht-degree: 37%
    * **開始日**：請求レートの上書きが開始される日付。
    * **終了日**：請求レートの上書きが終了した日付。
 
-   ![上書き日を含む請求レート ](assets/new-job-role-billing-rate-on-project2.png)
+   ![上書き日を含む請求レート &#x200B;](assets/new-job-role-billing-rate-on-project2.png)
 
    Workfrontでは、プロジェクトの収益を計算する際に、これらの時間枠の間に発生した時間に上書き担当業務率が適用されます。
 

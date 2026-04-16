@@ -14,7 +14,7 @@ ht-degree: 34%
 
 # 担当業務へのアクセス権の付与
 
-Adobe Workfront管理者は、[ アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)で説明しているように、ユーザーのアクセスレベルを通じて担当業務へのユーザーのアクセス権を定義できます。
+Adobe Workfront管理者は、[&#x200B; アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)で説明しているように、ユーザーのアクセスレベルを通じて担当業務へのユーザーのアクセス権を定義できます。
 
 担当業務について詳しくは、[担当業務の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。
 
@@ -79,4 +79,4 @@ Adobe Workfront管理者は、[ アクセスレベルの概要](../../../adminis
 
 ## ライセンス タイプ別の担当業務へのアクセス
 
-各アクセスレベルのユーザーがジョブロールで実行できる操作について詳しくは、記事[各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#job-roles)の「[ ジョブロール ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)」の節を参照してください。
+各アクセスレベルのユーザーがジョブロールで実行できる操作について詳しくは、記事[各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#job-roles)の「[&#x200B; ジョブロール &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)」の節を参照してください。

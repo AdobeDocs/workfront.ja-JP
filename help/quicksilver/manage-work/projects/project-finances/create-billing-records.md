@@ -110,7 +110,7 @@ ht-degree: 38%
 
 1. （オプション）「**カスタム Forms**」で、レコードに追加する請求記録カスタムフォームを選択します。
 
-   請求記録のカスタムフォームを作成してから、ここで選択する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   請求記録のカスタムフォームを作成してから、ここで選択する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 「**保存」をクリックします。**&#x200B;請求記録が作成されます。
 
@@ -144,10 +144,10 @@ ht-degree: 38%
      >[!NOTE]
      >
      >プロジェクトレベルで、担当業務の請求率を上書きできます。\
-     >詳細については、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)の記事の「プロジェクト レベルでの担当業務の請求レートの上書き」の節を参照してください。
+     >詳細については、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)の記事の「プロジェクト レベルでの担当業務の請求レートの上書き」の節を参照してください。
 
 * 「プロジェクト設定」で「このプロジェクトに対する承認時間を要求」オプションを選択した場合、プロジェクト所有者はログ時間を承認する必要があります。\
-  詳細については、[ プロジェクトの承認に要する時間](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)を参照してください。
+  詳細については、[&#x200B; プロジェクトの承認に要する時間](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)を参照してください。
 
 #### 請求記録に時間を追加 {#add-hours-to-a-billing-record}
 
@@ -219,7 +219,7 @@ ht-degree: 38%
 
    または
 
-   右上隅の&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、使用可能なフィールドで情報を編集します。
+   右上隅の&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックし、使用可能なフィールドで情報を編集します。
 
    次を更新します。
 
