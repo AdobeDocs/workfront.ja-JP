@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 86%
+source-wordcount: '898'
+ht-degree: 61%
 
 ---
 
@@ -65,16 +65,35 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 
 ## カスタムのアクセスレベルを使用して、ユーザーを編集するユーザーのアクセス権を設定
 
-1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
-1. プランライセンスまたはワークライセンスを持つユーザーの権限を、他のユーザーのプロファイルを表示できるように変更するには：
+1. アクセスレベルの作成または編集を行います。詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+1. 標準、プラン、または作業ライセンスを持つユーザーの機能を変更して、他のユーザーの情報を表示するには、![ ユーザー](assets/gear-icon-settings.png)の右側にある&#x200B;**表示** ボタンの歯車アイコン **をクリックし、**&#x200B;設定を微調整&#x200B;**ボックスで付与する表示オプションを選択します。**
 
-   1. 歯車アイコンをクリックします。「**ユーザー**」の右側にある&#x200B;**表示**&#x200B;ボタンで歯車アイコン ![](assets/gear-icon-settings.png) をクリックします。
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>請求率を表示</strong> </td> 
+      <td> ユーザーがユーザープロファイルの請求レートを表示できるようにします。</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>連絡先情報を表示</strong> </td> 
+      <td> 他のユーザーのユーザー詳細ページを表示できます。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong> コスト率を表示</strong> </td> 
+      <td> ユーザーがユーザープロファイルのコスト率を表示できます。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>財務の表示</strong> </td> 
+      <td> ユーザーがユーザープロファイルの一般的な財務フィールド（請求またはコスト率に関連しない）を表示できるようにします。</td>
+     </tr> 
+    </tbody> 
+   </table>
 
-   1. 「**連絡情報の表示**」を無効にし、「X」をクリックして、「**設定の微調整**」ボックスを閉じます。
+   ![ ユーザー設定の表示を微調整](assets/fine-tune-view-users.png)
 
-      ![&#x200B; ユーザー設定を微調整](assets/fine-tune-users.png)
-
-1. 他のユーザーを編集するプランライセンスのアクセス権を持つユーザーの権限を変更するには、「**ユーザー**」の右側にある&#x200B;**編集**&#x200B;ボタン上の歯車アイコン ![](assets/gear-icon-settings.png) をクリックし、付与する権限を次の中から選択します。
+1. 標準またはプランのライセンスを持つユーザーの権限を変更して他のユーザーを編集するには、![ ユーザー](assets/gear-icon-settings.png)の右側にある&#x200B;**編集** ボタンの歯車アイコン **歯車アイコン**&#x200B;をクリックし、**設定を微調整** ボックスで付与する編集オプションを選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -89,6 +108,18 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
      <tr> 
       <td role="rowheader"><strong>削除</strong> </td> 
       <td> <p> ユーザーが自分で作成したユーザーを削除できるようにします。<br>このオプションは、デフォルトで有効になっています。</p> <p><b>メモ</b>：組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>請求率の編集</strong> </td> 
+      <td> ユーザーがユーザープロファイルの請求レートを編集できるようにします。</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong> コストレートを編集</strong> </td> 
+      <td> ユーザーがユーザープロファイルのコスト率を編集できるようにします。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>財務の編集</strong> </td> 
+      <td> ユーザーがユーザープロファイルの一般的な財務フィールド（請求またはコスト率に関連しない）を編集できるようにします。</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>ユーザー管理者（すべてのユーザー）</strong> </td> 
@@ -108,6 +139,18 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
          <li><p>ユーザーのパスワードをリセット</p><p><b>メモ</b>：グループ管理者は、Workfront 管理者としてログインしたり、パスワードをリセットしたりすることはできません。</p></li>
         </ul><p>このオプションはデフォルトでは無効になっています。</p></p> </td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"><strong>請求率を表示</strong> </td> 
+      <td> ユーザーがユーザープロファイルの請求レートを表示できるようにします。</td>  
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong> コスト率を表示</strong> </td> 
+      <td> ユーザーがユーザープロファイルのコスト率を表示できます。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>財務の表示</strong> </td> 
+      <td> ユーザーがユーザープロファイルの一般的な財務フィールド（請求またはコスト率に関連しない）を表示できるようにします。</td>
+     </tr>
     </tbody> 
    </table>
 

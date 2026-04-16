@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -21,11 +21,9 @@ ht-degree: 67%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
 
-{{highlighted-preview}}
-
 タスクの財務情報を表示または編集するには、「タスクの詳細」セクションの「概要」領域にアクセスします。 この領域で表示または編集できるフィールドの数は限られています。
 
-タスクのすべての財務情報の編集について詳しくは、[&#x200B; タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
+タスクのすべての財務情報の編集について詳しくは、[ タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
 
 ## アクセス要件
 
@@ -107,7 +105,7 @@ Old:
 
 1. 「**財務**」をクリックして展開し、タスクの財務情報を表示します。
 
-   詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックし、**財務**&#x200B;をクリックします。
+   詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、**財務**&#x200B;をクリックします。
 
 1. 編集可能なフィールドをシングルクリックして編集するか、「**+ 追加**」をクリックして空のフィールドに情報を追加します。
 1. **Finance**&#x200B;領域で次の情報を確認または編集します。
@@ -124,7 +122,7 @@ Old:
         <li> <p>固定 (毎時) </p> </li> 
         <li> <p> ユーザー (毎時) </p> </li> 
         <li> <p> 役割（毎時）</p> </li> 
-        <li> <p> <span class="preview"> ユーザーと役割（時間単位） </span></p> </li> 
+        <li> <p>ユーザーと役割 (毎時)</p> </li> 
        </ul> <p>コストの追跡について詳しくは、<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。システムまたはグループのタスクに対するデフォルトのコストタイプ設定は、Workfront 管理者またはグループ管理者が選択します。プロジェクトのデフォルトの設定については、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクトの環境設定の指定</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
@@ -134,14 +132,14 @@ Old:
         <li> <p> 請求不可 </p> </li> 
         <li> <p>ユーザー (毎時) </p> </li> 
         <li> <p>役割（毎時） </p> </li> 
-        <li> <p> <span class="preview"> ユーザーと役割（時間単位） </span></p> </li>
+        <li> <p>ユーザーと役割 (毎時)</p> </li>
         <li> <p>固定 (毎時) </p> </li> 
         <li> <p>ユーザー (毎時) (キャップ付き) </p> </li> 
         <li> <p>役割（毎時）（キャップ付き） </p> </li>
-        <li> <p> <span class="preview"> キャップ付きのユーザーと役割（時間単位） </span></p> </li> 
+        <li> <p>キャップ付きのユーザーと役割の時間単位</p> </li> 
         <li> <p>ユーザー（毎時）+ 固定 </p> </li> 
         <li> <p>役割（毎時）+ 固定 </p> </li> 
-        <li> <p> <span class="preview"> ユーザーと役割の時間単位プラス固定</span></p> </li>
+        <li> <p>ユーザーと役割 (毎時) + 固定</p> </li>
         <li> <p>固定収益 </p> </li> 
        </ul> <p>収益のトラッキングについて詳しくは、<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">請求と収益の概要</a>および<a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">収益とコスト階層の概要</a>を参照してください。 </p> <p>システムまたはグループのタスクに対する収益タイプのデフォルト設定は、Workfront 管理者またはグループ管理者が選択します。プロジェクトのデフォルトの設定については、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクトの環境設定の指定</a>を参照してください。</p> </td> 
      </tr> 
@@ -162,13 +160,13 @@ Old:
       <td> <p>ユーザーまたは担当業務の時間単価、実際の時間、収益タイプに基づいて、タスクに関連付けられた収益が算されます。コストの追跡について詳しくは、 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">時間外労働率</span></td> 
-      <td><span class="preview"><p>タスクの残業乗数（1.5または2.0など）を入力します。デフォルトは1.0 （乗数なし）です。 詳しくは、<a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">残業率の定義</a>を参照してください。</p><p>「残業率」フィールドを表示するには、次の手順を実行します。</p>
+      <td>時間外労働率</td> 
+      <td><p>タスクの残業乗数（1.5または2.0など）を入力します。デフォルトは1.0 （乗数なし）です。 詳しくは、<a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">残業率の定義</a>を参照してください。</p><p>「残業率」フィールドを表示するには、次の手順を実行します。</p>
        <ul>
        <li>タスクの収益タイプは、ユーザーと役割の時間単位である必要があります。 詳しくは、<a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">収益とコスト階層の概要</a>を参照してください。</li>
        <li>このフィールドは、レイアウトテンプレートで、タスクの詳細ビューの「財務」領域で有効にする必要があります。 詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md"> レイアウトテンプレートを使用した詳細ビューのカスタマイズ </a>を参照してください。</li>
        </ul>
-      </span></td>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">CPI/SPI/CSI</td> 

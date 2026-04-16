@@ -5,7 +5,7 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 23%
@@ -13,8 +13,6 @@ ht-degree: 23%
 ---
 
 # プロジェクトへのレートカードの添付
-
-{{highlighted-preview-article-level}}
 
 レートカードには、属性にもとづいて、役職ごとに複数の請求レートが保存されます。 例えば、エージェンシーAではパリに拠点を置くDesigner、エージェンシーBではパリに拠点を置く別のDesigner、エージェンシーに割り当てられていないニューヨークに拠点を置く3番目のDesignerの役職があり、それぞれ請求率が異なる場合があります。 ただし、レートカードの担当業務には属性は必要ありません。 属性は、より詳細なコンバージョン率を確立するツールとしての役割を果たします。 レートカードの請求レートは、指定した日付に開始して終了するように、日付に有効にすることもできます。
 
@@ -26,7 +24,7 @@ ht-degree: 23%
 
 レートカードの作成について詳しくは、[レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
-プロジェクトの担当業務の請求レートの上書きおよびプロジェクト収益の計算に関する一般的な情報については、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+プロジェクトの担当業務の請求レートの上書きおよびプロジェクト収益の計算に関する一般的な情報については、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
 ## アクセス要件
 
@@ -67,7 +65,7 @@ ht-degree: 23%
 
    「**レートカードを添付**」ボックスが開きます。 リストからレートカードを検索できます。
 
-   ![&#x200B; レートカードボックスを添付](assets/attach-rate-card-dialog.png)
+   ![ レートカードボックスを添付](assets/attach-rate-card-dialog.png)
 
    >[!NOTE]
    >
@@ -89,6 +87,6 @@ ht-degree: 23%
 
 1. プロジェクトに移動します。
 1. 左側のパネルで「**料金**」をクリックし、「**請求**」を選択します。
-1. **削除** アイコン ![削除アイコン &#x200B;](assets/remove-icon.png)をクリックします。
+1. **削除** アイコン ![削除アイコン ](assets/remove-icon.png)をクリックします。
 1. 確認メッセージの「**確認**」をクリックして、レートカードを削除します。
 

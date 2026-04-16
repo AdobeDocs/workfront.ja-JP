@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 2%
@@ -16,8 +16,6 @@ ht-degree: 2%
 ---
 
 # レート属性の定義
-
-{{highlighted-preview-article-level}}
 
 レート属性は、Adobe Workfrontのレートカードとレート機能を拡張し、ジョブロールを超えたレートにディメンションを追加できるようにします。 これは、代理店や企業にとって、その割合が職務の役割だけでなく、代理店、所在地、ブランド、コストセンターなどの要因によって異なる場合に特に重要です。
 これらの属性を組み合わせることで、Workfrontは適切な割り当て率を自動的に選択し、プロジェクト全体の財務的な正確性と一貫性を確保できます。
@@ -137,11 +135,11 @@ BULLET POINT Non-labor resources: Attributes can also be defined on resources su
 
    >[!NOTE]
    >
-   >ダイアグラムには最大5つの属性を設定できます。 上から下への順序は、属性の適用方法の階層を定義します。 **回転** アイコン ![回転アイコン &#x200B;](assets/rotate-attribute-view-icon.png)をクリックして、図を左から右に表示します。 また、ズームインまたはズームアウトして、ダイアグラムを画面に合わせることもできます。
+   >ダイアグラムには最大5つの属性を設定できます。 上から下への順序は、属性の適用方法の階層を定義します。 **回転** アイコン ![回転アイコン ](assets/rotate-attribute-view-icon.png)をクリックして、図を左から右に表示します。 また、ズームインまたはズームアウトして、ダイアグラムを画面に合わせることもできます。
 
 1. 属性を選択して、画面の右側にある設定パネルを開きます。
 
-   ![&#x200B; レート属性の設定](assets/configure-rate-attributes.png)
+   ![ レート属性の設定](assets/configure-rate-attributes.png)
 
 1. オブジェクト（グループ、会社、場所）の名前を、ビジネスに必要な用語（代理店、場所、コストセンターなど）に変更します。
 1. 各属性の&#x200B;**保存**&#x200B;をクリックして、命名規則を保存します。

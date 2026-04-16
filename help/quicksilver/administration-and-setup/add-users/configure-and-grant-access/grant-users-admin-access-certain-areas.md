@@ -5,18 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 83%
+source-wordcount: '686'
+ht-degree: 93%
 
 ---
 
 # 特定の領域に対する管理アクセス権をユーザーに付与
 
 <!--Linked in several places, do not rename or change URL.-->
-
-{{highlighted-preview}}
 
 Adobe Workfront管理者は、アクセスレベルを使用して、StandardまたはPlan ライセンスのユーザーにシステムの特定の領域への管理アクセス権を付与できます。
 
@@ -95,17 +93,7 @@ Adobe Workfront管理者は、アクセスレベルを使用して、Standardま
         <li>自身の費用</li>
         <li>部下の費用</li>
        </ul></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">担当業務</td> 
-      <td> <p><span class="preview"><b> メモ </b>: プレビュー環境では、担当業務へのアクセスは、アクセスレベルのオブジェクトタイプとして制御されます。 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">担当業務へのアクセス権の付与</a>を参照してください。</span></p>
-      <p>このアクセス権を持つユーザーは、次の操作を実行できます。</p> 
-       <ul> 
-        <li>既存の担当業務を表示および編集</li> 
-        <li>新規担当業務を追加</li> 
-        <li>役割請求率と役割コスト率を編集</li> 
-       </ul> <p><b>重要</b>: Standard ユーザーまたはPlan ユーザーに担当業務への管理アクセス権を付与すると、財務データアクセス設定の「役割の請求とコスト率を編集」がユーザーに対して自動的に有効になります。 その後、Standard ユーザーまたはPlan ユーザーの担当業務への管理アクセスを無効にした場合でも、「役割の請求とコスト率を編集」設定が有効になっているため、担当業務は引き続きユーザーに表示されます。 これが発生し、担当業務を表示するためのユーザーのアクセス権を削除する必要がある場合は、ユーザーの「役割請求率と役割コスト率を編集」権限設定を無効にする必要があります。手順について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">財務データへのアクセス権を付与</a>を参照してください。</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">マイグループのマイルストーン</td> 
       <td>「設定」のマイルストーンパスメニューで、システム内のすべてのマイルストーンパスを表示します。ユーザーは、自分のグループに属するマイルストーンパスを編集または削除することもできます。ユーザーは、どのグループにも割り当てられていないマイルストーンパスを管理（編集または削除）することができません。<br><p>このアクセス権がない場合、ユーザーは既存のマイルストーンパスを表示し、管理するアクセス権を持つプロジェクトに適用することのみ可能です。</p></td> 
@@ -133,3 +121,17 @@ Adobe Workfront管理者は、アクセスレベルを使用して、Standardま
    >[!NOTE]
    >
    >ユーザーに対する管理アクセス権をユーザーに付与できます。ユーザーに管理アクセス権を付与してユーザーアカウントを管理できるようにする方法について詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
+
+
+<!--     
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> <p><b>NOTE</b>: In the Preview environment, access to job roles is controlled as an object type in the access level. See <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Grant access to job roles</a>.</p>
+      <p>With this access, the user is allowed to do the following:</p> 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> <p><b>IMPORTANT</b>: If you grant a Standard or Plan user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically. Later, if you disable administrative access to job roles for the Standard or Plan user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </td> 
+     </tr>
+-->

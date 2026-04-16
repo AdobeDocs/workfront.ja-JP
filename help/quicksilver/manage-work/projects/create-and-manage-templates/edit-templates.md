@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '4971'
-ht-degree: 87%
+source-wordcount: '5076'
+ht-degree: 85%
 
 ---
 
@@ -74,7 +74,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-* この表の詳細については、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* この表の詳細については、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -117,7 +117,7 @@ Old:
 
 1. 編集するテンプレートに移動します。
 1. （条件付き）テンプレートに関する限られた情報を編集するには、左パネルの「**テンプレートの詳細**」をクリックし、左パネルに一覧表示されているエリアに移動して、それぞれのエリアの情報を編集します。
-1. 詳細セクションで情報を編集するには、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックし、次のいずれかの領域から選択するか、**すべてを編集**&#x200B;をクリックして、すべての領域で情報を編集します。
+1. 詳細セクションで情報を編集するには、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、次のいずれかの領域から選択するか、**すべてを編集**&#x200B;をクリックして、すべての領域で情報を編集します。
 
    * 概要
    * カスタムフォーム
@@ -130,7 +130,7 @@ Old:
    >
    >詳細エリアに表示されるすべてのフィールドについては、以下のテンプレートの編集ボックスを使用したすべてのフィールドの編集に進みます。
 
-1. （条件付き）テンプレートに関するすべての情報を編集するには、テンプレート名の横にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
+1. （条件付き）テンプレートに関するすべての情報を編集するには、テンプレート名の横にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
 
    **テンプレートの編集**&#x200B;ボックスが開きます。このボックスのセクションには、テンプレートの詳細セクションで使用可能なフィールドと、その他のフィールドが含まれています。
 
@@ -140,7 +140,7 @@ Old:
    * [概要](#overview-preview)
    * [財務](#finance-preview)
    * [カスタムフォーム](#custom-forms-preview)
-   * [&#x200B; テンプレート設定](#template-settings)
+   * [ テンプレート設定](#template-settings)
    * [タスク設定](#task-settings)
    * [問題設定](#issue-settings)
    * [アクセス](#access-preview)
@@ -163,7 +163,7 @@ Old:
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. 「**テンプレートを編集**」ボックス内で、**概要**&#x200B;をクリックします。
 
-   ![&#x200B; テンプレートボックスの編集の概要セクション &#x200B;](assets/edit-template-box-overview-section.png)
+   ![ テンプレートボックスの編集の概要セクション ](assets/edit-template-box-overview-section.png)
 
 1. 次のフィールドを更新します。
 
@@ -268,7 +268,7 @@ Old:
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. 「**テンプレートを編集**」ボックスで、**財務**&#x200B;をクリックします。
 
-   ![&#x200B; テンプレートボックスを編集ファイナンスセクション &#x200B;](assets/edit-template-box-finance-section.png)
+   ![ テンプレートボックスを編集ファイナンスセクション ](assets/edit-template-finance-section-040626.png)
 
 1. 次のフィールドを更新します。
 
@@ -276,6 +276,14 @@ Old:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>プロジェクト請求レート情報を保持</strong></td>
+      <td><p>このオプションを有効にすると、すべての割り当て請求レートは、請求階層から適用できる最も高いレートに永続的に固定されます。 これは1回限りの選択であり、プロジェクトに割り当てまたは時間が設定されている場合は、このオプションを無効にすることはできません。 保存後は、プロジェクトの任意の場所で割り当て請求率を変更、編集、または上書きすることはできません。</p></td>
+     </tr>
+     <tr>
+      <td><strong>システムの日付の実効為替レートを使用</strong></td>
+      <td><p>このオプションを選択すると、システムレベルの日付有効な為替レートが常に使用され、為替レートの上書きはプロジェクトで許可されません。</p> <p>オプションが選択されている場合は、<strong>為替レート日付</strong>から開始する必要があります。</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>通貨</strong></td> 
       <td><p>システムのデフォルトの通貨と異なる場合は、将来のプロジェクトの通貨を指定します。システムにデフォルトの通貨のみが存在する場合、このフィールドは表示されません。<br>通貨について詳しくは、<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>を参照してください。</p></td> 
@@ -315,13 +323,13 @@ Old:
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. **テンプレートを編集**&#x200B;ボックスで、「**カスタムフォーム**」をクリックします。
 
-   ![&#x200B; テンプレートボックスを編集カスタム Forms セクション &#x200B;](assets/edit-template-box-custom-forms-section.png)
+   ![ テンプレートボックスを編集カスタム Forms セクション ](assets/edit-template-box-custom-forms-section.png)
 
    テンプレートに既に添付されているカスタムフォームの名前が左のパネルに表示されます。
 
 1. 「**カスタムフォームを追加**」フィールドの中をクリックして、テンプレートに関連付けるカスタムフォーム（複数可）を選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。
 
-   アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
    1 つのテンプレートに最大 10 個のカスタムフォームを追加できます。
 
@@ -342,7 +350,7 @@ Old:
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. **テンプレートを編集**&#x200B;ボックスで、「**プロジェクト設定**」をクリックします。
 
-   ![&#x200B; テンプレート ボックス テンプレート設定の編集セクション &#x200B;](assets/edit-template-box-project-settings-section.png)
+   ![ テンプレート ボックス テンプレート設定の編集セクション ](assets/edit-template-box-project-settings-section.png)
 
 1. 次のフィールドを更新します。
 
@@ -483,10 +491,10 @@ Old:
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. **テンプレートの編集**&#x200B;ボックスで、「**タスクの設定**」をクリックします。
 
-   ![&#x200B; テンプレート ボックスのタスク設定セクション &#x200B;](assets/edit-template-box-task-settings-section.png)を編集
+   ![ テンプレート ボックスのタスク設定セクション ](assets/edit-template-box-task-settings-section.png)を編集
 
 1. 「**タスク既定の承認プロセス**」ボックスで、このテンプレートで作成されたプロジェクトに新しいタスクを追加する場合に、すべての新しいタスクに関連付けるタスク承認プロセスを選択します。承認プロセスをタスクに関連付けるには、まず、タスクの承認プロセスを作成する必要があります。アクティブな承認プロセスのみがリストに表示されます。承認プロセスの作成について詳しくは、[承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
-1. 「**タスクのデフォルトのカスタムフォーム**」ボックスで、このテンプレートから作成されたプロジェクトにカスタムフォーム（複数可）を追加する際に、すべての新しいタスクに関連付けるカスタムフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 1 つのタスクに最大 10 個のカスタムフォームを関連付けることができます。
+1. 「**タスクのデフォルトのカスタムフォーム**」ボックスで、このテンプレートから作成されたプロジェクトにカスタムフォーム（複数可）を追加する際に、すべての新しいタスクに関連付けるカスタムフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 1 つのタスクに最大 10 個のカスタムフォームを関連付けることができます。
 1. （オプション）テンプレートから作成されたプロジェクトで予定時間数ではなく作業量を使用してタスクを管理する場合は、「**作業量を使うとタスクの予定時間数を自動的に計算できます**」を選択します。
 1. （条件付きおよびオプション）「作業量を使うとタスクの予定時間数を自動的に計算できます」を選択した場合は、ドロップダウンメニューをクリックし、作業量の各レベルで割合を更新します。デフォルト値は以下のとおりです。
 
@@ -511,7 +519,7 @@ Old:
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. 「**テンプレートを編集**」ボックスで、「**問題設定**」をクリックします。
 
-   ![&#x200B; テンプレートボックスの問題設定の編集セクション &#x200B;](assets/edit-template-box-issue-settings-section.png)
+   ![ テンプレートボックスの問題設定の編集セクション ](assets/edit-template-box-issue-settings-section.png)
 
 1. （オプション）「**ユーザーがインラインで問題を追加できるようにする**」オプションの選択を解除します。これはデフォルトで有効になっています。
 
@@ -538,7 +546,7 @@ Old:
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. 「**テンプレートを編集**」ボックスで「**アクセス**」をクリックします。
 
-   ![&#x200B; テンプレート ボックスの編集アクセス セクション &#x200B;](assets/edit-template-box-access-section.png)
+   ![ テンプレート ボックスの編集アクセス セクション ](assets/edit-template-box-access-section.png)
 
    テンプレートに指定したアクセス権は、テンプレートを使用してプロジェクトを作成する際に、プロジェクトに関連付けられたユーザーのアクセス権になります。
 
@@ -618,7 +626,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 1. 前述の説明に従って、テンプレートの編集を開始します。
 1. **テンプレートを編集** ボックスで、**コメント**&#x200B;をクリックします。
 
-   ![&#x200B; テンプレートボックスの編集コメントのセクション &#x200B;](assets/edit-template-box-comment-section.png)
+   ![ テンプレートボックスの編集コメントのセクション ](assets/edit-template-box-comment-section.png)
 1. 更新に関するコメントを追加するか、追加ユーザーをタグ付けするか、**会社にプライベート** ボックスを選択して、更新を社内のユーザーにプライベートに保ち、**保存**&#x200B;をクリックします。
 
    >[!TIP]
@@ -640,11 +648,11 @@ Editing templates in bulk differs depending on which environment you are using.
 {{step1-to-templates}}
 
 1. リスト内の複数のテンプレートを選択します。
-1. **編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+1. **編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
    **テンプレートを編集**&#x200B;ダイアログボックスが開きます。
 
-   ![&#x200B; テンプレートを編集](assets/bulk-edit-templates-0925.png)
+   ![ テンプレートを編集](assets/bulk-edit-templates-0925.png)
 
 1. 左側のセクションをクリックして、選択したすべてのテンプレートを編集します。
 
@@ -725,7 +733,7 @@ To edit templates in bulk:
 * ドキュメント
 * リスク
 
-  リスクの作成について詳しくは、[&#x200B; プロジェクトのリスクの作成と編集](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)を参照してください。
+  リスクの作成について詳しくは、[ プロジェクトのリスクの作成と編集](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)を参照してください。
 
 * 承認プロセス
 
@@ -741,7 +749,7 @@ To edit templates in bulk:
 
 * キューの詳細
 
-  プロジェクトまたはテンプレートへのキュー詳細の追加について詳しくは、[&#x200B; リクエストキューの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
+  プロジェクトまたはテンプレートへのキュー詳細の追加について詳しくは、[ リクエストキューの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
 * トピックグループとキューのトピック
 
@@ -770,12 +778,12 @@ To edit templates in bulk:
 
 テンプレートを非アクティブ化するには、以下のように行います。
 
-1. アクティブなテンプレートに移動し、テンプレート名の横にある&#x200B;**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) メニューをクリックし、**非アクティブ化**&#x200B;をクリックします。
+1. アクティブなテンプレートに移動し、テンプレート名の横にある&#x200B;**詳細** ![詳細アイコン ](assets/more-icon.png) メニューをクリックし、**非アクティブ化**&#x200B;をクリックします。
 
-   ![&#x200B; テンプレートを非アクティブ化](assets/deactivate-template-link-in-more-menu.png)
+   ![ テンプレートを非アクティブ化](assets/deactivate-template-link-in-more-menu.png)
 
    このテンプレートはアクティブではなくなり、ユーザーはこのテンプレートからプロジェクトを作成できなくなりました。
-1. （オプション）テンプレートをアクティベートするには、テンプレート名の横にある&#x200B;**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) メニューをクリックし、**アクティベート**&#x200B;をクリックします。
+1. （オプション）テンプレートをアクティベートするには、テンプレート名の横にある&#x200B;**詳細** ![詳細アイコン ](assets/more-icon.png) メニューをクリックし、**アクティベート**&#x200B;をクリックします。
 
    これでテンプレートがアクティブになり、プロジェクトにアタッチしたり、プロジェクトの作成に使用したりできます。
 

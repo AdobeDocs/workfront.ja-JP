@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 91%
+source-wordcount: '446'
+ht-degree: 86%
 
 ---
 
@@ -57,7 +57,6 @@ ht-degree: 91%
 >
 >詳しくは、[複数のオブジェクトタイプがセクション区切り権限に与える影響](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions)を参照してください。
 
-
 {{step-1-to-setup}}
 
 1. 左側のパネルで「**カスタムフォーム**」をクリックします。
@@ -66,9 +65,9 @@ ht-degree: 91%
 
 1. オブジェクトタイプを追加するカスタムフォームを選択し、![編集アイコン](assets/edit-icon2.png) をクリックします。
 
-1. フォームの上部で、**オブジェクトタイプ**&#x200B;の後にあるプラス記号（+）をクリックし、表示されるメニューから必要なタイプを選択します。この操作を繰り返して、必要な数のオブジェクトタイプを追加できます。
+1. フォームの上部にある「**オブジェクトタイプ**」をクリックし、表示されるメニューで追加するタイプを選択します。 この操作を繰り返して、必要な数のオブジェクトタイプを追加できます。
 
-   ![&#x200B; 新規オブジェクトを追加 &#x200B;](assets/add-new-object.png)
+   ![新しいオブジェクトを追加](assets/add-new-object-to-custom-form-041026.png)
 
 1. 「**保存して閉じる**」をクリックします。
 
@@ -92,9 +91,5 @@ ht-degree: 91%
 
 1. 左側のパネルで「**カスタムフォーム**」をクリックします。
 1. 編集するカスタムフォームを選択し、![編集アイコン](assets/edit-icon2.png) をクリックします。
-1. フォームから削除する&#x200B;**オブジェクトタイプ**&#x200B;のいずれかの X をクリックします。
-
-   ![&#x200B; オブジェクトタイプの削除 &#x200B;](assets/delete-object-types.png)
-
-1. （オプション）フォームから削除する他のオブジェクトタイプについて、前の手順を繰り返します。
+1. フォームの上部にある「**オブジェクトタイプ**」をクリックし、フォームから削除するオブジェクトのチェックボックスをオフにします。
 1. 「**適用**」、「**保存して閉じる**」の順にクリックします。

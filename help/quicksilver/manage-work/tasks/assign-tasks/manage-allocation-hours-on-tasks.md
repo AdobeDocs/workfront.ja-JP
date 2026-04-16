@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 69%
+source-wordcount: '591'
+ht-degree: 67%
 
 ---
 
@@ -109,6 +109,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 1. タスクの&#x200B;**期間タイプ**&#x200B;が&#x200B;**シンプル**&#x200B;であることを確認します。
 1. タスク担当者ごとに&#x200B;**割り当て** フィールドを変更します。 これは、タスクの期間全体に対する、このタスクへの各割り当ての全体的な配分です。これにより、タスクの全体的な&#x200B;**予定時間**&#x200B;も更新される場合があります。
 
+   組織のWorkfrontまたはワークフローパッケージによっては、これらの画面のいずれかが表示される場合があります。
+
    ![割り当てを変更](assets/advanced-assignments-duration-type-allocations.png)
+
+   ![割り当てを変更](assets/new-aa-allocation-by-hour.png)
 
 1. 「**保存**」をクリックします。

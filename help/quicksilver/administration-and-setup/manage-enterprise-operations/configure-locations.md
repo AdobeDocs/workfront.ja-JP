@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 47%
@@ -16,8 +16,6 @@ ht-degree: 47%
 ---
 
 # 場所を設定
-
-{{highlighted-preview-article-level}}
 
 レートカードの担当業務に属性として割り当てることができるデフォルトの場所を設定できます。 これにより、評価カードが各場所の市場評価を正確に反映します。
 
