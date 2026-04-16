@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 15%
+source-wordcount: '650'
+ht-degree: 16%
 
 ---
 
 # 新しいドキュメントバージョンのアップロードと承認のリクエスト
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 以前のレビューで「作業が必要」とマークされたドキュメントの場合は、新しいバージョンを元のドキュメントにアップロードして、別の承認ラウンドを開始できます。 新しいバージョンのドキュメントをアップロードすると、以前のバージョンはロックされます。
 
@@ -64,53 +62,10 @@ ht-degree: 15%
 +++
 
 
-## ドラッグ&amp;ドロップ操作を使用して、実稼動環境に新しいバージョンを追加します
 
->[!NOTE]
->
->Internet Explorer ではドラッグ＆ドロップは機能しません。
+## ドラッグ&amp;ドロップを使用して、従来のドキュメント領域に新しいバージョンを追加します
 
-
-ドキュメントのレビューと承認をもう1回行う必要がある場合は、Workfrontで新しいドキュメントのバージョンを作成できます。
-
-以前の参加者、新しい参加者、またはその両方を追加できます。 以前のバージョンと参加者に関する情報は、ドキュメントの詳細ページで確認できます。
-
-新しいバージョンを追加するには：
-
-1. Workfrontでドキュメントに移動します。
-1. 新しいファイルを前のドキュメントの上にドラッグ&amp;ドロップします。 これにより、自動的に新しいバージョンが作成されます。
-
-1. ドキュメントのアップロードが完了したら、ドキュメントを選択し、**ドキュメントの詳細**&#x200B;をクリックします。
-   ![&#x200B; ドキュメントの詳細ページを開く](assets/open-doc-details.png)
-
-
-1. 左側のパネルで「**承認**」をクリックし、「**追加**」をクリックします。
-
-1. 以前のすべての参加者を追加するには、**すべて追加**&#x200B;をクリックします。 必要に応じて、新しい参加者を追加したり、以前の参加者を削除したりすることもできます。
-
-
-1. 既存の承認テンプレートを追加するには、「テンプレート」ボタンをクリックし、テンプレート名の入力を開始します。
-
-   >[!TIP]
-   >
-   >   標準ライセンスを持つユーザーは、設定領域から再利用可能な承認テンプレートを作成できます。 詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
-
-
-1. （オプション）承認の期限を設定します。 ユーザーとチームには、指定された期限の72時間、24時間前に電子メールで通知されます。
-
-1. すべてのレビュー担当者と承認者を追加したら、「**リクエストを送信**」をクリックします。 参加者にはメールで通知されます。
-
-   ![承認用に新しいバージョンを送信](assets/add-previous-participants.png)
-
-
-
-
-
-<div class="preview">
-
-## ドラッグ&amp;ドロップを使用して、従来のドキュメント領域のプレビュー環境に新しいバージョンを追加します
-
-組織がWorkfront ストレージを使用している場合は、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージ &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)の比較を参照してください。
+組織がWorkfront ストレージを使用している場合は、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージ ](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)の比較を参照してください。
 
 >[!NOTE]
 >
@@ -127,7 +82,7 @@ ht-degree: 15%
 1. 新しいファイルを前のドキュメントの上にドラッグ&amp;ドロップします。 これにより、自動的に新しいバージョンが作成されます。
 
 1. ドキュメントのアップロードが完了したら、ドキュメントを選択してドキュメント概要パネルを開きます。 ここでは、パネルの上部にバージョン番号が表示されます。
-   ![&#x200B; ドキュメントの詳細ページを開く](assets/open-doc-details.png)
+   ![ ドキュメントの詳細ページを開く](assets/open-doc-details.png)
 
 
 1. **承認** セクションまでスクロールします。
@@ -165,7 +120,7 @@ ht-degree: 15%
 
    >[!TIP]
    >
-   >   標準ライセンスを持つユーザーは、設定領域から再利用可能な承認テンプレートを作成できます。 詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+   >   標準ライセンスを持つユーザーは、設定領域から再利用可能な承認テンプレートを作成できます。 詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
 
 
@@ -175,8 +130,3 @@ ht-degree: 15%
 
    ![承認を依頼](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
-
-
-
-</div>
-

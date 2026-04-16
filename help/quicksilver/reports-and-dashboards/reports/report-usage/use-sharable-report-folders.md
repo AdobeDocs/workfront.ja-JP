@@ -8,16 +8,14 @@ feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: bd70f4a92eab8861d87316f5e21b0d7ca7e8c31f
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 10%
+source-wordcount: '750'
+ht-degree: 8%
 
 ---
 
 # 共有可能なレポートフォルダーの使用
-
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 <!-- This article is linked in the UI -->
 
@@ -107,7 +105,7 @@ ht-degree: 10%
    * 管理アクセスを使用すると、ユーザーはフォルダーの詳細を編集したり、アイテムを追加または削除したりできます。 管理アクセス権を持つユーザーに、追加の設定で「**削除**」と「**共有**」を選択して、フォルダーを削除または共有する権限を付与することもできます。
 1. 「**保存**」をクリックします。
 
-   ![&#x200B; フォルダーを共有してアクセスを調整](assets/share-settings-sharable-folders.png)
+   ![ フォルダーを共有してアクセスを調整](assets/share-settings-sharable-folders.png)
 
 ## レポートを共有可能なフォルダーに移動する
 
@@ -119,7 +117,7 @@ ht-degree: 10%
 1. 画面下部のアクションバーで「**フォルダーに移動**」をクリックします。
 1. レポートを移動するフォルダーを見つけて、**移動**&#x200B;をクリックします。 レポートツリーはデフォルトで折りたたまれるので、目的のフォルダーを見つけるためにフォルダーを展開する必要がある場合があります。
 
-   ![&#x200B; レポートを共有可能なフォルダーに移動](assets/move-to-folder.png)
+   ![ レポートを共有可能なフォルダーに移動](assets/move-to-folder.png)
 
 ## 共有可能なレポートフォルダーの削除
 

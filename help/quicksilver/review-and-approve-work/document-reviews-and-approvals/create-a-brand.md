@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
+source-git-commit: 243aa2b0893e3034d37b959384a50b8a5e4a4bf0
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 7%
@@ -17,8 +17,6 @@ ht-degree: 7%
 ---
 
 # コンテンツレビュアーのブランドを作成および管理する
-
-{{highlighted-preview-article-level}}
 
 コンテンツレビュアーは、レビュープロセス中にコンテンツを評価するためにブランドガイドラインを使用します。 Workfrontでブランドを作成するには、ブランドガイドラインを含むPDF ファイルをアップロードするか、ブランド要素を手動で入力します。
 
@@ -66,7 +64,7 @@ ht-degree: 7%
 
 ## 前提条件
 
-1. ブランドを作成する前に、Admin ConsoleおよびWorkfrontのアクセスレベルでブランド権限へのアクセス権を付与する必要があります。 手順については、[&#x200B; ブランド権限へのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)を参照してください。
+1. ブランドを作成する前に、Admin ConsoleおよびWorkfrontのアクセスレベルでブランド権限へのアクセス権を付与する必要があります。 手順については、[ ブランド権限へのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)を参照してください。
 
 
 ## PDFを使用したブランドの構築
@@ -77,7 +75,7 @@ ht-degree: 7%
 1. 画面の右上隅にある「**ブランドを追加**」をクリックします。
 1. ブランドに名前を付けます。
 1. 「**PDFをアップロード**」をクリックして、ブランドファイルをアップロードします。
-   ![&#x200B; ブランド pdfをアップロード &#x200B;](assets/upload-PDF.png)
+   ![ ブランド pdfをアップロード ](assets/upload-PDF.png)
 1. 「**続行**」をクリックします。
 1. ブランドガイドラインを含む1つ以上のPDF ファイルをアップロードし、**ブランドを追加**&#x200B;をクリックします。
 1. ファイルがアップロードされたら、抽出したブランド要素を確認して、ブランドガイドラインに準拠していることを確認します。
@@ -125,7 +123,7 @@ ht-degree: 7%
     </tr>
     </table>
 
-   ![&#x200B; ブランド要素を手動で追加](assets/brand-elements.png)
+   ![ ブランド要素を手動で追加](assets/brand-elements.png)
 
 
 1. 完了したら、**公開**&#x200B;をクリックして、ブランドをコンテンツレビュー担当者が利用できるようにします。
