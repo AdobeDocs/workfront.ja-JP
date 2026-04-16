@@ -6,22 +6,21 @@ title: プロジェクト レベルでのユーザー原価率の上書き
 description: この記事では、プロジェクトのシステムユーザーコスト率を上書きする方法について説明します。
 author: Lisa
 feature: Work Management
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 27%
+source-wordcount: '651'
+ht-degree: 22%
 
 ---
 
 # プロジェクト レベルでのユーザー原価率の上書き
 
-{{highlighted-preview-article-level}}
-
 特定のプロジェクトのユーザーのコスト率を指定できます。 このプロジェクトレベルのコスト率は、このユーザーのシステムレベルのコスト率を上書きします。 Workfrontでは、システムレベルのコスト率ではなく、担当業務のプロジェクトレベルのコスト率を使用してコストを計算します。
 
 この記事では、プロジェクトのシステムユーザーコスト率を上書きする方法について説明します。
 
-プロジェクトのコストの計算について詳しくは、[収益とコスト階層の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)および[&#x200B; コストの追跡](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)を参照してください。
+プロジェクトのコストの計算について詳しくは、[収益とコスト階層の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)および[ コストの追跡](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)を参照してください。
 
 ## アクセス要件
 
@@ -50,7 +49,7 @@ ht-degree: 27%
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 
-   <td>財務データの編集を含むプロジェクトに対する権限を管理します </td> 
+   <td>コスト率の編集を含むプロジェクトに対する権限を管理します </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,11 +89,11 @@ ht-degree: 27%
    * **開始日**：原価率の上書きが開始される日付。
    * **終了日**：原価率の上書きが終了した日付。
 
-   ![有効な日付を示す「新規ユーザー原価率」ボックス &#x200B;](assets/new-user-cost-rate-box.png)
+   ![有効な日付を示す「新規ユーザー原価率」ボックス ](assets/new-user-cost-rate-box.png)
 
    Workfrontでは、プロジェクトのコストを計算する際に、これらの時間枠の間に発生した時間に上書きジョブロール率を適用します。
 
-   2 つの上書き料金の期間の間にギャップが生じないようにする必要があります。上書き料金の&#x200B;**開始日**&#x200B;は、前の上書き日の&#x200B;**終了日**&#x200B;の直後の日である必要があります。
+   Workfrontでは、オーバーライドのタイムライン間にギャップを残すことができますが、意図的であることを確認する警告が表示されます。
 
    最初の上書きレートに開始日を指定する必要はなく、最後の上書きレートに終了日を指定する必要もありません。
 
@@ -107,5 +106,3 @@ ht-degree: 27%
    プロジェクトの予定完了日の後に1時間が記録された場合、最終原価率が使用されます。
 
 1. 「**保存**」をクリックします。
-
-

@@ -2,30 +2,28 @@
 product-area: projects
 navigation-topic: financials
 title: プロジェクトレベルでの担当業務の請求レートの上書き
-description: プロジェクトマネージャーは、特定のプロジェクトの担当業務に対する請求レートを指定できます。このプロジェクトレベルの請求レートは、この担当業務のシステムレベルの請求レートを上書きします。Workfront は、担当業務のプロジェクトレベルの請求レート使用して、システムレベルの請求レートを使用する代わりに、収益を計算します。
+description: この記事では、プロジェクトのシステム担当業務の請求料金を上書きする方法について説明します。
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 41%
+source-wordcount: '808'
+ht-degree: 37%
 
 ---
 
 # プロジェクトレベルでの担当業務請求レートの上書き
 
-{{highlighted-preview}}
-
 プロジェクトマネージャーは、特定のプロジェクトの担当業務に対する請求レートを指定できます。このプロジェクトレベルの請求レートは、この担当業務のシステムレベルの請求レートを上書きします。Workfront は、担当業務のプロジェクトレベルの請求レート使用して、システムレベルの請求レートを使用する代わりに、収益を計算します。
 
 この記事では、プロジェクトのシステム担当業務の請求料金を上書きする方法について説明します。
 
-プロジェクトの担当業務の請求レートの上書きおよびプロジェクト収益の計算に関する一般的な情報については、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+プロジェクトの担当業務の請求レートの上書きおよびプロジェクト収益の計算に関する一般的な情報については、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
-プロジェクトの収益を計算するために使用される担当業務の詳細については、記事[請求と収益の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)の「[収益とコスト階層の概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)」および「[&#x200B; ユーザーと役割の割り当てに基づくタスクの収益計算](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)」セクションを参照してください。
+プロジェクトの収益を計算するために使用される担当業務の詳細については、記事[請求と収益の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)の「[収益とコスト階層の概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)」および「[ ユーザーと役割の割り当てに基づくタスクの収益計算](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)」セクションを参照してください。
 
 >[!NOTE]
 >
@@ -56,7 +54,7 @@ ht-degree: 41%
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 
-   <td>財務データの編集を含むプロジェクトに対する権限を管理します </td> 
+   <td>請求率の編集を含むプロジェクトへの権限を管理します </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,21 +80,17 @@ ht-degree: 41%
 
    または
 
-   <span class="preview">左側のパネルで「**料金**」をクリックし、まだ選択されていない場合は「**請求**」タブをクリックします。</span>
+   左側のパネルで「**料金**」をクリックし、まだ選択されていない場合は「**請求**」タブをクリックします。
 
-1. **請求料金を追加**／**新規請求料金**&#x200B;をクリックします。
-
-   または
-
-   <span class="preview"> クリック **請求率を追加>新規担当業務請求率**.</span>
+1. **請求率を追加/新規担当業務請求率**&#x200B;をクリックします。
 
    「新規請求料金」ボックスが開きます。
 
 1. 「**担当業務**」フィールドで、請求料金を変更する担当業務を選択します。
 
-1. <span class="preview"> （オプション）請求率の属性（代理店や場所など）を選択します。</span>
+1. （オプション）代理店や場所など、請求率の属性を選択します。
 
-   <span class="preview"> システム管理者は、設定領域でレート属性を定義します。</span>
+   システム管理者は、設定領域でレート属性を定義します。
 
 1. 請求レートの上書きに使用する&#x200B;**通貨**&#x200B;を選択します。
 1. 「**請求レート**」フィールドに請求レートの上書きを入力し、**保存**&#x200B;をクリックして請求レートを1回上書きします
@@ -111,7 +105,7 @@ ht-degree: 41%
    * **開始日**：請求レートの上書きが開始される日付。
    * **終了日**：請求レートの上書きが終了した日付。
 
-   ![上書き日を含む請求レート &#x200B;](assets/new-job-role-billing-rate-on-project2.png)
+   ![上書き日を含む請求レート ](assets/new-job-role-billing-rate-on-project2.png)
 
    Workfrontでは、プロジェクトの収益を計算する際に、これらの時間枠の間に発生した時間に上書き担当業務率が適用されます。
 

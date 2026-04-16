@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 65%
+source-wordcount: '560'
+ht-degree: 56%
 
 ---
 
 # オブジェクトに対する財務権限の共有
-
-{{highlighted-preview}}
 
 Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、ユーザーに財務データの表示や編集のアクセス権を付与できます。詳しくは、[財務データへのアクセスを許可](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
 
@@ -80,8 +78,7 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクト、タスク、およびイシューに対する表示以上の権限（財務の表示以上の権限を含む）</p>
-   <p><span class="preview">少なくとも「請求レートの表示」、「コスト率の表示」、「一般的な財務権限の表示」を含むプロジェクト、タスク、および問題に対する権限以上を表示します</span></p></td> 
+   <td> 少なくとも請求率の表示、コスト率の表示、一般的な財務権限の表示を含むプロジェクト、タスク、および問題に対する権限以上を表示します</td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,6 +93,7 @@ drafted for P&P:
 
 * プロジェクト、タスク、イシューに財務権限を付与できます。
 * 権限は継承できます。プロジェクトに対して一般財務を表示の権限がある場合、プロジェクトのタスクと問題に対して一般財務を表示の権限を自動的に継承します。
+* 請求レートとコストレートに権限を付与すると、ユーザーはそのオブジェクトのレートを表示または編集できます。 一般財務の権限を持つユーザーは、オブジェクトの一般財務フィールド（請求または原価率に関連しない）を表示または編集できます。
 
 オブジェクトに財務権限を付与するには、次の手順に従います。
 
@@ -116,10 +114,8 @@ drafted for P&P:
 
 1. 同じドロップダウンメニューで、権限レベルの横にある詳細オプションアイコンをクリックし、次のいずれかの操作を行います。
 
-   * 前の手順で 3 つのオプションのいずれかを選択した場合は、「**財務を表示**」が選択されていることを確認します。
-   * 前の手順で「**財務の管理**」を選択した場合は、「**財務の管理**」が選択されていることを確認します。
-   * <span class="preview">任意の権限レベルに対して、**請求率を表示**、**コスト率を表示**&#x200B;および&#x200B;**必要に応じて一般財務**&#x200B;を表示</span>を選択します。
-   * <span class="preview">**管理**&#x200B;権限のみ、**請求率の編集**、**コスト率の編集**、**一般財務の編集**&#x200B;を必要に応じて選択します。</span>
+   * 任意の権限レベルに対して、**請求率を表示**、**コスト率を表示**&#x200B;および&#x200B;**必要に応じて一般財務を表示**&#x200B;を選択します。
+   * **管理**&#x200B;権限のみを使用する場合は、**請求率の編集**、**コスト率の編集**、**一般財務の編集**&#x200B;を必要に応じて選択します。
 
 1. 「**保存**」をクリックします。
 
@@ -148,55 +144,37 @@ drafted for P&P:
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>役割の請求レートとコスト率の管理と表示</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>ユーザー請求レートとコスト率の管理と表示</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>財務情報を表示</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>  ✓</td> 
-  </tr>
-  <tr> 
-   <td><span class="preview">請求レートを編集</span></td> 
+   <td>請求レートを編集</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">コスト率を編集</span></td> 
+   <td>コスト率を編集</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>  
   <tr> 
-   <td><span class="preview">一般財務を編集</span></td> 
+   <td>一般財務を編集</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>
   <tr> 
-   <td><span class="preview">請求料率を表示</span></td> 
+   <td>請求料率を表示</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">コスト率を表示</span></td> 
+   <td>コスト率を表示</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr>  
   <tr> 
-   <td><span class="preview">一般財務を表示</span></td> 
+   <td>一般財務を表示</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
@@ -225,3 +203,21 @@ drafted for P&P:
 &#42;追加のリソース管理アクセス権が必要です。
 
 リソース管理アクセスについて詳しくは、[リソース管理へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)を参照してください。
+
+<!--
+These rows removed from last table.
+
+  <tr> 
+   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+
+-->

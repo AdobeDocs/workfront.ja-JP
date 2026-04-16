@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: financials
 title: プロジェクト財務領域での情報の管理
-description: プロジェクトの財務情報を表示または編集するには、「プロジェクトの詳細」セクションの「財務」エリアにアクセスします。
+description: プロジェクトの財務情報を表示または編集するには、「プロジェクトの詳細」セクションの「財務」領域にアクセスします。
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 88%
+source-wordcount: '1277'
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-プロジェクトの財務情報を表示または編集するには、プロジェクトの詳細セクションの財務エリアにアクセスします。このエリアで表示または編集できるフィールドは限られています。プロジェクトのすべての情報の編集については、[&#x200B; プロジェクトの編集 &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) を参照してください。
+プロジェクトの財務情報を表示または編集するには、プロジェクトの詳細セクションの財務エリアにアクセスします。このエリアで表示または編集できるフィールドは限られています。プロジェクトのすべての情報の編集について詳しくは、[ プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
 ## アクセス要件
 
@@ -36,7 +36,7 @@ ht-degree: 88%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td>
    <td>
-   <p>ライト以上</p>
+   <p>明るいまたはそれ以上</p>
    <p>レビュー以上</p></td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ ht-degree: 88%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>財務の表示権限を含むプロジェクトへの表示権限またはそれ以上の権限</p> <p>プロジェクトの財務情報を編集するための財務管理を含むプロジェクトへの管理権限</p> </td> 
+   <td> <p>一般財務の表示権限を含む、プロジェクト以上の表示権限</p> <p>プロジェクトの財務情報を編集するための一般財務の編集を含むプロジェクトへの権限を管理します</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ ht-degree: 88%
 
 財務エリアで情報を表示または編集する際は、次の項目を考慮してください。
 
-* 「プロジェクトの詳細」の「財務」領域にある財務情報は、タスクからプロジェクトレベルにロールアップされる値と、プロジェクトに直接入力された情報を表します。 一部の財務情報は、プロジェクトでもタスクレベルでも管理できます。
+* 「プロジェクト詳細」の「財務」領域に表示される財務情報は、タスクからプロジェクトレベルまでロールアップされる値と、プロジェクトに直接入力される情報を表します。 一部の財務情報は、プロジェクトでもタスクレベルでも管理できます。
 * プロジェクトの財務エリアを表示するには、プロジェクトでの表示権限と、アクセスレベルからの財務データへのアクセス権が必要です。
 * 財務エリアの情報を編集するには、プロジェクトに対する管理権限と、アクセスレベルからの財務データへのアクセス権が必要です。ただし、このエリアの情報を編集するのはプロジェクト所有者のみにすることをお勧めします。
 
@@ -66,9 +66,9 @@ ht-degree: 88%
 
 1. プロジェクトに移動します。
 1. 左側のパネルの「**プロジェクト詳細**」をクリックします。
-1. 「詳細」セクションの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**財務** をクリックします。
+1. 詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、**財務**&#x200B;をクリックします。
 
-   ![&#x200B; 詳細表示の財務領域 &#x200B;](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![詳細ビューの財務領域](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
@@ -129,14 +129,6 @@ ht-degree: 88%
       <td role="rowheader">請求済み収益</td> 
       <td> <p>請求記録で取得されたクライアントまたは他の関係者に請求される収益。請求記録について詳しくは、<a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">請求記録の作成</a>の記事を参照してください。 </p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
     </tbody> 
    </table>
 
@@ -153,20 +145,20 @@ ht-degree: 88%
    >次の手順を実行するには、プロジェクトに対する管理権限が必要です。また、プロジェクトの「財務情報」サブタブを変更できるのは、プロジェクト所有者のみにすることをお勧めします。
 
 1. 左パネルの「**プロジェクト詳細**」をクリックします。
-1. 「詳細」セクションの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**財務** をクリックします。 財務エリアが編集用に開きます。
+1. 詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、**財務**&#x200B;をクリックします。 財務エリアが編集用に開きます。
 1. 編集可能なフィールドをシングルクリックして編集するか、「**+ 追加**」をクリックして空のフィールドに情報を追加します。
 
    >[!TIP]
    >
    >Workfront によって自動的に計算されるフィールドや、編集権限を持っていないフィールドは、編集できません。
 
-   ![&#x200B; 財務領域の編集 &#x200B;](assets/edit-finance-area-in-project-details-nwe-350x275.png)
+   ![金融分野を編集](assets/edit-finance-area-in-project-details-nwe-350x275.png)
 
 1. 以下のフィールドを更新します。
 
    >[!NOTE]
    >
-   >Workfront管理者によるレイアウトテンプレートの設定方法によっては、「プロジェクトの詳細」セクションのフィールドが環境によって異なる場合があります。 詳しくは、[レイアウトテンプレートを使用した詳細ビューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
+   >Workfront管理者がレイアウトテンプレートを設定する方法によっては、「プロジェクトの詳細」セクションのフィールドが環境によって異なる場合があります。 詳しくは、[レイアウトテンプレートを使用した詳細ビューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
    <table style="table-layout:auto"> 
     <col> 
