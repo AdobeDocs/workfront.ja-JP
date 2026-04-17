@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: financials
-title: プロジェクト予定便益の概要
+title: プロジェクト予定利益の概要
 description: 予定利益とは、プロジェクトが完了した場合に組織が利益を得る可能性がある推定金額です。
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 93%
+source-wordcount: '316'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 
-   <td>財務を管理する権限を持つプロジェクトに対する権限の管理</td> 
+   <td>一般財務を編集する権限を持つプロジェクトの権限を管理します</td> 
   </tr> 
  </tbody> 
 </table>
