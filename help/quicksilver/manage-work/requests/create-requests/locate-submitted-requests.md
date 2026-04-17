@@ -10,9 +10,9 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1377'
 ht-degree: 42%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 42%
 
 <!--
 Remove production and preview references at release
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 自分または他のユーザーが送信したリクエスト、または開始したリクエストを表示できますが、送信を完了したことはありません。 未完成のリクエストはドラフトとして保存されます。
 
@@ -90,7 +90,7 @@ Remove production and preview references at release
 
 送信されたリクエストは、リクエスト エリアまたはホームのマイリクエストウィジェットで表示できます。
 
-マイリクエストについて詳しくは、[&#x200B; マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
+マイリクエストについて詳しくは、[ マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
 
 送信されたリクエストの表示は、新しいリクエスト体験を使用しているか、従来のリクエスト体験を使用しているかによって異なります。
 
@@ -112,7 +112,7 @@ Remove production and preview references at release
 >
 >* 「件名」フィールドでリクエストを計画およびWorkfrontします。
 >* 「オブジェクト作成」フィールドのPlanning リクエストから作成されたPlanning レコード。
->* <span class="preview">Workfrontのタスクとイシューは、Workfrontのリクエストから変換され、プレビュー環境の「オブジェクトを作成」フィールドに表示されます。</span>
+>* Workfront リクエストから変換されたWorkfront タスクとイシューは、「オブジェクトを作成」フィールドにあります。
 
 新しいリクエストエクスペリエンスで自分または他のユーザーが送信したリクエストを表示するには：
 
@@ -128,14 +128,9 @@ Remove production and preview references at release
    * 表示
    * フィルター
    * 列
-
-   <div class="preview">
-
-   * **グループ化**
+   * グループ化
    * セルを書式設定
    * 行の高さ
-
-   </div>
 
    リクエストリストでの情報の管理について詳しくは、[拡張リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。
 
@@ -211,17 +206,17 @@ Remove production and preview references at release
    >
    >送信済みリクエストのリストから移動したとき、選択された並べ替えオプションが保持されます。
 
-1. （オプション）リストでリクエストを選択し、**概要を開く** アイコン ![&#x200B; テキストで概要を開く](assets/open-summary-with-text-nwe.png)をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメント、ドキュメントを追加したり、割り当てたりします。 概要パネルについて詳しくは、[概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
+1. （オプション）リストでリクエストを選択し、**概要を開く** アイコン ![ テキストで概要を開く](assets/open-summary-with-text-nwe.png)をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメント、ドキュメントを追加したり、割り当てたりします。 概要パネルについて詳しくは、[概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
    >[!TIP]
    >
    >概要パネルが既に開いている場合は、概要を開くアイコンが、概要を閉じるアイコンに変わります。
 
-1. （オプションおよび条件付き）右上隅の&#x200B;**X** アイコンまたは&#x200B;**概要を閉じる** アイコン ![概要をテキスト &#x200B;](assets/close-summary-with-text-nwe.png)で閉じる」をクリックして、概要パネルを閉じます。
+1. （オプションおよび条件付き）右上隅の&#x200B;**X** アイコンまたは&#x200B;**概要を閉じる** アイコン ![概要をテキスト ](assets/close-summary-with-text-nwe.png)で閉じる」をクリックして、概要パネルを閉じます。
 
    イシューがタスクまたはプロジェクトに変換され、変換処理でイシューが削除された場合、概要パネルは空白になります。イシューの変換について詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
-1. リストの右上にある&#x200B;**フィルターアイコン** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)から、以下の表に示すフィルターのいずれかを選択します。
+1. リストの右上にある&#x200B;**フィルターアイコン** ![ フィルターアイコン ](assets/filter-nwepng.png)から、以下の表に示すフィルターのいずれかを選択します。
 
    >[!TIP]
    >
@@ -254,7 +249,7 @@ Remove production and preview references at release
     </tbody> 
    </table>
 
-1. （オプション）リストの上部にある&#x200B;**フィルターページ** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックして、リクエストを名前で検索します。 リストは、検索条件に一致する結果で更新されます。
+1. （オプション）リストの上部にある&#x200B;**フィルターページ** アイコン ![検索アイコン ](assets/search-icon.png)をクリックして、リクエストを名前で検索します。 リストは、検索条件に一致する結果で更新されます。
 
    <!--
 
