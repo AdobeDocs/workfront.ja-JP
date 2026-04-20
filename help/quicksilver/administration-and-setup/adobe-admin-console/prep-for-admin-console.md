@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 0a41ed50f649dd2da52a5fc47675116261ecfc12
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 98%
+source-wordcount: '668'
+ht-degree: 93%
 
 ---
 
@@ -21,9 +21,15 @@ ht-degree: 98%
 
 <!-- Audited: 12/2023 -->
 
+<!--Remove me October 2026-->
+
+>[!IMPORTANT]
+>
+>現在はAdobe Admin Consoleに移っているため、この記事は近い将来に削除される予定です。
+
 Adobe Workfront は Adobe 製品なので、Adobe Admin Console からアクセスできます。これにより、ユーザーのための他の Adobe アカウントや製品と Workfront を一か所で管理できます。
 
-Workfront のすべてのお客様が、最終的に Adobe Admin Console に移行します。組織が Adobe Admin Console に移行すると、Workfront 認証は Console で管理されるようになります。この移行をより早く準備して実行することで、作業管理の効率化の基礎が築かれ、将来の迅速なイノベーションに備えることができます。
+Workfrontのお客様は、まもなくAdobe Admin Consoleに移動します。 組織が Adobe Admin Console に移行すると、Workfront 認証は Console で管理されるようになります。この移行をより早く準備して実行することで、作業管理の効率化の基礎が築かれ、将来の迅速なイノベーションに備えることができます。
 
 Adobe Admin Console の概要については、[Admin Console の概要](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を参照してください。
 
@@ -45,11 +51,11 @@ Adobe Admin Console の概要については、[Admin Console の概要](https:/
    >
    >シングルサインオン（SSO）や非 SSO などの認証設定について、Workfront サポートおよび組織の IT チームに伝えられるようにしておきます。
 
-   手順については、[Adobe Admin Console のデプロイメントガイド](https://helpx.adobe.com/jp/enterprise/using/deployment-planning.html)の ID 管理の節を参照してください。
+   手順については、[Adobe Admin Console のデプロイメントガイド](https://helpx.adobe.com/enterprise/using/deployment-planning.html)の ID 管理の節を参照してください。
 
 1. （条件付き）シングルサインオンを使用する場合は、新しい Adobe Admin Console を既存の SSO プロバイダーに接続します。
 
-   詳しい情報と手順については、[ID の設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html)を参照してください。
+   詳しい情報と手順については、[ID の設定](https://helpx.adobe.com/enterprise/using/set-up-identity.html)を参照してください。
 
    >[!NOTE]
    >
