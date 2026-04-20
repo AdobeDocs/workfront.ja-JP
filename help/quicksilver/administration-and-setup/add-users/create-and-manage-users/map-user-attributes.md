@@ -61,7 +61,7 @@ ht-degree: 95%
 
 ## 組織のユーザー属性のマッピング
 
-1. Adobe Workfrontの左上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-left.png)をクリックし、**セットアップ** ![ ギア設定アイコン ](assets/gear-icon-settings.png)をクリックします。
+1. Adobe Workfrontの左上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-left.png)をクリックし、**セットアップ** ![&#x200B; ギア設定アイコン &#x200B;](assets/gear-icon-settings.png)をクリックします。
 
 1. **システム**／**シングルサインオン(SSO)** をクリックします。
 

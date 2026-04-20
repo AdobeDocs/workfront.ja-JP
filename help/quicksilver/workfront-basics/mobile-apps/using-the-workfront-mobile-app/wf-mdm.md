@@ -25,7 +25,7 @@ Adobe [!DNL Workfront] は、複数の [!DNL Mobile Device Management]（MDM）�
 * iOS
 * Android
 
-[!DNL Workfront] for [!DNL MobileIron] の設定について詳しくは、[ [!DNL Adobe Workfront]  for  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) の設定を参照してください。
+[!DNL Workfront] for [!DNL MobileIron] の設定について詳しくは、[&#x200B; [!DNL Adobe Workfront]  for  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) の設定を参照してください。
 
 ## Intune
 

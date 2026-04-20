@@ -76,7 +76,7 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
 >
 >このページで説明されているメイン メニューは、まだ [!DNL Adobe Experience Cloud] に登録されていない組織にのみ適用されます。
 >
-> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。
+> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。
 
 **[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](assets/main-menu-icon.png) をクリックすると、[!UICONTROL メインメニュー]が開き、そこから Workfront の別のエリアに移動できます。
 
@@ -84,7 +84,7 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
 
 * **レイアウト テンプレートの設定**：[!DNL Workfront]管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレート](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を使用して、[!UICONTROL メインメニュー]をカスタマイズする方法を参照してください。
 
-* **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定については、[ ライトライセンスユーザーのナビゲーションの理解](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)または[作業[!UICONTROL  ライセンスユーザーのナビゲーションの理解]を参照してください。](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
+* **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定については、[&#x200B; ライトライセンスユーザーのナビゲーションの理解](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)または[作業[!UICONTROL &#x200B; ライセンスユーザーのナビゲーションの理解]を参照してください。](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 
 各アイコンにより、Workfront の様々なエリアに移動します。
 

@@ -18,7 +18,7 @@ ht-degree: 43%
 
 # デフォルトの Adobe Workfront レイアウトについて
 
-デフォルトのレイアウトは、Adobe Workfront管理者がレイアウトテンプレートを使用して変更を加える前の、メインメニュー![ メインメニューアイコン ](assets/main-menu-icon-left-nav.png)、左パネル、ビュー、グループ化、フィルターの配置です。
+デフォルトのレイアウトは、Adobe Workfront管理者がレイアウトテンプレートを使用して変更を加える前の、メインメニュー![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon-left-nav.png)、左パネル、ビュー、グループ化、フィルターの配置です。
 
 Workfront 管理者がユーザーにレイアウトテンプレートを割り当ててユーザーのデフォルトレイアウトを変更する方法について詳しくは、[レイアウトテンプレートにユーザーを割り当て](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 

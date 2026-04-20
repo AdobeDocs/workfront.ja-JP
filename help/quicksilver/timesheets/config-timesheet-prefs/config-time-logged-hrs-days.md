@@ -54,11 +54,11 @@ ht-degree: 79%
 
    * **標準ユーザーまたはプラン ユーザーが自分の時間ログを設定しています：**&#x200B;上部のナビゲーション領域でプロフィール画像をクリックし、**[!UICONTROL Workfront プロフィール]**&#x200B;をクリックします。 次に、名前の横にある&#x200B;**その他**&#x200B;アイコンをクリックし、「**編集**」を選択します。
 
-   * **システム管理者が他のユーザー用に時間の記録方法を設定：**[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)の説明に従って、1 つ以上のユーザーアカウントの編集を開始します。
+   * **システム管理者が他のユーザー用に時間の記録方法を設定：**&#x200B;[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)の説明に従って、1 つ以上のユーザーアカウントの編集を開始します。
 
 1. ユーザープロファイルダイアログボックスの「**リソース計画**」セクションで、「**時間を**&#x200B;に記録」オプションを見つけます。
 
-   ![ オプションに時間を記録](assets/user-profile-log-time-options.png)
+   ![&#x200B; オプションに時間を記録](assets/user-profile-log-time-options.png)
 
 1. 時間の記録に関する次のオプションから選択します。
 
