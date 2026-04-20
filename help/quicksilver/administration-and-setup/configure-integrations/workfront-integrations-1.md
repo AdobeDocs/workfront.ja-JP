@@ -11,9 +11,9 @@ role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1242'
 ht-degree: 100%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 100%
      </ul>
    </ul>
      <p>詳しくは、<a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">プルーフと GenStudio for Performance Marketing の統合の基本を学ぶ</a>を参照してください。</p> 
-     </td>  <td><ul><li>Workfront と GenStudio for Performance Marketing の両方のライセンスが必要です。</li><li>Workfront インスタンスは、Adobe Unified Experience 上にある必要があります。</li><li>Workfront と GenStudio for Performance Marketing は、同じ IMS 組織にデプロイする必要があります。</li></ul></td> 
+     </td>  <td><ul><li>Workfront と GenStudio for Performance Marketing の両方のライセンスが必要です。</li><li>Workfront と GenStudio for Performance Marketing は、同じ IMS 組織にデプロイする必要があります。</li></ul></td> 
    <td>すべての要件が満たされたら、Workfront の設定エリアで統合をオンに切り替えることができます。詳しくは、<a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">プルーフと GenStudio for Performance Marketing の統合の基本を学ぶ</a>を参照してください。 </td> 
   </tr>
   <tr> 

@@ -1,17 +1,17 @@
 ---
-title: レイアウトテンプレートを使用した Brand Adobe Workfront
+title: レイアウトテンプレートを使用したAdobe Workfrontのブランド設定
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: Adobe Workfront 管理者またはグループ管理者は、レイアウトテンプレートを使用して、特定のグループ、チーム、担当業務およびユーザーの上部ナビゲーション領域とメインメニューのロゴをカスタマイズできます。これは、大規模な組織内で独自のブランディングを持つにグループに特に役立ちます。
+description: Adobe Workfrontではブランディングを使用できなくなりました。 この機能は、WorkfrontからAdobe Experience Cloudへのオンボーディングの一部として廃止されました。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 91%
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
@@ -21,75 +21,82 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->このページで説明する手順は、まだ [!DNL Adobe Experience Cloud] にオンボーディングしていない組織にのみ適用されます。
+>Adobe Workfrontではブランディングを使用できなくなりました。 この機能は、WorkfrontからAdobe Experience Cloudへのオンボーディングの一部として廃止されました。
+
+<!-- 
+
+
+>[!IMPORTANT]
 >
-> 組織が [!DNL Adobe Experience Cloud] にオンボーディング済みの場合、ブランディングは利用できません。
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
 
-レイアウトテンプレートを使用して、特定のグループ、チーム、担当業務およびユーザーの上部ナビゲーション領域とメインメニューのロゴをカスタマイズできます。これは、大規模な組織内で独自のブランディングを持つにグループに特に役立ちます。
+You can use a layout template to customize the logos in the top navigation area and on the Main Menu for certain groups, teams, job roles, and users. This is especially useful for groups in a large organization that have their own branding.
 
-グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
+For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 >[!NOTE]
 >
->Workfront 管理者は、[Adobe Workfront インスタンスのブランディング](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)で説明されているように、組織全体に対して同一ブランディングのカスタマイズをシステムレベルでを行うことができます。ただし、レイアウトテンプレートのブランディング設定は、システムレベルのブランディング設定をオーバーライドします。
+>A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding.
 
-<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
+## Access requirements
 
-## アクセス要件
-
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront パッケージ</td> 
-   <td><p>任意</p></td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront プラン</td> 
-   <td><p>標準</p>
-       <p>プラン</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
-   <td>アクセスレベル設定</td> 
-   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。</p>
-        <p>グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## レイアウトテンプレートを使用した Adobe Workfront のブランディング
+## Brand Adobe Workfront using a layout template
 
-1. [レイアウトテンプレートを作成および管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されているように、レイアウトテンプレートの使用を開始します。
-1. ![&#x200B; ユーザーの表示項目をカスタマイズ &#x200B;](assets/dropdown-arrow.png) の下の下向き矢印 **下向き矢印** をクリックし、「**ブランディング**」をクリックします。
-1. このレイアウトテンプレートが割り当てられているユーザー向けに、ブランディングイメージを使用して Workfront をカスタマイズするには、次のいずれかの変更を行います。
+1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Click the down arrow ![Down arrow](assets/dropdown-arrow.png) under **Customize what users see**, then click **Branding**.
+1. Make any of the following changes to customize Workfront with branding images for those who are assigned this layout template.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>ホームアイコンをブランディングします<span style="font-weight: normal;">（ナビゲーション領域上部の左端に表示されます）</span></p> </td> 
-      <td> <p>Adobe Analytics の <strong>上部ナビゲーションエリア</strong>セクション（<strong>ホームアイコン</strong>の下）で、ボックスの任意の場所をクリックし、ロゴ画像を探して選択します。または、画像をボックスにドラッグします。</p> <p>画像を切り抜くには、スクロールコントロールを使用し、所定のスペース内の希望の位置に画像をドラッグします。</p> <p>120 x 120 の画像をお勧めします。GIF、JPG、PNG、SVG のいずれかの形式を使用できます。</p> <p>このアイコンは、レポート、リスト、ダッシュボード、およびユーザーが PDF ファイルとして書き出す配信レポートにも表示されます。</p> </td> 
+      <td role="rowheader"> <p>Brand the Home icon <span style="font-weight: normal;">(displays at the far left of the top navigation area)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Home icon</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 120 x 120 image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> <p>This icon also appears in reports, lists, dashboards, and delivered reports that users export as PDF files.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>メインメニュー <img src="assets/main-menu-icon.png"> ロゴ <span style="font-weight: normal;"> のブランディング（メインメニューの右上隅に表示）</span></p> </td> 
-      <td> <p> <p> <p><strong>ナビゲーションエリア上部</strong>セクションの<strong>メインメニューロゴ</strong>で、ボックス内の任意の場所をクリックし、ロゴ画像を見つけて選択します。または、画像をボックスにドラッグします。</p> <p>画像を切り抜くには、スクロールコントロールを使用し、所定のスペース内の希望の位置に画像をドラッグします。</p> <p>300 x 120 ピクセルの画像をお勧めします。GIF、JPG、PNG、SVG のいずれかの形式を使用できます。</p> </p> </p> </td> 
+      <td role="rowheader"> <p>Brand the Main Menu <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;">(displays in the upper-right corner of the Main Menu)</span></p> </td> 
+      <td> <p> <p> <p>In the <strong>Top navigation area</strong> section, under <strong>Main Menu logo</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. レイアウトテンプレートのカスタマイズを続行します。 「**適用**」をクリックすると、いつでも進捗を保存できます。
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
-   または
+   Or
 
-   カスタマイズが終了したら、「保存して閉じる **をクリックし** す。
+   If you are finished customizing, click **Save and Close**.
 
-レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
+For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+-->

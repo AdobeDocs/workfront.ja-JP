@@ -1,17 +1,17 @@
 ---
-title: Adobe Workfront インスタンスのブランディング
+title: Adobe Workfront インスタンスのブランド化
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: Workfront 管理者は、ログイン画面、上部のナビゲーションエリア、メインメニューで、Workfront のロゴを使用してブランディングできます。また、ログイン画面の背景画像やカラーを変更することもできます。
+description: Adobe Workfrontではブランディングを使用できなくなりました。 この機能は、WorkfrontからAdobe Experience Cloudへのオンボーディングの一部として廃止されました。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 96%
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
@@ -23,118 +23,125 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->このページで説明する手順は、まだ [!DNL Adobe Experience Cloud] にオンボーディングしていない組織にのみ適用されます。
+>Adobe Workfrontではブランディングを使用できなくなりました。 この機能は、WorkfrontからAdobe Experience Cloudへのオンボーディングの一部として廃止されました。
+
+<!-- 
+
+
+>[!IMPORTANT]
 >
-> 組織が [!DNL Adobe Experience Cloud] にオンボーディング済みの場合、ブランディングは利用できません。
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
 
-Workfront の管理者は、次の場所でロゴを使用して Workfront のブランドを設定できます。
+As a Workfront administrator, you can brand Workfront with logos in the following places:
 
-* ログイン画面
+* Login screen
 
-  ![&#x200B; ログイン画面でのブランド &#x200B;](assets/brand-login-screen-nwe-adobe.jpg)
+  ![Brand in login screen](assets/brand-login-screen-nwe-adobe.jpg)
 
-* ナビゲーションエリア上部
+* Top navigation area
 
-  ![&#x200B; トップナビゲーションのブランド &#x200B;](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![Brand in top navigation](assets/brand-top-nav-area-nwe-adobe.jpg)
 
-* メインメニュー
+* Main Menu
 
-  ![&#x200B; メインメニューのブランド &#x200B;](assets/brand-main-menu-adobe.jpg)
+  ![Brand in main menu](assets/brand-main-menu-adobe.jpg)
 
-また、ログイン画面の背景画像やカラーを変更することもできます。
+You can also change the background image and color of the login screen:
 
-![&#x200B; ログイン画面のバナー &#x200B;](assets/wf_banner_on_login_screen-adobe.png)
+![Banner on login screen](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >
->* 組織の Workfront インスタンスがカスタム SSO ポータルを使用している場合、ログインの背景画像とカラーは変更できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
+>* Changing the login background image and color is not available if your organization's Workfront instance uses a custom SSO portal. See your network or IT administrator if you need more information.
 >
-><!-- or is enabled with Adobe IMS -->
 >
->* Workfront の管理者またはグループ管理者は、レイアウトテンプレートを使用して、特定のグループおよびユーザーの Workfront をブランディングすることもできます。レイアウトテンプレートのブランディングは、この記事で説明するシステムレベルのブランディングを上書きします。レイアウトテンプレートでのブランディングの手順については、[レイアウトテンプレートを使用した Adobe Workfront のブランディング](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)を参照してください。
+>* A Workfront administrator or group administrator can also brand Workfront for certain groups and users using a layout template. Branding in a layout template overrides the system-level branding explained in this article. For instructions on branding in a layout template, see [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
-## アクセス要件
+## Access requirements
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront パッケージ</td> 
-   <td><p>任意</p></td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront プラン</td> 
-   <td><p>標準</p>
-       <p>プラン</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td>アクセスレベル設定</td> 
-   <td>システム管理者</td> 
+   <td>Access level configurations</td> 
+   <td>System Administrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## ログイン画面のブランディング
+## Brand the login screen
 
 {{step-1-to-setup}}
 
-1. **システム**／**ブランディング**&#x200B;をクリックします。
+1. Click **System** > **Branding**.
 
-1. 次の変更を加えて、ブランディング画像を使用して Workfront をカスタマイズします。
+1. Make any of the following changes to customize Workfront with your branding images.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>ホームアイコンのブランディング <span style="font-weight: normal;">（上部ナビゲーションエリアの左端に表示）</span></p> </td> 
-      <td> <p>Adobe Analytics の <strong>上部ナビゲーションエリア</strong>セクション（<strong>ホームアイコン</strong>の下）で、ボックスの任意の場所をクリックし、ロゴ画像を探して選択します。または、画像をボックスにドラッグします。</p> <p>画像を切り抜くには、スクロールコントロールを使用し、所定のスペース内の希望の位置に画像をドラッグします。</p> <p>120 x 120 の画像をお勧めします。GIF、JPG、PNG、SVG のいずれかの形式を使用できます。</p> <p>このアイコンは、レポート、リスト、ダッシュボード、およびユーザーが PDF ファイルとして書き出す配信レポートにも表示されます。</p> </td> 
+      <td role="rowheader"> <p>Brand the Home icon <span style="font-weight: normal;">(displays at the far left of the top navigation area)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Home icon</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 120 x 120 image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> <p>This icon also appears in reports, lists, dashboards, and delivered reports that users export as PDF files.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>メインメニュー <img src="assets/main-menu-icon.png"> ロゴ <span style="font-weight: normal;"> のブランディング（メインメニューの右上隅に表示）</span></p> </td> 
-      <td> <p><strong>ナビゲーションエリア上部</strong>セクションの<strong>メインメニューロゴ</strong>で、ボックス内の任意の場所をクリックし、ロゴ画像を見つけて選択します。または、画像をボックスにドラッグします。</p> <p>画像を切り抜くには、スクロールコントロールを使用し、所定のスペース内の希望の位置に画像をドラッグします。</p> <p>300 x 120 ピクセルの画像をお勧めします。GIF、JPG、PNG、SVG のいずれかの形式を使用できます。</p> </td> 
+      <td role="rowheader"> <p>Brand the Main Menu <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;">(displays in the upper-right corner of the Main Menu)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Main Menu logo</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">ログイン画面のロゴのブランド化 <span style="font-weight: normal;">（ユーザーがログイン資格情報を入力するボックスの左上に表示）</span></td> 
-      <td> <p><strong>ログイン画面</strong>下で、ボックスの任意の場所をクリックし、ロゴ画像を探して選択します。画像を切り抜くには、スクロールコントロールを使用し、所定のスペース内の希望の位置に画像をドラッグします。</p> <p>300 x 120 ピクセルの画像をお勧めします。GIF、JPG、PNG、SVG のいずれかの形式を使用できます。</p> </td> 
+      <td role="rowheader">Brand the login screen logo <span style="font-weight: normal;">(displays in the top-left of the box where users type login credentials)</span></td> 
+      <td> <p>Under <strong>Login Screen</strong>, click anywhere in the box, then find and select your logo image. To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">ログイン画面の背景色のブランディング <span style="font-weight: normal;">（ユーザーがログイン資格情報を入力するボックスの後ろに表示）</span></td> 
-      <td> <p><strong>ログイン画面</strong>の下で、<strong>背景色</strong>を設定します。 </p> <p>RGB または HEX カラーコードを使用できます。</p> <p>背景色は、ログイン画面の背景画像がログイン画面の背景画像より大きい場合（この表の次の行を参照）、または画像に透明度がある場合にのみ表示されます。</p> </td> 
+      <td role="rowheader">Brand the login screen background color <span style="font-weight: normal;">(displays behind the box where users type login credentials)</span></td> 
+      <td> <p>Under <strong>Login Screen</strong>, set a <strong>Background Color</strong>. </p> <p>You can use RGB or HEX color codes.</p> <p>The background color is visible only if the login screen background is larger than the login screen background image (see the next row in this table) or if there is any transparency in the image.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">ログイン画面の背景画像のブランディング <span style="font-weight: normal;">（ユーザーがログイン資格情報を入力するボックスの後ろに表示）</span></td> 
+      <td role="rowheader">Brand the login screen background image <span style="font-weight: normal;">(displays behind the box where users type their login credentials)</span></td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1"> <p> <strong>ログイン画面</strong>エリア（<strong>背景画像</strong>の下）で、ボックスをクリックして、JPG または PNG 画像（最大 20 個）を検索して選択します。 </p> <p>複数の背景画像がランダムな順序で表示され、ユーザーがログインページを更新するたびに変更されます。2 MB 以下の画像を使用することをお勧めします。</p> </li> 
-        <li value="2"> <p>アップロードした各背景画像の上にポインタを合わせて、設定（歯車）アイコンをクリックし、次のいずれかのオプションを使用して、画像をログイン画面の背景に表示する場所と方法を指定します。</p> 
+        <li value="1"> <p> In the <strong>Login Screen</strong> area, under <strong>Background Image</strong>, click the box, then find and select your JPG or PNG image or images (up to 20 ). </p> <p>Multiple background images display in random order, changing each time users refresh their login page. We recommend images no larger than 2 MB.</p> </li> 
+        <li value="2"> <p>Hover over each background image you have uploaded, click the Settings (gear) icon, and use any of the following options to specify where and how you want the image to appear in the login screen background:</p> 
          <ul> 
-          <li> <p><strong>画面を塗りつぶす</strong>：画像をログイン画面の背景に合わせて調整します。画像は拡大される場合があります。高解像度の画像（最大 2 MB）を使用すると、最適な結果が得られます。</p> <p>このオプションを使用すると、Workfront バナーはカスタマイズできず、画像の一部が見えなくなります。</p> </li> 
-          <li> <p><strong>タイル</strong>：画像を元のサイズで、ログイン画面の背景エリア全体に並べます。これは、パターンを作成する場合に便利です。青い整列オプションを選択して、背景エリアの左上隅、中央上、右上からタイルを開始します。</p> </li> 
-          <li> <p><strong>位置</strong>：ログイン画面の背景エリアの左上、中央、右上の青い整列オプションの 1 つを使用して、選択した位置に画像を元のサイズに配置します。</p> <p>ログイン画面の残りの背景エリアは、背景色で塗りつぶされます。背景色の詳細については、この表の前の行を参照してください。</p> </li> 
+          <li> <p><strong>Fill Screen</strong>: Fits the image to the login screen background, which may enlarge the image. Use a high-resolution image (up to 2 MB) for the best results.</p> <p>When you use this option, the Workfront banner, which is not customizable, obscures part your image.</p> </li> 
+          <li> <p><strong>Tile</strong>: Tiles your image across the login screen background area, in its original size. This is useful for creating a pattern. Select a blue alignment option to start the tiling from the top-left corner, top-center, or top-right of the background area.</p> </li> 
+          <li> <p><strong>Position</strong>: Places your image in its original size in the position you choose using one of the blue alignment options: the top-left, top-center, or top-right of the login screen background area.</p> <p>The background color fills the rest of the login screen background area. For more about the background color, see the preceding row in this table.</p> </li> 
          </ul> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">デフォルトのブランディングにリセット</td> 
-      <td> <p>デフォルトのブランディングにリセットすると、アップロードしたすべての写真と画像が削除されます。</p> <p>画面の右下隅で「<strong>すべてのブランディングを Workfront のデフォルトにリセット</strong>」をクリックして、「<strong>はい</strong>」をクリックします。</p> </td> 
+      <td role="rowheader">Reset to the default branding</td> 
+      <td> <p>Resetting to the default branding deletes all photos and images that you have uploaded.</p> <p>Click <strong>Reset all branding to Workfront defaults</strong> in the lower-right corner of the screen, then click <strong>Yes</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!NOTE]
    >
-   >組織の Workfront インスタンスがカスタム SSO Portal を使用している場合は使用できません。
+   >This is not available if your organization's Workfront instance uses a custom SSO portal.
    >
-   ><!--  or is enabled with Adobe IMS -->
    >
-   >詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
+   >See your network or IT administrator if you need more information.
 
-1. 「**保存**」をクリックします。
+1. Click **Save**.
+
+-->

@@ -8,10 +8,10 @@ author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 99%
+source-wordcount: '964'
+ht-degree: 97%
 
 ---
 
@@ -100,7 +100,7 @@ Workfront Fusion について詳しくは、[Adobe Workfront Fusion の概要](h
 
 以下の設定を変更することで、Workfront を表示する言語と送信メールの言語を変更できます。
 
-* ブラウザーの言語（Adobe Admin Console 上にないユーザー）
+<!--* DELETE THIS SECTION MARCH 2026 The language on your browser (for users not on the Adobe Admin Console)-->
 * AEM プロファイルのプライマリ言語とセカンダリ言語（Adobe Admin Console 上にあるユーザー）
 * Workfront アカウントの「顧客情報」および「ユーザーメールのロケール」設定。
 
@@ -117,14 +117,18 @@ Workfront Fusion について詳しくは、[Adobe Workfront Fusion の概要](h
 * [Adobe Experience Cloud の言語の変更](#change-the-adobe-experience-cloud-language)
 * [Workfront とユーザーのメールロケールの変更](#change-the-workfront-and-user-locales)
 
-### ブラウザーの言語の変更 {#change-the-browser-language}
+<!--DELETE THIS SECTION MARCH 2026-->
 
-組織が Adobe Admin Console に移行していない場合、ブラウザーの言語を変更すると、Workfront インターフェイスがその言語で表示されます。\
-Workfront でサポートされている言語について詳しくは、[Adobe Workfront でサポートされている言語](#supported-languages)を参照してください。
+<!--
 
-ブラウザーの言語は、個々のユーザー単位で変更する必要があります。
+### Change the browser language {#change-the-browser-language}
 
-ブラウザーの言語を変更する方法について詳しくは、ブラウザーの「ヘルプ」メニューを参照してください。
+If your organization has not been migrated to the Adobe Admin Console, when you change the browser language, your Workfront interface displays in that language.   
+For more information about what languages are supported by Workfront, see [Supported languages in Adobe Workfront](#supported-languages).
+
+The browser language must be changed on an individual user basis.
+
+See the "Help" menu for your browser for specific information about how to change the language of your browser.-->
 
 ### Adobe Experience Cloud の言語の変更
 
@@ -159,20 +163,23 @@ Workfront でサポートされている言語について詳しくは、[Adobe 
 
 ### ユーザーのメールロケールを変更 {#change-the-user-locale}
 
-ユーザーのメールロケールを変更する場合は、送信メッセージで使用される言語、日付、数値の形式を変更します。これらの設定は、「設定」の「顧客情報」エリアで選択したシステム設定を上書きします。
+<!--
+
+
+When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.-->
 
 >[!NOTE]
 >
->組織が Adobe Unified Experience 上にある場合、言語の環境設定はアドビのプロファイルに保存され、メールのロケールは使用されません。詳しくは、この記事の [Adobe Experience Cloud の言語の変更](#change-the-adobe-experience-cloud-language)を参照してください。
+>言語設定はAdobe プロファイルに保存され、電子メールのロケールは使用されません。 詳しくは、この記事の [Adobe Experience Cloud の言語の変更](#change-the-adobe-experience-cloud-language)を参照してください。
 
-ユーザーのメールロケールを変更するには：
+<!--To change your User Email Locale:
 
 {{step1-click-main-menu}}
 
-1. ユーザープロファイルの画像をクリックします。
+1. Click your user profile picture.
 
-1. その他メニュー![](assets/more-icon.png)、「**編集**」の順にクリックします。
+1. Click the More menu ![](assets/more-icon.png), then click **Edit**.
 
-1. 「**環境設定**」セクションで、**メールのロケール**&#x200B;ドロップダウンリストをクリックして、Workfront のメールを表示する言語を選択します。
+1. In the **Preferences** section, click the **Email Locale** drop-down list to select the language that you want Workfront emails to display in.
 
-1. 「**変更を保存**」をクリックします。
+1. Click **Save Changes**.-->

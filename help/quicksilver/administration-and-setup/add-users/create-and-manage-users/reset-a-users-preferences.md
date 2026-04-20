@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 75%
+source-wordcount: '305'
+ht-degree: 84%
 
 ---
 
@@ -120,30 +120,18 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
 1. 「**別のユーザーとしてログイン**」を選択します。
 1. 環境設定をリセットするユーザーの名前を入力し始め、ドロップダウンリストに表示されたら名前をクリックします。
 1. 「**ログイン**」を選択します。
-1. 組織がAdobe Unified Experience にオンボーディングされていない場合は、次の手順に従います。
+1. Web ブラウザーの上部にある「URL」フィールドに、`/resetUser`の後に`workfront`を追加します。
 
-   * Web ブラウザーの上部にある「URL」フィールドで、`workfront.com` の後に `/resetUser` を追加します。
-
-     >[!NOTE]
-     >
-     >大文字と小文字が区別されます。U 文字は大文字で、残りの文字は小文字にする必要があります。例：
-     >
-     >`https://company_domain.my.workfront.com/resetUser`
-
-1. 組織がAdobe Unified Experience にオンボーディングされた場合は、次の手順に従います。
-
-   * Web ブラウザーの上部にある URL フィールドで、`/resetUser` の後に `workfront` を追加します。
-
-     >[!NOTE]
-     >
-     >大文字と小文字が区別されます。U 文字は大文字で、残りの文字は小文字にする必要があります。例：
-     >
-     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
+   >[!NOTE]
+   >
+   >大文字と小文字が区別されます。U 文字は大文字で、残りの文字は小文字にする必要があります。例：
+   >
+   >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. **Enter** キーを押します。
 
-1. すべてのユーザー環境設定をリセットするには、「**リセット**」をクリックします。
+1. すべてのユーザー設定をリセットするには、**リセット**&#x200B;をクリックします。
 
    または
 
-   ユーザーの左側のナビゲーションを元のレイアウトテンプレート設定にリセットするには、「**左側のナビゲーションをリセット**」をクリックします。
+   ユーザーの左ナビゲーションを元のレイアウトテンプレート設定にリセットするには、**左ナビゲーションのリセット**&#x200B;をクリックします。

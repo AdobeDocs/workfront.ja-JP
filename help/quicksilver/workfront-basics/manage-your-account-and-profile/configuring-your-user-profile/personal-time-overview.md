@@ -9,10 +9,10 @@ feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 75%
+source-wordcount: '425'
+ht-degree: 76%
 
 ---
 
@@ -74,9 +74,9 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->組織がAdobe統合エクスペリエンスを利用している場合は、上部のナビゲーション領域の右上隅にある&#x200B;**Adobe** アカウントメニュー（プロフィール画像）をクリックし、**Workfront プロファイル**&#x200B;をクリックします。
+>上部のナビゲーションエリアにあるAdobe アカウントメニュー（プロフィール画像）をクリックし、「Workfront プロファイル」を選択すると、Workfront プロファイルにアクセスできます。
 >
->![workfront プロファイル &#x200B;](assets/aue-profile.png)
+>![workfront プロファイル ](assets/aue-profile.png)
 
 1. 左パネルの「**[!UICONTROL 休暇]**」をクリックします。
 1. 個人の休暇に希望する日付を選択します。

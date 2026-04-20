@@ -2,30 +2,30 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: GenStudio for Performance MarketingとWorkfront Proofの統合の概要
-description: GenStudio for Performance MarketingとWorkfront Proofの統合の概要
+title: GenStudio for Performance MarketingとWorkfront Proofの連携の詳細
+description: GenStudio for Performance MarketingとWorkfront Proofの連携の詳細
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 5%
+source-wordcount: '535'
+ht-degree: 8%
 
 ---
 
-# GenStudio for Performance MarketingとWorkfront Proofの統合の概要
+# GenStudio for Performance MarketingとWorkfront Proofの連携の詳細
 
-GenStudio for Performance MarketingとWorkfront Proofの統合により、次のことが可能になります
+GenStudio for Performance MarketingとWorkfront Proofの連携により、次のことが可能になります
 
-* Workfront プルーフテンプレートを使用したレビューワークフローと承認ワークフローの定義
+* Workfrontのプルーフテンプレートを使用したレビューと承認のワークフロー
 
 * Workfront プルーフビューアでのGenStudio for Performance Marketing ドラフトコンテンツのレビューと承認
 
-* 最終承認および公開用にGenStudio for Performance Marketingでレビューの決定を表示する
+* 最終承認と公開のために、GenStudio for Performance Marketingでレビューの決定を表示します
 
-GenStudio for Performance Marketingでのレビューと承認について詳しくは、[Workfront ProofとGenStudio for Performance Marketingの統合 &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration) を参照してください。
+GenStudio for Performance Marketingでのレビューと承認について詳しくは、[Workfront ProofとGenStudio for Performance Marketingの統合](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration)を参照してください。
 
 
 ## アクセス要件
@@ -51,7 +51,7 @@ GenStudio for Performance Marketingでのレビューと承認について詳し
   <tr> 
    <td role="rowheader">その他の製品</td> 
    <td> 
-   <p> GenStudio for Performance Marketingが必要であり、Admin Consoleのユーザーとして製品に追加される必要があります。 </p> </td> 
+   <p> GenStudio for Performance Marketingが必要であり、Admin Consoleのユーザーとして商品に追加する必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -67,63 +67,61 @@ GenStudio for Performance Marketingでのレビューと承認について詳し
 
 ## 統合要件
 
-* WorkfrontとGenStudio for Performance Marketingは、同じIdentity Management system （IMS）組織にデプロイする必要があります。
+* WorkfrontとGenStudio for Performance Marketingは、同じIdentity Management システム（IMS）組織にデプロイする必要があります。
 
-* ユーザーは、IMS 組織内の 1 つのWorkfront インスタンスにのみ属することができます。
+* ユーザーは、IMS組織内の1つのWorkfront インスタンスにのみ属することができます。
 
-* Workfront インスタンスは、Adobe統合エクスペリエンスで有効にする必要があります。
-
-* Workfrontの設定領域で統合を有効にする必要があります。
+* Workfrontの設定領域で連携を有効にする必要があります。
 
 
 ## Workfrontでの統合の有効化
 
-この統合を有効にするには、システム管理者である必要があります。
+この統合を有効にするには、システム管理者でなければなりません。
 
-1. 左上隅の **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、**[!UICONTROL 設定]** ![&#x200B; 設定アイコン &#x200B;](/help/_includes/assets/gear-icon-setup.png) をクリックします。
-1. 左側のパネルで、**レビューと承認**/**Adobe GenStudio** をクリックします。
-1. **プルーフの承認を使用** を有効にします。
-   ![GenStudio設定のプルーフを有効にする &#x200B;](assets/enable-proofing-gs.png)
+1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![ セットアップ アイコン ](/help/_includes/assets/gear-icon-setup.png)をクリックします。
+1. 左側のパネルで、**レビューと承認**/**Adobe GenStudio**&#x200B;をクリックします。
+1. **プルーフ承認の使用**を有効にします。
+   ![GenStudio設定のプルーフを有効にする](assets/enable-proofing-gs.png)
 
 ## Workfront プルーフテンプレートを使用した承認ワークフローの定義
 
-組織のコンテンツレビュープロセスを頻繁に繰り返したり、同じ人物によってレビューされる場合は、プルーフテンプレートを使用してレビューと承認のワークフローを自動化できます。
+組織のコンテンツレビュープロセスが同じ担当者によって繰り返されたり、レビューされたりする場合は、プルーフテンプレートを使用して、レビューと承認のワークフローを自動化できます。
 
 ### Workfrontでのプルーフテンプレートの作成
 
-1 人または 2 人のレビュー担当者に対して単純な単一ステージテンプレートを作成したり、多数のステージと依存関係を持つ複雑なレビュー用に自動化された複数ステージのテンプレートを作成したりできます。
+1人または2人のレビュー担当者に対して、シンプルな単一ステージのテンプレートを作成することも、さまざまなステージや依存関係を持つ複雑なレビュー用に、自動化された複数ステージのテンプレートを作成することもできます。
 
-Workfrontでの自動ワークフローとテンプレートの作成について詳しくは、以下を参照してください。
+Workfrontでの自動ワークフローとテンプレートの作成について詳しくは、「
 
 * [自動ワークフローの概要](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 * [自動ワークフローテンプレートの作成と管理](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
 
-### GenStudio for Performance Marketingのテンプレートを選択または変更
+### GenStudio for Performance Marketingでテンプレートを選択または変更する
 
-GenStudio for Performance Marketingでレビューを開始する際には、必要なテンプレートを選択するだけです。 ユーザーは、任意のプルーフワークフローテンプレートを簡単に変更し、いつでもレビュー担当者とステージを追加または削除できます。
+利用者がGenStudio for Performance Marketingでレビューを開始すると、必要なテンプレートを選択するだけです。 レビューアーやステージの追加や削除など、任意のプルーフワークフローテンプレートをいつでも簡単に変更できます。
 
-詳しくは、[&#x200B; レビューと承認をリクエスト &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/request-review) を参照してください。
+詳しくは、[ レビューと承認のリクエスト ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)を参照してください。
 
 ## Workfront プルーフビューアでのGenStudio for Performance Marketing ドラフトコンテンツのレビューと承認
 
-Workfront プルーフビューアを使用して、GenStudio for Performance Marketingで直接ドラフトコンテンツを確認および承認できます。
+Workfront プルーフビューアでは、GenStudio for Performance Marketingでドラフトコンテンツを直接レビューおよび承認できます。
 
-プルーフビューアを使用すると、次のことができます
+プルーフビューアーでは、次のことができます
 
 * コメントを残す
-* ドラフトをマークアップして、変更が必要なものを表示します
+* 変更が必要な項目を表示するマークアップのドラフト
 * 決定を下す
 
-詳しくは、[&#x200B; コンテンツのレビューと編集 &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit) を参照してください。
+詳しくは、[ コンテンツのレビューと編集](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit)を参照してください。
 
 
 >[!IMPORTANT]
 >
->GenStudio for Performance Marketingでドラフトのレビューを開始する前に、[Adobe Workfront レビューツールを使用してインタラクティブコンテンツをレビュー &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) をインストールする必要があります。
+>ユーザーは、GenStudio for Performance Marketingでドラフトのレビューを開始する前に、[Adobe Workfront レビューツールを使用してインタラクティブコンテンツをレビュー](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)する必要があります。
 
 
-## 最終承認および公開用にGenStudio for Performance Marketingでレビューの決定を表示する
+## 最終承認と公開のために、GenStudio for Performance Marketingでレビューの決定を表示します
 
-アセットのレビューと承認が完了したら、レビューの決定を確認し、GenStudio for Performance Marketingから直接コンテンツを公開できます。
+アセットがレビューと承認のプロセスを経ると、レビューの決定を表示し、GenStudio for Performance Marketingから直接コンテンツを公開できます。
 
-詳しくは、「[&#x200B; 承認されたコンテンツの公開 &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)」を参照してください。
+詳しくは、[承認済みコンテンツの公開](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)を参照してください。

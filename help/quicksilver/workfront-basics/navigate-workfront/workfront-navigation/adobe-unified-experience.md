@@ -6,10 +6,10 @@ description: Adobe Experience Cloud 経由で  [!DNL Workfront]  にアクセス
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 60%
+source-wordcount: '688'
+ht-degree: 58%
 
 ---
 
@@ -18,13 +18,6 @@ ht-degree: 60%
 <!--Audited: 10/2024-->
 
 [!DNL Adobe Experience Cloud] を介して [!DNL Workfront] にアクセスすると、すべての [!DNL Adobe] アプリケーションを管理するためのシームレスで統一されたエクスペリエンスが得られます。単一の Identity Managemen により、複数の URL やログイン ID を必要とせずに、1 つの場所でログインできます。
-
-組織がAdobe統合エクスペリエンス上にある場合、Workfrontへのアクセスに使用する URL は `experience.adobe.com` で始まります。
-
-| URL | Adobe Experience |
-|------------|------------|
-| (CompanyName).my.workfront.com | Workfrontエクスペリエンス |
-| experience.adobe.com | Adobe Unified Experience |
 
 ## アクセス要件
 
@@ -40,7 +33,7 @@ ht-degree: 60%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
-   <td> <p>投稿者以上</p> 
+   <td> <p>コントリビューター以上</p> 
    <p>リクエスト以上</p> </td> 
   </tr> 
  </tbody> 
@@ -52,17 +45,17 @@ ht-degree: 60%
 
 ## 前提条件
 
-組織の [!DNL Workfront] のインスタンスは、[!DNL Adobe Business Platform] または [!DNL Adobe Admin Console] にオンボードする必要があります。
+組織の[!DNL Workfront]のインスタンスは、[!DNL Adobe Business Platform]または[!DNL Adobe Admin Console]にオンボーディングする必要があります。
 
 [!DNL Adobe Admin Console] のオンボーディングに関するご質問がある場合は、[[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/) を参照してください。
 
-## Adobe Identity Management System （IMS）
+## Identity Management方式（IMS）
 
-Adobe統合エクスペリエンスへの移行の一環として、組織はAdobeのIdentity Management System を使用してユーザーを認証するようになりました。 つまり、Workfrontに直接ログインするのではなく、Adobeを使用してWorkfrontにログインします。 また、Adobe IMSでは、Workfront管理者がWorkfrontではなくAdobe Admin Consoleでユーザー管理を処理する必要があります。
+Adobe Unified Experience Managerへの移行の一環として、Adobe Identity Management Systemを使用してユーザーを認証するようになりました。 つまり、Workfrontに直接ログインするのではなく、Adobeを通じてWorkfrontにログインします。 Adobe IMSを行うには、Workfront管理者がWorkfrontではなくAdobe Admin Consoleでユーザー管理を行う必要があります。
 
-Adobe統合エクスペリエンスでのWorkfrontへのログインについて詳しくは、この記事の [Adobe Experience Cloudへのログイン &#x200B;](#log-in-to-adobe-experience-cloud) を参照してください。
+Adobe Unified ExperienceでWorkfrontにログインする方法について詳しくは、この記事の「[Adobe Experience Cloudにログイン ](#log-in-to-adobe-experience-cloud)」を参照してください。
 
-Adobe Admin Consoleの User Management について詳しくは、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+Adobe Admin Consoleでのユーザー管理について詳しくは、[Adobe Admin Consoleでのユーザーの管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
 
 ## [!DNL Adobe Experience Cloud] にログインする
 
@@ -73,13 +66,13 @@ Adobe Admin Consoleの User Management について詳しくは、[Adobe Admin C
 
 >[!NOTE]
 >
->Workfrontを開いているページでブラウザータブセッションの有効期限が切れ、別のブラウザータブでWorkfront セッションがアクティブになっている場合は、有効期限が切れたタブを再読み込みして、Workfront ページを再度開くことができます。
+>Workfrontを開いているページでブラウザータブセッションが期限切れになり、別のブラウザータブでアクティブなWorkfront セッションがある場合は、期限切れのタブをリロードしてWorkfront ページを再度開くことができます。
 
 ## [!DNL Workfront] にアクセス
 
 [!DNL Adobe Experience Cloud] にログインすると、上部のナビゲーションエリアにある組織スイッチャーをクリックして、アクセスできるすべての [!DNL Workfront] 組織と環境を表示できます。作業する [!DNL Workfront] の組織または環境を選択します。組織で使用されている場合、環境には[!UICONTROL プレビュー]と[!UICONTROL サンドボックス]が含まれる可能性があります。
 
-![&#x200B; [!DNL Workfront] の組織と環境を表示 &#x200B;](assets/aec-view-all-orgs.png)
+![ [!DNL Workfront] の組織と環境を表示 ](assets/aec-view-all-orgs.png)
 
 >[!NOTE]
 >
@@ -87,20 +80,20 @@ Adobe Admin Consoleの User Management について詳しくは、[Adobe Admin C
 
 [!DNL Workfront] は、アクセスできる [!DNL Adobe Experience Cloud] 製品のリストに表示されます。[!DNL Experience Cloud] ホームページのクイックアクセスメニューで [!DNL Workfront] を選択するか、製品スイッチャー ![製品スイッチャー](assets/main-menu-icon.png) を使用していつでもアプリケーションを変更できます。
 
-![&#x200B; [!DNL Workfront] を選択してアプリケーションにアクセス &#x200B;](assets/aec-product-switcher.png)
+![ [!DNL Workfront] を選択してアプリケーションにアクセス ](assets/aec-product-switcher.png)
 
 ## [!DNL Workfront] をナビゲートする
 
-[!UICONTROL &#x200B; ーザーナビゲーションバーの左側にある &#x200B;] メインメニュー ![&#x200B; アイコン &#x200B;](assets/main-menu-icon-left-nav.png) メインメニューアイコン [!DNL Workfront] を使用して、アクセス権のあるページに移動します。 [!UICONTROL メインメニュー]で使用できるオプションは、以下に依存します。
+[!UICONTROL  ナビゲーションバーの左側にある] メインメニュー![ アイコン ](assets/main-menu-icon-left-nav.png) メインメニューアイコン [!DNL Workfront]を使用して、アクセスできるページに移動します。 [!UICONTROL メインメニュー]で使用できるオプションは、以下に依存します。
 
-* **レイアウトテンプレートの設定**：[!DNL Workfront] 管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレートを使用して、[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
-* **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定については、[[!UICONTROL レビュー]ライセンスユーザーのナビゲーションを理解](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)または[[!UICONTROL 作業]ライセンスユーザーのナビゲーションを理解](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)を参照してください。
+* **レイアウト テンプレートの設定**：[!DNL Workfront]管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレート](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を使用して、[!UICONTROL メインメニュー]をカスタマイズする方法を参照してください。
+* **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定について詳しくは、「[Light[!UICONTROL  – ライセンスユーザー]のナビゲーションについて」または「](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)Work[ – ライセンスユーザー[!UICONTROL 」のナビゲーションについて説明してください。]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 
 ![メインメニュー](assets/main-menu-options-left-nav.png)
 
 ## プロファイルと環境設定にアクセスする
 
-上部のナビゲーション領域でAdobe アカウント メニュー（プロファイル画像）をクリックすると、プロファイルおよび環境設定オプションにアクセスできます。
+上部のナビゲーションエリアにあるAdobe アカウントメニュー（プロフィール画像）をクリックすると、プロファイルと環境設定オプションにアクセスできます。
 
 ![プロファイルメニュー](assets/aec-profile-picture-menu.png)
 
@@ -110,8 +103,8 @@ Adobe Admin Consoleの User Management について詳しくは、[Adobe Admin C
 * メイン言語とサブ言語の環境設定を含む、[!DNL Adobe Experience Cloud] の&#x200B;**[!UICONTROL 環境設定]**&#x200B;を設定します。
   >[!NOTE]
   >
-  >日付の設定は、プライマリ言語設定に基づいています。 例えば、「**英語（米国）**」を選択すると MM/DD/YYYY 形式で日付が表示され、「**英語（英国）**」を選択すると DD/MM/YYYY 形式で日付が表示されます。
-* **[!UICONTROL [!DNL Workfront]のプロファイル]**&#x200B;にアクセスします。プロファイルにアクセスしたら、**[!UICONTROL 詳細]** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-icon.png) をクリックし、**[!UICONTROL 編集]** を選択します。 プロファイルについて詳しくは、[個人設定を行う](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
+  >日付の設定は、プライマリ言語の設定に基づいています。 例えば、**英語（米国）**&#x200B;を選択するとMM/DD/YYYY形式で日付が表示され、**英語（英国）**&#x200B;を選択するとDD/MM/YYYY形式で日付が表示されます。
+* **[!UICONTROL [!DNL Workfront]のプロファイル]**&#x200B;にアクセスします。プロファイルにアクセスしたら、**[!UICONTROL 詳細]** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**[!UICONTROL 編集]**&#x200B;を選択します。 プロファイルについて詳しくは、[個人設定を行う](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
 * Adobe Experience Cloud の&#x200B;**[!UICONTROL ログアウト]**
 
 ## パスワードを管理する
@@ -126,7 +119,7 @@ Adobe Admin Consoleの User Management について詳しくは、[Adobe Admin C
 
 パスワードが [!DNL Adobe] によって管理されている場合は、アドビアカウントのパスワードを変更できます。
 
-[Adobeのパスワードを変更する方法については、こちらの記事を参照してください。](https://helpx.adobe.com/jp/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Adobeのパスワードを変更する場合は、この記事を参照してください。](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 パスワードの変更について詳しくは、管理者にお問い合わせください。
 

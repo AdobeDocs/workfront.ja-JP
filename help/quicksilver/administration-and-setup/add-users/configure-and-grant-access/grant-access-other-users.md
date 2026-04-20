@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 61%
@@ -66,7 +66,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 ## カスタムのアクセスレベルを使用して、ユーザーを編集するユーザーのアクセス権を設定
 
 1. アクセスレベルの作成または編集を行います。詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
-1. 標準、プラン、または作業ライセンスを持つユーザーの機能を変更して、他のユーザーの情報を表示するには、![&#x200B; ユーザー](assets/gear-icon-settings.png)の右側にある&#x200B;**表示** ボタンの歯車アイコン **をクリックし、**&#x200B;設定を微調整&#x200B;**ボックスで付与する表示オプションを選択します。**
+1. 標準、プラン、または作業ライセンスを持つユーザーの機能を変更して、他のユーザーの情報を表示するには、![ ユーザー](assets/gear-icon-settings.png)の右側にある&#x200B;**表示** ボタンの歯車アイコン **をクリックし、**&#x200B;設定を微調整&#x200B;**ボックスで付与する表示オプションを選択します。**
 
    <table style="table-layout:auto"> 
     <col> 
@@ -91,9 +91,9 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
     </tbody> 
    </table>
 
-   ![&#x200B; ユーザー設定の表示を微調整](assets/fine-tune-view-users.png)
+   ![ ユーザー設定の表示を微調整](assets/fine-tune-view-users.png)
 
-1. 標準またはプランのライセンスを持つユーザーの権限を変更して他のユーザーを編集するには、![&#x200B; ユーザー](assets/gear-icon-settings.png)の右側にある&#x200B;**編集** ボタンの歯車アイコン **歯車アイコン**&#x200B;をクリックし、**設定を微調整** ボックスで付与する編集オプションを選択します。
+1. 標準またはプランのライセンスを持つユーザーの権限を変更して他のユーザーを編集するには、![ ユーザー](assets/gear-icon-settings.png)の右側にある&#x200B;**編集** ボタンの歯車アイコン **歯車アイコン**&#x200B;をクリックし、**設定を微調整** ボックスで付与する編集オプションを選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,12 +102,12 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
      <tr> 
       <td role="rowheader"><strong>作成</strong> </td> 
       <td> <p>ユーザーがユーザーを作成できるようにします。<br>このオプションは、デフォルトで有効になっています。</p> 
-     <p><b>メモ</b>：組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。</p>
+     <p><b>メモ</b>：組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。<!--Check this October 2026--></p>
         </td>  
      </tr> 
      <tr> 
       <td role="rowheader"><strong>削除</strong> </td> 
-      <td> <p> ユーザーが自分で作成したユーザーを削除できるようにします。<br>このオプションは、デフォルトで有効になっています。</p> <p><b>メモ</b>：組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。</p> </td> 
+      <td> <p> ユーザーが自分で作成したユーザーを削除できるようにします。<br>このオプションは、デフォルトで有効になっています。</p> <p><b>メモ</b>：組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。<!--Check this October 2026--></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>請求率の編集</strong> </td> 

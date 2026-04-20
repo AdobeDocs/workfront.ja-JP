@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '54'
+ht-degree: 31%
 
 ---
 
@@ -19,100 +19,110 @@ ht-degree: 100%
 
 <!--Audited: 2024-->
 
+>[!IMPORTANT]
+>
+>このページに記載されている手順は、Adobe Admin Consoleにオンボーディングされていない組織にのみ適用されるため、削除されました。
+>
+>すべてのWorkfront組織がAdobe Admin Consoleにオンボーディングされました。
+
+<!--DELETE ME MARCH 2026-->
+
+<!--
+
 {{important-not-on-aec}}
 
-[!DNL Adobe Workfront] にログインするには、次の情報が必要です。
+You need the following information to log in to [!DNL Adobe Workfront]:
 
-* **ログイン URL：**&#x200B;これは、会社の一意の URL で、「**`yourCompanyDomain.my.workfront.com`**」の形式にする必要があります。\
-   シングルサインオン（SSO）を設定している場合は、お使いの URL が [!DNL Workfront] 管理者によって変更される可能性があります。SSO を使用した [!DNL Workfront] へのログインについて詳しくは、この記事内の[SSO を使用した  [!DNL Workfront]  へのログイン](#log-in-to-workfront-with-sso)を参照してください。
+* **A login URL:** This is your company's unique URL, which should have this format: **`yourCompanyDomain.my.workfront.com`**.\
+   If you are set up for single sign-on (SSO), your URL might have been changed by your [!DNL Workfront] administrator. For more information about logging in to [!DNL Workfront] with SSO, see [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) in this article.
 
-  会社のドメイン名は、[!DNL Workfront] によって確立されます。ドメイン名を変更する場合は、カスタマーサポートチームにお問い合わせください。カスタマーサポートチームへの問い合わせ方法について詳しくは、[カスタマーサポートに連絡](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
+   The domain name for your company is established by [!DNL Workfront]. To change your domain name, contact our Customer Support team. For information about how to contact our Customer Support team, see [Contact Customer Support](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-* **ユーザー名：**[!DNL Workfront] 管理者がユーザー名を設定します。
-* **パスワード：**&#x200B;システムが SSO 用に設定されていない場合は、[!DNL Workfront] 管理者からのメールの招待状を受信した後に [!DNL Workfront] パスワードを設定します。
+* **A username:** Your [!DNL Workfront] administrator sets up your user name.
+* **A password:** If your system is not set up for SSO, you set up your [!DNL Workfront] password after receiving an email invitation from the [!DNL Workfront] administrator.
 
-  SSO を使用した [!DNL Workfront] へのログインについて詳しくは、この記事内の[SSO を使用した  [!DNL Workfront]  へのログイン](#log-in-to-workfront-with-sso)を参照してください。
+   For more information about logging in to [!DNL Workfront] with SSO, see [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) in this article.
 
-  メールの招待状の受信と [!DNL Workfront] のパスワードの作成について詳しくは、[メールの招待状の受信および  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md) のパスワードの作成を参照してください。
+   For more information about receiving email invitations and creating a [!DNL Workfront] password, see [Receive email invitations and create a password for [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 
-## アクセス要件
+## Access requirements
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  </col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront パッケージ</td> 
-   <td> <p>任意</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront プラン</td> 
+   <td>Adobe Workfront license</td> 
    <td> 
-   <p>コントリビューター以上</p>
-   <p>リクエスト以上</p> </td> 
+   <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## SSO を使用せずに [!DNL Workfront] にログイン
+## Log in to [!DNL Workfront] without SSO
 
-[!DNL Workfront] 管理者が [!DNL Workfront] で SSO ソリューションその統合を設定しなかった場合には、Workfront の新しいユーザー名とパスワードが必要です。Workfront で SSO ソリューションとの統合を設定する方法について詳しくは、[Adobe Workfront でのシングルサインオンの概要](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)を参照してください。
+If your [!DNL Workfront] administrator did not set up [!DNL Workfront] to integrate with your SSO solution, you will need a new username and password for Workfront. For information about configuring Workfront to integrate with an SSO solution, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
-[!DNL Workfront] ユーザー名とパスワードを使用した [!DNL Workfront] へのログイン
+To log into [!DNL Workfront] using your [!DNL Workfront] username and password:
 
-1. ブラウザーウィンドウを開き、会社の一意の URL を入力し、次の形式を使用する必要があります。**`yourCompanyDomain.my.workfront.com`**
+1. Open a browser window, then type in the unique URL of your company, which should have the following format: **`yourCompanyDomain.my.workfront.com`**.
 
-   [!DNL Workfront] でサポートされているブラウザーについて詳しくは、[[!DNL Adobe Workfront]  ブラウザー要件](../../../workfront-basics/workfront-browser-requirements.md)を参照してください。
+   For more information about what browsers are supported for [!DNL Workfront], see [[!DNL Adobe Workfront] browser requirements](../../../workfront-basics/workfront-browser-requirements.md).
 
-1. ログイン画面で、ユーザー名とパスワードを入力します。
+1. In the login screen, enter your username and password.
 
-   ユーザー名は通常、[!DNL Workfront] アカウントに関連付けられたメールアドレスです。パスワードを忘れた場合は、[パスワードのリセット](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)を参照してください。
+   Your username is typically the email address associated with your [!DNL Workfront] account. If you forgot your password, see [Reset your password](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
 
-1. （条件付き）組織の [!DNL Workfront] ログイン URL にドメインが含まれていません。[!UICONTROL ドメイン]フィールドでドメインを指定する必要があります。
-1. 「**[!UICONTROL ログイン]**」をクリックします。
+1. (Conditional) If your organization's [!DNL Workfront] login URL doesn't contain a domain, you must specify your domain in the [!UICONTROL Domain] field.
+1. Click **[!UICONTROL Login]**.
 
-## SSO を使用した [!DNL Workfront] へのログイン
+## Log in to [!DNL Workfront] with SSO
 
-[!DNL Workfront] 管理者が [!DNL Workfront] をシングルサインオンソリューションと統合した場合、[!DNL Workfront] にログインする際に必要な情報について、担当者に問い合わせる必要があります。Workfront と SSO ソリューションの統合について詳しくは、[ [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
+If your [!DNL Workfront] administrator integrated [!DNL Workfront] with a single sign-on solution, you should contact them for the information needed for your logging in to [!DNL Workfront]. For more information about integrating Workfront with an SSO solution, see [Overview of single sign-on in [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
-[!DNL Workfront] にログインするために、お使いの SSO ユーザー名とパスワードを使用
+To log in to [!DNL Workfront] using your SSO username and password:
 
-1. ブラウザーウィンドウを開きます。
+1. Open a browser window.
 
-   [!DNL Workfront] でサポートされているブラウザーについて詳しくは、[[!DNL Adobe Workfront]  ブラウザー要件](../../../workfront-basics/workfront-browser-requirements.md)を参照してください。
+   For more information about what browsers are supported for [!DNL Workfront], see [[!DNL Adobe Workfront] browser requirements](../../../workfront-basics/workfront-browser-requirements.md).
 
-1. 会社の一意の URL を入力します。
+1. Type the unique URL of your company.
 
-   [!DNL Workfront] 管理者がデフォルトの [!DNL Workfront] URL を変更しなかった場合、次の形式にする必要があります。
+   If your [!DNL Workfront] administrator did not change the default [!DNL Workfront] URL, it should have the following format:
 
    **`yourCompanyDomain.my.workfront.com`**
 
-1. [!DNL Workfront] 管理者が、正しい URL を持っていることを確認できます。
-1. ログイン画面で、ユーザー名とパスワードを入力します。
+1. Your [!DNL Workfront] administrator can ensure that you have the correct URL.
+1. On the login screen, enter your username and password.
 
-   ユーザー名とパスワードは、通常、すべてのアプリケーションで使用するネットワークのユーザー名とパスワードです。パスワードやユーザー名を忘れた場合は、環境に用意されているツールを使用してリセットするか、[!DNL Workfront] 管理者にお問い合わせください。
+   Your username and password are typically your network user name and password, which you use for all your applications. If you forgot your password or your user name, use the tools provided in your environment for resetting them, or contact your [!DNL Workfront] administrator.
 
-   ログイン画面のルックアンドフィールは、使用する SSO ソリューションと、[!DNL Workfront] 管理者が設定する方法に応じて異なります。
+   The look and feel of your login screen changes depending on what SSO solution you use and the way it was configured by your [!DNL Workfront] administrator.
 
-1. ログインを完了します。
+1. Complete your login.
 
-## 会社ドメインを使用して、[!DNL Workfront] モバイルアプリにログインします。
+## Log in to the [!DNL Workfront] mobile app using company domain
 
-1. [!DNL Workfront] モバイルアプリを起動し、「**会社ドメインでログイン**」をクリックします。
+1. Launch the [!DNL Workfront] mobile app, then click **Sign in with company domain**.
 
-1. 組織のドメインを入力します。
+1. Type your organization's domain.
 
-   組織が SSO を使用している場合は、これは、SAML ドメインです。
+   This is the SAML domain if your organization is using SSO.
 
    >[!TIP]
    >
-   >これは通常、会社名です。不明な場合は、[!DNL Workfront] 管理者にお問い合わせください。
+   >This is typically your company name. If you are unsure, contact your [!DNL Workfront] administrator.-->
 
 <!--
 1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
@@ -133,30 +143,30 @@ ht-degree: 100%
 1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.
 -->
 
-1. （条件付き）初めてログインする場合、[!DNL Workfront] モバイルアプリがアカウントにアクセスする権限を要求するページが表示されます。「**アクセスを許可**」をクリックして続行します。
+<!--1. (Conditional) If you are logging in for the first time, a page requesting permission for the [!DNL Workfront] mobile app to access your account will display. Click **Allow access** to continue.
 
-1. デスクトップサイトと同じようにログインできる web ページにリダイレクトされます。このプロセスは組織の Workfront の設定によって異なります。詳しくは、上記の [SSO を使用せずに  [!DNL Workfront]  にログイン](#log-in-to-workfront-without-sso)、または [SSO を使用して  [!DNL Workfront]  にログイン](#log-in-to-workfront-with-sso)を参照してください。
+1. You are redirected to a webpage that allows you to log in identically to the desktop site. This process varies depending on your organization's Workfront configuration, see [Log in to [!DNL Workfront] without SSO](#log-in-to-workfront-without-sso) or [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) above for more information. 
 
-   完了すると、モバイルアプリにリダイレクトされ、ログインできます。
+   Once complete, you are redirected by to the mobile app and signed in.
 
-1. 「**[!UICONTROL 了解しました]**」または「**[!UICONTROL はじめに]**」をタップして、表示されたチュートリアル内を移動します。
+1. Tap **[!UICONTROL Okay, got it]** or **[!UICONTROL GETTING STARTED]** to navigate through the tutorials displayed.
 
-   これらのチュートリアルは、アプリに初めてアクセスしたときにのみ表示されます。[!DNL Workfront] モバイルアプリをアンインストールし再インストールした場合、または別のユーザーとしてログインした場合にのみ再度表示されます。チュートリアルを閉じた後に表示されるエリアは、表示するように選択したエリアです。
+   These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the [!DNL Workfront] mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show
 
-## [!DNL Adobe] ID を使用した [!DNL Workfront] モバイルアプリへのログイン
+## Log in to the [!DNL Workfront] mobile app using [!DNL Adobe] ID
 
-1. [!DNL Workfront] モバイルアプリを起動し、「**[!DNL Adobe] ID でログイン**」をクリックします。
+1. Launch the [!DNL Workfront] mobile app, then click **Sign in with [!DNL Adobe] ID**.
 
 >[!NOTE]
 >
->IMS の iOS ユーザーの場合は、「**会社ドメインでログイン**」を選択し、[!DNL Workfront] 管理者から提供されたドメインを使用して、[!DNL Adobe] ID を使用してログインできます。
+>For iOS users on IMS, you can select **Sign in with company domain** and use the domain provided by your [!DNL Workfront] administrator to log in using your [!DNL Adobe] ID.
 
-1. メールを入力し、「**続行**」をクリックします。
+1. Type in your email, then click **Continue**.
 
-1. （条件付き）ログインに使用するアカウントを選択します。[!DNL Adobe] ID が組織に関連付けられている場合、通常、これは&#x200B;**会社または学校アカウント**&#x200B;になります。
+1. (Conditional) Select the account you would like to use to log in. Typically, this will be **Company or School Account** if your [!DNL Adobe] ID is associated with an organization. 
 
-1. （条件付き）アカウントが複数の組織に関連付けられている場合に使用するプロファイルを選択します。
+1. (Conditional) Select a profile to use if your account is associated with more than one organization.
 
-1. ログインが実行されます。「**[!UICONTROL 了解しました]**」または「**[!UICONTROL はじめに]**」をタップして、表示されたチュートリアル内を移動します。
+1. You are now signed in. Tap **[!UICONTROL Okay, got it]** or **[!UICONTROL GETTING STARTED]** to navigate through the tutorials displayed.
 
-   これらのチュートリアルは、アプリに初めてアクセスしたときにのみ表示されます。[!DNL Workfront] モバイルアプリをアンインストールし再インストールした場合、または別のユーザーとしてログインした場合にのみ再度表示されます。チュートリアルを閉じた後に表示されるエリアは、表示するように選択したエリアです。
+   These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the [!DNL Workfront] mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show-->

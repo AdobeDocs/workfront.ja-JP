@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1538'
 ht-degree: 86%
 
 ---
@@ -32,12 +32,6 @@ ht-degree: 86%
 >組織が許可リストを設定する方法は、各組織に一意です。IT チームと協力して、組織の手順を特定し、これらの追加を実装してください。
 
 ファイアウォールやメールサーバーが、特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをその許可リストに追加する必要があります。これにより、環境と Adobe Workfront サーバー間の通信が開始され、次のプロセスが可能になります。
-
-* Workfront アプリケーションからのメッセージの送信
-
-  >[!NOTE]
-  >
-  >組織の Workfront インスタンスが Adobe IMS によって有効化されている場合は使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
 
 * カスタムドキュメント統合を設定する際のドキュメント web フックの使用
 * Workfront イベント登録の使用
@@ -442,7 +436,7 @@ Workfront for Jira 統合を使用するためには、次の IP アドレスを
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-組織がAdobe Unified Experienceを利用している場合は、次のドメインが使用されます。 これらのドメインは`*.adobe.com`でカバーされていますが、必要に応じて追加できます。
+お客様の組織はAdobe Unified Experienceを利用しているため、次のドメインが使用されます。 これらのドメインは`*.adobe.com`でカバーされていますが、必要に応じて追加できます。
 
 * &lt;your domain>.my.workfront.adobe.com
 * &lt;your domain>.preview.workfront.adobe.com
@@ -451,6 +445,8 @@ Workfront for Jira 統合を使用するためには、次の IP アドレスを
 
 
 Workfront Fusionの場合は、次のドメインを追加します。
+
+<!--Remove me October 2026-->
 
 * Adobe Unified Experienceを利用していない場合：
    * app.workfrontfusion.com （米国AWS）

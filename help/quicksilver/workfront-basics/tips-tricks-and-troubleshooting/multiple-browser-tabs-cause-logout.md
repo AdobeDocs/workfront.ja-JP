@@ -1,27 +1,23 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: 複数のブラウザータブが原因で、Workfrontがログアウトする
+title: 複数のブラウザータブが原因で、Workfront からログアウトされる
 description: 複数のブラウザータブを開いている場合、Workfront は自動的にログアウトすることがあります。
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 440640f5b916b76096c99eed8253236de477a02a
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 30%
+source-wordcount: '164'
+ht-degree: 42%
 
 ---
 
-# 複数のブラウザータブが原因で、Workfrontがログアウトする
-
->[!IMPORTANT]
->
->この問題は、Adobe IMSにオンボーディングされた組織にのみ発生します。
+# 複数のブラウザータブが原因で、Workfront からログアウトされる
 
 ## 問題
 
-ユーザーが複数のブラウザータブを開き、しばらく非アクティブになっているタブをクリックすると、タブセッションの有効期限が切れます。 ユーザーが開いていたページは表示されず、代わりに次のメッセージが表示されます。
+ユーザーが複数のブラウザータブを開き、しばらく非アクティブだったタブをクリックすると、タブセッションの有効期限が切れます。 ユーザーは開いているページを見ることができず、代わりに次のメッセージが表示されます。
 
 ```
 Tab session expired
@@ -30,7 +26,7 @@ This tab session has been halted due to inactivity. Refresh the tab to continue 
 
 ## 理由
 
-この動作は、組織が設定したセキュリティ対策であるポリシーベースの認証（PBA）が原因です。 タブが組織の PBA 設定で設定された制限時間を超えて非アクティブになっている場合、タブセッションは期限切れになります。
+この動作は、組織で設定されたセキュリティ対策であるポリシーベース認証（PBA）によるものです。 タブが組織のPBA設定で設定された時間制限を超えて非アクティブになっている場合、タブセッションは期限切れになります。
 
 ## ソリューション
 

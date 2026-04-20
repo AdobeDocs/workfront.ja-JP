@@ -1,14 +1,14 @@
 ---
 content-type: overview
-title: 上部ナビゲーションバーの概要
+title: トップ ナビゲーション バーの概要
 description: ' [!DNL Adobe Workfront]  の画面の上部に表示されるトップナビゲーションバーを使用すると、プラットフォームの他のエリアを簡単に見つけて移動できます。'
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 4ad4873f1646a2ff499d03dabd9749d43022f6b1
+source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -76,7 +76,7 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
 >
 >このページで説明されているメイン メニューは、まだ [!DNL Adobe Experience Cloud] に登録されていない組織にのみ適用されます。
 >
-> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。
+> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。
 
 **[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](assets/main-menu-icon.png) をクリックすると、[!UICONTROL メインメニュー]が開き、そこから Workfront の別のエリアに移動できます。
 
@@ -84,15 +84,11 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
 
 * **レイアウト テンプレートの設定**：[!DNL Workfront]管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレート](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を使用して、[!UICONTROL メインメニュー]をカスタマイズする方法を参照してください。
 
-* **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定については、[レビューライセンスユーザーのナビゲーションを理解する](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)または[[!UICONTROL ワーク]ライセンスユーザー](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)のナビゲーションを理解するを参照してください。
+* **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定については、[ ライトライセンスユーザーのナビゲーションの理解](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)または[作業[!UICONTROL  ライセンスユーザーのナビゲーションの理解]を参照してください。](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 
 各アイコンにより、Workfront の様々なエリアに移動します。
 
 各領域の詳細については、次を参照してください。
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
--->
 
 <table style="table-layout:auto"> 
  <col> 

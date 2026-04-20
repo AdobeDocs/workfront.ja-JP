@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 91%
+source-wordcount: '586'
+ht-degree: 95%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 91%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td><p>Workfront管理者である必要があります</p></td>
+   <td><p>あなたはWorkfrontの管理者でなければなりません</p></td>
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -61,76 +61,7 @@ ht-degree: 91%
 
 ## 組織のユーザー属性のマッピング
 
-属性をマッピングする手順は、組織が Adobe Unified Experience を使用しているかどうかによって異なります。
-
-組織が Adobe Unified Experience を使用しているかどうかを判断するには、Workfront へのアクセスに使用する URL を調べます。
-
-| URL | Adobe Experience |
-|---|---|
-| (CompanyName).my.workfront.com | 従来のエクスペリエンス |
-| experience.adobe.com | Adobe Unified Experience |
-
-* [従来のエクスペリエンスでユーザー属性をマッピング](#map-user-attributes-in-the-classic-experience)
-* [Adobe Unified Experience でユーザー属性をマッピング](#map-user-attributes-in-the-adobe-unified-experience)
-
-### 従来のエクスペリエンスでユーザー属性をマッピング
-
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**設定** ![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
-
-1. **システム**／**シングルサインオン(SSO)** をクリックします。
-
-1. **タイプ**&#x200B;ドロップダウンリストで、「**SAML 2.0**」をクリックします。
-
-1. 「**ユーザー属性の割り当て**」をクリックします。
-
-   ![&#x200B; ユーザー属性のマッピング &#x200B;](assets/map-user-attributes.png)
-
-1. 表示されるオプションの行で、必要な属性を Workfront ユーザーにマッピングします。
-
-   住所、マネージャー、担当業務、ホームグループなどの属性をマッピングできます。
-
-   属性マッピングは 1:1 比で機能します。 例えば、ユーザーが所属するすべてのグループを設定することはできず、設定できるのは 1 人のユーザーにつき 1 つのみです。
-
-   >[!IMPORTANT]
-   >
-   >属性マッピングでアクセスレベルをマッピングすることはお勧めしません。それを行う場合は、デフォルト値を設定する際に、管理者アクセス権を誤って削除しないように注意してください。
-
-   属性のマッピングに使用できるフィールドを次の表に示します。
-
-   <table style="table-layout:auto"> 
-    <col data-mc-conditions=""> 
-    <col data-mc-conditions=""> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Workfront ユーザー属性</td> 
-      <td>マッピングする属性の名前を選択します。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">ディレクトリの属性</td> 
-      <td>使用する SSO 属性ラベルを入力します。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">既定値</td> 
-      <td> <p>「Workfront ユーザー属性」を選択した後、接続中に値が NULL の場合、このフィールドはシステムの対応するデフォルト値が入力されます。属性マッピングルールを適用する場合にのみ、ここに値を入力します（手順 7 を参照）。デフォルト値は、これらのルールの例外として機能します。</td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. （オプション）「**ルール**」をクリックして、属性にルールを追加します。
-
-   1. ドロップダウンで、使用する属性修飾子を選択します。
-   1. 右側の 2 つのフィールドに、ディレクトリ属性値と、置き換える値を入力します。
-
-      ![&#x200B; ルールフィールド &#x200B;](assets/rule-fields.png)
-
-   「**ルールを追加**」をクリックして、属性にルールを追加します。
-
-1. （オプション）さらにユーザー属性をマッピングするには、「**マッピングを追加**」をクリックして、手順 6～7 を繰り返します。
-1. 「**保存**」をクリックします。
-
-### Adobe Unified Experience でユーザー属性をマッピング
-
-1. Adobe Workfrontの左上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-left.png) をクリックし、**設定** ![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
+1. Adobe Workfrontの左上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-left.png)をクリックし、**セットアップ** ![ ギア設定アイコン ](assets/gear-icon-settings.png)をクリックします。
 
 1. **システム**／**シングルサインオン(SSO)** をクリックします。
 

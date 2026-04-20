@@ -8,18 +8,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 87%
+source-wordcount: '832'
+ht-degree: 86%
 
 ---
 
 # ユーザーの削除
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->ここで説明する手順は、Adobe Business Platform にまだオンボーディングされていない組織にのみ適用されます。 Adobe Business Platform にオンボーディング済みの場合は、Adobe Admin Consoleでユーザーを削除する必要があります。
+>このページで説明する手順は、Adobe Business Platformにまだオンボーディングされていない組織にのみ適用されます。 Adobe Business Platformにオンボーディングされている場合は、Adobe Admin Consoleでユーザーを削除する必要があります。
+>
+>**現在、すべての組織がAdobe Admin Consoleにオンボーディングされているため、このページの情報は近い将来に削除されます。**
 >
 >組織が Adobe Business Platform に登録されているかどうかによって異なる手順のリストについては、[プラットフォームによる管理の違い（Adobe Workfront Fusion／Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
@@ -33,7 +37,7 @@ ht-degree: 87%
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -59,8 +63,8 @@ ht-degree: 87%
    <td>アクセスレベル設定</td> 
    <td> <p>次のいずれかが必要です。</p> 
     <ul> 
-     <li> <p>システム管理者のアクセス レベルです。 </li> 
-     <li> <p><b>編集</b>アクセスに設定されたアクセスレベルでの<b>ユーザー</b>設定には、<b>作成</b>および<b>設定を微調整</b> <img src="assets/gear-icon-in-access-levels.png">の下で有効となる少なくとも 2 つのうち 1 つの<b>ユーザー管理者</b>オプションがあります。 </p> <p>これら 2 つのオプションのうち、<b> ユーザー管理者（グループユーザー） </b> が有効になっている場合、ユーザーがメンバーになっているグループのグループ管理者である必要があります。</p> </li> 
+     <li> <p>システム管理者のアクセスレベル。 </li> 
+     <li> <p><b>編集</b>アクセスに設定されたアクセスレベルでの<b>ユーザー</b>設定には、<b>作成</b>および<b>設定を微調整</b> <img src="assets/gear-icon-in-access-levels.png">の下で有効となる少なくとも 2 つのうち 1 つの<b>ユーザー管理者</b>オプションがあります。 </p> <p>これらの2つのオプションのうち、<b> ユーザー管理者（グループユーザー） </b>が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -107,12 +111,15 @@ ht-degree: 87%
    * タスク、イシュー、プロジェクト、ポートフォリオ
    * ダッシュボード
 
-     <!--
+  <!--
+
      >[!NOTE]
      >
      >You also lose access to custom sections that contained dashboards associated to the deleted user.  
+     >
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
-     -->
+
+   -->
 
    * アップデート
    * 時間
@@ -132,7 +139,7 @@ ht-degree: 87%
 
 {{step-1-to-users}}
 
-1. 削除する 1 人以上のユーザーを選択し、「詳細」メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックして、「**削除**」をクリックします。
+1. 削除するユーザーを少なくとも1つ選択し、その他メニュー![詳細アイコン ](assets/more-icon.png)をクリックしてから、**削除**&#x200B;をクリックします。
 1. 表示されるボックスで、「**削除**」をクリックして削除を確定します。
 
    ユーザーを削除するプロセスはバックグラウンドプロセスとして実行されるので、ユーザーが削除されているときも Workfront を引き続き使用できます。

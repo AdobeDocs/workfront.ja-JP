@@ -1,40 +1,40 @@
 ---
 product-area: user-management
 navigation-topic: workfront-navigation
-title: レビューライセンスを持つユーザーのナビゲーションについて
-description: メインメニューは、 [!DNL Adobe Workfront] 管理者に割り当てられたアクセスレベルに応じて変わります。デフォルトでは、自分のアクセスレベルで使用が許可される機能を含んだエリアへのアクセス権のみが付与されます。
+title: ライトライセンスユーザーのナビゲーションについて
+description: この記事では、Adobe Workfrontのライトユーザーのデフォルトのメインメニュー項目について説明します。
 author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 98%
+source-wordcount: '364'
+ht-degree: 46%
 
 ---
 
-# [!UICONTROL レビュー]ライセンスを持つユーザーのナビゲーションについて
+# [!UICONTROL Light] ライセンス ユーザーのナビゲーションについて
 
 [!UICONTROL メインメニュー]は、[!DNL Adobe Workfront] 管理者に割り当てられたアクセスレベルに応じて変わります。デフォルトでは、自分のアクセスレベルで使用が許可される機能を含んだエリアへのアクセス権のみが付与されます。各アクセスレベルのデフォルトレイアウトのコンポーネントについては、[デフォルトの [!DNL Adobe Workfront] レイアウトについて](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)を参照してください。
 
-## [!UICONTROL レビュアー]のデフォルトの[!UICONTROL メインメニュー]について
+## [!UICONTROL  ライトユーザー]のデフォルトの[!UICONTROL  メインメニュー]について
 
-[!UICONTROL レビュアー]の主な責務は、作業をレビューし、コメントを付け、承認することです。[!UICONTROL メインメニュー]に表示されるエリアで、それが可能になります。
+[!UICONTROL  ライトユーザー]の主な責任は、作業のレビュー、コメント、承認です。 [!UICONTROL メインメニュー]に表示されるエリアで、それが可能になります。
 
-[!UICONTROL レビュアー]のデフォルトレイアウトには、以下のエリアが含まれています。
+[!UICONTROL  ライトユーザー]のデフォルトレイアウトには、次の領域が含まれています。
 
-* **[!UICONTROL マイ更新]**：すべてのアクセスレベルのユーザーが使用できる&#x200B;**[!UICONTROL ホーム]**&#x200B;エリアは、デフォルトでは、レビューライセンスタイプを持つユーザー用の&#x200B;**[!UICONTROL マイ更新]**&#x200B;に置き換わります。[!UICONTROL レビュアー]は、作業を完了するわけではありません。レビュー、コメントまたは承認が必要な作業に関する情報のみが表示される必要があります。**[!UICONTROL マイ更新]**&#x200B;エリアでは、これらのアクションを実行できます。これは、新規レビューユーザーのデフォルトのランディングエリアになります。
+* **[!UICONTROL マイアップデート]**：すべてのアクセスレベルのユーザーが利用できる&#x200B;**[!UICONTROL ホーム]**&#x200B;領域は、デフォルトで、ライトライセンスタイプを持つユーザーの&#x200B;**[!UICONTROL マイアップデート]**&#x200B;に置き換えられます。 [!UICONTROL  ライトユーザー]として、作業を完了できません。 レビュー、コメント、承認が必要な作業に関する情報のみを表示する必要があります。 **[!UICONTROL マイ更新]**&#x200B;エリアでは、これらのアクションを実行できます。これは、新規Light ユーザーのデフォルトのランディングエリアです。
 
   >[!TIP]
   >
-  >担当の [!DNL Workfront] 管理者またはグループ管理者が、デフォルトのランディングページを変更する可能性のあるレイアウトテンプレートを割り当てる場合があります。レイアウトテンプレートを使用すると、[!UICONTROL レビュー]ライセンスのユーザーとして、[!UICONTROL ホーム]エリアと[!UICONTROL 更新]エリアの両方を表示することもできます。
+  >担当の [!DNL Workfront] 管理者またはグループ管理者が、デフォルトのランディングページを変更する可能性のあるレイアウトテンプレートを割り当てる場合があります。レイアウトテンプレートを使用すると、[!UICONTROL  ホーム ]と[!UICONTROL 更新]領域の両方を[!UICONTROL  ライト ] ライセンスユーザーとして表示することもできます。
 
 * **[!UICONTROL リクエスト]**：このエリアでは、自分または会社の他のユーザーが送信したリクエストを送信およびレビューできます。
 * **[!UICONTROL ドキュメント]**：ここでは、ドキュメントをアップロードしたり、自分と共有されているドキュメントをレビューしたりできます。
-* **[!UICONTROL ブループリント]**：システムの既存のブループリントをレビューし、[!DNL Workfront] 管理者がブループリントのリクエストキューを設定した場合は、ブループリントをインストールするように要求します。詳しくは、[ブループリントの概要](../../../administration-and-setup/blueprints/blueprints-overview.md)を参照してください。
+* **[!UICONTROL ボード]**：実行したい作業を反映した列とカードを含む共有ボードを使用して、チームメンバーと柔軟に共同作業を行います。 詳しくは、[ボードの基本を学ぶ：記事インデックス](../../../agile/get-started-with-boards/get-started-with-boards.md)を参照してください。
+* **[!UICONTROL 優先度]**：作業の管理と優先順位付けをすばやく行うことができます。 詳しくは、[優先順位の基本を学ぶ](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)を参照してください。
 
-
-![&#x200B; メインメニューからマイアップデートにアクセス &#x200B;](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![ ライトユーザーのデフォルトのメインメニュー](assets/light-user-main-menu.png)
 
 ## デフォルトの[!UICONTROL メインメニュー]のカスタマイズ
 
