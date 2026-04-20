@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '889'
 ht-degree: 14%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 レコードは、Adobe Workfront Planningのオブジェクトタイプであるレコードタイプの個々のインスタンスです。 Workfront Planningでは、CSVまたはExcel ファイルから情報を読み込むことで、レコードを作成できます。
 
-レコードの作成について詳しくは、[&#x200B; レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
+レコードの作成について詳しくは、[ レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
 ## アクセス要件
 
@@ -62,7 +62,7 @@ ht-degree: 14%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -142,8 +142,8 @@ Old:
 * 空のシートはサポートされていません。
 * 次のタイプのフィールドはサポートされていないため、インポートシートのフィールドにマッピングできません。
 
-   * WorkfrontおよびAEM Assets オブジェクトタイプにフィールドを接続します。 接続フィールドのみをPlanning レコードタイプにマッピングできます。
-   * 接続されたPlanning レコードまたはWorkfrontおよびAEM Assets オブジェクトからのルックアップフィールド
+   * WorkfrontおよびAdobe Experience Managerのオブジェクトタイプにフィールドを接続します。 接続フィールドのみをPlanning レコードタイプにマッピングできます。
+   * 接続されたPlanning レコードまたはWorkfrontおよびAdobe Experience Manager オブジェクトからのルックアップフィールド
    * 数式フィールド
    * 作成日、作成者
    * 最終変更日、最終変更者
@@ -164,16 +164,16 @@ Old:
 1. レコードを読み込むレコードタイプのカードをクリックします。
 1. 画面の右上隅にある&#x200B;**新しいレコード**&#x200B;をクリックします。
 
-   ![&#x200B; レコードを3つのボタンボックスに追加する方法を選択](assets/choose-way-to-add-records-three-button-box.png)
+   ![ レコードを3つのボタンボックスに追加する方法を選択](assets/choose-way-to-add-records-three-button-box.png)
 1. 「**ファイルからアップロード**」、「**続行**」の順にクリックします。<!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. コンピューターに保存済みの Excel ファイルまたは CSV ファイルをドラッグアンドドロップするか、「**CSV ファイルまたは Excel ファイルを選択**」をクリックして参照します。
 1. 「**プレビューして編集**」をクリックします。
 1. （条件付き）読み込んだファイルに複数のシートがある場合は、**読み込むシートを選択** ボックスで読み込むシートのラジオボタンを選択し、**次へ**&#x200B;をクリックします。 それ以外は、次のステップに進みます。
 
-   ![&#x200B; レコードを読み込むシートを選択](assets/select-a-sheet-to-import-box.png)
+   ![ レコードを読み込むシートを選択](assets/select-a-sheet-to-import-box.png)
 1. **プランニングフィールドを列ヘッダーにマッピングする**&#x200B;で、シートの各列の情報に最も一致する&#x200B;**プランニングフィールド**&#x200B;を選択します。
 
-   ![&#x200B; レコードの読み込み時にプランニングフィールドを列にマッピング &#x200B;](assets/map-planning-fields-to-columns-when-importing-records.png)
+   ![ レコードの読み込み時にプランニングフィールドを列にマッピング ](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    各行は新しいレコードを表します。「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
 

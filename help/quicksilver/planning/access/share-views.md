@@ -8,22 +8,25 @@ recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2016'
-ht-degree: 16%
+source-wordcount: '2005'
+ht-degree: 15%
 
 ---
 
 
 # ビューを共有
 
-<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
+<!--
+there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes
+-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -90,7 +93,7 @@ This article describes how you can share a view with others. For information abo
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -201,11 +204,11 @@ Old:
 
    * ビューのタブをクリックし、ドロップダウンメニューのビューにカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックしてから、**共有**&#x200B;をクリックします。
 
-     ![&#x200B; ビューの詳細メニュー](assets/more-menu-for-views-expanded-with-share-option.png)
+     ![ ビューの詳細メニュー](assets/more-menu-for-views-expanded-with-share-option.png)
 
    * 画面の右上隅にある「**共有**」をクリックしてから、**現在のビューを共有**&#x200B;します。
 
-     ![&#x200B; レコードタイプとビュー共有オプションを含む共有ボタン &#x200B;](assets/share-button-with-record-type-and-view-sharing-options.png)
+     ![ レコードタイプとビュー共有オプションを含む共有ボタン ](assets/share-button-with-record-type-and-view-sharing-options.png)
 
    **共有ビュー** ボックスが開き、**内部共有** タブがデフォルトで選択されている必要があります。
 
@@ -217,17 +220,17 @@ Old:
    >
    >* グループ、グループ、企業、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
    >
-   >* ユーザーとビューを共有すると、そのユーザーの主要な担当業務<span class="preview">とその電子メール </span>もフィールドに表示されます。 ユーザーの電子メールを表示するには、アクセスレベルのUsers オブジェクトで「連絡先情報を表示」設定を有効にする必要があります。
+   >* ユーザーとビューを共有すると、そのユーザーの主要な担当業務とその電子メールもフィールドに表示されます。 ユーザーの電子メールを表示するには、アクセスレベルのUsers オブジェクトで「連絡先情報を表示」設定を有効にする必要があります。
 
    * **ワークスペース内のすべてのユーザーが表示できます**: ワークスペースに対する表示権限またはそれ以上の権限を持つすべてのユーザーがビューにアクセスできます。
 
 1. **このビューへのアクセス権を付与** フィールドで、ユーザー、グループ、チーム、会社、または担当業務の名前を入力し始め、リストに表示されたらクリックします。
 
-   ![&#x200B; グループとのビューの共有](assets/sharing-a-view-ui-with-groups.png)
+   ![ グループとのビューの共有](assets/sharing-a-view-ui-with-groups.png)
 
-1. <span class="preview"> （オプション）グループ、チーム、役割、または会社と共有する場合は、エンティティの名前にカーソルを合わせ、右向きの矢印をクリックして、権限を受け取っているユーザーのリストを展開します。</span>
+1. （オプション）グループ、チーム、役割、または会社と共有する場合は、エンティティの名前にカーソルを合わせ、右向きの矢印をクリックして、権限を受け取っているユーザーのリストを展開します。
 
-   ![&#x200B; チームとビューを共有](assets/share-view-with-team-expanding-arrow-highlighted.png)
+   ![ チームとビューを共有](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
 1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
    * 表示
@@ -239,15 +242,20 @@ Old:
 
 1. 「**保存**」をクリックします。
 
-   ビューは、人物アイコン ![他のユーザーと共有されたビュー](assets/view-shared-with-others-people-icon.png)で更新され、ビューが他のユーザーと共有されたことを示します。
-
    ビューを共有したユーザーは、そのビューに対する権限を持つことに関するアプリ内およびメール通知を受け取ります。
 
-   >[!TIP]
-   >
-   >人物やグローバルアイコンのないビューは、作成したビューであり、他のユーザーと共有されません。 共有されていないビューは、自分のみが表示できます。
-
 1. コピーしたリンクを他のユーザーと共有します。リンクを受け取ったユーザーが、レコードタイプのページにアクセスして、選択したビューで表示するには、ユーザーがアクティブユーザーであり、Workfront にログインしている必要があります。
+
+1. （オプション）ビューの名前にカーソルを合わせると、ビュー所有者の名前と、ビューが非公開または公開で共有されているかどうかが表示されます。
+
+   次のラベルが存在します。
+
+   * **パブリック**: ビューはパブリックに共有されています。 詳しくは、この記事の「[公開ビューへの権限の共有](#share-permissions-to-a-view-publicly)」の節を参照してください。
+   * **所有**: ビューは自分が作成しました。
+   * **共有されたユーザー**: ビューは他のユーザーによって作成され、共有されました。 所有者の名前も表示されます。
+   * **プライベート**：ビューを作成しましたが、他のユーザーが作成しましたが、公開されていません。
+
+   ![非公開の共有ビューはラベルにカーソルを合わせる](assets/privately-shared-view-hover-over-label.png)
 
 ## ビューへの権限を公開で共有する
 
@@ -279,7 +287,7 @@ Workfront Planningでビューを公開するには：
 
 1. **公開共有**&#x200B;をクリックします。
 
-   ![&#x200B; ビューの公開共有タブ &#x200B;](assets/public-sharing-tab-for-views.png)
+   ![ ビューの公開共有タブ ](assets/public-sharing-tab-for-views.png)
 
 1. **公開リンクの作成**&#x200B;設定を有効にします。
 
@@ -290,28 +298,22 @@ Workfront Planningでビューを公開するには：
    >セカンダリワークスペースのグローバルレコードタイプの「**公開共有**」タブが削除されます。
 
 
-1. **リンクをコピー** アイコン ![&#x200B; リンクビューをコピー](assets/copy-link-view.png)をクリックして、リンクをクリップボードにコピーします。
+1. **リンクをコピー** アイコン ![ リンクビューをコピー](assets/copy-link-view.png)をクリックして、リンクをクリップボードにコピーします。
 
 1. 手動で日付を入力するか、**リンク有効期限** フィールドのカレンダーを使用して、公開リンクの有効期限を選択します。 レコードページビューには、選択した日付より後はアクセスできません。
 
 1. 「**保存**」をクリックします。
 
-   ビューが更新され、グローバルアイコン ![公開共有ビューアイコンが強調表示されます](assets/public-shared-view-icon-highlighted.png)。これは、ビューが公開されていることを示します。
+1. （オプション）ビューのリストにあるビューの名前にカーソルを合わせると、ビューが公開されていることを示します。
 
-   >[!TIP]
-   >
-   >人物やグローバルアイコンのないビューは、作成したビューであり、他のユーザーと共有されません。 共有されていないビューは、自分のみが表示できます。
+   ![公開で共有されたビューは、ラベルにカーソルを合わせます](assets/publicly-shared-view-hover-over-label.png)
 
 1. （オプション）コピーしたリンクを電子メール、チャットメッセージ、ドキュメント、またはWorkfront コメントに貼り付けて、他のユーザーと共有します。
 
-   <div class="preview">
-
    他のユーザーが公開ビューを開くと、ヘッダーにビューに関する次の情報が表示されます。
 
-   * ビュー名とアイコン
+   * ビュー名とアイコン。 アイコンは、ビューのタイプ（テーブル、タイムライン、カレンダー）を示します。
    * 表示されるレコードタイプの名前
-
-   </div>
 
 ## ビューへのリンクのコピー
 
@@ -348,16 +350,16 @@ Workfront Planningでビューを公開するには：
 1. （条件付き）あなたがビューのマネージャーである場合、次の領域でビューにアクセスするためのリクエストを別のユーザーから受け取る可能性があります。
 
    * アプリ内通知
-     ![&#x200B; ビューのアクセス要求に対するアプリ内通知](assets/in-app-notification-for-access-request-for-view.png)
+     ![ ビューのアクセス要求に対するアプリ内通知](assets/in-app-notification-for-access-request-for-view.png)
    * メール通知
-     ![&#x200B; ビューのアクセス要求に対するアプリ内通知](assets/in-app-notification-for-access-request-for-view.png)
+     ![ ビューのアクセス要求に対するアプリ内通知](assets/in-app-notification-for-access-request-for-view.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
 メール通知から、**すべての通知を表示**&#x200B;をクリックし、リスト内の通知をクリックします。
 
    「**保留中のアクセス要求**」ボックスが表示されます。
 
-   ![通知リストの承認ボックス &#x200B;](assets/notifications-list-approval-box.png)
+   ![通知リストの承認ボックス ](assets/notifications-list-approval-box.png)
 1. （オプション）権限を承認するユーザーの場合、ユーザー名の右側にあるドロップダウンメニューから次のいずれかのオプションを選択します。
    * **表示**
    * **管理**
