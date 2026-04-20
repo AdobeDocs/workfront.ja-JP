@@ -93,7 +93,7 @@ This article describes how you can share a view with others. For information abo
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -204,11 +204,11 @@ Old:
 
    * ビューのタブをクリックし、ドロップダウンメニューのビューにカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックしてから、**共有**&#x200B;をクリックします。
 
-     ![ ビューの詳細メニュー](assets/more-menu-for-views-expanded-with-share-option.png)
+     ![&#x200B; ビューの詳細メニュー](assets/more-menu-for-views-expanded-with-share-option.png)
 
    * 画面の右上隅にある「**共有**」をクリックしてから、**現在のビューを共有**&#x200B;します。
 
-     ![ レコードタイプとビュー共有オプションを含む共有ボタン ](assets/share-button-with-record-type-and-view-sharing-options.png)
+     ![&#x200B; レコードタイプとビュー共有オプションを含む共有ボタン &#x200B;](assets/share-button-with-record-type-and-view-sharing-options.png)
 
    **共有ビュー** ボックスが開き、**内部共有** タブがデフォルトで選択されている必要があります。
 
@@ -226,11 +226,11 @@ Old:
 
 1. **このビューへのアクセス権を付与** フィールドで、ユーザー、グループ、チーム、会社、または担当業務の名前を入力し始め、リストに表示されたらクリックします。
 
-   ![ グループとのビューの共有](assets/sharing-a-view-ui-with-groups.png)
+   ![&#x200B; グループとのビューの共有](assets/sharing-a-view-ui-with-groups.png)
 
 1. （オプション）グループ、チーム、役割、または会社と共有する場合は、エンティティの名前にカーソルを合わせ、右向きの矢印をクリックして、権限を受け取っているユーザーのリストを展開します。
 
-   ![ チームとビューを共有](assets/share-view-with-team-expanding-arrow-highlighted.png)
+   ![&#x200B; チームとビューを共有](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
 1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
    * 表示
@@ -287,7 +287,7 @@ Workfront Planningでビューを公開するには：
 
 1. **公開共有**&#x200B;をクリックします。
 
-   ![ ビューの公開共有タブ ](assets/public-sharing-tab-for-views.png)
+   ![&#x200B; ビューの公開共有タブ &#x200B;](assets/public-sharing-tab-for-views.png)
 
 1. **公開リンクの作成**&#x200B;設定を有効にします。
 
@@ -298,7 +298,7 @@ Workfront Planningでビューを公開するには：
    >セカンダリワークスペースのグローバルレコードタイプの「**公開共有**」タブが削除されます。
 
 
-1. **リンクをコピー** アイコン ![ リンクビューをコピー](assets/copy-link-view.png)をクリックして、リンクをクリップボードにコピーします。
+1. **リンクをコピー** アイコン ![&#x200B; リンクビューをコピー](assets/copy-link-view.png)をクリックして、リンクをクリップボードにコピーします。
 
 1. 手動で日付を入力するか、**リンク有効期限** フィールドのカレンダーを使用して、公開リンクの有効期限を選択します。 レコードページビューには、選択した日付より後はアクセスできません。
 
@@ -350,16 +350,16 @@ Workfront Planningでビューを公開するには：
 1. （条件付き）あなたがビューのマネージャーである場合、次の領域でビューにアクセスするためのリクエストを別のユーザーから受け取る可能性があります。
 
    * アプリ内通知
-     ![ ビューのアクセス要求に対するアプリ内通知](assets/in-app-notification-for-access-request-for-view.png)
+     ![&#x200B; ビューのアクセス要求に対するアプリ内通知](assets/in-app-notification-for-access-request-for-view.png)
    * メール通知
-     ![ ビューのアクセス要求に対するアプリ内通知](assets/in-app-notification-for-access-request-for-view.png)
+     ![&#x200B; ビューのアクセス要求に対するアプリ内通知](assets/in-app-notification-for-access-request-for-view.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
 メール通知から、**すべての通知を表示**&#x200B;をクリックし、リスト内の通知をクリックします。
 
    「**保留中のアクセス要求**」ボックスが表示されます。
 
-   ![通知リストの承認ボックス ](assets/notifications-list-approval-box.png)
+   ![通知リストの承認ボックス &#x200B;](assets/notifications-list-approval-box.png)
 1. （オプション）権限を承認するユーザーの場合、ユーザー名の右側にあるドロップダウンメニューから次のいずれかのオプションを選択します。
    * **表示**
    * **管理**
