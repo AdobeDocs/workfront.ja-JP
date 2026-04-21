@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 11%
@@ -51,13 +51,13 @@ ht-degree: 11%
 >実稼動（迅速リリース）：2026年4月15日（PT）
 >実稼動（全ユーザー）：2026年4月16日（PT）
 
-Workfrontに、スケジュール済みレポート用の新しいリンク配信タイプが追加されました。 ファイルを生成して添付する代わりに、Workfrontのレポートへの直接リンクを含むメールが送信され、受信者はアプリケーション内の最新のデータを{{$include }}表示できます。
+Workfrontに、スケジュール済みレポート用の新しいリンク配信タイプが追加されました。 ファイルを生成して添付する代わりに、Workfrontのレポートへの直接リンクを含むメールが送信され、受信者はアプリケーション内の最新のデータを`{{$include }}`表示できます。
 
 リンク オプションは、新しく作成されたスケジュール済みレポート配信ルールのデフォルト配信タイプになりましたが、既存のファイルベースのフォーマット（HTML、PDF、Excel、TSV）は引き続き使用できます。
 
 この変更に伴い、レポート配信メールのルックアンドフィールも更新されました。
 
-詳しくは、[自動レポート配信のスケジュール &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
+詳しくは、[自動レポート配信のスケジュール ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
 
 ## Canvas ダッシュボードでレポートを特定のユーザーとして実行する
 

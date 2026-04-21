@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -69,18 +69,18 @@ ht-degree: 83%
 ドキュメント管理用に次の統合を設定できます。
 
 <!--
-  Experience Manager Assets Essentials </p>
-  -->
+   Experience Manager Assets Essentials </p>
+   -->
 
 * [!DNL Workfront DAM]
 
 * [!DNL Workfront Proof]
 
-  [!DNL Workfront Proof] からプルーフをリンクさせると、内で最初に作成されたプルーフを [!DNL Workfront Proof] 内で使用でき [!DNL Workfront] ようになります。
+  [!DNL Workfront Proof]のプルーフをリンクすると、[!DNL Workfront Proof]内で最初に作成されたプルーフを[!DNL Workfront]内で利用できるようになります。
 
 * [!DNL Microsoft SharePoint]
 
-  [!DNL SharePoint] との統合について詳しくは、[&#x200B; [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)を参照してください。
+  [!DNL SharePoint] との統合について詳しくは、[ [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)を参照してください。
 
 * サードパーティクラウドドキュメントプロバイダー：
 
@@ -99,7 +99,7 @@ ht-degree: 83%
 
 * その他のドキュメントプロバイダー（カスタムドキュメント統合を通じて）。
 
-さらに、サードパーティの DAM 統合を使用して、[!DNL Workfront] ドキュメントのエクスペリエンスを向上させることができます。 ユーザーがサービスを [!DNL Workfront] アカウントにリンクするには、管理者がこれらの機能を有効にする必要があります。
+さらに、サードパーティのDAM統合を使用して、[!DNL Workfront] ドキュメントのエクスペリエンスを強化できます。 ユーザーがサービスを[!DNL Workfront] アカウントにリンクするには、管理者がこれらの機能を有効にする必要があります。
 
 ## ドキュメントを管理するための統合の設定
 
@@ -213,7 +213,7 @@ ht-degree: 83%
 様々な [!DNL Workfront DAM] フィールドに同じ [!DNL Workfront] フィールドをマッピングできますが、複数の [!DNL Workfront] フィールドに同じ [!DNL Workfront DAM] フィールドを使用することはできません。
 
 1 つの [!DNL Workfront DAM] フィールドに書き出すように複数の [!DNL Workfront] フィールドを設定する必要がある場合は、まず [!DNL Workfront] に計算カスタムフィールドを作成して、オブジェクトの個々のカスタムフィールドをすべて表示します。次に、1 つの [!DNL Workfront DAM] フィールドに計算 [!DNL Workfront] フィールドをマッピングします。\
-計算カスタムフィールドについて詳しくは、「[&#x200B; フォームに計算フィールドを追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)」を参照してください。
+計算カスタムフィールドについて詳しくは、[計算フィールドをフォームに追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
 マッピングは、任意のユーザーが [!DNL Workfront] から [!UICONTROL Workfront] DAM にアップロードしたすべてのドキュメントに影響します。
 
@@ -250,12 +250,12 @@ ht-degree: 83%
 
 ## 制限事項
 
-### Google Drive の統合
+### Google Driveとの統合
 
-* リンクされたフォルダーをWorkfrontに追加すると、フォルダー内のファイルは自動的に追加されなくなります。
-   * Google フォルダーをファイルなしでWorkfrontに追加してから、個々のファイルをWorkfrontに追加できます。 ファイルはWorkfrontのGoogle フォルダーに自動的に追加されます。
+* リンクされたフォルダーがWorkfrontに追加されると、そのフォルダー内のファイルは自動的に追加されなくなります。
+   * Google フォルダーをファイルなしでWorkfrontに追加し、個々のファイルをWorkfrontに追加できます。 これらのファイルは、WorkfrontのGoogle フォルダーに自動的に追加されます。
 または
-   * Workfrontにドキュメントフォルダーを作成し、Google フォルダー内のすべてのファイルを選択してWorkfront フォルダーに追加します。
+   * Workfrontでドキュメントフォルダーを作成し、Google フォルダー内のすべてのファイルを選択してWorkfront フォルダーに追加できます。
 
 
-* Google Drive ドキュメントの統合では、Google Drive のマイドライブ領域からのファイルの追加がサポートされています。 共有ドライブからフォルダーや画像を追加することはできません。 [Google共有ドライブ &#x200B;](https://support.google.com/a/users/answer/7212025?hl=en) の詳細情報。
+* Google ドライブのドキュメント統合では、Google ドライブのマイドライブ領域からのファイルの追加をサポートしています。 共有ドライブからフォルダーや画像を追加することはできません。 [Google Shared Drive](https://support.google.com/a/users/answer/7212025?hl=en)の詳細をご覧ください。

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 20%
@@ -17,9 +17,11 @@ ht-degree: 20%
 
 # プロジェクトへのプッシュ率の変更
 
-プロジェクト <!--or a staffing plan-->にレートカードが添付されている場合でも、レートカードのレートを調整できます。 その後、レートカードが添付されているプロジェクト <!--and staffing plans -->に対して、オプションでこれらのレートをプッシュできます。 新しいレートをプッシュしない場合、元のレートはプロジェクト <!-- or staffing plan-->に残ります。
+プロジェクト <!--or a staffing plan-->にレートカードが添付されている場合でも、レートカードのレートを調整できます。 その後、レートカードが添付されているプロジェクトに対して、オプションでそのレートをプッシュできます。 新しいレートをプッシュしない場合、元のレートはプロジェクトに残ります。
+<!-- and staffing plans -->
+<!-- or staffing plan -->
 
-プロジェクトへのレートカードの添付について詳しくは、[&#x200B; プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)を参照してください。
+プロジェクトへのレートカードの添付について詳しくは、[ プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)を参照してください。
 
 ## アクセス要件
 
@@ -39,7 +41,7 @@ ht-degree: 20%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL レートカード &#x200B;]へのアクセスを編集</td> 
+   <td>[!UICONTROL レートカード ]へのアクセスを編集</td> 
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 
@@ -60,7 +62,12 @@ ht-degree: 20%
 1. 「レート・カード」リストでレート・カード名をクリックします。
 1. レート・カード/担当業務およびレート画面で、レートが正しいことを確認し、必要に応じてレートを編集します。
 1. [!UICONTROL **変更をプッシュ**]&#x200B;をクリックします。
-1. [!UICONTROL **すべてのプロジェクトに適用**]<!--/staffing plans--> ダイアログで、このレートカードを使用するすべてのプロジェクト <!--and staffing plans -->がデフォルトで選択されます。 プロジェクト <!--or staffing plan -->でレート変更を適用しない場合は、その選択を解除する必要があります。
+1. [!UICONTROL **すべてのプロジェクトに適用**] ダイアログで、このレートカードを使用するすべてのプロジェクトがデフォルトで選択されます。 プロジェクトでレート変更を適用しない場合は、その選択を解除する必要があります。
+
+   <!--/staffing plans-->
+   <!--and staffing plans -->
+   <!--or staffing plan -->
+
 1. 「[!UICONTROL **保存**]」をクリックします。
 
    新しいレートは、レートカードを使用するプロジェクト <!--and staffing plans -->に反映されるようになりました。
