@@ -76,7 +76,7 @@ ht-degree: 76%
 >
 >上部のナビゲーションエリアにあるAdobe アカウントメニュー（プロフィール画像）をクリックし、「Workfront プロファイル」を選択すると、Workfront プロファイルにアクセスできます。
 >
->![workfront プロファイル ](assets/aue-profile.png)
+>![workfront プロファイル &#x200B;](assets/aue-profile.png)
 
 1. 左パネルの「**[!UICONTROL 休暇]**」をクリックします。
 1. 個人の休暇に希望する日付を選択します。
