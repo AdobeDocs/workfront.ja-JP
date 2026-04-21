@@ -21,7 +21,7 @@ ht-degree: 20%
 <!-- and staffing plans -->
 <!-- or staffing plan -->
 
-プロジェクトへのレートカードの添付について詳しくは、[ プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)を参照してください。
+プロジェクトへのレートカードの添付について詳しくは、[&#x200B; プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)を参照してください。
 
 ## アクセス要件
 
@@ -41,7 +41,7 @@ ht-degree: 20%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL レートカード ]へのアクセスを編集</td> 
+   <td>[!UICONTROL レートカード &#x200B;]へのアクセスを編集</td> 
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 

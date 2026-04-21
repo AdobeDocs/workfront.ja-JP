@@ -38,7 +38,7 @@ ht-degree: 55%
 
   システム更新フィードおよびそれらを有効にする方法について詳しくは、[システム更新の設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 
-  ![ システム更新の例](assets/system-updates-example-unified-stream.png)
+  ![&#x200B; システム更新の例](assets/system-updates-example-unified-stream.png)
 
 
   <!--

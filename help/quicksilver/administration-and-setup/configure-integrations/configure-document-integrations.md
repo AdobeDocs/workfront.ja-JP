@@ -80,7 +80,7 @@ ht-degree: 84%
 
 * [!DNL Microsoft SharePoint]
 
-  [!DNL SharePoint] との統合について詳しくは、[ [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)を参照してください。
+  [!DNL SharePoint] との統合について詳しくは、[&#x200B; [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)を参照してください。
 
 * サードパーティクラウドドキュメントプロバイダー：
 
