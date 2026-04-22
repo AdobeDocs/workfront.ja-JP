@@ -6,25 +6,27 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 28%
+source-wordcount: '388'
+ht-degree: 26%
 
 ---
 
 # ワークスペースの概要
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 ワークスペースは、組織単位で使用されるレコードタイプのコレクションであり、単位の作業ライフサイクルとプロセスを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
 
 
-![Workspaces ランディングページ管理者アカウント &#x200B;](assets/workspaces-landing-page-admin-account.png)
+![Workspaces ランディングページ管理者アカウント ](assets/workspaces-landing-page-admin-account.png)
 
 ## ワークスペースに関する考慮事項
 
@@ -35,13 +37,13 @@ ht-degree: 28%
    * 最初から
    * テンプレートの使用。 テンプレートには、事前設定済みのレコードタイプの数とそのフィールドが含まれています。
    * AIを活用したPlanning Designerを使用します。 この機能は現在Betaにあります。
-   * <span class="preview"> マルチワークスペース テンプレート バンドルを使用しています。</span>
+   * マルチワークスペーステンプレートバンドルの使用。
 
   詳しくは、[ワークスペースの概要](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
 * ワークスペースとは、組織部門（チーム、グループ、部門、部門）が作業をおこなうフレームワークのことです。 フィールドに関連付けることはできません。 フィールドに関連付けられるのは、ワークスペース内のレコードタイプのみです。
 
-  詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
+  詳しくは、[ レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 * Workfront ライセンスに応じて、ワークスペースはプランニング エリアの次のタブに表示されます。
 
    * システム管理者の場合、ワークスペースは次のタブに表示されます。

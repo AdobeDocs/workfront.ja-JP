@@ -8,25 +8,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 14%
+source-wordcount: '830'
+ht-degree: 12%
 
 ---
 
 
 # CSV または Excel ファイルから情報を読み込んで、レコードを作成
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 レコードは、Adobe Workfront Planningのオブジェクトタイプであるレコードタイプの個々のインスタンスです。 Workfront Planningでは、CSVまたはExcel ファイルから情報を読み込むことで、レコードを作成できます。
 
-レコードの作成について詳しくは、[&#x200B; レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
+レコードの作成について詳しくは、[ レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
 ## アクセス要件
 
@@ -62,7 +64,7 @@ ht-degree: 14%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -149,7 +151,7 @@ Old:
    * 最終変更日、最終変更者
    * 承認日、承認者
    * ユーザー
-   * <span class="preview"> レコード ID</span>
+   * レコード ID
    * 複数選択または単一選択フィールドが読み込まれ、Planningの類似フィールドよりも多くの選択肢がある場合、読み込み中に追加のオプションが作成されます。 ワークスペースに対する管理権限を持つユーザーのみが、新しい選択肢をインポートできます。
 
 ## CSVまたはExcel ファイルを読み込んでレコードを作成する
@@ -164,16 +166,16 @@ Old:
 1. レコードを読み込むレコードタイプのカードをクリックします。
 1. 画面の右上隅にある&#x200B;**新しいレコード**&#x200B;をクリックします。
 
-   ![&#x200B; レコードを3つのボタンボックスに追加する方法を選択](assets/choose-way-to-add-records-three-button-box.png)
+   ![ レコードを3つのボタンボックスに追加する方法を選択](assets/choose-way-to-add-records-three-button-box.png)
 1. 「**ファイルからアップロード**」、「**続行**」の順にクリックします。<!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. コンピューターに保存済みの Excel ファイルまたは CSV ファイルをドラッグアンドドロップするか、「**CSV ファイルまたは Excel ファイルを選択**」をクリックして参照します。
 1. 「**プレビューして編集**」をクリックします。
 1. （条件付き）読み込んだファイルに複数のシートがある場合は、**読み込むシートを選択** ボックスで読み込むシートのラジオボタンを選択し、**次へ**&#x200B;をクリックします。 それ以外は、次のステップに進みます。
 
-   ![&#x200B; レコードを読み込むシートを選択](assets/select-a-sheet-to-import-box.png)
+   ![ レコードを読み込むシートを選択](assets/select-a-sheet-to-import-box.png)
 1. **プランニングフィールドを列ヘッダーにマッピングする**&#x200B;で、シートの各列の情報に最も一致する&#x200B;**プランニングフィールド**&#x200B;を選択します。
 
-   ![&#x200B; レコードの読み込み時にプランニングフィールドを列にマッピング &#x200B;](assets/map-planning-fields-to-columns-when-importing-records.png)
+   ![ レコードの読み込み時にプランニングフィールドを列にマッピング ](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    各行は新しいレコードを表します。「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
 
