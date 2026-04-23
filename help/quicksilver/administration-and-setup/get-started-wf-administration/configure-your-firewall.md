@@ -25,7 +25,7 @@ ht-degree: 81%
 >
 >このページに記載されている手順は、Admin Consoleにオンボーディングされていない組織にのみ適用されます。 すべての組織がAdobe Admin Consoleにオンボーディングされたので、Adobe Admin Consoleを通じてこの操作を実行する必要があります。
 >
->Adobeにオンボーディングした後に許可リストを設定するには、「[Adobe Admin Console アプリとサービスに許可されるドメイン ](https://helpx.adobe.com/jp/enterprise/kb/network-endpoints.html)」を参照してください。
+>Adobeにオンボーディングした後に許可リストを設定するには、「[Adobe Admin Console アプリとサービスに許可されるドメイン &#x200B;](https://helpx.adobe.com/jp/enterprise/kb/network-endpoints.html)」を参照してください。
 >
 >組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe Business Platform）](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
