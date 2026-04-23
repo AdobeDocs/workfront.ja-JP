@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 86%
+source-wordcount: '1539'
+ht-degree: 81%
 
 ---
 
@@ -19,11 +19,13 @@ ht-degree: 86%
 
 <!-- Audited: 12/2023 -->
 
+<!--Follow up October 2026-->
+
 >[!IMPORTANT]
 >
->このページで説明する手順は、Admin Console にまだ登録されていない組織にのみ適用されます。組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でこのアクションを実行してください。
+>このページに記載されている手順は、Admin Consoleにオンボーディングされていない組織にのみ適用されます。 すべての組織がAdobe Admin Consoleにオンボーディングされたので、Adobe Admin Consoleを通じてこの操作を実行する必要があります。
 >
->組織が Adobe Admin Console にオンボーディングされている場合に許可リストを設定するには、[アドビアプリおよびサービスで許可するドメイン](https://helpx.adobe.com/jp/enterprise/kb/network-endpoints.html)を参照してください。
+>Adobeにオンボーディングした後に許可リストを設定するには、「[Adobe Admin Console アプリとサービスに許可されるドメイン ](https://helpx.adobe.com/jp/enterprise/kb/network-endpoints.html)」を参照してください。
 >
 >組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe Business Platform）](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 

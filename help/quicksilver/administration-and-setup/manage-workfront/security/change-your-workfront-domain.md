@@ -8,20 +8,24 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 97%
+source-wordcount: '241'
+ht-degree: 80%
 
 ---
 
 # Adobe Workfront ドメインを変更
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->このページで説明する手順は、Admin Console にまだ登録されていない組織にのみ適用されます。組織が Adobe Admin Console にオンボーディング済みの場合、Workfront ドメインを変更することはできません。
+>このページに記載されている手順は、Admin Consoleにオンボーディングされていない組織にのみ適用されます。 すべての組織がAdobe Admin Consoleにオンボーディングされたため、**Workfront ドメインを変更できません**。
 >
 >組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについて詳しくは、[プラットフォームベースの管理上の違い（Adobe Workfront/Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+>
+>この記事は近々削除される予定です。
 
 Adobe Workfront の管理者であり、認定 Workfront サポート担当者である場合は、組織の Workfront ドメインを変更するために、Workfront サポートチームにヘルプをリクエストできます。
 

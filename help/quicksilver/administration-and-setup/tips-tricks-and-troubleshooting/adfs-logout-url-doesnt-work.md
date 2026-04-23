@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: ADFS ログアウト URL が機能しない
+title: ADFS ログアウト URLが機能しない
 description: このページで説明する手順は、まだ Adobe Admin Console にオンボーディングされていない組織にのみ適用されます。
 author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 91%
+source-wordcount: '238'
+ht-degree: 79%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 91%
 
 <!-- Audited: 1/2024 -->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->このページで説明する手順は、まだ [!UICONTROL Adobe Admin Console] にオンボーディングされていない組織にのみ適用されます。
+>このページに記載されている手順は、[!UICONTROL Adobe Admin Console]にまだオンボーディングされていない組織にのみ適用されます。
+>
+>現在すべての組織がAdobe Admin Consoleに登録されているため、この記事は近い将来に削除されます。
 >
 >組織が [!UICONTROL Adobe Admin Console] にオンボーディングされている場合は、[プラットフォームベースの管理上の違い（[!DNL Adobe Workfront]/[!DNL Adobe Business Platform]）](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 

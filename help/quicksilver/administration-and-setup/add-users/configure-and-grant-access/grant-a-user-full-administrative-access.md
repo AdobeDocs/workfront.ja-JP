@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 91%
+source-wordcount: '1542'
+ht-degree: 90%
 
 ---
 
@@ -25,8 +25,6 @@ ht-degree: 91%
 >**すべての組織がAdobe Admin Consoleに移行されたため、この記事に記載されている情報は関連性がなくなり、近い将来に削除されます。**
 >
 >Adobe Admin Consoleで完全な管理者アクセス権を付与する手順については、[Adobe Admin Consoleでのユーザーの管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
->
->組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
 Adobe Workfront 管理者は、システム管理者のアクセスレベルを割り当てることによって別の Workfront 管理者を作成できます。このアクセスレベルのユーザーは、自分で作成しなかった項目を含め、Workfront 内のすべての項目に対する完全な管理者アクセス権を持ちます。
 

@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: 新規ユーザーへの E メール招待状の管理
+title: 新規ユーザーへのメール招待の管理
 description: Adobe Workfront 管理者は、招待メールを使用してユーザーを Workfront に追加し、追加されたことをユーザーに通知することができます。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 94%
@@ -23,7 +23,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->このページで説明する手順は、Admin Console にまだ登録されていない組織にのみ適用されます。組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でこのアクションを実行してください。
+>このページに記載されている手順は、Admin Consoleにオンボーディングされていない組織にのみ適用されます。 組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でこのアクションを実行してください。
 >
 >組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについて詳しくは、[プラットフォームベースの管理上の違い（Adobe Workfront/Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
@@ -73,7 +73,7 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
 
 +++
 
-## 既存の未登録ユーザーにメール招待状を再送信する
+## 既存の未登録ユーザーへのメール招待状の再送信
 
 メールの招待状は、以下のシナリオで生成されます。
 
@@ -86,15 +86,15 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
   >
   >ユーザー作成時に&#x200B;**このユーザー招待メールを送信**&#x200B;ボックスを選択解除すると、メールの招待状を手動で生成することはできません。メールの招待状を手動で再送信できるのは、アカウントの作成時に元のメールの招待状を受信したユーザーのみです。新規ユーザーの作成について詳しくは、[ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
-既存の未登録ユーザーにメール招待を手動で再送信するには：
+既存の未登録ユーザーにメール招待状を手動で再送信するには：
 
 {{step-1-to-users}}
 
 1. 名前の後に「**未登録**」ラベルが表示されているユーザーを選択します。
 
-   ![&#x200B; 未登録 &#x200B;](assets/unreg-user-qs-350x221.png)
+   ![登録解除](assets/unreg-user-qs-350x221.png)
 
-1. その他アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**登録をユーザーに通知** をクリックします。
+1. 詳細アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**ユーザーに登録を促す**&#x200B;をクリックします。
 
    新規ユーザーに、Workfront パスワードの作成に使用できる新しいリンクを含む招待メールが送信されます。
 
