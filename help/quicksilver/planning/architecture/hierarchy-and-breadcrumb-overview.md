@@ -27,7 +27,7 @@ Workspace Managerでは、Adobe Workfront Planningで、接続されたレコー
 
 階層とは、レコードタイプ間、またはレコードタイプとWorkfront プロジェクト間のつながりです。
 
-階層の作成について詳しくは、[ ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
+階層の作成について詳しくは、[&#x200B; ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
 
 ワークスペースで階層を使用する利点は次のとおりです。
 
@@ -84,7 +84,7 @@ When you create hierarchies between record types, they generate breadcrumbs for 
 
 For example, if you create a hierarchy and connect Campaigns with Tactics, then with Activities, when you navigate to a record of any of the types connected in the hierarchy, you can view where in the hierarchy the record is placed. レコードが複数のワークスペースに表示される場合は、各ワークスペースのパスをパンくずリストのワークスペース名で始めて表示できます。
 
-![ パンくずリスト ](assets/breadcrumbs-on-activities-planning-only.png)
+![&#x200B; パンくずリスト &#x200B;](assets/breadcrumbs-on-activities-planning-only.png)
 
 次の点に注意してください。
 

@@ -105,24 +105,24 @@ Old:
 
 1. 次のいずれかの操作を行います。
 
-   * 左上隅の&#x200B;**メインメニュー** アイコン ![ メインメニュー行](assets/lines-main-menu.png)をクリックし、**プロジェクト**&#x200B;をクリックしてから、**新規プロジェクト**&#x200B;を展開します。
+   * 左上隅の&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニュー行](assets/lines-main-menu.png)をクリックし、**プロジェクト**&#x200B;をクリックしてから、**新規プロジェクト**&#x200B;を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの「プロジェクト」セクションでプロジェクトを作成することもできます。詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
 1. 「**プロジェクトをリクエスト**」をクリックします。
 
-   ![新規プロジェクトのドロップダウン ](assets/new-project-dropdown-nwe-350x358.png)
+   ![新規プロジェクトのドロップダウン &#x200B;](assets/new-project-dropdown-nwe-350x358.png)
 
 1. 次のいずれかの操作を行います。
 
    * ビジネスケースを定義する際に、プロジェクトを作成する場合と同じ手順に従います。（推奨）
 
-     詳しくは、[ プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
+     詳しくは、[&#x200B; プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
    * プロジェクトを最初から作成するか、テンプレートを使用して作成し、ステータスを「**リクエスト済み**」に変更します。
 
-     詳しくは、[ プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md)または[ テンプレートを使用したプロジェクトの作成](../../../manage-work/projects/create-projects/create-project-from-template.md)を参照してください。
+     詳しくは、[&#x200B; プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md)または[&#x200B; テンプレートを使用したプロジェクトの作成](../../../manage-work/projects/create-projects/create-project-from-template.md)を参照してください。
 
    リクエストしたプロジェクトのステータスは&#x200B;**リクエスト済み**&#x200B;で、Portfolioに関連付けた場合は、Portfolioの「**リクエスト済みプロジェクト**」タブに表示されます。
 

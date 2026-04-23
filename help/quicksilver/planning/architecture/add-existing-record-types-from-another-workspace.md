@@ -30,11 +30,11 @@ ht-degree: 7%
 
 ワークスペースマネージャーは、既存のレコードタイプとして管理するワークスペースにレコードタイプを追加する前に、最初にレコードタイプをグローバルレコードタイプとして指定する必要があります。 Workspaceの管理者は、レコードタイプのクロスワークスペース設定を定義することで、レコードタイプを作成または編集する際にグローバルとして指定できます。
 
-詳しくは、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
+詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
 
 この記事では、既存のレコードタイプからレコードタイプを追加する方法について説明します。
 
-グローバルレコードタイプからワークスペースにレコードを追加する前に、記事[ クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)も参照してください。
+グローバルレコードタイプからワークスペースにレコードを追加する前に、記事[&#x200B; クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)も参照してください。
 
 
 ## アクセス要件
@@ -71,7 +71,7 @@ ht-degree: 7%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -122,12 +122,12 @@ And
 >
 >他の少なくとも1つのプライマリワークスペースに、少なくとも1つのレコードタイプがグローバルに指定されていることを確認します。
 >
->詳しくは、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
+>詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
 
 1. レコードタイプ（セカンダリワークスペース）を作成するワークスペースに移動します。
-1. 記事[ レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)の説明に従ってレコードタイプの作成を開始し、**既存の**&#x200B;を追加をクリックします。<!--check this - the option might have been renamed in the UI-->
+1. 記事[&#x200B; レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)の説明に従ってレコードタイプの作成を開始し、**既存の**&#x200B;を追加をクリックします。<!--check this - the option might have been renamed in the UI-->
 
-   ![別のワークスペースから追加するオプションを含むレコードタイプを追加するモーダル ](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+   ![別のワークスペースから追加するオプションを含むレコードタイプを追加するモーダル &#x200B;](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
    >[!TIP]
    >
@@ -136,7 +136,7 @@ And
 1. 「**続行**」をクリックします。
 1. **レコードタイプを選択** ボックスで、既存のワークスペースから追加するレコードタイプのカードをクリックし、**追加**&#x200B;をクリックします。
 
-   選択したセカンダリワークスペースにレコードタイプが追加され、セカンダリワークスペース **の** グローバルレコードタイプ ![ アイコン ](assets/global-icon-secondary-workspace.png) グローバルレコードアイコンがレコードタイプのカードに表示されます。
+   選択したセカンダリワークスペースにレコードタイプが追加され、セカンダリワークスペース **の** グローバルレコードタイプ ![&#x200B; アイコン &#x200B;](assets/global-icon-secondary-workspace.png) グローバルレコードアイコンがレコードタイプのカードに表示されます。
 グローバルレコードタイプアイコンには、セカンダリワークスペースのレコードタイプに表示される矢印が含まれ、レコードタイプが既存のレコードタイプから追加されたことを示します。
 
    次のことが発生します。
@@ -154,7 +154,7 @@ And
      >新しいレコードタイプの外観、追加設定、元のフィールドは編集できません。 レコードタイプとそのすべての元のフィールドと設定は、元のワークスペースからのみ編集できます。
      >
 
-1. （オプション）セカンダリワークスペース ![のグローバルレコードタイプアイコン ](assets/global-icon-secondary-workspace.png) グローバルレコードアイコンにカーソルを合わせると、レコードタイプが追加された元のワークスペースの名前が表示されます。
+1. （オプション）セカンダリワークスペース ![のグローバルレコードタイプアイコン &#x200B;](assets/global-icon-secondary-workspace.png) グローバルレコードアイコンにカーソルを合わせると、レコードタイプが追加された元のワークスペースの名前が表示されます。
 1. （オプション）をクリックし、新しく追加したレコードタイプをワークスペース内の任意のセクションにドラッグ&amp;ドロップします。
 1. （オプション）新しいレコードタイプのカードまたはページのレコードタイプ名の右側にある&#x200B;**More** メニューをクリックし、次のいずれかをクリックします。
 
@@ -163,7 +163,7 @@ And
 
      セカンダリワークスペースから追加されたビューは削除されません。<!--checking with Lilit - not sure if this is by design??-->
 
-   詳しくは、[ レコードタイプの削除](/help/quicksilver/planning/architecture/delete-record-types.md)の「グローバルレコードタイプの削除」の節を参照してください。
+   詳しくは、[&#x200B; レコードタイプの削除](/help/quicksilver/planning/architecture/delete-record-types.md)の「グローバルレコードタイプの削除」の節を参照してください。
 
 <!--
 This will be released later with another epic: 

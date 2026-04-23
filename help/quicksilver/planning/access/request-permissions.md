@@ -90,7 +90,7 @@ ht-degree: 10%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -175,9 +175,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. ビューまたはワークスペース用に共有されているリンクをクリックします。
 
-   アクセス権がない&#x200B;**** ページが表示され、ビューまたはワークスペースへのアクセス権がないことを知らせます。
+   アクセス権がない&#x200B;**&#x200B;** ページが表示され、ビューまたはワークスペースへのアクセス権がないことを知らせます。
 
-   ![ ビューへのアクセスを要求](assets/request-access-to-view.png)
+   ![&#x200B; ビューへのアクセスを要求](assets/request-access-to-view.png)
 
 1. （条件付き）共有されたリンクが、アクセス権を持つワークスペースのビュー用である場合は、**既存のビューで開く**&#x200B;をクリックします。 ワークスペースにアクセスする権限がある場合は、レコードタイプページがデフォルトビューで開きます。
 
@@ -185,8 +185,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    ビューまたはワークスペースに対する管理権限を持つすべてのユーザーは、アクセスリクエストに対して次の通知を受け取ります。
    * アプリ内通知
-     ![ アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
+     ![&#x200B; アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
    * メール通知
-     ![ アクセス要求のメール通知](assets/email-notification-for-access-request.png)
+     ![&#x200B; アクセス要求のメール通知](assets/email-notification-for-access-request.png)
 
 1. （条件付き）ビューまたはワークスペースマネージャーがビューまたはワークスペースに権限を付与すると、権限が付与されたことを確認するメール通知とアプリ内通知が届きます。<!--check this - I was not able to test this, but Isk confirmed.-->

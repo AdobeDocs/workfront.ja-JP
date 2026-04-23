@@ -296,7 +296,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 目標の進行状況を更新する手順は、次のとおりです。
 
-1. 右上隅の&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/lines-main-menu.png) > **目標**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/lines-main-menu.png) > **目標**&#x200B;をクリックします。
 
    <!--
     Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
