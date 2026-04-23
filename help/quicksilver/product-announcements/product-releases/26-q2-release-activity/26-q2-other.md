@@ -62,7 +62,7 @@ ht-degree: 29%
 
 リクエストエリアのリクエストリストとホームのマイリクエストウィジェットに条件付き書式を適用できるようになりました。 この機能は、この機能強化の前にリストビューに存在しませんでした。
 
-詳しくは、「[ リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
+詳しくは、「[&#x200B; リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
 
 ## リクエスト領域およびマイリクエストウィジェットのリクエストリストに追加された定義済みビュー
 
@@ -79,7 +79,7 @@ ht-degree: 29%
 
 Workfront管理者は、レイアウトテンプレートにビューを追加または削除できます。 ビューを編集、削除、共有することはできません。 それらをコピーして、コピーを更新または共有できます。
 
-詳しくは、「[ リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
+詳しくは、「[&#x200B; リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
 
 ## リクエストリストとマイリクエストウィジェットでグループ化を作成する
 

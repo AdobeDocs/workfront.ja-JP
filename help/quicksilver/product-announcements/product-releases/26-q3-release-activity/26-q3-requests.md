@@ -35,4 +35,4 @@ ht-degree: 14%
 
 Workfront管理者は、レイアウトテンプレートにビューを追加または削除できます。 ビューを編集、削除、共有することはできません。 それらをコピーして、コピーを更新または共有できます。
 
-詳しくは、「[ リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
+詳しくは、「[&#x200B; リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
