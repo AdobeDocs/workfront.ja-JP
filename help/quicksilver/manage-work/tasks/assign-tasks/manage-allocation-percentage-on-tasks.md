@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 79%
+source-wordcount: '444'
+ht-degree: 83%
 
 ---
 
@@ -63,9 +63,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>オブジェクト権限</td>
    <td><p>タスクに対する参加以上の権限</p>
-   <p>古いエクスペリエンスを使用してタスクを編集する際に、「タスクを編集」ボックスで割り当て率を更新する権限を編集します。</p>
-   <p><b>メモ</b></p>
-   <p> 新しいエクスペリエンスでタスクを編集する際に、「タスクを編集」ボックスで割り当て率を管理できなくなりました。</p> <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">タスクを編集</a>を参照してください。</p></td>
+   <p>タスクを編集ボックスで、割り当て率を更新する権限を編集します。</p>
+   <!--
+   Not true anymore: 
+   <p><b>NOTE</b></p>
+   <p> You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p>
+   -->
+   </td>
   </tr>
  </tbody>
 </table>
@@ -73,12 +77,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
-
-<!--
-Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
-
-<p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
 
 ## タスクの配分率の変更に関する考慮事項
 
