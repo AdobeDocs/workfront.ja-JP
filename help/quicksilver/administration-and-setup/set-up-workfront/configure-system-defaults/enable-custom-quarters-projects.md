@@ -10,10 +10,10 @@ role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 52%
+source-wordcount: '364'
+ht-degree: 57%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 52%
 
 <!--Audited: 03/2026-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 レポートの目的で、組織の四半期がカレンダーの日付（営業日や買い物日など）以外の特定の条件に基づいている場合は、カスタム四半期を作成できます。
 
@@ -64,17 +66,14 @@ ht-degree: 52%
 
 {{step-1-to-setup}}
 
-1. （条件付き）カスタム四半期にアクセスする環境に応じて、次のいずれかの操作を行います。
-
-   * 実稼動環境で、**[!UICONTROL プロジェクト環境設定]**/**[!UICONTROL プロジェクト &#x200B;]をクリックします。**
-   * <span class="preview"> プレビュー環境で、**[!UICONTROL カスタム四半期]**&#x200B;をクリックします。</span>
+1. **[!UICONTROL カスタム四半期]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL カスタム四半期を有効にする]**」を選択します。
 
 1. 「2021 年度第 1 四半期」などのカスタム四半期の名前を入力します。
 1. カスタム四半期の開始日と終了日を選択します。
 
-   ![&#x200B; カスタム四半期](assets/custom-quarters-nwe.png)
+   ![ カスタム四半期](assets/custom-quarters-nwe.png)
 
 1. （オプション）「**[!UICONTROL カスタム四半期を追加]**」をクリックして、システムにカスタム四半期を追加します。
 
@@ -86,9 +85,9 @@ ht-degree: 52%
 
 1. （オプションおよび条件付き）会社が[!DNL Workfront]なしで[!DNL Workfront Planning]のみを購入した場合は、会計四半期を参照するレポート要素を作成します。
 
-   **例：**&#x200B;[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
+   **例：**[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
 
-   ![&#x200B; カスタム四半期を含むプロジェクトフィルター](assets/example-of-project-filter-with-custom-quarters.png)
+   ![ カスタム四半期を含むプロジェクトフィルター](assets/example-of-project-filter-with-custom-quarters.png)
 
    「今四半期」、「次四半期」、「前四半期」の参照は、カスタム四半期の新しい参照に置き換えられます。
 

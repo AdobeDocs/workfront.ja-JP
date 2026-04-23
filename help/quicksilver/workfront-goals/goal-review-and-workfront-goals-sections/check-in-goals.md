@@ -8,7 +8,7 @@ feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 90%
@@ -296,7 +296,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 目標の進行状況を更新する手順は、次のとおりです。
 
-1. 右上隅の&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) > **目標**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/lines-main-menu.png) > **目標**&#x200B;をクリックします。
 
    <!--
     Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)

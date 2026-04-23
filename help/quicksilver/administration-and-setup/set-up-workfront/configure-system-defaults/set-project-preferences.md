@@ -10,10 +10,10 @@ role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2701'
-ht-degree: 88%
+source-wordcount: '2615'
+ht-degree: 90%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 88%
 1. 左側のパネルで、**[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL プロジェクト]**&#x200B;をクリックします。
 
 1. **プロジェクト設定**&#x200B;ページで、以下の 4 つのセクションのいずれかに進み、[!UICONTROL プロジェクトステータス]、[!UICONTROL タイムライン]、[!UICONTROL ビジネスケース]、[!UICONTROL 終了後の操作]の設定を行います。
-1. 組織全体のすべてのグループで同じプロジェクト環境設定を使用する場合は、各環境設定がロックされていることを確認します![&#x200B; ロック切り替え](assets/lock-toggle-button.png) （これはデフォルトです）。
+1. 組織全体のすべてのグループで同じプロジェクト環境設定を使用する場合は、各環境設定がロックされていることを確認します![ ロック切り替え](assets/lock-toggle-button.png) （これはデフォルトです）。
 
    >[!IMPORTANT]
    >
@@ -143,7 +143,7 @@ ht-degree: 88%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>プロジェクトの見込み総コストを表す[!UICONTROL Estimate at Completion]（EAC）の計算に [!DNL Workfront] で使用されるデータを決定します。</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>：EAC の式に [!UICONTROL Actual Hours] または [!UICONTROL Actual Labor Cost] を入力することで、親タスクおよびプロジェクトの EAC が決定されます。計算には、親タスクまたはプロジェクトに直接追加された[!UICONTROL Actual Hours]または[!UICONTROL Costs and Expenses]が含まれます。</li> 
@@ -224,7 +224,7 @@ ht-degree: 88%
 <p>1人のユーザーをプロジェクト内のタスクに割り当て、プロジェクトとタスクに割り当てられたユーザーの両方にスケジュールが関連付けられている場合、[!UICONTROL Workfront]は次のスケジュールを使用します。</p> 
     <ul> 
      <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront]は、タスクに割り当てられたユーザーのスケジュールを使用してタイムラインを計算します。</li> 
-     <li><strong>[!UICONTROL プロジェクト &#x200B;]</strong>: [!DNL Workfront]は、プロジェクトのスケジュールを使用して、タスクのタイムラインを計算します。</li> 
+     <li><strong>[!UICONTROL プロジェクト ]</strong>: [!DNL Workfront]は、プロジェクトのスケジュールを使用して、タスクのタイムラインを計算します。</li> 
     </ul> <p>スケジュールについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">スケジュールの作成</a>を参照してください。</p>
 </td> 
   </tr>
@@ -239,12 +239,14 @@ ht-degree: 88%
      <li><strong>[!UICONTROL Typical work days per week]</strong>：プロジェクトを担当するユーザーに標準の週労働日数を設定します。デフォルトは 5 日です。</li> 
     </ul> <p>これらの 2 つのオプションは、日数を時間数に、または週数を日数に変換します。</p> <p>例えば、予定時間数が 8 時間のタスクがあり、期間が予定時間数に基づいて計算される場合、[!DNL Workfront] では、時間数を日数に変換して、期間を日数で表示します。</p> <p>[!DNL Workfront] では、「[!UICONTROL Typical work days per week]」フィールドからシステムのフルタイム当量（FTE）値を計算します。これは、[!DNL Workfront] でユーザーへの割り当てを計算する際に使用するものです。</p> <p>これらの値は、プロジェクトのタイムラインを計画したり、リソースの予算を計上したり、プロジェクトに対する時間を記録したりする際に使用されます。 </p> <p>これらの値は、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">タイムシートと時間の環境設定の[!UICONTROL Configure]</a>で説明しているとおり、システム内のユーザーのタイムシートを設定する際には使用されません。</p> <p><b>メモ</b>：</p> <p>[!DNL Workfront] 管理者は [!UICONTROL Timeline Calculations] 環境設定のロックを解除できません。</p> </td> 
   </tr> 
+  <!--
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
-   <td> <span class="preview"> プレビュー環境の「プロジェクト環境設定」セクションから「カスタム四半期」領域が削除されました。</span> 
-   <span class="preview">詳細については、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> カスタム四半期を有効にする</a>を参照してください。</p></span>
-   <p>実稼動環境で、プロジェクトに取り組むユーザーに対してカスタムの四半期単位を設定します。 カスタム四半期は通常、暦年の従来の四半期分類と一致しない四半期です。複数のカスタム四半期を追加できます。   <p><b>メモ</b>： </p><p>[!DNL Workfront] 管理者は[!UICONTROL Custom Quarters]の環境設定をロック解除できず、グループ管理者はこれらの設定をグループレベルで編集できません。</p> </td> 
+   <td> <span class="preview">The Custom Quarters area has been removed from the Project Preferences section in the Preview environment.</span> 
+   <span class="preview">For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p></span>
+   <p>In the Production environment, configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters.   <p><b>NOTE</b>: </p><p>[!DNL Workfront] administrators cannot unlock [!UICONTROL Custom Quarters] preferences and group administrators cannot edit these settings at the group level.</p> </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 

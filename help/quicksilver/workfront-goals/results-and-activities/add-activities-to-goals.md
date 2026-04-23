@@ -9,7 +9,7 @@ feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 85%
@@ -198,14 +198,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. **メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックしてから、**目標**&#x200B;をクリックします。
+1. **メインメニュー** ![ メインメニューアイコン ](assets/lines-main-menu.png)をクリックしてから、**目標**&#x200B;をクリックします。
 1. 目標リストから、目標の名前をクリックし、目標のページを開きます。
 1. 左側のパネルの「**進捗状況インジケーター**」をクリックします。
 1. 新しい進捗状況インジケータードロップダウンメニューから、**アクティビティを作成**&#x200B;をクリックします。
 
    新規アクティビティボックスが開きます。
 
-   ![新しいアクティビティボックス &#x200B;](assets/new-activity-box-unshimmed.png)
+   ![新しいアクティビティボックス ](assets/new-activity-box-unshimmed.png)
 
 1. 「アクティビティ名」フィールドにアクティビティの名前を入力します。必須フィールドです。
 1. （オプション）アクティビティを他のユーザーに割り当てる場合は、「**アクティビティ所有者**」フィールドから自分の名前を削除します。デフォルトでは、アクティビティを作成したユーザーが所有者となります。
