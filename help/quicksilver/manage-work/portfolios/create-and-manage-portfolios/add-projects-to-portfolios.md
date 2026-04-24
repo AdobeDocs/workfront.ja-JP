@@ -2,16 +2,16 @@
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
 title: Portfolioへのプロジェクトの追加
-description: プロジェクトの開始時に、プロジェクトをポートフォリオに追加することをお勧めします。ただし、プロジェクトの全期間中いつでもポートフォリオに追加できます。
+description: プロジェクトの開始時に、プロジェクトをポートフォリオに追加することをお勧めします。 ただし、プロジェクトの全期間中いつでもポートフォリオに追加できます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: fee6b71eeb0ca79703a2a9e29a14040b91cb7387
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 71%
+source-wordcount: '514'
+ht-degree: 54%
 
 ---
 
@@ -25,12 +25,26 @@ ht-degree: 71%
 <span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 -->
 
-プロジェクトの開始時に、プロジェクトをポートフォリオに追加することをお勧めします。ただし、プロジェクトの全期間中いつでもポートフォリオに追加できます。
+プロジェクトの開始時に、プロジェクトをポートフォリオに追加することをお勧めします。 ただし、プロジェクトの全期間中いつでもポートフォリオに追加できます。
 
 ポートフォリオにプロジェクトを追加する際は、次の点を考慮してください。
 
-* ポートフォリオには、無制限の数のプロジェクトを含めることができますが、1 つのプロジェクトに関連付けできるポートフォリオは 1 つのみです。
+* 1つのプロジェクトに関連付けることができるポートフォリオは1つだけです。
 * プロジェクトは、削除されるか、別のポートフォリオに関連付けられるまで、ポートフォリオ内に残ります。
+* ポートフォリオには、無制限の数のプロジェクトを含めることができます。
+
+>[!CAUTION]
+>
+>   多数の子オブジェクトで使用されている場合、継承された権限が正しく適用されない場合があります。
+>   
+>   継承された権限の問題を回避するには、次をお勧めします。
+>
+>   * 1つの親（ポートフォリオまたはプログラム）の下にある子オブジェクト（プロジェクト）の数を制限します。 1つのポートフォリオまたはプログラムにつき、10,000件を超えるプロジェクトは推奨しません。
+>   * 下位レベルのオブジェクトに権限を適用することで、継承の深さを減らします。
+>
+>     例えば、ポートフォリオからプログラムに、そしてプロジェクトに継承された権限に依存するのではなく、プロジェクトレベルで直接権限を適用できます。
+>   * プログラムを分割してプロジェクトの数を減らし、権限の複雑性を低減します。
+
 
 ## アクセス要件
 
@@ -61,7 +75,7 @@ ht-degree: 71%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -98,13 +112,13 @@ Old:
 
 1. ポートフォリオに移動し、左側のパネルで「**[!UICONTROL プロジェクト]**」をクリックします。
 
-   ![&#x200B; プロジェクトを含むPortfolio](assets/qs-portfolio-with-projects-350x90.png)
+   ![ プロジェクトを含むPortfolio](assets/qs-portfolio-with-projects-350x90.png)
 
 1. 「**[!UICONTROL 新規プロジェクト]**」をクリックして、プロジェクトを追加する方法を選択します。
 
    >[!TIP]
    >
-   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
+   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -118,7 +132,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL New Project]</td> 
-      <td> <p>新しいプロジェクトを追加します。 </p> <p>新しいプロジェクトの作成について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>を参照してください。</p> </td> 
+      <td> <p>新しいプロジェクトを追加します。 </p> <p>新しいプロジェクトの作成について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>を参照してください。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL プロジェクトの読み込み元 [!DNL MS Project]] </td> 
@@ -135,7 +149,7 @@ Old:
     </tbody> 
    </table>
 
-   ![新規プロジェクトのドロップダウン &#x200B;](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![新規プロジェクトのドロップダウン ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. （条件付き）既存のプロジェクトを追加することを選択した場合、「**プロジェクトを追加**」ボックスが開きます。<!--check this after UI changes-->
 
