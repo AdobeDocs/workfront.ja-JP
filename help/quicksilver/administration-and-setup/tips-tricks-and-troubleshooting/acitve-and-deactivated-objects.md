@@ -3,26 +3,26 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: アクティブおよび非アクティブ化されたオブジェクト
-description: ' [!DNL Adobe Workfront]  管理者は、システム内のオブジェクトをアクティブ化または非アクティブ化できます。非アクティブ化できるオブジェクトは削除しないことをお勧めします。オブジェクトを後で使用しないようにし、他のオブジェクトのドロップダウンメニューから削除するには、単にそのオブジェクトを非アクティブ化します。'
+title: アクティブなオブジェクトと非アクティブなオブジェクト
+description: ' [!DNL Adobe Workfront]  管理者は、システム内のオブジェクトをアクティブ化または非アクティブ化できます。 非アクティブ化できるオブジェクトは削除しないことをお勧めします。 オブジェクトを後で使用しないようにし、他のオブジェクトのドロップダウンメニューから削除するには、単にそのオブジェクトを非アクティブ化します。'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 96%
+source-wordcount: '760'
+ht-degree: 90%
 
 ---
 
 # アクティブなオブジェクトとディアクティベートされたオブジェクト
 
-[!DNL Adobe Workfront] 管理者は、システム内のオブジェクトをアクティブ化または非アクティブ化できます。非アクティブ化できるオブジェクトは削除しないことをお勧めします。オブジェクトを後で使用しないようにし、他のオブジェクトのドロップダウンメニューから削除するには、単にそのオブジェクトを非アクティブ化します。
+[!DNL Adobe Workfront] 管理者は、システム内のオブジェクトをアクティブ化または非アクティブ化できます。 非アクティブ化できるオブジェクトは削除しないことをお勧めします。 オブジェクトを後で使用しないようにし、他のオブジェクトのドロップダウンメニューから削除するには、単にそのオブジェクトを非アクティブ化します。
 
-例えば、ある[!UICONTROL 時間タイプ]を表示するには、その[!UICONTROL 時間タイプ]がアクティブである必要があります。非アクティブまたは無効の[!UICONTROL 時間タイプ]は、[!UICONTROL 時間タイプ]ドロップダウンメニューには表示されませんが、システム内では保持され、過去にこの[!UICONTROL 時間タイプ]が使用されたときの履歴レコードは維持されます。
+例えば、ある[!UICONTROL 時間タイプ]を表示するには、その[!UICONTROL 時間タイプ]がアクティブである必要があります。 非アクティブまたは無効の[!UICONTROL 時間タイプ]は、[!UICONTROL 時間タイプ]ドロップダウンメニューには表示されませんが、システム内では保持され、過去にこの[!UICONTROL 時間タイプ]が使用されたときの履歴レコードは維持されます。
 
-「アクティブ」という用語は、特定のオブジェクトがシステムで有効になっているかどうかを識別するために使用されます。このコンテキストでは、次のオブジェクトに「アクティブ」が使用されます。
+「アクティブ」という用語は、特定のオブジェクトがシステムで有効になっているかどうかを識別するために使用されます。 このコンテキストでは、次のオブジェクトに「アクティブ」が使用されます。
 
 ## メール通知
 
@@ -82,7 +82,7 @@ ht-degree: 96%
 
 カスタムフォームの編集時に、カスタムフォームをアクティブにすることができます。
 
-カスタムフォームの編集と、カスタムフォームを関連付けることができるオブジェクトのリストについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+カスタムフォームの編集と、関連付けることができるオブジェクトのリストについては、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 会社
 
@@ -102,11 +102,11 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->組織が [!DNL Adobe Business Platform] にオンボーディングされている場合は、[!UICONTROL Adobe Admin Console] を通じてユーザーを非アクティブ化してください。
+>組織が[!DNL Adobe Business Platform]にオンボーディングされたら、[!UICONTROL Adobe Admin Console]を通じてユーザーを非アクティブ化する必要があります。
 >
 >[!UICONTROL Adobe Admin Console] でユーザーを非アクティブ化する手順については、[ユーザーを個別に管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)の記事の「ユーザーを削除」の節を参照するか、[!UICONTROL Adobe Admin Console] 管理者にお問い合わせください。
 >
->組織が [!DNL Adobe Business Platform] にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe Business Platform）](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+>組織が[!DNL Adobe Business Platform]にオンボーディングされたかどうかに基づいて異なる手順の一覧については、[Adobe WorkfrontとAdobe Business Platformの管理の違い](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
 ## チーム
 

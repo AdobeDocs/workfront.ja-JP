@@ -5,15 +5,15 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: Adobe Admin Consoleへの組織のオンボーディングの準備
-description: Adobe Workfront は Adobe 製品なので、Adobe Admin Console からアクセスできます。これにより、ユーザーのための他の Adobe アカウントや製品と Workfront を一か所で管理できます。
+description: Adobe Workfront は Adobe 製品なので、Adobe Admin Console からアクセスできます。 これにより、ユーザーのための他の Adobe アカウントや製品と Workfront を一か所で管理できます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 0a41ed50f649dd2da52a5fc47675116261ecfc12
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 93%
+source-wordcount: '689'
+ht-degree: 89%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 93%
 >
 >現在はAdobe Admin Consoleに移っているため、この記事は近い将来に削除される予定です。
 
-Adobe Workfront は Adobe 製品なので、Adobe Admin Console からアクセスできます。これにより、ユーザーのための他の Adobe アカウントや製品と Workfront を一か所で管理できます。
+Adobe Workfront は Adobe 製品なので、Adobe Admin Console からアクセスできます。 これにより、ユーザーのための他の Adobe アカウントや製品と Workfront を一か所で管理できます。
 
-Workfrontのお客様は、まもなくAdobe Admin Consoleに移動します。 組織が Adobe Admin Console に移行すると、Workfront 認証は Console で管理されるようになります。この移行をより早く準備して実行することで、作業管理の効率化の基礎が築かれ、将来の迅速なイノベーションに備えることができます。
+Workfrontのお客様は、まもなくAdobe Admin Consoleに移動します。 組織が Adobe Admin Console に移行すると、Workfront 認証は Console で管理されるようになります。 この移行をより早く準備して実行することで、作業管理の効率化の基礎が築かれ、将来の迅速なイノベーションに備えることができます。
 
 Adobe Admin Console の概要については、[Admin Console の概要](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を参照してください。
 
@@ -51,11 +51,11 @@ Adobe Admin Console の概要については、[Admin Console の概要](https:/
    >
    >シングルサインオン（SSO）や非 SSO などの認証設定について、Workfront サポートおよび組織の IT チームに伝えられるようにしておきます。
 
-   手順については、[Adobe Admin Console のデプロイメントガイド](https://helpx.adobe.com/jp/enterprise/using/deployment-planning.html)の ID 管理の節を参照してください。
+   手順については、[Adobe Admin Console のデプロイメントガイド](https://helpx.adobe.com/enterprise/using/deployment-planning.html)の ID 管理の節を参照してください。
 
 1. （条件付き）シングルサインオンを使用する場合は、新しい Adobe Admin Console を既存の SSO プロバイダーに接続します。
 
-   詳しい情報と手順については、[ID の設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html)を参照してください。
+   詳しい情報と手順については、[ID の設定](https://helpx.adobe.com/enterprise/using/set-up-identity.html)を参照してください。
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Adobe Admin Console の概要については、[Admin Console の概要](https:/
 
       手順については、[重複ユーザーの防止](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)の [Workfront インスタンスの既存ユーザーのメールアドレスの更新](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance)を参照してください。
 
-      組織内に重複するメールアドレスがある場合は、最新の `lastLoginDate` を持つメールアドレスで表されるユーザーが、Adobe Admin Console の組織に移動されます。そのメールアドレスを持つ他のユーザーは、ディアクティベートされます。
+      組織内に重複するメールアドレスがある場合は、最新の `lastLoginDate` を持つメールアドレスで表されるユーザーが、Adobe Admin Console の組織に移動されます。 そのメールアドレスを持つ他のユーザーは、ディアクティベートされます。
 
       >[!NOTE]
       >
@@ -93,4 +93,4 @@ Workfront で Adobe Admin Console が設定されると、それを使用して 
 
 詳しくは、[Adobe Admin Console でのユーザーの管理](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
 
-その他のアクションは、組織が Adobe Admin Console にオンボーディングされているかどうかによって異なります。それらのアクションのリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront / Adobe Business Platform）](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+組織がAdobe Workfrontにオンボーディングされているかどうかに基づいて異なるその他のアクションの一覧については、[Adobe Admin ConsoleとAdobe Business Platformの管理の違い](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。

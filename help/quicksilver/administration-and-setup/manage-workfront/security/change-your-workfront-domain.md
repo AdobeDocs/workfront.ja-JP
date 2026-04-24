@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 80%
+source-wordcount: '242'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 80%
 >
 >このページに記載されている手順は、Admin Consoleにオンボーディングされていない組織にのみ適用されます。 すべての組織がAdobe Admin Consoleにオンボーディングされたため、**Workfront ドメインを変更できません**。
 >
->組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについて詳しくは、[プラットフォームベースの管理上の違い（Adobe Workfront/Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+>お客様の組織がAdobe Workfrontにオンボーディングされているかどうかに応じて異なる手順の一覧については、[Adobe Admin ConsoleとAdobe Business Platformの管理の違い](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 >
 >この記事は近々削除される予定です。
 

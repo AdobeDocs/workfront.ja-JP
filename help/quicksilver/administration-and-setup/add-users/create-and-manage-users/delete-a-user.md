@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 86%
+source-wordcount: '835'
+ht-degree: 80%
 
 ---
 
@@ -25,21 +25,21 @@ ht-degree: 86%
 >
 >**現在、すべての組織がAdobe Admin Consoleにオンボーディングされているため、このページの情報は近い将来に削除されます。**
 >
->組織が Adobe Business Platform に登録されているかどうかによって異なる手順のリストについては、[プラットフォームによる管理の違い（Adobe Workfront Fusion／Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+>お客様の組織がAdobe Workfront Business Platformにオンボーディングされているかどうかに応じて異なる手順の一覧については、[AdobeとAdobe Business Platformの管理の違い](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
 組織を離れたユーザーは、Adobe Workfront から削除することができます。
 
 >[!IMPORTANT]
 >
->システムからユーザを削除すると、そのユーザに関連付けられていて、今後も保持したい情報も削除されます。ユーザーを削除する代わりに非アクティブ化することをお勧めします。詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
+>システムからユーザを削除すると、そのユーザに関連付けられていて、今後も保持したい情報も削除されます。 ユーザーを削除する代わりに非アクティブ化することをお勧めします。 詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
 <!--
 >* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 -->
 
@@ -78,7 +78,7 @@ ht-degree: 86%
 
 ユーザーをディアクティベートすると、次のことが発生します。
 
-* Workfront Proof コンポーネントが Workfront アカウントに関連付けられている場合は、Workfront と Workfront Proof の両方に対するユーザーライセンスが削除されます。Workfront Proof について詳しくは、[Workfront Proof：記事インデックス](../../../workfront-proof/workfront-proof.md)を参照してください。
+* Workfront Proof コンポーネントが Workfront アカウントに関連付けられている場合は、Workfront と Workfront Proof の両方に対するユーザーライセンスが削除されます。 Workfront Proof について詳しくは、[Workfront Proof：記事インデックス](../../../workfront-proof/workfront-proof.md)を参照してください。
 * ユーザーに作業を割り当てることができなくなります。
 * ユーザーを更新に追加できなくなります。
 * ユーザーをチームやグループに追加できなくなります。
@@ -91,17 +91,17 @@ ht-degree: 86%
      >[!NOTE]
      >
      >ユーザーをディアクティベートし、そのユーザーに関連付けられているレポートやダッシュボードを表示できなくなった場合は、「**このレポートを次のアクセス権で実行：**」フィールドを更新する必要がある場合があります。\
-     >詳しくは、[ディアクティベートされたユーザーが所有するレポートにアクセスできないのはなぜですか？](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) セクション（[レポートに関する FAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)内）を参照してください。
+     >詳しくは、[ アクティベート解除されたユーザーが所有するレポートにアクセスできない理由を参照してください。](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [ レポートに関するFAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)のセクション。
 
    * ドキュメント
    * アップデート
    * 時間
 
-* ユーザーがチェックアウトしたドキュメントは、そのユーザーがディアクティベートされてもチェックアウトされたままになります。再度チェックインできるのは、Workfront 管理者のみです。ドキュメントのチェックアウトについて詳しくは、[ドキュメントのチェックアウト](../../../documents/managing-documents/check-out-documents.md)を参照してください。
+* ユーザーがチェックアウトしたドキュメントは、そのユーザーがディアクティベートされてもチェックアウトされたままになります。 再度チェックインできるのは、Workfront 管理者のみです。 ドキュメントのチェックアウトについて詳しくは、[ドキュメントのチェックアウト](../../../documents/managing-documents/check-out-documents.md)を参照してください。
 
 ユーザーを削除すると、次のことが発生します。
 
-* Workfront Proof コンポーネントが Workfront アカウントに関連付けられている場合は、Workfront と Workfront Proof の両方に対するユーザーライセンスが削除されます。Workfront Proof について詳しくは、[Workfront Proof：記事インデックス](../../../workfront-proof/workfront-proof.md)を参照してください。
+* Workfront Proof コンポーネントが Workfront アカウントに関連付けられている場合は、Workfront と Workfront Proof の両方に対するユーザーライセンスが削除されます。 Workfront Proof について詳しくは、[Workfront Proof：記事インデックス](../../../workfront-proof/workfront-proof.md)を参照してください。
 * ユーザーに作業を割り当てることができなくなります。
 * ユーザーを更新に追加できなくなります。
 * ユーザーをチームやグループに追加できなくなります。
@@ -129,17 +129,17 @@ ht-degree: 86%
      >これらのオブジェクトは Workfront に残りますが、オブジェクトの所有者は空になります。
 
 * ユーザーがグローバルナビゲーションバーのドキュメントエリアでドキュメントをアップロードした場合、そのドキュメントも削除されます。
-* ユーザーが自分の所有するドキュメントをチェックアウトし、（メインメニューからアクセスする）メインのドキュメントエリアにドキュメントがアップロードされた場合、そのドキュメントはユーザーと共に削除されます。ドキュメントのチェックアウトについて詳しくは、[ドキュメントのチェックアウト](../../../documents/managing-documents/check-out-documents.md)を参照してください。
+* ユーザーが自分の所有するドキュメントをチェックアウトし、（メインメニューからアクセスする）メインのドキュメントエリアにドキュメントがアップロードされた場合、そのドキュメントはユーザーと共に削除されます。 ドキュメントのチェックアウトについて詳しくは、[ドキュメントのチェックアウト](../../../documents/managing-documents/check-out-documents.md)を参照してください。
 
 ユーザーの非アクティブ化について詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
 
-一度に 1 人のユーザーを完全に削除することも、複数のユーザーを同時に完全に削除することもできます。個々のユーザーを削除する場合は、削除プロセスが完了するのを待ってから、Workfront の他のアクティビティに移動する必要があります。複数のユーザーを削除するプロセスは、バックグラウンドプロセスとして同時に実行されるので、ユーザーが削除されているときも Workfront を引き続き使用できます。
+一度に 1 人のユーザーを完全に削除することも、複数のユーザーを同時に完全に削除することもできます。 個々のユーザーを削除する場合は、削除プロセスが完了するのを待ってから、Workfront の他のアクティビティに移動する必要があります。 複数のユーザーを削除するプロセスは、バックグラウンドプロセスとして同時に実行されるので、ユーザーが削除されているときも Workfront を引き続き使用できます。
 
 ## 1 人以上のユーザーを削除
 
 {{step-1-to-users}}
 
-1. 削除するユーザーを少なくとも1つ選択し、その他メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**削除**&#x200B;をクリックします。
+1. 削除するユーザーを少なくとも1つ選択し、その他メニュー![詳細アイコン ](assets/more-icon.png)をクリックしてから、**削除**&#x200B;をクリックします。
 1. 表示されるボックスで、「**削除**」をクリックして削除を確定します。
 
    ユーザーを削除するプロセスはバックグラウンドプロセスとして実行されるので、ユーザーが削除されているときも Workfront を引き続き使用できます。
