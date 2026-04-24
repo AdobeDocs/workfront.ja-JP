@@ -91,7 +91,7 @@ ht-degree: 80%
      >[!NOTE]
      >
      >ユーザーをディアクティベートし、そのユーザーに関連付けられているレポートやダッシュボードを表示できなくなった場合は、「**このレポートを次のアクセス権で実行：**」フィールドを更新する必要がある場合があります。\
-     >詳しくは、[ アクティベート解除されたユーザーが所有するレポートにアクセスできない理由を参照してください。](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [ レポートに関するFAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)のセクション。
+     >詳しくは、[&#x200B; アクティベート解除されたユーザーが所有するレポートにアクセスできない理由を参照してください。](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [&#x200B; レポートに関するFAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)のセクション。
 
    * ドキュメント
    * アップデート
@@ -139,7 +139,7 @@ ht-degree: 80%
 
 {{step-1-to-users}}
 
-1. 削除するユーザーを少なくとも1つ選択し、その他メニュー![詳細アイコン ](assets/more-icon.png)をクリックしてから、**削除**&#x200B;をクリックします。
+1. 削除するユーザーを少なくとも1つ選択し、その他メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**削除**&#x200B;をクリックします。
 1. 表示されるボックスで、「**削除**」をクリックして削除を確定します。
 
    ユーザーを削除するプロセスはバックグラウンドプロセスとして実行されるので、ユーザーが削除されているときも Workfront を引き続き使用できます。

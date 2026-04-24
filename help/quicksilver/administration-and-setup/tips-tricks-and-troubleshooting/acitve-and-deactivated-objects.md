@@ -82,7 +82,7 @@ ht-degree: 90%
 
 カスタムフォームの編集時に、カスタムフォームをアクティブにすることができます。
 
-カスタムフォームの編集と、関連付けることができるオブジェクトのリストについては、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームの編集と、関連付けることができるオブジェクトのリストについては、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 会社
 
