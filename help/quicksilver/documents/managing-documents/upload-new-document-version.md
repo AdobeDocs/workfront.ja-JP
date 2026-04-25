@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 74%
+source-wordcount: '584'
+ht-degree: 72%
 
 ---
 
@@ -37,7 +37,8 @@ ht-degree: 74%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p> 任意</p> </td> 
+   <td> <p>従来のWorkfront ストレージを使用してドキュメントを管理するWorkfront パッケージ</p>
+<p>Adobe エンタープライズストレージを使用してドキュメントを管理するワークフローパッケージ</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -72,9 +73,9 @@ ht-degree: 74%
 1. ドキュメントがアップロードされるドキュメントエリアに移動します。
 1. デスクトップまたは別のブラウザータブから、ドキュメントの新しいバージョンを Workfront の既存のバージョンの上にドラッグします。
 
-   ![&#x200B; ドキュメントのバージョンをドラッグ&amp;ドロップ &#x200B;](assets/drag-drop-doc-qs-350x145.png)
+   ![ ドキュメントのバージョンをドラッグ&amp;ドロップ ](assets/drag-drop-doc-qs-350x145.png)
 
-   新しいバージョンをドラッグする際に、Workfront ドキュメントフォルダーの上にポインタを合わせると、そのバージョンを開くことができます。次に、ファイルを画面の上部または下部にドラッグして、上下にスクロールできます。
+   新しいバージョンをドラッグする際に、Workfront ドキュメントフォルダーの上にポインタを合わせると、そのバージョンを開くことができます。 次に、ファイルを画面の上部または下部にドラッグして、上下にスクロールできます。
 
 1. 「**ドキュメント**」タブの既存のファイルの上に新しいバージョンをドロップします。
 
@@ -102,7 +103,7 @@ ht-degree: 74%
 1. ドキュメントがアップロードされるドキュメントエリアに移動します。
 1. Workfrontの既存のバージョンの上に、新しいバージョンのドキュメントをドラッグします。
 
-   ![&#x200B; ドキュメントのバージョンをドラッグ&amp;ドロップ &#x200B;](assets/drag-drop-new-doc.png)
+   ![ ドキュメントのバージョンをドラッグ&amp;ドロップ ](assets/drag-drop-new-doc.png)
 
 1. 「**ドキュメント**」タブの既存のファイルの上に新しいバージョンをドロップします。
 
@@ -111,7 +112,7 @@ ht-degree: 74%
 ### 詳細メニューを使用して新しいバージョンを追加します。
 
 1. 新しいバージョンを追加するドキュメントを選択します。
-1. 右側の「バージョンを表示」アイコン ![&#x200B; バージョンを表示アイコン &#x200B;](assets/show-versions.png)を開きます。
+1. 右側の「バージョンを表示」アイコン ![ バージョンを表示アイコン ](assets/show-versions.png)を開きます。
 1. 「**新しいバージョンを追加**」をクリックします。
 
    ![新しいバージョンを追加](assets/new-version-new-doc.png)

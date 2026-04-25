@@ -8,10 +8,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 66674732-6ad7-477b-8473-03b1dac750a3
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 100%
+source-wordcount: '62'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 この節では、次の記事を扱います。
 
 * [承認プロセスの概要](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-* [ドキュメント承認のリクエスト](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
+* [ レガシードキュメントの承認をリクエスト ](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [承認の表示](../../review-and-approve-work/manage-approvals/view-approvals.md)
 * [送信済みの承認について承認者に通知する](../../review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)

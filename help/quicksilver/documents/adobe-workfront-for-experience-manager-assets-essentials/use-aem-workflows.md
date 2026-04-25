@@ -6,22 +6,23 @@ description: Experience Manager Assets Essentials 統合でのワークフロー
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 96%
+source-wordcount: '1023'
+ht-degree: 97%
 
 ---
 
 # Experience Manager Assets 統合でのワークフローの使用
 
-ワークフローとは、Workfront を Adobe Experience Manager as a Cloud Service に接続する一連のアクションです。Workfront管理者は、Workfrontでワークフローを設定して、プロジェクトテンプレートに割り当てることができます。
+ワークフローとは、Workfront を Adobe Experience Manager as a Cloud Service に接続する一連のアクションです。 Workfront管理者は、Workfrontでワークフローを設定し、プロジェクトテンプレートに割り当てることができます。
 
 ワークフローが割り当てられているプロジェクトテンプレートを使用してプロジェクトを作成すると、ワークフローで定義されたアクションがトリガーされます。
 
 >[!NOTE]
 >
->ワークフローを使用できるのは Adobe Experience Manager as a Cloud Service 統合のみで、Adobe Experience Manager Assets Essentials との統合では使用できません。
+>ワークフローを使用できるのは Adobe Experience Manager as a Cloud Service 統合のみで、 Adobe Experience Manager Assets Essentials との統合では使用できません。<br>
+>この機能は、新規ドキュメント領域では使用できません。
 
 
 ## アクセス要件
@@ -39,7 +40,7 @@ ht-degree: 96%
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td> 
-   <p>投稿者以上</p> 
+   <p>コントリビューター以上</p> 
    <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
@@ -69,11 +70,11 @@ ht-degree: 96%
 
 開始する前に、
 
-* Workfront 管理者は、Adobe Experience Manager 統合でワークフローを設定する必要があります。詳しくは、[Experience Manager Assets as a Cloud Service 統合の設定](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional)を参照してください。
+* Workfront 管理者は、Adobe Experience Manager 統合でワークフローを設定する必要があります。 詳しくは、[Experience Manager Assets as a Cloud Service 統合の設定](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional)を参照してください。
 
 ## テンプレートへのワークフローの追加
 
-ワークフローはプロジェクトテンプレートに追加することが可能で、。テンプレートから作成されたすべてのプロジェクトに適用されます。
+ワークフローはプロジェクトテンプレートに追加することが可能で、。 テンプレートから作成されたすべてのプロジェクトに適用されます。
 
 1. 「メインメニュー」で「**テンプレート**」をクリックしてテンプレートを開き、リストからテンプレートを選択します。
 1. 左側のナビゲーションパネルで「**Experience Manager Assets**」をクリックします。
@@ -93,7 +94,7 @@ ht-degree: 96%
 
 ## プロジェクトへのワークフローの追加
 
-プロジェクトの作成時にワークフローを追加したり、既存のプロジェクトにワークフローを追加したりできます。どちらの場合も、プロジェクトテンプレートを使用してワークフローを追加します。
+プロジェクトの作成時にワークフローを追加したり、既存のプロジェクトにワークフローを追加したりできます。 どちらの場合も、プロジェクトテンプレートを使用してワークフローを追加します。
 
 ### プロジェクト作成時のワークフローの追加
 
@@ -111,7 +112,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->プロジェクトの作成時に実行されるワークフロー（リンクされたフォルダーの作成など）は、テンプレートが既存のプロジェクトに添付されている場合は実行されません。テンプレートからプロジェクトを作成する場合にのみ実行されます。
+>プロジェクトの作成時に実行されるワークフロー（リンクされたフォルダーの作成など）は、テンプレートが既存のプロジェクトに添付されている場合は実行されません。 テンプレートからプロジェクトを作成する場合にのみ実行されます。
 
 1. プロジェクトへのテンプレートの追加を開始します。
 
@@ -126,7 +127,7 @@ ht-degree: 96%
 
 ### プロジェクト内のワークフロー値の編集
 
-プロジェクトレベルでワークフロー値を編集できます。プロジェクトレベルのワークフロー値は、プロジェクトテンプレートで設定された値を上書きします。これは、Adobe Experience Manager Assets 統合で設定されたデフォルト値に優先します。
+プロジェクトレベルでワークフロー値を編集できます。 プロジェクトレベルのワークフロー値は、プロジェクトテンプレートで設定された値を上書きします。これは、Adobe Experience Manager Assets 統合で設定されたデフォルト値に優先します。
 
 すべてのワークフロー値は、次の場所にあります。
 
@@ -144,15 +145,15 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->リンクされているフォルダーはプロジェクトの作成時に作成されるので、既存のプロジェクトでリンクされているフォルダーのワークフローを編集しても効果はありません。プロジェクトの作成時にこれらの値を編集すると、期待どおりに機能します。
+>リンクされているフォルダーはプロジェクトの作成時に作成されるので、既存のプロジェクトでリンクされているフォルダーのワークフローを編集しても効果はありません。 プロジェクトの作成時にこれらの値を編集すると、期待どおりに機能します。
 
 リンクされているフォルダーのワークフローを編集するには：
 
-1. 必要に応じて、**[!UICONTROL リンクされたフォルダーを作成]**&#x200B;をオンまたはオフに切り替えます。オンに切り替えると、リンクされているフォルダーの設定を編集できます。
+1. 必要に応じて、**[!UICONTROL リンクされたフォルダーを作成]**&#x200B;をオンまたはオフに切り替えます。 オンに切り替えると、リンクされているフォルダーの設定を編集できます。
 
    リンクされているフォルダーの設定について詳しくは、[[!UICONTROL Experience Manager Assets as a Cloud Service] 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)の記事の [Adobe Experience Manager にリンクされたフォルダーの作成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)を参照してください。
 
-1. （オプション）プロジェクトに添付されたカスタムフォームに特定の値が存在する場合にのみフォルダーツリーを作成する場合は、そのフォルダツリーの「**フィルターを適用**」をクリックし、フィールド、フィールド、フィールド値を含むカスタムフォームを選択します。新しいプロジェクトに添付されたカスタムフォームのフィールドに選択した値が含まれている場合、フォルダーツリーが作成されます。
+1. （オプション）プロジェクトに添付されたカスタムフォームに特定の値が存在する場合にのみフォルダーツリーを作成する場合は、そのフォルダツリーの「**フィルターを適用**」をクリックし、フィールド、フィールド、フィールド値を含むカスタムフォームを選択します。 新しいプロジェクトに添付されたカスタムフォームのフィールドに選択した値が含まれている場合、フォルダーツリーが作成されます。
 1. （オプション）フォルダー名を設定する際は、次のオプションから選択できます。
 
    * **名前**：フォルダーの名前を入力します。

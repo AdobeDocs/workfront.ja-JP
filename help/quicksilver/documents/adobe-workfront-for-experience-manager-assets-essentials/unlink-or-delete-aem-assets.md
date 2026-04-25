@@ -6,10 +6,10 @@ description: Workfront にリンクされているアイテムを Adobe Experien
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 99%
+source-wordcount: '256'
+ht-degree: 84%
 
 ---
 
@@ -17,21 +17,25 @@ ht-degree: 99%
 
 Workfront にリンクされているアイテムを Adobe Experience Manager Assets からリンク解除または削除できます。
 
+>[!NOTE]
+>
+>この機能は、新規ドキュメント領域では使用できません。
+
 ## Workfront でのリンクされたドキュメントまたはフォルダーの削除
 
-Workfront でリンクされたドキュメントまたはフォルダーを削除すると、Experience Manager Assets からリンク解除され、Workfront でのみ削除されます。ドキュメントまたはアセットは、Experience Manager Assets には影響しません。
+Workfront でリンクされたドキュメントまたはフォルダーを削除すると、Experience Manager Assets からリンク解除され、Workfront でのみ削除されます。 ドキュメントまたはアセットは、Experience Manager Assets には影響しません。
 
 1. リンクされたドキュメントまたはフォルダーを選択し、「**削除**」をクリックします。
 1. 表示される確認ボックスで、「**はい、リンクを解除します**」をクリックします。
 
-   ドキュメントの Workfront サイトからのリンクが解除されました。外部アプリケーションにあるものは影響を受けません。
+   ドキュメントの Workfront サイトからのリンクが解除されました。 外部アプリケーションにあるものは影響を受けません。
 
 ## Adobe Experience Manager でのリンクされたドキュメントまたはフォルダーの削除
 
 リンクされたドキュメントまたはフォルダーを外部アプリケーションから削除した場合、そのドキュメントまたはフォルダーは、Workfront からも削除するまで、Workfront システムに残ります。
 
-* Adobe Experience Manager as a Cloud Service からアセットを削除するには、Adobe Experience Manager as a Cloud Service ドキュメントの[アセットの削除](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)を参照してください。
-* Adobe Experience Manager Assets Essentials からアセットを削除するには、Adobe Experience Manager Assets Essentials ドキュメントの[アセットまたはフォルダーの削除](https://experienceleague.adobe.com/ja/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)を参照してください。
+* Adobe Experience Manager as a Cloud Service からアセットを削除するには、Adobe Experience Manager as a Cloud Service ドキュメントの[アセットの削除](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)を参照してください。
+* Adobe Experience Manager Assets Essentials からアセットを削除するには、Adobe Experience Manager Assets Essentials ドキュメントの[アセットまたはフォルダーの削除](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)を参照してください。
 
 
 

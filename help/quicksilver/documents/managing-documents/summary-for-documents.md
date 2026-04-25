@@ -9,10 +9,10 @@ feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 40%
+source-wordcount: '719'
+ht-degree: 41%
 
 ---
 
@@ -38,7 +38,8 @@ ht-degree: 40%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p> 任意</p> </td> 
+   <td> <p>従来のWorkfront ストレージを使用してドキュメントを管理するWorkfront パッケージ</p>
+<p>Adobe エンタープライズストレージを使用してドキュメントを管理するワークフローパッケージ</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -80,7 +81,7 @@ ht-degree: 40%
 
 ### 詳細
 
-「詳細」セクションでは、概要情報を表示したり、カスタムフォームを使用したりできます。セクションの上部にある「詳細」をクリックして、ドキュメントの詳細ページ全体に移動します。
+「詳細」セクションでは、概要情報を表示したり、カスタムフォームを使用したりできます。 セクションの上部にある「詳細」をクリックして、ドキュメントの詳細ページ全体に移動します。
 
 * [概要](#overview)
 * [カスタムフォーム](#custom-forms)
@@ -89,34 +90,34 @@ ht-degree: 40%
 
 「概要」セクションを展開して、画像のサムネールを表示またはダウンロードし、プルーフを開き、基本的な説明を更新し、ドキュメントを確認します。
 
-![&#x200B; ドキュメントの概要](assets/details-section.png)
+![ ドキュメントの概要](assets/details-section.png)
 
 #### カスタムフォーム {#custom-forms}
 
-「カスタムフォーム」セクションでは、ドキュメントに関連付けられたカスタムフォームを追加、編集、表示できます。カスタムフォームの名前を入力し、ドキュメントに追加します。詳しくは、[ドキュメントへのカスタムフォームの追加または編集](../../documents/managing-documents/add-custom-form-documents.md)を参照してください。
+「カスタムフォーム」セクションでは、ドキュメントに関連付けられたカスタムフォームを追加、編集、表示できます。 カスタムフォームの名前を入力し、ドキュメントに追加します。 詳しくは、[ドキュメントへのカスタムフォームの追加または編集](../../documents/managing-documents/add-custom-form-documents.md)を参照してください。
 
-![&#x200B; ドキュメントの概要にカスタムフォームを追加](assets/custom-forms-section.png)
+![ ドキュメントの概要にカスタムフォームを追加](assets/custom-forms-section.png)
 
 ### 更新
 
-「更新」セクションを使用して、ドキュメントまたはプルーフで行われた更新を表示します。 概要には、最初に作成された 2 つのコメントが表示されます。更新について詳しくは、 [プルーフに対するコメント](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)を参照してください。
+「更新」セクションを使用して、ドキュメントまたはプルーフで行われた更新を表示します。 概要には、最初に作成された 2 つのコメントが表示されます。 更新について詳しくは、 [プルーフに対するコメント](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)を参照してください。
 
 ![概要パネルの「更新」セクション](assets/updates-section.png)
 
 ### 承認
 
-「承認」セクションでは、ドキュメントの承認をリクエストすることができます。また、承認についてのリマインドや承認の再送信、以前の決定のキャンセル、承認の削除を行うこともできます。ドキュメントの承認者は、概要を使用して意思決定を下すことができます。
+「承認」セクションでは、ドキュメントの承認をリクエストすることができます。 また、承認についてのリマインドや承認の再送信、以前の決定のキャンセル、承認の削除を行うこともできます。 ドキュメントの承認者は、概要を使用して意思決定を下すことができます。
 
-プルーフの承認は、プルーフワークフローに追加する必要があります。承認について詳しくは、以下を参照してください。
+プルーフの承認は、プルーフワークフローに追加する必要があります。 承認について詳しくは、以下を参照してください。
 
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [ドキュメント承認のリクエスト](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![&#x200B; ドキュメントの概要の承認](assets/approvals-section.png)
+![ ドキュメントの概要の承認](assets/approvals-section.png)
 
 ### バージョン
 
-「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。詳細アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックして、次の操作を行います。
+「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。 詳細アイコン ![詳細アイコン ](assets/more-icon.png)をクリックして、次の操作を行います。
 
 * プルーフを開きます。
 * プルーフまたはドキュメントをダウンロードします。
@@ -124,7 +125,7 @@ ht-degree: 40%
 * ドキュメントの詳細に移動します。
 * プルーフまたはドキュメントを削除します。
 
-![&#x200B; ドキュメント概要のバージョン &#x200B;](assets/versions-section.png)
+![ ドキュメント概要のバージョン ](assets/versions-section.png)
 
 ## 新しい文書エクスペリエンスの文書の概要
 
@@ -132,7 +133,7 @@ ht-degree: 40%
 
 ### 詳細
 
-詳細セクションを使用して、概要の概要を表示したり、カスタムフォームを操作したりできます。
+「詳細」セクションでは、概要情報を表示したり、カスタムフォームを使用したりできます。
 
 ![新しいドキュメント エクスペリエンスのドキュメント概要の詳細](assets/summary-details.png)
 
@@ -143,7 +144,7 @@ ht-degree: 40%
 承認とFrame.ioについて詳しくは、「
 
 * [レビューと承認の統合を始める](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-* [&#x200B; ドキュメントのレビューまたは承認リクエストを作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+* [ ドキュメントのレビューまたは承認リクエストを作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 ![新しいドキュメント エクスペリエンスでのドキュメントの概要の承認](assets/summary-approvals.png)
 
@@ -153,7 +154,7 @@ ht-degree: 40%
 
 ### バージョン
 
-「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。詳細アイコンをクリックして、次の操作を行います。
+「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。 詳細アイコンをクリックして、次の操作を行います。
 
 * バージョン名の変更
 * ドキュメントの詳細を表示
@@ -163,7 +164,7 @@ ht-degree: 40%
 * バージョンを共有
 * バージョンを削除
 
-![新しいドキュメント エクスペリエンスのドキュメント概要バージョン &#x200B;](assets/summary-versions.png)
+![新しいドキュメント エクスペリエンスのドキュメント概要バージョン ](assets/summary-versions.png)
 
 ### 履歴
 

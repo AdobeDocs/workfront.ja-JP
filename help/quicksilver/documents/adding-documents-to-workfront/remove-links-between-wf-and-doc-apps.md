@@ -2,30 +2,30 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Adobe Workfront と外部ドキュメントストレージプロバイダー間のリンクを削除する
-description: 任意のサービスからドキュメントを初めてアップロードする際に、Adobe Workfront は、ドキュメントサービスにアクセスするための許可をユーザーに要求します。ユーザーがログイン用のドキュメントサービス資格情報を提供すると、ドキュメントサービスは自身を Workfront にリンクします。
+description: 任意のサービスからドキュメントを初めてアップロードする際に、Adobe Workfront は、ドキュメントサービスにアクセスするための許可をユーザーに要求します。 ユーザーがログイン用のドキュメントサービス資格情報を提供すると、ドキュメントサービスは自身を Workfront にリンクします。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '414'
 ht-degree: 90%
 
 ---
 
 # Adobe Workfront と外部ドキュメントストレージプロバイダー間のリンクを削除する
 
-任意のサービスからドキュメントを初めてアップロードする際に、Adobe Workfront は、ドキュメントサービスにアクセスするための許可をユーザーに要求します。ユーザーがログイン用のドキュメントサービス資格情報を提供すると、ドキュメントサービスは自身を Workfront にリンクします。
+任意のサービスからドキュメントを初めてアップロードする際に、Adobe Workfront は、ドキュメントサービスにアクセスするための許可をユーザーに要求します。 ユーザーがログイン用のドキュメントサービス資格情報を提供すると、ドキュメントサービスは自身を Workfront にリンクします。
 
 外部ドキュメントサービスの Workfront へのリンクについて詳しくは、[外部アプリケーションからのドキュメントのリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)を参照してください。
 
-ドキュメントサービスは Workfront へのリンク権限を許可するものなので、Workfront ではドキュメントサービスから付与された権限を削除できません。ドキュメントサービスアプリケーション内から権限を削除するか、サポートチームに連絡して、サーバーからこのリンクを削除する必要があります。
+ドキュメントサービスは Workfront へのリンク権限を許可するものなので、Workfront ではドキュメントサービスから付与された権限を削除できません。 ドキュメントサービスアプリケーション内から権限を削除するか、サポートチームに連絡して、サーバーからこのリンクを削除する必要があります。
 
 >[!NOTE]
 >
->この機能は、新しいドキュメント エリアでは使用できません。<br>
+>この機能は、新規ドキュメント領域では使用できません。<br>
 >組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ## アクセス要件
@@ -38,7 +38,7 @@ ht-degree: 90%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p> 任意</p> </td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 

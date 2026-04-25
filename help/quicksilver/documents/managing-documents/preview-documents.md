@@ -2,22 +2,22 @@
 product-area: documents
 navigation-topic: manage-documents
 title: ドキュメントのプレビュー
-description: ドキュメントエリアからドキュメントをプレビューできます。これは、特に画像に役立ちます。
+description: ドキュメントエリアからドキュメントをプレビューできます。 これは、特に画像に役立ちます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 40%
+source-wordcount: '378'
+ht-degree: 38%
 
 ---
 
 # ドキュメントのプレビュー
 
-ドキュメントエリアからドキュメントをプレビューできます。これは、特に画像に役立ちます。
+ドキュメントエリアからドキュメントをプレビューできます。 これは、特に画像に役立ちます。
 
 ## アクセス要件
 
@@ -31,7 +31,8 @@ ht-degree: 40%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p> 任意</p> </td> 
+   <td> <p>従来のWorkfront ストレージを使用してドキュメントを管理するWorkfront パッケージ</p>
+<p>Adobe エンタープライズストレージを使用してドキュメントを管理するワークフローパッケージ</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -154,6 +155,6 @@ ht-degree: 40%
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけて、ドキュメント名をクリックします。
-   ![&#x200B; ドキュメントのプレビュー](assets/preview-new-doc.png)
+   ![ ドキュメントのプレビュー](assets/preview-new-doc.png)
 
 

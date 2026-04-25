@@ -2,22 +2,22 @@
 product-area: documents
 navigation-topic: manage-documents
 title: ドキュメントの削除
-description: アップロードしたドキュメントを削除できます。特定のドキュメントに対する管理アクセス権を与えられている場合は、それらも削除できます。
+description: アップロードしたドキュメントを削除できます。 特定のドキュメントに対する管理アクセス権を与えられている場合は、それらも削除できます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 54%
+source-wordcount: '353'
+ht-degree: 50%
 
 ---
 
 # ドキュメントの削除
 
-アップロードしたドキュメントを削除できます。特定のドキュメントに対する管理アクセス権を与えられている場合は、それらも削除できます。
+アップロードしたドキュメントを削除できます。 特定のドキュメントに対する管理アクセス権を与えられている場合は、それらも削除できます。
 
 ## アクセス要件
 
@@ -29,7 +29,8 @@ ht-degree: 54%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p> 任意</p> </td> 
+   <td><p>従来のWorkfront ストレージを使用してドキュメントを管理するWorkfront パッケージ</p>
+<p>Adobe エンタープライズストレージを使用してドキュメントを管理するワークフローパッケージ</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -61,13 +62,13 @@ ht-degree: 54%
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. ドキュメント領域の上にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
+1. ドキュメント領域の上にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete.png)をクリックします。
 
 1. 表示されるボックスで、「**はい、削除します**」をクリックして確定します。
 
    システム管理者またはグループ管理者は、[削除した項目を復元](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)で説明されているように、ドキュメントを削除してから 30 日以内は復元できます。
 
-   ![&#x200B; ドキュメントの削除](assets/delete-documents-legacy.png)
+   ![ ドキュメントの削除](assets/delete-documents-legacy.png)
 
 
 ## 新規ドキュメント領域でのドキュメントの削除
@@ -84,4 +85,4 @@ ht-degree: 54%
 
    システム管理者またはグループ管理者は、[削除した項目を復元](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)で説明されているように、ドキュメントを削除してから 30 日以内は復元できます。
 
-   ![&#x200B; ドキュメントの削除](assets/delete-documents-new.png)
+   ![ ドキュメントの削除](assets/delete-documents-new.png)

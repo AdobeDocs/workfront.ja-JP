@@ -8,20 +8,20 @@ feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 68%
+source-wordcount: '583'
+ht-degree: 66%
 
 ---
 
 # Workfront でのドキュメントのレビュー
 
-レビュアーは、レビューのために送信されたドキュメントをプレビューできます。承認とは異なり、決定は行いません。代わりに、そのアセットをレビューしたことを確認します。
+レビュアーは、レビューのために送信されたドキュメントをプレビューできます。 承認とは異なり、決定は行いません。 代わりに、そのアセットをレビューしたことを確認します。
 
 >[!IMPORTANT]
 >
->この記事では、特定のアカウントでのみ利用できる更新済みのドキュメントの承認機能について説明します。標準の承認プロセスについて詳しくは、[作業承認](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)にリストされている記事を参照してください。
+>この記事では、特定のアカウントでのみ利用できる更新済みのドキュメントの承認機能について説明します。 標準の承認プロセスについて詳しくは、[作業承認](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)にリストされている記事を参照してください。
 
 ## アクセス要件
 
@@ -33,7 +33,8 @@ ht-degree: 68%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p>任意</p> </td> 
+   <td><p>従来のWorkfrontストレージを使用して承認を管理する、あらゆるWorkfrontパッケージ</p>
+<p>Adobeのエンタープライズストレージを使用して、承認を管理するあらゆるワークフローパッケージ</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
@@ -65,9 +66,9 @@ Add once functionality is added
 
 1. ドキュメントの名前をクリックして、ドキュメントページに移動します。
 
-1. レビューするドキュメントのバージョンをドロップダウンから選択します。デフォルトでは最新バージョンが選択されます。
+1. レビューするドキュメントのバージョンをドロップダウンから選択します。 デフォルトでは最新バージョンが選択されます。
 
-1. 「プレビュー」ボックスでドキュメントの上にマウスポインタを合わせます。次のいずれかを実行します。
+1. 「プレビュー」ボックスでドキュメントの上にマウスポインタを合わせます。 次のいずれかを実行します。
 
    「**プレビュー**」をクリックして、ドキュメントの読み取り専用バージョンを新しいウィンドウで開きます。
 
@@ -75,7 +76,7 @@ Add once functionality is added
 
    「**ダウンロード**」をクリックして、ドキュメントのローカルコピーをデバイスにダウンロードします。
 
-1. （オプション）ドキュメントをレビューしたら、ドキュメントの「**更新**」セクションにリクエスターへのコメントを残すことができます。コメント機能について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+1. （オプション）ドキュメントをレビューしたら、ドキュメントの「**更新**」セクションにリクエスターへのコメントを残すことができます。 コメント機能について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 1. レビューを完了したことを記録するには、「**レビューを完了**」をクリックします。
 
 ## ドキュメントの概要パネルでドキュメントを確認する
@@ -84,7 +85,7 @@ Add once functionality is added
 
 1. 必要なドキュメントをクリックすると、ドキュメントの概要パネルが開きます。
 
-1. バージョンのドロップダウンで、レビューするドキュメントのバージョンを選択します。デフォルトでは最新バージョンが選択されます。
+1. バージョンのドロップダウンで、レビューするドキュメントのバージョンを選択します。 デフォルトでは最新バージョンが選択されます。
 
 1. ドキュメントの概要パネルの上部にある「**詳細**」セクションで、ドキュメントのプレビューにカーソルを合わせます。 次のいずれかを実行します。
 
@@ -94,9 +95,9 @@ Add once functionality is added
 
    「**ダウンロード**」をクリックして、ドキュメントのローカルコピーをデバイスにダウンロードします。
 
-1. （オプション）ドキュメントをレビューしたら、ドキュメントの「**更新**」セクションにリクエスターへのコメントを残すことができます。コメント機能について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+1. （オプション）ドキュメントをレビューしたら、ドキュメントの「**更新**」セクションにリクエスターへのコメントを残すことができます。 コメント機能について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. （オプション）ドキュメントの概要パネルの&#x200B;**バージョン** セクションまでスクロールダウンし、レビューするバージョンの横にあるその他アイコン ![詳細アイコン &#x200B;](../assets/more-icon.png)をクリックして、**ダウンロード**&#x200B;または&#x200B;**プレビュー**&#x200B;を選択することで、ドキュメントの特定のバージョンをプレビューまたはダウンロードすることもできます。
+1. （オプション）ドキュメントの概要パネルの&#x200B;**バージョン** セクションまでスクロールダウンし、レビューするバージョンの横にあるその他アイコン ![詳細アイコン ](../assets/more-icon.png)をクリックして、**ダウンロード**&#x200B;または&#x200B;**プレビュー**&#x200B;を選択することで、ドキュメントの特定のバージョンをプレビューまたはダウンロードすることもできます。
 1. レビューを完了したことを記録するには、「**レビューを完了**」をクリックします。
 
 ## プルーフビューアからドキュメントをレビューする
@@ -107,7 +108,7 @@ Add once functionality is added
 
 1. Workfrontにアクセスしたら、**プルーフに移動**&#x200B;をクリックします。
 
-1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
+1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
 
 1. レビューを完了したことを記録するには、「**レビューを完了**」をクリックします。
 

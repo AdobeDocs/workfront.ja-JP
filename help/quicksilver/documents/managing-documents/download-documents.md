@@ -2,22 +2,22 @@
 product-area: documents
 navigation-topic: manage-documents
 title: ドキュメントのダウンロード
-description: ドキュメントは、Adobe Workfront から個別または一括でダウンロードできます。ドキュメントは、Workfront のドキュメントを含むどのエリアからでもダウンロードできます。
+description: ドキュメントは、Adobe Workfront から個別または一括でダウンロードできます。 ドキュメントは、Workfront のドキュメントを含むどのエリアからでもダウンロードできます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 57%
+source-wordcount: '375'
+ht-degree: 54%
 
 ---
 
 # ドキュメントのダウンロード
 
-ドキュメントは、Adobe Workfront から個別または一括でダウンロードできます。ドキュメントは、Workfront のドキュメントを含むどのエリアからでもダウンロードできます。 
+ドキュメントは、Adobe Workfront から個別または一括でダウンロードできます。 ドキュメントは、Workfront のドキュメントを含むどのエリアからでもダウンロードできます。 
 
 ## アクセス要件
 
@@ -29,7 +29,8 @@ ht-degree: 57%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>従来のWorkfront ストレージを使用してドキュメントを管理するWorkfront パッケージ</p>
+<p>Adobe エンタープライズストレージを使用してドキュメントを管理するワークフローパッケージ</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
@@ -61,9 +62,9 @@ ht-degree: 57%
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **選択したダウンロード** アイコン ![選択したダウンロード アイコン &#x200B;](assets/download-icon.png)をクリックします。
+1. **選択したダウンロード** アイコン ![選択したダウンロード アイコン ](assets/download-icon.png)をクリックします。
 
-![個別のドキュメントをダウンロード &#x200B;](assets/legacy-doc-download.png)
+![個別のドキュメントをダウンロード ](assets/legacy-doc-download.png)
 
 ### レガシードキュメント領域で複数のドキュメントを同時にダウンロードする
 
@@ -77,7 +78,7 @@ ht-degree: 57%
    >Box、Dropbox、Google Drive などから Workfront にリンクされたドキュメントを一括でダウンロードすることはできません。
 
 1. （オプション）ダウンロードするドキュメントを含むフォルダーをフォルダーのリストから選択します。
-1. 「選択した項目をダウンロード」アイコン ![選択した項目をダウンロード &#x200B;](assets/download-icon.png)をクリックします。
+1. 「選択した項目をダウンロード」アイコン ![選択した項目をダウンロード ](assets/download-icon.png)をクリックします。
 
    フォルダーは .zip ファイルとしてダウンロードされ、最大 4GB に制限されます。
 
@@ -88,4 +89,4 @@ ht-degree: 57%
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけたら、**ダウンロード**&#x200B;をクリックします。
 
-![&#x200B; ドキュメントをダウンロード &#x200B;](assets/download-new-doc.png)
+![ ドキュメントをダウンロード ](assets/download-new-doc.png)

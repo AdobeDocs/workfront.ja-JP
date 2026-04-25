@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 89%
+source-wordcount: '405'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->この機能は、新しいドキュメント エリアでは使用できません。<br>
+>この機能は、新規ドキュメント領域では使用できません。<br>
 >組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ## アクセス要件
@@ -34,7 +34,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p> 任意</p> </td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
@@ -56,7 +56,7 @@ ht-degree: 89%
 ## ドキュメントをリクエスト
 
 1. リクエストしたドキュメントを配置するエリアに移動します。
-1. 「**ドキュメント**」タブをクリックします。
+1. 「**ドキュメント**」タブをクリックします。 
 1. **新規追加**&#x200B;ドロップダウンメニューをクリックします。
 
 1. 「**ドキュメントをリクエスト**」をクリックします。
@@ -65,20 +65,20 @@ ht-degree: 89%
 
    ![document_request.png](assets/document-request-350x242.png)
 
-1. ドキュメントをリクエストするユーザーの名前を入力し始め、ドロップダウンリストに表示されたら選択します。オプションとして表示されるのは、ライセンスを持つ Adobe Workfront ユーザーのみです。
+1. ドキュメントをリクエストするユーザーの名前を入力し始め、ドロップダウンリストに表示されたら選択します。 オプションとして表示されるのは、ライセンスを持つ Adobe Workfront ユーザーのみです。
 
    >[!NOTE]
    >
-   >アカウントの[従来のライセンスの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)が有効である場合、任意のメールアドレスにリクエストを送信できます。[システムセキュリティの環境設定の指定](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)にある設定では、これらの外部メールユーザーが、Workfront とやり取りする前にパスワードを作成する必要があるかどうかを決定します。
+   >アカウントの[従来のライセンスの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)が有効である場合、任意のメールアドレスにリクエストを送信できます。 [システムセキュリティの環境設定の指定](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)にある設定では、これらの外部メールユーザーが、Workfront とやり取りする前にパスワードを作成する必要があるかどうかを決定します。 
 
 1. ドキュメントをリクエストする理由を説明します。
 1. 「**リクエストを送信**」をクリックします。
 
-   ユーザーに対してリクエストを行うと、ドキュメントエリアにプレースホルダーが追加されます。ユーザーに通知したり、このプレースホルダーからリクエストをキャンセルしたりできます。ユーザーは、Workfront 通知とリクエストに関するメールを受け取ります。
+   ユーザーに対してリクエストを行うと、ドキュメントエリアにプレースホルダーが追加されます。 ユーザーに通知したり、このプレースホルダーからリクエストをキャンセルしたりできます。 ユーザーは、Workfront 通知とリクエストに関するメールを受け取ります。
 
-   この環境設定が有効な場合、ユーザーはメール通知とアプリ内通知を受け取ります。メール通知について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
+   この環境設定が有効な場合、ユーザーはメール通知とアプリ内通知を受け取ります。 メール通知について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
-   メール通知に含まれるリンクをクリックして、ドキュメントをアップロードできます。また、アプリ内通知をクリックすることもできます。各オプションを選択すると、ユーザープロファイルページに移動し、リクエストしたドキュメントをアップロードできます。
+   メール通知に含まれるリンクをクリックして、ドキュメントをアップロードできます。 また、アプリ内通知をクリックすることもできます。 各オプションを選択すると、ユーザープロファイルページに移動し、リクエストしたドキュメントをアップロードできます。
 
 1. ドキュメントをアップロードした後、リクエストしたユーザーは自分の&#x200B;**ドキュメント**&#x200B;エリアでドキュメントにアクセスできます。
 
