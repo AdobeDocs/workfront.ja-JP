@@ -19,7 +19,7 @@ ht-degree: 71%
 
 ドキュメントの承認者として割り当てられている場合は、複数の方法で承認を決定できます。
 
-新しいドキュメント承認の作成について詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+新しいドキュメント承認の作成について詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ ht-degree: 71%
    >
    >* 組織を説明するようにカスタマイズされた画像に置き換える。 この場合、アイコンはこの記事に示すものとは異なる外観になります。
    >
-   >* リンクされたページを別のページに置き換える。 この場合、ページの右上隅にある&#x200B;**メインメニュー** ![ メインメニューアイコン ](../assets/main-menu-icon.png)をクリックし、**ホーム**&#x200B;をクリックします。
+   >* リンクされたページを別のページに置き換える。 この場合、ページの右上隅にある&#x200B;**メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](../assets/main-menu-icon.png)をクリックし、**ホーム**&#x200B;をクリックします。
 
 1. ページ左上の「**フィルター**」をクリックして、「**承認**」がオンになっていることを確認します。
 
@@ -152,13 +152,13 @@ ht-degree: 71%
 
 1. Workfrontにアクセスしたら、**プルーフに移動**&#x200B;をクリックします。
 
-1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
+1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
 
 1. 次のいずれかの決定を選択します。
 
    * **承認**: ドキュメントは変更が必要なく、使用する準備ができています。
    * **変更を加えて承認**：文書は変更が必要で、作成したら使用できる状態になります。 追加の承認は必要ありません。
-   * **作業が必要**：文書は変更が必要で、使用する準備ができていません。 指定した変更が行われたら、ドキュメントを新しいバージョンとしてアップロードし、別の承認ラウンドを実行する必要があります。 新しいバージョンのアップロードについて詳しくは、[新しいドキュメントバージョンのアップロードと承認のリクエスト ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)を参照してください。
+   * **作業が必要**：文書は変更が必要で、使用する準備ができていません。 指定した変更が行われたら、ドキュメントを新しいバージョンとしてアップロードし、別の承認ラウンドを実行する必要があります。 新しいバージョンのアップロードについて詳しくは、[新しいドキュメントバージョンのアップロードと承認のリクエスト &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)を参照してください。
 
 決定を下すと、ドキュメント所有者にメールで通知されます。
 

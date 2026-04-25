@@ -128,7 +128,7 @@ ht-degree: 77%
 
 1. 既存のドキュメントレポートに移動します。
 または
-「[ カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)」の説明に従って、ドキュメントレポートを作成します。
+「[&#x200B; カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)」の説明に従って、ドキュメントレポートを作成します。
 1. 編集するドキュメントを選択します。
 1. 編集アイコン ![編集アイコン](assets/edit-icon.png) をクリックします。
 1. （任意）**説明**&#x200B;を追加または編集します。 ドキュメントの説明が異なる場合は、「説明」ボックスに&#x200B;_複数の値_&#x200B;が表示されます。 すべてのドキュメントに同じ説明を追加できますが、一括編集時に個々のドキュメントの説明を編集できません。

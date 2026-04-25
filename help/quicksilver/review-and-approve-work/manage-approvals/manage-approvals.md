@@ -20,7 +20,7 @@ ht-degree: 91%
 この節では、次の記事を扱います。
 
 * [承認プロセスの概要](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-* [ レガシードキュメントの承認をリクエスト ](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
+* [&#x200B; レガシードキュメントの承認をリクエスト &#x200B;](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [承認の表示](../../review-and-approve-work/manage-approvals/view-approvals.md)
 * [送信済みの承認について承認者に通知する](../../review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)

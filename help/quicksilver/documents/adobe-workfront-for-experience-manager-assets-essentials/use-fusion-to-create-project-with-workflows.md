@@ -105,7 +105,7 @@ Workfront Fusionで、Adobe Experience Manager ワークフローを含むプロ
 
 1. `Folder tree ID here`をフォルダーIDに置き換えます。
 
-   フォルダーツリーIDを見つけるには、この記事の「[ フォルダーツリーIDを見つける](#locate-folder-tree-ids)」を参照してください。
+   フォルダーツリーIDを見つけるには、この記事の「[&#x200B; フォルダーツリーIDを見つける](#locate-folder-tree-ids)」を参照してください。
 
    複数のフォルダーツリーを使用するには、IDをコンマで区切ります。
 
@@ -131,7 +131,7 @@ Workfront Fusionで、Adobe Experience Manager ワークフローを含むプロ
 1. 「**フィルター**」ボックスに「`object-workflow`」と入力します。
 1. 「名前」列で、表示される英数字IDをクリックします。
 
-   ![ フォルダーID 1](assets/finding-folder-id-1.png)を検索しています
+   ![&#x200B; フォルダーID 1](assets/finding-folder-id-1.png)を検索しています
 
 1. 英数字IDの右側にある「**プレビュー**」タブをクリックします。
 1. 次の折りたたまれたセクションを開きます。
@@ -145,7 +145,7 @@ Workfront Fusionで、Adobe Experience Manager ワークフローを含むプロ
 
 1. 新しいプロジェクトに使用するフォルダーツリーを開きます。 `_id` フィールド値をメモします。 複数のフォルダーツリーを使用する場合は、使用するフォルダーツリーのすべての`_id` フィールド値をメモします。
 
-   ![ フォルダーID 2](assets/finding-folder-id-2.png)を検索しています
+   ![&#x200B; フォルダーID 2](assets/finding-folder-id-2.png)を検索しています
 
    これらは、**Workfront** > **その他のアクション** Fusion モジュールの&#x200B;**プロジェクト（詳細コレクション）** フィールドに入力する`aemNativeFolderTreeIDs`値です。
 

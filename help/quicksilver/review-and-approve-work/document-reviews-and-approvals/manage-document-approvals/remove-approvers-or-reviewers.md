@@ -63,7 +63,7 @@ ht-degree: 33%
 
 ## レガシードキュメント領域の承認ワークフローから承認者またはレビュー担当者を削除する
 
-組織がWorkfront ストレージを使用している場合は、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージ ](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)の比較を参照してください。
+組織がWorkfront ストレージを使用している場合は、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージ &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)の比較を参照してください。
 
 承認ワークフローから承認者またはレビュー担当者を削除するには：
 
@@ -90,7 +90,7 @@ ht-degree: 33%
 
 ## 新しいドキュメント領域の承認ワークフローへの承認者またはレビュー担当者の削除
 
-組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント領域が表示されます。 エンタープライズストレージについて詳しくは、[ エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント領域が表示されます。 エンタープライズストレージについて詳しくは、[&#x200B; エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 承認ワークフローを作成するには、次の手順に従います。
 
@@ -98,7 +98,7 @@ ht-degree: 33%
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 
 1. 「**ワークフローを編集**」をクリックします。
@@ -111,6 +111,6 @@ ht-degree: 33%
 
 1. 上記の手順を繰り返して、その他の承認者またはレビュアーを削除します。
 
-   ![ ステージから参加者を削除](assets/add-or-remove-participants.png)
+   ![&#x200B; ステージから参加者を削除](assets/add-or-remove-participants.png)
 
 1. 「**保存**」をクリックします。
