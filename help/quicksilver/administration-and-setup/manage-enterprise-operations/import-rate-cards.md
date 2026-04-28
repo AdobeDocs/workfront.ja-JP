@@ -7,9 +7,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1812'
 ht-degree: 3%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 すべての担当業務とレートを手動で追加する代わりに、テンプレートファイルを使用してExcelでレートカードを作成し、Adobe Workfrontに読み込むことができます。
 
-この記事で説明されているレートカードの例を確認するには、[&#x200B; サンプルファイル &#x200B;](assets/rate-cards-sample.zip)をダウンロードしてください。
+この記事で説明されているレートカードの例を確認するには、[ サンプルファイル ](assets/rate-cards-sample.zip)をダウンロードしてください。
 
-レートカードについて詳しくは、[&#x200B; レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
+レートカードについて詳しくは、[ レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
 ## テンプレートファイルを操作するための重要なルール
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 * RATE_RTCRD タブのRate Card Sequenceは、RTCRD タブのカードの順序と一致する必要があります（1つ目は1、2つ目は2など）。
 * 開始日と終了日は、許可された形式に従う必要があります。
 * レートカードはレートなしで読み込むことができ、後で更新できます。
-* カスタム属性（代理店、コストセンターなど）は異なる場合があります。 正確な要件については、システム管理者にお問い合わせください。
+* カスタム属性（代理店、コストセンターなど） 様々な場合があります。 正確な要件については、システム管理者にお問い合わせください。
 * テンプレートで削除された行は、システム内の既存のレコードを削除しません。
 
 ## アクセス要件
@@ -49,7 +49,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL レートカード &#x200B;]へのアクセスを編集</td> 
+   <td>[!UICONTROL レートカード ]へのアクセスを編集</td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ ht-degree: 3%
 
 レートカードをすべて作成し、このタブに表示します。 各行は1つのレートカードを表します。
 
-![&#x200B; レートカード読み込みテンプレートファイルの「RTCRD」タブ &#x200B;](assets/rate-card-import-template-tab1.png)
+![ レートカード読み込みテンプレートファイルの「RTCRD」タブ ](assets/rate-card-import-template-tab1.png)
 
 1. 各行にレートカードの情報を入力します。
 
@@ -112,7 +112,7 @@ ht-degree: 3%
 
 意図しない限り、日付が重複していないことを確認してください。
 
-レートカード読み込みテンプレートファイルの![RATE_RTCRD タブ &#x200B;](assets/rate-card-import-template-tab2.png)
+レートカード読み込みテンプレートファイルの![RATE_RTCRD タブ ](assets/rate-card-import-template-tab2.png)
 
 1. 各行のレートの情報を入力します。
 
@@ -153,7 +153,7 @@ ht-degree: 3%
    * **値** （オプション）：数値レート値（例：150）。 デフォルト値は 0 です。
    * **通貨** （オプション）：レートの通貨（USD、EUR、GBPなど）。 デフォルトはシステム通貨です。
    * **ロック済み** （オプション）: レートがロックされているかどうかを示します。 有効な値はTrueまたはFalseです。
-   * **属性** （オプション/カスタム）：最後の列（代理店、場所、コストセンターなど）は、顧客設定によって異なるレート属性です。 フィールドはカスタマイズ可能で、顧客環境によって異なります。
+   * **属性** （オプション/カスタム）：最後の列（代理店、場所、コストセンターなど） 顧客設定によって異なるレート属性です。 フィールドはカスタマイズ可能で、顧客環境によって異なります。
 
      例：代理店=「1：代理店」、場所=「シカゴ」、コストセンター=「22：コストセンター」
 
@@ -165,7 +165,7 @@ ht-degree: 3%
 
 エイリアスはシステムに追加されますが、このタブの情報に基づいてジョブロールに接続されません。
 
-![&#x200B; レートカード読み込みテンプレートファイルの「RSALS」タブ &#x200B;](assets/rsals-tab-rate-card-import.png)
+![ レートカード読み込みテンプレートファイルの「RSALS」タブ ](assets/rsals-tab-rate-card-import.png)
 
 1. 各行にエイリアスの名前を入力します。
 
@@ -175,7 +175,7 @@ ht-degree: 3%
 
 このタブでは、特定のレートカードのリソースとエイリアスの間の接続を定義できます。
 
-レートカード読み込みテンプレートファイルの「![RCRMET_RTCRD_RSALS」タブ &#x200B;](assets/rcrmet-tab-rate-card-import.png)
+レートカード読み込みテンプレートファイルの「![RCRMET_RTCRD_RSALS」タブ ](assets/rcrmet-tab-rate-card-import.png)
 
 1. 各行の情報を入力します。
 
@@ -231,6 +231,16 @@ ht-degree: 3%
 ## 既存のレートカードの更新
 
 同じExcel テンプレートを使用して、既存のレートカードのレートを更新し、その変更内容をWorkfrontにアップロードできます。
+
+既存のレートを更新するには、「RATE_RTCRD （レート設定）」タブのみが必要です。
+
+>[!NOTE]
+>
+>既存のレートカードのレートをアップロードすると、レートカードの現在のジョブロールとレートがすべて上書きされます。
+>
+>例えば、既存のレートカードにレートを含むジョブロールが5つあり、Excel ファイルに1つのジョブロールがある場合、アップロード後にレートカードに1つのジョブロールが割り当てられます。 残りの5つの担当業務とその率をレートカードに記載するには、Excel ファイルに記載する必要があります。
+
+既存のレートカードを更新するには：
 
 {{step-1-to-setup}}
 
