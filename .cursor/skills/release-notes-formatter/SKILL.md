@@ -1,10 +1,10 @@
 ---
 name: release-notes-formatter
 description: Workfront リリースノートの書式と検証を行って、一貫性、正しい構造、適切なリンクを確認します。 製品リリースディレクトリ内のリリースノートファイル、またはユーザーがリリースノート、製品リリース、または四半期リリースについて言及した場合にのみ使用します。 ハウツー記事や一般的なドキュメントには適用されません。
-source-git-commit: ec081e557ec48adcfcb3833bf11dcee91312ef4e
+source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 3%
+source-wordcount: '824'
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ exl-id: <existing UUID — never generate or change>
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Body**：機能の説明、ヘルプドキュメントへのリンク
+5. **Body**：機能の説明、ヘルプドキュメントへのリンク
 
 #### 概要ページ
 
@@ -90,10 +90,10 @@ exl-id: <existing UUID — never generate or change>
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. HTML機能テーブルを含む製品領域&#x200B;**ごとの** H3 （[reference.md](reference.md#overview-feature-table)を参照）
+5. HTML機能テーブルを含む製品領域&#x200B;**ごとの** H3 （[reference.md](reference.md#overview-feature-table)を参照）
    - 各テーブル内では、**最新の機能が最初に** – 最新の行がテーブルの上部（ヘッダー行の後）に表示されます
 
-&#x200B;6. **後続セクション** （H2）：その他の領域のリリースノート、デスクトップ校正ビューアの更新、お知らせ、API バージョン、メンテナンスの更新、トレーニングの更新
+6. **後続セクション** （H2）：その他の領域のリリースノート、デスクトップ校正ビューアの更新、お知らせ、API バージョン、メンテナンスの更新、トレーニングの更新
 
 ### 手順3：リンクの検証
 
@@ -124,6 +124,32 @@ exl-id: <existing UUID — never generate or change>
 | 吹き出し線内の余分なスペース | 末尾の空白をトリミング |
 | HTMLの商品エリアページ | マークダウンとして保持（HTMLは概要テーブル専用） |
 | `exl-id`がありません | そのままにしておきます。生成しないでください |
+
+### 手順6：目次の更新
+
+**new** リリースノート ページ （概要または製品領域）を作成するたびに、同じ変更で`help/quicksilver/TOC.md`に追加します。 目次にないページは、概要テーブル内のリンクがそのページを指している場合でも、公開されたナビゲーションには表示されません。
+
+追加先：
+
+- 目次には、四半期ごとに`* 2026 Q3 Release {#release-26-q3}`のような見出しの下にセクションがあります。 四半期の見出しがまだ存在しない場合（新しい四半期の最初のページ）、前の四半期の上に追加して、新しい四半期が上に表示されるようにします。
+- その四半期の見出しの下に、次の順序でページをリストします。
+   1. **概要**&#x200B;最初（`Third Quarter 2026 release overview`）。
+   2. **製品領域ページ**&#x200B;のアルファベット順の地域名（管理者、文書、エンタープライズ操作、プロジェクト、レポート、リクエスト）。
+   3. **その他の機能強化**&#x200B;は最後に（常にアルファベット順の製品領域の後に）。
+
+各目次エントリは、ページタイトルと絶対リポジトパスを使用したマークダウンリンクです。
+
+```markdown
+      * [Third Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
+```
+
+周囲のエントリにインデント（6つのスペース）を一致させます。 ページ H1のverbatimをリンクテキストとして使用します（例：`Documents enhancements`、`Requesting enhancements` （`Requests`ではなく））。したがって、目次ラベルは前四半期と一致します。
+
+回避すべき主な間違い：
+
+- 目次に追加せずに製品領域ページを作成します。
+- 新しい製品領域ページから別の四半期の概要にリンクする（手順3）。
+- 前四半期の見出しに新しい四半期のページを挿入します。
 
 ## ファイル命名規則
 
@@ -159,6 +185,7 @@ exl-id: <existing UUID — never generate or change>
 - [ ]壊れた内部リンクはありません
 - [ 概要の]個のアンカーリンクがH3 セクション IDと一致
 - [ ]機能は、最新の順に並べられます（製品エリアページと概要テーブルの両方）
+- [ ]新しいリリースノートのページが`help/quicksilver/TOC.md`に正しい四半期の下に一覧表示され、概要が最初に、製品領域がアルファベット順に表示されます（その他の最後）
 
 ## その他のリソース
 
