@@ -23,8 +23,8 @@ ht-degree: 16%
 
 ストレージの表示方法は、組織で従来のWorkfront ストレージを使用するか、Adobe エンタープライズストレージを使用するかによって異なります。
 
-* 従来のWorkfront ストレージを使用している場合は、この記事の[従来のWorkfront ストレージ ](#legacy-workfront-storage)を参照してください。
-* Adobe エンタープライズ ストレージを使用する場合は、この記事の[Adobe エンタープライズ ストレージ ](#adobe-enterprise-storage)を参照してください。
+* 従来のWorkfront ストレージを使用している場合は、この記事の[従来のWorkfront ストレージ &#x200B;](#legacy-workfront-storage)を参照してください。
+* Adobe エンタープライズ ストレージを使用する場合は、この記事の[Adobe エンタープライズ ストレージ &#x200B;](#adobe-enterprise-storage)を参照してください。
 
   エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
