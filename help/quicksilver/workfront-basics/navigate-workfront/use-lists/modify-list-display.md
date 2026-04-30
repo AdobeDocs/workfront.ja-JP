@@ -1,15 +1,15 @@
 ---
 navigation-topic: use-lists
 title: リストの表示方法を変更する
-description: ' [!DNL Adobe Workfront] では、リストの表示方法をカスタマイズできます。対象のリストを表示している他のユーザーには、変更は反映されません。'
+description: ' [!DNL Adobe Workfront] では、リストの表示方法をカスタマイズできます。 対象のリストを表示している他のユーザーには、変更は反映されません。'
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '711'
 ht-degree: 98%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 <!--Audited: 11/2024-->
 
-[!DNL Adobe Workfront] では、リストの表示方法をカスタマイズできます。対象のリストを表示している他のユーザーには、変更は反映されません。
+[!DNL Adobe Workfront] では、リストの表示方法をカスタマイズできます。 対象のリストを表示している他のユーザーには、変更は反映されません。
 
 次のカスタマイズを行うことができます。
 
@@ -28,9 +28,9 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->[!DNL Workfront] からログアウトしたり、ブラウザーを閉じたりすると、上記の表示変更は元に戻ります。また、これらの変更は 8 時間後に元に戻る場合もあります。
+>[!DNL Workfront] からログアウトしたり、ブラウザーを閉じたりすると、上記の表示変更は元に戻ります。 また、これらの変更は 8 時間後に元に戻る場合もあります。
 
-上記の一時的なカスタマイズに加えて、リストを並べ替える基準となる列を調整することもできます。この調整は、ログアウトしたりブラウザーを閉じた後でも [!DNL Workfront] に保持されます。ただし、リストのビューで他のユーザーが並べ替えオプションを編集した場合、以前の並べ替えの選択は保持されません。
+上記の一時的なカスタマイズに加えて、リストを並べ替える基準となる列を調整することもできます。この調整は、ログアウトしたりブラウザーを閉じた後でも [!DNL Workfront] に保持されます。 ただし、リストのビューで他のユーザーが並べ替えオプションを編集した場合、以前の並べ替えの選択は保持されません。
 
 リストに表示される情報の変更については、[レポート要素：フィルター、ビューおよびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)を参照してください。
 
@@ -74,9 +74,9 @@ ht-degree: 98%
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+    
    By default, groupings are collapsed.
-   </MadCap:conditionalText>
+    
    <br> </p>
    -->
 
@@ -90,19 +90,19 @@ ht-degree: 98%
 
 1. （オプションおよび条件付き）画面に特定の数の項目を表示する場合は、画面の右下隅にある&#x200B;**[!UICONTROL 表示中]**&#x200B;ドロップダウンメニューから、**100**、**250**、**500**、**[!UICONTROL すべて]**&#x200B;または **2000** 項目の表示を選択します。
 
-   ![&#x200B; ページのリスト番号](assets/list-number-page-350x119.png)
+   ![ ページのリスト番号](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >
-   >デフォルトでは、更新されたリストには 2,000 個の項目が表示され、従来のリストには 100 個の項目が表示されます。リストに 2,000 個を超える項目が含まれている場合、すべての項目を 1 ページ上に表示することはできません。
+   >デフォルトでは、更新されたリストには 2,000 個の項目が表示され、従来のリストには 100 個の項目が表示されます。 リストに 2,000 個を超える項目が含まれている場合、すべての項目を 1 ページ上に表示することはできません。
    >
    >
    >書式設定されたテキストフィールドがオブジェクトに含まれる大きなリストの場合に最高のパフォーマンスを得るには、この数を 250 に制限することをお勧めします。
    >
    >
-   >2 つのリストタイプについて詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) のリストの基本を学ぶの記事で[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。
+   >2 つのリストタイプについて詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) のリストの基本を学ぶの記事で[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。
 
-   リストの結果はページ分割され、選択された数の項目がページごとに表示されます。前向きおよび後向きの矢印をクリックするか、特定のページを選択すると、他のページの結果にアクセスできます。
+   リストの結果はページ分割され、選択された数の項目がページごとに表示されます。 前向きおよび後向きの矢印をクリックするか、特定のページを選択すると、他のページの結果にアクセスできます。
 
 1. 列の幅を変更するには、2 つの列を区切る線の上にポインタを合わせ、クリックして目的の幅までドラッグします。
 
@@ -122,4 +122,4 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >[!UICONTROL 設定]の[!UICONTROL グループ]エリアでグループを並べ替えている場合、リストの並べ替え方法を変更しても、グループとそのサブグループの階層ビューは分割されません。サブグループは親グループと一緒に留まります。リストは上位レベルのグループから順に並べ替えられます。次に、それぞれの親グループの下で、同じレベルにあるサブグループのリストがまとめて並べ替えられます。
+   >[!UICONTROL 設定]の[!UICONTROL グループ]エリアでグループを並べ替えている場合、リストの並べ替え方法を変更しても、グループとそのサブグループの階層ビューは分割されません。サブグループは親グループと一緒に留まります。 リストは上位レベルのグループから順に並べ替えられます。 次に、それぞれの親グループの下で、同じレベルにあるサブグループのリストがまとめて並べ替えられます。

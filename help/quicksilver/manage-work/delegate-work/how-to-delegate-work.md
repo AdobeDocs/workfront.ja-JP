@@ -2,15 +2,15 @@
 filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: タスクと問題の委任
-description: 不在時に割り当てられた作業を、一時的にデリゲートできます。この記事では、タスクとイシューの割り当てをデリゲートする方法について説明します。
+description: 不在時に割り当てられた作業を、一時的にデリゲートできます。 この記事では、タスクとイシューの割り当てをデリゲートする方法について説明します。
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1550'
 ht-degree: 80%
 
 ---
@@ -28,7 +28,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 不在時に割り当てられた作業を、一時的にデリゲートできます。
 
-タスクとイシューの割り当てや承認をデリゲートできます。この記事では、タスクとイシューの割り当てをデリゲートする方法について説明します。
+タスクとイシューの割り当てや承認をデリゲートできます。 この記事では、タスクとイシューの割り当てをデリゲートする方法について説明します。
 
 作業のデリゲートに関する一般情報について詳しくは、[作業のデリゲートの概要](../../manage-work/delegate-work/delegate-work-overview.md)を参照してください。
 
@@ -42,7 +42,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 >* 権限は、アクセスレベル内で機能する必要があり、デリゲートされたユーザーのアクセスレベルが、デリゲートを依頼するユーザーのアクセスレベルより低い場合もあります。
 >
 >   
->   例えば、デリゲートされるユーザーがアクセスレベルでタスクに対する表示アクセス権のみを持ち、デリゲートを依頼するユーザーがデリゲートするタスクに対して管理権限を持っている場合、デリゲートされるユーザーには、デリゲートされるタスクに対して管理権限が付与されます。ただし、ユーザーはデリゲートされたタスクに対して、デリゲートを依頼したユーザーと同じアクションを実行することはできません。不在時にタスクを更新できるようにするには、システム管理者にタスクに対する編集アクセス権をリクエストする必要があります。
+>   例えば、デリゲートされるユーザーがアクセスレベルでタスクに対する表示アクセス権のみを持ち、デリゲートを依頼するユーザーがデリゲートするタスクに対して管理権限を持っている場合、デリゲートされるユーザーには、デリゲートされるタスクに対して管理権限が付与されます。 ただし、ユーザーはデリゲートされたタスクに対して、デリゲートを依頼したユーザーと同じアクションを実行することはできません。 不在時にタスクを更新できるようにするには、システム管理者にタスクに対する編集アクセス権をリクエストする必要があります。
 >
 >   
 >   システム管理者がアクセスレベルを変更する方法については、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
@@ -66,7 +66,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 >[!NOTE]
 >
->リクエストライセンスを持っている場合は、作業に割り当てられることができますが、他のユーザーに対して作業をデリゲートすることはできません。[!DNL Workfront] では、作業をレビュー、リクエスト、コントリビューターの各ユーザーに割り当てることはお勧めしません。
+>リクエストライセンスを持っている場合は、作業に割り当てられることができますが、他のユーザーに対して作業をデリゲートすることはできません。 [!DNL Workfront] では、作業をレビュー、リクエスト、コントリビューターの各ユーザーに割り当てることはお勧めしません。
 
 </tr> 
   <tr> 
@@ -95,13 +95,13 @@ note from the table for Object permissions:
 
 この記事で説明するアクティビティを実行する前に、次の点を確認する必要があります。
 
-* [!DNL Workfront]またはグループ管理者は、[!UICONTROL **インスタンスの**] セットアップ [!UICONTROL 領域の] タスクとイシューの環境設定[!UICONTROL &#x200B; セクションで] ユーザーがタスクとイシュー[!DNL Workfront]の設定を委任することを許可しました。
+* [!DNL Workfront]またはグループ管理者は、[!DNL Workfront] インスタンスの[!UICONTROL  セットアップ ]領域の[!UICONTROL  タスクとイシューの環境設定] セクションで&#x200B;[!UICONTROL **ユーザーがタスクとイシュー**]&#x200B;の設定を委任することを許可しました。
 
   詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
 ## タスクとイシューを別のユーザーにデリゲート
 
-作業を他のユーザーにデリゲートする前に、ユーザーと連絡を取り、作業項目の委任者に指定される旨を伝えることをお勧めします。作業をデリゲートする前に、口頭での承認を求め、自分の不在中に相手が作業を完了させるために必要な時間があることを確認します。
+作業を他のユーザーにデリゲートする前に、ユーザーと連絡を取り、作業項目の委任者に指定される旨を伝えることをお勧めします。 作業をデリゲートする前に、口頭での承認を求め、自分の不在中に相手が作業を完了させるために必要な時間があることを確認します。
 
 タスクとイシューのデリゲートに関する一般情報について詳しくは、[タスクとイシューのデリゲートの概要](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md)を参照してください。
 
@@ -110,15 +110,15 @@ note from the table for Object permissions:
 1. [!UICONTROL **ホーム**]&#x200B;領域に移動します。
 1. [!UICONTROL **マイワーク**]、[!UICONTROL **マイタスク**]、または&#x200B;[!UICONTROL **マイイシュー**] ウィジェットが&#x200B;[!UICONTROL **ホーム**]&#x200B;に追加されていることを確認します。
 
-   詳しくは、「[&#x200B; ホームでウィジェットを追加、編集、削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください
+   詳しくは、「[ ホームでウィジェットを追加、編集、削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください
 
 1. [!UICONTROL **マイワーク**]、[!UICONTROL **マイタスク**]、または&#x200B;[!UICONTROL **マイイシュー**] ウィジェットの左上隅にある&#x200B;[!UICONTROL **委任**]&#x200B;をクリックします。
 
-   ![委任ボタン &#x200B;](assets/delegate-button-on-my-work-widget.png)
+   ![委任ボタン ](assets/delegate-button-on-my-work-widget.png)
 
 1. 次を更新します。
 
-   * [!UICONTROL **タスクおよびイシューのデリゲート先**]：タスクおよびイシューをデリゲートするユーザーの名前を入力し、リストに表示されたら選択します。選択できるユーザーは 1 名のみです。
+   * [!UICONTROL **タスクおよびイシューのデリゲート先**]：タスクおよびイシューをデリゲートするユーザーの名前を入力し、リストに表示されたら選択します。 選択できるユーザーは 1 名のみです。
 
      委任者として選択したユーザーには、デリゲートしたタスクやイシューに対する権限と同じ権限が付与されます。
 
@@ -136,29 +136,29 @@ note from the table for Object permissions:
      >
      >「終了日」フィールドを空のままにし、「終了日なし」オプションを選択していない場合、デリゲーションは現在の日に対してのみ設定されます。
 
-     ![委任ボックスが拡張されました](assets/delegate-box-expanded-in-home.png)
+     ![委任ボックスが展開されました](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. 「[!UICONTROL **保存**]」をクリックします。
 
    次が発生します。
 
-   * 作業は指定したユーザーにデリゲートされます。選択した時間枠に日付が設定された未完了のタスクまたはイシュー（デリゲーションが有効になった後に新しく割り当てられたものを含む）は、デリゲートされます。
+   * 作業は指定したユーザーにデリゲートされます。 選択した時間枠に日付が設定された未完了のタスクまたはイシュー（デリゲーションが有効になった後に新しく割り当てられたものを含む）は、デリゲートされます。
 
      >[!TIP]
      >
      >   デリゲーションの時間枠内に日付が設定された完了済みの作業項目は、デリゲートされません。
 
 
-   * 別のユーザーへの作業の委任を有効にしたことを確認するメッセージが画面の下部に表示されます。デリゲートされたユーザーの名前が確認メッセージに表示されます。
+   * 別のユーザーへの作業の委任を有効にしたことを確認するメッセージが画面の下部に表示されます。 デリゲートされたユーザーの名前が確認メッセージに表示されます。
 
-   * [!DNL Workfront] で割り当てが表示できるほとんどの領域で、タスクとイシューが他のユーザーにデリゲートされたことを示すメッセージが表示されます。委任者の名前が含まれていないエリアについて詳しくは、[作業のデリゲートの概要](delegate-work-overview.md)を参照してください。
+   * [!DNL Workfront] で割り当てが表示できるほとんどの領域で、タスクとイシューが他のユーザーにデリゲートされたことを示すメッセージが表示されます。 委任者の名前が含まれていないエリアについて詳しくは、[作業のデリゲートの概要](delegate-work-overview.md)を参照してください。
 
    * [!UICONTROL **ホーム**]&#x200B;領域の「[!UICONTROL **デリゲート**]」ボタンが「[!UICONTROL **デリゲーションを編集**]」に変更されます。これは、デリゲーションが実行されていることを示します。
      <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
       (NOTE: is this shot correct? See UI - this is a mock)
-      </MadCap:conditionalText>
+       
       -->
 
      ![委任ボタンを編集](assets/edit-delegation-button-on-my-work-widget.png)
@@ -171,10 +171,10 @@ note from the table for Object permissions:
 
 ## デリゲーションを編集または停止
 
-終了日を選択した場合は、デリゲーションの有効期限を指定するか、手動で停止することができます。また、デリゲーションの日付が変更された場合は、デリゲーションの時間枠を変更することもできます。
+終了日を選択した場合は、デリゲーションの有効期限を指定するか、手動で停止することができます。 また、デリゲーションの日付が変更された場合は、デリゲーションの時間枠を変更することもできます。
 
-1. [!UICONTROL **ホーム**]&#x200B;領域に移動し、[!UICONTROL **マイワーク**]、**マイタスク**、**マイイシュー**&#x200B;のいずれかのウィジェットで「**デリゲーションを編集**」をクリックします。
-1. 「[!UICONTROL &#x200B; タスクと問題の委任を停止する]」ボックスで、次のいずれかの操作を行います。
+1. [!UICONTROL **ホーム**]&#x200B;領域に移動し、**マイワーク**、**マイタスク**、**マイイシュー**&#x200B;のいずれかのウィジェットで「[!UICONTROL **デリゲーションを編集**]」をクリックします。
+1. 「[!UICONTROL  タスクと問題の委任を停止する]」ボックスで、次のいずれかの操作を行います。
    * 「[!UICONTROL **開始日**]」または「[!UICONTROL **終了日**]」を変更します
    * 「[!UICONTROL **デリゲーションを停止**]」をクリックします
 
@@ -182,7 +182,7 @@ note from the table for Object permissions:
    >
    >    デリゲーションが既に開始している場合は、デリゲーションの「終了日」のみを編集できます。
 
-   ![委任を停止ボタン &#x200B;](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![委任を停止ボタン ](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. （条件付き）「[!UICONTROL **保存**]」をクリックして新しいデリゲーション日を保存します
 
@@ -190,7 +190,7 @@ note from the table for Object permissions:
 
    確認ボックスの「[!UICONTROL **デリゲーションを停止**]」をクリックして、デリゲーションの停止を確定します。
 
-   これで、デリゲーションの日付が更新されたか、デリゲーションが停止し、デリゲートされたユーザーがタスクとイシューから削除されました。タスクおよびイシューに対する権限は、そのまま残ります。
+   これで、デリゲーションの日付が更新されたか、デリゲーションが停止し、デリゲートされたユーザーがタスクとイシューから削除されました。 タスクおよびイシューに対する権限は、そのまま残ります。
 
 ## デリゲートされた作業と委任者情報を検索
 
@@ -217,11 +217,11 @@ note from the table for Object permissions:
 
   タスクまたはイシューのヘッダーの「[!UICONTROL 割り当て]」フィールドが、「[!UICONTROL 割り当てとデリゲーション]」に変更されます。
 
-  ![&#x200B; タスクヘッダーの割り当てとデリゲート パネル &#x200B;](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![ タスクヘッダーの割り当てとデリゲート パネル ](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * タスクまたはイシューを手動で割り当てる際の[!UICONTROL ワークロードバランサー]
 
-  バランサー![の](assets/assignments-and-delegates-panel-in-workload-balancer.png)割り当てと委任パネル
+  バランサー](assets/assignments-and-delegates-panel-in-workload-balancer.png)の![割り当てと委任パネル
 
 >[!NOTE]
 >
@@ -234,7 +234,7 @@ note from the table for Object permissions:
 
 >[!TIP]
 >
->デリゲートされたタスクやイシューの予定時間数または実際の時間数は、デリゲートされたユーザーの[!UICONTROL ワークロードバランサー]や [!DNL Resource Planner] などのリソース管理ツールでは考慮されません。これらの時間数は、割り当てられたユーザーにのみ関連付けられます。
+>デリゲートされたタスクやイシューの予定時間数または実際の時間数は、デリゲートされたユーザーの[!UICONTROL ワークロードバランサー]や [!DNL Resource Planner] などのリソース管理ツールでは考慮されません。 これらの時間数は、割り当てられたユーザーにのみ関連付けられます。
 
 ### [!UICONTROL ホーム]でデリゲートされた作業を検索
 
@@ -265,4 +265,4 @@ note from the table for Object permissions:
 
      >[!TIP]
      >
-     >    デリゲーションが今日以降の日付に開始するように設定されている場合は、デリゲーションの開始日も[!UICONTROL 作業リスト]に表示されます。委任された項目は、グループのタイプに応じて、[!UICONTROL 作業リスト]に対して選択したグループ化に表示されます。例えば、[!UICONTROL 予定完了日]によってグループ化した場合、委任された項目は予定完了日と一致するグループ化に表示されます。
+     >    デリゲーションが今日以降の日付に開始するように設定されている場合は、デリゲーションの開始日も[!UICONTROL 作業リスト]に表示されます。 委任された項目は、グループのタイプに応じて、[!UICONTROL 作業リスト]に対して選択したグループ化に表示されます。 例えば、[!UICONTROL 予定完了日]によってグループ化した場合、委任された項目は予定完了日と一致するグループ化に表示されます。

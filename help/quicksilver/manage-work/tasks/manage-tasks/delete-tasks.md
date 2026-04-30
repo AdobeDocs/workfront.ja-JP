@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '792'
 ht-degree: 85%
 
 ---
@@ -88,9 +88,9 @@ Old:
 
 ### タスクの削除に関する制限  {#limitations-for-deleting-tasks}
 
-* プロジェクトのステータスが「完了」の場合、タスクを削除できるのは、Workfront 管理者またはグループ管理者が、プロジェクトの環境設定エリアで許可している場合だけです。プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+* プロジェクトのステータスが「完了」の場合、タスクを削除できるのは、Workfront 管理者またはグループ管理者が、プロジェクトの環境設定エリアで許可している場合だけです。 プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
-* タスクに記録された時間がある場合、Workfront またはグループ管理者は、Workfront インスタンスでタスクとイシューの環境設定を行うことで、これらのタスクの削除を許可する必要があります。これは、時間が記録されたタスクを持つプロジェクトを削除しようとした場合にも該当します。
+* タスクに記録された時間がある場合、Workfront またはグループ管理者は、Workfront インスタンスでタスクとイシューの環境設定を行うことで、これらのタスクの削除を許可する必要があります。 これは、時間が記録されたタスクを持つプロジェクトを削除しようとした場合にも該当します。
 
   <!--
   (NOTE: the last statement is NWE only; not possible in classic)
@@ -108,7 +108,7 @@ Old:
 
    * ドキュメント
 
-  チェックアウトされたドキュメントが添付されたタスクは削除できません。ドキュメントのチェックアウトについて詳しくは、[ドキュメントのチェックアウト](../../../documents/managing-documents/check-out-documents.md)を参照してください。
+  チェックアウトされたドキュメントが添付されたタスクは削除できません。 ドキュメントのチェックアウトについて詳しくは、[ドキュメントのチェックアウト](../../../documents/managing-documents/check-out-documents.md)を参照してください。
 
    * イシュー
    * サブタスク
@@ -132,9 +132,9 @@ Old:
 * 子タスクを削除し、その親を別のプロジェクトに移動してから、削除した子タスクを復元すると、そのタスクは元のプロジェクトにメインタスクとして再度追加されます。
 
 <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   
   (NOTE: this stays NWE; not possible in classic;)
-  </MadCap:conditionalText>
+   
   -->
 
 ## タスクの削除
@@ -180,7 +180,7 @@ Old:
 1. 削除するタスクの名前をクリックします。
 1. 右上隅の&#x200B;**詳細** アイコン ![詳細メニュー](assets/qs-more-menu.png)をクリックします。
 
-   ![&#x200B; タスクレベルでタスクを削除](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![ タスクレベルでタスクを削除](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. 「**タスクを削除**」をクリックします。
 1. 削除が許可されている場合は、**削除**&#x200B;をクリックします。
