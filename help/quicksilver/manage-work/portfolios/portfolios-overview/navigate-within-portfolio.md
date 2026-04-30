@@ -56,7 +56,7 @@ ht-degree: 64%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -99,7 +99,7 @@ Old:
    * **[!UICONTROL 所有ポートフォリオ]**：[!UICONTROL ポートフォリオ管理者]に指定されたポートフォリオのリストを含みます。
    * **[!UICONTROL すべて]**：少なくともビューにアクセスできるすべてのポートフォリオが含まれます。
 
-     ポートフォリオへのアクセスについて詳しくは、[ アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
+     ポートフォリオへのアクセスについて詳しくは、[&#x200B; アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
 ポートフォリオに対する権限について詳しくは、[ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください。
 
      新しいポートフォリオを追加するには、[ポートフォリオの作成](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)を参照してください。
@@ -110,7 +110,7 @@ Old:
    * ポートフォリオが[!UICONTROL 予定通り]かどうか
    * ポートフォリオが[!UICONTROL 予算通り]かどうか
    * [!UICONTROL 投資回収率]（ROI）
-   * ポートフォリオの [!UICONTROL  整合性]
+   * ポートフォリオの [!UICONTROL &#x200B; 整合性]
    * ポートフォリオの[!UICONTROL 純価]
 
 1. （オプション）左側のパネルの「**[!UICONTROL プロジェクト]**」をクリックして、選択したポートフォリオに関連付けられたプロジェクトを表示し、次のいずれかのフィルターを&#x200B;**[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューから選択します。
@@ -133,21 +133,21 @@ Old:
      フィルターの作成について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 
-1. 左側のパネルの&#x200B;**[!UICONTROL プログラム]**をクリックして、ポートフォリオ内にプログラムを作成するか、既存のプログラムを管理します。
+1. 左側のパネルの&#x200B;**[!UICONTROL プログラム]**&#x200B;をクリックして、ポートフォリオ内にプログラムを作成するか、既存のプログラムを管理します。
 プログラムについて詳しくは、[プログラムの作成と管理](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)を参照してください。
 
 1. （オプション）**[!UICONTROL ポートフォリオの詳細]**&#x200B;領域を展開して、「**[!UICONTROL 概要]**」または「**[!UICONTROL カスタムフォーム]**」をクリックし、ポートフォリオに関する情報を編集します。
 
 1. （オプション）左側のパネルの「**[!UICONTROL ポートフォリオ最適化]**」をクリックして、ポートフォリオのパフォーマンスを最適化します。
 
-   ![ プロジェクトを含むPortfolio optimizer](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![&#x200B; プロジェクトを含むPortfolio optimizer](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
    >[!UICONTROL Portfolio Optimizer]にアクセスするには、会社に[!UICONTROL Prime]以降の[!DNL Workfront] パッケージが必要です。
    >
 
-   Portfolio Optimizerの使用について詳しくは、「Portfolio Optimizerでプロジェクトを管理する：記事インデックス ](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)」セクションを参照してください。[
+   Portfolio Optimizerの使用について詳しくは、「Portfolio Optimizerでプロジェクトを管理する：記事インデックス [&#128279;](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)」セクションを参照してください。
 
 1. （オプション）左側のパネルの「**ドキュメント**」をクリックして、ドキュメントをポートフォリオに添付します。
 
@@ -156,7 +156,7 @@ Old:
    >ポートフォリオへのドキュメントの追加は、Workfrontに使用するストレージの種類によって異なります。
    >一部のお客様は、次の両方のドキュメントストレージ環境にアクセスできます。
    >
-   >  * **レガシーWorkfront ストレージ**：このストレージを使用しているポートフォリオでは、名前の横にレガシーストレージアイコン ![ レガシーストレージアイコン ](assets/legacy-storage-project-icon.png)が表示されます。
+   >  * **レガシーWorkfront ストレージ**：このストレージを使用しているポートフォリオでは、名前の横にレガシーストレージアイコン ![&#x200B; レガシーストレージアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
    >  * **Adobe エンタープライズ ストレージ**
    >
    >Workfront管理者は、会社が使用するストレージを決定するか、各ポートフォリオを関連付けるストレージを選択できるようにします。
@@ -164,7 +164,7 @@ Old:
    >
    >ポートフォリオへのドキュメントの追加は、使用するストレージの種類によって異なります。
    >
-   >詳しくは、「[ ファイルシステムからAdobe Workfrontにドキュメントを追加する](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)」を参照してください。
+   >詳しくは、「[&#x200B; ファイルシステムからAdobe Workfrontにドキュメントを追加する](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)」を参照してください。
 
 1. （オプション）左パネルの「**[!UICONTROL 更新]**」をクリックして、ポートフォリオの更新ストリームにコメントを追加します。 詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 1. （オプション）次のいずれかの操作を行うには、**[!UICONTROL 詳細] メニュー** ![詳細メニュー](assets/qs-more-icon-on-an-object.png)をクリックします。
@@ -178,4 +178,4 @@ Old:
 
    * 他のユーザーとポートフォリオを共有します。
 
-1. （オプション）ポートフォリオ名の右側にある&#x200B;**星** アイコン ![星アイコン ](assets/qs-star-icon-favorites-39x38.png)をクリックして、お気に入りのリストにポートフォリオを追加します。
+1. （オプション）ポートフォリオ名の右側にある&#x200B;**星** アイコン ![星アイコン &#x200B;](assets/qs-star-icon-favorites-39x38.png)をクリックして、お気に入りのリストにポートフォリオを追加します。

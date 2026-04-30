@@ -401,7 +401,7 @@ ht-degree: 89%
    <td role="rowheader"><strong>（条件付き）[!UICONTROL Permission Profile]</strong></td> 
    <td> <p>このフィールドには、[!DNL Workfront Proof] で持つアクセスレベルが表示されます。 次の場合にのみ使用できます。</p> 
     <ul> 
-     <li>会社が従来の[!DNL Workfront] パッケージを使用しており、[!DNL Workfront Proof] コンポーネントを購入しているか、新しい[!DNL Workfront] パッケージで[!UICONTROL Standard]、[!UICONTROL Work]または[!UICONTROL プラン ] ライセンスを所有しています。</li> 
+     <li>会社が従来の[!DNL Workfront] パッケージを使用しており、[!DNL Workfront Proof] コンポーネントを購入しているか、新しい[!DNL Workfront] パッケージで[!UICONTROL Standard]、[!UICONTROL Work]または[!UICONTROL プラン &#x200B;] ライセンスを所有しています。</li> 
      <li>プルーフユーザーとして有効になっています。</li> 
     </ul> <p>[!DNL Workfront] 管理者は、自分を除くすべてのユーザーのフィールドを編集できるので、すべてのユーザーは、自分のプロファイルでこのフィールドを表示のみとして表示できます。 権限プロファイルについて詳しくは、<a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">プルーフ権限プロファイルの概要</a>を参照してください。</p> </td> 
   </tr> 
@@ -525,7 +525,7 @@ ht-degree: 89%
 
 すべてのユーザーが、プロファイルに関連付けられたカスタムフォームを表示できます。
 
-ユーザープロファイルにカスタムフォームを添付できるようにするには、[!DNL Workfront] 管理者がユーザーオブジェクトのカスタムフォームを設定する必要があります。 カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+ユーザープロファイルにカスタムフォームを添付できるようにするには、[!DNL Workfront] 管理者がユーザーオブジェクトのカスタムフォームを設定する必要があります。 カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ### [!UICONTROL コメント]
 

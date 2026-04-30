@@ -180,7 +180,7 @@ Old:
 1. 削除するタスクの名前をクリックします。
 1. 右上隅の&#x200B;**詳細** アイコン ![詳細メニュー](assets/qs-more-menu.png)をクリックします。
 
-   ![ タスクレベルでタスクを削除](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![&#x200B; タスクレベルでタスクを削除](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. 「**タスクを削除**」をクリックします。
 1. 削除が許可されている場合は、**削除**&#x200B;をクリックします。
