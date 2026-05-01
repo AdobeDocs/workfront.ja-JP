@@ -121,7 +121,7 @@ Adobe Admin Consoleでのユーザー管理について詳しくは、[Adobe Adm
 
 パスワードが [!DNL Adobe] によって管理されている場合は、アドビアカウントのパスワードを変更できます。
 
-[Adobeのパスワードを変更する方法については、こちらの記事を参照してください。](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[Adobeのパスワードを変更する方法については、こちらの記事を参照してください。](https://helpx.adobe.com/jp/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 パスワードの変更について詳しくは、管理者にお問い合わせください。
 
