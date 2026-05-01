@@ -2,24 +2,40 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: パスワードをリセット
-description: ' [!DNL Adobe Workfront]  パスワードをリセットできます。重要なセキュリティ対策として、これを定期的に行うことをお勧めします。'
+description: ' [!DNL Adobe Workfront]  パスワードをリセットできます。 重要なセキュリティ対策として、これを定期的に行うことをお勧めします。'
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 38%
+source-wordcount: '103'
+ht-degree: 78%
 
 ---
 
 # パスワードをリセット
 
+>[!NOTE]
+>
+>パスワードを変更すると、すべての [!DNL Adobe CX Enterprise] アプリケーションのパスワードが変更されます。
+
+パスワードは [!DNL Workfront] では管理されません。
+
+組織が別のアプリケーションを使用してパスワードを管理している場合、そのプロバイダーを通じてパスワードを変更します。
+
+パスワードが [!DNL Adobe] によって管理されている場合は、アドビアカウントのパスワードを変更できます。
+
+[Adobeのパスワードを変更する方法については、こちらの記事を参照してください。](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+
+パスワードの変更について詳しくは、管理者にお問い合わせください。
+
+<!--
 >[!IMPORTANT]
 >
->このページに記載されている手順は、Adobe Admin Consoleにオンボーディングされていない組織にのみ適用されるため、削除されました。
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->すべてのWorkfront組織がAdobe Admin Consoleにオンボーディングされました。
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
