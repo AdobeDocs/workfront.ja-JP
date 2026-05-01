@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5479fcded2dfaf781fa54e046f4fce61e3a9ab7a
+source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
 workflow-type: tm+mt
 source-wordcount: '21715'
 ht-degree: 98%
@@ -126,18 +126,18 @@ ht-degree: 98%
     <!--
     Resource Estimates or     
      -->
-     [!UICONTROL プロジェクト （財務データ） &#x200B;] レポート： </p>
+     [!UICONTROL プロジェクト （財務データ） ] レポート： </p>
     <ul> 
      <li>このレポートは、次の項目を確認しながら
      <!--
      how resources are budgeted for work, or
      -->
-     リソースに割り当てられる[!UICONTROL 予定時間数]の量。</li>
+     リソースに割り当てられる[!UICONTROL予定時間数]の量。</li>
      <li> <p>[!UICONTROL Allocation Date]は、タスクへの[!UICONTROL Job Role]の配分が開始される週の最初の日（日曜日）です。 リソース（[!UICONTROL Job Role]）には、割り当てられているタスクの[!UICONTROL Duration]中の週と同数の[!UICONTROL Allocation Dates]を設定できます。 タスクが複数月にわたる場合、タスクの [!UICONTROL Duration]内であれば、月の最初の日を[!UICONTROL Allocation Date]にすることもできます。</p> <p>例えば、3 週間以上にわたるタスクにユーザーの[!UICONTROL Job Role]を割り当て、[!UICONTROL Planned Hours]を 90 時間にすることができます。 これらの時間数はタスクの期間中に均等に配分され、毎日 6 時間の[!UICONTROL Planned Hours]が担当業務に割り当てられます。</p> <p><em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours] / タスクの[!UICONTROL Duration]中の[!UICONTROL Work Days]の数</em> </p> <p>その結果、[!UICONTROL Allocation Dates]は 3 つあり、タスクの[!UICONTROL Duration]中の毎週日曜日ごとに 1 つで、それぞれに特定の数の[!UICONTROL Planned Hours]が関連付けられています。<br>ある月の最終週の真ん中でタスクが開始され、新しい月の初めから 2 週間後に終了する場合、タスクには 4 つの[!UICONTROL Allocation Dates]があります。タスクの[!UICONTROL Duration]中の毎週日曜日ごとに 1 つと、新しい月の最初の日に 1 つです。</p> <p>この情報を最大限に活用するには、以下を作成することをお勧めします。
       <!--
       Resource Estimates or a
       -->
-     プロジェクト（財務データ）レポートを作成し、[!UICONTROL 配分日]のマトリックス グループを追加し、最も正確なデータを取得するために、週単位、月単位、四半期単位、または年単位で結果をグループ化します。<br>マトリックスグループ化の作成については、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">マトリックスレポートの作成</a>の記事を参照してください。</p> </li>
+     プロジェクト（財務データ）レポートを作成し、[!UICONTROL配分日]のマトリックス グループを追加し、最も正確なデータを取得するために、週単位、月単位、四半期単位、または年単位で結果をグループ化します。<br>マトリックスグループ化の作成については、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">マトリックスレポートの作成</a>の記事を参照してください。</p> </li>
     </ul> <p>[!UICONTROL Project (Financial Data)]レポートに財務情報が入力されるのは、関連付けられているデータが 5 年未満の場合のみです。 例えば、2015年1月に担当業務がタスクに割り当てられ、今日が 2021年9月の場合、[!UICONTROL Project (Financial Data)]レポートでは、担当業務の[!UICONTROL Allocation Date]などの財務フィールドにデータは入力されません。 </p> 
     <div> 
      <p>[!UICONTROL Budgeted Hour]レポートの場合：</p> 
@@ -312,9 +312,9 @@ ht-degree: 98%
    <p>詳しくは、<a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">タイムラインビューの管理</a>を参照してください。 </p>
    </td> 
     </tr> 
-  <tr> 
-   <td>[!UICONTROL Budgeted Completion Date]</td> 
-   <td> <p>これは非推奨のフィールドです。 このフィールドに表示される情報はすべて、[!DNL Workfront]が削除した機能に関連しています。 このフィールドは更新できません。 </p>
+   <tr> 
+  <td>[!UICONTROL Budgeted Completion Date]</td> 
+  <td> <p>これは非推奨のフィールドです。 このフィールドに表示される情報はすべて、[!DNL Workfront]が削除した機能に関連しています。 このフィールドは更新できません。 </p>
    <p> フィールドは、[!UICONTROL プロジェクト] のレポートとリストに引き続き表示されます。</p>  </td> 
   </tr> 
   <tr> 
@@ -336,7 +336,7 @@ ht-degree: 98%
     <!-- 
      <p>Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-  -->
+    -->
     <p> [!DNL Resource Planner] のユーザーの予算計上についての詳細は、<a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">[!UICONTROL Project] ビューと [!UICONTROL Role] ビューを使用する [!DNL Resource Planner] 内のリソースの予算計上</a>の記事を参照してください。 </p> 
     <p>[!UICONTROL Business Case] の [!UICONTROL Resource Budgeting] エリアまたは [!UICONTROL Resource Planner] で予算計上された時間は、以下の名前の下の [!DNL Workfront] の次のエリアに表示されます。</p> 
      <table style="table-layout:auto"> 
@@ -387,24 +387,20 @@ ht-degree: 98%
     <li>Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)</li>
     <li>Resource Estimates report (in the Project: Budgeted Hours field) </li>
     </ul>
-    -->
-    <!--
     <p>The fields listed below display in the reports listed and are hours formerly budgeted in the  Capacity Planner or the Legacy Resource Estimates area of the Business Case.</p>
     <p>Important: The Capacity Planner and Legacy  Resource Estimates have been removed from Workfront. You cannot update any information that might display in these fields.</p>
-  -->
-  <!--
- <ul>
-  <li>Capacity Planner</li>
-  <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
-  <li>Resource Estimates report (in the Bud. Hours field)</li>
-  <li>Budgeted Hour report (in the Budgeted Hours field)</li>
-  <li>Project report (in the Budgeted Hours field)</li>
-  <li>Project (Financial  Data) report</li>
-  <li>Task  report (in the Project: Budgeted Hours field)</li>
-  <li>Issue report (in the Project: Budgeted Hours field)</li>
-  </ul>
-  -->
-    </td> 
+    <ul>
+    <li>Capacity Planner</li>
+    <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
+    <li>Resource Estimates report (in the Bud. Hours field)</li>
+    <li>Budgeted Hour report (in the Budgeted Hours field)</li>
+    <li>Project report (in the Budgeted Hours field)</li>
+    <li>Project (Financial  Data) report</li>
+    <li>Task  report (in the Project: Budgeted Hours field)</li>
+    <li>Issue report (in the Project: Budgeted Hours field)</li>
+    </ul>
+    -->
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Labor Cost]</td> 
@@ -431,8 +427,6 @@ ht-degree: 98%
     <!--
     <p>Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-    -->
-    <!--
      <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in  Workfront: </p>
      <ul> 
      <li>Resource Planner Cost view (in the BDG column)</li>
@@ -466,7 +460,7 @@ ht-degree: 98%
   <!--
   <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
   -->   
-   </td> 
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Burndown Chart]</td> 
@@ -496,10 +490,8 @@ ht-degree: 98%
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
-   <td> <p>このフィールドは、タスクの作業を開始する準備ができているかどうかを示します。 開始の準備ができている場合、タスクの [!UICONTROL Can Start] フィールドが [!UICONTROL True] に設定されます。 </p> <p>詳しくは、<a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">タスクの「[!UICONTROL Can Start]」の概要</a>を参照してください。</p>
-
-
-</td>
+   <td> <p>このフィールドは、タスクの作業を開始する準備ができているかどうかを示します。 開始の準備ができている場合、タスクの [!UICONTROL Can Start] フィールドが [!UICONTROL True] に設定されます。 </p> <p>詳しくは、<a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">タスクの「[!UICONTROL Can Start]」の概要</a>を参照してください。</p> 
+  </td>
   </tr>
   <!--
   <tr> 
@@ -1217,7 +1209,7 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL Last Note]</td> 
    <td> <p>このフィールドには、任意のユーザーがオブジェクトに最後に入力した更新が表示されます。 これは、オブジェクト上の最新のアクティビティまたはインタラクションです。</p> <p>オブジェクトの最終メモのテキストが削除されている場合、[!UICONTROL Last Note] 列は空になります。 オブジェクトに新規メモを入力すると、それが最終メモになり、列に再び表示されます。</p>
-   <p>このフィールドを[!UICONTROL タスク &#x200B;] レポートに追加すると、タスクの問題、サブタスク、ドキュメントなど、子オブジェクトに残っている更新がこの列に表示されません。</p> 
+   <p>このフィールドを[!UICONTROL タスク ] レポートに追加すると、タスクの問題、サブタスク、ドキュメントなど、子オブジェクトに残っている更新がこの列に表示されません。</p> 
    <p><b>メモ</p>
    <p>APIを使用してオブジェクトに最後に追加されたメモは、Workfrontのレポートには表示されません。 オブジェクトの最新の更新がAPIを使用して追加された場合、[!DNL Last Note] フィールドは空です。 </p>
    </td> 
@@ -1402,7 +1394,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Number of Children]</td> 
-   <td> <p>[!UICONTROL プロジェクト &#x200B;] レポートでは、これはタスクが持つ子またはサブタスクの数です。 
+   <td> <p>[!UICONTROL プロジェクト ] レポートでは、これはタスクが持つ子またはサブタスクの数です。 
    <p><b>ヒント</b></p>
    タスクのカスタムフォームの計算カスタムフィールドに<code>{numberOfChildren}</code>計算を追加して、カスタムフィールドにタスクの子の数を表示できます。 詳細については、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">計算フィールドをフォームに追加</a>を参照してください。 
     </td> 
