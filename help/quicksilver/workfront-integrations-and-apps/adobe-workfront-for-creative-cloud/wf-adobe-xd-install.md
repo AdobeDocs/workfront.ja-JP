@@ -8,16 +8,16 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 76%
+source-wordcount: '502'
+ht-degree: 79%
 
 ---
 
 # [!DNL Adobe Workfront for XD] をインストールして開く
 
-[!DNL Adobe Workfront for XD] プラグインは、Adobe Marketplace からインストールできます。このプラグインでは、次の言語をサポートしています。
+[!DNL Adobe Workfront for XD] プラグインは、Adobe Marketplace からインストールできます。 このプラグインでは、次の言語をサポートしています。
 
 * Japanese
 * フランス語
@@ -67,13 +67,13 @@ ht-degree: 76%
 
 * Workfront プラグインをインストールする前に、[!DNL Adobe XD] アプリをインストールする必要があります。
 
-## 組織への [!DNL Adobe Workfront for XD] プラグインのインストール
+## 組織用の [!DNL Adobe Workfront for XD] プラグインのインストール
 
-[!DNL Adobe Admin Console] 管理者は、プラグインを [!DNL Creative Cloud] デプロイメントパッケージに含めることができます。詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
+[!DNL Adobe Admin Console] 管理者は、プラグインを [!DNL Creative Cloud] デプロイメントパッケージに含めることができます。 詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
-[&#x200B; ビデオチュートリアルをここで表示](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
+[ ビデオチュートリアルをここで表示](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
+また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。 詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
 
 ## [!DNL Adobe Workfront for XD] プラグインの個別インストール
 
@@ -93,25 +93,25 @@ ht-degree: 76%
 
 1. 左下隅で、**プラグイン**&#x200B;アイコンをクリックします。
 
-![XD プラグインウィンドウ &#x200B;](assets/xd-plugin-window-350x620.png)
+![XD プラグインウィンドウ ](assets/xd-plugin-window-350x620.png)
 
 1. **[!UICONTROL プラグインパネル]**&#x200B;で、**[!UICONTROL Adobe Workfront for XD]** を検索します。
 
 1. プラグインへのログイン方法については、次の節を参照してください。
 
-## [!DNL Adobe Workfront for XD] にログイン
+## [!DNL Adobe Workfront for XD] へのログイン
 
 1. プラグインパネルが開いていることを確認し、「**[!DNL Adobe Workfront for XD]**」をクリックします。
-1. ドメインを入力し、「**[!UICONTROL ログイン]**」をクリックします。ブラウザーページが開きます。
+1. ドメインを入力し、「**[!UICONTROL ログイン]**」をクリックします。 ブラウザーページが開きます。
 
    >[!TIP]
    >
-   >* ドメインを検索するには、ブラウザーを開いて [!DNL Workfront] インスタンスに移動し、次の URL の最初の部分をコピーします。\
-   >![&#x200B; ドメインの検索](assets/domain-350x50.png)
+   >* ドメインを検索するには、ブラウザーを開き、[!DNL Workfront] インスタンスに移動し、URL の最初の部分をコピーします。\
+   >![ ドメインの検索](assets/domain-350x50.png)
    >
    >* Workfront インスタンスがExperience Cloudと統合され、ドメインが`experience.adobe.com`で始まる場合は、管理者に対して、Admin ConsoleのProduct > WorkfrontにあるWorkfront ドメインを提供するように依頼します。
 
-1. ブラウザーで、[!DNL Adobe] 資格情報を入力し、「**[!DNL Log in]**」をクリックします。会社がシングルサインオン（SSO）を使用している場合は、SSO プロバイダーのページにリダイレクトされ、そこからログインします。
+1. ブラウザーで、[!DNL Adobe] 資格情報を入力し、「**[!DNL Log in]**」をクリックします。 会社がシングルサインオン（SSO）を使用している場合は、SSO プロバイダーのページにリダイレクトされ、そこからログインします。
 
    >[!NOTE]
    >
@@ -132,13 +132,12 @@ ht-degree: 76%
 
 `experience.adobe.com`で始まるURLを使用してプラグインにログインすることはできません。
 
-![&#x200B; ログインエラー](assets/plugin-log-in-error.png) ![&#x200B; ドメイン &#x200B;](assets/incorrect-domain.png)
+![ ログインエラー](assets/plugin-log-in-error.png) ![ ドメイン ](assets/incorrect-domain.png)
 
 
 この問題を修正するには，
 
 1. Adobe Workfront for XD プラグインをアンインストールして再インストールし、ドメインとエラーをクリアします。
 
-1. Workfrontドメインを設定します。 ドメインは`company-name.my.workfront.com`ではなく`experience.adobe.com`である必要があります。
+1. Workfrontドメインを設定します。 ドメインは`experience.adobe.com`ではなく`company-name.my.workfront.com`である必要があります。
 
-Adobe統合エクスペリエンスを利用している場合は、次のサイトに移動してWorkfront ドメインを検索します
