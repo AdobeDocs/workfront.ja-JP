@@ -34,4 +34,4 @@ ht-degree: 93%
 
 プロジェクト、タスクおよびイシューをより直感的に共有できるように、「共有」オプションがその他メニューから取り出されました。 新しい「共有」ボタンが、その他メニューの直前に、オブジェクト名の横に表示されるようになりました。 ドキュメント、ポートフォリオおよびプログラムの共有に変更はありません。
 
-オブジェクトの共有のについて詳しくは、[オブジェクトの共有](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)を参照してください。
+オブジェクトの共有のについて詳しくは、[オブジェクトの共有](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)を参照してください。
