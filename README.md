@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # アーカイブ
 
-このリポジトリは<https://github.com/Adobe-Enterprise-Docs/workfront.en>に移行されました。
+このリポジトリは<https://github.com/Adobe-Enterprise-Docs/workfront.ja-JP>に移行されました。
