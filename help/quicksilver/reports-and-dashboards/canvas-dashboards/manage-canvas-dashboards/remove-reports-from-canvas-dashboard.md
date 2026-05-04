@@ -9,9 +9,9 @@ hidefromtoc: true
 hide: true
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 20%
 
 ---
@@ -79,8 +79,8 @@ ht-degree: 20%
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 
-1. **Canvas ダッシュボード** ページで、更新するダッシュボードの右上隅にある&#x200B;**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) アイコンを選択し、**削除**&#x200B;を選択します。
+1. **Canvas ダッシュボード** ページで、更新するダッシュボードの右上隅にある&#x200B;**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンを選択し、**削除**&#x200B;を選択します。
 
-   ![&#x200B; レポートを削除](assets/delete-a-report.png)
+   ![ レポートを削除](assets/delete-a-report.png)
 
 1. 表示される&#x200B;**レポートを削除** ダイアログボックスで、**削除**&#x200B;をクリックします。 レポートが削除され、ダッシュボードから削除されます。
