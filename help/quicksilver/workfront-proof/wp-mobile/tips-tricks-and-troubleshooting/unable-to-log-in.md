@@ -2,11 +2,10 @@
 title: ' [!DNL Workfront Proof]  モバイルアプリにログインできない'
 description: Workfront Proof モバイルアプリへのログインのトラブルシューティングを行います。
 hide: true
-hidefromtoc: true
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
@@ -15,13 +14,13 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 ## 問題
 
 [!DNL Workfront Proof] にログインしようとしたとき、次の情報が返されます。
 
-「ユーザー名またはパスワードが無効です。再試行してください。」
+「ユーザー名またはパスワードが無効です。 再試行してください。」
 
 この問題は、スタンドアロンの [!DNL Workfront Proof] システムにログインしようとするため、Workfront と統合されたシステムではなく、[!DNL Workfront Proof] モバイルアプリをスタンドアロンで起動した場合に発生します。
 

@@ -5,15 +5,14 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
 hide: true
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1886'
-ht-degree: 5%
+source-wordcount: '1892'
+ht-degree: 7%
 
 ---
 
@@ -94,7 +93,7 @@ at GA, check that the Workfront plans article linked below has Planning info
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
    <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
 </td> 
   </tr> 
@@ -271,7 +270,7 @@ Lilit is checking on this, it is not working correctly
 
    詳しくは、[Adobe Workfront計画通知：記事インデックス &#x200B;](/help/quicksilver/planning/notifications/notifications-information.md)を参照してください。
 
-1. コピーしたリンクを他のユーザーと共有します。リンクを受け取るユーザーは、レコードタイプページにアクセスして選択したビューに表示するには、アクティブなユーザーでWorkfrontにログインする必要があります。 レコードタイプを表示するには、レコードタイプに対する権限が必要です。 詳細については、「[&#x200B; リンクを使用してレコードを共有する](/help/quicksilver/planning/records/share-records.md)」も参照してください。
+1. コピーしたリンクを他のユーザーと共有します。 リンクを受け取ったユーザーが、レコードタイプのページにアクセスして、選択したビューで表示するには、ユーザーがアクティブユーザーであり、Workfront にログインしている必要があります。 レコードタイプを表示するには、レコードタイプに対する権限が必要です。 詳細については、「[&#x200B; リンクを使用してレコードを共有する](/help/quicksilver/planning/records/share-records.md)」も参照してください。
 
 ## レコードへの権限の削除
 

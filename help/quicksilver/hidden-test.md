@@ -2,20 +2,21 @@
 title: 非表示のテスト
 description: 非表示のテスト
 hide: true
-hidefromtoc: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 5ab33ae7ee37f4afa2546af32af205ef546bae22
+source-git-commit: 1f657dc9041fcfbc8ea5b8ffcbcad0db96860dd2
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 35%
+source-wordcount: '620'
+ht-degree: 49%
 
 ---
 
 # 非表示のテスト
 
-大規模なリポジトリでのパブリッシュ時間のテストに使用される非表示のファイル。
+第4位ミツバチとU
 
-問題がある場合は、Bob にお問い合わせください。
+大きなリポジトリで公開時間をテストするために使用される非表示のファイル。
+
+問題がある場合は、ボブに連絡してください。
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
@@ -25,11 +26,11 @@ ht-degree: 35%
 ## チェックリスト
 
 1. プランをパッケージに変更します。
-1. ライセンス行から現在および従来のを削除
-1. すべてのアスタリスクを削除
-1. 「この記事の機能のアクセス要件を表示するために展開」の後の紹介文をすべて削除します。
+1. ライセンス行から現在およびレガシーを削除
+1. アスタリスクの削除
+1. 「この記事の機能に対するアクセス要件を表示するために展開」の後にイントロ文を削除します。
 
-## アクセス要件（パッケージが同じままで、ライセンス行を更新する場合の例です）
+## アクセス要件（これは、パッケージが同じままで、ライセンス行を更新する場合の例です）
 
 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -44,8 +45,8 @@ ht-degree: 35%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>ライト以上</p>
-   <p>ワークまたはそれ以上</p></td> 
+   <td> <p>明るいまたはそれ以上</p>
+   <p>Work またはそれ以上</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -58,7 +59,7 @@ ht-degree: 35%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 ## アクセス要件
 
@@ -75,7 +76,7 @@ ht-degree: 35%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>標準</p>
-   <p>ワークまたはそれ以上</p></td> 
+   <p>Work またはそれ以上</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -99,7 +100,7 @@ ht-degree: 35%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontパッケージ</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +122,7 @@ ht-degree: 35%
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 
-## アクセス要件（これは、新機能が 2023/2025 パッケージにのみ存在する例です）
+## アクセス要件（これは、新機能が2023/2025 パッケージにのみ存在する例です）
 
 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -147,9 +148,9 @@ ht-degree: 35%
   </tr>
 </table>
 
-この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-## アクセス要件（他の製品が必要な場合の例）
+## アクセス要件（この例では、他の製品が必要です）
 
 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -164,7 +165,7 @@ ht-degree: 35%
   <tr>
    <td>その他の製品
    </td>
-   <td> <p>Frame.io enterprise、AEM、Creative Cloud</p>
+   <td> <p>Frame.io Enterprise、AEM、Creative Cloud</p>
    </td>
   </tr>
    <tr>
@@ -175,32 +176,32 @@ ht-degree: 35%
   </tr>
 </table>
 
-この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 
 ## 2017 パッケージは、パッケージの行から削除する必要があります
 
-2017 パッケージ
-ライセンス：レビュー、ワーク、プランナー
+2017年パッケージ
+ライセンス：レビュー、作業、プランナー
 パッケージ：チーム、プロ、ビジネス、エンタープライズ
 
-2023 パッケージ
+2023年パッケージ
 ライセンス：コントリビューター、ライト、スタンダード
-パッケージ：select、prime、ultimate
+パッケージ：select, prime, ultimate
 
-2025 ワークフローパッケージ
+2025年のワークフローパッケージ
 ライセンス：コントリビューター、ライト、スタンダード
-パッケージ：ワークフロー選択、ワークフロープライム、ワークフロー究極
+パッケージ：workflow select, workflow prime, workflow ultimate
 
-2025 年計画パッケージ
+2025年計画パッケージ
 ライセンス：コントリビューター、ライト、スタンダード
-パッケージ：選択の計画、プライムの計画、最終的な計画
+パッケージ：planning select、planning prime、planning ultimate
 
 
 
 
 
-## ほとんどのWorkfront Planning のアクセス要件
+## Workfront Planningの大部分のアクセス要件
 
 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -221,11 +222,11 @@ ht-degree: 35%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のAdobe Workfront ワークフローパッケージと任意のAdobe Workfront Planning パッケージ</p> 
+<p>Adobe WorkfrontのワークフローパッケージとAdobe Workfrontプランニングパッケージ</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront Platform （**&#x200B;**&#x200B;これを呼び出すか、下部にリンクされている記事の一部にしますか？??**&#x200B;***）</p></td> 
+<td role="rowheader"><p>Adobe Workfront platform （**&#x200B;**&#x200B;これを呼び出すか、下部のリンクされた記事の一部にするか？??**&#x200B;***）</p></td> 
    <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
+<p>Workfront Planningにアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experienceにオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -236,7 +237,7 @@ ht-degree: 35%
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
    <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
 </td> 
   </tr> 
@@ -248,16 +249,16 @@ ht-degree: 35%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 
 
 
-## ほとんどのシナリオプランナーに関するアクセス要件
+## ほとんどのScenario Plannerのアクセス要件
 
 >[!NOTE]
 >
->過去に会社がAdobe Scenario Planner を購入したことがある場合は、新しいバージョンに変更されています。 シナリオプランナーは購入できなくなりました。
+>過去にAdobe Scenario Plannerを導入したことがある企業であれば、その導入はスムーズに行うことができます。 シナリオプランナーは購入できなくなりました。
 
 
 展開すると、この記事の機能のアクセス要件が表示されます。
@@ -269,12 +270,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 <td> <p>[!DNL Adobe Workfront] パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate</p>
+   <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
-   <td> <p>ライト以上</p> 
+   <td> <p>明るいまたはそれ以上</p> 
    または
    <p>[!UICONTROL Review] 以降</p> </td> 
   </tr>
@@ -289,5 +290,5 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
  </tbody> 
 </table>
 
-詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 

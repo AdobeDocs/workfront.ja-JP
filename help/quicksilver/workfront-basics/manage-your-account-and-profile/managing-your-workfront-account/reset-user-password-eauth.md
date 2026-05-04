@@ -2,15 +2,14 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 拡張認証を使用したユーザーのパスワードのリセット
-description: ' [!DNL Workfront] 環境に対して拡張認証（eAuth）が有効になっている場合、 [!DNL Workfront] 管理者は、別のユーザーのログイン資格情報をリセットできません。これは、eAuth のない  [!DNL Workfront] 環境、またはシングルサインオン（SSO）が有効になっている環境とは異なります。'
+description: ' [!DNL Workfront] 環境に対して拡張認証（eAuth）が有効になっている場合、 [!DNL Workfront] 管理者は、別のユーザーのログイン資格情報をリセットできません。 これは、eAuth のない  [!DNL Workfront] 環境、またはシングルサインオン（SSO）が有効になっている環境とは異なります。'
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '200'
 ht-degree: 95%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 95%
 
 <!--This article has been hidden by request-->
 
-[!DNL Workfront] 環境に対して拡張認証（eAuth）が有効になっている場合、[!DNL Workfront] 管理者は、別のユーザーのログイン資格情報をリセットできません。これは、[!DNL Workfront] eAuth のない環境、またはシングルサインオン（SSO）が有効になっている環境とは異なります。
+[!DNL Workfront] 環境に対して拡張認証（eAuth）が有効になっている場合、[!DNL Workfront] 管理者は、別のユーザーのログイン資格情報をリセットできません。 これは、[!DNL Workfront] eAuth のない環境、またはシングルサインオン（SSO）が有効になっている環境とは異なります。
 
 ## アクセス要件
 
@@ -51,12 +50,12 @@ ht-degree: 95%
 {{step-1-to-users}}
 
 1. パスワードのリセットが必要な&#x200B;**[!UICONTROL ユーザー]**&#x200B;を選択します。
-   ![&#x200B; ユーザーの選択 &#x200B;](assets/100520classicnweselectuser-350x105.png)
+   ![&#x200B; ユーザーを選択](assets/100520classicnweselectuser-350x105.png)
 
 1. 目的の&#x200B;**[!UICONTROL ユーザー]**&#x200B;を選択した後に表示される「**[!UICONTROL その他]」ボタン**&#x200B;をクリックし、ドロップダウンメニューから「**[!UICONTROL パスワードを忘れた場合の E メールの送信]**」オプションを選択します。
 
-   ![&#x200B; パスワードを忘れた場合の E メールの送信 &#x200B;](assets/100520classicnwesendemail-350x134.png)
+   ![&#x200B; パスワードを忘れた電子メールを送信](assets/100520classicnwesendemail-350x134.png)
 
 「**[!UICONTROL パスワードを忘れた場合の E メールの送信]**」オプションを選択すると、選択したユーザーに、自身のパスワードを変更する手順が記載されたメールが送信されます。
 
-![E メールをリセット &#x200B;](assets/pwresetemail-resized-350x461.png)
+![電子メールのリセット &#x200B;](assets/pwresetemail-resized-350x461.png)
