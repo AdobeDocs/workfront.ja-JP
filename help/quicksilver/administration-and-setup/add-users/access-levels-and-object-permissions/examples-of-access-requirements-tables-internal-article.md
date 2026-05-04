@@ -260,7 +260,7 @@ And
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 ## Workfront Planningの一元化されたレコードタイプのアクセス要件
 
@@ -299,7 +299,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 
 ## ほとんどのScenario Plannerのアクセス要件
@@ -438,7 +438,7 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
 * Workflow Prime以降
 * Workfront Prime以降
 
-パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ ](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
+パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ &#x200B;](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 高度なエンタープライズ制御：
 
