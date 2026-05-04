@@ -34,7 +34,7 @@ ht-degree: 3%
 * リクエストパスとリクエストフォームは、最近使用した領域と以下の大きなリストの両方に、別々のセクションにリストされています。
 * リクエストキューを検索すると、リストはフィルターを使用して、検索語を含むフォームとパスのみを表示します。 検索キーワードは、表示されている各リクエストフォームまたはパスで強調表示されます。
 
-リクエストの作成について詳しくは、[ リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+リクエストの作成について詳しくは、[&#x200B; リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
 ## 既存の実績時間フィールドを従来の実績時間フィールドに置き換え、新しい実績時間フィールドを作成しました
 
@@ -71,7 +71,7 @@ ht-degree: 3%
 >* 実稼動高速リリース：次のAPI バージョンで、2025年後半に予定されています
 >* すべての顧客に対する実稼動：次のAPI バージョン（2025年後半に予定）
 >
->API バージョンについて詳しくは、[API バージョン管理とサポートスケジュール ](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
+>API バージョンについて詳しくは、[API バージョン管理とサポートスケジュール &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
 このアップデートでは、プロジェクト、タスク、イシューの実際の時間数がデータベースに保存される方法が変更されました。 この更新から、実際の時間数は値フィールド `actualWorkRequiredDouble` （時間単位の値）を使用します。
 
@@ -99,7 +99,7 @@ ht-degree: 3%
 
 Workfrontの他の領域のタスクと問題の完了率を更新するために導入されたその他の変更はありません。
 
-詳しくは、[ タスクの完了率の表示と更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)を参照してください。
+詳しくは、[&#x200B; タスクの完了率の表示と更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)を参照してください。
 
 ## プロジェクト、タスク、イシューでAI アシスタントを使用する際の透明性の向上
 
