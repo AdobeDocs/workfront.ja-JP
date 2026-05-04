@@ -7,11 +7,10 @@ description: ドキュメントおよびプルーフを  [!DNL Adobe Workfront p
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
-hidefromtoc: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '247'
 ht-degree: 98%
 
 ---
@@ -35,7 +34,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->複数のファイルを生成する必要がある場合は、代わりにプルーフを作成できます。新規プルーフは元のドキュメントには関連付けられません。
+>複数のファイルを生成する必要がある場合は、代わりにプルーフを作成できます。 新規プルーフは元のドキュメントには関連付けられません。
 
 
 
@@ -43,7 +42,7 @@ ht-degree: 98%
 
 1. **書き出しファイル設定を指定**&#x200B;ダイアログボックスを開きます。
 
-   ![&#x200B; ファイル書き出し設定 &#x200B;](assets/file-export-settings.png)
+   ![ ファイル書き出し設定](assets/file-export-settings.png)
 
 1. 書き出すアセットタイプを見つけ、以下のように設定を調整します。
 

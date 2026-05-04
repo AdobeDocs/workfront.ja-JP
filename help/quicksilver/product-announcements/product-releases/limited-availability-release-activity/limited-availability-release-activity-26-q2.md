@@ -7,13 +7,12 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '372'
 ht-degree: 5%
 
 ---
@@ -24,7 +23,7 @@ ht-degree: 5%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront向けにリリースされたすべての制限付き機能の一覧については、[Adobe Workfront制限付き機能リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)を参照してください。
+Adobe Workfront向けにリリースされたすべての制限付き機能の一覧については、[Adobe Workfront制限付き機能リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)を参照してください。
 
 ## 制限付き機能のリリースノート
 
