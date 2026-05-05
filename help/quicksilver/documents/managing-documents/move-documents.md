@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 59%
@@ -70,8 +70,8 @@ ht-degree: 59%
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **移動** アイコン ![移動アイコン &#x200B;](assets/move-document--25x19.png)をクリックします。
-   ![&#x200B; ページ上のアイコンの場所を移動](assets/move-doc-legacy.png)
+1. **移動** アイコン ![移動アイコン ](assets/move-document--25x19.png)をクリックします。
+   ![ ページ上のアイコンの場所を移動](assets/move-doc-legacy.png)
 
 1. 表示されるボックスのドロップダウンメニューから、「**イシュー**」、「**プロジェクト**」または「**タスク**」をクリックして、ドキュメントを移動するオブジェクトの種類を指定します。 
 
@@ -87,7 +87,7 @@ ht-degree: 59%
 
 ## 新規ドキュメント領域でのドキュメントの移動
 
-組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しい「ドキュメント」領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ドキュメントを移動するには：
 
@@ -95,7 +95,7 @@ ht-degree: 59%
 1. 必要なドキュメントを見つけます。
 1. ページ下部の「**移動**」をクリックします。
 
-![&#x200B; ページ上のアイコンの場所を移動](assets/move-new-doc.png)
+![ ページ上のアイコンの場所を移動](assets/move-new-doc.png)
 
 1. 表示されるボックスのドロップダウンメニューから、「**イシュー**」、「**プロジェクト**」または「**タスク**」をクリックして、ドキュメントを移動するオブジェクトの種類を指定します。
 

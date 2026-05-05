@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 65%
@@ -66,7 +66,7 @@ ht-degree: 65%
 1. ドキュメントを含むオブジェクトに移動し、左パネルの「**ドキュメント**」を選択します。
 1. 必要なドキュメントを検索し、次のいずれかの操作を行います。
 
-   * リスト内のドキュメントをクリックし、右上隅にある&#x200B;**概要を開く** アイコン ![概要を開くアイコン &#x200B;](assets/qs-summary-in-new-toolbar-small.png)をクリックしてから新しいコメントを追加するか、**返信**&#x200B;をクリックして既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
+   * リスト内のドキュメントをクリックし、右上隅にある&#x200B;**概要を開く** アイコン ![概要を開くアイコン ](assets/qs-summary-in-new-toolbar-small.png)をクリックしてから新しいコメントを追加するか、**返信**&#x200B;をクリックして既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
    * ドキュメントの上にマウスポインタを合わせて、**ドキュメントの詳細**&#x200B;をクリックし、左パネルの「**更新**」をクリックします。
 オブジェクトへの更新の追加について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
@@ -86,9 +86,9 @@ ht-degree: 65%
 
 ## 新規ドキュメント領域のドキュメントに更新を追加する
 
-組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しい「ドキュメント」領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 1. ドキュメントを含むオブジェクトに移動し、左パネルの「**ドキュメント**」を選択します。
-1. 必要なドキュメントを検索し、コメントアイコン ![&#x200B; コメントアイコン &#x200B;](assets/new-doc-comment-icon.png)をクリックしてコメントパネルを開きます。
-1. テキストボックスにコメントを入力し、**送信**&#x200B;をクリックします。
-   ![新しい文書コメントパネル &#x200B;](assets/comments-new-doc.png)
+1. 必要なドキュメントを検索し、コメントアイコン ![ コメントアイコン ](assets/new-doc-comment-icon.png)をクリックしてコメントパネルを開きます。
+1. テキストボックスにコメントを入力し、**送信**をクリックします。
+   ![新しい文書コメントパネル ](assets/comments-new-doc.png)

@@ -6,7 +6,7 @@ description: Workfront Fusionを使用してプロジェクトを作成し、プ
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 21%
@@ -83,7 +83,7 @@ Workfront Fusionで、Adobe Experience Manager ワークフローを含むプロ
 1. シナリオに&#x200B;**Workfront** > **Misc Action** モジュールを追加します。
 1. 「**Connection**」フィールドで、このモジュールが使用するアカウントに接続するWorkfront接続を選択します。
 
-   接続の作成手順については、Workfront モジュールの「[Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)」を参照してください。
+   接続の作成手順については、Workfront モジュールの「[Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)」を参照してください。
 
    接続を作成する必要があるクライアント IDとクライアントシークレットの作成手順については、この記事の「[OAuth アプリケーションの作成](#create-an-oauth-application)」を参照してください。
 
@@ -105,7 +105,7 @@ Workfront Fusionで、Adobe Experience Manager ワークフローを含むプロ
 
 1. `Folder tree ID here`をフォルダーIDに置き換えます。
 
-   フォルダーツリーIDを見つけるには、この記事の「[&#x200B; フォルダーツリーIDを見つける](#locate-folder-tree-ids)」を参照してください。
+   フォルダーツリーIDを見つけるには、この記事の「[ フォルダーツリーIDを見つける](#locate-folder-tree-ids)」を参照してください。
 
    複数のフォルダーツリーを使用するには、IDをコンマで区切ります。
 
@@ -131,7 +131,7 @@ Workfront Fusionで、Adobe Experience Manager ワークフローを含むプロ
 1. 「**フィルター**」ボックスに「`object-workflow`」と入力します。
 1. 「名前」列で、表示される英数字IDをクリックします。
 
-   ![&#x200B; フォルダーID 1](assets/finding-folder-id-1.png)を検索しています
+   ![ フォルダーID 1](assets/finding-folder-id-1.png)を検索しています
 
 1. 英数字IDの右側にある「**プレビュー**」タブをクリックします。
 1. 次の折りたたまれたセクションを開きます。
@@ -145,17 +145,17 @@ Workfront Fusionで、Adobe Experience Manager ワークフローを含むプロ
 
 1. 新しいプロジェクトに使用するフォルダーツリーを開きます。 `_id` フィールド値をメモします。 複数のフォルダーツリーを使用する場合は、使用するフォルダーツリーのすべての`_id` フィールド値をメモします。
 
-   ![&#x200B; フォルダーID 2](assets/finding-folder-id-2.png)を検索しています
+   ![ フォルダーID 2](assets/finding-folder-id-2.png)を検索しています
 
    これらは、**Workfront** > **その他のアクション** Fusion モジュールの&#x200B;**プロジェクト（詳細コレクション）** フィールドに入力する`aemNativeFolderTreeIDs`値です。
 
-## Create an OAuth application
+## OAuth アプリケーションの作成
 
-You must set up an OAuth application in Workfront for this module&#39;s connection. You only need to do this once for a given Workfront connection in Fusion.
+このモジュールの接続用にWorkfrontでOAuth アプリケーションを設定する必要があります。 これは、Fusionの特定のWorkfront接続に対して1回だけ実行する必要があります。
 
-1. In Workfront, begin creating an OAuth application, as described in [Create an OAuth2 application using user credentials (Authorization code flow)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) in the article Create OAuth2 applications for [!DNL Workfront] integrations.
-1. Copy the Client ID and Client Secret to a secure location.
-1. In the **Redirect URIs** field, enter the following:
+1. Workfrontで、OAuth アプリケーションの作成を開始します。「[!DNL Workfront]統合のOAuth2 アプリケーションの作成」の記事の「[ ユーザー資格情報（認証コードフロー） ](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow)を使用してOAuth2 アプリケーションを作成する」で説明されています。
+1. クライアント IDとクライアントシークレットを安全な場所にコピーします。
+1. 「**リダイレクト URI**」フィールドに、次のように入力します。
 
    ```
    http://app.workfrontfusion.com/oauth/cb/workfront-workfront
@@ -163,6 +163,6 @@ You must set up an OAuth application in Workfront for this module&#39;s connecti
 
 1. 「**保存**」をクリックします。
 
-You will use this Client ID and Client secret when configuring the module&#39;s connection in Fusion.
+Fusionでモジュールの接続を設定する際には、このクライアント IDとクライアント秘密鍵を使用します。
 
-接続の作成手順については、Workfront モジュールの「[Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)」を参照してください。
+接続の作成手順については、Workfront モジュールの「[Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)」を参照してください。
