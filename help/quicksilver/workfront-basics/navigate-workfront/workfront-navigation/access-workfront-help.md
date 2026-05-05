@@ -24,7 +24,7 @@ ht-degree: 81%
 * Workfront チュートリアル：詳しくは、[[!DNL Workfront] チュートリアル](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)を参照してください。
 
 * [!UICONTROL イノベーションラボ]：詳しくは、[[!UICONTROL イノベーションラボ]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=ja)を参照してください。
-* [!UICONTROL [!DNL Workfront] コミュニティ ]：詳しくは、[The [!UICONTROL [!DNL Adobe Workfront]  コミュニティ ]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja)を参照してください。
+* [!UICONTROL [!DNL Workfront] コミュニティ &#x200B;]：詳しくは、[The [!UICONTROL [!DNL Adobe Workfront]  コミュニティ &#x200B;]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja)を参照してください。
 
 ## [!DNL Workfront] 内部からのヘルプへのアクセス
 

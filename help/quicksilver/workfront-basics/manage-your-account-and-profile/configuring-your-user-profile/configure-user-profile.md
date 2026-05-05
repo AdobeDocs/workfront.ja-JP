@@ -36,4 +36,4 @@ ht-degree: 47%
 この節では、次の記事を扱います。
 
 * [[!UICONTROL 個人設定]を指定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-* [ [!DNL Adobe Workfront] で個人の休暇を設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+* [&#x200B; [!DNL Adobe Workfront] で個人の休暇を設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
