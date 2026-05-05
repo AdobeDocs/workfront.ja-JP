@@ -8,7 +8,7 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fee6b71eeb0ca79703a2a9e29a14040b91cb7387
+source-git-commit: da46d6784350c8394330799fe2177e82d3519041
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 54%
@@ -35,15 +35,18 @@ ht-degree: 54%
 
 >[!CAUTION]
 >
->   多数の子オブジェクトで使用されている場合、継承された権限が正しく適用されない場合があります。
+>多数の子オブジェクトで使用されている場合、継承された権限が正しく適用されない場合があります。
 >   
->   継承された権限の問題を回避するには、次をお勧めします。
+>継承された権限の問題を回避するには、次をお勧めします。
 >
->   * 1つの親（ポートフォリオまたはプログラム）の下にある子オブジェクト（プロジェクト）の数を制限します。 1つのポートフォリオまたはプログラムにつき、10,000件を超えるプロジェクトは推奨しません。
->   * 下位レベルのオブジェクトに権限を適用することで、継承の深さを減らします。
+>* 1つの親（ポートフォリオまたはプログラム）の下にある子オブジェクト（プロジェクト）の数を制限します。 1つのポートフォリオまたはプログラムにつき、10,000件を超えるプロジェクトは推奨しません。
 >
->     例えば、ポートフォリオからプログラムに、そしてプロジェクトに継承された権限に依存するのではなく、プロジェクトレベルで直接権限を適用できます。
->   * プログラムを分割してプロジェクトの数を減らし、権限の複雑性を低減します。
+>* 下位レベルのオブジェクトに権限を適用することで、継承の深さを減らします。
+>
+>  例えば、ポートフォリオからプログラムに、そしてプロジェクトに継承された権限に依存するのではなく、プロジェクトレベルで直接権限を適用できます。
+>
+>* プログラムを分割してプロジェクトの数を減らし、権限の複雑性を低減します。
+>
 
 
 ## アクセス要件
@@ -75,7 +78,7 @@ ht-degree: 54%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -112,13 +115,13 @@ Old:
 
 1. ポートフォリオに移動し、左側のパネルで「**[!UICONTROL プロジェクト]**」をクリックします。
 
-   ![&#x200B; プロジェクトを含むPortfolio](assets/qs-portfolio-with-projects-350x90.png)
+   ![ プロジェクトを含むPortfolio](assets/qs-portfolio-with-projects-350x90.png)
 
 1. 「**[!UICONTROL 新規プロジェクト]**」をクリックして、プロジェクトを追加する方法を選択します。
 
    >[!TIP]
    >
-   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
+   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -149,7 +152,7 @@ Old:
     </tbody> 
    </table>
 
-   ![新規プロジェクトのドロップダウン &#x200B;](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![新規プロジェクトのドロップダウン ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. （条件付き）既存のプロジェクトを追加することを選択した場合、「**プロジェクトを追加**」ボックスが開きます。<!--check this after UI changes-->
 

@@ -2,16 +2,16 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: プロジェクトテンプレートの作成
-description: テンプレートエリアからテンプレートを作成および削除できます。新しいテンプレートを作成するときは、すべてのタスクと、将来のプロジェクト設定についての情報を入力できます。この情報は、テンプレートから作成するプロジェクトに転送されます。
+description: テンプレートエリアからテンプレートを作成および削除できます。 新しいテンプレートを作成するときは、すべてのタスクと、将来のプロジェクト設定についての情報を入力できます。 この情報は、テンプレートから作成するプロジェクトに転送されます。
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: d1173e35a2455610474664f93159b97a54957488
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 54%
+source-wordcount: '901'
+ht-degree: 44%
 
 ---
 
@@ -31,11 +31,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-テンプレートエリアからテンプレートを作成および削除できます。新しいテンプレートを作成するときは、すべてのタスクと、将来のプロジェクト設定についての情報を入力できます。この情報は、テンプレートから作成するプロジェクトに転送されます。
+テンプレートエリアからテンプレートを作成および削除できます。 新しいテンプレートを作成するときは、すべてのタスクと、将来のプロジェクト設定についての情報を入力できます。 この情報は、テンプレートから作成するプロジェクトに転送されます。
 
 >[!NOTE]
 >
->テンプレートとそのタスクには実際の日付はありませんが、タスクが開始される可能性がある日（将来のプロジェクトが開始される可能性がある日）と、タスクを完了する必要がある可能性の日を示します。テンプレートを使用して将来のプロジェクトを作成する場合、プロジェクトは実際の日付を受け取ります。詳しくは、[プロジェクトの作成](../create-projects/create-project.md)を参照してください。
+>テンプレートとそのタスクには実際の日付はありませんが、タスクが開始される可能性がある日（将来のプロジェクトが開始される可能性がある日）と、タスクを完了する必要がある可能性の日を示します。 テンプレートを使用して将来のプロジェクトを作成する場合、プロジェクトは実際の日付を受け取ります。 詳しくは、[プロジェクトの作成](../create-projects/create-project.md)を参照してください。
 
 
 次の方法で新しいテンプレートを作成できます。
@@ -49,7 +49,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   既存のテンプレートのコピーについて詳しくは、[プロジェクトテンプレートをコピー](../../../manage-work/projects/create-and-manage-templates/copy-template.md)を参照してください。
 
-* ブループリントを読み込む。ブループリントを読み込むには、Workfront の管理者である必要があります。詳しくは、[ブループリントの設定](../../../administration-and-setup/blueprints/configure-template-package.md)を参照してください。
+* ブループリントを読み込む。 ブループリントを読み込むには、Workfront の管理者である必要があります。 詳しくは、[ブループリントの設定](../../../administration-and-setup/blueprints/configure-template-package.md)を参照してください。
 
 ## アクセス要件
 
@@ -114,7 +114,26 @@ Old:
 
 1. 「**新規テンプレート**」をクリックします。
 
-   テンプレートは名称未設定です。
+1. （条件付き）組織が使用しているドキュメントストレージに応じて、次のいずれかをクリックします。
+
+   * **新しいテンプレート**。Workfront管理者が&#x200B;**Adobe Enterprise**&#x200B;または&#x200B;**レガシーWorkfront**&#x200B;のいずれかを選択し、**ユーザーがストレージプロバイダー**&#x200B;を選択することを許可する設定を選択したか、選択しなかった場合。
+   * **新しいテンプレート（レガシーストレージ）**。Workfront管理者が&#x200B;**Adobe Enterprise**&#x200B;または&#x200B;**レガシーWorkfront**&#x200B;のいずれかを選択し、**ユーザーがストレージプロバイダー**&#x200B;を選択することを許可する設定も選択した場合。
+
+     このオプションは、**ユーザーがストレージ プロバイダー**&#x200B;を選択することを許可する設定がセットアップ エリアで選択されている場合にのみ表示されます。
+
+     詳しくは、[組織でAdobe エンタープライズ ストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)を参照してください。
+
+     テンプレートが作成され、そのデフォルト名は、Workfrontがドキュメントに使用するストレージに応じて、次のパターンに従います。
+
+      * Workfront ストレージテンプレート用の&#x200B;**名称未設定テンプレート**。
+
+        Workfront-storage テンプレートの名前の横に&#x200B;**従来のWorkfront storage** アイコン ![従来のストレージプロジェクト アイコン ](assets/legacy-storage-project-icon.png)が表示されます。
+
+      * **名称未設定のテンプレート - Adobe-storage テンプレートの&lt;月の日、年の時間。分。秒>**
+
+        >[!IMPORTANT]
+        >
+        >Adobe ストレージを使用するテンプレートには、一意の名前を付ける必要があります。
 
    ![新規テンプレート](assets/create-template-nwe-2022-350x102.png)
 
@@ -128,7 +147,7 @@ Old:
 
    **新しいテンプレート タスク**&#x200B;をクリックすると、**テンプレート タスクを作成** ボックスが新しいエクスペリエンスで開きます。
 
-   ![新しいテンプレート タスクの新しいエクスペリエンス &#x200B;](assets/new-template-task-box-unshimmed.png)
+   ![新しいテンプレート タスクの新しいエクスペリエンス ](assets/new-template-task-box-unshimmed.png)
 
 1. （条件付き）新しいエクスペリエンスを使用して、**テンプレート タスクを作成** ボックスの次の領域で情報を更新します。
 
@@ -148,7 +167,7 @@ Old:
 
    古いエクスペリエンスで&#x200B;**新しいテンプレート タスク**&#x200B;が開きます。
 
-   ![新しいテンプレート タスク ボックス &#x200B;](assets/new-template-task-box.png)
+   ![新しいテンプレート タスク ボックス ](assets/new-template-task-box.png)
 
    >[!TIP]
    >
@@ -163,7 +182,7 @@ Old:
    * カスタムフォーム
    * ドキュメントの添付
 
-     テンプレートタスクの情報の更新は、プロジェクトのタスクの編集に似ています。 詳しくは、[&#x200B; タスクの編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。<!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+     テンプレートタスクの情報の更新は、プロジェクトのタスクの編集に似ています。 詳しくは、[ タスクの編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。<!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
 
    >[!NOTE]
    >
@@ -180,7 +199,7 @@ Old:
    >
    >このガントチャートから直接タスクを編集することはできません。
 
-1. 新しいテンプレートに情報を追加するには、ヘッダーのテンプレート名の左側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
+1. 新しいテンプレートに情報を追加するには、ヘッダーのテンプレート名の左側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
 
    テンプレートの編集について詳しくは、[プロジェクトテンプレートの編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
 
@@ -188,7 +207,7 @@ Old:
    >
    >   プロジェクトテンプレートとグループとの関連付け（またはグループの欠如）は、プロジェクト、タスク、イシューの環境設定がテンプレート内の特定の設定を決定する方法に影響します。
    >
-   >詳細については、[&#x200B; グループのプロジェクトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)の記事の「テンプレートとテンプレートタスクに対する環境設定の適用方法」の節を参照してください。
+   >詳細については、[ グループのプロジェクトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)の記事の「テンプレートとテンプレートタスクに対する環境設定の適用方法」の節を参照してください。
 
 1. 「**保存**」をクリックします。
 1. （オプション）次の項目をテンプレートに追加します
@@ -207,7 +226,7 @@ Old:
    * 費用
    * 承認
 
-   詳しくは、[&#x200B; プロジェクトテンプレートを編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)の記事の「テンプレートにアイテムを追加する」の節を参照してください。
+   詳しくは、[ プロジェクトテンプレートを編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)の記事の「テンプレートにアイテムを追加する」の節を参照してください。
 
 
 

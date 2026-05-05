@@ -2,16 +2,16 @@
 product-area: projects
 navigation-topic: create-projects
 title: Microsoft Project からプロジェクトを読み込む
-description: Microsoft Project から Adobe Workfront にプロジェクトを読み込み、すべてのプロジェクトを 1 つのアプリケーションで管理できます。Microsoft Project からプロジェクトを読み込むたびに、Workfront に新しいプロジェクトが作成されます。
+description: Microsoft Project から Adobe Workfront にプロジェクトを読み込み、すべてのプロジェクトを 1 つのアプリケーションで管理できます。 Microsoft Project からプロジェクトを読み込むたびに、Workfront に新しいプロジェクトが作成されます。
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: da46d6784350c8394330799fe2177e82d3519041
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 61%
+source-wordcount: '550'
+ht-degree: 63%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 61%
 
 <!-- Audited: 10/2025 -->
 
-Microsoft Project から Adobe Workfront にプロジェクトを読み込み、すべてのプロジェクトを 1 つのアプリケーションで管理できます。Microsoft Project からプロジェクトを読み込むたびに、Workfront に新しいプロジェクトが作成されます。
+Microsoft Project から Adobe Workfront にプロジェクトを読み込み、すべてのプロジェクトを 1 つのアプリケーションで管理できます。 Microsoft Project からプロジェクトを読み込むたびに、Workfront に新しいプロジェクトが作成されます。
 
 >[!IMPORTANT]
 >
@@ -106,14 +106,14 @@ old permissions model:
 1. Workfront にログインします。
 1. 次のいずれかの操作を行います。
 
-   * 左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、またはAdobe Workfrontの右上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新しいプロジェクト**&#x200B;を展開します。
+   * 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新規プロジェクト**&#x200B;を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの&#x200B;**プロジェクト** セクションでプロジェクトを作成できます。 詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
 1. 「**MS プロジェクトの読み込み**」をクリックします。
 
-   ![新規プロジェクトのドロップダウン &#x200B;](assets/import-ms-project-option.png)
+   ![新規プロジェクトのドロップダウン ](assets/import-ms-project-option.png)
 
    「**MS ファイルを読み込み**」ボックスが開きます。
 
@@ -124,9 +124,9 @@ old permissions model:
 
    >[!NOTE]
    >
-   >Workfront では、ファイルのアップロードに 15 分の時間制限があります。ファイルのアップロードにそれ以上の時間がかかる場合は、プロジェクトを小さなプロジェクトに分割し、個別に読み込むことをお勧めします。タスクを Workfront に読み込みしたら、タスクを 1 つのプロジェクトから別のプロジェクトに移動して、1 つのプロジェクトに結合します。タスクの移動の詳細については、[タスクの移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。
+   >Workfront では、ファイルのアップロードに 15 分の時間制限があります。 ファイルのアップロードにそれ以上の時間がかかる場合は、プロジェクトを小さなプロジェクトに分割し、個別に読み込むことをお勧めします。 タスクを Workfront に読み込みしたら、タスクを 1 つのプロジェクトから別のプロジェクトに移動して、1 つのプロジェクトに結合します。 タスクの移動の詳細については、[タスクの移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。
 
-1. （オプション）Workfront でプロジェクトの編集を続けます。プロジェクトの編集の詳細については、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
+1. （オプション）Workfront でプロジェクトの編集を続けます。 プロジェクトの編集の詳細については、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
 
    >[!NOTE]
