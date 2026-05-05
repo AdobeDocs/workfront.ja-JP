@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1393'
 ht-degree: 66%
 
 ---
@@ -124,7 +124,7 @@ Old:
 
 1. 次のいずれかの操作を行います。
 
-   * 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新規プロジェクト**&#x200B;を展開します。
+   * 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新規プロジェクト**&#x200B;を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
 
      >[!TIP]
@@ -161,7 +161,7 @@ Old:
 
       * Workfrontストレージのテンプレート
 
-        Workfront ストレージテンプレートの名前の横には、レガシーストレージのアイコン ![&#x200B; レガシーストレージのアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
+        Workfront ストレージテンプレートの名前の横には、レガシーストレージのアイコン ![ レガシーストレージのアイコン ](assets/legacy-storage-project-icon.png)が表示されます。
 
         テンプレートと今後のプロジェクトに関するドキュメントは、Workfront ストレージに保存されます。
       * Adobe-storage テンプレート
@@ -176,9 +176,9 @@ Old:
       >
       >* Workfront ストレージのポートフォリオまたはプログラムからAdobe エンタープライズ ストレージ テンプレートを使用する場合、プロジェクトはAdobe エンタープライズ ストレージ プロジェクトであり、ポートフォリオまたはプログラムもAdobe エンタープライズ ストレージ オブジェクトに変換されます。 同じポートフォリオまたはプログラム内の他のすべてのWorkfront ストレージプロジェクトは変更されません。
       >
-      > すべてのお客様が両方のタイプのドキュメント ストレージを持っているわけではありません。
+      > Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
       >
-      >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+      >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
    1. 右側の次のテンプレートの詳細を確認します。
 
@@ -188,7 +188,7 @@ Old:
       * テンプレート内のすべてのタスクの数
       * テンプレートのカスタムフォームの名前
 
-   1. （オプション）左側のパネルでテンプレート名の名前にカーソルを合わせ、**お気に入り** **アイコン** ![お気に入りアイコン &#x200B;](assets/favorites-icon-small.png)をクリックして、後で使用するためにお気に入りとしてマークします。
+   1. （オプション）左側のパネルでテンプレート名の名前にカーソルを合わせ、**お気に入り** **アイコン** ![お気に入りアイコン ](assets/favorites-icon-small.png)をクリックして、後で使用するためにお気に入りとしてマークします。
 
       または
 
@@ -234,14 +234,14 @@ Old:
 
 >[!NOTE]
 >
->Workfront ドキュメントストレージに関連付けられたテンプレートは、従来のWorkfront ストレージプロジェクトを作成します。 Adobe エンタープライズドキュメントストレージに関連付けられたテンプレートにより、Adobe ストレージのプロジェクトが作成されます。 すべての顧客が両方のタイプのストレージを持っているわけではありません。
+>Workfront ドキュメントストレージに関連付けられたテンプレートは、従来のWorkfront ストレージプロジェクトを作成します。 Adobe エンタープライズドキュメントストレージに関連付けられたテンプレートにより、Adobe ストレージのプロジェクトが作成されます。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
 >
->詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+>詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 {{step1-to-templates}}
 
 1. 使用するテンプレートの名前をクリックします。
-1. ヘッダーのテンプレート名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、「**プロジェクトを作成**」をクリックします。
+1. ヘッダーのテンプレート名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、「**プロジェクトを作成**」をクリックします。
 
    ![テンプレートからプロジェクトを作成](assets/project-sharing-on-template.png)
 
