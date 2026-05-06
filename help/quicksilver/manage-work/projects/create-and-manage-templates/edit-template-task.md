@@ -3,15 +3,15 @@ product-area: templates
 keywords: タスク,デフォルト,自動化,作成
 navigation-topic: templates-navigation-topic
 title: テンプレート タスクの編集
-description: テンプレートを作成した後、テンプレートタスクに関する情報を編集できます。テンプレートタスクで更新した情報は、テンプレートを使用してプロジェクトを作成した後、またはテンプレートをプロジェクトに添付した後、プロジェクトタスクに関連付けられます。
+description: テンプレートを作成した後、テンプレートタスクに関する情報を編集できます。 テンプレートタスクで更新した情報は、テンプレートを使用してプロジェクトを作成した後、またはテンプレートをプロジェクトに添付した後、プロジェクトタスクに関連付けられます。
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3062'
 ht-degree: 67%
 
 ---
@@ -40,7 +40,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 >[!NOTE]
 >
->異なるテンプレートに属するテンプレートタスクは、一括編集できません。同じテンプレートに属するテンプレートタスクのみ編集できます。
+>異なるテンプレートに属するテンプレートタスクは、一括編集できません。 同じテンプレートに属するテンプレートタスクのみ編集できます。
 
 ## アクセス要件
 
@@ -118,18 +118,24 @@ Old:
 {{step1-to-templates}}
 
 1. テンプレートの名前をクリックして開きます。
-1. 左パネルの「**テンプレートタスク**」をクリックします。
+1. 左側のパネルの「**テンプレートタスク**」をクリックします。
 1. リスト内のテンプレートタスクの名前をクリックして、テンプレートタスクを開きます。
 1. テンプレートタスクに関する制限付き情報を編集するには、次の操作を行います。
    1. （オプション）左側のパネルで「**更新**」をクリックして、テンプレートタスクに更新を追加します。 テンプレートを使用してプロジェクトを作成する場合、テンプレートタスクの更新はプロジェクトタスクに転送されません。
    1. （オプション）左側のパネルで「**ドキュメント**」をクリックして、テンプレートタスクにドキュメントを追加します。 テンプレートを使用してプロジェクトを作成すると、ドキュメントはプロジェクトタスクに転送されます。
+
+      >[!TIP]
+      >
+      >テンプレートタスクへのドキュメントの追加は、組織がWorkfrontまたはAdobe ストレージを使用してドキュメントを保存するかどうかに応じて異なります。 詳しくは、「[&#x200B; ファイルシステムからAdobe Workfrontにドキュメントを追加する](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)」を参照してください。
+
    1. （条件付き）テンプレートタスクに関する限られた情報を編集するには、左パネルで「**テンプレートタスクの詳細**」をクリックし、詳細セクションのエリアに移動して、それぞれのエリアの情報を編集します。
    1. （オプション）次のいずれかの操作を行います。
       * **すべてを折りたたむ** アイコン ![すべてを折りたたむアイコン &#x200B;](assets/collapse-all-icon.png)をクリックして、すべての領域を折りたたみます。
       * **編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックしてから、以下のいずれかの領域から選択するか、**すべてを編集**&#x200B;をクリックしてすべての領域の情報を編集します。
 
+
          * 概要
-         * カスタム Forms
+         * カスタムフォーム
 カスタムフォームの名前は、テンプレートタスクにカスタムフォームが添付されている場合にのみ表示されます。
          * 財務
 
@@ -144,7 +150,7 @@ Old:
 
 1. （条件付き）テンプレートタスクまたは複数のタスクに関するすべての情報を同時に編集するには、クリックしてリストから選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
-   「**テンプレートタスクの編集**」ボックスが表示されます。
+   「**テンプレートタスクを編集**」ボックスが表示されます。
 
    ![&#x200B; テンプレート編集タスクの新しいエクスペリエンス &#x200B;](assets/edit-template-task-box-unshimmed.png)
 
@@ -208,23 +214,23 @@ Old:
         <li> <p> <b>標準</b></p> </li> 
         <li> <p><b>高</b> </p> </li> 
         <li> <p><b>緊急</b> </p> </li> 
-       </ul> <p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。優先度の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先度の作成およびカスタマイズ</a>を参照してください。</p> </td> 
+       </ul> <p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。 優先順位の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先順位を作成およびカスタマイズ</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>タスクの制約</strong> </td> 
-      <td> <p>このテンプレートから作成されたプロジェクトのタスクには、この制約が適用されます。タスク制約は、タスクを完了する必要があるタイミングを識別します。 </p> <p>次のオプションから選択します。</p> 
+      <td> <p>このテンプレートから作成されたプロジェクトのタスクには、この制約が適用されます。 タスク制約は、タスクを完了する必要があるタイミングを識別します。 </p> <p>次のオプションから選択します。</p> 
        <ul> 
-        <li><strong>固定日付</strong>：<strong>予定開始日</strong>および<strong>予定完了日</strong>を指定します。</li> 
-        <li><strong>指定日に開始</strong>：<strong>予定開始日</strong>を指定します。</li> 
-        <li><strong>指定日に終了</strong>：<strong>予定完了日</strong>を指定します。</li> 
+        <li><strong>固定日付</strong>： <strong>予定開始日</strong>および<strong>予定完了日</strong>を指定します。</li> 
+        <li><strong>指定日に開始</strong>： <strong>予定開始日</strong>を指定します。</li> 
+        <li><strong>指定日に終了</strong>： <strong>予定完了日</strong>を指定します。</li> 
         <li><strong>できるだけ早く</strong> </li> 
         <li><strong>できるだけ遅く</strong> </li> 
         <li style="font-weight: bold;"><strong>最も早い空き時間</strong> </li> 
         <li style="font-weight: bold;"><strong>最も遅い空き時間</strong> </li> 
-        <li>指定日までに開始：<strong>予定開始日</strong>を指定します。</li> 
-        <li><strong>指定日以後に開始</strong>：<strong>予定開始日</strong>を指定します。</li> 
-        <li><strong>これよりも遅く終了しない</strong>：<strong>予定完了日</strong>を指定します。</li> 
-        <li><strong>これよりも早く終了しない</strong>：<strong>予定完了日</strong>を指定します。</li> 
+        <li>指定日までに開始： <strong>予定開始日</strong>を指定します。</li> 
+        <li><strong>指定日以後に開始</strong>： <strong>予定開始日</strong>を指定します。</li> 
+        <li><strong>これよりも遅く終了しない</strong>： <strong>予定完了日</strong>を指定します。</li> 
+        <li><strong>これよりも早く終了しない</strong>： <strong>予定完了日</strong>を指定します。</li> 
        </ul> <p>タスクの制約について詳しくは、<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスクの制約の概要</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
@@ -235,7 +241,7 @@ Old:
         <li>指定日以降に開始</li> 
         <li>指定日までに開始</li> 
         <li>固定日付</li> 
-       </ul> <p>タスクが開始される将来のプロジェクトのタイムライン内の日付に対応します。その他のすべての制約については、Workfront がタスク間の先行タスクの依存関係に基づいて開始日を計算します。 </p> </td> 
+       </ul> <p>タスクが開始される将来のプロジェクトのタイムライン内の日付に対応します。 その他のすべての制約については、Workfront がタスク間の先行タスクの依存関係に基づいて開始日を計算します。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>完了日</strong><span style="font-weight: normal;">（オプションおよび条件付き）</span> </td> 
@@ -245,7 +251,7 @@ Old:
         <li>これよりも早く終了しない</li> 
         <li>これよりも遅く終了しない</li> 
         <li>固定日付</li> 
-       </ul> <p>これは、タスクが終了される将来のプロジェクトのタイムライン内の日付に対応します。その他のすべての制約については、Workfront が期間と先行タスクの依存関係に基づいて完了日を計算します。 </p> </td> 
+       </ul> <p>これは、タスクが終了される将来のプロジェクトのタイムライン内の日付に対応します。 その他のすべての制約については、Workfront が期間と先行タスクの依存関係に基づいて完了日を計算します。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>URL</strong> </td> 
@@ -297,7 +303,7 @@ Old:
    <li> <p>タスクに割り当てられたリソースの数 </p> </li> 
    <li> <p>タスクの完了に必要な合計作業量 </p> </li> 
    <li> <p> タスクの合計期間。 </p> </li> 
-   </ul> <p>Workfront管理者またはグループ管理者は、システムまたはグループ内のタスクのデフォルトの期間タイプ設定を選択します。 プロジェクトのデフォルト設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref"> システム全体のタスクとイシューの環境設定の設定</a>を参照してください。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク継続期間と期間タイプの概要</a>を参照してください。 </p> <p>次のオプションから選択します。 </p> 
+   </ul> <p>Workfront管理者またはグループ管理者は、システムまたはグループ内のタスクのデフォルトの期間タイプ設定を選択します。 プロジェクトのデフォルト設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref"> システム全体のタスクとイシューの環境設定の設定</a>を参照してください。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。 タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク継続期間と期間タイプの概要</a>を参照してください。 </p> <p>次のオプションから選択します。 </p> 
    <ul> 
    <li> <p>予定割り当て時間 </p> </li> 
    <li> <p> 予定作業 </p> </li> 
@@ -307,7 +313,7 @@ Old:
    </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">発生ごとの所要時間</td> 
-   <td> <p>これは、定期タスクの親にのみ表示されます。タスクが作成された時点で定義された、各定期タスクの期間が表示されます。定期タスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">定期タスクの作成</a>を参照してください。 </p> <p> <b>メモ</b>
+   <td> <p>これは、定期タスクの親にのみ表示されます。 タスクが作成された時点で定義された、各定期タスクの期間が表示されます。 定期タスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">定期タスクの作成</a>を参照してください。 </p> <p> <b>メモ</b>
 
    個々の定期タスクで変更された期間には、このフィールドに示された値は表示されません。 </p> </td>
    </tr> 
@@ -378,9 +384,9 @@ Old:
 
    <p><b>メモ</b>
 
-   <p>経過時間は、タスクの期間の時間単位です。タスクの予定開始日から予定完了日までの時間で、休日、週末および休暇を含みます。つまり、経過時間はカレンダーの日数の経過です。
+   <p>経過時間は、タスクの期間の時間単位です。 タスクの予定開始日から予定完了日までの時間で、休日、週末および休暇を含みます。 つまり、経過時間はカレンダーの日数の経過です。
 
-   通常の時間は、休日、週末および休暇を考慮し、これらをタスクの期間から除外します。タスクの期間について詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。 </p>
+   通常の時間は、休日、週末および休暇を考慮し、これらをタスクの期間から除外します。 タスクの期間について詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間タイプの概要</a>を参照してください。 </p>
    </div> 
    </div> </td> 
    </tr> 
@@ -389,14 +395,14 @@ Old:
    <td> <p>タスクの予定時間数を時間単位で指定します。 これは、タスクの担当者が完了するのにかかる実際の時間です。 期間タイプが「計算済み割り当て」に設定されている場合にのみ、タスクの予定時間数を指定できます。 期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</p> 
    <b>メモ</b>
    <p>
-   繰り返しタスクを作成する場合、予定時間数はそれぞれの繰り返しタスクの時間です。親タスクの予定時間数は、すべてのタスクからのすべての予定時間数の合計です。繰り返しタスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクを作成</a>を参照してください。
+   繰り返しタスクを作成する場合、予定時間数はそれぞれの繰り返しタスクの時間です。 親タスクの予定時間数は、すべてのタスクからのすべての予定時間数の合計です。 繰り返しタスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクを作成</a>を参照してください。
    </p>
 
    </td> 
    </tr> 
    <tr> 
    <td role="rowheader">配分</td> 
-   <td> <p>タスクの制約事項が「予定作業」または「残存作業時間の優先」である場合は、それぞれの担当者の<strong>配分 ％</strong>（配分率）を指定します。これは、担当者がスケジュールからこのタスクに費やすことができる時間です。担当者の配分率を変更すると、タスクの予定時間数が変更されます。 </p> <p>タスクの制約事項が「シンプル」の場合は、以下の項目を指定することができます。</p> 
+   <td> <p>タスクの制約事項が「予定作業」または「残存作業時間の優先」である場合は、それぞれの担当者の<strong>配分 ％</strong>（配分率）を指定します。 これは、担当者がスケジュールからこのタスクに費やすことができる時間です。 担当者の配分率を変更すると、タスクの予定時間数が変更されます。 </p> <p>タスクの制約事項が「シンプル」の場合は、以下の項目を指定することができます。</p> 
    <ul> 
    <li> <p>それぞれの担当者の時間配分数。</p> </li> 
    <li> <p>タスクの予定時間数</p> </li> 
@@ -405,7 +411,7 @@ Old:
    </tr> 
    <tr> 
    <td role="rowheader">割り当て先の役割</td> 
-   <td> <p>個人を担当者として選択した場合は、「<strong>担当者の役割</strong>」ドロップダウンメニューから役割を選択します。これは、担当者がこのタスクで果たすことができる役割です。 </p> <p><b>ヒント</b>
+   <td> <p>個人を担当者として選択した場合は、「<strong>担当者の役割</strong>」ドロップダウンメニューから役割を選択します。 これは、担当者がこのタスクで果たすことができる役割です。 </p> <p><b>ヒント</b>
 
    プロファイル内で各担当者に関連付けられている担当業務のみがドロップダウンメニューに表示されます。</p> </td>
    </tr> 
@@ -434,7 +440,7 @@ Old:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>コストの種類</strong> </td> 
-      <td> <p>将来のタスクのコストタイプを指定します。これにより、タスクの時間数に基づいて、タスクのコストの計算方法が決まります。 </p> <p>次のオプションから選択します。</p> 
+      <td> <p>将来のタスクのコストタイプを指定します。 これにより、タスクの時間数に基づいて、タスクのコストの計算方法が決まります。 </p> <p>次のオプションから選択します。</p> 
        <ul> 
         <li> <p style="font-weight: normal;"><span>コストなし</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>固定（毎時）</span> </p> </li> 
@@ -445,7 +451,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>収益タイプ</strong> </td> 
-      <td> <p>将来のタスクの収益タイプを指定します。これにより、タスクの時間数に基づいて、タスクの収益の計算方法が決まります。</p> <p style="font-weight: normal;">次のオプションから選択します。 </p> 
+      <td> <p>将来のタスクの収益タイプを指定します。 これにより、タスクの時間数に基づいて、タスクの収益の計算方法が決まります。</p> <p style="font-weight: normal;">次のオプションから選択します。 </p> 
        <ul> 
         <li> <p style="font-weight: normal;">請求不可</p> </li> 
         <li> <p style="font-weight: normal;">ユーザー (毎時)</p> </li> 
@@ -483,18 +489,18 @@ Old:
 
 1. テンプレートタスクに関連付けるカスタムフォームを選択します。
 
-   カスタムフォームを作成してから、このフィールドで選択できるようにする必要があります。
+   このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。
 アクティブなカスタムフォームのみがリストに表示されます。
 
    カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
    テンプレートタスクには、最大10個のカスタムフォームを追加できます。
 フォームは、テンプレートから作成されたタスクに自動的に追加されます。
-1. （条件付きおよびオプション）テンプレートタスクにカスタム フォームを添付した場合は、フォーム上のフィールドを編集します。テンプレートタスクを保存する前に、すべての必須フィールドを指定する必要があります。
+1. （条件付きおよびオプション）テンプレートタスクにカスタム フォームを添付した場合は、フォーム上のフィールドを編集します。 テンプレートタスクを保存する前に、すべての必須フィールドを指定する必要があります。
 
    >[!NOTE]
    >
-   >Workfront 管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。カスタムフォームのセクション内のフィールドを編集する権限は、テンプレートタスクまたは将来のタスクに対して持っている権限によって異なります。\
+   >Workfront 管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。 カスタムフォームのセクション内のフィールドを編集する権限は、テンプレートタスクまたは将来のタスクに対して持っている権限によって異なります。\
    >カスタムフォームのセクションに対する権限の設定については、[カスタムフォームを共有する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)を参照してください。\
    >タスク権限の設定については、[タスクを共有する](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)を参照してください。\
    >テンプレートの権限の設定については、[テンプレートの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)を参照してください。
@@ -523,7 +529,7 @@ Old:
       <td> <p>選択したテンプレートのタスクに関連付けるマイルストーンを選択します。</p>
 
    <p><b>重要</b></p>
-   <p>このフィールドを表示するには、マイルストーンパスをテンプレートに関連付ける必要があります。詳しくは、<a href="../create-and-manage-templates/edit-templates.md">プロジェクトテンプレートの編集</a>を参照してください。</p> 
+   <p>このフィールドを表示するには、マイルストーンパスをテンプレートに関連付ける必要があります。 詳しくは、<a href="../create-and-manage-templates/edit-templates.md">プロジェクトテンプレートの編集</a>を参照してください。</p> 
    </td> 
      </tr>
      <tr> 
@@ -539,15 +545,15 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>リマインダー通知</strong> </td> 
-      <td> <p>テンプレートタスクに添付するリマインダー通知を選択します。このテンプレートから作成されたプロジェクトの今後のタスクに添付されます。タスクでリマインダー通知を選択するには、システム管理者がリマインダー通知を設定しておく必要があります。リマインダー通知の設定のについて詳しくは、<a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">リマインダー通知の設定</a>を参照してください。</p> </td> 
+      <td> <p>テンプレートタスクに添付するリマインダー通知を選択します。 このテンプレートから作成されたプロジェクトの今後のタスクに添付されます。 タスクでリマインダー通知を選択するには、システム管理者がリマインダー通知を設定しておく必要があります。 リマインダー通知の設定のについて詳しくは、<a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">リマインダー通知の設定</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>承認プロセス</strong> </td> 
-      <td> <p>テンプレートタスクに関連付ける承認プロセスを選択します。ユーザーが承認プロセスをテンプレートタスクに関連付けるには、Workfront 管理者がシステムレベルのタスク承認プロセスを定義しておく必要があります。<span>承認プロセスへの管理者アクセス権を持つユーザーは、グループ固有の承認プロセスを作成することもできます。</span> 承認プロセスの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">作業アイテムの承認プロセスを作成</a>を参照してください。</p> <p>承認プロセスを追加する際は、次の点を考慮してください。 </p> 
+      <td> <p>テンプレートタスクに関連付ける承認プロセスを選択します。 ユーザーが承認プロセスをテンプレートタスクに関連付けるには、Workfront 管理者がシステムレベルのタスク承認プロセスを定義しておく必要があります。 <span>承認プロセスへの管理アクセス権を持つユーザーは、グループ固有の承認プロセスを作成することもできます。</span> 承認プロセスの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">作業アイテムの承認プロセスを作成</a>を参照してください。</p> <p>承認プロセスを追加する際は、次の点を考慮してください。 </p> 
        <ul> 
        <li>アクティブな承認プロセスのみがリストに表示されます。 </li> 
-       <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。テンプレートのグループ以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> <p>重要：テンプレートに関連付けられているグループが変更されると、グループ固有の承認プロセスが 1 回限りの承認プロセスになります。プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。 </p> </li> 
-       <li> <p>1 回限りの承認プロセスを追加した場合は、このフィールドに「&lt;Custom&gt;」として表示されます。詳しくは、<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">新規または既存の承認プロセスを作業に関連付ける</a>を参照してください。 </p>  </li> 
+       <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。 テンプレートのグループ以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> <p>重要：テンプレートに関連付けられているグループが変更されると、グループ固有の承認プロセスが 1 回限りの承認プロセスになります。 プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。 </p> </li> 
+       <li> <p>1 回限りの承認プロセスを追加した場合は、このフィールドに「&lt;Custom&gt;」として表示されます。 詳しくは、<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">新規または既存の承認プロセスを作業に関連付ける</a>を参照してください。 </p>  </li> 
        <li> <p>テンプレートタスクを一括編集する場合は、次のシナリオが存在します。</p> 
        <ul> 
        <li> <p>同じテンプレートグループからテンプレートタスクを選択した場合、システムレベルとグループレベルの両方の承認プロセスがこのフィールドに表示されます。</p> </li> 
@@ -603,6 +609,11 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+      
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 

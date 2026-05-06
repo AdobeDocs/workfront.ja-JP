@@ -2,16 +2,16 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: プロジェクト管理：記事インデックス
+title: プロジェクトの管理：記事インデックス
 description: プロジェクトの管理について詳しくは、次の記事を参照してください。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 5f254f051704e3b986daa5748f2fb198de472059
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 84%
+source-wordcount: '139'
+ht-degree: 85%
 
 ---
 
@@ -36,7 +36,8 @@ ht-degree: 84%
 * [プロジェクトからのユーザーの削除](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)
 * [プロジェクトのリソースのスケジュール](../../../manage-work/projects/manage-projects/schedule-resources-for-projects.md)
 * [プロジェクトチームメンバーとのコミュニケーション](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-* [&#x200B; ボードビューでのアジャイルプロジェクトの管理 &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+* [&#x200B; ボードビューでのアジャイルプロジェクトの管理](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [プロジェクト制限の概要](../../../manage-work/projects/manage-projects/project-maximums.md)
 * [プロジェクト指標について](../../../manage-work/projects/manage-projects/project-metrics.md)
-* [AI アシスタントで更新プログラムの要約を作成する](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+* [AI アシスタントを使用した更新の要約の作成](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+* [プロジェクトと関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)

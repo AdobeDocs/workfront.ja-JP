@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1393'
 ht-degree: 66%
 
 ---
@@ -176,7 +176,7 @@ Old:
       >
       >* Workfront ストレージのポートフォリオまたはプログラムからAdobe エンタープライズ ストレージ テンプレートを使用する場合、プロジェクトはAdobe エンタープライズ ストレージ プロジェクトであり、ポートフォリオまたはプログラムもAdobe エンタープライズ ストレージ オブジェクトに変換されます。 同じポートフォリオまたはプログラム内の他のすべてのWorkfront ストレージプロジェクトは変更されません。
       >
-      > すべてのお客様が両方のタイプのドキュメント ストレージを持っているわけではありません。
+      > Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
       >
       >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
@@ -234,7 +234,7 @@ Old:
 
 >[!NOTE]
 >
->Workfront ドキュメントストレージに関連付けられたテンプレートは、従来のWorkfront ストレージプロジェクトを作成します。 Adobe エンタープライズドキュメントストレージに関連付けられたテンプレートにより、Adobe ストレージのプロジェクトが作成されます。 すべての顧客が両方のタイプのストレージを持っているわけではありません。
+>Workfront ドキュメントストレージに関連付けられたテンプレートは、従来のWorkfront ストレージプロジェクトを作成します。 Adobe エンタープライズドキュメントストレージに関連付けられたテンプレートにより、Adobe ストレージのプロジェクトが作成されます。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
 >
 >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 

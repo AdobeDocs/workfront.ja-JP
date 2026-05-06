@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: da46d6784350c8394330799fe2177e82d3519041
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1048'
 ht-degree: 88%
 
 ---
@@ -99,13 +99,13 @@ Old:
 
    >[!TIP]
    >
-   >イシューが承認プロセスに関連付けられている場合、または既に解決オブジェクトに関連付けられている場合、Workfront の[!UICONTROL プロジェクトに変換]ボックスの上部に警告が表示され、変換中に承認が削除されたか、解決オブジェクトが上書きされたことが通知されます。詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
+   >イシューが承認プロセスに関連付けられている場合、または既に解決オブジェクトに関連付けられている場合、Workfront の[!UICONTROL プロジェクトに変換]ボックスの上部に警告が表示され、変換中に承認が削除されたか、解決オブジェクトが上書きされたことが通知されます。 詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
-1. [!UICONTROL タスク名]セクションでタスクの名を前を更新します。デフォルトでは、タスクの名前は元のイシューの名前と同じになります。
+1. [!UICONTROL タスク名]セクションでタスクの名を前を更新します。 デフォルトでは、タスクの名前は元のイシューの名前と同じになります。
 
    ![&#x200B; タスクボックスに変換](assets/convert-to-task-box-nwe.png)
 
-1. [!UICONTROL **宛先プロジェクト**]&#x200B;をクリックし、新しいタスクを配置するプロジェクトの名前を&#x200B;[!UICONTROL **宛先プロジェクト**]&#x200B;フィールドに入力し始め、リストに表示されたらそれを選択します。デフォルトでは、イシューのプロジェクトが選択されています。
+1. [!UICONTROL **宛先プロジェクト**]&#x200B;をクリックし、新しいタスクを配置するプロジェクトの名前を&#x200B;[!UICONTROL **宛先プロジェクト**]&#x200B;フィールドに入力し始め、リストに表示されたらそれを選択します。 デフォルトでは、イシューのプロジェクトが選択されています。
 
 1. [!UICONTROL **概要**]&#x200B;をクリックし、タスクの&#x200B;[!UICONTROL **説明**]&#x200B;を入力します。
 
@@ -123,7 +123,7 @@ Old:
 
      >[!NOTE]
      >
-     >この設定のステータスに関係なく、イシューを削除するアクセス権や権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。イシューに対するアクセス権および権限について詳しくは、次を参照してください。
+     >この設定のステータスに関係なく、イシューを削除するアクセス権や権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。 イシューに対するアクセス権および権限について詳しくは、次を参照してください。
      >   
      >   * [イシューへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
      >   * [イシューの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
@@ -136,22 +136,22 @@ Old:
 
    * [!UICONTROL **イシューの予定完成日を保持**]
 
-     選択しない場合、新しいタスクの[!UICONTROL 予定完了日]は、タスクの[!UICONTROL 予定開始日]から計算されます。新しいタスクの[!UICONTROL 予定開始日]は、新しいタスクのシステム環境設定に従って設定されます。
+     選択しない場合、新しいタスクの[!UICONTROL 予定完了日]は、タスクの[!UICONTROL 予定開始日]から計算されます。 新しいタスクの[!UICONTROL 予定開始日]は、新しいタスクのシステム環境設定に従って設定されます。
 
      >[!NOTE]
      >
      >
-     >ここに表示されるオプションは、Workfront 管理者のシステム内の全員に対する設定によって異なります。詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+     >ここに表示されるオプションは、Workfront 管理者のシステム内の全員に対する設定によって異なります。 詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
      >
-     >または、組織内の最上位グループがそれらを個別に構成した場合、ここに表示されるオプションは、手順 6 で選択したプロジェクトにどのグループが関連付けられているかによって異なります。詳しくは、[グループのタスクとイシューの環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
+     >または、組織内の最上位グループがそれらを個別に構成した場合、ここに表示されるオプションは、手順 6 で選択したプロジェクトにどのグループが関連付けられているかによって異なります。 詳しくは、[グループのタスクとイシューの環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
 
 1. （オプション）[!UICONTROL **カスタムフォーム**] をクリックし、新しいタスクのカスタムフォームを添付します。
 
    >[!TIP]
    >
    >* イシューに添付された複数のオブジェクトのカスタムフォームをイシューとタスクの両方で使用するように設定すると、イシューとタスクのカスタムフォームの両方にフィールドが存在する場合、フォームに保存されたすべての情報が変換時に保持されます。
-   >* 計算フィールドを持つ複数のオブジェクトのカスタムフォームがイシューおよびタスクに添付されている場合、イシューおよびタスクには、フォームの計算カスタムフィールドで参照されているすべてのフィールドとの互換性が必要です。互換性がない場合は、調整を行うように警告するメッセージが表示されます。詳しくは、[フォームへの計算フィールドの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
-   >* 宛先プロジェクトのタスクデフォルトカスタムフォームフィールドにデフォルトフォームが定義されている場合、プロジェクトの編集時に、それらのタスクフォームも新しいタスクに追加されます。元のイシューとデフォルトのタスクフォームのフィールドに共通するカスタムフィールドには、イシューフィールドの情報が事前に入力されます。
+   >* 計算フィールドを持つ複数のオブジェクトのカスタムフォームがイシューおよびタスクに添付されている場合、イシューおよびタスクには、フォームの計算カスタムフィールドで参照されているすべてのフィールドとの互換性が必要です。 互換性がない場合は、調整を行うように警告するメッセージが表示されます。 詳しくは、[フォームへの計算フィールドの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
+   >* 宛先プロジェクトのタスクデフォルトカスタムフォームフィールドにデフォルトフォームが定義されている場合、プロジェクトの編集時に、それらのタスクフォームも新しいタスクに追加されます。 元のイシューとデフォルトのタスクフォームのフィールドに共通するカスタムフィールドには、イシューフィールドの情報が事前に入力されます。
 
 
 1. [!UICONTROL **タスクに変換**]&#x200B;をクリックします。
@@ -162,13 +162,13 @@ Old:
 
    元のイシューを保持する場合、イシューは選択したプロジェクトの新しいタスクにリンクされ、タスクが完了するとイシューも完了します。
 
-   一部のイシューフィールドはタスクに転送されます。詳しくは、この記事の[プロジェクトとタスクに関する元のイシュー情報を表示](#view-original-issue-information-on-projects-and-tasks)を参照してください。
+   一部のイシューフィールドはタスクに転送されます。 詳しくは、この記事の[プロジェクトとタスクに関する元のイシュー情報を表示](#view-original-issue-information-on-projects-and-tasks)を参照してください。
 
 1. （オプション）必要に応じてタスクの編集を続けます。
 
 ## プロジェクトとタスクに関する元のイシュー情報を表示 {#view-original-issue-information-on-projects-and-tasks}
 
-元のイシューの情報は、プロジェクトとタスクのリストとレポート、またはプロジェクトの詳細領域で表示できます。レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+元のイシューの情報は、プロジェクトとタスクのリストとレポート、またはプロジェクトの詳細領域で表示できます。 レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 次の表は、変換されたプロジェクトとタスクのどのイシューフィールドが表示されるかを示しています。
 
