@@ -106,14 +106,14 @@ old permissions model:
 1. Workfront にログインします。
 1. 次のいずれかの操作を行います。
 
-   * 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新規プロジェクト**&#x200B;を展開します。
+   * 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新規プロジェクト**&#x200B;を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの&#x200B;**プロジェクト** セクションでプロジェクトを作成できます。 詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
 1. 「**MS プロジェクトの読み込み**」をクリックします。
 
-   ![新規プロジェクトのドロップダウン ](assets/import-ms-project-option.png)
+   ![新規プロジェクトのドロップダウン &#x200B;](assets/import-ms-project-option.png)
 
    「**MS ファイルを読み込み**」ボックスが開きます。
 
@@ -130,7 +130,7 @@ old permissions model:
    >
    >Workfront インスタンスがWorkfrontとAdobeの両方のドキュメントストレージにアクセスできる場合、Workfront管理者がWorkfront Enterprise Storageをシステムのデフォルトにした場合でも、MS プロジェクトからプロジェクトを読み込むと、Adobe ストレージプロジェクトが作成されます。
    >
-   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 
 1. （オプション）Workfront でプロジェクトの編集を続けます。 プロジェクトの編集の詳細については、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
