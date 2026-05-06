@@ -195,7 +195,7 @@ ht-degree: 100%
 
 この節では、以下の操作を行います。
 
-* [!DNL Workfront Proof] の 2 つの「[!UICONTROL 差出人]」アドレスを、[!DNL Aol][!UICONTROL アドレス帳]に追加します。
+* [!DNL Workfront Proof] の 2 つの「[!UICONTROL 差出人]」アドレスを、[!DNL Aol]&#x200B;[!UICONTROL アドレス帳]に追加します。
 * [!DNL Aol] の[!UICONTROL スパム]フォルダーから既存の [!DNL Workfront Proof] メールを移動し、[!DNL Aol] の[!UICONTROL スパム]フィルターの受信拒否アドレスリストから [!DNL Workfront Proof] の「[!UICONTROL 差出人]」アドレスを削除します。
 
 ### 新規の [!DNL Workfront Proof] メールの場合
