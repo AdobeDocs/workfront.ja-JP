@@ -101,7 +101,7 @@ Old:
    * Workfront-storage テンプレートを使用してAdobe-storage タスクを変換すると、Adobe-storage プロジェクトが作成されます。
    * Adobe-storage テンプレートを使用してWorkfront-storage タスクを変換すると、Workfront-storage プロジェクトが作成されます。
 
-     詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+     詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
      >[!TIP]
      >
@@ -218,13 +218,13 @@ Old:
 ## タスクをプロジェクトに変換
 
 1. プロジェクトに変換するタスクに移動します。
-1. **詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックしてから、**プロジェクトに変換**&#x200B;します。
+1. **詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**プロジェクトに変換**&#x200B;します。
 1. 次のいずれかのオプションを選択します。
 
    * テンプレートを使用せずにプロジェクトを作成するには、**新しいプロジェクト**
    * 「**テンプレートから選択**」セクションのテンプレート
 
-     ![ タスクをプロジェクトテンプレートに変換オプション ドロップダウンメニュー](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![&#x200B; タスクをプロジェクトテンプレートに変換オプション ドロップダウンメニュー](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. 表示される通知で「**続行**」をクリックします。
 1. **プロジェクトに変換**&#x200B;ボックスで、次の情報を指定します。
