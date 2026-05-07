@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '4035'
-ht-degree: 36%
+source-wordcount: '4068'
+ht-degree: 35%
 
 ---
 
@@ -212,8 +212,14 @@ Old:
       * **年**：年が表示された四半期と月が表示されます。
       * **四半期**：四半期が表示された月と週を表示します。
       * **月**：週と日を表示します。
+
+     >[!TIP]
+     >
+     >タイムラインビューには、従来の四半期に応じた会計週のみが表示されます。 Workfront管理者が「設定」エリアで「四半期のカスタマイズ」をオンにしている場合、週情報はタイムラインビューに表示されません。
+
 1. （オプション）「**コンパクトビューに切り替え**」をクリックして、日付が同じ行で交差しないレコードを表示します。<!--check to see if they updated the name of the setting here-->
 1. （条件付き）モードを&#x200B;**コンパクト**&#x200B;に変更した場合は、**標準**&#x200B;表示に切り替えをクリックして、レコードを別々の行に表示します。 **Standard** オプションがデフォルトです。 <!--check to see if they updated the name of the setting here-->
+
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
