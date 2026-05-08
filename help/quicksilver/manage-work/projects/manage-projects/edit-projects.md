@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '8113'
+source-wordcount: '8107'
 ht-degree: 88%
 
 ---
@@ -287,7 +287,7 @@ Old:
       <p><b>メモ</b></p>
       <ul>
       <li>プロジェクトにポートフォリオを追加または削除するには、ポートフォリオの管理権限が必要です。</li>
-      <li>組織でWorkfrontとAdobeの両方のドキュメントストレージタイプを使用している場合、Workfront ストレージプロジェクトをAdobe ストレージポートフォリオに関連付けることはできません。 その逆も同じです。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。</li></ul> 
+      <li>従来のWorkfrontとAdobe エンタープライズストレージの両方を使用している場合、異なるストレージタイプを使用するプロジェクト間でタスクをコピーすることはできません。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。</li></ul> 
       詳しくは、<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md"> プロジェクトおよび関連オブジェクトのドキュメント管理の概要</a>を参照してください。 
       </td> 
       </tr> 
@@ -701,7 +701,7 @@ Old:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>プロジェクトへのアクセス権も付与</strong></td> 
-      <td><p>プロジェクトへのアクセス権を、「<strong>表示</strong>」、「<strong>参加</strong>」、「<strong>管理</strong>」から選択します。 タスクに割り当てられたユーザーにも、プロジェクトへのこのアクセス権が自動的に付与されます。<br></p></td> 
+      <td><p>プロジェクトへのアクセス権に関するアクションを、<strong>表示</strong>、<strong>参加</strong>、<strong>管理</strong>から選択します。 タスクに割り当てられたユーザーにも、プロジェクトへのこのアクセス権が自動的に付与されます。<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>誰かがイシューに割り当てられたとき</strong></td> 

@@ -2,16 +2,16 @@
 product-area: projects
 navigation-topic: manage-issues
 title: リスト内のイシューの編集
-description: 個々のイシューを編集することも、イシューリストまたはレポート内のイシューを編集することもできます。この記事では、リスト内のイシューを編集する方法について説明します。
+description: 個々のイシューを編集することも、イシューリストまたはレポート内のイシューを編集することもできます。 この記事では、リスト内のイシューを編集する方法について説明します。
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 80%
+source-wordcount: '908'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-個々のイシューを編集することも、イシューリストまたはレポート内のイシューを編集することもできます。この記事では、リスト内のイシューを編集する方法について説明します。
+個々のイシューを編集することも、イシューリストまたはレポート内のイシューを編集することもできます。 この記事では、リスト内のイシューを編集する方法について説明します。
 
 個々のイシューの編集について詳しくは、[イシューの編集](../../../manage-work/issues/manage-issues/edit-issues.md)を参照してください。
 
@@ -59,11 +59,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>イシューへのアクセス権を編集</p> <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>イシューへのアクセス権を編集</p> <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>イシューに対する参加以上の権限</p> <p> イシューに関する権限の付与については、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a>を参照してください。</p> <p>追加権限の要求については、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権の要求</a>を参照してください。</p> </td> 
+   <td> <p>イシューに対する参加以上の権限</p> <p> イシューに対する権限の付与について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a>を参照してください。</p> <p>追加権限の要求については、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権の要求</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,11 +114,11 @@ Old:
 イシューをインライン編集するには：
 
 1. プロジェクトまたはタスク内のイシューのリストに移動します。
-1. 手動で更新する権限を持つフィールド内をクリックします。フィールドが編集可能になり、変更を加えることができます。
+1. 手動で更新する権限を持つフィールド内をクリックします。 フィールドが編集可能になり、変更を加えることができます。
 
    ![&#x200B; インラインで問題を編集](assets/edit-issues-inline-350x34.png)
 
-1. 変更を受け入れる場合は、Enter キーを押します。変更は直ちに保存されます。
+1. 変更を受け入れる場合は、Enter キーを押します。 変更は直ちに保存されます。
 
    オブジェクトのインライン編集について詳しくは、[Adobe Workfront のリスト内の項目のインライン編集](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)を参照してください。
 
@@ -152,10 +152,15 @@ Old:
 
    | アイコン | アクション |
    |---|---|
-   | ドキュメント ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents-icon-in-summary.png) | 「**ここをクリックして追加**」をクリックして、イシューにドキュメントを追加します。 |
+   | 文書* ![文書アイコン &#x200B;](assets/documents-icon-in-summary.png) | 「**ここをクリックして追加**」をクリックして、イシューにドキュメントを追加します。 |
    | 詳細![詳細アイコン &#x200B;](assets/details-icon-in-summary.png) | クリックして、イシューに関する情報を更新します。 |
    | 時間![時間を記録](assets/log-time-icon-in-summary.png) | クリックして時間を記録します。 |
    | 承認![承認アイコン &#x200B;](assets/approvals-icon-in-summary.png) | クリックして、イシューの承認を追加します。 |
+
+   * 組織でAdobe エンタープライズ版のドキュメントストレージを使用している場合、概要パネルでAdobe ストレージの問題にドキュメントを追加することはできません。
+
+   詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+
 
 1. （オプション）**概要を開く**&#x200B;アイコンを再びクリックするか、概要の右上にある&#x200B;**X アイコン**&#x200B;をクリックしてパネルを閉じ、イシューをインラインで編集します。
 
@@ -188,7 +193,7 @@ Old:
 
    >[!NOTE]
    >
-   >「**割り当て**」フィールドを除き、選択したすべてのイシューについて変更する情報は、個々のイシューに関する既存の情報を上書きします。一括編集で新しい担当者を追加すると、その担当者は選択したすべてのイシューに追加されます。選択したイシューに他の担当者が割り当てられている場合、一括編集で追加されたイシューに加えて、割り当てられたままになります。
+   >「**割り当て**」フィールドを除き、選択したすべてのイシューについて変更する情報は、個々のイシューに関する既存の情報を上書きします。 一括編集で新しい担当者を追加すると、その担当者は選択したすべてのイシューに追加されます。 選択したイシューに他の担当者が割り当てられている場合、一括編集で追加されたイシューに加えて、割り当てられたままになります。
 
 1. 「**カスタムフォーム**」をクリックして、選択したすべてのイシューに添付されているカスタムフォームを編集します。
 

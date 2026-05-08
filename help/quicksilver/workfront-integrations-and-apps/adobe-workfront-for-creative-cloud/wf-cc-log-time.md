@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '208'
 ht-degree: 97%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 97%
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
@@ -70,7 +70,7 @@ ht-degree: 97%
 
 Workfront プラグインを使用して時刻を記録するには、以下のように行います。
 
-1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 

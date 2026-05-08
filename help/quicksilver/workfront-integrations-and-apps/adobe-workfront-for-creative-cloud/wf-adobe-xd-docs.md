@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '533'
 ht-degree: 95%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 95%
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
     <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -67,14 +67,14 @@ ht-degree: 95%
 
 ## 新しいドキュメントを追加
 
-1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL ワークリスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
    ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
 
 1. ドキュメントをアップロードする作業アイテムに移動します。
 1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
 
-1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
+1. プラグインの下部にある&#x200B;**[!UICONTROL 新規ファイル]**&#x200B;をクリックします。
 1. アップロードするアートボードを選択します。
 
    >[!TIP]
@@ -104,7 +104,7 @@ ht-degree: 95%
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>選択したアートボードを<strong>単一 PDF ファイル</strong>または<strong>複数の PDF ファイル</strong>としてアップロードするかどうかを選択します。アートボードは、PDF として [!DNL Workfront] にある作業項目の「[!UICONTROL Documents]」タブにアップロードされます。</td>
+      <td>選択したアートボードを<strong>単一 PDF ファイル</strong>または<strong>複数の PDF ファイル</strong>としてアップロードするかどうかを選択します。 アートボードは、PDF として [!DNL Workfront] にある作業項目の「[!UICONTROL Documents]」タブにアップロードされます。</td>
      </tr>
     </tbody>
    </table>
@@ -115,7 +115,7 @@ ht-degree: 95%
 
 ## 新しいバージョンを追加
 
-1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL ワークリスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
    ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
 
