@@ -78,7 +78,7 @@ ht-degree: 64%
 
    または
 
-   タスクまたは問題の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**概要を開く**&#x200B;をクリックします。
+   タスクまたは問題の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**概要を開く**&#x200B;をクリックします。
 
    右側に概要パネルが開きます。
 
@@ -96,7 +96,7 @@ ht-degree: 64%
    >
    >組織でAdobe エンタープライズ版のドキュメントストレージを使用している場合、概要パネルでAdobe ストレージの作業項目にドキュメントを追加することはできません。
    >
-   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 1. （条件付き）作業項目のセクションを開いた場合、ブラウザーの「**戻る**」ボタンをクリックして、ワークロードバランサーに戻ります。
-1. 概要の右上隅にある&#x200B;**閉じるアイコン** ![閉じるアイコン ](assets/close-icon.png)をクリックして閉じます。
+1. 概要の右上隅にある&#x200B;**閉じるアイコン** ![閉じるアイコン &#x200B;](assets/close-icon.png)をクリックして閉じます。
