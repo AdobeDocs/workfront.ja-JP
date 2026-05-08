@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 97%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 97%
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
     <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -67,23 +67,23 @@ ht-degree: 97%
 
 ## 作業アイテムを完了する
 
-1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
 1. **[!UICONTROL 作業リスト]**&#x200B;から、完了とマークするタスクまたはイシューを選択します。
-1. 「**[!UICONTROL 完了]**」をクリックします。このタスクまたはイシューに割り当てられた唯一のユーザーである場合は、[!DNL Workfront] で項目に対して[!UICONTROL 完了]または[!UICONTROL 解決済み]とマークされます。
-1. （条件付き）複数のユーザーがこのタスクまたはイシューに割り当てられている場合、「[!UICONTROL 完了]」をクリックするとドロップダウンが表示されます。次の操作が可能です。
+1. 「**[!UICONTROL 完了]**」をクリックします。  このタスクまたはイシューに割り当てられた唯一のユーザーである場合は、[!DNL Workfront] で項目に対して[!UICONTROL 完了]または[!UICONTROL 解決済み]とマークされます。
+1. （条件付き）複数のユーザーがこのタスクまたはイシューに割り当てられている場合、「[!UICONTROL 完了]」をクリックするとドロップダウンが表示されます。 次の操作が可能です。
 
    他のユーザーがタスクまたはイシューを完了する作業を行う必要がある場合、「**[!UICONTROL 担当部分は完了]**」をクリックします。
 
    または
 
-   タスクやイシューに対してこれ以上の作業を行う必要がない場合、（タスクに対して）「**[!UICONTROL 完了]**」または（イシューに対して）「**[!UICONTROL 解決済み]**」をクリックします。これは、[!DNL Workfront] で項目を[!UICONTROL 完了]または[!UICONTROL 解決済み]とマークします。
+   タスクやイシューに対してこれ以上の作業を行う必要がない場合、（タスクに対して）「**[!UICONTROL 完了]**」または（イシューに対して）「**[!UICONTROL 解決済み]**」をクリックします。 これは、[!DNL Workfront] で項目を[!UICONTROL 完了]または[!UICONTROL 解決済み]とマークします。
 
    >[!NOTE]
    >
-   >先行する作業アイテムがある場合、先行するものが完了とマークされるまで、「完了」ボタンは灰色で表示されます。[!DNL Workfront] 内の先行タスクを表示するには、タスク名をクリックします。
+   >先行する作業アイテムがある場合、先行するものが完了とマークされるまで、「完了」ボタンは灰色で表示されます。 [!DNL Workfront] 内の先行タスクを表示するには、タスク名をクリックします。
    >![Workfrontに移動](assets/navigate-to-workfront.png)
 
 <!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

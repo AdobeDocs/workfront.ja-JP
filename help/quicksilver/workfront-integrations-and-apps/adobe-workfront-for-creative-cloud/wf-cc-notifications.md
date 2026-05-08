@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
  </col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> Any</td> 
   </tr> 
@@ -62,14 +62,14 @@ ht-degree: 100%
 
 {{cc-install-prereq}}
 
-* [!DNL Workfront] でインスタント通知を有効にしている。インスタント通知の有効化について詳しくは、[自身のメール通知の変更](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
+* [!DNL Workfront] でインスタント通知を有効にしている。 インスタント通知の有効化について詳しくは、[自身のメール通知の変更](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 ## Adobe Creative Cloud で [!DNL Workfront] 通知を表示および管理
 
-1. プラグインパネルの上部付近にある&#x200B;**[!UICONTROL 通知]**&#x200B;アイコン ![通知アイコン](assets/cc-plugin-notifications-icon.png) をクリックします。アイコン上の青い点は、未読の通知があることを示します。
+1. プラグインパネルの上部付近にある&#x200B;**[!UICONTROL 通知]**&#x200B;アイコン ![通知アイコン](assets/cc-plugin-notifications-icon.png) をクリックします。 アイコン上の青い点は、未読の通知があることを示します。
 1. （オプション）すべての通知を既読としてマークするには、「**[!UICONTROL すべてを既読とマーク]**」をクリックします。
 
-   これにより、プラグインと Workfront で、通知が既読としてマークされます。既読の通知は、プラグインの通知のリストに表示されなくなります。
+   これにより、プラグインと Workfront で、通知が既読としてマークされます。 既読の通知は、プラグインの通知のリストに表示されなくなります。
 
 1. 通知で言及されている作業項目に移動するには、通知をクリックします。
 

@@ -2,22 +2,22 @@
 product-area: home
 navigation-topic: new-home
 title: ホームウィジェットフィルターの概要
-description: 多数のウィジェットから選択して、ホームページに表示されるコンテンツをカスタマイズできます。これらのウィジェットは、ホームページ上でサイズ変更や配置が可能です。
+description: 多数のウィジェットから選択して、ホームページに表示されるコンテンツをカスタマイズできます。 これらのウィジェットは、ホームページ上でサイズ変更や配置が可能です。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
 # ホームウィジェットフィルターの概要
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
@@ -108,7 +108,7 @@ ht-degree: 18%
 </ul>
 </td>
   </tr>
-   <!--
+  <!--
     <tr>
     <td>All Unassigned Tasks</td>
     <td></td>
@@ -267,8 +267,8 @@ ht-degree: 18%
       <li>メールを送った人に関係なく、現在オープンなメールです。 自分で送信しなかった場合は、表示以上の権限を持っているリクエストのみが表示されます。</li>
       <li>実際の完了日がない場合、または解決するオブジェクトに実際の完了日がない場合は、「開く」サブタブにリストされます。</li> 
       </ul>
-      <p><b> メモ </b> 
-      クローズ済みと同等でないステータスのリクエストは、オープンと見なされます。</p> 
+      <p><b>メモ</b> 
+      ステータスがクローズに等しくないリクエストは、オープンと見なされます。</p> 
       </td> 
      </tr> 
      <tr> 
@@ -282,8 +282,8 @@ ht-degree: 18%
       <li>送信したものと同じように開いています。 </li> 
       <li>実際の完了日がない場合、または解決するオブジェクトに実際の完了日がない場合は、「マイオープン要求」サブタブにリストされます。  </li> 
       </ul>
-      <p><b> メモ </b> 
-      ステータスがクローズと等しくないリクエストは、オープンと見なされます。</p> </td> 
+      <p><b>メモ</b> 
+      ステータスがクローズに等しくないリクエストは、オープンと見なされます。</p> </td> 
      </tr> 
     </tbody> 
    </table>
