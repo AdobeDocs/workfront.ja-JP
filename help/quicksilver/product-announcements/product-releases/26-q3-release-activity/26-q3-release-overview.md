@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 8c5290f5c9724fa1b382b0acf2a541fe7d3d44fa
+source-git-commit: efcb35e0d46670f581bda2943fbf74ab428f98d7
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 53%
+source-wordcount: '571'
+ht-degree: 43%
 
 ---
 
@@ -123,17 +123,11 @@ New features in Workfront Planning are available in Production. For more informa
 
 ## お知らせ
 
-### API バージョン 21
+API バージョン 22
 
-Workfront API バージョン 21 は 2025年10月23日（PT）にリリースされました。 API バージョン 21 では、いくつかのリソースとエンドポイントが変更されました。 変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
+Workfront API バージョン 22は、2026年5月8日（PT）にリリースされました。 API バージョン 22では、いくつかのリソースとエンドポイントを変更しました。 変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
 
->[!IMPORTANT]
->
->この API バージョンの変更には、既存の API 呼び出しに影響を与える可能性のある重大な変更が含まれています。 これは、API バージョン 21 ではイベント登録バージョン 2 が使用されているためです。
->
-> 複数選択フィールドの場合、イベント購読バージョン 2は常に配列として送信されます。 バージョン 1 では、複数の値が選択されている場合に、配列が送信されました。 1 つの値のみが選択されている場合は、文字列が送信されました。
-
-新機能とアップデートについて詳しくは、[API バージョン 21 の新機能](/help/quicksilver/wf-api/api/new-api-version-21.md)を参照してください。
+新機能と更新内容について詳しくは、[API バージョン 22](/help/quicksilver/wf-api/api/new-api-version-22.md)の新機能を参照してください。
 
 API バージョンについて詳しくは、[API のバージョン管理とサポートスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
