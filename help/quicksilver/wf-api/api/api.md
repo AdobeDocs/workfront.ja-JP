@@ -9,16 +9,16 @@ feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 2e2a407abea63c43a9b02b2ff4cdfcab98b3d81c
+source-git-commit: 4f348fd5c846fd57cb3f3442b0492923074648cf
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 96%
 
 ---
 
 # API
 
-この節では、次の記事を扱います。
+この節には、次の記事が含まれます。
 
 * [API を使用したファイルのアップロード](../../wf-api/api/uploading-files-api.md)
 * [イベント登録メッセージのフィルタリング](../../wf-api/api/filter-event-sub-messages.md)
@@ -34,6 +34,7 @@ ht-degree: 100%
 * [認証コードフローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-code-token-flow.md)
 * [JWT フローを使用した組織のカスタム OAuth 2 アプリケーションの設定と使用](../../wf-api/api/oauth-app-jwt-flow.md)
 * [PKCE フローを使用した、組織のカスタム OAuth 2 アプリケーションの設定と使用](../../wf-api/api/oauth-app-pkce-flow.md)
+* [API バージョン 22](../../wf-api/api/new-api-version-22.md)の新機能
 * [API バージョン 21 の新機能](../../wf-api/api/new-api-version-21.md)
 * [API バージョン 20 の新機能](../../wf-api/api/new-api-version-20.md)
 * [API バージョン 19 の新機能](../../wf-api/api/new-api-version-19.md)
