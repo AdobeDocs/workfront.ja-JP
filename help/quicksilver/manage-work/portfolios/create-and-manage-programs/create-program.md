@@ -2,15 +2,15 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: プログラムの作成
-description: プログラムとは、プロジェクトの境界を越えて共通の戦略、目標、または目標を共有するプロジェクトのコレクションを表します。プログラムはポートフォリオのサブディビジョンであり、ポートフォリオの外に存在することはできません。 通常、プログラムは、同じポートフォリオ内の他のプログラムと同じリソースを共有します。 ポートフォリオが大きすぎると整理するように、プログラムを作成することができます。
+description: プログラムとは、プロジェクトの境界を越えて共通の戦略、目標、または目標を共有するプロジェクトのコレクションを表します。 プログラムはポートフォリオのサブディビジョンであり、ポートフォリオの外に存在することはできません。 通常、プログラムは、同じポートフォリオ内の他のプログラムと同じリソースを共有します。 ポートフォリオが大きすぎると整理するように、プログラムを作成することができます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1278'
 ht-degree: 76%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 76%
 <span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 -->
 
-プログラムは、プロジェクトの境界を超える、共通の戦略、目的、目標を共有するプロジェクトのコレクションを表します。
+プログラムとは、プロジェクトの境界を越えて共通の戦略、目標、または目標を共有するプロジェクトのコレクションを表します。
 プログラムはポートフォリオのサブディビジョンであり、ポートフォリオの外に存在することはできません。 通常、プログラムは、同じポートフォリオ内の他のプログラムと同じリソースを共有します。
 
 ポートフォリオが大きすぎると整理するように、プログラムを作成することができます。
@@ -106,13 +106,18 @@ Old:
   Workfront でのキックスタートを使用したデータの読み込みについて詳しくは、[キックスタートテンプレートを使用して Adobe Workfront にデータを読み込む](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)を参照してください。
 
 
-* Workfront Planningのレコードタイプからプログラムを接続するときにプログラムを追加します。
+* 次の方法で、Workfront Planningからプログラムを作成します。
 
-  追加のWorkfront計画パッケージが必要です。
+   * Workfront Planningのレコードタイプから連結するだけです。
 
-  Workfront Planningへのアクセスについて詳しくは、[Adobe Workfront Planningへのアクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
+  レコードにプログラムを追加して作成する方法について詳しくは、[ レコードを作成](/help/quicksilver/planning/records/create-records.md)の「レコードを接続する際にレコードを作成する」の節を参照してください。
+   * Workfront計画の自動処理の使用。
 
-  レコードに追加してポートフォリオを作成する方法について詳しくは、「[&#x200B; レコードを作成](/help/quicksilver/planning/records/create-records.md)」の「レコードを接続する際にレコードを作成する」の節を参照してください。
+  詳しくは、[Adobe Workfront Planning レコードの自動処理を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)を参照してください。
+
+  Workfront Planning用の新しいWorkfront ライセンスと、追加のWorkfront Planning パッケージが必要です。
+
+  Workfront Planningへのアクセスについて詳しくは、[ アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
 ## プログラムを作成
 
@@ -165,11 +170,11 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
-      <td> <p>プログラムマネージャーにするユーザーの名前を入力します。ドロップダウンリストにそのユーザーの名前が表示されたら、クリックします。これは、[!UICONTROL Program Owner] と同じです。 </p> <p>ヒント：プログラムヘッダーでプログラムマネージャーを更新することもできます。 </p> </td> 
+      <td> <p>プログラムマネージャーにするユーザーの名前を入力します。ドロップダウンリストにそのユーザーの名前が表示されたら、クリックします。 これは、[!UICONTROL Program Owner] と同じです。 </p> <p>ヒント：プログラムヘッダーでプログラムマネージャーを更新することもできます。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Group] </td> 
-      <td> <p>1 つのグループがプログラムを所有している場合やプログラムを完了する責任がある場合は、そのグループの名前を追加します。 </p> <p>適切なグループを選択していることを確認するには、グループにポインタを合わせて、グループの横に表示される[!UICONTROL information]アイコン <img src="assets/info-icon.png"> をクリックします。グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> 
+      <td> <p>1 つのグループがプログラムを所有している場合やプログラムを完了する責任がある場合は、そのグループの名前を追加します。 </p> <p>適切なグループを選択していることを確認するには、グループにポインタを合わせて、横に表示される[!UICONTROL information]アイコン <img src="assets/info-icon.png"> をクリックします。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
        </div> </td> 
@@ -192,7 +197,7 @@ Old:
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 1. （オプション）プログラム名の横にある&#x200B;**[!UICONTROL 詳細メニュー]** ![詳細メニュー](assets/more-icon.png)をクリックし、**[!UICONTROL プログラムのアクティベートを解除]**&#x200B;をクリックします。
 
-   プログラムのアクティブ化を解除した場合は、そのプログラムをユーザーがプロジェクトに追加しようとしても、プログラムはプログラムリストに表示されなくなります。[!UICONTROL プログラム]エリアからは、このプログラムに引き続きアクセスできます。
+   プログラムのアクティブ化を解除した場合は、そのプログラムをユーザーがプロジェクトに追加しようとしても、プログラムはプログラムリストに表示されなくなります。 [!UICONTROL プログラム]エリアからは、このプログラムに引き続きアクセスできます。
 
 ## プログラムヘッダーの概要
 
@@ -218,7 +223,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトタイプの名前とアクティブ化のステータス</td> 
-   <td>プログラムを表示すると、「プログラム」という単語がオレンジ色のアイコンで表示されます。プログラムが「[!UICONTROL Active]」としてマークされていない場合は、プログラムの横に「[!UICONTROL Deactivated]」という単語が灰色の輪郭で表示されます。 </td> 
+   <td>プログラムを表示すると、「プログラム」という単語がオレンジ色のアイコンで表示されます。 プログラムが「[!UICONTROL Active]」としてマークされていない場合は、プログラムの横に「[!UICONTROL Deactivated]」という単語が灰色の輪郭で表示されます。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プログラムのアクションエリア </td> 
@@ -228,33 +233,33 @@ Old:
      <li> <p>以下のいずれかを行う場合は[!UICONTROL More]メニューアイコン <img src="assets/qs-more-menu.png"> </p> 
       <ul> 
        <li>プログラムの編集</li> 
-       <li>プログラムの非アクティブ化。プログラムが非アクティブ化されると、そのプログラムをプロジェクトレベルでプロジェクトに関連付けることができなくなります。 </li> 
-       <li> <p>プログラムの削除。プログラムを削除しても、プログラム内のプロジェクトは削除されません。プロジェクトとプログラムの関連付けが削除されます。 </p> </li> 
+       <li>プログラムの非アクティブ化。 プログラムが非アクティブ化されると、そのプログラムをプロジェクトレベルでプロジェクトに関連付けることができなくなります。 </li> 
+       <li> <p>プログラムの削除。 プログラムを削除しても、プログラム内のプロジェクトは削除されません。 プロジェクトとプログラムの関連付けが削除されます。 </p> </li> 
        <li>他のユーザーとの共有</li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
-   <td> <p>ヘッダーのプログラムの [!UICONTROL Percent CompletePercent Complete] は編集できません。この情報は、プログラムのプロジェクトから更新されます。デフォルトでは、プログラムの完了率は、そのプログラムに属する「[!UICONTROL Current]」または「[!UICONTROL Approved]」ステータスのプロジェクトの完了率の値の平均です。</p> </td> 
+   <td> <p>ヘッダーのプログラムの [!UICONTROL Percent CompletePercent Complete] は編集できません。 この情報は、プログラムのプロジェクトから更新されます。 デフォルトでは、プログラムの完了率は、そのプログラムに属する「[!UICONTROL Current]」または「[!UICONTROL Approved]」ステータスのプロジェクトの完了率の値の平均です。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Program Manager]</td> 
-   <td> <p>ヘッダーに示されているプログラムマネージャーは編集できます。これは、[!UICONTROL Program Owner] と同じです。 </p> </td> 
+   <td> <p>ヘッダーに示されているプログラムマネージャーは編集できます。 これは、[!UICONTROL Program Owner] と同じです。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td>ヘッダーに示されているプログラムの予定完了日は編集できません。この情報は、プログラムのプロジェクトから更新されます。プログラムの最新プロジェクトの予定完了日が、プログラムの予定完了日になります。  </td> 
+   <td>ヘッダーに示されているプログラムの予定完了日は編集できません。 この情報は、プログラムのプロジェクトから更新されます。 プログラムの最新プロジェクトの予定完了日が、プログラムの予定完了日になります。  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Active Projects Condition]</td> 
-   <td>これは、プログラム内のプロジェクトのうち、[!UICONTROL Condition]が[!UICONTROL On Target]、[!UICONTROL At Risk]、[!UICONTROL In Trouble]のいずれかに設定されている割合を計算したものです。ここで示されているプロジェクトは、ステータスが「[!UICONTROL Current]」および「[!UICONTROL Approved]」であるプロジェクトです。 </td> 
+   <td>これは、プログラム内のプロジェクトのうち、[!UICONTROL Condition]が[!UICONTROL On Target]、[!UICONTROL At Risk]、[!UICONTROL In Trouble]のいずれかに設定されている割合を計算したものです。 ここで示されているプロジェクトは、ステータスが「[!UICONTROL Current]」および「[!UICONTROL Approved]」であるプロジェクトです。 </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プログラムを移動
 
-既存のプログラムをポートフォリオに追加できます。プログラムは 2 つの異なるポートフォリオに存在できないため、既存のプログラムを追加すると、そのプログラムは 1 つのポートフォリオから別のポートフォリオへと永続的に移動されます。
+既存のプログラムをポートフォリオに追加できます。 プログラムは 2 つの異なるポートフォリオに存在できないため、既存のプログラムを追加すると、そのプログラムは 1 つのポートフォリオから別のポートフォリオへと永続的に移動されます。
 
 詳しくは、[既存のプログラムをポートフォリオに追加](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)を参照してください。

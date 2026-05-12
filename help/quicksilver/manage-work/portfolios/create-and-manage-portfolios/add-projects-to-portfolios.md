@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: da46d6784350c8394330799fe2177e82d3519041
+source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 54%
+source-wordcount: '637'
+ht-degree: 43%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 54%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -115,13 +115,13 @@ Old:
 
 1. ポートフォリオに移動し、左側のパネルで「**[!UICONTROL プロジェクト]**」をクリックします。
 
-   ![&#x200B; プロジェクトを含むPortfolio](assets/qs-portfolio-with-projects-350x90.png)
+   ![ プロジェクトを含むPortfolio](assets/qs-portfolio-with-projects-350x90.png)
 
 1. 「**[!UICONTROL 新規プロジェクト]**」をクリックして、プロジェクトを追加する方法を選択します。
 
    >[!TIP]
    >
-   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
+   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -152,7 +152,9 @@ Old:
     </tbody> 
    </table>
 
-   ![新規プロジェクトのドロップダウン &#x200B;](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   <!-- update screen shot for both kinds of storages??-->
+
+   ![新規プロジェクトのドロップダウン ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. （条件付き）既存のプロジェクトを追加することを選択した場合、「**プロジェクトを追加**」ボックスが開きます。<!--check this after UI changes-->
 
@@ -161,6 +163,19 @@ Old:
 1. 「**[!UICONTROL プロジェクトをこのPortfolio]**&#x200B;に追加」フィールドにプロジェクトの名前を入力し、リストに表示されたらクリックします。 <!--check this after UI changes-->
 
    複数のプロジェクトを追加できます。
+
+   >[!NOTE]
+   >
+   >組織で従来のWorkfrontとAdobe エンタープライズ版の両方のドキュメントストレージを使用している場合は、次のシナリオが存在します。
+   >
+   >
+   >* Adobe ストレージプロジェクトをWorkfront ストレージポートフォリオに追加し、そのポートフォリオにドキュメントが添付されていない場合、そのポートフォリオはAdobe ストレージポートフォリオに変換されます。
+   >* Adobe ストレージプロジェクトをWorkfront ストレージポートフォリオに追加し、ポートフォリオにドキュメントが添付されている場合、ポートフォリオドキュメントストレージはWorkfront ストレージに残ります。 ただし、従来のWorkfront ストレージアイコン ![従来のWorkfront ストレージアイコン ](assets/legacy-storage-project-icon.png)はポートフォリオから削除されます。
+   >* Workfront ストレージプロジェクトをAdobe ストレージポートフォリオに追加することはできません。
+   >
+   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >
+   >すべてのWorkfront インスタンスに両方の種類のドキュメントストレージがあるわけではありません。
 
 1. （オプション）プロジェクト名の右側にある&#x200B;**X** アイコンをクリックして、ポートフォリオに追加しない場合は、リストから削除します。
 
