@@ -21,4 +21,4 @@ ht-degree: 0%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。

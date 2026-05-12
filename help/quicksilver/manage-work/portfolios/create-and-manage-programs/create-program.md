@@ -110,14 +110,14 @@ Old:
 
    * Workfront Planningのレコードタイプから連結するだけです。
 
-  レコードにプログラムを追加して作成する方法について詳しくは、[ レコードを作成](/help/quicksilver/planning/records/create-records.md)の「レコードを接続する際にレコードを作成する」の節を参照してください。
+  レコードにプログラムを追加して作成する方法について詳しくは、[&#x200B; レコードを作成](/help/quicksilver/planning/records/create-records.md)の「レコードを接続する際にレコードを作成する」の節を参照してください。
    * Workfront計画の自動処理の使用。
 
   詳しくは、[Adobe Workfront Planning レコードの自動処理を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)を参照してください。
 
   Workfront Planning用の新しいWorkfront ライセンスと、追加のWorkfront Planning パッケージが必要です。
 
-  Workfront Planningへのアクセスについて詳しくは、[ アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
+  Workfront Planningへのアクセスについて詳しくは、[&#x200B; アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
 ## プログラムを作成
 
