@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
+source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1646'
 ht-degree: 6%
 
 ---
@@ -178,7 +178,7 @@ Old:
 * セクションを追加できるのは、レコードのすべてのフィールドを表示するときだけです。 テーブルビューで非表示のフィールドを非表示にした場合、セクションを追加することはできません。
 * ページに含めることができるセクションの数に制限はありません。
 * 空のセクションを持つことはできません。 セクションには少なくとも1つのフィールドが必要です。
-* フィールドをセクション間でドラッグ&amp;ドロップできます。 詳しくは、この記事のレコードプレビューまたは詳細ページ [の「](#manage-fields-in-the-records-details-tab) フィールドを管理する」の節を参照してください。
+* フィールドをセクション間でドラッグ&amp;ドロップできます。 詳しくは、この記事のレコードプレビューまたは詳細ページ [&#128279;](#manage-fields-in-the-records-details-tab)の「 フィールドを管理する」の節を参照してください。
 * セクションからすべてのフィールドを削除すると、セクションは自動的に削除され、復元できません。
 
 レコードプレビューまたはページにセクションを追加するには：
@@ -205,7 +205,7 @@ Old:
 
 1. （オプション）レコードプレビューの右上隅にある「**新しいタブで開く**」アイコン「![新しいタブアイコンで詳細を開く](assets/open-details-in-a-new-tab-icon.png)」をクリックして、新しいタブでレコードのページを開きます。
 
-   レコード ページが開きます。 「詳細」タブがデフォルトで開きます。
+   レコードページが開きます。 「詳細」タブがデフォルトで開きます。
 
    ![詳細ページ &#x200B;](assets/details-page.png)
 
@@ -242,13 +242,13 @@ Old:
 
    セクションとフィールドの順序に対するすべての変更は自動的に保存されます。
 
-1. （オプション）レコードの詳細ページ **の**&#x200B;書き出し![&#x200B; メニュー](assets/export-icon-in-record-details-page.png)書き出しアイコンをクリックして、「詳細」タブをWordまたはPDF ファイルに書き出します。 詳しくは、[&#x200B; レコードの詳細の書き出し](/help/quicksilver/planning/records/export-the-record-page.md)を参照してください。
+1. （オプション）レコードの詳細ページ ![&#128279;](assets/export-icon-in-record-details-page.png)の&#x200B;**書き出し** メニュー書き出しアイコンをクリックして、「詳細」タブをWordまたはPDF ファイルに書き出します。 詳しくは、[&#x200B; レコードの詳細の書き出し](/help/quicksilver/planning/records/export-the-record-page.md)を参照してください。
 
 1. （オプション）「**詳細**」タブの横にある「**接続**」タブをクリックします。 「**接続**」タブをクリックする前に、**詳細**&#x200B;をクリックする必要がある場合があります。
 
    選択したレコードに接続されているすべてのレコードまたはオブジェクトは、レコードタイプの名前または属するアプリケーションの下に表示されます。
 
-   Workfront Planning![のレコードの「](assets/connections-tab-on-record-in-workfront-planning.png)接続」タブ
+   Workfront Planning![&#128279;](assets/connections-tab-on-record-in-workfront-planning.png)のレコードの「接続」タブ
 
 1. （オプション）接続タブの右上隅にある「**すべてのレコードを表示**」設定を選択します。 接続されているレコードタイプがすべて表示されます。これには、まだ接続されているレコードがないレコードタイプも含まれます。 デフォルトでは、切り替えスイッチは選択解除され、接続されたレコードがないレコードタイプは非表示になります。
 
@@ -276,13 +276,13 @@ Old:
 
    または
 
-   テーブル テーブル表示から、最初の列のテーブル名フィールド **で**&#x200B;詳細を開く![&#x200B; アイコン &#x200B;](assets/open-details-icon-in-table-name-field.png)詳細を開くアイコンをクリックします。
+   テーブル テーブル表示から、最初の列のテーブル名フィールド ![&#128279;](assets/open-details-icon-in-table-name-field.png)で&#x200B;**詳細を開く** アイコン 詳細を開くアイコンをクリックします。
 
    レコードのプレビューがビューで開きます。
 
    ![詳細ボックス &#x200B;](assets/details-box.png)
 
-1. （オプションおよび条件付き）詳細ページに表示するフィールドに応じて、次のいずれかの操作を行います。
+1. （オプションおよび条件付き） <!--If you are using the Production environment,-->詳細ページに表示するフィールドに応じて、次のいずれかの操作を行います。
 
 
    * 「**すべてのフィールドを表示**」設定を選択して、**詳細** ページにすべてのレコードのフィールドを含めます。 これはデフォルトの設定です。
@@ -292,6 +292,33 @@ Old:
      >
      >* 「**すべてのフィールドを表示**」設定は、レコードの「詳細」プレビューボックスでのみ使用できます。 レコードの詳細ページがブラウザーウィンドウで開いた場合は使用できません。
      >* 詳細プレビューボックスで非表示フィールドを除外すると、レコードのページにセクションを追加することはできません。
+
+
+   <!--
+   1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
+      >[!TIP]
+      >
+      > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view.</span>
+   -->
+   <!--
+   <div class="preview">
+   In the Preview environment, continue with the following: 
+   1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
+   1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
+      1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
+      1. Hover over the fields on the view and click the **Hide and drag field** icon ![Hide and drag field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field or place it in another spot on the page. 
+         >[!TIP]
+         >
+         >* Custom pages are visible by everyone who accesses the record. 
+         >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+      1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+         >[!TIP]
+         >
+         >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
+      1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
+      1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
+   </div>
+   -->
 
 1. （オプション）接続されたレコードに移動する場合は、詳細ページの上部にあるパンくずリストでそのレコードの名前をクリックします。
 

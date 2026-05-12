@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1799'
 ht-degree: 1%
 
 ---
@@ -188,6 +188,11 @@ Removed - more direct steps below:
 
       リスト表示に追加できるのは、既存のフィールドのみです。
 最初の列に表示されるリストビューのプライマリフィールドは削除できません。
+
+      <!-- 
+        update indent here: 
+        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
+        -->
 
    1. **セルの書式設定** アイコン ![&#x200B; セルの書式設定アイコン &#x200B;](assets/format-cells-icon.png)をクリックします。 **形式** ボックスが開きます。 <!--change the name of the box when they update it-->
 次の操作を行います。
