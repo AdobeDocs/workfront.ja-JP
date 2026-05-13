@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 6%
@@ -201,11 +201,15 @@ Old:
 
    レコードのプレビューがビューで開きます。
 
+   <!--update screen shot for details views preview-->
+
    ![詳細ボックス &#x200B;](assets/details-box.png)
 
 1. （オプション）レコードプレビューの右上隅にある「**新しいタブで開く**」アイコン「![新しいタブアイコンで詳細を開く](assets/open-details-in-a-new-tab-icon.png)」をクリックして、新しいタブでレコードのページを開きます。
 
    レコードページが開きます。 「詳細」タブがデフォルトで開きます。
+
+   <!--update screen shot for details views preview-->
 
    ![詳細ページ &#x200B;](assets/details-page.png)
 
@@ -280,6 +284,8 @@ Old:
 
    レコードのプレビューがビューで開きます。
 
+   <!--update screen shot for details views preview-->
+
    ![詳細ボックス &#x200B;](assets/details-box.png)
 
 1. （オプションおよび条件付き） <!--If you are using the Production environment,-->詳細ページに表示するフィールドに応じて、次のいずれかの操作を行います。
@@ -302,16 +308,21 @@ Old:
    -->
    <!--
    <div class="preview">
+
    In the Preview environment, continue with the following: 
+   
    1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
    1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
       1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide and drag field** icon ![Hide and drag field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field or place it in another spot on the page. 
+      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
+     
          >[!TIP]
          >
          >* Custom pages are visible by everyone who accesses the record. 
          >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+     
       1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+     
          >[!TIP]
          >
          >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
@@ -331,6 +342,8 @@ Old:
 1. （オプション）レコードプレビューの右上隅にある&#x200B;**新しいタブで開く** アイコン ![新しいタブアイコンで詳細ボックスを開く](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->をクリックして、新しいタブでレコードのページを開きます。
 
    レコード **詳細** ページが新しいタブで開きます。
+
+   <!--update screen shot for details views preview-->
 
    ![詳細ページ &#x200B;](assets/details-page.png)
 

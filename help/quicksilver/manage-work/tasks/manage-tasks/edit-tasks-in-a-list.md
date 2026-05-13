@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '2825'
-ht-degree: 62%
+source-wordcount: '2859'
+ht-degree: 61%
 
 ---
 
@@ -345,7 +345,11 @@ Old:
     </tbody> 
    </table>
 
-1. Workfront は、タスクのタイムラインに変更を加えると、プロジェクト内およびプロジェクト間のすべての依存関係を更新します。
+1. リスト内のタスクをクリックし、タイムラインの別の位置にドラッグ&amp;ドロップします。
+
+   親タスクをクリックして位置を変更すると、すべての子も移動されます。
+
+   Workfront は、タスクのタイムラインに変更を加えると、プロジェクト内およびプロジェクト間のすべての依存関係を更新します。
 1. タスクの変更を完全に保持し、プロジェクトのタイムラインを保存する場合は、「**保存**」をクリックします。
 
 #### 「タイムライン計画を手動保存」オプションを選択すると、タスクリストの変更を手動で保存 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}

@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '3062'
-ht-degree: 67%
+source-wordcount: '3123'
+ht-degree: 66%
 
 ---
 
@@ -583,6 +583,23 @@ Old:
 1. 「**保存**」をクリックします。
 
    本ユーザーまたは別のユーザーがこのテンプレートからプロジェクトを作成すると、テンプレートタスクに適用したすべての設定がプロジェクトタスクの設定になります。
+
+
+## リスト内のテンプレートタスクの編集
+
+リスト内のテンプレートタスクは、次の領域で編集できます。
+
+* テンプレートの「テンプレートタスク」セクション
+* テンプレートタスクレポート
+
+リスト内のテンプレートタスクの編集は、リスト内のプロジェクトタスクの編集と似ています。
+
+>[!TIP]
+>
+>テンプレートタスクに使用できるプランモードはありません。
+
+
+詳しくは、[リスト内のタスクの編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)を参照してください。
 
 
 <!--

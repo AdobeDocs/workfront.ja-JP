@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1803'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 Workfront Planningの次の領域では、リストビューでオブジェクトを表示できます。
 
-* レコードの詳細領域にあるプロジェクトの接続されたレコードページ
+* レコードの詳細領域<!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->にあるプロジェクトの接続されたレコード ページ
 
   ![&#x200B; リスト表示の接続されたレコード ページ上のプロジェクト &#x200B;](assets/projects-on-connected-records-page-list-view.png)
 
@@ -189,11 +189,6 @@ Removed - more direct steps below:
       リスト表示に追加できるのは、既存のフィールドのみです。
 最初の列に表示されるリストビューのプライマリフィールドは削除できません。
 
-      <!-- 
-        update indent here: 
-        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
-        -->
-
    1. **セルの書式設定** アイコン ![&#x200B; セルの書式設定アイコン &#x200B;](assets/format-cells-icon.png)をクリックします。 **形式** ボックスが開きます。 <!--change the name of the box when they update it-->
 次の操作を行います。
 
@@ -232,7 +227,7 @@ Removed - more direct steps below:
 書式設定は、リスト表示にすぐに適用されます。
 「**セルを書式設定**」アイコンの横に青い点があり、ビューに特殊な書式設定が適用されていることを示します。
 
-   1. （オプション）「**グループ化**」アイコン「![&#x200B; グループ化」アイコン「](assets/grouping-icon.png)<!--have they updated this to "Grouping"??-->」をクリックして、リスト内の項目を共通フィールドでグループ化します。 オプションのいずれかを選択するか、検索バーを使用してフィールドを検索します。
+   1. （オプション）「**グループ化**」アイコン「![&#x200B; グループ化」アイコン「](assets/grouping-icon.png)」をクリックして、リスト内の項目を共通フィールドでグループ化します。 オプションのいずれかを選択するか、検索バーを使用してフィールドを検索します。
 
       フィールドをグループ化するには、リスト内の列である必要があります。 すべてのフィールドタイプをグループ化に使用できるわけではありません。
 
@@ -243,7 +238,7 @@ Removed - more direct steps below:
       * 中
       * 高い
 
-   <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
+      <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. （オプション）リストの右上隅にある検索ボックスにキーワードを追加して、項目を検索します。
 
@@ -253,19 +248,21 @@ Removed - more direct steps below:
 
    * リストの右上隅にある「**レコードを接続**」をクリックして、既存の項目を追加します。
    * リストの下部にある&#x200B;**新しい行**&#x200B;をクリックして、新しい項目を追加します。
-1. リスト内の接続されたアイテムの名前をクリックして、別のブラウザータブで開きます。
+1. リスト内の項目の名前をクリックして、別のブラウザータブで開きます。
 1. リスト内のセル内をダブルクリックしてフィールドの情報を編集し、Enter キーを押して変更を保存します。
 
    一部のフィールドは読み取り専用です。 例えば、プロジェクトの完了率は、システムによって計算されたフィールドであり、手動で編集することはできません。
 
-1. リスト内の項目の名前にカーソルを合わせ、**詳細** メニュー[詳細メニュー](assets/more-menu.png)をクリックし、**表示**&#x200B;をクリックして、別のタブでプロジェクトを開きます
+1. リスト内の項目の名前にカーソルを合わせ、**詳細** メニュー[詳細メニュー](assets/more-menu.png)をクリックし、**表示**&#x200B;をクリックして別のタブで項目を開きます
 
    または
 
-   1つ以上の項目を選択し、リストの下部にあるアクションバーに注目してから、次のいずれかをクリックします（使用可能な場合）。 リスト表示にアクセスする領域に応じて、次のいずれかのオプションをクリックします。
+   1つ以上の項目を選択し、リストの下部にあるアクションバーに注目してから、次のいずれかをクリックします（使用可能な場合）。
+
+   リスト表示にアクセスする領域に応じて、次のいずれかのオプションをクリックします。
 
    * 項目を削除するには、**削除**&#x200B;してください。 プロジェクトを削除すると、レコードからそのレコードが切断され、Workfrontのごみ箱に移動されます。 Workfront管理者は、削除されたプロジェクトを削除してから最大30日後に復元できます。 フォームを削除しても、フォームの送信時に作成されたリクエストやレコードは削除されません。
-   * **切断**&#x200B;して、プロジェクトをレコードから切断します。 プロジェクトを切断すると、そのプロジェクトとそのルックアップフィールドのすべての値が現在のレコードから削除されます。
+   * プロジェクトをレコードから切断するには、プロジェクト接続ページの&#x200B;**切断**&#x200B;を行います。 プロジェクトを切断すると、そのプロジェクトとそのルックアップフィールドのすべての値が現在のレコードから削除されます。
 
      ![接続されたレコード ページ リスト ビューのアクション バー](assets/actions-bar-connected-records-page-list-view.png)
 
