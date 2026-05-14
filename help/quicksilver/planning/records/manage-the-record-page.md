@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1989'
 ht-degree: 6%
 
 ---
@@ -18,11 +18,9 @@ ht-degree: 6%
 
 # レコードページのレイアウトの管理
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページで強調表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -288,7 +286,7 @@ Old:
 
    ![詳細ボックス &#x200B;](assets/details-box.png)
 
-1. （オプションおよび条件付き） <!--If you are using the Production environment,-->詳細ページに表示するフィールドに応じて、次のいずれかの操作を行います。
+1. （オプションおよび条件付き）実稼動環境を使用している場合、詳細ページに表示するフィールドに応じて、次のいずれかの操作を行います。
 
 
    * 「**すべてのフィールドを表示**」設定を選択して、**詳細** ページにすべてのレコードのフィールドを含めます。 これはデフォルトの設定です。
@@ -300,36 +298,37 @@ Old:
      >* 詳細プレビューボックスで非表示フィールドを除外すると、レコードのページにセクションを追加することはできません。
 
 
-   <!--
-   1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
+1. <span class="preview"> （オプションおよび条件付き）プレビュー環境を使用している場合、詳細領域はデフォルトで&#x200B;**選択したテーブルビューフィールド** ビューで開きます。 これにより、テーブルビューに表示されるフィールドのみが表示されます。</span>
+
+   >[!TIP]
+   >
+   > <span class="preview">選択したテーブル ビューのフィールド **は、テーブル ビューでレコードを表示する場合にのみ使用できます。</span>**
+
+<div class="preview">
+
+プレビュー環境で、次の手順に進みます。
+
+1. すべてのフィールドを表示するには、ページビューのドロップダウンメニューを展開し、**すべてのフィールド**&#x200B;を選択します。
+1. （オプション）「**新しい詳細**」をクリックして新しいページを追加し、カスタマイズしてから、次の操作を行います。
+
+   1. **ビューを作成** ボックスで、新しい詳細ページビューの名前を追加し、**作成**&#x200B;をクリックします。
+   1. ビューのフィールドにカーソルを合わせ、フィールドの左側にある&#x200B;**フィールドを非表示** アイコン ![&#x200B; フィールドを非表示アイコン &#x200B;](assets/hide-field-in-details-page-icon.png)をクリックして、フィールドを非表示にします。
+
       >[!TIP]
       >
-      > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view.</span>
-   -->
-   <!--
-   <div class="preview">
+      >* カスタムページは、レコードにアクセスするすべてのユーザーが表示できます。
+      >* 選択した最後のページビューは、同じタイプの別のレコードを開いたときにデフォルトで開くページビューです。
 
-   In the Preview environment, continue with the following: 
-   
-   1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
-   1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
-      1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
-     
-         >[!TIP]
-         >
-         >* Custom pages are visible by everyone who accesses the record. 
-         >* The last page view you choose will be the one that opens by default when you open another record of the same type.
-     
-      1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
-     
-         >[!TIP]
-         >
-         >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
-      1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
-      1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
-   </div>
-   -->
+   1. （オプション）詳細ページの上部にある&#x200B;**フィールドアイコン** ![&#x200B; フィールドアイコン &#x200B;](assets/fields-icon.png)をクリックし、詳細ページでフィールドを非表示または表示します。
+
+      >[!TIP]
+      >
+      >**フィールド** アイコンは、**選択済みテーブルビュー**&#x200B;または&#x200B;**すべてのフィールド** ビューに詳細ページを表示する際には使用できません。
+
+   1. （オプション）カスタム詳細ページビューの名前を編集するには、ビューの名前にカーソルを合わせて&#x200B;**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-menu.png)をクリックし、**編集**&#x200B;をクリックします。
+   1. （オプション）カスタム詳細ページビューを削除するには、ビューの名前にカーソルを合わせて&#x200B;**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックしてから&#x200B;**削除**&#x200B;をクリックして確認します。 削除された詳細ページビューは復元できません。
+
+</div>
 
 1. （オプション）接続されたレコードに移動する場合は、詳細ページの上部にあるパンくずリストでそのレコードの名前をクリックします。
 
