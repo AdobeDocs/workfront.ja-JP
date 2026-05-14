@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1230'
 ht-degree: 44%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 44%
 
 レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
+グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
-レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーのレイアウトテンプレートへの割り当て](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーのレイアウトテンプレートへの割り当て](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
 ## アクセス要件
 
@@ -69,7 +69,7 @@ ht-degree: 44%
 ## [!DNL Workfront] でエリアの左パネルをカスタマイズ
 
 1. [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
-1. ![&#x200B; ユーザーに表示される内容をカスタマイズ &#x200B;](assets/dropdown-arrow.png)の下の下向き矢印&#x200B;**[!UICONTROL 下向き矢印]**&#x200B;をクリックし、オブジェクトの種類の名前または左側のパネルをカスタマイズする[!DNL Workfront]領域をクリックします。
+1. **[!UICONTROL ユーザーに表示される内容をカスタマイズ]**&#x200B;の下の下向き矢印![下向き矢印](assets/dropdown-arrow.png)をクリックし、オブジェクトの種類の名前または左側のパネルをカスタマイズする[!DNL Workfront]領域をクリックします。
 
    左側のパネルをカスタマイズできるオブジェクトタイプと[!DNL Workfront]領域を次の表に示します。
 
@@ -88,7 +88,7 @@ ht-degree: 44%
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>プロジェクト名</td> 
-      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [ !UICONTROHours], TROICONL Workload Balancer&rbrack;, [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL キューの詳細], [!UICONTROL ルーティングルール &#x200B;], [!UICONTROL キューのトピック &#x200B;], [!UICONTROL トピックグループ &#x200B;], [!UICONTROL メトリクス &#x200B;], [!UICONTROL プランニング &#x200B;]*, [!UICONTROL カスタムアプリケーション &#x200B;]**</td> 
+      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Resource for Billing], [!UICONTROL Billing Records], , Expenses, [!UICONTROL Hours], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
@@ -204,7 +204,7 @@ ht-degree: 44%
     </tbody> 
    </table>
 
-   * プロジェクト、ポートフォリオ、プログラムの左側のパネルにこの領域を追加するには、Workfront計画の追加ライセンスを購入する必要があります。 詳しくは、[Adobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください
+   * プロジェクト、ポートフォリオ、プログラムの左側のパネルにこの領域を追加するには、Workfront計画の追加ライセンスを購入する必要があります。 詳しくは、[Adobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 
    ** 左側のパネルオプションとして使用できるようになる前に、カスタムアプリケーションを個別に作成する必要があります。 詳しくは、[Adobe App Builderを使用したWorkfront用カスタムアプリケーションの作成](/help/quicksilver/app-builder/app-builder.md)を参照してください。
 
@@ -239,7 +239,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >ユーザーは、カスタムダッシュボードの項目を独自の左側のパネルに追加できます。レイアウトテンプレートにカスタムダッシュボードアイテムを追加すると、追加したアイテムに加えて、上書きやリセットを行わずにアイテムが表示されます。 これは、ユーザーをカスタムのダッシュボード項目を含む新しいレイアウトテンプレートに割り当てる場合にも当てはまります。左側のパネルをカスタマイズする方法について詳しくは、[Workfront オブジェクトまたは領域の左側のパネルにダッシュボードを追加](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)を参照してください。
+   >ユーザーは、カスタムダッシュボードの項目を独自の左側のパネルに追加できます。 レイアウトテンプレートにカスタムダッシュボードアイテムを追加すると、追加したアイテムに加えて、上書きやリセットを行わずにアイテムが表示されます。 これは、ユーザーをカスタムのダッシュボード項目を含む新しいレイアウトテンプレートに割り当てる場合にも当てはまります。 左側のパネルをカスタマイズする方法について詳しくは、[Workfront オブジェクトまたは領域の左側のパネルにダッシュボードを追加](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)を参照してください。
    >
    >ダッシュボードについて詳しくは、[ダッシュボード](../../../reports-and-dashboards/dashboards/dashboards-overview.md)を参照してください。
 
