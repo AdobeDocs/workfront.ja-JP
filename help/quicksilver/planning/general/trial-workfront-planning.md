@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
 workflow-type: tm+mt
-source-wordcount: '2368'
+source-wordcount: '2329'
 ht-degree: 3%
 
 ---
@@ -20,25 +20,26 @@ ht-degree: 3%
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
-<!--
-and this important, and remove the IMPORTANT below - it conflicts with this one: 
 >[!IMPORTANT]
 >
->The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
--->
+>Adobe Workfront計画試用期間は2026年5月15日に終了します。 この記事はしばらく有効ですが、まもなく廃止されます。 今後のブックマークの更新をお勧めします。
+
+ここでは、Workfront Planningの体験版で利用できる機能について説明します。
 
 Adobe Workfront計画では、マーケティングライフサイクルを一元的に可視化し、部門間の優れたコラボレーション、キャンペーンのリアルタイムの追跡、ワークフローの自動化を実現できます。 カスタムワークスペースを作成し、インタラクティブなタイムラインとカレンダーで作業を視覚化することができます。
 
+<!--
 >[!IMPORTANT]
 >
->* Adobe Workfrontでは、Adobe Workfront計画をご利用でないAdobe Workfrontのお客様を対象に、Workfront計画の60日間の無料体験版を提供しています。
+>* Adobe Workfront is offering a 60-day free trial of Adobe Workfront Planning to all Adobe Workfront customers who are not also Workfront Planning customers. 
 >
->* サインアップ期間は2026年4月1日に終了し、現在は閉鎖されています。
+>* The sign-up period ended on April 1, 2026 and it is now closed. 
 >
->* 体験版の契約書に同意し、体験版に登録した場合、2026年3月2日から5月1日の間に利用できます。 アクセスは2026年5月15日まで有効です。
+>* If you accepted the trial agreement and are enrolled in the trial, it is available between the following dates: March 2 - May 1, 2026. Access will remain active until May 15, 2026.
 >
->* 体験版は、発売日から60日間は利用でき、参加した日から60日間は利用できないことに注意してください。
+>* Note that the trial is available for 60 days from its launch, and not for 60 days from when you joined it.
 >
+-->
 
 このトライアルでは、プランニングが、日々の作業を戦略目標に合わせて合理化し、組織に測定可能な成果をもたらすのにどのように役立つのかを実感できます。
 
