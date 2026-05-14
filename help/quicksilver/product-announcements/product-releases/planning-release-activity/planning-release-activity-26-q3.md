@@ -25,7 +25,7 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 この記事では、2026年第3四半期のリリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## テーブルビューでのコンテンツフラグメントの新しいプレビューウィンドウ
 
@@ -69,7 +69,7 @@ For information, see Workspaces overview (/help/quicksilver/planning/architectur
 
 この更新により、**すべてのフィールドを表示**&#x200B;の設定が削除され、カスタム詳細ビューに置き換えられます。
 
-詳しくは、[ レコードページの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、[&#x200B; レコードページの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
 
 ## プロジェクト接続レコードページへのグループ化の追加
 
@@ -80,7 +80,7 @@ For information, see Workspaces overview (/help/quicksilver/planning/architectur
 
 Workfront Planningのレコードの「プロジェクト接続レコード」ページで情報をグループ化できるようになりました。 この機能は、この機能強化の前はこの領域には存在しませんでした。
 
-詳しくは、[ リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
+詳しくは、[&#x200B; リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
 
 
 <!--
