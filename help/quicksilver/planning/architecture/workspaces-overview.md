@@ -1,14 +1,14 @@
 ---
 title: ワークスペースの概要
-description: ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。Adobe Workfront Planningのワークスペースは、組織部門のワークフローに合わせて完全にカスタマイズできます。
+description: ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。 Adobe Workfront Planningのワークスペースは、組織部門のワークフローに合わせて完全にカスタマイズできます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 26%
 
 ---
@@ -25,8 +25,9 @@ ht-degree: 26%
 
 ワークスペースは、組織単位で使用されるレコードタイプのコレクションであり、単位の作業ライフサイクルとプロセスを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
 
+<!--update screenshot with preview-->
 
-![Workspaces ランディングページ管理者アカウント &#x200B;](assets/workspaces-landing-page-admin-account.png)
+![Workspaces ランディングページ管理者アカウント ](assets/workspaces-landing-page-admin-account.png)
 
 ## ワークスペースに関する考慮事項
 
@@ -43,7 +44,7 @@ ht-degree: 26%
 
 * ワークスペースとは、組織部門（チーム、グループ、部門、部門）が作業をおこなうフレームワークのことです。 フィールドに関連付けることはできません。 フィールドに関連付けられるのは、ワークスペース内のレコードタイプのみです。
 
-  詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
+  詳しくは、[ レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 * Workfront ライセンスに応じて、ワークスペースはプランニング エリアの次のタブに表示されます。
 
    * システム管理者の場合、ワークスペースは次のタブに表示されます。
@@ -51,12 +52,23 @@ ht-degree: 26%
       * **自分が所属するワークスペース**：作成したワークスペースまたは共有されているワークスペースを表示します。
       * **その他のワークスペース**：システム内のその他すべてのワークスペースが表示されます。
 
+     <!--
+      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
+      -->
+
+     <!--      
+        >[!NOTE]
+        >
+        ><span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
+        -->
+
    * その他のすべてのユーザーに対しては、そのユーザーが作成したワークスペースと、そのユーザーと共有された他のワークスペースがワークスペース領域に表示されます。
+  <!--* <span class="preview">**Sample workspaces**: Displays for Standard-license users when a Workfront administrator shared the workspaces on the tab with them. The tab displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span> -->
 
 * ワークスペースに含まれるレコードタイプは、作業ライフサイクルと組織単位の概念を反映している必要があります。
 
   例えば、ユニットの作業オブジェクトがキャンペーン、製品、地域の場合、そのユニットのワークスペースにはキャンペーン、製品、地域のレコードタイプを含める必要があります。
-* ワークスペースを作成した場合、自分だけがワークスペースにアクセスし、管理する権限を持っています。他のユーザーが同じスペースで共同作業できるようにするには、他のユーザーと共有する必要があります。
+* ワークスペースを作成した場合、自分だけがワークスペースにアクセスし、管理する権限を持っています。 他のユーザーが同じスペースで共同作業できるようにするには、他のユーザーと共有する必要があります。
 
   詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。
 
