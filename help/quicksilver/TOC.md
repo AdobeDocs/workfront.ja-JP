@@ -248,9 +248,9 @@ ht-degree: 95%
          * [Adobe Workfront Planning の 2025年第 1 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Adobe Workfront Planning の 2024年第 4 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Adobe Workfront の限定提供リリースのアクティビティ{#limited-availability-release-activity}
-         * {hide-from-toc}[Adobe Workfrontの制限付き利用可能機能のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
-         * {hide-from-toc}[Adobe Workfrontの制限付き機能に関する2026年第1四半期のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
-         * {hide-from-toc}[Adobe Workfrontの制限付き可用性の機能に関する2026年第2四半期のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+         * {hide-from-toc}[Adobe Workfrontの制限付き利用可能機能のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
+         * {hide-from-toc}[Adobe Workfrontの制限付き機能に関する2026年第1四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
+         * {hide-from-toc}[Adobe Workfrontの制限付き可用性の機能に関する2026年第2四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
       * Adobe Workfront シナリオプランナーのリリースアクティビティ {#scenario-planner-release}
          * [Adobe Workfront シナリオプランナーのリリースアクティビティ](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [21.3 リリースに伴う Adobe Workfront シナリオプランナー](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -431,12 +431,12 @@ ht-degree: 95%
       * [ベータ版プログラム](product-announcements/betas/betas.md)
       * キャンバスダッシュボードのベータ版 {#canvas-dashboards-beta}
          * [キャンバスダッシュボードベータ版の情報](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
-         * {hide-from-toc}[ レポート Canvas ベータ版の概要](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
-         * {hide-from-toc}[Canvas ダッシュボードのベータ版：リリースアクティビティ ](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
+         * {hide-from-toc}[&#x200B; レポート Canvas ベータ版の概要](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+         * {hide-from-toc}[Canvas ダッシュボードのベータ版：リリースアクティビティ &#x200B;](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * 新しいコメントエクスペリエンスのベータ版 {#new-commenting-experience-beta}
          * {hide-from-toc}[新しいコメント ベータ版エクスペリエンス情報](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * {hide-from-toc}[新しいコメント機能](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
-         * {hide-from-toc}[新しいコメントエクスペリエンスのリリースアクティビティ ](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+         * {hide-from-toc}[新しいコメントエクスペリエンスのリリースアクティビティ &#x200B;](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * {hide-from-toc}[新しいコメント体験に関するFAQ](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * 管理と設定 {#administration-and-setup}
    * [管理と設定：記事インデックス](administration-and-setup/administration-and-setup.md)
@@ -802,7 +802,7 @@ ht-degree: 95%
       * [評価カードを管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
       * [テンプレートからの評価カードの読み込み](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
       * [プロジェクトへのプッシュ率の変更](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
-      * [ レートカードの共有](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
+      * [&#x200B; レートカードの共有](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
    * 統合の設定 {#configure-integrations}
       * [統合の設定](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront 統合](administration-and-setup/configure-integrations/workfront-integrations-1.md)
@@ -856,7 +856,7 @@ ht-degree: 95%
       * [未認証のメールが受け入れられない](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
       * [Workfront：ZScaler 設定によりパフォーマンスが低下する場合がある](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [ユーザー資格情報と SAML 資格情報](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
-      * {hide-from-toc}[ アクセスレベルの自動アップグレードオプションの更新](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
+      * {hide-from-toc}[&#x200B; アクセスレベルの自動アップグレードオプションの更新](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront の基本 {#basics}
    * [Adobe Workfront の基本：記事インデックス](workfront-basics/workfront-basics.md)
    * [Adobe Workfront の用語集](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
@@ -1009,7 +1009,7 @@ ht-degree: 95%
          * [Adobe Workfront アカウントの管理](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Adobe Workfront へのログイン](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [Adobe Workfront からのログアウト](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-         * {hide-from-toc}[拡張認証によるユーザーのパスワードのリセット ](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+         * {hide-from-toc}[拡張認証によるユーザーのパスワードのリセット &#x200B;](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
          * [招待メールの受信と Adobe Workfront のパスワードの作成](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
          * [外部ユーザーとして  [!DNL Adobe Workfront]  にアカウントを作成](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [パスワードのリセット](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
@@ -1177,7 +1177,7 @@ ht-degree: 95%
       * [ドキュメントの削除](documents/managing-documents/delete-documents.md)
       * [クリップボードから画像を貼り付けます。](documents/managing-documents/paste-image-clipboard.md)
       * [テンプレートの一括編集](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-      * {hide-from-toc}[Workfront ドキュメントの詳細](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)内のAddBuilder
+      * {hide-from-toc}[Workfront ドキュメントの詳細内のAddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * ドキュメントの整理 {#organize-documents}
       * [ドキュメントの整理](documents/organizing-documents/organize-documents.md)
       * [ドキュメントフォルダーを作成](documents/organizing-documents/create-documents-folder.md)
@@ -1801,7 +1801,7 @@ ht-degree: 95%
       * [Snowflake のリーダーアカウントまたは接続の作成](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Workfront Data Connect への接続の確立](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect のデータ辞書](reports-and-dashboards/data-lake/data-dictionary.md)
-      * {hide-from-toc}[ データディクショナリテスト ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
+      * {hide-from-toc}[&#x200B; データディクショナリテスト &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
       * [Workfront Data Connect クエリの例](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Workfront Data Connect の使用状況指標の表示](reports-and-dashboards/data-lake/view-usage-metrics.md)
       * [Data Connect の職歴データビューの使用](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
@@ -2190,7 +2190,7 @@ ht-degree: 95%
       * [ワークスペースの共有](planning/access/share-workspaces.md)
       * [レコードタイプの共有](planning/access/share-record-types.md)
       * [ビューの共有](planning/access/share-views.md)
-      * {hide-from-toc}[ レコードを共有](planning/access/share-records.md)
+      * {hide-from-toc}[&#x200B; レコードを共有](planning/access/share-records.md)
       * [ビューまたはワークスペースに対する権限のリクエスト](planning/access/request-permissions.md)
    * Adobe Workfront Planning レコード {#adobe-workfront-planning-records}
       * [レコード：記事インデックス](planning/records/records-information.md)
@@ -2242,7 +2242,7 @@ ht-degree: 95%
       * [Adobe Workfront Planning での GenStudio ワークスペースの管理](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * {hide-from-toc}[Workfront計画ワークスペースをGenStudioに昇格](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
    * Adobe Workfront Planning スタンドアロン {#planning-standalone}
-      * {hide-from-toc}[Adobe Workfront Planning Standalone：記事インデックス ](planning/planning-sta/planning-sta-article-index.md)
+      * {hide-from-toc}[Adobe Workfront Planning Standalone：記事インデックス &#x200B;](planning/planning-sta/planning-sta-article-index.md)
       * {hide-from-toc}[Adobe Workfront Planning Standloneの基本を学ぶ](planning/planning-sta/get-started-with-planning-sta.md)
 * Adobe Workfront の統合 {#adobe-workfront-integrations}
    * [Adobe Workfront 統合](workfront-integrations-and-apps/workfront-integrations.md)
@@ -2254,7 +2254,7 @@ ht-degree: 95%
          * [Adobe Workfront for Creative Cloud アプリケーションのインストール](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Photoshop 用 Adobe Workfront をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Adobe Workfront for XD をインストールして開きます。](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-         * [ [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+         * [&#x200B; [!DNL Adobe Workfront for design and video] をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
       * Creative Cloud アプリケーション用の Adobe Workfront プラグインで作業を管理 {#manage-wf-cc}
          * [Creative Cloud アプリケーション用の Adobe Workfront プラグインで作業を管理](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
          * [Adobe Workfront プラグインを使用して作業を検索](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
@@ -2262,9 +2262,9 @@ ht-degree: 95%
          * [Adobe Workfront プラグインを使用して作業を更新](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Adobe Workfront プラグインを使用して作業アイテムを完了とマーク](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Adobe Workfront プラグインを使用して時間を記録](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [ [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [&#x200B; [!DNL Adobe Workfront]  通知を Adobe Creative Cloud から管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントとプルーフのアップロード {#upload-docs-proofs-wf-cc}
-         * {hide-from-toc}[ ドキュメントとプルーフを [!DNL Adobe Workfront plugin] から [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)にアップロードします
+         * {hide-from-toc}[&#x200B; ドキュメントとプルーフを [!DNL Adobe Workfront plugin] から [!DNL Creative Cloud]にアップロードします](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Creative Cloud アプリケーション用 Adobe Workfront プラグインでドキュメントとプルーフのアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
          * [Photoshop からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
          * [Photoshop からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2272,8 +2272,8 @@ ht-degree: 95%
          * [XD アートボードをドキュメントとして Workfront にアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
          * [InDesign からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
          * [InDesign からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-         * [ [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-         * [ [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
+         * [&#x200B; [!DNL Illustrator] からプルーフをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+         * [&#x200B; [!DNL Illustrator] からドキュメントをアップロード](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
       * Illustrator および InDesign 向け Workfront 拡張機能 {#workfront-for-illustrator-indesign}
          * [Illustrator および InDesign 向け Workfront 拡張機能の使用](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Jira 用 Adobe Workfront {#workfront-for-jira}
@@ -2527,13 +2527,13 @@ ht-degree: 95%
          * [Workfront Proof のユーザーおよび連絡先に関するヒント、テクニックおよびトラブルシューティング](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
          * [ユーザーのその他のグループを一括編集する](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
    * Workfront Proof モバイル {#wf-proof-mobile}
-      * {hide-from-toc}[Workfront Proof モバイル ](workfront-proof/wp-mobile/wp-mobile.md)
+      * {hide-from-toc}[Workfront Proof モバイル &#x200B;](workfront-proof/wp-mobile/wp-mobile.md)
       * Workfront Proof モバイルアプリ {#wf-proof-mobile-apps}
-         * {hide-from-toc}[Workfront Proof モバイルアプリ ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-         * {hide-from-toc}[Workfront Proof モバイルアプリ ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
-         * {hide-from-toc}[ タブレット用Workfront Proof モバイルアプリ ](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
+         * {hide-from-toc}[Workfront Proof モバイルアプリ &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+         * {hide-from-toc}[Workfront Proof モバイルアプリ &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+         * {hide-from-toc}[&#x200B; タブレット用Workfront Proof モバイルアプリ &#x200B;](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
       * Workfront Proof モバイルアプリに関するヒント、テクニックおよびトラブルシューティング {#ttt-wf-proof-mobile-apps}
-         * {hide-from-toc}[Workfront Proof モバイルアプリのヒント、コツ、トラブルシューティング ](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
+         * {hide-from-toc}[Workfront Proof モバイルアプリのヒント、コツ、トラブルシューティング &#x200B;](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
          * {hide-from-toc}[Workfront Proof モバイルアプリにログインできません](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
    * Workfront Proof テクニカルコーナー {#wf-proof-tech-corner}
       * [Workfront Proof テクニカルコーナー](workfront-proof/wp-tech-corner/tech-corner.md)
@@ -2586,7 +2586,7 @@ ht-degree: 95%
       * [JWT フローを使用した組織のカスタム OAuth 2 アプリケーションの設定と使用](wf-api/api/oauth-app-jwt-flow.md)
       * [PKCE フローを使用した、組織のカスタム OAuth 2 アプリケーションの設定および使用](wf-api/api/oauth-app-pkce-flow.md)
       * [API-Internal の廃止](wf-api/api/deprecation-api-internal.md)
-      * [API バージョン 22](/help/quicksilver/wf-api/api/new-api-version-22.md)の新機能
+      * [API バージョン 22の新機能](/help/quicksilver/wf-api/api/new-api-version-22.md)
       * [API バージョン 21 の新機能](/help/quicksilver/wf-api/api/new-api-version-21.md)
       * [API バージョン 20 の新機能](/help/quicksilver/wf-api/api/new-api-version-20.md)
       * [API バージョン 19 の新機能](wf-api/api/new-api-version-19.md)
@@ -2664,13 +2664,13 @@ ht-degree: 95%
    * 一般 {#general}
       * [一般](proofhq-api/general/general.md)
       * [概要](proofhq-api/general/overview.md)
-      * {hide-from-toc}[ コードサンプル ](proofhq-api/general/code-samples.md)
+      * {hide-from-toc}[&#x200B; コードサンプル &#x200B;](proofhq-api/general/code-samples.md)
       * [SOAP API に関する FAQ](proofhq-api/general/soap-api-faqs.md)
 * App Builder {#app-builder}
    * [App Builder：記事インデックス](/help/quicksilver/app-builder/app-builder-toc.md)
    * [Adobe Exchange からのアプリの取得とインストール](/help/quicksilver/app-builder/install-apps-on-exchange.md)
    * [Adobe App Builder を使用した Workfront のカスタムアプリケーションの作成](/help/quicksilver/app-builder/app-builder.md)
-* {hide-from-toc}[非表示のテスト ドキュメント ](hidden-test.md)
+* {hide-from-toc}[非表示のテスト ドキュメント &#x200B;](hidden-test.md)
 
 
 <!--
