@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 41%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 41%
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>従来のWorkfront ストレージを使用してドキュメントを管理するWorkfront パッケージ</p>
-<p>Adobe エンタープライズストレージを使用してドキュメントを管理するワークフローパッケージ</p></td> 
+<p>Adobe クラウドストレージを使用してドキュメントを管理するワークフローパッケージ</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -64,7 +64,7 @@ ht-degree: 41%
 
 ## レガシードキュメントエクスペリエンスでのドキュメントの概要
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[従来のWorkfront ストレージとAdobe エンタープライズ ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[従来のWorkfront ストレージとAdobe クラウドストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ### 従来のドキュメントエクスペリエンスで概要ビューを開きます
 
@@ -90,13 +90,13 @@ ht-degree: 41%
 
 「概要」セクションを展開して、画像のサムネールを表示またはダウンロードし、プルーフを開き、基本的な説明を更新し、ドキュメントを確認します。
 
-![&#x200B; ドキュメントの概要](assets/details-section.png)
+![ ドキュメントの概要](assets/details-section.png)
 
 #### カスタムフォーム {#custom-forms}
 
 「カスタムフォーム」セクションでは、ドキュメントに関連付けられたカスタムフォームを追加、編集、表示できます。 カスタムフォームの名前を入力し、ドキュメントに追加します。 詳しくは、[ドキュメントへのカスタムフォームの追加または編集](../../documents/managing-documents/add-custom-form-documents.md)を参照してください。
 
-![&#x200B; ドキュメントの概要にカスタムフォームを追加](assets/custom-forms-section.png)
+![ ドキュメントの概要にカスタムフォームを追加](assets/custom-forms-section.png)
 
 ### 更新
 
@@ -113,11 +113,11 @@ ht-degree: 41%
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [ドキュメント承認のリクエスト](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![&#x200B; ドキュメントの概要の承認](assets/approvals-section.png)
+![ ドキュメントの概要の承認](assets/approvals-section.png)
 
 ### バージョン
 
-「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。 詳細アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックして、次の操作を行います。
+「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。 詳細アイコン ![詳細アイコン ](assets/more-icon.png)をクリックして、次の操作を行います。
 
 * プルーフを開きます。
 * プルーフまたはドキュメントをダウンロードします。
@@ -125,11 +125,11 @@ ht-degree: 41%
 * ドキュメントの詳細に移動します。
 * プルーフまたはドキュメントを削除します。
 
-![&#x200B; ドキュメント概要のバージョン &#x200B;](assets/versions-section.png)
+![ ドキュメント概要のバージョン ](assets/versions-section.png)
 
 ## 新しい文書エクスペリエンスの文書の概要
 
-組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しい「ドキュメント」領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ### 詳細
 
@@ -144,7 +144,7 @@ ht-degree: 41%
 承認とFrame.ioについて詳しくは、「
 
 * [レビューと承認の統合を始める](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-* [&#x200B; ドキュメントのレビューまたは承認リクエストを作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+* [ ドキュメントのレビューまたは承認リクエストを作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 ![新しいドキュメント エクスペリエンスでのドキュメントの概要の承認](assets/summary-approvals.png)
 
@@ -164,7 +164,7 @@ ht-degree: 41%
 * バージョンを共有
 * バージョンを削除
 
-![新しいドキュメント エクスペリエンスのドキュメント概要バージョン &#x200B;](assets/summary-versions.png)
+![新しいドキュメント エクスペリエンスのドキュメント概要バージョン ](assets/summary-versions.png)
 
 ### 履歴
 

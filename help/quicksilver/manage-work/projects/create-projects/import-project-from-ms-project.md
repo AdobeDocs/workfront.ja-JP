@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '604'
 ht-degree: 58%
 
 ---
@@ -106,14 +106,14 @@ old permissions model:
 1. Workfront にログインします。
 1. 次のいずれかの操作を行います。
 
-   * 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新規プロジェクト**&#x200B;を展開します。
+   * 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新規プロジェクト**&#x200B;を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの&#x200B;**プロジェクト** セクションでプロジェクトを作成できます。 詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
 1. 「**MS プロジェクトの読み込み**」をクリックします。
 
-   ![新規プロジェクトのドロップダウン &#x200B;](assets/import-ms-project-option.png)
+   ![新規プロジェクトのドロップダウン ](assets/import-ms-project-option.png)
 
    「**MS ファイルを読み込み**」ボックスが開きます。
 
@@ -128,9 +128,9 @@ old permissions model:
 
    >[!CAUTION]
    >
-   >Workfront インスタンスがWorkfrontとAdobeの両方のドキュメントストレージにアクセスできる場合、Workfront管理者がWorkfront Enterprise Storageをシステムのデフォルトにした場合でも、MS プロジェクトからプロジェクトを読み込むと、Adobe ストレージプロジェクトが作成されます。
+   >Workfront インスタンスがWorkfrontとAdobe クラウドストレージの両方にアクセスできる場合、Workfront管理者がWorkfront クラウドストレージをシステムのデフォルトにした場合でも、MS プロジェクトからプロジェクトを読み込むと、従来のAdobe ストレージプロジェクトが作成されます。
    >
-   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 
 1. （オプション）Workfront でプロジェクトの編集を続けます。 プロジェクトの編集の詳細については、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。

@@ -1,109 +1,115 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: アドビのエンタープライズストレージの概要
-description: アドビのエンタープライズストレージの概要
+title: Adobe クラウドストレージの概要
+description: Adobe クラウドストレージの概要
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 2%
+source-wordcount: '958'
+ht-degree: 0%
 
 ---
 
-# アドビのエンタープライズストレージの概要
+# Adobe クラウドストレージの概要
 
-Adobe エンタープライズストレージは、Adobe エンタープライズ製品全体のアセットの中央リポジトリとして機能するクラウドベースのストレージソリューションです。 WorkfrontとFrame.ioの連携は、Adobeエンタープライズストレージ上に構築されているため、シームレスな連携とアセット管理が可能です。
+Adobe クラウドストレージは、Adobe エンタープライズ製品全体のアセットの中央リポジトリとして機能するクラウドベースのストレージソリューションです。 WorkfrontとFrame.ioの連携は、Adobeクラウドストレージ上に構築されており、シームレスな連携とアセット管理を実現します。
 
 このストレージオプションは、Adobe Creative Cloudなどの他のAdobe製品との将来のアセット管理との統合にも役立ちます。
 
 ## 主な特長
 
-* **統合ストレージレイヤー**: Adobe エンタープライズストレージは、Workfront、Frame.io、Document Cloud、Creative Cloudの共有ストレージバックエンドとして機能します。 これにより、チャネルをまたいだシームレスな共同作業とアセット管理が可能になります。
+* **統合ストレージレイヤー**: Adobe クラウドストレージは、Workfront、Frame.io、Document Cloud、Creative Cloudの共有ストレージバックエンドとして機能します。 これにより、チャネルをまたいだシームレスな共同作業とアセット管理が可能になります。
 
-* **Content supply chainの有効化**: Adobe エンタープライズストレージは、Adobe Content Supply chain ビジョンの基盤となるコンポーネントであり、さまざまなAdobe アプリケーションに手動でダウンロードしたり再アップロードしたりすることなく、作業中のアセットを管理することができます。
+* **Content supply chainの有効化**: Adobe クラウドストレージは、Adobe Content Supply chain ビジョンの基盤となるコンポーネントであり、さまざまなAdobe アプリケーションで手動ダウンロードや再アップロードを行うことなく、作業中のアセットを管理することができます。
 
-* **権限とアクセスの一元管理**: Adobe エンタープライズストレージは、エンタープライズレベルのアクセス制御をサポートしており、Adobe IMS（Identity Management System）と統合して、安全でスケーラブルなユーザー権限を実現します。
+* **権限とアクセスの一元管理**: Adobe クラウドストレージは、エンタープライズレベルのアクセス制御をサポートしており、Adobe IMS（Identity Management System）と統合して、安全でスケーラブルなユーザー権限を実現します。
 
-* **エンドツーエンドのアセットの可視化**: Adobe エンタープライズストレージに保存されたAssetsは、Workfront、Frame.io、Creative Cloud アプリで直接サーフェイスおよび管理でき、一貫したメタデータ、バージョン管理、監査証跡を提供します。
+* **エンドツーエンドのアセットの可視化**: Adobe クラウドストレージに保存されたAssetsは、Workfront、Frame.io、Creative Cloud アプリで直接サーフェイスおよび管理でき、一貫したメタデータ、バージョン管理、監査証跡を提供します。
 
-* **レビューと承認のワークフローとの統合**: Adobe エンタープライズストレージは、すべてのアセットの信頼できる唯一の情報源として機能し、フィードバックと承認が一元的に追跡されるようにすることで、クリエイティブなレビューと承認のワークフローを可能にします。
+* **レビューと承認のワークフローとの統合**: Adobe クラウドストレージは、すべてのアセットの信頼できる唯一の情報源として機能することで、クリエイティブなレビューと承認のワークフローを可能にし、フィードバックと承認が一元的に追跡されるようにします。
 
-* **スケーラブルなストレージと割り当て管理**:Adobe エンタープライズストレージは、Adobe製品全体でスケーラブルなストレージオプションと統合された割り当て追跡を提供します。
+* **スケーラブルなストレージと割り当て管理**:Adobe クラウドストレージは、スケーラブルなストレージオプションと、Adobe製品全体での統一された割り当て追跡を提供します。
 
 ## レビューおよび承認ワークフローとの統合
 
-WorkfrontとFrame.ioの連携により、Adobeのエンタープライズストレージを活用して、レビューと承認のプロセスを一元管理できます。 この統合により、プロジェクトコーディネーターはWorkfrontでプロジェクトを管理し、作業を計画できるようになります。また、クリエイター、マーケター、ステークホルダーは、Frame.ioでアセットをレビューおよび承認できます。 これにより、あらゆる関係者が最新バージョンのアセットにアクセスでき、フィードバックが一元化されます。
+WorkfrontとFrame.ioの連携により、Adobeのクラウドストレージを活用して、レビューと承認のプロセスを一元管理できます。 この統合により、プロジェクトコーディネーターはWorkfrontでプロジェクトを管理し、作業を計画できるようになります。また、クリエイター、マーケター、ステークホルダーは、Frame.ioでアセットをレビューおよび承認できます。 これにより、あらゆる関係者が最新バージョンのアセットにアクセスでき、フィードバックが一元化されます。
 
 WorkfrontとFrame.ioの連携について詳しくは、[統一されたレビューと承認の概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)を参照してください。
 
-## Adobe エンタープライズストレージと従来のWorkfront ストレージの違い
+## Adobe クラウドストレージと従来のWorkfront ストレージの違い
 
-既存のWorkfront環境には、Adobe エンタープライズストレージと従来のWorkfront ストレージが組み合わされています。 Adobe エンタープライズストレージのリリース前に作成されたオブジェクトは、従来のWorkfront ストレージを使用します。
+既存のWorkfront環境には、Adobe クラウドストレージと従来のWorkfront ストレージが組み合わされています。 Adobe クラウドストレージのリリース前に作成されたオブジェクトは、従来のWorkfront ストレージを使用します。
 
-環境でAdobe エンタープライズストレージを有効にすると、Adobe エンタープライズストレージと従来のWorkfront ストレージプロジェクトの両方を作成できます。
+環境でAdobe クラウドストレージを有効にすると、Adobe クラウドストレージと従来のWorkfront ストレージプロジェクトの両方を作成できます。
 
 >[!NOTE]
 >
->新しい環境では、Adobe エンタープライズストレージがデフォルトで有効になっており、従来のWorkfront ストレージを使用するオプションはありません。
+>新しい環境では、デフォルトでAdobe クラウドストレージが有効になっており、従来のWorkfront ストレージを使用するオプションはありません。
 
 
 ### ドキュメント
 
 #### 新規ドキュメント領域
 
-新しいドキュメント エリアは、Adobe エンタープライズ ストレージ用に再設計された統合ドキュメント エリアです。
+新しいドキュメント領域は、Adobe クラウドストレージ用に再設計された統合ドキュメント領域です。
 
-更新されたインターフェイスにより、ナビゲーションが簡素化され、わかりやすくなり、チームは単一の統合環境でレビューと承認を容易に管理できるようになります。 詳しくは、[&#x200B; ドキュメント エリアの概要](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
+更新されたインターフェイスにより、ナビゲーションが簡素化され、わかりやすくなり、チームは単一の統合環境でレビューと承認を容易に管理できるようになります。 詳しくは、[ ドキュメント エリアの概要](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
 
 #### 新しいドキュメント権限モデル
 
 >[!IMPORTANT]
 >
->Adobe エンタープライズストレージでは、ドキュメントの権限は、従来のWorkfront ストレージとは異なります。 ドキュメントは、リンクされているプロジェクト、タスク、イシューから権限を継承します。
+>Adobe クラウドストレージでは、ドキュメントの権限は従来のWorkfront ストレージとは異なります。 ドキュメントは、リンクされているプロジェクト、タスク、イシューから権限を継承します。
 
 ドキュメントを個別に共有することはできません。 代わりに、タスクまたはイシューごとにフォルダーが自動的に生成され、タスクまたはイシューから権限が継承されます。 タスクまたはイシューにアップロードされたドキュメントは、生成されたフォルダーに保存されます。
 
-新しいドキュメント権限モデルについて詳しくは、[Adobe エンタープライズストレージモデルのオブジェクト権限とアクセスレベルの概要](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)を参照してください。
+新しいドキュメント権限モデルについて詳しくは、[Adobe クラウドストレージモデルのオブジェクト権限とアクセスレベルの概要](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)を参照してください。
 
 ##### フォルダー上のリンクされたオブジェクト
 
 プロジェクトレベルでは、システム生成フォルダーにリンクされたオブジェクトが表示されます。 フォルダーには、属するタスクまたはイシューと自動的に同じ名前が付けられます。 リンクされたフォルダーは、フォルダーを表示するタスクまたはイシューをシステムが把握する仕組みです。
 
-詳しくは、[&#x200B; ドキュメント権限の仕組み](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)を参照してください。
+詳しくは、[ ドキュメント権限の仕組み](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)を参照してください。
 
 ## Workfront オブジェクト
 
-次の表は、Workfront オブジェクトのAdobe エンタープライズストレージと従来のWorkfront ストレージの機能を比較したものです。
+次の表は、Workfront オブジェクトのAdobe クラウドストレージと従来のWorkfront ストレージの機能を比較したものです。
 
 Workfront オブジェクトには、ポートフォリオ、プログラム、プロジェクト、テンプレート、タスク、イシューが含まれます。
 
-| Adobe エンタープライズストレージ | 従来のWorkfront ストレージ |
+| Adobe クラウドストレージ | 従来のWorkfront ストレージ |
 |---|---|
-| <ul><li>Adobe エンタープライズストレージの使用</li><li>Frame.ioとの統合</li><li>新しい文書エクスペリエンスを使用</li><li>厳密な命名規則の適用</li><li>ドキュメントを直接共有することはできません</li><li>ドキュメントは、Frame.ioやCreative Cloudなどの他のAdobe製品で利用できます</li></ul> | <ul><li>Workfront ストレージの使用</li><li>プルーフビューアの使用</li><li>個々のドキュメントの共有をサポート</li></ul> |
+| <ul><li>Adobe クラウドストレージの使用</li><li>Frame.ioとの統合</li><li>新しい文書エクスペリエンスを使用</li><li>厳密な命名規則の適用</li><li>ドキュメントを直接共有することはできません</li><li>ドキュメントは、Frame.ioやCreative Cloudなどの他のAdobe製品で利用できます</li></ul> | <ul><li>Workfront ストレージの使用</li><li>プルーフビューアの使用</li><li>個々のドキュメントの共有をサポート</li></ul> |
 
 ### オブジェクトの移動、コピー、変換
 
-Workfront オブジェクトは、ストレージモデルなどの間で移動、コピー、変換できます。 例えば、タスクをAdobe エンタープライズストレージプロジェクトから別のAdobe エンタープライズストレージプロジェクトに移動できます。 タスクをAdobe エンタープライズストレージプロジェクトから従来のWorkfront ストレージプロジェクトに移動することはできません。
+Workfront オブジェクトは、ストレージモデルなどの間で移動、コピー、変換できます。 例えば、タスクをAdobe クラウドストレージプロジェクトから別のAdobe クラウドストレージプロジェクトに移動できます。 タスクをAdobe クラウドストレージプロジェクトから従来のWorkfront ストレージプロジェクトに移動することはできません。
 
-これらのアクションは、タスクまたはイシューの「その他」メニューから使用できます。 各アクションは、ドキュメントの完全性、権限の継承、Adobe エンタープライズストレージルールを尊重します。
+これらのアクションは、タスクまたはイシューの「その他」メニューから使用できます。 各アクションは、ドキュメントの整合性、権限の継承、Adobe クラウドストレージルールを尊重します。
 
-## Adobe エンタープライズストレージを有効にする
+## Adobe クラウドストレージを有効にする
 
-Adobe エンタープライズストレージを使用するには、Workfront契約にV2 Workfront SKUが含まれている必要があります。 V2 Workfront SKUの要件について詳しくは、[統一されたレビューと承認の概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval)のFAQを参照してください。
+Adobe クラウドストレージをサポートするWorkfrontのバージョンを使用している必要があります。 お客様の組織がまだサポートされているバージョンを使用していない場合は、Adobe アカウント担当者にお問い合わせください。
 
-お客様の環境でAdobe エンタープライズ ストレージを有効にする方法については、[お客様の組織でAdobe エンタープライズ ストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)を参照してください。
+お客様の環境でAdobe クラウドストレージを有効にする方法については、[お客様の組織でAdobe クラウドストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)を参照してください。
 
 >[!NOTE]
 >
->新規のお客様は、Adobe エンタープライズストレージをデフォルトで有効にしており、従来のWorkfront ストレージを使用するオプションはありません。
+>新規のお客様は、Adobe クラウドストレージをデフォルトで有効にしており、従来のWorkfront ストレージを使用するオプションはありません。
 
 
+
+## サンドボックス環境でのAdobe クラウドストレージ
+
+Adobe クラウドストレージは[!DNL Workfront] サンドボックス環境で利用できるため、実稼動環境で有効にする前にテストできます。 ただし、Frame.io ビューアはサンドボックスでは利用できないため、統一されたレビューと承認のエクスペリエンスを本番環境で検証する必要があります。
+
+カスタムリフレッシュサンドボックスがある場合は、サンドボックス内のAdobe クラウドストレージ機能にアクセスするために、Adobe クラウドストレージをサポートするWorkfrontのバージョンにアップグレードした後でリフレッシュする必要があります。 詳しくは、[ カスタムリフレッシュサンドボックス環境 [!DNL Adobe Workfront] を参照してください。](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## 考慮事項
 

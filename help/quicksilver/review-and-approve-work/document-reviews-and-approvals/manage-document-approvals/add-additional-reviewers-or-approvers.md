@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '572'
 ht-degree: 17%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 17%
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>従来のWorkfrontストレージを使用して承認を管理する、あらゆるWorkfrontパッケージ</p>
-<p>Adobeのエンタープライズストレージを使用して、承認を管理するあらゆるワークフローパッケージ</p> </td> 
+<p>Adobeのクラウドストレージを使用して承認を管理する任意のワークフローパッケージ</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
@@ -61,7 +61,7 @@ ht-degree: 17%
 
 ## レガシードキュメント領域のドキュメント概要から、追加の承認者またはレビュー担当者を追加します
 
-組織がWorkfront ストレージを使用している場合は、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Workfront ストレージとAdobe エンタープライズストレージ &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)の比較を参照してください。
+組織がWorkfront ストレージを使用している場合は、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Adobe クラウドストレージと従来のWorkfront ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)を参照してください。
 
 ドキュメントの概要から承認者またはレビュー担当者を追加するには：
 
@@ -79,7 +79,7 @@ ht-degree: 17%
 
 1. 名前が追加されたら、承認者またはレビュアーのどちらかであるかを選択します。
 
-   ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-approver-or-reviewer.png)
+   ![承認者またはレビュー担当者のドロップダウン ](assets/choose-approver-or-reviewer.png)
 
 1. 手順5～6を繰り返して、承認者またはレビュー担当者を追加します。
 保存すると、追加された参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
@@ -88,14 +88,14 @@ ht-degree: 17%
 
 ## 新しいドキュメント領域のドキュメント概要から、追加の承認者またはレビュー担当者を追加します
 
-組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しい「ドキュメント」領域が表示されます。 エンタープライズストレージについて詳しくは、[&#x200B; エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 
 1. 「**ワークフローを編集**」をクリックします。
@@ -104,7 +104,7 @@ ht-degree: 17%
 
 1. 名前が追加されたら、承認者またはレビュアーのどちらかであるかを選択します。
 
-   ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-approver-or-reviewer.png)
+   ![承認者またはレビュー担当者のドロップダウン ](assets/choose-approver-or-reviewer.png)
 
 1. 手順5～6を繰り返して、承認者またはレビュー担当者を追加します。
 保存すると、追加された参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。

@@ -8,16 +8,16 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 31%
+source-wordcount: '811'
+ht-degree: 30%
 
 ---
 
 # ドキュメントフォルダーを作成
 
-ドキュメントをフォルダーに整理できます。 Workfrontには現在、従来のドキュメント領域と新しいドキュメント領域の2つのバージョンがあります。 組織で使用するバージョンは、組織が従来のWorkfront ストレージを使用しているか、エンタープライズストレージを使用しているかによって異なります。 これらのストレージタイプについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+ドキュメントをフォルダーに整理できます。 Workfrontには現在、従来のドキュメント領域と新しいドキュメント領域の2つのバージョンがあります。 組織で使用するバージョンは、組織が従来のWorkfront ストレージとAdobe クラウドストレージのどちらを使用しているかによって異なります。 これらのストレージの種類について詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -30,7 +30,7 @@ ht-degree: 31%
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>従来のWorkfront ストレージを使用してドキュメントを管理するWorkfront パッケージ</p>
-<p>Adobe エンタープライズストレージを使用してドキュメントを管理するワークフローパッケージ</p> </td> 
+<p>Adobe クラウドストレージを使用してドキュメントを管理するワークフローパッケージ</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
@@ -51,7 +51,7 @@ ht-degree: 31%
 
 ## 従来のドキュメント領域でのドキュメントフォルダーの作成
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[Adobe エンタープライズ ストレージと従来のWorkfront ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[Adobe クラウドストレージと従来のWorkfront ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)を参照してください。
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 
 1. 右側のパネルの上にある表示オプションをクリックして、ドキュメントの表示方法を変更します。
 
-   ![&#x200B; ドキュメント表示オプション &#x200B;](assets/screenshot-2016-07-07-12.46.54.png)
+   ![ ドキュメント表示オプション ](assets/screenshot-2016-07-07-12.46.54.png)
 
 ### フォルダーとサブフォルダーの作成
 
@@ -93,21 +93,21 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 
 ## 新規ドキュメント領域でのドキュメントフォルダーの作成
 
-組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しい「ドキュメント」領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ### システム生成フォルダー
 
 タスクまたはイシューにドキュメントをアップロードすると、Workfrontは、タスクまたはイシューにちなんで名前が付けられたシステム生成フォルダーを自動的に作成します。 このフォルダーはタスクまたはイシューにリンクされ、その権限を継承します。 システム生成フォルダーは、プロジェクトレベルのドキュメント領域に表示されます。
 
-フォルダー権限について詳しくは、[&#x200B; ドキュメント権限の仕組み](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)を参照してください。
+フォルダー権限について詳しくは、[ ドキュメント権限の仕組み](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)を参照してください。
 
 ### サブフォルダーの作成
 
 システム生成フォルダー内にサブフォルダーを作成して、ドキュメントをさらに整理することができます。 すべてのサブフォルダーは、親フォルダーから権限を継承します。
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
-1. サブフォルダーを作成するフォルダーをクリックし、**フォルダーを追加** ![&#x200B; フォルダーを追加アイコン &#x200B;](assets/add-folder-icon.png) アイコンをクリックします。
-   ![&#x200B; サブフォルダーを追加](assets/add-subfolder.png)
+1. サブフォルダーを作成するフォルダーをクリックし、**フォルダーを追加** ![ フォルダーを追加アイコン ](assets/add-folder-icon.png) アイコンをクリックします。
+   ![ サブフォルダーを追加](assets/add-subfolder.png)
 1. サブフォルダーの名前を入力し、**作成**&#x200B;をクリックします。
 
 ### フォルダー名の変更
@@ -117,10 +117,10 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 フォルダー名を変更するには：
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
-1. 名前を変更するフォルダーを見つけたら、**More** ![more アイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
+1. 名前を変更するフォルダーを見つけたら、**More** ![more アイコン ](assets/more-icon.png) アイコンをクリックします。
 1. 「**名前を変更**」をクリックし、フォルダーの新しい名前を入力します。
 
-   ![&#x200B; フォルダー名を変更](assets/rename-folder.png)
+   ![ フォルダー名を変更](assets/rename-folder.png)
 
 1. 「**名前を変更**」をクリックします。
 
@@ -130,17 +130,17 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 
 >[!NOTE]
 >
->同じストレージタイプを使用するプロジェクト、タスク、イシューのみが移動ダイアログで使用できます。 例えば、エンタープライズストレージプロジェクト内のフォルダーを移動する場合は、エンタープライズストレージを使用するプロジェクト、タスク、およびイシューのみが移動可能です。
+>同じストレージタイプを使用するプロジェクト、タスク、イシューのみが移動ダイアログで使用できます。 例えば、Adobe クラウドストレージプロジェクト内のフォルダーを移動する場合、Adobe クラウドストレージを使用しているプロジェクト、タスク、および問題のみが移動可能です。
 
 
 フォルダーを移動するには：
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
-1. 移動するフォルダーを見つけたら、**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
+1. 移動するフォルダーを見つけたら、**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンをクリックします。
 1. **移動**&#x200B;をクリックし、フォルダーを移動するプロジェクト、タスク、またはイシューを選択します。
 
 
-   ![&#x200B; フォルダーを移動](assets/rename-folder.png)
+   ![ フォルダーを移動](assets/rename-folder.png)
 
 <!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new Documents area -->
 
@@ -149,7 +149,7 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 フォルダーを削除するには：
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
-1. 削除するフォルダーを見つけたら、**More** ![more アイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
+1. 削除するフォルダーを見つけたら、**More** ![more アイコン ](assets/more-icon.png) アイコンをクリックします。
 1. 「**削除**」をクリックします。
 
-   ![&#x200B; フォルダーを削除](assets/rename-folder.png)
+   ![ フォルダーを削除](assets/rename-folder.png)

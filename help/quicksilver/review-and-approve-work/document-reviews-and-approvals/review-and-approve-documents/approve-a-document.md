@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 71%
@@ -19,7 +19,7 @@ ht-degree: 71%
 
 ドキュメントの承認者として割り当てられている場合は、複数の方法で承認を決定できます。
 
-新しいドキュメント承認の作成について詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+新しいドキュメント承認の作成について詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ ht-degree: 71%
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>従来のWorkfrontストレージを使用して承認を管理する、あらゆるWorkfrontパッケージ</p>
-<p>Adobeのエンタープライズストレージを使用して、承認を管理するあらゆるワークフローパッケージ</p> </td> 
+<p>Adobeのクラウドストレージを使用して承認を管理する任意のワークフローパッケージ</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
@@ -70,7 +70,7 @@ ht-degree: 71%
    >
    >* 組織を説明するようにカスタマイズされた画像に置き換える。 この場合、アイコンはこの記事に示すものとは異なる外観になります。
    >
-   >* リンクされたページを別のページに置き換える。 この場合、ページの右上隅にある&#x200B;**メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](../assets/main-menu-icon.png)をクリックし、**ホーム**&#x200B;をクリックします。
+   >* リンクされたページを別のページに置き換える。 この場合、ページの右上隅にある&#x200B;**メインメニュー** ![ メインメニューアイコン ](../assets/main-menu-icon.png)をクリックし、**ホーム**&#x200B;をクリックします。
 
 1. ページ左上の「**フィルター**」をクリックして、「**承認**」がオンになっていることを確認します。
 
@@ -152,13 +152,13 @@ ht-degree: 71%
 
 1. Workfrontにアクセスしたら、**プルーフに移動**&#x200B;をクリックします。
 
-1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
+1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
 
 1. 次のいずれかの決定を選択します。
 
    * **承認**: ドキュメントは変更が必要なく、使用する準備ができています。
    * **変更を加えて承認**：文書は変更が必要で、作成したら使用できる状態になります。 追加の承認は必要ありません。
-   * **作業が必要**：文書は変更が必要で、使用する準備ができていません。 指定した変更が行われたら、ドキュメントを新しいバージョンとしてアップロードし、別の承認ラウンドを実行する必要があります。 新しいバージョンのアップロードについて詳しくは、[新しいドキュメントバージョンのアップロードと承認のリクエスト &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)を参照してください。
+   * **作業が必要**：文書は変更が必要で、使用する準備ができていません。 指定した変更が行われたら、ドキュメントを新しいバージョンとしてアップロードし、別の承認ラウンドを実行する必要があります。 新しいバージョンのアップロードについて詳しくは、[新しいドキュメントバージョンのアップロードと承認のリクエスト ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)を参照してください。
 
 決定を下すと、ドキュメント所有者にメールで通知されます。
 

@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '355'
 ht-degree: 50%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 50%
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td><p>従来のWorkfront ストレージを使用してドキュメントを管理するWorkfront パッケージ</p>
-<p>Adobe エンタープライズストレージを使用してドキュメントを管理するワークフローパッケージ</p> </td> 
+<p>Adobe クラウドストレージを使用してドキュメントを管理するワークフローパッケージ</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -55,25 +55,25 @@ ht-degree: 50%
 
 ## レガシードキュメント領域でのドキュメントの削除
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[従来のWorkfront ストレージとAdobe エンタープライズ ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[従来のWorkfront ストレージとAdobe クラウドストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ドキュメントを削除するには：
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. ドキュメント領域の上にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
+1. ドキュメント領域の上にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete.png)をクリックします。
 
 1. 表示されるボックスで、「**はい、削除します**」をクリックして確定します。
 
    システム管理者またはグループ管理者は、[削除した項目を復元](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)で説明されているように、ドキュメントを削除してから 30 日以内は復元できます。
 
-   ![&#x200B; ドキュメントの削除](assets/delete-documents-legacy.png)
+   ![ ドキュメントの削除](assets/delete-documents-legacy.png)
 
 
 ## 新規ドキュメント領域でドキュメントを削除する
 
-組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しい「ドキュメント」領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ドキュメントを削除するには：
 
@@ -85,4 +85,4 @@ ht-degree: 50%
 
    システム管理者またはグループ管理者は、[削除した項目を復元](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)で説明されているように、ドキュメントを削除してから 30 日以内は復元できます。
 
-   ![&#x200B; ドキュメントの削除](assets/delete-documents-new.png)
+   ![ ドキュメントの削除](assets/delete-documents-new.png)

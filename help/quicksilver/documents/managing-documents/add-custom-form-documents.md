@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '515'
 ht-degree: 54%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 54%
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>従来のWorkfront ストレージを使用してドキュメントを管理するWorkfront パッケージ</p>
-<p>Adobe エンタープライズストレージを使用してドキュメントを管理するワークフローパッケージ</p> </td> 
+<p>Adobe クラウドストレージを使用してドキュメントを管理するワークフローパッケージ</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -59,41 +59,41 @@ ht-degree: 54%
 
 ## 従来のドキュメント領域にカスタムフォームを追加する
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Adobe エンタープライズストレージと従来のWorkfront ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Adobe クラウドストレージと従来のWorkfront ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)を参照してください。
 
 カスタムフォームをドキュメントに追加するには、以下のように行います。
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **概要** アイコン ![概要アイコン &#x200B;](assets/summary-panel-icon.png)をクリックし、**詳細** セクションを見つけます。
+1. **概要** アイコン ![概要アイコン ](assets/summary-panel-icon.png)をクリックし、**詳細** セクションを見つけます。
 1. **カスタムフォームを追加**&#x200B;ボックスに入力し、カスタムフォームを選択します。 フォームはドキュメントに自動的に保存されます。
 
    >[!NOTE]
    >
-   >アクティブなカスタムフォームのみがドロップダウンメニューに表示されます。 1 つのドキュメントにつき最大 10 個のカスタムフォームを追加できます。 カスタムフォームを作成する必要がある場合は、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   >アクティブなカスタムフォームのみがドロップダウンメニューに表示されます。 1 つのドキュメントにつき最大 10 個のカスタムフォームを追加できます。 カスタムフォームを作成する必要がある場合は、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 従来のドキュメント領域でのカスタムフォームの編集
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **概要** アイコン ![概要アイコン &#x200B;](assets/summary-panel-icon.png)をクリックし、上部の&#x200B;**詳細** セクションを見つけます。
+1. **概要** アイコン ![概要アイコン ](assets/summary-panel-icon.png)をクリックし、上部の&#x200B;**詳細** セクションを見つけます。
 1. 右上隅にある「**編集**」をクリックして、目的のフォームを展開します。
 1. 必要な変更を加え、「**保存**」をクリックします。
 
-   ![&#x200B; カスタムフォームを編集](assets/edit-custom-form-350x265.png)
+   ![ カスタムフォームを編集](assets/edit-custom-form-350x265.png)
 
 ## 新しいドキュメント領域にカスタムフォームを追加する
 
-組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しい「ドキュメント」領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 カスタムフォームをドキュメントに追加するには、以下のように行います。
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを選択します。
-1. 右側の&#x200B;**詳細** セクションで、**編集**&#x200B;をクリックします。
-   詳細セクション ![&#128279;](assets/edit-custom-form.png)の編集ボタン
+1. 右側の&#x200B;**詳細** セクションで、**編集**をクリックします。
+   詳細セクション ](assets/edit-custom-form.png)の![編集ボタン
 1. 「**カスタムForms**」フィールドで、入力を開始し、カスタムフォームを選択します。
 1. 「**保存**」をクリックします。 カスタムフォームが詳細セクションに表示されます。
 
@@ -102,7 +102,7 @@ ht-degree: 54%
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを選択します。
-1. 右側の&#x200B;**詳細** セクションで、**編集**&#x200B;をクリックします。
-   詳細セクション ![&#128279;](assets/edit-custom-form.png)の編集ボタン
+1. 右側の&#x200B;**詳細** セクションで、**編集**をクリックします。
+   詳細セクション ](assets/edit-custom-form.png)の![編集ボタン
 1. 「**カスタム Forms**」セクションで、編集するフォームを見つけます。
 1. 必要な変更を加え、「**保存**」をクリックします。

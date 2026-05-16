@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 74%
+source-wordcount: '1269'
+ht-degree: 73%
 
 ---
 
@@ -95,13 +95,13 @@ Old:
 * すべてのサブタスク、イシュー、メモは、新規プロジェクトにまとめられます。
 * ドキュメント、ドキュメントのバージョンおよびプルーフは、新規プロジェクトに移動されます。
 * タスクをプロジェクトに変換する場合、5分間の処理制限があります。 タスクに多数のドキュメントが添付されていて、変換できない場合は、一部のドキュメントを削除して、もう一度試す必要がある場合があります。
-* 組織で従来のWorkfrontとAdobe エンタープライズ版の両方のドキュメント ストレージを使用している場合、タスクをプロジェクトに変換する際に次のシナリオが発生します：<!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * Workfront-storage タスクは、Workfront-storage プロジェクトを作成します。
-   * Adobe エンタープライズ版ストレージタスクは、Adobe版ストレージプロジェクトを作成します。
-   * Workfront-storage テンプレートを使用してAdobe-storage タスクを変換すると、Adobe-storage プロジェクトが作成されます。
-   * Adobe-storage テンプレートを使用してWorkfront-storage タスクを変換すると、Workfront-storage プロジェクトが作成されます。
+* 組織で従来のWorkfrontとAdobe クラウドストレージの両方をドキュメントに使用している場合、タスクをプロジェクトに変換する際に次のシナリオが発生します：<!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+   * 従来のWorkfront ストレージタスクは、従来のWorkfront ストレージプロジェクトを作成します。
+   * Adobe クラウドストレージタスクは、Adobe クラウドストレージプロジェクトを作成します。
+   * 従来のWorkfront ストレージテンプレートを使用してAdobe クラウドストレージタスクを変換すると、Adobe クラウドストレージプロジェクトが作成されます。
+   * Adobe クラウドストレージテンプレートを使用して従来のWorkfront ストレージタスクを変換すると、従来のWorkfront ストレージプロジェクトが作成されます。
 
-     詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+     詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
      >[!TIP]
      >
@@ -218,13 +218,13 @@ Old:
 ## タスクをプロジェクトに変換
 
 1. プロジェクトに変換するタスクに移動します。
-1. **詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**プロジェクトに変換**&#x200B;します。
+1. **詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックしてから、**プロジェクトに変換**&#x200B;します。
 1. 次のいずれかのオプションを選択します。
 
    * テンプレートを使用せずにプロジェクトを作成するには、**新しいプロジェクト**
    * 「**テンプレートから選択**」セクションのテンプレート
 
-     ![&#x200B; タスクをプロジェクトテンプレートに変換オプション ドロップダウンメニュー](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![ タスクをプロジェクトテンプレートに変換オプション ドロップダウンメニュー](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. 表示される通知で「**続行**」をクリックします。
 1. **プロジェクトに変換**&#x200B;ボックスで、次の情報を指定します。

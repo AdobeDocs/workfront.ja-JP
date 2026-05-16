@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '929'
 ht-degree: 82%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -112,9 +112,9 @@ Old:
 * **イシューがリクエストキューに関連付けられている場合：**&#x200B;イシューを別のオブジェクトに移動し、そのイシューをリクエストキューに関連付けると、移動したイシューは最初のイシューの元になったキューに関連付けられなくなります。
 * **イシューにドキュメントが添付されている場合：**&#x200B;イシューを別のオブジェクトに移動し、イシューにドキュメントが添付されている場合、そのドキュメント、バージョンおよびプルーフも新しいイシューに移動します。 ドキュメントに関連付けられている承認は移動されません。
 * **イシューがドキュメントまたはフォルダーにリンクされている場合：** Google Drive などのサードパーティのサービスにリンクされたドキュメントまたはフォルダーを含むイシューを移動すると、そのイシューと共にドキュメントへのリンクが移動します。
-* **異なるストレージタイプを持つプロジェクト間でイシューを移動する場合**：イシューをWorkfront ストレージプロジェクトからAdobe ストレージプロジェクトにコピーすることはできません。 その逆も同じです。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
+* **異なるストレージタイプを持つプロジェクト間でイシューを移動する場合**：イシューを従来のWorkfront ストレージプロジェクトからAdobe クラウドストレージプロジェクトにコピーすることはできません。 その逆も同じです。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
 
-  詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+  詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 ## リスト内のイシューを移動
 
@@ -129,7 +129,7 @@ Old:
 1. プロジェクトに移動した場合は、左側のパネルで「**イシュー**」をクリックします。
 1. 移動する 1 つまたは複数のイシューを選択し、イシューリストの上部にある&#x200B;**「その他」メニュー**&#x200B;をクリックし、「**指定の場所に移動**」をクリックします。
 
-   ![&#x200B; コピーしてリンクに移動](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![ コピーしてリンクに移動](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. 「[手順2から1つの問題を移動](#move-a-single-issue)」の節で説明しているように、問題の移動を続行します。
 

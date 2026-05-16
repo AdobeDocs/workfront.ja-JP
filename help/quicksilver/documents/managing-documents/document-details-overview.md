@@ -9,10 +9,10 @@ feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 29%
+source-wordcount: '380'
+ht-degree: 28%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 29%
 
 ## レガシードキュメント領域
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[従来のWorkfront ストレージとAdobe エンタープライズ ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[従来のWorkfront ストレージとAdobe クラウドストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 
 
@@ -57,7 +57,7 @@ ht-degree: 29%
 
   Workfront Proof でプルーフカスタムフィールドを設定する必要があります。 詳しくは、[Workfront Proof でのカスタムフィールドの作成と管理](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)を参照してください。
 
-![&#x200B; ドキュメントの詳細](assets/doc-details-full-legacy.png)
+![ ドキュメントの詳細](assets/doc-details-full-legacy.png)
 
 ### 従来のドキュメント領域でドキュメントの詳細ページを開きます
 
@@ -65,12 +65,12 @@ ht-degree: 29%
 
 1. ドキュメントにポインタを合わせ、「**ドキュメントの詳細**」をクリックします。
 
-   ![&#x200B; ドキュメントの詳細](assets/doc-details-legacy.png)
+   ![ ドキュメントの詳細](assets/doc-details-legacy.png)
 
 
 ## 新規ドキュメント領域
 
-組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しい「ドキュメント」領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ドキュメントの詳細ページから、ドキュメントに対して次のアクションを実行できます。
 
@@ -93,7 +93,7 @@ ht-degree: 29%
 </tr>
 </table>
 
-![&#x200B; ドキュメントの詳細メニューアイコン &#x200B;](assets/more-menu-new-doc.png)
+![ ドキュメントの詳細メニューアイコン ](assets/more-menu-new-doc.png)
 
 
 ### 新規ドキュメント領域でドキュメントの詳細パネルを開きます
@@ -101,4 +101,4 @@ ht-degree: 29%
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. ドキュメントを選択し、**詳細を表示**&#x200B;をクリックします。
 
-   ![&#x200B; ドキュメントの詳細](assets/doc-details.png)
+   ![ ドキュメントの詳細](assets/doc-details.png)

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '910'
 ht-degree: 77%
 
 ---
@@ -116,7 +116,7 @@ Old:
 1. プロジェクトまたはタスク内のイシューのリストに移動します。
 1. 手動で更新する権限を持つフィールド内をクリックします。 フィールドが編集可能になり、変更を加えることができます。
 
-   ![&#x200B; インラインで問題を編集](assets/edit-issues-inline-350x34.png)
+   ![ インラインで問題を編集](assets/edit-issues-inline-350x34.png)
 
 1. 変更を受け入れる場合は、Enter キーを押します。 変更は直ちに保存されます。
 
@@ -127,7 +127,7 @@ Old:
 1. プロジェクトまたはタスク内のイシューのリストに移動します。
 1. 次のいずれかの操作を行います。
 
-   * リストで問題を選択し、ツールバーの&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/qs-edit-icon.png)をクリックします。
+   * リストで問題を選択し、ツールバーの&#x200B;**編集** アイコン ![編集アイコン ](assets/qs-edit-icon.png)をクリックします。
    * 問題の名前をクリックし、**編集**&#x200B;をクリックします。
 
      これらのアクションのいずれかが、**問題を編集** ボックスを開きます。
@@ -143,7 +143,7 @@ Old:
 
    プロジェクトのイシューのリストが表示されます。
 
-1. 編集する問題を選択し、問題リストの右上隅にある&#x200B;**概要を開く** アイコン ![概要アイコン &#x200B;](assets/qs-open-summary-icon-in-new-toolbar-small.png)をクリックします。
+1. 編集する問題を選択し、問題リストの右上隅にある&#x200B;**概要を開く** アイコン ![概要アイコン ](assets/qs-open-summary-icon-in-new-toolbar-small.png)をクリックします。
 
    **概要**&#x200B;が開きます。
 
@@ -152,14 +152,14 @@ Old:
 
    | アイコン | アクション |
    |---|---|
-   | 文書* ![文書アイコン &#x200B;](assets/documents-icon-in-summary.png) | 「**ここをクリックして追加**」をクリックして、イシューにドキュメントを追加します。 |
-   | 詳細![詳細アイコン &#x200B;](assets/details-icon-in-summary.png) | クリックして、イシューに関する情報を更新します。 |
+   | 文書* ![文書アイコン ](assets/documents-icon-in-summary.png) | 「**ここをクリックして追加**」をクリックして、イシューにドキュメントを追加します。 |
+   | 詳細![詳細アイコン ](assets/details-icon-in-summary.png) | クリックして、イシューに関する情報を更新します。 |
    | 時間![時間を記録](assets/log-time-icon-in-summary.png) | クリックして時間を記録します。 |
-   | 承認![承認アイコン &#x200B;](assets/approvals-icon-in-summary.png) | クリックして、イシューの承認を追加します。 |
+   | 承認![承認アイコン ](assets/approvals-icon-in-summary.png) | クリックして、イシューの承認を追加します。 |
 
-   * 組織でAdobe エンタープライズ版のドキュメントストレージを使用している場合、概要パネルでAdobe ストレージの問題にドキュメントを追加することはできません。
+   * 組織でAdobe クラウドストレージをドキュメントに使用している場合、概要パネルでAdobe クラウドストレージの問題にドキュメントを追加することはできません。
 
-   詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 
 1. （オプション）**概要を開く**&#x200B;アイコンを再びクリックするか、概要の右上にある&#x200B;**X アイコン**&#x200B;をクリックしてパネルを閉じ、イシューをインラインで編集します。
@@ -175,7 +175,7 @@ Old:
 1. プロジェクト名をクリックして、プロジェクトにアクセスします。
 1. 左側のパネルで「**イシュー**」をクリックします。
 1. リストから複数のイシューを選択します。
-1. **編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+1. **編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
    **イシューを編集**&#x200B;ダイアログボックスが開きます。
 
