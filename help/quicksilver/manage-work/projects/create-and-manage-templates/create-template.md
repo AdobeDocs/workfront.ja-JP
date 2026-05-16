@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d1173e35a2455610474664f93159b97a54957488
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '905'
 ht-degree: 44%
 
 ---
@@ -116,20 +116,20 @@ Old:
 
 1. （条件付き）組織が使用しているドキュメントストレージに応じて、次のいずれかをクリックします。
 
-   * **新しいテンプレート**。Workfront管理者が&#x200B;**Adobe Enterprise**&#x200B;または&#x200B;**レガシーWorkfront**&#x200B;のいずれかを選択し、**ユーザーがストレージプロバイダー**&#x200B;を選択することを許可する設定を選択したか、選択しなかった場合。
-   * **新しいテンプレート（レガシーストレージ）**。Workfront管理者が&#x200B;**Adobe Enterprise**&#x200B;または&#x200B;**レガシーWorkfront**&#x200B;のいずれかを選択し、**ユーザーがストレージプロバイダー**&#x200B;を選択することを許可する設定も選択した場合。
+   * **新しいテンプレート**。Workfront管理者が&#x200B;**Adobe クラウドストレージ**&#x200B;または&#x200B;**レガシーWorkfront**&#x200B;のいずれかを選択し、**ユーザーがストレージプロバイダー**&#x200B;を選択することを許可する設定を選択したか、選択しなかった場合。
+   * **新しいテンプレート（レガシーストレージ）**。Workfront管理者が&#x200B;**Adobe クラウドストレージ**&#x200B;または&#x200B;**レガシーWorkfront**&#x200B;のいずれかを選択し、**ユーザーがストレージプロバイダー**&#x200B;を選択することを許可する設定も選択した場合。
 
      このオプションは、**ユーザーがストレージ プロバイダー**&#x200B;を選択することを許可する設定がセットアップ エリアで選択されている場合にのみ表示されます。
 
-     詳しくは、[組織でAdobe エンタープライズ ストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)を参照してください。
+     詳しくは、[組織でAdobe クラウドストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)を参照してください。
 
      テンプレートが作成され、そのデフォルト名は、Workfrontがドキュメントに使用するストレージに応じて、次のパターンに従います。
 
       * Workfront ストレージテンプレート用の&#x200B;**名称未設定テンプレート**。
 
-        Workfront-storage テンプレートの名前の横に&#x200B;**従来のWorkfront storage** アイコン ![従来のストレージプロジェクト アイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
+        レガシーWorkfront ストレージテンプレートの名前の横に、**レガシーWorkfront ストレージ** アイコン ![&#x200B; レガシーストレージプロジェクトアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
 
-      * **名称未設定のテンプレート - Adobe-storage テンプレートの&lt;月の日、年の時間。分。秒>**
+      * **名称未設定のテンプレート - Adobe クラウドストレージテンプレートの&lt;月の日、年の時間。分。秒>**
 
         >[!IMPORTANT]
         >

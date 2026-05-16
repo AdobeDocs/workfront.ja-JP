@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '524'
 ht-degree: 65%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 65%
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p>従来のWorkfront ストレージを使用してドキュメントを管理するWorkfront パッケージ</p>
-<p>Adobe エンタープライズストレージを使用してドキュメントを管理するワークフローパッケージ</p> </td> 
+<p>Adobe クラウドストレージを使用してドキュメントを管理するワークフローパッケージ</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -59,7 +59,7 @@ ht-degree: 65%
 
 ## レガシードキュメント領域のドキュメントに更新を追加する
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[従来のWorkfront ストレージとAdobe エンタープライズ ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 従来のWorkfront ストレージについて詳しくは、[従来のWorkfront ストレージとAdobe クラウドストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ### ドキュメントの更新を追加または返信
 
@@ -86,7 +86,7 @@ ht-degree: 65%
 
 ## 新規ドキュメント領域のドキュメントに更新を追加する
 
-組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しい「ドキュメント」領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 1. ドキュメントを含むオブジェクトに移動し、左パネルの「**ドキュメント**」を選択します。
 1. 必要なドキュメントを検索し、コメントアイコン ![&#x200B; コメントアイコン &#x200B;](assets/new-doc-comment-icon.png)をクリックしてコメントパネルを開きます。

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '604'
 ht-degree: 58%
 
 ---
@@ -128,7 +128,7 @@ old permissions model:
 
    >[!CAUTION]
    >
-   >Workfront インスタンスがWorkfrontとAdobeの両方のドキュメントストレージにアクセスできる場合、Workfront管理者がWorkfront Enterprise Storageをシステムのデフォルトにした場合でも、MS プロジェクトからプロジェクトを読み込むと、Adobe ストレージプロジェクトが作成されます。
+   >Workfront インスタンスがWorkfrontとAdobe クラウドストレージの両方にアクセスできる場合、Workfront管理者がWorkfront クラウドストレージをシステムのデフォルトにした場合でも、MS プロジェクトからプロジェクトを読み込むと、従来のAdobe ストレージプロジェクトが作成されます。
    >
    >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 

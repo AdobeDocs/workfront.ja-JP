@@ -8,7 +8,7 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 69%
@@ -194,7 +194,7 @@ ht-degree: 69%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>件名</strong> </td> 
-      <td>元のリクエストの名前を表示します。 必要に応じて更新します。 それ以外の場合、Workfrontはコピーされたリクエストに<b> コピーの</b>を付けます。 これは必須フィールドです。</td> 
+      <td>元のリクエストの名前を表示します。 必要に応じて更新します。 それ以外の場合、Workfrontはコピーされたリクエスト <b>元のリクエストの名前&gt;</b>のコピーに名前を付けます。 これは必須フィールドです。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>説明</strong> </td> 
@@ -216,7 +216,7 @@ ht-degree: 69%
        </ul> <p>優先順位の名前は、Workfront 管理者が変更できます。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>重要度</strong> </td> 
+      <td role="rowheader"><strong>重大度</strong> </td> 
       <td> <p>リクエストの重要度を指定します。 重大度は、時間内に解決されない場合に、このリクエストが作業に与える影響を定義する必要があります。 デフォルトのオプションは次のとおりです。</p> 
        <ul> 
         <li>一時回避</li> 
@@ -264,7 +264,7 @@ ht-degree: 69%
    リクエストキューの設定に応じて、カスタムフィールドの前後に「ドキュメント」セクションが表示される場合があります。</p> <p> </p>
    <p>Workfront管理者が選択した環境のドキュメントストレージの種類に応じて、リクエストに添付されたドキュメントが次に追加されます。</p>
       <ul><li>Workfront ストレージを使用するリクエストの場合、新しく作成したリクエストの「ドキュメント」セクションにドキュメントが追加されます。</li>
-      <li>Adobe エンタープライズストレージを使用したリクエストの場合、ドキュメントはリクエストと同じ名前で新しく作成されたフォルダーに追加され、送信プロセス中にリクエストに自動的に追加されます。 </li></ul>
+      <li>Adobe クラウドストレージを使用したリクエストの場合、ドキュメントはリクエストと同じ名前で新しく作成されたフォルダーに追加され、送信プロセス中にリクエストに自動的に追加されます。 </li></ul>
       <p>Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。</p>
       <p>イシューとリクエストのストレージタイプはプロジェクトから継承されます。 </p>
       <p>詳しくは、<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md"> プロジェクトおよび関連オブジェクトのドキュメント管理の概要</a>を参照してください。</p>

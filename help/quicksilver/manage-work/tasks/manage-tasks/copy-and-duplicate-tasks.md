@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 86%
@@ -103,7 +103,7 @@ Old:
 
 * リスト内のタスクを編集する場合は、一度に 1 つのタスクをコピーすることも、一度に複数のタスクをコピーすることもできます。
 
-* 従来のWorkfrontとAdobe エンタープライズストレージの両方を使用している場合、異なるストレージタイプを使用するプロジェクト間でタスクをコピーすることはできません。
+* 従来のWorkfrontとAdobe クラウドストレージの両方を使用している場合、異なるストレージタイプを使用するプロジェクト間でタスクをコピーすることはできません。
 
   詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 

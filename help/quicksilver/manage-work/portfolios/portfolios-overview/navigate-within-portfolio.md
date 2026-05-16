@@ -8,7 +8,7 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 64%
@@ -157,10 +157,10 @@ Old:
    >一部のお客様は、次の両方のドキュメントストレージ環境にアクセスできます。
    >
    >  * **レガシーWorkfront ストレージ**：このストレージを使用しているポートフォリオでは、名前の横にレガシーストレージアイコン ![&#x200B; レガシーストレージアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
-   >  * **Adobe エンタープライズ ストレージ**
+   >  * **Adobe クラウドストレージ**
    >
    >Workfront管理者は、会社が使用するストレージを決定するか、各ポートフォリオを関連付けるストレージを選択できるようにします。
-   >詳しくは、[組織でAdobe エンタープライズ ストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)を参照してください。
+   >詳しくは、[組織でAdobe クラウドストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)を参照してください。
    >
    >ポートフォリオへのドキュメントの追加は、使用するストレージの種類によって異なります。
    >

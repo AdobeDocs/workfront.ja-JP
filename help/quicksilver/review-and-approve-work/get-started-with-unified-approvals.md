@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '975'
 ht-degree: 4%
 
 ---
@@ -29,18 +29,18 @@ Frame.ioについて詳しくは、[Frame.ioの概要](https://support.frame.io/
 
 ## アクセス要件
 
-* Frame.io ビューアとAdobe エンタープライズストレージを使用するには、Workfront コントラクトにV2 Workfront SKUが含まれている必要があります。 詳しくは、[統一されたレビューと承認の概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval)のFAQを参照してください。
+* Adobe クラウドストレージをサポートするWorkfrontのバージョンを使用している必要があります。 お客様の組織がまだサポートされているバージョンを使用していない場合は、Adobe アカウント担当者にお問い合わせください。
 
 ## Workfrontにおける作業の立ち上げと計画
 
-プロジェクトコーディネーターは、Workfrontでプロジェクトを作成し、作業を計画できます。 Frame.io統合が有効になっているインスタンスで作成されたプロジェクトは、Adobe エンタープライズストレージを使用します。これにより、アセットをAdobe エコシステム内で保存および管理できます。
+プロジェクトコーディネーターは、Workfrontでプロジェクトを作成し、作業を計画できます。 Frame.ioとの連携が有効になっているインスタンスで作成されたプロジェクトには、Adobe クラウドストレージが使用されます。これにより、アセットをAdobe エコシステム内で保存および管理できます。
 
 組織がFrame.io エンタープライズライセンスを所有している場合、Workfrontで作成されたプロジェクトはFrame.ioでも表示されるため、ユーザーはどちらかの製品でアセットを操作したりアップロードしたりできます。
 
-Frame.ioのAdobe エンタープライズストレージまたはプロジェクトについて詳しくは、
+Frame.ioのAdobe クラウドストレージまたはプロジェクトについて詳しくは、
 
 * [Workspaceの概要：プロジェクト](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [アドビのエンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## アセットのレビューと承認
 

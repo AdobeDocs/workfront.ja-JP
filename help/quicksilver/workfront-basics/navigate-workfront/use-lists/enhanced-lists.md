@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '2933'
 ht-degree: 3%
@@ -68,7 +68,7 @@ ht-degree: 3%
 | スナップショットのリスト | プロジェクト/スナップショット |
 | 請求用リソースのリスト | プロジェクト/請求用リソース |
 | タスクの新しい高度な割り当て | タスク/割り当て/詳細 |
-| Adobe エンタープライズストレージのドキュメント | プロジェクト、タスク、イシュー、ポートフォリオ、プログラム、テンプレート、テンプレートタスク/ドキュメント |
+| Adobe クラウドストレージのドキュメント | プロジェクト、タスク、イシュー、ポートフォリオ、プログラム、テンプレート、テンプレートタスク/ドキュメント |
 
 ## 拡張リストへの項目の追加
 

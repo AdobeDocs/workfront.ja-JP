@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2239'
+source-wordcount: '2241'
 ht-degree: 88%
 
 ---
@@ -108,7 +108,7 @@ Old:
 
    * マイルストーン。
 
-* テンプレートタスクをWorkfront ストレージテンプレートからAdobe ストレージテンプレートにコピーまたは移動することはできません。 その逆も同じです。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
+* 従来のAdobe ストレージテンプレートからWorkfront ストレージテンプレートにテンプレートタスクをコピーしたり、移動したりすることはできません。 その逆も同じです。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
 
   詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 

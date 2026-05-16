@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 59%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 59%
   <tr> 
    <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td><p>従来のWorkfront ストレージを使用してドキュメントを管理するWorkfront パッケージ</p>
-<p>Adobe エンタープライズストレージを使用してドキュメントを管理するワークフローパッケージ</p></td> 
+<p>Adobe クラウドストレージを使用してドキュメントを管理するワークフローパッケージ</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -63,7 +63,7 @@ ht-degree: 59%
 
 ## レガシードキュメント領域でのドキュメントの移動
 
-組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Adobe エンタープライズストレージと従来のWorkfront ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)を参照してください。
+組織が従来のWorkfront ストレージを使用している場合、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Adobe クラウドストレージと従来のWorkfront ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)を参照してください。
 
 ドキュメントを移動するには：
 
@@ -87,7 +87,7 @@ ht-degree: 59%
 
 ## 新規ドキュメント領域でのドキュメントの移動
 
-組織でエンタープライズストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しい「ドキュメント」領域が表示されます。 エンタープライズストレージについて詳しくは、[Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
+組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
 ドキュメントを移動するには：
 
@@ -103,6 +103,6 @@ ht-degree: 59%
 
    >[!NOTE]
    >
-   >エンタープライズストレージを使用して、別のプロジェクト、タスク、イシューにのみ移動できます。
+   >Adobe クラウドストレージを使用して、別のプロジェクト、タスク、イシューにのみ移動できます。
 
 1. 「**移動**」をクリックします。

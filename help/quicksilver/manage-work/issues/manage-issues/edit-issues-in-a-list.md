@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '910'
 ht-degree: 77%
 
 ---
@@ -157,7 +157,7 @@ Old:
    | 時間![時間を記録](assets/log-time-icon-in-summary.png) | クリックして時間を記録します。 |
    | 承認![承認アイコン &#x200B;](assets/approvals-icon-in-summary.png) | クリックして、イシューの承認を追加します。 |
 
-   * 組織でAdobe エンタープライズ版のドキュメントストレージを使用している場合、概要パネルでAdobe ストレージの問題にドキュメントを追加することはできません。
+   * 組織でAdobe クラウドストレージをドキュメントに使用している場合、概要パネルでAdobe クラウドストレージの問題にドキュメントを追加することはできません。
 
    詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 

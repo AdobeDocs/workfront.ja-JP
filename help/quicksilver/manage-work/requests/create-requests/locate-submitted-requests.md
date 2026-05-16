@@ -10,9 +10,9 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1413'
 ht-degree: 41%
 
 ---
@@ -212,7 +212,7 @@ Remove production and preview references at release
    >
    >* 概要パネルが既に開いている場合は、概要を開くアイコンが、概要を閉じるアイコンに変わります。
    >
-   >* 組織でAdobe エンタープライズ版のドキュメントストレージを使用している場合、概要パネルでAdobe ストレージリクエストにドキュメントを追加することはできません。
+   >* 組織でAdobe クラウドストレージをドキュメントに使用している場合、概要パネルでAdobe クラウドストレージリクエストにドキュメントを追加することはできません。
    >
    >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 

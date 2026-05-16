@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: a7a0dc6ae01b3f1e9f295781805ed3e58f8acf1f
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 4%
@@ -33,13 +33,13 @@ Experience Manager Assetsへのアセットの送信について詳しくは、[
 
 承認のステータスについて詳しくは、[統合レビューと承認の概要](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)を参照してください。
 
-## Adobe エンタープライズストレージの使用状況の表示
+## Adobe クラウドストレージの使用状況の表示
 
 >[!NOTE]
 >
 >プレビュー：2026年4月30日（PT）>プロダクション高速リリース：2026年5月14日（PT）>すべての人のための制作：2026年7月16日
 
-「設定」の「お客様情報」ページに、Adobe エンタープライズストレージの使用状況メーターを含む新しい「ストレージの概要」セクションが追加されました。
+「設定」の顧客情報ページに、Adobe クラウドストレージの使用状況メーターを含む新しい「ストレージの概要」セクションが追加されました。
 
 Workfrontの管理者は、ストレージの使用率が割り当て量の75%、85%、100%に達すると、自動的にメール通知を受け取ります。
 
