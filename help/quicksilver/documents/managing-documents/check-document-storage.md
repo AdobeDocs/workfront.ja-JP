@@ -23,8 +23,8 @@ ht-degree: 14%
 
 ストレージの表示方法は、組織で従来のWorkfront ストレージを使用するか、Adobe クラウドストレージを使用するかに応じて異なります。
 
-* 従来のWorkfront ストレージを使用している場合は、この記事の[従来のWorkfront ストレージ ](#legacy-workfront-storage)を参照してください。
-* Adobe クラウドストレージを使用する場合は、この記事の「[Adobe クラウドストレージ ](#adobe-cloud-storage)」を参照してください。
+* 従来のWorkfront ストレージを使用している場合は、この記事の[従来のWorkfront ストレージ &#x200B;](#legacy-workfront-storage)を参照してください。
+* Adobe クラウドストレージを使用する場合は、この記事の「[Adobe クラウドストレージ &#x200B;](#adobe-cloud-storage)」を参照してください。
 
   Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
@@ -91,7 +91,7 @@ Adobe クラウドストレージのドキュメントを確認するには：
    * 緑色のバーにフレームスタンドアロンプロジェクトが表示されます。 これらのプロジェクトはWorkfrontとは別のもので、Frame.io Enterprise ライセンスをお持ちの場合にのみ使用できます。
 
 
-お客様の情報](assets/storage-usage.png)での![Adobe クラウドストレージの使用状況
+お客様の情報![&#128279;](assets/storage-usage.png)でのAdobe クラウドストレージの使用状況
 
 使用状況の数値は定期的に更新されるので、最新の数を確認できます。
 

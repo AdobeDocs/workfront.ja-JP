@@ -133,7 +133,7 @@ Workfront Fusion の新機能は、実稼動環境の標準リリーススケジ
 New features in Workfront Planning are available in Production.
 -->
 
-最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
+最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
 
 
 ### Workfrontのその他の機能強化

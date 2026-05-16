@@ -98,7 +98,7 @@ ht-degree: 32%
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 
 1. 「**ワークフローを編集**」をクリックします。
@@ -111,6 +111,6 @@ ht-degree: 32%
 
 1. 上記の手順を繰り返して、その他の承認者またはレビュアーを削除します。
 
-   ![ ステージから参加者を削除](assets/add-or-remove-participants.png)
+   ![&#x200B; ステージから参加者を削除](assets/add-or-remove-participants.png)
 
 1. 「**保存**」をクリックします。
