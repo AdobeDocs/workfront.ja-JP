@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5539dea2754b38ba7a00b90b1d1ff10ff6309991
 workflow-type: tm+mt
-source-wordcount: '14119'
+source-wordcount: '14146'
 ht-degree: 95%
 
 ---
@@ -940,6 +940,11 @@ ht-degree: 95%
       * [AI アシスタントの有効化と無効化](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [AI を使用したリクエストの自動入力](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
       * [プロジェクトのヘルスの概要](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
+   * {hide-from-toc} Workfront MCP サーバー {#workfront-mcp-server}
+      * {hide-from-toc}[Workfront MCP サーバー：記事インデックス &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+      * {hide-from-toc}[Adobe Workfront MCP サーバーの概要](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
+      * {hide-from-toc}[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+      * {hide-from-toc}[Adobe Workfront MCP サーバーを使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
    * 作業アイテムの更新および更新の表示 {#update-work-items-view-updates}
       * [作業アイテムの更新および更新の表示：記事インデックス](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [「更新」セクションの概要](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
