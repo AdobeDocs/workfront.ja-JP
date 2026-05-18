@@ -2,22 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: タグを追加
-description: カードにタグを追加して、類似性を視覚的に示すことができます。そうすると、追加したタグでフィルタリングして、関連するカードを表示できます。
+description: カードにタグを追加して、類似性を視覚的に示すことができます。 そうすると、追加したタグでフィルタリングして、関連するカードを表示できます。
 author: Courtney
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
 
 # タグの追加
 
-カードにタグを追加して、類似性を視覚的に示すことができます。そうすると、追加したタグでフィルタリングして、関連するカードを表示できます。
+カードにタグを追加して、類似性を視覚的に示すことができます。 そうすると、追加したタグでフィルタリングして、関連するカードを表示できます。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -53,13 +53,13 @@ ht-degree: 100%
 
 {{step1-to-boards}}
 
-1. ボードにアクセスします。詳しくは、[ボードを作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
-1. ボード名の横にある&#x200B;**[!UICONTROL 詳細]**&#x200B;メニューの![詳細メニュー](assets/more-icon-spectrum.png)をクリックし、「**[!UICONTROL タグマネージャー]**」を選択します。
+1. ボードにアクセスします。 詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
+1. ボード名の横にある&#x200B;**[!UICONTROL 詳細]**&#x200B;メニュー ![詳細メニュー](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL タグマネージャー]**&#x200B;を選択します。
 
    ![タグマネージャーを選択](assets/boards-tagmanager-350x189.png)
 
 1. [!UICONTROL タグマネージャー]ダイアログボックスで、「[!UICONTROL ボードタグ]」セクション内の「[!UICONTROL **タグを追加**]」を選択します。
-1. 強調表示されたボックスにタグ名を入力し、ドロップダウンメニューからこのタグ用のカラーを選択します。タグは自動的に保存されます。
+1. 強調表示されたボックスにタグ名を入力し、ドロップダウンメニューからこのタグ用のカラーを選択します。 タグは自動的に保存されます。
 1. （条件付き）手順 4～5 を繰り返して、追加のタグを作成します。
 1. 右上隅にある「**[!UICONTROL 完了]**」をクリックします。
 
@@ -76,14 +76,14 @@ ht-degree: 100%
 {{step1-to-boards}}
 
 1. ダッシュボードで、「[!UICONTROL **ワークストリームを表示**]」をクリックして、ワークストリームを開きます。
-1. ボードを開きます。ボード名の横にある&#x200B;**[!UICONTROL 詳細]**&#x200B;メニュー ![詳細メニュー](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL タグマネージャー]**&#x200B;を選択します。
+1. ボードを開きます。 ボード名の横にある&#x200B;**[!UICONTROL 詳細]**&#x200B;メニュー ![詳細メニュー](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL タグマネージャー]**&#x200B;を選択します。
 
    または
 
-   「[!UICONTROL **設定**]」をクリックして、[!UICONTROL ワークストリームを設定]パネルを開きます。次に、**[!UICONTROL タグマネージャー]**&#x200B;をクリックします。
+   「[!UICONTROL **設定**]」をクリックして、[!UICONTROL ワークストリームを設定]パネルを開きます。 次に、**[!UICONTROL タグマネージャー]**&#x200B;をクリックします。
 
 1. [!UICONTROL タグマネージャー]ダイアログボックスで、「ワークストリームタグ」セクション内の「[!UICONTROL **タグを追加**]」を選択します。
-1. 強調表示されたボックスにタグ名を入力し、ドロップダウンメニューからこのタグ用のカラーを選択します。タグは自動的に保存されます。
+1. 強調表示されたボックスにタグ名を入力し、ドロップダウンメニューからこのタグ用のカラーを選択します。 タグは自動的に保存されます。
 1. （条件付き）手順 4～5 を繰り返して、追加のタグを作成します。
 1. 右上隅にある「**[!UICONTROL 完了]**」をクリックします。
 
@@ -100,7 +100,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL タグ]**」ボックスに既存のタグの名前を入力し、この名前を検索結果から選択します。\
    または\
-   **[!UICONTROL 編集]**&#x200B;アイコン ![タグを編集](assets/boards-edittag-30x29.png) をクリックし、タグマネージャーで新しいタグを作成します。「**完了**」をクリックし、カードのタグを選択します。
+   **[!UICONTROL 編集]**&#x200B;アイコン ![タグを編集](assets/boards-edittag-30x29.png) をクリックし、タグマネージャーで新しいタグを作成します。 「**完了**」をクリックし、カードのタグを選択します。
 1. 「**閉じる**」をクリックします。
 
 ## タグを編集

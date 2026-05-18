@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 62%
+source-wordcount: '474'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 62%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -51,11 +51,11 @@ ht-degree: 62%
 
 {{step1-to-boards}}
 
-1. 新しいボードを作成するか、既存のボードを編集します。詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
+1. 新しいボードを作成するか、既存のボードを編集します。 詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. **[!UICONTROL メンバーを追加]**&#x200B;アイコン ![メンバーを追加](assets/boards-addmember-spectrum-25x25.png) をクリックします。
 1. 「**[!UICONTROL メンバーを追加]**」ボックスに名前を入力し、リストに表示されたら選択します。
 
-   個々のメンバーまたはチームを選択できます。チームを選択すると、そのチームがボードに追加されます。
+   個々のメンバーまたはチームを選択できます。 チームを選択すると、そのチームがボードに追加されます。
 
    >[!NOTE]
    >
@@ -68,15 +68,15 @@ ht-degree: 62%
 
 {{step1-to-boards}}
 
-1. 新しいボードを作成するか、既存のボードを編集します。詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
+1. 新しいボードを作成するか、既存のボードを編集します。 詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. **[!UICONTROL メンバーを追加]**&#x200B;アイコン ![メンバーを追加](assets/boards-addmember-spectrum-25x25.png) をクリックします。
 1. 「**[!UICONTROL メンバーを追加]**」ボックスで、個人名またはチーム名の横にある「X」をクリックして、ボードから削除します。
 
    ![ボードからのメンバーの削除](assets/boards-remove-member-from-board-350x367.png)
 
-   ボードからメンバーを削除すると、そのメンバーは割り当てられていたカードから削除されます。接続されたカードの場合は、割り当ても [!DNL Workfront] タスクまたはイシューで更新されます。
+   ボードからメンバーを削除すると、そのメンバーは割り当てられていたカードから削除されます。 接続されたカードの場合は、割り当ても [!DNL Workfront] タスクまたはイシューで更新されます。
 
-   メンバーはこのボードからのみ削除されます。属している他のボードからは削除されません。
+   メンバーはこのボードからのみ削除されます。 属している他のボードからは削除されません。
 
    >[!NOTE]
    >

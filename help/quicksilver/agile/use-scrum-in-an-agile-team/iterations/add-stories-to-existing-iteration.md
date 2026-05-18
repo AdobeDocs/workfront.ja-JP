@@ -8,10 +8,10 @@ feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 76%
+source-wordcount: '608'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 76%
 
 次のいずれかの方法で、イテレーションにストーリーを追加できます。
 
-* 「[&#x200B; バックログからイテレーションにストーリーを移動する」または「[!UICONTROL &#x200B; アジャイルバックログの管理]」の「](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) カンバン [&#x200B; ボード &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)」の節で説明しているように、イテレーション作成後のバックログから
+* 「[&#128279;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)&#x200B; バックログからイテレーションにストーリーを移動する」または「[&#x200B; アジャイルバックログの管理](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)」の「[!UICONTROL &#x200B; カンバン &#x200B;] ボード &#x200B;」の節で説明しているように、イテレーション作成後のバックログから
 
 * 個々のタスクまたはイシューの[!UICONTROL 詳細]ページから追加
 * タスクまたはイシューのリストから追加
@@ -48,7 +48,7 @@ ht-degree: 76%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -78,20 +78,20 @@ ht-degree: 76%
 
    * プロジェクトの[!UICONTROL 予定開始日]がイテレーションの開始日の&#x200B;*後*&#x200B;で、プロジェクトの[!UICONTROL 予定完了日]がイテレーションの終了日の&#x200B;*後*&#x200B;である。
 
-個々のスクラムチームが、デフォルトではイテレーション日付よりも、プロジェクト日付を使用するように設定できます。詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事で[作業アイテムをイテレーションに追加する際に日付を適用する方法の設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)の節を参照してください。
+個々のスクラムチームが、デフォルトではイテレーション日付よりも、プロジェクト日付を使用するように設定できます。 詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事の[作業アイテムをイテレーションに追加する際に日付を適用する方法を設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)を参照してください。
 
 ## 既存のイテレーションにストーリーを追加
 
-プロジェクトへの管理アクセス権を持っている場合は、任意のイテレーションに任意のタスクまたはイシューを追加できます。タスクまたはイシューをイテレーションに移動する際は、次の点に注意してください。
+プロジェクトへの管理アクセス権を持っている場合は、任意のイテレーションに任意のタスクまたはイシューを追加できます。 タスクまたはイシューをイテレーションに移動する際は、次の点に注意してください。
 
-* 複数のチームを追加する場合、タスクまたはイシューは 1 つのチームのイテレーションにのみ表示されます。これは、以下の手順 3 で選択するイテレーションです。
+* 複数のチームを追加する場合、タスクまたはイシューは 1 つのチームのイテレーションにのみ表示されます。 これは、以下の手順 3 で選択するイテレーションです。
 * タスクやイシューがアジャイルチームに割り当てられ、別のチームのイテレーションに移動された場合、チームの割り当ては変更されません。
 * タスクまたはイシューがチームに割り当てられていない場合、そのイテレーションを所有するチームにタスクまたはイシューが割り当てられます。
-* 親タスクをイテレーションに追加することはできません。子タスクを追加する場合、親タスクはスイムレーンとしてスクラムボードに表示されます。
+* 親タスクをイテレーションに追加することはできません。 子タスクを追加する場合、親タスクはスイムレーンとしてスクラムボードに表示されます。
 
 >[!IMPORTANT]
 >
->タスクがイテレーションに移動した後は、「[!UICONTROL 期間タイプ]」や「[!UICONTROL タスクの制約]」を更新できません。タスクのタイムラインをイテレーションのタイムラインと一致させるために、「[!UICONTROL 期間タイプ]」は[!UICONTROL シンプル]に設定され、「[!UICONTROL タスクの制約]」は[!UICONTROL 固定日付]に設定されます。
+>タスクがイテレーションに移動した後は、「[!UICONTROL 期間タイプ]」や「[!UICONTROL タスクの制約]」を更新できません。 タスクのタイムラインをイテレーションのタイムラインと一致させるために、「[!UICONTROL 期間タイプ]」は[!UICONTROL シンプル]に設定され、「[!UICONTROL タスクの制約]」は[!UICONTROL 固定日付]に設定されます。
 
 1. イテレーションに追加するタスクまたはイシューを開きます。
 または

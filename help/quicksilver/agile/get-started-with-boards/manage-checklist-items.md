@@ -2,22 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: カード上のチェックリスト項目の管理
-description: カードのチェックリストを使用すると、作業をより少ない単位に分割したり、カードにメモを追加したりできます。チェックリスト項目は、アドホックカードと接続されたカードの両方で使用できます。
+description: カードのチェックリストを使用すると、作業をより少ない単位に分割したり、カードにメモを追加したりできます。 チェックリスト項目は、アドホックカードと接続されたカードの両方で使用できます。
 author: Courtney
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '416'
 ht-degree: 98%
 
 ---
 
 # カードのチェックリスト項目を管理する
 
-カードのチェックリストを使用すると、作業をより少ない単位に分割したり、カードにメモを追加したりできます。チェックリスト項目は、アドホックカードと接続されたカードの両方で使用できます。
+カードのチェックリストを使用すると、作業をより少ない単位に分割したり、カードにメモを追加したりできます。 チェックリスト項目は、アドホックカードと接続されたカードの両方で使用できます。
 
 カードについて詳しくは、[ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)、[ボードでの接続されたカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)、および[カードの管理](/help/quicksilver/agile/get-started-with-boards/move-board-items.md)を参照してください。
 
@@ -43,7 +43,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -51,14 +51,14 @@ ht-degree: 98%
 
 {{step1-to-boards}}
 
-1. ボードにアクセスします。詳しくは、[ボードを作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
+1. ボードにアクセスします。 詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. カードをクリックして、[!UICONTROL カードの詳細]ボックスを開きます。
 
    または
 
    カード上の&#x200B;**[!UICONTROL その他]**&#x200B;メニュー ![その他メニュー](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL 編集]**」を選択します。
 
-1. 新しい項目を追加するには、「**[!UICONTROL チェックリスト項目を追加]**」をクリックします。次に、項目のタイトルを入力し、Enter キーを押します。別の項目が自動的に追加されます。引き続きタイトルを入力して、さらに項目を追加します。
+1. 新しい項目を追加するには、「**[!UICONTROL チェックリスト項目を追加]**」をクリックします。 次に、項目のタイトルを入力し、Enter キーを押します。 別の項目が自動的に追加されます。 引き続きタイトルを入力して、さらに項目を追加します。
 
    チェックリストの上部にあるカウンターは、完了した項目の数と合計項目数を示します。
 

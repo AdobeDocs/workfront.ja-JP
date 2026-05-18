@@ -8,7 +8,7 @@ feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 89%
@@ -36,7 +36,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->1 つの接続したタスクまたはイシューは、ボードごとに 1 回だけ追加できます。同じタスクまたはイシューを複数のボードに接続できます。
+>1 つの接続したタスクまたはイシューは、ボードごとに 1 回だけ追加できます。 同じタスクまたはイシューを複数のボードに接続できます。
 
 ## アクセス要件
 
@@ -62,12 +62,12 @@ ht-degree: 89%
   <tr>
    <td role="rowheader">オブジェクト権限</td>
    <td><p>Workfront タスクまたはイシューに対する表示またはそれ以上の権限</p>
-</td>
+   </td>
   </tr>
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -75,7 +75,7 @@ ht-degree: 89%
 
 {{step1-to-boards}}
 
-1. ボードにアクセスします。詳しくは、[ボードを作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
+1. ボードにアクセスします。 詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. **[!UICONTROL カードを追加]／[!UICONTROL 接続されているカード]**&#x200B;をクリックします。
 1. プロジェクトを選択し、ボードにカードとして追加するタスクまたはイシューを選択します。
 
@@ -83,14 +83,14 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >* 検索結果には、自分が権限を持っているオブジェクトのみが表示されます。項目が淡色表示の場合は、その項目は既にボードに追加されています。
-   >* **[!UICONTROL 所有プロジェクト]**&#x200B;または&#x200B;**[!UICONTROL 担当プロジェクト]**&#x200B;でフィルターすると、完了、無効、または却下ステータスに相当するプロジェクトは含まれません。**[!UICONTROL すべて]**&#x200B;フィルターを使用して、これらのプロジェクトを検索することもできます。
+   >* 検索結果には、自分が権限を持っているオブジェクトのみが表示されます。 項目が淡色表示の場合は、その項目は既にボードに追加されています。
+   >* **[!UICONTROL 所有プロジェクト]**&#x200B;または&#x200B;**[!UICONTROL 担当プロジェクト]**&#x200B;でフィルターすると、完了、無効、または却下ステータスに相当するプロジェクトは含まれません。 **[!UICONTROL すべて]**&#x200B;フィルターを使用して、これらのプロジェクトを検索することもできます。
 
 1. 「**[!UICONTROL 追加]**」をクリックします。
 
    ![接続するタスクまたはイシューを検索](assets/boards-tasksissues-350x94.png)
 
-   カードが一番左の列の下に追加されます。接続された [!DNL Workfront] オブジェクトとその割り当て先がカードに表示されます。
+   カードが一番左の列の下に追加されます。 接続された [!DNL Workfront] オブジェクトとその割り当て先がカードに表示されます。
 
    ![接続されているカード](assets/boards-connected-card-first-added.png)
 
@@ -99,7 +99,7 @@ ht-degree: 89%
 
    または
 
-   カード上の&#x200B;**[!UICONTROL その他]**&#x200B;メニュー ![その他メニュー](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL 編集]**」を選択します。
+   カード上の&#x200B;**[!UICONTROL 詳細]**&#x200B;メニュー ![詳細メニュー](assets/more-icon-spectrum.png) をクリックしてから、「**[!UICONTROL 編集]**」を選択します。
 
 1. **[!UICONTROL カードの詳細]**&#x200B;ボックスに、以下の情報を追加または更新します。
 
@@ -111,7 +111,7 @@ ht-degree: 89%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
-      <td>説明を変更すると、接続された [!DNL Workfront] オブジェクトの説明も変更されます。説明に URL を追加すると、カードの保存時にクリック可能なリンクになります。</td> 
+      <td>説明を変更すると、接続された [!DNL Workfront] オブジェクトの説明も変更されます。 説明に URL を追加すると、カードの保存時にクリック可能なリンクになります。</td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
@@ -119,8 +119,8 @@ ht-degree: 89%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
-      <td><p>カードのステータスを選択します。デフォルトは [!UICONTROL New]、[!UICONTROL In Progress]、[!UICONTROL Complete] ですが、[!DNL Workfront] で項目に定義されたカスタムステータスも使用できます。</p>
-      <p>フィールド値の更新に対して列ポリシーが有効になっている場合、カードのステータスを変更すると、対応する列にカードが自動的に移動します。詳しくは、<a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">ボード列を管理</a>の記事の「列設定とポリシーを定義」を参照してください。</p>
+      <td><p>カードのステータスを選択します。 デフォルトは [!UICONTROL New]、[!UICONTROL In Progress]、[!UICONTROL Complete] ですが、[!DNL Workfront] で項目に定義されたカスタムステータスも使用できます。</p>
+      <p>フィールド値の更新に対して列ポリシーが有効になっている場合、カードのステータスを変更すると、対応する列にカードが自動的に移動します。 詳しくは、<a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">ボード列の管理</a>の記事の「列の設定とポリシーの定義」を参照してください。</p>
       <p>カードの上部にある「<strong>[!UICONTROL Mark Complete]</strong>」をクリックすると、ステータスが自動的に完了に変わります。</p></td>
      </tr>
      <tr>
@@ -133,7 +133,7 @@ ht-degree: 89%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignments]</strong></td>
-      <td><p>カードに複数のユーザーやチームを割り当てるには、「<strong>[!UICONTROL Add Assignment]</strong>」をクリックし、検索フィールドに名前を入力し始めます。そして、結果のリストに表示されたら選択します。個人とチームの両方を追加できます。1 つの接続されたカードでは、1 つのチーム割り当てのみが許可されます。</p>
+      <td><p>カードに複数のユーザーやチームを割り当てるには、「<strong>[!UICONTROL Add Assignment]</strong>」をクリックし、検索フィールドに名前を入力し始めます。 そして、結果のリストに表示されたら選択します。 個人とチームの両方を追加できます。 1 つの接続されたカードでは、1 つのチーム割り当てのみが許可されます。</p>
       <p>選択した割り当て先は、[!DNL Workfront] でのタスクまたはイシューにも割り当てられます。</p></td>
      </tr>
      <tr>
@@ -149,18 +149,18 @@ ht-degree: 89%
      <tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Subtask]</strong></td>
-      <td><p>タスクの既存のサブタスクは、このセクションに表示されます。新規サブタスクを追加するには、「<strong>[!UICONTROL Add Subtask]</strong>」をクリックします。</p>
+      <td><p>タスクの既存のサブタスクは、このセクションに表示されます。 新規サブタスクを追加するには、「<strong>[!UICONTROL Add Subtask]</strong>」をクリックします。</p>
       <p>このセクションの上部にあるカウンターは、完了したサブタスクの数と合計サブタスク数を示します。</p>
       <p>サブタスクについて詳しくは、<a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">ボードでのサブタスクの管理</a>を参照してください。</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Checklist]</strong></td>
-      <td><p>「<strong>[!UICONTROL Add checklist item]</strong>」をクリックします。次に、項目のタイトルを入力し、Enter キーを押します。別の項目が自動的に追加されます。引き続きタイトルを入力して、さらに項目を追加します。</p>
+      <td><p>「<strong>[!UICONTROL Add checklist item]</strong>」をクリックします。 次に、項目のタイトルを入力し、Enter キーを押します。 別の項目が自動的に追加されます。 引き続きタイトルを入力して、さらに項目を追加します。</p>
       <p>チェックリストの上部にあるカウンターは、完了した項目の数と合計項目数を示します。</p> <p>チェックリスト項目について詳しくは、<a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">カードのチェックリスト項目の管理</a>を参照してください。</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Documents]</strong></td>
-      <td>既存ドキュメントの場合は、ドキュメントのサムネールにポインタを合わせ、「<strong>プレビュー</strong>」をクリックしてブラウザーにファイルを表示するか、「<strong>ダウンロード</strong>」をクリックしてファイルを自分のコンピューターにダウンロードします。新規ドキュメントの場合は、<a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">カードでのドキュメントの追加</a>を参照してください。</td>
+      <td>既存ドキュメントの場合は、ドキュメントのサムネールにポインタを合わせ、「<strong>プレビュー</strong>」をクリックしてブラウザーにファイルを表示するか、「<strong>ダウンロード</strong>」をクリックしてファイルを自分のコンピューターにダウンロードします。 新規ドキュメントの場合は、<a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">カードでのドキュメントの追加</a>を参照してください。</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
@@ -168,7 +168,7 @@ ht-degree: 89%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>「<strong>[!UICONTROL New comment]</strong>」フィールド内をクリックして、コメントを入力します。書式設定ツールを使用してテキストを書式設定します。 ユーザーまたはチームにタグ付けするには、コメントエリアの下部にある検索ボックスを使用します。ユーザーは、ボード上のメンバーである必要はありません。接続されたカードのタグ付きユーザーは、メール通知を受け取ります。</p><p>「<strong>[!UICONTROL Submit]</strong>」をクリックして、コメントをカードに追加します。</p>
+      <td><p>「<strong>[!UICONTROL New comment]</strong>」フィールド内をクリックして、コメントを入力します。 書式設定ツールを使用してテキストを書式設定します。 ユーザーまたはチームにタグ付けするには、コメントエリアの下部にある検索ボックスを使用します。 ユーザーは、ボード上のメンバーである必要はありません。 接続されたカードのタグ付きユーザーは、メール通知を受け取ります。</p><p>「<strong>[!UICONTROL Submit]</strong>」をクリックして、コメントをカードに追加します。</p>
       <p>コメント機能について詳しくは、<a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">作業の更新</a>を参照してください。</p></td>
      </tr>
      <tr> 
@@ -211,10 +211,10 @@ ht-degree: 89%
 
 ## アドホックカードを接続済みカードに変換する
 
-作成したアドホックカードを接続されたカードに変換できます。アドホックカードについて詳しくは、[ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)を参照してください。
+作成したアドホックカードを接続されたカードに変換できます。 アドホックカードについて詳しくは、[ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)を参照してください。
 
 1. ボードにアクセスし、アドホックカードを開きます。
-1. カードの名前と説明を確認します。これらは [!DNL Workfront] で作成したタスクやイシューに追加されます。
+1. カードの名前と説明を確認します。 これらは [!DNL Workfront] で作成したタスクやイシューに追加されます。
 1. カードの詳細の[!UICONTROL 接続]エリアで、「**[!UICONTROL Workfront に接続]**」をクリックします。
 1. 「[!UICONTROL カードを接続]」ウィンドウで、タスクを作成するかイシューを作成するかを選択します。
 1. タスクまたはイシューを追加するプロジェクトを検索して選択します。
@@ -222,7 +222,7 @@ ht-degree: 89%
    >[!NOTE]
    >
    >* 検索結果には、自分が権限を持っているオブジェクトのみが表示されます。
-   >* **[!UICONTROL 所有プロジェクト]**&#x200B;または&#x200B;**[!UICONTROL 担当プロジェクト]**&#x200B;でフィルターすると、「[!UICONTROL 完了]」、「[!UICONTROL 無効]」、または「[!UICONTROL 却下]」ステータスに相当するプロジェクトは含まれません。**[!UICONTROL すべて]**&#x200B;フィルターを使用して、これらのプロジェクトを検索することもできます。
+   >* **[!UICONTROL 所有プロジェクト]**&#x200B;または&#x200B;**[!UICONTROL 担当プロジェクト]**&#x200B;でフィルターすると、「[!UICONTROL 完了]」、「[!UICONTROL 無効]」、または「[!UICONTROL 却下]」ステータスに相当するプロジェクトは含まれません。 **[!UICONTROL すべて]**&#x200B;フィルターを使用して、これらのプロジェクトを検索することもできます。
 
 1. 「**[!UICONTROL 接続]**」をクリックします。
 
@@ -236,7 +236,7 @@ ht-degree: 89%
 
 接続されたタスクまたはイシューに関する時間を記録するには、適切な権限が必要です。
 
-デフォルトでは、接続されたカードにタイムログフィールドが表示されません。[!UICONTROL カード]の[!UICONTROL 設定]エリアで「[!UICONTROL **時間**]」を有効にする必要があります。詳しくは、「[カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)」を参照してください。
+デフォルトでは、接続されたカードにタイムログフィールドが表示されません。 [!UICONTROL カード]の[!UICONTROL 設定]エリアで「[!UICONTROL **時間**]」を有効にする必要があります。 詳しくは、「[カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)」を参照してください。
 
 1. タスクまたはイシューの時間数を入力します。
 1. デフォルトと異なる場合は、ドロップダウンメニューから「[!UICONTROL 時間タイプ]」を選択します。
@@ -246,5 +246,5 @@ ht-degree: 89%
 
    カードに記録された時間は、接続されたタスクまたはイシューにも保存されます。
 
-カードに記録する時間は、タスクまたはイシューに記録する時間と同じです。詳しくは、[時間を記録](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)の記事の「プロジェクト、タスク、またはイシューに時間を記録」を参照してください。
+カードに記録する時間は、タスクまたはイシューに記録する時間と同じです。 詳しくは、[時間を記録](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)の記事の「プロジェクト、タスク、またはイシューに時間を記録」を参照してください。
 

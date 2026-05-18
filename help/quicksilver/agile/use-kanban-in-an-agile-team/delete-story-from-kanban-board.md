@@ -2,22 +2,22 @@
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: かんばんボードからストーリーを削除
-description: かんばんボードからストーリーまたはイシューを削除できます。ストーリーやイシューを削除すると、30 日間ごみ箱に移動され、システム管理者のみが復元できます。
+description: かんばんボードからストーリーまたはイシューを削除できます。 ストーリーやイシューを削除すると、30 日間ごみ箱に移動され、システム管理者のみが復元できます。
 author: Courtney
 feature: Agile
 exl-id: 5e838f0a-b26d-4bbe-b9e9-3161e3958b58
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '186'
 ht-degree: 93%
 
 ---
 
 # [!UICONTROL かんばん]ボードからストーリーまたはイシューを削除
 
-[!UICONTROL かんばん]ボードからストーリーまたはイシューを削除できます。ストーリーやイシューを削除すると、30 日間ごみ箱に移動され、システム管理者のみが復元できます。
+[!UICONTROL かんばん]ボードからストーリーまたはイシューを削除できます。 ストーリーやイシューを削除すると、30 日間ごみ箱に移動され、システム管理者のみが復元できます。
 
 ## アクセス要件
 
@@ -45,7 +45,7 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

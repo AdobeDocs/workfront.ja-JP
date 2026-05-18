@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '247'
 ht-degree: 97%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 97%
 >
 >[!UICONTROL かんばん]チームのバックログに表示されるストーリーの順序は変更できません。
 
-[!UICONTROL かんばん]ボードに表示されるストーリーの順序は、優先度を示すものではありません。しかし、ストーリーを目につきやすくすることで、認識時の優先度に影響を与える可能性があります。
+[!UICONTROL かんばん]ボードに表示されるストーリーの順序は、優先度を示すものではありません。 しかし、ストーリーを目につきやすくすることで、認識時の優先度に影響を与える可能性があります。
 
 デフォルトでは、ストーリーは[!UICONTROL かんばん]ボードの各ステータス列内にアルファベット順に表示されます。
 
-[!DNL Kanban]ボード上で列の順序を変更すると、加えた変更が保存されるので、次回自分または別のユーザーが[!UICONTROL かんばん]ボードを表示するときにも変更内容が保持されます。（ブラウザーキャッシュをクリアしても、加えた変更は元に戻せません）。
+[!DNL Kanban]ボード上で列の順序を変更すると、加えた変更が保存されるので、次回自分または別のユーザーが[!UICONTROL かんばん]ボードを表示するときにも変更内容が保持されます。 （ブラウザーキャッシュをクリアしても、加えた変更は元に戻せません）。
 
 ## アクセス要件
 
@@ -51,11 +51,11 @@ ht-degree: 97%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
-## [!UICONTROL かんばん]ボードでストーリーを並べ替える
+## [!UICONTROL かんばん]ボードでのストーリーの並べ替え
 
 {{step1-to-team}}
 

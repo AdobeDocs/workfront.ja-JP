@@ -9,9 +9,9 @@ feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '223'
 ht-degree: 98%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -56,7 +56,7 @@ ht-degree: 98%
 
 1. ワークストリームを開くには、[!UICONTROL **ワークストリームを表示**]&#x200B;をクリックします。
 1. [!UICONTROL イテレーションプロセス]ボードを選択します。
-1. 右上のボードの上にある指標エリアを確認します。上下の矢印をクリックしてイテレーション間を移動します。
+1. 右上のボードの上にある指標エリアを確認します。 上下の矢印をクリックしてイテレーション間を移動します。
 
    次の指標が表示されます：イテレーションに割り当てられたポイントの総数、イテレーションでまだ完了していない残りのポイント、およびイテレーションで完了したポイントの数。
 

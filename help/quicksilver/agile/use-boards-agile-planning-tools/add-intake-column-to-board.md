@@ -9,9 +9,9 @@ feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1018'
 ht-degree: 59%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 59%
 >
 >セキュリティ上の理由から、設定パネルでボードフィルターを変更できるのはボードの所有者のみです。
 
-取り込み列は、300 タスクと 300 イシューに制限されます。取り込み列の項目のデフォルトの順序は次のとおりです。
+取り込み列は、300 タスクと 300 イシューに制限されます。 取り込み列の項目のデフォルトの順序は次のとおりです。
 
 タスク：
 
@@ -48,7 +48,7 @@ ht-degree: 59%
 >
 >Workfrontと同期して、新しいタスクと問題をボードまたは取り込み列に取り込むには、ボード名の横にあるその他のメニュー![[!UICONTROL 詳細メニュー]](assets/more-menu.png)をクリックし、「接続されたアイテムを同期」を選択します。
 
-列について詳しくは、[ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)を参照してください。接続されたカードについて詳しくは、[ボードで接続済みカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
+列について詳しくは、[ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)を参照してください。 接続されたカードについて詳しくは、[ボードで接続済みカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
 ## アクセス要件
 
@@ -72,7 +72,7 @@ ht-degree: 59%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -124,7 +124,7 @@ ht-degree: 59%
 
    >[!NOTE]
    >
-   >ログインユーザーのタスクやイシューが常に表示されるとは限らないので、ボードフィルターでは「自分」（ログインユーザー）ワイルドカードを使用しないことをお勧めします。ボードに正しいタスクとイシューを設定したら、ボードをフィルタリングして特定の割り当て先のアイテムを表示できます。詳しくは、[フィルタリングおよびボード内で検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
+   >ログインユーザーのタスクやイシューが常に表示されるとは限らないので、ボードフィルターでは「自分」（ログインユーザー）ワイルドカードを使用しないことをお勧めします。 ボードに正しいタスクとイシューを設定したら、ボードをフィルタリングして特定の割り当て先のアイテムを表示できます。 詳しくは、[フィルタリングおよびボード内で検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
 
    フィルターの作成について詳しくは、[&#x200B; フィルターの作成または編集 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)の記事の「標準ビルダーでのフィルターの作成または編集」の節を参照してください。
 
@@ -134,7 +134,7 @@ ht-degree: 59%
 
 1. フィルターパネルの上部にある「X」をクリックして閉じます。
 
-1. （オプション）フィルターを他のユーザーと共有するには、保存されているフィルターにポインタを合わせて、**[!UICONTROL その他]** メニュー ![その他のメニューアイコン](assets/more-menu.png) をクリックし、「**[!UICONTROL 共有]**」を選択します。**フィルター共有** ボックスで共有するユーザーまたはチームを選択します。 詳しくは、[フィルター、ビュー、グループ化の共有](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)を参照してください。
+1. （オプション）フィルターを他のユーザーと共有するには、保存されているフィルターにポインタを合わせて、**[!UICONTROL その他]** メニュー ![その他のメニューアイコン](assets/more-menu.png) をクリックし、「**[!UICONTROL 共有]**」を選択します。 **フィルター共有** ボックスで共有するユーザーまたはチームを選択します。 詳しくは、[フィルター、ビュー、グループ化の共有](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)を参照してください。
 1. （オプション）取り込み条件の列にタスクとイシューの両方を含めるには、**[!UICONTROL ソースをフィルター]**&#x200B;をクリックし、他のオブジェクトを選択して別のフィルターを作成します。
 1. フィルターの追加が完了したら、取り込み列を確認して、正しいタスクとイシューが表示されることを確認します。
 
@@ -146,7 +146,7 @@ ht-degree: 59%
 
 ## 取り込み列の使用
 
-取り込み列のカードは、他のボード列に移動するまで編集できません。カードをクリックして読み取り専用ビューで開くか、「![タスクまたはイシューを開く](assets/boards-launch-icon.png)」をクリックして、タスクまたはイシューを新しいブラウザータブで開きます。
+取り込み列のカードは、他のボード列に移動するまで編集できません。 カードをクリックして読み取り専用ビューで開くか、「![タスクまたはイシューを開く](assets/boards-launch-icon.png)」をクリックして、タスクまたはイシューを新しいブラウザータブで開きます。
 
 取り込み列の右上にあるアイコンは、現在列にあるカードの数と、適用されているフィルターの数を示します。
 
@@ -155,6 +155,6 @@ ht-degree: 59%
 
    または
 
-   カード上の&#x200B;**[!UICONTROL 詳細]**&#x200B;メニュー ![詳細メニュー](assets/more-menu.png) をクリックしてから、「**[!UICONTROL 移動]**」を選択します。次に、**Move [ITEM]** ボックスで、別の列を選択し、**[!UICONTROL Move]**&#x200B;を選択します。
+   カード上の&#x200B;**[!UICONTROL 詳細]**&#x200B;メニュー ![詳細メニュー](assets/more-menu.png) をクリックしてから、「**[!UICONTROL 移動]**」を選択します。 次に、**Move [ITEM]** ボックスで、別の列を選択し、**[!UICONTROL Move]**&#x200B;を選択します。
 
 1. （オプション）取り込み列を削除するには、**[!UICONTROL その他]**&#x200B;メニュー ![その他のメニューアイコン](assets/more-menu.png) を選択し、「**[!UICONTROL 削除]**」を選択します。

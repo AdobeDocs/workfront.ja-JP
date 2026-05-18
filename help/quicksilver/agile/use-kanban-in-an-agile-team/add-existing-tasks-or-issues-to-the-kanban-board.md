@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 27%
+source-wordcount: '476'
+ht-degree: 26%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 
 <!-- Audited: 4/2025 -->
 
-プロジェクトへの管理アクセス権を持っている場合は、任意のタスクまたはイシューを[!UICONTROL かんばん]ボードに追加できます。タスクまたはイシューを[!UICONTROL かんばん]ボードに移動する際には次の点に注意してください。
+プロジェクトへの管理アクセス権を持っている場合は、任意のタスクまたはイシューを[!UICONTROL かんばん]ボードに追加できます。 タスクまたはイシューを[!UICONTROL かんばん]ボードに移動する際には次の点に注意してください。
 
 * タスクまたはイシューがアジャイルチームに割り当てられ、別のチームの[!UICONTROL &#x200B; カンバン &#x200B;] ボードに移動された場合、チームの割り当ては変更されません。
 * タスクまたはイシューがチームに割り当てられていない場合、タスクまたはイシューはかんばんボードを所有するチームに割り当てられます。
@@ -46,7 +46,7 @@ ht-degree: 27%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

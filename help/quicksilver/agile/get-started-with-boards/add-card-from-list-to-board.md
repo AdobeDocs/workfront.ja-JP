@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 94%
+source-wordcount: '578'
+ht-degree: 93%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 94%
  </tbody>
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -70,7 +70,7 @@ ht-degree: 94%
 
 1. 「[!UICONTROL **追加**]」をクリックします。
 
-   ボードの場合：タスクまたはイシューがカードとしてボードに追加されます。ボードにステータス用の列ポリシーが適用されている場合、そのステータスに対応する列にカードが追加されます。それ以外の場合は、左側の最初の列に表示され、取り込み列は含まれません。
+   ボードの場合：タスクまたはイシューがカードとしてボードに追加されます。 ボードにステータス用の列ポリシーが適用されている場合、そのステータスに対応する列にカードが追加されます。 それ以外の場合は、左側の最初の列に表示され、取り込み列は含まれません。
 
    列のポリシーについて詳しくは、[ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)を参照してください。
 
@@ -90,7 +90,7 @@ ht-degree: 94%
 
 1. 「[!UICONTROL **追加**]」をクリックします。
 
-   ボードの場合：タスクまたはイシューがカードとしてボードに追加されます。ボードにステータス用の列ポリシーが適用されている場合、そのステータスに対応する列にカードが追加されます。それ以外の場合は、左側の最初の列に表示され、取り込み列は含まれません。
+   ボードの場合：タスクまたはイシューがカードとしてボードに追加されます。 ボードにステータス用の列ポリシーが適用されている場合、そのステータスに対応する列にカードが追加されます。 それ以外の場合は、左側の最初の列に表示され、取り込み列は含まれません。
 
    列のポリシーについて詳しくは、[ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)を参照してください。
 

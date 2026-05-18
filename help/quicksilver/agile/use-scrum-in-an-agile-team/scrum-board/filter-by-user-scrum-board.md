@@ -8,9 +8,9 @@ feature: Agile
 exl-id: ccb1dc6e-b6c0-4897-9278-7410f10d40ae
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '196'
 ht-degree: 96%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -56,6 +56,6 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->列の合計は、フィルタリングの結果に基づいて変更されることはありません。列の合計は、ボード上のすべての作業アイテムの合計を表示します。
+>列の合計は、フィルタリングの結果に基づいて変更されることはありません。 列の合計は、ボード上のすべての作業アイテムの合計を表示します。
 
 ![ユーザー別でフィルタリング](assets/filter-by-user-agile-nwe.png)

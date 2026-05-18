@@ -8,16 +8,16 @@ feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '647'
 ht-degree: 98%
 
 ---
 
 # カードに表示するフィールドのカスタマイズ
 
-デフォルトでは、すべての使用可能なフィールドが、カードが開いているときのフルビューと、ボード上の縮小カードビューの両方で、カードに表示されます。表示するフィールドは、次の方法でカスタマイズできます。
+デフォルトでは、すべての使用可能なフィールドが、カードが開いているときのフルビューと、ボード上の縮小カードビューの両方で、カードに表示されます。 表示するフィールドは、次の方法でカスタマイズできます。
 
 * どちらのビューにも表示されないようにフィールドを無効にする
 * 縮小カードビューでフィールドを非表示にする
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 セクション（カード詳細の左側のナビゲーションのオプションとして表示される）でも表示と非表示を切り替えることができます。
 
-また、以前に作成したカスタムフィールドを表示することもできます。ボード内で新しいカスタムフィールドをデザインして作成することはできません。
+また、以前に作成したカスタムフィールドを表示することもできます。 ボード内で新しいカスタムフィールドをデザインして作成することはできません。
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -62,7 +62,7 @@ ht-degree: 98%
 
 {{step1-to-boards}}
 
-1. ボードにアクセスします。詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
+1. ボードにアクセスします。 詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. ボードの右側の「[!UICONTROL **設定**]」をクリックして、設定パネルを開きます。
 1. 「[!UICONTROL **カード**]」を展開します。
 
@@ -75,7 +75,7 @@ ht-degree: 98%
 
 ## カードにカスタムフィールドを追加
 
-カスタムフィールドは、接続されたカードで使用できます。フルカードビューでのみ表示され、ボード上の縮小ビューでは表示されません。
+カスタムフィールドは、接続されたカードで使用できます。 フルカードビューでのみ表示され、ボード上の縮小ビューでは表示されません。
 
 カスタムフィールドのデータはカード上で編集できますが、特定のカスタム要素は元のフィールドでのみ編集でき、カード上では編集できない場合があります。
 
@@ -84,7 +84,7 @@ ht-degree: 98%
 1. [!UICONTROL カードフィールド]の下の「[!UICONTROL **カスタムフィールドを追加**]」をクリックします。
 1. 「[!UICONTROL **タスク**]」または「[!UICONTROL **イシュー**]」を選択します。
 
-   タスクまたはイシューに使用できるフィールドのカテゴリが表示されます。カテゴリを展開して、すべてのフィールドを表示します。また、フィールドを検索することもできます。
+   タスクまたはイシューに使用できるフィールドのカテゴリが表示されます。 カテゴリを展開して、すべてのフィールドを表示します。 また、フィールドを検索することもできます。
 
    ![カスタムフィールドを検索](assets/boards-search-for-custom-field.png)
 
@@ -99,7 +99,7 @@ ht-degree: 98%
 
    ![カスタムフィールドの値とラベル](assets/save-custom-field-value-label.png)
 
-   カスタムフィールドが使用可能フィールドのリストに追加され、デフォルトで有効になっています。上述の[カードを設定](customize-fields-on-card.md#configure-cards)の節の手順に従い、カスタムフィールドを無効にしたり、編集したり、すべてのカードから削除したりできます。
+   カスタムフィールドが使用可能フィールドのリストに追加され、デフォルトで有効になっています。 上述の[カードを設定](customize-fields-on-card.md#configure-cards)の節の手順に従い、カスタムフィールドを無効にしたり、編集したり、すべてのカードから削除したりできます。
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ ht-degree: 98%
 1. 「[!UICONTROL **カード**]」を展開します。
 1. 「[!UICONTROL **アーカイブされたカードをボードに表示する**]」をオンにします。
 
-   これで、ボードをフィルタリングして、アーカイブされたカードを表示できます。詳しくは、[ボード内のフィルタリングと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
+   これで、ボードをフィルタリングして、アーカイブされたカードを表示できます。 詳しくは、[ボード内のフィルタリングと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
 
 1. 「[!UICONTROL **設定を非表示**]」をクリックして、設定パネルを閉じます。
 

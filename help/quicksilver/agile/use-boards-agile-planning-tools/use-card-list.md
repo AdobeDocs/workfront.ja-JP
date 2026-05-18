@@ -9,9 +9,9 @@ feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '625'
 ht-degree: 99%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -73,7 +73,7 @@ ht-degree: 99%
      </tr>
      <tr> 
       <td><strong>[!UICONTROL Estimation]</strong></td> 
-      <td>カードが完了するまでの推定時間数。これは手動のエントリのみです。</td> 
+      <td>カードが完了するまでの推定時間数。 これは手動のエントリのみです。</td> 
      </tr>
      <tr> 
       <td><strong>[!UICONTROL Status]</strong></td> 
@@ -85,7 +85,7 @@ ht-degree: 99%
      </tr>
      <tr> 
       <td><strong>[!UICONTROL Assignees]</strong></td> 
-      <td><p>カードを割り当てるには、検索フィールドに名前を入力していき、リストに候補が表示されたら選択します。個人とチームの両方を追加し、1 つのカードに複数のユーザーまたはチームを割り当てることができます。</p><p>担当者はワークストリームのメンバーである必要があります。メンバーでない場合は、選択リストに表示されません。</p></td> 
+      <td><p>カードを割り当てるには、検索フィールドに名前を入力していき、リストに候補が表示されたら選択します。 個人とチームの両方を追加し、1 つのカードに複数のユーザーまたはチームを割り当てることができます。</p><p>担当者はワークストリームのメンバーである必要があります。メンバーでない場合は、選択リストに表示されません。</p></td> 
      </tr>
     </tbody> 
    </table>
@@ -97,7 +97,7 @@ ht-degree: 99%
 
 ワークストリームのすべてのカードを 1 つのリストに表示するには、「カードリスト」タブの「[!UICONTROL **リスト表示**]」をクリックします。
 
-イテレーションごとにグループ化されたワークストリームのすべてのカードを表示するには、「[!UICONTROL **イテレーション表示**]」をクリックします。予定外のカードは、独自のグループに表示されます。
+イテレーションごとにグループ化されたワークストリームのすべてのカードを表示するには、「[!UICONTROL **イテレーション表示**]」をクリックします。 予定外のカードは、独自のグループに表示されます。
 
 既存のカードを編集するには、リストからカードを選択し、「[!UICONTROL **編集**]」をクリックします。
 
@@ -105,7 +105,7 @@ ht-degree: 99%
 
 ### カードをフィルター
 
-カードは、イテレーションボードからのみアーカイブできます。 カードをアーカイブすると、フィルターを適用してアーカイブされたカードを表示しない限り、カードはカードリストに表示されません。カードのアーカイブについて詳しくは、[ボードからのカードを削除またはアーカイブ](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md)を参照してください。
+カードは、イテレーションボードからのみアーカイブできます。 カードをアーカイブすると、フィルターを適用してアーカイブされたカードを表示しない限り、カードはカードリストに表示されません。 カードのアーカイブについて詳しくは、[ボードからのカードを削除またはアーカイブ](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md)を参照してください。
 
 1. ワークストリームのカードリストにアクセスします。
 1. 「[!UICONTROL **フィルター**]」をクリックし、「[!UICONTROL **すべて**]」、「[!UICONTROL **アクティブなカード**]」、「[!UICONTROL **アーカイブ済みカード**]」から選択します。
@@ -120,7 +120,7 @@ ht-degree: 99%
    検索語を含むすべてのカードが表示されます。
 「 X 」をクリックして検索をクリアします。
 
-   ![ボード内のカードを検索](assets/boards-searchbox.png)
+   ![ボード内のカードの検索](assets/boards-searchbox.png)
 
 ## カードをイテレーションに追加
 
@@ -141,4 +141,4 @@ ht-degree: 99%
 
 >[!TIP]
 >
->イテレーションプロセスボードを作成した場合は、カードリストの予定外のカードはすべて[!UICONTROL バックログ]列に表示されます。別の列に移動されたカードはアクティブなイテレーションの一部になります。カードリストでイテレーションに追加するカードは、ステータスに基づいて列に追加されます。
+>イテレーションプロセスボードを作成した場合は、カードリストの予定外のカードはすべて[!UICONTROL バックログ]列に表示されます。 別の列に移動されたカードはアクティブなイテレーションの一部になります。 カードリストでイテレーションに追加するカードは、ステータスに基づいて列に追加されます。

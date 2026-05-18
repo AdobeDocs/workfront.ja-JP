@@ -2,22 +2,22 @@
 product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: スクラムボードでのストーリーとイシューの管理
-description: ストーリーやイシューをスクラムボードから別のイテレーションやバックログに移動したり、スクラムボードから削除したりできます。ストーリーやイシューを削除すると、30 日間ごみ箱に移動され、システム管理者のみが復元できます。
+description: ストーリーやイシューをスクラムボードから別のイテレーションやバックログに移動したり、スクラムボードから削除したりできます。 ストーリーやイシューを削除すると、30 日間ごみ箱に移動され、システム管理者のみが復元できます。
 author: Courtney
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '472'
 ht-degree: 84%
 
 ---
 
 # [!UICONTROL スクラム]ボードでのストーリーとイシューの管理
 
-ストーリーやイシューを[!UICONTROL スクラム]ボードから別のイテレーションやバックログに移動したり、[!UICONTROL スクラム]ボードから削除したりできます。ストーリーやイシューを削除すると、30 日間ごみ箱に移動され、システム管理者のみが復元できます。
+ストーリーやイシューを[!UICONTROL スクラム]ボードから別のイテレーションやバックログに移動したり、[!UICONTROL スクラム]ボードから削除したりできます。 ストーリーやイシューを削除すると、30 日間ごみ箱に移動され、システム管理者のみが復元できます。
 
 タスクや問題を削除したり、バックログに送信したりせずに、イテレーションから削除するには、プロジェクトに移動し、割り当て列からアジャイルチームを削除します。 これにより、スクラムボードからタスクまたはイシューが削除されますが、プロジェクトには残ります。
 
@@ -46,7 +46,7 @@ ht-degree: 84%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -65,7 +65,7 @@ ht-degree: 84%
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Another iteration]</strong></td>
-        <td>アイテムを別のイテレーションに移動する場合に選択し、ストーリーまたはイシューの移動先のイテレーションを選択します。今後のイテレーションが定義されていない場合は、アイテムを移動できません。</td>
+        <td>アイテムを別のイテレーションに移動する場合に選択し、ストーリーまたはイシューの移動先のイテレーションを選択します。 今後のイテレーションが定義されていない場合は、アイテムを移動できません。</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Backlog]</strong></td>
@@ -75,7 +75,7 @@ ht-degree: 84%
 
    >[!NOTE]
    >
-   >作業アイテムの[!UICONTROL 予定開始日]と[!UICONTROL 予定完了日]は、[!UICONTROL チームを編集]ページの設定の影響を受けます。詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事で[[!UICONTROL 作業アイテムをイテレーションに追加する際に日付を適用する方法の設定]](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)を参照してください。
+   >作業アイテムの[!UICONTROL 予定開始日]と[!UICONTROL 予定完了日]は、[!UICONTROL チームの編集]ページの設定に影響されます。 詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の、[[!UICONTROL 作業アイテムをイテレーションに追加する際に、日付を適用する方法を設定]](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)の節を参照してください。
 
 1. 「**[!UICONTROL 移動]**」をクリックします。
 

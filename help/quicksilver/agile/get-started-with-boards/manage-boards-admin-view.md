@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 9%
+source-wordcount: '625'
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 ## アクセス要件
 
-+++ 展開してアクセス要件を表示します。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -142,5 +142,5 @@ ht-degree: 9%
 
    >[!NOTE]
    >   
-   >掲示板リストのグループ化表示を変更すると、**グループ** アイコンの上に青いドットが表示され、現在のビューがデフォルトと異なることを示します。<br>
+   >掲示板リストのグループ化表示を変更すると、**グループ** アイコンの上に青いドットが表示され、現在のビューがデフォルトと異なることを示します。 <br>
    >グループ化を削除する場合は、**グループ化** パネルを開き、右上隅の「**すべてクリア**」を選択します。

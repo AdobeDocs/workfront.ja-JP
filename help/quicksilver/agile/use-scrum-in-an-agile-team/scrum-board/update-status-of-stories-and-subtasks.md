@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 71%
+source-wordcount: '214'
+ht-degree: 70%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->チーム設定エリアの「[!UICONTROL ストーリーボード]」セクションで選択したステータスのみが、[!UICONTROL スクラム]ボードと、ステータスドロップダウンメニューで利用できます。詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)を参照してください。
+>チーム設定エリアの「[!UICONTROL ストーリーボード]」セクションで選択したステータスのみが、[!UICONTROL スクラム]ボードと、ステータスドロップダウンメニューで利用できます。 詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)を参照してください。
 
 ## アクセス要件
 
@@ -44,7 +44,7 @@ ht-degree: 71%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -56,4 +56,4 @@ ht-degree: 71%
 
 1. アクティブなイテレーションに移動します。
 1. ストーリーボードにあるステータスの列から、別の列にストーリーをドラッグします。\
-   ![ストーリーを別の列に移動](assets/agile-storyboard-progress.png)
+   ![別の列へのストーリーの移動](assets/agile-storyboard-progress.png)

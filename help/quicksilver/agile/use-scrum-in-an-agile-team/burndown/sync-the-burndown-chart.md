@@ -2,22 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: burndown
 title: バーンダウンチャートでのデータの同期
-description: バーンダウンチャートは、プロジェクトまたはイテレーション内のデータと自動的に同期されます。バーンダウンチャートがプロジェクトまたはイテレーションのデータと同期しなくなった場合は、手動で同期できます。
+description: バーンダウンチャートは、プロジェクトまたはイテレーション内のデータと自動的に同期されます。 バーンダウンチャートがプロジェクトまたはイテレーションのデータと同期しなくなった場合は、手動で同期できます。
 author: Courtney
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 95%
+source-wordcount: '178'
+ht-degree: 94%
 
 ---
 
 # バーンダウンチャートのデータを同期する
 
-バーンダウンチャートは、プロジェクトまたはイテレーション内のデータと自動的に同期されます。バーンダウンチャートがプロジェクトまたはイテレーションのデータと同期しなくなった場合は、手動で同期できます。
+バーンダウンチャートは、プロジェクトまたはイテレーション内のデータと自動的に同期されます。 バーンダウンチャートがプロジェクトまたはイテレーションのデータと同期しなくなった場合は、手動で同期できます。
 
 ## アクセス要件
 
@@ -41,7 +41,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

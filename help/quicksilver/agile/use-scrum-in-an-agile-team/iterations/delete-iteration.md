@@ -8,10 +8,10 @@ feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 52%
+source-wordcount: '169'
+ht-degree: 50%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 52%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -55,7 +55,7 @@ ht-degree: 52%
 
 {{step1-to-team}}
 
-1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
-1. 左のパネルで、「**[!UICONTROL イテレーション]**」を選択します。
+1. 左側のパネルで、「**[!UICONTROL イテレーション]**」を選択します。
 1. 削除するイテレーションを選択し、[!UICONTROL **削除**] アイコン ![削除アイコン &#x200B;](assets/delete-icon.png)をクリックします。

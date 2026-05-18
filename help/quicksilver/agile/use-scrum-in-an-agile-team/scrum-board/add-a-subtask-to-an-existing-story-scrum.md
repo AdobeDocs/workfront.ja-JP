@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '605'
 ht-degree: 92%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 92%
 
 **プロジェクトの[!UICONTROL 完了モード]の設定が[!UICONTROL 手動]に設定されている場合：**
 
-* サブタスクを含む親ストーリーを「[!UICONTROL 完了]」に移動すると、親ストーリーが 100％、[!UICONTROL ステータス]が「[!UICONTROL 完了]」に更新されます。サブタスクは更新されません。
+* サブタスクを含む親ストーリーを「[!UICONTROL 完了]」に移動すると、親ストーリーが 100％、[!UICONTROL ステータス]が「[!UICONTROL 完了]」に更新されます。 サブタスクは更新されません。
 * ストーリーの[!UICONTROL 完了率]を更新するには、オブジェクトの[!UICONTROL ストーリー]タブまたは[!UICONTROL 詳細]ページから更新する必要があります。
 
 **プロジェクトの[!UICONTROL 完了モード]の設定が「[!UICONTROL 自動]**」に設定されている場合：
 
-* サブタスクを含む親ストーリーを[!UICONTROL 完了]に移動すると、親ストーリーが 100％、[!UICONTROL ステータス]が「[!UICONTROL 完了]」に更新されます。サブタスクも 100％となり、[!UICONTROL ステータス]が「[!UICONTROL 完了]」に更新されます。
-* ストーリーの[!UICONTROL 完了率]を更新するには、サブタスクの[!UICONTROL 完了率]を更新する必要があります。ストーリーの[!UICONTROL 完了率]は、すべてのサブタスクの[!UICONTROL 完了率]に基づいています。
+* サブタスクを含む親ストーリーを[!UICONTROL 完了]に移動すると、親ストーリーが 100％、[!UICONTROL ステータス]が「[!UICONTROL 完了]」に更新されます。 サブタスクも 100％となり、[!UICONTROL ステータス]が「[!UICONTROL 完了]」に更新されます。
+* ストーリーの[!UICONTROL 完了率]を更新するには、サブタスクの[!UICONTROL 完了率]を更新する必要があります。 ストーリーの[!UICONTROL 完了率]は、すべてのサブタスクの[!UICONTROL 完了率]に基づいています。
 
 ## アクセス要件
 
@@ -54,7 +54,7 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -62,7 +62,7 @@ ht-degree: 92%
 
 {{step1-to-team}}
 
-1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
 1. サブタスクを追加するストーリーを含むアジャイルイテレーションまたはプロジェクトに移動します。 イテレーションに移動する方法については、[イテレーションを表示](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)を参照してください。
 1. サブタスクを追加するストーリーボードのストーリータイルに移動します。
@@ -98,9 +98,9 @@ ht-degree: 92%
       <td role="rowheader"><strong>[!UICONTROL Estimate]</strong></td>
       <td>サブタスクの見積もりを指定します。<br><p>見積もりを作成する際は、次の点に注意してください。</p>
        <ul>
-        <li>アジャイルチームがストーリーをポイント単位で推定するように設定されている場合、デフォルトでは1ポイントが8時間になります。見積もりは、ストーリーに[!UICONTROL Planned Hours]として追加されます。</li>
-        <li>すべてのサブタスクの合計推定値によって、親ストーリーの推定値が決まります。詳しくは、<a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md" class="MCXref xref">スクラムボード上のストーリーとサブタスクのステータスの更新</a>を参照してください。</li>
-        <li>新しいサブタスクを作成する際には、[!UICONTROL Estimate]フィールドが既に設定されています。サブタスクの見積もりをリセットすると、親ストーリーの見積もりもリセットされます（親ストーリーはそのすべてのサブタスクの合計であるため）。</li>
+        <li>アジャイルチームがストーリーをポイント単位で推定するように設定されている場合、デフォルトでは1ポイントが8時間になります。 見積もりは、ストーリーに[!UICONTROL Planned Hours]として追加されます。</li>
+        <li>すべてのサブタスクの合計推定値によって、親ストーリーの推定値が決まります。 詳しくは、<a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md" class="MCXref xref">スクラムボード上のストーリーとサブタスクのステータスの更新</a>を参照してください。</li>
+        <li>新しいサブタスクを作成する際には、[!UICONTROL Estimate]フィールドが既に設定されています。 サブタスクの見積もりをリセットすると、親ストーリーの見積もりもリセットされます（親ストーリーはそのすべてのサブタスクの合計であるため）。</li>
        </ul><br></td>
      </tr>
      <tr>

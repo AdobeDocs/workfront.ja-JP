@@ -8,10 +8,10 @@ feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 83%
+source-wordcount: '378'
+ht-degree: 78%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 ## 表示および編集できる情報について {#understand-what-information-can-be-viewed-and-edited}
 
-ストーリータイルを[!UICONTROL かんばん]ボードで表示する場合、次の表の情報が使用できます。ほとんどの情報は、ストーリータイルから直接、インラインで編集できます。
+ストーリータイルを[!UICONTROL かんばん]ボードで表示する場合、次の表の情報が使用できます。 ほとんどの情報は、ストーリータイルから直接、インラインで編集できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ ht-degree: 83%
   </tr> 
   <tr> 
    <td> <p>プロジェクトへの直接リンクを含むプロジェクト名</p> </td> 
-   <td>✓</td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ ht-degree: 83%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>それぞれのストーリーおよびイシューの [!UICONTROL Percent Complete]。<br>イテレーションの [!UICONTROL The Percent Complete] は、それぞれのストーリーの [!UICONTROL Percent Complete] に基づいて計算されます。<br></p> <p>ストーリーまたはイシューの [!UICONTROL Percent Complete] を更新する際に、0 と 100 の間の任意の数を選択できます。</p> </td> 
+   <td> <p>ストーリーとイシューごとに[!UICONTROL Percent Complete]が計算されます。<br>[!UICONTROL イテレーションのPercent Complete]は、各ストーリーの[!UICONTROL Percent Complete]に基づいて計算されます。<br></p> <p>ストーリーまたはイシューの [!UICONTROL Percent Complete] を更新する際に、0 と 100 の間の任意の数を選択できます。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -64,7 +64,7 @@ ht-degree: 83%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">の[!DNL Adobe Workfront]</a> ビューの概要の「アジャイルビューの作成とカスタマイズ」の説明に従って、アジャイルビューを変更してアジャイルビューに追加された可能性がある追加フィールド（カスタムフィールドを含む）</p> </td> 
+   <td> <p>[!DNL Adobe Workfront]</a>の<a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref"> ビューの概要の「アジャイルビューの作成とカスタマイズ」の説明に従って、アジャイルビューを変更してアジャイルビューに追加された可能性がある追加フィールド（カスタムフィールドを含む）</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -93,7 +93,7 @@ ht-degree: 83%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -108,10 +108,10 @@ ht-degree: 83%
 
    ![&#x200B; ストーリーカード &#x200B;](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
-1. （オプション）フィールドを編集するには、フィールドをクリックしてから変更を加えます。
+1. （オプション）フィールドを編集するには、フィールドをクリックして、変更を加えます。
 ストーリータイルを編集するには、タスクまたはイシューに対する[!UICONTROL 編集]権限が必要です。
 それぞれのフィールドと編集可能かどうかについて詳しくは、[表示および編集できる情報について](#understand-what-information-can-be-viewed-and-edited)を参照してください。
 
 >[!NOTE]
 >
->[!UICONTROL 完了率]を変更する場合は、0 から 100 の間の数値を入力する必要があります。フィールドは移動できるスライダーではありません。
+>[!UICONTROL 完了率]を変更する場合は、0 から 100 の間の数値を入力する必要があります。 フィールドは移動できるスライダーではありません。
