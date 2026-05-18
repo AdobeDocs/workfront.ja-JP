@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 9%
+source-wordcount: '625'
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 ## アクセス要件
 
-+++ 展開してアクセス要件を表示します。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -72,14 +72,14 @@ ht-degree: 9%
 
 1. フィルターを設定するには、次の手順に従います。
 
-   1. （オプション）「**カレンダー**」アイコン「![&#x200B; カレンダーアイコン &#x200B;](assets/calendar-icon.png)」をクリックし、その期間内に最後に変更されたボードでフィルタリングする日付範囲を選択します。
+   1. （オプション）「**カレンダー**」アイコン「![ カレンダーアイコン ](assets/calendar-icon.png)」をクリックし、その期間内に最後に変更されたボードでフィルタリングする日付範囲を選択します。
 
    1. （オプション）「**テンプレート**」セクションで、リストでフィルタリングするボードテンプレートのタイプを選択します。 複数のテンプレートタイプを選択できます。
-ボード テンプレートの種類について詳しくは、[&#x200B; ボードの作成または編集](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)を参照してください。
+ボード テンプレートの種類について詳しくは、[ ボードの作成または編集](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)を参照してください。
 
    1. （オプション）「**アーカイブ済み**」セクションで、アーカイブ済みボードとアーカイブされていないボードのどちらを表示するかを選択します。 複数のオプションを選択できます。
 
-      ![はアーカイブされたセクション &#x200B;](assets/is-archived-section.png)です
+      ![はアーカイブされたセクション ](assets/is-archived-section.png)です
 
 1. **フィルター** パネルの外側をクリックして閉じます。 フィルターの選択は、デフォルトのビューに変更されるまで、ボードリストに適用されたままになります。
 
@@ -106,7 +106,7 @@ ht-degree: 9%
 
 1. （オプション）フィールドが表示される順序を調整するには、フィールドの左側にある&#x200B;**ドラッグ** アイコンをクリックしたまま、新しい位置にドラッグします。
 
-   ![&#x200B; クリックしてドラッグ &#x200B;](assets/click-and-drag.png)
+   ![ クリックしてドラッグ ](assets/click-and-drag.png)
 
 1. **フィールドの表示と順序** パネルの外側をクリックして閉じます。 列の設定は、変更されるまでボードリストに適用されたままになります。
 
@@ -142,5 +142,5 @@ ht-degree: 9%
 
    >[!NOTE]
    >   
-   >掲示板リストのグループ化表示を変更すると、**グループ** アイコンの上に青いドットが表示され、現在のビューがデフォルトと異なることを示します。<br>
+   >掲示板リストのグループ化表示を変更すると、**グループ** アイコンの上に青いドットが表示され、現在のビューがデフォルトと異なることを示します。 <br>
    >グループ化を削除する場合は、**グループ化** パネルを開き、右上隅の「**すべてクリア**」を選択します。

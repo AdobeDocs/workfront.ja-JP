@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 86%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 86%
 
 [!DNL Adobe Workfront] で定義されたスケジュールは、バーンダウンから休日（週末と祝日）を除外することにより、バーンダウンチャートに影響を与えます。
 
-デフォルトでは、バーンダウンチャートはデフォルトのスケジュールを使用します。アジャイルチームは、デフォルトのスケジュールに加えて、チーム固有の非稼働日を組み込むために、代替スケジュールを使用することもできます。 この代替スケジュールは、チームに割り当てられたイテレーションのバーンダウンチャートに反映されます。代替スケジュールは、バーンダウンチャートにのみ影響します。（デフォルトのスケジュールと、[!DNL Workfront] 管理者がチーム固有のスケジュールを作成する方法について詳しくは、[スケジュールを作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。）
+デフォルトでは、バーンダウンチャートはデフォルトのスケジュールを使用します。 アジャイルチームは、デフォルトのスケジュールに加えて、チーム固有の非稼働日を組み込むために、代替スケジュールを使用することもできます。 この代替スケジュールは、チームに割り当てられたイテレーションのバーンダウンチャートに反映されます。 代替スケジュールは、バーンダウンチャートにのみ影響します。 （デフォルトのスケジュールと、[!DNL Workfront] 管理者がチーム固有のスケジュールを作成する方法について詳しくは、[スケジュールを作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。）
 
-バーンダウンチャートでは、半日は考慮されません。例えば、チームが毎週金曜日に 4 時間働く場合、バーンダウンチャートでは丸 1 日として表されます。
+バーンダウンチャートでは、半日は考慮されません。 例えば、チームが毎週金曜日に 4 時間働く場合、バーンダウンチャートでは丸 1 日として表されます。
 
 バーンダウンチャートの使用方法について詳しくは、[アジャイルバーンダウンチャートの概要](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)を参照してください。
 
@@ -47,7 +47,7 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -57,10 +57,10 @@ ht-degree: 86%
 
 {{step1-to-team}}
 
-1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するアジャイルチームを選択します。
-1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
+1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
 1. 「**[!UICONTROL アジャイル]**」セクションの&#x200B;**[!UICONTROL スケジュール]**&#x200B;領域で、ドロップダウンメニューから新しいスケジュールを選択します。
 

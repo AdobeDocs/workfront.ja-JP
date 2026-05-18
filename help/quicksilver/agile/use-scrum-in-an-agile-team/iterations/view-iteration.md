@@ -2,22 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: イテレーションの表示
-description: 特定のチームのすべての反復を表示することも、個々の反復を表示することもできます。反復には、その反復に含まれるストーリー、イシュー、ドキュメントに関するデータが表示されます。
+description: 特定のチームのすべての反復を表示することも、個々の反復を表示することもできます。 反復には、その反復に含まれるストーリー、イシュー、ドキュメントに関するデータが表示されます。
 author: Courtney
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '216'
 ht-degree: 91%
 
 ---
 
 # イテレーションを表示
 
-特定のチームのすべての反復を表示することも、個々の反復を表示することもできます。反復には、その反復に含まれるストーリー、イシュー、ドキュメントに関するデータが表示されます。
+特定のチームのすべての反復を表示することも、個々の反復を表示することもできます。 反復には、その反復に含まれるストーリー、イシュー、ドキュメントに関するデータが表示されます。
 
 ## アクセス要件
 
@@ -41,7 +41,7 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -49,15 +49,15 @@ ht-degree: 91%
 
 {{step1-to-team}}
 
-1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
-1. 左側のパネルで、「**[!UICONTROL 反復]**」を選択して特定の反復を選択するか、「**[!UICONTROL 進行中の反復]**」を選択します。
+1. 左パネルで、「**[!UICONTROL 反復]**」を選択して特定の反復を選ぶか、「**[!UICONTROL 進行中の反復]**」を選択します。
 
    ![反復のリスト](assets/view-iteration-list.png)
 
    >[!NOTE]
    >
-   >「**[!UICONTROL 進行中の反復]**」が左側のパネルに表示されるのは、レイアウトテンプレートに割り当てられ、その反復に少なくとも 1 つのタスクまたはイシューがある場合のみです。詳しくは、[レイアウトテンプレートを使用した左側のパネルのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
+   >「**[!UICONTROL 進行中の反復]**」が左側のパネルに表示されるのは、レイアウトテンプレートに割り当てられ、その反復に少なくとも 1 つのタスクまたはイシューがある場合のみです。 詳しくは、[レイアウトテンプレートを使用した左側のパネルのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
 
 
 1. （オプション）表示する特定のイテレーションの名前をクリックします。

@@ -3,15 +3,15 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: ワークストリームでのイテレーションの作成
-description: イテレーションとは、作業の完了のために予約された一定時間のことです。アジャイルチームの中には、イテレーションをスプリントと呼ぶものもあります。
+description: イテレーションとは、作業の完了のために予約された一定時間のことです。 アジャイルチームの中には、イテレーションをスプリントと呼ぶものもあります。
 author: Courtney
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '392'
 ht-degree: 92%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 92%
 >
 >ワークストリームは、特定の顧客グループのみが使用できます。
 
-イテレーションとは、作業の完了のために予約された一定時間のことです。アジャイルチームの中には、イテレーションをスプリントと呼ぶものもあります。
+イテレーションとは、作業の完了のために予約された一定時間のことです。 アジャイルチームの中には、イテレーションをスプリントと呼ぶものもあります。
 
 ## アクセス要件
 
@@ -46,7 +46,7 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -54,12 +54,12 @@ ht-degree: 92%
 
 {{step1-to-boards}}
 
-1. イテレーションを追加するワークストリームを開きます。ワークストリームを開くには、[!UICONTROL **ワークストリームを表示**]&#x200B;をクリックします。
+1. イテレーションを追加するワークストリームを開きます。 ワークストリームを開くには、[!UICONTROL **ワークストリームを表示**]&#x200B;をクリックします。
 1. 次のいずれかの方法を使用して、イテレーションを作成します。
 
    * イテレーションビューの「カードリスト」タブで、「[!UICONTROL **イテレーションを作成**]」をクリックします。
    * リストビューの「カードリスト」タブで、「[!UICONTROL **イテレーションを作成**]」をクリックします。
-   * 「ボード」タブで、「[!UICONTROL **ボードを追加**]」をクリックし、「[!UICONTROL **イテレーションプロセス**]」をボードテンプレートとして選択します。次に、イテレーションボードを開き、「[!UICONTROL **イテレーションを設定**]」をクリックします。
+   * 「ボード」タブで、「[!UICONTROL **ボードを追加**]」をクリックし、「[!UICONTROL **イテレーションプロセス**]」をボードテンプレートとして選択します。 次に、イテレーションボードを開き、「[!UICONTROL **イテレーションを設定**]」をクリックします。
 
 1. イテレーションの詳細ダイアログで、次の情報を追加します。
 
@@ -75,7 +75,7 @@ ht-degree: 92%
      </tr>
      <tr> 
       <td><strong>[!UICONTROL Start date]</strong></td> 
-      <td>イテレーションが開始される日付。終了日は、イテレーションの長さに基づいて自動的に入力されます。</td> 
+      <td>イテレーションが開始される日付。 終了日は、イテレーションの長さに基づいて自動的に入力されます。</td> 
      </tr> 
     </tbody> 
    </table>

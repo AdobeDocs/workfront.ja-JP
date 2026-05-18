@@ -2,22 +2,22 @@
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: バックログをカンバンボードに追加する
-description: '[!UICONTROL バックログ]列をかんばんボードに直接表示できます。 [!DNL Kanban]  ボードの[!UICONTROL バックログ]列には、 [!DNL Kanban]  ボードのバックログの最初の 20 個の項目が含まれます。タスクやイシューをバックログに表示するには、ステータスが「現在」に相当するプロジェクトに属している必要があります。'
+description: '[!UICONTROL バックログ]列をかんばんボードに直接表示できます。  [!DNL Kanban]  ボードの[!UICONTROL バックログ]列には、 [!DNL Kanban]  ボードのバックログの最初の 20 個の項目が含まれます。 タスクやイシューをバックログに表示するには、ステータスが「現在」に相当するプロジェクトに属している必要があります。'
 author: Courtney
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '244'
 ht-degree: 92%
 
 ---
 
 # [!UICONTROL かんばん]ボードへのバックログの追加
 
-[!UICONTROL バックログ]列をかんばんボードに直接表示できます。[!DNL Kanban] ボードの[!UICONTROL バックログ]列には、[!DNL Kanban] ボードのバックログの最初の 20 個の項目が含まれます。タスクやイシューをバックログに表示するには、ステータスが「[!UICONTROL 現在]」に相当するプロジェクトに属している必要があります。
+[!UICONTROL バックログ]列をかんばんボードに直接表示できます。 [!DNL Kanban] ボードの[!UICONTROL バックログ]列には、[!DNL Kanban] ボードのバックログの最初の 20 個の項目が含まれます。 タスクやイシューをバックログに表示するには、ステータスが「[!UICONTROL 現在]」に相当するプロジェクトに属している必要があります。
 
 ## アクセス要件
 
@@ -41,13 +41,13 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
 ## [!UICONTROL かんばん]ボードへのバックログの追加
 
-デフォルトでは、[!UICONTROL バックログ]列は非表示になっています。バックログを表示するには、次の手順に従います。
+デフォルトでは、[!UICONTROL バックログ]列は非表示になっています。 バックログを表示するには、次の手順に従います。
 
 {{step1-to-team}}
 
@@ -58,6 +58,6 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->複数のチームをバックログ項目に追加した場合、タスクまたはイシューは、プライマリチームのバックログにのみ表示されます。プライマリチームは、最初に割り当てられたチームです。
+>複数のチームをバックログ項目に追加した場合、タスクまたはイシューは、プライマリチームのバックログにのみ表示されます。 プライマリチームは、最初に割り当てられたチームです。
 
-バックログについて詳しくは、[&#x200B; アジャイルバックログの管理](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
+バックログについて詳しくは、[ アジャイルバックログの管理](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。

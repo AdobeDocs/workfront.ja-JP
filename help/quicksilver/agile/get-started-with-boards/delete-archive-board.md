@@ -3,22 +3,22 @@ filename: delete-archive-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: ボードの削除またはアーカイブ
-description: Workfront でボードを削除またはアーカイブできます。ボードを削除すると、Workfront から完全に削除されますが、ボードをアーカイブするとすべてのカードが保持され、後で復元できます。
+description: Workfront でボードを削除またはアーカイブできます。 ボードを削除すると、Workfront から完全に削除されますが、ボードをアーカイブするとすべてのカードが保持され、後で復元できます。
 author: Courtney
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 88%
+source-wordcount: '304'
+ht-degree: 87%
 
 ---
 
 # ボードを削除またはアーカイブ
 
-[!DNL Workfront] でボードを削除またはアーカイブできます。ボードを削除すると、[!DNL Workfront] から完全に削除されますが、ボードをアーカイブするとすべてのカードが保持され、後で復元できます。
+[!DNL Workfront] でボードを削除またはアーカイブできます。 ボードを削除すると、[!DNL Workfront] から完全に削除されますが、ボードをアーカイブするとすべてのカードが保持され、後で復元できます。
 
 ボードを削除できるのは、ボードの所有者のみです。
 
@@ -44,18 +44,18 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
 ## ボードを削除
 
-ボードを削除すると、ボードは [!DNL Workfront] から完全に削除され、復元できなくなります。ボード上のカードも、ボードと共に削除されます。
+ボードを削除すると、ボードは [!DNL Workfront] から完全に削除され、復元できなくなります。 ボード上のカードも、ボードと共に削除されます。
 
 {{step1-to-boards}}
 
 1. ダッシュボードで、ボードを選択して開きます。
-1. ボード名の横にある&#x200B;**[!UICONTROL 詳細]**&#x200B;メニュー ![[!UICONTROL 詳細メニュー]](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL 削除]**」を選択します。次に、確認メッセージで「**[!UICONTROL ボードを削除]**」をクリックします。
+1. ボード名の横にある&#x200B;**[!UICONTROL 詳細]**&#x200B;メニュー ![[!UICONTROL 詳細メニュー]](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL 削除]**」を選択します。 次に、確認メッセージで「**[!UICONTROL ボードを削除]**」をクリックします。
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ ht-degree: 88%
 
 ## ボードをアーカイブ
 
-アーカイブされたボードは、すべてのカードと割り当てを保持します。任意のユーザーはいつでもボードをアーカイブまたは復元できます。
+アーカイブされたボードは、すべてのカードと割り当てを保持します。 任意のユーザーはいつでもボードをアーカイブまたは復元できます。
 
 {{step1-to-boards}}
 
@@ -76,7 +76,7 @@ ht-degree: 88%
 
 ## ボードを復元
 
-アーカイブされたボードは、いつでも復元できます。誰でも、アーカイブされたボードを復元できます。
+アーカイブされたボードは、いつでも復元できます。 誰でも、アーカイブされたボードを復元できます。
 
 {{step1-to-boards}}
 

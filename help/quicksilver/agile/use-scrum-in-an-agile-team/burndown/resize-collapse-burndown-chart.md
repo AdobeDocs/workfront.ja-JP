@@ -8,9 +8,9 @@ feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '239'
 ht-degree: 94%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -55,7 +55,7 @@ ht-degree: 94%
 
 1. サイズを変更するバーンダウンチャートを含むイテレーションに移動します。
 1. バーンダウンチャートの下線にポインタを合わせ、チャートを希望のサイズにドラッグします。
-   ![&#x200B; バーンダウンチャートのサイズ変更](assets/burndown-resize.png)
+   ![ バーンダウンチャートのサイズ変更](assets/burndown-resize.png)
 
 ## バーンダウンチャートの折りたたみ
 

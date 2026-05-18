@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 77%
+source-wordcount: '446'
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 77%
 
 ## 表示および編集できる情報について
 
-ストーリーボード上のストーリータイルを表示する場合、次の表の情報を使用できます。ほとんどの情報は、ストーリータイルから直接、インラインで編集できます。
+ストーリーボード上のストーリータイルを表示する場合、次の表の情報を使用できます。 ほとんどの情報は、ストーリータイルから直接、インラインで編集できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ ht-degree: 77%
   </tr> 
   <tr> 
    <td> <p>プロジェクトに直接リンクするプロジェクト名<br>このリンクは、イテレーションでアジャイルビューを使用する場合はストーリー（親タスクではなく、サブタスク）にのみ表示されます。プロジェクトでアジャイルビューを使用する場合は表示されません。</p> </td> 
-   <td>✓</td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -64,7 +64,7 @@ ht-degree: 77%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Adobe Workfront]<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">の「</a> ビューの概要」の「アジャイルビューの作成とカスタマイズ」で説明されているように、アジャイルビューを変更してアジャイルビューに追加された可能性のある追加フィールド（カスタムフィールドを含む）です。</p> </td> 
+   <td> <p>[!UICONTROL Adobe Workfront]</a>の「<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref"> ビューの概要」の「[!UICONTROL アジャイルビューの作成とカスタマイズ」で説明されているように、アジャイルビューを変更してアジャイルビューに追加された可能性のある追加フィールド（カスタムフィールドを含む）です。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -96,7 +96,7 @@ ht-degree: 77%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -104,14 +104,14 @@ ht-degree: 77%
 
 {{step1-to-team}}
 
-1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
-1. 左パネルで、「**[!UICONTROL イテレーション]**」を選択して特定のイテレーションを選ぶか、「**[!UICONTROL 進行中のイテレーション]**」を選択します。
+1. 左パネルで、「**[!UICONTROL 反復]**」を選択して特定の反復を選ぶか、「**[!UICONTROL 進行中の反復]**」を選択します。
 
-1. [!UICONTROL &#x200B; スクラム &#x200B;] アジャイルストーリーボードに移動します。
+1. [!UICONTROL  スクラム ] アジャイルストーリーボードに移動します。
 1. [!UICONTROL ストーリー]タイルを展開して、ストーリーに関連するすべてのフィールドを表示します。
 
-   ![&#x200B; ストーリーカード &#x200B;](assets/agile-storycard-scrum-2021-350x333.png)
+   ![ ストーリーカード ](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. （オプション）フィールドを編集するには、フィールドをクリックして、変更を加えます。
 
@@ -119,4 +119,4 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->[!UICONTROL 完了率]を変更する場合は、0 から 100 の間の数値を入力する必要があります。フィールドは移動できるスライダーではありません。
+>[!UICONTROL 完了率]を変更する場合は、0 から 100 の間の数値を入力する必要があります。 フィールドは移動できるスライダーではありません。

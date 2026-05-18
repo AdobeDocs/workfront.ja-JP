@@ -8,16 +8,16 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1726'
 ht-degree: 74%
 
 ---
 
 # [!UICONTROL スクラム]の設定
 
-[&#x200B; アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)の説明に従って、[!DNL Adobe Workfront]でアジャイルチームを作成できます。 アジャイルチームを編成する際に、チームが作業を完了するために使用する手法を選択できます。 以下のオプションから選択できます。
+[ アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)の説明に従って、[!DNL Adobe Workfront]でアジャイルチームを作成できます。 アジャイルチームを編成する際に、チームが作業を完了するために使用する手法を選択できます。 以下のオプションから選択できます。
 
 * スクラム
 * かんばん
@@ -61,7 +61,7 @@ ht-degree: 74%
 </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -81,7 +81,7 @@ ht-degree: 74%
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL Work]のライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL Work]のライセンスを持つチームメンバーのみがこのオプションを表示します。
 
    ![チームを編集](assets/edit-team-settings-scrum.png)
 
@@ -134,7 +134,7 @@ ht-degree: 74%
 
 ### プロジェクトのステータス列を設定 {#configure-status-columns-for-projects}
 
-プロジェクトのステータス列を設定する方法については、[&#x200B; [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でビューを作成または編集の記事の、[[!UICONTROL アジャイル]ビューを作成またはカスタマイズ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)の節を参照してください。
+プロジェクトのステータス列を設定する方法については、[ [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でビューを作成または編集の記事の、[[!UICONTROL アジャイル]ビューを作成またはカスタマイズ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)の節を参照してください。
 
 ## アジャイルストーリーボードのストーリーカードに表示する追加フィールドを設定します
 
@@ -164,7 +164,7 @@ ht-degree: 74%
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL &#x200B; ワーク &#x200B;]のいずれかのライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL  ワーク ]のいずれかのライセンスを持つチームメンバーのみがこのオプションを表示します。
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションで、フィールド名を入力してフィールドを確認します。
 
@@ -186,7 +186,7 @@ ht-degree: 74%
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL &#x200B; ワーク &#x200B;]のライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL  ワーク ]のライセンスを持つチームメンバーのみがこのオプションを表示します。
 
 1. 「[!UICONTROL アジャイル]」セクションの [!UICONTROL カードのカラーの関連付け先]エリアで、次のオプションから選択します。
 
@@ -212,7 +212,7 @@ ht-degree: 74%
 1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL &#x200B; ワーク &#x200B;]のライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL  ワーク ]のライセンスを持つチームメンバーのみがこのオプションを表示します。
 
 1. 「[!UICONTROL アジャイル]」セクションの&#x200B;[!UICONTROL **作業アイテムがイテレーションに追加されるとき**]&#x200B;エリアで、次のオプションから選択します。
 

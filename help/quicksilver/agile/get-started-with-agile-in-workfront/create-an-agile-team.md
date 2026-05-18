@@ -8,7 +8,7 @@ feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 57%
@@ -25,9 +25,9 @@ ht-degree: 57%
 
 [!DNL Workfront]は次のアジャイル手法をサポートしています。
 
-* **[!UICONTROL スクラム]**：チームには、完了する必要がある作業のバックログがあります。チームが特定の量の作業に取り組む準備ができると、その作業はバックログからイテレーションに移動されます。スクラムチームの管理について詳しくは、「[&#x200B; アジャイルチームのスクラム &#x200B;](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)」を参照してください。
+* **[!UICONTROL スクラム]**：チームには、完了する必要がある作業のバックログがあります。 チームが特定の量の作業に取り組む準備ができると、その作業はバックログからイテレーションに移動されます。 スクラムチームの管理について詳しくは、「[ アジャイルチームのスクラム ](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)」を参照してください。
 
-* **[!UICONTROL かんばん]：** チームは、カンバンビューで事前に設定されたステータス間で作業を移動します。デフォルトのステータスは、バックログ、処理中、完了です。カンバンチームの管理について詳しくは、[&#x200B; アジャイルチームでのカンバン &#x200B;](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)を参照してください。
+* **[!UICONTROL かんばん]：** チームは、カンバンビューで事前に設定されたステータス間で作業を移動します。 デフォルトのステータスは、バックログ、処理中、完了です。 カンバンチームの管理について詳しくは、[ アジャイルチームでのカンバン ](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)を参照してください。
 
 ## アクセス要件
 
@@ -52,13 +52,13 @@ ht-degree: 57%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
 ## アジャイル手法の決定
 
-スクラムとカンバンのどちらのアジャイル手法も使用できます。 それぞれの方法論には様々なメリットがあります。アジャイルチームの働き方によって、使用するアジャイル手法が決まります。
+スクラムとカンバンのどちらのアジャイル手法も使用できます。 それぞれの方法論には様々なメリットがあります。 アジャイルチームの働き方によって、使用するアジャイル手法が決まります。
 
 [!DNL Workfront]のスクラムとカンバンの両方のアジャイル手法を使用すると、ストーリーボード上でストーリーを移動して、ストーリーのステータスの変更と進行状況を示すことができます。
 
@@ -66,17 +66,17 @@ ht-degree: 57%
 
 ### [!DNL Workfront] でかんばんを使用するメリット
 
-[!DNL Kanban]の[!DNL Workfront] アジャイル手法では、進行中の作業の量を制限しながら、アジャイルストーリーボード上でストーリーをより簡単に移動できます。 [!DNL Kanban] アジャイル手法を使用する場合、開始日と終了日はありません。
+[!DNL Workfront]の[!DNL Kanban] アジャイル手法では、進行中の作業の量を制限しながら、アジャイルストーリーボード上でストーリーをより簡単に移動できます。 [!DNL Kanban] アジャイル手法を使用する場合、開始日と終了日はありません。
 
 以下の機能が、この方法論をサポートします。
 
 * バックログを[!DNL Kanban] アジャイルストーリーボードに表示します。
 詳しくは、[バックログを[!UICONTROL かんばん]ボードに追加](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)を参照してください。
 
-* 他のアイテムが完了と等しいステータスに移動されると、バックログ上のアイテムを自動的に[!UICONTROL &#x200B; カンバン &#x200B;] アジャイルストーリーボードに追加するように設定します。
+* 他のアイテムが完了と等しいステータスに移動されると、バックログ上のアイテムを自動的に[!UICONTROL  カンバン ] アジャイルストーリーボードに追加するように設定します。
 詳しくは、[かんばんを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)の記事にある[バックログから自動的に追加されるようにストーリーを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)の節を参照してください。
 
-* [!UICONTROL &#x200B; カンバン &#x200B;] アジャイルストーリーボードに表示する進行中の作業（WIP）制限を設定します。
+* [!UICONTROL  カンバン ] アジャイルストーリーボードに表示する進行中の作業（WIP）制限を設定します。
 詳しくは、[かんばんボードでの作業中（WIP）の制限を管理](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)を参照してください。
 
 ### [!DNL Workfront] でスクラムを使用するメリット
@@ -89,7 +89,7 @@ ht-degree: 57%
 * アジャイルチームのバックログに問題を含める
 * サブタスクは、[!UICONTROL スクラム]ストーリーボードに表示可能
 * バーンダウンチャートで、イテレーション中のストーリーに対する進捗を確認できます
-詳しくは、[&#x200B; アジャイルバーンダウンチャートの概要](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)を参照してください。
+詳しくは、[アジャイルバーンダウンチャートの概要](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)を参照してください。
 
 ## アジャイルチームの作成
 
@@ -118,13 +118,13 @@ ht-degree: 57%
 
    <tr> 
       <td role="rowheader"><strong>[!UICONTROL Is Active]</strong> </td> 
-      <td>このチームを有効化するには、このオプションを選択します。非アクティブなチームは、他のユーザーが作業に割り当てる際には表示されません。 </td> 
+      <td>このチームを有効化するには、このオプションを選択します。 非アクティブなチームは、他のユーザーが作業に割り当てる際には表示されません。 </td> 
      </tr>
 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>チームに追加するグループの名前を入力し、ドロップダウンリストに表示されたら、名前を選択します。</p> <p><b>メモ</b></p> <p> チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、そのチームのメンバーにならなくてもチームを管理できます。管理するグループに割り当てられているすべてのチームのリストを表示するには、グループ管理者は、[!UICONTROL Main Menu] から [!UICONTROL Teams] 領域に移動し、[!UICONTROL Switch Teams] 矢印 <img src="assets/switch-team-icon.png" alt="チームを切り替えアイコン"> をクリックできます。</p> </td> 
+      <td> <p>チームに追加するグループの名前を入力し、ドロップダウンリストに表示されたら、名前を選択します。</p> <p><b>メモ</b></p> <p> チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、そのチームのメンバーにならなくてもチームを管理できます。 管理するグループに割り当てられているすべてのチームのリストを表示するには、グループ管理者は、[!UICONTROL Main Menu] から [!UICONTROL Teams] 領域に移動し、[!UICONTROL Switch Teams] 矢印 <img src="assets/switch-team-icon.png" alt="チームを切り替えアイコン"> をクリックできます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Team Members]</strong> </td> 
@@ -133,7 +133,7 @@ ht-degree: 57%
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
       <td><p>チームの説明を入力します。</p> <p>チームを選択すると、[!UICONTROL Teams] 領域の右上に説明が表示されます。</p>
-      <p>説明が長い場合は、クリックすると完全な説明がポップアップで表示されます。[!UICONTROL team settings] を編集するアクセス権がある場合は、ポップアップで直接説明を編集することもできます。</p></td>
+      <p>説明が長い場合は、クリックすると完全な説明がポップアップで表示されます。 [!UICONTROL team settings] を編集するアクセス権がある場合は、ポップアップで直接説明を編集することもできます。</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -156,7 +156,7 @@ ht-degree: 57%
 1. アジャイルチームに転換するチームを選びます。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL Work]のライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL Work]のライセンスを持つチームメンバーのみがこのオプションを表示します。
    ![編集を選択](assets/edit-team-settings.png)
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションで、「**[!UICONTROL アジャイルチームです]**」を選択します。
@@ -165,7 +165,7 @@ ht-degree: 57%
 
 1. 「**変更を保存**」をクリックします。
 
-   チームはアジャイルチームとして保存されます。チームの編集時に、新しいチームをスクラムまたはかんばんチームとして設定できます。
+   チームはアジャイルチームとして保存されます。 チームの編集時に、新しいチームをスクラムまたはかんばんチームとして設定できます。
 
    詳しくは、次の記事を参照してください。
 

@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '305'
 ht-degree: 99%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 カードは、ボード上の任意の列に移動したり、カードをコピーしたりできます。
 
-フィールド値の更新に列ポリシーが有効になっていると、カードを別の列に移動すると、ステータス、割り当て先およびタグが自動的に更新される場合があります。詳しくは、[ボード列の管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)の記事の「列設定とポリシーの定義」を参照してください。
+フィールド値の更新に列ポリシーが有効になっていると、カードを別の列に移動すると、ステータス、割り当て先およびタグが自動的に更新される場合があります。 詳しくは、[ボード列の管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)の記事の「列設定とポリシーの定義」を参照してください。
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -55,12 +55,12 @@ ht-degree: 99%
 
 {{step1-to-boards}}
 
-1. ボードにアクセスします。詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
+1. ボードにアクセスします。 詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. カードを別の列の表示位置にドラッグ＆ドロップします。
 
    または
 
-   カード上の&#x200B;**[!UICONTROL その他]**&#x200B;メニュー![その他のメニュー](assets/more-icon-spectrum.png)をクリックし、「**[!UICONTROL 移動]**」を選択します。「**[!UICONTROL 項目を移動]**」ボックスで、別の列を選択し、「**[!UICONTROL 移動]**」を選択します。
+   カード上の&#x200B;**[!UICONTROL その他]**&#x200B;メニュー![その他のメニュー](assets/more-icon-spectrum.png)をクリックし、「**[!UICONTROL 移動]**」を選択します。 「**[!UICONTROL 項目を移動]**」ボックスで、別の列を選択し、「**[!UICONTROL 移動]**」を選択します。
 
    ![カードを移動](assets/boards-move-card-350x217.png)
 
