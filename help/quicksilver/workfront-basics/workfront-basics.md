@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront の基本：記事インデックス
-description: これらのエリアを確認して、Adobe Workfront の基本を理解し、ホームエリアや優先度エリアの使用、アカウントプロファイルの管理、AI アシスタントの使用、ブラウザーの要件とサポートされている言語の理解など、基本的な機能を実行する方法を学びます。Workfront の一般的な用語について詳しくは、Workfront 用語集を参照してください。
+description: これらのエリアを確認して、Adobe Workfront の基本を理解し、ホームエリアや優先度エリアの使用、アカウントプロファイルの管理、AI アシスタントの使用、ブラウザーの要件とサポートされている言語の理解など、基本的な機能を実行する方法を学びます。 Workfront の一般的な用語について詳しくは、Workfront 用語集を参照してください。
 short-description: Adobe Workfront の基本を理解し、基本的な機能を実行する方法を学びます。
 author: Courtney
 feature: Get Started with Workfront
@@ -10,10 +10,10 @@ recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 434962cc354e545296610a73902d94fa1b6811f5
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 <!--Audited: 01/2025-->
 
-これらのエリアを確認して、Adobe Workfront の基本を理解し、ホームエリアや優先度エリアの使用、アカウントプロファイルの管理、AI アシスタントの使用、ブラウザーの要件とサポートされている言語の理解など、基本的な機能を実行する方法を学びます。Workfront の一般的な用語について詳しくは、Workfront 用語集を参照してください。
+これらのエリアを確認して、Adobe Workfront の基本を理解し、ホームエリアや優先度エリアの使用、アカウントプロファイルの管理、AI アシスタントの使用、ブラウザーの要件とサポートされている言語の理解など、基本的な機能を実行する方法を学びます。 Workfront の一般的な用語について詳しくは、Workfront 用語集を参照してください。
 
 このセクションには、次のサブセクションが含まれます。
 
@@ -39,4 +39,5 @@ ht-degree: 100%
 * [アカウントとプロファイルを管理](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [モバイルアプリ](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Workfront の AI アシスタント](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+* [Workfront MCP サーバー](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
 * [Adobe Workfront Basics に関するヒント、テクニックおよびトラブルシューティング](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
