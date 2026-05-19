@@ -716,7 +716,7 @@ The following functionality is soon to be removed from Workfront:
 
 >[!IMPORTANT]
 >
->Workfront Fusionのドキュメントが新しい場所に移動しました。 Fusionの詳細、手順、リリースについては、[Workfront Fusion ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home)を参照してください。
+>Workfront Fusionのドキュメントが新しい場所に移動しました。 Fusionの詳細、手順、リリースについては、[Workfront Fusion ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home)を参照してください。
 >
 >現在のFusion ドキュメントの各記事には、新しい場所にある対応する記事へのリンクが含まれています。 ブックマークを更新してください。
 >
