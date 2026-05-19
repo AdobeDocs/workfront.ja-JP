@@ -1,6 +1,6 @@
 ---
 title: 2025 年第 1 四半期リリースの概要
-description: このページでは、2025 年第 1 四半期リリースに含まれる機能について説明します。これらの機能強化は、その四半期を通じて本番動環境で利用できるようになる予定です。
+description: このページでは、2025 年第 1 四半期リリースに含まれる機能について説明します。 これらの機能強化は、その四半期を通じて本番動環境で利用できるようになる予定です。
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -9,20 +9,20 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2786'
-ht-degree: 31%
+source-wordcount: '2976'
+ht-degree: 32%
 
 ---
 
 # 2025 年第 1 四半期リリースの概要
 
-このページでは、2025 年第 1 四半期リリースに含まれる機能について説明します。これらの機能強化は、その四半期を通じて本番動環境で利用できるようになる予定です。
+このページでは、2025 年第 1 四半期リリースに含まれる機能について説明します。 これらの機能強化は、その四半期を通じて本番動環境で利用できるようになる予定です。
 
 <span class="preview">オフサイクル機能（2025年第 1 四半期のリリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライトされています。</span>
 
 >[!IMPORTANT]
 >
->23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。そのため、Workfront では、月次および四半期次のリリース追跡の両方に対応するように、リリースのナンバリング方式を変更しています。最初の数字は年、2 番目の数字はリリースの月を表します。例：2025年4月のリリースは 25.4 となります。
+>23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。 そのため、Workfront では、月次および四半期次のリリース追跡の両方に対応するように、リリースのナンバリング方式を変更しました。 最初の数字は年、2 番目の数字はリリースの月を表します。 例：2025年4月のリリースは 25.4 となります。
 >
 >月次リリースと四半期リリースは、特に指定がない限り、毎月第 2 週の木曜日に公開される予定です。
 >
@@ -722,36 +722,36 @@ The following functionality is soon to be removed from Workfront:
 >
 >現在のFusion ドキュメントセットは更新されなくなり、近い将来に削除される予定です。
 
-Workfront Fusion の新機能は、2025年第 1 四半期のリリーススケジュールから外れた頻度で、実稼動環境で利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、2025年第 1 四半期のリリーススケジュールから外れた頻度で、実稼動環境で利用可能になります。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront Planning の機能強化
 
-Workfront Planning の新機能は、実稼動環境で使用できます。最新の機能について詳しくは、[Adobe Workfront Planning 2025年第1四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)を参照してください。
+Workfront Planning の新機能は、実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Planning 2025年第1四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 
-リリースの現時点では、シナリオプランナーの更新はありません。このエリアは、アップデートが利用可能になると更新されます。
+リリースの現時点では、シナリオプランナーの更新はありません。 このエリアは、アップデートが利用可能になると更新されます。
 
 ### Workfront Proof の機能強化
 
-リリースの現時点では、Workfront Proof の更新はありません。このエリアは、アップデートが利用可能になると更新されます。
+リリースの現時点では、Workfront Proof の更新はありません。 このエリアは、アップデートが利用可能になると更新されます。
 
 ### Workfront Goals の強化
 
-リリースの現時点では、Workfront Goals の更新はありません。このエリアは、アップデートが利用可能になると更新されます。
+リリースの現時点では、Workfront Goals の更新はありません。 このエリアは、アップデートが利用可能になると更新されます。
 
 ### API バージョン 19
 
-API バージョン 19 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
+API バージョン 19 では、いくつかのリソースとエンドポイントが変更されました。 変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
 
 新機能と更新内容については、[API バージョン 19 の新機能](/help/quicksilver/wf-api/api/new-api-version-19.md)を参照してください。
 
 API バージョンの詳細については、[API のバージョン管理とサポートスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
-### Workfront のメンテナンス更新
+### Workfront のメンテナンスアップデート
 
 2025年 第 1 四半期リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。 詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。

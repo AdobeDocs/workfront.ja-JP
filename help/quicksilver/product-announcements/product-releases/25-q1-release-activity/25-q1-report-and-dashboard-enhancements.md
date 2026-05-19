@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 17%
+source-wordcount: '336'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->プレビューリリース：2025年1月15日（PT）、すべての顧客向けの実稼動版リリース：2025年1月15日（PT）
+>プレビューリリース：2025年1月15日（PT）、実稼動リリース：すべてのユーザー：2025年1月15日（PT）
 
 Data Connectでは、次のエンティティのサポートが追加されました。
 

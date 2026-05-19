@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1808'
 ht-degree: 4%
 
 ---
@@ -242,7 +242,7 @@ IF({status} = "APR", true)
 
      エラーメッセージに静的URLを含めることで、ドキュメントやその他の便利なページにリンクし、ルールの制約の中でユーザーがアクションを変更する方法をガイドできます。
 
-     この例では、「詳細情報」がURLにリンクされます。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URLは括弧で囲む必要がありますが、括弧内のリンクテキストは必要ありません。 完全なURLを表示することができ、クリック可能なリンクになります。
+     この例では、「詳細情報」がURLにリンクされます。`"You are not allowed to add a new project in November.[Learn more](http://url)"` URLは括弧で囲む必要がありますが、括弧内のリンクテキストは必要ありません。 完全なURLを表示することができ、クリック可能なリンクになります。
 
    ![&#x200B; ビジネスルールダイアログを追加](assets/add-business-rule-new.png)
 

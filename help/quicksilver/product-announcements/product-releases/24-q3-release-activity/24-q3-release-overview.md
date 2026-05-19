@@ -1,6 +1,6 @@
 ---
 title: 2024年第 3 四半期リリースの概要
-description: このページでは、2024年第 3 四半期リリースに含まれている機能について説明します。これらの機能強化は、四半期を通じて本番環境で利用できるようになる予定です。
+description: このページでは、2024年第 3 四半期リリースに含まれている機能について説明します。 これらの機能強化は、四半期を通じて本番環境で利用できるようになる予定です。
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -9,14 +9,14 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1948'
 ht-degree: 45%
 
 ---
 
 # 2024年第 3 四半期リリースの概要
 
-このページでは、2024年第 3 四半期リリースに含まれている機能について説明します。これらの機能強化は、四半期を通じて本番環境で利用できるようになる予定です。
+このページでは、2024年第 3 四半期リリースに含まれている機能について説明します。 これらの機能強化は、四半期を通じて本番環境で利用できるようになる予定です。
 
 ライブ 24.7 リリースウェビナーはキャンセルされましたが、24.7機能のデモ動画は[こちらから見ることができます](https://video.tv.adobe.com/v/3430532/%20)。
 
@@ -24,7 +24,7 @@ ht-degree: 45%
 
 >[!IMPORTANT]
 >
->23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。そのため、Workfront では、月次および四半期次のリリース追跡の両方に対応するように、リリースのナンバリング方式を変更しています。最初の数字は年、2 番目の数字はリリースの月を表します。例：2024年4月のリリースは 24.4 となります。
+>23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。 そのため、Workfront では、月次および四半期次のリリース追跡の両方に対応するように、リリースのナンバリング方式を変更しました。 最初の数字は年、2 番目の数字はリリースの月を表します。 例：2024年4月のリリースは 24.4 となります。
 >
 >月次リリースと四半期リリースは、特に指定がない限り、毎月第 2 週の木曜日に公開される予定です。
 >
@@ -39,7 +39,7 @@ ht-degree: 45%
 * [管理者機能の強化](#administrator-enhancements)
 * [財務管理の強化](#financial-management-enhancements)
 * [統合の機能強化](#integration-enhancements)
-* [プロジェクトの強化](#project-enhancements)
+* [プロジェクトの機能強化](#project-enhancements)
 * [プルーフ機能の強化](#proofing-enhancements)
 * [リソース管理の強化](#resource-management-enhancements)
 * [その他の機能強化](#other-enhancements)
@@ -305,7 +305,7 @@ ht-degree: 45%
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
                         [!BADGE In production for Fast Release &#x200B;]{type=Positive}
-                        <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
+                        <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。 新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -481,7 +481,7 @@ ht-degree: 45%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2024年第 3 四半期の期間におけるルックアンドフィールのアップデート</a></p>
-                        <p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模なアップデートが、2024年第 3 四半期の期間内に行われます。特定のリリース日については、個々のリリースノートを確認してください。</p>
+                        <p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模なアップデートが、2024年第 3 四半期の期間内に行われます。 特定のリリース日については、個々のリリースノートを確認してください。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -501,32 +501,32 @@ ht-degree: 45%
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、2024年第 3 四半期のリリーススケジュールから外れた頻度で、実稼動において利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、2024年第 3 四半期のリリーススケジュールから外れた頻度で、実稼動において利用可能になります。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 
-リリースの現時点では、シナリオプランナーの更新はありません。このエリアは、アップデートが利用可能になると更新されます。
+リリースの現時点では、シナリオプランナーの更新はありません。 このエリアは、アップデートが利用可能になると更新されます。
 
 ### Workfront Proof の機能強化
 
-リリースの現時点では、Workfront Proof の更新はありません。このエリアは、アップデートが利用可能になると更新されます。
+リリースの現時点では、Workfront Proof の更新はありません。 このエリアは、アップデートが利用可能になると更新されます。
 
 ### Workfront Goals の強化
 
-リリースの現時点では、Workfront Goals の更新はありません。このエリアは、アップデートが利用可能になると更新されます。
+リリースの現時点では、Workfront Goals の更新はありません。 このエリアは、アップデートが利用可能になると更新されます。
 
 ### API バージョン 18
 
-API バージョン 18 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
+API バージョン 18 では、いくつかのリソースとエンドポイントが変更されました。 変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
 
 新機能と更新内容については、[API バージョン 18 の新機能](/help/quicksilver/wf-api/api/new-api-version-18.md)を参照してください。
 
 API バージョンの詳細については、[API のバージョン管理とサポートスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
-### Workfront のメンテナンス更新
+### Workfront のメンテナンスアップデート
 
 2024年第 3 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。 詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。
