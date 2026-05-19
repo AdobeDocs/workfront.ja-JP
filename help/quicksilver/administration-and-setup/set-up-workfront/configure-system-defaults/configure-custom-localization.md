@@ -9,7 +9,7 @@ role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
 source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '372'
 ht-degree: 20%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 20%
 * ローカライズは、カスタムフィールドラベル（列ヘッダーとして使用する場合を含む）とツールヒントに適用されます。
 * カスタムローカライズは、ビジネスルールから生成されたメッセージに適用できますが、ビジネスルールで有効にする必要があります。
 
-  手順については、「[&#x200B; ビジネスルールでローカライゼーションを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md#using-custom-localization-with-business-rules)」を参照してください。
+  手順については、「[ ビジネスルールでローカライゼーションを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md#using-custom-localization-with-business-rules)」を参照してください。
 
 ## 翻訳の設定
 
