@@ -1,15 +1,15 @@
 ---
 title: 接続レコードタイプの概要
-description: 個々のレコードタイプが互いにどのように関連しているかは、レコードタイプを連結するとよくわかります。また、Workfront Planning のレコードタイプを他のアプリケーションのオブジェクトタイプに接続して、ユーザーのエクスペリエンスを向上させ、ユーザーが 1 つのアプリケーションに集中できるようにすることもできます。
+description: 個々のレコードタイプが互いにどのように関連しているかは、レコードタイプを連結するとよくわかります。 また、Workfront Planning のレコードタイプを他のアプリケーションのオブジェクトタイプに接続して、ユーザーのエクスペリエンスを向上させ、ユーザーが 1 つのアプリケーションに集中できるようにすることもできます。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '2155'
-ht-degree: 9%
+source-wordcount: '2261'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 9%
 
 この記事では、レコードタイプの接続の概要を説明し、レコードタイプとオブジェクトタイプの間で確立できる接続のタイプについて説明します。
 
-レコードタイプの接続について詳しくは、[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+レコードタイプの接続について詳しくは、[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 ## レコードタイプの連結に関する考慮事項
 
@@ -50,10 +50,10 @@ ht-degree: 9%
 
       * 2 つのレコードタイプ
 
-        デフォルトでは、同じワークスペースから2つのレコードタイプを接続できます。 また、より高いWorkfrontまたはプランニングパッケージを購入した場合は、他のワークスペースのレコードタイプと接続するようにレコードタイプを設定することもできます。 詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+        デフォルトでは、同じワークスペースから2つのレコードタイプを接続できます。 また、より高いWorkfrontまたはプランニングパッケージを購入した場合は、他のワークスペースのレコードタイプと接続するようにレコードタイプを設定することもできます。 詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
       * 1 つのレコードタイプと、別のアプリケーションの 1 つのオブジェクトタイプ
 
-     レコードとオブジェクトタイプの接続方法について詳しくは、[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+     レコードとオブジェクトタイプの接続方法について詳しくは、[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
      レコードタイプを他のレコードタイプまたはオブジェクトタイプと手動で接続すると、個々のレコードとオブジェクトを接続できます。
 
@@ -71,7 +71,7 @@ ht-degree: 9%
 
         レコードを作成するPlanning リクエストを送信して承認すると、レコードタイプとリクエストオブジェクトタイプの間の接続が自動的に作成されます。
 
-        詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+        詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
         元のリクエストは、Workfrontのリクエスト領域の&#x200B;**件名** フィールドまたはWorkfront Planningの元のリクエスト接続フィールドで表示できます。
 
@@ -127,35 +127,42 @@ ht-degree: 9%
       * リンクされたレコードフィールドは、接続元のレコードタイプに作成されます。 他のアプリケーションのオブジェクトタイプには、リンクされたレコードフィールドが自動的に作成されません。
       * プランニングレコードフィールドには、Workfront オブジェクトからアクセスできません。
       * プランニングレコードは、Workfront オブジェクトの「プランニング」セクションから表示されます。 詳しくは、[Workfront オブジェクトからのレコード接続の管理](/help/quicksilver/planning/records/manage-records-in-planning-section.md)を参照してください。
-      * Planning Connection カスタムフィールドを作成し、それをWorkfront オブジェクトのカスタムフォームに添付できます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
-      * Experience Manager管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Workfront assetsからプランニングレコードフィールドにアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。<!--not sure if this is also possible for content fragments-->
+      * Planning Connection カスタムフィールドを作成し、それをWorkfront オブジェクトのカスタムフォームに添付できます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+      * Experience Manager管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Workfront assetsからプランニングレコードフィールドにアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。<!--not sure if this is also possible for content fragments-->
       * プランニングレコードフィールドには、GenStudio for Performance MarketingのBrandsからアクセスできません。
 
-   * **接続先のレコードまたはオブジェクトからルックアップフィールドを追加する場合**：リンクされたレコードフィールドを作成するだけでなく、接続されたレコードまたはオブジェクトタイプからルックアップフィールドと呼ばれるフィールドに接続することもできます。 接続しているレコードの情報を含むリンク（またはルックアップフィールド）が、接続元のレコードに表示されます。<!--not sure if this is also possible for content fragments-->
+   * **接続先のレコードまたはオブジェクトからルックアップフィールドを追加する場合**：リンクされたレコードフィールドを作成するだけでなく、接続されたレコードまたはオブジェクトタイプからルックアップフィールドと呼ばれるフィールドに接続することもできます。 接続しているレコードの情報を含むリンク（またはルックアップフィールド）が、接続元のレコードに表示されます。
 
-     他のレコードタイプまたは別のアプリケーションのオブジェクトのフィールドをWorkfront Planning レコードタイプに接続できます。
+     ルックアップフィールドを追加する際には、次の点を考慮してください。
 
-     リンクされたフィールドは読み取り専用で、接続されたレコードの情報が自動的に表示されます。
+      * 他のレコードタイプまたは別のアプリケーションのオブジェクトのフィールドをWorkfront Planning レコードタイプに接続できます。
 
-     他のレコードタイプやオブジェクトタイプのルックアップフィールドは、式、フィルター、またはグループ化で参照できます。
+      * ルックアップフィールドは読み取り専用で、接続されたレコードの情報が自動的に表示されます。
 
-     例えば、「キャンペーン」レコードタイプを Workfront プロジェクトに接続し、プロジェクトの「予定完了日」フィールドを Workfront Planning レコードに取り込むと、キャンペーンに対して（プロジェクトからの）「予定完了日」という名前のリンクされたフィールドが自動的に作成されます。このリンクされたフィールドを手動で編集することはできません。（プロジェクトからの）「予定完了日」フィールドには、リンクされたプロジェクトの予定完了日が表示されます。
+      * すべてのフィールドをWorkfront Planningからリンクすることはサポートされていません。 例えば、AEM コンテンツフラグメントでは、次のフィールドのみがサポートされています：<!--this information is also in "Connect record types"-->
+
+         * 作成者および作成日時
+         * 変更者および変更日時
+
+      * 他のレコードタイプやオブジェクトタイプのルックアップフィールドは、式、フィルター、またはグループ化で参照できます。
+
+        例えば、「Campaign」レコードタイプをWorkfront プロジェクトに接続し、プロジェクトの「予定完了日」フィールドをWorkfront計画レコードに取り込むと、キャンペーン用に「予定完了日（プロジェクトから）」というリンクされたフィールドが自動的に作成されます。 このリンクされたフィールドを手動で編集することはできません。 「プロジェクトの予定完了日」フィールドには、Workfrontで設定された、リンクされたプロジェクトの予定完了日が表示されます。
 
      >[!IMPORTANT]
      >
      >ワークスペースに対する表示権限またはそれ以上の権限を持つユーザーは、リンクされたオブジェクトタイプのアプリケーションの権限や他のワークスペースの権限に関係なく、ルックアップフィールドの情報を表示できます。
 
-     リンクされたレコードフィールドの前には、関係アイコン ![関係フィールドアイコン &#x200B;](assets/relationship-field-icon.png)が表示されます。
+      * 接続されたレコードフィールドの前には、関係アイコン ![関係フィールドアイコン ](assets/relationship-field-icon.png)が表示されます。
 
-     リンクされたフィールドの前には、フィールドタイプを識別するアイコンが付きます。例えば、リンクされた（またはルックアップ）フィールドの前には、フィールドが数値、段落、または日付であることを示すアイコンが表示されます。
+      * 接続されたルックアップフィールドの前には、フィールドタイプを識別するアイコンが表示されます。 ルックアップフィールドの前には、フィールドが数値、段落、または日付であることを示すアイコンが表示されます。
 
-     >[!TIP]
-     >
-     >Workfront オブジェクトの日付フィールド情報は、Workfrontでの表示方法に関係なく、Workfront Planningでは24時間形式で表示されます。
-     >
-     >例えば、プロジェクトの予定開始日がWorkfrontで午後3:00と表示される場合、読み込まれたルックアップフィールドにWorkfront Planningで15:00と表示されます。
+        >[!TIP]
+        >
+        >Workfront オブジェクトの日付フィールド情報は、Workfrontでの表示方法に関係なく、Workfront Planningでは24時間形式で表示されます。
+        >
+        >例えば、プロジェクトの予定開始日がWorkfrontで午後3:00と表示される場合、読み込まれたルックアップフィールドにWorkfront Planningで15:00と表示されます。
 
-   * Workfront Planningで階層を作成するには、レコードタイプを接続する必要があります。 レコードタイプの接続が存在しない場合は、階層を作成するときに自動的に作成されます。 詳しくは、[&#x200B; ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
+   * Workfront Planningで階層を作成するには、レコードタイプを接続する必要があります。 レコードタイプの接続が存在しない場合は、階層を作成するときに自動的に作成されます。 詳しくは、[ ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
 
 
 ## 接続タイプ
@@ -190,7 +197,7 @@ ht-degree: 9%
 
 ### 複数選択の接続タイプ
 
-![複数選択の接続タイプ &#x200B;](assets/multi-select-connection-picker.png)
+![複数選択の接続タイプ ](assets/multi-select-connection-picker.png)
 
 レコードタイプ間に複数選択接続を作成する場合、接続フィールドで元のレコードタイプから複数の接続されたレコードを選択できます。
 
@@ -205,7 +212,7 @@ ht-degree: 9%
 
 ### シングルセレクト接続タイプ
 
-![単一選択接続タイプ &#x200B;](assets/single-select-connection-picker.png)
+![単一選択接続タイプ ](assets/single-select-connection-picker.png)
 
 レコードタイプ間にシングルセレクト接続を作成する場合は、接続フィールドで元のレコードタイプから1つのレコードを選択できます。
 

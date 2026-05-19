@@ -1,17 +1,24 @@
 ---
 title: Adobe Workfront計画の概要と記事インデックス
-description: マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。この節の記事では、Planning 機能を設定する方法およびキャンペーン管理業務の一環として Planning 機能の使用を開始する方法について説明します。
+description: マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。 この節の記事では、Planning 機能を設定する方法およびキャンペーン管理業務の一環として Planning 機能の使用を開始する方法について説明します。
 short-description: 組織で Adobe Workfront Planning を実装し、効果的に使用する方法について詳しくは、本ドキュメントおよびその他のリソースを参照してください。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-last-update: 2026-04-01T18:03:50Z
+last-update: '2026-04-01T18:03:50.000Z'
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+autotag-review: '2026-05-19T20:02:13.086Z'
+TQID: 'https://experienceleague.adobe.com/Xf-V7M0-NaX-fw6yR-tjw3HnTRmNVIkYF7QcBPkjR7U'
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 63cb8d98d210207c3f6f435f98b7204a5dce0df8
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: 632
 ht-degree: 83%
 
 ---
@@ -92,17 +99,17 @@ Adobe Workfront Planning の一般情報と用語について詳しくは、[Ado
 
 * [Adobe Workfront Planning API の基本](/help/quicksilver/planning/general/planning-api-basics.md)：Adobe Workfront Planning API の目的は、HTTP 上で動作する RESTful アーキテクチャを導入することで、Planning との統合の構築を簡略化することです。
 
-* [Workfront Fusion の Adobe Workfront Planning モジュール](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：Adobe Workfront Planning モジュールを使用すると、Workfront Planning でイベントが発生した場合にシナリオをトリガーできます。また、レコードの作成、読み取り、更新、削除、および Adobe Workfront Planning のアカウントへのカスタム API 呼び出しも実行できます。
+* [Workfront Fusion の Adobe Workfront Planning モジュール](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：Adobe Workfront Planning モジュールを使用すると、Workfront Planning でイベントが発生した場合にシナリオをトリガーできます。 また、レコードの作成、読み取り、更新、削除、および Adobe Workfront Planning のアカウントへのカスタム API 呼び出しも実行できます。
 
 * [Adobe Workfront Planning の AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：Workfront Planning の AI アシスタントを使用すると、コマンドを実行して、アシスタントに代行してもらうことによって、レコードの検索、作成、更新、削除などの作業を行うことができます。
 
 * [Adobe Workfront Planning の自動化の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)：Adobe Workfront Planning で自動化を設定できます。アクティブ化すると、Planning レコードからトリガーされたときに Workfront にオブジェクトが作成されるか、Workfront Planning にレコードが作成されます。
 
-* [Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): GenStudio for Performance Marketingのレコードは、Workfront計画のGenStudio Workspaceで管理できます。
+* [Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス ](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): GenStudio for Performance Marketingのレコードは、Workfront計画のGenStudio Workspaceで管理できます。
 
 * **Workfront計画レポート機能**: Workfront Canvas ダッシュボードを使用すると、レポートでWorkfront計画に関する情報を確認できます。 詳しくは、[キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)を参照してください。
 
-* [Adobe Workfront計画のベストプラクティス：記事インデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：安全性を優先し、混乱を最小限に抑え、迅速に成果を上げる戦略を使用して、組織でAdobe Workfront計画を展開する方法に関するヒントを説明します。
+* [Adobe Workfront計画のベストプラクティス：記事インデックス ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：安全性を優先し、混乱を最小限に抑え、迅速に成果を上げる戦略を使用して、組織でAdobe Workfront計画を展開する方法に関するヒントを説明します。
 
 ## Workfront Planning のリリースアクティビティ
 
