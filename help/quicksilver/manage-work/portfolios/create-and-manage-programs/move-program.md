@@ -2,22 +2,22 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: 既存のプログラムのPortfolioへの追加
-description: 既存のプログラムをポートフォリオに追加できます。プログラムは 2 つの異なるポートフォリオに存在できないため、既存のプログラムを追加すると、そのプログラムは 1 つのポートフォリオから別のポートフォリオへと永続的に移動されます。
+description: 既存のプログラムをポートフォリオに追加できます。 プログラムは 2 つの異なるポートフォリオに存在できないため、既存のプログラムを追加すると、そのプログラムは 1 つのポートフォリオから別のポートフォリオへと永続的に移動されます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 53%
+source-wordcount: '382'
+ht-degree: 34%
 
 ---
 
 # ポートフォリオに既存プログラムの追加
 
-<!--Audited: 10/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -25,7 +25,7 @@ ht-degree: 53%
 <span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 -->
 
-既存のプログラムをポートフォリオに追加できます。プログラムは 2 つの異なるポートフォリオに存在できないため、既存のプログラムを追加すると、そのプログラムは 1 つのポートフォリオから別のポートフォリオへと永続的に移動されます。
+既存のプログラムをポートフォリオに追加できます。 プログラムは 2 つの異なるポートフォリオに存在できないため、既存のプログラムを追加すると、そのプログラムは 1 つのポートフォリオから別のポートフォリオへと永続的に移動されます。
 
 ## アクセス要件
 
@@ -87,6 +87,21 @@ Old:
 
 ## ポートフォリオに既存プログラムの追加
 
+>[!NOTE]
+>
+>ドキュメントに従来のWorkfrontとAdobe クラウドストレージの両方を使用する場合、次のシナリオが存在します。
+>
+>
+>* Adobe クラウドストレージプログラムを従来のWorkfront ストレージポートフォリオに追加し、ポートフォリオにドキュメントが添付されていない場合、ポートフォリオはAdobe クラウドストレージに変換されます。
+>* Adobe クラウドストレージプログラムを従来のWorkfront ストレージポートフォリオに追加し、ポートフォリオにドキュメントが添付されている場合、ポートフォリオドキュメントストレージはWorkfront ストレージに残ります。 ただし、従来のWorkfront ストレージアイコン ![従来のWorkfront ストレージアイコン &#x200B;](assets/legacy-storage-project-icon.png)はポートフォリオから削除されます。
+>* 従来のWorkfront ストレージプログラムをAdobe クラウドストレージポートフォリオに追加することはできません。
+>
+>詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+>
+>すべてのWorkfront インスタンスに両方の種類のドキュメントストレージがあるわけではありません。
+
+既存のプログラムを別のポートフォリオに追加するには：
+
 1. ポートフォリオに移動し、左側のパネルで「**[!UICONTROL プログラム]**」をクリックします。
 1. 「**[!UICONTROL 新規プログラム]**」をクリックします。
 1. 「**[!UICONTROL 既存のプログラム]**」をクリックします。
@@ -97,7 +112,7 @@ Old:
 
    >[!IMPORTANT]
    >
-   >既存のプログラムを追加すると、そのプログラムに関連するすべてのプロジェクトがポートフォリオに追加されます。このようにプロジェクトを不用意に移動しないように注意してください。
+   >既存のプログラムを追加すると、そのプログラムに関連するすべてのプロジェクトがポートフォリオに追加されます。 このようにプロジェクトを不用意に移動しないように注意してください。
 
 1. 「**[!UICONTROL このポートフォリオにプログラムを追加]**」フィールドに、プログラムの名前を入力し、リストに表示されたら選択します。<!--see the name of this field, I suggested changes here-->
 
@@ -108,3 +123,4 @@ Old:
 1. 「**[!UICONTROL プログラムを追加]**」をクリックします。
 
    プログラムは、選択したポートフォリオの&#x200B;**[!UICONTROL プログラム]** タブに表示されます。
+

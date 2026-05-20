@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '21715'
+source-wordcount: '21830'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 <!--Audited: 04/2026-->
 
-ボブ：4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -1436,6 +1436,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL On Change Only]</td> 
    <td> <p>[!UICONTROL Project Update] タイプのうちの 1 つ。 これが選択されると、[!UICONTROL Project Projected] タイムラインおよび [!UICONTROL Planned] タイムラインは、プロジェクトまたはプロジェクト内のタスクに対して更新または変更が行われた場合にのみ更新されます。 これはプロジェクトを毎晩更新するものではありません。</p> <p>詳しくは、<a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">プロジェクトの更新の種類の選択</a>を参照してください。</p> </td> 
+  </tr>
+
+</tr>
+  <tr> 
+   <td>[!UICONTROL On Legacy Workfront storage]</td> 
+   <td>  <p>従来のWorkfront ストレージ アイコン <img src="assets/legacy-storage-project-icon.png">は、オブジェクトがWorkfront ドキュメント ストレージに関連付けられていることを示します。 </p> 
+   <p>アイコンは、オブジェクトの名前の近く、オブジェクトヘッダーまたは一部のリストに表示されます。 </p>
+   <p>一部のお客様は、従来のWorkfrontとAdobeの両方のクラウドドキュメントストレージを使用しています。 ドキュメントは、両方のタイプのストレージを持つお客様に対して、いずれかの環境に保存できます。</p>
+   <p>次のオブジェクトは、WorkfrontまたはAdobe クラウドドキュメントストレージを持つことができます。</p>
+   <ul><li>プロジェクト</li>
+   <li>ポートフォリオ</li>
+   <li>プログラム</li>
+   <li>テンプレート</li>
+   <li>タスク</li>
+   <li>イシュー</li>
+   <li>テンプレートタスク</li></ul>
+   <p>従来のWorkfront ストレージアイコンを表示できるのは、プロジェクト、ポートフォリオ、プログラム、テンプレートのみです。 </p>
+   <p>Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。 
+  <p>詳しくは、<a href="/help/quicksilver/review-and-approve-work/esm-overview.md">Adobe クラウドストレージの概要</a>を参照してください。 </p>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Op Task]</td> 

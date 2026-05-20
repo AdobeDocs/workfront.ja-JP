@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
 source-wordcount: '2167'
 ht-degree: 78%
@@ -94,7 +94,7 @@ Old:
 ## 考慮事項
 
 * 問題をプロジェクトに変換する場合、5分間の処理制限があります。 問題に多数のドキュメントが添付されていて、変換できない場合は、一部のドキュメントを削除して、もう一度やり直す必要がある場合があります。
-* 組織で従来のWorkfrontとAdobe クラウドストレージの両方をドキュメントに使用している場合、問題をプロジェクトに変換する際に次のシナリオが発生します：<!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+* 組織が従来のWorkfrontとAdobe クラウドストレージの両方をドキュメントに使用する場合、問題をプロジェクトに変換する際に次のシナリオが発生します。<!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
    * 従来のWorkfront ストレージの問題が発生すると、従来のWorkfront ストレージプロジェクトが作成されます。
    * Adobe クラウドストレージの問題が発生すると、Adobe クラウドストレージプロジェクトが作成されます。
    * 従来のWorkfront ストレージテンプレートを使用してAdobe クラウドストレージの問題を変換すると、Adobe クラウドストレージプロジェクトが作成されます。

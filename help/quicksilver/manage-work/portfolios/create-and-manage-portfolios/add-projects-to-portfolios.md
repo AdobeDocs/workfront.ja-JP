@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 43%
+source-wordcount: '689'
+ht-degree: 40%
 
 ---
 
@@ -128,27 +128,34 @@ Old:
    <table style="table-layout:auto"> 
     <col> 
     <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Existing Project]</td> 
-      <td> <p>既に作成済みのプロジェクトを追加します。</p> </td> 
-     </tr> 
-     <tr> 
+    <tbody>
+
+   <tr> 
       <td role="rowheader">[!UICONTROL New Project]</td> 
-      <td> <p>新しいプロジェクトを追加します。 </p> <p>新しいプロジェクトの作成について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>を参照してください。 </p> </td> 
+      <td> <p>新しいプロジェクトを追加します。 </p> <p>プロジェクトの作成について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>を参照してください。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL プロジェクトの読み込み元 [!DNL MS Project]] </td> 
+      <td role="rowheader">[!UICONTROL New Project （レガシーストレージ） &#x200B;]</td> 
+      <td> <p>新しいWorkfront ストレージプロジェクトを追加します。 </p>
+      <p>このオプションは、組織がWorkfrontとAdobeの両方のクラウドドキュメントストレージを使用している場合にのみ表示されます。 Workfront インスタンスには、両方のタイプのストレージがない可能性があります。</p>
+       <p>プロジェクトの作成について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>を参照してください。 </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL New Project from Template]</td> 
+      <td> <p>既存のテンプレートを使用して新しいプロジェクトを追加します。 </p> <p>テンプレートからプロジェクトを作成する方法について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">テンプレートを使用したプロジェクトの作成</a>を参照してください。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Import [!DNL MS Project]] </td> 
       <td> <p>以前に書き出したプロジェクトを追加します。 [!DNL MS Project] お使いのコンピューターに保存しました。 </p> <p>新しいプロジェクトを [!DNL Microsoft Project] から読み込んで作成する方法について詳しくは、<a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">[!DNL Microsoft Project]</a> からのプロジェクトの読み込みを参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Project]</td> 
       <td> <p>プロジェクトの承認をリクエストします。</p> <p>プロジェクトのリクエストについては、<a href="../../../manage-work/projects/create-projects/request-project.md">プロジェクトのリクエスト</a>を参照してください。 </p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
-      <td> <p>既存のテンプレートを使用して新しいプロジェクトを追加します。 </p> <p>テンプレートからプロジェクトを作成する方法について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">テンプレートを使用したプロジェクトの作成</a>を参照してください。</p> </td> 
-     </tr> 
+          <tr> 
+      <td role="rowheader">[!UICONTROL Existing Project]</td> 
+      <td> <p>既に作成済みのプロジェクトを追加します。</p> </td> 
+     </tr>
     </tbody> 
    </table>
 
@@ -160,13 +167,13 @@ Old:
 
    ![既存のプロジェクトを追加](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
-1. 「**[!UICONTROL プロジェクトをこのPortfolio]**&#x200B;に追加」フィールドにプロジェクトの名前を入力し、リストに表示されたらクリックします。 <!--check this after UI changes-->
+1. 「**[!UICONTROL このポートフォリオにプロジェクトを追加]**」フィールドにプロジェクトの名前を入力し始め、リストにプロジェクトが表示されたらクリックします。 <!--check this after UI changes-->
 
    複数のプロジェクトを追加できます。
 
    >[!NOTE]
    >
-   >ドキュメントに従来のWorkfrontとAdobe クラウドストレージの両方を使用している場合は、次のシナリオが存在します。
+   >ドキュメントに従来のWorkfrontとAdobe クラウドストレージの両方を使用する場合、次のシナリオが存在します。
    >
    >
    >* Adobe クラウドストレージプロジェクトを従来のWorkfront ストレージポートフォリオに追加し、そのポートフォリオにドキュメントが添付されていない場合、そのポートフォリオはAdobe クラウドストレージポートフォリオに変換されます。

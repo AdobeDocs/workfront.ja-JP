@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 43%
+source-wordcount: '1179'
+ht-degree: 41%
 
 ---
 
@@ -114,6 +114,12 @@ ht-degree: 43%
 ## 既存のプロジェクトにテンプレートを添付 {#attach-a-template-to-an-existing-project}
 
 プロジェクトページまたはプロジェクトリストまたはレポートから、テンプレートをプロジェクトに添付できます。
+
+>[!NOTE]
+>
+>組織で従来のWorkfrontとAdobe クラウドドキュメントストレージの両方を使用している場合は、プロジェクトとは異なるストレージタイプを使用してテンプレートを添付できます。 これにより、プロジェクトのドキュメントストレージが変更されることはありません。
+>
+>詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 {{step1-to-projects}}
 
