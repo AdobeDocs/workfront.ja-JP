@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 34861693e7671c3e485668ab7887a4cd05ae6e99
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '1020'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ Frame.ioについて詳しくは、[Frame.ioの概要](https://support.frame.io/
 
 プロジェクトコーディネーターは、Workfrontでプロジェクトを作成し、作業を計画できます。 Frame.ioとの連携が有効になっているインスタンスで作成されたプロジェクトには、Adobe クラウドストレージが使用されます。これにより、アセットをAdobe エコシステム内で保存および管理できます。
 
-組織がFrame.io エンタープライズライセンスを所有している場合、Workfrontで作成されたプロジェクトはFrame.ioでも表示されるため、ユーザーはどちらかの製品でアセットを操作したりアップロードしたりできます。
+組織がFrame.io エンタープライズライセンスを所有している場合、Workfrontで作成されたプロジェクトはFrame.ioでも表示されるため、ユーザーはどちらかの製品でアセットを操作したりアップロードしたりできます。 Frame.ioでは、すべてのWorkfrontにリンクされたプロジェクトは、**Workfrontにリンクされたプロジェクト**&#x200B;という1つのWorkspaceにグループ化されます。 Frame.ioでのリンクされたプロジェクトの表示と動作について詳しくは、Frame.io ドキュメントの[Adobe Workfront統合の概要](https://help.frame.io/en/articles/12242607-adobe-workfront-integration-overview)を参照してください。
 
 Frame.ioのAdobe クラウドストレージまたはプロジェクトについて詳しくは、
 
