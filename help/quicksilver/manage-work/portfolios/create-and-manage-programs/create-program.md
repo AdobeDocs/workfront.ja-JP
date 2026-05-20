@@ -110,14 +110,14 @@ Old:
 
    * Workfront Planningのレコードタイプから連結するだけです。
 
-  レコードにプログラムを追加して作成する方法について詳しくは、[ レコードを作成](/help/quicksilver/planning/records/create-records.md)の「レコードを接続する際にレコードを作成する」の節を参照してください。
+  レコードにプログラムを追加して作成する方法について詳しくは、[&#x200B; レコードを作成](/help/quicksilver/planning/records/create-records.md)の「レコードを接続する際にレコードを作成する」の節を参照してください。
    * Workfront計画の自動処理の使用。
 
   詳しくは、[Adobe Workfront Planning レコードの自動処理を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)を参照してください。
 
   Workfront Planning用の新しいWorkfront ライセンスと、追加のWorkfront Planning パッケージが必要です。
 
-  Workfront Planningへのアクセスについて詳しくは、[ アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
+  Workfront Planningへのアクセスについて詳しくは、[&#x200B; アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
 ## プログラムを作成
 
@@ -127,18 +127,18 @@ Old:
 
    * 「[!UICONTROL プログラム]」エリアからプログラムを作成します。
 
-      1. [!DNL **メインメニュー**] ![ メインメニュー](assets/lines-main-menu.png)の&#x200B;**[!UICONTROL プログラム]**&#x200B;をクリックします。
+      1. [!DNL **メインメニュー**] ![&#x200B; メインメニュー](assets/lines-main-menu.png)の&#x200B;**[!UICONTROL プログラム]**&#x200B;をクリックします。
       1. 「**[!UICONTROL 新規プログラム]**」をクリックします。
       1. 表示されるボックスで、既存のポートフォリオの名前を「**[!UICONTROL ポートフォリオを選択]**」フィールドに入力します。
       1. 新しいプログラムの名前を「**[!UICONTROL 名前]**」フィールドに入力します。
       1. 「**[!UICONTROL 保存]**」をクリックします。
    * 「[!UICONTROL ポートフォリオ]」領域からプログラムを作成します。
 
-      1. [!DNL **メインメニュー**] ![ メインメニュー](assets/lines-main-menu.png)の&#x200B;**[!UICONTROL ポートフォリオ]**&#x200B;をクリックし、ポートフォリオを開きます。
+      1. [!DNL **メインメニュー**] ![&#x200B; メインメニュー](assets/lines-main-menu.png)の&#x200B;**[!UICONTROL ポートフォリオ]**&#x200B;をクリックし、ポートフォリオを開きます。
       1. 左側のパネルで「**[!UICONTROL プログラム]**」をクリックします。
       1. 「**[!UICONTROL 新規プログラム]**」ドロップダウンメニューをクリックしてから、「**[!UICONTROL 新規プログラム]**」をクリックします。
    * 既存のプログラムを追加します。
-      1. [!DNL **メインメニュー**] ![ メインメニュー](assets/lines-main-menu.png)の&#x200B;**[!UICONTROL ポートフォリオ]**&#x200B;をクリックし、ポートフォリオを開きます。
+      1. [!DNL **メインメニュー**] ![&#x200B; メインメニュー](assets/lines-main-menu.png)の&#x200B;**[!UICONTROL ポートフォリオ]**&#x200B;をクリックし、ポートフォリオを開きます。
       1. 左側のパネルで「**[!UICONTROL プログラム]**」をクリックします。
       1. 「**[!UICONTROL 新しいプログラム]**」ドロップダウンメニューをクリックし、**[!UICONTROL 既存のプログラム]**&#x200B;をクリックします。
       1. 既存のプログラムの名前を入力するか、ドロップダウンメニューをクリックしてリストから選択します。
@@ -147,7 +147,7 @@ Old:
      >
      >組織でWorkfront legacyとAdobe cloud document storageの両方を使用している場合、プログラムとは異なるストレージタイプを持つプロジェクトをプログラムに追加することはできません。
      >Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
-     >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+     >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 1. （条件付き）ポートフォリオからプログラムを作成してある場合は、そのプログラムの名前を「**[!UICONTROL 名称未設定のプログラム]**」フィールドに指定します。
 
