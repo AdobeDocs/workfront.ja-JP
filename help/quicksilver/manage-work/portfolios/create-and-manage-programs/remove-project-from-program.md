@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 88%
+source-wordcount: '255'
+ht-degree: 79%
 
 ---
 
@@ -97,6 +97,8 @@ Old:
 
    または
 
-   「**[!UICONTROL プログラムから]**&#x200B;**[!UICONTROL 削除]**」をクリックして、選択したプログラムから削除します。
+   「**[!UICONTROL プログラムから]****[!UICONTROL 削除]**」をクリックして、選択したプログラムから削除します。
 
-   「[!UICONTROL プログラムから削除]」をクリックした場合、プロジェクトは選択したプログラムと関連付けられなくなります。
+   「[!UICONTROL **プログラムから削除**]」をクリックした場合、プロジェクトは選択したプログラムと関連付けられなくなります。
+
+   [!UICONTROL **削除**]&#x200B;をクリックすると、プロジェクトはWorkfrontから削除され、Workfront管理者はごみ箱から最大30日間復元できます。

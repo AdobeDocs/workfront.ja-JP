@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
 source-wordcount: '2167'
 ht-degree: 78%
@@ -94,13 +94,13 @@ Old:
 ## 考慮事項
 
 * 問題をプロジェクトに変換する場合、5分間の処理制限があります。 問題に多数のドキュメントが添付されていて、変換できない場合は、一部のドキュメントを削除して、もう一度やり直す必要がある場合があります。
-* 組織で従来のWorkfrontとAdobe クラウドストレージの両方をドキュメントに使用している場合、問題をプロジェクトに変換する際に次のシナリオが発生します：<!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+* 組織が従来のWorkfrontとAdobe クラウドストレージの両方をドキュメントに使用する場合、問題をプロジェクトに変換する際に次のシナリオが発生します。<!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
    * 従来のWorkfront ストレージの問題が発生すると、従来のWorkfront ストレージプロジェクトが作成されます。
    * Adobe クラウドストレージの問題が発生すると、Adobe クラウドストレージプロジェクトが作成されます。
    * 従来のWorkfront ストレージテンプレートを使用してAdobe クラウドストレージの問題を変換すると、Adobe クラウドストレージプロジェクトが作成されます。
    * Adobe クラウドストレージテンプレートを使用して、従来のWorkfront ストレージの問題を変換すると、従来のWorkfront ストレージプロジェクトが作成されます。
 
-     詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+     詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 ## イシューをプロジェクトに変換
 
@@ -162,7 +162,7 @@ Old:
    * イシューに添付されているカスタムフォームをレビューします。 プロジェクトのカスタムフォームでもある場合は、新しいプロジェクトに転送されます。
    * カスタムフォームをさらに追加
    * すべての必須フィールドに有効な情報が入力されていることを確認します。
-   * カスタムフォームをドラッグして並べ替える![目的の場所にアイコン &#x200B;](assets/drag-object-icon.png)をドラッグします。
+   * カスタムフォームをドラッグして並べ替える![目的の場所にアイコン ](assets/drag-object-icon.png)をドラッグします。
    * プロジェクトに転送しないフォームは、右側にある **x** アイコンをクリックします。 これにより、プロジェクトからそのフォームが削除されます。
    * 必要に応じて、イシューのカスタムフォーム情報をプロジェクトに転送します。
 
@@ -201,7 +201,7 @@ Old:
 
    テンプレートからの新規プロジェクトボックスが表示されます。
 
-   ![&#x200B; テンプレートからの新しいプロジェクト &#x200B;](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+   ![ テンプレートからの新しいプロジェクト ](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
    >[!TIP]
    >
@@ -230,14 +230,14 @@ Old:
 
    「[!UICONTROL プロジェクトに変換]」ボックスが開きます。
 
-   ![&#x200B; プロジェクトに変換](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![ プロジェクトに変換](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
    >[!TIP]
    >
    >* 従来のWorkfront ストレージテンプレートを使用してAdobe クラウドストレージの問題を変換すると、Adobe クラウドストレージプロジェクトが作成されます。
    >* Adobe クラウドストレージテンプレートを使用して、従来のWorkfront ストレージの問題を変換すると、従来のWorkfront ストレージプロジェクトが作成されます。
    >
-   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 
 1. テンプレートに既にフィールドが入力されている場合、そのフィールドは「[!UICONTROL プロジェクトに変換]」ボックスに事前入力されます。 事前入力された値を編集し、プロジェクトに合わせて調整できます。 詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
@@ -278,7 +278,7 @@ Old:
    * テンプレートに添付されているカスタムフォームをレビューします。 新規プロジェクトに転送されます。
    * イシューに添付されているカスタムフォームをレビューします。 プロジェクトフォームでもある場合は、プロジェクトに転送されます。
    * すべての必須フィールドに有効な情報が入力されていることを確認します。
-   * カスタムフォームをドラッグして並べ替える![目的の場所にアイコン &#x200B;](assets/drag-object-icon.png)をドラッグします。
+   * カスタムフォームをドラッグして並べ替える![目的の場所にアイコン ](assets/drag-object-icon.png)をドラッグします。
    * プロジェクトに転送しないフォームは、右側にある **x** アイコンをクリックします。
    * 必要に応じて、イシューのカスタムフォーム情報をプロジェクトに転送します。
 

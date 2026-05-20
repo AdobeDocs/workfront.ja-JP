@@ -2,22 +2,22 @@
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: プログラムへのプロジェクトの追加
-description: ポートフォリオ内のプログラムに追加することで、プロジェクトを整理できます。1つのプログラム内に複数のプロジェクトを含めることができますが、1つのプロジェクトに関連付けることができるのは1つのプログラムのみです。 プログラムにプロジェクトを追加すると、同時に自動的にプログラムのポートフォリオに追加されます。
+description: ポートフォリオ内のプログラムに追加することで、プロジェクトを整理できます。 1 つのプログラム内に複数のプロジェクトを含めることができますが、1 つのプログラムに関連付けることができるのは 1 つのプログラムのみです。 プログラムにプロジェクトを追加すると、同時に自動的にプログラムのポートフォリオに追加されます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 58%
+source-wordcount: '676'
+ht-degree: 44%
 
 ---
 
 # プログラムへのプロジェクトの追加
 
-<!--Audited: 08/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -25,7 +25,7 @@ ht-degree: 58%
 <span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 -->
 
-ポートフォリオ内のプログラムに追加することで、プロジェクトを整理できます。1 つのプログラム内に複数のプロジェクトを含めることができますが、1 つのプログラムに関連付けることができるのは 1 つのプログラムのみです。
+ポートフォリオ内のプログラムに追加することで、プロジェクトを整理できます。 1 つのプログラム内に複数のプロジェクトを含めることができますが、1 つのプログラムに関連付けることができるのは 1 つのプログラムのみです。
 
 プログラムにプロジェクトを追加する前に、このポートフォリオ内にポートフォリオとプログラムを作成する必要があります。
 
@@ -63,7 +63,7 @@ ht-degree: 58%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -107,38 +107,46 @@ old:
 
    >[!TIP]
    >
-   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
+   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示する場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Existing Project]</td> 
-      <td> <p>既に作成済みのプロジェクトを追加します。</p> </td> 
-     </tr> 
-     <tr> 
+    <tbody>
+
+   <tr> 
       <td role="rowheader">[!UICONTROL New Project]</td> 
-      <td> <p>新規プロジェクトをゼロから追加します。 </p> <p>最初からプロジェクトを作成する方法について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>を参照してください。</p> </td> 
+      <td> <p>新規プロジェクトをゼロから追加します。 </p> <p>最初からプロジェクトを作成する方法について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>を参照してください。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL プロジェクトの読み込み元 [!DNL MS Project]] </td> 
+      <td role="rowheader">[!UICONTROL New Project （レガシーストレージ） ]</td> 
+      <td> <p>新しいWorkfront ストレージプロジェクトを追加します。 </p>
+      <p>このオプションは、組織がWorkfrontとAdobeの両方のクラウドドキュメントストレージを使用している場合にのみ表示されます。 Workfront インスタンスには、両方のタイプのストレージがない可能性があります。</p>
+      <p>プロジェクトの作成について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>を参照してください。 </p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">[!UICONTROL New Project from Template]</td> 
+      <td> <p>既存のテンプレートを使用して新しいプロジェクトを追加します。 </p> <p>テンプレートからプロジェクトを作成する方法について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">テンプレートを使用したプロジェクトの作成</a>を参照してください。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Import [!DNL MS Project]] </td> 
       <td> <p>以前に書き出したプロジェクトを追加します。 [!DNL MS Project] お使いのコンピューターに保存しました。 </p> <p>新しいプロジェクトを [!DNL Microsoft Project] から読み込んで作成する方法について詳しくは、<a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">[!DNL Microsoft Project]</a> からのプロジェクトの読み込みを参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Project]</td> 
       <td> <p>作業を開始する前に、新しいプロジェクトの承認をリクエストします。</p> <p>プロジェクトのリクエストについては、<a href="../../../manage-work/projects/create-projects/request-project.md">プロジェクトのリクエスト</a>を参照してください。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
-      <td> <p>既存のテンプレートを使用して新しいプロジェクトを追加します。 </p> <p>テンプレートからプロジェクトを作成する方法について詳しくは、<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">テンプレートを使用したプロジェクトの作成</a>を参照してください。</p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL Existing Project]</td> 
+      <td> <p>既に作成済みのプロジェクトを追加します。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （条件付き）既存のプロジェクト **[!UICONTROL を選択した場合、「]** プロジェクトを追加&#x200B;**」ボックスが開きます。**<!--check at unshimming-->
+1. （条件付き）既存のプロジェクト **[!UICONTROL を選択した場合、「** プロジェクトを追加&#x200B;**」ボックスが開きます。<!--check at unshimming-->]**
 
    ![既存のプロジェクトをプログラムボックスに追加](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
 
@@ -147,7 +155,21 @@ old:
    1. 「**[!UICONTROL プロジェクトを追加]**」ボックスで、「**このプログラムにプロジェクトを追加**」フィールドにプロジェクトの名前を入力し、リストに表示されたら選択します。<!--check casing on links and buttons-->
 
       複数のプロジェクトを追加できます。
-   1. （オプション）プログラムに追加しない場合は、プロジェクト名の横にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete-icon.png)をクリックします。
+
+      >[!NOTE]
+      >
+      >ドキュメントに従来のWorkfrontとAdobe クラウドストレージの両方を使用する場合、次のシナリオが存在します。
+      >
+      >
+      >* Adobe クラウドストレージプロジェクトを従来のWorkfront ストレージプログラムに追加し、プログラムにドキュメントが添付されていない場合、プログラムとそのポートフォリオはAdobe クラウドストレージオブジェクトに変換されます。
+      >* Adobe クラウドストレージプロジェクトを従来のWorkfront ストレージプログラムに追加し、そのプログラムまたはポートフォリオにドキュメントが添付されている場合、そのプログラムまたはポートフォリオドキュメントストレージはWorkfront ストレージに残ります。 ただし、従来のWorkfront ストレージアイコン ![従来のWorkfront ストレージアイコン ](assets/legacy-storage-project-icon.png)は、プログラムまたはポートフォリオから削除されます（プロジェクトを移動する前にドキュメントが添付されている場合）。
+      >* 従来のWorkfront ストレージプロジェクトをAdobe クラウドストレージプログラムに追加することはできません。
+      >
+      >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+      >
+      >すべてのWorkfront インスタンスに両方の種類のドキュメントストレージがあるわけではありません。
+
+   1. （オプション）プログラムに追加しない場合は、プロジェクト名の横にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete-icon.png)をクリックします。
 
    1. 「**[!UICONTROL プロジェクトを追加]**」をクリックします。<!--check at unshimming-->
 

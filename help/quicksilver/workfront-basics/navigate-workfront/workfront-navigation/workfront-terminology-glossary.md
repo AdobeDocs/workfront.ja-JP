@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '21715'
+source-wordcount: '21830'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 <!--Audited: 04/2026-->
 
-ボブ：4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -126,18 +126,18 @@ ht-degree: 98%
     <!--
     Resource Estimates or     
      -->
-     [!UICONTROL プロジェクト （財務データ） &#x200B;] レポート： </p>
+     [!UICONTROL プロジェクト （財務データ） ] レポート： </p>
     <ul> 
      <li>このレポートは、次の項目を確認しながら
      <!--
      how resources are budgeted for work, or
      -->
-     リソースに割り当てられる[!UICONTROL 予定時間数]の量。</li>
+     リソースに割り当てられる[!UICONTROL予定時間数]の量。</li>
      <li> <p>[!UICONTROL Allocation Date]は、タスクへの[!UICONTROL Job Role]の配分が開始される週の最初の日（日曜日）です。 リソース（[!UICONTROL Job Role]）には、割り当てられているタスクの[!UICONTROL Duration]中の週と同数の[!UICONTROL Allocation Dates]を設定できます。 タスクが複数月にわたる場合、タスクの [!UICONTROL Duration]内であれば、月の最初の日を[!UICONTROL Allocation Date]にすることもできます。</p> <p>例えば、3 週間以上にわたるタスクにユーザーの[!UICONTROL Job Role]を割り当て、[!UICONTROL Planned Hours]を 90 時間にすることができます。 これらの時間数はタスクの期間中に均等に配分され、毎日 6 時間の[!UICONTROL Planned Hours]が担当業務に割り当てられます。</p> <p><em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours] / タスクの[!UICONTROL Duration]中の[!UICONTROL Work Days]の数</em> </p> <p>その結果、[!UICONTROL Allocation Dates]は 3 つあり、タスクの[!UICONTROL Duration]中の毎週日曜日ごとに 1 つで、それぞれに特定の数の[!UICONTROL Planned Hours]が関連付けられています。<br>ある月の最終週の真ん中でタスクが開始され、新しい月の初めから 2 週間後に終了する場合、タスクには 4 つの[!UICONTROL Allocation Dates]があります。タスクの[!UICONTROL Duration]中の毎週日曜日ごとに 1 つと、新しい月の最初の日に 1 つです。</p> <p>この情報を最大限に活用するには、以下を作成することをお勧めします。
       <!--
       Resource Estimates or a
       -->
-     プロジェクト（財務データ）レポートを作成し、[!UICONTROL 配分日]のマトリックス グループを追加し、最も正確なデータを取得するために、週単位、月単位、四半期単位、または年単位で結果をグループ化します。<br>マトリックスグループ化の作成については、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">マトリックスレポートの作成</a>の記事を参照してください。</p> </li>
+     プロジェクト（財務データ）レポートを作成し、[!UICONTROL配分日]のマトリックス グループを追加し、最も正確なデータを取得するために、週単位、月単位、四半期単位、または年単位で結果をグループ化します。<br>マトリックスグループ化の作成については、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">マトリックスレポートの作成</a>の記事を参照してください。</p> </li>
     </ul> <p>[!UICONTROL Project (Financial Data)]レポートに財務情報が入力されるのは、関連付けられているデータが 5 年未満の場合のみです。 例えば、2015年1月に担当業務がタスクに割り当てられ、今日が 2021年9月の場合、[!UICONTROL Project (Financial Data)]レポートでは、担当業務の[!UICONTROL Allocation Date]などの財務フィールドにデータは入力されません。 </p> 
     <div> 
      <p>[!UICONTROL Budgeted Hour]レポートの場合：</p> 
@@ -1209,7 +1209,7 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL Last Note]</td> 
    <td> <p>このフィールドには、任意のユーザーがオブジェクトに最後に入力した更新が表示されます。 これは、オブジェクト上の最新のアクティビティまたはインタラクションです。</p> <p>オブジェクトの最終メモのテキストが削除されている場合、[!UICONTROL Last Note] 列は空になります。 オブジェクトに新規メモを入力すると、それが最終メモになり、列に再び表示されます。</p>
-   <p>このフィールドを[!UICONTROL タスク &#x200B;] レポートに追加すると、タスクの問題、サブタスク、ドキュメントなど、子オブジェクトに残っている更新がこの列に表示されません。</p> 
+   <p>このフィールドを[!UICONTROL タスク ] レポートに追加すると、タスクの問題、サブタスク、ドキュメントなど、子オブジェクトに残っている更新がこの列に表示されません。</p> 
    <p><b>メモ</p>
    <p>APIを使用してオブジェクトに最後に追加されたメモは、Workfrontのレポートには表示されません。 オブジェクトの最新の更新がAPIを使用して追加された場合、[!DNL Last Note] フィールドは空です。 </p>
    </td> 
@@ -1394,7 +1394,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Number of Children]</td> 
-   <td> <p>[!UICONTROL プロジェクト &#x200B;] レポートでは、これはタスクが持つ子またはサブタスクの数です。 
+   <td> <p>[!UICONTROL プロジェクト ] レポートでは、これはタスクが持つ子またはサブタスクの数です。 
    <p><b>ヒント</b></p>
    タスクのカスタムフォームの計算カスタムフィールドに<code>{numberOfChildren}</code>計算を追加して、カスタムフィールドにタスクの子の数を表示できます。 詳細については、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">計算フィールドをフォームに追加</a>を参照してください。 
     </td> 
@@ -1436,6 +1436,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL On Change Only]</td> 
    <td> <p>[!UICONTROL Project Update] タイプのうちの 1 つ。 これが選択されると、[!UICONTROL Project Projected] タイムラインおよび [!UICONTROL Planned] タイムラインは、プロジェクトまたはプロジェクト内のタスクに対して更新または変更が行われた場合にのみ更新されます。 これはプロジェクトを毎晩更新するものではありません。</p> <p>詳しくは、<a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">プロジェクトの更新の種類の選択</a>を参照してください。</p> </td> 
+  </tr>
+
+</tr>
+  <tr> 
+   <td>[!UICONTROL On Legacy Workfront storage]</td> 
+   <td>  <p>従来のWorkfront ストレージ アイコン <img src="assets/legacy-storage-project-icon.png">は、オブジェクトがWorkfront ドキュメント ストレージに関連付けられていることを示します。 </p> 
+   <p>アイコンは、オブジェクトの名前の近く、オブジェクトヘッダーまたは一部のリストに表示されます。 </p>
+   <p>一部のお客様は、従来のWorkfrontとAdobeの両方のクラウドドキュメントストレージを使用しています。 ドキュメントは、両方のタイプのストレージを持つお客様に対して、いずれかの環境に保存できます。</p>
+   <p>次のオブジェクトは、WorkfrontまたはAdobe クラウドドキュメントストレージを持つことができます。</p>
+   <ul><li>プロジェクト</li>
+   <li>ポートフォリオ</li>
+   <li>プログラム</li>
+   <li>テンプレート</li>
+   <li>タスク</li>
+   <li>イシュー</li>
+   <li>テンプレートタスク</li></ul>
+   <p>従来のWorkfront ストレージアイコンを表示できるのは、プロジェクト、ポートフォリオ、プログラム、テンプレートのみです。 </p>
+   <p>Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。 
+  <p>詳しくは、<a href="/help/quicksilver/review-and-approve-work/esm-overview.md">Adobe クラウドストレージの概要</a>を参照してください。 </p>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Op Task]</td> 

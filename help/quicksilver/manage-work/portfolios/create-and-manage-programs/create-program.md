@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 76%
+source-wordcount: '1449'
+ht-degree: 63%
 
 ---
 
 # プログラムを作成
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -110,14 +110,14 @@ Old:
 
    * Workfront Planningのレコードタイプから連結するだけです。
 
-  レコードにプログラムを追加して作成する方法について詳しくは、[&#x200B; レコードを作成](/help/quicksilver/planning/records/create-records.md)の「レコードを接続する際にレコードを作成する」の節を参照してください。
+  レコードにプログラムを追加して作成する方法について詳しくは、[ レコードを作成](/help/quicksilver/planning/records/create-records.md)の「レコードを接続する際にレコードを作成する」の節を参照してください。
    * Workfront計画の自動処理の使用。
 
   詳しくは、[Adobe Workfront Planning レコードの自動処理を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)を参照してください。
 
   Workfront Planning用の新しいWorkfront ライセンスと、追加のWorkfront Planning パッケージが必要です。
 
-  Workfront Planningへのアクセスについて詳しくは、[&#x200B; アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
+  Workfront Planningへのアクセスについて詳しくは、[ アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
 ## プログラムを作成
 
@@ -127,17 +127,27 @@ Old:
 
    * 「[!UICONTROL プログラム]」エリアからプログラムを作成します。
 
-      1. メインメニューで「**[!UICONTROL プログラム]**」をクリックします。
+      1. [!DNL **メインメニュー**] ![ メインメニュー](assets/lines-main-menu.png)の&#x200B;**[!UICONTROL プログラム]**&#x200B;をクリックします。
       1. 「**[!UICONTROL 新規プログラム]**」をクリックします。
       1. 表示されるボックスで、既存のポートフォリオの名前を「**[!UICONTROL ポートフォリオを選択]**」フィールドに入力します。
       1. 新しいプログラムの名前を「**[!UICONTROL 名前]**」フィールドに入力します。
       1. 「**[!UICONTROL 保存]**」をクリックします。
    * 「[!UICONTROL ポートフォリオ]」領域からプログラムを作成します。
 
-      1. [!UICONTROL メインメニュー]で「**[!UICONTROL ポートフォリオ]**」をクリックして、ポートフォリオを開きます。
+      1. [!DNL **メインメニュー**] ![ メインメニュー](assets/lines-main-menu.png)の&#x200B;**[!UICONTROL ポートフォリオ]**&#x200B;をクリックし、ポートフォリオを開きます。
       1. 左側のパネルで「**[!UICONTROL プログラム]**」をクリックします。
       1. 「**[!UICONTROL 新規プログラム]**」ドロップダウンメニューをクリックしてから、「**[!UICONTROL 新規プログラム]**」をクリックします。
+   * 既存のプログラムを追加します。
+      1. [!DNL **メインメニュー**] ![ メインメニュー](assets/lines-main-menu.png)の&#x200B;**[!UICONTROL ポートフォリオ]**&#x200B;をクリックし、ポートフォリオを開きます。
+      1. 左側のパネルで「**[!UICONTROL プログラム]**」をクリックします。
+      1. 「**[!UICONTROL 新しいプログラム]**」ドロップダウンメニューをクリックし、**[!UICONTROL 既存のプログラム]**&#x200B;をクリックします。
+      1. 既存のプログラムの名前を入力するか、ドロップダウンメニューをクリックしてリストから選択します。
 
+     >[!NOTE]
+     >
+     >組織でWorkfront legacyとAdobe cloud document storageの両方を使用している場合、プログラムとは異なるストレージタイプを持つプロジェクトをプログラムに追加することはできません。
+     >Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
+     >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 1. （条件付き）ポートフォリオからプログラムを作成してある場合は、そのプログラムの名前を「**[!UICONTROL 名称未設定のプログラム]**」フィールドに指定します。
 
@@ -172,13 +182,20 @@ Old:
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
       <td> <p>プログラムマネージャーにするユーザーの名前を入力します。ドロップダウンリストにそのユーザーの名前が表示されたら、クリックします。 これは、[!UICONTROL Program Owner] と同じです。 </p> <p>ヒント：プログラムヘッダーでプログラムマネージャーを更新することもできます。 </p> </td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td role="rowheader">[!UICONTROL Group] </td> 
       <td> <p>1 つのグループがプログラムを所有している場合やプログラムを完了する責任がある場合は、そのグループの名前を追加します。 </p> <p>適切なグループを選択していることを確認するには、グループにポインタを合わせて、横に表示される[!UICONTROL information]アイコン <img src="assets/info-icon.png"> をクリックします。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> 
-       <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-        <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
-       </div> </td> 
-     </tr> 
+       <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
+        </td> 
+     </tr>
+
+</tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL Is Active] </td> 
+   <td> <p>このプログラムをアクティブにし、ユーザーがプロジェクトに関連付けるようにプログラムを見つける場合は、この設定をオンにします。</p>
+   <p>チェックを外すと、プロジェクトまたはテンプレートの「プログラム」フィールドにプログラムが表示されません。 </p> 
+ </td> 
+   </tr> 
     </tbody> 
    </table>
 
@@ -197,7 +214,7 @@ Old:
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 1. （オプション）プログラム名の横にある&#x200B;**[!UICONTROL 詳細メニュー]** ![詳細メニュー](assets/more-icon.png)をクリックし、**[!UICONTROL プログラムのアクティベートを解除]**&#x200B;をクリックします。
 
-   プログラムのアクティブ化を解除した場合は、そのプログラムをユーザーがプロジェクトに追加しようとしても、プログラムはプログラムリストに表示されなくなります。 [!UICONTROL プログラム]エリアからは、このプログラムに引き続きアクセスできます。
+   プログラムを非アクティブ化すると、ユーザーがプロジェクトにプログラムを追加しようとしたときに、プログラムがプログラムのリストに表示されなくなります。 [!UICONTROL プログラム]エリアからは、このプログラムに引き続きアクセスできます。
 
 ## プログラムヘッダーの概要
 
@@ -210,7 +227,7 @@ Old:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">ヘッダー情報</td> 
+   <td role="rowheader"><strong>ヘッダー情報</strong></td> 
    <td> <strong>メモ</strong> </td> 
   </tr> 
   <tr> 
@@ -223,19 +240,20 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトタイプの名前とアクティブ化のステータス</td> 
-   <td>プログラムを表示すると、「プログラム」という単語がオレンジ色のアイコンで表示されます。 プログラムが「[!UICONTROL Active]」としてマークされていない場合は、プログラムの横に「[!UICONTROL Deactivated]」という単語が灰色の輪郭で表示されます。 </td> 
+   <td>プログラムを表示すると、「プログラム」という単語がオレンジ色のアイコンで表示されます。 「[!UICONTROL Deactivated]」という単語は、プログラムが[!UICONTROL **Program Details**]領域で[!UICONTROL Is Active]としてマークされていない場合、その横に表示されます。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プログラムのアクションエリア </td> 
    <td> <p>プログラムの詳細情報や編集オプションにアクセスするには、次のいずれかをクリックします。</p> 
     <ul> 
      <li>プログラムをお気に入りリストに追加する場合は星アイコン</li> 
+     <li>[!UICONTROL **Share**] ボタンを使用して他のユーザーと共有</li> 
      <li> <p>以下のいずれかを行う場合は[!UICONTROL More]メニューアイコン <img src="assets/qs-more-menu.png"> </p> 
       <ul> 
        <li>プログラムの編集</li> 
        <li>プログラムの非アクティブ化。 プログラムが非アクティブ化されると、そのプログラムをプロジェクトレベルでプロジェクトに関連付けることができなくなります。 </li> 
        <li> <p>プログラムの削除。 プログラムを削除しても、プログラム内のプロジェクトは削除されません。 プロジェクトとプログラムの関連付けが削除されます。 </p> </li> 
-       <li>他のユーザーとの共有</li> 
+       <li>プログラムのエクスプレッションを再計算します。 これにより、プログラムのカスタムフォームのすべての計算されたカスタムフィールドが再計算されます。 </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
