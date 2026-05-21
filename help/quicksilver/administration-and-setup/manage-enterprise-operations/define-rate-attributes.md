@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: d5346953162f82f0c1b35d623a0b47104127918d
+source-git-commit: 606ed09cef82c5cef853fea990b0d3a235534b84
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 2%
@@ -136,11 +136,11 @@ BULLET POINT Non-labor resources: Attributes can also be defined on resources su
 
    >[!NOTE]
    >
-   >ダイアグラムには最大5つの属性を設定できます。 上から下への順序は、属性の適用方法の階層を定義します。 **回転** アイコン ![回転アイコン &#x200B;](assets/rotate-attribute-view-icon.png)をクリックして、図を左から右に表示します。 また、ズームインまたはズームアウトして、ダイアグラムを画面に合わせることもできます。
+   >ダイアグラムには最大5つの属性を設定できます。 上から下への順序は、属性の適用方法の階層を定義します。 **回転** アイコン ![回転アイコン ](assets/rotate-attribute-view-icon.png)をクリックして、図を左から右に表示します。 また、ズームインまたはズームアウトして、ダイアグラムを画面に合わせることもできます。
 
 1. 属性を選択して、画面の右側にある設定パネルを開きます。
 
-   ![&#x200B; レート属性の設定](assets/configure-rate-attributes.png)
+   ![ レート属性の設定](assets/configure-rate-attributes.png)
 
 1. オブジェクト（グループ、会社、場所）の名前を、ビジネスに必要な用語（代理店、場所、コストセンターなど）に変更します。
 1. 各属性の&#x200B;**保存**&#x200B;をクリックして、命名規則を保存します。
@@ -202,3 +202,4 @@ BULLET POINT Non-labor resources: Attributes can also be defined on resources su
    * （属性フィルターの種類のみ） **参照フィールド**：一致する必要がある参照属性（代理店IDなど）のフィールド。
 
 1. 各属性の&#x200B;**保存**&#x200B;をクリックして、プロパティとフィルターを保存します。
+
