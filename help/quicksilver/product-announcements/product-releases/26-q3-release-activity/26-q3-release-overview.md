@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5160a8bf1eadef19f1a041080670e1efe3777d2f
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 36%
+source-wordcount: '785'
+ht-degree: 35%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 36%
 ## Adobe Workfront の機能強化
 
 * [ドキュメントの機能強化](#documents-enhancements)
+* [財務管理の機能強化](#financial-management-enhancements)
 * [レポートの機能強化](#reporting-enhancements)
 * [リクエストの機能強化](#requesting-enhancements)
 
@@ -68,6 +69,30 @@ ht-degree: 36%
             <td><p>2026年4月30日（PT）</p></td>
             <td><p>2026年5月14日（PT）</p></td>
             <td><p>2026年7月16日（PT）</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### 財務管理の機能強化
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>機能</strong>
+            </td>
+            <td><strong>プレビュー</strong></td>
+            <td><strong>迅速リリース</strong></td>
+            <td><strong>四半期ごと</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}"> レート属性は、レートで使用すると編集できません</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Workfrontのレートに属性が追加されると、設定領域でその属性とそのフィルターを編集できなくなります。 これにより、データの一貫性を維持し、属性が更新されたときに誤ってレートが変更されるのを防ぐことができます。</p>
+            </td>
+            <td><p>2026年5月21日（PT）</p></td>
+            <td><p>2026年5月21日（PT）</p></td>
+            <td><p>2026年5月21日（PT）</p></td>
         </tr>
     </tbody>
 </table>
