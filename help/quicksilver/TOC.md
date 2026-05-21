@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 1cb6aa0a302d5aac5b44b214d2415271287bf38b
+source-git-commit: e9e00f99ec75156b20407cba7914e746123ec010
 workflow-type: tm+mt
-source-wordcount: '14150'
+source-wordcount: '14155'
 ht-degree: 94%
 
 ---
@@ -946,6 +946,7 @@ ht-degree: 94%
       * {hide-from-toc}[Adobe Workfront MCP サーバーの概要](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
       * {hide-from-toc}[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
       * {hide-from-toc}[Adobe Workfront MCP サーバーを使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
+      * {hide-from-toc}[Adobe Workfront MCP サーバーツール &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
    * 作業アイテムの更新および更新の表示 {#update-work-items-view-updates}
       * [作業アイテムの更新および更新の表示：記事インデックス](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [「更新」セクションの概要](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
