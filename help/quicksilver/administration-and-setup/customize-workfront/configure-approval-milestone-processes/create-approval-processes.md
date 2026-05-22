@@ -116,7 +116,7 @@ For more detail about the information in this table, see [Access requirements in
 
    または
 
-   グループレベルの承認プロセスを作成する場合は、**グループ** ![ グループアイコン ](assets/groups-icon.png)をクリックし、グループの名前をクリックしてから、**承認**&#x200B;をクリックします。
+   グループレベルの承認プロセスを作成する場合は、**グループ** ![&#x200B; グループアイコン &#x200B;](assets/groups-icon.png)をクリックし、グループの名前をクリックしてから、**承認**&#x200B;をクリックします。
 
    <!--
    hidden for the new tab redesign - August 2023: 

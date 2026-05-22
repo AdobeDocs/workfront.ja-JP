@@ -27,7 +27,7 @@ ht-degree: 88%
 
 特定の権限を持つユーザーは、[!UICONTROL 完了] ボタンを設定して、システム内の特定のステータスに関連付けることができます。 [!UICONTROL Workfront] でのタスクに対する「[!UICONTROL 完了]」ボタンの動作は 2 とおりあります。
 
-* ユーザーにホームチームが割り当てられている場合、[!DNL Workfront]管理者または[!UICONTROL Standard]または[!UICONTROL  プラン ] ライセンスを持つユーザーは、[!UICONTROL 完了] ボタンを設定して、チームメンバーの特定のステータスを反映できます。 この記事の[チームの[!UICONTROL 完了]ボタンを設定](#configure-the-uicontrol-done-button-for-a-team)を参照してください。
+* ユーザーにホームチームが割り当てられている場合、[!DNL Workfront]管理者または[!UICONTROL Standard]または[!UICONTROL &#x200B; プラン &#x200B;] ライセンスを持つユーザーは、[!UICONTROL 完了] ボタンを設定して、チームメンバーの特定のステータスを反映できます。 この記事の[チームの[!UICONTROL 完了]ボタンを設定](#configure-the-uicontrol-done-button-for-a-team)を参照してください。
 * ユーザーには[!UICONTROL ホームチーム]がないが、ユーザーのプロファイルには[!UICONTROL 他のチーム]がある場合、Workfront では、ユーザーに関連付けられているチームのいずれかで「[!UICONTROL 完了]」ボタンの設定を検索します。 選択はランダムであり、いずれかのチームに関連付けられているステータスがタスクに使用されます。
 * ユーザーにホームチームが割り当てられていない場合、タスクの「[!UICONTROL 完了]」ボタンは完了ステータスに関連付けられます。 このシナリオでは、使用できる設定オプションはありません。 「[!UICONTROL 完了]」ボタンは、自動的にデフォルトでこのステータスになります。
 

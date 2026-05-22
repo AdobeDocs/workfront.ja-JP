@@ -69,7 +69,7 @@ ht-degree: 75%
 
 ## ライセンスタイプ別のフィルター、ビュー、グループへのアクセス
 
-各アクセスレベルのユーザーがフィルター、ビュー、グループ化で実行できる操作について詳しくは、「[ フィルター、ビュー、グループ化](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#filters-views-and-groupings)」の各オブジェクトタイプで利用できる機能[を参照してください](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)。
+各アクセスレベルのユーザーがフィルター、ビュー、グループ化で実行できる操作について詳しくは、「[&#x200B; フィルター、ビュー、グループ化](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#filters-views-and-groupings)」の各オブジェクトタイプで利用できる機能[を参照してください](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)。
 
 <!--
 
