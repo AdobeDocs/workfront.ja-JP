@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 74%
+source-wordcount: '1727'
+ht-degree: 73%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 74%
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   このオプションは、[!UICONTROL プラン]または[!UICONTROL ワーク]ライセンスを持つチームメンバーのみに表示されます。
+   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL &#x200B; ワーク &#x200B;]のいずれかのライセンスを持つチームメンバーのみがこのオプションを表示します。
 
 1. 「**[!UICONTROL アジャイル]**」セクションで、**[!UICONTROL ストーリーボード]**&#x200B;エリアを見つけます。
 1. （オプション）「**[!UICONTROL 列を追加]**」をクリックして、ストーリーボードにステータス列を追加します。

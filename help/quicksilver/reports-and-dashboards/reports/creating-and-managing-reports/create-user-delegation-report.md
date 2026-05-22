@@ -9,10 +9,10 @@ feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 91%
+source-wordcount: '332'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 91%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-Adobe Workfront では、ユーザーがプロジェクト、タスクおよびイシューの承認を他のユーザーにデリゲートして、不在時に承認が管理されるようにすることができます。プランライセンスを持つユーザーは、ユーザーのデリゲーションレポートを作成して、次の項目を確認できます。
+Adobe Workfront では、ユーザーがプロジェクト、タスクおよびイシューの承認を他のユーザーにデリゲートして、不在時に承認が管理されるようにすることができます。 標準またはプランのライセンスを持つユーザーは、ユーザー委任レポートを作成して次を確認できます。
 
 * タスク、イシューおよびプロジェクトの承認を別のユーザーにデリゲートしたユーザー
 * 割り当てられたタスク、イシューおよびプロジェクトの承認をデリゲートしたユーザー

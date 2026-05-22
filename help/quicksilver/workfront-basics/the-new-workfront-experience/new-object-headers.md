@@ -2,16 +2,16 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: オブジェクトヘッダーの概要
-description: ' [!DNL Adobe Workfront] 内のオブジェクトのヘッダーを確認すると、そのオブジェクトに関する情報が一目でわかります。ヘッダー内の情報には、オブジェクトの所有者、ステータスまたは完了率を含めることができます。'
+description: ' [!DNL Adobe Workfront] 内のオブジェクトのヘッダーを確認すると、そのオブジェクトに関する情報が一目でわかります。 ヘッダー内の情報には、オブジェクトの所有者、ステータスまたは完了率を含めることができます。'
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '3697'
-ht-degree: 95%
+source-wordcount: '3702'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 ヘッダーには、オブジェクト名に加えて、オブジェクトの所有者、ステータスまたは完了率を含めることができます。
 
-[!DNL Workfront] は、ヘッダー内の可能な限りの領域をオブジェクト名に優先的に割り当てます。オブジェクト名が長すぎる場合は切り詰められます。オブジェクトの完全な名前を表示するには、そのオブジェクトにポインタを合わせます。
+[!DNL Workfront] は、ヘッダー内の可能な限りの領域をオブジェクト名に優先的に割り当てます。 オブジェクト名が長すぎる場合は切り詰められます。 オブジェクトの完全な名前を表示するには、そのオブジェクトにポインタを合わせます。
 
 ## オブジェクトのヘッダーへのアクセス
 
@@ -70,7 +70,7 @@ The following headers are available in Home:
  <tbody> 
   <tr> 
    <td role="rowheader">親オブジェクトを含むパンくずリスト</td> 
-   <td>プロジェクトがプログラムまたはポートフォリオに関連付けられている場合、ヘッダーの左上隅のパンくずリストに表示されます。親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</td> 
+   <td>プロジェクトがプログラムまたはポートフォリオに関連付けられている場合、ヘッダーの左上隅のパンくずリストに表示されます。 親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">オブジェクトアイコン </td> 
@@ -98,7 +98,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date] </td> 
-   <td> <p>プロジェクトが [!UICONTROL Completion Date] からスケジュールされている場合、ヘッダーのプロジェクト [!UICONTROL Planned Completion Date] と時刻を編集できます。プロジェクトが [!UICONTROL Start Date] からスケジュールされている場合、この情報はプロジェクトのタスクから更新されます。</p> </td> 
+   <td> <p>プロジェクトが [!UICONTROL Completion Date] からスケジュールされている場合、ヘッダーのプロジェクト [!UICONTROL Planned Completion Date] と時刻を編集できます。 プロジェクトが [!UICONTROL Start Date] からスケジュールされている場合、この情報はプロジェクトのタスクから更新されます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Condition] </td> 
@@ -133,7 +133,7 @@ The following headers are available in Home:
  <tbody> 
   <tr> 
    <td role="rowheader">親オブジェクトを含むパンくずリスト</td> 
-   <td> <p>タスクの親オブジェクトがパンくずリストに表示されます。親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳細情報は、<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>を参照してください。</p> </td> 
+   <td> <p>タスクの親オブジェクトがパンくずリストに表示されます。 親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳細情報は、<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">オブジェクトアイコン </td> 
@@ -165,7 +165,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>ヘッダーで、タスクの[!UICONTROL Planned Completion Date]<span>および時刻</span>を編集できます。</p> <p>ヒント：[!UICONTROL Commit Date]はヘッダーに表示されません。このレポートは、[!UICONTROL Details]ページで表示できます。</p> </td> 
+   <td> <p>ヘッダーで、タスクの[!UICONTROL Planned Completion Date]<span>および時刻</span>を編集できます。</p> <p>ヒント：[!UICONTROL Commit Date]はヘッダーに表示されません。 このレポートは、[!UICONTROL Details]ページで表示できます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
@@ -173,7 +173,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Approvals]エリア</td> 
-   <td> <p>あなたが承認者の場合は、次のアイコンを使用してタスクの承認を管理します。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>承認者でない場合は、[!UICONTROL More]アイコン <img src="assets/more-icon-for-approvals-area.png"> をクリックして、現在の承認ステップに関する情報を表示します。</p> <p>承認について詳しくは、<a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>を参照してください。</p> </td> 
+   <td> <p>あなたが承認者の場合は、次のアイコンを使用してタスクの承認を管理します。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>承認者でない場合は、[!UICONTROL More] アイコン <img src="assets/more-icon-for-approvals-area.png"> をクリックして、現在の承認ステップに関する情報を表示します。</p> <p>承認について詳しくは、<a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -196,7 +196,7 @@ The following headers are available in Home:
  <tbody> 
   <tr> 
    <td role="rowheader">親オブジェクトを含むパンくずリスト</td> 
-   <td> <p>イシューの親オブジェクトがパンくずリストに表示されます。親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳細情報は、<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>を参照してください。</p> </td> 
+   <td> <p>イシューの親オブジェクトがパンくずリストに表示されます。 親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳細情報は、<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトアイコン </td> 
@@ -228,7 +228,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>ヘッダーのイシュー [!UICONTROL Planned Completion Date] <span>および時刻</span>を編集できます。</p> <p>ヒント：[!UICONTROL Commit Date]はヘッダーに表示されません。このレポートは、[!UICONTROL Details]ページで表示できます。</p> </td> 
+   <td> <p>ヘッダーのイシュー [!UICONTROL Planned Completion Date] <span>および時刻</span>を編集できます。</p> <p>ヒント：[!UICONTROL Commit Date]はヘッダーに表示されません。 このレポートは、[!UICONTROL Details]ページで表示できます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
@@ -259,7 +259,7 @@ The following headers are available in Home:
  <tbody> 
   <tr> 
    <td role="rowheader">ポートフォリオ名を含むパンくずリスト</td> 
-   <td> <p>[!UICONTROL Portfolio]には、[!UICONTROL Program]のヘッダーからアクセスできます親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳細情報は、<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>を参照してください。</p> </td> 
+   <td> <p>[!UICONTROL Portfolio]には、[!UICONTROL Program]のヘッダーからアクセスできます 親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳細情報は、<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトアイコン </td> 
@@ -283,15 +283,15 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
-   <td> <p>ヘッダーのプログラムの [!UICONTROL Percent CompletePercent Complete] は編集できません。この情報は、プログラムのプロジェクトから更新されます。</p> <p>ヒント：デフォルトでは、プログラムの完了率は、そのプログラムに属する [!UICONTROL Current] または [!UICONTROL Approved Status] 内のプロジェクトの完了率の値の平均です。</p> </td> 
+   <td> <p>ヘッダーのプログラムの [!UICONTROL Percent CompletePercent Complete] は編集できません。 この情報は、プログラムのプロジェクトから更新されます。</p> <p>ヒント：デフォルトでは、プログラムの完了率は、そのプログラムに属する [!UICONTROL Current] または [!UICONTROL Approved Status] 内のプロジェクトの完了率の値の平均です。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Program Manager]</td> 
-   <td> <p>ヘッダーの [!UICONTROL Program Manager] を編集できます。これは、[!UICONTROL Program Owner] と同じです。</p> </td> 
+   <td> <p>ヘッダーの [!UICONTROL Program Manager] を編集できます。 これは、[!UICONTROL Program Owner] と同じです。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td>ヘッダーのプログラム[!UICONTROL Planned Completion Date]は編集できません。この情報は、プログラム内のプロジェクトの[!UICONTROL Planned Completion Date]から更新されます。</td> 
+   <td>ヘッダーのプログラム[!UICONTROL Planned Completion Date]は編集できません。 この情報は、プログラム内のプロジェクトの[!UICONTROL Planned Completion Date]から更新されます。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Active Projects Condition]</td> 
@@ -338,7 +338,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-   <td>ヘッダーの[!UICONTROL Portfolio Manager]は編集できます。これは、[!UICONTROL Portfolio Owner]と同じです。</td> 
+   <td>ヘッダーの[!UICONTROL Portfolio Manager]は編集できます。 これは、[!UICONTROL Portfolio Owner]と同じです。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL On Time]</td> 
@@ -405,7 +405,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Duration]</td> 
-   <td>テンプレートの期間です。ヘッダーのこのフィールドは編集できません。</td> 
+   <td>テンプレートの期間です。 ヘッダーのこのフィールドは編集できません。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -428,7 +428,7 @@ The following headers are available in Home:
  <tbody> 
   <tr> 
    <td role="rowheader">親オブジェクトのパンくずリスト</td> 
-   <td> <p>テンプレートのタスクの親オブジェクトがパンくずリストに表示されます。親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳しくは、<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>を参照してください。</p> </td> 
+   <td> <p>テンプレートのタスクの親オブジェクトがパンくずリストに表示されます。 親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳しくは、<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトアイコン </td> 
@@ -475,7 +475,7 @@ The following headers are available in Home:
  <tbody> 
   <tr> 
    <td role="rowheader">親オブジェクトのパンくずリスト</td> 
-   <td> <p>請求記録の親オブジェクトがパンくずリストに表示されます。親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳しくは、<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>を参照してください。</p> </td> 
+   <td> <p>請求記録の親オブジェクトがパンくずリストに表示されます。 親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳しくは、<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトアイコン </td> 
@@ -502,11 +502,11 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 請求記録合計]</td> 
-   <td>請求記録の合計金額です。このフィールドは編集できません。</td> 
+   <td>請求記録の合計金額です。 このフィールドは編集できません。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Billing Date]</td> 
-   <td>請求記録の作成時に手動で変更された場合を除き、請求レコードが作成された日付です。[!UICONTROL Billing Date] のヘッダーを編集できます。</td> 
+   <td>請求記録の作成時に手動で変更された場合を除き、請求レコードが作成された日付です。 [!UICONTROL Billing Date] のヘッダーを編集できます。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
@@ -537,7 +537,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">ユーザーの名前とタイトル</td> 
-   <td> <p> ユーザーのタイトルは、名前の上にすべて大文字で表示されます。ヘッダーのユーザーの名前は編集できません。</p> </td> 
+   <td> <p> ユーザーのタイトルは、名前の上にすべて大文字で表示されます。 ヘッダーのユーザーの名前は編集できません。</p> </td> 
   </tr>
   <!--
    <tr> 
@@ -555,7 +555,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">メールアドレス</td> 
-   <td>ヘッダーのメールアドレスは編集できません。これは通常、ユーザー名でもあります。</td> 
+   <td>ヘッダーのメールアドレスは編集できません。 これは通常、ユーザー名でもあります。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">電話番号</td> 
@@ -563,7 +563,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">チーム</td> 
-   <td> <p>ユーザーが所属するチームを表示できます。チームのアバターの上でマウスを移動すると、チームの名前が表示されます。ヘッダーのチームは編集できません。</p> </td> 
+   <td> <p>ユーザーが所属するチームを表示できます。 チームのアバターの上でマウスを移動すると、チームの名前が表示されます。 ヘッダーのチームは編集できません。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -602,11 +602,11 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">チームメンバーのプロファイル画像</td> 
-   <td>チームメンバーのプロフィール写真。画像の上にマウスを移動すると、ユーザーの名前が表示されます。</td> 
+   <td>チームメンバーのプロフィール写真。 画像の上にマウスを移動すると、ユーザーの名前が表示されます。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">説明</td> 
-   <td>これは、チームのメンバーに関する簡単な説明です。ヘッダーのチームの説明は編集できません。</td> 
+   <td>これは、チームのメンバーに関する簡単な説明です。 ヘッダーのチームの説明は編集できません。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -644,15 +644,15 @@ The following headers are available in Home:
    <td> <p>イテレーションの名前の横に、アクション領域が表示されます。</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">所有者</td> 
-   <td>これは、イテレーションの [!UICONTROL Owner] です。ヘッダーの [!UICONTROL Owner] は編集できません。</td> 
+   <td>これは、イテレーションの [!UICONTROL Owner] です。 ヘッダーの [!UICONTROL Owner] は編集できません。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Timeline]</td> 
-   <td>[!UICONTROL Timeline] は、このイテレーションの開始日と終了日を示します。ヘッダーの [!UICONTROL Timeline] は編集できません。</td> 
+   <td>[!UICONTROL Timeline] は、このイテレーションの開始日と終了日を示します。 ヘッダーの [!UICONTROL Timeline] は編集できません。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team]</td> 
-   <td>ヘッダー内のイテレーションのチームは編集できません。チーム名をクリックすると、チームページに移動します。</td> 
+   <td>ヘッダー内のイテレーションのチームは編集できません。 チーム名をクリックすると、チームページに移動します。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -700,7 +700,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Licenses in use] </td> 
-   <td> <p>「[!UICONTROL Licenses in use]」ボックスに、グループおよびそのサブグループ内の [!UICONTROL Plan] および [!UICONTROL Work] ライセンスユーザーの数が表示されます。数字をクリックすると、5 種類のライセンスに関する情報が表示されます。</p> <p>詳しくは、<a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">新しい [!DNL Adobe Workfront] エクスペリエンスでグループに割り当てられ、使用されているライセンス数を表示する</a>を参照してください。</p> </td> 
+   <td> <p>[!UICONTROL Licenses in use] ボックスには、グループとそのサブグループの[!UICONTROL Standard]または[!UICONTROL Plan]と[!UICONTROL Work] ライセンスユーザーの数が表示されます。 番号をクリックすると、すべてのライセンスタイプに関するこの情報が表示されます。</p> <p>詳しくは、<a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">グループ内で割り当ておよび使用されているライセンス数の表示</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group Administrators]</td> 
@@ -727,7 +727,7 @@ The following headers are available in Home:
  <tbody> 
   <tr> 
    <td role="rowheader">親オブジェクトを含むパンくずリスト</td> 
-   <td> <p>ドキュメントの親オブジェクトがパンくずリストに表示されます。親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳しくは、<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントの親オブジェクトがパンくずリストに表示されます。 親オブジェクトの名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳しくは、<a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトアイコン </td> 
@@ -747,7 +747,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">承認の [!UICONTROL Decision] エリア</td> 
-   <td> [!UICONTROL Decisions] エリアは、ドキュメントヘッダーの右上隅に表示されます。このエリアは、承認フェーズと、自分が承認者であるか、レビュアーであるか、そのいずれでもないかによって異なります。 <ul><li> <p>承認者の場合は、次のアイコンを使用してドキュメントの承認を管理できます。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>承認の決定について詳しくは、<a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">作業の承認</a>を参照してください。</li><li><p>レビュアーは、「レビューを完了」ボタンをクリックして、ドキュメントをレビューしたことを示すことができます。</p><p>ドキュメントのレビューについて詳しくは、<a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">ドキュメントのレビュー</a>を参照してください。</p></li><li>それ以外の場合は、このエリアにはドキュメントの現在のレビューおよび承認のステータスが表示されます。</li><ul></p> </td> 
+   <td> [!UICONTROL Decisions]領域がドキュメントヘッダーの右上隅に表示されます。この領域は、承認フェーズと、あなたが承認者なのか、レビュアーなのか、どちらでもないかによって異なります。 <ul><li> <p>承認者の場合は、次のアイコンを使用してドキュメントの承認を管理できます。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>承認の決定について詳しくは、<a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">作業の承認</a>を参照してください。</li><li><p>レビュアーは、「レビューを完了」ボタンをクリックして、ドキュメントをレビューしたことを示すことができます。</p><p>ドキュメントのレビューについて詳しくは、<a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">ドキュメントのレビュー</a>を参照してください。</p></li><li>それ以外の場合は、このエリアにはドキュメントの現在のレビューおよび承認のステータスが表示されます。</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -795,7 +795,7 @@ The following headers are available in Home:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-プランは、[!DNL Workfront Scenario Planner] のオブジェクトです。[!DNL Scenario Planner] について詳しくは、[&#x200B; [!DNL Scenario Planner]  の概要](../../scenario-planner/scenario-planner-overview.md)を参照してください。
+プランは、[!DNL Workfront Scenario Planner] のオブジェクトです。 [!DNL Scenario Planner] について詳しくは、[&#x200B; [!DNL Scenario Planner]  の概要](../../scenario-planner/scenario-planner-overview.md)を参照してください。
 
 プランヘッダーには、次の情報が表示されます。
 
@@ -840,11 +840,11 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">担当業務の情報</td> 
-   <td>「[!UICONTROL Job Role]」ボックスで、必要とされる担当業務の数と比較して、プランで使用可能な担当業務数を確認できます。ボックスをクリックすると、使用可能な担当業務を調整できます。</td> 
+   <td>「[!UICONTROL Job Role]」ボックスで、必要とされる担当業務の数と比較して、プランで使用可能な担当業務数を確認できます。 ボックスをクリックすると、使用可能な担当業務を調整できます。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Financial] 情報</td> 
-   <td>「[!UICONTROL Financial]」ボックスに、プランの予算、コストおよび稼働率の割合が表示されます。ボックスをクリックすると、予算金額を調整し、人件費をプランに含めるかどうかを決定できます。</td> 
+   <td>「[!UICONTROL Financial]」ボックスに、プランの予算、コストおよび稼働率の割合が表示されます。 ボックスをクリックすると、予算金額を調整し、人件費をプランに含めるかどうかを決定できます。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Net Value]</td> 
@@ -852,7 +852,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Shared with]情報</td> 
-   <td>計画の表示や管理を行うアクセス権を持つユーザーは、ヘッダーの右上隅に表示されます。プロフィール画像の上にポインタを合わせると、名前が表示されます。</td> 
+   <td>計画の表示や管理を行うアクセス権を持つユーザーは、ヘッダーの右上隅に表示されます。 プロフィール画像の上にポインタを合わせると、名前が表示されます。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Go to Publish]</td> 
@@ -866,7 +866,7 @@ The following headers are available in Home:
 
 ![](assets/goal-header.png)
 
-会社が Workfront Goals にアクセスできる場合は、戦略的目標を作成できます。[!DNL Workfront Goals] について詳しくは、[&#x200B; [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md) の基本を学ぶを参照してください。
+会社が Workfront Goals にアクセスできる場合は、戦略的目標を作成できます。 [!DNL Workfront Goals] について詳しくは、[&#x200B; [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md) の基本を学ぶを参照してください。
 
 目標ヘッダーには、次の情報が表示されます。
 
@@ -906,11 +906,11 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Progress]</td> 
-   <td>進捗目標の割合、目標の達成率を示します。目標の進捗を更新することはできません。Workfront は、目標に関する各進捗インジケーターの進捗状況に基づいて計算します。</td> 
+   <td>進捗目標の割合、目標の達成率を示します。 目標の進捗を更新することはできません。 Workfront は、目標に関する各進捗インジケーターの進捗状況に基づいて計算します。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Owner]</td> 
-   <td>これは目標の所有者です。目標所有者を手動で更新できます。ユーザー、チーム、グループまたは組織を目標所有者にすることができます。</td> 
+   <td>これは目標の所有者です。 目標所有者を手動で更新できます。 ユーザー、チーム、グループまたは組織を目標所有者にすることができます。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Period]</td> 
@@ -922,7 +922,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
-   <td>目標がアクティブ、新規またはクローズ済みかを示します。目標のステータスを手動で更新できません。詳しくは、<a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals]</a> の目標ステータスの概要を参照してください。</td> 
+   <td>目標がアクティブ、新規またはクローズ済みかを示します。 目標のステータスを手動で更新できません。 詳しくは、<a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals]</a> の目標ステータスの概要を参照してください。</td> 
   </tr> 
  </tbody> 
 </table>

@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 91%
+source-wordcount: '249'
+ht-degree: 89%
 
 ---
 
 # 自動リマインダーとリマインダーの通知
 
-この記事では、自動リマインダーとリマインダー通知の違いについて説明し、それぞれのシナリオを示します。すべての [!DNL Adobe Workfront] 通知について詳しくは、[[!DNL Adobe Workfront]  通知](../../workfront-basics/using-notifications/wf-notifications.md)を参照してください。
+この記事では、自動リマインダーとリマインダー通知の違いについて説明し、それぞれのシナリオを示します。 すべての [!DNL Adobe Workfront] 通知について詳しくは、[[!DNL Adobe Workfront]  通知](../../workfront-basics/using-notifications/wf-notifications.md)を参照してください。
 
 ## 自動リマインダ
 
@@ -29,16 +29,16 @@ ht-degree: 91%
 * 割り当て先、割り当て先のマネージャー、直属マネージャーのマネージャーにのみ送信可能です。
 * メールテンプレートを添付することはできません。
 
-シナリオ：システム全体のすべてのタスクとイシューに対してリマインダーをトリガーする場合は、自動リマインダー設定を構成します。詳しくは、[自動リマインダーの設定](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)を参照してください。
+シナリオ：システム全体のすべてのタスクとイシューに対してリマインダーをトリガーする場合は、自動リマインダー設定を構成します。 詳しくは、[自動リマインダーの設定](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)を参照してください。
 
 ## リマインダー通知
 
 次の特徴は、リマインダー通知に限られます。
 
-* 管理者またはプランライセンスを持ち、リマインダー通知への管理アクセス権を持つ任意のユーザーが作成できます
+* 管理者またはプランの標準ライセンスとリマインダー通知への管理アクセス権を持つユーザーが作成できます
 * 手動でオブジェクトに関連付けることができます
 * 添付されたオブジェクトに関する通知のみ可能です
 * 所有者、作成者、承認者、割り当て先など、様々なオブジェクトの関係者に送信できます
 * デフォルトのメール、または添付されたカスタマイズ済みのメールテンプレートを使用できます
 
-シナリオ：プロジェクト、タイムシートのリマインダーを作成する場合、またはタスクとタスクのリマインダーをカスタマイズする場合は、リマインダー通知を設定します。詳しくは、[リマインダー通知の設定](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)を参照してください。
+シナリオ：プロジェクト、タイムシートのリマインダーを作成する場合、またはタスクとタスクのリマインダーをカスタマイズする場合は、リマインダー通知を設定します。 詳しくは、[リマインダー通知の設定](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)を参照してください。
