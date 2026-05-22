@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ee971729c414018a04b1d1fc2a59760e9ea0a59a
+source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
 workflow-type: tm+mt
-source-wordcount: '21833'
-ht-degree: 98%
+source-wordcount: '21953'
+ht-degree: 97%
 
 ---
 
@@ -686,6 +686,10 @@ ht-degree: 98%
    <td>画面の左側にあるメニューで、項目はアクティブなコンテンツとの関連付けで変化します。 例えば、ユーザーがプロジェクトを表示しているとき、[!UICONTROL Contextual Menu] にはプロジェクト関連の情報とツールへのリンクが表示されます。</td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Contributor]</td> 
+   <td><p>通常は、ライセンスタイプです。 [!UICONTROL Contributor] ライセンスを持つユーザーは、システムで新しい作業を行うためのリクエストを送信できます。</p> <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">アクセスレベルの概要</a>を参照してください。</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Converted Issue Originator]</td> 
    <td>イシューがプロジェクトまたはタスクに変換されるときに、イシューの [!UICONTROL Primary Contact] であるユーザーに関する情報を表示する、プロジェクトまたはタスクレポート内のフィールド。 このフィールドは、[!UICONTROL Project Details] セクションにも表示され、変換後のイシューの [!UICONTROL Primary Contact] の名前が表示されます。 この記事の「[!UICONTROL Primary Contact]」も参照してください。</td> 
   </tr> 
@@ -1276,6 +1280,10 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL License Limit Work]</td> 
    <td> <p>[!UICONTROL Group] ビューまたはレポートで、このフィールドには、各グループが [!UICONTROL Home Group] として指定されているユーザーに割り当てることができる [!UICONTROL Work] ライセンスの最大数が表示されます。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Light]</td> 
+   <td><p>通常は、ライセンスタイプです。 [!UICONTROL Light] ライセンスを持つユーザーは、システム内の作業項目を確認および承認できます。</p> <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">アクセスレベルの概要</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limited User]</td> 
@@ -2147,7 +2155,11 @@ The designated full time equivalency for users. A full-time user should have 100
     <li>「プロジェクト名」列または「タスク名」列をイシューレポートに。 </li> </ul>
     詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">別のユーザーのアクセス権を使用したレポートの実行と配信</a>を参照してください。 
    </td> 
-  </tr> 
+  </tr>
+  <tr>
+   <td>[!UICONTROL Standard]</td> 
+   <td> <p>これは、[!DNL Workfront] システムのフルライセンスタイプです。 ユーザーが [!DNL Workfront] のすべての機能にアクセスするには、これが必要です。</p><p>このモデルのライセンスの場合、作業に相当するものはありません。 以前にワークライセンスを持っていたユーザーは、そのライセンスのすべての機能を持つ標準ユーザーになります。</p> <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">アクセスレベルの概要</a>を参照してください。</p> </td> 
+  </tr>  
   <tr> 
    <td>[!UICONTROL Start Date]</td> 
    <td> <p>アイテムの作業を開始するように設定された日付。 [!DNL Workfront] で扱う開始日には、次のように複数のタイプがあります。 </p> 
@@ -2584,3 +2596,4 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
  </tbody> 
 </table>
+
