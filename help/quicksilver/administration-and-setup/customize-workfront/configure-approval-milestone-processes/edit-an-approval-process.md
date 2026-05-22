@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 title: 承認プロセスの編集
 description: Adobe Workfront 管理者、または承認プロセスへの管理者アクセス権を持っている場合、システム内のすべての承認プロセスを表示および編集できます。
-author: Alina
+author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 94%
