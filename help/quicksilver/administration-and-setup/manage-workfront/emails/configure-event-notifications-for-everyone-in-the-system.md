@@ -1,16 +1,16 @@
 ---
 title: システム内のすべてのユーザーに対するイベント通知の設定
-description: イベント通知は、特定のイベントが発生したときにユーザーにメールを送信します。Adobe Workfront 管理者またはプランナーのアクセスレベルを持つユーザーは、システム内のすべてのユーザーに対するイベント通知を設定できます。イベント通知の設定は、その設定の有効化と無効化で構成されます。
+description: イベント通知は、特定のイベントが発生したときにユーザーにメールを送信します。 Adobe Workfront 管理者またはプランナーのアクセスレベルを持つユーザーは、システム内のすべてのユーザーに対するイベント通知を設定できます。 イベント通知の設定は、その設定の有効化と無効化で構成されます。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 86%
+ht-degree: 73%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 86%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
-イベント通知は、特定のイベントが発生したときにユーザーにメールを送信します。Adobe Workfront 管理者またはプランナーのアクセスレベルを持つユーザーは、システム内のすべてのユーザーに対するイベント通知を設定できます。イベント通知の設定は、その設定の有効化と無効化で構成されます。
+イベント通知は、特定のイベントが発生したときにユーザーにメールを送信します。 Adobe Workfront管理者または標準またはプランのアクセスレベルを持つユーザーは、システム内のすべてのユーザーに対してイベント通知を設定できます。 イベント通知の設定は、その設定の有効化と無効化で構成されます。
 
 <!--Alina annotation on the word "all" in 2nd sentence: abive, drafted and remains QS only-->
 
 管理者が有効にし、ユーザーが自分のプロファイルでも有効にしているイベントについては、イベントが発生すると、即時、日次、または即時と日次の両方でメール通知がユーザーに送信されます。
 
-まず、すべてのユーザーに届けたい通知を、Workfront インスタンスの設定エリアで指定する必要があります。設定エリアで通知を有効にすると、有効になった通知が各ユーザーのプロファイルページに表示されます。
+まず、すべてのユーザーに届けたい通知を、Workfront インスタンスの設定エリアで指定する必要があります。 設定エリアで通知を有効にすると、有効になった通知が各ユーザーのプロファイルページに表示されます。
 
-通知が設定エリアで有効化され、ユーザーのプロファイルページに表示されると、それぞれのユーザーまたは Paln ライセンスのある別のユーザーは、有効化された通知をユーザープロファイルで設定することにより、特定のユーザーが受け取る通知とその通知頻度を制御することができます。詳しくは、[独自のメール通知の変更](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
+通知がセットアップ領域でアクティブ化され、ユーザーのプロファイルページに表示された後、標準またはプランのライセンスを持つ個々のユーザーまたは別のユーザーは、ユーザープロファイルでアクティブ化された通知を設定して、特定のユーザーが受信する通知と頻度を制御することもできます。 詳しくは、[独自のメール通知の変更](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 アクティブ化および非アクティブ化できるすべてのイベント通知の一覧について詳しくは、[イベント通知のタイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
 
@@ -54,7 +54,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>リマインダー通知への管理アクセス権を持つプランナー以上</p> </td> 
+   <td> <p>リマインダー通知への管理アクセス</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +68,7 @@ ht-degree: 86%
 
 >[!TIP]
 >
->設定エリアで Workfront Goals の通知を有効にすることはできません。ユーザーは、自分のプロファイルでのみ、これらの通知をアクティブ化できます。Plan ライセンスを持つユーザーは、他のユーザーに対して通知をアクティブ化することができます。ユーザーへの Workfront Goals の通知の有効化について詳しくは、[通知：Goals](../../../workfront-basics/using-notifications/notifications-goals.md) を参照してください。
+>設定エリアで Workfront Goals の通知を有効にすることはできません。 ユーザーは、自分のプロファイルでのみ、これらの通知をアクティブ化できます。 Plan ライセンスを持つユーザーは、他のユーザーに対して通知をアクティブ化することができます。 ユーザーへの Workfront Goals の通知の有効化について詳しくは、[通知：Goals](../../../workfront-basics/using-notifications/notifications-goals.md) を参照してください。
 
 {{step-1-to-setup}}
 
@@ -86,7 +86,7 @@ ht-degree: 86%
 
    メール通知の件名行のカスタマイズについて詳しくは、[イベント通知のメール件名をカスタマイズする](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)を参照してください。
 
-1. （オプション）メール通知の設定をロック解除して、グループ管理者が自分のグループに対して個別に設定できるようにするには、通知の右側にある「![&#x200B; ロック切り替え](assets/lock-toggle-button.png)」ボタンをクリックして、ロック解除された位置「![&#x200B; ロック解除](assets/unlock-toggle-button.png)」に切り替えます。
+1. （オプション）メール通知の設定をロック解除して、グループ管理者が自分のグループに対して個別に設定できるようにするには、通知の右側にある「![ ロック切り替え](assets/lock-toggle-button.png)」ボタンをクリックして、ロック解除された位置「![ ロック解除](assets/unlock-toggle-button.png)」に切り替えます。
 
    詳しくは、[すべてのグループに対するイベント通知の設定をロックまたはロック解除](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)を参照してください。
 

@@ -3,16 +3,16 @@ product-area: projects;user-management
 keywords: 添付、適用
 navigation-topic: work-with-custom-forms
 title: カスタムフォームのオブジェクトへの追加
-description: 既存のカスタムフォームを、以下にリストされているオブジェクトのいずれかに追加できます。カスタムフォームには、オブジェクトに関する情報を保存できるカスタムフィールドが含まれています。
+description: 既存のカスタムフォームを、以下にリストされているオブジェクトのいずれかに追加できます。 カスタムフォームには、オブジェクトに関する情報を保存できるカスタムフィールドが含まれています。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 91%
+source-wordcount: '747'
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-既存のカスタムフォームを、以下にリストされているオブジェクトのいずれかに追加できます。カスタムフォームには、オブジェクトに関する情報を保存できるカスタムフィールドが含まれています。
+既存のカスタムフォームを、以下にリストされているオブジェクトのいずれかに追加できます。 カスタムフォームには、オブジェクトに関する情報を保存できるカスタムフィールドが含まれています。
 
 * プロジェクト（ビジネスケースを含む）
 * タスク
@@ -106,7 +106,7 @@ Old:
 
 ## 前提条件
 
-カスタムフォームをオブジェクトに追加するには、Workfront 管理者または Plan ライセンスと、カスタムフォームへの管理アクセス権を持つユーザーが環境内にカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+Workfrontの管理者または標準またはプランのライセンスを持ち、カスタムフォームへの管理アクセス権を持つユーザーは、カスタムフォームをオブジェクトに追加する前に、環境でカスタムフォームを作成する必要があります。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## カスタムフォームのオブジェクトへの追加
 
@@ -118,7 +118,7 @@ Old:
 ### オブジェクトを編集してカスタムフォームをオブジェクトに追加 {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. カスタムフォームを追加するオブジェクトに移動します。
-1. **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**編集** ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+1. **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**編集** ![編集アイコン ](assets/edit-icon.png)をクリックします。
 1. **カスタムフォーム**／**フォームを追加**&#x200B;をクリックし、ドロップダウンメニューから最大 10 個のフォームを選択します。
 
 1. （オプション）カスタムフォームの編集可能なフィールドの情報を更新します。
@@ -130,7 +130,7 @@ Old:
 ### 詳細領域からオブジェクトにカスタムフォームを追加 {#add-a-custom-form-to-an-object-from-the-details-area}
 
 1. カスタムフォームを追加するオブジェクトに移動します。
-1. 左側のパネルで、**`<Object type>`詳細**&#x200B;セクションをクリックします。例えば、**プロジェクトの詳細**&#x200B;をクリックしてカスタムフォームをプロジェクトに追加するか、**イシューの詳細**&#x200B;をクリックしてカスタムフォームをイシューに追加します。
+1. 左側のパネルで、**`<Object type>`詳細**&#x200B;セクションをクリックします。 例えば、**プロジェクトの詳細**&#x200B;をクリックしてカスタムフォームをプロジェクトに追加するか、**イシューの詳細**&#x200B;をクリックしてカスタムフォームをイシューに追加します。
 1. 右上隅の「**カスタムフォームを追加**」フィールドをクリックし、表示されるリストから最大 10 個のカスタムフォームを選択します。
 
    フォームに必須フィールド（赤いアスタリスクが付いているフィールド）が含まれていても、現時点では入力する必要はありません。
@@ -163,17 +163,17 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. オブジェクトのリストに移動します。
 1. リスト内の複数のオブジェクトを選択します。
 
-1. **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+1. **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
    または
 
-   リストの上部にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+   リストの上部にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 1. 左側のパネルで「**カスタムフォーム**」をクリックします。
 1. **選択**&#x200B;ドロップダウンメニューで、選択したすべてのオブジェクトに関連付けるフォームを選択します。
 
    >[!NOTE]
    >
-   >ドロップダウンメニューにフォームが見つからない場合は、少なくとも 1 つのオブジェクトにフォームがすでに関連付けられていることを意味します。フォームを残りのオブジェクトに追加する前に、どのオブジェクトであるかを特定し、選択から削除してください。
+   >ドロップダウンメニューにフォームが見つからない場合は、少なくとも 1 つのオブジェクトにフォームがすでに関連付けられていることを意味します。 フォームを残りのオブジェクトに追加する前に、どのオブジェクトであるかを特定し、選択から削除してください。
 
 
 1. 「**変更を保存**」をクリックします。

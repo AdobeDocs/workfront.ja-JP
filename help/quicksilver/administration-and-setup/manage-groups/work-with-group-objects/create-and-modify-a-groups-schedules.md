@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 89%
+source-wordcount: '314'
+ht-degree: 82%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 89%
 
 管理しているグループをグループエリアで表示する場合、グループまたはそのいずれかのサブグループの管理者が管理アクセス権を持っているスケジュールを表示し操作することができます。
 
-管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。Workfront 管理者（すべてのグループ）も同様です。
+管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。 Workfront 管理者（すべてのグループ）も同様です。
 
 スケジュールの作成と編集の概要については、[スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
 
 >[!NOTE]
 >
->他のユーザーを編集できるプランライセンスを持つグループ管理者およびユーザーは、別のユーザーのプロファイルを編集する際に、システムレベルまたはグループレベルのスケジュールをそのユーザーに追加できます。
+>他のユーザーを編集できる標準またはプランのライセンスを持つグループ管理者とユーザーは、そのユーザーのプロファイルを編集しているときに、システムレベルまたはグループレベルのスケジュールを他のユーザーに追加できます。
 
-リソース計画でのスケジュールの使用方法については、[スケジュールの概要](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)と[リソースプランナーの概要](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md)を参照してください。
+リソース計画でのスケジュールの使用方法については、[スケジュールの概要](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)および[リソースプランナーの概要](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md)を参照してください。
 
 ## アクセス要件
 
@@ -48,7 +48,7 @@ ht-degree: 89%
   </tr>
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
+   <td>グループのグループ管理者またはシステム管理者でなければなりません。</td>
   </tr>
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ ht-degree: 89%
 
 1. 「**グループ**」をクリックします。
 
-   表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
+   表示されるリストで、管理しているグループと、その中のサブグループを確認できます。 Adobe Workfront 管理者は、すべてのグループを表示できます。
 
 1. スケジュールを表示するグループの名前をクリックします。
 1. 左パネルの「**スケジュール**」をクリックします。

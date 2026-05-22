@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c8e6af1b-8cf3-4522-b0eb-7e5f2d34f5a9
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '363'
 ht-degree: 95%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 Adobe Workfront 管理者は、アクセスレベルを使用して、[アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)の説明に従って、テンプレートへのユーザーのアクセスを定義できます。
 
-プランライセンスを持つユーザーのみが、テンプレートへのフルアクセスを持つことができます。
+標準ライセンスまたはプラン ライセンスを持つユーザーのみがテンプレートに完全にアクセスできます。
 
 カスタムアクセスレベルを使用して、Workfront の他のオブジェクトタイプへのユーザーのアクセスを管理する方法について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
@@ -58,14 +58,14 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、[アクセ
 
    ![](assets/access-level-to-templates-with-edit-expanded-1.png)
 
-1. （オプション）作業中のアクセスレベルの他のオブジェクトやエリアのアクセス設定を指定するには、[Adobe Workfront へのアクセスを設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)にある記事のうちの 1 つ（[タスクへのアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)、[財務データへのアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)など）に従って、作業を続けます。
+1. （オプション）作業中のアクセスレベルで他のオブジェクトや他の領域のアクセス権を設定するには、[Adobe Workfront に対するアクセス権の設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)のリストに記載されている、[タスクへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)や[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)などの記事を参照してください。
 1. 完了したら「**保存**」をクリックします。
 
-   作成したアクセスレベルは、ユーザーに割り当てることができます。詳しくは、[ユーザープロファイルを編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+   作成したアクセスレベルは、ユーザーに割り当てることができます。 詳しくは、[ユーザープロファイルを編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 ## ライセンスタイプ別のテンプレートへのアクセス
 
-各アクセスレベルのユーザーがテンプレートに対して実行できる内容について詳しくは、[各オブジェクトタイプで利用可能な機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)の記事の[テンプレート](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#template)の節を参照してください。
+各アクセスレベルのユーザーがテンプレートに対して実行できる内容について詳しくは、[各オブジェクトタイプで利用可能な機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)の記事の[テンプレート](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#templates)の節を参照してください。
 
 ## 共有テンプレートへのアクセス
 

@@ -8,20 +8,18 @@ feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 68%
 
 ---
 
 # ワークロードバランサーでリソースを管理するために必要なアクセス
 
-{{preview-fast-release-general}}
-
 適切なアクセス権または権限がなければ、ワークロードバランサーで作業の割り当てを表示または管理できない場合があります。
 
-ワークロードバランサーでワークロードを表示または管理したいユーザーを表示するアクセス権が必要です。これに加えて、作業が関連付けられているプロジェクトに対する正しいアクセスレベルと正しい権限が必要です。
+ワークロードバランサーでワークロードを表示または管理したいユーザーを表示するアクセス権が必要です。 これに加えて、作業が関連付けられているプロジェクトに対する正しいアクセスレベルと正しい権限が必要です。
 
 <!--
 ## Adobe Workfront package needed to use the Workload Balancer for different areas
@@ -55,7 +53,7 @@ The following table illustrates the connection between the Workfront plan your c
  </tbody> 
 </table>
 
-For information about the Workfront plans, see [Our Plans](https://business.adobe.com/jp/products/workfront/pricing.html).
+For information about the Workfront plans, see [Our Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 -->
@@ -90,7 +88,7 @@ For information about where you can locate the Workload Balancer in Workfront, s
 
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-<span class="preview">すべてのユーザーが、自分のプロファイルでワークロードバランサーを表示するアクセス権を持っています。 これはライセンスやアクセスレベルによって制限されません。 ユーザープロファイルのワークロードバランサーは読み取り専用であり、割り当てと割り当てを変更することはできません。</span>
+すべてのユーザーは、自分のプロファイルでワークロードバランサーを表示するアクセス権があります。 これはライセンスやアクセスレベルによって制限されません。 ユーザープロファイルのワークロードバランサーは読み取り専用であり、割り当てと割り当てを変更することはできません。
 
 ## ワークロードバランサーで割り当てを管理するために必要なアクセス
 
@@ -124,8 +122,4 @@ For information about where you can locate the Workload Balancer in Workfront, s
 
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-<!--
-these notes were inside the table: for the Edit access to Res Management
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Financial Data access level, see the article<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>. (NOTE: this is not possible yet!)</p>
-    -->
+
