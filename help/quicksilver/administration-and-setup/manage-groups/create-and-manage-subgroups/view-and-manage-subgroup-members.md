@@ -68,7 +68,7 @@ ht-degree: 72%
 
 1. 次のいずれかの操作を行います。
 
-   * リスト内のメンバーを選択し、「![編集」アイコン ](assets/edit-icon.png)をクリックして、そのユーザーのユーザープロファイルを変更します。
+   * リスト内のメンバーを選択し、「![編集」アイコン &#x200B;](assets/edit-icon.png)をクリックして、そのユーザーのユーザープロファイルを変更します。
 
      詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)または[ユーザープロファイルの一括編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)を参照してください。
 
@@ -78,8 +78,8 @@ ht-degree: 72%
 
      詳しくは、[他のユーザーへのダイレクトメッセージの送信](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)を参照してください。
 
-   * リスト内の任意の数のメンバーを選択し、「![ ユーザーを非アクティブ化](assets/deactivate-user.png)」または「![ ユーザーをアクティブ化](assets/activate-user.png)」をクリックします。
+   * リスト内の任意の数のメンバーを選択し、「![&#x200B; ユーザーを非アクティブ化](assets/deactivate-user.png)」または「![&#x200B; ユーザーをアクティブ化](assets/activate-user.png)」をクリックします。
 
      詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
 
-   * メンバーのリストを![ エクスポート ](assets/export.png)します。
+   * メンバーのリストを![&#x200B; エクスポート &#x200B;](assets/export.png)します。
