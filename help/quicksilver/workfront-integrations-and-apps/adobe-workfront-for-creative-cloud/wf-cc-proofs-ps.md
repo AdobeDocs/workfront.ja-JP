@@ -19,7 +19,7 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->ファイルは、[Photoshopのテンプレートとプリセット &#x200B;](https://helpx.adobe.com/photoshop/using/create-documents.html)で説明されているように、フォトドキュメントプリセットである必要があります。
+>ファイルは、[Photoshopのテンプレートとプリセット &#x200B;](https://helpx.adobe.com/jp/photoshop/using/create-documents.html)で説明されているように、フォトドキュメントプリセットである必要があります。
 
 
 
