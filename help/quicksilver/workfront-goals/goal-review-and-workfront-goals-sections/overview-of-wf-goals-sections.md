@@ -3,7 +3,7 @@ content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Adobe Workfront目標の概要
-description: 目標のリストまたは個々の目標にアクセスし、Adobe Workfront Goals の複数のセクションからそれらを管理できます。どのセクションを使用するかは、目標を扱う際に達成したい目的によって異なります。
+description: 目標のリストまたは個々の目標にアクセスし、Adobe Workfront Goals の複数のセクションからそれらを管理できます。 どのセクションを使用するかは、目標を扱う際に達成したい目的によって異なります。
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 >
@@ -52,15 +52,15 @@ Old:
 
 Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、自分または組織内の他のユーザーが作成した目標を Workfront Goals エリアで表示できます。
 
-目標のリストまたは個々の目標にアクセスし、Workfront Goals の複数のセクションからそれらを管理できます。どのセクションを使用するかは、目標を扱う際に達成する目的によって異なります。
+目標のリストまたは個々の目標にアクセスし、Workfront Goals の複数のセクションからそれらを管理できます。 どのセクションを使用するかは、目標を扱う際に達成する目的によって異なります。
 
 フィルターを適用して、各セクションで重要な目標のみを表示できます。
 
 >[!TIP]
 >
->1 つのセクションで更新されたフィルターは、「目標リスト」、「グラフ」、「目標の整合性」の各セクションに自動的に適用されます。この方法では、更新は 1 回のみ可能です。詳しくは、[Adobe Workfront Goals で情報をフィルタリング](../../workfront-goals/goal-management/filter-information-wf-goals.md)を参照してください。
+>1 つのセクションで更新されたフィルターは、「目標リスト」、「グラフ」、「目標の整合性」の各セクションに自動的に適用されます。 この方法では、更新は 1 回のみ可能です。 詳しくは、[Adobe Workfront Goals で情報をフィルタリング](../../workfront-goals/goal-management/filter-information-wf-goals.md)を参照してください。
 
-以下に、Workfront Goals のセクションと目標の管理に使用できるオプションの概要を示します。Workfront Goals の各セクションで実行できる追加のアクションについて詳しくは、次の記事もお勧めします。
+以下に、Workfront Goals のセクションと目標の管理に使用できるオプションの概要を示します。 Workfront Goals の各セクションで実行できる追加のアクションについて詳しくは、次の記事もお勧めします。
 
 * [Adobe Workfront Goals で目標を作成](../../workfront-goals/goal-management/create-goals.md)
 * [Adobe Workfront Goals における目標の進捗状況の更新](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
@@ -69,11 +69,11 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 
 ## 目標リスト
 
-目標リストを使用して、自分、チーム、グループ、または組織に属する目標をレビューできます。目標は、任意のステータスで、任意の期間から表示できます。
+目標リストを使用して、自分、チーム、グループ、または組織に属する目標をレビューできます。 目標は、任意のステータスで、任意の期間から表示できます。
 
 目標リストの操作と目標の管理について詳しくは、[Adobe Workfront Goals の目標リストで目標を管理](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)を参照してください。
 
-![目標リスト &#x200B;](assets/goal-list-unshimmed.png)
+![目標リスト ](assets/goal-list-unshimmed.png)
 
 目標リストを使用して、次の操作を実行します。
 
@@ -91,11 +91,11 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 
 ## グラフ
 
-「グラフ」セクションを使用して、自分や組織に属する目標のヘルスを総合的に把握できます。このセクションでは、任意の期間の任意のステータスで目標の進捗情報を表示できます。
+「グラフ」セクションを使用して、自分や組織に属する目標のヘルスを総合的に把握できます。 このセクションでは、任意の期間の任意のステータスで目標の進捗情報を表示できます。
 
 グラフのセクションの使用について詳しくは、[グラフをレビューして Adobe Workfront Goals の目標の進捗傾向を把握](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)を参照してください。
 
-![&#x200B; グラフセクション &#x200B;](assets/graphs-section-unshimmed.png)
+![ グラフセクション ](assets/graphs-section-unshimmed.png)
 
 「グラフ」セクションを使用して、次の操作を実行できます。
 
@@ -105,7 +105,7 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 
 ## 目標の整合性
 
-目標が互いに一致している場合は、「目標の整合性」セクションを使用して、組織内のすべての目標と、その目標との整合性を表示およびレビューできます。ここでは、整合性のとれた目標が接続されたカードに表示され、互いの整合性が示されます。親目標が最初に表示され、子目標がその後に積み重ねられます。このセクションでは、任意のステータスおよび任意の期間の目標を表示できます。
+目標が互いに一致している場合は、「目標の整合性」セクションを使用して、組織内のすべての目標と、その目標との整合性を表示およびレビューできます。 ここでは、整合性のとれた目標が接続されたカードに表示され、互いの整合性が示されます。 親目標が最初に表示され、子目標がその後に積み重ねられます。 このセクションでは、任意のステータスおよび任意の期間の目標を表示できます。
 
 目標を管理するための「目標の整合性」セクションの操作について詳しくは、[Adobe Workfront Goals で「目標の整合性」セクションを操作](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)を参照してください。
 
@@ -114,7 +114,7 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 * [目標を Adobe Workfront 目標に結び付けて整合させる](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [結果とアクティビティを目標に変換して目標を連携](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![目標の調整セクション &#x200B;](assets/goal-alignment-section-unshimmed.png)
+![目標の調整セクション ](assets/goal-alignment-section-unshimmed.png)
 
 「目標の整合性」セクションを使用して、次の操作を実行します。
 

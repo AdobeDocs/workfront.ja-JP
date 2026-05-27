@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 85%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 
@@ -134,7 +134,7 @@ Old:
 
 開始するには、まず以下が必要です。
 
-* 親目標に、1 つ以上の子目標が関連付けられている。子の目標は、目標の進捗状況インジケーターです。
+* 親目標に、1 つ以上の子目標が関連付けられている。 子の目標は、目標の進捗状況インジケーターです。
 
 ## 目標の整合性の削除に関する考慮事項
 
@@ -172,12 +172,12 @@ Removing goal alignment differs depending on which environment you use.
 
    ![目標の調整を再移動](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. **タイプ：目標** グループで、目標を選択し、リストの上部にある&#x200B;**切断** アイコン ![切断アイコン &#x200B;](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)をクリックします。
+1. **タイプ：目標** グループで、目標を選択し、リストの上部にある&#x200B;**切断** アイコン ![切断アイコン ](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png)をクリックします。
 
    連携解除ボックスが表示されます。
 
 1. 「**連携解除**」をクリックし、選択した目標を親から切断します。
 
-   目標はスタンドアロンの目標になり、元の目標の進捗状況インジケーターとして表示されなくなります。接続解除された目標の進行状況は、元の目標の進行状況に影響を与えなくなりました。
+   目標はスタンドアロンの目標になり、元の目標の進捗状況インジケーターとして表示されなくなります。 接続解除された目標の進行状況は、元の目標の進行状況に影響を与えなくなりました。
 
    成功メッセージがページの右上隅に表示され、目標が連携解除されたことを確認できます。
