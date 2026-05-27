@@ -235,7 +235,7 @@ ht-degree: 57%
 * Workflow Prime以降
 * Workfront Prime以降
 
-パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ &#x200B;](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
+パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ &#x200B;](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
 
 高度なエンタープライズ制御：
 
