@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: タスクの完了率の表示と更新
-description: タスクの完了率を更新して、タスクを完了するために行った進捗状況を示すことができます。 問題の完了率を更新することは、タスクの完了率を更新することと似ています。 この記事では、タスクの完了率を更新する方法について説明します。
+description: タスクの完了率を更新して、完了に向けたタスクの進捗状況を示すことができます。 問題の完了率を更新することは、タスクの完了率を更新することと似ています。 この記事では、タスクの完了率を更新する方法について説明します。
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
@@ -11,7 +11,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -104,7 +104,7 @@ Old:
 
 * **タスクヘッダー**: タスクヘッダーのタスクの完了率を更新できます。
 
-  ![&#x200B; ヘッダーの割合を更新](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![ ヘッダーの割合を更新](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 * **タスクの概要パネル内**：次のエリアでタスクを表示する際に、概要パネルの上部でタスクの完了率を更新できます。
 
@@ -112,13 +112,13 @@ Old:
    * タイムシート
    * ワークロードバランサー
 
-  ![&#x200B; タスクの概要の更新率が強調表示されました](assets/update-percent-complete-in-task-summary-highlighted.png)
+  ![ タスクの概要の更新率が強調表示されました](assets/update-percent-complete-in-task-summary-highlighted.png)
 
   詳しくは、[概要について](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください
 
 * **ホーム**: タスクまたはイシューの完了率は、ホーム領域の概要パネルまたはマイワークウィジェットから更新できます。
 
-  詳しくは、[&#x200B; ホームの使用を開始する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)を参照してください。
+  詳しくは、[ ホームの使用を開始する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)を参照してください。
 
 ## タスクの完了率を更新する際の考慮事項
 
@@ -134,7 +134,7 @@ Old:
 
 1. タスクの完了率を更新する領域のいずれかに移動します。
 
-   詳しくは、この記事の「[&#x200B; タスクの完了率を更新できる領域](#areas-where-you-can-update-the-percent-complete-of-a-task)」の節を参照してください。
+   詳しくは、この記事の「[ タスクの完了率を更新できる領域](#areas-where-you-can-update-the-percent-complete-of-a-task)」の節を参照してください。
 
 1. 完了率を更新するタスクの「**完了率**」フィールドを見つけます。
 
