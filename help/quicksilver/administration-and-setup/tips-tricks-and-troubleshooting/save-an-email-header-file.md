@@ -4,21 +4,21 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: メールヘッダーファイルの保存
-description: ' [!DNL Adobe Workfront]  サポートはメールヘッダーファイルをリクエストする場合があります。メールアプリケーションはそれぞれ、このファイルを取得する独自の方法を持っています。いくつかのメールアプリケーションで、ヘッダーを見つけて保存するための手順を以下に示します。 [!DNL Outlook]'
+description: ' [!DNL Adobe Workfront]  サポートはメールヘッダーファイルをリクエストする場合があります。 メールアプリケーションはそれぞれ、このファイルを取得する独自の方法を持っています。 いくつかのメールアプリケーションで、ヘッダーを見つけて保存するための手順を以下に示します。 [!DNL Outlook]'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee048fc8-63cc-4905-b5e2-f5870bcc6cb2
 source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '197'
 ht-degree: 97%
 
 ---
 
 # メールヘッダーファイルを保存
 
-[!DNL Adobe Workfront] サポートはメールヘッダーファイルをリクエストする場合があります。メールアプリケーションはそれぞれ、このファイルを取得する独自の方法を持っています。いくつかのメールアプリケーションで、ヘッダーを見つけて保存するための手順を以下に示します。
+[!DNL Adobe Workfront] サポートはメールヘッダーファイルをリクエストする場合があります。 メールアプリケーションはそれぞれ、このファイルを取得する独自の方法を持っています。 いくつかのメールアプリケーションで、ヘッダーを見つけて保存するための手順を以下に示します。
 
 ## Outlook
 
