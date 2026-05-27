@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: notifications
 title: 通知：承認情報
-description: 以下の通知は、自分が関係する作業アイテムで承認アクティビティが発生したことを知らせるものです。受信する通知の設定について詳しくは、自身のメール通知の変更を参照してください。
+description: 以下の通知は、自分が関係する作業アイテムで承認アクティビティが発生したことを知らせるものです。 受信する通知の設定について詳しくは、自身のメール通知の変更を参照してください。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
@@ -10,14 +10,14 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '675'
 ht-degree: 97%
 
 ---
 
 # 通知：承認情報
 
-以下の通知は、自分が関係する作業アイテムで承認アクティビティが発生したことを知らせるものです。受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
+以下の通知は、自分が関係する作業アイテムで承認アクティビティが発生したことを知らせるものです。 受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 >[!NOTE]
 >

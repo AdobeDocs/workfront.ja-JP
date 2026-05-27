@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '928'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->毎日の通知を有効または無効にすることはできません。また、このカテゴリのイベントに関する日々のダイジェストメールを受信することもできません。[!UICONTROL その他]カテゴリのインスタント通知を個別に有効または無効にできます。
+>毎日の通知を有効または無効にすることはできません。また、このカテゴリのイベントに関する日々のダイジェストメールを受信することもできません。 [!UICONTROL その他]カテゴリのインスタント通知を個別に有効または無効にできます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ ht-degree: 100%
   <tr> 
    <td> <p><strong>[!UICONTROL Announcement Center] にメッセージが送信されました</strong> </p> <p>新しいメッセージが [!UICONTROL Announcement Center] に送信されると、メール通知が届きます。 </p> <p>即時通知メールの件名は次のとおりです：<em>[!UICONTROL [!DNL Adobe Workfront] Announcement]：&lt;お知らせの件名&gt;</em></p> </td> 
    <td> お知らせの件名<br>お知らせに含まれるメッセージのテキスト<br>添付されたドキュメント<br>お知らせを送信したユーザーの名前<br>お知らせが送信された日時 </td> 
-   <td><strong>即時</strong> </td> 
+   <td><strong>今すぐ</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>タスク割り当てへの変更により、自分のユーザー 1 人に影響があります</strong> </p> <p>管理者として指定されたユーザーのダイレクトレポートの 1 つが新しいタスクに割り当てられると、管理者は、その割り当てに関するメールを受け取ります。 </p> <p>プロジェクトのステータスが [!UICONTROL Current] の場合にのみ通知が送信されます。</p> <p>即時通知メールの件名は次のとおりです：<em>[!UICONTROL Task Resource Assignment]：&lt;タスク名&gt;</em></p> </td> 
@@ -54,7 +54,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <p><strong>自分が確認すべきエラーが見つかりました</strong> </p> <p>メールでコメントに返信するユーザーは、返信が配信されなかった場合にメール通知を受け取ります。</p> <p>即時通知メールの件名は次のとおりです：<em>[!UICONTROL Failed to Process on] &lt;元のメッセージの件名&gt;</em></p> <p>メールを使用したコメントの返信について詳しくは、<a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">メール通知への返信</a>を参照してください。</p> </td>
-   <td></td> 
+   <td> </td> 
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ ht-degree: 100%
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分のユーザー 1 名がプロジェクトに追加されました</strong> </p> <p>マネージャーは、ユーザーの 1 人がプロジェクトに追加されると、メール通知を受け取ります。この通知は、プロジェクトのステータスに関係なく送信されます。</p> <p>[!UICONTROL Review] ライセンスを持つユーザーには通知が送信されません。</p> <p>メールの件名は次のとおりです。<em>プロジェクトの割り当て：&lt;ユーザー名&gt;[&lt;プロジェクト GUID&gt;_ &lt;ユーザー GUID&gt;]</em></p> </td> 
+   <td> <p><strong>自分のユーザー 1 名がプロジェクトに追加されました</strong> </p> <p>マネージャーは、ユーザーの 1 人がプロジェクトに追加されると、メール通知を受け取ります。 この通知は、プロジェクトのステータスに関係なく送信されます。 </p> <p>[!UICONTROL Review] ライセンスを持つユーザーには通知が送信されません。</p> <p>メールの件名は次のとおりです。<em>プロジェクトの割り当て：&lt;ユーザー名&gt;[&lt;プロジェクト GUID&gt;_ &lt;ユーザー GUID&gt;]</em></p> </td> 
    <td> <p>プロジェクト名<br>ポートフォリオ名<br>プロジェクト参照番号<br>プロジェクトに人物を追加したユーザーの名前<br>プロジェクトに追加されたユーザーの名前<br>プロジェクト [!UICONTROL Planned Start Date]<br>プロジェクト [!UICONTROL Planned Completion Date]<br>プロジェクトの完了率<br>プロジェクト上の他のユーザーの名前<br>プロジェクトのステータス<br>プロジェクト所有者<br><strong>[!UICONTROL See More Details]</strong> ボタン<br><br><br></p> </td> 
    <td><strong>即時</strong> </td> 
   </tr> 
@@ -84,7 +84,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <p><strong>登録しているタスク、イシュー、またはプロジェクトが更新されました</strong> </p> <p>登録している項目に対して誰かがコメントをすると、メール通知が届きます。</p> <p>サブスクリプションメールの件名は次のとおりです。<em>[!UICONTROL An update was made to the] &lt;Object Type&gt; 登録しているユーザー：&lt;Object Name&gt;</em></p> </td> 
-   <td> オブジェクト名<br> オブジェクト参照番号<br> 登録項目に対してコメントを行ったユーザーの名前<br> コメントが行われた日付<br> 登録項目に追加されたコメント </td> 
+   <td> オブジェクト名<br> オブジェクト参照番号<br> 登録項目に対してコメントを行ったユーザーの名前<br> コメントが行われた日付<br> 登録項目に追加されたコメント  </td> 
    <td><strong>即時</strong> </td> 
   </tr> 
  </tbody> 

@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '766'
 ht-degree: 100%
 
 ---
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 ## 新規最上位フォルダーを作成 {#creating-a-new-top-level-folder}
 
 1. サイドバーで、緑色の「**[!UICONTROL 新規プルーフ]**」ボタン横にあるドロップダウン矢印（1）をクリックします。
-1. **[!UICONTROL 新規フォルダー]**&#x200B;を選択します。（2）\
+1. **[!UICONTROL 新規フォルダー]**&#x200B;を選択します。 （2）\
    [!UICONTROL 新規フォルダー]ページが表示されます。
 
 1. 「[新規フォルダーを設定](#configuring-the-new-folder)」を続行します。\
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. ページ上部の新規サブフォルダーボタン（2）をクリックします。\
    フォルダー内の項目のリストに新規フォルダーが表示されます。
-1. 新しいサブフォルダーの名前を入力します。（3）
+1. 新しいサブフォルダーの名前を入力します。 （3）
 1. **[!UICONTROL Enter]** を押します。\
    または\
    フォルダー名フィールドの外側をクリックします。
@@ -96,7 +96,7 @@ ht-degree: 100%
 * フォルダー名 - このフィールドは必須です（1）
 * [!UICONTROL リストを表示]リンク（2）をクリックすると、このフォルダーを共有しているユーザーのリストがポップアップ表示されます。サブフォルダーを作成すると、親フォルダーと同じユーザーとサブフォルダーが自動的に共有されるので、この情報は特に便利です
 * 説明 (3) - ここにフォルダーの簡単な説明を追加できます。これは、フォルダーの詳細ページに表示されます。
-* フォルダーを非公開にする（4）- このボックスをチェックすると、このフォルダーが非公開になります（フォルダーを明示的に共有しているユーザーと、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイル、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイル、または [ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルのプロファイルを持つアカウント内のユーザーにのみ表示されます）。Workfront Proof のプライベートフォルダーとパブリックフォルダーの詳細については、「[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) でのフォルダーのアクセス許可」を参照してください。
+* フォルダーを非公開にする（4）- このボックスをチェックすると、このフォルダーが非公開になります（フォルダーを明示的に共有しているユーザーと、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイル、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイル、または [ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルのプロファイルを持つアカウント内のユーザーにのみ表示されます）。 Workfront Proof のプライベートフォルダーとパブリックフォルダーの詳細については、「[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) でのフォルダーのアクセス許可」を参照してください。
 
 ![New_folder_page_-_folder_details.png](assets/new-folder-page---folder-details-350x133.png)
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 * フォルダーの新しい所有者を割り当てる（1）- フォルダーの作成者はフォルダーにリストされたままになり、削除することはできません。ただし、アカウント内の別のユーザーを所有者にすると、そのユーザーにフォルダーの編集権限が付与されます。
 * 電子メールアドレスを入力して、他の [!DNL Workfront Proof] ユーザーとフォルダーを共有（2） - フォルダーは、独自の [!DNL Workfront Proof] ログインを有するユーザーとのみ共有できることに注意してください。
-* フォルダーを共有する相手の権限を設定します（3）。これは、アカウントのユーザーとプライベートフォルダーを共有する場合に便利です - プロファイルに「[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) でのプルーフ権限プロファイル」を有するユーザーに、フォルダ内のアイテムの作成、編集、削除を許可するかどうかを決定できます。
+* フォルダーを共有する相手の権限を設定します（3）。 これは、アカウントのユーザーとプライベートフォルダーを共有する場合に便利です - プロファイルに「[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) でのプルーフ権限プロファイル」を有するユーザーに、フォルダ内のアイテムの作成、編集、削除を許可するかどうかを決定できます。
 * ユーザー名の右側にあるゴミ箱アイコン（4）をクリックして、フォルダー共有リストからユーザーを削除します。
 * 一番上のゴミ箱アイコン（5）をクリックして、フォルダー共有リストから全員を削除します - フォルダーの作成者や所有者を削除することはできません。
 

@@ -110,7 +110,7 @@ The following headers are available in Home:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Approvals]エリア</td> 
-   <td> <p>承認者の 1 人である場合は、次のアイコンを使用して、プロジェクトの承認を管理します。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>承認者でない場合は、[!UICONTROL More]アイコン <img src="assets/more-icon-for-approvals-area.png"> をクリックして、現在の承認ステップに関する情報を表示します。</p> <p>承認について詳しくは、<a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>を参照してください。</p> </td> 
+   <td> <p>承認者の 1 人である場合は、次のアイコンを使用して、プロジェクトの承認を管理します。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL Recall]</p> <p>承認者でない場合は、[!UICONTROL More] アイコン <img src="assets/more-icon-for-approvals-area.png"> をクリックして、現在の承認ステップに関する情報を表示します。</p> <p>承認について詳しくは、<a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -795,7 +795,7 @@ The following headers are available in Home:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-プランは、[!DNL Workfront Scenario Planner] のオブジェクトです。 [!DNL Scenario Planner] について詳しくは、[&#x200B; [!DNL Scenario Planner]  の概要](../../scenario-planner/scenario-planner-overview.md)を参照してください。
+プランは、[!DNL Workfront Scenario Planner] のオブジェクトです。 [!DNL Scenario Planner] について詳しくは、[ [!DNL Scenario Planner]  の概要](../../scenario-planner/scenario-planner-overview.md)を参照してください。
 
 プランヘッダーには、次の情報が表示されます。
 
@@ -866,7 +866,7 @@ The following headers are available in Home:
 
 ![](assets/goal-header.png)
 
-会社が Workfront Goals にアクセスできる場合は、戦略的目標を作成できます。 [!DNL Workfront Goals] について詳しくは、[&#x200B; [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md) の基本を学ぶを参照してください。
+会社が Workfront Goals にアクセスできる場合は、戦略的目標を作成できます。 [!DNL Workfront Goals] について詳しくは、[ [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md) の基本を学ぶを参照してください。
 
 目標ヘッダーには、次の情報が表示されます。
 

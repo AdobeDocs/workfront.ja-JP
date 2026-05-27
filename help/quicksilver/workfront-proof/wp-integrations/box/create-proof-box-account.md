@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 6fdabea6-c380-4b64-9b26-93b3f773f996
 source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '617'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 自分のボックスアカウントを使用すると、プルーフや新しいプルーフバージョンを簡単に作成できます。
 
@@ -35,18 +35,18 @@ ht-degree: 100%
 
    ボックス内のファイルには、[!DNL Workfront Proof] にあるプルーフへの個人的なリンクと合わせて、コメントが追加されます。
 
-   * 独自のブランドの [!DNL Workfront Proof] ログインページがある場合は、標準の [!DNL Workfront Proof] ログインページの代わりにそのページが表示されます。詳しくは、[ブランディング](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)を参照してください。
-   * [!DNL Workfront Proof] アカウントでシングルサインオン機能が有効である場合、SSO ログインページが表示され、シングルサインオンのログイン資格情報を入力するように求められます。ただしこれは、ボックスアカウントと [!DNL Workfront Proof] に同じメールアドレスを使用している場合に限られます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) のシングルサインオンを参照してください。
+   * 独自のブランドの [!DNL Workfront Proof] ログインページがある場合は、標準の [!DNL Workfront Proof] ログインページの代わりにそのページが表示されます。 詳しくは、[ブランディング](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)を参照してください。
+   * [!DNL Workfront Proof] アカウントでシングルサインオン機能が有効である場合、SSO ログインページが表示され、シングルサインオンのログイン資格情報を入力するように求められます。ただしこれは、ボックスアカウントと [!DNL Workfront Proof] に同じメールアドレスを使用している場合に限られます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) のシングルサインオンを参照してください。
    * [!DNL Box] アカウントと [!DNL Workfront Proof] アカウントの両方に同じメールアドレスを使用していない場合は、常に標準の [!DNL Workfront Proof] ログインページが表示されます。
 
 ## [!DNL Box] のファイルを使用した、プルーフの新しいバージョンの作成
 
-自分のボックスアカウントの新しいバージョンのファイルを使用して、新しいバージョンのプルーフを簡単に作成できます。詳細情報を参照してください。
+自分のボックスアカウントの新しいバージョンのファイルを使用して、新しいバージョンのプルーフを簡単に作成できます。 詳細情報を参照してください。
 
 1. 上記の手順に従います。
 1. [!DNL New proof] ページ上で、[!UICONTROL 新しいバージョン]のリンク（1）をクリックして [!DNL New version] ページに移動し、そこで既存のプルーフの新しいバージョンの作成プロセスを完了できます。\
    以前のバージョンのファイルを使用して、既に [!DNL Box] 経由でプルーフを作成している場合は、ページ上部の通知にこれが反映されます。
-1. **[!UICONTROL 既存のプルーフ]**&#x200B;ポップアップで、新しいプルーフの親バージョンを選択します。以前のバージョンのプルーフも [!DNL Box] から送信されている場合、このプルーフは、リストの最上部の「[!UICONTROL 一致したプルーフ]」セクションに表示されます。「[!UICONTROL その他のプルーフ]」セクションから親バージョンを選択することもできます。
+1. **[!UICONTROL 既存のプルーフ]**&#x200B;ポップアップで、新しいプルーフの親バージョンを選択します。 以前のバージョンのプルーフも [!DNL Box] から送信されている場合、このプルーフは、リストの最上部の「[!UICONTROL 一致したプルーフ]」セクションに表示されます。 「[!UICONTROL その他のプルーフ]」セクションから親バージョンを選択することもできます。
 1. 選択するプルーフがリストに表示されない場合は、以下の操作を実行します。
 
    * 列ヘッダーをクリックして列を並べ替えます。
@@ -56,7 +56,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL 保存]**」をクリックして、[!UICONTROL 新しいバージョン]ページに移ると、以下のいずれかを実行できるようになります。
 
    * 「**[!UICONTROL プルーフを変更]**」をクリックして、親バージョンを変更します。
-   * ごみ箱アイコンをクリックして、新しいバージョンの作成をキャンセルします。ファイルを新しいプルーフとして送信します。
+   * ごみ箱アイコンをクリックして、新しいバージョンの作成をキャンセルします。 ファイルを新しいプルーフとして送信します。
 
 1. 通常通り（[!DNL Workfront Proof] 内からファイルを直接アップロードしたかのように）**[!UICONTROL 新しいバージョン]**&#x200B;ページに入力し、「**[!UICONTROL 保存]**」をクリックして[!UICONTROL プルーフの詳細]ページに移動します。\
    ここで「**[!UICONTROL プルーフに進む]**」をクリックすると、新しいバージョンにアクセスできます。
