@@ -10,7 +10,7 @@ exl-id: 80daeadb-5780-4f83-b757-54146a4dcd6e
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 88%
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
    <p>標準</p>
-   <p>作業またはプラン</p>
+   <p>作業または計画</p>
     </td> 
   </tr> 
   <tr> 

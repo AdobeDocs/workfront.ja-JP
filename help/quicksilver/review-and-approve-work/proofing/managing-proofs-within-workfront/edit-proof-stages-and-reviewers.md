@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 92%
+source-wordcount: '566'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 92%
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
    <p>標準</p>
-   <p>作業またはプラン</p>
+   <p>作業または計画</p>
    </td> 
   </tr> 
   <tr> 
@@ -71,11 +71,11 @@ ht-degree: 92%
     <tbody> 
      <tr> 
       <td role="rowheader">期日を編集</td> 
-      <td> <p>日付を選択し、表示されるカレンダーで新しい日付を選択します。期日を完全に削除するには、表示されるカレンダーの下の<strong>クリア</strong>を選択します。</p> </td> 
+      <td> <p>日付を選択し、表示されるカレンダーで新しい日付を選択します。 期日を完全に削除するには、表示されるカレンダーの下の<strong>クリア</strong>を選択します。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">個々のレビュアーを削除</td> 
-      <td> <p>レビュアーの名前の右側にある<strong>その他</strong>メニューを選択し、ドロップダウンメニューで<strong>削除</strong>をクリックします。表示されるボックスで<strong>確認</strong>をクリックし、プルーフからレビュアーを削除します。</p> </td> 
+      <td> <p>レビュアーの名前の右側にある<strong>その他</strong>メニューを選択し、ドロップダウンメニューで<strong>削除</strong>をクリックします。 表示されるボックスで<strong>確認</strong>をクリックし、プルーフからレビュアーを削除します。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">複数のレビュアーを削除</td> 
@@ -83,11 +83,11 @@ ht-degree: 92%
      </tr> 
      <tr> 
       <td role="rowheader">すべてのレビュアーにメッセージを送信</td> 
-      <td>「ステージ」セクションの右上隅にある<strong>その他</strong>メニュー、「<strong>全員にメッセージを送信</strong>」の順に選択します。メッセージを設定し、「<strong>送信</strong>」を選択します。</td> 
+      <td>「ステージ」セクションの右上隅にある<strong>その他</strong>メニュー、「<strong>全員にメッセージを送信</strong>」の順に選択します。 メッセージを設定し、「<strong>送信</strong>」を選択します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">ステージにレビュアーを追加</td> 
-      <td>「ステージ」セクションの右上隅にある<strong>その他</strong>メニューで、「<strong>共有</strong>」を選択します。ユーザーを追加し、そのユーザーの役割とメールアラートを設定し、必要に応じて繰り返します。終了したら、「<strong>共有</strong>」をクリックします。</td> 
+      <td>「ステージ」セクションの右上隅にある<strong>その他</strong>メニューで、「<strong>共有</strong>」を選択します。 ユーザーを追加し、そのユーザーの役割とメールアラートを設定し、必要に応じて繰り返します。 終了したら、「<strong>共有</strong>」をクリックします。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">ステージの削除</td> 
@@ -99,7 +99,7 @@ ht-degree: 92%
 ## レビュアーの詳細を編集
 
 1. Workfront で、プルーフにポインタを合わせて、**プルーフの詳細**&#x200B;をクリックし、プルーフの詳細ページを開きます。
-1. 「**ワークフロー**」セクションで、レビュー担当者の名前の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-button-small.png) をクリックし、表示されるドロップダウンメニューで **編集** をクリックします。
+1. **ワークフロー** セクションで、レビュー担当者の名前の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-button-small.png)をクリックし、表示されるドロップダウンメニューの&#x200B;**編集**&#x200B;をクリックします。
 
 1. 表示される&#x200B;**レビュアーを編集**&#x200B;ボックスで、次の詳細を編集します。
 
@@ -113,19 +113,19 @@ ht-degree: 92%
      </tr> 
      <tr> 
       <td role="rowheader">役割</td> 
-      <td>プルーフに対するレビュアーの役割を変更するには、ドロップダウンメニューを開き、目的の役割を選択します。詳細情報を参照してください。</td> 
+      <td>プルーフに対するレビュアーの役割を変更するには、ドロップダウンメニューを開き、目的の役割を選択します。 詳細情報を参照してください。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">メールアラート</td> 
-      <td>プルーフに対するレビュアーのメールアラートを変更するには、ドロップダウンメニューを開き、目的のメールアラートを選択します。詳しくは、記事内の<a href="../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md" class="MCXref xref">プルーフのコメントおよび決定の通知の概要</a>を参照してください。</td> 
+      <td>プルーフに対するレビュアーのメールアラートを変更するには、ドロップダウンメニューを開き、目的のメールアラートを選択します。 詳しくは、記事内の<a href="../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md" class="MCXref xref">プルーフのコメントおよび決定の通知の概要</a>を参照してください。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">決定*</td> 
-      <td> <p>プルーフに対するレビュアーの決定を変更するには、ドロップダウンメニューを開き、目的の決定を選択します。別のユーザーに代わって行った決定は、プルーフの「アクティビティ」セクションに記載されます。このオプションは、レビューが決定した場合にのみ表示されます。</p> </td> 
+      <td> <p>プルーフに対するレビュアーの決定を変更するには、ドロップダウンメニューを開き、目的の決定を選択します。 別のユーザーに代わって行った決定は、プルーフの「アクティビティ」セクションに記載されます。 このオプションは、レビューが決定した場合にのみ表示されます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ステージ</td> 
-      <td>レビュアーをステージ間で移動することはできません。ただし、期限が異なるレビュアーを削除して、再度追加することはできます。</td> 
+      <td>レビュアーをステージ間で移動することはできません。 ただし、期限が異なるレビュアーを削除して、再度追加することはできます。</td> 
      </tr> 
     </tbody> 
    </table>
