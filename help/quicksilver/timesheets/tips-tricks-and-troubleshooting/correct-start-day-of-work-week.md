@@ -29,7 +29,7 @@ ht-degree: 5%
 
 ## ソリューション
 
-Workfront管理者は、[ タイムシート プロファイルの作成、編集、割り当て](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)の説明に従って、タイムシート プロファイルを作成し、全員をプロファイルに割り当てる必要があります。 Workfrontの管理者は、タイムシートの開始日を、予定される週次の開始日以外の日に定義することができます。 タイムシート プロファイルの開始日がタイムシートの開始日を確認します。
+Workfront管理者は、[&#x200B; タイムシート プロファイルの作成、編集、割り当て](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)の説明に従って、タイムシート プロファイルを作成し、全員をプロファイルに割り当てる必要があります。 Workfrontの管理者は、タイムシートの開始日を、予定される週次の開始日以外の日に定義することができます。 タイムシート プロファイルの開始日がタイムシートの開始日を確認します。
 
 タイムシートが手動で作成された場合、タイムシートの週の開始日には、ユーザーのプロファイルで電子メールロケール設定が使用されます。詳しくは、[個人設定の設定](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
 
