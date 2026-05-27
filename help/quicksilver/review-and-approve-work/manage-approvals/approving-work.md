@@ -66,7 +66,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 ## ホーム領域から作業項目を承認
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）「**カスタマイズ**」をクリックして、**自分の承認** ウィジェットを追加します。
 1. （条件付き）「**フィルター**」ドロップダウンメニューをクリックし、**すべて**&#x200B;を選択して、自分に割り当てられた承認と委任された承認を表示します。
 
@@ -77,7 +77,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 1. 承認する項目を選択します。
 
-   ![自分の承認ウィジェット ](assets/my-approvals-widget.png)
+   ![自分の承認ウィジェット &#x200B;](assets/my-approvals-widget.png)
 
 1. 右側のパネルで承認を決定する際に、使用可能なオプションの 1 つをクリックします。 承認する項目のタイプに応じて、ページの右上隅に次のオプションが表示されます。
 
@@ -146,7 +146,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
    プロジェクト、タスク、イシューの現在の承認プロセスに関する承認情報が、項目のヘッダーに表示されます。
 
-   ![ プロジェクトヘッダーの現在の承認プロセス ](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![&#x200B; プロジェクトヘッダーの現在の承認プロセス &#x200B;](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    次の承認情報が表示されます。
 
@@ -185,7 +185,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 1. ドキュメントをレビューするには、次のいずれかの操作を行います。
 
    * ドキュメントに関するメタデータを表示します。
-   * マークアップとコメントを含むドキュメントを確認するためのプルーフが作成されている場合は、右上隅付近にある「**プルーフを開く** ![ プルーフを開く](assets/open-proof-icon-qs.png)」をクリックして、プルーフを確認します。
+   * マークアップとコメントを含むドキュメントを確認するためのプルーフが作成されている場合は、右上隅付近にある「**プルーフを開く** ![&#x200B; プルーフを開く](assets/open-proof-icon-qs.png)」をクリックして、プルーフを確認します。
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
