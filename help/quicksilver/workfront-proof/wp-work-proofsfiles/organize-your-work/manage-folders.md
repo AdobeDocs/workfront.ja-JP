@@ -108,7 +108,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->親フォルダーを削除すると、そのフォルダー内のすべてのサブフォルダー、プルーフおよびファイルは[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) のごみ箱のアイテムの復元と完全削除に移動します。
+>親フォルダーを削除すると、そのフォルダー内のすべてのサブフォルダー、プルーフおよびファイルは[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) のごみ箱のアイテムの復元と完全削除に移動します。
 
 ### [!UICONTROL アカウントフォルダー]ページからフォルダーを削除 {#deleting-a-folder-from-the-account-folders-page}
 

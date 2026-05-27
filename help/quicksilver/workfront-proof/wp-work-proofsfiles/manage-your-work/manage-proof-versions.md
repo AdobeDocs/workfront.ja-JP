@@ -28,7 +28,7 @@ ht-degree: 96%
 
 プルーフの新しいバージョンを作成するには、そのプルーフの編集権限が必要です。
 
-プルーフの編集権限を持つユーザーについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフロールの管理を参照してください。 バージョンの作成の詳細について確認してください。
+プルーフの編集権限を持つユーザーについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフロールの管理を参照してください。 バージョンの作成の詳細について確認してください。
 
 ## プルーフビューアーでのプルーフバージョンの表示
 
@@ -57,7 +57,7 @@ ht-degree: 96%
 
 親プルーフ（以前のバージョン）をアカウント内の別のプルーフに変更したい場合、または 1 つのプルーフをアカウント内の別のプルーフに（他のプルーフの新しいバージョンとして）接続したい場合は、次の手順に従って簡単に行うことができます。
 
-1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフ詳細の管理の説明に従って、プルーフ詳細ページを開きます。
+1. [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフ詳細の管理の説明に従って、プルーフ詳細ページを開きます。
 1. **[!UICONTROL その他]**／**[!UICONTROL 以前のバージョンを変更]**&#x200B;をクリックします。
 
 1. 表示される「**[!UICONTROL 以前のバージョンを変更]**」ボックスで、親プルーフ（以前のバージョン）として設定するプルーフを選択します。\
