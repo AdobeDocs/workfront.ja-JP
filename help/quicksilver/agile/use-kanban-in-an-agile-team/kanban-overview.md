@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '488'
 ht-degree: 82%
 
 ---
@@ -22,21 +22,21 @@ ht-degree: 82%
 
 以下の節を参照すると、[!UICONTROL かんばん]ボードがどのように機能するかをより詳しく理解できます。
 
-K[!UICONTROL anban]手法について詳しくは、[&#x200B; アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
+K[!UICONTROL anban]手法について詳しくは、[ アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
 
-アジャイルチーム [!UICONTROL &#x200B; カンバン &#x200B;] ボードから[!DNL Workfront] [!UICONTROL &#x200B; ボード &#x200B;]への移行を検討している場合は、[&#x200B; アジャイルチーム [!UICONTROL &#x200B; カンバン &#x200B;] カードを [!DNL Workfront]  ボード &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)に移行するを参照してください。
+アジャイルチーム [!UICONTROL  カンバン ] ボードから[!DNL Workfront] [!UICONTROL  ボード ]への移行を検討している場合は、[ アジャイルチーム [!UICONTROL  カンバン ] カードを [!DNL Workfront]  ボード ](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)に移行するを参照してください。
 
 ## [!UICONTROL かんばん]ボードのレイアウトと機能
 
 [!UICONTROL かんばん]ボードは、次の要素で構成されます。
 
-**バックログ列**：現在バックログに残っているすべてのタスクを表示します。この列は、デフォルトでは表示されません。バックログについて詳しくは、[!UICONTROL &#x200B; カンバン &#x200B;] ボードに表示する方法を含め、[&#x200B; アジャイルバックログの管理](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
+**バックログ列**：現在バックログに残っているすべてのタスクを表示します。 この列は、デフォルトでは表示されません。 バックログについて詳しくは、[!UICONTROL  カンバン ] ボードに表示する方法を含め、[ アジャイルバックログの管理](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
 
 **ストーリーのステータス**：ストーリーがどのステータス列にあるかに基づいて、ストーリーの進行状況を示します。
 
 詳しくは、[[!UICONTROL カンバン]ボードのストーリーのステータスの更新](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)を参照してください。
 
-[[!UICONTROL の「]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) アジャイルビューの作成またはカスタマイズ [」の節で説明しているように、アジャイルビューを変更することで、プロジェクトに合わせてストーリーステータスをカスタマイズできます。 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)でビューを作成または編集します。
+[の「[[!UICONTROL  アジャイルビューの作成またはカスタマイズ ]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)」の節で説明しているように、アジャイルビューを変更することで、プロジェクトに合わせてストーリーステータスをカスタマイズできます。 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)でビューを作成または編集します。
 
 >[!NOTE]
 >
@@ -44,11 +44,11 @@ K[!UICONTROL anban]手法について詳しくは、[&#x200B; アジャイルチ
 
 ## サブタスクとストーリー間の関係
 
-ストーリーにサブタスクが含まれている場合、親ストーリー自体の情報（ポイントや時間、完了率など）を更新することはできません。さらに、[!UICONTROL かんばん]ボード上でストーリーを移動してステータスを更新することはできません。ストーリーのサブタスクに加えた変更がストーリーに反映されます。すべてのサブタスクのストーリーポイントまたは時間を合計したものが、親ストーリーのポイントまたは時間になります。
+ストーリーにサブタスクが含まれている場合、親ストーリー自体の情報（ポイントや時間、完了率など）を更新することはできません。 さらに、[!UICONTROL かんばん]ボード上でストーリーを移動してステータスを更新することはできません。 ストーリーのサブタスクに加えた変更がストーリーに反映されます。 すべてのサブタスクのストーリーポイントまたは時間を合計したものが、親ストーリーのポイントまたは時間になります。
 
-例えば、ストーリーに 4 ポイントのサブタスクが 1 つだけある場合、ストーリー自体も 4 ポイントとなります。サブタスクポイントの値を 3 に変更すると、親ストーリーのポイントの値が 3 に変わります。同じストーリーに別のサブタスクを作成し、そのサブタスクのポイント値を 4 に設定した場合、両方のサブタスクの合計ポイント値を反映して、ストーリーのポイント値は 7 に変わります。
+例えば、ストーリーに 4 ポイントのサブタスクが 1 つだけある場合、ストーリー自体も 4 ポイントとなります。 サブタスクポイントの値を 3 に変更すると、親ストーリーのポイントの値が 3 に変わります。 同じストーリーに別のサブタスクを作成し、そのサブタスクのポイント値を 4 に設定した場合、両方のサブタスクの合計ポイント値を反映して、ストーリーのポイント値は 7 に変わります。
 
-この同じロジックは、第 2 レベルのサブタスク（サブタスクのサブタスク）にも適用されます。サブタスクに第 2 レベルのサブタスクが 1 つ以上ある場合、サブタスクは第 2 レベルのサブタスクに基づいて計算されます。
+この同じロジックは、第 2 レベルのサブタスク（サブタスクのサブタスク）にも適用されます。 サブタスクに第 2 レベルのサブタスクが 1 つ以上ある場合、サブタスクは第 2 レベルのサブタスクに基づいて計算されます。
 
 ## サポート機能
 

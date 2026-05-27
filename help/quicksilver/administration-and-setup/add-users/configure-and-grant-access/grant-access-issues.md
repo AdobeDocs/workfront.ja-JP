@@ -1,5 +1,5 @@
 ---
-title: イシューへのアクセスの許可
+title: イシューへのアクセス権を付与
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
@@ -10,8 +10,8 @@ role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
 source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 94%
+source-wordcount: '440'
+ht-degree: 98%
 
 ---
 
@@ -54,14 +54,14 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
 1. **ビュー**&#x200B;の歯車アイコン ![](assets/gear-icon-settings.png) またはイシューの右側の「**編集**」ボタンをクリックして、**設定を微調整**&#x200B;の下で付与する機能を選択します。
 
-   ![&#x200B; 問題設定の微調整 &#x200B;](assets/fine-tune-issues.png)
+   ![問題設定の微調整](assets/fine-tune-issues.png)
 
 1. （オプション）上位のオブジェクトからのタスクに継承された権限を制限するには、「**追加制限を設定**」をクリックし、「**プロジェクト、タスク、イシューなどからドキュメントへのアクセス権を継承しない**」を選択します。
 
 1. （オプション）作業中のアクセスレベルの他のオブジェクトやエリアのアクセス設定を指定するには、[Adobe Workfront に対するアクセス権の設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)にある記事のうちの 1 つ（[タスクへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)、[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)など）に従って、作業を続けます。
 1. 完了したら「**保存**」をクリックします。
 
-   作成したアクセスレベルは、ユーザーに割り当てることができます。詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+   作成したアクセスレベルは、ユーザーに割り当てることができます。 詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 ## ライセンスタイプ別のイシューへのアクセス
 
@@ -83,6 +83,6 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 * オブジェクトについて受信者に付与する権限
 * オブジェクトのタイプについての受信者のアクセスレベル設定
 
-また、アクセスレベルで許可されている場合は、ユーザーはオブジェクト階層を通じてイシューへのアクセス権を取得できます。ユーザーがすでにイシューの親プロジェクトまたはタスクに対する権限を持っている場合、そのイシューに対する権限も持ちます（上記の手順 3 を参照）。イシューを共有すると、そのイシューに対する権限を継承したユーザーのリストが表示されます。
+また、アクセスレベルで許可されている場合は、ユーザーはオブジェクト階層を通じてイシューへのアクセス権を取得できます。ユーザーがすでにイシューの親プロジェクトまたはタスクに対する権限を持っている場合、そのイシューに対する権限も持ちます（上記の手順 3 を参照）。 イシューを共有すると、そのイシューに対する権限を継承したユーザーのリストが表示されます。
 
 ![](assets/inherited-permissions.png)
