@@ -209,7 +209,7 @@ Or
    * 以前フィルターで削除された連結目標が、アラインメントチャートに表示されるようになりました。
    * 右上隅のフィルターは黄色で囲まれていますが、これは現在適用されていないことを示しています。
 
-     ![黄色のフィルターのハイライト ](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![黄色のフィルターのハイライト &#x200B;](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      フィルター名の左側に、フィルターを再適用リンクが表示されます。
 

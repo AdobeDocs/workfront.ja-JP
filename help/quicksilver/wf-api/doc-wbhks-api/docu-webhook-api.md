@@ -851,10 +851,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 （リリース日 - 未定）このエンドポイントを使用すると、Workfront ユーザー（または自動化ワークフローイベント）が外部システムでアクションを実行できるようになります。 /customAction エンドポイントは、「name」パラメーターを受け取ります。これにより、web フックプロバイダーは複数のカスタム操作を実装できます。
 
 Web フックプロバイダーでは、カスタムアクションを /serviceInfo 応答の customActions 下に含めることで、Workfront に登録します。 設定／ドキュメント／カスタム統合で web フックプロバイダーを設定または更新すると、Workfront がこのリストを読み込みます。\
-![ カスタムアクションを実行](assets/mceclip0-350x262.png)
+![&#x200B; カスタムアクションを実行](assets/mceclip0-350x262.png)
 
 ユーザーは、ドキュメントアクションの下のセクションを選択して、カスタムアクションをトリガーできます。\
-![ カスタムアクションのトリガー](assets/mceclip1-350x95.png)
+![&#x200B; カスタムアクションのトリガー](assets/mceclip1-350x95.png)
 
 **URL**
 
@@ -893,7 +893,7 @@ GET /customAction
 
 成功または失敗を示す JSON 文字列（この後の「エラー処理」の節を参照）。 失敗（status = &quot;failure&quot;）の場合、Workfront は、用意されているエラーメッセージをユーザーに表示します。
 
-**例：** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**例：** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30ddec2fb2b739cb7c&documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 応答
 
