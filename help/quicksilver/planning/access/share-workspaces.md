@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 27%
+source-wordcount: '1016'
+ht-degree: 29%
 
 ---
 
@@ -33,7 +33,7 @@ This article describes how you can share a view with others. For information abo
 
 >[!NOTE]
 >
->他のユーザーにワークスペースの権限を付与しても、レコードタイプページのビューに対する権限は付与されません。他のユーザーと共有するには、レコードタイプのページ内の個々のビューに権限を付与する必要があります。詳しくは、[ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
+>他のユーザーにワークスペースの権限を付与しても、レコードタイプページのビューに対する権限は付与されません。 他のユーザーと共有するには、レコードタイプのページ内の個々のビューに権限を付与する必要があります。 詳しくは、[ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
 
 
 ## アクセス要件
@@ -154,7 +154,7 @@ Old:
 
 {{step1-to-planning}}
 
-1. 共有するワークスペースを開き、画面の右上隅にある「**共有**」をクリックします。 共有ボックスが開きます。
+1. 共有するワークスペースを開き、画面の右上隅の「**共有**」をクリックします。 共有ボックスが開きます。
 
    ワークスペースの右上の![共有ボタン &#x200B;](assets/share-button-on-workspace-top-right.png)
 
@@ -193,7 +193,7 @@ Old:
 
      権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
 1. 「**リンクをコピー**」をクリックして、ワークスペースへのリンクをクリップボードにコピーします。
-1. コピーしたリンクを他のユーザーと共有します。リンクを受け取ったユーザーがそのワークスペースにアクセスするには、アクティブユーザーであり、かつ Workfront にログインする必要があります。
+1. コピーしたリンクを他のユーザーと共有します。 リンクを受け取ったユーザーがそのワークスペースにアクセスするには、アクティブユーザーであり、かつ Workfront にログインする必要があります。
 1. 「**保存**」をクリックします。
 
    ワークスペースを共有したユーザーは、ワークスペースに対する権限を持つことに関するアプリ内通知とメール通知の両方を受け取ります。

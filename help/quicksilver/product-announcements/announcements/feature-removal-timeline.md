@@ -3,7 +3,7 @@ content-type: faq
 keywords: 削除,廃止,サポート対象外,Flash,リソース,スケジュール設定
 navigation-topic: announcements
 title: 機能のスケジュールがサポートされなくなりました
-description: 様々な機能が Adobe Workfront 製品から段階的に廃止されつつあります。各機能の簡単な説明、追加情報へのリンクおよび注意すべき主要な日付を以下に示します。
+description: 様々な機能が Adobe Workfront 製品から段階的に廃止されつつあります。 各機能の簡単な説明、追加情報へのリンクおよび注意すべき主要な日付を以下に示します。
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
@@ -11,14 +11,14 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 99%
+source-wordcount: '282'
+ht-degree: 97%
 
 ---
 
 # 機能のスケジュールがサポートされなくなりました
 
-様々な機能が Adobe Workfront 製品から段階的に廃止されつつあります。各機能の簡単な説明、追加情報へのリンクおよび注意すべき主要な日付を以下に示します。
+様々な機能が Adobe Workfront 製品から段階的に廃止されつつあります。 各機能の簡単な説明、追加情報へのリンクおよび注意すべき主要な日付を以下に示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ ht-degree: 99%
    <td>2021年3月31日（PT）に Workfront プラットフォームから削除されました。</td> 
   </tr> 
   <tr> 
-   <td> <p>Flash</p> <p>Workfront では、Flash ベースの各ツールに代わって、様々なツールが利用できるようになりました。詳しくは、<a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Adobe Workfront での Flash ベースツールの代替機能</a>を参照してください。</p> </td> 
+   <td> <p>Flash</p> <p>Workfront では、Flash ベースの各ツールに代わって、様々なツールが利用できるようになりました。 詳しくは、<a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Adobe Workfront での Flash ベースツールの代替機能</a>を参照してください。</p> </td> 
    <td> </td> 
    <td> <p> </p> <p>2020年11月19日（PT）に Workfront プラットフォームから削除されました</p> </td> 
   </tr>

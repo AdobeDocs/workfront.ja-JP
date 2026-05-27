@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: ' [!DNL Workfront Proof]  ストレージを確認'
-description: アカウントプランには、定量のストレージが付属しています。以前の登録のプルーフとファイルが引き続きアカウントに保存されているので、プランのストレージは登録ごとに更新されません。
+description: アカウントプランには、定量のストレージが付属しています。 以前の登録のプルーフとファイルが引き続きアカウントに保存されているので、プランのストレージは登録ごとに更新されません。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e387b209-3a76-423f-982b-6c1046ee6198
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-アカウントプランには、定量のストレージが付属しています。以前の登録のプルーフとファイルが引き続きアカウントに保存されているので、プランのストレージは登録ごとに更新されません。
+アカウントプランには、定量のストレージが付属しています。 以前の登録のプルーフとファイルが引き続きアカウントに保存されているので、プランのストレージは登録ごとに更新されません。
 
 >[!NOTE]
 >
@@ -36,6 +36,6 @@ ht-degree: 100%
 
 ## ストレージの追加
 
-アカウントから古いプルーフとファイルを削除すると、一部のストレージを解放できます。[!UICONTROL ゴミ箱]フォルダー内の項目（およびアーカイブされたプルーフ）もストレージにカウントされることに注意してください。
+アカウントから古いプルーフとファイルを削除すると、一部のストレージを解放できます。 [!UICONTROL ゴミ箱]フォルダー内の項目（およびアーカイブされたプルーフ）もストレージにカウントされることに注意してください。
 
 アカウントをアップグレードしてストレージの上限を引き上げたい場合は、セールスチームにお問い合わせください。

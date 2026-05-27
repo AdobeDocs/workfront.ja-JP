@@ -11,8 +11,8 @@ role: Admin
 exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
 source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 97%
+source-wordcount: '435'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 ## ソリューション
 
-問題のトラブルシューティングに時間を費やす前に、ユーザーの POP アカウントが正しく設定されていることを確認してください。POP アカウントが正しく設定されていることを確認した後も問題が解決しない場合は、[!DNL Microsoft] サポートまたはそのパートナーにお問い合わせください。
+問題のトラブルシューティングに時間を費やす前に、ユーザーの POP アカウントが正しく設定されていることを確認してください。 POP アカウントが正しく設定されていることを確認した後も問題が解決しない場合は、[!DNL Microsoft] サポートまたはそのパートナーにお問い合わせください。
 
 ## アクセス要件
 
@@ -35,7 +35,7 @@ ht-degree: 97%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!DNL Adobe Workfront] package</td> 
+   <td>[!DNL Adobe Workfront] パッケージ</td> 
    <td><p>任意</p></td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->次の手順を、実稼動 [!DNL Workfront] システム向けに [!DNL Microsoft Exchange] での POP 設定に関する一般的なガイドとして使用できます。この手順は、Exchange のバージョンや Microsoft によるコード変更によって大きく異なる場合があります。
+>次の手順を、実稼動 [!DNL Workfront] システム向けに [!DNL Microsoft Exchange] での POP 設定に関する一般的なガイドとして使用できます。 この手順は、Exchange のバージョンや Microsoft によるコード変更によって大きく異なる場合があります。
 
 1. Exchange 2010 サーバーで POP3 サービスを起動し、有効にします。
 
@@ -86,7 +86,7 @@ ht-degree: 97%
 
    1. 「**[!UICONTROL POP3 プロパティ]**」をクリックし、「**[!UICONTROL 連結]**」タブを開きます。
 
-      POP3 サーバー用に設定された、すべての使用可能な IP アドレスとポート番号が表示されます。上部のボックスには暗号化されていないことが表示され、下部のボックスには SSL/TLS 接続用の IP とポートが表示されます。
+      POP3 サーバー用に設定された、すべての使用可能な IP アドレスとポート番号が表示されます。 上部のボックスには暗号化されていないことが表示され、下部のボックスには SSL/TLS 接続用の IP とポートが表示されます。
 
    1. 「**[!UICONTROL POP3 プロパティ]**」をクリックし、「**[!UICONTROL 認証]**」タブを開きます。
 

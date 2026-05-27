@@ -3,8 +3,8 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
-title: 削除された項目の管理
-description: Workfront 管理者は、過去 30 日間に削除した Workfront のプロジェクト、タスク、問題、ドキュメントおよびテンプレートを復元できます。オブジェクトを復元すると、その子オブジェクトとフィールドもすべて復元されます。
+title: 削除済みアイテムの管理
+description: Workfront 管理者は、過去 30 日間に削除した Workfront のプロジェクト、タスク、問題、ドキュメントおよびテンプレートを復元できます。 オブジェクトを復元すると、その子オブジェクトとフィールドもすべて復元されます。
 feature: System Setup and Administration
 role: Admin
 author: Lisa

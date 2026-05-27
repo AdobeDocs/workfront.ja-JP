@@ -4,15 +4,15 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: エラー：自動プロビジョニングされたユーザーはログインできません
-description: 自動プロビジョニングされたユーザーが初めてログインしようとすると、システムによってアクセスレベルが割り当てられていないというエラーが表示される場合は、リクエストのライセンスに関連付けられたアクセスレベルがシステムにない可能性があります。
+description: 自動プロビジョニングされたユーザーが初めてログインしようとし、システムがアクセスレベルを割り当てていないというエラーを受け取った場合は、システムがリクエストライセンスに関連付けられたアクセスレベルを欠いている可能性があります。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
 source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 68%
+source-wordcount: '200'
+ht-degree: 74%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 68%
 
 システムが新規ユーザーにアクセスレベルを割り当てていません。
 
-デフォルトでは、自動プロビジョニングはリクエストライセンスタイプを使用します。リクエストライセンスを持つアクセスレベルが存在しない場合、システムはユーザーにアクセスレベルを割り当てることができません。
+デフォルトでは、自動プロビジョニングはリクエストライセンスタイプを使用します。 リクエストライセンスを持つアクセスレベルが存在しない場合、システムはユーザーにアクセスレベルを割り当てることができません。
 
 ## アクセス要件
 
@@ -37,7 +37,7 @@ ht-degree: 68%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!DNL Adobe Workfront] package</td> 
+   <td>[!DNL Adobe Workfront] パッケージ</td> 
    <td><p>任意</p></td> 
   </tr> 
   <tr> 

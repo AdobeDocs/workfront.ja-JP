@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: f3828671-e950-4649-9f6d-881101100a96
 source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、[!DNL Workfront Proof] スタンドアロン製品の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 ## 請求ページ
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 このセクション（8）では、アカウントの主な請求先と住所の詳細を示します。
 
-請求連絡先は、アカウントで請求管理者として設定されているユーザーからのみ選択できます。サテライトアカウントでは、このフィールドに設定できるのは、メインアカウントの請求管理者のみです。
+請求連絡先は、アカウントで請求管理者として設定されているユーザーからのみ選択できます。 サテライトアカウントでは、このフィールドに設定できるのは、メインアカウントの請求管理者のみです。
 
 ![Billing_Contact.png](assets/billing-contact-350x137.png)
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
   ![Billin_CC.png](assets/billin-cc-350x103.png)
 
-「[!UICONTROL 請求 CC]」フィールドでは、すべての請求関連メールにコピーするメールアドレスを追加することもできます。フィールドをクリックして取り込み編集を有効にし、選択したメールアドレスを入力します（既存のユーザーのメールアドレスでもかまいません）。
+「[!UICONTROL 請求 CC]」フィールドでは、すべての請求関連メールにコピーするメールアドレスを追加することもできます。 フィールドをクリックして取り込み編集を有効にし、選択したメールアドレスを入力します（既存のユーザーのメールアドレスでもかまいません）。
 
 ## [!UICONTROL 請求先住所]
 
@@ -126,7 +126,7 @@ ht-degree: 100%
 
 ## [!UICONTROL 請求履歴]
 
-このセクションには、最近の請求期間のアクティビティが表示されます。また、このセクションから請求書をダウンロードすることもできます。
+このセクションには、最近の請求期間のアクティビティが表示されます。 また、このセクションから請求書をダウンロードすることもできます。
 
 詳しくは、「[ [!DNL Workfront Proof] 請求書のダウンロード](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)」を参照してください。
 
@@ -134,7 +134,7 @@ ht-degree: 100%
 
 このセクションには、[!DNL Workfront Proof] プランのサブスクリプション、アップグレード、ダウングレード、更新など、お支払い設定に対する最近の変更が表示されます。
 
-計画をユーザー数の少ない計画（1）に変更した場合、新しい計画が開始する際に、新しい制限を超えるユーザーは自動的に無効化されます。このアクティビティは、アカウントログにも記録されます（2）。
+計画をユーザー数の少ない計画（1）に変更した場合、新しい計画が開始する際に、新しい制限を超えるユーザーは自動的に無効化されます。 このアクティビティは、アカウントログにも記録されます（2）。
 
 ![Billing_Downgrade_log.png](assets/billing-downgrade-log-350x45.png)
 

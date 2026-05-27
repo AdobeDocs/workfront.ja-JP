@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: タスクの完了率の表示と更新
-description: タスクの完了率を更新して、タスクを完了するために行った進捗状況を示すことができます。 問題の完了率を更新することは、タスクの完了率を更新することと似ています。 この記事では、タスクの完了率を更新する方法について説明します。
+description: タスクの完了率を更新して、完了に向けたタスクの進捗状況を示すことができます。 問題の完了率を更新することは、タスクの完了率を更新することと似ています。 この記事では、タスクの完了率を更新する方法について説明します。
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
@@ -11,7 +11,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 

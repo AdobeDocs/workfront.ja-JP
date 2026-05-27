@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: security
 title: Adobe WorkfrontへのアクセスをIP アドレスで制限する
-description: Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 75 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。
+description: Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 75 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。 これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -25,7 +25,7 @@ ht-degree: 98%
 >This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release.
 -->
 
-Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 75 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。
+Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 75 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。 これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。
 
 これらの IP アドレスまたは IP アドレス範囲は、ネットワーク管理者によって提供される必要があります。
 
@@ -58,13 +58,13 @@ Adobe Workfront IP 許可リストを設定して、Workfront へのアクセス
 
 ## その他の許可リスト
 
-ファイアウォールやメールサーバーが、特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをその許可リストに追加する必要があります。これにより、環境と Adobe Workfront サーバー間の通信が開始されます。詳しくは、[ファイアウォールの許可リストの設定](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
+ファイアウォールやメールサーバーが、特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをその許可リストに追加する必要があります。 これにより、環境と Adobe Workfront サーバー間の通信が開始されます。 詳しくは、[ファイアウォールの許可リストの設定](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
 
-また、組織がエンタープライズプランを使用している場合は、Workfront メール許可リストを作成して、どのメールドメインが Workfront からのメールの受け入れを許可されるか、そしてユーザーが Workfront ユーザープロファイルで指定するメールアドレスにどのメールドメインを含めることができるかを制御できます。詳しくは、[メール許可リストの設定](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)を参照してください。
+また、組織がエンタープライズプランを使用している場合は、Workfront メール許可リストを作成して、どのメールドメインが Workfront からのメールの受け入れを許可されるか、そしてユーザーが Workfront ユーザープロファイルで指定するメールアドレスにどのメールドメインを含めることができるかを制御できます。 詳しくは、[メール許可リストの設定](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)を参照してください。
 
 ## IP アドレスをホワイトリストに追加
 
-IP アドレスを Workfront 許可リストに追加すると、それらの IP アドレスのみが Workfront へのアクセスに使用できるようになります。ユーザーが別の IP アドレスから Workfront にアクセスしようとすると、IP アドレスがブロックされていることを示すエラーメッセージが表示されます。
+IP アドレスを Workfront 許可リストに追加すると、それらの IP アドレスのみが Workfront へのアクセスに使用できるようになります。 ユーザーが別の IP アドレスから Workfront にアクセスしようとすると、IP アドレスがブロックされていることを示すエラーメッセージが表示されます。
 
 {{step-1-to-setup}}
 

@@ -11,7 +11,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4b01bb97-33ae-4034-b087-a37feef4b4d9
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '51'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 この節では、次の記事を扱います。
 

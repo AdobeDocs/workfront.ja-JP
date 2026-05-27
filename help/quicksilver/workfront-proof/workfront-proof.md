@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: 「Workfront Proof：記事インデックス」
+title: Workfront Proof：記事インデックス
 description: Workfront Proof スタンドアロン製品の使用方法について説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。Adobe Workfront 内での検証について詳しくは、[プルーフ](../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 Adobe Workfront 内での検証について詳しくは、[プルーフ](../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 このセクションには、次のサブセクションが含まれます。
 

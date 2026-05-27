@@ -2,20 +2,20 @@
 content-type: reference
 navigation-topic: announcements
 title: 21.1 リリースを使用した Adobe Workfront メールの新しい IP アドレス
-description: メール配信の成功率を高めるため、21.1 実稼動版リリースで以下のクラスターに新しい IP アドレスを追加します。インスタンスが存在するクラスターを調べるには、設定／システム／顧客情報の順に移動します。
+description: メール配信の成功率を高めるため、21.1 実稼動版リリースで以下のクラスターに新しい IP アドレスを追加します。 インスタンスがどのクラスターに属しているかを確認するには、設定> システム &gt；顧客情報に移動します。
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 92%
 
 ---
 
 # 21.1 リリースを使用した Adobe Workfront メールの新しい IP アドレス
 
-メール配信の成功率を高めるため、21.1 実稼動版リリースで以下のクラスターに新しい IP アドレスを追加します。インスタンスが存在するクラスターを確認するには、設定／システム／顧客情報の順に移動します。
+メール配信の成功率を高めるため、21.1 実稼動版リリースで以下のクラスターに新しい IP アドレスを追加します。 インスタンスが存在するクラスターを確認するには、設定／システム／顧客情報の順に移動します。
 
 **クラスター 1、2、3、5**
 
