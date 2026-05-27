@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: business-case-and-scorecards
-title: プロジェクトのビジネス ケースのエクスポート
+title: プロジェクトのビジネスケースのエクスポート
 description: ビジネスケースを印刷したり、より凝縮された形式でメールに添付したりする必要がある場合に備えて、ビジネスケースを PDF ファイルにエクスポートできます。
 author: Becky
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
 source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 47%
+source-wordcount: '177'
+ht-degree: 54%
 
 ---
 
 # プロジェクトのビジネスケースのエクスポート
 
-印刷する必要がある場合や、より圧縮された形式でメールに添付する必要がある場合は、ビジネスケースをPDF ファイルに書き出すことができます。
+印刷する必要がある場合や、電子メールに添付する必要がある場合は、ビジネスケースをPDF ファイルに書き出すことができます。
 
 ## アクセス要件
 
@@ -32,7 +32,7 @@ ht-degree: 47%
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td> 
-   <p>ライト以上</p>
+   <p>明るいまたはそれ以上</p>
    <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
@@ -56,8 +56,8 @@ ht-degree: 47%
 
 1. **プロジェクト** ページで、ビジネスケースをエクスポートするプロジェクトを選択します。
 1. 左側のパネルで「**ビジネスケース**」をクリックします。
-1. **ビジネス ケースの概要** 領域の右上隅にある [**エクスポート**] をクリックします。 PDF ファイルがコンピューターにダウンロードされます。
+1. **ビジネスケースの概要**&#x200B;領域の右上隅にある「**書き出し**」をクリックします。 PDF ファイルがコンピューターにダウンロードされます。
 
-   ![&#x200B; ビジネスケースの概要 &#x200B;](assets/bc-summary.png)
+   ![&#x200B; ビジネスケースの概要](assets/bc-summary.png)
 
 

@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects;user-management
 navigation-topic: plan-a-project
-title: プロジェクトオーナーとスポンサーの概要
+title: プロジェクトオーナーおよびスポンサーの概要
 description: プロジェクトのプロジェクト所有者およびプロジェクトスポンサーを指定できます。
 author: Alina
 feature: Work Management
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 プロジェクト所有者は、予定通りおよび予算通りにプロジェクトを完了する担当者です。
 
-プロジェクトスポンサーは、プロジェクトに投資するリソースを持つプロジェクトの重要な関係者です。通常、プロジェクトの完了は、プロジェクトスポンサーにメリットを与えます。
+プロジェクトスポンサーは、プロジェクトに投資するリソースを持つプロジェクトの重要な関係者です。 通常、プロジェクトの完了は、プロジェクトスポンサーにメリットを与えます。
 
 プロジェクトのプロジェクト所有者またはプロジェクトスポンサーを更新する方法について詳しくは、[プロジェクトの所有者とスポンサーの更新](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md)を参照してください。
 
@@ -36,11 +36,11 @@ ht-degree: 95%
 
 * 1 人のユーザーのみをプロジェクト所有者として指定できます。
 * プロジェクトの時間数の承認者として、プロジェクト所有者を指定できます。
-* プロジェクト、タスクまたはイシューの承認プロセスを定義する際に、プロジェクト所有者を一般的な承認者として指定できます。承認について詳しくは、[承認プロセスの編集](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)を参照してください。
+* プロジェクト、タスクまたはイシューの承認プロセスを定義する際に、プロジェクト所有者を一般的な承認者として指定できます。 承認について詳しくは、[承認プロセスの編集](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)を参照してください。
 
   >[!IMPORTANT]
   >
-  >プロジェクト所有者に承認を割り当て、誰もプロジェクトの所有者として指定されていない場合、設定エリアの「顧客情報」セクションで示されているように、承認はメインの Workfront 管理者に再割り当てされます。詳しくは、[システムの基本情報の設定](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
+  >プロジェクト所有者に承認を割り当て、誰もプロジェクトの所有者として指定されていない場合、設定エリアの「顧客情報」セクションで示されているように、承認はメインの Workfront 管理者に再割り当てされます。 詳しくは、[システムの基本情報の設定](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
   >
 
 
@@ -76,18 +76,18 @@ ht-degree: 95%
 
 ## プロジェクトスポンサー
 
-システム内の任意のユーザーをプロジェクトスポンサーとして指定できます。プロジェクトスポンサーは、通常、プロジェクトで何が起きているかを知る必要があるマネージャー、エグゼクティブまたは関係者です。
+システム内の任意のユーザーをプロジェクトスポンサーとして指定できます。 プロジェクトスポンサーは、通常、プロジェクトで何が起きているかを知る必要があるマネージャー、エグゼクティブまたは関係者です。
 
 プロジェクトスポンサーを割り当てる際は、次の点を考慮してください。
 
-* プロジェクトスポンサーは、プロジェクトに対して追加のアクセス権を取得することはありませんが、プロジェクトのメール通知に追加されます。通知について詳しくは、[システムの全員に対するイベント通知の設定](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)の記事を参照してください。
+* プロジェクトスポンサーは、プロジェクトに対して追加のアクセス権を取得することはありませんが、プロジェクトのメール通知に追加されます。 通知について詳しくは、[システムの全員に対するイベント通知の設定](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)の記事を参照してください。
 
 * 指定できるプロジェクトスポンサーは 1 人のみです。
-* プロジェクト、タスクまたはイシューの承認プロセスを定義する際に、プロジェクトスポンサーを一般的な承認者として指定できます。承認について詳しくは、[承認プロセスの編集](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)を参照してください。
+* プロジェクト、タスクまたはイシューの承認プロセスを定義する際に、プロジェクトスポンサーを一般的な承認者として指定できます。 承認について詳しくは、[承認プロセスの編集](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md)を参照してください。
 
   >[!IMPORTANT]
   >
-  >プロジェクトスポンサーに承認を割り当て、誰もプロジェクトのスポンサーとして指定されていない場合、承認はプロジェクト所有者に再割り当てされます。プロジェクトの所有者として誰も指定されていない場合、承認は Workfront 管理者に割り当てられます。
+  >プロジェクトスポンサーに承認を割り当て、誰もプロジェクトのスポンサーとして指定されていない場合、承認はプロジェクト所有者に再割り当てされます。 プロジェクトの所有者として誰も指定されていない場合、承認は Workfront 管理者に割り当てられます。
 
 * レポートまたはリストに「プロジェクトスポンサー」フィールドを表示できます。
 

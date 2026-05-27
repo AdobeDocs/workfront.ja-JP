@@ -2,7 +2,7 @@
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: プロジェクトチームの管理
-description: プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。プロジェクトチームのメンバーは、プロジェクトの「人物」セクションまたはプロジェクトの作成に使用されるテンプレートの「人物」セクションに表示されます。
+description: プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。 プロジェクトチームのメンバーは、プロジェクトの「人物」セクションまたはプロジェクトの作成に使用されるテンプレートの「人物」セクションに表示されます。
 author: Alina
 feature: Work Management, Projects
 role: User
@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 24%
 
 ---
@@ -31,7 +31,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 -->
 
-プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。詳しくは、[プロジェクトチームの概要](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
+プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。 詳しくは、[プロジェクトチームの概要](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
 
 プロジェクトチームのメンバーは、プロジェクトの「ユーザー」セクションに表示されます。
 
@@ -287,7 +287,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 プロジェクトチームに送信された通知の受信を停止するには、プロジェクトチームからプロジェクトの「人物」セクションから削除する必要があります。
 
-プロジェクトのタスクまたはイシューに割り当てられているユーザーをプロジェクトチームから削除すると、そのユーザーは未完了のタスクとイシューから割り当て解除されます。この場合、タスクとイシューはワークロードバランサーの未割り当て作業エリアに戻ります。
+プロジェクトのタスクまたはイシューに割り当てられているユーザーをプロジェクトチームから削除すると、そのユーザーは未完了のタスクとイシューから割り当て解除されます。 この場合、タスクとイシューはワークロードバランサーの未割り当て作業エリアに戻ります。
 
 完了したタスクとイシューに割り当てられたユーザーは、プロジェクトチームから削除した後でも、タスクとイシューに割り当てられたままになります。
 

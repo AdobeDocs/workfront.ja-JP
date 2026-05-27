@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: オブジェクトへのリマインダ通知の添付
-description: リマインダー通知は、プロジェクト、タスク、問題、タイムシート、テンプレート、テンプレートタスク、定期タイムシートプロファイルといった、複数のオブジェクトタイプに関連付けることができます。
+description: リマインダー通知は、プロジェクト、タスク、イシュー、タイムシート、テンプレート、テンプレートタスク、繰り返しタイムシートプロファイルなど、複数の異なるオブジェクトタイプに関連付けることができます。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 73%
+ht-degree: 78%
 
 ---
 
 # オブジェクトへのリマインダ通知の添付
 
-リマインダー通知は、プロジェクト、タスク、問題、タイムシート、テンプレート、テンプレートタスク、定期タイムシートプロファイルといった、複数のオブジェクトタイプに関連付けることができます。
+リマインダー通知は、プロジェクト、タスク、イシュー、タイムシート、テンプレート、テンプレートタスク、繰り返しタイムシートプロファイルなど、複数の異なるオブジェクトタイプに関連付けることができます。
 
 オブジェクトにリマインダー通知を添付する前に、[リマインダー通知の設定](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)で説明したように、[!DNL Adobe Workfront] 管理者は通知を作成する必要があります。
 
@@ -40,7 +40,7 @@ ht-degree: 73%
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td> 
    <p>標準</p>
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -56,14 +56,14 @@ ht-degree: 73%
 ## オブジェクトへのリマインダー通知の添付
 
 1. リマインダー通知を添付するオブジェクトに移動します。
-1. 編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. 編集アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 1. 表示される&#x200B;**[!UICONTROL 編集]**&#x200B;ボックスの左側のパネルで、「**[!UICONTROL 設定]**」をクリックします。
 
 1. **[!UICONTROL リマインダー通知]**&#x200B;の下に、オブジェクトに添付する通知を選択します。
 
    この例では、編集中のオブジェクトはタスクです。
 
-   ![&#x200B; リマインダ通知 &#x200B;](assets/reminder-notification-select-one-350x213.png)
+   ![&#x200B; リマインダー通知](assets/reminder-notification-select-one-350x213.png)
 
    [!DNL Workfront] 管理者が複数のリマインダー通知を作成した場合、単一のオブジェクトに複数の通知を添付できます。
 

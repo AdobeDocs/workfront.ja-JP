@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-issues
 title: 問題の編集
-description: 自分が作成したイシュー、または他のユーザーがイシューを共有した場合に作成したイシューに関する情報を編集できます。 この記事では、権限がある場合に、イシューを検索、検索、編集する方法について説明します。
+description: 自分が作成したイシューに関する情報や、他のユーザーとイシューを共有した場合は他のユーザーが作成したイシューに関する情報を編集できます。 この記事では、権限がある場合に、イシューを検索、検索、編集する方法について説明します。
 author: Alina
 feature: Work Management
 topic: Collaboration
@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2549'
 ht-degree: 84%
 
 ---
@@ -33,7 +33,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 自分が作成したイシューに関する情報や、他のユーザーとイシューを共有した場合は他のユーザーが作成したイシューに関する情報を編集できます。
 
-1 つのイシューを編集することも、リスト内の複数のイシューを編集することもできます。リスト内のイシューの編集について詳しくは、[リスト内のイシューの編集](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md)を参照してください。
+1 つのイシューを編集することも、リスト内の複数のイシューを編集することもできます。 リスト内のイシューの編集について詳しくは、[リスト内のイシューの編集](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md)を参照してください。
 
 ## アクセス要件
 
@@ -117,12 +117,12 @@ Old:
 
 いくつかの制限があり、イシューを編集できない場合があります。
 
-* 「承認プロセス中」のイシューは編集できません。「承認保留中」のイシューに対してのみ、時間を記録したり、ステータスを更新したりできます。
-* 完了、無効または承認保留中のステータスを持つプロジェクトのイシューに対するドキュメントの編集や追加は、Workfront 管理者またはグループ管理者がプロジェクト環境設定エリアでこの機能を有効にした場合にのみ行えます。プロジェクト環境設定について詳しくは、[システム全体のプロジェクト環境設定を指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+* 「承認プロセス中」のイシューは編集できません。 「承認保留中」のイシューに対してのみ、時間を記録したり、ステータスを更新したりできます。
+* 完了、無効または承認保留中のステータスを持つプロジェクトのイシューに対するドキュメントの編集や追加は、Workfront 管理者またはグループ管理者がプロジェクト環境設定エリアでこの機能を有効にした場合にのみ行えます。 プロジェクト環境設定について詳しくは、[システム全体のプロジェクト環境設定を指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
 ## 単一のイシューの編集
 
-イシューを編集するには、イシューの編集エリア、またはイシューの詳細エリアを使用します。次の手順では、イシューの編集ボックスでイシューを編集する方法を説明します。
+イシューを編集するには、イシューの編集エリア、またはイシューの詳細エリアを使用します。 次の手順では、イシューの編集ボックスでイシューを編集する方法を説明します。
 
 1. **メインメニュー**&#x200B;に移動します。
 1. 「**プロジェクト**」をクリックし、プロジェクトの名前をクリックして、プロジェクトを開きます。
@@ -135,7 +135,7 @@ Old:
 
    >[!NOTE]
    >
-   >Workfront 管理者またはグループ管理者がレイアウトテンプレートをどのように変更したかに応じて、イシューの詳細エリアのフィールドが並べ替えられたり、表示されなかったりする場合があります。詳しくは、[レイアウトテンプレートを使用した詳細ビューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
+   >Workfront 管理者またはグループ管理者がレイアウトテンプレートをどのように変更したかに応じて、イシューの詳細エリアのフィールドが並べ替えられたり、表示されなかったりする場合があります。 詳しくは、[レイアウトテンプレートを使用した詳細ビューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
    「詳細」セクションの情報を編集するには、次の手順を実行します。
 
@@ -180,9 +180,9 @@ Old:
 
    >[!NOTE]
    >
-   >Workfront 管理者がレイアウトテンプレートをどのように設定したかに応じて、環境によってイシューの編集ボックスのフィールドが異なる場合があります。詳しくは、[レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
+   >Workfront 管理者がレイアウトテンプレートをどのように設定したかに応じて、環境によってイシューの編集ボックスのフィールドが異なる場合があります。 詳しくは、[レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
    >
-   >イシューを作成する際に、以下のセクションに一覧表示されるほとんどのフィールドは、新しいイシューボックスからもアクセスできます。フィールドが配置されているセクションは、新しいイシューボックスと一致していません。イシューの作成について詳しくは、[イシューを作成](../../issues/manage-issues/create-issues.md)を参照してください。
+   >イシューを作成する際に、以下のセクションに一覧表示されるほとんどのフィールドは、新しいイシューボックスからもアクセスできます。 フィールドが配置されているセクションは、新しいイシューボックスと一致していません。 イシューの作成について詳しくは、[イシューを作成](../../issues/manage-issues/create-issues.md)を参照してください。
 
 ### イシュー名 {#issue-name}
 
@@ -214,7 +214,7 @@ Old:
 
    <tr> 
       <td role="rowheader">ステータス</td> 
-      <td> <p>イシューのステータスを選択します。イシューのステータスについて詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">システムイシューステータスのリストへのアクセス</a>を参照してください。 </p> </td> 
+      <td> <p>イシューのステータスを選択します。 イシューのステータスについて詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">システムイシューステータスのリストへのアクセス</a>を参照してください。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">優先度</td> 
@@ -225,18 +225,18 @@ Old:
         <li> <p><strong>標準</strong> </p> </li> 
         <li> <p><strong>高</strong> </p> </li> 
         <li> <p><strong>緊急</strong> </p> </li> 
-       </ul> <p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。優先順位の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先順位を作成およびカスタマイズ</a>を参照してください。</p> </td> 
+       </ul> <p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。 優先順位の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先順位を作成およびカスタマイズ</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">重大度</td> 
-      <td> <p>これは、イシューに記載されているイシューの重大度を示す視覚的なフラグです。重大度はイシューに特有のものです。次のオプションから選択します。</p> 
+      <td> <p>これは、イシューに記載されているイシューの重大度を示す視覚的なフラグです。 重大度はイシューに特有のものです。 次のオプションから選択します。</p> 
        <ul> 
         <li> <p style="font-weight: bold;">一時回避</p> </li> 
         <li> <p style="font-weight: bold;">混乱を招く</p> </li> 
         <li> <p style="font-weight: bold;">対処策のあるバグ</p> </li> 
         <li> <p style="font-weight: bold;">対処策のないバグ</p> </li> 
         <li> <p style="font-weight: bold;">致命的なエラー</p> </li> 
-       </ul> <p>Workfront 管理者が選択したプロジェクトの環境設定に応じて、重大度の名前が異なる場合があります。重大度の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">イシューの重大度を作成またはカスタマイズ</a>を参照してください。</p> </td> 
+       </ul> <p>Workfront 管理者が選択したプロジェクトの環境設定に応じて、重大度の名前が異なる場合があります。 重大度の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">イシューの重大度を作成またはカスタマイズ</a>を参照してください。</p> </td> 
      </tr>
 
    <tr> 
@@ -258,7 +258,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">タイプ</td> 
-      <td> <p>プロジェクトマネージャーがプロジェクトのキューの詳細領域で選択したキューのプロパティに従って、イシューのタイプを指定できる場合があります。<b>タイプ</b>ドロップダウンメニューで次のオプションから選択します。 </p> 
+      <td> <p>プロジェクトマネージャーがプロジェクトのキューの詳細領域で選択したキューのプロパティに従って、イシューのタイプを指定できる場合があります。 <b>タイプ</b>ドロップダウンメニューで次のオプションから選択します。 </p> 
        <ul> 
         <li> <p><strong>バグレポート</strong> </p> </li> 
         <li> <p><strong>変更依頼</strong> </p> </li> 
@@ -268,48 +268,48 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">プライマリ連絡先</td> 
-      <td>デフォルトでは、イシューの作成者がプライマリの連絡先です。これを変更するには、Workfront でアクティブなユーザーの名前を入力し、リストから選択します。1 つのイシューのプライマリ連絡先は 1 つだけです。<br>プライマリ連絡先を変更しても、元のプライマリ連絡先には引き続き管理アクセス権が付与されます。イシューを共有する際は、イシューのアクセスボックスから手動でこのアクセスを削除する必要があります。
+      <td>デフォルトでは、イシューの作成者がプライマリの連絡先です。 これを変更するには、Workfront でアクティブなユーザーの名前を入力し、リストから選択します。 1つのイシューに含めることができるプライマリ連絡先は1つだけです。<br> プライマリ連絡先を変更した場合、元のプライマリ連絡先には引き続き問題への管理アクセス権があります。 イシューを共有する際は、イシューのアクセスボックスから手動でこのアクセスを削除する必要があります。
 
    <b>ヒント</b>
 
-   <p>プライマリの連絡先ユーザーを追加する際には、アバター、ユーザーのプライマリの役割、メールアドレスに注意して、同じ名前のユーザーを区別してください。ユーザーを追加したときに表示するには、少なくとも 1 つの担当業務に関連付ける必要があります。</p>
-      <p> ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">ユーザーへのアクセス権の付与</a>を参照してください。</p>
+   <p>プライマリの連絡先ユーザーを追加する際には、アバター、ユーザーのプライマリの役割、メールアドレスに注意して、同じ名前のユーザーを区別してください。 ユーザーを追加したときに表示するには、少なくとも 1 つの担当業務に関連付ける必要があります。</p>
+      <p> ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。 詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">ユーザーへのアクセス権の付与</a>を参照してください。</p>
 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">コミット日時</td> 
-      <td> <p>これは、イシューの割り当ての担当者がイシューが完了すると見積もる日付です。担当者のみがこのフィールドを編集できます。</p> </td> 
+      <td> <p>これは、イシューの割り当ての担当者がイシューが完了すると見積もる日付です。 担当者のみがこのフィールドを編集できます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">予定開始日</td> 
-      <td>デフォルトでは、予定開始日はイシューが作成された日付と時刻です。イシューの<strong>予定開始日</strong>を更新できます。 </td> 
+      <td>デフォルトでは、予定開始日はイシューが作成された日付と時刻です。 イシューの<strong>予定開始日</strong>を更新できます。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">予定完了日時</td> 
-      <td> デフォルトでは、予定完了日はデフォルトの予定開始日から 24 時間です。デフォルトでは、イシューの期間は 1 日です。イシューの<strong>予定完了日</strong>を更新できます。</td> 
+      <td> デフォルトでは、予定完了日はデフォルトの予定開始日から 24 時間です。 デフォルトでは、イシューの期間は 1 日です。 イシューの<strong>予定完了日</strong>を更新できます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">実際の開始日時</td> 
-      <td>実際の開始日は、イシューのステータスを「<strong>処理中</strong>」に変更すると自動的に設定されます。イシューの<strong>実際の開始日</strong>を更新できます。必要に応じて、手動で日付を更新できます。 </td> 
+      <td>実際の開始日は、イシューのステータスを「<strong>処理中</strong>」に変更すると自動的に設定されます。 イシューの<strong>実際の開始日</strong>を更新できます。 必要に応じて、手動で日付を更新できます。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">実際の完了日時</td> 
-      <td>「実際の完了日」は、イシューのステータスを「<strong>閉じる</strong>」または「<strong>解決済み</strong>」に変更すると自動的に設定されます。イシューの<strong>実際の完了日</strong>を更新できます。必要に応じて、手動で日付を更新できます。</td> 
+      <td>「実際の完了日」は、イシューのステータスを「<strong>閉じる</strong>」または「<strong>解決済み</strong>」に変更すると自動的に設定されます。 イシューの<strong>実際の完了日</strong>を更新できます。 必要に応じて、手動で日付を更新できます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">解決オブジェクト</td> 
-      <td> <p>これは、イシューが別のオブジェクトによって解決されたかどうかを示します。ドロップダウンメニューから、このイシューをタスク、プロジェクト、または別のイシューのいずれで解決するかを選択し、このイシューを解決するタスク、プロジェクト、またはこのイシューの名前の入力を開始します。名前がリストに表示されたら、選択します。</p>
+      <td> <p>これは、イシューが別のオブジェクトによって解決されたかどうかを示します。 ドロップダウンメニューから、このイシューをタスク、プロジェクト、または別のイシューのいずれで解決するかを選択し、このイシューを解決するタスク、プロジェクト、またはこのイシューの名前の入力を開始します。 名前がリストに表示されたら、選択します。</p>
 
    <b> メモ </b>
 
-   <ul><li>イシューを解決するオブジェクトを選択すると、イシューのステータスは解決オブジェクトのステータスにリンクされ、イシューで変更することはできません。オブジェクトの解決について詳しくは、<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解決および解決可能なオブジェクトの概要</a>を参照してください。</li>
+   <ul><li>イシューを解決するオブジェクトを選択すると、イシューのステータスは解決オブジェクトのステータスにリンクされ、イシューで変更することはできません。 オブジェクトの解決について詳しくは、<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解決および解決可能なオブジェクトの概要</a>を参照してください。</li>
 
    <li>別のタスク、イシュー、またはプロジェクトによって解決されるイシューを接続すると、イシューの情報は解決オブジェクト（解決済みフィールドにリストされているタスク、イシュー、またはプロジェクト）に転送されません。 </li>
 
    <li>システム管理者またはグループ管理者がイシューのカスタムヘッダーに「解決者」フィールドを追加すると、イシューに関連付けられた解決オブジェクトがある場合、フィールドは「イシューの解決」、「タスクの解決」、または「プロジェクトの解決」に変わります。
 
-   このフィールドがイシューヘッダーに表示されている場合は編集できません。イシューヘッダーのカスタマイズについて詳しくは、<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">レイアウトテンプレートを使用してオブジェクトヘッダーをカスタマイズ</a>を参照してください。</li></ul>
+   このフィールドがイシューヘッダーに表示されている場合は編集できません。 イシューヘッダーのカスタマイズについて詳しくは、<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">レイアウトテンプレートを使用してオブジェクトヘッダーをカスタマイズ</a>を参照してください。</li></ul>
    </td> 
      </tr>
 
@@ -344,12 +344,12 @@ Old:
    >
    >ユーザーの名前に特殊文字が含まれている場合は、その特殊文字を検索フィールドに含める必要があります。
 
-   複数のユーザー、担当業務やチームを割り当てることができます。アクティブなユーザー、担当業務およびチームのみを割り当てることができます。
+   複数のユーザー、担当業務やチームを割り当てることができます。 アクティブなユーザー、担当業務およびチームのみを割り当てることができます。
 
    >[!TIP]
    >
    >
-   >ユーザー、担当業務、またはチームが非アクティブ化される前に割り当てられていた場合、それらは作業アイテムに割り当てられたままになります。この場合、以下の操作をお勧めします。
+   >ユーザー、担当業務、またはチームが非アクティブ化される前に割り当てられていた場合、それらは作業アイテムに割り当てられたままになります。 この場合、以下の操作をお勧めします。
    >
    >* 作業アイテムをアクティブなリソースに再割り当てする。
    >* 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
@@ -399,13 +399,13 @@ Old:
 
    ![&#x200B; カスタムフォームの発行セクション &#x200B;](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. 「**カスタムフォームを追加**」フィールドで、イシューに関連付けるカスタムフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 1 つのイシューには、最大 10 個のカスタムフォームを追加できます。
+1. 「**カスタムフォームを追加**」フィールドで、イシューに関連付けるカスタムフォームを選択します。 このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。 カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 1 つのイシューには、最大 10 個のカスタムフォームを追加できます。
 
-1. （条件付き）カスタムフォームをイシューに添付した場合は、フォーム上の任意のフィールドを編集します。イシューを保存する前に、すべての必須フィールドを指定する必要があります。
+1. （条件付き）カスタムフォームをイシューに添付した場合は、フォーム上の任意のフィールドを編集します。 イシューを保存する前に、すべての必須フィールドを指定する必要があります。
 
    >[!NOTE]
    >
-   >Workfront 管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。カスタムフォームのセクション内のフィールドを編集する権限は、イシュー自体に対する権限によって異なります。カスタムフォームのセクションに対する権限の設定について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 イシューの権限の設定については、[イシューの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)を参照してください。
+   >Workfront 管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。 カスタムフォームのセクション内のフィールドを編集する権限は、イシュー自体に対する権限によって異なります。 カスタムフォームのセクションに対する権限の設定について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。 イシューの権限の設定については、[イシューの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)を参照してください。
 
 1. 「**保存**」をクリックするか、次のセクションの編集に進みます。
 
@@ -428,12 +428,12 @@ Old:
       <td role="rowheader">承認プロセス</td> 
       <td> 
        <div> 
-       <p>イシューに関連付ける承認プロセスを選択します。システムレベルの承認プロセスをイシューに関連付けるには、まず Workfront 管理者がそのプロセスを定義する必要があります。承認プロセスへの管理アクセス権を持つユーザー<span>は、グループ固有の承認プロセスを作成することもできます。</span>承認プロセスの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">作業アイテムの承認プロセスの作成</a>を参照してください。 </p> 
+       <p>イシューに関連付ける承認プロセスを選択します。 システムレベルの承認プロセスをイシューに関連付けるには、まず Workfront 管理者がそのプロセスを定義する必要があります。 承認プロセス <span>への管理アクセス権を持つユーザーは、グループ固有の承認プロセスを作成することもできます。</span>承認プロセスの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">作業アイテムの承認プロセスの作成</a>を参照してください。 </p> 
        <p>承認プロセスを追加する際は、次の点を考慮してください。 </p> 
        <ul> 
        <li>アクティブな承認プロセスのみがリストに表示されます。 </li> 
-       <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。プロジェクトの承認プロセス以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> <p>重要：プロジェクトのグループが変更されると、グループ固有の承認プロセスが 1 回限りの承認プロセスになります。プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループや承認プロセスの変更が割り当て済みの承認プロセスに及ぼす影響</a>を参照してください。 </p> </li> 
-       <li> <p>リクエストキューまたはキュートピックを作成する際にイシューに自動的に添付されるデフォルトの承認プロセスを定義できます。キューの詳細の更新については、<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>を参照してください。キュートピックの作成については、<a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">キュートピックの作成</a>を参照してください。 </p> </li> 
+       <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。 プロジェクトの承認プロセス以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> <p>重要：プロジェクトのグループが変更されると、グループ固有の承認プロセスが 1 回限りの承認プロセスになります。 プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。 </p> </li> 
+       <li> <p>リクエストキューまたはキュートピックを作成する際にイシューに自動的に添付されるデフォルトの承認プロセスを定義できます。 キューの詳細の更新については、<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>を参照してください。 キュートピックの作成については、<a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">キュートピックの作成</a>を参照してください。 </p> </li> 
        <li>イシューを一括編集する場合は、次のシナリオが存在します。 
        <ul> 
        <li><p>同じグループから複数のイシューを選択すると、このフィールドには、システムレベルとグループ固有の承認プロセスの両方が表示されます。</p></li> 
@@ -445,7 +445,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">リマインダー通知</td> 
-      <td> <p>このイシューに添付するリマインダー通知のチェックボックスをオンにします。イシューのすべてのリマインダー通知が表示されます。イシューでリマインダー通知を選択するには、まず Workfront 管理者がリマインダー通知を設定する必要があります。リマインダー通知の設定について詳しくは、<a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">リマインダー通知の設定</a>を参照してください。</p> </td> 
+      <td> <p>このイシューに添付するリマインダー通知のチェックボックスをオンにします。 イシューのすべてのリマインダー通知が表示されます。 イシューでリマインダー通知を選択するには、まず Workfront 管理者がリマインダー通知を設定する必要があります。 リマインダー通知の設定について詳しくは、<a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">リマインダー通知の設定</a>を参照してください。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -456,7 +456,7 @@ Old:
 
 イシューヘッダーの限られた情報を編集することができます。
 
-システム管理者またはグループ管理者は、イシューヘッダーに表示されるフィールドをカスタマイズできます。詳しくは、[レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
+システム管理者またはグループ管理者は、イシューヘッダーに表示されるフィールドをカスタマイズできます。 詳しくは、[レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
 ![問題ヘッダー](assets/issue-header-350x19.png)
 

@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '638'
 ht-degree: 99%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 ## 機能
 
-次の表に、ボードの主な機能と現在のリリースステータスの概要を示します。初期の機能オプトインで利用できる機能は、アドビに寄せられたご意見やフィードバックによっては、フルリリースでは利用できない場合があります。
+次の表に、ボードの主な機能と現在のリリースステータスの概要を示します。 初期の機能オプトインで利用できる機能は、アドビに寄せられたご意見やフィードバックによっては、フルリリースでは利用できない場合があります。
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -189,11 +189,11 @@ ht-degree: 99%
 
 ### 使用可否
 
-ボードの早期機能は、すべての組織で利用できます。利用は完全にオプションです。
+ボードの早期機能は、すべての組織で利用できます。 利用は完全にオプションです。
 
 ### オプトイン
 
-[!DNL Workfront] 管理者のみが、ボードの早期機能にオプトインできます。[!DNL Workfront] 管理者が早期機能を有効にすると、組織内のすべてのユーザーがオプトインできます。
+[!DNL Workfront] 管理者のみが、ボードの早期機能にオプトインできます。 [!DNL Workfront] 管理者が早期機能を有効にすると、組織内のすべてのユーザーがオプトインできます。
 
 {{step1-to-boards}}
 
@@ -216,15 +216,15 @@ ht-degree: 99%
 
 [!DNL Workfront] 管理者がボードの早期機能を有効にすると、組織内のすべてのユーザーがオプトインします。
 
-ただし、[!DNL Workfront] 管理者は、レイアウトテンプレートを使用して、個々のユーザーまたはグループに対し、[!UICONTROL &#x200B; メインメニュー]で「ボード」オプションを非表示にできます。詳しくは、[レイアウトテンプレートを使用して[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
+ただし、[!DNL Workfront] 管理者は、レイアウトテンプレートを使用して、個々のユーザーまたはグループに対し、[!UICONTROL &#x200B; メインメニュー]で「ボード」オプションを非表示にできます。 詳しくは、[レイアウトテンプレートを使用して[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
 >[!NOTE]
 >
->これにより、ユーザーが URL を使用してボードにアクセスできなくなることはありません。ユーザーが[!UICONTROL メインメニュー]で「[!DNL Boards]」オプションを見られなくなるだけです。
+>これにより、ユーザーが URL を使用してボードにアクセスできなくなることはありません。 ユーザーが[!UICONTROL メインメニュー]で「[!DNL Boards]」オプションを見られなくなるだけです。
 
 ### 参加後、早期機能をオプトアウトすることはできますか？
 
-[!DNL Workfront] 管理者のみが、早期機能の受信をオプトアウトできます。[!DNL Workfront] 管理者が早期機能を無効にすると、組織内のすべてのユーザーがオプトアウトします。
+[!DNL Workfront] 管理者のみが、早期機能の受信をオプトアウトできます。 [!DNL Workfront] 管理者が早期機能を無効にすると、組織内のすべてのユーザーがオプトアウトします。
 
 {{step1-to-boards}}
 
