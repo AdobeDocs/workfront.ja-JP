@@ -9,7 +9,7 @@ hide: true
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: f11daa69f72c32418298ac75f81b0fb64835d99b
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 7%
@@ -224,9 +224,9 @@ Lilit is checking on this, it is not working correctly
 
    1. 「**継承された権限**」ドロップダウンメニューから「**無効化**」を選択します。
 
-   >[!TIP]
-   >
-   >Workspace マネージャーは、レコードタイプとレコードに対する管理権限を引き続き持っています。
+      >[!TIP]
+      >
+      >Workspace マネージャーは、レコードタイプとレコードに対する管理権限を引き続き持っています。
 
    1. （オプション）「**招待されたユーザーのみが**&#x200B;に&#x200B;**アクセス可能なユーザー**&#x200B;領域からアクセスできます」を選択します。 レコードを共有する個々のユーザー、グループ、チーム、会社を指定する必要があります。
 
