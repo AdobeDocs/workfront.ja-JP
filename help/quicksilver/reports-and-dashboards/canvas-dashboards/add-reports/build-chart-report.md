@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
-source-wordcount: '1917'
-ht-degree: 9%
+source-wordcount: '1942'
+ht-degree: 10%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
@@ -174,7 +174,7 @@ ht-degree: 9%
 1. 左側のパネルで、**フィルター**![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックします。
 1. **フィルターを編集**&#x200B;を選択します。
 1. 「**条件を追加**」をクリックし、フィルタリングするフィールドと、フィールドが満たす必要がある条件を定義する修飾子を指定します。
-1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件を追加します。 セット間のデフォルトの演算子は AND です。演算子をクリックして OR に変更します。
+1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件のセットを追加します。 セット間のデフォルトの演算子は AND です。 演算子をクリックして OR に変更します。
 
 ### ドリルダウン設定
 

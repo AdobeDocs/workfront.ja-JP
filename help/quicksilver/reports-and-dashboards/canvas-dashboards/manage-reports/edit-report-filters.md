@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 47%
+source-wordcount: '1063'
+ht-degree: 49%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 47%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
@@ -96,7 +96,7 @@ ht-degree: 47%
 
    ![条件を追加](assets/add-condition.png)
 
-1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件を追加します。 セット間のデフォルトの演算子は AND です。演算子をクリックして OR に変更します。
+1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件のセットを追加します。 セット間のデフォルトの演算子は AND です。 演算子をクリックして OR に変更します。
 
 1. 「**保存**」をクリックします。
 
@@ -104,11 +104,11 @@ ht-degree: 47%
 
 ### 日付ベースのワイルドカードフィルター変数
 
-日付ベースのワイルドカードオプションは、任意の日付フィルター属性と組み合わせて使用できます。レポートに日付ベースのワイルドカードを追加する方法について詳しくは、[日付ベースのワイルドカードを使用したレポートの一般化](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)を参照してください。
+日付ベースのワイルドカードオプションは、任意の日付フィルター属性と組み合わせて使用できます。 レポートに日付ベースのワイルドカードを追加する方法について詳しくは、[日付ベースのワイルドカードを使用したレポートの一般化](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)を参照してください。
 
 >[!NOTE]
 >
->時間部分を含まない日付と時間の計算を作成した場合または $$TODAY や $$NOW の日付ワイルドカードを使用する場合、ローカルタイムゾーンではなく協定世界時（UTC）ゾーンに従って日付が使用されます。これは予期しない日付の結果を引き起こす可能性があります。
+>時間部分を含まない日付と時間の計算を作成した場合または $$TODAY や $$NOW の日付ワイルドカードを使用する場合、ローカルタイムゾーンではなく協定世界時（UTC）ゾーンに従って日付が使用されます。 これは予期しない日付の結果を引き起こす可能性があります。
 
 次の日付ベースのワイルドカードから選択できます。
 
@@ -122,7 +122,7 @@ ht-degree: 47%
   </tr> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
-   <td> <p>これは $$TODAY ワイルドカードに似ていますが、現在の日付と時間が含まれます。$$NOW は現在の日付と時間に等しいものとします。</p> <p>例えば、現在の時刻までに入力されたすべての時間エントリを表示する場合は、時間フィルターで <em>$$NOW 以前の予定開始日</em>のルールを使用します。</p> <p>メモ：このワイルドカードは、リソースプランナーではサポートされていません。</p> </td> 
+   <td> <p>これは $$TODAY ワイルドカードに似ていますが、現在の日付と時間が含まれます。 $$NOW は現在の日付と時間に等しいものとします。</p> <p>例えば、現在の時刻までに入力されたすべての時間エントリを表示する場合は、時間フィルターで <em>$$NOW 以前の予定開始日</em>のルールを使用します。</p> <p>メモ：このワイルドカードは、リソースプランナーではサポートされていません。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -154,7 +154,7 @@ ht-degree: 47%
 
 {style="table-layout:auto"}
 
-例えば、ワイルドカード `$$TODAYb+2w` は、「今週の初めから 2 週間」を意味します。ワイルドカード *`$$NOW+2h` は、「今から 2 時間後」を意味します。
+例えば、ワイルドカード `$$TODAYb+2w` は、「今週の初めから 2 週間」を意味します。 ワイルドカード *`$$NOW+2h` は、「今から 2 時間後」を意味します。
 
 ### ログインユーザーのワイルドカードフィルター変数
 

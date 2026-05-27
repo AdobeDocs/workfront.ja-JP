@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '740'
 ht-degree: 91%
 
 ---
@@ -21,25 +21,25 @@ ht-degree: 91%
 
 個人的な目標を持つ個人コントリビューターの場合は、その目標をチームの目標に整合させて、組織の戦略の大きなコンテキストで自身の目標の進捗を効果的に表示することができます。
 
-組織の全員が目標を組織の目標に合わせていれば、個人の貢献やチームの取り組みが、より大きな企業レベルの優先度に基づいてプロジェクトを推進するうえでどのように役立っているかを明確に確認できます。目標の整合に関するベストプラクティスについて詳しくは、[Adobe Workfront Goals における目標の整合の概要](../../workfront-goals/goal-alignment/goal-alignment-overview.md)を参照してください。
+組織の全員が目標を組織の目標に合わせていれば、個人の貢献やチームの取り組みが、より大きな企業レベルの優先度に基づいてプロジェクトを推進するうえでどのように役立っているかを明確に確認できます。 目標の整合に関するベストプラクティスについて詳しくは、[Adobe Workfront Goals における目標の整合の概要](../../workfront-goals/goal-alignment/goal-alignment-overview.md)を参照してください。
 
 Adobe Workfront Goals で目標を相互に関連付けるには、次の 2 つのアプローチがあります。
 
 * 目標を相互に関連付けることで、目標間の整合性を実現できます。
 
-* 2 つの目標を手動で整合させたり、既存の目標の結果やアクティビティを別の目標に変換したりできます。変換された結果やアクティビティは、元の目標の子目標になります。
+* 2 つの目標を手動で整合させたり、既存の目標の結果やアクティビティを別の目標に変換したりできます。 変換された結果やアクティビティは、元の目標の子目標になります。
 
 >[!IMPORTANT]
 >
 >目標には、合計 1000 個の進捗状況インジケーターを設定できます。
 
-この記事では、目標を相互に関連付けることで、目標を整合させる方法について説明します。結果とアクティビティを目標に変換して目標を整合させる方法について詳しくは、[結果とアクティビティを目標に変換して目標を整合させる方法](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)を参照してください。
+この記事では、目標を相互に関連付けることで、目標を整合させる方法について説明します。 結果とアクティビティを目標に変換して目標を整合させる方法について詳しくは、[結果とアクティビティを目標に変換して目標を整合させる方法](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)を参照してください。
 
 ## アクセス要件
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 
@@ -177,8 +177,8 @@ Aligning goals by connecting them differs depending on what environment you use.
 1. (Optional) Remove the alignment between two goals, when you consider that no longer is relevant to your organization's overall strategy For information about removing alignment between goals, see [Remove goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 
 -->
-1. 整合させる 2 つの目標を作成します。目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
-1. （オプション）整合させる目標をアクティブ化します。ステータスがドラフト、アクティブまたは非アクティブの目標を整合させることができます。目標のアクティブ化については、[Adobe Workfront Goals での目標のアクティブ化](../../workfront-goals/goal-management/activate-goals.md)を参照してください。
+1. 整合させる 2 つの目標を作成します。 目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
+1. （オプション）整合させる目標をアクティブ化します。 ステータスがドラフト、アクティブまたは非アクティブの目標を整合させることができます。 目標のアクティブ化については、[Adobe Workfront Goals での目標のアクティブ化](../../workfront-goals/goal-management/activate-goals.md)を参照してください。
 1. 別の目標（親目標）と整合させる目標（子目標）に移動し、その名前をクリックして目標ページを開きます。
 
    >[!INFO]
@@ -193,7 +193,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 
    親目標の名前をクリックして、別の目標を選択します。
 
-1. 既存の目標の名前を「**親目標**」フィールドに入力し始めて、リストに表示されたらそれを選択します。同じ期間または将来の期間に属する目標のみがリストに表示されます。
+1. 既存の目標の名前を「**親目標**」フィールドに入力し始めて、リストに表示されたらそれを選択します。 同じ期間または将来の期間に属する目標のみがリストに表示されます。
 
 1. 「**変更を保存**」をクリックします。
 
@@ -203,12 +203,12 @@ Aligning goals by connecting them differs depending on what environment you use.
 
    ![整列されたカード &#x200B;](assets/goal-1-and-2-aligned-cards-350x427.png)
 
-1. （オプション）「目標の整合性」セクションで目標を確認するには、Workfront の Goals 領域に移動したあと、左パネルの「**目標の整合性**」セクションをクリックします。「目標の整合性」セクションについては、[Adobe Workfront Goals の「目標の整合性」セクションのナビゲーション](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)を参照してください。
+1. （オプション）「目標の整合性」セクションで目標を確認するには、Workfront の Goals 領域に移動したあと、左パネルの「**目標の整合性**」セクションをクリックします。 「目標の整合性」セクションについては、[Adobe Workfront Goals の「目標の整合性」セクションのナビゲーション](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)を参照してください。
 
-1. （オプション）いずれかの目標にアクティビティと結果を追加して、進捗状況を示します。アクティビティと結果の追加については、次の記事を参照してください。
+1. （オプション）いずれかの目標にアクティビティと結果を追加して、進捗状況を示します。 アクティビティと結果の追加については、次の記事を参照してください。
 
    * [Adobe Workfront Goals で目標にアクティビティを追加する方法](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
    * [Adobe Workfront Goals で目標に結果を追加する方法](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
-1. （オプション）組織の全体的な戦略とは関係なくなったと見なされる場合は、2 つの目標の整合性を解除します。目標間の整合性の解除については、[Adobe Workfront Goals で目標の整合性を解除する方法](../../workfront-goals/goal-alignment/remove-goal-alignment.md)を参照してください。
+1. （オプション）組織の全体的な戦略とは関係なくなったと見なされる場合は、2 つの目標の整合性を解除します。 目標間の整合性の解除については、[Adobe Workfront Goals で目標の整合性を解除する方法](../../workfront-goals/goal-alignment/remove-goal-alignment.md)を参照してください。
 
