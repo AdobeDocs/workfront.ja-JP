@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: ' [!DNL Workfront Proof] のフォルダー権限を理解する'
-description: フォルダー内のアイテムを見る権限がある人は、フォルダ自体も見ることができます。ただし、フォルダー内のアイテムのうち、明示的に共有されたものだけを見ることができます。
+description: フォルダー内のアイテムを見る権限がある人は、フォルダ自体も見ることができます。 ただし、フォルダー内のアイテムのうち、明示的に共有されたものだけを見ることができます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 96162fe8-eef9-40f4-bc94-02911b970f02
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-フォルダー内のアイテムを見る権限がある人は、フォルダ自体も見ることができます。ただし、フォルダー内のアイテムのうち、明示的に共有されたものだけを見ることができます。
+フォルダー内のアイテムを見る権限がある人は、フォルダ自体も見ることができます。 ただし、フォルダー内のアイテムのうち、明示的に共有されたものだけを見ることができます。
 
 ## 公開フォルダー
 
@@ -63,13 +63,13 @@ ht-degree: 100%
 
 プライベートフォルダーを共有する際に、管理者がフォルダー項目を作成、編集、削除できるようにするかどうかを指定できます。
 
-これは、新規フォルダーページで各ユーザーに個別に設定でき、フォルダーの詳細ページの「[!UICONTROL 共有先]」セクションで変更できます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) でのフォルダーの作成および[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md) でのフォルダーとその内容の管理を参照してください。
+これは、新規フォルダーページで各ユーザーに個別に設定でき、フォルダーの詳細ページの「[!UICONTROL 共有先]」セクションで変更できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) でのフォルダーの作成および[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md) でのフォルダーとその内容の管理を参照してください。
 
-プライベートフォルダーがオブザーバーと共有されている場合、オブザーバーはフォルダー内のすべてのアイテムに対して読み取り専用アクセス権を持ちます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md) のフォルダーを共有を参照してください。
+プライベートフォルダーがオブザーバーと共有されている場合、オブザーバーはフォルダー内のすべてのアイテムに対して読み取り専用アクセス権を持ちます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md) のフォルダーを共有を参照してください。
 
 >[!NOTE]
 >
->* 親フォルダーが非公開の場合、すべてのサブフォルダーも非公開になります。非公開の親フォルダーの下に公開サブフォルダーを置くことはできません。ただし、公開の親フォルダーの下に非公開サブフォルダーを置くことはできます。
+>* 親フォルダーが非公開の場合、すべてのサブフォルダーも非公開になります。 非公開の親フォルダーの下に公開サブフォルダーを置くことはできません。 ただし、公開の親フォルダーの下に非公開サブフォルダーを置くことはできます。
 >* フォルダーの作成者と所有者は、常にアクセス権を持ちますが、削除はできません。
 >* 非公開フォルダーの作成者と所有者のみがフォルダーを削除できます。
 

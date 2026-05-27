@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: 2019-4-release-activity
 title: 2019.4 リリースの概要
-description: 2019.4 リリースは、2019年11月11日（PT）の週に、本番環境で使用可能になりました。このページでは、2019.4 リリースに含まれる機能について説明します。
+description: 2019.4 リリースは、2019年11月11日（PT）の週に、本番環境で使用可能になりました。 このページでは、2019.4 リリースに含まれる機能について説明します。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -11,14 +11,14 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 90%
+source-wordcount: '1044'
+ht-degree: 96%
 
 ---
 
 # 2019.4 リリースの概要
 
-2019.4 リリースは、2019年11月11日（PT）の週に、本番環境で使用可能になりました。このページでは、2019.4 リリースに含まれる機能について説明します。
+2019.4 リリースは、2019年11月11日（PT）の週に、本番環境で使用可能になりました。 このページでは、2019.4 リリースに含まれる機能について説明します。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">As the 2019.4 release nears its planned Production release, this page will be updated with all functionality included with 2019.4.</p>
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 ## すべてのユーザー向けの機能強化
 
-一部の機能は、2019.4 リリースより前にリリースされていました。2019.4 リリースより前にリリースされた機能については、[2019.4 その他の機能強化](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)を参照してください。
+一部の機能は、2019.4 リリースより前にリリースされていました。 2019.4 リリースより前にリリースされた機能については、[2019.4 その他の機能強化](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)を参照してください。
 
 2019.4 リリースには、以下の機能強化が含まれています。
 
@@ -47,7 +47,7 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->一部のリストの機能拡張（以下に示す）は、2019.4 リリースから削除されました。これらの機能強化は、2019年11月8日（PT）にプレビュー環境から削除され、実稼動環境への 2019.4 リリースには含まれません。これらの機能強化は、2019.4 の運用環境へのリリース後にプレビュー環境に再度追加され、将来のリリースで実稼動環境で利用できるようになります。
+>一部のリストの機能拡張（以下に示す）は、2019.4 リリースから削除されました。 これらの機能強化は、2019年11月8日（PT）にプレビュー環境から削除され、実稼動環境への 2019.4 リリースには含まれません。 これらの機能強化は、2019.4 の運用環境へのリリース後にプレビュー環境に再度追加され、将来のリリースで実稼動環境で利用できるようになります。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,15 +58,15 @@ ht-degree: 90%
    <td> <p><strong>リリース日</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">新しいリストのルックアンドフィールを更新</a>
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">新しいリストのルックアンドフィールを更新しました</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated look and feel of new lists</a>
      -->
-     <span style="color: #ff0000;"> – 変更</span></p> <p>プロジェクト、タスク、時間のリストのルックアンドフィールが更新されました。2019.4 リリースで更新される予定だった他のリストは、将来のリリースで更新される予定です。</p> </td>
+     <span style="color: #ff0000;"> – 変更</span></p> <p>プロジェクト、タスク、時間のリストのルックアンドフィールが更新されました。 2019.4 リリースで更新される予定だった他のリストは、将来のリリースで更新される予定です。</p> </td>
    <td> <p>プレビューリリース：2019年10月4日（PT）</p> <p>実稼動リリース：2019年11月（2019.4 リリース）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> レポート、テンプレートタスク、ポートフォリオなどのリストに適用される新しいデザイン </a>
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">レポート、テンプレート タスク、ポートフォリオなどのリストに新しいデザインが適用されました</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New design applied to lists for Reports, Template tasks, Portfolios, and more</a>
      -->
@@ -74,7 +74,7 @@ ht-degree: 90%
    <td> <p>プレビューリリース：2019年10月11日（PT）</p> <p>実稼動リリース：2019年11月（2019.4 リリース）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new2" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">新しいツールヒントがクイックフィルターに追加されました</a>
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new2" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">クイックフィルターに追加された新しいツールチップ</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New tooltip added to quick filters</a>
      -->
@@ -82,7 +82,7 @@ ht-degree: 90%
    <td> <p>プレビューリリース：2019年10月11日（PT）</p> <p>実稼動リリース：2019年11月（2019.4 リリース）</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new3" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> クイックフィルター用の新しいショートカット </a>
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new3" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">クイックフィルター用の新しいショートカット</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New shortcuts for quick filters</a>
      -->
@@ -103,7 +103,7 @@ ht-degree: 90%
    <td> <p><strong>リリース日</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#workfron" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">iPad用Workfront アプリ </a>
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#workfron" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">iPad 用 Workfront アプリ</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Workfron" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Workfront app for iPad</a>
      -->
@@ -111,7 +111,7 @@ ht-degree: 90%
    <td> <p>プレビューリリース：プレビューは提供されていません</p> <p>実稼動リリース：2019年11月（2019.4 リリース）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#delete" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Androidのモバイルアプリを使用してオブジェクトを削除</a>
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#delete" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Android のモバイルアプリを使用してオブジェクトを削除</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on Android</a>
      -->
@@ -119,7 +119,7 @@ ht-degree: 90%
    <td> <p>プレビューリリース：2019年10月4日（PT）</p> <p>実稼動リリース：2019年11月（2019.4 リリース）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Androidのモバイルアプリを使用して、タスク、イシュー、リクエストをプロジェクトに変換</a>
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Android のモバイルアプリを使用してタスク、イシュー、リクエストをプロジェクトに変換</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Convert Tasks, Issues, and Requests to a Project using the mobile app on Android</a>
      -->
@@ -127,15 +127,15 @@ ht-degree: 90%
    <td> <p>プレビューリリース：2019年10月4日（PT）</p> <p>実稼動リリース：2019年11月（2019.4 リリース）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#access" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">既存のお気に入りにアクセスして、モバイルで新しいお気に入りを追加</a>
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#access" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">モバイルで既存のお気に入りにアクセスし、新しいお気に入りを追加</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Access" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Access existing Favorites and add new Favorites on mobile</a>
      -->
-     </p> <p>iOS と Android の両方のデバイスで、Workfront モバイルアプリでお気に入りメニューにアクセスできるようになりました。お気に入りメニューから既存の項目にアクセスしたり、お気に入りメニューに新しい項目を追加したりできます。</p> </td>
+     </p> <p>iOS と Android の両方のデバイスで、Workfront モバイルアプリでお気に入りメニューにアクセスできるようになりました。 お気に入りメニューから既存の項目にアクセスしたり、お気に入りメニューに新しい項目を追加したりできます。</p> </td>
    <td> <p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Androidのナビゲーションを更新しました</a>
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Android のナビゲーションを更新</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Updated" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated Navigation on Android</a>
      -->
@@ -156,15 +156,15 @@ ht-degree: 90%
    <td> <p><strong>リリース日</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#the" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> ワークロードバランサーのベータ版</a>
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#the" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">ワークロードバランサーベータ版</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Resource-Management-enhancements-1912990902?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Workload Balancer beta</a>
      -->
-     </p> <p>ワークロードバランサーは、リソースのワークロード管理の新しいインターフェイスを提供します。このツールは、将来のどこかの時点でリソーススケジューラと置き換わる予定です。</p> </td>
+     </p> <p>ワークロードバランサーは、リソースのワークロード管理の新しいインターフェイスを提供します。 このツールは、将来のどこかの時点でリソーススケジューラと置き換わる予定です。</p> </td>
    <td> <p>プレビューリリース：2019年10月11日（PT）</p> <p>実稼動リリース：2019年11月（2019.4 リリース）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#resource" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> リソースプランナーのカスタム列</a>
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#resource" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">リソースプランナーのカスタム列</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2019-4-Resource-Management-enhancements-1912990902?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Resource&nbsp;Planner custom columns</a>
      -->
@@ -185,7 +185,7 @@ ht-degree: 90%
    <td> <p><strong>リリース日</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md#start" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Adobe CC ドキュメントから自動校正ワークフローを開始</a>
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md#start" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Adobe CC ドキュメントから自動プルーフワークフローを開始</a>
    <!--
       <a href="https://experience.workfront.com/s/article/2019-4-other-enhancements-742784455?language=en_US&amp;r=10&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Start an automated proofing workflow from an Adobe CC document</a>
      -->
@@ -296,7 +296,7 @@ ht-degree: 90%
 
 ### API バージョン 3 のサポートを終了しました {#api-version-3-no-longer-supported}
 
-API バージョン 3 のサポートは 2018年11月（PT）に終了しました。Workfront API のバージョンのサポートスケジュールについて詳しくは、[API のバージョン管理とサポートのスケジュール](../../../../wf-api/api/api-version-support-schedule.md)を参照してください
+API バージョン 3 のサポートは 2018年11月（PT）に終了しました。 Workfront API のバージョンのサポートスケジュールについて詳しくは、[API のバージョン管理とサポートのスケジュール](../../../../wf-api/api/api-version-support-schedule.md)を参照してください
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -308,7 +308,7 @@ API&nbsp;Version Release and Support Schedule
 
 ### TLS 1.0 および 1.1 のサポートが終了しました {#tls-1-0-and-1-1-support-is-ending}
 
-最適なセキュリティを提供するために、Workfront では、TLS 1.1 以前を使用するすべての統合および Web トラフィックを、TLS 1.2 を使用するようにアップグレードする必要があります。プレビュー環境では、TLS 1.0 は既に無効になっています。
+最適なセキュリティを提供するために、Workfrontでは、TLS 1.1以前を使用するすべての統合とweb トラフィックをTLS 1.2を使用するようにアップグレードする必要があります。 プレビュー環境では、TLS 1.0は既に無効になっています。
 
 <!--
 For more information, see <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md" class="MCXref xref">TLS 1.2 to be required in Adobe Workfront</a> </MadCap:conditionalText> 
@@ -335,4 +335,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 第 4 四半期の製品ロードマップに関するウェビナー {#q4-product-roadmap-webinar}
 
-[第 4 四半期ロードマップウェビナー](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter)では、今後の展開について詳しくご紹介します。本ウェビナーは 2019年11月6日（PT）に開催されました。リンクをクリックして登録し、オンデマンドで録画を視聴します。
+[第 4 四半期ロードマップウェビナー](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter)では、今後の展開について詳しくご紹介します。 本ウェビナーは 2019年11月6日（PT）に開催されました。 リンクをクリックして登録し、オンデマンドで録画を視聴します。

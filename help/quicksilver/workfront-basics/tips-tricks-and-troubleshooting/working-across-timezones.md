@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1253'
 ht-degree: 70%
 
 ---
@@ -36,30 +36,30 @@ ht-degree: 70%
 >
 >また、同様のタイムゾーンであっても、自身のタイムゾーンと完全には一致しない可能性があることも考慮してください。
 >
->例えば、一部の国や地域では夏時間が適用され、お客様の国では適用されていない可能性があります。必要に応じ、これらの変更に従ってシステムのタイムゾーンを調整する必要がある場合があります。
+>例えば、一部の国や地域では夏時間が適用され、お客様の国では適用されていない可能性があります。 必要に応じ、これらの変更に従ってシステムのタイムゾーンを調整する必要がある場合があります。
 
 
 ## [!DNL Workfront] のタイムゾーン
 
-[!DNL Workfront] に表示される時間は、組織の [!DNL Workfront] インスタンスとユーザープロフィールのタイムゾーン設定に基づいています。これら 2 つのタイムゾーンが異なる場合、[!DNL Workfront] で使用する様々な領域や機能に時間の相違が生じる可能性があります。
+[!DNL Workfront] に表示される時間は、組織の [!DNL Workfront] インスタンスとユーザープロフィールのタイムゾーン設定に基づいています。 これら 2 つのタイムゾーンが異なる場合、[!DNL Workfront] で使用する様々な領域や機能に時間の相違が生じる可能性があります。
 
 >[!NOTE]
 >
->オブジェクトに添付されたカスタムフォームでは、計算されたカスタムフィールドの日付と時刻のステートメントは、組織のインスタンスとユーザープロファイルに設定されたタイムゾーン設定ではなく、協定世界時（UTC）で計算および保存されます。カスタムフォームの計算は、各ユーザーの個々のタイムゾーンに基づいて生成され、表示されます。
+>オブジェクトに添付されたカスタムフォームでは、計算されたカスタムフィールドの日付と時刻のステートメントは、組織のインスタンスとユーザープロファイルに設定されたタイムゾーン設定ではなく、協定世界時（UTC）で計算および保存されます。 カスタムフォームの計算は、各ユーザーの個々のタイムゾーンに基づいて生成され、表示されます。
 
 * [組織の  [!DNL Workfront]  インスタンス](#your-organization-s-workfront-instance)
 * [ユーザープロファイル](#your-user-profile)
 
 ### 組織の [!DNL Workfront] インスタンス {#your-organization-s-workfront-instance}
 
-組織の [!DNL Workfront] インスタンスのタイムゾーンは、通常、本社の場所に設定されます。これにより、次のことが決定されます。
+組織の [!DNL Workfront] インスタンスのタイムゾーンは、通常、本社の場所に設定されます。 これにより、次のことが決定されます。
 
 * [!DNL Workfront] が生成したメールに表示される時間
 * 新しく追加されたユーザーのタイムゾーン（[!DNL Workfront] 管理者が、ユーザーの勤務先の場所に基づいたタイムゾーンを設定する前）
 
   この 2 つの例について詳しくは、[システムの基本情報の設定](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
 
-* 上書きされたプロジェクトの請求レートの開始または終了。詳しくは、[プロジェクトレベルで担当業務の請求レートを上書き](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)を参照してください。
+* 上書きされたプロジェクトの請求レートの開始または終了。 詳しくは、[プロジェクトレベルで担当業務の請求レートを上書き](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)を参照してください。
 
 ### ユーザープロファイル {#your-user-profile}
 
@@ -104,12 +104,12 @@ ht-degree: 70%
 
 ### スケジュールを使用 {#use-schedules}
 
-[!DNL Workfront] 管理者は、組織内のタイムゾーンごとに別々のスケジュールを作成し、すべてのユーザーがどこにいても作業が適切にスケジュールされるようにします。管理者がスケジュールを作成したら、特定のプロジェクトやユーザーに関連付けることができます。
+[!DNL Workfront] 管理者は、組織内のタイムゾーンごとに別々のスケジュールを作成し、すべてのユーザーがどこにいても作業が適切にスケジュールされるようにします。 管理者がスケジュールを作成したら、特定のプロジェクトやユーザーに関連付けることができます。
 
-* **[!UICONTROL プロジェクト]**：プロジェクト作成者は、個々のプロジェクトのスケジュールを選択できます。この結果、割り当て先のタイムゾーンに設定された作業時間に基づいて、プロジェクト内のタスクのスケジュールが決定されます。
+* **[!UICONTROL プロジェクト]**：プロジェクト作成者は、個々のプロジェクトのスケジュールを選択できます。 この結果、割り当て先のタイムゾーンに設定された作業時間に基づいて、プロジェクト内のタスクのスケジュールが決定されます。
 * **[!UICONTROL ユーザー]**：[!DNL Workfront] 管理者（または、ユーザーへの[!UICONTROL 編集]アクセス権を持つユーザー）は、ユーザープロファイルで個々のユーザーのスケジュールを選択できます。
 
-  このスケジュールは、プロジェクトスケジュールとは異なる場合があります。例えば、誰かがプロジェクト内にタスクを作成し、まだ誰にも割り当てていない場合、そのタスクはプロジェクトスケジュールを使用します。ユーザーがタスクに割り当てられると、そのタスクはそのユーザーのスケジュールを使用します。
+  このスケジュールは、プロジェクトスケジュールとは異なる場合があります。 例えば、誰かがプロジェクト内にタスクを作成し、まだ誰にも割り当てていない場合、そのタスクはプロジェクトスケジュールを使用します。 ユーザーがタスクに割り当てられると、そのタスクはそのユーザーのスケジュールを使用します。
 
   複数のユーザーがタスクに割り当てられている場合、システム全体またはグループ全体のプロジェクト環境設定で設定されているように、次のいずれかを使用します。
 
@@ -140,12 +140,12 @@ EST ユーザーは、午前9:00時（ESTが正午）に開始するようにス
 
 ### カスタムフォームでの計算時間フィールドの使用 {#use-calculated-time-fields-in-a-custom-form}
 
-カスタムフォームで一連の計算カスタムフィールドを使用して、複数の都市の時刻を表示する空港時計の列のように、組織のユーザーの現在時刻を表示できます。ユーザーが作業するタイムゾーンごとにフィールドを作成し、それぞれのタイムゾーンの時刻を各フィールドで計算できます。
+カスタムフォームで一連の計算カスタムフィールドを使用して、複数の都市の時刻を表示する空港時計の列のように、組織のユーザーの現在時刻を表示できます。 ユーザーが作業するタイムゾーンごとにフィールドを作成し、それぞれのタイムゾーンの時刻を各フィールドで計算できます。
 
-詳細については、[計算フィールドをフォームに追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)、および計算データ式の概要[記事](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date)日付と時刻の計算カスタムフィールド [の節を参照してください](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
+詳細については、[計算フィールドをフォームに追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)、および計算データ式の概要[&#128279;](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)記事[日付と時刻の計算カスタムフィールド &#x200B;](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date)の節を参照してください。
 
 ### カスタムフォームで日付フィールドの代わりにテキストフィールドを使用 {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
-設定した時刻がタイムゾーンの異なるユーザー向けに [!DNL Workfront] によってオブジェクト内で変換されないようにする場合は、オブジェクトに添付するカスタムフォームで、日付フィールドではなくテキストフィールドを使用します。これにより、入力した時刻が、プロジェクトのすべてのメンバーに対して表示されます。
+設定した時刻がタイムゾーンの異なるユーザー向けに [!DNL Workfront] によってオブジェクト内で変換されないようにする場合は、オブジェクトに添付するカスタムフォームで、日付フィールドではなくテキストフィールドを使用します。 これにより、入力した時刻が、プロジェクトのすべてのメンバーに対して表示されます。
 
-この場合、開発者のタイムゾーンとの時差を計算して作業の開始日時と終了日時を判断できるようにすることをフォームのユーザーに注意することをお勧めします。これは、カスタムフォームに入力する説明文や、そのフィールドのツールヒントに含めることもできます。詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+この場合、開発者のタイムゾーンとの時差を計算して作業の開始日時と終了日時を判断できるようにすることをフォームのユーザーに注意することをお勧めします。 これは、カスタムフォームに入力する説明文や、そのフィールドのツールヒントに含めることもできます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。

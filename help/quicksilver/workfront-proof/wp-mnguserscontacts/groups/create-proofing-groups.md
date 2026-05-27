@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
 title: ' [!DNL Workfront Proof] を使用してプルーフグループを作成'
-description: この機能を使用するには、Select または Premium プランが必要です。利用可能な様々なプランについて詳しくは、Workfront プランを参照してください。
+description: この機能を使用するには、Select または Premium プランが必要です。 利用可能な様々なプランについて詳しくは、Workfront プランを参照してください。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c0433621-3988-45f2-9d6b-68ef92b5b7d2
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-この機能を使用するには、Select または Premium プランが必要です。利用可能な様々なプランについて詳しくは、[[!DNL Workfront]  プラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
+この機能を使用するには、Select または Premium プランが必要です。 利用可能な様々なプランについて詳しくは、[[!DNL Workfront]  プラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
 
-複数のプルーフにレビュー担当者として追加できるユーザーのグループを作成できます。これは、同じユーザーにコンテンツを定期的に送信する場合に役立ちます。
+複数のプルーフにレビュー担当者として追加できるユーザーのグループを作成できます。 これは、同じユーザーにコンテンツを定期的に送信する場合に役立ちます。
 
 1. ダッシュボードで、**[!UICONTROL 新規]**&#x200B;の隣の下矢印をクリックし、次に&#x200B;**[!UICONTROL 新しいグループ]**&#x200B;をクリックします。
 

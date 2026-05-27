@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: b5fceaf9-f812-4368-8a13-d7fadebb7d28
 source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 100%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 プルーフを共有するには、対象の受信者に公開プルーフ URL を共有します。
 
-公開 URL は、プルーフを開く URL ですが、レビュアーを自動的にログインさせるものではありません。公開 URL は、プルーフに関する情報がユーザーのグループに送信される場合に使用できます。公開 URL からプルーフにアクセスすると、プルーフは読み取り専用アクセスで表示されます。アクセスレベルについて詳しくは、[ [!DNL Workfront]  Proof でのプルーフの役割の管理](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)を参照してください
+公開 URL は、プルーフを開く URL ですが、レビュアーを自動的にログインさせるものではありません。 公開 URL は、プルーフに関する情報がユーザーのグループに送信される場合に使用できます。 公開 URL からプルーフにアクセスすると、プルーフは読み取り専用アクセスで表示されます。 アクセスレベルについて詳しくは、[ [!DNL Workfront]  Proof でのプルーフの役割の管理](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)を参照してください
 
 また、署名のオプションも提供されるので、レビューに特に追加されたユーザーは、自分のメールアドレスでサインインし、プルーフにコメントまたは決定を行うことができます。
 
@@ -43,9 +43,9 @@ ht-degree: 100%
 
 ## 公開 URL からプルーフにアクセス
 
-公開 URL では、プルーフを開いたレビュアーは特定されません。代わりに、プルーフを読み取り専用モードで開きます。
+公開 URL では、プルーフを開いたレビュアーは特定されません。 代わりに、プルーフを読み取り専用モードで開きます。
 
-ユーザーがコメントを追加する場合は、サインインして自分を特定する必要があります。既にプルーフのレビュアーである場合は、ログインの詳細を入力するよう求められます。
+ユーザーがコメントを追加する場合は、サインインして自分を特定する必要があります。 既にプルーフのレビュアーである場合は、ログインの詳細を入力するよう求められます。
 
 プルーフのレビュアーではない場合は、登録する必要があります。
 

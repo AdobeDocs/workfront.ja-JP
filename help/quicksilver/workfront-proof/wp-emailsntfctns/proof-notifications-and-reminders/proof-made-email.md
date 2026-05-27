@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
 title: プルーフによるメール
-description: プルーフ作成に関するメールは、プルーフを作成した場合にのみ、プルーフの作成者に送信されます。プルーフを作成し、別のユーザーを所有者にした場合、その新しい所有者のみ、プルーフ作成に関するメールも受け取ります。作成者や所有者はこのメールを受け取りません。プルーフ作成に関するメールのみを受け取ります。新規プルーフに関するメールについて詳しくは、新規プルーフに関するメールを参照してください。
+description: プルーフ作成に関するメールは、プルーフを作成した場合にのみ、プルーフの作成者に送信されます。 プルーフを作成し、別のユーザーを所有者にした場合、その新しい所有者のみ、プルーフ作成に関するメールも受け取ります。 作成者や所有者はこのメールを受け取りません。プルーフ作成に関するメールのみを受け取ります。 新規プルーフに関するメールについて詳しくは、新規プルーフに関するメールを参照してください。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a6bfe471-2032-4b74-8316-584f923e8651
 source-git-commit: 0c40e2b4e691d63832842736eaf09eeb67127498
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '441'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-[!UICONTROL プルーフ作成]に関するメールは、プルーフを作成した場合にのみ、プルーフの作成者に送信されます。プルーフを作成し、別のユーザーを所有者にした場合、その新しい所有者のみ、[!UICONTROL プルーフ作成]に関するメールも受け取ります。作成者や所有者はこのメールを受け取りません。[!UICONTROL プルーフ作成]に関するメールのみを受け取ります。[!UICONTROL 新規プルーフ]に関するメールについて詳しくは、[[!UICONTROL 新規プルーフ]に関するメール](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)を参照してください。
+[!UICONTROL プルーフ作成]に関するメールは、プルーフを作成した場合にのみ、プルーフの作成者に送信されます。 プルーフを作成し、別のユーザーを所有者にした場合、その新しい所有者のみ、[!UICONTROL プルーフ作成]に関するメールも受け取ります。 作成者や所有者はこのメールを受け取りません。[!UICONTROL プルーフ作成]に関するメールのみを受け取ります。 [!UICONTROL 新規プルーフ]に関するメールについて詳しくは、[[!UICONTROL 新規プルーフ]に関するメール](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)を参照してください。
 
 ユーザーは、以下に説明するように、プロファイル設定で[!UICONTROL プルーフ作成]に関するメールを無効にできます。
 

@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 1b5d231b-c08a-4dea-bcbb-278527ccc4bd
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '842'
 ht-degree: 100%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 このページでは、2017.3 リリースに含まれる機能について説明します。 
 
-このページで説明する機能は、現在、プレビュー環境で使用でき、11 月に実稼動環境で使用できるようになります。  
+このページで説明する機能は、現在、プレビュー環境で使用でき、11 月に本番環境で使用できるようになります。  
 
 >[!IMPORTANT]
 >
->プレビュー環境の機能は、実稼動環境でリリースされる前に変更される場合があります。
+> プレビュー環境の機能は、本番環境でリリースされる前に変更される場合があります。
 
 2017.3 リリースには、Workfront 管理者およびその他のユーザー向けの機能強化が含まれています。
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 * [レポートとリストの列をサイズ変更および並べ替え](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#resize-and-reorder-columns-in-reports-and-lists)
 * [レポートリストに関するダッシュボード情報](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#dashboar)
 * [リソースプランナー：リソースプランナーのデータを Excel に書き出し](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-export-data)
-* [組み込みレポートに更新された説明が含まれる](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#built-in-reports-contain-updated-descriptions)
+* [ビルトインのレポートに更新された説明が含まれる](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#built-in-reports-contain-updated-descriptions)
 * [リソース予算計上時間数レポートの新しいグループ化：配分日](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#new-grouping-for-resource-budgeted-hour-reports)
 
 ### アジャイルの機能強化
@@ -151,8 +151,8 @@ ht-degree: 100%
 
 ### API の機能強化
 
-* [API 8 が利用可能に](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#api-8-now-availabe)
-* [API の削除および非推奨バージョン](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#removed-and-deprecated-versions-of-the-api)
+* [API 8 が利用可能に](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#api-8-now-availabe) 
+* [API の削除および非推奨バージョン](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#removed-and-deprecated-versions-of-the-api) 
 * [配信不能メッセージに対するイベント登録の再試行](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#event-subscription-retries-for-undeliverable-messages)
 * [イベント登録のメッセージ形式の更新](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#updated)
 * [イベント登録への時間リソースの追加](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#hour-resource-added-to-event-subscription)
@@ -182,4 +182,4 @@ ht-degree: 100%
 
 ## リリースウェビナー {#release-webinars}
 
-2017.3 リリースのウェビナー録画を視聴するには、[2017.3 リリースのウェビナー](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)を参照してください。
+ 2017.3 リリースのウェビナー録画を視聴するには、[2017.3 リリースのウェビナー](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)を参照してください。

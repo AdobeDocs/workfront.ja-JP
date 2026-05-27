@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1516'
 ht-degree: 100%
 
 ---
@@ -39,17 +39,17 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分が参加しているプロジェクトのマイルストーンタスクが完了した</strong> </p> <p>プロジェクトのマイルストーンタスクが完了すると、プロジェクトチームのメンバーは通知を受け取ります。個人のタスクが完了しても、通知は送信されません。</p> <p>プロジェクトのステータスが [!UICONTROL Current] か [!UICONTROL Planning] の場合にのみ通知が送信されます。</p> <p>件名は次の通りです：<em>[!UICONTROL Complete]: &lt;Task Name&gt; on &lt;Project Name&gt;</em></p> <p>日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt;</em></p> </td> 
+   <td> <p><strong>自分が参加しているプロジェクトのマイルストーンタスクが完了した</strong> </p> <p>プロジェクトのマイルストーンタスクが完了すると、プロジェクトチームのメンバーは通知を受け取ります。 個人のタスクが完了しても、通知は送信されません。</p> <p>プロジェクトのステータスが [!UICONTROL Current] か [!UICONTROL Planning] の場合にのみ通知が送信されます。</p> <p>件名は次の通りです：<em>[!UICONTROL Complete]: &lt;Task Name&gt; on &lt;Project Name&gt;</em></p> <p>日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt;</em></p> </td> 
    <td> タスク名<br>プロジェクト名<br>タスクの参照番号<br>タスクを完了したユーザーの名前<br>タスクのステータス<br>タスクが完了した日時<br>タスクの以前のステータス<br><strong>[!UICONTROL See More Details]</strong> ボタン <br>*プロジェクト名<br>*プロジェクトの参照番号<br>*完了したタスクの合計数<br>*タスク名<br>*タスクを完了したユーザーの名前<br>*日次ダイジェストの日付<br></td> 
    <td><strong>[!UICONTROL Daily]</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分が参加するプロジェクトの状況がアクティブになった</strong> </p> <p>プロジェクトのステータスが [!UICONTROL Current] に設定されると、プロジェクトチームのメンバーはメール通知を受け取ります。</p> <p>メモ：プロジェクトのステータスが [!UICONTROL Current] に設定されている場合に通知を受け取るには、ユーザーがプロジェクトの「スタッフ」タブにリストされている必要があります。プロジェクトチームにユーザーを追加する方法については、<a href="../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">プロジェクトチームを管理</a>を参照してください。</p> <p>インスタント通知メールの件名は次の通りです：<em>&lt;Project Name&gt; [!UICONTROL is Current - Go to your project and see your tasks!]</em></p> <p> 日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>自分が参加するプロジェクトの状況がアクティブになった</strong> </p> <p>プロジェクトのステータスが [!UICONTROL Current] に設定されると、プロジェクトチームのメンバーはメール通知を受け取ります。</p> <p>メモ：プロジェクトのステータスが [!UICONTROL Current] に設定されている場合に通知を受け取るには、ユーザーがプロジェクトの「スタッフ」タブにリストされている必要があります。 プロジェクトチームにユーザーを追加する方法については、<a href="../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">プロジェクトチームを管理</a>を参照してください。</p> <p>インスタント通知メールの件名は次の通りです：<em>&lt;Project Name&gt; [!UICONTROL is Current - Go to your project and see your tasks!]</em></p> <p> 日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>プロジェクト名<br>ポートフォリオ名<br>プロジェクト参照番号<br>プロジェクトのステータス<br>プロジェクト [!UICONTROL Planned Completion Date]<br>プロジェクト所有者<br>自分、自分の職務の役割の 1 つ、または自分のチームの 1 つに割り当てられたタスクのリスト<br><strong>[!UICONTROL See More Details]</strong> ボタン<br>*プロジェクト名<br>*プロジェクト参照番号<br>*プロジェクトのステータス<br>*日次ダイジェストの日付</p> </td> 
    <td><strong>今すぐ</strong> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>自分のチームが参加するプロジェクトがアクティブになった</strong> <p>プロジェクトがアクティブになると、チームのメンバーはメール通知を受け取ります。通知を受け取るには、チームを 1 つ以上のタスクに割り当てる必要があります。</p><p>個々のユーザーとチームの両方がプロジェクトのタスクに割り当てられている場合。チームは通知を受け取りません。</p><p>インスタント通知メールの件名は次の通りです：<i>&lt;Project Name&gt; [!UICONTROL is Active - Go to your project and see your tasks!]</i></p><p>日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p></td> 
+   <td><strong>自分のチームが参加するプロジェクトがアクティブになった</strong> <p>プロジェクトがアクティブになると、チームのメンバーはメール通知を受け取ります。 通知を受け取るには、チームを 1 つ以上のタスクに割り当てる必要があります。</p><p>個々のユーザーとチームの両方がプロジェクトのタスクに割り当てられている場合。 チームは通知を受け取りません。</p><p>インスタント通知メールの件名は次の通りです：<i>&lt;Project Name&gt; [!UICONTROL is Active - Go to your project and see your tasks!]</i></p><p>日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p></td> 
    <td>プロジェクト名<br>ポートフォリオ名<br>プロジェクト参照番号<br>プロジェクトのステータス<br>プロジェクト [!UICONTROL Planned Completion Date]<br>プロジェクト所有者<br>自分、自分の職務の役割の 1 つ、または自分のチームの 1 つに割り当てられたタスクのリスト<br><strong>[!UICONTROL See More Details]</strong> ボタン<br>*プロジェクト名<br>*プロジェクト参照番号<br>*プロジェクトのステータス<br>*日次ダイジェストの日付</td> 
    <td><strong>今すぐ</strong> </td> 
   </tr> 
@@ -59,12 +59,12 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分が参加しているプロジェクトのタスクが完了した</strong> </p> <p>プロジェクトでタスクが完了すると、プロジェクトチームのメンバーはメール通知を受け取ります。<br>プロジェクトチームについて詳しくは、<a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">プロジェクトチームの概要</a>を参照してください。</p> <p>プロジェクトのステータスが [!UICONTROL Current] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名は次の通りです：<em>[!UICONTROL Complete]: &lt;Task Name&gt; on &lt;Project Name&gt;</em></p> <p> <p>注意：タスクが [!UICONTROL Complete] と同等のステータスに変更された場合も、メールの件名には [!UICONTROL Complete] と表示されます。</p> </p> <p><em> 日次ダイジェスト通知の件名は次の通りです：[!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em> </p> </td> 
+   <td> <p><strong>自分が参加しているプロジェクトのタスクが完了した</strong> </p> <p>プロジェクトでタスクが完了すると、プロジェクトチームのメンバーはメール通知を受け取ります。 <br>プロジェクトチームについて詳しくは、<a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">プロジェクトチームの概要</a>を参照してください。</p> <p>プロジェクトのステータスが [!UICONTROL Current] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名は次の通りです：<em>[!UICONTROL Complete]: &lt;Task Name&gt; on &lt;Project Name&gt;</em></p> <p> <p>注意：タスクが [!UICONTROL Complete] と同等のステータスに変更された場合も、メールの件名には [!UICONTROL Complete] と表示されます。</p> </p> <p><em> 日次ダイジェスト通知の件名は次の通りです：[!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em> </p> </td> 
    <td> <p>タスク名<br>プロジェクト名<br>タスクの参照番号<br>タスクを完了したユーザーの名前<br>タスクのステータス<br>タスクのステータスが変更された日時<br>タスクの以前のステータス<br><strong>詳細を見る</strong>ボタン<br>*プロジェクト名<br>*プロジェクトの参照番号<br>*完了したタスクの合計数<br>*タスク名<br>*タスクを完了したユーザーの名前<br>*日次ダイジェストの日付<br></p> </td> 
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分が参加しているプロジェクトに問題が追加された</strong> </p> <p>イシューがプロジェクトに追加されると、プロジェクトチームのメンバーはメール通知を受け取ります。</p> <p>プロジェクトのステータスが「進行中」の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名は次の通りです：<em>[!UICONTROL Issue added to] &lt;Project Name&gt;</em></p> <p></p> <p> 日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>自分が参加しているプロジェクトに問題が追加された</strong> </p> <p>イシューがプロジェクトに追加されると、プロジェクトチームのメンバーはメール通知を受け取ります。</p> <p>プロジェクトのステータスが「進行中」の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名は次の通りです：<em>[!UICONTROL Issue added to] &lt;Project Name&gt;</em></p> <p> </p> <p> 日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p> </td> 
    <td> プロジェクト名<br>ポートフォリオ名<br>イシューの参照番号<br>イシューを追加したユーザーの名前<br>イシュータイプ<br>イシュー名<br>入力した日付<br>イシューの優先度<br>割り当て先の名前 <br>イシューのステータス<br>プライマリ連絡先<br>*プロジェクト名<br>*プロジェクトの参照番号<br>*プロジェクトに追加されたイシューの合計数<br>*イシュー名<br>*イシューの割り当て先のユーザーの名前<br>*日次ダイジェストの日付 </td> 
    <td> <p><strong>今すぐ</strong> </p> <p><strong>および日次</strong> </p> </td> 
   </tr> 
@@ -84,7 +84,7 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分が参加しているプロジェクトの状態が変更した</strong> </p> <p>プロジェクトのステータスが変更されると、プロジェクトチームのメンバーはメール通知を受け取ります。<br>プロジェクトチームについて詳しくは、<a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">プロジェクトチームの概要</a>を参照してください。</p> <p>インスタント通知メールの件名は次の通りです：<em>[!UICONTROL Project Status Change]: &lt;Project Name&gt;</em></p> <p> 日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>自分が参加しているプロジェクトの状態が変更した</strong> </p> <p>プロジェクトのステータスが変更されると、プロジェクトチームのメンバーはメール通知を受け取ります。 <br>プロジェクトチームについて詳しくは、<a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">プロジェクトチームの概要</a>を参照してください。</p> <p>インスタント通知メールの件名は次の通りです：<em>[!UICONTROL Project Status Change]: &lt;Project Name&gt;</em></p> <p> 日次ダイジェスト通知の件名は次の通りです：<em> [!UICONTROL Digest of Projects You're On] &lt;Date of daily digest&gt; </em></p> </td> 
    <td> プロジェクト名<br>ポートフォリオ名<br>プロジェクトの参照番号<br>プロジェクトのステータスを変更したユーザーの名前<br>プロジェクトの新しいステータス<br>プロジェクトのステータスが変更された日時<br>プロジェクトの以前のステータス<br><strong>[!UICONTROL See More Details]</strong> ボタン<br>*プロジェクト名<br>*プロジェクトの参照番号<br>*プロジェクトのステータス<br>*日次ダイジェストの日付 </td> 
    <td><strong>日次</strong> </td> 
   </tr> 

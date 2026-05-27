@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: b4c7c046-f15f-4e6e-9332-5232c7b7080b
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1254'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分がスポンサーしているプロジェクトに遅延が発生した</strong> </p> <p>プロジェクトがスケジュールより遅れると、プロジェクトスポンサーにメール通知が届きます。進捗状況ステータスが「[!UICONTROL At Risk]」または「[!UICONTROL In Trouble]」の場合、プロジェクトはスケジュールより遅れています。</p> <p>[!UICONTROL Review] ライセンスを持つユーザーには通知が送信されません。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Project Progress Change]: &lt;Project Name&gt;</em></p> <p>日次ダイジェスト通知の件名：<em> [!UICONTROL Digest of Projects You Sponsor] &lt;Date of daily digest&gt;</em></p> </td> 
+   <td> <p><strong>自分がスポンサーしているプロジェクトに遅延が発生した</strong> </p> <p>プロジェクトがスケジュールより遅れると、プロジェクトスポンサーにメール通知が届きます。 進捗状況ステータスが「[!UICONTROL At Risk]」または「[!UICONTROL In Trouble]」の場合、プロジェクトはスケジュールより遅れています。</p> <p>[!UICONTROL Review] ライセンスを持つユーザーには通知が送信されません。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Project Progress Change]: &lt;Project Name&gt;</em></p> <p>日次ダイジェスト通知の件名：<em> [!UICONTROL Digest of Projects You Sponsor] &lt;Date of daily digest&gt;</em></p> </td> 
    <td> プロジェクト名<br>ポートフォリオ名<br>プロジェクト参照番号<br>プロジェクトの進捗ステータス<br>プロジェクトの[!UICONTROL Planned Start Date]<br>プロジェクトの[!UICONTROL Planned Completion Date]<br>プロジェクトの[!UICONTROL Projected Start Date]<br>プロジェクトの[!UICONTROL Projected Completion Date]<br>プロジェクトの完了率<br>プロジェクトのステータス<br>プロジェクト所有者<br>*プロジェクト名<br>*プロジェクト参照番号<br>*プロジェクトの進捗ステータス<br>*日次ダイジェストの日付 </td> 
    <td><strong>日次</strong> </td> 
   </tr> 
@@ -54,7 +54,7 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分がスポンサーしているプロジェクトのタスクに遅延が発生した</strong> </p> <p>プロジェクトのタスクがスケジュールより遅れると、プロジェクトスポンサーにメール通知が届きます。進捗ステータスが [!UICONTROL At Risk]、[!UICONTROL Behind]、[!UICONTROL Late] の場合、タスクはスケジュールより遅れています。</p> <p>プロジェクトのステータスが [!UICONTROL Current] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Task Progress Change]: &lt;Task Name&gt;</em></p> <p>日次ダイジェスト通知の件名：<em> [!UICONTROL Digest of Projects You Sponsor] &lt;Date of daily digest&gt;</em></p> </td> 
+   <td> <p><strong>自分がスポンサーしているプロジェクトのタスクに遅延が発生した</strong> </p> <p>プロジェクトのタスクがスケジュールより遅れると、プロジェクトスポンサーにメール通知が届きます。 進捗ステータスが [!UICONTROL At Risk]、[!UICONTROL Behind]、[!UICONTROL Late] の場合、タスクはスケジュールより遅れています。</p> <p>プロジェクトのステータスが [!UICONTROL Current] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Task Progress Change]: &lt;Task Name&gt;</em></p> <p>日次ダイジェスト通知の件名：<em> [!UICONTROL Digest of Projects You Sponsor] &lt;Date of daily digest&gt;</em></p> </td> 
    <td> タスク名<br>プロジェクト名<br>タスク参照番号<br>新規タスク進捗ステータス<br>タスクの[!UICONTROL Planned Start Date]<br>タスクの[!UICONTROL Planned Completion Date]<br>タスクの[!UICONTROL Projected Start Date]<br>タスクの[!UICONTROL Projected Completion Date]<br>タスクの完了率<br>タスクステータス<br>割り当て先名<br>名前で入力<br>*プロジェクト名<br>*プロジェクト参照番号<br>*スケジュールより遅れているタスクの合計数<br>*タスク名<br>*タスクを入力したユーザーの名前<br>*日次ダイジェストの日付 </td> 
    <td><strong>日次</strong> </td> 
   </tr> 

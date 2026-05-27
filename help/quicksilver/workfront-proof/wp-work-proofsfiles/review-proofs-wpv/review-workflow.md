@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: プルーフビューアーでワークフローを確認
-description: ワークフローパネルには、プルーフの詳細ページや、メール通知に表示されるプルーフのワークフローが表示されます。プルーフの詳細について詳しくは、Workfront Proof でのプルーフの詳細の管理を参照してください。ユーザーとゲストを含む、割り当てられたすべてのレビュアーは、ワークフローパネルを表示できます。
+description: ワークフローパネルには、プルーフの詳細ページや、メール通知に表示されるプルーフのワークフローが表示されます。 プルーフの詳細について詳しくは、Workfront Proof でのプルーフの詳細の管理を参照してください。 ユーザーとゲストを含む、割り当てられたすべてのレビュアーは、ワークフローパネルを表示できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '276'
 ht-degree: 99%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 [!UICONTROL ワークフロー]パネルには、プルーフの詳細ページと、メール通知に表示されるプルーフのワークフローが表示されます。\
 プルーフの詳細について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細を管理を参照してください。\

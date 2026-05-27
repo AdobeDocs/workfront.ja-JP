@@ -10,7 +10,7 @@ exl-id: bb29f888-bc99-47ef-852f-1197efb2b41e
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 レビュー担当者に、複数のアイテムが共有されていることを知らせるメッセージを 1 通で送信できます。
 
@@ -35,6 +35,6 @@ ht-degree: 100%
 
 1. **[!UICONTROL その他]**／**[!UICONTROL メッセージ]**&#x200B;をクリックします。
 
-1. 表示される「**[!UICONTROL メッセージを送信]**」ボックスに、**[!UICONTROL タイトル]**&#x200B;と&#x200B;**[!UICONTROL メッセージ]**&#x200B;を入力し、「**[!UICONTROL 送信]」をクリックします。**&#x200B;連絡先は、すべてのプルーフの情報と個人用リンクを含むメールを 1 通受信します。
+1. 表示される「**[!UICONTROL メッセージを送信]**」ボックスで、**[!UICONTROL タイトル]**&#x200B;と&#x200B;**[!UICONTROL メッセージ &#x200B;],**&#x200B;を入力し、**[!UICONTROL 送信].**&rbrace;をクリックします。連絡先は、1つの電子メール内のすべてのプルーフに関する情報と個人リンクを含む電子メールを受け取ります。&#x200B;
 
 

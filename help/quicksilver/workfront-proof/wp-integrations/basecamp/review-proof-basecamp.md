@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 355e6bfe-ae6d-4bac-a648-0e48cf945bb4
 source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '690'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 [!DNL Basecamp] と [!DNL Workfront Proof] の統合を使用すると、[!DNL Basecamp] を離れることなく、プルーフを簡単に確認および承認できます。
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> [!DNL Workfront Proof] のユーザーでない場合、[!DNL Basecamp] でプルーフに対して作業を行えます。必要な操作は、メールアドレスと画面名を入力するだけです。また、「[!UICONTROL 情報を記憶する]」というメッセージを選択すると、詳細を入力する必要があるのは 1 回だけになります。
+> [!DNL Workfront Proof] のユーザーでない場合、[!DNL Basecamp] でプルーフに対して作業を行えます。 必要な操作は、メールアドレスと画面名を入力するだけです。 また、「[!UICONTROL 情報を記憶する]」というメッセージを選択すると、詳細を入力する必要があるのは 1 回だけになります。
 
 ## 通知メールからのプルーフの表示
 
@@ -61,7 +61,7 @@ ht-degree: 100%
    メッセージページには、プルーフの名前（件名内）（3）と、全画面表示のプルーフビューアー（4）へのリンクが含まれます。
 1. ![Basecamp_messages_1.png](assets/basecamp-messages-1-350x129.png)
 
-1. いずれかのブラウザーウィンドウで [!DNL Workfront Proof] アカウントにログインしている場合は、すぐにレビューを開始できます。ミニプルーフの左下隅に自分の名前が表示されない場合：
+1. いずれかのブラウザーウィンドウで [!DNL Workfront Proof] アカウントにログインしている場合は、すぐにレビューを開始できます。 ミニプルーフの左下隅に自分の名前が表示されない場合：
 1. 「**[!UICONTROL ログイン]**」をクリックします（5）。
 1. メールアドレス（プルーフに追加するために使用したもの）を入力します（6）。
 1. 「**[!UICONTROL 次へ]**」をクリックし、表示される 2 番目のボックスに [!DNL Workfront Proof] のパスワードを入力します（7）。\
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 ## [!DNL Basecamp] でのプルーフの確認
 
-[!DNL Basecamp] でプルーフを確認するのは、[!DNL Workfront Proof] の場合と同じくらい簡単です。[!DNL Basecamp] のミニプルーフは、プルーフに対してコメントやマークアップを追加し、校正判断を行うために必要なすべてのツールを提供します。
+[!DNL Basecamp] でプルーフを確認するのは、[!DNL Workfront Proof] の場合と同じくらい簡単です。 [!DNL Basecamp] のミニプルーフは、プルーフに対してコメントやマークアップを追加し、校正判断を行うために必要なすべてのツールを提供します。
 
 ![Basecamp_message_window_with_miniproof.png](assets/basecamp-message-window-with-miniproof-350x406.png)
 
@@ -100,6 +100,6 @@ ht-degree: 100%
 
 * 「[!UICONTROL コメントを追加]」ボタンおよび「[!UICONTROL 決定を送信]」ボタン（ミニプルーフに表示される「コメント」アイコンや「決定」アイコンではなく）（1）。
 * ミニプルーフよりも多くのズームツールおよびナビゲーションツール（2）。
-* プルーフの左上隅にある「[!UICONTROL 移動先[!DNL Basecamp]]」ボタン。これをクリックすると、[!DNL Basecamp] アカウントに戻ります（3）。
+* プルーフの左上隅にある「[!UICONTROL 移動先[!DNL Basecamp]]」ボタン。 これをクリックすると、[!DNL Basecamp] アカウントに戻ります（3）。
 
 ![ProofHQ_full_screen_view.png](assets/proofhq-full-screen-view-350x217.png)

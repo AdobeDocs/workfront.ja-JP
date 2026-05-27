@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '932'
 ht-degree: 96%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 96%
    >* コマンドでは大文字と小文字が区別されます。
    >* `/workfront` の代わりに `/wf` でコマンドを開始できます。
 
-   タスク、イシューおよび承認のリストにアクセスできるボタンが表示されます。ボタンのうちの 1 つをクリックすると、[!DNL Slack] 内の各リストの最初の 20 項目が表示されます。
+   タスク、イシューおよび承認のリストにアクセスできるボタンが表示されます。 ボタンのうちの 1 つをクリックすると、[!DNL Slack] 内の各リストの最初の 20 項目が表示されます。
 
 1. （オプション）「**[!UICONTROL タスク]**」をクリックして、すべてのタスクを表示します。
 
@@ -119,11 +119,11 @@ ht-degree: 96%
    >[!NOTE]
    >
    >* 記録できるのは、1 時間または 30 分単位、最大 12 時間 30 分までです。
-   >* 記録した時間数のエントリ日は今日になっています。[!DNL Slack] から過去または未来の日付の時間を記録することはできません。
+   >* 記録した時間数のエントリ日は今日になっています。 [!DNL Slack] から過去または未来の日付の時間を記録することはできません。
 
    時間が記録されたことを示す確認メッセージが表示されます。
 
-1. （オプション）「**[!UICONTROL 作業をする]**」をクリックして、タスクの作業を承認します。「[!UICONTROL 作業をする]」ボタンが表示されなくなります。
+1. （オプション）「**[!UICONTROL 作業をする]**」をクリックして、タスクの作業を承認します。 「[!UICONTROL 作業をする]」ボタンが表示されなくなります。
 
 ## [!DNL Slack] からイシューを管理 {#manage-your-issues-from-slack}
 
@@ -162,7 +162,7 @@ ht-degree: 96%
 
 承認とは、レガシードキュメントの承認を指します。 [!DNL Microsoft Teams]では、現在、統合ドキュメントの承認はサポートされていません。 Workfrontの様々な承認システムについて詳しくは、[文書の承認に使用できる機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)を参照してください。
 
-1. お使いの [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。\
+1. [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。\
    [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[&#x200B; [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  へのアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
 
 1. 任意のチャネルから、メッセージフィールドに次のいずれかのコマンドを入力します。
@@ -178,7 +178,7 @@ ht-degree: 96%
    >* コマンドでは大文字と小文字が区別されます。
    >* `/workfront` の代わりに `/wf` でコマンドを開始できます。
 
-   **[!UICONTROL 承認]**&#x200B;リストの最初の 20 項目が表示されます。項目をリクエストしたユーザーの名前や、項目が属するプロジェクトの名前などの、項目に関する追加情報も表示されます。
+   **[!UICONTROL 承認]**&#x200B;リストの最初の 20 項目が表示されます。 項目をリクエストしたユーザーの名前や、項目が属するプロジェクトの名前などの、項目に関する追加情報も表示されます。
 
 1. 「**[!UICONTROL + 残り `<number>`]**」をクリックして、追加の項目を表示します。
 

@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1774'
 ht-degree: 5%
 
 ---
@@ -195,7 +195,7 @@ Old:
       >各条件の修飾子は、選択したフィールドのタイプで変更されます。
 
 1. **アクション** セクションの次のフィールドを更新します：<!--submitted bugs for these fields - see if they need changing here-->
-   * **アクション**：自動処理をトリガーする際にWorkfrontで実行するアクションを選択します。 これは必須フィールドです。
+   * **アクション**：自動処理をトリガーする際にWorkfrontで実行するアクションを選択します。 必須フィールドです。
 次のいずれかのアクションを選択します。
 
       * 複数のプロジェクトの作成

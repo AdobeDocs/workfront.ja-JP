@@ -8,8 +8,8 @@ feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
 source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 97%
+source-wordcount: '1101'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 [!DNL Slack] からリンクを開いたり、これらのオブジェクトに対して追加のアクションを実行したりするには、別のブラウザータブで [!DNL Workfront] にログインする必要があります。
 
-ユーザーが [!DNL Workfront] 内のオブジェクトへのリンクを共有している場合、そのオブジェクトに関する追加情報がリンクと共に表示される場合があります。これらの追加情報を [!DNL Slack] に表示するには、リンクを送信するユーザーに、少なくともオブジェクトの[!UICONTROL 表示]権限が必要です。
+ユーザーが [!DNL Workfront] 内のオブジェクトへのリンクを共有している場合、そのオブジェクトに関する追加情報がリンクと共に表示される場合があります。 これらの追加情報を [!DNL Slack] に表示するには、リンクを送信するユーザーに、少なくともオブジェクトの[!UICONTROL 表示]権限が必要です。
 
 ## アクセス要件
 
@@ -50,7 +50,7 @@ ht-degree: 97%
 
 [!DNL Slack] からお気に入りと最近使用した項目にアクセスする前に、以下を行います
 
-* [!DNL Workfront for Slack] を設定\
+* [!DNL Workfront for Slack] の設定\
    [!DNL Workfront for Slack] の設定の手順については、[&#x200B; [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
 
 ## [!DNL Slack] からのプロジェクトへのアクセス
@@ -72,7 +72,7 @@ ht-degree: 97%
 
    * **[!UICONTROL 予定完了日]**：予定完了日について詳しくは、[プロジェクトの予定完了日の設定](../../manage-work/projects/planning-a-project/project-planned-completion-date.md)を参照してください。
 
-   * **[!UICONTROL Portfolio]** 名前：ポートフォリオについて詳しくは、[&#x200B; ポートフォリオ手法について &#x200B;](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md) を参照してください。
+   * **[!UICONTROL Portfolio]**&#x200B;名：ポートフォリオについて詳しくは、[&#x200B; ポートフォリオ手法の理解](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。
 
    * **[!UICONTROL 状況]**：プロジェクト状況について詳しくは、[プロジェクト状況と状況タイプの概要](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)を参照してください。
 

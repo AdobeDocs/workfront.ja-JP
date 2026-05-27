@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: ホーム領域での作業項目の更新または編集
-description: Adobe Workfront の [!UICONTROL ホーム]エリア内の作業アイテムの更新を表示して追加できます。編集アクセス権がある場合は、作業アイテムに関連する他のデータを編集することもできます。
+description: Adobe Workfront の [!UICONTROL ホーム]エリア内の作業アイテムの更新を表示して追加できます。 編集アクセス権がある場合は、作業アイテムに関連する他のデータを編集することもできます。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 26%
+source-wordcount: '843'
+ht-degree: 29%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 26%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-[!DNL Adobe Workfront] の [!UICONTROL ホーム]エリア内の作業アイテムの更新を表示して追加できます。編集アクセス権がある場合は、作業アイテムに関連する他のデータを編集することもできます。
+[!DNL Adobe Workfront] の [!UICONTROL ホーム]エリア内の作業アイテムの更新を表示して追加できます。 編集アクセス権がある場合は、作業アイテムに関連する他のデータを編集することもできます。
 
 ## アクセス要件
 
@@ -47,7 +47,7 @@ ht-degree: 26%
    <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
    <td> <p>タスクとイシューに対する[!UICONTROL Edit]アクセス権</p> </td> 
   </tr> 
   <tr> 
@@ -120,7 +120,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
    >[!IMPORTANT]
    >
-   >コメントは、送信後15分以内にのみ編集できます。 コメントを編集するには、コメントの右上隅にある&#x200B;**詳細** メニューをクリックし、**編集**&#x200B;をクリックします。
+   >コメントは送信後の 15 分間のみ編集できます。 コメントを編集するには、コメントの右上隅にある&#x200B;**詳細** メニューをクリックし、**編集**&#x200B;をクリックします。
 
    更新プログラムの追加について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
@@ -142,7 +142,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
    >[!IMPORTANT]
    >
-   >コメントは、送信後15分以内にのみ編集できます。 コメントを編集するには、コメントの右上隅にある&#x200B;**詳細** メニューをクリックし、**編集**&#x200B;をクリックします。
+   >コメントは送信後の 15 分間のみ編集できます。 コメントを編集するには、コメントの右上隅にある&#x200B;**詳細** メニューをクリックし、**編集**&#x200B;をクリックします。
 
    更新プログラムの追加について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 

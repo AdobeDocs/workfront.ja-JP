@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '548'
 ht-degree: 79%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 79%
 
 ## 詳細とカスタムフォームデータの表示
 
-1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
@@ -89,7 +89,7 @@ ht-degree: 79%
 
 ## ドキュメントの詳細の表示
 
-1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
@@ -110,7 +110,7 @@ ht-degree: 79%
 
 ## プルーフの詳細の表示
 
-1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
@@ -128,7 +128,7 @@ ht-degree: 79%
 
 ## プルーフのステータスの表示
 
-1. 右上にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
@@ -140,13 +140,13 @@ ht-degree: 79%
 
 1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックし、プルーフをダブルクリックします。
 
-1. 下部までスクロールして、プルーフの現在のステータスを表示します。送信済み、開封済み、コメント、決定（SOCD）の詳細については、 [ドキュメントの詳細の概要](/help/quicksilver/documents/managing-documents/document-details-overview.md)を参照してください。
+1. 下部までスクロールして、プルーフの現在のステータスを表示します。 送信済み、開封済み、コメント、決定（SOCD）の詳細については、 [ドキュメントの詳細の概要](/help/quicksilver/documents/managing-documents/document-details-overview.md)を参照してください。
 
 ![&#x200B; プルーフの状態](assets/proof-status.png)
 
 ## サブタスクとイシューの表示
 
-1. 右上にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 

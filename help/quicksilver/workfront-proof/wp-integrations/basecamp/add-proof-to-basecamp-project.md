@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: fd62db43-bc45-4ede-b1ef-a198323793ca
 source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '676'
 ht-degree: 100%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 [!DNL Basecamp] 統合を設定すると、[!DNL Basecamp] アカウントでプロジェクトにプルーフを追加できるようになります。
 
-プルーフのレビュアーには、[!DNL Workfront Proof] ミニプルーフが埋め込まれた [!DNL Basecamp] アカウントでメッセージが届きます。メッセージを開いたら、[!DNL Basecamp] アカウント内からプルーフについてコメントし、決定を下すことができます。詳しくは、[ [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md) でのプルーフの確認を参照してください。
+プルーフのレビュアーには、[!DNL Workfront Proof] ミニプルーフが埋め込まれた [!DNL Basecamp] アカウントでメッセージが届きます。 メッセージを開いたら、[!DNL Basecamp] アカウント内からプルーフについてコメントし、決定を下すことができます。 詳しくは、[ [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md) でのプルーフの確認を参照してください。
 
 プルーフの作成者は、[!DNL Basecamp] 統合が有効になっていること、および「[!UICONTROL 個人設定]」で関連する [!DNL Basecamp] アカウントが選択されていることを確認してください（複数の [!DNL Basecamp] アカウントと統合できるため）。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->レビュアーのデフォルト値を変更した場合は、新しいデフォルト値を使用する前に [!DNL Basecamp] データを更新する必要があります。[!DNL Basecamp] データを更新するには、[!DNL Workfront Proof] の Basecamp ポップアップの「[!UICONTROL 更新]」リンクをクリックします。[!DNL Basecamp] でメッセージを受け取る場合は、自分の名前を含めます。
+>レビュアーのデフォルト値を変更した場合は、新しいデフォルト値を使用する前に [!DNL Basecamp] データを更新する必要があります。 [!DNL Basecamp] データを更新するには、[!DNL Workfront Proof] の Basecamp ポップアップの「[!UICONTROL 更新]」リンクをクリックします。 [!DNL Basecamp] でメッセージを受け取る場合は、自分の名前を含めます。
 >
 >他のプルーフ設定を使用して「[!UICONTROL Basecamp に追加]」ポップアップを完了し、「[!UICONTROL 保存]」をクリックしてプルーフを送信します。
 >
@@ -66,12 +66,12 @@ ht-degree: 100%
    1. 「**[!UICONTROL データを更新]**」をクリックして、Basecamp Classic と同期してから続行します。
    1. Basecamp プロジェクトを選択します。
    1. 「**[!UICONTROL プロジェクトの担当者]**」で、プルーフに追加する [!DNL Basecamp] Classic アカウントでレビュアー用のチェックボックスを選択します。
-   1. レビュアーがデフォルトの役割やメールアラートに表示されます。選択したレビュアーは、Basecamp でこのプルーフに関するメッセージと、[!DNL Workfront Proof] からのメール通知を受け取ります。
-   1. レビュアーのデフォルト値を変更した場合は、新しいデフォルト値を使用する前に Basecamp のデータを更新する必要があります。Basecamp データを更新するには、Workfront Proof の Basecamp ポップアップの「更新」リンクをクリックします。Basecamp でメッセージを受け取りたい場合は、自分の名前を含めます
+   1. レビュアーがデフォルトの役割やメールアラートに表示されます。 選択したレビュアーは、Basecamp でこのプルーフに関するメッセージと、[!DNL Workfront Proof] からのメール通知を受け取ります。
+   1. レビュアーのデフォルト値を変更した場合は、新しいデフォルト値を使用する前に Basecamp のデータを更新する必要があります。 Basecamp データを更新するには、Workfront Proof の Basecamp ポップアップの「更新」リンクをクリックします。 Basecamp でメッセージを受け取りたい場合は、自分の名前を含めます
 
 1. 「**[!UICONTROL OK]**」をクリックします。
 
-[!DNL Basecamp Classic] プロジェクトにプルーフを追加すると、プルーフの詳細ページの「[!UICONTROL その他の共有オプション]」セクションに、追加のオプションが表示されます（このページについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフ詳細を管理を参照）。次の操作を実行できます。
+[!DNL Basecamp Classic] プロジェクトにプルーフを追加すると、プルーフの詳細ページの「[!UICONTROL その他の共有オプション]」セクションに、追加のオプションが表示されます（このページについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフ詳細を管理を参照）。 次の操作を実行できます。
 
 * [!DNL Basecamp Classic] プロジェクトの詳細を編集します。
 * ボックスの下部にあるプロジェクト URL をクリックして、[!DNL Basecamp Classic] のメッセージに移動します（URL にはこのプルーフの識別子が含まれています）。
