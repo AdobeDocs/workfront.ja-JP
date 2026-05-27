@@ -3,7 +3,7 @@ product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Adobe Workfront Goals の結果とアクティビティについての基本を学ぶ
-description: 目標をアクティブ化するには、結果、アクティビティまたは連携した目標を目標に追加する必要があります。これにより、目標のステータスがドラフトからアクティブに更新され、目標に関する進捗の記録が開始されます。
+description: 目標をアクティブ化するには、結果、アクティビティまたは連携した目標を目標に追加する必要があります。 これにより、目標のステータスがドラフトからアクティブに更新され、目標に関する進捗の記録が開始されます。
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '804'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 >
@@ -49,23 +49,23 @@ Old:
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 -->
 
-目標を作成すると、その目標のステータスは「ドラフト」になります。目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
+目標を作成すると、その目標のステータスは「ドラフト」になります。 目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
 
-目標に関する進行状況の記録を開始するには、目標をアクティブ化する必要があります。目標をアクティブ化してそのステータスを「アクティブ」に変更するには、まず目標に次の情報を追加する必要があります。
+目標に関する進行状況の記録を開始するには、目標をアクティブ化する必要があります。 目標をアクティブ化してそのステータスを「アクティブ」に変更するには、まず目標に次の情報を追加する必要があります。
 
 * 結果
 * アクティビティ
 * プロジェクト
 * 連携した目標
 
-目標は、これらの項目の少なくとも 1 つを追加すると、アクティブ化できます。目標の結果とアクティビティを更新して、目標の進捗を示す必要があります。
+目標は、これらの項目の少なくとも 1 つを追加すると、アクティブ化できます。 目標の結果とアクティビティを更新して、目標の進捗を示す必要があります。
 
 
 >[!IMPORTANT]
 >
 > 目標は、アクティビティ、結果、プロジェクト、連携された目標を、合計 1000 件以上持つことはできません。</span>
 
-この記事では、アクティビティと結果の概要を説明します。目標の調整について詳しくは、[Adobe Workfront Goalsの目標の調整：記事インデックス &#x200B;](../../workfront-goals/goal-alignment/goal-alignment.md)を参照してください。 プロジェクトを目標に接続する方法について詳しくは、[Adobe Workfront Goals の目標へのプロジェクトの追加](../results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
+この記事では、アクティビティと結果の概要を説明します。 目標の調整について詳しくは、[Adobe Workfront Goalsの目標の調整：記事インデックス ](../../workfront-goals/goal-alignment/goal-alignment.md)を参照してください。 プロジェクトを目標に接続する方法について詳しくは、[Adobe Workfront Goals の目標へのプロジェクトの追加](../results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
 
 ## 結果の概要
 
@@ -73,7 +73,7 @@ Old:
 <p> This will have additional types in the future - add another section for types?)</p>
 -->
 
-結果は、目標の進捗状況やどのくらい達成に近づいているかを測定します。目標の所有者は、結果を所有することもできます。目標に対する結果は、別のユーザーに割り当てられる場合もあります。
+結果は、目標の進捗状況やどのくらい達成に近づいているかを測定します。 目標の所有者は、結果を所有することもできます。 目標に対する結果は、別のユーザーに割り当てられる場合もあります。
 
 目標への結果の追加について詳しくは、[Adobe Workfront Goals の目標への結果の追加](../../workfront-goals/results-and-activities/add-results-to-goals.md)を参照してください。
 
@@ -82,7 +82,7 @@ Old:
 結果を操作する際は、次の点に注意してください。
 
 * 「目標がいつ完了するかをどうやって知るのか？」という質問に答えるようにします。
-* 結果は指標です。結果の進行状況を示すために、次のオプションから選択できます。
+* 結果は指標です。 結果の進行状況を示すために、次のオプションから選択できます。
 
    * 通貨
    * 数値
@@ -96,14 +96,14 @@ Old:
 This will have additional types in the future - add another section for types?
 -->
 
-アクティビティは、結果と同様に、具体的かつ測定可能で、通常、完了率の指標を含みます。目標の所有者は、目標に関連付けられたアクティビティを所有することもできます。また、目標に関するアクティビティが別のユーザーに割り当てられている場合もあります。
+アクティビティは、結果と同様に、具体的かつ測定可能で、通常、完了率の指標を含みます。 目標の所有者は、目標に関連付けられたアクティビティを所有することもできます。 また、目標に関するアクティビティが別のユーザーに割り当てられている場合もあります。
 
 目標へのアクティビティの追加について詳しくは、[Adobe Workfront Goals の目標へのアクティビティの追加](../../workfront-goals/results-and-activities/add-activities-to-goals.md)を参照してください。
 
 アクティビティを目標に関連付ける際は、次の点を考慮してください。
 
 * 「目標が完了したら何を達成するのか？」という質問に答えるようにします。
-* アクティビティは、完了または未完了という観点から考えることができるカスタムエントリです。手動で更新して、これまでに完了したアクティビティの割合を示す必要があります。
+* アクティビティは、完了または未完了という観点から考えることができるカスタムエントリです。 手動で更新して、これまでに完了したアクティビティの割合を示す必要があります。
 
 <!--
 * You can associate the following activities with goals:
@@ -133,9 +133,9 @@ This will have additional types in the future - add another section for types?
 
 結果、アクティビティ、プロジェクトは目標の進捗状況の指標です。
 
-プロジェクトの管理方法と、結果およびアクティビティの管理方法には、いくつかの違いがあります。目標へのプロジェクトの追加について詳しくは、[Adobe Workfront Goals の目標へのアクティビティの追加](../../workfront-goals/results-and-activities/add-activities-to-goals.md)を参照してください。目標に接続されているプロジェクトについては、[Adobe Workfront Goals の目標にプロジェクトを追加する](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
+プロジェクトの管理方法と、結果およびアクティビティの管理方法には、いくつかの違いがあります。 目標へのプロジェクトの追加について詳しくは、[Adobe Workfront Goals の目標へのアクティビティの追加](../../workfront-goals/results-and-activities/add-activities-to-goals.md)を参照してください。 目標に接続されているプロジェクトについては、[Adobe Workfront Goals の目標にプロジェクトを追加する](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
 
-結果、アクティビティ、プロジェクトに加えて、目標に、子の目標を関連付けることもできます。また、子の目標は、目標の進捗状況指標の一種です。詳しくは、[Adobe Workfront Goals で目標をに結び付けて整合させる](../goal-alignment/align-goals-by-connecting-them.md)を参照してください。また、子目標の進捗状況指標の進捗状況は、親目標の進捗状況を左右します。
+結果、アクティビティ、プロジェクトに加えて、目標に、子の目標を関連付けることもできます。 また、子の目標は、目標の進捗状況指標の一種です。 詳しくは、[Adobe Workfront Goals で目標をに結び付けて整合させる](../goal-alignment/align-goals-by-connecting-them.md)を参照してください。 また、子目標の進捗状況指標の進捗状況は、親目標の進捗状況を左右します。
 
 次の表には、目標のインジケーターとしての、結果、アクティビティ、プロジェクトの類似点と相違点が表示されています。
 
@@ -205,8 +205,8 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
-   <td>開始値と終了値の間の値の範囲が提供され、これらの値を達成するにはどの程度近いかを示します。終了値に近い値は、目標の進捗状況の値を計算します。 </td> 
+  <tr> ****
+   <td>開始値と終了値の間の値の範囲が提供され、これらの値を達成するにはどの程度近いかを示します。 終了値に近い値は、目標の進捗状況の値を計算します。 </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 

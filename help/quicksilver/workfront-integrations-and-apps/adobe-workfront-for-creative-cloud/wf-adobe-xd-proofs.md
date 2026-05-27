@@ -8,8 +8,8 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
 source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 92%
+source-wordcount: '1014'
+ht-degree: 93%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 92%
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] パッケージ</td> 
    <td>任意 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>標準</p> <p>ワークまたはそれ以上</p> </td> 
+   <td> <p>標準</p> <p>Work またはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">その他の製品</td> 
@@ -57,24 +57,24 @@ ht-degree: 92%
 
 * [!DNL Adobe XD] からプルーフをアップロードする前に、[!DNL Adobe Workfront for XD] プラグインをインストールする必要があります。
 
-  手順については、[&#x200B; [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md) のインストールを参照してください。
+  手順については、[ [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md) のインストールを参照してください。
 
 ## 静的プルーフのアップロード
 
-1. 右上隅の&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅の&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. 静的プルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. プラグインの下部付近にある&#x200B;**[!UICONTROL 新規ファイル]**&#x200B;をクリックします。
 1. アップロードするアートボードを選択します。
 
    >[!TIP]
    >
-   >* アートボードは、選択した順序でプルーフに表示されます。選択した最初のアートボードがプルーフの最初のページになります。
-   >* 複数のアートボードをすばやく選択するには、目的のアートボード上でマウスをクリックしてドラッグします。これにより、プルーフでのアートボードの順序は制御できません。
+   >* アートボードは、選択した順序でプルーフに表示されます。 選択した最初のアートボードがプルーフの最初のページになります。
+   >* 複数のアートボードをすばやく選択するには、目的のアートボード上でマウスをクリックしてドラッグします。 これにより、プルーフでのアートボードの順序は制御できません。
 
 1. 「**[!UICONTROL プルーフを作成]**」を有効にします。
 
@@ -95,9 +95,9 @@ ht-degree: 92%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Automated]</td> 
-      <td> <p>自動承認プロセスは、管理者が事前に作成したもので、特定のレビュアーとステージが含まれています。詳しくは、<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動ワークフローの概要</a>を参照してください。</p> 
+      <td> <p>自動承認プロセスは、管理者が事前に作成したもので、特定のレビュアーとステージが含まれています。 詳しくは、<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動ワークフローの概要</a>を参照してください。</p> 
        <ul> 
-        <li> <p>ドロップダウンメニューから [!UICONTROL Workflow Template] を選択します。</p> </li> 
+        <li> <p>ドロップダウンメニューから [!UICONTROL ワークフローテンプレート] を選択します。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -107,7 +107,7 @@ ht-degree: 92%
 
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![XDでのプルーフの承認 &#x200B;](assets/proof-approvals-xd-350x396.png)
+   ![XDでのプルーフの承認](assets/proof-approvals-xd-350x396.png)
 
 1. **[!UICONTROL アセットタイプ]**&#x200B;ドロップダウンメニューから書き出し形式を選択します。
 
@@ -116,14 +116,14 @@ ht-degree: 92%
 
 1. （オプション）PDF に名前を付けます。
 
-   ![PDF オプション &#x200B;](assets/pdf-options.png)
+   ![PDF オプション ](assets/pdf-options.png)
 
 1. 「**[!UICONTROL アップロード]**」をクリックします。\
    ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。
 
 ## インタラクティブなプルーフをアップロード {#upload-an-interactive-proof}
 
-[!DNL Workfront for Adobe] のプラグインを使用すると、アートボードのインタラクティブなプルーフを作成できます。これは 2 段階のプロセスです。まず、インタラクティブリンクを作成してから、プルーフを作業アイテムにアップロードする必要があります。
+[!DNL Workfront for Adobe] のプラグインを使用すると、アートボードのインタラクティブなプルーフを作成できます。 これは 2 段階のプロセスです。 まず、インタラクティブリンクを作成してから、プルーフを作業アイテムにアップロードする必要があります。
 
 ### アートボード用のインタラクティブリンクを作成  {#create-an-interactive-link-for-your-art-board}
 
@@ -138,7 +138,7 @@ ht-degree: 92%
 
    1. 「**[!UICONTROL リンクを作成]**」をクリックします。
 
-1. 画面の左上隅にある&#x200B;**[!UICONTROL デザイン]**&#x200B;をクリックしして戻ります。以下の[インタラクティブなプルーフをアップロード](#upload-an-interactive-proof)の節に進みます。
+1. 画面の左上隅にある&#x200B;**[!UICONTROL デザイン]**&#x200B;をクリックしして戻ります。 以下の[インタラクティブなプルーフをアップロード](#upload-an-interactive-proof)の節に進みます。
 
    >[!NOTE]
    >
@@ -146,12 +146,12 @@ ht-degree: 92%
 
 ### インタラクティブなプルーフをアップロード
 
-1. 右上隅の&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、**[!UICONTROL 作業リスト]**&#x200B;を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅の&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、**[!UICONTROL 作業リスト]**&#x200B;を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. インタラクティブなプルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. 「**[!UICONTROL プルーフを作成]**」を有効にします。
@@ -171,9 +171,9 @@ ht-degree: 92%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Automated]</td> 
-      <td> <p>自動承認プロセスは、管理者が事前に作成したもので、特定のレビュアーとステージが含まれています。詳しくは、<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動ワークフローの概要</a>を参照してください。</p> 
+      <td> <p>自動承認プロセスは、管理者が事前に作成したもので、特定のレビュアーとステージが含まれています。 詳しくは、<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動ワークフローの概要</a>を参照してください。</p> 
        <ul> 
-        <li> <p>ドロップダウンメニューから [!UICONTROL Workflow Template] を選択します。</p> </li> 
+        <li> <p>ドロップダウンメニューから [!UICONTROL ワークフローテンプレート] を選択します。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -183,10 +183,10 @@ ht-degree: 92%
 
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![XDでのプルーフの承認 &#x200B;](assets/proof-approvals-xd-350x396.png)
+   ![XDでのプルーフの承認](assets/proof-approvals-xd-350x396.png)
 
-1. **[!UICONTROL アセットタイプ]**&#x200B;ドロップダウンメニューから、「**共有リンク**」タブの下に先ほど作成したリンクをクリックします。詳しくは、[アートボード用のインタラクティブリンクを作成](#create-an-interactive-link-for-your-artboard)を参照してください。\
-   ![XDS の共有リンク &#x200B;](assets/shared-links-xd-350x870.png)
+1. **[!UICONTROL アセットタイプ]**&#x200B;ドロップダウンメニューから、「**共有リンク**」タブの下に先ほど作成したリンクをクリックします。 詳しくは、[アートボード用のインタラクティブリンクを作成](#create-an-interactive-link-for-your-artboard)を参照してください。\
+   ![XDS](assets/shared-links-xd-350x870.png)の共有リンク
 
 1. 「**[!UICONTROL アップロード]**」をクリックします。
 
@@ -194,18 +194,18 @@ ht-degree: 92%
 
    >[!IMPORTANT]
    >
-   >ユーザーはインタラクティブなプルーフを確認および承認するには、ユーザーが[!UICONTROL デスクトッププルーフビューアー]へのアクセス権を持つ必要があります。詳しくは、[[!UICONTROL デスクトッププルーフビューア]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)のインストールを参照してください。
+   >ユーザーはインタラクティブなプルーフを確認および承認するには、ユーザーが[!UICONTROL デスクトッププルーフビューアー]へのアクセス権を持つ必要があります。 詳しくは、[[!UICONTROL デスクトッププルーフビューア]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)のインストールを参照してください。
 
 ## 新しいプルーフのバージョンをアップロード
 
-新しいバージョンのプルーフをアップロードできます。プラグインは以前のバージョンで設定されたプルーフワークフローを記憶しますが、必要に応じてこれを変更できます。
+新しいバージョンのプルーフをアップロードできます。 プラグインは以前のバージョンで設定されたプルーフワークフローを記憶しますが、必要に応じてこれを変更できます。
 
-1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。 メニューを使用して親オブジェクトに移動することもできます。
 
-   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. ドキュメントのアップロード先の作業アイテムに移動します。
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
 
 1. プラグインの下部近くにある&#x200B;**[!UICONTROL 新しいバージョン]**&#x200B;をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;を有効にします。
@@ -230,9 +230,9 @@ ht-degree: 92%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Automated]</td> 
-      <td> <p>自動承認プロセスは、管理者が事前に作成したもので、特定のレビュアーとステージが含まれています。詳しくは、<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動ワークフローの概要</a>を参照してください。</p> 
+      <td> <p>自動承認プロセスは、管理者が事前に作成したもので、特定のレビュアーとステージが含まれています。 詳しくは、<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動ワークフローの概要</a>を参照してください。</p> 
        <ul> 
-        <li> <p>ドロップダウンメニューから [!UICONTROL Workflow Template] を選択します。</p> </li> 
+        <li> <p>ドロップダウンメニューから [!UICONTROL ワークフローテンプレート] を選択します。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -242,11 +242,11 @@ ht-degree: 92%
 
 1. 書き出し形式を&#x200B;**[!UICONTROL アセットタイプ]**&#x200B;ドロップダウンメニューから選択します。
 
-   ![XDでのプルーフの作成 &#x200B;](assets/create-a-proof-xd-350x202.png)
+   ![XDでプルーフを作成](assets/create-a-proof-xd-350x202.png)
 
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![XDでのプルーフの承認 &#x200B;](assets/proof-approvals-xd-350x396.png)
+   ![XDでのプルーフの承認](assets/proof-approvals-xd-350x396.png)
 
 1. (オプション）アセットタイプとして PDF を選択し、複数のアートボードを選択している場合、アートボードを&#x200B;**[!UICONTROL 単一の PDF ファイル]s**&#x200B;または&#x200B;**複[!UICONTROL 数のPDFファイル]**&#x200B;として書き出すかどうかを選択します。
 
