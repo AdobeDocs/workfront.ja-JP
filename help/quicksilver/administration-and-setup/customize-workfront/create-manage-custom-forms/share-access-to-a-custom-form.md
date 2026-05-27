@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
+source-git-commit: 3e6ae76eea2e12fc7fc3a45dad753261a7bad628
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 35%
@@ -17,7 +17,7 @@ ht-degree: 35%
 
 # カスタムフォームの共有
 
-{#preview-fast-release-general}
+{{preview-fast-release-general}}
 
 カスタムフォームへのアクセスを設定して、誰（人物、役割、グループ、チーム、企業、ビジネスプロファイル）が表示、共有、編集できるかを制御できます。
 

@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 78%
+source-wordcount: '1072'
+ht-degree: 76%
 
 ---
 
@@ -81,7 +81,7 @@ Old:
 
 ## 前提条件
 
-* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+* Workfrontの管理者、またはカスタムフォームへの管理アクセス権を持つ標準ユーザーまたはプランユーザーは、環境でカスタムフォームを作成する必要があります。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 * オブジェクトには、カスタムフォームを添付する必要があります。
 
   カスタムフォームをオブジェクトに追加する方法についての情報は、[オブジェクトにカスタムフォームを追加](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
@@ -92,7 +92,7 @@ Old:
 
    **例：**&#x200B;例えば、プロジェクトのカスタムフォームを管理するには、プロジェクトに移動し、**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックしてから、**編集**&#x200B;をクリックします。
 
-1. プロジェクト、タスク、イシューの&#x200B;**カスタム Forms** セクションで、カスタムフォーム名の横にある![移動アイコン &#x200B;](assets/move-icon---dots.png) アイコンをクリックします。 他のすべてのオブジェクトについては、「**フォームの管理**」をクリックします。このオプションは、1 つ以上のカスタムフォームがオブジェクトに添付されている場合にのみ表示されます。
+1. プロジェクト、タスク、イシューの&#x200B;**カスタム Forms** セクションで、カスタムフォーム名の横にある![移動アイコン &#x200B;](assets/move-icon---dots.png) アイコンをクリックします。 他のすべてのオブジェクトについては、「**フォームの管理**」をクリックします。 このオプションは、1 つ以上のカスタムフォームがオブジェクトに添付されている場合にのみ表示されます。
 1. フォーム ![移動アイコン &#x200B;](assets/move-icon---dots.png)をリスト内の新しい場所にドラッグします。
 1. プロジェクト、タスク、およびイシューのカスタムフォームの場合は、「**保存**」をクリックします。
 
@@ -114,13 +114,13 @@ Old:
 
 ## 同じカスタムフィールドを含む複数のカスタムフォームを管理
 
-同じオブジェクトに添付された複数のカスタムフォームに同じフィールドが表示される場合があります。この場合、次の点を考慮してください。
+同じオブジェクトに添付された複数のカスタムフォームに同じフィールドが表示される場合があります。 この場合、次の点を考慮してください。
 
 * フィールドの値はすべての形式で同一です。
 
   同じオブジェクトに添付された異なるフォーム上の同じフィールドに異なる値を設定することはできません。
 
-* 2 つの異なるオブジェクトに同じ計算フィールドがある場合、エラーを避けるためにそれらの計算が同一である必要があります。複数のフォームを含むカスタムフォームへの計算フィールドの追加について詳しくは、[&#x200B; フォームへの計算フィールドの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
+* 2 つの異なるオブジェクトに同じ計算フィールドがある場合、エラーを避けるためにそれらの計算が同一である必要があります。 複数のフォームを含むカスタムフォームへの計算フィールドの追加について詳しくは、[&#x200B; フォームへの計算フィールドの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
 ## オブジェクトを一括編集するときに複数のカスタムフォームを管理
 
@@ -158,7 +158,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
    追加のフォームを適用するときは、次の点を考慮してください。
 
    * オブジェクトには最大 10 個のカスタムフォームを含めることができます。
-   * フォームを適用できるのは、編集中のオブジェクトにフォームがまだ適用されていない場合のみです。いずれかのオブジェクトに既に添付されているフォームは、ドロップダウンメニューに表示されません。
+   * フォームを適用できるのは、編集中のオブジェクトにフォームがまだ適用されていない場合のみです。 いずれかのオブジェクトに既に添付されているフォームは、ドロップダウンメニューに表示されません。
    * 追加のフォームを適用すると、そのフォームと他のフォームで共通するフィールドはすべて、「**共通フィールド**」セクションに表示され、編集できます。
 
 1. （オプション）すべてのオブジェクトにカスタムフォームを追加した後で、オブジェクトをまだ保存していない場合は、オブジェクトでのカスタムフォームの表示順序を変更できます。
