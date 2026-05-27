@@ -75,13 +75,13 @@ ht-degree: 15%
 1. レイアウトテンプレートで、**ユーザーに表示される内容をカスタマイズ**&#x200B;の下にある下向き矢印をクリックし、**タスク**&#x200B;をクリックします。
 1. **詳細** セクションで、**財務** エリアの&#x200B;**残業率** フィールドを選択します。
 
-   詳しくは、[ レイアウトテンプレートを使用した詳細ビューのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
+   詳しくは、[&#x200B; レイアウトテンプレートを使用した詳細ビューのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
 ## タスクの残業率の定義
 
 1. 編集するタスクに移動します。
 
-   詳細については、「[ タスクの詳細のセクション ](/help/quicksilver/manage-work/tasks/manage-tasks/task-finances-in-details.md)でタスクの財務を管理する」を参照してください。
+   詳細については、「[&#x200B; タスクの詳細のセクション &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/task-finances-in-details.md)でタスクの財務を管理する」を参照してください。
 
 1. 左パネルでの「**タスクの詳細**」をクリックします。
 1. **Finance**&#x200B;領域で、**残業率** フィールドに残業乗数を入力します。
