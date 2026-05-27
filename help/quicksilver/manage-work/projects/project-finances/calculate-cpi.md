@@ -194,4 +194,4 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 
 1. 「**財務**」をクリックします。 CPI は「**CPI／SPI／CSI**」フィールドを表示します。
 
-   プロジェクト ](assets/cpi-on-project-nwe.png)の![CPI
+   プロジェクト ![&#128279;](assets/cpi-on-project-nwe.png)のCPI

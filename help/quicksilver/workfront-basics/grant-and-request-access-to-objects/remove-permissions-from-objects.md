@@ -164,7 +164,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
    例えば、レポートに移動します。
 1. 「**レポートのアクション**」、「**共有**」の順にクリックします。
 
-   ![ プライベートにする](assets/report-permissions-make-private-nwe-350x477.png)
+   ![&#x200B; プライベートにする](assets/report-permissions-make-private-nwe-350x477.png)
 
 1. 歯車アイコンをクリックし、**これを外部ユーザーに公開する**&#x200B;のチェックを外します。
 1. **アクセス権のあるユーザー** ドロップダウンメニューで、**招待されたユーザーのみが**&#x200B;にアクセスできるアクセス権を持つユーザーをクリックして、すべてのWorkfront ユーザーとの共有を停止します。
