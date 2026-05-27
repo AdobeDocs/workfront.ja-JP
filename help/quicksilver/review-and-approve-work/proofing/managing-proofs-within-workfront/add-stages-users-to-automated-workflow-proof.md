@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 45839f8a-31b2-43a3-a9ea-5437df8cc6b4
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 92%
+source-wordcount: '229'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 92%
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
    <p>標準</p>
-   <p>作業またはプラン</p> 
+   <p>作業または計画</p> 
    </td> 
   </tr> 
   <tr> 

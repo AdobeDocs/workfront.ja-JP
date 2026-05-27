@@ -3,7 +3,7 @@ content-type: overview
 product-area: dashboards
 navigation-topic: understand-dashboards
 title: ダッシュボードの基本を学ぶ
-description: ダッシュボードの目的は、情報に素早くアクセスできるようにすることです。レポートで情報を収集し、ダッシュボードに配置することで、情報にアクセスしやすくすることができます。
+description: ダッシュボードの目的は、情報に素早くアクセスできるようにすることです。 レポートで情報を収集し、ダッシュボードに配置することで、情報にアクセスしやすくすることができます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '695'
 ht-degree: 89%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 89%
 
 <!-- Audited: 1/2025 -->
 
-ダッシュボードの目的は、複数のレポートから得られた情報に素早くアクセスできるようにすることです。まず、レポートで情報を収集し、複数のレポートをダッシュボードに配置することで、情報にアクセスしやすくすることができます。
+ダッシュボードの目的は、複数のレポートから得られた情報に素早くアクセスできるようにすることです。 まず、レポートで情報を収集し、複数のレポートをダッシュボードに配置することで、情報にアクセスしやすくすることができます。
 
 ## アクセス要件
 
@@ -80,7 +80,7 @@ Adobe Workfrontでは、ダッシュボードに次の項目のうち最大25個
   ダッシュボードの共有について詳しくは、[レポート、ダッシュボードおよびカレンダーの共有](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)と[ダッシュボードの共有](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)を参照してください。
 
 * 左側のパネルのWorkfrontの任意の領域またはオブジェクトにダッシュボードを追加します。\
-  左側のパネルにダッシュボードを追加する方法について詳しくは、[Adobe Workfrontの左側のナビゲーション &#x200B;](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)を参照してください。
+  左側のパネルにダッシュボードを追加する方法について詳しくは、[Adobe Workfrontの左側のナビゲーション ](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)を参照してください。
 
 * ダッシュボードをレイアウトテンプレートに配置します。このテンプレートは、ユーザーと共有できます。\
   レイアウトテンプレートを使用したダッシュボードの共有について詳しくは、[レイアウトテンプレートを使用した左側のパネルのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
@@ -95,14 +95,14 @@ Adobe Workfrontでは、ダッシュボードに次の項目のうち最大25個
 
 >[!IMPORTANT]
 >
->ユーザーを削除すると、そのユーザーが作成したすべてのダッシュボードにアクセスできなくなります。詳しくは、[ユーザーの削除](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)を参照してください。
+>ユーザーを削除すると、そのユーザーが作成したすべてのダッシュボードにアクセスできなくなります。 詳しくは、[ユーザーの削除](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)を参照してください。
 
 ## ダッシュボードの表示
 
 ダッシュボードは次の方法で表示できます。
 
 * オブジェクトの左側のパネルからダッシュボードにアクセスします。
-ダッシュボードを左側のパネルに配置する方法について詳しくは、[Adobe Workfrontの左側のナビゲーション &#x200B;](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)を参照してください。
+ダッシュボードを左側のパネルに配置する方法について詳しくは、[Adobe Workfrontの左側のナビゲーション ](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)を参照してください。
 
 * ダッシュボードを検索して手動でアクセスします。
 
@@ -115,7 +115,7 @@ Adobe Workfrontでは、ダッシュボードに次の項目のうち最大25個
 
      >[!TIP]
      >
-     >アクセスレベルでレポート、ダッシュボードおよびカレンダーの編集アクセス権がない場合、ダッシュボードを作成できません。この場合、マイダッシュボードリストは空です。
+     >アクセスレベルでレポート、ダッシュボードおよびカレンダーの編集アクセス権がない場合、ダッシュボードを作成できません。 この場合、マイダッシュボードリストは空です。
 
    * **共有ダッシュボード**：他のユーザーが作成し、自分と共有しているダッシュボードがこちらに表示されます。
    * **すべてのダッシュボード**：自分のダッシュボードと他のユーザーと共有しているダッシュボードの両方がここに表示されます。
@@ -125,7 +125,7 @@ Adobe Workfrontでは、ダッシュボードに次の項目のうち最大25個
 1. ダッシュボードの名前をクリックして表示します。\
    ダッシュボードには、レポート、カレンダーまたは外部ページに含まれる情報が入力されて表示されます。
 1. （オプションおよび条件付き）ダッシュボードの右上にある&#x200B;**リロード**&#x200B;アイコンをクリックすると、ダッシュボードの情報を更新できます。\
-   ダッシュボードの情報は、最初にアクセスしたときにリアルタイムで同期されます。ブラウザーでしばらくダッシュボードを表示していると、ダッシュボードのレポート内の情報が古くなる可能性があります。ダッシュボードが最後に更新された日時がこのアイコンの左側に表示されます。\
+   ダッシュボードの情報は、最初にアクセスしたときにリアルタイムで同期されます。 ブラウザーでしばらくダッシュボードを表示していると、ダッシュボードのレポート内の情報が古くなる可能性があります。 ダッシュボードが最後に更新された日時がこのアイコンの左側に表示されます。\
    ![リロードアイコン](assets/dashboard-reload-icon.png)
 
 ## ダッシュボードの削除
