@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: c6da023c-4dbe-4770-82dc-3246568c01a2
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '146'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-[!DNL Workfront Proof] - [!DNL Box] ボックス統合を使用している場合、ボックスに、プルーフの作成に使用した元のファイルを表示できます。これは 2 つの方法で実行できます。
+[!DNL Workfront Proof] - [!DNL Box] ボックス統合を使用している場合、ボックスに、プルーフの作成に使用した元のファイルを表示できます。 これは 2 つの方法で実行できます。
 
 ## プルーフのメール通知を使用した [!DNL Box] でのファイルの表示
 

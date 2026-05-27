@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
 title: Basecamp Classic でのプルーフのレビュー
-description: Basecamp は、37signals 社が開発したオンラインのプロジェクト管理ツールです。Basecamp をプロジェクト管理に使用する場合、 [!DNL Workfront Proof] を使用することで、プロジェクトチームにレビューツールや承認ツールをより豊富に提供できます。
+description: Basecamp は、37signals 社が開発したオンラインのプロジェクト管理ツールです。 Basecamp をプロジェクト管理に使用する場合、 [!DNL Workfront Proof] を使用することで、プロジェクトチームにレビューツールや承認ツールをより豊富に提供できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b14f33dc-e059-4ee2-a429-9f1852a2b9bb
 source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 100%
+source-wordcount: '864'
+ht-degree: 99%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-[!DNL Basecamp] は、[!DNL 37signals] 社が開発したオンラインのプロジェクト管理ツールです。[!DNL Basecamp] をプロジェクト管理に使用する場合、[!DNL Workfront Proof] を使用することで、プロジェクトチームにレビューツールや承認ツールをより豊富に提供できます。
+[!DNL Basecamp] は、[!DNL 37signals] 社が開発したオンラインのプロジェクト管理ツールです。 [!DNL Basecamp] をプロジェクト管理に使用する場合、[!DNL Workfront Proof] を使用することで、プロジェクトチームにレビューツールや承認ツールをより豊富に提供できます。
 
 ## [!DNL Basecamp Classic] でのプルーフのレビューの概要
 
@@ -31,8 +31,8 @@ ht-degree: 100%
 * [!DNL Basecamp] で、レビューおよび承認のためのミニプルーフが含まれたメッセージがプロジェクトレビューチームに届きます。
 * ユーザーは、フルページのプルーフに切り替えてレビューや承認を行うことができます。
 * ユーザーは、ミニサイズとフルサイズの両方のプルーフにコメントやマークアップを追加できます。
-* コメントの返信後は、コメントの編集や削除はできません。コメントについて詳しくは、[プルーフに対するコメント](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)を参照してください。
-* レビュー担当者は、他のレビュー担当者が作成したマークアップに返答できます。コメントについて詳しくは、[プルーフに対するコメント](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)を参照してください。
+* コメントの返信後は、コメントの編集や削除はできません。 コメントについて詳しくは、[プルーフに対するコメント](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)を参照してください。
+* レビュー担当者は、他のレビュー担当者が作成したマークアップに返答できます。 コメントについて詳しくは、[プルーフに対するコメント](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)を参照してください。
 * 新しいバージョンのプルーフが使用可能になると、ユーザーに警告が表示されます。
 * [!DNL Workfront Proof] ユーザーでないユーザーは、[!DNL Basecamp] でプルーフに対して作業を行えます。
 
@@ -40,9 +40,9 @@ ht-degree: 100%
 
 プルーフを [!DNL Basecamp] にリンクした場合、[!DNL Workfront Proof] は、次の情報を含むプルーフ通知メール（1）をすべてのレビュー担当者に送信します。
 
-* **プルーフの詳細**（2）：プルーフに関する情報を表示します。表示される情報は、Workfront 管理者による Basecamp の設定内容によって異なります。
+* **プルーフの詳細**（2）：プルーフに関する情報を表示します。 表示される情報は、Workfront 管理者による Basecamp の設定内容によって異なります。
 * **[!UICONTROL プルーフに移動]リンク**（3）：Workfront でプルーフを開きます。
-* **[!DNL Basecamp]URL**（4）：Basecamp でプルーフを開きます。Basecamp ユーザーではないレビュー担当者がプルーフに追加された場合、そのメール通知には Basecamp リンクが含まれません。
+* **[!DNL Basecamp]URL**（4）：Basecamp でプルーフを開きます。 Basecamp ユーザーではないレビュー担当者がプルーフに追加された場合、そのメール通知には Basecamp リンクが含まれません。
 * **[!UICONTROL プルーフの進捗状況]**（5）：承認ステージを一覧表示し、プルーフの進捗状況インジケーターを表示します。
 * **[!UICONTROL ステージ]**（6）：レビュー担当者と個々の進捗状況を表示します。
 
@@ -62,8 +62,8 @@ ht-degree: 100%
 1. [!DNL Basecamp] で、プロジェクトページ（1）に移動します。\
    ![Basecamp_Classic_messages_1.png](assets/basecamp-classic-messages-1-350x120.png)
 
-1. 開きたいプルーフのメッセージをクリックします。（2）\
-   プルーフのメッセージが開き、ミニプルーフが表示されます。プルーフの名前は、メッセージウィンドウ（3）の上部に表示されます。\
+1. 開きたいプルーフのメッセージをクリックします。 （2）\
+   プルーフのメッセージが開き、ミニプルーフが表示されます。 プルーフの名前は、メッセージウィンドウ（3）の上部に表示されます。\
    [!DNL Basecamp Classic] または [!DNL Workfront Proof] で、サムネールのプルーフを表示できます。\
    ![Basecamp_Classic_messages_2.png](assets/basecamp-classic-messages-2-350x501.png)
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 1. （条件付き）ブラウザーウィンドウのいずれでも [!DNL Workfront Proof] アカウントにログインしていない場合、プルーフをレビューするためにログインします。
 
    1. プルーフの上にある「**[!UICONTROL ログイン]**」（5）をクリックします。
-   1. メールアドレス（6）を入力します。\
+   1. メールアドレスを入力してください（6）。\
 
       自身がプルーフに追加されたときと同じメールアドレスを使用する必要があります。
    1. 「**[!UICONTROL 次へ]**」をクリックします。
@@ -85,11 +85,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> メッセージページ上のミニプルーフの下に表示されるコメントボックスは、メッセージ自体にのみ適用されます。レビューコメントを送信するには、ミニプルーフの上部にある「コメントアイコン」ボタン、またはフルページプルーフの上にある大きい「[!UICONTROL コメント]」ボタンをクリックします。詳しくは、 [!DNL Basecamp]](#reviewing-a-proof-in-basecamp)[ でプルーフを確認を参照してください。
+> メッセージページ上のミニプルーフの下に表示されるコメントボックスは、メッセージ自体にのみ適用されます。 レビューコメントを送信するには、ミニプルーフの上部にある「コメントアイコン」ボタン、またはフルページプルーフの上にある大きい「[!UICONTROL コメント]」ボタンをクリックします。 詳しくは、 [!DNL Basecamp]](#reviewing-a-proof-in-basecamp)[ でプルーフを確認を参照してください。
 
 ## [!DNL Basecamp] のプルーフの確認
 
-[!DNL Basecamp] のミニプルーフは、プルーフで[プルーフビューアーでプルーフ確認を決定する](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)ために追加する必要があるツールを提供します。プロジェクトに割り当てられたすべてのユーザーは、マークアップとコメントを表示し、自分のコメントでリアルタイムに応答できます。
+[!DNL Basecamp] のミニプルーフは、プルーフで[プルーフビューアーでプルーフ確認を決定する](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)ために追加する必要があるツールを提供します。 プロジェクトに割り当てられたすべてのユーザーは、マークアップとコメントを表示し、自分のコメントでリアルタイムに応答できます。
 
 プルーフを開くと、プルーフが[!UICONTROL プルーフ]ウィンドウ（1）に表示され、プルーフの名前とバージョン番号が左上隅（2）に表示されます。
 

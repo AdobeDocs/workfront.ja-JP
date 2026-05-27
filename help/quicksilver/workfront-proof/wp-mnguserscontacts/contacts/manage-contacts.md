@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 連絡先ページで、同僚、メンバーおよびゲストを管理できます。
 
@@ -31,12 +31,12 @@ ht-degree: 100%
 
 1. 左側のナビゲーションサイドバーの「**[!UICONTROL 連絡先]**」をクリックします。
 1. 並べ替える基準となる「列見出し」をクリックします。
-または、
-連絡先ページの右上隅に表示される**[!UICONTROL 並べ替え]**&#x200B;メニューからオプションを選択します。
+または
+連絡先ページの右上隅にある**[!UICONTROL 並べ替え]** メニューからオプションを選択します。
 
 1. ![Contacts_page-Sort_menu.png](assets/contacts-page-sort-menu.png)
 
-1. 列見出しの三角形は並べ替え順を示します。上向きは昇順、下向きは降順を示します。
+1. 列見出しの三角形は並べ替え順を示します。 上向きは昇順、下向きは降順を示します。
 
 ## 連絡先のフィルタリング
 
@@ -67,11 +67,11 @@ ht-degree: 100%
    * 「**[!UICONTROL 連絡先を削除]**」をクリックして、選択した連絡先をリストから削除します。
 
      ![Trash_button.png](assets/trash-button.png)
-連絡先の削除は、ユーザーがアカウントから削除されたことを意味しません。ただし、管理者または請求管理者が連絡先リストからユーザーを削除すると、そのユーザーは組織のアカウントから完全に削除されます。
+連絡先を削除しても、ユーザーがアカウントから削除されるわけではありません。ただし、管理者または請求管理者が連絡先リストからユーザーを削除すると、そのユーザーは組織のアカウントから完全に削除されます。
 
    * 連絡先の行の最後にある&#x200B;**[!UICONTROL その他]**&#x200B;アイコンをクリックして、表示されるドロップダウンメニューのオプションを使用します。
 
-     これらのオプションは、連絡先のタイプごとに異なります。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) でのユーザー、メンバーおよびゲストについてを参照してください。
+     これらのオプションは、連絡先のタイプごとに異なります。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) でのユーザー、メンバーおよびゲストについてを参照してください。
 
 ## 連絡先の読み込み
 
@@ -86,4 +86,4 @@ ht-degree: 100%
 
    * CSV ファイルには、「メール」という名前の列（メールアドレスを含む）が少なくとも 1 列必要です。
    * また、「名前」、「会社」、「電話」および「モバイル」の列を追加することもできます。
-   * 「名前」の代わりに、「名前 (名)」および「名前 (姓)」の 2 列を使用できます。名前（姓）と名前（名）に別の列を使用する場合は、「名前」の列を含めないようにする必要があります。
+   * 「名前」の代わりに、「名前 (名)」および「名前 (姓)」の 2 列を使用できます。 名前（姓）と名前（名）に別の列を使用する場合は、「名前」の列を含めないようにする必要があります。

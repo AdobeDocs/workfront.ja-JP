@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: ' [!DNL Workfront Proof] の基本プルーフプロセス'
-description: この記事では、デザイナーまたはプロジェクトマネージャーと 1 人または複数のレビュー担当者（クライアントなど）との基本的なワークフローについて説明します。
+description: この記事では、デザイナーまたはプロジェクトマネージャーと、クライアントなどの1人以上のレビュー担当者との間の基本的なワークフローについて説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fcbbd2d2-dc27-4456-901f-5b1a15d023f8
@@ -21,20 +21,20 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[&#x200B; プルーフ：記事インデックス &#x200B;](../../../review-and-approve-work/proofing/proofing.md) を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront]内でのプルーフについて詳しくは、[ プルーフ：記事インデックス ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-この例では、デザイナーまたはプロジェクトマネージャーと 1 人または複数のレビュー担当者（クライアントなど）との基本的なワークフローについて説明します。 プルーフが承認されるまで、このプロセスを繰り返します。
+この例では、デザイナーまたはプロジェクトマネージャーと、クライアントなどの1人以上のレビュー担当者との間の基本的なワークフローについて説明します。 プルーフが承認されるまで、このプロセスを繰り返します。
 
 ![basic_workflow.png](assets/basic_workflow.png)
 
-* **新しいプルーフの作成**：デザイナーまたはプロジェクトマネージャーが [!DNL Workfront Proof] で新しいプルーフを作成し、クライアントとプルーフを共有します。 詳しくは、[&#x200B; での配達確認の生成  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) を参照してください。
+* **新しいプルーフを作成**: デザイナーまたはプロジェクトマネージャーは[!DNL Workfront Proof]に新しいプルーフを作成し、そのプルーフをクライアントと共有します。 詳しくは、[ プルーフの生成 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)を参照してください。
 
-* **新しいプルーフメール**：クライアントは、プルーフへのリンクを含むメールを受け取ります。
+* **新しいプルーフの電子メール**：クライアントは、プルーフへのリンクを含む電子メールを受信します。
 
-* **プルーフのレビュー**：クライアントはプルーフをレビューし、コメントを追加して、決定を下します。 詳しくは、[&#x200B; 内でプルーフを確認  [!DNL Adobe Workfront]：記事インデックス &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) および [&#x200B; プルーフビューアでプルーフを決定する &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) を参照してください。
+* **プルーフをレビュー**：クライアントはプルーフをレビューし、コメントを追加して決定を行います。 詳しくは、[校正中の校正のレビュー [!DNL Adobe Workfront]：記事インデックス ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)および[校正ビューアで校正の決定を行う](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)を参照してください。
 
-* **メールアラート**：デザイナーまたはプロジェクトマネージャーは、設定したメールアラートに応じて、クライアントのレビューの概要を記載したメールを受け取ります。 詳しくは、[&#x200B; でのメール通知設定  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) を参照してください。
+* **電子メールアラート**: デザイナーまたはプロジェクトマネージャーは、設定した電子メールアラートに応じて、クライアントのレビューの概要が記載された電子メールを受信します。 詳しくは、 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)でのメール通知設定の設定を[参照してください。
 
-* **新しいバージョン** （必要な場合）：デザイナーまたはプロジェクトマネージャーがファイルを修正し、新しいバージョンとして [!DNL Workfront Proof] にアップロードします。
+* **新しいバージョン** （必要に応じて）: デザイナーまたはプロジェクトマネージャーがファイルを修正し、新しいバージョンとして[!DNL Workfront Proof]にアップロードします。
 
 

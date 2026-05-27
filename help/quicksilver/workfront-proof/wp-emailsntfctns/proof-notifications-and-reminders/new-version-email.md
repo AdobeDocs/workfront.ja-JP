@@ -19,13 +19,13 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL [!DNL Workfront Proof]] の機能について説明します。[!DNL [!DNL Adobe Workfront]] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL [!DNL Workfront Proof]] の機能について説明します。 [!DNL [!DNL Adobe Workfront]] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Does this apply to PiW?</p>
 -->
 
-新しいバージョンのメールは、プルーフの[!UICONTROL 新しいバージョン]を作成すると送信されます。[!UICONTROL 新しいプルーフ]メールと同じ方法でカスタマイズしたり無効にしたりできます。
+新しいバージョンのメールは、プルーフの[!UICONTROL 新しいバージョン]を作成すると送信されます。 [!UICONTROL 新しいプルーフ]メールと同じ方法でカスタマイズしたり無効にしたりできます。
 
 >[!NOTE]
 >

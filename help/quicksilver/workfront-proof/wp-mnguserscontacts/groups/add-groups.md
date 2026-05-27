@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 6ec52948-0317-4ffa-b135-1c9696a937b7
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 すべてのグループメンバーにコンテンツを自動的に送信するために、プルーフにグループを追加します。
 
@@ -41,6 +41,6 @@ ht-degree: 100%
 1. （オプション）ドロップダウンメニューを使用して、個々のメンバーの&#x200B;**プルーフの役割**&#x200B;または&#x200B;**メールアラート**を変更します。
 詳しくは、<a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">[!DNL Workfront Proof]</a> でのプルーフの役割の管理および<a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">[!DNL Workfront Proof]</a> でのメール通知の設定を参照してください。
 1. （オプション）ユーザーの情報上にポインタを合わせ、**[!UICONTROL X]**をクリックすることにより、プルーフからグループメンバーを削除します。
-または、
-「**[!UICONTROL すべて削除]**」をクリックすることにより、プルーフからすべてのメンバーを削除します。
-1. <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref">[!DNL Workfront Proof]</a> でのプルーフの生成または<a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">[!DNL Workfront Proof]</a> でのプルーフのコピーで説明したように、プルーフの作成を続行します。
+または
+**[!UICONTROL すべてを削除]**&#x200B;をクリックして、プルーフからすべてのメンバーを削除します。
+1. <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref">[!DNL Workfront Proof]</a> でのプルーフの生成または<a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">[!DNL Workfront Proof]</a> でのプルーフのコピーで説明したように、プルーフの作成を続行します。 
