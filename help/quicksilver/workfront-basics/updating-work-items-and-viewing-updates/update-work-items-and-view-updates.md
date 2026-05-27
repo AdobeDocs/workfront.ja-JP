@@ -2,16 +2,16 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: 「作業項目を更新して更新を表示：記事インデックス」
-description: ほとんどのオブジェクトの [ 更新 ] セクションを使用して、コメントや返信を追加したり、オブジェクトに対する変更についてシステムが追跡する更新を追跡したりできます。
+title: 作業アイテムの更新および更新の表示：記事インデックス
+description: ほとんどのオブジェクトの「更新」セクションを使用して、コメントや返信を追加したり、オブジェクトで発生した変更についてシステムで追跡された更新をフォローしたりできます。
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
 source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 41%
+source-wordcount: '117'
+ht-degree: 52%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 41%
 
 <!-- Audited: 02/2024 -->
 
-ほとんどのオブジェクトの [ 更新 ] セクションを使用して、コメントや返信を追加したり、オブジェクトに対する変更についてシステムが追跡する更新を追跡したりできます。
+ほとんどのオブジェクトの「更新」セクションを使用して、コメントや返信を追加したり、オブジェクトで発生した変更についてシステムで追跡された更新をフォローしたりできます。
 
 この節では、次の記事を扱います。
 
@@ -31,5 +31,5 @@ ht-degree: 41%
 * [更新時に他の人をタグ付けする](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
 * [メモレポートですべての更新を表示](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [「作業開始」と「完了」ボタンの概要](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-* [AI アシスタントで更新プログラムの要約を作成する](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
+* [AI アシスタントを使用した更新の要約の作成](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
 

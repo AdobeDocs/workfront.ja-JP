@@ -17,7 +17,7 @@ ht-degree: 94%
 
 # 通知：Goals
 
-プロファイルから、[!DNL Adobe Workfront Goals] で発生したイベントのメール通知を有効にすることができます。ユーザーが[!UICONTROL プラン]ライセンスを使用して、他のユーザーに対して有効にすることもできます。詳しくは、[[!DNL Adobe Workfront]  の通知](../../workfront-basics/using-notifications/wf-notifications.md)を参照してください。
+プロファイルから、[!DNL Adobe Workfront Goals] で発生したイベントのメール通知を有効にすることができます。 ユーザーが[!UICONTROL プラン]ライセンスを使用して、他のユーザーに対して有効にすることもできます。 詳しくは、[[!DNL Adobe Workfront]  の通知](../../workfront-basics/using-notifications/wf-notifications.md)を参照してください。
 
 ## アクセス要件
 
@@ -58,18 +58,18 @@ ht-degree: 94%
 
 ## 前提条件
 
-* [!DNL Goals]通知を更新するユーザーには、[!DNL Goals] メインメニュー[!UICONTROL の]領域を含むレイアウトテンプレートが必要です。
+* [!DNL Goals]通知を更新するユーザーには、[!UICONTROL  メインメニュー]の[!DNL Goals]領域を含むレイアウトテンプレートが必要です。
 
 
-## [!UICONTROL &#x200B; ユーザープロファイル &#x200B;]エリアにある [!DNL Goals] の通知
+## [!UICONTROL  ユーザープロファイル ]エリアにある [!DNL Goals] の通知
 
-次のテーブルに表示される通知は、[!DNL Workfront Goals] で発生しているイベントに関する警告です。例えば、目標、結果、アクティビティを割り当てているユーザーや、所有する目標、結果、アクティビティを更新しているユーザーなどです。受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
+次のテーブルに表示される通知は、[!DNL Workfront Goals] で発生しているイベントに関する警告です。例えば、目標、結果、アクティビティを割り当てているユーザーや、所有する目標、結果、アクティビティを更新しているユーザーなどです。 受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 ![通知の環境設定](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >
->[!DNL Goals] のインスタント通知は、デフォルトでは無効になっています。毎日の通知を有効または無効にすることはできません。また、このカテゴリのイベントに関する日々のダイジェストメールを受信することもできません。[!DNL Goals] カテゴリのインスタント通知を個別に有効または無効にできます。
+>[!DNL Goals] のインスタント通知は、デフォルトでは無効になっています。 毎日の通知を有効または無効にすることはできません。また、このカテゴリのイベントに関する日々のダイジェストメールを受信することもできません。 [!DNL Goals] カテゴリのインスタント通知を個別に有効または無効にできます。
 
 [イベント通知](../../workfront-basics/using-notifications/event-notifications.md)も参照してください。
 
