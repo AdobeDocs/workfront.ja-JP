@@ -2,22 +2,22 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
-title: 会社のメンバーシップの管理
-description: 設定の[!UICONTROL 会社]エリアで、会社のメンバーを追加および削除できます。また、ユーザープロファイルを編集して、ユーザーに  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront]  システムで登録を促すこともできます。
+title: 会社メンバーシップの管理
+description: 設定の[!UICONTROL 会社]エリアで、会社のメンバーを追加および削除できます。 また、ユーザープロファイルを編集して、ユーザーに  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront]  システムで登録を促すこともできます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
 source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 82%
+source-wordcount: '850'
+ht-degree: 83%
 
 ---
 
 # 会社メンバーシップの管理
 
-[!UICONTROL 設定]の[!UICONTROL 会社]エリアで、会社のメンバーを追加および削除できます。また、ユーザープロファイルの編集、ユーザーに対する [!DNL Workfront] での登録のリマインド、[!DNL Workfront] で非アクティブ化および [!DNL Workfront] システムから削除もできます。
+[!UICONTROL 設定]の[!UICONTROL 会社]エリアで、会社のメンバーを追加および削除できます。 また、ユーザープロファイルの編集、ユーザーに対する [!DNL Workfront] での登録のリマインド、[!DNL Workfront] で非アクティブ化および [!DNL Workfront] システムから削除もできます。
 
 新しい会社の作成について詳しくは、[会社の作成と編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)を参照してください。
 
@@ -28,7 +28,7 @@ ht-degree: 82%
 <table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Workfront] package</p> </td> 
+   <td> <p>[!DNL Workfront] パッケージ</p> </td> 
    <td><p>任意</p>
    </td> 
   </tr> 
@@ -42,15 +42,15 @@ ht-degree: 82%
    <td>アクセスレベル設定</td> 
   <td> <p>次のいずれかが必要です。</p> 
     <ul> 
-     <li> <p>[!UICONTROL システム管理者 &#x200B;] アクセス レベル。システム内の任意の会社を編集できます。</p> </li> 
-     <li> <p>会社を管理するための管理者アクセス。システム内の任意の会社を編集できます。</p> </li> 
+     <li> <p>[!UICONTROL システム管理者] アクセス レベル。システム内の任意の会社を編集できます。</p> </li> 
+     <li> <p>会社を管理するための管理アクセス。システム内の任意の会社を編集できます。</p> </li> 
     </ul> <p><b>メモ</b>：  
      <ul> 
       <li> <p>また、自分がグループ管理者として割り当てられている任意のグループに関連する会社を管理することもできます。</p> </li> 
-      <li> <p>[!DNL Workfront] システムにユーザーを追加したり、システムからユーザーを削除したりするには、次のいずれかが必要です。</p> 
+      <li> <p>ユーザーを[!DNL Workfront] システムから追加および削除するには、次のいずれかの操作を行う必要があります。</p> 
        <ul> 
         <li> <p>[!UICONTROL System Administrator] アクセスレベル。 </p> </li> 
-        <li> <p>アクセスレベルの <b>[!UICONTROL ユーザー &#x200B;]</b> 設定が <b>[!UICONTROL 編集 &#x200B;]</b> アクセスに設定され、<b>[!UICONTROL 作成 &#x200B;]</b> と、<b> </b>[!UICONTROL 設定 &#x200B;]<b> で有効になっている 2 つの </b>[!UICONTROL ユーザー管理者 &#x200B;]<img src="assets/gear-icon-in-access-levels.png"> オプションのうち少なくとも 1 つが設定されています。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>これら 2 つのオプションのうち、<b>[!UICONTROL User Admin （Group Users） &#x200B;]</b> が有効になっている場合、ユーザーがメンバーになっているグループのグループ管理者である必要があります。</p> </li> 
+        <li> <p><b>[!UICONTROL Users]</b>設定をアクセスレベルで<b>[!UICONTROL Edit]</b> アクセスに設定し、<b>[!UICONTROL Create]</b>と、2つの<b>[!UICONTROL User Admin]</b> オプションのうち1つ以上を<b>[!UICONTROL Fine-tune your settings]</b><img src="assets/gear-icon-in-access-levels.png">で有効にします。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>これらの2つのオプションのうち、<b>[!UICONTROL User Admin （Group Users） ]</b>が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td>
@@ -68,7 +68,7 @@ ht-degree: 82%
 
 1. 「**[!UICONTROL 会社]**」をクリックします。
 1. 会社の名前をクリックします。
-1. 左側のパネルで **[!UICONTROL 会社メンバー]** をクリックします。
+1. 左側のパネルで「**[!UICONTROL 会社メンバー]**」をクリックします。
 1. 次のいずれかの操作を行います。
 
    <table style="table-layout:auto"> 
@@ -80,8 +80,8 @@ ht-degree: 82%
       <td> <p>「<b>[!UICONTROL Add member]</b>」をクリックして、表示されるドロップダウンメニューで次のいずれかのオプションを選択します。</p> 
        <ul> 
         <li> <p><b>[!UICONTROL New user]</b>：まだ [!DNL Workfront] に追加されていないユーザーを追加します。</p> <p>[!DNL Workfront] へのユーザーの追加について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">ユーザーの追加</a>および<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>を参照してください。</p> </li> 
-        <li> <p><b>[!DNL Existing user]</b>：編集できるシステム内に既に存在するユーザーを追加します。</p> <p><b>重要</b>：ユーザーが既に別の会社のメンバーになっている場合は、新しい割り当てによって古い割り当てが上書きされます。ユーザーは、以前の会社と共有された項目へのアクセス権を失い、新たに割り当てられた会社と共有された項目へのアクセス権を取得します。</p> </li> 
-        <li> <p><b>[!UICONTROL Import Users]</b>：スプレッドシートの読み込みファイルをアップロードして、ユーザーを読み込みます。詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/import-users.md" class="MCXref xref">ユーザーの読み込み</a>を参照してください。</p> </li> 
+        <li> <p><b>[!DNL Existing user]</b>：編集できるシステム内に既に存在するユーザーを追加します。</p> <p><b>重要</b>：ユーザーが既に別の会社のメンバーになっている場合は、新しい割り当てによって古い割り当てが上書きされます。 ユーザーは、以前の会社と共有された項目へのアクセス権を失い、新たに割り当てられた会社と共有された項目へのアクセス権を取得します。</p> </li> 
+        <li> <p><b>[!UICONTROL Import Users]</b>：スプレッドシートの読み込みファイルをアップロードして、ユーザーを読み込みます。 詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/import-users.md" class="MCXref xref">ユーザーの読み込み</a>を参照してください。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -113,7 +113,7 @@ ht-degree: 82%
         <p>少なくとも 1 人のユーザーを選択し、「<b>[!UICONTROL Remove users]</b>」を選択し、表示されるドロップダウンメニューで次のいずれかのオプションを選択します。</p> 
         <ul> 
          <li> <p><b>[!UICONTROL Remove from company]</b>：1 人または複数のユーザーを会社から削除します。</p> </li> 
-         <li> <p><b>[!UICONTROL Delete]</b>：1 人または複数のユーザーを [!DNL Workfront] システムから削除します。</p> <p><b>重要</b>：システムからユーザーを削除すると、保持する予定のユーザーに関連付けられた情報も削除されてしまいます。ユーザーを削除する代わりに非アクティブ化することをお勧めします。詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a>を参照してください。</p> </li> 
+         <li> <p><b>[!UICONTROL Delete]</b>：1 人または複数のユーザーを [!DNL Workfront] システムから削除します。</p> <p><b>重要</b>：システムからユーザーを削除すると、保持する予定のユーザーに関連付けられた情報も削除されてしまいます。 ユーザーを削除する代わりに非アクティブ化することをお勧めします。 詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a>を参照してください。</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -121,9 +121,9 @@ ht-degree: 82%
       <td role="rowheader">ユーザーおよび [!UICONTROL Updates] エリアへのコメントの送信</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>少なくとも 1 人のユーザーを選択し、ツールバーの <b> ユーザーに更新を送信 </b> をクリックしてください。</p> </li> 
+        <li value="1"> <p>少なくとも1人のユーザーを選択し、ツールバーの「<b>更新をユーザーに送信</b>」をクリックします。</p> </li> 
         <li value="2"> <p>ユーザーおよびユーザープロファイルの [!UICONTROL Updates] エリアに送信するコメントを入力します。</p>
-         <p>詳しくは、<a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md"> 他のユーザーへのダイレクトメッセージの送信 </a> を参照してください。</p></li> 
+         <p>詳しくは、<a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">他のユーザーへのダイレクトメッセージの送信</a>を参照してください。</p></li> 
        </ol>
       </td> 
      </tr> 
@@ -137,7 +137,7 @@ ht-degree: 82%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">ユーザーにシステム登録をリマインド</td> 
-      <td> <p> <b>[!UICONTROL Name]</b> 列に、未登録の各ユーザーの名前の横に <b>[!UICONTROL Unregistered]</b> が表示されます。これらのユーザーにシステムへの登録を促すには、ユーザーを選択して、ツールバーで [!UICONTROL More] アイコン <img src="assets/more-icon.png"> をクリックして、「<b>[!UICONTROL Remind user to register]</b>」を選択します。</p> </td> 
+      <td> <p> <b>[!UICONTROL Name]</b> 列に、未登録の各ユーザーの名前の横に <b>[!UICONTROL Unregistered]</b> が表示されます。 これらのユーザーにシステムへの登録を促すには、ユーザーを選択して、ツールバーで [!UICONTROL More] アイコン <img src="assets/more-icon.png"> をクリックして、「<b>[!UICONTROL Remind user to register]</b>」を選択します。</p> </td> 
      </tr> 
     </tbody> 
    </table>

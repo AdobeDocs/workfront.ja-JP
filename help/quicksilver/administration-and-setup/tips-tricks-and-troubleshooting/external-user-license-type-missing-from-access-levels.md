@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 外部ユーザーのライセンスの種類がアクセス レベルにありません
+title: アクセス レベルに外部ユーザーのライセンス タイプがありません
 description: 設定のアクセスレベルに外部ユーザー指定ライセンスの種類が表示されなくなりました。
 author: Lisa
 feature: System Setup and Administration
@@ -12,7 +12,7 @@ exl-id: fcc876d9-0512-424a-a731-6bbacd55af3f
 source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 83%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!DNL Adobe Workfront] package</td> 
+   <td>[!DNL Adobe Workfront] パッケージ</td> 
    <td><p>任意</p></td> 
   </tr> 
   <tr> 
