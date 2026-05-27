@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 35%
@@ -120,12 +120,12 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 
 ## カスタムフォームの共有
 
-カスタムフォームをデフォルトの共有状態（この記事の[&#x200B; カスタムフォームへのアクセス &#x200B;](#access-to-custom-forms)で説明）のままにするのではなく、特定のユーザー、担当業務、グループ、チーム、企業、ビジネスプロファイルに対するフォームへの特定のアクセスレベルを設定できます。
+カスタムフォームをデフォルトの共有状態（この記事の[ カスタムフォームへのアクセス ](#access-to-custom-forms)で説明）のままにするのではなく、特定のユーザー、担当業務、グループ、チーム、企業、ビジネスプロファイルに対するフォームへの特定のアクセスレベルを設定できます。
 
 {{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. リストでカスタムフォームを選択し、![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。
+1. リストでカスタムフォームを選択し、![共有アイコン ](assets/share-icon.png)をクリックします。
 
    または
 
@@ -172,10 +172,10 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
    >* <span class="preview">**システム内の全員が**&#x200B;を表示および添付することを選択した場合、すべてのユーザーがフォームを他のオブジェクトに添付できます。</span>
    >
    ><span class="preview"> プレビュー環境のサンプル画像：</span>
-   >![&#x200B; カスタムフォームを共有](assets/share-custom-forms-all-can-attach.png)
+   >![ カスタムフォームを共有](assets/share-custom-forms-all-can-attach.png)
    >   
    >実稼動環境のサンプル画像：
-   >![&#x200B; カスタムフォームを共有](assets/share-custom-form-in-designer.png)
+   >![ カスタムフォームを共有](assets/share-custom-form-in-designer.png)
    >   
    >特定のオブジェクトに添付された機密データをユーザーが入力する可能性のあるカスタムフォームについて懸念がある場合は、フォーム自体へのアクセスを制限するのではなく、それらの&#x200B;*オブジェクト*&#x200B;の共有を制限する方が効果的です。
 
@@ -186,7 +186,8 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 {{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. リストでカスタムフォームを選択し、![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。
+1. リストでカスタムフォームを選択し、![共有アイコン ](assets/share-icon.png)をクリックします。
 1. 共有ボックスで、フォームに特別なアクセス権を付与する必要がなくなったユーザー、チーム、役割、グループ、会社、またはビジネスプロファイルの名前の右側にあるドロップダウンメニューをクリックし、**削除**&#x200B;を選択します。
 1. （オプション）削除する他の名前について、前の手順を繰り返します。
 1. 「**保存**」をクリックします。
+
