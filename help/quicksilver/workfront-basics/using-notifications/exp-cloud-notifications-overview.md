@@ -49,7 +49,7 @@ Workfrontは、Adobeのデジタルエクスペリエンス製品群の一部で
 
 ## Experience Cloudでの新しい通知の表示
 
-1. Workfrontの右上隅にある&#x200B;**通知** アイコン ![通知アイコン ](assets/bell-icon.png)をクリックします。
+1. Workfrontの右上隅にある&#x200B;**通知** アイコン ![通知アイコン &#x200B;](assets/bell-icon.png)をクリックします。
 
 1. 開いた&#x200B;**Experience Cloud Notifications** パネルで、**Notifications**&#x200B;を選択します。 通知のリストが表示され、最新の通知がリストの上部に表示されます。
 
@@ -67,9 +67,9 @@ Workfrontは、Adobeのデジタルエクスペリエンス製品群の一部で
 >
 >個人通知の設定にアクセスできない場合は、管理者にお問い合わせください。
 
-1. Workfrontの右上隅にある&#x200B;**通知** アイコン ![通知アイコン ](assets/bell-icon.png)をクリックします。
+1. Workfrontの右上隅にある&#x200B;**通知** アイコン ![通知アイコン &#x200B;](assets/bell-icon.png)をクリックします。
 
-1. **Experience Cloud** パネルの右上隅にある&#x200B;**Settings** アイコン ![Settings アイコン ](assets/settings-icon.png)をクリックします。
+1. **Experience Cloud** パネルの右上隅にある&#x200B;**Settings** アイコン ![Settings アイコン &#x200B;](assets/settings-icon.png)をクリックします。
 
 1. **通知** セクションで、**Workfront** タイルの矢印アイコン ![Workfront タイル矢印](assets/arrow-icon.png)をクリックします。
 

@@ -51,4 +51,4 @@ ht-degree: 71%
 
 [!DNL Workfront]管理者は、[!DNL Workfront]によって設定されているため、メール通知コンテンツを変更することはできませんが、イベント通知のメール件名を変更することはできます。 詳しくは、[イベント通知メールの件名のカスタマイズ](../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)を参照してください。
 
-すべての[!DNL Workfront]件のイベント通知のリストと、各イベントの簡単な説明、およびデフォルトでアクティブか非アクティブかについては、[件のイベント通知タイプ ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
+すべての[!DNL Workfront]件のイベント通知のリストと、各イベントの簡単な説明、およびデフォルトでアクティブか非アクティブかについては、[件のイベント通知タイプ &#x200B;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。

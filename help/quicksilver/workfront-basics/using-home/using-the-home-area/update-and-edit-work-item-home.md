@@ -103,15 +103,15 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 ## マイワークウィジェットの作業項目にコメントを追加する
 
-[!UICONTROL  マイワーク ] ウィジェットの任意の作業項目に関する更新を提供できます。
+[!UICONTROL &#x200B; マイワーク &#x200B;] ウィジェットの任意の作業項目に関する更新を提供できます。
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** ![ メインメニューライン アイコン ](assets/lines-main-menu.png)をクリックし、使用可能な場合は&#x200B;**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** ![&#x200B; メインメニューライン アイコン &#x200B;](assets/lines-main-menu.png)をクリックし、使用可能な場合は&#x200B;**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）「**カスタマイズ**」をクリックして、[!UICONTROL **マイワーク**] ウィジェットを追加します。
 
 1. 更新する作業項目を&#x200B;[!UICONTROL **マイワーク**] ウィジェットで探します。
 1. 名前にカーソルを合わせ、**新しい更新プログラムを追加** アイコンをクリックします。
 
-   ![ ウィジェットの更新を追加](assets/add-update-on-widget.png)
+   ![&#x200B; ウィジェットの更新を追加](assets/add-update-on-widget.png)
 
 1. コメントの入力を開始します。
 1. （オプション）「**ユーザーまたはチームにタグ付け**」ボックスで、ユーザーの名前または電子メール、またはこのコメントに含めるチームを入力し始め、リストに表示されたら選択します。
@@ -133,7 +133,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 1. 「**返信**」をクリックします。
 
-   ![ コメントへの返信](assets/reply-to-comment-in-mentions-widget.png)
+   ![&#x200B; コメントへの返信](assets/reply-to-comment-in-mentions-widget.png)
 
 1. コメントの入力を開始します。
 1. （オプション）「**ユーザーをタグ付け**」ボックスで、このコメントに含めるユーザーまたはチームの名前を入力し始め、リストに表示されたら選択します。
@@ -150,7 +150,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 編集にアクセスできる任意の作業アイテムの任意のフィールドを編集できます。
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** ![ メインメニューライン アイコン ](assets/lines-main-menu.png)をクリックし、使用可能な場合は&#x200B;**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)、または左上隅の&#x200B;**メインメニュー** ![&#x200B; メインメニューライン アイコン &#x200B;](assets/lines-main-menu.png)をクリックし、使用可能な場合は&#x200B;**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）「**カスタマイズ**」をクリックして、**マイワーク** ウィジェットを追加します。
 
 1. 作業項目にカーソルを合わせて、**概要** アイコンをクリックします。
