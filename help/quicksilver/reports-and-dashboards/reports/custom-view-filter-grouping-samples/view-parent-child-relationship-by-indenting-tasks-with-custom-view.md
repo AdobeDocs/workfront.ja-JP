@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '244'
 ht-degree: 78%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 78%
 
 タスクリストにカスタムビューを追加し、リストを書き出す前にこのビューが選択されていることを確認することで、書き出したタスクリストで親子関係の区別を維持できます。
 
-![親の子インデント &#x200B;](assets/parent-child-indented-custom-view-350x94.png)
+![親の子インデント ](assets/parent-child-indented-custom-view-350x94.png)
 
 ## アクセス要件
 

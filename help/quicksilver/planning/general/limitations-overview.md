@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '466'
 ht-degree: 21%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 21%
 
 Adobe Workfront Planningでは、インスタンスで作成できるオブジェクトの数に制限があります。 オブジェクトの制限は、Workfront Planningで製品のパフォーマンスを向上させ、エクスペリエンスを強化するために設定されています。
 
-Workfront Planning で作成できるオブジェクトの数の制限を次の表に示します。制限は変更される場合があります。
+Workfront Planning で作成できるオブジェクトの数の制限を次の表に示します。 制限は変更される場合があります。
 
 | Adobe Workfront Planning オブジェクト | 制限 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|

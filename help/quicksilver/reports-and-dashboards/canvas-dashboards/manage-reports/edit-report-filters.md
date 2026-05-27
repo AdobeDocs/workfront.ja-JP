@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 47%
+source-wordcount: '1063'
+ht-degree: 49%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 47%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートにお問い合わせください](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
@@ -77,16 +77,16 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->レポートフィルターの作成と編集に使用できる設定ツールは多数あります。 これらのツールについて詳しくは、この記事の次の節を参照してください。[&#x200B; レポートフィルターを編集する際の考慮事項](#considerations-when-editing-a-report-filter)。
+>レポートフィルターの作成と編集に使用できる設定ツールは多数あります。 これらのツールについて詳しくは、この記事の次の節を参照してください。[ レポートフィルターを編集する際の考慮事項](#considerations-when-editing-a-report-filter)。
 
 
 {{step1-to-dashboards}}
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 
-1. **Canvas ダッシュボード** ページで、編集するフィルターを含むレポートの右上隅にある&#x200B;**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) アイコンをクリックし、**編集**&#x200B;を選択します。
+1. **Canvas ダッシュボード** ページで、編集するフィルターを含むレポートの右上隅にある&#x200B;**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンをクリックし、**編集**&#x200B;を選択します。
 
-   ![&#x200B; レポートの編集](assets/edit-report-box.png)
+   ![ レポートの編集](assets/edit-report-box.png)
 
 1. **設定** ダイアログボックスの左側で、**フィルター** パネルを選択します。
 
@@ -96,7 +96,7 @@ ht-degree: 47%
 
    ![条件を追加](assets/add-condition.png)
 
-1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件を追加します。 セット間のデフォルトの演算子は AND です。演算子をクリックして OR に変更します。
+1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件のセットを追加します。 セット間のデフォルトの演算子は AND です。 演算子をクリックして OR に変更します。
 
 1. 「**保存**」をクリックします。
 
@@ -104,11 +104,11 @@ ht-degree: 47%
 
 ### 日付ベースのワイルドカードフィルター変数
 
-日付ベースのワイルドカードオプションは、任意の日付フィルター属性と組み合わせて使用できます。レポートに日付ベースのワイルドカードを追加する方法について詳しくは、[日付ベースのワイルドカードを使用したレポートの一般化](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)を参照してください。
+日付ベースのワイルドカードオプションは、任意の日付フィルター属性と組み合わせて使用できます。 レポートに日付ベースのワイルドカードを追加する方法について詳しくは、[日付ベースのワイルドカードを使用したレポートの一般化](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)を参照してください。
 
 >[!NOTE]
 >
->時間部分を含まない日付と時間の計算を作成した場合または $$TODAY や $$NOW の日付ワイルドカードを使用する場合、ローカルタイムゾーンではなく協定世界時（UTC）ゾーンに従って日付が使用されます。これは予期しない日付の結果を引き起こす可能性があります。
+>時間部分を含まない日付と時間の計算を作成した場合または $$TODAY や $$NOW の日付ワイルドカードを使用する場合、ローカルタイムゾーンではなく協定世界時（UTC）ゾーンに従って日付が使用されます。 これは予期しない日付の結果を引き起こす可能性があります。
 
 次の日付ベースのワイルドカードから選択できます。
 
@@ -122,7 +122,7 @@ ht-degree: 47%
   </tr> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
-   <td> <p>これは $$TODAY ワイルドカードに似ていますが、現在の日付と時間が含まれます。$$NOW は現在の日付と時間に等しいものとします。</p> <p>例えば、現在の時刻までに入力されたすべての時間エントリを表示する場合は、時間フィルターで <em>$$NOW 以前の予定開始日</em>のルールを使用します。</p> <p>メモ：このワイルドカードは、リソースプランナーではサポートされていません。</p> </td> 
+   <td> <p>これは $$TODAY ワイルドカードに似ていますが、現在の日付と時間が含まれます。 $$NOW は現在の日付と時間に等しいものとします。</p> <p>例えば、現在の時刻までに入力されたすべての時間エントリを表示する場合は、時間フィルターで <em>$$NOW 以前の予定開始日</em>のルールを使用します。</p> <p>メモ：このワイルドカードは、リソースプランナーではサポートされていません。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -154,21 +154,21 @@ ht-degree: 47%
 
 {style="table-layout:auto"}
 
-例えば、ワイルドカード `$$TODAYb+2w` は、「今週の初めから 2 週間」を意味します。ワイルドカード *`$$NOW+2h` は、「今から 2 時間後」を意味します。
+例えば、ワイルドカード `$$TODAYb+2w` は、「今週の初めから 2 週間」を意味します。 ワイルドカード *`$$NOW+2h` は、「今から 2 時間後」を意味します。
 
 ### ログインユーザーのワイルドカードフィルター変数
 
 * ユーザー`name`属性でフィルタリングを行うと、**自分（ログイン済みユーザー）** オプションが表示されます。
 
-  ![&#x200B; ユーザー名属性](assets/user-name-attribute.png)
+  ![ ユーザー名属性](assets/user-name-attribute.png)
 
 * グループ `name`属性でフィルタリングを実行すると、**マイホームグループ （ユーザーグループにログイン）**&#x200B;および&#x200B;**他のグループ （ユーザーグループにログイン）**&#x200B;のオプションが表示され、フィルター条件で使用されます。
 
-  ![&#x200B; グループ名属性](assets/group-name-attribute.png)
+  ![ グループ名属性](assets/group-name-attribute.png)
 
 * チーム `name`属性でフィルタリングを行うと、**デフォルトのチーム （ユーザーチームにログイン）**&#x200B;と&#x200B;**他のチーム （ユーザーチームにログイン）**&#x200B;のオプションが表示され、フィルター条件で選択できるようになります。
 
-  ![&#x200B; チーム名の属性](assets/team-name-attribute.png)
+  ![ チーム名の属性](assets/team-name-attribute.png)
 
 
 ### 子オブジェクトの参照
