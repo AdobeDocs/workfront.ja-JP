@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 99%
+source-wordcount: '1158'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->18.2 リリースは以下の日付で、実稼動環境で利用できるようになりました。
+> 18.2 リリースは以下の日付で、本番環境で利用できるようになりました。
 >
->* Workfront Proof 実稼働環境 - 7月17日火曜日（PT）
->* クラスター 2 およびクラスター 4 のWorkfront 実稼動環境 - 7月19日木曜日（PT）
->* クラスター 1、クラスター 3、クラスター 5 のWorkfront 実稼動環境 - 7月20日金曜日（PT）
+>* Workfront Proof 本番環境 - 7月17日火曜日（PT）
+>* クラスター 2 およびクラスター 4 のWorkfront 本番環境 - 7月19日木曜日（PT） 
+>* クラスター 1、クラスター 3、クラスター 5 のWorkfront 本番環境 - 7月20日金曜日（PT）
 >
 
 このページでは、2018.2 リリースで使用できる機能について説明します。
@@ -36,9 +36,9 @@ ht-degree: 99%
 ## 管理者向けの機能強化 {#enhancements-for-administrators}
 
 * [Workfront メール通知に返信するメール配信サービスを指定](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
-* [監査ログを使用してユーザーがトリガーした変更を表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-user-triggered-changes-with-audit-logs)
-* [グループ管理者としてライセンス情報を表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-license-information-as-a-group-administrator)
-* [システム設定：外部ページのセッション情報](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#system-setting-session-information-in-external-pages)
+* [監査ログを使用してユーザーがトリガーした変更を表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-user-triggered-changes-with-audit-logs) 
+* [グループ管理者としてライセンス情報を表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-license-information-as-a-group-administrator) 
+* [システム設定：外部ページのセッション情報](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#system-setting-session-information-in-external-pages) 
 * [システムでのライセンス管理](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#manage-licenses)
 * [ログ時間（日数）](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#log-time-in-days)
 
@@ -49,10 +49,10 @@ ht-degree: 99%
 * [新規プロジェクトリストのアイコンサポート](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#icon-support-for-the-new-project-lists)
 * [プロジェクトリストの列幅のサイズ変更](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#resize-column-widths-for-project-lists)
 * [ドキュメント表示に「大きいサムネール」フィールドを追加](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-large-thumbnail-field-in-document-views)
-* [プロジェクトリストのクイックフィルター](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#quick-filters-for-project-lists)
-* [Excel 書き出し制限の増加](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#increase-excel-export-limit)
-* [Google Team Drives のサポート](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives)
-* [ガントチャートの新しい書き出し制限](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart)
+* [プロジェクトリストのクイックフィルター](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#quick-filters-for-project-lists) 
+* [Excel 書き出し制限の増加](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#increase-excel-export-limit) 
+* [Google Team Drives のサポート](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
+* [ガントチャートの新しい書き出し制限](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart) 
 * [プロジェクト間の先行タスクの関係をプロジェクトリストのガントチャートで表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#view-cross-project-predecessor-relationshipts-in-the-gantt)
 * [ポートフォリオオプティマイザーで予算計上コストを使用して、ポートフォリオ財務を計算](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
 * [ガントチャートのタスクの日付の変更](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#modify-task-dates-in-the-gantt-chart)
@@ -62,15 +62,15 @@ ht-degree: 99%
 
 ### ホームエリア（担当作業のアップデート）
 
-* [ホームエリアのカレンダー表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#calendar-view-in-the-home-area)
-* [ホームの作業リスト（左側のパネル）の追加アップデート](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home)
-* [ホームエリアの作業リストのアップデート（左側のパネル）](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#updated-work-list-in-the-home-area)
+* [ホームエリアのカレンダー表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#calendar-view-in-the-home-area) 
+* [ホームの作業リスト（左側のパネル）の追加アップデート](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home) 
+* [ホームエリアの作業リストのアップデート（左側のパネル）](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#updated-work-list-in-the-home-area) 
 * [ホームエリアからフィールドを直接編集](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#edit-fields-directly-from-the-home-area)
 
 ### リソース管理の強化
 
-* [リソースプランナーでのプロジェクトおよび役割表示の向上](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#project-and-role-view-improvements-in-the-resource-planner)
-* [自動リソーススケジュール用の担当業務制限の設定](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-job-role-limits-for-automated-resource-scheduling)
+* [リソースプランナーでのプロジェクトおよび役割表示の向上](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#project-and-role-view-improvements-in-the-resource-planner) 
+* [自動リソーススケジュール用の担当業務制限の設定](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-job-role-limits-for-automated-resource-scheduling) 
 * [リソースプランナーへのユーザービューの書き出し](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#exporting-the-user-view-in-the-resource-planner)
 * [稼働率レポート：新規リソース予算計上フィールドエリアから、予算計上時間数を入力](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#utilization-populates-budgeted-hours-from-new-resource-budgeting-area)
 * [稼働率レポート：プロジェクト上のユーザー別の予算計上時間数を表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#utilization-view-budgeted-hours-by-user)
@@ -81,60 +81,60 @@ ht-degree: 99%
 * [かんばんボードでの進行中の作業（WIP）の上限の機能強化](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#wip-limit-enhancements-on-the-kanban-board)
 * [アジャイルチームのステータスを設定するためのインターフェイスの改善](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#improved-interface-for-configuring-statuses-for-an-agile-team)
 
-* [かんばんボードでストーリーのフラグを設定](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#set-flags-for-stories-on-the-kanban-board)
-* [アジャイルストーリーカード上でフィールドを直接編集](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#edit-fields-directly-on-an-agile-story-card)
+* [かんばんボードでストーリーのフラグを設定](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#set-flags-for-stories-on-the-kanban-board) 
+* [アジャイルストーリーカード上でフィールドを直接編集](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#edit-fields-directly-on-an-agile-story-card) 
 
 ### レポートの機能強化
 
-* [プロジェクトおよびタスクレポートでイシューのコレクションを参照](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#reference-issue-collections-in-project-and-task-reports)
+* [プロジェクトおよびタスクレポートでイシューのコレクションを参照](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#reference-issue-collections-in-project-and-task-reports) 
 
 ### モバイルの機能強化
 
-* [モバイル機能の改善](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#mobile-improvements) New！（Beta 最終版）
+* [モバイル機能の改善](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#mobile-improvements) New！ （Beta 最終版）
 
-* [Android ベータ版モバイルアプリのモバイル機能の改善](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#mobile-improvements-in-the-android-beta-mobile-app)
-* [Android 向けの新しいベータ版環境と新機能](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#launching-the-beta-environment-for-android-along-with-new-features)
+* [Android ベータ版モバイルアプリのモバイル機能の改善](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#mobile-improvements-in-the-android-beta-mobile-app) 
+* [Android 向けの新しいベータ版環境と新機能](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#launching-the-beta-environment-for-android-along-with-new-features) 
 
 ### 統合の機能強化
 
 * [Workfront for Salesforce](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce) が近日公開！
 
-* [Workfront for Slack の改善](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements) New！（Beta 最終版）
+* [Workfront for Slack の改善](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements) New！ （Beta 最終版）
 
 ### API の機能強化
 
-* [イベント登録メッセージのフィルターの例](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#examples-of-filters-for-event-subscription-messages)
+* [イベント登録メッセージのフィルターの例](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#examples-of-filters-for-event-subscription-messages) 
 
 ### プルーフビューアの機能強化
 
-* [プルーフビューアから直接ユーザーをプルーフに追加](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-users-to-a-proof)
-* [プルーフビューアですべてのマークアップツールを表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#display-all-markup-tools)
+* [プルーフビューアから直接ユーザーをプルーフに追加](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-users-to-a-proof) 
+* [プルーフビューアですべてのマークアップツールを表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#display-all-markup-tools) 
 * [プルーフビューアでデフォルトの並べ替えオプションを設定](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-default-sorting-options)
 * [デスクトッププルーフビューアで Workfront ドキュメント承認を表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-workfront-document-approvals-for-specific-versions-in-the-proofing-viewer)
-* [新しいタブやウィンドウを開くリンクをデスクトッププルーフビューア内で開くように設定](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-links-that-open-new-tabs-and-windows-to-open-within-the-dekstop-proofing-viewer)
+* [新しいタブやウィンドウを開くリンクをデスクトッププルーフビューア内で開くように設定](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-links-that-open-new-tabs-and-windows-to-open-within-the-dekstop-proofing-viewer) 
 * [プルーフビューアのプレゼンスインジケーター](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#presence-indicator-in-the-proofing-viewer)
 * [コメントをフィルタリングしてインタラクティブ URL プルーフの単一ページをデスクトッププルーフビューアに表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#filter-comments-to-display-a-single-page-for-interactive-url-proofs)
 * [静的コンテンツとビデオコンテンツのためのデスクトッププルーフビューア](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#desktop-proofing-viewer-for-static-and-video-content)
-* [システムにカスタムデバイスを追加](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-custom-devices-to-your-system)
-* [インタラクティブ（リッチメディア）コンテンツのプルーフ用の新しいデスクトッププルーフビューア](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-desktop-proofing-viewer-for-proofing-interactive-content)
+* [システムにカスタムデバイスを追加](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-custom-devices-to-your-system) 
+* [インタラクティブ（リッチメディア）コンテンツのプルーフ用の新しいデスクトッププルーフビューア](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-desktop-proofing-viewer-for-proofing-interactive-content) 
 
 ### Workfront でのプルーフの機能強化
 
-* [Workfront から直接プルーフのリンクを共有](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#share-the-proof-link-directly-from-workfront)
-* [Workfront で追加のプルーフデータをレポート](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#report-on-additional-proofing-data-in-workfront)
-* [Workfront でプルーフの承認の履歴データを表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-historical-data-for-proof-approvals-in-workfront)
+* [Workfront から直接プルーフのリンクを共有](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#share-the-proof-link-directly-from-workfront) 
+* [Workfront で追加のプルーフデータをレポート](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#report-on-additional-proofing-data-in-workfront) 
+* [Workfront でプルーフの承認の履歴データを表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-historical-data-for-proof-approvals-in-workfront) 
 * [ドキュメントリストのプルーフの進捗状態をプルーフ以外のユーザーが利用可能に](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#proof-progress-from-the-document-list-available)
 
 ### Workfront Proof でのプルーフの機能強化
 
 * [プルーフビューアから直接新しいバージョンのプルーフを作成（Workfront Proof）](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer)
-* [プルーフビューアおよびデスクトッププルーフビューアでの新しいプルーフの詳細リンク（Workfront Proof）](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-proof-details-link-in-the-proofing-viewer)
+* [プルーフビューアおよびデスクトッププルーフビューアでの新しいプルーフの詳細リンク（Workfront Proof）](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-proof-details-link-in-the-proofing-viewer) 
 
 ### その他の機能強化
 
-* [Workfront で新しいドキュメントバージョンを追加する際の、より強固な新しいバージョンメニュー](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
+* [Workfront で新しいドキュメントバージョンを追加する際の、より強固な新しいバージョンメニュー](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront) 
 * [Internet Explorer または Safari を使用する場合、「クリップボードから貼り付け」オプションを薄い色で表示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#paste-from-clipboard-option-now-disaplys-as-dimmed-in-ie-and-safari)
-* [複数の単語に対する検索関連性の改善](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#search-for-phrases)
+* [複数の単語に対する検索関連性の改善](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#search-for-phrases) 
 * [モバイル機能の改善](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#mobile-improvements)
 * [ドキュメントリストのドキュメントに様々なリンクを再導入](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#various-links-reintroduced-to-documents-on-the-document-list)
 * [ドキュメントへのコメントに関するメール通知を受信](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents) New！
@@ -180,7 +180,7 @@ Flash 技術に依存するすべての機能は、2018.3 リリースで Workfr
 
 * リソースグリッドが新しいリソースプランナーに置き換えられます
 
-  詳しくは、[Adobe Workfrontでのリソースプランニング &#x200B;](../../../../resource-mgmt/resource-planning/resource-planning-overview.md) を参照してください。
+  詳しくは、「[Adobe Workfrontのリソース計画](../../../../resource-mgmt/resource-planning/resource-planning-overview.md)」を参照してください
 
 * ビジネスケースのリソース見積りが、リソースプランナーのビジネスケースの新しい「リソース予算計上」セクションに置き換えられます
 
@@ -194,7 +194,7 @@ Flash 技術に依存するすべての機能は、2018.3 リリースで Workfr
 
   >[!NOTE]
   >
-  >23.1 リリースで、リソーススケジュールツールは廃止され、Workfront から削除されました。ワークロードバランサーを使用したリソーススケジュールについては、[ワークロードバランサーの概要](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)を参照してください。
+  >23.1 リリースで、リソーススケジュールツールは廃止され、Workfront から削除されました。 ワークロードバランサーを使用したリソーススケジュールについては、[ワークロードバランサーの概要](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)を参照してください。
 
 * 従来のプルーフビューアが新しい web プルーフビューアおよびデスクトッププルーフビューアに置き換えられます。
 
@@ -202,24 +202,24 @@ Flash 技術に依存するすべての機能は、2018.3 リリースで Workfr
 
   詳しくは、次のリソースを参照してください。
 
-   * [Web プルーフビューアでのプルーフのレビュー](https://support.workfront.com/hc/en-us/sections/115000275214)
-   * [デスクトッププルーフビューアでのプルーフのレビュー](https://support.workfront.com/hc/en-us/sections/360000686434)
+   * [Web プルーフビューアでのプルーフの確認](https://support.workfront.com/hc/en-us/sections/115000275214)
+   * [デスクトップ校正ビューアでの校正の確認](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### Microsoft Outlook アドインサポートの終了 {#microsoft-outlook-add-in-support-is-ending}
 
 7月の 18.2 製品リリース以降、Workfront では、アドインのデスクトップバージョンをサポートしなくなります。
 
-直ちに Workfront for Outlook に切り替えて、生産性に優れた組織になりましょう。Outlook 用に 2 つの異なるアドインを提供する代わりに、PC、Mac、デスクトップ、web、さらには Outlook モバイルアプリなどあらゆる環境で使用できる 1 つの万能アドインを提供するようになりました。
+直ちに Workfront for Outlook に切り替えて、生産性に優れた組織になりましょう。 Outlook 用に 2 つの異なるアドインを提供する代わりに、PC、Mac、デスクトップ、web、さらには Outlook モバイルアプリなどあらゆる環境で使用できる 1 つの万能アドインを提供するようになりました。
 
 任意の環境に新しい Workfront for Outlook をインストールすると、チームはより多くのことを達成し、秩序を保ち、作業の優先付けをリアルタイムに行うことができます。
 
 次のリソースで Workfront for Outlook の詳細を理解し、使用を開始してください。
 
-* [Web サイトとビデオ](https://business.adobe.com/jp/products/workfront/integrations.html)
+* [Web サイトとビデオ](https://business.adobe.com/products/workfront/integrations.html) 
 * [Outlook での Workfront の使用](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)（ヘルプ記事）
 
 ### 古い API バージョンの削除 {#removing-old-api-versions}
 
 API を改善するための継続的な取り組みの一環として、Workfront の最新リリースと互換性のない古い API バージョンを削除します。
 
-詳しくは、[API のバージョン管理とサポートのスケジュール](../../../../wf-api/api/api-version-support-schedule.md)を参照してください。
+詳しくは、[API のバージョン管理とサポートのスケジュール](../../../../wf-api/api/api-version-support-schedule.md)を参照してください。 
