@@ -8,14 +8,14 @@ recommendations: noDisplay, noCatalog
 exl-id: 4be185e7-12b1-49af-973e-c6eb3e134d38
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '180'
 ht-degree: 100%
 
 ---
 
 # 22.3 リソース管理の強化
 
-このページでは、プレビュー環境での 22.3 リリースで行われた、リソース管理のすべての機能強化について説明します。これらの機能強化は、2022年7月11日（PT）の週に実稼動環境で公開されました。22.3 リリースで使用可能なすべての変更点の一覧については、[22.3 リリースの概要](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)を参照してください。
+このページでは、プレビュー環境での 22.3 リリースで行われた、リソース管理のすべての機能強化について説明します。 これらの機能強化は、2022年7月11日（PT）の週に本番環境で公開されました。 22.3 リリースで使用可能なすべての変更点の一覧については、[22.3 リリースの概要](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)を参照してください。
 
 ## ワークロードバランサーでの環境設定の並べ替えとユーザビリティの強化
 

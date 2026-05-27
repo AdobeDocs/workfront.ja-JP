@@ -8,8 +8,8 @@ feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
 source-git-commit: 628f668f0c5df34eb967729224d91a28cebbb17c
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 75%
+source-wordcount: '851'
+ht-degree: 77%
 
 ---
 
@@ -40,7 +40,7 @@ Workfront での作業への承認の関連付けについては、[新規また
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>投稿者以上</p>
+   <p>コントリビューター以上</p>
    <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
@@ -60,15 +60,15 @@ Workfront での作業への承認の関連付けについては、[新規また
 
 ## Adobe Workfront で承認を検索
 
-Workfront の様々な領域で承認を表示または管理できます。 
+Workfront の様々な領域で承認を表示または管理できます。
 
 承認待ちの項目または自分で承認用に送信した項目の表示について詳しくは、[承認の表示](../../review-and-approve-work/manage-approvals/view-approvals.md)を参照してください。
 
 ## ホーム領域から作業項目を承認
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
-1. （条件付き） **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
-1. （条件付き） **フィルター** ドロップダウンメニューをクリックし、「**すべて**」を選択して、割り当てられた承認と委任された承認を確認します。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. （条件付き）「**カスタマイズ**」をクリックして、**自分の承認** ウィジェットを追加します。
+1. （条件付き）「**フィルター**」ドロップダウンメニューをクリックし、**すべて**&#x200B;を選択して、自分に割り当てられた承認と委任された承認を表示します。
 
    >[!NOTE]
    >
@@ -77,7 +77,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 1. 承認する項目を選択します。
 
-   ![&#x200B; マイ承認ウィジェット &#x200B;](assets/my-approvals-widget.png)
+   ![自分の承認ウィジェット &#x200B;](assets/my-approvals-widget.png)
 
 1. 右側のパネルで承認を決定する際に、使用可能なオプションの 1 つをクリックします。 承認する項目のタイプに応じて、ページの右上隅に次のオプションが表示されます。
 
@@ -102,7 +102,7 @@ Workfront の様々な領域で承認を表示または管理できます。
       <li>付与</li>
       <li>無視</li>
       </ul>
-      必要に応じて、<b> アクセス権を変更 </b> ドロップダウンメニューでアクセスレベルを調整できます。
+      必要に応じて、<b> アクセス権の変更</b> ドロップダウンメニューでアクセス権のレベルを調整できます。
       </td>
       <td>
          <ul>
@@ -112,28 +112,28 @@ Workfront の様々な領域で承認を表示または管理できます。
       決定ボタンのドロップダウンメニューをクリックして、決定にコメントを残すことができます。
       </td>
       <td>
-   承認者として割り当てられました
+   承認者として割り当てられた
          <ul>
          <li>承認</li>
          <li>変更して承認</li>
          <li>作業が必要</li>
          </ul>
-   レビュアーとして割り当て済み
+   レビュアーとして割り当てられました
          <ul>
          <li>レビューの完了</li>
          </ul>
-      この列のオプションは、統合承認にのみ適用されます。 従来のドキュメント承認は、作業項目の承認と同じように表示されます。 
+      この列のオプションは、統合承認にのみ適用されます。 レガシードキュメントの承認は、作業項目の承認と同じように表示されます。 
       </td>
       <td>
          <ul>
-         <li>プルーフに移動</li>
+         <li>プルーフを見る</li>
          </ul>
-         決定はプルーフビューアで行います。 プルーフの確認について詳しくは、<a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Adobe Workfront でのプルーフのレビュー</a>を参照してください。
+         プルーフビューアで決定します。 プルーフの確認について詳しくは、<a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Adobe Workfront でのプルーフのレビュー</a>を参照してください。
       </td>
    </tr>
    </table>
 
-決定を行うと、その承認が自分の承認ウィジェットから削除されます。
+決定を行うと、承認はマイ承認ウィジェットから削除されます。
 
 
 ## プロジェクト、タスク、イシューから直接作業を承認
@@ -160,32 +160,32 @@ Workfront の様々な領域で承認を表示または管理できます。
      </tr> 
      <tr> 
       <td role="rowheader">承認ステージ</td> 
-      <td>承認プロセスのステージ。 <br>承認待ちの現在のステージは、「保留」と表示されます。既に承認済みのステージは「承認済み」と表示され、まだ承認されていないステージは「開始前」と表示されます。</td> 
+      <td>承認プロセスのステージ。 <br>承認待ちの現在のステージは、「保留」と表示されます。 既に承認済みのステージは「承認済み」と表示され、まだ承認されていないステージは「開始前」と表示されます。</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. 承認プロセスを承認するか却下するかに応じて、「**承認**」または「**却下**」をクリックします。\
-   承認待ちだった承認ステージが承認され、承認プロセスが次のステージに移動します。すべてのステージが承認されると、ステータスが承認済みになります。
+   承認待ちだった承認ステージが承認され、承認プロセスが次のステージに移動します。 すべてのステージが承認されると、ステータスが承認済みになります。
 
 ## ドキュメントから直接ドキュメントを承認
 
 1. 承認を必要とするドキュメントが含まれているドキュメントエリアに移動します。
 1. ドキュメントを選択し、「**承認**」、「**変更**」、または「**却下**」をクリックします。\
-   ![&#x200B; ドキュメントを承認 &#x200B;](assets/approval-approve-document-350x215.png)\
-   ![&#x200B; ドキュメントの承認 &#x200B;](assets/document-approval-350x199.png)
+   ![文書を承認](assets/approval-approve-document-350x215.png)\
+   ![文書の承認](assets/document-approval-350x199.png)
 
 1. （オプション）ドキュメントのプルーフが生成されている場合は、プルーフインターフェイス内でドキュメントを承認できます（[プルーフからのドキュメントの承認](#approve-a-document-from-a-proof)参照）。
 
 ## 承認通知メールからのドキュメントの承認
 
-通知設定に応じて、他のユーザーがあなたによる承認決定を必要としているドキュメントについて通知するメールを受け取る場合があります。「**承認決定する**」ボタンを含むメールを受信した場合は、そのメールから直接承認プロセスを開始できます。
+通知設定に応じて、他のユーザーがあなたによる承認決定を必要としているドキュメントについて通知するメールを受け取る場合があります。 「**承認決定する**」ボタンを含むメールを受信した場合は、そのメールから直接承認プロセスを開始できます。
 
 1. メールで「**承認決定する**」をクリックすると、プルーフのドキュメントの詳細ページが開きます。
 1. ドキュメントをレビューするには、次のいずれかの操作を行います。
 
    * ドキュメントに関するメタデータを表示します。
-   * マークアップやコメントを含むドキュメントをレビューするためのプルーフが作成されている場合は、右上隅付近の **プルーフを開く**![&#x200B; プルーフを開く &#x200B;](assets/open-proof-icon-qs.png) をクリックして、プルーフをレビューします。
+   * マークアップとコメントを含むドキュメントを確認するためのプルーフが作成されている場合は、右上隅付近にある「**プルーフを開く** ![&#x200B; プルーフを開く](assets/open-proof-icon-qs.png)」をクリックして、プルーフを確認します。
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
@@ -197,4 +197,4 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 ## プルーフからのドキュメントの承認 {#approve-a-document-from-a-proof}
 
-プルーフビューア内でプルーフを承認できます。詳しくは、[プルーフビューアでのプルーフの決定](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)の記事の[プルーフビューアでのプルーフの決定](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)を参照してください。
+プルーフビューア内でプルーフを承認できます。 詳しくは、[プルーフビューアでのプルーフの決定](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)の記事の[プルーフビューアでのプルーフの決定](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)を参照してください。

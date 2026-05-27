@@ -2,7 +2,7 @@
 product-previous: workfront-goals
 navigation-topic: goal-alignment
 title: Adobe Workfront Goalsの「目標の調整」セクションを移動します
-description: 「目標の整合性」セクションを使用して、組織全体の目標揃えの全体像をフローチャートに表示します。整合させた目標は、階層ツリー内で相互に接続するカードに表示されます。
+description: 「目標の整合性」セクションを使用して、組織全体の目標揃えの全体像をフローチャートに表示します。 整合させた目標は、階層ツリー内で相互に接続するカードに表示されます。
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '901'
 ht-degree: 82%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 82%
 
 <!--Audited P&P only: 4/2025-->
 
-「目標の整合性」セクションを使用して、組織全体の目標揃えの全体像をフローチャートに表示します。整合させた目標は、階層ツリー内で相互に接続するカードに表示されます。
+「目標の整合性」セクションを使用して、組織全体の目標揃えの全体像をフローチャートに表示します。 整合させた目標は、階層ツリー内で相互に接続するカードに表示されます。
 
 目標の整合性とその達成方法については、次の記事も参照してください。
 
@@ -30,7 +30,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 
@@ -135,7 +135,7 @@ Or
 {{step1-to-goals}}
 
 1. 左パネルの「**目標の整合性**」をクリックします。
-1. 整合性グラフの右上隅にあるフィルターを使用して、重要な目標のみを選択します。Workfront Goals でのフィルターの使用について詳しくは、[Adobe Workfront Goals での情報のフィルター](../../workfront-goals/goal-management/filter-information-wf-goals.md)を参照してください。
+1. 整合性グラフの右上隅にあるフィルターを使用して、重要な目標のみを選択します。 Workfront Goals でのフィルターの使用について詳しくは、[Adobe Workfront Goals での情報のフィルター](../../workfront-goals/goal-management/filter-information-wf-goals.md)を参照してください。
 
    フィルターに一致する目標は、カードの整合性グラフに表示されます。
 
@@ -147,11 +147,11 @@ Or
     <tbody> 
      <tr> 
       <td role="rowheader">期間の日付 </td> 
-      <td> <p>これは、目標がオープンとなっている期間です。目標は、期間の終了日までに達成する必要があります。Workfront Goals は、目標の期間と現在の日付に基づいて目標の進捗を計算します。</p> </td> 
+      <td> <p>これは、目標がオープンとなっている期間です。 目標は、期間の終了日までに達成する必要があります。 Workfront Goals は、目標の期間と現在の日付に基づいて目標の進捗を計算します。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">進捗状況インジケーター</td> 
-      <td>目標の進行状況インジケーターの数。進捗インジケーターは、目標、結果、活動、またはアクティビティを関連付けることができます。 </td> 
+      <td>目標の進行状況インジケーターの数。 進捗インジケーターは、目標、結果、活動、またはアクティビティを関連付けることができます。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">所有者名</td> 
@@ -163,7 +163,7 @@ Or
      </tr> 
      <tr> 
       <td role="rowheader">目標進捗バー<span>および進捗</span></td> 
-      <td> <p>目標の進捗は、現在達成されている目標の量を示します。これは、目標の期間の開始以降の経過時間に基づいて、目標に関連するすべての目標、結果およびアクティビティの進捗の平均を自動計算します。目標の進捗の計算について詳しくは、<a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront Goals の目標進捗と条件の概要</a>を参照してください。 </p> 
+      <td> <p>目標の進捗は、現在達成されている目標の量を示します。 これは、目標の期間の開始以降の経過時間に基づいて、目標に関連するすべての目標、結果およびアクティビティの進捗の平均を自動計算します。 目標の進捗の計算について詳しくは、<a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Adobe Workfront Goals の目標進捗と条件の概要</a>を参照してください。 </p> 
        <div> 
         <p>現在の日付での目標の実際の進捗状況。 次の進捗状況の値と色は、目標が時間通りに達成される可能性を示しています。 </p> 
         <ul> 
@@ -230,7 +230,7 @@ Or
      </tr> 
      <tr> 
       <td role="rowheader"><span>実際</span> </td> 
-      <td>目標に関するすべての進捗指標を考慮して計算された、現在の日付までの目標の実際の進捗状況（パーセンテージ）。目標の進捗状況インジケーターは、目標、アクティビティおよび結果と一致します。 </td> 
+      <td>目標に関するすべての進捗指標を考慮して計算された、現在の日付までの目標の実際の進捗状況（パーセンテージ）。 目標の進捗状況インジケーターは、目標、アクティビティおよび結果と一致します。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">予測</td> 
@@ -239,7 +239,7 @@ Or
     </tbody> 
    </table>
 
-1. 目標カードをクリックして、目標ページを開きます。既存の目標の編集について詳しくは、[Adobe Workfront Goals で目標を編集](../../workfront-goals/goal-management/edit-goals.md)を参照してください。目標の進捗状況のアップデートについて詳しくは、[Adobe Workfront Goals で目標の進捗状況をアップデート](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)を参照してください。
+1. 目標カードをクリックして、目標ページを開きます。 既存の目標の編集について詳しくは、[Adobe Workfront Goals で目標を編集](../../workfront-goals/goal-management/edit-goals.md)を参照してください。 目標の進捗状況のアップデートについて詳しくは、[Adobe Workfront Goals で目標の進捗状況をアップデート](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)を参照してください。
 
 1. 現在のレベルの目標の上向き矢印をクリックして、グラフの階層の前のレベルに戻ります。
 

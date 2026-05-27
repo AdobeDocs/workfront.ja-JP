@@ -1,32 +1,32 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 無償ユーザーに対する限定的なドキュメントおよびプルーフ決定の概要
-description: プルーフおよびドキュメントの決定は、すべての無償 Workfront ライセンスで制限されています。制限は、毎月ユーザーごとにリセットされます。
+title: 無償ユーザーに対する限定的なドキュメントおよびプルーフ決定の概要 
+description: プルーフおよびドキュメントの決定は、すべての無償 Workfront ライセンスで制限されています。 制限は、毎月ユーザーごとにリセットされます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
 source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 82%
+source-wordcount: '292'
+ht-degree: 83%
 
 ---
 
 # 無償ユーザーに対する限定的なドキュメントおよびプルーフの決定の概要
 
-プルーフおよびドキュメントの決定は、新しいプランでは 無償 Workfront ライセンスすべてに対して制限されます。ドキュメントまたはプルーフの承認者に割り当てられた場合、レビューと承認のプロセスを進めるための決定を行う必要があります。
+プルーフおよびドキュメントの決定は、新しいプランでは 無償 Workfront ライセンスすべてに対して制限されます。 文書またはプルーフの承認者として割り当てられている場合は、レビューと承認のプロセスを前進させる決定を下す必要があります。
 
-次の決定タイプは、1 か月の上限にカウントされます。
+次の決定タイプは、月間制限にカウントされます。
 
 <table>
   <tr>
 
-<td><strong> レガシ ドキュメントの承認 </strong> 
+<td><strong> レガシードキュメントの承認</strong> 
    </td>
-   <td><strong> 統合承認 </strong> 
+   <td><strong>統合された承認</strong> 
    </td>
-   <td><strong> プルーフの承認 </strong> 
+   <td><strong> プルーフの承認</strong> 
    </td>
   </tr>
   <tr>
@@ -34,7 +34,7 @@ ht-degree: 82%
    <ul>
    <li>承認</li>
     <li>変更して承認</li>
-     <li>拒否</li>
+     <li>Reject</li>
    </ul>
    </td>
    <td>
@@ -50,7 +50,7 @@ ht-degree: 82%
     <li>変更して承認</li>
      <li>変更が必要です</li>
    </ul>
-   <p><strong> メモ </strong>：プルーフの承認には、カスタムの決定ラベルを付けることができます</p>
+   <p><strong> メモ </strong>：プルーフの承認には、カスタム決定ラベルを含めることができます</p>
   </tr>
   </tr>
 </table>
@@ -59,7 +59,7 @@ ht-degree: 82%
 
 ## 制限
 
-制限は、毎月ユーザーごとにリセットされます。各ライセンスの決定制限は、使用するプランによって異なります。
+制限は、毎月ユーザーごとにリセットされます。 各ライセンスの決定制限は、使用するプランによって異なります。
 
 <table>
   <tr>
@@ -108,11 +108,11 @@ ht-degree: 82%
 
 ## 外部ユーザー
 
-外部ユーザーが決定制限に達した場合、Workfront へのアクセス権は失われず、決定を行うことができます。Adobe Workfront は超過分を評価します。
+外部ユーザーが決定制限に達した場合、Workfront へのアクセス権は失われず、決定を行うことができます。 Adobe Workfront は超過分を評価します。
 
 ## コントリビューターのユーザー
 
-コントリビューターライセンスを持つユーザーが決定制限に達すると、プルーフとドキュメントに関する無制限の決定を含むライトライセンスに自動的にアップグレードされます。ライトライセンスについて詳しくは、[アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)の記事の[ライトアクセスレベル](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)の節を参照してください。
+コントリビューターライセンスを持つユーザーが決定制限に達すると、プルーフとドキュメントに関する無制限の決定を含むライトライセンスに自動的にアップグレードされます。 ライトライセンスについて詳しくは、[アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)の記事の[ライトアクセスレベル](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)の節を参照してください。
 
 >[!NOTE]
 >
@@ -121,4 +121,4 @@ ht-degree: 82%
 
 ## ユーザーの決定数を表示
 
-ユーザーの決定数は、Workfront のユーザーエリアで表示できます。詳しくは、[すべてのユーザーの決定数の表示](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)を参照してください。
+ユーザーの決定数は、Workfront のユーザーエリアで表示できます。 詳しくは、[すべてのユーザーの決定数の表示](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)を参照してください。

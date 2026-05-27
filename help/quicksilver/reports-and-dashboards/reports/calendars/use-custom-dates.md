@@ -2,7 +2,7 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: カレンダーレポートでのカスタム日付フィールドの使用
-description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。タスク、イシューおよびプロジェクトに関するカレンダーレポートでカスタム日付フィールドを使用できます。
+description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。 タスク、イシューおよびプロジェクトに関するカレンダーレポートでカスタム日付フィールドを使用できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
@@ -10,14 +10,14 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 84%
+source-wordcount: '631'
+ht-degree: 82%
 
 ---
 
 # カレンダーレポートでのカスタム日付フィールドの使用
 
-[!UICONTROL カレンダー]レポートは、作業内容を視覚的に表示する動的なレポートです。次のオブジェクトに対して、カレンダーレポートでカスタム日付フィールドを使用できます。
+[!UICONTROL カレンダー]レポートは、作業内容を視覚的に表示する動的なレポートです。 次のオブジェクトに対して、カレンダーレポートでカスタム日付フィールドを使用できます。
 
 * タスク
 * イシュー
@@ -59,8 +59,8 @@ ht-degree: 84%
 
 ## 前提条件
 
-1. [!DNL Workfront] インスタンスで使用可能なフィールド内に、カスタム日付フィールドと値が設定されている必要があります。カスタム日付で設定されたカスタムフォームがない場合は、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の手順に従ってください。
-1. カレンダーに追加する予定のプロジェクト、タスク、またはイシューにカスタムフォームを添付し、日付を指定します。詳しくは、[オブジェクトにカスタムフォームを追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
+1. [!DNL Workfront] インスタンスで使用可能なフィールド内に、カスタム日付フィールドと値が設定されている必要があります。 カスタム日付で設定されたカスタムフォームがない場合は、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の手順に従ってください。
+1. カレンダーに追加する予定のプロジェクト、タスク、またはイシューにカスタムフォームを添付し、日付を指定します。 詳しくは、[オブジェクトにカスタムフォームを追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
 
 ## 項目のグループを設定
 
@@ -88,7 +88,7 @@ ht-degree: 84%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Color]</strong></td>
-      <td>項目のグループの色を選択します。カレンダーレポートには、すべての項目が選択した色で表示されます。</td>
+      <td>項目のグループの色を選択します。 カレンダーレポートには、すべての項目が選択した色で表示されます。</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
@@ -115,7 +115,7 @@ ht-degree: 84%
 
 項目の表示方法を設定した後、カレンダーに表示するオブジェクトをグループに追加する必要があります。
 
-1. 「**[!UICONTROL カレンダーに何を追加しますか？]**」セクションで、次を選択します。
+1. **[!UICONTROL カレンダーに何を追加しますか？]** セクション、選択
 
    * **[!UICONTROL タスク]**
    * **[!UICONTROL プロジェクト]**
@@ -136,7 +136,7 @@ ht-degree: 84%
 
    >[!NOTE]
    >
-   >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
+   >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。 例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
 
    ![&#x200B; タスクリベルの設定](assets/set-task-labels.png)
 1. 「**[!UICONTROL 保存]**」をクリックします。
