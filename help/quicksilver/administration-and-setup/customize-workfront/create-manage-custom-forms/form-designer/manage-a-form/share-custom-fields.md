@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: a8e2558469d3abc355eb58f81658db3d1cfc7315
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 49%
@@ -19,7 +19,7 @@ ht-degree: 49%
 
 デフォルトでは、新しいカスタムフィールドまたはウィジェットをカスタムフォームに追加すると、カスタムフォームにアクセスできるシステム内の誰でも、その項目のラベルや名前などのプロパティを編集できます。 これを変更するには、共有相手を制御します。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## アクセス要件
 
@@ -110,7 +110,7 @@ ht-degree: 49%
 1. フォームとフィールドのリストから共有するには：
 
    1. 「**フィールド**」をクリックしてフィールドエリアを開きます。
-   1. 共有するフィールドを選択し、![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。
+   1. 共有するフィールドを選択し、![共有アイコン ](assets/share-icon.png)をクリックします。
 
 1. フォームデザイナーから共有するには：
    1. カスタムフォームを開くか、新しいカスタムフォームを作成します。
@@ -119,8 +119,8 @@ ht-degree: 49%
 1. 共有ボックスの&#x200B;**フィールドに**&#x200B;へのアクセス権を付与の下で、アイテムを共有するユーザー、チーム、担当業務、グループ、会社、またはビジネスプロファイルの名前の入力を開始し、名前が表示されたら&#x200B;**Enter**&#x200B;を押します。
 1. アイテムの共有方法をより具体的に説明する場合は、名前の右側にあるドロップダウンメニューをクリックし、次のいずれかのオプションを使用します。
 
-   * **表示**: **詳細設定** アイコン ![詳細設定アイコン &#x200B;](assets/configure-options-icon.png)をクリックして、ユーザーがカスタムフォームに項目を追加するか、他のユーザーと共有するかを指定します。
-   * **管理**: カスタムフィールドを編集し、フィールドライブラリとフォームデザイナーの両方で表示するためのアクセスを許可します。 **詳細設定** アイコン ![詳細設定アイコン &#x200B;](assets/configure-options-icon.png)をクリックして、ユーザーがシステムから項目を削除するか、他のユーザーと共有するかを指定します。
+   * **表示**: **詳細設定** アイコン ![詳細設定アイコン ](assets/configure-options-icon.png)をクリックして、ユーザーがカスタムフォームに項目を追加するか、他のユーザーと共有するかを指定します。
+   * **管理**: カスタムフィールドを編集し、フィールドライブラリとフォームデザイナーの両方で表示するためのアクセスを許可します。 **詳細設定** アイコン ![詳細設定アイコン ](assets/configure-options-icon.png)をクリックして、ユーザーがシステムから項目を削除するか、他のユーザーと共有するかを指定します。
 
 1. （オプション）手順5 ～ 6を繰り返して、他の名前をリストに追加し、そのオプションを設定します。
 1. （オプション）フィールドのシステム全体の共有オプションを選択します。
@@ -137,7 +137,7 @@ ht-degree: 49%
 
      リストに追加したユーザーのみにアクセスを制限します。
 
-   ![共有オプション &#x200B;](assets/share-field-in-designer.png)
+   ![共有オプション ](assets/share-field-in-designer.png)
 
 1. 「**保存**」をクリックします。
 
@@ -162,4 +162,6 @@ ht-degree: 49%
 
 ### 共有されたカスタムフォーム内のカスタムフィールドまたはウィジェットへのアクセスを削除する {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-共有されたカスタムフォーム内のカスタムフィールドまたはウィジェットへのアクセスを削除する必要がある場合は、フォームの共有を解除する必要があります。 手順については、[&#x200B; カスタムフォームの共有](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)の記事[&#x200B; カスタムフォームへのアクセスの削除](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form)の節を参照してください。
+共有されたカスタムフォーム内のカスタムフィールドまたはウィジェットへのアクセスを削除する必要がある場合は、フォームの共有を解除する必要があります。 手順については、[ カスタムフォームの共有](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)の記事[ カスタムフォームへのアクセスの削除](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form)の節を参照してください。
+
+
