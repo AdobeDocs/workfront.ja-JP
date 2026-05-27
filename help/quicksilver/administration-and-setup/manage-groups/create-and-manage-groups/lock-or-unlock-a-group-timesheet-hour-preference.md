@@ -87,7 +87,7 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 1. 表示されるページで、次のいずれかの操作を行います。
 
    * グループの下のグループの管理者がグループの環境設定を行えるようにするには、そのグループのロックを解除します。![切り替え](assets/unlock-toggle-button.png)。
-   * 以下のすべてのグループで環境設定を使用する場合は、そのグループがロックされていることを確認してください![ ロック切り替え](assets/lock-toggle-button.png) （デフォルトです）。
+   * 以下のすべてのグループで環境設定を使用する場合は、そのグループがロックされていることを確認してください![&#x200B; ロック切り替え](assets/lock-toggle-button.png) （デフォルトです）。
 
      >[!IMPORTANT]
      >
