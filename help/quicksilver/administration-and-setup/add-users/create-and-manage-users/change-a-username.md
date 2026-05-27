@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: ユーザー名を変更
+title: ユーザー名の変更
 description: ユーザーのユーザー名（メールアドレス）は、ユーザープロファイルを編集することで編集できます。
 author: Becky
 feature: System Setup and Administration
@@ -18,4 +18,4 @@ ht-degree: 93%
 
 # ユーザー名の変更
 
-ユーザーのユーザー名（メールアドレス）は、ユーザープロファイルを編集することで編集できます。手順については、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+ユーザーのユーザー名（メールアドレス）は、ユーザープロファイルを編集することで編集できます。 手順については、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。

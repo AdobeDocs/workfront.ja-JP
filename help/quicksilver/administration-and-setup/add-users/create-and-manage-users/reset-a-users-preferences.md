@@ -3,14 +3,14 @@ title: ユーザーの環境設定のリセット
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: Adobe Workfront 管理者は、Workfront システム内の任意のユーザーのユーザー環境設定をリセットまたは削除できます。個々のユーザーは、独自のユーザー環境設定をリセットすることもできます。
+description: Adobe Workfront 管理者は、Workfront システム内の任意のユーザーのユーザー環境設定をリセットまたは削除できます。 個々のユーザーは、独自のユーザー環境設定をリセットすることもできます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
 source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 84%
 
 ---
@@ -106,12 +106,12 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
 
 | 設定 | リセット後のステータス |
 | --- | --- |
-| ビュー | システムのデフォルトに戻しました <p>既存のビューは削除されません。もう一度選択できます。</p> |
-| フィルター | システムのデフォルトに戻しました <p>既存のフィルターは削除されません。もう一度選択できます。</p> |
-| グループ化 | システムのデフォルトに戻しました <p>既存のグループは削除されません。もう一度選択できます。</p> |
+| ビュー | システムのデフォルトに戻しました <p>既存のビューは削除されません。 もう一度選択できます。</p> |
+| フィルター | システムのデフォルトに戻しました <p>既存のフィルターは削除されません。 もう一度選択できます。</p> |
+| グループ化 | システムのデフォルトに戻しました <p>既存のグループは削除されません。 もう一度選択できます。</p> |
 | 最近使用した項目リスト | クリア済み |
 | お気に入りリスト | 影響なし |
-| ユーザーの環境設定 | システムのデフォルトに戻しました <p>メール通知がシステムのデフォルトに戻ります。デフォルトの通知については、[Adobe Workfront で使用可能なイベント通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。</p> |
+| ユーザーの環境設定 | システムのデフォルトに戻しました <p>メール通知がシステムのデフォルトに戻ります。 デフォルトの通知については、[Adobe Workfront で使用可能なイベント通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。</p> |
 
 ## ユーザーの環境設定をリセット
 
@@ -120,11 +120,11 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
 1. 「**別のユーザーとしてログイン**」を選択します。
 1. 環境設定をリセットするユーザーの名前を入力し始め、ドロップダウンリストに表示されたら名前をクリックします。
 1. 「**ログイン**」を選択します。
-1. Web ブラウザーの上部にある「URL」フィールドに、`/resetUser`の後に`workfront`を追加します。
+1. Web ブラウザーの上部にある「URL」フィールドに、`workfront`の後に`/resetUser`を追加します。
 
    >[!NOTE]
    >
-   >大文字と小文字が区別されます。U 文字は大文字で、残りの文字は小文字にする必要があります。例：
+   >大文字と小文字が区別されます。 U 文字は大文字で、残りの文字は小文字にする必要があります。 例：
    >
    >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 

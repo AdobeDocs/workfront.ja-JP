@@ -10,8 +10,8 @@ role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
 source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 39%
+source-wordcount: '104'
+ht-degree: 40%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 39%
 >
 >すべての組織がAdobe Admin Consoleにオンボーディングされるようになったため、この手順は使用できなくなりました。
 >
->Adobe Admin Consoleにオンボーディングされた組織のユーザー属性をマッピングするには、「ユーザー属性をマッピング」の「[&#x200B; ユーザー属性をマッピング &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)」を参照してください。
+>Adobe Admin Consoleにオンボーディングされた組織のユーザー属性をマッピングするには、「ユーザー属性をマッピング」の「[ ユーザー属性をマッピング ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)」を参照してください。
 
 <!--Remove me October 2026-->
 

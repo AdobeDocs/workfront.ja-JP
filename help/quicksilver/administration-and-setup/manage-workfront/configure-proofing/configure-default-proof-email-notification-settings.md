@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: デフォルトのプルーフメール通知設定を指定
-description: プルーフに関するコメントや決定がなされた場合、Adobe Workfront のプルーフユーザーは、Workfront と Workfront Proof の両方からメール通知を受け取ることができます。ユーザーがすでに Workfront Proof からメール通知を受信している場合は、通知メールの重複を避けるために、Workfront から送信される通知を無効にすることをお勧めします。
+title: デフォルトのプルーフメール通知設定の設定
+description: プルーフに関するコメントや決定がなされた場合、Adobe Workfront のプルーフユーザーは、Workfront と Workfront Proof の両方からメール通知を受け取ることができます。 ユーザーがすでに Workfront Proof からメール通知を受信している場合は、通知メールの重複を避けるために、Workfront から送信される通知を無効にすることをお勧めします。
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
@@ -11,13 +11,13 @@ exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
 # デフォルトのプルーフメール通知設定の指定
 
-プルーフに関するコメントや決定がなされた場合、Adobe Workfront のプルーフユーザーは、Workfront と Workfront Proof の両方からメール通知を受け取ることができます。ユーザーがすでに Workfront Proof からメール通知を受信している場合は、通知メールの重複を避けるために、Workfront から送信される通知を無効にすることをお勧めします。
+プルーフに関するコメントや決定がなされた場合、Adobe Workfront のプルーフユーザーは、Workfront と Workfront Proof の両方からメール通知を受け取ることができます。 ユーザーがすでに Workfront Proof からメール通知を受信している場合は、通知メールの重複を避けるために、Workfront から送信される通知を無効にすることをお勧めします。
 
 Workfront Proof から送信される通知の設定について詳しくは、[Workfront Proof のメール通知を設定](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)を参照してください。
 
@@ -41,7 +41,7 @@ Workfront Proof から送信される通知の設定について詳しくは、[
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>Workfront 管理者である必要があります。Workfront 管理者について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。 Workfront 管理者について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
