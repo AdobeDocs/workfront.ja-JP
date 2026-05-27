@@ -50,7 +50,7 @@ ht-degree: 83%
       <li> <p>ユーザーを[!DNL Workfront] システムから追加および削除するには、次のいずれかの操作を行う必要があります。</p> 
        <ul> 
         <li> <p>[!UICONTROL System Administrator] アクセスレベル。 </p> </li> 
-        <li> <p><b>[!UICONTROL Users]</b>設定をアクセスレベルで<b>[!UICONTROL Edit]</b> アクセスに設定し、<b>[!UICONTROL Create]</b>と、2つの<b>[!UICONTROL User Admin]</b> オプションのうち1つ以上を<b>[!UICONTROL Fine-tune your settings]</b><img src="assets/gear-icon-in-access-levels.png">で有効にします。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>これらの2つのオプションのうち、<b>[!UICONTROL User Admin （Group Users） ]</b>が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> </li> 
+        <li> <p><b>[!UICONTROL Users]</b>設定をアクセスレベルで<b>[!UICONTROL Edit]</b> アクセスに設定し、<b>[!UICONTROL Create]</b>と、2つの<b>[!UICONTROL User Admin]</b> オプションのうち1つ以上を<b>[!UICONTROL Fine-tune your settings]</b><img src="assets/gear-icon-in-access-levels.png">で有効にします。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>これらの2つのオプションのうち、<b>[!UICONTROL User Admin （Group Users） &#x200B;]</b>が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td>
