@@ -42,7 +42,7 @@ ht-degree: 54%
 
    Web サイトのプルーフに関する詳細情報は、[URL のプルーフの生成](#generate-a-proof-for-a-url)を参照してください。
 
-   ![ プルーフ web サイト ](assets/proof-website-350x65.png)
+   ![&#x200B; プルーフ web サイト &#x200B;](assets/proof-website-350x65.png)
 
 1. （オプション）アップロードしたファイルのファイル名を変更します。
 
@@ -76,7 +76,7 @@ ht-degree: 54%
 
    * **基本：**&#x200B;プルーフの作成直後にそのプルーフへのアクセス権を持つユーザーを指定するには、このオプションを選択します。 プルーフを複数のユーザーと共有することができます。
 
-     プルーフの共有について詳しくは、[ プルーフを [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)内で共有するを参照してください。
+     プルーフの共有について詳しくは、[&#x200B; プルーフを [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)内で共有するを参照してください。
 
    * **自動：**&#x200B;複雑なレビュープロセスがある場合や、レビュー用のコンテンツを同じグループの同じ人々に定期的に送信する場合、このオプションを選択して、コンテンツのレビューと承認を管理します。 自動化されたワークフローにより、プルーフは最終承認までステージからステージへと移動します。 関連するユーザーには、承認を行う必要があるときにいつでも通知されます。
 
@@ -196,8 +196,8 @@ Web サイトのURLを使用して、静的プルーフを生成できます。
 
 1. （オプション）プルーフの共有、自動ワークフローの追加、アクセス設定やサブスクリプション設定など、その他のプルーフオプションを設定します。 これらのオプションについて詳しくは、次の記事を参照してください。
 
-   * [ [!DNL Adobe Workfront] でプルーフを共有する](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
-   * [ [!DNL Workfront Proof] で自動ワークフローを使用したプルーフを設定する](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
+   * [&#x200B; [!DNL Adobe Workfront] でプルーフを共有する](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+   * [&#x200B; [!DNL Workfront Proof] で自動ワークフローを使用したプルーフを設定する](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
    * [プルーフのアクセスおよびサブスクリプション設定を行う](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. 「**[!UICONTROL 完了]**」をクリックします。
@@ -221,7 +221,7 @@ Web サイトのURLを使用して、静的プルーフを生成できます。
 
 1. .zip バンドルファイルを作成して、コンテンツを準備します。
 
-   .zip バンドルされたファイルの仕様について詳しくは、[ インタラクティブコンテンツプルーフの概要](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)を参照してください。
+   .zip バンドルされたファイルの仕様について詳しくは、[&#x200B; インタラクティブコンテンツプルーフの概要](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)を参照してください。
 
 1. 次のいずれかの操作を行って、**[!UICONTROL 新しいプルーフ]** ページを開きます。
 
@@ -232,7 +232,7 @@ Web サイトのURLを使用して、静的プルーフを生成できます。
 
 1. （オプション）プルーフの共有、自動ワークフローの追加、アクセス設定やサブスクリプション設定など、その他のプルーフオプションを設定します。 これらのオプションについて詳しくは、次の記事を参照してください。
 
-   * [ [!DNL Adobe Workfront] 内でプルーフを共有](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+   * [&#x200B; [!DNL Adobe Workfront] 内でプルーフを共有](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
    * [プルーフのアクセスおよびサブスクリプション設定を行う](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. 「**[!UICONTROL プルーフを作成]**」をクリックします。 Workfrontは、zip ファイルのプルーフを生成します。
