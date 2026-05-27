@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-groups
-title: グループの移動
+title: グループを移動
 description: 管理対象の別のグループの下にグループを移動できます。
 author: Becky
 feature: System Setup and Administration, People Teams and Groups
@@ -10,8 +10,8 @@ role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 76%
+source-wordcount: '239'
+ht-degree: 82%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 76%
   </tr>
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
+   <td>グループのグループ管理者またはシステム管理者でなければなりません。</td>
   </tr>
  </tbody> 
 </table>
@@ -59,12 +59,12 @@ ht-degree: 76%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
 
-1. グループを移動する宛先グループを選択し、編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+1. グループを移動する宛先グループを選択し、編集アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 1. 表示される&#x200B;**グループの編集**&#x200B;ボックスの&#x200B;**グループメンバーとグループ管理者**&#x200B;で、移動したいグループの名前を入力し始め、名前が表示されたらクリックします。
 1. 「**保存**」をクリックします。
 
 >[!TIP]
 >
->サブグループを最上位グループにすることもできます。詳しくは、[サブグループの管理](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)の記事で[親グループからサブグループを削除し、最上位グループにする](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)を参照してください。
+>サブグループを最上位グループにすることもできます。 詳しくは、[サブグループの管理](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)の記事で[親グループからサブグループを削除し、最上位グループにする](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)を参照してください。

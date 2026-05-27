@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: ' [!DNL Workfront Proof] でのフォルダーとそのコンテンツの管理'
-description: プロジェクトやプルーフをフォルダーに整理する利点の 1 つは、それらを[!UICONTROL フォルダーの詳細]ページで管理できる点です。このページはプロジェクトのコントロールセンターで、ここから個々のプルーフやファイルを便利に管理したり、一括アクションを実行したりできます。
+description: プロジェクトやプルーフをフォルダーに整理する利点の 1 つは、それらを[!UICONTROL フォルダーの詳細]ページで管理できる点です。 このページはプロジェクトのコントロールセンターで、ここから個々のプルーフやファイルを便利に管理したり、一括アクションを実行したりできます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1260'
 ht-degree: 99%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->この記事では、[!DNL Workfront Proof] スタンドアロン製品の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-プロジェクトやプルーフをフォルダーに整理する利点の 1 つは、それらを[!UICONTROL フォルダーの詳細]ページで管理できる点です。このページはプロジェクトのコントロールセンターで、ここから個々のプルーフやファイルを便利に管理したり、一括アクションを実行したりできます。
+プロジェクトやプルーフをフォルダーに整理する利点の 1 つは、それらを[!UICONTROL フォルダーの詳細]ページで管理できる点です。 このページはプロジェクトのコントロールセンターで、ここから個々のプルーフやファイルを便利に管理したり、一括アクションを実行したりできます。
 
 ## レビュアーが共同で作業できるように項目をグループ化
 
-フォルダーを使用すると、レビュアーに共同で作業してもらいたいプルーフをグループ化できます。レビュアーがフォルダー内のいずれかのプルーフを開いてプルーフビューアを起動すると、フォルダー内の他のすべてのプルーフも利用できるようになります。そのため、レビュアーはプルーフビューアから離れることなく、フォルダー内のどのプルーフでも作業することができます。詳しくは、[プルーフビューアの複数のプルーフで作業](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)を参照してください。
+フォルダーを使用すると、レビュアーに共同で作業してもらいたいプルーフをグループ化できます。 レビュアーがフォルダー内のいずれかのプルーフを開いてプルーフビューアを起動すると、フォルダー内の他のすべてのプルーフも利用できるようになります。そのため、レビュアーはプルーフビューアから離れることなく、フォルダー内のどのプルーフでも作業することができます。 詳しくは、[プルーフビューアの複数のプルーフで作業](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)を参照してください。
 
 ## 新しい項目をフォルダーに追加
 
@@ -71,7 +71,7 @@ ht-degree: 99%
 >ファイルの作成者でも所有者でもない場合、利用できるオプションは、ユーザーの [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)のプルーフ権限プロファイルによって異なります。
 
 1. 左ナビゲーションメニューの「**[!UICONTROL フォルダー]**」タブで、任意のフォルダーをクリックして[!UICONTROL フォルダーの詳細]ページを開きます。
-1. アーカイブされたプルーフのみがフォルダーに含まれている場合は、ページ上部に黄色でメッセージが表示されます。メッセージ内のリンクをクリックすると、フォルダービューが[!UICONTROL アーカイブ済みプルーフ]ビューに変わります。
+1. アーカイブされたプルーフのみがフォルダーに含まれている場合は、ページ上部に黄色でメッセージが表示されます。 メッセージ内のリンクをクリックすると、フォルダービューが[!UICONTROL アーカイブ済みプルーフ]ビューに変わります。
 1. **[!UICONTROL フォルダーの詳細]**&#x200B;をクリックし、表示されるオプションを使用して、フォルダーに次のいずれかの操作を実行します。
 
    * フォルダーのサムネール画像を追加または変更します。
@@ -85,14 +85,14 @@ ht-degree: 99%
    ![その他のメニュー](assets/more-button-small.png)\
    表示されるオプションは、その項目がプルーフかファイルかによって異なります。
 
-   * **[!UICONTROL プルーフの詳細を表示]**&#x200B;または&#x200B;**[!UICONTROL ファイルの詳細を表示]**：プルーフの詳細ページまたはファイルの詳細ページを開きます。詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理または[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理を参照してください。
+   * **[!UICONTROL プルーフの詳細を表示]**&#x200B;または&#x200B;**[!UICONTROL ファイルの詳細を表示]**：プルーフの詳細ページまたはファイルの詳細ページを開きます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理または[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理を参照してください。
 
-   * **[!UICONTROL 共有]**：ファイルを他のユーザーと共有できます。詳しくは、[[!UICONTROL &#x200B; でのファイルの共有]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)を参照してください。
+   * **[!UICONTROL 共有]**：ファイルを他のユーザーと共有できます。 詳しくは、[[!UICONTROL &#x200B; でのファイルの共有]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)を参照してください。
 
    * **[!UICONTROL メッセージ]**：プルーフの共有相手にメールを送信します。
    * **[!UICONTROL 新しいバージョン]**：プルーフの新しいバージョンを作成します。
    * **[!UICONTROL コピー]**：任意のプルーフコメントを含むプルーフを、既存のプルーフの新しいバージョンまたは新しいプルーフとしてコピーします。
-   * **[!UICONTROL オリジナルをダウンロード]**：元のファイルをダウンロードできます。詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) に保存されているファイルをダウンロードを参照してください。
+   * **[!UICONTROL オリジナルをダウンロード]**：元のファイルをダウンロードできます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) に保存されているファイルをダウンロードを参照してください。
 
    * **[!UICONTROL 所有権を委任]**：プルーフの所有権を別のユーザーに委任します。
    * **[!UICONTROL プルーフのリンクを共有]**：プルーフへのリンクを含むメールを送信します。
@@ -103,15 +103,15 @@ ht-degree: 99%
 
 1. （オプション）「**[!UICONTROL 共有先]**」セクションで、プルーフのレビュアーにリマインダーを送信するには、ユーザー名の右側の「**[!UICONTROL その他]**」アイコンをクリックして、「**[!UICONTROL メッセージ]**」をクリックします。\
    「**[!UICONTROL 削除]**」をクリックして、そのユーザーとのフォルダーの共有を解除できます。\
-   フォルダーの所有者と作成者は、常にこのリストに表示され、削除できません。ユーザーがフォルダーの所有権を引き継ぐと、自動的に表示され、削除できなくなります。\
-   フォルダーを個々のユーザーやパートナーの会社と共有できます。フォルダーがパートナーの会社と共有されている場合、行の上にポインタを合わせると表示される「[!UICONTROL 情報]」アイコンをクリックすることで、受信者の完全なリストを表示できます。詳しくは、[パートナーアカウント](https://support.workfront.com/hc/ja-jp/sections/115000912107-Partner-accounts)を参照してください。
+   フォルダーの所有者と作成者は、常にこのリストに表示され、削除できません。 ユーザーがフォルダーの所有権を引き継ぐと、自動的に表示され、削除できなくなります。\
+   フォルダーを個々のユーザーやパートナーの会社と共有できます。 フォルダーがパートナーの会社と共有されている場合、行の上にポインタを合わせると表示される「[!UICONTROL 情報]」アイコンをクリックすることで、受信者の完全なリストを表示できます。 詳しくは、[パートナーアカウント](https://support.workfront.com/hc/ja-jp/sections/115000912107-Partner-accounts)を参照してください。
 
-1. （オプション）「**[!UICONTROL フォルダーで許可]**」の下にあるそのユーザーの行をクリックして、プライベートフォルダーに対するマネージャーのアクセス許可を編集し、そのユーザーがそのフォルダーから項目を作成、編集、削除できるようにするかどうかを指定します。**メモ** このオプションは、プライベートフォルダーに追加されたフォルダー所有者と同じアカウントのマネージャーに対してのみ使用できます。スーパーバイザー、管理者、請求管理者は、アカウント内のすべてのフォルダーに対して編集権限を持ち、監視者は項目を作成できません。権限について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+1. （オプション）「**[!UICONTROL フォルダーで許可]**」の下にあるそのユーザーの行をクリックして、プライベートフォルダーに対するマネージャーのアクセス許可を編集し、そのユーザーがそのフォルダーから項目を作成、編集、削除できるようにするかどうかを指定します。 **メモ** このオプションは、プライベートフォルダーに追加されたフォルダー所有者と同じアカウントのマネージャーに対してのみ使用できます。 スーパーバイザー、管理者、請求管理者は、アカウント内のすべてのフォルダーに対して編集権限を持ち、監視者は項目を作成できません。 権限について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 1. （オプション）「**[!UICONTROL アクティビティ]**」をクリックすると、フォルダーで実行されたすべてのアクションが時系列で表示されます。
 1. （オプション）「**[!UICONTROL メッセージ]**」セクションをクリックして、フォルダーのユーザーに送信されたメッセージを表示します。\
    メッセージの上にポインタを合わせると、右側の「**i**」アイコンをクリックしてメッセージ全体を表示できます。\
-   ![&#x200B; メッセージ &#x200B;](assets/messages-1-350x74.png)\
+   ![メッセージ](assets/messages-1-350x74.png)\
    メール全体を含むポップアップが表示されます。\
    ![&#x200B; メッセージポップアップ &#x200B;](assets/messages-2-350x252.png)
 

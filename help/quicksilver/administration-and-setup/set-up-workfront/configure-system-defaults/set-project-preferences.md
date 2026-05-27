@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: システム全体のプロジェクト環境設定
-description: ' [!DNL Adobe Workfront]  管理者は、システム全体で作成されるすべてのプロジェクトに対して、デフォルトの環境設定を指定できます。これらの環境設定は、プロジェクト、タスクおよびイシューの動作に影響を与えます。'
+description: ' [!DNL Adobe Workfront]  管理者は、システム全体で作成されるすべてのプロジェクトに対して、デフォルトの環境設定を指定できます。 これらの環境設定は、プロジェクト、タスクおよびイシューの動作に影響を与えます。'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2615'
+source-wordcount: '2621'
 ht-degree: 90%
 
 ---
@@ -28,11 +28,11 @@ ht-degree: 90%
 -->
 
 
-[!DNL Adobe Workfront] 管理者は、システム全体で作成されるすべてのプロジェクトに対して、デフォルトの環境設定を指定できます。これらの環境設定は、プロジェクト、タスクおよびイシューの動作に影響を与えます。
+[!DNL Adobe Workfront] 管理者は、システム全体で作成されるすべてのプロジェクトに対して、デフォルトの環境設定を指定できます。 これらの環境設定は、プロジェクト、タスクおよびイシューの動作に影響を与えます。
 
 >[!NOTE]
 >
->デフォルトではこれらの環境設定はロックされており、グループ管理者がグループレベルで変更することは、システム全体のすべてのグループに対して環境設定のロックを解除しない限りできません。詳しくは、[システム内のすべてのグループに対するプロジェクト環境設定のロックまたはロック解除](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)を参照してください。
+>デフォルトではこれらの環境設定はロックされており、グループ管理者がグループレベルで変更することは、システム全体のすべてのグループに対して環境設定のロックを解除しない限りできません。 詳しくは、[システム内のすべてのグループに対するプロジェクト環境設定のロックまたはロック解除](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)を参照してください。
 
 ## アクセス要件
 
@@ -73,7 +73,7 @@ ht-degree: 90%
 
    >[!IMPORTANT]
    >
-   >プロジェクト環境設定がロックされると、その環境設定に対して行った変更は、システム内のすべてのグループに継承されます。組織全体のユーザーやグループとコミュニケーションを取り、すべてのニーズがプロジェクト環境設定で指定した方法で確実に対応されるようにすることが重要です。
+   >プロジェクト環境設定がロックされると、その環境設定に対して行った変更は、システム内のすべてのグループに継承されます。 組織全体のユーザーやグループとコミュニケーションを取り、すべてのニーズがプロジェクト環境設定で指定した方法で確実に対応されるようにすることが重要です。
 
    環境設定をロック解除して、すべてのグループがそれぞれで環境設定を指定して管理できるようにする方法について詳しくは、[システム内のすべてのグループのプロジェクト環境設定をロックまたはロック解除](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)を参照してください。
 
@@ -105,7 +105,7 @@ ht-degree: 90%
          </ul>
         <p>この環境設定はデフォルトで有効になっています。 </p> 
         <p><b>メモ</b></p>
-        <p> グループ管理者は、グループのこの環境設定を変更できます。ユーザーが異なる環境設定の複数のグループに所属している場合、ホームグループでこの環境設定が有効になっていれば、そのユーザーはテンプレートを使用せずにプロジェクトを作成できます。</p> 
+        <p> グループ管理者は、グループのこの環境設定を変更できます。 ユーザーが異なる環境設定の複数のグループに所属している場合、ホームグループでこの環境設定が有効になっていれば、そのユーザーはテンプレートを使用せずにプロジェクトを作成できます。</p> 
         </td> 
   </tr>
   <tr> 
@@ -124,30 +124,30 @@ ht-degree: 90%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calculate Percent Complete based on]</td> 
-   <td> <p>Workfrontは、プロジェクト内の各タスクの完了率と、各タスクの期間または予定時間を使用して、プロジェクトまたは親タスクの完了率を計算します。</p><p>各タスクの完了率は、タスク担当者が手動で設定します。</p><p>ここで、Workfrontでタスクの期間または予定時間数を使用して、プロジェクトの完了率を計算するかどうかを選択できます。</p> <p>「[!UICONTROL Duration]」を選択した場合、プロジェクト内の各タスクの期間でプロジェクトの全体的な完了率が決まり、各サブタスクの期間で親タスクの全体的な完了率が決まります。</p> <p>「[!UICONTROL Duration]」を選択した場合は、「[!UICONTROL Timelines]」セクションで「[!UICONTROL Typical hours per work day]」と「[!UICONTROL Typical work days per week]」を必ず指定してください。[!DNL Workfront] では、期間に基づいてタスクの完了率を計算する際にこの情報を使用します。 </p> <p>「[!UICONTROL Planned Hours]」を選択する場合、各プロジェクトのすべてのタスクに「[!UICONTROL Planned Hours]」の数値が定義されており、その数値がゼロでないことを確認します。</p><p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md"> プロジェクト完了率の概要</a>を参照してください。</p></td> 
+   <td> <p>Workfrontは、プロジェクト内の各タスクの完了率と、各タスクの期間または予定時間を使用して、プロジェクトまたは親タスクの完了率を計算します。</p><p>各タスクの完了率は、タスク担当者が手動で設定します。</p><p>ここで、Workfrontでタスクの期間または予定時間数を使用して、プロジェクトの完了率を計算するかどうかを選択できます。</p> <p>「[!UICONTROL Duration]」を選択した場合、プロジェクト内の各タスクの期間でプロジェクトの全体的な完了率が決まり、各サブタスクの期間で親タスクの全体的な完了率が決まります。</p> <p>「[!UICONTROL Duration]」を選択した場合は、「[!UICONTROL Timelines]」セクションで「[!UICONTROL Typical hours per work day]」と「[!UICONTROL Typical work days per week]」を必ず指定してください。 [!DNL Workfront] では、期間に基づいてタスクの完了率を計算する際にこの情報を使用します。 </p> <p>「[!UICONTROL Planned Hours]」を選択する場合、各プロジェクトのすべてのタスクに「[!UICONTROL Planned Hours]」の数値が定義されており、その数値がゼロでないことを確認します。</p><p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md"> プロジェクト完了率の概要</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 
-   <td> <p>この環境設定を使用すると、ユーザーがプロジェクトの [!UICONTROL Condition] を手動で（[!UICONTROL On Target]、[!UICONTROL At Risk]、[!UICONTROL In Trouble]）に設定することも、タイムライン上のプロジェクトの進捗状況に基づいて [!DNL Workfront] に [!UICONTROL Condition]（進捗ステータス）を自動的に設定させることもできます。プロジェクト状況について詳しくは、<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">プロジェクト状況と状況タイプの概要</a>を参照してください。</p> </td> 
+   <td> <p>この環境設定を使用すると、ユーザーがプロジェクトの [!UICONTROL Condition] を手動で（[!UICONTROL On Target]、[!UICONTROL At Risk]、[!UICONTROL In Trouble]）に設定することも、タイムライン上のプロジェクトの進捗状況に基づいて [!DNL Workfront] に [!UICONTROL Condition]（進捗ステータス）を自動的に設定させることもできます。 プロジェクト状況について詳しくは、<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">プロジェクト状況と状況タイプの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Create baselines automatically]</p> </td> 
-   <td> <p>この環境設定では、プロジェクトのステータスが「[!UICONTROL Current]」に変わると、タスクおよびプロジェクト詳細のベースライン（スナップショット）が自動的に作成されます。ベースラインの作成については、<a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">プロジェクトベースラインの作成</a>を参照してください。</p> </td> 
+   <td> <p>この環境設定では、プロジェクトのステータスが「[!UICONTROL Current]」に変わると、タスクおよびプロジェクト詳細のベースライン（スナップショット）が自動的に作成されます。 ベースラインの作成については、<a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">プロジェクトベースラインの作成</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Performance Index Method] </p> </td> 
-   <td> <p>プロジェクトのパフォーマンスインデックスメソッド（PIM）は、[!DNL Workfront] で[!UICONTROL Cost Performance Index]（CPI）や[!UICONTROL Estimate At Completion]（EAC）などの出来高指標の計算に使用される方法を制御します。詳しくは、<a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Cost Performance Index]（CPI）の計算</a>と<a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Calculate Estimate At Completion]（EAC）</a>を参照してください。</p> 
+   <td> <p>プロジェクトのパフォーマンスインデックスメソッド（PIM）は、[!DNL Workfront] で[!UICONTROL Cost Performance Index]（CPI）や[!UICONTROL Estimate At Completion]（EAC）などの出来高指標の計算に使用される方法を制御します。 詳しくは、<a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Cost Performance Index]（CPI）の計算</a>と<a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Calculate Estimate At Completion]（EAC）</a>を参照してください。</p> 
     <ul> 
-     <li><strong>[!UICONTROL Hour-based]</strong>：[!DNL Workfront] では、「[!UICONTROL Planned Hours]」を使用して EAC や CPI などのパフォーマンス指標を計算します。PIM が時間数に基づいて計算される場合、EAC は時間数として表示されます。「[!UICONTROL Planned Hours]」に 0 以外の値が設定されていることを確認してください。</li> 
-     <li> <p><strong>[!UICONTROL Cost-based]</strong>：[!DNL Workfront] では、「[!UICONTROL Planned Labor Cost]」を使用して EAC や CPI などのパフォーマンス指標を計算します。担当業務またはユーザーが 1 時間当たりのコスト率に関連付けられていることを確認します。PIM がコストに基づいて計算される場合、EAC は通貨値として表示されます。</p> <p>プロジェクトマネージャーは、[!UICONTROL Project Details]の[!UICONTROL Finance]エリアを使用して、この設定をプロジェクトレベルで変更できます。詳しくは、<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">プロジェクトの[!UICONTROL Finance]エリアでの情報の管理</a>を参照してください。</p> </li> 
+     <li><strong>[!UICONTROL Hour-based]</strong>：[!DNL Workfront] では、「[!UICONTROL Planned Hours]」を使用して EAC や CPI などのパフォーマンス指標を計算します。 PIM が時間数に基づいて計算される場合、EAC は時間数として表示されます。 「[!UICONTROL Planned Hours]」に 0 以外の値が設定されていることを確認してください。</li> 
+     <li> <p><strong>[!UICONTROL Cost-based]</strong>：[!DNL Workfront] では、「[!UICONTROL Planned Labor Cost]」を使用して EAC や CPI などのパフォーマンス指標を計算します。 担当業務またはユーザーが 1 時間当たりのコスト率に関連付けられていることを確認します。 PIM がコストに基づいて計算される場合、EAC は通貨値として表示されます。</p> <p>プロジェクトマネージャーは、[!UICONTROL Project Details]の[!UICONTROL Finance]エリアを使用して、この設定をプロジェクトレベルで変更できます。 詳しくは、<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">プロジェクトの[!UICONTROL Finance]エリアでの情報の管理</a>を参照してください。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
    <td> <p>プロジェクトの見込み総コストを表す[!UICONTROL Estimate at Completion]（EAC）の計算に [!DNL Workfront] で使用されるデータを決定します。</p> 
     <ul> 
-     <li><strong>[!UICONTROL Calculate at project level]</strong>：EAC の式に [!UICONTROL Actual Hours] または [!UICONTROL Actual Labor Cost] を入力することで、親タスクおよびプロジェクトの EAC が決定されます。計算には、親タスクまたはプロジェクトに直接追加された[!UICONTROL Actual Hours]または[!UICONTROL Costs and Expenses]が含まれます。</li> 
-     <li> <p><strong>[!UICONTROL Roll up from tasks/subtasks]</strong>：子タスクごとの EAC を合計することで、親タスクおよびプロジェクトの EAC が決定されます。この計算では、親タスクまたはプロジェクトに直接追加された[!UICONTROL Actual Hours]または[!UICONTROL Actual Costs and Expenses]は除外されます。</p> <p>プロジェクトマネージャーは、[!UICONTROL Project Details]の[!UICONTROL Finance]エリアを使用して、この設定をプロジェクトレベルで変更できます。詳しくは、<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">プロジェクトの[!UICONTROL Finance]エリアでの情報の管理</a>を参照してください。</p> </li> 
+     <li><strong>[!UICONTROL Calculate at project level]</strong>：EAC の式に [!UICONTROL Actual Hours] または [!UICONTROL Actual Labor Cost] を入力することで、親タスクおよびプロジェクトの EAC が決定されます。 計算には、親タスクまたはプロジェクトに直接追加された[!UICONTROL Actual Hours]または[!UICONTROL Costs and Expenses]が含まれます。</li> 
+     <li> <p><strong>[!UICONTROL Roll up from tasks/subtasks]</strong>：子タスクごとの EAC を合計することで、親タスクおよびプロジェクトの EAC が決定されます。 この計算では、親タスクまたはプロジェクトに直接追加された[!UICONTROL Actual Hours]または[!UICONTROL Actual Costs and Expenses]は除外されます。</p> <p>プロジェクトマネージャーは、[!UICONTROL Project Details]の[!UICONTROL Finance]エリアを使用して、この設定をプロジェクトレベルで変更できます。詳しくは、<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">プロジェクトの[!UICONTROL Finance]エリアでの情報の管理</a>を参照してください。</p> </li> 
     </ul> <p>EAC の計算方法について詳しくは、<a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Estimate At Completion]（EAC）の計算</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +173,7 @@ ht-degree: 90%
    <td role="rowheader">[!UICONTROL User Time Off]</td> 
    <td> <p>プロジェクトのタスクの予定日をそのタスクのプライマリ担当者の休暇によって調整するかどうかを指定します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Consider user time off in task durations]</strong>：タスクのプライマリ担当者にスケジュールされている休暇がタスクの期間中に発生する場合、その休暇によってタスクの予定日が調整されます。これはデフォルトの設定です。 </p> <p>例えば、「[!UICONTROL As Soon As Possible]」という制約を持つタスクが 6月1日に開始し 6月3日に完了するようにスケジュールされ、6月2日がプライマリ担当者の休暇に指定されている場合、タスクの予定日は 6月1日から 6月4日までに調整されます。</p> <p><b>重要</b>：</p> <p>この設定を選択しても、タスクの期間は変わりません。タスクの制約に応じて、予定日のみが変更されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL Consider user time off in task durations]</strong>：タスクのプライマリ担当者にスケジュールされている休暇がタスクの期間中に発生する場合、その休暇によってタスクの予定日が調整されます。 これはデフォルトの設定です。 </p> <p>例えば、「[!UICONTROL As Soon As Possible]」という制約を持つタスクが 6月1日に開始し 6月3日に完了するようにスケジュールされ、6月2日がプライマリ担当者の休暇に指定されている場合、タスクの予定日は 6月1日から 6月4日までに調整されます。</p> <p><b>重要</b>：</p> <p>この設定を選択しても、タスクの期間は変わりません。 タスクの制約に応じて、予定日のみが変更されます。</p> </li> 
      <li><strong>[!UICONTROL Ignore user time off in task durations]</strong>：プロジェクトの各タスクの予定日は、タスクのプライマリ担当者がその期間中に休暇を取る場合でも、元の予定日のまま変わりません。</li> 
     </ul> <p>この設定のオプションを選択する際は、次の点に注意してください。</p> 
     <ul> 
@@ -184,14 +184,14 @@ ht-degree: 90%
        <li>予定完了日</li> 
        <li>両方の日付</li> 
        <li>どちらも日付でもない </li> 
-      </ul> <p>例えば、タスクの制約が「[!UICONTROL Fixed Dates]」の場合、「[!UICONTROL Consider user time off in task duration]」オプションが選択されていても、プライマリ担当者が休暇を取っている場合に日付は調整されません。タスクの制約については、<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">タスクの制約の概要</a>を参照してください。</p> </li> 
+      </ul> <p>例えば、タスクの制約が「[!UICONTROL Fixed Dates]」の場合、「[!UICONTROL Consider user time off in task duration]」オプションが選択されていても、プライマリ担当者が休暇を取っている場合に日付は調整されません。 タスクの制約については、<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">タスクの制約の概要</a>を参照してください。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Project timelines are automatically re-calculated]</p> </td> 
-   <td> <p>プロジェクトのタイムラインを再計算するタイミングを指定します。プロジェクトタイムラインの再計算については、<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">プロジェクトタイムラインの再計算</a>を参照してください。</p> <p>次のオプションが、デフォルトで有効になっています。以下の設定を 1 つ以上選択できます。</p> 
+   <td> <p>プロジェクトのタイムラインを再計算するタイミングを指定します。 プロジェクトタイムラインの再計算については、<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">プロジェクトタイムラインの再計算</a>を参照してください。</p> <p>次のオプションが、デフォルトで有効になっています。 以下の設定を 1 つ以上選択できます。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Every night]</strong>：毎晩プロジェクトのタイムラインを再計算する場合に選択します。タイムラインに影響を与える可能性のある変更をプロジェクトに対して行っても、それはすぐには表示されません。[!DNL Workfront​​​] では、以下の条件がすべて満たされるプロジェクトの場合にのみ、夜間にタイムラインを再計算します。</p> <p> 
+     <li> <p><strong>[!UICONTROL Every night]</strong>：毎晩プロジェクトのタイムラインを再計算する場合に選択します。 タイムラインに影響を与える可能性のある変更をプロジェクトに対して行っても、それはすぐには表示されません。 [!DNL Workfront​​​] では、以下の条件がすべて満たされるプロジェクトの場合にのみ、夜間にタイムラインを再計算します。</p> <p> 
        <ul> 
         <li>ステータスが「[!UICONTROL Current]」である</li> 
         <li>過去 3 か月間に更新があった</li> 
@@ -203,7 +203,7 @@ ht-degree: 90%
       </ul>       
     <b>ヒント：</b>
     <p>「更新の種類」が「手動のみ」のプロジェクトは、この設定の影響を受けません。</p>
-    <li> <p><strong>プロジェクトのスコープが変更されたとき</strong>：プロジェクト範囲の変更に伴いプロジェクトのタイムラインを直ちに再計算する場合に選択します。プロジェクト範囲の変更の構成要素については、<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">プロジェクトタイムラインの再計算</a>を参照してください。</p> </li> 
+    <li> <p><strong>プロジェクトのスコープが変更されたとき</strong>：プロジェクト範囲の変更に伴いプロジェクトのタイムラインを直ちに再計算する場合に選択します。 プロジェクト範囲の変更の構成要素については、<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">プロジェクトタイムラインの再計算</a>を参照してください。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -233,11 +233,11 @@ ht-degree: 90%
    <td role="rowheader"> <p>[!UICONTROL Timeline Calculations] </p> </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Typical hours per work day]</strong>：プロジェクトを担当するユーザーの通常の就業日の時間数を設定します。デフォルトは 8 時間です。</li> 
+     <li><strong>[!UICONTROL Typical hours per work day]</strong>：プロジェクトを担当するユーザーの通常の就業日の時間数を設定します。 デフォルトは 8 時間です。</li> 
     </ul> 
     <ul> 
-     <li><strong>[!UICONTROL Typical work days per week]</strong>：プロジェクトを担当するユーザーに標準の週労働日数を設定します。デフォルトは 5 日です。</li> 
-    </ul> <p>これらの 2 つのオプションは、日数を時間数に、または週数を日数に変換します。</p> <p>例えば、予定時間数が 8 時間のタスクがあり、期間が予定時間数に基づいて計算される場合、[!DNL Workfront] では、時間数を日数に変換して、期間を日数で表示します。</p> <p>[!DNL Workfront] では、「[!UICONTROL Typical work days per week]」フィールドからシステムのフルタイム当量（FTE）値を計算します。これは、[!DNL Workfront] でユーザーへの割り当てを計算する際に使用するものです。</p> <p>これらの値は、プロジェクトのタイムラインを計画したり、リソースの予算を計上したり、プロジェクトに対する時間を記録したりする際に使用されます。 </p> <p>これらの値は、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">タイムシートと時間の環境設定の[!UICONTROL Configure]</a>で説明しているとおり、システム内のユーザーのタイムシートを設定する際には使用されません。</p> <p><b>メモ</b>：</p> <p>[!DNL Workfront] 管理者は [!UICONTROL Timeline Calculations] 環境設定のロックを解除できません。</p> </td> 
+     <li><strong>[!UICONTROL Typical work days per week]</strong>：プロジェクトを担当するユーザーに標準の週労働日数を設定します。 デフォルトは 5 日です。</li> 
+    </ul> <p>これらの 2 つのオプションは、日数を時間数に、または週数を日数に変換します。</p> <p>例えば、予定時間数が 8 時間のタスクがあり、期間が予定時間数に基づいて計算される場合、[!DNL Workfront] では、時間数を日数に変換して、期間を日数で表示します。</p> <p>[!DNL Workfront] では、「[!UICONTROL Typical work days per week]」フィールドからシステムのフルタイム当量（FTE）値を計算します。 これは、[!DNL Workfront] でユーザーへの割り当てを計算する際に使用するものです。</p> <p>これらの値は、プロジェクトのタイムラインを計画したり、リソースの予算を計上したり、プロジェクトに対する時間を記録したりする際に使用されます。 </p> <p>これらの値は、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">タイムシートと時間の環境設定の[!UICONTROL Configure]</a>で説明しているとおり、システム内のユーザーのタイムシートを設定する際には使用されません。</p> <p><b>メモ</b>：</p> <p>[!DNL Workfront] 管理者は [!UICONTROL Timeline Calculations] 環境設定のロックを解除できません。</p> </td> 
   </tr> 
   <!--
   <tr data-mc-conditions=""> 
@@ -252,9 +252,9 @@ ht-degree: 90%
 
 ### [!UICONTROL ビジネスケース] {#business-cases}
 
-新しく作成されたプロジェクトのビジネスケースをシステム全体で作成して、プロジェクトリクエストを送信できます。**[!UICONTROL ビジネスケース]**&#x200B;フォーム上でどのエリアを表示するかを指定する環境設定を定義できます。[!UICONTROL ポートフォリオオプティマイザー]などの他のツールで適切に更新されるように、これらのオプションを有効にすることをお勧めします。各フィールドの表示内容について詳しくは、[ビジネスケースの定義：記事インデックス](../../../manage-work/projects/define-a-business-case/define-business-case.md)を参照してください。
+新しく作成されたプロジェクトのビジネスケースをシステム全体で作成して、プロジェクトリクエストを送信できます。 **[!UICONTROL ビジネスケース]**&#x200B;フォーム上でどのエリアを表示するかを指定する環境設定を定義できます。 [!UICONTROL ポートフォリオオプティマイザー]などの他のツールで適切に更新されるように、これらのオプションを有効にすることをお勧めします。 各フィールドの表示内容について詳しくは、[ビジネスケースの定義：記事インデックス](../../../manage-work/projects/define-a-business-case/define-business-case.md)を参照してください。
 
-[!DNL Workfront] 管理者が[!UICONTROL ビジネスケース]のセクションを有効にしてから、プロジェクト所有者がプロジェクトレベルでビジネスケースを作成できます。ビジネスケースの作成については、[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
+[!DNL Workfront] 管理者が[!UICONTROL ビジネスケース]のセクションを有効にしてから、プロジェクト所有者がプロジェクトレベルでビジネスケースを作成できます。 ビジネスケースの作成については、[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
 ### [!UICONTROL 終了後の操作]  {#life-after-death}
 
@@ -285,7 +285,7 @@ ht-degree: 90%
      <li><strong>[!UICONTROL Add and edit issues]</strong>：ユーザーが以下を行えます。
       <ul>
        <li>プロジェクトが「[!UICONTROL Complete]」、「[!UICONTROL Dead]」または「[!UICONTROL Pending Approval]」とマークされた後で、プロジェクト内のイシューを編集する。</li>
-       <li>プロジェクトが「[!UICONTROL Complete]」または「[!UICONTROL Dead]」とマークされた後で、プロジェクトにイシューを追加する（ステータスが「[!UICONTROL Pending Approval]」のプロジェクトには、イシューを追加できません）。</li>
+       <li>プロジェクトが「[!UICONTROL Complete]」または「[!UICONTROL Dead]」とマークされた後で、プロジェクトにイシューを追加する （ステータスが「[!UICONTROL Pending Approval]」のプロジェクトには、イシューを追加できません）。</li>
       </ul></li> 
      <li> <p><strong>[!UICONTROL Add documents to the project and to its tasks and issues]</strong>：プロジェクトが「[!UICONTROL Complete]」または「[!UICONTROL Dead]」とマークされた後で、ユーザーがプロジェクトにドキュメントを追加（またはプロジェクト内のタスクやイシューにドキュメントを追加）できます。</p> <p>このオプションは、承認保留中のプロジェクトには適用されません。</p> </li> 
      <li> <p><strong>[!UICONTROL Attach templates]</strong>：プロジェクトが「[!UICONTROL Complete]」または「[!UICONTROL Dead]」とマークされた後で、ユーザーがプロジェクトにテンプレートを添付できます。</p> <p>このオプションは、承認保留中のプロジェクトには適用されません。</p> </li> 

@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1348'
 ht-degree: 98%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 98%
   <tr> 
    <td> <p><strong>ドキュメント承認要求が完了しました</strong> </p> <p>ドキュメントの承認を要求したユーザーは、ドキュメントの承認要求が完了すると、メール通知を受け取ります。</p> <p>インスタント通知メールの件名：<em> &lt;Approver Name&gt; 様、このドキュメントが &lt;Approval Decision([!UICONTROL Approved], [!UICONTROL Approved with Changes], [!UICONTROL Rejected])&gt;されました。</em></p> <p>メモ：この通知を日刊ダイジェストメールに設定することはできません。</p> </td> 
    <td> ドキュメント名<br>承認者名 </td> 
-   <td><strong>即時</strong> </td> 
+   <td><strong>今すぐ</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>自分がプライマリ連絡先となっているイシューに関するドキュメントが、変更またはアップロードされました</strong> </p> <p>イシューの主要連絡先は、イシューに関するドキュメントがアップロードまたは変更されたときにメール通知を受け取ります。ただし、ドキュメントをアップロードまたは変更したユーザーが主要連絡先でもある場合は除きます。</p> <p>通知は、（<a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue]</a> で説明されているように）プロジェクトが [!UICONTROL Help Request Queue] として設定されている場合にのみ送信されます。</p> <p>インスタント通知メールの件名：<em>ドキュメントが &lt;Issue Name&gt; に追加されました</em></p> <p>日刊ダイジェスト通知の件名は次のとおりです。<em>リクエストのダイジェスト &lt;Date of the daily digest&gt;</em></p> </td> 
@@ -45,14 +45,14 @@ ht-degree: 98%
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>誰かに割り当てたパーソナルタスクが完了しました</strong> </p> <p>個人の作業リクエストを他のユーザーに割り当てたユーザーに対して、そのリクエストが完了すると通知が送信されます。 </p>  <p>インスタント通知メールの件名：<em>タスク完了：&lt;Task Name&gt;</em></p> <p> <p>メモ：この通知を日刊ダイジェストメールに設定することはできません。</p> </p> </td> 
+   <td> <p><strong>誰かに割り当てたパーソナルタスクが完了しました</strong> </p> <p>そのリクエストが完了すると、個人作業リクエストを他のユーザーに割り当てたユーザーに通知が送信されます。 </p>  <p>インスタント通知メールの件名：<em>タスク完了：&lt;Task Name&gt;</em></p> <p> <p>メモ：この通知を日刊ダイジェストメールに設定することはできません。</p> </p> </td> 
    <td> タスク名<br>デフォルトのプロジェクト名（個人用タスクを受け取ったユーザーの個人用プロジェクト）<br>タスク参照番号<br>タスク所有者名<br>新規タスクステータス<br>タスクが完了した日時<br>タスクの前のステータス「<br><strong>[!UICONTROL See More Details]</strong>」ボタン<br><br><br></td> 
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>自分がプライマリ連絡先であるイシューが完了した</strong> </p> <p>イシューのプライマリ連絡先は、イシューが完了したときに通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL Current] か [!UICONTROL Planning] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Issue Completion]：&lt;Issue Name&gt;</em></p> <p>日刊ダイジェスト通知の件名は次のとおりです。<em>リクエストのダイジェスト &lt;Date of the daily digest&gt;</em></p> <p> </p> </td> 
    <td> イシュー名<br>プロジェクト名<br>イシューの参照番号<br>イシューを完了したユーザーの名前<br>新しいステータス<br>イシューが完了した日時<br>以前のイシューのステータス「<br><strong>[!UICONTROL See More Details]</strong>」ボタン<br>*プロジェクト名<br>*プロジェクト参照番号<br>*完了したイシューの総数<br>*イシュー名<br>*イシューを完了したユーザーの名前<br>*日刊ダイジェストの日付 </td> 
-   <td><strong>即時</strong> </td> 
+   <td><strong>今すぐ</strong> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>私がプロジェクトにイシューを追加しました</strong> </p> <p>イシューのプライマリ連絡先は、プロジェクトにイシューを追加したときに通知を受け取ります。</p> <p>プロジェクトのステータスが [!UICONTROL Current] か [!UICONTROL Planning] の場合にのみ通知が送信されます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Issue submitted]：&lt;Project Name&gt; の &lt;Issue Name&gt;</em></p> <p>日刊ダイジェスト通知の件名：<em>リクエストのダイジェスト &lt;Date of the daily digest&gt;</em></p> </td> 
@@ -62,7 +62,7 @@ ht-degree: 98%
   <tr> 
    <td> <p><strong>私がリクエストを送信します (確認)</strong> </p> <p>イシューのプライマリ連絡先には、イシューの送信時にメール通知が届きます。</p> <p>通知は、（<a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue]</a>で説明されているように）プロジェクトのステータスが [!UICONTROL Current] で、プロジェクトが [!UICONTROL Help Request Queue] として設定されている場合にのみ送信されます。</p> <p>インスタント通知メールの件名は <em>[!UICONTROL Request Submitted]: &lt;Project (Request Queue) Name&gt; の &lt;Request Name&gt;</em> です。</p> <p>日刊ダイジェスト通知の件名は、<em>自分の要求のダイジェスト &lt;Date of the daily digest&gt;</em> です</p> </td> 
    <td> <p>プロジェクト名（リクエストキュー名）<br>ポートフォリオ名<br>イシューの参照番号<br>イシュー名<br>入力日<br>イシューの優先度<br>イシューのステータス<br>割り当て先名<br>プライマリ連絡先<br>*プロジェクトの参照番号<br>*プロジェクト名<br>*送信されたリクエストの合計数<br>*リクエスト名<br>*リクエストの優先度<br>*日刊ダイジェストの日付</p> </td> 
-   <td> <p><strong>即時</strong> </p> <p><strong>および日次</strong> </p> </td> 
+   <td> <p><strong>今すぐ</strong> </p> <p><strong>および日次</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>私のリクエストがクローズされます (確認)</strong> </p> <p>リクエストがクローズされると、イシューのプライマリ連絡先にメール通知が届きます。</p> <p>通知は、（<a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>で説明されているように）プロジェクトのステータスが進行中で、プロジェクトが [!UICONTROL Help Request Queue] として設定されている場合にのみ送信されます。</p> <p>インスタント通知メールの件名は、<em>[!UICONTROL Your request has been closed]:"&lt;Request Name&gt;"</em> です</p> <p>日刊ダイジェスト通知の件名は、<em> [!UICONTROL Digest of your Requests] &lt;Date of the daily digest&gt;</em> です</p> </td> 
@@ -77,7 +77,7 @@ ht-degree: 98%
   <tr> 
    <td> <p><strong>私が作成したプロジェクトでステータスが変更されました</strong> </p> <p>プロジェクトを作成したユーザーには、プロジェクトステータスの変更時にメール通知が届きます。</p> <p>インスタント通知メールの件名は、<em>[!UICONTROL Project Status Change] : &lt;Project Name&gt;</em> です</p> <p>日刊ダイジェスト通知の件名は、<em>[!UICONTROL Digest of your Requests] &lt;Date of the daily digest&gt;</em> です</p> </td> 
    <td> <p>プロジェクト名<br>ポートフォリオ名<br>プロジェクトの参照番号<br>ステータスを変更したユーザーの名前<br>新しいステータス<br>プロジェクトステータスが変更された日時<br>前のプロジェクトのステータス<br><strong>「[!UICONTROL See More Details]」</strong>ボタン<br>*プロジェクト名<br>*プロジェクトの参照番号<br>*プロジェクトの新しいステータス<br>*プロジェクトステータスを変更したユーザーの名前<br>*日刊ダイジェストの日付</p> </td> 
-   <td> <p><strong>今すぐ</strong> </p> </td> 
+   <td> <p><strong>即時</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>私のリクエストでステータスが変更されました</strong> </p> <p>イシューのステータスが変更されると、イシューのプライマリ連絡先にメール通知が届きます。ただし、ステータスを変更したユーザーがプライマリ連絡先と同じ場合を除きます。</p> <p>通知は、（<a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue]</a>で説明されているように）プロジェクトのステータスが進行中で、プロジェクトが [!UICONTROL Help Request Queue] として設定されている場合にのみ送信されます。</p> <p>インスタント通知メールの件名は、<em>&lt;Request Name&gt; は &lt;New Status&gt; です</em>です</p> <p>日刊ダイジェスト通知の件名は、<em>自分の要求のダイジェスト &lt;Date of the daily digest&gt;</em> です</p> </td> 
