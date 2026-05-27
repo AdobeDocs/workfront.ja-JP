@@ -95,7 +95,7 @@ note from the table for Object permissions:
 
 この記事で説明するアクティビティを実行する前に、次の点を確認する必要があります。
 
-* [!DNL Workfront]またはグループ管理者は、[!DNL Workfront] インスタンスの[!UICONTROL  セットアップ ]領域の[!UICONTROL  タスクとイシューの環境設定] セクションで&#x200B;[!UICONTROL **ユーザーがタスクとイシュー**]&#x200B;の設定を委任することを許可しました。
+* [!DNL Workfront]またはグループ管理者は、[!DNL Workfront] インスタンスの[!UICONTROL &#x200B; セットアップ &#x200B;]領域の[!UICONTROL &#x200B; タスクとイシューの環境設定] セクションで&#x200B;[!UICONTROL **ユーザーがタスクとイシュー**]&#x200B;の設定を委任することを許可しました。
 
   詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
@@ -110,11 +110,11 @@ note from the table for Object permissions:
 1. [!UICONTROL **ホーム**]&#x200B;領域に移動します。
 1. [!UICONTROL **マイワーク**]、[!UICONTROL **マイタスク**]、または&#x200B;[!UICONTROL **マイイシュー**] ウィジェットが&#x200B;[!UICONTROL **ホーム**]&#x200B;に追加されていることを確認します。
 
-   詳しくは、「[ ホームでウィジェットを追加、編集、削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください
+   詳しくは、「[&#x200B; ホームでウィジェットを追加、編集、削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください
 
 1. [!UICONTROL **マイワーク**]、[!UICONTROL **マイタスク**]、または&#x200B;[!UICONTROL **マイイシュー**] ウィジェットの左上隅にある&#x200B;[!UICONTROL **委任**]&#x200B;をクリックします。
 
-   ![委任ボタン ](assets/delegate-button-on-my-work-widget.png)
+   ![委任ボタン &#x200B;](assets/delegate-button-on-my-work-widget.png)
 
 1. 次を更新します。
 
@@ -174,7 +174,7 @@ note from the table for Object permissions:
 終了日を選択した場合は、デリゲーションの有効期限を指定するか、手動で停止することができます。 また、デリゲーションの日付が変更された場合は、デリゲーションの時間枠を変更することもできます。
 
 1. [!UICONTROL **ホーム**]&#x200B;領域に移動し、**マイワーク**、**マイタスク**、**マイイシュー**&#x200B;のいずれかのウィジェットで「[!UICONTROL **デリゲーションを編集**]」をクリックします。
-1. 「[!UICONTROL  タスクと問題の委任を停止する]」ボックスで、次のいずれかの操作を行います。
+1. 「[!UICONTROL &#x200B; タスクと問題の委任を停止する]」ボックスで、次のいずれかの操作を行います。
    * 「[!UICONTROL **開始日**]」または「[!UICONTROL **終了日**]」を変更します
    * 「[!UICONTROL **デリゲーションを停止**]」をクリックします
 
@@ -182,7 +182,7 @@ note from the table for Object permissions:
    >
    >    デリゲーションが既に開始している場合は、デリゲーションの「終了日」のみを編集できます。
 
-   ![委任を停止ボタン ](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![委任を停止ボタン &#x200B;](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. （条件付き）「[!UICONTROL **保存**]」をクリックして新しいデリゲーション日を保存します
 
@@ -217,11 +217,11 @@ note from the table for Object permissions:
 
   タスクまたはイシューのヘッダーの「[!UICONTROL 割り当て]」フィールドが、「[!UICONTROL 割り当てとデリゲーション]」に変更されます。
 
-  ![ タスクヘッダーの割り当てとデリゲート パネル ](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![&#x200B; タスクヘッダーの割り当てとデリゲート パネル &#x200B;](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * タスクまたはイシューを手動で割り当てる際の[!UICONTROL ワークロードバランサー]
 
-  バランサー](assets/assignments-and-delegates-panel-in-workload-balancer.png)の![割り当てと委任パネル
+  バランサー![&#128279;](assets/assignments-and-delegates-panel-in-workload-balancer.png)の割り当てと委任パネル
 
 >[!NOTE]
 >
