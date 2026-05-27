@@ -73,7 +73,7 @@ ht-degree: 8%
 1. **ステータス**&#x200B;をクリックします。
 1. ドロップダウンメニューから目的のステータスを選択します。
 
-ステータスについて詳しくは、「Workfront環境間でのオブジェクトの移動の概要」の「[環境プロモーションステータス ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)」を参照してください。
+ステータスについて詳しくは、「Workfront環境間でのオブジェクトの移動の概要」の「[環境プロモーションステータス &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)」を参照してください。
 
 ## パッケージのインストール
 

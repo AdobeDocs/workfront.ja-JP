@@ -100,7 +100,7 @@ ht-degree: 98%
 
 作成または変更中のワークフローにステージを追加できます。
 
-1. 既存のプルーフにステージを追加する場合は、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、プルーフの詳細ページに移動します。
+1. 既存のプルーフにステージを追加する場合は、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、プルーフの詳細ページに移動します。
 1. 「**[!UICONTROL ワークフロー]**」セクションで、「**[!UICONTROL 新規ステージ]**」をクリックします。
 
 1. この記事の[!UICONTROL 自動ワークフローを使用した配達確認の作成]の節の手順 4 で示したようにステージの情報を指定します。
