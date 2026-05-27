@@ -4,13 +4,13 @@ product-area: documents
 keywords: プルーフ, 権限
 navigation-topic: proofing-overview
 title: プルーフ権限プロファイルの概要
-description: プルーフ権限プロファイルは、アカウント内のすべてのプルーフに対してユーザーが持つ全体的な権限を決定するものです。プルーフ権限プロファイルは、ユーザープロファイルのユーザーに割り当てられます。プルーフ権限プロファイルは、プルーフの役割とは異なります。
+description: プルーフ権限プロファイルは、アカウント内のすべてのプルーフに対してユーザーが持つ全体的な権限を決定するものです。 プルーフ権限プロファイルは、ユーザープロファイルのユーザーに割り当てられます。 プルーフ権限プロファイルは、プルーフの役割とは異なります。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
 source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '508'
 ht-degree: 100%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 <!--Audited: 12/2023-->
 
-プルーフ権限プロファイルは、アカウント内のすべてのプルーフに対してユーザーが持つ全体的な権限を決定するものです。プルーフ権限プロファイルは、ユーザープロファイルのユーザーに割り当てられます。
+プルーフ権限プロファイルは、アカウント内のすべてのプルーフに対してユーザーが持つ全体的な権限を決定するものです。 プルーフ権限プロファイルは、ユーザープロファイルのユーザーに割り当てられます。
 
-プルーフ権限プロファイルは、プルーフの役割とは異なります。プルーフの役割について詳しくは、[プルーフの役割の概要](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)を参照してください。
+プルーフ権限プロファイルは、プルーフの役割とは異なります。 プルーフの役割について詳しくは、[プルーフの役割の概要](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)を参照してください。
 
 >[!NOTE]
 >
->管理者は、組織内のユーザーのカスタムプロファイルを作成できます。詳しくは、[Workfront Proof でのカスタムプロファイルの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)を参照してください。
+>管理者は、組織内のユーザーのカスタムプロファイルを作成できます。 詳しくは、[Workfront Proof でのカスタムプロファイルの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)を参照してください。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 ## プルーフ権限プロファイル
 
-次の表に、各プルーフ権限プロファイルで使用できる権限を示します。
+次の表には、各プルーフ権限プロファイルで使用できる権限が表示されています。
 
 <table style="table-layout:auto">
   <tr>
@@ -60,13 +60,13 @@ ht-degree: 100%
    </td>
    <td><strong>追加</strong>
    </td>
-   <td><strong>ビュー</strong>
+   <td><strong>表示</strong>
    </td>
    <td><strong>編集</strong>
    </td>
    <td><strong>削除</strong>
    </td>
-   <td><strong>ビュー</strong>
+   <td><strong>表示</strong>
    </td>
    <td><strong>編集</strong>
    </td>

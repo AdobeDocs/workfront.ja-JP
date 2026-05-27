@@ -35,22 +35,22 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>新規プルーフウィンドウ、プルーフ詳細ウィンドウ</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">新規プルーフウィンドウまたはプルーフ詳細ウィンドウでユーザーをプルーフに追加する場合、プルーフに関するコメントや校正判断に関するメールアラートの受信方法を決定できます。これは、その特定のプルーフに限り、Workfront 管理者が選択したオプションよりも優先されます。詳しくは、次の記事を参照してください。</span> </p> 
+   <td> <p><span class="wysiwyg-font-size-medium">新規プルーフウィンドウまたはプルーフ詳細ウィンドウでユーザーをプルーフに追加する場合、プルーフに関するコメントや校正判断に関するメールアラートの受信方法を決定できます。 これは、その特定のプルーフに限り、Workfront 管理者が選択したオプションよりも優先されます。 詳しくは、次の記事を参照してください。</span> </p> 
     <ul> 
-     <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">基本ワークフローを使用した詳細プルーフの作成</a> </p> </li> 
-     <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">自動ワークフローを使用した詳細プルーフの作成</a> </p> </li> 
+     <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">基本ワークフローを使用した高度なプルーフを作成</a> </p> </li> 
+     <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">自動ワークフローを使用して高度なプルーフを作成</a> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>プルーフビューアー</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">自分が追加されたプルーフを開く際に、プルーフのコメントに関するメールアラートの受信方法を指定できます。これは、Workfront 管理者が選択したオプションや、自分をプルーフに追加したユーザーが選択したオプションよりも優先されます。詳しくは、<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">プルーフのコメントおよび校正判断に関する通知の管理</a></span>を参照してください </p> <p><span class="wysiwyg-font-size-medium"><em><strong>メモ</strong>：プルーフビューアーでは、最後のオプションのラベルが異なりますが（「無効」ではなく「メールなし」）、同じように機能します。</em></span> </p> </td> 
+   <td> <p><span class="wysiwyg-font-size-medium">自分が追加されたプルーフを開く際に、プルーフのコメントに関するメールアラートの受信方法を指定できます。 これは、Workfront 管理者が選択したオプションや、自分をプルーフに追加したユーザーが選択したオプションよりも優先されます。 詳しくは、<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">プルーフのコメントおよび校正判断に関する通知の管理</a></span>を参照してください </p> <p><span class="wysiwyg-font-size-medium"><em><strong>メモ</strong>：プルーフビューアーでは、最後のオプションのラベルが異なりますが（「無効」ではなく「メールなし」）、同じように機能します。</em></span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->これらのオプションは、プルーフコメントや校正判断に関して受信できるメールアラートにのみ影響します。新規プルーフメールや遅延プルーフメールなど、プルーフのフローに関して受け取るメールアラートには影響しません。プルーフのフローに関するメールアラートについて詳しくは、次の記事を参照してください。
+>これらのオプションは、プルーフコメントや校正判断に関して受信できるメールアラートにのみ影響します。 新規プルーフメールや遅延プルーフメールなど、プルーフのフローに関して受け取るメールアラートには影響しません。 プルーフのフローに関するメールアラートについて詳しくは、次の記事を参照してください。
 >
 >* [新規プルーフメール](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
 >* [新規バージョンメール](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)

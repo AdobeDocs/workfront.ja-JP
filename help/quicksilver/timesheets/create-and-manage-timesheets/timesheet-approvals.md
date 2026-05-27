@@ -66,7 +66,7 @@ ht-degree: 51%
 
 次の通知設定が有効な場合、タイムシートを承認用に送信したユーザーは、タイムシートが承認された後にメールを受信します。
 
-* Workfront管理者は、ユーザーに対するタイムシートの承認と、ユーザーイベントハンドラーに対するタイムシートの拒否を有効にしました。 イベント通知の有効化について詳しくは、[&#x200B; イベント通知タイプ &#x200B;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
+* Workfront管理者は、ユーザーに対するタイムシートの承認と、ユーザーイベントハンドラーに対するタイムシートの拒否を有効にしました。 イベント通知の有効化について詳しくは、[ イベント通知タイプ ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
 * 「自分のタイムシートが承認済み」の個人通知は、ユーザーのプロファイルページで有効になっています。 詳しくは、[自身のメール通知の変更](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 ### タイムシート領域からタイムシートを承認する
@@ -89,7 +89,7 @@ ht-degree: 51%
    >
    >Workfrontの管理者またはグループ管理者が設定エリアのリストコントロールまたはレイアウトテンプレートからマイタイムシートの承認フィルターを削除した場合、「マイタイムシートの承認」オプションは、タイムシートリストの上部またはフィルターのリストに表示されません。
    >
-   >詳しくは、[&#x200B; レイアウトテンプレートを使用したフィルター、ビュー、グループ化のカスタマイズ &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
+   >詳しくは、[ レイアウトテンプレートを使用したフィルター、ビュー、グループ化のカスタマイズ ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
    >   
    >
 

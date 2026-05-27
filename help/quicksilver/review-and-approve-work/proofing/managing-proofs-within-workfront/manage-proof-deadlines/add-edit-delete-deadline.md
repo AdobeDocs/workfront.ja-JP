@@ -9,8 +9,8 @@ feature: Digital Content and Documents
 exl-id: 23010732-dab7-461d-876a-56f9928a2a23
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 92%
+source-wordcount: '230'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 92%
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
    <p>標準</p>
-   <p>作業またはプラン</p> </td> 
+   <p>作業または計画</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 

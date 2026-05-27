@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
 source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 95%
+source-wordcount: '326'
+ht-degree: 100%
 
 ---
 
@@ -83,12 +83,12 @@ ht-degree: 95%
      </tr> 
      <tr> 
       <td role="rowheader">カスタム校正判断</td> 
-      <td> <p>Select プランと Premium プランでは、Workfront 管理者や Workfront Proof 管理者が決定の名前変更、並べ替えおよび非表示を行えます。詳しくは、<a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Workfront Proof での承認決定オプションの設定</a>を参照してください。</p> </td> 
+      <td> <p>Select プランと Premium プランでは、Workfront 管理者や Workfront Proof 管理者が決定の名前変更、並べ替えおよび非表示を行えます。 詳しくは、<a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Workfront Proof での承認決定オプションの設定</a>を参照してください。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （条件付き）Adobe Workfront 管理者や Workfront Proof 管理者が「理由」セクションを追加した場合は、当てはまる決定理由を選択します。管理者が決定理由を設定する方法について詳しくは、[Workfront Proof での承認決定オプションの設定](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)を参照してください。
+1. （条件付き）Adobe Workfront 管理者や Workfront Proof 管理者が「理由」セクションを追加した場合は、当てはまる決定理由を選択します。 管理者が決定理由を設定する方法について詳しくは、[Workfront Proof での承認決定オプションの設定](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)を参照してください。
 1. （オプション）「**確認メールを自分に送信**」を選択して、自分が下した決定の確認をメールで受け取ります。
 1. 「**決定する**」をクリックします。
 

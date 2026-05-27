@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 79%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 79%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、[を使用するために必要な [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) アクセスを参照してください。
+シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な[ アクセスを参照してください。
 
 Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
@@ -99,43 +99,43 @@ Old:
 
 >[!NOTE]
 >
->[!DNL Scenario Planner] に対するアクセスレベル権限がない場合にリンクからプランにアクセスしようとしても、プランへのアクセス権をリクエストすることはできません。代わりに、[!DNL Workfront] 管理者に連絡するよう通知する画面が表示されます。
+>[!DNL Scenario Planner] に対するアクセスレベル権限がない場合にリンクからプランにアクセスしようとしても、プランへのアクセス権をリクエストすることはできません。 代わりに、[!DNL Workfront] 管理者に連絡するよう通知する画面が表示されます。
 
 ## [!DNL Workfront Scenario Planner]のプランに対する権限の要求
 
-プランに対する権限をまだ持っていない場合に、自分と共有しているリンクからプランに移動すると、プランを表示する権限がないことを示す画面が表示されます。プラン作成者に権限をリクエストするように促すプロンプトが表示されます。
+プランに対する権限をまだ持っていない場合に、自分と共有しているリンクからプランに移動すると、プランを表示する権限がないことを示す画面が表示されます。 プラン作成者に権限をリクエストするように促すプロンプトが表示されます。
 
 >[!TIP]
 >
->プランの所有者または作成者に対してのみ、権限をリクエストできます。プランへのアクセス権を持つ他のユーザーに、権限をリクエストすることはできません。
+>プランの所有者または作成者に対してのみ、権限をリクエストできます。 プランへのアクセス権を持つ他のユーザーに、権限をリクエストすることはできません。
 
 権限をリクエストするには、次の手順に従います。
 
 1. プランへのリンクをクリックします。
 
-   ![&#x200B; プランに対する権限の要求](assets/request-access-to-plan-350x277.png)
+   ![ プランに対する権限の要求](assets/request-access-to-plan-350x277.png)
 
-1. **[!UICONTROL アクセス権をリクエスト]**&#x200B;ドロップダウンメニューで、付与する権限のレベルを指定します。次の中から選択します。
+1. **[!UICONTROL アクセス権をリクエスト]**&#x200B;ドロップダウンメニューで、付与する権限のレベルを指定します。 次の中から選択します。
 
    * [!UICONTROL 表示]
    * [!UICONTROL 管理]
 
-   [!DNL Scenario Planner] へのアクセスレベルよりも高い権限をリクエストすることはできません。例えば、[!DNL Scenario Planner] への表示アクセス権がある場合、[!UICONTROL 管理]権限をリクエストすることはできません。
+   [!DNL Scenario Planner] へのアクセスレベルよりも高い権限をリクエストすることはできません。 例えば、[!DNL Scenario Planner] への表示アクセス権がある場合、[!UICONTROL 管理]権限をリクエストすることはできません。
 
-   様々なレベルの権限について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) でプランを共有を参照してください。
+   様々なレベルの権限について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) でプランを共有を参照してください。
 
-   Workfront 管理者が [!DNL Scenario Planner] へのアクセスを管理する方法について詳しくは、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権を付与を参照してください。
+   Workfront 管理者が [!DNL Scenario Planner] へのアクセスを管理する方法について詳しくは、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権を付与を参照してください。
 
 1. （オプション）「**[!UICONTROL コメントを残すボックス]**」にコメントまたはリクエストを入力し、「**[!UICONTROL アクセス権をリクエスト]**」をクリックします。
 
    次の処理が行われます。
 
    * [!DNL Workfront] はプラン所有者にメール通知を送信し、プラン所有者はリクエストされた権限を付与できます。\
-     ![&#x200B; アクセスを要求メール通知](assets/request-access-to-plan-email-350x156.png)
+     ![ アクセスを要求メール通知](assets/request-access-to-plan-email-350x156.png)
 
    * プラン所有者がリクエストされた権限を付与すると、権限が付与されたことを知らせるメールが届きます（[!DNL Workfront] 管理者がシステムで「ユーザー宛オブジェクトの共有」通知を有効にし、ユーザーがプロファイルで「[!UICONTROL 誰かが自分とオブジェクトを共有]」メール通知を有効にしている場合）。
 
-     ![許可された電子メールへのアクセス &#x200B;](assets/access-granted-to-plan-email-350x172.png)
+     ![許可された電子メールへのアクセス ](assets/access-granted-to-plan-email-350x172.png)
 
    * また、[!UICONTROL ホーム]領域と [!DNL Workfront] モバイルアプリからもプランへの権限を付与できます。
 

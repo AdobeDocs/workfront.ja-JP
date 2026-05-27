@@ -9,8 +9,8 @@ feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
 source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 93%
+source-wordcount: '297'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 ## ログインは必須です
 
-ログインを必須にすると、アカウントで作成したプルーフのセキュリティを強化できます。アカウントレベルですべてのプルーフに対してログイン必須を有効にしたり、必要に応じて個々のプルーフに対して有効にしたりすることができます。アカウントで有効にする方法について詳しくは、[デフォルトのプルーフの設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)を参照してください。
+ログインを必須にすると、アカウントで作成したプルーフのセキュリティを強化できます。 アカウントレベルですべてのプルーフに対してログイン必須を有効にしたり、必要に応じて個々のプルーフに対して有効にしたりすることができます。 アカウントで有効にする方法について詳しくは、[デフォルトのプルーフの設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)を参照してください。
 
 >[!NOTE]
 >
@@ -28,25 +28,25 @@ ht-degree: 93%
 
 ### 資格情報を使用したプルーフへのアクセス
 
-ログイン必須が有効の場合、レビュアーは、組織のアカウントで作成したプルーフを表示する前に、メールアドレスとパスワードを使用してログインする必要があります。インスタンスの設定に応じて、ユーザーは Workfront または SSO の資格情報を使用する必要があります。
+ログイン必須が有効の場合、レビュアーは、組織のアカウントで作成したプルーフを表示する前に、メールアドレスとパスワードを使用してログインする必要があります。 インスタンスの設定に応じて、ユーザーは Workfront または SSO の資格情報を使用する必要があります。
 
 >[!TIP]
 >
->ログインプロセスを効率化するために、Workfront および Workfront Proof で SSO を設定することをお勧めします。SSO の有効化について詳しくは、
+>ログインプロセスを効率化するために、Workfront および Workfront Proof で SSO を設定することをお勧めします。 SSOの有効化の詳細については、次を参照してください
 >
->* [Workfrontでのシングルサインオン：記事インデックス &#x200B;](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+>* [Workfrontでのシングルサインオン：記事インデックス ](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [Workfront Proof ユーザーに対するシングルサインオンの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 
 ## 電子サイン
 
-電子サインを使用すると、プルーフのセキュリティを強化し、ISO などの業界のセキュリティ標準規格に準拠できます。アカウントレベルですべてのプルーフに対して電子サインを有効にしたり、必要に応じて個々のプルーフに対して有効にしたりすることができます。詳しくは、[デフォルトのプルーフ設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)を参照してください。
+電子サインを使用すると、プルーフのセキュリティを強化し、ISO などの業界のセキュリティ標準規格に準拠できます。 アカウントレベルですべてのプルーフに対して電子サインを有効にしたり、必要に応じて個々のプルーフに対して有効にしたりすることができます。 詳しくは、[デフォルトのプルーフ設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md)を参照してください。
 
 ## プルーフへの電子サイン
 
-プルーフで電子サインの設定が有効になっている場合、電子サインボックスが表示され、校正判断を行うレビュアーにメールアドレスとパスワードを入力するよう求めます。インスタンスの設定に応じて、ユーザーは Workfront または SSO の資格情報を使用する必要があります。
+プルーフで電子サインの設定が有効になっている場合、電子サインボックスが表示され、校正判断を行うレビュアーにメールアドレスとパスワードを入力するよう求めます。 インスタンスの設定に応じて、ユーザーは Workfront または SSO の資格情報を使用する必要があります。
 
 >[!IMPORTANT]
 >
->SSO 資格情報を使用してプルーフに電子サインを行うには、Workfront Proof で SSO を設定する必要があります。SSO の有効化について詳しくは、
+>SSO 資格情報を使用してプルーフに電子サインを行うには、Workfront Proof で SSO を設定する必要があります。 SSOの有効化の詳細については、次を参照してください
 >
 >* [Workfront Proof ユーザーに対するシングルサインオンの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
