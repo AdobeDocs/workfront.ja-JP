@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 35%
@@ -190,3 +190,4 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 1. 共有ボックスで、フォームに特別なアクセス権を付与する必要がなくなったユーザー、チーム、役割、グループ、会社、またはビジネスプロファイルの名前の右側にあるドロップダウンメニューをクリックし、**削除**&#x200B;を選択します。
 1. （オプション）削除する他の名前について、前の手順を繰り返します。
 1. 「**保存**」をクリックします。
+
