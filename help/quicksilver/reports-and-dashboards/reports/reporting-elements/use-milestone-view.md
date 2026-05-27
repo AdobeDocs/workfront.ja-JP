@@ -35,7 +35,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 マイルストーンビューを使用する前に、次の要素が存在する必要があります。
 
-* マイルストーンパスが設定されます。 詳しくは、[ マイルストーンパスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
+* マイルストーンパスが設定されます。 詳しくは、[&#x200B; マイルストーンパスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
 * 必要なマイルストーンパスがプロジェクトに追加されます。 詳しくは、[プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 * マイルストーンはタスクに関連付けられています。 詳しくは、[マイルストーンとタスクの関連付け](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)を参照してください。
 
@@ -245,7 +245,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     </tbody> 
    </table>
 
-   ![ マイルストーン表示オプション ](assets/milestone-view-options-350x141.png)
+   ![&#x200B; マイルストーン表示オプション &#x200B;](assets/milestone-view-options-350x141.png)
 
 ## マイルストーンビューでタスクの完了率を調整する {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
@@ -257,7 +257,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 「**表示**」ドロップダウンメニューをクリックして、「**マイルストーン**」をクリックします。
 
-1. （条件付き）完了率がマイルストーンビューに表示されていない場合は、この記事の「[ マイルストーンビューに表示される情報の設定](#configure-what-information-displays-in-the-milestone-view)」で説明されているように、タスクとプロジェクトの完了率の表示を有効にします。
+1. （条件付き）完了率がマイルストーンビューに表示されていない場合は、この記事の「[&#x200B; マイルストーンビューに表示される情報の設定](#configure-what-information-displays-in-the-milestone-view)」で説明されているように、タスクとプロジェクトの完了率の表示を有効にします。
 
 1. **完了率**&#x200B;のスライドを新しい完了率に移動して更新します。
 
