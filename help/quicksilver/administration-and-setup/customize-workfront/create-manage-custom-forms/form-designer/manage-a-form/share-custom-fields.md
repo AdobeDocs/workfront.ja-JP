@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: a8e2558469d3abc355eb58f81658db3d1cfc7315
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 49%
@@ -163,3 +163,5 @@ ht-degree: 49%
 ### 共有されたカスタムフォーム内のカスタムフィールドまたはウィジェットへのアクセスを削除する {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
 共有されたカスタムフォーム内のカスタムフィールドまたはウィジェットへのアクセスを削除する必要がある場合は、フォームの共有を解除する必要があります。 手順については、[&#x200B; カスタムフォームの共有](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)の記事[&#x200B; カスタムフォームへのアクセスの削除](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form)の節を参照してください。
+
+
