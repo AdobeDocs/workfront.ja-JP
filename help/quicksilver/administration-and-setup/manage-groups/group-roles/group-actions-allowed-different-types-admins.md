@@ -10,8 +10,8 @@ role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 63%
+source-wordcount: '450'
+ht-degree: 57%
 
 ---
 
@@ -56,25 +56,25 @@ ht-degree: 63%
    <td>✓***</td> 
   </tr> 
   <tr> 
-   <td>システムレベルでプロジェクト、タスク、イシューの環境設定を行う</td> 
+   <td>システムレベルでのプロジェクト、タスク、イシューの環境設定</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>グループとサブグループのプロジェクト、タスク、イシューの環境設定のアクティベートとアクティベート解除</td> 
+   <td>グループとサブグループのプロジェクト、タスク、イシューの環境設定をアクティブ化および非アクティブ化します</td> 
    <td>✓***</td> 
    <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
-   <td>システムレベルでタイムシートおよび時間環境設定を設定する</td> 
+   <td>システムレベルでのタイムシートおよび時間の環境設定</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>グループとサブグループのタイムシートおよび時間設定を有効化および無効化します </td> 
+   <td>グループとサブグループのタイムシートと時間設定をアクティブ化および非アクティブ化する </td> 
    <td>✓***</td> 
    <td>✓***</td> 
    <td>✓***</td> 
@@ -86,7 +86,7 @@ ht-degree: 63%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>グループおよびサブグループのイベント通知 E メールの有効化と無効化</td> 
+   <td>グループおよびサブグループのイベント通知メールをアクティブ化および非アクティブ化</td> 
    <td>✓*** </td> 
    <td>✓***</td> 
    <td> </td> 
@@ -226,23 +226,23 @@ ht-degree: 63%
  </tbody> 
 </table>
 
-&#42; グループ管理者のアクセスレベルで、**ユーザー** 設定に対して **編集** を選択し、**ユーザー管理者（グループユーザー）**&#x200B;**設定の微調整**![&#x200B; 設定の微調整アイコン &#x200B;](assets/gear-icon-in-access-levels.png) で選択する必要があります。 詳しくは、[ユーザーにアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)の記事の[カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)の節を参照してください。
+&#42; グループ管理者のアクセスレベルでは、**ユーザー**&#x200B;設定に&#x200B;**編集**&#x200B;を選択し、**設定の微調整** ![設定の微調整アイコン ](assets/gear-icon-in-access-levels.png)で&#x200B;**ユーザー管理者（グループユーザー）**&#x200B;を選択する必要があります。 詳しくは、[ユーザーにアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)の記事の[カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)の節を参照してください。
 
-&#42;&#42;グループ管理者のアクセスレベルで、このアクションへのアクセスを有効にする必要があります。詳しくは、[特定のエリアに対する管理者アクセス権をユーザーに付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
+&#42;&#42;グループ管理者のアクセスレベルで、このアクションへのアクセスを有効にする必要があります。 詳しくは、[特定のエリアに対する管理者アクセス権をユーザーに付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
-&#42;&#42;&#42; これらのパッケージには、次に示す高度なエンタープライズ制御機能が含まれています。
+&#42;&#42;&#42;これらのパッケージには、以下に示す高度なエンタープライズ コントロール機能が含まれています。
 
-* ワークフローのPrime以降
+* Workflow Prime以降
 * Workfront Prime以降
 
-パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ &#x200B;](https://business.adobe.com/jp/products/workfront/pricing.html) を参照してください。
+パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ ](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 高度なエンタープライズ制御：
 
-* グループレベルでプロジェクト、タスク、イシューの環境設定を行う
-* グループレベルでタイムシートおよび時間環境設定を設定する
+* グループレベルでのプロジェクト、タスク、イシューの環境設定
+* グループレベルでのタイムシートおよび時間の環境設定
 * グループレベルでのイベント通知メールの設定
 * グループ固有の承認プロセスの作成と管理
-* ライセンスの上限の割り当てとその使用率をホーム グループ別に表示します
-* サブグループへのグループ管理者の割り当て
-* グループ管理者にサブグループの作成を許可
+* ライセンス制限を割り当て、ホームグループごとの使用状況を表示します
+* サブグループにグループ管理者を割り当てる
+* グループ管理者がサブグループを作成することを許可する

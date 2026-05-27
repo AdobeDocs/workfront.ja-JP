@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: プルーフビューアーで複数のプルーフを操作
-description: ' [!DNL Workfront]  プルーフでは、フォルダーを使用して、一緒に作業したいプルーフ、またはレビュー担当者に一緒に作業してもらいたいプルーフをグループ化できます。あなたまたは別のレビューアーがいずれかのプルーフを開いてプルーフビューアーを起動すると、フォルダー内のすべてのプルーフもそこで利用できるようになります。プルーフビューアーを開いたまま、他のプルーフを表示し、並べ替えて検索し、相互に比較することができます。'
+description: ' [!DNL Workfront]  プルーフでは、フォルダーを使用して、一緒に作業したいプルーフ、またはレビュー担当者に一緒に作業してもらいたいプルーフをグループ化できます。 あなたまたは別のレビューアーがいずれかのプルーフを開いてプルーフビューアーを起動すると、フォルダー内のすべてのプルーフもそこで利用できるようになります。 プルーフビューアーを開いたまま、他のプルーフを表示し、並べ替えて検索し、相互に比較することができます。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '508'
 ht-degree: 99%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-[!DNL Workfront Proof] では、フォルダーを使用して、一緒に作業したいプルーフ、またはレビュー担当者に一緒に作業してもらいたいプルーフをグループ化できます。あなたまたは別のレビューアーがいずれかのプルーフを開いてプルーフビューアーを起動すると、フォルダー内のすべてのプルーフもそこで利用できるようになります。プルーフビューアーを開いたまま、他のプルーフを表示し、並べ替えて検索し、相互に比較することができます。
+[!DNL Workfront Proof] では、フォルダーを使用して、一緒に作業したいプルーフ、またはレビュー担当者に一緒に作業してもらいたいプルーフをグループ化できます。 あなたまたは別のレビューアーがいずれかのプルーフを開いてプルーフビューアーを起動すると、フォルダー内のすべてのプルーフもそこで利用できるようになります。 プルーフビューアーを開いたまま、他のプルーフを表示し、並べ替えて検索し、相互に比較することができます。
 
 フォルダーに関する一般的な情報については、[フォルダー [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)を参照してください。
 
 >[!NOTE]
 >
->レビュアーがフォルダー内のプルーフを開くことができるかどうかは、プルーフへのアクセスによって決まります。プルーフへのアクセスについて詳しくは、[プルーフの生成 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)を参照してください。
+>レビュアーがフォルダー内のプルーフを開くことができるかどうかは、プルーフへのアクセスによって決まります。 プルーフへのアクセスについて詳しくは、[プルーフの生成 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)を参照してください。
 
 ## フォルダー内のプルーフをグループ化する
 
@@ -64,4 +64,4 @@ ht-degree: 99%
 
      プルーフを比較しているときに新しいプルーフに切り替える場合は、プルーフビューアーの左側または右側で、プルーフの上にある[!UICONTROL 比較]ボタンをクリックします。
 
-     ![&#x200B; 比較 &#x200B;](assets/mceclip0-350x126.png)
+     ![比較](assets/mceclip0-350x126.png)

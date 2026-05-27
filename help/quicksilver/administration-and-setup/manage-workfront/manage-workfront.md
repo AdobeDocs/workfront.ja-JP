@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
 title: Adobe Workfront の管理
-description: Workfront管理者は、プルーフ機能、レポート、メール、セキュリティ、為替レート、削除された項目、診断を設定できます。
+description: Workfront 管理者は、プルーフ機能、レポート、メール、セキュリティ、為替レート、削除された項目、診断を設定できます。
 feature: System Setup and Administration
 role: Admin
 author: Lisa
@@ -12,8 +12,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 59%
+source-wordcount: '45'
+ht-degree: 100%
 
 ---
 

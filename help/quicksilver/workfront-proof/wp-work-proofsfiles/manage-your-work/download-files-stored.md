@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: ' [!DNL Workfront Proof] に保存されているファイルのダウンロード'
-description: アクティブなプルーフ、ロックされたプルーフ、アーカイブされたプルーフから、元のファイルをローカルマシンにダウンロードできます。その後、作成に使用したソフトウェアアプリケーション（アプリケーションがある場合）で、印刷したり、開いたりすることができます。元のファイルは、1 つまたは複数のプルーフからダウンロードできます。
+description: アクティブなプルーフ、ロックされたプルーフ、アーカイブされたプルーフから、元のファイルをローカルマシンにダウンロードできます。 その後、作成に使用したソフトウェアアプリケーション（アプリケーションがある場合）で、印刷したり、開いたりすることができます。 元のファイルは、1 つまたは複数のプルーフからダウンロードできます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: daf44b00-0c55-470e-a52b-2bb21a961699
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 97%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の [!DNL Workfront] Proof の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品の [!DNL Workfront] Proof の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-アクティブなプルーフ、ロックされたプルーフ、アーカイブされたプルーフから、元のファイルをローカルマシンにダウンロードできます。その後、作成に使用したソフトウェアアプリケーション（アプリケーションがある場合）で、印刷したり、開いたりすることができます。元のファイルは、1 つまたは複数のプルーフからダウンロードできます。
+アクティブなプルーフ、ロックされたプルーフ、アーカイブされたプルーフから、元のファイルをローカルマシンにダウンロードできます。 その後、作成に使用したソフトウェアアプリケーション（アプリケーションがある場合）で、印刷したり、開いたりすることができます。 元のファイルは、1 つまたは複数のプルーフからダウンロードできます。
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ ht-degree: 100%
    リストでプルーフを選択してリストの上にある「**[!UICONTROL その他]**」ボタンをクリックし、「**[!UICONTROL ダウンロード]**」をクリックします。\
    以下でも、ファイルをダウンロードすることができます。
 
-   * プルーフの詳細ページの表示中。\
+   * プルーフのプルーフの詳細ページを表示している間。\
 
      ![Download_btn_in_Proof_Details.png](assets/download-btn-in-proof-details-350x32.png)
 

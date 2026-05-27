@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
 title: ' [!DNL Workfront Proof] の自動ワークフローで設定されたプルーフの管理'
-description: 自動ワークフローのプルーフの進行状況は、プルーフの詳細ページの「ワークフロー」セクションで簡単に追跡できます。各ステージで行われた作業を表示し、プルーフのステージを変更、追加、開始およびロックできます。
+description: 自動ワークフローのプルーフの進行状況は、プルーフの詳細ページの「ワークフロー」セクションで簡単に追跡できます。 各ステージで行われた作業を表示し、プルーフのステージを変更、追加、開始およびロックできます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '688'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-自動ワークフローのプルーフの進行状況は、[!UICONTROL プルーフの詳細]ページの「ワークフロー」セクションで簡単に追跡できます。各ステージで行われた作業を表示し、プルーフのステージを変更、追加、開始およびロックできます。
+自動ワークフローのプルーフの進行状況は、[!UICONTROL プルーフの詳細]ページの「ワークフロー」セクションで簡単に追跡できます。 各ステージで行われた作業を表示し、プルーフのステージを変更、追加、開始およびロックできます。
 
 ## 自動ワークフローを表示
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 1. セクションの上部にあるボタンをクリックします (1)。
 
-   ダイアグラムを使用して、複数のステージを切り替えることができます。表示中のステージは、グレーでハイライト表示されます (2)。
+   ダイアグラムを使用して、複数のステージを切り替えることができます。 表示中のステージは、グレーでハイライト表示されます (2)。
 
 1. 別のステージを表示するには、ダイアグラム上でステージを選択します。
 
@@ -83,9 +83,9 @@ ht-degree: 100%
 
 ![sbw-padlock-icon.png](assets/sbw-padlock-icon.png) - ロックされたステージ
 
-ステージ間の線は、ステージ間の依存関係を表します。非アクティブなステージにつながる線は、ステージがアクティブになるまで点線で示されます。
+ステージ間の線は、ステージ間の依存関係を表します。 非アクティブなステージにつながる線は、ステージがアクティブになるまで点線で示されます。
 
-ダイアグラムのステージにポインタを合わせると、ステージの進行状況が表示されます。ステージがアクティブでなく、ステージの編集権限がある場合は、「[!UICONTROL ステージを開始]」ボタンを押して、表示されるポップアップからステージを開始することができます。同様にして、アクティブなステージをロックするオプションを表示することもできます。
+ダイアグラムのステージにポインタを合わせると、ステージの進行状況が表示されます。 ステージがアクティブでなく、ステージの編集権限がある場合は、「[!UICONTROL ステージを開始]」ボタンを押して、表示されるポップアップからステージを開始することができます。 同様にして、アクティブなステージをロックするオプションを表示することもできます。
 
 進捗バーについて詳しくは、[ [!DNL Workfront]  Proof でのプルーフの進行状況とステータスの表示](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)を参照してください。
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 ![Managing_stage_settings.png](assets/managing-stage-settings-350x93.png)
 
-レビュアーをステージ間で移動することもできます。あるステージから別のステージにドラッグするだけです。使用可能なステージは青色でハイライトされ、各ステージのドロップ領域が明確にマークされます。
+レビュアーをステージ間で移動することもできます。あるステージから別のステージにドラッグするだけです。 使用可能なステージは青色でハイライトされ、各ステージのドロップ領域が明確にマークされます。
 
 ![Moving_reviewers_between_stages.png](assets/moving-reviewers-between-stages-350x254.png)
 
