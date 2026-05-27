@@ -53,7 +53,7 @@ ht-degree: 99%
 1. プルーフを [!DNL Workfront Proof] で開くには、「**[!UICONTROL プルーフに移動]**」をクリックします。\
    または\
    プルーフを [!DNL Basecamp] で開くには、**[!UICONTROL [!DNL Basecamp]URL]** フィールドに表示されている URL をクリックします。\
-   [!DNL Basecamp Classic] でのプルーフのレビューについて詳しくは、この記事の[ [!DNL Basecamp]](#reviewing-a-proof-in-basecamp) でのプルーフのレビューを参照してください。
+   [!DNL Basecamp Classic] でのプルーフのレビューについて詳しくは、この記事の[&#x200B; [!DNL Basecamp]](#reviewing-a-proof-in-basecamp) でのプルーフのレビューを参照してください。
 
 ## [!DNL Basecamp Classic] メッセージからのプルーフの表示
 
@@ -81,11 +81,11 @@ ht-degree: 99%
       [!DNL Workfront Proof]アカウントがない場合、表示するパブリック名を入力します。\
       「[!UICONTROL 情報を記憶する]」というメッセージを選択したので、詳細を入力する必要があるのは 1 回だけです。
 
-1. プルーフを確認するには、[ [!DNL Basecamp]](#reviewing-a-proof-in-basecamp) でプルーフを確認に進みます。
+1. プルーフを確認するには、[&#x200B; [!DNL Basecamp]](#reviewing-a-proof-in-basecamp) でプルーフを確認に進みます。
 
 >[!NOTE]
 >
-> メッセージページ上のミニプルーフの下に表示されるコメントボックスは、メッセージ自体にのみ適用されます。 レビューコメントを送信するには、ミニプルーフの上部にある「コメントアイコン」ボタン、またはフルページプルーフの上にある大きい「[!UICONTROL コメント]」ボタンをクリックします。 詳しくは、 [!DNL Basecamp]](#reviewing-a-proof-in-basecamp)[ でプルーフを確認を参照してください。
+> メッセージページ上のミニプルーフの下に表示されるコメントボックスは、メッセージ自体にのみ適用されます。 レビューコメントを送信するには、ミニプルーフの上部にある「コメントアイコン」ボタン、またはフルページプルーフの上にある大きい「[!UICONTROL コメント]」ボタンをクリックします。 詳しくは、 [!DNL Basecamp][&#128279;](#reviewing-a-proof-in-basecamp) でプルーフを確認を参照してください。
 
 ## [!DNL Basecamp] のプルーフの確認
 

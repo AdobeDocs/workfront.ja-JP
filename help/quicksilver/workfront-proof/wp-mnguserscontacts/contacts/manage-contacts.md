@@ -32,7 +32,7 @@ ht-degree: 89%
 1. 左側のナビゲーションサイドバーの「**[!UICONTROL 連絡先]**」をクリックします。
 1. 並べ替える基準となる「列見出し」をクリックします。
 または
-連絡先ページの右上隅にある**[!UICONTROL 並べ替え]** メニューからオプションを選択します。
+連絡先ページの右上隅にある&#x200B;**[!UICONTROL 並べ替え]** メニューからオプションを選択します。
 
 1. ![Contacts_page-Sort_menu.png](assets/contacts-page-sort-menu.png)
 
@@ -71,7 +71,7 @@ ht-degree: 89%
 
    * 連絡先の行の最後にある&#x200B;**[!UICONTROL その他]**&#x200B;アイコンをクリックして、表示されるドロップダウンメニューのオプションを使用します。
 
-     これらのオプションは、連絡先のタイプごとに異なります。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) でのユーザー、メンバーおよびゲストについてを参照してください。
+     これらのオプションは、連絡先のタイプごとに異なります。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) でのユーザー、メンバーおよびゲストについてを参照してください。
 
 ## 連絡先の読み込み
 
