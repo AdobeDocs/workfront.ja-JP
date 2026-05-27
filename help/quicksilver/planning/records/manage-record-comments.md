@@ -1,6 +1,6 @@
 ---
 title: レコードのコメントの管理
-description: レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードに関する共同作業を行うことができます。また、レコードに加えられた他の変更やシステムにより記録された他の変更を、このエリアに表示することもできます。
+description: レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードに関する共同作業を行うことができます。 また、レコードに加えられた他の変更やシステムにより記録された他の変更を、このエリアに表示することもできます。
 feature: Workfront Planning
 role: User
 author: Alina
@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 54%
 
 ---
@@ -25,12 +25,12 @@ ht-degree: 54%
 
 {{planning-important-intro}}
 
-レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードに関する共同作業を行うことができます。また、レコードに加えられた他の変更やシステムにより記録された他の変更を、このエリアに表示することもできます。
+レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードに関する共同作業を行うことができます。 また、レコードに加えられた他の変更やシステムにより記録された他の変更を、このエリアに表示することもできます。
 
 レコードの右側のパネルには、次のセクションが表示されます。
 
 * **コメント**：ユーザーがレコードに追加したコメントおよび返信を表示します。
-* **履歴**：ユーザーがレコードフィールドに対して行った、システムで記録された変更を表示します。詳しくは、[「履歴」セクションの概要](/help/quicksilver/planning/records/history-section-overview.md)を参照してください。
+* **履歴**：ユーザーがレコードフィールドに対して行った、システムで記録された変更を表示します。 詳しくは、[「履歴」セクションの概要](/help/quicksilver/planning/records/history-section-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -71,7 +71,7 @@ ht-degree: 54%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -145,11 +145,11 @@ Old:
 
 * レコードの「コメント」セクションで、Workfront Planning のレコードにコメントや返信を追加できます。
 
-* リンク先のレコードに追加されたコメントは、リンク元のレコードには表示されません。例えば、キャンペーンレコードにリンクされている Workfront Planning の製品レコードにコメントを付けると、そのコメントは Workfront Planning の製品レコードにのみ表示され、リンク元のキャンペーンレコードには表示されません。
+* リンク先のレコードに追加されたコメントは、リンク元のレコードには表示されません。 例えば、キャンペーンレコードにリンクされている Workfront Planning の製品レコードにコメントを付けると、そのコメントは Workfront Planning の製品レコードにのみ表示され、リンク元のキャンペーンレコードには表示されません。
 
 * レコードと別のアプリケーションのオブジェクトとの接続の結果として作成された Workfront Planning レコードにコメントを追加できます。
 
-  例えば、Workfront プロジェクトを Workfront Planning レコードと接続した後で、プロジェクトの Workfront Planning レコードにコメントを付けることができます。詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+  例えば、Workfront プロジェクトを Workfront Planning レコードと接続した後で、プロジェクトの Workfront Planning レコードにコメントを付けることができます。 詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
 * 他のアプリケーションでリンク先のオブジェクトに追加されたコメントは Workfront Planning には表示されず、Workfront Planning でリンク先のオブジェクトに追加されたコメントは他のアプリケーションには表示されません。
 
@@ -170,19 +170,19 @@ Old:
 
    ワークスペースが開き、レコードタイプがカードに表示されます。
 
-1. レコードタイプカードをクリックします。
+1. レコードタイプのカードをクリックします。
 レコードタイプページが開き、そのタイプのすべてのレコードが表示されます。
 
 1. 「**表示**」ドロップダウンメニューからテーブルビューを選択します。
 1. テーブルビューでレコードの名前をクリックします。
 
-   レコードの&#x200B;**詳細**&#x200B;ページが開きます。デフォルトではコメントエリアが右側のパネルに開きます。
+   レコードの&#x200B;**詳細**&#x200B;ページが開きます。 デフォルトではコメントエリアが右側のパネルに開きます。
 
-1. （条件付き）右側のパネルがデフォルトで開かない場合は、右上隅の「**コメントを表示** ![&#x200B; コメントを表示](assets/show-comments-icon.png)」アイコンをクリックして、「コメント」セクションを開きます。
+1. （条件付き）右側のパネルがデフォルトで開かない場合は、右上隅の「**コメントを表示** ![ コメントを表示](assets/show-comments-icon.png)」アイコンをクリックして、「コメント」セクションを開きます。
 
 1. **新しいコメント**&#x200B;ボックスにコメントを入力します。
 
-   ![&#x200B; レコード &#x200B;](assets/empty-comment-box-on-record.png)の空のコメントボックス
+   ![ レコード ](assets/empty-comment-box-on-record.png)の空のコメントボックス
 
    >[!TIP]
    >
@@ -191,7 +191,7 @@ Old:
 1. （オプション）変更の取り消しまたはやり直しを行うには、以下のショートカットキーを使用します。
    * CTRL + Z （⌘+z for Mac）で変更を元に戻す
    * CTRL + Y （⌘+y for Mac）で変更をやり直す
-1. **@**&#x200B;を追加し、その後にユーザーまたはチームの名前を追加して、更新でタグ付けします。 詳細については、この記事の「[&#x200B; レコードに対するコメントに関する考慮事項](#considerations-about-commenting-on-a-record)」を参照してください。
+1. **@**&#x200B;を追加し、その後にユーザーまたはチームの名前を追加して、更新でタグ付けします。 詳細については、この記事の「[ レコードに対するコメントに関する考慮事項](#considerations-about-commenting-on-a-record)」を参照してください。
 
 1. （オプション）リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字の追加、またはアップデートへのリンクを行い、コンテンツを強化します。
 
@@ -205,7 +205,7 @@ Old:
    Workfront Planning レコードを含むオブジェクトの更新について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 1. （オプション）コメントの右上隅にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックしてコメントを削除します。
-1. （オプション）「**コメントを非表示**」アイコン「![&#x200B; コメントを非表示にする](assets/hide-comments-icon.png)」をクリックして、右側のパネルを閉じます。
+1. （オプション）「**コメントを非表示**」アイコン「![ コメントを非表示にする](assets/hide-comments-icon.png)」をクリックして、右側のパネルを閉じます。
 
 <!--
       >[!TIP]

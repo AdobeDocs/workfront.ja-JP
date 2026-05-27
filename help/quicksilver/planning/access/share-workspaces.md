@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 27%
+source-wordcount: '1016'
+ht-degree: 29%
 
 ---
 
@@ -33,7 +33,7 @@ This article describes how you can share a view with others. For information abo
 
 >[!NOTE]
 >
->他のユーザーにワークスペースの権限を付与しても、レコードタイプページのビューに対する権限は付与されません。他のユーザーと共有するには、レコードタイプのページ内の個々のビューに権限を付与する必要があります。詳しくは、[ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
+>他のユーザーにワークスペースの権限を付与しても、レコードタイプページのビューに対する権限は付与されません。 他のユーザーと共有するには、レコードタイプのページ内の個々のビューに権限を付与する必要があります。 詳しくは、[ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
 
 
 ## アクセス要件
@@ -68,7 +68,7 @@ This article describes how you can share a view with others. For information abo
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -154,9 +154,9 @@ Old:
 
 {{step1-to-planning}}
 
-1. 共有するワークスペースを開き、画面の右上隅にある「**共有**」をクリックします。 共有ボックスが開きます。
+1. 共有するワークスペースを開き、画面の右上隅の「**共有**」をクリックします。 共有ボックスが開きます。
 
-   ワークスペースの右上の![共有ボタン &#x200B;](assets/share-button-on-workspace-top-right.png)
+   ワークスペースの右上の![共有ボタン ](assets/share-button-on-workspace-top-right.png)
 
 1. （条件付き）アクセス レベルに応じて、次のいずれかの操作を行います。
 
@@ -174,7 +174,7 @@ Old:
 
 1. **このワークスペースへのアクセス権を付与** フィールドで、ユーザー、グループ、チーム、会社、または担当業務の名前を入力し始め、リストに表示されたらクリックします。
 
-   ![&#x200B; グループとUIを共有](assets/sharing-ui-with-groups.png)
+   ![ グループとUIを共有](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
@@ -184,7 +184,7 @@ Old:
 
 1. （オプション）グループ、チーム、役割、または会社と共有する場合は、エンティティの名前にカーソルを合わせ、右向きの矢印をクリックして、権限を受け取っているユーザーのリストを展開します。
 
-   ![&#x200B; グループとワークスペースを共有](assets/share-workspace-role-expanding-arrow-highlighted.png)
+   ![ グループとワークスペースを共有](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
 1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
    * 表示
@@ -193,7 +193,7 @@ Old:
 
      権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
 1. 「**リンクをコピー**」をクリックして、ワークスペースへのリンクをクリップボードにコピーします。
-1. コピーしたリンクを他のユーザーと共有します。リンクを受け取ったユーザーがそのワークスペースにアクセスするには、アクティブユーザーであり、かつ Workfront にログインする必要があります。
+1. コピーしたリンクを他のユーザーと共有します。 リンクを受け取ったユーザーがそのワークスペースにアクセスするには、アクティブユーザーであり、かつ Workfront にログインする必要があります。
 1. 「**保存**」をクリックします。
 
    ワークスペースを共有したユーザーは、ワークスペースに対する権限を持つことに関するアプリ内通知とメール通知の両方を受け取ります。
@@ -205,16 +205,16 @@ Old:
 1. （条件付き）ワークスペースのマネージャーである場合、次の領域でビューにアクセスするためのリクエストを他のユーザーから受け取る可能性があります。
 
    * アプリ内通知
-     ![&#x200B; アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
+     ![ アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
    * メール通知
-     ![&#x200B; アクセス要求のメール通知](assets/email-notification-for-access-request.png)
+     ![ アクセス要求のメール通知](assets/email-notification-for-access-request.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
 メール通知から、**すべての通知を表示**&#x200B;をクリックし、リスト内の通知をクリックします。
 
    「**保留中のアクセス要求**」ボックスが表示されます。
 
-   ![通知リストの承認ボックス &#x200B;](assets/notifications-list-approval-box.png)
+   ![通知リストの承認ボックス ](assets/notifications-list-approval-box.png)
 
 1. （オプション）権限を承認するユーザーの場合、ユーザー名の右側にあるドロップダウンメニューから次のいずれかのオプションを選択します。
    * **表示**

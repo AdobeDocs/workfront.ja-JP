@@ -11,18 +11,11 @@ last-update: '2026-04-01T18:03:50.000Z'
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 autotag-review: '2026-05-19T20:02:13.086Z'
 TQID: 'https://experienceleague.adobe.com/Xf-V7M0-NaX-fw6yR-tjw3HnTRmNVIkYF7QcBPkjR7U'
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2:
-  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 63cb8d98d210207c3f6f435f98b7204a5dce0df8
 workflow-type: tm+mt
 source-wordcount: 632
@@ -112,11 +105,11 @@ Adobe Workfront Planning の一般情報と用語について詳しくは、[Ado
 
 * [Adobe Workfront Planning の自動化の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)：Adobe Workfront Planning で自動化を設定できます。アクティブ化すると、Planning レコードからトリガーされたときに Workfront にオブジェクトが作成されるか、Workfront Planning にレコードが作成されます。
 
-* [Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): GenStudio for Performance Marketingのレコードは、Workfront計画のGenStudio Workspaceで管理できます。
+* [Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス ](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): GenStudio for Performance Marketingのレコードは、Workfront計画のGenStudio Workspaceで管理できます。
 
 * **Workfront計画レポート機能**: Workfront Canvas ダッシュボードを使用すると、レポートでWorkfront計画に関する情報を確認できます。 詳しくは、[キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)を参照してください。
 
-* [Adobe Workfront計画のベストプラクティス：記事インデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：安全性を優先し、混乱を最小限に抑え、迅速に成果を上げる戦略を使用して、組織でAdobe Workfront計画を展開する方法に関するヒントを説明します。
+* [Adobe Workfront計画のベストプラクティス：記事インデックス ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：安全性を優先し、混乱を最小限に抑え、迅速に成果を上げる戦略を使用して、組織でAdobe Workfront計画を展開する方法に関するヒントを説明します。
 
 ## Workfront Planning のリリースアクティビティ
 
