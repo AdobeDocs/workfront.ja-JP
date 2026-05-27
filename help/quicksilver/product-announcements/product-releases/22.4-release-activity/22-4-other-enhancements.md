@@ -8,22 +8,22 @@ recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '608'
 ht-degree: 97%
 
 ---
 
 # 22.4 その他の機能強化
 
-このページでは、22.4 リリースでプレビュー環境に対して行われたその他すべての機能強化について説明します。これらの機能強化は、2022年10月3日（PT）の週に利用できるようになります。
+このページでは、22.4 リリースでプレビュー環境に対して行われたその他すべての機能強化について説明します。 これらの機能強化は、2022年10月3日（PT）の週に利用できるようになります。
 
 22.4 リリースで利用可能なすべての変更点の一覧については、[22.4 リリースの概要](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)を参照してください。
 
 ## Adobe Workfront for InDesign
 
-このプラグインは InDesign でインストールできるようになりました。作業項目の詳細にアクセスしたり、更新領域で同僚と共同作業したり、レビュー用のプルーフを送信したりといったことを、すべて XD を離れずに行えます。Adobe Creative Cloud Marketplace にアクセスして、今すぐプラグインをダウンロードしてください。
+このプラグインは InDesign でインストールできるようになりました。 作業項目の詳細にアクセスしたり、更新領域で同僚と共同作業したり、レビュー用のプルーフを送信したりといったことを、すべて XD を離れずに行えます。 Adobe Creative Cloud Marketplace にアクセスして、今すぐプラグインをダウンロードしてください。
 
-プラグインについて詳しくは、 [!DNL Creative Cloud] アプリケーション[&#128279;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)用の [!DNL Adobe Workfront]  プラグインを参照してください。
+プラグインについて詳しくは、 [!DNL Creative Cloud] アプリケーション](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)用の [[!DNL Adobe Workfront]  プラグインを参照してください。
 
 [今すぐ Marketplace で Adobe Workfront for InDesign をダウンロード](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign)。
 
@@ -49,11 +49,11 @@ Workfront でフィールドを変更すると、Workfront のポートフォリ
 
 ## 拡張されたチームの説明
 
-チームエリアで、説明をクリックしてポップアップで表示すると、チームの完全な説明を表示できます。説明内の URL はポップアップでクリック可能で、説明テキスト内をクリックして編集できます（チーム設定の編集にアクセスできる場合）。
+チームエリアで、説明をクリックしてポップアップで表示すると、チームの完全な説明を表示できます。 説明内の URL はポップアップでクリック可能で、説明テキスト内をクリックして編集できます（チーム設定の編集にアクセスできる場合）。
 
 以前は、狭いエリアで説明をスクロールする以外、すべてのコンテンツを表示することができませんでした。
 
-説明に対するこの機能強化は、アジャイルチームとアジャイル以外のチームの両方に適用されます。
+この説明の機能強化は、アジャイルチームとアジャイルチーム以外のチームの両方に適用されます。
 
 詳しくは、[チームを作成](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md)を参照してください。
 
@@ -65,11 +65,11 @@ Workfront でフィールドを変更すると、Workfront のポートフォリ
 
 >[!NOTE]
 >
->この機能はベータ版としてのみ利用でき、現在開発中です。今後のリリースで、引き続き Campaign ワークフローに機能を追加します。Workfront Campaigns のベータプログラムへの参加は任意です。
+>この機能はベータ版としてのみ利用でき、現在開発中です。 今後のリリースで、引き続き Campaign ワークフローに機能を追加します。 Workfront Campaigns のベータプログラムへの参加は任意です。
 
 現在、作業の管理方法を変える可能性がある新しいオブジェクトを Adobe Workfront に導入しているところです。
 
-Workfront Campaigns を使用すると、様々なポートフォリオやプログラムのプロジェクトを新しい作業コンテナに整理できます。この新しいコンテナは、将来のリリースで進化し、現在別々のサイロで管理されているすべての作業オブジェクトが含まれるようになります。
+Workfront Campaigns を使用すると、様々なポートフォリオやプログラムのプロジェクトを新しい作業コンテナに整理できます。 この新しいコンテナは、将来のリリースで進化し、現在別々のサイロで管理されているすべての作業オブジェクトが含まれるようになります。
 
 このリリースには、以下の機能が含まれています。
 
@@ -87,6 +87,6 @@ Workfront Campaigns を使用すると、様々なポートフォリオやプロ
 
 * レイアウトテンプレートから Campaign オブジェクトの名前を変更する機能
 
-  Workfront のシステム管理者およびグループ管理者は、レイアウトテンプレートのメインメニューに Campaigns（Beta）エリアを追加できます。これにより、テンプレートに割り当てられているすべてのユーザーが使用できるようになります。使用可能になると、Workfront 内の誰でもキャンペーンを作成できます。
+  Workfront のシステム管理者およびグループ管理者は、レイアウトテンプレートのメインメニューに Campaigns（Beta）エリアを追加できます。 これにより、テンプレートに割り当てられているすべてのユーザーが使用できるようになります。 使用可能になると、Workfront 内の誰でもキャンペーンを作成できます。
 
 

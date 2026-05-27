@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '245'
 ht-degree: 69%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 69%
 タスクビューでこの列を作成するには、以下のように行います。
 
 1. タスクのリストに移動します。
-1. **表示** ドロップダウンメニューからビューを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+1. **表示** ドロップダウンメニューからビューを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 または\
    **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 

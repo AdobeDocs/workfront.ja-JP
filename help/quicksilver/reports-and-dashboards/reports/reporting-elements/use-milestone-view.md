@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1373'
 ht-degree: 66%
 
 ---
@@ -35,7 +35,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 マイルストーンビューを使用する前に、次の要素が存在する必要があります。
 
-* マイルストーンパスが設定されます。 詳しくは、[&#x200B; マイルストーンパスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
+* マイルストーンパスが設定されます。 詳しくは、[ マイルストーンパスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)を参照してください。
 * 必要なマイルストーンパスがプロジェクトに追加されます。 詳しくは、[プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 * マイルストーンはタスクに関連付けられています。 詳しくは、[マイルストーンとタスクの関連付け](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)を参照してください。
 
@@ -89,7 +89,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## マイルストーンビューの概要 {#milestone-view-overview}
 
-マイルストーンビューは、プロジェクトリストやプロジェクトレポートで使用できます。表示しているプロジェクト内のタスクに関連付けられているすべてのマイルストーンをすばやく表示できます。
+マイルストーンビューは、プロジェクトリストやプロジェクトレポートで使用できます。 表示しているプロジェクト内のタスクに関連付けられているすべてのマイルストーンをすばやく表示できます。
 
 ![マイルストーンビューのプロジェクト](assets/project-with-milestone-view-with-complete.png)
 
@@ -110,11 +110,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   Workfront は、最初のセクションのプロジェクトを以下の基準に従って、次の順序で並べ替えます。
 
-   1. マイルストーンパス ID。マイルストーンパス ID は、マイルストーンパスレポートで確認できます。
+   1. マイルストーンパス ID。 マイルストーンパス ID は、マイルストーンパスレポートで確認できます。
 
    2. マイルストーンビューを選択する前に、以前にプロジェクトリストに適用されたビューのプロジェクトリストの最初の並べ替えフィールドとして選択されていたフィールド。
 
-* 次にマイルストーンパスに関連付けられていないプロジェクトが、「未割り当て」セクションに表示されます。Workfront は、マイルストーンビューを選択する前に、以前にプロジェクトリストに適用されたビューのプロジェクトリストの最初の並べ替えフィールドとして選択されていたフィールドを基に、「未割り当て」セクションのプロジェクトを並べ替えます。
+* 次にマイルストーンパスに関連付けられていないプロジェクトが、「未割り当て」セクションに表示されます。 Workfront は、マイルストーンビューを選択する前に、以前にプロジェクトリストに適用されたビューのプロジェクトリストの最初の並べ替えフィールドとして選択されていたフィールドを基に、「未割り当て」セクションのプロジェクトを並べ替えます。
 
 ### マイルストーンビューのプロジェクト情報
 
@@ -220,7 +220,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 デフォルトでは、プロジェクトとタスクの進捗状況アイコンと完了率が表示されます。
 
-これらのオプションに対して行った変更は、自分にのみ適用され、他のユーザーは影響を受けません。変更した内容は、次回Workfrontにログインしたときに保持されます。
+これらのオプションに対して行った変更は、自分にのみ適用され、他のユーザーは影響を受けません。 変更した内容は、次回Workfrontにログインしたときに保持されます。
 
 プロジェクトのステータスアイコンとプロジェクトの完了率を表示するかどうかを設定するには、次の手順に従います。
 
@@ -245,11 +245,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     </tbody> 
    </table>
 
-   ![&#x200B; マイルストーン表示オプション &#x200B;](assets/milestone-view-options-350x141.png)
+   ![ マイルストーン表示オプション ](assets/milestone-view-options-350x141.png)
 
 ## マイルストーンビューでタスクの完了率を調整する {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
-マイルストーンビューで、タスクの完了率を調整できます。親タスク（サブタスクを含むタスク）またはプロジェクトの完了率は調整できません。
+マイルストーンビューで、タスクの完了率を調整できます。 親タスク（サブタスクを含むタスク）またはプロジェクトの完了率は調整できません。
 
 マイルストーンビューでタスクの完了率を調整するには、次の手順を実行します。
 
@@ -257,7 +257,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 「**表示**」ドロップダウンメニューをクリックして、「**マイルストーン**」をクリックします。
 
-1. （条件付き）完了率がマイルストーンビューに表示されていない場合は、この記事の「[&#x200B; マイルストーンビューに表示される情報の設定](#configure-what-information-displays-in-the-milestone-view)」で説明されているように、タスクとプロジェクトの完了率の表示を有効にします。
+1. （条件付き）完了率がマイルストーンビューに表示されていない場合は、この記事の「[ マイルストーンビューに表示される情報の設定](#configure-what-information-displays-in-the-milestone-view)」で説明されているように、タスクとプロジェクトの完了率の表示を有効にします。
 
 1. **完了率**&#x200B;のスライドを新しい完了率に移動して更新します。
 

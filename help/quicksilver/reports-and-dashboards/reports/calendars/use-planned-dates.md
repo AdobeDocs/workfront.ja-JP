@@ -2,7 +2,7 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: カレンダーレポートでの予定日の使用
-description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。予定日フィールドは、タスク、イシュー、プロジェクトに関するカレンダーレポートで使用できます。
+description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。 予定日フィールドは、タスク、イシュー、プロジェクトに関するカレンダーレポートで使用できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 91%
+source-wordcount: '607'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
 -->
 
-カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。カレンダーレポートの[!UICONTROL 予定日]フィールドは、次のオブジェクトに使用できます。
+カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。 カレンダーレポートの[!UICONTROL 予定日]フィールドは、次のオブジェクトに使用できます。
 
 * タスク
 * イシュー
@@ -89,11 +89,11 @@ ht-degree: 91%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Color]</strong></td>
-      <td>項目のグループの色を選択します。カレンダーレポートには、すべての項目が選択した色で表示されます。</td>
+      <td>項目のグループの色を選択します。 カレンダーレポートには、すべての項目が選択した色で表示されます。</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
-      <td><p><strong>[!UICONTROL Planned dates]</strong> を選択します。予定日について詳しくは、次を参照してください。 </p>
+      <td><p><strong>[!UICONTROL Planned dates]</strong> を選択します。 予定日について詳しくは、次を参照してください。 </p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">プロジェクトの予定開始日の概要</a></li>
         <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">タスクの予定開始日の概要</a></li>
@@ -112,7 +112,7 @@ ht-degree: 91%
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader"><strong>[!UICONTROL Switch to actual dates when available]</strong></td>
-      <td><p>カレンダーは、利用可能になると自動的に実際の日付に切り替わります。<br><strong>[!UICONTROL Yes]</strong> または <strong>[!UICONTROL No]</strong> を選択して、実際の日付に切り替えます（利用可能な場合）。実際の日付について詳しくは、次を参照してください：</p>
+      <td><p>カレンダーは、利用可能になると自動的に実際の日付に切り替わります。 <br><strong>[!UICONTROL Yes]</strong> または <strong>[!UICONTROL No]</strong> を選択して、実際の日付に切り替えます（利用可能な場合）。 実際の日付について詳しくは、次を参照してください：</p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">プロジェクトの実際の開始日の概要 </a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">プロジェクトの実際の完了日の概要 </a></li>
@@ -127,7 +127,7 @@ ht-degree: 91%
 
 項目の表示方法を設定した後、カレンダーに表示するオブジェクトをグループに追加する必要があります。
 
-1. 「**[!UICONTROL カレンダーに何を追加しますか？]**」セクションで、次を選択します。
+1. **[!UICONTROL カレンダーに何を追加しますか？]** セクション、選択
 
    * **[!UICONTROL タスク]**
    * **[!UICONTROL プロジェクト]**
@@ -150,9 +150,9 @@ ht-degree: 91%
 
    >[!NOTE]
    >
-   >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
+   >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。 例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
 
-   ![&#x200B; タスクリベルの設定](assets/set-task-labels.png)
+   ![ タスクリベルの設定](assets/set-task-labels.png)
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。

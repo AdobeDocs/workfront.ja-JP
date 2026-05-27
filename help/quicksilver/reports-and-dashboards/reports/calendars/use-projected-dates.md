@@ -2,7 +2,7 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: カレンダーレポートでの予定日の使用
-description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。「見込日」フィールドは、タスク、イシューおよびプロジェクトに関するカレンダーレポートで使用できます。
+description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。 「見込日」フィールドは、タスク、イシューおよびプロジェクトに関するカレンダーレポートで使用できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
@@ -10,14 +10,14 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 88%
+source-wordcount: '606'
+ht-degree: 86%
 
 ---
 
 # カレンダーレポートでの[!UICONTROL 見込日]の使用
 
-カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。次のオブジェクトに対して、カレンダーレポートで「見込日」フィールドを使用できます。
+カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。 次のオブジェクトに対して、カレンダーレポートで「見込日」フィールドを使用できます。
 
 * タスク
 * イシュー
@@ -63,7 +63,7 @@ ht-degree: 88%
 
 {{step1-to-calendars}}
 
-1. 新しいアイテムのグループを追加するカレンダーを選択し、「その他」メニューをクリックしてから、**編集**&#x200B;します。
+1. 新しいアイテムのグループを追加するカレンダーを選択し、「その他」メニューをクリックしてから、**編集**します。
 または
 **[!UICONTROL +新しいカレンダー]**&#x200B;をクリックし、プロジェクト名を入力してから、**[!UICONTROL 詳細アイテムを追加]**&#x200B;をクリックします。
 
@@ -85,11 +85,11 @@ ht-degree: 88%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Color]</strong></td>
-      <td>項目のグループの色を選択します。カレンダーレポートには、すべての項目が選択した色で表示されます。</td>
+      <td>項目のグループの色を選択します。 カレンダーレポートには、すべての項目が選択した色で表示されます。</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
-      <td><p><strong>[!UICONTROL Projected dates]</strong> を選択します。見込日について詳しくは、次を参照してください： </p>
+      <td><p><strong>[!UICONTROL Projected dates]</strong> を選択します。 見込日について詳しくは、次を参照してください： </p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">プロジェクトの見込み開始日の概要</a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">プロジェクト、タスクおよびイシューに関する見込み完了日の概要</a><br></li>
@@ -106,7 +106,7 @@ ht-degree: 88%
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader"><strong>[!UICONTROL Switch to Actual Dates when available]</strong></td>
-      <td><p>カレンダーは、利用可能になると自動的に実際の日付に切り替わります。<br><strong>[!UICONTROL Yes]</strong> または <strong>[!UICONTROL No]</strong> を選択して、実際の日付に切り替えます（利用可能な場合）。実際の日付について詳しくは、次を参照してください：</p>
+      <td><p>カレンダーは、利用可能になると自動的に実際の日付に切り替わります。 <br><strong>[!UICONTROL Yes]</strong> または <strong>[!UICONTROL No]</strong> を選択して、実際の日付に切り替えます（利用可能な場合）。 実際の日付について詳しくは、次を参照してください：</p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">プロジェクトの実際の開始日の概要 </a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">プロジェクトの実際の完了日の概要 </a></li>
@@ -121,7 +121,7 @@ ht-degree: 88%
 
 項目の表示方法を設定した後、カレンダーに表示するオブジェクトをグループに追加する必要があります。
 
-1. 「**[!UICONTROL カレンダーに何を追加しますか？]**」セクションで、次を選択します。
+1. **[!UICONTROL カレンダーに何を追加しますか？]** セクション、選択
 
    * **[!UICONTROL タスク]**
    * **[!UICONTROL プロジェクト]**
@@ -133,17 +133,17 @@ ht-degree: 88%
 1. カレンダーのグループ化の条件文を設定します。
 
 
-   ![&#x200B; カレンダーのオブジェクトを選択](assets/calendar-field-name.png)
-条件の設定について詳しくは、[&#x200B; フィルターと条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
+   ![ カレンダーのオブジェクトを選択](assets/calendar-field-name.png)
+条件の設定について詳しくは、[ フィルターと条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
 
 1. （オプション）手順 1 ～ 4 を繰り返して、カレンダーのグループ化に使用する追加のオブジェクトを指定します。
 1. **[!UICONTROL タスク／プロジェクト／イシューのラベルを次の値に設定…]**&#x200B;フィールドで、このカレンダーグループ内のオブジェクトにカレンダー内でどのようにラベルを付けるかを選択します。
 
    >[!NOTE]
    >
-   >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
+   >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。 例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
 
-   ![&#x200B; タスクリベルの設定](assets/set-task-labels.png)
+   ![ タスクリベルの設定](assets/set-task-labels.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
