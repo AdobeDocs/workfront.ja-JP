@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: ' [!DNL Workfront Proof] でのフォルダーの管理'
-description: すべてのフォルダーは、左側のナビゲーションサイドバーの「[!UICONTROL フォルダー]」タブに割り当てられます。別の [!DNL Workfront Proof] アカウントがフォルダーを共有する（またはフォルダー内にあるプルーフを共有する）と、フォルダーも「[!UICONTROL フォルダー]」タブにリストされます。
+description: すべてのフォルダーは、左側のナビゲーションサイドバーの「[!UICONTROL フォルダー]」タブに割り当てられます。 別の [!DNL Workfront Proof] アカウントがフォルダーを共有する（またはフォルダー内にあるプルーフを共有する）と、フォルダーも「[!UICONTROL フォルダー]」タブにリストされます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ddc8d388-d161-4c70-8e7b-16c16b6ac3d7
 source-git-commit: f81114b04e688fd615956ec352ac8cc33548ee79
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 100%
+source-wordcount: '820'
+ht-degree: 98%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、[!DNL Workfront Proof] スタンドアロン製品の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-すべてのフォルダーは、左側のナビゲーションサイドバーの「[!UICONTROL フォルダー]」タブに割り当てられます。ユーザーが別の [!DNL Workfront Proof] アカウントからフォルダーを共有する（またはフォルダー内にあるプルーフを共有する）と、フォルダーも「[!UICONTROL フォルダー]」タブにリストされます。
+すべてのフォルダーは、左側のナビゲーションサイドバーの「[!UICONTROL フォルダー]」タブに割り当てられます。 ユーザーが別の [!DNL Workfront Proof] アカウントからフォルダーを共有する（またはフォルダー内にあるプルーフを共有する）と、フォルダーも「[!UICONTROL フォルダー]」タブにリストされます。
 
 ## [!UICONTROL アカウントフォルダー]ページからのフォルダーの作成
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 1. 次のいずれかのアクションを実行します。
 
-   * フォルダーを移動して別の親フォルダーに配置します。\
+   * フォルダーを別の親フォルダーの下に移動します。\
 
      ドロップダウンメニューで「**[!UICONTROL フォルダが選択されていません]**」をクリックして、フォルダーを最上位に移動します。
 
