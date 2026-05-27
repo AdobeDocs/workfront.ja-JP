@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2065'
-ht-degree: 97%
+source-wordcount: '2072'
+ht-degree: 98%
 
 ---
 
@@ -20,37 +20,37 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 メール通知は、コメント、返信、決定など、プルーフに関する最近のアクティビティを共同作業者に通知します。
 
 次のエリアで、レビュアーに対するメール通知を設定できます。
 
-レビュアーへのメール通知は、新しいプルーフページ、[!UICONTROL 新しいバージョン]ページで設定され、[!UICONTROL プルーフの詳細]ページの「[!UICONTROL ワークフロー]」セクションで管理できます。詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
+レビュアーへのメール通知は、新しいプルーフページ、[!UICONTROL 新しいバージョン]ページで設定され、[!UICONTROL プルーフの詳細]ページの「[!UICONTROL ワークフロー]」セクションで管理できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
 
 * 新規プルーフページ
 * [!UICONTROL 新しいバージョン]ページ
 * [!UICONTROL プルーフの詳細]ページの「[!UICONTROL ワークフロー]」セクション。
 
-詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
+詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
 
 
-* [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成 [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)でプルーフを生成
+* [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成 [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)でプルーフを生成
 
-* [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理を管理します。
+* [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理を管理します。
 
 
-すべてのユーザーは、共同作業者に独自の環境設がある場合、またはアカウント管理者がアラートの頻度に関して推奨している場合に、プルーフが共有されたときに自動的に適用される独自のメールアラート設定を行うこともできます。これは、ユーザーの詳細ページで、プルーフのデフォルトとして設定できます。
+すべてのユーザーは、共同作業者に独自の環境設がある場合、またはアカウント管理者がアラートの頻度に関して推奨している場合に、プルーフが共有されたときに自動的に適用される独自のメールアラート設定を行うこともできます。 これは、ユーザーの詳細ページで、プルーフのデフォルトとして設定できます。
 
 すべてのユーザーは、プルーフが共有されたときに自動的に適用される独自のメールアラート設定を行うこともできます。<!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 
 >[!NOTE]
 >
->これらの設定は、ユーザーがプルーフを作成し、これらの共同作業者を追加する際に提案されます。ただし、これらは提案のみなので、レビュープロセス中はいつでも調整でき、変更後のすべてのアクティビティに適用されます。プルーフのデフォルト設定は、プルーフレベルの設定で上書きされます。
+>これらの設定は、ユーザーがプルーフを作成し、これらの共同作業者を追加する際に提案されます。 ただし、これらは提案のみなので、レビュープロセス中はいつでも調整でき、変更後のすべてのアクティビティに適用されます。 プルーフのデフォルト設定は、プルーフレベルの設定で上書きされます。
 
 [!UICONTROL 管理者]または[!UICONTROL 請求管理者]プロファイルを持つユーザーは、アカウント設定内からアカウント内の他のユーザーのプルーフのデフォルトを設定することもできます。
 
-プロファイルについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+プロファイルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 ## アクセス要件
 
@@ -73,13 +73,13 @@ ht-degree: 97%
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. 右上隅のプロフィール写真をクリックしてから、**[!UICONTROL 個人設定]** をクリックします。
+1. 右上隅のプロフィール写真をクリックし、**[!UICONTROL 個人設定]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL プルーフのデフォルト]**」タブをクリックします。
 1. 「**[!UICONTROL デフォルトのメール通知設定]**」をクリックして、展開します。
 1. 次の 2 つの設定の右側にあるドロップダウンリストで、次の表で説明するオプションの 1 つを選択します。
 
-   * **[!UICONTROL デフォルトのメールアラート]**：自分と共有されているすべてのプルーフに影響します。この設定は、プルーフレベルで上書きできます。
+   * **[!UICONTROL デフォルトのメールアラート]**：自分と共有されているすべてのプルーフに影響します。 この設定は、プルーフレベルで上書きできます。
    * **[!UICONTROL 新しいゲストレビュアー向けのデフォルトのメールアラート]**：これまでアカウントに連絡先として存在しなかったレビュアーに影響します。
 
    >[!NOTE]
@@ -96,7 +96,7 @@ ht-degree: 97%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Replies to my comments]</td> 
-      <td>誰かがコメントに明示的に返信した場合にのみ、メールがレビュアーに送信されます（これには、自分のコメントに対する自分の返信は含まれません）。これは、プルーフ上の誰かが新しいコメントを作成しても、レビュアーには通知されないことを意味します。<p>この設定は、プルーフ上のクライアントに推奨されます。これにより、プルーフ上の他のコメントは通知されず、自分のコメントに対する返信のみが通知されます。</p><p>このメール通知設定を使用しているレビュアーには、他の新しいコメントは通知されませんが、プルーフビューアでプルーフ上のすべてのコメントを表示できます。</p><p>コメントについて詳しくは、<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">プルーフのコメントの表示と返信</a>を参照してください。</p></td> 
+      <td>誰かがコメントに明示的に返信した場合にのみ、メールがレビュアーに送信されます（これには、自分のコメントに対する自分の返信は含まれません）。 これは、プルーフ上の誰かが新しいコメントを作成しても、レビュアーには通知されないことを意味します。<p>この設定は、プルーフ上のクライアントに推奨されます。これにより、プルーフ上の他のコメントは通知されず、自分のコメントに対する返信のみが通知されます。</p><p>このメール通知設定を使用しているレビュアーには、他の新しいコメントは通知されませんが、プルーフビューアでプルーフ上のすべてのコメントを表示できます。</p><p>コメントについて詳しくは、<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">プルーフのコメントの表示と返信</a>を参照してください。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Decisions]</td> 
@@ -104,7 +104,7 @@ ht-degree: 97%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Final decision]</td> 
-      <td>[!DNL Workfront] プルーフの最後の承認者が決定を下したときに、メールを送信します。<p>このアラートは、通常、実際のレビューの議論に参加する必要のない設計者によって使用されることがよくあります。最終的な決定が下されると、デザイナーに通知が届き、必要な変更に対してアクションを実行できます。</p><p>また、このアラートは、レビュープロセスが完了した場合にのみ通知を受け取る必要がある部署のリーダーに対しても役立ちます。</p></td> 
+      <td>[!DNL Workfront] プルーフの最後の承認者が決定を下したときに、メールを送信します。<p>このアラートは、通常、実際のレビューの議論に参加する必要のないデザイナーによって使用されることがよくあります。 最終的な決定が下されると、デザイナーに通知が届き、必要な変更に対してアクションを実行できます。</p><p>また、このアラートは、レビュープロセスが完了した場合にのみ通知を受け取る必要がある部署のリーダーに対しても役立ちます。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Hourly Summary]</td> 
@@ -116,7 +116,7 @@ ht-degree: 97%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL No email]</td> 
-      <td>[!DNL Workfront] メールアラートを送信しません。<br>これは、参照用としてのみプルーフに追加され、変更の通知を必要としないユーザーに役立ちます。<p>システムのデフォルトは、[!UICONTROL Daily summary]（[!UICONTROL Not Set] とも表示される）です。自分または自分のレビューアが他の変更を加えない場合、すべてのプルーフにこの設定が適用されます。</p></td> 
+      <td>[!DNL Workfront] メールアラートを送信しません。<br>これは、参照用としてのみプルーフに追加され、変更の通知を必要としないユーザーに役立ちます。<p>システムのデフォルトは、[!UICONTROL Daily summary]（[!UICONTROL Not Set] とも表示される）です。 自分または自分のレビューアが他の変更を加えない場合、すべてのプルーフにこの設定が適用されます。</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -129,12 +129,12 @@ ht-degree: 97%
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Email confirmation when proofs are ready]</td> 
-      <td>プルーフの作成時に [!UICONTROL Proof made] メールを受け取るかどうかを指定します。詳しくは、<a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">[!UICONTROL Proof Made] メール</a>を参照してください。</td> 
+      <td>プルーフの作成時に [!UICONTROL Proof made] メールを受け取るかどうかを指定します。 詳しくは、<a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">[!UICONTROL Proof Made] メール</a>を参照してください。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Format of emails sent to me] </td> 
       <td> <p>HTML スタイルのメールとプレーンテキストのメールのどちらかを選択します。 </p> <p><b>メモ</b></p>
-      <p>プルーフのデフォルト設定はプルーフレベルの設定で上書きされます。ただし、[!UICONTROL Account] 設定でアカウント全体のプルーフメール通知が無効になっている場合は、プルーフで [!UICONTROL Disabled email alert] が選択されていない場合でも、メールアラートが共同作業者に送信されません。<br></p> </td> 
+      <p>プルーフのデフォルト設定はプルーフレベルの設定で上書きされます。 ただし、[!UICONTROL Account] 設定でアカウント全体のプルーフメール通知が無効になっている場合は、プルーフで [!UICONTROL Disabled email alert] が選択されていない場合でも、メールアラートが共同作業者に送信されません。<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -143,15 +143,15 @@ ht-degree: 97%
 
    | プルーフテンプレート | 説明 |
    |---|---|
-   | **[!UICONTROL プルーフ件名テンプレート]** | 新しいプルーフページ、新しいバージョンページ、メッセージページおよび通知ページに表示されます。送信前に編集できます。 |
-   | **[!UICONTROL プルーフメッセージテンプレート]** | 新しいプルーフページ、新しいバージョンページ、メッセージページおよび通知ページに表示されます。送信前に編集できます。 |
+   | **[!UICONTROL プルーフ件名テンプレート]** | 新しいプルーフページ、新しいバージョンページ、メッセージページおよび通知ページに表示されます。 送信前に編集できます。 |
+   | **[!UICONTROL プルーフメッセージテンプレート]** | 新しいプルーフページ、新しいバージョンページ、メッセージページおよび通知ページに表示されます。 送信前に編集できます。 |
 
 ## 受信者向けのメールアラートを変更
 
 バッチアクションで特定の受信者向けのメールアラートを変更できます。
 
 1. 左側のナビゲーションパネルで「**[!UICONTROL 連絡先]**」をクリックします。
-1. 受信者の **[!UICONTROL 詳細]** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-button-small.png) をクリックし、ドロップダウンメニューの **[!UICONTROL メンバーの詳細を表示]** をクリックします。
+1. 受信者の&#x200B;**[!UICONTROL 詳細]** メニュー![詳細メニュー](assets/more-button-small.png)をクリックし、ドロップダウンメニューの&#x200B;**[!UICONTROL メンバーの詳細を表示]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 共有項目]**」セクションを開きます。
 1. メールアラートを変更する各項目の左側でチェックボックスを選択します。
@@ -163,7 +163,7 @@ ht-degree: 97%
 
 [!DNL Workfront Proof] 管理者は、アカウント内のユーザーに対してプルーフのデフォルトを設定できます。
 
-1. 画面上部の **[!UICONTROL アカウント設定]** をクリックします。
+1. 画面上部の「**[!UICONTROL アカウント設定]**」をクリックします。
 
 1. 「**[!UICONTROL ユーザー]**」タブを開きます。
 1. ユーザー名の右側にある&#x200B;**[!UICONTROL その他]**&#x200B;メニュー ![More_button_small.png](assets/more-button-small.png) を開きます。
@@ -173,7 +173,7 @@ ht-degree: 97%
 
 1. 次の 2 つの設定の右側にあるドロップダウンリストで、次の表で説明するオプションの 1 つを選択します。
 
-   * **[!UICONTROL デフォルトのメールアラート]**：自分と共有されているすべてのプルーフに影響します。この設定は、プルーフレベルで上書きできます。
+   * **[!UICONTROL デフォルトのメールアラート]**：自分と共有されているすべてのプルーフに影響します。 この設定は、プルーフレベルで上書きできます。
    * **[!UICONTROL 新しいゲストレビュアー向けのデフォルトのメールアラート]**：これまでアカウントに連絡先として存在しなかったレビュアーに影響します。
 
    >[!NOTE]
@@ -190,7 +190,7 @@ ht-degree: 97%
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Replies to my comments]</td>
-      <td>誰かがコメントに明示的に返信した場合にのみ、メールがレビュアーに送信されます（これには、自分のコメントに対する自分の返信は含まれません）。これは、プルーフ上の誰かが新しいコメントを作成しても、レビュアーには通知されないことを意味します。<p>この設定は、プルーフ上のクライアントに推奨されます。これにより、プルーフ上の他のコメントは通知されず、自分のコメントに対する返信のみが通知されます。</p><p>このメール通知設定を使用しているレビュアーには、他の新しいコメントは通知されませんが、プルーフビューアでプルーフ上のすべてのコメントを表示できます。</p><p>コメントについて詳しくは、<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">プルーフのコメントの表示と返信</a>を参照してください。</p></td>
+      <td>誰かがコメントに明示的に返信した場合にのみ、メールがレビュアーに送信されます（これには、自分のコメントに対する自分の返信は含まれません）。 これは、プルーフ上の誰かが新しいコメントを作成しても、レビュアーには通知されないことを意味します。<p>この設定は、プルーフ上のクライアントに推奨されます。これにより、プルーフ上の他のコメントは通知されず、自分のコメントに対する返信のみが通知されます。</p><p>このメール通知設定を使用しているレビュアーには、他の新しいコメントは通知されませんが、プルーフビューアでプルーフ上のすべてのコメントを表示できます。</p><p>コメントについて詳しくは、<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">プルーフのコメントの表示と返信</a>を参照してください。</p></td>
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Decisions]</td>
@@ -198,7 +198,7 @@ ht-degree: 97%
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Final decision]</td>
-      <td>[!DNL Workfront] プルーフの最後の承認者が決定を下したときに、メールを送信します。<p>このアラートは、通常、実際のレビューの議論に参加する必要のない設計者によって使用されることがよくあります。最終的な決定が下されると、デザイナーに通知が届き、必要な変更に対してアクションを実行できます。</p><p>また、このアラートは、レビュープロセスが完了した場合にのみ通知を受け取る必要がある部署のリーダーに対しても役立ちます。</p></td>
+      <td>[!DNL Workfront] プルーフの最後の承認者が決定を下したときに、メールを送信します。<p>このアラートは、通常、実際のレビューの議論に参加する必要のないデザイナーによって使用されることがよくあります。 最終的な決定が下されると、デザイナーに通知が届き、必要な変更に対してアクションを実行できます。</p><p>また、このアラートは、レビュープロセスが完了した場合にのみ通知を受け取る必要がある部署のリーダーに対しても役立ちます。</p></td>
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Hourly Summary]</td>
@@ -210,7 +210,7 @@ ht-degree: 97%
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">[!UICONTROL No email]</td>
-      <td>[!DNL Workfront] メールアラートを送信しません。<br>これは、参照用としてのみプルーフに追加され、変更の通知を必要としないユーザーに役立ちます。<p>システムのデフォルトは、[!UICONTROL Daily summary]（[!UICONTROL Not Set] とも表示される）です。自分または自分のレビューアが他の変更を加えない場合、すべてのプルーフにこの設定が適用されます。</p></td>
+      <td>[!DNL Workfront] メールアラートを送信しません。<br>これは、参照用としてのみプルーフに追加され、変更の通知を必要としないユーザーに役立ちます。<p>システムのデフォルトは、[!UICONTROL Daily summary]（[!UICONTROL Not Set] とも表示される）です。 自分または自分のレビューアが他の変更を加えない場合、すべてのプルーフにこの設定が適用されます。</p></td>
      </tr>
     </tbody>
    </table>
@@ -223,11 +223,11 @@ ht-degree: 97%
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Email confirmation when proofs are ready]</td> 
-      <td>プルーフの作成時に [!UICONTROL Proof made] メールを受け取るかどうかを指定します。詳しくは、<a href="https://support.workfront.com/hc/en-us/article">[!UICONTROL Proof Made] メール</a>を参照してください。</td> 
+      <td>プルーフの作成時に [!UICONTROL Proof made] メールを受け取るかどうかを指定します。 詳しくは、<a href="https://support.workfront.com/hc/en-us/article">[!UICONTROL Proof Made] メール</a>を参照してください。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Format of emails sent to me] </td> 
-      <td> <p>HTML スタイルのメールとプレーンテキストのメールのどちらかを選択します。 </p> <p><b>メモ</b></p> <p>プルーフのデフォルト設定はプルーフレベルの設定で上書きされます。ただし、[!UICONTROL Account] 設定でアカウント全体のプルーフメール通知が無効になっている場合は、プルーフで [!UICONTROL Disabled email alert] が選択されていない場合でも、メールアラートが共同作業者に送信されません。<br></p> </td> 
+      <td> <p>HTML スタイルのメールとプレーンテキストのメールのどちらかを選択します。 </p> <p><b>メモ</b></p> <p>プルーフのデフォルト設定はプルーフレベルの設定で上書きされます。 ただし、[!UICONTROL Account] 設定でアカウント全体のプルーフメール通知が無効になっている場合は、プルーフで [!UICONTROL Disabled email alert] が選択されていない場合でも、メールアラートが共同作業者に送信されません。<br></p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: 一般的なメールクライアントのスパム設定を行う
-description: ' [!DNL Workfront Proof]  メールが迷惑メールフォルダーに送信されないようにするために、メールクライアントを設定できます。'
+description: ' [!DNL Workfront Proof]  メールがスパムメールフォルダーに送信されないようにするために、メールクライアントを設定できます。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1500'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-[!DNL Workfront Proof] メールが迷惑メールフォルダーに送信されないようにするために、メールクライアントを設定できます。
+[!DNL Workfront Proof] メールがスパムメールフォルダーに送信されないようにするために、メールクライアントを設定できます。
 
 次の節では、様々なメールクライアントに対するこのプロセスについて説明します。
 
@@ -28,19 +28,19 @@ ht-degree: 100%
 
 この節では、以下の操作を行います。
 
-* 2 つの [!DNL Workfront Proof] 「[!UICONTROL 差出人]」アドレスを [!DNL Gmail] の[!UICONTROL 連絡先]リストに追加するか、[!UICONTROL Gmail] がそれらのアドレスからのメールを[!UICONTROL 迷惑メール]フォルダーにルーティングしないようにフィルターを作成します。
-* 既存の [!DNL Workfront Proof] メールを[!UICONTROL 迷惑メール]フォルダーから削除し、[!DNL Workfront Proof] メッセージをゴミ箱にルーティングするフィルターを変更します。
+* 2 つの [!DNL Workfront Proof] 「[!UICONTROL 差出人]」アドレスを [!DNL Gmail] の[!UICONTROL 連絡先]リストに追加するか、[!UICONTROL Gmail] がそれらのアドレスからのメールを[!UICONTROL スパムメール]フォルダーにルーティングしないようにフィルターを作成します。
+* 既存の [!DNL Workfront Proof] メールを[!UICONTROL スパムメール]フォルダーから削除し、[!DNL Workfront Proof] メッセージをゴミ箱にルーティングするフィルターを変更します。
 
 ### 新規 [!DNL Workfront Proof] メールの場合
 
-2 つの [!DNL Workfront Proof] 「[!UICONTROL 差出人]」アドレスを [!DNL Gmail] の[!UICONTROL 連絡先]リストに追加するか、[!DNL Workfront Proof] メールが [!DNL Gmail] によって[!UICONTROL 迷惑メール]フォルダーにルーティングされないようにメールフィルターを作成します。2 つの [!DNL Workfront Proof] 「[!UICONTROL 差出人]」アドレスを[!UICONTROL 連絡先]リストに追加するには：
+2 つの [!DNL Workfront Proof] 「[!UICONTROL 差出人]」アドレスを [!DNL Gmail] の[!UICONTROL 連絡先]リストに追加するか、[!DNL Workfront Proof] メールが [!DNL Gmail] によって[!UICONTROL スパムメール]フォルダーにルーティングされないようにメールフィルターを作成します。 2 つの [!DNL Workfront Proof] 「[!UICONTROL 差出人]」アドレスを[!UICONTROL 連絡先]リストに追加するには：
 
 1. Gmail ページの左上隅の「**[!UICONTROL メール]**」の下にある「**[!UICONTROL 連絡先]**」をクリックします。
 
-1. 「[!UICONTROL 連絡先]」と「[!UICONTROL タスク]」を表示するために、「[!UICONTROL メール]」の後にあるプラス (+) 記号をクリックする必要がある場合があります。プラス記号が表示されない場合は、カーソルを「[!UICONTROL メール]」に移動すると、プラス記号が表示されます。
+1. 「[!UICONTROL 連絡先]」と「[!UICONTROL タスク]」を表示するために、「[!UICONTROL メール]」の後にあるプラス (+) 記号をクリックする必要がある場合があります。 プラス記号が表示されない場合は、カーソルを「[!UICONTROL メール]」に移動すると、プラス記号が表示されます。
 1. 連絡先とそのメールアドレスのリストの上にある「**[!UICONTROL 「連絡先」に追加]**」ボタンをクリックします。
 1. 最初の「[!UICONTROL 差出人]」アドレスをコピーし、ラベルのないメールアドレスダイアログボックスに貼り付けます。
-1. ダイアログボックスの下にある「**[!UICONTROL 追加]**」をクリックします。アドレスが連絡先のリストに追加されます。
+1. ダイアログボックスの下にある「**[!UICONTROL 追加]**」をクリックします。 アドレスが連絡先のリストに追加されます。
 1. 2 つ目の「[!UICONTROL 差出人]」アドレスに対して、手順 2 ～ 4 を繰り返します。
 
 または、2 つの [!DNL Workfront Proof] 「[!UICONTROL 差出人]」アドレスそれぞれに対してメールフィルターを作成するには：
@@ -50,27 +50,27 @@ ht-degree: 100%
 1. 最初の「[!UICONTROL 差出人]」アドレスをコピーし、「**[!UICONTROL フィルタを作成]**」ボックスの「**[!UICONTROL From]**」フィールドに貼り付けます。
 
 1. 「**[!UICONTROL 次のステップ]**」ボタンをクリックします。
-1. 「**[!UICONTROL アクションを選択]**」リストから「**[!UICONTROL 迷惑メールにしない]**」を選択します。
+1. 「**[!UICONTROL アクションを選択]**」リストから「**[!UICONTROL スパムメールにしない]**」を選択します。
 
-1. 「**[!UICONTROL フィルタを作成]**」ボタンをクリックします。フィルターが、[!UICONTROL 設定]ページのフィルターのリストに追加されます。
+1. 「**[!UICONTROL フィルタを作成]**」ボタンをクリックします。 フィルターが、[!UICONTROL 設定]ページのフィルターのリストに追加されます。
 1. 2 つ目の「[!UICONTROL 差出人]」アドレスに対して、設定ページの下部にある「**[!UICONTROL フィルタを作成]**」をクリックし、手順 2 ～ 5 を繰り返します。
 
 ### 既存の [!DNL Workfront Proof] メールの場合
 
-最後のクリア後に、[!DNL Gmail] が[!UICONTROL 迷惑メール]フォルダーに配置した [!DNL Workfront Proof] メールを削除するには：
+最後のクリア後に、[!DNL Gmail] が[!UICONTROL スパムメール]フォルダーに配置した [!DNL Workfront Proof] メールを削除するには：
 
-1. Gmail ページの左側のフォルダーリストにある&#x200B;**[!UICONTROL 迷惑メール]**&#x200B;をクリックします。
-1. [!UICONTROL 迷惑メール]フォルダー内の [!DNL Workfront Proof] メールを選択します。
-1. [!UICONTROL 迷惑メール]リストの上にある「**[!UICONTROL 迷惑メールではない]**」ボタンをクリックします。\
+1. Gmail ページの左側のフォルダーリストにある&#x200B;**[!UICONTROL スパムメール]**&#x200B;をクリックします。
+1. [!UICONTROL スパムメール]フォルダー内の [!DNL Workfront Proof] メールを選択します。
+1. [!UICONTROL スパムメール]リストの上にある「**[!UICONTROL 迷惑メールではない]**」ボタンをクリックします。\
    これで、[!DNL Workfront Proof] メールが受信トレイに表示されます。
 
 [!DNL Workfront Proof] メールをゴミ箱に送信するフィルターを変更するには：
 
 1. Gmail ページ上部の「[!UICONTROL 検索]」ボタンの横にある「**[!UICONTROL フィルタを作成]**」をクリックします。
-1. [!UICONTROL フィルタを作成]ダイアログボックスの下部にある「**[!UICONTROL 現在のフィルタを表示]**」をクリックします。既存のフィルターは、設定ページにフィールド（差出人）および名前またはアドレス別にリストされます。
+1. [!UICONTROL フィルタを作成]ダイアログボックスの下部にある「**[!UICONTROL 現在のフィルタを表示]**」をクリックします。 既存のフィルターは、設定ページにフィールド（差出人）および名前またはアドレス別にリストされます。
 1. [!UICONTROL 既存の [!DNL Workfront Proof] アドレスにこのアクションを実行]フィルターが「[!UICONTROL 削除]」になっている場合、「**[!UICONTROL 編集]**」をクリックします。
 1. 「**[!UICONTROL 次のステップ]**」ボタンをクリックします。
-1. 「**[!UICONTROL 削除]**」オプションを選択解除し、「**[!UICONTROL 迷惑メールにしない]**」を選択します。
+1. 「**[!UICONTROL 削除]**」オプションを選択解除し、「**[!UICONTROL スパムメールにしない]**」を選択します。
 
 1. 「**[!UICONTROL フィルタを更新]**」ボタンをクリックします。\
    [!UICONTROL 設定]ページが再表示されます。
@@ -95,7 +95,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL 差出人セーフ]**」タブで「**[!UICONTROL 追加]**」をクリックします。
 
 1. 最初のアドレスまたはドメイン名のみ（名前の @ 記号の後の残り）をコピーして、「**[!UICONTROL アドレスまたはドメインを追加]**」ボックスに貼り付けます。
-1. 「**[!UICONTROL OK]**」をクリックします。アドレスがリストに追加されます。
+1. 「**[!UICONTROL OK]**」をクリックします。 アドレスがリストに追加されます。
 1. 2 番目の[!UICONTROL 送信元]アドレスについて、手順 3 ～ 5 を繰り返します。
 
 ### 既存の [!DNL Workfront Proof] メールの場合
@@ -132,7 +132,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 信頼できる送信者]**」をクリックします。
 1. 最初の[!UICONTROL 送信元]アドレスまたはドメイン名（@ 記号の後の残りの部分）を、[!UICONTROL 送信元]または安全なフィールドとしてマークするドメインにコピーして貼り付けます。
-1. 「**[!UICONTROL リストに追加]**」ボタンをクリックします。アドレスがリストに表示されます。
+1. 「**[!UICONTROL リストに追加]**」ボタンをクリックします。 アドレスがリストに表示されます。
 1. 2 つ目の[!UICONTROL 送信元]アドレスで、手順 4～6 を繰り返します。
 
 ### 既存の [!DNL Workfront Proof] メールの場合
@@ -158,7 +158,7 @@ ht-degree: 100%
 この節では、以下の操作を行います。
 
 * [!DNL Workfront Proof] の2 つの[!UICONTROL 送信元]のアドレスをフィルターに含め、受信トレイにメールを[!DNL Yahoo Mail]送信[!DNL Workfront Proof]します。
-* [!UICONTROL 迷惑メール]フォルダーから既存の [!DNL Workfront Proof] メールを削除します。
+* [!UICONTROL スパムメール]フォルダーから既存の [!DNL Workfront Proof] メールを削除します。
 
 ### 新規の [!DNL Workfront Proof] メールの場合
 
@@ -173,29 +173,29 @@ ht-degree: 100%
 1. [!UICONTROL 差出人ヘッダー]ルールで、「**[!UICONTROL 次を含む]**」オプションを選択し、最初の「[!UICONTROL 差出人]」アドレスまたはドメイン名のみ（@ 記号の後の残りの名前）をコピーして貼り付けます。
 1. 「**[!UICONTROL フォルダーを選択]**」をクリックし、「**[!UICONTROL インボックス]**」を選択します。
 
-1. 「*[!UICONTROL *フィルターを追加]**」ボタンをクリックします。フィルターがフィルターリストに表示されます。
+1. 「*[!UICONTROL *フィルターを追加]**」ボタンをクリックします。 フィルターがフィルターリストに表示されます。
 1. 2 つ目の「[!UICONTROL 差出人]」アドレスについて、手順 5～9 を繰り返します。
 
 ### 既存の [!DNL Workfront Proof] メールの場合
 
-前回の消去以降に、[!DNL Yahoo Mail] が[!UICONTROL 迷惑メール]フォルダーにルーティングした [!DNL Workfront Proof] メールを削除するには：
+前回の消去以降に、[!DNL Yahoo Mail] が[!UICONTROL スパムメール]フォルダーにルーティングした [!DNL Workfront Proof] メールを削除するには：
 
-1. [!UICONTROL メール]ページの左側から、**[!UICONTROL 迷惑メール]**&#x200B;フォルダーを選択します。
-1. フォルダー内に [!DNL Workfront Proof] メールがある場合は、各メールを選択し、「**[!UICONTROL 迷惑メールではない]**」ボタンをクリックします。
+1. [!UICONTROL メール]ページの左側から、**[!UICONTROL スパムメール]**&#x200B;フォルダーを選択します。
+1. フォルダー内に [!DNL Workfront Proof] メールがある場合は、各メールを選択し、「**[!UICONTROL スパムメールではない]**」ボタンをクリックします。
 1. メールがインボックスに表示されます。
 
 [!DNL Workfront Proof] の「[!UICONTROL 差出人]」アドレスを受信拒否リストから削除するには：
 
 1. メールページの右上隅にある「**[!UICONTROL オプション]**」をクリックします。
 1. 「**[!UICONTROL その他のオプション]**」をクリックします。
-1. ページの左側で「**[!UICONTROL 迷惑メール]**」をクリックします。
-1. 迷惑メールページの「**[!UICONTROL 受信拒否メールアドレス]**」セクションに [!DNL Workfront Proof] アドレスまたはドメイン名が存在する場合、各エントリを選択し、「**[!UICONTROL 削除]**」ボタンをクリックします。
+1. ページの左側で「**[!UICONTROL スパムメール]**」をクリックします。
+1. スパムメールページの「**[!UICONTROL 受信拒否メールアドレス]**」セクションに [!DNL Workfront Proof] アドレスまたはドメイン名が存在する場合、各エントリを選択し、「**[!UICONTROL 削除]**」ボタンをクリックします。
 
 ## [!DNL Aol]
 
 この節では、以下の操作を行います。
 
-* [!DNL Workfront Proof] の 2 つの「[!UICONTROL 差出人]」アドレスを、[!DNL Aol]&#x200B;[!UICONTROL アドレス帳]に追加します。
+* [!DNL Workfront Proof] の 2 つの「[!UICONTROL 差出人]」アドレスを、[!DNL Aol] [!UICONTROL アドレス帳]に追加します。
 * [!DNL Aol] の[!UICONTROL スパム]フォルダーから既存の [!DNL Workfront Proof] メールを移動し、[!DNL Aol] の[!UICONTROL スパム]フィルターの受信拒否アドレスリストから [!DNL Workfront Proof] の「[!UICONTROL 差出人]」アドレスを削除します。
 
 ### 新規の [!DNL Workfront Proof] メールの場合
@@ -222,7 +222,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL [!DNL Aol]キーワード：メールコントロール]**&#x200B;に移動し、[!UICONTROL スパム設定]ページを表示します。
 
-1. [!DNL Aol] [!UICONTROL キーワード]は、[!DNL Aol] ソフトウェアのみの機能です。[!DNL Aol] [!UICONTROL web メール]または [!DNL Aol] [!UICONTROL デスクトップ]から[!UICONTROL スパム設定]ページにアクセスする手順については、[!DNL Aol] ヘルプを参照してください。
+1. [!DNL Aol] [!UICONTROL キーワード]は、[!DNL Aol] ソフトウェアのみの機能です。 [!DNL Aol] [!UICONTROL web メール]または [!DNL Aol] [!UICONTROL デスクトップ]から[!UICONTROL スパム設定]ページにアクセスする手順については、[!DNL Aol] ヘルプを参照してください。
 1. 「**[!UICONTROL 送信者フィルター]**」フィールドで「**[!UICONTROL 指定したアドレスからのメールをブロックする]**」が選択されていて、[!DNL Workfront Proof] アドレスまたはドメイン名がブロックされたアドレスのリストに含まれている場合は、その各アドレスをリストから削除してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。

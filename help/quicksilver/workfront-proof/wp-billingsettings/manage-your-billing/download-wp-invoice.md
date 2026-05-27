@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
 source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 新規請求期間の初日に、登録の請求書がアカウントの主な請求先と、[!UICONTROL 請求の CC] メールアドレス（定義されている場合）に送信されます。
 
-請求書は、「[!UICONTROL 請求]」セクション内の [!DNL Workfront Proof] アカウント（ダウンロード可能）に表示されます。詳しくは、[ [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
+請求書は、「[!UICONTROL 請求]」セクション内の [!DNL Workfront Proof] アカウント（ダウンロード可能）に表示されます。 詳しくは、[ [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
 
 請求書には、以下の情報が記載されています。
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 >
 > その請求書に対する支払いが既に受け取られている場合（自動クレジットカード支払いの場合など）、支払い条件と支払期日には支払済みと表示され、支払いの参照番号が説明に表示されます。
 
-デフォルトでは、サブスクリプションに対して自動で発行されるすべての請求書は米ドルで発行されますが、英国のすべての組織については、ドキュメントに付加価値税（VAT）の金額が（米ドルとポンドの両方で）記載されます。サブスクリプション請求書を GBP で受け取りたい場合は、[finance@proofhq.com](mailto:finance@proofhq.com) の財務チームにお問い合わせください。
+デフォルトでは、サブスクリプションに対して自動で発行されるすべての請求書は米ドルで発行されますが、英国のすべての組織については、ドキュメントに付加価値税（VAT）の金額が（米ドルとポンドの両方で）記載されます。 サブスクリプション請求書を GBP で受け取りたい場合は、[finance@proofhq.com](mailto:finance@proofhq.com) の財務チームにお問い合わせください。
 
 * [請求書のダウンロード](#downloading-your-invoice)
 * [役に立つリンク](#useful-links)
@@ -53,11 +53,11 @@ ht-degree: 100%
 
 1. 表示される請求ページの「**[!UICONTROL 請求履歴]**」セクションで、請求書の右側にあるドロップダウンメニューをクリックし、続いて「**[!UICONTROL PDF 請求書をダウンロード]**」を選択します。
 
-1. サービスの請求書（例：カスタムランディングページの[!UICONTROL 開始成功]プログラム）は、現在、請求ページでは使用できません。これらのドキュメントのコピーが必要な場合は、finance@proofhq.com の財務チームにお問い合わせください。
+1. サービスの請求書（例：カスタムランディングページの[!UICONTROL 開始成功]プログラム）は、現在、請求ページでは使用できません。 これらのドキュメントのコピーが必要な場合は、finance@proofhq.com の財務チームにお問い合わせください。
 
 ## 役に立つリンク {#useful-links}
 
-アカウントの請求情報を変更するには、請求ページの「請求先および住所」セクションに移動します。[ [!DNL Workfront] プルーフの請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+アカウントの請求情報を変更するには、請求ページの「請求先および住所」セクションに移動します。 [ [!DNL Workfront] プルーフの請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 お使いのアカウントでクレジットカードの詳細を変更する方法について詳しくは、[Workfront Proof での支払い方法の選択](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)してください。
 
