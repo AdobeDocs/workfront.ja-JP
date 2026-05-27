@@ -74,7 +74,7 @@ ht-degree: 19%
    * ファイルを追加
    * プロジェクトに直接移動
 
-   ![ プロジェクトの詳細](assets/project-details-new.png)
+   ![&#x200B; プロジェクトの詳細](assets/project-details-new.png)
 
 ### タスクの詳細の表示
 
@@ -91,7 +91,7 @@ ht-degree: 19%
    * クイックリンクを追加
 
 
-   ![ タスクの詳細](assets/task-details-new.png)
+   ![&#x200B; タスクの詳細](assets/task-details-new.png)
 
 ### 問題の詳細の表示
 
