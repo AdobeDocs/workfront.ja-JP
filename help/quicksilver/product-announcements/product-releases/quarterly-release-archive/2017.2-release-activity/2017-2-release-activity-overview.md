@@ -2,21 +2,21 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2017.2 リリースアクティビティの概要
-description: このページでは、2017.2 リリースに含まれる機能についての情報を提供します。この機能は、実稼動環境で誰でも利用できるようになりました。
+description: このページでは、2017.2 リリースに含まれる機能についての情報を提供します。この機能は、本番環境で誰でも利用できるようになりました。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 66b499f1-12c0-4486-a5b8-ebabd0ccd59d
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '688'
 ht-degree: 100%
 
 ---
 
 # 2017.2 リリースアクティビティの概要
 
-このページでは、2017.2 リリースに含まれる機能についての情報を提供します。この機能は、実稼動環境で誰でも利用できるようになりました。 
+このページでは、2017.2 リリースに含まれる機能についての情報を提供します。この機能は、本番環境で誰でも利用できるようになりました。 
 
 2017.2 リリースには、Workfront 管理者とその他のユーザー向けの機能強化が含まれています。
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 * [ビデオプルーフ（ProofHQ および Workfront）用の改良されたプルーフビューア](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#improved-proofing-viewer)
 * [別の解像度でリッチメディアプルーフを表示する（ProofHQ および Workfront）](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#view-rich-media-proofs-in-alternate-resolutions)
 * [プリセット解像度でリッチメディアプルーフを表示する（ProofHQ および Workfront）](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#view-rich-media-proofs-in-preset-resolutions)
-* [リッチメディアプルーフ（ProofHQ およびWorkfront）に対するコメントで、サブページへの URL を表示](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#view-urls-to-sub-pages-in-comments-on-rich-media-proofs)
+* [リッチメディアプルーフ（ProofHQ およびWorkfront）に対するコメントで、サブページへの URL を表示](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#view-urls-to-sub-pages-in-comments-on-rich-media-proofs) 
 
 **ProofHQ 内でのプルーフ強化**
 
@@ -119,20 +119,20 @@ ht-degree: 100%
 
 ### 早期アクセスから削除
 
-早期アクセスは、プレビュー環境および実稼動環境の両方で非推奨になります。
+早期アクセスは、プレビュー環境および本番環境の両方で非推奨になります。
 
 この変更の結果、2017.2 ベータ版 1 リリースのプレビュー環境の早期アクセスから次の機能が削除されました。 
 
 * [ドラッグアンドドロップでリスト内の列を並べ替えます（機能は削除されています）](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#reorder)
 
-この機能は、2017.2 リリースで実稼動環境の早期アクセスから削除され、どのユーザーも利用できなくなります。
+この機能は、2017.2 リリースで本番環境の早期アクセスから削除され、どのユーザーも利用できなくなります。
 
 ## リリースウェビナー {#release-webinars}
 
-2017.2 リリースのウェビナー録画を表示するには、[2017.2 リリースのウェビナー](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)を参照してください。
+2017.2 リリースのウェビナー録画を表示するには、[2017.2 リリースのウェビナー](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)を参照してください。 
 
 ## 製品ロードマップに関するウェビナー
 
-2017年第 2 四半期製品ロードマップウェビナーは、2017年5月17日（PT）に Workfront 製品チームによって開催されました。このウェビナーでは、組織に影響を与える今後の製品変更の概要を紹介します。
+2017年第 2 四半期製品ロードマップウェビナーは、2017年5月17日（PT）に Workfront 製品チームによって開催されました。 このウェビナーでは、組織に影響を与える今後の製品変更の概要を紹介します。
 
 ウェビナー録画を利用できます。

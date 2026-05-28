@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '716'
 ht-degree: 96%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 96%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>
 -->
 
-この節では、Adobe Workfront アカウントで使用できるカスタムビュー、フィルター、グループの例を示します。特に指定のない限り、これらの例は標準モードインターフェイスを使用するだけでは作成できず、テキストモードインターフェイスを使用するだけで作成できます。テキストモードについて詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
+この節では、Adobe Workfront アカウントで使用できるカスタムビュー、フィルター、グループの例を示します。 特に指定のない限り、これらの例は標準モードインターフェイスを使用するだけでは作成できず、テキストモードインターフェイスを使用するだけで作成できます。 テキストモードについて詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;below, drafted because not sure if the links are currently working - April 2022)</p>
