@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '3035'
-ht-degree: 25%
+source-wordcount: '3095'
+ht-degree: 26%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 25%
 
 # レコードタイプを接続
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -341,7 +341,7 @@ Old:
    >
    >* 名前や説明などのシステムフィールドに加えて、別のアプリケーションのオブジェクトタイプからルックアップフィールドとして次のタイプのフィールドを追加できます。
    >   * Workfront プロジェクトのプロジェクトオーナーやスポンサーなどのユーザーフィールド。
-   >   * Workfront プロジェクトの「プロジェクトグループ」や「プロジェクト会社」などの参照フィールド。
+   >   * <span class="preview">Workfront プロジェクトのプロジェクト グループまたはプロジェクト会社などの参照フィールド。</span>
    >* AEM コンテンツフラグメントでは、次のフィールドのみがサポートされています：<!--this information is also in "Connect record types overview"-->
    >   * 作成者および作成日時
    >   * 変更者および変更日時

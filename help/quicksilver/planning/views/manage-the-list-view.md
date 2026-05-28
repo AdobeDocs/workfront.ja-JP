@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 1%
+source-wordcount: '1948'
+ht-degree: 2%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 1%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページで強調表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -182,6 +182,9 @@ Removed - more direct steps below:
    1. 列の名前にカーソルを合わせ、列名の左側にある下向き矢印をクリックしてから、次のいずれかをクリックします。
       * **列の** カスタムラベル **を追加するには、**&#x200B;の名前を変更します。 Workfrontの元のフィールド名は変更されません。
       * **並べ替え**。選択したフィールドでリストを並べ替えます。 列ヘッダーには、並べ替えの方向を示す並べ替えアイコンが追加される。
+   1. 列のヘッダーをクリックし、リスト内の別の位置にドラッグ&amp;ドロップします。
+
+      最初の列は移動できません。
    1. リストの右上隅にある&#x200B;**+** アイコンをクリックして、リストに列を追加または削除し、**保存**&#x200B;をクリックします。
 
       **列マネージャー**&#x200B;が開きます。
@@ -252,6 +255,12 @@ Removed - more direct steps below:
 1. リスト内のセル内をダブルクリックしてフィールドの情報を編集し、Enter キーを押して変更を保存します。
 
    一部のフィールドは読み取り専用です。 例えば、プロジェクトの完了率は、システムによって計算されたフィールドであり、手動で編集することはできません。
+
+1. （条件付き）選択テキストフィールドの場合、キーボードの矢印キーを使用してオプションのリストを移動し、スペースバーを押して正しい選択を選択します。
+
+   <span class="preview">選択フィールドタイプの&#x200B;**検索**&#x200B;行を使用して、適切なオプションを見つけます。</span>
+
+   <span class="preview">結果が見つからない場合は、フィールドセルから新しいオプションを直接追加できます。 この機能は、すべてのリストで利用できるわけではありません。</span>
 
 1. リスト内の項目の名前にカーソルを合わせ、**詳細** メニュー[詳細メニュー](assets/more-menu.png)をクリックし、**表示**&#x200B;をクリックして別のタブで項目を開きます
 

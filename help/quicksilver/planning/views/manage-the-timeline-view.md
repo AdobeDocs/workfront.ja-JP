@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '4068'
-ht-degree: 35%
+source-wordcount: '4251'
+ht-degree: 34%
 
 ---
 
 # タイムラインビューの管理
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -286,11 +286,13 @@ Old:
 
 * 接続されているレコードフィールドまたはルックアップフィールドでフィルタリングできます。
 * 複数の値を表示するルックアップフィールドでフィルタリングできます。
+* <span class> タイムラインビューのレコードタイプ、またはビューの分割構造の一部である接続されたレコードタイプをフィルタリングできます。</span>
 
 タイムラインビューにフィルターを追加するには：
 
 1. 記事[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプページのタイムラインビューを作成します。
-1. タイムラインビューを選択し、テーブルの右上隅にある「**フィルター**」をクリックします。
+1. タイムラインビューを選択し、テーブルの左上隅にある「**フィルター**」をクリックします。
+1. <span class> （条件付き）タイムラインビューに分割構造を追加した場合は、フィルターボックスの最初のドロップダウンでレコードタイプを展開します。 タイムラインビューを表示するレコードタイプです。</span>
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
 
    * **フィールドを選択**&#x200B;してフィールドを検索し、リストから選択します。
@@ -374,14 +376,19 @@ Old:
    * **OR**：指定された条件のいずれかを満たす必要があります。
 これはデフォルトのオプションです。
 
-   1. （オプション）追加のフィルターグループを追加し、**AND**&#x200B;または&#x200B;**OR**&#x200B;演算子で結合します。
-
-      ![&#x200B; ビューの多階層フィルター](assets/multi-tiered-filters-in-views.png)
+1. （オプション）追加のフィルターグループを追加し、**AND**&#x200B;または&#x200B;**OR**&#x200B;演算子で結合します。
 
    レコードのリストは、フィルター条件に基づいて自動的にフィルタリングされます。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （オプション）「**x**」アイコンをクリックして、フィルター条件を削除します。
+1. <span class="preview"> （オプションおよび条件付き）タイムラインビューにブレークダウン構造を追加した場合は、次のドロップダウンでレコードタイプを展開し、上記と同じ手順を繰り返して、ブレークダウンに含まれるレコードタイプのフィルターを追加します。</span>
+
+   <span class="preview">分類の各レコードタイプに対して繰り返します。</span>
+
+   ![&#x200B; タイムラインビューの内訳を含む多層フィルター](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+
+   <span class="preview">分類レコードタイプのフィルターは、タイムラインビューからのみ実行できます。</span>
 1. （オプション）「**フィルター**」またはページ上の任意の場所をクリックして、フィルターボックスを閉じます。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 
