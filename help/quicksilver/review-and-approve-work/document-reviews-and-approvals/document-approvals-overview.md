@@ -9,15 +9,17 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
+source-git-commit: 90a15077a38f4740bc52835f2aab361535832df0
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '4002'
 ht-degree: 0%
 
 ---
 
 
 # 統一されたレビューと承認の概要
+
+{{highlighted-preview}}
 
 「レビューと承認の統合」により、Adobe WorkfrontとAdobe Frame.ioが単一の緊密に連携されたエクスペリエンスに統合され、マーケティング管理、クリエイティブレビュー、コンテンツ配信のギャップを埋めることができます。
 プロジェクトコーディネーターがWorkfrontで作業を管理し、クリエイター、マーケター、ステークホルダーがプロフェッショナル級のFrame.io ビューアでアセットをレビューし承認します。これらのツール間でファイルを移動する必要はありません。
@@ -303,7 +305,9 @@ For both single-stage and multi-stage reviews, automated reminder emails are sen
 
 はい。 承認者とレビュー担当者は、レビューや承認に割り当てられたときにメール通知を受け取ります。 また、自動リマインダーメールは、締切の72時間前、24時間前、締切そのものに送信されます。
 
-メール通知メッセージのカスタマイズ機能は現在利用できませんが、製品ロードマップに記載されています。
+本番環境では、メール通知メッセージのカスタマイズ機能は現在利用できませんが、製品ロードマップに載っています。
+
+<span class="preview"> プレビューでは、承認ワークフローの各段階にカスタムメッセージを追加できます。 このメッセージは、Workfrontの承認電子メール通知および「承認」タブに表示されます。 同じメッセージを各ステージに使用することも、1つのステージごとに異なるメッセージを使用することもできます。メッセージには最大500文字を含めることができます。 承認ワークフローの作成後にカスタムメッセージを編集すると、更新されたメール通知がすべての既存の参加者に送信されます。 後で参加者を追加すると、カスタムメッセージがメール通知に含まれます。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。</span>
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**
