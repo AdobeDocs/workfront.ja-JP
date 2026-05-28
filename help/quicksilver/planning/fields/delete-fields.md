@@ -8,10 +8,10 @@ author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 32%
+source-wordcount: '733'
+ht-degree: 29%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 32%
 
 # フィールドの削除
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -181,7 +180,14 @@ Old:
 
    <!--insert screen shot when finalized-->
 
-1. 「**削除**」をクリックして確定します。
+1. <span class="preview"> （条件付き）削除するフィールドがリクエストフォームの一部である場合、「**フィールドを削除**」ボックスが表示され、変更の影響を受けるフォームが示されます。 次のいずれかの操作を行います：</span>
+
+   <div class="preview">
+
+   * 右向きの矢印をクリックして、変更の影響を受けるフォームを表示し、フォーム名をクリックしてフォームを新しいタブで開き、フィールドをフォームに保持するか、フォームに追加の変更を加えるかを決定します。
+   * 表示されているすべての領域からフィールドを削除する&#x200B;**削除**&#x200B;をクリックします。
+
+   </div>
 
    削除されたフィールドは復元できません。
 
