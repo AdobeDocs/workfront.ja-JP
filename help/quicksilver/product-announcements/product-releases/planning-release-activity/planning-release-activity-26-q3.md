@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+source-git-commit: ab1ac1363d6531352e905536218618196651c3b9
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 2%
@@ -15,7 +15,9 @@ ht-degree: 2%
 
 # Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ
 
-<!--take the next sentence out when we start listing features-->
+<!--
+take the next sentence out when we start listing features
+-->
 
 <!--
 There are no features released during the Third Quarter Release for 2026. When features are released for this quarter, we will document them in this article. 
