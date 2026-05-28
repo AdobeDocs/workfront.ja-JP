@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: e9e00f99ec75156b20407cba7914e746123ec010
+source-git-commit: e3c540cde02d64e8a141828cc34641429da05d4b
 workflow-type: tm+mt
 source-wordcount: '14155'
 ht-degree: 94%
@@ -941,12 +941,12 @@ ht-degree: 94%
       * [AI アシスタントの有効化と無効化](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [AI を使用したリクエストの自動入力](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
       * [プロジェクトのヘルスの概要](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
-   * {hide-from-toc} Workfront MCP サーバー {#workfront-mcp-server}
-      * {hide-from-toc}[Workfront MCP サーバー：記事インデックス &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
-      * {hide-from-toc}[Adobe Workfront MCP サーバーの概要](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
-      * {hide-from-toc}[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
-      * {hide-from-toc}[Adobe Workfront MCP サーバーを使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
-      * {hide-from-toc}[Adobe Workfront MCP サーバーツール &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
+   * Workfront MCP サーバー {#workfront-mcp-server}
+      * [Workfront MCP サーバー：記事インデックス](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+      * [Adobe Workfront MCP サーバーの概要](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
+      * [Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+      * [Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
+      * [Adobe Workfront MCP Server Tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
    * 作業アイテムの更新および更新の表示 {#update-work-items-view-updates}
       * [作業アイテムの更新および更新の表示：記事インデックス](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [「更新」セクションの概要](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2197,7 +2197,7 @@ ht-degree: 94%
       * [ワークスペースの共有](planning/access/share-workspaces.md)
       * [レコードタイプの共有](planning/access/share-record-types.md)
       * [ビューの共有](planning/access/share-views.md)
-      * {hide-from-toc}[&#x200B; レコードを共有](planning/access/share-records.md)
+      * [レコードの共有](planning/access/share-records.md)
       * [ビューまたはワークスペースに対する権限のリクエスト](planning/access/request-permissions.md)
    * Adobe Workfront Planning レコード {#adobe-workfront-planning-records}
       * [レコード：記事インデックス](planning/records/records-information.md)
