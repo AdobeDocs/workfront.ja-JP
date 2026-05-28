@@ -5,9 +5,9 @@ title: Adobe Workfront MCP サーバーの設定
 description: WorkfrontインスタンスとAI エージェント型プラットフォームを設定することで、自然言語の会話を通じてWorkfrontと連携できます。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f4f73cf44107850573e1a6966568645b9537b757
+source-git-commit: 46cc21fb1b7bb66b34dac5e7aa53c096c46e5b29
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -224,21 +224,19 @@ What happens next
 +++
 
 
-<!--
+
+
+## セットアップに関するよくある質問
+
++++ 展開すると、Workfront MCP サーバーの設定に関するよくある質問が表示されます。
+
+### 一度に複数のWorkfront インスタンスに接続できますか？
+
+いいえ。 各コネクションは、AI エージェント型プラットフォームを1つのWorkfrontインスタンスに結び付けます。 切り替えるには、切断して再接続し、新しいインスタンスに認証します。
+
+### どの管理者がこれを有効にしますか？
+
+Workfrontの管理者とAI エージェントプラットフォームの管理者の両方。 Workfront管理者は、Workfront側でMCP サーバーアクセスを有効にします。 AI エージェントプラットフォームの管理者は、そのプラットフォームの側でWorkfrontへのアクセスを有効にします。 [!DNL Claude]の場合、[!DNL Claude] Enterprise管理者は[!DNL Adobe Workfront] コネクタを有効にします。
+
 +++
 
-## Frequently asked questions about setup
-
-+++ Expand to view frequently asked questions about setting up the Workfront MCP server.
-
-### Can I connect to multiple Workfront instances at once?
-
-No. Each connection ties an AI agentic platform to a single Workfront instance. To switch, disconnect and reconnect, authenticating to the new instance.
-
-### Which administrator enables this?
-
-Both your Workfront administrator and the administrator for your AI agentic platform. Your Workfront administrator enables MCP server access on the Workfront side. The administrator for your AI agentic platform enables Workfront access on that platform's side. For [!DNL Claude], the [!DNL Claude] Enterprise administrator enables the [!DNL Adobe Workfront] connector.
-
-+++
-
--->
