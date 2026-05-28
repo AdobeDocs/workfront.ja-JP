@@ -1,6 +1,6 @@
 ---
 title: Adobe Workfront計画アクセス情報：記事インデックス
-description: Workfront 管理者は、Adobe Workfront Planning を使用するユーザーにアクセス権を付与する必要があります。次の記事では、Workfront Planningを使用するために必要なアクセス権と、アクセス権がない場合に権限をリクエストおよび付与する方法について説明します。
+description: Workfront 管理者は、Adobe Workfront Planning を使用するユーザーにアクセス権を付与する必要があります。 次の記事では、Workfront Planningを使用するために必要なアクセス権と、アクセス権がない場合に権限をリクエストおよび付与する方法について説明します。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 65%
+source-wordcount: '128'
+ht-degree: 68%
 
 ---
 
@@ -36,7 +36,12 @@ Workfront 管理者は、Adobe Workfront Planning を使用するユーザーに
 * [ビューまたはワークスペースに対する権限のリクエスト](/help/quicksilver/planning/access/request-permissions.md)
 * [ビューの共有](/help/quicksilver/planning/access/share-views.md)
 * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
-* [&#x200B; レコードタイプを共有](/help/quicksilver/planning/access/share-record-types.md)
-  <!--* <span class="preview">[Share records](/help/quicksilver/planning/access/share-records.md)</span>-->
+* [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
+
+<div class="preview">
+
+* [レコードの共有](/help/quicksilver/planning/access/share-records.md)
+
+</div>
 
 

@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 5%
+source-wordcount: '1769'
+ht-degree: 6%
 
 ---
 
@@ -49,7 +49,7 @@ GenStudioとWorkfront Planningの統合について詳しくは、[Adobe Workfro
 >[!IMPORTANT]
 >
 >この記事で説明する手順は、管理権限がある場合に、Workfront PlanningからGenStudio ワークスペースを更新する方法を示しています。
-> GenStudio ワークスペースに対するContribute権限がある場合、一部の機能は使用できません。
+> GenStudio ワークスペースに対するContribute権限がある場合、すべての機能を使用できるわけではありません。
 >
 >会社に複数のWorkfront インスタンスがある場合は、すべてのユーザーがWorkfront PlanningのGenStudio ワークスペースに対するContribute権限を取得します。
 
@@ -230,7 +230,7 @@ Workfront Planning のメインページが開きます。
 
 1. 「**その他のワークスペース**」をクリックし、**System**&#x200B;によって作成され、**GenStudio** タグがカードに含まれている表示情報を持つワークスペースを見つけます。
 
-   タグ ![付きの](assets/genstudio-card-with-tag-highlighted.png)GenStudio workspace カード
+   タグ ![&#128279;](assets/genstudio-card-with-tag-highlighted.png)付きのGenStudio workspace カード
 
 1. **GenStudio Workspace カード**&#x200B;をクリックして、Workfront PlanningでGenStudio Workspaceを開きます。
 1. デフォルトでは、次のGenStudio レコードタイプが作成され、Workfront Planningから表示されます。
@@ -246,7 +246,7 @@ Workfront Planning のメインページが開きます。
 
    <!--check screen shot-->
 
-   タグ ![付きの](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)GenStudio レコードタイプ カード
+   タグ ![&#128279;](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)付きのGenStudio レコードタイプ カード
 
 1. ワークスペース名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、次のいずれかをクリックします。
 
@@ -306,7 +306,7 @@ Workfront Planning のメインページが開きます。
 詳しくは、[&#x200B; ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
       * **ビューリンクをコピー**
 ビューへのリンクがクリップボードにコピーされます。
-      * **現在のビューを書き出し**
+      * **現在のビューをエクスポート**
 詳しくは、[&#x200B; テーブルビューからのレコードの書き出し](/help/quicksilver/planning/records/export-records-from-the-table-view.md)を参照してください。
 
         >[!NOTE]
@@ -377,17 +377,34 @@ Workfront Planning のメインページが開きます。
 
      GenStudio ワークスペースから作成されたフィールドは、次の領域に表示されます。
 
-      * Workfront計画ビュー
-      * Workfront計画レコードの詳細
-      * GenStudio レコードの詳細
+      * Workfront PlanningのWorkfront計画ビュー
+      * Workfront計画レコードの詳細（Workfront計画）
+      * GenStudio for Performance MarketingのGenStudio レコードの詳細
 
      >[!NOTE]
      >
-     >* GenStudioで管理権限を持っている場合にのみ、フィールドを追加できます。
+     >* フィールドを追加できるのは、GenStudioの管理権限がある場合のみです。
      >* Workfront Planningで作成されたフィールドは、GenStudioのリストビューには表示されません。
      >
      >* 任意のGenStudio レコードタイプをBrands GenStudio レコードタイプに接続できます。
      >  商品とペルソナは、デフォルトでブランドに接続されています。
+     >
+     >* PlanningのGenStudio レコードタイプを、AEM AssetsまたはAdobe Experience Managerのコンテンツフラグメントに接続できます。 AEM オブジェクトに接続するには、AEM ライセンスが必要です。
+     >
+
+1. （条件付き） PlanningのGenStudio WorkspaceからGenStudio レコードタイプをAEM アセットまたはコンテンツフラグメントに接続した場合は、次の操作を行ってAEMに移動し、GenStudio レコード情報を表示します。
+
+   1. （条件付き）GenStudio ワークスペース内の接続されたAEM アセットから、アセットの名前をクリックし、**AEMで開く** アイコン ![AEMで開くアイコン &#x200B;](assets/open-in-aem-icon.png) アイコンをクリックして、AEMでアセットを開きます。
+   1. 右側のパネルで「**キャンペーン**」タブをクリックして選択します。
+
+      アセットに接続されたキャンペーンの名前が、**Campaign** フィールドに表示されます。これは読み取り専用のフィールドです。
+アセットがPlanningのGenStudio Workspaceの&#x200B;**Region**、**Persona**、**Product**&#x200B;または&#x200B;**Channel**&#x200B;にも接続されている場合、これらのレコードタイプのそれぞれのフィールドには、アセットの「**Campaign**」タブに読み取り専用モードで名前が表示されます。
+   1. （条件付き） PlanningのGenStudio Workspaceで接続されたAEM コンテンツフラグメントから、コンテンツフラグメントの名前をクリックし、**AEMで開く** アイコン ![AEMで開くアイコン &#x200B;](assets/open-in-aem-icon.png)をクリックして、コンテンツフラグメントをAEMで開きます。
+   1. **ホーム** アイコン ![AEM](assets/home-icon-in-aem.png)のホームアイコンをクリックして、コンテンツフラグメントのリストに移動し、コンテンツフラグメント名の右側にある&#x200B;**情報** アイコン ![AEM](assets/info-icon-in-aem.png)の情報アイコンをクリックします。
+   1. 右側のパネルの「**メタデータ**」タブをクリックします。
+
+      コンテンツフラグメントに接続されているキャンペーンの名前が、**xdm: campaignName** フィールドに表示されます。 これは読み取り専用フィールドです。 <!--tried to log a bug to rename this field-->
+アセットがPlanningのGenStudio Workspaceの&#x200B;**Region**、**Persona**、**Product**&#x200B;または&#x200B;**Channel**&#x200B;にも接続されている場合、これらのレコードタイプのそれぞれのフィールドは、コンテンツフラグメントの「**メタデータ**」タブに読み取り専用モードで名前を表示します。
 
 1. テーブルビューのフィールドにカーソルを合わせ、ドロップダウンメニューをクリックして次のいずれかの操作を行います。
 

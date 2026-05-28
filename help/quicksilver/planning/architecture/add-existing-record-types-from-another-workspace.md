@@ -1,6 +1,6 @@
 ---
 title: 別のWorkspaceから既存のレコードタイプを追加する
-description: レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。Workfront Planningでは、別のワークスペースで作成された既存のレコードタイプを追加できます。
+description: レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。 Workfront Planningでは、別のワークスペースで作成された既存のレコードタイプを追加できます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 7%
+source-wordcount: '793'
+ht-degree: 10%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 7%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 ワークスペース管理者は、別のワークスペースにあるレコードタイプを、Adobe Workfront Planningで管理するワークスペースに追加できます。
 
@@ -134,9 +134,11 @@ And
    >システム内の他のワークスペースに追加するように設定されたレコードタイプがない場合、「**既存の**&#x200B;を追加」オプションは表示されません。
 
 1. 「**続行**」をクリックします。
-1. **レコードタイプを選択** ボックスで、既存のワークスペースから追加するレコードタイプのカードをクリックし、**追加**&#x200B;をクリックします。
+1. （条件付き） **レコードタイプを選択** ボックスで、既存のワークスペースから追加するレコードタイプのカードをクリックし、**追加**&#x200B;をクリックします。
 
-   選択したセカンダリワークスペースにレコードタイプが追加され、セカンダリワークスペース **の** グローバルレコードタイプ ![&#x200B; アイコン &#x200B;](assets/global-icon-secondary-workspace.png) グローバルレコードアイコンがレコードタイプのカードに表示されます。
+   <span class="preview"> プレビュー環境を使用している場合は、クリックして複数のレコードタイプを選択し、**追加**&#x200B;をクリックします。 使用可能なすべてのワークスペースのすべてのグローバルレコードタイプがリストに表示されます。</span>
+
+   選択したセカンダリワークスペースにレコードタイプが追加され、セカンダリワークスペース ![&#128279;](assets/global-icon-secondary-workspace.png)の&#x200B;**グローバルレコードタイプ** アイコン  グローバルレコードアイコンがレコードタイプのカードに表示されます。
 グローバルレコードタイプアイコンには、セカンダリワークスペースのレコードタイプに表示される矢印が含まれ、レコードタイプが既存のレコードタイプから追加されたことを示します。
 
    次のことが発生します。
@@ -154,7 +156,7 @@ And
      >新しいレコードタイプの外観、追加設定、元のフィールドは編集できません。 レコードタイプとそのすべての元のフィールドと設定は、元のワークスペースからのみ編集できます。
      >
 
-1. （オプション）セカンダリワークスペース ![のグローバルレコードタイプアイコン &#x200B;](assets/global-icon-secondary-workspace.png) グローバルレコードアイコンにカーソルを合わせると、レコードタイプが追加された元のワークスペースの名前が表示されます。
+1. （オプション）セカンダリワークスペース ![&#128279;](assets/global-icon-secondary-workspace.png)のグローバルレコードタイプアイコン  グローバルレコードアイコンにカーソルを合わせると、レコードタイプが追加された元のワークスペースの名前が表示されます。
 1. （オプション）をクリックし、新しく追加したレコードタイプをワークスペース内の任意のセクションにドラッグ&amp;ドロップします。
 1. （オプション）新しいレコードタイプのカードまたはページのレコードタイプ名の右側にある&#x200B;**More** メニューをクリックし、次のいずれかをクリックします。
 
@@ -171,7 +173,7 @@ This will be released later with another epic:
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.
 -->
 
-&lt;! – 自動化を追加したり、セカンダリグローバル RT?？にフォームをリクエストしたりできるかどうかをLilitでチェックします – はい/はい場合は、これらの記事へのリンクを含むステップを追加します – >
+&lt;! – セカンダリグローバル RT?？に自動処理を追加したり、フォームをリクエストしたりできる場合はLilitにチェックを入れます。該当する場合は、これらの記事へのリンクを含むステップを追加します。—>
 
 
 
