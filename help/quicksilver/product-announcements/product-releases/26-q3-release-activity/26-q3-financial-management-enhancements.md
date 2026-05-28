@@ -25,6 +25,6 @@ ht-degree: 9%
 
 Workfrontのレートに属性が追加されると、設定領域でその属性とそのフィルターを編集できなくなります。 これにより、データの一貫性を維持し、属性が更新されたときに誤ってレートが変更されるのを防ぐことができます。
 
-詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
 
 
