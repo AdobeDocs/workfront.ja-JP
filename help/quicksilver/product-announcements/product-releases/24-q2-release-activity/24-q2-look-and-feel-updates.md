@@ -9,7 +9,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '253'
 ht-degree: 97%
 
 ---
@@ -34,6 +34,6 @@ ht-degree: 97%
 >
 >プレビューリリース：2024年2月8日（PT）。迅速リリース用の実稼動版：24.3 リリース（2024年3月14日（PT））。四半期リリース用の実稼動版：24.4 リリース（2024年4月11日（PT））
 
-設定／カスタムフォームエリアの「フォーム」タブ、「フィールド」タブおよび「セクション」タブを、Workfront のその他のエリアと一貫性のある、より現代的なデザインに更新しました。左側のナビゲーションメニューから、これら 3 つのエリアにアクセスできるようになりました。リストに対して、フィルター、ビューおよびグループ化を引き続き使用できます。新しいフォーム designer と従来のフォームビルダーの両方で作成されたカスタムフォーム、フィールドおよびセクションに、更新されたデザインが適用されます。
+設定／カスタムフォームエリアの「フォーム」タブ、「フィールド」タブおよび「セクション」タブを、Workfront のその他のエリアと一貫性のある、より現代的なデザインに更新しました。 左側のナビゲーションメニューから、これら 3 つのエリアにアクセスできるようになりました。 リストに対して、フィルター、ビューおよびグループ化を引き続き使用できます。 新しいフォーム designer と従来のフォームビルダーの両方で作成されたカスタムフォーム、フィールドおよびセクションに、更新されたデザインが適用されます。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
