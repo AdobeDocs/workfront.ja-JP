@@ -4,10 +4,10 @@ description: 2026年第3四半期レポートの強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a86968cf8fff2c7c930aa6c8408ab8566905cb8
+source-git-commit: a177e2887c2b8b281b19cda45ce59c6f8149cefb
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 6%
+source-wordcount: '289'
+ht-degree: 4%
 
 ---
 
@@ -17,11 +17,23 @@ ht-degree: 6%
 
 2026年第3四半期のリリースサイクルで現時点で利用可能なすべての変更のリストについては、[2026年第3四半期のリリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)を参照してください。
 
+## キャンバスダッシュボードレポートのカスタム通貨データフィールド
+
+>[!NOTE]
+>
+>プレビュー：2026年5月28日>実稼動版の迅速なリリース：2026年6月11日>全員の実稼動：2026年7月16日
+
+Canvas ダッシュボードレポートでは、システム設定で複数の為替レートが設定されている場合など、列、フィルター、グループ化、集計などのカスタム通貨データフィールドがサポートされるようになりました。 カスタム通貨データフィールドが列または集計として表示される場合、フィールドがレポートレベルでロックされていない限り、値はダッシュボードの為替レートトグルで選択された通貨に変換されます。
+
+2回目の為替レート通貨が追加された後に、「制限フィールド」メッセージで以前に失敗したレポートがレンダリングされるようになりました。 複数の為替レートが定義されている場合、計画通貨フィールドは引き続き制限されます。
+
+詳しくは、[&#x200B; キャンバスダッシュボードでの通貨フィールドの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)を参照してください。
+
 ## Canvas ダッシュボードレポートでのデータ精度の向上
 
 >[!NOTE]
 >
->プレビュー：2026年5月14日（PT）>プロダクション高速リリース：2026年6月11日（PT）>すべての人のための制作：2026年7月16日
+>プレビュー：2026年5月14日>実稼動高速リリース：2026年6月11日>全員の実稼動：2026年7月16日
 >
 >Canvas ダッシュボードは現在ベータ版です。
 
