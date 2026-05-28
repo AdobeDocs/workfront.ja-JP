@@ -48,7 +48,7 @@ For more information, see [Document Details overview](/help/quicksilver/document
 
 これは、従来のドキュメント領域（Workfront ストレージ）と新しいドキュメント領域（Adobe クラウドストレージ）の両方で使用できます。
 
-詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## ドキュメント領域でExperience Manager Assetsと承認ステータスのバッジを表示する
 
@@ -75,4 +75,4 @@ Experience Manager Assetsへのアセットの送信について詳しくは、[
 
 Workfrontの管理者は、ストレージの使用率が割り当て量の75%、85%、100%に達すると、自動的にメール通知を受け取ります。
 
-詳しくは、[ ドキュメントのストレージ制限の確認](/help/quicksilver/documents/managing-documents/check-document-storage.md)を参照してください。
+詳しくは、[&#x200B; ドキュメントのストレージ制限の確認](/help/quicksilver/documents/managing-documents/check-document-storage.md)を参照してください。
