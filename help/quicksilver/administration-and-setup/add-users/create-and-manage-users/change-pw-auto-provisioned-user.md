@@ -3,24 +3,24 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: 自動プロビジョニングされたユーザーのパスワードの変更
-description: 新しいユーザーのユーザー名をWorkfrontのメールアドレスに変更してから、パスワードを変更できるようにすることをお勧めします。
+title: 自動プロビジョニング済みユーザーのパスワードの変更
+description: 新しいユーザーのユーザー名をWorkfrontのメールアドレスに変更し、パスワードを変更できるようにすることをお勧めします。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 85%
+source-wordcount: '456'
+ht-degree: 88%
 
 ---
 
 # 自動プロビジョニングされたユーザーのパスワードを変更
 
-自動プロビジョニングを使用してユーザーを作成すると、Adobe Workfront はユーザー名の GUID（グローバル一意識別子）を割り当てます。GUID は、乱数や文字の一意の文字列です。例：*5489cb430012526e1ea635e8c29f377f*
+自動プロビジョニングを使用してユーザーを作成すると、Adobe Workfront はユーザー名の GUID（グローバル一意識別子）を割り当てます。 GUID は、乱数や文字の一意の文字列です。例：*5489cb430012526e1ea635e8c29f377f*
 
-新規ユーザーが一時パスワードを変更しようとする際、ユーザー名にメールアドレスを入力すると、ユーザー名が正しくないというエラーが表示されることがよくあります。ユーザーがパスワードを変更するには、システムによって割り当てられたユーザー名（GUID）を入力する必要があります。
+新規ユーザーが一時パスワードを変更しようとする際、ユーザー名にメールアドレスを入力すると、ユーザー名が正しくないというエラーが表示されることがよくあります。 ユーザーがパスワードを変更するには、システムによって割り当てられたユーザー名（GUID）を入力する必要があります。
 
 GUID のユーザー名は使いにくい場合があるので、まずユーザーのユーザー名を Workfront のメールアドレスに変更し、その後ユーザーが各自パスワードの変更を行うことができるようにするをお勧めします。
 
@@ -34,7 +34,7 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
 >
 >  詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 >
->* ユーザー／GUID 列で、ユーザーレポートを作成します。詳しくは、[レポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)を参照してください。
+>* ユーザー／GUID 列で、ユーザーレポートを作成します。 詳しくは、[レポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)を参照してください。
 >
 >* Workfront API に対するクエリ。
 >
@@ -71,11 +71,11 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
 
 1. 次の例に示すように、API リクエストを渡してユーザーの GUID ユーザー名を決定します。
 
-   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&amp;ID=`<ID of User>` ここで、*`<domain>`* は会社のドメインで、*`<ID of User>`* は、ユーザーの Workfront ID です。
+   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&ID=`<ID of User>` ここで、*`<domain>`* は会社のドメインで、*`<ID of User>`* は、ユーザーの Workfront ID です。
 
    次のような応答が返されます。
 
-   ![GUID を取得 &#x200B;](assets/get-guid.png)
+   ![GUIDを取得](assets/get-guid.png)
 
    「ユーザー名」の戻り値は、ユーザーの GUID です。
 
@@ -83,7 +83,7 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
 
    パスワードの変更について詳しくは、[パスワードをリセット](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)を参照してください。
 
-   組織で SSO システムを使用している場合、Workfront システム管理者のみがユーザーのパスワードを変更できます。詳しくは、[Adobe Workfront でのシングルサインオンの概要](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)を参照してください。
+   組織で SSO システムを使用している場合、Workfront システム管理者のみがユーザーのパスワードを変更できます。 詳しくは、[Adobe Workfront でのシングルサインオンの概要](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)を参照してください。
 
 1. ユーザーが Workfront にログインした状態で、次の場所に移動します。
 
@@ -101,7 +101,7 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
 >
 >ユーザーの ID を検索するには、次の手順に従います。
 >
->1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**ユーザー** ![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png) をクリックします。
+>1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**ユーザー** ![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png)をクリックします。
 >
 >1. ユーザーを選択します。
 >

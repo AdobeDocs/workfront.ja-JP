@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2352'
 ht-degree: 3%
 
 ---
@@ -60,7 +60,7 @@ Workspace Managerがリクエストフォームを作成し、レコードタイ
    </td> </tr>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td> 
    <td><p>任意</p> 
   </td> 
   </tr> 
@@ -144,7 +144,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >* 少なくとも1つのワークスペースを表示するアクセス権があります。
 
-1. **どのリクエストを送信しますか？リクエストフォームのリストを開くための** バー。
+1. **送信するリクエストをクリックしてください。** リクエストフォームのリストを開くためのバー。
 1. リストからリクエストフォームを選択するか、リクエストフォーム名の入力を開始してから、リストに表示されたらリクエストフォームを選択します。
 
    ウィンドウが開き、上部にリクエストフォーム名が表示されます。
@@ -200,7 +200,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    * フィルター
    * 列
    * グループ化
-   * セルを書式設定
+   * セルの書式設定
    * 行の高さ
 
    詳しくは、[拡張リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。

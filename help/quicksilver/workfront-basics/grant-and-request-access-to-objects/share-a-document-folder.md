@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 93%
+source-wordcount: '850'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->* フォルダーは、オブジェクト上のフォルダー階層の上位 5 レベルに存在する必要があります。6 番目以下のフォルダーは、そのすぐ上のフォルダーから共有設定を継承します。
+>* フォルダーは、オブジェクト上のフォルダー階層の上位 5 レベルに存在する必要があります。 6 番目以下のフォルダーは、そのすぐ上のフォルダーから共有設定を継承します。
 >
 >  サブフォルダーを追加してフォルダー階層を作成する方法について詳しくは、[ドキュメントフォルダーの作成](../../documents/organizing-documents/create-documents-folder.md)の記事の[フォルダーとサブフォルダーの作成](../../documents/organizing-documents/create-documents-folder.md#creating-folders)の節を参照してください。
 >
@@ -145,9 +145,9 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
-現時点では、フォルダーを共有している場合、受信者のドキュメントエリアにそのフォルダーは表示されません。ただし、ドキュメントレポートを実行すると、ドキュメントにアクセスできます。
+現時点では、フォルダーを共有している場合、受信者のドキュメントエリアにそのフォルダーは表示されません。 ただし、ドキュメントレポートを実行すると、ドキュメントにアクセスできます。
 
-レポートの実行について詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事の[オブジェクトに関するレポート](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)の節を参照してください。[カスタムレポートの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)も参照してください。
+レポートの実行について詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事の[オブジェクトに関するレポート](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)の節を参照してください。 [カスタムレポートの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)も参照してください。
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -173,9 +173,9 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 
   >[!NOTE]
   >
-  >添付されたドキュメントは、添付されたオブジェクトからのみ権限を継承します。オブジェクト上にフォルダーを作成し、ドキュメントをフォルダーに移動すると、そのフォルダーの権限が継承されます。ただし、親オブジェクトまたは祖父母オブジェクト上にフォルダーを作成し、ドキュメントをそのフォルダーに移動した場合、そのフォルダーの権限は継承されません。
+  >添付されたドキュメントは、添付されたオブジェクトからのみ権限を継承します。 オブジェクト上にフォルダーを作成し、ドキュメントをフォルダーに移動すると、そのフォルダーの権限が継承されます。 ただし、親オブジェクトまたは祖父母オブジェクト上にフォルダーを作成し、ドキュメントをそのフォルダーに移動した場合、そのフォルダーの権限は継承されません。
 
-* 受信者のアクセスレベルで「プロジェクト、タスク、イシューなどからドキュメントへのアクセス権限を継承しない」オプションが有効になっている場合、共有するフォルダー内のドキュメントに対する権限は継承されません。フォルダー内のドキュメントへのアクセス権を付与するには、ドキュメントを共有する必要があります。
+* 受信者のアクセスレベルで「プロジェクト、タスク、イシューなどからドキュメントへのアクセス権限を継承しない」オプションが有効になっている場合、共有するフォルダー内のドキュメントに対する権限は継承されません。 フォルダー内のドキュメントへのアクセス権を付与するには、ドキュメントを共有する必要があります。
 
   「継承しない」オプションについて詳しくは、[Adobe Workfront へのアクセスの設定](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)を参照してください。
 

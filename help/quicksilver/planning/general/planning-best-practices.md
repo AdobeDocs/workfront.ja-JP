@@ -1,6 +1,6 @@
 ---
 title: 導入に関するAdobe Workfront計画の推奨事項
-description: マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。Workfront Planningを始める際にお勧めのベストプラクティスを以下に示します。
+description: マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。 Workfront Planningを始める際にお勧めのベストプラクティスを以下に示します。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '3405'
-ht-degree: 2%
+source-wordcount: '3415'
+ht-degree: 3%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
   これらの質問に対する答えが、Workfront Planningの内部で何を構築する必要があるかを決めます。
 
-  また、現在Workfront ユーザーではない他のプランナーが存在する場合もあります。 これらのプランナーは、Excel スプレッドシート、Word ドキュメント、PowerPoint プレゼンテーションなどで動作します。 Workfront Planningの個人情報へのアクセス方法を検討する。
+  また、現在Workfront ユーザーではない他のプランナーが存在する場合もあります。 これらのプランナーは、Excel スプレッドシート、Word ドキュメント、PowerPoint プレゼンテーションなどで動作します。Workfront Planningの個人情報へのアクセス方法を検討する。
 
 * ✅ Workfront Planningを最大限に活用するには、Workfrontのポートフォリオとプログラムの使用を、Workfront Planningの他の上層構造に置き換えることを検討してください。
 
