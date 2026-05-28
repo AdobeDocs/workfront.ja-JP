@@ -5,7 +5,7 @@ title: Adobe Workfront MCP Server Tools
 description: Adobe Workfront MCP サーバーを通じて使用可能なツールのリファレンスリストを、Workfront領域ごとにグループ化します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f4f73cf44107850573e1a6966568645b9537b757
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '1615'
 ht-degree: 8%
