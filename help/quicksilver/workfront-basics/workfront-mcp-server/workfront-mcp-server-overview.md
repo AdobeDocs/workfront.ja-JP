@@ -5,10 +5,9 @@ title: Adobe Workfront MCP サーバーの概要
 description: Adobe Workfront MCP サーバーの機能と、AI エージェント型プラットフォームで自然言語の会話を通じてWorkfrontを使用する方法について説明します。
 author: Courtney
 feature: Get Started with Workfront
-hide: true
-source-git-commit: 14b3f452ebd127eebba8195f1e23e1093382d049
+source-git-commit: e7dadae62ea2f5e9772705cafdc5e067cec1ae08
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -16,23 +15,40 @@ ht-degree: 0%
 
 # Adobe Workfront MCP サーバーの概要
 
-[!DNL Adobe Workfront] MCP （Model Context Protocol） サーバーを使用すると、サポートされているAI エージェント プラットフォームで自然言語の会話を通じてWorkfront データを操作できます。 Workfrontをクリックしてプロジェクトを検索したり、タスクを更新したり、承認を確認したりする代わりに、AI エージェント型プラットフォームに平易な英語で質問すれば、AI エージェント型プラットフォームが作業を行います。
-
-Workfront MCP サーバーを使用するために、Workfront APIやMCPに関する知識は必要ありません。 AI エージェント型プラットフォームを設定してWorkfrontと対話し、次に質問を開始します。
-
-<!-- NEEDS DECISION: Keep "V1" / "initial release" framing in this section, or describe current capabilities as the product without versioning language? -->
-
-## サポートされているAI エージェント型プラットフォーム
-
-Workfront MCP サーバーは現在、次のAI エージェント プラットフォームをサポートしています。
-
-* [!DNL Claude]
-
-<!-- NEEDS DETAIL: Update this list as Adobe adds support for additional AI agentic platforms (for example, [!DNL ChatGPT], [!DNL Gemini], or [!DNL Microsoft Copilot]). -->
+{{highlighted-preview-article-level}}
 
 
-## Workfront MCP サーバーを設定して使用する
+[!DNL Adobe Workfront] MCP サーバーは、Workfront インスタンスを[!DNL Claude]や[!DNL ChatGPT]などのAI エージェント プラットフォームに接続します。 Ai エージェント基盤から、自然言語のリクエストを行うことで、Workfrontアイテムを検索、作成、更新、管理できます。
 
-Workfront MCP サーバーを使用する前に、Workfront管理者がWorkfrontでMCP サーバーアクセスを有効にする必要があり、AI エージェント型プラットフォームをWorkfrontに接続する必要があります。 詳しくは、[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)を参照してください。
+例えば、次のように求めることができます。
 
-設定が完了したら、AI エージェンティックプラットフォームに対して、Workfront アイテムの検索、作成、更新、管理を依頼できます。 使用可能なアクション、リクエストの例、データ処理について詳しくは、[Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)を参照してください。
+* *ブランドマーケティングチームのすべてのアクティブなプロジェクトを表示します。*
+* *4月18日に完了するように、「デザインレビュー」タスクを更新します。*
+* *応答していないアセット「Spring Campaign Video」の承認者にリマインダーを送信します。*
+
+Workfront APIや、MCP サーバーがWorkfront MCP サーバーを使用する仕組みを知る必要はありません。
+
+>[!IMPORTANT]
+>
+>現在、Workfront MCP サーバーは、AWSを使用しているお客様の米国のお客様のみが利用できます。
+
+## MCP サーバーとは
+
+MCP サーバーは、AI エージェンティックプラットフォームを別のシステムと連携させる接続ポイントです。 Workfront MCP サーバーは、AI エージェント型プラットフォームの接続先であり、Workfrontデータを読み取り、代わりに処理することができます。
+
+MCPとは、Model Context Protocolの略。 これは、AI エージェントプラットフォームと外部システムが互いにどのように連携するかを定義する標準です。
+
+## 接続の設定
+
+Workfront MCP サーバーは、[!DNL Claude]や[!DNL ChatGPT]など、MCPと互換性のあるAI エージェンティック プラットフォームで動作します。 使用する前に、次のことが必要です。
+
+* Workfront管理者は、Workfront インスタンスでMCP サーバーアクセスを有効にする必要があります。
+* お客様（または管理者）は、AI エージェントプラットフォームをWorkfrontに接続する必要があります。
+
+詳しくは、[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)を参照してください。
+
+## Workfront MCP サーバーの使用を開始する
+
+Workfrontを設定したら、AI エージェントに自然言語でアセットの検索、作成、更新、管理を依頼できます。
+
+リクエストの例、念頭に置くべきこと、データとセキュリティに関する詳細については、[Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)を参照してください。

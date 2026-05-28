@@ -5,10 +5,9 @@ title: Adobe Workfront MCP サーバーの設定
 description: WorkfrontインスタンスとAI エージェント型プラットフォームを設定することで、自然言語の会話を通じてWorkfrontと連携できます。
 author: Courtney
 feature: Get Started with Workfront
-hide: true
-source-git-commit: 98d5b93bcb99c468de2ad107a2aca3a9a1995429
+source-git-commit: f4f73cf44107850573e1a6966568645b9537b757
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -16,70 +15,89 @@ ht-degree: 0%
 
 # Adobe Workfront MCP サーバーの設定
 
-[!DNL Adobe Workfront] MCP サーバーを使用すると、ClaudeやChatGPTなどのサポートされているAI エージェント型プラットフォームで、自然言語の会話を通じてWorkfront データを操作できます。
+{{highlighted-preview-article-level}}
+
+
+[!DNL Adobe Workfront] MCP サーバーを使用すると、サポートされているAI エージェント プラットフォームで自然言語の会話を通じてWorkfront データを操作できます。
 
 AI エージェント型プラットフォームをWorkfrontに接続する前に、Workfront管理者がWorkfront インスタンスでMCP サーバーアクセスを有効にする必要があります。 AI エージェント型プラットフォームを接続する正確な手順は、サポートされているAI エージェント型プラットフォームごとに異なります。
 
-Workfront MCP サーバーについて詳しくは、[Adobe Workfront MCP サーバーの概要](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)を参照してください。
+>[!IMPORTANT]
+>
+>現在、Workfront MCP サーバーは、AWSを使用しているお客様の米国のお客様のみが利用できます。
 
 ## サポートされているAI エージェント型プラットフォーム
 
-Workfront MCP サーバーは現在、次のAI エージェント プラットフォームをサポートしています。
+Workfront MCP サーバーは、Model Context Protocol （MCP）をサポートするあらゆるAI エージェント プラットフォームで動作します。
+
+この記事では、次の接続手順について説明します。
 
 * [!DNL Claude]
 * [!DNL ChatGPT]
+
+別のMCP互換AI エージェンティック プラットフォーム（例：[!DNL Gemini]または[!DNL Microsoft Copilot]）を使用している場合は、そのプラットフォームのドキュメントの手順に従って、カスタム MCP サーバーを追加します。 MCP サーバーのURLの入力を求められたら、次のように入力します。`https://mcp.workfront.adobe.com/mcp/v1/workfront`
+
 
 ## 前提条件
 
 WorkfrontをAI エージェント型プラットフォームに接続する前に、次の手順を実行する必要があります。
 
-* 操作するデータにアクセスする権限を持つアクティブな[!DNL Adobe Workfront] アカウントを持っています。
-* [!DNL Claude]のようなAI エージェンティック プラットフォームにアクセスできます。
+* 操作するデータにアクセスする権限を持つアクティブな[!DNL Adobe Workfront] アカウントを持っている
+* [!DNL Claude]のようなAI エージェンティック プラットフォームにアクセスする
 
 ### 管理者の前提条件
 
 MCP サーバーアクセスは、2人の別々の管理者によってゲートされます。
 
-* **Workfront管理者**&#x200B;は、Workfront インスタンスのMCP サーバーアクセスを制御します。 システム環境設定では、アクセスはデフォルトで有効になっているので、管理者が無効にするように選択していない限り、アクションは必要ありません。<!-- TODO: link to the System Preferences AI preferences article once the Enable MCP toggle is documented there. -->
+* Workfront管理者は、システム環境設定の&#x200B;**読み取り専用MCP ツール** （デフォルトで有効）と&#x200B;**書き込みMCP ツール** （デフォルトで無効）の2つのトグルを使用して、Workfront インスタンスのMCP サーバーアクセスを制御します。 AI エージェントを使用してWorkfront アイテムを見つけることができるが、作成、更新、または削除できない場合は、Workfront管理者に書き込みアクションを有効にするように依頼してください。
 
-* エンタープライズ版のAI エージェント型プラットフォームを使用する場合、そのプラットフォームの管理者は、組織の[!DNL Adobe Workfront] コネクタを有効にする必要があります。
+  詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+
+* エンタープライズ版のAI エージェント型プラットフォームを使用する場合、そのプラットフォームの管理者は、組織の[!DNL Adobe Workfront] コネクタを有効にするか、Workfront MCP サーバーに接続するためのカスタム URL アクセス権を付与する必要があります。
 
 
 ## WorkfrontとClaudeの連携
 
 Workfrontへの接続は、[!DNL Claude] アカウントごとに1回です。 接続によって特定のWorkfront インスタンスが認証され、切断するまで接続が維持されます。
 
-### Connectors ディレクトリから接続する
 
-+++ 展開すると、Workfrontを[!DNL Claude]に接続するための手順が表示されます。
 
-Workfrontを[!DNL Claude]に接続するには：
+### Connectors ディレクトリからClaude デスクトップに接続します
 
-1. [!DNL Claude] を開きます。.
+近日リリース予定
 
-1. コネクタ領域に移動します。
+<!--
 
-   <!-- NEEDS DETAIL: Exact menu path (for example, "Click Settings, then click Connectors"). -->
++++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
 
-1. コネクタリストで&#x200B;**[!DNL Adobe Workfront]**&#x200B;を検索します。
+To connect Workfront to [!DNL Claude]:
 
-   表示されない場合は、この記事の「[管理者の前提条件](#admin-prerequisites)」を参照してください。
+1. Open [!DNL Claude].
 
-1. 「**接続**」をクリックします。
+1. Navigate to the connectors area.
 
-   <!-- NEEDS DETAIL: Confirm the exact button label. -->
 
-1. プロンプトが表示されたら、Workfront インスタンスにログインします。
 
-   <!-- NEEDS DETAIL: Describe the auth flow — does it open a new browser tab, an in-app window, prompt for a Workfront domain? -->
+1. Find **[!DNL Adobe Workfront]** in the connector list.
 
-1. 認証が完了したら、接続されます。
+   If you don't see it, see [Admin prerequisites](#admin-prerequisites) in this article.
 
-   <!-- NEEDS DETAIL: Add a screenshot of the connected state in Claude. -->
+1. Click **Connect**.
+
+
+
+1. When prompted, log in to your Workfront instance.
+
+
+1. After authentication completes, you're connected.
+
+
 
 +++
 
-### URLへの接続
+-->
+
+### URLを使用してClaude デスクトップに接続
 
 +++ 展開すると、URLを使用してWorkfrontを[!DNL Claude]に接続するための手順ごとの手順が表示されます。
 
@@ -99,7 +117,7 @@ URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 
 [!DNL Claude]は、スキルと呼ばれるユーザー作成の命令セットをサポートしています。 Workfrontでは、スキルを使用して[!DNL Claude]の動作をカスタマイズできます。 例えば、以前の結果に頼るのではなく、常にWorkfrontから新しいデータを取得するように[!DNL Claude]に指示するスキルを作成できます。
 
-[!DNL Claude] スキルについて詳しくは、[Claude ユーザードキュメント &#x200B;](https://code.claude.com/docs/en/skills)を参照するか、Claudeにスキルに関するヘルプを依頼してください。
+[!DNL Claude] スキルについて詳しくは、[Claude ユーザードキュメント ](https://code.claude.com/docs/en/skills)を参照するか、Claudeにスキルに関するヘルプを依頼してください。
 
 ## ChatGPTへの接続
 
@@ -115,7 +133,7 @@ URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 
 ChatGPTは、カスタム GPTと呼ばれるユーザー作成アシスタントをサポートしています。 カスタム GPTを使用して、ChatGPTがコネクタでどのように動作するかをカスタマイズできます。 例えば、以前の結果に頼るのではなく、接続されたサービスから常に新しいデータを取得するようにChatGPTに指示するカスタム GPTを作成できます。
 
-カスタム GPTについて詳しくは、[ChatGPT ユーザードキュメント &#x200B;](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts)を参照するか、カスタム GPTのヘルプをChatGPTに依頼してください。
+カスタム GPTについて詳しくは、[ChatGPT ユーザードキュメント ](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts)を参照するか、カスタム GPTのヘルプをChatGPTに依頼してください。
 
 ## 接続を確認
 
@@ -198,8 +216,7 @@ What happens next
 | 認証に失敗したか、接続が機能しなくなりました。 | 認証セッションの有効期限が切れているか、接続エラーが発生しています。 | コネクタを取り外して再接続します。 |
 | 別のWorkfrontインスタンスに切り替える場合。 | 1つの接続で1つのインスタンスに関連付けられます。 | 新しいインスタンスの接続を解除して、再接続し、認証します。 |
 | Workfrontに接続できないか、MCP サーバーアクセスが無効になっていることを示すメッセージが表示されます。 | Workfront管理者は、インスタンスのMCP サーバーアクセスをオフにしています。 | Workfront管理者に連絡し、システム環境設定でMCP サーバーアクセスを有効にするように依頼します。 |
-
-<!-- NEEDS DETAIL: Add additional setup/authentication troubleshooting scenarios discovered during hands-on testing. -->
+| AI エージェント型プラットフォームは、Workfrontのアイテムを見つけることはできますが、作成、更新、削除することはできません。 | Workfront管理者が、Workfront MCP サーバーの書き込みアクションを無効にしています。 | Workfront管理者に連絡し、システム環境設定で書き込みアクションを有効にするように依頼します。 |
 
 接続後の日々のトラブルシューティング（例：古い結果や予期しない動作）については、[Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)を参照してください。
 
