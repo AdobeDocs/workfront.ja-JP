@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 41%
+source-wordcount: '1561'
+ht-degree: 39%
 
 ---
 
@@ -21,11 +21,13 @@ ht-degree: 41%
 
 <!--
 Remove production and preview references at release
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
+
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 自分または他のユーザーが送信したリクエスト、または開始したリクエストを表示できますが、送信を完了したことはありません。 未完成のリクエストはドラフトとして保存されます。
 
@@ -101,7 +103,9 @@ Remove production and preview references at release
 
 >[!NOTE]
 >
->* Workfront Planningがある場合は、WorkfrontとPlanning リクエストが同じリストに表示されます。 Workfront リクエストは、**オブジェクトタイプ**&#x200B;列に値`Issue`を表示します。
+>* Workfront Planningがある場合は、WorkfrontとPlanning リクエストが同じリストに表示されます。
+>     計画要求の&#x200B;**オブジェクトタイプ**&#x200B;には、次のパターンの名前が付けられます：`< Name of workspace > > < Name of record type >`。例えば、Planning リクエストのオブジェクトタイプには`Marketing workspace > Campaigns`という名前を付けることができます。\
+>     Workfront リクエストの&#x200B;**オブジェクトタイプ**&#x200B;は`Issue`です。
 >* デフォルトでは、最大50件のリクエストがリクエスト領域のリストに表示されます。 その他のリクエストを表示するには、リストの一番下までスクロールします。
 
 送信されたリクエストは、リクエスト領域およびホームのマイリクエストウィジェットで表示できます。
@@ -134,18 +138,27 @@ Remove production and preview references at release
 
    リクエストリストでの情報の管理について詳しくは、[拡張リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。
 
-1. （オプション）「**ステータス**」列を確認して、リクエストのステータスを確認します。 新しいリクエストエクスペリエンスでは、次のステータスを使用できます。
+1. （オプション）「**ステータス**」列を確認して、リクエストのステータスを確認します。
 
-   * **ドラフト**：このリクエストはまだ送信されていません。
-   * **保留中のレビュー**: （計画のみ）このリクエストには承認者が含まれており、どの承認者もリクエストを開いていません。
-   * **レビュー中**: （計画のみ）このリクエストには承認者が含まれており、少なくとも1人の承認者がリクエストを開きましたが、決定は行われていません。
-   * **却下**: （計画のみ）このリクエストには承認者が含まれており、却下されています。 このリクエストはレコードを作成しません。
+   >[!IMPORTANT]
+   >
+   >Workfront管理者は、**Setup**&#x200B;領域でWorkfront リクエストステータスの一部を設定できます。 詳しくは、[&#x200B; ステータスの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
+   >
+   >Workfrontの一部のリクエストステータスと、すべてのプランニングリクエストのステータスは、Workfrontによってハードコーディングされています。 カスタマイズしたり、名前を変更したり、同じものを追加したりすることはできません。
+
+   新しいリクエストエクスペリエンスでは、次のステータスを使用できます。
+
+   * <span class="preview">**新規**：リクエストは新しく、誰も作業を開始していません。</span>
+   * **ドラフト**：このリクエストはまだ送信されていません。 このステータスはハードコードされています。
+   * **保留中のレビュー**: （計画のみ）このリクエストには承認者が含まれており、どの承認者もリクエストを開いていません。 このステータスはハードコードされています。
+   * **レビュー中**: （計画のみ）このリクエストには承認者が含まれており、少なくとも1人の承認者がリクエストを開きましたが、決定は行われていません。 このステータスはハードコードされています。
+   * **却下**: （計画のみ）このリクエストには承認者が含まれており、却下されています。 このリクエストはレコードを作成しません。 このステータスはハードコードされています。
    * **進行中**:
       * Workfront リクエスト：リクエストが変換され、作業が進行中です。
       * Workfront計画リクエスト：リクエストの完了は特定の計画フィールドにマッピングされ、フィールド値はまだ完了値と一致しません。
-
-        詳しくは、「Adobe Workfront Planningでのリクエストフォームの作成と管理」の「[設定の詳細](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details)」を参照してください。
-   * **完了**：リクエストが完了しました。
+   * **保留中**：これはWorkfront リクエストに使用でき、ユーザーが手動で設定します。
+   * <span class="preview">**キャンセル済み**：これはWorkfront リクエスト用です。</span> <!--checking with Khach)-->
+   * <span class="preview">**完了**: リクエストを完了する計画レコードが作成されました。 （計画のみ） </span>
 
 ### 送信されたリクエストを従来のリクエスト体験で表示
 

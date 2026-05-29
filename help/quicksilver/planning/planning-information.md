@@ -23,10 +23,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 63cb8d98d210207c3f6f435f98b7204a5dce0df8
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: 632
-ht-degree: 83%
+source-wordcount: 694
+ht-degree: 80%
 
 ---
 
@@ -35,12 +35,10 @@ ht-degree: 83%
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -61,6 +59,7 @@ Adobe Workfront Planning の一般情報と用語について詳しくは、[Ado
    * ビューの共有
    * ワークスペース（レコードとフィールド）の共有
    * レコードタイプ（レコードとフィールド）の共有
+   * <span class="preview"> レコードを共有</span>
 
 * [アーキテクチャ：記事インデックス](/help/quicksilver/planning/architecture/architecture-information.md)には、次の情報が含まれます。
 

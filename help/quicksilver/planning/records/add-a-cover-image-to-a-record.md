@@ -8,22 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 13%
+source-wordcount: '744'
+ht-degree: 15%
 
 ---
 
 
 # レコードへのカバー画像の追加
 
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
@@ -61,7 +59,7 @@ ht-degree: 13%
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースおよびレコードタイプに対する権限の貢献度を上げます  </p>  
+   <td>   <p>ワークスペース、レコードタイプに対する権限以上の権限を付与し、<span class="preview"> レコードに対する権限を管理</span> </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr>   
 </tbody> 
@@ -125,7 +123,7 @@ Old:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace and record type  </p>  
+   <td>   <p>Contribute or higher permissions to a workspace, record type, and <span class="preview">record</span> </p>   
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 

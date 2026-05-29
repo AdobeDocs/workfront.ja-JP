@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2592'
 ht-degree: 4%
 
 ---
@@ -179,7 +179,7 @@ Not sure how to change the request status, but dev also said: Changing the names
       * **件名**: リクエスト領域に追加された元のリクエストの名前。 リクエストリストから&#x200B;**件名** フィールドを非表示または削除することはできません。 名前には、Planningでリクエストページを開くリンクがあります。
       * **作成済みオブジェクト**:Planningに表示されるリクエストから作成されたレコードの名前。 作成済みオブジェクト名には、リクエストから作成したレコードを開くリンクがあります。
       * **オブジェクトタイプ**:Planningのリクエストからレコードが作成されたワークスペースとレコードタイプの名前。
-      * **ステータス**: リクエストオブジェクトのステータス。
+      * **ステータス**: リクエストオブジェクトのステータス。 リクエストのステータスについて詳しくは、[送信されたリクエストを表示](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)を参照してください。
       * **リクエストフォーム**:Planningのレコードタイプに関連付けられたリクエストフォームの名前。
       * **作成済みオブジェクトの状態**：作成されたレコードの状態。
 

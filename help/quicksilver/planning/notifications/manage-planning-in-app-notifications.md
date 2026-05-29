@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 9%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -54,14 +54,8 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースに対する表示またはそれ以上の権限</a> </p>  
+   <td>   <p>ワークスペースに対する表示以上の権限 </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> LightまたはContributor ライセンスを持つユーザーには、Planningを含むレイアウトテンプレートを割り当てる必要があります。
-   <p>標準ユーザーとシステム管理者は、デフォルトでプランニング領域を有効にできます。</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>

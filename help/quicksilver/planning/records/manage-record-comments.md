@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '876'
 ht-degree: 54%
 
 ---
 
 # レコードのコメントの管理
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -58,7 +58,7 @@ ht-degree: 54%
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースおよびレコードタイプに対する表示以上の権限</p>  
+   <td>   <p>ワークスペース、レコードタイプ、<span class="preview"> レコード </span>に対する表示以上の権限</p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr> 
   </tr> 
@@ -170,7 +170,7 @@ Old:
 
    ワークスペースが開き、レコードタイプがカードに表示されます。
 
-1. レコードタイプのカードをクリックします。
+1. レコードタイプカードをクリックします。
 レコードタイプページが開き、そのタイプのすべてのレコードが表示されます。
 
 1. 「**表示**」ドロップダウンメニューからテーブルビューを選択します。
