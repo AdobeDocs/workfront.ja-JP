@@ -31,7 +31,7 @@ ht-degree: 4%
 >
 >Workfront FusionのシナリオやAPI ベースの自動化などの外部統合は、従来のフィールド構造を参照し、変換後に更新が必要になる場合があります。 フィールドをリッチテキストに変換する前に、統合を検証する必要があります。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## カスタムフォームでサポートされているネイティブ財務フィールド
 
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 参照できる財務フィールドは、フォームのタイプによって異なります。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-workfront-native-fields)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-workfront-native-fields)を参照してください。
 
 ## カスタムフォームは、システム全体で共有し、添付するためのアクセス権を持つことができます
 
