@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 21%
+source-wordcount: '1443'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 21%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第3四半期のリリースが予定されている実稼動リリースに近づいたときに、追加の機能強化で更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -250,6 +250,15 @@ ht-degree: 21%
             <td><strong>四半期ごと</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}"> コメント通知メールのルックアンドフィールを更新</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>「更新」領域のコメントに関するメール通知は、より広範なAdobeのメールデザインに合った新しい外観になります。 前のコメントのスレッドは、メール本文に含まれなくなりました。</p>
+            </td>
+            <td><p>段階的な展開、開始日の発表</p></td>
+            <td><p>段階的な展開、開始日の発表</p></td>
+            <td><p>段階的な展開、開始日の発表</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Workfront MCP サーバーを使用して、AI エージェント プラットフォームをWorkfrontに接続します</a>
                 <p>新しいWorkfront MCP サーバーは、Workfrontを、ClaudeやChatGPTなどのサポートされているAI エージェント基盤に接続し、自然言語の会話を通じてWorkfrontアイテムを検索、作成、更新、管理できます。 現在、AWSを使用している米国のお客様のみが利用できます。</p>
             </td>
@@ -282,7 +291,7 @@ Workfront Fusion の新機能は、実稼動環境の標準リリーススケジ
 New features in Workfront Planning are available in Production.
 -->
 
-最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
+最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
 
 
 ### Workfrontのその他の機能強化
@@ -341,7 +350,7 @@ Workfront計画トライアルは2026年5月15日に終了します。
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
