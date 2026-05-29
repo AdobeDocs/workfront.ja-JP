@@ -8,29 +8,27 @@ recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 27%
+source-wordcount: '855'
+ht-degree: 25%
 
 ---
 
 
 # レコードにサムネールを追加する
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
 レコードを Adobe Workfront Planning 内の一意のサムネールに関連付けて、容易に認識できるようにします。
 
 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
-詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+詳しくは、[ レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
 ## アクセス要件
 
@@ -60,13 +58,13 @@ ht-degree: 27%
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースおよびレコードタイプに対する権限の貢献度を上げます  </p>  
+   <td>   <p>ワークスペース、レコードタイプに対する権限以上の権限を付与し、<span class="preview"> レコードに対する権限を管理</span> </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr>   
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -123,7 +121,7 @@ Old:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace and record type  </p>  
+   <td>   <p>Contribute or higher permissions to a workspace, record type, and <span class="preview">record</span> </p>   
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
@@ -162,18 +160,18 @@ Old:
 1. サムネールを追加するレコードのワークスペースをクリックし、レコードタイプカードをクリックします。
 
    レコードタイプページが開きます。
-1. **表示**&#x200B;ドロップダウンメニューからテーブルビューを選択します。選択したタイプのすべてのレコードがテーブルに表示されます。
+1. **表示**&#x200B;ドロップダウンメニューからテーブルビューを選択します。 選択したタイプのすべてのレコードがテーブルに表示されます。
 1. プライマリフィールド情報にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**サムネール**&#x200B;をクリックします。
 
    ![さらにメニューを追加しました](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
-   >   プライマリフィールドは、テーブルビューの最初の列に表示されるフィールドです。プライマリフィールドは常にフリーズされ、非表示にしたり再配置したりすることはできません。 プライマリフィールドが数式フィールドの場合、「サムネール」オプションは「その他」メニューでは使用できません。
+   >   プライマリフィールドは、テーブルビューの最初の列に表示されるフィールドです。 プライマリフィールドは常にフリーズされ、非表示にしたり再配置したりすることはできません。 プライマリフィールドが数式フィールドの場合、「サムネール」オプションは「その他」メニューでは使用できません。
 
    「**アップロード**」タブは、デフォルトで&#x200B;**サムネールを記録** ボックスに開きます。
 
-   サムネールのアップロードについて詳しくは、手順6から始めて、この記事の詳細ページ [からレコードにサムネールを](#add-a-thumbnail-to-a-record-from-the-details-page)追加するを参照してください。<!--see if this is accurate-->
+   サムネールのアップロードについて詳しくは、手順6から始めて、この記事の詳細ページ ](#add-a-thumbnail-to-a-record-from-the-details-page)からレコードにサムネールを[追加するを参照してください。<!--see if this is accurate-->
 
 <!--
    ![Record thumbnail box for upload](assets/record-thumbnail-box-for-upload.png) 
@@ -216,11 +214,11 @@ Old:
 
    レコードの詳細ページが開きます。
 
-1. （条件付き）レコードプレビューまたは詳細ページで、サムネール画像またはアイコン ![詳細ページのサムネールアイコンにカーソルを合わせ、レコード名の上のスペースにカーソルを合わせ、](assets/record-thumbnail-icon-on-details-page.png) サムネールを追加&#x200B;**または** サムネールを編集&#x200B;**をクリックします。**
+1. （条件付き）レコードプレビューまたは詳細ページで、サムネール画像またはアイコン ![詳細ページのサムネールアイコンにカーソルを合わせ、レコード名の上のスペースにカーソルを合わせ、**サムネールを追加**&#x200B;または&#x200B;**サムネールを編集**&#x200B;をクリックします。](assets/record-thumbnail-icon-on-details-page.png)
 
    「**アップロード**」タブは、デフォルトで&#x200B;**サムネールを記録** ボックスに開きます。
 
-   ![&#x200B; アップロード用のサムネールボックスを記録](assets/record-thumbnail-box-for-upload.png)
+   ![ アップロード用のサムネールボックスを記録](assets/record-thumbnail-box-for-upload.png)
 
 1. サムネールとして追加するファイルをドラッグ&amp;ドロップします
 
@@ -232,11 +230,11 @@ Old:
 1. （オプション）「**新しい画像をアップロード**」アイコン「![新しい画像をアップロード」アイコン「](assets/upload-new-image-icon.png)」をクリックして、別の画像をアップロードします。
 1. （オプション）「**ギャラリー**」タブをクリックし、画像をクリックします。 画像のギャラリーは変更できません。
 
-   ![&#x200B; ギャラリーのサムネールボックスを記録](assets/record-thumbnail-box-for-gallery.png)
+   ![ ギャラリーのサムネールボックスを記録](assets/record-thumbnail-box-for-gallery.png)
 
-1. （オプション）サムネールを保存する前に削除するには、画像の右側にある&#x200B;**削除** アイコン ![画像を削除アイコン &#x200B;](assets/remove-image-icon.png)をクリックします。
+1. （オプション）サムネールを保存する前に削除するには、画像の右側にある&#x200B;**削除** アイコン ![画像を削除アイコン ](assets/remove-image-icon.png)をクリックします。
 
-1. 「**画像を使用**」をクリックして、画像をサムネールとして追加します。
+1. **画像を使用**をクリックして、画像をサムネールとして追加します。
 これにより、**レコードサムネール** ボックスが閉じます。
 サムネールは、レコードが表示されるWorkfront Planningの領域に表示されます。
 
@@ -244,7 +242,7 @@ Old:
    >
    >   このビューにサムネールを表示するには、テーブルビューの「サムネール」フィールドを有効にする必要があります。 デフォルトでは無効になっています。
 
-1. （オプション）保存後にサムネールを削除するには、任意のビューのレコードをクリックして詳細ページを開き、サムネール画像にカーソルを合わせて&#x200B;**詳細メニューアイコン**&#x200B;詳細メニューアイコン ![> &#x200B;](assets/more-menu.png)削除&#x200B;**アイコン**&#x200B;削除アイコン ![をクリックします。 &#x200B;](assets/remove-image-icon.png)サムネール画像が削除されます。
+1. （オプション）保存後にサムネールを削除するには、任意のビューのレコードをクリックして詳細ページを開き、サムネール画像にカーソルを合わせて&#x200B;**詳細メニューアイコン ![詳細メニューアイコン ](assets/more-menu.png)>**&#x200B;削除&#x200B;**アイコン ![削除アイコン ](assets/remove-image-icon.png)をクリックします。**&#x200B;サムネール画像が削除されます。
 
 
 <!--

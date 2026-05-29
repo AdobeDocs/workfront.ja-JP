@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 10%
+source-wordcount: '597'
+ht-degree: 13%
 
 ---
 
 # ビューまたはワークスペースに対する権限のリクエスト
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 <!-- 
 no longer needed: 
@@ -77,7 +77,10 @@ no longer needed:
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>  <p>権限のリクエストが付与されると、次の権限を取得できます。</p>
    <ul><li><p>ビューの表示または管理</p></li>
-   <li><p>ワークスペースの表示、投稿、または管理</p></li></ul>  
+   <li><p>ワークスペースの表示、投稿、または管理</p></li>
+   <li><p>レコードタイプの表示、送信、管理</p></li>
+   <li><p><span class="preview">レコードの表示または管理</span></p></li>
+   </ul>  
    <p>ワークスペースとビューに対する管理権限を持つユーザーのみがビューを公開できます。</p></td> 
   </tr> 
 <tr>
@@ -91,7 +94,7 @@ no longer needed:
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -168,17 +171,22 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 -->
 
 
-## ビューまたはワークスペースへの権限のリクエスト
+## リクエスト権限
 
-ビューに対する権限の要求は、ワークスペースに対する権限の要求と似ています。
+ビューに対する権限の要求は、ワークスペース、レコードタイプ、または<span class="preview"> レコード </span>に対する権限の要求に似ています。
 
-誰かがワークスペースまたはアクセス権のないビューへのリンクを共有した場合：
+誰かがワークスペース、レコードタイプ、<span class="preview"> レコード </span>、またはアクセス権のないビューへのリンクを共有した場合：
 
 1. ビューまたはワークスペース用に共有されているリンクをクリックします。
 
-   アクセス権がない&#x200B;**&#x200B;** ページが表示され、ビューまたはワークスペースへのアクセス権がないことを知らせます。
+   アクセス権がない&#x200B;**** ページが表示され、ビューまたはワークスペースへのアクセス権がないことを知らせます。
 
-   ![&#x200B; ビューへのアクセスを要求](assets/request-access-to-view.png)
+   ![ ビューへのアクセスを要求](assets/request-access-to-view.png)
+
+   >[!NOTE]
+   >
+   >レコードタイプまたは<span class="preview"> レコード </span>へのアクセス権がない場合、「アクセス権がありません」ページには、ワークスペースへのアクセス権が必要であることが表示されます。
+
 
 1. （条件付き）共有されたリンクが、アクセス権を持つワークスペースのビュー用である場合は、**既存のビューで開く**&#x200B;をクリックします。 ワークスペースにアクセスする権限がある場合は、レコードタイプページがデフォルトビューで開きます。
 
@@ -186,8 +194,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    ビューまたはワークスペースに対する管理権限を持つすべてのユーザーは、アクセスリクエストに対して次の通知を受け取ります。
    * アプリ内通知
-     ![&#x200B; アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
+     ![ アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
    * メール通知
-     ![&#x200B; アクセス要求のメール通知](assets/email-notification-for-access-request.png)
+     ![ アクセス要求のメール通知](assets/email-notification-for-access-request.png)
 
 1. （条件付き）ビューまたはワークスペースマネージャーがビューまたはワークスペースに権限を付与すると、権限が付与されたことを確認するメール通知とアプリ内通知が届きます。<!--check this - I was not able to test this, but Isk confirmed.-->

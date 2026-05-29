@@ -11,22 +11,15 @@ last-update: '2026-04-01T18:03:50.000Z'
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 autotag-review: '2026-05-19T20:02:13.086Z'
 TQID: 'https://experienceleague.adobe.com/Xf-V7M0-NaX-fw6yR-tjw3HnTRmNVIkYF7QcBPkjR7U'
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2:
-  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 63cb8d98d210207c3f6f435f98b7204a5dce0df8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: 632
-ht-degree: 83%
+source-wordcount: 694
+ht-degree: 80%
 
 ---
 
@@ -35,12 +28,10 @@ ht-degree: 83%
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -61,6 +52,7 @@ Adobe Workfront Planning の一般情報と用語について詳しくは、[Ado
    * ビューの共有
    * ワークスペース（レコードとフィールド）の共有
    * レコードタイプ（レコードとフィールド）の共有
+   * <span class="preview"> レコードを共有</span>
 
 * [アーキテクチャ：記事インデックス](/help/quicksilver/planning/architecture/architecture-information.md)には、次の情報が含まれます。
 
@@ -112,11 +104,11 @@ Adobe Workfront Planning の一般情報と用語について詳しくは、[Ado
 
 * [Adobe Workfront Planning の自動化の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)：Adobe Workfront Planning で自動化を設定できます。アクティブ化すると、Planning レコードからトリガーされたときに Workfront にオブジェクトが作成されるか、Workfront Planning にレコードが作成されます。
 
-* [Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): GenStudio for Performance Marketingのレコードは、Workfront計画のGenStudio Workspaceで管理できます。
+* [Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス ](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): GenStudio for Performance Marketingのレコードは、Workfront計画のGenStudio Workspaceで管理できます。
 
 * **Workfront計画レポート機能**: Workfront Canvas ダッシュボードを使用すると、レポートでWorkfront計画に関する情報を確認できます。 詳しくは、[キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)を参照してください。
 
-* [Adobe Workfront計画のベストプラクティス：記事インデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：安全性を優先し、混乱を最小限に抑え、迅速に成果を上げる戦略を使用して、組織でAdobe Workfront計画を展開する方法に関するヒントを説明します。
+* [Adobe Workfront計画のベストプラクティス：記事インデックス ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：安全性を優先し、混乱を最小限に抑え、迅速に成果を上げる戦略を使用して、組織でAdobe Workfront計画を展開する方法に関するヒントを説明します。
 
 ## Workfront Planning のリリースアクティビティ
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '650'
 ht-degree: 6%
 
 ---
@@ -64,7 +64,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ### ワークスペースとレコードタイプに対するライセンスタイプと権限
 
-標準ライセンスを持つユーザーのみが、ワークスペースおよびレコードタイプに対するContributeまたはManage権限を持つことができます。 ワークスペースおよびレコードタイプに対するContribute権限とManage権限も、レコードおよびフィールドに転送されます。
+標準ライセンスを持つユーザーのみが、ワークスペースおよびレコードタイプに対するContributeまたはManage権限を持つことができます。 ワークスペースおよびレコードタイプに対するContribute権限とManage権限も、デフォルトでレコードおよびフィールドに転送されます。
 
 システム管理者は、作成しなかったワークスペースを含め、システム内のすべてのワークスペースを表示できます。
 
@@ -79,7 +79,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 >
 >共有ボックスには、ユーザーが下位レベルのライセンスを保持している場合に、ワークスペースに対して貢献または管理する権限をユーザーに付与できないという表示があります。これらの権限レベルはグレー表示されます。
 >
->![&#x200B; ワークスペース上のコントリビューターユーザーの権限がグレー表示される](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+>![ ワークスペース上のコントリビューターユーザーの権限がグレー表示される](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### ライセンスの種類と表示の権限
@@ -98,4 +98,4 @@ For more information, see [Access requirements in Workfront documentation](/help
 >
 >共有ボックスには、ユーザーが下位レベルのライセンスを保持している場合、これらの権限レベルがグレー表示されるため、ビューを管理するための権限をユーザーに付与できないという表示があります。
 >
->![&#x200B; ビュー共有のライトユーザーの権限がグレー表示される](assets/permissions-grayed-out-for-light-user.png)
+>![ ビュー共有のライトユーザーの権限がグレー表示される](assets/permissions-grayed-out-for-light-user.png)
