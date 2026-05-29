@@ -5,9 +5,9 @@ title: Adobe Workfront MCP サーバーの使用
 description: Adobe Workfront MCP サーバーを使用して、AI エージェント基盤で自然言語の会話を通じてWorkfrontアイテムを検索、作成、更新、管理します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
+source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,11 @@ ht-degree: 0%
 >現在、Workfront MCP サーバーは、AWSを使用しているお客様の米国のお客様のみが利用できます。
 
 ## 前提条件
+
+* AI エージェント型プラットフォームとWorkfront MCP サーバー間の接続を設定する必要があります。 設定手順については、[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)を参照してください。
+* Workfront インスタンスは、Adobe Identity Management システム（IMS）で有効にする必要があります。
+* 操作する項目に必要なアクセス レベルとオブジェクト権限を持つWorkfront アカウントが必要です。
+
 
 この記事では、接続を既に設定していることを前提としています。 設定について詳しくは、[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)を参照してください。
 
@@ -251,5 +256,10 @@ Workfront APIに慣れ親しんでいると、アクションは，
 ### Workfront MCP サーバーの新しいバージョンがリリースされたときはどうなりますか？
 
 通常、MCP サーバーは自動的に更新されますが、最新のツールや機能を確認するには、MCP サーバーへの接続を頻繁に更新する必要がある場合があります。
+
+### Adobe Identity Management System （IMS）でWorkfront インスタンスが有効になっていない場合、Workfront MCP サーバーを使用できますか？
+
+いいえ。 Workfront MCP サーバーを使用するには、Adobe Identity Management システム（IMS）でWorkfront インスタンスを有効にする必要があります。 インスタンスがIMSで有効になっているかどうかわからない場合は、Workfront管理者にお問い合わせください。
+
 
 +++
