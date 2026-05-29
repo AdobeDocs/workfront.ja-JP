@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 9%
@@ -38,7 +38,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->プレビュー：2026年4月23日>実稼動高速リリース：2026年4月23日>すべての実稼動：2026年4月23日>[!BADGE &#x200B; スケジュールをオフ &#x200B;]{type=Neutral}
+>プレビュー：2026年4月23日>実稼動高速リリース：2026年4月23日>すべての実稼動：2026年4月23日>[!BADGE  スケジュールをオフ ]{type=Neutral}
 
 リクエストリストをより適切に整理するために、リクエスト エリアのリクエストリストとホームのマイリクエストウィジェットに、次の事前定義済みビューを追加しました。
 
@@ -49,5 +49,4 @@ ht-degree: 9%
 
 Workfront管理者は、レイアウトテンプレートにビューを追加または削除できます。 ビューを編集、削除、共有することはできません。 それらをコピーして、コピーを更新または共有できます。
 
-詳しくは、「[&#x200B; リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
-
+詳しくは、「[ リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
