@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 26%
@@ -27,7 +27,7 @@ ht-degree: 26%
 
 <!--update screenshot with preview-->
 
-![Workspaces ランディングページ管理者アカウント &#x200B;](assets/workspaces-landing-page-admin-account.png)
+![Workspaces ランディングページ管理者アカウント ](assets/workspaces-landing-page-admin-account.png)
 
 ## ワークスペースに関する考慮事項
 
@@ -44,7 +44,7 @@ ht-degree: 26%
 
 * ワークスペースとは、組織部門（チーム、グループ、部門、部門）が作業をおこなうフレームワークのことです。 フィールドに関連付けることはできません。 フィールドに関連付けられるのは、ワークスペース内のレコードタイプのみです。
 
-  詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
+  詳しくは、[ レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 * Workfront ライセンスに応じて、ワークスペースはプランニング エリアの次のタブに表示されます。
 
    * システム管理者の場合、ワークスペースは次のタブに表示されます。
@@ -53,17 +53,27 @@ ht-degree: 26%
       * **その他のワークスペース**：システム内のその他すべてのワークスペースが表示されます。
 
      <!--
-      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
+      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span> (************TEST THIS WITH SYSTEM ADMINS AND STANDARD USERS**********)
       -->
 
-     <!--      
-        >[!NOTE]
-        >
-        ><span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
-        -->
-
    * その他のすべてのユーザーに対しては、そのユーザーが作成したワークスペースと、そのユーザーと共有された他のワークスペースがワークスペース領域に表示されます。
-  <!--* <span class="preview">**Sample workspaces**: Displays for Standard-license users when a Workfront administrator shared the workspaces on the tab with them. The tab displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span> -->
+
+  <!--
+
+    ******************* If Standard users can see the Sample workspaces, then replace the last bullet with this: 
+
+   * For all other users:
+
+        * (****************what is the name of this tab????*******) Workspaces they created and workspaces others shared with them display in the Workspaces area. 
+        * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span>
+    
+    -->
+
+  <!--      
+    >[!NOTE]
+    >
+    ><span class="preview">We recommend to not edit the sample workspaces, but instead to use them as a reference to create your own. Use the multi-workspace template bundle to create workspaces identical to the ones listed in the Sample workspaces tab. For information, see the section "Create multiple workspaces using a best-practice multi-workspace template bundle" in the article [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). </span> 
+    -->
 
 * ワークスペースに含まれるレコードタイプは、作業ライフサイクルと組織単位の概念を反映している必要があります。
 
