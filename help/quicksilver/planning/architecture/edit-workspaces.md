@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '759'
 ht-degree: 23%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 23%
 
 Adobe Workfront Planning では、ワークスペースは、チームが作業を計画する一元的な場所です。
 
-ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
+ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
 
 ワークスペースの作成については、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
@@ -151,6 +151,12 @@ Old:
 
    * **作成したワークスペースにアクセスするための**&#x200B;のワークスペース
    * **自分または自分が作成したワークスペースで共有されているワークスペースにアクセスするためのワークスペース**&#x200B;すべて
+
+   <!--
+   >[!NOTE]
+   >
+   ><span class="preview">You cannot edit the workspaces on the **Sample workspaces** tab. We recommend using the multi-workspace template bundle to create workspaces similar to those on the Sample workspace tab and edit your own. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).</span> 
+   -->
 
 1. （オプション）「**すべてを表示**」をクリックして、追加のワークスペースを表示します。 **すべてを表示** リンクは、2行以上のワークスペースカードがある場合にのみ表示されます。
 1. （オプション）「**表示回数**」をクリックして、画面に表示されるワークスペースの数を制限します。

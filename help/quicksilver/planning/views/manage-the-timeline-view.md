@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '4251'
+source-wordcount: '4209'
 ht-degree: 34%
 
 ---
@@ -378,7 +378,7 @@ Old:
 
 1. （オプション）追加のフィルターグループを追加し、**AND**&#x200B;または&#x200B;**OR**&#x200B;演算子で結合します。
 
-   レコードのリストは、フィルター条件に基づいて自動的にフィルタリングされます。  <!--at this time, you can't name and save the filter - but will this change?!-->
+   レコードのリストは、フィルター条件に基づいて自動的にフィルタリングされます。 <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （オプション）「**x**」アイコンをクリックして、フィルター条件を削除します。
@@ -388,7 +388,7 @@ Old:
 
    ![&#x200B; タイムラインビューの内訳を含む多層フィルター](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-   <span class="preview">分類レコードタイプのフィルターは、タイムラインビューからのみ実行できます。</span>
+   <span class="preview">分類レコードタイプは、タイムラインビューからのみフィルタリングできます。</span>
 1. （オプション）「**フィルター**」またはページ上の任意の場所をクリックして、フィルターボックスを閉じます。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -401,8 +401,8 @@ Old:
 タイムラインビューでグループ化を操作する際は、次の点を考慮してください。
 
 * テーブルビューとタイムラインビューの両方でグループ化を適用できます。 テーブルビューのグループ化は、同じレコードタイプのタイムラインビューのグループ化とは独立しています。
-* ビューでは、3 つのレベルのグループ化を適用できます。 レコードは、選択したグループ化の順にグループ化されます。
-&lt;!—!—* APIを使用する場合、グループ化は最大4 レベルまで適用できます。 --現在これを確認中-->
+* ビューには3つのレベルのグループ化を適用できます。レコードは、選択したグループ化の順序でグループ化されます。
+&lt;!—* APIを使用する場合、最大4つのレベルのグループ化を適用できます。 – 今すぐこれを確認します – >
 * グループは、選択したビューに固有です。 同じレコードタイプの 2 つのテーブルビューに、異なるグループ化を適用することができます。 同じテーブルビューを見ている 2 人のユーザーには、現在適用されているのと同じグループ化が表示されます。
 * テーブルビュー用に作成したグループ化に名前を付けることはできません。
 * グループ化を削除すると、自分と同じレコードタイプにアクセスし、同じビューを表示している人から、グループ化が削除されます。
@@ -591,7 +591,7 @@ this is not possible right now; if this is the same functionality as the table v
 
   Workfront Planning レコードタイプのタイムラインビューにポートフォリオとプロジェクトの両方を表示する場合は、ポートフォリオとプロジェクトの両方を、プランニングレコードまたはタイムラインビューを管理しているプランニングレコードに接続されたレコードに接続する必要があります。
 * プランニングレコードタイプに接続されているAdobe GenStudio ブランドを表示することはできません。
-詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+詳しくは、[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 * 少なくとも2つの日付フィールドに関連付けられているレコードタイプのみを表示できます。
 * タイムラインビューに表示するレコードタイプの日付フィールドは、選択したレコードタイプのテーブルビューでルックアップフィールドとして表示されている必要があります。
 * タイムラインビューに表示するレコードタイプの開始日と終了日は、時系列で表示する必要があります。 例えば、レコードの開始日が1月31日で終了日が1月1日の場合、タイムラインビューには表示されません。 詳しくは、この記事の「[&#x200B; タイムラインビューの管理](#manage-a-timeline-view)」の節を参照してください。
