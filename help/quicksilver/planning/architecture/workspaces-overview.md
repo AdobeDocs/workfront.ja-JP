@@ -7,12 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 25%
@@ -31,7 +28,7 @@ ht-degree: 25%
 
 <!--update screenshot with production, it was broken at Preview-->
 
-![Workspaces ランディングページ管理者アカウント &#x200B;](assets/workspaces-landing-page-admin-account.png)
+![Workspaces ランディングページ管理者アカウント ](assets/workspaces-landing-page-admin-account.png)
 
 ## ワークスペースに関する考慮事項
 
@@ -48,21 +45,16 @@ ht-degree: 25%
 
 * ワークスペースとは、組織部門（チーム、グループ、部門、部門）が作業をおこなうフレームワークのことです。 フィールドに関連付けることはできません。 フィールドに関連付けられるのは、ワークスペース内のレコードタイプのみです。
 
-  詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
+  詳しくは、[ レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 * ワークスペースは、プランニング領域の次のタブに表示されます。
 
    * **自分が所属するワークスペース**：作成したワークスペースまたは共有されているワークスペースを表示します。
    * **その他のワークスペース**：システム内のその他すべてのワークスペースが表示されます。 これは、システム管理者のみが使用できます。
-
-  <div class="preview">
-
-   * **サンプルワークスペース**：ベストプラクティスワークスペースの組み込み例を表示します。 ワークスペース、レコードタイプを編集したり、レコードやフィールドを追加したりすることはできませんが、他のユーザーとビューを追加、編集、共有することはできます。
-
-  </div>
+   * <span class="preview">**サンプルワークスペース**：ベストプラクティスワークスペースの組み込み例を表示します。 ワークスペース、レコードタイプを編集したり、レコードやフィールドを追加したりすることはできませんが、他のユーザーとビューを追加、編集、共有することはできます。</span>
 
   >[!NOTE]
   >
-  ><span class="preview"> サンプル ワークスペースを編集するのではなく、サンプル ワークスペースを参照して独自のワークスペースを作成することをお勧めします。 マルチワークスペーステンプレートバンドルを使用して、「サンプルワークスペース」タブにリストされているワークスペースと同じワークスペースを作成します。 詳しくは、[&#x200B; ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)の記事の「ベストプラクティスのマルチワークスペーステンプレートバンドルを使用した複数のワークスペースの作成」の節を参照してください。</span>
+  ><span class="preview"> サンプル ワークスペースを編集するのではなく、サンプル ワークスペースを参照して独自のワークスペースを作成することをお勧めします。 マルチワークスペーステンプレートバンドルを使用して、「サンプルワークスペース」タブにリストされているワークスペースと同じワークスペースを作成します。 詳しくは、[ ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)の記事の「ベストプラクティスのマルチワークスペーステンプレートバンドルを使用した複数のワークスペースの作成」の節を参照してください。</span>
 
 <!--
 No longer the case - they match now: 

@@ -1,15 +1,21 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: タスク作成の概要
+title: タスクの作成の概要
 description: プロジェクトを作成した後でのみ、プロジェクト内でタスクを作成できます。
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/-xOLBxAGitQAXXRxHSr6R9mv-2hfuLOq0VZKB2TzuqI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 97%
+source-wordcount: 926
+ht-degree: 93%
 
 ---
 
@@ -17,7 +23,7 @@ ht-degree: 97%
 
 プロジェクトを作成した後でのみ、プロジェクト内でタスクを作成できます。
 
-例えば、プロジェクトを作成した後に、タスクを追加して変更し、プロジェクト計画を整理することができます。プロジェクトの作成について詳しくは、[プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md)を参照してください。タスクの作成について詳しくは、[プロジェクトでのタスクの作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)を参照してください。
+例えば、プロジェクトを作成した後に、タスクを追加して変更し、プロジェクト計画を整理することができます。 プロジェクトの作成について詳しくは、[プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md)を参照してください。 タスクの作成について詳しくは、[プロジェクトでのタスクの作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)を参照してください。
 
 この記事では、タスクを作成する際に適用される考慮事項、制限、デフォルトについて説明します。
 
@@ -31,14 +37,14 @@ ht-degree: 97%
 
 ## タスク作成に関する制限
 
-正しいアクセス権と権限を持っている場合は、プロジェクトでタスクを作成できます。ただし、以下のような場合には、タスクを作成できない可能性があります。
+正しいアクセス権と権限を持っている場合は、プロジェクトでタスクを作成できます。 ただし、以下のような場合には、タスクを作成できない可能性があります。
 
-* Adobe Workfront 管理者またはグループ管理者が、プロジェクト設定エリアで、完了または停止のステータスにあるプロジェクトへのタスクの追加を有効にする必要がある。プロジェクト環境設定について詳しくは、[システム全体のプロジェクト環境設定の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+* Adobe Workfront 管理者またはグループ管理者が、プロジェクト設定エリアで、完了または停止のステータスにあるプロジェクトへのタスクの追加を有効にする必要がある。 プロジェクト環境設定について詳しくは、[システム全体のプロジェクト環境設定の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 * 承認待ちのプロジェクトにはタスクを追加できません。
 
 ## プロジェクトで許可されるタスクの最大数
 
-1 つのプロジェクトには、最大 5,000 個のタスクを含めることができます。制限値に近づいた場合、制限値に達した場合、制限値を超えようとした場合には、プロジェクトに警告メッセージが表示されます。
+1 つのプロジェクトには、最大 5,000 個のタスクを含めることができます。 制限値に近づいた場合、制限値に達した場合、制限値を超えようとした場合には、プロジェクトに警告メッセージが表示されます。
 
 この制限が適用された場合のプロジェクトのタスク数に応じて、Workfront インスタンスで 1 つのプロジェクトにおいて 5,000 個を超えるタスクが許可される場合があります。
 
@@ -56,7 +62,7 @@ ht-degree: 97%
 
 * システムレベルのデフォルト情報
 
-  Workfront管理者またはグループ管理者が、「プロジェクト環境設定」の「タスクとイシュー」領域でタスクのシステムレベルのデフォルトを設定します。 タスクとイシューの環境設定について詳しくは、[システム全体のタスクとイシューの環境設定を行う](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)または[グループのタスクとイシューの環境設定を行う](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
+  Workfront管理者またはグループ管理者は、プロジェクト環境設定の「タスクと問題」領域で、タスクのシステムレベルのデフォルトを設定します。 タスクとイシューの環境設定について詳しくは、[システム全体のタスクとイシューの環境設定を行う](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)または[グループのタスクとイシューの環境設定を行う](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
 
 * プロジェクトレベルのデフォルト情報
 
@@ -74,7 +80,7 @@ ht-degree: 97%
 * テンプレート内でタスクの承認プロセスとカスタムフォームを定義できます。
 
    * このテンプレートからプロジェクトを作成すると、承認プロセスとカスタムフォームが自動的にプロジェクトに適用されます。
-   * テンプレートを既存のプロジェクトに添付すると、元のタスク承認プロセスとカスタムフォーム設定（定義されている場合）がプロジェクトに保持されます。定義されていない場合は、テンプレートからの設定がプロジェクトの設定になります。
+   * テンプレートを既存のプロジェクトに添付すると、元のタスク承認プロセスとカスタムフォーム設定（定義されている場合）がプロジェクトに保持されます。 定義されていない場合は、テンプレートからの設定がプロジェクトの設定になります。
    * テンプレートを既存のプロジェクトに添付すると、テンプレートからプロジェクトに追加されたタスクは、プロジェクトのタスク設定に関係なく、テンプレートにある承認プロセスとカスタムフォームの設定を保持します。
 
   テンプレートをプロジェクトに添付する方法について詳しくは、[プロジェクトへのテンプレートの添付](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)を参照してください。
@@ -91,3 +97,7 @@ ht-degree: 97%
 * タスクを別のプロジェクトに移動すると、新しいプロジェクトのタスクのデフォルト設定に関係なく、デフォルトのタスク設定が元のプロジェクトのタスクに保存されます。
 
   タスクの移動について詳しくは、[タスクの移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。
+
+* 従来のWorkfrontとAdobe クラウドストレージの両方を使用している場合、異なるストレージタイプを使用するプロジェクト間でタスクを移動したりコピーしたりすることはできません。
+
+  詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
