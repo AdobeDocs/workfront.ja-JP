@@ -4,9 +4,15 @@ description: 非表示のテスト
 hide: true
 hold: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: b5c64bb3d1c4e7a1337a8b5672a5f95dd8d5ef7f
+TQID: https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 26100d45462943a833c9362a139f8cc68d30b5ed
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: 623
 ht-degree: 49%
 
 ---
@@ -62,7 +68,7 @@ ht-degree: 49%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 ## アクセス要件
 
@@ -227,7 +233,7 @@ ht-degree: 49%
    <td> 
 <p>Adobe WorkfrontのワークフローパッケージとAdobe Workfrontプランニングパッケージ</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront platform （**&#x200B;**&#x200B;これを呼び出すか、下部のリンクされた記事の一部にするか？??**&#x200B;***）</p></td> 
+<td role="rowheader"><p>Adobe Workfront platform （****これを呼び出すか、下部のリンクされた記事の一部にするか？??*****）</p></td> 
    <td> 
 <p>Workfront Planningにアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experienceにオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
@@ -240,7 +246,7 @@ ht-degree: 49%
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
    <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
 </td> 
   </tr> 
@@ -252,7 +258,7 @@ ht-degree: 49%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 
 
@@ -294,4 +300,5 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 </table>
 
 詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
 
