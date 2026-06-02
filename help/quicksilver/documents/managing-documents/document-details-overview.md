@@ -7,16 +7,23 @@ description: ドキュメントの詳細ページでは、Adobe Workfront オブ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/k4qFA-R7MGSh5NBTbJCeOEac5Z30PVxzO8rxLRJi23Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 28%
+source-wordcount: 474
+ht-degree: 23%
 
 ---
 
 # ドキュメントの詳細の概要
+
+{{highlighted-preview}}
 
 ドキュメントの詳細ページでは、Adobe Workfront オブジェクトに添付されたドキュメントのプロパティを表示、通信、管理できます。
 
@@ -96,9 +103,32 @@ ht-degree: 28%
 ![&#x200B; ドキュメントの詳細メニューアイコン &#x200B;](assets/more-menu-new-doc.png)
 
 
+
 ### 新規ドキュメント領域でドキュメントの詳細パネルを開きます
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
-1. ドキュメントを選択し、**詳細を表示**&#x200B;をクリックします。
+1. ドキュメントを選択し、左側のサイドバーにある&#x200B;**詳細を表示**&#x200B;をクリックします。
 
    ![&#x200B; ドキュメントの詳細](assets/doc-details.png)
+
+
+<div class="preview">
+
+### 新しいドキュメント領域の「概要を印刷」を表示します
+
+ドキュメントに承認が付与されたら、Frame.ioの「コメントを印刷」ページを開いて、アセットのプレビュー、コメント、承認決定を印刷可能な形式で表示できます。
+
+1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
+1. ドキュメントを選択し、左側のサイドバーにある&#x200B;**詳細を表示**&#x200B;をクリックします。
+
+   ![&#x200B; ドキュメントの詳細](assets/doc-details.png)
+
+1. **概要** セクションで、**印刷概要を開く**&#x200B;をクリックします。
+
+
+>[!NOTE]
+>
+>「概要を印刷」リンクは、文書に承認が追加された後にのみ表示されます。
+
+
+</div>
