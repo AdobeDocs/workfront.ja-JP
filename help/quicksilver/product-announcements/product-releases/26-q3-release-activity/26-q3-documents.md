@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 3%
+source-wordcount: '450'
+ht-degree: 2%
 
 ---
 
@@ -18,21 +18,19 @@ ht-degree: 3%
 
 2026年第3四半期のリリースサイクルで現時点で利用可能なすべての変更のリストについては、[2026年第3四半期のリリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)を参照してください。
 
-<!--
-## Print summary for documents in the new Documents area
+
+## 新しいドキュメント領域のドキュメントの概要を印刷
 
 >[!NOTE]
 >
->Preview: May 28, 2026
->Production fast release: June 11, 2026
->Production for everyone: July 16, 2026
+>プレビュー：2026年6月2日> プロダクションの迅速なリリース：2026年6月11日>全員のプロダクション：2026年7月16日
 
-You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage. 
+新しいドキュメント領域から、ドキュメントの承認の印刷可能な概要を直接開くことができるようになりました。 この機能は、Adobe クラウドストレージを使用している組織で利用できます。
 
-After a document has an approval, a **Print summary** option appears in the Document Details panel's Overview section. Clicking **Open Print Summary** opens the Frame.io Print Comments page, which shows the asset preview, comments, and approval decisions in a printable format.
+ドキュメントに承認が付与されると、「**概要を印刷**」オプションがドキュメントの詳細パネルの「概要」セクションに表示されます。 **印刷概要を開く**&#x200B;をクリックすると、Frame.io印刷コメントページが開き、アセットのプレビュー、コメント、承認決定が印刷可能な形式で表示されます。
 
-For more information, see [Document Details overview](/help/quicksilver/documents/managing-documents/document-details-overview.md) and [Summary for documents overview](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
--->
+詳しくは、[ ドキュメントの詳細の概要](/help/quicksilver/documents/managing-documents/document-details-overview.md)および[ ドキュメントの概要](/help/quicksilver/documents/managing-documents/summary-for-documents.md)を参照してください。
+
 
 ## ドキュメント承認ワークフローステージへのカスタムメッセージの追加
 
@@ -48,7 +46,7 @@ For more information, see [Document Details overview](/help/quicksilver/document
 
 これは、従来のドキュメント領域（Workfront ストレージ）と新しいドキュメント領域（Adobe クラウドストレージ）の両方で使用できます。
 
-詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## ドキュメント領域でExperience Manager Assetsと承認ステータスのバッジを表示する
 
@@ -75,4 +73,4 @@ Experience Manager Assetsへのアセットの送信について詳しくは、[
 
 Workfrontの管理者は、ストレージの使用率が割り当て量の75%、85%、100%に達すると、自動的にメール通知を受け取ります。
 
-詳しくは、[&#x200B; ドキュメントのストレージ制限の確認](/help/quicksilver/documents/managing-documents/check-document-storage.md)を参照してください。
+詳しくは、[ ドキュメントのストレージ制限の確認](/help/quicksilver/documents/managing-documents/check-document-storage.md)を参照してください。
