@@ -6,12 +6,30 @@ description: 予定作業は、Adobe Workfront ではプロジェクトとタス
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/6meiGiiAKIASHWC5a8p7WnQ9W1JY0xL71LsUqbAAukY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '2795'
-ht-degree: 72%
+source-wordcount: 2795
+ht-degree: 71%
 
 ---
 
@@ -309,7 +327,7 @@ Workfront web アプリでリクエストを作成するには：
      </tr> 
      <tr> 
       <td role="rowheader"><strong>ドキュメント</strong> </td> 
-      <td> <p>リクエストにドキュメントを追加します。 </p> <p> リクエストキューの設定に応じて、カスタムフィールドの前後に「ドキュメント」セクションが表示される場合があります。 </p> <p>Workfront にアップロードしたドキュメントは、ドラフトのリクエストに 24 時間保存されます。 その後、ドラフトの編集と送信に戻ったときに、それらを再添付する必要があります。 他のドライブからリンクされたドキュメントは、永久にドラフトに保存されます。 </p> 
+      <td> <p>リクエストにドキュメントを追加します。 </p> <p> リクエストキューの設定に応じて、カスタムフィールドの前後に「ドキュメント」セクションが表示される場合があります。 </p> <p>Workfront にアップロードしたドキュメントは、ドラフトのリクエストに 24 時間保存されます。 その後、ドラフトの編集と送信に戻ったときに、それらを再添付する必要があります。 外部ドライブからリンクされているドキュメントは、ドラフトに永続的に保存されます。 </p> 
       <p>Workfront管理者が選択した環境のドキュメントストレージの種類に応じて、リクエストに添付されたドキュメントが次に追加されます。</p>
       <ul><li>Workfront ストレージを使用するリクエストの場合、新しく作成したリクエストの「ドキュメント」セクションにドキュメントが追加されます。</li>
       <li>Adobe クラウドストレージを使用したリクエストの場合、ドキュメントはリクエストと同じ名前で新しく作成されたフォルダーに追加され、送信プロセス中にリクエストに自動的に追加されます。 </li></ul>

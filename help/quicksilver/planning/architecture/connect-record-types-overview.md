@@ -6,13 +6,25 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
+TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 6%
+source-wordcount: 2304
+ht-degree: 5%
 
 ---
-
 
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
@@ -43,39 +55,12 @@ ht-degree: 6%
   >
   >Workfront Planningでは、1つのレコードタイプに対して最大30個の接続されたフィールドを設定できます。
 
+* Workfront Planningで次のエンティティを接続するには、レコードタイプから「新規接続」フィールドを手動で追加できます。
 
-* レコードとオブジェクトタイプの接続については、次の点を考慮してください。
+   * 2 つのレコードタイプ
 
-   * Workfront Planningで次のエンティティを接続するには、レコードタイプから「新規接続」フィールドを手動で追加できます。
-
-      * 2 つのレコードタイプ
-
-        デフォルトでは、同じワークスペースから2つのレコードタイプを接続できます。 また、より高いWorkfrontまたはプランニングパッケージを購入した場合は、他のワークスペースのレコードタイプと接続するようにレコードタイプを設定することもできます。 詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
-      * 1 つのレコードタイプと、別のアプリケーションの 1 つのオブジェクトタイプ
-
-     レコードとオブジェクトタイプの接続方法について詳しくは、[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
-
-     レコードタイプを他のレコードタイプまたはオブジェクトタイプと手動で接続すると、個々のレコードとオブジェクトを接続できます。
-
-     詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
-
-   * エンティティ間の接続は、次のシナリオで自動的に確立されます。
-
-      * 自動化機能を使用して、レコードタイプのページからレコードを作成する場合。
-
-        レコードタイプまたはレコードタイプと別のアプリケーションのオブジェクトタイプとの間の接続は、オートメーションが接続されたレコードまたはオブジェクトを作成するときに自動的に作成されます。
-
-        詳しくは、[Adobe Workfront Planningの自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
-
-      * レコードタイプのリクエストフォームを設定して、レコードまたはオブジェクトを作成する場合。
-
-        レコードを作成するPlanning リクエストを送信して承認すると、レコードタイプとリクエストオブジェクトタイプの間の接続が自動的に作成されます。
-
-        詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
-
-        元のリクエストは、Workfrontのリクエスト領域の&#x200B;**件名** フィールドまたはWorkfront Planningの元のリクエスト接続フィールドで表示できます。
-
-   * Workfront Planningのレコードタイプは、次のアプリケーションから次のオブジェクトタイプに接続できます。
+     デフォルトでは、同じワークスペースから2つのレコードタイプを接続できます。 また、より高いWorkfrontまたはプランニングパッケージを購入した場合は、他のワークスペースのレコードタイプと接続するようにレコードタイプを設定することもできます。 詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+   * これらのアプリケーションのレコードタイプと次のオブジェクトタイプ：
 
       * Adobe Workfront:
 
@@ -107,7 +92,43 @@ ht-degree: 6%
         >
         >Adobe Experience Manager オブジェクトとGenStudio Brandsを接続するには、次の操作が必要です。
         >* Adobe Experience Manager ライセンス
-        >* Adobe GenStudio for Performance Marketing ライセンス
+        >* Adobe GenStudio for Performance Marketingライセンス。
+
+   * GenStudio ワークスペースのGenStudio for Performance Marketing レコードタイプと次のエンティティ：
+
+      * Workfront計画のレコードタイプ
+      * Workfront オブジェクト
+      * AEM オブジェクト（アセットまたはコンテンツフラグメント）
+      * GenStudio for Performance Marketingのブランド
+
+        >[!NOTE]
+        >
+        >* Planningでは、Adobe GenStudio Workspace レコードタイプを別のGenStudio レコードタイプに接続することはできません。
+        >* GenStudio ワークスペースからPlanning レコードタイプをレコードタイプに接続することはできません。
+
+
+     レコードタイプを他のレコードタイプまたはオブジェクトタイプと手動で接続すると、個々のレコードとオブジェクトを接続できます。
+
+     レコードとオブジェクトタイプの接続方法について詳しくは、[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+
+     詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+
+* エンティティ間の接続は、次のシナリオで自動的に確立されます。
+
+   * 自動化機能を使用して、レコードタイプのページからレコードを作成する場合。
+
+     レコードタイプまたはレコードタイプと別のアプリケーションのオブジェクトタイプとの間の接続は、オートメーションが接続されたレコードまたはオブジェクトを作成するときに自動的に作成されます。
+
+     詳しくは、[Adobe Workfront Planningの自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
+
+   * レコードタイプのリクエストフォームを設定して、レコードまたはオブジェクトを作成する場合。
+
+     レコードを作成するPlanning リクエストを送信して承認すると、レコードタイプとリクエストオブジェクトタイプの間の接続が自動的に作成されます。
+
+     詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+
+     元のリクエストは、Workfrontのリクエスト領域の&#x200B;**件名** フィールドまたはWorkfront Planningの元のリクエスト接続フィールドで表示できます。
+
 
 * 2つのレコードタイプまたはレコードタイプと別のアプリケーションのオブジェクトタイプが接続されている場合、次のシナリオが存在します。
 

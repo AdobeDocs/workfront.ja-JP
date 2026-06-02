@@ -6,15 +6,28 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+TQID: https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '3095'
-ht-degree: 26%
+source-wordcount: 3118
+ht-degree: 25%
 
 ---
-
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
@@ -193,7 +206,12 @@ Old:
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
 1. テーブルビューの右上隅にある **+** アイコンをクリックし、「**新しい接続**」タブをクリックします。
 
-   ![Workfront AEM のオプションが含まれる新しい「接続」タブ](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+   ![Workfront、AEMおよびGenStudio ブランドとの新しい接続タブ &#x200B;](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+
+   <!--
+    Old shot:
+    ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+    -->
 
 1. レコードタイプを検索するか、次のいずれかを選択します。
 
@@ -287,9 +305,9 @@ Old:
    >
    >* リンクされたレコードタイプ **で「**&#x200B;対応するフィールドを作成」を選択することは、階層を作成するための前提条件です。
    >
-   >* リンクされたレコードフィールドは、それぞれのアプリケーション内の別のアプリケーションのオブジェクトに対して作成されません。 例えば、Planning レコードに接続されたWorkfront オブジェクトに対して作成されたフィールドはありません。
-   >
-   >   
+   >* リンクされたレコードフィールドは、それぞれのアプリケーション内の別のアプリケーションのオブジェクトに対して作成されません。 例：
+   >   * Planning レコードに接続されたWorkfront オブジェクト用に作成されたフィールドはありません。
+   >   * GenStudio ワークスペースからレコードタイプに接続されている場合、Planning レコードタイプ用に作成されたフィールドはありません。
 
 1. （条件付き）リンクされたレコードタイプ **で「**&#x200B;対応するフィールドを作成」を有効にした場合は、次のオプションから、ユーザーが接続できるレコード数と接続元レコード数を指定します。
 

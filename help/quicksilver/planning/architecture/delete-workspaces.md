@@ -6,28 +6,36 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/yzpirNfY0Hsp0cbClQA8dFqhgqbpK8ZryIyeq4tBAgw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 38%
+source-wordcount: 499
+ht-degree: 36%
 
 ---
 
-
 # ワークスペースの削除
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning では、ワークスペースは、チームが作業を計画する一元的な場所です。詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+Adobe Workfront Planning では、ワークスペースは、チームが作業を計画する一元的な場所です。 詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
 不要になったワークスペースは削除できます。
 
@@ -146,6 +154,10 @@ Old:
    * **作成したワークスペースにアクセスするための**&#x200B;のワークスペース
    * **自分または自分が作成したワークスペースで共有されているワークスペースにアクセスするためのワークスペース**&#x200B;すべて
 
+   >[!NOTE]
+   >
+   ><span class="preview"> サンプルワークスペース **タブのワークスペースは削除できません。**&#x200B;マルチワークスペーステンプレートバンドルを使用して、「サンプルワークスペース」タブと同様のワークスペースを作成することをお勧めします。 詳しくは、[&#x200B; ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。</span>
+
 1. （オプション）「**すべてを表示**」をクリックして、追加のワークスペースを表示します。 **すべてを表示** リンクは、2行以上のワークスペースカードがある場合にのみ表示されます。
 1. （オプション）「**表示回数**」をクリックして、画面に表示されるワークスペースの数を制限します。
 1. ワークスペースを削除するには、次のいずれかの操作を行います。
@@ -167,6 +179,6 @@ Old:
 
 1. 指定されたスペースに「**delete**」と入力し、**完全に削除**&#x200B;をクリックします。 大文字と小文字を区別しません。
 
-   ワークスペースは削除され、復元できません。レコードタイプ、レコード、フィールドおよびそれらに関連付けられているビューも削除されます。<!--ensure this is right at or before GA-->
+   ワークスペースは削除され、復元できません。 レコードタイプ、レコード、フィールドおよびそれらに関連付けられているビューも削除されます。<!--ensure this is right at or before GA-->
 
 

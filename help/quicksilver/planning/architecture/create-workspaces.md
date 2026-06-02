@@ -6,24 +6,33 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: 1311
 ht-degree: 17%
 
 ---
 
-
 # ワークスペースを作成
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -230,12 +239,12 @@ Old:
 >
 >ベストプラクティスのテンプレートバンドルを使用して複数のワークスペースを一度に作成できるのは、次の前提条件が満たされている場合のみです。
 >
->* Workfront計画PrimeまたはUltimate パッケージを購入しました。
+>* Workfront、Workflow PlanningのPrimeまたはUltimate パッケージを購入した
 >* システム管理者です
 
 マルチワークスペーステンプレートバンドルを使用して、ワンクリックで6つのワークスペースを作成できます。
 
-バンドルに含まれるテンプレートには、プランニングの実装を開始するのに役立つワークスペース、レコードタイプ、レコード、ビュー、フィールドが含まれています。
+バンドルに含まれるテンプレートには、プランニングの実装を開始するのに役立つワークスペース、レコードタイプ、レコード、ビュー、フィールドが含まれています。 詳しくは、[&#x200B; ワークスペーステンプレートのリスト &#x200B;](/help/quicksilver/planning/architecture/workspace-templates.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -246,27 +255,44 @@ Old:
 
 {{step1-to-planning}}
 
-1. 「**ワークスペースを作成**」をクリックします
+1. 次のいずれかの操作を行います。
 
-   「ワークスペースを作成」ボックスが表示されます。 ワークスペースをゼロから作成することも、使用可能なテンプレートを使用して作成することもできます。
+   * 「**ワークスペースを作成**」をクリックし、次の手順に従います。
 
-1. **ここから開始（推奨）**&#x200B;領域の&#x200B;**ワークスペース設定を確認**&#x200B;をクリックします。
-1. （オプション）次の定義済みワークスペーステンプレート内の&#x200B;**プレビュー**&#x200B;をクリックして、各テンプレートのプレビューボックスを開きます。
+      1. 「ワークスペースを作成」ボックスが表示されます。 ワークスペースをゼロから作成することも、使用可能なテンプレートを使用して作成することもできます。
 
-   * &#x200B;1. グローバル分類と分類
+      1. **ここから開始（推奨）**&#x200B;領域の&#x200B;**ワークスペース設定を確認**&#x200B;をクリックします。
+      1. （オプション）次の定義済みワークスペーステンプレート内の&#x200B;**プレビュー**&#x200B;をクリックして、各テンプレートのプレビューボックスを開きます。
 
-     Global Classifications &amp; Taxonomies テンプレートには、Workfront Planningの導入を成功させるために、環境で作成することをお勧めするすべてのレコードタイプとフィールドが含まれています。
+         * &#x200B;1. グローバル分類と分類
 
-     後で、作成した他のワークスペースでこのテンプレートのレコードタイプをリンクまたはインポートできます。
-   * 2.Fréscopa グローバルマーケティング
-   * 3.Fréscopa ソーシャルマーケティング
-   * &#x200B;4. フレスコパ・メディア&amp;PR
-   * &#x200B;5. フレスコパ・グローバル・イベント
-   * 6.Fréscopa経営陣
+           Global Classifications &amp; Taxonomies テンプレートには、Workfront Planningの導入を成功させるために、環境で作成することをお勧めするすべてのレコードタイプとフィールドが含まれています。
 
-1. 各ワークスペーステンプレートの&#x200B;**プレビュー** ボックスを開いた後、**戻る**&#x200B;をクリックして&#x200B;**ワークスペースを作成** ボックスに戻るか、**テンプレートを使用**&#x200B;をクリックして、バンドルに含まれるテンプレートを使用し、ワークスペースを作成します。
+           後で、作成した他のワークスペースでこのテンプレートのレコードタイプをリンクまたはインポートできます。
+         * 2.Fréscopa グローバルマーケティング
+         * 3.Fréscopa ソーシャルマーケティング
+         * &#x200B;4. フレスコパ・メディア&amp;PR
+         * &#x200B;5. フレスコパ・グローバル・イベント
+         * 6.Fréscopa経営陣
 
-   ワークスペースが作成され、システム管理者用の&#x200B;**ワークスペースに表示されます。自分は**&#x200B;です。**すべてのワークスペース** タブに表示されます。 すべての標準ライセンスのユーザーは、システム管理者がワークスペースを作成し、新しいワークスペースを共有すると、ワークスペース領域にワークスペースが表示されます。
+      1. 各ワークスペーステンプレートの&#x200B;**プレビュー** ボックスを開いた後、**戻る**&#x200B;をクリックして&#x200B;**ワークスペースを作成** ボックスに戻るか、**テンプレートを使用**&#x200B;をクリックして、バンドルに含まれるテンプレートを使用し、ワークスペースを作成します。
+
+   <div class="preview">
+
+   * 「**サンプルワークスペース**」タブをクリックし、次の手順に従います。
+
+      1. タブのワークスペーステンプレートのいずれかをクリックして、各テンプレートのレコードタイプとフィールドを確認します。 「**サンプルワークスペース**」タブのテンプレートは読み取り専用です。
+      1. テンプレートの右上隅にある「**テンプレートから作成**」をクリックします。
+      1. （オプション）任意のテンプレートの&#x200B;**プレビュー**&#x200B;をクリックして、レコードタイプとそのフィールドを表示します。
+
+         >[!TIP]
+         >
+         >テンプレート内のレコードタイプカードをクリックすると、右側のパネルにレコードタイプのフィールドが表示されます。
+      1. 「**テンプレートを使用**」をクリックします。
+
+   </div>
+
+   6つのワークスペースが作成され、システム管理者用の&#x200B;**ワークスペースに表示されます。自分は**&#x200B;です。**すべてのワークスペース** タブに表示されます。 すべての標準ライセンスのユーザーは、システム管理者がワークスペースを作成し、新しいワークスペースを共有すると、ワークスペース領域にワークスペースが表示されます。
 
 1. 作成したワークスペースの編集を開始し、組織に関連するレコードタイプ、レコード、ビュー、フィールドを追加します。
 
