@@ -10,11 +10,17 @@ exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/gDZwho8TsvB7bMML-f4SisR-cyjs1aPyHOMpOxmgtwI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
 workflow-type: tm+mt
 source-wordcount: 725
@@ -98,13 +104,13 @@ ht-degree: 39%
 
 「概要」セクションを展開して、画像のサムネールを表示またはダウンロードし、プルーフを開き、基本的な説明を更新し、ドキュメントを確認します。
 
-![ ドキュメントの概要](assets/details-section.png)
+![&#x200B; ドキュメントの概要](assets/details-section.png)
 
 #### カスタムフォーム {#custom-forms}
 
 「カスタムフォーム」セクションでは、ドキュメントに関連付けられたカスタムフォームを追加、編集、表示できます。 カスタムフォームの名前を入力し、ドキュメントに追加します。 詳しくは、[ドキュメントへのカスタムフォームの追加または編集](../../documents/managing-documents/add-custom-form-documents.md)を参照してください。
 
-![ ドキュメントの概要にカスタムフォームを追加](assets/custom-forms-section.png)
+![&#x200B; ドキュメントの概要にカスタムフォームを追加](assets/custom-forms-section.png)
 
 ### 更新
 
@@ -121,11 +127,11 @@ ht-degree: 39%
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [ドキュメント承認のリクエスト](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![ ドキュメントの概要の承認](assets/approvals-section.png)
+![&#x200B; ドキュメントの概要の承認](assets/approvals-section.png)
 
 ### バージョン
 
-「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。 詳細アイコン ![詳細アイコン ](assets/more-icon.png)をクリックして、次の操作を行います。
+「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。 詳細アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックして、次の操作を行います。
 
 * プルーフを開きます。
 * プルーフまたはドキュメントをダウンロードします。
@@ -133,7 +139,7 @@ ht-degree: 39%
 * ドキュメントの詳細に移動します。
 * プルーフまたはドキュメントを削除します。
 
-![ ドキュメント概要のバージョン ](assets/versions-section.png)
+![&#x200B; ドキュメント概要のバージョン &#x200B;](assets/versions-section.png)
 
 ## 新しい文書エクスペリエンスの文書の概要
 
@@ -154,7 +160,7 @@ ht-degree: 39%
 承認とFrame.ioについて詳しくは、「
 
 * [レビューと承認の統合を始める](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-* [ ドキュメントのレビューまたは承認リクエストを作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+* [&#x200B; ドキュメントのレビューまたは承認リクエストを作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 ![新しいドキュメント エクスペリエンスでのドキュメントの概要の承認](assets/summary-approvals.png)
 
@@ -174,7 +180,7 @@ ht-degree: 39%
 * バージョンを共有
 * バージョンを削除
 
-![新しいドキュメント エクスペリエンスのドキュメント概要バージョン ](assets/summary-versions.png)
+![新しいドキュメント エクスペリエンスのドキュメント概要バージョン &#x200B;](assets/summary-versions.png)
 
 ### 履歴
 
