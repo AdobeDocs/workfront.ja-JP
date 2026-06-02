@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 2%
+source-wordcount: '1665'
+ht-degree: 1%
 
 ---
 
@@ -50,6 +50,18 @@ Workspace managers can modify views in sample workspaces.
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
 -->
+
+## 「プランニング」ランディングページに追加された新しいサンプルワークスペースのタブ
+
+>[!NOTE]
+>
+>プレビュー：2026年6月1日> プロダクションの迅速なリリース：2026年6月11日>全員のプロダクション：2026年7月16日
+
+「プランニング」ランディングエリアに「サンプルワークスペース」タブが追加され、ベストプラクティスワークスペースの例を表示できるようになりました。 ワークスペースは編集できません。 Workspaceのマネージャーは、サンプルワークスペースのビューを変更できます。 このタブは、標準ユーザーおよびシステム管理者ユーザーに対して表示されます。
+
+サンプル ワークスペースを例として表示し、マルチワークスペース テンプレート バンドルを使用して、そのテンプレートを使用した結果のワークスペースを作成、編集、共有することをお勧めします。  テンプレートバンドルには、「サンプルワークスペース」タブと同じワークスペースが含まれています。
+
+詳しくは、[&#x200B; ワークスペースの概要](/help/quicksilver/planning/architecture/workspaces-overview.md)を参照してください。
 
 ## Workfront Planning API バージョン 2
 
