@@ -6,11 +6,23 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c33c023ab33a3b0c8369e6fae091d0ec877aa4e2
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: 1720
 ht-degree: 9%
 
 ---
@@ -125,6 +137,8 @@ maybe use the Share record types as example here and touch on the same points: h
 ユーザーがワークスペースまたはレコードタイプに対するContribute権限を持っている場合、そのレコードタイプのレコードに対する管理権限を受け取ります。
 * ワークスペースからエンティティを削除すると、そのワークスペース内のレコードタイプとすべてのレコードからすべての共有権限が削除されます。
 * ワークスペースまたはレコードタイプに対する権限を持たないユーザーとレコードを共有することはできません。
+
+  ワークスペース内にいないユーザーとレコードを共有すると、レコードは自動的にワークスペースに追加されます。
 * レコードへのユーザーのアクセスは、次の3つの設定の組み合わせによって決定されます。
 
    * その権限は、レコードタイプとワークスペースから継承されます
@@ -149,7 +163,7 @@ maybe use the Share record types as example here and touch on the same points: h
 
 * 1つのレコードに対して継承された権限を無効にできます。その場合、個々のレコードに対してselect ユーザー権限を付与したり、ワークスペースに属しているユーザーがワークスペースに属している場合は、**ワークスペース内のすべてのユーザーが表示できる** オプションが原因で権限を取得したりできます。
 
-* 同じユーザーに複数の共有権限が適用される場合、それらの権限の中で最も高い権限が付与されます。
+* 同じユーザーに対して複数の共有権限が適用される場合、それらの権限の最高レベルが付与されます。
 
   例えば、レコードが表示権限を持つユーザーと共有され、管理アクセス権を持つグループに割り当てられている場合、そのレコードに対する管理権限を受け取ります。
 
