@@ -329,7 +329,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-新機能と更新点について詳しくは、[API バージョン 12 の新機能](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)を参照してください。
+新機能と更新点について詳しくは、[API バージョン 12 の新機能](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)を参照してください。
 
 API のバージョンについて詳しくは、[API のバージョン管理とサポートのスケジュール](../../../wf-api/api/api-version-support-schedule.md)を参照してください。
 
@@ -382,4 +382,4 @@ Workfront 20.4 リリースウェビナーは、2020年10月28日（水）午前
 
 Workfront One を使用すると、Workfront の重要なコンテンツ、リソース、ニュースをすべて 1 か所で、1 回のログインで見つけることができます。 エクスペリエンス、コミュニティ、トレーニングの各サイトを統合し、探しているものを見つけやすくしました。
 
-[Workfront One の詳細](https://business.adobe.com/products/workfront.html)
+[Workfront One の詳細](https://business.adobe.com/jp/products/workfront.html)

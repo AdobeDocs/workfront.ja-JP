@@ -40,4 +40,4 @@ ht-degree: 85%
 
 Workfront Proof システムから直接送信されるメールは変更されません。 これらのメールは、これまでと同様に引き続き受信します。
 
-その他のご質問やご不明な点は、[Workfront サポートチーム](https://experienceleague.adobe.com/?support-tab=home&lang=ja#support)にお問い合わせください。
+その他のご質問やご不明な点は、[Workfront サポートチーム](https://experienceleague.adobe.com/ja?support-tab=home&lang=ja#support)にお問い合わせください。
