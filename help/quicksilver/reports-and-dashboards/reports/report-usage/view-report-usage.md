@@ -6,12 +6,17 @@ description: レポートの使用状況を表示
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ww8outnwul3nadY343i2Z2vPqTuSFUzf1yNscwP-7zk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 96%
+source-wordcount: 968
+ht-degree: 95%
 
 ---
 
@@ -28,7 +33,7 @@ ht-degree: 96%
 
   >[!NOTE]
   >
-  >Adobe Workfront は、1 日に 1 人のユーザーにつき 1 回の表示とカウントします。ユーザーが同じレポートに 1 日に複数回アクセスしても、Workfront ではそのレポートを 1 回の表示とカウントします。同じ日に別のユーザーが同じレポートにアクセスすると、Workfront はこれを 2 人目のユーザーの新規表示としてカウントします。
+  >Adobe Workfront は、1 日に 1 人のユーザーにつき 1 回の表示とカウントします。 ユーザーが同じレポートに 1 日に複数回アクセスしても、Workfront ではそのレポートを 1 回の表示とカウントします。 同じ日に別のユーザーが同じレポートにアクセスすると、Workfront はこれを 2 人目のユーザーの新規表示としてカウントします。
 
 * 最終表示日
 * 最終表示者ユーザー
@@ -74,7 +79,7 @@ ht-degree: 96%
 
 ## レポートの使用状況に関する情報を、レポートリストのビューに表示する
 
-1. Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
+1. Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
 
 1. レポートのリストで、**表示**&#x200B;ドロップダウンメニューをクリックします。
 1. （オプション）**レポートの使用状況**&#x200B;ビューをクリックすると、最も一般的なレポート使用状況情報が表示されます。\
@@ -103,7 +108,7 @@ ht-degree: 96%
 
 ## 使用情報によるレポートリストのフィルタリング {#filter-a-report-list-by-usage-information}
 
-1. Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
+1. Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
 1. レポートのリストで、**フィルター**&#x200B;ドロップダウンメニューをクリックします。
 1. 「**新規フィルター**」をクリックし、次に「**フィルター規則の追加**」をクリックします。
 1. 次のフィールドのいずれかに入力を開始し、**報告書**&#x200B;オブジェクトの下のリストに表示されたら、それらを選択して、新しいフィルター規則として追加します。
@@ -123,25 +128,25 @@ ht-degree: 96%
 1. 「**フィルターの保存**」をクリックします。\
    これにより、定義した使用情報に合致するレポートのリストが表示されます。\
    また、レポートオブジェクトのレポートを作成し、このフィルターをレポートで使用することもできます。\
-   レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事を参照してください。レポートを作成するには、アクセスレベルにレポートへの編集アクセス権が必要です。\
+   レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事を参照してください。 レポートを作成するには、アクセスレベルにレポートへの編集アクセス権が必要です。\
    レポートへのアクセス権について詳しくは、[レポート、ダッシュボード、カレンダーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)の記事を参照してください。
 
 ## レポート使用情報を閲覧する際の例外
 
 >[!IMPORTANT]
 >
->レポート使用情報は、2018年3月以降に収集されています。この日付より前の情報は入手できません。
+>レポート使用情報は、2018年3月以降に収集されています。 この日付より前の情報は入手できません。
 
 レポート使用情報を扱う際に留意すべき例外は次のとおりです。
 
-* レポートがダッシュボードやカスタムタブに表示されるたびに、1 つのビューとしてカウントされます。そのレポートをダッシュボードに表示しているユーザーが「最終表示者」ユーザーとして表示され、ダッシュボードが表示された日付が最終表示日として表示されます。
+* レポートがダッシュボードやカスタムタブに表示されるたびに、1 つのビューとしてカウントされます。 そのレポートをダッシュボードに表示しているユーザーが「最終表示者」ユーザーとして表示され、ダッシュボードが表示された日付が最終表示日として表示されます。
 * Workfront では、ビルトインのレポートの使用情報を収集しません。\
   Workfront のビルトインのレポートについて詳しくは、[Adobe Workfront のビルトインのレポートの使用](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)を参照してください。
 
-* Workfront では、配信されたレポートの使用情報を収集しません。配信されたレポートは 1 つのビューとしてカウントされません。\
+* Workfront では、配信されたレポートの使用情報を収集しません。 配信されたレポートは 1 つのビューとしてカウントされません。\
   配信されたレポートについて詳しくは、[レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)の記事を参照してください。
 
 * システム管理者またはグループ管理者が別のユーザーとしてログインすると、ビューがカウントされ、そのシステム管理者またはグループ管理者に関連付けられます。
-* Workfront では、レポートの使用情報をカスタム四半期ごとに収集しません。レポート使用フィールドでは、ビルトインの標準四半期のみが参照されます。
-* Workfront では、共有され公開されているレポートの使用情報を収集しません。ユーザーが Workfront にログインせずに公開レポートを閲覧した場合、そのレポートの表示回数はカウントされません。\
+* Workfront では、レポートの使用情報をカスタム四半期ごとに収集しません。 レポート使用フィールドでは、ビルトインの標準四半期のみが参照されます。
+* Workfront では、共有され公開されているレポートの使用情報を収集しません。 ユーザーが Workfront にログインせずに公開レポートを閲覧した場合、そのレポートの表示回数はカウントされません。\
   レポートの共有について詳しくは、[Adobe Workfront でのレポートの共有](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)の記事を参照してください。

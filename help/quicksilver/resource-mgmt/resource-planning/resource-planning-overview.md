@@ -2,16 +2,20 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: "リソース計画：記事索引"
+title: リソース計画：記事インデックス
 description: この節の記事には、Adobe Workfront のリソース領域のプランナーセクションとリソースプールセクションの機能に関する情報が含まれています。
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 21ffaa14-435d-46f3-bfdd-823fa616df5a
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+TQID: https://experienceleague.adobe.com/cb6LwMjZZtsTQHV68s3iuhld-GK4uWv06KzRLcOwGp0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 98%
+source-wordcount: 207
+ht-degree: 100%
 
 ---
 

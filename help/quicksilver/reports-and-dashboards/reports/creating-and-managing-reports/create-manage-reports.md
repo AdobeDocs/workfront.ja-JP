@@ -8,11 +8,15 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/f5UHm-kbN9NKmEBF1kgDzT-XzWhI-OQPyO-DvnGIQN4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: 131
 ht-degree: 89%
 
 ---
@@ -28,7 +32,7 @@ ht-degree: 89%
 * [レポートの実行](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
 * [マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
 * [レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-* [時間枠でレポートをフィルタリング &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
+* [時間枠でレポートをフィルタリング ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
 * [レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [レポートへのグラフの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
 * [レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)
@@ -41,7 +45,7 @@ ht-degree: 89%
 * [一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
 * [レポート設定の編集](../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
 * [レポートの所有者の変更](../../../reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-* [&#x200B; ジャーナルエントリレポートを使用した更新領域に関するレポート &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+* [ ジャーナルエントリレポートを使用した更新領域に関するレポート ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
 * [ユーザーのデリゲーションレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
 
 <!--outdated: For in-depth training on reports, see [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

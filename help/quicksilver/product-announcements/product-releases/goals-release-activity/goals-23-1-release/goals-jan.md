@@ -7,10 +7,13 @@ description: このページでは、Adobe Workfront Goals の 23.1 リリース
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/-ilB35Fvr1FF937vPOfsw0UHkAVu98-VU39sX5W47iQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 92%
+source-wordcount: 327
+ht-degree: 76%
 
 ---
 
@@ -28,13 +31,13 @@ ht-degree: 92%
 
 Workfront の他の機能とより一貫したエクスペリエンスを作成し、目標を簡単に確認して作業できるように、Workfront Goals をアップデートしました。 Workfront Goals のルックアンドフィールは、Workfront の他の領域に類似したものとなります。
 
-ヘッダー、リスト、詳細カードなどの領域が、Workfront でのエクスペリエンスと馴染みがあり、一貫性のあるものとなりました。
-個人の目標を各自のページで開き、左側のパネルに以下のセクションを追加して、ナビゲーションや更新を容易に行えるようにしました。
+これで、ヘッダー、リスト、詳細カードなどの領域が、Workfrontでのエクスペリエンスと一致するようになりました。
+個々の目標は独自のページで開き、左側のパネルに次のセクションを追加して、簡単にナビゲーションと更新を行えるようにしました。
 
 * **目標の詳細**：目標の説明、進行状況、日付、親の目標情報などの情報を表示します。 詳しくは、「[Adobe Workfront Goals での目標の編集](/help/quicksilver/workfront-goals/goal-management/edit-goals.md)」を参照してください。
 * **進行状況指標**：進行状況の指標をリストに表示します。 これらの指標は、インラインで編集したり、編集ウィンドウを開いて編集したり、この領域から削除したりできます。 詳しくは、「[Adobe Workfront Goals での結果とアクティビティの編集](/help/quicksilver/workfront-goals/results-and-activities/edit-results-and-activities.md)」を参照してください。
-* **更新**：目標の更新セクションに新しいコメント付け機能が導入され、ユーザーのコメントとシステムのアクティビティに関するメモが 2 つの異なるタブに表示されるようになりました。 詳しくは、「[Adobe Workfront Goals での目標コメントの管理](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)」を参照してください。
-目標を共有、編集、削除、コピーする方法は、Workfront で他のオブジェクトに対してこれらのアクションを実行する場合と似ています。
+* **更新**：目標の「更新」セクションに新しいコメント機能が導入され、ユーザーのコメントとシステム活動のメモが2つの別のタブに表示されるようになりました。詳しくは、[Adobe Workfront Goalsでの目標コメントの管理](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)を参照してください。
+目標の共有、編集、削除またはコピーは、Workfrontの他のオブジェクトに対してこれらの操作を実行する方法と似ています。
 
 >[!IMPORTANT]
 >

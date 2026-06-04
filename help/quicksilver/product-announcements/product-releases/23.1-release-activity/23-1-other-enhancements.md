@@ -6,16 +6,21 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/5SjbF4tftb0c9nmRWo5TNNVlmtDofkavvw-y7XprcRY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 100%
+source-wordcount: 773
+ht-degree: 98%
 
 ---
 
 # 23.1 その他の機能強化
 
-このページでは、23.1 リリースでプレビュー環境に対して行われたその他すべての機能強化について説明します。これらの機能強化は、2023年1月16日の週に実稼動環境で利用可能になる予定です。
+このページでは、23.1 リリースでプレビュー環境に対して行われたその他すべての機能強化について説明します。 これらの機能強化は、2023年1月16日の週に本番環境で利用可能になる予定です。
 
 23.1 リリースで使用可能なすべての変更点の一覧について詳しく、[23.1 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)を参照してください。
 
@@ -33,7 +38,7 @@ Marketplace で [Adobe Workfront for design and video](https://exchange.adobe.co
 
 ## Adobe Workfront で一般に利用可能な拡張フィルターエクスペリエンス
 
-2022年8月に、プロジェクト、タスクおよびイシューリストに関するフィルターエクスペリエンスへのアップグレードがパブリックベータ版にリリースされました。ほとんどのリストで、フィルター機能が強化されました。（これらのリストをすべて確認するには、[23.1 ルックアンドフィールのアップデートに関するリリースノート](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)）をご確認ください。
+2022年8月に、プロジェクト、タスクおよびイシューリストに関するフィルターエクスペリエンスへのアップグレードがパブリックベータ版にリリースされました。 ほとんどのリストで、フィルター機能が強化されました。 （これらのリストをすべて確認するには、[23.1 ルックアンドフィールのアップデートに関するリリースノート](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)）をご確認ください。
 
 23.1 リリースの「高速フォロー」として、強化されたフィルターエクスペリエンスは一般に利用可能になり、2023年2月／3月の期間に標準フィルタービルダーになります。
 
@@ -45,21 +50,21 @@ Marketplace で [Adobe Workfront for design and video](https://exchange.adobe.co
 
 これらの機能により、キュレーションされたフィルターリストがパブリックベータ版フィルターに正しく表示されない問題を修正しました。
 
-フィルターパネルでリストを有効にすることで、リストの従来のフィルターにアクセスできます。従来のフィルターは、今後リストで非推奨となりますが、拡張フィルターはレポートでは使用できないので、レポートでは引き続き使用できます。
+フィルターパネルでリストを有効にすることで、リストの従来のフィルターにアクセスできます。 従来のフィルターは、今後リストで非推奨となりますが、拡張フィルターはレポートでは使用できないので、レポートでは引き続き使用できます。
 
-拡張フィルターとビデオデモについて詳しくは、[フィルターパブリックベータリリースノート](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)を参照してください。
+拡張フィルターとビデオデモについて詳しくは、[フィルターのパブリックベータリリースノート](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)を参照してください。
 
 ## インターフェイス／フィルター、ビューおよびグループ化の新しいリスト制御機能
 
-「設定」エリアのフィルター、ビュー、グループ化ページにリストコントロール機能を追加しました。ここで、レイアウトテンプレートのフィルター、ビューおよびグループ化を有効または無効にできます。
+「設定」エリアのフィルター、ビュー、グループ化ページにリストコントロール機能を追加しました。 ここで、レイアウトテンプレートのフィルター、ビューおよびグループ化を有効または無効にできます。
 
 詳しくは、[デフォルトのフィルター、ビューおよびグループ化の作成、編集および共有](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)を参照してください。
 
-[この機能のデモビデオを見る](https://video.tv.adobe.com/v/3412057/){target=_blank}
+[この機能のデモ動画を見る](https://video.tv.adobe.com/v/3412057/){target=_blank}
 
 ## デザインおよびビデオ用 Adobe Workfront の導入
 
-Adobe Premiere Pro および After Effectsを含めた InDesign プラグインの Adobe Workfront 拡張をお知らせします。プラグインの名前は、デザインおよびビデオ用 Adobe Workfront に変更されます。
+Adobe Premiere Pro および After Effectsを含めた InDesign プラグインの Adobe Workfront 拡張をお知らせします。 プラグインの名前は、デザインおよびビデオ用 Adobe Workfront に変更されます。
 
 アップデートされたデザインおよびビデオ用 Adobe Workfront プラグインは、InDesign、Premiere Pro および After Effects をサポートするようになりました。Illustrator への対応は近日中に開始となります。
 
@@ -96,4 +101,4 @@ Adobe Experience League で Workfront ヘルプにアクセスするには、次
 
 詳しくは、[ページを固定してワークスペースをカスタマイズ](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md)を参照してください。
 
-[この機能のデモンストレーションをビデオで見る](https://video.tv.adobe.com/v/3412389/){target=_blank}
+[この機能のデモ動画を見る](https://video.tv.adobe.com/v/3412389/){target=_blank}

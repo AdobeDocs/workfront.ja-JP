@@ -5,9 +5,12 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: 9a705b985177489bf13181e8b36a6c52379d1251
+TQID: https://experienceleague.adobe.com/ulNcq0pM3iF92IAHGiB0-zpPYiRoUkyG2idj-rtJoRg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: 208
 ht-degree: 93%
 
 ---
@@ -34,4 +37,4 @@ ht-degree: 93%
 
 プロジェクト、タスクおよびイシューをより直感的に共有できるように、「共有」オプションがその他メニューから取り出されました。 新しい「共有」ボタンが、その他メニューの直前に、オブジェクト名の横に表示されるようになりました。 ドキュメント、ポートフォリオおよびプログラムの共有に変更はありません。
 
-オブジェクトの共有のについて詳しくは、[オブジェクトの共有](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)を参照してください。
+オブジェクトの共有のについて詳しくは、[オブジェクトの共有](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)を参照してください。

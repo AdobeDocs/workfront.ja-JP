@@ -3,15 +3,20 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：全日付差異を含むタスク
-description: このタスクビューは、Adobe Workfront アカウントで提供される「すべての日付」ビューに似ています。このビューには、2 つの日付の間の日数の差を計算する、差異列が含まれています。
+description: このタスクビューは、Adobe Workfront アカウントで提供される「すべての日付」ビューに似ています。 このビューには、2 つの日付の間の日数の差を計算する、差異列が含まれています。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/U30RkUB3sKKPc-NHovLd-PFsfR8eTUBWOOf0vQuO-s8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: 314
 ht-degree: 79%
 
 ---
@@ -20,14 +25,14 @@ ht-degree: 79%
 
 <!--Audited: 11/2024-->
 
-このタスクビューは、Adobe Workfront アカウントで提供される「すべての日付」ビューに似ています。このビューには、次の日付の間の日数の差を計算する&#x200B;*差異*&#x200B;列が含まれています。
+このタスクビューは、Adobe Workfront アカウントで提供される「すべての日付」ビューに似ています。 このビューには、次の日付の間の日数の差を計算する&#x200B;*差異*&#x200B;列が含まれています。
 
 * 開始予定日と見込み開始日
 * 開始予定日と実際の開始日
 * 完了予定日と見込み完了日
 * 完了予定日と実際の完了日
 
-このビューは、2 つの異なる列の値を入手して計算することで、3 つ目の値が取得される計算列の例を表します。ここでは、日付 2 から日付 1 が差し引かれます。
+このビューは、2 つの異なる列の値を入手して計算することで、3 つ目の値が取得される計算列の例を表します。 ここでは、日付 2 から日付 1 が差し引かれます。
 
 ビューでの計算の使用について詳しくは、[テキストモードの一般的な使用の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)の[テキストモードの一般的な使用の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)を参照してください。
 

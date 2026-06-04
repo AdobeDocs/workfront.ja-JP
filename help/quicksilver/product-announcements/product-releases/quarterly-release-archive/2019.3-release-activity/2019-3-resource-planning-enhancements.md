@@ -2,21 +2,24 @@
 content-type: release-notes
 navigation-topic: 2019-3-release-activity
 title: 2019.3 リソース計画の機能強化
-description: このページでは、2019.3 リリースで行われたリソース計画の機能強化に関するすべての変更について説明します。2019年8月19日（PT）の週に、実稼動環境で使用できるようになりました。
+description: このページでは、2019.3 リリースで行われたリソース計画の機能強化に関するすべての変更について説明します。 2019年8月19日（PT）の週に、本番環境で使用できるようになりました。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 181174af-48b6-4b97-838d-f63551748b02
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/jBEBRx-RGLF4Rqrz9IguBu8-c4TSjGAuRB0U91okFlY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: 357
 ht-degree: 100%
 
 ---
 
 # 2019.3 リソース計画の機能強化
 
-このページでは、2019.3 リリースで行われたリソース計画の機能強化に関するすべての変更について説明します。2019年8月19日（PT）の週に、実稼動環境で使用できるようになりました。
+このページでは、2019.3 リリースで行われたリソース計画の機能強化に関するすべての変更について説明します。 2019年8月19日（PT）の週に、本番環境で使用できるようになりました。
 
 2019.3 で行われたすべての変更のリストについては、[2019.3 リリースアクティビティの概要](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)を参照してください。
 
@@ -42,7 +45,7 @@ ht-degree: 100%
 
 ## コスト率への財務データアクセスは、コスト別に表示されるリソースプランナーの情報に影響を与えます。
 
-Workfront 管理者は、役割、ユーザーやプロジェクトのコスト情報をリソースプランナーで表示または編集するためのアクセス権を持つユーザーを決定できるようになりました。この機能は、アクセスレベルの財務データエリアで使用できます。
+Workfront 管理者は、役割、ユーザーやプロジェクトのコスト情報をリソースプランナーで表示または編集するためのアクセス権を持つユーザーを決定できるようになりました。 この機能は、アクセスレベルの財務データエリアで使用できます。
 
 この変更以前は、すべてのコスト情報は、常にリソースプランナーのすべてのユーザーが利用できました。
 

@@ -3,14 +3,18 @@ content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: リソース管理の概要
-description: リソース管理者は、リソース管理により、現在利用可能な個々のワーカーが最優先の作業に対して確実に予算配分できるようにビジネス上の決定を下すことができます。リソース管理は担当業務レベルから始まるかもしれませんが、最終的にはユーザーとその利用不足または過剰なコミットメントに関係します。
+description: リソース管理者は、リソース管理により、現在利用可能な個々のワーカーが最優先の作業に対して確実に予算配分できるようにビジネス上の決定を下すことができます。 リソース管理は担当業務レベルから始まるかもしれませんが、最終的にはユーザーとその利用不足または過剰なコミットメントに関係します。
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+TQID: https://experienceleague.adobe.com/LI7TgU-LLWu08plGLZ-VsrBIzzdNIGZdRhthb-rYOvs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: 130
 ht-degree: 97%
 
 ---

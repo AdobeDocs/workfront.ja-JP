@@ -3,15 +3,20 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: グループ化：リストへの 4 番目のグループの追加
-description: マトリックスレポートでは、4 つのグループを作成できます。マトリックスレポートについて詳しくは、「マトリックスレポートの作成」を参照してください。
+description: マトリックスレポートでは、4 つのグループを作成できます。 マトリックスレポートについて詳しくは、「マトリックスレポートの作成」を参照してください。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 1147a47b-c6e2-496e-b202-eefeb500054e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/XhsCuimYfSyknYgvpaLJRUmJyo82-AS--w4yOxlKSCY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 249
 ht-degree: 85%
 
 ---
@@ -20,9 +25,9 @@ ht-degree: 85%
 
 <!--Audited: 10/2024-->
 
-マトリックスレポートでは、4 つのグループを作成できます。マトリックスレポートについて詳しくは、[マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)を参照してください。
+マトリックスレポートでは、4 つのグループを作成できます。 マトリックスレポートについて詳しくは、[マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)を参照してください。
 
-標準インターフェイスを使用した標準レポートでは、グループは 3 しか作成できません。標準レポートに 4 番目のグループを追加するには、テキストモードを使用する必要があります。
+標準インターフェイスを使用した標準レポートでは、グループは 3 しか作成できません。 標準レポートに 4 番目のグループを追加するには、テキストモードを使用する必要があります。
 
 ![Four_groupings_in_a_standard_report.png](assets/four-tier-grouping-for-tasks-350x239.png)
 

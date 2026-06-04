@@ -5,11 +5,14 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/qdVmrTCD63HS9EMkY8zyFXHZqN9Z2oPY1Z3qC0BR-Vw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: 216
 ht-degree: 18%
 
 ---
@@ -24,7 +27,7 @@ ht-degree: 18%
 
 Chromium 130.0.6723.152を使用する最新バージョンのElectron 33.3.0でDesktop Viewerをアップデートしました。
 
-デスクトップ校正ビューアのインストールについて詳しくは、[&#x200B; デスクトップ校正ビューアのインストール &#x200B;](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)を参照してください。
+デスクトップ校正ビューアのインストールについて詳しくは、[ デスクトップ校正ビューアのインストール ](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)を参照してください。
 
 
 最新バージョン：2.1.44
@@ -39,4 +42,4 @@ Chromium 130.0.6723.152を使用する最新バージョンのElectron 33.3.0で
 
 新しいAdobe Workfront レビューツールは、すべての一般的なブラウザーでのZIP コンテンツのレビューをサポートしています。 ZIP コンテンツに加えて、新しい拡張機能はURL コンテンツのレビューもサポートし、現在ベータ版です。
 
-新しい拡張機能をインストールするには、[Adobe Workfront レビューツールでインタラクティブコンテンツをレビュー](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)の「[拡張機能をインストール &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)」の節を参照してください。
+新しい拡張機能をインストールするには、[Adobe Workfront レビューツールでインタラクティブコンテンツをレビュー](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)の「[拡張機能をインストール ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)」の節を参照してください。

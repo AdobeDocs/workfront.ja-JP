@@ -1,46 +1,49 @@
 ---
-title: 2026 年第 1 四半期の統合の強化
-description: 2026 年第 1 四半期の統合の強化
+title: 2026年第 1 四半期の統合の機能強化
+description: 2026年第 1 四半期の統合の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
+exl-id: 2ea9c93c-fae4-47da-ae34-39b73ce85a3c
+TQID: https://experienceleague.adobe.com/bTUJTZd4KSYmY75T1Q22USVhidJL9XEXk0F5mzAg174
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 19%
+source-wordcount: 184
+ht-degree: 95%
 
 ---
 
-# 2026 年第 1 四半期の統合の強化
+# 2026年第 1 四半期の統合の機能強化
 
-このページでは、2026 年第 1 四半期リリースで行われた、プレビュー環境に対する統合の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
+このページでは、プレビュー環境の 2026年第 1 四半期リリースで行われた統合の機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2026年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2026年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)を参照してください。
 
 
-## Creative Cloud Express でレビューを送信する際のWorkfront プロジェクトの選択
+## Creative Cloud Express でレビューを送信する際の Workfront プロジェクトの選択
 
 >[!NOTE]
 >
->プレビュー：2025 年 12 月 15 日（PT）
->実稼動高速リリース：2025 年 12 月 15 日（PT）\
->すべてのユーザー向けの実稼動：2025 年 12 月 15 日（PT）
+>プレビュー：2025年12月15日>実稼動高速リリース：2025年12月15日\
+>実稼動（全ユーザー）：2025年12月15日（PT）
 
-配達確認を送信するWorkfront プロジェクトを選択できます。 これにより、関連するすべてのアセットとプルーフを同じプロジェクト内で整理できます。
+プルーフを送信する Workfront プロジェクトを選択できます。 これにより、関連するすべてのアセットとプルーフを同じプロジェクト内で整理できます。
 
 以前は、プルーフは Express 固有のプロジェクトに自動的に追加されていました。
 
-詳しくは、[Adobe ExpressとWorkfront Proofの統合 &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。
+詳しくは、[Adobe Express と Workfront Proof の統合](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)を参照してください。
 
-## Adobe Workfront for Experience Manager Assetsのネイティブ統合用にアセットセレクターを更新しました
+## Experience Manager Assets ネイティブ統合用の Adobe Workfront のアセットセレクターのアップデート
 
 >[!NOTE]
 >
->プレビュー：2025 年 11 月 20 日（PT）
->実稼動高速リリース：2025 年 12 月 11 日（PT）\
->すべてのユーザー向けの実稼動：2026 年 1 月 16 日（PT）
+>プレビュー：2025年11月20日>実稼動高速リリース：2025年12月11日\
+>実稼動（全ユーザー）：2026年1月16日（PT）
 
-Adobe Workfront for Experience Manager Assets統合のアセットセレクターをアップグレードしました。 このアップグレードにより、AEM コレクションを選択してWorkfrontに直接取り込むことができるようになりました。
+Experience Manager Assets 統合用の Adobe Workfront のアセットセレクターをアップグレードしました。 このアップグレードにより、AEM コレクションを選択して Workfront に直接取り込むことができるようになりました。
 
 <!--
 
@@ -61,4 +64,3 @@ To stay up-to-date with recent changes to the Workfront API, we've created a new
 For instructions and links for downloading and installing the new integration, see [Install Adobe Workfront for Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
 -->
-

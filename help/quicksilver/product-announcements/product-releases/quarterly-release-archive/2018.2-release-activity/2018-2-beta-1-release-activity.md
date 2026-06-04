@@ -2,25 +2,29 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.2 Beta 1 リリースアクティビティ
-description: このページでは、2018.2 Beta 1 リリースのプレビュー環境で利用可能な最新の変更についてすべて説明します。この機能は、2018年3月22日（PT）にプレビュー環境で使用できるようになりました。2018年6月に、実稼動環境で利用できるようになります。
+description: このページでは、2018.2 Beta 1 リリースのプレビュー環境で利用可能な最新の変更についてすべて説明します。 この機能は、2018年3月22日（PT）にプレビュー環境で使用できるようになりました。 2018年6月に、本番環境で利用できるようになります。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+TQID: https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 1178
+ht-degree: 100%
 
 ---
 
 # 2018.2 Beta 1 リリースアクティビティ
 
-このページでは、2018.2 Beta 1 リリースのプレビュー環境で利用可能な最新の変更についてすべて説明します。この機能は、2018年3月22日（PT）にプレビュー環境で使用できるようになりました。2018年6月に、実稼動環境で利用できるようになります。
+このページでは、2018.2 Beta 1 リリースのプレビュー環境で利用可能な最新の変更についてすべて説明します。 この機能は、2018年3月22日（PT）にプレビュー環境で使用できるようになりました。 2018年6月に、本番環境で利用できるようになります。
 
 >[!IMPORTANT]
 >
->このページで説明する機能は、実稼動環境で使用可能になる前に変更される場合があります。
+>このページで説明する機能は、本番環境で使用可能になる前に変更される場合があります。
 
 2018.2 で行われたすべての変更のリストについては、[2018.2 リリースアクティビティの概要](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)を参照してください。
 
@@ -37,7 +41,7 @@ ht-degree: 0%
 
 ## ガントチャートのタスクの日付の変更 {#modify-task-dates-in-the-gantt-chart}
 
-タスクバブルをドラッグして、ガントチャートの予定開始日と予定完了日を変更できるようになりました。この変更により、タイムラインに影響を与えることなく、プロジェクトに what-if シナリオを適用できます。
+タスクバブルをドラッグして、ガントチャートの予定開始日と予定完了日を変更できるようになりました。 この変更により、タイムラインに影響を与えることなく、プロジェクトに what-if シナリオを適用できます。
 
 この変更を行う前は、タスクリストまたはタスクレベルでのみタスクの日付を変更できました。
 
@@ -49,7 +53,7 @@ ht-degree: 0%
 >
 >この機能は、プレビュー環境から一時的に削除されました。
 
-「更新」タブから新しいプロジェクトのガントチャートにアクセスできるようになりました。ユーザーが、プロジェクトタイムラインに影響を与えるようにタスクのコミット日を変更した場合、プロジェクトのガントチャートでその影響を確認できます。
+「更新」タブから新しいプロジェクトのガントチャートにアクセスできるようになりました。 ユーザーが、プロジェクトタイムラインに影響を与えるようにタスクのコミット日を変更した場合、プロジェクトのガントチャートでその影響を確認できます。
 
 この変更を行う前は、「プロジェクトのタイムライン」のリンクをクリックすると、従来のガントチャートが開きました。
 
@@ -59,7 +63,7 @@ ht-degree: 0%
 
 ## ドキュメントリスト上のドキュメントに様々なリンクを再導入 {#various-links-re-introduced-to-documents-on-the-document-list}
 
-18.1 リリースでは、様々なリンクがドキュメントリスト上のドキュメントから削除され、インターフェイスの他のエリアに移動されました（ドキュメント名の横のボタンや、ボタンのドロップダウンメニューで表示されました）。次のリンクは、本リリースでドキュメント名の下に再導入され、ドキュメントリスト内の個々のドキュメントで使用できるようになりました。
+18.1 リリースでは、様々なリンクがドキュメントリスト上のドキュメントから削除され、インターフェイスの他のエリアに移動されました（ドキュメント名の横のボタンや、ボタンのドロップダウンメニューで表示されました）。 次のリンクは、本リリースでドキュメント名の下に再導入され、ドキュメントリスト内の個々のドキュメントで使用できるようになりました。
 
 * プルーフを生成（プルーフが生成されていない場合に使用可能）
 * プルーフを開く（プルーフが生成されたときに使用可能）
@@ -92,7 +96,7 @@ ht-degree: 0%
 
 * ユーザービュー使用時の、リソースプランナーからのデータの書き出し。
 
-この改善が行われる前は、リソースプランナーの読み込みが遅く、表示されるデータに不一致が見られるとの報告がありました。上記の改善により、これらの問題は解消されたはずです。
+この改善が行われる前は、リソースプランナーの読み込みが遅く、表示されるデータに不一致が見られるとの報告がありました。 上記の改善により、これらの問題は解消されたはずです。
 
 リソースプランナーのエリアの詳細は、[リソースプランナーのナビゲーションの概要](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)を参照してください。
 
@@ -102,9 +106,9 @@ ht-degree: 0%
 
 ## 新しいプロジェクトリストエクスペリエンス {#new-project-list-experience}
 
-プロジェクトのリストを表示する際に、新しいエクスペリエンスを使用できるようになりました。このエクスペリエンスには、パフォーマンスの向上と、よりスムーズで迅速なリストナビゲーションが含まれます。Workfront のプロジェクトエリアにある「プロジェクト」タブのリストのみが、この新しいエクスペリエンスに更新されています。
+プロジェクトのリストを表示する際に、新しいエクスペリエンスを使用できるようになりました。 このエクスペリエンスには、パフォーマンスの向上と、よりスムーズで迅速なリストナビゲーションが含まれます。 Workfront のプロジェクトエリアにある「プロジェクト」タブのリストのみが、この新しいエクスペリエンスに更新されています。
 
-大部分は、リストの速度と効率が変更されます。次の表示に関する変更も追加されました。
+大部分は、リストの速度と効率が変更されます。 次の表示に関する変更も追加されました。
 
 * リストには、デフォルトで最大 2,000 個の項目が表示されます。
 
@@ -129,9 +133,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->一部のユーザーでは、プレビュー環境で新しい「更新」タブが表示されない場合があります。現在、アドビの開発チームは、可能な限り早く問題のトラブルシューティングを行い、問題解決に至るまでの作業を進めています。
+>一部のユーザーでは、プレビュー環境で新しい「更新」タブが表示されない場合があります。 現在、アドビの開発チームは、可能な限り早く問題のトラブルシューティングを行い、問題解決に至るまでの作業を進めています。
 
-「更新」タブのルックアンドフィールが変更され、インターフェイスの他のエリアとの統一感が増しました。この変更は、プロジェクト、タスク、イシューおよびドキュメントに適用されます。
+「更新」タブのルックアンドフィールが変更され、インターフェイスの他のエリアとの統一感が増しました。 この変更は、プロジェクト、タスク、イシューおよびドキュメントに適用されます。
 
 次の表に、「更新」タブに加えられたアップデートを示します。
 
@@ -158,13 +162,13 @@ ht-degree: 0%
   <tr> 
    <td> <p>「更新」タブでのシステム更新をフィルタリングで除外</p> </td> 
    <td> <p>「システム更新をフィルタリング」リンクをクリック</p> </td> 
-   <td> <p>「アクティビティログを表示」切り替えスイッチを無効にする</p> </td> 
+   <td> <p>「アクティビティログを表示」切替スイッチを無効にする</p> </td> 
    <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">作業を更新</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>「更新」タブでのシステム更新の表示</p> </td> 
    <td> <p>「すべての更新を表示」をクリック</p> </td> 
-   <td> <p>「アクティビティログを表示」切り替えスイッチを有効にする</p> </td> 
+   <td> <p>「アクティビティログを表示」切替スイッチを有効にする</p> </td> 
    <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">作業を更新</a> </p> </td> 
   </tr> 
   <tr> 
@@ -182,14 +186,14 @@ ht-degree: 0%
   <tr> 
    <td> <p>社外のユーザーに対してオブジェクトの表示を許可</p> </td> 
    <td> <p>ロックアイコンをクリック</p> </td> 
-   <td> <p>マイ会社の切り替えスイッチでプライベートを無効にする</p> </td> 
+   <td> <p>マイ会社の切替スイッチでプライベートを無効にする</p> </td> 
    <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">更新時の他のユーザーへのタグ付け</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>コメントまたは更新に対して返信または更新を追加</p> </td> 
    <td> <p>「コメント」ボタンをクリック</p> </td> 
    <td> <p>「返信」または「更新」ボタンをクリック</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">作業の更新</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">タスクのステータスの更新</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">タスクおよびイシューの状況の更新</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">ドキュメントへの更新の追加</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">作業の更新</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">タスクのステータスを更新</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">タスクおよびイシューの状況を更新</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">ドキュメントへの更新の追加</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -2,15 +2,19 @@
 product-area: reporting;user-management
 navigation-topic: create-and-manage-reports
 title: レポートの所有者の変更
-description: レポートの所有者は変更できません。ただし、レポートをコピーすると、コピーしたレポートの所有者に自動的になります。
+description: レポートの所有者は変更できません。 ただし、レポートをコピーすると、コピーしたレポートの所有者に自動的になります。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8089cbeb-4258-48b8-b13a-dfbd739c526a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ZXKW3rcsSogIBB1jIY2wuCmG-7-8sIz8tTl5MTJE2xs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: 176
 ht-degree: 100%
 
 ---
@@ -19,7 +23,7 @@ ht-degree: 100%
 
 <!-- Audited: 11/2024 -->
 
-レポートの所有者は変更できません。ただし、レポートをコピーすると、コピーしたレポートの所有者に自動的になります。
+レポートの所有者は変更できません。 ただし、レポートをコピーすると、コピーしたレポートの所有者に自動的になります。
 
 他の記事に移行した内容について詳しくは、以下を参照してください。
 

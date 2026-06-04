@@ -1,15 +1,20 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: リソース プールとユーザーの関連付け
-description: リソース プールをユーザーに関連付けるには、事前に作成する必要があります。 リソースプールを作成すると、ユーザーをリソースプールに関連付けることができます。
+title: リソースプールとユーザーの関連付け
+description: リソースプールをユーザーに関連付ける前に、リソースプールを作成する必要があります。 リソースプールを作成すると、ユーザーをリソースプールに関連付けることができます。
 author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/OQBqFxBx-VGQsWF-2yGgcZk1EO-ZQ0MAlMsSH3fiMZo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 85%
+source-wordcount: 435
+ht-degree: 92%
 
 ---
 
@@ -50,11 +55,11 @@ ht-degree: 85%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td> <p>リソース プール管理へのアクセスを含むリソース管理へのアクセスを編集します</p> <p>プロジェクト、テンプレート、ユーザーへのアクセスの編集</p></td> 
+   <td> <p>リソースプールを管理するアクセス権を含むリソース管理へのアクセス権の編集</p> <p>プロジェクト、テンプレート、ユーザーへのアクセスの編集</p></td> 
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 
-   <td>リソース プールを関連付けるプロジェクト、テンプレート、およびユーザーの権限の管理</td> 
+   <td>リソースプールを関連付けるプロジェクト、テンプレート、ユーザーの権限を管理します</td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +99,7 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   >このフィールドには、選択したすべてのユーザーに共通するリソースプールのみが表示されます。選択したユーザーに共有のリソースプールがない場合、このフィールドは空になります。このフィールドが空の場合、ここで指定したリソースプールは、個々のリソースプールを上書きします。
+   >このフィールドには、選択したすべてのユーザーに共通するリソースプールのみが表示されます。 選択したユーザーに共有のリソースプールがない場合、このフィールドは空になります。 このフィールドが空の場合、ここで指定したリソースプールは、個々のリソースプールを上書きします。
 
 1. 「**変更を保存**」をクリックします。
 

@@ -7,9 +7,12 @@ description: Workfront Goals は、実稼動環境への 20.3 リリースの新
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: a25cf5e7-72b9-432c-ab72-1a620475ce74
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/i8PDOY-Ix43EE-wcWt41HnrLQWr-Z0sekkPCbaNn7qo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: 255
 ht-degree: 100%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 100%
 
 Workfront Goals は、実稼動環境への 20.3 リリースの新しい Adobe Workfront エクスペリエンスでのみ使用できます。
 
-Workfront Goals を使用すると、戦略、目標、作業を調整し、組織全体での実行を促進し、測定可能なビジネス成果を実現できます。何を達成し、なぜ重要かを定義します。
+Workfront Goals を使用すると、戦略、目標、作業を調整し、組織全体での実行を促進し、測定可能なビジネス成果を実現できます。 何を達成し、なぜ重要かを定義します。
 
 Workfront Goals では、以下のことが可能になります。
 
@@ -34,7 +37,7 @@ Workfront Goals では、以下のことが可能になります。
 
   誰もが主要なイニシアチブに集中できるよう、目標ステータスを継続的にアップデートします。
 
-Workfront Goals は、戦略目標を作業に結び付けるのに役立ちます。会社の戦略的目標を設定する場合でも、会社の取り組みに対して仕事を計画して優先順位を付ける場合でも、Workfront Goals はお役に立ちます。目標を容易に設定し、組織全体でコミュニケーションを図ることで、チームが労力に優先順位を付け、その目標に照らして作業を評価できるようにします。
+Workfront Goals は、戦略目標を作業に結び付けるのに役立ちます。 会社の戦略的目標を設定する場合でも、会社の取り組みに対して仕事を計画して優先順位を付ける場合でも、Workfront Goals はお役に立ちます。 目標を容易に設定し、組織全体でコミュニケーションを図ることで、チームが労力に優先順位を付け、その目標に照らして作業を評価できるようにします。
 
 Workfront Gools を使用すると、単一のプラットフォームで目標をシームレスに設定および管理し、目標に照らして作業を評価して、以下のような質問に対する答えを得ることができます。
 

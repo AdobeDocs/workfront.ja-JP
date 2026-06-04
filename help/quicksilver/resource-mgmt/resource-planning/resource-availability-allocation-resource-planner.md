@@ -1,21 +1,27 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Adobe Workfront リソースプランナーを使用して、リソースの空き時間と割り当てを確認する
-description: リソースプランナーでは、リソースの空き時間と、プロジェクトの予定作業や予算計上作業の量を表示できます。これらの値は、時間、FTE（フルタイム換算）やコストの金額で表示され、列に編成されます。
+title: Adobe Workfront Resource Plannerを使用したリソースの可用性と割り当ての確認
+description: リソースプランナーでは、リソースの空き時間と、プロジェクトの予定作業や予算計上作業の量を表示できます。 これらの値は、時間、FTE（フルタイム換算）やコストの金額で表示され、列に編成されます。
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 97%
+source-wordcount: 1200
+ht-degree: 94%
 
 ---
 
 # Adobe Workfront リソースプランナーを使用してリソースの可用性と割り当てをレビューする
 
-リソースプランナーでは、リソースの空き時間と、プロジェクトの予定作業や予算計上作業の量を表示できます。これらの値は、時間、FTE（フルタイム換算）やコストの金額で表示され、列に編成されます。
+リソースプランナーでは、リソースの空き時間と、プロジェクトの予定作業や予算計上作業の量を表示できます。 これらの値は、時間、FTE（フルタイム換算）やコストの金額で表示され、列に編成されます。
 
 ## アクセス要件
 
@@ -31,7 +37,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td><p>ライト以上</p>
+   <td><p>明るいまたはそれ以上</p>
        <p>レビュー以上</p></td>
   </tr> 
   <tr> 
@@ -57,7 +63,7 @@ ht-degree: 97%
 
 ## 前提条件
 
-リソースプランナーを使用するには、求められるすべての前提条件を満たす必要があります。詳しくは、[リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md)を参照してください。
+リソースプランナーを使用するには、求められるすべての前提条件を満たす必要があります。 詳しくは、[リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -65,7 +71,7 @@ ht-degree: 97%
 
 ## リソースの空き時間と割り当て
 
-リソースの空き時間と割り当てを表示する列は、リソースプランナーに適用するビューに応じて変わります。プロジェクト別、役割別またはユーザー別のリソースプランナーでの情報の表示について詳しくは、[リソースプランナーのナビゲーションの概要](../../resource-mgmt/resource-planning/resource-planner-navigation.md)を参照してください。
+リソースの空き時間と割り当てを表示する列は、リソースプランナーに適用するビューに応じて変わります。 プロジェクト別、役割別またはユーザー別のリソースプランナーでの情報の表示について詳しくは、[リソースプランナーのナビゲーションの概要](../../resource-mgmt/resource-planning/resource-planner-navigation.md)を参照してください。
 
 表示をリソースプランナーに変更する際は、以下の点を考慮してください。
 
@@ -130,20 +136,20 @@ ht-degree: 97%
      </tr> 
      <tr> 
       <td role="rowheader">コスト</td> 
-      <td> <p>プロジェクトビューまたは役割ビューでリソースプランナーを表示している場合、コスト別に稼働状況および割り当て情報を表示します。この情報は、システムの通貨で値を表示します。システム通貨は Workfront 管理者が定義します。Workfront でのシステム通貨の設定について詳しくは、<a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>を参照してください。</p> <p><b>メモ</b>
+      <td> <p>プロジェクトビューまたは役割ビューでリソースプランナーを表示している場合、コスト別に稼働状況および割り当て情報を表示します。 この情報は、システムの通貨で値を表示します。 システム通貨は Workfront 管理者が定義します。 Workfront でのシステム通貨の設定について詳しくは、<a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>を参照してください。</p> <p><b>メモ</b>
 
-   リソースプランナーでコスト情報を表示するには、ユーザーと担当業務を 1 時間あたりのコスト率に関連付ける必要があります。<br style="font-style: italic;">時間単価の担当業務との関連付けについて詳しくは、<a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">担当業務の作成と管理</a>を参照してください。<br style="font-style: italic;">時間単価をユーザーに関連付ける方法について詳しくは、<a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>を参照してください。<br style="font-style: italic;">リソースプランナーでのコストの計算方法について詳しくは、<a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">リソースプランナーでのコストの計算</a>を参照してください。</p> </td>
+   リソースプランナーにコスト情報を表示するには、ユーザーと担当業務を時間単価レートに関連付ける必要があります。<br style="font-style: italic;">時間単価レートと担当業務の関連付けについて詳しくは、<a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">担当業務の作成と管理</a>を参照してください。<br style="font-style: italic;">時間単価をユーザーに関連付ける方法について詳しくは、<a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>を参照してください。<br style="font-style: italic;">リソースプランナーでのコストの計算方法について詳しくは、<a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">リソースプランナーでのコストの計算</a>を参照してください。</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">のカスタマイズ</td> 
-      <td>リソースプランナーに表示される列のカスタムビューを作成します。次の手順に従って、リソースプランナーに表示するオプションを選択します。 </td> 
+      <td>リソースプランナーに表示される列のカスタムビューを作成します。 次の手順に従って、リソースプランナーに表示するオプションを選択します。 </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. （条件付き）**カスタマイズ**&#x200B;を選択した場合、**表示される指標のカスタマイズ**&#x200B;ボックスを使用してカスタムビューを設定します。
 
-   ![&#x200B; ビューボックスをカスタマイズ &#x200B;](assets/planner-customize-view-box-350x114.png)
+   ![ ビューボックスをカスタマイズ ](assets/planner-customize-view-box-350x114.png)
 
 1. 左側の&#x200B;**表示タイプ**&#x200B;列で、次のビューの 1 つを選択します。
 
@@ -151,7 +157,7 @@ ht-degree: 97%
    * 役割
    * ユーザー
 
-1. 「**選択した項目を表示**」セクションで、選択したビューの列に表示する情報のタイプを選択します。次の表に、各ビューで使用可能なオプションを示します。
+1. 「**選択した項目を表示**」セクションで、選択したビューの列に表示する情報のタイプを選択します。 次の表に、各ビューで使用可能なオプションを示します。
 
    | **オプション** | ユーザー ビュー | プロジェクト ビュー | 役割ビュー |
    |---|---|---|---|
@@ -184,7 +190,7 @@ ht-degree: 97%
    >
    >カスタマイズされたビューは 1 つだけ指定できます。
 
-   ![&#x200B; プランナー時間ドロップダウン &#x200B;](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![ プランナー時間ドロップダウン ](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## ユーザー割り当てグラフの表示
 

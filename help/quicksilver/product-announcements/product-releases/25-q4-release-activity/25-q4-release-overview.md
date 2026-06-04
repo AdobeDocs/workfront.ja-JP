@@ -5,12 +5,18 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+TQID: https://experienceleague.adobe.com/TSymsyM0U-UVGGOntFeIzTQEep19ZVi1Lk54wRV7mmE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b18b693b-6d59-4359-95fd-a386b7a615feid: c33d85a1-be85-4290-854c-87408c10aa80id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e4bd5f48-22a4-465d-a046-5ffb52e27856id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 44%
+source-wordcount: 2434
+ht-degree: 43%
 
 ---
 
@@ -204,7 +210,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}"> ホームのマイリクエストウィジェットの更新</a><p></p>
-            <p>WorkfrontとWorkfront計画の間でよりシームレスなエクスペリエンスを実現するために、HomeのMy Requests ウィジェットを再設計しました。 新しいウィジェットには、次の変更が含まれています。
+            <p>WorkfrontとWorkfront計画の間でよりシームレスなエクスペリエンスを実現するために、HomeのMy Requests ウィジェットを再設計しました。新しいウィジェットには、次の変更が含まれています。
             <ul>
                 <li>リクエスト情報のレイアウトと整理が改善された</li>
                 <li>強化されたフィルタリングおよび並べ替えオプション</li>
@@ -346,7 +352,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}"> エクスペリエンスをリクエストするための更新</a><p></p>
-            <p>WorkfrontとWorkfront Planningでリクエストを行う際に、より優れたユーザーエクスペリエンスを作成するために、リクエストのエクスペリエンスを更新しました。 次の操作が可能になりました。
+            <p>WorkfrontとWorkfront Planningでリクエストを行う際に、より優れたユーザーエクスペリエンスを作成するために、リクエストのエクスペリエンスを更新しました。次のことが可能になります。
             <ul>
                 <li>WorkfrontとWorkfront Planningのリクエストを一覧で表示できます。</li>
                 <li>指定した条件に基づいて、送信されたリクエストをフィルタリングします。</li>
@@ -428,7 +434,7 @@ Workfront Fusion の新機能は、実稼動環境の標準リリーススケジ
 
 ### Workfront Planning の機能強化
 
-Workfront Planning の新機能は、実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Planningの2025年第4四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)を参照してください。
+Workfront Planning の新機能は、実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Planningの2025年第4四半期のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)を参照してください。
 
 現時点では、リリースには以下に関するアップデートは含まれていまません。
 
@@ -454,7 +460,7 @@ Workfront Planning の新機能は、実稼動環境で使用できます。 最
 
 [Microsoft が New Teams クライアントに移行すると](https://learn.microsoft.com/ja-jp/microsoftteams/teams-classic-client-end-of-availability)、Classic Teams クライアントは 2025年7月1日（PT）以降は使用できなくなります。 Microsoft Teams や Workfront などの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 
-アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。 New Teams クライアントで Workfront 統合をインストールまたは検証するには、Workfront for Microsoft Teams[&#128279;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストール [!DNL Adobe Workfront] を参照してください。
+アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。 New Teams クライアントで Workfront 統合をインストールまたは検証するには、Workfront for Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) の[インストール [!DNL Adobe Workfront] を参照してください。
 
 ### Microsoft Outlook 用 Workfront
 
@@ -472,8 +478,8 @@ Workfront Planning の新機能は、実稼動環境で使用できます。 最
 * Workfront for Jira
 * Salesforce 用 Workfront
 
-Google Workspace を使用した組織の統合のニーズに対しては、Workfront の自動処理と統合を使用することをお勧めします。
-Workfront の自動処理と統合の概要について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+組織のGoogle Workspaceとの統合ニーズには、Workfront Automation and Integrationを使用することをお勧めします。
+Workfrontの自動化と統合の概要については、[Adobe Workfront Fusionの概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 ### API バージョン 20
 

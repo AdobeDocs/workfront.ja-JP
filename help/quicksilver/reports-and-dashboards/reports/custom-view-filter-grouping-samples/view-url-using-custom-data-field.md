@@ -7,12 +7,17 @@ description: タスクビューで「カスタム URL」という名前の計算
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/o1MwE7-uZY4Rw-78m1dMRiGSyPJ4IFNjZsytqSf3NVE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 78%
+source-wordcount: 535
+ht-degree: 74%
 
 ---
 
@@ -26,7 +31,7 @@ ht-degree: 78%
 
 計算済みカスタムフィールドを作成する場合は、まずフィールドを作成してから、ビューを作成する必要があります。
 
-次のセクションは、タスクの計算済みカスタムフィールドの例です。カスタムフィールドはカスタム URL と呼ばれます。カスタムビューには、フィールドの値およびタスクの「**URL**」フィールドが表示されます。
+次のセクションは、タスクの計算済みカスタムフィールドの例です。 カスタムフィールドはカスタム URL と呼ばれます。 カスタムビューには、フィールドの値およびタスクの「**URL**」フィールドが表示されます。
 
 同じ手順を使用して、カスタムフォームを持つシステム内のすべてのオブジェクトに対して、類似した計算済みカスタムフィールドとカスタムビューを作成できます。
 
@@ -68,7 +73,7 @@ ht-degree: 78%
 
 計算カスタムフィールドの作成について詳しくは、[計算フィールドをフォームに追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
-カスタムフォームを作成するアクセス権がある場合は、「カスタム URL」と呼ばれるタスクの計算済みカスタムフィールドを作成できます。このフィールドは、「**タスクの詳細**」タブ内の「**概要**」サブタブに直接リンクします。
+カスタムフォームを作成するアクセス権がある場合は、「カスタム URL」と呼ばれるタスクの計算済みカスタムフィールドを作成できます。 このフィールドは、「**タスクの詳細**」タブ内の「**概要**」サブタブに直接リンクします。
 
 1. 計算済みカスタムフィールドを作成します。
 1. 「計算」フィールドに、次のコードを入力します。
@@ -137,6 +142,6 @@ ht-degree: 78%
    column.2.width=150
    ```
 
-   この例では、「column.1」です。行には、タスクの&#x200B;**Overview** セクション、「column.2」へのリンクとして、「カスタム URL」フィールドの値が表示されます。 タスクの **URL フィールド**&#x200B;に保存された値が表示されます。
+   この例では、「column.1.」行には、タスクの&#x200B;**概要** セクションへのリンクとして「カスタム URL」フィールドの値が表示されます。「column.2.」には、タスクの&#x200B;**URL フィールド**&#x200B;に格納されている値が表示されます。
 
 1. **完了** / **ビューを保存**&#x200B;をクリックします。

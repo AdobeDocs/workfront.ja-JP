@@ -3,16 +3,21 @@ product-area: reporting;user-management
 keywords: 保存, 新規, レポート, コピー
 navigation-topic: create-and-manage-reports
 title: レポートのコピーを作成
-description: アクセス権のある任意のレポートのコピーを作成できます。カスタムレポートの正確なコピーを作成するか、デフォルトレポートの新しいバージョンを保存することができます。レポートをコピーすると、コピーしたレポートの所有者になり、マイレポートセクションに表示されます。
+description: アクセス権のある任意のレポートのコピーを作成できます。 カスタムレポートの正確なコピーを作成するか、デフォルトレポートの新しいバージョンを保存することができます。 レポートをコピーすると、コピーしたレポートの所有者になり、マイレポートセクションに表示されます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/WxnK-2z9jpD4FHypOKJuEXjCm9zggBLCEPZ8j04hygE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 77%
+source-wordcount: 650
+ht-degree: 76%
 
 ---
 
@@ -20,7 +25,7 @@ ht-degree: 77%
 
 <!-- Audited: 11/2024 -->
 
-アクセス権のある任意のレポートのコピーを作成できます。カスタムレポートの正確なコピーを作成するか、デフォルトレポートの新しいバージョンを保存することができます。レポートをコピーすると、コピーしたレポートの所有者になり、マイレポートセクションに表示されます。
+アクセス権のある任意のレポートのコピーを作成できます。 カスタムレポートの正確なコピーを作成するか、デフォルトレポートの新しいバージョンを保存することができます。 レポートをコピーすると、コピーしたレポートの所有者になり、マイレポートセクションに表示されます。
 
 ## アクセス要件
 
@@ -98,7 +103,7 @@ ht-degree: 77%
 
 ビルトインレポートのコピーを作成する場合は、次の操作を行います。
 
-1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックします。
+1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックします。
 
 1. 「**レポート**」、「すべてのレポート **」の順にクリックします。**
 1. ビルトインレポートの名前をクリックして開きます。

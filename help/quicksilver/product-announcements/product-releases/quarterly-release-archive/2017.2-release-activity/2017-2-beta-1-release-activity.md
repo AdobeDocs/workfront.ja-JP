@@ -7,10 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 99812ed3-a300-478e-973f-b957382d934b
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/7-k8GZcbnM1UfLn-wl1bRWRvHrPjiljtvu8iUa3kLCw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 100%
+source-wordcount: 1363
+ht-degree: 99%
 
 ---
 
@@ -140,7 +146,7 @@ R1.5 リリースでは、プレビュー環境でのリソース計画に関す
 
 ダッシュボードのリストを表示する際のルックアンドフィールがより近代的で拡張性が高くなりました。
 
-この機能は、以前は早期アクセスに登録したユーザーのみが利用できました。 これはプレビュー環境のすべてのユーザーが使用できるようになりました。 2017.2 リリースの本番環境のすべてのユーザーが利用できるようになります。 
+この機能は、以前は早期アクセスに登録されているユーザーのみが利用できました。これは、プレビュー環境のすべてのユーザーで使用できるようになりました。2017.2 リリースでは、実稼動環境のすべてのユーザーが利用できるようになります。 
 
 ダッシュボードについて詳しくは、[ダッシュボードを作成](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
 

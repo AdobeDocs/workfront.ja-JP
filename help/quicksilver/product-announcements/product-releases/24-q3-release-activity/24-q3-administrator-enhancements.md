@@ -5,9 +5,15 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+TQID: https://experienceleague.adobe.com/IGQhv-FKwbUtsGFqpNVcHelc3IAyFMcTd4PT14ayLY0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: 707
 ht-degree: 3%
 
 ---
@@ -28,7 +34,7 @@ ht-degree: 3%
 
 ビジネスルールを使用すると、Workfront オブジェクトに検証を適用し、特定の条件が満たされた場合にオブジェクトを作成、編集または削除できないようにすることができます。 ルールは、カスタムフォームの計算フィールドと同様の数式を使用して作成されます。
 
-詳しくは、[&#x200B; ビジネスルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)を参照してください。
+詳しくは、[ ビジネスルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -46,7 +52,7 @@ ht-degree: 3%
 
 このリリース以降、従来のフォームビルダーに戻すオプションは提供されなくなります。
 
-フォームデザイナーとビデオによるデモについて詳しくは、[&#x200B; フォームデザイナーのベータ版リリースノート &#x200B;](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)を参照してください。
+フォームデザイナーとビデオによるデモについて詳しくは、[ フォームデザイナーのベータ版リリースノート ](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)を参照してください。
 
 ## 環境プロモーションを使用したWorkfront環境間でのオブジェクトの移動
 
@@ -58,7 +64,7 @@ ht-degree: 3%
 
 以前は、サンドボックス環境やプレビュー環境とは別に、実稼動環境でオブジェクトを設定する必要がありました。
 
-環境プロモーションについて詳しくは、[Workfront環境間でのオブジェクトの移動の概要（環境プロモーション） &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)を参照してください
+環境プロモーションについて詳しくは、[Workfront環境間でのオブジェクトの移動の概要（環境プロモーション） ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)を参照してください
 
 [この機能のデモ動画を見る](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -75,7 +81,7 @@ ht-degree: 3%
 
 新しいフォームデザイナーで、カスタムフォームとカスタムフィールドの両方を共有できるようになりました。 これにより、カスタムフォームを使用したユーザー間のコラボレーションが促進されます。
 
-詳細については、[&#x200B; カスタムフォームの共有](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)および[&#x200B; カスタムフィールドとウィジェットの共有をフォームデザイナー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)と設定するを参照してください。
+詳細については、[ カスタムフォームの共有](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)および[ カスタムフィールドとウィジェットの共有をフォームデザイナー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)と設定するを参照してください。
 
 ## フィールド領域から新しいカスタムフィールドを追加します
 
@@ -101,4 +107,4 @@ ht-degree: 3%
 
 このオプションは、従来のフォームビルダーでは使用できません。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
