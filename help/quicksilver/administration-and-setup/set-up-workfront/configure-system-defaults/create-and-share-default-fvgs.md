@@ -9,10 +9,16 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
 TQID: https://experienceleague.adobe.com/bgBICul4K2MFbMipuKZxp6i2vncdpV7RpFYtUyTFY7w
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 814
@@ -118,14 +124,14 @@ ht-degree: 46%
 
 ## 特定のユーザーとカスタムフィルター、ビュー、グループ化を共有する
 
-次の手順では、[!UICONTROL  セットアップ ]の[!UICONTROL  インターフェイス ]領域の共有ダイアログを使用して、特定のユーザーとカスタムフィルター、ビュー、グループ化を共有する方法について説明します。 自分または他のユーザーが作成したフィルター、ビュー、グループ化へのビューまたは管理アクセス権を付与できます。 システムのデフォルトをユーザーと共有することはできません。
+次の手順では、[!UICONTROL &#x200B; セットアップ &#x200B;]の[!UICONTROL &#x200B; インターフェイス &#x200B;]領域の共有ダイアログを使用して、特定のユーザーとカスタムフィルター、ビュー、グループ化を共有する方法について説明します。 自分または他のユーザーが作成したフィルター、ビュー、グループ化へのビューまたは管理アクセス権を付与できます。 システムのデフォルトをユーザーと共有することはできません。
 
 
 {{step-1-to-setup}}
 
 1. 「**[!UICONTROL インターフェース]**」をクリックし、「**[!UICONTROL フィルター]**」、「**[!UICONTROL ビュー]**」または「**[!UICONTROL グループ化]**」のいずれかをクリックします。
 
-1. 共有するフィルター、表示、またはグループ化を選択し、**[!UICONTROL 共有]** アイコン ![共有アイコン ](assets/share-icon.png)をクリックします。
+1. 共有するフィルター、表示、またはグループ化を選択し、**[!UICONTROL 共有]** アイコン ![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。
 1. フィルター、ビューまたはグループ化を共有する特定のユーザー、チーム、役割、グループまたは会社の名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
 
    共有について詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。

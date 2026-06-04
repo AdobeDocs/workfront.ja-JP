@@ -9,10 +9,14 @@ exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/1wbblzcLDTnzVIdeFvyuCbwpaZy-Yjj8kbyRKO9N0ac
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 577
@@ -90,7 +94,7 @@ ht-degree: 89%
 
 例えば、「自分が更新を受信する対象者として追加されました」には 2 つの異なる件名行があります。1 つ目はタスク、イシュー、テンプレートタスクおよびドキュメント（「referenceObject」とも呼ばれる）に関するもので、2 つ目はオブジェクト（「topReferenceObject」とも呼ばれる）に関するもので、これはユーザーがポートフォリオ、プログラムなどのコメントを作成できるようにするものです。
 
-![ イベントが複数の件名ではありません](assets/ev-multiple-subject.png)
+![&#x200B; イベントが複数の件名ではありません](assets/ev-multiple-subject.png)
 
 タスク、イシュー、テンプレートタスクやドキュメントに関する会話にユーザーが含まれる場合は、最初の件名行を含むメールが生成されます。 件名には「referenceObject:name」が含まれており、システムはオブジェクトを定義し、件名フィールドに適切な名前を表示します。 メールの件名行は、「プロジェクト ABC 上のタスク 123 についてのコメント」のようになります。
 
@@ -106,6 +110,6 @@ ht-degree: 89%
 
 
 
-![ イベントが複数の件名ではありません](assets/Ev-not-mult-subj-lines.png)
+![&#x200B; イベントが複数の件名ではありません](assets/Ev-not-mult-subj-lines.png)
 
 メールの件名行を編集し、どちらかの件名行にフィールドを追加するには、この記事にある[イベント通知のメール件名行をカスタマイズ](#customize-email-subject-lines-for-event-notifications)を参照してください。

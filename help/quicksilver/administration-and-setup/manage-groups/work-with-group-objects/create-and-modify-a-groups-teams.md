@@ -9,11 +9,19 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
 TQID: https://experienceleague.adobe.com/y4osIytJeWgPtxz6fhWksmVS4uLV1n6Z-w2UiwwQRLs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: be65ef36-43e4-48e1-a062-caa3778e15be
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 992
@@ -27,7 +35,7 @@ ht-degree: 85%
 
 グループの上にグループがある場合は、その管理者がグループに対してこれらの操作を実行することもできます。 Workfront 管理者（すべてのグループ）も同様です。
 
-標準ライセンスまたはプラン ライセンスを持つユーザーがチームを作成する方法について詳しくは、[ チームを作成](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)を参照してください。
+標準ライセンスまたはプラン ライセンスを持つユーザーがチームを作成する方法について詳しくは、[&#x200B; チームを作成](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)を参照してください。
 
 Workfront 管理者がチームを作成する方法について詳しくは、[設定エリアからのチームの作成](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)を参照してください。
 
@@ -63,10 +71,10 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
 
 1. チームを作成または変更するグループの名前をクリックします。
-1. 左側のパネルで、**チーム** ![ チーム ](assets/teams.png)をクリックして、グループに関連付けられているチームと、そのグループに含まれる可能性のあるサブグループを一覧表示します。
+1. 左側のパネルで、**チーム** ![&#x200B; チーム &#x200B;](assets/teams.png)をクリックして、グループに関連付けられているチームと、そのグループに含まれる可能性のあるサブグループを一覧表示します。
 
 1. 次のいずれかの操作を行います。
 
@@ -109,7 +117,7 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
       </tbody> 
      </table>
 
-   * **チームを編集**：少なくとも1つのチームを選択し、**編集アイコン ![編集アイコン ](assets/edit-icon.png)をクリックしてから、次のオプションを使用して設定します。**
+   * **チームを編集**：少なくとも1つのチームを選択し、**編集アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックしてから、次のオプションを使用して設定します。**
 
      <table style="table-layout:auto"> 
       <col> 
@@ -158,5 +166,5 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
       </tbody> 
      </table>
 
-   * **チームを削除**：少なくとも1つのチームを選択し、削除アイコン ![削除アイコン ](assets/delete.png)をクリックします。
-   * **チームのリストを書き出し**:「**書き出し** ![書き出しアイコン ](assets/export.png)」をクリックし、書き出したリストに必要なファイル形式を選択します。
+   * **チームを削除**：少なくとも1つのチームを選択し、削除アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
+   * **チームのリストを書き出し**:「**書き出し** ![書き出しアイコン &#x200B;](assets/export.png)」をクリックし、書き出したリストに必要なファイル形式を選択します。

@@ -9,10 +9,14 @@ exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Vy3r2L1yuMPvMesRxEohYAgA6geAlKYIRsstLp1kpt8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 401
@@ -66,4 +70,4 @@ ht-degree: 73%
 
 アジャイルイテレーションとは異なり、アジャイルビューでプロジェクトを表示する際にストーリーの順序を変更することはできません。 プロジェクトのストーリーの順序を変更するには、プロジェクトを標準ビューで表示する必要があります。
 
-プロジェクトビューを変更する方法について詳しくは、[!UICONTROL アジャイル]ビュー](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)にある[[!UICONTROL プロジェクトを管理]を参照してください。 アジャイルビューを選択する代わりに、標準ビューを選択します。
+プロジェクトビューを変更する方法について詳しくは、[!UICONTROL アジャイル]ビュー[&#128279;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)にある[!UICONTROL プロジェクトを管理]を参照してください。 アジャイルビューを選択する代わりに、標準ビューを選択します。

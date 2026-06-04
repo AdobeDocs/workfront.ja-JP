@@ -9,11 +9,17 @@ exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/bKWJIRgfmrBnM-6RUyfuTCa7OtALNNYhMmLAlRPGSTg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1025
@@ -61,7 +67,7 @@ ht-degree: 55%
 
 1. 「**[!UICONTROL 反復]**」タブで、「**[!UICONTROL 反復を追加]**」をクリックします。
 
-   ![反復を追加をクリック ](assets/click-add-iteration.png)
+   ![反復を追加をクリック &#x200B;](assets/click-add-iteration.png)
 
 1. 以下を指定します。
 
@@ -112,7 +118,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
-> 「バックログ」タブでイテレーションを計画する際に、「ストーリー」タブまたは「イシュー」タブを切り替えたり、追加のタスクを追加したりすることはできません。 イテレーションが作成されたら、既存のストーリーまたはイシューを追加できます。 詳しくは、以下の「バックログ」タブ ](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab)の「[既存のイテレーションにタスクまたはイシューを追加する」を参照してください。
+> 「バックログ」タブでイテレーションを計画する際に、「ストーリー」タブまたは「イシュー」タブを切り替えたり、追加のタスクを追加したりすることはできません。 イテレーションが作成されたら、既存のストーリーまたはイシューを追加できます。 詳しくは、以下の「バックログ」タブ [&#128279;](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab)の「既存のイテレーションにタスクまたはイシューを追加する」を参照してください。
 
 
 1. 次の情報を指定します。
@@ -169,6 +175,6 @@ ht-degree: 55%
 
 [!UICONTROL イテレーション終了日]マイナス（-）[!UICONTROL タスクの期間]は（=）[!UICONTROL タスクの予定開始日]
 
-プロジェクト開始日がイテレーション開始日より後で、プロジェクト終了日がイテレーション終了日より後の場合は、[!UICONTROL  プロジェクト終了日]がイテレーション終了日の代わりに使用されます。
+プロジェクト開始日がイテレーション開始日より後で、プロジェクト終了日がイテレーション終了日より後の場合は、[!UICONTROL &#x200B; プロジェクト終了日]がイテレーション終了日の代わりに使用されます。
 
 個々のスクラムチームが、デフォルトではイテレーション日付よりも、プロジェクト日付を使用するように設定できます。 詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事の[作業アイテムをイテレーションに追加する際に日付を適用する方法を設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)を参照してください。

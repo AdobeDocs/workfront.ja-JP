@@ -9,11 +9,20 @@ feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 TQID: https://experienceleague.adobe.com/2RcCpRizLBAaJzlW9N-Y-rxjyBDZq8j8E2xpb6u4WvQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1230
@@ -29,7 +38,7 @@ ht-degree: 44%
 
 例えば、プロジェクトの表示時に左側のパネルに表示される次の項目を指定できます。
 
-![ プロジェクトの左パネル ](assets/left-panel-in-project.png)
+![&#x200B; プロジェクトの左パネル &#x200B;](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -94,7 +103,7 @@ ht-degree: 44%
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>プロジェクト名</td> 
-      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Resource for Billing], [!UICONTROL Billing Records], [!UICONTROL, Expenses, [!UICONTROL Hours], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
+      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Resource for Billing], [!UICONTROL Billing Records], , Expenses, [!UICONTROL Hours], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
@@ -114,7 +123,7 @@ ht-degree: 44%
      <tr> 
       <td>[!UICONTROL Program]</td> 
       <td>プログラム名</td> 
-      <td>[!UICONTROL プロジェクト ]、[!UICONTROL プログラムの詳細]、[!UICONTROL アップデート ]、[!UICONTROL ドキュメント ]、[!UICONTROL プランニング ]*、[!UICONTROL カスタム アプリケーション ]**</td> 
+      <td>[!UICONTROL プロジェクト &#x200B;]、[!UICONTROL プログラムの詳細]、[!UICONTROL アップデート &#x200B;]、[!UICONTROL ドキュメント &#x200B;]、[!UICONTROL プランニング &#x200B;]*、[!UICONTROL カスタム アプリケーション &#x200B;]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Template]</td> 
@@ -145,8 +154,8 @@ ht-degree: 44%
      </tr> 
      <tr> 
       <td>[!UICONTROL Resourcing]</td> 
-      <td>[!UICONTROL メインメニュー]の[!UICONTROL リソース ] <img src="assets/main-menu-icon-left-nav.png"></td> 
-      <td>[!UICONTROL Planner] （非表示にすることはできません）、[!UICONTROL Workload Balancer]、[!UICONTROL利用状況]、[!UICONTROL リソースプール ]</td> 
+      <td>[!UICONTROL メインメニュー]の[!UICONTROL リソース &#x200B;] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Planner] （非表示にすることはできません）、[!UICONTROL Workload Balancer]、[!UICONTROL 利用状況]、[!UICONTROL リソースプール &#x200B;]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
@@ -184,14 +193,14 @@ ht-degree: 44%
        <td>[!UICONTROL Details], [!UICONTROL Org Chart], [!UICONTROL Time Off], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</td> 
      </tr>
      <tr> 
-       <td>[!UICONTROL レートカード ]</td> 
+       <td>[!UICONTROL レートカード &#x200B;]</td> 
        <td>レートカードの名前</td> 
        <td>[!UICONTROL ジョブの役割と率] （非表示にすることはできません）、[!UICONTROL レート カードの詳細]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL Group]</td> 
        <td>グループの名前</td> 
-       <td>[!UICONTROL グループ メンバー]、[!UICONTROL サブグループ メンバー]、[!UICONTROL グループの詳細]、[!UICONTROL プロジェクト環境設定]、[!UICONTROL タスクと問題環境設定]、[!UICONTROL タイムシートと時間]、[!UICONTROL サブグループ ]、[!UICONTROL ステータス ]、[!UICONTROL イベント通知]、[!UICONTROL プロジェクト ]、[!UICONTROL プロジェクト ] Templates], [!UICONTROL Recently Deleted], [!UICONTROL Recently Restored], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL タイムシート プロファイル ], [!UICONTROL レイアウト テンプレート ]</td> 
+       <td>[!UICONTROL グループ メンバー]、[!UICONTROL サブグループ メンバー]、[!UICONTROL グループの詳細]、[!UICONTROL プロジェクト環境設定]、[!UICONTROL タスクと問題環境設定]、[!UICONTROL タイムシートと時間]、[!UICONTROL サブグループ &#x200B;]、[!UICONTROL ステータス &#x200B;]、[!UICONTROL イベント通知]、[!UICONTROL プロジェクト &#x200B;]、[!UICONTROL プロジェクト &#x200B;] Templates&rbrack;, [!UICONTROL Recently Deleted], [!UICONTROL Recently Restored], [!UICONTROL Approvals], [!UICONTROL Companies], [!UICONTROL Teams], [!UICONTROL Schedules], [!UICONTROL タイムシート プロファイル &#x200B;], [!UICONTROL レイアウト テンプレート &#x200B;]</td> 
      </tr>
      <!--
       <tr> 
@@ -217,9 +226,9 @@ ht-degree: 44%
 
 1. **[!UICONTROL 左パネル]** リストで、次のいずれかの操作を行って、選択した[!DNL Workfront]領域またはオブジェクトタイプの左パネルに表示されるユーザーを決定します。
 
-   * **表示** ![表示アイコン ](assets/add-secondary-nav-item.png)または&#x200B;**非表示** ![非表示アイコン ](assets/delete-secondary-nav-item.png) アイコンをクリックして、左側のパネルでセクションを表示または非表示にします。 **表示**&#x200B;または&#x200B;**非表示** アイコンがない項目を非表示にすることはできません。
+   * **表示** ![表示アイコン &#x200B;](assets/add-secondary-nav-item.png)または&#x200B;**非表示** ![非表示アイコン &#x200B;](assets/delete-secondary-nav-item.png) アイコンをクリックして、左側のパネルでセクションを表示または非表示にします。 **表示**&#x200B;または&#x200B;**非表示** アイコンがない項目を非表示にすることはできません。
 
-   * 項目![移動アイコン ](assets/move-icon---dots.png)をドラッグして、左側のパネルで順序を変更します。
+   * 項目![移動アイコン &#x200B;](assets/move-icon---dots.png)をドラッグして、左側のパネルで順序を変更します。
 
    >[!NOTE]
    >
@@ -232,8 +241,8 @@ ht-degree: 44%
    >その他の領域をカスタマイズする方法については、次の記事を参照してください。
    >
    >* [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [ レイアウトテンプレートを使用して[!UICONTROL 概要パネル ]をカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-   >* [ レイアウトテンプレートを使用したホームのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
+   >* [&#x200B; レイアウトテンプレートを使用して[!UICONTROL 概要パネル &#x200B;]をカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [&#x200B; レイアウトテンプレートを使用したホームのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* [レイアウトテンプレートを使用して Adobe  [!DNL Workfront]  をブランディング](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 

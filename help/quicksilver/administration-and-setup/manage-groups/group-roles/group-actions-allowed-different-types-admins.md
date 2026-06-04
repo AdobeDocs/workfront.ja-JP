@@ -9,11 +9,18 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
 TQID: https://experienceleague.adobe.com/BRL1-glICVWSXkdA8HYkbXVfCfEKafHjLBOSrfiVRXM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: c549503a-6440-4802-9525-ceb73a00feffid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: c549503a-6440-4802-9525-ceb73a00feff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 450
@@ -232,7 +239,7 @@ ht-degree: 57%
  </tbody> 
 </table>
 
-&#42; グループ管理者のアクセスレベルでは、**ユーザー**&#x200B;設定に&#x200B;**編集**&#x200B;を選択し、**設定の微調整** ![設定の微調整アイコン ](assets/gear-icon-in-access-levels.png)で&#x200B;**ユーザー管理者（グループユーザー）**&#x200B;を選択する必要があります。 詳しくは、[ユーザーにアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)の記事の[カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)の節を参照してください。
+&#42; グループ管理者のアクセスレベルでは、**ユーザー**&#x200B;設定に&#x200B;**編集**&#x200B;を選択し、**設定の微調整** ![設定の微調整アイコン &#x200B;](assets/gear-icon-in-access-levels.png)で&#x200B;**ユーザー管理者（グループユーザー）**&#x200B;を選択する必要があります。 詳しくは、[ユーザーにアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)の記事の[カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)の節を参照してください。
 
 &#42;&#42;グループ管理者のアクセスレベルで、このアクションへのアクセスを有効にする必要があります。 詳しくは、[特定のエリアに対する管理者アクセス権をユーザーに付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
@@ -241,7 +248,7 @@ ht-degree: 57%
 * Workflow Prime以降
 * Workfront Prime以降
 
-パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ ](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
+パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ &#x200B;](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 高度なエンタープライズ制御：
 

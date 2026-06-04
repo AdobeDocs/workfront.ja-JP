@@ -6,10 +6,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
 TQID: https://experienceleague.adobe.com/Z9KMDwzTwBZLGjLtfxd3H42jd12-7ob3RCn0-IXN-Hc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 677
@@ -54,7 +58,7 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront 
 1. アクセスレベルの作成または編集を行います。詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 1. 「チーム」の右側にある&#x200B;**表示**&#x200B;ボタンまたは&#x200B;**編集**&#x200B;ボタンにある歯車アイコン ![](assets/gear-icon-settings.png) をクリックし、付与する権限を&#x200B;**設定を微調整する**&#x200B;で選択します。
 
-   ![ チームを微調整](assets/fine-tune-teams.png)
+   ![&#x200B; チームを微調整](assets/fine-tune-teams.png)
 
    * **表示**：任意のライセンスを持つユーザーがチームを表示する方法を設定する場合は、次のオプションを変更します。
 
@@ -130,4 +134,4 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront 
 
 ## ライセンスタイプ別のチームへのアクセス権
 
-各アクセスレベルのユーザーがチームで実行できる処理について詳しくは、記事[各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)のTeams](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#teams)の節を参照してください。[
+各アクセスレベルのユーザーがチームで実行できる処理について詳しくは、記事[各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)のTeams[&#128279;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#teams)の節を参照してください。

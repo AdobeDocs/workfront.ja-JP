@@ -9,10 +9,15 @@ exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1727
@@ -22,7 +27,7 @@ ht-degree: 73%
 
 # [!UICONTROL スクラム]の設定
 
-[ アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)の説明に従って、[!DNL Adobe Workfront]でアジャイルチームを作成できます。 アジャイルチームを編成する際に、チームが作業を完了するために使用する手法を選択できます。 以下のオプションから選択できます。
+[&#x200B; アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)の説明に従って、[!DNL Adobe Workfront]でアジャイルチームを作成できます。 アジャイルチームを編成する際に、チームが作業を完了するために使用する手法を選択できます。 以下のオプションから選択できます。
 
 * スクラム
 * かんばん
@@ -86,7 +91,7 @@ ht-degree: 73%
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL Work]のライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL Work]のライセンスを持つチームメンバーのみがこのオプションを表示します。
 
    ![チームを編集](assets/edit-team-settings-scrum.png)
 
@@ -115,7 +120,7 @@ ht-degree: 73%
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL  ワーク ]のいずれかのライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL &#x200B; ワーク &#x200B;]のいずれかのライセンスを持つチームメンバーのみがこのオプションを表示します。
 
 1. 「**[!UICONTROL アジャイル]**」セクションで、**[!UICONTROL ストーリーボード]**&#x200B;エリアを見つけます。
 1. （オプション）「**[!UICONTROL 列を追加]**」をクリックして、ストーリーボードにステータス列を追加します。
@@ -139,7 +144,7 @@ ht-degree: 73%
 
 ### プロジェクトのステータス列を設定 {#configure-status-columns-for-projects}
 
-プロジェクトのステータス列を設定する方法については、[ [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でビューを作成または編集の記事の、[[!UICONTROL アジャイル]ビューを作成またはカスタマイズ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)の節を参照してください。
+プロジェクトのステータス列を設定する方法については、[&#x200B; [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) でビューを作成または編集の記事の、[[!UICONTROL アジャイル]ビューを作成またはカスタマイズ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)の節を参照してください。
 
 ## アジャイルストーリーボードのストーリーカードに表示する追加フィールドを設定します
 
@@ -169,7 +174,7 @@ ht-degree: 73%
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL  ワーク ]のいずれかのライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL &#x200B; ワーク &#x200B;]のいずれかのライセンスを持つチームメンバーのみがこのオプションを表示します。
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションで、フィールド名を入力してフィールドを確認します。
 
@@ -191,7 +196,7 @@ ht-degree: 73%
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL  ワーク ]のライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL &#x200B; ワーク &#x200B;]のライセンスを持つチームメンバーのみがこのオプションを表示します。
 
 1. 「[!UICONTROL アジャイル]」セクションの [!UICONTROL カードのカラーの関連付け先]エリアで、次のオプションから選択します。
 
@@ -217,7 +222,7 @@ ht-degree: 73%
 1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL  ワーク ]のライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL &#x200B; ワーク &#x200B;]のライセンスを持つチームメンバーのみがこのオプションを表示します。
 
 1. 「[!UICONTROL アジャイル]」セクションの&#x200B;[!UICONTROL **作業アイテムがイテレーションに追加されるとき**]&#x200B;エリアで、次のオプションから選択します。
 

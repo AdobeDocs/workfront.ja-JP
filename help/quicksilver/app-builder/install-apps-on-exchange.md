@@ -5,10 +5,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
 TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1301
@@ -125,7 +129,7 @@ Workfrontのアプリケーションを表示するには、Adobe Exchangeに移
 
 承認されると、アプリはインストールできるようになります。
 
-![ アプリのレビューと承認](assets/3-manage.png)
+![&#x200B; アプリのレビューと承認](assets/3-manage.png)
 
 ## アプリのインストール
 
@@ -135,7 +139,7 @@ Workfrontのアプリケーションを表示するには、Adobe Exchangeに移
 1. 「アプリの詳細を表示」をクリックします。
 1. 画面の左側にある環境を選択するか、新しい環境を追加します。
 1. 「**デプロイ**」をクリックします。
-   ![ アプリのデプロイ ](assets/10-env-details-2.png)
+   ![&#x200B; アプリのデプロイ &#x200B;](assets/10-env-details-2.png)
 1. インストールまたは使用権限を割り当てます（必要な場合）。
 
    組織が製品プロファイルまたはユーザーグループを介したアプリアクセスを制御している場合は、ユーザーがインストールと使用を続行できるように、アプリを適切なプロファイルまたはグループに割り当てます。
@@ -146,7 +150,7 @@ Workfrontのアプリケーションを表示するには、Adobe Exchangeに移
 
 レイアウトテンプレートにアプリを追加するには、レイアウトテンプレートを開き、メインメニューまたはセカンダリメニュー領域に移動します。 「追加」アイコンを使用してアプリを追加します。
 
-![ レイアウトテンプレートにアプリを追加](assets/add-to-lt.png)
+![&#x200B; レイアウトテンプレートにアプリを追加](assets/add-to-lt.png)
 
 ## アプリサポートへのお問い合わせ
 

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: setup
 navigation-topic: use-the-gantt-chart
-title: '[!UICONTROL  ガント ] チャートでの情報の表示方法を設定'
+title: '[!UICONTROL &#x200B; ガント &#x200B;] チャートでの情報の表示方法を設定'
 description: タスクリストのガントチャートとプロジェクトリストのガントチャートに表示される情報を設定できます。
 author: Alina
 feature: Work Management
@@ -10,11 +10,19 @@ exl-id: 465365a2-d94b-47b6-a393-16770fca2714
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/k9q-K34EL3-iU9mmqH4nWFHPQhLeJ-85fk-AKOprHJI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 845
@@ -105,12 +113,12 @@ Old:
   <tr> 
    <td role="rowheader">実際の日付</td> 
    <td> <img src="assets/actual-dates-in-gantt-183x213.png" alt="actual_dates_in_gantt.png" style="width: 183;height: 213;"> </td> 
-   <td> <p>[!UICONTROL Actual Start Date]と[!UICONTROL Actual Completion Date]が三角形のアイコンと共に表示されます。 [!UICONTROL Actual Completion Date]が null の場合は、[!UICONTROL Actual Start Date]のみが表示されます。</p> <p>詳細については、「<a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref"> プロジェクトの概要[!UICONTROL実完了日] </a>」および「<a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref"> プロジェクトの概要[!UICONTROL実開始日] </a>」を参照してください。</p> </td> 
+   <td> <p>[!UICONTROL Actual Start Date]と[!UICONTROL Actual Completion Date]が三角形のアイコンと共に表示されます。 [!UICONTROL Actual Completion Date]が null の場合は、[!UICONTROL Actual Start Date]のみが表示されます。</p> <p>詳細については、「<a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref"> プロジェクトの概要[!UICONTROL 実完了日] </a>」および「<a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref"> プロジェクトの概要[!UICONTROL 実開始日] </a>」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Assignments]</td> 
    <td> <img src="assets/assignments-in-gantt-312x203.png" alt="assignments_in_gantt.png" style="width: 312;height: 203;"> </td> 
-   <td> <p>タスクの割り当て先を表示します。 担当者の名前の横にある「詳細」リンクにカーソルを合わせると、タスクに対する割り当ての割合など、担当者に関する詳細な情報が表示されます。</p> <p>[!UICONTROL ガントチャート ]をPDFに書き出しても、担当者は[!UICONTROL ガントチャート ]に表示されません。 [!UICONTROL ガントチャート ]をPDFに書き出すと、担当者はタスクリストにのみ表示されます。</p> </td> 
+   <td> <p>タスクの割り当て先を表示します。 担当者の名前の横にある「詳細」リンクにカーソルを合わせると、タスクに対する割り当ての割合など、担当者に関する詳細な情報が表示されます。</p> <p>[!UICONTROL ガントチャート &#x200B;]をPDFに書き出しても、担当者は[!UICONTROL ガントチャート &#x200B;]に表示されません。 [!UICONTROL ガントチャート &#x200B;]をPDFに書き出すと、担当者はタスクリストにのみ表示されます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Baseline]</td> 
@@ -145,12 +153,12 @@ Old:
   <tr> 
    <td role="rowheader">[!UICONTROL Predecessors]</td> 
    <td> <img src="assets/predecessor-2-269x200.png" alt="predecessor_2.png" style="width: 269;height: 200;"> </td> 
-   <td> <p>2 つのタスク間の先行関係を示す、1 つのタスクから別のタスクへの行。 個々の先行タスク行をハイライト表示するには、その行にカーソルを合わせます。 クリックすると、ハイライト表示されたままになります。 先行タスク関係は、一度に 1 行だけハイライト表示できます。</p> <p>ガントチャートの複数のページにまたがる先行タスク関係を持つタスクまたはクロスプロジェクト先行タスクを持つタスクの横に[!UICONTROL先行タスク ] アイコンが表示されます。</p> <p>[!UICONTROL Predecessor] アイコンをクリックして、すべての先行タスクと後続タスク、タスク名、先行タスク関係の種類、キーの日付などの詳細を表示します。</p> <p>メモ：プロジェクトのリストの [!UICONTROL Gantt Chart] には、プロジェクトをまたいだ先行タスクに関する情報が表示されます。 異なるプロジェクト間で先行タスク関係を作成する方法に関して詳しくは、<a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">プロジェクト間の先行タスクを作成</a>を参照</p> <p>先行タスクに関して詳しくは、「<a href="../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md" class="MCXref xref">先行タスクを強制的に実行</a>を参照してください。</p> </td> 
+   <td> <p>2 つのタスク間の先行関係を示す、1 つのタスクから別のタスクへの行。 個々の先行タスク行をハイライト表示するには、その行にカーソルを合わせます。 クリックすると、ハイライト表示されたままになります。 先行タスク関係は、一度に 1 行だけハイライト表示できます。</p> <p>ガントチャートの複数のページにまたがる先行タスク関係を持つタスクまたはクロスプロジェクト先行タスクを持つタスクの横に[!UICONTROL 先行タスク &#x200B;] アイコンが表示されます。</p> <p>[!UICONTROL Predecessor] アイコンをクリックして、すべての先行タスクと後続タスク、タスク名、先行タスク関係の種類、キーの日付などの詳細を表示します。</p> <p>メモ：プロジェクトのリストの [!UICONTROL Gantt Chart] には、プロジェクトをまたいだ先行タスクに関する情報が表示されます。 異なるプロジェクト間で先行タスク関係を作成する方法に関して詳しくは、<a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">プロジェクト間の先行タスクを作成</a>を参照</p> <p>先行タスクに関して詳しくは、「<a href="../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md" class="MCXref xref">先行タスクを強制的に実行</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Progress Status]</td> 
    <td> <p>[!UICONTROL On Time] <img src="assets/task-on-time--oct.-2017.png" alt="task_on_time__Oct._2017.png"></p> <p>[!UICONTROL Behind]    <img src="assets/task-behind--oct.-2017.png" alt="task_behind__Oct._2017.png"></p> <p>[!UICONTROL At Risk]    <img src="assets/task-at-risk.png" alt="task_at_risk.png"></p> <p>遅延        <img src="assets/task-late-oct.2017.png" alt="task_late_Oct.2017.png"></p> </td> 
-   <td> <p> </p> <p>特定のタスクの現在の進捗状況のステータス。 </p> <p>詳細については、<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref"> タスク [!UICONTROL進捗ステータス ]の概要</a>を参照してください。</p> </td> 
+   <td> <p> </p> <p>特定のタスクの現在の進捗状況のステータス。 </p> <p>詳細については、<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref"> タスク [!UICONTROL 進捗ステータス &#x200B;]の概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">見込み日</td> 
@@ -163,7 +171,7 @@ Old:
 ## 表示オプションを設定
 
 1. **タスクリストガントチャート**&#x200B;または&#x200B;**プロジェクトリストガントチャート**&#x200B;に移動します。\
-   ガントチャートの場所について詳しくは、[ ガントチャートの概要]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)を参照してください。[!UICONTROL 
+   ガントチャートの場所について詳しくは、[&#x200B; ガントチャートの概要](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)を参照してください。
 
 1. （オプション）「**予定日に切り替え**」設定を選択して、タスクを予定日で表示します。 デフォルトでは、タスクは予定日で表示されます。
 1. 「**オプション**」アイコンをクリックします。 **オプション** ダイアログボックスが開きます。\

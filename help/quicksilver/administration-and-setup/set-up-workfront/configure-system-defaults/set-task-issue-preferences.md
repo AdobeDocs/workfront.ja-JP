@@ -11,11 +11,18 @@ exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Abb8wbD3oRt-lRej2qBcEO32QiISb3tCEFuclzrJZ-I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2238
@@ -213,16 +220,16 @@ Linked to Converting Issues.
 
 この設定を有効にすると、次の情報が表示されます。
 
-* [!UICONTROL **委任**] リンクは、[!UICONTROL  マイワーク ]、[!UICONTROL  マイタスク ]、または[!UICONTROL  マイイシュー] ウィジェットの[!UICONTROL  ホーム ]領域にあります。 そこからタスクやイシューの割り当てを委任することができます。
+* [!UICONTROL **委任**] リンクは、[!UICONTROL &#x200B; マイワーク &#x200B;]、[!UICONTROL &#x200B; マイタスク &#x200B;]、または[!UICONTROL &#x200B; マイイシュー] ウィジェットの[!UICONTROL &#x200B; ホーム &#x200B;]領域にあります。 そこからタスクやイシューの割り当てを委任することができます。
 
   >[!NOTE]
   >
-  >  [!UICONTROL **承認を委任**] リンクは、[!UICONTROL  ホーム ]領域で常に有効になっています。
+  >  [!UICONTROL **承認を委任**] リンクは、[!UICONTROL &#x200B; ホーム &#x200B;]領域で常に有効になっています。
 
 * タスクまたはイシューのヘッダー内の「[!UICONTROL 割り当てと委任]」エリアで、タスクまたはイシューが別のユーザーに委任されたことを示すメッセージ。
-* タスクまたはイシューが、[!UICONTROL  ホーム ]の[!UICONTROL  マイワーク ] ウィジェットで別のユーザーに委任されたことを示す表示。
+* タスクまたはイシューが、[!UICONTROL &#x200B; ホーム &#x200B;]の[!UICONTROL &#x200B; マイワーク &#x200B;] ウィジェットで別のユーザーに委任されたことを示す表示。
 
-  「[!UICONTROL  ユーザーがタスクと問題]を委任することを許可する」設定を無効にすると、現在スケジュールされている委任が停止され、委任されたユーザーには、委任が停止されたというメール通知が送信されます。
+  「[!UICONTROL &#x200B; ユーザーがタスクと問題]を委任することを許可する」設定を無効にすると、現在スケジュールされている委任が停止され、委任されたユーザーには、委任が停止されたというメール通知が送信されます。
 
 他のユーザーへの作業の委任について詳しくは、次の記事を参照してください。
 

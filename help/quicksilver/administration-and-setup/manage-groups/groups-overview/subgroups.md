@@ -10,10 +10,14 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
 TQID: https://experienceleague.adobe.com/lVTPu5Nz5FqEPEh-S3LnT9cGIQnV6v9WN6yBcPgCvzs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 642
@@ -59,7 +63,7 @@ ht-degree: 99%
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-サブグループの作成時や編集時に、サブグループのメンバーをグループ管理者としてサブグループに割り当てることができます。 手順については、[グループの作成](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)の記事にある [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) を参照してください。
+サブグループの作成時や編集時に、サブグループのメンバーをグループ管理者としてサブグループに割り当てることができます。 手順については、[グループの作成](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)の記事にある [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) を参照してください。
 
 サブグループの管理を、その上のグループに割り当てられているグループ管理者に任せることもできます。 サブグループを作成すると、上のグループの管理者は、そのサブグループを自動的に管理する権限を持ちます。
 

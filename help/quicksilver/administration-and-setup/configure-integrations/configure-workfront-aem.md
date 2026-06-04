@@ -9,10 +9,19 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
 TQID: https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1869
@@ -85,7 +94,7 @@ ht-degree: 70%
 
 >[!IMPORTANT]
 >
->次の手順は、[[!DNL Workfront for Experience Manager] 拡張コネクタ ](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)に置き換えられた[!DNL Workfront with AEM Assets] レガシーコネクタに関するものです。 詳しくは、アカウント担当者にお問い合わせください。
+>次の手順は、[[!DNL Workfront for Experience Manager] 拡張コネクタ &#x200B;](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)に置き換えられた[!DNL Workfront with AEM Assets] レガシーコネクタに関するものです。 詳しくは、アカウント担当者にお問い合わせください。
 
 [!DNL Workfront for AEM Assets] コネクタをインストールするには、[!UICONTROL CRX パッケージマネージャー] を使用して、コネクタをパッケージとして AEM に読み込む必要があります。
 
@@ -111,13 +120,13 @@ ht-degree: 70%
 
 1. [!UICONTROL CRX Package Manager]を閉じます。 コネクタがインストールされ、[!DNL Workfront] と統合するように [!DNL AEM Assets] を設定できるようになりました。
 
-1. [ [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) と統合する  [!DNL AEM Assets]  の設定に進みます。
+1. [&#x200B; [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) と統合する  [!DNL AEM Assets]  の設定に進みます。
 
 ## [!DNL Workfront] と統合する [!DNL AEM Assets] の設定 {#configure-aem-assets-to-integrate-with-workfront}
 
 コネクタをインストールした後、コネクタパッケージを AEM に読み込みし、[!DNL Workfront] 内のドキュメントとリンクするように AEM を設定します。
 
-コネクタのインストールについて詳しくは、[ [!DNL Workfront for AEM Assets]  コネクタパッケージのインストール](#install-the-workfront-for-aem-assets-connector-package)を参照してください。
+コネクタのインストールについて詳しくは、[&#x200B; [!DNL Workfront for AEM Assets]  コネクタパッケージのインストール](#install-the-workfront-for-aem-assets-connector-package)を参照してください。
 
 * [前提条件](#prerequisites)
 * [AEM の  [!DNL Workfront] との統合](#integrate-aem-with-workfront)
@@ -128,9 +137,9 @@ ht-degree: 70%
 開始する前に、workfront-service の権限を有効にする必要があります。
 
 1. AEMで、**[!UICONTROL ツール]** > **[!UICONTROL セキュリティ]** > **[!UICONTROL 権限]**&#x200B;に移動します。
-1. 左上隅のドロップダウンメニューで&#x200B;**[!UICONTROL Users]**}&#x200B;を選択し、**[!UICONTROL 検索]**&#x200B; フィールドに&#x200B;*[!UICONTROL workfront-service]*&#x200B;と入力します。 [!UICONTROL workfront-service] ユーザーを選択します。
+1. 左上隅のドロップダウンメニューで&#x200B;**[!UICONTROL Users]**&rbrace;&#x200B;を選択し、**[!UICONTROL 検索]**&#x200B; フィールドに&#x200B;*[!UICONTROL workfront-service]*&#x200B;と入力します。 [!UICONTROL workfront-service] ユーザーを選択します。
 1. 画面の右側で、**[!UICONTROL ACE の追加]**&#x200B;を選択して新しいエントリを作成します。
-1. &#x200B;**[!UICONTROL 新しいエントリを追加]**&#x200B; ウィンドウで、**[!UICONTROL パス]**} フィールドのチェックボックスアイコンを選択し&#x200B;フォルダーを選択します：*/conf*
+1. &#x200B;**[!UICONTROL 新しいエントリを追加]**&#x200B; ウィンドウで、**[!UICONTROL パス]**&rbrace; フィールドのチェックボックスアイコンを選択し&#x200B;フォルダーを選択します：*/conf*
 1. 「**権限**」フィールドに、*jcr:read*&#x200B;と入力します。
 1. 右上隅で、**追加**&#x200B;を選択します。
 1. （オプション）上記の手順を繰り返して、さらにエントリを作成します。
@@ -138,7 +147,7 @@ ht-degree: 70%
 ### AEM の [!DNL Workfront] との統合 {#integrate-aem-with-workfront}
 
 1. 管理者として AEM Assets にログインします。
-1. **[!UICONTROL ツール]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Workfront Integration Configuration]** > **[!UICONTROL グローバルWorkfront].****{10&#x200B;をクリック&#x200B;します**
+1. **[!UICONTROL ツール]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Workfront Integration Configuration]** > **[!UICONTROL グローバルWorkfront].**&#x200B;**&lbrace;10&#x200B;をクリック&#x200B;します**
 
 1. （条件付き）まだ実行していない場合は、[!DNL Workfront] クラウド設定ファイルを作成します。
 
@@ -244,11 +253,11 @@ ht-degree: 70%
 1. （条件付き）必要に応じて、「**[!UICONTROL 作成者]**」フィールドのドメインを更新します。
 1. 「**[!UICONTROL 保存]**」をクリックします。 [!UICONTROL AEM Assets]は、ドキュメントを[!DNL Workfront]にリンクするように設定されました。
 
-1. [ [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets) と統合する  [!DNL Workfront]  の設定を続行します。
+1. [&#x200B; [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets) と統合する  [!DNL Workfront]  の設定を続行します。
 
 ## [!DNL AEM assets] と統合する [!DNL Workfront] の設定 {#configure-workfront-to-integrate-with-aem-assets}
 
-[!UICONTROL Workfront for AEM Assets] Connectorをインストールし（[AEM Assets用[!UICONTROL Workfront] コネクタパッケージ ](#install-the-workfront-for-aem-assets-connector-package)に記載）、[!UICONTROL AEM Assets]を設定し（[ [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)との統合のために[!UICONTROL AEM Assets]を設定に記載）、[!DNL Workfront]と[!DNL AEM Assets]の間でドキュメントをリンクするように[!DNL Workfront]を設定する必要があります。
+[!UICONTROL Workfront for AEM Assets] Connectorをインストールし（[AEM Assets用[!UICONTROL Workfront] コネクタパッケージ &#x200B;](#install-the-workfront-for-aem-assets-connector-package)に記載）、[!UICONTROL AEM Assets]を設定し（[&#x200B; [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)との統合のために[!UICONTROL AEM Assets]を設定に記載）、[!DNL Workfront]と[!DNL AEM Assets]の間でドキュメントをリンクするように[!DNL Workfront]を設定する必要があります。
 
 1. Workfrontに管理者としてログインします。
 
@@ -288,12 +297,12 @@ ht-degree: 70%
 
 [!DNL Workfront] 権限について詳しくは、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
-* [ [!DNL AEM assets] でのユーザーの設定](#set-up-users-in-aem-assets)
+* [&#x200B; [!DNL AEM assets] でのユーザーの設定](#set-up-users-in-aem-assets)
 
 ### [!DNL AEM assets] でのユーザーの設定 {#set-up-users-in-aem-assets}
 
 1. Workfront 管理者として [!DNL AEM Assets] にログインします。
-1. **[!UICONTROL ツール]** > ******[!UICONTROL セキュリティ]** > &#x200B;**[!UICONTROL ユーザー]**&#x200B;をクリックします。
+1. **[!UICONTROL ツール]** > **&#x200B;**&#x200B;**[!UICONTROL セキュリティ]** > &#x200B;**[!UICONTROL ユーザー]**&#x200B;をクリックします。
 
 1. （条件付き）ユーザーが AEM のユーザープロファイルを持っていない場合は、AEM ユーザープロファイルを作成します。
 
@@ -314,7 +323,7 @@ ht-degree: 70%
 
 1. 「**[!UICONTROL グループ]**」タブをクリックします。
 
-   ![ グループ タブ ](assets/groupstab.png)
+   ![&#x200B; グループ タブ &#x200B;](assets/groupstab.png)
 
 1. **[!UICONTROL 作成]**&#x200B;権限と&#x200B;**[!UICONTROL 削除]**&#x200B;権限を含むアクセスレベルを持つ 1 つ以上の [!DNL Workfront] グループにユーザーが属していることを確認してください。
 

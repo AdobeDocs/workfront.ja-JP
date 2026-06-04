@@ -9,11 +9,18 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2647
@@ -89,7 +96,7 @@ ht-degree: 72%
 >
 >計算済みの式を変更すると、オブジェクトのフィールド値が古くなる場合があります。 これらのフィールドで常に最新の計算を表示するには、以下の操作のいずれかを行います。
 >
->* 添付されたカスタムフォームでデータを編集したオブジェクトを保存した後、オブジェクトのメインページで「その他」アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、カスタム式を再計算します。
+>* 添付されたカスタムフォームでデータを編集したオブジェクトを保存した後、オブジェクトのメインページで「その他」アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、カスタム式を再計算します。
 >* オブジェクトを一括編集する際に、「カスタム式を再計算」オプションを選択します。
 >* カスタムフォームで計算カスタムフィールドを編集する場合は、「以前の計算を更新」オプションを選択します。
 
@@ -104,7 +111,7 @@ ht-degree: 72%
 1. **新しいカスタムフォーム** ダイアログで、カスタムフォームを添付するオブジェクトタイプを選択し、**続行**&#x200B;をクリックします。
 1. 画面の左上で、「**フィールドライブラリ**」をクリックします。
 
-   ![ フィールドライブラリ ](assets/field-library.png)
+   ![&#x200B; フィールドライブラリ &#x200B;](assets/field-library.png)
 
 1. 検索ボックスを使用するか、「**計算済み**」セクションを展開して必要な計算済みフィールドを見つけ、カスタムフォーム内の表示したい場所にフィールドをドラッグします。
 
@@ -317,11 +324,11 @@ ht-degree: 72%
       >次のいずれかの操作を実行して、計算に関するヘルプを確認することができます。
       > 
       >* 計算内の式にカーソルを合わせると、説明、その使用方法を示す例、および詳細を表示する&#x200B;**詳細** リンクが表示されます。詳しくは、[計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。
-      >  ![式ヘルプテキスト ](assets/hover-expression-help-text.jpg)
+      >  ![式ヘルプテキスト &#x200B;](assets/hover-expression-help-text.jpg)
       >* カラーコーディングを使用して、追加したコンポーネントを識別します。エクスプレッションは青で表示され、フィールドは緑で表示されます。
-      >  フィールド式](assets/colors-fields-expressions.jpg)の![色
+      >  フィールド式![&#128279;](assets/colors-fields-expressions.jpg)の色
       >* あなたが行くように、ピンクで強調表示された計算エラーを見つけます。強調表示されたエラーにカーソルを合わせると、その原因の簡単な説明が表示されます。
-      >  ![ エラーのヘルプ ](assets/error-help.png)
+      >  ![&#x200B; エラーのヘルプ &#x200B;](assets/error-help.png)
       >* 計算の下のエリアで、既存の Workfront オブジェクトの結果をプレビューします。
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
       >  ![計算のプレビュー](assets/preview-calc.jpg)

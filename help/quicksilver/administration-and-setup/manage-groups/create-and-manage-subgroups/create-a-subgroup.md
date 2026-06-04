@@ -9,10 +9,15 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
 TQID: https://experienceleague.adobe.com/ol-xgm0Fz8GAbJWdpjvwwt-2fvGB0krGfIclosiOfGY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 637
@@ -74,7 +79,7 @@ ht-degree: 61%
 
      次に示すように、先行入力フィールドでは、一般ユーザーがグループを検索してオブジェクトに添付したり、オブジェクトを共有したりすると、アクティブなグループのみがリストに表示されます。
 
-     グループの![先行入力フィールド ](assets/typeahead-for-group.png)
+     グループの![先行入力フィールド &#x200B;](assets/typeahead-for-group.png)
 
      ユーザーに対してこれを合理化するには、現在使用されていないグループに対して&#x200B;**はアクティブです** オプションを無効にすることができます。
 
@@ -87,7 +92,7 @@ ht-degree: 61%
      >[!NOTE]
      >
      >* サブグループからビジネスリーダーを削除する前に、「ビジネスリーダー」フィールドから名前を削除する必要があります。
-     >* ビジネスリーダーフィールドから名前を削除した場合、そのユーザーはサブグループから削除されない限り、サブグループのメンバーのままでいます。 グループからユーザーを削除する方法については、[ グループのメンバーシップの表示と管理](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)を参照してください。
+     >* ビジネスリーダーフィールドから名前を削除した場合、そのユーザーはサブグループから削除されない限り、サブグループのメンバーのままでいます。 グループからユーザーを削除する方法については、[&#x200B; グループのメンバーシップの表示と管理](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)を参照してください。
 
    * **グループメンバーとグループ管理者**: サブグループのメンバーとしてユーザーとグループを追加するには、追加する既存のユーザーまたはグループの名前を入力し始め、表示されたら名前を選択します。
 

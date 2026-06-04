@@ -9,10 +9,16 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
 TQID: https://experienceleague.adobe.com/6l-BO3BvpYCczzD-rfU5ecXqaInT9OM4OX4vRfrCT0k
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 310
@@ -67,7 +73,7 @@ ht-degree: 69%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
 
 1. グループの名前をクリックします。
 1. 左側のパネルで、「**最近復元された項目**」をクリックします。
@@ -81,8 +87,8 @@ ht-degree: 69%
 
    各タブには、現在のグループまたはそのサブグループに属し、過去 30 日以内に復元された、対応するオブジェクトタイプの項目が一覧表示されます。
 
-1. （オプション）タブ上のオブジェクトのリスト全体を書き出すには、**書き出し** アイコンをクリックします。 ![書き出しアイコン ](assets/export-icon.png)。
+1. （オプション）タブ上のオブジェクトのリスト全体を書き出すには、**書き出し** アイコンをクリックします。 ![書き出しアイコン &#x200B;](assets/export-icon.png)。
 1. （オプション）フィルター、ビュー、またはグループ化を使用して、リスト内の情報の表示を変更します。
 
-   詳しくは、[ レポート要素の概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)を参照してください。
+   詳しくは、[&#x200B; レポート要素の概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)を参照してください。
 

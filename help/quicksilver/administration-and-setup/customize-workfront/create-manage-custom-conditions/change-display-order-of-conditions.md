@@ -9,10 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
 TQID: https://experienceleague.adobe.com/J4nyshJLSYqKf31oDVmlz1TBKN24uQwE-WXEGaPeRIk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 198
@@ -26,11 +30,11 @@ ht-degree: 56%
 
 * ユーザーがプロジェクトを編集する場合：
 
-  ![ プロジェクトの編集時に条件を変更](assets/change-condition-edit-project-0825.png)
+  ![&#x200B; プロジェクトの編集時に条件を変更](assets/change-condition-edit-project-0825.png)
 
 * ユーザーがタスクまたはイシューの条件を変更する場合
 
-  ![ リスト内の条件の変更](assets/change-conditions-list-dropdown-0925.png)
+  ![&#x200B; リスト内の条件の変更](assets/change-conditions-list-dropdown-0925.png)
 
   >[!NOTE]
   >
@@ -72,8 +76,8 @@ ht-degree: 56%
 
 1. 「**プロジェクト**、**タスク**、または&#x200B;**問題**」タブを選択します。
 
-1. 条件を![移動アイコン ](assets/move-icon---dots.png) ドラッグして、順序を変更します。
+1. 条件を![移動アイコン &#x200B;](assets/move-icon---dots.png) ドラッグして、順序を変更します。
 
    新しい順序は自動的に保存されます。
 
-条件のカスタマイズについて詳しくは、[ カスタム条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)を参照してください。
+条件のカスタマイズについて詳しくは、[&#x200B; カスタム条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)を参照してください。

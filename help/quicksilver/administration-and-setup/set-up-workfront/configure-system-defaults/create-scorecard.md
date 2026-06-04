@@ -11,10 +11,14 @@ exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Moddac2gKcXbmssSrzrMMcxuj-7al8Md76Vkjw-CSoY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 722
@@ -82,7 +86,7 @@ ht-degree: 69%
 
    **新しいスコアカード** ボックスが開きます。
 
-   ![新しいスコアカード ボックス ](assets/new-scorecard-350x173.png)
+   ![新しいスコアカード ボックス &#x200B;](assets/new-scorecard-350x173.png)
 
 1. **[!UICONTROL スコアカード名]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を指定します。
 
@@ -131,11 +135,11 @@ ht-degree: 69%
 {{step-1-to-setup}}
 
 1. 左側のパネルで「**[!UICONTROL スコアカード]**」をクリックします。
-1. リストでスコアカードを選択し、スコアカード リストの上部にある&#x200B;**コピー** アイコン ![ スコアカード アイコン ](assets/copy-scorecard-icon.png)をクリックします。
+1. リストでスコアカードを選択し、スコアカード リストの上部にある&#x200B;**コピー** アイコン ![&#x200B; スコアカード アイコン &#x200B;](assets/copy-scorecard-icon.png)をクリックします。
 
    「**スコアカードをコピー**」ボックスが開きます。
 
-   ![ スコアカード ボックスをコピー](assets/copy-scorecard-box.png)
+   ![&#x200B; スコアカード ボックスをコピー](assets/copy-scorecard-box.png)
 
 1. 次の情報を指定します。
 
@@ -153,6 +157,6 @@ ht-degree: 69%
 
 プロジェクトのビジネスケースを作成する際に、スコアカードをプロジェクトに追加します。 プロジェクトへのスコアカードの追加について詳しくは、[プロジェクトへのスコアカードの適用およびアラインメントスコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)を参照してください。
 
-プロジェクト権限について詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でのプロジェクトの共有を参照してください。
+プロジェクト権限について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でのプロジェクトの共有を参照してください。
 
 

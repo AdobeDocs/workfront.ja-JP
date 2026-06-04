@@ -9,10 +9,15 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
 TQID: https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 753
@@ -72,7 +77,7 @@ ht-degree: 91%
 
 1. グループの名前をクリックして、そのページを開きます。
 
-1. グループ名の横にある詳細メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**非アクティブ化**&#x200B;または&#x200B;**再アクティブ化**&#x200B;をクリックします。
+1. グループ名の横にある詳細メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**非アクティブ化**&#x200B;または&#x200B;**再アクティブ化**&#x200B;をクリックします。
 
    >[!NOTE]
    >
@@ -88,7 +93,7 @@ ht-degree: 91%
 
   この状況でのサブグループの再アクティブ化について詳しくは、[非アクティブな親グループの下のサブグループの再アクティブ化について](#about-reactivating-a-subgroup-below-an-inactive-parent-group)を参照してください。
 
-* セットアップのグループ領域に移動すると、アクティブはデフォルトのフィルター![ フィルターアイコン ](assets/filter-nwepng.png)であるため、リスト内のアクティブなグループのみが表示されます。 非アクティブなグループも含め、管理するすべてのグループを表示する場合は、すべてのフィルターを使用できます。 または、非アクティブフィルターを使用して、非アクティブなフィルターのみをリストします。
+* セットアップのグループ領域に移動すると、アクティブはデフォルトのフィルター![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)であるため、リスト内のアクティブなグループのみが表示されます。 非アクティブなグループも含め、管理するすべてのグループを表示する場合は、すべてのフィルターを使用できます。 または、非アクティブフィルターを使用して、非アクティブなフィルターのみをリストします。
 
   リスト内のフィルターについて詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 

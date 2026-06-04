@@ -11,11 +11,16 @@ exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/hCzefaueJPFQ1jTzePSOC9FIR1SRYTrC3NIKmtIOpp4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: c549503a-6440-4802-9525-ceb73a00feff
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: c549503a-6440-4802-9525-ceb73a00feff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 940
@@ -37,7 +42,7 @@ ht-degree: 78%
 
 グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
-レイアウトテンプレートとビジネスプロファイルについて詳しくは、[ ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
+レイアウトテンプレートとビジネスプロファイルについて詳しくは、[&#x200B; ビジネスプロファイルの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)を参照してください。
 
 ## アクセス要件
 
@@ -75,14 +80,14 @@ ht-degree: 78%
 
    >[!TIP]
    >
-   >レイアウトテンプレートに満足したら、[新しいレイアウトテンプレートのテスト ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)の説明に従って、レイアウトテンプレートをテストすることをお勧めします。
+   >レイアウトテンプレートに満足したら、[新しいレイアウトテンプレートのテスト &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)の説明に従って、レイアウトテンプレートをテストすることをお勧めします。
 
 1. ページの上位のセクションで「**割り当て先:**」をクリックします。
 1. 表示されるボックスで、**ユーザー、担当業務、チーム、グループ、またはアクセス レベルを追加**&#x200B;をクリックし、ユーザー、担当業務、チーム、グループ、またはアクセス レベルの名前を入力し始め、ドロップダウンに表示されたら名前をクリックします。
 
    最近追加された名前には、青色の背景が表示されます。 これは、追加したばかりの名前とリストに既に存在する名前を区別できるため、既存のレイアウトテンプレートを編集する際に役立ちます。
 
-   情報アイコン ![情報アイコン ](assets/info-icon.png)は、既に別のレイアウトテンプレートに割り当てられているユーザー、担当業務、チーム、グループ、またはアクセスレベルの名前の右側に表示されます。 アイコンの上にポインタを合わせると、そのレイアウトテンプレートの名前が表示され、既存の割り当てを上書きするかどうかを決定できます。
+   情報アイコン ![情報アイコン &#x200B;](assets/info-icon.png)は、既に別のレイアウトテンプレートに割り当てられているユーザー、担当業務、チーム、グループ、またはアクセスレベルの名前の右側に表示されます。 アイコンの上にポインタを合わせると、そのレイアウトテンプレートの名前が表示され、既存の割り当てを上書きするかどうかを決定できます。
 
 1. 前の2つの手順を繰り返して、必要に応じてレイアウトテンプレートを他のユーザー、担当業務、チーム、グループ、またはアクセスレベルに割り当てます。
 

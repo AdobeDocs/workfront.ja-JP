@@ -9,11 +9,17 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
 TQID: https://experienceleague.adobe.com/y3cDoyu3OELK9IQjRPrN4-n8kVdOLQlIHhI7yS6p6OU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1359
@@ -27,7 +33,7 @@ ht-degree: 47%
 
 この記事では、外部ルックアップフィールドを使用して、Workfrontまたはパブリック APIの同じインスタンスを呼び出す例を紹介します。 また、外部参照を使用して、Jira、Salesforce、ServiceNowなどの外部システムと通信することもできます。
 
-外部参照フィールドをカスタムフォームに追加することと、外部参照コンポーネントの追加の定義について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+外部参照フィールドをカスタムフォームに追加することと、外部参照コンポーネントの追加の定義について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## アクセス要件
 
@@ -220,13 +226,13 @@ Workfront Planning APIでは、Get メソッドを使用してレコードタイ
 
 外部参照を作成する場合は、他にも多くの使用例があります。
 
-**使用例：**先行入力フィールドは、レポートに問題が発生する可能性があるため、置き換えます。
+**使用例：**&#x200B;先行入力フィールドは、レポートに問題が発生する可能性があるため、置き換えます。
 **解決策：** システム内の既存のオブジェクトにAPI呼び出しを使用します。
 
 先行入力フィールドを置換するテンプレートのベース API URLの例：
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**使用例：**より多くの機能を持つドロップダウンフィールドを作成します（例えば、外部参照フィールドに折り返し行があります）。
+**使用例：**&#x200B;より多くの機能を持つドロップダウンフィールドを作成します（例えば、外部参照フィールドに折り返し行があります）。
 **解決策：** システム内の既存のオブジェクトに対するAPI呼び出しを使用するか、新しいオブジェクトを作成して、このオブジェクトに対するAPI呼び出しを使用します。
 
 **使用例：** ユーザーがカスタムフォーム領域外で独自のフィールドを維持する方法を定義します。外部ルックアップフィールドを設定すると、そのフィールドを構成するオブジェクトにユーザーを割り当てることができます。このオプションは、高いメンテナンスフィールドやチームに適しています。

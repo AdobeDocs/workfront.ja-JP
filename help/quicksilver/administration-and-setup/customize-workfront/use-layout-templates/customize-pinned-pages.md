@@ -9,11 +9,19 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
 TQID: https://experienceleague.adobe.com/B-e1dKHbwsebC--FculRfneM-uqojz6REb1Fo6O486I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 527
@@ -23,7 +31,7 @@ ht-degree: 60%
 
 # レイアウトテンプレートを使用した固定されたページのカスタマイズ
 
-レイアウトテンプレートでは、Adobe Workfront の上部に、ユーザーに常に利用できるようにしておきたいページをピン留めすることができます。 これらは、メインメニュー![ メインメニューアイコン ](assets/main-menu-icon-left-nav.png)を介してアクセスできるページまたはダッシュボードのいずれかです。
+レイアウトテンプレートでは、Adobe Workfront の上部に、ユーザーに常に利用できるようにしておきたいページをピン留めすることができます。 これらは、メインメニュー![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon-left-nav.png)を介してアクセスできるページまたはダッシュボードのいずれかです。
 
 ユーザーが独自に追加したピン留めは、レイアウトテンプレートに追加したピン留めの右側に表示されます。
 
@@ -105,17 +113,17 @@ ht-degree: 60%
      >* Workfront計画について詳しくは、[Adobe Workfront計画の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 
    * 「**ダッシュボードを追加**」をクリックします
-      * <!--**Quick link name**-->**カスタム名** フィールドにわかりやすい名前を入力します
+      * &#x200B;<!--**Quick link name**-->**カスタム名** フィールドにわかりやすい名前を入力します
       * 「**ダッシュボードを追加**」フィールド <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->でダッシュボードを選択します
       * 「**追加**」をクリックします。
 
 1. 前の手順を繰り返して、他のページをピン留めします。
 
-1. （オプション）ピンを移動するには、ピンにカーソルを合わせて、ピン名の横にあるその他のメニューアイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**左に移動**&#x200B;または&#x200B;**右に移動**&#x200B;をクリックしてピンを選択した方向に移動するか、**前に移動**&#x200B;をクリックしてピンを左端の位置に移動します。
+1. （オプション）ピンを移動するには、ピンにカーソルを合わせて、ピン名の横にあるその他のメニューアイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**左に移動**&#x200B;または&#x200B;**右に移動**&#x200B;をクリックしてピンを選択した方向に移動するか、**前に移動**&#x200B;をクリックしてピンを左端の位置に移動します。
 
-1. （オプション）ピンの名前を変更するには、ピンにカーソルを合わせて、ピン名の横にあるその他のメニューアイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**ピン名を変更**&#x200B;をクリックします。 新しい名前を入力し、**保存**&#x200B;をクリックします。
+1. （オプション）ピンの名前を変更するには、ピンにカーソルを合わせて、ピン名の横にあるその他のメニューアイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**ピン名を変更**&#x200B;をクリックします。 新しい名前を入力し、**保存**&#x200B;をクリックします。
 
-1. （オプション）ピンを削除するには、ピンにカーソルを合わせて、ピン名の横にあるその他のメニューアイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**ピンを削除**&#x200B;をクリックします。
+1. （オプション）ピンを削除するには、ピンにカーソルを合わせて、ピン名の横にあるその他のメニューアイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**ピンを削除**&#x200B;をクリックします。
 
 1. レイアウトテンプレートのカスタマイズを続行します。 「**適用**」はいつでもクリックして、進行状況を保存できます。
 

@@ -12,10 +12,15 @@ exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/PJ7DN2mrsCeXeimGmBQL17ye0EaQIK2uDed1YHvuXw8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 478
@@ -94,7 +99,7 @@ ht-degree: 72%
 1. （オプション）ブループリントの動作の仕組みを学ぶには、「**[!UICONTROL 詳細]**」をクリックします。
 1. 「**[!UICONTROL インストール]**」をクリックします。
 1. 本番環境にインストールするか、サンドボックス環境にインストールするかを選択します。\
-   詳しくは、[ ブループリントのインストール先](#where-should-i-install-a-blueprint)を参照してください。 この記事のセクション。
+   詳しくは、[&#x200B; ブループリントのインストール先](#where-should-i-install-a-blueprint)を参照してください。 この記事のセクション。
 1. 「**設定**」ページで、次のいずれかの操作を選択できます。
 
    * ブループリントをそのままインストールします。 設定を必要としないブループリントタイプの場合は、これが唯一のオプションです。 設定が必要なブループリントの種類の場合は、オプションでブループリントを今すぐインストールし、後で設定することもできます。 「**[!UICONTROL そのままインストール]**」をクリックします。

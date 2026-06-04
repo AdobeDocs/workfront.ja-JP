@@ -9,10 +9,15 @@ exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/V7-dFcJoGqKbPfdk1luo43ucIZSfKg4JFaziJXRrMFw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 421
@@ -26,7 +31,7 @@ ht-degree: 67%
 
 ストーリーのデフォルトの色分けは、ストーリーボードが反復に配置されているかプロジェクトに配置されているかによって異なります。
 
-* **[!UICONTROL イテレーション]**：イテレーションでは、ストーリーボードのタイルは、ストーリーが関連付けられているプロジェクトに従って色分けされます。 （各プロジェクトには、ストーリーボード上で任意にカラーが割り当てられます）。 各アジャイルチームのデフォルトの動作を変更できます。 イテレーションのアジャイルストーリーの色は、プロジェクト（デフォルト）、ストーリーの優先順位、所有者、またはフリーフォームに関連付けることができます。 詳しくは、[ スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事「[ アジャイルストーリーボード ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4)」のストーリーにカラーインジケーターを使用する方法の設定を参照してください。
+* **[!UICONTROL イテレーション]**：イテレーションでは、ストーリーボードのタイルは、ストーリーが関連付けられているプロジェクトに従って色分けされます。 （各プロジェクトには、ストーリーボード上で任意にカラーが割り当てられます）。 各アジャイルチームのデフォルトの動作を変更できます。 イテレーションのアジャイルストーリーの色は、プロジェクト（デフォルト）、ストーリーの優先順位、所有者、またはフリーフォームに関連付けることができます。 詳しくは、[&#x200B; スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事「[&#x200B; アジャイルストーリーボード &#x200B;](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4)」のストーリーにカラーインジケーターを使用する方法の設定を参照してください。
 
 * **[!UICONTROL プロジェクト]**：プロジェクトでは、サブタスクは親タスクの色と一致するので、特定のスイムレーン内のストーリーの色はすべて同じになります。 サブタスクや親タスクがないタスクの色は、タスクを作成するときにランダムに割り当てられます。 アジャイルビューを変更することで、このデフォルトの動作を変更できます。 プロジェクトのアジャイルストーリーの色は、親ストーリー（デフォルト）、ストーリーの優先順位、所有者、またはフリーフォームに関連付けることができます。 詳しくは、[ビューの概要： [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) の[[!UICONTROL アジャイル]ビューの作成またはカスタマイズ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)を参照してください。
 
@@ -57,7 +62,7 @@ ht-degree: 67%
 
 ## 自由形式を使用した場合のストーリーの色の変更
 
-アジャイルチームの設定で「[!UICONTROL  カードカラーを]に関連付ける」オプションが[!UICONTROL  フリーフォーム ]」に設定されている場合、ユーザーは個々のストーリータイルの色を手動で変更できます。 これは、チームや組織にとって重要な他の種類の情報を伝えるのに役立ちます。
+アジャイルチームの設定で「[!UICONTROL &#x200B; カードカラーを]に関連付ける」オプションが[!UICONTROL &#x200B; フリーフォーム &#x200B;]」に設定されている場合、ユーザーは個々のストーリータイルの色を手動で変更できます。 これは、チームや組織にとって重要な他の種類の情報を伝えるのに役立ちます。
 
 {{step1-to-team}}
 
@@ -66,8 +71,8 @@ ht-degree: 67%
 1. 左パネルで、「**[!UICONTROL 反復]**」を選択して特定の反復を選ぶか、「**[!UICONTROL 進行中の反復]**」を選択します。
 1. ストーリータイルの上部にある色付きバナーにポインタを合わせます。
 
-   ![ ストーリーカード ](assets/agile-story-color1-nwe-350x140.png)
+   ![&#x200B; ストーリーカード &#x200B;](assets/agile-story-color1-nwe-350x140.png)
 
 1. 「**[!UICONTROL 色の変更]**」をクリックし、目的の色を選択します。
 
-   ![ カラーを選択](assets/agile-story-color2-nwe-350x138.png)
+   ![&#x200B; カラーを選択](assets/agile-story-color2-nwe-350x138.png)

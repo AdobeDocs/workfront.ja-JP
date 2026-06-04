@@ -9,10 +9,15 @@ role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
 TQID: https://experienceleague.adobe.com/nN-7cw-IwnuQ-7wjyjyp3wUifEvk2eNmo9zqyHDjfV0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 644
@@ -26,7 +31,7 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->* OAuth2 のコンテキストで「Oauth2 アプリケーション」とは、アプリと [!DNL Workfront] などのサーバー間のこの種のアクセスリンクを指します。 詳しくは、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+>* OAuth2 のコンテキストで「Oauth2 アプリケーション」とは、アプリと [!DNL Workfront] などのサーバー間のこの種のアクセスリンクを指します。 詳しくは、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
 >* 一度に最大 10 個の OAuth2 アプリケーションを持つことができます。
 
 * カスタム OAuth2 アプリケーションを作成するための詳細、手順、および詳細については、[統合 [!DNL Workfront] のOAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください
@@ -65,7 +70,7 @@ ht-degree: 80%
 
 [!UICONTROL OAuth2] アプリケーションを表示または管理するには、組織でこのアプリケーションを作成する必要があります。
 
-詳しくは、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+詳しくは、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
 
 ## カスタム OAuth2 アプリケーションの管理
 
@@ -78,10 +83,10 @@ ht-degree: 80%
 
 1. 左側のナビゲーションパネルで、「**[!UICONTROL システム]**」をクリックして「**[!UICONTROL OAuth アプリケーション]**」を選択します。
 1. 「**[!UICONTROL アプリ統合を作成]**」をクリックします。
-1. アプリケーションにカーソルを合わせ、右端に表示されたら&#x200B;**[!UICONTROL 編集]** ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. アプリケーションにカーソルを合わせ、右端に表示されたら&#x200B;**[!UICONTROL 編集]** ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 1. （オプション）アプリケーションの詳細を編集します。
 
-   OAuth2 および JWT アプリに関連するフィールドについては、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+   OAuth2 および JWT アプリに関連するフィールドについては、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
 
 ### カスタム OAuth2 アプリケーションの削除 {#delete-custom-oauth2-applications}
 
@@ -103,7 +108,7 @@ ht-degree: 80%
 >クライアントシークレット自体は表示できません。 クライアントシークレットがわからなくなった場合は、そのシークレットを削除して新しく作成する必要があります。
 >
 >* クライアントシークレットを削除するには、この記事の[クライアントシークレットの削除](#delete-client-secret)を参照してください。
->* 新しいクライアントシークレットを作成するには、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)の [OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)を参照してください。
+>* 新しいクライアントシークレットを作成するには、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)の [OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)を参照してください。
 >
 
 {{step-1-to-setup}}

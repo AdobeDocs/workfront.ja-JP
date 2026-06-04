@@ -9,11 +9,17 @@ feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
 TQID: https://experienceleague.adobe.com/j2Y56liYA3jg5L5GFq--2iLfv3kYPI7MsyaLWIlzZ0o
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 837
@@ -37,7 +43,7 @@ ht-degree: 36%
 > 
 >管理者は、ユーザーに新しいウィジェットを追加できます。 ただし、エンドユーザーが既にウィジェットの順序または背景選択をカスタマイズしている場合、それらの特定のカスタマイズは変更されません。
 
-ホームについて詳しくは、[ ホームの基本を学ぶ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)を参照してください。
+ホームについて詳しくは、[&#x200B; ホームの基本を学ぶ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)を参照してください。
 
 レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -140,11 +146,11 @@ ht-degree: 36%
    >
    >* フィルター、列、グループの各オプションは、レイアウトテンプレートのリストカスタマイズオプションにリンクされています。 ここで行った変更は、これらの設定にも適用されます。
    >* 管理者の列設定をホームページに適切に適用するには、ユーザーに少なくとも「ビューへのアクセスを作成」権限が必要です。
-   </p>
-      <li><p>ウィジェットのデフォルトのフィルターまたはグループを設定するには、オプションの上にカーソルを置き、<b> デフォルトとして設定</b>をクリックします。 現在のデフォルトでは、右側に青い<b>Default</b> バッジが表示されます。</p></li>
-      <li><p>各リストの下部にあるプラス記号ボタンをクリックして、既存のフィルター、列、またはグループを使用可能なオプションのリストに追加し、そのリストにオプションを追加します。 この方法で追加できるのは、既存のフィルター、フィールド（カラム用）、グループのみであることに注意してください。</p></li>
-      </ul>
-      <p>
+   ></p>
+   >   <li><p>ウィジェットのデフォルトのフィルターまたはグループを設定するには、オプションの上にカーソルを置き、<b> デフォルトとして設定</b>をクリックします。 現在のデフォルトでは、右側に青い<b>Default</b> バッジが表示されます。</p></li>
+   >   <li><p>各リストの下部にあるプラス記号ボタンをクリックして、既存のフィルター、列、またはグループを使用可能なオプションのリストに追加し、そのリストにオプションを追加します。 この方法で追加できるのは、既存のフィルター、フィールド（カラム用）、グループのみであることに注意してください。</p></li>
+   >   </ul>
+   >   <p>
 
    >[!NOTE]
    >

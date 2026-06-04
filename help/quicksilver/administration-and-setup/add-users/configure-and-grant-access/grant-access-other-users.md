@@ -6,10 +6,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
 TQID: https://experienceleague.adobe.com/jLoqncsE3CSAK27siU8Ro2EQdZkbJC-gs040vGxX-5E
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 900
@@ -95,9 +99,9 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
     </tbody> 
    </table>
 
-   ![ ユーザー設定の表示を微調整](assets/fine-tune-view-users.png)
+   ![&#x200B; ユーザー設定の表示を微調整](assets/fine-tune-view-users.png)
 
-1. 標準またはプランのライセンスを持つユーザーの権限を変更して他のユーザーを編集するには、**ユーザー**&#x200B;の右側にある&#x200B;**編集** ボタンの歯車アイコン ![歯車アイコン ](assets/gear-icon-settings.png)をクリックし、**設定を微調整** ボックスで付与する編集オプションを選択します。
+1. 標準またはプランのライセンスを持つユーザーの権限を変更して他のユーザーを編集するには、**ユーザー**&#x200B;の右側にある&#x200B;**編集** ボタンの歯車アイコン ![歯車アイコン &#x200B;](assets/gear-icon-settings.png)をクリックし、**設定を微調整** ボックスで付与する編集オプションを選択します。
 
    <table style="table-layout:auto"> 
     <col> 

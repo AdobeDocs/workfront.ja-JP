@@ -9,10 +9,14 @@ exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/L473t3JSVgXHJ-RQXLXkBxQdzh9TbBwXM42DeiiCR7s
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 811
@@ -74,7 +78,7 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 
 1. 右側のパネルの上にある表示オプションをクリックして、ドキュメントの表示方法を変更します。
 
-   ![ ドキュメント表示オプション ](assets/screenshot-2016-07-07-12.46.54.png)
+   ![&#x200B; ドキュメント表示オプション &#x200B;](assets/screenshot-2016-07-07-12.46.54.png)
 
 ### フォルダーとサブフォルダーの作成
 
@@ -104,15 +108,15 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 
 タスクまたはイシューにドキュメントをアップロードすると、Workfrontは、タスクまたはイシューにちなんで名前が付けられたシステム生成フォルダーを自動的に作成します。 このフォルダーはタスクまたはイシューにリンクされ、その権限を継承します。 システム生成フォルダーは、プロジェクトレベルのドキュメント領域に表示されます。
 
-フォルダー権限について詳しくは、[ ドキュメント権限の仕組み](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)を参照してください。
+フォルダー権限について詳しくは、[&#x200B; ドキュメント権限の仕組み](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)を参照してください。
 
 ### サブフォルダーの作成
 
 システム生成フォルダー内にサブフォルダーを作成して、ドキュメントをさらに整理することができます。 すべてのサブフォルダーは、親フォルダーから権限を継承します。
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
-1. サブフォルダーを作成するフォルダーをクリックし、**フォルダーを追加** ![ フォルダーを追加アイコン ](assets/add-folder-icon.png) アイコンをクリックします。
-   ![ サブフォルダーを追加](assets/add-subfolder.png)
+1. サブフォルダーを作成するフォルダーをクリックし、**フォルダーを追加** ![&#x200B; フォルダーを追加アイコン &#x200B;](assets/add-folder-icon.png) アイコンをクリックします。
+   ![&#x200B; サブフォルダーを追加](assets/add-subfolder.png)
 1. サブフォルダーの名前を入力し、**作成**&#x200B;をクリックします。
 
 ### フォルダー名の変更
@@ -122,10 +126,10 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 フォルダー名を変更するには：
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
-1. 名前を変更するフォルダーを見つけたら、**More** ![more アイコン ](assets/more-icon.png) アイコンをクリックします。
+1. 名前を変更するフォルダーを見つけたら、**More** ![more アイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
 1. 「**名前を変更**」をクリックし、フォルダーの新しい名前を入力します。
 
-   ![ フォルダー名を変更](assets/rename-folder.png)
+   ![&#x200B; フォルダー名を変更](assets/rename-folder.png)
 
 1. 「**名前を変更**」をクリックします。
 
@@ -141,11 +145,11 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 フォルダーを移動するには：
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
-1. 移動するフォルダーを見つけたら、**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンをクリックします。
+1. 移動するフォルダーを見つけたら、**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
 1. **移動**&#x200B;をクリックし、フォルダーを移動するプロジェクト、タスク、またはイシューを選択します。
 
 
-   ![ フォルダーを移動](assets/rename-folder.png)
+   ![&#x200B; フォルダーを移動](assets/rename-folder.png)
 
 <!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new Documents area -->
 
@@ -154,7 +158,7 @@ Workfront オブジェクトを開いた状態で、左側のパネルで&#x200B
 フォルダーを削除するには：
 
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
-1. 削除するフォルダーを見つけたら、**More** ![more アイコン ](assets/more-icon.png) アイコンをクリックします。
+1. 削除するフォルダーを見つけたら、**More** ![more アイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
 1. 「**削除**」をクリックします。
 
-   ![ フォルダーを削除](assets/rename-folder.png)
+   ![&#x200B; フォルダーを削除](assets/rename-folder.png)

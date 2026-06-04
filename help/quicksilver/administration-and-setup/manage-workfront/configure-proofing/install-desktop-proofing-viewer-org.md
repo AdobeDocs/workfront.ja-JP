@@ -9,10 +9,16 @@ feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: c89b21c6-fe70-4f46-aebd-5b82a667db72
 TQID: https://experienceleague.adobe.com/fFf7rX8YWJzj8VTTnvN305UjDo5UV-LjZezuCa-LLAk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 605
@@ -89,13 +95,13 @@ ht-degree: 85%
 
 1. ユーザーのマシンで、次のいずれかの操作を実行してアプリをダウンロードします。
 
-   * 実稼動環境を使用している場合は、「[Mac実稼動ダウンロード デスクトップ校正ビューア ](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg)」をクリックします。
+   * 実稼動環境を使用している場合は、「[Mac実稼動ダウンロード デスクトップ校正ビューア &#x200B;](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg)」をクリックします。
    * Preview環境を使用している場合は、「[Mac Preview Download for the Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg)」をクリックします。
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、「**続行**」をクリックし、次に「**インストール**」をクリックします。
 
-   ![ インストールボックス ](assets/install-wf-proof-box.png)
+   ![&#x200B; インストールボックス &#x200B;](assets/install-wf-proof-box.png)
 
 1. 各ユーザーが Workfront のドキュメントエリアからインタラクティブなプルーフを開き、インストールを完了していることを確認します。
 
@@ -103,7 +109,7 @@ ht-degree: 85%
 
 1. ユーザーのマシンで、次のいずれかの操作を実行してアプリをダウンロードします。
 
-   * 実稼動環境で、デスクトッププルーフビューア ](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe)の「[Windows実稼動ダウンロード」をクリックします。
+   * 実稼動環境で、デスクトッププルーフビューア [&#128279;](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe)の「Windows実稼動ダウンロード」をクリックします。
    * プレビュー環境で、「[Windows プレビュー環境にデスクトッププルーフビューアをダウンロード](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe)」をクリックします。
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。

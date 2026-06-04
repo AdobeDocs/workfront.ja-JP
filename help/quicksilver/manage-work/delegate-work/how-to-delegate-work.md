@@ -9,11 +9,21 @@ exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/MoJNhskV-58qdPuF7DY0dkqxpiQaBihszhGx5Ncz6to
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1556
@@ -101,7 +111,7 @@ note from the table for Object permissions:
 
 この記事で説明するアクティビティを実行する前に、次の点を確認する必要があります。
 
-* [!DNL Workfront]またはグループ管理者は、[!DNL Workfront] インスタンスの[!UICONTROL  セットアップ ]領域の[!UICONTROL  タスクとイシューの環境設定] セクションで&#x200B;[!UICONTROL **ユーザーがタスクとイシュー**]&#x200B;の設定を委任することを許可しました。
+* [!DNL Workfront]またはグループ管理者は、[!DNL Workfront] インスタンスの[!UICONTROL &#x200B; セットアップ &#x200B;]領域の[!UICONTROL &#x200B; タスクとイシューの環境設定] セクションで&#x200B;[!UICONTROL **ユーザーがタスクとイシュー**]&#x200B;の設定を委任することを許可しました。
 
   詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
@@ -116,11 +126,11 @@ note from the table for Object permissions:
 1. [!UICONTROL **ホーム**]&#x200B;領域に移動します。
 1. [!UICONTROL **マイワーク**]、[!UICONTROL **マイタスク**]、または&#x200B;[!UICONTROL **マイイシュー**] ウィジェットが&#x200B;[!UICONTROL **ホーム**]&#x200B;に追加されていることを確認します。
 
-   詳しくは、「[ ホームでウィジェットを追加、編集、削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください
+   詳しくは、「[&#x200B; ホームでウィジェットを追加、編集、削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください
 
 1. [!UICONTROL **マイワーク**]、[!UICONTROL **マイタスク**]、または&#x200B;[!UICONTROL **マイイシュー**] ウィジェットの左上隅にある&#x200B;[!UICONTROL **委任**]&#x200B;をクリックします。
 
-   ![委任ボタン ](assets/delegate-button-on-my-work-widget.png)
+   ![委任ボタン &#x200B;](assets/delegate-button-on-my-work-widget.png)
 
 1. 次を更新します。
 
@@ -180,7 +190,7 @@ note from the table for Object permissions:
 終了日を選択した場合は、デリゲーションの有効期限を指定するか、手動で停止することができます。 また、デリゲーションの日付が変更された場合は、デリゲーションの時間枠を変更することもできます。
 
 1. [!UICONTROL **ホーム**]&#x200B;領域に移動し、**マイワーク**、**マイタスク**、**マイイシュー**&#x200B;のいずれかのウィジェットで「[!UICONTROL **デリゲーションを編集**]」をクリックします。
-1. 「[!UICONTROL  タスクと問題の委任を停止する]」ボックスで、次のいずれかの操作を行います。
+1. 「[!UICONTROL &#x200B; タスクと問題の委任を停止する]」ボックスで、次のいずれかの操作を行います。
    * 「[!UICONTROL **開始日**]」または「[!UICONTROL **終了日**]」を変更します
    * 「[!UICONTROL **デリゲーションを停止**]」をクリックします
 
@@ -188,7 +198,7 @@ note from the table for Object permissions:
    >
    >    デリゲーションが既に開始している場合は、デリゲーションの「終了日」のみを編集できます。
 
-   ![委任を停止ボタン ](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![委任を停止ボタン &#x200B;](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. （条件付き）「[!UICONTROL **保存**]」をクリックして新しいデリゲーション日を保存します
 
@@ -223,11 +233,11 @@ note from the table for Object permissions:
 
   タスクまたはイシューのヘッダーの「[!UICONTROL 割り当て]」フィールドが、「[!UICONTROL 割り当てとデリゲーション]」に変更されます。
 
-  ![ タスクヘッダーの割り当てとデリゲート パネル ](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![&#x200B; タスクヘッダーの割り当てとデリゲート パネル &#x200B;](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * タスクまたはイシューを手動で割り当てる際の[!UICONTROL ワークロードバランサー]
 
-  バランサー](assets/assignments-and-delegates-panel-in-workload-balancer.png)の![割り当てと委任パネル
+  バランサー![&#128279;](assets/assignments-and-delegates-panel-in-workload-balancer.png)の割り当てと委任パネル
 
 >[!NOTE]
 >

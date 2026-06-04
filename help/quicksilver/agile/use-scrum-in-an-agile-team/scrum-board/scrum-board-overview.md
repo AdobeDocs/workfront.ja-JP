@@ -10,8 +10,10 @@ exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 810
@@ -23,10 +25,10 @@ ht-degree: 51%
 
 <!-- Audited: 5/2025 -->
 
-[!UICONTROL  スクラム ] アジャイルストーリーボードは、完了ステータスとバーンダウンチャートとともに表示されます。 これらのアジャイルコンポーネントは、[!UICONTROL Adobe Workfront]の次の状況で使用できます。
+[!UICONTROL &#x200B; スクラム &#x200B;] アジャイルストーリーボードは、完了ステータスとバーンダウンチャートとともに表示されます。 これらのアジャイルコンポーネントは、[!UICONTROL Adobe Workfront]の次の状況で使用できます。
 
-* ヒントが得られると思います。 純粋なアジャイル環境（バックログとイテレーションを含む）でアジャイルストーリーボード、バーンダウンチャート、完了ステータスを使用する方法について詳しくは、[ アジャイル環境での作業](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)を参照してください。
-* アジャイルビューでプロジェクトを表示する場合。 既存のプロジェクト内でアジャイルストーリーボード、バーンダウンチャート、完了ステータスを活用する方法について詳しくは、[ アジャイルビューでのプロジェクトの管理](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
+* ヒントが得られると思います。 純粋なアジャイル環境（バックログとイテレーションを含む）でアジャイルストーリーボード、バーンダウンチャート、完了ステータスを使用する方法について詳しくは、[&#x200B; アジャイル環境での作業](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)を参照してください。
+* アジャイルビューでプロジェクトを表示する場合。 既存のプロジェクト内でアジャイルストーリーボード、バーンダウンチャート、完了ステータスを活用する方法について詳しくは、[&#x200B; アジャイルビューでのプロジェクトの管理](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
 
 ![アジャイルイテレーション](assets/agile-iteration-with-callouts.png)
 
@@ -78,4 +80,4 @@ ht-degree: 51%
 
 この同じロジックは、第 2 レベルのサブタスク（サブタスクのサブタスク）にも適用されます。 サブタスクに1つ以上のセカンドレベルサブタスクが同じアジャイルチームに割り当てられ、イテレーションに属している場合、バックログには2番目のレベルサブタスクのみが表示されます。
 
-バックログについて詳しくは、[ アジャイルバックログの管理](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。
+バックログについて詳しくは、[&#x200B; アジャイルバックログの管理](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)を参照してください。

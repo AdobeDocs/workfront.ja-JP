@@ -9,11 +9,17 @@ exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1285
@@ -25,8 +31,8 @@ ht-degree: 69%
 
 アジャイルチームが使用するアジャイル手法に応じて、次の作業項目をアジャイルチームに割り当て、そのチームのバックログにストーリーとして追加できます。
 
-* **[!UICONTROL スクラムアジャイルチーム ]:** タスクとイシューは、アジャイルチームに割り当てて、バックログに追加できます。
-* **[!UICONTROL カンバンアジャイルチーム ]:** タスクは、アジャイルチームに割り当てて、バックログに追加できます。 バックログは、[[!UICONTROL  バックログ ]をカンバンボード ](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)に追加の説明に従って、アジャイルストーリーボードから直接表示できます。 チームはこのバックログを使用し、作業キューに優先順位を付けて管理します。
+* **[!UICONTROL スクラムアジャイルチーム &#x200B;]:** タスクとイシューは、アジャイルチームに割り当てて、バックログに追加できます。
+* **[!UICONTROL カンバンアジャイルチーム &#x200B;]:** タスクは、アジャイルチームに割り当てて、バックログに追加できます。 バックログは、[[!UICONTROL &#x200B; バックログ &#x200B;]をカンバンボード &#x200B;](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)に追加の説明に従って、アジャイルストーリーボードから直接表示できます。 チームはこのバックログを使用し、作業キューに優先順位を付けて管理します。
 
 タスクまたはイシューは、[!DNL Adobe Workfront] の任意の場所からチームに割り当てることができます（その後、チームバックログに追加されます）。 例えば、1 つのチームに複数のプロジェクトから作業割り当てを割り当てることができます。
 
@@ -99,7 +105,7 @@ ht-degree: 69%
 ストーリーを分類するには：
 
 1. 分類するストーリーが含まれているバックログに移動します。
-1. 分類するストーリーを選択し、**[!UICONTROL 分類ストーリー]**をクリックします。
+1. 分類するストーリーを選択し、**[!UICONTROL 分類ストーリー]**&#x200B;をクリックします。
 「[!UICONTROL 内訳ストーリー]」ダイアログボックスが表示されます。
    ![ストーリーを分類ダイアログ](assets/backlog-breakdown-dialog.png)
 
@@ -133,7 +139,7 @@ ht-degree: 69%
 
    * **タスクを作成するには：**「**[!UICONTROL ストーリー]**」をクリックします。
 
-   * **イシューを作成するには：**[!UICONTROL 「]**イシュー**」をクリックします。
+   * **イシューを作成するには：**&#x200B;[!UICONTROL 「]&#x200B;**イシュー**」をクリックします。
 
 1. 「**[!UICONTROL 新規ストーリー]**」または「**[!UICONTROL 新規イシュー]**」をクリックします。
 
@@ -201,9 +207,9 @@ ht-degree: 69%
 ### バックログからイテレーションまたはボードへのストーリーの移動
 
 1. アジャイルチームのバックログに移動します。
-1. イテレーションまたはカンバンボードに移動するストーリーを選択し、**[!UICONTROL 詳細]**/**[!UICONTROL 移動先]**をクリックします。
-ストーリーを[!UICONTROL  カンバン ] ボードに移動すると、[!UICONTROL  ストーリーをカンバン ] ボードに移動が表示されます。
-ストーリーをイテレーションに移動すると、「[!UICONTROL  ストーリーをイテレーションに移動]」ダイアログボックスが表示されます。
+1. イテレーションまたはカンバンボードに移動するストーリーを選択し、**[!UICONTROL 詳細]**/**[!UICONTROL 移動先]**&#x200B;をクリックします。
+ストーリーを[!UICONTROL &#x200B; カンバン &#x200B;] ボードに移動すると、[!UICONTROL &#x200B; ストーリーをカンバン &#x200B;] ボードに移動が表示されます。
+ストーリーをイテレーションに移動すると、「[!UICONTROL &#x200B; ストーリーをイテレーションに移動]」ダイアログボックスが表示されます。
    ![ストーリーを移動ダイアログ](assets/agile-backlog-addtoiteration.png)
 
 1. 次のいずれかの操作を行います。
@@ -218,7 +224,7 @@ ht-degree: 69%
 
 チームがまだストーリーに取り組む準備ができていないと判断した場合は、ストーリーをバックログに移動できます。
 
-詳しくは、[ アジャイルストーリーの移動](../../agile/work-in-an-agile-environment/move-an-agile-story.md)を参照してください。
+詳しくは、[&#x200B; アジャイルストーリーの移動](../../agile/work-in-an-agile-environment/move-an-agile-story.md)を参照してください。
 
 ### バックログからストーリーの書き出し {#export-stories-from-the-backlog}
 

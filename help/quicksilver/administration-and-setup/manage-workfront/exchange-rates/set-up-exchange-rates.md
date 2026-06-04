@@ -9,10 +9,15 @@ role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
 TQID: https://experienceleague.adobe.com/7D54XR0cFqGEbzYzRh9dWHVEKj0xZLR-GYLIe5-0NMo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 839
@@ -32,7 +37,7 @@ Adobe Workfront 管理者は、Workfront で為替レートを設定できます
 * 現在の為替レートに一致するように Workfront の為替レートを更新
 * 複数の通貨の為替レートの設定（これにより、ユーザーはプロジェクトごとにデフォルト通貨を選択できます）
 
-為替レートは、Workfront のすべての財務要素に影響を与えます。 基本通貨は、特定のプロジェクトまたはジョブロールに対して上書きされない限り、システム全体のすべてのプロジェクトおよびレポートのデフォルト通貨です。 現在の基本通貨またはデフォルト通貨は、リストにアイコン ![ デフォルト通貨アイコン ](assets/default-icon.png)が表示されます。 また、レポートやリストで表示する際に、基準通貨やプロジェクトの通貨とは異なるシステム内で使用可能な通貨で財務情報を表示するよう選択することもできます。 詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
+為替レートは、Workfront のすべての財務要素に影響を与えます。 基本通貨は、特定のプロジェクトまたはジョブロールに対して上書きされない限り、システム全体のすべてのプロジェクトおよびレポートのデフォルト通貨です。 現在の基本通貨またはデフォルト通貨は、リストにアイコン ![&#x200B; デフォルト通貨アイコン &#x200B;](assets/default-icon.png)が表示されます。 また、レポートやリストで表示する際に、基準通貨やプロジェクトの通貨とは異なるシステム内で使用可能な通貨で財務情報を表示するよう選択することもできます。 詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
 
 プロジェクトおよびジョブロールに対するWorkfrontの基本通貨の上書きについて詳しくは、次の記事を参照してください。
 
@@ -88,7 +93,7 @@ Adobe Workfront 管理者は、Workfront で為替レートを設定できます
    * 通貨名の横にあるチェックボックスを選択し、画面下部のアクションバーで「**デフォルトにする**」を選択します。
    * 通貨名にカーソルを合わせ、表示される&#x200B;**詳細** メニューをクリックします。 次に、「**デフォルトにする**」を選択します。
 
-     新しいデフォルト通貨は、アイコン ![ デフォルト通貨アイコン ](assets/default-icon.png)で更新されます。
+     新しいデフォルト通貨は、アイコン ![&#x200B; デフォルト通貨アイコン &#x200B;](assets/default-icon.png)で更新されます。
 
      >[!NOTE]
      >

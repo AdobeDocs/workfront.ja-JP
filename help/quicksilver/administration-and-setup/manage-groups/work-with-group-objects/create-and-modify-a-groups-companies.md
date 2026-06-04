@@ -9,11 +9,17 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
 TQID: https://experienceleague.adobe.com/Jmo6PQZ14wo8ROdKO0UvLd0Cakq1vciAhTEjZPjA9Bk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 786
@@ -59,7 +65,7 @@ ht-degree: 77%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
 
 1. 会社を作成または変更するグループの名前をクリックします。
 1. 左側のパネルで「**会社**」をクリックし、グループとそのグループに含まれるサブグループに関連付けられている会社を一覧表示します。
@@ -95,7 +101,7 @@ ht-degree: 77%
    >
    >アクセスレベルで会社に対する管理者アクセス権を持っている場合は、リストの下部にある「他の会社を追加」をクリックすることもできます。 これにより、新しい会社を素早く設定できる行が追加されます。
 
-1. （オプション）会社を編集または削除するには、少なくとも1つの会社を選択し、ツールバーのボタンを使用して![編集アイコン ](assets/edit-icon.png)を編集するか、![削除アイコン ](assets/delete.png)を削除します。
+1. （オプション）会社を編集または削除するには、少なくとも1つの会社を選択し、ツールバーのボタンを使用して![編集アイコン &#x200B;](assets/edit-icon.png)を編集するか、![削除アイコン &#x200B;](assets/delete.png)を削除します。
 
    >[!NOTE]
    >
@@ -103,4 +109,4 @@ ht-degree: 77%
 
    会社の編集について詳しくは、[会社の作成または編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)の記事の[Workfront での会社の作成または編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)の節を参照してください。
 
-1. （オプション）会社のリストを書き出すには、書き出しアイコン ![書き出しアイコン ](assets/export.png)をクリックし、書き出したリストのファイル形式を選択します。
+1. （オプション）会社のリストを書き出すには、書き出しアイコン ![書き出しアイコン &#x200B;](assets/export.png)をクリックし、書き出したリストのファイル形式を選択します。
