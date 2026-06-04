@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
 TQID: https://experienceleague.adobe.com/3yKlFPGeKsvd4IMn-Vop6dg8MUaiVBTaVSilbyp8B-I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1055
@@ -53,7 +57,7 @@ ht-degree: 50%
 
 1. 「**[!UICONTROL カスタムフィールド設定]**」タブをクリックして、ページを更新します。 新しいカスタムフィールドセクションが、割り当てられたモジュールの下に表示されます。
 
-   ![ カスタムフィールド設定タブ ](assets/custom-field-settings-tab.png)
+   ![&#x200B; カスタムフィールド設定タブ &#x200B;](assets/custom-field-settings-tab.png)
 
 1. 新しいカスタムフィールドセクションの名前をクリックして、**カスタムフィールドセクション** タブを開きます。
 
@@ -77,8 +81,8 @@ ht-degree: 50%
 
 1. フィールドの設定をさらに変更します。
 
-   * カスタムフィールドセクション名の右側にある&#x200B;**詳細** ![詳細ボタン ](assets/more-button-small.png) メニューをクリックし、**[!UICONTROL セクションを非表示]**&#x200B;または&#x200B;**[!UICONTROL セクションを再表示]**&#x200B;をクリックして、カスタムフィールドセクションを非表示または再表示します。
-   * カスタムフィールドセクション名の右側にある&#x200B;**詳細** ![詳細ボタン ](assets/more-button-small.png) メニューをクリックし、**[!UICONTROL カスタムフィールドを非表示]**&#x200B;または&#x200B;**[!UICONTROL カスタムフィールドを再表示]**&#x200B;をクリックして、カスタムフィールドを非表示または再表示します。
+   * カスタムフィールドセクション名の右側にある&#x200B;**詳細** ![詳細ボタン &#x200B;](assets/more-button-small.png) メニューをクリックし、**[!UICONTROL セクションを非表示]**&#x200B;または&#x200B;**[!UICONTROL セクションを再表示]**&#x200B;をクリックして、カスタムフィールドセクションを非表示または再表示します。
+   * カスタムフィールドセクション名の右側にある&#x200B;**詳細** ![詳細ボタン &#x200B;](assets/more-button-small.png) メニューをクリックし、**[!UICONTROL カスタムフィールドを非表示]**&#x200B;または&#x200B;**[!UICONTROL カスタムフィールドを再表示]**&#x200B;をクリックして、カスタムフィールドを非表示または再表示します。
    * フィールド名の右側に表示される上向きおよび下向きの矢印を使用して、フィールドの順序を変更します（セクションに複数のフィールドを追加した場合）。
 
 1. 「**[!UICONTROL 表示ルール]**」タブをクリックします。

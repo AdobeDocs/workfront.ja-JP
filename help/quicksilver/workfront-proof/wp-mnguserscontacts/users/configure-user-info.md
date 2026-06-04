@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
 TQID: https://experienceleague.adobe.com/1K7jdfa8Eccib8MbsUrrPwfL8MrhCkhA1y2ojYjVNV8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 533
@@ -25,7 +29,7 @@ ht-degree: 96%
 >
 >この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) を使用してユーザーを作成で説明されているように、ユーザーの作成または編集を開始します。
+1. [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) を使用してユーザーを作成で説明されているように、ユーザーの作成または編集を開始します。
 1. 次の情報を指定します。
 
    * 「**[!UICONTROL 個人の詳細]**」セクション：
@@ -46,14 +50,14 @@ ht-degree: 96%
 
       * **デフォルトのプルーフの役割：**&#x200B;ユーザーのデフォルトのプルーフの役割を選択します。 役割のオプションは次のとおりです。**[!UICONTROL 読み取り専用]**、**[!UICONTROL レビュアー]**、**[!UICONTROL 承認者]**、**[!UICONTROL レビュアーと承認者]**、**[!UICONTROL 作成者]**、または&#x200B;**[!UICONTROL モデレーター]**。
 
-        プルーフの役割について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) のプルーフの役割の管理を参照してください。
+        プルーフの役割について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) のプルーフの役割の管理を参照してください。
 
       * **すべての決定が行われたら、プルーフをロック：**&#x200B;プルーフに対するすべての決定が行われた後、プルーフがそれ以上変更されないように自動的にロックします。
-      * **ログインが必要です。 プルーフは他のユーザーとのみ共有可能：**[!DNL Workfront Proof] のログイン資格情報を持つユーザーのみがプルーフを利用できるようにします。
+      * **ログインが必要です。 プルーフは他のユーザーとのみ共有可能：**&#x200B;[!DNL Workfront Proof] のログイン資格情報を持つユーザーのみがプルーフを利用できるようにします。
       * **1 つの決定のみが必要：**&#x200B;プルーフに対する決定を 1 つだけ必要とします。
       * **元のファイルのダウンロード：**&#x200B;ユーザーがプルーフ用に元のファイルをダウンロードできるようにします。 このオプションは、デフォルトで有効になっています。
 
-        元のファイルのダウンロードについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) に保存されているファイルをダウンロードを参照してください。
+        元のファイルのダウンロードについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) に保存されているファイルをダウンロードを参照してください。
 
         <!--      
         <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Public sharing. The proof can be shared via a public URL or embedded code:</strong>Enables the user to share proofs via a public URL or embed code.<br>This option is enabled by default but is not available if the&nbsp;<strong>Login required</strong>option is selected.<br>For more information on sharing proofs, see "<a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md" class="MCXref xref" xrefformat="{para}">Share the Public URL in Workfront Proof</a>."</li>      
@@ -70,7 +74,7 @@ ht-degree: 96%
 
       * **デフォルトのメールアラート：**&#x200B;ユーザーがメールの更新を受け取る頻度を選択します。 **すべてのアクティビティ、自分のコメントに返信、決定、最終決定、時間別概要、日別概要、**&#x200B;または&#x200B;**無効**&#x200B;を選択します。
 
-        デフォルトのメールアラートオプションについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知の設定を参照してください。
+        デフォルトのメールアラートオプションについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知の設定を参照してください。
 
       * **新規ゲストレビュアー用のデフォルトのメールアラート：**&#x200B;ゲストレビュアーがメールの更新を受け取る頻度を選択します。 オプションは、**デフォルトのメールの役割**&#x200B;のオプションと同じです。
 

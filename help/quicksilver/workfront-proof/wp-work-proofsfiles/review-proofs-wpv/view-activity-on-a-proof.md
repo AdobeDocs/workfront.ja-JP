@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
 TQID: https://experienceleague.adobe.com/CL6rtnumO-nu-uHaNb-KnC5rB-EXG31M6JW2F5E8BvE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 197
@@ -27,7 +29,7 @@ ht-degree: 98%
 
 1. 左側のツールバーが表示されない場合は、プルーフビューアーの左上隅にある「**[!UICONTROL メニュー]**」アイコンをクリックします。
 
-   ![ プルーフビューアーメニュー](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![&#x200B; プルーフビューアーメニュー](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. プルーフビューアの左側にあるツールバーで「**[!UICONTROL プルーフの詳細]**」ボタンをクリックします。
 
@@ -35,9 +37,9 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL プルーフの詳細]**」が選択された状態で表示される&#x200B;**[!UICONTROL プルーフの詳細]**&#x200B;ページで、プルーフの詳細、ステータス、および進行状況を表示します。
 
-1. プルーフの状態について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md) でプルーフの状態を理解を参照してください。
+1. プルーフの状態について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md) でプルーフの状態を理解を参照してください。
 
-1. プルーフの進捗状態について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md) でプルーフの進捗状態とステータスを表示を参照してください。
+1. プルーフの進捗状態について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md) でプルーフの進捗状態とステータスを表示を参照してください。
 1. 次の情報を表示するには、「**[!UICONTROL プルーフアクティビティ]**」をクリックします。
 
    * **日付**：アクションが行われた日時。

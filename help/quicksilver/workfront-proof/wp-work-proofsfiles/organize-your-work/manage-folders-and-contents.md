@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
 TQID: https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1260
@@ -33,7 +35,7 @@ ht-degree: 99%
 
 プルーフの作成時やファイルのアップロード時に、[!UICONTROL 新規プルーフ]ページまたは[!UICONTROL 新規ファイル]ページの「[!UICONTROL 整理]」セクションで、保存するフォルダーを選択できます。
 
-詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成または[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロードを参照してください。
+詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成または[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロードを参照してください。
 
 >[!NOTE]
 >
@@ -47,8 +49,8 @@ ht-degree: 99%
 
 1. （条件付き）次のいずれかを行います。
 
-   * フォルダーにプルーフを追加する場合は、[[!UICONTROL  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理]の説明に従って、[!UICONTROL プルーフの詳細]ページに移動します。
-   * フォルダーにファイルを追加する場合は、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理の説明に従って、ファイルの詳細ページに移動します。
+   * フォルダーにプルーフを追加する場合は、[[[!UICONTROL &#x200B; [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理]の説明に従って、[!UICONTROL プルーフの詳細]ページに移動します。
+   * フォルダーにファイルを追加する場合は、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理の説明に従って、ファイルの詳細ページに移動します。
 
 1. ファイルまたはプルーフが存在する&#x200B;**フォルダー**&#x200B;の名前をクリックし、次に移動先のフォルダーの名前をクリックします。\
    ![Managing_folder_items-adding_items_to_a_folder.png](assets/managing-folder-items-adding-items-to-a-folder-350x121.png)
@@ -57,10 +59,10 @@ ht-degree: 99%
 
 1. （条件付き）次のいずれかを行います。
 
-   * フォルダーからプルーフを移動する場合は、[[!UICONTROL  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理]の説明に従って、[!UICONTROL プルーフの詳細]ページに移動します。
+   * フォルダーからプルーフを移動する場合は、[[[!UICONTROL &#x200B; [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理]の説明に従って、[!UICONTROL プルーフの詳細]ページに移動します。
 
      または\
-      フォルダーからファイルを移動する場合は、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理の説明に従って、ファイルの詳細ページに移動します。
+      フォルダーからファイルを移動する場合は、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理の説明に従って、ファイルの詳細ページに移動します。
 
 1. ファイルまたはプルーフが存在する&#x200B;**フォルダー**&#x200B;の名前をクリックしたら、**[!UICONTROL 指定の場所に移動]**／**[!UICONTROL （フォルダーが選択されていません）]**&#x200B;をクリックします。\
    ![Managing_folder_items-moving_items_out_of_folders.png](assets/managing-folder-items-moving-items-out-of-folders-350x123.png)
@@ -71,7 +73,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->ファイルの作成者でも所有者でもない場合、利用できるオプションは、ユーザーの [ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)のプルーフ権限プロファイルによって異なります。
+>ファイルの作成者でも所有者でもない場合、利用できるオプションは、ユーザーの [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)のプルーフ権限プロファイルによって異なります。
 
 1. 左ナビゲーションメニューの「**[!UICONTROL フォルダー]**」タブで、任意のフォルダーをクリックして[!UICONTROL フォルダーの詳細]ページを開きます。
 1. アーカイブされたプルーフのみがフォルダーに含まれている場合は、ページ上部に黄色でメッセージが表示されます。 メッセージ内のリンクをクリックすると、フォルダービューが[!UICONTROL アーカイブ済みプルーフ]ビューに変わります。
@@ -88,14 +90,14 @@ ht-degree: 99%
    ![その他のメニュー](assets/more-button-small.png)\
    表示されるオプションは、その項目がプルーフかファイルかによって異なります。
 
-   * **[!UICONTROL プルーフの詳細を表示]**&#x200B;または&#x200B;**[!UICONTROL ファイルの詳細を表示]**：プルーフの詳細ページまたはファイルの詳細ページを開きます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理または[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理を参照してください。
+   * **[!UICONTROL プルーフの詳細を表示]**&#x200B;または&#x200B;**[!UICONTROL ファイルの詳細を表示]**：プルーフの詳細ページまたはファイルの詳細ページを開きます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理または[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理を参照してください。
 
-   * **[!UICONTROL 共有]**：ファイルを他のユーザーと共有できます。 詳しくは、[[!UICONTROL  でのファイルの共有]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)を参照してください。
+   * **[!UICONTROL 共有]**：ファイルを他のユーザーと共有できます。 詳しくは、[[!UICONTROL &#x200B; でのファイルの共有]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)を参照してください。
 
    * **[!UICONTROL メッセージ]**：プルーフの共有相手にメールを送信します。
    * **[!UICONTROL 新しいバージョン]**：プルーフの新しいバージョンを作成します。
    * **[!UICONTROL コピー]**：任意のプルーフコメントを含むプルーフを、既存のプルーフの新しいバージョンまたは新しいプルーフとしてコピーします。
-   * **[!UICONTROL オリジナルをダウンロード]**：元のファイルをダウンロードできます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) に保存されているファイルをダウンロードを参照してください。
+   * **[!UICONTROL オリジナルをダウンロード]**：元のファイルをダウンロードできます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) に保存されているファイルをダウンロードを参照してください。
 
    * **[!UICONTROL 所有権を委任]**：プルーフの所有権を別のユーザーに委任します。
    * **[!UICONTROL プルーフのリンクを共有]**：プルーフへのリンクを含むメールを送信します。
@@ -109,14 +111,14 @@ ht-degree: 99%
    フォルダーの所有者と作成者は、常にこのリストに表示され、削除できません。 ユーザーがフォルダーの所有権を引き継ぐと、自動的に表示され、削除できなくなります。\
    フォルダーを個々のユーザーやパートナーの会社と共有できます。 フォルダーがパートナーの会社と共有されている場合、行の上にポインタを合わせると表示される「[!UICONTROL 情報]」アイコンをクリックすることで、受信者の完全なリストを表示できます。 詳しくは、[パートナーアカウント](https://support.workfront.com/hc/ja-jp/sections/115000912107-Partner-accounts)を参照してください。
 
-1. （オプション）「**[!UICONTROL フォルダーで許可]**」の下にあるそのユーザーの行をクリックして、プライベートフォルダーに対するマネージャーのアクセス許可を編集し、そのユーザーがそのフォルダーから項目を作成、編集、削除できるようにするかどうかを指定します。 **メモ** このオプションは、プライベートフォルダーに追加されたフォルダー所有者と同じアカウントのマネージャーに対してのみ使用できます。 スーパーバイザー、管理者、請求管理者は、アカウント内のすべてのフォルダーに対して編集権限を持ち、監視者は項目を作成できません。 権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+1. （オプション）「**[!UICONTROL フォルダーで許可]**」の下にあるそのユーザーの行をクリックして、プライベートフォルダーに対するマネージャーのアクセス許可を編集し、そのユーザーがそのフォルダーから項目を作成、編集、削除できるようにするかどうかを指定します。 **メモ** このオプションは、プライベートフォルダーに追加されたフォルダー所有者と同じアカウントのマネージャーに対してのみ使用できます。 スーパーバイザー、管理者、請求管理者は、アカウント内のすべてのフォルダーに対して編集権限を持ち、監視者は項目を作成できません。 権限について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 1. （オプション）「**[!UICONTROL アクティビティ]**」をクリックすると、フォルダーで実行されたすべてのアクションが時系列で表示されます。
 1. （オプション）「**[!UICONTROL メッセージ]**」セクションをクリックして、フォルダーのユーザーに送信されたメッセージを表示します。\
    メッセージの上にポインタを合わせると、右側の「**i**」アイコンをクリックしてメッセージ全体を表示できます。\
    ![メッセージ](assets/messages-1-350x74.png)\
    メール全体を含むポップアップが表示されます。\
-   ![ メッセージポップアップ ](assets/messages-2-350x252.png)
+   ![&#x200B; メッセージポップアップ &#x200B;](assets/messages-2-350x252.png)
 
 ## サブフォルダーの管理
 

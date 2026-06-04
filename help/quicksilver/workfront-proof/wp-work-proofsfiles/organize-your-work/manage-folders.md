@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ddc8d388-d161-4c70-8e7b-16c16b6ac3d7
 TQID: https://experienceleague.adobe.com/gOlaRjUPBUZjiCJSU-oD2FoosAkiiLpm5T-vb00NTJg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 820
@@ -111,7 +113,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->親フォルダーを削除すると、そのフォルダー内のすべてのサブフォルダー、プルーフおよびファイルは[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) のごみ箱のアイテムの復元と完全削除に移動します。
+>親フォルダーを削除すると、そのフォルダー内のすべてのサブフォルダー、プルーフおよびファイルは[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) のごみ箱のアイテムの復元と完全削除に移動します。
 
 ### [!UICONTROL アカウントフォルダー]ページからフォルダーを削除 {#deleting-a-folder-from-the-account-folders-page}
 

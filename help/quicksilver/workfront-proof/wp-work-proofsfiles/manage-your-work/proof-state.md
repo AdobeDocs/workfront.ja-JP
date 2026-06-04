@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
 TQID: https://experienceleague.adobe.com/hfrduMjWqBcyeqrHM5PTmCYY6jzwBCQwgQWzCqGDlls
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 435
@@ -42,7 +44,7 @@ ht-degree: 98%
 >
 >ドロップゾーンを通じてアップロードされたプルーフは、「送信時にプルーフを有効にする」オプションが有効な場合にのみ、アクティブとして表示されます。 このオプションが有効になっていない場合は、プルーフを手動で有効にする必要があります。
 
-ドロップゾーンの設定について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でのドロップゾーンの設定を参照してください。
+ドロップゾーンの設定について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でのドロップゾーンの設定を参照してください。
 
 ### ロック済み {#locked}
 
@@ -50,7 +52,7 @@ ht-degree: 98%
 
 プルーフの編集権限を持つユーザーであれば、誰でもロックを解除できます。
 
-権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+権限について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 >[!NOTE]
 >
@@ -66,7 +68,7 @@ ht-degree: 98%
 
 ## プルーフの状態の表示と変更
 
-特定の状態でのすべてのプルーフのリストの表示（すべてのアクティブなプルーフまたはロックされたプルーフの表示など）について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理の記事の[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理を参照してください。
+特定の状態でのすべてのプルーフのリストの表示（すべてのアクティブなプルーフまたはロックされたプルーフの表示など）について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理の記事の[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理を参照してください。
 
 1. [!DNL Workfront Proof] ダッシュボードにアクセスします。
 
@@ -78,7 +80,7 @@ ht-degree: 98%
 
    「**[!UICONTROL ワークフロープロセス]**」セクションが表示されます。
 
-   ![ ワークフロープロセス ](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![&#x200B; ワークフロープロセス &#x200B;](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. **[!UICONTROL ワークフロープロセス]**&#x200B;で&#x200B;**[!UICONTROL ステート]**&#x200B;を表示します。
 

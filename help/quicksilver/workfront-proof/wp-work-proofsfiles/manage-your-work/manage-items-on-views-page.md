@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
 TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1544
@@ -54,9 +56,9 @@ ht-degree: 98%
    * **[!UICONTROL アクティブな項目]**：アクティブなすべてのプルーフ、ファイルおよびフォルダー。
    * **[!UICONTROL 有効なプルーフ]**：表示する権限を持つ、アクティブな（アーカイブされていない）すべてのプルーフ。
    * **[!UICONTROL ロックされたプルーフ]**：ロックされたプルーフのみ。
-   * **[!UICONTROL アーカイブ済みプルーフ]**：アーカイブ済みのプルーフのみ（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md) でのアーカイブを参照）。
+   * **[!UICONTROL アーカイブ済みプルーフ]**：アーカイブ済みのプルーフのみ（[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md) でのアーカイブを参照）。
 
-   * **[!UICONTROL 自分のプルーフ]**：自分が所有者で、自分にデリゲートされたプルーフのみを表示します。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md) での一時的なプルーフ所有者の指定を参照してください。
+   * **[!UICONTROL 自分のプルーフ]**：自分が所有者で、自分にデリゲートされたプルーフのみを表示します。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md) での一時的なプルーフ所有者の指定を参照してください。
 
    * **[!UICONTROL 決定待ちのプルーフ]**：決定する必要があるプルーフのみを表示
    * **[!UICONTROL 遅延プルーフ]**：期限が過ぎたプルーフのみを表示
@@ -77,7 +79,7 @@ ht-degree: 98%
      >
      >ビューページから移動し、同じセッション中に戻ると、最後に選択したビューが表示されます。
 
-     独自のビューを作成することもできます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) でのカスタムビューの作成と管理を参照してください。
+     独自のビューを作成することもできます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) でのカスタムビューの作成と管理を参照してください。
 
 
 
@@ -89,7 +91,7 @@ ht-degree: 98%
    ![Filters.png](assets/filters-350x107.png)
 
 1. フィルターバー（2）が表示され、各カテゴリには、希望の値を選択するためのフィルタリングドロップダウンメニュー（3）が表示されます。 各カテゴリのデフォルト値は「すべて」です。
-1. フィルターバーは、作成したカスタムビューには表示されません。 これらのビューの場合、「[!UICONTROL フィルター]」タブでフィルターを適用および編集できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) でのカスタムビューの作成と管理を参照してください。
+1. フィルターバーは、作成したカスタムビューには表示されません。 これらのビューの場合、「[!UICONTROL フィルター]」タブでフィルターを適用および編集できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) でのカスタムビューの作成と管理を参照してください。
 1. 選択したすべてのフィルターを適用するには、フィルタリングバーの端にある[!UICONTROL フィルター]アイコン (4) をクリックします。\
    ![Filters_2.png](assets/filters-2-350x102.png)
 
@@ -200,4 +202,4 @@ ht-degree: 98%
 1. 次のいずれかの操作を行います。
 
    * 1 つの項目を移動するには、項目をクリックしたまま、項目を配置するフォルダーまでドラッグ＆ドロップします。
-   * 複数の項目を同時に移動するには、項目の左側にあるチェックボックスを選択し、続いてリストの上にある**[!UICONTROL 指定の場所に移動]**をクリック、さらにリストを配置するフォルダーを選択するか、配置用のフォルダーを新規作成します。
+   * 複数の項目を同時に移動するには、項目の左側にあるチェックボックスを選択し、続いてリストの上にある&#x200B;**[!UICONTROL 指定の場所に移動]**&#x200B;をクリック、さらにリストを配置するフォルダーを選択するか、配置用のフォルダーを新規作成します。

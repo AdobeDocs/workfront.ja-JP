@@ -9,10 +9,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
 TQID: https://experienceleague.adobe.com/bnWwfz-MsjXnfJIix2k3prysLG6S-IGgAndYQLGT6o4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1840
@@ -26,14 +30,14 @@ ht-degree: 56%
 >
 >この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-[!DNL Workfront] 管理者または [!DNL Workfront Proof] 管理者は、プルーフ権限プロファイルをユーザーに割り当てて、システム内のすべてのプルーフに対してユーザーが持つプルーフ機能を指定できます。 ユーザーのプルーフ権限プロファイルの設定について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md) でのユーザーのプルーフ権限プロファイルの設定を参照してください。
+[!DNL Workfront] 管理者または [!DNL Workfront Proof] 管理者は、プルーフ権限プロファイルをユーザーに割り当てて、システム内のすべてのプルーフに対してユーザーが持つプルーフ機能を指定できます。 ユーザーのプルーフ権限プロファイルの設定について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md) でのユーザーのプルーフ権限プロファイルの設定を参照してください。
 
 >[!NOTE]
 >
 >次の操作も実行できます。
 >
->* 個々のプルーフに対して特定の役割をユーザーに付与します。 プルーフの役割について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
->* 組織内のユーザーのカスタムプロファイルを作成します。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) でのカスタムプロファイルの設定を参照してください。
+>* 個々のプルーフに対して特定の役割をユーザーに付与します。 プルーフの役割について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
+>* 組織内のユーザーのカスタムプロファイルを作成します。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) でのカスタムプロファイルの設定を参照してください。
 >
 
 次の表には、各プルーフ権限プロファイルで使用できる権限が表示されています。
@@ -41,12 +45,12 @@ ht-degree: 56%
 | **自分の項目** |  |  |  |  | **他のユーザーの項目** |  |  | **管理** | **請求** |
 |---|---|---|---|---|---|---|---|---|---|
 |   | **追加** | **ビュー** | **編集** | **削除** | **ビュー** | **編集** | **削除** | **編集と削除** | **編集** |
-| 請求管理者 | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) |
-| 管理者 | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) |   |
-| スーパーバイザ－ | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) |   |   |
-| マネージャー | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) | ![ チェックマーク ](assets/cleaner2.png) |   |   |   |   |   |
-| オブザーバー |   | ![ チェックマーク ](assets/cleaner2.png) |   |   |   |   |   |   |   |
-| 訪問者 |   | ![ チェックマーク ](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| 請求管理者 | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) |
+| 管理者 | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) |   |
+| スーパーバイザ－ | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) |   |   |
+| マネージャー | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) |   |   |   |   |   |
+| オブザーバー |   | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| 訪問者 |   | ![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -69,133 +73,133 @@ ht-degree: 56%
 
 ## 請求管理者 {#billing-administrator}
 
-請求管理者は、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof]  の請求ページのアカウント設定](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)へのアクセス権、および次の権限があります。
+請求管理者は、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof]  の請求ページのアカウント設定](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)へのアクセス権、および次の権限があります。
 
-![ チェックマーク ](assets/cleaner2.png) プルーフの生成、ファイルのアップロード、フォルダーの作成ができます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロード、および [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) でのフォルダーの作成を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) プルーフの生成、ファイルのアップロード、フォルダーの作成ができます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロード、および [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) でのフォルダーの作成を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png)自分で作成したプルーフとファイルを表示、編集、削除できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)自分で作成したプルーフとファイルを表示、編集、削除できます。
 
-![ チェックマーク ](assets/cleaner2.png)組織内のすべてのユーザーが作成したプルーフとファイルを表示、編集、削除できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)組織内のすべてのユーザーが作成したプルーフとファイルを表示、編集、削除できます。
 
-![ チェックマーク ](assets/cleaner2.png)他のユーザーの公開フォルダーを削除できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)他のユーザーの公開フォルダーを削除できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png) アカウントで作成されたすべてのプルーフに対する編集権限があります。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) アカウントで作成されたすべてのプルーフに対する編集権限があります。
 
-![Checkmark](assets/cleaner2.png)Dropzone所有者として設定できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
+![Checkmark](assets/cleaner2.png)Dropzone所有者として設定できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png)請求ページにアクセスし、請求の詳細を編集できます。 詳しくは、[ [!DNL Workfront Proof]  請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)請求ページにアクセスし、請求の詳細を編集できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]  請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png) アカウント設定ページにアクセスし、アカウントの詳細を編集できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) でのアカウント設定を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) アカウント設定ページにアクセスし、アカウントの詳細を編集できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) でのアカウント設定を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png) ゴミ箱を空にできます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) ゴミ箱を空にできます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
 
-![ チェックマーク ](assets/cleaner2.png) ユーザーを追加、編集、削除できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) ユーザーを追加、編集、削除できます。
 
-![ チェックマーク ](assets/cleaner2.png) グループを作成し、新しい連絡先を追加できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) グループを作成し、新しい連絡先を追加できます。
 
-![ チェックマーク ](assets/cleaner2.png)連絡先を削除できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)連絡先を削除できます。
 
-![ チェックマーク ](assets/cleaner2.png)返信がない場合は、プルーフを編集できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)返信がない場合は、プルーフを編集できます。
 
 ![赤いX](assets/no2.png) プルーフの返信を編集できません。
 
-![赤いX](assets/no2.png)他のユーザーのプライベートフォルダーを削除できません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
+![赤いX](assets/no2.png)他のユーザーのプライベートフォルダーを削除できません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
 
-アカウントの設定について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) でのアカウント設定を参照してください。
+アカウントの設定について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) でのアカウント設定を参照してください。
 
-請求について詳しくは、[ [!DNL Workfront Proof]  の請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
+請求について詳しくは、[&#x200B; [!DNL Workfront Proof]  の請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
 
 ### 管理者 {#administrator}
 
 管理者は、[アカウント設定](https://support.workfront.com/hc/ja-jp/sections/115000912147-Account-settings)へのアクセス権、および次の権限があります。
 
-![ チェックマーク ](assets/cleaner2.png) プルーフの作成、ファイルのアップロード、フォルダーの作成ができます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロード、および [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) でのフォルダーの作成を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) プルーフの作成、ファイルのアップロード、フォルダーの作成ができます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロード、および [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) でのフォルダーの作成を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png)作成したプルーフとファイルを表示、編集、削除できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)作成したプルーフとファイルを表示、編集、削除できます。
 
-![ チェックマーク ](assets/cleaner2.png)組織内のすべてのユーザーが作成したプルーフとファイルを表示、編集、削除できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)組織内のすべてのユーザーが作成したプルーフとファイルを表示、編集、削除できます。
 
-![ チェックマーク ](assets/cleaner2.png)他のユーザーの公開フォルダーを削除できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)他のユーザーの公開フォルダーを削除できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png) アカウントで作成されたすべてのプルーフに対する編集権限があります。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) アカウントで作成されたすべてのプルーフに対する編集権限があります。
 
-![Checkmark](assets/cleaner2.png)Dropzone所有者として設定できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
+![Checkmark](assets/cleaner2.png)Dropzone所有者として設定できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png) アカウント設定ページにアクセスし、アカウントの詳細を編集できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) でのアカウント設定を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) アカウント設定ページにアクセスし、アカウントの詳細を編集できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) でのアカウント設定を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png) ゴミ箱を空にできます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) ゴミ箱を空にできます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
 
-![ チェックマーク ](assets/cleaner2.png) ユーザーを追加、編集、削除できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) ユーザーを追加、編集、削除できます。
 
-![ チェックマーク ](assets/cleaner2.png) グループを作成し、新しい連絡先を追加できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) グループを作成し、新しい連絡先を追加できます。
 
-![ チェックマーク ](assets/cleaner2.png)連絡先を削除できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)連絡先を削除できます。
 
-![ チェックマーク ](assets/cleaner2.png)返信がない場合は、プルーフを編集できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)返信がない場合は、プルーフを編集できます。
 
 ![赤いX](assets/no2.png) プルーフの返信を編集できません。
 
-![赤いX](assets/no2.png)他のユーザーのプライベートフォルダーを削除できません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
+![赤いX](assets/no2.png)他のユーザーのプライベートフォルダーを削除できません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
 
-![赤いX](assets/no2.png)請求ページにアクセスできないか、請求の詳細を編集できません。 詳しくは、[ [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
+![赤いX](assets/no2.png)請求ページにアクセスできないか、請求の詳細を編集できません。 詳しくは、[&#x200B; [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
 
 ### スーパーバイザ－ {#supervisor}
 
 スーパーバイザーには、次の権限があります。
 
-![ チェックマーク ](assets/cleaner2.png) プルーフの作成、ファイルのアップロード、フォルダーの作成ができます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロード、および [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) でのフォルダーの作成を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) プルーフの作成、ファイルのアップロード、フォルダーの作成ができます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロード、および [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) でのフォルダーの作成を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png)自分が作成したプルーフとファイルを表示、編集、削除できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)自分が作成したプルーフとファイルを表示、編集、削除できます。
 
-![ チェックマーク ](assets/cleaner2.png)組織内のすべてのユーザーが作成したプルーフとファイルを表示、編集、削除できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)組織内のすべてのユーザーが作成したプルーフとファイルを表示、編集、削除できます。
 
-![ チェックマーク ](assets/cleaner2.png)他のユーザーの公開フォルダーを削除できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)他のユーザーの公開フォルダーを削除できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png) アカウントで作成されたすべてのプルーフに対する編集権限があります。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) アカウントで作成されたすべてのプルーフに対する編集権限があります。
 
-![Checkmark](assets/cleaner2.png)Dropzone所有者として設定できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
+![Checkmark](assets/cleaner2.png)Dropzone所有者として設定できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png) グループを作成し、新しい連絡先を追加できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) グループを作成し、新しい連絡先を追加できます。
 
-![ チェックマーク ](assets/cleaner2.png)連絡先を削除できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)連絡先を削除できます。
 
-![ チェックマーク ](assets/cleaner2.png)返信がない場合は、プルーフを編集できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)返信がない場合は、プルーフを編集できます。
 
 ![赤いX](assets/no2.png) プルーフの返信を編集できません。
 
-![赤いX](assets/no2.png)他のユーザーのプライベートフォルダーを削除できません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md) でのフォルダーを参照してください。
+![赤いX](assets/no2.png)他のユーザーのプライベートフォルダーを削除できません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md) でのフォルダーを参照してください。
 
-![赤いX](assets/no2.png)請求ページまたはアカウント設定にアクセスできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と [ アカウント設定を参照してください。
+![赤いX](assets/no2.png)請求ページまたはアカウント設定にアクセスできません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ[&#128279;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と  アカウント設定を参照してください。
 
 ![赤いX](assets/no2.png) ユーザーを追加、編集、または削除できません。
 
-![赤いX](assets/no2.png) ゴミ箱を空にできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) のごみ箱のアイテムの復元と完全削除を参照してください。
+![赤いX](assets/no2.png) ゴミ箱を空にできません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) のごみ箱のアイテムの復元と完全削除を参照してください。
 
 ### マネージャー {#manager}
 
 マネージャーには次の権限があります。
 
-![ チェックマーク ](assets/cleaner2.png) プルーフの作成、ファイルのアップロード、フォルダーの作成ができます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロード、および [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) でのフォルダーの作成を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) プルーフの作成、ファイルのアップロード、フォルダーの作成ができます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロード、および [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) でのフォルダーの作成を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png)自分が作成または所有するプルーフとファイルを表示、編集、削除できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)自分が作成または所有するプルーフとファイルを表示、編集、削除できます。
 
-![ チェックマーク ](assets/cleaner2.png)明示的に共有されている他のユーザー（共有フォルダー内のすべてのユーザーに対する読み取り専用の権限）のプルーフを表示、レビュー、承認できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)明示的に共有されている他のユーザー（共有フォルダー内のすべてのユーザーに対する読み取り専用の権限）のプルーフを表示、レビュー、承認できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png) グループを作成し、新しい連絡先を追加できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png) グループを作成し、新しい連絡先を追加できます。
 
 ![赤いX](assets/no2.png)組織内の他のユーザーが作成したプルーフとファイルを表示、編集、または削除できません。
 
 ![赤いX](assets/no2.png) プルーフまたは返信を編集できません。
 
-![赤いX](assets/no2.png)他のユーザーのプライベートフォルダーを削除できません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
+![赤いX](assets/no2.png)他のユーザーのプライベートフォルダーを削除できません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
 
-![赤いX](assets/no2.png)他のユーザーの公開フォルダーを削除できません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
+![赤いX](assets/no2.png)他のユーザーの公開フォルダーを削除できません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
 
-![赤いX](assets/no2.png)請求ページまたはアカウント設定にアクセスできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と [ アカウント設定を参照してください。
+![赤いX](assets/no2.png)請求ページまたはアカウント設定にアクセスできません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ[&#128279;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と  アカウント設定を参照してください。
 
-![赤いX](assets/no2.png)Dropzone所有者として設定できません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
+![赤いX](assets/no2.png)Dropzone所有者として設定できません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
 
-![赤いX](assets/no2.png) ゴミ箱を空にできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
+![赤いX](assets/no2.png) ゴミ箱を空にできません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
 
 ![赤いX](assets/no2.png) ユーザーを追加、編集、または削除できません。
 
@@ -205,13 +209,13 @@ ht-degree: 56%
 
 オブザーバーには次の権限があります。
 
-![ チェックマーク ](assets/cleaner2.png)明示的に共有されている他のユーザー（共有フォルダー内のすべてのユーザーに対する読み取り専用の権限）のプルーフを表示、レビュー、承認できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)明示的に共有されている他のユーザー（共有フォルダー内のすべてのユーザーに対する読み取り専用の権限）のプルーフを表示、レビュー、承認できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png)明示的に共有されているファイルを表示できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)明示的に共有されているファイルを表示できます。
 
-![ チェックマーク ](assets/cleaner2.png)連絡先とグループを表示できます
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)連絡先とグループを表示できます
 
-![赤いX](assets/no2.png) プルーフの作成、ファイルのアップロード、フォルダーの作成はできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロードを参照してください。
+![赤いX](assets/no2.png) プルーフの作成、ファイルのアップロード、フォルダーの作成はできません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロードを参照してください。
 
 ![赤いX](assets/no2.png)組織内の他のユーザーが作成したプルーフとファイルを表示、編集、または削除できません。
 
@@ -219,11 +223,11 @@ ht-degree: 56%
 
 ![赤いX](assets/no2.png)組織内で作成された項目は削除できません。
 
-![赤いX](assets/no2.png)請求ページまたはアカウント設定にアクセスできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と [ アカウント設定を参照してください。
+![赤いX](assets/no2.png)請求ページまたはアカウント設定にアクセスできません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ[&#128279;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と  アカウント設定を参照してください。
 
-![赤いX](assets/no2.png)Dropzone所有者として設定できません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
+![赤いX](assets/no2.png)Dropzone所有者として設定できません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
 
-![赤いX](assets/no2.png) ゴミ箱を空にできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
+![赤いX](assets/no2.png) ゴミ箱を空にできません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
 
 ![赤いX](assets/no2.png) ユーザーを追加、編集、または削除できません。
 
@@ -243,13 +247,13 @@ ht-degree: 56%
 
 訪問者には次の権限があります。
 
-![ チェックマーク ](assets/cleaner2.png)明示的に共有されている他のユーザー（共有フォルダー内のすべてのユーザーに対する読み取り専用の権限）のプルーフを表示、レビュー、承認できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)明示的に共有されている他のユーザー（共有フォルダー内のすべてのユーザーに対する読み取り専用の権限）のプルーフを表示、レビュー、承認できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
 
-![ チェックマーク ](assets/cleaner2.png)明示的に共有されているファイルを表示できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)明示的に共有されているファイルを表示できます。
 
 ![Red X](assets/no2.png)連絡先とグループを表示できません
 
-![赤いX](assets/no2.png) プルーフの作成、ファイルのアップロード、フォルダーの作成はできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロードを参照してください。
+![赤いX](assets/no2.png) プルーフの作成、ファイルのアップロード、フォルダーの作成はできません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロードを参照してください。
 
 ![赤いX](assets/no2.png)組織内の他のユーザーが作成したプルーフとファイルを表示、編集、または削除できません。
 
@@ -257,11 +261,11 @@ ht-degree: 56%
 
 ![赤いX](assets/no2.png)組織内で作成された項目は削除できません。
 
-![赤いX](assets/no2.png)請求ページまたはアカウント設定にアクセスできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と [ アカウント設定を参照してください。
+![赤いX](assets/no2.png)請求ページまたはアカウント設定にアクセスできません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ[&#128279;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と  アカウント設定を参照してください。
 
-![赤いX](assets/no2.png)Dropzone所有者として設定できません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
+![赤いX](assets/no2.png)Dropzone所有者として設定できません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
 
-![赤いX](assets/no2.png) ゴミ箱を空にできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
+![赤いX](assets/no2.png) ゴミ箱を空にできません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
 
 ![赤いX](assets/no2.png) ユーザーを追加、編集、または削除できません。
 
@@ -281,15 +285,15 @@ ht-degree: 56%
 
 ゲストプロファイルは、独自の Workfront Proof アカウントを持たないレビュアー向けに、プルーフへのアクセス権を付与するために使用されます。 ゲストは、自分の個人用メール通知を通じて、自分と共有されたプルーフに直接アクセスできます。
 
-![ チェックマーク ](assets/cleaner2.png)明示的に共有されているプルーフを表示、レビュー、承認できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)明示的に共有されているプルーフを表示、レビュー、承認できます。
 
-![ チェックマーク ](assets/cleaner2.png)明示的に共有されているファイルを表示できます。
+![&#x200B; チェックマーク &#x200B;](assets/cleaner2.png)明示的に共有されているファイルを表示できます。
 
 ![赤いX](assets/no2.png) ダッシュボードにアクセスできません。
 
-![赤いX](assets/no2.png) フォルダーを共有することはできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
+![赤いX](assets/no2.png) フォルダーを共有することはできません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
 
-![赤いX](assets/no2.png)作成者またはモデレーターとしてプルーフに追加できません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
+![赤いX](assets/no2.png)作成者またはモデレーターとしてプルーフに追加できません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
 
 >[!NOTE]
 >
@@ -305,11 +309,11 @@ ht-degree: 56%
 
    * **[!UICONTROL 連絡先]**&#x200B;ページに移動します。
 
-1. 権限を編集するユーザーの名前をクリックします。 ![ ユーザーを選択](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+1. 権限を編集するユーザーの名前をクリックします。 ![&#x200B; ユーザーを選択](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
 
 1. **[!UICONTROL 権限プロファイル]**&#x200B;ドロップダウンメニューをクリックし、新しい権限プロファイルを選択します。 :
 
-   ![権限プロファイル ](assets/screenshot-2018-03-30-14-18-03a.png)
+   ![権限プロファイル &#x200B;](assets/screenshot-2018-03-30-14-18-03a.png)
 
    権限プロファイルは、管理者、スーパーバイザー、マネージャーおよびオブザーバーです。
 
@@ -323,4 +327,4 @@ ht-degree: 56%
 >* ユーザーのプロファイルログ（そのユーザーのみがアクセス可能）
 >
 
-アクティビティログについて詳しくは、[ [!DNL Workfront Proof]  アクティビティ監査証跡について](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)を参照してください。
+アクティビティログについて詳しくは、[&#x200B; [!DNL Workfront Proof]  アクティビティ監査証跡について](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)を参照してください。

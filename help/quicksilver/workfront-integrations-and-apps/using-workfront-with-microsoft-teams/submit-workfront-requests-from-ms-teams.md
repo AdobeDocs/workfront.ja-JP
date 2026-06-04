@@ -7,11 +7,18 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
 TQID: https://experienceleague.adobe.com/SAhx7otUvjrhEkQnMr87CF0gZFL3Fpvy8bXcnTf1-E8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 609
@@ -25,9 +32,9 @@ ht-degree: 99%
 >
 >[Microsoft が New Teams クライアントに移行すると](https://learn.microsoft.com/ja-jp/microsoftteams/teams-classic-client-end-of-availability)、Classic Teams クライアントは 2025年7月1日（PT）以降は使用できなくなります。 Microsoft Teams や Workfront などの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 >
->アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。 New Teams クライアントで Workfront 統合をインストールまたは検証するには、Workfront for Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) の[インストール [!DNL Adobe Workfront] を参照してください。
+>アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。 New Teams クライアントで Workfront 統合をインストールまたは検証するには、Workfront for Microsoft Teams[&#128279;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストール [!DNL Adobe Workfront] を参照してください。
 
-チームの所有者が [!DNL Adobe Workfront for Microsoft Teams] をインストールした後、[!DNL Microsoft Teams] アカウントから [!DNL Workfront] リクエストを送信することができます。 そのためには、リクエストを送信するためのアクセス権を持つ Workfront アカウントが必要です。 [!DNL Workfront for Microsoft Teams] のインストールについて詳しくは、[ [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
+チームの所有者が [!DNL Adobe Workfront for Microsoft Teams] をインストールした後、[!DNL Microsoft Teams] アカウントから [!DNL Workfront] リクエストを送信することができます。 そのためには、リクエストを送信するためのアクセス権を持つ Workfront アカウントが必要です。 [!DNL Workfront for Microsoft Teams] のインストールについて詳しくは、[&#x200B; [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
 
 >[!NOTE]
 >
@@ -75,7 +82,7 @@ ht-degree: 99%
 1. （オプション）リクエストキューで使用可能な場合は、トピックグループまたはキューのトピックを選択します。
 1. 次の情報を指定します。
 
-   （リクエストキューの設定方法に応じて、オプションとボックスは異なる場合があります。 使用可能なフィールドの完全なリストと説明については、[ [!DNL Adobe Workfront]  リクエストを作成して送信](../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください）
+   （リクエストキューの設定方法に応じて、オプションとボックスは異なる場合があります。 使用可能なフィールドの完全なリストと説明については、[&#x200B; [!DNL Adobe Workfront]  リクエストを作成して送信](../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください）
 
    <table style="table-layout:auto"> 
     <col> 

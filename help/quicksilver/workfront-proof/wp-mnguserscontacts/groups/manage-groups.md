@@ -8,10 +8,15 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
 TQID: https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 556
@@ -30,10 +35,10 @@ ht-degree: 84%
 ## グループページを開く
 
 1. 左側のナビゲーションサイドバーで「**[!UICONTROL グループ]**」をクリックします。
-[!UICONTROL  グループ ] ページでは、次の操作を実行できます。
+[!UICONTROL &#x200B; グループ &#x200B;] ページでは、次の操作を実行できます。
 
    * すべてのパブリックおよびプライベートグループを表示します。
-   * 新しいグループを作成します。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)を使用してプルーフグループを作成するを参照してください。
+   * 新しいグループを作成します。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)を使用してプルーフグループを作成するを参照してください。
    * グループを CSV ファイルに書き出します。
    * グループをフィルターして並べ替えます。
    * 1 つ以上のグループを選択すると、次の追加オプションが使用可能になります。
@@ -42,7 +47,7 @@ ht-degree: 84%
 
         ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
 
-      * 「[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md) を使用してグループを非公開にする」の説明に従って、選択したグループを非公開または公開します。
+      * 「[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md) を使用してグループを非公開にする」の説明に従って、選択したグループを非公開または公開します。
       * 非公開グループは、その作成者のみに表示されます。
       * 選択したグループを削除します。
 
@@ -71,10 +76,10 @@ ht-degree: 84%
 
 ## グループをフィルタリング
 
-1. 列見出しの右端にある&#x200B;**[!UICONTROL フィルター]**アイコンをクリックして、列見出しの下にフィルタリングオプションを表示します。
+1. 列見出しの右端にある&#x200B;**[!UICONTROL フィルター]**&#x200B;アイコンをクリックして、列見出しの下にフィルタリングオプションを表示します。
    ![Group_page-Filter_icon_and_options.png](assets/group-page-filter-icon-and-options-350x134.png)
 
-1. ドロップダウンメニューから「[!UICONTROL  フィルターオプション ]」を選択し、各列ヘッダーの下に表示されるフィルターボックスに入力し、**[!UICONTROL フィルター]** アイコンをもう一度クリックしてオプションを適用します。
+1. ドロップダウンメニューから「[!UICONTROL &#x200B; フィルターオプション &#x200B;]」を選択し、各列ヘッダーの下に表示されるフィルターボックスに入力し、**[!UICONTROL フィルター]** アイコンをもう一度クリックしてオプションを適用します。
 または\
    グループ名の最初の文字を選択します。
    ![Groups_page-filtering_by_letter.png](assets/groups-page-filtering-by-letter-350x245.png)
@@ -107,12 +112,12 @@ ht-degree: 84%
 
 1. グループに追加する連絡先の名前の横にあるチェックボックスをクリックします。
 1. 「**[!UICONTROL グループに追加]**」ボタンをクリックします。
-   ![ グループに追加](assets/screenshot-2018-04-06-15-27-17.png)
+   ![&#x200B; グループに追加](assets/screenshot-2018-04-06-15-27-17.png)
 「**[!UICONTROL グループに追加]**」ダイアログボックスが表示されます。
 
 1. 「**[!UICONTROL ユーザー]**」セクション：
 
-   1. ドロップダウンメニューを使用して、メンバーの「「**役割**」または「**メールアラート**」を変更します。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割を管理および [ [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知設定を参照してください。
+   1. ドロップダウンメニューを使用して、メンバーの「「**役割**」または「**メールアラート**」を変更します。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割を管理および [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知設定を参照してください。
 
    1. グループに連絡先を追加するには、**[!UICONTROL 連絡先名を入力]**&#x200B;または「**[!UICONTROL メールアドレス]**」フィールドを使用します。
 

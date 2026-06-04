@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 208d719e-a2fc-4080-88be-954c2f87f7ff
 TQID: https://experienceleague.adobe.com/MwuRFeRGjhdfpeNLL-tUnLze7PSvLZwhthboOtejws0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 220
@@ -25,9 +29,9 @@ ht-degree: 96%
 >
 >この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-連絡先は、デフォルトで組織内で共有されます。 したがって、ゲストを追加すると、同僚の連絡先リストにもその人が表示されます。 ゲストと同僚について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) のユーザー、メンバー、ゲストについてを参照してください。
+連絡先は、デフォルトで組織内で共有されます。 したがって、ゲストを追加すると、同僚の連絡先リストにもその人が表示されます。 ゲストと同僚について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) のユーザー、メンバー、ゲストについてを参照してください。
 
-プルーフに追加する人は誰でも、連絡先リストに自動的に追加されます。 プルーフへのレビュアーの追加について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) でプルーフを共有を参照してください。
+プルーフに追加する人は誰でも、連絡先リストに自動的に追加されます。 プルーフへのレビュアーの追加について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) でプルーフを共有を参照してください。
 
 >[!NOTE]
 >
@@ -37,6 +41,6 @@ ht-degree: 96%
 
 1. ダッシュボードで、「**[!UICONTROL 新規プルーフ]**」の横にある下矢印をクリックし、「**[!UICONTROL 新規ゲスト]**」をクリックします。
 
-1. オブザーバープロファイルを持っている場合、新しい連絡先を追加するオプションはありません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)のプルーフ権限プロファイルを参照してください。
-1. ゲストの情報を入力し、**[!UICONTROL 作成]**をクリックします。新しいゲストのデフォルトのプルーフの役割と権限を選択できます。その後、このユーザーがプルーフに追加されると、デフォルトでこの役割とアラートが与えられますが、プルーフに追加する際に、新しいプルーフページでこれらを変更できます。
-詳しくは、 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の[ プルーフ権限プロファイルおよび[ メール通知設定の設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)を参照してください。
+1. オブザーバープロファイルを持っている場合、新しい連絡先を追加するオプションはありません。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)のプルーフ権限プロファイルを参照してください。
+1. ゲストの情報を入力し、**[!UICONTROL 作成]**&#x200B;をクリックします。新しいゲストのデフォルトのプルーフの役割と権限を選択できます。その後、このユーザーがプルーフに追加されると、デフォルトでこの役割とアラートが与えられますが、プルーフに追加する際に、新しいプルーフページでこれらを変更できます。
+詳しくは、 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)の プルーフ権限プロファイルおよび[&#x200B; メール通知設定の設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)を参照してください。

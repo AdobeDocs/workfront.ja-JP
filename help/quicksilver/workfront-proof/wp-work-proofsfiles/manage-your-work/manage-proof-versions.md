@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1bee64d-c091-40d3-a9c1-847c7f645b96
 TQID: https://experienceleague.adobe.com/8dEKTMfZ6-nhdjvY4Ar-m29jxGJV8q4FysGAqIl6nEs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 768
@@ -31,7 +33,7 @@ ht-degree: 96%
 
 プルーフの新しいバージョンを作成するには、そのプルーフの編集権限が必要です。
 
-プルーフの編集権限を持つユーザーについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフロールの管理を参照してください。 バージョンの作成の詳細について確認してください。
+プルーフの編集権限を持つユーザーについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフロールの管理を参照してください。 バージョンの作成の詳細について確認してください。
 
 ## プルーフビューアーでのプルーフバージョンの表示
 
@@ -60,7 +62,7 @@ ht-degree: 96%
 
 親プルーフ（以前のバージョン）をアカウント内の別のプルーフに変更したい場合、または 1 つのプルーフをアカウント内の別のプルーフに（他のプルーフの新しいバージョンとして）接続したい場合は、次の手順に従って簡単に行うことができます。
 
-1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフ詳細の管理の説明に従って、プルーフ詳細ページを開きます。
+1. [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフ詳細の管理の説明に従って、プルーフ詳細ページを開きます。
 1. **[!UICONTROL その他]**／**[!UICONTROL 以前のバージョンを変更]**&#x200B;をクリックします。
 
 1. 表示される「**[!UICONTROL 以前のバージョンを変更]**」ボックスで、親プルーフ（以前のバージョン）として設定するプルーフを選択します。\

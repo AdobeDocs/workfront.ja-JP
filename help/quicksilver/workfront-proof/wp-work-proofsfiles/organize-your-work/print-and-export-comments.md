@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
 TQID: https://experienceleague.adobe.com/2ikEopwBMpVFPsAtqzg9SsKkmJjxIbI4bY5QxD-87kU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 503
@@ -31,7 +33,7 @@ ht-degree: 39%
 
 * [プルーフビューア](#the-proof-viewer)
 * [プルーフの詳細ページ](#the-proof-details-page)
-* [ [!DNL Proof]  アクションメニュー](#the-proof-actions-menu)
+* [&#x200B; [!DNL Proof]  アクションメニュー](#the-proof-actions-menu)
 
 ### プルーフビューア {#the-proof-viewer}
 
@@ -51,7 +53,7 @@ ht-degree: 39%
 
 ### [!DNL Proof] アクションメニュー {#the-proof-actions-menu}
 
-プルーフのコメントの概要を印刷するには、[!UICONTROL  プルーフアクション ] メニューの&#x200B;**[!UICONTROL 印刷]** アイコンをクリックします。
+プルーフのコメントの概要を印刷するには、[!UICONTROL &#x200B; プルーフアクション &#x200B;] メニューの&#x200B;**[!UICONTROL 印刷]** アイコンをクリックします。
 
 リスト表示から[!UICONTROL コメントの概要]ページにアクセスするには、次の手順に従います。
 
@@ -93,7 +95,7 @@ ht-degree: 39%
 
 プルーフアクションメニューから[!DNL Excel]概要をエクスポートするには：
 
-1. プルーフの右側にある&#x200B;**アクション** アイコンをクリックし、**[!UICONTROL [!DNL Excel]の概要]**を選択します。
+1. プルーフの右側にある&#x200B;**アクション** アイコンをクリックし、**[!UICONTROL [!DNL Excel]の概要]**&#x200B;を選択します。
    ![Excelの概要の書き出し](assets/excel-summary-option.png)
 
 プルーフの詳細ページから [!DNL Excel] 概要をダウンロードするには、次の手順に従います。

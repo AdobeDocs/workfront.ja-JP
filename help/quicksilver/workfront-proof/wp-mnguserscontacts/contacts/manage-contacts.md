@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
 TQID: https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 492
@@ -37,7 +41,7 @@ ht-degree: 90%
 1. 左側のナビゲーションサイドバーの「**[!UICONTROL 連絡先]**」をクリックします。
 1. 並べ替える列見出しをクリックします。
 または
-連絡先ページの右上隅にある**[!UICONTROL 並べ替え]** メニューからオプションを選択します。
+連絡先ページの右上隅にある&#x200B;**[!UICONTROL 並べ替え]** メニューからオプションを選択します。
 
 1. ![Contacts_page-Sort_menu.png](assets/contacts-page-sort-menu.png)
 
@@ -76,7 +80,7 @@ ht-degree: 90%
 
    * 連絡先の行の最後にある&#x200B;**[!UICONTROL その他]**&#x200B;アイコンをクリックして、表示されるドロップダウンメニューのオプションを使用します。
 
-     これらのオプションは、連絡先のタイプごとに異なります。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) でのユーザー、メンバーおよびゲストについてを参照してください。
+     これらのオプションは、連絡先のタイプごとに異なります。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) でのユーザー、メンバーおよびゲストについてを参照してください。
 
 ## 連絡先の読み込み
 

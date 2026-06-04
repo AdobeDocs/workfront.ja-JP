@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a7cf8086-8291-4a27-abd1-afd8217f1fcc
 TQID: https://experienceleague.adobe.com/WnZLS4iV-4W05UukPr7-uKYGbtoj49ol-W0kJSWy9R4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 767
@@ -38,7 +42,7 @@ ht-degree: 98%
 1. 接続されたアカウントリストから宛先アカウントを選択します (2)。
 1. このユーザーが新しいアカウントで持つ必要があるプロファイル権限 (3) を割り当てます。
 1. 移動しないアイテムの所有権を持つユーザー（4）を選択します。
-これには、古いアカウントに残すことにしたアイテムと移動できないアイテムが含まれます（以下の[移動できないアイテム ](https://support.workfront.com/knowledge/articles/115004087708/ja-jp?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can't-be-moved)を参照）。
+これには、古いアカウントに残すことにしたアイテムと移動できないアイテムが含まれます（以下の[移動できないアイテム &#x200B;](https://support.workfront.com/knowledge/articles/115004087708/ja-jp?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can't-be-moved)を参照）。
 
 1. ユーザーと一緒にプルーフ (5) とファイル (6) を移動する場合は、チェックボックスをオンにします。
 1. 新しいアカウントで、移動したすべての項目を配置するフォルダー (7) の名前を作成します。
@@ -81,11 +85,11 @@ ht-degree: 98%
 
 ### グループ
 
-グループは、移動したユーザーが新しいアカウントで再作成する必要があります。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md) を使用してプルーフグループを作成を参照してください。
+グループは、移動したユーザーが新しいアカウントで再作成する必要があります。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md) を使用してプルーフグループを作成を参照してください。
 
 ### カスタムビュー
 
-個人用カスタムビューは、移動したユーザーが新しいアカウントで再作成する必要があります。 詳しくは、[ [!DNL Workfront Proof]  プルーフ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)でカスタムビューを作成および管理を参照してください。
+個人用カスタムビューは、移動したユーザーが新しいアカウントで再作成する必要があります。 詳しくは、[&#x200B; [!DNL Workfront Proof]  プルーフ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)でカスタムビューを作成および管理を参照してください。
 
 ### カスタムフィールド
 

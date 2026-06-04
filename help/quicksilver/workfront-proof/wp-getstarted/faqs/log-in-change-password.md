@@ -9,10 +9,15 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
 TQID: https://experienceleague.adobe.com/VegCU8Bt-m-loHvC41n5njkRi5TpqbJBLZlemtAaOnI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 550
@@ -29,7 +34,7 @@ ht-degree: 98%
 ## ログイン
 
 
-1. ログインページ ](https://app.proofhq.com/login)の[に移動します。
+1. ログインページ [&#128279;](https://app.proofhq.com/login)のに移動します。
 
 1. 右上の「[!UICONTROL ログイン]」ボタンをクリックします。
 1. メールアドレスとパスワードを入力します。\
@@ -38,22 +43,22 @@ ht-degree: 98%
 1. （非アクティブな状態が 30 分間続いてもセッションがタイムアウトせずに）ログイン状態を維持する場合は、「**[!UICONTROL ログイン状態を維持]**」を選択します。
 1. 「**[!UICONTROL ログイン]**」をクリックします。
 
-[!DNL Workfront Proof] 管理者は、パーソナライズしたブランディングを[!UICONTROL ログイン]ページに設定できます。 [ [!DNL Workfront Proof] サイトのブランディング](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。 [!UICONTROL Enterprise] または [!UICONTROL Unlimited] エディションプランを使用している場合は、[ [!DNL Workfront Proof] サイトのブランディング - 詳細](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)を参照してください。
+[!DNL Workfront Proof] 管理者は、パーソナライズしたブランディングを[!UICONTROL ログイン]ページに設定できます。 [&#x200B; [!DNL Workfront Proof] サイトのブランディング](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。 [!UICONTROL Enterprise] または [!UICONTROL Unlimited] エディションプランを使用している場合は、[&#x200B; [!DNL Workfront Proof] サイトのブランディング - 詳細](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)を参照してください。
 
-[!UICONTROL Enterprise] および [!UICONTROL Unlimited] プランでは、シングルサインオン（SSO）機能が提供されます。この機能により、ユーザーは組織のユーザー名とパスワードを使用して [!DNL Workfront Proof] にログインできます。 詳しくは、[ [!DNL Workfront Proof] ユーザーへのシングルサインオンの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) を参照してください。
+[!UICONTROL Enterprise] および [!UICONTROL Unlimited] プランでは、シングルサインオン（SSO）機能が提供されます。この機能により、ユーザーは組織のユーザー名とパスワードを使用して [!DNL Workfront Proof] にログインできます。 詳しくは、[&#x200B; [!DNL Workfront Proof] ユーザーへのシングルサインオンの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) を参照してください。
 
 ## ログアウト
 
 1. Workfront Proof の右上隅にある「**[!UICONTROL ログアウト]**」をクリックします。\
    ログアウトしたことを確認するメッセージが表示されます。 必要に応じて、「**[!UICONTROL ログインページに戻る]**」をクリックして再度ログインできます。\
-   [!DNL Workfront Proof] 管理者は、パーソナライズしたブランディングをこのメッセージに設定できます。 [ [!DNL Workfront Proof] サイトのブランディング](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。 [!UICONTROL Enterprise] または [!UICONTROL Unlimited] エディションプランを使用している場合は、[ [!DNL Workfront Proof] サイトのブランディング - 詳細](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)を参照してください。
+   [!DNL Workfront Proof] 管理者は、パーソナライズしたブランディングをこのメッセージに設定できます。 [&#x200B; [!DNL Workfront Proof] サイトのブランディング](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。 [!UICONTROL Enterprise] または [!UICONTROL Unlimited] エディションプランを使用している場合は、[&#x200B; [!DNL Workfront Proof] サイトのブランディング - 詳細](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)を参照してください。
 
 ## パスワードを忘れた場合 {#when-you-forget-your-password}
 
 パスワードを忘れた場合は、[!DNL Workfront Proof] からリセット用のメールメッセージを受け取ることができます。
 
 
-1. ログインページ ](https://app.proofhq.com/login)の[に移動します。
+1. ログインページ [&#128279;](https://app.proofhq.com/login)のに移動します。
 
 1. 「**[!UICONTROL パスワードをお忘れですか？]**」をクリックします。
 1. 表示されるボックスにメールアドレスを入力し、「**[!UICONTROL リンクを取得]**」をクリックします。
