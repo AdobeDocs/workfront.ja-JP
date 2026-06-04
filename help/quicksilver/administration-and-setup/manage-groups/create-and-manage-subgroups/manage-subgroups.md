@@ -9,10 +9,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/Ng0xKCrHg--5s3MdiLEOJfjoao9WND2uFqS5VI9LGng
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 52%
+source-wordcount: 1360
+ht-degree: 51%
 
 ---
 
@@ -179,8 +188,8 @@ ht-degree: 52%
 
 >[!TIP]
 >
->その下にサブグループがあるグループを非アクティブ化すると、それらのサブグループも非アクティブになります。 いずれかをアクティブ化したい場合は、次の手順を使用してその親グループから削除し、再度アクティブ化することができます。
->グループの非アクティブ化と再アクティブ化の手順については、[&#x200B; グループの非アクティブ化または再アクティブ化](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)を参照してください。
+>その下にサブグループがあるグループを非アクティブ化すると、それらのサブグループも非アクティブになります。そのうちの1つをアクティブにしたい場合は、これらの手順を使用して親グループから削除し、再アクティブ化することができます。
+> グループの非アクティブ化と再アクティブ化の手順については、[&#x200B; グループの非アクティブ化または再アクティブ化](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)を参照してください。
 
 {{step-1-to-setup}}
 

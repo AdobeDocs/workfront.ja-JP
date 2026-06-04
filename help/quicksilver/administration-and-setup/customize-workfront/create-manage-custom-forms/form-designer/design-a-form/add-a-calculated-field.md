@@ -8,10 +8,23 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 2a08a1139664517b9ccf41121e8bb0dc686028ab
+TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2720'
-ht-degree: 75%
+source-wordcount: 2647
+ht-degree: 72%
 
 ---
 
@@ -153,7 +166,7 @@ ht-degree: 75%
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">手順</td> 
-      <td> デフォルトでは、フィールド用に作成した数式がここに格納されます。 テキストを追加して、フィールドおよびその中の数式に関する追加情報を入力できます。 これは、次の 2 つの方法で役立ちます。 
+      <td> デフォルトでは、フィールド用に作成した数式がここに保存されます。テキストを追加して、フィールドとその中の数式に関する追加情報を提供できます。これは、次の2つの方法で便利です。 
        <ul> 
       <li><p>数式の内容と仕組みを確認するために使用します。 これは、複数のフォームでこの計算カスタムフィールドを使用する予定がある場合に特に便利です。</p> </li> 
       <li> <p>フィールドにポインタを合わせると、ツールチップとして表示されます。 ここにテキストを追加し、ツールチップに表示させます。</p> <p>ツールチップに数式が表示されないようにしたい場合は、数式を非表示にできます。</li> 
@@ -189,8 +202,8 @@ ht-degree: 75%
    </table>
 
 1. 「**計算**」ボックスで、次の計算の作成を開始します。
-   1. 「**最大化**」をクリックすると計算エディターが開くので、計算を作成します。
-計算は、通常、式で始まり、カスタムフォームがオブジェクトに添付される際に参照するフィールドを含む括弧が続きます。
+   1. 「**最大化**」をクリックして計算エディターを開き、計算を作成します。
+通常、計算は式で始まり、その後にカスタムフォームがオブジェクトに添付されたときに参照するフィールドを含む括弧が続きます。
 
       各フィールドは中括弧で囲む必要があります。 フィールドの名前を入力し始めると、候補が表示されるので、選択して計算に挿入できます。
 
@@ -312,9 +325,9 @@ ht-degree: 75%
       > 
       >* 計算内の式にカーソルを合わせると、説明、その使用方法を示す例、および詳細を表示する&#x200B;**詳細** リンクが表示されます。詳しくは、[計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。
       >  ![式ヘルプテキスト &#x200B;](assets/hover-expression-help-text.jpg)
-      >* 追加したコンポーネントを識別するには、色分けを使用します。 式は青色で表示され、フィールドは緑色で表示されます。
+      >* カラーコーディングを使用して、追加したコンポーネントを識別します。エクスプレッションは青で表示され、フィールドは緑で表示されます。
       >  フィールド式![&#128279;](assets/colors-fields-expressions.jpg)の色
-      >* 計算エラーを見つけます。計算エラーはピンク色で強調表示されます。 強調表示されたエラーの上にポインタを合わせると、その原因に関する簡単な説明が表示されます。
+      >* あなたが行くように、ピンクで強調表示された計算エラーを見つけます。強調表示されたエラーにカーソルを合わせると、その原因の簡単な説明が表示されます。
       >  ![&#x200B; エラーのヘルプ &#x200B;](assets/error-help.png)
       >* 計算の下のエリアで、既存の Workfront オブジェクトの結果をプレビューします。
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->

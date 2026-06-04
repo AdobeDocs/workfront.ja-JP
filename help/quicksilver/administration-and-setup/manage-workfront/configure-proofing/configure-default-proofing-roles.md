@@ -2,22 +2,32 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: デフォルトのプルーフの役割を設定
-description: Adobe Workfront の管理者は、Workfront で作成したプルーフにアクセスするユーザーおよびゲストユーザーに対して、デフォルトのプルーフの役割を設定できます。プルーフにユーザーを追加するどんな担当者でも、そのユーザーのこれらの役割を調整できます。
+title: デフォルトのプルーフの役割の設定
+description: Adobe Workfront の管理者は、Workfront で作成したプルーフにアクセスするユーザーおよびゲストユーザーに対して、デフォルトのプルーフの役割を設定できます。 プルーフにユーザーを追加するどんな担当者でも、そのユーザーのこれらの役割を調整できます。
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+TQID: https://experienceleague.adobe.com/1bEnBH5l58juHFYsg1bfR-LMcQ-wGgKNkeGAGQlNbJs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 97%
+source-wordcount: 505
+ht-degree: 99%
 
 ---
 
 # デフォルトのプルーフの役割の設定
 
-Adobe Workfront の管理者は、Workfront で作成したプルーフにアクセスするユーザーおよびゲストユーザーに対して、デフォルトのプルーフの役割を設定できます。プルーフにユーザーを追加するどんな担当者でも、そのユーザーのこれらの役割を調整できます。
+Adobe Workfront の管理者は、Workfront で作成したプルーフにアクセスするユーザーおよびゲストユーザーに対して、デフォルトのプルーフの役割を設定できます。 プルーフにユーザーを追加するどんな担当者でも、そのユーザーのこれらの役割を調整できます。
 
 ## アクセス要件
 
@@ -39,7 +49,7 @@ Adobe Workfront の管理者は、Workfront で作成したプルーフにアク
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>Workfront 管理者である必要があります。Workfront 管理者について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。 Workfront 管理者について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -216,4 +226,4 @@ Adobe Workfront の管理者は、Workfront で作成したプルーフにアク
 
 >[!NOTE]
 >
->新しい Workfront プランのユーザーは、システム内の任意のユーザーに作成者またはモデレーターの役割を付与できます。従来のプランのユーザーは、システム内のプルーフライセンスを持つユーザーに作成者またはモデレーターの役割を付与できます。
+>新しい Workfront プランのユーザーは、システム内の任意のユーザーに作成者またはモデレーターの役割を付与できます。 従来のプランのユーザーは、システム内のプルーフライセンスを持つユーザーに作成者またはモデレーターの役割を付与できます。

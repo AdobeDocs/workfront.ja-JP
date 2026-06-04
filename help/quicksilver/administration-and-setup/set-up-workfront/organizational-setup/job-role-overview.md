@@ -3,21 +3,35 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 担当業務の概要
-description: 担当業務は、ユーザーが満たせる可能性のある機能的能力またはスキルセットを表します。この記事では、Adobe Workfront での担当業務の様々な使用方法について説明します。
+description: 担当業務は、ユーザーが満たせる可能性のある機能的能力またはスキルセットを表します。 この記事では、Adobe Workfront での担当業務の様々な使用方法について説明します。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-source-git-commit: 1dd0faae822310616e2ca3d067169d5620846736
+TQID: https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: 481
 ht-degree: 95%
 
 ---
 
 # 担当業務の概要
 
-担当業務は、ユーザーが満たせる可能性のある機能的能力またはスキルセットを表します。この記事では、[!DNL Adobe Workfront] における担当業務の様々な使用法について説明します。
+担当業務は、ユーザーが満たせる可能性のある機能的能力またはスキルセットを表します。 この記事では、[!DNL Adobe Workfront] における担当業務の様々な使用法について説明します。
 
 担当業務の管理について詳しくは、以下の記事を参照してください。
 
@@ -27,18 +41,18 @@ ht-degree: 95%
 
 担当業務は、以下の目的で使用できます。
 
-* ユーザーを担当業務に関連付けて、ユーザーが実行できるスキルを示すことができます。1 人のユーザーを複数の担当業務に関連付けることができます。詳しくは、[ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)および[ユーザーのプロファイルを編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
-* [!DNL Workfront] リソース管理ツールを使用する場合は、ユーザーを担当業務に関連付ける必要があります。場合によっては、これは [!DNL Workfront] でリソースを管理するための前提条件です。詳しくは、[リソース管理の概要](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)を参照してください。
-* 担当業務をリソースプールに追加できます。追加された役割に関連付けられたすべてのユーザーが、リソースプールの一員になります。詳しくは、[リソースプールの作成](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
+* ユーザーを担当業務に関連付けて、ユーザーが実行できるスキルを示すことができます。 1 人のユーザーを複数の担当業務に関連付けることができます。 詳しくは、[ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)および[ユーザーのプロファイルを編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+* [!DNL Workfront] リソース管理ツールを使用する場合は、ユーザーを担当業務に関連付ける必要があります。 場合によっては、これは [!DNL Workfront] でリソースを管理するための前提条件です。 詳しくは、[リソース管理の概要](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)を参照してください。
+* 担当業務をリソースプールに追加できます。 追加された役割に関連付けられたすべてのユーザーが、リソースプールの一員になります。 詳しくは、[リソースプールの作成](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
 * 誰が作業を完了できるかがまだわからない場合は、担当業務を作業アイテムに割り当てるためのプレースホルダーとして使用できます。
 
-  例えば、実際の作業にどのユーザーが後で割り当てられるかがまだ明確でない場合は、テンプレートの作成時にタスクを担当業務に関連付けることをお勧めします。詳しくは、次の記事を参照してください。
+  例えば、実際の作業にどのユーザーが後で割り当てられるかがまだ明確でない場合は、テンプレートの作成時にタスクを担当業務に関連付けることをお勧めします。 詳しくは、次の記事を参照してください。
 
    * [プロジェクトテンプレートの作成](../../../manage-work/projects/create-and-manage-templates/create-template.md)
    * [タスクを割り当て](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
    * [イシューの割り当て](../../../manage-work/issues/manage-issues/assign-issues.md)
 
-* 担当業務をプロジェクト、タスクやイシューの承認プロセスに関連付けることができ、担当業務を果たすことのできる任意のユーザーが承認を決定できます。詳しくは、[作業アイテムの承認プロセスを作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
+* 担当業務をプロジェクト、タスクやイシューの承認プロセスに関連付けることができ、担当業務を果たすことのできる任意のユーザーが承認を決定できます。 詳しくは、[作業アイテムの承認プロセスを作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
 * 以下のオブジェクトを担当業務と共有できます。
 
    * プロジェクト
@@ -53,14 +67,14 @@ ht-degree: 95%
 
      オブジェクトの共有について詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
-* リクエストキューを作成する際に、担当業務とルーティングルールを関連付けることができます。詳しくは、[ルーティングルールの作成](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)を参照してください。
-* レイアウトテンプレートを担当業務に割り当てることができます。主要役割として割り当てられた担当業務を持つすべてのユーザーが、割り当てられたレイアウトテンプレートに従って [!DNL Workfront] を表示することができます。
+* リクエストキューを作成する際に、担当業務とルーティングルールを関連付けることができます。 詳しくは、[ルーティングルールの作成](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)を参照してください。
+* レイアウトテンプレートを担当業務に割り当てることができます。 主要役割として割り当てられた担当業務を持つすべてのユーザーが、割り当てられたレイアウトテンプレートに従って [!DNL Workfront] を表示することができます。
 
   >[!NOTE]
   >
-  >ユーザーがユーザープロファイルにレイアウトテンプレートを割り当てられている場合、そのテンプレートは、プライマリ担当業務に割り当てられているテンプレートより優先されます。詳しくは、[レイアウトテンプレートにユーザーを割り当](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
+  >ユーザーがユーザープロファイルにレイアウトテンプレートを割り当てられている場合、そのテンプレートは、プライマリ担当業務に割り当てられているテンプレートより優先されます。 詳しくは、[レイアウトテンプレートにユーザーを割り当](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
-* [!DNL Adobe Workfront Scenario Planner] を使用する際には、担当業務をプランとイニシアチブに割り当てて、リソースの空き時間を管理することができます。これには、追加の [!DNL Scenario Planner] ライセンスが必要です。詳しくは、[&#x200B; [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md) の概要を参照してください。
+* [!DNL Adobe Workfront Scenario Planner] を使用する際には、担当業務をプランとイニシアチブに割り当てて、リソースの空き時間を管理することができます。 これには、追加の [!DNL Scenario Planner] ライセンスが必要です。 詳しくは、[&#x200B; [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md) の概要を参照してください。
 * 異なる国のリソースを使用して作業する場合、有効期限日の担当業務率に関する通貨を変更できます。 これにより、作業アイテムのより正確なコストと収益の金額を取得できるようになります。
 
   詳しくは、[担当業務の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。

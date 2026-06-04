@@ -9,10 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 80%
+source-wordcount: 1402
+ht-degree: 79%
 
 ---
 
@@ -300,10 +310,10 @@ setName列に各プロジェクトの名前を入力します。
 
 * **タスク番号の設定**
 setTaskNumber列に値を入力して、タスクがプロジェクト計画に表示される順序を制御します。
-* **プロジェクトの日付を入力します。**
+* **プロジェクトの日付を指定します。**
 setPlannedStartDate列に、各プロジェクトの予定開始日を入力します。
 * **その他の必要な詳細を設定します。**
-必要に応じて、説明や現在の状況など、その他の詳細を入力します。 「Group」グループシートで各プロジェクトのグループ ID を検索し、それぞれのプロジェクトの setGroupID 列に入力します。 「CMPY」会社シートでプロジェクトの会社 ID を検索し、setCompanyID 列に入力します。 「USER」ユーザーシートで各プロジェクト所有者のユーザー ID を検索し、これを setOwnerID 列に入力します。 「USER」ユーザーシートで各プロジェクトスポンサーのユーザー ID を検索し、これを setOwnerID 列に入力します。
+必要に応じて、説明や現在の状況など、その他の詳細を入力します。グループ グループ シートで各プロジェクトのグループ IDを検索し、各プロジェクトのsetGroupID列に入力します。CMPY会社シートでプロジェクトの会社IDを検索し、setCompanyID列に入力します。USER User シートで各プロジェクト所有者のユーザーIDを検索し、setOwnerID列に入力します。ユーザーユーザーシートで各プロジェクトスポンサーのユーザーIDを検索し、setSponsorID列に入力します。
 
 ![値を設定](assets/im9.png)
 

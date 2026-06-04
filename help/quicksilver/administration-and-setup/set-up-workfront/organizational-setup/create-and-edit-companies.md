@@ -8,11 +8,24 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: 1469
 ht-degree: 67%
 
 ---
@@ -25,7 +38,7 @@ ht-degree: 67%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
-会社は、自分の組織、組織内の部門、または取引先の顧客を表す [!DNL Adobe Workfront] の組織単位です。会社を [!DNL Workfront] に追加して、財務計画、レポートの目的、オブジェクトに関する権限の定義、情報の機密保持に使用することができます。
+会社は、自分の組織、組織内の部門、または取引先の顧客を表す [!DNL Adobe Workfront] の組織単位です。 会社を [!DNL Workfront] に追加して、財務計画、レポートの目的、オブジェクトに関する権限の定義、情報の機密保持に使用することができます。
 
 ## アクセス要件
 
@@ -71,7 +84,7 @@ ht-degree: 67%
 
 ## ユーザーを会社に追加するメリット {#benefits-of-adding-users-to-a-company}
 
-* ユーザーを直属の部下に関連付けることで、会社の組織図を作成できます。同じ会社のユーザーのみを、その会社の別のユーザーの直属の部下として追加できます。
+* ユーザーを直属の部下に関連付けることで、会社の組織図を作成できます。 同じ会社のユーザーのみを、その会社の別のユーザーの直属の部下として追加できます。
 * プロジェクトマネージャーは、同じ会社内で利用可能リソースを識別できます。
 * 以下の設定の 1 つまたはすべてを選択して、企業間で情報を非公開に保つことができます。
 
@@ -81,15 +94,15 @@ ht-degree: 67%
 
      ユーザーの会社に基づいて管理者がリクエストに対して同様のアクセス権を付与する方法について詳しくは、[グループのタスクとイシューの環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
 
-   * ユーザーは自分の会社に関連付けられているリクエストキューのみを表示可能。リクエストキューの表示を制限する方法について詳しくは、[リクエストキューへのアクセス権の提供](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)を参照してください。
-   * ユーザーに対して、自分の会社または自分の会社とプライマリ会社のユーザーのみを表示するように制限できます。ユーザーのプライバシーに関するプライマリ会社の機能について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
-   * ユーザーは項目に加えた更新を自分の会社ユーザーのみが表示できるように制限可能。会社で更新を非公開にする方法について詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+   * ユーザーは自分の会社に関連付けられているリクエストキューのみを表示可能。 リクエストキューの表示を制限する方法について詳しくは、[リクエストキューへのアクセス権の提供](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)を参照してください。
+   * ユーザーに対して、自分の会社または自分の会社とプライマリ会社のユーザーのみを表示するように制限できます。 ユーザーのプライバシーに関するプライマリ会社の機能について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+   * ユーザーは項目に加えた更新を自分の会社ユーザーのみが表示できるように制限可能。 会社で更新を非公開にする方法について詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 ## [!DNL Workfront] で会社を作成または編集 {#create-or-edit-a-company-in-workfront}
 
-追加できる会社の数に制限はありません。ただし、オブジェクトの権限に問題が発生する可能性があるため、使用する会社の数を制限することをお勧めします。細分化しすぎると、作業アイテムに対するユーザーの可視性が損なわれる可能性があります。
+追加できる会社の数に制限はありません。 ただし、オブジェクトの権限に問題が発生する可能性があるため、使用する会社の数を制限することをお勧めします。細分化しすぎると、作業アイテムに対するユーザーの可視性が損なわれる可能性があります。
 
-デフォルトでは、[!DNL Workfront] のインスタンスに関連付けられた会社は [!DNL Workfront] システムに既に作成されており、これが組織のプライマリ会社です。顧客名と同じ名前を持ちます。[!DNL Workfront] の顧客情報について詳しくは、[システムの基本情報の設定](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
+デフォルトでは、[!DNL Workfront] のインスタンスに関連付けられた会社は [!DNL Workfront] システムに既に作成されており、これが組織のプライマリ会社です。 顧客名と同じ名前を持ちます。 [!DNL Workfront] の顧客情報について詳しくは、[システムの基本情報の設定](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
 
 会社を追加または編集するには、以下のように行います。
 
@@ -108,16 +121,16 @@ ht-degree: 67%
 1. **基本情報** セクションで次の情報を更新します。
 
    * **名前**：会社の名前を入力します。
-   * **アクティブ**：このオプションを有効にすると、ユーザーは会社を見つけて、作成および編集するプロジェクトに参加させることができます。非アクティブな会社はプロジェクトに添付できません。このオプションは、デフォルトで有効になっています。
+   * **アクティブ**：このオプションを有効にすると、ユーザーは会社を見つけて、作成および編集するプロジェクトに参加させることができます。 非アクティブな会社はプロジェクトに添付できません。 このオプションは、デフォルトで有効になっています。
    * **はプライマリです**：会社を組織の主要会社として割り当てます。 通常、プライマリ会社は、ほとんどのユーザーが作業する Workfront アカウントを表します。
 
-     1 つの会社をプライマリ会社として指定することも、プライマリ会社を指定しないこともできますが、複数の会社をプライマリ会社として指定することはできません。詳しくは、[カスタムアクセスレベルを作成および変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+     1 つの会社をプライマリ会社として指定することも、プライマリ会社を指定しないこともできますが、複数の会社をプライマリ会社として指定することはできません。 詳しくは、[カスタムアクセスレベルを作成および変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
      >[!NOTE]
      >
      >アクセスレベルを変更することで、ユーザーが他のユーザーを表示することを制限できます。そのユーザーは、プライマリ会社、または関連する会社とプライマリ会社でのみ表示されます。 プライマリ会社がユーザーのアクセス レベルでどのように機能するかについては、[&#x200B; カスタム アクセス レベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
-   * **グループ**：会社と取引を行うグループがある場合、ここにグループの名前を追加できます。これは、グループがビジネスを展開するすべての会社に関するレポートおよび管理を必要とするグループ管理者に役立ちます。
+   * **グループ**：会社と取引を行うグループがある場合、ここにグループの名前を追加できます。 これは、グループがビジネスを展開するすべての会社に関するレポートおよび管理を必要とするグループ管理者に役立ちます。
 
      この会社で作業するグループを関連付けない場合、グループの管理者は、アクセスレベルの会社に対する管理アクセス権を持っていない限り、会社にアクセスできません。 このアクセス権の付与方法について詳しくは、[特定の領域に対する管理者アクセス権をユーザーに付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
@@ -125,7 +138,7 @@ ht-degree: 67%
 
      グループを会社に割り当てると、グループのグループ管理者は会社への管理アクセス権を取得します。 詳しくは、この記事の[グループ管理者と会社](#group-administrators-and-companies)を参照してください。
 
-   * **会社メンバー**：会社に既存のユーザーを追加します。これにより、これらのユーザーをこの会社に関連付けます。
+   * **会社メンバー**：会社に既存のユーザーを追加します。 これにより、これらのユーザーをこの会社に関連付けます。
 
      ユーザーの名前を入力し始め、表示されたら選択します。
 
@@ -135,7 +148,7 @@ ht-degree: 67%
 
    Workfrontで使用できない会社に追加するフィールドがある場合は、カスタムフォームを作成して会社に関連付けることができます。
 
-   このフォームは、ドロップダウンメニューから選択して会社に添付できます。アクティブなカスタムフォームのみが、メニューに表示されます。
+   このフォームは、ドロップダウンメニューから選択して会社に添付できます。 アクティブなカスタムフォームのみが、メニューに表示されます。
 
    >[!NOTE]
    >
@@ -167,17 +180,17 @@ ht-degree: 67%
 
 ## 会社とのオブジェクトの共有の概要
 
-会社に関連付けられているユーザーは、特定の権限を使用できます（[ユーザーを会社に追加するメリット](#benefits-of-adding-users-to-a-company)の節を参照）。これらの権限に加えて、オブジェクトを会社と共有することで、[!DNL Workfront] 内のオブジェクトを表示、投稿、または編集する権限をユーザーに許可できます。
+会社に関連付けられているユーザーは、特定の権限を使用できます（[ユーザーを会社に追加するメリット](#benefits-of-adding-users-to-a-company)の節を参照）。 これらの権限に加えて、オブジェクトを会社と共有することで、[!DNL Workfront] 内のオブジェクトを表示、投稿、または編集する権限をユーザーに許可できます。
 
-一度に 1 人のユーザーとオブジェクトを共有する代わりに、そのオブジェクトを会社全体と共有することができます。会社の各ユーザーは、そのオブジェクトに対して同じ権限を持ちます。
+一度に 1 人のユーザーとオブジェクトを共有する代わりに、そのオブジェクトを会社全体と共有することができます。 会社の各ユーザーは、そのオブジェクトに対して同じ権限を持ちます。
 
 オブジェクトの共有について詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
 ## グループ管理者と会社 {#group-administrators-and-companies}
 
-[!DNL Workfront] 管理者がグループを会社に割り当てると、そのグループのグループ管理者は、[!UICONTROL 設定]で会社への[!UICONTROL 管理]権限を取得します。これには、[!UICONTROL 設定]の[!UICONTROL 会社]ページへのアクセスが含まれており、グループに関連付けられている会社を表示および管理できます。
+[!DNL Workfront] 管理者がグループを会社に割り当てると、そのグループのグループ管理者は、[!UICONTROL 設定]で会社への[!UICONTROL 管理]権限を取得します。 これには、[!UICONTROL 設定]の[!UICONTROL 会社]ページへのアクセスが含まれており、グループに関連付けられている会社を表示および管理できます。
 
-この[!UICONTROL 会社]ページへのアクセスにより、グループ管理者はグループを会社に割り当てることができますが、その会社は同じグループ管理者が作成した会社である必要があります。グループ管理者のアクセス レベルが企業への管理アクセスに設定されていない場合、グループ管理者が会社を作成する際に[!UICONTROL &#x200B; グループ &#x200B;] フィールドが必要になります。アスタリスクは次のことを示します。
+この[!UICONTROL 会社]ページへのアクセスにより、グループ管理者はグループを会社に割り当てることができますが、その会社は同じグループ管理者が作成した会社である必要があります。 グループ管理者のアクセス レベルが企業への管理アクセスに設定されていない場合、グループ管理者が会社を作成する際に[!UICONTROL &#x200B; グループ &#x200B;] フィールドが必要になります。アスタリスクは次のことを示します。
 
 ![&#x200B; グループを持つ新しい会社ダイアログが必要](assets/group-admin-add-company-group-required.png)
 

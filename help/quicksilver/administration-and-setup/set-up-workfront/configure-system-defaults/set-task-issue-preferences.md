@@ -8,11 +8,24 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Abb8wbD3oRt-lRej2qBcEO32QiISb3tCEFuclzrJZ-I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: 2238
 ht-degree: 86%
 
 ---
@@ -160,7 +173,7 @@ Linked to Converting Issues.
 >
 >この設定は、時間が記録されるタスクやイシューを持つプロジェクトの削除にも適用されます。 この設定は、時間がプロジェクトに直接記録されるようなプロジェクトの削除には適用されません。
 
-* このオプションを選択すると、タスクまたはイシューを削除する際に、警告メッセージが表示されます。 この警告は、タスクまたはイシューが時間を記録していた場合、その時間はプロジェクトに移動されるか、削除されることを知らせるものです。 時間を削除するか、プロジェクトに移動するかは、「[!UICONTROL 設定]」の「[!UICONTROL タイムシートおよび時間設定]」エリアで設定できます。 警告が表示されたことを確認すると、タスクまたはイシューは削除されます。 タイムシートと時間の環境設定について詳しくは、[タイムシートと時間の環境設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
+* このオプションを選択すると、タスクまたはイシューを削除する際に、警告メッセージが表示されます。 この警告は、タスクまたはイシューが時間を記録していた場合、その時間はプロジェクトに移動されるか、削除されることを知らせるものです。 時間を削除するか、プロジェクトに移動するかは、「[!UICONTROL 設定]」の「[!UICONTROL タイムシートおよび時間設定]」エリアで設定できます。 警告が表示されたことを確認すると、タスクまたはイシューは削除されます。 「タイムシートおよび時間設定」の指定について詳しくは、[タイムシートおよび時間設定の指定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
   >[!TIP]
   >
@@ -294,7 +307,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 >[!NOTE]
 >
->[!DNL Workfront] 管理者がシステムレベルで環境設定のロックを解除した後、グループ管理者なら誰でもその設定を行い、自身のグループおよび下位のサブグループのメンバー全員が同じ設定を使用するようにロックできます。 これは、[!DNL Workfront] 管理者がシステム内のすべてのユーザーに対して環境設定を指定およびロックする操作と同じです。 詳しくは、[グループのプロジェクト環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)および[サブグループのプロジェクト、タスクまたはイシューの環境設定をロックまたはロック解除](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)を参照してください。
+>[!DNL Workfront] 管理者がシステムレベルで環境設定のロックを解除すると、グループ管理者は環境設定を指定でき、そのグループとその下に属するサブグループの全員が同じ設定を使用するようにロックできます。 これは、[!DNL Workfront] 管理者がシステム内のすべてのユーザーに対して環境設定を指定およびロックする操作と同じです。 詳しくは、[グループのプロジェクト環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)および[サブグループのプロジェクト、タスクまたはイシューの環境設定をロックまたはロック解除](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)を参照してください。
 
 タスクやイシューの設定をロックまたはロック解除して、グループが設定できるようにするには、次の手順に従います。
 

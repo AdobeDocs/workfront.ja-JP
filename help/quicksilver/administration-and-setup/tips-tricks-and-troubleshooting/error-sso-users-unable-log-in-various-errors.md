@@ -3,16 +3,26 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「エラー：「様々なエラーが原因で  [!DNL Adobe Workfront] SSO ユーザーがログインできません」
-description: フェデレーテッド シングル サインオン、ユーザー名とパスワードの組み合わせ、または  [!DNL Workfront], the problem might be that your [!DNL Workfront]  インスタンスへのアクセスで SSO を使用していることについてログイン エラーが表示された場合、誤った URL を使用してログインしようとしています。
+title: エラー：SSO ユーザーは、様々なエラーにより [!DNL Adobe Workfront] にログインできません
+description: フェデレーションシングルサインオン、ユーザー名とパスワードの組み合わせ、または [!DNL Workfront], the problem might be that your [!DNL Workfront]  インスタンスへのアクセスでSSOが使用され、不正なURLを使用してログインしようとすると、ログインエラーが発生します。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 92936761-cda3-41ab-88b1-ec1cac3900d4
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+TQID: https://experienceleague.adobe.com/8L78zoOjC2KgtVKTorhvWDd8MvaficRL2pZKOfrlGSs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 72%
+source-wordcount: 166
+ht-degree: 58%
 
 ---
 
@@ -22,13 +32,13 @@ ht-degree: 72%
 
 [!DNL Workfront] にログインできず、次のいずれかのエラーが表示されます。
 
-* 申し訳ありませんが、このログイン画面から [!DNL Workfront] にアクセスすることはできません。[!DNL Workfront] は、SAML 2.0 を使用した連合型シングルサインオン用に設定されています。[!DNL Workfront] 管理者にお問い合わせください。
-* このユーザー名とパスワードの組み合わせは不適切です。Caps Lock がオンになっていないことを確認してください。
-* 申し訳ありませんが、[!DNL Workfront] にアクセスできません。[!DNL Workfront] 管理者に連絡して、ユーザー名とパスワードを取得してください。
+* 申し訳ありませんが、このログイン画面から [!DNL Workfront] にアクセスすることはできません。 [!DNL Workfront]は、SAML 2.0を使用したフェデレーテッド シングル サインオン用に設定されています。 [!DNL Workfront]管理者にお問い合わせください。
+* ユーザー名とパスワードの組み合わせが不適切でした。 キャップ ロックがオンになっていないことを確認して、もう一度試してください。
+* 申し訳ありませんが、[!DNL Workfront] にアクセスできません。 [!DNL Workfront] 管理者に連絡して、ユーザー名とパスワードを取得してください。
 
 ## ソリューション
 
-[!DNL Workfront] インスタンスは SSO を使用しており、間違った URL からログインしようとしています。「.com」の後に何も付けずに正しい URL を使用してログインしていることを確認してください
+[!DNL Workfront] インスタンスは SSO を使用しており、間違った URL からログインしようとしています。 「.com」の後に何も付けずに正しい URL を使用してログインしていることを確認してください
 
 >[!TIP]
 >

@@ -3,16 +3,26 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: エラーメッセージ：SAML 2.0 エラー：プライマリStatusCode
+title: エラーメッセージ：SAML 2.0 エラー：プライマリステータスコード
 description: ADFS への接続が正常に確立できません。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: 929502c256011b464d938ad1095c127407e4a795
+TQID: https://experienceleague.adobe.com/Dib7JYTu6pfxU3iU7DUaOeXJpzzshUiqUDRlGP6lcRQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 93%
+source-wordcount: 345
+ht-degree: 97%
 
 ---
 
@@ -26,7 +36,7 @@ ADFS への接続が正常に確立できません。
 
 >[!NOTE]
 >
->正常なテスト接続を確立しても問題が発生する場合は、属性マッピングが正しくないか、連合 ID に問題が発生する可能性があります。ご質問は、カスタマーサポートにお問い合わせください。
+>正常なテスト接続を確立しても問題が発生する場合は、属性マッピングが正しくないか、連合 ID に問題が発生する可能性があります。 ご質問は、カスタマーサポートにお問い合わせください。
 
 ## アクセス要件
 
@@ -37,7 +47,7 @@ ADFS への接続が正常に確立できません。
  <col> 
  <tbody> 
   <tr> 
-   <td>[!DNL Adobe Workfront] package</td> 
+   <td>[!DNL Adobe Workfront] パッケージ</td> 
    <td><p>任意</p></td> 
   </tr> 
   <tr> 
@@ -73,7 +83,7 @@ ADFS への接続が正常に確立できません。
 
 ### ソリューション
 
-[!DNL Workfront] SSO 設定ページに証明書の有効期限が表示されます。証明書の有効期限が近づいている場合は、ADFS サーバーから新しい署名証明書を手動で取り込む必要があります。
+[!DNL Workfront] SSO 設定ページに証明書の有効期限が表示されます。 証明書の有効期限が近づいている場合は、ADFS サーバーから新しい署名証明書を手動で取り込む必要があります。
 
 1. Windows の場合、**[!UICONTROL 開始]**／**[!UICONTROL 管理]**／**[!UICONTROL ADFS 2.0 管理]**&#x200B;をクリックします。\
    ADFS 2.0 管理ダイアログボックスが表示されます。
@@ -93,4 +103,4 @@ ADFS への接続が正常に確立できません。
 
 ## 原因 3：証明書失効確認が失敗している
 
-これに対する解決策は、使用している [!DNL Microsoft] ADFS のバージョンによって異なります。[!DNL Microsoft] のドキュメントを参照して、使用しているバージョンに適したコマンドを取得してください。
+これに対する解決策は、使用している [!DNL Microsoft] ADFS のバージョンによって異なります。 [!DNL Microsoft] のドキュメントを参照して、使用しているバージョンに適したコマンドを取得してください。

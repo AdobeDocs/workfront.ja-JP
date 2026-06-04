@@ -3,14 +3,24 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
 title: 為替レートの設定
-description: 為替レートは、Workfront のすべての財務要素に影響を与えます。基本通貨は、システム全体のすべてのプロジェクトのデフォルト通貨です。
+description: 為替レートは、Workfront のすべての財務要素に影響を与えます。 基本通貨は、システム全体のすべてのプロジェクトのデフォルト通貨です。
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+TQID: https://experienceleague.adobe.com/7D54XR0cFqGEbzYzRh9dWHVEKj0xZLR-GYLIe5-0NMo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: 839
 ht-degree: 41%
 
 ---
@@ -21,13 +31,13 @@ ht-degree: 41%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-Adobe Workfront 管理者は、Workfront で為替レートを設定できます。これには次が含まれます。
+Adobe Workfront 管理者は、Workfront で為替レートを設定できます。 これには次が含まれます。
 
 * Workfront システムのデフォルト通貨の設定
 * 現在の為替レートに一致するように Workfront の為替レートを更新
 * 複数の通貨の為替レートの設定（これにより、ユーザーはプロジェクトごとにデフォルト通貨を選択できます）
 
-為替レートは、Workfront のすべての財務要素に影響を与えます。基本通貨は、特定のプロジェクトまたはジョブロールに対して上書きされない限り、システム全体のすべてのプロジェクトおよびレポートのデフォルト通貨です。 現在の基本通貨またはデフォルト通貨は、リストにアイコン ![&#x200B; デフォルト通貨アイコン &#x200B;](assets/default-icon.png)が表示されます。 また、レポートやリストで表示する際に、基準通貨やプロジェクトの通貨とは異なるシステム内で使用可能な通貨で財務情報を表示するよう選択することもできます。詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
+為替レートは、Workfront のすべての財務要素に影響を与えます。 基本通貨は、特定のプロジェクトまたはジョブロールに対して上書きされない限り、システム全体のすべてのプロジェクトおよびレポートのデフォルト通貨です。 現在の基本通貨またはデフォルト通貨は、リストにアイコン ![&#x200B; デフォルト通貨アイコン &#x200B;](assets/default-icon.png)が表示されます。 また、レポートやリストで表示する際に、基準通貨やプロジェクトの通貨とは異なるシステム内で使用可能な通貨で財務情報を表示するよう選択することもできます。 詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
 
 プロジェクトおよびジョブロールに対するWorkfrontの基本通貨の上書きについて詳しくは、次の記事を参照してください。
 
@@ -105,7 +115,7 @@ Adobe Workfront 管理者は、Workfront で為替レートを設定できます
 
    新しい為替レートの&#x200B;**開始日**&#x200B;を選択します。
 
-   最初の為替レートには開始日がなく、最後のレートには終了日がありません。 一部の日付は自動的に追加されます。例えば、最初のレートに終了日がなく、開始日が2025年12月1日の為替レートを追加した場合、ギャップが存在しないように、2025年11月30日の終了日が最初のレートに追加されます。
+   最初の為替レートには開始日がなく、最後のレートには終了日がありません。 一部の日付は自動的に追加されます。 例えば、最初のレートに終了日がなく、開始日が2025年12月1日の為替レートを追加した場合、ギャップが存在しないように、2025年11月30日の終了日が最初のレートに追加されます。
 
    ![有効な為替レート ダイアログの日付](assets/euro-date-effective-rates.png)
 

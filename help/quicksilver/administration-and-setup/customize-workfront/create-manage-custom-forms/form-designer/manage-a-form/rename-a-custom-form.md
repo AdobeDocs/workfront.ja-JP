@@ -1,5 +1,5 @@
 ---
-title: カスタムフォームの名前変更
+title: カスタムフォームの名前の変更
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,25 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+TQID: https://experienceleague.adobe.com/dobEnV4B-SiNXSxG-k2OnJTnQHdifTumowSchwWRR5A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 87%
+source-wordcount: 183
+ht-degree: 97%
 
 ---
 
-# カスタムフォームの名前変更
+# カスタムフォームの名前を変更
 
 カスタムフォームの名前は、フォーム designer で作成された後でいつでも変更できます。
 
@@ -53,7 +64,7 @@ ht-degree: 87%
 
 1. 左側のパネルで「**カスタムフォーム**」をクリックします。
 
-   表示されるビューで、組織用に作成されたすべてのカスタムフォームを確認できます。また、各フォームの作成者、対象となるオブジェクトタイプ、アクティブかどうかも確認できます。
+   表示されるビューで、組織用に作成されたすべてのカスタムフォームを確認できます。 また、各フォームの作成者、対象となるオブジェクトタイプ、アクティブかどうかも確認できます。
 
 1. 名前を変更するカスタムフォームを選択し、![編集アイコン](assets/edit-icon2.png) をクリックします。
 1. タイトルを変更するには、フォーム名をクリックします。

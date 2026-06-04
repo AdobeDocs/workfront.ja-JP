@@ -2,16 +2,27 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: グループのタイムシートプロファイルの作成と管理
+title: グループのタイムシート プロファイルの作成と管理
 description: 管理しているグループをグループエリアで表示する場合、グループまたはそのいずれかのサブグループの管理者が管理アクセス権を持っているタイムシートプロファイルを表示し操作することができます。
 author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/0OLqxe6ngQYHP3wzwxgDOP8oj8vbEWixvehRFV5T2P4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 87%
+source-wordcount: 347
+ht-degree: 91%
 
 ---
 
@@ -23,7 +34,7 @@ ht-degree: 87%
 
 管理しているグループをグループエリアで表示する場合、グループまたはそのいずれかのサブグループの管理者が管理アクセス権を持っているタイムシートプロファイルを表示し操作することができます。
 
-管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。Workfront 管理者（すべてのグループ）も同様です。
+管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。 Workfront 管理者（すべてのグループ）も同様です。
 
 ## アクセス要件
 
@@ -44,8 +55,8 @@ ht-degree: 87%
   </tr>
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td><p>グループのグループ管理者またはシステム管理者である必要があります。</p>
-   <p>また、タイムシートには管理者アクセス権が必要です。</p></td>
+   <td><p>グループのグループ管理者またはシステム管理者でなければなりません。</p>
+   <p>また、タイムシートへの管理アクセス権も必要です。</p></td>
   </tr>
  </tbody> 
 </table>
@@ -56,15 +67,15 @@ ht-degree: 87%
 
 ## グループレベルのタイムシートプロファイルを作成および編集
 
-管理対象のグループで使用するタイムシートプロファイルを作成および編集できます。手順については、[タイムシートプロファイルの作成、編集および割り当て](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
+管理対象のグループで使用するタイムシートプロファイルを作成および編集できます。 手順については、[タイムシートプロファイルの作成、編集および割り当て](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
 ## グループレベルのタイムシートプロファイルを削除
 
-管理対象のグループで使用しているタイムシートプロファイルを削除できます。手順については、[タイムシートプロファイルの削除](../../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md)を参照してください。
+管理対象のグループで使用しているタイムシートプロファイルを削除できます。 手順については、[タイムシートプロファイルの削除](../../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md)を参照してください。
 
 ## グループタイムシートを手動で生成
 
-グループタイムシートプロファイルに加えた変更を現在のグループタイムシートに反映させるには、まず既存のタイムシートを削除してから、新しいタイムシートを手動で生成する必要があります。手順については、[タイムシートの手動生成](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)で[タイムシートと時間エリアからのタイムシートの手動生成](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually)を参照してください。
+グループタイムシートプロファイルに加えた変更を現在のグループタイムシートに反映させるには、まず既存のタイムシートを削除してから、新しいタイムシートを手動で生成する必要があります。 手順については、[タイムシートの手動生成](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)で[タイムシートと時間エリアからのタイムシートの手動生成](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually)を参照してください。
 
 グループタイムシートの削除については、[Adobe Workfront でのタイムシートの削除](../../../timesheets/create-and-manage-timesheets/delete-timesheets.md)を参照してください。
 
@@ -74,7 +85,7 @@ ht-degree: 87%
 
 1. 「**グループ**」をクリックします。
 
-   表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
+   表示されるリストで、管理しているグループと、その中のサブグループを確認できます。 Adobe Workfront 管理者は、すべてのグループを表示できます。
 
 1. 書き出すタイムシートプロファイルを持っているグループの名前をクリックします。
 1. 「**定期タイムシート**」をクリックします。

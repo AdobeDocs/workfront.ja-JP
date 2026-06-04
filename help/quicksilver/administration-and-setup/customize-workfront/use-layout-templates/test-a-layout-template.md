@@ -8,16 +8,25 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8786648a-3630-4aa9-8e85-9df47a9e4609
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+TQID: https://experienceleague.adobe.com/lUh9ziD8CNyWHBeam8VL2KRLsAYEcXXdWTkfb6-ZC9I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: 166
 ht-degree: 81%
 
 ---
 
 # 新しいレイアウトテンプレートをテスト
 
-新しく作成したレイアウトテンプレートは、ユーザーに割り当てる前にテストすることが重要です。
+新しく作成したレイアウトテンプレートをユーザーに割り当てる前に、テストすることが重要です。
 
 レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -27,8 +36,8 @@ ht-degree: 81%
 
 レイアウトテンプレートは、次のいずれかの方法でテストできます。
 
-* テンプレートを自分のユーザーアカウントに割り当て、すべての要件を満たしていることを確認します。手順について詳しくは、[レイアウトテンプレートをユーザーに割り当てる](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign)を参照してください。
-* レイアウトテンプレートに割り当てられているユーザーとしてログインします。手順について詳しくは、[別のユーザーとしてログイン](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)を参照してください。
+* テンプレートを自分のユーザーアカウントに割り当て、すべての要件を満たしていることを確認します。 手順について詳しくは、[レイアウトテンプレートをユーザーに割り当てる](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign)を参照してください。
+* レイアウトテンプレートに割り当てられているユーザーとしてログインします。 手順について詳しくは、[別のユーザーとしてログイン](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)を参照してください。
 
 レイアウトテンプレートをテストし、それがユーザーにとって適切に機能することに満足したら、[レイアウトテンプレートに管理アクセスを許可する](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)に進みます。
 

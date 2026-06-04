@@ -8,12 +8,24 @@ author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
+TQID: https://experienceleague.adobe.com/Zfi1GowI6IVjCJaTHqxSoy25iq8GcUVGbA-a8RQlv7w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 94%
+source-wordcount: 1984
+ht-degree: 91%
 
 ---
 
@@ -164,7 +176,7 @@ For this article, the old access was:
       <p>必須フィールドです。</p>
       <p>複数の承認プロセスパスに対して同じステータスを選択することはできません。</p> <p>使用可能なステータスは、「<b>」オプションで選択した内容に基づきます。この承認は、</b> によって使用されることができます（上記の表で説明）。</p> 
       <ul> 
-      <li> <b>すべてのグループ </b>が選択されている場合、システム全体のロック済みステータスのみが使用できます。 <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
+      <li> 次の場合 <b>すべてのグループ</b>を選択した場合、システム全体でロックされたステータスのみを使用できます。<!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
       <li> <p>特定のグループを選択した場合、そのグループが使用できるステータスのみが使用可能になります</p> </li> 
       </ul> <p>承認プロセスとステータスの連携について詳しくは、<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>記事の<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">承認プロセスがステータスに依存する仕組み</a>の節を参照してください。</p> </td> 
@@ -191,7 +203,7 @@ For this article, the old access was:
       <p><b>重要</b>
       <ul> 
       <li> プロジェクトスポンサーに承認を割り当て、誰もプロジェクトのスポンサーとして指定されていない場合、承認はプロジェクト所有者に再割り当てされます。 プロジェクトの所有者として誰も指定されていない場合、承認は Workfront 管理者に割り当てられます。 </li> 
-      <li> 承認を役割に割り当て、「<b>承認者がプロジェクトチームに属している必要はありません</b>」オプションを無効になっているが、プロジェクトチーム内に承認の役割と一致する役割がない場合、承認はプロジェクト所有者に再割り当てられます。 承認設定について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">グローバル承認設定を指定</a>を参照してください。
+      <li> 役割に承認を割り当てると、プロジェクト チームに属する必要のないオプション <b>承認者</b>は無効になりますが、プロジェクト チーム内の役割が承認上の役割と一致しない場合、承認はプロジェクト所有者に再割り当てされます。承認設定について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref"> グローバル承認設定の設定</a>を参照してください。
       </li> 
       <li>プロジェクト所有者に承認を割り当て、誰もプロジェクトの所有者として指定されていない場合、設定エリアの「顧客情報」セクションで示されているように、承認はメインの Workfront 管理者に再割り当てされます。 詳しくは、<a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">システムの基本情報の設定</a>を参照してください。</li> 
       <p><img src="assets/approval-create-add-users-nwe-350x304.png"></p> 
@@ -204,7 +216,7 @@ For this article, the old access was:
    </tr> 
      <tr> 
       <td role="rowheader">必要な決定は 1 つだけです</td> 
-      <td>（ステージに複数の承認者を追加した場合にのみ表示）このステージで、ステージ上のいずれか 1 人の承認者が作業項目を承認または却下できる場合は、このオプションを選択します。 このアクションによって、作業項目のステージからの移動が許可されます。  
+      <td>（ステージに複数の承認者を追加した場合にのみ表示されます） ステージの承認者のいずれかが、このステージ中に作業項目を承認または却下できる場合は、このオプションを選択します。このアクションにより、作業項目がステージを離れることができます。  
       <p>このオプションを選択しない場合、項目がステージから移動する前に、指定されたすべての承認者が（任意の順序で）ステージを承認または拒否する必要があります。 承認者のいずれか 1 人がステージを却下した場合、プロセスは中断し、必要な変更を行うためにやり直します。 その後、承認者はステージを再び承認または却下できます。</p> 
       <p>チームが承認者として指定されると、チームのメンバーは誰でもステージを許可または却下できます。</p> 
       </td> 

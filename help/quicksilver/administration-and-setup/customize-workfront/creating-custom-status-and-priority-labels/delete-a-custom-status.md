@@ -8,10 +8,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 73c4eb87-94f6-47bf-b447-eb02a703f7ef
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/4lbG4BKUYaKOJKiYRlv1PYjckZH8-K7BZhcNtBvnioQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 95%
+source-wordcount: 438
+ht-degree: 99%
 
 ---
 
@@ -33,7 +44,7 @@ ht-degree: 95%
 >
 >  ただし、単一使用または現在承認保留中のグループレベルの承認プロセスで使用され、ロックが解除されたシステムステータスは削除できます。
 >
->  レポートを実行してオブジェクトを検索し、承認保留中を解決してから、ステータスの削除を再試行できます。手順については、[特定のステータスを使用した承認保留中プロセスのオブジェクトを一覧表示](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)を参照してください。
+>  レポートを実行してオブジェクトを検索し、承認保留中を解決してから、ステータスの削除を再試行できます。 手順については、[特定のステータスを使用した承認保留中プロセスのオブジェクトを一覧表示](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)を参照してください。
 >
 >* システム内の 1 つ以上のオブジェクトに対して現在承認保留中の承認プロセスで使用されるステータス。
 
@@ -73,11 +84,11 @@ ht-degree: 95%
 
 1. 左側のパネルで、**プロジェクト環境設定**／**ステータス**&#x200B;をクリックします。
 
-1. システム全体（個別のグループを含む）のステータスを削除するには、ステータスの上にマウスを移動して、「**編集**」クリックし、「**すべてのグループに対してロック**」が選択されていることを確認します。「**保存**」をクリックします。
+1. システム全体（個別のグループを含む）のステータスを削除するには、ステータスの上にマウスを移動して、「**編集**」クリックし、「**すべてのグループに対してロック**」が選択されていることを確認します。 「**保存**」をクリックします。
 
    または
 
-   システムステータスを削除しても個別のグループに対して保持するには、ステータスの上にマウスを移動して、「**編集**」をクリックし、「**すべてのグループに対してロック**」が選択されていないことを確認します。「**保存**」をクリックします。
+   システムステータスを削除しても個別のグループに対して保持するには、ステータスの上にマウスを移動して、「**編集**」をクリックし、「**すべてのグループに対してロック**」が選択されていないことを確認します。 「**保存**」をクリックします。
 
 1. 削除するステータスの上にポインタを合わせて、「**削除**」をクリックします。
 1. 表示されるメッセージで、「**ステータスを削除**」をクリックします。

@@ -3,17 +3,28 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: システム更新の設定
-description: Workfront は、オブジェクトの[!UICONTROL 更新]エリアで自動システム更新を生成し、ユーザーがオブジェクトに対して実行した変更を記録します。 [!DNL Workfront]  管理者は、 [!DNL Workfront]  がどのオブジェクトフィールドおよびアクションを追跡するかを設定して、システム更新を記録できます。
+description: Workfront は、オブジェクトの[!UICONTROL 更新]エリアで自動システム更新を生成し、ユーザーがオブジェクトに対して実行した変更を記録します。  [!DNL Workfront]  管理者は、 [!DNL Workfront]  がどのオブジェクトフィールドおよびアクションを追跡するかを設定して、システム更新を記録できます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 48%
+source-wordcount: 904
+ht-degree: 50%
 
 ---
 
@@ -47,7 +58,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 [!DNL Workfront] 管理者は、[!DNL Workfront] がどのオブジェクトフィールドおよびアクションを追跡するかを設定して、システム更新を記録できます。
 
-例えば、システム全体でユーザーがイシューの名前に対して行ったすべての変更を [!DNL Workfront] で追跡できます。イシュー名の変更は、イシューの[!UICONTROL 更新]エリアにシステム更新として表示されます。
+例えば、システム全体でユーザーがイシューの名前に対して行ったすべての変更を [!DNL Workfront] で追跡できます。 イシュー名の変更は、イシューの[!UICONTROL 更新]エリアにシステム更新として表示されます。
 
 ## アクセス要件
 
@@ -105,22 +116,22 @@ Old:
 
 ## [!DNL Workfront] がオブジェクトタイプのどのフィールドを追跡するかを決定
 
-ユーザーが [!DNL Workfront] インターフェイス全体で特定のオブジェクトタイプに関連付けられた情報を変更したときに、[!DNL Workfront] がどの情報を追跡するかを決定できます。これを行うには、[!DNL Workfront] が追跡するオブジェクトタイプのフィールドを追加または削除します。
+ユーザーが [!DNL Workfront] インターフェイス全体で特定のオブジェクトタイプに関連付けられた情報を変更したときに、[!DNL Workfront] がどの情報を追跡するかを決定できます。 これを行うには、[!DNL Workfront] が追跡するオブジェクトタイプのフィールドを追加または削除します。
 
 >[!NOTE]
 >
 >* [!DNL Workfront]は、計算されたカスタム フィールドに関する更新を追跡および記録できません。
->* プロジェクト、タスク、イシュー、ポートフォリオ、プログラムおよびユーザーのシステム更新をカスタマイズできます。テンプレート、ドキュメント、またはタイムシートのシステム更新をカスタマイズすることはできませんが、[!DNL Workfront]はこれらのオブジェクトのシステム更新を記録します。
+>* プロジェクト、タスク、イシュー、ポートフォリオ、プログラムおよびユーザーのシステム更新をカスタマイズできます。 テンプレート、ドキュメント、またはタイムシートのシステム更新をカスタマイズすることはできませんが、[!DNL Workfront]はこれらのオブジェクトのシステム更新を記録します。
 >
 
 
 ### [!DNL Workfront] が追跡するフィールドの追加 {#add-fields-you-want-workfront-to-track}
 
-[!DNL Workfront] インターフェイス全体に渡り、特定のタイプのオブジェクトについて [!DNL Workfront] が追跡するフィールドを追加できます。ユーザーがそのフィールドの情報を変更した場合、[!DNL Workfront] は、変更に関する情報をシステム更新として、オブジェクトの[!UICONTROL 更新]エリアに記録します。
+[!DNL Workfront] インターフェイス全体に渡り、特定のタイプのオブジェクトについて [!DNL Workfront] が追跡するフィールドを追加できます。 ユーザーがそのフィールドの情報を変更した場合、[!DNL Workfront] は、変更に関する情報をシステム更新として、オブジェクトの[!UICONTROL 更新]エリアに記録します。
 
 >[!NOTE]
 >
->更新フィードでは、最大 300 個のビルトインのフィールドとカスタムフィールドを追跡できます。フィールドの最大数を追跡しており、[!UICONTROL すべてのフィールド &#x200B;] サブタブに表示されない追加のフィールドを追跡する場合は、新しいフィールドを追跡するために、最初に追跡されたフィールドの一部を削除する必要があります。 更新フィールドからフィールドを削除する方法の詳細については、[&#x200B; トラッキングしないフィールドの削除](#remove-fields-you-don-t-want-tracked)を参照してください。
+>更新フィードでは、最大 300 個のビルトインのフィールドとカスタムフィールドを追跡できます。 フィールドの最大数を追跡しており、[!UICONTROL すべてのフィールド &#x200B;] サブタブに表示されない追加のフィールドを追跡する場合は、新しいフィールドを追跡するために、最初に追跡されたフィールドの一部を削除する必要があります。 更新フィールドからフィールドを削除する方法の詳細については、[&#x200B; トラッキングしないフィールドの削除](#remove-fields-you-don-t-want-tracked)を参照してください。
 
 {{step-1-to-setup}}
 
@@ -153,7 +164,7 @@ Old:
 
 1. [!DNL Workfront]で追跡するフィールドをすべて追加したら、**[!UICONTROL 追加]**&#x200B;をクリックします。
 追加した組み込みフィールドは&#x200B;**[!UICONTROL 組み込みフィールド]** サブタブに表示され、カスタムフィールドは&#x200B;**[!UICONTROL カスタムフィールド]** サブタブに表示されます。
-**[!UICONTROL すべてのフィールド]** サブタブには、[!DNL Workfront]が追跡する組み込みフィールドとカスタムフィールドの両方が表示されます。
+**[!UICONTROL すべてのフィールド]** サブタブには、[!DNL Workfront]さんが追跡する組み込みフィールドとカスタムフィールドの両方が表示されます。
 
 ### 追跡しないフィールドを削除 {#remove-fields-you-don-t-want-tracked}
 

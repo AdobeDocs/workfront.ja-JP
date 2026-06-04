@@ -9,11 +9,22 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
+TQID: https://experienceleague.adobe.com/hJknixxErOwmpd7NdvVLDY8--gmGKEueD3sxpST8jA0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: 395
 ht-degree: 55%
 
 ---
@@ -28,13 +39,13 @@ ht-degree: 55%
 
 [!UICONTROL 更新]エリアには、次のタイプの更新が含まれます。
 
-* **ユーザー更新：**&#x200B;ユーザーが手動で入力したもの。コメント、返信、メモとも呼ばれます。 ユーザーの更新は、オブジェクトの「更新」セクションの「コメント」タブと「すべてのタブ」に表示されます。
+* **ユーザー更新：**&#x200B;ユーザーが手動で入力したもの。 コメント、返信、メモとも呼ばれます。 ユーザーの更新は、オブジェクトの「更新」セクションの「コメント」タブと「すべてのタブ」に表示されます。
 
   ユーザーの更新の設定について詳しくは、[ユーザー更新の環境設定の指](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)を参照してください。
 
   ![アップデート](assets/updates-qs-350x125.png)
 
-* **システム更新：** システムによって自動的に行われたもの。システムのアップデートには、アイテムにどのような変更が起こったのかを説明する簡単なメモが含まれます。 システム更新は、オブジェクトの「更新」セクションの「システム活動」タブと「すべてのタブ」に表示されます。
+* **システム更新：** システムによって自動的に行われたもの。 システムのアップデートには、アイテムにどのような変更が起こったのかを説明する簡単なメモが含まれます。 システム更新は、オブジェクトの「更新」セクションの「システム活動」タブと「すべてのタブ」に表示されます。
 
   システム更新フィードおよびそれらを有効にする方法について詳しくは、[システム更新の設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 
@@ -115,7 +126,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 -->
 
-* [!DNL Workfront] 管理者は、[!UICONTROL 更新]エリアでシステムで追跡する必要のある変更の種類を定義できます。[!UICONTROL 更新]エリアを持つすべてのオブジェクトに、設定可能な[!UICONTROL 更新]フィードがあるとは限りません。次のオブジェクトには[!UICONTROL 更新]エリアがあり、システムで追跡された更新フィードを記録しますが、設定可能な更新フィードはありません。
+* [!DNL Workfront] 管理者は、[!UICONTROL 更新]エリアでシステムで追跡する必要のある変更の種類を定義できます。 [!UICONTROL 更新]エリアを持つすべてのオブジェクトに、設定可能な[!UICONTROL 更新]フィードがあるとは限りません。 次のオブジェクトには[!UICONTROL 更新]エリアがあり、システムで追跡された更新フィードを記録しますが、設定可能な更新フィードはありません。
 
    * [!UICONTROL ドキュメント]
    * [!UICONTROL タイムシート]

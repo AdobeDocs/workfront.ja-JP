@@ -2,16 +2,25 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Adobe Workfrontでシングルサインオンをディアクティベート
+title: Adobe Workfrontでのシングルサインオンの無効化
 description: Workfront でのシングルサインオンを無効にすることができます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d661da6-dc7b-4dea-a56c-28e296acd980
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+TQID: https://experienceleague.adobe.com/9kmdYi4mGcFFYPDPub9hYD3el1Fp-D3EDn-xahkn5aI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 83%
+source-wordcount: 123
+ht-degree: 94%
 
 ---
 
@@ -19,7 +28,7 @@ ht-degree: 83%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront でのシングルサインオン（SSO）を無効にすると、ユーザーは Workfront の資格情報を使用してログインする必要があります。これらは、ユーザーが最初に設定した資格情報です。（ユーザーの資格情報を変更する必要がある場合は、[ユーザーのプロファイルを編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。）
+Adobe Workfront でのシングルサインオン（SSO）を無効にすると、ユーザーは Workfront の資格情報を使用してログインする必要があります。 これらは、ユーザーが最初に設定した資格情報です。 （ユーザーの資格情報を変更する必要がある場合は、[ユーザーのプロファイルを編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。）
 
 
 ## アクセス要件

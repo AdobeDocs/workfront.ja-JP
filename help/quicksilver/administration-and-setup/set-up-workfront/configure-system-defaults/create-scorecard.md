@@ -3,17 +3,26 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: スコアカードの作成
-description: スコアカードは、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合するかを測定します。スコアカードは、多くの場合、組織の使命、価値、および戦略的目標を反映します。ポートフォリオ管理者は、通常、スコアカードの質問と回答を定義し、プロジェクトの優先順位付けと選択の際に意味があり、価値があることを確認します。 [!DNL Adobe Workfront]  管理者は、ポートフォリオマネージャーからの推奨に基づいてスコアカードを作成します。
+description: スコアカードは、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合するかを測定します。 スコアカードは、多くの場合、組織の使命、価値、戦略的目標を反映しています。通常、Portfolioのマネージャーは、スコアカードの質問と回答を定義し、プロジェクトの優先順位付けと選択の際に、有意義かつ価値のあるものであることを確認します。  [!DNL Adobe Workfront]  管理者は、ポートフォリオマネージャーからの推奨に基づいてスコアカードを作成します。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Moddac2gKcXbmssSrzrMMcxuj-7al8Md76Vkjw-CSoY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 72%
+source-wordcount: 722
+ht-degree: 69%
 
 ---
 
@@ -29,7 +38,7 @@ ht-degree: 72%
 <span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 -->
 
-スコアカードは、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合するかを測定します。スコアカードは、多くの場合、組織の使命、価値、戦略的目標を反映しています。
+スコアカードは、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合するかを測定します。 スコアカードは、多くの場合、組織の使命、価値、戦略的目標を反映しています。
 
 ポートフォリオマネージャーは、スコアカードの質問と回答を定義し、プロジェクトの優先順位付けと選択時に、有意義で価値のあるものにすることができます。
 
@@ -81,7 +90,7 @@ ht-degree: 72%
 
 1. **[!UICONTROL スコアカード名]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を指定します。
 
-   スコアカードをプロジェクトに関連付ける際に、名前が表示されます。説明は、スコアカードリストのスコアカード名の横に表示されます。
+   スコアカードをプロジェクトに関連付ける際に、名前が表示されます。 説明は、スコアカードリストのスコアカード名の横に表示されます。
 
 1. **[!UICONTROL 質問を追加]**&#x200B;ドロップダウンメニューをクリックして、[!UICONTROL スコアカードの質問]セクションを開き、質問に関する次の情報を指定します。
 
@@ -99,11 +108,11 @@ ht-degree: 72%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Negative Points]</td> 
-      <td>このオプションを選択して、[!DNL Workfront] は、可能なポイントの合計から減算する必要があることを示します。スコアカードの最大可能ポイント数に負のスコアを追加することはできません。</td> 
+      <td>このオプションを選択して、[!DNL Workfront] は、可能なポイントの合計から減算する必要があることを示します。 スコアカードの最大可能ポイント数に負のスコアを追加することはできません。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Display Type]</td> 
-      <td>ユーザーが 0 ～ 100 の任意の値を指定できるスコアカードに数値フィールドを表示する場合、「<strong>[!UICONTROL Value(0-100)]</strong>」を選択します。<p>または、ユーザーがこのコントロールを使用して指定できる回答を作成するには、「<strong>[!UICONTROL Drop Down]</strong>」または「<strong>[!UICONTROL Radio Buttons]</strong>」を選択します。<strong>[!UICONTROL Add Answer]</strong>をクリックし、満たされた場合に、この回答に対する割合ポイントの<strong>[!UICONTROL Value]</strong>を入力します。100％を選択すると、この質問に割り当てられたポイント数が完全に達成されます。この回答が、この質問に割り当てられたポイントの総数の一部のみを占めることを示す場合は、割合（％）の値を低くします。例えば、質問が 10 ポイントで評価され、この回答で 5 ポイントを獲得したい場合、値として 50％を選択します。</p>
+      <td>ユーザーが 0 ～ 100 の任意の値を指定できるスコアカードに数値フィールドを表示する場合、「<strong>[!UICONTROL Value(0-100)]</strong>」を選択します。<p>または、ユーザーがこのコントロールを使用して指定できる回答を作成するには、「<strong>[!UICONTROL Drop Down]</strong>」または「<strong>[!UICONTROL Radio Buttons]</strong>」を選択します。 <strong>[!UICONTROL Add Answer]</strong>をクリックし、満たされた場合に、この回答に対する割合ポイントの<strong>[!UICONTROL Value]</strong>を入力します。 100％を選択すると、この質問に割り当てられたポイント数が完全に達成されます。 この回答が、この質問に割り当てられたポイントの総数の一部のみを占めることを示す場合は、割合（％）の値を低くします。 例えば、質問が 10 ポイントで評価され、この回答で 5 ポイントを獲得したい場合、値として 50％を選択します。</p>
       <p>この回答がデフォルトの回答であることを示す場合、「<strong>[!UICONTROL Default]</strong>」を選択します。</strong></p>
      </tr> 
     </tbody> 
@@ -146,7 +155,7 @@ ht-degree: 72%
 
 スコアカードが [!DNL Workfront] 管理者によって作成された後に、プロジェクトへの[!UICONTROL 管理]権限を持つユーザーは、プロジェクトにスコアカードを適用することができます。
 
-プロジェクトのビジネスケースを作成する際に、スコアカードをプロジェクトに追加します。プロジェクトへのスコアカードの追加について詳しくは、[プロジェクトへのスコアカードの適用およびアラインメントスコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)を参照してください。
+プロジェクトのビジネスケースを作成する際に、スコアカードをプロジェクトに追加します。 プロジェクトへのスコアカードの追加について詳しくは、[プロジェクトへのスコアカードの適用およびアラインメントスコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)を参照してください。
 
 プロジェクト権限について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でのプロジェクトの共有を参照してください。
 

@@ -3,17 +3,27 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: ブループリントへのアクセスの設定
-description: システム管理者は、リクエストを保存するリクエストキューを設定することで、ユーザーがブループリントのインストールをリクエストするためのアクセス権を有効にできます。そこで、リクエストの追跡と更新を一元的に行うことができます。
+description: システム管理者は、リクエストを保存するリクエストキューを設定することで、ユーザーがブループリントのインストールをリクエストするためのアクセス権を有効にできます。 そこで、リクエストの追跡と更新を一元的に行うことができます。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ssQ-zj5Hn4ZalKVm1ERlR3NIpqNJlwJjDqQoSFzJHMw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 99%
+source-wordcount: 512
+ht-degree: 95%
 
 ---
 
@@ -23,7 +33,7 @@ ht-degree: 99%
 
 システム管理者は以下を行えます。
 
-* [!UICONTROL ブループリント]をレイアウトテンプレートのメインメニューに追加し、レイアウトテンプレートをユーザーやグループに割り当てる。詳しくは、[レイアウトテンプレートを使用した[!UICONTROL メインメニュー]のカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)と[レイアウトテンプレートへのユーザーの割り当て](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
+* [!UICONTROL ブループリント]をレイアウトテンプレートのメインメニューに追加し、レイアウトテンプレートをユーザーやグループに割り当てる。 詳しくは、[レイアウトテンプレートを使用した[!UICONTROL メインメニュー]のカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)と[レイアウトテンプレートへのユーザーの割り当て](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
   >[!NOTE]
   >
@@ -31,8 +41,8 @@ ht-degree: 99%
   >* 新規レイアウトテンプレートを作成すると、[!UICONTROL メインメニュー]の[!UICONTROL アクティブなアイテム]リストに[!UICONTROL ブループリント]アイコンが、デフォルトで含まれています。
 
 
-* リクエストを保存するリクエストキューを設定することで、ユーザーがブループリントのインストールをリクエストするためのアクセス権を有効にする。そこで、リクエストの追跡と更新を一元的に行うことができます。詳しくは、以下の手順に従ってください。
-* ブループリントをインストールする。詳しくは、[ブループリントのインストール](../../administration-and-setup/blueprints/blueprints-install.md)を参照してください。
+* リクエストを保存するリクエストキューを設定することで、ユーザーがブループリントのインストールをリクエストするためのアクセス権を有効にする。 そこで、リクエストの追跡と更新を一元的に行うことができます。 詳しくは、以下の手順に従ってください。
+* ブループリントをインストールする。 詳しくは、[ブループリントのインストール](../../administration-and-setup/blueprints/blueprints-install.md)を参照してください。
 
 ## アクセス要件
 
@@ -65,16 +75,16 @@ ht-degree: 99%
 
 ## 前提条件 {#prerequisites}
 
-* ブループリントリクエストを保存するには、既存のリクエストキューを使用する必要があります。プロジェクトはリクエストキューとして保存する必要があります。また、[!UICONTROL 進行中]のステータスになっている必要があります。
-* リクエストキューは公開されている必要があります。リクエストキューの詳細で、「[!UICONTROL このキューにリクエストを追加できるユーザー]」は&#x200B;**[!UICONTROL 全員]**&#x200B;に設定する必要があります。
+* ブループリントリクエストを保存するには、既存のリクエストキューを使用する必要があります。 プロジェクトはリクエストキューとして保存する必要があります。また、[!UICONTROL 進行中]のステータスになっている必要があります。
+* リクエストキューは公開されている必要があります。 リクエストキューの詳細で、「[!UICONTROL 誰がこのキューにリクエストを追加できますか？]」を参照してください **[!UICONTROL Anyone]**&#x200B;に設定する必要があります。
 
 >[!TIP]
 >
->ブループリントリクエストのリクエストキューを新規作成する場合は、ブループリントへのアクセス権を設定する前に作成してください。リクエストキューの作成については、[リクエストキューの作成](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
+>ブループリントリクエストのリクエストキューを新規作成する場合は、ブループリントへのアクセス権を設定する前に作成してください。 リクエストキューの作成については、[リクエストキューの作成](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
 ## ブループリントリクエストを保存するリクエストキューを選択
 
-ユーザーからブループリントのインストールをリクエストされる前に、そのリクエスト用のリクエストキューを選択する必要があります。リクエストキューが定義されるまで、ユーザーはブループリントカタログの参照のみ可能です。
+ユーザーからブループリントのインストールをリクエストされる前に、そのリクエスト用のリクエストキューを選択する必要があります。 リクエストキューが定義されるまで、ユーザーはブループリントカタログの参照のみ可能です。
 
 {{step1-to-blueprints}}
 
@@ -88,7 +98,7 @@ ht-degree: 99%
 
    >[!IMPORTANT]
    >
-   >このリストには、パブリックリクエストキューのみが表示されます。リクエストキューをパブリックにするには、上記の[前提条件](#prerequisites)の節を参照してください。
+   >このリストには、パブリックリクエストキューのみが表示されます。 リクエストキューをパブリックにするには、上記の[前提条件](#prerequisites)の節を参照してください。
 
    リクエストキューの環境設定が指定され、ユーザーがブループリントのインストールをリクエストできるようになりました。
 
@@ -103,4 +113,4 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->リクエストされたブループリントをインストールする際は、リクエストキューでイシューステータスを&#x200B;**[!UICONTROL クローズ]**&#x200B;または&#x200B;**[!UICONTROL 解決済み]**&#x200B;に変更して、リクエスターに通知が届くようにする必要があります。ブループリントのインストールについては、[ブループリントのインストール](../../administration-and-setup/blueprints/blueprints-install.md)を参照してください。
+>リクエストされたブループリントをインストールする際は、リクエストキューでイシューステータスを&#x200B;**[!UICONTROL クローズ]**&#x200B;または&#x200B;**[!UICONTROL 解決済み]**&#x200B;に変更して、リクエスターに通知が届くようにする必要があります。 ブループリントのインストールについては、[ブループリントのインストール](../../administration-and-setup/blueprints/blueprints-install.md)を参照してください。

@@ -4,23 +4,34 @@ product-area: system-administration
 keywords: アクセス、共有、カスタム、フォーム
 navigation-topic: create-and-manage-custom-forms
 title: 共有カスタムフィールドへのアクセス
-description: ユーザーが表示または管理アクセス権を持つカスタムフィールドを共有した場合、他の複数の設定を行って、そのアクセス権をさらに詳細に定義できます。フィールドの受信者の場合、これらの設定は、フィールドの操作に影響します。フィールドを表示すると、次のように表示されます。
+description: ユーザーが表示または管理アクセス権を持つカスタムフィールドを共有した場合、他の複数の設定を行って、そのアクセス権をさらに詳細に定義できます。 フィールドの受信者の場合、これらの設定は、フィールドの操作に影響します。 フィールドを表示すると、次のように表示されます。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+TQID: https://experienceleague.adobe.com/GKSI-cFL-oRs-49nKvl42Fc-LbC12j4pP0OHGW383HA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 90%
+source-wordcount: 402
+ht-degree: 92%
 
 ---
 
 # 共有カスタムフィールドへのアクセス
 
-ユーザーが表示または管理アクセス権を持つカスタムフィールドを共有した場合、他の複数の設定を行って、そのアクセス権をさらに詳細に定義できます。フィールドの受信者の場合、これらの設定は、フィールドの操作に影響します。フィールドを表示すると、次のように表示されます。
+ユーザーが表示または管理アクセス権を持つカスタムフィールドを共有した場合、他の複数の設定を行って、そのアクセス権をさらに詳細に定義できます。 フィールドの受信者の場合、これらの設定は、フィールドの操作に影響します。 フィールドを表示すると、次のように表示されます。
 
-ユーザーがカスタムフォームを共有する際に共有設定を設定する方法について詳しくは、[&#x200B; フォーム内のカスタムフィールドとウィジェットの共有の設定 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md) を参照してください。
+ユーザーがカスタムフォームを共有する際に共有設定を設定する方法について詳しくは、[&#x200B; カスタムフィールドとカスタムウィジェットの共有をフォーム &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)で設定するを参照してください。
 
 <table style="table-layout:auto"> 
  <col> 

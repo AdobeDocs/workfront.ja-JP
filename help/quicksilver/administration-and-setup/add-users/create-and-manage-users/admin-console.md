@@ -5,12 +5,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+TQID: https://experienceleague.adobe.com/5g4EStBQBGan2lmo6KhpW-4OzCbNflC70yGd8qbNH4A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 90%
+source-wordcount: 1559
+ht-degree: 88%
 
 ---
 
@@ -27,8 +36,8 @@ ht-degree: 90%
 >[!NOTE]
 >
 >* **Workfront管理者は、Adobe Admin Consoleで設定する必要があります。** 詳しくは、この記事の「[Adobe Admin Consoleを使用してWorkfrontでシステム管理者を作成する](#create-system-administrators-in-workfront-with-the-adobe-admin-console)」を参照してください。
->* **組織がシングルサインオン（SSO）を使用している場合**、Adobe Admin Console でユーザーを作成して Workfront に割り当てることをお勧めします。 これらのユーザーを Workfront で作成できますが、組織の Admin Console の設定によっては、情報を Adobe Admin Console に転送する際に問題が生じる場合があります。
->   Adobe Admin Console でユーザーを作成したら、Workfront でユーザーの情報（役割、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
+>* **組織でシングルサインオン （SSO）**&#x200B;を使用している場合は、ユーザーを作成し、Adobe Admin ConsoleのWorkfrontに割り当てることをお勧めします。Workfrontでこれらのユーザーを作成することは可能ですが、組織のAdmin Consoleの設定方法に基づいて、その情報をAdobe Admin Consoleに転送する際に問題が発生する場合があります。
+>   Adobe Admin Consoleでユーザーを作成した後、Workfrontでユーザー情報（役割、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
 >* **組織がシングルサインオン（SSO）を使用していない場合**、システム管理者以外のユーザーを Workfront に直接追加できます。 Adobe Admin Console でユーザーを追加できますが、Workfront でユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
 
 Admin Console からユーザーのプロファイルに変更を加えると、Workfront でそのユーザーの「システムアクティビティ」タブに更新が追加されます。 更新は、「システム」によって行われたように表示されます。 これは Adobe Admin Console 管理者を指すものであり、Workfront のメイン管理者を指すものではありません。

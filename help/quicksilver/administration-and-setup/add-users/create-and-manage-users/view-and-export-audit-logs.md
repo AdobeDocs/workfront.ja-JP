@@ -3,17 +3,26 @@ title: 監査ログの表示と書き出し
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: システム内のすべての監査ログ、または特定のフィルタリング条件を満たす監査ログを表示できます。監査ログはエクスポートすることもできます。監査ログには、過去 90 日間にシステムでトリガーされたユーザーの変更がリストされます。
+description: システム内のすべての監査ログ、または特定のフィルタリング条件を満たす監査ログを表示できます。 監査ログはエクスポートすることもできます。 監査ログには、過去 90 日間にシステムでトリガーされたユーザーの変更がリストされます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/chIkywiAaMxmiNm1LYjKpkCgA0jbSAUNLKSSXzpFsAI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 57%
+source-wordcount: 420
+ht-degree: 58%
 
 ---
 
@@ -25,7 +34,7 @@ ht-degree: 57%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
 
-システム内のすべての監査ログ、または特定のフィルタリング条件を満たす監査ログを表示できます。監査ログをCSV ファイルに書き出すこともできます。
+システム内のすべての監査ログ、または特定のフィルタリング条件を満たす監査ログを表示できます。 監査ログをCSV ファイルに書き出すこともできます。
 
 監査ログには、過去 90 日間にシステムでトリガーされたユーザーの変更がリストされます。
 
@@ -130,7 +139,7 @@ Old:
 
    >[!IMPORTANT]
    >
-   >一度に 50,000 件を超えるログをエクスポートすることはできません。Workfront では、ページに表示されるログの数ではなく、設定したフィルターに基づいてログがエクスポートされます。フィルターされたログの合計数は、ページの右下に表示されます。
+   >一度に 50,000 件を超えるログをエクスポートすることはできません。 Workfront では、ページに表示されるログの数ではなく、設定したフィルターに基づいてログがエクスポートされます。 フィルターされたログの合計数は、ページの右下に表示されます。
 
 1. 「**エクスポート**」をクリックします。
 

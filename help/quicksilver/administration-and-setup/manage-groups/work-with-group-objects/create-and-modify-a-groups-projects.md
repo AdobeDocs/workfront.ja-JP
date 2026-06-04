@@ -9,10 +9,20 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/q2nEtaLEkclEFtv5PvFP9hFfsmR2rReriYC0-uDgATc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 86%
+source-wordcount: 445
+ht-degree: 89%
 
 ---
 
@@ -23,7 +33,7 @@ ht-degree: 86%
 * グループの新しいプロジェクトの作成
 * プロジェクトを編集、書き出し、コピー、または削除する
 
-グループの上にグループがある場合は、その管理者がグループに対してこれらの操作を実行することもできます。Workfront 管理者（すべてのグループ）も同様です。
+グループの上にグループがある場合は、その管理者がグループに対してこれらの操作を実行することもできます。 Workfront 管理者（すべてのグループ）も同様です。
 
 ## アクセス要件
 
@@ -44,7 +54,7 @@ ht-degree: 86%
   </tr>
   <tr>
    <td>アクセスレベル設定</td> 
-   <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
+   <td>グループのグループ管理者またはシステム管理者でなければなりません。</td>
   </tr>
   <tr> 
    <td>オブジェクト権限</td>
@@ -53,7 +63,7 @@ ht-degree: 86%
      <li> <p>プロジェクトは、グループまたはそのサブグループのいずれかに関連付ける必要があります。 </p> <p>プロジェクトへのグループの割り当てについて詳しくは、<a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">プロジェクトの概要エリアで情報を管理</a>を参照してください。</p> </li> 
      <li> <p>また、プロジェクトを作成したか、自分と共有されていたので、プロジェクトを編集する権限が必要です。</p></li> 
     </ul>
-    <p><b>メモ</b>：グループのページからプロジェクトを作成すると、システムによってプロジェクトがそのグループに割り当てられます。これは、他の Workfront エリアでプロジェクトを作成する場合とは異なります。この場合、システムはプロジェクトを、プロジェクトを作成したユーザー（プロジェクト所有者）のホームグループに割り当てます。</p> </td>
+    <p><b>メモ</b>：グループのページからプロジェクトを作成すると、システムによってプロジェクトがそのグループに割り当てられます。 これは、他の Workfront エリアでプロジェクトを作成する場合とは異なります。この場合、システムはプロジェクトを、プロジェクトを作成したユーザー（プロジェクト所有者）のホームグループに割り当てます。</p> </td>
   </tr>
  </tbody> 
 </table>
@@ -66,10 +76,10 @@ ht-degree: 86%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
 
 1. プロジェクトを作成、表示、または操作するグループの名前をクリックします。
-1. 左側のパネルで、**メインメニューのプロジェクト**![&#x200B; プロジェクト &#x200B;](assets/projects-in-main-menu.png) をクリックして、グループに関連付けられているプロジェクトのリストを表示します。
+1. 左側のパネルで、**プロジェクト** ![&#x200B; メインメニューのプロジェクト &#x200B;](assets/projects-in-main-menu.png)をクリックして、グループに関連付けられているプロジェクトのリストを表示します。
 
 1. 次のいずれかの操作を行います。
 
@@ -87,7 +97,7 @@ ht-degree: 86%
        <ol> 
         <li value="1"> <p>「<strong>新規プロジェクト</strong>」をクリックし、ドロップダウンメニューからオプションを選択してプロジェクトの作成方法を指定します。 </p> <p>詳しくは、<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">プロジェクトの作成</a>の記事の<a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">プロジェクトを作成する方法</a>の節を参照してください。</p> </li> 
         <li value="2"><a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">プロジェクトの編集</a>で説明されているように、プロジェクトの名前を入力して設定します。</li> 
-       </ol> <p> グループに対して設定されたプロジェクト環境設定は、グループエリアで作成するすべてのプロジェクトに影響を与えます。詳しくは、<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">グループのプロジェクト環境設定を指定</a>を参照してください。</p> </td> 
+       </ol> <p> グループに対して設定されたプロジェクト環境設定は、グループエリアで作成するすべてのプロジェクトに影響を与えます。 詳しくは、<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">グループのプロジェクト環境設定を指定</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">プロジェクトのリストを書き出す</td> 

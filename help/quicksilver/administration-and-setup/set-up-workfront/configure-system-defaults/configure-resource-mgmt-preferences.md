@@ -8,12 +8,25 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/N-DtYyvhQ--RI0X4UlY2p9F304tTg0zT-5qKCaVjvig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 56%
+source-wordcount: 629
+ht-degree: 57%
 
 ---
 
@@ -63,8 +76,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 * ユーザーのスケジュールまたはWorkfront システムのデフォルトのスケジュールで定義されているスケジュール時間数。
 * スケジュールの例外（使用するスケジュールに応じて、ユーザーのスケジュールの例外またはWorkfrontのデフォルトのスケジュールに関連付けられているスケジュールを指定できます）。
 * ユーザーの休暇。
-* ユーザーまたは [!DNL Workfront] システムのフルタイム当量（[!UICONTROL FTE]）の値。ユーザーがスケジュールで定義されているとおりにフルタイムで作業する場合、[!UICONTROL FTE] は 1 に等しくなります。
-* ユーザーの[!UICONTROL 作業時間]の値。ユーザーがプロジェクト関連の作業に費やす時間を表します。 会議やトレーニングなどのオーバーヘッド時間は含まれません。[!UICONTROL 作業時間]が 1 と等しくなるのは、[!UICONTROL FTE] またはスケジュールに示される全時間にわたってユーザーが作業可能な場合で、会議やトレーニングなど、プロジェクトに関係しない作業に時間を費やさないことを意味します。
+* ユーザーまたは [!DNL Workfront] システムのフルタイム当量（[!UICONTROL FTE]）の値。 ユーザーがスケジュールで定義されているとおりにフルタイムで作業する場合、[!UICONTROL FTE] は 1 に等しくなります。
+* ユーザーの[!UICONTROL 作業時間]の値。ユーザーがプロジェクト関連の作業に費やす時間を表します。 会議やトレーニングなどのオーバーヘッド時間は含まれません。 [!UICONTROL 作業時間]が 1 と等しくなるのは、[!UICONTROL FTE] またはスケジュールに示される全時間にわたってユーザーが作業可能な場合で、会議やトレーニングなど、プロジェクトに関係しない作業に時間を費やさないことを意味します。
 
 
 [!DNL Workfront] でのリソースの計画とスケジュールについては、[リソース管理の基本を学ぶ](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)を参照してください。
@@ -131,7 +144,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
       </div></li>      
       -->
 
-   * **ユーザーのスケジュール**：[!DNL Workfront] では、ユーザーのスケジュールとシステムの[!UICONTROL デフォルトのスケジュール]を使用して、リソース管理ツールでユーザーの利用可能な [!UICONTROL FTE] 値を計算します。使用可能な時間は、ユーザーのスケジュールに従って計算され、ユーザーの[!UICONTROL FTE]の値は無視されます。 これはデフォルトの設定です。
+   * **ユーザーのスケジュール**：[!DNL Workfront] では、ユーザーのスケジュールとシステムの[!UICONTROL デフォルトのスケジュール]を使用して、リソース管理ツールでユーザーの利用可能な [!UICONTROL FTE] 値を計算します。 使用可能な時間は、ユーザーのスケジュールに従って計算され、ユーザーの[!UICONTROL FTE]の値は無視されます。 これはデフォルトの設定です。
 
      詳しくは、[&#x200B; スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)および[&#x200B; ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 

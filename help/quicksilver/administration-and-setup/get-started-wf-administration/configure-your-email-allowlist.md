@@ -8,10 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+TQID: https://experienceleague.adobe.com/a8hcTFpx3LmuGpQM8Wk8BpLDCFUVJWLAcP-YV5ogK0U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 94%
+source-wordcount: 403
+ht-degree: 89%
 
 ---
 
@@ -30,7 +40,7 @@ ht-degree: 94%
 >
 >Workfront からのメールは、メール配信の成功率を高め、メールのなりすましを排除するために、すべてそのアドレスから送信されます。 これには、自動アラートとユーザー間通信の両方が含まれます。
 >
->例えば、Joan Harris という名前のユーザーから受け取った Workfront メールの送信者行は次のようになります。
+>例えば、Joan Harrisという名前のユーザーから受け取ったWorkfrontの電子メールの「差出人」行は、次のようになります。
 >`Joan Harris <notifications@my.workfront.com>`
 
 ご使用の環境と Adobe Workfront サーバー間の通信を開くための組織のファイアウォールの設定について詳しくは、[ファイアウォールの許可リストの設定](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。

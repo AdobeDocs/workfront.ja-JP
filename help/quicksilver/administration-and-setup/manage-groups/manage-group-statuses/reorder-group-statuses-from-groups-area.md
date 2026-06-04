@@ -2,16 +2,25 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: グループ状態の並べ替え
+title: グループのステータスの並べ替え
 description: グループ管理者は、管理するグループのプロジェクト、タスク、課題ステータスの順序を変更できます。
 author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/xuGMkecCBJEZ0e18LcgivF-kfHFb2Mgr8uUtV-M6Y70
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 93%
+source-wordcount: 462
+ht-degree: 96%
 
 ---
 
@@ -25,15 +34,15 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ![&#x200B; ステータス &#x200B;](assets/statuses.png)
 
-管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。Workfront 管理者（すべてのグループ）も同様です。
+管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。 Workfront 管理者（すべてのグループ）も同様です。
 
 >[!NOTE]
 >
->* Workfront 管理者は、システムレベルでステータスを並べ替えることができます。これは、グループ内のステータスの順序には影響しません。
+>* Workfront 管理者は、システムレベルでステータスを並べ替えることができます。 これは、グループ内のステータスの順序には影響しません。
 >
->  ただし、新しく作成されたトップレベルグループ内のステータスは、システムレベルのステータスの順序を継承します。（新しいサブグループは、1 レベル上のグループ内のステータスの順序を継承します）。
+>  ただし、新しく作成されたトップレベルグループ内のステータスは、システムレベルのステータスの順序を継承します。 （新しいサブグループは、1 レベル上のグループ内のステータスの順序を継承します）。
 >
->* ロックされたステータスは並べ替えることができます。ロックされたステータスについて詳しくは、[グループステータスの作成または編集](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)を参照してください。
+>* ロックされたステータスは並べ替えることができます。 ロックされたステータスについて詳しくは、[グループステータスの作成または編集](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)を参照してください。
 
 ## アクセス要件
 
@@ -54,7 +63,7 @@ The system version of this snippet mentions a single group because a sysadmin ca
   </tr>
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
+   <td>グループのグループ管理者またはシステム管理者でなければなりません。</td>
   </tr>
  </tbody> 
 </table>
@@ -84,7 +93,7 @@ The system version of this snippet mentions a single group because a sysadmin ca
      <p>現在</p> 
      <p>停止</p> 
      <p> 保留中 </p> 
-     <p> プラン </p> 
+     <p> 計画 </p> 
      <p> 完了 </p> 
      <p> リクエスト日 </p> 
      <p> 承認済み </p> 
@@ -93,12 +102,12 @@ The system version of this snippet mentions a single group because a sysadmin ca
    </td> 
    <td> 
      <p>新規</p> 
-     <p>処理中</p> 
+     <p>進行状況</p> 
      <p>完了</p> 
    </td> 
    <td> 
      <p>新規</p> 
-     <p>処理中</p> 
+     <p>進行状況</p> 
      <p>再オープン</p> 
      <p>フィードバック待ち</p> 
      <p>保留中</p> 
@@ -138,7 +147,7 @@ The system version of this snippet mentions a single group because a sysadmin ca
    >[!NOTE]
    >
    >* メインリストのステータスの順序はカスタマイズできません。
-   >* 各イシュータイプについては、同じ方法でステータスの順序を指定することをお勧めします。イシュータイプについて詳しくは、[リクエストタイプの設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)を参照してください。
+   >* 各イシュータイプについては、同じ方法でステータスの順序を指定することをお勧めします。 イシュータイプについて詳しくは、[リクエストタイプの設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)を参照してください。
 
 1. ステータスを目的の順序でドラッグ＆ドロップします。
 

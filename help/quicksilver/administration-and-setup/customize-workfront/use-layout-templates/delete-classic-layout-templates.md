@@ -3,23 +3,34 @@ title: Classic レイアウトテンプレートの削除
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
-description: Classic Workfront エクスペリエンスのレイアウトテンプレートは、Workfront インターフェイスでは使用できなくなりましたが、Workfront データに影響が及ぶ場合があります。これにより、レポートやダッシュボードのレイアウトテンプレート（共有先など）によって影響するフィールドに不整合が生じる可能性があります。
+description: Classic Workfront エクスペリエンスのレイアウトテンプレートは、Workfront インターフェイスでは使用できなくなりましたが、Workfront データに影響が及ぶ場合があります。 これにより、レポートやダッシュボードのレイアウトテンプレート（共有先など）によって影響するフィールドに不整合が生じる可能性があります。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+TQID: https://experienceleague.adobe.com/AcxOFTyZbrQakRoeBlslCoLJgrgY4HS41vaYLOx5i-I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 93%
+source-wordcount: 299
+ht-degree: 98%
 
 ---
 
 # クラシックレイアウトテンプレートの削除
 
-Classic Workfront エクスペリエンスのレイアウトテンプレートは、Workfront インターフェイスでは使用できなくなりましたが、Workfront データに影響が及ぶ場合があります。これにより、レポートやダッシュボードのレイアウトテンプレート（共有先など）によって影響するフィールドに不整合が生じる可能性があります。
+Classic Workfront エクスペリエンスのレイアウトテンプレートは、Workfront インターフェイスでは使用できなくなりましたが、Workfront データに影響が及ぶ場合があります。 これにより、レポートやダッシュボードのレイアウトテンプレート（共有先など）によって影響するフィールドに不整合が生じる可能性があります。
 
-Classic レイアウトテンプレートを削除すると、これらの不整合を解決できます。これらは Workfront のインターフェイスでは使用できないので、Workfront API を使用して削除する必要があります。
+Classic レイアウトテンプレートを削除すると、これらの不整合を解決できます。 これらは Workfront のインターフェイスでは使用できないので、Workfront API を使用して削除する必要があります。
 
 ## アクセス要件
 
@@ -53,7 +64,7 @@ Classic レイアウトテンプレートを削除すると、これらの不整
 
 ## API 呼び出しを使用した Classic レイアウトテンプレートの削除
 
-API 呼び出しは、ブラウザーの URL バーに入力して Enter を押すことでが実行できます。API 応答がブラウザーに表示されます。
+API 呼び出しは、ブラウザーの URL バーに入力して Enter を押すことでが実行できます。 API 応答がブラウザーに表示されます。
 
 >[!NOTE]
 >

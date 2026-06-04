@@ -2,16 +2,26 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: グループのポートフォリオの作成および変更
+title: グループのポートフォリオの作成と変更
 description: グループ管理者がグループエリアで、自身が管理するグループを表示する際は、そのポートフォリオのプログラムを表示および操作できます。
 author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/kUJ353BgsyVNKo1CKvzhdyhDJbwjnoZGjcEC4rByB7g
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 88%
+source-wordcount: 350
+ht-degree: 92%
 
 ---
 
@@ -19,7 +29,7 @@ ht-degree: 88%
 
 グループエリアで管理しているグループを表示しているときは、そのポートフォリオのプログラムを表示および操作できます。
 
-管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。Workfront 管理者（すべてのグループ）も同様です。
+管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。 Workfront 管理者（すべてのグループ）も同様です。
 
 ## アクセス要件
 
@@ -40,7 +50,7 @@ ht-degree: 88%
   </tr>
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
+   <td>グループのグループ管理者またはシステム管理者でなければなりません。</td>
   </tr>
   <tr> 
    <td>オブジェクト権限</td>
@@ -57,7 +67,7 @@ ht-degree: 88%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、**グループ** ![&#x200B; グループ &#x200B;](assets/groups-icon.png)をクリックします。
 
 1. ポートフォリオを作成、表示、および操作するグループの名前をクリックします。
 1. 左側のパネルで、「**ポートフォリオ**」をクリックして、グループ（およびその下のサブグループ）に関連付けられているポートフォリオを一覧表示します。

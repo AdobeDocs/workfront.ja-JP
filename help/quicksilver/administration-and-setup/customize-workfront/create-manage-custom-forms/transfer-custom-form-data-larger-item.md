@@ -1,5 +1,5 @@
 ---
-title: オブジェクトの変換時にカスタムフォームデータを転送
+title: オブジェクト変換時のカスタムフォームデータの転送
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,16 +8,27 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
+TQID: https://experienceleague.adobe.com/qreUbwUFma8OVt5z0Nyiex3c-MWoiN5jPRM-Bgl7ev8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 94%
+source-wordcount: 388
+ht-degree: 97%
 
 ---
 
 # オブジェクトの変換時におけるカスタムフォームデータの転送
 
-組織のビジネスニーズによっては、タスクまたはイシューで定義された作業が大きすぎて、タスクまたはイシュー内で管理できない場合があります。この場合、それらをより大きな作業項目に変換できます。
+組織のビジネスニーズによっては、タスクまたはイシューで定義された作業が大きすぎて、タスクまたはイシュー内で管理できない場合があります。 この場合、それらをより大きな作業項目に変換できます。
 
 * イシューをタスクまたはプロジェクトに変換
 * タスクをプロジェクトに変換
@@ -73,7 +84,7 @@ ht-degree: 94%
 ## &#x200B;2. イシューまたはタスクを変換し、カスタムフォームデータを転送 {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
 1. この記事の [1. カスタムフォームにオブジェクトを追加](#first-add-additonal-objects-to-the-custom-form)の節で説明したように、変換するイシューまたはタスクのカスタムフォームにオブジェクトを追加します。
-1. 必要なカスタムフォームを選択するために表示されるボックスの「**カスタムフォーム**」オプションを使用して、イシューまたはタスクを変換します。手順について詳しくは、次の記事を参照してください。
+1. 必要なカスタムフォームを選択するために表示されるボックスの「**カスタムフォーム**」オプションを使用して、イシューまたはタスクを変換します。 手順について詳しくは、次の記事を参照してください。
 
    * [イシューをプロジェクトに変換](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [イシューをタスクに変換](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
