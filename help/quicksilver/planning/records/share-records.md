@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 751
-ht-degree: 40%
+source-wordcount: 721
+ht-degree: 41%
 
 ---
 
@@ -100,13 +100,7 @@ ht-degree: 40%
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>  <p>リンクを使用してレコードを共有するワークスペースおよびレコードタイプに対する表示以上の権限</p>
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> LightまたはContributor ライセンスを持つユーザーには、Planningを含むレイアウトテンプレートを割り当てる必要があります。
-   <p>標準ユーザーとシステム管理者は、デフォルトでプランニング領域を有効にできます。</p></div></li></ul>
-</td>
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 

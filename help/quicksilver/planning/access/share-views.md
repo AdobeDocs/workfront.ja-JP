@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 2020
+source-wordcount: 1990
 ht-degree: 15%
 
 ---
@@ -92,13 +92,6 @@ This article describes how you can share a view with others. For information abo
    <td>  <p>ビューに対する権限を管理</p> 
    <p><b>重要</b></p> 
    <p>ワークスペースに対する管理権限を持つユーザーのみがビューを公開できます。</p></td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> LightまたはContributor ライセンスを持つユーザーには、Planningを含むレイアウトテンプレートを割り当てる必要があります。
-   <p>標準ユーザーとシステム管理者は、デフォルトでプランニング領域を有効にできます。</p></div></li></ul>
-
-</td>
   </tr>
 
 </tbody> 
