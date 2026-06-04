@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1548'
 ht-degree: 20%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 20%
 * [管理者機能の強化](#administrator-enhancements)
 * [ドキュメントの機能強化](#documents-enhancements)
 * [財務管理の機能強化](#financial-management-enhancements)
+* [ホームの機能強化](#home-enhancements)
 * [レポートの機能強化](#reporting-enhancements)
 * [リクエストの機能強化](#requesting-enhancements)
 * [その他の機能強化](#other-enhancements)
@@ -164,6 +165,30 @@ ht-degree: 20%
             <td><p>2026年5月21日（PT）</p></td>
             <td><p>2026年5月21日（PT）</p></td>
             <td><p>2026年5月21日（PT）</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### ホームの機能強化
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>機能</strong>
+            </td>
+            <td><strong>プレビュー</strong></td>
+            <td><strong>迅速リリース</strong></td>
+            <td><strong>四半期ごと</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md" class="MCXref xref" xrefformat="{para}">優先度でカスタムデータとビューを使用</a><p></p>
+                <p>優先度では、列でのカスタムデータの使用がサポートされるようになりました。 ワークリストから列マネージャーを開き、列データに表示するカスタムフィールドを追加します。</p>
+            </td>
+            <td><p>2026年6月4日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
         </tr>
     </tbody>
 </table>
