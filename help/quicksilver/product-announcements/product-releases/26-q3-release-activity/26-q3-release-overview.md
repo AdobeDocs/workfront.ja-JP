@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1541'
 ht-degree: 20%
 
 ---
@@ -276,9 +276,9 @@ ht-degree: 20%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}"> コメント通知メールのルックアンドフィールを更新</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>「更新」領域のコメントに関するメール通知は、より広範なAdobeのメールデザインに合った新しい外観になります。 前のコメントのスレッドは、メール本文に含まれなくなりました。</p>
             </td>
-            <td><p>段階的な展開、開始日の発表</p></td>
-            <td><p>段階的な展開、開始日の発表</p></td>
-            <td><p>段階的な展開、開始日の発表</p></td>
+            <td><p>該当なし</p></td>
+            <td><p>2026年7月16日（PT）より段階的に展開</p></td>
+            <td><p>2026年7月16日（PT）より段階的に展開</p></td>
         </tr>
         <tr>
             <td>
