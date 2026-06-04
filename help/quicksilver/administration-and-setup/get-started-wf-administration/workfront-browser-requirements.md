@@ -1,15 +1,20 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Workfrontのブラウザー要件
-description: この記事の情報は移動されました。詳しくは、Adobe Workfront ブラウザー要件を参照してください。
+title: Workfrontの必要ブラウザー構成
+description: この記事の情報は移動されました。 詳しくは、Adobe Workfront ブラウザー要件を参照してください。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d5ebb67d-ec86-471a-92d2-a0ed10f4fa7d
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+TQID: https://experienceleague.adobe.com/y4U-xy1ukMK1S1RR9L8UMTnhqNTws8TIEJ-lJ2lFD4Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '34'
+source-wordcount: 34
 ht-degree: 88%
 
 ---
@@ -18,4 +23,4 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->この記事の情報は移動されました。詳しくは、[Adobe Workfront のブラウザー要件](../../workfront-basics/workfront-browser-requirements.md)を参照してください。
+>この記事の情報は移動されました。 詳しくは、[Adobe Workfront のブラウザー要件](../../workfront-basics/workfront-browser-requirements.md)を参照してください。

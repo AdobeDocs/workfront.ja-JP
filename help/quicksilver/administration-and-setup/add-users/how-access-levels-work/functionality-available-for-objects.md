@@ -10,10 +10,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: fbc8024269aa91370f2a93ace6b7f07679c7f37d
+TQID: https://experienceleague.adobe.com/nh6fCYhtqUcPipkWTi6Vw6cUwwNH2ONGN45VUI0YzuM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 89%
+source-wordcount: 1447
+ht-degree: 90%
 
 ---
 
@@ -21,7 +27,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->この記事の情報は、現在のアクセスレベルに関するものです。従来のアクセスレベルについて詳しくは、[アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
+>この記事の情報は、現在のアクセスレベルに関するものです。 従来のアクセスレベルについて詳しくは、[アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
 
 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
 
@@ -30,7 +36,7 @@ ht-degree: 89%
 >[!NOTE]
 >
 >* この記事では、新しいWorkfront パッケージモデルのアクセスレベルで利用できる機能について説明します。 現在のパッケージモデルで利用可能な機能を確認するには、様々なアクセスレベルで各オブジェクトタイプで利用可能な[機能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)を参照してください。
->* 最新モデルの様々なパッケージで利用できる機能の一覧については、[Adobe Workfrontの価格とパッケージ &#x200B;](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
+>* 最新モデルの様々なパッケージで利用できる機能の一覧については、[Adobe Workfrontの価格とパッケージ ](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 ## プロジェクト
 
@@ -69,7 +75,7 @@ ht-degree: 89%
 
 {style="table-layout:auto"}
 
-&#42;アクセスレベルを使用して、Workfront 管理者は、この機能を無効または有効にできます。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。
 
 ## タスク
 
@@ -129,7 +135,7 @@ ht-degree: 89%
 
 {style="table-layout:auto"}
 
-&#42;アクセスレベルを使用して、Workfront 管理者は、この機能を無効または有効にできます。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。
 
 ## ポートフォリオ
 
@@ -177,11 +183,11 @@ ht-degree: 89%
 
 {style="table-layout:auto"}
 
-&#42;アクセスレベルを使用して、Workfront 管理者は、この機能を無効または有効にできます。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。
 
 ## レポート、ダッシュボード、カレンダー
 
-標準ライセンスを持つユーザーは、レポートに完全にアクセスできます。その他すべてのアクセスレベルでは、レポートに対して表示アクセス権があります。
+標準ライセンスを持つユーザーは、レポートに完全にアクセスできます。 その他すべてのアクセスレベルでは、レポートに対して表示アクセス権があります。
 
 | アクション | 標準 | ライト | コントリビューター | 外部ユーザー |
 |--------------------------------------|----------|--------|-------------|---------------|
@@ -191,7 +197,7 @@ ht-degree: 89%
 | 共有 | ✓&#42; | ✓ |   |   |
 | カレンダーとレポートを公開して共有 | ✓&#42; |   |   |   |
 | システム全体で共有 | ✓&#42; |   |   |   |
-| 表示 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| ビュー | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | 編集 | ✓ |   |   |   |
 | コピー | ✓ |   |   |   |
 
@@ -296,7 +302,7 @@ ht-degree: 89%
 
 {style="table-layout:auto"}
 
-&#42;アクセスレベルを使用して、Workfront 管理者は、この機能を無効または有効にできます。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。
 
 <!--
 
@@ -385,11 +391,11 @@ ht-degree: 89%
 
 {style="table-layout:auto"}
 
-&#42;アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。
 
 ## リソース管理
 
-リソース管理に対するフルアクセス権を持つのは、標準ライセンスを持つユーザーのみです。その他のライセンスタイプでは、Workfront のリソース管理に対するアクセスが制限されたり、アクセス権がなかったりします。
+リソース管理に対するフルアクセス権を持つのは、標準ライセンスを持つユーザーのみです。 その他のライセンスタイプでは、Workfront のリソース管理に対するアクセスが制限されたり、アクセス権がなかったりします。
 
 | アクション | 標準 | ライト | コントリビューター | 外部ユーザー |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
@@ -404,11 +410,11 @@ ht-degree: 89%
 
 {style="table-layout:auto"}
 
-&#42;Workfront 管理者はアクセスレベルを使用して、この機能を無効または有効にできます。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。
 
-&#42;&#42;財務データへの追加のアクセス権と、プロジェクトの財政の権限が必要です。財務データへのアクセス権を持たない標準ユーザーにリソース管理アクセス権を付与した場合、ユーザーはリソースプランナーで時間配分を引き続き表示できますが、コスト表示に切り替えたり、ビジネスケースを表示したりすることはできません。 詳しくは、[財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)および[オブジェクトに対する財務権限の共有](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)を参照してください。
+&#42;&#42;財務データへの追加のアクセス権と、プロジェクトの財政の権限が必要です。 財務データへのアクセス権を持たない標準ユーザーにリソース管理アクセス権を付与した場合、ユーザーはリソースプランナーで時間配分を引き続き表示できますが、コスト表示に切り替えたり、ビジネスケースを表示したりすることはできません。 詳しくは、[財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)および[オブジェクトに対する財務権限の共有](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)を参照してください。
 
-&#42;&#42;&#42;詳細設定で「割り当ての作成」が有効な状態で、オブジェクトに参加する権限が必要です。詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)記事内の[継承された権限とオブジェクトの階層について](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object)の節を参照してください。
+&#42;&#42;&#42;詳細設定で「割り当ての作成」が有効な状態で、オブジェクトに参加する権限が必要です。 詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)記事内の[継承された権限とオブジェクトの階層について](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object)の節を参照してください。
 
 ## シナリオプランナーのエリア
 
@@ -427,7 +433,7 @@ ht-degree: 89%
 >
 >プランへのリンクが共有されている場合にのみ、別のユーザーが作成したプランを表示できます。
 
-&#42; ユーザーがプランまたはイニシアチブで財務データを表示するには、財務データへのアクセス権が必要です。詳しくは、[財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
+&#42; ユーザーがプランまたはイニシアチブで財務データを表示するには、財務データへのアクセス権が必要です。 詳しくは、[財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
 
 ## 評価カード
 
@@ -443,7 +449,7 @@ ht-degree: 89%
 
 {style="table-layout:auto"}
 
-&#42;アクセスレベルを使用して、Workfront 管理者は、この機能を無効または有効にできます。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。
 
 ## Workfront Goals のエリア
 

@@ -8,12 +8,17 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/67OfYPIrN7Tzciapa37YHviFI4uptaGgkWkMMREgw-k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 75%
+source-wordcount: 271
+ht-degree: 74%
 
 ---
 
@@ -49,7 +54,7 @@ ht-degree: 75%
  </tbody> 
 </table>
 
-* この表の詳細については、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* この表の詳細については、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -81,15 +86,15 @@ Old:
 
 ## ユーザーが更新で画像を追加できるようにする
 
-デフォルトでは、ユーザーは更新に画像を追加できません。この環境設定を有効にすると、ユーザは更新に画像を添付できるようになります。この環境設定は、[!DNL Workfront] インスタンスのすべての領域のすべての更新に適用されます。
+デフォルトでは、ユーザーは更新に画像を追加できません。 この環境設定を有効にすると、ユーザは更新に画像を添付できるようになります。 この環境設定は、[!DNL Workfront] インスタンスのすべての領域のすべての更新に適用されます。
 
 >[!NOTE]
 >
->* 更新で保存された画像は、ドキュメントストレージ制限に考慮されます。詳しくは、[ドキュメントストレージ制限の確認ク](../../../documents/managing-documents/check-document-storage.md)を参照してください。
+>* 更新で保存された画像は、ドキュメントストレージ制限に考慮されます。 詳しくは、[ドキュメントストレージ制限の確認ク](../../../documents/managing-documents/check-document-storage.md)を参照してください。
 >* 画像は、オブジェクト上の[!UICONTROL 更新]タブからアクセスでき、[!UICONTROL メインメニュー]の[!UICONTROL ドキュメント]エリアでも使用できます。
 >
 
-1. **[!UICONTROL の右上隅にある]** メインメニュー![&#x200B; アイコン &#x200B;](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront]をクリックし、**[!UICONTROL 設定]** ![&#x200B; ギア設定アイコン &#x200B;](assets/gear-icon-settings.png)をクリックします。
+1. [!DNL Adobe Workfront]の右上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL 設定]** ![ ギア設定アイコン ](assets/gear-icon-settings.png)をクリックします。
 1. 左パネルで、**[!UICONTROL インターフェイス]**／**[!UICONTROL フィードの更新]**&#x200B;を選択します。
 1. 「**[!UICONTROL 環境設定]**」タブを選択します。
 
@@ -98,4 +103,4 @@ Old:
 1. 「**[!UICONTROL ユーザーが更新で画像を追加できるようにする]**」チェックボックスを選択します。
 1. 「**[!UICONTROL 保存]**」を選択します。
 
-   この設定が有効になっている場合、いつでも無効にすることができます。更新で既に投稿された画像は、オブジェクトの[!UICONTROL 更新]領域に残ります。
+   この設定が有効になっている場合、いつでも無効にすることができます。 更新で既に投稿された画像は、オブジェクトの[!UICONTROL 更新]領域に残ります。

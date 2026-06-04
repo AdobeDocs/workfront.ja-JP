@@ -4,15 +4,20 @@ content-type: faq
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: キックスタートに関するよくある質問（Faq）
+title: キックスタートに関するよくある質問
 description: 詳しくは、キックスタートを使用した Workfront データの読み込みおよび書き出しに関するよくある質問に対する回答を参照してください。
 author: LIsa
 feature: System Setup and Administration
 role: Admin
 exl-id: f286e03e-93a8-43f5-8c2d-2c36203776a8
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+TQID: https://experienceleague.adobe.com/XpKG-fYAFVRk89b5TjSWyrzqv5z1zzIavWJQNLuKlsc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: 441
 ht-degree: 98%
 
 ---
@@ -27,7 +32,7 @@ ht-degree: 98%
 
 次の 3 つのうちの 1 つがキックスタートファイルから欠けている可能性があります。
 
-1. **isNew** 列は、読み込むすべての項目に対して **TRUE** の値に設定する必要があります。キックスタートでは新しいデータに限り読み込むことができるので、**isNew** を **TRUE** にする必要があります。キックスタートを使用して既存のデータを変更することはできません。スプレッドシートに他の行に **isNew = FALSE** を指定できますが、これらの行は読み込まれません。
+1. **isNew** 列は、読み込むすべての項目に対して **TRUE** の値に設定する必要があります。 キックスタートでは新しいデータに限り読み込むことができるので、**isNew** を **TRUE** にする必要があります。 キックスタートを使用して既存のデータを変更することはできません。 スプレッドシートに他の行に **isNew = FALSE** を指定できますが、これらの行は読み込まれません。
 
 1. ファイルでは、データのヘッダーを開始する前に空の行が 1 行必要です。
 1. Excel シートに正しい名前を付ける必要があります。
@@ -60,6 +65,6 @@ ht-degree: 98%
 
 ### 回答
 
-ユーザーが統合ユーザー管理（UUM）またはAdobe Identity Management システム（IMS）に対して有効になっている場合、「**国**」フィールドでは、国コードの値（US、GB、IN など）のみを使用できます。読み込む前に、キックスタートテンプレートの「**setCountry**」フィールドで国コードの値が使用されていることを確認します。
+ユーザーが統合ユーザー管理（UUM）またはAdobe Identity Management システム（IMS）に対して有効になっている場合、「**国**」フィールドでは、国コードの値（US、GB、IN など）のみを使用できます。 読み込む前に、キックスタートテンプレートの「**setCountry**」フィールドで国コードの値が使用されていることを確認します。
 
 キックスタートを使用して Workfront でデータを正しく読み込む方法について詳しくは、[キックスタートテンプレートを使用して Adobe Workfront にデータを読み込む](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)を参照してください。

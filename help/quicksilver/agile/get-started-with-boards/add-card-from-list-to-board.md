@@ -6,12 +6,17 @@ description: リスト表示またはレポート表示からAdobe Workfront の
 author: Courtney
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/WK0xnK-IRQhM5mHeps2rjiC-YIPuYS5eFX7LzAoesHM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 93%
+source-wordcount: 566
+ht-degree: 90%
 
 ---
 
@@ -99,8 +104,8 @@ ht-degree: 93%
 ## リストのタスクまたはイシューに関連するボードを表示
 
 1. ボード情報を表示するタスクまたはイシューが含まれるプロジェクト、レポート、またはダッシュボードに移動します。
-1. 「ボード」列を含むビューを選択するか、「ボード」列を含む新しいビューを作成します。
-ビューについて詳しくは、[Adobe Workfront でビューを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)を参照してください。
+1. ボード列を含むビューを選択するか、ボード列を使用して新しいビューを作成します。
+ビューについて詳しくは、[Adobe Workfrontでのビューの作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)を参照してください。
 1. 列の&#x200B;[!UICONTROL **表示**]&#x200B;をクリックし、タスクまたはイシューがオンになっているボードのリストを表示します。
 
    ![列にボードを表示](assets/show-boards-in-column.png)

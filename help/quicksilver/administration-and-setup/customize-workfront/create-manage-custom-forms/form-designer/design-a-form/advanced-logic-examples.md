@@ -1,27 +1,33 @@
 ---
-title: カスタム Formsにおける高度なロジックの例
+title: カスタム Formsの高度なロジックの例
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: この記事では、カスタムフィールドに対して高度なロジックを作成するために使用される式の例を示します。
+description: この記事では、カスタムフィールドで高度なロジックを構築するために使用される式の例を示します。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: caf889d6-08a3-4186-9d9c-3cea3a0e4548
-source-git-commit: 2e8801d08e3cf14f08435389c128068e2d38caba
+TQID: https://experienceleague.adobe.com/cco-UwmTpDJ4bc6KvTM2BgRmvudLZveRY5WmpbhsnqM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 5%
+source-wordcount: 740
+ht-degree: 6%
 
 ---
 
-# カスタムフォームにおける高度なロジックの例
+# カスタムフォームの高度なロジックの例
 
-論理ルールを使用すると、カスタムフォームのフィールドをさらにカスタマイズできます。
+ロジックルールを使用すると、カスタムフォームのフィールドをさらにカスタマイズできます。
 
-この記事では、カスタムフィールドに対して高度なロジックを作成するために使用される式の例を示します。
+この記事では、カスタムフィールドで高度なロジックを構築するために使用される式の例を示します。
 
-カスタムフォームへのロジックの追加について詳しくは、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) を参照してください。
+カスタムフォームへのロジックの追加について詳しくは、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
 
 ## アクセス要件
 
@@ -51,17 +57,17 @@ ht-degree: 5%
 
 +++
 
-## 検証ロジックの例
+## 検証論理の例
 
-検証ロジックは数式を使用して作成され、ロジックは必要に応じて単純にすることも、複雑にすることもできます。 検証は、他のフィールドの値やオブジェクトのステータスに基づくことができ、検証が失敗した場合のエラーメッセージを指定できます。
+検証ロジックは数式を使用して構築され、必要に応じてロジックを単純または複雑にすることができます。 検証は、他のフィールドの値またはオブジェクトのステータスに基づいて行うことができ、検証が失敗した場合のエラーメッセージを提供できます。
 
-ユーザーがカスタムフォームに入力する際に、ロジックが適用されたフィールドが定義済みの検証条件を満たす場合、そのフィールドはハイライト表示され、エラーメッセージが表示されます。
+ユーザーがカスタムフォームに入力したときに、ロジックが適用されたフィールドが定義された検証条件を満たす場合、そのフィールドが強調表示され、エラーメッセージが表示されます。
 
-検証ロジックを適用できるフィールドタイプは、1 行のテキスト、段落、単一選択ドロップダウン、複数選択ドロップダウン、外部検索、typeahead、日付、チェックボックスグループ、ラジオボタンです。
+検証ロジックは、次のフィールドタイプに適用できます。1行のテキスト、段落、単一選択ドロップダウン、複数選択ドロップダウン、外部参照、先行入力、日付、チェックボックスグループ、ラジオボタン。
 
-### プロジェクト所有者のみが「緊急」SLAを選択できます
+### プロジェクト所有者のみが「ラッシュ」SLAを選択できるようにする
 
-この例では、単一選択ドロップダウンフィールドには、「標準 – 14 日」、「優先度 – 7 日」、「緊急 – 2 日」のSLAの選択肢があります。
+この例では、1つの選択ドロップダウンフィールドに、標準のSLA（14日間）、優先度（7日間）、およびラッシュ（2日間）の選択肢があります。
 
 検証式：
 
@@ -69,13 +75,13 @@ ht-degree: 5%
 IF({ownerID}!=$$USER&&{DE:DV - Dropdown - Control Dates}="2",CONCAT("Only ",{owner}.{name}," may select X Rush"))
 ```
 
-プロジェクト所有者でないユーザー（システム管理者を含む）が **X Rush** を選択しようとすると、次のエラーが表示されます。
+プロジェクト所有者（システム管理者を含む）でないユーザーが&#x200B;**X Rush**&#x200B;を選択しようとすると、エラーが表示されます。
 
-![X Rush を選択できるのは、プロジェクト所有者の Claire Stevens のみです &#x200B;](assets/sla-xrush.png)
+![ プロジェクトオーナーのClaire StevensのみがX Rush](assets/sla-xrush.png)を選択できます
 
-### 前のフィールドでの選択に基づく日付の検証
+### 前のフィールドの選択に基づく日付の検証
 
-SLAの例を続けて、前のドロップダウンフィールドの設定に基づいて検証される日付フィールドを追加できます。
+SLAの例に続いて、前のドロップダウンフィールドの設定に基づいて検証される日付フィールドを追加できます。
 
 検証式：
 
@@ -87,13 +93,13 @@ IF(
         ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})))
 ```
 
-ユーザーが許可されている日付より前の日付を選択すると、選択できる最も古い日付がメッセージに表示されます。
+ユーザーが許可された日付より前の日付を選択した場合、選択できる最も早い日付がメッセージに表示されます。
 
-![&#x200B; 選定日は 3 月 28 日（PT）ですが、一番早い実施日は 4 月 3 日（PT）です &#x200B;](assets/date-validation-based-on-previous-choice.png)
+![選択した日付は3月28日ですが、最も早い日付は4月3](assets/date-validation-based-on-previous-choice.png)です
 
-### 上書きするオプションの最小文字数
+### 上書きするオプションを含む最小文字数
 
-この例では、文字数カウントの最小値がテキストフィールドに適用され、文字数カウントが表示されます。 また、文字数の検証を無効にするには、別のチェックボックスが設定されています。
+この例では、文字数が表示された状態で、テキストフィールドに最小文字数が適用されます。 また、文字数の検証を無効にするには、別のチェックボックスを設定します。
 
 検証式：
 
@@ -101,17 +107,17 @@ IF(
 IF({DE:DV - Override}!="Disable Validation"&&LEN({DE:DV - Text - Min Length})<"7",CONCAT(LEN({DE:DV - Text - Min Length})," characters / ",("7"-LEN({DE:DV - Text - Min Length}))," remaining"))
 ```
 
-検証の適用は、チェックボックスを選択して上書きできます。
+検証の適用は、次のチェックボックスを選択して上書きできます。
 
-![&#x200B; 検証を無効にするには、このチェックボックスをオンにします &#x200B;](assets/disable-validation-checkbox.png)
+![検証を無効にするチェックボックス ](assets/disable-validation-checkbox.png)
 
-次のテキストフィールドには、実行中の文字数が含まれます。
+テキストフィールドには、実行中の文字数が含まれます。
 
-![&#x200B; 使用可能な文字数は 5 文字、残り 2 文字 &#x200B;](assets/running-character-count.png)
+![使用可能な5文字の文字数、残り2文字](assets/running-character-count.png)
 
-### 所有者のみが編集できるようにフィールドをロック
+### フィールドをロックして、所有者のみが編集できるようにします
 
-この例では、フィールドはプロジェクト所有者のみが編集できます。 システム管理者でもフィールドを編集できません。
+この例では、フィールドはプロジェクト所有者のみが編集できます。 システム管理者でもフィールドを編集することはできません。
 
 検証式：
 
@@ -119,13 +125,13 @@ IF({DE:DV - Override}!="Disable Validation"&&LEN({DE:DV - Text - Min Length})<"7
 IF({ownerID}!=$$USER,IF(ISBLANK({ownerID}),"Project Owner will provide this.",CONCAT("Only ",{owner}.{name}," can edit this.")))
 ```
 
-プロジェクト所有者以外のユーザーがフィールドに入力しようとすると、プロジェクト所有者のみがフィールドを編集できることを示すメッセージが表示されます。
+プロジェクト所有者ではないユーザーがフィールドに入力しようとすると、プロジェクト所有者のみがフィールドを編集できることを示すメッセージが表示されます。
 
-![&#x200B; このフィールドを編集できるのは Claire Stevens のみです &#x200B;](assets/only-project-owner-can-edit.png)
+![このフィールドを編集できるのはClaire Stevensのみです](assets/only-project-owner-can-edit.png)
 
-### Typeahead は、他のフィールド値に基づいて値を許可または拒否します。
+### Typeaheadは、他のフィールド値に基づいて値を許可または拒否します
 
-この例では、typeahead フィールドは、フォームの別のフィールドに入力された値に基づいて、値を動的に許可または拒否します。
+この例では、先行入力フィールドは、フォームの別のフィールドに入力された値に基づいて、値を動的に許可または拒否します。
 
 検証式：
 
@@ -135,13 +141,13 @@ IF({DE:DV - Text - Budget}>"10000",
 )
 ```
 
-予算フィールドの値が$10,000 を超える場合、typeahead 設定で有効になっている役割フィルターがなくても、Director の役割を持つユーザーのみを typeahead から選択できます。
+予算フィールドの値が10,000 ドルを超える場合、タイプアヘッド設定でロールフィルターが有効になっていない場合でも、ディレクタの役割を持つユーザーのみがタイプアヘッドから選択できます。
 
-![&#x200B; 理事の承認を要する予算額 &#x200B;](assets/budget-director.png)
+![予算額にはディレクターの承認が必要です](assets/budget-director.png)
 
-### エントリ日から 10 日未満の値を許可しない
+### エントリ日から10日以内の値を許可しない
 
-この例では、検証で許可されるのは、エントリ日から 10 日後の値のみです。 検証を上書きするオプション（別のチェックボックスフィールド内）も式に含まれ、日付フィールドを空白にすることができます。
+この例では、入力日から10日後の値のみを検証で使用できます。 検証を上書きするオプション（別のチェックボックスフィールド内）も、日付フィールドを空白にできるようにしながら、数式に含まれます。
 
 検証式：
 
@@ -149,36 +155,36 @@ IF({DE:DV - Text - Budget}>"10000",
 IF({DE:DV - Override}!="Disable Validation"&&ISBLANK({DE:DV - Date - Deadline})!="true"&&{DE:DV - Date - Deadline}<ADDDAYS({entryDate},"10"),CONCAT("Earliest: ",ADDDAYS({entryDate},"10")))
 ```
 
-エントリ日のトリガーの検証から 10 日未満の任意の値：
+入力日トリガーの検証から10日以内の値：
 
-![&#x200B; 選定日は 3 月 28 日（PT）ですが、一番早い実施日は 4 月 4 日（PT）です &#x200B;](assets/earliest-deadline-date.png)
+![選択した日付は3月28日ですが、最も早い日付は4月4](assets/earliest-deadline-date.png)です
 
-空白の値は、検証メッセージをトリガーにしません。
+空白の値は、検証メッセージをトリガーしません。
 
-![&#x200B; 日付の空白値 &#x200B;](assets/blank-date-allowed.png)
+![日付の空白の値](assets/blank-date-allowed.png)
 
-### 複数選択フィールドでの厳密/最小/最大の選択の強制
+### 複数選択フィールドで正確/最小/最大の選択を適用
 
-この例では、チェックボックス グループなどの複数選択フィールドを使用する場合、ユーザーは一定数のオプションを選択する必要があります。
+この例では、チェックボックスグループなどの複数選択フィールドでは、ユーザーは一定数のオプションを選択する必要があります。
 
-検証式（正確に 2 つ選択）:
+検証式（2つだけ選択）:
 
 ```
 IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox - Pick exactly 2},","))!="2","Pick Exactly 2 Options")
 ```
 
-検証式（少なくとも 2 つ選択）:
+検証式（少なくとも2つ選択）:
 
 ```
 IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox - Pick at least 2},","))<"2","Pick at least 2 choices")
 ```
 
-検証式（2 つ以下を選択）:
+検証式（2つ以上を選択してください）:
 
 ```
 IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox - Pick no more than 2},","))>"2","Pick no more than 2 choices")
 ```
 
-正しいオプション数を選択しないと、検証エラーが表示されます。
+ユーザーが正しい数のオプションを選択しない場合、検証エラーが表示されます。
 
-![&#x200B; 検証エラーの例 &#x200B;](assets/min-max-selections.png)
+![検証エラーの例](assets/min-max-selections.png)

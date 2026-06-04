@@ -2,15 +2,21 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: API のリッチテキストフィールドストレージ
+title: APIでのリッチテキストフィールドストレージ
 description: プロジェクト、イシュー、タスクなどのオブジェクトにリッチテキストが含まれている場合は、Workfront API を通じてパラメーター値として保存されアクセスできます。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+TQID: https://experienceleague.adobe.com/lLZZugNI5odziqyz7uBMnkiVoOdGcT-jKb90j9TUG1Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: 174
 ht-degree: 95%
 
 ---
@@ -25,7 +31,7 @@ ht-degree: 95%
 
 `https://your-company.workfront.com/attask/api/v11.0/project?ID=your-project-ID&fields=parameterValues:*`
 
-このサンプルプロジェクトに、計算フィールド、段落テキスト、rich 1 の 3 つのカスタムフィールドを持つカスタムフォームが含まれているとすると、上記のリクエストは、次のような応答を返します。フィールド「rich 1」はリッチテキストパラメーターフィールドで、テキスト値は「**Hello** *World!*」です。
+このサンプルプロジェクトに、計算フィールド、段落テキスト、rich 1 の 3 つのカスタムフィールドを持つカスタムフォームが含まれているとすると、 上記のリクエストは、次のような応答を返します。フィールド「rich 1」はリッチテキストパラメーターフィールドで、テキスト値は「**Hello** *World!*」です。
 
 ```
 {

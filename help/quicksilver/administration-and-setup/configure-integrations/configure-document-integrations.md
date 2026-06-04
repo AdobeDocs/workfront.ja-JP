@@ -8,9 +8,15 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
+TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: 1111
 ht-degree: 84%
 
 ---
@@ -23,11 +29,11 @@ ht-degree: 84%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-[!DNL Adobe Workfront] 管理者は、ドキュメント統合を設定して、[!UICONTROL Workfront] でドキュメントを管理できます。また、[!UICONTROL Workfront] は、ドキュメントがドキュメントサービスアプリケーションにのみ保存され、[!UICONTROL Workfront] には保存されないように設定することもできます。詳しくは、[外部アプリケーションからドキュメントをリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)の[[!UICONTROL Workfront] のドキュメントを外部クラウドプロバイダーに更新しリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider)を参照してください。
+[!DNL Adobe Workfront] 管理者は、ドキュメント統合を設定して、[!UICONTROL Workfront] でドキュメントを管理できます。 また、[!UICONTROL Workfront] は、ドキュメントがドキュメントサービスアプリケーションにのみ保存され、[!UICONTROL Workfront] には保存されないように設定することもできます。 詳しくは、[外部アプリケーションからドキュメントをリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)の[[!UICONTROL Workfront] のドキュメントを外部クラウドプロバイダーに更新しリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider)を参照してください。
 
 >[!NOTE]
 >
->[!DNL Workfront Proof] と [!DNL Workfront] サーバーの間のオープン通信を許可するには、特定の IP アドレスを許可リストに追加することが必要になる場合があります。詳しくは、[ファイアウォールの許可リストの設定](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
+>[!DNL Workfront Proof] と [!DNL Workfront] サーバーの間のオープン通信を許可するには、特定の IP アドレスを許可リストに追加することが必要になる場合があります。 詳しくは、[ファイアウォールの許可リストの設定](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
 
 ## アクセス要件
 
@@ -45,7 +51,7 @@ ht-degree: 84%
    <td>Adobe Workfront ライセンス
    </td>
    <td>標準
-   <p>プラン</p>
+   <p>計画</p>
    </td>
   </tr>
    <tr>
@@ -80,7 +86,7 @@ ht-degree: 84%
 
 * [!DNL Microsoft SharePoint]
 
-  [!DNL SharePoint] との統合について詳しくは、[&#x200B; [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)を参照してください。
+  [!DNL SharePoint] との統合について詳しくは、[ [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)を参照してください。
 
 * サードパーティクラウドドキュメントプロバイダー：
 
@@ -112,7 +118,7 @@ ht-degree: 84%
 1. 有効にする統合を選択します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-[!DNL Workfront DAM] との統合を設定している場合は、ドキュメントにメタデータを含めることができるように [!DNL Workfront] を設定できます。メタデータのマッピングについて詳しくは、[メタデータマッピングの設定](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)を参照してください。
+[!DNL Workfront DAM] との統合を設定している場合は、ドキュメントにメタデータを含めることができるように [!DNL Workfront] を設定できます。 メタデータのマッピングについて詳しくは、[メタデータマッピングの設定](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)を参照してください。
 
 ## カスタムドキュメント統合の設定
 
@@ -122,7 +128,7 @@ ht-degree: 84%
 
 カスタムドキュメント統合により、[!DNL Workfront] ユーザーは、[!DNL Workfront] に対応するようになっているシステムであれば、ほぼどのシステムからでも [!DNL Workfront] にファイルをリンクすることができます。
 
-カスタム統合をユーザーが使用できるようにするには、まず統合を作成する必要があります。[!DNL Workfront] で使用する統合の作成方法について詳しくは、[ドキュメント web フック API](../../wf-api/doc-wbhks-api/docu-webhook-api.md) を参照してください。
+カスタム統合をユーザーが使用できるようにするには、まず統合を作成する必要があります。 [!DNL Workfront] で使用する統合の作成方法について詳しくは、[ドキュメント web フック API](../../wf-api/doc-wbhks-api/docu-webhook-api.md) を参照してください。
 
 カスタムドキュメント統合は、作成後、サイト上のユーザーが使用できるようにすることができます。
 
@@ -139,11 +145,11 @@ ht-degree: 84%
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td>カスタム統合の名前。Workfront 内で統合を使用する際に、ユーザーに表示される名前です。</td> 
+      <td>カスタム統合の名前。 Workfront 内で統合を使用する際に、ユーザーに表示される名前です。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Base API URL] </td> 
-      <td>API 呼び出し用のベース HTTP またはセキュア HTTP URL。例： <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
+      <td>API 呼び出し用のベース HTTP またはセキュア HTTP URL。 例： <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authentication Type]</td> 
@@ -164,7 +170,7 @@ ht-degree: 84%
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authentication URL]</td> 
-      <td>ユーザー認証に使用する完全な URL。[!DNL Workfront] は、OAuth プロビジョニングプロセスの一環として、ユーザーをこのアドレスに移動します。</td> 
+      <td>ユーザー認証に使用する完全な URL。 [!DNL Workfront] は、OAuth プロビジョニングプロセスの一環として、ユーザーをこのアドレスに移動します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Token Endpoint URL]</td> 
@@ -180,7 +186,7 @@ ht-degree: 84%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Parameters]</td> 
-      <td> <p>すべての API 呼び出しのクエリ文字列に追加するオプションの値を入力します。例えば、access_type=offline など。</p> <p>複数のリクエストパラメーターを追加するには、「<strong>+ リクエストパラメーターを追加</strong>」をクリックします。</p> </td> 
+      <td> <p>すべての API 呼び出しのクエリ文字列に追加するオプションの値を入力します。 例えば、access_type=offline など。</p> <p>複数のリクエストパラメーターを追加するには、「<strong>+ リクエストパラメーターを追加</strong>」をクリックします。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -207,12 +213,12 @@ ht-degree: 84%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>
 -->
 
-[!DNL Workfront] から [!DNL Workfront DAM] にドキュメントを送信する場合、そのドキュメントに関連する情報も送信することができます。ドキュメントに関する情報は、[!DNL Workfront DAM] にメタデータとしてマッピングされます。
+[!DNL Workfront] から [!DNL Workfront DAM] にドキュメントを送信する場合、そのドキュメントに関連する情報も送信することができます。 ドキュメントに関する情報は、[!DNL Workfront DAM] にメタデータとしてマッピングされます。
 
-情報は、[!DNL Workfront] から [!DNL Workfront DAM] への一方向でのみマッピングされ、ドキュメントが [!DNL Workfront DAM] にアップロードされたときにのみ転送されます。ドキュメントが既にアップロードされている場合は、その後 Workfront フィールドに変更を加えても、[!DNL Workfront DAM] のメタフィールドは更新されません。\
+情報は、[!DNL Workfront] から [!DNL Workfront DAM] への一方向でのみマッピングされ、ドキュメントが [!DNL Workfront DAM] にアップロードされたときにのみ転送されます。 ドキュメントが既にアップロードされている場合は、その後 Workfront フィールドに変更を加えても、[!DNL Workfront DAM] のメタフィールドは更新されません。\
 様々な [!DNL Workfront DAM] フィールドに同じ [!DNL Workfront] フィールドをマッピングできますが、複数の [!DNL Workfront] フィールドに同じ [!DNL Workfront DAM] フィールドを使用することはできません。
 
-1 つの [!DNL Workfront DAM] フィールドに書き出すように複数の [!DNL Workfront] フィールドを設定する必要がある場合は、まず [!DNL Workfront] に計算カスタムフィールドを作成して、オブジェクトの個々のカスタムフィールドをすべて表示します。次に、1 つの [!DNL Workfront DAM] フィールドに計算 [!DNL Workfront] フィールドをマッピングします。\
+1 つの [!DNL Workfront DAM] フィールドに書き出すように複数の [!DNL Workfront] フィールドを設定する必要がある場合は、まず [!DNL Workfront] に計算カスタムフィールドを作成して、オブジェクトの個々のカスタムフィールドをすべて表示します。 次に、1 つの [!DNL Workfront DAM] フィールドに計算 [!DNL Workfront] フィールドをマッピングします。\
 計算カスタムフィールドについて詳しくは、[計算フィールドをフォームに追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
 マッピングは、任意のユーザーが [!DNL Workfront] から [!UICONTROL Workfront] DAM にアップロードしたすべてのドキュメントに影響します。
@@ -253,7 +259,7 @@ ht-degree: 84%
 ### Google Driveとの統合
 
 * リンクされたフォルダーがWorkfrontに追加されると、そのフォルダー内のファイルは自動的に追加されなくなります。
-   * Google フォルダーをファイルなしでWorkfrontに追加し、個々のファイルをWorkfrontに追加できます。 これらのファイルは、WorkfrontのGoogle フォルダーに自動的に追加されます。
+   * Google フォルダーをファイルなしでWorkfrontに追加し、個々のファイルをWorkfrontに追加できます。これらのファイルは、WorkfrontのGoogle フォルダーに自動的に追加されます。
 または
    * Workfrontでドキュメントフォルダーを作成し、Google フォルダー内のすべてのファイルを選択してWorkfront フォルダーに追加できます。
 

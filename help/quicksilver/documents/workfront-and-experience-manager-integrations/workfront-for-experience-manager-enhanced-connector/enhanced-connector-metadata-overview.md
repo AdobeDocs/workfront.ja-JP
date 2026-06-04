@@ -3,24 +3,29 @@ content-type: overview
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-experience-manager-enhanced-connector
 title: Workfront for Experience Manager 拡張コネクターのメタデータの概要
-description: Workfront for Experience Manager 拡張コネクタでは、アイディエーションから配信に至るまでのメタデータを自動的に取得できます。アセットリポジトリ内の検索性を向上させて、コンテンツの速度を向上させます。プロジェクトのタイトル、参照番号、日付、またはその他の関連するメタデータプロパティを検索することで、特定の Workfront プロジェクトに関連するすべてのアセットを簡単に見つけることができます。
+description: Workfront for Experience Manager 拡張コネクタでは、アイディエーションから配信に至るまでのメタデータを自動的に取得できます。 アセットリポジトリ内の検索性を向上させて、コンテンツの速度を向上させます。 プロジェクトのタイトル、参照番号、日付、またはその他の関連するメタデータプロパティを検索することで、特定の Workfront プロジェクトに関連するすべてのアセットを簡単に見つけることができます。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b05e766-6b07-451a-9f43-7f1a980e1a9d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+TQID: https://experienceleague.adobe.com/IVhhrxU5f-M2mHGuCLkq4wxSqoI7qvKB3E3exfiU6xw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: 221
 ht-degree: 100%
 
 ---
 
 # Workfront for Experience Manager 拡張コネクターのメタデータの概要
 
-Workfront for Experience Manager 拡張コネクタでは、アイディエーションから配信に至るまでのメタデータを自動的に取得できます。アセットリポジトリ内の検索性を向上させて、コンテンツの速度を向上させます。プロジェクトのタイトル、参照番号、日付、またはその他の関連するメタデータプロパティを検索することで、特定の Workfront プロジェクトに関連するすべてのアセットを簡単に見つけることができます。
+Workfront for Experience Manager 拡張コネクタでは、アイディエーションから配信に至るまでのメタデータを自動的に取得できます。 アセットリポジトリ内の検索性を向上させて、コンテンツの速度を向上させます。 プロジェクトのタイトル、参照番号、日付、またはその他の関連するメタデータプロパティを検索することで、特定の Workfront プロジェクトに関連するすべてのアセットを簡単に見つけることができます。
 
 ## メタデータのベストプラクティス
 
-Workfront for Experience Manager 拡張コネクタは、すべてのカスタムフォームフィールドをマッピングできます。以下に、Workfront で取り込み、Experience Manager Assets に送信されるデジタルアセットに添付する一般的なメタデータフィールドのリストを示します。
+Workfront for Experience Manager 拡張コネクタは、すべてのカスタムフォームフィールドをマッピングできます。 以下に、Workfront で取り込み、Experience Manager Assets に送信されるデジタルアセットに添付する一般的なメタデータフィールドのリストを示します。
 
 * プロジェクト詳細
 

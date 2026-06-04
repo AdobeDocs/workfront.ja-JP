@@ -8,10 +8,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+TQID: https://experienceleague.adobe.com/faBqmsHF6tu9rS-mS0ucOS1-Pw4gKM5B8amHTXgHLZA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 91%
+source-wordcount: 532
+ht-degree: 92%
 
 ---
 
@@ -54,8 +59,8 @@ ht-degree: 91%
 
 Workfront は、システムにログインしているユーザーに関する次の情報を記録します。
 
-* **ログイン回数**：Workfront は 24 時間に 1 回、アプリケーションにログインするユーザーをカウントします。1 人のユーザーが異なるブラウザー、コンピューター、モバイルデバイスを複数回ログインした場合、Workfront は 1 日に発生したすべてのログインを 1 回のログインとしてカウントします。ログイン回数には、ユーザーが作成された日時で始まる情報が含まれます。
-* **最終ログイン日**：ユーザーがログインした最後の日付。ブラウザー、モバイルデバイス、その他のアプリケーションからのすべてのログイン日が、このフィールドに記録されます。
+* **ログイン回数**：Workfront は 24 時間に 1 回、アプリケーションにログインするユーザーをカウントします。 1 人のユーザーが異なるブラウザー、コンピューター、モバイルデバイスを複数回ログインした場合、Workfront は 1 日に発生したすべてのログインを 1 回のログインとしてカウントします。 ログイン回数には、ユーザーが作成された日時で始まる情報が含まれます。
+* **最終ログイン日**：ユーザーがログインした最後の日付。 ブラウザー、モバイルデバイス、その他のアプリケーションからのすべてのログイン日が、このフィールドに記録されます。
 
 次のいずれかの方法で Workfront にログインすると、Workfront へのログインとしてカウントされます。
 

@@ -1,5 +1,5 @@
 ---
-title: ドキュメント統合の無効化
+title: ドキュメント統合を無効にする
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
@@ -8,9 +8,14 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/3tfxxth82eJEjEmdVD3AJFxl6B1m3EVKMQP9Gy4LC24
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: 279
 ht-degree: 97%
 
 ---
@@ -19,7 +24,7 @@ ht-degree: 97%
 
 [!DNL Adobe] [!DNL Workfront] 管理者は、[!DNL Workfront] とサードパーティのドキュメントプロバイダーとの接続を無効にすることができます。
 
-[!DNL Workfront] とドキュメントプロバイダーの間の接続を無効にすると、ドキュメントへのリンクが [!DNL Workfront] で非表示になります。ユーザーはリンクされたドキュメントを表示できなくなり、[!DNL Workfront] リンクを使用してドキュメントに変更を加えることはできず、そのプロバイダーに他のドキュメントを追加することもできません。
+[!DNL Workfront] とドキュメントプロバイダーの間の接続を無効にすると、ドキュメントへのリンクが [!DNL Workfront] で非表示になります。 ユーザーはリンクされたドキュメントを表示できなくなり、[!DNL Workfront] リンクを使用してドキュメントに変更を加えることはできず、そのプロバイダーに他のドキュメントを追加することもできません。
 
 ## アクセス要件
 

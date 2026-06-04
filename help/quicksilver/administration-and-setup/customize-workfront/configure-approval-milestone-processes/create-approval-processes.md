@@ -8,11 +8,17 @@ author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
+TQID: https://experienceleague.adobe.com/OtDxOGVVcWVb8PK1Ef6EW7VhuOxN2WulMGrJao8hXOc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2231'
+source-wordcount: 2231
 ht-degree: 92%
 
 ---
@@ -116,7 +122,7 @@ For more detail about the information in this table, see [Access requirements in
 
    または
 
-   グループレベルの承認プロセスを作成する場合は、**グループ** ![&#x200B; グループアイコン &#x200B;](assets/groups-icon.png)をクリックし、グループの名前をクリックしてから、**承認**&#x200B;をクリックします。
+   グループレベルの承認プロセスを作成する場合は、**グループ** ![ グループアイコン ](assets/groups-icon.png)をクリックし、グループの名前をクリックしてから、**承認**&#x200B;をクリックします。
 
    <!--
    hidden for the new tab redesign - August 2023: 
@@ -204,7 +210,7 @@ For more detail about the information in this table, see [Access requirements in
        <li> <p>承認を役割に割り当て、「<b>承認者がプロジェクトチームに所属している必要はない（役割を含む承認プロセスの場合）</b>」が無効になっているが、承認時に一致する役割がプロジェクトチームに存在しない場合、承認はプロジェクト所有者に再割り当てされます。 承認設定について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">グローバル承認設定を指定</a>を参照してください。</p> </li> 
        </ul> 
        <ul> 
-       <li> <p>プロジェクト所有者に承認を割り当て、誰もプロジェクトの所有者として指定されていない場合、設定エリアの「顧客情報」セクションで示されているように、承認はメインの Workfront 管理者に再割り当てされます。 詳しくは、<a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">システムの基本情報の設定</a>を参照してください。  </p> </li> 
+       <li> <p>プロジェクト所有者に承認を割り当て、誰もプロジェクトの所有者として指定されていない場合、設定エリアの「顧客情報」セクションで示されているように、承認はメインの Workfront 管理者に再割り当てされます。 詳しくは、<a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">システムの基本情報を設定</a>を参照してください。  </p> </li> 
        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>このプロセスを繰り返して、複数の承認者をステージに追加できます。 1 つのステージには、ユーザー、チーム、および承認者としての担当業務の組み合わせを含めることができます。 ステージに追加できる承認者の数に制限はありません。</p> <p><b>重要</b></p> <p>担当業務を承認者として割り当てると、その担当業務に関連付けられ、プロジェクトチームにも属するすべてのユーザーが承認を決定できます。 </p> <p>チームを承認者として割り当てると、そのチーム内のすべてのユーザーが承認を決定できます。 </p> <p>プロジェクトチームについて詳しくは、<a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">プロジェクトチームの概要</a>を参照してください。 作業の承認について詳しくは、<a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">作業の承認</a>を参照してください。</p> </p> </td> 
      </tr> 
      <tr> 

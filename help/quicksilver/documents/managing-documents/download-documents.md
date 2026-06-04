@@ -6,18 +6,23 @@ description: ドキュメントは、Adobe Workfront から個別または一括
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/m2PJssYSK-ig8PgPS7o5ZyYuvcQJueGVzDtRA9uv6lU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 54%
+source-wordcount: 365
+ht-degree: 49%
 
 ---
 
 # ドキュメントのダウンロード
 
-ドキュメントは、Adobe Workfront から個別または一括でダウンロードできます。 ドキュメントは、Workfront のドキュメントを含むどのエリアからでもダウンロードできます。 
+Adobe Workfrontからドキュメントを個別または一括でダウンロードできます。ドキュメントは、Workfrontのドキュメントを含む任意の領域からダウンロードできます。 
 
 ## アクセス要件
 
@@ -62,9 +67,9 @@ ht-degree: 54%
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **選択したダウンロード** アイコン ![選択したダウンロード アイコン &#x200B;](assets/download-icon.png)をクリックします。
+1. **選択したダウンロード** アイコン ![選択したダウンロード アイコン ](assets/download-icon.png)をクリックします。
 
-![個別のドキュメントをダウンロード &#x200B;](assets/legacy-doc-download.png)
+![個別のドキュメントをダウンロード ](assets/legacy-doc-download.png)
 
 ### レガシードキュメント領域で複数のドキュメントを同時にダウンロードする
 
@@ -78,7 +83,7 @@ ht-degree: 54%
    >Box、Dropbox、Google Drive などから Workfront にリンクされたドキュメントを一括でダウンロードすることはできません。
 
 1. （オプション）ダウンロードするドキュメントを含むフォルダーをフォルダーのリストから選択します。
-1. 「選択した項目をダウンロード」アイコン ![選択した項目をダウンロード &#x200B;](assets/download-icon.png)をクリックします。
+1. 「選択した項目をダウンロード」アイコン ![選択した項目をダウンロード ](assets/download-icon.png)をクリックします。
 
    フォルダーは .zip ファイルとしてダウンロードされ、最大 4GB に制限されます。
 
@@ -89,4 +94,4 @@ ht-degree: 54%
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけたら、**ダウンロード**&#x200B;をクリックします。
 
-![&#x200B; ドキュメントをダウンロード &#x200B;](assets/download-new-doc.png)
+![ ドキュメントをダウンロード ](assets/download-new-doc.png)

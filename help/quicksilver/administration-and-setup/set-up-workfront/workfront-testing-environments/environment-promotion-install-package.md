@@ -9,9 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+TQID: https://experienceleague.adobe.com/L6JxhFGfj-LHxRCZuVTxcrMlAx2YAH6wN72A2otyps0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: 950
 ht-degree: 8%
 
 ---
@@ -73,7 +78,7 @@ ht-degree: 8%
 1. **ステータス**&#x200B;をクリックします。
 1. ドロップダウンメニューから目的のステータスを選択します。
 
-ステータスについて詳しくは、「Workfront環境間でのオブジェクトの移動の概要」の「[環境プロモーションステータス &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)」を参照してください。
+ステータスについて詳しくは、「Workfront環境間でのオブジェクトの移動の概要」の「[環境プロモーションステータス ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)」を参照してください。
 
 ## パッケージのインストール
 

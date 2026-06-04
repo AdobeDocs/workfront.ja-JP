@@ -9,10 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/q2dbABveAiCilDC3XnqjEEktnavdSx-soXD6HD3gf6U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 73%
+source-wordcount: 324
+ht-degree: 74%
 
 ---
 
@@ -26,20 +32,20 @@ ht-degree: 73%
 
 ![サンプルプロジェクトのステータス](assets/statuses-overview.png)
 
-ステータスを表示するには、プロジェクト、タスクまたはイシューに対する次のアクセス権と権限が必要です。
+ステータスを表示するには、プロジェクト、タスク、イシューに対する次のアクセス権と権限が必要です。
 
-* プロジェクト、タスク、および問題に対する、アクセス レベルでの表示以上のアクセス
-* オブジェクトに対する表示以上の権限
+* プロジェクト、タスク、イシューへのアクセスレベルでの表示または上位のアクセス
+* オブジェクトに対する表示権限またはそれ以上の権限
 
-ステータスを手動で変更するには、プロジェクト、タスクまたはイシューに対する次のアクセス権と権限が必要です。
+ステータスを手動で変更するには、プロジェクト、タスク、イシューに対する次のアクセス権と権限が必要です。
 
-* プロジェクト、タスク、問題へのアクセス レベルでアクセス権限を編集する
-* タスクまたは問題に対する投稿以上の権限
-* プロジェクトに対する権限の管理。
+* プロジェクト、タスク、イシューへのアクセスレベルでのアクセスの編集
+* タスクまたは問題に対する権限の貢献度を上げます
+* プロジェクトに対する権限を管理します。
 
-プロジェクト、タスクまたはイシューのステータスの変更は通常、手動で行います。ただし、システム内で発生する他の要因によっては、イシューのステータスが自動的に変更される場合があります。
+プロジェクト、タスクまたはイシューのステータスの変更は通常、手動で行います。 ただし、システム内で発生する他の要因によっては、イシューのステータスが自動的に変更される場合があります。
 
-Adobe Workfront には、9 つのプロジェクトのステータス、3 つのタスクスのステータスおよび 10 個のイシューのステータスがあらかじめ用意されています。これらについて詳しくは、次の記事を参照してください。
+Adobe Workfront には、9 つのプロジェクトのステータス、3 つのタスクスのステータスおよび 10 個のイシューのステータスがあらかじめ用意されています。 これらについて詳しくは、次の記事を参照してください。
 
 * [システムプロジェクトステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
 * [システムタスクステータスのリストにアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
@@ -47,8 +53,8 @@ Adobe Workfront には、9 つのプロジェクトのステータス、3 つの
 
 ## カスタムステータス
 
-Workfront 管理者は組織のニーズに合わせて、Workfront にあらかじめ用意されているデフォルトのステータスに加えて、カスタムのプロジェクト、タスクおよびイシューのステータスを追加できます。Workfront インスタンス内のすべてのユーザーが使用するシステムレベルのステータスや、特定のグループのみが使用するグループレベルのステータスを作成することができます。詳しくは、[ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
+Workfront 管理者は組織のニーズに合わせて、Workfront にあらかじめ用意されているデフォルトのステータスに加えて、カスタムのプロジェクト、タスクおよびイシューのステータスを追加できます。 Workfront インスタンス内のすべてのユーザーが使用するシステムレベルのステータスや、特定のグループのみが使用するグループレベルのステータスを作成することができます。 詳しくは、[ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
 
 ## グループステータス
 
-グループ管理者は、グループのニーズに合わせて、グループレベルのカスタムステータスを作成できます。詳しくは、[グループステータスの管理](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)を参照してください。
+グループ管理者は、グループのニーズに合わせて、グループレベルのカスタムステータスを作成できます。 詳しくは、[グループステータスの管理](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)を参照してください。

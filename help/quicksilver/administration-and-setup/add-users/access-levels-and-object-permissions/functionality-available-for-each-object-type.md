@@ -10,11 +10,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Q4zl3y3gXnQ-9-oO-JzaHFyN2NR0s8pdU0ND08f1oIM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: 1553
 ht-degree: 93%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->この記事では、従来のアクセスレベルについて説明します。現在のアクセスレベルについて詳しくは、[新しいアクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)を参照してください。
+>この記事では、従来のアクセスレベルについて説明します。 現在のアクセスレベルについて詳しくは、[新しいアクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)を参照してください。
 
 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
 
@@ -71,7 +77,7 @@ ht-degree: 93%
 
 
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 ## タスク
 
@@ -103,7 +109,7 @@ ht-degree: 93%
 
 {style="table-layout:auto"}
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 ## イシュー
 
@@ -131,7 +137,7 @@ ht-degree: 93%
 
 
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 ## ポートフォリオ
 
@@ -155,7 +161,7 @@ ht-degree: 93%
 
 
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 ## プログラム
 
@@ -179,11 +185,11 @@ ht-degree: 93%
 
 
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 ## レポート、ダッシュボード、カレンダー
 
-プランライセンスを持つユーザーは、レポートへのフルアクセス権を持つことができます。その他すべてのアクセスレベルでは、レポートに対して表示アクセス権があります。
+プランライセンスを持つユーザーは、レポートへのフルアクセス権を持つことができます。 その他すべてのアクセスレベルでは、レポートに対して表示アクセス権があります。
 
 | アクション | プランナー | 作業者 | レビュアー | リクエスト | 外部ユーザー |
 |---|---|---|---|---|---|
@@ -199,7 +205,7 @@ ht-degree: 93%
 
 {style="table-layout:auto"}
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 >[!NOTE]
 >
@@ -282,7 +288,7 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 ## ドキュメント
 
@@ -317,7 +323,7 @@ ht-degree: 93%
 
 {style="table-layout:auto"}
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 &#42;&#42;ドキュメントフォルダーに対してのみ使用でき、ドキュメントには使用できません。
 
@@ -398,7 +404,7 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 &#42;&#42;外部ユーザーは他のユーザーのみを検索できます。
 
@@ -473,7 +479,7 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 ## テンプレート
 
@@ -489,7 +495,7 @@ ht-degree: 93%
 
 {style="table-layout:auto"}
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 ## 財務データ
 
@@ -514,13 +520,13 @@ ht-degree: 93%
 
 {style="table-layout:auto"}
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 &#42;&#42;リソース管理への追加のアクセス権が必要です。
 
 ## リソース管理
 
-プランライセンスを持つユーザーのみが、[オブジェクトまたはエリアを選択] へのフルアクセス権を持つことができます。その他のライセンスタイプでは、Workfront のリソース管理に対するアクセスが制限されたり、アクセス権がなかったりします。
+プランライセンスを持つユーザーのみが、[オブジェクトまたはエリアを選択] へのフルアクセス権を持つことができます。 その他のライセンスタイプでは、Workfront のリソース管理に対するアクセスが制限されたり、アクセス権がなかったりします。
 
 | アクション | プランナー | 作業者 | レビュアー | 依頼者 | 外部ユーザー |
 |---|---|---|---|---|---|
@@ -535,11 +541,11 @@ ht-degree: 93%
 
 {style="table-layout:auto"}
 
-&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。 詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
-&#42;&#42;財務データへの追加のアクセス権と、プロジェクトの財政の権限が必要です。財務データへのアクセス権を持たないプランナーユーザーにリソース管理アクセス権を付与した場合、ユーザーはリソースプランナーで時間別配分を表示できますが、原価ビューに切り替えたり、ビジネスケースを表示することはできません。詳しくは、[財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)および[オブジェクトに対する財務権限の共有](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)を参照してください。
+&#42;&#42;財務データへの追加のアクセス権と、プロジェクトの財政の権限が必要です。 財務データへのアクセス権を持たないプランナーユーザーにリソース管理アクセス権を付与した場合、ユーザーはリソースプランナーで時間別配分を表示できますが、原価ビューに切り替えたり、ビジネスケースを表示することはできません。 詳しくは、[財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)および[オブジェクトに対する財務権限の共有](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)を参照してください。
 
-&#42;&#42;&#42;詳細設定で「割り当ての作成」が有効な状態で、オブジェクトに参加する権限が必要です。詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)記事内の[継承された権限とオブジェクトの階層について](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object)の節を参照してください。
+&#42;&#42;&#42;詳細設定で「割り当ての作成」が有効な状態で、オブジェクトに参加する権限が必要です。 詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)記事内の[継承された権限とオブジェクトの階層について](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object)の節を参照してください。
 
 ## シナリオプランナーのエリア
 
@@ -549,7 +555,7 @@ ht-degree: 93%
 | プランとイニシアチブに関する担当業務情報の追加または編集&#42; | ✓ | ✓ | ✓ |  |  |
 | プランとイニシアチブに関するコスト情報を追加または編集&#42; | ✓ | ✓ | ✓ |  |  |
 | プランとイニシアチブの削除 | ✓ | ✓ | ✓ |  |  |
-| メインメニューでのシナリオの表示![&#x200B; シナリオプランナーアイコン &#x200B;](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |  |
+| メインメニューでのシナリオの表示![ シナリオプランナーアイコン ](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |  |
 | ユーザーが作成したプランとイニシアチブの表示&#42; | ✓ | ✓ | ✓ |  |  |
 
 {style="table-layout:auto"}
@@ -558,7 +564,7 @@ ht-degree: 93%
 >
 >プランへのリンクが共有されている場合にのみ、別のユーザーが作成したプランを表示できます。
 
-&#42; ユーザーがプランまたはイニシアチブで財務データを表示するには、財務データへのアクセス権が必要です。詳しくは、[財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
+&#42; ユーザーがプランまたはイニシアチブで財務データを表示するには、財務データへのアクセス権が必要です。 詳しくは、[財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
 
 ## Workfront Goals のエリア
 

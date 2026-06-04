@@ -5,13 +5,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+TQID: https://experienceleague.adobe.com/jLoqncsE3CSAK27siU8Ro2EQdZkbJC-gs040vGxX-5E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 900
 ht-degree: 61%
 
 ---
-
 
 # ユーザーへのアクセスを許可
 
@@ -47,7 +51,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 
 ## ユーザーへのアクセスの設定
 
-他のユーザーに関してユーザーが表示および編集できる情報は、デフォルトのアクセスレベルまたは作成したカスタムアクセスレベルを使用して管理できます。デフォルトの標準、プラン、および作業ライセンスを持つユーザーは、他のユーザーの連絡先情報を表示できます。 次のユーザーは誰でも、他のユーザーを作成および編集できます。
+他のユーザーに関してユーザーが表示および編集できる情報は、デフォルトのアクセスレベルまたは作成したカスタムアクセスレベルを使用して管理できます。 デフォルトの標準、プラン、および作業ライセンスを持つユーザーは、他のユーザーの連絡先情報を表示できます。 次のユーザーは誰でも、他のユーザーを作成および編集できます。
 
 * Workfront 管理者。
 
@@ -55,18 +59,18 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 
 * この記事で説明されているように、デフォルトの標準またはプランのライセンスを持つユーザー。ユーザーにもアクセスできます。
 
-  自社またはプライマリ会社のユーザーのみの表示に制限されているユーザーは、表示できるユーザーのみを編集するアクセス権を持っています。詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+  自社またはプライマリ会社のユーザーのみの表示に制限されているユーザーは、表示できるユーザーのみを編集するアクセス権を持っています。 詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 * デフォルトの標準ライセンスまたはプランライセンスを持つユーザー。別のユーザーのマネージャーとしても指定されます。
 
-  自分のアクセスレベルのユーザーに対して編集アクセス権を付与されたユーザーは、直属の部下であるユーザーを管理できます。ユーザーの管理について詳しくは、[組織図を表示する](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)を参照してください。
+  自分のアクセスレベルのユーザーに対して編集アクセス権を付与されたユーザーは、直属の部下であるユーザーを管理できます。 ユーザーの管理について詳しくは、[組織図を表示する](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)を参照してください。
 
 * ユーザーを作成したデフォルトの標準またはプランのライセンスを持つユーザーは、作成したユーザーを非アクティブ化、削除、または編集できます。 新しいユーザーの作成について詳しくは、[ユーザーの追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
 ## カスタムのアクセスレベルを使用して、ユーザーを編集するユーザーのアクセス権を設定
 
 1. アクセスレベルの作成または編集を行います。詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
-1. 標準、プラン、または作業ライセンスを持つユーザーの機能を変更して、他のユーザーの情報を表示するには、![&#x200B; ユーザー](assets/gear-icon-settings.png)の右側にある&#x200B;**表示** ボタンの歯車アイコン **をクリックし、**&#x200B;設定を微調整&#x200B;**ボックスで付与する表示オプションを選択します。**
+1. 標準、プラン、または作業ライセンスを持つユーザーの機能を変更して、他のユーザーの情報を表示するには、**ユーザー**&#x200B;の右側にある&#x200B;**表示** ボタンの歯車アイコン ![をクリックし、**設定を微調整** ボックスで付与する表示オプションを選択します。](assets/gear-icon-settings.png)
 
    <table style="table-layout:auto"> 
     <col> 
@@ -91,9 +95,9 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
     </tbody> 
    </table>
 
-   ![&#x200B; ユーザー設定の表示を微調整](assets/fine-tune-view-users.png)
+   ![ ユーザー設定の表示を微調整](assets/fine-tune-view-users.png)
 
-1. 標準またはプランのライセンスを持つユーザーの権限を変更して他のユーザーを編集するには、![&#x200B; ユーザー](assets/gear-icon-settings.png)の右側にある&#x200B;**編集** ボタンの歯車アイコン **歯車アイコン**&#x200B;をクリックし、**設定を微調整** ボックスで付与する編集オプションを選択します。
+1. 標準またはプランのライセンスを持つユーザーの権限を変更して他のユーザーを編集するには、**ユーザー**&#x200B;の右側にある&#x200B;**編集** ボタンの歯車アイコン ![歯車アイコン ](assets/gear-icon-settings.png)をクリックし、**設定を微調整** ボックスで付与する編集オプションを選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,12 +106,12 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
      <tr> 
       <td role="rowheader"><strong>作成</strong> </td> 
       <td> <p>ユーザーがユーザーを作成できるようにします。<br>このオプションは、デフォルトで有効になっています。</p> 
-     <p><b>メモ</b>：組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。<!--Check this October 2026--></p>
+     <p><b>メモ</b>：組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。 詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。<!--Check this October 2026--></p>
         </td>  
      </tr> 
      <tr> 
       <td role="rowheader"><strong>削除</strong> </td> 
-      <td> <p> ユーザーが自分で作成したユーザーを削除できるようにします。<br>このオプションは、デフォルトで有効になっています。</p> <p><b>メモ</b>：組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。<!--Check this October 2026--></p> </td> 
+      <td> <p> ユーザーが自分で作成したユーザーを削除できるようにします。<br>このオプションは、デフォルトで有効になっています。</p> <p><b>メモ</b>：組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。 詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。<!--Check this October 2026--></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>請求率の編集</strong> </td> 
@@ -156,7 +160,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 
    >[!TIP]
    >
-   >グループ管理者に、管理するグループのすべてのメンバーへのアクセス権を付与しない場合は、上記の「ユーザー管理者」オプションの両方を無効にします。グループ管理者は、引き続き、Workfront に追加したグループメンバーや、Workfront でレポートするグループメンバーにアクセスできます。
+   >グループ管理者に、管理するグループのすべてのメンバーへのアクセス権を付与しない場合は、上記の「ユーザー管理者」オプションの両方を無効にします。 グループ管理者は、引き続き、Workfront に追加したグループメンバーや、Workfront でレポートするグループメンバーにアクセスできます。
 
 1. （オプション）作業中のアクセスレベルで他のオブジェクトや他の領域のアクセス権を設定するには、[Adobe Workfront に対するアクセス権の設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)のリストに記載されている、[タスクへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)や[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)などの記事を参照してください。
 1. 完了したら、「**保存**」をクリックします。

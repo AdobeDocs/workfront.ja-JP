@@ -8,9 +8,14 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: 6c7dd2504ce20274f8b80a306fc1075ec5761da6
+TQID: https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: 550
 ht-degree: 91%
 
 ---
@@ -19,13 +24,13 @@ ht-degree: 91%
 
 グループ管理者は、自分が管理するグループのステータスが、システムレベルまたは階層内の上位グループで必須ステータスまたはロックステータスとして設定されていない場合、そのステータスを削除できます。
 
-管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。Workfront 管理者（すべてのグループ）も同様です。
+管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。 Workfront 管理者（すべてのグループ）も同様です。
 
 >[!NOTE]
 >
 >以下のものは削除できません。
 >
->* ビルトインのステータスは、計画、現在、および完了です。名前の更新、色の編集、ロックまたはロック解除は可能ですが、削除することはできません。
+>* ビルトインのステータスは、計画、現在、および完了です。 名前の更新、色の編集、ロックまたはロック解除は可能ですが、削除することはできません。
 >* グループに関連付けられた 1 つ以上のオブジェクトまたはそのサブグループの 1 つに対して、承認待ち状態のステータス。
 
 ## アクセス要件
@@ -69,7 +74,7 @@ ht-degree: 91%
 
 1. 表示されるボックスで、ステータスを選択して、削除するステータスを使用していたオブジェクト（プロジェクト、タスク、イシュー、承認プロセス）の置き換えステータスを指定します。
 
-   削除しようとしているステータスに等しいステータスのみを使用できます。例えば、現在と同等のステータスを削除する場合は、現在と同等のステータスのみが表示されます。
+   削除しようとしているステータスに等しいステータスのみを使用できます。 例えば、現在と同等のステータスを削除する場合は、現在と同等のステータスのみが表示されます。
 
    また、表示されるステータスは、削除するステータスのロックが解除されているかロックされているかによって異なります。
 
@@ -92,4 +97,4 @@ ht-degree: 91%
 
 ## グループが削除された場合
 
-グループが削除され、別のグループに置き換えられると、削除されたグループが持っていた固有のステータスが、置き換えグループのステータスに追加されます。詳しくは、[移動または削除されたグループのカスタムステータス](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)を参照してください。
+グループが削除され、別のグループに置き換えられると、削除されたグループが持っていた固有のステータスが、置き換えグループのステータスに追加されます。 詳しくは、[移動または削除されたグループのカスタムステータス](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)を参照してください。

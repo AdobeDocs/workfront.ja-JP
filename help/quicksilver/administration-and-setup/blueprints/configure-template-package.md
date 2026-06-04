@@ -8,12 +8,18 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/VMSiCJzYS7RU85BuD7t19pWwf0dKYBK2vFwzatTnpkg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c549503a-6440-4802-9525-ceb73a00feff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1841'
-ht-degree: 96%
+source-wordcount: 1791
+ht-degree: 98%
 
 ---
 
@@ -134,9 +140,9 @@ ht-degree: 96%
 
    >[!INFO]
    >
-   >**例：**&#x200B;このブループリントの新規イシューの環境設定では、4 つのキューのトピックが提供されます。 ユーザーは、イシューを作成する際に、これらのトピックの 1 つを選択します。 （トピックグループは1つしか存在しないため、自動的に適用され、ユーザーは選択する必要はありません）。 ユーザーが問題を完了して送信すると、ルーティングルールによって、割り当てられたジョブロールまたはチームが決定されます。
-   >![新しいイシューの環境設定の例](assets/Blueprints_IssuePrefsDetails.png)
-   >新しい問題のトピックを![&#x200B; キュー](assets/blueprints-newissueqtopicsexample-350x204.png)
+   >**例：**このブループリントの新しいイシュー環境設定には、4つのキュートピックが用意されています。ユーザーは、イシューを作成する際に、これらのトピックのいずれかを選択します。（トピックグループは1つしか存在しないため、自動的に適用され、ユーザーは選択する必要はありません）。 ユーザーが問題を完了して送信すると、ルーティングルールによって、割り当てられたジョブロールまたはチームが決定されます。
+   >![新規イシューの環境設定の例](assets/Blueprints_IssuePrefsDetails.png)
+   >![新規イシューのキューのトピック](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![担当業務にルーティングされたイシュー](assets/Blueprints_ProjectShowsIssueAssignment.png)
 
    >[!TIP]

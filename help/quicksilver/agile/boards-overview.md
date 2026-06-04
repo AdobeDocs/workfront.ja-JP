@@ -7,11 +7,14 @@ description: Adobe Workfront ボードは、列やカードを含む共有ボー
 author: Courtney
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
+TQID: https://experienceleague.adobe.com/OP2xElD-kYsKzRb4IdjM6TNH-JfE0KoUwlhw9zm14c4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: 224
 ht-degree: 75%
 
 ---
@@ -30,12 +33,12 @@ ht-degree: 75%
 * チームの作業を 1 か所で整理および管理する
 * カンバンボードの取り込み列など、アジャイル計画ツールを活用する
 
-基本的なボード機能の使用方法について詳しくは、[ボードの基本を学ぶ：記事インデックス](../agile/get-started-with-boards/get-started-with-boards.md)を参照してください。 ボードのアジャイル計画ツールについて詳しくは、[&#x200B; アジャイル計画ツールの概要](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)を参照してください。
+基本的なボード機能の使用方法について詳しくは、[ボードの基本を学ぶ：記事インデックス](../agile/get-started-with-boards/get-started-with-boards.md)を参照してください。 ボードのアジャイル計画ツールについて詳しくは、[ アジャイル計画ツールの概要](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)を参照してください。
 
-プロジェクトでのボードの使用について詳しくは、[&#x200B; ボードビューでのアジャイルプロジェクトの管理](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
+プロジェクトでのボードの使用について詳しくは、[ ボードビューでのアジャイルプロジェクトの管理](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
 
-モバイルアプリでボードにアクセスすることもできます。 詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL &#x200B; ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
+モバイルアプリでボードにアクセスすることもできます。 詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL  ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
 
 ボードの機能に関するビデオチュートリアルについて詳しくは、[[!DNL Adobe Workfront] [!UICONTROL ボード]のビデオデモ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)を参照してください。
 
-[!DNL Workfront]の追加のアジャイルツールについて詳しくは、[&#x200B; アジャイルの概要](../agile/agile-overview.md)を参照してください。
+[!DNL Workfront]の追加のアジャイルツールについて詳しくは、[ アジャイルの概要](../agile/agile-overview.md)を参照してください。

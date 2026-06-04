@@ -9,10 +9,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+TQID: https://experienceleague.adobe.com/f8iQHTrVCbtK-tIFlCmojM-FQfV0JLCMa6hVfWCEzXY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 19%
+source-wordcount: 265
+ht-degree: 20%
 
 ---
 
@@ -36,7 +41,7 @@ ht-degree: 19%
    1. 左側のパネルで、「**システム**」をクリックします。
    1. Workfront プランを表示するには、「**ライセンス**」を選択します。
 プランがページの右上隅付近に表示されます。
-      ![&#x200B; プランの検索](assets/locate-plan.png)
+      ![ プランの検索](assets/locate-plan.png)
 
   または
 * Workfrontの担当者にお問い合わせください。
@@ -45,7 +50,7 @@ ht-degree: 19%
 
 ### 回答
 
-はい。例えば、SandoxからProductionに、またはProductionからSandboxに昇格できます。
+はい。 例えば、SandoxからProductionに、またはProductionからSandboxに昇格できます。
 
 ## 共有はサポートされていますか？
 

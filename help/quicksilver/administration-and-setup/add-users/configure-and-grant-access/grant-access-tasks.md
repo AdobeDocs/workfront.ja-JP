@@ -1,5 +1,5 @@
 ---
-title: タスクへのアクセス付与
+title: タスクへのアクセス権の付与
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
@@ -8,10 +8,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aafa8886-82e2-41c4-8fcb-cbb9df2d55dd
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+TQID: https://experienceleague.adobe.com/cePyozzK-9WXvzuonk7Z1e0vDA81Gb04cC5MPMQHVmI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 95%
+source-wordcount: 452
+ht-degree: 86%
 
 ---
 
@@ -54,18 +59,18 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
 1. **ビュー**&#x200B;の歯車アイコン ![](assets/gear-icon-settings.png) またはタスクの右側の「**編集**」ボタンをクリックして、**設定の微調整**&#x200B;下で付与する機能を選択します。
 
-   ![&#x200B; タスク設定の微調整 &#x200B;](assets/fine-tune-tasks.png)
+   ![ タスク設定の微調整](assets/fine-tune-tasks.png)
 
    >[!NOTE]
    >
-   >特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランクのオブジェクトに対するユーザーのアクセスには影響しません。例えば、ユーザーのアクセスレベルでタスクの削除を制限できますが、タスクよりも下位にあるイシューを削除することは制限されません。オブジェクトの階層について詳しくは、[Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事にある[オブジェクトの相互依存性と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)の節を参照してください。
+   >特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランクのオブジェクトに対するユーザーのアクセスには影響しません。 例えば、ユーザーがアクセスレベルのタスクを削除することを制限できますが、これにより、タスクよりもランクの低い問題の削除を制限することはできません。オブジェクトの階層について詳しくは、[Adobe Workfrontでのオブジェクトの理解](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の「[ オブジェクトの相互依存関係と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)」の節を参照してください。
 
 1. （オプション）上位のオブジェクトからのタスクに継承された権限を制限するには、「**追加制限の設定**」をクリックし、「**プロジェクト、タスク、イシューなどからドキュメントへのアクセス権限を継承しない**」を選択します。
 
 1. （オプション）作業中のアクセスレベルの他のオブジェクトやエリアのアクセス設定を指定するには、[Adobe Workfront に対するアクセス権の設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)に記載される記事のいずれか（[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)など）に進みます。
 1. 完了したら、「**保存**」をクリックします。
 
-   作成したアクセスレベルは、ユーザーに割り当てることができます。詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+   作成したアクセスレベルは、ユーザーに割り当てることができます。 詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 ## ライセンスタイプ別のタスクへのアクセス
 

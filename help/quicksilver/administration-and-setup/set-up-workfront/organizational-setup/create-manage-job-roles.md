@@ -8,10 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+TQID: https://experienceleague.adobe.com/WbKK8Dt8LSyGVCHLzHXHsM-3DORpJXgzKzqf7Jos3Hw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 28%
+source-wordcount: 1220
+ht-degree: 26%
 
 ---
 
@@ -29,7 +35,7 @@ ht-degree: 28%
 
 >[!TIP]
 >
->担当業務は、リソース管理に不可欠な要素です。リソース計画ツールを使用するには、担当業務に関連付けられたコストと請求レートが必要です。詳しくは、[リソース管理の概要](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)を参照してください。
+>担当業務は、リソース管理に不可欠な要素です。 リソース計画ツールを使用するには、担当業務に関連付けられたコストと請求レートが必要です。 詳しくは、[リソース管理の概要](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)を参照してください。
 
 ## アクセス要件
 
@@ -77,11 +83,11 @@ ht-degree: 28%
      >担当業務の名前には、最大255文字を含めることができます。 ただし、Workfrontの特定の地域では、長い名前が切り捨てられる場合があります。
 
    * **説明**：役割の説明を入力します。この説明は、その役割に固有の内容を示します。
-   * **はアクティブです**: ロールをアクティブにし、Workfront内のあらゆる場所で利用できるようにしたい場合は、**はい**&#x200B;を選択します。 役割を非アクティブにし、ユーザーや作業項目などに割り当てることができないようにする場合は、**No**&#x200B;を選択します。
+   * **はアクティブです**: ロールをアクティブにし、Workfront内のあらゆる場所で利用できるようにしたい場合は、**はい**&#x200B;を選択します。役割を非アクティブにし、ユーザーや作業項目などに割り当てることができないようにする場合は、**No**&#x200B;を選択します。
 
      担当業務の非アクティブ化について詳しくは、[担当業務の非アクティブ化](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)を参照してください。
 
-1. 「**[!UICONTROL 担当業務を作成]**」をクリックします。担当業務をタスク、イシュー、承認に割り当てたり、レイアウトテンプレートや他のオブジェクトをタスクと共有したりできるようになります。[!DNL Workfront] でのすべての担当業務の使用に関する情報について詳しくは、[担当業務の概要](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)を参照してください。担当業務の削除について詳しくは、[担当業務の削除](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)を参照してください。
+1. 「**[!UICONTROL 担当業務を作成]**」をクリックします。 担当業務をタスク、イシュー、承認に割り当てたり、レイアウトテンプレートや他のオブジェクトをタスクと共有したりできるようになります。 [!DNL Workfront] でのすべての担当業務の使用に関する情報について詳しくは、[担当業務の概要](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)を参照してください。 担当業務の削除について詳しくは、[担当業務の削除](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)を参照してください。
 
 ## 担当業務へのレートと属性の追加
 
@@ -89,7 +95,7 @@ ht-degree: 28%
 
 レート属性は、ジョブロールやユーザーなど、レートが存在するWorkfrontの領域でサポートされます。 担当業務に属性が適用されると、その割り当ては自動的に正しい率に解決されます。
 
-詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
 
 {{step-1-to-setup}}
 
@@ -106,7 +112,7 @@ ht-degree: 28%
 
    または
 
-   既存のレートを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックして更新します。
+   既存のレートを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックして更新します。
 
    >[!NOTE]
    >
@@ -116,7 +122,7 @@ ht-degree: 28%
 
    >[!NOTE]
    >
-   >これらの属性は個別に定義され、収益とコストの計算に影響を与える可能性があります。 詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+   >これらの属性は個別に定義され、収益とコストの計算に影響を与える可能性があります。 詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
 
 1. レートの&#x200B;**通貨**&#x200B;を選択します。 Workfront管理者は、設定領域に基本通貨を追加します。 選択範囲を別の使用可能な通貨に変更したり、有効な日付範囲で通貨を変更したりできます。
 
@@ -126,15 +132,15 @@ ht-degree: 28%
 
    Workfrontでの基本通貨の設定について詳しくは、[為替レートの設定](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)を参照してください。
 
-   プロジェクトの通貨の変更について詳しくは、[&#x200B; プロジェクトの通貨の変更](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)を参照してください。
+   プロジェクトの通貨の変更について詳しくは、[ プロジェクトの通貨の変更](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md)を参照してください。
 
 1. （条件付き）請求率については、この担当業務の&#x200B;**請求率**&#x200B;を入力してください。
 
-   これは、担当業務の 1 時間あたりの請求レートです。この値は、役割に関連するタスクの予定収益と実収益、最終的にはプロジェクトの予定収益と実収益を計算します。選択した通貨を使用してレートを入力します。
+   これは、担当業務の1時間当たりの請求率です。 この値は、役割に関連するタスクの予定収益と実収益、最終的にはプロジェクトの予定収益と実収益を計算します。 選択した通貨を使用してレートを入力します。
 
    属性を使用する場合、属性と担当業務が組み合わされて一意のレートが定義されます。 例えば、エージェンシーAのニューヨークでのDesignerの役割は、エージェンシーBのパリでのDesignerの役割とは別の料金を設定できます。
 
-   有効日の請求レートについては、「**レートを追加**」をクリックします。期間の請求/時間の値を入力し、必要に応じて開始日と終了日を割り当てます。 最初の請求レートには開始日が設定されず、最後の請求レートには終了日が設定されません。
+   有効日の請求レートについては、「**レートを追加**」をクリックします。 期間の請求/時間の値を入力し、必要に応じて開始日と終了日を割り当てます。 最初の請求レートには開始日が設定されず、最後の請求レートには終了日が設定されません。
 
    <!-- Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, an end date of April 30 is added to the first billing rate so that no gaps exist.-->
 
@@ -148,15 +154,15 @@ ht-degree: 28%
 
 1. （条件付き）原価率の場合は、この担当業務の&#x200B;**原価率**&#x200B;を入力します。
 
-   これは、担当業務の 1 時間あたりのコスト率です。この値は、役割に関連するタスクとイシューの予定コストと実際のコスト、最終的にはプロジェクトの予定コストと実際のコストを計算します。選択した通貨を使用してレートを入力します。
+   これは、担当業務の1時間当たりのコスト率です。 この値は、役割に関連するタスクとイシューの予定コストと実際のコスト、最終的にはプロジェクトの予定コストと実際のコストを計算します。 選択した通貨を使用してレートを入力します。
 
    属性を使用する場合、属性と担当業務が組み合わされて一意のレートが定義されます。 例えば、エージェンシーAのニューヨークでのDesignerの役割は、エージェンシーBのパリでのDesignerの役割とは別の料金を設定できます。
 
-   有効日のコスト率については、「**レートを追加**」をクリックします。期間のコスト/時間の値を入力し、必要に応じて開始日と終了日を割り当てます。 最初のコスト率には開始日が設定されず、最後のコスト率には終了日が設定されません。
+   有効日のコスト率については、「**レートを追加**」をクリックします。 期間のコスト/時間の値を入力し、必要に応じて開始日と終了日を割り当てます。 最初のコスト率には開始日が設定されず、最後のコスト率には終了日が設定されません。
 
-   一部の日付は自動的に追加されます。例えば、最初の原価率に終了日がなく、開始日が5月1日の2番目の原価率を追加した場合、最初の原価率に4月30日の終了日が追加され、ギャップが存在しません。
+   一部の日付は自動的に追加されます。 例えば、最初の原価率に終了日がなく、開始日が5月1日の2番目の原価率を追加した場合、最初の原価率に4月30日の終了日が追加され、ギャップが存在しません。
 
-   Workfrontでのコストの計算方法について詳しくは、[&#x200B; コストの追跡](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)を参照してください。
+   Workfrontでのコストの計算方法について詳しくは、[ コストの追跡](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)を参照してください。
 
    >[!TIP]
    >

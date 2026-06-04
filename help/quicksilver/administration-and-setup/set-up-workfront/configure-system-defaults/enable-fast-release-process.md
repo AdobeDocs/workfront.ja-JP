@@ -2,29 +2,34 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: 組織の迅速リリースを有効または無効にする
+title: 組織のファースト リリースを有効または無効にする
 description: 新しい Workfront 機能を毎月受け取るか、四半期ごとに受け取るかを選択できます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+TQID: https://experienceleague.adobe.com/gJ8o3kijaGF2W2aIaal4mv9iWXRfGMJ1-kkG3XLSB18
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 94%
+source-wordcount: 406
+ht-degree: 97%
 
 ---
 
 # 組織の高速リリースを有効化または無効化
 
-Adobe Workfront には、新機能と更新をリリースするためのモデルが 2 つあります。新機能を四半期ごとに受け取るか、より早いリリーススケジュールで受け取るかを選択できます。
+Adobe Workfront には、新機能と更新をリリースするためのモデルが 2 つあります。 新機能を四半期ごとに受け取るか、より早いリリーススケジュールで受け取るかを選択できます。
 
-どちらのモデルでも、同じ機能と更新が提供されます。タイミングが異なるだけです。
+どちらのモデルでも、同じ機能と更新が提供されます。 タイミングが異なるだけです。
 
 例：
 
-* X 社が迅速リリースプロセスを有効にしました。8月に機能 A、9月に機能 B、10月に機能 C がそれぞれ提供されます。
-* Y 社が迅速リリースプロセスを無効にしました。10月の四半期リリースで機能 A、B および C が提供されます。
+* X 社が迅速リリースプロセスを有効にしました。 8月に機能 A、9月に機能 B、10月に機能 C がそれぞれ提供されます。
+* Y 社が迅速リリースプロセスを無効にしました。 10月の四半期リリースで機能 A、B および C が提供されます。
 
 >[!NOTE]
 >

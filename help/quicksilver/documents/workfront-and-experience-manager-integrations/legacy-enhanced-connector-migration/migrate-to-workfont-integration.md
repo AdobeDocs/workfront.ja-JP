@@ -6,9 +6,14 @@ description: このページでは、Workfront for Experience Cloud の拡張コ
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: af14f408-df39-473c-9e18-bb88022c96ed
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+TQID: https://experienceleague.adobe.com/0pAHfS7cDqv1tV4TBdx9WqvJA1-zySGsPHVXI8EG7Hc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: 497
 ht-degree: 100%
 
 ---
@@ -23,20 +28,20 @@ ht-degree: 100%
 
 ## Workfront インスタンスを Admin Console に移動する
 
-Workfront と Adobe Experience Manager Assetsas a Cloud Service の間で新しいネイティブ統合を使用するお客様は、Workfront 環境が Adobe Admin Console に結び付けられていることを確認する必要があります。既存の Workfront 環境の場合、接続済みの Adobe Admin Console に環境を移行する必要が生じる可能性があります。この移行と関連するチェックリストについて詳しくは、[組織の Adobe Admin Console 導入の準備](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)を参照してください。
+Workfront と Adobe Experience Manager Assetsas a Cloud Service の間で新しいネイティブ統合を使用するお客様は、Workfront 環境が Adobe Admin Console に結び付けられていることを確認する必要があります。 既存の Workfront 環境の場合、接続済みの Adobe Admin Console に環境を移行する必要が生じる可能性があります。 この移行と関連するチェックリストについて詳しくは、[組織の Adobe Admin Console 導入の準備](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)を参照してください。
 
-アドビは、この移行を支援する必要があります。サポートをリクエストするには、次のいずれかを行います。
+アドビは、この移行を支援する必要があります。 サポートをリクエストするには、次のいずれかを行います。
 
 * Workfront Hub にアクセスできる場合は、[Workfront の Adobe Admin Console への移行](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=)へリクエストを送信します。
 * Workfront Hub へのアクセスできない場合は、[Workfront から Adobe Admin Console への早期移行リクエストキュー](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi)へリクエストを送信します。
 
 ## 新しい Workfront を Adobe Experience Manager Assets as a Cloud Service 統合のために設定する
 
-Workfront 管理者は、Workfront 環境を Adobe Admin Console に移行した後、新しいネイティブ統合を設定できます。設定のヘルプについては、[Experience Manager Assets as a Cloud Service 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)を参照してください。
+Workfront 管理者は、Workfront 環境を Adobe Admin Console に移行した後、新しいネイティブ統合を設定できます。 設定のヘルプについては、[Experience Manager Assets as a Cloud Service 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)を参照してください。
 
 ## 既存のアセットを Adobe Experience Manager Assets as a Cloud Service 統合のために Workfront に移動する
 
-環境を設定したら、リンクされた既存のアセットとフォルダーを Adobe Experience Manager に移動できます。これはオプションの手順ですが、従来のコネクタまたは拡張コネクタを使用して以前にリンクしたフォルダーとアセットに、コネクタをアンインストールした後も引き続きアクセスできるようにします。
+環境を設定したら、リンクされた既存のアセットとフォルダーを Adobe Experience Manager に移動できます。 これはオプションの手順ですが、従来のコネクタまたは拡張コネクタを使用して以前にリンクしたフォルダーとアセットに、コネクタをアンインストールした後も引き続きアクセスできるようにします。
 
 アセットの移動について詳しくは、[リンクされたフォルダーとドキュメントの移行](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)を参照してください。
 
@@ -46,7 +51,7 @@ Workfront 管理者は、Workfront 環境を Adobe Admin Console に移行した
 
 ## 従来のコネクタまたは拡張コネクタのアンインストール
 
-最後に、従来のコネクタまたは拡張コネクタをアンインストールする必要があります。ネイティブ統合は、いずれかのコネクタと併せて実行することを意図していません。
+最後に、従来のコネクタまたは拡張コネクタをアンインストールする必要があります。 ネイティブ統合は、いずれかのコネクタと併せて実行することを意図していません。
 
 アンインストールについて詳しくは、以下を参照してください。
 

@@ -2,16 +2,22 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: タイムシートおよび時間設定の構成
+title: タイムシートと時間の環境設定
 description: ' [!DNL Adobe Workfront]  管理者は、 [!DNL Workfront]  でタイムシートと時間の環境設定を指定して、タイムシートに事前入力できる項目とユーザーが時間を記録できる項目を定義できます。'
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/qMIf5ZqLEhhUKcsoKe8dB0bT08K-aDKzvhI-eJm6-DU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 94%
+source-wordcount: 1418
+ht-degree: 95%
 
 ---
 
@@ -29,7 +35,7 @@ ht-degree: 94%
 >
 >* タイムシートの時間枠内でログに記録した項目
 >* タイムシートに固定済みの項目
->* 検索し、タイムシートに手動で追加した項目。手動で追加した項目はデフォルトで固定されます。
+>* 検索し、タイムシートに手動で追加した項目。 手動で追加した項目はデフォルトで固定されます。
 >
 >詳しくは、[ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md)と[タイムシートの概要](/help/quicksilver/timesheets/timesheets/timesheets-overview.md)を参照してください。
 
@@ -44,7 +50,7 @@ ht-degree: 94%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!DNL Adobe Workfront] package</td> 
+   <td>[!DNL Adobe Workfront] パッケージ</td> 
    <td><p>任意</p></td> 
   </tr> 
   <tr> 
@@ -73,9 +79,9 @@ ht-degree: 94%
 
 1. （オプション）「**システムのタイムシートおよび時間設定**」検索ボックスにグループの名前を入力し、リストに表示されたら選択します。
 
-   ![&#x200B; 「グループを検索」ボックス &#x200B;](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![ グループボックスを検索](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
-   タイムシートと時間の環境設定ページは、選択したグループの環境設定で更新されます。グループレベルの環境設定を変更するには、システムレベルの環境設定のロックを解除する必要があります。詳細については、この記事の[グループのタイムシートと時間の環境設定のロックを解除](#unlock-timesheet-and-hour-preferences-for-groups)の節を参照してください。
+   タイムシートと時間の環境設定ページは、選択したグループの環境設定で更新されます。 グループレベルの環境設定を変更するには、システムレベルの環境設定のロックを解除する必要があります。 詳細については、この記事の[グループのタイムシートと時間の環境設定のロックを解除](#unlock-timesheet-and-hour-preferences-for-groups)の節を参照してください。
 
 1. 「**[!UICONTROL 一般的な環境設定]**」セクションで、以下のいずれかのオプションを設定します。
 
@@ -90,7 +96,7 @@ ht-degree: 94%
         <li>時間の記録にアクセスできるプロジェクト、タスク、イシュー</li> 
         <li>一般的な時間としてのタイムシート</li> 
        </ul> <p>これは、ユーザーがオフィスを離れる予定があり、事前にその時間を記録したい場合に便利です。</p> <p><b>メモ</b>：</p> 
-       <p>終了もしくはキャンセルされたタスクやイシューに関する時間をユーザーが記録するのを防ぐことはできません。可能なのは、完了もしくは停止したプロジェクトに関する時間をユーザーに記録させないようにすることだけです。タスクおよびイシューのリストでフィルターを使用して、完了またはキャンセルした項目をユーザーに表示しないようにすることをお勧めします。</p> </td> 
+       <p>終了もしくはキャンセルされたタスクやイシューに関する時間をユーザーが記録するのを防ぐことはできません。 可能なのは、完了もしくは停止したプロジェクトに関する時間をユーザーに記録させないようにすることだけです。 タスクおよびイシューのリストでフィルターを使用して、完了またはキャンセルした項目をユーザーに表示しないようにすることをお勧めします。</p> </td> 
      </tr>
 
    <tr> 
@@ -103,7 +109,7 @@ ht-degree: 94%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Restrict timesheet editing to owners and administrators]</td> 
-      <td> <p>編集を、タイムシート所有者と [!DNL Workfront] 管理者に制限します。このオプションを無効にすると、タイムシートは以下のユーザーでも編集できます。</p> 
+      <td> <p>編集を、タイムシート所有者と [!DNL Workfront] 管理者に制限します。 このオプションを無効にすると、タイムシートは以下のユーザーでも編集できます。</p> 
        <ul> 
         <li> <p>タイムシートおよびアクセスレベルの時間に管理アクセス権を持つユーザー</p> </li> 
         <li> <p>タイムシートで時間の編集が可能が有効になっている場合のタイムシートの承認者</p> </li> 
@@ -112,7 +118,7 @@ ht-degree: 94%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Restrict hour editing to owners and administrators]</td> 
-      <td>編集を、時間を入力したユーザーと [!DNL Workfront] 管理者に制限します。この設定は、プロジェクトの [!UICONTROL Hours] タブまたは時間レポートに適用されます。</td> 
+      <td>編集を、時間を入力したユーザーと [!DNL Workfront] 管理者に制限します。 この設定は、プロジェクトの [!UICONTROL Hours] タブまたは時間レポートに適用されます。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -122,11 +128,11 @@ ht-degree: 94%
    <table style="table-layout:auto">
     <tr>
         <td>[!UICONTROL Directly on projects]</td>
-        <td>ユーザーがプロジェクトの時間を記録できます（[!UICONTROL Updates] タブとタイムシートの両方）。ユーザーがプロジェクトレベルで時間を記録しない場合、このオプションはオフのままにする必要があります。</td>
+        <td>ユーザーがプロジェクトの時間を記録できます（[!UICONTROL Updates] タブとタイムシートの両方）。 ユーザーがプロジェクトレベルで時間を記録しない場合、このオプションはオフのままにする必要があります。</td>
     </tr>
     <tr>
         <td>[!UICONTROL On projects that are complete]</td>
-        <td>完了と表示されたプロジェクトに時間を記録できます。このオプションを無効化すると、ユーザーは [!UICONTROL Complete] ステータスのプロジェクトに完了した作業時間を記録できなくなります。</td>
+        <td>完了と表示されたプロジェクトに時間を記録できます。 このオプションを無効化すると、ユーザーは [!UICONTROL Complete] ステータスのプロジェクトに完了した作業時間を記録できなくなります。</td>
     </tr>
     <tr>
         <td>[!UICONTROL On projects that are dead]</td>
@@ -148,7 +154,7 @@ ht-degree: 94%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Tasks and issues that have been completed]</td> 
-      <td>複数のリソースが通常 1 つのタスクに割り当てられる場合は、この設定をお勧めします。つまり、あるリソースがタスクに対する時間を記録し、完了とマークした場合でも、タスクに割り当てられた他のリソースは、タイムシートでタスクやイシューを見つけて、時間を記録できます。</td> 
+      <td>複数のリソースが通常 1 つのタスクに割り当てられる場合は、この設定をお勧めします。 つまり、あるリソースがタスクに対する時間を記録し、完了とマークした場合でも、タスクに割り当てられた他のリソースは、タイムシートでタスクやイシューを見つけて、時間を記録できます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Tasks and issues that have Planned Dates in timesheet's date range]</td> 
@@ -190,7 +196,7 @@ ht-degree: 94%
 
 ## グループのタイムシートおよび時間環境設定のロック解除
 
-組織内のグループでは、独自のワークフローに合わせてタイムシートや時間設定を異なる設定にする必要が生じる場合があります。組織全体のすべてのグループの環境設定のロックを解除すると、各グループで独自に設定できるようになります。
+組織内のグループでは、独自のワークフローに合わせてタイムシートや時間設定を異なる設定にする必要が生じる場合があります。 組織全体のすべてのグループの環境設定のロックを解除すると、各グループで独自に設定できるようになります。
 
 環境設定のロックが解除されてグループ管理者が変更を加えると、グループがホームグループである場合は、タイムシートの所有者に影響します。
 
@@ -198,7 +204,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->[!DNL Workfront] 管理者がシステムレベルで環境設定のロックを解除したら、任意のグループ管理者はその設定に変更を加えてロックし、当該グループおよびその下のサブグループの全員が同じ設定を使用するように指定できます。これは、[!DNL Workfront] 管理者がシステム内のすべてのユーザーの環境設定を指定してロックする必要がある機能と同じです。詳しくは、[グループのタイムシートと時間環境設定をロックまたはロック解除](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)を参照してください。
+>[!DNL Workfront] 管理者がシステムレベルで環境設定のロックを解除したら、任意のグループ管理者はその設定に変更を加えてロックし、当該グループおよびその下のサブグループの全員が同じ設定を使用するように指定できます。 これは、[!DNL Workfront] 管理者がシステム内のすべてのユーザーの環境設定を指定してロックする必要がある機能と同じです。 詳しくは、[グループのタイムシートと時間環境設定をロックまたはロック解除](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)を参照してください。
 
 プロジェクトの環境設定をロック解除して、グループが設定できるようにするには、次の手順を実行します。
 
@@ -208,13 +214,13 @@ ht-degree: 94%
 
 1. 次のいずれかの操作を行います。
 
-   * グループ管理者がグループの環境設定を設定できるようにする場合は、「**ロック解除**」切り替え ![&#x200B; ロック解除 &#x200B;](assets/unlock-toggle-button.png) 切り替えをクリックして、ロックを解除します。
-   * すべてのグループで環境設定を使用する場合は、ロックされた切替スイッチ ![&#x200B; ロックされた環境設定の切替スイッチ &#x200B;](assets/locked-preference-toggle.png) デフォルト）であることを確認します。
+   * グループ管理者が自分のグループの環境設定を設定できるようにするには、「**ロック解除**」トグル「![ ロック解除](assets/unlock-toggle-button.png)」をクリックしてロックを解除します。
+   * すべてのグループで環境設定を使用する場合は、トグルがロックされていることを確認します![ ロックされた環境設定トグル ](assets/locked-preference-toggle.png) （これはデフォルトです）。
 
      >[!IMPORTANT]
      >
      >ロックされた環境設定を決める際、すべてのニーズに対応できるよう、システム全体のグループの管理者やユーザーとコミュニケーションを取ることをお勧めします。
      >
-     >ロックすると、その設定がシステム内のすべてのグループに継承されます。また、環境設定のロックが一定期間解除されている場合、設定はグループ管理者が指定した設定と置き換えられます。
+     >ロックすると、その設定がシステム内のすべてのグループに継承されます。 また、環境設定のロックが一定期間解除されている場合、設定はグループ管理者が指定した設定と置き換えられます。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。

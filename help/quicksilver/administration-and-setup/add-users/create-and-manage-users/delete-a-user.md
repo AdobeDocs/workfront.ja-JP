@@ -8,9 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+TQID: https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: 835
 ht-degree: 80%
 
 ---
@@ -37,7 +42,7 @@ ht-degree: 80%
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -91,7 +96,7 @@ ht-degree: 80%
      >[!NOTE]
      >
      >ユーザーをディアクティベートし、そのユーザーに関連付けられているレポートやダッシュボードを表示できなくなった場合は、「**このレポートを次のアクセス権で実行：**」フィールドを更新する必要がある場合があります。\
-     >詳しくは、[&#x200B; アクティベート解除されたユーザーが所有するレポートにアクセスできない理由を参照してください。](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [&#x200B; レポートに関するFAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)のセクション。
+     >詳しくは、[ アクティベート解除されたユーザーが所有するレポートにアクセスできない理由を参照してください。](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [ レポートに関するFAQ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)のセクション。
 
    * ドキュメント
    * アップデート
@@ -139,7 +144,7 @@ ht-degree: 80%
 
 {{step-1-to-users}}
 
-1. 削除するユーザーを少なくとも1つ選択し、その他メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**削除**&#x200B;をクリックします。
+1. 削除するユーザーを少なくとも1つ選択し、その他メニュー![詳細アイコン ](assets/more-icon.png)をクリックしてから、**削除**&#x200B;をクリックします。
 1. 表示されるボックスで、「**削除**」をクリックして削除を確定します。
 
    ユーザーを削除するプロセスはバックグラウンドプロセスとして実行されるので、ユーザーが削除されているときも Workfront を引き続き使用できます。

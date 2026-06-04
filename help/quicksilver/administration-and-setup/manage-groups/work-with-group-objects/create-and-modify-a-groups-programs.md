@@ -2,16 +2,21 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: グループのプログラムを作成、変更、および表示する
+title: グループのプログラムの作成、変更、表示
 description: グループエリアで管理しているグループを表示しているときは、そのグループのプログラムを表示および操作できます。
 author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51111523-8fb7-4379-995e-1834cac51872
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/hS1QEFPQBZHx2wXKDV4ZO3qXyUDXX22xCGiGWA7Kr7s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 79%
+source-wordcount: 355
+ht-degree: 83%
 
 ---
 
@@ -19,7 +24,7 @@ ht-degree: 79%
 
 グループエリアで管理しているグループを表示しているときは、そのグループのプログラムを表示および操作できます。
 
-管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。Workfront 管理者（すべてのグループ）も同様です。
+管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。 Workfront 管理者（すべてのグループ）も同様です。
 
 ## アクセス要件
 
@@ -40,11 +45,11 @@ ht-degree: 79%
   </tr>
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
+   <td>グループのグループ管理者またはシステム管理者でなければなりません。</td>
   </tr>
   <tr> 
    <td>オブジェクト権限</td>
-   <td> <p>プログラムは、グループまたはそのサブグループに関連付ける必要があります。</p> <p>また、プログラムを作成したか、自分と共有していたために、プログラムを表示する権限が必要です。</p></td> 
+   <td> <p>プログラムは、グループまたはそのサブグループのいずれかに関連付けられている必要があります。</p> <p>また、プログラムを作成したか、共有されたために、プログラムを表示するための権限が必要です。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +62,7 @@ ht-degree: 79%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、**グループ** ![ グループ ](assets/groups-icon.png)をクリックします。
 
 1. プログラムを作成または変更するグループの名前をクリックします。
 1. 左パネルで「**プログラム**」をクリックして、表示するアクセス権のあるグループ（およびその中のサブグループ）に関連付けられているプログラムを一覧表示します。
