@@ -3,15 +3,25 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: ビュー：列のタスク後継のリストの追加
-description: タスクビューに列を追加して、後続タスクのリストを表示できます。後続タスクの列には、後続タスクの番号と名前が含まれます。
+description: タスクビューに列を追加して、後続タスクのリストを表示できます。 後続タスクの列には、後続タスクの番号と名前が含まれます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/4fHIzHGFKODGd4UpJAANsFoI-FpzOptq8qyIp0IFgZ0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: 235
 ht-degree: 70%
 
 ---
@@ -20,7 +30,7 @@ ht-degree: 70%
 
 <!--Audited: 11/2024-->
 
-タスクビューに列を追加して、後続タスクのリストを表示できます。**後続タスク**&#x200B;の列には、後続の番号と名前が含まれます。
+タスクビューに列を追加して、後続タスクのリストを表示できます。 **後続タスク**&#x200B;の列には、後続の番号と名前が含まれます。
 
 ![task_view_with_a_list_of_successors_.png](assets/task-view-with-a-list-of-successors--350x118.png)
 

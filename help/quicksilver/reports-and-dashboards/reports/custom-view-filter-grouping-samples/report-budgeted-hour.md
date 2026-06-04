@@ -7,12 +7,22 @@ description: レポート：予算計上時間数
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/pNgl5pELeORB8eiEJLKNKIAOY3hf-rOtrzlTWHmTM5M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 72%
+source-wordcount: 659
+ht-degree: 71%
 
 ---
 
@@ -24,11 +34,11 @@ ht-degree: 72%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
 -->
 
-リソースプランナーへのアクセス権がない他のユーザーと予算計上時間数の情報を共有したい場合は、予算計上時間数のレポートを作成することで共有できます。そのレポートを他のユーザーと共有できます。
+リソースプランナーへのアクセス権がない他のユーザーと予算計上時間数の情報を共有したい場合は、予算計上時間数のレポートを作成することで共有できます。 そのレポートを他のユーザーと共有できます。
 
 >[!IMPORTANT]
 >
->予算計上時間数は、通常、Adobe Workfront データベースで 1 時間ごとに更新されます（まれに、最大 3 時間かかる場合があります）。レポートを更新しても、そのレポート内の時間数の情報は必ずしも更新されるわけではありません。前回のアップデート以降の経過時間は、それぞれの予算計上時間数のレポートの右上隅に表示されます。レポートを更新すると、前回のアップデートから 1 時間以上経過した場合にのみ、レポート内の情報がアップデートされます。
+>予算計上時間数は、通常、Adobe Workfront データベースで 1 時間ごとに更新されます（まれに、最大 3 時間かかる場合があります）。 レポートを更新しても、そのレポート内の時間数の情報は必ずしも更新されるわけではありません。 前回のアップデート以降の経過時間は、それぞれの予算計上時間数のレポートの右上隅に表示されます。 レポートを更新すると、前回のアップデートから 1 時間以上経過した場合にのみ、レポート内の情報がアップデートされます。
 >
 >![予算計上時間レポート時間同期の警告](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
@@ -82,7 +92,7 @@ ht-degree: 72%
 
 1. 「**完了**」をクリックします。
 1. （オプション）「**列を追加**」をクリックして、列を追加します。
-1. （オプション）レポートを読みやすくするために、そのレポートにグループ化を追加することをお勧めします。以下のグループ化をお勧めします。
+1. （オプション）レポートを読みやすくするために、そのレポートにグループ化を追加することをお勧めします。 以下のグループ化をお勧めします。
 
    「**グループ化**」タブをクリックし、次の操作のいずれかを行います。
 
@@ -115,15 +125,15 @@ ht-degree: 72%
    <td>予算計上時間数に関連付けられたユーザーの名前です。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">配分日</td> 
-   <td> <p>配分日です。時間数を予算計上する週の最初の日（日曜日）です。</p> <p>ヒント：  <p>週が 2 か月にまたがる場合、レポートには 2 つの行が作成されます。1 行目は週の最初の日（最初の月の日曜日）に対応し、2 行目は 2 か月目の最初の日（任意の曜日）に対応します。</p> <p>例えば、あるユーザーに対して 6月30日（日曜日）～ 7月6日（土曜日）（PT）の週に 8 時間の予算を計上した場合、2 つの行には 6月30日と 7月1日の配分日が表示されます。</p> </p> </td> 
+   <td role="rowheader">割り当て： 日付</td> 
+   <td> <p>配分日です。 時間数を予算計上する週の最初の日（日曜日）です。</p> <p>ヒント：  <p>週が 2 か月にまたがる場合、レポートには 2 つの行が作成されます。1 行目は週の最初の日（最初の月の日曜日）に対応し、2 行目は 2 か月目の最初の日（任意の曜日）に対応します。</p> <p>例えば、あるユーザーに対して 6月30日（日曜日）～ 7月6日（土曜日）（PT）の週に 8 時間の予算を計上した場合、2 つの行には 6月30日と 7月1日の配分日が表示されます。</p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">予算計上時間数</td> 
+   <td role="rowheader">バッド。 時間</td> 
    <td>リソースプランナーのユーザーに割り当てられた予算計上時間数です。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">予定予算計上時間数</td> 
+   <td role="rowheader">予定 バッド。 時間</td> 
    <td>これは、リソースプランナーで担当業務やプロジェクトに割り当てられている予算計上時間数です。</td> 
   </tr> 
  </tbody> 

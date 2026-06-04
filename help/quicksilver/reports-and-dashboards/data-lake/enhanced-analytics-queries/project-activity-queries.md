@@ -2,41 +2,48 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: プロジェクトアクティビティクエリ
-description: Analytics クエリの強化機能
+title: プロジェクト活動のクエリ
+description: 拡張分析クエリ
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7155160-4537-4919-bebf-72056b181bb6
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/rrgq-KAzkoN7rxIA-enWUgH7bl0xe39PBt4VQzbr4PQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 3%
+source-wordcount: 178
+ht-degree: 13%
 
 ---
 
-# プロジェクトアクティビティクエリ
+# プロジェクト活動のクエリ
 
-この記事のクエリを使用して、Enhanced Analytics と同様のデータビジュアライゼーションを作成できます。
+この記事のクエリを使用して、Enhanced Analyticsのクエリと同様のデータビジュアライゼーションを作成できます。
 
 >[!IMPORTANT]
 >
->クエリは、Enhanced Analytics で表示される結果と同様の結果を生成しますが、完全には一致しない場合があります。
+>クエリは、拡張分析で表示されるクエリと同様の結果を生成しますが、正確に一致しない場合があります。
 
 
 ## 前提条件
 
 開始する前に、
 
-1. Business Intelligence（BI）ツールとの接続を確立します。
-   1. [Snowflakeのリーダーアカウントまたは接続を作成する](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+1. Business Intelligence（BI）ツールとの連携を構築する：
+   1. [Snowflake のリーダーアカウントまたは接続の作成](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
    1. [Workfront Data Connect への接続の確立](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 
 接続を確立したら、この記事のクエリを使用してデータを抽出および視覚化できます。
 
-## プロジェクトユーザーのログインイベント
+## ユーザーのログインイベントのプロジェクト
 
-特定の日にログインした、プロジェクトに割り当てられた担当者の数を表示します。
+特定の日にログインしたプロジェクトに割り当てられたユーザーの数を表示します。
 
 ```
 WITH userlogins as ( 
@@ -63,7 +70,7 @@ FROM assignments_daily_history ads 
 GROUP BY tds.projectid, ads.calendardate
 ```
 
-### プロジェクト・ユーザーのログイン・イベント：ドリルダウン
+### ユーザーのログインイベントのプロジェクト：ドリルダウン
 
 ```
 WITH userlogins as ( 
@@ -94,7 +101,7 @@ group by tds.projectid, ul.userid, ads.calendardate
 
 ## プロジェクトユーザーのタスクステータス変更イベント
 
-特定の日にプロジェクトのタスクのステータスを変更したユーザーの数を表示します。
+特定の日にプロジェクトのタスクのステータスを変更した人の数を表示します。
 
 ```
 WITH task_status_changes as (  
@@ -124,7 +131,7 @@ FROM assignments_daily_history ads 
 GROUP BY tds.projectid, ads.calendardate
 ```
 
-### プロジェクト・ユーザーのタスク・ステータス変更イベント：ドリルダウン
+### プロジェクトユーザーのタスクステータス変更イベント：ドリルダウン
 
 ```
 WITH task_status_changes as (  
@@ -159,7 +166,7 @@ GROUP BY tds.projectid, tsc.lastupdatedbyid, ads.calendardate
 
 ## プロジェクト ユーザーのタスク完了イベント
 
-特定の日にプロジェクトのタスクを完了したユーザーの数を表示します。
+特定の日にプロジェクトのタスクを完了した人の数を表示します。
 
 ```
 WITH task_status_changes as (  
@@ -189,7 +196,7 @@ FROM assignments_daily_history ads 
 GROUP BY tds.projectid, ads.calendardate
 ```
 
-### プロジェクト・ユーザーのタスク完了イベント：ドリルダウン
+### プロジェクト ユーザーのタスク完了イベント：ドリルダウン
 
 ```
 WITH task_status_changes as (  

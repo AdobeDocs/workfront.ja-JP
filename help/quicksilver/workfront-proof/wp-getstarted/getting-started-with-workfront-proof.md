@@ -3,16 +3,23 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: 「 [!DNL Workfront Proof] の基本を学ぶ：記事インデックス」
+title: ' [!DNL Workfront Proof]を使い始める：記事インデックス'
 description: Workfront Proof の使用を開始する方法について説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 71fe6ed9-62f8-4c08-8883-6c70aa9f7678
-source-git-commit: 6255181469b517fa4e0c487ca372c08b540abadd
+TQID: https://experienceleague.adobe.com/ap3XA7VixkQ--gSya12bpHDbn3gDUvPmVkWuCflidnY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 100%
+source-wordcount: 51
+ht-degree: 90%
 
 ---
 
@@ -22,11 +29,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 このセクションには、次のサブセクションが含まれます。
 
 * [ワークフローの例](../../workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
-* [ [!DNL Workfront Proof] の個人設定](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
-* [ [!DNL Workfront Proof] のシステム情報](../../workfront-proof/wp-getstarted/system-information/system-information.md)
+* [&#x200B; [!DNL Workfront Proof] の個人設定](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
+* [&#x200B; [!DNL Workfront Proof] のシステム情報](../../workfront-proof/wp-getstarted/system-information/system-information.md)
 * [[!DNL Workfront Proof] - よくある質問](../../workfront-proof/wp-getstarted/faqs/faqs.md)

@@ -3,15 +3,25 @@ content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：列の幅を永続的に編集します
-description: 余白をドラッグ＆ドロップして、目的の幅に合わせて一時的に列の幅を変更できます。詳しくは、列の幅と順序を変更を参照してください。
+description: 余白をドラッグ＆ドロップして、目的の幅に合わせて一時的に列の幅を変更できます。 詳しくは、列の幅と順序を変更を参照してください。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/g0fmhhkBwDicIRES60mRxh4ZzRrVOflnNV4yRQm4uxY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 381
 ht-degree: 91%
 
 ---
@@ -20,7 +30,7 @@ ht-degree: 91%
 
 <!-- Audited: 11/2024 -->
 
-余白をドラッグ＆ドロップして、目的の幅に合わせて一時的に列の幅を変更できます。詳しくは、[列の幅と順序を変更](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)を参照してください。
+余白をドラッグ＆ドロップして、目的の幅に合わせて一時的に列の幅を変更できます。 詳しくは、[列の幅と順序を変更](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)を参照してください。
 
 ビューの列の幅を恒久的に変更するには、ビューの編集時に列でテキストモードを使用する必要があります。
 
@@ -61,7 +71,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->列の幅を完全に変更した後で、[列の幅と順序を変更](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)の記事の[幅と順序を一時的に変更](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily)の節で説明されているように、列の幅を手動で変更すると、列の幅は手動で変更したサイズに従って保持されます。この場合、以下の手順に従って更新された列の幅は上書きされます。キャッシュをクリアするか、別のブラウザーからログインすると、次の手順で定義した幅に従って列を表示できます。
+>列の幅を完全に変更した後で、[列の幅と順序を変更](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)の記事の[幅と順序を一時的に変更](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily)の節で説明されているように、列の幅を手動で変更すると、列の幅は手動で変更したサイズに従って保持されます。 この場合、以下の手順に従って更新された列の幅は上書きされます。 キャッシュをクリアするか、別のブラウザーからログインすると、次の手順で定義した幅に従って列を表示できます。
 >
 >テキストモードインターフェイスを使用する際の列の幅のカスタマイズについて詳しくは、[Adobe Workfront の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 

@@ -6,12 +6,22 @@ description: ダッシュボードを使用しなくなった場合は、Adobe W
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/IEZux-GOBDi7Xi-9qmzX6rseckG2CSbikEKSfyLFl3I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 92%
+source-wordcount: 271
+ht-degree: 83%
 
 ---
 
@@ -69,12 +79,12 @@ ht-degree: 92%
 
    ![&#x200B; ダッシュボードを削除](assets/unshimmed-delete-dashboard.png)
 
-1. ダッシュボードの削除を確定するには、「**はい、削除します**」をクリックします。
-ダッシュボードが Workfront から削除されます。
+1. ダッシュボードを削除することを確認するには、**はい、削除をクリックします。**
+ダッシュボードがWorkfrontから削除されます。
 
 ## ダッシュボードエリアからのダッシュボードの削除 {#delete-a-dashboard-from-the-dashboards-area}
 
-複数のダッシュボードを削除する場合は、ダッシュボードエリアからダッシュボードを削除できます。これは、外部ページを含むダッシュボードを削除する唯一の方法でもあります。
+複数のダッシュボードを削除する場合は、ダッシュボードエリアからダッシュボードを削除できます。 これは、外部ページを含むダッシュボードを削除する唯一の方法でもあります。
 
 複数のダッシュボードを削除するには、次の操作を実行します。
 
@@ -83,5 +93,5 @@ ht-degree: 92%
 
    ![&#x200B; ダッシュボードを削除](assets/unshimmed-delete-dashboard-list.png)
 
-1. ダッシュボードの削除を確定するには、「**はい、削除します**」をクリックします。
-ダッシュボードが Workfront から削除されます。
+1. ダッシュボードを削除することを確認するには、**はい、削除をクリックします。**
+ダッシュボードがWorkfrontから削除されます。

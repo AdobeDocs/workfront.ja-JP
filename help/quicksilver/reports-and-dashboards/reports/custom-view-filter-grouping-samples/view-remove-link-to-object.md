@@ -3,15 +3,25 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：列内のオブジェクトへのリンクの削除
-description: ビューに表示する一部のオブジェクトは、デフォルトでは、オブジェクトの「詳細」ページにリンクされます。例えば、プロジェクト名を表示する列はプロジェクトへのリンクで、ユーザー名を表示する列はユーザーのプロファイルページへのリンクです。
+description: ビューに表示する一部のオブジェクトは、デフォルトでは、オブジェクトの「詳細」ページにリンクされます。 例えば、プロジェクト名を表示する列はプロジェクトへのリンクで、ユーザー名を表示する列はユーザーのプロファイルページへのリンクです。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/J-FHP3ySrleMgoRDrh5xzapQfqjtwraEAwX8xwvKTuk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: 372
 ht-degree: 76%
 
 ---
@@ -20,7 +30,7 @@ ht-degree: 76%
 
 <!--Audited: 11/2024-->
 
-ビューに表示する一部のオブジェクトは、デフォルトでは、オブジェクトの「詳細」ページにリンクされます。例えば、プロジェクト名を表示する列はプロジェクトへのリンクで、ユーザー名を表示する列はユーザーのプロファイルページへのリンクです。
+ビューに表示する一部のオブジェクトは、デフォルトでは、オブジェクトの「詳細」ページにリンクされます。 例えば、プロジェクト名を表示する列はプロジェクトへのリンクで、ユーザー名を表示する列はユーザーのプロファイルページへのリンクです。
 
 すべてのビューに表示される列のテキストモードを使用して、このリンクを削除できます。
 
@@ -92,7 +102,7 @@ ht-degree: 76%
    >次のように調整して、他のオブジェクトにも同様のコードを使用できます。
    >
    >* コードの`valuefield`行を`valueexpression`に置き換え、等号の後に同じ名前を中括弧で囲みます。
-   >* 列の元のテキストから `link.` で始まる行をすべて削除します。例えば、次の行をすべて削除します。
+   >* 列の元のテキストから `link.` で始まる行をすべて削除します。 例えば、次の行をすべて削除します。
    >
    >  ```
    >  link.linkproperty.0.name=ID

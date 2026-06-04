@@ -1,30 +1,42 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.3 ベータ最終版
-description: このページでは、2018.3 ベータ版最終リリースのプレビュー環境で利用可能な直近のすべての変更について説明します。この機能は、2018年10月10日（PT）にプレビュー環境で使用できるようになります。2018年11月に、実稼動環境で利用可能になる予定です。
+title: 2018.3 Beta 最終版
+description: このページでは、2018.3 ベータ版最終リリースのプレビュー環境で利用可能な直近のすべての変更について説明します。 この機能は、2018年10月10日（PT）にプレビュー環境で使用できるようになります。 2018年11月に、本番環境で利用可能になる予定です。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 862
+ht-degree: 100%
 
 ---
 
-# 2018.3 ベータ最終版
+# 2018.3 Beta 最終版
 
-このページでは、2018.3 ベータ版最終リリースのプレビュー環境で利用可能な直近のすべての変更について説明します。この機能は、2018年10月10日（PT）にプレビュー環境で使用できるようになります。2018年11月に、実稼動環境で利用可能になる予定です。
+このページでは、2018.3 ベータ版最終リリースのプレビュー環境で利用可能な直近のすべての変更について説明します。 この機能は、2018年10月10日（PT）にプレビュー環境で使用できるようになります。 2018年11月に、本番環境で利用可能になる予定です。
 
 >[!NOTE]
 >
->このページで説明する機能は、実稼動環境で使用可能になる前に変更される場合があります。
+> このページで説明する機能は、本番環境で使用可能になる前に変更される場合があります。
 
 2018.3 で行われたすべての変更のリストについては、[2018.3 リリースアクティビティの概要](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)を参照してください。
 
-2018.3 ベータ最終版リリースには、以下の機能強化が含まれています。
+2018.3 Beta 最終版リリースには、以下の機能強化が含まれています。
 
 * [ホームカレンダーと Outlook カレンダーの双方向同期](#two-way-sync-between-home-calendar-and-outlook-calendar)
 * [ホームにおける新しいタスクの追加に関する更新](#updates-for-adding-new-tasks-in-home)
@@ -84,7 +96,7 @@ Workfront Professional プラン以上を持つすべてのお客様は、この
 
 >[!NOTE]
 >
->次のビデオで概要を説明する統合の一部のエリアを変更しました。Workfront for Microsoft Teams の最新情報について詳しくは、[[!DNL Adobe Workfront for Microsoft Teams]: 記事インデックス](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)のセクションを参照してください。
+> 次のビデオで概要を説明する統合の一部のエリアを変更しました。 Workfront for Microsoft Teams の最新情報について詳しくは、[[!DNL Adobe Workfront for Microsoft Teams]: 記事インデックス](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)のセクションを参照してください。
 
 ## Adobe Creative Cloud 用 Workfront の統合を更新 {#updated-workfront-for-adobe-creative-cloud-integration}
 
@@ -106,7 +118,7 @@ Workfront Professional プラン以上を持つすべてのお客様は、この
 
 * 初めてのユーザーエクスペリエンス
 
-  ユーザーが最初に Workfront モバイルアプリにログインすると、アプリの機能に関する一連のヒントが示されます。このリリースでは、これは iOS デバイスでのみ利用可能になります。
+  ユーザーが最初に Workfront モバイルアプリにログインすると、アプリの機能に関する一連のヒントが示されます。 このリリースでは、これは iOS デバイスでのみ利用可能になります。
 
 * iOS モバイルアプリのプロジェクト、タスク、ホーム、マイワークページから簡単にタスクを作成
 
@@ -118,7 +130,7 @@ Workfront Professional プラン以上を持つすべてのお客様は、この
 
    * 検索
    * 通知にアクセスする
-   * 最近アクセスしたプロジェクトにアクセスする
+   * 最近アクセスしたプロジェクトにアクセスする 
    * 最近アクセスしたタスクまたはイシューにアクセスする
 
 * 新しいプッシュ通知とプッシュ通知からのアクションの紹介
