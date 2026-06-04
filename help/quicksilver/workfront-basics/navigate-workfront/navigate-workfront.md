@@ -7,10 +7,15 @@ feature: Get Started with Workfront
 author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
+TQID: https://experienceleague.adobe.com/NdEAmkWrFDjyyP1XQ9mTwR9WRKvTKF3wMONn7Zynu1U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 91%
+source-wordcount: 121
+ht-degree: 90%
 
 ---
 

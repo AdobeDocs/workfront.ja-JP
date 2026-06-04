@@ -6,10 +6,22 @@ description: 写真ドキュメントのプリセットをプルーフとして 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+TQID: https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 83%
+source-wordcount: 625
+ht-degree: 78%
 
 ---
 
@@ -120,8 +132,8 @@ ht-degree: 83%
 
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 1. （オプション）「**[!UICONTROL 外部ファイルを追加]**」を選択して、コンピューターからファイルを追加します。
-1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
-ドキュメントは、[!DNL Photoshop] の [!DNL Workfront] パネルの[!UICONTROL ドキュメント]エリアと [!DNL Workfront] デスクトップアプリに表示されます。
+1. 「**[!UICONTROL アップロード]**」をクリックし、上記で選択したアセットタイプに基づいて、任意の書き出しオプションを設定します。
+ドキュメントは、[!DNL Photoshop]の[!DNL Workfront] パネルおよび[!DNL Workfront] デスクトップアプリの[!UICONTROL &#x200B; ドキュメント &#x200B;]領域に表示されます。
 
 ## 新しいプルーフのバージョンをアップロード
 
@@ -143,5 +155,5 @@ ht-degree: 83%
 
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
-1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
-ドキュメントは、[!DNL Photoshop] の [!DNL Workfront] パネルの[!UICONTROL ドキュメント]エリアと [!DNL Workfront] デスクトップアプリに表示されます。
+1. 「**[!UICONTROL アップロード]**」をクリックし、上記で選択したアセットタイプに基づいて、任意の書き出しオプションを設定します。
+ドキュメントは、[!DNL Photoshop]の[!DNL Workfront] パネルおよび[!DNL Workfront] デスクトップアプリの[!UICONTROL &#x200B; ドキュメント &#x200B;]領域に表示されます。

@@ -2,16 +2,27 @@
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Adobe Workfront Goalsの目標リストでの目標の管理
-description: 自分または他のユーザーが目標を作成した後、その進行状況と情報を目標リストでレビューできます。目標の作成について詳しくは、「Adobe Workfront Goals での目標の作成」を参照してください。
+description: 自分または他のユーザーが目標を作成した後、その進行状況と情報を目標リストでレビューできます。 目標の作成について詳しくは、「Adobe Workfront Goals での目標の作成」を参照してください。
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/A-EiVjLjS0YMgxkouUlrAF2nxzi4l3oJDmLXTlqLlsA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 82%
+source-wordcount: 742
+ht-degree: 79%
 
 ---
 
@@ -21,13 +32,13 @@ ht-degree: 82%
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
-自分または他のユーザーが目標を作成した後、その進行状況と情報を目標リストでレビューできます。目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
+自分または他のユーザーが目標を作成した後、その進行状況と情報を目標リストでレビューできます。 目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
 
 ## アクセス要件
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 
@@ -138,7 +149,7 @@ Old:
 * 目標リスト
 * 目標の整合性
 
-各セクションには、目標が少し異なる形式で表示されます。どのセクションを使用するかは、目標を扱う際に達成する目的によって異なります。
+各セクションには、目標が少し異なる形式で表示されます。 どのセクションを使用するかは、目標を扱う際に達成する目的によって異なります。
 
 詳しくは、[Adobe Workfront Goals のセクションの概要](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)を参照してください。
 
@@ -146,7 +157,7 @@ Old:
 
 目標リストをレビューする際は、次の点を考慮します。
 
-* 自分または組織内の他のユーザーが作成した目標を目標リストに表示できます。目標を編集できるようにするには、目標の管理権限が必要です。
+* 自分または組織内の他のユーザーが作成した目標を目標リストに表示できます。 目標を編集できるようにするには、目標の管理権限が必要です。
 
 <!--
 
@@ -252,7 +263,7 @@ Old:
     Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   デフォルトでは「目標リスト」セクションが表示されます。デフォルトでは、目標のステータス、期間または所有者に関係なく、目標を表示できます。
+   デフォルトでは「目標リスト」セクションが表示されます。 デフォルトでは、目標のステータス、期間または所有者に関係なく、目標を表示できます。
 
    目標のリストには、各目標についての情報を含んだ次のフィールドが含まれています。
 
@@ -267,7 +278,7 @@ Old:
 
      目標ステータスについて詳しくは、[Adobe Workfront Goals の目標ステータスの概要](../goal-management/goal-status-overview.md)を参照してください。
 
-     他の目標に整合された目標には、「整合性」アイコンが表示されます。目標の整合について詳しくは、[Adobe Workfront Goals で目標をに結び付けて整合させる](../goal-alignment/align-goals-by-connecting-them.md)を参照してください。
+     他の目標に整合された目標には、「整合性」アイコンが表示されます。 目標の整合について詳しくは、[Adobe Workfront Goals で目標をに結び付けて整合させる](../goal-alignment/align-goals-by-connecting-them.md)を参照してください。
 
    * **条件**：目標が完了するまでに割り当てられた期間内の目標の進行状況を視覚的に表します。
 
@@ -280,7 +291,7 @@ Old:
 
      目標の条件について詳しくは、[Adobe Workfront Goals の目標の進行状況と条件の概要](../goal-management/calculate-goal-progress.md)を参照してください。
 
-   * **進行状況**：割合（％）の値による目標の進捗状況インジケーター。進行状況インジケーターの色は、目標の条件の色と一致します。
+   * **進行状況**：割合（％）の値による目標の進捗状況インジケーター。 進行状況インジケーターの色は、目標の条件の色と一致します。
 
      詳しくは、[目標の進捗状況を Adobe Workfront Goals で計算](../goal-management/calculate-goal-progress.md)を参照してください。
 
@@ -288,8 +299,8 @@ Old:
 
    Workfront Goals でのフィルターの使用について詳しくは、[Adobe Workfront Goals での情報のフィルター](../goal-management/filter-information-wf-goals.md)を参照してください。
 
-1. 列ヘッダーのフィールドのいずれかをクリックして、そのフィールドでリストを並べ替えます。
-リストの並べ替えに使用するフィールドの右側に矢印が表示されます。
+1. 列見出しのフィールドのいずれかをクリックして、そのフィールドでリストを並べ替えます。
+リストを並べ替えるフィールドの右側に矢印が表示されます。
 
 1. （オプション）同じ列を降順で並べ替えるには、列のフィールドを再度クリックします。
 1. 目標の名前をクリックして、目標のページを開きます。

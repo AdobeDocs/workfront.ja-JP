@@ -3,26 +3,30 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Adobe Workfront Goals の結果とアクティビティ
-description: 結果とアクティビティは、Adobe Workfront Goals の目標の進行状況インジケーターです。結果とアクティビティの詳細については、次の記事を参照してください。
+description: 結果とアクティビティは、Adobe Workfront Goals の目標の進行状況インジケーターです。 結果とアクティビティの詳細については、次の記事を参照してください。
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/249lgJI2p4M9fN3kFhSYnKq4DAYbJ4ulNerebqsBbPM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: 180
 ht-degree: 100%
 
 ---
-
 
 # Adobe Workfront Goals の結果とアクティビティ
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 >
@@ -49,7 +53,7 @@ Old:
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 -->
 
-Workfront Goals の進行状況を記録するには、進行状況インジケーターを目標に関連付ける必要があります。結果やアクティビティに加えて、プロジェクトや子の目標を目標に関連付けて、進行状況を記録することもできます。
+Workfront Goals の進行状況を記録するには、進行状況インジケーターを目標に関連付ける必要があります。 結果やアクティビティに加えて、プロジェクトや子の目標を目標に関連付けて、進行状況を記録することもできます。
 
 この節では、次の記事を扱います。
 

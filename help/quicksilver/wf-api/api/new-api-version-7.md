@@ -7,9 +7,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/16roY0csrhwq92dDL9hI0NNGj3LcbUw9FGSJMyxbKMA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: 488
 ht-degree: 100%
 
 ---
@@ -84,7 +91,7 @@ ht-degree: 100%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>取得</td> 
+   <td>取得  </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -93,7 +100,7 @@ ht-degree: 100%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>レポート</td> 
+   <td>レポート </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -154,8 +161,8 @@ ht-degree: 100%
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | groupID | グループ |   |   |   |   |   |
-| isOwner | ユーザー |   |   |   |   |   |
-| userID |   |   |   |   |   |   |
+| isOwner  | ユーザー  |   |   |   |   |   |
+| userID  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -165,7 +172,7 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| ID |   | hourTypes |   |   |   | 追加 |
+| ID |   |  hourTypes |   |   |   | 追加 |
 | 名前 |   |   |   |   |   | コピー |
 |   |   |   |   |   |   | カウント |
 |   |   |   |   |   |   | 削除 |
@@ -184,11 +191,11 @@ ht-degree: 100%
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | ID | 顧客 | ユーザー |   |   |   | 追加 |
-| customerID | enteredBy |   |   |   |   | カウント |
-| 説明 | lastUpdatedBy |   |   |   |   | 削除 |
-| enteriedByID |   |   |   |   |   | 編集 |
-| entryDate |   |   |   |   |   | 取得 |
-| extRefID |   |   |   |   |   | レポート |
+| customerID  | enteredBy  |   |   |   |   | カウント |
+| 説明  | lastUpdatedBy  |   |   |   |   | 削除 |
+| enteredByID  |   |   |   |   |   | 編集 |
+| entryDate  |   |   |   |   |   | 取得 |
+| extRefID  |   |   |   |   |   | レポート |
 | lastUpdateDate |   |   |   |   |   | 検索 |
 | lastUpdateByID |   |   |   |   |   |   |
 | 名前 |   |   |   |   |   |   |
@@ -202,9 +209,9 @@ ht-degree: 100%
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | カウント |
-| articleName |   |   |   |   |   | 取得 |
-| pageID |   |   |   |   |   | レポート |
-| url |   |   |   |   |   | 検索 |
+| articleName  |   |   |   |   |   | 取得 |
+| pageID  |   |   |   |   |   | レポート |
+| url  |   |   |   |   |   | 検索 |
 
 {style="table-layout:auto"}
 
@@ -226,7 +233,7 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能な値への変更 
+<sup>1</sup> 可能な値に変更 
 
  
 
@@ -292,7 +299,7 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
 |   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
 |   |   |   |   | unassignUserFromProjects<sup>1</sup> |   |   |
 
@@ -310,7 +317,7 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能な値への変更 
+<sup>1</sup> 可能な値に変更 
 
  
 
@@ -318,7 +325,7 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| groupID  |   |   |   |   |   |   |
+| groupID  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -328,17 +335,17 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| checkOutTimestamp |   |   |   | createProof |   |   |
+| checkOutTimestamp |   |   |   |  createProof |   |   |
 
 {style="table-layout:auto"}
 
  
 
-### DocumentVersion 
+### DocumentVersion 
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|   |   |   |   | getProofingTokens |   |   |
+|   |   |   |   |  getProofingTokens |   |   |
 
 {style="table-layout:auto"}
 
@@ -348,7 +355,7 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| isPublic | layoutTemplate | userGroups  |   |   |   |   |
+| isPublic |  layoutTemplate | userGroups  |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -363,9 +370,9 @@ ht-degree: 100%
 |---|---|---|---|---|---|---|
 |   |   |   |   |   | defaultOpTaskHourType |   |
 |   |   |   |   |   | defaultProjectHourType |   |
-|   |   |   |   |   | defaultTaskHourType  |   |
-|   |   |   |   |   | globalHourTypes  |   |
-|   |   |   |   |   | objectHourTypes  |   |
+|   |   |   |   |   | defaultTaskHourType  |   |
+|   |   |   |   |   | globalHourTypes  |   |
+|   |   |   |   |   | objectHourTypes  |   |
 
 {style="table-layout:auto"}
 
@@ -387,7 +394,7 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   | assignMultiple |   |   |
+| approvalCompletionDate |   |   |   |  assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -423,7 +430,7 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   | queueTopicID |   |
+|   |   |   |   |   |  queueTopicID |   |
 
 {style="table-layout:auto"}
 
@@ -433,7 +440,7 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|   |   |   |   | updateLastViewedObject |   |   |
+|   |   |   |   |  updateLastViewedObject |   |   |
 
 {style="table-layout:auto"}
 
@@ -443,7 +450,7 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   | assignMultiple  |   |   |
+| approvalCompletionDate |   |   |   | assignMultiple  |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
@@ -459,7 +466,7 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> タイプを Int から Double に変更
+<sup>1</sup> タイプを Int から Double に変更 
 
  
 
@@ -491,13 +498,13 @@ ht-degree: 100%
    <td> </td> 
    <td>
     <code>roles</code> </td> 
-   <td>役割</td> 
+   <td> 役割</td> 
    <td>addMobileDevice</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
+   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
    <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
    <td> </td> 
@@ -548,7 +555,7 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| `acknowledgedmentIDs` |   |   |   | unackknowledgeMany |   |   |
+| `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
@@ -562,7 +569,7 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| name |   |   |   |   |   |   |
+|  name |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 

@@ -6,16 +6,29 @@ description: Workfront でオブジェクトが承認待ちであることを承
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+TQID: https://experienceleague.adobe.com/YkKaw84vbUyuzPoQUJiFPE49af5-kI2Tcg1n7vYqBe4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 84%
+source-wordcount: 417
+ht-degree: 87%
 
 ---
 
 # 承認者に送信済みの承認を通知する
 
-次のオブジェクトの承認が保留中であることを承認者に通知できます。
+次のオブジェクトの承認が保留中であることを承認者に通知できます。 
 
 * アクセスリクエスト
 * ドキュメント
@@ -35,7 +48,7 @@ ht-degree: 84%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>貢献以上</p>
+   <p>Contribute以上</p>
    <p>リクエスト以上</p>
    </td> 
   </tr> 
@@ -77,8 +90,8 @@ ht-degree: 84%
    >
    >Workfront 管理者が、環境内のホームアイコンに次の変更を加える場合があります。
    >
-   >* 組織を説明するようにカスタマイズされた画像に置き換える。この場合、アイコンはこの記事に示すものとは異なる外観になります。
-   >* リンクされたページを別のページに置き換える。この場合は、ページの右上隅にある **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**ホーム** をクリックします。
+   >* 組織を説明するようにカスタマイズされた画像に置き換える。 この場合、アイコンはこの記事に示すものとは異なる外観になります。
+   >* リンクされたページを別のページに置き換える。 この場合、ページの右上隅にある&#x200B;**メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**ホーム**&#x200B;をクリックします。
 
 1. **作業リスト**&#x200B;エリアで、「**送信済みの承認**」グループに移動します。
 
@@ -86,7 +99,7 @@ ht-degree: 84%
 
    作業リストの右側にアクセス要求が開きます。
 
-   ![&#x200B; 承認待ちのアクセス要求 &#x200B;](assets/access-request-pending-approval-nwe-350x104.png)
+   ![承認待ちのアクセス要求](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. 右パネルの右上隅にある「**通知**」をクリックして、承認者に通知を送信します。
 
@@ -98,15 +111,15 @@ ht-degree: 84%
    >
    >Workfront 管理者が、環境内のホームアイコンに次の変更を加える場合があります。
    >
-   >* 組織を説明するようにカスタマイズされた画像に置き換える。この場合、アイコンはこの記事に示すものとは異なる外観になります。
-   >* リンクされたページを別のページに置き換える。この場合は、ページの右上隅にある **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**ホーム** をクリックします。
+   >* 組織を説明するようにカスタマイズされた画像に置き換える。 この場合、アイコンはこの記事に示すものとは異なる外観になります。
+   >* リンクされたページを別のページに置き換える。 この場合、ページの右上隅にある&#x200B;**メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**ホーム**&#x200B;をクリックします。
 
 1. **作業リスト**&#x200B;エリアで、**送信済みの承認**&#x200B;グループに移動します。
 
 1. 作業リストで「**ドキュメント**」の承認をクリックします。
 
    作業リストの右側にドキュメントの承認が開きます。\
-   ![&#x200B; ドキュメントの承認 &#x200B;](assets/document-350x232.png)
+   ![文書の承認](assets/document-350x232.png)
 
 1. 右パネルの右上隅にある「**承認を管理**」をクリックします。
 1. **通知**&#x200B;アイコンをクリックして、承認者に通知を送信します。\

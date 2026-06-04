@@ -3,26 +3,33 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Android 用 Adobe Workfront
-description: ' [!DNL Adobe Workfront]  アプリを使用すると、任意の Android デバイスでワークにアクセスできます。 [!DNL Workfront]  モバイルアプリは、Android 5.0 以降を実行している携帯電話およびタブレットにインストールして使用できます。'
+description: ' [!DNL Adobe Workfront]  アプリを使用すると、任意の Android デバイスでワークにアクセスできます。  [!DNL Workfront]  モバイルアプリは、Android 5.0 以降を実行している携帯電話およびタブレットにインストールして使用できます。'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/-vCcquqY4NjJNxUKY4ECLk-ciB20R3CQdNHceIXp16o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: 538
 ht-degree: 100%
 
 ---
 
 # [!DNL Android] 向け [!DNL Adobe Workfront]
 
-[!DNL Adobe Workfront] アプリを使用すると、任意の [!DNL Android] デバイスで作業にアクセスできます。[!DNL Workfront] モバイルアプリは、[!DNL Android] 5.0 以降を実行している携帯電話およびタブレットにインストールして使用できます。
+[!DNL Adobe Workfront] アプリを使用すると、任意の [!DNL Android] デバイスで作業にアクセスできます。 [!DNL Workfront] モバイルアプリは、[!DNL Android] 5.0 以降を実行している携帯電話およびタブレットにインストールして使用できます。
 
 モバイルアプリへのログインについて詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) へのログインの記事で、[ [!DNL Workfront]  モバイルアプリへのログイン](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)の節を参照してください。
 
 ## [!UICONTROL ホーム]
 
-[!UICONTROL ホーム]エリアでは、自分に割り当てられたタスク、イシュー、承認で直接作業できます。アプリの[!UICONTROL ホーム]エリアでは、次の操作を実行できます。
+[!UICONTROL ホーム]エリアでは、自分に割り当てられたタスク、イシュー、承認で直接作業できます。 アプリの[!UICONTROL ホーム]エリアでは、次の操作を実行できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,7 +69,7 @@ ht-degree: 100%
 
 ## [!UICONTROL プロジェクト]
 
-[!UICONTROL プロジェクト]エリアでは、自分が所有するプロジェクトと自分が所属しているプロジェクトを操作および管理できます。アプリの[!UICONTROL プロジェクト]エリアでは、次の操作を実行できます。
+[!UICONTROL プロジェクト]エリアでは、自分が所有するプロジェクトと自分が所属しているプロジェクトを操作および管理できます。 アプリの[!UICONTROL プロジェクト]エリアでは、次の操作を実行できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +98,7 @@ ht-degree: 100%
 
 ## [!UICONTROL 承認]
 
-[!UICONTROL 承認]エリアでは、自分に割り当てられた承認やデリゲートされた承認を表示および承認できます。[!UICONTROL 承認]エリアでは、以下を承認できます。
+[!UICONTROL 承認]エリアでは、自分に割り当てられた承認やデリゲートされた承認を表示および承認できます。 [!UICONTROL 承認]エリアでは、以下を承認できます。
 
 <table style="table-layout:auto">
  <col>
@@ -130,7 +137,7 @@ ht-degree: 100%
 
 ## [!UICONTROL リクエスト]
 
-[!UICONTROL リクエスト]エリアでは、リクエストの詳細を表示できます。アプリの[!UICONTROL リクエスト]エリアでは、次の操作を実行できます。
+[!UICONTROL リクエスト]エリアでは、リクエストの詳細を表示できます。 アプリの[!UICONTROL リクエスト]エリアでは、次の操作を実行できます。
 
 <table style="table-layout:auto">
  <col>
@@ -158,7 +165,7 @@ ht-degree: 100%
 
 ## [!UICONTROL タイムシート]
 
-[!UICONTROL タイムシート]エリアでは、タイムシートの詳細を表示できます。アプリのタイムシートエリアでは、次の操作を実行できます。
+[!UICONTROL タイムシート]エリアでは、タイムシートの詳細を表示できます。 アプリのタイムシートエリアでは、次の操作を実行できます。
 
 * [!UICONTROL 更新]エリアに投稿
 * 時間タイプを調整する

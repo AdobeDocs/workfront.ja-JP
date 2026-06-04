@@ -6,18 +6,27 @@ draft: Probably
 feature: Workfront Integrations and Apps, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: c78d1276-6545-44f0-8ec9-62cfe1b66e35
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+TQID: https://experienceleague.adobe.com/V3991LF2iB578eD1mKpKHWt-riMA8ZjctIPGnVDWjOQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: 162
 ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Workfront] と [!DNL Anaplan]
 
-Adobe [!DNL Workfront Fusion] を使用すると、[!DNL Workfront] を [!DNL Anaplan] アカウントに統合できます。例えば、[!DNL Anaplan] でキャンペーンを作成し、キャンペーンにリンクされた [!DNL Workfront] プロジェクトまたはプログラムを作成できます。[!DNL Workfront] で追跡されたコストは、その後 [!DNL Anaplan] に再度アップロードして、キャンペーンのパフォーマンスを確認することができます。
+Adobe [!DNL Workfront Fusion] を使用すると、[!DNL Workfront] を [!DNL Anaplan] アカウントに統合できます。 例えば、[!DNL Anaplan] でキャンペーンを作成し、キャンペーンにリンクされた [!DNL Workfront] プロジェクトまたはプログラムを作成できます。 [!DNL Workfront] で追跡されたコストは、その後 [!DNL Anaplan] に再度アップロードして、キャンペーンのパフォーマンスを確認することができます。
 
-この統合の場合、特定のオブジェクトを [!DNL Anaplan] と Workfront の両方で設定する必要があります。特定のオブジェクトと設定は、特定のワークフローによって異なります。次に、Workfront Fusion テンプレートを [!DNL Anaplan] および [!DNL Workfront] オブジェクトとフィールドで設定します。[!DNL Workfront Fusion] は、次に設定に基づいて統合を自動化します。
+この統合の場合、特定のオブジェクトを [!DNL Anaplan] と Workfront の両方で設定する必要があります。 特定のオブジェクトと設定は、特定のワークフローによって異なります。 次に、Workfront Fusion テンプレートを [!DNL Anaplan] および [!DNL Workfront] オブジェクトとフィールドで設定します。 [!DNL Workfront Fusion] は、次に設定に基づいて統合を自動化します。
 
 ## [!DNL Anaplan] ワークフロー向けの [!DNL Workfront Fusion]
 

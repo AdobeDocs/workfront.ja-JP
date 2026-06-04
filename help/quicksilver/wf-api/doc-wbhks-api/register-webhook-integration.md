@@ -8,21 +8,29 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: 346
 ht-degree: 99%
 
 ---
 
-
 # Web フック統合の登録
 
-Adobe Workfront 管理者は、Workfront 内でセッ設定／ドキュメント／カスタム統合に移動して、会社のカスタム Web フック統合を追加することができます。設定内のカスタム統合ページから、管理者は既存のドキュメント web フック統合のリストを表示することができます。このページから、統合を追加、編集、有効化、無効化することができます。
+Adobe Workfront 管理者は、Workfront 内でセッ設定／ドキュメント／カスタム統合に移動して、会社のカスタム Web フック統合を追加することができます。 設定内のカスタム統合ページから、管理者は既存のドキュメント web フック統合のリストを表示することができます。 このページから、統合を追加、編集、有効化、無効化することができます。
 
 統合を追加するには、「**カスタム統合の追加**」ボタンをクリックします。
 
-![&#x200B; カスタム統合の追加 &#x200B;](assets/webhooks-integration-2-350x220.png)
+![&#x200B; カスタム統合を追加](assets/webhooks-integration-2-350x220.png)
 
 ## 使用可能なフィールド
 
@@ -44,7 +52,7 @@ Adobe Workfront 管理者は、Workfront 内でセッ設定／ドキュメント
   </tr> 
   <tr> 
    <td>ベース API の URL</td> 
-   <td> <p>コールバック API の場所。外部システムを呼び出す場合、Workfront はこのアドレスにエンドポイント名を追加します。例えば、管理者が Base API URL の「https://www.mycompany.com/api/v1」を入力した場合、Workfront は次の URL を使用してドキュメントのメタデータを取得します：https://www.mycompany.com/api/v1/metadata?id=1234。</p> </td> 
+   <td> <p>コールバック API の場所。 外部システムを呼び出す場合、Workfront はこのアドレスにエンドポイント名を追加します。 例えば、管理者が Base API URL の「https://www.mycompany.com/api/v1」を入力した場合、Workfront は次の URL を使用してドキュメントのメタデータを取得します：https://www.mycompany.com/api/v1/metadata?id=1234。</p> </td> 
   </tr> 
   <tr> 
    <td>パラメーターのリクエスト</td> 
@@ -56,11 +64,11 @@ Adobe Workfront 管理者は、Workfront 内でセッ設定／ドキュメント
   </tr> 
   <tr> 
    <td>認証 URL</td> 
-   <td> <p>（OAuth2 のみ）ユーザー認証に使用される完全な URL。Workfront は、OAuth プロビジョニングプロセスの一環として、ユーザーをこのアドレスに移動させます。メモ：Workfront は、クエリ文字列に「状態」パラメーターを追加します。プロバイダーは、これを Workfront のリダイレクト URI に追加して、Workfront に返す必要があります。</p> </td> 
+   <td> <p>（OAuth2 のみ）ユーザー認証に使用される完全な URL。 Workfront は、OAuth プロビジョニングプロセスの一環として、ユーザーをこのアドレスに移動させます。 メモ：Workfront は、クエリ文字列に「状態」パラメーターを追加します。 プロバイダーは、これを Workfront のリダイレクト URI に追加して、Workfront に返す必要があります。</p> </td> 
   </tr> 
   <tr> 
    <td>トークンエンドポイント URL</td> 
-   <td> <p>（OAuth2 のみ）OAuth2 トークンを取得するために使用される完全な API URL。これは、web フックプロバイダーまたは外部ドキュメントプロバイダーによってホストされます</p> </td> 
+   <td> <p>（OAuth2 のみ）OAuth2 トークンを取得するために使用される完全な API URL。 これは、web フックプロバイダーまたは外部ドキュメントプロバイダーによってホストされます</p> </td> 
   </tr> 
   <tr> 
    <td>クライアント ID</td> 
@@ -72,11 +80,11 @@ Adobe Workfront 管理者は、Workfront 内でセッ設定／ドキュメント
   </tr> 
   <tr> 
    <td>Workfront リダイレクト URI</td> 
-   <td>（OAuth2 のみ）これは読み取り専用のフィールドで、Workfront によって生成されます。この値は、この統合を外部のドキュメントプロバイダーに登録するために使用されます。メモ：前述の認証 URL と同様、リダイレクトを実行する際にプロバイダーは「state」パラメーターとその値をクエリ文字列に追加する必要があります。</td> 
+   <td>（OAuth2 のみ）これは読み取り専用のフィールドで、Workfront によって生成されます。 この値は、この統合を外部のドキュメントプロバイダーに登録するために使用されます。 メモ：前述の認証 URL と同様、リダイレクトを実行する際にプロバイダーは「state」パラメーターとその値をクエリ文字列に追加する必要があります。</td> 
   </tr> 
   <tr> 
    <td>ApiKey</td> 
-   <td> <p>（ApiKey のみ）web フックプロバイダーに対して承認済み API 呼び出しを行うために使用されます。Web フックプロバイダーで発行された API キー。</p> </td> 
+   <td> <p>（ApiKey のみ）web フックプロバイダーに対して承認済み API 呼び出しを行うために使用されます。 Web フックプロバイダーで発行された API キー。</p> </td> 
   </tr> 
  </tbody> 
 </table>

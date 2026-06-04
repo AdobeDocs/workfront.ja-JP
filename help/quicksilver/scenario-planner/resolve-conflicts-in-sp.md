@@ -2,22 +2,33 @@
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: シナリオプランナーでのイニシアチブの競合の解決
-description: イニシアチブが互いに競合する場合は、同じリソースを求めて競い合っています。シナリオに使用できるリソースは、シナリオのすべてのイニシアチブで必要になるリソースをすべてカバーするには十分ではありません。
+description: イニシアチブが互いに競合する場合は、同じリソースを求めて競い合っています。 シナリオに使用できるリソースは、シナリオのすべてのイニシアチブで必要になるリソースをすべてカバーするには十分ではありません。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/bvmUPwUcqt0do-U4eQbMssDTwanC8r7fPl0o-S5mGA8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: 2199
 ht-degree: 92%
 
 ---
 
 # [!DNL Scenario Planner]におけるイニシアチブの競合の解決
 
-イニシアチブが互いに競合する場合は、同じリソースを求めて競い合っています。シナリオに使用できるリソースは、シナリオのすべてのイニシアチブで必要になるリソースをすべてカバーするには十分ではありません。
+イニシアチブが互いに競合する場合は、同じリソースを求めて競い合っています。 シナリオに使用できるリソースは、シナリオのすべてのイニシアチブで必要になるリソースをすべてカバーするには十分ではありません。
 
 この問題が発生する可能性があるのは、次のいずれかの場合です。
 
@@ -56,7 +67,7 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、[を使用するために必要な [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) アクセスを参照してください。
+シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner][&#128279;](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な アクセスを参照してください。
 
 Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
@@ -105,14 +116,14 @@ Old:
 ## 競合の解決の概要
 
 * 競合は、担当業務やシナリオの予算の配分超過とも考えられます。
-* [!DNL Workfront] が競合を検出すると、イニシアチブの期間中の競合している月に対応するバーが赤色で表示されます。この問題が発生する可能性があるのは、次のいずれかの場合です。
+* [!DNL Workfront] が競合を検出すると、イニシアチブの期間中の競合している月に対応するバーが赤色で表示されます。 この問題が発生する可能性があるのは、次のいずれかの場合です。
 
    * 以前のすべてのイニシアチブが計画に予算計上されたリソースを使用した後で、イニシアチブに毎月必要な担当業務の数が、計画に予算計上された役割の数より多い。
    * 以前のすべてのイニシアチブでそれらのコストをカバーするプランの予算を使用した後で、イニシアティブの月額コストが、プランで使用可能な予算より大きい。
 
 >[!TIP]
 >
->デフォルトでは、[!DNL Scenario Planner]は、別途指定しない限り、シナリオに対して 0 個の担当業務と 0 ドルまたはシステムの通貨で 0 ドルに相当する金額が予算計上されていると仮定します。担当業務の数は、担当業務に予算計上された FTE（フルタイム当量）の数または時間数を示します。
+>デフォルトでは、[!DNL Scenario Planner]は、別途指定しない限り、シナリオに対して 0 個の担当業務と 0 ドルまたはシステムの通貨で 0 ドルに相当する金額が予算計上されていると仮定します。 担当業務の数は、担当業務に予算計上された FTE（フルタイム当量）の数または時間数を示します。
 >
 >シナリオプランナーのすべての計算で、Workfront は次の値を使用します：1 FTE = 8 時間。
 >
@@ -120,8 +131,8 @@ Old:
 
 * 次のいずれかを行うことで、競合を解決できます。
 
-   * 必要なリソースが不足している場合、シナリオのイニシアチブから自動的に追加する。この記事では、このオプションを使用して競合を解決する方法について説明します。
-   * プランを編集して、シナリオの担当業務と予算のリソースを調整する。詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)でのプランの作成と編集を参照してください。
+   * 必要なリソースが不足している場合、シナリオのイニシアチブから自動的に追加する。 この記事では、このオプションを使用して競合を解決する方法について説明します。
+   * プランを編集して、シナリオの担当業務と予算のリソースを調整する。 詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)でのプランの作成と編集を参照してください。
 
 ## イニシアチブ間の競合の解決
 
@@ -135,9 +146,9 @@ Old:
 
    >[!TIP]
    >
-   >プランには、複数のシナリオが含まれる場合があります。プランの競合を確認する場合、[!DNL Workfront] では、選択されたシナリオで現在利用可能なリソースと、そのシナリオのイニシアチブで必要なリソースに注目します。シナリオについては、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)でのプランシナリオの作成と比較を参照してください。
+   >プランには、複数のシナリオが含まれる場合があります。 プランの競合を確認する場合、[!DNL Workfront] では、選択されたシナリオで現在利用可能なリソースと、そのシナリオのイニシアチブで必要なリソースに注目します。 シナリオについては、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)でのプランシナリオの作成と比較を参照してください。
 
-1. 「**[!UICONTROL 競合を表示]**」が有効になっていることを確認します。これはデフォルトで有効になっています。
+1. 「**[!UICONTROL 競合を表示]**」が有効になっていることを確認します。 これはデフォルトで有効になっています。
 
    ![&#x200B; シナリオを表示トグル &#x200B;](assets/show-scenarios-toggle-on.png)
 
@@ -194,21 +205,21 @@ Old:
        </tr> 
        <tr> 
         <td role="rowheader">[!UICONTROL Job Roles]</td> 
-        <td> <p>選択した月に対して割り当て超過の、このイニシアチブに関連付けられている担当業務。次の列には、選択した月に必要な担当業務や、その月に利用可能な担当業務の数と矛盾する担当業務の情報が表示されます。</p> 
+        <td> <p>選択した月に対して割り当て超過の、このイニシアチブに関連付けられている担当業務。 次の列には、選択した月に必要な担当業務や、その月に利用可能な担当業務の数と矛盾する担当業務の情報が表示されます。</p> 
          <ul> 
           <li> <p><strong>[!UICONTROL Available]</strong>：選択した月のシナリオで利用可能な担当業務の数。</p> </li> 
           <li> <p><strong>[!UICONTROL Required]</strong>：選択した月のイニシアティブに必要な各担当業務の数。</p> </li> 
           <li> <p style="font-weight: normal;"><strong>[!UICONTROL Overallocated]：</strong>イニシアチブで必要な数とシナリオから利用可能な数との差。 </p> </li> 
-         </ul> <p>ヒント：[!UICONTROL Available] 担当業務の数が [!UICONTROL Required] 担当業務の数よりも多い場合や一致する場合でも、[!DNL Scenario Planner] が割り当て超過を示す場合があります。これは、同じ月にプランで利用できる担当業務を既に利用している上位のイニシアチブが存在するということです。 </p> </td> 
+         </ul> <p>ヒント：[!UICONTROL Available] 担当業務の数が [!UICONTROL Required] 担当業務の数よりも多い場合や一致する場合でも、[!DNL Scenario Planner] が割り当て超過を示す場合があります。 これは、同じ月にプランで利用できる担当業務を既に利用している上位のイニシアチブが存在するということです。 </p> </td> 
        </tr> 
        <tr> 
         <td role="rowheader">コスト</td> 
-        <td> <p>選択した月のイニシアチブのコスト。次の列には、選択した月に必要なコストと利用可能な予算に関する情報が表示されます。</p> 
+        <td> <p>選択した月のイニシアチブのコスト。 次の列には、選択した月に必要なコストと利用可能な予算に関する情報が表示されます。</p> 
          <ul> 
           <li> <p><strong>[!UICONTROL Available]</strong>：選択した月のプランから利用可能な予算です。</p> </li> 
           <li> <p><strong>[!UICONTROL Required]</strong>：選択した月の、このイニシアティブに関連するコスト。</p> </li> 
           <li> <p style="font-weight: normal;"><strong>[!UICONTROL Overallocated]：</strong>イニシアチブのコストと、プランから利用可能な予算の差。 </p> </li> 
-         </ul> <p>ヒント：[!UICONTROL Available] コストが、選択した月のイニシアチブの [!UICONTROL Required] コストよりも多い場合や一致する場合でも、[!DNL Scenario Planner] がコストの割当超過を示す場合があります。これは、同じ月のプランに、既に予算を使用している上位のイニシアチブが存在するということです。 </p> </td> 
+         </ul> <p>ヒント：[!UICONTROL Available] コストが、選択した月のイニシアチブの [!UICONTROL Required] コストよりも多い場合や一致する場合でも、[!DNL Scenario Planner] がコストの割当超過を示す場合があります。 これは、同じ月のプランに、既に予算を使用している上位のイニシアチブが存在するということです。 </p> </td> 
        </tr> 
       </tbody> 
      </table>
@@ -226,7 +237,7 @@ Old:
    * [!UICONTROL 必須担当業務]
    * [!UICONTROL コスト]
 
-1. （条件付き）担当業務の競合があるイニシアチブの場合は、「**[!UICONTROL 必須担当業務]**」セクションを開いて、イニシアチブに必要なすべての担当業務を表示します。割り当て超過の可能性がある担当業務を特定します。イニシアチブの各月の各担当業務に必要な FTE または時間数を確認します。割り当て超過の月の FTE または時間数を示すボックスは、赤い枠で表示されます。
+1. （条件付き）担当業務の競合があるイニシアチブの場合は、「**[!UICONTROL 必須担当業務]**」セクションを開いて、イニシアチブに必要なすべての担当業務を表示します。 割り当て超過の可能性がある担当業務を特定します。 イニシアチブの各月の各担当業務に必要な FTE または時間数を確認します。 割り当て超過の月の FTE または時間数を示すボックスは、赤い枠で表示されます。
 
    ![割り当て超過の役割](assets/details-panel-overallocated-roles-350x275.png)
 
@@ -234,7 +245,7 @@ Old:
 
    ![詳細ボックス内の右向き矢印](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
 
-1. （オプション）競合がある担当業務の下の&#x200B;**[!UICONTROL 詳細を表示]**&#x200B;をクリックすると、競合が発生している場所を確認し、プランのグラフ領域で競合する月をハイライト表示することができます。各担当業務に関する追加情報が表示されます。
+1. （オプション）競合がある担当業務の下の&#x200B;**[!UICONTROL 詳細を表示]**&#x200B;をクリックすると、競合が発生している場所を確認し、プランのグラフ領域で競合する月をハイライト表示することができます。 各担当業務に関する追加情報が表示されます。
 
    担当業務ごとに、次のフィールドが表示されます。
 
@@ -252,14 +263,14 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Overallocated]</td> 
-      <td> <p>イニシアチブで必要な担当業務の数と、上位イニシアチブが一部の担当業務を使用した後にプランで利用できる担当業務の数の違い。Workfront では、次の式を使用して [!UICONTROL Overallocated]担当業務の数を計算します。</p> <p><code>Overallocated roles = (Roles Previously Allocated to higher initiatives + Required roles for current initiative) - Monthly available roles from the plan</code> </p> </td> 
+      <td> <p>イニシアチブで必要な担当業務の数と、上位イニシアチブが一部の担当業務を使用した後にプランで利用できる担当業務の数の違い。 Workfront では、次の式を使用して [!UICONTROL Overallocated]担当業務の数を計算します。</p> <p><code>Overallocated roles = (Roles Previously Allocated to higher initiatives + Required roles for current initiative) - Monthly available roles from the plan</code> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >プランのグラフでは、担当業務が割り当てられている月に、各イニシアチブに必要な役割の名前と数が表示されます。担当業務の名前を確認するには、[!UICONTROL 月]ビューを選択する必要があります。
+   >プランのグラフでは、担当業務が割り当てられている月に、各イニシアチブに必要な役割の名前と数が表示されます。 担当業務の名前を確認するには、[!UICONTROL 月]ビューを選択する必要があります。
 
    ![競合する担当業務](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
 
@@ -277,16 +288,16 @@ Old:
 
      上向きの緑の矢印![上向きの緑の矢印](assets/upward-green-arrow.png)は、プランのタイムラインに1か月にわたって表示され、その月に追加されたリソースが多いことを示します。 このインジケーターを表示するには、[!UICONTROL 月]ビューを選択する必要があります。
 
-   * （条件付き）可能な場合は、詳細パネルを閉じ、最初にプランから予算リソースが割り当てられるようにイニシアチブに高い優先度を設定します。イニシアチブの優先度の更新については、[シナリオプランナでのイニシアチブ優先度の更新](../scenario-planner/prioritize-initiatives.md)を参照してください。
+   * （条件付き）可能な場合は、詳細パネルを閉じ、最初にプランから予算リソースが割り当てられるようにイニシアチブに高い優先度を設定します。 イニシアチブの優先度の更新については、[シナリオプランナでのイニシアチブ優先度の更新](../scenario-planner/prioritize-initiatives.md)を参照してください。
 
 1. （オプション）「**[!UICONTROL 詳細を表示しない]**」をクリックして追加の詳細ボックスを閉じ、「**[!UICONTROL 適用]**」をクリックして、担当業務に加えた変更を保存します。
 
-1. （条件付き）コストの競合があるイニシアチブの場合は、イニシアチブの詳細パネルの「**[!UICONTROL コスト]**」セクションに移動して、イニシアチブの期間中の毎月のコストをレビューします。選択したイニシアチブのコストをカバーするための十分な資金がプランの予算に含まれていない月を特定します。使用可能な予算が不十分なボックスは赤い枠線で表示されます。
+1. （条件付き）コストの競合があるイニシアチブの場合は、イニシアチブの詳細パネルの「**[!UICONTROL コスト]**」セクションに移動して、イニシアチブの期間中の毎月のコストをレビューします。 選択したイニシアチブのコストをカバーするための十分な資金がプランの予算に含まれていない月を特定します。 使用可能な予算が不十分なボックスは赤い枠線で表示されます。
 1. （オプション）イニシアチブのタイムラインの月の横にある右矢印をクリックすると、コストをカバーするための十分な予算がない月をさらに表示できます。
 
    ![&#x200B; コストが不十分な場合は矢印](assets/details-panel-insufficient-costs-350x239.png)
 
-1. （オプション）コスト情報の下にある「**[!UICONTROL 詳細を表示]**」をクリックして、競合が発生している箇所を確認し、プランのグラフで競合している月をハイライト表示します。コストタイプごとに、次の追加フィールドが表示されます。
+1. （オプション）コスト情報の下にある「**[!UICONTROL 詳細を表示]**」をクリックして、競合が発生している箇所を確認し、プランのグラフで競合している月をハイライト表示します。 コストタイプごとに、次の追加フィールドが表示されます。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -302,25 +313,25 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Overallocated]</td> 
-      <td> <p>イニシアチブに必要なコストと、上位のイニシアチブで利用可能な予算の一部を使用した後でプランの予算から賄える金額の月ごとの差額。[!DNL Workfront] では、次の式を使用して割り当て超過コストの数値を計算します。</p> <p><code>Overallocated costs = (Costs Previously Allocated to higher initiatives + Required costs for the current initiative) - Monthly available budget from the plan</code> </p> <p>[!DNL Workfront] では、次の式を使用して、現在のイニシアチブに必要なコストを月ごとに計算します。</p> <p><code>Required initiative costs = Initiative Fixed Costs + Initiative People Costs</code> </p> </td> 
+      <td> <p>イニシアチブに必要なコストと、上位のイニシアチブで利用可能な予算の一部を使用した後でプランの予算から賄える金額の月ごとの差額。 [!DNL Workfront] では、次の式を使用して割り当て超過コストの数値を計算します。</p> <p><code>Overallocated costs = (Costs Previously Allocated to higher initiatives + Required costs for the current initiative) - Monthly available budget from the plan</code> </p> <p>[!DNL Workfront] では、次の式を使用して、現在のイニシアチブに必要なコストを月ごとに計算します。</p> <p><code>Required initiative costs = Initiative Fixed Costs + Initiative People Costs</code> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >プランのグラフでは、コストが不十分な月には、イニシアチブに必要な役割の名前と数が表示されます。コストの金額を表示するには、月ビューを選択する必要があります。
+   >プランのグラフでは、コストが不十分な月には、イニシアチブに必要な役割の名前と数が表示されます。 コストの金額を表示するには、月ビューを選択する必要があります。
 
    ![競合コスト &#x200B;](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
 
    >[!NOTE]
    >
-   >プランの作成時にプランの[!UICONTROL 予算]ボックスの「[!UICONTROL 人件費を含める]」設定を無効にした場合、[!UICONTROL 人件費]行は、どのシナリオのどのイニシアチブに対しても表示されません。この場合、Workfront では、コストの競合を判断するための計算に人件費を組み込みません。プランの作成については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)でのプランの作成と編集を参照してください。
+   >プランの作成時にプランの[!UICONTROL 予算]ボックスの「[!UICONTROL 人件費を含める]」設定を無効にした場合、[!UICONTROL 人件費]行は、どのシナリオのどのイニシアチブに対しても表示されません。 この場合、Workfront では、コストの競合を判断するための計算に人件費を組み込みません。 プランの作成については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)でのプランの作成と編集を参照してください。
 
 1. コストの競合を解決するには、次のいずれかを行います。
 
    * イニシアチブの各月の[!UICONTROL 固定費]の数値を手動で少ない数値に調整します。
-   * 「**[!UICONTROL 必須担当業務]**」セクションで、可能であれば、人件費予算のある月の担当業務数を手動で調整します。これで人件費の数値が減ります。
+   * 「**[!UICONTROL 必須担当業務]**」セクションで、可能であれば、人件費予算のある月の担当業務数を手動で調整します。 これで人件費の数値が減ります。
 
      >[!TIP]
      >
@@ -334,7 +345,7 @@ Old:
      >
      >コストの競合を解決するために金額を追加したことにより、プラン内のすべてのシナリオではなく、選択したシナリオの予算が変更されます。
 
-   * （条件付き）可能な場合は、詳細パネルを閉じ、最初にプランから予算リソースが割り当てられるようにイニシアチブに高い優先度を設定します。イニシアチブの優先順位の更新について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md) のイニシアチブ優先度の更新を参照してください。
+   * （条件付き）可能な場合は、詳細パネルを閉じ、最初にプランから予算リソースが割り当てられるようにイニシアチブに高い優先度を設定します。 イニシアチブの優先順位の更新について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md) のイニシアチブ優先度の更新を参照してください。
 
 1. 「コスト」セクションに変更を加える場合は、「**[!UICONTROL 適用]**」をクリックします。
 1. 「**[!UICONTROL プランを保存]**」をクリックして変更を保存します。

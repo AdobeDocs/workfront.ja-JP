@@ -2,14 +2,23 @@
 product-area: projects
 navigation-topic: recent-and-favorites
 title: お気に入りの表示と管理
-description: お気に入りメニューを使用すると、項目に素早くアクセスできます。項目は、削除するまでお気に入りメニューに残ります。お気に入りメニューには、最大 40 個の項目を設定できます。
+description: お気に入りメニューを使用すると、項目に素早くアクセスできます。 項目は、削除するまでお気に入りメニューに残ります。 お気に入りメニューには、最大 40 個の項目を設定できます。
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+TQID: https://experienceleague.adobe.com/S0cPTosyBInMh-Pji9TY1JEtsHB7lyTNlMlM6-M-yNQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 66%
+source-wordcount: 375
+ht-degree: 69%
 
 ---
 
@@ -17,7 +26,7 @@ ht-degree: 66%
 
 <!-- Audited: 5/2025 -->
 
-[!UICONTROL お気に入り]メニューを使用すると、項目に素早くアクセスできます。項目は、削除するまで[!UICONTROL お気に入り]メニューに残ります。お気に入りメニューには、最大 40 個の項目を設定できます。
+[!UICONTROL お気に入り]メニューを使用すると、項目に素早くアクセスできます。 項目は、削除するまで[!UICONTROL お気に入り]メニューに残ります。 お気に入りメニューには、最大 40 個の項目を設定できます。
 
 ## アクセス要件
 
@@ -36,7 +45,7 @@ ht-degree: 66%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>
-      <p>投稿者以上<p>
+      <p>コントリビューター以上<p>
       <p>リクエスト以上</td> 
   </tr> 
  </tbody> 
@@ -50,7 +59,7 @@ ht-degree: 66%
 
 以前お気に入りに追加した項目を表示するには、次の手順を実行します。
 
-1. **[!UICONTROL ページの右上隅にある]** お気に入り ![&#x200B; アイコン &#x200B;](assets/favorites-icon.png) お気に入りアイコン [!DNL Adobe Workfront] をクリックします。
+1. 任意の[!DNL Adobe Workfront] ページの右上隅にある&#x200B;**[!UICONTROL お気に入り]** アイコン ![お気に入りアイコン &#x200B;](assets/favorites-icon.png)をクリックします。
 
 1. **お気に入り**&#x200B;リストで、表示する項目をクリックします。
 
@@ -63,29 +72,29 @@ ht-degree: 66%
 
 ### 最近使用した項目をお気に入りに追加
 
-1. 新しい **[!UICONTROL エクスペリエンスの任意のページの右上隅にある]** 最近 ![&#x200B; アイコン &#x200B;](assets/recents-icon-40x43.png) 最近アイコン [!DNL Adobe Workfront] をクリックします。
-1. お気に入りとして保存する項目のインラインで星をクリックします。 **お気に入り**&#x200B;メニューに最近使用した項目。
+1. 新しい[!DNL Adobe Workfront] エクスペリエンスのページの右上隅にある&#x200B;**[!UICONTROL 最近]** アイコン ![最近アイコン &#x200B;](assets/recents-icon-40x43.png)をクリックします。
+1. お気に入りとして保存するアイテムの位置にある星をクリックします。 **お気に入り**&#x200B;メニューに表示される最近使用した項目。
 
    ![最近使用した項目をお気に入りに登録](assets/recents-section.png)
 
 ### 現在の項目をお気に入りに追加
 
 1. お気に入りに追加するページに移動します。
-1. ページの右上隅にある「**[!DNL Favorites]** 気に入り ![&#x200B; アイコンをクリックし &#x200B;](assets/favorites-icon.png) 「現在のページを追加 **[!UICONTROL をクリックし]** す。
+1. ページの右上隅にある&#x200B;**[!DNL Favorites]** アイコン ![お気に入り](assets/favorites-icon.png)をクリックし、**[!UICONTROL 現在のページを追加]**&#x200B;をクリックします。
 
    ![現在のページをお気に入りに追加](assets/add-current-page.png)
 
    >[!NOTE]
    >
    >お気に入りとして既に追加したオブジェトの&#x200B;**[!UICONTROL お気に入り]**&#x200B;アイコンをクリックすると、そのオブジェクトは[!UICONTROL お気に入り]メニューから削除されます。\
-   >![&#x200B; お気に入りから削除 &#x200B;](assets/nwe-remove-from-favorites-350x52.png)
+   >![お気に入りから削除](assets/nwe-remove-from-favorites-350x52.png)
 
 ## [!UICONTROL お気に入り]メニューから項目を削除
 
-1. **[!UICONTROL ページの右上隅にある]** お気に入り ![&#x200B; アイコン &#x200B;](assets/favorites-icon.png) お気に入りアイコン [!DNL Workfront] をクリックします。
+1. 任意の[!DNL Workfront] ページの右上隅にある&#x200B;**[!UICONTROL お気に入り]** アイコン ![お気に入りアイコン &#x200B;](assets/favorites-icon.png)をクリックします。
 
 1. お気に入りとして削除する項目の上にポインタを合わせて、隣にある「**X**」をクリックします。
 
    または
 
-   お気に入りとして削除するページ上にある場合は、オブジェクト名の横にある **[!UICONTROL お気に入り]** アイコン ![&#x200B; お気に入りアイコン &#x200B;](assets/remove-favorite-icon.png) をクリックして、**お気に入り** メニューから削除します。
+   お気に入りとして削除するページにアクセスしている場合は、オブジェクト名の横にある&#x200B;**[!UICONTROL お気に入り]** アイコン ![お気に入りアイコン &#x200B;](assets/remove-favorite-icon.png)をクリックして、**お気に入り** メニューから削除します。

@@ -2,15 +2,22 @@
 content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Adobe Workfront シナリオプランナー：記事のインデックス
+title: Adobe Workfront Scenario Planner：記事インデックス
 description: Workfront シナリオプランナーに関する機能を説明する記事のリストです。
 author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/RB9yZzjEaDZSo1qVutyeIPgo4iDbMw1xB-vxu6TtEfU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: 143
 ht-degree: 90%
 
 ---
@@ -33,7 +40,7 @@ ht-degree: 90%
 * [&#x200B; [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)でのイニシアチブの削除
 * [&#x200B; [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)でのイニシアチブの競合の解決
 * [&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)での計画へのプロジェクトの読み込み
-* [&#x200B; におけるプランへの権限のリクエスト  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)
+* [のプランに対する権限を [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)で要求
 * [&#x200B; [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)での計画の共有
 * [&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)でのイニシアチブの公開によるプロジェクトの更新または作成
 * [プロジェクトとイニシアチブ間でのリソース割り当て調整の概要](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)

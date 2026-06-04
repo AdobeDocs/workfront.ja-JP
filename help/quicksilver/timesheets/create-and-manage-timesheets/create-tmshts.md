@@ -1,15 +1,29 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: 1 回限りのタイムシートの作成
-description: 定期的でないタイムシートが必要な場合は、1 回限りのタイムシートを手動で作成できます。タイムシートの終了日に達し、より多くのタイムシートが必要になった場合は、新しいタイムシートを作成する必要があります。
+title: 1回限りのタイムシートの作成
+description: 定期的でないタイムシートが必要な場合は、1 回限りのタイムシートを手動で作成できます。 タイムシートの終了日に達し、より多くのタイムシートが必要になった場合は、新しいタイムシートを作成する必要があります。
 author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/6ngmKzkpxxHYM7L9Z16JsJKcEW7CdFjJcdp6B6hgTtc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 88%
+source-wordcount: 1071
+ht-degree: 90%
 
 ---
 
@@ -17,18 +31,18 @@ ht-degree: 88%
 
 <!--Audited: 6/2025-->
 
-定期的でないタイムシートが必要な場合は、1 回限りのタイムシートを手動で作成できます。タイムシートの終了日に達し、より多くのタイムシートが必要になった場合は、新しいタイムシートを作成する必要があります。
+定期的でないタイムシートが必要な場合は、1 回限りのタイムシートを手動で作成できます。 タイムシートの終了日に達し、より多くのタイムシートが必要になった場合は、新しいタイムシートを作成する必要があります。
 
 ユーザーからの追加の介入なしに（推奨）、定期的なタイムシートを生成するタイムシートプロファイルの作成について詳しくは、[タイムシートプロファイルの作成、編集、割り当て](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
-タイムシートプロファイルに関連付けられた、システム内のすべてのユーザーのタイムシートを手動で生成する方法については、[&#x200B; タイムシートを手動で生成する &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) を参照してください。
+タイムシート プロファイルに関連付けられているシステム内のすべてのユーザーのタイムシートを手動で生成する方法については、[手動でタイムシートを生成する](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)を参照してください。
 
 >[!NOTE]
 >
 >* 1 回限りのタイムシートは、グループに対して作成できません。
->* 1 回限りのタイムシートを作成する場合、タイムシートに含める特定の一般的な時間タイプを選択することはできません。システムで有効化されたすべての一般的な時間タイプは、手動で作成されたタイムシートに表示されます。
+>* 1 回限りのタイムシートを作成する場合、タイムシートに含める特定の一般的な時間タイプを選択することはできません。 システムで有効化されたすべての一般的な時間タイプは、手動で作成されたタイムシートに表示されます。
 >
->タイムシートに表示する特定の一般的な時間タイプのみを選択する場合は、タイムシートプロファイルを使用します。タイムシートプロファイルについて詳しくは、[タイムシートプロファイルの作成、編集、割り当て](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
+>タイムシートに表示する特定の一般的な時間タイプのみを選択する場合は、タイムシートプロファイルを使用します。 タイムシートプロファイルについて詳しくは、[タイムシートプロファイルの作成、編集、割り当て](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
 ## アクセス要件
 
@@ -63,9 +77,9 @@ ht-degree: 88%
 
 {{step1-to-timesheets}}
 
-**すべて**&#x200B;のフィルターがデフォルトでは選択されています。これにより、表示するアクセス権のあるすべてのタイムシートが表示されます。
+**すべて**&#x200B;のフィルターがデフォルトでは選択されています。 これにより、表示するアクセス権のあるすべてのタイムシートが表示されます。
 
-![1 つのタイムシートが選択されたタイムシートリスト &#x200B;](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+1つのタイムシートが選択された![&#x200B; タイムシート リスト &#x200B;](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
@@ -77,20 +91,20 @@ ht-degree: 88%
 
      これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートのリストに適用されます。
 
-     ![&#x200B; マイタイムシートのフィルターボタンがタイムシートリストページに表示されます &#x200B;](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![&#x200B; タイムシート リスト ページのタイムシート フィルターのボタン &#x200B;](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * **フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * **フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
-   >Workfront 管理者またはグループ管理者が、設定エリアのリスト制御またはレイアウトテンプレートから、「マイタイムシート承認」と「マイタイムシート」のフィルターを削除した場合、「マイタイムシート承認」と「マイタイムシート」のオプションは、タイムシート一覧の先頭にもフィルター一覧にも表示されません。詳しくは、次の記事を参照してください。
+   >Workfront 管理者またはグループ管理者が、設定エリアのリスト制御またはレイアウトテンプレートから、「マイタイムシート承認」と「マイタイムシート」のフィルターを削除した場合、「マイタイムシート承認」と「マイタイムシート」のオプションは、タイムシート一覧の先頭にもフィルター一覧にも表示されません。 詳しくは、次の記事を参照してください。
    > 
    >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. （任意） **検索** アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックしてキーワードを入力し、特定のタイムシートを検索します。 例えば、所有者名のタイムシート期間を検索できます。
+1. （オプション） **検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックしてキーワードを入力し、特定のタイムシートを検索します。 例えば、所有者名のタイムシート期間を検索できます。
 
-1. （任意） **表示** ![&#x200B; 表示アイコン &#x200B;](assets/view-icon.png) または **グループ化** ![&#x200B; グループ化アイコン &#x200B;](assets/grouping.png) アイコンをクリックして、別のビューやグループ化を適用するか、新しいビューやグループを作成します。
+1. （オプション）別のビューまたはグループ化を適用したり、新しいビューを作成したりするには、**ビュー** ![&#x200B; ビューのアイコン &#x200B;](assets/view-icon.png)または&#x200B;**グループ化** ![&#x200B; グループ化のアイコン &#x200B;](assets/grouping.png)をクリックします。
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 
@@ -120,14 +134,14 @@ ht-degree: 88%
       </tr> 
       <tr> 
       <td role="rowheader"><strong>承認者</strong> </td> 
-      <td>承認者とは、タイムシートに関連付けられたユーザーのタイムシートを承認するユーザーです。承認者として設定できるのは、タイムシートの管理権限を持つユーザーのみです。タイムシート管理権限について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定の領域に対する管理アクセス権をユーザーに付与</a>を参照してください。<br>タイムシート承認者の名前を入力していき、リストに表示されたら、その名前をクリックします。<br>1 つのタイムシートに複数の承認者を設定できます。この場合、承認者のうちの 1 人がタイムシートを承認すると、タイムシートは<strong>クローズ</strong>とマークされ、残りのすべての承認者のタイムシート承認リストに表示されなくなります。</td> 
+      <td>承認者とは、タイムシートに関連付けられたユーザーのタイムシートを承認するユーザーです。 承認者として設定できるのは、タイムシートの管理権限を持つユーザーのみです。 タイムシート管理権限について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定の領域に対する管理アクセス権をユーザーに付与</a>を参照してください。<br>タイムシート承認者の名前を入力していき、リストに表示されたら、その名前をクリックします。<br>1 つのタイムシートに複数の承認者を設定できます。 この場合、承認者のうちの 1 人がタイムシートを承認すると、タイムシートは<strong>クローズ</strong>とマークされ、残りのすべての承認者のタイムシート承認リストに表示されなくなります。</td> 
       </tr> 
       <tr> 
       <td role="rowheader"><strong>時間を編集可能</strong> </td>
 
    <td> <p>承認者がタイムシートの時間を編集できるようにする場合は、このオプションを選択します。</p>
 
-   このオプションは、設定／タイムシートと時間／環境設定エリアの「**タイムシートの編集を所有者と管理者に制限**」設定と連携して機能します。詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。
+   このオプションは、設定／タイムシートと時間／環境設定エリアの「**タイムシートの編集を所有者と管理者に制限**」設定と連携して機能します。 詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。
 
    次のシナリオが存在します。
 
@@ -137,13 +151,13 @@ ht-degree: 88%
    <li>タイムシート所有者のマネージャーは、自分のダイレクトレポートのタイムシートのみを表示できます。</li></ul>
    <li>「<b>タイムシートの編集を所有者と管理者に制限</b>」オプションが無効である場合は、以下のようになります。</li>
    <ul><li>「<b>時間を編集可能</b>」が有効になっている場合、承認者はタイムシートの送信、リオープン、またはクローズを行うことが可能で、時間を編集できます。</li>
-   <li>「<b>時間を編集可能</b>」が無効になっている場合、承認者はタイムシートの送信、リオープン、またはクローズを行うことが不可能で、時間を編集できません。承認者が行えるのは、タイムシートの承認または却下のみです。 </li>
+   <li>「<b>時間を編集可能</b>」が無効になっている場合、承認者はタイムシートの送信、リオープン、またはクローズを行うことが不可能で、時間を編集できません。 承認者が行えるのは、タイムシートの承認または却下のみです。 </li>
    <li>タイムシート所有者のマネージャーは、ダイレクトレポートのタイムシートの提出、取り消し、リオープン、編集を行うことができます。</li></ul>
    </ul>
 
    <p><b>メモ</b>
 
-   承認を受けるためにタイムシートを送信すると、時間を編集できなくなります。提出されたタイムシートを編集可能な状態に戻すには、タイムシートを取り消すか、承認者にタイムシートを却下させます。詳しくは、<a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">承認を受けるためのタイムシートの送信</a>と<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">タイムシートの承認</a>を参照してください。</p> </p>
+   承認を受けるためにタイムシートを送信すると、時間を編集できなくなります。 提出されたタイムシートを編集可能な状態に戻すには、タイムシートを取り消すか、承認者にタイムシートを却下させます。 詳しくは、<a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">承認を受けるためのタイムシートの送信</a>と<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">タイムシートの承認</a>を参照してください。</p> </p>
 
    </td> 
       </tr>
@@ -151,7 +165,7 @@ ht-degree: 88%
    <tr>
 
    <td role="rowheader"><span style="font-weight: bold;">超過作業時間</span> </td> 
-      <td>タイムシートの「超過作業時間」ボックスを非表示にすることができます。このオプションはデフォルトでは無効になっています。</td> 
+      <td>タイムシートの「超過作業時間」ボックスを非表示にすることができます。 このオプションはデフォルトでは無効になっています。</td> 
       </tr> 
       </tbody> 
    </table>
@@ -170,4 +184,4 @@ ht-degree: 88%
 * タスクやイシューがタイムシートにピン留めされている
 * 予定完了日がタイムシートの日付範囲内に収まり、そのステータスが「処理中」になっている
 
-**次以内の作業についてタイムシートを自動入力する**」環境設定（「タイムシートと時間」環境設定にある）が選択されていない場合、タイムシートには「処理中」のステータスを持つイシューとタスクが表示されます。「タイムシートと時間」環境設定について詳しくは、[タイムシートと時間の環境設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
+**次以内の作業についてタイムシートを自動入力する**」環境設定（「タイムシートと時間」環境設定にある）が選択されていない場合、タイムシートには「処理中」のステータスを持つイシューとタスクが表示されます。 「タイムシートと時間」環境設定について詳しくは、[タイムシートと時間の環境設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。

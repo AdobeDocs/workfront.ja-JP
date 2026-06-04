@@ -2,14 +2,24 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: ドキュメント用のプルーフを作成する
-description: ドキュメントを Workfront にアップロードする際に、そのドキュメントのプルーフを生成できます。Adobe Workfront に既にアップロードされているドキュメントのプルーフや、既に Workfrontにある新しいバージョンのプルーフを生成することもできます。
+description: ドキュメントを Workfront にアップロードする際に、そのドキュメントのプルーフを生成できます。 Adobe Workfront に既にアップロードされているドキュメントのプルーフや、既に Workfrontにある新しいバージョンのプルーフを生成することもできます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/Pn0eWLEK9gi1eqztoZCg-aR9s7zm60M-SLkRudYGdnU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 95%
+source-wordcount: 617
+ht-degree: 98%
 
 ---
 
@@ -43,7 +53,7 @@ If a proof fails to generate after following the steps described in the followin
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
    <p>標準</p>
-   <p>作業またはプラン</p>
+   <p>作業または計画</p>
    </td> 
   </tr> 
   <tr> 
@@ -65,12 +75,12 @@ If a proof fails to generate after following the steps described in the followin
 
 1. 新しいプルーフを作成するプロジェクト、タスクまたはイシューに移動します。
 1. 「**ドキュメント**」タブをクリックします。
-1. 左側のパネルでドキュメント ![&#x200B; ドキュメントアイコン &#x200B;](assets/document-icon.png) をクリックします。
+1. 左側のパネルで「ドキュメント ![&#x200B; ドキュメント」アイコン &#x200B;](assets/document-icon.png)をクリックします。
 1. 「**新規追加**」をクリックし、表示されるメニューで「**プルーフ**」をクリックします。
 
    >[!TIP]
    >
-   >ユーザープロファイルで「**ドキュメントのアップロード時にプルーフを自動生成**」を有効にして、この処理を自動化します。詳しくは、[個人設定を行う](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
+   >ユーザープロファイルで「**ドキュメントのアップロード時にプルーフを自動生成**」を有効にして、この処理を自動化します。 詳しくは、[個人設定を行う](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
 
 1. 表示される&#x200B;**新規プルーフ**&#x200B;ページで、以下の操作を実行できます。
 
@@ -90,16 +100,16 @@ If a proof fails to generate after following the steps described in the followin
 
 ## ドラッグ＆ドロップを使用した新しいバージョンの簡単なプルーフの生成
 
-ファイルシステム（デスクトップなど）からドキュメントをドラッグ&amp;ドロップして、新しいプルーフまたは既存のプルーフの新しいバージョンを作成できます。プルーフには、プルーフを新規作成するか新しいバージョンを作成するかに応じて、次の設定が含まれます。
+ファイルシステム（デスクトップなど）からドキュメントをドラッグ&amp;ドロップして、新しいプルーフまたは既存のプルーフの新しいバージョンを作成できます。 プルーフには、プルーフを新規作成するか新しいバージョンを作成するかに応じて、次の設定が含まれます。
 
-* **新規プルーフ**：自分とのみ共有される、簡単なプルーフを作成します。プルーフの作成後に共有設定を変更できます（[プルーフの設定を編集](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)を参照）。
+* **新規プルーフ**：自分とのみ共有される、簡単なプルーフを作成します。 プルーフの作成後に共有設定を変更できます（[プルーフの設定を編集](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)を参照）。
 
 * **既存のプルーフの新しいバージョン**：以前のバージョンと同じプルーフ設定を持つ新しいバージョンが作成されます。
 
 ドラッグ&amp;ドロップを使用して新しいプルーフまたは新しいプルーフバージョンを生成するには：
 
 1. 説明に従って、プルーフが自動的に生成されるように設定されていることを確認します。
-1. [ファイルシステムからAdobe Workfrontにドキュメントを追加する](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)に進みます。これは、ドキュメントをドラッグ&amp;ドロップで追加する方法を説明します。
+1. [ファイルシステムからAdobe Workfrontにドキュメントを追加する](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)に進みます。これは、ドキュメントをドラッグ&amp;ドロップで追加する方法を説明します。 
 
 ## 既存ドキュメントのプルーフの作成
 
@@ -118,14 +128,14 @@ If a proof fails to generate after following the steps described in the followin
     <tbody> 
      <tr> 
       <td role="rowheader">シンプルなプルーフ</td> 
-      <td>このオプションを選択すると、ワークフローが添付されていないプルーフが作成され、デフォルトのプルーフ設定が適用されます。プルーフの作成後に、デフォルトのプルーフ設定をアップデートしたり、ワークフローを追加したりすることができます。プルーフの設定について詳しくは、<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">プルーフの設定を編集</a>を参照してください。</td> 
+      <td>このオプションを選択すると、ワークフローが添付されていないプルーフが作成され、デフォルトのプルーフ設定が適用されます。 プルーフの作成後に、デフォルトのプルーフ設定をアップデートしたり、ワークフローを追加したりすることができます。 プルーフの設定について詳しくは、<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">プルーフの設定を編集</a>を参照してください。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">高度なプルーフ</td> 
-      <td> <p>このオプションを使用すると、基本的または高度なワークフローを設定し、作成するプルーフの設定を変更できます。詳しくは、次を参照してください。 </p> 
+      <td> <p>このオプションを使用すると、基本的または高度なワークフローを設定し、作成するプルーフの設定を変更できます。 詳しくは、次を参照してください。 </p> 
        <ul> 
         <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">基本ワークフローを使用した高度なプルーフを作成</a> </p> </li> 
-        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">自動ワークフローを使用した詳細プルーフの作成</a> </p> </li> 
+        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">自動ワークフローを使用して高度なプルーフを作成</a> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

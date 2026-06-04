@@ -2,15 +2,26 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Adobe Workfront Goalsで目標をアクティブ化
-description: 目標を作成すると、Adobe Workfront Goals はそれをドラフトのステータスで保存します。下書きの目標は目標管理には含まれません。
+description: 目標を作成すると、Adobe Workfront Goals はそれをドラフトのステータスで保存します。 下書きの目標は目標管理には含まれません。
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/XVvr-M58-7ZXp7eIvYrmUoHheCgRVGavWqRxzoyYOM4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: 440
 ht-degree: 86%
 
 ---
@@ -19,9 +30,9 @@ ht-degree: 86%
 
 <!--Audited for P&P only: 4/2025-->
 
-目標を作成すると、Adobe Workfront Goals はそれをドラフトのステータスで保存します。下書きの目標は目標管理には含まれません。
+目標を作成すると、Adobe Workfront Goals はそれをドラフトのステータスで保存します。 下書きの目標は目標管理には含まれません。
 
-進捗状況を更新して目標達成にどれだけ近づいているかを追跡するには、それをアクティブ化する必要があります。これにより、ステータスがアクティブに変わります。
+進捗状況を更新して目標達成にどれだけ近づいているかを追跡するには、それをアクティブ化する必要があります。 これにより、ステータスがアクティブに変わります。
 
 目標の作成については、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
 
@@ -34,7 +45,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 
@@ -158,10 +169,10 @@ Old:
 
 作成した目標、または管理権限を持つ目標をアクティブ化できます。
 
-1. アクティブ化する目標に移動します。目標ページが開きます。
+1. アクティブ化する目標に移動します。 目標ページが開きます。
 
 1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](../goal-management/assets/more-icon.png)をクリックし、**アクティブ化**&#x200B;をクリックします。
 
    ![その他のメニューが展開されました](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
-   目標のステータスがアクティブに変わります。目標の進捗状況をトラックできるようになり、目標はチェックインセクションに表示されるほか、Workfront 目標のグラフセクションでも考慮されるようになりました。
+   目標のステータスがアクティブに変わります。 目標の進捗状況をトラックできるようになり、目標はチェックインセクションに表示されるほか、Workfront 目標のグラフセクションでも考慮されるようになりました。

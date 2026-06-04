@@ -8,13 +8,25 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d6f15301-a604-47ff-897b-83a19659dedf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3700'
-ht-degree: 75%
+source-wordcount: 3699
+ht-degree: 74%
 
 ---
-
 
 # ドキュメント Webhooks API
 
@@ -717,7 +729,7 @@ GET /serviceInfo
 
 ### フォルダーを作成
 
-（バージョン 1.2 で追加）特定のディレクトリにフォルダーを作成します。
+（バージョン 1.2で追加）特定のディレクトリにフォルダーを作成します。
 URL
 
 POST /createFolder

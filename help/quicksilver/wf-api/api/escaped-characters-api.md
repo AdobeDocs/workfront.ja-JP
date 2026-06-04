@@ -7,18 +7,23 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/Cqu86di2VR3q4MpLYnUFwm0D4YyTxWqLXaGqJdtU-UE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: 209
 ht-degree: 100%
 
 ---
 
 # API 応答のエスケープ文字
 
-一部の API 応答の構文には、エスケープ文字の、`\`（バックスラッシュ）を含みます。エスケープ文字は、エスケープ文字の直後の文字または文字列が特別な値を持つことを示します。例えば、`tab`「t」の文字ではなく、`t`「t」の文字として解釈される`\t`読み取り装置に伝えます。バックスラッシュの後に 1 つ以上の文字を含む文字列は、エスケープシーケンスと呼ばれます。
+一部の API 応答の構文には、エスケープ文字の、`\`（バックスラッシュ）を含みます。 エスケープ文字は、エスケープ文字の直後の文字または文字列が特別な値を持つことを示します。 例えば、`tab`「t」の文字ではなく、`t`「t」の文字として解釈される`\t`読み取り装置に伝えます。 バックスラッシュの後に 1 つ以上の文字を含む文字列は、エスケープシーケンスと呼ばれます。
 
-16 進エスケープシーケンスでは、有効な 16 進数を使用する必要があります。次の表に、Adobe Workfront API 応答でエンコードされるエスケープシーケンスを示します。
+16 進エスケープシーケンスでは、有効な 16 進数を使用する必要があります。 次の表に、Adobe Workfront API 応答でエンコードされるエスケープシーケンスを示します。
 
 <table style="table-layout:auto"> 
  <col> 

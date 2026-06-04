@@ -2,23 +2,28 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: カスタムフォームの使用
-description: カスタムフォームは、Workfront オブジェクトにさらにフィールドを追加します。 適切なアクセス権を持っている場合は、カスタムフォームフィールドに関する情報を更新できます。 また、フォームの情報を書き出したり、Workfront オブジェクトにフォームを追加または削除したりすることもできます。 Adobe Workfrontでのカスタムフォームの操作方法については、このリストの記事を参照してください。
+description: カスタムフォーム Workfront オブジェクトにさらにフィールドを追加します。 カスタムフォームフィールドに対する適切なアクセス権があれば、カスタムフォームフィールドに関する情報を更新できます。 また、フォームに関する情報を書き出したり、Workfront オブジェクトにフォームを追加したり削除したりすることもできます。 Adobe Workfrontでカスタムフォームを使用する方法については、このリストの記事を参照してください。
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef68fcaf-b5b6-4e63-a37c-3a3926553992
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+TQID: https://experienceleague.adobe.com/ZxNHoZzcpl1n0OngVNhVvF1sWx01JQe4ZTuQu5HD4hk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: 152
 ht-degree: 21%
 
 ---
 
 # カスタムフォームの使用
 
-カスタムフォームは、Workfront オブジェクトにさらにフィールドを追加します。 適切なアクセス権を持っている場合は、カスタムフォームフィールドに関する情報を更新できます。 また、フォームの情報を書き出したり、Workfront オブジェクトにフォームを追加または削除したりすることもできます。
+カスタムフォーム Workfront オブジェクトにさらにフィールドを追加します。 カスタムフォームフィールドに対する適切なアクセス権があれば、カスタムフォームフィールドに関する情報を更新できます。 また、フォームに関する情報を書き出したり、Workfront オブジェクトにフォームを追加したり削除したりすることもできます。
 
-Adobe Workfrontでのカスタムフォームの操作方法については、次のリストの記事を参照してください。
+Adobe Workfrontでカスタムフォームを使用する方法については、次のリストの記事を参照してください。
 
 * [カスタムフォームをオブジェクトに追加](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
 * [カスタムフォームフィールドの情報を編集](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)

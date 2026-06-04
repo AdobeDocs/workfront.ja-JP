@@ -3,24 +3,33 @@ content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
 title: プルーフの役割の概要
-description: プルーフの役割を使用すると、個々のプルーフに対する権限を付与できます。プルーフの役割は、プルーフの権限プロファイルとは異なります。プルーフ権限プロファイルのについて詳しくは、プルーフ権限プロファイルの概要を参照してください。
+description: プルーフの役割を使用すると、個々のプルーフに対する権限を付与できます。 プルーフの役割は、プルーフの権限プロファイルとは異なります。 プルーフ権限プロファイルのについて詳しくは、プルーフ権限プロファイルの概要を参照してください。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 93452926a27026f2b0e8a7a807381d562d7cbb01
+TQID: https://experienceleague.adobe.com/69ZDYn1qsA9dpvF1Noq-bgEXeVYaQFGSxx-ziCL-Jmw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 90%
+source-wordcount: 340
+ht-degree: 89%
 
 ---
 
 # プルーフの役割の概要
 
-プルーフの役割を使用すると、個々のプルーフに対する権限を付与できます。プルーフの役割は、プルーフの権限プロファイルとは異なります。プルーフ権限プロファイルのについて詳しくは、[プルーフ権限プロファイルの概要](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)を参照してください。
+プルーフの役割を使用すると、個々のプルーフに対する権限を付与できます。 プルーフの役割は、プルーフの権限プロファイルとは異なります。 プルーフ権限プロファイルのについて詳しくは、[プルーフ権限プロファイルの概要](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)を参照してください。
 
 ## プルーフの役割
 
-プルーフの役割は、ユーザーがプルーフのレビューに招待されたときに、個々のプルーフに付与されます。Workfront Pro+ プランをご利用の場合は、作業用またはプランのライセンスを持つユーザーにプルーフの役割を付与できます。Workfront Premium レガシープランをご利用の場合は、指定されたプルーフライセンスを持つユーザーにプルーフの役割を付与できます。詳しくは、[Workfront のプルーフ機能へのアクセス](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)を参照してください。
+プルーフの役割は、ユーザーがプルーフのレビューに招待されたときに、個々のプルーフに付与されます。 Workfront Pro+ プランをご利用の場合は、作業用またはプランのライセンスを持つユーザーにプルーフの役割を付与できます。 Workfront Premium レガシープランをご利用の場合は、指定されたプルーフライセンスを持つユーザーにプルーフの役割を付与できます。 詳しくは、[Workfront のプルーフ機能へのアクセス](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)を参照してください。
 
 プルーフの役割では、特定のプルーフに関連してレビュアーが実行できるアクションを定義します。
 
@@ -127,7 +136,7 @@ ht-degree: 90%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong> オーサー*</strong> </p> </td> 
+   <td> <p><strong>作成者*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -143,7 +152,7 @@ ht-degree: 90%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong> 調整者*</strong> </p> </td> 
+   <td> <p><strong> モデレーター*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p><strong>✓</strong> </p> </td> 
@@ -161,6 +170,6 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-<p>*新しいWorkfront プランのユーザーは、作成者またはモデレーターのロールをシステム内の任意のユーザーに付与できますが、それらのロールに関連付けられたすべての機能を使用できるのは Standard ライセンスを持つユーザーのみです。
+<p>* 新しいWorkfront プランのユーザーは、システム内の任意のユーザーに作成者またはモデレーターの役割を付与できますが、標準ライセンスを持つユーザーのみが、その役割に関連付けられたすべての機能を使用できます。
 
 従来のプランのユーザーは、システム内のプルーフライセンスを持つユーザーに作成者またはモデレーターの役割を付与できます。</p>

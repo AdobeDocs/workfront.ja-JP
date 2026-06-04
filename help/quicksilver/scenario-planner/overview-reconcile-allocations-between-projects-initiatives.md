@@ -1,14 +1,19 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: プロジェクトとイニシアチブ間のリソース割当ての調整の概要
+title: プロジェクトとイニシアチブ間のリソース配分の調整の概要
 description: プロジェクトとイニシアチブ間でのリソース割り当て調整の概要
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+TQID: https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: 526
 ht-degree: 98%
 
 ---
@@ -19,7 +24,7 @@ ht-degree: 98%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: two more articles were added to split content from here according to where the reconciling can happen) </p>
 -->
 
-プロジェクトとイニシアチブを接続して、戦略計画と実際の作業を同期させることができます。戦略計画とイニシアチブを [!DNL Scenario Planner] で概説し、プロジェクトで実際の作業を計画すると、プロジェクトとイニシアチブの両方でリソースが一致するようになるので、割り当ての超過と不足を避けられます。
+プロジェクトとイニシアチブを接続して、戦略計画と実際の作業を同期させることができます。 戦略計画とイニシアチブを [!DNL Scenario Planner] で概説し、プロジェクトで実際の作業を計画すると、プロジェクトとイニシアチブの両方でリソースが一致するようになるので、割り当ての超過と不足を避けられます。
 
 ## 前提条件
 
@@ -48,7 +53,7 @@ ht-degree: 98%
 
   詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトの更新または作成を参照してください。
 
-両方のプロセスによって、プロジェクトと対応するイニシアチブとの間に接続が作成されます。接続後、リソースの割り当てを比較し、それらが一致していることを確認することで、リソースの割り当てを管理できます。
+両方のプロセスによって、プロジェクトと対応するイニシアチブとの間に接続が作成されます。 接続後、リソースの割り当てを比較し、それらが一致していることを確認することで、リソースの割り当てを管理できます。
 
 ## リンクされたプロジェクトとイニシアチブでのリソースの調整に関する考慮事項
 
@@ -56,7 +61,7 @@ ht-degree: 98%
 >
 >組織が [!DNL Workfront Scenario Planner] の追加のライセンスを購入した場合にのみ、イニシアチブを表示し、プロジェクトに接続し、プロジェクトに対するリソースの割り当てを表示できます。
 
-* プロジェクト上の作業項目にユーザー、チーム、担当業務を割り当てたり、担当業務をイニシアチブに割り当てたりできます。つまり、プロジェクトとイニシアチブ間で調整できるのは担当業務のみとなります。
+* プロジェクト上の作業項目にユーザー、チーム、担当業務を割り当てたり、担当業務をイニシアチブに割り当てたりできます。 つまり、プロジェクトとイニシアチブ間で調整できるのは担当業務のみとなります。
 
   >[!TIP]
   >
@@ -64,7 +69,7 @@ ht-degree: 98%
 
 * プロジェクトの次のエリアで、リンクされたプロジェクトに対するイニシアチブの担当業務の割り当てを表示できます。
 
-   * プロジェクトの「[!UICONTROL プロジェクト詳細]」エリアの [!DNL Scenario Planner] のセクション詳しくは、次の記事を参照してください。
+   * プロジェクトの「[!UICONTROL プロジェクト詳細]」エリアの [!DNL Scenario Planner] のセクション 詳しくは、次の記事を参照してください。
 
       * [&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトの更新または作成
       * [プロジェクトの[!UICONTROL 概要]エリアでの情報の管理](../manage-work/projects/manage-projects/understand-project-overview-area.md)
@@ -87,7 +92,7 @@ ht-degree: 98%
      >
      >プロジェクトとイニシアチブの担当業務に関する情報は、「[!UICONTROL 役割割り当て]」パネルに表示されます。
 
-* リンクされたイニシアチブのプロジェクトに対する担当業務の割り当ては表示できません。詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランへのプロジェクトのインポートを参照してください。
+* リンクされたイニシアチブのプロジェクトに対する担当業務の割り当ては表示できません。 詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランへのプロジェクトのインポートを参照してください。
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

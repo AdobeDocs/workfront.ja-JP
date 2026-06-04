@@ -1,16 +1,26 @@
 ---
 navigation-topic: use-lists
 title: リストの書き出し
-description: オブジェクトのリストを Adobe Workfront から書き出すことができます。Workfront のオブジェクトのリストに 2,000 個を超える項目が含まれている場合、リストを書き出すことが、1 ページでリスト内のすべての項目をレビューする唯一の方法です。
+description: オブジェクトのリストを Adobe Workfront から書き出すことができます。 Workfront のオブジェクトのリストに 2,000 個を超える項目が含まれている場合、リストを書き出すことが、1 ページでリスト内のすべての項目をレビューする唯一の方法です。
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/7ML3Rt1kLl9--gYnSI21pYX4F0vH2LzkUC5IxHUR7ek
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 86%
+source-wordcount: 299
+ht-degree: 85%
 
 ---
 
@@ -18,7 +28,7 @@ ht-degree: 86%
 
 <!--Audited: 11/2024-->
 
-[!DNL Adobe Workfront] からオブジェクトのリストを書き出すことができます。[!DNL Workfront] のオブジェクトのリストに 2,000 個を超える項目が含まれている場合、リストを書き出すことが、1 ページでリスト内のすべての項目をレビューする唯一の方法です。
+[!DNL Adobe Workfront] からオブジェクトのリストを書き出すことができます。 [!DNL Workfront] のオブジェクトのリストに 2,000 個を超える項目が含まれている場合、リストを書き出すことが、1 ページでリスト内のすべての項目をレビューする唯一の方法です。
 
 書き出し形式と制限について詳しくは、[データの書き出し](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)を参照してください。
 
@@ -60,7 +70,7 @@ ht-degree: 86%
 
 1. オブジェクトのリストに移動します。
 1. （オプション）書き出す前にリストに適用するフィルター、ビュー、グループ化を選択します。
-フィルター、ビュー、グループ化について詳しくは、[レポート要素：フィルター、ビュー、およびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)を参照してください。
+フィルター、ビューおよびグループ化について詳しくは、[&#x200B; レポート要素：フィルター、ビューおよびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)を参照してください。
 
 1. （オプション）リスト内の特定の項目のみを書き出すには、書き出したファイルに含めるリスト内のすべての項目を選択します。
 
@@ -90,4 +100,4 @@ ht-degree: 86%
      これにより、リストのコピーがこれらの形式のいずれかに書き出され、コンピューターに保存されます。
 
 1. （オプション）適切なアプリケーションを使用して、書き出したリストを開きます。
-リスト内のすべての項目は、web アプリケーションの画面に表示されるかどうかに関わらず、書き出されたファイルに表示されます。
+リスト内のすべての項目は、Web アプリケーションの画面に表示されるかどうかに関係なく、書き出したファイルに表示されます。

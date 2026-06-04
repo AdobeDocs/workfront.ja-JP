@@ -1,15 +1,27 @@
 ---
 product-previous: mobile
 navigation-topic: use-workfront-view
-title: ' Adobe Workfront ビューの開始'
+title: Adobe Workfront ビューの開始
 description: ' [!DNL Adobe Workfront]  モバイルアプリを使用すると、外出中でもプロジェクトの進捗状況を把握できます。'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/Xqw2tpo03NCxTwEB5kLopbPnTzLI6Tgp6HYcHGc-Vf0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 94%
+source-wordcount: 289
+ht-degree: 100%
 
 ---
 
@@ -17,7 +29,7 @@ ht-degree: 94%
 
 [!DNL Adobe Workfront View] モバイルアプリを使用すると、外出中でもプロジェクトの進捗状況を把握できます。
 
-[!DNL Workfront View] はレポートツールです。[!DNL Workfront View] アプリを使用して、作業を変更したり完了したりすることはできません。プロジェクトのステータスの表示のみができます。これは、プロジェクトマネージャー、ポートフォリオマネージャー、およびその他のプロジェクト関係者がプロジェクトを監視するために高レベルのインターフェイスに接続することを目的としています。
+[!DNL Workfront View] はレポートツールです。 [!DNL Workfront View] アプリを使用して、作業を変更したり完了したりすることはできません。 プロジェクトのステータスの表示のみができます。 これは、プロジェクトマネージャー、ポートフォリオマネージャー、およびその他のプロジェクト関係者がプロジェクトを監視するために高レベルのインターフェイスに接続することを目的としています。
 
 作業を完了する必要がある場合は、[!DNL iOS] および [!DNL Android] デバイスで利用できる [!DNL Workfront] モバイルアプリを使用する必要があります。
 
@@ -44,7 +56,7 @@ ht-degree: 94%
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
-   <p>投稿者以上</p>
+   <p>コントリビューター以上</p>
    <p>レビュー以上</p> </td> 
   </tr> 
  </tbody> 

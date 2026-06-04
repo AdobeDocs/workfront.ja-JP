@@ -2,13 +2,18 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: Web プルーフビューアでのインタラクティブコンテンツのプルーフの設定
-description: デスクトッププルーフビューアを使用して、すべてのインタラクティブコンテンツをレビューすることをお勧めします。ただし、組織のポリシーによってこの問題が回避されている場合は、Workfront 管理者が、インタラクティブプルーフ用の web プルーフビューアを使用するようにシステムを設定できます。この 2 つのビューアの比較情報について詳しくは、web プルーフビューアとデスクトッププルーフビューアの違いの概要を参照してください。
+description: デスクトッププルーフビューアを使用して、すべてのインタラクティブコンテンツをレビューすることをお勧めします。 ただし、組織のポリシーによってこの問題が回避されている場合は、Workfront 管理者が、インタラクティブプルーフ用の web プルーフビューアを使用するようにシステムを設定できます。 この 2 つのビューアの比較情報について詳しくは、web プルーフビューアとデスクトッププルーフビューアの違いの概要を参照してください。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/ICuW3kxD5GmRC4k2wDaxgqnDFva6iOnP5FRo-dBAVOw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 412
 ht-degree: 93%
 
 ---
@@ -17,10 +22,10 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->これは従来のブラウザー拡張機能で、サポートされなくなりました。 現在ベータ版である [Adobe Workfront レビューツール &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) に、新しいブラウザー拡張機能をインストールすることをお勧めします。
+>これは従来のブラウザー拡張機能であり、現在サポートされていません。 現在ベータ版の新しいブラウザー拡張機能をインストールすることをお勧めします：[Adobe Workfront レビューツール &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)。
 
 
-デスクトッププルーフビューアを使用して、すべてのインタラクティブコンテンツをレビューすることをお勧めします。ただし、組織のポリシーによってこの問題が回避されている場合は、Workfront 管理者が、インタラクティブプルーフ用の web プルーフビューアを使用するようにシステムを設定できます。これら 2 つのビューアの比較情報について詳しくは、[web プルーフビューアとデスクトッププルーフビューアの違いの概要](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)を参照してください。
+デスクトッププルーフビューアを使用して、すべてのインタラクティブコンテンツをレビューすることをお勧めします。 ただし、組織のポリシーによってこの問題が回避されている場合は、Workfront 管理者が、インタラクティブプルーフ用の web プルーフビューアを使用するようにシステムを設定できます。 これら 2 つのビューアの比較情報について詳しくは、[web プルーフビューアとデスクトッププルーフビューアの違いの概要](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)を参照してください。
 
 Workfront 管理者が web プルーフビューアでインタラクティブプルーフ用のシステムを設定したら、インタラクティブプルーフにコメントとマークアップを追加するために、拡張機能をダウンロードする必要があります。
 
@@ -34,7 +39,7 @@ Web プルーフビューアには次の制限があります。
 
 >[!IMPORTANT]
 >
->Web プルーフビューアでインタラクティブプルーフにコメントを付けるには、レガシーブラウザープラグインをインストールする必要があります。このプラグインは、[Firefox アドオンストア](https://addons.mozilla.org/ja-JP/firefox/addon/proofhq-rich-media-review/) の Firefox でのみ利用可能です。
+>Web プルーフビューアでインタラクティブプルーフにコメントを付けるには、レガシーブラウザープラグインをインストールする必要があります。 このプラグインは、[Firefox アドオンストア](https://addons.mozilla.org/ja-JP/firefox/addon/proofhq-rich-media-review/) の Firefox でのみ利用可能です。
 
 ## Web プルーフビューアでのインタラクティブコンテンツのプルーフの設定
 
@@ -51,4 +56,4 @@ Web プルーフビューアには次の制限があります。
 1. 「**ブラウザーに追加**」をクリックして、ブラウザーのストアにある拡張機能のダウンロードページに移動し、拡張機能をダウンロードします。
 1. Web プルーフビューアで、「**プルーフを再読み込み**」をクリックします。
 
-拡張機能がブラウザーにインストールされている場合、プルーフビューアは、「**コメントを追加**」をクリックするたびにコンテンツの静的スクリーンショットを取得します。このスクリーンショットでは、マークアップを含むコメントを追加できます。
+拡張機能がブラウザーにインストールされている場合、プルーフビューアは、「**コメントを追加**」をクリックするたびにコンテンツの静的スクリーンショットを取得します。 このスクリーンショットでは、マークアップを含むコメントを追加できます。

@@ -3,20 +3,29 @@ product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: Adobe Workfront View でプロジェクトを表示
-description: デフォルトでは、 [!DNL Adobe Workfront]  ビューに表示されるプロジェクトのリストには、最新 100 個のアクティブなプロジェクトが表示されます。プロジェクトのリストは、どの条件でもグループ化されません。
+description: デフォルトでは、 [!DNL Adobe Workfront]  ビューに表示されるプロジェクトのリストには、最新 100 個のアクティブなプロジェクトが表示されます。 プロジェクトのリストは、どの条件でもグループ化されません。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 98%
+source-wordcount: 359
+ht-degree: 95%
 
 ---
 
 # [!UICONTROL Adobe Workfront ビュー]にプロジェクトを表示
 
-デフォルトでは、[!DNL Adobe Workfront View] に表示されるプロジェクトのリストには、最新 100 個のアクティブなプロジェクトが表示されます。プロジェクトのリストは、どの条件でもグループ化されません。
+デフォルトでは、[!DNL Adobe Workfront View] に表示されるプロジェクトのリストには、最新 100 個のアクティブなプロジェクトが表示されます。 プロジェクトのリストは、どの条件でもグループ化されません。
 
 ## アクセス要件
 
@@ -35,7 +44,7 @@ ht-degree: 98%
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
-   <p>投稿者以上</p>
+   <p>コントリビューター以上</p>
    <p>レビュー以上</p> </td> 
   </tr> 
  </tbody> 
@@ -60,8 +69,8 @@ ht-degree: 98%
    * **[!UICONTROL 進捗状況]**
    * **[!UICONTROL ステータス]**
    * **[!UICONTROL スポンサー]**
-プロジェクトがこれらのフィールドで使用可能な値でグループ化されて表示されるようになりました。\
-      一度に 1 つの条件でプロジェクトをグループ化できます。条件は、プロジェクトのリストの上部にあるグラフのアプリにプリロードされ、変更できません。
+プロジェクトが、これらのフィールドの可能な値でグループ化されて表示されるようになりました。\
+      一度に 1 つの条件でプロジェクトをグループ化できます。 条件は、プロジェクトのリストの上部にあるグラフのアプリにプリロードされ、変更できません。
 
 ## プロジェクトの詳細を表示
 

@@ -7,10 +7,19 @@ feature: Get Started with Workfront
 description: デフォルトで、 [!DNL Adobe Workfront]  ビューでは  [!DNL Workfront] の[!UICONTROL すべてのプロジェクト]リストが表示されるので、表示できるすべてのプロジェクトがステータスに関係なく一覧表示されます。
 author: Lisa
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 94%
+source-wordcount: 324
+ht-degree: 100%
 
 ---
 
@@ -18,7 +27,7 @@ ht-degree: 94%
 
 デフォルトで、[!DNL Adobe Workfront View] では [!DNL Workfront] の[!UICONTROL すべてのプロジェクト]リストが表示されるので、表示できるすべてのプロジェクトがステータスに関係なく一覧表示されます。
 
-[!DNL Workfront View] でプロジェクトのリストをフィルターして、関連性のあるプロジェクトのみを表示できます。フィルターを適用した後、プロジェクトリストは次にログインするまで、または変更されるまで、フィルター状態が維持されます。
+[!DNL Workfront View] でプロジェクトのリストをフィルターして、関連性のあるプロジェクトのみを表示できます。 フィルターを適用した後、プロジェクトリストは次にログインするまで、または変更されるまで、フィルター状態が維持されます。
 
 ## アクセス要件
 
@@ -37,7 +46,7 @@ ht-degree: 94%
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
-   <p>投稿者以上</p>
+   <p>コントリビューター以上</p>
    <p>レビュー以上</p> </td> 
   </tr> 
  </tbody> 

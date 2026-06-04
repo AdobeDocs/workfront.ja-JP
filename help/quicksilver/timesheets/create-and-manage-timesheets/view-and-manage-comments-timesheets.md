@@ -1,15 +1,26 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: タイムシートのコメントを表示および管理する
+title: タイムシート上のコメントの表示と管理
 description: タイムシート、タイムシートに含まれる作業項目、およびログに記録する各時間エントリに対してコメントを付けることができます。
 author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+TQID: https://experienceleague.adobe.com/Lx-CI6hjj-YXrxIus0Kicsa7Gx84xjiuKDUJWPpUVqc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 81%
+source-wordcount: 873
+ht-degree: 79%
 
 ---
 
@@ -23,7 +34,7 @@ ht-degree: 81%
 * 時間エントリ
 * タスクやイシューなど、個々の項目
 
-タイムシートからの更新、または個々の時間エントリからの更新をメモ レポートに表示できます。 詳しくは、[&#x200B; メモレポートですべての更新を表示する &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md) を参照してください。
+タイムシートまたは個々の時間エントリの更新をメモレポートに表示できます。 詳しくは、[すべての更新をメモ レポートで表示](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)するを参照してください。
 
 ## アクセス要件
 
@@ -39,12 +50,12 @@ ht-degree: 81%
   </tr> 
   <tr> 
    <td>Adobe Workfront プラン</td> 
-   <td> <p>ライト以上 </p>
+   <td> <p>明るいまたはそれ以上 </p>
    <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td> <p>タスクおよび問題への表示以上のアクセス</p> </td> 
+   <td> <p>タスクとイシューへのアクセス権を表示または高くする</p> </td> 
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 
@@ -59,7 +70,7 @@ ht-degree: 81%
 
 ## タイムシートの時間エントリコメントを表示 {#view-hour-entry-comments-on-a-timesheet}
 
-個々の時間エントリに対するコメントをタイムシートに表示するように設定できます。コメントの表示と非表示を切り替えるオプションは、タイムシート全体に対するコメントや、個々の項目に対するコメントには影響しません。詳しくは、[タイムシートにコメントする](#make-comments-on-a-timesheet)を参照してください。
+個々の時間エントリに対するコメントをタイムシートに表示するように設定できます。 コメントの表示と非表示を切り替えるオプションは、タイムシート全体に対するコメントや、個々の項目に対するコメントには影響しません。 詳しくは、[タイムシートにコメントする](#make-comments-on-a-timesheet)を参照してください。
 
 デフォルトでは、タイムシートに初めてアクセスしたときはコメントが非表示になっています。
 
@@ -67,13 +78,13 @@ ht-degree: 81%
 
 {{step1-to-timesheets}}
 
-**タイムシート** エリアが開きます。
+**タイムシート**&#x200B;領域が開きます。
 
 1. コメントを表示するタイムシートを開きます。
-1. タイムシートの右上隅にある「**コメントの表示**」をクリックします。
-時間エントリとコメントが記録された項目の下にコメントが表示されます。
+1. タイムシートの右上隅にある「**コメントを表示**」をクリックします。
+コメントは、時間エントリとコメントが記録された項目の下に表示されます。
 
-   ![&#x200B; タイムシートを再設計したタスクの下に展開されたコメント &#x200B;](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![&#x200B; タスクのリニューアルされたタイムシート &#x200B;](assets/comments-expanded-under-tasks-redesigned-timesheet.png)の下に展開されたコメント
 
 
 ## タイムシートにコメントする {#make-comments-on-a-timesheet}
@@ -84,20 +95,20 @@ ht-degree: 81%
 
 ### タイムシート全体に対するコメント {#comment-on-the-overall-timesheet}
 
-タイムシートに関する全般的なコメントを付けることができます。タイムシート全体に対するコメントは、他のオブジェクトに対するコメントと似ています。
+タイムシートに関する全般的なコメントを付けることができます。 タイムシート全体に対するコメントは、他のオブジェクトに対するコメントと似ています。
 
-1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、左上隅またはWorkfrontがある場合は **メインメニュー** アイコン ![&#x200B; ラインメインメニュー &#x200B;](assets/lines-main-menu.png) をクリックします。
+1. 右上隅の&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)、または左上隅またはWorkfrontにある&#x200B;**メインメニュー** アイコン ![行メインメニュー](assets/lines-main-menu.png)をクリックします（使用可能な場合）。
 
 1. 「**タイムシート**」をクリックします。
 1. コメントを追加するタイムシートに移動します。
 1. 左パネルの「**更新**」をクリックし、次に「**コメント**」タブをクリックします。
 1. [作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)の説明に従って、新しいコメントの追加を開始するか、既存のコメントに返信します。
-1. （オプション）「**人物またはチームにタグ付け**」フィールドにユーザーまたはチームを追加して、他のユーザーを更新に含めます。詳しくは、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
+1. （オプション）「**人物またはチームにタグ付け**」フィールドにユーザーまたはチームを追加して、他のユーザーを更新に含めます。 詳しくは、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
 1. （オプション）社内のユーザーだけに更新を表示する場合は、「**社外秘**」オプションを選択します。
 
    >[!TIP]
    >
-   >**会社に非公開** 設定は、Workfront プロファイルが会社に関連付けられている場合にのみ使用できます。
+   >会社に対する&#x200B;**非公開**&#x200B;設定は、Workfront プロファイルが会社に関連付けられている場合にのみ使用できます。
 
 1. コメントを入力してから、「**送信**」をクリックします。
 
@@ -118,7 +129,7 @@ ht-degree: 81%
 
 ### タイムシートの個々の時間エントリに対するコメント {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックします。
 
 1. 「**タイムシート**」をクリックします。
 1. コメントを追加するタイムシートに移動し、左側のパネルで「**タイムシート**」をクリックします。
@@ -133,11 +144,11 @@ ht-degree: 81%
 
    * 新しいコメントを入力し、「**完了**」をクリックします。
    * 既存のコメントを編集して「**完了**」をクリックするか、「**キャンセル**」をクリックして変更を破棄します。
-   * 保存したコメントを削除するには、**削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
+   * **削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックして、保存したコメントを削除します。
 
      時間エントリボックスの右上隅に、時間エントリで記録されたコメントがあることを示す青いマーカーが表示されます。
 
-   ![&#x200B; 時間ログのコメントボタンによるタイムシートの再設計 &#x200B;](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   時間ログの![&#x200B; コメント ボタンがタイムシートを再設計しました](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -152,16 +163,16 @@ ht-degree: 81%
 
 >[!TIP]
 >
->タイムシート内の個々の項目にコメントを付け、その実際の開始日または条件を更新できます。更新は、ログに記録された時間に関連付けられたオブジェクトの「更新」エリアに表示されます。
+>タイムシート内の個々の項目にコメントを付け、その実際の開始日または条件を更新できます。 更新は、ログに記録された時間に関連付けられたオブジェクトの「更新」エリアに表示されます。
 
 
-タイムシート内では、タスクとイシューに対してのみコメントを付けることができます。プロジェクトや一般時間に対してコメントを付けることはできません。
+タイムシート内では、タスクとイシューに対してのみコメントを付けることができます。 プロジェクトや一般時間に対してコメントを付けることはできません。
 
-1. Adobe Workfrontの右上隅にある [!UICONTROL **メインメニュー**] アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある&#x200B;[!UICONTROL **メインメニュー**] アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックします。
 1. 「[!UICONTROL **タイムシート**]」をクリックします。
 1. コメントを追加するタイムシートに移動し、左側のパネルで「[!UICONTROL **タイムシート**]」をクリックします。
 1. タスクまたはイシューの行をクリックし、「[!UICONTROL **概要を開く**]」をクリックします。
-1. 概要パネルの&#x200B;[!UICONTROL **更新**]&#x200B;エリアで更新の入力を開始して、「[!UICONTROL **送信**]」をクリックします。
+1. 概要パネルの&#x200B;[!UICONTROL **更新**]&#x200B;領域で更新プログラムを入力し、[!UICONTROL **送信**]をクリックします。
 更新は、タスクとイシューの「更新」セクションに表示されます。
 1. （オプション）「[!UICONTROL **概要を閉じる**]」をクリックして概要パネルを閉じます。
 

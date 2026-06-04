@@ -3,22 +3,32 @@ title: レポート、ダッシュボードおよびカレンダーの共有
 content-type: reference
 product-area: user-management;reports;dashboards;calendars
 navigation-topic: grant-and-request-access-to-objects
-description: アクセスレベルを割り当てる際に、Adobe Workfront 管理者は、レポート、ダッシュボードおよびカレンダーを表示または編集するためのアクセス権をユーザーに付与します。レポート、ダッシュボードおよびカレンダーへのアクセス権の付与に関して詳しくは、レポート、ダッシュボードおよびカレンダーへのアクセス権の付与を参照してください。
+description: アクセスレベルを割り当てる際に、Adobe Workfront 管理者は、レポート、ダッシュボードおよびカレンダーを表示または編集するためのアクセス権をユーザーに付与します。 レポート、ダッシュボードおよびカレンダーへのアクセス権の付与に関して詳しくは、レポート、ダッシュボードおよびカレンダーへのアクセス権の付与を参照してください。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: 573
 ht-degree: 100%
 
 ---
 
 # レポート、ダッシュボードおよびカレンダーの共有
 
-アクセスレベルを割り当てる際に、Adobe Workfront 管理者は、レポート、ダッシュボードおよびカレンダーを表示または編集するためのアクセス権をユーザーに付与します。レポート、ダッシュボードおよびカレンダーへのアクセス権の付与に関して詳しくは、[レポート、ダッシュボードおよびカレンダーへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)を参照してください。
+アクセスレベルを割り当てる際に、Adobe Workfront 管理者は、レポート、ダッシュボードおよびカレンダーを表示または編集するためのアクセス権をユーザーに付与します。 レポート、ダッシュボードおよびカレンダーへのアクセス権の付与に関して詳しくは、[レポート、ダッシュボードおよびカレンダーへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)を参照してください。
 
-ユーザーに付与されるアクセスレベルに加えて、共有するためのアクセス権を自分が持っている特定のレポート、ダッシュボードまたはカレンダーを表示または管理する権限をユーザーに付与することもできます。オブジェクトの共有権限をユーザーに付与する方法については、[オブジェクトの共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
+ユーザーに付与されるアクセスレベルに加えて、共有するためのアクセス権を自分が持っている特定のレポート、ダッシュボードまたはカレンダーを表示または管理する権限をユーザーに付与することもできます。 オブジェクトの共有権限をユーザーに付与する方法については、[オブジェクトの共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
 権限は、Workfrontの 1 つの項目に固有で、その項目に対して実行できるアクションを定義します。
 
@@ -45,9 +55,9 @@ ht-degree: 100%
 
 * レポートやダッシュボードは個別に共有することも、一括で共有することもできます。
 
-  カレンダーは個別にのみ共有できます。一括で共有することはできません。
+  カレンダーは個別にのみ共有できます。 一括で共有することはできません。
 
-* ビルトインのシステムレポートを共有することはできません。共有できるのは、カスタムレポートのみです。
+* ビルトインのシステムレポートを共有することはできません。 共有できるのは、カスタムレポートのみです。
 
   システムレポートを新しいカスタムレポートとして保存する方法について詳しくは、[レポートのコピーの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)を参照してください。
 
@@ -57,8 +67,8 @@ ht-degree: 100%
    * 管理
 
 * ダッシュボードを共有すると、ユーザーにはデフォルトで、ダッシュボード上のすべてのレポート、カレンダーおよび外部ページに対する表示権限があります。
-* リクエストライセンスを持つユーザーは、システム全体のレポートを表示できません。依頼者がレポートを表示する必要がある場合は、そのレポートを依頼者と個別に共有する必要があります。
-* レポートにプロンプトがあり、それを公に共有する場合、レポートにアクセスするユーザーがプロンプトを使用してレポートを実行するには、ユーザーが Workfront にログインする必要があります。Workfront にログインできない場合は、プロンプトが適用されないレポートが表示されます。\
+* リクエストライセンスを持つユーザーは、システム全体のレポートを表示できません。 依頼者がレポートを表示する必要がある場合は、そのレポートを依頼者と個別に共有する必要があります。
+* レポートにプロンプトがあり、それを公に共有する場合、レポートにアクセスするユーザーがプロンプトを使用してレポートを実行するには、ユーザーが Workfront にログインする必要があります。 Workfront にログインできない場合は、プロンプトが適用されないレポートが表示されます。\
   プロンプトを使用したレポートの共有の制限事項について詳しくは、[レポートへのプロンプトの追加](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)の記事で[プロンプト付きレポートの共有の制限事項](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)の節を参照してください。
 
 * レポートまたはカレンダーから継承された権限は削除できます。
@@ -71,4 +81,4 @@ ht-degree: 100%
 
   >[!CAUTION]
   >
-  >機密情報を含んだオブジェクトを外部ユーザーと共有する場合は、注意することをお勧めします。Workfront のユーザーや組織の一員でなくても、情報を表示できるようになるからです。
+  >機密情報を含んだオブジェクトを外部ユーザーと共有する場合は、注意することをお勧めします。 Workfront のユーザーや組織の一員でなくても、情報を表示できるようになるからです。

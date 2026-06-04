@@ -6,9 +6,23 @@ description: 作業の承認
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 628f668f0c5df34eb967729224d91a28cebbb17c
+TQID: https://experienceleague.adobe.com/dr9JkMk-s8-aartIC4j1N0uZOYOZwx96-xYdXC01fkU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: 829
 ht-degree: 77%
 
 ---
@@ -122,13 +136,13 @@ Workfront の様々な領域で承認を表示または管理できます。
          <ul>
          <li>レビューの完了</li>
          </ul>
-      この列のオプションは、統合承認にのみ適用されます。 レガシードキュメントの承認は、作業項目の承認と同じように表示されます。 
+      この列のオプションは、統合承認にのみ適用されます。レガシードキュメントの承認は、作業項目の承認と同じように表示されます。 
       </td>
       <td>
          <ul>
          <li>プルーフを見る</li>
          </ul>
-         プルーフビューアで決定します。 プルーフの確認について詳しくは、<a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Adobe Workfront でのプルーフのレビュー</a>を参照してください。
+         プルーフビューアで決定します。プルーフのレビューについて詳しくは、<a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Adobe Workfront内のプルーフのレビュー</a>を参照してください。
       </td>
    </tr>
    </table>

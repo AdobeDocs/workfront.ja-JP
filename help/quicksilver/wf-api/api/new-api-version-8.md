@@ -2,14 +2,21 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API バージョン 8 の新機能
-description: これは、API バージョン 9 で初めて使用されるリソースのリストです。バージョン 8 のリソースに対して行われた更新のリストについては、API バージョン 8 の更新を参照してください。
+description: これは、API バージョン 9 で初めて使用されるリソースのリストです。 バージョン 8 のリソースに対して行われた更新のリストについては、API バージョン 8 の更新を参照してください。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/bKFAN--rVO1yxgFLiyhXolgUBajVGYQxM7pBUuqy3v8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: 269
 ht-degree: 100%
 
 ---
@@ -18,17 +25,17 @@ ht-degree: 100%
 
 ## 新しいリソース
 
-これは、API バージョン 9 で初めて使用されるリソースのリストです。バージョン 8 のリソースに対して行われた更新のリストについては、[API バージョン 8 の更新](../../wf-api/api/new-api-version-8-updates.md)を参照してください。
+これは、API バージョン 9 で初めて使用されるリソースのリストです。 バージョン 8 のリソースに対して行われた更新のリストについては、[API バージョン 8 の更新](../../wf-api/api/new-api-version-8-updates.md)を参照してください。
 
 **AgileWork**
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| backlogOrder | 顧客 |   |   | bulkCopy |   | コピー |
-| 色 | イテレーション |   |   |   |   | COUNT |
+| backlogOrder | 顧客 |   |   | bulkCopy  |   | コピー |
+| 色 | イテレーション  |   |   |   |   | COUNT |
 | customerID | lastUpdatedBy |   |   |   |   | 削除 |
 | 見積り | opTask |   |   |   |   | EDIT |
-| ID | プロジェクト |   |   |   |   | GET |
+| ID | プロジェクト |   |   |   |   | GET  |
 | isReady | storyboardParent |   |   |   |   | REPORT |
 | iterationID | タスク |   |   |   |   | SEARCH |
 | lastUpdateDate | チーム |   |   |   |   |   |
@@ -39,7 +46,7 @@ ht-degree: 100%
 | projectID |   |   |   |   |   |   |
 | storyBoardOrder |   |   |   |   |   |   |
 | storyBoardParentID |   |   |   |   |   |   |
-| taskID |   |   |   |   |   |   |
+| taskID  |   |   |   |   |   |   |
 | teamID |   |   |   |   |   |   |
 | タイプ |   |   |   |   |   |   |
 | uiObjCode |   |   |   |   |   |   |
@@ -51,7 +58,7 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| deprecationRelease |   |   |   |   |   | COUNT |
+| deprecationRelease |   |   |   |   |   | COUNT  |
 | removalRelease |   |   |   |   |   | GET |
 | versionName |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
@@ -68,7 +75,7 @@ ht-degree: 100%
 |   |   |   |   |   |   | EDIT |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | REPORT |
-|   |   |   |   |   |   | 検索 |
+|   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
 
@@ -104,7 +111,7 @@ ht-degree: 100%
 | projectID |   |   |   |   |   | EDIT |
 | roleID |   |   |   |   |   | GET |
 | userID |   |   |   |   |   | REPORT |
-|   |   |   |   |   |   | 検索 |
+|   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
 
@@ -137,12 +144,12 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| ID |   |   |   | addSubscribers | サブスクライバー | ADD |
+|  ID |   |   |   | addSubscribers | サブスクライバー | ADD |
 |   |   |   |   | removeSubscribers |   | COUNT  |
 |   |   |   |   | subscribes |   | DELETE |
 |   |   |   |   | unsubscribes |   | GET |
 |   |   |   |   |   |   | REPORT |
-|   |   |   |   |   |   | 検索 |
+|   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
 
