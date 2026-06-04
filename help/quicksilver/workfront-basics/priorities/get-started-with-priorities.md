@@ -6,18 +6,22 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+TQID: https://experienceleague.adobe.com/pZbr-zFYyGsswScJTb80R679wGRmKJUaXexO8G4XRoo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 9%
+source-wordcount: 1021
+ht-degree: 10%
 
 ---
 
 # [!DNL Priorities] の基本を学ぶ
-
-{{preview-fast-release-general}}
 
 「Priorities」は、タスクオーナー向けにカスタマイズされた、合理化された直感的なエクスペリエンスです。 優先順位は、ワークリストから順に段階的に公開されます。
 
@@ -29,7 +33,7 @@ ht-degree: 9%
 
 「優先度」ワークリストおよびカレンダーには、割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
 
-<span class="preview">Workfront管理者は、レイアウト テンプレートでユーザーの優先度を有効にできます。 詳しくは、[&#x200B; レイアウトテンプレートを使用したメインメニューのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。</span>
+Workfront管理者は、レイアウトテンプレートでユーザーの優先度を有効にできます。 詳しくは、[レイアウトテンプレートを使用したメインメニューのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
 ## 作業の検索と整理
 
@@ -120,7 +124,7 @@ ht-degree: 9%
 
 詳しくは、[重要な作業項目の優先順位付け](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)を参照してください。
 
-![作業リスト &#x200B;](assets/worklist.png)
+![作業リスト ](assets/worklist.png)
 
 ### カレンダービューの使用
 
@@ -134,7 +138,7 @@ ht-degree: 9%
 >
 >Light、Review、Contributor、およびRequestorのライセンスでは、優先度へのアクセスが制限されています。 これらのライセンスの種類がタスクや問題とどのように関係しているかについて詳しくは、を参照してください
 >
->* [新しいライセンスによるオブジェクトと領域へのアクセス &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [新しいライセンスによるオブジェクトと領域へのアクセス ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 >* [新しいアクセス レベルの各オブジェクト タイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
 >* [ライセンスタイプ別のオブジェクトやエリアへのアクセス](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
 >* [各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
@@ -148,15 +152,15 @@ ht-degree: 9%
 
 詳しくは、[優先度](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)でのコメントの追加と表示を参照してください。
 
-![更新、ログ時間、アップロード &#x200B;](assets/update-log-upload.png)
+![更新、ログ時間、アップロード ](assets/update-log-upload.png)
 
 ### 時間を記録
 
-作業項目の作業時間を記録し、作業に費やした時間数を示すことができます。 休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。記録した時刻がタイムシートに表示されます。
+作業項目の作業時間を記録し、作業に費やした時間数を示すことができます。 休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。 記録した時刻がタイムシートに表示されます。
 
 詳しくは、[優先度に時間を記録する](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)を参照してください。
 
-![更新、ログ時間、アップロード &#x200B;](assets/update-log-upload.png)
+![更新、ログ時間、アップロード ](assets/update-log-upload.png)
 
 ### ファイルのアップロード
 
@@ -167,16 +171,16 @@ ht-degree: 9%
 * 追加ファイルの追加
 * 接続されたドキュメント統合からファイルを読み込む
 
-詳しくは、「[優先度でファイルをアップロード &#x200B;](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)」を参照してください。
+詳しくは、「[優先度でファイルをアップロード ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)」を参照してください。
 
-![更新、ログ時間、アップロード &#x200B;](assets/update-log-upload.png)
+![更新、ログ時間、アップロード ](assets/update-log-upload.png)
 
 
 ### クイックリンクを追加
 
 頻繁に使用するリンクは、作業項目の詳細ページに埋め込むことができます。 クイックリンクを使用すると、リンクに素早くアクセスしたり、リンクをコピーしたりできます。
 
-![&#x200B; クイックリンク &#x200B;](assets/quick-links.png)
+![ クイックリンク ](assets/quick-links.png)
 
 詳細については、[優先順位のクイックリンクの追加と管理](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)を参照してください。
 
