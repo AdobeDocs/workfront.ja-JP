@@ -6,10 +6,13 @@ description: この記事をレビューして、 [!DNL Adobe Workfront]  モバ
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/arOfto6GhoowpA9jfSqDUMyT-sPqyKYYOAFltwDwBFY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 98%
+source-wordcount: 311
+ht-degree: 94%
 
 ---
 
@@ -24,23 +27,23 @@ ht-degree: 98%
 [!DNL Google Play Store] を使用してアプリを見つけてダウンロードできます。
 
 1. デバイスで [!DNL Play Store] アプリにアクセスします。
-1. [!DNL Workfront] を検索し、リストに表示されたらタップします。
+1. [!DNL Workfront]を検索し、リストに表示されたらタップします。
 ベータ版に参加する前に、[!DNL Workfront] アプリをインストールする必要があります。
 1. [!DNL Workfront] アプリをまだインストールしていない場合は、インストールして開きます。
 1. ページの中央に向かってスクロールし、「**[!UICONTROL ベータテスターになる]**」セクションで「**[!UICONTROL 参加する]**」をタップします。
 
 1. 「**[!UICONTROL 参加]**」をタップして、ベータテスターになることを確認します。\
-   ベータ版ユーザーとして認識されるまでに数分かかります。変更を確認するには、[!DNL Play Store] を再度開く必要がある場合があります。
+   ベータ版ユーザーとして認識されるまでに数分かかります。 変更を確認するには、[!DNL Play Store] を再度開く必要がある場合があります。
 
 1. 進行状況が完了したら、ベータ版ユーザーになったことを示す確認メッセージが表示されます。\
    [!DNL Play Store] 内のアプリ名の後に「[!UICONTROL Beta]」という単語が表示され、アプリのベータ版を使用していることを示します。\
-   ![Android ベータ版テスター &#x200B;](assets/android-beta-tester-adobe-350x468.png)
+   ![Android ベータテスター](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR コード
 
 以下の QR コードをスキャンして、ベータ版に新規登録し、アプリをダウンロードすることもできます。
 
-![Android QR コード &#x200B;](assets/android-qr-code-350x409.png)
+![Android QR コード ](assets/android-qr-code-350x409.png)
 
 ## 現在の状況をお知らせください
 
@@ -59,4 +62,4 @@ ht-degree: 98%
 1. デバイスで [!DNL Play Store] アプリにアクセスします。
 1. [!DNL Workfront] を検索し、リストに表示されたらタップします。
 1. 「**[!UICONTROL あなたはベータテスターです]**」セクションまで下にスクロールし、「**[!UICONTROL 移動]**」をタップします。\
-   ベータ版テスターとして削除されるまでに数分かかります。変更を確認するには、[!DNL Play Store] を再度開く必要がある場合があります。
+   ベータ版テスターとして削除されるまでに数分かかります。 変更を確認するには、[!DNL Play Store] を再度開く必要がある場合があります。

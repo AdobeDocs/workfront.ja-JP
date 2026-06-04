@@ -1,29 +1,35 @@
 ---
 product-area: user-management
 navigation-topic: configure-your-user-profile
-title: Workfront オブジェクトまたは領域の左側のパネルへのダッシュボードの追加
-description: ' [!DNL Workfront]  web アプリケーションで確認できる情報は、多くの場合、デフォルトでは左側のパネルのセクションに表示されます。各セクションには、 [!DNL Workfront]  のエリアまたはオブジェクトに関する様々な情報が含まれています。'
+title: Workfront オブジェクトまたはエリアの左側のパネルにダッシュボードを追加する
+description: ' [!DNL Workfront]  web アプリケーションで確認できる情報は、多くの場合、デフォルトでは左側のパネルのセクションに表示されます。 各セクションには、 [!DNL Workfront]  のエリアまたはオブジェクトに関する様々な情報が含まれています。'
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/GnU1tvjVHwZFsJwu8p1Y9tULbgRjE5-reFejaNEAt2Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 72%
+source-wordcount: 636
+ht-degree: 74%
 
 ---
 
-# Workfront オブジェクトまたは領域の左側のパネルへのダッシュボードの追加
+# Workfront オブジェクトまたはエリアの左側のパネルにダッシュボードを追加
 
 ## [!DNL Adobe Workfront] セクション
 
-[!DNL Workfront] web アプリケーションで確認できる情報は、多くの場合、デフォルトでは左側のパネルのセクションに表示されます。各セクションには、[!DNL Workfront] のエリアまたはオブジェクトに関する様々な情報が含まれています。
+[!DNL Workfront] web アプリケーションで確認できる情報は、多くの場合、デフォルトでは左側のパネルのセクションに表示されます。 各セクションには、[!DNL Workfront] のエリアまたはオブジェクトに関する様々な情報が含まれています。
 
 [!DNL Workfront] のデフォルトのエリアについて詳しくは、[デフォルトの  [!DNL Adobe Workfront]  レイアウトについて](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)の記事を参照してください。
 
-[!DNL Workfront] にデフォルトで付属するセクションに加え、ワークフローに関連する情報を表示できるダッシュボードを追加できます。すべてのエリアやオブジェクトにダッシュボードを追加できるわけではありません。
+[!DNL Workfront] にデフォルトで付属するセクションに加え、ワークフローに関連する情報を表示できるダッシュボードを追加できます。 すべてのエリアやオブジェクトにダッシュボードを追加できるわけではありません。
 
-次の表に、左側のパネルにセクションが含まれている [!DNL Workfront] 領域およびオブジェクトと、ダッシュボードでカスタマイズできるすべての領域およびオブジェクトを示します。
+次の表は、左側のパネルにセクションが含まれている[!DNL Workfront]領域とオブジェクトをすべて示しており、ダッシュボードでカスタマイズできる領域とオブジェクトを示しています。
 
 | **[!DNL Workfront]のエリアまたはオブジェクト** | **デフォルトのシステムセクション** | **ダッシュボード** |
 |---|---|---|
@@ -35,10 +41,10 @@ ht-degree: 72%
 | [!UICONTROL プログラム] | ✓ | ✓ |
 | [!UICONTROL プロジェクト] | ✓ | ✓ |
 | [!UICONTROL タスク] | ✓ | ✓ |
-| [!UICONTROL イシュー] | ✓ | ✓ |
+| [!UICONTROL 問題] | ✓ | ✓ |
 | [!UICONTROL ユーザー] | ✓ | ✓ |
 | [!UICONTROL ドキュメント] | ✓ | ✓ |
-| [!UICONTROL &#x200B; リソース &#x200B;] 領域 | ✓ | ✓ |
+| [!UICONTROL  リソース ]地域 | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -57,7 +63,7 @@ ht-degree: 72%
   <tr> 
    <td>Adobe Workfront プラン</td> 
    <td>
-   <p>ライト以上</p>
+   <p>明るいまたはそれ以上</p>
    <p>レビュー以上</p></td>
   </tr> 
   <tr> 
@@ -73,7 +79,7 @@ ht-degree: 72%
 
 ## [!DNL Workfront] オブジェクトまたはエリアの左側のパネルにダッシュボードを追加
 
-ダッシュボードを追加する前に、表示するすべての情報を含むダッシュボードを作成する必要があります。外部ページを作成することもできます。
+ダッシュボードを追加する前に、表示するすべての情報を含むダッシュボードを作成する必要があります。 外部ページを作成することもできます。
 
 ダッシュボードの作成について詳しくは、[ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)の記事を参照してください。
 
@@ -81,25 +87,25 @@ ht-degree: 72%
 
 ダッシュボードや外部ページを作成した後、左側のパネルに追加できます。
 
-1. 左側のパネルでダッシュボードを追加できる、[!DNL Workfront] のいずれかの領域またはオブジェクトに移動します。
+1. 左側のパネルでダッシュボードを追加できる[!DNL Workfront]領域またはオブジェクトのいずれかに移動します。
 
-   ダッシュボードを追加できる領域とオブジェクトについて詳しくは、[[!DNL Adobe Workfront]  節 &#x200B;](#adobe-workfront-sections) を参照してください。
+   ダッシュボードを追加できる領域とオブジェクトについて詳しくは、[[!DNL Adobe Workfront]  セクション ](#adobe-workfront-sections)を参照してください。
 
-1. 左側のパネルで **[!UICONTROL ダッシュボードを追加]** をクリックします。
-1. ダッシュボードの名前を「**[!UICONTROL クイックリンク名]**」フィールドに入力します。これは自分だけに表示されます。
+1. 左側のパネルで「**[!UICONTROL ダッシュボードを追加]**」をクリックします。
+1. ダッシュボードの名前を「**[!UICONTROL クイックリンク名]**」フィールドに入力します。 これは自分だけに表示されます。
 1. 「**[!UICONTROL ダッシュボードを選択]**」フィールドに既存のダッシュボードまたは外部ページの名前を入力し、リストに表示されたらダッシュボードを選択します。
 1. 「**[!UICONTROL 追加]**」をクリックします。
 1. （オプション）セクションを表示する順序でドラッグ＆ドロップします。
 
    上部のセクションは、ページのデフォルトのセクションです。
 
-   追加したダッシュボードは、自分だけが使用できます。
+   追加したダッシュボードは、自分のみが使用できます。
 
 ## オブジェクトの左側のパネルでのダッシュボードの表示
 
-オブジェクトの下にダッシュボードを追加する方法について詳しくは、この記事の [[!UICONTROL Workfront オブジェクトまたはエリアの左側のパネルへのダッシュボード &#x200B;] の追加](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)の節を参照してください。
+オブジェクトの下にダッシュボードを追加する方法について詳しくは、この記事の [[!UICONTROL Workfront オブジェクトまたはエリアの左側のパネルへのダッシュボード ] の追加](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)の節を参照してください。
 
-ダッシュボードをオブジェクトの左側のパネルに追加すると、オブジェクトはダッシュボードのフィルターとして機能します。 例えば、ダッシュボードのタスクレポートを追加し、そのダッシュボードをプロジェクトに追加すると、ダッシュボードには、表示しているプロジェクトのタスクのみが表示されます。
+オブジェクトの左側のパネルにダッシュボードを追加すると、そのオブジェクトはダッシュボードのフィルターとして機能します。 例えば、ダッシュボードにタスクレポートを追加し、ダッシュボードをプロジェクトに追加すると、ダッシュボードには表示しているプロジェクトのタスクのみが表示されます。
 
 次のオブジェクトは、表示されるオブジェクトに対してフィルタリングされます（そのオブジェクトの階層がオブジェクトよりも高い場合）。
 
@@ -116,4 +122,4 @@ ht-degree: 72%
 
 ダッシュボードを [!DNL Workfront] インスタンスに追加すると、自分だけに表示されます。
 
-システム管理者またはグループ管理者のみが、レイアウトテンプレート内の他のユーザーとダッシュボードを共有できます。 レイアウトテンプレートを使用して左側のパネルをカスタマイズする方法について詳しくは、[レイアウトテンプレートを使用した左側のパネルのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
+レイアウトテンプレート内の他のユーザーとダッシュボードを共有できるのは、システムまたはグループ管理者のみです。 レイアウトテンプレートを使用して左側のパネルをカスタマイズする方法について詳しくは、[レイアウトテンプレートを使用した左側のパネルのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。

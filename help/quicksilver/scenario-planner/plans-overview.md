@@ -7,9 +7,13 @@ description: ビジネスマネージャーは、Adobe Workfront シナリオプ
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 3f53cb49bbe8de21c42ec557fd367490f8ae8956
+TQID: https://experienceleague.adobe.com/FvNrULxi5wJwH6C6Rok0gnIriccNiYRXx150Ea-9-HI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: 1167
 ht-degree: 97%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 97%
 
 ## アクセス要件
 
-シナリオプランナーにアクセスするためのアクセス要件については、[&#x200B; シナリオプランナーの使用に必要なアクセス &#x200B;](/help/quicksilver/scenario-planner/access-needed-to-use-sp.md) を参照してください。
+シナリオプランナーにアクセスするためのアクセス要件について詳しくは、[ シナリオプランナーを使用するために必要なアクセス ](/help/quicksilver/scenario-planner/access-needed-to-use-sp.md)を参照してください。
 
 ## 計画の概要
 
@@ -28,11 +32,11 @@ ht-degree: 97%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add information about utilization percentage for job roles - per this story?? - https://hub.workfront.com/task/5eb0784900083e1f2cabb60d6e0d04d3/overview)</p>
 -->
 
-組織の各高レベルの成果を特定し、それを計画として [!DNL Workfront Scenario Planner] に追加できます。計画は、[!DNL Scenario Planner] の最大の作業アイテムです。計画の達成を容易にするために、計画を複数の取り組みに分割して、計画の完了に向けて個々の組織単位がどのような手順を実行する必要があるかを示すことができます。
+組織の各高レベルの成果を特定し、それを計画として [!DNL Workfront Scenario Planner] に追加できます。 計画は、[!DNL Scenario Planner] の最大の作業アイテムです。 計画の達成を容易にするために、計画を複数の取り組みに分割して、計画の完了に向けて個々の組織単位がどのような手順を実行する必要があるかを示すことができます。
 
-その後、イニシアチブを実際のプロジェクトと関連付けて、実際の作業が実際に計画を完了する際にどのように考慮されるかを示すことができます。この記事では、計画に関する一般的な情報を説明します。イニシアチブの詳細については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md) のイニシアチブの概要を参照してください。
+その後、イニシアチブを実際のプロジェクトと関連付けて、実際の作業が実際に計画を完了する際にどのように考慮されるかを示すことができます。 この記事では、計画に関する一般的な情報を説明します。 イニシアチブの詳細については、[ [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md) のイニシアチブの概要を参照してください。
 
-計画で特定された作業を完了するために必要な労働力と財務リソースを定義できます。計画内のイニシアチブを完了するために必要な労働力と財務リソースを表示することもできます。
+計画で特定された作業を完了するために必要な労働力と財務リソースを定義できます。 計画内のイニシアチブを完了するために必要な労働力と財務リソースを表示することもできます。
 
 各計画について次の情報を見積もり、確認できます。
 
@@ -41,44 +45,44 @@ ht-degree: 97%
 * イニシアチブに関して必要な担当業務に対する、各担当業務の稼働率をレビューします。
 * イニシアチブに関連するコストに対する計画の予算の稼働率をレビューします。
 * 任意の時点での計画の純価値をレビューします。
-* 別のシナリオを選択すると、計画レベルの情報が変わります。各シナリオには異なる予算と人材情報があります。
+* 別のシナリオを選択すると、計画レベルの情報が変わります。 各シナリオには異なる予算と人材情報があります。
 
-計画の作成の詳細については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)での計画の作成と編集を参照してください。
+計画の作成の詳細については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)での計画の作成と編集を参照してください。
 
-シナリオの作成の詳細については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) の計画シナリオの作成と比較を参照してください。
+シナリオの作成の詳細については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) の計画シナリオの作成と比較を参照してください。
 
 ## 計画に関する考慮事項
 
 計画を作成するときは、次の点を考慮してください。
 
-* チーム、部門全体、さらには会社全体の計画を立てることができます。計画は、企業の戦略を高レベルで概説する大きな計画単位です。
-* 最も短い計画の期間は 1年間です。最長の計画の期間は 5年間です。
-* 計画に基づいて実際の作業を行うことはできません。予定作業を開始するために必要なリソースと予算があるかどうかを大まかに見積もることができます。例えば、会社が拡張して新しい場所に新しいオフィスを取得したい場合、それを達成するために必要な手順を、まず経営幹部レベルの計画で概説できます。
-* 同じ計画の複数のシナリオを作成できます。元の計画に矛盾するイニシアチブが多すぎる場合は、計画を達成するための理想的な状況を確認するために、イニシアチブ、予算、コストを編集できるいくつかのシナリオを作成する必要があります。同じ期間内に同じリソースを使用しようとすると、イニシアチブが互いに競合する可能性があります。その後、シナリオを比較して、シナリオを達成するための実際の作業を追加する前に、何が最も合理的で、会社が採用すべきシナリオを確認できます。シナリオの作成の詳細については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) のプランシナリオの作成と比較を参照してください。
-* 複数のイニシアチブを計画に追加して、より小さなプラン単位が計画の完了にどのように貢献するかを示すことができます。例えば、特定の市場に進出する計画がある場合、部門レベルではいくつもの取り組みが考えられます。それらのイニシアチブは、最終的に、組織のあらゆるレベルでの進出を実現することに貢献します。イニシアチブの作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
-* 計画を作成する際、計画を表示できるのは自分だけです。他のユーザーが計画にアクセスするには、[!DNL Scenario Planner] へのアクセスレベルとして少なくとも表示アクセス権を持っている必要があります。
+* チーム、部門全体、さらには会社全体の計画を立てることができます。 計画は、企業の戦略を高レベルで概説する大きな計画単位です。
+* 最も短い計画の期間は 1年間です。 最長の計画の期間は 5年間です。
+* 計画に基づいて実際の作業を行うことはできません。 予定作業を開始するために必要なリソースと予算があるかどうかを大まかに見積もることができます。 例えば、会社が拡張して新しい場所に新しいオフィスを取得したい場合、それを達成するために必要な手順を、まず経営幹部レベルの計画で概説できます。
+* 同じ計画の複数のシナリオを作成できます。 元の計画に矛盾するイニシアチブが多すぎる場合は、計画を達成するための理想的な状況を確認するために、イニシアチブ、予算、コストを編集できるいくつかのシナリオを作成する必要があります。 同じ期間内に同じリソースを使用しようとすると、イニシアチブが互いに競合する可能性があります。 その後、シナリオを比較して、シナリオを達成するための実際の作業を追加する前に、何が最も合理的で、会社が採用すべきシナリオを確認できます。 シナリオの作成の詳細については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) のプランシナリオの作成と比較を参照してください。
+* 複数のイニシアチブを計画に追加して、より小さなプラン単位が計画の完了にどのように貢献するかを示すことができます。 例えば、特定の市場に進出する計画がある場合、部門レベルではいくつもの取り組みが考えられます。それらのイニシアチブは、最終的に、組織のあらゆるレベルでの進出を実現することに貢献します。 イニシアチブの作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
+* 計画を作成する際、計画を表示できるのは自分だけです。 他のユーザーが計画にアクセスするには、[!DNL Scenario Planner] へのアクセスレベルとして少なくとも表示アクセス権を持っている必要があります。
 
 ## 計画の担当業務情報
 
-計画に関する担当業務の一般情報を確認できます。一般情報では、計画で利用できる担当業務の量と、イニシアチブを実施するのに必要な担当業務の量を示しています。この情報は、計画のヘッダーの「[!UICONTROL 担当業務]」ボックスに表示されます。
+計画に関する担当業務の一般情報を確認できます。一般情報では、計画で利用できる担当業務の量と、イニシアチブを実施するのに必要な担当業務の量を示しています。 この情報は、計画のヘッダーの「[!UICONTROL 担当業務]」ボックスに表示されます。
 
-![&#x200B; 計画の担当業務ボックス &#x200B;](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+![ プランの担当業務ボックス ](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
 
 「担当業務」ボックスには、次の情報が表示されます。
 
 | 情報 | 説明 |
 |---|---|
-| FTE／時間数インジケーター | 「[!UICONTROL 担当業務]」タイトルの横にある「[!UICONTROL FTE]」または「[!UICONTROL 時間数]」のインジケーターは、計画が FTE または時間数のどちらを使用して作成時に設定されたかを示しています。この単位は、計画、すべてのシナリオ、イニシアチブで使用されます。 |
+| FTE／時間数インジケーター | 「[!UICONTROL 担当業務]」タイトルの横にある「[!UICONTROL FTE]」または「[!UICONTROL 時間数]」のインジケーターは、計画が FTE または時間数のどちらを使用して作成時に設定されたかを示しています。 この単位は、計画、すべてのシナリオ、イニシアチブで使用されます。 |
 | [!UICONTROL 利用可能] | 現在のシナリオで使用可能な担当業務の FTE または時間数。 |
 | 必須 | 現在のシナリオで、すべてのイニシアチブを完了するために必要な担当業務の FTE 数または時間数。 |
 
-計画へのアクセスと、担当業務に関する詳細情報の表示については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
+計画へのアクセスと、担当業務に関する詳細情報の表示については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
 
 ## 計画の財務情報
 
-計画に関する財務情報を確認できます。具体的には、計画した予算、予算の執行状況、計画の正味価値を確認できます。計画の正味価値は、各イニシアチブの正味価値に基づいています。この情報は、計画のヘッダーの「[!UICONTROL 財務]」ボックスと「[!UICONTROL 概要]」ボックスに表示されます。
+計画に関する財務情報を確認できます。具体的には、計画した予算、予算の執行状況、計画の正味価値を確認できます。 計画の正味価値は、各イニシアチブの正味価値に基づいています。 この情報は、計画のヘッダーの「[!UICONTROL 財務]」ボックスと「[!UICONTROL 概要]」ボックスに表示されます。
 
-![&#x200B; 予算および純値ボックス &#x200B;](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![予算と正味値のボックス ](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 以下は、計画の「[!UICONTROL 財務]」ボックスと「[!UICONTROL 概要]」ボックスに表示されます。
 
@@ -88,11 +92,11 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!UICONTROL Budget] </p> <p role="rowheader"> </p> </td> 
-   <td>これは、計画の実施に使用できる、会社が決裁した金額です。Workfront は、計画期間の各月に予算を均等に配分します。予算は通常 1 年に設定されますが、3 年または 5 年に設定することもできます。「財務」ボックスのタイトルの左側にある括弧内の通貨は、システムの通貨を示しています。 </td> 
+   <td>これは、計画の実施に使用できる、会社が決裁した金額です。 Workfront は、計画期間の各月に予算を均等に配分します。 予算は通常 1 年に設定されますが、3 年または 5 年に設定することもできます。 「財務」ボックスのタイトルの左側にある括弧内の通貨は、システムの通貨を示しています。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Costs]</td> 
-   <td> <p>これは、計画のすべてのイニシアチブから発生する費用の合計です。Workfront は、次の式を使用して計画の費用を計算します。</p> <p><code>Plan Costs = SUM(Initiative Costs)</code> </p> <p>イニシアチブ費用の計算方法については、<a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">[!DNL Scenario Planner]</a> でのイニシアチブの作成と編集を参照してください。 </p> </td> 
+   <td> <p>これは、計画のすべてのイニシアチブから発生する費用の合計です。 Workfront は、次の式を使用して計画の費用を計算します。</p> <p><code>Plan Costs = SUM(Initiative Costs)</code> </p> <p>イニシアチブ費用の計算方法については、<a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">[!DNL Scenario Planner]</a> でのイニシアチブの作成と編集を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">UTIL（予算使用率）</td> 
@@ -105,6 +109,6 @@ ht-degree: 97%
  </tbody> 
 </table>
 
-計画へのアクセスと、計画に関する詳細な財務情報の表示については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
+計画へのアクセスと、計画に関する詳細な財務情報の表示については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
 
 

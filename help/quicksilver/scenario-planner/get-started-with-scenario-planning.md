@@ -4,9 +4,15 @@ description: Adobe Workfront シナリオプランナーを使用すると、会
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+TQID: https://experienceleague.adobe.com/r7YaCiBbIr4ibSSjp2BvsFNAE2fdjTQZ8835a-FTjXM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: 788
 ht-degree: 99%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 99%
 
 [!DNL Adobe Workfront Scenario Planner] を使用すると、会社全体の戦略的成果の概要を示す企業レベルの計画を作成できます。 計画に対して複数のイニシアチブを定義し、それらをさまざまなシナリオに配置して、計画を実行するための最適なソリューションを見つけることができます。
 
-[!DNL Workfront Scenario Planner] の概要については、[&#x200B; [!DNL Scenario Planner]  の概要](../scenario-planner/scenario-planner-overview.md)を参照してください。
+[!DNL Workfront Scenario Planner] の概要については、[ [!DNL Scenario Planner]  の概要](../scenario-planner/scenario-planner-overview.md)を参照してください。
 
 
 ## [!DNL Workfront Scenario Planner] を使用するためのアプローチ

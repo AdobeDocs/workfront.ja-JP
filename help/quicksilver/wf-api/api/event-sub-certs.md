@@ -7,12 +7,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/rFy1Sc7UKGbenuOywbCTw4ezfmmRRDKMihHJD--LPto
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 88%
+source-wordcount: 337
+ht-degree: 87%
 
 ---
 
@@ -32,18 +36,18 @@ Sandbox 1
 Sandbox 2
 -->
 
-クライアント TLS を使用すると、受け取ったイベント登録メッセージが実際に Adobe Workfront から送信されたことを確認できます。この機能を有効にするには、Workfront x509 証明書をリクエストおよび検証するようにサーバーを設定する必要があります。
+クライアント TLS を使用すると、受け取ったイベント登録メッセージが実際に Adobe Workfront から送信されたことを確認できます。 この機能を有効にするには、Workfront x509 証明書をリクエストおよび検証するようにサーバーを設定する必要があります。
 
 
 >[!NOTE]
 >
->イベントサブスクリプションがイベントを送信するサーバーがバージョン 1.3をサポートしている場合、イベントサブスクリプションはTLS バージョン 1.3を使用します。接続サーバーがバージョン 1.3をサポートしていない場合、イベントサブスクリプションはTLS バージョン 1.2を使用します。
+>イベントサブスクリプションがイベントを送信するサーバーがバージョン 1.3をサポートしている場合、イベントサブスクリプションはTLS バージョン 1.3を使用します。 接続サーバーがバージョン 1.3をサポートしていない場合、イベントサブスクリプションはTLS バージョン 1.2を使用します。
 
 
 
 ## Workfront のクライアント証明書を検証
 
-この手順は、サーバーが TLS 接続を受け入れるように設定されていることを前提としています。Workfront は、自己署名証明書をサポートしていません。
+この手順は、サーバーが TLS 接続を受け入れるように設定されていることを前提としています。 Workfront は、自己署名証明書をサポートしていません。
 
 一般的に、サーバーのクライアント認証を有効にするには、次の手順が必要です。
 
@@ -97,7 +101,7 @@ Listen 443
 
 詳しくは、次を参照してください。
 
-* [Client Authentication and Access Control](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
+* [クライアント認証とアクセス制御](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
 * [Apache Module mod_ssl](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
  
 

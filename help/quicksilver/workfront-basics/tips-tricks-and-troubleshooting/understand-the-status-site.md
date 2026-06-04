@@ -5,9 +5,13 @@ draft: Probably
 feature: Get Started with Workfront
 author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/kUbG1fpDJmiptk-0e2lb7JlgEs0sX6dErLq8Yqq0TBM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: 373
 ht-degree: 100%
 
 ---
@@ -55,7 +59,7 @@ ht-degree: 100%
 
 コンピューターのセキュリティにおいて、脆弱性とは、攻撃者がシステムの安定性、セキュリティ、または整合性を低下させることを可能にする弱点のことです。
 
-脆弱性の研究者やエクスプロイトの作成者は、参照しやすいように内部的にプロジェクトに名前を付けます（[!DNL ShellShock]、[!DNL Heartbleed]、[!DNL POODLE]、[!DNL WannaCry] や [!DNL Petya] など）。脆弱性が広く影響を及ぼした場合、脆弱性が開示されると、これらの名前は公開されます。
+脆弱性の研究者やエクスプロイトの作成者は、参照しやすいように内部的にプロジェクトに名前を付けます（[!DNL ShellShock]、[!DNL Heartbleed]、[!DNL POODLE]、[!DNL WannaCry] や [!DNL Petya] など）。 脆弱性が広く影響を及ぼした場合、脆弱性が開示されると、これらの名前は公開されます。
 
 ### [!DNL Workfront?] で特定された名前付きの脆弱性を表示する方法を教えてください {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 

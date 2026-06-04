@@ -7,16 +7,20 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/GWA77t-kaVNG7tfSsg5Fe5kLtR3Ibo0YbW7Gp7wBQ0U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 438
 ht-degree: 100%
 
 ---
 
 # 統合での API バージョンを指定
 
-すべての Adobe Workfront URI は、URI の「attask/api」部分の後にある特定のバージョンの API を参照する必要があります。次の例では、バージョン 15.0 を呼び出します。
+すべての Adobe Workfront URI は、URI の「attask/api」部分の後にある特定のバージョンの API を参照する必要があります。 次の例では、バージョン 15.0 を呼び出します。
 
 `attask/api/v15.0/<objectName>/<objectId>`
 
@@ -24,13 +28,13 @@ ht-degree: 100%
 
 ## Workfront API のリリースおよび廃止スケジュール
 
-API の新しいバージョンは、通常年に 2 回、定期的にリリースされています。各バージョンは、リリース日から 3 年間サポートされます。また、使用可能であるがサポートされていない、廃止予定の状態のバージョンには、1 年が追加されます。
+API の新しいバージョンは、通常年に 2 回、定期的にリリースされています。 各バージョンは、リリース日から 3 年間サポートされます。また、使用可能であるがサポートされていない、廃止予定の状態のバージョンには、1 年が追加されます。
 
 Workfront API のリリース頻度および廃止スケジュールに関して詳しくは、[API のバージョン管理とサポートのスケジュール](../../wf-api/api/api-version-support-schedule.md)を参照してください。
 
 >[!IMPORTANT]
 >
->* API のデフォルトバージョンは、最新バージョンに設定されています。バージョンが指定されていない API 呼び出しでは、デフォルトバージョンが使用されます。Workfront が API の新しいバージョンをリリースするたびに、デフォルトのバージョンが最新バージョンにアップデートされます。**したがって、新しいバージョンの Workfront API がリリースされた後は、すべてのデフォルトバージョンを使用する API 呼び出しをチェックして、機能が引き続きサポートされていることを確認する必要があります。**
+>* API のデフォルトバージョンは、最新バージョンに設定されています。 バージョンが指定されていない API 呼び出しでは、デフォルトバージョンが使用されます。 Workfront が API の新しいバージョンをリリースするたびに、デフォルトのバージョンが最新バージョンにアップデートされます。 **したがって、新しいバージョンの Workfront API がリリースされた後は、すべてのデフォルトバージョンを使用する API 呼び出しをチェックして、機能が引き続きサポートされていることを確認する必要があります。**
 >
 >* 組織が現在デフォルト API を使用している場合、Workfront 管理者に、デフォルト API に関する詳細な手順を含む、お知らせセンターのメッセージが届いています。
 >
@@ -39,7 +43,7 @@ Workfront API のリリース頻度および廃止スケジュールに関して
 
 ## 使用している API バージョンの特定
 
-Workfront API に送信された HTTP リクエストの URI を確認することで、使用している API のバージョンを確認することができます。次の例は、API のバージョン 15 を指定する Workfront リクエスト URI を示しています。
+Workfront API に送信された HTTP リクエストの URI を確認することで、使用している API のバージョンを確認することができます。 次の例は、API のバージョン 15 を指定する Workfront リクエスト URI を示しています。
 
 `https://<domainname>.my.workfront.com/attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5`
 

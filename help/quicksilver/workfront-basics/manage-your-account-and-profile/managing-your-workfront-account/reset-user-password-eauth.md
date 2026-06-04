@@ -7,9 +7,12 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/DCTbiQAsLjKIEN4qNvPrCUDLO3eRnYhT1LYGKgwpf-Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: 200
 ht-degree: 95%
 
 ---
@@ -49,13 +52,13 @@ ht-degree: 95%
 
 {{step-1-to-users}}
 
-1. パスワードのリセットが必要な&#x200B;**[!UICONTROL ユーザー]**&#x200B;を選択します。
-   ![&#x200B; ユーザーを選択](assets/100520classicnweselectuser-350x105.png)
+1. パスワードのリセットが必要な&#x200B;**[!UICONTROL ユーザー]**を選択します。
+   ![ ユーザーを選択](assets/100520classicnweselectuser-350x105.png)
 
 1. 目的の&#x200B;**[!UICONTROL ユーザー]**&#x200B;を選択した後に表示される「**[!UICONTROL その他]」ボタン**&#x200B;をクリックし、ドロップダウンメニューから「**[!UICONTROL パスワードを忘れた場合の E メールの送信]**」オプションを選択します。
 
-   ![&#x200B; パスワードを忘れた電子メールを送信](assets/100520classicnwesendemail-350x134.png)
+   ![ パスワードを忘れた電子メールを送信](assets/100520classicnwesendemail-350x134.png)
 
 「**[!UICONTROL パスワードを忘れた場合の E メールの送信]**」オプションを選択すると、選択したユーザーに、自身のパスワードを変更する手順が記載されたメールが送信されます。
 
-![電子メールのリセット &#x200B;](assets/pwresetemail-resized-350x461.png)
+![電子メールのリセット ](assets/pwresetemail-resized-350x461.png)

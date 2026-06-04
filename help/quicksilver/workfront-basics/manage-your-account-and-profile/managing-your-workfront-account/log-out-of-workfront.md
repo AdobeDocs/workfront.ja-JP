@@ -6,9 +6,14 @@ description: セキュリティ上の理由から、 [!DNL Adobe Workfront]  か
 author: Becky
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 201a4430cfaa10bb99ef63ec96ecdccd3b07b0f1
+TQID: https://experienceleague.adobe.com/TL-sc7xerkROX1uDg9KpPYmgxPHpTbJeDn9lGdkk6Rw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: 128
 ht-degree: 69%
 
 ---

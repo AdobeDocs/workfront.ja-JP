@@ -7,12 +7,18 @@ description: Adobe Workfront シナリオプランナーで作成したプラン
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/7SsWqw2hJVOdLeYYPBHtvkpLjH64uXfxYG5hAxSNguI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 85%
+source-wordcount: 874
+ht-degree: 84%
 
 ---
 
@@ -58,7 +64,7 @@ ht-degree: 85%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、[を使用するために必要な [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) アクセスを参照してください。
+シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な[ アクセスを参照してください。
 
 Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
@@ -107,27 +113,27 @@ Old:
 
 * 計画への権限を付与されたユーザーが計画への権限を受け取るには、[!DNL Workfront] 管理者から[!DNL Scenario Planner]エリアへのアクセス権がアクセスレベルに付与されている必要があります。
 
-  例えば、[!UICONTROL 要求者]は計画の表示、作成または編集を行えません。要求者ライセンスを持つユーザーと計画を共有する場合は、この点に留意してください。
+  例えば、[!UICONTROL 要求者]は計画の表示、作成または編集を行えません。 要求者ライセンスを持つユーザーと計画を共有する場合は、この点に留意してください。
 
 <!--
   NOTE: ensure this stays this way and they don't restrict Workers from SP as well?? OR ensure you can even SEE Requestors as an option or they are not grayed out??)
   -->
 
-様々なライセンスタイプの[!DNL Scenario Planner]へのアクセス権については、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)へのアクセス権の付与を参照してください。
+様々なライセンスタイプの[!DNL Scenario Planner]へのアクセス権については、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)へのアクセス権の付与を参照してください。
 
 ## 計画の共有に関する考慮事項
 
 * システム管理者を含むすべてのユーザーは、作成したプランのみにアクセスできます。
 * 1 つの計画を共有することも、複数の計画を一括で共有することもできます。
 * 自分が作成していない計画または自分と共有されていない計画は表示できません。
-* 計画は他のユーザーとのみ共有できます。計画をグループ、チームまたは会社と共有することはできません。
+* 計画は他のユーザーとのみ共有できます。 計画をグループ、チームまたは会社と共有することはできません。
 * 計画を共有するには、まず計画を保存する必要があります。
-* 計画の URL を別のユーザーと共有できます。少なくとも計画を表示する権限を持っていないユーザーは、URL を受け取ったときに、別のユーザーに計画へのアクセス権を申請できます。プランへのアクセスを要求する方法については、[の「 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md) プランへのアクセス許可を要求する」を参照してください。
+* 計画の URL を別のユーザーと共有できます。 少なくとも計画を表示する権限を持っていないユーザーは、URL を受け取ったときに、別のユーザーに計画へのアクセス権を申請できます。 プランへのアクセスを要求する方法については、 [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)の「[ プランへのアクセス許可を要求する」を参照してください。
 * 既に他のユーザーと共有している複数の計画を共有する場合、共有するユーザーは置き換えられず、選択した各計画の既存のユーザーに追加されます。
 
 ## 計画の権限オプション
 
-計画を共有する際に付与できる権限を次の表に示します。ライセンスに基づいてユーザーが取得するアクセス権について詳しくは、[へのアクセス権の付与 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)を参照してください。
+計画を共有する際に付与できる権限を次の表に示します。 ライセンスに基づいてユーザーが取得するアクセス権について詳しくは、[へのアクセス権の付与 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)を参照してください。
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -199,13 +205,13 @@ Old:
  </tbody> 
 </table>
 
-*計画に対する管理権限がある場合でも、計画の財務情報を表示または管理するには、財務データへのアクセス権が必要です。財務データへのアクセス権については、[財務データへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
+*計画に対する管理権限がある場合でも、計画の財務情報を表示または管理するには、財務データへのアクセス権が必要です。 財務データへのアクセス権については、[財務データへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
 
 **シナリオを公開するには、プロジェクトを作成するためのアクセス権とプロジェクトの管理権限が必要です。
 
 プロジェクトのアクセスレベルについては、[プロジェクトへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)を参照してください。
 
-プロジェクト権限について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でプロジェクトを共有を参照してください。
+プロジェクト権限について詳しくは、[ [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でプロジェクトを共有を参照してください。
 
 ## 計画の共有
 
@@ -221,11 +227,11 @@ Old:
    >
    >計画のヘッダーの右上隅に表示されている、計画の共有相手となるユーザーのアバターをクリックすると、計画を共有できます。
 
-1. （条件付き）プランを開いた場合は、**[!UICONTROL プラン]**&#x200B;名の右側にある![詳細](assets/more-icon.png) アイコン [!UICONTROL 詳細]をクリックし、**[!UICONTROL 共有]**&#x200B;をクリックします
+1. （条件付き）プランを開いた場合は、[!UICONTROL  プラン ]名の右側にある&#x200B;**[!UICONTROL 詳細]** アイコン ![詳細](assets/more-icon.png)をクリックし、**[!UICONTROL 共有]**&#x200B;をクリックします
 
    または
 
-   複数のプランを選択して一括で共有する場合は、プランのリストの上部にある&#x200B;**[!UICONTROL 共有]** アイコン ![共有アイコン &#x200B;](assets/share-icon-26x26.png)をクリックして、[!UICONTROL &#x200B; プラン &#x200B;] アクセス ボックスを開きます。
+   複数のプランを選択して一括で共有する場合は、プランのリストの上部にある&#x200B;**[!UICONTROL 共有]** アイコン ![共有アイコン ](assets/share-icon-26x26.png)をクリックして、[!UICONTROL  プラン ] アクセス ボックスを開きます。
 
    >[!TIP]
    >
@@ -242,7 +248,7 @@ Old:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL View]</td> 
-      <td>計画を共有するユーザーには、計画を表示する権限が付与されます。計画に関する情報の編集、イニシアチブやシナリオの追加またはシナリオの公開はできません。 </td> 
+      <td>計画を共有するユーザーには、計画を表示する権限が付与されます。 計画に関する情報の編集、イニシアチブやシナリオの追加またはシナリオの公開はできません。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Manage]</td> 
@@ -253,7 +259,7 @@ Old:
 
    >[!TIP]
    >
-   >計画を削除できるのは、それを自分が作成した場合のみです。自分と共有されている計画は削除できません。
+   >計画を削除できるのは、それを自分が作成した場合のみです。 自分と共有されている計画は削除できません。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

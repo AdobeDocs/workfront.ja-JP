@@ -2,20 +2,25 @@
 product-area: documents
 navigation-topic: comment-on-a-proof
 title: プルーフのコメントを削除
-description: コメントまたはコメントに対する返信は、それに対して誰も返信していない場合は削除できます。通常、コメントは削除するよりも解決することをお勧めします。詳しくは、プルーフのコメントを解決を参照してください。
+description: コメントまたはコメントに対する返信は、それに対して誰も返信していない場合は削除できます。 通常、コメントは削除するよりも解決することをお勧めします。 詳しくは、プルーフのコメントを解決を参照してください。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a558cd5c-0341-48bf-b00a-d6db232bda14
-source-git-commit: a117b4e671490a380518cb987b897ca17e54cb16
+TQID: https://experienceleague.adobe.com/btimAEAVC9Ubdbo35NIr0cSsU5QXK-RyqUSfwICIKwk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 87%
+source-wordcount: 223
+ht-degree: 93%
 
 ---
 
 # プルーフのコメントを削除
 
-コメントまたはコメントに対する返信は、それに対して誰も返信していない場合は削除できます。通常、コメントは削除するよりも解決することをお勧めします。詳しくは、[プルーフのコメントを解決](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)を参照してください。
+コメントまたはコメントに対する返信は、それに対して誰も返信していない場合は削除できます。 通常、コメントは削除するよりも解決することをお勧めします。 詳しくは、[プルーフのコメントを解決](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)を参照してください。
 
 ## アクセス要件
 
@@ -32,7 +37,7 @@ ht-degree: 87%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
-   <p>ライト以上</p>
+   <p>明るいまたはそれ以上</p>
    <p>レビュー以上</p></td> 
   </tr> 
   <tr> 
@@ -41,7 +46,7 @@ ht-degree: 87%
   </tr> 
   <tr> 
    <td role="rowheader">プルーフの役割</td> 
-   <td>モデレーターがコメントを削除します。レビュアーが自分のコメントを削除します</td> 
+   <td>コメントを削除するモデレーター。自分のコメントを削除するレビュアー</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -64,4 +69,4 @@ ht-degree: 87%
 
    ![phq_viewer_comment_edit.png](assets/phq-viewer-comment-edit.png)
 
-1. **削除**／**はい、削除します**&#x200B;をクリックします。コメントが削除されると、プルーフアクティビティセクションに、そのコメントが削除されたことを示すエントリが記録されます。
+1. **削除**／**はい、削除します**&#x200B;をクリックします。 コメントが削除されると、プルーフアクティビティセクションに、そのコメントが削除されたことを示すエントリが記録されます。

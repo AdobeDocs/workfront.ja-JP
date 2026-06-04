@@ -2,26 +2,32 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: タイムシート情報を編集する
-description: タイムシートに管理アクセス権を持つユーザーは、Adobe Workfrontで既存のタイムシートに関する情報を編集できます。 例えば、所有者、承認者、またはタイムシートの期間を編集できます。
+description: タイムシートへの管理アクセス権を持つユーザーは、Adobe Workfrontで既存のタイムシートに関する情報を編集できます。 例えば、所有者、承認者、またはタイムシートの期間を編集できます。
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 92%
+source-wordcount: 751
+ht-degree: 93%
 
 ---
 
 # タイムシート情報を編集する
 
-タイムシートに管理アクセス権を持つユーザーは、Adobe Workfrontで既存のタイムシートに関する情報を編集できます。 例えば、所有者、承認者、またはタイムシートの期間を編集できます。
+タイムシートへの管理アクセス権を持つユーザーは、Adobe Workfrontで既存のタイムシートに関する情報を編集できます。 例えば、所有者、承認者、またはタイムシートの期間を編集できます。
 
 1 つのタイムシートの情報を編集することも、複数のタイムシートを一括編集することもできます。
 
 >[!IMPORTANT]
 >
->ユーザーがタイムシートプロファイルに関連付けられ、タイムシートが自動的に生成される場合、既存のタイムシートに対して行った変更は、将来の日付に対して生成されるタイムシートには反映されません。自動的に生成されるすべてのタイムシートには、タイムシートプロファイルで確立された設定が含まれます。詳しくは、[タイムシートプロファイルを作成](../create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
+>ユーザーがタイムシートプロファイルに関連付けられ、タイムシートが自動的に生成される場合、既存のタイムシートに対して行った変更は、将来の日付に対して生成されるタイムシートには反映されません。 自動的に生成されるすべてのタイムシートには、タイムシートプロファイルで確立された設定が含まれます。 詳しくは、[タイムシートプロファイルを作成](../create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
 ## アクセス要件
 
@@ -60,7 +66,7 @@ ht-degree: 92%
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. （オプション）**検索**&#x200B;アイコン ![](assets/search-icon.png) をクリックし、キーワードを入力して、特定のタイムシートを検索します。例えば、タイムシートの期間または所有者名を検索できます。
+1. （オプション）**検索**&#x200B;アイコン ![](assets/search-icon.png) をクリックし、キーワードを入力して、特定のタイムシートを検索します。 例えば、タイムシートの期間または所有者名を検索できます。
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
@@ -74,11 +80,11 @@ ht-degree: 92%
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。フィルターの作成または更新については、[Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新については、[Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
-   >Workfront 管理者またはグループ管理者が、設定領域の「リスト制御」またはレイアウトテンプレートから「マイタイムシート承認」フィルターと「マイタイムシート」フィルターを削除した場合、「マイタイムシート承認」オプションと「マイタイムシート」オプションは、タイムシートリストの上部またはフィルターリストには表示されません。詳しくは、次の記事を参照してください。
+   >Workfront 管理者またはグループ管理者が、設定領域の「リスト制御」またはレイアウトテンプレートから「マイタイムシート承認」フィルターと「マイタイムシート」フィルターを削除した場合、「マイタイムシート承認」オプションと「マイタイムシート」オプションは、タイムシートリストの上部またはフィルターリストには表示されません。 詳しくは、次の記事を参照してください。
    >
    >   
    >   
@@ -103,7 +109,7 @@ ht-degree: 92%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>所有者</strong> </td> 
-      <td> <p>これは、タイムシートが作成されたユーザーの名前です。このフィールドは編集できません。 </p> <p>複数のタイムシートを選択した場合、このフィールドは表示されません。 </p> </td> 
+      <td> <p>これは、タイムシートが作成されたユーザーの名前です。 このフィールドは編集できません。 </p> <p>複数のタイムシートを選択した場合、このフィールドは表示されません。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>開始日</strong> </td> 
@@ -115,17 +121,17 @@ ht-degree: 92%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>ステータス</strong> </td> 
-      <td> これがタイムシートのステータスです。
-タイムシートのステータスについて、次のオプションがあります。 
+      <td> これはタイムシートのステータスです。
+      使用可能なタイムシートのステータス オプションは次のとおりです。 
       <ul><li><b>オープン</b>：タイムシートを開いて、時間エントリを編集できます。</li>
       <li><b>送信済み</b>：指定された承認者にタイムシートが承認用に送信されます。</li>
       <li><b>却下</b>：タイムシートは承認者によって承認されず、ユーザーが時間エントリを編集できるようになりました。</li>
-      <li><b>クローズ</b>：タイムシートは、ユーザーがクローズしたか、承認者が承認したためクローズされました。クローズされたタイムシートに時間を追加することはできません。</li>
+      <li><b>クローズ</b>：タイムシートは、ユーザーがクローズしたか、承認者が承認したためクローズされました。 クローズされたタイムシートに時間を追加することはできません。</li>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>承認者</strong> </td> 
-      <td> <p>承認者は、タイムシートに関連付けられたユーザーのタイムシートを承認するユーザーです。承認者として設定できるのは、タイムシートへの管理者アクセス権を持つユーザーだけです。 </p> <p>タイムシート管理権限について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定の領域に対する管理アクセス権をユーザーに付与</a>を参照してください。</p> <p>タイムシート承認者の名前の入力を開始し、リストに表示されたら、その名前を選択します。</p> <p>1 つのタイムシートに複数の承認者を設定できます。この場合、承認者の 1 人がタイムシートを承認すると、タイムシートは<strong>クローズ</strong>とマークされ、残りのすべての承認者のタイムシート承認リストから消えます。</p> </td> 
+      <td> <p>承認者は、タイムシートに関連付けられたユーザーのタイムシートを承認するユーザーです。 承認者として設定できるのは、タイムシートへの管理者アクセス権を持つユーザーだけです。 </p> <p>タイムシート管理権限について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定の領域に対する管理アクセス権をユーザーに付与</a>を参照してください。</p> <p>タイムシート承認者の名前の入力を開始し、リストに表示されたら、その名前を選択します。</p> <p>1 つのタイムシートに複数の承認者を設定できます。 この場合、承認者の 1 人がタイムシートを承認すると、タイムシートは<strong>クローズ</strong>とマークされ、残りのすべての承認者のタイムシート承認リストから消えます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>時間の編集が可能</strong> </td> 

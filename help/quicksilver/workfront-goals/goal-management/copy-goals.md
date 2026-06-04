@@ -2,15 +2,21 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Adobe Workfront Goalsでの目標のコピー
-description: Adobe Workfront Goals の目標をコピーして目標を作成できます。元の目標情報の一部は新しい目標に転送されます。
+description: Adobe Workfront Goals の目標をコピーして目標を作成できます。 元の目標情報の一部は新しい目標に転送されます。
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/qWUfnMhukp20gik0uEzrEUSQNtlTH9RjT6IlrzEjg3U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: 748
 ht-degree: 92%
 
 ---
@@ -19,13 +25,13 @@ ht-degree: 92%
 
 <!--Audited for P&P only: 4/2025-->
 
-Adobe Workfront Goals の目標をコピーして目標を作成できます。元の目標情報の一部は新しい目標に転送されます。
+Adobe Workfront Goals の目標をコピーして目標を作成できます。 元の目標情報の一部は新しい目標に転送されます。
 
 ## アクセス要件
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 
@@ -134,7 +140,7 @@ Old:
 
 ## 目標のコピーに関する考慮事項
 
-目標をコピーする前に、アクセスレベルで目標を編集する権限が必要です。目標へのアクセス権の付与について詳しくは、[Adobe Workfront Goals へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)を参照してください。
+目標をコピーする前に、アクセスレベルで目標を編集する権限が必要です。 目標へのアクセス権の付与について詳しくは、[Adobe Workfront Goals へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)を参照してください。
 
 既存の目標をコピーする理由の一部を次に示します。
 
@@ -144,12 +150,12 @@ Old:
 
 >[!TIP]
 >
->目標は任意のステータスでコピーできます。目標ステータスについて詳しくは、[Adobe Workfront Goals の目標ステータスの概要](../../workfront-goals/goal-management/goal-status-overview.md)を参照してください。
+>目標は任意のステータスでコピーできます。 目標ステータスについて詳しくは、[Adobe Workfront Goals の目標ステータスの概要](../../workfront-goals/goal-management/goal-status-overview.md)を参照してください。
 
 目標をコピーする際は、次の点を考慮してください。
 
 * 目標に関する情報もすべて新しい目標にコピーされます。
-* 既存の目標の結果をコピーするように選択できます。結果の名前は新しい目標に転送されますが、既存の目標に関する結果の現在の進行状況は新しい目標にコピーされません。コピーした結果は、デフォルトで同じ所有者に割り当てられます。
+* 既存の目標の結果をコピーするように選択できます。 結果の名前は新しい目標に転送されますが、既存の目標に関する結果の現在の進行状況は新しい目標にコピーされません。 コピーした結果は、デフォルトで同じ所有者に割り当てられます。
 
   >[!NOTE]
   >
@@ -230,25 +236,25 @@ To copy goals in the Production environment:
 -->
 
 
-1. 目標に移動し、**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**目標をコピー**&#x200B;をクリックします。
+1. 目標に移動し、**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックしてから、**目標をコピー**&#x200B;をクリックします。
 
    ![目標ボックスをコピー](assets/copy-goal-box-unshimmed.png)
 
 1. コピーした目標に関する次の情報を更新します。
-   * **目標名**：新しい目標の名前。コピーされた目標のデフォルト名は、「Copy of &lt;元の目標>」です。
-   * **期間**：目標を達成する期間。ドロップダウンメニューから期間を選択します。
+   * **目標名**：新しい目標の名前。 コピーされた目標のデフォルト名は、「Copy of &lt;元の目標>」です。
+   * **期間**：目標を達成する期間。 ドロップダウンメニューから期間を選択します。
 
      または
 
-     「**カスタム日付を有効にする**」を選択して、目標の&#x200B;**開始日**&#x200B;と&#x200B;**終了日**&#x200B;のカスタム日付を指定します。「カスタム日付を有効にする」設定は、デフォルトでは無効になっています。
+     「**カスタム日付を有効にする**」を選択して、目標の&#x200B;**開始日**&#x200B;と&#x200B;**終了日**&#x200B;のカスタム日付を指定します。 「カスタム日付を有効にする」設定は、デフォルトでは無効になっています。
 
      >[!TIP]
      >
      >   「カスタム日付を有効にする」をオフにすると、元の目標の期間に戻ります。
 
-      * **目標の所有者**：目標の所有者。ユーザー、チーム、グループ、会社のいずれかを指定できます。デフォルトは、元の目標の所有者です。
+      * **目標の所有者**：目標の所有者。 ユーザー、チーム、グループ、会社のいずれかを指定できます。 デフォルトは、元の目標の所有者です。
       * **説明**：目標に関する追加情報。
-      * **結果をコピー**：現在の目標の結果をコピーした目標に転送する場合は、このオプションを選択します。これにより、元の結果が複製され、コピーしたゴールに添付されます。コピーしたゴールの結果には、元のゴールの結果と同じ所有者、名前、測定値が含まれます。
+      * **結果をコピー**：現在の目標の結果をコピーした目標に転送する場合は、このオプションを選択します。 これにより、元の結果が複製され、コピーしたゴールに添付されます。 コピーしたゴールの結果には、元のゴールの結果と同じ所有者、名前、測定値が含まれます。
 
         >[!NOTE]
         >

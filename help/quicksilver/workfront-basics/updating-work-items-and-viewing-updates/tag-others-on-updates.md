@@ -6,11 +6,16 @@ description: Adobe Workfront オブジェクトにアップデートコメント
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/UGOvQvGIxPz1MQ1YhS4QviGecp-A-F6ymO55efb-UwI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: 966
 ht-degree: 81%
 
 ---
@@ -171,7 +176,7 @@ Old:
 
    タグ付きエンティティの名前が、アバターの横に最大 2 つのエンティティまで表示されます。 3 つ以上のエンティティがタグ付けされている場合は、最初のエンティティの名前に加えて、タグ付けされている追加のエンティティの数が表示されます。
 
-   ![&#x200B; メンバーのアイコンが拡張されました](assets/members-icons-expanded-unshimmed.png)
+   ![ メンバーのアイコンが拡張されました](assets/members-icons-expanded-unshimmed.png)
 
    コメントテキスト内でタグ付けすると、それらのコメントで自分の名前が強調表示されます。
 

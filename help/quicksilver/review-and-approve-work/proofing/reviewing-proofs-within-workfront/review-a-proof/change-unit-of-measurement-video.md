@@ -2,20 +2,25 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: ビデオプルーフのタイムラインの測定単位を変更
-description: ビデオタイムラインで使用する測定単位を調整できます。タイムラインは、タイム、フレームまたはタイムコードで表示できます。
+description: ビデオタイムラインで使用する測定単位を調整できます。 タイムラインは、タイム、フレームまたはタイムコードで表示できます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 553c7cea-6d92-438e-a76e-639daa020ac5
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/biSD-8tJ7gaTDopkFrGn1-SvB-Q0qI29JwTzoHDO1Mg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 91%
+source-wordcount: 253
+ht-degree: 97%
 
 ---
 
 # ビデオプルーフのタイムラインの測定単位を変更
 
-ビデオタイムラインで使用する測定単位を調整できます。タイムラインは、タイム、フレームまたはタイムコードで表示できます。
+ビデオタイムラインで使用する測定単位を調整できます。 タイムラインは、タイム、フレームまたはタイムコードで表示できます。
 
 ## アクセス要件
 
@@ -35,7 +40,7 @@ ht-degree: 91%
   </tr> 
   <tr> 
    <td role="rowheader">プルーフの役割 </td> 
-   <td>レビュアー、レビュアーおよび承認者、作成者、モデレーター</td> 
+   <td>レビュアー、レビュアー、承認者、作成者、モデレーター</td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -59,7 +64,7 @@ ht-degree: 91%
 
 1. プルーフビューアーの左下隅で、現在の測定単位をクリックします。
 
-   ![&#x200B; ビデオタイムライン &#x200B;](assets/phq-viewer-video-timeline.png)
+   ![ ビデオタイムライン ](assets/phq-viewer-video-timeline.png)
 
 1. 次のオプションから選択します。
 
@@ -69,15 +74,15 @@ ht-degree: 91%
     <tbody> 
      <tr> 
       <td role="rowheader">時間</td> 
-      <td>ビデオタイムラインを分単位または秒単位で表示します。このオプションはデフォルトで選択されています。</td> 
+      <td>ビデオタイムラインを分単位または秒単位で表示します。 このオプションはデフォルトで選択されています。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">フレーム</td> 
-      <td>ビデオタイムラインをフレーム単位で表示します。プルーフビューアでは、元のファイルの情報を使用して、1 秒あたりの表示されるフレーム数を決定します。</td> 
+      <td>ビデオタイムラインをフレーム単位で表示します。 プルーフビューアでは、元のファイルの情報を使用して、1 秒あたりの表示されるフレーム数を決定します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">タイムコード</td> 
-      <td>ビデオタイムラインをタイムコードで表示します。タイムコードの数字は、時間、分、秒、フレームを表します。 <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span>タイムコード 1:48:36:18 は、ビデオの 1 時間 48 分 36 秒および 18 フレームを表します。</p></td> 
+      <td>ビデオタイムラインをタイムコードで表示します。 タイムコードの数字は、時間、分、秒、フレームを表します。 <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span>タイムコード 1:48:36:18 は、ビデオの 1 時間 48 分 36 秒および 18 フレームを表します。</p></td> 
      </tr> 
     </tbody> 
    </table>

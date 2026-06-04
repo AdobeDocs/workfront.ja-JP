@@ -1,23 +1,28 @@
 ---
 navigation-topic: get-started-with-workfront
-title: ドキュメントのアップロードと優先度設定でのプルーフの作成
+title: 優先度でのドキュメントのアップロードとプルーフの作成
 description: ドキュメント
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 23%
+source-wordcount: 562
+ht-degree: 29%
 
 ---
 
-# ドキュメントのアップロードと優先度設定でのプルーフの作成
+# 優先度でのドキュメントのアップロードとプルーフの作成
 
-ドキュメントをアップロードし、優先度で配達確認を作成できます。
+ドキュメントをアップロードし、優先度でプルーフを作成できます。
 
-優先度には、割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
+「優先度」には、割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
 
 ## アクセス要件
 
@@ -37,7 +42,7 @@ ht-degree: 23%
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
    <p>ドキュメントをアップロードするコントリビューター以上、プルーフを作成する標準</p>
-   <p>ドキュメントのアップロードを要求またはそれ以上、プルーフ作成は以上のレベルで要求</p>
+   <p>ドキュメントのアップロードを要求する場合、またはそれ以上の場合、プルーフを作成する場合</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,69 +62,69 @@ ht-degree: 23%
 
 ## 作業項目へのドキュメントのアップロード
 
-作業リストまたは作業項目の詳細ページから作業項目にドキュメントをアップロードできます。
+ワークリストまたは作業項目の詳細ページから、文書を作業項目にアップロードできます。
 
-### 作業リストの概要パネル
+### ワークリスト概要パネル
 
 
 {{step1-to-priorities}}
 
-1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![&#x200B; をクリック &#x200B;](assets/summary-icon.png) します。
-1. 概要パネルの **タスク** または **イシュー** タブを開いていることを確認します。
-1. **ファイルをアップロード** アイコン ![&#x200B; ファイルをアップロードアイコン &#x200B;](assets/upload-file-icon.png) をクリックします。
-1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
+1. ワークリストで、作業名にカーソルを合わせ、**概要** アイコン ![概要アイコンを開く](assets/summary-icon.png)をクリックします。
+1. サマリーパネルの「**タスク**」または「**問題**」タブに表示されていることを確認します。
+1. **ファイルをアップロード** アイコン ![ ファイルアップロード アイコン ](assets/upload-file-icon.png)をクリックします。
+1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl + V キーを押してクリップボードからペーストします
 または
-**ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![&#x200B; ファイルを追加 &#x200B;](assets/add-files.png)
-1. （任意）コメントを追加します。
-1. （任意）ファイルをさらに追加します。
+「**ファイルを追加**」をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
+   ![ ファイルを追加](assets/add-files.png)
+1. （オプション）コメントを追加します。
+1. （オプション）さらにファイルを追加します。
 
    >[!NOTE]
    >
-   >追加のファイルは、別個のドキュメントとしてアップロードされます。
+   >追加のファイルは個別のドキュメントとしてアップロードされます。
 1. 「**アップロード**」をクリックします。
 
 ### 作業項目の詳細
 
 {{step1-to-priorities}}
 
-1. 作業リストで、作業項目名をクリックします。
+1. ワークリストで、作業項目名をクリックします。
 1. 画面上部の「**ドキュメント**」タブをクリックします。
-1. 右上隅の **ドキュメントをアップロード** をクリックし、「**ドキュメント**」を選択します。
-1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
+1. 右上隅の「**ドキュメントをアップロード**」をクリックし、「**ドキュメント**」を選択します。
+1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl + V キーを押してクリップボードからペーストします
 または
-**ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![&#x200B; ファイルを追加 &#x200B;](assets/add-files.png)
-1. （任意）コメントを追加します。
-1. （任意）ファイルをさらに追加します。
+「**ファイルを追加**」をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
+   ![ ファイルを追加](assets/add-files.png)
+1. （オプション）コメントを追加します。
+1. （オプション）さらにファイルを追加します。
 
    >[!NOTE]
    >
-   >追加のファイルは、別個のドキュメントとしてアップロードされます。
+   >追加のファイルは個別のドキュメントとしてアップロードされます。
 1. 「**アップロード**」をクリックします。
 
 
-## シンプルなプルーフまたは詳細プルーフの作成
+## シンプルまたは高度なプルーフの作成
 
-プルーフは、ワークリストまたは作業項目の詳細ページのドキュメントから作成できます。
+ワークリストまたは作業項目の詳細ページから、ドキュメントからプルーフを作成できます。
 
-### 作業リストの概要パネル
+### ワークリスト概要パネル
 
 
 {{step1-to-priorities}}
 
-1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![&#x200B; をクリック &#x200B;](assets/summary-icon.png) します。
-1. 概要パネルの **タスク** または **イシュー** タブを開いていることを確認します。
-1. 右側のパネルで **ドキュメント** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/show-document-icon.png) をクリックします。
-1. **ファイルをアップロード** アイコン ![&#x200B; ファイルをアップロード &#x200B;](assets/upload-file-icon.png) をクリックし、ファイルを選択します。
+1. ワークリストで、作業名にカーソルを合わせ、**概要** アイコン ![概要アイコンを開く](assets/summary-icon.png)をクリックします。
+1. サマリーパネルの「**タスク**」または「**問題**」タブに表示されていることを確認します。
+1. 右側のパネルで「**ドキュメント**」アイコン「![ ドキュメント」アイコン「](assets/show-document-icon.png)」をクリックします。
+1. 「**ファイルをアップロード**」アイコン「![ ファイルをアップロード」アイコン「](assets/upload-file-icon.png)」をクリックし、ファイルを選択します。
 
    >[!NOTE]
    >
    >プルーフを作成するには、ドキュメントをアップロードする必要があります。
 
 
-1. ファイルがアップロードされたら、「**ドキュメント** セクションでファイルを選択します。
-1. ファイル詳細ボックスの右上隅にある「**プルーフを作成**」をクリックします。
+1. ファイルをアップロードしたら、**ドキュメント** セクションでファイルを選択します。
+1. ファイルの詳細ボックスの右上隅にある「**プルーフを作成**」をクリックします。
 1. 以下のうちのいずれかを選択します。
 
    <table style="table-layout:auto"> 
@@ -128,13 +133,13 @@ ht-degree: 23%
     <tbody> 
      <tr> 
       <td role="rowheader"><b>シンプルなプルーフ</b></td> 
-      <td>このオプションを選択すると、ワークフローが添付されていないプルーフが作成され、デフォルトのプルーフ設定が適用されます。プルーフの作成後に、デフォルトのプルーフ設定を更新したり、ワークフローを追加したりできます。 プルーフの設定について詳しくは、<a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">プルーフの設定を編集</a>を参照してください。</td> 
+      <td>このオプションを選択すると、ワークフローが添付されていないプルーフが作成され、デフォルトのプルーフ設定が適用されます。 プルーフを作成した後で、デフォルトのプルーフ設定を更新したり、ワークフローを追加したりできます。 プルーフの設定について詳しくは、<a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">プルーフの設定を編集</a>を参照してください。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><b>高度なプルーフ</b></td> 
-      <td> <p>このオプションを使用すると、基本的または高度なワークフローを設定し、作成するプルーフの設定を変更できます。詳しくは、次を参照してください。 </p> 
+      <td> <p>このオプションを使用すると、基本的または高度なワークフローを設定し、作成するプルーフの設定を変更できます。 詳しくは、次を参照してください。 </p> 
        <ul> 
-        <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">基本ワークフローを使用した高度なプルーフを作成</a> </p> </li> 
+        <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">基本ワークフローを使用した詳細なプルーフの作成</a> </p> </li> 
         <li> <p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">自動ワークフローを使用した高度なプルーフの作成</a></p></li> 
        </ul>
         </td> 
@@ -146,11 +151,11 @@ ht-degree: 23%
 
 {{step1-to-priorities}}
 
-1. 作業リストで、作業項目名をクリックします。
+1. ワークリストで、作業項目名をクリックします。
 1. 画面上部の「**ドキュメント**」タブをクリックします。
-1. 右上隅の **ドキュメントをアップロード** をクリックし、「**プルーフ**」を選択します。
-1. の説明に従って、プルーフを作成します
-   [基本ワークフローを使用した詳細プルーフの作成](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+1. 右上隅の「**ドキュメントをアップロード**」をクリックし、**プルーフ**&#x200B;を選択します。
+1. で説明されているように、プルーフを作成します
+   [基本ワークフローを使用した高度なプルーフを作成](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [自動ワークフローを使用した詳細プルーフの作成](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 <!--
@@ -172,18 +177,18 @@ Add new version, open proof, edit, download, move, share, remove
 
 ## フィルターと並べ替え
 
-フィルターと並べ替えオプションを使用して、ドキュメントを整理できます。
+フィルターと並べ替えオプションを使用してドキュメントを整理できます。
 
 ### フィルター
 
-ドキュメントは、次の項目でフィルタリングできます
+次の方法でドキュメントをフィルタリングできます
 
 * 追加者
-* ファイル タイプ
+* ファイルタイプ
 
 ### 並べ替え
 
-以下の基準でドキュメントを並べ替えることができます
+次の方法でドキュメントをソートできます
 
 * 追加日
-* ファイル タイプ
+* ファイルタイプ

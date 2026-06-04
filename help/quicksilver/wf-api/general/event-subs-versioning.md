@@ -7,39 +7,43 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
+TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 1%
+source-wordcount: 1055
+ht-degree: 17%
 
 ---
 
-# イベント購読のバージョン管理
+# イベント登録のバージョン管理
 
-Workfrontには、2 つのバージョンのイベント購読があります。 この記事では、これらの違いについて説明します。
+Workfront には、2 つのバージョンのイベント登録があります。 この記事では、それらの違いについて説明します。
 
-新しいバージョンはWorkfront API に対する変更ではなく、イベント購読機能に対する変更です。
+新しいバージョンは Workfront API に対する変更ではなく、イベント登録機能に対する変更です。
 
-イベント購読をアップグレードまたはダウングレードする機能により、イベントの構造に変更が加えられても既存の購読が壊れずに、イベント購読に隙間なく新しいバージョンのテストとアップグレードが可能になります。
+イベント登録のアップグレードまたはダウングレード機能により、イベントの構造に変更が加えられても既存の登録には影響せず、イベント登録を中断することなく新しいバージョンのテストとアップグレードができます。
 
 
-イベント購読を別のバージョンにアップグレードまたはダウングレードすると、バージョン変更後 5 分間、イベント配信ごとに重複したイベントが届きます。 重複には、イベント購読バージョン 1 とバージョン 2 がそれぞれ 1 つずつ含まれます。 これにより、イベント購読バージョンの変更に伴うイベントが見逃されなくなります。
+イベント登録を別のバージョンにアップグレードまたはダウングレードすると、バージョン変更後 5 分間にわたって、イベント配信ごとに重複したイベントが配信されます。 重複したイベントには、イベント登録バージョン 1 とバージョン 2 がそれぞれ 1 つずつ含まれます。 これにより、イベント登録バージョンを変更しても、イベントを見落とすことがなくなります。
 
-イベント購読のアップグレードまたはダウングレードに使用されるエンドポイントについて詳しくは、イベント購読 API 記事の [&#x200B; イベント購読のバージョン管理 &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) を参照してください。
+イベントサブスクリプションのアップグレードまたはダウングレードに使用されるエンドポイントについて詳しくは、「イベントサブスクリプション API」の「[ イベントサブスクリプションのバージョン管理](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning)」を参照してください。
 
 >[!IMPORTANT]
 >
->次のリリースは、イベント購読のバージョン管理に影響します。
+>次のリリースは、イベントのサブスクリプションのバージョン管理に影響します。
 >
->* **25.2 リリース** （2025 年 4 月 10 日（PT））:25.2 リリース以降に作成された新しいサブスクリプションはすべて、バージョン 2 として作成されます。
->* **2026 年 1 月 15 日**：残りのすべてのバージョン 1 サブスクリプションがバージョン 2 に移行されます。
+>* **25.2 リリース** （2025年4月10日）: 25.2 リリース以降に作成されたすべての新しいサブスクリプションは、バージョン 2として作成されます。
+>* **2026年1月15日**：残りのバージョン 1 サブスクリプションはすべてバージョン 2に移行されます。
 
-## バージョン 1 とバージョン 2 の間の変更
+## バージョン 1とバージョン 2の変更点
 
-イベント購読バージョン 2 に対して次の変更が行われました。
+イベント サブスクリプション バージョン 2に対して、次の変更が行われました。
 
 
-### 一般的な変更点
+### 一般的な変更
 
 
 <table style="table-layout:auto"> 
@@ -52,21 +56,21 @@ Workfrontには、2 つのバージョンのイベント購読があります。
    <th> <p><b>影響を受けるフィールド</b></p> </th> 
    <th> <p><b>バージョン 1 （以前の動作）</b></p> </th> 
    <th> <p><b>バージョン 2 （変更）</b></p> </th> 
-   <th> <p><b>修正アクション</b></p> </th> 
+   <th> <p><b>修復アクション</b></p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>計算されたパラメーター値</p> </td> 
-   <td> <p>計算されたパラメーター値を含むカスタムフォームを含むテンプレートから作成されたオブジェクトの場合、<code>CREATE</code> イベントが送信された後に、パラメーター値（計算フィールドとその値を含む）を含む <code>UPDATE</code> が送信されます。 </p> </td> 
-   <td> <p>計算されたパラメーター値を持つカスタムフォームを含むテンプレートからオブジェクトが作成された場合、<code>CREATE</code> イベントのみが送信され、計算フィールドを含むパラメーター値が含まれます。</p> </td> 
-   <td> <p><code>UPDATE</code> イベントの購読があり、計算されたパラメーター値でオブジェクトを作成した後に <code>UPDATE</code> イベントを受け取る予定がある場合、その <code>UPDATE</code> イベントは受け取らなくなります。 オブジェクトの作成時に計算されたパラメーター値を表示する場合は、追加の <code>CREATE</code> サブスクリプションを作成する必要があります。</p> </td> 
+   <td> <p>計算パラメーター値</p> </td> 
+   <td> <p>計算されたパラメーター値を持つカスタムフォームを含むテンプレートから作成されたオブジェクトはすべて、<code>CREATE</code> イベントが送信され、次に<code>UPDATE</code>がパラメーター値（計算フィールドとその値を含む）とともに送信されます。 </p> </td> 
+   <td> <p>計算されたパラメーター値を含むカスタムフォームを含むテンプレートからオブジェクトを作成する場合、<code>CREATE</code> イベントのみが送信され、計算フィールドを含むパラメーター値が含まれます。</p> </td> 
+   <td> <p><code>UPDATE</code> イベントのサブスクリプションがあり、計算されたパラメーター値を使用してオブジェクトを作成した後に<code>UPDATE</code> イベントを受信することを想定している場合、その<code>UPDATE</code> イベントは受信されなくなります。 オブジェクトの作成時に計算パラメーター値を表示するには、追加の<code>CREATE</code> サブスクリプションを作成する必要があります。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>複数選択タイプフィールド</p> </td> 
-   <td> <p>複数選択タイプのフィールドに対する変更を含むイベントタイプの場合、フィールドに値が 1 つしか含まれていなければ、変換されて文字列として送信されます。 それ以外の場合は、配列として送信されます。 </p><p>例：</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> は変換され、<code>myMultiSelectField: "oneValue"</code> として送信されます。</li><li><code>myMultiSelectField: ["first", "second"]</code> は <code>myMultiSelectField: ["first", "second"]</code> として送信されます。</li></ul> </td> 
-   <td> <p>配列内の値の数に関係なく、配列として送信されます。 </p><p>例：</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> は <code>myMultiSelectField: ["oneValue"]</code> として送信されます。</li><li><code>myMultiSelectField: ["first", "second"]</code> は <code>myMultiSelectField: ["first", "second"]</code> として送信されます。</li></ul> </td> 
-   <td> <p>複数選択フィールドに対するフィルターを持つ購読があり、値を文字列とする場合、値を配列として持つのと同じフィルターを持つ新しい購読を作成する必要があります。 </p> </td> 
+   <td> <p>複数選択テキストフィールド</p> </td> 
+   <td> <p>複数選択タイプフィールドに変更を含む任意のタイプのイベントの場合、フィールドに1つの値のみが含まれている場合、変換され、文字列として送信されます。 それ以外の場合は、配列として送信されます。 </p><p>例：</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> は変換され、<code>myMultiSelectField: "oneValue"</code>として送信されます。</li><li><code>myMultiSelectField: ["first", "second"]</code> は<code>myMultiSelectField: ["first", "second"]</code>として送信されます。</li></ul> </td> 
+   <td> <p>配列内の値の数に関係なく、配列として送信されます。 </p><p>例：</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> は<code>myMultiSelectField: ["oneValue"]</code>として送信されます。</li><li><code>myMultiSelectField: ["first", "second"]</code> は<code>myMultiSelectField: ["first", "second"]</code>として送信されます。</li></ul> </td> 
+   <td> <p>複数選択フィールドにフィルターを含むサブスクリプションがあり、その値が文字列である場合は、その値を配列として持つ同じフィルターを使用して、新しいサブスクリプションを作成する必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,10 +86,10 @@ Workfrontには、2 つのバージョンのイベント購読があります。
  <thead> 
   <tr> 
    <th> <b> オブジェクトコード </b> </th> 
-   <th> <b> 影響を受けるフィールド </b> </th> 
+   <th> <b>影響を受けるフィールド </b> </th> 
    <th> <b> バージョン 1 （以前の動作） </b></th> 
    <th> <b> バージョン 2 （変更） </b> </th> 
-   <th> <b> 是正措置 </b> </th> 
+   <th> <b>修正アクション </b> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -99,9 +103,9 @@ Workfrontには、2 つのバージョンのイベント購読があります。
      <li><code>customerID</code></li>
     </ul> 
    </td> 
-   <td>このオブジェクトが更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが <code>null</code> から <code>ID value</code> に変更されることが誤って表示されることがありました。</td> 
-   <td>すべての <code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合、<code>UPDATE</code> のイベントは、これらのフィールドが実際に変更された場合にのみ受け取り、その他の値が変更された場合には受け取りません。
+   <td>このオブジェクトが更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されることが誤って表示されることがありました。</td> 
+   <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
+   <td>なし。影響を受けるフィールドにフィルターがある場合は、これらのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他の値が変更された場合は表示されません。
    </td> 
   </tr> 
   <tr> 
@@ -111,9 +115,9 @@ Workfrontには、2 つのバージョンのイベント購読があります。
      <li><code>referenceObjID</code></li>
     </ul> 
    </td> 
-   <td>このオブジェクトのパラメーター値が更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが <code>null</code> から <code>object id</code> に変更されたことが誤って表示されていました。 </td> 
-   <td>すべての <code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合、<code>UPDATE</code> のイベントは、これらのフィールドが実際に変更された場合にのみ受け取り、その他の値が変更された場合には受け取りません。
+   <td>このオブジェクトのパラメーター値が更新されると、<code>UPDATE</code> イベントに、影響を受けるフィールドが<code>null</code>から<code>object id</code>に変更されたことが誤って表示されました。 </td> 
+   <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
+   <td>なし。影響を受けるフィールドにフィルターがある場合は、これらのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他の値が変更された場合は表示されません。
   </tr> 
   <tr> 
   <td>
@@ -121,8 +125,8 @@ Workfrontには、2 つのバージョンのイベント購読があります。
      <li><code>groups</code></li>
     </ul> 
    </td> 
-   <td>ドキュメントが削除されると、<code>DELETE</code> イベントで、影響を受けるフィールドが事前状態の空の配列として誤って表示されていました。    </td> 
-   <td><code>DELETE</code> イベントは、影響を受けるフィールドを事前状態で正しく表示します。</td> 
+   <td>ドキュメントが削除された場合、<code>DELETE</code> イベントは、影響を受けるフィールドをbefore状態の空の配列として誤って表示しました。    </td> 
+   <td><code>DELETE</code> イベントは、影響を受けるフィールドをbefore状態で正しく表示します。</td> 
    <td>なし。<code>DELETE</code> イベントは引き続き送信されますが、影響を受けるフィールドの正しいデータが表示されるようになりました。 
 </td> 
   </tr> 
@@ -135,8 +139,8 @@ Workfrontには、2 つのバージョンのイベント購読があります。
      <li><code>proofProgress</code></li>
     </ul> 
    </td> 
-   <td>このオブジェクトが更新されると、2 つの <code>UPDATE</code> イベントが送信されます。 最初のイベントには影響を受けるフィールドは含まれませんでしたが、2 番目のイベントには含まれていました。</td> 
-   <td>影響を受けるフィールドを含むすべてのフィールド更新が 1 つの <code>UPDATE</code> イベントにのみ存在し、2 つ目の不要なイベントは送信されません。     </td> 
+   <td>このオブジェクトが更新されると、2つの<code>UPDATE</code> イベントが送信されます。 最初のイベントには影響を受けるフィールドが含まれず、2番目のイベントには含まれていました。</td> 
+   <td>影響を受けるフィールドを含むすべてのフィールド更新は、1つの<code>UPDATE</code> イベントにのみ存在し、2つ目の不要なイベントは送信されません。     </td> 
    <td>なし。影響を受けるフィールドにフィルターがある場合、イベントは最初のイベントで配信されます。 
 </td> 
   </tr> 
@@ -148,9 +152,9 @@ Workfrontには、2 つのバージョンのイベント購読があります。
      <li><code>referenceObjectName</code></li>
     </ul> 
    </td> 
-   <td>任意のパラメーター値が費用で更新された場合、<code>UPDATE</code> イベントで、topReferenceObjCode が <code>EXPNS</code> から <code>PROJ</code> に変更され、<code>referenceObjectName</code> が <code>null</code> から <code>string value of project name</code> に変更されたことが誤って表示されていました。      </td> 
-   <td>すべての <code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合、<code>UPDATE</code> のイベントは、これらのフィールドが実際に変更された場合にのみ受け取り、その他の値が変更された場合には受け取りません。
+   <td>任意のパラメーター値が経費で更新された場合、<code>UPDATE</code> イベントに誤って<code>EXPNS</code>から<code>PROJ</code>へのtopReferenceObjCodeの変更が表示され、<code>referenceObjectName</code>が<code>null</code>から<code>string value of project name</code>への変更が表示されました。      </td> 
+   <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
+   <td>なし。影響を受けるフィールドにフィルターがある場合は、これらのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他の値が変更された場合は表示されません。
   </tr> 
   <tr> 
   <td>
@@ -159,9 +163,9 @@ Workfrontには、2 つのバージョンのイベント購読があります。
      <li><code>referenceObjectName</code></li>
     </ul> 
    </td> 
-   <td>費用オブジェクトが削除されると、<code>UPDATE</code> イベントが送信され、<code>DELETE</code> イベントが送信される前に、影響を受けるフィールドが null に変更されました。    </td> 
-   <td>追加の <code>UPDATE</code> イベントは送信されません。 <code>DELETE</code> イベントには、before 状態の影響を受けるフィールドに対する正しい値があります。 </td> 
-   <td><code>UPDATE</code> イベントの影響を受けるフィールドのフィルターがあり、オブジェクトが削除されたときに受け取ることを期待していた場合、その <code>UPDATE</code> イベントは受け取らなくなります。 オブジェクトの削除時にこれらのフィールドを表示する場合は、追加の <code>DELETE</code> サブスクリプションを作成する必要があります。
+   <td>費用オブジェクトが削除されると、<code>DELETE</code> イベントが送信される前に、影響を受けるフィールドをnullに変更する<code>UPDATE</code> イベントが送信されました。    </td> 
+   <td>追加の<code>UPDATE</code> イベントは送信されません。 <code>DELETE</code> イベントには、before状態の影響を受けるフィールドの正しい値があります。 </td> 
+   <td><code>UPDATE</code> イベントの影響を受けるフィールドのフィルターがあり、オブジェクトが削除されたときに受信することを想定している場合は、その<code>UPDATE</code> イベントは受信されなくなります。オブジェクトが削除されたときにこれらのフィールドを表示するには、追加の<code>DELETE</code> サブスクリプションを作成する必要があります。
 </td> 
   </tr> 
   <tr> 
@@ -179,9 +183,9 @@ Workfrontには、2 つのバージョンのイベント購読があります。
      <li><code>securityRootID</code></li>
     </ul> 
    </td> 
-   <td>このオブジェクトが削除されると、<code>DELETE</code> イベントで、影響を受けるフィールドが <code>null</code> のように誤って表示されていました。 </td> 
-   <td><code>DELETE</code> イベントは、影響を受けるフィールドを事前状態で正しく表示します。</td> 
-   <td>なし。<code>DELETE</code> イベントは引き続き送信されますが、影響を受けるフィールドの正しいデータが表示されるようになりました。 </td> 
+   <td>このオブジェクトが削除された場合、<code>DELETE</code> イベントは、影響を受けるフィールドを誤ってbefore状態の<code>null</code>として表示しました。 </td> 
+   <td><code>DELETE</code> イベントは、影響を受けるフィールドをbefore状態で正しく表示します。</td> 
+   <td>なし。 <code>DELETE</code> イベントは引き続き送信されますが、影響を受けるフィールドの正しいデータが表示されるようになりました。 </td> 
   </tr> 
   <tr> 
    <th rowspan="2">OPTASK</th> 
@@ -190,9 +194,9 @@ Workfrontには、2 つのバージョンのイベント購読があります。
      <li><code>rootGroupID</code></li>
     </ul> 
    </td> 
-   <td>このオブジェクトのパラメーター値が更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが <code>null</code> から <code>ID value</code> に変更されたことが誤って表示されていました。 </td> 
-   <td>すべての <code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合、そのフィールドが実際に変更された場合にのみ <code>UPDATE</code> イベントが返され、他のパラメーター値が変更された場合には返されません。
+   <td>このオブジェクトのパラメーター値が更新されると、<code>UPDATE</code> イベントに、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されたことが誤って表示されました。 </td> 
+   <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
+   <td>なし。影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
 </td> 
   </tr> 
   <tr> 
@@ -203,8 +207,8 @@ Workfrontには、2 つのバージョンのイベント購読があります。
      <li><code>resolvingObjID</code></li>
     </ul> 
    </td> 
-   <td>このオブジェクトが更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが <code>null</code> から <code>ID value</code> に変更されることが誤って表示されることがありました。</td> 
-   <td>すべての <code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。    </td> 
+   <td>このオブジェクトが更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されることが誤って表示されることがありました。</td> 
+   <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。    </td> 
    <td></td> 
   </tr> 
   <tr> 
@@ -213,9 +217,9 @@ Workfrontには、2 つのバージョンのイベント購読があります。
     <ul>
      <li><code>rootGroupID</code></li>
     </ul> 
-   <td>このオブジェクトのパラメーター値が更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが <code>null</code> から <code>ID value</code> に変更されたことが誤って表示されていました。 </td> 
-   <td>すべての <code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合、そのフィールドが実際に変更された場合にのみ <code>UPDATE</code> イベントが返され、他のパラメーター値が変更された場合には返されません。
+   <td>このオブジェクトのパラメーター値が更新されると、<code>UPDATE</code> イベントに、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されたことが誤って表示されました。 </td> 
+   <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
+   <td>なし。影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
   </tr> 
   <tr> 
   <td>
@@ -223,9 +227,9 @@ Workfrontには、2 つのバージョンのイベント購読があります。
      <li><code>convertedOpTaskID</code></li>
     </ul> 
    </td> 
-   <td>このオブジェクトが更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが <code>null</code> から <code>ID value</code> に変更されることが誤って表示されることがありました。</td> 
-   <td>すべての <code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合、そのフィールドが実際に変更された場合にのみ <code>UPDATE</code> イベントが返され、他のパラメーター値が変更された場合には返されません。
+   <td>このオブジェクトが更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されることが誤って表示されることがありました。</td> 
+   <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
+   <td>なし。影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
   </tr> 
   <tr> 
    <th rowspan="2">タスク</th> 
@@ -234,9 +238,9 @@ Workfrontには、2 つのバージョンのイベント購読があります。
      <li><code>rootGroupID</code></li>
     </ul> 
    </td> 
-   <td>このオブジェクトのパラメーター値が更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが <code>null</code> から <code>ID value</code> に変更されたことが誤って表示されていました。 </td> 
-   <td>すべての <code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合、そのフィールドが実際に変更された場合にのみ <code>UPDATE</code> イベントが返され、他のパラメーター値が変更された場合には返されません。
+   <td>このオブジェクトのパラメーター値が更新されると、<code>UPDATE</code> イベントに、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されたことが誤って表示されました。 </td> 
+   <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
+   <td>なし。影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
   </tr> 
   <tr> 
   <td>
@@ -244,17 +248,17 @@ Workfrontには、2 つのバージョンのイベント購読があります。
      <li><code>convertedOpTaskID</code></li>
     </ul> 
    </td> 
-   <td>このオブジェクトが更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが <code>null</code> から <code>ID value</code> に変更されることが誤って表示されることがありました。</td> 
-   <td>すべての <code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
-   <td>なし。影響を受けるフィールドにフィルターがある場合、そのフィールドが実際に変更された場合にのみ <code>UPDATE</code> イベントが返され、他のパラメーター値が変更された場合には返されません。
+   <td>このオブジェクトが更新されると、<code>UPDATE</code> イベントで、影響を受けるフィールドが<code>null</code>から<code>ID value</code>に変更されることが誤って表示されることがありました。</td> 
+   <td>すべての<code>UPDATE</code> イベントには、影響を受けるフィールドの正しい値が表示されます。</td> 
+   <td>なし。影響を受けるフィールドにフィルターがある場合は、そのフィールドが実際に変更された場合にのみ<code>UPDATE</code> イベントが表示されます。他のパラメーター値が変更された場合は表示されません。
  </tbody> 
 </table>
 
 
-## Workfront Fusion シナリオのイベント購読バージョンの更新
+## Workfront Fusion シナリオでのイベントサブスクリプションバージョンの更新
 
-Workfront Fusion は、イベント購読を使用して、トリガーシナリオに対するWorkfrontの変化を監視します。 Fusion がシナリオで直接使用するイベント購読のバージョンは、Workfront/イベントのペイロードバージョンを更新モジュールを使用して更新できます。
+Workfront Fusionでは、イベントサブスクリプションを使用して、Workfrontからトリガーへの変更を監視します。 Fusionがシナリオで直接使用するイベント購読バージョンを更新するには、Workfront/イベントペイロードバージョンを更新モジュールを使用します。
 
-このモジュールの使用方法については、Workfront Fusion ドキュメントの [Workfront モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) を参照してください。
+このモジュールの使用方法については、Workfront Fusion ドキュメントの[Workfront モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules)を参照してください。
 
-ウェビナーの録画など、イベント購読のアップグレード中にWorkfront Fusion シナリオを保持する方法については、[&#x200B; イベント購読 V2 のアップグレード中に Fusion シナリオを保持する &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=ja) を参照してください。
+ウェビナーの録画など、イベント登録のアップグレード中に Workfront Fusion シナリオを保持する方法について詳しくは、[イベント登録 V2 のアップグレード中の Fusion シナリオの保持](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)を参照してください。

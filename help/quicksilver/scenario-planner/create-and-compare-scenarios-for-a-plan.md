@@ -3,15 +3,21 @@ product-previous: enterprise-scenario-planner
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: シナリオプランナーでプランシナリオを作成および比較
-description: 企業の長期戦略を計画する際、初期段階には持っていない、または考えてもみない情報は多くあります。関係者が受け入れられる最終的な戦略に到達するには、時間と実験が必要です。「what if」分析を実施して計画の複数のシナリオを作成すると、潜在的な状況を正確に予測および評価し、最終的に可能な限り最適な計画を策定するのに役立ちます。
+description: 企業の長期戦略を計画する際、初期段階には持っていない、または考えてもみない情報は多くあります。 関係者が受け入れられる最終的な戦略に到達するには、時間と実験が必要です。 「what if」分析を実施して計画の複数のシナリオを作成すると、潜在的な状況を正確に予測および評価し、最終的に可能な限り最適な計画を策定するのに役立ちます。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/xf-c8wX5aGmp5p9O58Zsz6zFHyoPw-om6SvzlU9wqdI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 936
 ht-degree: 89%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 89%
 
 <!--Audited: 07/2024-->
 
-企業の長期戦略を計画する際、初期段階には持っていない、または考えてもみない情報は多くあります。関係者が受け入れられる最終的な戦略に到達するには、時間と実験が必要です。「what if」分析を実施して計画の複数のシナリオを作成すると、潜在的な状況を正確に予測および評価し、最終的に可能な限り最適な計画を策定するのに役立ちます。
+企業の長期戦略を計画する際、初期段階には持っていない、または考えてもみない情報は多くあります。 関係者が受け入れられる最終的な戦略に到達するには、時間と実験が必要です。 「what if」分析を実施して計画の複数のシナリオを作成すると、潜在的な状況を正確に予測および評価し、最終的に可能な限り最適な計画を策定するのに役立ちます。
 
 ## アクセス要件
 
@@ -54,7 +60,7 @@ ht-degree: 89%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、[を使用するために必要な [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) アクセスを参照してください。
+シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な[ アクセスを参照してください。
 
 Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
@@ -102,21 +108,21 @@ Old:
 
 ## シナリオの作成
 
-シナリオは計画のコピーです。シナリオは必要な数だけ作成できます。ただし、簡単に比較できるように、シナリオの数を最小限に抑えることをお勧めします。
+シナリオは計画のコピーです。 シナリオは必要な数だけ作成できます。 ただし、簡単に比較できるように、シナリオの数を最小限に抑えることをお勧めします。
 
 {{step1-to-scenario-planner}}
 
 1. プランを作成するか、既存のプランの名前をクリックします。
 
-   計画の作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) で計画を作成および編集を参照してください。
+   計画の作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) で計画を作成および編集を参照してください。
 
    最初に作成したプランは、「[!UICONTROL 初期シナリオ]」として自動的に保存されます。
 
 1. 既存のシナリオの横にある下向き矢印をクリックし、**[!UICONTROL コピー]**&#x200B;アイコンを選択します。
 
-   ![&#x200B; シナリオのコピー](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![ シナリオのコピー](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
-   これにより、コピーされたシナリオと同じ情報を持つ新しいシナリオが作成されます。計画の 2 番目のシナリオの場合は「[!UICONTROL シナリオ 2]」、3 番目のシナリオの場合は「[!UICONTROL シナリオ 3]」という名前が自動的に付けられます。シナリオの名前は変更できません。 作成できるコピーの数に制限はありません。
+   これにより、コピーされたシナリオと同じ情報を持つ新しいシナリオが作成されます。 計画の 2 番目のシナリオの場合は「[!UICONTROL シナリオ 2]」、3 番目のシナリオの場合は「[!UICONTROL シナリオ 3]」という名前が自動的に付けられます。 シナリオの名前は変更できません。 作成できるコピーの数に制限はありません。
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -132,7 +138,7 @@ Old:
      >
      >シナリオのイニシアチブを削除すると、すべてのシナリオからではなく、選択したシナリオからのみ削除されます。
 
-     イニシアチブの作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) のイニシアチブを作成および編集を参照してください。
+     イニシアチブの作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) のイニシアチブを作成および編集を参照してください。
 
    * イニシアチブの優先順位を更新
    * 人材や予算の情報を調整
@@ -147,11 +153,11 @@ Old:
 シナリオを作成した後、それらを比較して組織に最適なシナリオを見つけることができます。
 
 1. シナリオを比較する計画に移動します。
-1. 「**[!UICONTROL シナリオを比較]**」をクリックします。シナリオ比較ページが表示されます。
+1. 「**[!UICONTROL シナリオを比較]**」をクリックします。 シナリオ比較ページが表示されます。
 
-   計画の既存のシナリオはすべて、横に並べたカード形式で表示されます。初期シナリオは常に最初にリストされ、静的です。
+   計画の既存のシナリオはすべて、横に並べたカード形式で表示されます。 初期シナリオは常に最初にリストされ、静的です。
 
-   ![Senario カード &#x200B;](assets/scenario-cards-overlapping-350x166.png)
+   ![Senario カード ](assets/scenario-cards-overlapping-350x166.png)
 
 1. （オプション）右にスクロールして、すべてのシナリオカードを表示します。
 
@@ -163,7 +169,7 @@ Old:
     <tbody> 
      <tr> 
       <td>シナリオの名前</td> 
-      <td> <p>Workfront によって自動的に生成される名前であり、編集することはできません。例えば、「[!UICONTROL Initial scenario]」、「[!UICONTROL Scenario 2]」などです。 </p> </td> 
+      <td> <p>Workfront によって自動的に生成される名前であり、編集することはできません。 例えば、「[!UICONTROL Initial scenario]」、「[!UICONTROL Scenario 2]」などです。 </p> </td> 
      </tr> 
      <tr> 
       <td>シナリオの説明</td> 
@@ -179,19 +185,19 @@ Old:
      </tr> 
      <tr> 
       <td>予算</td> 
-      <td>このシナリオでプランに定義された総予算。プランに関する予算情報については、<a href="../scenario-planner/plans-overview.md" class="MCXref xref">[!DNL Scenario Planner]</a> のプランの概要を参照してください。 </td> 
+      <td>このシナリオでプランに定義された総予算。 プランに関する予算情報については、<a href="../scenario-planner/plans-overview.md" class="MCXref xref">[!DNL Scenario Planner]</a> のプランの概要を参照してください。 </td> 
      </tr> 
      <tr> 
       <td>コスト</td> 
-      <td>シナリオのイニシアチブに関連するコスト。コストについて詳しくは、<a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">[!DNL Scenario Planner]</a> のイニシアチブの概要を参照してください。 </td> 
+      <td>シナリオのイニシアチブに関連するコスト。 コストについて詳しくは、<a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">[!DNL Scenario Planner]</a> のイニシアチブの概要を参照してください。 </td> 
      </tr> 
      <tr> 
       <td>稼働率</td> 
-      <td>このシナリオのプランの [!UICONTROL Budget Utilization] の割合。[!UICONTROL Budget Utilization] の割合について詳しくは、<a href="../scenario-planner/plans-overview.md" class="MCXref xref">[!DNL Scenario Planner]</a> のプランの概要を参照してください。 </td> 
+      <td>このシナリオのプランの [!UICONTROL Budget Utilization] の割合。 [!UICONTROL Budget Utilization] の割合について詳しくは、<a href="../scenario-planner/plans-overview.md" class="MCXref xref">[!DNL Scenario Planner]</a> のプランの概要を参照してください。 </td> 
      </tr> 
      <tr> 
       <td>純価</td> 
-      <td>このシナリオのプランの [!UICONTROL Net Value]。プランの [!UICONTROL Net Value] について詳しくは、<a href="../scenario-planner/plans-overview.md" class="MCXref xref">[!DNL Scenario Planner]</a> のプランの概要を参照してください。 </td> 
+      <td>このシナリオのプランの [!UICONTROL Net Value]。 プランの [!UICONTROL Net Value] について詳しくは、<a href="../scenario-planner/plans-overview.md" class="MCXref xref">[!DNL Scenario Planner]</a> のプランの概要を参照してください。 </td> 
      </tr> 
      <tr> 
       <td>イニシアチブ</td> 
@@ -199,7 +205,7 @@ Old:
      </tr> 
      <tr> 
       <td>競合</td> 
-      <td>このシナリオのプラン内の競合の種類を示すイニシアチブの数。イニシアチブの競合について詳しくは、<a href="../scenario-planner/resolve-conflicts-in-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> でのイニシアチブの競合を解決を参照してください。 </td> 
+      <td>このシナリオのプラン内の競合の種類を示すイニシアチブの数。 イニシアチブの競合について詳しくは、<a href="../scenario-planner/resolve-conflicts-in-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> でのイニシアチブの競合を解決を参照してください。 </td> 
      </tr> 
     </tbody> 
    </table>
@@ -209,7 +215,7 @@ Old:
    >初期シナリオと追加のシナリオで情報が異なる場合は、変更された値の横に上向き矢印または下向き矢印が表示され、初期シナリオと比較して、その値の増減を示します。
    >
    >
-   >![&#x200B; シナリオカードの矢印](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >![ シナリオカードの矢印](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >例えば、予算、担当業務の数、イニシアチブの数がシナリオごとに変わる場合があります。
 
@@ -223,9 +229,9 @@ Old:
 
    説明フィールドをクリックして更新し、画面の任意の場所をクリックして変更を保存します。
 
-1. （オプション）シナリオを&#x200B;**[!UICONTROL 詳細]** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)から&#x200B;**[!UICONTROL コピー]**&#x200B;または&#x200B;**[!UICONTROL 削除]**&#x200B;をクリックします。
+1. （オプション）シナリオを&#x200B;**[!UICONTROL 詳細]** メニュー![詳細アイコン ](assets/more-icon.png)から&#x200B;**[!UICONTROL コピー]**&#x200B;または&#x200B;**[!UICONTROL 削除]**&#x200B;をクリックします。
 
-   ![&#x200B; シナリオのコピーまたは削除](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![ シナリオのコピーまたは削除](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    シナリオをコピーすると、自動的にカードページに表示され、「[!UICONTROL シナリオ] `<next number in order>`」のパターンに従って名前が変更されます。
 
@@ -233,6 +239,6 @@ Old:
 
    削除したシナリオは復元できません。
 
-   シナリオの削除について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/delete-plans.md) のプランを削除を参照してください。
+   シナリオの削除について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/delete-plans.md) のプランを削除を参照してください。
 
 1. 「**[!UICONTROL プランを保存]**」をクリックして、シナリオとプランを保存します。

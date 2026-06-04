@@ -6,11 +6,17 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/vEseGrhKdhmMJCdM0q0PwzR9Gqjdj42djlpc-NfFXaQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: 502
 ht-degree: 17%
 
 ---
@@ -71,7 +77,7 @@ ht-degree: 17%
 {{step1-to-priorities}}
 
 1. ワークリストの上部にある「**カレンダー**」アイコンをクリックします。
-   ![&#x200B; カレンダーアイコン &#x200B;](assets/calendar-tab.png)
+   ![ カレンダーアイコン ](assets/calendar-tab.png)
 1. 1つ以上のフィルターを選択して、作業項目を絞り込みます。
 
    +++展開すると、使用可能なフィルターに関する詳細情報が表示されます
@@ -151,11 +157,11 @@ ht-degree: 17%
 {{step1-to-priorities}}
 
 1. ワークリストの上部にある「**カレンダー**」アイコンをクリックします。
-   ![&#x200B; カレンダーアイコン &#x200B;](assets/calendar-tab.png)
+   ![ カレンダーアイコン ](assets/calendar-tab.png)
 1. カレンダーの右隅にある&#x200B;**設定** アイコンをクリックします。
 
 1. 「**バースタイル**」タブで、カレンダーの作業項目バーに表示する最大5つのフィールドを選択します。
-   ![&#x200B; サンプルバー](assets/sample-task-for-field-config.png)
+   ![ サンプルバー](assets/sample-task-for-field-config.png)
 
-1. 「**カラー**」タブで、作業項目の表示方法を選択します。 例えば、**プロジェクト**&#x200B;を選択した場合、作業項目は、ワークリスト上のプロジェクトに割り当てられた色に従って表示されます。
-   ![&#x200B; サンプルカラープロジェクト &#x200B;](assets/sample-calendar-projects.png)
+1. 「**カラー**」タブで、作業項目の表示方法を選択します。例えば、**プロジェクト**を選択すると、作業項目は、ワークリスト上のプロジェクトに割り当てられた色に従って表示されます。
+   ![ サンプルカラープロジェクト ](assets/sample-calendar-projects.png)

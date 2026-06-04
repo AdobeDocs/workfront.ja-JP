@@ -2,20 +2,25 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: プルーフビューアーでの以前のプルーフバージョンの表示
-description: プルーフの以前のバージョンが存在する場合は表示できます。以前のバージョンは、デフォルトでロックされています。ロックされたバージョンに対しては、コメントを追加したり、決定を変更したりすることはできません。
+description: プルーフの以前のバージョンが存在する場合は表示できます。 以前のバージョンは、デフォルトでロックされています。 ロックされたバージョンに対しては、コメントを追加したり、決定を変更したりすることはできません。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 9416a3ee-2812-4a25-af38-2c5daeaeef07
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/OOioWEV0JX5BwXDQGubtk77s6bQxv8R-YygvNy3YM1U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 92%
+source-wordcount: 253
+ht-degree: 98%
 
 ---
 
 # プルーフビューアーでの以前のプルーフバージョンの表示
 
-プルーフの以前のバージョンが存在する場合は表示できます。以前のバージョンは、デフォルトでロックされています。ロックされたバージョンに対しては、コメントを追加したり、決定を変更したりすることはできません。
+プルーフの以前のバージョンが存在する場合は表示できます。 以前のバージョンは、デフォルトでロックされています。 ロックされたバージョンに対しては、コメントを追加したり、決定を変更したりすることはできません。
 
 >[!NOTE]
 >
@@ -39,7 +44,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td role="rowheader">プルーフの役割 </td> 
-   <td>レビュアー、レビュアーおよび承認者、作成者、モデレーター</td> 
+   <td>レビュアー、レビュアー、承認者、作成者、モデレーター</td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -66,4 +71,4 @@ ht-degree: 92%
    ![phq_viewer_version.png](assets/phq-viewer-version-350x184.png)
 
 1. 表示されるリストで、表示するバージョンをクリックします。
-1. （オプション）ユーザーがコメントを追加したり、決定を変更できるようにする場合にバージョンのロックを解除するには（自身がその権限を持っている場合）、左側のパネルで&#x200B;**ロック解除**&#x200B;アイコン、「**はい、ロックを解除します**」の順にクリックします。詳しくは、[プルーフのロックまたはロック解除](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)を参照してください。
+1. （オプション）ユーザーがコメントを追加したり、決定を変更できるようにする場合にバージョンのロックを解除するには（自身がその権限を持っている場合）、左側のパネルで&#x200B;**ロック解除**&#x200B;アイコン、「**はい、ロックを解除します**」の順にクリックします。 詳しくは、[プルーフのロックまたはロック解除](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)を参照してください。

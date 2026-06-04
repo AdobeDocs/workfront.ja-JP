@@ -2,15 +2,21 @@
 product-previous: workfront-goals
 navigation-topic: old-workfront-goals-articles
 title: Adobe Workfront Goalsでの目標の削除と非アクティブ化
-description: 目標に取り組み始めた後で、組織との関連性がなくなった場合は、目標を削除するのではなく、非アクティブ化することをお勧めします。目標を非アクティブ化すると、履歴情報が保持され、後で再度アクティブ化することができます。ただし、目標リストを正確に保つために、目標を削除することがよいことももあります。
+description: 目標に取り組み始めた後で、組織との関連性がなくなった場合は、目標を削除するのではなく、非アクティブ化することをお勧めします。 目標を非アクティブ化すると、履歴情報が保持され、後で再度アクティブ化することができます。 ただし、目標リストを正確に保つために、目標を削除することがよいことももあります。
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/5IwRsFUrAU2BLdhFSo-r-XkMlBaZ-epEwaiKYTaisKE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: 603
 ht-degree: 86%
 
 ---
@@ -19,13 +25,13 @@ ht-degree: 86%
 
 <!--Audited for P&P only: 10/2025-->
 
-目標に取り組み始めた後で、組織との関連性がなくなった場合は、目標を削除するのではなく、非アクティブ化することをお勧めします。目標を非アクティブ化すると、履歴情報が保持され、後で再度アクティブ化することができます。ただし、目標リストを正確に保つために、目標を削除することがよいことももあります。
+目標に取り組み始めた後で、組織との関連性がなくなった場合は、目標を削除するのではなく、非アクティブ化することをお勧めします。 目標を非アクティブ化すると、履歴情報が保持され、後で再度アクティブ化することができます。 ただし、目標リストを正確に保つために、目標を削除することがよいことももあります。
 
 ## アクセス要件
 
 >[!NOTE]
 >
->過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。詳しくは、アカウント担当者にお問い合わせください。
+>過去にこのパッケージを購入したことがある会社は、Adobe Workfront Goals を引き続き使用する場合があります。 詳しくは、アカウント担当者にお問い合わせください。
 >
 >Adobe Workfront Goals は購入できなくなりました。
 
@@ -141,14 +147,14 @@ Old:
 
 目標を非アクティブ化するときは、次の点に注意してください。
 
-* アクティブステータスの目標のみを非アクティブ化できます。目標のアクティブ化については、[Adobe Workfront Goals での目標のアクティブ化](../../workfront-goals/goal-management/activate-goals.md)を参照してください。
+* アクティブステータスの目標のみを非アクティブ化できます。 目標のアクティブ化については、[Adobe Workfront Goals での目標のアクティブ化](../../workfront-goals/goal-management/activate-goals.md)を参照してください。
 
   >[!TIP]
   >
   >ドラフトステータスの目標を非アクティブ化することはできません。
 
 * Workfront は、非アクティブ化された目標の進捗状況の計算を停止します。
-* 非アクティブな目標は、ワークフロント目標のグラフセクションに表示されなくなり、考慮されなくなります。Workfront Goals グラフについて詳しくは、[グラフを確認して Adobe Workfront Goals の目標進捗の傾向を理解する](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)を参照してください。
+* 非アクティブな目標は、ワークフロント目標のグラフセクションに表示されなくなり、考慮されなくなります。 Workfront Goals グラフについて詳しくは、[グラフを確認して Adobe Workfront Goals の目標進捗の傾向を理解する](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)を参照してください。
 
   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
@@ -196,9 +202,9 @@ Deactivating goals differs depending on which environment you use.
 
    目標ページが開きます。
 
-   ![目標ページ &#x200B;](assets/goal-page-unshimmed.png)
+   ![目標ページ ](assets/goal-page-unshimmed.png)
 
-1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**非アクティブ化**&#x200B;をクリックします。
+1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**非アクティブ化**&#x200B;をクリックします。
 
 1. 目標が非アクティブ化され、そのステータスは非アクティブになります。
 
@@ -242,9 +248,9 @@ Deleting  goals differs depending on which environment you use.
 
 目標リストが表示されます。
 
-1. 目標の名前をクリックします。目標ページが開きます。
-1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**目標を削除**、**削除**&#x200B;をクリックします。
+1. 目標の名前をクリックします。 目標ページが開きます。
+1. 目標名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**目標を削除**、**削除**&#x200B;をクリックします。
 
-   目標とそのアクティビティおよび結果も削除され、復元することはできません。目標または子目標に関連付けられたプロジェクトは削除されません。
+   目標とそのアクティビティおよび結果も削除され、復元することはできません。 目標または子目標に関連付けられたプロジェクトは削除されません。
 
 

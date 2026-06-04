@@ -3,16 +3,22 @@ product-area: projects;user-management
 keywords: 編集,フォーム,リッチ,テキスト,特殊,形式,フィールド,カスタム,情報,カスタマイズ,オブジェクト
 navigation-topic: work-with-custom-forms
 title: カスタムフォームフィールドの情報を編集する
-description: フォームをオブジェクトに添付した後に、カスタムフォームの情報を編集できます。オブジェクトにカスタムフォームを追加する方法について詳しくは、「オブジェクトにカスタムフォームを追加する」を参照してください。
+description: フォームをオブジェクトに添付した後に、カスタムフォームの情報を編集できます。 オブジェクトにカスタムフォームを追加する方法について詳しくは、「オブジェクトにカスタムフォームを追加する」を参照してください。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/JfnVyJAxwaCJ8BeCOo3gP783O8L8GtAegswSceEhYfo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 55%
+source-wordcount: 1231
+ht-degree: 56%
 
 ---
 
@@ -20,7 +26,7 @@ ht-degree: 55%
 
 <!--Audited: 10/2025-->
 
-フォームをオブジェクトに添付した後に、カスタムフォームの情報を編集できます。カスタムフォームをオブジェクトに追加する方法について詳しくは、[オブジェクトにカスタムフォームを追加する](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
+フォームをオブジェクトに添付した後に、カスタムフォームの情報を編集できます。 カスタムフォームをオブジェクトに追加する方法について詳しくは、[オブジェクトにカスタムフォームを追加する](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
 
 ## アクセス要件
 
@@ -92,7 +98,7 @@ Old:
 
 ## 前提条件
 
-* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 * オブジェクトには、カスタムフォームを添付する必要があります。
 
   カスタムフォームをオブジェクトに追加する方法について詳しくは、[オブジェクトにカスタムフォームを追加する](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
@@ -104,7 +110,7 @@ Old:
 カスタムフォームを持つことのできるオブジェクトについて詳しくは、[カスタムフォームの概要](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)を参照してください。
 
 1. 反復のリストを除き、カスタムフォームの情報を編集するオブジェクトのリストに移動します。
-1. リスト内の1つまたは複数のオブジェクトを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+1. リスト内の1つまたは複数のオブジェクトを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 1. **編集&lt; オブジェクト >** ボックス内の左側のパネルの&#x200B;**カスタム Forms**&#x200B;をクリックします。
 
    オブジェクトにカスタムフォームが添付されている場合、フォームの名前が「**カスタムForms**」セクションにエリアとして表示されます。
@@ -119,28 +125,28 @@ Old:
    * ラジオボタンフィールドに選択できるオプションは 1 つだけです。
    * フォーム作成者がフィールドをどのように設定したかに応じて、チェックボックスフィールドで 1 つまたは複数のオプションを選択できます。
    * フォーム作成者がフィールドをどのように設定したかに応じて、複数選択ドロップダウンフィールドで 1 つまたは複数のオプションを選択できます。
-   * テキストフィールド（太字、斜体、下線）の書式を設定できるのは、フォームを作成したユーザーが「書式設定」フィールドタイプのテキストフィールドとして設定した場合のみです。1 行のテキストフィールドと段落テキストフィールドは書式設定できません。
+   * テキストフィールド（太字、斜体、下線）の書式を設定できるのは、フォームを作成したユーザーが「書式設定」フィールドタイプのテキストフィールドとして設定した場合のみです。 1 行のテキストフィールドと段落テキストフィールドは書式設定できません。
    * 日付フィールドタイプで時刻を更新できるのは、フォームを作成したユーザーがフィールドの作成時に時刻を含めている場合だけです。
 
    >[!NOTE]
    >
    >複数の選択を許可するフィールドでは、選択できるオプションの数が制限される場合があります。 チェックボックスと複数選択ドロップダウンの選択範囲は5000に制限されています。
 
-   すべてのフィールドタイプについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   すべてのフィールドタイプについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 「**保存**」をクリックします。
 
    >[!IMPORTANT]
    >
-   >フォームを保存するには、まず、フォーム上のすべての必須フィールドに入力する必要があります。必須フィールドの名前の後には、アスタリスクが付きます。
+   >フォームを保存するには、まず、フォーム上のすべての必須フィールドに入力する必要があります。 必須フィールドの名前の後には、アスタリスクが付きます。
    >
-   >![必須カスタムフィールド &#x200B;](assets/nwe-required-custom-field.png)
+   >![必須カスタムフィールド ](assets/nwe-required-custom-field.png)
 
-   オブジェクト内の計算カスタムフィールドで参照される別のオブジェクト内のデータを変更した場合、その変更はオブジェクトに自動的には反映されません。オブジェクト内のすべての計算カスタムフィールドを手動で更新する方法については、[オブジェクトのすべての計算カスタムフィールドを再計算する方法](#recalculate-all-calculated-custom-fields-for-an-object)を参照してください。
+   オブジェクト内の計算カスタムフィールドで参照される別のオブジェクト内のデータを変更した場合、その変更はオブジェクトに自動的には反映されません。 オブジェクト内のすべての計算カスタムフィールドを手動で更新する方法については、[オブジェクトのすべての計算カスタムフィールドを再計算する方法](#recalculate-all-calculated-custom-fields-for-an-object)を参照してください。
 
-   ページ上の依存フィールドを変更すると、カスタムフォームでの計算フィールドがリアルタイムで動的に再計算されます。フォームを保存せずに新しい計算フィールドの値を確認できますが、変更を保存するまで、実際にはフォームとオブジェクトに適用されません。これは、カスタムフォームだけでなくデフォルトフォームでの計算フィールドにも適用されます。
+   ページ上の依存フィールドを変更すると、カスタムフォームでの計算フィールドがリアルタイムで動的に再計算されます。 フォームを保存せずに新しい計算フィールドの値を確認できますが、変更を保存するまで、実際にはフォームとオブジェクトに適用されません。 これは、カスタムフォームだけでなくデフォルトフォームでの計算フィールドにも適用されます。
 
-   また、オブジェクトをリスト内の他のオブジェクトと共に一括編集する際に、そのオブジェクトの計算カスタムフィールドをすべて手動で更新することもできます。手順については、この記事の[オブジェクトの編集時にリスト内の複数のオブジェクトの計算カスタムフィールドをすべて再計算する方法](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects)を参照してください。
+   また、オブジェクトをリスト内の他のオブジェクトと共に一括編集する際に、そのオブジェクトの計算カスタムフィールドをすべて手動で更新することもできます。 手順については、この記事の[オブジェクトの編集時にリスト内の複数のオブジェクトの計算カスタムフィールドをすべて再計算する方法](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects)を参照してください。
 
 1. （条件付き）反復カスタムフォームのカスタムフィールドを更新するには、次の手順を実行します。
 
@@ -223,7 +229,7 @@ Old:
    * 費用
 1. **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**カスタム式の再計算**&#x200B;をクリックします。
 
-![&#x200B; エクスプレッションの再計算タイムラインの財務ドロップダウン （プロジェクトリスト内） &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![ エクスプレッションの再計算タイムラインの財務ドロップダウン （プロジェクトリスト内） ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 Workfrontは、選択したすべてのプロジェクトのすべてのカスタムフィールドを即座に計算します。
 すべてのオブジェクトのすべてのリストにこの機能があるわけではありません。

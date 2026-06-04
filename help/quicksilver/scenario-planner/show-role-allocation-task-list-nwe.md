@@ -2,15 +2,21 @@
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: タスクリストにプロジェクトとイニシアチブのロール割り当てを表示する
-description: プロジェクトとイニシアチブを結び付けた後、リソースの割り当てを横に並べ、それらが一致するよう管理できます。これにより、過剰な割り当てや割り当て不足を回避できます。
+description: プロジェクトとイニシアチブを結び付けた後、リソースの割り当てを横に並べ、それらが一致するよう管理できます。 これにより、過剰な割り当てや割り当て不足を回避できます。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/yEKNA7IB3sITsxW2Hz5pHoJOXI-8a8DKK78YxzRWqbY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: 666
 ht-degree: 82%
 
 ---
@@ -19,7 +25,7 @@ ht-degree: 82%
 
 <!--Audited: 07/2024-->
 
-プロジェクトとイニシアチブを結び付けた後、リソースの割り当てを横に並べ、それらが一致するよう管理できます。これにより、過剰な割り当てや割り当て不足を回避できます。
+プロジェクトとイニシアチブを結び付けた後、リソースの割り当てを横に並べ、それらが一致するよう管理できます。 これにより、過剰な割り当てや割り当て不足を回避できます。
 
 この記事では、プロジェクトのタスクリストの[!UICONTROL 役割の割り当て]パネルを使用して、リソースを調整する方法について説明します。
 
@@ -57,7 +63,7 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、[を使用するために必要な [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) アクセスを参照してください。
+シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な[ アクセスを参照してください。
 
 Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
@@ -107,7 +113,7 @@ Old:
 
 会社が [!DNL Workfront Scenario Planner] ライセンスを購入している場合、プロジェクトの[!UICONTROL タスク]セクションでイニシアチブおよびイニシアチブにリンクされているプロジェクトとの間のリソース割り当てを調整できます。
 
-1. （条件付き）プロジェクトは、この記事の[&#x200B; タスクリスト &#x200B;](#show-role-allocation-for-projects-and-initiatives-in-the-task-list)の「プロジェクトとイニシアチブの役割の割り当てを表示」セクションで説明されている方法のいずれかを使用して、イニシアチブに接続する必要があります。
+1. （条件付き）プロジェクトは、この記事の[ タスクリスト ](#show-role-allocation-for-projects-and-initiatives-in-the-task-list)の「プロジェクトとイニシアチブの役割の割り当てを表示」セクションで説明されている方法のいずれかを使用して、イニシアチブに接続する必要があります。
 
    >[!IMPORTANT]
    >
@@ -148,7 +154,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Variance]</td> 
-      <td> <p>イニシアチブに必要な時間と、プロジェクトの作業に関連する予定時間数との差。[!DNL Workfront] は、以下の式を使用して [!UICONTROL Variance] を計算します。</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>イニシアチブで必要以上の時間リソースが予定されている場合、[!UICONTROL Variance] は負の値となり、赤で表示されます。つまり、リソースの割り当てが超過しています。 </p> </td> 
+      <td> <p>イニシアチブに必要な時間と、プロジェクトの作業に関連する予定時間数との差。 [!DNL Workfront] は、以下の式を使用して [!UICONTROL Variance] を計算します。</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>イニシアチブで必要以上の時間リソースが予定されている場合、[!UICONTROL Variance] は負の値となり、赤で表示されます。 つまり、リソースの割り当てが超過しています。 </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -168,7 +174,7 @@ Old:
 
 1. （オプション）[!UICONTROL 平方偏差]列にリソースの割り当て超過が表示されている場合、次のいずれかを調整します。
 
-   * 割り当て超過を示す担当業務の予定時間数を減らすか、タスクにリソースを追加し、新しいリソースに対する予定時間数を増やします。割り当てを更新したり、タスクまたはイシューの編集時に予定時間数を更新したりできます。詳しくは、次の記事を参照してください。
+   * 割り当て超過を示す担当業務の予定時間数を減らすか、タスクにリソースを追加し、新しいリソースに対する予定時間数を増やします。 割り当てを更新したり、タスクまたはイシューの編集時に予定時間数を更新したりできます。 詳しくは、次の記事を参照してください。
 
       * [タスクを編集](../manage-work/tasks/manage-tasks/edit-tasks.md)
       * [イシューを編集](../manage-work/issues/manage-issues/edit-issues.md)
@@ -177,7 +183,7 @@ Old:
      >
      >タスクとイシューを編集するには、追加のアクセス権と権限が必要です。
 
-   * イニシアチブの割り当て超過を示す役割に必要な時間数を増やします。詳しくは、[&#x200B; [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
+   * イニシアチブの割り当て超過を示す役割に必要な時間数を増やします。 詳しくは、[ [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) でのイニシアチブの作成と編集を参照してください。
 
      >[!NOTE]
      >

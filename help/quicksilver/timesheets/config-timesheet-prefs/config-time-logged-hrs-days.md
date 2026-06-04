@@ -2,20 +2,26 @@
 product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
 title: 時間単位または日単位で時間を記録するよう設定
-description: プランライセンスを持つユーザーは、Adobe Workfront で時間を時間数と日数のどちらで記録するかを設定できます。システム管理者は、個々のユーザーに対して、または組織内の複数のユーザーに対して、この設定を指定できます。デフォルトでは、ユーザーは時間単位で記録します。
+description: プランライセンスを持つユーザーは、Adobe Workfront で時間を時間数と日数のどちらで記録するかを設定できます。 システム管理者は、個々のユーザーに対して、または組織内の複数のユーザーに対して、この設定を指定できます。 デフォルトでは、ユーザーは時間単位で記録します。
 author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
+TQID: https://experienceleague.adobe.com/2rLb--26SLkI7t0tpdShzxdVxhCLJEdzWYGBO8DOJSE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: 431
 ht-degree: 79%
 
 ---
 
 # 時間単位または日単位で時間を記録するよう設定
 
-標準ライセンスまたはプラン ライセンスを持つユーザーは、Adobe Workfrontで時間を数時間または数日で記録するかどうかを設定できます。 システム管理者は、個々のユーザーに対して、または組織内の複数のユーザーに対して、この設定を指定できます。デフォルトでは、ユーザーは時間単位で記録します。Workfrontで時間を記録する方法について詳しくは、[時間を記録](../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。
+標準ライセンスまたはプラン ライセンスを持つユーザーは、Adobe Workfrontで時間を数時間または数日で記録するかどうかを設定できます。 システム管理者は、個々のユーザーに対して、または組織内の複数のユーザーに対して、この設定を指定できます。 デフォルトでは、ユーザーは時間単位で記録します。 Workfrontで時間を記録する方法について詳しくは、[時間を記録](../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。
 
 >[!NOTE]
 >
@@ -54,11 +60,11 @@ ht-degree: 79%
 
    * **標準ユーザーまたはプラン ユーザーが自分の時間ログを設定しています：**&#x200B;上部のナビゲーション領域でプロフィール画像をクリックし、**[!UICONTROL Workfront プロフィール]**&#x200B;をクリックします。 次に、名前の横にある&#x200B;**その他**&#x200B;アイコンをクリックし、「**編集**」を選択します。
 
-   * **システム管理者が他のユーザー用に時間の記録方法を設定：**&#x200B;[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)の説明に従って、1 つ以上のユーザーアカウントの編集を開始します。
+   * **システム管理者が他のユーザー用に時間の記録方法を設定：**[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)の説明に従って、1 つ以上のユーザーアカウントの編集を開始します。
 
 1. ユーザープロファイルダイアログボックスの「**リソース計画**」セクションで、「**時間を**&#x200B;に記録」オプションを見つけます。
 
-   ![&#x200B; オプションに時間を記録](assets/user-profile-log-time-options.png)
+   ![ オプションに時間を記録](assets/user-profile-log-time-options.png)
 
 1. 時間の記録に関する次のオプションから選択します。
 
@@ -67,11 +73,11 @@ ht-degree: 79%
    | **時間** | Workfront で時間を記録するときに時間数を指定します。 |
    | **日** | Workfront で時間を記録するときに日数を指定します。 |
 
-1. （条件付き）日数で時間を記録することを選択した場合は、「**一就業日と同等の時間数**」フィールドに、丸 1 日と等しい時間数を入力します。ユーザーのタイムシートの 1 日は、ここに入力した時間数と同じです。
+1. （条件付き）日数で時間を記録することを選択した場合は、「**一就業日と同等の時間数**」フィールドに、丸 1 日と等しい時間数を入力します。 ユーザーのタイムシートの 1 日は、ここに入力した時間数と同じです。
 
    この設定を指定する際は、次の点を考慮してください。
 
    * このオプションは、時間を時間数で記録するように設定する場合は使用できません。
-   * このオプションは、時間を記録する目的でのみ使用されます。このオプションは、ユーザーを編集するときにも使用できる「**スケジュール**」オプションとは関係ありません。「**スケジュール**」オプションは、タイムラインの計算時や、Workfront の他のエリアで使用されます。（「**スケジュール**」オプションの使用について詳しくは、[スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください）。
+   * このオプションは、時間を記録する目的でのみ使用されます。 このオプションは、ユーザーを編集するときにも使用できる「**スケジュール**」オプションとは関係ありません。 「**スケジュール**」オプションは、タイムラインの計算時や、Workfront の他のエリアで使用されます。 （「**スケジュール**」オプションの使用について詳しくは、[スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください）。 
 
 1. 「**変更を保存**」をクリックします。

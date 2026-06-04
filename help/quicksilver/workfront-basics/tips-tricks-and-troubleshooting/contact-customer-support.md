@@ -2,16 +2,21 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: カスタマーサポートに連絡
-description: Adobe Workfront のお客様は、電話またはオンラインでチケットを送信して、Workfront カスタマーサポートチームに問い合わせることができます。この記事では、カスタマーサポートへの問い合わせ方法と、サポートケースの表示と管理の手順について説明します。
+description: Adobe Workfront のお客様は、電話またはオンラインでチケットを送信して、Workfront カスタマーサポートチームに問い合わせることができます。 この記事では、カスタマーサポートへの問い合わせ方法と、サポートケースの表示と管理の手順について説明します。
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/x2Xcq-cSCBA-SjFQ-DBp4v3RIPJorZs8oBdSOTdTKFs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 79%
+source-wordcount: 455
+ht-degree: 77%
 
 ---
 
@@ -85,7 +90,7 @@ Old numbers - before 2/10/2025:
 >オンラインサポートチケットを送信できるのは、承認されたサポート担当者（またはサポート資格のあるユーザー）のみです。
 
 
-1. [[!DNL Experience League]](https://experienceleague.adobe.com/ja) web サイトから、ページの上部の **[!UICONTROL サポート]** をクリックします。
+1. [[!DNL Experience League]](https://experienceleague.adobe.com) web サイトから、ページの上部の **[!UICONTROL サポート]** をクリックします。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -93,12 +98,12 @@ Old numbers - before 2/10/2025:
 
    [!UICONTROL サポート]ホームページから、未解決のサポートケースに移動したり、新しいケースを記録したり、[!UICONTROL サポート]のトップ記事を表示したり、追加の学習ソースにアクセスしたりできます。
 
-   Workfrontの学習について詳しくは、[&#x200B; ヘルプセンター](https://learning.adobe.com/resources/help-center.html)を参照してください。
+   Workfrontの学習について詳しくは、[ ヘルプセンター](https://learning.adobe.com/resources/help-center.html)を参照してください。
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
 1. 左側のサイドバーで「**[!UICONTROL チケットを開く]**」をクリックします。
-[!UICONTROL ケース作成]ページが開き、製品名（[!DNL Adobe Workfront]、[!DNL Adobe Workfront Fusion] など）、ケースのタイトル、ケースの説明を入力できます。
+[!UICONTROL  ケース作成] ページが開き、製品名（[!DNL Adobe Workfront]、[!DNL Adobe Workfront Fusion]など）、ケースタイトル、ケースの説明を入力できます。
 
    >[!TIP]
    >
@@ -127,7 +132,7 @@ Old numbers - before 2/10/2025:
 
 1. **[!UICONTROL マイケース]** ページに移動します。 このページは、ケースを送信するときに開きます。または、左側のナビゲーションで「**[!UICONTROL マイケース]**」をクリックして開くことができます。
 
-1. （オプション）ページ上部のオプションを使用して、**製品（[!DNL Experience Cloud] ソリューション）**&#x200B;またはケースの&#x200B;**[!UICONTROL ステータス]**（[!UICONTROL オープン]またはクローズ）でフィルタリングします。また、[!UICONTROL 検索]ボックスを使用して、サポートケースに関連するキーワードを検索することもできます。
+1. （オプション）ページ上部のオプションを使用して、**製品（[!DNL Experience Cloud] ソリューション）**&#x200B;またはケースの&#x200B;**[!UICONTROL ステータス]**（[!UICONTROL オープン]またはクローズ）でフィルタリングします。 また、[!UICONTROL 検索]ボックスを使用して、サポートケースに関連するキーワードを検索することもできます。
 
 1. （オプション）ケースの詳細を表示するには、**ケース番号**&#x200B;をクリックしてケースにアクセスします。
 
@@ -141,7 +146,7 @@ Old numbers - before 2/10/2025:
 
 
 <!--
-drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=ja)
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

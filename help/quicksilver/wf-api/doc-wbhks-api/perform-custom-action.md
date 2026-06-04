@@ -8,19 +8,22 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a18b6b97-ee1e-4ad2-a4e1-00a644a0f4f2
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/y9RxzhalPQGx0BEMOtLVOAxwyh-OhQcxuARtBrJd8Yg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: 191
 ht-degree: 100%
 
 ---
-
 
 # カスタムアクションの実行（まだ実装されていません）
 
 このエンドポイントを使用すると、Adobe Workfront ユーザー（または自動ワークフローイベント）が外部システムでアクションを実行できます。 /customAction エンドポイントは、「name」パラメーターを受け取ります。これにより、web フックプロバイダーは複数のカスタム操作を実装できます。
 
-Web フックプロバイダーでは、カスタムアクションを /serviceInfo 応答の customActions 下に含めることで、Workfront に登録します。設定／ドキュメント／カスタム統合で web フックプロバイダーを設定または更新すると、Workfront がこのリストを読み込みます。
+Web フックプロバイダーでは、カスタムアクションを /serviceInfo 応答の customActions 下に含めることで、Workfront に登録します。 設定／ドキュメント／カスタム統合で web フックプロバイダーを設定または更新すると、Workfront がこのリストを読み込みます。
 
 ユーザーは、「ドキュメントアクション」の下のセクションを選択することで、カスタムアクションをトリガーできます。
 
@@ -42,15 +45,15 @@ GET /customAction
  <tbody> 
   <tr> 
    <td> <p>名前</p> </td> 
-   <td> <p>実行するアクションのタイプを指定する識別子。この値は、/serviceInfo エンドポイントから返される customAction 値のうちの 1 つに対応します。</p> </td> 
+   <td> <p>実行するアクションのタイプを指定する識別子。 この値は、/serviceInfo エンドポイントから返される customAction 値のうちの 1 つに対応します。</p> </td> 
   </tr> 
   <tr> 
    <td>documentId </td> 
    <td>アクションの実行対象となる Workfront ドキュメントの ID。</td> 
   </tr> 
   <tr> 
-   <td>documentVersionId</td> 
-   <td>アクションの実行対象となる Workfront ドキュメントのバージョン ID。</td> 
+   <td>documentVersionId </td> 
+   <td> アクションの実行対象となる Workfront ドキュメントのバージョン ID。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +62,7 @@ GET /customAction
 
 ## 応答
 
-成功または失敗を示す JSON 文字列（この後の「エラー処理」の節を参照）。失敗（status = &quot;failure&quot;）の場合、Workfront は、用意されているエラーメッセージをユーザーに表示します。
+成功または失敗を示す JSON 文字列（この後の「エラー処理」の節を参照）。 失敗（status = &quot;failure&quot;）の場合、Workfront は、用意されているエラーメッセージをユーザーに表示します。
 
 **例：**
 

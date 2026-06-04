@@ -2,20 +2,25 @@
 product-previous: mobile
 navigation-topic: use-workfront-view
 title: プロジェクトの詳細ビューでのウィジェットの更新
-description: '[!UICONTROL プロジェクト詳細]画面にウィジェットを追加して、プロジェクトリストから[!UICONTROL プロジェクト]にアクセスしたら、そのプロジェクトに関する追加情報を確認できます。各ユーザーは、自身のウィジェットをカスタマイズできます。'
+description: '[!UICONTROL プロジェクト詳細]画面にウィジェットを追加して、プロジェクトリストから[!UICONTROL プロジェクト]にアクセスしたら、そのプロジェクトに関する追加情報を確認できます。 各ユーザーは、自身のウィジェットをカスタマイズできます。'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 96%
+source-wordcount: 517
+ht-degree: 99%
 
 ---
 
 # [!UICONTROL プロジェクト詳細]ビューでウィジェットを更新
 
-[!UICONTROL プロジェクト詳細]画面にウィジェットを追加して、プロジェクトリストから[!UICONTROL プロジェクト]にアクセスしたら、そのプロジェクトに関する追加情報を確認できます。各ユーザーは、自身のウィジェットをカスタマイズできます。
+[!UICONTROL プロジェクト詳細]画面にウィジェットを追加して、プロジェクトリストから[!UICONTROL プロジェクト]にアクセスしたら、そのプロジェクトに関する追加情報を確認できます。 各ユーザーは、自身のウィジェットをカスタマイズできます。
 
 ## アクセス要件
 
@@ -34,7 +39,7 @@ ht-degree: 96%
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
-   <p>投稿者以上</p>
+   <p>コントリビューター以上</p>
    <p>レビュー以上</p> </td> 
   </tr> 
  </tbody> 
@@ -50,7 +55,7 @@ ht-degree: 96%
 1. 画面中央の下部にあるタブをタップします。\
    [!UICONTROL ウィジェット]エリアが表示されます。\
    ウィジェットをスクロールするには、左から右にスワイプします。\
-   ![&#x200B; ウィジェット &#x200B;](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![ ウィジェット ](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. ウィジェットをドラッグ＆ドロップして、プロジェクトページのレイアウトをカスタマイズします。\
    一度に最大 4 つのウィジェットを表示できます。\
@@ -60,19 +65,19 @@ ht-degree: 96%
 1. 次のウィジェットから選択します。
 
    * **[!UICONTROL タスクの条件]**：プロジェクト内のすべてのタスクを、[!UICONTROL 条件]別に円グラフで表示します。
-   * **[!UICONTROL イシュー]**：すべてのイシューのタイムラインを、折れ線グラフで表示します。オープンのイシューの数が括弧内に示されます。
+   * **[!UICONTROL イシュー]**：すべてのイシューのタイムラインを、折れ線グラフで表示します。 オープンのイシューの数が括弧内に示されます。
    * **[!UICONTROL 時間]**：プロジェクトのタスクの[!UICONTROL 実際の時間数]と[!UICONTROL 予定時間数]を、複合折れ線グラフで表示します。
    * **[!UICONTROL イシュー]**&#x200B;の[!UICONTROL ステータス]：すべてのイシューを、ステータス別に円グラフで表示します。
    * **[!UICONTROL 更新]**：プロジェクトに関するすべての更新とコメントを表示します。
    * **[!UICONTROL コスト]**：プロジェクトの[!UICONTROL 実際のコスト]と[!UICONTROL 予定コスト]を、複合棒グラフで表示します。
    * **[!UICONTROL 収益]**：プロジェクトの[!UICONTROL 実収益]と[!UICONTROL 予定収益]を、複合棒グラフで表示します。
    * **[!UICONTROL タスク進行状況]**：プロジェクト内のすべてのタスクを、[!UICONTROL 進捗状態]別に円グラフで表示します。
-   * **[!UICONTROL 予定タスク]**：予定タスクを最大 6 つ表示します。ウィジェットは、プロジェクトのタスクを次の順序で並べ替えます。
+   * **[!UICONTROL 予定タスク]**：予定タスクを最大 6 つ表示します。 ウィジェットは、プロジェクトのタスクを次の順序で並べ替えます。
 
       * 最初に、[!UICONTROL 推定期限]
       * 2番目に、[!UICONTROL 作業分割構造]
 
-     最後に完了した 2 つのタスク（該当する場合）と、次の 4 つのタスクが表示されます。どのタスクが [!DNL Workfront] View モバイルアプリに表示されるか把握するには、表示しているプロジェクトのタスクレポートを作成し、推定期限別に並べ替えて、次に [!DNL Workfront] 分類構造で並べ替えます。最初の 6 つのタスクが、Workfront View モバイルアプリの[!UICONTROL 予定]タスクウィジェットに一覧表示されるタスクです。
+     最後に完了した 2 つのタスク（該当する場合）と、次の 4 つのタスクが表示されます。 どのタスクが [!DNL Workfront] View モバイルアプリに表示されるか把握するには、表示しているプロジェクトのタスクレポートを作成し、推定期限別に並べ替えて、次に [!DNL Workfront] 分類構造で並べ替えます。 最初の 6 つのタスクが、Workfront View モバイルアプリの[!UICONTROL 予定]タスクウィジェットに一覧表示されるタスクです。
 
    * **[!UICONTROL 残りタスク]**：未完了タスクを折れ線グラフで表示します。
    * **[!UICONTROL ドキュメント]**：プロジェクトに添付されたドキュメントのリストを表示します。

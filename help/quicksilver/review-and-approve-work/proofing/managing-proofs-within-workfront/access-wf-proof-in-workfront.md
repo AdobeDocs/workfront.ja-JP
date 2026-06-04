@@ -7,20 +7,23 @@ description: Workfront Proof にログインすることなく、Adobe Workfront
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
+TQID: https://experienceleague.adobe.com/ZA4KKoAVgQfPMGkGGZh-LFYux60-2-IbdrAvsKbW-pA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: 261
 ht-degree: 72%
 
 ---
 
 # Adobe Workfront から Workfront Proof にアクセス
 
-次の条件を満たした場合は、Workfront Proofにログインしなくても、Adobe Workfront インターフェイスから直接Workfront Proof アカウントにすばやくアクセスできます。
+次の条件が満たされた場合、Workfront Proofにログインしなくても、Adobe Workfront インターフェイスからWorkfront Proof アカウントにすばやく直接アクセスできます。
 
-* Workfront環境はWorkfront Proof Premium アカウントと統合されています。 Workfront Proof Premium アカウントでのみ使用できる機能について詳しくは、を参照してください。
+* お使いのWorkfront環境は、Workfront Proof Premium アカウントと統合されています。 Workfront Proof Premium アカウントでのみ使用できる機能について詳しくは、「」を参照してください。
 
-  Workfront Proof ライセンスがあります。 （Workfront Proof管理者である必要はありません）。
+  お客様はWorkfront Proofライセンスを保有しています。 （Workfront Proof管理者である必要はありません）。
 
 * Workfront の管理者権限があり、Workfront ユーザーアカウントでプルーフが有効になっている。
 

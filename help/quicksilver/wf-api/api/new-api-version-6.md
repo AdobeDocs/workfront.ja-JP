@@ -7,9 +7,12 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/ZXBvvhz5ObfHlwX2BBBs2-F2DbSmgY4lj8TwWnMCzBM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: 513
 ht-degree: 100%
 
 ---
@@ -26,7 +29,7 @@ ht-degree: 100%
 | customerID | プロジェクト |   |   |   |   | カウント |
 | projectID | resourceManager |   |   |   |   | 削除 |
 | resourceManagerID | テンプレート |   |   |   |   | 取得 |
-| templateID |   |   |   |   |   | レポート |
+| templateID |   |   |   |   |   | レポート  |
 |   |   |   |   |   |   | 検索  |
 
 
@@ -55,7 +58,7 @@ ht-degree: 100%
 
 既存のオブジェクトに対する変更：追加は単に記載され、削除には取り消し線が付いています。既存のオブジェクトに対する変更に対してはテーブルの後にメモが付加されています。
 
-### アップデート
+### 更新
 
  
 
@@ -142,7 +145,7 @@ ht-degree: 100%
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired<sup>2</sup> |   |   |   | workItemStatusLabels  |   |   |
+| workRequired<sup>2</sup> |   |   |   | workItemStatusLabels  |   |   |
 
 {style="table-layout:auto"}
 
@@ -164,7 +167,7 @@ ht-degree: 100%
 
  
 
-### ベースライン
+### ベースライン 
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
@@ -198,7 +201,7 @@ ht-degree: 100%
 
 <sup>1</sup> NO_TIME フィールドフラグを追加
 
-### バーンダウンイベント
+### バーンダウンイベント 
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
@@ -236,14 +239,14 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| `checkedOutByID` | `checkedOutBy`  |   | isDir |   |   |   |
+| `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
  
 
-為替レート 
+為替レート 
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
@@ -277,7 +280,7 @@ ht-degree: 100%
 
  
 
-### Optask (イシュー)<sup>1</sup> 
+### Optask (イシュー)<sup>1</sup> 
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
@@ -295,7 +298,7 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| completedHours |   | `openOpTasks` | openOpTasks |   |   |   |
+| completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
 | isOriginalPlannedHoursSet |   | resourceManagers | resourceManagerIDs  |   |   |   |
 | originalWorkRequired |   |   | `work` |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
@@ -331,14 +334,14 @@ ht-degree: 100%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| `myWorkViewID` | `myWorkView` |   |   |   |   |   |
+| `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
  
 
-### Template<sup>1</sup> 
+### Template<sup>1</sup> 
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
@@ -348,7 +351,7 @@ ht-degree: 100%
 
 <sup>1</sup> RESTORABLE および RESOURCE_MANAGEABLE としてフラグ付け
 
-### Template Task<sup>1</sup> 
+### Template Task<sup>1</sup> 
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
