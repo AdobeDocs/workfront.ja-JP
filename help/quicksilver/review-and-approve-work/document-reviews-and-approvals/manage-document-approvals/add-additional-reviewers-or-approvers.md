@@ -9,11 +9,17 @@ exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jo3N878hmvHRqo6kCepxPDk2-zlalLvqQbMjHHB8aGE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 532
@@ -85,7 +91,7 @@ ht-degree: 18%
 
 1. 名前が追加されたら、承認者またはレビュアーのどちらかであるかを選択します。
 
-   ![承認者またはレビュー担当者のドロップダウン ](assets/choose-approver-or-reviewer.png)
+   ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-approver-or-reviewer.png)
 
 1. 手順5～6を繰り返して、承認者またはレビュー担当者を追加します。
 保存すると、追加された参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
@@ -101,7 +107,7 @@ ht-degree: 18%
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 
 1. 「**ワークフローを編集**」をクリックします。
@@ -110,7 +116,7 @@ ht-degree: 18%
 
 1. 名前が追加されたら、承認者またはレビュアーのどちらかであるかを選択します。
 
-   ![承認者またはレビュー担当者のドロップダウン ](assets/choose-approver-or-reviewer.png)
+   ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-approver-or-reviewer.png)
 
 1. 手順5～6を繰り返して、承認者またはレビュー担当者を追加します。
 保存すると、追加された参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。

@@ -8,10 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
 TQID: https://experienceleague.adobe.com/jC40GG5UEDKYTfnUKUW1x1ttjIGJQctSaxR0frUzflk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 286
@@ -81,7 +85,7 @@ ht-degree: 97%
 
    各プルーフの上にパンくずリストを個別に配置すると、プルーフに関連付けられた作業項目を表示および移動できます。
 
-   ![ プルーフのパンくずリストを比較](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![&#x200B; プルーフのパンくずリストを比較](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    2 つのプルーフを比較するために使用できるツールについて詳しくは、[プルーフビューアでプルーフの比較](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)の[比較ツールの使用](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)を参照してください。
 

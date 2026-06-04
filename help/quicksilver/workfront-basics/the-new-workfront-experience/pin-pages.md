@@ -6,10 +6,14 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 TQID: https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 401
@@ -70,7 +74,7 @@ ht-degree: 63%
 
    または
 
-   多数のページをピン留めしている場合は、**[!UICONTROL 詳細]** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックして、ピン留めされた追加のページを表示します。
+   多数のページをピン留めしている場合は、**[!UICONTROL 詳細]** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックして、ピン留めされた追加のページを表示します。
 
    ![追加のピン留めページを表示](assets/display-pinned-pages.png)
 
@@ -79,7 +83,7 @@ ht-degree: 63%
 ## ピン留めされたページ名の変更
 
 1. 上部ナビゲーションのピン留めされたページにカーソルを合わせます。
-1. ピン名の横に表示される&#x200B;**詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、「**[!UICONTROL ピン名を変更]**」を選択します。
+1. ピン名の横に表示される&#x200B;**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、「**[!UICONTROL ピン名を変更]**」を選択します。
 
    ![ピン留めの名前を変更](assets/pin-menu.png)
 
@@ -92,11 +96,11 @@ ht-degree: 63%
 
 ピン留めされたページの表示順を並べ替えることができます。
 
-1. 移動するピン留めされたページにカーソルを合わせ、**詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックします。
+1. 移動するピン留めされたページにカーソルを合わせ、**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックします。
 1. **左に移動**&#x200B;または&#x200B;**右に移動**&#x200B;を選択して、ピンを移動します。
 1. （オプション）「**前に移動**」を選択して、ピンをピン バーの左端に移動します。
 
-   ![ ピンの移動](assets/pin-menu.png)
+   ![&#x200B; ピンの移動](assets/pin-menu.png)
 
    変更内容は自動的に保存され、次回 Workfront にアクセスしたときに記憶されます。
 

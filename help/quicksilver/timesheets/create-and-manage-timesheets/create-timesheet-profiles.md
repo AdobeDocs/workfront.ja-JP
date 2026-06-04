@@ -9,11 +9,17 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yxgLrUYYpVo-DhroRvE3zUP4zLYdDDg-1Ni3yXj06Ms
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1593
@@ -173,11 +179,11 @@ Old info:
 
 1. 「**保存**」をクリックします。
 
-1. タイムシートのプロファイルリストの上部で、**詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**タイムシートを生成**&#x200B;をクリックします。
+1. タイムシートのプロファイルリストの上部で、**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**タイムシートを生成**&#x200B;をクリックします。
 
    タイムシートが正常に生成されたことを確認するメッセージが画面の下部に表示されます。 新しいタイムシートは、作成した新しいプロファイルに基づいて生成されます。
 
-   詳しくは、[ タイムシートを手動で生成する](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)を参照してください。
+   詳しくは、[&#x200B; タイムシートを手動で生成する](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)を参照してください。
 
    タイムシート プロファイルが初めてタイムシートを生成する際には、現在の時間を含むタイムフレームと次のタイムフレームの両方に対して、ユーザーごとに2つのタイムシートが作成されます。
 

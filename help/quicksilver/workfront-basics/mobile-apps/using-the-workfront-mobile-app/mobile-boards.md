@@ -7,8 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
 TQID: https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1047
@@ -16,7 +18,7 @@ ht-degree: 97%
 
 ---
 
-# ]モバイル用 [!DNL Adobe Workfront] [!UICONTROL ボード
+# モバイル用 [!DNL Adobe Workfront] ボード
 
 [!DNL Adobe Workfront] [!UICONTROL ボード]は、列やカードを含む共有ボードへのアクセスを提供することで、チームの共同作業を可能にする柔軟なツールです。 ボードの詳細については、[ボードの概要](/help/quicksilver/agile/boards-overview.md)を参照してください。
 

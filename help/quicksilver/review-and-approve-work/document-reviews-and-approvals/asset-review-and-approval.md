@@ -9,10 +9,14 @@ exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ZXwo18-zztYsq-gBU4VabsqhNapmtheAnSM5He0K2u0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 385
@@ -41,7 +45,7 @@ ht-degree: 8%
 * 従来のレポートを使用した承認レポートの作成
 * ホーム領域のマイ承認ウィジェットで承認リクエストにアクセスする
 
-詳しくは、[ レガシードキュメントの承認](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes)を参照してください。
+詳しくは、[&#x200B; レガシードキュメントの承認](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes)を参照してください。
 
 ## 統合承認
 
@@ -63,7 +67,7 @@ ht-degree: 8%
 * Workfrontのホームウィジェットで、承認の複数の主要業績評価指標を表示します
 
 * 現在ベータ版のCanvas ダッシュボードを使用して、統合承認に関するレポートの詳細を表示します
-レポートについて詳しくは、[ レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
+レポートについて詳しくは、[&#x200B; レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
 
 * 複数ステージの承認の作成
 

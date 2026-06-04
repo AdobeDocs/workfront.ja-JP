@@ -7,11 +7,16 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
 TQID: https://experienceleague.adobe.com/JCDEDcmb2GOWTW-GqUTHdQKp7O6FC2ACvj0HsIXaaRs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1760
@@ -144,7 +149,7 @@ ht-degree: 97%
 
       「**プルーフ作成日時**」、「**指定日時**」または「**手動**」のオプションを使用すると、前の手順で発生した内容に応じたオプションを選択できます。
 
-      ![ ステージオプションをアクティブ化](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![&#x200B; ステージオプションをアクティブ化](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. 前の手順で発生した内容に応じて「ステージをアクティベート」オプションを選択した場合は、表示されるオプションを使用してアクティベーション設定を指定します。
 
@@ -154,7 +159,7 @@ ht-degree: 97%
 
    ステージを自動化ワークフローに追加すると、画面にステージを表すダイアグラムが表示されます。
 
-   ![ ステージ図](assets/stages-diagram-350x213.png)
+   ![&#x200B; ステージ図](assets/stages-diagram-350x213.png)
 
 1. 次の[プルーフのメール設定を指定](#configure-email-settings-for-the-proof)を続行します。
 
@@ -235,6 +240,6 @@ ht-degree: 97%
 
 1. プルーフが生成されたら、「**プルーフを開く**」をクリックして、プルーフビューアを起動します。
 
-   ![ プルーフを開く](assets/open-proof-350x132.png)
+   ![&#x200B; プルーフを開く](assets/open-proof-350x132.png)
 
    自分のアカウントでプルーフが有効になっていないユーザーでも、ドキュメントを表示し、プルーフにコメントを付けることができます[。](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

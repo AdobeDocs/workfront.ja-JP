@@ -10,11 +10,16 @@ exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SYd9RL-bRi2VBtMGT6wsZT4oQXP3aaTy-yIF75oh1Dw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 501
@@ -56,7 +61,7 @@ ht-degree: 79%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な[ アクセスを参照してください。
+シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner][&#128279;](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な アクセスを参照してください。
 
 Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
@@ -119,7 +124,7 @@ Old:
 
 1. プランへのリンクをクリックします。
 
-   ![ プランに対する権限の要求](assets/request-access-to-plan-350x277.png)
+   ![&#x200B; プランに対する権限の要求](assets/request-access-to-plan-350x277.png)
 
 1. **[!UICONTROL アクセス権をリクエスト]**&#x200B;ドロップダウンメニューで、付与する権限のレベルを指定します。 次の中から選択します。
 
@@ -128,20 +133,20 @@ Old:
 
    [!DNL Scenario Planner] へのアクセスレベルよりも高い権限をリクエストすることはできません。 例えば、[!DNL Scenario Planner] への表示アクセス権がある場合、[!UICONTROL 管理]権限をリクエストすることはできません。
 
-   様々なレベルの権限について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) でプランを共有を参照してください。
+   様々なレベルの権限について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) でプランを共有を参照してください。
 
-   Workfront 管理者が [!DNL Scenario Planner] へのアクセスを管理する方法について詳しくは、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権を付与を参照してください。
+   Workfront 管理者が [!DNL Scenario Planner] へのアクセスを管理する方法について詳しくは、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権を付与を参照してください。
 
 1. （オプション）「**[!UICONTROL コメントを残すボックス]**」にコメントまたはリクエストを入力し、「**[!UICONTROL アクセス権をリクエスト]**」をクリックします。
 
    次の処理が行われます。
 
    * [!DNL Workfront] はプラン所有者にメール通知を送信し、プラン所有者はリクエストされた権限を付与できます。\
-     ![ アクセスを要求メール通知](assets/request-access-to-plan-email-350x156.png)
+     ![&#x200B; アクセスを要求メール通知](assets/request-access-to-plan-email-350x156.png)
 
    * プラン所有者がリクエストされた権限を付与すると、権限が付与されたことを知らせるメールが届きます（[!DNL Workfront] 管理者がシステムで「ユーザー宛オブジェクトの共有」通知を有効にし、ユーザーがプロファイルで「[!UICONTROL 誰かが自分とオブジェクトを共有]」メール通知を有効にしている場合）。
 
-     ![許可された電子メールへのアクセス ](assets/access-granted-to-plan-email-350x172.png)
+     ![許可された電子メールへのアクセス &#x200B;](assets/access-granted-to-plan-email-350x172.png)
 
    * また、[!UICONTROL ホーム]領域と [!DNL Workfront] モバイルアプリからもプランへの権限を付与できます。
 

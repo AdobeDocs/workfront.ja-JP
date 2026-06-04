@@ -8,11 +8,17 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
 TQID: https://experienceleague.adobe.com/9ELqaSPcbparVZYyjKb79o4HoOSHDwgEOIyGzC00ntA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 229
@@ -62,14 +68,14 @@ ht-degree: 78%
 ## オブジェクトへのリマインダー通知の添付
 
 1. リマインダー通知を添付するオブジェクトに移動します。
-1. 編集アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. 編集アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 1. 表示される&#x200B;**[!UICONTROL 編集]**&#x200B;ボックスの左側のパネルで、「**[!UICONTROL 設定]**」をクリックします。
 
 1. **[!UICONTROL リマインダー通知]**&#x200B;の下に、オブジェクトに添付する通知を選択します。
 
    この例では、編集中のオブジェクトはタスクです。
 
-   ![ リマインダー通知](assets/reminder-notification-select-one-350x213.png)
+   ![&#x200B; リマインダー通知](assets/reminder-notification-select-one-350x213.png)
 
    [!DNL Workfront] 管理者が複数のリマインダー通知を作成した場合、単一のオブジェクトに複数の通知を添付できます。
 

@@ -8,11 +8,17 @@ exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/pqetNJu9YmRAbJtE0UtBAYC7NSoEOYHzKlbKrXuEbgc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 840
@@ -93,14 +99,14 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
 
 ## クイックフィルターをリストに適用する
 
-1. クイックフィルターをサポートするリストまたはレポートに移動し、ツールバーの&#x200B;**[!UICONTROL クイックフィルター] アイコン** ![ クイックフィルターアイコン ](assets/qs-quick-filter-icon.png)をクリックします。
+1. クイックフィルターをサポートするリストまたはレポートに移動し、ツールバーの&#x200B;**[!UICONTROL クイックフィルター] アイコン** ![&#x200B; クイックフィルターアイコン &#x200B;](assets/qs-quick-filter-icon.png)をクリックします。
 
    または
 
@@ -128,7 +134,7 @@ ht-degree: 88%
    1. リスト内の項目をすべて選択するか、複数選択して、「**[!UICONTROL 編集]**」をクリックして、項目を一括編集します。
    1. 編集が完了したら、「**[!UICONTROL 変更を保存]**」をクリックします。
 
-1. （オプション）クイックフィルターで見つかった項目を書き出すには、リスト内の項目をすべて選択してから、**[!UICONTROL 書き出し]** アイコン ![書き出しアイコン ](assets/export.png)をクリックします。
+1. （オプション）クイックフィルターで見つかった項目を書き出すには、リスト内の項目をすべて選択してから、**[!UICONTROL 書き出し]** アイコン ![書き出しアイコン &#x200B;](assets/export.png)をクリックします。
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

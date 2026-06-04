@@ -10,10 +10,16 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5nwapHAbb8wRWqen7a49QfpsAMLPZNEfJUJ2vm4R7SA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 775
@@ -69,7 +75,7 @@ Workfront Content Reviewerは、コンテンツをレビューする際にブラ
 ブランドガイドラインを設定するには、システム管理者は次の手順に従う必要があります。
 
 1. [ブランド権限へのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
-1. [ コンテンツレビュアー](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)のブランドを作成および管理します。
+1. [&#x200B; コンテンツレビュアー](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)のブランドを作成および管理します。
 
 
 ## コンテンツレビュアーの作成
@@ -96,18 +102,18 @@ Workfront Content Reviewerは、コンテンツをレビューする際にブラ
 
 作成した承認テンプレートは、プロジェクト、タスク、イシューの「ドキュメント」エリアのアセットに適用できます。
 
-詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
-AI レビューアーを表示する![ テンプレートリスト ](assets/ai-review-templates.png)
+AI レビューアーを表示する![&#x200B; テンプレートリスト &#x200B;](assets/ai-review-templates.png)
 
 ### 個人のレビューと承認のリクエスト
 
 ユーザーが個々のレビューと承認のリクエストを作成する場合、他の参加者と一緒にコンテンツレビュー担当者を追加したり、コンテンツレビュー担当者のみで1つのリクエストを作成してブランドコンプライアンスを確認したりできます。
 
-詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 
-![ コンテンツレビュアーが個別の承認リクエストに追加されました](assets/new-stage.png)
+![&#x200B; コンテンツレビュアーが個別の承認リクエストに追加されました](assets/new-stage.png)
 
 ## コンテンツレビュー担当者のスコアとフィードバックを表示
 
@@ -119,5 +125,5 @@ AI レビューアーを表示する![ テンプレートリスト ](assets/ai-r
 
 アセットがブランドガイドラインを満たしていない場合、クリエイターは新しいバージョンをアップロードでき、承認所有者はコンテンツレビュアーで2回目のレビューと承認リクエストを作成できます。
 
-スコアとフィードバックの表示について詳しくは、[ コンテンツレビュー担当者のスコアとフィードバックの表示](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)を参照してください。
+スコアとフィードバックの表示について詳しくは、[&#x200B; コンテンツレビュー担当者のスコアとフィードバックの表示](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)を参照してください。
 

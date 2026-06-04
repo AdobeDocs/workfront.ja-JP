@@ -7,10 +7,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
 TQID: https://experienceleague.adobe.com/dVr9KslUMAN4leS62t2kTOLYnQhHaf21kJB4SVLKsX4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 354
@@ -67,15 +71,15 @@ ht-degree: 97%
 1. メッセージを送信するユーザーが含まれるプルーフのドキュメントを検索します。
 1. ドキュメントにポインタを合わせ、「**プルーフのワークフロー**」をクリックします。
 
-   ![ プルーフワークフロー](assets/proof-workflow-doc-list-350x92.png)
+   ![&#x200B; プルーフワークフロー](assets/proof-workflow-doc-list-350x92.png)
 
 1. ステージ上のすべてのユーザーにメッセージを送信するには、ステージ上の&#x200B;**その他**&#x200B;メニューをクリックし、「**全員にメッセージを送信**」を選択します。
 
-   ステージ ](assets/message-stage-350x122.png)の![ メッセージ
+   ステージ ![&#128279;](assets/message-stage-350x122.png)の メッセージ
 
 1. 個々のユーザーにメッセージを送信するには、ユーザーの横にある&#x200B;**その他**&#x200B;メニューをクリックし、「**メッセージ**」を選択します。
 
-   ![ メッセージユーザー](assets/message-user-350x121.png)
+   ![&#x200B; メッセージユーザー](assets/message-user-350x121.png)
 
 1. 「**メッセージの詳細**」セクションで、以下の情報を指定します。
 

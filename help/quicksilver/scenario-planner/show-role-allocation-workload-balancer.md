@@ -9,11 +9,16 @@ exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/QAF28EW2SXRQc1q2lBBGWEJTQETSuSrdnz-JA9tpQVM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 809
@@ -63,7 +68,7 @@ ht-degree: 84%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な[ アクセスを参照してください。
+シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner][&#128279;](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な アクセスを参照してください。
 
 Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
@@ -115,8 +120,8 @@ Old:
 
 1. （条件付き）以下の記事に記載されている方法のいずれかを使用して、プロジェクトをイニシアチブに接続します。
 
-   * [ [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md) のプランにプロジェクトを読み込みます。
-   * [ [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md) でイニシアチブを公開することにより、プロジェクトを更新または作成します。
+   * [&#x200B; [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md) のプランにプロジェクトを読み込みます。
+   * [&#x200B; [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md) でイニシアチブを公開することにより、プロジェクトを更新または作成します。
 
    >[!IMPORTANT]
    >
@@ -134,7 +139,7 @@ Old:
 
    [!UICONTROL 役割の割り当て]パネルが表示されます。
 
-   ![役割の割り当てパネル ](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![役割の割り当てパネル &#x200B;](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -196,7 +201,7 @@ Old:
      >
      >タスクとイシューを編集するには、追加のアクセス権と権限が必要です。
 
-   * イニシアチブの割り当て超過を示す役割に必要な時間数を増やします。 詳しくは、[ [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) のイニシアチブを作成と編集を参照してください。
+   * イニシアチブの割り当て超過を示す役割に必要な時間数を増やします。 詳しくは、[&#x200B; [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) のイニシアチブを作成と編集を参照してください。
 
      >[!NOTE]
      >

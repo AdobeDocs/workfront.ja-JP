@@ -9,11 +9,16 @@ exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/bHTAB-olZ2aIPapdwHVjSomBR4CZW2wu9eKr9pY-3nk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 717
@@ -207,7 +212,7 @@ Aligning goals by connecting them differs depending on what environment you use.
    調整された目標は、「目標の調整」セクションに表示され、「目標1」に続く「目標2」に関連付けられます。
 子の目標は、親の目標の進捗状況が更新されるので、親の目標の進捗状況インジケーターセクションに表示されます。
 
-   ![整列されたカード ](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![整列されたカード &#x200B;](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. （オプション）「目標の整合性」セクションで目標を確認するには、Workfront の Goals 領域に移動したあと、左パネルの「**目標の整合性**」セクションをクリックします。 「目標の整合性」セクションについては、[Adobe Workfront Goals の「目標の整合性」セクションのナビゲーション](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)を参照してください。
 

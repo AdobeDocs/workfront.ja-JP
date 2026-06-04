@@ -9,11 +9,16 @@ exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/J9U-OShQn1rEnD6oXtr9kd5K2goW-eBY8uc05kOeFUU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1072
@@ -87,7 +92,7 @@ Old:
 
 ## 前提条件
 
-* Workfrontの管理者、またはカスタムフォームへの管理アクセス権を持つ標準ユーザーまたはプランユーザーは、環境でカスタムフォームを作成する必要があります。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+* Workfrontの管理者、またはカスタムフォームへの管理アクセス権を持つ標準ユーザーまたはプランユーザーは、環境でカスタムフォームを作成する必要があります。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 * オブジェクトには、カスタムフォームを添付する必要があります。
 
   カスタムフォームをオブジェクトに追加する方法についての情報は、[オブジェクトにカスタムフォームを追加](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
@@ -98,8 +103,8 @@ Old:
 
    **例：**&#x200B;例えば、プロジェクトのカスタムフォームを管理するには、プロジェクトに移動し、**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックしてから、**編集**&#x200B;をクリックします。
 
-1. プロジェクト、タスク、イシューの&#x200B;**カスタム Forms** セクションで、カスタムフォーム名の横にある![移動アイコン ](assets/move-icon---dots.png) アイコンをクリックします。 他のすべてのオブジェクトについては、「**フォームの管理**」をクリックします。 このオプションは、1 つ以上のカスタムフォームがオブジェクトに添付されている場合にのみ表示されます。
-1. フォーム ![移動アイコン ](assets/move-icon---dots.png)をリスト内の新しい場所にドラッグします。
+1. プロジェクト、タスク、イシューの&#x200B;**カスタム Forms** セクションで、カスタムフォーム名の横にある![移動アイコン &#x200B;](assets/move-icon---dots.png) アイコンをクリックします。 他のすべてのオブジェクトについては、「**フォームの管理**」をクリックします。 このオプションは、1 つ以上のカスタムフォームがオブジェクトに添付されている場合にのみ表示されます。
+1. フォーム ![移動アイコン &#x200B;](assets/move-icon---dots.png)をリスト内の新しい場所にドラッグします。
 1. プロジェクト、タスク、およびイシューのカスタムフォームの場合は、「**保存**」をクリックします。
 
    その他のすべてのオブジェクトについては、**管理が完了しました** > **変更を保存**&#x200B;をクリックします。
@@ -114,8 +119,8 @@ Old:
 
    例えば、プロジェクトに移動し、「**プロジェクトの詳細**」セクションをクリックします。
 
-1. オブジェクトのページの右上隅にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、**すべてを編集**&#x200B;をクリックします。
-1. カスタムフォーム名の右側にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete-icon.png)をクリックし、**削除**&#x200B;をクリックしてオブジェクトからフォームを確認して削除するか、**キャンセル**&#x200B;をクリックして削除を防止します。
+1. オブジェクトのページの右上隅にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックし、**すべてを編集**&#x200B;をクリックします。
+1. カスタムフォーム名の右側にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete-icon.png)をクリックし、**削除**&#x200B;をクリックしてオブジェクトからフォームを確認して削除するか、**キャンセル**&#x200B;をクリックして削除を防止します。
 1. 「**変更を保存**」をクリックします。
 
 ## 同じカスタムフィールドを含む複数のカスタムフォームを管理
@@ -126,7 +131,7 @@ Old:
 
   同じオブジェクトに添付された異なるフォーム上の同じフィールドに異なる値を設定することはできません。
 
-* 2 つの異なるオブジェクトに同じ計算フィールドがある場合、エラーを避けるためにそれらの計算が同一である必要があります。 複数のフォームを含むカスタムフォームへの計算フィールドの追加について詳しくは、[ フォームへの計算フィールドの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
+* 2 つの異なるオブジェクトに同じ計算フィールドがある場合、エラーを避けるためにそれらの計算が同一である必要があります。 複数のフォームを含むカスタムフォームへの計算フィールドの追加について詳しくは、[&#x200B; フォームへの計算フィールドの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
 ## オブジェクトを一括編集するときに複数のカスタムフォームを管理
 
@@ -146,7 +151,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 オブジェクトを一括編集するときに複数のカスタムフォームを編集するには、次の手順を実行します。
 
-1. リストオブジェクトで、カスタムフォームが添付されているオブジェクトを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. リストオブジェクトで、カスタムフォームが添付されているオブジェクトを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 1. 「**カスタムフォーム**」をクリックします。
 
    選択したすべてのオブジェクトに添付されているカスタムフォームのみを編集できます。

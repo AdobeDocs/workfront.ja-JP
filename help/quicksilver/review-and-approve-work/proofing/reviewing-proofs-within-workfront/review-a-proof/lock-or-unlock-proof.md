@@ -7,10 +7,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
 TQID: https://experienceleague.adobe.com/7G9-SDd45bYCFByK64Ro7cIgItOQdbVWwDve-2-4IGs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 330
@@ -64,13 +68,13 @@ ht-degree: 63%
 
    または
 
-   ドキュメントの以前のバージョンのプルーフを開く場合は、そのバージョンの詳細アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**プルーフを開く**&#x200B;をクリックします。
+   ドキュメントの以前のバージョンのプルーフを開く場合は、そのバージョンの詳細アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**プルーフを開く**&#x200B;をクリックします。
 
    概要について詳しくは、[ドキュメントの概要](../../../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
-1. 左側のパネルで、**ロック** アイコン ![ ロックアイコン ](assets/unlock-proof-icon.png)をクリックします。
+1. 左側のパネルで、**ロック** アイコン ![&#x200B; ロックアイコン &#x200B;](assets/unlock-proof-icon.png)をクリックします。
 
-   ![ プルーフをロック ](assets/lock-proof-350x277.png)
+   ![&#x200B; プルーフをロック &#x200B;](assets/lock-proof-350x277.png)
 
 ## プルーフのロック解除
 
@@ -82,10 +86,10 @@ ht-degree: 63%
 
    または
 
-   ドキュメントの以前のバージョンのプルーフを開く場合は、そのバージョンの詳細アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**プルーフを開く**&#x200B;をクリックします。
+   ドキュメントの以前のバージョンのプルーフを開く場合は、そのバージョンの詳細アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**プルーフを開く**&#x200B;をクリックします。
 
    概要について詳しくは、[ドキュメントの概要](../../../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
-1. 左側のパネルで、**ロック解除** アイコン ![ ロック解除アイコン ](assets/unlock-proof-icon.png)をクリックし、**はい、ロック解除**&#x200B;をクリックします。
+1. 左側のパネルで、**ロック解除** アイコン ![&#x200B; ロック解除アイコン &#x200B;](assets/unlock-proof-icon.png)をクリックし、**はい、ロック解除**&#x200B;をクリックします。
 
-   ![ プルーフのロック解除](assets/copy-of-unlock-proof-350x279.png)
+   ![&#x200B; プルーフのロック解除](assets/copy-of-unlock-proof-350x279.png)

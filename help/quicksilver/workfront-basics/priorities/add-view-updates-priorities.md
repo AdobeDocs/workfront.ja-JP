@@ -7,10 +7,14 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
 TQID: https://experienceleague.adobe.com/ST7uHa2yW7WjnUz9PwgKctI9jaBbp6maSuw6bTByGp0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 527
@@ -68,7 +72,7 @@ ht-degree: 16%
 {{step1-to-priorities}}
 
 1. 更新する作業項目を探します。
-1. 名前にカーソルを合わせて、**新しい更新プログラムを追加**をクリックします。
+1. 名前にカーソルを合わせて、**新しい更新プログラムを追加**&#x200B;をクリックします。
    ![新しい更新プログラムを追加](assets/add-update.png)
    <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. コメントの入力を開始します。
@@ -92,7 +96,7 @@ ht-degree: 16%
 1. 画面の右下隅にある&#x200B;**更新**&#x200B;領域を探します。
 1. （オプション）「**コメント**」タブを使用して、他のユーザーが作業項目に対して行った更新を表示します。
 1. （オプション）「**システムアクティビティ**」タブを使用して、作業項目に関連するシステムアクティビティを表示します。
-1. （オプション）コメントを追加するには、**コメント** タブに移動し、**新規コメント** ボックスに入力を開始します。完了したら、**送信**をクリックします。
+1. （オプション）コメントを追加するには、**コメント** タブに移動し、**新規コメント** ボックスに入力を開始します。完了したら、**送信**&#x200B;をクリックします。
    ![更新領域](assets/updates-area-in-overview.png)
 
 ## コメントへの返信
@@ -112,4 +116,4 @@ ht-degree: 16%
    >
    >コメントは送信後の 15 分間のみ編集できます。 コメントを編集するには、コメントの右上隅にある&#x200B;**詳細** メニューをクリックし、**編集**&#x200B;をクリックします。
 
-   ![ コメントへの返信](assets/reply-to-comment.png)
+   ![&#x200B; コメントへの返信](assets/reply-to-comment.png)

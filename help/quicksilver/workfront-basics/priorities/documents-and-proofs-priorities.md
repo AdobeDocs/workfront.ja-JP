@@ -7,10 +7,15 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
 TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 562
@@ -71,11 +76,11 @@ ht-degree: 29%
 
 1. ワークリストで、作業名にカーソルを合わせ、**概要** アイコン ![概要アイコンを開く](assets/summary-icon.png)をクリックします。
 1. サマリーパネルの「**タスク**」または「**問題**」タブに表示されていることを確認します。
-1. **ファイルをアップロード** アイコン ![ ファイルアップロード アイコン ](assets/upload-file-icon.png)をクリックします。
+1. **ファイルをアップロード** アイコン ![&#x200B; ファイルアップロード アイコン &#x200B;](assets/upload-file-icon.png)をクリックします。
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl + V キーを押してクリップボードからペーストします
 または
 「**ファイルを追加**」をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![ ファイルを追加](assets/add-files.png)
+   ![&#x200B; ファイルを追加](assets/add-files.png)
 1. （オプション）コメントを追加します。
 1. （オプション）さらにファイルを追加します。
 
@@ -94,7 +99,7 @@ ht-degree: 29%
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl + V キーを押してクリップボードからペーストします
 または
 「**ファイルを追加**」をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![ ファイルを追加](assets/add-files.png)
+   ![&#x200B; ファイルを追加](assets/add-files.png)
 1. （オプション）コメントを追加します。
 1. （オプション）さらにファイルを追加します。
 
@@ -115,8 +120,8 @@ ht-degree: 29%
 
 1. ワークリストで、作業名にカーソルを合わせ、**概要** アイコン ![概要アイコンを開く](assets/summary-icon.png)をクリックします。
 1. サマリーパネルの「**タスク**」または「**問題**」タブに表示されていることを確認します。
-1. 右側のパネルで「**ドキュメント**」アイコン「![ ドキュメント」アイコン「](assets/show-document-icon.png)」をクリックします。
-1. 「**ファイルをアップロード**」アイコン「![ ファイルをアップロード」アイコン「](assets/upload-file-icon.png)」をクリックし、ファイルを選択します。
+1. 右側のパネルで「**ドキュメント**」アイコン「![&#x200B; ドキュメント」アイコン「](assets/show-document-icon.png)」をクリックします。
+1. 「**ファイルをアップロード**」アイコン「![&#x200B; ファイルをアップロード」アイコン「](assets/upload-file-icon.png)」をクリックし、ファイルを選択します。
 
    >[!NOTE]
    >

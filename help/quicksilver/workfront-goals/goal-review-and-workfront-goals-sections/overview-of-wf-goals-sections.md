@@ -10,8 +10,10 @@ exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ZRfXqlhKvRrPOl7KOnjiHLJIwcLhyoIC3wUiGgnx8w
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 674
@@ -76,7 +78,7 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 
 目標リストの操作と目標の管理について詳しくは、[Adobe Workfront Goals の目標リストで目標を管理](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)を参照してください。
 
-![目標リスト ](assets/goal-list-unshimmed.png)
+![目標リスト &#x200B;](assets/goal-list-unshimmed.png)
 
 目標リストを使用して、次の操作を実行します。
 
@@ -98,7 +100,7 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 
 グラフのセクションの使用について詳しくは、[グラフをレビューして Adobe Workfront Goals の目標の進捗傾向を把握](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)を参照してください。
 
-![ グラフセクション ](assets/graphs-section-unshimmed.png)
+![&#x200B; グラフセクション &#x200B;](assets/graphs-section-unshimmed.png)
 
 「グラフ」セクションを使用して、次の操作を実行できます。
 
@@ -117,7 +119,7 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 * [目標を Adobe Workfront 目標に結び付けて整合させる](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [結果とアクティビティを目標に変換して目標を連携](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![目標の調整セクション ](assets/goal-alignment-section-unshimmed.png)
+![目標の調整セクション &#x200B;](assets/goal-alignment-section-unshimmed.png)
 
 「目標の整合性」セクションを使用して、次の操作を実行します。
 

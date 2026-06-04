@@ -7,11 +7,16 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 09b70427-691d-437a-b9d2-86f78bd4d6a2
 TQID: https://experienceleague.adobe.com/HdkoEcw1ya8EgLaa5QnbUDtDxmgQCQEC3WTBhftyp-I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 488
@@ -57,4 +62,4 @@ ht-degree: 71%
 
 [!DNL Workfront]管理者は、[!DNL Workfront]によって設定されているため、メール通知コンテンツを変更することはできませんが、イベント通知のメール件名を変更することはできます。 詳しくは、[イベント通知メールの件名のカスタマイズ](../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)を参照してください。
 
-すべての[!DNL Workfront]件のイベント通知のリストと、各イベントの簡単な説明、およびデフォルトでアクティブか非アクティブかについては、[件のイベント通知タイプ ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
+すべての[!DNL Workfront]件のイベント通知のリストと、各イベントの簡単な説明、およびデフォルトでアクティブか非アクティブかについては、[件のイベント通知タイプ &#x200B;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。

@@ -7,8 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
 TQID: https://experienceleague.adobe.com/tr04xDTRvfDtXABpu-RdEwv-RJjCiQJ5ALNo6pzRaNk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 597
@@ -22,7 +24,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->すべての受信者は、プルーフを確認するために [!DNL Workfront] のアクセス権が必要です。 ライセンスとアクセスレベルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+>すべての受信者は、プルーフを確認するために [!DNL Workfront] のアクセス権が必要です。 ライセンスとアクセスレベルについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 ## プルーフを共有
 
@@ -39,7 +41,7 @@ ht-degree: 95%
 1. 受信者用の「**[!UICONTROL プルーフの役割]**」を選択します。\
    プルーフの役割について詳しくは、[プルーフの役割の概要](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)を参照してください。
 1. 受信者向けの&#x200B;**[!UICONTROL メールアラート]**&#x200B;を選択します。\
-   プルーフ用のメールアラートについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md) でのプルーフのメールアラートの設定を変更および[ [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知設定の設定を参照してください。
+   プルーフ用のメールアラートについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md) でのプルーフのメールアラートの設定を変更および[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知設定の設定を参照してください。
 
    ![画面を共有](assets/mobile-shareproof-350x551.png)
 

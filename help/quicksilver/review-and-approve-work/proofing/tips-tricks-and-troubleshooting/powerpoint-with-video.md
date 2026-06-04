@@ -8,9 +8,12 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: b648e273-8062-492d-91b0-2333da095fc5
 TQID: https://experienceleague.adobe.com/tbmiQV-6iEX6qTPjoypoZG-Yo-tNoDWtCkHM7FR-xco
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 181
@@ -34,5 +37,5 @@ ht-degree: 7%
 
 ## プルーフを見る
 
-1. [ デスクトップ校正ビューアのインストール ](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)の説明に従って、デスクトップ校正ビューをインストールします。
+1. [&#x200B; デスクトップ校正ビューアのインストール &#x200B;](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)の説明に従って、デスクトップ校正ビューをインストールします。
 1. ビューアがインストールされたら、プルーフに移動して開きます。 上記の節で説明したように、プルーフがインタラクティブなプルーフとして作成された場合、デスクトップ校正ビューアが自動的に開きます。

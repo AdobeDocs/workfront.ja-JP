@@ -7,11 +7,18 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
 TQID: https://experienceleague.adobe.com/QijgiCnlMg4macx2aa3UX6yoIJiijEX9n6qmfWVuGeM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 617
@@ -73,7 +80,7 @@ ht-degree: 86%
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
 1. プルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
 1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
 1. （オプション）**[!UICONTROL プルーフ名]**&#x200B;テキストボックスにプルーフ名を入力します。
@@ -81,14 +88,14 @@ ht-degree: 86%
 1. （オプション）承認者を追加します。
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![ コメントを追加](assets/add-comment.png)
+   ![&#x200B; コメントを追加](assets/add-comment.png)
 
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 
 1. （オプション）「**[!UICONTROL 外部ファイルを追加]**」を選択して、コンピューターからファイルを追加します。
 1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
 
-   ![ プラグイン内のファイル ](assets/plugin-files-350x307.png)\
+   ![&#x200B; プラグイン内のファイル &#x200B;](assets/plugin-files-350x307.png)\
    ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。
 
 
@@ -99,7 +106,7 @@ ht-degree: 86%
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
 1. プルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
 
 1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
@@ -116,12 +123,12 @@ ht-degree: 86%
 
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![ コメント自動承認を追加](assets/add-comment-automated-approval.png)
+   ![&#x200B; コメント自動承認を追加](assets/add-comment-automated-approval.png)
 
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 1. （オプション）「**[!UICONTROL 外部ファイルを追加]**」を選択して、コンピューターからファイルを追加します。
 1. 「**[!UICONTROL アップロード]**」をクリックし、上記で選択したアセットタイプに基づいて、任意の書き出しオプションを設定します。
-ドキュメントは、プラグインとデスクトップアプリの[!UICONTROL  ドキュメント ]領域に表示されます。
+ドキュメントは、プラグインとデスクトップアプリの[!UICONTROL &#x200B; ドキュメント &#x200B;]領域に表示されます。
 
 ## 新しいプルーフのバージョンをアップロード
 
@@ -132,7 +139,7 @@ ht-degree: 86%
    ![作業リストに戻る](assets/go-back-to-work-list-350x314.png)
 
 1. ドキュメントのアップロード先の作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png)をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png)をクリックします。
 
 1. プラグインの下部近くにある「**[!UICONTROL 新しいバージョン]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
@@ -144,4 +151,4 @@ ht-degree: 86%
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 1. 「**[!UICONTROL アップロード]**」をクリックし、上記で選択したアセットタイプに基づいて、任意の書き出しオプションを設定します。
-ドキュメントは、プラグインとデスクトップアプリの[!UICONTROL  ドキュメント ]領域に表示されます。
+ドキュメントは、プラグインとデスクトップアプリの[!UICONTROL &#x200B; ドキュメント &#x200B;]領域に表示されます。

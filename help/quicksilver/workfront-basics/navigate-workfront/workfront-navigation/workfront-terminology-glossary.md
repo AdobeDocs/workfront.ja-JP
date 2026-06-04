@@ -9,11 +9,35 @@ exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: be65ef36-43e4-48e1-a062-caa3778e15beid: c10f2e93-7a58-4212-aa24-684c265ebe76id: c33d85a1-be85-4290-854c-87408c10aa80id: c3a155b4-a54b-4a82-a3d2-c8f0f971673eid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560id: eb361af2-3e4f-4a79-b5f3-7a344ac5794cid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 21553
@@ -131,18 +155,18 @@ ht-degree: 96%
     <!--
     Resource Estimates or     
      -->
-     [!UICONTROL プロジェクト （財務データ） ] レポート： </p>
+     [!UICONTROL プロジェクト （財務データ） &#x200B;] レポート： </p>
     <ul> 
      <li>このレポートは、次の項目を確認しながら
      <!--
      how resources are budgeted for work, or
      -->
-     リソースに割り当てられる[!UICONTROL予定時間数]の量。</li>
+     リソースに割り当てられる[!UICONTROL 予定時間数]の量。</li>
      <li> <p>[!UICONTROL Allocation Date]は、タスクへの[!UICONTROL Job Role]の配分が開始される週の最初の日（日曜日）です。 リソース（[!UICONTROL Job Role]）には、割り当てられているタスクの[!UICONTROL Duration]中の週と同数の[!UICONTROL Allocation Dates]を設定できます。 タスクが複数月にわたる場合、タスクの [!UICONTROL Duration]内であれば、月の最初の日を[!UICONTROL Allocation Date]にすることもできます。</p> <p>例えば、3 週間以上にわたるタスクにユーザーの[!UICONTROL Job Role]を割り当て、[!UICONTROL Planned Hours]を 90 時間にすることができます。 これらの時間数はタスクの期間中に均等に配分され、毎日 6 時間の[!UICONTROL Planned Hours]が担当業務に割り当てられます。</p> <p><em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours] / タスクの[!UICONTROL Duration]中の[!UICONTROL Work Days]の数</em> </p> <p>その結果、[!UICONTROL Allocation Dates]は 3 つあり、タスクの[!UICONTROL Duration]中の毎週日曜日ごとに 1 つで、それぞれに特定の数の[!UICONTROL Planned Hours]が関連付けられています。<br>ある月の最終週の真ん中でタスクが開始され、新しい月の初めから 2 週間後に終了する場合、タスクには 4 つの[!UICONTROL Allocation Dates]があります。タスクの[!UICONTROL Duration]中の毎週日曜日ごとに 1 つと、新しい月の最初の日に 1 つです。</p> <p>この情報を最大限に活用するには、以下を作成することをお勧めします。
       <!--
       Resource Estimates or a
       -->
-     プロジェクト（財務データ）レポートを作成し、[!UICONTROL配分日]のマトリックス グループを追加し、最も正確なデータを得るために結果を週単位、月単位、四半期単位、または年単位でグループ化します。<br> マトリックス グループ化の構築について詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref"> マトリックス レポートの作成</a>を参照してください。</p> </li>
+     プロジェクト（財務データ）レポートを作成し、[!UICONTROL 配分日]のマトリックス グループを追加し、最も正確なデータを得るために結果を週単位、月単位、四半期単位、または年単位でグループ化します。<br> マトリックス グループ化の構築について詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref"> マトリックス レポートの作成</a>を参照してください。</p> </li>
     </ul> <p>[!UICONTROL Project (Financial Data)]レポートに財務情報が入力されるのは、関連付けられているデータが 5 年未満の場合のみです。 例えば、2015年1月に担当業務がタスクに割り当てられ、今日が 2021年9月の場合、[!UICONTROL Project (Financial Data)]レポートでは、担当業務の[!UICONTROL Allocation Date]などの財務フィールドにデータは入力されません。 </p> 
     <div> 
      <p>[!UICONTROL Budgeted Hour]レポートの場合：</p> 
@@ -1218,7 +1242,7 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL Last Note]</td> 
    <td> <p>このフィールドには、任意のユーザーがオブジェクトに最後に入力した更新が表示されます。 これは、オブジェクト上の最新のアクティビティまたはインタラクションです。</p> <p>オブジェクトの最終メモのテキストが削除されている場合、[!UICONTROL Last Note] 列は空になります。 オブジェクトに新規メモを入力すると、それが最終メモになり、列に再び表示されます。</p>
-   <p>このフィールドを[!UICONTROL タスク ] レポートに追加すると、タスクの問題、サブタスク、ドキュメントなど、子オブジェクトに残っている更新がこの列に表示されません。</p> 
+   <p>このフィールドを[!UICONTROL タスク &#x200B;] レポートに追加すると、タスクの問題、サブタスク、ドキュメントなど、子オブジェクトに残っている更新がこの列に表示されません。</p> 
    <p><b>メモ</p>
    <p>APIを使用してオブジェクトに最後に追加されたメモは、Workfrontのレポートには表示されません。 オブジェクトの最新の更新がAPIを使用して追加された場合、[!DNL Last Note] フィールドは空です。 </p>
    </td> 
@@ -1407,7 +1431,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Number of Children]</td> 
-   <td> <p>[!UICONTROL プロジェクト ] レポートでは、これはタスクが持つ子またはサブタスクの数です。 
+   <td> <p>[!UICONTROL プロジェクト &#x200B;] レポートでは、これはタスクが持つ子またはサブタスクの数です。 
    <p><b>ヒント</b></p>
    タスクのカスタムフォームの計算カスタムフィールドに<code>{numberOfChildren}</code>計算を追加して、カスタムフィールドにタスクの子の数を表示できます。詳細については、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">計算フィールドをフォームに追加</a>を参照してください。 
     </td> 
@@ -1627,7 +1651,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
-   <td> <p>プロジェクトの[!UICONTROL予定労力コスト ]と[!UICONTROL予定費用コスト ]の合計。これには、プロジェクトの[!UICONTROL計画リスクコスト ]は含まれません。  </p> </td> 
+   <td> <p>プロジェクトの[!UICONTROL 予定労力コスト &#x200B;]と[!UICONTROL 予定費用コスト &#x200B;]の合計。これには、プロジェクトの[!UICONTROL 計画リスクコスト &#x200B;]は含まれません。  </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 予定日付との整合性]</td> 
@@ -1641,7 +1665,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 
-   <td> <p>タスクの[!UICONTROL予定期間]は、通常、タスクの[!UICONTROL期間]と同じです。これは、タスクの[!UICONTROL Planned Start]と[!UICONTROL Planned Completion Dates]の間の日数の差を表します。 </p> <p>タスクが [!UICONTROL Effort Driven] の [!UICONTROL Duration] タイプの場合、[!UICONTROL Planned Duration] は、タスクに割り当てたリソース数に基づいてタスクの [!UICONTROL Duration] と異なる場合があります。 </p> <p>例えば、[!UICONTROL Duration] タイプの[!UICONTROL Effort Driven]を持つタスクに3日の[!UICONTROL Duration]があり、フルタイムスケジュールを持つ1つのリソースをタスクに割り当てた場合、[!UICONTROL Planned Duration]も3日になります。フルタイムのスケジュールを持つ3つのリソースを同じタスクに割り当てる場合、[!UICONTROL Duration]は3日間のままですが、[!UICONTROL Planned Duration]は1日になります。[!UICONTROL Planned Duration]は、タスクの[!UICONTROL Planned Start]および[!UICONTROL Planned Completion]日付も変更し、新しい[!UICONTROL Planned Duration]を反映します。その結果、プロジェクトのタイムラインにも影響が及びます。 </p> <p>タスクの [!UICONTROL Duration] と [!UICONTROL Planned Duration] の差について詳しくは、<a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">タスクの [!UICONTROL Planned Duration] と [!UICONTROL Duration] の差</a>の記事を参照してください。</p> <p>プロジェクトとイシューには [!UICONTROL Planned Duration] がありません。 </p> </td> 
+   <td> <p>タスクの[!UICONTROL 予定期間]は、通常、タスクの[!UICONTROL 期間]と同じです。これは、タスクの[!UICONTROL Planned Start]と[!UICONTROL Planned Completion Dates]の間の日数の差を表します。 </p> <p>タスクが [!UICONTROL Effort Driven] の [!UICONTROL Duration] タイプの場合、[!UICONTROL Planned Duration] は、タスクに割り当てたリソース数に基づいてタスクの [!UICONTROL Duration] と異なる場合があります。 </p> <p>例えば、[!UICONTROL Duration] タイプの[!UICONTROL Effort Driven]を持つタスクに3日の[!UICONTROL Duration]があり、フルタイムスケジュールを持つ1つのリソースをタスクに割り当てた場合、[!UICONTROL Planned Duration]も3日になります。フルタイムのスケジュールを持つ3つのリソースを同じタスクに割り当てる場合、[!UICONTROL Duration]は3日間のままですが、[!UICONTROL Planned Duration]は1日になります。[!UICONTROL Planned Duration]は、タスクの[!UICONTROL Planned Start]および[!UICONTROL Planned Completion]日付も変更し、新しい[!UICONTROL Planned Duration]を反映します。その結果、プロジェクトのタイムラインにも影響が及びます。 </p> <p>タスクの [!UICONTROL Duration] と [!UICONTROL Planned Duration] の差について詳しくは、<a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">タスクの [!UICONTROL Planned Duration] と [!UICONTROL Duration] の差</a>の記事を参照してください。</p> <p>プロジェクトとイシューには [!UICONTROL Planned Duration] がありません。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration Minutes]</td> 
@@ -1879,7 +1903,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Rank]</td> 
-   <td> <p>[!UICONTROL アクセス レベル ] レポートでは、[!UICONTROL アクセス レベル ]の[!UICONTROL ランク ]を手動で指定できます。これにより、[!DNL Workfront]管理者は、各アクセス レベルに関連付けられている複雑さのレベルを視覚的に特定できます。例えば、より複雑な（[!UICONTROL Plan] レベル）アクセス レベルには小さい数値を指定し、より複雑でない（[!UICONTROL Requester] レベル）アクセス レベルには大きい数値を指定できます。標準のアクセス レベルをランク付けすることはできません。 </p> </td> 
+   <td> <p>[!UICONTROL アクセス レベル &#x200B;] レポートでは、[!UICONTROL アクセス レベル &#x200B;]の[!UICONTROL ランク &#x200B;]を手動で指定できます。これにより、[!DNL Workfront]管理者は、各アクセス レベルに関連付けられている複雑さのレベルを視覚的に特定できます。例えば、より複雑な（[!UICONTROL Plan] レベル）アクセス レベルには小さい数値を指定し、より複雑でない（[!UICONTROL Requester] レベル）アクセス レベルには大きい数値を指定できます。標準のアクセス レベルをランク付けすることはできません。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ready]</td> 
@@ -2492,7 +2516,7 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr>
   <td> <code>[!UICONTROL width]</code>
   </td>
-  <td> レポートで[!UICONTROL テキスト モード ] インターフェイスを使用する場合、各列の幅をピクセル単位で指定できるコード行。Workfrontでは、フィールドごとに推奨される幅が用意されていますが、フィールドの種類や書式によって調整が必要になる場合があります。列に指定された幅を適用するには、追加の<code>[!UICONTROL usewidths=true]</code>行のコードを使用する必要があります。 
+  <td> レポートで[!UICONTROL テキスト モード &#x200B;] インターフェイスを使用する場合、各列の幅をピクセル単位で指定できるコード行。Workfrontでは、フィールドごとに推奨される幅が用意されていますが、フィールドの種類や書式によって調整が必要になる場合があります。列に指定された幅を適用するには、追加の<code>[!UICONTROL usewidths=true]</code>行のコードを使用する必要があります。 
   </td>
   </tr>
   <tr> 

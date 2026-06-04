@@ -7,8 +7,10 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
 TQID: https://experienceleague.adobe.com/ICuW3kxD5GmRC4k2wDaxgqnDFva6iOnP5FRo-dBAVOw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 412
@@ -20,7 +22,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->これは従来のブラウザー拡張機能であり、現在サポートされていません。 現在ベータ版の新しいブラウザー拡張機能をインストールすることをお勧めします：[Adobe Workfront レビューツール ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)。
+>これは従来のブラウザー拡張機能であり、現在サポートされていません。 現在ベータ版の新しいブラウザー拡張機能をインストールすることをお勧めします：[Adobe Workfront レビューツール &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)。
 
 
 デスクトッププルーフビューアを使用して、すべてのインタラクティブコンテンツをレビューすることをお勧めします。 ただし、組織のポリシーによってこの問題が回避されている場合は、Workfront 管理者が、インタラクティブプルーフ用の web プルーフビューアを使用するようにシステムを設定できます。 これら 2 つのビューアの比較情報について詳しくは、[web プルーフビューアとデスクトッププルーフビューアの違いの概要](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)を参照してください。

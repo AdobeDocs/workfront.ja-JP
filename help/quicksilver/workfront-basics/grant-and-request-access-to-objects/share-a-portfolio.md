@@ -5,10 +5,15 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
 TQID: https://experienceleague.adobe.com/3Yl6-k5sh-m1owEJvVHTW-VBLP1lZyH16KjGTcbUKmk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 901
@@ -85,7 +90,7 @@ Workfront のオブジェクトの階層について詳しくは、[Adobe Workfr
 
 1. ポートフォリオ名の右側にある「**共有**」をクリックします。 **共有[Portfolio名]** ダイアログボックスが開きます。
 
-   ![ ポートフォリオを共有ボタン ](assets/share-portfolio-button.png)
+   ![&#x200B; ポートフォリオを共有ボタン &#x200B;](assets/share-portfolio-button.png)
 
 1. 「**ポートフォリオに**&#x200B;へのアクセス権を付与」フィールドで、ポートフォリオを共有するユーザー、チーム、役割、グループ、会社、またはビジネスプロファイルの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
@@ -116,9 +121,9 @@ Workfront のオブジェクトの階層について詳しくは、[Adobe Workfr
 
 {{step1-to-portfolios}}
 
-1. **ポートフォリオ** ページで、共有する各ポートフォリオの左側にあるボックスを選択し、ページの上部にある&#x200B;**共有** アイコン ![共有アイコン ](assets/share-icon.png)をクリックします。 共有モーダルが開きます。
+1. **ポートフォリオ** ページで、共有する各ポートフォリオの左側にあるボックスを選択し、ページの上部にある&#x200B;**共有** アイコン ![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。 共有モーダルが開きます。
 
-   ![ ポートフォリオの一括共有](assets/bulk-share-portfolios.png)
+   ![&#x200B; ポートフォリオの一括共有](assets/bulk-share-portfolios.png)
 
 1. 「**ポートフォリオに**&#x200B;へのアクセス権を付与」フィールドで、ポートフォリオを共有するユーザー、チーム、役割、グループ、会社、またはビジネスプロファイルの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 

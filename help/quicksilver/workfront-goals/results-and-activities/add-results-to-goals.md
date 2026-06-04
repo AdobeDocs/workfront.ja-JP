@@ -10,11 +10,16 @@ exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2vFdXqMEGMimAJU3WvlkJ74sNlQLx78vMQqpUL-OHX8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 537
@@ -198,7 +203,7 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. メインメニュー![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックしてから、**目標**&#x200B;をクリックします。
+1. メインメニュー![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックしてから、**目標**&#x200B;をクリックします。
 
 1. **目標リスト**&#x200B;で目標の名前をクリックし、目標ページを開きます。
 1. 左側のパネルの「**進捗状況インジケーター**」をクリックします。
@@ -206,7 +211,7 @@ Adding results to goals differs depending on which environment you use.
 
    新規結果ボックスが開きます。
 
-   ![新しい結果ボックス ](assets/new-result-box-unshimmed.png)
+   ![新しい結果ボックス &#x200B;](assets/new-result-box-unshimmed.png)
 
 1. 結果の名前を「**結果名**」フィールドに入力します。 必須フィールドです。
 1. （オプション）結果を別のユーザーに割り当てる場合は、「**結果の所有者**」フィールドから自分の名前を削除します。 デフォルトでは、アクティビティを作成したユーザーが所有者となります。

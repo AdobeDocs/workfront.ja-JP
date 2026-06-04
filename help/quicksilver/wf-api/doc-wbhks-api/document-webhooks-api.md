@@ -11,9 +11,12 @@ role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
 TQID: https://experienceleague.adobe.com/WeGN2l38bnmcv-9mzj7vEQoWgQl8Y7sRiE2Q9ftaMCE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 113
@@ -38,7 +41,7 @@ ht-degree: 92%
 * [ドキュメントのサムネイルを取得](../../wf-api/doc-wbhks-api/get-thmbnl-doc.md)
 * [ドキュメント web フックを介してファイルをアップロード](../../wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
 * [ドキュメント web フックを含むフォルダーを作成](../../wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-* [ ドキュメントまたはフォルダーを削除します（まだ実装されていません） ](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+* [&#x200B; ドキュメントまたはフォルダーを削除します（まだ実装されていません） &#x200B;](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
 * [サービスに関する情報を取得（まだ実装されていません）](../../wf-api/doc-wbhks-api/get-service-info-webhook.md)
 * [ドキュメントまたはフォルダーの名前を変更（まだ実装されていません）](../../wf-api/doc-wbhks-api/rename-docu-or-folder.md)
 * [カスタムアクションを実行（まだ実装されていません）](../../wf-api/doc-wbhks-api/perform-custom-action.md)

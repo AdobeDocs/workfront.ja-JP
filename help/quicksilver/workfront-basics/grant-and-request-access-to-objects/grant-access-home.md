@@ -7,11 +7,16 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
 TQID: https://experienceleague.adobe.com/XBAiNe19HTNr8Zq0QUGg3S3CQhrlCa0hDPQ2hIYoK9U
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 486
@@ -25,7 +30,7 @@ ht-degree: 62%
 
 ユーザーは、Adobe Workfront 内のオブジェクトへのアクセス権をリクエストできます。
 
-アクセスの要求について詳しくは、[ オブジェクトへのアクセスの要求](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)を参照してください。
+アクセスの要求について詳しくは、[&#x200B; オブジェクトへのアクセスの要求](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)を参照してください。
 
 オブジェクトの所有者は、ホームエリアからアイテムへのアクセス権を付与または拒否できます。
 
@@ -66,7 +71,7 @@ ht-degree: 62%
 
 1. 画面の右上隅にある&#x200B;**メインメニュー** ![](assets/dots-main-menu.png)をクリックするか、左上隅にある&#x200B;**メインメニュー** ![](assets/lines-main-menu.png)をクリックしてから、**ホームをクリックします**
 または
-Adobe Workfrontの左上隅にある**ホーム** アイコン ![](assets/home-icon-30x29.png)をクリックします。
+Adobe Workfrontの左上隅にある&#x200B;**ホーム** アイコン ![](assets/home-icon-30x29.png)をクリックします。
 
    >[!NOTE]
    >
@@ -79,7 +84,7 @@ Adobe Workfrontの左上隅にある**ホーム** アイコン ![](assets/home-i
 
    1. **自分の承認** ウィジェットに移動し、詳細なアクセスを求めるリクエストを見つけたら、**アクセスを許可**&#x200B;をクリックします。
 
-      ![ リクエストを承認](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+      ![&#x200B; リクエストを承認](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
    1. （オプション）要求されたものと異なるレベルのアクセスを許可するには、アクセスを許可のボタンの左側にあるドロップダウンメニューをクリックして新しいアクセスを選択し、「**アクセスを許可**」をクリックします。
 
@@ -94,9 +99,9 @@ Adobe Workfrontの左上隅にある**ホーム** アイコン ![](assets/home-i
 1. 次のいずれかの操作を行って、ユーザープロファイルに移動します。
 
    * 画面の右上隅にある&#x200B;**メインメニュー** ![](assets/dots-main-menu.png)をクリックし、名前をクリックします。
-   * 右上隅のAdobe **メインメニュー** ![ プロファイルアイコン ](assets/adobe-blue-main-menu.png)をクリックしてから、**Workfront プロファイル**&#x200B;をクリックします。
+   * 右上隅のAdobe **メインメニュー** ![&#x200B; プロファイルアイコン &#x200B;](assets/adobe-blue-main-menu.png)をクリックしてから、**Workfront プロファイル**&#x200B;をクリックします。
 
-1. ヘッダーの名前の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
+1. ヘッダーの名前の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
 1. 「**通知**」をクリックし、別のユーザーが自分へのアクセスをリクエストした際にメール通知を受け取るかどうかに応じて、**必要なアクション** セクションの「**誰かが自分からアクセスをリクエスト**」を選択または選択解除します。
 
    日次またはインスタント通知を有効にできます。

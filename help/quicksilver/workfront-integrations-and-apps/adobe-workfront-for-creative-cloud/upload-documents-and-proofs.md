@@ -9,9 +9,12 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
 TQID: https://experienceleague.adobe.com/bZsOnrrwZ7ksCaoM3jfIyeTO00XqG1hDTEmG5VmWOcA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 247
@@ -46,7 +49,7 @@ ht-degree: 98%
 
 1. **書き出しファイル設定を指定**&#x200B;ダイアログボックスを開きます。
 
-   ![ ファイル書き出し設定](assets/file-export-settings.png)
+   ![&#x200B; ファイル書き出し設定](assets/file-export-settings.png)
 
 1. 書き出すアセットタイプを見つけ、以下のように設定を調整します。
 

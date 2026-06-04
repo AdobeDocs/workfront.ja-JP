@@ -1,17 +1,25 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: ホーム領域の[!UICONTROL  ワークリスト ]にアイテムを表示
-description: 各ウィジェットには、独自のワークリストが含まれています。 ワークリストには、割り当てられた作業項目がすべて表示されます。 フィルターとグループ化を使用して、[!UICONTROL  ワークリスト ]に表示する項目を制御できます。
+title: ホーム領域の[!UICONTROL &#x200B; ワークリスト &#x200B;]にアイテムを表示
+description: 各ウィジェットには、独自のワークリストが含まれています。 ワークリストには、割り当てられた作業項目がすべて表示されます。 フィルターとグループ化を使用して、[!UICONTROL &#x200B; ワークリスト &#x200B;]に表示する項目を制御できます。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
 TQID: https://experienceleague.adobe.com/fITdY6-HlQ-4527-RiI9m52-Kg3nRUxsk32vjpw-A-g
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 990
@@ -19,11 +27,11 @@ ht-degree: 15%
 
 ---
 
-# [!UICONTROL  ホーム ]領域の[!UICONTROL  ワークリスト ]にアイテムを表示します
+# [!UICONTROL &#x200B; ホーム &#x200B;]領域の[!UICONTROL &#x200B; ワークリスト &#x200B;]にアイテムを表示します
 
 <!-- Audited: 1/2024 -->
 
-各ウィジェットには、独自のワークリストが含まれています。 ワークリストには、割り当てられた作業項目がすべて表示されます。 フィルターとグループ化を使用して、[!UICONTROL  ワークリスト ]に表示する項目を制御できます。
+各ウィジェットには、独自のワークリストが含まれています。 ワークリストには、割り当てられた作業項目がすべて表示されます。 フィルターとグループ化を使用して、[!UICONTROL &#x200B; ワークリスト &#x200B;]に表示する項目を制御できます。
 
 >[!IMPORTANT]
 >
@@ -100,7 +108,7 @@ ht-degree: 15%
 
 ## 作品をフィルター
 
-ウィジェットの[!UICONTROL  ワークリスト ]の項目をフィルタリングして、特定の種類の項目のみを表示できます。 例えば、マイワーク [!UICONTROL  ワークリスト ]をフィルタリングして、問題または要求のみを表示できます。
+ウィジェットの[!UICONTROL &#x200B; ワークリスト &#x200B;]の項目をフィルタリングして、特定の種類の項目のみを表示できます。 例えば、マイワーク [!UICONTROL &#x200B; ワークリスト &#x200B;]をフィルタリングして、問題または要求のみを表示できます。
 
 >[!NOTE]
 >
@@ -108,7 +116,7 @@ ht-degree: 15%
 
 作業をフィルタリングするには：
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）次のいずれかのウィジェットを追加するには、**カスタマイズ**&#x200B;をクリックします。
 
    | ウィジェット | 説明 |
@@ -121,9 +129,9 @@ ht-degree: 15%
    | マイリクエスト | 送信したすべてのリクエストを表示します |
    | マイ承認 | 保留中、割り当て済み、委任済み、送信済みのすべての承認を表示します |
 
-1. ウィジェットワークリストの右上隅にある&#x200B;**フィルター** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png)をクリックします。
+1. ウィジェットワークリストの右上隅にある&#x200B;**フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)をクリックします。
 1. **候補** フィルターまたは作成したフィルターを選択します。
-推奨フィルターについて詳しくは、[ ホームウィジェットフィルターの概要](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)を参照してください。
+推奨フィルターについて詳しくは、[&#x200B; ホームウィジェットフィルターの概要](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)を参照してください。
 1. （オプション）「**フィルターをスタック**」を切り替えて、複数のフィルターオプションを選択します。
 
    ![自分のタスク フィルターを開く](assets/my-task-filter-open.png)
@@ -131,11 +139,11 @@ ht-degree: 15%
 
 ## 作業のグループ化
 
-ウィジェット [!UICONTROL  ワークリスト ]をグループ化して、作業項目を整理しておくことができます。
+ウィジェット [!UICONTROL &#x200B; ワークリスト &#x200B;]をグループ化して、作業項目を整理しておくことができます。
 
 ワークリストをグループ化するには：
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）次のいずれかのウィジェットを追加するには、**カスタマイズ**&#x200B;をクリックします。
 
    | ウィジェット | 説明 |
@@ -148,16 +156,16 @@ ht-degree: 15%
    | マイリクエスト | 送信したすべてのリクエストを表示します |
    | マイ承認 | 保留中、割り当て済み、委任済み、送信済みのすべての承認を表示します |
 
-1. ウィジェットワークリストの右上隅にある&#x200B;**グループ** アイコン ![ グループアイコン ](assets/group-icon.png)をクリックします。
+1. ウィジェットワークリストの右上隅にある&#x200B;**グループ** アイコン ![&#x200B; グループアイコン &#x200B;](assets/group-icon.png)をクリックします。
 1. 作成した&#x200B;**推奨** グループまたはグループを選択します。
-   ![ グループ化が拡張されました](assets/grouping-expanded.png)
+   ![&#x200B; グループ化が拡張されました](assets/grouping-expanded.png)
 
 
 ## ワークリスト列のカスタマイズ
 
 ウィジェットワークリストに表示する列を選択できます。
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**[!UICONTROL ホーム]**&#x200B;をクリックします。
 1. （条件付き）次のいずれかのウィジェットを追加するには、**カスタマイズ**&#x200B;をクリックします。
 
    | ウィジェット | 説明 |
@@ -170,9 +178,9 @@ ht-degree: 15%
    | マイリクエスト | 送信したすべてのリクエストを表示します |
    | マイ承認 | 保留中、割り当て済み、委任済み、送信済みのすべての承認を表示します |
 
-1. ウィジェットワークリストの右上隅にある&#x200B;**列** アイコン ![列アイコン ](assets/column-icon.png)をクリックします。
+1. ウィジェットワークリストの右上隅にある&#x200B;**列** アイコン ![列アイコン &#x200B;](assets/column-icon.png)をクリックします。
 1. 好みに応じて、列のオンとオフを切り替えます。
-1. （オプション） **ドラッグ** アイコン ![ ドラッグ アイコン ](assets/drag-icon.png)をクリックして、列を並べ替えます。
+1. （オプション） **ドラッグ** アイコン ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-icon.png)をクリックして、列を並べ替えます。
    ![列が拡張されました](assets/columns-expanded.png)
 
 

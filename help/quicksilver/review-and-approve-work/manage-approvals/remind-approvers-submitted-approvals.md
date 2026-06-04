@@ -7,11 +7,18 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
 TQID: https://experienceleague.adobe.com/YkKaw84vbUyuzPoQUJiFPE49af5-kI2Tcg1n7vYqBe4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 417
@@ -84,7 +91,7 @@ ht-degree: 87%
    >Workfront 管理者が、環境内のホームアイコンに次の変更を加える場合があります。
    >
    >* 組織を説明するようにカスタマイズされた画像に置き換える。 この場合、アイコンはこの記事に示すものとは異なる外観になります。
-   >* リンクされたページを別のページに置き換える。 この場合、ページの右上隅にある&#x200B;**メインメニュー** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**ホーム**&#x200B;をクリックします。
+   >* リンクされたページを別のページに置き換える。 この場合、ページの右上隅にある&#x200B;**メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**ホーム**&#x200B;をクリックします。
 
 1. **作業リスト**&#x200B;エリアで、「**送信済みの承認**」グループに移動します。
 
@@ -105,7 +112,7 @@ ht-degree: 87%
    >Workfront 管理者が、環境内のホームアイコンに次の変更を加える場合があります。
    >
    >* 組織を説明するようにカスタマイズされた画像に置き換える。 この場合、アイコンはこの記事に示すものとは異なる外観になります。
-   >* リンクされたページを別のページに置き換える。 この場合、ページの右上隅にある&#x200B;**メインメニュー** ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**ホーム**&#x200B;をクリックします。
+   >* リンクされたページを別のページに置き換える。 この場合、ページの右上隅にある&#x200B;**メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**ホーム**&#x200B;をクリックします。
 
 1. **作業リスト**&#x200B;エリアで、**送信済みの承認**&#x200B;グループに移動します。
 

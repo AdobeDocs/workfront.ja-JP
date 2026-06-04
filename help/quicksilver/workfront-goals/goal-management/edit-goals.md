@@ -9,11 +9,16 @@ exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/QeQHLMIUuBnloZ-l-q0ytD3UXx95s7fUPgiCO38LOxA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 559
@@ -209,12 +214,12 @@ Editing goals differs depending on what environment you use.
 1. 目標をクリックします。\
    目標ページが表示されます。
 
-   ![目標ページ ](assets/goal-page-unshimmed.png)
+   ![目標ページ &#x200B;](assets/goal-page-unshimmed.png)
 
 1. 目標の情報を編集するには、次のいずれかを行います。
    * 目標ヘッダーに表示されるフィールドをクリックして更新します。 ヘッダーの一部のフィールドは編集できません。
-   * 目標名の右側にある&#x200B;**詳細アイコン** ![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
-   * 左側のパネルで&#x200B;**目標の詳細**&#x200B;をクリックし、右上隅の&#x200B;**編集アイコン** ![編集アイコン ](assets/edit-icon.png)をクリックしてから、**すべてを編集**&#x200B;をクリックします。 「目標の詳細」セクションのフィールドを更新します。
+   * 目標名の右側にある&#x200B;**詳細アイコン** ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
+   * 左側のパネルで&#x200B;**目標の詳細**&#x200B;をクリックし、右上隅の&#x200B;**編集アイコン** ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックしてから、**すべてを編集**&#x200B;をクリックします。 「目標の詳細」セクションのフィールドを更新します。
 
      >[!IMPORTANT]
      >

@@ -9,11 +9,18 @@ exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/nphXqF7qKiAk-doHaeUmnYXzID3Blen2yafPsulc6ts
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1204
@@ -25,7 +32,7 @@ ht-degree: 71%
 
 ドキュメントの承認者として割り当てられている場合は、複数の方法で承認を決定できます。
 
-新しいドキュメント承認の作成について詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+新しいドキュメント承認の作成について詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -76,7 +83,7 @@ ht-degree: 71%
    >
    >* 組織を説明するようにカスタマイズされた画像に置き換える。 この場合、アイコンはこの記事に示すものとは異なる外観になります。
    >
-   >* リンクされたページを別のページに置き換える。 この場合、ページの右上隅にある&#x200B;**メインメニュー** ![ メインメニューアイコン ](../assets/main-menu-icon.png)をクリックし、**ホーム**&#x200B;をクリックします。
+   >* リンクされたページを別のページに置き換える。 この場合、ページの右上隅にある&#x200B;**メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](../assets/main-menu-icon.png)をクリックし、**ホーム**&#x200B;をクリックします。
 
 1. ページ左上の「**フィルター**」をクリックして、「**承認**」がオンになっていることを確認します。
 
@@ -158,13 +165,13 @@ ht-degree: 71%
 
 1. Workfrontにアクセスしたら、**プルーフに移動**&#x200B;をクリックします。
 
-1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
+1. コンテンツを確認し、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内のプルーフのレビュー：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
 
 1. 次のいずれかの決定を選択します。
 
    * **承認**: ドキュメントは変更が必要なく、使用する準備ができています。
    * **変更を加えて承認**：文書は変更が必要で、作成したら使用できる状態になります。 追加の承認は必要ありません。
-   * **作業が必要**：文書は変更が必要で、使用する準備ができていません。 指定した変更が行われたら、ドキュメントを新しいバージョンとしてアップロードし、別の承認ラウンドを実行する必要があります。 新しいバージョンのアップロードについて詳しくは、[新しいドキュメントバージョンのアップロードと承認のリクエスト ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)を参照してください。
+   * **作業が必要**：文書は変更が必要で、使用する準備ができていません。 指定した変更が行われたら、ドキュメントを新しいバージョンとしてアップロードし、別の承認ラウンドを実行する必要があります。 新しいバージョンのアップロードについて詳しくは、[新しいドキュメントバージョンのアップロードと承認のリクエスト &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)を参照してください。
 
 決定を下すと、ドキュメント所有者にメールで通知されます。
 

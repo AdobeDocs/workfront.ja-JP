@@ -7,10 +7,15 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
 TQID: https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 309
@@ -57,14 +62,14 @@ ht-degree: 35%
 
 {{step1-to-priorities}}
 
-1. 名前にカーソルを合わせ、**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンをクリックします。
+1. 名前にカーソルを合わせ、**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) アイコンをクリックします。
 1. 「**アップロード**」をクリックします。
-   ![更新、ログ時間、アップロード ](assets/update-log-upload.png)
+   ![更新、ログ時間、アップロード &#x200B;](assets/update-log-upload.png)
 1. （オプション）「**ファイルをアップロード**」ボックスで、フォルダーを選択します。
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl + V キーを押してクリップボードからペーストします
 または
 「**ファイルを追加**」をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![ ファイルを追加](assets/add-files.png)
+   ![&#x200B; ファイルを追加](assets/add-files.png)
 1. （オプション）コメントを追加します。
 1. （オプション）さらにファイルを追加します。
 
@@ -86,7 +91,7 @@ ht-degree: 35%
 
    「**ファイルを追加**」をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
 
-   ![ ファイルを追加](assets/add-files.png)
+   ![&#x200B; ファイルを追加](assets/add-files.png)
 
 1. （オプション）コメントを追加します。
 1. （オプション）さらにファイルを追加します。
