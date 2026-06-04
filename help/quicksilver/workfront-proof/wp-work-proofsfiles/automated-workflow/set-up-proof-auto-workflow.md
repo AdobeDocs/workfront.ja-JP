@@ -7,10 +7,14 @@ description: これは、Workfront でのプルーフ設定で見つかった情
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 98%
+source-wordcount: 1610
+ht-degree: 97%
 
 ---
 
@@ -100,7 +104,7 @@ ht-degree: 98%
 
 作成または変更中のワークフローにステージを追加できます。
 
-1. 既存のプルーフにステージを追加する場合は、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、プルーフの詳細ページに移動します。
+1. 既存のプルーフにステージを追加する場合は、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、プルーフの詳細ページに移動します。
 1. 「**[!UICONTROL ワークフロー]**」セクションで、「**[!UICONTROL 新規ステージ]**」をクリックします。
 
 1. この記事の[!UICONTROL 自動ワークフローを使用した配達確認の作成]の節の手順 4 で示したようにステージの情報を指定します。
@@ -165,8 +169,8 @@ ht-degree: 98%
 
 基本プルーフを自動化ワークフローに変換できます。
 
-1. [!UICONTROL プルーフの詳細]ページで「**[!UICONTROL 自動化ワークフローに変換]**」をクリックします。
-プルーフを自動化ワークフローに変換したら、すべてのステージはアクティブかつパブリックになり、「[!UICONTROL ステージをロック]」オプションがデフォルトで手動に設定されます。 すべてのステージは、ユーザーとその設定のまま維持されます。
+1. [!UICONTROL  プルーフの詳細] ページの&#x200B;**[!UICONTROL 自動ワークフローに変換]**をクリックします。
+プルーフを自動ワークフローに変更すると、すべてのステージがアクティブになり、パブリックになり、[!UICONTROL  ステージをロック ] オプションがデフォルトで手動に設定されます。すべての段階はユーザーとその設定に残ります。
 
    * 「ステージをアクティブ化」は、すべてのステージで「プルーフ作成時」に設定されます。
    * 「期限の計算元」オプションは、すべてのステージで「ププルーフ作成日時」に設定されます。

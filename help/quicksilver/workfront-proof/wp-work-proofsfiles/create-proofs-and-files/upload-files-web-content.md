@@ -7,9 +7,12 @@ description: ファイルは、プルーフを作成しなくても  [!DNL Workf
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/uF6cyqGq5aWa9OL5OJW3-Adry0NZ628zn8IqfjaYx9E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: 561
 ht-degree: 99%
 
 ---
@@ -18,13 +21,13 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、[!DNL Workfront Proof] スタンドアロン製品の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 ファイルは、プルーフを作成しなくても [!DNL Workfront Proof] にアップロードできます。 また、[!DNL Workfront Proof] には web サイトや他の web コンテンツの URL を追加できます。
 
 ## プルーフを作成せずにファイルをアップロードすることについて
 
-場合によっては、ファイルを [!DNL Workfront Proof] に追加し、同時にプルーフを作成する場合があります（[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照）。
+場合によっては、ファイルを [!DNL Workfront Proof] に追加し、同時にプルーフを作成する場合があります（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照）。
 
 他の場合には、プルーフを作成せずにファイルを [!DNL Workfront Proof] に追加したい場合もあります。
 
@@ -37,7 +40,7 @@ ht-degree: 99%
 ファイルを [!DNL Workfront Proof] にアップロードするには：
 
 1. [!DNL Workfront Proof] の左上隅にある「**[!UICONTROL 新しいプルーフ]**」ボタンをクリックし、表示されたメニューで「**[!UICONTROL ファイルをアップロード]**」をクリックします。\
-   ![新しいプルーフボタン &#x200B;](assets/new-proof-button-menu.png)
+   ![新しいプルーフボタン ](assets/new-proof-button-menu.png)
 
 1. **[!DNL New File]** ページが表示されます。
 1. 次のいずれかの操作を行って、プルーフに必要なコンテンツをアップロードまたは追加します。

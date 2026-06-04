@@ -7,10 +7,15 @@ description: ' [!DNL Workfront Proof] を使用してユーザー情報を設定
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+TQID: https://experienceleague.adobe.com/1K7jdfa8Eccib8MbsUrrPwfL8MrhCkhA1y2ojYjVNV8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: 533
+ht-degree: 96%
 
 ---
 
@@ -18,7 +23,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) を使用してユーザーを作成で説明されているように、ユーザーの作成または編集を開始します。
 1. 次の情報を指定します。
@@ -56,8 +61,8 @@ ht-degree: 100%
 
       * **登録。 ユーザーは、パブリック URL または埋め込みコードを使用して、プルーフにサインアップ可能：**&#x200B;組織外のレビュアーがパブリック URL または埋め込みコードを介してプルーフにサインアップできるようにします。
 
-        このオプションを選択した場合、**プルーフにアクセスするには、サブスクライバーがメール内のリンクをクリックする必要があります**も利用できます。 外部のレビュアーがメール内のリンクをクリックしてプルーフにアクセスするように求める場合に、このオプションを選択します。
-**パブリック共有**&#x200B;オプションが選択されている場合、このオプションはデフォルトで有効になります。
+        このオプションを選択すると、**購読者はプルーフにアクセスするためにメール内のリンクをクリックする必要があります**。このオプションを選択すると、外部レビュー担当者が電子メール内のリンクをクリックしてプルーフにアクセスする必要があります。
+**公開共有** オプションが選択されている場合、このオプションはデフォルトで有効になっています。
 
       * **新規ゲストレビュアーのデフォルトの役割：**&#x200B;ゲストレビュアー用にデフォルトのプルーフの役割を選択します。 オプションは、モデレーターと作成者を除き、**デフォルトのプルーフの役割**&#x200B;のオプションと同じです。
 

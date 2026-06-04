@@ -7,9 +7,13 @@ description: ' [!DNL Workfront Proof] でプルーフを開く'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 99fb6684-48b6-4a1f-bf2b-2f8c1f2ab355
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/yBJnR2ATfZefVMTE6uQuTx06AtysKz57ErpmE1Uxoc4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: 178
 ht-degree: 100%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 1. サイドバーの&#x200B;**[!UICONTROL ビュー]**&#x200B;の横にある下向き矢印ボタンをクリックします。\
    ![Down_arrow_next_to_Views.png](assets/down-arrow-next-to-views-193x371.png)
@@ -26,7 +30,7 @@ ht-degree: 100%
 1. 表示されるメニューで&#x200B;**[!UICONTROL すべての項目]**&#x200B;を選択します。
 1. 表示するプルーフの&#x200B;**[!UICONTROL プルーフに移動]**&#x200B;アイコンをクリックします。\
    ![Go_to_Proof_blue_icon.png](assets/go-to-proof-blue-icon.png)\
-   ブラウザーの新しいタブでデフォルトのプルーフビューアが起動し、フォーカスがそのタブに切り替わります。複数のプルーフをそれぞれ別のタブで同時に開くことができます。
+   ブラウザーの新しいタブでデフォルトのプルーフビューアが起動し、フォーカスがそのタブに切り替わります。 複数のプルーフをそれぞれ別のタブで同時に開くことができます。
 
 1. 使用しているプルーフビューアに応じて、次のいずれかの記事に進みます。
 

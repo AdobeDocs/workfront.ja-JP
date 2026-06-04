@@ -7,9 +7,14 @@ description: ' [!DNL Workfront]  Proof の請求管理者または  [!DNL Workfr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a2bd8d41-896a-436e-b160-018081db1c95
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+TQID: https://experienceleague.adobe.com/vG1lFxBLfhd7MZWPWlMXghVwxfDAZI5YL81HhRSI-MQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: 409
 ht-degree: 100%
 
 ---
@@ -18,11 +23,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品である [!DNL Workfront] Proof の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品である [!DNL Workfront] Proof の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 [!DNL Workfront Proof] 請求管理者または [!DNL Workfront Proof] 管理者は、他のユーザー用のカスタムプロファイルを設定できます。
 
-カスタムプロファイルを使用すると、アカウント内のユーザーに細分化した権限を割り当て、アカウント内の項目に対してユーザーが持つアクセス権と権限のレベルを定義できます。カスタムプロファイルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
+カスタムプロファイルを使用すると、アカウント内のユーザーに細分化した権限を割り当て、アカウント内の項目に対してユーザーが持つアクセス権と権限のレベルを定義できます。 カスタムプロファイルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成および管理を参照してください。
 
 ページのレイアウトを調整して、自分に関連する情報のみを表示できます。
 
@@ -33,7 +38,7 @@ ht-degree: 100%
 
 ## 「プロファイル」タブ
 
-「[!UICONTROL プロファイル]」タブを使用すると、カスタムプロファイルを容易に追加および管理できます。ここから、以下のアクションを実行できます。
+「[!UICONTROL プロファイル]」タブを使用すると、カスタムプロファイルを容易に追加および管理できます。 ここから、以下のアクションを実行できます。
 
 * 新しいプロファイルを追加（1）
 * プロファイルに対する一括アクションを実行：
@@ -72,5 +77,5 @@ ht-degree: 100%
 1. または、このリストがプロファイルの詳細ページに表示されます。
 1. ![Users_list_1.png](assets/users-list-1-350x188.png)
 
-1. このリストには、該当するプロファイルが割り当てられている、アカウント内のアクティブなユーザーと非アクティブなユーザーの両方が表示されます。リストが長すぎる場合は、ページのレイアウトを調整して、探している情報のみを表示することができます。
+1. このリストには、該当するプロファイルが割り当てられている、アカウント内のアクティブなユーザーと非アクティブなユーザーの両方が表示されます。 リストが長すぎる場合は、ページのレイアウトを調整して、探している情報のみを表示することができます。
 1. ![Users_list_2.png](assets/users-list-2-350x178.png)

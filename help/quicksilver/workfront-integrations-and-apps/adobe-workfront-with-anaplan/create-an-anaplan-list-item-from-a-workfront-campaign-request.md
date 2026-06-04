@@ -6,10 +6,16 @@ description: この統合シナリオでは、 [!DNL Adobe Workfront]  プロジ
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/6Bny8fG-ta0UsBZfg9kDgYaOnnuv5r2myqvKNbQVEww
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 98%
+source-wordcount: 794
+ht-degree: 96%
 
 ---
 
@@ -17,7 +23,7 @@ ht-degree: 98%
 
 この統合シナリオでは、[!DNL Adobe Workfront] プロジェクトを [!DNL Anaplan] の予算リスト項目にリンクします。
 
-このシナリオは、リクエストキューに追加された新規キャンペーンリクエストを監視します。キャンペーンリクエストが記録されるとすぐに、予算行項目が [!DNL Anaplan] に追加され、資金調達プロセスが開始されます。
+このシナリオは、リクエストキューに追加された新規キャンペーンリクエストを監視します。 キャンペーンリクエストが記録されるとすぐに、予算行項目が [!DNL Anaplan] に追加され、資金調達プロセスが開始されます。
 
 >[!IMPORTANT]
 >
@@ -57,7 +63,7 @@ ht-degree: 98%
 
 この表の情報について詳しくは、[ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)を参照してください。
+Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)を参照してください。
 
 +++
 
@@ -84,7 +90,7 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
   | [!UICONTROL 要求費用基金] |   |
   | [!UICONTROL [!DNL Anaplan]] に送信済み | チェックボックス |
 
-  以下のオプションフィールドがフォームに存在する場合があります。このシナリオでは上記のフィールドのみがマッピングされますが、キャンペーン概要の追加フィールドがマッピングされる場合があります。
+  以下のオプションフィールドがフォームに存在する場合があります。 このシナリオでは上記のフィールドのみがマッピングされますが、キャンペーン概要の追加フィールドがマッピングされる場合があります。
 
   <table style="table-layout:auto"> 
    <col> 
@@ -119,9 +125,9 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
    </tbody> 
   </table>
 
-  カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
-* 新しいキャンペーンリクエストをキャプチャするためのリクエストキューとして設定されたプロジェクト。[!UICONTROL キャンペーンの概要]フォームを、これらのリクエストに添付する必要があります。
+* 新しいキャンペーンリクエストをキャプチャするためのリクエストキューとして設定されたプロジェクト。 [!UICONTROL キャンペーンの概要]フォームを、これらのリクエストに添付する必要があります。
 
 ## 期待される [!DNL Anaplan] 設定
 
@@ -146,7 +152,7 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
 
 ## [!DNL Workfront Fusion] へのデプロイ
 
-この統合シナリオを [!DNL Fusion] アカウントにデプロイするには、次の手順を実行します。これは、必要な [!DNL Workfront] および [!DNL Anaplan] の設定を完了した後にのみ実行してください。
+この統合シナリオを [!DNL Fusion] アカウントにデプロイするには、次の手順を実行します。 これは、必要な [!DNL Workfront] および [!DNL Anaplan] の設定を完了した後にのみ実行してください。
 
 1. [!DNL Workfront Fusion] の[!UICONTROL テンプレート]メニューに移動し、**[!UICONTROL Workfront キャンペーンリクエストから [!DNL Anaplan] リスト項目を作成]**&#x200B;シナリオテンプレートをクリックします。
 1. 次の [!DNL Anaplan] 変数の変数値を置換します。
@@ -174,12 +180,12 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
 
 このテンプレートで表されるワークフローを完了するには、次の追加のテンプレートもデプロイする必要があります。
 
-* [[!UICONTROL &#x200B; [!DNL Anaplan]  の予算配分を  [!DNL Adobe Workfront]  キャンペーンリクエストまたはキャンペーンプロジェクトに適用]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [[!UICONTROL  [!DNL Anaplan]  の予算配分を  [!DNL Adobe Workfront]  キャンペーンリクエストまたはキャンペーンプロジェクトに適用]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 支出を最適化するための追加のシナリオには次のものがあります。
 
-* [[!UICONTROL &#x200B; [!DNL Adobe Workfront]  プロジェクトの更新を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [[!UICONTROL  [!DNL Adobe Workfront]  プロジェクトの更新を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
 
-* [[!UICONTROL &#x200B; [!DNL Adobe Workfront]  の実際の時間数の更新を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL  [!DNL Adobe Workfront]  の実際の時間数の更新を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
-* [[!UICONTROL &#x200B; [!DNL Adobe Workfront]  の費用を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [[!UICONTROL  [!DNL Adobe Workfront]  の費用を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)

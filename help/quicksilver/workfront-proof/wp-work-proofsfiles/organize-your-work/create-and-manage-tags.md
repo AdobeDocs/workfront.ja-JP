@@ -3,14 +3,17 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: ' [!DNL Workfront Proof] でのタグの作成と管理'
-description: タグを作成および編集して、プルーフやファイルに適用できます。これは、プロジェクト、部門、クライアントなど、多数の様々な [!DNL Workfront Proof] アイテムがあり、それらを簡単に識別して見つけたい場合に最適です。
+description: タグを作成および編集して、プルーフやファイルに適用できます。 これは、プロジェクト、部門、クライアントなど、多数の様々な [!DNL Workfront Proof] アイテムがあり、それらを簡単に識別して見つけたい場合に最適です。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+TQID: https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 100%
+source-wordcount: 916
+ht-degree: 94%
 
 ---
 
@@ -18,15 +21,15 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront] の機能について説明します。 [!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-タグを作成および編集して、プルーフやファイルに適用できます。これは、プロジェクト、部門、クライアントなど、多数の様々な [!DNL Workfront Proof] アイテムがあり、それらを簡単に識別して見つけたい場合に最適です。
+タグを作成および編集して、プルーフやファイルに適用できます。 これは、プロジェクト、部門、クライアントなど、多数の様々な [!DNL Workfront Proof] アイテムがあり、それらを簡単に識別して見つけたい場合に最適です。
 
 リストビューページのいずれかで、新規または既存のプルーフ、新規ファイル、新規バージョンおよびコピーにタグを適用できます。
 
 >[!TIP]
 >
->1 つのアイテムに複数のカテゴリが適用される場合は、複数のタグを使用すると便利です。どのアイテムにもタグをいくつでも適用できます。
+>1 つのアイテムに複数のカテゴリが適用される場合は、複数のタグを使用すると便利です。 どのアイテムにもタグをいくつでも適用できます。
 
 プロフィールと権限の設定は、利用できるタグ機能に影響します。
 
@@ -76,13 +79,13 @@ ht-degree: 100%
 1. リストビューまたはダッシュボードで、タグを作成または管理する対象となる任意の数のアイテムを選択します。
 1. リストのすぐ上にある&#x200B;**[!UICONTROL タグ]**／**[!UICONTROL タグを管理]**&#x200B;をクリックします。
 
-1. 表示される「[!UICONTROL タグ]」タブで、上記の[タグの作成、編集または削除](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag) の説明に従ってタグを管理します。\
-   タグの横のチェックボックスが濃い灰色の場合は、選択したすべてのアイテムにタグが適用されます。薄い灰色の場合は、選択したバッチ内の一部のアイテムのみにタグが付けられています。選択したすべてのアイテムからタグを削除する場合は、そのタグの横にあるチェックボックスがオフになっていることを確認してください。\
+1. 表示される「[!UICONTROL タグ]」タブで、上記の[タグの作成、編集または削除](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag) の説明に従ってタグを管理します。\
+   タグの横のチェックボックスが濃い灰色の場合は、選択したすべてのアイテムにタグが適用されます。 薄い灰色の場合は、選択したバッチ内の一部のアイテムのみにタグが付けられています。 選択したすべてのアイテムからタグを削除する場合は、そのタグの横にあるチェックボックスがオフになっていることを確認してください。\
    ![Tags_menu_-_Dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 
 ## プルーフ詳細またはファイル詳細からのタグの管理
 
-プルーフまたはファイルに適用されたタグは、それぞれプルーフの詳細ページとファイルの詳細ページに表示されます。このページでは、タグを表示、変更および削除できます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフ詳細の管理と[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理を参照してください。
+プルーフまたはファイルに適用されたタグは、それぞれプルーフの詳細ページとファイルの詳細ページに表示されます。 このページでは、タグを表示、変更および削除できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフ詳細の管理と[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理を参照してください。
 
 1. [プルーフ詳細の管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)の説明に従って、プルーフ詳細ページを開きます。\
    または\
@@ -98,8 +101,8 @@ ht-degree: 100%
 
 ## タグ名を使用した項目の検索
 
-項目に適用されているタグの名前を使用して項目を検索できます。項目を他のユーザーと共有すると、そのユーザーは同じ方法でその項目を検索できます。タグが適用されているすべての項目のリストを表示するには、次の手順に従います。
+アイテムに適用されていることがわかっているタグの名前を使用して、アイテムを検索できます。誰かと商品を共有すると、その商品を同じように検索できるようになります。タグが適用されたすべての項目のリストを表示するには：
 
 1. リスト表示またはダッシュボードで、左サイドバーの「**[!UICONTROL タグ]**」タブを開き、表示されるタグのリストでタグをクリックします。\
    ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)\
-   [!DNL Workfront Proof] の右上隅の検索フィールドで、タグ名が表示されます。追加のタグを選択するか、検索フィールドに追加のキーワードを入力することで、検索を絞り込むことができます。タグ名の横にある「x」アイコンをクリックして、検索フィールドからタグを削除できます。
+   [!DNL Workfront Proof] の右上隅の検索フィールドで、タグ名が表示されます。 追加のタグを選択するか、検索フィールドに追加のキーワードを入力することで、検索を絞り込むことができます。 タグ名の横にある「x」アイコンをクリックして、検索フィールドからタグを削除できます。

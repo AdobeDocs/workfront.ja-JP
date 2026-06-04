@@ -7,9 +7,14 @@ description: ' [!DNL Workfront Proof]  メールがスパムメールフォル�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/RllFMQS1iV3kuBc1IaSutqyd9HkWr-7P9NYC-jxlq7k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: 1500
 ht-degree: 100%
 
 ---

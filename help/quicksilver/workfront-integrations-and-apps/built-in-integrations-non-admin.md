@@ -3,16 +3,21 @@ product-area: workfront-integrations
 keywords: adobe,box,dropbox,microsoft,sharepoint,slack,webdam,zoom
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront のビルトインの統合の概要
-description: ' [!DNL Adobe Workfront]  をサードパーティのアプリケーションと統合できます。これらの統合により、 [!DNL Workfront]  のユーティリティを拡張し、これを組織のニーズに合わせて調整できます。例えば、マーケティング業界のクリエイティブワーカーの場合、Adobe Creative Cloud アドインを使用して、Photoshop から Workfront に直接アセットを書き出すことができます。'
+description: ' [!DNL Adobe Workfront]  をサードパーティのアプリケーションと統合できます。 これらの統合により、 [!DNL Workfront]  のユーティリティを拡張し、これを組織のニーズに合わせて調整できます。 例えば、マーケティング業界のクリエイティブワーカーの場合、Adobe Creative Cloud アドインを使用して、Photoshop から Workfront に直接アセットを書き出すことができます。'
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
+TQID: https://experienceleague.adobe.com/6gk7GL9Uu6X9q4hAoqzV4l5wYz3t7jiI2VGue9-dbEo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 99%
+source-wordcount: 482
+ht-degree: 98%
 
 ---
 
@@ -20,9 +25,9 @@ ht-degree: 99%
 
 <!-- Audited: 12/2023 -->
 
-[!DNL Adobe Workfront] をサードパーティのアプリケーションや他の [!DNL Adobe] 製品と統合できます。これらの統合により、[!DNL Workfront] のユーティリティを拡張し、これを組織のニーズに合わせて調整できます。例えば、マーケティング業界のクリエイティブワーカーの場合、[!DNL Creative Cloud] アプリケーションの [!DNL Adobe Workfront] プラグインを使用して、Photoshop から Workfront に直接アセットを書き出すことができます。
+[!DNL Adobe Workfront] をサードパーティのアプリケーションや他の [!DNL Adobe] 製品と統合できます。 これらの統合により、[!DNL Workfront] のユーティリティを拡張し、これを組織のニーズに合わせて調整できます。 例えば、マーケティング業界のクリエイティブワーカーの場合、[!DNL Creative Cloud] アプリケーションの [!DNL Adobe Workfront] プラグインを使用して、Photoshop から Workfront に直接アセットを書き出すことができます。
 
-ビルトインの統合を使用するには、[!DNL Workfront] 管理者が事前にビルトインの統合を有効にして設定しておく必要があります。組織内で使用されているビルトインの統合を確認するには、[!DNL Workfront] 管理者に問い合わせてください。
+ビルトインの統合を使用するには、[!DNL Workfront] 管理者が事前にビルトインの統合を有効にして設定しておく必要があります。 組織内で使用されているビルトインの統合を確認するには、[!DNL Workfront] 管理者に問い合わせてください。
 
 ## 使用可能なビルトインの統合
 
@@ -45,7 +50,7 @@ ht-degree: 99%
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
+     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
      <p>詳細情報と手順について詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +93,7 @@ ht-degree: 99%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>メモ</b>：Microsoft は、2025年7月1日（PT）をもって Classic Teams デスクトップアプリのサポートを終了します。この結果、Classic Teams デスクトップアプリが使用できなくなると、Workfront とMicrosoft Teams の統合もサポートされなくなります。 </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>メモ</b>：Microsoft は、2025年7月1日（PT）をもって Classic Teams デスクトップアプリのサポートを終了します。 この結果、Classic Teams デスクトップアプリが使用できなくなると、Workfront とMicrosoft Teams の統合もサポートされなくなります。 </p> </td> 
    <td> 
     <ul> 
      <li>[!DNL Microsoft Teams] で [!DNL Workfront] 通知を受信 </li> 
@@ -131,4 +136,4 @@ ht-degree: 99%
 
 ## その他の [!DNL Workfront] の統合
 
-希望する統合が、ビルトインの統合ではないことがあります。ただし、[!DNL Workfront] は、選択したアプリまたは Web サービスと統合するための他の方法を提供します。[!DNL Workfront] と統合する他の方法の詳細については、[Adobe Workfront 統合方法](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)を参照してください。
+希望する統合が、ビルトインの統合ではないことがあります。 ただし、[!DNL Workfront] は、選択したアプリまたは Web サービスと統合するための他の方法を提供します。 [!DNL Workfront] と統合する他の方法の詳細については、[Adobe Workfront 統合方法](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)を参照してください。

@@ -7,9 +7,14 @@ description: サテライトアカウントとは、 [!DNL Workfront]  Proof ア
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 82c6dff3-6187-4145-951c-3f5312049b59
-source-git-commit: 5be053a6ee99404673f6f3258a423ef5e5c7f431
+TQID: https://experienceleague.adobe.com/5VqJBVuawpq6A8yRu-2MPwLIN3ZjB2LpCg5dkjVzUEE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: 549
 ht-degree: 100%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、[!DNL Workfront Proof] スタンドアロン製品の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 サテライトアカウントとは、[!DNL Workfront Proof] アカウント内でお客様自身が設定および管理する有料アカウントです。 詳しくは、[ [!DNL Workfront]  Proof のサテライトアカウント](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)を参照してください。
 

@@ -7,9 +7,14 @@ description: Workfront Proof から生成されたメール通知は、コメン
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/BGkemxbMeYw-pkWCR1NRMbuVbLZzYoB-m91cOLAwqwc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: 2072
 ht-degree: 98%
 
 ---
@@ -26,18 +31,18 @@ ht-degree: 98%
 
 次のエリアで、レビュアーに対するメール通知を設定できます。
 
-レビュアーへのメール通知は、新しいプルーフページ、[!UICONTROL 新しいバージョン]ページで設定され、[!UICONTROL プルーフの詳細]ページの「[!UICONTROL ワークフロー]」セクションで管理できます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
+レビュアーへのメール通知は、新しいプルーフページ、[!UICONTROL 新しいバージョン]ページで設定され、[!UICONTROL プルーフの詳細]ページの「[!UICONTROL ワークフロー]」セクションで管理できます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
 
 * 新規プルーフページ
 * [!UICONTROL 新しいバージョン]ページ
 * [!UICONTROL プルーフの詳細]ページの「[!UICONTROL ワークフロー]」セクション。
 
-詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
+詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
 
 
-* [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成 [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)でプルーフを生成
+* [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成 [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)でプルーフを生成
 
-* [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理を管理します。
+* [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理を管理します。
 
 
 すべてのユーザーは、共同作業者に独自の環境設がある場合、またはアカウント管理者がアラートの頻度に関して推奨している場合に、プルーフが共有されたときに自動的に適用される独自のメールアラート設定を行うこともできます。 これは、ユーザーの詳細ページで、プルーフのデフォルトとして設定できます。
@@ -50,7 +55,7 @@ ht-degree: 98%
 
 [!UICONTROL 管理者]または[!UICONTROL 請求管理者]プロファイルを持つユーザーは、アカウント設定内からアカウント内の他のユーザーのプルーフのデフォルトを設定することもできます。
 
-プロファイルについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+プロファイルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 ## アクセス要件
 

@@ -4,13 +4,17 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
 title: Basecamp と [!DNL Workfront Proof] の統合について
-description: Basecamp は、web ベースの優れたプロジェクト管理およびコラボレーションツールです。簡単で使いやすい方法で、To Do リスト、ファイル共有、時間の追跡とメッセージ、スケジュールおよびマイルストーンを提供します。
+description: Basecamp は、web ベースの優れたプロジェクト管理およびコラボレーションツールです。 簡単で使いやすい方法で、To Do リスト、ファイル共有、時間の追跡とメッセージ、スケジュールおよびマイルストーンを提供します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8794a76a-c782-4038-9680-73e72697b21d
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+TQID: https://experienceleague.adobe.com/y3acXMLEzDp-rhxtFIhSpvc1w6H4mohLNQP0ZztgO4Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: 317
 ht-degree: 100%
 
 ---
@@ -19,11 +23,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-[!DNL Basecamp] は、web ベースの優れたプロジェクト管理およびコラボレーションツールです。簡単で使いやすい方法で、To Do リスト、ファイル共有、時間の追跡とメッセージ、スケジュールおよびマイルストーンを提供します。
+[!DNL Basecamp] は、web ベースの優れたプロジェクト管理およびコラボレーションツールです。 簡単で使いやすい方法で、To Do リスト、ファイル共有、時間の追跡とメッセージ、スケジュールおよびマイルストーンを提供します。
 
-[!DNL Workfront Proof] を [!DNL Basecamp] に統合すると、[!DNL Basecamp] アカウント内でオンラインプルーフ機能を有効にすることにより、[!DNL Basecamp] のクリエイティブアセットのレビューと承認を大幅に向上させるのに役立ちます。[!DNL Workfront Proof] アカウントでプルーフを作成すると、[!DNL Basecamp] 内のプロジェクトにプルーフを接続できます。レビュアーは、[!DNL Workfront Proof] の機能豊富なコメントツールおよびマークアップツールを使用して、[!DNL Basecamp] 内で直接決定を下すことができます。[!DNL Workfront Proof] を使用すると、クリエイティブプロジェクトの配信を高速化し、承認の管理に費やす時間を削減し、デザインの改訂回数を減らすことができます。
+[!DNL Workfront Proof] を [!DNL Basecamp] に統合すると、[!DNL Basecamp] アカウント内でオンラインプルーフ機能を有効にすることにより、[!DNL Basecamp] のクリエイティブアセットのレビューと承認を大幅に向上させるのに役立ちます。 [!DNL Workfront Proof] アカウントでプルーフを作成すると、[!DNL Basecamp] 内のプロジェクトにプルーフを接続できます。 レビュアーは、[!DNL Workfront Proof] の機能豊富なコメントツールおよびマークアップツールを使用して、[!DNL Basecamp] 内で直接決定を下すことができます。 [!DNL Workfront Proof] を使用すると、クリエイティブプロジェクトの配信を高速化し、承認の管理に費やす時間を削減し、デザインの改訂回数を減らすことができます。
 
 ## 主なメリット
 

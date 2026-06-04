@@ -3,13 +3,18 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: ' [!DNL Workfront] Proof アカウントのクローズ'
-description: この節の手順を完了すると、アカウントは直ちにクローズされます。アカウント内のすべてのデータが削除され、復元できません。
+description: この節の手順を完了すると、アカウントは直ちにクローズされます。 アカウント内のすべてのデータが削除され、復元できません。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: df19f99b-974d-47ad-87ba-79775cb08a4d
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/mji1PGWycyyZs6EP4O0EeDQNG5pqhXKj2QktOaDqurU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: 185
 ht-degree: 98%
 
 ---
@@ -18,29 +23,29 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-この節の手順を完了すると、アカウントは直ちにクローズされます。アカウント内のすべてのデータが削除され、復元できません。
+この節の手順を完了すると、アカウントは直ちにクローズされます。 アカウント内のすべてのデータが削除され、復元できません。
 
-アドビは製品の改善に向けて継続的に取り組んでいます。お使いのアカウントをクローズする場合は、数分お時間をいただき、どうすれば製品を改善できるのか教えていただければ幸いです。
+アドビは製品の改善に向けて継続的に取り組んでいます。 お使いのアカウントをクローズする場合は、数分お時間をいただき、どうすれば製品を改善できるのか教えていただければ幸いです。
 
-[!DNL support@proofhq.com] 宛にコメントをお寄せください。どのようなご意見やご感想でもお待ちしております。
+[!DNL support@proofhq.com] 宛にコメントをお寄せください。どのようなフィードバックでもお待ちしております。
 
 1. [!UICONTROL 設定]メニューを開き、「**[!UICONTROL 請求]**」を選択して、アカウントの[!UICONTROL 請求]ページを開きます（1）。
 
-   請求ページについて詳しくは、[&#x200B; [!DNL Workfront]  Proof の請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
+   請求ページについて詳しくは、[ [!DNL Workfront]  Proof の請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
 
-   ![&#x200B; 請求設定 &#x200B;](assets/upgradesdowngrades-billing-settings-350x168.png)
+   ![請求設定](assets/upgradesdowngrades-billing-settings-350x168.png)
 
 1. 「**[!UICONTROL アカウントをクローズ]**」ボタンをクリックします（3）。
 
    ![Billing_-_close_your_account.png](assets/billing---close-your-account-350x135.png)
 
-1. アカウントをクローズする理由を選択します。（4）
-1. 「**[!UICONTROL 保存]**」をクリックして決定内容を確定します。（5）
+1. アカウントをクローズする理由を選択します。 （4）
+1. 「**[!UICONTROL 保存]**」をクリックして決定内容を確定します。 （5）
 
    ![Close_Account_-_pop-up.png](assets/close-account---pop-up-350x262.png)
 
-1. パスワードを入力してアカウントをクローズします。（6）
+1. パスワードを入力してアカウントをクローズします。 （6）
 
    ![Close_Account_-_password_pop-up.png](assets/close-account---password-pop-up-350x152.png)

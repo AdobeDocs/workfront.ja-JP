@@ -7,9 +7,12 @@ description: この節で説明している情報は、web プルーフビュー
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e134ac7a-7a9d-4923-8622-b602856e4925
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/HTk9kA-ajjmSM55jlzkZMfjcK2k8AUJ0naYwZXvXXgc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: 333
 ht-degree: 100%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 この節で説明している情報は、web プルーフビューアとデスクトッププルーフビューアの両方で利用できます。
 
@@ -28,7 +31,7 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>キーボードショートカット</strong></td> 
+   <td><strong>キーボードショートカット</strong> </td> 
    <td><strong>ビデオプルーフに対するアクション</strong> </td> 
    <td><strong>静的プルーフに対するアクション</strong> </td> 
   </tr> 
@@ -78,7 +81,7 @@ ht-degree: 100%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]：</strong> Ctrl + Enter</p> <p><strong>[!DNL Windows]：</strong>Command + Return</p> </td> 
+   <td> <p><strong>[!DNL Mac]：</strong> Ctrl + Enter </p> <p><strong>[!DNL Windows]：</strong>Command + Return</p> </td> 
    <td> <p>コメントを保存</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -114,43 +117,43 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <p>Shift キーを押しながらスクロール</p> </td> 
-   <td> <p>ズームインまたはズームアウト</p> </td> 
+   <td> <p> ズームインまたはズームアウト</p> </td> 
    <td> <p>ズームインまたはズームアウト</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac]：</strong>Ctrl + 0</p> <p><strong>[!DNL Windows]：</strong>Ctrl + 0</p> </td> 
-   <td> <p>ページに合わせる</p> </td> 
+   <td> <p> ページに合わせる</p> </td> 
    <td> <p>ページに合わせる</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac]：</strong>Ctrl + 1</p> <p><strong>[!DNL Windows]：</strong>Ctrl + 1</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>100％表示</p> </td> 
+   <td> <p>100％表示 </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac]：</strong>Ctrl + 2</p> <p><strong>[!DNL Windows]：</strong>Ctrl + 2</p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>幅に合わせる</p> </td> 
+   <td> <p>幅に合わせる </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]：</strong>Ctrl + 3</p> <p><strong>[!DNL Windows]：</strong>Ctrl + 3</p> </td> 
+   <td> <p><strong>[!DNL Mac]：</strong>Ctrl + 3</p> <p><strong>[!DNL Windows]：</strong>Ctrl + 3 </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>高さに合わせる</p> </td> 
+   <td> <p>高さに合わせる </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac]：</strong>Command + +<br>または<br>Command + Shift キーを押しながら上にスクロール</p> <p><strong>[!DNL Windows]：</strong>Ctrl + +</p> </td> 
-   <td> <p>ズームイン</p> </td> 
-   <td> <p>ズームイン</p> </td> 
+   <td> <p> ズームイン</p> </td> 
+   <td> <p>ズームイン </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac]：</strong>Command + -<br>または<br>command + Shift キーを押しながら下にスクロール</p> <p><strong>[!DNL Windows]：</strong>Ctrl + -</p> </td> 
-   <td> <p>ズームアウト</p> </td> 
+   <td> <p>ズームアウト </p> </td> 
    <td> <p>ズームアウト</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Windows]：</strong>スペースバーを押しながら画像をドラッグ</p> </td> 
-   <td> <p>パン</p> </td> 
-   <td> <p>パン</p> </td> 
+   <td> <p> パン</p> </td> 
+   <td> <p> パン</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>[!DNL Mac]：</strong>Command + F</p> <p><strong>[!DNL Windows]</strong>：Ctrl + F</p> </td> 

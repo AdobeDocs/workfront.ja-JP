@@ -7,9 +7,13 @@ description: プロジェクト管理用の  [!DNL Basecamp]  を使用する場
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e1f03079-6ccc-4e81-a7f7-184e87d62654
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+TQID: https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: 800
 ht-degree: 100%
 
 ---
@@ -18,13 +22,13 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 [!DNL Basecamp] をプロジェクト管理に使用している場合は、[!DNL Workfront Proof] を使用することで、プロジェクトチームに、より機能の豊富なレビューツールや承認ツールを提供できます。
 
 ## [!DNL Basecamp] の [!DNL Workfront] との統合について
 
-[!DNL Basecamp] と統合することで、ユーザーは、[!DNL Basecamp] 内でプルーフをすべて表示、レビュー、承認できるようになります。ユーザーはプルーフを [!DNL Workfront Proof] アカウントに送信し、それらを [!DNL Basecamp] プロジェクトと接続できます。レビュアーは、Basecamp メッセージに埋め込まれたミニプルーフを使用して、[!DNL Basecamp] 経由で[プルーフビューアでプルーフを決定](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)を作成できます。
+[!DNL Basecamp] と統合することで、ユーザーは、[!DNL Basecamp] 内でプルーフをすべて表示、レビュー、承認できるようになります。 ユーザーはプルーフを [!DNL Workfront Proof] アカウントに送信し、それらを [!DNL Basecamp] プロジェクトと接続できます。 レビュアーは、Basecamp メッセージに埋め込まれたミニプルーフを使用して、[!DNL Basecamp] 経由で[プルーフビューアでプルーフを決定](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)を作成できます。
 
 [!DNL Workfront Proof] と統合されている場合、[!DNL Basecamp] では、ユーザーはプルーフを使用して次の操作を実行できます。
 
@@ -46,9 +50,9 @@ ht-degree: 100%
 
 * [アカウント設定での [!DNL Basecamp] の設定：](https://support.workfront.com/hc/ja-jp/sections/115000912147-Account-settings)これにより、組織全体で Basecamp 統合が有効になります。
 * 詳しくは、[ [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) との  [!DNL Basecamp]  統合の有効化を参照してください。
-* [個人設定](https://support.workfront.com/hc/ja-jp/sections/115000921168-Personal-settings)での [!DNL Basecamp] の設定：プルーフ作成者と所有者が自分の [!DNL Basecamp] アカウントに接続し、[!DNL Workfront Proof] アクセスを許可できます。詳しくは、[個人設定の指定](#configuring-personal-settings)を参照してください。
+* [個人設定](https://support.workfront.com/hc/ja-jp/sections/115000921168-Personal-settings)での [!DNL Basecamp] の設定：プルーフ作成者と所有者が自分の [!DNL Basecamp] アカウントに接続し、[!DNL Workfront Proof] アクセスを許可できます。 詳しくは、[個人設定の指定](#configuring-personal-settings)を参照してください。
 
-[!DNL Workfront] を [!DNL Basecamp] または [!DNL Basecamp Classic] と統合できます。[!DNL Basecamp] の各バージョンは、異なる API を使用しているので、異なる設定手順が必要です。
+[!DNL Workfront] を [!DNL Basecamp] または [!DNL Basecamp Classic] と統合できます。 [!DNL Basecamp] の各バージョンは、異なる API を使用しているので、異なる設定手順が必要です。
 
 [!DNL Basecamp Classic] の設定について詳しくは、この記事内の[ [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) との  [!DNL Basecamp]  統合の有効化を参照してください。
 
@@ -70,7 +74,7 @@ ht-degree: 100%
 
    ![Basecamp_URL.png](assets/basecamp-url-350x75.png)
 
-   [!DNL Workfront Proof] と [!DNL Basecamp] を統合したら、ユーザーは個人設定を指定できます。個人設定の実行について詳しくは、[個人設定の実行](#configuring-personal-settings)を参照してください。
+   [!DNL Workfront Proof] と [!DNL Basecamp] を統合したら、ユーザーは個人設定を指定できます。 個人設定の実行について詳しくは、[個人設定の実行](#configuring-personal-settings)を参照してください。
 
    [!DNL Basecamp] の統合を有効にできない場合は、[!DNL Workfront Proof]アカウント ID が、[!DNL Basecamp] で使用するアカウント ID と同じではない可能性があります。
 
@@ -107,7 +111,7 @@ ht-degree: 100%
 [!DNL Basecamp] APIトークンを [!DNL Workfront Proof] の[個人設定](https://support.workfront.com/hc/ja-jp/sections/115000921168-Personal-settings)に張り付けるには、次の手順に従います。
 
 1. [個人設定](https://support.workfront.com/hc/ja-jp/sections/115000921168-Personal-settings)（1）の[[!UICONTROL 統合] - ユーザー設定](../../../workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)に移動します。\
-   管理者は最初に [!DNL Basecamp Classic] の統合を有効にして、個人設定を有効にする必要があります。統合の設定について詳しくは、この記事の [ [!DNL Basecamp]  と  [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) の統合の有効化を参照してください。
+   管理者は最初に [!DNL Basecamp Classic] の統合を有効にして、個人設定を有効にする必要があります。 統合の設定について詳しくは、この記事の [ [!DNL Basecamp]  と  [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) の統合の有効化を参照してください。
 
 1. 「[!DNL Basecamp] API トークン」ボックス（2）で、[!DNL Basecamp] の[!UICONTROL 個人情報]ページからコピーしたトークンをフィールド（3）に貼り付けます。\
    [!DNL Basecamp] API トークンのコピーについて詳しくは、[ [!DNL Basecamp]  API トークンの取得](#retrieving-your-basecamp-api-token)を参照してください。
