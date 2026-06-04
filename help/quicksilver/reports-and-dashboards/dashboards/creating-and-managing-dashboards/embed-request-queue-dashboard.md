@@ -9,10 +9,15 @@ exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/pOsi9a-M1rCNb75Yg-UVnPbcHoXzStOqlhO6XzDD7sM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1144
@@ -121,7 +126,7 @@ ht-degree: 98%
 
    ユーザーは、必要なトピックグループやキュートピックを選択したり、別のリクエストタイプを選択したりすることができます。
 
-   ![ リクエストキューURL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![&#x200B; リクエストキューURL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### リクエストタイプを変更できないリクエストキューへのリンクを取得 {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +155,7 @@ ht-degree: 98%
 
    ユーザーは、選択したリクエストタイプに必要な任意のトピックグループまたはキューのトピックを選択できます。 別のリクエストタイプは選択できません。
 
-   ![ リクエストキューコード ](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![&#x200B; リクエストキューコード &#x200B;](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## ダッシュボードへのリクエストキューの埋め込み
 
@@ -164,7 +169,7 @@ ht-degree: 98%
 
 1. 「**外部ページを追加**」をクリックします。
 
-   ![外部ページ ](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![外部ページ &#x200B;](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. 「**外部ページを追加**」ボックスで、次のフィールドを編集します。
 

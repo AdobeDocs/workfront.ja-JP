@@ -8,8 +8,10 @@ exl-id: 13208dca-afc9-419a-bb08-e063c6d9b480
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/aium7Fy3LmRL9k-YQ7kdzpU0ivHZ2H8ShBePyx6wO9Q
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 329
@@ -51,4 +53,4 @@ Adobe Workfrontには、作業を容易に達成できるように、AdobeのAI 
 
 Workfront管理者は、組織のAI アシスタントを有効または無効にできます。 AI アシスタントは、Select プラン、Prime プラン、Ultimate プランのインスタンスで利用できます。
 
-WorkfrontのAI アシスタントについて詳しくは、[AI アシスタント：記事インデックス ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)を参照してください。
+WorkfrontのAI アシスタントについて詳しくは、[AI アシスタント：記事インデックス &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)を参照してください。
