@@ -7,11 +7,18 @@ author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
 TQID: https://experienceleague.adobe.com/-p17GWsoDlmbZtZW3T47YGxOmgSOsMddnFfFXpW36C4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 461
@@ -82,10 +89,10 @@ ht-degree: 92%
 
 「計画担当者」が、デフォルトで表示されます。  リソースプランナーでのリソースの予算計上について詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)の記事を参照してください。
 
-![ リソースプランナーをデフォルトとして](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![&#x200B; リソースプランナーをデフォルトとして](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. 左側のパネルで「**リソースプール**」をクリックします。
-リソースプールの作成について詳しくは、[ リソースプールの作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
+リソースプールの作成について詳しくは、[&#x200B; リソースプールの作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
 
 ### 1 つのプロジェクトに対してリソースプランナーを使用 {#use-the-resource-planner-for-one-project}
 
@@ -100,6 +107,6 @@ ht-degree: 92%
    >
    >ビジネスケースの「リソース予算計上」エリアにリソースプールを追加できるのは、プロジェクトにリソースプールが関連付けられていない場合のみです。 プロジェクトに既にリソースプールが存在する場合、プール内のユーザーとその担当業務が、「リソース予算計上」エリアにデフォルトで表示されます。
 
-   ![ リソース予算](assets/resource-budgeting-area-on-project-350x70.png)
+   ![&#x200B; リソース予算](assets/resource-budgeting-area-on-project-350x70.png)
 
    1 つのプロジェクトのリソースの予算計上について詳しくは、[ビジネスケースのリソース予算計上](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。

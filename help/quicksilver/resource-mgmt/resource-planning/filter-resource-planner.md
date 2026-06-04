@@ -7,11 +7,19 @@ author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
 TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2369
@@ -127,11 +135,11 @@ ht-degree: 97%
 
 デフォルトでは、リソースプランナーに初めてアクセスすると、<strong>デフォルトのフィルター</strong>が適用されます。<br>デフォルトのフィルターについて詳しくは、記事内の<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">リソースプランナーのデフォルトフィルターの概要</a>の節を参照してください。
 
-1. の左上隅で、**フィルター**アイコンをクリックします。
+1. の左上隅で、**フィルター**&#x200B;アイコンをクリックします。
    ![filter_icon.png](assets/filter-icon.png)
 または
-**フィルター** ドロップダウンメニューを展開し、**新しいフィルターを追加**をクリックします。
-   ![ フィルタードロップダウン ](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
+**フィルター** ドロップダウンメニューを展開し、**新しいフィルターを追加**&#x200B;をクリックします。
+   ![&#x200B; フィルタードロップダウン &#x200B;](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. ビルトインの条件を使用してフィルターを作成するには、次のいずれかのフィールドを指定します。
 
@@ -148,7 +156,7 @@ ht-degree: 97%
 
    >[!IMPORTANT]
    >
-   >カスタムフィールドを参照する場合は、フィールドラベルではなくフィールド名を入力する必要があります。 フィールドラベルは、オブジェクトに添付されたカスタムフォームに表示されます。 ラベルとカスタムフィールド名の違いについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   >カスタムフィールドを参照する場合は、フィールドラベルではなくフィールド名を入力する必要があります。 フィールドラベルは、オブジェクトに添付されたカスタムフォームに表示されます。 ラベルとカスタムフィールド名の違いについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. フィールドの名前をクリックして、リストに表示される場合はフィルターに追加します。\
    リストに表示されるフィールドについて詳しくは、[Adobe Workfront の用語集](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
@@ -216,7 +224,7 @@ ht-degree: 97%
 1. **フィルター**&#x200B;ドロップダウンメニューを展開します。 名前を変更するフィルターを見つけ、その名前の上にポインタを合わせます。
 1. フィルター名の横にある「**フィルター名を変更**」アイコンを選択します。
 
-   ![ フィルターオプションの編集](assets/rp-filter-options-edit-350x154.png)
+   ![&#x200B; フィルターオプションの編集](assets/rp-filter-options-edit-350x154.png)
 
 1. 「**フィルター名**」ボックスで、フィルターの新しい名前を指定します。
 1. 「**保存**」をクリックします。\
@@ -255,7 +263,7 @@ ht-degree: 97%
 1. 複製する保存済みフィルターの名前の上にポインタを合わせます。
 1. **複製**&#x200B;アイコンをクリックします。
 
-   ![ フィルターを複製](assets/rp-filter-options---duplicate-350x154.png)\
+   ![&#x200B; フィルターを複製](assets/rp-filter-options---duplicate-350x154.png)\
    「フィルターを複製」ボックスが表示されます。
 
 1. 「**フィルター名**」フィールドで、複製したフィルターの新しい名前を指定します。\

@@ -9,11 +9,17 @@ exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2839
@@ -227,11 +233,11 @@ ht-degree: 89%
 
    割り当てボックスが編集可能になります。
 
-1. 日単位、週単位、月単位の割り当てのボックス内をクリックして、ユーザーに割り当てる時間数またはパーセント値を手動で更新し、**保存** アイコン ![保存アイコン ](assets/checkmark-icon.png)をクリックします。
+1. 日単位、週単位、月単位の割り当てのボックス内をクリックして、ユーザーに割り当てる時間数またはパーセント値を手動で更新し、**保存** アイコン ![保存アイコン &#x200B;](assets/checkmark-icon.png)をクリックします。
 
    >[!TIP]
    >
-   >**キャンセル** アイコン ![ キャンセルアイコン ](assets/cancel-allocations-wb.png)をクリックして、調整した割り当てを削除します。
+   >**キャンセル** アイコン ![&#x200B; キャンセルアイコン &#x200B;](assets/cancel-allocations-wb.png)をクリックして、調整した割り当てを削除します。
 
    ![調整済の割り当てを保存またはキャンセルする](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

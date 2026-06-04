@@ -10,10 +10,15 @@ exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/dRtLS8f9jhxP-1heLPeHViuBeIIQy66-k-NwPxqMT84
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1073
@@ -91,7 +96,7 @@ ht-degree: 78%
 改行なしで 2 列のデータを結合するには：
 
 1. オブジェクトのリストに移動します。
-1. **ビュー** ドロップダウンから、ビューを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックしてビューを編集します。
+1. **ビュー** ドロップダウンから、ビューを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックしてビューを編集します。
 1. 結合する最初の列に移動し、**テキストモードに切り替え**/**テキストモードを編集**&#x200B;をクリックします。
 1. 結合する最初の列に次のテキストを追加します。
 
@@ -127,7 +132,7 @@ ht-degree: 78%
 複数の列のデータを結合して、1 つの共通列に表示し、各列の値を改行するには、次の手順を実行します。
 
 1. オブジェクトのリストに移動します。
-1. **ビュー** ドロップダウンから、ビューを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックしてビューを編集します。
+1. **ビュー** ドロップダウンから、ビューを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックしてビューを編集します。
 1. 結合する 2 列の間に 3 つ目の列を追加します。
 
    >[!TIP]

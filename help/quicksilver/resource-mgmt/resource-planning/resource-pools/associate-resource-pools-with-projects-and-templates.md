@@ -9,11 +9,17 @@ exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/h5f9-95DJ4UoSyR01MwD0jfGXru3s-BT3HvzdLFX4CY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 600
@@ -91,7 +97,7 @@ Also - take out all the references to Preview and Prod at prod final
 1. 「**リソースプール**」フィールドでリソースプールの名前の入力を開始し、リストにその名前が表示されたら選択します。\
    1 つのプロジェクトまたはテンプレートに複数のリソースプールを関連付けることができます。
 
-   ![ プロジェクト設定](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![&#x200B; プロジェクト設定](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. 「**保存**」をクリックします。
 
@@ -108,7 +114,7 @@ Also - take out all the references to Preview and Prod at prod final
 リソースプールを複数のプロジェクトに一括で関連付けるには：
 
 1. プロジェクトのリストに移動します。
-1. 複数のプロジェクトを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. 複数のプロジェクトを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
 1. 「**設定**」をクリックします。
 1. 「**リソースプール**」フィールドでリソースプールの名前の入力を開始し、リストでその名前が表示されたら選択します。\

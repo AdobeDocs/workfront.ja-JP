@@ -9,10 +9,15 @@ exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1866
@@ -24,8 +29,8 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->発生する可能性のあるバグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。詳しくは、[ カスタマーサポートへのお問い合わせ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
+>発生する可能性のあるバグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
@@ -34,7 +39,7 @@ ht-degree: 10%
 
 グラフレポートを作成してCanvas ダッシュボードに追加すると、データを棒グラフ、列グラフ、折れ線グラフ、円グラフとして視覚化できます。
 
-![ チャートレポート ](assets/chart-report-main.png)
+![&#x200B; チャートレポート &#x200B;](assets/chart-report-main.png)
 
 ## アクセス要件
 
@@ -125,7 +130,7 @@ ht-degree: 10%
 >選択したフィールドタイプに応じて、追加のフィールドが追加される場合があります。 以下に示すオプションは、すべてのフィールドタイプに対して標準です。
 
 
-1. 左側のパネルで、**グラフを作成** ![ グラフを作成アイコン ](assets/build-chart-icon.png) アイコンをクリックします。
+1. 左側のパネルで、**グラフを作成** ![&#x200B; グラフを作成アイコン &#x200B;](assets/build-chart-icon.png) アイコンをクリックします。
 
 1. **グラフの種類** ドロップダウンで、**棒**、**列**、または&#x200B;**行**&#x200B;を選択します。
 1. 2番目のドロップダウンメニューで、バー、列、または行タイプを選択します。
@@ -149,7 +154,7 @@ ht-degree: 10%
 >選択したフィールドタイプに応じて、追加のフィールドが追加される場合があります。 以下に示すオプションは、すべてのフィールドタイプに対して標準です。
 
 
-1. 左側のパネルで、**グラフを作成** ![ グラフを作成アイコン ](assets/build-chart-icon.png) アイコンをクリックします。
+1. 左側のパネルで、**グラフを作成** ![&#x200B; グラフを作成アイコン &#x200B;](assets/build-chart-icon.png) アイコンをクリックします。
 
 1. **グラフの種類** ドロップダウンで、**棒**&#x200B;を選択します。
 1. **指標** セクションで、**更新フィールド**&#x200B;を選択し、グラフで要約されるデータを含むフィールドを見つけて選択します。
@@ -176,7 +181,7 @@ ht-degree: 10%
 
 次の手順に従って、**Filter** セクションを設定します。
 
-1. 左側のパネルで、**フィルター**![ フィルターアイコン ](assets/filter-icon.png) アイコンをクリックします。
+1. 左側のパネルで、**フィルター**![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックします。
 1. **フィルターを編集**&#x200B;を選択します。
 1. 「**条件を追加**」をクリックし、フィルタリングするフィールドと、フィールドが満たす必要がある条件を定義する修飾子を指定します。
 1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件のセットを追加します。 セット間のデフォルトの演算子は AND です。 演算子をクリックして OR に変更します。
@@ -185,7 +190,7 @@ ht-degree: 10%
 
 「**ドリルダウン列設定**」セクションを設定するには、次の手順に従います。
 
-1. 左側のパネルで、**ドリルダウン列** ![ ドリルダウン列アイコン ](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
+1. 左側のパネルで、**ドリルダウン列** ![&#x200B; ドリルダウン列アイコン &#x200B;](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
 
 1. （オプション）既存の列設定のいずれかを更新するには、**現在の列** セクションで更新する列を選択し、目的の情報（ラベル、リンクされたステータス、条件など）を更新します。
 
@@ -195,7 +200,7 @@ ht-degree: 10%
 
 「**ドリルダウングループ設定**」セクションを設定するには、次の手順に従います。
 
-1. 左側のパネルで、**グループ設定** ![ グループ設定](assets/drilldown-group-icon.png) アイコンをクリックします。
+1. 左側のパネルで、**グループ設定** ![&#x200B; グループ設定](assets/drilldown-group-icon.png) アイコンをクリックします。
 
 1. 「**グループ化を追加**」ボタンをクリックし、グループ化として作成するフィールドを選択します。
 
@@ -237,13 +242,13 @@ ht-degree: 10%
 
    1. 「**下軸（X）軸**」セクションの下にある「**フィールドを更新**」ボタンを選択し、「**タスク** > **プロジェクト** > **所有者** > **名前**」フィールドを見つけて選択します。
 
-      ![ フィールドを更新](assets/bottom-x-axis.png)
+      ![&#x200B; フィールドを更新](assets/bottom-x-axis.png)
 
    1. 「**左（Y）軸**」セクションの下にある「**フィールドを選択**」ボタンをクリックし、**タスク** > **名前**」フィールドを見つけて選択します。
 
    1. 「**集計タイプ**」ドロップダウンで、「**カウント**」を選択します。
 
-      ![集計タイプ フィールド ](assets/left-y-axis.png)
+      ![集計タイプ フィールド &#x200B;](assets/left-y-axis.png)
 
 1. 次の手順に従って、**Filter** セクションを設定します。
 
@@ -269,13 +274,13 @@ ht-degree: 10%
 
    1. エバリュエーターのフィールドに&#x200B;*$$TODAY*&#x200B;と入力します。
 
-      ワイルドカードについて詳しくは、「[ キャンバスダッシュボードでのレポートフィルターの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)」の記事の「日付ベースのワイルドカードフィルター変数」の節を参照してください。
+      ワイルドカードについて詳しくは、「[&#x200B; キャンバスダッシュボードでのレポートフィルターの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)」の記事の「日付ベースのワイルドカードフィルター変数」の節を参照してください。
 
-      ![評価者フィールド ](assets/add-condition.png)
+      ![評価者フィールド &#x200B;](assets/add-condition.png)
 
 1. 「**ドリルダウン列設定**」セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、**ドリルダウン列** ![ ドリルダウン列](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
+   1. 左側のパネルで、**ドリルダウン列** ![&#x200B; ドリルダウン列](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
 
    1. 「**列を追加**」をクリックし、**割り当て先** > **名前** フィールドを選択します。
 
@@ -289,7 +294,7 @@ ht-degree: 10%
 
 1. 「**ドリルダウングループ設定**」セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、**グループ設定** ![ グループ設定](assets/drilldown-group-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、**グループ設定** ![&#x200B; グループ設定](assets/drilldown-group-icon.png) アイコンをクリックします。
 
    1. 「**グループ化を追加**」ボタンをクリックし、「**プロジェクト** > **名前**」フィールドを選択します。
 
@@ -315,7 +320,7 @@ ht-degree: 10%
 * **Workfront オブジェクト**：ネイティブ Workfront ワークフローオブジェクト。
 * **プランニングレコードタイプ**: Workfront Planningで定義されたカスタムレコードタイプ。
 
-![ セクション ドロップダウン ](assets/sections-dropdown.png)
+![&#x200B; セクション ドロップダウン &#x200B;](assets/sections-dropdown.png)
 
 基本エンティティオブジェクトを選択すると、**セクション** ドロップダウンが更新され、選択できるフィールドタイプオプションが表示されます。
 
@@ -325,7 +330,7 @@ ht-degree: 10%
 * **Workfront フィールド**：ネイティブフィールドのみ。
 * **関係**：接続レコード。
 
-![ レポート可能なオブジェクトの選択](assets/reportable-objects-selection.png)
+![&#x200B; レポート可能なオブジェクトの選択](assets/reportable-objects-selection.png)
 
 ### 子オブジェクトの参照
 

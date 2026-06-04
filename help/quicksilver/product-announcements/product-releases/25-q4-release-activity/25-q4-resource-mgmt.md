@@ -6,10 +6,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c8c03cb5-0468-4c2b-b69e-70e4c1354514
 TQID: https://experienceleague.adobe.com/n6ZlL1kx6xK-JMc8XfvQrlNKFxjMmsGGGL-y41HkLa4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 324
@@ -35,7 +39,7 @@ ht-degree: 20%
 
 ユーザーのワークロードバランサーデータは読み取り専用です。 ユーザーレベルでは、作業の割り当て、作業の割り当て解除、割り当ての調整はできません。
 
-詳しくは、[ ワークロードバランサーの検索](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md)を参照してください。
+詳しくは、[&#x200B; ワークロードバランサーの検索](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md)を参照してください。
 
 ## 役割の割り当てがワークロードバランサーに表示される
 
@@ -51,4 +55,4 @@ ht-degree: 20%
 
 役割の割り当てをユーザーに手動で割り当てるには、**詳細メニュー/これを**&#x200B;に割り当てオプションを使用するか、アイテムを正しいユーザーにドラッグ&amp;ドロップします。 ユーザーの役割と割り当て役割が一致しない場合は、視覚的なインジケーターが表示されますが、引き続きユーザーに作業を割り当てることができます。
 
-詳しくは、[ ワークロードバランサーの移動](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)および[ ドラッグ&amp;ドロップによるワークロードバランサーでの作業の割り当て](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)を参照してください。
+詳しくは、[&#x200B; ワークロードバランサーの移動](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)および[&#x200B; ドラッグ&amp;ドロップによるワークロードバランサーでの作業の割り当て](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)を参照してください。

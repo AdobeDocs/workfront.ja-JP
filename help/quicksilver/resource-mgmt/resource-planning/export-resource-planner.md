@@ -7,11 +7,17 @@ author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
 TQID: https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 582
@@ -76,7 +82,7 @@ ht-degree: 85%
 
    エクスポートオプションダイアログボックスが表示されます。
 
-   ![書き出しオプション ](assets/rp-export-options-box-350x421.png)
+   ![書き出しオプション &#x200B;](assets/rp-export-options-box-350x421.png)
 
 1. 次の情報を指定します。\
    **開始日**：書き出しの開始日。 書き出したファイルには、ここで指定した日を含む週の最初の日から始まる、割り当てと空き時間に関する情報が含まれます。\
@@ -119,7 +125,7 @@ ht-degree: 85%
 1. 「**エクスポート**」をクリックして、リソースプランナーから情報を書き出します。\
    保存した情報のみが書き出されます。
 
-1. （条件付き）役割またはプロジェクトビューに未保存の予算計上時間数がある場合は、**保存して続行**をクリックします。
+1. （条件付き）役割またはプロジェクトビューに未保存の予算計上時間数がある場合は、**保存して続行**&#x200B;をクリックします。
 Excel （.xlsx） ファイルがコンピューターにダウンロードされます。\
    ファイルのダウンロード準備中は、リソースプランナーからの書き出しは使用できません。\
    （条件付き）大量のデータを書き出すと、ファイルをダウンロードできるリンクが記載されたメールが届きます。\

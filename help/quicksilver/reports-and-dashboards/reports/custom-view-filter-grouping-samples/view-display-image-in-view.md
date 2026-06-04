@@ -10,10 +10,15 @@ exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SUX5UzpdGqlmM02VJMmkYYK-yqzxNY81ZYa6z3vkWzs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 464
@@ -31,7 +36,7 @@ ht-degree: 85%
 >
 >画像は実際の解像度で表示されるので、小さな画像を使用してください。
 
-![ プロジェクト名を画像とリンクに置き換え](assets/replace-project-name-with-image-and-link-350x125.png)
+![&#x200B; プロジェクト名を画像とリンクに置き換え](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## アクセス要件
 
@@ -86,7 +91,7 @@ ht-degree: 85%
    1. ブラウザーに応じて「**画像の場所をコピー**」または「**リンクを取得**」を右クリックして選択します。 これで、その特定の画像の URL が取得され、クリップボードから貼り付けることができます。
    1. そのリンクを持つユーザー全員がリンクに移動するだけで画像を表示する権限を持ち、そのリンクにアクセスするためにログインする必要がないことを確認します。
 
-1. プロジェクトに移動し、プロジェクト名の横にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon-45x33.png)をクリックし、**編集**&#x200B;をクリックします。
+1. プロジェクトに移動し、プロジェクト名の横にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon-45x33.png)をクリックし、**編集**&#x200B;をクリックします。
 
 1. 「**URL**」フィールドで、画像にリンクを追加します。
 1. プロジェクトのリストのプロジェクトビューに移動します。
@@ -110,5 +115,5 @@ ht-degree: 85%
    valueformat=
    ```
 
-1. **完了** / **ビューを保存**をクリックします。
+1. **完了** / **ビューを保存**&#x200B;をクリックします。
 選択した画像は、プロジェクトビューのプロジェクト名に置き換わり、画像はプロジェクトへのリンクになります。

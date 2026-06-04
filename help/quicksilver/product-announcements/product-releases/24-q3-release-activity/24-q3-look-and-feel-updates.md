@@ -8,11 +8,16 @@ exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/7yM8WhucdZgM5gI-6eWcqSEIjSY14y5sa0GSB--jo-A
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 579
@@ -36,7 +41,7 @@ ht-degree: 51%
 
 「割り当て候補」リストを更新し、Workfrontのあらゆる領域で一貫性のある、より現代的なデザインに変更しました。 ヘッダー、リスト表示、または詳細割り当て画面からタスクまたはイシューに割り当てを追加すると、エクスペリエンスは同じです。 提案はセクションに分かれており、割り当ての適切な人物、チーム、または担当業務をすばやく見つけるのに役立ちます。
 
-詳しくは、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)、[課題の割り当て](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)、[高度な割り当ての作成](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
+詳しくは、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)、[課題の割り当て](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)、[高度な割り当ての作成](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
 ## ドキュメントの詳細に関するカスタムフォームのルックアンドフィールの更新
 
@@ -46,7 +51,7 @@ ht-degree: 51%
 
 ドキュメントの詳細/カスタム Forms ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。 ページで、外部ルックアップフィールドなどの高度なカスタムフォーム機能がサポートされるようになりました。
 
-詳しくは、[ ドキュメントの詳細の概要](/help/quicksilver/documents/managing-documents/document-details-overview.md)を参照してください。
+詳しくは、[&#x200B; ドキュメントの詳細の概要](/help/quicksilver/documents/managing-documents/document-details-overview.md)を参照してください。
 
 ## イテレーションの詳細に関するカスタムフォームのルックアンドフィール更新
 
@@ -66,7 +71,7 @@ ht-degree: 51%
 
 設定/グループ領域のメイングループリストを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。 グループおよびサブグループのすべてのダイアログ（追加、編集、コピー、非アクティブ化、削除）には、特定のグループまたはサブグループの「グループ」リストまたは「その他」メニューからアクセスしても、デザインが更新されます。
 
-詳しくは、[ グループの作成](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)および[ グループの管理](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)を参照してください。
+詳しくは、[&#x200B; グループの作成](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)および[&#x200B; グループの管理](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)を参照してください。
 
 ## 為替レート リストのルックアンドフィールの更新
 

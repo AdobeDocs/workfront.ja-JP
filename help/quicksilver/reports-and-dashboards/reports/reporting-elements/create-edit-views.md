@@ -9,10 +9,15 @@ exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 868
@@ -77,7 +82,7 @@ ht-degree: 64%
 
 1. 「**+ New View**」ボタンをクリックして、新しいビューを作成します。
 または
-編集する既存のビューの右側のマウスオーバーに表示される**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+編集する既存のビューの右側のマウスオーバーに表示される&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 **ビューをカスタマイズ** ダイアログボックスが表示されます。
 
 1. 「**列のプレビュー**」セクションで、以下のいずれかを行います。
@@ -173,7 +178,7 @@ ht-degree: 64%
 
 事前に設定されていますが、特定の設定を変更することもできます。
 
-アジャイルビューまたはボードビューについて詳しくは、[ ボードビューでのアジャイルプロジェクトの管理](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
+アジャイルビューまたはボードビューについて詳しくは、[&#x200B; ボードビューでのアジャイルプロジェクトの管理](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)を参照してください。
 
 <!--
  Legacy Agile views were deprecated with 25.3. This is old: 

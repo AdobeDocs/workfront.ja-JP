@@ -6,8 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: def76c9c-d808-489b-82c7-b1f44c241116
 TQID: https://experienceleague.adobe.com/4aDDK3EIDecA-DcuB7wb3e6-NV5IvIUF7mKl-lhnY8I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 262
@@ -26,7 +28,7 @@ ht-degree: 17%
 >[!NOTE]
 >
 >プレビュー：2026年2月5日>本番稼動：2026年2月5日より\
->[!BADGE  オフスケジュール ]{type=Neutral}
+>[!BADGE &#x200B; オフスケジュール &#x200B;]{type=Neutral}
 
 単一のテンプレートタスクを編集したり、一括編集したりする場合は、テンプレートタスクを編集ボックスの「割り当て」セクションを更新しました。  
 このアップデートには、次の変更が含まれています。 
@@ -39,7 +41,7 @@ ht-degree: 17%
 
 * 「古いエクスペリエンスに戻る」オプションが削除されました。
 
-詳しくは、[ テンプレートタスクの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)を参照してください
+詳しくは、[&#x200B; テンプレートタスクの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)を参照してください
 
 ## タスクを1回割り当てたり一括割り当てたりする際のエクスペリエンスを更新しました
 

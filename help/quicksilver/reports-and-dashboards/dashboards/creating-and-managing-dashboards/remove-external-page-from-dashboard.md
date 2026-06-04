@@ -9,10 +9,15 @@ exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/7uIQfoO7cP-2ouFCg9lm1EKctxkZIUtpP-SfWL34HeE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 251
@@ -68,11 +73,11 @@ ht-degree: 83%
 
 1. 「**ダッシュボードの操作**」をクリックしたあと、「**編集**」をクリックします。
 
-   ![ ダッシュボードを編集](assets/unshimmed-edit-dashboard.png)
+   ![&#x200B; ダッシュボードを編集](assets/unshimmed-edit-dashboard.png)
 
-1. 画面の右側で、削除する外部ページを見つけ、**削除** アイコン ![削除アイコン ](assets/delete.png)をクリックします。
+1. 画面の右側で、削除する外部ページを見つけ、**削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
 
-   ![ ダッシュボード内の外部ページアイコンを削除](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![&#x200B; ダッシュボード内の外部ページアイコンを削除](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. 左下隅にある「**保存して閉じる**」をクリックします。
 

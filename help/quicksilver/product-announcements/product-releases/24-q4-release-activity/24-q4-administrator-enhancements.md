@@ -6,11 +6,16 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
 TQID: https://experienceleague.adobe.com/8LLDPoqTld6CKGylVcw7B7PAvLUqHj0fjzl5cw382-M
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 585
@@ -34,7 +39,7 @@ ht-degree: 19%
 
 以前は、環境の昇格にアクセスレベルを使用できませんでした。
 
-環境プロモーションで使用できるオブジェクトについて詳しくは、「環境プロモーションの概要」の「[環境プロモーションでサポートされるオブジェクト ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)」を参照してください。
+環境プロモーションで使用できるオブジェクトについて詳しくは、「環境プロモーションの概要」の「[環境プロモーションでサポートされるオブジェクト &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)」を参照してください。
 
 ## カスタムフォームのカウンターには、フィールド数が表示されます
 
@@ -46,7 +51,7 @@ ht-degree: 19%
 
 左下のカスタムフォームにカウンターが追加されました。 カウンターには、フォームで使用されているフィールドの数が表示され、フォームデザイナー内でスクロールすると常に表示されます。
 
-詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## レイアウトテンプレートで「すべてを選択」オプションが使用できるようになりました
 
@@ -56,7 +61,7 @@ ht-degree: 19%
 
 レイアウトテンプレートを使用したフィールドの表示と非表示をより簡単に行えるように、レイアウトテンプレートの詳細ビューの概要および財務領域に「**すべてを選択**」チェックボックスが追加されました。 このオプションは、**の下にあるプロジェクト、タスク、イシュー、Portfolio、またはプログラムを選択した場合に使用できます。ユーザーに表示される内容をカスタマイズする**。 すべてのオブジェクトがFinance エリアを表示するわけではなく、各エリアのフィールドはオブジェクトによって異なります。
 
-詳しくは、[ レイアウトテンプレートを使用した詳細ビューのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
+詳しくは、[&#x200B; レイアウトテンプレートを使用した詳細ビューのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
 ## 環境プロモーションパッケージのロールバック
 
@@ -68,7 +73,7 @@ ht-degree: 19%
 
 以前は、設定は手動で、または別の環境プロモーションパッケージを通じて復元されていました。
 
-環境プロモーションパッケージのロールバックについて詳しくは、[環境プロモーションパッケージのロールバック ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)を参照してください。
+環境プロモーションパッケージのロールバックについて詳しくは、[環境プロモーションパッケージのロールバック &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)を参照してください。
 
 [この機能のデモ動画をご覧ください。](https://video.tv.adobe.com/v/3434025/){target=_blank}
 
@@ -82,4 +87,4 @@ ht-degree: 19%
 
 カスタムフォームデザイナーの「レイアウト」ボタンを使用すると、2列または3列のワークエリアから選択できます。 元のフォームデザイナーは3つの列を使用し、フィールド設定は右端の列に表示されます。 2つの列を選択すると、フィールド設定は、左端の列のフィールドライブラリの横に表示されます。
 
-詳しくは、[ カスタムフォームの概要](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)を参照してください。
+詳しくは、[&#x200B; カスタムフォームの概要](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)を参照してください。

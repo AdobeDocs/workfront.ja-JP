@@ -9,10 +9,15 @@ exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/KdqJFE6HvNnPU2bQMF4oi9wiQzTt0fN8tRiS6TGbCj4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1194
@@ -86,7 +91,7 @@ ht-degree: 95%
 1. 「**報告書設定**」をクリックします。
 
 1. 「**次のアクセス権限でこの報告書を作成する：**」フィールドに、レポートを表示するユーザー名の入力を開始し、リストに表示されたら選択します。\
-   ![ アクセス権](assets/unshimmed-access-rights-of.png)で実行
+   ![&#x200B; アクセス権](assets/unshimmed-access-rights-of.png)で実行
 
    >[!NOTE]
    >
@@ -108,7 +113,7 @@ ht-degree: 95%
 
 別のユーザーのアクセス権限でレポートを配信するには：
 
-1. Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
+1. Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**レポート**&#x200B;をクリックします。
 
 1. 別のユーザーのアクセス権限で配信するレポートを選択します。
 1. レポートの名前をクリックして選択します。
@@ -116,7 +121,7 @@ ht-degree: 95%
 1. 「**報告書の送信**」をクリックします。
 
 1. レポートをメールで配信する際に使用するレポート表示権限が属するユーザーの名前を「**次のアクセス権限でこの報告書を届ける**」フィールドに入力していき、目的のユーザー名がリストに表示されたら選択します。 デフォルトでは、レポートを作成するユーザーの名前です。\
-   ![ アクセス権が](assets/unshimmed-send-report-access-rights-of.png)のレポートを送信しました
+   ![&#x200B; アクセス権が](assets/unshimmed-send-report-access-rights-of.png)のレポートを送信しました
 
    >[!NOTE]
    >

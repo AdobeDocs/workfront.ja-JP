@@ -10,9 +10,13 @@ exl-id: d658c3df-5fa5-4756-ac42-71d9aed481df
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/1jwPKGeQ9RB1ke1GsCMxrk7xRchFCCMADkuDtrRDEWw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 448
@@ -24,7 +28,7 @@ ht-degree: 0%
 
 ジョブ履歴ビューでは、Workfront管理者は各データリフレッシュジョブの詳細レコードにアクセスできます。 これらのレコードは、データを最新の状態に保ち、プロセスを実行し、ビジネスビジュアライゼーションを更新する際に理想的なタイムラインを確立するのに役立つ、貴重なinsightをジョブに提供します。
 
-![ ジョブ履歴ビュー](assets/job-history-overview.png)
+![&#x200B; ジョブ履歴ビュー](assets/job-history-overview.png)
 
 ジョブ履歴ビューの列には、次の情報が含まれます。
 
@@ -32,7 +36,7 @@ ht-degree: 0%
 * **SCHEDULED_TIME**: ジョブの開始時間を表示します。
 * **COMPLETED_TIME**: ジョブの完了時間を表示します。
 * **LATEST_FLAG**: ジョブが最新の更新の一部であったかどうかを示します。
-* **状態**: ジョブのステータスを表示します。 詳しくは、この記事の次の節を参照してください。[使用可能なジョブステータス ](#available-job-statuses)。
+* **状態**: ジョブのステータスを表示します。 詳しくは、この記事の次の節を参照してください。[使用可能なジョブステータス &#x200B;](#available-job-statuses)。
 * **LAST_UPDATED**: ジョブの最後に更新されたタイムスタンプ。
 
 >[!NOTE]

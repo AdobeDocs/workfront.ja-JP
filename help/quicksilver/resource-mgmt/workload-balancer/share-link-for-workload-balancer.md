@@ -7,11 +7,18 @@ author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
 TQID: https://experienceleague.adobe.com/MORtojfX-Dbzm-sI-D-zYirqaNrbYwDtBe-LNXh8xYM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 675
@@ -125,7 +132,7 @@ ht-degree: 74%
 
      ワークロードバランサーでの情報のフィルタリングの詳細については、[ワークロードバランサーでの情報のフィルタリング](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)を参照してください。
 
-1. **リンクアイコン** ![ リンクアイコン ](assets/wb-shearable-link-icon-small.png)をクリックします。
+1. **リンクアイコン** ![&#x200B; リンクアイコン &#x200B;](assets/wb-shearable-link-icon-small.png)をクリックします。
 
    これにより、リンクがクリップボードに追加されます。
 
@@ -134,7 +141,7 @@ ht-degree: 74%
    * メール、チャットメッセージ、またはその他のアプリケーションに貼り付けて、他のユーザーと共有します。
    * 外部ページとしてダッシュボードに追加し、ダッシュボードをユーザーのプロファイルまたはレイアウトテンプレートに追加してから、レイアウトテンプレートをユーザー、チーム、担当業務、またはグループと共有します。
 
-     外部ページの作成について詳しくは、[ ダッシュボードへの外部web ページの埋め込み](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)を参照してください。 レイアウトテンプレートへのダッシュボードの追加について詳しくは、[ レイアウトテンプレートを使用した左側のパネルのカスタマイズ ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
+     外部ページの作成について詳しくは、[&#x200B; ダッシュボードへの外部web ページの埋め込み](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)を参照してください。 レイアウトテンプレートへのダッシュボードの追加について詳しくは、[&#x200B; レイアウトテンプレートを使用した左側のパネルのカスタマイズ &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
 
      >[!IMPORTANT]
      >

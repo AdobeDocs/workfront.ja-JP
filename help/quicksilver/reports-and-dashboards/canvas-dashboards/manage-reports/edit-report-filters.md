@@ -9,10 +9,15 @@ exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IICvipFI1uZkMpwcdiFM9K9pweav2TL8zu-GdDB73bU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 987
@@ -24,8 +29,8 @@ ht-degree: 52%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->発生する可能性のあるバグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。詳しくは、[ カスタマーサポートへのお問い合わせ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
+>発生する可能性のあるバグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
@@ -82,16 +87,16 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->レポートフィルターの作成と編集に使用できる設定ツールは多数あります。 これらのツールについて詳しくは、この記事の次の節を参照してください。[ レポートフィルターを編集する際の考慮事項](#considerations-when-editing-a-report-filter)。
+>レポートフィルターの作成と編集に使用できる設定ツールは多数あります。 これらのツールについて詳しくは、この記事の次の節を参照してください。[&#x200B; レポートフィルターを編集する際の考慮事項](#considerations-when-editing-a-report-filter)。
 
 
 {{step1-to-dashboards}}
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 
-1. **Canvas ダッシュボード** ページで、編集するフィルターを含むレポートの右上隅にある&#x200B;**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンをクリックし、**編集**&#x200B;を選択します。
+1. **Canvas ダッシュボード** ページで、編集するフィルターを含むレポートの右上隅にある&#x200B;**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) アイコンをクリックし、**編集**&#x200B;を選択します。
 
-   ![ レポートの編集](assets/edit-report-box.png)
+   ![&#x200B; レポートの編集](assets/edit-report-box.png)
 
 1. **設定** ダイアログボックスの左側で、**フィルター** パネルを選択します。
 
@@ -165,15 +170,15 @@ ht-degree: 52%
 
 * ユーザー`name`属性でフィルタリングを行うと、**自分（ログイン済みユーザー）** オプションが表示されます。
 
-  ![ ユーザー名属性](assets/user-name-attribute.png)
+  ![&#x200B; ユーザー名属性](assets/user-name-attribute.png)
 
 * グループ `name`属性でフィルタリングを実行すると、**マイホームグループ （ユーザーグループにログイン）**&#x200B;および&#x200B;**他のグループ （ユーザーグループにログイン）**&#x200B;のオプションが表示され、フィルター条件で使用されます。
 
-  ![ グループ名属性](assets/group-name-attribute.png)
+  ![&#x200B; グループ名属性](assets/group-name-attribute.png)
 
 * チーム `name`属性でフィルタリングを行うと、**デフォルトのチーム （ユーザーチームにログイン）**&#x200B;と&#x200B;**他のチーム （ユーザーチームにログイン）**&#x200B;のオプションが表示され、フィルター条件で選択できるようになります。
 
-  ![ チーム名の属性](assets/team-name-attribute.png)
+  ![&#x200B; チーム名の属性](assets/team-name-attribute.png)
 
 
 ### 子オブジェクトの参照

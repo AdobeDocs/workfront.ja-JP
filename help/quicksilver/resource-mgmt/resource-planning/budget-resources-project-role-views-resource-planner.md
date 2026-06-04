@@ -7,11 +7,18 @@ author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
 TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2087
@@ -110,7 +117,7 @@ ht-degree: 94%
 
    * プロジェクトの&#x200B;**その他**&#x200B;メニューをクリックし、「**役割の予定時間数を予算計上値として設定する**」をクリックします。\
      役割ごとの予算計上時間数は、次の式を使用して計算されます。\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -161,7 +168,7 @@ ht-degree: 94%
 
 役割ビューのリソースプランナーで予算配分を行うには、次の操作を実行します。
 
-1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)をクリックします。
+1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックします。
 
 1. 「**リソース**」をクリックします。
 1. 「**計画担当者**」がデフォルトで表示されます。
@@ -180,8 +187,8 @@ ht-degree: 94%
    * **BDG** 列で、担当業務の予算計上時間数、FTE またはコストを手動で指定します。\
      これにより、管理アクセス権のあるプロジェクトで、役割の予算計上時間数がプロジェクトの予算計上時間数に配分されます。
 
-   * 担当業務の「**詳細**」メニューをクリックし、「プロジェクトの予定時間数を予算計上として設定**をクリックします。**担当業務の予算計上時間数は、次の式を使用して計算されます。\
-     *
+   * 担当業務の「**詳細**」メニューをクリックし、「プロジェクトの予定時間数を予算計上として設定&#x200B;**をクリックします。**&#x200B;担当業務の予算計上時間数は、次の式を使用して計算されます。\
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
@@ -218,7 +225,7 @@ ht-degree: 94%
 
 1. 「**保存**」をクリックします。\
    リソースプランナーでリソースを予算化すると、リソースの予算計上時間数とそれに関連するコストが、各プロジェクトのビジネスケースに一覧表示されます。
-ビジネスケースのリソース予算編成領域について詳しくは、「[ ビジネスケースの予算リソース ](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)」の記事を参照してください。
+ビジネスケースのリソース予算編成領域について詳しくは、「[&#x200B; ビジネスケースの予算リソース &#x200B;](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)」の記事を参照してください。
 
 1. （オプション）**ユーザー別表示**&#x200B;ビューを選択して、各ユーザーの利用可能時間と予定時間数の間のユーザー割り当て超過または稼働率不足を確認します。 予算計上時間は、ユーザー別表示ビューには表示されません。
 

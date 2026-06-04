@@ -7,11 +7,17 @@ exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/qygnrDjFX8nyguWutANKyLSz1Bi9C4C0rWkBaTmRSHI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 441
@@ -72,7 +78,7 @@ ht-degree: 91%
 
 1. カスタマイズしたいグループ化を含むオブジェクトのリストに移動します。
 1. **グループ化**&#x200B;アイコンをクリックします。
-1. カスタマイズするグループ化を選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. カスタマイズするグループ化を選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
    ![編集アイコンを選択します。](assets/customizegrouping-nwe-standard-350x291.png)
 

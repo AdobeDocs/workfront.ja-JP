@@ -7,10 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
 TQID: https://experienceleague.adobe.com/ZQdzgCsLVITuWGbOaXfjbnk90MUGr3KFJ7xXJdrAK30
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 484
@@ -26,7 +30,7 @@ ht-degree: 78%
 
 効率的なリソース管理は、リソースプールにユーザーを追加し、プロジェクトに添付することなしには実現できません。 これは、リソース計画機能を使用するための前提条件です。
 
-リソース計画の使用を開始する前に必要な前提条件について詳しくは、記事[ リソース計画者の概要](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)の「リソース計画者で作業するための前提条件」セクションを参照してください。
+リソース計画の使用を開始する前に必要な前提条件について詳しくは、記事[&#x200B; リソース計画者の概要](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)の「リソース計画者で作業するための前提条件」セクションを参照してください。
 
 リソースプールの作成と管理について詳しくは、以下の記事を参照してください。
 

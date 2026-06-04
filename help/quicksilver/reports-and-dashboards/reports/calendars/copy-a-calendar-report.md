@@ -9,10 +9,15 @@ exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/gC8TXyyUEJobJeHgbzq9F6gY2RY9UhZtXQF6rb9roSY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 313
@@ -67,7 +72,7 @@ ht-degree: 77%
 
 1. コピーするカレンダーに移動します。
 1. カレンダーのドロップダウンメニューの横にある&#x200B;**詳細** メニューをクリックします。
-   ![ カレンダーの詳細メニュー](assets/more-menu-calendar.png)
+   ![&#x200B; カレンダーの詳細メニュー](assets/more-menu-calendar.png)
 
 1. ドロップダウンリストから「**[!UICONTROL コピー]**」を選択します。 カレンダーがコピーされ、新しいコピーに移動します。
 
@@ -76,6 +81,6 @@ ht-degree: 77%
    >
    >元のカレンダー内のすべてのプロジェクトとカレンダーのグループ化は、カレンダーのコピーに表示されます。 カレンダーフィルターで配置されたオブジェクトのみが、新しくコピーされたカレンダーに書き出されます。 元のカレンダーに手動で追加したイベントは、コピーしたカレンダーに手動で追加する必要があります。
    >
-   >コピーしたカレンダーに対するアクセス権を持つのは自分だけです。 元のカレンダーに対するアクセス権を持つユーザーは、コピーしたカレンダーに対するアクセス権を持ちません。 新しく作成したカレンダーを他のユーザーと共有することで、そのカレンダーへのアクセス権を付与できます。 カレンダーの共有について詳しくは、[[!UICONTROL カレンダー ] レポートを共有](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)を参照してください。
+   >コピーしたカレンダーに対するアクセス権を持つのは自分だけです。 元のカレンダーに対するアクセス権を持つユーザーは、コピーしたカレンダーに対するアクセス権を持ちません。 新しく作成したカレンダーを他のユーザーと共有することで、そのカレンダーへのアクセス権を付与できます。 カレンダーの共有について詳しくは、[[!UICONTROL カレンダー &#x200B;] レポートを共有](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)を参照してください。
 
 1. （オプション）カレンダーレポートの名前を変更するには、カレンダードロップダウンメニューの横にある「**名前を変更**」をクリックします。
