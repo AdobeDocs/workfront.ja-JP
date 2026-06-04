@@ -5,9 +5,14 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+TQID: https://experienceleague.adobe.com/CrFWO4QcYrsw-L92PM9hys3eAAQPVU-JiqY60xj4lc4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: 284
 ht-degree: 100%
 
 ---
@@ -34,10 +39,10 @@ ht-degree: 100%
 >2023年6月30日から7月13日のプレビューでは、割り当てレートの上書き機能が一時的に無効になりました。
 
 
-有効日のコスト率と請求率が、Workfront の会社、ユーザー、および担当業務のオブジェクトで使用できるようになりました。プロジェクトに有効日のレートが適用され、時間がプロジェクトタスクにログオンすると、コストと売上高は各期間の指定されたレートを使用して計算されます。
+有効日のコスト率と請求率が、Workfront の会社、ユーザー、および担当業務のオブジェクトで使用できるようになりました。 プロジェクトに有効日のレートが適用され、時間がプロジェクトタスクにログオンすると、コストと売上高は各期間の指定されたレートを使用して計算されます。
 
-また、ユーザープロファイルで有効日の担当業務を使用できるようになりました。これらの有効日の役割の関連付けは、プロジェクト中にユーザーの担当業務が変更された場合に財務計算で考慮されます。
+また、ユーザープロファイルで有効日の担当業務を使用できるようになりました。 これらの有効日の役割の関連付けは、プロジェクト中にユーザーの担当業務が変更された場合に財務計算で考慮されます。
 
-新機能のレートカードを使用すると、場所に基づいて、担当業務ごとに複数の請求率を定義できます。担当業務と場所に対する請求率には、有効日も含めることができます。レートカードをプロジェクトに添付して、特定の担当業務と場所に対してすべてのレート情報を一度に適用できます。場所に基づく役割をタスクに割り当てることもでき、割り当てレベルでそのレートを上書きすることができます。
+新機能のレートカードを使用すると、場所に基づいて、担当業務ごとに複数の請求率を定義できます。 担当業務と場所に対する請求率には、有効日も含めることができます。 レートカードをプロジェクトに添付して、特定の担当業務と場所に対してすべてのレート情報を一度に適用できます。 場所に基づく役割をタスクに割り当てることもでき、割り当てレベルでそのレートを上書きすることができます。
 
 詳細については、[ユーザープロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)、[担当業務の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)、[請求と収益の概要](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)を参照してください。

@@ -2,15 +2,21 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードの作成
-description: ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。レポート、カレンダー、外部ページをダッシュボードに追加して他の人たちと共有し、最適なコラボレーションを実現できます。
+description: ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。 レポート、カレンダー、外部ページをダッシュボードに追加して他の人たちと共有し、最適なコラボレーションを実現できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/10mJlaS0Oy6J1CYDsDTz65NfZDoZRaWgK4nfGwSuQf0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: 496
 ht-degree: 84%
 
 ---
@@ -19,7 +25,7 @@ ht-degree: 84%
 
 <!--Audited: 01/2025-->
 
-ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。ダッシュボードには、最大25のレポート、カレンダー、外部ページを追加でき、最適なコラボレーションのために他のユーザーと共有できます。
+ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。 ダッシュボードには、最大25のレポート、カレンダー、外部ページを追加でき、最適なコラボレーションのために他のユーザーと共有できます。
 
 ダッシュボードについて詳しくは、[ダッシュボードの基本を学ぶ](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)を参照してください。
 
@@ -65,7 +71,7 @@ ht-degree: 84%
 
 * **カレンダー**：カレンダーの作成については、[カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)を参照してください。
 
-既存の外部ページをダッシュボードに追加することも、新しいダッシュボードからページを作成することもできます。外部ページの作成について詳しくは、[外部 web ページをダッシュボードに埋め込む](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)を参照してください。
+既存の外部ページをダッシュボードに追加することも、新しいダッシュボードからページを作成することもできます。 外部ページの作成について詳しくは、[外部 web ページをダッシュボードに埋め込む](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)を参照してください。
 
 ## ダッシュボードの作成
 
@@ -91,7 +97,7 @@ ht-degree: 84%
     </tbody>
    </table>
 
-1. レイアウトを選択するには、**レイアウトを選択／レポートを追加／カレンダーを追加**&#x200B;セクションの上部にある、対応するラジオボタンをクリックします。これは、レポート、カレンダー、外部ページがダッシュボードに表示されるレイアウトです。
+1. レイアウトを選択するには、**レイアウトを選択／レポートを追加／カレンダーを追加**&#x200B;セクションの上部にある、対応するラジオボタンをクリックします。 これは、レポート、カレンダー、外部ページがダッシュボードに表示されるレイアウトです。
 
    1 列レイアウトがデフォルトになります。
 
@@ -105,7 +111,7 @@ ht-degree: 84%
 
    >[!NOTE]
    >
-   >項目を検索すると、最近作成された 2,000 個のレポートから検索結果が返されます。Unicode 文字を含んだレポート名は、検索結果には含まれません。ベストプラクティスとしては、Workfront でオブジェクトに名前を付ける際に、名前を別のソースからコピー＆ペーストするのではなく手入力することで、Unicode 文字が含まれないようにします。
+   >項目を検索すると、最近作成された 2,000 個のレポートから検索結果が返されます。 Unicode 文字を含んだレポート名は、検索結果には含まれません。 ベストプラクティスとしては、Workfront でオブジェクトに名前を付ける際に、名前を別のソースからコピー＆ペーストするのではなく手入力することで、Unicode 文字が含まれないようにします。
 
    ![レポートの検索](assets/unshimmed-dashboard-ui.png)
 
@@ -115,4 +121,4 @@ ht-degree: 84%
 
 1. 「**保存して閉じる**」をクリックします。
 
-   ダッシュボードの右上隅にタイムスタンプが表示されます。このタイムスタンプには、ダッシュボードが最後に更新された日付、時刻およびタイムゾーンが含まれています。
+   ダッシュボードの右上隅にタイムスタンプが表示されます。 このタイムスタンプには、ダッシュボードが最後に更新された日付、時刻およびタイムゾーンが含まれています。

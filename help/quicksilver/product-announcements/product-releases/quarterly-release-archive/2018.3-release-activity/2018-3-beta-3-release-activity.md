@@ -2,25 +2,31 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.3 Beta 3 リリースアクティビティ
-description: このページでは、2018.3 Beta 3 リリースでのプレビュー環境で最近行われたすべての変更点について説明します。この機能は、2018年8月16日（PT）にプレビュー環境で使用できるようになります。2018年11月に、実稼動環境で利用可能になる予定です。
+description: このページでは、2018.3 Beta 3 リリースでのプレビュー環境で最近行われたすべての変更点について説明します。 この機能は、2018年8月16日（PT）にプレビュー環境で使用できるようになります。 2018年11月に、本番環境で利用可能になる予定です。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+TQID: https://experienceleague.adobe.com/noEIBL6-bxByD8in9x7a2XHTPfU3QQ2YVWp5jaTb5n4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 561
+ht-degree: 100%
 
 ---
 
 # 2018.3 Beta 3 リリースアクティビティ
 
-このページでは、2018.3 Beta 3 リリースでのプレビュー環境で最近行われたすべての変更点について説明します。この機能は、2018年8月16日（PT）にプレビュー環境で使用できるようになります。2018年11月に、実稼動環境で利用可能になる予定です。
+このページでは、2018.3 Beta 3 リリースでのプレビュー環境で最近行われたすべての変更点について説明します。 この機能は、2018年8月16日（PT）にプレビュー環境で使用できるようになります。 2018年11月に、本番環境で利用可能になる予定です。
 
 >[!NOTE]
 >
->このページで説明する機能は、実稼動環境で使用可能になる前に変更される場合があります。
+> このページで説明する機能は、本番環境で使用可能になる前に変更される場合があります。
 
 2018.3 で行われたすべての変更のリストについては、[2018.3 リリースアクティビティの概要](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)を参照してください。
 
@@ -35,14 +41,14 @@ ht-degree: 0%
 * [ホームエリアがデフォルトになりました](#home-area-is-now-the-default)
 * [ホームでの作業の優先度設定](#prioritize-your-work-in-home)
 * [リソースプランナーユーザービューの一意の URL](#unique-url-for-the-resource-planner-user-view)
-* [Workfront モバイルアプリでのプロファイル画像のアップロード](#upload-profile-picture-in-the-workfront-mobile-app)
+* [Workfront モバイルアプリでのプロファイル画像のアップロード](#upload-profile-picture-in-the-workfront-mobile-app) 
 * [Workfront モバイルアプリのカスタムフォームの改善](#custom-form-improvement-in-the-workfront-mobile-app)
 * [Workfront モバイルアプリでの横置き方向での時間の記録](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
 * [Workfront モバイルアプリの下部ナビゲーションバーでのアイコンの並べ替え](#rearrange-the-icons-in-the-bottom-navigation-bar-in-the-workfront-mobile-app)
 
 ## ホームエリアがデフォルトになりました {#home-area-is-now-the-default}
 
-ホームエリアの Beta タグをすべて削除しました。2019.1 リリースで実施される、自分の作業エリアでの削除に備えて、すべてのレイアウトテンプレートがデフォルトでホームエリアに設定されるようになりました。
+ホームエリアの Beta タグをすべて削除しました。 2019.1 リリースで実施される、自分の作業エリアでの削除に備えて、すべてのレイアウトテンプレートがデフォルトでホームエリアに設定されるようになりました。
 
 ## ホームでの作業の優先度設定 {#prioritize-your-work-in-home}
 
@@ -63,13 +69,13 @@ ht-degree: 0%
 
 ## リソースプランナーユーザービューの一意の URL {#unique-url-for-the-resource-planner-user-view}
 
-ユーザービューに表示される際に、リソースプランナーの一意の URL を生成できます。この URL をダッシュボードに埋め込むか、新しいブラウザータブまたはウィンドウに貼り付けて、「リソースプランナー」タブの外にユーザービューを表示できます。
+ユーザービューに表示される際に、リソースプランナーの一意の URL を生成できます。 この URL をダッシュボードに埋め込むか、新しいブラウザータブまたはウィンドウに貼り付けて、「リソースプランナー」タブの外にユーザービューを表示できます。
 
 以前は、この機能は利用できませんでした。
 
 詳しくは、[リソースプランナーナビゲーションの概要](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md)の「ユーザービューの一意の URL」の節を参照してください。
 
-## Workfront モバイルアプリでのプロファイル画像のアップロード {#upload-profile-picture-in-the-workfront-mobile-app}
+## Workfront モバイルアプリでのプロファイル画像のアップロード  {#upload-profile-picture-in-the-workfront-mobile-app}
 
 Android 用 Workfront Beta アプリを使用して、プロファイル画像をアップロードできるようになりました。
 

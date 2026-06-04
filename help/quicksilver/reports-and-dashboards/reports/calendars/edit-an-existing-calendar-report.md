@@ -2,22 +2,27 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 既存のカレンダーレポートの編集
-description: プロジェクトへのリンクを追加または削除することで、既存のカレンダーを変更できます。また、カレンダーレポートに関連付けられているカレンダーのグループ化を変更することもできます。
+description: プロジェクトへのリンクを追加または削除することで、既存のカレンダーを変更できます。 また、カレンダーレポートに関連付けられているカレンダーのグループ化を変更することもできます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/rgdmNzbJUt8eDoT7XBI2NbmDO55aaM9SgLZf6b64NQQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 69%
+source-wordcount: 258
+ht-degree: 66%
 
 ---
 
 # 既存のカレンダーレポートの編集
 
-プロジェクトへのリンクを追加または削除することで、既存のカレンダーを変更できます。また、カレンダーレポートに関連付けられているカレンダーのグループ化を変更することもできます。
+プロジェクトへのリンクを追加または削除することで、既存のカレンダーを変更できます。 また、カレンダーレポートに関連付けられているカレンダーのグループ化を変更することもできます。
 
 >[!NOTE]
 >
@@ -63,18 +68,18 @@ ht-degree: 69%
 {{step1-to-calendars}}
 
 1. （オプション）カレンダーレポートの名前を変更するには、カレンダードロップダウンメニューの横にある「**名前を変更**」をクリックします。
-カレンダーレポートを他のユーザーやチームと共有している場合は、共有相手のカレンダービューで変更したカレンダー名が自動的に更新されます。
+カレンダーレポートを他のユーザーまたはチームと共有した場合、変更されたカレンダー名はカレンダービューで自動的に更新されます。
 
 1. （オプション）カレンダーレポートにプロジェクトを追加するには、次の手順に従います。
    1. 「**[!UICONTROL カレンダーに追加]」をクリックします。**
    1. カレンダーイベントを追加するプロジェクトの名前を入力し、ドロップダウンリストに表示される名前をクリックします。
    1. 「**追加**」をクリックします。
-      ![&#x200B; カレンダーにプロジェクトを追加](assets/add-a-calendar-project.png)
+      ![ カレンダーにプロジェクトを追加](assets/add-a-calendar-project.png)
 
 
 1. （オプション）カレンダーのグループ化を追加するか、カレンダーの既存のグループ化を変更するには、次の手順に従います。
-   1. プロジェクト名の横にある&#x200B;**詳細** メニューをクリックし、**編集**&#x200B;をクリックします。
-      ![&#x200B; カレンダーでプロジェクトを編集](assets/edit-project-in-calendar.png)
+   1. プロジェクト名の横にある&#x200B;**詳細** メニューをクリックし、**編集**をクリックします。
+      ![ カレンダーでプロジェクトを編集](assets/edit-project-in-calendar.png)
 
    1. アイテムをグループ化する方法を次の中から選択します。
 

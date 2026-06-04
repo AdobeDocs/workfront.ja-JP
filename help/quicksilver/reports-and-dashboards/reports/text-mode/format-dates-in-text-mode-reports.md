@@ -2,16 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: テキストモードのレポートで日付を書式設定する
-description: Adobe Workfront では、レポートやリストに様々な形式で表示されるように日付を設定できます。日付形式を設定するには、列のテキストモードコードの valueformat 行を変更する必要があります。
+description: Adobe Workfront では、レポートやリストに様々な形式で表示されるように日付を設定できます。 日付形式を設定するには、列のテキストモードコードの valueformat 行を変更する必要があります。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/-8gB8XDwLQTBCUsrex-PIAyxcF-rSPsoM2Gvw2EhTaU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 90%
+source-wordcount: 204
+ht-degree: 92%
 
 ---
 
@@ -19,7 +23,7 @@ ht-degree: 90%
 
 <!-- Audited: 1/2025 -->
 
-Adobe Workfront では、レポートやリストに様々な形式で表示されるように日付を設定できます。日付形式を設定するには、列のテキストモードコードの `valueformat` 行を変更する必要があります。
+Adobe Workfront では、レポートやリストに様々な形式で表示されるように日付を設定できます。 日付形式を設定するには、列のテキストモードコードの `valueformat` 行を変更する必要があります。
 
 `valueformat= [new date format]`例えば、見込み完了日を MM/DD/YY と表示する場合、コードは次のようになります。
 

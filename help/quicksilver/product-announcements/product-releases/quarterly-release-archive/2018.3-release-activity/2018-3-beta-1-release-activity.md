@@ -2,29 +2,32 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.3 ベータ版 1 リリースアクティビティ
-description: このページでは、2018.3 ベータ 1 リリースでのプレビュー環境で最近行われたすべての変更点について説明します。この機能は、2018年6月1日（PT）にプレビュー環境で使用できるようになります。ベータ 1 でリリースされるプルーフの機能強化は、7月18日水曜日（PT）にプレビュー環境で利用できるようになります。2018年11月に、実稼動環境で利用可能になる予定です。
+description: このページでは、2018.3 Beta 1 リリースでのプレビュー環境で最近行われたすべての変更点について説明します。 この機能は、2018年6月1日（PT）にプレビュー環境で使用できるようになります。 Beta 1 でリリースされるプルーフの機能強化は、7月18日水曜日（PT）にプレビュー環境で利用できるようになります。 2018年11月に、本番環境で利用可能になる予定です。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b19c0086-89b2-46c3-a70d-0140dfbd11e8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/K8AzmxJ1-IDBBvc7qZa-1q-Jl0stVWgDFUA1MufTewI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: 552
 ht-degree: 100%
 
 ---
 
 # 2018.3 ベータ版 1 リリースアクティビティ
 
-このページでは、2018.3 ベータ 1 リリースでのプレビュー環境で最近行われたすべての変更点について説明します。この機能は、2018年6月1日（PT）にプレビュー環境で使用できるようになります。ベータ 1 でリリースされるプルーフの機能強化は、7月18日（水）（PT）にプレビュー環境で利用できるようになります。2018年11月に、実稼動環境で利用可能になる予定です。
+このページでは、2018.3 Beta 1 リリースでのプレビュー環境で最近行われたすべての変更点について説明します。 この機能は、2018年6月1日（PT）にプレビュー環境で使用できるようになります。 Beta 1 でリリースされるプルーフの機能強化は、7月18日水曜日（PT）にプレビュー環境で利用できるようになります。 2018年11月に、本番環境で利用可能になる予定です。
 
 >[!NOTE]
 >
->このページで説明する機能は、実稼動環境で使用可能になる前に変更される場合があります。
+> このページで説明する機能は、本番環境で使用可能になる前に変更される場合があります。
 
 2018.3 で行われたすべての変更のリストについては、[2018.3 リリースアクティビティの概要](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)を参照してください。
 
-2018.3 1 リリースには、次の機能強化が含まれています。
+2018.3 Beta 1 リリースには、次の機能強化が含まれています。
 
 * [ホームでチームリクエストにアクセス](#access-team-requests-in-home)
 * [プロジェクトリストのガントチャートでタスク情報の表示](#view-task-information-in-the-project-list-gantt-chart)
