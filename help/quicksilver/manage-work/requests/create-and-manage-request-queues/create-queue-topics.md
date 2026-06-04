@@ -2,17 +2,33 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: キュートピックを作成
-description: キューのトピックは、ルーティングルールと連携して、作業依頼をユーザー、担当業務、チームにを自動的に割り当てたり、プロジェクトに配置したりします。キューのトピックでは、ルーティングルールを実装するために必要な条件を定義します。
+description: キューのトピックは、ルーティングルールと連携して、作業依頼をユーザー、担当業務、チームにを自動的に割り当てたり、プロジェクトに配置したりします。 キューのトピックでは、ルーティングルールを実装するために必要な条件を定義します。
 author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/SBPIFd6lCHfwvZgZ-7Qmjt8miUM6Sjz9iY7BADIpnLk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 79%
+source-wordcount: 972
+ht-degree: 74%
 
 ---
 
@@ -20,9 +36,9 @@ ht-degree: 79%
 
 <!-- Audited: 12/2023 -->
 
-キューのトピックは、ルーティングルールと連携して、作業依頼をユーザー、担当業務、チームにを自動的に割り当てたり、プロジェクトに配置したりします。キューのトピックでは、ルーティングルールを実装するために必要な条件を定義します。
+キューのトピックは、ルーティングルールと連携して、作業依頼をユーザー、担当業務、チームにを自動的に割り当てたり、プロジェクトに配置したりします。 キューのトピックでは、ルーティングルールを実装するために必要な条件を定義します。
 
-トピックグループまたはプロジェクトに割り当てることができるキューのトピックの数に制限はありません。キューのトピックは、レポート可能なオブジェクトタイプです。
+トピックグループまたはプロジェクトに割り当てることができるキューのトピックの数に制限はありません。 キューのトピックは、レポート可能なオブジェクトタイプです。
 
 個々のプロジェクトまたはプロジェクトテンプレート用のキュートピックを作成できます。
 
@@ -102,7 +118,7 @@ drafted - replace table with P&P:
 1. ヘルプリクエストキューとして有効にするプロジェクトまたはテンプレートと、新しいキュートピックを作成する場所に移動します。\
    プロジェクトをヘルプリクエストキューとして指定する方法について詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
-   関連するキュートピックは、トピックグループ下に整理できます。これにより、リクエストを行う際に、要求者に一連のドロップダウンメニューが表示されます。
+   関連するキュートピックは、トピックグループ下に整理できます。 これにより、リクエストを行う際に、要求者に一連のドロップダウンメニューが表示されます。
 
    または
 
@@ -124,25 +140,25 @@ drafted - replace table with P&P:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>説明</strong> </td> 
-      <td>リクエストキューについて説明します。説明は、新規リクエストを送信するプロセスで、ユーザーがキューのトピックを選択する際に表示されます。 </td> 
+      <td>リクエストキューについて説明します。 説明は、新規リクエストを送信するプロセスで、ユーザーがキューのトピックを選択する際に表示されます。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>トピック グループに追加</strong> </td> 
-      <td> プロジェクトにトピックグループがない場合、プロジェクトの名前がトピックグループとしてデフォルトで表示されます。<br>追加のトピックグループを作成する場合は、ドロップダウンメニューから「<strong>新規トピックグループを作成</strong>」を選択します。<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td> プロジェクトにトピックグループがない場合、プロジェクトの名前はデフォルトでトピックグループになります。<br>ここから追加のトピックグループを作成する場合は、ドロップダウンメニューから「<strong>新しいトピックグループを作成</strong>」を選択します。<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>カスタムフォーム</strong> </td> 
-      <td>キューのトピックに関連付けるカスタムフォームを選択します。イシューをキューのトピックに関連付ける前に、イシューのカスタムフォームを作成する必要があります。カスタムフォームの作成について詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> カスタムフォームの作成</a>を参照してください。</td> 
+      <td>キューのトピックに関連付けるカスタムフォームを選択します。 イシューをキューのトピックに関連付ける前に、イシューのカスタムフォームを作成する必要があります。 カスタムフォームの作成について詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> カスタムフォームの作成</a>を参照してください。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>デフォルトの承認</strong></td> 
-      <td> <p>このキューのトピックに承認プロセスを関連付けます。このドロップダウンメニューには、イシューの承認プロセスのみが表示されます。このキューに送信されたすべてのイシューが、この承認プロセスに関連付けられます。キュートピックに関連付ける前に、Adobe Workfront 管理者がシステムレベルの承認プロセスを定義する必要があります。<span>また、承認プロセスへの管理アクセスの権限を持つユーザーは、グループ固有の承認プロセスを作成できます。</span>承認プロセスの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">作業アイテムの承認プロセスの作成</a>を参照してください。<br></p> 
+      <td> <p>このキューのトピックに承認プロセスを関連付けます。 このドロップダウンメニューには、イシューの承認プロセスのみが表示されます。 このキューに送信されたすべてのイシューが、この承認プロセスに関連付けられます。 キュートピックに関連付ける前に、Adobe Workfront 管理者がシステムレベルの承認プロセスを定義する必要があります。 <span>承認プロセスへの管理アクセス権を持つユーザーは、グループ固有の承認プロセスを作成することもできます。</span> 承認プロセスの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">作業アイテムの承認プロセスの作成</a>を参照してください。<br></p> 
        <div> 
-        <p>重要：プロジェクトのグループが変更されると、既存のイシューに関連付けられたグループ固有の承認プロセスが、1 回限りの承認プロセスになります。プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。</p> 
+        <p>重要：プロジェクトのグループが変更されると、既存のイシューに関連付けられたグループ固有の承認プロセスが、1 回限りの承認プロセスになります。 プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。</p> 
         <p>キューのトピックに承認プロセスを追加する際は、次の点を考慮してください。 </p> 
         <ul style="list-style-type: circle;"> 
          <li>アクティブな承認プロセスのみがリストに表示されます。 </li> 
-         <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。プロジェクトの承認プロセス以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> </li> 
+         <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。 プロジェクトの承認プロセス以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -152,13 +168,13 @@ drafted - replace table with P&P:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>既定のルート</strong> </td> 
-      <td>キューのトピックに関連付けるルーティングルールを指定します。ルーティングルールをキュートピックに添付する前に、ルーティングルールを作成する必要があります。詳しくは、<a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">ルーティングルールの作成</a>を参照してください。 </td> 
+      <td>キューのトピックに関連付けるルーティングルールを指定します。 ルーティングルールをキュートピックに添付する前に、ルーティングルールを作成する必要があります。 詳しくは、<a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">ルーティングルールの作成</a>を参照してください。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>リクエストタイプ</strong> </td> 
-      <td> <p>このキュートピックに保存するリクエストの種類を選択します。表示オプションは、プロジェクトの「<strong>キューの詳細</strong>」タブで設定します。必須フィールドです。 </p> 
+      <td> <p>このキュートピックに保存するリクエストの種類を選択します。 表示オプションは、プロジェクトの「<strong>キューの詳細</strong>」タブで設定します。 必須フィールドです。 </p> 
        <p><b>メモ</b>：</p>
-      <p>「キューの詳細」ページと「キュートピック」ページの両方で「リクエストタイプ」が選択されている場合にのみ、タイプが「要求」エリアに選択肢として表示されます。プロジェクトの「キューの詳細」エリアの設定について詳しくは、<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>を参照してください。 </p> <p>次のタイプから選択します。</p> 
+      <p>「キューの詳細」ページと「キュートピック」ページの両方で「リクエストタイプ」が選択されている場合にのみ、タイプが「要求」エリアに選択肢として表示されます。 プロジェクトの「キューの詳細」エリアの設定について詳しくは、<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>を参照してください。 </p> <p>次のタイプから選択します。</p> 
        <ul> 
         <li>バグレポート</li> 
         <li>変更依頼</li> 

@@ -2,14 +2,24 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: タスク制約の概要：指定日以後に終了
+title: タスクの制約の概要：終了する前
 description: 「これよりも早く終了しない」（FNET）は、指定した日付以降にタスクを完了するようにスケジュールするタスク制約です。
 author: Alina
 feature: Work Management
 exl-id: b1dbf5c9-34b6-4c25-b582-ce9454501e03
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/fakHLYvXAaWhCt5oPTFSR0egxoCjqw2fMRzA5M4WqDY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: 388
 ht-degree: 98%
 
 ---
@@ -22,9 +32,9 @@ ht-degree: 98%
 
 タスクに対して「これよりも早く終了しない」（FNET）制約を使用する場合は、以下の点を考慮してください。
 
-* プロジェクトが「完了日から」にスケジュールされる場合は、この制約を使用する必要があります。この場合、他の依存タスクを強制的に「危険あり」と表示する前に、タスクにソフト制約を与えることができます。
+* プロジェクトが「完了日から」にスケジュールされる場合は、この制約を使用する必要があります。 この場合、他の依存タスクを強制的に「危険あり」と表示する前に、タスクにソフト制約を与えることができます。
 * 「**開始日から**」にスケジュールされたプロジェクトで FNET を使用すると、タスクは制約により「できるだけ早く」という制約の場合と同じようにスケジュールされます。
-* FNET 制約を使用しているタスクを別のプロジェクトに移動またはコピーすると、制約の日付およびプロジェクトの開始日や完了日によって、タスクの制約またはプロジェクトの日付が変更される可能性があります。次のシナリオが存在します。
+* FNET 制約を使用しているタスクを別のプロジェクトに移動またはコピーすると、制約の日付およびプロジェクトの開始日や完了日によって、タスクの制約またはプロジェクトの日付が変更される可能性があります。 次のシナリオが存在します。
 
    * 宛先プロジェクトが開始からスケジュールされている場合：
 
@@ -38,7 +48,7 @@ ht-degree: 98%
 
    * プロジェクトのスケジュールに関係なく、タスクの制約の指定日がプロジェクトの開始日と完了日の範囲内にある場合、タスクの制約やプロジェクトの日付は変更されません。
 
-  タスクの移動について詳しくは、[タスクの移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。タスクのコピーについて詳しくは、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)を参照してください。
+  タスクの移動について詳しくは、[タスクの移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。 タスクのコピーについて詳しくは、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)を参照してください。
 
   タスクでタスクの制約を更新する方法については、[タスクでタスクの制約を更新](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)を参照してください。
 

@@ -8,9 +8,34 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+TQID: https://experienceleague.adobe.com/T7r9XDUzONpksCcMEV5-lz2GBplu5-9XQjvBgO-1-xg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: 2403
 ht-degree: 100%
 
 ---
@@ -83,7 +108,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">21.3 実稼動版リリースで利用可能なブループリント</a> </p> <p>ブループリント機能は、2021年6月21日（PT）の週に 21.3 実稼動版リリースで一般に利用できるようになります。</p> <p>ブループリントは、ユーザーとともに成長する作業管理システムを作成するのに役立つ基本的な構成要素を提供します。 システム管理者は、ブループリントカタログを参照して、すぐに使えるプロジェクトテンプレートをインストールできます。</p> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：2021年4月22日（PT）（21.2 リリースを使用）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：2021年4月22日（PT）（21.2 リリースを使用）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">グループ管理者向けの新機能：任意のレベルでグループのステータスを作成および管理</a> </p> <p>組織のすべてのレベルでワークフローを個別に管理および制御しやすくするために、サブグループのステータスを作成および管理する機能が導入されました。 </p> </td> 
@@ -91,7 +116,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">管理者向けの新機能：請求記録のカスタムフォームを作成</a> </p> <p>請求記録のカスタムフォームを作成することで、ユーザーが請求情報を取得する方法を改善できます。 ユーザーは、請求記録にカスタムフォームを添付し、記入して、フォーム内の情報を含むレポートを実行できます。</p> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：2021年5月20日（PT）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：2021年5月20日（PT）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -112,7 +137,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#easier" class="MCXref xref" xrefformat="{para}">詳細セクションのフィールドの編集が容易になりました</a> </p> <p>様々な改善により、任意のオブジェクトの詳細セクションで情報をより簡単に編集できます。 これらの改善点には、フィールドにポインタを合わせたときにフィールドの周囲に、そのフィールドが編集可能であることを示す灰色のアウトラインが表示され、フィールドを 1 回クリックすると編集できる機能も含まれます。</p> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：2021年6月3日（PT）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：2021年6月3日（PT）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#consider" class="MCXref xref" xrefformat="{para}">ハンドオフ日を計算する際には、プロジェクト間の先行タスクを考慮します</a> </p> <p>Adobe Workfront によるタスクのハンドオフ日の計算方法が新たに改善され、プロジェクト間の依存関係が考慮されるようになりました。 </p> <p>以前は、同じプロジェクトのタスクの先行タスクのみに基づいて、ハンドオフ日が計算されていました。 </p> <p>ここで、プロジェクト間の先行タスクを持つタスクのハンドオフ日を常に正確に把握するには、後続タスクのプロジェクトのタイムラインを再計算する必要があります。 タイムラインを再計算した後、タスクのハンドオフ日は、タスクのプロジェクト間の依存関係を考慮して計算されます。</p> </td> 
@@ -132,7 +157,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">アジャイルカードのヘッダーとストーリーボードを更新</a> </p> <p>かんばんおよびスクラムボードで、ストーリーカードおよびボード列の固定幅、ストーリー列の親ストーリーへの名前変更など、様々な機能強化が利用できるようになりました。</p> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：2021年6月3日（PT）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：2021年6月3日（PT）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#group" class="MCXref xref" xrefformat="{para}">プロジェクト、タスクおよびイシューの環境設定をグループ化</a> </p> <p>先ほどお伝えしたように、プロジェクト、タスクおよびイシューの環境設定に対するグループレベルのカスタマイズを展開しました。 2021年6月24日（PT）までは、すべての EMEA（ヨーロッパ、中東、アフリカ）地域のお客様および他のすべてのお客様の一部に対して、実稼働環境で提供されいました。 現在は、すべてのお客様が利用できます。</p> </td> 
@@ -148,11 +173,11 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#added" class="MCXref xref" xrefformat="{para}">オブジェクトのヘッダーに予定完了日のタイムスタンプを追加</a> </p> <p>容易なアクセス、利便性と正確性を高めるために、プロジェクト、タスクまたはイシューのヘッダーの予定完了日にタイムスタンプを選択するオプションが追加されました。 </p> <p>この機能強化が行われる前は、オブジェクトの予定完了日を更新した場合、Workfront ではデフォルトの時刻として午前 0 時が選択されていました。 これで、時間と完了日をカスタマイズできます。</p> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：2021年5月20日（PT）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：2021年5月20日（PT）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#add3" class="MCXref xref" xrefformat="{para}">カスタムフォームを編集せずにオブジェクトに追加</a> </p> <p>他のユーザーが入力するカスタムフォーム（または、後で入力するカスタムフォーム）をオブジェクトに容易に追加できるようにしました。 フォームを追加する際に、フォームが自動的に編集モードに入らなくなりました。 空のフォームをオブジェクトに保存するだけで済みます。</p> <p>以前は、カスタムフォームをオブジェクトに追加した場合、ページが編集モードになり、フォーム上の必須フィールドを完了してから、オブジェクトに保存する必要がありました。 これは、別のユーザーが入力するためのフォームや、フォームの必須フィールドに何を入力するかまだわからない場合に不便でした。</p> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：2021年5月20日（PT）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：2021年5月20日（PT）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -190,7 +215,7 @@ For specific release dates and times for each cluster, see the
      <li> <p>リクエストを入力した最近のパスのリスト</p> </li> 
      <li> <p>パスに含まれる任意のキーワードでリクエストタイプを検索する機能。</p> </li> 
     </ul> <p>パスには、リクエストキューと、リクエストの送信時に選択したすべてのトピックグループおよびキュートピックが含まれます。</p> </td> 
-   <td> <p><strong>公開日：</strong> </p> <p>プレビューリリース：2021年6月3日（PT）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td> <p><strong>公開日：</strong> </p> <p>プレビューリリース：2021年6月3日（PT）<br></p> <p>実稼動版リリース：21.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,20 +1,25 @@
 ---
 title: フィールドの概要
-description: 組織のライフサイクルを反映する新しいフィールドを Adobe Workfront Planning に追加できます。フィールドは、レコードタイプの属性です。
+description: 組織のライフサイクルを反映する新しいフィールドを Adobe Workfront Planning に追加できます。 フィールドは、レコードタイプの属性です。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: 481
 ht-degree: 72%
 
 ---
-
 
 # フィールドの概要
 
@@ -27,12 +32,12 @@ ht-degree: 72%
 
 {{planning-important-intro}}
 
-組織のライフサイクルを反映する新しいフィールドを Adobe Workfront Planning に追加できます。フィールドは、レコードタイプの属性です。
+組織のライフサイクルを反映する新しいフィールドを Adobe Workfront Planning に追加できます。 フィールドは、レコードタイプの属性です。
 
 
 ## Adobe Workfront の計画フィールドに関する考慮事項
 
-* レコードを作成できるのは、レコードタイプのページのテーブルビューのみです。フィールドは、テーブルビューで列として表示されます。レコードタイプに関連付けられているすべてのフィールドは、レコードページにも表示されます。
+* レコードを作成できるのは、レコードタイプのページのテーブルビューのみです。 フィールドは、テーブルビューで列として表示されます。 レコードタイプに関連付けられているすべてのフィールドは、レコードページにも表示されます。
 
   テーブルの列（またはレコードフィールド）の管理については、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 
@@ -49,7 +54,7 @@ ht-degree: 72%
 
    * 手動：
 
-      * レコードタイプページのテーブルビューに列を追加する場合。 テーブルの列は、レコードタイプに関連付けられるフィールドです。これらは、レコードのページに表示されるフィールドと同じです。
+      * レコードタイプページのテーブルビューに列を追加する場合。 テーブルの列は、レコードタイプに関連付けられるフィールドです。 これらは、レコードのページに表示されるフィールドと同じです。
 
         フィールドは、レコードのページから作成することはできません。
 
@@ -70,7 +75,7 @@ ht-degree: 72%
          * 説明
          * 開始日
          * 終了日
-         * ステータス。レコードのステータスのデフォルト値を以下に示します。
+         * ステータス。 レコードのステータスのデフォルト値を以下に示します。
             * 開発
             * 予定
             * アクティブ
@@ -89,7 +94,7 @@ ht-degree: 72%
 
 * Workfront Planning フィールドには Workfront からアクセスできません。
 
-* レコードタイプを Workfront オブジェクトタイプと関連付け、Workfront オブジェクトからリンクされたフィールドまたは参照フィールドを追加した場合にのみ、Workfront Planning から Workfront フィールドにアクセスできます。詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+* レコードタイプを Workfront オブジェクトタイプと関連付け、Workfront オブジェクトからリンクされたフィールドまたは参照フィールドを追加した場合にのみ、Workfront Planning から Workfront フィールドにアクセスできます。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 * ワークスペースに対する管理権限と、そのフィールドが属するレコードタイプがある場合は、自分または他のユーザーが作成したフィールドの設定を表示および更新できます。
 

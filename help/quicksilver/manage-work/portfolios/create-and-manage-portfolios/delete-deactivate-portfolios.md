@@ -2,16 +2,28 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: ポートフォリオの削除と非アクティブ化
-description: ポートフォリオとは、Adobe Workfront のプロジェクトやプログラムを集めたものです。ポートフォリオがシステムに無関係な場合は、ポートフォリオを削除または非アクティブ化できます。
+description: ポートフォリオとは、Adobe Workfront のプロジェクトやプログラムを集めたものです。 ポートフォリオがシステムに無関係な場合は、ポートフォリオを削除または非アクティブ化できます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/kszFIGgchLbRBRYO6BExLU-jhzrQssGsfth9j9ybmcI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 66%
+source-wordcount: 447
+ht-degree: 69%
 
 ---
 
@@ -19,13 +31,13 @@ ht-degree: 66%
 
 <!--Audited: 08/2025-->
 
-ポートフォリオとは、[!DNL Adobe Workfront] のプロジェクトやプログラムを集めたものです。ポートフォリオがシステムに無関係な場合は、ポートフォリオを削除または非アクティブ化できます。
+ポートフォリオとは、[!DNL Adobe Workfront] のプロジェクトやプログラムを集めたものです。 ポートフォリオがシステムに無関係な場合は、ポートフォリオを削除または非アクティブ化できます。
 
 今後のプロジェクトと関連付ける必要がなくなったポートフォリオは、削除するよりも、非アクティブ化して、現在ポートフォリオとそのプログラムに関連付けられているプロジェクトの履歴情報を保持することをお勧めします。
 
 ## アクセス要件
 
-+++ 展開してアクセス要件を表示します。展開して、この記事の機能のアクセス要件を表示します。 
++++ 展開してアクセス要件を表示します。展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,7 +130,7 @@ For more detail about the information in this table, see [Access requirements in
 
 >[!NOTE]
 >
->[!DNL Workfront] 管理者またはグループ管理者によるレイアウトテンプレートの設定によっては、[!UICONTROL ポートフォリオ]エリアが[!UICONTROL メインメニュー]に表示されない場合があります。詳細情報については、[レイアウトテンプレートを使用したメインメニューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
+>[!DNL Workfront] 管理者またはグループ管理者によるレイアウトテンプレートの設定によっては、[!UICONTROL ポートフォリオ]エリアが[!UICONTROL メインメニュー]に表示されない場合があります。 詳細情報については、[レイアウトテンプレートを使用したメインメニューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
 {{step1-click-main-menu}}
 

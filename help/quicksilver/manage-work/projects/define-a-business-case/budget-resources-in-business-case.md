@@ -1,36 +1,45 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: ビジネスケースの予算リソース
-description: リソース計画の一環として、ビジネスケースの作成時に、プロジェクトでの作業の完了に必要な担当業務の予算を計上できます。ビジネスケースの作成について詳しくは、プロジェクトのビジネスケースを作成を参照してください。
+description: リソース計画の一環として、ビジネスケースの作成時に、プロジェクトでの作業の完了に必要な担当業務の予算を計上できます。 ビジネスケースの作成について詳しくは、プロジェクトのビジネスケースを作成を参照してください。
 author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/Kwb3yp8Sqjnch5vlnWHT2rixXbUODjOFG3xs8wIp1Cs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: 261
 ht-degree: 100%
 
 ---
 
 # ビジネスケースの予算リソース
 
-リソース計画の一環として、ビジネスケースの作成時に、プロジェクトでの作業の完了に必要な担当業務の予算を計上できます。ビジネスケースの作成について詳しくは、[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
+リソース計画の一環として、ビジネスケースの作成時に、プロジェクトでの作業の完了に必要な担当業務の予算を計上できます。 ビジネスケースの作成について詳しくは、[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
 >[!NOTE]
 >
->リソースの予算計上は、プロジェクトのリソースのスケジュール設定とは異なります。リソースの予算を計上する際は、プロジェクトの作業の完了に必要な役割を見積もります。プロジェクトの作業に実際にユーザーのスケジュールを設定したり割り当てたりする方法については、[ワークロードバランサーのユーザー割り当ての管理](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)を参照してください。
+>リソースの予算計上は、プロジェクトのリソースのスケジュール設定とは異なります。 リソースの予算を計上する際は、プロジェクトの作業の完了に必要な役割を見積もります。 プロジェクトの作業に実際にユーザーのスケジュールを設定したり割り当てたりする方法については、[ワークロードバランサーのユーザー割り当ての管理](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)を参照してください。
 
-プロジェクトでリソースの予算を計上する前に、担当業務をプロジェクトに関連付ける必要があります。担当業務をプロジェクトに割り当てる方法を次に示します。
+プロジェクトでリソースの予算を計上する前に、担当業務をプロジェクトに関連付ける必要があります。 担当業務をプロジェクトに割り当てる方法を次に示します。
 
 * リソースプランナーを使用して、リソースプールをプロジェクトおよび予算の担当業務に適用します。
 
   詳しくは、[リソースプランナーを使用したビジネスケースのリソースの予算計上](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)を参照してください。
 
-* シナリオプランナーを使用して、必要な担当業務を持つイニシアチブを作成し、プロジェクトにリンクします。詳しくは、[シナリオプランナーを使用したビジネスケースでのリソースの予算計上](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)を参照してください。
+* シナリオプランナーを使用して、必要な担当業務を持つイニシアチブを作成し、プロジェクトにリンクします。 詳しくは、[シナリオプランナーを使用したビジネスケースでのリソースの予算計上](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)を参照してください。
 
   >[!NOTE]
   >
-  >シナリオプランナーは、新しい Adobe Workfront エクスペリエンスでのみ使用でき、追加のライセンスが必要です。Workfront のシナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
+  >シナリオプランナーは、新しい Adobe Workfront エクスペリエンスでのみ使用でき、追加のライセンスが必要です。 Workfront のシナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

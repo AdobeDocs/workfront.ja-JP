@@ -6,10 +6,24 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/4KaZmtnTFIfSPZ6QmETm-Q0L7Ih0zHYxoP6BfQGm2kg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3370'
-ht-degree: 99%
+source-wordcount: 3298
+ht-degree: 97%
 
 ---
 
@@ -298,9 +312,9 @@ ht-degree: 99%
 
 </p>
 <ol>
-<li>Adobe XD ファイルを追加して、カスタムフォームをより視覚的で有益なものにします。 フォームがオブジェクトに添付されている場合、オブジェクトを操作するユーザーは、フォーム内から XD ファイルの表示と操作を行うことができます。
+<li>Adobe XD ファイルを追加して、カスタムフォームをより視覚的で有益なものにします。フォームがオブジェクトに添付されている場合、オブジェクトを操作するユーザーは、フォーム内からXD ファイルを表示して操作できます。
 </li>
-<li>クイックフィルターを使用すると、最新化されたカスタムフォームやフィールドリストで項目を簡単に見つけることができます。 また、フォームやフィールドの管理時のルックアンドフィールが改善されました。
+<li>クイックフィルターを使用すると、最新のカスタムフォームとフィールドリスト内の項目を簡単に見つけることができます。また、フォームやフィールドを管理しながら、ルックアンドフィールを向上させることもできます。
 </li>
 </ol>
                     </td>
@@ -418,7 +432,7 @@ ht-degree: 99%
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードまたはカードにチームを追加する</a> </p>
                         <p>これで、チームをボードのメンバーとして追加できます。 チームをボードに追加しても、個々のチームメンバーは追加されなくなりましたが、チームメンバー全員がボードにアクセスできます。</p>
-                        <p>チームをボードに追加した後、そのチームをカードに割り当てることができます。 接続されたカードでは、1 つのチーム割り当てのみが許可されます。 アドホックカードでは、複数のチームを割り当てることができます。
+                        <p>チームをボードに追加したら、チームをカードに割り当てることができます。接続されたカードでは、1つのチーム割り当てのみが許可されます。アドホックカードでは、複数のチームを割り当てることができます。
                         </p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -658,8 +672,8 @@ ht-degree: 99%
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns（ベータ版）</a> </p>
                         <p>現在、作業の管理方法を変える可能性がある新しいオブジェクトを Adobe Workfront に導入しているところです。 </p>
-                        <p>Workfront Campaigns を使用すると、様々なポートフォリオやプログラムのプロジェクトを新しい作業コンテナに整理できます。
-Campaigns は、2022年7月に 22.3 リリースでプレビューベータ版にリリースされました。</p>
+                        <p>Workfront Campaignsを使用すると、異なるポートフォリオやプログラムのプロジェクトを新しいワークコンテナに整理できます。
+Campaignsは、2022年7月に22.3 リリースでプレビューベータ版にリリースされました。</p>
 <p>この新しいコンテナは、現在別々のサイロで管理されている作業オブジェクトを接続するために、今後のリリースで進化する予定です。</p>
                     </td>
                     <td><p><b>公開日：</b></p>

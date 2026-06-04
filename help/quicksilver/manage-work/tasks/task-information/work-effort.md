@@ -7,11 +7,25 @@ description: 作業量の概要
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+TQID: https://experienceleague.adobe.com/glxqYn2m92yNMfsneQ3DW0KALaPKruUgU8o-xjMA1CI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: 1532
 ht-degree: 90%
 
 ---
@@ -41,7 +55,7 @@ ht-degree: 90%
   <tr> 
    <td role="rowheader">作業量 </td> 
    <td> <p>ユーザーがタスクを完了するために日々の労力が少なからず、中程度か、大量であるかを定義する手作業のラベルです。
-   &lt;!--
+   &lt;!—!—
 
     労力レベルは、1日の作業時間に対する割合で見積もられます。 （注：この原稿を残しておきます。 Vazgenは必要ないと述べましたが、ユーザーからのフィードバックを待っています） 
     

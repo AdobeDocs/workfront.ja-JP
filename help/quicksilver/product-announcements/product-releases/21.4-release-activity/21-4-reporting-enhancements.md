@@ -6,16 +6,25 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: db33cee1-45d3-4641-9afa-790de92654c5
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/Bm7R-H0Puylzoi0fkvKMrOZHIqIohOavDPhGvaKc5iI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: 343
 ht-degree: 98%
 
 ---
 
 # 21.4 レポートの機能強化
 
-このページでは、21.4 リリースでプレビュー環境に行われたレポート機能強化について説明します。これらの機能強化は、2021年10月4日（PT）の週に実稼動環境で利用可能になる予定です。
+このページでは、21.4 リリースでプレビュー環境に行われたレポート機能強化について説明します。 これらの機能強化は、2021年10月4日（PT）の週に本番環境で利用可能になる予定です。
 
 21.4 リリースで利用可能なすべての変更点の一覧については、[21.4 リリースの概要](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)を参照してください。
 
@@ -23,13 +32,13 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->以前は、21.2 リリースでの実稼動環境で使用でき、2021年5月20日（PT）に実稼動環境から一時的に削除されていました。
+>以前は、21.2 リリースでの本番環境で使用でき、2021年5月20日（PT）に本番環境から一時的に削除されていました。
 
 >[!NOTE]
 >
 >この機能は、新しい Adobe Workfront エクスペリエンスでのみ使用できます。
 
-新しい Workfront エクスペリエンスの他のエリアの最新のルックに合わせて、更新されたリストとレポートの「割り当て」フィールドのスタイル設定が変更されました。この再設計には、以下が含まれます。
+新しい Workfront エクスペリエンスの他のエリアの最新のルックに合わせて、更新されたリストとレポートの「割り当て」フィールドのスタイル設定が変更されました。 この再設計には、以下が含まれます。
 
 * ユーザープロファイルの画像、担当業務、チーム用の円形アバター
 * プロファイル画像を持たないユーザーにはイニシャルが表示されます
@@ -40,19 +49,19 @@ ht-degree: 98%
 
 リスト内の割り当てについて詳しくは、[タスクの割り当て](../../../manage-work/tasks/assign-tasks/assign-tasks.md)または[イシューの割り当て](../../../manage-work/issues/manage-issues/assign-issues.md)を参照してください。
 
-![&#x200B; 割り当ての更新 &#x200B;](assets/assignments-updates-350x193.png)
+![割り当て更新](assets/assignments-updates-350x193.png)
 
 ## アップデートされたリストおよびレポートの先行入力フィールドの新しいルックアンドフィール
 
 >[!NOTE]
 >
->以前は、21.2 リリースでの実稼動環境で使用でき、2021年5月20日（PT）に実稼動環境から一時的に削除されていました。
+>以前は、21.2 リリースでの本番環境で使用でき、2021年5月20日（PT）に本番環境から一時的に削除されていました。
 
 >[!NOTE]
 >
 >この機能は、新しい Adobe Workfront エクスペリエンスでのみ使用できます。
 
-新しい Workfront エクスペリエンスの他のエリアの最新のルックに合わせて、更新されたリストとレポートの先行入力フィールドのスタイル設定が変更されました。以下の変更が含まれます。
+新しい Workfront エクスペリエンスの他のエリアの最新のルックに合わせて、更新されたリストとレポートの先行入力フィールドのスタイル設定が変更されました。 以下の変更が含まれます。
 
 * 先行入力アイコンがフィールドから削除されました。
 * 先行入力フィールドをクリックすると、テキストを入力する前におすすめメニューが表示されるようになりました。
@@ -60,4 +69,4 @@ ht-degree: 98%
 
 更新されたリストについて詳しくは、[Adobe Workfront でのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)の記事の[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。
 
-![Typeahead フィールド &#x200B;](assets/typeahead-updates-350x336.png)
+![先行入力フィールド &#x200B;](assets/typeahead-updates-350x336.png)

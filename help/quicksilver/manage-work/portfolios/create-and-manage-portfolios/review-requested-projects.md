@@ -2,15 +2,29 @@
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
 title: リクエストされたプロジェクトの確認
-description: プロジェクトのリクエストは、Adobe Workfront でステータスが[!UICONTROL リクエスト済み]のプロジェクトとして表示されます。この記事では、プロジェクトのリクエストをレビューする方法について説明します。
+description: プロジェクトのリクエストは、Adobe Workfront でステータスが[!UICONTROL リクエスト済み]のプロジェクトとして表示されます。 この記事では、プロジェクトのリクエストをレビューする方法について説明します。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/TedrcHAXyGEp4suJFPRv5p-kgXdFzyKr9h5Vqp4q3E8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: 429
 ht-degree: 78%
 
 ---
@@ -19,7 +33,7 @@ ht-degree: 78%
 
 <!--Audited: 10/2025-->
 
-複数のプロジェクトリクエストがレビューのために提出された場合、プロジェクト管理オフィスまたはポートフォリオ委員会が会合を開き、提出されたリクエストをレビューし、プロジェクトのリクエストの承認を決定することができます。プロジェクトのリクエストは、[!DNL Adobe Workfront] でステータスが[!UICONTROL リクエスト済み]のプロジェクトとして表示されます。
+複数のプロジェクトリクエストがレビューのために提出された場合、プロジェクト管理オフィスまたはポートフォリオ委員会が会合を開き、提出されたリクエストをレビューし、プロジェクトのリクエストの承認を決定することができます。 プロジェクトのリクエストは、[!DNL Adobe Workfront] でステータスが[!UICONTROL リクエスト済み]のプロジェクトとして表示されます。
 
 以下の操作のいずれかを行って、プロジェクトのリクエストをレビュー用に送信できます。
 
@@ -95,7 +109,7 @@ Old:
 
 プロジェクトレポートを作成して、[!UICONTROL リクエスト済み]のステータスを持つプロジェクトを表示できます。
 
-プロジェクトレポートを作成してプロジェクトの要求を承認する方法について詳しくは、[[!UICONTROL &#x200B; ビジネスケースを承認]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)の「[&#x200B; プロジェクトレポートを作成してビジネスケースを承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)」の節を参照してください。
+プロジェクトレポートを作成してプロジェクトの要求を承認する方法について詳しくは、[&#x200B; ビジネスケースを承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)の「[[!UICONTROL &#x200B; プロジェクトレポートを作成してビジネスケースを承認]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)」の節を参照してください。
 
 ## ポートフォリオ内でリクエストされたプロジェクトをレビュー
 
@@ -113,7 +127,7 @@ Old:
 1. 左側のパネルの「**[!UICONTROL プロジェクト詳細]**」をクリックします。
 1. 以下の操作のいずれかを行います。
 
-   * **[!UICONTROL ビジネスケース]**&#x200B;をクリックし、**[!UICONTROL ビジネスケースの概要]**&#x200B;領域の&#x200B;**[!UICONTROL 承認]**&#x200B;または[!UICONTROL 却下]をクリックして、ビジネスケースを承認または却下します。
+   * **[!UICONTROL ビジネスケース]**&#x200B;をクリックし、[!UICONTROL &#x200B; ビジネスケースの概要]領域の&#x200B;**[!UICONTROL 承認]**&#x200B;または&#x200B;**[!UICONTROL 却下]**&#x200B;をクリックして、ビジネスケースを承認または却下します。
 
      ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 

@@ -2,21 +2,30 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: プロジェクトベースラインに含まれるプロジェクトの財務
-description: ベースラインは、特定の時点でのプロジェクトのパフォーマンスを示すスナップショットです。主要な日付、進捗状況、コスト、売上高など、プロジェクトに関する主要な情報が保存されています。
+title: プロジェクトのベースラインに含まれるプロジェクト財務
+description: ベースラインは、特定の時点でのプロジェクトのパフォーマンスを示すスナップショットです。 主要な日付、進捗状況、コスト、売上高など、プロジェクトに関する主要な情報が保存されています。
 author: Lisa
 feature: Work Management
 exl-id: 705156d0-0daa-40bf-a511-144d56316136
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+TQID: https://experienceleague.adobe.com/13CHb3M69Q-mVLclm79nRZSa8uoyR1HN9du8EfS05QE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: 371
 ht-degree: 98%
 
 ---
 
 # プロジェクトのベースラインに含まれるプロジェクトの財務情報
 
-ベースラインは、特定の時点でのプロジェクトのパフォーマンスを示すスナップショットです。主要な日付、進捗状況、コスト、売上高など、プロジェクトに関する主要な情報が保存されています。
+ベースラインは、特定の時点でのプロジェクトのパフォーマンスを示すスナップショットです。 主要な日付、進捗状況、コスト、売上高など、プロジェクトに関する主要な情報が保存されています。
 
 ベースラインを作成すると、そのベースラインのベースラインタスクに関するタスク情報も取り込まれます。
 
@@ -26,7 +35,7 @@ ht-degree: 98%
 
 ベースラインレポートまたはベースラインタスクレポートを作成して、特定の時点でプロジェクトまたはタスクに関して取り込まれた情報を表示できます。
 
-ベースラインまたはベースラインタスクには、名前と日付情報に加えて、プロジェクトまたはタスクに関する財務情報が含まれています。ベースラインオブジェクトからアクセス可能なプロジェクトの財務情報と、ベースラインタスクオブジェクトからアクセス可能なタスクの財務情報を以下のリストに示します。
+ベースラインまたはベースラインタスクには、名前と日付情報に加えて、プロジェクトまたはタスクに関する財務情報が含まれています。 ベースラインオブジェクトからアクセス可能なプロジェクトの財務情報と、ベースラインタスクオブジェクトからアクセス可能なタスクの財務情報を以下のリストに示します。
 
 各フィールドの表示内容については、[Adobe Workfront の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 

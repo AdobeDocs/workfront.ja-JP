@@ -6,12 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/bXHqOBB2iT-YWoWM7CSnOTl8EzFfJJH9PLrRIzwaKNw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 29%
+source-wordcount: 784
+ht-degree: 25%
 
 ---
 
@@ -228,7 +236,7 @@ Workfront式の一覧については、[計算データ式の概要](/help/quick
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>レコードの ID を返します。各レコードには一意の ID が割り当てられています。</p> <p>式の形式は次のとおりです。
+   <td> <p>レコードの ID を返します。 各レコードには一意の ID が割り当てられています。</p> <p>式の形式は次のとおりです。
 
 <code>{ID}</code>
 </p>
@@ -249,11 +257,11 @@ Workfront式の一覧については、[計算データ式の概要](/help/quick
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>年の週数を返します。必要に応じて、週の開始日を指定できます (日曜日の場合は 1、月曜日の場合は 2 を使用)。省略した場合、デフォルトでは週は日曜日に開始します。</p> <p>式の形式は次のとおりです。
+   <td> <p>1年の週番号を返します。 オプションで、週の開始日を指定できます（日曜日には1を、月曜日には2を使用）。 省略した場合、週はデフォルトで日曜日に始まります。</p> <p>式の形式は次のとおりです。
 
 <code>WEEKOFYEAR(日付、2)</code>
 または
-<code>WEEKOFYEAR(日付)</code>
+<code>WEEKOFYEAR （date）</code>
 </p>
    </td></tr>
 

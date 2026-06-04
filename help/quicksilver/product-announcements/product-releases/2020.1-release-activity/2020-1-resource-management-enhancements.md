@@ -2,21 +2,31 @@
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
 title: 2020.1 リソース管理の機能強化
-description: このページでは、2020.1 リリースで行われたリソース管理機能のすべての機能強化について説明します。これらの機能強化は、現在、プレビュー環境で使用でき、2020年3月下旬または 4月上旬に実稼動環境で使用できるようになる予定です。
+description: このページでは、2020.1 リリースで行われたリソース管理機能のすべての機能強化について説明します。 これらの機能強化は、現在、プレビュー環境で使用でき、2020年3月下旬または 4月上旬に本番環境で使用できるようになる予定です。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4d96040-f316-4dc2-9422-b9ef82e6b2e4
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/8azsUK4tg3uCUPhsZYtNRPh9p6QUTBPz1RkWyhJZ26Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: 447
 ht-degree: 100%
 
 ---
 
 # 2020.1 リソース管理の機能強化
 
-このページでは、2020.1 リリースで行われたリソース管理機能のすべての機能強化について説明します。これらの機能強化は、現在、プレビュー環境で使用でき、2020年3月下旬または 4月上旬に実稼動環境で使用できるようになる予定です。
+このページでは、2020.1 リリースで行われたリソース管理機能のすべての機能強化について説明します。 これらの機能強化は、現在、プレビュー環境で使用でき、2020年3月下旬または 4月上旬に本番環境で使用できるようになる予定です。
 
 2020.1 リリースで使用可能なすべての変更点の一覧については、[2020.1 リリースの概要](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)を参照してください。
 
@@ -36,7 +46,7 @@ ht-degree: 100%
 
 ## ワークロードバランサーのタイムライン期間の調整
 
-ワークロードバランサーに表示する週数を柔軟に選択しできるようになりました。2 週間、4 週間、6 週間から選択できます。以前は、週数はデフォルトで 4 に設定されていました。
+ワークロードバランサーに表示する週数を柔軟に選択しできるようになりました。2 週間、4 週間、6 週間から選択できます。 以前は、週数はデフォルトで 4 に設定されていました。
 
 ワークロードバランサーのナビゲーションについて詳しくは、[ワークロードバランサーの操作](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)を参照してください。
 
@@ -50,6 +60,6 @@ ht-degree: 100%
 
 ## ワークロードバランサーのナビゲーションの改善
 
-これで、ワークロードバランサー内を 1 回に 1 回ずつ前後に移動できるようになります。この機能強化の前に、戻るアイコンと進むアイコンをクリックすると、期間が一度に 4 つの期間ずれていました。
+これで、ワークロードバランサー内を 1 回に 1 回ずつ前後に移動できるようになります。 この機能強化の前に、戻るアイコンと進むアイコンをクリックすると、期間が一度に 4 つの期間ずれていました。
 
 ワークロードバランサーの使用について詳しくは、[ワークロードバランサーの操作](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)を参照してください。

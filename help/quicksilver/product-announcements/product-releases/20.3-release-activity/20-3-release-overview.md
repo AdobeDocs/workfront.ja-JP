@@ -7,9 +7,30 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/VfnZ55ge62fYOUITajcdR8S4pqHyPzri5QoUDEZUv2s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d83a421c-ecb9-4757-b609-c531392f90eb
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: 3985
 ht-degree: 97%
 
 ---
@@ -51,7 +72,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#updates" class="MCXref xref">新バージョンの Workfront での登録の更新</a> </p> <p>新バージョンの Workfront では、ユーザー登録がより扱いやすくなるように、グループ管理者が、管理対象のグループに属するユーザーの登録と登録解除を行えるようになりました。</p> </td> 
-   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年7月2日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年7月2日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#for" class="MCXref xref">管理者向け：新しいグループページでグループの作成と管理が容易になりました</a> </p> <p>必要なすべての情報が新しいグループページに表示されるので、グループ管理者はより簡単にグループを管理できます。 グループを作成および変更するために、様々なオーバーレイボックスやセットアップページの間を移動する必要がなくなりました。</p> </td> 
@@ -71,7 +92,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#new2" class="MCXref xref">管理者向けの新機能：特定のグループ、チーム、担当業務およびユーザーを対象とする Workfront のブランディング</a> </p> <p>レイアウトテンプレートを使用して、独自のブランディング要素を使用する特定のグループ、チーム、担当業務、ユーザー向けに、上部のナビゲーションエリアとメインメニューのロゴを変更できるようになりました。</p> </td> 
-   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月19日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月19日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#new3" class="MCXref xref">管理者向けの新機能：最大 14 レベルのサブグループの作成</a> </p> <p>Workfront グループを組織の階層に合わせて整理しやすくするために、1 つのグループ内に作成できるサブグループのレベルを 3 から 15 に増やしました。</p> </td> 
@@ -79,7 +100,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#new2" class="MCXref xref">管理者向けの新機能：ユーザーがテキストの書式を設定できるカスタムフォームフィールドを作成する</a> </p> <p>カスタムフォームで、テキストの書式設定ボタンを含むフィールドを作成できるようになりました。 これらのフィールドに入力すると、太字や斜体にしたり、下線を引いたりしてテキストをハイライト表示し、整理することができます。 文字数の上限が 15,000 であるため、様々なテキストと書式を設定できます。</p> </td> 
-   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月18日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月18日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#new5" class="MCXref xref">管理者向けの新機能：新しい設定サイドバー</a> </p> <p>設定の左側のサイドバーが、より速く、使いやすくなり、既に知っている基本的なレイアウトと機能を活用できるようになりました。</p> </td> 
@@ -87,7 +108,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#include" class="MCXref xref">顧客情報エリアにクラスター番号を含める</a> </p> <p>Workfront 管理者は、Workfront 内でクラスター番号を簡単に見つけることができるようになりました。サポートチームからクラスター番号を取得するのにさらに時間と労力を費やす必要はありません。 設定の顧客情報エリアにクラスター設定フィールドを追加しました。</p> </td> 
-   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年7月10日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年7月10日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#removed" class="MCXref xref">重複するイベントサブスクリプションを作成する機能を削除</a> </p> <p>重複メッセージの配信を防ぐために、重複するサブスクリプションを作成できなくなりました。 さらに、以前に作成した重複するサブスクリプションはすべて削除されています。</p> </td> 
@@ -151,32 +172,32 @@ For specific release dates and times for each cluster, see the
 >以下が必要です。
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/jp/products/workfront/pricing.html" target="_blank">Workfront プラン</a>*</p> </td> 
-&gt;   <td>ビジネス以上</td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>ライセンスタイプ*</p> </td> 
-&gt;   <td> <p>レビュー以上。 詳しくは、<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">製品</td> 
-&gt;   <td>Workfront のシナリオプランナー <p>Workfront シナリオプランナについては、<a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">シナリオプランナの概要</a>を参照してください。</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"><strong>アクセスレベル*</strong> </td> 
-&gt;   <td> <p>シナリオプランナーへの表示アクセス権またはそれ以上</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。 Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"> <p><strong>オブジェクトの権限</strong> </p> </td> 
-&gt;   <td> <p>プランへの表示権限またはそれ以上</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">シナリオプランナーのプランへのアクセス権をリクエスト</a>を参照してください。</p> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
-&gt;*保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/jp/products/workfront/pricing.html" target="_blank">Workfront プラン</a>*</p> </td> 
+>&gt;   <td>ビジネス以上</td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>ライセンスタイプ*</p> </td> 
+>&gt;   <td> <p>レビュー以上。 詳しくは、<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">製品</td> 
+>&gt;   <td>Workfront のシナリオプランナー <p>Workfront シナリオプランナについては、<a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">シナリオプランナの概要</a>を参照してください。</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"><strong>アクセスレベル*</strong> </td> 
+>&gt;   <td> <p>シナリオプランナーへの表示アクセス権またはそれ以上</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。 Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"> <p><strong>オブジェクトの権限</strong> </p> </td> 
+>&gt;   <td> <p>プランへの表示権限またはそれ以上</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">シナリオプランナーのプランへのアクセス権をリクエスト</a>を参照してください。</p> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
+>&gt;*保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
  
 
@@ -228,7 +249,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">アジャイルボードは、一度に 50 個の作業アイテムを読み込む</a> </p> <p>アジャイルツールのスピードとパフォーマンスを向上させるために、最大50枚のカードを様々な場所に読み込めるようになりました。 アジャイルボードに50個を超える作業項目がある場合、ボードまたはバックログの下部にボタンが表示され、追加の作業項目を読み込むことができます。</p> </td> 
-   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月19日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月19日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -261,7 +282,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#display2" class="MCXref xref">ワークロードバランサーで実際の作業の進行状況を表示</a> </p> <p>ワークロードの進行状況を正確に把握できるように、ワークロードバランサーに新しい設定を導入し、タスクと問題の見込み日に応じたタイムラインを表示できるようにしました。 「見込み日を表示」の設定を有効にして、予定タイムラインに加えて、作業アイテムの見込みタイムラインを表示できます。</p> </td> 
-   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月2日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月2日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#workload" class="MCXref xref">以前 20.2 でリリースされるとして通知されていたワークロードバランサーの機能</a> </p> <p>いくつかの機能は、最初は 20.2 リリースの一部としてプレビュー環境にリリースされ、後で削除されました。 これらの機能は、段階的なロールアウトで、プレビューおよび実稼動環境にリリースされています。</p> </td> 
@@ -286,15 +307,15 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#updated" class="MCXref xref">複数のグローバルヘッダーのルックアンドフィールを更新</a> </p> <p>プロジェクト、ポートフォリオ、プログラム、テンプレートのグローバルエリアのヘッダーが更新され、画面のスペースをより有効に利用できるようになりました。 このアップデートにより、集中して作業する必要がある情報のためのスペースがさらに増えました。 </p> </td> 
-   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月19日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月19日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#new3" class="MCXref xref">新しい「プロジェクトを編集」ボックス</a> </p> <p>新しい Workfront エクスペリエンスのルックアンドフィールを更新の一環として、「プロジェクトを編集」ボックスのデザインを変更しました。 新しい「プロジェクトを編集」ボックスには、個々のプロジェクトから、またはリストから 1 つのプロジェクトを編集する際にアクセスできます。</p> </td> 
-   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月19日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月19日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#new4" class="MCXref xref">ドキュメントリストの新しい概要パネルと更新の改善</a> </p> <p>新しい Workfront エクスペリエンスでは、ドキュメントリストの右側にある新しい概要パネルが、より洗練されたデザインで利用できるようになりました。 このパネルでは、Workfront Classic でドキュメントを選択する際に右側のパネルにあるのと同じアクションと情報（ドキュメントの詳細、更新、カスタムフォーム、承認、ドキュメントのバージョンなど）を利用できます。</p> </td> 
-   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月2日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年6月2日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#improvem" class="MCXref xref">ドキュメントの詳細の改善</a> </p> <p>新しいバージョンのオプションがドロップダウンメニューに移動したり、プレビューサムネイルが大きくなったりするなど、ドキュメントの詳細ページで様々な改善点を確認してください。</p> </td> 
@@ -327,7 +348,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md#create" class="MCXref xref">ドキュメントリストからの詳細なプルーフを作成</a> </p> <p>プルーフの既存のドキュメントを変換する際にワークフローを設定しやすくするには、新しい「プルーフを作成」ドロップダウンメニューを使用して、ドキュメントリストからプルーフワークフローを設定します。</p> <p>これまでは、プルーフを生成したあと、プルーフワークフローエリアに移動してワークフローを設定する必要がありました。</p> </td> 
-   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年7月2日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
+   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年7月2日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -348,7 +369,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#zoom" class="MCXref xref">更新エリアでの Zoom 統合</a> </p> <p>更新エリアから Zoom ミーティングを開始して、ビデオミーティングを Workfront での操作の一部にします。 ズームアイコンをクリックして、会議の URL をコメントに挿入し、共同作業者にタグを付けて会議について通知します。 参加するには、リンクをクリックするだけです。</p> </td> 
-   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年7月20日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2020年7月20日（PT）</p> <p>実稼動版リリース：20.3 リリースを使用</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#new" class="MCXref xref">新しいモバイル仮想アシスタント</a> </p> <p>Workfront モバイルアプリの新しい仮想アシスタントは、このリリースで Android と iOS の両方に対応する予定です。</p> </td> 
@@ -389,7 +410,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#email" class="MCXref xref">メールアドレスの変更</a> </p> <p> Workfront からのすべてのメールは notifications@my.workfront.com から送信され、システム管理者は通知に対する受信メールの返信用にカスタム POP メールサーバーを設定できなくなります。</p> </td> 
-   <td> <p><strong>公開日：</strong> </p> <p>ベータ版プレビューリリース： 2020 年 7 月 9 日</p> <p>実稼動リリース： 20.3 リリースから段階的に展開され、2020 年 9 月 1 日までにすべてのお客様に提供開始。</p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><strong>公開日：</strong> </p> <p>ベータ版プレビューリリース： 2020 年 7 月 9 日</p> <p>実稼動リリース： 20.3 リリースから段階的に展開され、2020 年 9 月 1 日までにすべてのお客様に提供開始。</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref">Workfront アウトバウンドメール内の DomainKeys Identified Mail（DKIM）</a> </p> <p>すべてのアウトバウンドメールには、メール認証手法（DKIM）が含まれます。 この DKIM 署名はエンドユーザーには表示されませんが、サーバーレベルでの検証が可能になり、既存の認証フレームワークが強化されます。</p> </td> 

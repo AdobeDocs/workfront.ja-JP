@@ -6,15 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3265'
+source-wordcount: 3224
 ht-degree: 14%
 
 ---
-
 
 # レコードの作成
 
@@ -176,9 +187,9 @@ Old:
 
    ワークスペースが開き、レコードタイプがカードとして表示されます。
 
-1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+1. レコードタイプのカードをクリックします。 レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-   最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトで、レコードタイプのページがテーブルビューで開きます。
+   最後にアクセスしたビューで、レコードタイプページが開きます。デフォルトでは、レコードタイプページがテーブルビューで開きます。
 選択したタイプのすべてのレコードがビューに表示されます。
 
 1. （条件付き）任意のビューで、ワークスペースとレコードタイプの権限に応じて、画面の右上隅にある次のいずれかをクリックします。
@@ -258,9 +269,9 @@ You can import records from other applications by linking them to existing recor
 
    ワークスペースが開き、レコードタイプがカードとして表示されます。
 
-1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+1. レコードタイプのカードをクリックします。 レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-   最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトで、レコードタイプのページがテーブルビューで開きます。
+   最後にアクセスしたビューで、レコードタイプページが開きます。デフォルトでは、レコードタイプページがテーブルビューで開きます。
 選択したタイプのレコードがビューに表示されます。
 
 1. （条件付き）テーブルビューで、次のいずれかの操作を行います。
@@ -271,7 +282,7 @@ You can import records from other applications by linking them to existing recor
      >
      >グループ化またはサブグループ化の最後のレコードの後に新しいレコードを追加すると、Workfrontはグループ化に含まれるフィールドに自動的に入力します。 必要に応じて、これらのフィールドを手動で編集できます。レコードはグループ化から削除される場合があります。
 
-   * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。これにより、開始するレコードの下に空の行が追加されます。
+   * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。 これにより、開始するレコードの下に空の行が追加されます。
    * レコードのプライマリフィールドにカーソルを合わせ、フィールドの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、次に&#x200B;**レコードを上に挿入**&#x200B;または&#x200B;**レコードを下に挿入**&#x200B;をクリックします。
 
    ![&#x200B; テーブルの行に新しいキャンペーンを追加する](assets/adding-a-new-campaign-in-table-row.png)
@@ -292,7 +303,7 @@ You can import records from other applications by linking them to existing recor
 
    >[!NOTE]
    >
-   >  * レコードに必須のフィールドはありません。ただし、レコードを相互にリンクする際にレコードを識別すると便利なので、レコードのプライマリフィールドの情報を追加することをお勧めします。 プライマリフィールドについて詳しくは、[&#x200B; テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)および[プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md)を参照してください。
+   >  * レコードに必須のフィールドはありません。 ただし、レコードを相互にリンクする際にレコードを識別すると便利なので、レコードのプライマリフィールドの情報を追加することをお勧めします。 プライマリフィールドについて詳しくは、[&#x200B; テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)および[プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md)を参照してください。
    >
    >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
 
@@ -332,7 +343,7 @@ You can import records from other applications by linking them to existing recor
 
 1. レコードタイプのカードをクリックします。
 
-   最後にアクセスしたビューで、レコードタイプページが開きます。
+   最後にアクセスしたビューで、レコードタイプのページが開きます。
 
 1. 最初にタイムラインビューを開くか、タイムラインビューを作成します。
 
@@ -403,7 +414,7 @@ You can import records from other applications by linking them to existing recor
 
 1. レコードタイプのカードをクリックします。
 
-   最後にアクセスしたビューで、レコードタイプページが開きます。
+   最後にアクセスしたビューで、レコードタイプのページが開きます。
 
 1. クリックしてカレンダービューを開くか、カレンダービューを作成します。
 

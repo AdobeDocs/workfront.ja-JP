@@ -7,11 +7,27 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/roM7lCswSeuhxKXc2Bf8S1wXr1thGzcQjFkqU5lCQCA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4104'
+source-wordcount: 4067
 ht-degree: 76%
 
 ---
@@ -281,7 +297,7 @@ Old:
 
    タスクのステータスを、タスクのヘッダーでアップデートできます。 </p>
 
-   <p>Workfrontまたはグループ管理者は、タスクステータスの名前をカスタマイズできます。 詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md"> ステータスの作成または編集</a>を参照してください。 
+   <p>Workfrontまたはグループ管理者は、タスクステータスの名前をカスタマイズできます。詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md"> ステータスの作成または編集</a>を参照してください。 
       </td> 
      </tr> 
      <tr> 
@@ -513,7 +529,7 @@ Old:
       <td> <p>タスクの予定時間数を時間単位で指定します。 これは、タスクの担当者が完了するのにかかる実際の時間です。 期間タイプが「計算済み割り当て」に設定されている場合にのみ、タスクの予定時間数を指定できます。 期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</p> 
       <b>メモ</b>
       <p>
-      繰り返しタスクを作成する場合、予定時間数はそれぞれの繰り返しタスクの時間です。 親タスクの予定時間数は、すべてのタスクからのすべての予定時間数の合計です。 繰り返しタスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクを作成</a>を参照してください。
+      繰り返しタスクを作成する場合、予定時間は各発生の時間になります。親タスクの予定時間は、すべての出現時間のすべての予定時間の合計です。繰り返しタスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクの作成</a>を参照してください。
       </p>
 
    </td> 

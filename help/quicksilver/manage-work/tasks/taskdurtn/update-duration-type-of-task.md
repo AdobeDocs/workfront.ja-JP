@@ -2,22 +2,35 @@
 product-area: projects
 navigation-topic: task-duration
 title: タスクの期間タイプの更新
-description: タスクの期間タイプは、タスクに割り当てられたリソースの数、合計作業量およびタスクの合計期間の関係性を特定します。詳しくは、タスクの期間と期間タイプの概要を参照してください。
+description: タスクの期間タイプは、タスクに割り当てられたリソースの数、合計作業量およびタスクの合計期間の関係性を特定します。 詳しくは、タスクの期間と期間タイプの概要を参照してください。
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/5tzVzIoTKYwHFDhCYUAVsgBOhheKTzLQsgoQzfus4Ak
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: 292
 ht-degree: 94%
 
 ---
 
 # タスクの期間タイプを更新
 
-タスクの期間タイプは、タスクに割り当てられたリソースの数、合計作業量およびタスクの合計期間の関係性を特定します。詳しくは、[タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
+タスクの期間タイプは、タスクに割り当てられたリソースの数、合計作業量およびタスクの合計期間の関係性を特定します。 詳しくは、[タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
 
 ## アクセス要件
 
@@ -80,7 +93,7 @@ Old:
 
 ## タスクの期間タイプを更新
 
-この記事で説明されているように、タスクの期間タイプを更新する以外に、タスクの編集時や高度な割り当てを行う際に期間タイプを更新することもできます。詳しくは、以下を参照してください。
+この記事で説明されているように、タスクの期間タイプを更新する以外に、タスクの編集時や高度な割り当てを行う際に期間タイプを更新することもできます。 詳しくは、以下を参照してください。
 
 * [タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [高度な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)

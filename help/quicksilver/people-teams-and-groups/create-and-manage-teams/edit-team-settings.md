@@ -6,11 +6,20 @@ description: Workfront 管理者、またはプランライセンスもしくは
 author: Courtney
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+TQID: https://experienceleague.adobe.com/Ic9ER5XDxsjuf2JB2zyEzH5uWrhxTVNDtbB9lADz-Lg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: 495
 ht-degree: 84%
 
 ---
@@ -68,9 +77,9 @@ ht-degree: 84%
 
      >[!NOTE]
      >
-     >チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、チームのメンバーにならなくてもチームを管理できます。グループ管理者は、「メインメニュー」から「チーム」エリアに移動して[!UICONTROL チームを切り替え]矢印（![チームを切り替えアイコン](assets/switch-team-icon.png)）をクリックし、自分が管理するグループに割り当てられているすべてのチームを一覧表示することができます。
+     >チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、チームのメンバーにならなくてもチームを管理できます。 グループ管理者は、「メインメニュー」から「チーム」エリアに移動して[!UICONTROL チームを切り替え]矢印（![チームを切り替えアイコン](assets/switch-team-icon.png)）をクリックし、自分が管理するグループに割り当てられているすべてのチームを一覧表示することができます。
 
-     正しいグループにマウスを移動し、その横に表示される情報アイコン（![](assets/info-icon.png)）をクリックすると、自分がそのチームに関連付けられていることを確認できます。グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。
+     正しいグループにマウスを移動し、その横に表示される情報アイコン（![](assets/info-icon.png)）をクリックすると、自分がそのチームに関連付けられていることを確認できます。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。
 
    * チーム所有者の指定
    * チームメンバーの追加と削除
@@ -83,8 +92,8 @@ ht-degree: 84%
 
      アジャイルチームとアジャイルチーム内での作業の管理方法について詳しくは、[&#x200B; アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
 
-   * 「[!UICONTROL 作業をする]」ボタンを「[!UICONTROL 開始]」ボタンに変更します。「[!UICONTROL 開始]」ボタンの設定方法について詳しくは、[「作業をする」ボタンの「[!UICONTROL 開始]」ボタンへの置き換え](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)を参照してください。
-   * 「**[!UICONTROL 完了]**」ボタンをカスタマイズします。「[!UICONTROL 完了]」ボタンをカスタマイズする方法の詳細については、次を参照してください。
+   * 「[!UICONTROL 作業をする]」ボタンを「[!UICONTROL 開始]」ボタンに変更します。 「[!UICONTROL 開始]」ボタンの設定方法について詳しくは、[「作業をする」ボタンの「[!UICONTROL 開始]」ボタンへの置き換え](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)を参照してください。
+   * 「**[!UICONTROL 完了]**」ボタンをカスタマイズします。 「[!UICONTROL 完了]」ボタンをカスタマイズする方法の詳細については、次を参照してください。
 
       * [タスクの「[!UICONTROL 完了]」ボタンの設定](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [イシューの「[!UICONTROL 完了]」ボタンの設定](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)

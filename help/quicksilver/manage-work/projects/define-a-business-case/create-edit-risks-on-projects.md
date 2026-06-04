@@ -2,16 +2,29 @@
 product-area: projects
 navigation-topic: business-case-and-scorecards
 title: プロジェクトのリスクの作成と編集
-description: リスクとは、プロジェクトが時間通りに、または予算内で完了することを妨げる可能性のあるイベントまたは要因のことです。プロジェクトのビジネスケースの作成の一環として、または「リスク」タブを使用して、プロジェクトリスクを記録できます。 プロジェクトやテンプレートにリスクを追加することもできます。 リスクをタスクやイシューに関連付けることはできません。
+description: リスクとは、プロジェクトが時間通りに、または予算内で完了することを妨げる可能性のあるイベントまたは要因のことです。 プロジェクトのビジネスケースの作成の一環として、または「リスク」タブを使用して、プロジェクトリスクを記録できます。 プロジェクトやテンプレートにリスクを追加することもできます。 リスクをタスクやイシューに関連付けることはできません。
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/OaM-knTgbdtKqyeRlibRI0DmBas7E0OZurWE6atdqpE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 47%
+source-wordcount: 1068
+ht-degree: 48%
 
 ---
 
@@ -25,7 +38,7 @@ ht-degree: 47%
 <span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 -->
 
-リスクとは、プロジェクトが時間通りに、または予算内で完了することを妨げる可能性のあるイベントまたは要因のことです。プロジェクトのビジネスケースの作成の一環として、または「リスク」タブを使用して、リスクを記録できます。
+リスクとは、プロジェクトが時間通りに、または予算内で完了することを妨げる可能性のあるイベントまたは要因のことです。 プロジェクトのビジネスケースの作成の一環として、または「リスク」タブを使用して、リスクを記録できます。
 
 リスクは、プロジェクトまたはテンプレートに対してのみ作成できます。 リスクをタスクやイシューに関連付けることはできません。
 
@@ -74,9 +87,9 @@ ht-degree: 47%
 
 ## ビジネスケースでのリスクの作成と編集
 
-プロジェクトのビジネスケースを計画する際に、リスクを作成できます。確率、軽減計画、コストなどに変更が生じた場合は、後でビジネスケースでリスクを編集できます。ビジネスケースの作成について詳しくは、[プロジェクトでのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
+プロジェクトのビジネスケースを計画する際に、リスクを作成できます。 確率、軽減計画、コストなどに変更が生じた場合は、後でビジネスケースでリスクを編集できます。 ビジネスケースの作成について詳しくは、[プロジェクトでのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
-「ビジネスケース」セクションでプロジェクトレベルでリスクを確認できるようにするには、Workfront 管理者またはグループ管理者がビジネスケースの「**リスク**」セクションを「プロジェクト環境設定」領域で有効にする必要があります。プロジェクト環境設定の指定について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+「ビジネスケース」セクションでプロジェクトレベルでリスクを確認できるようにするには、Workfront 管理者またはグループ管理者がビジネスケースの「**リスク**」セクションを「プロジェクト環境設定」領域で有効にする必要があります。 プロジェクト環境設定の指定について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
 ビジネスケースでのリスクの作成と編集は同じです。
 
@@ -126,7 +139,7 @@ ht-degree: 47%
 
    * **説明**: リスクについて説明します。 必須フィールドです。
    * **リスクの種類**：リスクがどのカテゴリに属しているかを示します。\
-     Workfront 管理者が、お使いの環境で使用可能なリスクタイプを定義します。リスクタイプの定義の詳細情報については、「[リスクタイプの編集と作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)」の記事を参照してください。
+     Workfront 管理者が、お使いの環境で使用可能なリスクタイプを定義します。 リスクタイプの定義の詳細情報については、「[リスクタイプの編集と作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)」の記事を参照してください。
 
    * **確率**: リスクが発生する確率をパーセント値で示します。
    * **潜在的なコスト**：リスクが発生する可能性がある場合の見積もりコストを示します。
@@ -158,7 +171,7 @@ ht-degree: 47%
 
    >[!NOTE]
    >
-   >複数のリスクを同時に編集する場合、選択したすべてのリスクに同じ情報が適用されます。変更前の各リスクに関連する情報は、一括編集で上書きされます。
+   >複数のリスクを同時に編集する場合、選択したすべてのリスクに同じ情報が適用されます。 変更前の各リスクに関連する情報は、一括編集で上書きされます。
 
 1. **編集** アイコンをクリックすると、**編集リスク**&#x200B;または&#x200B;**編集リスク** ボックスが開きます。
 

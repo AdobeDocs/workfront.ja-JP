@@ -2,16 +2,28 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: '[!UICONTROL ガントチャート]でのリソースの標準化'
-description: 同じリソースが2つの異なるタスクに割り当てられている場合、リソースの平準化を使用してタスクのタイムラインを調整し、同時に発生しないようにすることができます。 この記事では、ガントチャートでリソースをレベル設定する方法について説明します。
+description: 同じリソースを 2 つの異なるタスクに割り当てる場合は、リソースの標準化を使用して、タスクが同時に発生しないようにタスクのタイムラインを調整できます。 この記事では、ガントチャートでリソースをレベル設定する方法について説明します。
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/S18IeLvaNdf0YP0aVFhEO55bdrvHwVpHHnd5c06NBHY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 81%
+source-wordcount: 623
+ht-degree: 86%
 
 ---
 
@@ -96,13 +108,13 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
 * リソースの標準化は 1 つのプロジェクトにのみ適用され、[!DNL Adobe Workfront] では一度に複数のプロジェクトにわたってリソースを標準化することはできません。
 * 「**[!UICONTROL 残存作業時間の優先]**」が「**[!UICONTROL 期間タイプ]**」として選択されている場合、[!DNL Workfront] はリソースを標準化しません。
 * 複数のユーザーが同じタスクに割り当てられている場合、標準化はキャンセルされます。
-* 「**[!UICONTROL タスクの制約]**」のタイプに対する条件は、リソースの標準化よりも優先されます。例えば、「[!UICONTROL タスクの制約]」として「**[!UICONTROL 固定日付]**」が選択されている場合、リソースの標準化によってタスクの日付が変更されることはありません。
+* 「**[!UICONTROL タスクの制約]**」のタイプに対する条件は、リソースの標準化よりも優先されます。 例えば、「[!UICONTROL タスクの制約]」として「**[!UICONTROL 固定日付]**」が選択されている場合、リソースの標準化によってタスクの日付が変更されることはありません。
 * 先行タスク関係は、リソースの標準化よりも優先されます。
-* [!UICONTROL ガントチャート]で標準化を調整するには、プロジェクトの「**[!UICONTROL リソースの標準化]**」を「**[!UICONTROL 手動]**」に設定する必要があります。プロジェクトに対する管理権限がある場合は、プロジェクトでこの設定を調整し、**[!UICONTROL プロジェクトの編集]**&#x200B;ボックスで「**[!UICONTROL 手動]**」ではなく「**[!UICONTROL 自動]**」を選択することで、システムに自動的にリソースを標準化させることができます。
+* [!UICONTROL ガントチャート]で標準化を調整するには、プロジェクトの「**[!UICONTROL リソースの標準化]**」を「**[!UICONTROL 手動]**」に設定する必要があります。 プロジェクトに対する管理権限がある場合は、プロジェクトでこの設定を調整し、**[!UICONTROL プロジェクトの編集]**&#x200B;ボックスで「**[!UICONTROL 手動]**」ではなく「**[!UICONTROL 自動]**」を選択することで、システムに自動的にリソースを標準化させることができます。
 
   ![&#x200B; リソースの平準化モード &#x200B;](assets/resource-leveling-mode-350x177.png)
 
-* プロジェクト所有者またはタスク担当者は、タスクに標準化の遅延を導入して、タスクに追加の時間が必要になる可能性が高いことを示すことができます。タスクに標準化の遅延を追加する方法については、[タスク標準化の遅延の更新](../../../manage-work/tasks/task-information/task-leveling-delay.md)を参照してください。
+* プロジェクト所有者またはタスク担当者は、タスクに標準化の遅延を導入して、タスクに追加の時間が必要になる可能性が高いことを示すことができます。 タスクに標準化の遅延を追加する方法については、[タスク標準化の遅延の更新](../../../manage-work/tasks/task-information/task-leveling-delay.md)を参照してください。
 
 ## [!UICONTROL ガントチャート]でのリソース標準化の適用
 
@@ -111,7 +123,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
 1. 標準化するプロジェクトに移動します。
 1. **[!UICONTROL タスク]**&#x200B;エリアで、**[!UICONTROL ガントチャート]**&#x200B;アイコンをクリックします。
 
-   「**[!UICONTROL 自動保存]**」オプションが有効になっていると、すべての変更は自動的に保存されます。これはデフォルトで有効になっています。
+   「**[!UICONTROL 自動保存]**」オプションが有効になっていると、すべての変更は自動的に保存されます。 これはデフォルトで有効になっています。
 
 1. （オプション）**[!UICONTROL 計画]モード**&#x200B;のアイコンをクリックし、「**[!UICONTROL 手動保存／標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 

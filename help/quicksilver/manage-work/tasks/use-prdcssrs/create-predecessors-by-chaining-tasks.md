@@ -2,26 +2,39 @@
 product-area: projects
 navigation-topic: use-predecessors
 title: タスクを連結して先行タスク関係を作成する
-description: Adobe Workfront では、複数の方法で先行タスクの関係を作成できます。方法の 1 つは、タスクを連鎖させることです。
+description: Adobe Workfront では、複数の方法で先行タスクの関係を作成できます。 方法の 1 つは、タスクを連鎖させることです。
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/iHJkCABzPdAjLYSlUTtXyBvQzU7eney-daOuvhXLbPQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: 288
 ht-degree: 96%
 
 ---
 
 # タスクを連鎖させて先行タスクの関係を作成
 
-Adobe Workfront では、複数の方法で先行タスクの関係を作成できます。方法の 1 つは、タスクを連鎖させることです。
+Adobe Workfront では、複数の方法で先行タスクの関係を作成できます。 方法の 1 つは、タスクを連鎖させることです。
 
 先行タスクについて詳しくは、[先行タスクの概要](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)を参照してください。
 
-タスクを連結することにより、各タスクの関係を自分で手動で作成するのではなく、システムが選択したタスクに先行タスクの関係を自動的に作成できるようにすることができます。タスク間では、異なる先行タスクの関係タイプを引き続き使用できます。
+タスクを連結することにより、各タスクの関係を自分で手動で作成するのではなく、システムが選択したタスクに先行タスクの関係を自動的に作成できるようにすることができます。 タスク間では、異なる先行タスクの関係タイプを引き続き使用できます。
 
 ## アクセス要件
 
@@ -89,7 +102,7 @@ Old:
 1. 左パネルで「**タスク**」をクリックします。
 1. （条件付き）タスクリストの右上隅にある「**自動保存**」を選択し、連鎖させたいタスクを選択します。
 
-   ハイライト表示された![に](assets/nwe-autosave-icon-on-highlighted-350x295.png)自動保存アイコン
+   ハイライト表示された![&#128279;](assets/nwe-autosave-icon-on-highlighted-350x295.png)に自動保存アイコン
 
    >[!IMPORTANT]
    >

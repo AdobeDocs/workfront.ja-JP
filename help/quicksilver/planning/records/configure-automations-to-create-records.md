@@ -6,11 +6,21 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/GgrkobfJEMRxHMsZF8mXAuH2xEoe-i4GTArk3S8O6fE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: 1758
 ht-degree: 5%
 
 ---
@@ -158,7 +168,7 @@ Old:
 
    * 「**名称未設定の自動処理**」を、自動処理ボタンに表示するテキストに置き換えます。 自動処理を使用してWorkfront オブジェクトまたはPlanning レコードを作成する場合、このボタンをクリックします。
    * **説明**：自動化の目的を特定するための説明を追加します。
-1. 「**保存**」をクリックします。
+1. **保存**&#x200B;をクリックします。
 自動化詳細ページが開きます。
 
 1. オートメーションの詳細ページで、**トリガー** セクションの次のオプションから選択します。
@@ -195,7 +205,7 @@ Old:
       >各条件の修飾子は、選択したフィールドのタイプで変更されます。
 
 1. **アクション** セクションの次のフィールドを更新します：<!--submitted bugs for these fields - see if they need changing here-->
-   * **アクション**：自動処理をトリガーする際にWorkfrontで実行するアクションを選択します。 必須フィールドです。
+   * **アクション**：自動処理をトリガーする際にWorkfrontで実行するアクションを選択します。これは必須フィールドです。
 次のいずれかのアクションを選択します。
 
       * 複数のプロジェクトの作成

@@ -2,21 +2,26 @@
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
 title: 20.3 プルーフの機能強化
-description: このページでは、実稼動環境への 20.3 のリリースで行われたプルーフのすべての機能強化について説明します。これらの機能強化は、2020年8月10日（PT）の週に実稼動環境で利用可能になりました。
+description: このページでは、本番環境への 20.3 のリリースで行われたプルーフのすべての機能強化について説明します。 これらの機能強化は、2020年8月10日（PT）の週に本番環境で利用可能になりました。
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/L8r3oUDq9ykejDv-K-P-mNaKRhHLawstl9VJ8kdui08
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 371
 ht-degree: 100%
 
 ---
 
 # 20.3 プルーフの機能強化
 
-このページでは、実稼動環境への 20.3 のリリースで行われたプルーフのすべての機能強化について説明します。これらの機能強化は、2020年8月10日（PT）の週に実稼動環境で利用可能になりました。
+このページでは、本番環境への 20.3 のリリースで行われたプルーフのすべての機能強化について説明します。 これらの機能強化は、2020年8月10日（PT）の週に本番環境で利用可能になりました。
 
 20.3 リリースで利用可能なすべての変更点の一覧については、[20.3 リリースの概要](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)を参照してください。
 

@@ -3,16 +3,28 @@ content-type: overview
 product-area: portfolios
 navigation-topic: portfolios-overview
 title: Portfolio手法について
-description: ポートフォリオは、統一された特性を持つプロジェクトのコレクションです。これらのプロジェクトは通常、同じリソース、予算または時間枠を得るために競い合うことになります。ポートフォリオに追加する前に、ポートフォリオをプログラムに分割し、プロジェクトをプログラムに関連付けることができます。
+description: ポートフォリオは、統一された特性を持つプロジェクトのコレクションです。 これらのプロジェクトは通常、同じリソース、予算または時間枠を得るために競い合うことになります。 ポートフォリオに追加する前に、ポートフォリオをプログラムに分割し、プロジェクトをプログラムに関連付けることができます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/mLs5mZiSsS-ApmxUkD08wiBUmMV5VKtoUB0u23gCeRA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 70%
+source-wordcount: 587
+ht-degree: 74%
 
 ---
 
@@ -20,13 +32,13 @@ ht-degree: 70%
 
 <!-- Audited: 1/2024 -->
 
-Portfolioとは、特定のビジネス目標を達成するために、プロジェクトの優先順位付けと管理を行うプロセスです。
+ポートフォリオまたはプロジェクトポートフォリオ管理（PPM）は、特定のビジネス目標を達成するために、プロジェクトのリストに優先順位を付けて管理するプロセスです。
 
 PPMに関する一般的な情報については、[Portfolio Managementの概要](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)を参照してください。
 
-Adobe Workfrontでは、ポートフォリオとは、統一性のあるプロジェクトの集まりのことです。 これらのプロジェクトは通常、同じリソース、予算または時間枠を得るために競い合うことになります。ポートフォリオに追加する前に、ポートフォリオをプログラムに分割し、プロジェクトをプログラムに関連付けることができます。
+Adobe Workfrontでは、ポートフォリオとは、統一性のあるプロジェクトの集まりのことです。 これらのプロジェクトは通常、同じリソース、予算または時間枠を得るために競い合うことになります。 ポートフォリオに追加する前に、ポートフォリオをプログラムに分割し、プロジェクトをプログラムに関連付けることができます。
 
-ポートフォリオとプログラムを使用すると、プロジェクトを整理できます。プロジェクトを整理すると、類似のプロジェクトを比較することができ、どこにリソースを使うのが最適かを判断できるようになります。
+ポートフォリオとプログラムを使用すると、プロジェクトを整理できます。 プロジェクトを整理すると、類似のプロジェクトを比較することができ、どこにリソースを使うのが最適かを判断できるようになります。
 
 プログラムの使用について詳しくは、[プログラムの作成](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)を参照してください。
 
@@ -129,7 +141,7 @@ Old:
    ビジネスケースの構築中に収集した詳細は、[!UICONTROL portfolio optimizer]および[!UICONTROL &#x200B; リソースプランナー]で使用され、プロジェクトの選択における管理に役立ちます。
 1. リソースプールとプロジェクトを関連付け、ビジネスケースを構築します。
 
-   ポートフォリオは、通常、リソースプールに対応するように構成されます。ポートフォリオ内のプログラムは、リソースプールとも整合させます。同じポートフォリオ内のプロジェクトは通常同じリソースを奪い合うので、この相関関係により、すべてのリソース計画がポートフォリオの目的に沿うようになります。
+   ポートフォリオは、通常、リソースプールに対応するように構成されます。 ポートフォリオ内のプログラムは、リソースプールとも整合させます。 同じポートフォリオ内のプロジェクトは通常同じリソースを奪い合うので、この相関関係により、すべてのリソース計画がポートフォリオの目的に沿うようになります。
 
    詳しくは、[&#x200B; リソースプールの作成](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
 
@@ -138,6 +150,6 @@ Old:
    詳しくは、[&#x200B; ビジネスケースの承認](/help/quicksilver/manage-work/projects/define-a-business-case/approve-business-case.md)を参照してください。
 1. [!UICONTROL ポートフォリオオプティマイザー]で、ポートフォリオ内のプロジェクトのパフォーマンスを管理します。
 
-   ポートフォリオマネージャーは、ポートフォリオダッシュボードを使用して、ポートフォリオ内の財務パフォーマンスを追跡できます。このダッシュボードはポートフォリオのヘッダーに表示されます。
+   ポートフォリオマネージャーは、ポートフォリオダッシュボードを使用して、ポートフォリオ内の財務パフォーマンスを追跡できます。 このダッシュボードはポートフォリオのヘッダーに表示されます。
 
    ポートフォリオの財務フィールドについて詳しくは、[ポートフォリオオプティマイザーの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)の[ポートフォリオオプティマイザーの財務フィールドについて](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection)の節を参照してください。

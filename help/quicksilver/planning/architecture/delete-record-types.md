@@ -1,20 +1,31 @@
 ---
 title: レコードタイプの削除
-description: 関係がなくなったレコードタイプは削除できます。レコードタイプを削除すると、レコード、フィールド、ビューなど、レコードタイプに関連付けられているすべての情報も削除されます。
+description: 関係がなくなったレコードタイプは削除できます。 レコードタイプを削除すると、レコード、フィールド、ビューなど、レコードタイプに関連付けられているすべての情報も削除されます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/v1IRcsFil5-ba26LoUX6IgD5gG-9h2344Tfs-qRvvPU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: 1101
 ht-degree: 20%
 
 ---
-
 
 <!--keep the global record type reference in yellow till January 2026-->
 
@@ -30,7 +41,7 @@ ht-degree: 20%
 
 関係がなくなったレコードタイプは削除できます。
 
-ただし、レコードタイプを削除すると、そのレコードタイプに関連付けられているすべての情報も削除されます。詳しくは、この記事で[レコードタイプを削除する際の考慮事項](#considerations-when-deleting-record-types)の節を参照してください。
+ただし、レコードタイプを削除すると、そのレコードタイプに関連付けられているすべての情報も削除されます。 詳しくは、この記事で[レコードタイプを削除する際の考慮事項](#considerations-when-deleting-record-types)の節を参照してください。
 
 レコードタイプについて詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 
@@ -257,6 +268,6 @@ Old:
    * グローバルレコードタイプから作成されたレコードタイプは、選択したセカンダリワークスペースから削除されます。
    * フィールドを含む元のレコードタイプは、元のワークスペースに残ります。
    * レコードタイプは、追加された他のすべてのワークスペースに残ります。
-   * セカンダリワークスペースからレコードタイプに追加されたレコード <!--and fields-->が削除されます。 グローバルレコードタイプが追加された追加のワークスペースから追加されたその他すべてのレコードは、それぞれのワークスペースと元のワークスペースに保存されます。 &lt;! – フィールドは、追加されたワークスペースに保存されます。
+   * セカンダリワークスペースからレコードタイプに追加されたレコード <!--and fields-->が削除されます。 グローバルレコードタイプが追加された追加のワークスペースから追加されたその他すべてのレコードは、それぞれのワークスペースと元のワークスペースに保存されます。 &lt;!—! – フィールドは、追加されたワークスペースに保存されます。
 
 
