@@ -8,11 +8,16 @@ author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
 TQID: https://experienceleague.adobe.com/rboyRUa-HquCIv42DGtpGjwFa-eLptIWOnAb8Lo4W28
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1648
@@ -26,7 +31,7 @@ ht-degree: 96%
 
 [!UICONTROL ポートフォリオオプティマイザー]は、プロジェクトの評価と比較に使用されるツールです。 ポートフォリオに割り当てられたプロジェクトの[!UICONTROL ビジネスケース]の価値のレビューと比較のプロセスは、ポートフォリオマネージャーがプロジェクトに優先順位を付け、組織に最も多くの価値を生み出すことができる方法です。
 
-![ プロジェクトを含むPortfolio optimizer](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+![&#x200B; プロジェクトを含むPortfolio optimizer](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
 [!UICONTROL ポートフォリオオプティマイザー]の目的は、ポートフォリオマネージャー、運営委員会または製品管理オフィスが、各プロジェクトのビジネスケースに関する概要情報を表示できるインターフェイスを提供することです。 その後、プロジェクトを戦略的な価値観や目標または全体的なスコアに従って優先順位付けできます。
 

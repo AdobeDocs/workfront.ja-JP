@@ -6,11 +6,19 @@ author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
 TQID: https://experienceleague.adobe.com/-xR9IOM9MUTEZocMM5eACEEz644JxOuErtG-FCdM4y4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1638
@@ -116,7 +124,7 @@ ht-degree: 38%
 
 1. （オプション）「**カスタム Forms**」で、レコードに追加する請求記録カスタムフォームを選択します。
 
-   請求記録のカスタムフォームを作成してから、ここで選択する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   請求記録のカスタムフォームを作成してから、ここで選択する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 「**保存**」をクリックします。 請求記録が作成されます。
 
@@ -150,10 +158,10 @@ ht-degree: 38%
      >[!NOTE]
      >
      >プロジェクトレベルで、担当業務の請求率を上書きできます。\
-     >詳細については、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)の記事の「プロジェクト レベルでの担当業務の請求レートの上書き」の節を参照してください。
+     >詳細については、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)の記事の「プロジェクト レベルでの担当業務の請求レートの上書き」の節を参照してください。
 
 * 「プロジェクト設定」で「このプロジェクトに対する承認時間を要求」オプションを選択した場合、プロジェクト所有者はログ時間を承認する必要があります。\
-  詳細については、[ プロジェクトの承認に要する時間](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)を参照してください。
+  詳細については、[&#x200B; プロジェクトの承認に要する時間](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md)を参照してください。
 
 #### 請求記録に時間を追加 {#add-hours-to-a-billing-record}
 
@@ -225,7 +233,7 @@ ht-degree: 38%
 
    または
 
-   右上隅の&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、使用可能なフィールドで情報を編集します。
+   右上隅の&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックし、使用可能なフィールドで情報を編集します。
 
    次を更新します。
 

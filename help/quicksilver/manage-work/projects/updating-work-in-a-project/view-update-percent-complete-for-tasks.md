@@ -9,11 +9,19 @@ exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/1r6vdvrnoBbelMtKkHNUHSJ7ppNWcwK0g15omdYWtCM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 692
@@ -110,7 +118,7 @@ Old:
 
 * **タスクヘッダー**: タスクヘッダーのタスクの完了率を更新できます。
 
-  ![ ヘッダーの割合を更新](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![&#x200B; ヘッダーの割合を更新](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 * **タスクの概要パネル内**：次のエリアでタスクを表示する際に、概要パネルの上部でタスクの完了率を更新できます。
 
@@ -118,13 +126,13 @@ Old:
    * タイムシート
    * ワークロードバランサー
 
-  ![ タスクの概要の更新率が強調表示されました](assets/update-percent-complete-in-task-summary-highlighted.png)
+  ![&#x200B; タスクの概要の更新率が強調表示されました](assets/update-percent-complete-in-task-summary-highlighted.png)
 
   詳しくは、[概要について](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください
 
 * **ホーム**: タスクまたはイシューの完了率は、ホーム領域の概要パネルまたはマイワークウィジェットから更新できます。
 
-  詳しくは、[ ホームの使用を開始する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)を参照してください。
+  詳しくは、[&#x200B; ホームの使用を開始する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md)を参照してください。
 
 ## タスクの完了率を更新する際の考慮事項
 
@@ -140,7 +148,7 @@ Old:
 
 1. タスクの完了率を更新する領域のいずれかに移動します。
 
-   詳しくは、この記事の「[ タスクの完了率を更新できる領域](#areas-where-you-can-update-the-percent-complete-of-a-task)」の節を参照してください。
+   詳しくは、この記事の「[&#x200B; タスクの完了率を更新できる領域](#areas-where-you-can-update-the-percent-complete-of-a-task)」の節を参照してください。
 
 1. 完了率を更新するタスクの「**完了率**」フィールドを見つけます。
 

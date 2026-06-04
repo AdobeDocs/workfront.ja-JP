@@ -9,10 +9,14 @@ exl-id: b6761188-8630-446e-bc70-70fe272881ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ic9ER5XDxsjuf2JB2zyEzH5uWrhxTVNDtbB9lADz-Lg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 495
@@ -22,7 +26,7 @@ ht-degree: 84%
 
 # チーム設定を編集
 
-[!DNL Adobe Workfront]管理者または[!UICONTROL Standard]、[!UICONTROL  プラン ]または[!UICONTROL  ワーク ] ライセンスを持つユーザーは、[!UICONTROL  チーム設定]を編集できます。
+[!DNL Adobe Workfront]管理者または[!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]または[!UICONTROL &#x200B; ワーク &#x200B;] ライセンスを持つユーザーは、[!UICONTROL &#x200B; チーム設定]を編集できます。
 
 チームにユーザーを追加し、チームのレイアウトテンプレートを設定し、チームが作業項目を完了したときのステータスの記録方法を設定できます。
 
@@ -59,7 +63,7 @@ ht-degree: 84%
 
 1. **[!UICONTROL その他]**&#x200B;メニュー（![](assets/more-icon.png)）をクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL Standard]、[!UICONTROL  プラン ]、[!UICONTROL  ワーク ]のいずれかのライセンスを持つチームメンバーのみがこのオプションを表示します。
+   [!UICONTROL Standard]、[!UICONTROL &#x200B; プラン &#x200B;]、[!UICONTROL &#x200B; ワーク &#x200B;]のいずれかのライセンスを持つチームメンバーのみがこのオプションを表示します。
 
    「[!UICONTROL 編集]」オプションがあるべきなのに表示されない場合は、[!UICONTROL スクラムチーム]、[!UICONTROL かんばんチーム]、または[!UICONTROL ウォーターフォールチーム]に対してレイアウトテンプレートで「[!UICONTROL チーム設定]」が表示されていることを確認するよう Workfront 管理者に依頼してください。
 
@@ -86,7 +90,7 @@ ht-degree: 84%
 
    * このチームがアジャイルチームかどうかを判断するには、**[!UICONTROL これはアジャイルチーム]**&#x200B;のオプションです。
 
-     アジャイルチームとアジャイルチーム内での作業の管理方法について詳しくは、[ アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
+     アジャイルチームとアジャイルチーム内での作業の管理方法について詳しくは、[&#x200B; アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
 
    * 「[!UICONTROL 作業をする]」ボタンを「[!UICONTROL 開始]」ボタンに変更します。 「[!UICONTROL 開始]」ボタンの設定方法について詳しくは、[「作業をする」ボタンの「[!UICONTROL 開始]」ボタンへの置き換え](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)を参照してください。
    * 「**[!UICONTROL 完了]**」ボタンをカスタマイズします。 「[!UICONTROL 完了]」ボタンをカスタマイズする方法の詳細については、次を参照してください。

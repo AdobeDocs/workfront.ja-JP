@@ -8,11 +8,16 @@ author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
 TQID: https://experienceleague.adobe.com/-DZAndwU0-o1YameaYjT9Bbv3AKkTHtffvdYvjtJwLs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 737
@@ -38,9 +43,9 @@ ht-degree: 94%
 
 プロジェクトの整合性スコアは、[!UICONTROL ポートフォリオオプティマイザー]の&#x200B;**[!UICONTROL 整合性]**&#x200B;列、または[!UICONTROL ビジネスケースの概要]の「[!UICONTROL 整合性]」フィールドに表示されます。
 
-![ ビジネスケースの概要](assets/business-case-summary-aligned-field-highlighted.png)
+![&#x200B; ビジネスケースの概要](assets/business-case-summary-aligned-field-highlighted.png)
 
-![ プロジェクト調整スコア ](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![&#x200B; プロジェクト調整スコア &#x200B;](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 プロジェクトの整合性スコアを生成する方法について詳しくは、[プロジェクトへのスコアカードの適用と整合性スコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)の記事を参照してください。
 
@@ -50,7 +55,7 @@ ht-degree: 94%
 >
 >[!UICONTROL ポートフォリオオプティマイザー]でプロジェクトをスコアリングできるのは、ビジネスケースが完了した場合だけです。 ビジネスケースの完了について詳しくは、プロジェクトの[[!UICONTROL ビジネスケースの作成]](../../../manage-work/projects/define-a-business-case/create-business-case.md)の記事を参照してください。
 
-![ プロジェクトスコア ](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![&#x200B; プロジェクトスコア &#x200B;](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 各プロジェクトのスコアは、次のカテゴリの重要度に基づいて計算されます。
 
@@ -93,7 +98,7 @@ ht-degree: 94%
 * [!UICONTROL 危険と便益]
 * [!UICONTROL ROI]
 
-![ スライド値オプション ](assets/optimizer-sliding-value-options-350x77.png)
+![&#x200B; スライド値オプション &#x200B;](assets/optimizer-sliding-value-options-350x77.png)
 
 ポートフォリオ内のプロジェクトを最適化する方法について詳しくは、[[!UICONTROL ポートフォリオオプティマイザー]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)でのプロジェクトの最適化を参照してください。
 

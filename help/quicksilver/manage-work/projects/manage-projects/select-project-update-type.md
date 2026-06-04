@@ -7,11 +7,18 @@ author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
 TQID: https://experienceleague.adobe.com/UZmYpwy-EYvF9tEkw08TA1DYFCRPnGCndvRP-LId9Co
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 665
@@ -68,11 +75,11 @@ ht-degree: 67%
 タスクが更新されると、その親オブジェクト（親タスクまたはプロジェクト）が更新タイプで指定された時間に更新されます。  プロジェクトの更新タイプを指定するには：
 
 1. 更新タイプを指定するプロジェクトに移動します。
-1. プロジェクト名の横にある詳細メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
+1. プロジェクト名の横にある詳細メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
 
-1. 「**プロジェクト****設定**」をクリックします。
+1. 「**プロジェクト**&#x200B;**設定**」をクリックします。
 
-   ![ プロジェクト編集ボックスのタイプフィールドを更新](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
+   ![&#x200B; プロジェクト編集ボックスのタイプフィールドを更新](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
 1. 「**更新タイプ**」フィールドで、変更があったときに Workfront がプロジェクトのタイムラインを自動的に毎日計算するか、またはプロジェクトマネージャーが手動で計算するかを選択します。
 
@@ -87,7 +94,7 @@ ht-degree: 67%
 
      タスクまたはプロジェクトを更新し、タイムラインの再計算をトリガーすると、利用可能なすべての日付が直ちに表示され、作業を続行できます。 タスクが 100 を超えるプロジェクトでは、計算に時間がかかる日付は淡色表示になります。
 
-     ![ インライン編集時に日付がグレー表示される](assets/dates-dimmed-when-insline-editing-350x146.png)
+     ![&#x200B; インライン編集時に日付がグレー表示される](assets/dates-dimmed-when-insline-editing-350x146.png)
 
      これは、再計算がまだ完了しておらず、日付が変更される可能性があることを示しています。
 
@@ -101,7 +108,7 @@ ht-degree: 67%
      >
      >計画中ステータスの場合、プロジェクトは毎晩自動的には再計算されません。 変更時にのみ再計算されます。
 
-   * **手動のみ：** プロジェクトのタイムラインは、記事[ プロジェクトのタイムラインを再計算](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)の「手動再計算」の節で説明しているように、**タイムラインを再計算**&#x200B;するオプションを選択した場合にのみ更新されます。\
+   * **手動のみ：** プロジェクトのタイムラインは、記事[&#x200B; プロジェクトのタイムラインを再計算](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)の「手動再計算」の節で説明しているように、**タイムラインを再計算**&#x200B;するオプションを選択した場合にのみ更新されます。\
      プロジェクトに一度に多くの変更を加え、個々を変更した後ではなくすべての変更が行われた後でタイムラインの再計算を実行する場合は、このオプションを選択できます。
 
 1. 「**保存**」をクリックします。

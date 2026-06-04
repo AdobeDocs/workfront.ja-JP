@@ -9,11 +9,18 @@ exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GRkH39mvpwOvxVqlDdiB9vgz5tMfhv5nTlsEK4iY6jM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 479
@@ -129,6 +136,6 @@ Old:
 1. **先行タスク**&#x200B;列で、先行タスクの番号の入力を開始し、末尾に「e」を付けます。 例えば、選択したタスクの先行タスクとしてタスク番号 1 を追加するには、「1e」と入力します。
 1. Enter を押して、タスクの先行タスク情報を保存します。
 
-   ![先行タスクの強制リスト ](assets/predecessor-enforced-in-list-350x308.png)
+   ![先行タスクの強制リスト &#x200B;](assets/predecessor-enforced-in-list-350x308.png)
 
    適用される先行タスクに関する情報は、すぐに保存されます。

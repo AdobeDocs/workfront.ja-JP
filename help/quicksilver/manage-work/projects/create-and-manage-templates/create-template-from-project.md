@@ -10,11 +10,19 @@ exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IK792FimJ6fpT2kPIlaDCvySDzmIfhpvLQaRhAH4oAY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 470
@@ -101,7 +109,7 @@ Old:
 ## プロジェクトからテンプレートを作成
 
 1. テンプレートとして保存するプロジェクトに移動します。
-1. **詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックしてから、**テンプレートとして保存**&#x200B;をクリックします。
+1. **詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**テンプレートとして保存**&#x200B;をクリックします。
 1. テンプレートに次の情報を指定します。
 
    <table style="table-layout:auto"> 
@@ -136,17 +144,17 @@ Old:
 
 1. フォームの名前にカーソルを合わせ、クリックして新しい場所にドラッグ&amp;ドロップします。
 
-   ![ テンプレートの先頭にプロジェクトを保存](assets/save-project-as-template-top-of-the-form.png)
+   ![&#x200B; テンプレートの先頭にプロジェクトを保存](assets/save-project-as-template-top-of-the-form.png)
 
 1. 左側のパネルで「**オプション**」をクリックし、テンプレートに転送するフィールドまたは項目を選択します。
 
    すべての項目はデフォルトでオンになっています。 選択されていない項目は、テンプレートに転送されません。
 
-   ![ テンプレートとして保存オプション ](assets/save-project-as-template-options-area.png)
+   ![&#x200B; テンプレートとして保存オプション &#x200B;](assets/save-project-as-template-options-area.png)
 
 1. 左側のパネルで「**除外**」をクリックし、プロジェクトから除外するタスクを選択します。
 
-   ![ テンプレートとして保存を除外](assets/save-project-as-template-exclude-area.png)
+   ![&#x200B; テンプレートとして保存を除外](assets/save-project-as-template-exclude-area.png)
 
 1. 「**完了してテンプレートを保存**」をクリックします。
 

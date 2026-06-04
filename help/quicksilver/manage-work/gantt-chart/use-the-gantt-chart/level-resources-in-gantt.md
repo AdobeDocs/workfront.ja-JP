@@ -9,11 +9,17 @@ exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/S18IeLvaNdf0YP0aVFhEO55bdrvHwVpHHnd5c06NBHY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 623
@@ -106,7 +112,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
 * 先行タスク関係は、リソースの標準化よりも優先されます。
 * [!UICONTROL ガントチャート]で標準化を調整するには、プロジェクトの「**[!UICONTROL リソースの標準化]**」を「**[!UICONTROL 手動]**」に設定する必要があります。 プロジェクトに対する管理権限がある場合は、プロジェクトでこの設定を調整し、**[!UICONTROL プロジェクトの編集]**&#x200B;ボックスで「**[!UICONTROL 手動]**」ではなく「**[!UICONTROL 自動]**」を選択することで、システムに自動的にリソースを標準化させることができます。
 
-  ![ リソースの平準化モード ](assets/resource-leveling-mode-350x177.png)
+  ![&#x200B; リソースの平準化モード &#x200B;](assets/resource-leveling-mode-350x177.png)
 
 * プロジェクト所有者またはタスク担当者は、タスクに標準化の遅延を導入して、タスクに追加の時間が必要になる可能性が高いことを示すことができます。 タスクに標準化の遅延を追加する方法については、[タスク標準化の遅延の更新](../../../manage-work/tasks/task-information/task-leveling-delay.md)を参照してください。
 

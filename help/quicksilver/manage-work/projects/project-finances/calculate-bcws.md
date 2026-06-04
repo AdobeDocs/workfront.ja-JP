@@ -8,11 +8,17 @@ author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
 TQID: https://experienceleague.adobe.com/Nt0HZv7YfcMsAXZr3xRlkGXtCrQPJeJd4IQB0BuhbVM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 600
@@ -80,7 +86,7 @@ BCWS を時間単位で計算するかコスト単位で計算するかは、プ
 1. プロジェクトに移動し、左パネルの「**プロジェクトの詳細**」をクリックします。
 1. **財務**&#x200B;エリアで、「**パフォーマンスインデックスメソッド**」フィールドを検索し、ダブルクリックして編集します。
 
-   ![PIM オプション ](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM オプション &#x200B;](assets/pim-options-hour-cost-based-nwe.png)
 
 1. 次のオプションから選択します。
 
@@ -129,7 +135,7 @@ BCWS 列をビューに追加すると、レポートまたはリスト上の予
 1. 「**列を追加**」をクリックします。
 1. **この列に表示：**&#x200B;フィールドで **BCWP** の入力を開始して、リストに表示されたらクリックして選択します。
 
-   プロジェクト ビュー](assets/bcws-in-project-view.png)の![BCWS
+   プロジェクト ビュー![&#128279;](assets/bcws-in-project-view.png)のBCWS
 
 1. 「**ビューを保存**」をクリックします。
 1. **BCWS** フィールドがビューに表示されます。

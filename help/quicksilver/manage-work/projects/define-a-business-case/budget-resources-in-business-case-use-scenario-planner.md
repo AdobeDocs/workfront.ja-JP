@@ -6,11 +6,19 @@ author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
 TQID: https://experienceleague.adobe.com/p-Qe4oRj4T4e6QKtFs9eRWHTrhIMIM7zvJ6SzYI0sXU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 961
@@ -79,7 +87,7 @@ ht-degree: 89%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -137,7 +145,7 @@ ht-degree: 89%
 
    * プロジェクトの予算リソースに対して、リソースプランナーが以前に選択されていた場合は、**変更**／**シナリオプランナ**／**選択**&#x200B;をクリックします。
 
-     ![選択ボタンを使用したシナリオプランナーのビジネスケース ](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![選択ボタンを使用したシナリオプランナーのビジネスケース &#x200B;](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront は、リンクされたイニシアティブから必要な担当業務時間を使用して、プロジェクトの予算労務費と予算時間を計算します。 これは推奨されるオプションです。 コストは、ビジネスケースにプロジェクトの通貨で表示されます。
 

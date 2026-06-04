@@ -9,11 +9,18 @@ exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tM0VQ3qjYLpCxblaxG99yJ78Pj9H8tyoMMO1IFmK3Vs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1010
@@ -25,9 +32,9 @@ ht-degree: 91%
 
 <!--Audited: 08/2025-->
 
-Adobe Workfrontのタスクリストの[!UICONTROL  ガントチャート ]には、プロジェクトまたはテンプレートにあるタスクに関する詳細が表示されます。
+Adobe Workfrontのタスクリストの[!UICONTROL &#x200B; ガントチャート &#x200B;]には、プロジェクトまたはテンプレートにあるタスクに関する詳細が表示されます。
 
-テンプレートでは、タスクリスト [!UICONTROL  ガントチャート ]は、テンプレートのタスクリストで行われた更新をテンプレートタスクレベルに反映します。 テンプレートに関連付けられている[!UICONTROL ガントチャート]は編集できません。
+テンプレートでは、タスクリスト [!UICONTROL &#x200B; ガントチャート &#x200B;]は、テンプレートのタスクリストで行われた更新をテンプレートタスクレベルに反映します。 テンプレートに関連付けられている[!UICONTROL ガントチャート]は編集できません。
 
 プロジェクトでは、タスクリストの[!UICONTROL ガントチャート]でタスク情報を直接更新できます。
 
@@ -103,7 +110,7 @@ Old:
 1. 変更するプロジェクトに移動します。
 1. 左パネルの「**[!UICONTROL タスク]**」をクリックします。
 
-   ![ タスク領域](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![&#x200B; タスク領域](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. **[!UICONTROL ガントチャート]**&#x200B;アイコンをクリックします。
 

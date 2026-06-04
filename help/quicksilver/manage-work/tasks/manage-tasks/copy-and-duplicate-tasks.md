@@ -9,11 +9,21 @@ exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/4woD6-qOZKqPQvGDYALAku7uX3-wD90jxj58zAjc2N0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1756
@@ -111,7 +121,7 @@ Old:
 
 * 従来のWorkfrontとAdobe クラウドストレージの両方を使用している場合、異なるストレージタイプを使用するプロジェクト間でタスクをコピーすることはできません。
 
-  詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+  詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 ## リスト内のタスクをコピー {#copy-tasks-in-a-list}
 
@@ -122,7 +132,7 @@ Old:
    タスクレポートに移動します。
 
 1. （条件付き）タスクを含むプロジェクトを開いた場合は、左側のパネルで「**タスク**」をクリックします。
-1. **プランモード** アイコン ![ リストモードまたは保存モードアイコン ](assets/qs-list-mode-or-save-mode-icon-small.png)をクリックし、**自動保存** オプションが有効になっていることを確認します。
+1. **プランモード** アイコン ![&#x200B; リストモードまたは保存モードアイコン &#x200B;](assets/qs-list-mode-or-save-mode-icon-small.png)をクリックし、**自動保存** オプションが有効になっていることを確認します。
 
    ![自動保存アイコンがオンでハイライト表示されました](assets/autosave-icon-on-highlighted-350x202.png)
 
@@ -134,9 +144,9 @@ Old:
 
    * タスクリストの上部で、**その他メニュー**&#x200B;をクリックし、続いて&#x200B;**コピー先**&#x200B;をクリックします。
    * 選択したタスクを右クリックし、**コピー先**&#x200B;をクリックします。
-   * 1つのタスクを選択する際に、リスト内のタスク名の横にあるタスクリスト ](assets/more-icon-task-list.png)の&#x200B;**詳細** メニュー![詳細アイコンをクリックし、**から**&#x200B;にコピーをクリックします。
+   * 1つのタスクを選択する際に、リスト内のタスク名の横にあるタスクリスト ![&#128279;](assets/more-icon-task-list.png)の&#x200B;**詳細** メニュー詳細アイコンをクリックし、**から**&#x200B;にコピーをクリックします。
 
-   ![ リスト内のタスクをコピー](assets/copy-task-in-list-nwe-350x131.png)
+   ![&#x200B; リスト内のタスクをコピー](assets/copy-task-in-list-nwe-350x131.png)
 
 1. 「[タスクレベルでタスクをコピー](#copy-a-task-at-the-task-level)」の節の説明に従って、ステップ 4 からタスクのコピーを続行します。
 
@@ -152,7 +162,7 @@ Old:
 1. タスクの名前をクリックして開きます。
 1. タスクの名前の横にある&#x200B;**詳細** ドロップダウンメニュー![詳細メニュー](assets/qs-more-menu.png)をクリックし、**コピー先**&#x200B;をクリックします。
 
-   ![ タスクレベルのオプションへのタスクコピー](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
+   ![&#x200B; タスクレベルのオプションへのタスクコピー](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
    「タスクをコピー」ボックスが表示されます。
 
@@ -162,7 +172,7 @@ Old:
    >
    >リスト内の複数のタスクをコピーする場合、このフィールドはグレー表示になり、編集できません。 タスク名フィールドにポインタを合わせると、選択したすべてのタスクのリストが表示されます。
    >
-   >![ タスクを複数のタスク ボックスにコピー](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
+   >![&#x200B; タスクを複数のタスク ボックスにコピー](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
 1. タスクをコピーする&#x200B;**宛先プロジェクト**&#x200B;の名前を「**宛先プロジェクトを選択**」フィールドに入力します。
 
@@ -177,7 +187,7 @@ Old:
 1. （条件付き）選択したプロジェクトへのアクセス権がない場合は、「**アクセスをリクエスト**」をクリックして、プロジェクトへのアクセス権をリクエストします。
 1. （条件付き）対象プロジェクトのタスクの 1 つにタスクを追加するアクセス権がある場合は、アクセスをリクエストせずに、引き続き選択した対象プロジェクトにタスクをコピーします。
 
-   ![ プロジェクトからのタスク要求アクセスのコピー](assets/copy-task-request-access-from-project-nwe-350x125.png)
+   ![&#x200B; プロジェクトからのタスク要求アクセスのコピー](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
@@ -304,11 +314,11 @@ Old:
 1. 左側のパネルの「**タスク**」をクリックします。
 1. 次のいずれかの操作を行います。
 
-   * （条件付き） **プランモード** アイコン ![ リストモードまたは保存モードの小さなアイコン ](assets/qs-list-mode-or-save-mode-icon-small.png)をクリックし、**自動保存** オプションが有効になっていることを確認し、複製するタスクを選択してから、**詳細メニュー** ![詳細メニュー](assets/qs-more-menu-29x11.png) > **複製**&#x200B;をクリックします。
+   * （条件付き） **プランモード** アイコン ![&#x200B; リストモードまたは保存モードの小さなアイコン &#x200B;](assets/qs-list-mode-or-save-mode-icon-small.png)をクリックし、**自動保存** オプションが有効になっていることを確認し、複製するタスクを選択してから、**詳細メニュー** ![詳細メニュー](assets/qs-more-menu-29x11.png) > **複製**&#x200B;をクリックします。
 
-     ![ リストメニュー項目のタスクを複製](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![&#x200B; リストメニュー項目のタスクを複製](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * （条件付き） **プランモード** アイコン ![ リストモードまたは保存モードの小さなアイコン ](assets/qs-list-mode-or-save-mode-icon-small.png) > **手動保存** > **標準**&#x200B;または&#x200B;**タイムライン計画**&#x200B;をクリックし、次の操作を行います。
+   * （条件付き） **プランモード** アイコン ![&#x200B; リストモードまたは保存モードの小さなアイコン &#x200B;](assets/qs-list-mode-or-save-mode-icon-small.png) > **手動保存** > **標準**&#x200B;または&#x200B;**タイムライン計画**&#x200B;をクリックし、次の操作を行います。
 
       1. 複製する 1 つまたは複数のタスクを選択し、「**複製**」をクリックします。
       1. （オプション）「**取り消し**」をクリックして変更を元に戻し、タスクを複製しないようにします。

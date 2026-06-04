@@ -11,11 +11,19 @@ exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ebZ7z4dnpQUN0i0zbEuyqx0tZBbDfTJWgqw743E2a2U
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: be65ef36-43e4-48e1-a062-caa3778e15beid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1221
@@ -99,7 +107,7 @@ Old:
 
 プロジェクト指標を使用すると、プロジェクトで発生していることをビジュアライゼーションで表示し、プロジェクトのニーズやステータスをすばやく評価できます。
 
-![ プロジェクト指標](assets/project-metrics-full-screen-350x238.png)
+![&#x200B; プロジェクト指標](assets/project-metrics-full-screen-350x238.png)
 
 指標領域では、プロジェクト全体の健全性のほか、次の情報を確認できます。
 
@@ -123,7 +131,7 @@ this was deprecated:
 
 主要業績評価指標（KPI）は、指標領域の上部に表示されます。
 
-![ プロジェクト指標](assets/project-metrics-kpis-350x52.png)
+![&#x200B; プロジェクト指標](assets/project-metrics-kpis-350x52.png)
 
 これらの KPI は、次のカテゴリに分類されます。
 
@@ -136,7 +144,7 @@ this was deprecated:
 >[!TIP]
 >
 >特定の KPI の作業項目リストを表示するには、その KPI をクリックします。 このリストでは、特定の作業アイテムをクリックして、新規タブに詳細を表示できます。\
->![完了したタスク ](assets/completed-tasks-dialog-350x75.png)\
+>![完了したタスク &#x200B;](assets/completed-tasks-dialog-350x75.png)\
 >詳しくは、[指標の詳細を表示](#view-metrics-details)を参照してください。
 
 ## タスクまたはイシューの棒グラフ
@@ -145,16 +153,16 @@ this was deprecated:
 
 このグラフでステータスを選択すると、プロジェクトのタスクまたはイシューのステータスをすべて表示できます。 各ステータスは、グラフの棒でグループ化されます。 このグラフには、すべてのデフォルトのシステムステータスとカスタムステータスが表示されます。
 
-![ ステータス別タスクの問題](assets/project-metrics-task-issue-by-status-350x120.png)
+![&#x200B; ステータス別タスクの問題](assets/project-metrics-task-issue-by-status-350x120.png)
 
 このグラフで優先度を選択すると、プロジェクトのタスクまたはイシューの優先度をすべて表示できます。
 
-![ タスクとイシュー（優先度別） ](assets/project-metrics-task-issue-by-priority-350x121.png)
+![&#x200B; タスクとイシュー（優先度別） &#x200B;](assets/project-metrics-task-issue-by-priority-350x121.png)
 
 >[!TIP]
 >
 >特定のステータスまたは優先度を持つ作業項目のリストを表示するには、グラフの棒をクリックします。 このリストでは、特定の作業アイテムをクリックして、新規タブに詳細を表示できます。\
->![完了したタスク ボックス ](assets/completed-tasks-dialog-350x75.png)\
+>![完了したタスク ボックス &#x200B;](assets/completed-tasks-dialog-350x75.png)\
 >詳しくは、[指標の詳細を表示](#view-metrics-details)を参照してください。
 
 ## ドーナツグラフ
@@ -172,7 +180,7 @@ this was deprecated:
 >[!TIP]
 >
 >完了または未完了な作業アイテムのリストを表示するには、ドーナツグラフで該当するセクションをクリックします。 このリストでは、特定の作業アイテムをクリックして、新規タブに詳細を表示できます。\
->![完了したタスク ボックス ](assets/completed-tasks-dialog-350x75.png)\
+>![完了したタスク ボックス &#x200B;](assets/completed-tasks-dialog-350x75.png)\
 >詳しくは、[指標の詳細の表示](#view-metrics-details)を参照してください。
 
 ## 担当者の棒グラフ
@@ -192,7 +200,7 @@ this was deprecated:
 >[!TIP]
 >
 >選択したカテゴリで特定のユーザーに割り当てられている作業アイテムのリストを表示するには、グラフでユーザー名の横にあるバーをクリックします。 このリストでは、特定の作業アイテムをクリックして、新規タブに詳細を表示できます。\
->![完了したタスク ボックス ](assets/completed-tasks-dialog-350x75.png)\
+>![完了したタスク ボックス &#x200B;](assets/completed-tasks-dialog-350x75.png)\
 >詳しくは、[指標の詳細の表示](#view-metrics-details)を参照してください。
 
 ## 指標の詳細の表示 {#view-metrics-details}
@@ -202,9 +210,9 @@ this was deprecated:
 1. 指標を表示するプロジェクトに移動します。
 1. 左側のパネルで、**指標**&#x200B;をクリックします。\
    指標エリアのグラフには、デフォルトでタスクの情報が表示されます。\
-   ![指標セクション ](assets/metrics-section-350x298.png)
+   ![指標セクション &#x200B;](assets/metrics-section-350x298.png)
 
-1. （条件付き）グラフにドロップダウン矢印が表示される場合は、グラフの&#x200B;**ドロップダウン矢印** アイコン ![ ドロップダウン矢印](assets/dropdown-arrow.png)をクリックし、メニューから必要なオプションを選択します。\
+1. （条件付き）グラフにドロップダウン矢印が表示される場合は、グラフの&#x200B;**ドロップダウン矢印** アイコン ![&#x200B; ドロップダウン矢印](assets/dropdown-arrow.png)をクリックし、メニューから必要なオプションを選択します。\
    各グラフのメニューに表示されるオプションについて詳しくは、上記の関連する節を参照してください。
 
 1. （オプション）ページ上の指標のタスクやイシューを詳しく調べるには、以下の手順を実行します。
@@ -213,7 +221,7 @@ this was deprecated:
 
       タスクまたはイシューのリストが表示されます。
 
-      ![完了したタスク ボックス ](assets/completed-tasks-dialog-350x75.png)
+      ![完了したタスク ボックス &#x200B;](assets/completed-tasks-dialog-350x75.png)
 
    1. リストの下部にある矢印を使用して、確認するタスクまたはイシューを見つけます。
 
@@ -227,7 +235,7 @@ this was deprecated:
 
       タスクまたはイシューが新規タブで開きます。
 
-1. （オプション）プロジェクト指標ダッシュボードを.png ファイルに書き出すには、**書き出し** アイコン ![書き出しアイコン ](assets/export.png)をクリックし、ドロップダウンメニューから「**PNGとして書き出し**」を選択します。
+1. （オプション）プロジェクト指標ダッシュボードを.png ファイルに書き出すには、**書き出し** アイコン ![書き出しアイコン &#x200B;](assets/export.png)をクリックし、ドロップダウンメニューから「**PNGとして書き出し**」を選択します。
 
    >[!TIP]
    >

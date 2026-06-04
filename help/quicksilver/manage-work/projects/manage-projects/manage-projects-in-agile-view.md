@@ -9,11 +9,18 @@ exl-id: fc633fd6-35b4-4949-8045-22c775002436
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Pw5yN5HjeNXviuTZS0L0Q5iM66zQl8ffX3-SeJ-eMno
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: be65ef36-43e4-48e1-a062-caa3778e15beid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 314
@@ -29,7 +36,7 @@ ht-degree: 44%
 
 チームのバックログを使用し、バックログ上のタスクからイテレーションを作成できるアジャイル環境で作業できます。
 
-詳しくは、[ アジャイル環境での作業](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)を参照してください。
+詳しくは、[&#x200B; アジャイル環境での作業](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)を参照してください。
 
 ## アクセス要件
 
@@ -121,6 +128,6 @@ old:
 
    詳しくは、[ボード列の管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)と[カードに表示されるフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)を参照してください。 プロジェクトのボードビューでは列ポリシーを定義できないことに注意してください。
 
-1. （オプション）リスト表示に戻るには、**リスト** アイコン ![ リストアイコン ](assets/list-icon.png)をクリックします。
+1. （オプション）リスト表示に戻るには、**リスト** アイコン ![&#x200B; リストアイコン &#x200B;](assets/list-icon.png)をクリックします。
 
    タスクまたは問題のリストが表示されます。

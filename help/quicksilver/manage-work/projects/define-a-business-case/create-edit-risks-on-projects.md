@@ -9,11 +9,18 @@ exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OaM-knTgbdtKqyeRlibRI0DmBas7E0OZurWE6atdqpE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1068
@@ -90,7 +97,7 @@ ht-degree: 48%
 
 1. リスクを作成するプロジェクトに移動します。
 1. 左側のパネルで「**ビジネスケース**」をクリックします。
-1. **リスク** セクションで、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします
+1. **リスク** セクションで、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします
 1. 次の情報を入力または編集します。
 
    * **説明：** リスクについて説明します。
@@ -126,7 +133,7 @@ ht-degree: 48%
 
    「**新しいリスク**」をクリックして、**新しいリスク** ボックスを開きます。
 
-   ![新しいリスク ボックス ](assets/new-risk-box.png)
+   ![新しいリスク ボックス &#x200B;](assets/new-risk-box.png)
 
 1. （条件付き）新しいリスク **ボックスにリスクを追加する場合は、次の情報を入力します。**
 
@@ -160,7 +167,7 @@ ht-degree: 48%
 
    または
 
-   1つまたは複数のリスクを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon-on-white.png)をクリックして、複数のリスクを同時に編集します。
+   1つまたは複数のリスクを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon-on-white.png)をクリックして、複数のリスクを同時に編集します。
 
    >[!NOTE]
    >

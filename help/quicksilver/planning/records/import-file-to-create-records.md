@@ -9,11 +9,17 @@ exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/QGZ50tUPyUahPPrfvO94JQNVxuj7HQTjxwZ0hQyuKUM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 839
@@ -33,7 +39,7 @@ ht-degree: 12%
 
 レコードは、Adobe Workfront Planningのオブジェクトタイプであるレコードタイプの個々のインスタンスです。 Workfront Planningでは、CSVまたはExcel ファイルから情報を読み込むことで、レコードを作成できます。
 
-レコードの作成について詳しくは、[ レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
+レコードの作成について詳しくは、[&#x200B; レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
 ## アクセス要件
 
@@ -69,7 +75,7 @@ ht-degree: 12%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -171,16 +177,16 @@ Old:
 1. レコードを読み込むレコードタイプのカードをクリックします。
 1. 画面の右上隅にある&#x200B;**新しいレコード**&#x200B;をクリックします。
 
-   ![ レコードを3つのボタンボックスに追加する方法を選択](assets/choose-way-to-add-records-three-button-box.png)
+   ![&#x200B; レコードを3つのボタンボックスに追加する方法を選択](assets/choose-way-to-add-records-three-button-box.png)
 1. 「**ファイルからアップロード**」、「**続行**」の順にクリックします。<!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. コンピューターに保存済みの Excel ファイルまたは CSV ファイルをドラッグアンドドロップするか、「**CSV ファイルまたは Excel ファイルを選択**」をクリックして参照します。
 1. 「**プレビューして編集**」をクリックします。
 1. （条件付き）読み込んだファイルに複数のシートがある場合は、**読み込むシートを選択** ボックスで読み込むシートのラジオボタンを選択し、**次へ**&#x200B;をクリックします。 それ以外は、次のステップに進みます。
 
-   ![ レコードを読み込むシートを選択](assets/select-a-sheet-to-import-box.png)
+   ![&#x200B; レコードを読み込むシートを選択](assets/select-a-sheet-to-import-box.png)
 1. **プランニングフィールドを列ヘッダーにマッピングする**&#x200B;で、シートの各列の情報に最も一致する&#x200B;**プランニングフィールド**&#x200B;を選択します。
 
-   ![ レコードの読み込み時にプランニングフィールドを列にマッピング ](assets/map-planning-fields-to-columns-when-importing-records.png)
+   ![&#x200B; レコードの読み込み時にプランニングフィールドを列にマッピング &#x200B;](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    各行は新しいレコードを表します。 「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
 

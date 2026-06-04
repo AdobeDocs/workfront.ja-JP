@@ -9,11 +9,18 @@ exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ux3CyN-AC7EKD74-GKadkODI3rCBcIIcQIH26LKCA-Y
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 774
@@ -139,7 +146,7 @@ Old:
 プロジェクトの時間数についてプロジェクトマネージャーの承認が必要になるように設定するには、次の手順に従います。
 
 1. 時間数の承認を必要とするプロジェクトに移動します。
-1. プロジェクト名の右側にある&#x200B;**詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。\
+1. プロジェクト名の右側にある&#x200B;**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。\
    プロジェクトの編集ダイアログボックスが表示されます。
 
 1. 「**プロジェクト設定**」セクションで、「**プロジェクト時間の承認**」を選択します。
@@ -162,7 +169,7 @@ Old:
 1. イシュー、タスク、プロジェクトに関して記録された時間が表示され、ステータスは&#x200B;**送信済み**&#x200B;になります。\
    時間エントリの左側にあるボックスをクリックして、承認する時間を選択します。
 
-1. 時間リストの上部にある&#x200B;**承認** アイコン ![承認アイコン ](assets/approve-hours-icon.png)をクリックします。\
+1. 時間リストの上部にある&#x200B;**承認** アイコン ![承認アイコン &#x200B;](assets/approve-hours-icon.png)をクリックします。\
    時間のステータスが&#x200B;**承認済み**&#x200B;に変わります。\
    後で承認された時間を却下すると、時間のステータスは&#x200B;**未承認**&#x200B;に変わります。\
    請求記録に承認された時間を含めると、時間のステータスは&#x200B;**請求および承認済み**&#x200B;に変わります。 請求記録に追加された時間は削除できません。 請求記録の作成について詳しくは、[請求記録を作成](../../../manage-work/projects/project-finances/create-billing-records.md)の記事を参照してください。

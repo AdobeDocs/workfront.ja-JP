@@ -9,11 +9,17 @@ exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-fd6ZHZZYv-xEk1BxcBXPTdFoqxxB8cXrtogOB3ELGI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 726
@@ -103,11 +109,11 @@ Old:
 {{step1-to-templates}}
 
 1. 次のいずれかの操作を行います。\
-   テンプレートの名前をクリックして開き、**詳細** メニュー![詳細アイコン ](assets/more-icon.png)、次に&#x200B;**テンプレート共有**&#x200B;をクリックします。
+   テンプレートの名前をクリックして開き、**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)、次に&#x200B;**テンプレート共有**&#x200B;をクリックします。
 
    または
 
-   リストからテンプレートを選択し、共有アイコン ![ テンプレートを共有](assets/share-icon.png)をクリックしてから、**テンプレート**&#x200B;をクリックします。
+   リストからテンプレートを選択し、共有アイコン ![&#x200B; テンプレートを共有](assets/share-icon.png)をクリックしてから、**テンプレート**&#x200B;をクリックします。
 
    >[!TIP]
    >
@@ -127,7 +133,7 @@ Old:
 
    * **管理**：この権限を持つユーザーは、テンプレートを編集または削除できます。
 
-     ここで使用できる詳細設定![ ギアアイコン ](assets/gear-icon-in-access-levels.png)について詳しくは、[ テンプレートの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)の「](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) テンプレート共有の詳細設定」の節[を参照してください。
+     ここで使用できる詳細設定![&#x200B; ギアアイコン &#x200B;](assets/gear-icon-in-access-levels.png)について詳しくは、[&#x200B; テンプレートの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)の「[&#128279;](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) テンプレート共有の詳細設定」の節を参照してください。
 
 1. 「**保存**」をクリックします。
 
@@ -138,7 +144,7 @@ Old:
 テンプレートから作成された今後のプロジェクトをユーザーと共有するには、以下のように行います。
 
 1. 次のいずれかの操作を行います。\
-   テンプレートの名前をクリックして開き、**詳細** メニュー![詳細アイコン ](assets/more-icon.png)、次に&#x200B;**テンプレート共有**&#x200B;をクリックします。
+   テンプレートの名前をクリックして開き、**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)、次に&#x200B;**テンプレート共有**&#x200B;をクリックします。
 
    ![テンプレートからプロジェクトを共有](assets/project-sharing-on-template-nwe-2022-350x172.png)
 

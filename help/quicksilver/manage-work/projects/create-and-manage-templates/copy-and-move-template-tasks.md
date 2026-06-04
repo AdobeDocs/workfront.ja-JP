@@ -9,11 +9,20 @@ exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/aOCabFAMwrIrdKvjbjYgGcVTV5tBPbCL-rIdjs3FB64
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 2229
@@ -118,7 +127,7 @@ Old:
 
 * 従来のAdobe ストレージテンプレートからWorkfront ストレージテンプレートにテンプレートタスクをコピーしたり、移動したりすることはできません。 その逆も同じです。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
 
-  詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+  詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 ## テンプレートタスクのコピー
 
@@ -129,9 +138,9 @@ Old:
 1. 次のいずれかの操作を行います。
    * テンプレートタスクの名前をクリックして開きます。
    * リストから 1 つまたは複数のテンプレートタスクを選択します。
-1. （条件付き）テンプレートタスクリストの上部またはテンプレートタスク名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、コピーオプションにアクセスしている場所に応じて、**コピー先**&#x200B;または&#x200B;**コピー**をクリックします。
+1. （条件付き）テンプレートタスクリストの上部またはテンプレートタスク名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、コピーオプションにアクセスしている場所に応じて、**コピー先**&#x200B;または&#x200B;**コピー**&#x200B;をクリックします。
 「テンプレートをコピー」タスクボックスが開きます。
-   ![ テンプレート タスク ボックスをコピー](assets/copy-template-task-box-unshimmed.png)
+   ![&#x200B; テンプレート タスク ボックスをコピー](assets/copy-template-task-box-unshimmed.png)
 1. （オプション）「**テンプレートタスク名**」フィールドでテンプレートタスクの名前を変更します。
 
    >[!TIP]
@@ -150,7 +159,7 @@ Old:
    >
    >ドキュメントの種類が類似しているテンプレートを選択する必要があります。 元のテンプレートとは異なるストレージタイプを持つテンプレートにテンプレートタスクをコピーすることはできません。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
    >
-   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 
 1. （条件付き）選択したテンプレートへのアクセス権がない場合は、「**アクセスをリクエスト**」をクリックして、宛先テンプレートへのアクセスを要求します。
@@ -259,9 +268,9 @@ Old:
 1. 次のいずれかの操作を行います。
    * テンプレートタスクの名前をクリックして開きます。
    * リストから 1 つまたは複数のテンプレートタスクを選択します。
-1. （条件付き）テンプレートタスクリストの上部またはテンプレートタスク名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**移動先**&#x200B;または&#x200B;**移動先**をクリックします。
+1. （条件付き）テンプレートタスクリストの上部またはテンプレートタスク名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**移動先**&#x200B;または&#x200B;**移動先**&#x200B;をクリックします。
 テンプレートの移動タスク ボックスが開きます。
-   ![ テンプレート タスク ボックスを移動](assets/move-template-task-box-unshimmed.png)
+   ![&#x200B; テンプレート タスク ボックスを移動](assets/move-template-task-box-unshimmed.png)
 
 1. （オプション）「**テンプレートタスク名**」フィールドでテンプレートタスクの名前を変更します。
 
@@ -277,7 +286,7 @@ Old:
    >
    >* ドキュメントの種類が類似しているテンプレートを選択する必要があります。 元のテンプレートとは異なるストレージタイプを持つテンプレートにテンプレートタスクをコピーすることはできません。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
    >
-   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 1. （条件付き）宛先テンプレートへのアクセス権がない場合は、「**アクセスをリクエスト**」をクリックして、テンプレートへのアクセスをリクエストします。
 1. （条件付き）テンプレートタスクを宛先テンプレートのテンプレートタスクの 1 つに追加するアクセス権がある場合は、アクセスをリクエストせずに、テンプレートタスクを選択した宛先テンプレートに引き続き移動します。

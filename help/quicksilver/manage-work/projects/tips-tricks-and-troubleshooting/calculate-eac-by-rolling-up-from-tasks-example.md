@@ -8,11 +8,17 @@ author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
 TQID: https://experienceleague.adobe.com/O-A-9mMVMuqsnHXpph-J5Qwh6Qj5r46zxj7VG85rX04
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1155
@@ -438,64 +444,64 @@ EAC メソッド = タスクやサブタスクからのロールアップ
    </table>
 
 1. 「プロジェクトアクション」から「財務の再計算」を実行します。
-1. **タスク 1 の CPI****** = .14 は以下のように計算されます。\
-   タスク 1 **の** CPI **** = *IF*実際の労力コスト + IncurredActualExpenseCost &lt;> 0 *THEN*
+1. **タスク 1 の CPI**&#x200B;**&#x200B;** = .14 は以下のように計算されます。\
+   タスク 1 **の** CPI **&#x200B;**&#x200B;= *IF*実際の労力コスト + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labor\
-     タスク 1 **の** CPI**** = （100+300） / （2500+400）\
-     タスク 1 **の** CPI**** = 400 / 2900\
-     タスク 1 **の** CPI**** = .14
+     タスク 1 **の** CPI&#x200B;**&#x200B;** = （100+300） / （2500+400）\
+     タスク 1 **の** CPI&#x200B;**&#x200B;** = 400 / 2900\
+     タスク 1 **の** CPI&#x200B;**&#x200B;** = .14
 
-1. **タスク 1 の EAC****** = 13,400.00 ドル\
-   **タスク 1 の CPI 労力****** = IF 実際の労力コスト &lt;> 0 THEN
+1. **タスク 1 の EAC**&#x200B;**&#x200B;** = 13,400.00 ドル\
+   **タスク 1 の CPI 労力**&#x200B;**&#x200B;** = IF 実際の労力コスト &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    ELSE CPI_Labor = 1\
-   **タスク 1 の CPI 労力****** = 100/2500\
-   **タスク 1 の CPI 労力****** = .04
+   **タスク 1 の CPI 労力**&#x200B;**&#x200B;** = 100/2500\
+   **タスク 1 の CPI 労力**&#x200B;**&#x200B;** = .04
 
-   **タスク 1 の EAC 労力****** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **タスク 1 の EAC 労力**&#x200B;**&#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    * ELSE* EAC労力=予定労力コスト +実際の労力コスト\
-     **タスク 1 の EAC 労力****** = 500.00/.04\
-     **タスク 1 の EAC 労力****** = 12,500.00 ドル
+     **タスク 1 の EAC 労力**&#x200B;**&#x200B;** = 500.00/.04\
+     **タスク 1 の EAC 労力**&#x200B;**&#x200B;** = 12,500.00 ドル
 
-   **タスク 1 の EAC****費用** = OccedsActualExpenseCost + NotOccededPlannedExpense\
-   **タスク 1 の EAC****費用** = $400.00 + $500.00\
-   **タスク 1 の EAC****費用** = $900.00 の場合
+   **タスク 1 の EAC**&#x200B;**費用** = OccedsActualExpenseCost + NotOccededPlannedExpense\
+   **タスク 1 の EAC**&#x200B;**費用** = $400.00 + $500.00\
+   **タスク 1 の EAC**&#x200B;**費用** = $900.00 の場合
 
-   **タスク 1 の EAC****** = EAC 労力 + EAC 費用\
-   タスク 1 **の** EAC****は$12,500.00 + $900.00\
-   タスク 1 **の** EAC**** = 13,400.00 ドル
+   **タスク 1 の EAC**&#x200B;**&#x200B;** = EAC 労力 + EAC 費用\
+   タスク 1 **の** EAC&#x200B;**&#x200B;**&#x200B;は$12,500.00 + $900.00\
+   タスク 1 **の** EAC&#x200B;**&#x200B;** = 13,400.00 ドル
 
 1. タスク 2 とタスク 3 の CPI/EAC 値は以下の通りです。\
    タスク 2 = .19 / $8,433.33\
-   タスク 3 = .44 / 6,950.00 ドル****
+   タスク 3 = .44 / 6,950.00 ドル&#x200B;**&#x200B;**
 
 1. プロジェクトの CPI = .32\
-   プロジェクトの&#x200B;**CPI ****1} = *IF*実際の労力コスト + IncurredActualExpenseCost &lt;> 0 *THEN***
+   プロジェクトの&#x200B;**CPI &#x200B;**&#x200B;**1&rbrace; = *IF*実際の労力コスト + IncurredActualExpenseCost &lt;> 0 *THEN***
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labor\
-     **プロジェクトの CPI****** = (1000 + 2300) / (7500 + 2700)\
-     **プロジェクトの CPI****** = 3300 / 10200\
-     **プロジェクトの CPI****** = .32
+     **プロジェクトの CPI**&#x200B;**&#x200B;** = (1000 + 2300) / (7500 + 2700)\
+     **プロジェクトの CPI**&#x200B;**&#x200B;** = 3300 / 10200\
+     **プロジェクトの CPI**&#x200B;**&#x200B;** = .32
 
 1. プロジェクトの EAC は 28,783.33 ドル\
-   **プロジェクトの EAC****** = EAC タスク 1 + EAC タスク 2 + EAC タスク 3\
-   **プロジェクトの EAC****** = 13,400.00 ドル + 8,433.33 ドル + 6,950.00 ドル\
-   **プロジェクトの EAC****** = 28,783.33 ドル
+   **プロジェクトの EAC**&#x200B;**&#x200B;** = EAC タスク 1 + EAC タスク 2 + EAC タスク 3\
+   **プロジェクトの EAC**&#x200B;**&#x200B;** = 13,400.00 ドル + 8,433.33 ドル + 6,950.00 ドル\
+   **プロジェクトの EAC**&#x200B;**&#x200B;** = 28,783.33 ドル

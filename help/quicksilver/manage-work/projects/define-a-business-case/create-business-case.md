@@ -6,11 +6,19 @@ author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
 TQID: https://experienceleague.adobe.com/LqbRptv6SejiN1K5SsAHDKzXDbKCwFeFT9W1rPjRafo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 783
@@ -93,15 +101,15 @@ ht-degree: 63%
 1. 左側のパネルで、**ビジネスケース**&#x200B;をクリックします。
 1. （オプション）「**プロジェクト情報**」セクションを編集するには、「**プロジェクト情報を編集**」をクリックします。
 
-   **プロジェクト情報** セクション フィールドの編集について詳しくは、記事[ ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[ プロジェクト情報](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info)の節を参照してください。
+   **プロジェクト情報** セクション フィールドの編集について詳しくは、記事[&#x200B; ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[&#x200B; プロジェクト情報](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info)の節を参照してください。
 
 1. （オプション） **目標** セクションを編集するには、**目標を編集**&#x200B;をクリックします。
 
-   ビジネスケースの&#x200B;**目標** セクションの編集について詳しくは、記事[ ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[目標](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals)の節を参照してください。
+   ビジネスケースの&#x200B;**目標** セクションの編集について詳しくは、記事[&#x200B; ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[目標](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals)の節を参照してください。
 
 1. （オプション）「**費用**」セクションを編集するには、「**費用を編集**」をクリックします。
 
-   ビジネスケースの&#x200B;**費用** セクションの編集について詳しくは、記事[ ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[費用](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses)の節を参照してください。
+   ビジネスケースの&#x200B;**費用** セクションの編集について詳しくは、記事[&#x200B; ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の[費用](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses)の節を参照してください。
 
 1. （オプション）「**リソース予算を編集**」をクリックして、リソースを予算し、プロジェクトの担当業務に関連付けられている予算計上労力コストを取得します。 詳しくは、[ビジネスケースの予算リソース](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。
 
@@ -120,7 +128,7 @@ ht-degree: 63%
 
    プロジェクトに添付する前に、カスタムフォームを作成する必要があります。
 
-   カスタム Formsについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   カスタム Formsについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 「**送信**」をクリックします。 プロジェクトのステータスが「**リクエスト済み**」に変更されて、ビジネスケースの承認を得るために送信されます。
 
@@ -129,6 +137,6 @@ ht-degree: 63%
 
 >[!TIP]
 >
-> ビジネスケースが完了したら、そのコピーを.pdf ファイルに書き出すことができます。 ビジネスケースを.pdf ファイルに書き出す方法について詳しくは、[ プロジェクトのビジネスケースの書き出し](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md)を参照してください。
+> ビジネスケースが完了したら、そのコピーを.pdf ファイルに書き出すことができます。 ビジネスケースを.pdf ファイルに書き出す方法について詳しくは、[&#x200B; プロジェクトのビジネスケースの書き出し](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md)を参照してください。
 
 

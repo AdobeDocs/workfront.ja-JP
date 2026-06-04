@@ -9,10 +9,14 @@ exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ZQT-PUcRNi1GlWSCM3BKiw3TCT-te2-MeE8YQKtKiBw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1164
@@ -32,7 +36,7 @@ ht-degree: 93%
 
 特定の権限を持つユーザーは、システム内の特定のステータスを反映するように[!UICONTROL 完了]ボタンを設定できます。 [!DNL Workfront] のイシューに対して[!UICONTROL 完了]ボタンが動作する方法は 3 つあります。
 
-* ユーザーに[!UICONTROL Home Team]が割り当てられている場合、[!DNL Workfront]管理者または[!UICONTROL Standard]または[!UICONTROL  プラン ] ライセンスを持つユーザーは、[!UICONTROL 完了] ボタンを設定して、チームメンバーの特定のステータスを反映できます。 この記事の[チームの[!UICONTROL 完了]ボタンを設定](#configure-the-uicontrol-done-button-for-a-team)を参照してください。
+* ユーザーに[!UICONTROL Home Team]が割り当てられている場合、[!DNL Workfront]管理者または[!UICONTROL Standard]または[!UICONTROL &#x200B; プラン &#x200B;] ライセンスを持つユーザーは、[!UICONTROL 完了] ボタンを設定して、チームメンバーの特定のステータスを反映できます。 この記事の[チームの[!UICONTROL 完了]ボタンを設定](#configure-the-uicontrol-done-button-for-a-team)を参照してください。
 * ユーザーが [!UICONTROL ホームチーム] を持っていないが、プロファイルに[!UICONTROL 他のチーム]がある場合、Workfront は、ユーザーに関連付けられているチームのいずれかで[!UICONTROL 完了]ボタンの設定を検索します。 選択はランダムであり、いずれかのチームに関連付けられたステータスがイシューに使用されます。
 * ユーザーに[!UICONTROL ホームチーム]が割り当てられていない場合、イシューの[!UICONTROL 完了]ボタンは、3 文字コード [!UICONTROL RLV] を持つシステム生成の[!UICONTROL 解決済み]ステータスに関連付けられます。 このシナリオでは、使用できる設定オプションはありません。 [!UICONTROL 完了]ボタンは、自動的にデフォルトでこのステータスになります。
 * [!UICONTROL 解決済み]（[!UICONTROL RLV]）ステータスが削除され、イシューを[!UICONTROL 完了]とマークしているユーザーに[!UICONTROL ホームチーム]がない場合、デフォルトのイシューステータスは、そのイシューが属するプロジェクトに割り当てられたグループに対してデフォルトで[!UICONTROL クローズ]に設定されているものに関連付けられます。 Workfront 管理者は、グループのシステム全体のデフォルト設定を設定できます。 この記事の[[!UICONTROL 解決済み]ステータスが削除された場合の[!UICONTROL 完了]ボタンの設定](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted)を参照してください。

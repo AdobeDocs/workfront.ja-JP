@@ -10,11 +10,20 @@ exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/BZTQcZAO2RpucCKTHYGI95pRO1em05dtE3vKPjBIpto
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1117
@@ -125,8 +134,8 @@ Old:
 
 1. タスクを作成するプロジェクトに移動します。
 1. 左側のパネルの「**タスク**」をクリックします。
-1. （条件付き）現在アジャイルビューでタスクリストを表示している場合は、右上隅の「**リスト表示**」アイコン「![ アジャイルビューのリスト表示](assets/list-view-in-agile-view-for-tasks.png)」をクリックして、タスクリストを表示します。
-1. （オプション）タスクリスト ](assets/nwe-plan-mode-icon-task-list.png)の&#x200B;**プランモード** アイコン ![ プランモードアイコンをクリックし、**手動保存**&#x200B;を選択してから、**標準**&#x200B;または&#x200B;**タイムライン計画**&#x200B;のいずれかを選択します。 これにより、デフォルトで有効になっている&#x200B;**自動保存**&#x200B;オプションが無効になります。
+1. （条件付き）現在アジャイルビューでタスクリストを表示している場合は、右上隅の「**リスト表示**」アイコン「![&#x200B; アジャイルビューのリスト表示](assets/list-view-in-agile-view-for-tasks.png)」をクリックして、タスクリストを表示します。
+1. （オプション）タスクリスト ![&#128279;](assets/nwe-plan-mode-icon-task-list.png)の&#x200B;**プランモード** アイコン  プランモードアイコンをクリックし、**手動保存**&#x200B;を選択してから、**標準**&#x200B;または&#x200B;**タイムライン計画**&#x200B;のいずれかを選択します。 これにより、デフォルトで有効になっている&#x200B;**自動保存**&#x200B;オプションが無効になります。
 
    ![「手動保存」を選択](assets/manual-save-option.png)
 
@@ -149,11 +158,11 @@ Old:
 
       タスクのフィールドをすべてアップデートするには、「**その他のオプション**」をクリックすると「**タスクを作成**」ボックスが開きます。
 
-      ![ タスクの小さいボックスを作成](assets/nwe-create-task-small-screen-350x272.png)
+      ![&#x200B; タスクの小さいボックスを作成](assets/nwe-create-task-small-screen-350x272.png)
 
       「**タスクを作成**」ボックスが開きます。
 
-      ![ タスクの大きなボックスを作成](assets/create-task-larger-box-nwe-350x244.png)
+      ![&#x200B; タスクの大きなボックスを作成](assets/create-task-larger-box-nwe-350x244.png)
 
 
       >[!NOTE]
@@ -178,7 +187,7 @@ Old:
       >
       >組織が従来のWorkfrontとAdobe クラウドストレージの両方にアクセスできる場合、タスクで使用するストレージタイプに応じて、タスクの「ドキュメント」領域の表示が異なる場合があります。 タスクは、プロジェクトからストレージタイプを継承します。
       >
-      >詳しくは、「[ ファイルシステムからAdobe Workfrontにドキュメントを追加する](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)」を参照してください。
+      >詳しくは、「[&#x200B; ファイルシステムからAdobe Workfrontにドキュメントを追加する](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)」を参照してください。
 
 1. （条件付き）手順 5 で「**タスクを追加**」をクリックした場合は、インライン編集を使用してタスク情報の入力を開始し、Enter キーを押します。
 
@@ -209,7 +218,7 @@ Old:
 
          これにより、新しいタスクが子タスク、または前のタスクのサブタスクになります。
 
-         子タスクについて詳しくは、[ サブタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)の「タスク サブタスクからサブタスクを作成する」セクションを参照してください。
+         子タスクについて詳しくは、[&#x200B; サブタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)の「タスク サブタスクからサブタスクを作成する」セクションを参照してください。
 
       1. （条件付き）「**さらにタスクを追加**」を押した後に「**自動保存**」オプションを無効にした場合は、次の操作を行うことができます。
 
@@ -226,13 +235,13 @@ Old:
    詳しくは、[個人用タスクの作成](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)を参照してください。
 1. 個人タスクフィルターを作成し、タスクレポートまたはリストに適用します。
 
-   詳しくは、[ フィルター：個人タスク ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)を参照してください。
+   詳しくは、[&#x200B; フィルター：個人タスク &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)を参照してください。
 
-   ![個人タスクレポート ](assets/personal-tasks-report.png)
+   ![個人タスクレポート &#x200B;](assets/personal-tasks-report.png)
 1. 個人用タスクレポートでタスク名をクリックして開きます。
 
    Workfrontは、個人用タスクをリストされていない個人用プロジェクトに保存します。このプロジェクトには、常に「&lt; ユーザーのフルネーム >&#39;のタスク」というパターンに従って名前が付けられます。 例えば、個人用プロジェクトを「Rick&#39;s Tasks」という名前にすることができます。
 
-1. タスクページから、**詳細メニュー** ![詳細アイコン ](assets/more-icon.png)をクリックし、**移動**&#x200B;をクリックします。 タスクの移動について詳しくは、[ タスクの移動](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。
+1. タスクページから、**詳細メニュー** ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**移動**&#x200B;をクリックします。 タスクの移動について詳しくは、[&#x200B; タスクの移動](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。
 
    タスクの移動が完了すると、選択したプロジェクトにタスクが表示されます。 プロジェクトタイムラインは、新しいタスクのタイムラインの影響を受ける可能性があります。

@@ -9,11 +9,16 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ct6I5wnivCVr3V86Zj4F7stm2IVUJVH50yvTRyWFuUA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 751
@@ -57,7 +62,7 @@ ht-degree: 40%
 
    * 個人のレコードを、人物、チーム、役割、グループ、企業と共有できます。
 
-     詳しくは、[ レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
+     詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
 
 </div>
 
@@ -105,7 +110,7 @@ ht-degree: 40%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -197,7 +202,7 @@ Old:
 
    レコードの名前にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**リンクをコピー**&#x200B;をクリックします。
 
-   レコード行](assets/contextual-menu-for-record-row.png)の![ コンテキストメニュー
+   レコード行![&#128279;](assets/contextual-menu-for-record-row.png)の コンテキストメニュー
 
    リンクがクリップボードにコピーされます。
 
@@ -233,7 +238,7 @@ Old:
 
 ワークスペースに対する管理権限を持つユーザーのみが、そのレコードタイプとレコードを他のユーザーと共有できます。
 
-詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
 
 <div class="preview">
 
@@ -245,7 +250,7 @@ Old:
 
 1つのレコード、または同時に複数のレコードの権限を一括で調整できます。
 
-詳しくは、[ レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
+詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
 
 </div>
 

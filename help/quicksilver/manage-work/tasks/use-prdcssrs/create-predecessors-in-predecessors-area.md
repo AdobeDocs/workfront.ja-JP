@@ -7,11 +7,18 @@ author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
 TQID: https://experienceleague.adobe.com/BOZkyUl3TKCzpbjbLnUcMQZjM-1laW-TSsVptvBP-0U
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 422
@@ -83,7 +90,7 @@ ht-degree: 44%
 
 1. （オプション）プロジェクト間の先行タスクを追加するには、**親プロジェクト** フィールドのプロジェクト名を別のプロジェクトに置き換えます。
 
-   詳しくは、[ プロジェクト間の先行タスクの作成](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)を参照してください。
+   詳しくは、[&#x200B; プロジェクト間の先行タスクの作成](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)を参照してください。
 
    >[!TIP]
    >
@@ -94,13 +101,13 @@ ht-degree: 44%
 
 1. **依存関係タイプ**&#x200B;を選択します。
 
-   詳しくは、[ タスク依存関係タイプの概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)を参照してください。
+   詳しくは、[&#x200B; タスク依存関係タイプの概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)を参照してください。
 
 1. **Lag**&#x200B;の金額を入力してください。
 
-   詳しくは、&#x200B;[ ラグの種類の概要](../../../manage-work/tasks/use-prdcssrs/lag-types.md)を参照してください。
+   詳しくは、&#x200B;[&#x200B; ラグの種類の概要](../../../manage-work/tasks/use-prdcssrs/lag-types.md)を参照してください。
 
-   ![先行タスクを追加ダイアログボックス ](assets/add-predecessor-dialog-box.png)
+   ![先行タスクを追加ダイアログボックス &#x200B;](assets/add-predecessor-dialog-box.png)
 
 1. 2つのタスク間の先行タスク関係を適用する場合は、**強制** チェックボックスを選択します。
 
@@ -108,6 +115,6 @@ ht-degree: 44%
 
 1. 「**保存**」をクリックします。
 
-1. （オプション）先行タスクを削除するには、先行タスクのリストから先行タスクを選択し、**削除** アイコン ![削除アイコン ](assets/remove-or-delete-icon.png)をクリックします。
+1. （オプション）先行タスクを削除するには、先行タスクのリストから先行タスクを選択し、**削除** アイコン ![削除アイコン &#x200B;](assets/remove-or-delete-icon.png)をクリックします。
 
    リストから先行タスクが削除されます。 先行タスクがプロジェクトから削除されません。

@@ -10,11 +10,19 @@ exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/glxqYn2m92yNMfsneQ3DW0KALaPKruUgU8o-xjMA1CI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1532
@@ -142,15 +150,15 @@ Old:
 
 ## 予定時間数ではなく作業量の使用を有効にする
 
-1. プロジェクトに移動し、**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックしてから、**編集**&#x200B;をクリックします。
+1. プロジェクトに移動し、**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**編集**&#x200B;をクリックします。
 1. 「**タスク設定**」をクリックし、「**作業量を使用してタスクの予定時間数を自動的に計算**」オプションを選択します。 デフォルトでは、このオプションは選択されていません。
 
-   ![ プロジェクトの作業量](assets/nwe-work-effort-on-projects-350x182.png)
+   ![&#x200B; プロジェクトの作業量](assets/nwe-work-effort-on-projects-350x182.png)
 
    プロジェクトで作業量の使用を有効にする方法について詳しくは、[プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md)の記事の「タスク設定」の節を参照してください。
 
 1. 左側のパネルで「**タスク**」をクリックし、タスクの名前を選択してアクセスします。
-1. **詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。 タスクにシンプルな期間タイプが含まれていることを確認します。
+1. **詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。 タスクにシンプルな期間タイプが含まれていることを確認します。
 
    >[!TIP]
    >
@@ -158,7 +166,7 @@ Old:
 
 1. **概要**&#x200B;エリアで、「作業量」ドロップダウンメニューをクリックして、タスクを完了するのに必要な作業量を修正します。
 
-   ![ タスクの編集ページでの作業量](assets/work-effort-on-edit-task-page-350x239.png)
+   ![&#x200B; タスクの編集ページでの作業量](assets/work-effort-on-edit-task-page-350x239.png)
 
    タスクの「作業量」フィールドを更新する方法について詳しくは、次の記事を参照してください。
 

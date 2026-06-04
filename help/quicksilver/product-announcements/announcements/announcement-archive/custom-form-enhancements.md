@@ -5,11 +5,17 @@ author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
 TQID: https://experienceleague.adobe.com/hq-y5cINrn-FNSBAdrXD8kf-cVZeRoFH6mKKKOnRCuY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1117
@@ -25,7 +31,7 @@ ht-degree: 87%
 
 カスタムフォームに画像を埋め込むことができます。 これにより、さらにインタラクティブかつ視覚的な方法でカスタムフォームのユーザーとコミュニケーションを取ることが可能になります。 追加のウィジェットタイプは近日中に提供されます。
 
-![ カスタムフォームの画像](assets/image-in-custom-form.png)
+![&#x200B; カスタムフォームの画像](assets/image-in-custom-form.png)
 
 ウィジェットを含むカスタムフォームがオブジェクトに添付されている場合、そのオブジェクトを操作するユーザーは、次の領域でそのウィジェットを確認できます。
 
@@ -48,11 +54,11 @@ ht-degree: 87%
 
 複数のオブジェクトタイプをあらゆる新しいカスタムフォームに関連付けることができます。
 
-![ カスタムフォームオブジェクトタイプ ](assets/new-custom-form-object-types.png)
+![&#x200B; カスタムフォームオブジェクトタイプ &#x200B;](assets/new-custom-form-object-types.png)
 
 または、既存のカスタムフォームにも関連付けられます。
 
-![ フォームにオブジェクトタイプを追加](assets/add-object-type-existing-form.png)
+![&#x200B; フォームにオブジェクトタイプを追加](assets/add-object-type-existing-form.png)
 
 これにより、プロジェクト、タスク、イシュー、およびカスタムフォームでサポートされるあらゆるタイプのオブジェクトで使用する、単一のカスタムフォームを作成できます。
 

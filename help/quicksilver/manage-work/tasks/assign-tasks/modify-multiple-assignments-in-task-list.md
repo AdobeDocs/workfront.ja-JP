@@ -10,11 +10,20 @@ exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/sm6EQLRFRTvZK3g5DctC2t0rt-yh0vg1DwsTrqA-Xbk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 763
@@ -135,7 +144,7 @@ When assigning users to work, their availability according to their schedules af
    >
    >「**割り当て先**」フィールドは使用しないでください。 これにより、タスクのプライマリ所有者のみが検索され、プライマリ所有者に割り当てられるユーザーは検索されません。
 
-1. 割り当てを変更するタスクを選択し、**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. 割り当てを変更するタスクを選択し、**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
    1. 担当者を追加または削除するには、次のいずれかの操作を行います。
 
@@ -173,7 +182,7 @@ When assigning users to work, their availability according to their schedules af
 
       >[!NOTE]
       >
-      >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。 「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。 期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[ タスク期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
+      >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。 「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。 期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[&#x200B; タスク期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
       >
       >
       >このフィールドが空白の場合、値はタスク間で異なりますが、変更は可能です。

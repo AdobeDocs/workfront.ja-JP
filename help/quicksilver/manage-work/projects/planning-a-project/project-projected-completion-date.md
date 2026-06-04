@@ -8,11 +8,19 @@ author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
 TQID: https://experienceleague.adobe.com/qpYXoo1C-GZi1B--dhKTGjzvSWdLxrQM3IqX4Q6GZt8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 869
@@ -80,7 +88,7 @@ ht-degree: 69%
    * タスク担当者がタスクに対して行った&#x200B;**進捗状況の更新：**&#x200B;進捗状況の更新には、完了率の変更とタスクのステータスの変更が含まれます。
    * **コミット日：**&#x200B;タスクの担当者がコミット日を指定した場合、「見込み完了日」は「コミット日」に合わせて変更されます。
 
-     コミット日について詳しくは、記事[ コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
+     コミット日について詳しくは、記事[&#x200B; コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
 
    * **先行タスク：**&#x200B;先行タスクに遅延がない場合、予定完了日は予定完了日と一致する必要があります。 遅延が発生した場合、依存タスクには、「予定完了日」よりも大きい日付の「見込み完了日」が表示されます。
 
@@ -128,7 +136,7 @@ ht-degree: 69%
 1. リストの&#x200B;**問題** オブジェクトの下に表示される場合に選択します。
 1. 「**保存して閉じる**」をクリックします。
 
-   ![ レポート列の問題予定完了日](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+   ![&#x200B; レポート列の問題予定完了日](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
 
 
    レポートの「**完了予定日**」列にデータが入力されています。

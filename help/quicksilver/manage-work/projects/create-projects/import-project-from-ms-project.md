@@ -9,11 +9,17 @@ exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/drxvgi-xQLjEt5JOL6-MxLdkmVcXxkcXMN14nwmNZvs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 604
@@ -112,14 +118,14 @@ old permissions model:
 1. Workfront にログインします。
 1. 次のいずれかの操作を行います。
 
-   * 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新規プロジェクト**&#x200B;を展開します。
+   * 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新規プロジェクト**&#x200B;を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの&#x200B;**プロジェクト** セクションでプロジェクトを作成できます。 詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
 1. 「**MS プロジェクトの読み込み**」をクリックします。
 
-   ![新規プロジェクトのドロップダウン ](assets/import-ms-project-option.png)
+   ![新規プロジェクトのドロップダウン &#x200B;](assets/import-ms-project-option.png)
 
    「**MS ファイルを読み込み**」ボックスが開きます。
 
@@ -136,7 +142,7 @@ old permissions model:
    >
    >Workfront インスタンスがWorkfrontとAdobe クラウドストレージの両方にアクセスできる場合、Workfront管理者がWorkfront クラウドストレージをシステムのデフォルトにした場合でも、MS プロジェクトからプロジェクトを読み込むと、従来のAdobe ストレージプロジェクトが作成されます。
    >
-   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 
 1. （オプション）Workfront でプロジェクトの編集を続けます。 プロジェクトの編集の詳細については、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。

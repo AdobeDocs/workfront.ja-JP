@@ -7,11 +7,17 @@ author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
 TQID: https://experienceleague.adobe.com/3PyFAt01-x20xebGmviz1Ao0NBaLc223y1BQUpXXbO4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 649
@@ -27,7 +33,7 @@ ht-degree: 93%
 
 ポートフォリオまたはプロジェクトポートフォリオ管理（PPM）は、特定のビジネス目標を達成するために、プロジェクトのリストに優先順位を付けて管理するプロセスです。
 
-この記事では、ポートフォリオ管理の一般的な概念について説明します。 Adobe Workfrontでのポートフォリオの管理に関する一般的な情報については、[ ポートフォリオ手法の理解](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。
+この記事では、ポートフォリオ管理の一般的な概念について説明します。 Adobe Workfrontでのポートフォリオの管理に関する一般的な情報については、[&#x200B; ポートフォリオ手法の理解](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。
 
 ポートフォリオとは、共通のビジネス目標を持つプロジェクトの集まりです。 効果的な PPM 手法の結果、経営陣は次のことが可能になります。
 
@@ -50,7 +56,7 @@ ht-degree: 93%
 
 次の図は、[!DNL Workfront] の PPM プロセスの概要を示しています。
 
-![ プロジェクト ポートフォリオ管理プロセス ](assets/project-portfolio-management-process-diagram.png)
+![&#x200B; プロジェクト ポートフォリオ管理プロセス &#x200B;](assets/project-portfolio-management-process-diagram.png)
 
 * [プロジェクト要求](#project-request)
 * [プロジェクトのレビュー](#project-review)
@@ -69,7 +75,7 @@ ht-degree: 93%
 
 プロジェクト要求を送信すると、ポートフォリオマネージャーまたはエグゼクティブチームがそのリクエストをレビューし、プロジェクトを承認するかどうかを決定します。 プロジェクトが承認されると、そのプロジェクトは会社のプロジェクトポートフォリオに選択されます。
 
-ポートフォリオについて詳しくは、[ポートフォリオの方法論について](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。 ビジネスケースの承認について詳しくは、[ ビジネスケースの承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)を参照してください。
+ポートフォリオについて詳しくは、[ポートフォリオの方法論について](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。 ビジネスケースの承認について詳しくは、[&#x200B; ビジネスケースの承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)を参照してください。
 
 ### ポートフォリオの最適化 {#portfolio-optimization}
 

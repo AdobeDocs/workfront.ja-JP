@@ -10,11 +10,21 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/roM7lCswSeuhxKXc2Bf8S1wXr1thGzcQjFkqU5lCQCA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 4067
@@ -90,7 +100,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -176,7 +186,7 @@ Old:
 1. 編集するタスクをクリックします。
 1. （オプション）タスクに関する限定的な情報を編集するには、左側のパネルで「**タスクの詳細**」をクリックします。
 
-   ![ タスクの詳細が拡張されました](assets/nwe-task-details-expanded-350x273.png)
+   ![&#x200B; タスクの詳細が拡張されました](assets/nwe-task-details-expanded-350x273.png)
 
    タスクの詳細セクションの次のエリアにある情報を編集することを検討してください。
 
@@ -206,7 +216,7 @@ Old:
       * [タスクの詳細セクションでのタスクの財政の管理](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. （オプション）タスクにカスタムフォームが添付されていない場合は、「**カスタムフォームの追加**」フィールドに値を入力を開始し、リストに表示されたらフォームを選択して、「**変更を保存**」をクリックします。
-   1. （オプション）「**書き出し**」アイコン「![書き出しアイコン ](assets/export.png)」をクリックして、概要およびカスタムフォーム情報をPDF ファイルに書き出してから、「**書き出し**」をクリックします。 次の中から選択します。
+   1. （オプション）「**書き出し**」アイコン「![書き出しアイコン &#x200B;](assets/export.png)」をクリックして、概要およびカスタムフォーム情報をPDF ファイルに書き出してから、「**書き出し**」をクリックします。 次の中から選択します。
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
       * 概要
@@ -214,15 +224,15 @@ Old:
 
       PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-      ![書き出しボタン付き問題の詳細の選択ボックス ](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![書き出しボタン付き問題の詳細の選択ボックス &#x200B;](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       詳しくは、[カスタムフォームとオブジェクトの詳細の書き出し](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
-1. （条件付き）タスクに関するすべての情報を編集するには、タスクに対する管理権限を持つユーザーとして、タスクの名前の横にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
+1. （条件付き）タスクに関するすべての情報を編集するには、タスクに対する管理権限を持つユーザーとして、タスクの名前の横にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
 
    または
 
-   タスクのリストからタスクを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+   タスクのリストからタスクを選択し、リストの上部にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
    タスクを編集ボックスが開きます。
 
@@ -255,7 +265,7 @@ Old:
 1. 上記の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで&#x200B;**タスク名**&#x200B;をクリックします。
 
-   タスクを編集ボックスの![ タスク名セクション ](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   タスクを編集ボックスの![&#x200B; タスク名セクション &#x200B;](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. タスクの名前をアップデートします。
 
@@ -266,7 +276,7 @@ Old:
 1. 上記の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**承認**」をクリックします。
 
-   ![概要セクション編集タスク ボックス ](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![概要セクション編集タスク ボックス &#x200B;](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. タスクに関する以下の情報をアップデートします。
 
@@ -397,7 +407,7 @@ Old:
 1. 上記の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**割り当て**」をクリックします。
 
-   タスクを編集ボックスの![割り当てセクション ](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   タスクを編集ボックスの![割り当てセクション &#x200B;](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. **ユーザー、役割、またはチームを検索**&#x200B;をクリックし、タスクに割り当てるユーザー、役割、またはチームの名前を入力し始めます。その後、そのタスクをクリックするか、リストに表示されたらEnter キーを押します。
 
@@ -551,11 +561,11 @@ Old:
 1. 上記の説明に従ってタスクの編集を開始します。
 1. 左側のパネルで&#x200B;**カスタムフォーム**&#x200B;をクリックするか、カスタムフォームが既に添付されている場合には、その名前をクリックします。
 
-   ![ カスタムフォームセクション編集タスクボックス ](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![&#x200B; カスタムフォームセクション編集タスクボックス &#x200B;](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. 「**カスタムフォームを追加**」をクリックし、タスクに関連付けるカスタムフォームまたはフォームを選択します。 このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。
 
-   カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。タスクには、最大10個のカスタムフォームを追加できます
+   カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。タスクには、最大10個のカスタムフォームを追加できます
 
 1. （条件付き）カスタムフォームをタスクに添付した場合は、フォーム上の任意のフィールドを編集します。 タスクを保存する前に、すべての必須フィールドを指定する必要があります。
 
@@ -570,7 +580,7 @@ Old:
 1. [タスクを編集](#Edit2)の節の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**財務**」をクリックします。
 
-   ![財務セクション編集タスク ボックス ](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![財務セクション編集タスク ボックス &#x200B;](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. 次のフィールドを更新します。
 
@@ -626,7 +636,7 @@ Old:
 1. [タスクを編集](#Edit2)の節の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**設定**」をクリックします。
 
-   タスクを編集ボックスの![設定セクション ](assets/nwe-settings-section-edit-task-box-350x304.png)
+   タスクを編集ボックスの![設定セクション &#x200B;](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. 次のフィールドを更新します。
 
@@ -692,7 +702,7 @@ Old:
 1. [タスクを編集](#Edit2)の節の説明に従って、タスクの編集を開始します。
 1. 左側のパネルで「**コメント**」をクリックします。
 
-   ![ タスクボックスの編集に関するコメントセクション ](assets/comment-section-on-edit-task-box.png)
+   ![&#x200B; タスクボックスの編集に関するコメントセクション &#x200B;](assets/comment-section-on-edit-task-box.png)
 
 1. 提供されたスペースにアップデートを追加します。
 1. （オプション）次のいずれかをアップデートに追加します。
@@ -720,7 +730,7 @@ Old:
 * タスク名
 * 完了率
 
-  詳しくは、[ タスクの完了率の表示と更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)を参照してください。
+  詳しくは、[&#x200B; タスクの完了率の表示と更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md)を参照してください。
 * 割り当て
 * 予定完了日
 
@@ -735,7 +745,7 @@ Old:
 
 リスト内のタスクに加えた変更を自動的に保存する場合は、リスト内のタスクを一括で編集し、そのすべての情報を同時に更新できます。
 
-タスクを一括保存する方法について詳しくは、[ リスト内のタスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)の記事の「タスクを一括編集」の節を参照してください。
+タスクを一括保存する方法について詳しくは、[&#x200B; リスト内のタスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)の記事の「タスクを一括編集」の節を参照してください。
 
 <!--
 Temporary content while changing Assignments area: 

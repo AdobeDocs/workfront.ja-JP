@@ -9,11 +9,17 @@ exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/zCRX2XunBvSbVd0-pr0evZlpMftnDb8QjBxOvDL-djo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 812
@@ -27,9 +33,9 @@ ht-degree: 38%
 
 この記事では、プロジェクトのシステム担当業務の請求料金を上書きする方法について説明します。
 
-プロジェクトの担当業務の請求レートの上書きおよびプロジェクト収益の計算に関する一般的な情報については、[ プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+プロジェクトの担当業務の請求レートの上書きおよびプロジェクト収益の計算に関する一般的な情報については、[&#x200B; プロジェクトでの請求レートの上書きと収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
-プロジェクトの収益を計算するために使用される担当業務の詳細については、記事[請求と収益の概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)の「[収益とコスト階層の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)」および「[ ユーザーと役割の割り当てに基づくタスクの収益計算](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)」セクションを参照してください。
+プロジェクトの収益を計算するために使用される担当業務の詳細については、記事[請求と収益の概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)の「[収益とコスト階層の概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)」および「[&#x200B; ユーザーと役割の割り当てに基づくタスクの収益計算](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)」セクションを参照してください。
 
 >[!NOTE]
 >
@@ -111,7 +117,7 @@ ht-degree: 38%
    * **開始日**：請求レートの上書きが開始される日付。
    * **終了日**：請求レートの上書きが終了した日付。
 
-   ![上書き日を含む請求レート ](assets/new-job-role-billing-rate-on-project2.png)
+   ![上書き日を含む請求レート &#x200B;](assets/new-job-role-billing-rate-on-project2.png)
 
    Workfrontでは、プロジェクトの収益を計算する際に、これらの時間枠の間に発生した時間に上書き担当業務率が適用されます。
 

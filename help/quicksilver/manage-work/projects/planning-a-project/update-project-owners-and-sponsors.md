@@ -9,11 +9,17 @@ exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YqTw5b0p4p605v7O0wVx99A7gLvJYF8xEPtthwW0CWc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 433
@@ -103,7 +109,7 @@ Old:
 
 1. 更新するプロジェクトに移動します。
 1. 左側のパネルで「**プロジェクト詳細**」をクリックします。
-1. プロジェクトの詳細領域の右上隅にある&#x200B;**編集** アイコン ![編集アイコン ](assets/qs-edit-icon.png)をクリックし、**概要**&#x200B;をクリックします。
+1. プロジェクトの詳細領域の右上隅にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/qs-edit-icon.png)をクリックし、**概要**&#x200B;をクリックします。
 
 1. 「**プロジェクト所有者**」フィールドのユーザーの名前を指定します。
 
@@ -113,7 +119,7 @@ Old:
 
    プロジェクトヘッダーおよび「プロジェクト詳細」エリアの「プロジェクト所有者」が更新されます。
 
-   ![ プロジェクト関係者の所有者が強調表示されました](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![&#x200B; プロジェクト関係者の所有者が強調表示されました](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## プロジェクトのプロジェクトスポンサーの更新
 
@@ -125,7 +131,7 @@ Old:
 
 1. 更新するプロジェクトに移動します。
 1. 左パネルの「**プロジェクト詳細**」をクリックします。
-1. プロジェクトの詳細領域の右上隅にある&#x200B;**編集** アイコン ![編集アイコン ](assets/qs-edit-icon.png)をクリックし、**概要**&#x200B;をクリックします。
+1. プロジェクトの詳細領域の右上隅にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/qs-edit-icon.png)をクリックし、**概要**&#x200B;をクリックします。
 
 1. 「**プロジェクトスポンサー**」フィールドのユーザーの名前を指定します。
 
@@ -135,4 +141,4 @@ Old:
 
    「プロジェクト詳細」エリアの「プロジェクトスポンサー」が更新されます。
 
-   ![ プロジェクト関係者のスポンサーがハイライト表示されました](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![&#x200B; プロジェクト関係者のスポンサーがハイライト表示されました](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

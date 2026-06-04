@@ -9,11 +9,19 @@ exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/24H2qmd3CpVLWACyKQXatbTbg434YTp-Y0J6YTJeCxI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 458
@@ -32,7 +40,7 @@ ht-degree: 61%
 >* [タスクリストのプロジェクトとイニシアチブの役割の配分を表示](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
 >* [ワークロードバランサーのプロジェクトとイニシアチブの役割の配分を表示](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  役割の割り当てパネルにイニシアチブ時間を表示するには、シナリオプランナーライセンスが必要です。 シナリオプランナーについて詳しくは、[ シナリオプランナーの基本を学ぶ](../../../scenario-planner/get-started-with-scenario-planning.md)を参照してください。
+>  役割の割り当てパネルにイニシアチブ時間を表示するには、シナリオプランナーライセンスが必要です。 シナリオプランナーについて詳しくは、[&#x200B; シナリオプランナーの基本を学ぶ](../../../scenario-planner/get-started-with-scenario-planning.md)を参照してください。
 >
 >過去にAdobe Scenario Plannerを導入したことがある企業であれば、その導入はスムーズに行うことができます。 シナリオプランナーは購入できなくなりました。
 
@@ -122,11 +130,11 @@ able style="table-layout:auto">
    * **タスク**
    * **ワークロードバランサー**
 
-1. **役割の割り当てを表示** アイコン ![役割の割り当てを表示アイコン ](assets/show-role-allocation-icon.png)をクリックします。
+1. **役割の割り当てを表示** アイコン ![役割の割り当てを表示アイコン &#x200B;](assets/show-role-allocation-icon.png)をクリックします。
 
    役割の配分パネルが表示されます。
 
-   ![予定時間のみ含む役割の割り当てパネル ](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![予定時間のみ含む役割の割り当てパネル &#x200B;](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. **役割の割り当て** パネルで、次の情報を確認します。
 

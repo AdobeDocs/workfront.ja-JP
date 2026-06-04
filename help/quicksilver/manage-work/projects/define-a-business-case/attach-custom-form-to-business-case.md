@@ -8,11 +8,18 @@ exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/0yPDI-YkVjLL-IZiU5uXagoO8L9cd9pyFRDDd8EKKFI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 328
@@ -24,7 +31,7 @@ ht-degree: 67%
 
 カスタムフォームは、既存の Adobe Workfront フィールドに表示されない情報を収集するために使用されます。
 
-カスタム Formsの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタム Formsの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## アクセス要件
 
@@ -77,7 +84,7 @@ ht-degree: 67%
 
 ## カスタムフォームをビジネスケースに添付
 
-カスタムフォームをビジネスケースに追加するには、Workfront 管理者が設定でこのオプションを選択する必要があります。 セットアップでカスタムフォームを有効にする方法について詳しくは、[ システム全体のプロジェクト環境設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+カスタムフォームをビジネスケースに追加するには、Workfront 管理者が設定でこのオプションを選択する必要があります。 セットアップでカスタムフォームを有効にする方法について詳しくは、[&#x200B; システム全体のプロジェクト環境設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
 カスタムフォームを添付するには、以下の操作を実行します。
 
@@ -87,7 +94,7 @@ ht-degree: 67%
 
 1. （オプション）カスタムフォームの詳細を展開するには、カスタムフォーム名の左側にある矢印をクリックします。
 
-   ![ カスタムフォームの詳細を展開](assets/expand-custom-form-details.png)
+   ![&#x200B; カスタムフォームの詳細を展開](assets/expand-custom-form-details.png)
 
 <!--
 1. (Optional) Select **Edit Custom Form**.  

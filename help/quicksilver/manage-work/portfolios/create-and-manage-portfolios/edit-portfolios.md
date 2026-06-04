@@ -9,11 +9,19 @@ exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/A59Xi2g75iLxj93L3xk4saeZn1C6TlbFj5q-9n0RSc4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1084
@@ -66,7 +74,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++ 
 
@@ -109,7 +117,7 @@ Old:
 
    1. ポートフォリオの名前をクリックして開き、左側のパネルで「**[!UICONTROL Portfolioの詳細]**」をクリックします。
 
-      ![Portfolioの詳細タブ ](assets/portfolio-details-tab-nwe-350x163.png)
+      ![Portfolioの詳細タブ &#x200B;](assets/portfolio-details-tab-nwe-350x163.png)
 
       <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
@@ -122,16 +130,16 @@ Old:
       「[!UICONTROL **詳細**]」セクションの情報を編集するには、以下を行います。
 
    1. （オプション）右上隅の&#x200B;**[!UICONTROL すべて折りたたむ]** アイコン ![すべてのアイコンを折りたたむ](assets/collapse-all-icon.png)をクリックして、すべての領域を折りたたみます。
-   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある&#x200B;**展開** アイコン ![展開アイコン ](assets/right-pointing-arrow.png)をクリックして、編集する領域を展開します。
+   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある&#x200B;**展開** アイコン ![展開アイコン &#x200B;](assets/right-pointing-arrow.png)をクリックして、編集する領域を展開します。
 
       >[!TIP]
       >
-      >すべての領域が折りたたまれている場合は、詳細セクションの右上隅にある&#x200B;**すべて展開** アイコン ![展開アイコン ](assets/right-pointing-arrow.png)をクリックできます。
+      >すべての領域が折りたたまれている場合は、詳細セクションの右上隅にある&#x200B;**すべて展開** アイコン ![展開アイコン &#x200B;](assets/right-pointing-arrow.png)をクリックできます。
 
       [!UICONTROL **ポートフォリオの詳細**]&#x200B;セクションに表示されるフィールドについて詳しくは、次に説明するように、「[!UICONTROL **ポートフォリオを編集**]」ボックスでポートフォリオの編集を続けます。
    1. （オプション）ポートフォリオにカスタムフォームが添付されていない場合は、**詳細** ページの右上隅にある「**[!UICONTROL カスタムフォームを追加]**」フィールドにフォームの名前を入力し、リストに表示されたら選択します。
    1. [!UICONTROL **概要**]&#x200B;および&#x200B;[!UICONTROL **カスタム Forms**]&#x200B;領域のフィールドに情報を追加し、[!UICONTROL **変更を保存**]&#x200B;をクリックします。
-   1. （オプション）「**[!UICONTROL 書き出し]**」アイコン「![書き出しアイコン ](assets/export.png)」をクリックして、[!UICONTROL 概要]およびカスタムフォーム情報をPDF ファイルに書き出してから、**[!UICONTROL 書き出し]**&#x200B;をクリックします。 次の中から選択します。
+   1. （オプション）「**[!UICONTROL 書き出し]**」アイコン「![書き出しアイコン &#x200B;](assets/export.png)」をクリックして、[!UICONTROL 概要]およびカスタムフォーム情報をPDF ファイルに書き出してから、**[!UICONTROL 書き出し]**&#x200B;をクリックします。 次の中から選択します。
 
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
@@ -140,19 +148,19 @@ Old:
 
         PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-        ![ ポートフォリオの詳細を書き出し](assets/export-portfolio-details-box-with-export-button-350x368.png)
+        ![&#x200B; ポートフォリオの詳細を書き出し](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
         詳しくは、[カスタムフォームとオブジェクト詳細の書き出し](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
 
-1. （オプション） 1つ以上のポートフォリオに関するすべての情報を編集するには、ポートフォリオのリストで編集する1つ以上のポートフォリオを選択し、リストの上部にある&#x200B;**[!UICONTROL 編集]** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. （オプション） 1つ以上のポートフォリオに関するすべての情報を編集するには、ポートフォリオのリストで編集する1つ以上のポートフォリオを選択し、リストの上部にある&#x200B;**[!UICONTROL 編集]** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
    「**[!UICONTROL Portfolioを編集]**」ボックスが表示されます。
 
-   ![ ポートフォリオボックスの編集](assets/edit-portfolio-box-classic-350x224.png)
+   ![&#x200B; ポートフォリオボックスの編集](assets/edit-portfolio-box-classic-350x224.png)
 
    すべてのポートフォリオフィールドは、[!UICONTROL ポートフォリオを編集]ボックスで使用でき、左のパネルに表示されたエリアでグループ化されます。
 
@@ -227,7 +235,7 @@ Old:
 
    >[!NOTE]
    >
-   >[!DNL Workfront] の管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。 カスタムフォームのセクション内のフィールドを編集する権限は、ポートフォリオ自体に対する権限によって異なります。 カスタムフォームのセクションに対する権限の設定について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   >[!DNL Workfront] の管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。 カスタムフォームのセクション内のフィールドを編集する権限は、ポートフォリオ自体に対する権限によって異なります。 カスタムフォームのセクションに対する権限の設定について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. [!UICONTROL **保存**]&#x200B;をクリックして、次のセクションの編集を続行します。
 
@@ -236,7 +244,7 @@ Old:
 1. 上記の説明に従って、ポートフォリオの編集を開始します。
 1. 「**[!UICONTROL コメント]**」をクリックします。
 
-   ![ ポートフォリオコメントボックスを編集](assets/comment-box-edit-portfolio-classic-350x227.png)
+   ![&#x200B; ポートフォリオコメントボックスを編集](assets/comment-box-edit-portfolio-classic-350x227.png)
 
 1. 「**[!UICONTROL ポートフォリオに更新を追加]**」フィールドにコメントを追加します。
 1. （オプション）**[!UICONTROL ユーザー]**&#x200B;アイコンをクリックして、コメントにユーザーまたはチームを追加します。

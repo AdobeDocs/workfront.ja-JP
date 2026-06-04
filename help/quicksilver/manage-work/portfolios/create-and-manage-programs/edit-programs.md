@@ -9,11 +9,17 @@ exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/qSEkxIz67R1PRsCZCNu0oDYS6pLSJi3OaAULifx9xbo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1160
@@ -74,7 +80,7 @@ ht-degree: 53%
    >
    >プログラムに関するすべての情報を編集する場合は、手順 4 に進みます。
 
-   ![ カスタムフォームのセクション ](assets/program-details-with-a-custom-form-section-nwe-350x137.png)を含むプログラムの詳細
+   ![&#x200B; カスタムフォームのセクション &#x200B;](assets/program-details-with-a-custom-form-section-nwe-350x137.png)を含むプログラムの詳細
 
    >[!NOTE]
    >
@@ -90,7 +96,7 @@ ht-degree: 53%
    1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある&#x200B;**右向き矢印** ![右向き矢印](assets/right-pointing-arrow.png)をクリックして、編集する領域を展開します。
    1. 「[!UICONTROL プログラムの詳細]」セクションに表示されるフィールドについては、以下に説明するように、引き続き[!UICONTROL プログラムの編集]ボックスでプログラムを編集します。
    1. （オプション）プログラムにカスタムフォームが添付されていない場合は、**[!UICONTROL カスタムフォームを追加]** フィールドにフォームの名前を入力し始め、リストに表示されたら選択し、**[!UICONTROL 変更を保存]**&#x200B;をクリックします。
-   1. （オプション）「**[!UICONTROL 書き出し]**」アイコン「![書き出しアイコン ](assets/export.png)」をクリックして、[!UICONTROL 概要]およびカスタムフォーム情報をPDF ファイルに書き出してから、**[!UICONTROL 書き出し]**&#x200B;をクリックします。 次の中から選択します。
+   1. （オプション）「**[!UICONTROL 書き出し]**」アイコン「![書き出しアイコン &#x200B;](assets/export.png)」をクリックして、[!UICONTROL 概要]およびカスタムフォーム情報をPDF ファイルに書き出してから、**[!UICONTROL 書き出し]**&#x200B;をクリックします。 次の中から選択します。
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
       * [!UICONTROL 概要]
@@ -98,7 +104,7 @@ ht-degree: 53%
 
       PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-      ![ ポートフォリオの詳細を書き出し](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![&#x200B; ポートフォリオの詳細を書き出し](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       詳しくは、[カスタムフォームとオブジェクト詳細の書き出し](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
@@ -106,11 +112,11 @@ ht-degree: 53%
 1. 1 つ以上のプログラムに関するすべての情報を編集するには、次のいずれかを行います。
 
    * プログラム名の横にある&#x200B;**[!UICONTROL 詳細]** メニュー![詳細メニュー](assets/more-icon.png)をクリックしてから、**[!UICONTROL 編集].**&#x200B;をクリックします
-   * プログラムのリストに移動し、編集する1つ以上のプログラムを選択し、リストの上部にある&#x200B;**[!UICONTROL 編集]** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+   * プログラムのリストに移動し、編集する1つ以上のプログラムを選択し、リストの上部にある&#x200B;**[!UICONTROL 編集]** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
      「**[!UICONTROL プログラムを編集]**」ボックスが表示されます。
 
-     ![ プログラムボックスを編集](assets/edit-program-0925.png)
+     ![&#x200B; プログラムボックスを編集](assets/edit-program-0925.png)
 
      すべてのプログラムフィールドが[!UICONTROL プログラムの編集]ボックスで使用でき、左パネルに表示されたエリアにグループ化されています。
 
@@ -159,7 +165,7 @@ ht-degree: 53%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>グループがプログラムに関連付けられている場合や、プログラムを完了する責任がある場合は、1 つのグループの名前を追加します。 </p> <p><b>ヒント</b></p>  <p>[!UICONTROL プログラムの詳細] ページから[!UICONTROL グループ ] フィールドにアクセスする場合は、次の手順を実行して、適切なグループを選択していることを確認します。 </p> <p>グループ名にカーソルを合わせ、その横にある[!UICONTROL情報] アイコン <img src="assets/info-icon.png">をクリックします。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>このオプションは、[!UICONTROL Edit Program]ボックスでは使用できません。 </p> </p> </td> 
+      <td> <p>グループがプログラムに関連付けられている場合や、プログラムを完了する責任がある場合は、1 つのグループの名前を追加します。 </p> <p><b>ヒント</b></p>  <p>[!UICONTROL プログラムの詳細] ページから[!UICONTROL グループ &#x200B;] フィールドにアクセスする場合は、次の手順を実行して、適切なグループを選択していることを確認します。 </p> <p>グループ名にカーソルを合わせ、その横にある[!UICONTROL 情報] アイコン <img src="assets/info-icon.png">をクリックします。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>このオプションは、[!UICONTROL Edit Program]ボックスでは使用できません。 </p> </p> </td> 
      </tr>
 
    <tr> 
@@ -193,7 +199,7 @@ ht-degree: 53%
 
    >[!NOTE]
    >
-   >[!DNL Workfront] 管理者がカスタムフォームのセクションの権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰でも表示または編集できるとは限りません。 カスタムフォームのセクション内のフィールドを編集する権限は、プログラム自体に対する権限によって異なります。 カスタムフォームのセクションに対する権限の設定について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   >[!DNL Workfront] 管理者がカスタムフォームのセクションの権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰でも表示または編集できるとは限りません。 カスタムフォームのセクション内のフィールドを編集する権限は、プログラム自体に対する権限によって異なります。 カスタムフォームのセクションに対する権限の設定について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. カスタムフォームのフィールドを更新し、**[!UICONTROL 保存]**&#x200B;をクリックするか、次のセクションに進みます。
 
@@ -202,7 +208,7 @@ ht-degree: 53%
 1. 上記の説明に従って、プログラムの編集を開始します。
 1. 「**[!UICONTROL コメント]**」をクリックします。
 
-   プログラムボックスを編集](assets/comment-box-on-edit-program.png)の![ コメントボックス
+   プログラムボックスを編集![&#128279;](assets/comment-box-on-edit-program.png)の コメントボックス
 
 1. 「**[!UICONTROL 各プログラムに更新を追加]**」フィールドにコメントを追加します。
 1. （オプション）**[!UICONTROL ユーザー]**&#x200B;アイコンをクリックして、コメントにユーザーまたはチームを追加します。
@@ -222,7 +228,7 @@ ht-degree: 53%
 プログラムを一括編集すると、更新したすべての情報が、選択したすべてのプログラムに適用され、各プログラムの元の情報が上書きされます。
 
 1. プログラムのリストに移動し、複数のプログラムを選択します。
-1. リストの上部にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
+1. リストの上部にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
    「**プログラムを編集**」ボックスが開きます。
 1. 次のセクションの情報を更新します。
@@ -231,5 +237,5 @@ ht-degree: 53%
    * カスタムフォーム
    * コメント
 
-   詳しくは、この記事の「[ プログラムを編集](#edit-programs-1)」の節（手順4）を参照してください。<!--ensure this stays accurate-->
+   詳しくは、この記事の「[&#x200B; プログラムを編集](#edit-programs-1)」の節（手順4）を参照してください。<!--ensure this stays accurate-->
 

@@ -7,11 +7,18 @@ author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 TQID: https://experienceleague.adobe.com/ax957eBrqej3uH8M4mZkSuY-heCNGWTiiwbBZTcH7VE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1282
@@ -25,7 +32,7 @@ ht-degree: 82%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-プロジェクトの財務情報を表示または編集するには、プロジェクトの詳細セクションの財務エリアにアクセスします。 このエリアで表示または編集できるフィールドは限られています。 プロジェクトのすべての情報の編集について詳しくは、[ プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
+プロジェクトの財務情報を表示または編集するには、プロジェクトの詳細セクションの財務エリアにアクセスします。 このエリアで表示または編集できるフィールドは限られています。 プロジェクトのすべての情報の編集について詳しくは、[&#x200B; プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
 ## アクセス要件
 
@@ -72,7 +79,7 @@ ht-degree: 82%
 
 1. プロジェクトに移動します。
 1. 左側のパネルの「**プロジェクト詳細**」をクリックします。
-1. 詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、**財務**&#x200B;をクリックします。
+1. 詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックし、**財務**&#x200B;をクリックします。
 
    ![詳細ビューの財務領域](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
@@ -151,7 +158,7 @@ ht-degree: 82%
    >次の手順を実行するには、プロジェクトに対する管理権限が必要です。 また、プロジェクトの「財務情報」サブタブを変更できるのは、プロジェクト所有者のみにすることをお勧めします。
 
 1. 左パネルの「**プロジェクト詳細**」をクリックします。
-1. 詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、**財務**&#x200B;をクリックします。 財務エリアが編集用に開きます。
+1. 詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックし、**財務**&#x200B;をクリックします。 財務エリアが編集用に開きます。
 1. 編集可能なフィールドをシングルクリックして編集するか、「**+ 追加**」をクリックして空のフィールドに情報を追加します。
 
    >[!TIP]

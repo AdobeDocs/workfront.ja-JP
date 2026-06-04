@@ -9,11 +9,20 @@ exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/gOkD1R3jXmPqjq51Wuk-jMncl-TvZkmJ6ZozRPMB1lM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1179
@@ -125,19 +134,19 @@ ht-degree: 41%
 >
 >組織で従来のWorkfrontとAdobe クラウドドキュメントストレージの両方を使用している場合は、プロジェクトとは異なるストレージタイプを使用してテンプレートを添付できます。 これにより、プロジェクトのドキュメントストレージが変更されることはありません。
 >
->詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+>詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 {{step1-to-projects}}
 
 1. **プロジェクト** ページで、テンプレートを添付するプロジェクトを選択します。
 
-1. プロジェクト名の右側にある&#x200B;**詳細** アイコン ![詳細ドロップダウン ](assets/more-dropdown.png)をクリックします。
+1. プロジェクト名の右側にある&#x200B;**詳細** アイコン ![詳細ドロップダウン &#x200B;](assets/more-dropdown.png)をクリックします。
 
-   ![その他のアイコン ](assets/qs-more-icon-on-an-object.png)
+   ![その他のアイコン &#x200B;](assets/qs-more-icon-on-an-object.png)
 
    または
 
-   プロジェクトのリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある&#x200B;**詳細** アイコン ![詳細ドロップダウン ](assets/more-dropdown.png)をクリックします。
+   プロジェクトのリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある&#x200B;**詳細** アイコン ![詳細ドロップダウン &#x200B;](assets/more-dropdown.png)をクリックします。
 
    ![その他のメニューが展開されました](assets/more-menu-expanded.png)
 
@@ -157,11 +166,11 @@ ht-degree: 41%
    * タスクの合計数
    * 添付されたカスタムフォームの名前
 
-   ![ テンプレート ボックスを添付](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![&#x200B; テンプレート ボックスを添付](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. （オプション）テンプレート名の右側にある&#x200B;**お気に入り** アイコン ![お気に入りアイコン ](assets/favorites-icon-small.png)をクリックして、お気に入りとしてマークし、**お気に入り** リストに移動します。
+1. （オプション）テンプレート名の右側にある&#x200B;**お気に入り** アイコン ![お気に入りアイコン &#x200B;](assets/favorites-icon-small.png)をクリックして、お気に入りとしてマークし、**お気に入り** リストに移動します。
 
-1. （オプション） **お気に入り** アイコン ![お気に入りアイコン ](assets/favorites-icon-selected.png)をもう一度クリックして、**お気に入り** リストから削除します。
+1. （オプション） **お気に入り** アイコン ![お気に入りアイコン &#x200B;](assets/favorites-icon-selected.png)をもう一度クリックして、**お気に入り** リストから削除します。
 1. 「**カスタマイズして添付**」をクリックします。 **テンプレートを添付** サイドパネルが開きます。
 
 1. （オプション）次のセクションの情報を更新します。
@@ -236,7 +245,7 @@ ht-degree: 41%
 
 ## 既存のプロジェクトへの複数テンプレートの添付とテンプレート情報の表示 {#attach-multiple-templates-to-an-existing-project-and-view-template-information}
 
-この記事の「[ テンプレートを既存のプロジェクトに添付](#attach-a-template-to-an-existing-project)」で説明されている手順に従って、同じプロジェクトに複数のテンプレートを（一度に1つずつ）添付できます。 これにより、各テンプレートのタスクやその他の情報がプロジェクトに追加されます。
+この記事の「[&#x200B; テンプレートを既存のプロジェクトに添付](#attach-a-template-to-an-existing-project)」で説明されている手順に従って、同じプロジェクトに複数のテンプレートを（一度に1つずつ）添付できます。 これにより、各テンプレートのタスクやその他の情報がプロジェクトに追加されます。
 
 >[!TIP]
 >
@@ -252,6 +261,6 @@ ht-degree: 41%
 
 1. **プロジェクト関係**&#x200B;の&#x200B;**概要** セクションの下部にある&#x200B;**テンプレート** フィールドで、プロジェクトに添付されたテンプレートの名前を探します。
 
-   ![ プロジェクトのテンプレート情報](assets/nwe-template-info-on-project-350x356.png)
+   ![&#x200B; プロジェクトのテンプレート情報](assets/nwe-template-info-on-project-350x356.png)
 
 
