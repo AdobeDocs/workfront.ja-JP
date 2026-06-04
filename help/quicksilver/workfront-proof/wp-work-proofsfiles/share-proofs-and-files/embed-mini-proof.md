@@ -3,13 +3,18 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: ミニプルーフの埋め込み
-description: ミニプルーフは、web ページ、ブログ、または wiki にプルーフを埋め込むためのウィジェットです。Miniproof には、プルーフと、既存のすべてのコメントおよびマークアップが表示されます。これを使用すると、 [!DNL Workfront Proof] で作業しているかのように、プルーフに取り組むことができます。
+description: ミニプルーフは、web ページ、ブログ、または wiki にプルーフを埋め込むためのウィジェットです。 Miniproof には、プルーフと、既存のすべてのコメントおよびマークアップが表示されます。 これを使用すると、 [!DNL Workfront Proof] で作業しているかのように、プルーフに取り組むことができます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 13227944-2bf8-49d9-8ff3-18ecb706d5d4
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/K2OPbEZPNZ5Ww5E2b1FuBi0YhlU1Uk6qb76gagyRbz8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: 235
 ht-degree: 100%
 
 ---
@@ -18,9 +23,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-ミニプルーフは、web ページ、ブログ、または wiki にプルーフを埋め込むためのウィジェットです。Miniproof には、プルーフと、既存のすべてのコメントおよびマークアップが表示されます。これを使用すると、[!DNL Workfront Proof] で作業しているかのように、プルーフに取り組むことができます。
+ミニプルーフは、web ページ、ブログ、または wiki にプルーフを埋め込むためのウィジェットです。 Miniproof には、プルーフと、既存のすべてのコメントおよびマークアップが表示されます。 これを使用すると、[!DNL Workfront Proof] で作業しているかのように、プルーフに取り組むことができます。
 
 Basecamp プロジェクトに埋め込まれた Miniproof の例を次に示します。
 

@@ -2,20 +2,34 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: ' [!DNL Adobe Workfront]  の予算リクエストからの  [!DNL Anaplan]  のリスト項目の作成'
-description: この統合シナリオは、 [!DNL Adobe Workfront]  プロジェクト（キャンペーン）を  [!DNL Anaplan]  の予算リスト項目にリンクします。これは、資金調達が必要な  [!DNL Workfront]  プロジェクトに予算リクエストを追加することで達成できます。このシナリオでは、未処理の予算リクエストを監視し、 [!DNL Anaplan]  で空の予算リスト項目を作成するプロセスを実行して、Anaplan で予算配分プロセスを開始します。
+description: この統合シナリオは、 [!DNL Adobe Workfront]  プロジェクト（キャンペーン）を  [!DNL Anaplan]  の予算リスト項目にリンクします。 これは、資金調達が必要な  [!DNL Workfront]  プロジェクトに予算リクエストを追加することで達成できます。 このシナリオでは、未処理の予算リクエストを監視し、 [!DNL Anaplan]  で空の予算リスト項目を作成するプロセスを実行して、Anaplan で予算配分プロセスを開始します。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/ozWZURR-8-rtFqj7UkEDJW1fVeKAmSV1tBnQMzGL0Xs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 97%
+source-wordcount: 863
+ht-degree: 95%
 
 ---
 
 # [!DNL Adobe Workfront] の予算リクエストから [!DNL Anaplan] のリスト項目を作成
 
-この統合シナリオは、[!DNL Adobe Workfront] プロジェクト（キャンペーン）を [!DNL Anaplan] の予算リスト項目にリンクします。これは、資金調達が必要な [!DNL Workfront] プロジェクトに予算リクエストを追加することで達成できます。このシナリオでは、未処理の予算リクエストを監視し、[!DNL Anaplan] で空の予算リスト項目を作成するプロセスを実行して、[!DNL Anaplan] で予算配分プロセスを開始します。
+この統合シナリオは、[!DNL Adobe Workfront] プロジェクト（キャンペーン）を [!DNL Anaplan] の予算リスト項目にリンクします。 これは、資金調達が必要な [!DNL Workfront] プロジェクトに予算リクエストを追加することで達成できます。 このシナリオでは、未処理の予算リクエストを監視し、[!DNL Anaplan] で空の予算リスト項目を作成するプロセスを実行して、[!DNL Anaplan] で予算配分プロセスを開始します。
 
 >[!IMPORTANT]
 >
@@ -106,9 +120,9 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
    </tbody> 
   </table>
 
-  カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
-* [!UICONTROL 予算リクエスト]キューのトピックで設定された、資金調達を必要とするキャンペーンやその他のプロジェクトを表すプロジェクトテンプレート。[!UICONTROL 予算リクエスト]キュートのピックは、[!UICONTROL 予算リクエスト]カスタムフォームを使用するように割り当てられています。
+* [!UICONTROL 予算リクエスト]キューのトピックで設定された、資金調達を必要とするキャンペーンやその他のプロジェクトを表すプロジェクトテンプレート。 [!UICONTROL 予算リクエスト]キュートのピックは、[!UICONTROL 予算リクエスト]カスタムフォームを使用するように割り当てられています。
 * プロジェクトオブジェクトの&#x200B;**[!UICONTROL キャンペーンの概要]**&#x200B;フォーム。
 
   このフォームには、以下のフィールドが含まれている必要があります。
@@ -148,7 +162,7 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
    </tbody> 
   </table>
 
-  カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 想定される [!DNL Anaplan] 設定
 
@@ -173,7 +187,7 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
 
 ## [!DNL Workfront Fusion] へのデプロイ
 
-この統合シナリオを [!DNL Fusion] アカウントにデプロイするには、次の手順を実行します。これは、必要な [!DNL Workfront] と [!DNL Anaplan] の設定を完了した後にのみ実行してください。
+この統合シナリオを [!DNL Fusion] アカウントにデプロイするには、次の手順を実行します。 これは、必要な [!DNL Workfront] と [!DNL Anaplan] の設定を完了した後にのみ実行してください。
 
 1. [!DNL Workfront Fusion] の[!UICONTROL テンプレート]メニューに移動し、**[!UICONTROL Workfront 予算要求から [!DNL Anaplan] リスト項目を作成]**&#x200B;シナリオテンプレートをクリックします。
 1. 次の [!DNL Anaplan] 変数の変数値を置換します。

@@ -3,13 +3,18 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: プルーフビューアーでプルーフのアクティビティを表示
-description: 特定のプルーフに関する最近のアクティビティを表示できます。これには、プルーフに割り当てられたすべてのユーザーによるすべてのアクティビティと決定が含まれます。
+description: 特定のプルーフに関する最近のアクティビティを表示できます。 これには、プルーフに割り当てられたすべてのユーザーによるすべてのアクティビティと決定が含まれます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/CL6rtnumO-nu-uHaNb-KnC5rB-EXG31M6JW2F5E8BvE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: 197
 ht-degree: 98%
 
 ---
@@ -18,13 +23,13 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-特定のプルーフに関する最近のアクティビティを表示できます。これには、プルーフに割り当てられたすべてのユーザーによるすべてのアクティビティと決定が含まれます。
+特定のプルーフに関する最近のアクティビティを表示できます。 これには、プルーフに割り当てられたすべてのユーザーによるすべてのアクティビティと決定が含まれます。
 
 1. 左側のツールバーが表示されない場合は、プルーフビューアーの左上隅にある「**[!UICONTROL メニュー]**」アイコンをクリックします。
 
-   ![&#x200B; プルーフビューアメニュー &#x200B;](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![&#x200B; プルーフビューアーメニュー](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. プルーフビューアの左側にあるツールバーで「**[!UICONTROL プルーフの詳細]**」ボタンをクリックします。
 

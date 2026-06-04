@@ -3,14 +3,25 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
-title: 「FAQ：Workfront Proof - 米国から EMEA への移行」
+title: FAQ：Workfront Proof - 米国から EMEA への移行
 description: Workfront は、Workfront Proof に関する米国から EMEA への移行の影響を受けるすべての組織に直接連絡しています。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1aa69e5-f7e5-46d5-814e-e11a999e36db
-source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
+TQID: https://experienceleague.adobe.com/AYo0AEowl2QkJHe62-5KKjKZtllY-KW-AMySZKw-0T0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: 435
 ht-degree: 100%
 
 ---
@@ -19,7 +30,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 ## この変更が自社の組織に影響を与えるかどうかを知る方法を教えてください。
 
@@ -27,7 +38,7 @@ ht-degree: 100%
 
 ## 移行の準備に必要な事項はありますか？
 
-はい。移行する前に、組織の許可リストに次のものを必ず追加してください。
+はい。 移行する前に、組織の許可リストに次のものを必ず追加してください。
 
 **[!DNL webcapture.proofhq.eu]**
 
@@ -35,17 +46,17 @@ ht-degree: 100%
 
 EMEA データセンターの新しい場所にアカウントを移行する際、短時間（最大 2 時間）アカウントにアクセスできなくなります。
 
-アカウントの移行が完了したら、お客様のすべてのファイルを米国のデータセンターから EMEA のデータセンターに移動します。ファイルを移動する間も、米国のデータセンターからは引き続きアクセスできます。このプロセスはバックグラウンドで実行され、ユーザーには影響しません。
+アカウントの移行が完了したら、お客様のすべてのファイルを米国のデータセンターから EMEA のデータセンターに移動します。 ファイルを移動する間も、米国のデータセンターからは引き続きアクセスできます。 このプロセスはバックグラウンドで実行され、ユーザーには影響しません。
 
 移行が完了すると、ユーザーは、EMEA データセンターからのみファイルとプルーフにアクセスできます。
 
 ## [!DNL Workfront Proof] へのアクセスに使用する URL はどうなりますか？
 
-この URL は変更されません。これまでとまったく同じ方法で [!DNL Workfront] システムにアクセスできるようになります。
+この URL は変更されません。 これまでとまったく同じ方法で [!DNL Workfront] システムにアクセスできるようになります。
 
 ## 古いプルーフのリンクとブックマークを引き続き使用できますか？
 
-移行後、プルーフ固有のブックマークは機能しなくなります。これを使用するユーザーは誰でも、「[!UICONTROL プルーフに進む]」ボタンを介してプルーフへのアクセスを提供するメッセージを受け取ります。
+移行後、プルーフ固有のブックマークは機能しなくなります。 これを使用するユーザーは誰でも、「[!UICONTROL プルーフに進む]」ボタンを介してプルーフへのアクセスを提供するメッセージを受け取ります。
 
 ![This_proof_has_been_migrated.png](assets/this-proof-has-been-migrated-350x361.png)
 
@@ -55,9 +66,9 @@ EMEA データセンターの新しい場所にアカウントを移行する際
 
 ## 米国内でパートナーとなるプルーフアカウントと引き続きやり取りできますか？
 
-いいえ、以前の米国のプルーフアカウントに対するアクセス権は、使用できなくなります。EMEA のアカウントは、米国環境から完全に切り離されます。これは、お客様のデータが安全であり、EU のデータプライバシー法に準拠していることを保証するためです。
+いいえ、以前の米国のプルーフアカウントに対するアクセス権は、使用できなくなります。 EMEA のアカウントは、米国環境から完全に切り離されます。 これは、お客様のデータが安全であり、EU のデータプライバシー法に準拠していることを保証するためです。
 
-パートナーとなる別の米国アカウントがあり、このパートナーシップを維持する必要がある場合、そのアカウントの所有者は、あなたのアカウントとともに移行する必要があります。移行前にこの点について話し合い、正しいアカウントが移行されていることを確認してください。
+パートナーとなる別の米国アカウントがあり、このパートナーシップを維持する必要がある場合、そのアカウントの所有者は、あなたのアカウントとともに移行する必要があります。 移行前にこの点について話し合い、正しいアカウントが移行されていることを確認してください。
 
 ## マイアカウントで SSO を使用している場合はどうなりますか？
 

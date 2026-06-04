@@ -2,20 +2,34 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: ' [!DNL Adobe Workfront]  の費用を  [!DNL Anaplan]  のリスト項目に送信'
-description: この統合シナリオは、 [!DNL Adobe Workfront]  プロジェクトの費用関連の詳細を  [!DNL Anaplan]  予算リスト項目と共有します。この情報を共有すると、 [!DNL Anaplan]  が提供する支出の最適化と財務分析をより有効に活用できます。
+description: この統合シナリオは、 [!DNL Adobe Workfront]  プロジェクトの費用関連の詳細を  [!DNL Anaplan]  予算リスト項目と共有します。 この情報を共有すると、 [!DNL Anaplan]  が提供する支出の最適化と財務分析をより有効に活用できます。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/SOZ90sJuOCBZL9sUCQIw-Rm-WnFQA2Vqx81LdUDVOpA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 98%
+source-wordcount: 985
+ht-degree: 96%
 
 ---
 
 # [!DNL Adobe Workfront] の費用を [!DNL Anaplan] のリスト項目に送信
 
-この統合シナリオは、[!DNL Adobe Workfront] プロジェクトの費用関連の詳細を [!DNL Anaplan] 予算リスト項目と共有します。この情報を共有すると、[!DNL Anaplan] が提供する支出の最適化と財務分析をより有効に活用できます。
+この統合シナリオは、[!DNL Adobe Workfront] プロジェクトの費用関連の詳細を [!DNL Anaplan] 予算リスト項目と共有します。 この情報を共有すると、[!DNL Anaplan] が提供する支出の最適化と財務分析をより有効に活用できます。
 
 >[!IMPORTANT]
 >
@@ -80,7 +94,7 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
   | [!UICONTROL 最終送信日] | 日付 |
   | [!UICONTROL 統合に関するメモ] | 段落テキストフィールド |
 
-  カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## 想定される [!DNL Anaplan] 設定
 
@@ -166,7 +180,7 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
 
 ## [!DNL Fusion] へのデプロイ
 
-この統合シナリオを [!DNL Fusion] アカウントにデプロイするには、次の手順を実行します。これは、必要な [!DNL Workfront] および [!DNL Anaplan] の設定を完了した後にのみ実行してください。
+この統合シナリオを [!DNL Fusion] アカウントにデプロイするには、次の手順を実行します。 これは、必要な [!DNL Workfront] および [!DNL Anaplan] の設定を完了した後にのみ実行してください。
 
 1. [!DNL Workfront Fusion] の[!UICONTROL テンプレート]メニューに移動し、**[!UICONTROL Workfront 費用の更新を [!DNL Anaplan] リスト項目に送信]**&#x200B;シナリオテンプレートをクリックします。
 1. 次の [!DNL Anaplan] 変数の変数値を置換します。

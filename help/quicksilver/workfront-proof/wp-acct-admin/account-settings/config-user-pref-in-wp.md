@@ -3,13 +3,22 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: ' [!DNL Workfront Proof] でのユーザーのプルーフ権限プロファイルの設定'
-description: ' [!DNL Workfront]  管理者または  [!DNL Workfront Proof]  管理者は、ユーザープロファイルを割り当てることで、ユーザーに権限を付与できます。これを行うと、ユーザーは、システム内のすべてのプルーフに対して、これらの権限を使用できます。'
+description: ' [!DNL Workfront]  管理者または  [!DNL Workfront Proof]  管理者は、ユーザープロファイルを割り当てることで、ユーザーに権限を付与できます。 これを行うと、ユーザーは、システム内のすべてのプルーフに対して、これらの権限を使用できます。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d3922b1f-6857-40de-ad0b-0cd5997188ff
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+TQID: https://experienceleague.adobe.com/uE7EoOBlBFANPqb6PDLnF-tniMxIH959gksM81XMSzU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: 245
 ht-degree: 100%
 
 ---
@@ -18,9 +27,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、[!DNL Workfront Proof] スタンドアロン製品の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、[!DNL Workfront Proof] スタンドアロン製品の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-[!DNL Workfront] 管理者または [!DNL Workfront Proof] 管理者は、ユーザープロファイルを割り当てることで、ユーザーに権限を付与できます。これを行うと、ユーザーは、システム内のすべてのプルーフに対して、これらの権限を使用できます。
+[!DNL Workfront] 管理者または [!DNL Workfront Proof] 管理者は、ユーザープロファイルを割り当てることで、ユーザーに権限を付与できます。 これを行うと、ユーザーは、システム内のすべてのプルーフに対して、これらの権限を使用できます。
 
 プルーフ権限プロファイルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
@@ -28,8 +37,8 @@ ht-degree: 100%
 >
 >次の操作も実行できます。
 >
->* 個々のプルーフに対して特定の役割をユーザーに付与します。プルーフの役割について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
->* 組織内のユーザーのカスタムプロファイルを作成します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) でのカスタムプロファイルの設定を参照してください。
+>* 個々のプルーフに対して特定の役割をユーザーに付与します。 プルーフの役割について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
+>* 組織内のユーザーのカスタムプロファイルを作成します。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) でのカスタムプロファイルの設定を参照してください。
 
 
 ユーザーのプルーフ権限プロファイルを編集するには、次の手順に従います。
@@ -44,7 +53,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >管理者は請求管理者プロファイルを割り当てることができません。プロファイルの変更のリストは、次のログに記録されています。
+   >管理者は請求管理者プロファイルを割り当てることができません。 プロファイルの変更のリストは、次のログに記録されています。
    >   
    >   * アカウントアクティビティログ
    >   * ユーザーのプロファイルログ（そのユーザーのみがアクセス可能）

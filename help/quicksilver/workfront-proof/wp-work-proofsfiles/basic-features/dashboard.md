@@ -4,13 +4,18 @@ product-previous: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
 title: ' [!DNL Workfront Proof] のダッシュボード'
-description: ダッシュボードは、 [!DNL Workfront Proof] アカウントにログインすると最初に表示されるページです。ここには、 [!DNL Workfront Proof] アカウントでのアクティビティの概要が表示され、 [!DNL Workfront Proof] 内の他のセクションや機能へのクイックリンクがあります。
+description: ダッシュボードは、 [!DNL Workfront Proof] アカウントにログインすると最初に表示されるページです。 ここには、 [!DNL Workfront Proof] アカウントでのアクティビティの概要が表示され、 [!DNL Workfront Proof] 内の他のセクションや機能へのクイックリンクがあります。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/70uFOpXwRaSaIKLxTLda7ro2sYSFh3s5sT4Olg7eis8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: 996
 ht-degree: 97%
 
 ---
@@ -19,9 +24,9 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-ダッシュボードは、[!DNL Workfront Proof] アカウントにログインすると最初に表示されるページです。ここには、[!DNL Workfront Proof] アカウントでのアクティビティの概要が表示され、[!DNL Workfront Proof] 内の他のセクションや機能へのクイックリンクがあります。
+ダッシュボードは、[!DNL Workfront Proof] アカウントにログインすると最初に表示されるページです。 ここには、[!DNL Workfront Proof] アカウントでのアクティビティの概要が表示され、[!DNL Workfront Proof] 内の他のセクションや機能へのクイックリンクがあります。
 
 ダッシュボードには以下が含まれています。
 
@@ -43,13 +48,13 @@ ht-degree: 97%
 
 ![ダッシュボード](assets/dashboard-350x495.png)
 
-アカウントをブランド化して、組織のロゴ、カラー、カスタムリンクなどを表示できます。詳しくは、[&#x200B; [!DNL Workfront Proof] サイトのブランド化](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。
+アカウントをブランド化して、組織のロゴ、カラー、カスタムリンクなどを表示できます。 詳しくは、[&#x200B; [!DNL Workfront Proof] サイトのブランド化](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。
 
 アカウントをブランド化しない場合、[!DNL Workfront Proof] ロゴと標準カラーが表示されます。
 
 ## ヘッダーメニュー
 
-![&#x200B; ヘッダーメニュー &#x200B;](assets/header-menu-350x150.png)
+![&#x200B; ヘッダーメニュー](assets/header-menu-350x150.png)
 
 ### ユーザー名
 
@@ -65,7 +70,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->上記メニューの表示は、プロファイルによって異なります。詳しくは、「ユーザーのプロファイルと権限」を参照してください。
+>上記メニューの表示は、プロファイルによって異なります。 詳しくは、「ユーザーのプロファイルと権限」を参照してください。
 
 ### ヘルプ
 
@@ -76,7 +81,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Select プランと Premium プランでは、自分のコンテンツをユーザーが参照するようにヘルプオプションを設定できます。詳しくは、詳細ブランディングオプションを参照してください。
+>Select プランと Premium プランでは、自分のコンテンツをユーザーが参照するようにヘルプオプションを設定できます。 詳しくは、詳細ブランディングオプションを参照してください。
 
 ### ログアウト
 
@@ -97,7 +102,7 @@ ht-degree: 97%
    * 新規ユーザー (12)
    * 新規グループ (13)
 
-![&#x200B; 新しいプルーフ &#x200B;](assets/new-proof-350x256.png)
+![新しいプルーフ &#x200B;](assets/new-proof-350x256.png)
 
 ## ダッシュボードメニュー
 
@@ -116,17 +121,17 @@ ht-degree: 97%
 * 新規タグを作成
 * タグを管理 (2)
 
-![&#x200B; タグを編集 &#x200B;](assets/edit-tags-350x204.png)
+![&#x200B; タグを編集](assets/edit-tags-350x204.png)
 
 ## 指定の場所に移動
 
-この機能を使用すると、プルーフやファイルをいずれかのフォルダーに移動できます。手順は次のとおりです。
+この機能を使用すると、プルーフやファイルをいずれかのフォルダーに移動できます。 手順は次のとおりです。
 
 1. 該当する項目のチェックボックスをオンにします。
 1. 「**[!UICONTROL 指定の場所に移動]**」(3) をクリックし、該当するフォルダー (4) を選択します。
 1. 「**[!UICONTROL 保存]**」(5) をクリックします。
 
-   ![&#x200B; 移動先 &#x200B;](assets/move-to-350x297.png)
+   ![移動先](assets/move-to-350x297.png)
 
 ### その他のアクション
 
@@ -138,7 +143,7 @@ ht-degree: 97%
 * アーカイブ解除（プルーフのみ）
 * オーナーを変更
 
-![&#x200B; その他のアクション &#x200B;](assets/more-actions-350x303.png)
+![その他のアクション &#x200B;](assets/more-actions-350x303.png)
 
 ### 削除
 
@@ -150,7 +155,7 @@ ht-degree: 97%
 
 1. 表示される確認画面で、詳細を調べて、「**[!UICONTROL はい]**」(8) をクリックして確定します。
 
-![&#x200B; 項目の削除 &#x200B;](assets/deleteing-items-350x237.png)
+![項目を削除しています](assets/deleteing-items-350x237.png)
 
 ### サイドバー
 
@@ -168,7 +173,7 @@ ht-degree: 97%
 * その他の組織のフォルダー (10)（他の組織と共有した項目が見つかります）
 * タグ (11)
 
-![&#x200B; サイドバー &#x200B;](assets/sidebar-350x426.png)
+![&#x200B; サイドバー](assets/sidebar-350x426.png)
 
 サイドバーについて詳しくは、サイドバーのヘルプページを参照してください。
 
@@ -181,7 +186,7 @@ ht-degree: 97%
 * サポートの連絡先の詳細 (3)
 * 「今後、「ようこそ」セクションを表示しない」リンク (4)
 
-![&#x200B; ようこそ &#x200B;](assets/welcome-350x73.png)
+![ようこそ](assets/welcome-350x73.png)
 
 ### 概要
 
@@ -192,12 +197,12 @@ ht-degree: 97%
 * 新規ユーザーの追加
 * パスワードの変更
 
-「概要」セクションには、事前にフィルタリングされた情報も表示されます。以下が該当します。
+「概要」セクションには、事前にフィルタリングされた情報も表示されます。 以下が該当します。
 
 * 管理対象のプルーフ - 自分が所有したり自分に委任されたりしたアクティブなプルーフの合計数
 * 決定待ちのプルーフ - 決定を必要とするアクティブなプルーフの合計数
 
-  ![&#x200B; ダッシュボードの概要 &#x200B;](assets/dashboard-overview-350x169.png)
+  ![&#x200B; ダッシュボードの概要](assets/dashboard-overview-350x169.png)
 
 ここでは、自分またはレビュアーによる直接的なアクションが必要なプルーフの数をすぐに確認できます。
 
@@ -212,7 +217,7 @@ ht-degree: 97%
 
 ### 最近アクセスした項目
 
-「[!UICONTROL 最近アクセスしたアイテム]」セクションには、最近アクセスしたアイテムが表示されます。これには、自分が所有するアイテム、プロフィール権限に従って自分に表示権限があるアイテムおよび自分と共有されたアイテムが含まれます。このセクションには、（[!DNL Workfront Proof] ビューアまたはプルーフの詳細ページを使用して）自分で開いたアイテムのみが含まれます。
+「[!UICONTROL 最近アクセスしたアイテム]」セクションには、最近アクセスしたアイテムが表示されます。 これには、自分が所有するアイテム、プロフィール権限に従って自分に表示権限があるアイテムおよび自分と共有されたアイテムが含まれます。 このセクションには、（[!DNL Workfront Proof] ビューアまたはプルーフの詳細ページを使用して）自分で開いたアイテムのみが含まれます。
 
 「[!UICONTROL 最近アクセスしたアイテム]」セクションには、最近のプルーフとファイルに関する次の情報が表示されます。
 
@@ -237,7 +242,7 @@ ht-degree: 97%
 1. プルーフ名の右側にある&#x200B;**[!UICONTROL アクション]**&#x200B;メニュー (1) をクリックします。
 1. メニューから「**[!UICONTROL プルーフの詳細を表示]**」(2) を選択します。
 
-![&#x200B; 最近のアイテム &#x200B;](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
+![最近の項目](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### 最近使ったアクティビティ
 
@@ -247,7 +252,7 @@ ht-degree: 97%
 * アクション
 * 詳細
 
-アイテムのアクションメニューをクリックして開き、「詳細を表示」を選択して、アイテムの詳細ページに移動することもできます。アカウントでのアクティビティについて詳しくは、「アクティビティ監査証跡」を参照してください。
+アイテムのアクションメニューをクリックして開き、「詳細を表示」を選択して、アイテムの詳細ページに移動することもできます。 アカウントでのアクティビティについて詳しくは、「アクティビティ監査証跡」を参照してください。
 
 >[!NOTE]
 >
@@ -258,4 +263,4 @@ ht-degree: 97%
 1. **[!UICONTROL アクション]**&#x200B;メニュー (1) をクリックします。
 1. ドロップダウンメニューから「**[!UICONTROL プルーフの詳細を表示]**」(2) を選択します。
 
-   ![&#x200B; 最近のアクティビティ &#x200B;](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![最近のアクティビティ &#x200B;](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

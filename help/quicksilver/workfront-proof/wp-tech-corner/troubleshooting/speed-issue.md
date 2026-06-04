@@ -8,10 +8,17 @@ description: このヘルプページは、ISP または  [!DNL Workfront Proof]
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 42e999a6-5b27-482d-a7cf-b8030272da32
-source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
+TQID: https://experienceleague.adobe.com/oqa0s2kT-1eMT2y0AY-58ERLUAZ4SnAr1iXR2BI6LfE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 100%
+source-wordcount: 641
+ht-degree: 98%
 
 ---
 
@@ -19,7 +26,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、[!DNL Workfront Proof] スタンドアロン製品の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 このヘルプページは、ISP または [!DNL Workfront Proof]のコンテンツ配信ネットワークに関連する [!DNL Workfront Proof] を使用する際に発生する可能性のある速度の問題を判断するのに役立ちます。
 
@@ -50,8 +57,8 @@ ht-degree: 100%
 
 1. （Windows のみ）**ping app.proofhq.com** を入力します。
 1. ping が完了したら、コマンドプロンプトで右クリックし、「すべてを選択」を選択します。
-1. 結果をコピーして、メールの返信に貼り付けます。
-結果をサポートチームに送信する前に、traceroute と ping を必ず完了させてください。
+1. 結果をコピーして、電子メールへの返信に貼り付けます。
+結果をサポートチームに送信する前に、tracerouteとpingが終了することを許可してください。
 
 ## Speedtest.net を使用して接続速度をテストする
 

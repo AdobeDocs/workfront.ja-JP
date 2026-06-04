@@ -2,20 +2,34 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: ' [!DNL Adobe Workfront]  プロジェクトアップデートの  [!DNL Anaplan]  リスト項目への送信'
-description: この統合シナリオは、 [!DNL Anaplan]  予算リスト項目を持つ  [!DNL Adobe Workfront]  プロジェクトの進捗状況、ステータスおよび主要なスケジュールの詳細を共有します。この情報を共有すると、 [!DNL Anaplan]  が提供する支出の最適化と財務分析をより有効に活用できます。
+description: この統合シナリオは、 [!DNL Anaplan]  予算リスト項目を持つ  [!DNL Adobe Workfront]  プロジェクトの進捗状況、ステータスおよび主要なスケジュールの詳細を共有します。 この情報を共有すると、 [!DNL Anaplan]  が提供する支出の最適化と財務分析をより有効に活用できます。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/3bl3dFd6ejNq5r-y7tV9ynFkxQ-xvtPoGWJ-DTtKOn0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 98%
+source-wordcount: 967
+ht-degree: 96%
 
 ---
 
 # [!DNL Adobe Workfront] プロジェクトアップデートの [!DNL Anaplan] リスト項目への送信
 
-この統合シナリオは、[!DNL Anaplan] 予算リスト項目を持つ [!DNL Adobe Workfront] プロジェクトの進捗状況、ステータスおよび主要なスケジュールの詳細を共有します。この情報を共有すると、[!DNL Anaplan] が提供する支出の最適化と財務分析をより有効に活用できます。
+この統合シナリオは、[!DNL Anaplan] 予算リスト項目を持つ [!DNL Adobe Workfront] プロジェクトの進捗状況、ステータスおよび主要なスケジュールの詳細を共有します。 この情報を共有すると、[!DNL Anaplan] が提供する支出の最適化と財務分析をより有効に活用できます。
 
 >[!IMPORTANT]
 >
@@ -108,7 +122,7 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
    </tbody> 
   </table>
 
-  カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 <!--
 <note type="note">  
@@ -184,7 +198,7 @@ CSV コンテンツの例
 
 ## [!DNL Workfront Fusion] へのデプロイ
 
-次の手順を実行して、この統合シナリオを Fusion アカウントにデプロイします。これは、必要な [!DNL Workfront] および [!DNL Anaplan] の設定を完了した後にのみ実行してください。
+次の手順を実行して、この統合シナリオを Fusion アカウントにデプロイします。 これは、必要な [!DNL Workfront] および [!DNL Anaplan] の設定を完了した後にのみ実行してください。
 
 1. [!DNL Workfront Fusion] の[!UICONTROL テンプレート]メニューに移動し、**[!UICONTROL Workfront プロジェクトの更新を [!DNL Anaplan] リスト項目に送信]**&#x200B;シナリオテンプレートをクリックします。
 1. 次の [!DNL Anaplan] 変数の変数値を置換します。
@@ -221,7 +235,7 @@ CSV コンテンツの例
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL [!DNL Workfront] Subdomain]</td> 
-      <td>[!DNL Workfront] アカウントのサブドメイン。これは、生成されるメモ内に [!DNL Workfront] プロジェクトへのリンクを作成するために使用されます。</td> 
+      <td>[!DNL Workfront] アカウントのサブドメイン。 これは、生成されるメモ内に [!DNL Workfront] プロジェクトへのリンクを作成するために使用されます。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -232,7 +246,7 @@ CSV コンテンツの例
 1. プロンプトが表示されたら、残りのすべての [!DNL Anaplan] モジュールを [!DNL Anaplan] 接続で更新します。
 1. [!DNL Workfront] 接続プロファイルを選択または追加します。
 
-   フィルターは、リンクされた未完了のプロジェクトと、過去 29 分間に完了したプロジェクトをすべて取り込むように設定されます。[!DNL Fusion] シナリオの頻度を変更する場合は、シナリオテンプレートがデプロイされた後にこの値を更新します。
+   フィルターは、リンクされた未完了のプロジェクトと、過去 29 分間に完了したプロジェクトをすべて取り込むように設定されます。 [!DNL Fusion] シナリオの頻度を変更する場合は、シナリオテンプレートがデプロイされた後にこの値を更新します。
 
 1. **[!UICONTROL プロジェクトの更新 CSV を作成]**&#x200B;モジュールで、プロジェクト属性を CSV 列にマッピングする新しいデータ構造を追加します。
 

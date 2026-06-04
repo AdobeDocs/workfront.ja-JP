@@ -6,10 +6,23 @@ description: ' [!DNL Adobe Workfront for Microsoft Teams]  アプリを使用す
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/6bVoPpO5kyn202DJrUZ8lEmwzz6-V0wVEY8D9F42jFo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 69%
+source-wordcount: 719
+ht-degree: 83%
 
 ---
 
@@ -19,16 +32,16 @@ ht-degree: 69%
 
 >[!IMPORTANT]
 >
->[Microsoftが新しい Teams クライアント &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
+>[Microsoft が New Teams クライアントに移行すると](https://learn.microsoft.com/ja-jp/microsoftteams/teams-classic-client-end-of-availability)、Classic Teams クライアントは 2025年7月1日（PT）以降は使用できなくなります。 Microsoft Teams や Workfront などの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 >
->更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。
+>アップデートされた Workfront 統合が利用可能になりました。この統合には、New Teams エクスペリエンスとの完全な互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfront が自動的に表示されます。 表示されない場合は、Microsoft Teams App Store から手動で統合をインストールできます。
 
 
 [!DNL Adobe Workfront for Microsoft Teams] アプリを使用すると、[!DNL Microsoft Teams] チャットチャネルから移動しなくても [!DNL Workfront] で基本的な操作を実行できます。
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] は、[!DNL Internet Explorer] のサポートを終了しました。[!DNL Adobe Workfront for Microsoft Teams integration] を使用する場合は、[!DNL Internet Explorer] 以外の web ブラウザーを使用する必要があります。
+>[!DNL Microsoft Teams] は、[!DNL Internet Explorer] のサポートを終了しました。 [!DNL Adobe Workfront for Microsoft Teams integration] を使用する場合は、[!DNL Internet Explorer] 以外の web ブラウザーを使用する必要があります。
 
 
 
@@ -48,7 +61,7 @@ ht-degree: 69%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>標準</p>
-   <p>ワークまたはそれ以上</p> </td> 
+   <p>Work またはそれ以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,15 +82,15 @@ ht-degree: 69%
 
 1. チーム所有者として [!DNL Microsoft Teams] にログインします。
 1. [!DNL Workfront for Microsoft Teams] アプリをインストールするチームを選択します。
-1. Workfront for Microsoft Teams統合をインストールするチームの **[!UICONTROL 詳細]** アイコンをクリックします
+1. Workfront for Microsoft Teams統合をインストールするチームの&#x200B;**[!UICONTROL 詳細]** アイコンをクリックします
 1. 「**[!UICONTROL アプリ]**」タブをクリックします。
-1. 「**[!UICONTROL アプリなどを検索]**」ボックスに *[!DNL Workfront]* と入力します。
+1. **[!UICONTROL アプリおよび詳細]** ボックスに「*[!DNL Workfront]*」と入力します。
 1. 「**追加**」をクリックします。
 1. 開いたダイアログで「**追加**」をクリックします。
-1. 「チャンネルを選択」セクションで、Workfront アプリを追加するチームを選択し、「**移動**」をクリックします。
+1. 「チャネルを選択」セクションで、Workfront アプリを追加するチームを選択し、**Go**&#x200B;をクリックします。
 
-   ![&#x200B; チームの選択 &#x200B;](assets/select-a-team.png)
-1. Workfrontに **ログイン**」をクリックして、Microsoft TeamsのWorkfrontにアクセスします。
+   ![&#x200B; チームを選択](assets/select-a-team.png)
+1. 「**Workfrontに** ログインしてMicrosoft Teams用Workfrontにアクセスします。
 
    [!DNL Workfront] へのログインの詳細については、この記事の [Microsoft Teams から Workfront にログイン](#log-in-to-workfront-from-microsoft-teams)の節を参照してください。
 
@@ -96,7 +109,7 @@ ht-degree: 69%
 1. 「**[!UICONTROL チームの管理]**」をクリックします。
 1. 「アプリ」タブを選択し、画面の左上隅にある「アプリをアップロード」をクリックします。
 1. コンピューターに保存したプライベートファイルを参照し、インストール手順に従って [!DNL Workfront for Microsoft Teams] をインストールします。
-1. インストールが完了すると、インストールが成功したことを示す通知が、選択したチームの一般チャネルに表示されます。チームのメンバー全員がこの通知を見ることができます。
+1. インストールが完了すると、インストールが成功したことを示す通知が、選択したチームの一般チャネルに表示されます。 チームのメンバー全員がこの通知を見ることができます。
 
 ## [!DNL Microsoft] Teams から [!DNL Workfront] にログイン
 
@@ -114,7 +127,7 @@ ht-degree: 69%
 
    [!DNL Microsoft Teams] チャットチャネルに、[!DNL Workfront] ボットチャットチャネルが追加されました。
 
-1. [!DNL Workfront] の [!DNL Microsoft Teams] ボットチャットチャネルに移動し、「*[!UICONTROL 質問をここに入力]*」または **[!UICONTROL メッセージを入力]** フィールドに **ログイン** と入力します。
+1. [!DNL Microsoft Teams]の[!DNL Workfront] ボットチャットチャネルに移動し、**[!UICONTROL 質問をここに入力]**&#x200B;または&#x200B;**メッセージを入力** フィールドに&#x200B;*[!UICONTROL ログイン]*&#x200B;と入力します。
 
    または
 
@@ -126,9 +139,9 @@ ht-degree: 69%
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] アカウントのドメインを入力するよう求められたら、*yourCompany&#39;sDomain.my.workfront.com* の形式で入力します。会社のドメインは通常、会社の名前です。
+   >* [!DNL Workfront] アカウントのドメインを入力するよう求められたら、*yourCompany&#39;sDomain.my.workfront.com* の形式で入力します。 会社のドメインは通常、会社の名前です。
    >* 拡張認証は、[!DNL Workfront] 管理者が拡張認証をこの統合に対して有効にするまで使用できません。
-   >* Microsoft Teams用Workfrontは、Workfront サンドボックス環境との互換性がありません。
+   >* Workfront for Microsoft Teamsは、Workfront サンドボックス環境と互換性がありません。
 
 
 1. ログインに使用したブラウザータブを閉じ、[!DNL Microsoft Teams] に戻ります。
