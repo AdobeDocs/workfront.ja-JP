@@ -7,11 +7,17 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/IK792FimJ6fpT2kPIlaDCvySDzmIfhpvLQaRhAH4oAY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: 470
 ht-degree: 61%
 
 ---
@@ -26,13 +32,13 @@ ht-degree: 61%
 
 既存のプロジェクトをテンプレートとして保存する際に、テンプレートを作成できます。
 
-既存のプロジェクトをテンプレートとして保存した後、新しいテンプレートを使用して新しいプロジェクトを作成できます。これにより、プロジェクト作成プロセスが簡素化され、迅速に実行されます。
+既存のプロジェクトをテンプレートとして保存した後、新しいテンプレートを使用して新しいプロジェクトを作成できます。 これにより、プロジェクト作成プロセスが簡素化され、迅速に実行されます。
 
 >[!NOTE]
 >
 >プロジェクトをテンプレートとして保存する場合、タスクの実際の日付とプロジェクトの実際の日付は、テンプレートに保存されません。
 >
->テンプレートとそのタスクには実際の日付はありませんが、タスクが開始される可能性がある日（将来のプロジェクトが開始される可能性がある日）と、タスクを完了する必要がある可能性の日を示します。テンプレートを使用して将来のプロジェクトを作成する場合、プロジェクトは実際の日付を受け取ります。詳しくは、[プロジェクトの作成](../create-projects/create-project.md)を参照してください。
+>テンプレートとそのタスクには実際の日付はありませんが、タスクが開始される可能性がある日（将来のプロジェクトが開始される可能性がある日）と、タスクを完了する必要がある可能性の日を示します。 テンプレートを使用して将来のプロジェクトを作成する場合、プロジェクトは実際の日付を受け取ります。 詳しくは、[プロジェクトの作成](../create-projects/create-project.md)を参照してください。
 
 ## アクセス要件
 
@@ -95,7 +101,7 @@ Old:
 ## プロジェクトからテンプレートを作成
 
 1. テンプレートとして保存するプロジェクトに移動します。
-1. **詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**テンプレートとして保存**&#x200B;をクリックします。
+1. **詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックしてから、**テンプレートとして保存**&#x200B;をクリックします。
 1. テンプレートに次の情報を指定します。
 
    <table style="table-layout:auto"> 
@@ -130,17 +136,17 @@ Old:
 
 1. フォームの名前にカーソルを合わせ、クリックして新しい場所にドラッグ&amp;ドロップします。
 
-   ![&#x200B; テンプレートの先頭にプロジェクトを保存](assets/save-project-as-template-top-of-the-form.png)
+   ![ テンプレートの先頭にプロジェクトを保存](assets/save-project-as-template-top-of-the-form.png)
 
 1. 左側のパネルで「**オプション**」をクリックし、テンプレートに転送するフィールドまたは項目を選択します。
 
    すべての項目はデフォルトでオンになっています。 選択されていない項目は、テンプレートに転送されません。
 
-   ![&#x200B; テンプレートとして保存オプション &#x200B;](assets/save-project-as-template-options-area.png)
+   ![ テンプレートとして保存オプション ](assets/save-project-as-template-options-area.png)
 
 1. 左側のパネルで「**除外**」をクリックし、プロジェクトから除外するタスクを選択します。
 
-   ![&#x200B; テンプレートとして保存を除外](assets/save-project-as-template-exclude-area.png)
+   ![ テンプレートとして保存を除外](assets/save-project-as-template-exclude-area.png)
 
 1. 「**完了してテンプレートを保存**」をクリックします。
 

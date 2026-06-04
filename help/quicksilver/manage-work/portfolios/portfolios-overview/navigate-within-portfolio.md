@@ -6,12 +6,18 @@ description: ポートフォリオ内での移動
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 64%
+source-wordcount: 660
+ht-degree: 61%
 
 ---
 
@@ -56,7 +62,7 @@ ht-degree: 64%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -99,18 +105,18 @@ Old:
    * **[!UICONTROL 所有ポートフォリオ]**：[!UICONTROL ポートフォリオ管理者]に指定されたポートフォリオのリストを含みます。
    * **[!UICONTROL すべて]**：少なくともビューにアクセスできるすべてのポートフォリオが含まれます。
 
-     ポートフォリオへのアクセスについて詳しくは、[&#x200B; アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
-ポートフォリオに対する権限について詳しくは、[ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください。
+     ポートフォリオへのアクセスについて詳しくは、[ アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
+ポートフォリオへの権限について詳しくは、[ ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください。
 
      新しいポートフォリオを追加するには、[ポートフォリオの作成](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)を参照してください。
 
 1. ポートフォリオの名前をクリックしてアクセスします。
-次のポートフォリオパフォーマンス指標は、ポートフォリオ内の[!UICONTROL ポートフォリオの詳細]領域に表示されます。
+ポートフォリオのパフォーマンス指標は、ポートフォリオ内の[!UICONTROL Portfolioの詳細]領域に表示されます。
 
    * ポートフォリオが[!UICONTROL 予定通り]かどうか
    * ポートフォリオが[!UICONTROL 予算通り]かどうか
    * [!UICONTROL 投資回収率]（ROI）
-   * ポートフォリオの [!UICONTROL &#x200B; 整合性]
+   * ポートフォリオの [!UICONTROL  整合性]
    * ポートフォリオの[!UICONTROL 純価]
 
 1. （オプション）左側のパネルの「**[!UICONTROL プロジェクト]**」をクリックして、選択したポートフォリオに関連付けられたプロジェクトを表示し、次のいずれかのフィルターを&#x200B;**[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューから選択します。
@@ -133,21 +139,21 @@ Old:
      フィルターの作成について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 
-1. 左側のパネルの&#x200B;**[!UICONTROL プログラム]**&#x200B;をクリックして、ポートフォリオ内にプログラムを作成するか、既存のプログラムを管理します。
-プログラムについて詳しくは、[プログラムの作成と管理](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)を参照してください。
+1. 左側のパネルの&#x200B;**[!UICONTROL プログラム]**をクリックして、ポートフォリオ内にプログラムを作成するか、既存のプログラムを管理します。
+プログラムについて詳しくは、「[ プログラムの作成と管理](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)」の節を参照してください。
 
 1. （オプション）**[!UICONTROL ポートフォリオの詳細]**&#x200B;領域を展開して、「**[!UICONTROL 概要]**」または「**[!UICONTROL カスタムフォーム]**」をクリックし、ポートフォリオに関する情報を編集します。
 
 1. （オプション）左側のパネルの「**[!UICONTROL ポートフォリオ最適化]**」をクリックして、ポートフォリオのパフォーマンスを最適化します。
 
-   ![&#x200B; プロジェクトを含むPortfolio optimizer](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![ プロジェクトを含むPortfolio optimizer](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
    >[!UICONTROL Portfolio Optimizer]にアクセスするには、会社に[!UICONTROL Prime]以降の[!DNL Workfront] パッケージが必要です。
    >
 
-   Portfolio Optimizerの使用について詳しくは、「Portfolio Optimizerでプロジェクトを管理する：記事インデックス [&#128279;](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)」セクションを参照してください。
+   Portfolio Optimizerの使用について詳しくは、「Portfolio Optimizerでプロジェクトを管理する：記事インデックス ](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)」セクションを参照してください。[
 
 1. （オプション）左側のパネルの「**ドキュメント**」をクリックして、ドキュメントをポートフォリオに添付します。
 
@@ -156,7 +162,7 @@ Old:
    >ポートフォリオへのドキュメントの追加は、Workfrontに使用するストレージの種類によって異なります。
    >一部のお客様は、次の両方のドキュメントストレージ環境にアクセスできます。
    >
-   >  * **レガシーWorkfront ストレージ**：このストレージを使用しているポートフォリオでは、名前の横にレガシーストレージアイコン ![&#x200B; レガシーストレージアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
+   >  * **レガシーWorkfront ストレージ**：このストレージを使用しているポートフォリオでは、名前の横にレガシーストレージアイコン ![ レガシーストレージアイコン ](assets/legacy-storage-project-icon.png)が表示されます。
    >  * **Adobe クラウドストレージ**
    >
    >Workfront管理者は、会社が使用するストレージを決定するか、各ポートフォリオを関連付けるストレージを選択できるようにします。
@@ -164,7 +170,7 @@ Old:
    >
    >ポートフォリオへのドキュメントの追加は、使用するストレージの種類によって異なります。
    >
-   >詳しくは、「[&#x200B; ファイルシステムからAdobe Workfrontにドキュメントを追加する](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)」を参照してください。
+   >詳しくは、「[ ファイルシステムからAdobe Workfrontにドキュメントを追加する](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)」を参照してください。
 
 1. （オプション）左パネルの「**[!UICONTROL 更新]**」をクリックして、ポートフォリオの更新ストリームにコメントを追加します。 詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 1. （オプション）次のいずれかの操作を行うには、**[!UICONTROL 詳細] メニュー** ![詳細メニュー](assets/qs-more-icon-on-an-object.png)をクリックします。
@@ -178,4 +184,4 @@ Old:
 
    * 他のユーザーとポートフォリオを共有します。
 
-1. （オプション）ポートフォリオ名の右側にある&#x200B;**星** アイコン ![星アイコン &#x200B;](assets/qs-star-icon-favorites-39x38.png)をクリックして、お気に入りのリストにポートフォリオを追加します。
+1. （オプション）ポートフォリオ名の右側にある&#x200B;**星** アイコン ![星アイコン ](assets/qs-star-icon-favorites-39x38.png)をクリックして、お気に入りのリストにポートフォリオを追加します。

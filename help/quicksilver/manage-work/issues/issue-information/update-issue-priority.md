@@ -1,15 +1,21 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: 問題の優先度を更新する
+title: イシューの優先度を更新
 description: イシューの優先度を定義して、イシューの重要度を示すことができます。
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+TQID: https://experienceleague.adobe.com/ACNxmxtbbBoIqnid1-W3Lyc4HkMh8gw2Rbcutx4PgFA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 85%
+source-wordcount: 295
+ht-degree: 98%
 
 ---
 
@@ -31,7 +37,7 @@ ht-degree: 85%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>投稿者以上</p> 
+   <td><p>コントリビューター以上</p> 
    <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +59,7 @@ ht-degree: 85%
 
 それぞれの優先度ラベルには、変更できない番号が関連付けられています。
 
-Adobe Workfront の管理者は、Workfront 内で優先度ラベルを変更したり、新しい優先度を作成したりできます。その結果、Workfront インスタンスの「優先度」フィールドのオプションは、以下に示すものと異なる場合があります。
+Adobe Workfront の管理者は、Workfront 内で優先度ラベルを変更したり、新しい優先度を作成したりできます。 その結果、Workfront インスタンスでの「優先度」フィールドのオプションが、下記のオプションと異なる場合があります。
 
 組織で使用されている優先度の番号付け順序を熟知している必要があります。\
 例えば、優先度のラベルが変更されている場合、組織では緊急のタスクに言及するために数字の 1 を使用するかもしれません。
@@ -104,7 +110,7 @@ Adobe Workfront の管理者は、Workfront 内で優先度ラベルを変更し
 
 1. **基本情報**&#x200B;エリアの「**優先度**」フィールドをクリックします。
 
-   ![&#x200B; 問題の優先度 &#x200B;](assets/issue-priority-field.png)
+   ![問題優先度](assets/issue-priority-field.png)
 
 1. 「**優先度**」フィールドの値を選択します。
 

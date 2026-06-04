@@ -2,14 +2,19 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: タスク制約の概要：指定日までに終了
+title: タスクの制約の概要：終了までに
 description: 「これよりも遅く終了しない」（FNLT）は、指定した日付より前にタスクが完了するようにスケジュール設定するタスク制約です。
 author: Alina
 feature: Work Management
 exl-id: ea0e74fb-45a0-4466-b57d-294a9babb340
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/lNcQlOWhkCOl0keoOBLgyKVo3VmlOnEPXRmVGhHFHF8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: 388
 ht-degree: 98%
 
 ---
@@ -22,9 +27,9 @@ ht-degree: 98%
 
 タスクに「これよりも遅く終了しない」（FNLT）制約を使用する場合は、次の点を考慮してください。
 
-* プロジェクトが「開始日から」にスケジュール設定されている場合は、この制約を使用する必要があります。この場合、タスクにソフト制約を指定してから、他の依存タスクをリスクとして強制的に表示させることができます。
+* プロジェクトが「開始日から」にスケジュール設定されている場合は、この制約を使用する必要があります。 この場合、タスクにソフト制約を指定してから、他の依存タスクをリスクとして強制的に表示させることができます。
 * FNLT 制約を使用するプロジェクトが「完了日から」にスケジュール設定されていると、この制約により、「できるだけ遅く」のタスクと同様にタスクがスケジュール設定されます。
-* FNET 制約を使用しているタスクを別のプロジェクトに移動またはコピーすると、制約の日付およびプロジェクトの開始日や完了日によって、タスクの制約またはプロジェクトの日付が変更される可能性があります。次のシナリオが存在します。
+* FNET 制約を使用しているタスクを別のプロジェクトに移動またはコピーすると、制約の日付およびプロジェクトの開始日や完了日によって、タスクの制約またはプロジェクトの日付が変更される可能性があります。 次のシナリオが存在します。
 
    * 宛先プロジェクトが開始からスケジュールされている場合：
 
@@ -38,7 +43,7 @@ ht-degree: 98%
 
       * プロジェクトのスケジュールに関係なく、タスクの制約の指定日がプロジェクトの開始日と完了日の範囲内にある場合、タスクの制約やプロジェクトの日付は変更されません。
 
-  タスクの移動について詳しくは、[タスクの移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。タスクのコピーについて詳しくは、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)を参照してください。
+  タスクの移動について詳しくは、[タスクの移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。 タスクのコピーについて詳しくは、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)を参照してください。
 
 タスクでタスクの制約を更新する方法については、[タスクでタスクの制約を更新](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)を参照してください。
 

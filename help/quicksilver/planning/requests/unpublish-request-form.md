@@ -6,12 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/-xaaNM0baja057DScjEerl-CqAhqwrqNkESARt6ChCo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 17%
+source-wordcount: 677
+ht-degree: 21%
 
 ---
 
@@ -67,7 +73,7 @@ ht-degree: 17%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -83,9 +89,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    ワークスペースが開き、レコードタイプがカードとして表示されます。
 
-1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+1. レコードタイプのカードをクリックします。 レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-   最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプページがテーブルビューで開きます。
+   最後にアクセスしたビューで、レコードタイプのページが開きます。 デフォルトで、レコードタイプのページがテーブルビューで開きます。
 
 1. ページヘッダーのレコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**リクエストフォームの管理**&#x200B;をクリックします。
 
@@ -110,9 +116,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    ワークスペースが開き、レコードタイプがカードとして表示されます。
 
-1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+1. レコードタイプのカードをクリックします。 レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-   最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプページがテーブルビューで開きます。
+   最後にアクセスしたビューで、レコードタイプのページが開きます。 デフォルトで、レコードタイプのページがテーブルビューで開きます。
 
 1. ページヘッダーのレコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**リクエストフォームの管理**&#x200B;をクリックします。
 

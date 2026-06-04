@@ -2,15 +2,21 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: スマート割り当ての実行
-description: スマート割り当てを使用して、作業を完了するのが最適なユーザーを特定できます。スマート割り当ては、業務に最も適したリソースを決定するアルゴリズムに基づいて作業アイテムをリソースに割り当てる際に Adobe Workfront に表示される、ユーザー、役割またはチームに関する提案です。スマート割り当てについて詳しくは、スマート割り当ての概要を参照してください。
+description: スマート割り当てを使用して、作業を完了するのが最適なユーザーを特定できます。 スマート割り当ては、業務に最も適したリソースを決定するアルゴリズムに基づいて作業アイテムをリソースに割り当てる際に Adobe Workfront に表示される、ユーザー、役割またはチームに関する提案です。 スマート割り当てについて詳しくは、スマート割り当ての概要を参照してください。
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/0EhPmb9Y3Vus-62FzgaPy-gtb4ioBmtVwt6bf3axWXU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: 380
 ht-degree: 88%
 
 ---
@@ -21,7 +27,7 @@ ht-degree: 88%
 
 スマート割り当てを使用して、作業の完了に最適なユーザーを特定できます。
 
-スマート割り当ては、作業アイテムをリソースに割り当てる際に Adobe Workfront に表示される、ユーザー、役割またはチームに関する提案です。Workfront は、業務に最も適したリソースを決定するアルゴリズムに基づいて提案します。
+スマート割り当ては、作業アイテムをリソースに割り当てる際に Adobe Workfront に表示される、ユーザー、役割またはチームに関する提案です。 Workfront は、業務に最も適したリソースを決定するアルゴリズムに基づいて提案します。
 
 <!--<span class="preview">There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues.</span> -->
 
@@ -86,7 +92,7 @@ ht-degree: 88%
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
    * **ユーザーとチーム**&#x200B;または&#x200B;**担当業務** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   ![&#x200B; タスクリストのスマート割り当ての例](assets/smart-assignments-task-list.png)
+   ![ タスクリストのスマート割り当ての例](assets/smart-assignments-task-list.png)
 
    詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 

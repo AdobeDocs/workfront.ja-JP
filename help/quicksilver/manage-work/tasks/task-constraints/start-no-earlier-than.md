@@ -2,14 +2,20 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: タスク制約の概要：指定日以後に開始
+title: タスク制約の概要：開始できる時間が次の時間より短い
 description: 指定した日付以降にタスクを開始するようにスケジュールするには、「指定日以後に開始」（SNET）タスク制約を使用します。
 author: Alina
 feature: Work Management
 exl-id: 857859fb-87ee-4397-b292-239ed9dc8281
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/2YS0JaxRwYAAN5ZqNzPO7kGyQ876UlJ5b-X4MY4bT6c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: 492
 ht-degree: 98%
 
 ---
@@ -22,12 +28,12 @@ ht-degree: 98%
 
 「指定日以後に開始」タスク制約を使用する際は、以下の点を考慮してください。
 
-* プロジェクトが「開始日」からスケジュール設定されている場合は、「指定日以後に開始」制約を使用する必要があります。この場合、タスクにソフト制約を指定してから、他の依存タスクをリスクとして強制的に表示させることができます。
-* 「指定日以後に開始」は、プロジェクトのスケジュールが「開始日」からで、新規タスクのシステムまたはグループのデフォルトの開始日が「今日」に設定されている場合の、デフォルトの制約です。タスクのデフォルトの設定について詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+* プロジェクトが「開始日」からスケジュール設定されている場合は、「指定日以後に開始」制約を使用する必要があります。 この場合、タスクにソフト制約を指定してから、他の依存タスクをリスクとして強制的に表示させることができます。
+* 「指定日以後に開始」は、プロジェクトのスケジュールが「開始日」からで、新規タスクのシステムまたはグループのデフォルトの開始日が「今日」に設定されている場合の、デフォルトの制約です。 タスクのデフォルトの設定について詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
 * プロジェクトのスケジュールを「開始日」から設定し、新規タスクのシステムのデフォルトの開始日を「プロジェクト予定日に基づく」に設定した場合、新規タスクのデフォルトの制約は「できるだけ早く」になります。
 * プロジェクトのスケジュールを「完了日から」に設定し、新規タスクのシステムのデフォルトの開始日を「今日」に設定した場合、「指定日以後に開始」制約によってそのタスクのスケジュールは「できるだけ早く」と同様の設定になります。
-* SNET 制約のあるタスクを別のプロジェクトに移動またはコピーすると、タスクの制約やプロジェクトの日付は、制約の日付、およびプロジェクトの開始日と完了日の設定に応じて変更する場合があります。次のシナリオが存在します。
+* SNET 制約のあるタスクを別のプロジェクトに移動またはコピーすると、タスクの制約やプロジェクトの日付は、制約の日付、およびプロジェクトの開始日と完了日の設定に応じて変更する場合があります。 次のシナリオが存在します。
 
    * 宛先プロジェクトが開始からスケジュールされている場合：
 
@@ -41,7 +47,7 @@ ht-degree: 98%
 
       * プロジェクトのスケジュールに関係なく、タスクの制約の指定日がプロジェクトの開始日と完了日の範囲内にある場合、タスクの制約やプロジェクトの日付は変更されません。
 
-  タスクの移動について詳しくは、[タスクの移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。タスクのコピーについて詳しくは、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)を参照してください。
+  タスクの移動について詳しくは、[タスクの移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。 タスクのコピーについて詳しくは、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)を参照してください。
 
 タスクでタスクの制約を更新する方法については、[タスクでタスクの制約を更新](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)を参照してください。
 

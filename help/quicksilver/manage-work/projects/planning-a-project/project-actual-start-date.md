@@ -3,22 +3,28 @@ content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: プロジェクトの実際の開始日の概要
-description: Adobe Workfront では、プロジェクト、タスクおよびイシューに実際の開始日があります。タスクおよびイシューの場合、この日付は「進行中」とマークされた日です。プロジェクトの場合、この日付はプロジェクトの最初のタスクが「進行中」としてマークされたか完了した日です。
+description: Adobe Workfront では、プロジェクト、タスクおよびイシューに実際の開始日があります。 タスクおよびイシューの場合、この日付は「進行中」とマークされた日です。 プロジェクトの場合、この日付はプロジェクトの最初のタスクが「進行中」としてマークされたか完了した日です。
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/DWzx7-PW4nb78Q-XuI0AUjcCOFFap-f3qunguTclLpE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: 530
 ht-degree: 52%
 
 ---
 
 # プロジェクトの実際の開始日の概要
 
-Adobe Workfront では、プロジェクト、タスクおよびイシューに実際の開始日があります。タスクおよびイシューの場合、この日付は「進行中」とマークされた日です。プロジェクトの場合、この日付はプロジェクトの最初のタスクが「進行中」としてマークされたか完了した日です。
+Adobe Workfront では、プロジェクト、タスクおよびイシューに実際の開始日があります。 タスクおよびイシューの場合、この日付は「進行中」とマークされた日です。 プロジェクトの場合、この日付はプロジェクトの最初のタスクが「進行中」としてマークされたか完了した日です。
 
 ## アクセス要件
 
@@ -102,7 +108,7 @@ Old:
      >
      >プロジェクトが「現在」としてマークされている場合、プロジェクトの「実際の開始日」は入力されません。 実際の作業は、プロジェクトの実際の開始日よりも前に、プロジェクトのタスクで開始する必要があります。
 
-     こうした場合、プロジェクトの実際の開始日は、プロジェクトで最も早く発生するタスクに対してこれらのアクションが実行された日時に設定されます。これは、プロジェクトが実際にこの日時に開始されたことを示します。
+     こうした場合、プロジェクトの実際の開始日は、プロジェクトで最も早く発生するタスクに対してこれらのアクションが実行された日時に設定されます。 これは、プロジェクトが実際にこの日時に開始されたことを示します。
 
 ## プロジェクトの実際の開始日を探す
 
@@ -120,7 +126,7 @@ Old:
 1. 実際の開始日を表示するプロジェクトをクリックします。
 1. 左側のパネルで「**プロジェクトの詳細**」をクリックし、**概要** セクションに移動します。
 
-   ![&#x200B; プロジェクトの実際の開始日が強調表示されました](assets/nwe-project-actual-start-date--highlighted-350x367.png)
+   ![ プロジェクトの実際の開始日が強調表示されました](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
    **実際の開始日**&#x200B;は、他のプロジェクトの日付と共に表示されます。
 

@@ -8,12 +8,18 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/VlZaPAR4m-l8J06i7vGB99HbRIJNTN2nBFhCvFy2aD0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 83%
+source-wordcount: 1382
+ht-degree: 82%
 
 ---
 
@@ -38,7 +44,7 @@ ht-degree: 83%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront ライセンス</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront プラン</p> </td> 
    <td><p>明るいまたはそれ以上</p> 
    <p>レビュー以上</p> </td> 
   </tr> 
@@ -96,13 +102,13 @@ Old:
 
    または
 
-   詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックし、**概要**&#x200B;をクリックします。 概要エリアが開き、編集できます。
+   詳細セクションの右上隅にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックし、**概要**&#x200B;をクリックします。 概要エリアが開き、編集できます。
 
    >[!NOTE]
    >
    >Workfront 管理者がレイアウトテンプレートを設定した方法によっては、「概要」セクションが最初に表示されない場合があり、その場合は折りたたまれています。 詳しくは、[レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
-1. （条件付き）プロジェクトで更新する必要があるものの、このセクションに表示されていない特定のフィールドがある場合は、プロジェクト名の横にある&#x200B;**詳細メニュー** ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックして他のプロジェクトフィールドを表示します。
+1. （条件付き）プロジェクトで更新する必要があるものの、このセクションに表示されていない特定のフィールドがある場合は、プロジェクト名の横にある&#x200B;**詳細メニュー** ![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックして他のプロジェクトフィールドを表示します。
 
    プロジェクトの編集について詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 

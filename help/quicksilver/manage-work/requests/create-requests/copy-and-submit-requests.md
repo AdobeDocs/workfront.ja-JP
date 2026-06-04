@@ -6,11 +6,17 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/dYXyT3P6CTlVSpiUYhMmB5gZEWILGP6g-WUhVE0SdCM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: c10f2e93-7a58-4212-aa24-684c265ebe76id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: 1734
 ht-degree: 69%
 
 ---
@@ -117,7 +123,7 @@ ht-degree: 69%
 
    1. **My Requests** ウィジェットを探します。
 
-      マイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
+      マイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
 
 1. ホームの&#x200B;**リクエスト** リストまたは&#x200B;**マイリクエスト** ウィジェットで、コピーするリクエストにカーソルを合わせ、名前の横にある&#x200B;**詳細** メニューをクリックします。
 
@@ -159,13 +165,13 @@ ht-degree: 69%
 
 1. 新規としてコピーして送信するリクエストを検索し、次のいずれかの操作を行います。
 
-   * それを選択し、送信済みリクエストリストの左上隅にある「**コピー**![&#x200B; コピーして送信」アイコン &#x200B;](assets/copy-and-submit-as-new-requests-area-nwe.png)をクリックします。
+   * それを選択し、送信済みリクエストリストの左上隅にある「**コピー**![ コピーして送信」アイコン ](assets/copy-and-submit-as-new-requests-area-nwe.png)をクリックします。
 
    >[!TIP]
    >
    > 最初にリクエストを選択していない場合、コピーアイコンはグレー表示になります。
 
-   * リクエスト名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**コピーをクリックして新規として送信**
+   * リクエスト名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**コピーをクリックして新規として送信**
 
      または
 
@@ -216,7 +222,7 @@ ht-degree: 69%
        </ul> <p>優先順位の名前は、Workfront 管理者が変更できます。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>重大度</strong> </td> 
+      <td role="rowheader"><strong>重要度</strong> </td> 
       <td> <p>リクエストの重要度を指定します。 重大度は、時間内に解決されない場合に、このリクエストが作業に与える影響を定義する必要があります。 デフォルトのオプションは次のとおりです。</p> 
        <ul> 
         <li>一時回避</li> 

@@ -7,11 +7,17 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/RunTPxXNlDBhtEH0piWpqPpO9AAlQAN7r6ySdyapBRU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: 895
 ht-degree: 97%
 
 ---
@@ -101,7 +107,7 @@ Old:
 
    新規タスクダイアログボックスが表示されます。
 
-   ![&#x200B; タスクの小さい画面を作成](assets/nwe-create-task-small-screen-350x272.png)
+   ![ タスクの小さい画面を作成](assets/nwe-create-task-small-screen-350x272.png)
 
 1. 「**その他のオプション**」をクリックして、「**タスク名**」フィールドにタスクの名前を入力します。
 1. 新しいタスクを追加した場合と同じ方法で、タスクの更新を続行します。 新しいタスクの追加について詳しくは、[プロジェクトでタスクを作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)を参照してください。
@@ -113,7 +119,7 @@ Old:
 1. 左側のパネルにある「**概要**」をクリックします。
 1. 「**繰り返しスケジュール**」セクションまで下にスクロールして、「**これを繰り返しタスクにする**」オプションを選択します。
 
-   ![繰り返しスケジュール選択の新しい繰り返しタスク &#x200B;](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![繰り返しスケジュール選択の新しい繰り返しタスク ](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. **頻度**&#x200B;ドロップダウンリストで、タスクを実行する時間単位の数と時間単位の種類を選択します。 次のオプションから選択します。
 
@@ -167,7 +173,7 @@ Old:
 
    親の定期タスクから自動入力されるフィールドについて詳しくは、[定期タスクの概要](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)を参照してください。
 
-   ![&#x200B; タスクリスト内のタスクの再実行](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![ タスクリスト内のタスクの再実行](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. （オプション）各定期タスクを、プロジェクト内の他のタスクと同様に変更します。
 

@@ -8,11 +8,16 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
+TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1561'
+source-wordcount: 1561
 ht-degree: 39%
 
 ---
@@ -92,7 +97,7 @@ Remove production and preview references at release
 
 送信されたリクエストは、リクエスト エリアまたはホームのマイリクエストウィジェットで表示できます。
 
-マイリクエストについて詳しくは、[&#x200B; マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
+マイリクエストについて詳しくは、[ マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
 
 送信されたリクエストの表示は、新しいリクエスト体験を使用しているか、従来のリクエスト体験を使用しているかによって異なります。
 
@@ -142,7 +147,7 @@ Remove production and preview references at release
 
    >[!IMPORTANT]
    >
-   >Workfront管理者は、**Setup**&#x200B;領域でWorkfront リクエストステータスの一部を設定できます。 詳しくは、[&#x200B; ステータスの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
+   >Workfront管理者は、**Setup**&#x200B;領域でWorkfront リクエストステータスの一部を設定できます。 詳しくは、[ ステータスの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
    >
    >Workfrontの一部のリクエストステータスと、すべてのプランニングリクエストのステータスは、Workfrontによってハードコーディングされています。 カスタマイズしたり、名前を変更したり、同じものを追加したりすることはできません。
 
@@ -219,7 +224,7 @@ Remove production and preview references at release
    >
    >送信済みリクエストのリストから移動したとき、選択された並べ替えオプションが保持されます。
 
-1. （オプション）リストでリクエストを選択し、**概要を開く** アイコン ![&#x200B; テキストで概要を開く](assets/open-summary-with-text-nwe.png)をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメント、ドキュメントを追加したり、割り当てたりします。 「概要」パネルについて詳しくは、[概要について](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
+1. （オプション）リストでリクエストを選択し、**概要を開く** アイコン ![ テキストで概要を開く](assets/open-summary-with-text-nwe.png)をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメント、ドキュメントを追加したり、割り当てたりします。 「概要」パネルについて詳しくは、[概要について](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
    >[!TIP]
    >
@@ -227,13 +232,13 @@ Remove production and preview references at release
    >
    >* 組織でAdobe クラウドストレージをドキュメントに使用している場合、概要パネルでAdobe クラウドストレージリクエストにドキュメントを追加することはできません。
    >
-   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
-1. （オプションおよび条件付き）右上隅の&#x200B;**X** アイコンまたは&#x200B;**概要を閉じる** アイコン ![概要をテキスト &#x200B;](assets/close-summary-with-text-nwe.png)で閉じる」をクリックして、概要パネルを閉じます。
+1. （オプションおよび条件付き）右上隅の&#x200B;**X** アイコンまたは&#x200B;**概要を閉じる** アイコン ![概要をテキスト ](assets/close-summary-with-text-nwe.png)で閉じる」をクリックして、概要パネルを閉じます。
 
    イシューがタスクまたはプロジェクトに変換され、変換処理でイシューが削除された場合、概要パネルは空白になります。 イシューの変換について詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
-1. リストの右上にある&#x200B;**フィルターアイコン** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)から、以下の表に示すフィルターのいずれかを選択します。
+1. リストの右上にある&#x200B;**フィルターアイコン** ![ フィルターアイコン ](assets/filter-nwepng.png)から、以下の表に示すフィルターのいずれかを選択します。
 
    >[!TIP]
    >
@@ -266,7 +271,7 @@ Remove production and preview references at release
     </tbody> 
    </table>
 
-1. （オプション）リストの上部にある&#x200B;**フィルターページ** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックして、リクエストを名前で検索します。 リストは、検索条件に一致する結果で更新されます。
+1. （オプション）リストの上部にある&#x200B;**フィルターページ** アイコン ![検索アイコン ](assets/search-icon.png)をクリックして、リクエストを名前で検索します。 リストは、検索条件に一致する結果で更新されます。
 
    <!--
 

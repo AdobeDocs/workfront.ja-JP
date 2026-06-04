@@ -6,11 +6,15 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/dvg7xymA6Fo8NBCkIoo0mgDmuUBD7BWWqwCFSdL8wqo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: 1341
 ht-degree: 3%
 
 ---
@@ -76,13 +80,13 @@ ht-degree: 3%
 * **グローバル分類ワークスペース** （ハブ）：これは、システムの一般的な構造と命名規則である必要があります。
 * 最初の&#x200B;**チームワークスペース** （スポーク）：これは、個々のチームの作業に対するアプローチと一致している必要があります。
 
-詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+詳しくは、[ワークスペースの概要](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
 このチームファーストのアーキテクチャにより、次のことが可能になります。
 
 * **スポークをサポートするハブを設計します。** グローバル分類ワークスペースは、パイロットチームにとって最も重要なオブジェクト（特定のブランドまたは製品）に特化してフォーカスできます。 これにより、企業のガバナンスとチームの自律性の間の協力的な連携を強化しながら、デザイン作業を管理可能に保つことができます。
 
-  詳しくは、[&#x200B; クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+  詳しくは、[ クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 * **保護者ではなくイネーブラとして行動する：** ルール設定から機能構築に役割を移します。 プランニング環境を構築する際にチームと連携します。
 

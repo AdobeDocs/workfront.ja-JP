@@ -3,15 +3,21 @@ content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: プロジェクト予定開始日の概要
-description: プロジェクトの予定開始日と予定完了日は、プロジェクトのタスクの日付に依存します。この記事では、プロジェクトの予定開始日について説明します。
+description: プロジェクトの予定開始日と予定完了日は、プロジェクトのタスクの日付に依存します。 この記事では、プロジェクトの予定開始日について説明します。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/TG5jGCFoSZOFA-lmHR7SAt7T-a2tmtOtooH4uBMB1ps
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: 433
+ht-degree: 98%
 
 ---
 
@@ -25,7 +31,7 @@ ht-degree: 96%
 </div>
 -->
 
-プロジェクトの予定開始日と予定完了日は、プロジェクトのタスクの日付に依存します。この記事では、プロジェクトの予定開始日について説明します。タスクの予定開始日について詳しくは、[タスクの予定開始日の概要](../../../manage-work/tasks/task-information/task-planned-start-date.md)を参照してください。
+プロジェクトの予定開始日と予定完了日は、プロジェクトのタスクの日付に依存します。 この記事では、プロジェクトの予定開始日について説明します。 タスクの予定開始日について詳しくは、[タスクの予定開始日の概要](../../../manage-work/tasks/task-information/task-planned-start-date.md)を参照してください。
 
 プロジェクトの予定開始日は、プロジェクトを開始日からスケジュールするか、完了日からスケジュールするかに応じて、手動または自動で設定できます。
 

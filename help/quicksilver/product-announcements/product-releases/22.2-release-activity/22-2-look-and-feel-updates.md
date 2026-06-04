@@ -6,16 +6,19 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/9MTK6HmMICIu6itU9SDDnqs5xv2pWchP2xHK-CljPZ0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 99%
+source-wordcount: 378
+ht-degree: 100%
 
 ---
 
 # 22.2 リリース期間のルックアンドフィールの更新
 
-このページでは、22.2 リリース期間内に行われた、Adobe Workfront アプリケーションの様々な領域のルックアンドフィールにおけるマイナーアップデートについて説明します。これらの機能強化はプレビューにリリース後、最低 2 週間で実稼動環境で利用できるようになります。
+このページでは、22.2 リリース期間内に行われた、Adobe Workfront アプリケーションの様々な領域のルックアンドフィールにおけるマイナーアップデートについて説明します。 これらの機能強化はプレビューにリリース後、最低 2 週間で本番環境で利用できるようになります。
 
 22.2 リリースで利用可能なすべての変更点の一覧については、[22.2 リリースの概要](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)を参照してください。
 
@@ -37,7 +40,7 @@ ht-degree: 99%
 >
 >プレビューリリース：2022年2月24日（PT）、実稼動リリース予定：段階的なロールアウトは 3月9日から始まり、2022年3月18日（PT）までにすべてのお客様にご利用いただけるようになります。
 
-Workfront のドキュメント領域のパフォーマンスが向上しました。ドキュメントページの読み込みが大幅に高速化されました。
+Workfront のドキュメント領域のパフォーマンスが向上しました。 ドキュメントページの読み込みが大幅に高速化されました。
 
 また、いくつかのダイアログのルックアンドフィールも更新し、新しい Workfront エクスペリエンスでのその他のリストエクスペリエンスに合わせて、リストビューを更新しました。
 

@@ -6,16 +6,21 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6dba849-6915-4c2c-b378-a8d3daa8a0d5
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/dhb4V30JmerH7ZZIIQJGQppq8i9TUrlzuc-qmjJTgRk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: 169
 ht-degree: 100%
 
 ---
 
 # 22.3 レポートの機能強化
 
-このページでは、プレビュー環境の 22.3 リリースで行われたレポート機能のすべての機能強化について説明します。これらの機能強化は、2022年7月11日（PT）の週に実稼動環境で公開されました。22.3 リリースで使用可能なすべての変更点の一覧については、[22.3 リリースの概要](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)を参照してください。
+このページでは、プレビュー環境の 22.3 リリースで行われたレポート機能のすべての機能強化について説明します。 これらの機能強化は、2022年7月11日（PT）の週に本番環境で公開されました。 22.3 リリースで使用可能なすべての変更点の一覧については、[22.3 リリースの概要](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)を参照してください。
 
 ## リストとレポートのリソース予算フィールドの削除と追加
 

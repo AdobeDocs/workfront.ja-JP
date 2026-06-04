@@ -7,9 +7,15 @@ description: BCWP（実行された作業の予算計上コスト）は、出来
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/ahGgQPcR7LoWSLthsvYytqMIyoVcE86N2A3kAflYS2I
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: 573
 ht-degree: 98%
 
 ---
@@ -74,7 +80,7 @@ BCWP を時間単位で計算するかコスト単位で計算するかは、プ
 1. プロジェクトに移動して、左パネルの「**プロジェクトの詳細**」を展開します。
 1. **財務**&#x200B;エリアで、「**パフォーマンスインデックスメソッド**」フィールドを見つけ、ダブルクリックして編集します。
 
-   ![PIM オプション &#x200B;](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM オプション ](assets/pim-options-hour-cost-based-nwe.png)
 
 1. 次のオプションから選択します。
 
@@ -122,7 +128,7 @@ BCWP 列をビューに追加すると、レポートまたはリストで実行
 1. 「**列を追加**」をクリックします。
 1. **この列に表示：** フィールドで **BCWP** の入力を開始して、リストに表示されたらクリックして選択します。
 
-   プロジェクト ビュー![&#128279;](assets/bcwp-project-view.png)のBCWP
+   プロジェクト ビュー](assets/bcwp-project-view.png)の![BCWP
 
 1. 「**ビューを保存**」をクリックします。
 1. 「BCWP」フィールドがビューに表示されます。

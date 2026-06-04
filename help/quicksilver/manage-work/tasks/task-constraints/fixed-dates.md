@@ -3,29 +3,34 @@ content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
 title: タスク制約の概要：固定日付
-description: タスクの正確な開始日と終了日を指定する場合は、固定日付のタスク制約を使用できます。タスク制約について詳しくは、「タスク制約の概要」を参照してください。
+description: タスクの正確な開始日と終了日を指定する場合は、固定日付のタスク制約を使用できます。 タスク制約について詳しくは、「タスク制約の概要」を参照してください。
 author: Alina
 feature: Work Management
 exl-id: 084f54a6-e757-405c-b388-5d5f61608e71
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/rVMjo1IgPBQpLatO8jufxGPYTn2W0qghce2v5O-zPRo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 437
 ht-degree: 98%
 
 ---
 
 # タスク制約の概要：固定日付
 
-タスクの正確な開始日と終了日を指定する場合は、固定日付のタスク制約を使用できます。タスク制約について詳しくは、[タスク制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)を参照してください。
+タスクの正確な開始日と終了日を指定する場合は、固定日付のタスク制約を使用できます。 タスク制約について詳しくは、[タスク制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)を参照してください。
 
 ## 固定日付の制約の概要
 
 固定日付の制約を使用する際は、次の点に注意してください。
 
-* 固定日付（FIXT）タスク制約を選択する場合は、タスクの「予定開始日」と「予定完了日」を指定する必要があります。この場合、タスクの先行タスク関係は無視されます。
-* FIXT 制約を使用する場合、タスクの「期間」フィールドは編集できません。期間は、タスクの予定開始日と予定完了日の差として計算されます。
+* 固定日付（FIXT）タスク制約を選択する場合は、タスクの「予定開始日」と「予定完了日」を指定する必要があります。 この場合、タスクの先行タスク関係は無視されます。
+* FIXT 制約を使用する場合、タスクの「期間」フィールドは編集できません。 期間は、タスクの予定開始日と予定完了日の差として計算されます。
 * タスクの「期間タイプ」が「残存作業時間の優先」の場合は、タスクの担当者の数もタスクの期間に影響を与えます。
-* FIXT 制約のあるタスクを別のプロジェクトに移動またはコピーすると、タスクの制約やプロジェクトの日付は、制約の日付と、プロジェクトの開始日と完了日に応じて変わる場合があります。次のシナリオが存在します。
+* FIXT 制約のあるタスクを別のプロジェクトに移動またはコピーすると、タスクの制約やプロジェクトの日付は、制約の日付と、プロジェクトの開始日と完了日に応じて変わる場合があります。 次のシナリオが存在します。
 
    * 宛先プロジェクトが開始からスケジュールされている場合：
 
@@ -39,7 +44,7 @@ ht-degree: 98%
 
    * プロジェクトのスケジュールに関係なく、タスクの制約日がプロジェクトの開始日と完了日の範囲内にある場合、タスク制約やプロジェクトの日付は変更されません。
 
-  タスクの移動について詳しくは、[タスクの移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。タスクのコピーについて詳しくは、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)を参照してください。
+  タスクの移動について詳しくは、[タスクの移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。 タスクのコピーについて詳しくは、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)を参照してください。
 
 タスクでタスクの制約を更新する方法については、[タスクでタスクの制約を更新](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)を参照してください。
 

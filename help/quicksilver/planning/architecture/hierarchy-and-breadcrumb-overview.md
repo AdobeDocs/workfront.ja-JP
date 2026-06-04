@@ -6,11 +6,14 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/5fAVg3RVgnHdJraHxLwM-u4rrUwzou9wDzR6KUKW1xY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: 1042
 ht-degree: 0%
 
 ---
@@ -27,7 +30,7 @@ Workspace Managerでは、Adobe Workfront Planningで、接続されたレコー
 
 階層とは、レコードタイプ間、またはレコードタイプとWorkfront プロジェクト間のつながりです。
 
-階層の作成について詳しくは、[&#x200B; ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
+階層の作成について詳しくは、[ ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
 
 ワークスペースで階層を使用する利点は次のとおりです。
 
@@ -84,7 +87,7 @@ Workspace Managerでは、Adobe Workfront Planningで、接続されたレコー
 
 例えば、階層を作成してCampaignsをTacticsで接続し、次にアクティビティを使用して、階層内で接続されているいずれかのタイプのレコードに移動すると、そのレコードが階層内のどこに配置されているかを表示できます。 レコードが複数のワークスペースに表示される場合は、各ワークスペースのパスをパンくずリストのワークスペース名で始めて表示できます。
 
-![&#x200B; パンくずリスト &#x200B;](assets/breadcrumbs-on-activities-planning-only.png)
+![ パンくずリスト ](assets/breadcrumbs-on-activities-planning-only.png)
 
 次の点に注意してください。
 
@@ -95,5 +98,5 @@ Workspace Managerでは、Adobe Workfront Planningで、接続されたレコー
 
   例えば、Planning キャンペーンと戦術、およびWorkfront ポートフォリオとプログラムに関連するプロジェクトを見る場合、パンくずリストからPlanningとWorkfrontの両方のオブジェクトタイプを切り替えることができます。
 
-  詳しくは、[&#x200B; ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
+  詳しくは、[ ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
 * レコードを編集すると、レコードが含まれているすべてのワークスペースとすべての階層から変更内容が表示されます。

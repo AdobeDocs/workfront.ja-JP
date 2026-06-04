@@ -2,16 +2,22 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: ポートフォリオの編集
-description: 自分が作成したポートフォリオ、または他のユーザーが自分と共有した場合に作成したポートフォリオに関する情報を編集できます。 この記事では、権限を持っている場合に、ポートフォリオを検索、検索、編集する方法について説明します。
+description: 自分が作成したポートフォリオや、他のユーザーが自分と共有した場合にはそのユーザーが作成したポートフォリオに関する情報を編集できます。 この記事では、権限を持っている場合に、ポートフォリオを検索、検索、編集する方法について説明します。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/A59Xi2g75iLxj93L3xk4saeZn1C6TlbFj5q-9n0RSc4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 60%
+source-wordcount: 1084
+ht-degree: 62%
 
 ---
 
@@ -60,7 +66,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++ 
 
@@ -103,7 +109,7 @@ Old:
 
    1. ポートフォリオの名前をクリックして開き、左側のパネルで「**[!UICONTROL Portfolioの詳細]**」をクリックします。
 
-      ![Portfolioの詳細タブ &#x200B;](assets/portfolio-details-tab-nwe-350x163.png)
+      ![Portfolioの詳細タブ ](assets/portfolio-details-tab-nwe-350x163.png)
 
       <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
@@ -111,21 +117,21 @@ Old:
 
       >[!NOTE]
       >
-      >[!DNL Workfront] 管理者またはグループ管理者がレイアウトテンプレートを変更した方法によっては、[!UICONTROL ポートフォリオの詳細]エリアが並べ替えられたり、表示されない場合があります。詳しくは、[レイアウトテンプレートを使用した[!UICONTROL 詳細]表示のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
+      >[!DNL Workfront] 管理者またはグループ管理者がレイアウトテンプレートを変更した方法によっては、[!UICONTROL ポートフォリオの詳細]エリアが並べ替えられたり、表示されない場合があります。 詳しくは、[レイアウトテンプレートを使用した[!UICONTROL 詳細]表示のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
       「[!UICONTROL **詳細**]」セクションの情報を編集するには、以下を行います。
 
    1. （オプション）右上隅の&#x200B;**[!UICONTROL すべて折りたたむ]** アイコン ![すべてのアイコンを折りたたむ](assets/collapse-all-icon.png)をクリックして、すべての領域を折りたたみます。
-   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある&#x200B;**展開** アイコン ![展開アイコン &#x200B;](assets/right-pointing-arrow.png)をクリックして、編集する領域を展開します。
+   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある&#x200B;**展開** アイコン ![展開アイコン ](assets/right-pointing-arrow.png)をクリックして、編集する領域を展開します。
 
       >[!TIP]
       >
-      >すべての領域が折りたたまれている場合は、詳細セクションの右上隅にある&#x200B;**すべて展開** アイコン ![展開アイコン &#x200B;](assets/right-pointing-arrow.png)をクリックできます。
+      >すべての領域が折りたたまれている場合は、詳細セクションの右上隅にある&#x200B;**すべて展開** アイコン ![展開アイコン ](assets/right-pointing-arrow.png)をクリックできます。
 
       [!UICONTROL **ポートフォリオの詳細**]&#x200B;セクションに表示されるフィールドについて詳しくは、次に説明するように、「[!UICONTROL **ポートフォリオを編集**]」ボックスでポートフォリオの編集を続けます。
-   1. （オプション）ポートフォリオにカスタムフォームが添付されていない場合は、**[!UICONTROL 詳細]** ページの右上隅にある「**カスタムフォームを追加**」フィールドにフォームの名前を入力し、リストに表示されたら選択します。
+   1. （オプション）ポートフォリオにカスタムフォームが添付されていない場合は、**詳細** ページの右上隅にある「**[!UICONTROL カスタムフォームを追加]**」フィールドにフォームの名前を入力し、リストに表示されたら選択します。
    1. [!UICONTROL **概要**]&#x200B;および&#x200B;[!UICONTROL **カスタム Forms**]&#x200B;領域のフィールドに情報を追加し、[!UICONTROL **変更を保存**]&#x200B;をクリックします。
-   1. （オプション）「**[!UICONTROL 書き出し]**」アイコン「![書き出しアイコン &#x200B;](assets/export.png)」をクリックして、[!UICONTROL 概要]およびカスタムフォーム情報をPDF ファイルに書き出してから、**[!UICONTROL 書き出し]**&#x200B;をクリックします。 次の中から選択します。
+   1. （オプション）「**[!UICONTROL 書き出し]**」アイコン「![書き出しアイコン ](assets/export.png)」をクリックして、[!UICONTROL 概要]およびカスタムフォーム情報をPDF ファイルに書き出してから、**[!UICONTROL 書き出し]**&#x200B;をクリックします。 次の中から選択します。
 
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
@@ -134,19 +140,19 @@ Old:
 
         PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-        ![&#x200B; ポートフォリオの詳細を書き出し](assets/export-portfolio-details-box-with-export-button-350x368.png)
+        ![ ポートフォリオの詳細を書き出し](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
         詳しくは、[カスタムフォームとオブジェクト詳細の書き出し](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
 
-1. （オプション） 1つ以上のポートフォリオに関するすべての情報を編集するには、ポートフォリオのリストで編集する1つ以上のポートフォリオを選択し、リストの上部にある&#x200B;**[!UICONTROL 編集]** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+1. （オプション） 1つ以上のポートフォリオに関するすべての情報を編集するには、ポートフォリオのリストで編集する1つ以上のポートフォリオを選択し、リストの上部にある&#x200B;**[!UICONTROL 編集]** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
    「**[!UICONTROL Portfolioを編集]**」ボックスが表示されます。
 
-   ![&#x200B; ポートフォリオボックスの編集](assets/edit-portfolio-box-classic-350x224.png)
+   ![ ポートフォリオボックスの編集](assets/edit-portfolio-box-classic-350x224.png)
 
    すべてのポートフォリオフィールドは、[!UICONTROL ポートフォリオを編集]ボックスで使用でき、左のパネルに表示されたエリアでグループ化されます。
 
@@ -193,19 +199,19 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>ポートフォリオマネージャーとして指定するユーザーの名前を入力し、リストに名前が表示されたらそれを選択します。これは、[!UICONTROL Portfolio Owner]と同じです。これは、ポートフォリオのプロジェクトで定義された作業を監視し、ビジネスケースを承認できる人です。</p> <p>重要：任意のユーザーをポートフォリオマネージャーに指定すると、ポートフォリオ、プログラムおよびポートフォリオ内のプロジェクトに対する[!UICONTROL Manage]権限が自動的に付与されます。 </p> <p>ヒント：ポートフォリオヘッダーで、ポートフォリオマネージャーをすばやく更新できます。 </p> </td> 
+      <td> <p>ポートフォリオマネージャーとして指定するユーザーの名前を入力し、リストに名前が表示されたらそれを選択します。 これは、[!UICONTROL Portfolio Owner]と同じです。 これは、ポートフォリオのプロジェクトで定義された作業を監視し、ビジネスケースを承認できる人です。</p> <p>重要：任意のユーザーをポートフォリオマネージャーに指定すると、ポートフォリオ、プログラムおよびポートフォリオ内のプロジェクトに対する[!UICONTROL Manage]権限が自動的に付与されます。 </p> <p>ヒント：ポートフォリオヘッダーで、ポートフォリオマネージャーをすばやく更新できます。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>グループがポートフォリオに関連付けられている場合、またはポートフォリオを完了する責任を持つ場合は、1 つのグループの名前を追加します。 </p> <p>ヒント：  <p>[!UICONTROL Portfolio Details]ページから「[!UICONTROL Group]」フィールドにアクセスする場合は、次の操作を行います。 </p> <p>適切なグループを選択していることを確認するには、グループにポインタを合わせて、横に表示される[!UICONTROL information]アイコン <img src="assets/info-icon.png"> をクリックします。グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>このオプションは、「[!UICONTROL Edit Portfolio]」ボックスでは使用できません。 </p> </p> </td> 
+      <td> <p>グループがポートフォリオに関連付けられている場合、またはポートフォリオを完了する責任を持つ場合は、1 つのグループの名前を追加します。 </p> <p>ヒント：  <p>[!UICONTROL Portfolio Details]ページから「[!UICONTROL Group]」フィールドにアクセスする場合は、次の操作を行います。 </p> <p>適切なグループを選択していることを確認するには、グループにポインタを合わせて、横に表示される[!UICONTROL information]アイコン <img src="assets/info-icon.png"> をクリックします。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>このオプションは、「[!UICONTROL Edit Portfolio]」ボックスでは使用できません。 </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL Alignment Scorecard]</p> </td> 
-      <td> <p>使用する整合性スコアカードをドロップダウンリストから選択します。スコアカードは、組織のミッション、価値、戦略目標を反映して確立されたポートフォリオの基準に対するプロジェクトの整合性を測定するために使用されます。詳しくは、<a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">プロジェクトにスコアカードを適用し、整合性スコアを生成</a>および<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">スコアカードを作成</a>を参照してください。</p> </td> 
+      <td> <p>使用する整合性スコアカードをドロップダウンリストから選択します。 スコアカードは、組織のミッション、価値、戦略目標を反映して確立されたポートフォリオの基準に対するプロジェクトの整合性を測定するために使用されます。 詳しくは、<a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">プロジェクトにスコアカードを適用し、整合性スコアを生成</a>および<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">スコアカードを作成</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Is Active]</td> 
-      <td> <p> ポートフォリオをアクティブにする場合は、このチェックボックスを選択します。他のユーザーが、プロジェクトの作成時や編集時に、アクティブなポートフォリオを見つけてプロジェクトに添付することができます。非アクティブなポートフォリオは、プロジェクトに添付できません。これはデフォルトで有効になっています。</p> </td> 
+      <td> <p> ポートフォリオをアクティブにする場合は、このチェックボックスを選択します。 他のユーザーが、プロジェクトの作成時や編集時に、アクティブなポートフォリオを見つけてプロジェクトに添付することができます。 非アクティブなポートフォリオは、プロジェクトに添付できません。 これはデフォルトで有効になっています。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -221,7 +227,7 @@ Old:
 
    >[!NOTE]
    >
-   >[!DNL Workfront] の管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。カスタムフォームのセクション内のフィールドを編集する権限は、ポートフォリオ自体に対する権限によって異なります。カスタムフォームのセクションに対する権限の設定について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   >[!DNL Workfront] の管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。 カスタムフォームのセクション内のフィールドを編集する権限は、ポートフォリオ自体に対する権限によって異なります。 カスタムフォームのセクションに対する権限の設定について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. [!UICONTROL **保存**]&#x200B;をクリックして、次のセクションの編集を続行します。
 
@@ -230,7 +236,7 @@ Old:
 1. 上記の説明に従って、ポートフォリオの編集を開始します。
 1. 「**[!UICONTROL コメント]**」をクリックします。
 
-   ![&#x200B; ポートフォリオコメントボックスを編集](assets/comment-box-edit-portfolio-classic-350x227.png)
+   ![ ポートフォリオコメントボックスを編集](assets/comment-box-edit-portfolio-classic-350x227.png)
 
 1. 「**[!UICONTROL ポートフォリオに更新を追加]**」フィールドにコメントを追加します。
 1. （オプション）**[!UICONTROL ユーザー]**&#x200B;アイコンをクリックして、コメントにユーザーまたはチームを追加します。

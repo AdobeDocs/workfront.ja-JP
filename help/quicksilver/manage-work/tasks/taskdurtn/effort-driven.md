@@ -2,43 +2,49 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 期間タイプの概要：作業優先
-description: 残存作業時間の優先は、Adobe Workfront のタスクに設定できる期間タイプです。Workfront の期間タイプに関する一般情報については、タスク期間の概要と期間タイプを参照してください。
+title: 期間タイプの概要：労力主導
+description: 残存作業時間の優先は、Adobe Workfront のタスクに設定できる期間タイプです。 Workfront の期間タイプに関する一般情報については、タスク期間の概要と期間タイプを参照してください。
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/AxjOzPG4nGMA7xGFD8P-Z3NF1HRGnOQXH4z6rwNCnV8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: 868
 ht-degree: 95%
 
 ---
 
 # 期間タイプの概要：作業優先
 
-残存作業時間の優先は、Adobe Workfront のタスクに設定できる期間タイプです。Workfront の期間タイプに関する一般情報については、[タスク期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
+残存作業時間の優先は、Adobe Workfront のタスクに設定できる期間タイプです。 Workfront の期間タイプに関する一般情報については、[タスク期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
 
 ## 残存作業時間の優先の期間タイプの概要
 
-Workfrontまたはグループ管理者は、システムまたはグループのデフォルトの期間タイプを作業量に基づいて設定できます。 この場合、すべての新しいタスクはこの期間タイプで作成されます。 システムレベルまたはグループレベルのプロジェクト環境設定の一部として、タスクやイシューの環境設定を変更する方法については、[システム全体のタスクとイシュー環境を設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+Workfrontまたはグループ管理者は、システムまたはグループのデフォルトの期間タイプを「労力駆動型」に設定できます。 この場合、すべての新しいタスクは、この期間タイプで作成されます。 システムレベルまたはグループレベルのプロジェクト環境設定の一部として、タスクやイシューの環境設定を変更する方法については、[システム全体のタスクとイシュー環境を設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
 このシナリオでは、プロジェクトマネージャーとして、タスクが実際に残存作業時間の優先のタスクかどうかを検討する時間を取らない限り、プロジェクトプランが恣意的に短縮されるリスクがあります。
 
 残存作業時間の優先は以下の目的で使用します：
 
-* タスクに取り掛かる際に利用できるリソースの数に基づいて、予定期間を決定します。期間は予定時間数と等しくなります。予定期間は、予定時間数を担当者数で割った値と等しくなります。
+* タスクに取り掛かる際に利用できるリソースの数に基づいて、予定期間を決定します。 期間は予定時間数と等しくなります。 予定期間は、予定時間数を担当者数で割った値と等しくなります。
 
   タスクに振り向けられる労力のレベルによって、分業と期間が決まります。
 
 * 複数のリソースが割り当てられた場合に、1 つのタスクに費やされた合計時間数を追跡します。
 
-  リソースが追加されると、タスクの予定期間が短くなります。（「人手が多ければ仕事は軽くなる」の原則が、この期間タイプがタスクの計画期間に与える影響を表しています。）
+  リソースが追加されると、タスクの予定期間が短くなります。 （「人手が多ければ仕事は軽くなる」の原則が、この期間タイプがタスクの計画期間に与える影響を表しています。）
 
 以降の節では、Workfront が残存作業時間の優先のタスクの予定期間を計算する方法と、この期間タイプのタスクに対するリソース追加の効果について詳しく説明します。
 
 ## 残存作業時間の優先の期間タイプの数式の概要
 
-期間タイプが残存作業時間の優先のタスクに対する予定期間の計算式は、タスクに割り当てられた各リソースの割り当て率に応じて異なります。残存作業時間の優先のタスクの場合、Workfront はタスクの予定時間数を計算し、その時間数は常にタスクの期間と同じになります。
+期間タイプが残存作業時間の優先のタスクに対する予定期間の計算式は、タスクに割り当てられた各リソースの割り当て率に応じて異なります。 残存作業時間の優先のタスクの場合、Workfront はタスクの予定時間数を計算し、その時間数は常にタスクの期間と同じになります。
 
 ```
 Planned Hours (in hours) = Duration (in days)
@@ -46,11 +52,11 @@ Planned Hours (in hours) = Duration (in days)
 
 タスクの期間は手動で調整できます。
 
-Workfront は、1 日の勤務時間は 8 時間と想定しています。Workfront またはグループ管理者は、設定のプロジェクト環境設定で、作業日あたりの標準時間数の設定によって 1 日あたりの時間を定義します。システムレベルのプロジェクト環境設定の一部として、タスクやイシューの環境設定を変更する方法について詳しくは、[システム全体のタスクとイシューの環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+Workfront は、1 日の勤務時間は 8 時間と想定しています。 Workfront またはグループ管理者は、設定のプロジェクト環境設定で、作業日あたりの標準時間数の設定によって 1 日あたりの時間を定義します。 システムレベルのプロジェクト環境設定の一部として、タスクやイシューの環境設定を変更する方法について詳しくは、[システム全体のタスクとイシューの環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
 >[!TIP]
 >
->Workfront は、タスクに割り当てられた各リソースのスケジュールを考慮して、タスクに対する各リソースの割り当て率を決定します。スケジュールの作成とユーザーへの割り当てについて詳しくは、[スケジュールを作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
+>Workfront は、タスクに割り当てられた各リソースのスケジュールを考慮して、タスクに対する各リソースの割り当て率を決定します。 スケジュールの作成とユーザーへの割り当てについて詳しくは、[スケジュールを作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
 
 次のシナリオを考慮してください。
 
@@ -65,7 +71,7 @@ Workfront は、1 日の勤務時間は 8 時間と想定しています。Workf
 Planned Duration = (Planned Hours / Number of Resources) / 8
 ```
 
-この計算は、通常の作業日の時間数を 8 としています。数式にはこの値が含まれているので、予定期間は日数で表示されます。
+この計算は、通常の作業日の時間数を 8 としています。 数式にはこの値が含まれているので、予定期間は日数で表示されます。
 
 ### リソースがタスクに対し時間について様々な割合で割り当てられている {#resources-are-allocated-for-various-percentages-of-time-to-the-task}
 
@@ -75,17 +81,17 @@ Planned Duration = (Planned Hours / Number of Resources) / 8
 Planned Duration = (Planned Hours / SUM(Percent allocation for each resource for the task)) / 8
 ```
 
-この計算は、通常の作業日の時間数を 8 としています。数式にはこの値が含まれているので、予定期間は日数で表示されます。
+この計算は、通常の作業日の時間数を 8 としています。 数式にはこの値が含まれているので、予定期間は日数で表示されます。
 
 ## タスクにさらにリソースを追加したときの効果
 
-残存作業時間の優先の期間タイプであるタスクに担当者を追加または削除しても、期間と予定時間数は、変更されません。ただし、予定期間は変更されます。
+残存作業時間の優先の期間タイプであるタスクに担当者を追加または削除しても、期間と予定時間数は、変更されません。 ただし、予定期間は変更されます。
 
-次の例では、システム設定のプロジェクト環境設定で、作業日あたりの標準時間数が 8 に設定されています。期間が 3 日なので、予定時間数は 24（3 日 x 8 時間/作業日 = 24 時間予定）に設定されます。
+次の例では、システム設定のプロジェクト環境設定で、作業日あたりの標準時間数が 8 に設定されています。 期間が 3 日なので、予定時間数は 24（3 日 x 8 時間/作業日 = 24 時間予定）に設定されます。
 
 >[!NOTE]
 >
->固定日付のタスク制約を使用すると、担当者を追加または削除しても予定期間は変わらず、代わりに期間と予定時間数が調整されます。固定日付以外のタスク制約を使用すると、予定期間が調整されます。
+>固定日付のタスク制約を使用すると、担当者を追加または削除しても予定期間は変わらず、代わりに期間と予定時間数が調整されます。 固定日付以外のタスク制約を使用すると、予定期間が調整されます。
 
 次の表に、リソースをタスクに追加する際の予定期間の変化を示します。
 

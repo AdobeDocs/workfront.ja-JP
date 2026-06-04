@@ -7,11 +7,14 @@ description: Adobe Workfront のチームの目的は、機能的作業グルー
 author: Courtney
 feature: People Teams and Groups
 exl-id: c62c0789-2aaa-4091-9c45-b9e7801043a9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/1UmuxK2ww03yjRPKdrmGLIvMbECx1ZGTGSXOi-xhqA0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: 239
 ht-degree: 99%
 
 ---
@@ -22,18 +25,18 @@ ht-degree: 99%
 
 [!DNL Adobe Workfront] のチームの目的は、各部署の職場での実際の動きを捉えることです。
 
-グループの代わりにチームを使用する方法について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md) のグループとチームを参照してください。
+グループの代わりにチームを使用する方法について詳しくは、[ [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md) のグループとチームを参照してください。
 
 ## チームの編成
 
-[!DNL Workfront Team] は、プロジェクトチームとは異なります。[!DNL Workfront] チームには、多様な担当業務や様々な目的を持つ個人が含まれ、それぞれが機能的に関連し、作業単位に編成されます。1 個人が複数のチームに属することができます。チームメンバーは、組織図の関係に一致する場合もありますが、部門構造の外にも出現する可能性があります。
+[!DNL Workfront Team] は、プロジェクトチームとは異なります。 [!DNL Workfront] チームには、多様な担当業務や様々な目的を持つ個人が含まれ、それぞれが機能的に関連し、作業単位に編成されます。 1 個人が複数のチームに属することができます。 チームメンバーは、組織図の関係に一致する場合もありますが、部門構造の外にも出現する可能性があります。
 
 ## チームの作成
 
-チームは通常、[!DNL Workfront] 管理者によって作成されますが、適切なアクセス権を持つユーザーもチームを作成できます。チームを作成すると、プロジェクトマネージャーは、個人の役割や担当業務を決める代わりに、チーム全体をタスクに割り当てることができます。詳しくは、[チームの作成](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md)を参照してください。
+チームは通常、[!DNL Workfront] 管理者によって作成されますが、適切なアクセス権を持つユーザーもチームを作成できます。 チームを作成すると、プロジェクトマネージャーは、個人の役割や担当業務を決める代わりに、チーム全体をタスクに割り当てることができます。 詳しくは、[チームの作成](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md)を参照してください。
 
 ## チームの割り当て
 
 プロジェクトマネージャーは、どの個人が割り当てを完了するかを必ずしも把握しているわけではありません。特定の作業単位またはチームが、その特定の性質の作業を完了するだけです。
 
-割り当てられたチームのメンバーは、[!UICONTROL チーム]／[!UICONTROL チーム]リクエストエリアに移動して、チームに割り当てられたタスクを確認することもできます。メンバーは、タスクの影響を評価し、自発的に取り組むことができます。詳しくは、[チームリクエストの概要](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md)を参照してください。
+割り当てられたチームのメンバーは、[!UICONTROL チーム]／[!UICONTROL チーム]リクエストエリアに移動して、チームに割り当てられたタスクを確認することもできます。 メンバーは、タスクの影響を評価し、自発的に取り組むことができます。 詳しくは、[チームリクエストの概要](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md)を参照してください。

@@ -6,16 +6,22 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e5c347ef-aa14-4607-bf30-11b2812ff40d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/JC94s1IIM29BndpOtNC2jt6yN-zitFYe-MRGkhqXZ08
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: 286
 ht-degree: 100%
 
 ---
 
 # 22.4 リリース期間枠でのルックアンドフィールの更新
 
-このページでは、22.4 リリース時間枠内に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対するマイナー更新について説明します。これらの機能強化はプレビューにリリース後、最低 2 週間で実稼動環境で利用できるようになります。
+このページでは、22.4 リリース時間枠内に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対するマイナー更新について説明します。 これらの機能強化はプレビューにリリース後、最低 2 週間で本番環境で利用できるようになります。
 
 22.4 リリースで利用可能なすべての変更点の一覧については、[22.4 リリースの概要](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)を参照してください。
 
@@ -31,7 +37,7 @@ ht-degree: 100%
 >
 >プレビューリリース：2022年7月21日（PT）、実稼動リリース：2022年8月18日（PT）
 
-カスタムフォームエリアのリストが、Workfront 全体の他のほとんどのリストと同様に、最新のルックアンドフィールになりました。この更新でクイックフィルターが追加され、これにより、レビュー、編集または共有の必要なカスタムフォームのみを一覧表示できるようになりました。
+カスタムフォームエリアのリストが、Workfront 全体の他のほとんどのリストと同様に、最新のルックアンドフィールになりました。 この更新でクイックフィルターが追加され、これにより、レビュー、編集または共有の必要なカスタムフォームのみを一覧表示できるようになりました。
 
 ## 更新されたリストとレポート
 

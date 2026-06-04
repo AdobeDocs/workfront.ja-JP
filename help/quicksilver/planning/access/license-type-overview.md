@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
+TQID: https://experienceleague.adobe.com/2V2i9ZZOyQ6gShXK-QUKDeCZCxcrbYwb8-mn-9kQbc8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: 650
 ht-degree: 6%
 
 ---
-
 
 # Adobe Workfront Planning 使用時のライセンスタイプの概要
 
@@ -79,7 +81,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 >
 >共有ボックスには、ユーザーが下位レベルのライセンスを保持している場合に、ワークスペースに対して貢献または管理する権限をユーザーに付与できないという表示があります。これらの権限レベルはグレー表示されます。
 >
->![&#x200B; ワークスペース上のコントリビューターユーザーの権限がグレー表示される](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+>![ ワークスペース上のコントリビューターユーザーの権限がグレー表示される](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### ライセンスの種類と表示の権限
@@ -98,4 +100,4 @@ For more information, see [Access requirements in Workfront documentation](/help
 >
 >共有ボックスには、ユーザーが下位レベルのライセンスを保持している場合、これらの権限レベルがグレー表示されるため、ビューを管理するための権限をユーザーに付与できないという表示があります。
 >
->![&#x200B; ビュー共有のライトユーザーの権限がグレー表示される](assets/permissions-grayed-out-for-light-user.png)
+>![ ビュー共有のライトユーザーの権限がグレー表示される](assets/permissions-grayed-out-for-light-user.png)

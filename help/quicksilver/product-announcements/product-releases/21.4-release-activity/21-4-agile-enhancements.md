@@ -5,9 +5,12 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/Y-y7BSMD-4NVL4G5hleSgZZmXKRjir4voenmbggO-AU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: 412
 ht-degree: 80%
 
 ---
@@ -41,7 +44,7 @@ ht-degree: 80%
 >
 >この機能は、2021年9月16日（PT）にプレビュー環境にリリースされました。
 
-21.3 リリースの一部として、アジャイルカードヘッダーとストーリーボードを改善しました（[&#x200B; アジャイルカードヘッダーとストーリーボードの更新](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)を参照）。 これらの更新は、プロジェクトのアジャイルビューだけでなく、イテレーションにも適用されました。
+21.3 リリースの一部として、アジャイルカードヘッダーとストーリーボードを改善しました（[ アジャイルカードヘッダーとストーリーボードの更新](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)を参照）。 これらの更新は、プロジェクトのアジャイルビューだけでなく、イテレーションにも適用されました。
 
 21.4 リリースでは、プロジェクトのアジャイルビューに関するこれらの機能強化を元に戻しています。 アジャイルイテレーションは変更されません。
 

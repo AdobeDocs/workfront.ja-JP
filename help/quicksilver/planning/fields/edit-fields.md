@@ -6,15 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
+TQID: https://experienceleague.adobe.com/chdwrI5WTrdmeuqsWI5WydiLLzcp5Rq-hDsILudO-P0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: 1087
 ht-degree: 23%
 
 ---
-
 
 # フィールド設定の編集
 
@@ -65,7 +70,7 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++     
 
@@ -152,7 +157,7 @@ Old:
   >フィールド設定が変更されたことを他のユーザーに通知しません。
 
 * 接続されたレコードから既存のルックアップフィールドを編集できます。
-* この記事の「[&#x200B; フィールド設定を編集](#edit-field-settings-1)」セクションで説明されているようにフィールドを編集するだけでなく、フィールド値を更新しながら、テーブルビューでレコードを編集する際に、1つまたは複数の選択フィールドの選択肢を編集することもできます。 詳しくは、この記事の「[&#x200B; テーブルビューでレコードを編集する際に既存の選択フィールドに新しい選択肢を追加する](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)」セクションを参照してください。
+* この記事の「[ フィールド設定を編集](#edit-field-settings-1)」セクションで説明されているようにフィールドを編集するだけでなく、フィールド値を更新しながら、テーブルビューでレコードを編集する際に、1つまたは複数の選択フィールドの選択肢を編集することもできます。 詳しくは、この記事の「[ テーブルビューでレコードを編集する際に既存の選択フィールドに新しい選択肢を追加する](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)」セクションを参照してください。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -182,7 +187,7 @@ this is not yet true, but it might come later:
 
    フィールドの列ヘッダーをダブルクリックします。
 
-   ![&#x200B; テーブルヘッダーのフィールド名の後の矢印メニューが強調表示される](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![ テーブルヘッダーのフィールド名の後の矢印メニューが強調表示される](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. フィールドに関する情報を更新し、「**保存**」をクリックします。
 
@@ -226,7 +231,7 @@ this is not yet true, but it might come later:
 
 「新規」および「クローズ」の選択肢を持つ「ステータス」という単一選択フィールドがあり、進行中ステータスの選択肢を追加する場合があります。 次のいずれかの操作を行って、選択肢を追加できます。
 
-* フィールドの編集。 詳しくは、この記事の「[&#x200B; フィールド設定を編集](#edit-field-settings-1)」の節を参照してください。
+* フィールドの編集。 詳しくは、この記事の「[ フィールド設定を編集](#edit-field-settings-1)」の節を参照してください。
 * 以下の説明に従って、テーブルビューでレコードを編集する際に新しいオプションを追加します。
 
 レコードを編集する際に、既存の選択フィールドに新しい選択肢を追加するには、次の手順に従います。
@@ -236,7 +241,7 @@ this is not yet true, but it might come later:
 1. フィールドのセルをダブルクリックして、フィールドのインライン編集を開始します。
 1. 追加する選択肢の名前を入力し、**選択肢を追加**&#x200B;をクリックします。
 
-   ![&#x200B; テーブルビューの単一選択フィールドに選択肢を追加](assets/add-choice-in-table-view-for-single-select-field.png)
+   ![ テーブルビューの単一選択フィールドに選択肢を追加](assets/add-choice-in-table-view-for-single-select-field.png)
 
    新しい選択肢は、すぐに単一選択フィールドに追加されます。
 

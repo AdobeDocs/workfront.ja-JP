@@ -3,21 +3,24 @@ content-type: release-notes
 keywords: メモ、四半期、更新
 navigation-topic: product-releases
 title: 21.1 拡張分析の強化
-description: このページでは、プレビュー環境の 21.1 リリースで行われたプロジェクト管理のすべての機能強化について説明します。これらの機能強化は、2021年2月15日（PT）の週に実稼動環境で利用可能になる予定です。
+description: このページでは、プレビュー環境の 21.1 リリースで行われたプロジェクト管理のすべての機能強化について説明します。 これらの機能強化は、2021年2月15日（PT）の週に本番環境で利用可能になる予定です。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+TQID: https://experienceleague.adobe.com/1FJvcMWpKrjeSiDZlX9N9Bkl4VC4aDy7QmNg17CKYvs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: 273
 ht-degree: 100%
 
 ---
 
 # 21.1 拡張分析の強化
 
-このページでは、プレビュー環境の 21.1 リリースで行われたプロジェクト管理のすべての機能強化について説明します。これらの機能強化は、2021年2月15日（PT）の週に実稼動環境で利用可能になる予定です。
+このページでは、プレビュー環境の 21.1 リリースで行われたプロジェクト管理のすべての機能強化について説明します。 これらの機能強化は、2021年2月15日（PT）の週に本番環境で利用可能になる予定です。
 
 21.1 リリースで使用可能なすべての変更点の一覧については、[21.1 リリースの概要](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)を参照してください。
 
@@ -25,7 +28,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この変更は、レイアウトテンプレートに新しく追加されたユーザーにのみ適用されます。カスタムレイアウトテンプレートに割り当てられたユーザーも、この変更による影響を受けません。
+>この変更は、レイアウトテンプレートに新しく追加されたユーザーにのみ適用されます。 カスタムレイアウトテンプレートに割り当てられたユーザーも、この変更による影響を受けません。
 
 デフォルトのレイアウトテンプレートでは、分析エリアがデフォルトで有効になりました。つまり、このレイアウトテンプレートに割り当てられたユーザーは、Adobe Workfront Classic のグローバルナビゲーションバーの分析エリアおよび新しい Adobe Workfront エクスペリエンスのメインメニューを確認できるようになりました。
 
@@ -34,12 +37,12 @@ ht-degree: 100%
 
 クラスターのお客様を含む、すべての Workfront クラスターで拡張分析を利用できます。
 
-以前は、Google Cloud Platform で拡張分析が使用できず、クラスター 6 のお客様が Analytics エリアにアクセスできなくなっていました。クラスター 6 の Business および Enterprise のお客様が分析エリアにアクセスできるようになりました。
+以前は、Google Cloud Platform で拡張分析が使用できず、クラスター 6 のお客様が Analytics エリアにアクセスできなくなっていました。 クラスター 6 の Business および Enterprise のお客様が分析エリアにアクセスできるようになりました。
 
 
 ## すべてのクラスターでユーザーページを利用できるようになりました
 
-クラスター 4 のWorkfront Classic で、ユーザーページが使用できるようになりました。このページには、次のグラフが含まれます。
+クラスター 4 のWorkfront Classic で、ユーザーページが使用できるようになりました。 このページには、次のグラフが含まれます。
 
 * チームごとのアクティビティ
 * リソースのキャパシティ

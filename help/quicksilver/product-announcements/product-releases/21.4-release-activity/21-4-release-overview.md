@@ -8,9 +8,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/vwgAQJSe18Esj-O1VLnjZf6jCuJSXk4O-WVjCoDRHuI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4862'
+source-wordcount: 4862
 ht-degree: 98%
 
 ---
@@ -56,7 +62,7 @@ unless otherwise specifiedthe week of May 10, 2021.
 </MadCap:conditionalText>
 
 
-For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/ja-jp/products/5943) on [status.adobe.com](http://status.adobe.com/ja-jp/). You must log in to see specific release times.
+For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/en/products/5943) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
 
 -->
 
@@ -344,7 +350,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#link" class="MCXref xref" xrefformat="{para}">Dropbox Business からドキュメントをリンク</a> </p> <p>利用可能なドキュメント統合として Dropbox Business を追加しました。 Dropbox Business に保存したドキュメントに Workfront 内から直接アクセスできるようになりました。</p> <p>Dropbox Business では、共有ドキュメントをリンクしたり、ドキュメントを共有フォルダーにアップロードしたりできます。 Dropbox（Dropbox Business ではありません）では、ドキュメントの所有者のみが Workfront でドキュメントを表示できます。</p> <p>Workfront 管理者は、組織に対してこの統合を有効にすることができます。</p> </td> 
-   <td> <p><b>公開日：</b> </p> <p>プレビューリリース：該当なし<br></p> <p>実稼動版リリース： 21.4 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><b>次の日程で利用できます。</b> </p> <p>プレビューリリース：該当なし<br></p> <p>実稼動版リリース： 21.4 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-integration-enhancements.md#updates" class="MCXref xref" xrefformat="{para}">Workfront for Slack の更新</a> </p> <p>次の更新が Workfront for Slack 統合に表示されるようになりました。</p> <p>Workfront for Slack 統合のルックアンドフィールが新しくなりました。 また、Workfront for Slack の通知をリアルタイムで受信できるようになりました。 </p> <p>例えば、タスクに割り当てられている場合は、割り当てられるとすぐに通知を受け取ります。 </p> <p>以前は、通知が Slack に表示されるまでに遅延が生じる可能性がありました。</p> </td> 

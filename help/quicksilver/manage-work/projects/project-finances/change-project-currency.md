@@ -2,20 +2,26 @@
 product-area: projects
 navigation-topic: financials
 title: プロジェクトの通貨の変更
-description: プロジェクトマネージャーは、Adobe Workfront システムのデフォルト通貨以外の通貨を使用するようにプロジェクトを設定できます。これにより、労力コストと収益を計算する際に、プロジェクトの財務情報を目的の通貨で表示できます。
+description: プロジェクトマネージャーは、Adobe Workfront システムのデフォルト通貨以外の通貨を使用するようにプロジェクトを設定できます。 これにより、労力コストと収益を計算する際に、プロジェクトの財務情報を目的の通貨で表示できます。
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+TQID: https://experienceleague.adobe.com/oI3Fu9-AAnKYBbnaI-7BNWWd5Js6eUpvwVQtEWJVPiY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: 570
 ht-degree: 86%
 
 ---
 
 # プロジェクト通貨の変更
 
-プロジェクトマネージャーは、Adobe Workfront システムのデフォルト通貨以外の通貨を使用するようにプロジェクトを設定できます。これにより、労力コストと収益を計算する際に、プロジェクトの財務情報を目的の通貨で表示できます。
+プロジェクトマネージャーは、Adobe Workfront システムのデフォルト通貨以外の通貨を使用するようにプロジェクトを設定できます。 これにより、労力コストと収益を計算する際に、プロジェクトの財務情報を目的の通貨で表示できます。
 
 この節で説明されているように代替通貨を使用する前に、[為替レートの設定](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)の記事の説明に従って、Workfront 管理者はまず複数の通貨を有効にして設定する必要があります。
 
@@ -56,11 +62,11 @@ ht-degree: 86%
 
 * プロジェクトに既に財務情報が存在する場合、プロジェクト通貨は変更できません。
 * 料金は、人件費、収益計算、レポート作成などに使用されます。
-* 1 つのプロジェクトに異なる通貨を指定しない場合、Workfront は、そのプロジェクトの通貨がシステムのデフォルトの通貨であると見なします。システムレベルのデフォルト通貨について詳しくは、[為替レートの設定](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)を参照してください。
-* デフォルトでは、すべてのフルライセンスユーザーが通貨と為替レートを表示に対するアクセス権を持っています。Workfront 管理者は、ユーザーがプロジェクトに特定のレートを設定できるように、**為替レート**&#x200B;に対する追加の管理アクセス権を付与する必要があります。
-* Workfront の為替レートは動的ではありません。管理者がこの値を設定し、為替レートの変動が発生した場合に更新する必要があります。
+* 1 つのプロジェクトに異なる通貨を指定しない場合、Workfront は、そのプロジェクトの通貨がシステムのデフォルトの通貨であると見なします。 システムレベルのデフォルト通貨について詳しくは、[為替レートの設定](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)を参照してください。
+* デフォルトでは、すべてのフルライセンスユーザーが通貨と為替レートを表示に対するアクセス権を持っています。 Workfront 管理者は、ユーザーがプロジェクトに特定のレートを設定できるように、**為替レート**&#x200B;に対する追加の管理アクセス権を付与する必要があります。
+* Workfront の為替レートは動的ではありません。 管理者がこの値を設定し、為替レートの変動が発生した場合に更新する必要があります。
 * 通貨とその為替レートに有効な日付が適用されている場合、プロジェクトの期間中に為替レートが変更される可能性があります。 有効期限切れの為替レートについて詳しくは、[為替レートの設定](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)を参照してください。
-* プロジェクトに通貨を反映させるレポートを作成すると、デフォルトでは、すべてのレポートがプロジェクトのデフォルト通貨でグループ化されます。異なる為替レートを持つ複数のプロジェクトでレポートを作成する場合、プロジェクトに適用したグループは、システムレベルでのデフォルトの為替レートを反映します。詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
+* プロジェクトに通貨を反映させるレポートを作成すると、デフォルトでは、すべてのレポートがプロジェクトのデフォルト通貨でグループ化されます。 異なる為替レートを持つ複数のプロジェクトでレポートを作成する場合、プロジェクトに適用したグループは、システムレベルでのデフォルトの為替レートを反映します。 詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
 
 ## プロジェクト通貨の設定
 
@@ -68,17 +74,17 @@ ht-degree: 86%
 
    >[!TIP]
    >
-   >プロジェクトに財務情報がまだ含まれていないことを確認します。例えば、プロジェクトに予定コストまたは実際のコストが関連付けられていないことを確認します。
+   >プロジェクトに財務情報がまだ含まれていないことを確認します。 例えば、プロジェクトに予定コストまたは実際のコストが関連付けられていないことを確認します。
 
 1. 左側のパネルで「**プロジェクト詳細**」をクリックして、**財務情報**&#x200B;エリアに移動します。
-1. 「**通貨**」フィールドの「**追加**」をクリックし、プロジェクトのデフォルト通貨として使用する通貨を選択します。Workfront 管理者が Workfront インスタンスに設定したすべての通貨が表示されます。
+1. 「**通貨**」フィールドの「**追加**」をクリックし、プロジェクトのデフォルト通貨として使用する通貨を選択します。 Workfront 管理者が Workfront インスタンスに設定したすべての通貨が表示されます。
 
-   ![&#x200B; プロジェクトの通貨](assets/currency-on-project.png)
+   ![ プロジェクトの通貨](assets/currency-on-project.png)
 
 1. （条件付き）Workfront システムに設定されているデフォルト通貨以外の通貨を選択する場合は、システムで基準通貨として設定される通貨との関連で、選択した通貨のレートを指定します。
 
    >[!NOTE]
    >
-   >このプロジェクトで「**システムから日付有効な為替レートを使用」設定がオンになっている場合、為替レートの上書きは許可されません。**&#x200B;詳しくは、[プロジェクトを編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)を参照してください。
+   >このプロジェクトで「**システムから日付有効な為替レートを使用」設定がオンになっている場合、為替レートの上書きは許可されません。**&#x200B;詳しくは、[プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
 1. 「**変更を保存**」をクリックします。

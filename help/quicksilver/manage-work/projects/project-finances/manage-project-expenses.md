@@ -2,14 +2,20 @@
 product-area: projects
 navigation-topic: financials
 title: プロジェクト費用の管理
-description: 費用の作成と管理のプロセスは、プロジェクト関連費用とタスク関連費用の両方で同じです。ビジネスケースでプロジェクトに追加された費用は、予定費用として「費用」タブに追加されます。
+description: 費用の作成と管理のプロセスは、プロジェクト関連費用とタスク関連費用の両方で同じです。 ビジネスケースのプロジェクトに追加された費用は、計画費用として「費用」タブに追加されます。
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
+TQID: https://experienceleague.adobe.com/b6lcN97EhJ4bD8w12SRE9TGLycM9Y8Si8ZSm8VBlHlA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 37%
+source-wordcount: 499
+ht-degree: 41%
 
 ---
 
@@ -17,7 +23,7 @@ ht-degree: 37%
 
 <!-- Audited: 6/2025 -->
 
-費用の作成と管理のプロセスは、プロジェクト関連費用とタスク関連費用の両方で同じです。ビジネスケースのプロジェクトに追加された費用は、計画費用として「費用」タブに追加されます。詳しくは、[&#x200B; プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
+費用の作成と管理のプロセスは、プロジェクト関連費用とタスク関連費用の両方で同じです。 ビジネスケースのプロジェクトに追加された費用は、計画費用として「費用」タブに追加されます。 詳しくは、[ プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
 すべてのタスクとプロジェクトからの費用の合計金額は、プロジェクトの総コストに貢献します。 費用の予定金額はプロジェクトの予定コストに貢献し、費用の実際の金額はプロジェクトの実際のコストに貢献します。
 
@@ -68,7 +74,7 @@ ht-degree: 37%
 
    * **実際の金額：**&#x200B;費用の実際のコストの金額を入力します。 これは、プロジェクトの実際のコストに影響します。
 
-   * **予定日：**&#x200B;費用が発生する予定日を入力します。 *mm/dd/yy*&#x200B;形式を使用してフィールドに日付を入力するか、**カレンダー** アイコン ![&#x200B; カレンダーアイコン &#x200B;](assets/calendar-icon.png)をクリックして、日付を動的に選択できます。
+   * **予定日：**&#x200B;費用が発生する予定日を入力します。 *mm/dd/yy*&#x200B;形式を使用してフィールドに日付を入力するか、**カレンダー** アイコン ![ カレンダーアイコン ](assets/calendar-icon.png)をクリックして、日付を動的に選択できます。
 
    * **支払日：**&#x200B;費用を支払った日付を入力または選択します。
    * **請求可能：**&#x200B;この費用を請求する場合は、このオプションを選択します。 請求記録を作成する際は、費用を請求可能として分類することが重要です。
@@ -78,7 +84,7 @@ ht-degree: 37%
 
    >[!NOTE]
    >
-   >費用に関連付けるには、カスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   >費用に関連付けるには、カスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。 カスタムフォームの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 「**保存**」をクリックします。
 

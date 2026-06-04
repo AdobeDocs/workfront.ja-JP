@@ -2,14 +2,20 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: タスク制約の概要：指定日以後に開始
+title: タスクの制約の概要：開始が遅くない場合
 description: 指定日までに開始（SNLT）は、指定した日付より前にタスクを開始するようにスケジュールを設定するタスクの制約です。
 author: Alina
 feature: Work Management
 exl-id: 86139ce6-c6b1-4ac4-a5cb-fd4aa899a025
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/eX2KAzQkOb0AmYcR5Zc6SPeySBTDKjM74QYi7ox4A0w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: 436
 ht-degree: 90%
 
 ---
@@ -20,10 +26,10 @@ ht-degree: 90%
 
 SNLT 制約を使用する際は、次の点に注意してください。
 
-* プロジェクトが完了日以降にスケジュール設定されている場合は、指定日までに開始制約を使用する必要があります。この場合、タスクにソフト制約を指定してから、他の依存タスクをリスクとして強制的に表示させることができます。
-* プロジェクトで「完了日からスケジュール」のスケジュール・モードを使用し、タスクの「開始日」にシステムまたはグループのデフォルトが「今日」の場合のデフォルト制約は、「指定日までに開始」です。 新しいタスクのデフォルトの制約を設定する場所については、[システム全体のタスクとイシューの環境設定を指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+* プロジェクトが完了日以降にスケジュール設定されている場合は、指定日までに開始制約を使用する必要があります。 この場合、タスクにソフト制約を指定してから、他の依存タスクをリスクとして強制的に表示させることができます。
+* プロジェクトで完了日からのスケジュール モードを使用し、タスクの開始日が今日の場合はシステムまたはグループのデフォルトのスケジュール モードを使用する場合は、「後で開始」がデフォルトの制約になります。 新しいタスクのデフォルトの制約を設定する場所については、[システム全体のタスクとイシューの環境設定を指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 * 開始日からスケジュールプロジェクトで SNLT 制約を使用すると、Adobe Workfront はできるだけ早くタスクと同様にタスクをスケジュール設定します。
-* SNLT 制約のあるタスクを別のプロジェクトに移動またはコピーすると、制約の日付およびプロジェクトの開始日と完了日によって、タスクの制約またはプロジェクトの日付が変更される可能性があります。次のシナリオが存在します。
+* SNLT 制約のあるタスクを別のプロジェクトに移動またはコピーすると、制約の日付およびプロジェクトの開始日と完了日によって、タスクの制約またはプロジェクトの日付が変更される可能性があります。 次のシナリオが存在します。
 
    * 宛先プロジェクトが開始からスケジュールされている場合：
 

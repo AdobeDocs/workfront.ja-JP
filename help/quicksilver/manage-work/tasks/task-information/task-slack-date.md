@@ -3,14 +3,20 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: タスクのSlack日の概要
-description: タスクは、プロジェクトの完了日に影響を与えずに、遅れて開始および完了する場合があります。 余裕日には、タスクがプロジェクトの完了日に確実に影響を与える可能性がある正確な日付が表示されます。
+description: タスクの開始や完了が遅れても、プロジェクトの完了日に影響を及ぼさないことがあります。 余裕日には、タスクがプロジェクトの完了日に確実に影響を与える可能性がある正確な日付が表示されます。
 author: Alina
 feature: Work Management
 exl-id: ccdaa27d-e212-45dc-afca-08539f2b4001
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+TQID: https://experienceleague.adobe.com/p2lKXWr-25jYKmV38ifdEJcyJf72FZMYRccaNiD5gTw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 93%
+source-wordcount: 273
+ht-degree: 98%
 
 ---
 
@@ -32,7 +38,7 @@ ht-degree: 93%
 
   タスクの進捗状態については、[タスクの進捗状態の概要](../../../manage-work/tasks/task-information/task-progress-status.md)を参照してください。
 
-* クリティカルパス上にないタスクの場合は、タスクのスケジュールが早まるほど、空き時間が長くなります。このようなタスクの場合、タスクが遅くなり過ぎてプロジェクトの完了日に影響を与え始めるまで、余裕日は将来の日付のままです。
+* クリティカルパス上にないタスクの場合は、タスクのスケジュールが早まるほど、空き時間が長くなります。 このようなタスクの場合、タスクが遅くなり過ぎてプロジェクトの完了日に影響を与え始めるまで、余裕日は将来の日付のままです。
 
 ## タスクの余裕日を特定
 

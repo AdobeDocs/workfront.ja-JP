@@ -6,9 +6,15 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/Q9UvbhfVxQJHx33r1PYHaAcu5UGPO-1ae2qHLf25bDE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: 920
 ht-degree: 99%
 
 ---
@@ -77,7 +83,7 @@ Workfront の使用を新しい Workfront エクスペリエンスと一致さ�
 
 詳しくは、[タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
 
-![期間フィールド &#x200B;](assets/duration-combined-field-350x139.png)
+![期間フィールド ](assets/duration-combined-field-350x139.png)
 
 ## プロジェクト上でのイシューのインライン追加を無効にする
 

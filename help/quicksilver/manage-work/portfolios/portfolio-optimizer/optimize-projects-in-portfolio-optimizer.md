@@ -2,22 +2,28 @@
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
 title: ポートフォリオオプティマイザーでのプロジェクトの最適化
-description: '[!UICONTROL ポートフォリオオプティマイザー]を使用すると、スコアやその他の値に基づいてプロジェクトに優先順位を付けることができます。オプティマイザーは、コスト、調整、リスク、ROI などの重要なプロジェクト情報を考慮して、ユーザーにとって何がより重要であるかに従ってプロジェクトに優先順位を付けます。'
+description: '[!UICONTROL ポートフォリオオプティマイザー]を使用すると、スコアやその他の値に基づいてプロジェクトに優先順位を付けることができます。 オプティマイザーは、コスト、調整、リスク、ROI などの重要なプロジェクト情報を考慮して、ユーザーにとって何がより重要であるかに従ってプロジェクトに優先順位を付けます。'
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/wqO-t0Dkv7DPC8eM32opBpRcrF9nM1pm3XLIkVuYlmQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: 456
 ht-degree: 87%
 
 ---
 
 # [!UICONTROL ポートフォリオオプティマイザー]でプロジェクトを最適化
 
-[!UICONTROL ポートフォリオオプティマイザー]を使用すると、スコアやその他の値に基づいてプロジェクトに優先順位を付けることができます。[!UICONTROL オプティマイザー] は、コスト、調整、リスク、ROI などの重要なプロジェクト情報を考慮して、ユーザーとって何がより重要であるかに従ってプロジェクトに優先順位を付けます。
+[!UICONTROL ポートフォリオオプティマイザー]を使用すると、スコアやその他の値に基づいてプロジェクトに優先順位を付けることができます。 [!UICONTROL オプティマイザー] は、コスト、調整、リスク、ROI などの重要なプロジェクト情報を考慮して、ユーザーとって何がより重要であるかに従ってプロジェクトに優先順位を付けます。
 
 ## アクセス要件
 
@@ -92,7 +98,7 @@ Old
 
 1. **[!UICONTROL 最適化]**&#x200B;アイコンをクリックします。
 
-   ![最適化アイコン &#x200B;](assets/optimize-icon-portfolio-optimizer.png)
+   ![最適化アイコン ](assets/optimize-icon-portfolio-optimizer.png)
 
    プロジェクトのスコア付けに使用できるカテゴリが、[!UICONTROL 最適化]アイコンの左側に表示されます。
 
@@ -110,10 +116,10 @@ Old
 
    [!UICONTROL ポートフォリオオプティマイザー]スコアの詳細については、[[!UICONTROL ポートフォリオオプティマイザー]スコアの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)を参照してください。
 
-1. **[!UICONTROL スコア]**&#x200B;列に正しい重みを設定したら、**[!UICONTROL スコア]**&#x200B;列のヘッダーをクリックして、この列で並べ替えます。最もスコアの高いプロジェクトがリストの先頭に表示されます。
+1. **[!UICONTROL スコア]**&#x200B;列に正しい重みを設定したら、**[!UICONTROL スコア]**&#x200B;列のヘッダーをクリックして、この列で並べ替えます。 最もスコアの高いプロジェクトがリストの先頭に表示されます。
 
 1. （オプション）プロジェクトを優先順にドラッグ&amp;ドロップします。
-これにより、[!UICONTROL ポートフォリオオプティマイザー]内のプロジェクトの順序が変更されます。
+これにより、[!UICONTROL Portfolio Optimizer]のプロジェクトの順序が変更されます。
 1. （オプション）**[!UICONTROL 優先度の設定]**&#x200B;をクリックして、プロジェクトの新しい優先度を保存します。
 
    >[!NOTE]

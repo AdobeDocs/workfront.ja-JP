@@ -6,9 +6,12 @@ description: 20.3 リリース（2020年8月を目標とする）で、Adobe Wor
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
+TQID: https://experienceleague.adobe.com/q3IdES8LZlJDDBjUqTkHmWqjtVdMV-w80o7wC-uRSXg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: 306
 ht-degree: 92%
 
 ---
@@ -29,4 +32,4 @@ ht-degree: 92%
 
 カスタム SMTP メールサーバーを設定済みの場合は、**IT チームに連絡して**、notifications@my.workfront.com からのメールがシステムへの受信メールとしてブロックされないようにすることを強くお勧めします。 また、トラフィックとメールの送信元の IP アドレスについて詳しくは、ファイアウォールの設定を参照してください。
 
-その他のご質問やご不明な点は、[Workfront サポートチーム](https://experienceleague.adobe.com/ja?support-tab=home&lang=ja#support)にお問い合わせください。
+その他のご質問やご不明な点は、[Workfront サポートチーム](https://experienceleague.adobe.com/?support-tab=home&lang=ja#support)にお問い合わせください。

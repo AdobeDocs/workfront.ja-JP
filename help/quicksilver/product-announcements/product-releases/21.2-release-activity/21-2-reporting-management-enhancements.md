@@ -2,22 +2,28 @@
 content-type: release-notes
 keywords: メモ、四半期、アップデート、リリース
 navigation-topic: 2021-2-release-activity
-title: 21. 2 レポートの機能強化
-description: このページでは、プレビュー環境の 21.2 リリースで行われたレポート機能のすべての強化について説明します。これらの機能強化は、2021年5月10日（PT）の週に実稼動環境で利用可能になる予定です。21.2 リリースで使用できるすべての変更点のリストについては、21.2 リリースの概要を参照してください。
+title: ​21. 2 レポートの機能強化
+description: このページでは、プレビュー環境の 21.2 リリースで行われたレポート機能のすべての強化について説明します。 これらの機能強化は、2021年5月10日（PT）の週に本番環境で利用可能になる予定です。 21.2 リリースで使用できるすべての変更点のリストについては、21.2 リリースの概要を参照してください。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/-fD0kFEB6ka8-DojDCkBnveHBncaLh3ppK0DIe9-vus
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 94%
+source-wordcount: 560
+ht-degree: 95%
 
 ---
 
-# 21. 2 レポートの機能強化
+# &#x200B;21. 2 レポートの機能強化
 
-このページでは、プレビュー環境の 21.2 リリースで行われたレポート機能のすべての強化について説明します。これらの機能強化は、2021年5月10日（PT）の週に実稼動環境で利用可能になる予定です。21.2 リリースで使用可能なすべての変更点の一覧については、[21.2 リリースの概要](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)を参照してください。
+このページでは、プレビュー環境の 21.2 リリースで行われたレポート機能のすべての強化について説明します。 これらの機能強化は、2021年5月10日（PT）の週に本番環境で利用可能になる予定です。 21.2 リリースで使用可能なすべての変更点の一覧については、[21.2 リリースの概要](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)を参照してください。
 
 ## プロジェクトとレポートでの時間の編集を制限
 
@@ -33,7 +39,7 @@ ht-degree: 94%
 >
 >この機能は、新しい Adobe Workfront エクスペリエンスでのみ使用できます。
 
-新しい Workfront エクスペリエンスの他のエリアの最新のルックに合わせて、更新されたリストとレポートの「割り当て」フィールドのスタイル設定が変更されました。この再設計には、以下が含まれます。
+新しい Workfront エクスペリエンスの他のエリアの最新のルックに合わせて、更新されたリストとレポートの「割り当て」フィールドのスタイル設定が変更されました。 この再設計には、以下が含まれます。
 
 * ユーザープロファイルの画像、担当業務、チーム用の円形アバター
 * プロファイル画像を持たないユーザーにはイニシャルが表示されます
@@ -44,19 +50,19 @@ ht-degree: 94%
 
 リスト内の割り当てについて詳しくは、[タスクの割り当て](../../../manage-work/tasks/assign-tasks/assign-tasks.md)または[イシューの割り当て](../../../manage-work/issues/manage-issues/assign-issues.md)を参照してください。
 
-![&#x200B; 割り当ての更新 &#x200B;](assets/assignments-updates-350x193.png)
+![割り当て更新](assets/assignments-updates-350x193.png)
 
 ## アップデートされたリストおよびレポートの先行入力フィールドの新しいルックアンドフィール
 
 >[!NOTE]
 >
->2021年5月20日（PT）に、実稼動環境から一時的に削除されました。
+>2021年5月20日（PT）に、本番環境から一時的に削除されました。
 
 >[!NOTE]
 >
 >この機能は、新しい Adobe Workfront エクスペリエンスでのみ使用できます。
 
-新しい Workfront エクスペリエンスの他のエリアの最新のルックに合わせて、更新されたリストとレポートの先行入力フィールドのスタイル設定が変更されました。以下の変更が含まれます。
+新しい Workfront エクスペリエンスの他のエリアの最新のルックに合わせて、更新されたリストとレポートの先行入力フィールドのスタイル設定が変更されました。 以下の変更が含まれます。
 
 * 先行入力アイコンがフィールドから削除されました。
 * 先行入力フィールドをクリックすると、テキストを入力する前におすすめメニューが表示されるようになりました。
@@ -64,7 +70,7 @@ ht-degree: 94%
 
 更新されたリストについて詳しくは、[Adobe Workfront でのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)の記事の[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。
 
-![Typeahead フィールド &#x200B;](assets/typeahead-updates-350x336.png)
+![先行入力フィールド ](assets/typeahead-updates-350x336.png)
 
 ## システムのアップデートに関するレポート
 
@@ -80,5 +86,5 @@ ht-degree: 94%
 
 以前は、Workfront API を使用してのみ、システムのアップデートをレポートできました。
 
-このレポートの詳細と用途については、[&#x200B; 履歴入力レポートを使用した更新領域のレポート &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md) を参照してください。
+このレポートとその使用方法について詳しくは、「[ ジャーナルエントリレポートを使用した更新領域に関するレポート ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)」を参照してください。
 
