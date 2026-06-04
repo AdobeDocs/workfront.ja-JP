@@ -4,15 +4,25 @@ product-area: reporting;projects
 keywords: 計算済み,集計,詳細,表示
 navigation-topic: custom-view-filter-and-grouping-samples
 title: グループ化：グループ化で複数の計算値を集計した結果を表示します
-description: 列でテキストモードを使用すると、レポートまたはリストのビューで 2 つのフィールド間の計算を表示できます。各行には、レポートまたはリスト内の各オブジェクトの計算が表示されます。
+description: 列でテキストモードを使用すると、レポートまたはリストのビューで 2 つのフィールド間の計算を表示できます。 各行には、レポートまたはリスト内の各オブジェクトの計算が表示されます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/4kniXqVDr1HKcFoH6LloYToLlG-8-4i8QVP3E06QPig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: 533
 ht-degree: 83%
 
 ---
@@ -21,11 +31,11 @@ ht-degree: 83%
 
 <!--Audited: 10/2024-->
 
-列でテキストモードを使用すると、レポートまたはリストのビューで 2 つのフィールド間の計算を表示できます。各行には、レポートまたはリスト内の各オブジェクトの計算が表示されます。
+列でテキストモードを使用すると、レポートまたはリストのビューで 2 つのフィールド間の計算を表示できます。 各行には、レポートまたはリスト内の各オブジェクトの計算が表示されます。
 
-例えば、タスクレポートの各タスクの実際の時間数と予定時間数の差を、ワークバランスと呼ばれる 3 番目の列に表示できます。計算されたデータ式について詳しくは、[計算されたデータ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。
+例えば、タスクレポートの各タスクの実際の時間数と予定時間数の差を、ワークバランスと呼ばれる 3 番目の列に表示できます。 計算されたデータ式について詳しくは、[計算されたデータ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。
 
-複数の計算ビュー項目の集計値をグループ内の同じ列に表示するには、計算値を含む列の `aggregator` 行に計算を追加します。例えば、レポートのグループまたはワークバランス列のリストにあるすべてのタスクのワークバランス時間を集計（合計表示）できます。この記事では、この方法について説明します。
+複数の計算ビュー項目の集計値をグループ内の同じ列に表示するには、計算値を含む列の `aggregator` 行に計算を追加します。 例えば、レポートのグループまたはワークバランス列のリストにあるすべてのタスクのワークバランス時間を集計（合計表示）できます。 この記事では、この方法について説明します。
 
 ## アクセス要件
 
@@ -69,7 +79,7 @@ ht-degree: 83%
 
    >[!TIP]
    >
-   >常に、テキストモードで情報を編集する前に、標準インターフェイスを使用して、できるだけ多くの情報を追加してください。計算に最も近い、または最も多くの情報を含むフィールドを追加します。
+   >常に、テキストモードで情報を編集する前に、標準インターフェイスを使用して、できるだけ多くの情報を追加してください。 計算に最も近い、または最も多くの情報を含むフィールドを追加します。
 
 1. **この列を**&#x200B;で要約フィールドで、**合計**&#x200B;を選択します。
 1. 追加した列の&#x200B;**テキストモードに切り替え**&#x200B;をクリックし、**テキストモードを編集**&#x200B;をクリックします。
@@ -93,9 +103,9 @@ ht-degree: 83%
 
    >[!TIP]
    >
-   >グループの集計値を取得して「予定時間数」フィールドと「実際の時間数」フィールドの集計された差異を表示するには、同じ式を `aggregator.valuefield` 行に入力します。予定時間数の列に `aggregator.displayformat` を使用すると、分が時間に変換されます。「予定時間数」フィールドはプレースホルダーとして使用されたので、この行を調整する必要はありません。
+   >グループの集計値を取得して「予定時間数」フィールドと「実際の時間数」フィールドの集計された差異を表示するには、同じ式を `aggregator.valuefield` 行に入力します。 予定時間数の列に `aggregator.displayformat` を使用すると、分が時間に変換されます。 「予定時間数」フィールドはプレースホルダーとして使用されたので、この行を調整する必要はありません。
    >
    >
-   >`aggregator.displayformat` 行の `minutesAsHoursString` 定義は、`valueexpression` で行われたように各フィールドを 60 で割って結果を出す必要がないことを意味します。ここでは、`aggregator.valuefield=workRequired` は `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2` になります。
+   >`aggregator.displayformat` 行の `minutesAsHoursString` 定義は、`valueexpression` で行われたように各フィールドを 60 で割って結果を出す必要がないことを意味します。 ここでは、`aggregator.valuefield=workRequired` は `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2` になります。
 1. 「**完了**」をクリックします。
 1. 「**保存して閉じる**」をクリックします。

@@ -5,20 +5,31 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/SHHn-SR8Z3ThsS94S6bH9V-auX6jYxQHwmtNlI903oA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 99%
+source-wordcount: 473
+ht-degree: 100%
 
 ---
 
 # Workfront Goals 20.4 リリース
 
-このページでは、20.4 リリースで実稼動環境にリリースされた新しい Adobe Workfront エクスペリエンスにおける Workfront Goals の機能について説明します。
+このページでは、20.4 リリースで本番環境にリリースされた新しい Adobe Workfront エクスペリエンスにおける Workfront Goals の機能について説明します。
 
 ## Workfront Goals のユーザビリティの改善
 
-アドビでは、お客様から寄せられたフィードバックに基づき、Workfront Goals の活用方法を引き続き改善していきます。次のユーザビリティの改善を追加しました。
+アドビでは、お客様から寄せられたフィードバックに基づき、Workfront Goals の活用方法を引き続き改善していきます。 次のユーザビリティの改善を追加しました。
 
 * 目標リストを印刷するエクスペリエンスを更新し、より直感的な「目標リスト」セクションの印刷リンクを追加しました。
 
@@ -51,7 +62,7 @@ ht-degree: 99%
 
 ## Workfront Goals へのアクセス制御
 
-アクセスレベルで Workfront Goals へのアクセスを制限できるようになりました。ユーザーにアクセス権を与えないか、Workfront Goals の情報の表示または編集へのアクセス権を与えることができます。このアクセスは、外部を除くすべてのライセンスタイプで使用できます。この改善が行われる前は、すべてのユーザーがすべての目標に対する編集アクセス権を持っていました。
+アクセスレベルで Workfront Goals へのアクセスを制限できるようになりました。 ユーザーにアクセス権を与えないか、Workfront Goals の情報の表示または編集へのアクセス権を与えることができます。 このアクセスは、外部を除くすべてのライセンスタイプで使用できます。 この改善が行われる前は、すべてのユーザーがすべての目標に対する編集アクセス権を持っていました。
 
 Workfront Goals へのアクセス権の付与について詳しくは、「[Adobe Workfront Goals にアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)」を参照してください。
 
@@ -67,7 +78,7 @@ Workfront Goals へのアクセス権の付与について詳しくは、「[Ado
 
 これまでに受け取ったフィードバックに基づいて、目標を追加パネルと目標の詳細パネルで次の機能を強化しました。
 
-* 目標の詳細パネルの「アクティブ化」ボタンと「チェックイン」ボタンのデザインを一新し、より目立つようにしました。
+* 目標の詳細パネルの「アクティブ化」ボタンと「チェックイン」ボタンのデザインを一新し、より目立つようにしました。 
 * 目標を追加パネルの「および新規作成」チェックボックスオプションを削除しました。
 
 詳しくは、次の記事を参照してください。

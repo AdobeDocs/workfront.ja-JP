@@ -3,15 +3,27 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 表示：承認情報に関する問題
-description: 次のイシュービューには、承認プロセス、ステップ、承認者の名前および承認前のイシューのステータスが表示されます。これらのフィールドの一部は、標準のインターフェイスビルダーからアクセスできません。
+description: 次のイシュービューには、承認プロセス、ステップ、承認者の名前および承認前のイシューのステータスが表示されます。 これらのフィールドの一部は、標準のインターフェイスビルダーからアクセスできません。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4e123844-a0d6-474b-87fb-d30ed391ad07
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/SKr-e6uzayhE8WSXs5XZ9OsGQriN9nold-uHKeKGZX0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: 240
 ht-degree: 67%
 
 ---
@@ -20,7 +32,7 @@ ht-degree: 67%
 
 <!--Audited: 11/2024-->
 
-次のイシュービューには、承認プロセス、ステップ、承認者の名前および承認前のイシューのステータスが表示されます。これらのフィールドの一部は、標準のインターフェイスビルダーからアクセスできません。
+次のイシュービューには、承認プロセス、ステップ、承認者の名前および承認前のイシューのステータスが表示されます。 これらのフィールドの一部は、標準のインターフェイスビルダーからアクセスできません。
 
 ![custom_issue_view_with_approval_info.png](assets/custom-issue-view-with-approval-info-350x46.png)
 

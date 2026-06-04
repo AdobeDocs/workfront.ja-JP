@@ -6,12 +6,23 @@ description: 外部 web ページをダッシュボードに埋め込んで、Ad
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/G45Rx-nLjiBMHF--VNCwEjUqHZwLk3qjEP9WifRC29A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 87%
+source-wordcount: 989
+ht-degree: 81%
 
 ---
 
@@ -25,13 +36,13 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->* セキュリティ上の理由から、一部の web サイトでは web ページを iframe として埋め込むことができません。ダッシュボードに埋め込む web ページでこれが許可されていない場合、そのページはダッシュボードに表示されません。ただし、ダッシュボードの名前をクリックして、外部ページにアクセスすることはできます。\
+>* セキュリティ上の理由から、一部の web サイトでは web ページを iframe として埋め込むことができません。 ダッシュボードに埋め込む web ページでこれが許可されていない場合、そのページはダッシュボードに表示されません。 ただし、ダッシュボードの名前をクリックして、外部ページにアクセスすることはできます。\
 >![外部ページレポートが空です](assets/qs-empty-external-page-report-350x165.png)\
->所有している web サイトに埋め込みを許可するには、web 管理者と協力して、**X-Frame-Options** 設定を調整します。詳しくは、[X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options) を参照してください。
+>所有している web サイトに埋め込みを許可するには、web 管理者と協力して、**X-Frame-Options** 設定を調整します。 詳しくは、[X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options) を参照してください。
 >
 >
->* ダッシュボードページは、ダッシュボードの埋め込み外部ページとしてサポートされなくなりました。既存のダッシュボードは、これらの外部ページを削除するために自動的に変更されることはありませんが、そのような参照を含むダッシュボードに対する変更は、参照が削除または変更されるまで保存できません。
-> 特に、次の workfront.com サブドメインはサポートされなくなりました。
+>* ダッシュボードページは、ダッシュボードに埋め込まれた外部ページとしてサポートされなくなりました。既存のダッシュボードは、これらの外部ページを削除するように自動的に変更されることはありませんが、そのような参照を含むダッシュボードへの変更は、参照が削除または変更されるまで保存できません。
+> 具体的には、次のWorkfront.com サブドメインはサポートされなくなりました。
 >
 >     * /ダッシュボード
 >     * /dashboard/:ID&#x200B;
@@ -96,18 +107,18 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->不要になった外部ページは、ダッシュボードから削除できます。ただし、外部ページを Workfront で作成した後に削除することはできません。外部ページの削除は、API を使用してのみ可能です。詳しくは、[ダッシュボードからの外部ページを削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)を参照してください。
+>不要になった外部ページは、ダッシュボードから削除できます。 ただし、外部ページを Workfront で作成した後に削除することはできません。 外部ページの削除は、API を使用してのみ可能です。 詳しくは、[ダッシュボードからの外部ページを削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)を参照してください。
 
 1. Workfront に表示するページの URL を探し、アドレスバーにある URL をコピーします。
 
    >[!NOTE]
    >
-   >URL を Workfront オブジェクトに共有している場合、一部の URL は時間の経過とともに期限切れになることに注意してください。例えば、ドキュメント URL は、開封後に期限切れになります。これはセキュリティ対策として設定され、設計上、静的でない URL と見なされ、共有すべきではありません。
+   >URL を Workfront オブジェクトに共有している場合、一部の URL は時間の経過とともに期限切れになることに注意してください。 例えば、ドキュメント URL は、開封後に期限切れになります。 これはセキュリティ対策として設定され、設計上、静的でない URL と見なされ、共有すべきではありません。
 
 {{step1-to-dashboards}}
 
-1. 既存のダッシュボードを編集するには、web サイトページを埋め込むダッシュボードを選択して、「**ダッシュボードの操作**」をクリックし、メニューから「**編集**」を選択するか、
-\
+1. 既存のダッシュボードを編集するには、web サイトページを埋め込むダッシュボードを選択し、**ダッシュボードアクション**&#x200B;をクリックしてから、**編集をクリックします**
+または\
    新しいダッシュボードを作成するには、「**新規ダッシュボード**」をクリックします。\
    ダッシュボードの作成について詳しくは、[ダッシュボードを作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
 
@@ -120,7 +131,7 @@ ht-degree: 87%
 1. 外部ページに関する次の情報を指定します。
 
    * **名前**：ダッシュボードに名前を追加します。
-   * **説明**：ダッシュボードに関する詳細情報を追加して、含まれる情報を識別します。説明は、保存後に、表示するアクセス権を持つすべてのユーザーに対してダッシュボードに表示されます。
+   * **説明**：ダッシュボードに関する詳細情報を追加して、含まれる情報を識別します。 説明は、保存後に、表示するアクセス権を持つすべてのユーザーに対してダッシュボードに表示されます。
    * **URL**：このフィールドにコピーした URL を貼り付けます。
 
      次のタイプの URL を指定できます。
@@ -131,9 +142,9 @@ ht-degree: 87%
 
       * 特定の web サイトのセッション情報を含むテンプレート URL。\
         例：*https://localhost/?session={!$$SESSION}*
-外部ページを表示するには、指定した web サイトにログインする必要があります。\
+外部ページを表示するには、指定したWeb サイトにログインする必要があります。\
         Workfront から SessionID を取得する方法について詳しくは、[API の基本](../../../wf-api/general/api-basics.md)を参照してください。\
-        セキュリティ上の理由から、Workfront 管理者は、外部ページでのセッション情報の使用を許可しない方法で、システム環境設定を指定できます。この場合、外部ページはダッシュボードに読み込まれません。\
+        セキュリティ上の理由から、Workfront 管理者は、外部ページでのセッション情報の使用を許可しない方法で、システム環境設定を指定できます。 この場合、外部ページはダッシュボードに読み込まれません。\
         システムのセキュリティ環境設定について詳しくは、[システムのセキュリティ環境設定を指定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
 
@@ -142,13 +153,13 @@ ht-degree: 87%
      >SessionID の使用は安全ではないので、お勧めしません。
      >
 
-   * **高さ**：0 より大きい数値を入力して、外部ページがダッシュボードで占有するスペースを定義します。デフォルトの高さは 500 です。
+   * **高さ**：0 より大きい数値を入力して、外部ページがダッシュボードで占有するスペースを定義します。 デフォルトの高さは 500 です。
 
 1. 「**保存**」をクリックします。
 
    ページがダッシュボードに自動的に追加されます。
 
-   追加のダッシュボードを作成する場合、この外部ページを見つけて他のダッシュボードに追加できます。ダッシュボードの作成または編集時に、利用可能なレポートとカレンダーのリストに既存のすべての外部ページが表示されます。
+   追加のダッシュボードを作成する場合、この外部ページを見つけて他のダッシュボードに追加できます。 ダッシュボードの作成または編集時に、利用可能なレポートとカレンダーのリストに既存のすべての外部ページが表示されます。
 
    <!--
     *** This is linked to: Creating Dashboards, and Editing Dashboards.

@@ -2,22 +2,33 @@
 product-area: resource-management;reporting
 navigation-topic: resource-planning
 title: リソースプランナーの予算時間に関するレポート
-description: リソースプランナーを使用して、プロジェクトのリソースを予算計上できます。Adobe Workfront リソースプランナーを使用したリソースの予算計上について詳しくは、プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上の記事を参照してください。
+description: リソースプランナーを使用して、プロジェクトのリソースを予算計上できます。 Adobe Workfront リソースプランナーを使用したリソースの予算計上について詳しくは、プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上の記事を参照してください。
 author: Lisa
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+TQID: https://experienceleague.adobe.com/y1caRsSZ8l1TlfT0LuypUAmWjv2YIWRoDkEg-b8R3OQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: 155
 ht-degree: 100%
 
 ---
 
 # リソースプランナーの予算時間に関するレポート
 
-リソースプランナーを使用して、プロジェクトのリソースを予算計上できます。Adobe Workfront リソースプランナーでのリソースの予算計上について詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)の記事を参照してください。
+リソースプランナーを使用して、プロジェクトのリソースを予算計上できます。 Adobe Workfront リソースプランナーでのリソースの予算計上について詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)の記事を参照してください。
 
-リソースの予算計上とは、プロジェクトのリソースがプロジェクトの作業を完了するために必要な特定の時間を定義（または予算）することを意味します。リソースプランナーへのアクセス権がない他のユーザーと予算計上時間数の情報を共有したい場合は、予算計上時間数のレポートを作成することで共有できます。詳しくは、[レポート：予算計上時間数](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)を参照してください。
+リソースの予算計上とは、プロジェクトのリソースがプロジェクトの作業を完了するために必要な特定の時間を定義（または予算）することを意味します。 リソースプランナーへのアクセス権がない他のユーザーと予算計上時間数の情報を共有したい場合は、予算計上時間数のレポートを作成することで共有できます。 詳しくは、[レポート：予算計上時間数](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)を参照してください。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is all drafted - below - same content as the one in the standalone Report: Budgeted Hour article - consider deleting that and just keeping the infomation here?!)</p>

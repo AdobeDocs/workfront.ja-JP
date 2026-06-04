@@ -2,15 +2,27 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードへのレポートを追加
-description: レポートを新規または既存のダッシュボードに、レポートから直接追加できます。また、既存のレポートをダッシュボードに追加することもできます。
+description: レポートを新規または既存のダッシュボードに、レポートから直接追加できます。 また、既存のレポートをダッシュボードに追加することもできます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/hZuz4RgX9qwRPK4fLj-h-oWJOwWAKyUu8yuJJnr-WF8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: 350
 ht-degree: 89%
 
 ---
@@ -19,11 +31,11 @@ ht-degree: 89%
 
 <!-- Audited: 1/2025 -->
 
-レポートを新規または既存のダッシュボードに、レポートから直接追加できます。[&#x200B; ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)の説明に従って、既存のレポートをダッシュボードに追加することもできます。 1つのダッシュボードに追加できるレポート、カレンダー、外部ページは最大25個までです。
+レポートを新規または既存のダッシュボードに、レポートから直接追加できます。 [&#x200B; ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)の説明に従って、既存のレポートをダッシュボードに追加することもできます。 1つのダッシュボードに追加できるレポート、カレンダー、外部ページは最大25個までです。
 
 >[!NOTE]
 >
->カスタムフォームの外部ルックアップフィールドは現在、ダッシュボードではサポートされていません。フィールド値をインラインで編集できません。また、ダッシュボードに正しく表示されない場合があります。
+>カスタムフォームの外部ルックアップフィールドは現在、ダッシュボードではサポートされていません。 フィールド値をインラインで編集できません。また、ダッシュボードに正しく表示されない場合があります。
 
 ## アクセス要件
 
@@ -69,7 +81,7 @@ ht-degree: 89%
 
 1. 管理する権限を持ち、ダッシュボードに追加するレポートに移動します。
 1. **レポートのアクション**&#x200B;ドロップダウンメニューをクリックします。
-1. 「**ダッシュボードに追加**」をクリックします。ログインしているユーザーが所有する、最近変更したダッシュボードは最大 10 個、新しい順に表示されます。
+1. 「**ダッシュボードに追加**」をクリックします。 ログインしているユーザーが所有する、最近変更したダッシュボードは最大 10 個、新しい順に表示されます。
 1. レポートを追加するダッシュボードを選択します。
 
    ダッシュボードを選択した後、そのダッシュボードを編集している場合と同じようにレポートを追加できます。

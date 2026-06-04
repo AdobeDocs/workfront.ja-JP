@@ -7,10 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: 836
+ht-degree: 97%
 
 ---
 
@@ -90,7 +101,7 @@ R1 で行われたすべての変更のリストについては、[Workfront R1 
 
 グループとサブグループの管理用の新しいインターフェイスが追加され、より簡単で、より使いやすいエクスペリエンスを提供します。
 
-グループ所有者フィールドとグループメンバーフィールドが単一フィールドに結合されるようになり、以下に示すグループメンバーのリストが表示されます。 また、グループメンバーのリストをフィルタリングして、所有者かメンバーかを変更できます。 
+「グループ所有者」フィールドと「グループメンバー」フィールドが、下に示すグループメンバーのリストを含む単一のフィールドに結合されるようになりました。さらに、グループメンバーのリストをフィルタリングし、そのメンバーが所有者かメンバーかを変更できます。 
 
 グループにサブグループを追加する方法と、ユーザーをメンバーまたはグループのグループ所有者に指定する方法について詳しくは、[グループの作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)および[グループの作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)を参照してください。 
 

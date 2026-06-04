@@ -3,15 +3,25 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: グループ化：Portfolioオーナー、プログラムオーナー、プロジェクトオーナー、プロジェクトステータスの4 レベルのタスクグループ化
-description: このタスクグループ化では、4 レベルのグループ化を提供します。この場合、タスクは、ポートフォリ所有者、プログラム所有者、プロジェクト所有者およびプロジェクトステータス別にグループ化されます。標準インターフェイスを使用する場合は、最大 3 レベルのグループ化に限られます。第 4 レベルを追加するには、テキストモードを使用する必要があります。同時に 4 つを超える条件でレポートをグループ化することはできません。
+description: このタスクグループ化では、4 レベルのグループ化を提供します。 この場合、タスクは、ポートフォリ所有者、プログラム所有者、プロジェクト所有者およびプロジェクトステータス別にグループ化されます。 標準インターフェイスを使用する場合は、最大 3 レベルのグループ化に限られます。 第 4 レベルを追加するには、テキストモードを使用する必要があります。 同時に 4 つを超える条件でレポートをグループ化することはできません。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a1780a57-b94c-4d3a-b526-9bf45dba21f1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/aUClw8v03XNSsa6Mb-aWHk8Uc-AKZQuJmuZRzj9IS30
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 391
 ht-degree: 86%
 
 ---
@@ -20,7 +30,7 @@ ht-degree: 86%
 
 <!--Audited: 10/2024-->
 
-このタスクグループ化では、4 レベルのグループ化を提供します。この場合、タスクは、ポートフォリ所有者、プログラム所有者、プロジェクト所有者およびプロジェクトステータス別にグループ化されます。標準インターフェイスを使用する場合は、最大 3 レベルのグループ化に限られます。第 4 レベルを追加するには、テキストモードを使用する必要があります。同時に 4 つを超える条件でレポートをグループ化することはできません。
+このタスクグループ化では、4 レベルのグループ化を提供します。 この場合、タスクは、ポートフォリ所有者、プログラム所有者、プロジェクト所有者およびプロジェクトステータス別にグループ化されます。 標準インターフェイスを使用する場合は、最大 3 レベルのグループ化に限られます。 第 4 レベルを追加するには、テキストモードを使用する必要があります。 同時に 4 つを超える条件でレポートをグループ化することはできません。
 
 ![four_tier_grouping_for_tasks.png](assets/four-tier-grouping-for-tasks-350x239.png)
 

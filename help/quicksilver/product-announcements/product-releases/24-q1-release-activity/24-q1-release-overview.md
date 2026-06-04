@@ -5,24 +5,39 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/mSp9mTaMbW8iuwYtUIKK0tSnrhXmK2r9ei6C4Zrhm1k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: 1709
 ht-degree: 98%
 
 ---
 
 # 2024 年第 1 四半期リリースの概要
 
-このページでは、2024 年第 1 四半期リリースに含まれる機能について説明します。これらの機能強化は、2024年1月18日および 19日（PT）の 24.1 リリースで、実稼動環境に使用可能になりました。
+このページでは、2024 年第 1 四半期リリースに含まれる機能について説明します。 これらの機能強化は、2024年1月18日および 19日（PT）の 24.1 リリースで、本番環境に使用可能になりました。
 
-24.1 リリースウェビナーは 2024年1月11日（PT）に開催されました。[こちら](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview)でウェビナーに登録してオンデマンド録画を視聴できます。
+24.1 リリースウェビナーは 2024年1月11日（PT）に開催されました。 [こちら](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview)でウェビナーに登録してオンデマンド録画を視聴できます。
 
 <span class="preview">オフサイクル機能（2024年第 1 四半期のリリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライトされています。</span>
 
 >[!IMPORTANT]
 >
->23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。そのため、Workfront では、月次および四半期次のリリース追跡の両方に対応するように、リリースのナンバリング方式を変更しました。
+>23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。 そのため、Workfront では、月次および四半期次のリリース追跡の両方に対応するように、リリースのナンバリング方式を変更しました。
 >
 >月次リリースと四半期リリースは、特に指定がない限り、毎月第 2 週の木曜日に公開される予定です。
 >
@@ -99,7 +114,7 @@ ht-degree: 98%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">動的ボードが、ボードの作成時に完了済みのカードをアーカイブ</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>動的ボードを作成する場合、完了したタスクやイシューをボードに含めることができます。完了したタスクやイシューが多数あるプロジェクトでは、動的なボードにパフォーマンスの問題が発生する可能性がありました。動的なボードを作成し、完了した作業を含めるよう選択すると、タスクとイシューがアーカイブされたカードとしてボードに取り込まれるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">動的ボードが、ボードの作成時に完了済みのカードをアーカイブ</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>動的ボードを作成する場合、完了したタスクやイシューをボードに含めることができます。 完了したタスクやイシューが多数あるプロジェクトでは、動的なボードにパフォーマンスの問題が発生する可能性がありました。 動的なボードを作成し、完了した作業を含めるよう選択すると、タスクとイシューがアーカイブされたカードとしてボードに取り込まれるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -134,7 +149,7 @@ ht-degree: 98%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントの承認用に更新されたステータス</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントの承認用に更新されたステータス</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。 これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -229,7 +244,7 @@ ht-degree: 98%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用した新しいホームの管理者コントロール</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>管理者は、レイアウトテンプレートを使用して新しいホームをユーザー用にカスタマイズできるようになりました。カスタマイズオプションには、必須のウィジェットとその位置の選択、背景の選択のほか、ウィジェット固有のオプションとして、使用できるフィルターとグループの選択（とデフォルトの設定）などがあります。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用した新しいホームの管理者コントロール</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>管理者は、レイアウトテンプレートを使用して新しいホームをユーザー用にカスタマイズできるようになりました。 カスタマイズオプションには、必須のウィジェットとその位置の選択、背景の選択のほか、ウィジェット固有のオプションとして、使用できるフィルターとグループの選択（とデフォルトの設定）などがあります。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -281,7 +296,7 @@ ht-degree: 98%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials でのメタデータのマッピングで、<code>dc:subject</code></a> の代わりに <code>xcm:keywords</code> が使用されるようになりました。</p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Experience Manager Assets Essentials の統合を更新し、Experience Manager Assets as a Cloud Service 統合のエクスペリエンスに合わせました。現在は、複数の 1 行テキストフィールドを Experience Manager Assets の 1 つのフィールドにマッピングする際に、両方のサービスで <code>xcm:keywords</code> フィールドを使用します。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials でのメタデータのマッピングで、<code>dc:subject</code></a> の代わりに <code>xcm:keywords</code> が使用されるようになりました。</p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Experience Manager Assets Essentials の統合を更新し、Experience Manager Assets as a Cloud Service 統合のエクスペリエンスに合わせました。 現在は、複数の 1 行テキストフィールドを Experience Manager Assets の 1 つのフィールドにマッピングする際に、両方のサービスで <code>xcm:keywords</code> フィールドを使用します。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -298,7 +313,7 @@ ht-degree: 98%
                     </td>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 統合で先行入力フィールドを使用できるようになりました。</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Workfront と Adobe Experience Manager の間でフィールドを簡単にリンクできるように、メタデータマッピングにおける先行入力フィールドへのサポートが追加されました。これで、Adobe Experience Manager の対応するフィールドに先行入力フィールドをマッピングできるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 統合で先行入力フィールドを使用できるようになりました。</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Workfront と Adobe Experience Manager の間でフィールドを簡単にリンクできるように、メタデータマッピングにおける先行入力フィールドへのサポートが追加されました。 これで、Adobe Experience Manager の対応するフィールドに先行入力フィールドをマッピングできるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -313,7 +328,7 @@ ht-degree: 98%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager でのアセットの自動公開</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Adobe Experience Manager 統合に別のワークフローを追加しました。これで、Adobe Experience Manager に送信する際に、アセットを自動的に公開するように設定できます。統合は、Adobe Experience Manager パブリッシュサービスまたは Adobe Experience Manager Brand Portal に公開するように設定できます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager でのアセットの自動公開</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Adobe Experience Manager 統合に別のワークフローを追加しました。 これで、Adobe Experience Manager に送信する際に、アセットを自動的に公開するように設定できます。 統合は、Adobe Experience Manager パブリッシュサービスまたは Adobe Experience Manager Brand Portal に公開するように設定できます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -349,7 +364,7 @@ ht-degree: 98%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
-                        [!BADGE In Production for Fast Release &#x200B;]{type=Positive}<p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
+                        [!BADGE In production for Fast Release &#x200B;]{type=Positive}<p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。 新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -360,7 +375,7 @@ ht-degree: 98%
                                 <p>迅速リリース用の実稼動：24.3 リリース（2024年3月）に併せて</p>
                             </li>
                         </ul>
-                    <p><i>この機能は、プレビューおよび迅速リリースの実稼働から削除されました。</i></p>
+                    <p><i>この機能は、プレビューおよび高速リリースの実稼動から削除されました。</i></p>
                     </td>
                 </tr>
            </tbody>
@@ -458,32 +473,32 @@ ht-degree: 98%
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、2023年第 1 四半期のリリーススケジュールから外れた頻度で、実稼動環境で利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、2023年第 1 四半期のリリーススケジュールから外れた頻度で、実稼動環境で利用可能になります。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 
-リリースの現時点では、シナリオプランナーの更新はありません。このエリアは、アップデートが利用可能になると更新されます。
+リリースの現時点では、シナリオプランナーの更新はありません。 このエリアは、アップデートが利用可能になると更新されます。
 
 ### Workfront Proof の機能強化
 
-リリースの現時点では、Workfront Proof の更新はありません。このエリアは、アップデートが利用可能になると更新されます。
+リリースの現時点では、Workfront Proof の更新はありません。 このエリアは、アップデートが利用可能になると更新されます。
 
 ### Workfront Goals の強化
 
-リリースの現時点では、Workfront Goals の更新はありません。このエリアは、アップデートが利用可能になると更新されます。
+リリースの現時点では、Workfront Goals の更新はありません。 このエリアは、アップデートが利用可能になると更新されます。
 
 ### API バージョン 17
 
-API バージョン 17 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
+API バージョン 17 では、いくつかのリソースとエンドポイントが変更されました。 変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
 
 新機能と更新内容については、[API バージョン 17 の新機能](/help/quicksilver/wf-api/api/new-api-version-17.md)を参照してください。
 
 API バージョンの詳細については、[API のバージョン管理とサポートスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
-### Workfront のメンテナンスアップデート
+### Workfront のメンテナンス更新
 
 2024年 第 1 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンス更新](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。 詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。

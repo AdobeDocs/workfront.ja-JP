@@ -2,21 +2,33 @@
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
 title: 2019.1 モバイルおよび統合の機能強化
-description: このページでは、2019.1 リリースに含まれるすべてのリソース管理の機能強化について説明します。この機能は実稼動環境で使用できるようになっています。
+description: このページでは、2019.1 リリースに含まれるすべてのリソース管理の機能強化について説明します。 この機能は本番環境で使用できるようになっています。
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 6b86ba0d-977a-4c89-8832-e81bf28d9dad
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/jKc48hGok8maxmidY12vz-mCzAz4c4eEn6bcTaA5jug
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: 967
 ht-degree: 100%
 
 ---
 
 # 2019.1 モバイルおよび統合の機能強化
 
-このページでは、2019.1 リリースに含まれるすべてのリソース管理の機能強化について説明します。この機能は実稼動環境で使用できるようになっています。
+このページでは、2019.1 リリースに含まれるすべてのリソース管理の機能強化について説明します。 この機能は本番環境で使用できるようになっています。
 
 2019.1 でのすべての変更のリストについては、[2019.1 リリースアクティビティの概要](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)を参照してください。
 
@@ -24,7 +36,7 @@ ht-degree: 100%
 
 リソースプランナーのデフォルトのフィルターでは、プロジェクトのグループを基準にしたフィルタリングができなくなりました。
 
-リソースプランナーを表示すると、デフォルトでは現在のプロジェクトと、日付が所定の条件を満たすプロジェクトのみが表示されます。デフォルトでは、次に該当するプロジェクトの情報が含まれています。
+リソースプランナーを表示すると、デフォルトでは現在のプロジェクトと、日付が所定の条件を満たすプロジェクトのみが表示されます。 デフォルトでは、次に該当するプロジェクトの情報が含まれています。
 
 * 予定完了日が当月の 1 日より後である。
 * 予定開始日が今日から 4 か月目の月の末日より前である。
@@ -41,7 +53,7 @@ ht-degree: 100%
 
 ## リソースプランナーフィルターでワイルドカードを使用する
 
-リソースプランナーでフィルターを作成する際に、ワイルドカードを使用できるようになりました。例えば、$$USER.ID を使用すると、ログインしているユーザーに関する情報をフィルタリングできます。また、$$USER.companyID を使用すると、ログインしているユーザーと同じ会社に属するすべてのユーザーに関する情報をフィルタリングできます。ユーザーベースの変数の完全なリストについては、[ワイルドカードフィルター変数](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)の[ユーザーベースのワイルドカードフィルター変数](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables)の節を参照してください。
+リソースプランナーでフィルターを作成する際に、ワイルドカードを使用できるようになりました。 例えば、$$USER.ID を使用すると、ログインしているユーザーに関する情報をフィルタリングできます。また、$$USER.companyID を使用すると、ログインしているユーザーと同じ会社に属するすべてのユーザーに関する情報をフィルタリングできます。 ユーザーベースの変数の完全なリストについては、[ワイルドカードフィルター変数](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)の[ユーザーベースのワイルドカードフィルター変数](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables)の節を参照してください。
 
 以前は、リソースプランナーフィルターでワイルドカードを使用できませんでした。
 
@@ -71,7 +83,7 @@ ht-degree: 100%
 * 役割とプロジェクト
 * 役割, プロジェクト, ユーザー
 
-この機能強化が行われる前は、すべてのレベルの情報が役割ビューに書き出されていました。これらのオプションは、以前のリリースでプロジェクトビューとユーザービューに導入されています。
+この機能強化が行われる前は、すべてのレベルの情報が役割ビューに書き出されていました。 これらのオプションは、以前のリリースでプロジェクトビューとユーザービューに導入されています。
 
 リソースプランナーからの情報の書き出しについては、[リソースプランナーからの情報の書き出し](../../../../resource-mgmt/resource-planning/export-resource-planner.md)を参照してください。
 
@@ -83,8 +95,8 @@ ht-degree: 100%
 
 リソースプランナーから書き出された情報の可用性と割り当ては、次の方法で表示できます。
 
-* 情報が属するオブジェクトの名前でグループ化しません。この場合、データの各行に、情報が属するオブジェクトの名前が表示されます。（これはデフォルトのオプションです）
-* 情報が属するオブジェクトの名前でグループ化します。この場合、書き出されたファイルにある情報は、Workfront に表示されるとおりに表示されます。
+* 情報が属するオブジェクトの名前でグループ化しません。 この場合、データの各行に、情報が属するオブジェクトの名前が表示されます。 （これはデフォルトのオプションです）
+* 情報が属するオブジェクトの名前でグループ化します。 この場合、書き出されたファイルにある情報は、Workfront に表示されるとおりに表示されます。
 
 この機能強化が導入される前は、書き出されたファイルにある情報は、Workfront に表示されるとおりに表示されていました。
 
@@ -96,7 +108,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->23.1 リリースで、リソーススケジュールツールは廃止され、Workfront から削除されました。ワークロードバランサーを使用したリソーススケジュール設定の詳細は、[ワークロードバランサーの概要](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)を参照してください。
+>23.1 リリースで、リソーススケジュールツールは廃止され、Workfront から削除されました。 ワークロードバランサーを使用したリソーススケジュール設定の詳細は、[ワークロードバランサーの概要](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)を参照してください。
 
 タイムラインのスケジュール設定では、タイムラインの更新や、ページからの移動の際に、選択した時間枠が保持されるようになりました。
 

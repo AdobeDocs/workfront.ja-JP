@@ -6,9 +6,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: 873
 ht-degree: 3%
 
 ---
@@ -52,13 +57,13 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->時間がログに記録された日時によっては、プロジェクト、タスク、または問題に関して、実際の時間と従来の実際の時間の間に不一致がある場合があります。<br>
+>時間がログに記録された日時によっては、プロジェクト、タスク、または問題に関して、実際の時間と従来の実際の時間の間に食い違いがある可能性があります。<br>
 >次のシナリオが存在します。
 >
 >* 実際の時間は、2021年5月以降に記録されたプロジェクト、タスク、イシューの時間を表します。
->* 従来の実際の時間数は、プロジェクト、タスク、イシューの有効期間について、プロジェクト、タスク、イシューに記録された時間を表します。 これには、2021年5月より前に現在の時間まで記録された時間が含まれます。
-><br>新しいフィールドとその値を反映するために、レポートを更新する必要がある場合があります。
-><br>Workfrontでは、実際の労力コストを計算するために、従来の実際の時間を使用しています。
+>* 従来の実際の時間数は、プロジェクト、タスク、イシューの有効期間について、プロジェクト、タスク、イシューに記録された時間を表します。これには、2021年5月より前に現在の時間まで記録された時間が含まれます。
+><br>新しいフィールドとその値を反映するには、レポートを更新する必要がある場合があります。
+><br>Workfrontでは、従来の実際の時間を使用して、実際の労力コストを計算します。
 
 詳しくは、[実際の時間数の表示](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)を参照してください。
 

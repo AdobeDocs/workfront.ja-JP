@@ -5,16 +5,21 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 86287956-445b-4d1c-9f62-1d5c8d58ee89
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/5YQwAWfSpW7jq940-7eTayXIvlMlkcHUjw7gfRy-ais
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: 323
 ht-degree: 100%
 
 ---
 
 # 23.3 リリース期間中のルックアンドフィールのアップデート
 
-このページでは、23.3 リリース期間内に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールにおけるアップデートについて説明します。これらの機能強化はプレビューにリリース後、最低 2 週間で実稼動環境で利用できるようになります。
+このページでは、23.3 リリース期間内に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールにおけるアップデートについて説明します。 これらの機能強化はプレビューにリリース後、最低 2 週間で本番環境で利用できるようになります。
 
 23.3 リリースで使用できるすべての変更内容の一覧について詳しくは、[23.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)を参照してください。
 
@@ -31,19 +36,19 @@ ht-degree: 100%
 * ページがアップロードされたときに、読み込みインジケーターが表示されるようになりました。
 * コピーアイコンは永続的で、テキストが付随します。リクエストが選択されていない場合、このアイコンは無効になります。
 
-詳しくは、[リクエストのコピーと送信](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md)を参照してください。ドキュメントは機能リリース後に更新されます。
+詳しくは、[リクエストのコピーと送信](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md)を参照してください。 ドキュメントは機能リリース後に更新されます。
 
 ## プロジェクトに新しいイシューを追加する際のデザインの更新
 
 >[!NOTE]
 >
->プレビューリリース予定日：2023年7月27日（PT）、迅速リリース向け実稼動予定：23.8 リリースを使用四半期リリース向け実稼動予定：23.10 リリースを使用
+>プレビューリリース予定日：2023年7月27日（PT）、迅速リリース向け実稼動予定：23.8 リリースを使用 四半期リリース向け実稼動予定：23.10 リリースを使用
 >
 >この機能は、当初は 23.3 リリースでリリースされる予定でしたが、その後遅れていました。
 
-新しいイシューをプロジェクトに送信する際に表示される新しいイシューボックスをアップデートしました。現在のインターフェイスは、新しいリクエストをリクエストキューに送信する際に表示される新しいリクエストボックスと同じです。
+新しいイシューをプロジェクトに送信する際に表示される新しいイシューボックスをアップデートしました。 現在のインターフェイスは、新しいリクエストをリクエストキューに送信する際に表示される新しいリクエストボックスと同じです。
 
-詳しくは、[イシューを作成](../../../manage-work/issues/manage-issues/create-issues.md)を参照してください。ドキュメントは機能リリース後に更新されます。
+詳しくは、[イシューを作成](../../../manage-work/issues/manage-issues/create-issues.md)を参照してください。 ドキュメントは機能リリース後に更新されます。
 
 ## 請求レートリストを更新
 

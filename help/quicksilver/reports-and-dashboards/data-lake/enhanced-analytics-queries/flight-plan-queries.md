@@ -3,33 +3,40 @@ content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
 title: フライトプランクエリ
-description: Analytics クエリの強化機能
+description: 拡張分析クエリ
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: afa58d44-fd5c-48ee-aeb8-58888aaacb28
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/lOFu0YEtESjdE7B2zpCeAFaPSOwKweaIxPwA3mcyGsI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 6%
+source-wordcount: 99
+ht-degree: 30%
 
 ---
 
 # フライトプランクエリ
 
-この記事のクエリを使用して、Enhanced Analytics と同様のデータビジュアライゼーションを作成できます。
+この記事のクエリを使用して、Enhanced Analyticsのクエリと同様のデータビジュアライゼーションを作成できます。
 
 >[!IMPORTANT]
 >
->クエリは、Enhanced Analytics で表示される結果と同様の結果を生成しますが、完全には一致しない場合があります。
+>クエリは、拡張分析で表示されるクエリと同様の結果を生成しますが、正確に一致しない場合があります。
 
 
 ## 前提条件
 
 開始する前に、
 
-1. Business Intelligence（BI）ツールとの接続を確立します。
-   1. [Snowflakeのリーダーアカウントまたは接続を作成する](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+1. Business Intelligence（BI）ツールとの連携を構築する：
+   1. [Snowflake のリーダーアカウントまたは接続の作成](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
    1. [Workfront Data Connect への接続の確立](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 
 接続を確立したら、この記事のクエリを使用してデータを抽出および視覚化できます。

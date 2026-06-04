@@ -3,15 +3,25 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: グループ化：プロジェクトのパーセント分類2
-description: このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。分類は10% ポイントの増分のパーセント完全な価値を示す：0-10%、11-20%、21-30%等
+description: このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。 分類は10% ポイントの増分のパーセント完全な価値を示す：0-10%、11-20%、21-30%等
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/yHjvnbed4MElnyYMFzxYAgfcFpeV0Mk0JieWjnKl0iI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: 258
 ht-degree: 72%
 
 ---
@@ -20,7 +30,7 @@ ht-degree: 72%
 
 <!--Audited: 10/2024-->
 
-このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。分類は10% ポイントの増分のパーセント完全な価値を示す：0-10%、11-20%、21-30%等
+このカスタムのプロジェクトのグループ化では、プロジェクトを完了率の値の範囲でグループ化して表示できます。 分類は10% ポイントの増分のパーセント完全な価値を示す：0-10%、11-20%、21-30%等
 
 次のグループ化では、プロジェクトを完了率の値で整理して、次のいずれかのグループに分けています。
 

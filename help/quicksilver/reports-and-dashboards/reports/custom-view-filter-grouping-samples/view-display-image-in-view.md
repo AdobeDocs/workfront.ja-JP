@@ -3,16 +3,26 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: ビュー：列に文字列ではなく画像を表示
-description: テキストモードを使用して、ビュー内のオブジェクトの名前を画像に置き換えることができます。また、置き換えるオブジェクトを開くためのリンクを画像に追加できます。
+description: テキストモードを使用して、ビュー内のオブジェクトの名前を画像に置き換えることができます。 また、置き換えるオブジェクトを開くためのリンクを画像に追加できます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/SUX5UzpdGqlmM02VJMmkYYK-yqzxNY81ZYa6z3vkWzs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 86%
+source-wordcount: 464
+ht-degree: 85%
 
 ---
 
@@ -20,7 +30,7 @@ ht-degree: 86%
 
 <!--Audited: 11/2024-->
 
-テキストモードを使用して、ビュー内のオブジェクトの名前を画像に置き換えることができます。また、置き換えるオブジェクトを開くためのリンクを画像に追加できます。
+テキストモードを使用して、ビュー内のオブジェクトの名前を画像に置き換えることができます。 また、置き換えるオブジェクトを開くためのリンクを画像に追加できます。
 
 >[!NOTE]
 >
@@ -63,13 +73,13 @@ ht-degree: 86%
 
 ## 例：プロジェクトビュー内のプロジェクトの名前を画像に置き換える。
 
-1. Web サイトまたは Adobe Workfront 外部サーバーに画像をアップロードします。Web ブラウザーを使用して画像にアクセスできる必要があります。
+1. Web サイトまたは Adobe Workfront 外部サーバーに画像をアップロードします。 Web ブラウザーを使用して画像にアクセスできる必要があります。
 
    >[!TIP]
    >
    >* ブラウザーのタイプはそれぞれ異なりますが、すべて URL を表示できます。
-   >* Workfront にアップロードされた画像は使用しないでください。Workfront に保存された画像は一般に使用できず、一定期間後に有効期限が切れるアクセスキーを持つので、時間の経過と共に、これらの画像はビューに表示されなくなります。
-   >* お使いのコンピューターに保存された画像に固有の URL がありません。画像のホスティングを提供し、画像をホストするサイトを見つけます。組織は既にそのようなサイトを持っている可能性があります。
+   >* Workfront にアップロードされた画像は使用しないでください。 Workfront に保存された画像は一般に使用できず、一定期間後に有効期限が切れるアクセスキーを持つので、時間の経過と共に、これらの画像はビューに表示されなくなります。
+   >* お使いのコンピューターに保存された画像に固有の URL がありません。 画像のホスティングを提供し、画像をホストするサイトを見つけます。 組織は既にそのようなサイトを持っている可能性があります。
 
 1. Web ブラウザーを使用して、保存した画像に移動します。
 1. 次の手順を実行して、画像の URL を取得します。
@@ -78,7 +88,7 @@ ht-degree: 86%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I used this blog post to document what kind of image we need for this: https://www.canto.com/blog/image-url/ (consulting uses this)) </p>
    -->
 
-   1. ブラウザーに応じて「**画像の場所をコピー**」または「**リンクを取得**」を右クリックして選択します。これで、その特定の画像の URL が取得され、クリップボードから貼り付けることができます。
+   1. ブラウザーに応じて「**画像の場所をコピー**」または「**リンクを取得**」を右クリックして選択します。 これで、その特定の画像の URL が取得され、クリップボードから貼り付けることができます。
    1. そのリンクを持つユーザー全員がリンクに移動するだけで画像を表示する権限を持ち、そのリンクにアクセスするためにログインする必要がないことを確認します。
 
 1. プロジェクトに移動し、プロジェクト名の横にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon-45x33.png)をクリックし、**編集**&#x200B;をクリックします。
@@ -106,4 +116,4 @@ ht-degree: 86%
    ```
 
 1. **完了** / **ビューを保存**&#x200B;をクリックします。
-選択したイメージは、プロジェクトビューのプロジェクト名に置き換えられ、そのイメージはプロジェクトへのリンクになります。
+選択した画像は、プロジェクトビューのプロジェクト名に置き換わり、画像はプロジェクトへのリンクになります。

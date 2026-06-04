@@ -5,12 +5,19 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 16%
+source-wordcount: 387
+ht-degree: 14%
 
 ---
 
@@ -24,9 +31,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->プレビュー：2025年10月2日（PT）
->実稼動（迅速リリース）：2025年10月15日（PT）
->すべての人のための制作：2025年10月16日
+>プレビュー：2025年10月2日>実稼動用の高速リリース：2025年10月15日>全員の実稼動環境：2025年10月16日
 
 必要な情報を簡単に表示できるように、リクエスト領域にビューを作成して保存する機能を追加しました。 これで、フィルターや列設定を含むビューを保存したり、ビューを切り替えたりできます。 Workfront管理者は、新しいビューをレイアウトテンプレートに追加できます。
 
@@ -56,7 +61,7 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >* プレビュー：2025年8月21日（PT）
->* 実稼動（迅速リリース）：2025年9月11日（PT）
+>* プロダクション高速リリース：2025年9月11日（PT）
 >* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 WorkfrontとWorkfront Planningでリクエストを行う際に、より優れたユーザーエクスペリエンスを作成するために、リクエストのエクスペリエンスを更新しました。

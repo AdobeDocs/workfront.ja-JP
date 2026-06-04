@@ -5,9 +5,14 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c1484bec-e38a-44a2-aa0c-ec92ad10185d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/N-bcrKom3F2cHe1QqC-0LFTQsnAG7fRTEqMR8z4lRvg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: 455
 ht-degree: 96%
 
 ---

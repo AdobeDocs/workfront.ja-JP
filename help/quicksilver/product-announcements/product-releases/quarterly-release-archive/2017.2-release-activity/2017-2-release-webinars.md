@@ -7,10 +7,19 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97091ac4-f5de-4256-aa24-f96d083ced49
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/j-B0syjTynUyElEvzamXoagAzd8pl4FfutepHohOHPA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: 426
+ht-degree: 98%
 
 ---
 
@@ -18,7 +27,7 @@ ht-degree: 100%
 
 これらのウェビナーは、2017.2 リリースに含まれる機能に焦点を当てたものです。 
 
-2017.2 リリースは現在プレビューでテストできます。2017.2 リリースは、2017年7月末または 2017年8月初旬に、実稼動環境で利用可能になる予定です。
+2017.2 リリースは現在プレビューでテストできます。2017.2 リリースは、2017年7月末または 2017年8月初旬に、本番環境で利用可能になる予定です。
 
 ウェビナーで扱われる機能の詳細については、[2017.2 リリースアクティビティの概要](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)ページを参照してください
 
@@ -29,7 +38,7 @@ ht-degree: 100%
 
 ## 2017.2 リリースウェビナー（2017年6月27日（PT）） {#2017-2-release-webinar-june-27-2017}
 
-Workfront 2017.2 リリースウェビナーは、6月27日（PT）に Workfront 製品チームによって発表されました。 
+Workfront 2017.2 リリースウェビナーは、6月27日（PT）に Workfront 製品チームによって発表されました。  
 
 便宜上、このウェビナーは次のトピックに分かれています。
 
@@ -73,7 +82,7 @@ Workfront 2017.2 リリースウェビナーは、6月27日（PT）に Workfront
 ウェビナーのこの部分には、次のトピックが含まれています。
 
 * プルーフ承認保留中のアプリ内通知
-* アイテムの購読：タスク、イシュー、プロジェクト
+* 項目:Tasks、イシュー、プロジェクトの購読
 * 稼働率レポートを TSV と PDF として書き出し
 * マイ作業カレンダーのアップデート
 * ガントチャートの向上
@@ -102,4 +111,4 @@ Workfront 2017.2 リリースウェビナーは、6月27日（PT）に Workfront
 
 ## 2017.2 Beta 1 および 2（2017年5月24日（PT）） {#2017-2-beta-1-and-2-may-24-2017}
 
-リリースウェビナーは 2017年5月24日に発表されました。このウェビナーでは、2017.2 Beta 1 リリースと Beta 2 リリースで提供される機能について説明します。
+リリースウェビナーは 2017年5月24日に発表されました。 このウェビナーでは、2017.2 Beta 1 リリースと Beta 2 リリースで提供される機能について説明します。

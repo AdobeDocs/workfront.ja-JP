@@ -2,39 +2,47 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: チーム別アクティビティ クエリ
-description: Analytics クエリの強化機能
+title: チーム別アクティビティクエリ
+description: 拡張分析クエリ
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 6f07e52b-b813-4b3a-9333-0c9300e051ca
-source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
+TQID: https://experienceleague.adobe.com/q4x3b0G-hwtFUAkNyRp1oWnAi09Kh8qFO77U8aDEl98
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 3%
+source-wordcount: 172
+ht-degree: 18%
 
 ---
 
-# チーム別アクティビティ クエリ
+# チーム別アクティビティクエリ
 
-この記事のクエリを使用して、Enhanced Analytics と同様のデータビジュアライゼーションを作成できます。
+この記事のクエリを使用して、Enhanced Analyticsのクエリと同様のデータビジュアライゼーションを作成できます。
 
 >[!IMPORTANT]
 >
->クエリは、Enhanced Analytics で表示される結果と同様の結果を生成しますが、完全には一致しない場合があります。
+>クエリは、拡張分析で表示されるクエリと同様の結果を生成しますが、正確に一致しない場合があります。
 
 
 ## 前提条件
 
 開始する前に、
 
-1. Business Intelligence（BI）ツールとの接続を確立します。
-   1. [Snowflakeのリーダーアカウントまたは接続を作成する](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+1. Business Intelligence（BI）ツールとの連携を構築する：
+   1. [Snowflake のリーダーアカウントまたは接続の作成](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
    1. [Workfront Data Connect への接続の確立](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 
 接続を確立したら、この記事のクエリを使用してデータを抽出および視覚化できます。
 
-## ホームチームのユーザーのログインイベント 
+## Home Teamsのユーザーのログインイベント 
 
 ```
 WITH userlogins as ( 
@@ -61,7 +69,7 @@ WHERE hometeamid is not null 
 GROUP BY uc.hometeamid, TO_DATE(ul.lastlogindate) 
 ```
 
-### ホームチームのユーザーのログインイベント：ドリルダウン
+### Home Teamsのユーザーのログインイベント：ドリルダウン
 
 ```
 WITH userlogins as ( 
@@ -89,7 +97,7 @@ WHERE hometeamid is not null 
 GROUP BY uc.hometeamid, uc.userid, TO_DATE(ul.lastlogindate)
 ```
 
-## チーム ユーザーのログインイベント
+## チームのユーザーログインイベント
 
 ```
 WITH userlogins as ( 
@@ -117,7 +125,7 @@ WHERE tmc.teamid is not null 
 GROUP BY tmc.teamid, TO_DATE(ul.lastlogindate)
 ```
 
-### チームのユーザーのログインイベント：ドリルダウン
+### チームのユーザーのログインイベント：ドリルダウンする
 
 ```
 WITH userlogins as ( 
@@ -458,7 +466,7 @@ WHERE tmc.teamid is not null 
 GROUP BY tmc.teamid, TO_DATE(tasks_done.task_completion_date) 
 ```
 
-### チームのユーザーのタスク完了イベント：ドリルダウン
+### チームのユーザーのタスク完了イベント：ドリルダウンする
 
 ```
 WITH task_status_done as ( 

@@ -6,12 +6,24 @@ description: リソースプールは、Adobe Workfront でのリソースの管
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/h5f9-95DJ4UoSyR01MwD0jfGXru3s-BT3HvzdLFX4CY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 87%
+source-wordcount: 600
+ht-degree: 88%
 
 ---
 
@@ -76,7 +88,7 @@ Also - take out all the references to Preview and Prod at prod final
 
 ## 1 つのプロジェクトまたはテンプレートへのリソースプールの関連付け
 
-リソースプールにプロジェクトを関連付けるのと同じ方法で、テンプレートにリソースプールを関連付けることができます。この記事では、リソースプールをプロジェクトに関連付ける方法について説明します。
+リソースプールにプロジェクトを関連付けるのと同じ方法で、テンプレートにリソースプールを関連付けることができます。 この記事では、リソースプールをプロジェクトに関連付ける方法について説明します。
 
 1. プロジェクトに移動し、プロジェクト名の横にある&#x200B;**詳細** アイコン ![詳細](assets/more-icon.png)をクリックしてから、**編集**&#x200B;をクリックします。
 
@@ -110,9 +122,9 @@ Also - take out all the references to Preview and Prod at prod final
 
    >[!NOTE]
    >
-   >* テンプレートを一括で編集する場合は、選択したすべてのテンプレートに共通のリソースプールのみがこのフィールドに表示されます。選択したテンプレートに共有リソースプールがない場合、このフィールドは空です。ここで指定したリソースプールは、プロジェクトまたはテンプレートの個々のリソースプールを上書きします。
+   >* テンプレートを一括で編集する場合は、選択したすべてのテンプレートに共通のリソースプールのみがこのフィールドに表示されます。 選択したテンプレートに共有リソースプールがない場合、このフィールドは空です。 ここで指定したリソースプールは、プロジェクトまたはテンプレートの個々のリソースプールを上書きします。
    >
-   >* プロジェクトを一括で編集する際に、選択したプロジェクトに異なるリソースプールがある場合は、「複数の値」のインジケーターが表示されます。プロジェクトのリソースプールを一括で追加する場合、選択したプロジェクトにすべてのプールが追加され、元のリソースプールが上書きされます。
+   >* プロジェクトを一括で編集する際に、選択したプロジェクトに異なるリソースプールがある場合は、「複数の値」のインジケーターが表示されます。 プロジェクトのリソースプールを一括で追加する場合、選択したプロジェクトにすべてのプールが追加され、元のリソースプールが上書きされます。
 
    ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 

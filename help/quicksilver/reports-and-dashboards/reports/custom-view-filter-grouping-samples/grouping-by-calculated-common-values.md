@@ -3,15 +3,25 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: グループ化：グループ化のすべてのオブジェクトに共通の計算値でリスト結果を整理します
-description: タスクを表示するときに、完了率でグループ化し、0～25、26～50、51～75、75～99、100 の範囲に分けたい場合があります。これは、テキストモードを使用してグループ化を作成することで可能です。
+description: タスクを表示するときに、完了率でグループ化し、0～25、26～50、51～75、75～99、100 の範囲に分けたい場合があります。 これは、テキストモードを使用してグループ化を作成することで可能です。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/VnaXts6I1BhZJXLUABom3d3Lky11dpgwHvzkZ9kiC-c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: 247
 ht-degree: 82%
 
 ---
@@ -20,7 +30,7 @@ ht-degree: 82%
 
 <!--Audited: 10/2024-->
 
-タスクを表示するときに、完了率でグループ化し、0～25、26～50、51～75、75～99、100 の範囲に分けたい場合があります。これは、テキストモードを使用してグループ化を作成することで可能です。
+タスクを表示するときに、完了率でグループ化し、0～25、26～50、51～75、75～99、100 の範囲に分けたい場合があります。 これは、テキストモードを使用してグループ化を作成することで可能です。
 
 ![計算値でグループ化](assets/grouping-calculated-value-column-to-all-objects.png)
 

@@ -3,15 +3,25 @@ content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: ビュー：拡張されたユーザーの詳細
-description: このユーザービューには、ユーザーに関する情報が表示されます。名前、アクセスレベル、会社に加えて、グループ、チーム、担当業務のリストが表示されます。
+description: このユーザービューには、ユーザーに関する情報が表示されます。 名前、アクセスレベル、会社に加えて、グループ、チーム、担当業務のリストが表示されます。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a978b43-4718-43fb-80b8-844b35e09d06
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/o1AMPlwE9bN8QPeYU3XuL6ZHWuIp2fVK3kYr2-dKDFg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: 215
 ht-degree: 73%
 
 ---
@@ -20,7 +30,7 @@ ht-degree: 73%
 
 <!--Audited: 11/2024-->
 
-このユーザービューには、ユーザーに関する情報が表示されます。名前、アクセスレベル、会社に加えて、グループ、チーム、担当業務のリストが表示されます。
+このユーザービューには、ユーザーに関する情報が表示されます。 名前、アクセスレベル、会社に加えて、グループ、チーム、担当業務のリストが表示されます。
 
 ![expanded_user_view.png](assets/expanded-user-view-350x75.png)
 

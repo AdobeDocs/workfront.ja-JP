@@ -5,18 +5,23 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/SmDWjpvMrdKnaNmizajU-ZqBcmcH4z0g649Kd-OywZg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 65%
+source-wordcount: 185
+ht-degree: 67%
 
 ---
 
 # 2025年第 2 四半期のドキュメント管理の機能強化
 
-このページでは、2025年第 2 四半期にプレビュー環境にリリースされた、すべてのドキュメント管理の機能強化について説明します。これらの機能強化は、前述のように本番環境で利用できるようになります。
+このページでは、2025年第 2 四半期にプレビュー環境にリリースされた、すべてのドキュメント管理の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2025年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
 
@@ -48,7 +53,7 @@ For more information, see [Use new document approvals and proofing together](/he
 >
 >プレビューリリース：2025年3月20日（PT）。すべてのお客様向けの実稼動版：2025年3月20日（PT）
 
-デスクトップ校正ビューアがバージョン 2.1.45に更新されました。この更新により、ビューアーは
+デスクトップ校正ビューアがバージョン 2.1.45に更新されました。 この更新により、ビューアーは
 
 * Electron バージョン 35
 * Chromium バージョン 134
