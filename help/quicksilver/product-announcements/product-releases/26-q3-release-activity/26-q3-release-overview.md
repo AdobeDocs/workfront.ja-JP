@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1588'
 ht-degree: 20%
 
 ---
@@ -205,6 +205,15 @@ ht-degree: 20%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}"> カスタム数式の実際の時間に対する変更</a> <p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p><b>actualWorkRequired</b> （従来の実際の時間）を使用する既存のカスタム式は、代わりに<b>actualWorkRequiredDouble</b> （実際の時間）を使用するように移行されました。 <b>actualWorkRequired</b>は、計算および数式で使用できなくなりました。</p>
+            </td>
+            <td><p>2026年6月1日（PT）</p></td>
+            <td><p>2026年6月1日（PT）</p></td>
+            <td><p>2026年6月1日（PT）</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}"> キャンバスダッシュボードレポートのカスタム通貨データフィールド </a>

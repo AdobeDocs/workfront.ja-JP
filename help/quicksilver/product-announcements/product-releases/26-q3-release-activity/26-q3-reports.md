@@ -4,10 +4,10 @@ description: 2026年第3四半期レポートの強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,22 @@ ht-degree: 4%
 このページでは、2026年第3四半期リリースで行われたレポートの機能強化について、プレビュー環境に対して説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2026年第3四半期のリリースサイクルで現時点で利用可能なすべての変更のリストについては、[2026年第3四半期のリリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)を参照してください。
+
+## カスタム式の実際の時間の変更
+
+>[!NOTE]
+>
+>プレビュー：2026年6月1日> プロダクション高速リリース：2026年6月1日>全員のプロダクション：2026年6月1日
+
+2025年、新しい実時間数フィールドがWorkfront データベースに`actualWorkRequiredDouble`として追加され、既存の実時間数フィールド （`actualWorkRequired` データベース内）の名前が従来の実時間数に変更されました。 詳しくは、[&#x200B; リリースノート &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)を参照してください。
+
+2026年6月、`actualWorkRequired` （従来の実際の時間）を使用する既存のカスタム式は、代わりに`actualWorkRequiredDouble` （実際の時間）を使用するように移行されました。 `actualWorkRequired`は、計算および数式で使用できなくなりました。
+
+また、すべてのレポートで`actualWorkRequiredDouble`を使用することを強くお勧めします。
+
+フィールドを置き換える場合、`actualWorkRequired`は値を分単位で保存し、`actualWorkRequiredDouble`は小数点以下桁で時間単位で値を保存することに注意してください。
+
+実際の時間について詳しくは、[実際の時間を表示](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)を参照してください。
 
 ## キャンバスダッシュボードレポートのカスタム通貨データフィールド
 
