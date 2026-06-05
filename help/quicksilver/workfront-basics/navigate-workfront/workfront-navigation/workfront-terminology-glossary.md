@@ -38,9 +38,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 21553
+source-wordcount: 21587
 ht-degree: 96%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>プロジェクト、タスク、またはイシューレポートでは、[!UICONTROL 実際の時間数] は、2021年5月以降に、プロジェクト、タスク、またはイシューに関して記録されたすべての時間の合計です。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span>タスク 1 の [!UICONTROL Updates] タブから「ログ時間」をクリックし、25 時間と入力した場合、タスク 1 の実際の時間は 25 時間になります。 </p> <p>[!DNL Workfront] 次の式を使用して、親タスクまたはプロジェクトの [!UICONTROL Actual Hours] を計算します。</p> 
+   <td> <p>プロジェクト、タスク、またはイシューレポートでは、[!UICONTROL 実際の時間数] は、2021年5月以降に、プロジェクト、タスク、またはイシューに関して記録されたすべての時間の合計です。 すべてのレポートで実際の時間を使用し、従来の実際の時間を使用しないことを強くお勧めします。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span>タスク 1 の [!UICONTROL Updates] タブから「ログ時間」をクリックし、25 時間と入力した場合、タスク 1 の実際の時間は 25 時間になります。 </p> <p>[!DNL Workfront] 次の式を使用して、親タスクまたはプロジェクトの [!UICONTROL Actual Hours] を計算します。</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
@@ -1293,7 +1293,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 実際のレガシー時間数]</td> 
-   <td> <p>プロジェクト、タスク、またはイシューレポートでは、[!UICONTROL 実際のレガシー時間数] は、2021年5月以前を含む、プロジェクト、タスク、またはイシューに関して記録されたすべての時間の合計です。</p>  
+   <td> <p>プロジェクト、タスク、またはイシューレポートでは、[!UICONTROL 実際のレガシー時間数] は、2021年5月以前を含む、プロジェクト、タスク、またはイシューに関して記録されたすべての時間の合計です。 すべてのレポートで実際の時間を使用し、従来の実際の時間を使用しないことを強くお勧めします。</p>  
    <p>実際のレガシー時間数は、プロジェクト、タスク、またはイシューの詳細エリアに実際の時間数として表示されます。 </p>
    <p>詳しくは、<strong>実際の時間数</strong>も参照してください。
     <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">実際の時間数の表示</a>を参照してください。</p>
