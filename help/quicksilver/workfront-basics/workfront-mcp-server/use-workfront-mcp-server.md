@@ -5,9 +5,9 @@ title: Adobe Workfront MCP サーバーの使用
 description: Adobe Workfront MCP サーバーを使用して、AI エージェント基盤で自然言語の会話を通じてWorkfrontアイテムを検索、作成、更新、管理します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 * AI エージェント型プラットフォームとWorkfront MCP サーバー間の接続を設定する必要があります。 設定手順については、[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)を参照してください。
 * Workfront インスタンスは、Adobe Identity Management システム（IMS）で有効にする必要があります。
 * 操作する項目に必要なアクセス レベルとオブジェクト権限を持つWorkfront アカウントが必要です。
-
+* MCPをWorkfront Planningで使用するには、Adobe Workfront Planningを含むWorkfront パッケージに属している必要があります。
 
 この記事では、接続を既に設定していることを前提としています。 設定について詳しくは、[Adobe Workfront MCP サーバーの設定](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)を参照してください。
 
@@ -101,6 +101,10 @@ Workfrontのアイテムを削除するには、次の質問を行います。
 
 ### プランニングレコードの操作
 
+>[!IMPORTANT]
+>
+>* MCPをWorkfront Planningで使用するには、Adobe Workfront Planningを含むWorkfront パッケージに属している必要があります。
+
 プランニングレコードを管理するには、次の質問を行います。
 
 * *ブランドマーケティングチームの「Q2 マーケティングプラン」という新しいプランニングレコードを作成します。*
@@ -163,7 +167,7 @@ Workfrontでは、AI エージェンティック プラットフォーム プロ
 +++ 展開すると、Workfront MCP サーバーを日常的に使用するためのトラブルシューティングのヒントが表示されます。
 
 | 問題 | 考えられる原因 | 修正 |
-|---|---|---|
+| --- | --- | --- |
 | AI エージェントプラットフォームは古い情報を提供しています。 | AI エージェント型プラットフォームは、会話の初期段階で収集したデータを再利用しています。 | Workfrontから取得した最新のデータをご確認ください。 |
 | Ai エージェント型プラットフォームが、誤ったWorkfront項目からデータを返しました。 | AI エージェントプラットフォームは、あいまいな表現にもとづいて間違った項目を選択しました。 | より具体的な名前、ID、フィルターを使用して、もう一度質問します。 |
 | 更新または削除がWorkfrontで有効になりません。 | Workfront管理者がWorkfront MCP サーバーの書き込みアクションを無効にしているか、特定の項目に対してアクションを実行する権限がありません。 | アクションが実行されたAI エージェント型プラットフォームと確認します。 次に、Workfront MCP サーバーに対する書き込みアクションが有効になっており、項目を変更する権限があることを確認します。 |
