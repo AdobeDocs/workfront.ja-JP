@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
 workflow-type: tm+mt
 source-wordcount: 3224
 ht-degree: 14%
@@ -282,8 +282,8 @@ You can import records from other applications by linking them to existing recor
      >
      >グループ化またはサブグループ化の最後のレコードの後に新しいレコードを追加すると、Workfrontはグループ化に含まれるフィールドに自動的に入力します。 必要に応じて、これらのフィールドを手動で編集できます。レコードはグループ化から削除される場合があります。
 
-   * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。 これにより、開始するレコードの下に空の行が追加されます。
-   * レコードのプライマリフィールドにカーソルを合わせ、フィールドの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、次に&#x200B;**レコードを上に挿入**&#x200B;または&#x200B;**レコードを下に挿入**&#x200B;をクリックします。
+   * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。 これにより、開始するレコードの下に空の行が追加されます。<!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * レコードのプライマリフィールドにカーソルを合わせ、フィールドの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、次に&#x200B;**レコードを上に挿入**&#x200B;または&#x200B;**レコードを下に挿入**&#x200B;をクリックします。<!--<span class="preview"> This is not possible in the Preview environment</span>-->
 
    ![&#x200B; テーブルの行に新しいキャンペーンを追加する](assets/adding-a-new-campaign-in-table-row.png)
 
