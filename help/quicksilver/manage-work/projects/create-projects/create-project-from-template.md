@@ -9,22 +9,15 @@ exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/FnHU08XS4oFb81ho0EOy1ymzulaVVIX10Jd----Hu4o
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 1404
-ht-degree: 65%
+source-wordcount: 1484
+ht-degree: 62%
 
 ---
 
@@ -137,7 +130,7 @@ Old:
 
 1. 次のいずれかの操作を行います。
 
-   * 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新規プロジェクト**&#x200B;を展開します。
+   * 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![ メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**プロジェクト**&#x200B;をクリックして&#x200B;**新規プロジェクト**&#x200B;を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
 
      >[!TIP]
@@ -174,7 +167,7 @@ Old:
 
       * 従来のWorkfrontストレージテンプレート
 
-        従来のWorkfront ストレージテンプレートには、名前の横に従来のストレージアイコン ![従来のストレージアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
+        従来のWorkfront ストレージテンプレートには、名前の横に従来のストレージアイコン ![従来のストレージアイコン ](assets/legacy-storage-project-icon.png)が表示されます。
 
         テンプレートと今後のプロジェクトに関するドキュメントは、Workfront ストレージに保存されます。
       * Adobeクラウドストレージテンプレート
@@ -191,7 +184,14 @@ Old:
       >
       > Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
       >
-      >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+      >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+
+
+      プレビュー/実稼動リリースの場合：上記のメモの3つ目の箇条書きを書き換える必要があります。
+
+      >* ポートフォリオまたはプログラムからテンプレートを使用してプロジェクトを作成する場合、次のシナリオが存在します。
+      >  * 従来のAdobe ストレージポートフォリオまたはプログラムからWorkfront クラウドストレージテンプレートを使用して、プロジェクトを作成することはできません。
+      >  * 従来のストレージテンプレートを使用して、Adobe ストレージポートフォリオまたはプログラム用のAdobe クラウドストレージプロジェクトを作成できます。 新しいプロジェクトには、テンプレートのドキュメントとフォルダーが添付されません。
 
    1. 右側の次のテンプレートの詳細を確認します。
 
@@ -201,7 +201,7 @@ Old:
       * テンプレート内のすべてのタスクの数
       * テンプレートのカスタムフォームの名前
 
-   1. （オプション）左側のパネルでテンプレート名の名前にカーソルを合わせ、**お気に入り** **アイコン** ![お気に入りアイコン &#x200B;](assets/favorites-icon-small.png)をクリックして、後で使用するためにお気に入りとしてマークします。
+   1. （オプション）左側のパネルでテンプレート名の名前にカーソルを合わせ、**お気に入り** **アイコン** ![お気に入りアイコン ](assets/favorites-icon-small.png)をクリックして、後で使用するためにお気に入りとしてマークします。
 
       または
 
@@ -249,12 +249,12 @@ Old:
 >
 >Workfront ドキュメントストレージに関連付けられたテンプレートは、従来のWorkfront ストレージプロジェクトを作成します。 ドキュメント用のAdobe クラウドストレージに関連付けられたテンプレートは、Adobe クラウドストレージプロジェクトを作成します。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
 >
->詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+>詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 {{step1-to-templates}}
 
 1. 使用するテンプレートの名前をクリックします。
-1. ヘッダーのテンプレート名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、「**プロジェクトを作成**」をクリックします。
+1. ヘッダーのテンプレート名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、「**プロジェクトを作成**」をクリックします。
 
    ![テンプレートからプロジェクトを作成](assets/project-sharing-on-template.png)
 
