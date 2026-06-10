@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 784f376722301da9d450a4021d1d24ffc21f3165
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 97%
+source-wordcount: 244
+ht-degree: 68%
 
 ---
 
@@ -70,3 +70,7 @@ ht-degree: 97%
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
 1. プルーフのダウンロード先とするファイルシステム上の場所を参照し、「**保存**」をクリックします。
+
+   >[!NOTE]
+   >
+   >プルーフに複数のファイルが含まれている場合、ip ファイルを生成します。 プルーフ内の2つ以上のファイルが同じファイル名を共有する場合、.zipには、そのファイルの1つのコピーのみが含まれます。 その結果、.zip内のファイル数は、プルーフビューアに表示されるファイル数よりも少なくなります。 例えば、2が`document.pdf`という名前の5つのファイルを含むプルーフは、4つのファイルを含む.zipを生成します。
