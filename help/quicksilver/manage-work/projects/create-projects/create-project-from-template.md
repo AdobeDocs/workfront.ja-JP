@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 1404
-ht-degree: 65%
+source-wordcount: 1484
+ht-degree: 62%
 
 ---
 
@@ -192,6 +192,13 @@ Old:
       > Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
       >
       >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+
+
+      プレビュー/実稼動リリースの場合：上記のメモの3つ目の箇条書きを書き換える必要があります。
+
+      >* ポートフォリオまたはプログラムからテンプレートを使用してプロジェクトを作成する場合、次のシナリオが存在します。
+      >  * 従来のAdobe ストレージポートフォリオまたはプログラムからWorkfront クラウドストレージテンプレートを使用して、プロジェクトを作成することはできません。
+      >  * 従来のストレージテンプレートを使用して、Adobe ストレージポートフォリオまたはプログラム用のAdobe クラウドストレージプロジェクトを作成できます。 新しいプロジェクトには、テンプレートのドキュメントとフォルダーが添付されません。
 
    1. 右側の次のテンプレートの詳細を確認します。
 

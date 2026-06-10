@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 7941
+source-wordcount: 7980
 ht-degree: 86%
 
 ---
@@ -303,7 +303,9 @@ Old:
       <p><b>メモ</b></p>
       <ul>
       <li>プロジェクトにポートフォリオを追加または削除するには、ポートフォリオの管理権限が必要です。</li>
-      <li>従来のWorkfrontとAdobe クラウドストレージの両方を使用している場合、異なるストレージタイプを使用するプロジェクト間でタスクをコピーすることはできません。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。</li></ul> 
+      <li>従来のWorkfrontとAdobe クラウドストレージの両方を使用している場合、異なるストレージタイプを使用するプロジェクト間でタスクをコピーすることはできません。 </li>
+      <li>レガシーストレージプロジェクトをAdobe クラウドストレージポートフォリオまたはプログラムに移行したり、Adobe クラウドストレージプロジェクトをレガシーポートフォリオまたはプログラムに移行したりすることはできません。</li>
+      </ul> <p>Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。</p>
       詳しくは、<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md"> プロジェクトおよび関連オブジェクトのドキュメント管理の概要</a>を参照してください。 
       </td> 
       </tr> 
