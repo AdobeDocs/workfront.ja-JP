@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 6aae88e6030fea5c3a9ea6dd05e666de6af9f59f
+source-git-commit: ea8b2a57504ffdbedcfeb56c47b9907647db6787
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1902'
 ht-degree: 18%
 
 ---
@@ -357,7 +357,7 @@ ht-degree: 18%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Workfront MCP コネクタの更新</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>Workfront MCP コネクタを更新しました。<ul><li>ClaudeはMCP コネクタに接続できるようになりました。</li><li>EUまたは<!-- from instances that do not use AWS-->のインスタンスからMCP コネクタを使用できるようになりました。</p>
+                <p>Workfront MCP コネクタを更新しました。<ul><li>ClaudeはMCP コネクタに接続できるようになりました。</li><li>EU <!--or from instances that do not use AWS-->のインスタンスからMCP コネクタを使用できるようになりました。</p>
             </td>
             <td><p>2026年6月11日（PT）</p></td>
             <td><p>2026年6月11日（PT）</p></td>
