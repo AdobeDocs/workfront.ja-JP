@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
+source-git-commit: 433e908e6234490cb098b69916fe2b766729a27b
 workflow-type: tm+mt
-source-wordcount: '14175'
+source-wordcount: '14180'
 ht-degree: 94%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 94%
          * [2026年第3四半期ドキュメントの機能強化](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
          * [2026年第3四半期の財務管理の強化](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md)
          * [2026年第3四半期ホーム機能の強化](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md)
+         * [2026年第3四半期プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md)
          * [2026年第3四半期レポートの強化](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md)
          * [2026年第3四半期の機能強化のリクエスト](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
          * [2026年第3四半期その他の機能強化](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md)

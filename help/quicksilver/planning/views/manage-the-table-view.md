@@ -19,20 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 3499
-ht-degree: 48%
+source-wordcount: 6148
+ht-degree: 46%
 
 ---
 
 # テーブルビューの管理
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページで強調表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -158,18 +158,9 @@ Old:
 
 ## テーブルビューの管理 {#manage-a-table-view}
 
-<!--
-Depending on what environment you access record types from, the record type page displays using two different views: 
+<span class="preview"> テーブル ビューの管理は、アクセス元の環境によって異なります。</span>
 
-* Table view, in the Production environment
-* <span class="preview">List view, in the Preview environment</span>
-
-OR: 
-
-If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep that list as the List view and change the Table view in this article to "Table redesigned view" for now; keep it "the table view" here for the future; for the time being, just say "Updating the view in Prod and Preview is different and make the separate sections for Preview and Prod below with the different steps.
-
-### Manage the table view in the Production environment
--->
+## 実稼動環境でのテーブルビューの管理
 
 テーブルビューを作成すると、選択したタイプのすべてのレコードがテーブルに表示されます。 各行は一意のレコードであり、各列はレコードフィールドです。 デフォルトでは、すべてのフィールドとすべてのレコードが表示されます。
 
@@ -627,131 +618,134 @@ To sort grouped records:
 >
 >リアルタイムのプレゼンス指標には、現在Workfront Planningの任意の場所でフィールドを編集しているユーザーが表示されます。 これには、レコードのテーブルビューまたは詳細領域が含まれます。
 
-<!--
+
 
 <div class="preview">
 
-### Manage the list view in the Preview environment
+## プレビュー環境でのリスト表示の管理
 
-**********MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION?????????*********
+<!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
-(*****************Maybe add this when they remove the list view from connection pages and request form list: In the Preview environment, the table view has been replaced with the list view. *******************)
+<!-- In the Preview environment, the table view has been replaced with the list view. *******************-->
 
+<!--
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
+-->
 
-When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
+テーブルビューを作成すると、選択したタイプのすべてのレコードがテーブルに表示されます。 各行は一意のレコードであり、各列はレコードフィールドです。 デフォルトでは、すべてのフィールドとすべてのレコードが表示されます。
 
-To manage a table view: 
+テーブルビューを管理するには：
 
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、テーブルビューを作成します。
 
-    ![Table view example](assets/table-view-example-g-list.png)
+   ![テーブルビューの例](assets/table-view-example-g-list.png)
 
-1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
-    * Short
-    * Standard
-    * Medium
-    * Tall 
+1. （オプション）「**行の高さ**」をクリックし、次のオプションから選択して、テーブルの行の高さを変更します。
+   * 低い
+   * 標準
+   * 中
+   * 高い
 
-1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
+1. （オプション）「**フルスクリーン**」アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
 
-1. Update the following view elements as described in the subsections below:
-    * [Columns (or fields)](#add-columns-or-fields)
-    * [Rows (or records)](#add-rows-or-records)
-    * [Filters](#add-filters) 
-    * [Sort](#add-a-sort) 
-    * [Grouping](#add-groupings)
-    * [Row colors](#add-row-colors)
-    * [Real-time presence indicator](#enable-the-real-time-presence-indicator)
-
-
-### Add columns (or fields) {#add-columns}
-
-The column headers of a table view display fields associated with the records in the view. Fields displayed in the table view also display in the Details section of a record. 
-
-For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
-
-Adding columns to a view is identical to adding fields to a record type.  
-
-You can add up to 500 fields (or columns) in a table view. 
-
-1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
-
-1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-
-    The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
-
-1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field. 
-   
-1. Do one of the following to reorder columns in the table:
-
-    * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
-
-    * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
-        
-        ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
-
-        >[!TIP]
-        >
-        >* The Name field is always the first field in the table view, by default. This is considered a primary field. 
-        >
-        >* You cannot move the Name field to another position, unless you designate another field as the primary field. For more information, continue with Step 5. **********************accurate?**************
-        >
-        >
- 
-    * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 5. **********************accurate?**************
-
-1. (Optional) Hover over a field name in the column header of any field that does not display in the first column of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    
-    ![Set as primary field option in table view](assets/set-as-primary-field-option-table-view.png)
+1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
+   * [列（またはフィールド）](#add-columns-or-fields)
+   * [行（またはレコード）](#add-rows-or-records)
+   * [フィルター](#add-filters)
+   * [並べ替え](#add-a-sort)
+   * [グループ化](#add-groupings)
+   * [行の色分け](#add-row-colors)
+   * [リアルタイムプレゼンス指標](#enable-the-real-time-presence-indicator)
 
 
-1. Click **Set field** to confirm. 
+### 列（またはフィールド）の追加 {#add-columns-1}
 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
+テーブルビューの列ヘッダーには、ビュー内のレコードに関連付けられたフィールドが表示されます。 テーブルビューに表示されるフィールドは、レコードの「詳細」セクションにも表示されます。
 
-    Primary fields become the record's title and display in the header area of the record's page, and everywhere where the records display. For example, the record title displays in connected fields and all views. For more information about primary fields, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
+詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
-    >[!TIP]
-    >
-    >Click on the **information** icon ![Information icon](assets/info-icon.png) to the right of the field name in a column to view its **Description**.
+ビューへの列の追加は、レコードタイプへのフィールドの追加と同じです。
 
-1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
+テーブルビューには最大 500 個のフィールド（または列）を追加できます。
 
-    >[!TIP]
-    >
-    >The changes you make to the column width and order are permanent and visible to all users who access the same view. 
+1. レコードタイプページに移動し、テーブルビューのタブをクリックするか、**+ ビュー**&#x200B;をクリックして新しいビューを追加し、**テーブル**&#x200B;を選択します。
 
-1. Hover over the column header, then click the downward-pointing arrow, then click **Hide field**
+1. [フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)の記事の説明に従って、フィールド（または列）の追加を開始します。
 
-    Or
+   追加した列は、レコードタイプにアクセスするすべてのユーザーに表示され、レコードのページに新しいフィールドとして追加されます。
 
-    Click **Fields** in the table toolbar and deselect the toggle associated with the fields (or columns) you want to hide. The **Fields visibility and order** box displays.
+1. （オプション）ツールバーの&#x200B;**フィールド** アイコン ![&#x200B; フィールドアイコン &#x200B;](assets/fields-icon.png)をクリックし、フィールドを検索してから、フィールド名の右側にあるトグルを選択解除して、フィールドを非表示にします。
 
-    >[!TIP]
-    >
-    >The number of hidden fields displays to the left of the Fields icon in the toolbar.
-    >
-    >By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. テーブルの列を並べ替えるには、次のいずれかの操作を行います。
+
+   * 列ヘッダーをつかみ、目的の位置にドラッグ＆ドロップします。 移動した列は、テーブルに他の調整を行うまで、青色の背景で短時間表示されます。
+
+   * テーブルのツールバーで&#x200B;**フィールド**&#x200B;をクリックし、フィールドを目的の順序でドラッグ＆ドロップし、「**フィールドの表示と順序**」ボックスの外側をクリックしてボックスを閉じます。
+
+     ![&#x200B; テーブル表示ツールバーの設定フィールドが拡張されました](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     >[!TIP]
+     >
+     >* デフォルトでは、「名前」フィールドが常にテーブルビューの最初のフィールドです。 これは、プライマリフィールドと見なされます。
+     >
+     >* 別のフィールドをプライマリフィールドとして指定しない限り、「名前」フィールドを別の位置に移動することはできません。 詳細については、手順5に進んでください。<!--**********************accurate?**************-->
+     >
+     >
+
+   * 最初の列のフィールドを別のフィールドに置き換えるには、プライマリフィールドを変更します。 詳細については、手順5に進んでください。<!--**********************accurate?**************-->
+
+1. （オプション）テーブルの最初の列に表示されないフィールドの列ヘッダーにあるフィールド名の上にポインタを合わせ、フィールド名の右側にある下向き矢印をクリックして、「**プライマリフィールドとして設定**」をクリックします。
+
+   ![&#x200B; テーブルビューでプライマリフィールドオプションとして設定](assets/set-as-primary-field-option-table-view.png)
 
 
-1. Click the **Fields** icon and select the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
+1. 「**フィールドを設定**」をクリックして確認します。
 
-1. Do the following to quickly find records that match a keyword:
+   フィールドは、テーブルビューの最初の列として表示されるプライマリフィールドになります。 前のプライマリフィールドは、2 番目の列に移動します。
 
-    1. In the **Search** box ![Search icon](assets/search-icon.png) start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+   プライマリフィールドは、レコードのタイトルとなり、レコードのページのヘッダー領域や、レコードが表示されるあらゆる場所に表示されます。 例えば、接続されたフィールドとすべてのビューにレコードタイトルが表示されます。 プライマリフィールドについて詳しくは、[プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md)を参照してください。
 
-        ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
+   >[!TIP]
+   >
+   >列のフィールド名の右側にある&#x200B;**情報** アイコン ![情報アイコン &#x200B;](assets/info-icon.png)をクリックすると、**説明**&#x200B;が表示されます。
 
-        You can use any word or special character that is visible on the screen. 
-    
-        You cannot use keywords that are associated with fields that are hidden in the table view. 
+1. 列の区切り線をクリックしてドラッグし、目的の場所にドロップして、列の幅を広げます。
 
-    1. Press **Enter** on your keyboard to go to the next found field. 
+   >[!TIP]
+   >
+   >列の幅と順序に加えた変更は、同じビューにアクセスするすべてのユーザーに永続的に表示されます。
 
-    1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
+1. 列ヘッダー上にポインタを合わせ、下向き矢印をクリックして、「**フィールドを非表示**」をクリックします。
 
-    1. Click the **x** icon in the search box to clear the search keyword. 
+   または
+
+   テーブルツールバーの&#x200B;**フィールド**&#x200B;をクリックし、非表示にするフィールド（または列）に関連付けられている切り替えスイッチの選択を解除します。 **フィールドの表示と順序**&#x200B;ボックスが表示されます。
+
+   >[!TIP]
+   >
+   >非表示のフィールドの数は、ツールバーのフィールドアイコンの左側に表示されます。
+   >
+   >デフォルトでは、非表示フィールドはレコードの&#x200B;**詳細** プレビューボックスに表示されません。 すべてのフィールドは、レコードの詳細ページに表示されます。 詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+
+
+1. **フィールド** アイコンをクリックし、テーブルの列に表示するフィールドに関連付けられている切り替えスイッチを選択します。 デフォルトでは、すべてのフィールドが表示されます。
+
+1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
+
+   1. **検索** ボックス ![検索アイコン &#x200B;](assets/search-icon.png)で、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しく一致するフィールドがハイライト表示されます。
+
+      ![&#x200B; テーブルビューの結果の青いアウトラインを含む検索ボックス &#x200B;](assets/search-box-with-results-blue-outline-g-table.png)
+
+      画面に表示される任意の単語や特殊文字を使用できます。
+
+      テーブルビューで非表示になっているフィールドに関連付けられたキーワードは使用できません。
+
+   1. キーボードの **Enter** キーを押して、次に見つかったフィールドに移動します。
+
+   1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックすると、表内のすべての一致を確認できます。
+
+   1. 検索ボックスの **x** アイコンをクリックして、検索キーワードをクリアします。
+<!--    
 1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
     * **SUM**: Displays the total of all cells in the column. This is the default selection. 
@@ -760,26 +754,28 @@ You can add up to 500 fields (or columns) in a table view.
     * **AVG**: Displays the average value of all the cells in the column. 
 
     The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
+-->
 
-### Add rows (or records) {#add-rows}
+### 行（またはレコード）の追加 {#add-rows-1}
 
-The rows of a table view display individual records of the selected record type. 
+テーブルビューの行には、選択したレコードタイプの個別のレコードが表示されます。
 
-You can have up to 50,000 records (or rows) for a record type. 
+レコードタイプには、最大50,000件のレコード（または行）を含めることができます。
 
-1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
+1. レコードタイプページに移動してテーブルビューを選択するか、**+ ビュー**&#x200B;をクリックして新しいビューを追加し、**テーブル**&#x200B;を選択します。
 
-1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+1. [レコードの作成](/help/quicksilver/planning/records/create-records.md)の記事の説明に従って、レコード（または行）の追加を開始します。
 
-    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+   テーブルビューで追加したレコードはすぐに保存され、ワークスペースに対する表示以上の権限を持つすべてのユーザーに表示されます。
 
-    A default thumbnail image is also added to the new record.
+   デフォルトのサムネール画像も新しいレコードに追加されます。
 
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
-1. Click **Fields** at the top of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
-    
-    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. （オプション）レコードの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**サムネールを編集**&#x200B;をクリックしてサムネールを編集します。
+1. テーブルの上部にある&#x200B;**フィールド**&#x200B;をクリックし、**サムネール** フィールドの切り替えスイッチを選択して、プライマリフィールドの左側に表示します。 デフォルトでは選択解除されています。
 
+   詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+
+<!--
 ******************** NOT POSSIBLE NOW **********
 
 1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
@@ -792,143 +788,146 @@ You can have up to 50,000 records (or rows) for a record type.
 
 
 ******************** NOT POSSIBLE ABOVE **************
+-->
 
-### Add filters {#add-filters}
+### フィルターを追加 {#add-filters-1}
 
-Filters help you reduce the amount of information displayed on the screen.
+フィルターを使用すると、画面に表示される情報の量を減らすことができます。
 
-Adding filters in the table view in the Preview environment is identical to adding filters in the Production environment. 
+プレビュー環境でのテーブルビューでのフィルターの追加は、実稼動環境でのフィルターの追加と同じです。
 
-For information, see the [Add filters](#add-filters) section in this article. 
+詳しくは、この記事の「[&#x200B; フィルターを追加](#add-filters)」セクションを参照してください。
 
-*****************at production, paste here the information from the Production section above*******************
 
-### Add a sort {#sort-information} 
+<!--***************** at production, paste here the information from the Production section above *******************-->
 
-By applying a sort, you can organize information in a given order. 
+### 並べ替えの追加 {#sort-information-1}
 
-Consider the following when sorting records in the table view: 
+並べ替えを適用すると、情報を特定の順序で整理できます。
 
-*********** if this is available for the timeline view, update both when you update one ****************
+テーブルビューでレコードを並べ替える際は、次の点を考慮してください。
 
-* Sorting is unique to the view that you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
+<!--*********** if this is available for the timeline view, update both when you update one ****************-->
 
-* You cannot name the sortings you build and apply to a table view.
+* 並べ替えは、選択したビューに一意です。 同じレコードタイプの 2 つのテーブルビューには、異なる並べ替え基準を適用できます。 同じテーブルビューを見ている 2 人のユーザーには、現在適用されている同じ並べ替えが表示されます。
 
-* The sorting you create is preserved when you navigate away.
+* 作成した並べ替えに名前を付けて、テーブルビューに適用することはできません。
 
-* You can sort by as many fields as you see displayed in the table view of a record type.
+* 作成した並べ替えは、別の場所に移動しても保持されます。
 
-* You cannot sort by connected record fields, but you can sort by lookup fields from connected record types. 
+* レコードタイプのテーブルビューに表示されるフィールドの数だけ並べ替えることができます。
 
-* When you sort by lookup fields with multiple values (that have not been summarized by an aggregator), the first value is used for sorting. 
+* 接続されたレコードフィールドで並べ替えることはできませんが、接続されたレコードタイプからルックアップフィールドで並べ替えることはできます。
 
-* Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
+* 複数の値（集計によって要約されていない値）を持つルックアップフィールドで並べ替えると、最初の値が並べ替えに使用されます。
 
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a sort for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the sort you are creating for the Activity record type. 
+* 並べ替え基準を削除すると、自分と同じレコードタイプにアクセスするすべてのユーザーから並べ替え基準が削除され、自分が使用している同じビューが使用されます。
 
-To sort records, do the following:
+* 現在のレコードタイプから最大4 レベル離れたフィールドを参照できます。 例えば、アクティビティレコードタイプのソートを作成し、アクティビティがWorkfront プロジェクトに接続されているCampaign レコードタイプに接続されている製品レコードタイプに接続されている場合、アクティビティレコードタイプ用に作成しているソートでプロジェクトのステータスを参照できます。
 
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
-1. Click the **Sort** icon ![Sort icon](assets/sort-icon.png) at the top of the table
-    
-    Or
+レコードを並べ替えるには、次の操作を行います。
 
-    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort**. 
-    
-1. (Conditional) If you click **Sort** at the top of the table, the **Sort records by** box opens. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
+1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、テーブルビューを作成します。
+1. テーブルの上部にある&#x200B;**並べ替え** アイコン ![並べ替えアイコン &#x200B;](assets/sort-icon.png)をクリックします
 
-    The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
-    
-1. (Optional) Click **Add condition**, and repeat the above steps to sort by additional fields.  
+   または
 
-    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
-1. (Conditional) If you clicked the **Sort** icon at the top of the table, select the order in which you want the field sorted in the **Sort records by** box. The options for the sorting order depend on the type of field you are sorting by. 
+   テーブルビューで列の名前にカーソルを合わせ、列ヘッダー名の右側にある下向き矢印をクリックし、**並べ替え**&#x200B;をクリックします。
 
-    >[!TIP]
-    >
-    >The selections below are not available when you access sorting from the column header. 
+1. （条件付き）テーブルの上部にある「**並べ替え**」をクリックすると、「**レコードを**&#x200B;で並べ替え」ボックスが開きます。 候補フィールドのいずれかをクリックするか、**別のフィールドを選択**&#x200B;して検索し、リストに表示されたらクリックします。
 
-    Choose from the following options: 
+   並べ替えはテーブルビューに自動的に適用され、レコードは選択した条件に従って並べ替えられて表示されます。
 
-    * Date fields: 
-        * Earliest to latest
-        * Latest to earliest
-    * Text, paragraph, select fields, people, Record ID:
-        * Alphabetical A to Z
-        * Reverse alphabetical Z to A
-    * Number, percentage, currency fields:
-        * Ascending 0 to 9
-        * Descending 9 to 0
-    * Checkbox fields: 
-        * Selected first
-        * Deselected first
+1. （オプション）「**条件を追加**」をクリックし、上記の手順を繰り返して追加フィールドで並べ替えます。
 
-    The field is added as a sorting selection in the **Sort** icon at the top of the table. 
+   並べ替えるフィールドの数が、ツールバーの右上隅にある並べ替えアイコンの左側に表示されます。 テーブルビューの列に表示されるフィールドのみを選択できます。
+1. （条件付き）テーブルの上部にある「**並べ替え**」アイコンをクリックした場合は、「**レコードを**&#x200B;で並べ替え」ボックスで、フィールドを並べ替える順序を選択します。 並べ替え順序のオプションは、並べ替えるフィールドのタイプによって異なります。
 
-1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
+   >[!TIP]
+   >
+   >列ヘッダーから並べ替えにアクセスする場合、以下の選択は使用できません。
 
-    Or
+   次のオプションから選択します。
 
-    Click **Clear all** to remove all fields from the sort. 
+   * 日付フィールド：
+      * 最も早い順
+      * 最新から初期
+   * テキスト、段落、フィールドの選択、人物、レコード ID:
+      * アルファベット順AからZ
+      * アルファベットのZをAに反転
+   * 数値、パーセント、通貨フィールド：
+      * 昇順0 ～ 9
+      * 降順9 ～ 0
+   * チェックボックスフィールド：
+      * 最初に選択
+      * 最初に非選択
 
-1. Click outside the **Sort records by** box to close it. 
+   フィールドは、テーブルの上部にある&#x200B;**並べ替え** アイコンの並べ替え選択として追加されます。
 
-    ![Sorting in table view](assets/sorting-in-table-view-g-list.png)
+1. （オプション）「**レコードの並べ替え基準**」ボックスで、並べ替えフィールドの右側にある **x** アイコンをクリックして並べ替えを削除します
 
-    The information displayed in the table is sorted according to your selected criteria. 
-    
-    The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
+   または
 
-### Add groupings {#add-groupings}
+   「**すべてクリア**」をクリックして、並べ替えからすべてのフィールドを削除します。
 
+1. 「**レコードの並べ替え基準**」ボックスの外側をクリックしてボックスを閉じます。
+
+   ![&#x200B; テーブルビューでの並べ替え](assets/sorting-in-table-view-g-list.png)
+
+   テーブルに表示される情報は、選択した条件に従って並べ替えられます。
+
+   並べ替え用に選択されたフィールドには、並べ替えアイコンと、その後に並べ替えが適用される順序を示す数字が表示されます。
+
+### グループ化の追加 {#add-groupings-1}
+
+<!--
 ***********************this section exists in the timeline view too, but the display is slightly different, so I kept both procedures; consider updating both sections if any updates to groupings are introduced***************
+-->
 
-You can group records by similar information when applying  a grouping to a view.
+ビューにグループ化を適用する際に、類似の情報でレコードをグループ化できます。
 
-Consider the following:
+次の点に注意してください。
 
-* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
-* You can apply 3 levels of grouping in a view. The records are grouped in the order of groupings that you select. 
-***************  * You can apply up to 4 levels of grouping when using the API. --checking on this one for now ******************
-* The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
-* You cannot name the groupings you build for a table view.
-* Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
-* You can edit records listed under a grouping. 
-* You can group by connected record fields or lookup fields. 
-* When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
-* Groupings are listed in the alphabetical order of their values. 
-********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************
+* テーブルビューとタイムラインビューの両方でグループ化を適用できます。 テーブルビューのグループ化は、同じレコードタイプのタイムラインビューのグループ化とは独立しています。
+* ビューには3つのレベルのグループ化を適用できます。レコードは、選択したグループ化の順序でグループ化されます。
+&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * APIを使用する場合は、最大4つのレベルのグループ化を適用できます。 – 今すぐ確認する**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+* グループは、選択したビューに固有です。 同じレコードタイプの 2 つのテーブルビューに、異なるグループ化を適用することができます。 同じテーブルビューを見ている 2 人のユーザーには、現在適用されているのと同じグループ化が表示されます。
+* テーブルビュー用に作成したグループ化に名前を付けることはできません。
+* グループ化を削除すると、自分と同じレコードタイプにアクセスし、同じビューを表示している人から、グループ化が削除されます。
+* グループ化の下に一覧表示されたレコードは編集できます。
+* 接続されたレコードフィールドまたはルックアップフィールドでグループ化できます。
+* 複数の値（集計によって集計されていない値）を持つルックアップフィールドでグループ化すると、フィールド値の一意の組み合わせごとにレコードがグループ化されます。
+* 現在のレコードタイプから最大4 レベル離れたフィールドを参照できます。 例えば、アクティビティレコードタイプのグループを作成する場合、アクティビティがWorkfront プロジェクトに接続されているCampaign レコードタイプに接続されている製品レコードタイプに接続されている場合、アクティビティレコードタイプ用に作成するグループでプロジェクトのステータスを参照できます。
+* グループ化は、値のアルファベット順にリストされます。
+  <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
+グループ化を追加するには：
 
-To add a grouping:
+1. 記事[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプのテーブルビューを作成します。
+1. テーブルビューの右上隅にある「**グループ化**」をクリックします。
 
-1. Create a table view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Grouping** in the upper-right corner of the table view.
+   ![&#x200B; リンクされたフィールドを含むUI テーブル ビューのグループ化](assets/grouping-ui-table-view-with-linked-fields.png)
 
-    ![Grouping UI table view with linked fields](assets/grouping-ui-table-view-with-linked-fields.png)
+1. フィールド候補の 1 つをクリックするか、「**別のフィールドを選択**」をクリックして別のフィールドを検索し、リストに表示されたらクリックします。
 
-1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
+   グループ化はテーブルに自動的に適用され、レコードがグループ化の区切り線の下に表示されます。
 
-    The grouping is applied automatically to the table and records display under the grouping separation line.
-    
-1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
+1. （オプション）「**条件を追加**」をクリックし、上記の手順を繰り返して最大3つのグループ化を追加します。
 
-    The number of fields selected for the grouping displays next to the Grouping icon. 
+   グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
 
-    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
+   ![&#x200B; テーブル ビューでグループ化が適用されました](assets/grouping-applied-in-table-view.png)
 
-1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping. 
+1. （オプション）「**レコードを**&#x200B;でグループ化」ボックス内で、グループ化のために選択されたフィールドの右側にある&#x200B;**x** アイコンをクリックして、グループ化を削除します。
 
-1. Click outside the **Group records by** box to close it. 
-1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping.
+1. 「**以下でレコードをグループ化**」ボックスの外側をクリックして閉じます。
+1. （オプション）グループ化の最後にある&#x200B;**+新しいレコード**&#x200B;をクリックして新しいレコードを追加し、ページを更新して新しいレコードを適切なグループ化に追加します。
 
-1. To expand or collapse groupings, click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+1. グループ化を展開または折りたたむには、**グループ化** アイコンをクリックし、**すべてを展開**&#x200B;または&#x200B;**すべてを折りたたむ**&#x200B;をクリックします。 これにより、テーブルビュー内のすべてのグループ化とサブグループ化が展開されます。
 
-    ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   ![&#x200B; グループ化ボックス テーブル ビューのすべてのボタンを展開および折りたたむ](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
-    
+   <!--
     ******** NOT POSSIBLE **********
     1. Right-click any of the grouping headers in the table view, then click one of the following options:
         * **Expand group**
@@ -937,59 +936,58 @@ To add a grouping:
         * **Collapse all**
         * **Expand subgroups**
         * **Collapse subgroups**
-
         Depending on the number of groupings you apply to the view, some options might not be available.
     ********* NOT POSSIBLE ABOVE **********
-   
+   -->
 
-### Add row colors
+### 行の色を追加
 
-1. (Optional) Click **Row colors** to define conditions and choose configure different colors for table rows.
+1. （オプション）「**行の色**」をクリックして条件を定義し、テーブル行に異なる色を設定を選択します。
 
-1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to define the color of a row.
+1. 「**色を追加**」をクリックし、フィールドを検索してリストに表示されたら選択します。 これは、行の色を定義する値を持つフィールドです。
 
-    For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
+   例えば、「**ステータス**」を選択し、フィールドに修飾子と値を選択して、ステータスが「アクティブ」のキャンペーンを緑色で表示します。
 
-    ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+   アクティブなステータスが選択され、デフォルトの色が選択された![行の色ボックス &#x200B;](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
 
-1. Click the drop-down menu for the color picker in the upper-left corner of the condition you selected, to pick the color for the condition, then click outside the color picker box to close it. 
+1. 選択した条件の左上隅にあるカラーピッカーのドロップダウンメニューをクリックして、条件のカラーを選択し、カラーピッカーボックスの外側をクリックして閉じます。
 
-    ![Drop-down color picker menu in Row colors box highlighted](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![行カラーボックスのドロップダウンカラーピッカーメニューがハイライト表示されている](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
 
-1. (Optional) Click **Add condition** to add more fields and values to the first set of conditions 
+1. （オプション）「**条件を追加**」をクリックして、最初の条件セットにフィールドと値をさらに追加します
 
-    Or
+   または
 
-    Click **Add color** to add a new set of conditions and identify a new color. 
-    
-    For example, you can display campaigns in a Planning status in yellow by defining a new set of conditions. 
+   **色を追加**&#x200B;をクリックして、新しい条件セットを追加し、新しい色を識別します。
 
-    ![Row colors box with Active and Planning status custom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   例えば、新しい条件セットを定義することで、キャンペーンをプランニングステータスで黄色で表示できます。
 
-1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the **Row colors** box. The entire row where the condition is met automatically displays in the selected color. 
+   アクティブおよびプランニング状態のカスタムカラーを含む![行カラーボックス &#x200B;](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
 
-    >[!NOTE]
-    >
-    >If the **Apply to the entire row** setting is turned off, only the background of the primary field cell displays in the selected color. The setting is turned off by default.
-    >
+1. （オプション）「**行色**」ボックスの右上隅にある「**行全体に適用**」設定をオンにします。 条件が満たされた行全体が、選択した色で自動的に表示されます。
 
-1. Click outside the **Row colors** box to close it. The colors are applied automatically.
+   >[!NOTE]
+   >
+   >**行全体に適用**&#x200B;設定がオフになっている場合、選択した色でプライマリフィールドセルの背景のみが表示されます。 デフォルトでは、この設定はオフになっています。
+   >
 
-### Enable the real-time presence indicator
+1. 「**行の色**」ボックスの外側をクリックして閉じます。 色は自動的に適用されます。
 
-The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
+### リアルタイムプレゼンス指標を有効にする
 
-When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
+すべてのレコードビューの右上隅に表示すると同時に、レコード情報を編集している他のユーザーのアバター（デフォルト）。
 
-Enabling the real-time presence indicator in the table view in the Preview environment is identical to enabling it in the Production environment. 
+テーブルビューを表示すると、レコードを表示しているときに別のユーザーが編集しているフィールドを表示することもできます。
 
-For information, see the [Enable the real-time presence indicator](#enable-the-real-time-presence-indicator) section in this article. 
+プレビュー環境のテーブルビューでリアルタイムプレゼンス指標を有効にすることは、実稼動環境で表示を有効にすることと同じです。
 
-************* at production, paste here the information from the Production section above ****************
+詳しくは、この記事の「[&#x200B; リアルタイムプレゼンス指標を有効にする](#enable-the-real-time-presence-indicator)」の節を参照してください。
+
+<!--*********** at production, paste here the information from the Production section above ****************-->
 
 </div>
 
--->
+
 
 
 

@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 1%
+source-wordcount: '1919'
+ht-degree: 2%
 
 ---
 
@@ -30,41 +30,34 @@ There are no features released during the Third Quarter Release for 2026. When f
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 
-<!--
-
-## Interface improvements in the table view
+## テーブルビューでのインターフェイスの機能強化
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>プレビュー：2026年6月11日>実稼動用の高速リリース：2026年7月15日>全員の実稼動環境：2026年7月16日
 
-We have updated the look and feel of the table view for the following areas in Workfront Planning: 
+Workfront Planningの次の領域のテーブルビューのルックアンドフィールを更新しました。
 
-* All record type pages 
+* すべてのレコードタイプのページ
 
-* All connected record type pages, except for Projects 
+* プロジェクトを除くすべての接続されたレコードタイプのページ
 
-In addition to some navigation changes and design improvements, the following are some improvements included with this update: 
+このアップデートには、ナビゲーションの変更やデザインの改善に加えて、次のような改善が含まれています。
 
-* The addition of an aggregation row at the bottom of the table that summarizes number, currency, percentage, and formula fields formatted as numbers. The following aggregators are now available: SUM, AVG, MAX, MIN. 
+* 日付フィールドを追加する際に、より簡単な日付形式で、形式タイプが少ない。
 
-* A simpler date format with fewer format types when adding a Date field. 
+* 日付フィールドを追加する際に、プロファイルのタイムゾーンに関係なく、すべてのユーザーに表示されるタイムゾーンを選択できます。
 
-* Ability to select a time zone visible to all users regardless of their profile's time zone, when adding a Date field. 
+* よりクリーンな外観を実現するための行番号の削除
 
-* Removal of row numbering for a cleaner look 
+* 行にマウスポインターを置いたときにのみ表示される代わりに、永続的な行選択ボックス
 
-* Persistent row selection box, instead of visible only when hovering on the row 
+* 読みやすさを向上させる永続的な列区切り線
 
-* Persistent column separator lines for better readability 
+* 列ヘッダーからソートする際のシンプルなソート操作
 
-* A simpler sorting experience when sorting from a column header  
+詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 
-For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).  
-
--->
 
 ## GenStudio for Performance Marketing BrandsをPlanning リクエストフォームに追加できるようになりました
 

@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 2592
+source-wordcount: 2603
 ht-degree: 4%
 
 ---
@@ -254,11 +254,12 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >  <div class="preview">
    >
-   >   * リクエストの編集は、レコードがまだ作成されておらず、リクエストが承認待ちの場合にのみ可能です。
-   >   * 一部のフィールドは読み取り専用で、編集できません。
-   >  * レコードを作成した後は、リクエストを編集できなくなります。
+   >* リクエストの編集は、レコードがまだ作成されておらず、リクエストが承認待ちの場合にのみ可能です。
+   >* 一部のフィールドは読み取り専用で、編集できません。
+   >* レコードを作成した後は、リクエストを編集できなくなります。
    >
    >  </div>
+1. <span class="preview"> （オプション）リクエストを編集したら、**変更を送信**&#x200B;をクリックします。</span>
 1. （条件付き）要求フォームが承認に関連付けられていない場合、または要求が承認されている場合は、要求の名前をクリックし、**作成済みオブジェクト** フィールドのレコード名をクリックします。
 
    レコードのページがWorkfront Planningで開きます。
@@ -267,7 +268,8 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >* レコードのプライマリフィールドがリクエストフォームで更新されていない場合、リクエストの「レコード」フィールドのレコードの名前は&#x200B;**名称未設定**&#x200B;と表示されます。
    >
-   >* リクエストフォームが承認に関連付けられている場合は、リクエストページからレコードにアクセスする前に、承認を付与する必要があります。 レコードは、承認が付与されるまで作成されません。
+   >* リクエストフォームが承認に関連付けられている場合は、リクエストページからレコードにアクセスする前に、承認を付与する必要があります。レコードは、承認が付与されるまで作成されません。
+   >  リクエストの承認について詳しくは、[Adobe Workfront Planningでのリクエストの承認](/help/quicksilver/planning/requests/approve-request.md)を参照してください。
 
 1. （オプション） **レコードタイプ**&#x200B;の名前をクリックします。
 

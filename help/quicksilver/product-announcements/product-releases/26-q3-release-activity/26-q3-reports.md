@@ -4,10 +4,10 @@ description: 2026年第3四半期レポートの強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: a678a987703240680368b34c4095637b59a8bb60
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 3%
+source-wordcount: '623'
+ht-degree: 1%
 
 ---
 
@@ -16,6 +16,31 @@ ht-degree: 3%
 このページでは、2026年第3四半期リリースで行われたレポートの機能強化について、プレビュー環境に対して説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2026年第3四半期のリリースサイクルで現時点で利用可能なすべての変更のリストについては、[2026年第3四半期のリリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)を参照してください。
+
+## 複数のPower BI IP アドレス範囲をData ConnectのIP アドレス範囲に一度に追加する
+
+>[!NOTE]
+>
+>プレビュー：なし>実稼動用の高速リリース：2026年6月11日>すべてのユーザー向けの実稼動環境：2026年7月16日
+
+Microsoft Power BIとWorkfront Data Connectを接続しているWorkfront管理者は、1つの手順で、リージョン全体のAzure IP アドレス範囲を許可リストに追加できるようになりました。 **Data Connect**&#x200B;の「**IP 許可リストに加える**」タブに、「**新しいIP アドレス**」ボタンが追加され、公開されたPower BI IP範囲とサービスタグ JSON ファイルをMicrosoftからPower BI サービスタグエントリを貼り付けるダイアログが開きます。**Azure IP アドレスブロックを追加**」オプションが追加されました。
+
+これは、各Power BI CIDR ブロックを1つずつ追加する以前のワークフローに代わるもので、多数のアドレスプレフィックスを公開するリージョンでは時間がかかりました。
+
+詳しくは、[Workfront Data Connectへの接続の確立](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)を参照してください。
+
+
+## カンバスダッシュボードのリストの並べ替え
+
+>[!NOTE]
+>
+>プレビュー：2026年6月11日>実稼動用の高速リリース：2026年7月15日>全員の実稼動環境：2026年7月16日
+>
+>Canvas ダッシュボードは現在ベータ版です。
+
+カンバスダッシュボードリストを次のいずれかの列で並べ替えることができるようになりました：**名前**、**説明**、**作成日**、または&#x200B;**作成日**。 列ヘッダーをクリックしてその列でリストを並べ替え、同じヘッダーをもう一度クリックして並べ替え方向を反転します。 デフォルトでは、リストは&#x200B;**名前**&#x200B;でAからZに並べ替えられます。カンバスダッシュボードリストでタブを切り替えると、並べ替え順序は保持されます。
+
+詳しくは、[&#x200B; キャンバスダッシュボードの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)を参照してください。
 
 ## カスタム式の実際の時間の変更
 

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: 58777d63eff116855191281d09c6c2d19f1aa2ee
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 20%
+source-wordcount: '1848'
+ht-degree: 18%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 20%
 * [ドキュメントの機能強化](#documents-enhancements)
 * [財務管理の機能強化](#financial-management-enhancements)
 * [ホームの機能強化](#home-enhancements)
+* [プロジェクトの強化](#project-enhancements)
 * [レポートの機能強化](#reporting-enhancements)
 * [リクエストの機能強化](#requesting-enhancements)
 * [その他の機能強化](#other-enhancements)
@@ -55,6 +56,26 @@ ht-degree: 20%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront オブジェクトの変更履歴を表示</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>一元的なリストで発生した変更を簡単に確認できるように、変更履歴リストを作成しました。 このリストには、オブジェクト、操作、変更のソース（ユーザーやWorkfront システムなど）などの情報が表示されます。</p>
+            </td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> リッチテキストが書式設定フィールドタイプ </a>に置き換えられました
@@ -193,6 +214,43 @@ ht-degree: 20%
     </tbody>
 </table>
 
+<!--
+
+### Project enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Use a legacy storage template to create an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in some scenarios.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+-->
+
 ### レポートの機能強化
 
 <table>
@@ -205,6 +263,24 @@ ht-degree: 20%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">複数のPower BI IP アドレス範囲をData Connectの接続に一度に許可リストに加えるする</a> <p>[!BADGE Off schedule]{type=Neutral}
+                <p>Microsoft Power BIとWorkfront Data Connectを接続しているWorkfront管理者は、1つの手順で、リージョン全体のAzure IP アドレス範囲を許可リストに追加できるようになりました。</p>
+            </td>
+            <td><p>該当なし</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}"> カンバスダッシュボードリストの並べ替え</a> 
+                <p>カンバスダッシュボードのリストを、名前、説明、作成者または作成日付列で並べ替えることができるようになりました。 列ヘッダーをクリックしてその列でリストを並べ替え、同じヘッダーをもう一度クリックして並べ替え方向を反転します。 デフォルトでは、リストはAからZまでの名前で並べ替えられます。カンバスダッシュボードリストでタブを切り替えると、並べ替え順序は保持されます。</p>
+            </td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}"> カスタム数式の実際の時間に対する変更</a> <p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -280,6 +356,15 @@ ht-degree: 20%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Workfront MCP コネクタの更新</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Workfront MCP コネクタを更新しました。<ul><li>ClaudeはMCP コネクタに接続できるようになりました。</li><li>EU内のインスタンスまたはAWSを使用しないインスタンスからMCP コネクタを使用できるようになりました。</p>
+            </td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}"> コメント通知メールのルックアンドフィールを更新</a><p>[!BADGE Off schedule]{type=Neutral}</p>

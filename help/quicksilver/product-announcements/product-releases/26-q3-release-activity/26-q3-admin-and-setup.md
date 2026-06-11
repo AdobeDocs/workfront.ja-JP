@@ -4,10 +4,10 @@ description: 2026年第3四半期：管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3d8439efd8a92042098fbf995aacf2fe3add43f2
+source-git-commit: cc0067cb2f64eae79647881ab30355b6832073d1
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 4%
+source-wordcount: '512'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,46 @@ ht-degree: 4%
 このページでは、2026年第3四半期リリースのプレビュー環境に対する管理者の機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2026年第3四半期のリリースサイクルで現時点で利用可能なすべての変更のリストについては、[2026年第3四半期のリリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)を参照してください。
+
+## Workfront オブジェクトの変更履歴を表示する
+
+>[!NOTE]
+>
+>プレビュー：2026年6月11日>実稼動用の高速リリース：2026年6月11日>全員の実稼動環境：2026年7月16日
+
+一元的なリストで発生した変更を簡単に確認できるように、変更履歴リストを作成しました。 このリストには、オブジェクト、操作、変更のソース（ユーザーやWorkfront システムなど）などの情報が表示されます。
+
+以前は、監査ログは利用できましたが、オブジェクトはカバーしていませんでした。
+
+<!--
+
+For more information see [View and manage change history](help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+-->
+
+<!--
+
+## New system preference to convert legacy storage portfolios to Adobe cloud storage
+
+>[!NOTE]
+>
+>Preview: June 11, 2026
+>Production for everyone: June 11, 2026
+
+Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.
+
+When a portfolio is converted to Adobe cloud storage:
+
+* You can no longer move projects that use legacy Workfront storage to this portfolio
+* All new projects created in this portfolio use Adobe cloud storage
+* Frame.io is the viewer for documents using Adobe cloud storage
+* Child objects using legacy Workfront storage stay on legacy storage
+
+Previously, adding an Adobe cloud storage project to a Legacy storage portfolio automatically converted the portfolio to Adobe cloud storage.
+
+For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+-->
 
 ## リッチテキストは、テキストを書式設定フィールドタイプに置き換えます
 

@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
 source-wordcount: 1087
 ht-degree: 23%
@@ -244,8 +244,12 @@ this is not yet true, but it might come later:
 レコードを編集する際に、既存の選択フィールドに新しい選択肢を追加するには、次の手順に従います。
 
 1. レコードタイプページに移動し、テーブルビューを開きます。
-1. テーブルビューで選択肢を追加する1つまたは複数の選択フィールドを新しい列として追加します。 詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
+1. テーブルビューで選択肢を追加する1つまたは複数の選択フィールドを新しい列として追加します。
+
+   詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
+
 1. フィールドのセルをダブルクリックして、フィールドのインライン編集を開始します。
+
 1. 追加する選択肢の名前を入力し、**選択肢を追加**&#x200B;をクリックします。
 
    ![&#x200B; テーブルビューの単一選択フィールドに選択肢を追加](assets/add-choice-in-table-view-for-single-select-field.png)
