@@ -70,7 +70,7 @@ WorkfrontとAdobe Expressを使用して、以下を行います
 
 Express テンプレートで承認ワークフローを追加するには、事前に標準ライセンスを持つユーザーがWorkfrontで承認ワークフローテンプレートを作成する必要があります。
 
-詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
 ## Express テンプレートへの承認ワークフローの追加
 
@@ -117,4 +117,4 @@ For more information, see [Send templates for review and approval](https://helpx
 
 レビューして決定を下すには、少なくともCollaborator Workfront ライセンスが必要です。
 
-Frame.io ビューアの使用について詳しくは、[ メディアに対するコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
+Frame.io ビューアの使用について詳しくは、[&#x200B; メディアに対するコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
