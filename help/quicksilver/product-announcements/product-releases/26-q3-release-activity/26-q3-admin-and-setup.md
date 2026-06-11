@@ -4,9 +4,9 @@ description: 2026年第3四半期：管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cc0067cb2f64eae79647881ab30355b6832073d1
+source-git-commit: 34ec779f648db8c3f1a1fe2a76f5b7fda83679a6
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '654'
 ht-degree: 3%
 
 ---
@@ -27,35 +27,26 @@ ht-degree: 3%
 
 以前は、監査ログは利用できましたが、オブジェクトはカバーしていませんでした。
 
-<!--
+詳細については、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。
 
-For more information see [View and manage change history](help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
-
--->
-
-<!--
-
-## New system preference to convert legacy storage portfolios to Adobe cloud storage
+## 従来のストレージポートフォリオをAdobe クラウドストレージに変換する新しいシステム環境設定
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production for everyone: June 11, 2026
+>プレビュー：2026年6月11日>全員の本番環境：2026年6月11日
 
-Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.
+Workfront管理者は、システム環境設定から直接、従来のストレージポートフォリオをAdobe クラウドストレージに変換できるようになりました。 ポートフォリオを変換するには、新しい「エンタープライズストレージに変換するポートフォリオを選択」フィールドでポートフォリオを選択し、ページを保存します。
 
-When a portfolio is converted to Adobe cloud storage:
+ポートフォリオがAdobe クラウドストレージに変換される場合：
 
-* You can no longer move projects that use legacy Workfront storage to this portfolio
-* All new projects created in this portfolio use Adobe cloud storage
-* Frame.io is the viewer for documents using Adobe cloud storage
-* Child objects using legacy Workfront storage stay on legacy storage
+* 従来のWorkfront ストレージを使用するプロジェクトをこのポートフォリオに移動できなくなりました
+* このポートフォリオで作成されたすべての新規プロジェクトでは、Adobe クラウドストレージを使用します
+* Frame.ioは、Adobe クラウドストレージを使用するドキュメントのビューアです
+* 従来のWorkfront ストレージを使用している子オブジェクトは、従来のストレージに残ります
 
-Previously, adding an Adobe cloud storage project to a Legacy storage portfolio automatically converted the portfolio to Adobe cloud storage.
+以前は、Adobe クラウドストレージプロジェクトをレガシーストレージポートフォリオに追加すると、ポートフォリオが自動的にAdobe クラウドストレージに変換されていました。
 
-For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
--->
+詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 ## リッチテキストは、テキストを書式設定フィールドタイプに置き換えます
 
@@ -71,7 +62,7 @@ For more information, see [Configure system preferences](/help/quicksilver/admin
 >
 >Workfront FusionのシナリオやAPI ベースの自動化などの外部統合は、従来のフィールド構造を参照し、変換後に更新が必要になる場合があります。 フィールドをリッチテキストに変換する前に、統合を検証する必要があります。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## カスタムフォームでサポートされているネイティブ財務フィールド
 
@@ -83,7 +74,7 @@ For more information, see [Configure system preferences](/help/quicksilver/admin
 
 参照できる財務フィールドは、フォームのタイプによって異なります。
 
-詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-workfront-native-fields)を参照してください。
+詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-workfront-native-fields)を参照してください。
 
 ## カスタムフォームは、システム全体で共有し、添付するためのアクセス権を持つことができます
 
@@ -107,4 +98,4 @@ For more information, see [Configure system preferences](/help/quicksilver/admin
 
 新しいシステム環境設定で、一括編集で必須フィールドを適用できるようになりました。 すべての必須フィールドに値が含まれていない限り、一括編集されたオブジェクトを保存しないようにするには、設定/システム/環境設定ページで「**常に一括編集で必須フィールドを適用**」オプションを選択します。
 
-詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。

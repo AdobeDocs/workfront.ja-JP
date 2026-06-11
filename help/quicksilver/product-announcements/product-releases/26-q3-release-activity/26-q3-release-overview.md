@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
+source-git-commit: 6aae88e6030fea5c3a9ea6dd05e666de6af9f59f
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1903'
 ht-degree: 18%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第3四半期のリリースが予定されている実稼動リリースに近づいたときに、追加の機能強化で更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -65,17 +65,15 @@ ht-degree: 18%
             <td><p>2026年6月11日（PT）</p></td>
             <td><p>2026年7月16日（PT）</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">従来のストレージポートフォリオをAdobe クラウドストレージに変換するための新しいシステム環境設定</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Workfront管理者は、システム環境設定から直接、従来のストレージポートフォリオをAdobe クラウドストレージに変換できるようになりました。 ポートフォリオを変換するには、新しい「エンタープライズストレージに変換するポートフォリオを選択」フィールドでポートフォリオを選択し、ページを保存します。</p>
             </td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> リッチテキストが書式設定フィールドタイプ </a>に置き換えられました
@@ -408,7 +406,7 @@ Workfront Fusion の新機能は、実稼動環境の標準リリーススケジ
 New features in Workfront Planning are available in Production.
 -->
 
-最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
+最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
 
 
 ### Workfrontのその他の機能強化
@@ -467,7 +465,7 @@ Workfront計画トライアルは2026年5月15日に終了します。
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
