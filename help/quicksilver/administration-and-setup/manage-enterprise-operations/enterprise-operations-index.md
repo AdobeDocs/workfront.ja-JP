@@ -9,10 +9,11 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 38441ec5ae6fd8cf5c79f939403d5966c5616c98
+exl-id: aadfd91d-19e5-4124-bbc4-70f5fbfa9ce6
+source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 18%
+source-wordcount: '99'
+ht-degree: 17%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 18%
 
 高度なエンタープライズオペレーション能力は、財務、リソース、プロジェクト、エンタープライズアクセスを管理する、統合されたスケーラブルな方法です。 これらの機能は、企業が収益性と効率性を維持しながら業務を遂行するために必要な可視性と管理性を提供します。
 
-この節には、次の記事が含まれます。
+この節では、次の記事を扱います。
 
 * [エンタープライズオペレーション機能の概要](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-capabilities-overview.md)
 * [場所を設定](/help/quicksilver/administration-and-setup/manage-enterprise-operations/configure-locations.md)
@@ -29,5 +30,4 @@ ht-degree: 18%
 * [テンプレートからの評価カードの読み込み](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
 * [プロジェクトへのプッシュ率の変更](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
 * [レートカードの共有](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
-
-
+* [変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)

@@ -1,0 +1,90 @@
+---
+user-type: administrator
+product-area: system-administration;setup
+navigation-topic: configure-locations
+title: 変更履歴
+description: 変更履歴を使用すると、Workfront オブジェクトに対する変更のログを表示できます
+author: Becky
+feature: System Setup and Administration
+role: Admin
+source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
+workflow-type: tm+mt
+source-wordcount: '299'
+ht-degree: 11%
+
+---
+
+# 変更履歴の表示と管理
+
+変更履歴を使用すると、次のような属性を含む、Workfront オブジェクトに対する変更のログを確認できます。
+
+* オブジェクト
+* オブジェクトタイプ
+* 変更のタイプ（操作）
+* Sourceのアーキテクチャを活用します。例えば、特定のユーザー、API、Workfront Fusion、AI LLM、Workfrontシステムなどです
+
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!DNL Adobe Workfront] パッケージ</td> 
+   <td>ワークフロー Ultimate</td> 
+  </tr> 
+  <tr> 
+   <td>[!DNL Adobe Workfront] ライセンス</td> 
+   <td>[!UICONTROL Standard]</td> 
+  </tr> 
+  <tr> 
+   <td>アクセスレベル設定</td> 
+   <td>[!UICONTROL レートカード &#x200B;]へのアクセスを編集</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+
+
+## 変更履歴を表示
+
+Workfront管理者は、設定領域で変更履歴を表示できます。
+
+変更履歴リストは強化されたリストで、フィルター、列、行の高さ、日付選択、検索バーが備わっています。
+
+{{step-1-to-setup}}
+
+1. 左側のパネルで、**変更履歴** ![変更履歴アイコン &#x200B;](assets/change-history-icon.png)をクリックします。
+1. 「**履歴リストを変更**」をクリックします。
+
+   変更履歴リストが開きます。
+
+1. 変更が表示される日付を調整するには、日付選択ツールをクリックし、新しい日付を選択します。
+
+   過去90日間の変更が利用可能です。
+1. 特定の用語を検索するには、検索バーをクリックして用語を入力します。 入力時に結果がフィルタリングされます。
+1. （オプション）列でフィルタリングするには、「[拡張リスト内の項目をフィルタリング &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list)」の「拡張リストを使用」を参照してください。
+1. （オプション）列を非表示、表示、または並べ替えるには、「[列をカスタマイズ &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns)」の「強化リストを使用」を参照してください。
+1. 列を追加または削除するには、[強化リストを使用する記事の列マネージャー](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)で列を追加および削除するを参照してください。
+1. 行の高さを調整するには、「[&#x200B; ビュー内の行の高さを変更する](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view)」を参照してください。「強化リストを使用する」を参照してください。
+
+## 使用可能な変更タイプの表示
+
+追跡される変更のタイプを表示するには、次の手順に従います。
+
+{{step-1-to-setup}}
+
+1. 左側のパネルで、**変更履歴** ![変更履歴アイコン &#x200B;](assets/change-history-icon.png)をクリックします。
+1. 「**設定**」をクリックします。
+
+   フィールドは、オブジェクト別にグループ化されて表示されます。
+
+
+
+

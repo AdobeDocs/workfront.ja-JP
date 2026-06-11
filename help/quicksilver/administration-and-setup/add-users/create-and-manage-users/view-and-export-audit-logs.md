@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
 workflow-type: tm+mt
-source-wordcount: 420
-ht-degree: 58%
+source-wordcount: 422
+ht-degree: 56%
 
 ---
 
@@ -101,7 +101,7 @@ Old:
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**システム／監査ログ**&#x200B;をクリックします。
+1. 左側のパネルで、**トラッキングの変更/監査ログ**&#x200B;をクリックします。
 1. 「**アクションの種類**」ドロップダウンで、表示する監査の種類を選択します。
 
    >[!NOTE]
@@ -129,7 +129,7 @@ Old:
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**システム**/**監査ログ**&#x200B;をクリックします。
+1. 左側のパネルで、**トラッキングの変更**/**監査ログ**&#x200B;をクリックします。
 
 1. 「**ログタイプ**」ドロップダウンメニューで「監査ログ」を選択します。
 
