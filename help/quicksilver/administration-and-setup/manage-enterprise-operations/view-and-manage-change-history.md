@@ -41,7 +41,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL レートカード ]へのアクセスを編集</td> 
+   <td>[!UICONTROL レートカード &#x200B;]へのアクセスを編集</td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ Workfront管理者は、設定領域で変更履歴を表示できます。
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**変更履歴** ![変更履歴アイコン ](assets/change-history-icon.png)をクリックします。
+1. 左側のパネルで、**変更履歴** ![変更履歴アイコン &#x200B;](assets/change-history-icon.png)をクリックします。
 1. 「**履歴リストを変更**」をクリックします。
 
    変更履歴リストが開きます。
@@ -69,10 +69,10 @@ Workfront管理者は、設定領域で変更履歴を表示できます。
 
    過去90日間の変更が利用可能です。
 1. 特定の用語を検索するには、検索バーをクリックして用語を入力します。 入力時に結果がフィルタリングされます。
-1. （オプション）列でフィルタリングするには、「[拡張リスト内の項目をフィルタリング ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list)」の「拡張リストを使用」を参照してください。
-1. （オプション）列を非表示、表示、または並べ替えるには、「[列をカスタマイズ ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns)」の「強化リストを使用」を参照してください。
+1. （オプション）列でフィルタリングするには、「[拡張リスト内の項目をフィルタリング &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list)」の「拡張リストを使用」を参照してください。
+1. （オプション）列を非表示、表示、または並べ替えるには、「[列をカスタマイズ &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns)」の「強化リストを使用」を参照してください。
 1. 列を追加または削除するには、[強化リストを使用する記事の列マネージャー](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)で列を追加および削除するを参照してください。
-1. 行の高さを調整するには、「[ ビュー内の行の高さを変更する](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view)」を参照してください。「強化リストを使用する」を参照してください。
+1. 行の高さを調整するには、「[&#x200B; ビュー内の行の高さを変更する](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view)」を参照してください。「強化リストを使用する」を参照してください。
 
 ## 使用可能な変更タイプの表示
 
@@ -80,7 +80,7 @@ Workfront管理者は、設定領域で変更履歴を表示できます。
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**変更履歴** ![変更履歴アイコン ](assets/change-history-icon.png)をクリックします。
+1. 左側のパネルで、**変更履歴** ![変更履歴アイコン &#x200B;](assets/change-history-icon.png)をクリックします。
 1. 「**設定**」をクリックします。
 
    フィールドは、オブジェクト別にグループ化されて表示されます。
