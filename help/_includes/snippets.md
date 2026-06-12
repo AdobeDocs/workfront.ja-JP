@@ -1,8 +1,8 @@
 ---
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: '2317'
-ht-degree: 62%
+source-wordcount: '2236'
+ht-degree: 63%
 
 ---
 # スニペット
@@ -291,13 +291,6 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
    Workfront Planningのランディングページが開きます。
 
-1. （オプションおよび条件付き）Workfront管理者の場合は、次のいずれかのタブをクリックします。
-
-   * **自分のワークスペース**：作成したワークスペースを表示します。
-   * **その他のワークスペース**：共有されているワークスペースを含め、Workfront Planningのすべてのワークスペースを表示します。
-
-   その他のすべてのユーザーに対して、自分で作成または共有したすべてのワークスペースが、**ワークスペース**&#x200B;領域に表示されます。
-
 ## Workfront計画の重要な概要 –  {#planning-important-intro}
 
 >[!IMPORTANT]
@@ -483,7 +476,7 @@ OLD:
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 選択したユーザーがホームチームに関連付けられます。
-これで「完了」ボタンに関連付けられたステータスを含むチーム設定が、これらのユーザーに対して表示されます。
+「完了」ボタンに関連するステータスを含む、チームの設定が、これらのユーザーに表示されるようになりました。
 
 <!-- Timesheets -->
 

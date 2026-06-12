@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 1690
+source-wordcount: 1713
 ht-degree: 9%
 
 ---
@@ -120,6 +120,10 @@ maybe use the Share record types as example here and touch on the same points: h
 <!--checking on the below with Lilit-->
 
 * レコードは、人物、グループ、チーム、会社、担当業務の各エンティティと共有できます。
+* 次の制限があります。
+
+   * 一度に100を超えるレコードを共有することはできません。
+   * 100個を超えるエンティティを持つレコードは共有できません。
 * 権限をレコードに制限すると、ユーザーはそのレコードとそのルックアップフィールドの値を、そのレコードが表示されるシステム内の任意の場所に表示しなくなります。
 * Workfrontは、最大5つのレコードの詳細な接続でレコード権限をチェックし、ユーザーが自分と共有されたレコードのみを表示できるようにします。
 * レコードに次のレベルの権限を付与できます。
