@@ -5,7 +5,7 @@ title: Adobe Workfront MCP サーバーの概要
 description: Adobe Workfront MCP サーバーの機能と、AI エージェント型プラットフォームで自然言語の会話を通じてWorkfrontを使用する方法について説明します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 
 
 # Adobe Workfront MCP サーバーの概要
-
-{{highlighted-preview-article-level}}
 
 [!DNL Adobe Workfront] MCP サーバーは、Workfront インスタンスを[!DNL Claude]や[!DNL ChatGPT]などのAI エージェント プラットフォームに接続します。 Ai エージェント基盤から、自然言語のリクエストを行うことで、Workfrontアイテムを検索、作成、更新、管理できます。
 
