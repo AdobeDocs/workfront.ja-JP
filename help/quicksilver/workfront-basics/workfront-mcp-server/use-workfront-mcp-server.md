@@ -5,9 +5,9 @@ title: Adobe Workfront MCP サーバーの使用
 description: Adobe Workfront MCP サーバーを使用して、AI エージェント基盤で自然言語の会話を通じてWorkfrontアイテムを検索、作成、更新、管理します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: c58007a9e72a9a2c04f04d3df83876b80ef1d12b
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,10 @@ Workfrontのアイテムを削除するには、次の質問を行います。
 * *現在の文書にSarah ChenとMiguel Alvarezを承認者として追加します。*
 * *応答していないアセット「Spring Campaign Video」の承認者にリマインダーを送信します。*
 * *アセット「Spring Campaign Video」に「Marketing Launch」承認テンプレートを適用します。*
-* *このプロジェクトのすべての承認からAnna Jonesを削除し、Sione Carterに置き換えます。*
+
+<!--
+* *Remove Anna Jones from all approvals in this project, and replace with Sione Carter.*
+-->
 
 
 ### プランニングレコードの操作
