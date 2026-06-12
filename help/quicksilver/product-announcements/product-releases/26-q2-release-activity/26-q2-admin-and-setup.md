@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
 workflow-type: tm+mt
-source-wordcount: 512
-ht-degree: 11%
+source-wordcount: 573
+ht-degree: 10%
 
 ---
 
@@ -43,6 +43,18 @@ ht-degree: 11%
 現在、コンテンツレビューは利用可能な唯一のAI共同作業者です。 AI Collaboratorの機能は、今後さらに追加される予定です。
 
 詳しくは、[AI コラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)を参照してください。
+
+## 更新されたタイムゾーン名
+
+>[!NOTE]
+>
+>プレビュー：2026年3月27日>実稼動用の高速リリース：2026年3月27日>全員の実稼動環境：2026年3月27日
+
+Workfrontで利用可能なタイムゾーンを更新して、IANA標準に準拠しました。 これにより、他のシステムとの互換性と長期的な正確性を確保できます。
+
+この変更の一環として、以前Workfrontで利用可能だった一部のタイムゾーンは、標準のIANA タイムゾーンに置き換えられました。
+
+これらの変更のリストについては、[&#x200B; タイムゾーン名の更新](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)を参照してください。
 
 ## カスタム四半期は、セットアップの別ページとして使用できるようになりました
 

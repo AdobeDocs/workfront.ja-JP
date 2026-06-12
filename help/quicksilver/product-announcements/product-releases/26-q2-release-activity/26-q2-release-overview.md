@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
 workflow-type: tm+mt
-source-wordcount: 2586
+source-wordcount: 2626
 ht-degree: 21%
 
 ---
@@ -80,6 +80,14 @@ ht-degree: 21%
         <td><p>2026年4月2日（PT）</p></td>
         <td><p>2026年4月15日（PT）</p></td>
         <td><p>2026年4月16日（PT）</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> タイムゾーン名を更新</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>Workfrontで利用可能なタイムゾーンを更新して、IANA標準に準拠しました。 これにより、他のシステムとの互換性と長期的な正確性を確保できます。</p>
+        </td>
+        <td><p>2026年3月27日（PT）</p></td>
+        <td><p>2026年3月27日（PT）</p></td>
+        <td><p>2026年3月27日（PT）</p></td>
     </tr>
     <tr>
         <td>
