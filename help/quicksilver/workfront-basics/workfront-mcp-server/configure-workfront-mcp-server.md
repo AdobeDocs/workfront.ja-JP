@@ -5,7 +5,7 @@ title: Adobe Workfront MCP サーバーの設定
 description: WorkfrontインスタンスとAI エージェント型プラットフォームを設定することで、自然言語の会話を通じてWorkfrontと連携できます。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
+source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 
 
 # Adobe Workfront MCP サーバーの設定
-
-{{highlighted-preview-article-level}}
 
 [!DNL Adobe Workfront] MCP サーバーを使用すると、サポートされているAI エージェント プラットフォームで自然言語の会話を通じてWorkfront データを操作できます。
 
