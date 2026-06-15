@@ -7,16 +7,13 @@ feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
 TQID: https://experienceleague.adobe.com/mSirQEhhr-s9uGwZCL80dxPLpuBTkigfmPnCMba1lEs
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 25d403b9266c31a39c1dce6c1c45ad96ee90af28
 workflow-type: tm+mt
-source-wordcount: 106
-ht-degree: 100%
+source-wordcount: 116
+ht-degree: 91%
 
 ---
 
@@ -31,3 +28,4 @@ ht-degree: 100%
 * [アップロード後にドキュメント名が変更され、無効な文字が含まれています](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
 * [埋め込みビデオを含む PowerPoint のプルーフ](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
 * [インタラクティブなプルーフを新しいバージョンとして追加した場合、プルーフのバージョンをダウンロードまたはプレビューすることはできません](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
+* [承認者の決定がプルーフ承認レポートにハイフンを表示する](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
