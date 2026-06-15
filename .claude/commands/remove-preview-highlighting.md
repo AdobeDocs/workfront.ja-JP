@@ -121,4 +121,4 @@ c. ステップ bの実稼動リリース日を使用して、次を実行しま
 
 ## 参照
 
-- **[Workfront ドキュメントのスタイル &#x200B;](https://experienceleague.adobe.com/?lang=ja)**&#x200B;とリポジトリ規則（ユーザーがコミットしている場合はコミット/PR ルール）を一致させます。
+- **[Workfront ドキュメントのスタイル &#x200B;](https://experienceleague.adobe.com/ja?lang=ja)**&#x200B;とリポジトリ規則（ユーザーがコミットしている場合はコミット/PR ルール）を一致させます。
