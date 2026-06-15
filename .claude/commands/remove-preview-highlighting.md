@@ -104,4 +104,4 @@ ht-degree: 0%
 
 ## 参照
 
-- **[Workfront ドキュメントのスタイル &#x200B;](https://experienceleague.adobe.com/?lang=ja)**&#x200B;とリポジトリ規則（ユーザーがコミットしている場合はコミット/PR ルール）を一致させます。
+- **[Workfront ドキュメントのスタイル &#x200B;](https://experienceleague.adobe.com/ja?lang=ja)**&#x200B;とリポジトリ規則（ユーザーがコミットしている場合はコミット/PR ルール）を一致させます。
