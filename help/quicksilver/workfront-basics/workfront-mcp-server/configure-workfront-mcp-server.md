@@ -5,9 +5,9 @@ title: Adobe Workfront MCP サーバーの設定
 description: WorkfrontインスタンスとAI エージェント型プラットフォームを設定することで、自然言語の会話を通じてWorkfrontと連携できます。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: 0445376ea187b589040c8fdc56ea0d11f44b0b37
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1748'
 ht-degree: 1%
 
 ---
@@ -99,9 +99,15 @@ Workfrontを[!DNL Claude]に接続するには：
 
 +++
 
-### URLを使用してClaude デスクトップに接続
+### URLを使用してClaudeに接続
 
 +++ 展開すると、URLを使用してWorkfrontを[!DNL Claude]に接続するための手順ごとの手順が表示されます。
+
+>[!NOTE]
+>
+>この手順を実行するには、エンタープライズクラウド環境の所有者である必要があります。
+>
+>所有者の要件に関するClaudeのステートメントについては、Claude ドキュメントの「[&#x200B; カスタムコネクタを追加](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to)」を参照してください。
 
 URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 
@@ -118,7 +124,7 @@ URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 
 1. コネクタを作成すると、ログインウィンドウがポップアップ表示されます。 Adobe IDの認証情報を使用して認証します。 複数に属している場合は、必ず目的のWorkfront インスタンスを選択してください。
 
-   >メモ：
+   >[!NOTE]
    >
    >Workfront インスタンスは、そのインスタンスのリージョンのMCP サーバーに接続する必要があります。 例えば、EU インスタンスをEU MCP サーバーに接続する必要があります。
    >
@@ -150,7 +156,7 @@ URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 1. 認証が&#x200B;**OAuth** （デフォルトで設定）に設定されていることを確認し、「承認」チェックボックスをオンにして続行します。
 1. アプリの作成後、ログインウィンドウがポップアップ表示されます。 Adobe IDの認証情報を使用して認証します。 複数に属している場合は、必ず目的のWorkfront インスタンスを選択してください。
 
-   >メモ：
+   >[!NOTE]
    >
    >Workfront インスタンスは、そのインスタンスのリージョンのMCP サーバーに接続する必要があります。 例えば、EU インスタンスをEU MCP サーバーに接続する必要があります。
    >
