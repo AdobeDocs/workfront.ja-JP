@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
 workflow-type: tm+mt
-source-wordcount: 249
-ht-degree: 96%
+source-wordcount: 310
+ht-degree: 77%
 
 ---
 
@@ -85,5 +85,9 @@ ht-degree: 96%
    * プルーフが承認待ち
 
 * **プルーフの期限**：プルーフの期限が表示されます。 このフィールドに値を入力するには、すべてのステージに期限を割り当てる必要があります。 このフィールドには、直近にアクティベートされたステージの期限が表示されます。
+
+## 「承認者決定」フィールドについて
+
+「承認者の決定」フィールドには、受信者がプルーフに対して行った決定が表示されます。 場合によっては、このフィールドには決定値の代わりにハイフン（ – ）が表示されます。これは、受信者がプルーフの意思決定の役割を果たしていないことを示します。 詳細については、「[承認者の決定で、承認のプルーフ レポートにハイフンが表示される](../tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)」を参照してください。
 
  

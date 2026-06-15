@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 5fc376d5e3fe8ab6e137d87f3ad0f57c06874d3d
+source-git-commit: 7f03904aef23f47b84d085877ffa9153c1d69786
 workflow-type: tm+mt
-source-wordcount: '14184'
+source-wordcount: '14194'
 ht-degree: 94%
 
 ---
@@ -2037,6 +2037,7 @@ ht-degree: 94%
          * [アップロード後にドキュメント名が変更され、無効な文字が含まれています](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [埋め込みビデオを含む PowerPoint のプルーフ](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [インタラクティブなプルーフを新しいバージョンとして追加した場合、プルーフのバージョンをダウンロードまたはプレビューすることはできません](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
+      * [承認者の決定がプルーフ承認レポートにハイフンを表示する](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)
    * ネイティブ統合 {#native-integrations}
       * [ネイティブ統合のレビューと承認：記事インデックス](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
       * {hide-from-toc}[GenStudio for Performance MarketingとFrame.ioの連携の基本を学ぶ](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
