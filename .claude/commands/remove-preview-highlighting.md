@@ -1,9 +1,9 @@
 ---
 name: remove-preview-highlighting
 description: ""
-source-git-commit: 377568941333b399585a70ee023f30a23618b624
+source-git-commit: 08e47dac1dcd856a2e74e2368e71d57eef8a8278
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 1. ユーザーがこのワークフローを呼び出しました（例：**「プレビューのハイライト表示を削除する」**&#x200B;または明らかに同じ意図）。
 2. Markdown ファイルのパス **not**&#x200B;に&#x200B;**`product-announcements`**&#x200B;が含まれています（リリースノート、ベータ版、`help/quicksilver/product-announcements/`の通知など、フォルダーツリー全体を除外します）。
 3. Markdown ファイルは、以下の&#x200B;**[除外パス](#excluded-paths)**&#x200B;の下の&#x200B;**not**&#x200B;です。
-4. Markdown ファイルは、ユーザーが指定した日付範囲内でCourtneyによってコミットされたとおりに`git log`に表示されます（「インベントリの手順」を参照）。
+4. Markdown ファイルは、`git log`に、現在のGit ユーザーがユーザーが指定した日付範囲内でプレビューコンテンツ **を追加または変更した**&#x200B;として表示されます（「インベントリの手順」を参照）。
 5. 記事には、次の&#x200B;**のうち少なくとも1**&#x200B;が含まれています：
    - Preview-environment **本文の文言または実際のスニペットの段落** （一般的なパターン：「ハイライトされた情報」、「プレビュー環境」、「まだ一般公開されていません」、高速リリースノート） – **not**&#x200B;目次/索引ページの&#x200B;**リンクテキストのみ**&#x200B;からの一致（以下を参照）
    - **`class="preview"`**&#x200B;を持つHTML要素（例：`<span class="preview">`、`<div class="preview">`）
@@ -46,16 +46,25 @@ ht-degree: 0%
    - **ターゲット**&#x200B;の四半期リリースの&#x200B;**実稼動リリース日**→`--until`です。
    - 四半期リリースは、「四半期リリース名」列（例：2026.01、2026.04、2026.07、2026.10）で識別されます。
    - **現在の日付が第4四半期（10月～12月）:**&#x200B;の場合、今年のカレンダーを取得した後、ユーザーに来年のリリースカレンダーのURLを指定するように依頼し、必要なすべての四半期生産日を取得できるようにします。
-c. ステップ bの実稼動リリース日を使用して、次を実行します。
+c.現在のGit ユーザーを決定し、手順bの実稼動リリース日を使用して次を実行します。
 
-   ```
+   ```bash
+   GIT_USER=$(git config user.name)
    git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
-     --author="Courtney" --name-only --pretty=format: \
-     -- "help/quicksilver/**/*.md" | sort -u
+     --author="$GIT_USER" --name-only --pretty=format: \
+     -- "help/quicksilver/**/*.md" | sort -u | grep -v '^$'
    ```
 
+   d. これらの結果から、**現在のユーザーのコミットが日付範囲で実際にプレビューコンテンツを追加または変更したファイルにフィルター**。 候補ファイルごとに、ユーザーのコミットによってプレビューマーカーが導入されたかどうかを確認します。
 
-   d. これらの結果から、**フィルターを次のいずれかを含むファイルに適用します：**、`class="preview"`、`{{highlighted-preview`、またはボイラープレートのプレビューの表現 – `highlighted information\|Preview environment\|not yet generally available`の正規表現。\
+   ```bash
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="$GIT_USER" -p -- "<file>" | \
+   grep -q '^\+.*class="preview"\|^\+.*{{highlighted-preview\|^\+.*highlighted information\|^\+.*not yet generally available'
+   ```
+
+   この正規表現が一致する場合にのみファイルを含めます（終了コード 0）。 これにより、他のユーザーによってプレビューのハイライトが追加されたファイルに対して、ユーザーが無関係な編集を行った場合の誤検出を回避できます。
+
    e. **上記の目次ルールに従って、**`product-announcements`**の下の任意のパス、**&#x200B;[&#x200B;除外されたパス &#x200B;](#excluded-paths)**、および**&#x200B;目次/索引&#x200B;**ページを**&#x200B;省略します。\
    f. 結果の並べ替えリストを表示します。 リストされたファイルにプレビューのハイライトが表示されていないとユーザーが判断した場合は、編集を強制するのではなく、実行条件からファイルを削除して引き締めます。
 
