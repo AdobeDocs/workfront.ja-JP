@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: be4cbcd40353960ea65a1ca38a8b6b1e21fd2ad4
+source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 `help/_includes/snippets.md`を読み取り、利用可能条件で選択します：
 
 | 使用可否 | スニペット |
-|---|---|
+| --- | --- |
 | プレビューのみ – ハイライト表示されたコンテンツは、一般公開の記事では新しく追加されています | `{{highlighted-preview}}` |
 | プレビューのみ – 記事全体が新しい | `{{highlighted-preview-article-level}}` |
 | プレビュー+高速リリースのお客様、一般 | `{{preview-fast-release-general}}` |
@@ -104,6 +104,38 @@ ht-degree: 0%
 ### &#x200B;5. 各記事の後
 
 次の記事に移動するか、現在の記事を停止するか、スキップするか、再訪問するかを尋ねます。
+
+### &#x200B;6. セッションの終了 – リリースノートのコピー/ペースト
+
+ユーザーがセッションを終了したとき（「完了」と表示された場合、「完了」、「停止」、または次の記事に進むのを拒否した場合）、次の質問を行います。
+
+> 「機能強化ページのリリースノートのコピー/ペーストを行いますか？」
+
+はいの場合は、手順1で更新した機能コンテキストと、このセッションで更新されたプライマリヘルプ記事を使用してドラフトエントリを生成します。 **どのファイルにも書き込まないでください** — テキストのコピー/ペーストのみとして指定します。
+
+**release-notes-formatter** スキルの製品領域ページ構造に合わせてエントリを書式設定します。
+
+```markdown
+## {Feature name}
+
+>[!NOTE]
+>
+>Preview: {date or TBD}
+>Production fast release: {date or TBD}
+>Production for everyone: {date or TBD}
+
+{1–3 sentences describing what changed and why it helps users. Lead with the benefit, not the UI action.}
+
+For more information, see [{Primary article title}](/help/quicksilver/{path-to-article}.md).
+```
+
+ルール：
+
+- 日付が不明な場合は`TBD`を使用します。ユーザーに日付があるかどうかを確認します。
+- 機能名は文頭の大文字です（先頭の単語と固有名詞のみを大文字にします）。
+- 説明では、実装の詳細ではなく、ユーザーが今できることに焦点を当てる必要があります。
+- 概要ページではなく、更新された最も具体的なハウツー記事へのリンク。
+- すべての日付が不明で、ユーザーがプレースホルダーを望まない場合は、`>[!NOTE]`日付ブロックを含めないでください。これを省略して、後で追加する必要があることに注意してください。
 
 ## コンテンツルール
 
