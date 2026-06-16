@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: ea8b2a57504ffdbedcfeb56c47b9907647db6787
+source-git-commit: f348be922cc5d3e231621e09b67644492b0c80fb
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1901'
 ht-degree: 18%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 18%
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
->| <ul><li>26.5 （2026年5月14日（PT））</li><li>26.6 （2026年6月11日（PT））</li><li>26.7 （2026年7月16日（PT））</li></ul> | <ul><li>26.7 （2026年7月16日（PT）～15日（PT））</li></ul> |
+>| <ul><li>26.5 （2026年5月14日（PT））</li><li>26.6 （2026年6月11日（PT））</li><li>26.7 （2026年7月15日（PT））</li></ul> | <ul><li>26.7 （2026年7月16日（PT））</li></ul> |
 >
 >各四半期の最終リリース（今四半期26.7）では、高速リリーススケジュールのユーザーは、リリースを1日早く（2026年7月15日（PT））受け取ります。
 >
