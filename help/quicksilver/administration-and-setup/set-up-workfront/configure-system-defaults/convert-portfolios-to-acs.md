@@ -18,7 +18,7 @@ ht-degree: 11%
 
 Workfront管理者は、既存の従来のWorkfront ストレージポートフォリオを、システム環境設定の「ストレージ環境設定」領域からAdobe クラウドストレージに変換できます。 ポートフォリオを変換すると、他のAdobe クラウドストレージポートフォリオと同じように動作します。
 
-変換されたポートフォリオの動作と子オブジェクトの影響について詳しくは、[Adobe クラウドストレージ上のWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)の[ オブジェクトポータビリティ ](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability)を参照してください。
+変換されたポートフォリオの動作と子オブジェクトの影響について詳しくは、[Adobe クラウドストレージ上のWorkfrontへの移行](/help/quicksilver/review-and-approve-work/workfront-storage.md)の[&#x200B; オブジェクトポータビリティ &#x200B;](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability)を参照してください。
 
 ## アクセス要件
 
