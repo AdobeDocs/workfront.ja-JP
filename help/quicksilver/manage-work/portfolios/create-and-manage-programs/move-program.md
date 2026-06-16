@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 34%
+source-wordcount: 289
+ht-degree: 45%
 
 ---
 
@@ -99,21 +99,10 @@ Old:
 
 >[!NOTE]
 >
->ドキュメントに従来のWorkfrontとAdobe クラウドストレージの両方を使用する場合、次のシナリオが存在します。
+>お客様の組織が従来のWorkfrontとAdobe クラウドストレージの両方をドキュメントに使用している場合、Adobe クラウドストレージプログラムを従来のストレージポートフォリオに追加したり、従来のプログラムをAdobe クラウドストレージポートフォリオに追加したりすることはできません。
+>Workfront インスタンスには、両方の種類のドキュメント ストレージがない可能性があります。
+>詳細については、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 >
->
->* Adobe クラウドストレージプログラムを従来のWorkfront ストレージポートフォリオに追加し、ポートフォリオにドキュメントが添付されていない場合、ポートフォリオはAdobe クラウドストレージに変換されます。
->* Adobe クラウドストレージプログラムを従来のWorkfront ストレージポートフォリオに追加し、ポートフォリオにドキュメントが添付されている場合、ポートフォリオドキュメントストレージはWorkfront ストレージに残ります。 ただし、従来のWorkfront ストレージアイコン ![従来のWorkfront ストレージアイコン &#x200B;](assets/legacy-storage-project-icon.png)はポートフォリオから削除されます。
->* 従来のWorkfront ストレージプログラムをAdobe クラウドストレージポートフォリオに追加することはできません。
->
->詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
->
->すべてのWorkfront インスタンスに両方の種類のドキュメントストレージがあるわけではありません。
-
-<!--
-For preview/ Prod. release, rewrite the bullets above:
-* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
--->
 
 既存のプログラムを別のポートフォリオに追加するには：
 

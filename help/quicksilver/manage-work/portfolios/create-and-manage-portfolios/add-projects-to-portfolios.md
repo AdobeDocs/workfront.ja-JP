@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 689
-ht-degree: 40%
+source-wordcount: 674
+ht-degree: 41%
 
 ---
 
@@ -189,20 +189,14 @@ Old:
    >ドキュメントに従来のWorkfrontとAdobe クラウドストレージの両方を使用する場合、次のシナリオが存在します。
    >
    >
-   >* Adobe クラウドストレージプロジェクトを従来のWorkfront ストレージポートフォリオに追加し、そのポートフォリオにドキュメントが添付されていない場合、そのポートフォリオはAdobe クラウドストレージポートフォリオに変換されます。
-   >* Adobe クラウドストレージプロジェクトを従来のWorkfront ストレージポートフォリオに追加し、ポートフォリオにドキュメントが添付されている場合、ポートフォリオドキュメントストレージはWorkfront ストレージに残ります。 ただし、従来のWorkfront ストレージアイコン ![従来のWorkfront ストレージアイコン &#x200B;](assets/legacy-storage-project-icon.png)はポートフォリオから削除されます。
-   >* 従来のWorkfront ストレージプロジェクトをAdobe クラウドストレージポートフォリオに追加することはできません。
+   >* レガシーストレージプロジェクトをAdobe クラウドストレージポートフォリオに追加したり、Adobe クラウドストレージプロジェクトをレガシーストレージポートフォリオに追加したりすることはできません。
+   >* 従来のストレージポートフォリオ内のAdobe クラウドストレージテンプレートからプロジェクトを作成することはできません。
+   >* Adobe クラウドストレージポートフォリオの従来のストレージテンプレートからプロジェクトを作成できますが、テンプレート上のドキュメントとフォルダーは新しいプロジェクトに追加されません。 プロジェクトは、Adobe クラウドストレージを受け取ります。
    >
    >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
    >
    >すべてのWorkfront インスタンスに両方の種類のドキュメントストレージがあるわけではありません。
 
-   <!--
-    For preview/ prod release: replace all bullets (i think!!) in the Note with this:
-    * You cannot add a Legacy storage project to an Adobe cloud storage portfolio, or an Adobe cloud storage project to a Legacy storage portfolio. 
-    * You cannot create a project from an Adobe cloud storage template in a Legacy storage portfolio. 
-    * You can create a project from a Legacy storage template in an Adobe cloud storage portfolio, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
-    -->
 
 1. （オプション）プロジェクト名の右側にある&#x200B;**X** アイコンをクリックして、ポートフォリオに追加しない場合は、リストから削除します。
 
