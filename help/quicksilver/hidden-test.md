@@ -4,7 +4,8 @@ description: 非表示のテスト
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
 TQID: https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 1fa2eeee7a4acba12ca57781023878dee50f7035
 workflow-type: tm+mt
 source-wordcount: 615
@@ -19,7 +20,7 @@ ht-degree: 49%
 問題がある場合は、ボブに連絡してください。
 
 
-![Adobeのロゴ ](assets/adobe-logo-old.png)
+![Adobeのロゴ &#x200B;](assets/adobe-logo-old.png)
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
@@ -62,7 +63,7 @@ ht-degree: 49%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 ## アクセス要件
 
@@ -227,7 +228,7 @@ ht-degree: 49%
    <td> 
 <p>Adobe WorkfrontのワークフローパッケージとAdobe Workfrontプランニングパッケージ</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront platform （****これを呼び出すか、下部のリンクされた記事の一部にするか？??*****）</p></td> 
+<td role="rowheader"><p>Adobe Workfront platform （**&#x200B;**&#x200B;これを呼び出すか、下部のリンクされた記事の一部にするか？??**&#x200B;***）</p></td> 
    <td> 
 <p>Workfront Planningにアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experienceにオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
@@ -252,7 +253,7 @@ ht-degree: 49%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 
 
