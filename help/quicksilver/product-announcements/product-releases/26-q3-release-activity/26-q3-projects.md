@@ -4,10 +4,10 @@ description: 2026年第3四半期プロジェクトの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 84810b21d5dfa6183f0e3e63450623a4163f0b54
+source-git-commit: 8abebc25e7b966f3202e902463246c8217860f4a
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 18%
+source-wordcount: '269'
+ht-degree: 4%
 
 ---
 
@@ -17,43 +17,41 @@ ht-degree: 18%
 
 2026年第3四半期のリリースサイクルで現時点で利用可能なすべての変更のリストについては、[2026年第3四半期のリリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)を参照してください。
 
-<!--
 
-## Convert a legacy storage task to an Adobe cloud storage project
 
->[!NOTE]
->
->Preview: June 11, 2026
->Production for everyone: June 12, 2026
-
-If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.
-When you do this, documents and document approvals remain on the parent object rather than transferring to the newly created project.
-
-Previously, tasks could only be converted to projects using the same storage type.
-
-For more information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
-
-## Use a legacy storage template to create an Adobe cloud storage project
-
--->
-
-<!--
+## 従来のストレージタスクをAdobe クラウドストレージプロジェクトに変換
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production for everyone: June 11, 2026
+>プレビュー：2026年6月11日>全員の本番環境：2026年6月12日
 
-If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in the following scenarios:
+組織で従来のWorkfront ストレージとAdobe クラウドストレージの両方を使用している場合、従来のストレージタスクをAdobe クラウドストレージプロジェクトに変換できるようになりました。
+この場合、ドキュメントとドキュメントの承認は、新しく作成したプロジェクトに転送するのではなく、親オブジェクトに残ります。
 
-* Creating a project outside of a portfolio with a legacy template: You can choose to create the project on Adobe cloud storage instead. Legacy storage documents and folders from the template are not carried over to the new project.
-* Creating a project inside an Adobe cloud storage portfolio: The project is automatically created on Adobe cloud storage, regardless of the template's storage type. Projects must use the same storage as their parent portfolio.
+以前は、タスクをプロジェクトに変換するには、同じストレージタイプを使用する必要がありました。
 
-Previously, Legacy storage templates could only be used to create Legacy storage projects.
+詳しくは、[&#x200B; タスクをプロジェクトに変換](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)を参照してください。
 
-For more information, see [Create projects](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+## 従来のストレージテンプレートを使用して、Adobe クラウドストレージプロジェクトを作成する
 
--->
+
+
+
+
+>[!NOTE]
+>
+>プレビュー：2026年6月11日>全員の本番環境：2026年6月11日
+
+組織で従来のWorkfront ストレージとAdobe クラウドストレージの両方を使用している場合、従来のストレージテンプレートを使用して、次のシナリオでAdobe クラウドストレージプロジェクトを作成できるようになりました。
+
+* 従来のテンプレートを使用してポートフォリオ外でプロジェクトを作成する：代わりにAdobe クラウドストレージ上でプロジェクトを作成できます。 テンプレートのレガシーストレージドキュメントとフォルダーは、新しいプロジェクトに引き継がれません。
+* Adobe クラウドストレージポートフォリオ内でのプロジェクトの作成：テンプレートのストレージタイプに関係なく、プロジェクトはAdobe クラウドストレージ上に自動的に作成されます。 プロジェクトでは、親ポートフォリオと同じストレージを使用する必要があります。
+
+以前は、レガシーストレージテンプレートは、レガシーストレージプロジェクトの作成にのみ使用できました。
+
+詳しくは、[&#x200B; プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。
+
+
 
 
 
