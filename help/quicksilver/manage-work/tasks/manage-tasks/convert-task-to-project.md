@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
-source-wordcount: 1257
-ht-degree: 72%
+source-wordcount: 1266
+ht-degree: 71%
 
 ---
 
@@ -114,7 +114,7 @@ Old:
    * 従来のWorkfront ストレージタスクは、従来のWorkfront ストレージプロジェクトを作成します。
    * Adobe クラウドストレージタスクは、Adobe クラウドストレージプロジェクトを作成します。
    * 従来のWorkfront ストレージテンプレートを使用してAdobe クラウドストレージタスクを変換すると、Adobe クラウドストレージプロジェクトが作成されます。
-   * Adobe クラウドストレージテンプレートを使用して従来のWorkfront ストレージタスクを変換すると、従来のWorkfront ストレージプロジェクトが作成されます。
+   * Adobe クラウドストレージテンプレートを使用して、従来のWorkfront ストレージタスクを変換すると、Adobe クラウドストレージプロジェクトが作成されます。 ドキュメントとその承認は、現在のプロジェクトに残ります。
 
      詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
@@ -122,10 +122,7 @@ Old:
      >
      >Workfront インスタンスでは、両方の種類のドキュメントストレージにアクセスできない場合があります。
 
-     <!--
-     For preview/ prod - rewrite the last bullet in the note: 
-     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
-     -->
+
 * すべてのサブタスクとイシューのステータスと完了率は保持されます。
 * タスクを割り当てたユーザーと、タスクをプロジェクトに変換したユーザーは、プロジェクトで共有ユーザーになります。
 * プロジェクトの開始日は、タスクの開始日に設定されます。
