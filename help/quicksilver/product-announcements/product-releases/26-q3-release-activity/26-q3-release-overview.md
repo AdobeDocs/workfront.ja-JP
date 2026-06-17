@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 2ad27645345f35de1f6e4e10a6b9836a9f8bf6ce
+source-git-commit: 17d081a7a071444416e8c7b6e9df16f173b23edc
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2095'
 ht-degree: 17%
 
 ---
@@ -125,6 +125,15 @@ ht-degree: 17%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">WorkfrontとFrame.ioを使用したAdobe Express テンプレートの承認をリクエスト </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Adobe ExpressとWorkfrontのFrame.ioとの連携により、Adobe Expressで作成されたコンテンツに構造化されたレビューと承認が可能になります。 デザイナーは、Workfrontの承認ワークフローテンプレートをExpress テンプレートにマッピングできるため、テンプレートがリミックスされると、公開前に承認が自動的に必要になり、事前設定されたWorkfront ワークフローとFrame.io ビューアを通じてアセットがルーティングされます。</p>
+            </td>
+            <td><p>該当なし</p></td>
+            <td><p>2026年6月15日（PT）</p></td>
+            <td><p>2026年6月15日（PT）</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">新しいドキュメント領域のドキュメントの概要を印刷</a><p>[!BADGE Off schedule]{type=Neutral}</p>

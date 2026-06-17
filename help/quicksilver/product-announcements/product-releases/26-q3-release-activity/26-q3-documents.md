@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: 6490feeb9f07234609bd31cb9ab81a7787dc72d0
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 2%
+source-wordcount: '624'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 2%
 
 2026年第3四半期のリリースサイクルで現時点で利用可能なすべての変更のリストについては、[2026年第3四半期のリリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)を参照してください。
 
+## WorkfrontとFrame.ioを使用したAdobe Express テンプレートの承認
+
+>[!NOTE]
+>
+>プレビュー：なし>実稼動高速リリース：2026年6月15日>全員の実稼動環境：2026年6月15日>[!BADGE &#x200B; スケジュールをオフ &#x200B;]{type=Neutral}
+
+Adobe ExpressとWorkfrontのFrame.ioとの連携により、Adobe Expressで作成されたコンテンツに構造化されたレビューと承認が可能になります。 デザイナーは、Workfrontの承認ワークフローテンプレートをExpress テンプレートにマッピングできるため、テンプレートがリミックスされると、公開前に承認が自動的に必要になり、事前設定されたWorkfront ワークフローとFrame.io ビューアを通じてアセットがルーティングされます。
+
+この統合により、次のことが可能になります。
+
+* クリエイティブ部門、法務部門、コンプライアンス部門の間でコラボレーションを合理化し、監視を維持しながら公開までの時間を短縮できます
+* Frame.io ビューアで描画マークアップ、注釈、コメントを使用して詳細なレビューを実施
+* 電子サインと包括的な監査ログにより、企業のコンプライアンス基準を満たすことができます
+* Express ブランドのテンプレートからリミックスされたファイルに対する承認を必要とする
+* Adobe Workfrontの統合承認テンプレートを使用して、Express テンプレートを多段階のレビューと承認のワークフローにマッピングできます
+* 承認をリクエストする際に、Workfront プロジェクトを選択すると、関連するアセットとプルーフをまとめて整理できます
+
+詳しくは、[Frame.io統合を使用したAdobe ExpressとWorkfrontの使用の開始](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)を参照してください。
 
 ## 新しいドキュメント領域のドキュメントの概要を印刷
 
