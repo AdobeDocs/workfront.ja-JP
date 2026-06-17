@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1f811e3467e8efa7c048bdc148792c4b6f03416c
 workflow-type: tm+mt
-source-wordcount: 1792
-ht-degree: 80%
+source-wordcount: 1828
+ht-degree: 78%
 
 ---
 
@@ -77,6 +77,10 @@ ht-degree: 80%
 ## カスタム更新サンドボックスの更新
 
 カスタム更新サンドボックスには、実際の実稼動データが含まれ、更新するようにスケジュールするまで更新されません。 更新のスケジュールは、都合の良いときに、週に 1 回程度の頻度で設定できます。
+
+>[!IMPORTANT]
+>
+>カスタムリフレッシュサンドボックス環境は、実稼動環境からのみリフレッシュされます。 サンドボックス環境に対してポイント・イン・タイム・リストアを実行するプロセスはありません。 サンドボックスデータを更新するには、実稼動環境から標準の更新をスケジュールします。
 
 >[!NOTE]
 >
