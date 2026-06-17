@@ -9,11 +9,20 @@ exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ue8QlqaB8O8dJ6mVw9t660r82Xl4K6jGgVPWW6L0YNc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
 source-wordcount: 1266
@@ -107,7 +116,7 @@ Old:
    * 従来のWorkfront ストレージテンプレートを使用してAdobe クラウドストレージタスクを変換すると、Adobe クラウドストレージプロジェクトが作成されます。
    * Adobe クラウドストレージテンプレートを使用して、従来のWorkfront ストレージタスクを変換すると、Adobe クラウドストレージプロジェクトが作成されます。 ドキュメントとその承認は、現在のプロジェクトに残ります。
 
-     詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+     詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
      >[!TIP]
      >
@@ -225,13 +234,13 @@ Old:
 ## タスクをプロジェクトに変換
 
 1. プロジェクトに変換するタスクに移動します。
-1. **詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックしてから、**プロジェクトに変換**&#x200B;します。
+1. **詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**プロジェクトに変換**&#x200B;します。
 1. 次のいずれかのオプションを選択します。
 
    * テンプレートを使用せずにプロジェクトを作成するには、**新しいプロジェクト**
    * 「**テンプレートから選択**」セクションのテンプレート
 
-     ![ タスクをプロジェクトテンプレートに変換オプション ドロップダウンメニュー](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![&#x200B; タスクをプロジェクトテンプレートに変換オプション ドロップダウンメニュー](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. 表示される通知で「**続行**」をクリックします。
 1. **プロジェクトに変換**&#x200B;ボックスで、次の情報を指定します。
