@@ -9,24 +9,15 @@ exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/JqR-bwIq1AVMOMz3aTWIKoiPep1VQ6IaONbbuDJ1AiA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 905
-ht-degree: 44%
+source-wordcount: 790
+ht-degree: 48%
 
 ---
 
@@ -142,7 +133,7 @@ Old:
 
       * Workfront ストレージテンプレート用の&#x200B;**名称未設定テンプレート**。
 
-        レガシーWorkfront ストレージテンプレートの名前の横に、**レガシーWorkfront ストレージ** アイコン ![&#x200B; レガシーストレージプロジェクトアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
+        レガシーWorkfront ストレージテンプレートの名前の横に、**レガシーWorkfront ストレージ** アイコン ![ レガシーストレージプロジェクトアイコン ](assets/legacy-storage-project-icon.png)が表示されます。
 
       * **名称未設定のテンプレート - Adobe クラウドストレージテンプレートの&lt;月の日、年の時間。分。秒>**
 
@@ -160,11 +151,11 @@ Old:
 
    「**新しいテンプレートタスク**」をクリックして、**新しいテンプレートタスク** ボックスでテンプレートへのタスクの追加を開始します。
 
-   **新しいテンプレート タスク**&#x200B;をクリックすると、**テンプレート タスクを作成** ボックスが新しいエクスペリエンスで開きます。
+   **新しいテンプレート タスク**&#x200B;をクリックすると、**テンプレート タスクを作成** ボックスが開きます。
 
-   ![新しいテンプレート タスクの新しいエクスペリエンス &#x200B;](assets/new-template-task-box-unshimmed.png)
+   ![新しいテンプレート タスクの新しいエクスペリエンス ](assets/new-template-task-box-unshimmed.png)
 
-1. （条件付き）新しいエクスペリエンスを使用して、**テンプレート タスクを作成** ボックスの次の領域で情報を更新します。
+1. （条件付き）次の領域で、**テンプレート タスクを作成** ボックスの情報を更新します。
 
    * テンプレート タスク名
    * 概要
@@ -174,55 +165,31 @@ Old:
    * ドキュメント
    * 設定
 
-1. 「**テンプレートタスクを作成**」をクリックします
+   テンプレートタスクの情報の更新は、テンプレートタスクの編集に似ています。
 
-   または
-
-   「**テンプレートのタスクを作成**」ボックスの下部にある「**古いエクスペリエンスに切り替え**」をクリックします。
-
-   古いエクスペリエンスで&#x200B;**新しいテンプレート タスク**&#x200B;が開きます。
-
-   ![新しいテンプレート タスク ボックス &#x200B;](assets/new-template-task-box.png)
-
-   >[!TIP]
-   >
-   >実稼動環境では、古いエクスペリエンスがデフォルトで開きます。
-
-1. **新しいテンプレート タスク** ボックスの次の領域の情報を更新します。
-
-   * 概要
-   * 財務
-   * 設定
-   * 割り当て
-   * カスタムフォーム
-   * ドキュメントの添付
-
-     テンプレートタスクの情報の更新は、プロジェクトのタスクの編集に似ています。 詳しくは、[&#x200B; タスクの編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。<!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+   詳しくは、[ テンプレートタスクの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)を参照してください。
 
    >[!NOTE]
    >
    >繰り返しタスクをテンプレートに追加することはできません。
 
-1. 次のいずれかをクリックします。
+1. 「**テンプレートタスクを作成**」をクリックします。
 
-   * **テンプレート タスクを保存**&#x200B;して、現在のテンプレート タスクを保存し、「新しいテンプレート タスク」ボックスを閉じます。
-   * **テンプレートタスクを保存して別のタスクを開始**&#x200B;し、現在のテンプレートタスクを保存して、別の&#x200B;**新しいテンプレートタスク** ボックスを開いて別のタスクを追加します。
-   * **キャンセル**&#x200B;して、テンプレートタスクを保存せずにボックスを閉じます。
-1. （オプション）テンプレートタスクを追加した後、「テンプレートタスク」セクションで、タスクリストの右上隅にある&#x200B;**ガントチャート** アイコンをクリックすると、テンプレートのタスクリストが視覚的に表示されます。
+1. （オプション）テンプレートタスクを追加した後、**テンプレートタスク** セクションで、タスクリストの右上隅にある&#x200B;**ガントチャート** アイコン ![ ガントアイコン ](assets/gantt-icon.png)をクリックすると、テンプレートのタスクリストが視覚的に表示されます。
 
    >[!TIP]
    >
-   >このガントチャートから直接タスクを編集することはできません。
+   >テンプレートタスクのガントチャートからタスクを直接編集することはできません。
 
-1. 新しいテンプレートに情報を追加するには、ヘッダーのテンプレート名の左側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
+1. 新しいテンプレートに情報を追加するには、ヘッダーのテンプレート名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
 
    テンプレートの編集について詳しくは、[プロジェクトテンプレートの編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
 
    >[!NOTE]
    >
-   >   プロジェクトテンプレートとグループとの関連付け（またはグループの欠如）は、プロジェクト、タスク、イシューの環境設定がテンプレート内の特定の設定を決定する方法に影響します。
+   >プロジェクトテンプレートとグループとの関連付け（またはグループの欠如）は、プロジェクト、タスク、イシューの環境設定がテンプレート内の特定の設定を決定する方法に影響します。
    >
-   >詳細については、[&#x200B; グループのプロジェクトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)の記事の「テンプレートとテンプレートタスクに対する環境設定の適用方法」の節を参照してください。
+   >詳細については、[ グループのプロジェクトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)の記事の「テンプレートとテンプレートタスクに対する環境設定の適用方法」の節を参照してください。
 
 1. 「**保存**」をクリックします。
 1. （オプション）次の項目をテンプレートに追加します
@@ -241,7 +208,7 @@ Old:
    * 費用
    * 承認
 
-   詳しくは、[&#x200B; プロジェクトテンプレートを編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)の記事の「テンプレートにアイテムを追加する」の節を参照してください。
+   詳しくは、[ プロジェクトテンプレートを編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)の記事の「テンプレートにアイテムを追加する」の節を参照してください。
 
 
 
