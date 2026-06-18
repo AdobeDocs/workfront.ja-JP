@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 127
-ht-degree: 72%
+source-wordcount: 134
+ht-degree: 68%
 
 ---
 
@@ -50,3 +50,4 @@ ht-degree: 72%
 * [Adobe クラウドストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
 * [従来のポートフォリオをAdobe クラウドストレージに変換](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
 * [AI共同作業者の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
+* [従来のポートフォリオをAdobe クラウドストレージに変換](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)

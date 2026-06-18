@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: '2001'
 ht-degree: 2%
@@ -29,7 +29,7 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
-## 選択フィールドと人物入力フィールドのデフォルトの選択肢を追加
+## 選択フィールドと人物タイプフィールドのデフォルトの選択肢を追加
 
 >[!NOTE]
 >

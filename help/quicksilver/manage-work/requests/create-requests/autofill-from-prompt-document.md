@@ -18,9 +18,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 03ecdc53f80c25a77136d1735266bfdbcbe2a8f9
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 1537
+source-wordcount: 1493
 ht-degree: 10%
 
 ---
@@ -44,7 +44,7 @@ AIを活用して、入力したプロンプトに基づいてリクエストフ
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe WorkfrontまたはWorkflow パッケージ</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Remove me October 2026
 * Your organization must have migrated to Adobe IMS (Identity Management System)
 * The Adobe Unified Experience must be enabled
 -->
-* 組織が Select、Prime、または Ultimate の Workfront プランを導入している必要があります。
+* 組織には、Select、Prime、Ultimate WorkfrontまたはWorkflow パッケージが必要です
 * アドビが署名済みの Adobe 生成 AI 契約を保存している必要があります。
 
   契約書への署名について詳しくは、「AI アシスタントの概要」の「[Adobe Gen AI契約書に署名する](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)」を参照してください。
@@ -104,11 +104,19 @@ AIを活用したフォーム入力を使用する場合は、次の点を考慮
 >
 >AIによるフォーム入力は組織レベルで有効になっており、特定のユーザーまたはアクセスレベルに対して有効または無効にすることはできません。
 
-1. 左上隅の&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![&#x200B; セットアップ アイコン &#x200B;](/help/_includes/assets/gear-icon-setup.png)をクリックします。
-1. 「**システム**」をクリックし、「システム」の下の「**環境設定**」をクリックします。
-1. AI環境設定セクションで、**AIを有効にする**&#x200B;設定をオンにします。
-1. 「**AI フォーム入力**」設定を有効にします。
-1. AIによるフォーム入力を無効にするには、**AI フォーム入力**&#x200B;をオフにします。
+詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+
+<!--
+
+This should point to the System Preferences article, since it's not a user function: 
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Click **System**, then under System, click **Preferences**.
+1. In the AI preference section, turn on the **Enable AI** setting.
+1. Turn on the **AI Form Fill** setting.
+1. To disable Form Fill powered by AI, turn off **AI Form Fill**.
+
+-->
 
 ## テキストプロンプトから提案を取得
 
