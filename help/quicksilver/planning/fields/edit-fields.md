@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: 1087
+source-wordcount: 1098
 ht-degree: 23%
 
 ---
@@ -152,8 +152,8 @@ Old:
 * フィールドを保存した後、次のフィールド要素の設定を編集できます。
 
    * 任意のフィールドの名前または説明
-   * 単一選択または複数選択フィールド <!--<span class="preview">and their default choices</span>-->のオプション。
-     <!--* <span class="preview">The default choices of a People field.</span>-->
+   * 単一選択または複数選択フィールド <span class="preview">とそのデフォルトの選択肢</span>のオプション。
+   * <span class="preview">人物フィールドの既定の選択肢。</span>
    * 数式フィールドの式。
 
   >[!WARNING]

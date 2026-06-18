@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '2001'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,17 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
+## 選択フィールドと人物入力フィールドのデフォルトの選択肢を追加
+
+>[!NOTE]
+>
+>プレビュー：2026年6月18日>実稼動用の高速リリース：2026年7月15日>全員の実稼動環境：2026年7月16日
+
+単一、複数選択フィールドまたは人物タイプフィールドを作成する場合、これらのフィールドのデフォルト値を指定できるようになりました。 デフォルト値は、フィールドがレコードに表示されているときに常に適用されます。
+
+フィールドを保存した後で、フィールドのデフォルト設定を変更できます。 レコードを操作する際に、フィールドのデフォルト値を置き換えることができます。
+
+詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
 
 ## テーブルビューでのインターフェイスの機能強化
 

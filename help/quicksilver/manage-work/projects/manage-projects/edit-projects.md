@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: a3db8ef0f43743232324a55f3e6968a26ce61404
 workflow-type: tm+mt
-source-wordcount: 7980
-ht-degree: 86%
+source-wordcount: 7995
+ht-degree: 85%
 
 ---
 
@@ -169,11 +169,12 @@ Old:
    >
    >Workfront 管理者またはグループ管理者がレイアウトテンプレートを変更する方法によっては、プロジェクトの詳細エリアのフィールドが再配置されるか、表示されない場合があります。 詳しくは、[レイアウトテンプレートを使用した詳細ビューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
-   「詳細」セクションの情報を編集するには、次の手順を実行します。
+   「**詳細**」セクションの情報を編集するには、以下を行います。
 
    1. （オプション）右上隅の&#x200B;**すべて折りたたむ** アイコン ![すべてのアイコンを折りたたむ](assets/collapse-icon.png)をクリックして、すべての領域を折りたたみます。
-   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある&#x200B;**右向き矢印** ![右向き矢印](assets/right-pointing-arrow.png)をクリックして、編集する領域を展開します。
-   1. 「プロジェクトの詳細」タブでの情報の編集について詳しくは、次の記事を参照してください。
+   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある&#x200B;**右向き矢印** ![右向き矢印](assets/right-pointing-arrow.png)をクリックして、編集する領域を展開します。 または、右上隅の&#x200B;**右向き矢印**&#x200B;をクリックして、すべての領域を展開します。
+
+      「プロジェクトの詳細」タブでの情報の編集について詳しくは、次の記事を参照してください。
 
       * [プロジェクトの概要エリアで情報を管理](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [プロジェクトの財務エリアでの情報の管理](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
