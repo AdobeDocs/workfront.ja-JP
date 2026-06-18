@@ -5,9 +5,9 @@ title: Adobe Workfront MCP サーバーの使用
 description: Adobe Workfront MCP サーバーを使用して、AI エージェント基盤で自然言語の会話を通じてWorkfrontアイテムを検索、作成、更新、管理します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c58007a9e72a9a2c04f04d3df83876b80ef1d12b
+source-git-commit: 267db684aa9b2b2a07c81394ba167017c89280f8
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1787'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->現在、Workfront MCP サーバーは、AWSを使用しているお客様の米国のお客様のみが利用できます。
+>現在、Workfront MCP サーバーは、AWSを使用しているお客様のみが利用できます。
 
 ## 前提条件
 
