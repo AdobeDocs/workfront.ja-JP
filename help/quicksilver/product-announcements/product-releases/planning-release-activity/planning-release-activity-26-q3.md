@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1976'
 ht-degree: 2%
 
 ---
@@ -130,14 +130,21 @@ Workfront Planning APIの仕様については、[Workfront Planning API](https:
 >
 >プレビュー：2026年5月28日>実稼動版の迅速なリリース：2026年6月11日>全員の実稼動：2026年7月16日
 
+
 個々のレコードの権限を調整して、レコードタイプ内で誰がそれらを管理できるかを制御できるようになりました。
 
-ユーザーは、ワークスペースとレコードタイプからレコード権限をデフォルトで継承します。 レコードタイプの権限を持つ選択したユーザーのみに特定のレコードに対する管理権限を付与するには、選択したレコードに対する継承された権限を無効にし、それらのユーザーに対してそれらのレコードへの管理アクセス権のみを付与できます。 1つのレコード、または同時に複数のレコードの権限を一括で調整できます。
+デフォルトでは、ユーザーはワークスペースとレコードタイプからレコード権限を継承します。 特定のレコードに対する継承された権限を上書きして、ユーザーのサブセットに対する「表示」または「管理」アクセス権を付与できるようになりました。 権限の上書きは、個々のレコードに適用することも、複数のレコードで一括更新することもできます。
 
-ユーザーに次の権限レベルを付与できます。
+<!-- 
+Laurel asked for this to be replaced with the above: 
 
-* 表示
-* 管理
+Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
+
+You can give users the following permissions levels: 
+
+* View 
+* Manage 
+-->
 
 >[!NOTE]
 >
