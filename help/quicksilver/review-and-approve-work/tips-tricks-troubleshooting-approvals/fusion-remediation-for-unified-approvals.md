@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >Adobe Workfront Unified Review and Approvals コネクタがWorkfront Fusionで使用できるようになりました。 Adobe クラウドストレージでFusionを使用する場合は、このコネクタを使用して、より簡単で信頼性の高いシナリオを実現することをお勧めします。
 >
->詳しくは、Workfront Fusion ドキュメントの[Adobe Workfront Unified Review and Approvals modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)を参照してください。
+>詳しくは、Workfront Fusion ドキュメントの[Adobe Workfront Unified Review and Approvals modules](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)を参照してください。
 
 この記事では、シナリオをインベントリおよび分類して、Adobe クラウドストレージを考慮するようにFusion シナリオをアップグレードする最適な方法を理解します。
 
