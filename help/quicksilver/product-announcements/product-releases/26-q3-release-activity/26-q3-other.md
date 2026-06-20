@@ -36,7 +36,7 @@ ht-degree: 3%
 
 この変更は段階的にお客様に展開されます。 このページは、ロールアウトスケジュールが確認されると更新されます。
 
-![ コメント通知メールを更新しました.png](assets/email-look-and-feel-update.png)
+![&#x200B; コメント通知メールを更新しました.png](assets/email-look-and-feel-update.png)
 
 ## 強化されたリスト更新
 
