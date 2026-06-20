@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
+source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2104'
 ht-degree: 17%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 17%
 
 ## Adobe Workfront の機能強化
 
+* [AIの機能強化](#ai-enhancements)
 * [管理者機能の強化](#administrator-enhancements)
 * [ドキュメントの機能強化](#documents-enhancements)
 * [財務管理の機能強化](#financial-management-enhancements)
@@ -43,6 +44,40 @@ ht-degree: 17%
 * [レポートの機能強化](#reporting-enhancements)
 * [リクエストの機能強化](#requesting-enhancements)
 * [その他の機能強化](#other-enhancements)
+
+### AIの機能強化
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>機能</strong>
+            </td>
+            <td><strong>プレビュー</strong></td>
+            <td><strong>迅速リリース</strong></td>
+            <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP コネクタの更新</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Workfront MCP コネクタを更新しました。<ul><li>ClaudeはMCP コネクタに接続できるようになりました。</li><li>EU <!--or from instances that do not use AWS-->のインスタンスからMCP コネクタを使用できるようになりました。</p>
+            </td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP サーバーを使用して、AI エージェント プラットフォームをWorkfrontに接続します</a>
+                <p>新しいWorkfront MCP サーバーは、Workfrontを、ClaudeやChatGPTなどのサポートされているAI エージェント基盤に接続し、自然言語の会話を通じてWorkfrontアイテムを検索、作成、更新、管理できます。 現在、AWSを使用している米国のお客様のみが利用できます。</p>
+            </td>
+            <td><p>2026年5月28日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### 管理者機能の強化
 
@@ -362,14 +397,6 @@ ht-degree: 17%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Workfront MCP コネクタの更新</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>Workfront MCP コネクタを更新しました。<ul><li>ClaudeはMCP コネクタに接続できるようになりました。</li><li>EU <!--or from instances that do not use AWS-->のインスタンスからMCP コネクタを使用できるようになりました。</p>
-            </td>
-            <td><p>2026年6月11日（PT）</p></td>
-            <td><p>2026年6月11日（PT）</p></td>
-            <td><p>2026年6月11日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -379,15 +406,6 @@ ht-degree: 17%
             <td><p>該当なし</p></td>
             <td><p>2026年7月16日（PT）より段階的に展開</p></td>
             <td><p>2026年7月16日（PT）より段階的に展開</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Workfront MCP サーバーを使用して、AI エージェント プラットフォームをWorkfrontに接続します</a>
-                <p>新しいWorkfront MCP サーバーは、Workfrontを、ClaudeやChatGPTなどのサポートされているAI エージェント基盤に接続し、自然言語の会話を通じてWorkfrontアイテムを検索、作成、更新、管理できます。 現在、AWSを使用している米国のお客様のみが利用できます。</p>
-            </td>
-            <td><p>2026年5月28日（PT）</p></td>
-            <td><p>2026年6月11日（PT）</p></td>
-            <td><p>2026年7月16日（PT）</p></td>
         </tr>
         <tr>
             <td>
