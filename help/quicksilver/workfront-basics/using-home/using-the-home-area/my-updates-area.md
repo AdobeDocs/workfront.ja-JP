@@ -9,11 +9,17 @@ exl-id: 809605a0-8c24-4873-b98f-504a158be022
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tBVFQLaFE0Vb15SDNsWRomKEDRTeIsEjnMaCv-CrMR8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 786
@@ -86,7 +92,7 @@ ht-degree: 82%
 
 自分に割り当てられているアクセスの承認とリクエストは、ページの前半部の「**マイ更新**」の下に一覧表示されます。
 
-![ レビュー担当者の更新メンション ](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![&#x200B; レビュー担当者の更新メンション &#x200B;](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. （オプション）[!UICONTROL **マイ更新**]&#x200B;エリアの一番下までスクロールし、右向きの矢印をクリックすると、追加のページに表示される承認がさらに表示されます。
 
@@ -94,9 +100,9 @@ ht-degree: 82%
    >
    >デフォルトでは、最初の 5 つの承認またはアクセスのリクエストが表示されます。 その他のページには、残りの承認が表示されます。 [!UICONTROL マイ更新]エリアには、最大 2000 件の承認を表示できます。
 
-   自分の更新プログラムの![ ページネーション ](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   自分の更新プログラムの![&#x200B; ページネーション &#x200B;](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. （オプション） **[!UICONTROL マイアップデート]** セクションの右上隅にある&#x200B;**[!UICONTROL フィルター]** ドロップダウンメニュー![ フィルターアイコン ](assets/filter-nwepng.png)を展開し、次から選択します。
+1. （オプション） **[!UICONTROL マイアップデート]** セクションの右上隅にある&#x200B;**[!UICONTROL フィルター]** ドロップダウンメニュー![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)を展開し、次から選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,13 +127,13 @@ ht-degree: 82%
 
 1. 承認前にアイテムを承認または却下したり、ドキュメントに対する変更を提案したりするには、次の手順を実行します。
 
-   1. （オプション）承認決定（**[!UICONTROL 承認済み]**、**[!UICONTROL 変更]**、**[!UICONTROL 却下]**）の横にある&#x200B;**ドロップダウンアイコン ![ ドロップダウンアイコン ](assets/down-arrow-blue.png)をクリックし、コメントを追加してから、**[!UICONTROL &#x200B;追加&#x200B;]**をクリックします。**
+   1. （オプション）承認決定（**[!UICONTROL 承認済み]**、**[!UICONTROL 変更]**、**[!UICONTROL 却下]**）の横にある&#x200B;**ドロップダウンアイコン ![&#x200B; ドロップダウンアイコン &#x200B;](assets/down-arrow-blue.png)をクリックし、コメントを追加してから、**&#x200B;[!UICONTROL &#x200B;追加&#x200B;]&#x200B;**をクリックします。**
 
       または
 
       コメントを入力しない場合、「**[!UICONTROL スキップ]**」をクリックします。
 
-      ![ コメントボックス付き承認決定ボタン ](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![&#x200B; コメントボックス付き承認決定ボタン &#x200B;](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -140,7 +146,7 @@ ht-degree: 82%
       >決定にコメントを追加しない場合は、「**[!UICONTROL 承認]**」、「**[!UICONTROL 拒否]**」、または「**[!UICONTROL 変更]**」ボタンをクリックし、承認の決定を即座に行うことができます。
       >
       >
-      >![承認決定ボタン ](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >![承認決定ボタン &#x200B;](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
       >作業の承認について詳しくは、[作業の承認](../../../review-and-approve-work/manage-approvals/approving-work.md)を参照してください。
 
@@ -150,7 +156,7 @@ ht-degree: 82%
 
    **[!UICONTROL アクセス権を変更]**&#x200B;ドロップダウンメニューを展開して、付与する前にリクエストされたアクセス権を変更します。
 
-   ![ アクセス ボタンの変更](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![&#x200B; アクセス ボタンの変更](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. （オプション）「**[!UICONTROL 無視]**」をクリックすると、付与なしで承認リストからアクセスリクエストをクリアできます。
 1. 承認の決定を下すことができない場合、「**[!UICONTROL 自分の承認をデリゲート]**」をクリックして送信された承認をデリゲートします。 承認のデリゲートについて詳しくは、[承認リクエストのデリゲート](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)を参照してください。
@@ -170,6 +176,6 @@ ht-degree: 82%
 
      返信の追加が完了したら、**[!UICONTROL 送信]**&#x200B;をクリックします。
 
-     ![ マイアップデート領域で返信](assets/reply-in-the-my-updates-area.png)
+     ![&#x200B; マイアップデート領域で返信](assets/reply-in-the-my-updates-area.png)
 
 1. （オプション）「**[!UICONTROL 現在のページをピン留め]**」をクリックして、[!UICONTROL マイ更新]エリアを上部ナビゲーションにピン留めします。
