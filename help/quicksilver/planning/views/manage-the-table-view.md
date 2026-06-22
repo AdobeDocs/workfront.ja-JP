@@ -19,17 +19,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: 6148
-ht-degree: 46%
+source-wordcount: 6307
+ht-degree: 45%
 
 ---
 
 # テーブルビューの管理
 
 
-<span class="preview">このページで強調表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+<span class="preview">このページで強調表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
@@ -745,16 +745,20 @@ To sort grouped records:
    1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックすると、表内のすべての一致を確認できます。
 
    1. 検索ボックスの **x** アイコンをクリックして、検索キーワードをクリアします。
-<!--    
-1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-    * **MIN**: Displays the lowest value from all the cells in the column. 
-    * **MAX**: Displays the highest value from all the cells in the column. 
-    * **AVG**: Displays the average value of all the cells in the column. 
+1. これらのフィールドタイプのいずれかでフォーマットされた数値、通貨、パーセント、および数式フィールドの場合は、列の下部にある集計ドロップダウンメニューを展開し、次のオプションから選択します。
 
-    The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
--->
+   * **SUM**：列内のすべてのセルの合計を表示します。 これはデフォルトの選択です。
+   * **MIN**：列のすべてのセルの最小値を表示します。
+   * **MAX**：列内のすべてのセルの最大値を表示します。
+   * **AVG**：列内のすべてのセルの平均値を表示します。
+
+   アグリゲーターを使用する場合は、次の点を考慮してください。
+
+   * 列の集計器行はフリーズされ、ビュー設定の一部です。
+   * ビューマネージャーは集計機能を選択でき、他のユーザーとビューを共有するとビューと共有されます。
+   * ビューアとして、アグリゲータを変更することはできますが、ビューと共に保存されません。
+   * 公開された共有ビューは、変更できない保存されたアグリゲーターと共有されます。
 
 ### 行（またはレコード）の追加 {#add-rows-1}
 

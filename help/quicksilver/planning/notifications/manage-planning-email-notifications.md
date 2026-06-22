@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 611
 ht-degree: 6%
@@ -30,7 +30,7 @@ ht-degree: 6%
 # Adobe Workfront Planning のメール通知の管理
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -165,7 +165,7 @@ OLD:
    レコードの詳細ページがWorkfrontで開きます。 レコードを更新したり、コメントに返信したりできます。
 
 1. （条件付き）使用可能な場合は、**すべての通知を表示**&#x200B;をクリックします。 <!--check with Lilit - do non-IMS users have this button??-->
-**通知** ページがAdobe Experience Cloudで開きます。 すべてのAdobe Experience Cloud アプリケーションのすべての通知が表示されます。
+Adobe Experience Cloudで&#x200B;**通知** ページが開きます。 すべてのAdobe Experience Cloud アプリケーションのすべての通知が表示されます。
 
 ## 権限をリクエストおよび付与する際のメール通知を管理します
 
@@ -176,7 +176,7 @@ OLD:
    Workfrontで開く権限を要求したオブジェクト。
 
 1. （条件付き）使用可能な場合は、**すべての通知を表示**&#x200B;をクリックします。
-**通知** ページがAdobe Experience Cloudで開きます。すべてのAdobe Experience Cloud アプリケーションのすべての通知が表示されます。
+Adobe Experience Cloudで&#x200B;**通知** ページが開きます。すべてのAdobe Experience Cloud アプリケーションのすべての通知が表示されます。
 
 
 権限の要求、付与、または拒否について詳しくは、[&#x200B; ビューまたはワークスペースへの権限の要求](/help/quicksilver/planning/access/request-permissions.md)を参照してください。
