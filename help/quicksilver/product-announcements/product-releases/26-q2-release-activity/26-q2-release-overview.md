@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
 source-wordcount: 2626
 ht-degree: 21%
@@ -166,7 +166,7 @@ ht-degree: 21%
     </tr>
    <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">AI共同作業者</a>をサポートするためのGenStudio Foundations プロビジョニングが有効になりました<p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">AI共同作業者</a>をサポートするためにGenStudio Foundation プロビジョニングを有効にしました<p></p>
             <p>2026年3月31日、すべてのWorkfrontのお客様がGenStudio Foundation用にプロビジョニングされ、Admin Console システム管理者には、この追加に関する電子メールが送信されます。 この製品は、Workfrontのお客様がAI Collaboratorsのリリースに必要に応じてWorkfrontのお客様にアクセスできるようにプロビジョニングされています。 製品自体はブランドのアクセスメカニズムに過ぎず、GenStudio Foundation製品にはその他の機能はありません。</p><p>この新製品に対してお客様は請求されません。</p>
         </td>
         <td><p>2026年3月31日（PT）</p></td>
