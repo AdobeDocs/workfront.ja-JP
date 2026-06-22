@@ -9,16 +9,11 @@ exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/FvXVCMMz-PfaT-QAaMq0c5qUruR1MJoMv6etcrAstXA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 567
 ht-degree: 13%
@@ -28,7 +23,7 @@ ht-degree: 13%
 # ビューまたはワークスペースに対する権限のリクエスト
 
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 実稼動環境への毎月のリリース後、高速リリースを有効にしたお客様は、実稼動環境でも同じ機能を利用できます。</span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
@@ -96,7 +91,7 @@ no longer needed:
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -181,9 +176,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. ビューまたはワークスペース用に共有されているリンクをクリックします。
 
-   アクセス権がない&#x200B;**&#x200B;** ページが表示され、ビューまたはワークスペースへのアクセス権がないことを知らせます。
+   アクセス権がない&#x200B;**** ページが表示され、ビューまたはワークスペースへのアクセス権がないことを知らせます。
 
-   ![&#x200B; ビューへのアクセスを要求](assets/request-access-to-view.png)
+   ![ ビューへのアクセスを要求](assets/request-access-to-view.png)
 
    >[!NOTE]
    >
@@ -196,8 +191,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    ビューまたはワークスペースに対する管理権限を持つすべてのユーザーは、アクセスリクエストに対して次の通知を受け取ります。
    * アプリ内通知
-     ![&#x200B; アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
+     ![ アクセス要求](assets/in-app-notification-for-access-request.png)のアプリ内通知
    * メール通知
-     ![&#x200B; アクセス要求のメール通知](assets/email-notification-for-access-request.png)
+     ![ アクセス要求のメール通知](assets/email-notification-for-access-request.png)
 
 1. （条件付き）ビューまたはワークスペースマネージャーがビューまたはワークスペースに権限を付与すると、権限が付与されたことを確認するメール通知とアプリ内通知が届きます。<!--check this - I was not able to test this, but Isk confirmed.-->

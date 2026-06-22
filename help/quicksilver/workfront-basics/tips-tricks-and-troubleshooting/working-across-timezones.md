@@ -9,19 +9,12 @@ exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 1253
 ht-degree: 70%
@@ -33,7 +26,7 @@ ht-degree: 70%
 <!-- Audited: 2/2024 -->
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -155,10 +148,10 @@ EST ユーザーは、午前9:00時（ESTが正午）に開始するようにス
 
 カスタムフォームで一連の計算カスタムフィールドを使用して、複数の都市の時刻を表示する空港時計の列のように、組織のユーザーの現在時刻を表示できます。 ユーザーが作業するタイムゾーンごとにフィールドを作成し、それぞれのタイムゾーンの時刻を各フィールドで計算できます。
 
-詳細については、[計算フィールドをフォームに追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)、および計算データ式の概要[&#128279;](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)記事[日付と時刻の計算カスタムフィールド &#x200B;](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date)の節を参照してください。
+詳細については、[計算フィールドをフォームに追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)、および計算データ式の概要[記事[日付と時刻の計算カスタムフィールド ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date)の節を参照してください](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 
 ### カスタムフォームで日付フィールドの代わりにテキストフィールドを使用 {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
 設定した時刻がタイムゾーンの異なるユーザー向けに [!DNL Workfront] によってオブジェクト内で変換されないようにする場合は、オブジェクトに添付するカスタムフォームで、日付フィールドではなくテキストフィールドを使用します。 これにより、入力した時刻が、プロジェクトのすべてのメンバーに対して表示されます。
 
-この場合、開発者のタイムゾーンとの時差を計算して作業の開始日時と終了日時を判断できるようにすることをフォームのユーザーに注意することをお勧めします。 これは、カスタムフォームに入力する説明文や、そのフィールドのツールヒントに含めることもできます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+この場合、開発者のタイムゾーンとの時差を計算して作業の開始日時と終了日時を判断できるようにすることをフォームのユーザーに注意することをお勧めします。 これは、カスタムフォームに入力する説明文や、そのフィールドのツールヒントに含めることもできます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。

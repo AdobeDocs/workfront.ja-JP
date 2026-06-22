@@ -9,20 +9,12 @@ exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/lGDC7Da-QD5o3ItkgZ96T2el-yLo-j1hzzzMz0cj5mw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 929
 ht-degree: 82%
@@ -34,7 +26,7 @@ ht-degree: 82%
 <!--Audited: 12/2024-->
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -79,7 +71,7 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-* 詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* 詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -128,7 +120,7 @@ Old:
 * **イシューがドキュメントまたはフォルダーにリンクされている場合：** Google Drive などのサードパーティのサービスにリンクされたドキュメントまたはフォルダーを含むイシューを移動すると、そのイシューと共にドキュメントへのリンクが移動します。
 * **異なるストレージタイプを持つプロジェクト間でイシューを移動する場合**：イシューを従来のWorkfront ストレージプロジェクトからAdobe クラウドストレージプロジェクトにコピーすることはできません。 その逆も同じです。 Workfront インスタンスには、両方の種類のドキュメントストレージがない可能性があります。
 
-  詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+  詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 ## リスト内のイシューを移動
 
@@ -143,7 +135,7 @@ Old:
 1. プロジェクトに移動した場合は、左側のパネルで「**イシュー**」をクリックします。
 1. 移動する 1 つまたは複数のイシューを選択し、イシューリストの上部にある&#x200B;**「その他」メニュー**&#x200B;をクリックし、「**指定の場所に移動**」をクリックします。
 
-   ![&#x200B; コピーしてリンクに移動](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![ コピーしてリンクに移動](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. 「[手順2から1つの問題を移動](#move-a-single-issue)」の節で説明しているように、問題の移動を続行します。
 

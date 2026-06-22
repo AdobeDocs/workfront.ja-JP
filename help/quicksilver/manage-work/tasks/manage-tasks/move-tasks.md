@@ -9,22 +9,12 @@ exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/z9M0v1xzWUeSUQ32-8op0x9EgCAW1Ta7y2yfU7H2m7k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 1417
 ht-degree: 46%
@@ -37,7 +27,7 @@ ht-degree: 46%
 
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -137,7 +127,7 @@ Old:
 
 * 従来のWorkfrontとAdobe クラウドストレージの両方を使用している場合、異なるストレージタイプを使用するプロジェクト間でタスクを移動することはできません。
 
-  詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+  詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 ## リスト内のタスクを移動
 
@@ -145,9 +135,9 @@ Old:
 
 1. **プロジェクト** ページで、移動するタスクまたはタスクを含むプロジェクトを選択します。
 1. 左パネルの「**タスク**」をクリックしてタスクリストを表示します。
-1. **プランモード** アイコン ![&#x200B; プランモードアイコン &#x200B;](assets/plan-mode.png)をクリックし、**自動保存** トグルが有効になっていることを確認してから、移動するタスクを選択します。
+1. **プランモード** アイコン ![ プランモードアイコン ](assets/plan-mode.png)をクリックし、**自動保存** トグルが有効になっていることを確認してから、移動するタスクを選択します。
 
-   ![自動保存オプション &#x200B;](assets/autosave-icon.png)
+   ![自動保存オプション ](assets/autosave-icon.png)
 
    >[!IMPORTANT]
    >
@@ -157,13 +147,13 @@ Old:
 
 1. （条件付き）移動する 1 つ以上のタスクを選択し、次のいずれかの操作を行います。
 
-   * タスクリストの上部にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/main-more-icon.png)をクリックし、**移動先**&#x200B;をクリックします。
+   * タスクリストの上部にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/main-more-icon.png)をクリックし、**移動先**&#x200B;をクリックします。
    * 選択したタスクを右クリックし、**移動先**&#x200B;をクリックします。
-   * 1つのタスクを選択する際に、リスト内のタスク名の横にあるタスクリスト ![&#128279;](assets/more-icon-task-list.png)の&#x200B;**詳細** メニュー詳細アイコンをクリックし、**移動先**&#x200B;をクリックします。
+   * 1つのタスクを選択する際に、リスト内のタスク名の横にあるタスクリスト ](assets/more-icon-task-list.png)の&#x200B;**詳細** メニュー![詳細アイコンをクリックし、**移動先**&#x200B;をクリックします。
 
    「**タスクを移動**」ボックスが表示されます。
 
-1. この記事の「[&#x200B; タスクレベルでのタスクの移動](#move-a-task-at-the-task-level)」の節で説明しているように、タスクの移動を続行します。
+1. この記事の「[ タスクレベルでのタスクの移動](#move-a-task-at-the-task-level)」の節で説明しているように、タスクの移動を続行します。
 
    <!--
    is this still accurate?!
@@ -175,7 +165,7 @@ Old:
 
 1. Workfront システム内のタスクを検索して見つけます。
 1. タスクの名前をクリックして開きます。
-1. タスク名の横にある&#x200B;**詳細** ドロップダウンメニュー![詳細アイコン &#x200B;](assets/main-more-icon.png)をクリックし、**移動先**&#x200B;をクリックします。 **タスクの移動** サイドパネルが表示されます。
+1. タスク名の横にある&#x200B;**詳細** ドロップダウンメニュー![詳細アイコン ](assets/main-more-icon.png)をクリックし、**移動先**&#x200B;をクリックします。 **タスクの移動** サイドパネルが表示されます。
 
 1. （オプション）**タスク名**&#x200B;を更新します。 タスクは、新しい場所の新しい名前で移動します。
 
@@ -184,7 +174,7 @@ Old:
    >リスト内の複数のタスクを移動する場合、**タスク名** フィールドはグレー表示になり、編集できません。 **タスク名** フィールドにカーソルを合わせると、選択したすべてのタスクのリストが表示されます。
    >
    >
-   >![&#x200B; タスク名を表示](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
+   >![ タスク名を表示](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
 1. 「**宛先プロジェクトを選択**」フィールドに、タスクの移動先となるプロジェクトの名前を入力します。 同じプロジェクト内でタスクを移動する場合は、現在のプロジェクトの名前を入力します。
 
@@ -197,7 +187,7 @@ Old:
 1. （条件付き）プロジェクトにアクセスできない場合は、**アクセスをリクエスト**&#x200B;をクリックします。
 1. （条件付き）宛先プロジェクトのいずれかのタスクにタスクを追加するアクセス権がある場合は、アクセス権を要求せずにタスクを宛先プロジェクトに引き続き移動します。
 
-   ![&#x200B; アクセスを要求せずにタスクを移動する](assets/move-task-request-access-from-project-nwe-350x120.png)
+   ![ アクセスを要求せずにタスクを移動する](assets/move-task-request-access-from-project-nwe-350x120.png)
 
    >[!TIP]
    >
