@@ -1,29 +1,35 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: キャンバスダッシュボードでの通貨フィールドの使用
-description: キャンバスダッシュボードで通貨フィールドを使用できます。
+title: Canvas ダッシュボードでの通貨フィールドの使用
+description: カンバスダッシュボードで通貨フィールドを使用できます。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
+exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 10%
+source-wordcount: '551'
+ht-degree: 12%
 
 ---
 
-
-# キャンバスダッシュボードでの通貨フィールドの使用
+# Canvas ダッシュボードでの通貨フィールドの使用
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
->このベータ版は、次のクラウドプロバイダーでは利用できません。
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
+>発生する可能性のあるバグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。詳しくは、[ カスタマーサポートへのお問い合わせ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
->* Amazon Web Services用に独自のキーを持参
+>* Amazon Web Services用に独自のキーを持ち込む
 >* Azure
 >* Google Cloud Platform
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## アクセス要件
 
@@ -52,13 +58,13 @@ ht-degree: 10%
   <tr> 
    <td role="rowheader"><p>アクセスレベル設定</p></td> 
    <td><p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p>
-   <p>財務データへのアクセスの表示</p>
+   <p>財務データへのアクセス</p>
   </td> 
   </tr> 
     </tr>  
         <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td><p>ダッシュボードの権限管理</p>
+   <td><p>ダッシュボードの権限の管理</p>
   </td> 
   </tr> 
 </tbody> 
@@ -69,22 +75,22 @@ ht-degree: 10%
 
 ## 前提条件
 
-1. この記事に記載されている機能を使用するには、Workfront インスタンスに複数の通貨タイプを設定する必要があります。 詳しくは、「[&#x200B; 為替レートの設定 &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md) を参照してください。
+1. この記事で説明する機能を使用するには、Workfront インスタンスで複数の通貨タイプを設定する必要があります。 詳しくは、[為替レートの設定](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)を参照してください。
 
    >[!IMPORTANT]
    >
-   >この記事で説明されている機能は、ネイティブ通貨フィールドにのみ適用されます。 カスタム通貨フィールドのサポートは、近日中に提供されます。
+   >この記事で説明する機能は、ネイティブ通貨フィールドにのみ適用されます。 カスタム通貨フィールドのサポートは近日リリース予定です。
 
 
-## キャンバスダッシュボードのデフォルト通貨の設定
+## Canvas ダッシュボードのデフォルト通貨の設定
 
-キャンバスダッシュボードを作成する際に、ダッシュボードのデフォルトの通貨を設定できます。 通貨フィールドがレポートレベルでロックされていない限り、この通貨は、ダッシュボードのレポートにすべてのネイティブ通貨フィールドを表示するために使用されます。
+Canvas ダッシュボードを作成する際に、ダッシュボードのデフォルト通貨を設定できます。 この通貨は、通貨フィールドがレポートレベルでロックされていない限り、ダッシュボード上のレポートのすべてのネイティブ通貨フィールドを表示するために使用されます。
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 
-1. 右上隅の **新規ダッシュボード** をクリックします。
+1. 右上隅の「**新しいダッシュボード**」をクリックします。
 
-1. **ダッシュボードを作成** ボックスで、
+1. **ダッシュボードを作成** ボックスで，
 
 1. 以下を指定します。
 
@@ -94,7 +100,7 @@ ht-degree: 10%
     <tbody>
      <tr>
       <td role="rowheader"><strong>名前</strong></td>
-      <td><p>ダッシュボードの名前を入力します。 互換性の問題を回避するには、UTF-8 文字のみを使用することをお勧めします。</p></td>
+      <td><p>ダッシュボードの名前を入力します。 互換性の問題を回避するために、UTF-8文字のみを使用することをお勧めします。</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>説明（オプション）</strong></td>
@@ -109,67 +115,62 @@ ht-degree: 10%
    </table>
 
 
-## キャンバスダッシュボードの通貨の切り替え
+## Canvas ダッシュボードでの通貨の切り替え
 
-ダッシュボードレベルで様々な通貨タイプを切り替えることができます。 通貨フィールドを含む報告書は、選択した通貨タイプを反映するように更新されます。
+ダッシュボードレベルで異なる通貨タイプを切り替えることができます。 通貨フィールドを含むレポートは、選択した通貨タイプを反映するように更新されます。
 
 通貨フィールドは、レポートレベルでロックできます。 通貨フィールドがロックされている場合、ダッシュボードの通貨タイプを変更しても、そのレポートの通貨タイプは変更されません。
 
-ダッシュボードの通貨タイプを変更するには、
+ダッシュボードの通貨タイプを変更するには，
 
-1. ダッシュボードの詳細ページの右上隅にある「通貨」ドロップダウンメニューをクリックします。
+1. ダッシュボードの詳細ページの右上隅にある通貨ドロップダウンメニューをクリックします。
 1. リストから目的の通貨タイプを選択します。
 
-   ![&#x200B; 通貨ドロップダウンの変更 &#x200B;](assets/filter-by-currency.png)
+   ![通貨ドロップダウンの変更](assets/filter-by-currency.png)
 
 
 ## 制限事項
 
-次の表は、「設定」の「為替レート」領域で通貨を定義した場合の制限事項を示しています。
+次の表に、設定の「為替レート」領域で通貨を定義する場合の制限の概要を示します。
 
 <table> 
 <tr>
 <td></td>
-<td>ユーザーは次のことができます</td>
-<td>ユーザーができません</td>
+<td>ユーザーは</td>
+<td>ユーザーは</td>
 </tr>
 <tr> 
-<td>単一通貨が定義されている</td>
+<td>単一通貨が定義されています</td>
 <td>
 <ul>
-<li>キャンバスグラフ、KPI、テーブルレポートでのネイティブ通貨フィールドの使用</li>
-<li>キャンバスグラフ、KPI およびグラフレポートでのカスタム通貨フィールドの使用</li>
+<li>カンバスチャート、KPI、表レポートでのネイティブ通貨フィールドの使用</li>
+<li>カンバスチャート、KPI、およびチャートレポートでのカスタム通貨フィールドの使用</li>
 </ul>
 </td>
 <td>
 <ul>
-<li>（作成時またはダッシュボードの編集時に）デフォルト通貨をダッシュボードに割り当てる</li>
-<li>ダッシュボードレベルの通貨切り替えを確認して使用します</li>
-<li>キャンバスグラフ、KPI またはテーブルレポートで表示する特定の通貨をロック</li>
-<li>キャンバス・チャート、KPI および表レポートでの計画通貨フィールドの使用</li>
+<li>ダッシュボードにデフォルト通貨を割り当てる（作成時またはダッシュボードの編集時）</li>
+<li>ダッシュボードレベルの通貨切り替えを表示して使用します</li>
+<li>カンバスチャート、KPIまたは表レポートで表示する特定の通貨をロックします</li>
+<li>カンバスチャート、KPIおよび表レポートでの計画通貨フィールドの使用 <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td> 
 </tr>
 </td> 
 </tr> 
 <tr>
-<td>多通貨が定義されています</td>
+<td>複数の通貨が定義されています</td>
 <td>
 <ul>
-  <li>キャンバスグラフ、KPI、テーブルレポートでのネイティブ通貨フィールドの使用</li>
-  <li>（作成時またはダッシュボードの編集時に）ダッシュボードのデフォルト通貨を設定します</li>
-  <li>ダッシュボードレベルの通貨切り替えを確認して使用します</li>
-  <li>キャンバスグラフ、KPI またはテーブルレポートで表示する特定の通貨をロックして、ダッシュボードの通貨切り替えの環境設定を無視する</li>
+  <li>カンバスチャート、KPI、表レポートでのネイティブ通貨フィールドの使用</li>
+  <li>ダッシュボードのデフォルト通貨の設定（作成時またはダッシュボードの編集時）</li>
+  <li>ダッシュボードレベルの通貨切り替えを表示して使用します</li>
+  <li>カンバスチャート、KPIまたは表レポートで表示する特定の通貨をロックして、ダッシュボードの通貨の切り替え設定を無視します</li>
 </ul>
 </td>
 <td><ul>
-  <li>キャンバスグラフ、KPI、テーブルレポートでのカスタムデータ通貨フィールドの使用</li>
-  <li>キャンバス・チャート、KPI および表レポートでの計画通貨フィールドの使用</li>
+  <li>カンバスチャート、KPI、表レポートでのカスタムデータ通貨フィールドの使用</li>
+  <li>カンバスチャート、KPIおよび表レポートでの計画通貨フィールドの使用 <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td>
 </tr></table>
-
-
-
-
-
