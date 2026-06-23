@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 275848d3b27ae12b8abdcb491276f4460eb03e7a
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: '14208'
+source-wordcount: '14214'
 ht-degree: 94%
 
 ---
@@ -2161,6 +2161,7 @@ ht-degree: 94%
       * [Adobe Workfront Planning の 2023年リリースアクティビティ](planning/general/release-activity-archives-2023.md)
       * [Adobe Workfront Planning オブジェクトの制限事項の概要](planning/general/limitations-overview.md)
       * [Adobe Workfront Planning の無料体験版の使用を開始](planning/general/trial-workfront-planning.md)
+      * {hide-from-toc}[&#x200B; レポートでWorkfront計画に関する情報を表示](planning/general/planning-information-in-reports.md)
    * Adobe Workfront Planning のベストプラクティス {#adobe-workfront-planning-best-practices}
       * [Adobe Workfrontのベストプラクティス：記事インデックス](planning/best-practices.md/best-practices-article-index.md)
       * [戦略的ホーム：30日間のランチパッドを展開](planning/best-practices.md/30-day-launchpad.md)

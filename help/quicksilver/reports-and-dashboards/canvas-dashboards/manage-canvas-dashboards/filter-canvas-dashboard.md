@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: 807
 ht-degree: 17%
 
 ---
@@ -36,6 +36,12 @@ ht-degree: 17%
 >* Amazon Web Services用に独自のキーを持ち込む
 >* Azure
 >* Google Cloud Platform
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 プロンプトを含むカンバスダッシュボードにフィルターを適用できます。 プロンプトは、追加のフィルタリング条件を適用するフィルター修飾子として機能するため、結果をさらに絞り込むことができます。 これらのプロンプトは、フィルターを適用するたびに変更できるため、ダッシュボードや個々のレポートの主なフィルター条件を編集することなく、表示される結果を調整できます。
@@ -117,7 +123,7 @@ ht-degree: 17%
 
 1. ダッシュボードの詳細ページの左上隅にある「**フィルター**」をクリックします。 フィルターのサイドパネルが開きます。
 
-1. **フィルターを編集**&#x200B;を選択します。 **ダッシュボードフィルター** ダイアログボックスが開きます。
+1. &#x200B;<!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>-->をクリック **フィルターを編集**。 **ダッシュボードフィルター** ダイアログボックスが開きます。
 
 1. （オプション）ルールを追加するには、次の手順に従います。
 
@@ -126,7 +132,7 @@ ht-degree: 17%
       ![&#x200B; アイコンを編集](assets/edit-icon.png)
 
    1. 「**条件を追加**」をクリックし、次の情報を追加します。
-      * フィルタリングするフィールドを選択します。
+      * 「**フィールドを選択**」をクリックして、フィルタリングするフィールドを選択します。
       * フィールドが満たす必要がある条件を定義するオプション（またはフィルター修飾子）を選択します。
 
    1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件のセットを追加します。 セット間のデフォルトの演算子は AND です。 演算子をクリックして OR に変更します。
@@ -144,7 +150,7 @@ ht-degree: 17%
 
 1. プロンプトを追加するには、次の手順に従います。
 
-   1. 「**プロンプトを追加**」を選択します。 新しいフィールドが画面の右側に表示されます。
+   1. 「**プロンプトを追加**」をクリックします。 新しいフィールドが画面の右側に表示されます。
 
    1. 「**ラベルをカスタマイズ**」フィールドにラベルを入力します。
 
@@ -170,6 +176,19 @@ ht-degree: 17%
    1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件のセットを追加します。 セット間のデフォルトの演算子は AND です。 演算子をクリックして OR に変更します。
 
 1. **保存**&#x200B;をクリックして、フィルターをダッシュボードに適用します。
+
+   <!--
+    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
+        <div class="preview">
+        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
+            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
+        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
+            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
+            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
+        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
+        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
+        </div> 
+    -->
 
 1. [&#x200B; パート 3: ダッシュボード プロンプトを適用する](#step-3-apply-a-dashboard-prompt)に進みます。
 

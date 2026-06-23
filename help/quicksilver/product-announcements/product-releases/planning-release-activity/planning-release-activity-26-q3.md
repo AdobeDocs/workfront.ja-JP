@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2038'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,16 @@ There are no features released during the Third Quarter Release for 2026. When f
 この記事では、2026年第3四半期のリリース中にWorkfront Planningでリリースされる機能について説明します。
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+## 行のカラーコントロールのインターフェイスの改善
+
+>[!NOTE]
+>
+>プレビュー：2026年6月22日>実稼動用の高速リリース：2026年7月15日>全員の実稼動環境：2026年7月16日
+
+テーブルビューの行のカラーコントロールのルックアンドフィールを更新しました。
+
+詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 
 ## 選択フィールドと人物タイプフィールドのデフォルトの選択肢を追加
 

@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1236
 ht-degree: 16%
 
 ---
@@ -238,8 +238,8 @@ ht-degree: 16%
 
 「**テーブルを作成**」セクションの「**セクション**」ドロップダウンは、フィールドセレクターの選択肢を絞り込み、テーブルレポートの作成時にオブジェクトを見つけやすくするように設計されています。 まず、基本エンティティオブジェクトを選択します。
 
-* **すべてのセクション**: Workfront ワークフローとWorkfront計画のすべてのオブジェクトタイプ。
-* **Workfront オブジェクト**：ネイティブ Workfront ワークフローオブジェクト。
+* **すべてのセクション**: WorkfrontおよびWorkfront Planningのすべてのオブジェクトタイプ。
+* **Workfront オブジェクト**：ネイティブ Workfront オブジェクト。
 * **プランニングレコードタイプ**: Workfront Planningで定義されたカスタムレコードタイプ。
 
 ![&#x200B; セクション ドロップダウン &#x200B;](assets/sections-dropdown.png)
