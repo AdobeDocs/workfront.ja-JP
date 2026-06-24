@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
 workflow-type: tm+mt
-source-wordcount: 481
-ht-degree: 95%
+source-wordcount: 440
+ht-degree: 99%
 
 ---
 
@@ -75,6 +75,4 @@ ht-degree: 95%
   >ユーザーがユーザープロファイルにレイアウトテンプレートを割り当てられている場合、そのテンプレートは、プライマリ担当業務に割り当てられているテンプレートより優先されます。 詳しくは、[レイアウトテンプレートにユーザーを割り当](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
 * [!DNL Adobe Workfront Scenario Planner] を使用する際には、担当業務をプランとイニシアチブに割り当てて、リソースの空き時間を管理することができます。 これには、追加の [!DNL Scenario Planner] ライセンスが必要です。 詳しくは、[&#x200B; [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md) の概要を参照してください。
-* 異なる国のリソースを使用して作業する場合、有効期限日の担当業務率に関する通貨を変更できます。 これにより、作業アイテムのより正確なコストと収益の金額を取得できるようになります。
 
-  詳しくは、[担当業務の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。

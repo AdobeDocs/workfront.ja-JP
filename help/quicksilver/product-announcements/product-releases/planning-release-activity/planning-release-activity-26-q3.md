@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
+source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
 workflow-type: tm+mt
 source-wordcount: '2038'
 ht-degree: 2%
@@ -28,6 +28,23 @@ There are no features released during the Third Quarter Release for 2026. When f
 この記事では、2026年第3四半期のリリース中にWorkfront Planningでリリースされる機能について説明します。
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+<!--
+## Support for currency Planning fields in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: June 25, 2026
+>Production fast release: July 15, 2026
+>Production for everyone: July 16, 2026
+
+You can now include currency Planning fields, in table, KPI, and chart reports in Canvas Dashboards.  
+
+Prior to this enhancement, currency fields were not supported in Canvas Dashboards.  
+
+For information, see [Use currency fields in Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md). 
+
+-->
 
 ## 行のカラーコントロールのインターフェイスの改善
 
