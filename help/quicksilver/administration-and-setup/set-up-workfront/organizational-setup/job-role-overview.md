@@ -9,23 +9,15 @@ feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
 TQID: https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
 workflow-type: tm+mt
-source-wordcount: 481
-ht-degree: 95%
+source-wordcount: 440
+ht-degree: 99%
 
 ---
 
@@ -74,7 +66,5 @@ ht-degree: 95%
   >
   >ユーザーがユーザープロファイルにレイアウトテンプレートを割り当てられている場合、そのテンプレートは、プライマリ担当業務に割り当てられているテンプレートより優先されます。 詳しくは、[レイアウトテンプレートにユーザーを割り当](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
-* [!DNL Adobe Workfront Scenario Planner] を使用する際には、担当業務をプランとイニシアチブに割り当てて、リソースの空き時間を管理することができます。 これには、追加の [!DNL Scenario Planner] ライセンスが必要です。 詳しくは、[&#x200B; [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md) の概要を参照してください。
-* 異なる国のリソースを使用して作業する場合、有効期限日の担当業務率に関する通貨を変更できます。 これにより、作業アイテムのより正確なコストと収益の金額を取得できるようになります。
+* [!DNL Adobe Workfront Scenario Planner] を使用する際には、担当業務をプランとイニシアチブに割り当てて、リソースの空き時間を管理することができます。 これには、追加の [!DNL Scenario Planner] ライセンスが必要です。 詳しくは、[ [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md) の概要を参照してください。
 
-  詳しくは、[担当業務の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。
