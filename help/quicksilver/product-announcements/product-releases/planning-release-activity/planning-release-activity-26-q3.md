@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2087'
 ht-degree: 2%
 
 ---
@@ -29,22 +29,18 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
-<!--
-## Support for currency Planning fields in Canvas Dashboards
+
+## Canvas ダッシュボードでの通貨計画フィールドのサポート
 
 >[!NOTE]
 >
->Preview: June 25, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>プレビュー：2026年6月25日>実稼動用の高速リリース：2026年7月15日>全員の実稼動環境：2026年7月16日
 
-You can now include currency Planning fields, in table, KPI, and chart reports in Canvas Dashboards.  
+Canvas ダッシュボードで、通貨計画フィールド、テーブル、KPIおよびチャートのレポートを含めることができるようになりました。
 
-Prior to this enhancement, currency fields were not supported in Canvas Dashboards.  
+この機能強化の前は、通貨フィールドはCanvas ダッシュボードでサポートされていませんでした。
 
-For information, see [Use currency fields in Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md). 
-
--->
+詳しくは、[&#x200B; キャンバスダッシュボードでの通貨フィールドの使用](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)を参照してください。
 
 ## 行のカラーコントロールのインターフェイスの改善
 
