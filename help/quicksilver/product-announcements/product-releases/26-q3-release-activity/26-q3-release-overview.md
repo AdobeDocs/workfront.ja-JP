@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 864c3858a7cbfcc09268b8f0fa10b99509aebb08
 workflow-type: tm+mt
-source-wordcount: '2104'
-ht-degree: 17%
+source-wordcount: '2312'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 17%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第3四半期のリリースが予定されている実稼動リリースに近づいたときに、追加の機能強化で更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -29,9 +29,10 @@ ht-degree: 17%
 >|----|----|
 >| <ul><li>26.5 （2026年5月14日（PT））</li><li>26.6 （2026年6月11日（PT））</li><li>26.7 （2026年7月15日（PT））</li></ul> | <ul><li>26.7 （2026年7月16日（PT））</li></ul> |
 >
->各四半期の最終リリース（今四半期26.7）では、高速リリーススケジュールのユーザーは、リリースを1日早く（2026年7月15日（PT））受け取ります。
+>* 各四半期の最終リリース（今四半期26.7）では、高速リリーススケジュールのユーザーは、リリースを1日早く（2026年7月15日（PT））受け取ります。
 >
->迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
+>   迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
+>* 26.7 リリース（2026年7月）の場合、機能がプレビュー環境に表示される最後の日付は7月7日です。
 
 ## Adobe Workfront の機能強化
 
@@ -48,8 +49,6 @@ ht-degree: 17%
 ### AIの機能強化
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>機能</strong>
@@ -82,8 +81,6 @@ ht-degree: 17%
 ### 管理者機能の強化
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>機能</strong>
@@ -151,8 +148,6 @@ ht-degree: 17%
 ### ドキュメントの機能強化
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>機能</strong>
@@ -160,6 +155,17 @@ ht-degree: 17%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>June 26, 2026</p></td>
+            <td><p>June 26, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">WorkfrontとFrame.ioを使用したAdobe Express テンプレートの承認をリクエスト </a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -211,8 +217,6 @@ ht-degree: 17%
 ### 財務管理の機能強化
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>機能</strong>
@@ -220,6 +224,24 @@ ht-degree: 17%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}"> レートカードをテンプレートに追加</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>テンプレートに追加するレートカードを選択し、テンプレートから作成されたすべてのプロジェクトに自動的に添付できるようになりました。 レートカードはプロジェクトのデフォルトになりますが、必要に応じて上書きできます。</p>
+            </td>
+            <td><p>2026年6月25日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}"> レートカードの既存のレート間に請求レートを追加</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>リストの特定の場所に新しいレートを追加することで、レートカードの有効な日付の請求レートのリストをより迅速に調整できるようになりました。 既存のレートの横にある<b>詳細</b> メニューを選択して、そのレートの上または下に行を挿入します。</p>
+            </td>
+            <td><p>2026年6月25日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}"> レート属性は、レートで使用すると編集できません</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
@@ -235,8 +257,6 @@ ht-degree: 17%
 ### ホームの機能強化
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>機能</strong>
@@ -261,8 +281,6 @@ ht-degree: 17%
 ### プロジェクトの強化
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>機能</strong>
@@ -295,8 +313,6 @@ ht-degree: 17%
 ### レポートの機能強化
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>機能</strong>
@@ -304,6 +320,15 @@ ht-degree: 17%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}"> キャンバスダッシュボードプロンプトのデフォルトとユーザー環境設定の永続性</a>
+                <p>ダッシュボードマネージャーが、すべてのビューアに自動的に適用されるCanvas ダッシュボードのデフォルトのプロンプト値を定義できるようになりました。 ユーザーがプロンプトを更新すると、選択した内容は保存され、更新時、再開時、またはレコードに移動して戻った後に復元されます。</p>
+            </td>
+            <td><p>2026年6月25日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">複数のPower BI IP アドレス範囲をData Connectの接続に一度に許可リストに加えるする</a> <p>[!BADGE Off schedule]{type=Neutral}
@@ -355,8 +380,6 @@ ht-degree: 17%
 ### リクエストの機能強化
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>機能</strong>
@@ -388,8 +411,6 @@ ht-degree: 17%
 ### その他の機能強化
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>機能</strong>
@@ -432,7 +453,7 @@ Workfront Fusion の新機能は、実稼動環境の標準リリーススケジ
 New features in Workfront Planning are available in Production.
 -->
 
-最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
+最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
 
 
 ### Workfrontのその他の機能強化
@@ -491,7 +512,7 @@ Workfront計画トライアルは2026年5月15日に終了します。
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
