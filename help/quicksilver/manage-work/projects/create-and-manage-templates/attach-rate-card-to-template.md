@@ -19,9 +19,9 @@ ht-degree: 10%
 
 レートカードをテンプレートに割り当てると、そのレートカードは、テンプレートから作成されたすべてのプロジェクトに添付されます。 レートカードはプロジェクトのデフォルトになりますが、必要に応じて上書きできます。
 
-レートカードについて詳しくは、[ レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
+レートカードについて詳しくは、[&#x200B; レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
-プロジェクトテンプレートについて詳しくは、[ プロジェクトテンプレートの概要](/help/quicksilver/manage-work/projects/create-and-manage-templates/project-template-overview.md)を参照してください。
+プロジェクトテンプレートについて詳しくは、[&#x200B; プロジェクトテンプレートの概要](/help/quicksilver/manage-work/projects/create-and-manage-templates/project-template-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -63,7 +63,7 @@ ht-degree: 10%
 1. レイアウトテンプレートで、**ユーザーに表示される内容をカスタマイズ**&#x200B;の下にある下向き矢印をクリックし、**テンプレート**&#x200B;をクリックします。
 1. **詳細** セクションで、**概要** エリアの&#x200B;**レートカード** フィールドを選択します。
 
-   詳しくは、[ レイアウトテンプレートを使用した詳細ビューのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
+   詳しくは、[&#x200B; レイアウトテンプレートを使用した詳細ビューのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
 ## レートカードのテンプレートへの添付
 
@@ -75,13 +75,13 @@ ht-degree: 10%
    権限を持つレートカードのみが選択できます。
 レートカードの名前を入力して、結果のリストを絞り込むことができます。
 
-   ![ テンプレートでレートカードを選択](assets/select-rate-card-on-template.png)
+   ![&#x200B; テンプレートでレートカードを選択](assets/select-rate-card-on-template.png)
 
 1. 編集が終了したら、テンプレートを保存します。
 
-   テンプレートの作成について詳しくは、[ プロジェクトテンプレートの作成](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)を参照してください。
+   テンプレートの作成について詳しくは、[&#x200B; プロジェクトテンプレートの作成](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)を参照してください。
 
-   テンプレートの編集について詳しくは、[ プロジェクトテンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
+   テンプレートの編集について詳しくは、[&#x200B; プロジェクトテンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
 
 ## テンプレートのプロジェクトへの適用
 
@@ -95,13 +95,13 @@ ht-degree: 10%
 
    レートカードは自動的にプロジェクトに保存されます。 「新規プロジェクト」ボックスの「概要」/「プロジェクトの関連付け」セクションで、レートカードを削除するか、「**レートカード**」フィールドで別のレートカードを選択できます。
 
-   ![ テンプレートのレートカードがプロジェクトの詳細に表示される](assets/create-project-from-template-rate-card.png)
+   ![&#x200B; テンプレートのレートカードがプロジェクトの詳細に表示される](assets/create-project-from-template-rate-card.png)
 
    レートカードと関連するレートがプロジェクトレート領域に表示されます。
 
-   プロジェクトからレートカードを削除したり、「レート」エリアに別のレートカードを添付したりすることもできます。 詳しくは、[ プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)を参照してください。
+   プロジェクトからレートカードを削除したり、「レート」エリアに別のレートカードを添付したりすることもできます。 詳しくは、[&#x200B; プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)を参照してください。
 
-   ![ プロジェクトのテンプレートからのカードの評価](assets/template-rates-on-project.png)
+   ![&#x200B; プロジェクトのテンプレートからのカードの評価](assets/template-rates-on-project.png)
 
    >[!NOTE]
    >
@@ -111,13 +111,13 @@ ht-degree: 10%
 
    テンプレートのプレビューで「**カスタマイズして添付**」オプションを使用する場合、「テンプレートを添付/オプション」セクションの「**レートカード**」項目を選択して、レートカードをプロジェクトに追加できます。 プロジェクトへの転送からレートカードを除外するには、チェックボックスをオフにします。
 
-   詳しくは、[ プロジェクトへのテンプレートの添付](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md)を参照してください。
+   詳しくは、[&#x200B; プロジェクトへのテンプレートの添付](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md)を参照してください。
 
 1. （オプション）特定のプロジェクトのレートカードをテンプレートに保存するには、プロジェクトをテンプレートとして保存します。
 
    「テンプレートとして保存」ボックスの「オプション」セクションで、**レートカード** アイテムを選択して、レートカードをテンプレートに追加できます。 テンプレートへの転送からレートカードを除外するには、チェックボックスをオフにします。
 
-   詳しくは、[ プロジェクトをテンプレートとして保存](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)を参照してください
+   詳しくは、[&#x200B; プロジェクトをテンプレートとして保存](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)を参照してください
 
 
 
