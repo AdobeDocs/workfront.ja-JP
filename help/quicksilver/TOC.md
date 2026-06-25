@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5f122486d3d448cfcee066b18fce73c914e47f56
 workflow-type: tm+mt
-source-wordcount: '14214'
+source-wordcount: '14221'
 ht-degree: 94%
 
 ---
@@ -1312,6 +1312,7 @@ ht-degree: 94%
          * [プロジェクトテンプレートを共有](manage-work/projects/create-and-manage-templates/share-project-template.md)
          * [プロジェクトテンプレートを削除](manage-work/projects/create-and-manage-templates/delete-templates.md)
          * [プロジェクトからテンプレート情報を削除](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+         * [レートカードのテンプレートへの添付](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
          * [テンプレートの開始日と完了日の概要](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [プロジェクトへのテンプレート添付の概要](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * ビジネスケースの定義 {#define-business-case}

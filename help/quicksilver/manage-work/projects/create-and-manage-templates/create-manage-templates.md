@@ -17,10 +17,10 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0ae6286f0c76f638358839603fba1301d5557d83
 workflow-type: tm+mt
-source-wordcount: 126
-ht-degree: 97%
+source-wordcount: 133
+ht-degree: 92%
 
 ---
 
@@ -42,5 +42,6 @@ ht-degree: 97%
 * [プロジェクトからのテンプレートの作成](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)
 * [プロジェクトテンプレートを共有](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [プロジェクトからのテンプレート情報の削除](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
-* [プロジェクトテンプレートの削除](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
+* [プロジェクトテンプレートを削除](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
+* [レートカードのテンプレートへの添付](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
 * [テンプレートの開始日と完了日の概要](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)

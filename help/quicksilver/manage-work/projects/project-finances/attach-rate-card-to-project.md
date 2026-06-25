@@ -1,6 +1,6 @@
 ---
 title: プロジェクトへのレートカードの添付
-description: レートカードをプロジェクトに添付すると、場所別のすべての役割とそれに関連する請求レートがプロジェクトに追加されます。
+description: レートカードをプロジェクトに添付すると、すべての役割と関連する請求レートがプロジェクトに追加されます。
 author: Lisa
 feature: Work Management
 role: User
@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0ae6286f0c76f638358839603fba1301d5557d83
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 23%
+source-wordcount: 564
+ht-degree: 19%
 
 ---
 
