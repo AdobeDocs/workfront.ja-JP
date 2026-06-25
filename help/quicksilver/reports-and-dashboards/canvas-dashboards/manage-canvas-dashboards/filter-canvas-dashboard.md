@@ -9,19 +9,14 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
 workflow-type: tm+mt
-source-wordcount: 807
-ht-degree: 17%
+source-wordcount: 1057
+ht-degree: 16%
 
 ---
 
@@ -29,8 +24,8 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->発生する可能性のあるバグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
+>発生する可能性のあるバグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。詳しくは、[ カスタマーサポートへのお問い合わせ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
@@ -38,11 +33,12 @@ ht-degree: 17%
 >* Google Cloud Platform
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+take Preview and production mentions out at release
 -->
 
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 プロンプトを含むカンバスダッシュボードにフィルターを適用できます。 プロンプトは、追加のフィルタリング条件を適用するフィルター修飾子として機能するため、結果をさらに絞り込むことができます。 これらのプロンプトは、フィルターを適用するたびに変更できるため、ダッシュボードや個々のレポートの主なフィルター条件を編集することなく、表示される結果を調整できます。
 
@@ -91,7 +87,7 @@ ht-degree: 17%
 
 ダッシュボードを作成してからフィルタリングする必要があります。
 
-詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 ## ダッシュボードのフィルタリング
 
@@ -123,13 +119,13 @@ ht-degree: 17%
 
 1. ダッシュボードの詳細ページの左上隅にある「**フィルター**」をクリックします。 フィルターのサイドパネルが開きます。
 
-1. &#x200B;<!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>-->をクリック **フィルターを編集**。 **ダッシュボードフィルター** ダイアログボックスが開きます。
+1. （条件）実稼動環境で、**フィルターを編集**&#x200B;または<span class="preview"> プレビュー環境をクリックし、**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックしてから、</span>をクリックします **フィルターを編集**。 **ダッシュボードフィルター** ダイアログボックスが開きます。
 
 1. （オプション）ルールを追加するには、次の手順に従います。
 
    1. ルールボックスの右側にある&#x200B;**編集** アイコンを選択します。
 
-      ![&#x200B; アイコンを編集](assets/edit-icon.png)
+      ![ アイコンを編集](assets/edit-icon.png)
 
    1. 「**条件を追加**」をクリックし、次の情報を追加します。
       * 「**フィールドを選択**」をクリックして、フィルタリングするフィールドを選択します。
@@ -137,7 +133,7 @@ ht-degree: 17%
 
    1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件のセットを追加します。 セット間のデフォルトの演算子は AND です。 演算子をクリックして OR に変更します。
 
-1. [&#x200B; パート 2: ダッシュボード プロンプトを作成する](#part-2-define-a-dashboard-prompt)に進みます。
+1. [ パート 2: ダッシュボード プロンプトを作成する](#part-2-define-a-dashboard-prompt)に進みます。
 
 
 ### パート 2：ダッシュボードプロンプトの定義
@@ -177,20 +173,26 @@ ht-degree: 17%
 
 1. **保存**&#x200B;をクリックして、フィルターをダッシュボードに適用します。
 
-   <!--
-    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
-        <div class="preview">
-        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
-            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
-        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
-            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
-            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
-        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
-        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
-        </div> 
-    -->
 
-1. [&#x200B; パート 3: ダッシュボード プロンプトを適用する](#step-3-apply-a-dashboard-prompt)に進みます。
+1. <span class="preview"> プロンプトをデフォルトとして保存するには、プロンプトを保存した後、次の操作を行います。</span>
+
+   <div class="preview">
+
+   1. （オプション） **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**デフォルトのプロンプトとして保存**&#x200B;をクリックします。
+
+      表示または権限を持つユーザーがダッシュボードを読み込むたびに、プロンプトのフィルターが適用されます。
+   1. （条件付き）デフォルトのプロンプトが適用されたダッシュボードにアクセスする場合は、フィルターを変更し、変更を個人設定として保存できます。 次のシナリオが存在します。
+
+      * ダッシュボードに対する管理権限がある場合は、**デフォルトとして保存プロンプト**&#x200B;をクリックして、変更をデフォルトフィルターとして保存します。 これにより、元のデフォルトが置き換えられます。
+      * ダッシュボードに対する表示権限がある場合、変更内容は自分のためにのみ表示されます。 ページを更新すると、設定が保持されます。
+
+   1. （条件付き）デフォルトのプロンプトの設定を変更した場合は、**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**ダッシュボードのデフォルトを適用**&#x200B;をクリックして、デフォルトのフィルター結果に戻ります。
+   1. （オプション）「**デフォルトをリセット**」をクリックして、元のデフォルト設定を変更に置き換えます。 このオプションは、ダッシュボードマネージャーでのみ使用できます。
+
+   </div>
+
+
+1. [ パート 3: ダッシュボード プロンプトを適用する](#step-3-apply-a-dashboard-prompt)に進みます。
 
 ### 手順3：ダッシュボードプロンプトの適用
 
@@ -204,9 +206,9 @@ ht-degree: 17%
 
 1. ダッシュボードの詳細ページの左上隅にある「**フィルター**」をクリックします。 フィルターのサイドパネルが開きます。
 
-1. **レコードの表示場所…** セクションで、表示される1つまたはすべてのプロンプトの条件を選択します。プロンプトが適用され、適用された&#x200B;**ダッシュボードフィルター** タグがレポートウィジェットの隅に表示されます。
+1. **レコードの表示場所…** セクションで、表示される1つまたはすべてのプロンプトの条件を選択します。プロンプトが適用され、適用された&#x200B;**ダッシュボードプロンプト** タグがレポートウィジェットの隅に表示されます。
    ![条件を選択](assets/prompts-list.png)
 
-1. 右上隅の&#x200B;**閉じる** アイコン ![閉じるアイコン &#x200B;](assets/close-icon.png)をクリックして、パネルを非表示にします。
+1. 右上隅の&#x200B;**閉じる** アイコン ![閉じるアイコン ](assets/close-icon.png)をクリックして、パネルを非表示にします。
 
 
