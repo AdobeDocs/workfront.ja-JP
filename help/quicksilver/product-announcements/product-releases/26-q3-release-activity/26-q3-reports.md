@@ -4,9 +4,9 @@ description: 2026年第3四半期レポートの強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: c1ffa06ddca88f8679cf3886ce5c90f69984f30b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 1%
 このページでは、2026年第3四半期リリースで行われたレポートの機能強化について、プレビュー環境に対して説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2026年第3四半期のリリースサイクルで現時点で利用可能なすべての変更のリストについては、[2026年第3四半期のリリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)を参照してください。
+
+## Canvas Dashboard プロンプトのデフォルトとユーザー環境設定の永続性
+
+>[!NOTE]
+>
+>プレビュー：2026年6月25日>実稼動用の高速リリース：2026年7月15日>全員の実稼動環境：2026年7月16日
+
+作業中のフィルターの状態を保持することで、ダッシュボードとレコード間を移動するユーザーの効率を向上させるために、ダッシュボードマネージャーがCanvas ダッシュボードのデフォルトのプロンプト値を定義できるようになりました。 これらのデフォルトは、すべてのダッシュボードビューアに自動的に適用されます。
+
+ユーザーがプロンプトを更新すると、選択した内容は保存され、更新時、再開時、またはレコードに移動して戻った後に復元されます。
+
+管理者は、ダッシュボードのデフォルトの状態をいつでもリセットできます。 また、3点メニューを使用して、デフォルト値にすばやく戻すこともできます。
+
+この機能強化の前は、ダッシュボードプロンプトには、設定可能なデフォルトやプロンプトステータスの保存されたユーザー設定がありませんでした。
+
+詳しくは、[&#x200B; キャンバスダッシュボードのフィルタリング &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)を参照してください。
 
 ## 複数のPower BI IP アドレス範囲をData ConnectのIP アドレス範囲に一度に追加する
 
