@@ -6,7 +6,7 @@ title: レートカードのテンプレートへの添付
 description: レートカードをテンプレートに割り当てると、そのレートカードは、テンプレートから作成されたすべてのプロジェクトに添付されます。
 author: Lisa
 feature: Work Management
-source-git-commit: 28a1c1cf30c2b4addbcc1b40f5fd65f99685c75c
+source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 10%
@@ -117,7 +117,6 @@ ht-degree: 10%
 
    「テンプレートとして保存」ボックスの「オプション」セクションで、**レートカード** アイテムを選択して、レートカードをテンプレートに追加できます。 テンプレートへの転送からレートカードを除外するには、チェックボックスをオフにします。
 
-   詳しくは、[&#x200B; プロジェクトをテンプレートとして保存](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)を参照してください
-
+   詳しくは、[&#x200B; プロジェクトをテンプレートとして保存](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)を参照してください。
 
 
