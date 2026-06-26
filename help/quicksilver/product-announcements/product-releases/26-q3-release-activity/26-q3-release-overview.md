@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6ac07e6f0d4a8faf7ef61755a4ec335e195a1b51
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 16%
+source-wordcount: '2369'
+ht-degree: 18%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 16%
 * [プロジェクトの強化](#project-enhancements)
 * [レポートの機能強化](#reporting-enhancements)
 * [リクエストの機能強化](#requesting-enhancements)
+* [リソース管理の強化](#resource-management-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### AIの機能強化
@@ -404,6 +405,28 @@ ht-degree: 16%
             <td><p>2026年4月23日（PT）</p></td>
             <td><p>2026年4月23日（PT）</p></td>
             <td><p>2026年4月23日（PT）</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### リソース管理の強化
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>機能</strong>
+            </td>
+            <td><strong>プレビュー</strong></td>
+            <td><strong>迅速リリース</strong></td>
+            <td><strong>四半期ごと</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md" class="MCXref xref" xrefformat="{para}"> ワークロードバランサーでの一括割り当てアクションの効率化</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>一括割り当てがワークロードバランサーで効率化され、ユーザーの割り当てとユーザーの置き換えのアクションが<strong> リソースの置き換え</strong> アクションに統合されました。</p>
+            </td>
+            <td><p>2026年6月19日（PT）</p></td>
+            <td><p>2026年6月19日（PT）</p></td>
+            <td><p>2026年6月19日（PT）</p></td>
         </tr>
     </tbody>
 </table>
