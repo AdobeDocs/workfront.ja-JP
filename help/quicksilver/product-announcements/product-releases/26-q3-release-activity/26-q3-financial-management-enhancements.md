@@ -4,7 +4,7 @@ description: 2026年第3四半期の財務管理の強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e1a56c9dee403c1f0c28d2bf49d4becbaad5d085
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 4%
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 テンプレートに追加するレートカードを選択し、テンプレートから作成されたすべてのプロジェクトに自動的に添付できるようになりました。 レートカードはプロジェクトのデフォルトになりますが、必要に応じて上書きできます。
 
-詳しくは、[&#x200B; レートカードをテンプレートに添付](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)を参照してください。
+詳しくは、[ レートカードをテンプレートに添付](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)を参照してください。
 
 ## レートカードの既存のレート間に請求レートを追加します
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 以前は、リストの下部にのみコンバージョン率を追加することができました。
 
-詳しくは、[&#x200B; レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
+詳しくは、[ レートカードの管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)を参照してください。
 
 ## レート属性は、レートで使用すると編集できません
 
@@ -47,4 +47,5 @@ ht-degree: 4%
 
 Workfrontのレートに属性が追加されると、設定領域でその属性とそのフィルターを編集できなくなります。 これにより、データの一貫性を維持し、属性が更新されたときに誤ってレートが変更されるのを防ぐことができます。
 
-詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+
