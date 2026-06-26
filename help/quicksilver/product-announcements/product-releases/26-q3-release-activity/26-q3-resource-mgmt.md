@@ -4,7 +4,7 @@ description: 2026年第3四半期のリソース管理の強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b62fc2a213d9e7bc58a34d48166be61699908d0c
+source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 10%
@@ -33,4 +33,5 @@ ht-degree: 10%
 * ユーザーの役割
 
 詳しくは、[&#x200B; ワークロードバランサーを使用した一括作業の割り当て](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)を参照してください。
+
 
