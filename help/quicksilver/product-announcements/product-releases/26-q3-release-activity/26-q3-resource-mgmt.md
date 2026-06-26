@@ -21,7 +21,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->プレビュー：2026年6月19日（PT）プロダクション高速リリース：2026年6月19日（PT）すべての人のための制作：2026年6月19日スケジュール外]{type=Neutral}
+>プレビュー：2026年6月19日（PT）プロダクション高速リリース：2026年6月19日（PT）すべての人のための制作：2026年6月19日スケジュール外&rbrack;{type=Neutral}
 
 一括割り当てがワークロードバランサーで効率化され、ユーザーの割り当てとユーザーの置き換えのアクションが&#x200B;**リソースの置き換え** アクションに統合されました。
 
@@ -32,6 +32,6 @@ ht-degree: 10%
 * 役割を持つユーザー
 * ユーザーの役割
 
-詳しくは、[ ワークロードバランサーを使用した一括作業の割り当て](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)を参照してください。
+詳しくは、[&#x200B; ワークロードバランサーを使用した一括作業の割り当て](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)を参照してください。
 
 
