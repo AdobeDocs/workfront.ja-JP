@@ -9,7 +9,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 9c6e8d04c1faa2902cab870a03a68f0cb14da3aa
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: 287
 ht-degree: 0%
@@ -39,5 +39,6 @@ ht-degree: 0%
 「決定日」フィールドには、受信者の最新の決定アクティビティの日付が表示されますが、受信者の決定はレポートでカウントされなくなります。
 
 プルーフ承認レポートの作成と使用について詳しくは、[&#x200B; プルーフ承認レポートの使用](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)を参照してください。
+
 
 

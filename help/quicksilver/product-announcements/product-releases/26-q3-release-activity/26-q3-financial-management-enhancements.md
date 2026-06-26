@@ -4,7 +4,7 @@ description: 2026年第3四半期の財務管理の強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e1a56c9dee403c1f0c28d2bf49d4becbaad5d085
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 4%
@@ -48,3 +48,4 @@ ht-degree: 4%
 Workfrontのレートに属性が追加されると、設定領域でその属性とそのフィルターを編集できなくなります。 これにより、データの一貫性を維持し、属性が更新されたときに誤ってレートが変更されるのを防ぐことができます。
 
 詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+
