@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
 workflow-type: tm+mt
-source-wordcount: 1057
+source-wordcount: 1194
 ht-degree: 16%
 
 ---
@@ -29,9 +29,7 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->発生する可能性のあるバグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
->このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
 >* Azure
@@ -186,6 +184,11 @@ Take Preview and production mentions out at release
    1. （オプション） **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**デフォルトのプロンプトとして保存**&#x200B;をクリックします。
 
       表示または権限を持つユーザーがダッシュボードを読み込むたびに、プロンプトのフィルターが適用されます。
+
+      >[!TIP]
+      >
+      >プロンプトを作成しておらず、フィールドにアクセスできない場合、フィールド名は表示されません。 レポートに入力するプロンプトを変更します。
+
    1. （条件付き）デフォルトのプロンプトが適用されたダッシュボードにアクセスする場合は、フィルターを変更し、変更を個人設定として保存できます。 次のシナリオが存在します。
 
       * ダッシュボードに対する管理権限がある場合は、**デフォルトとして保存プロンプト**&#x200B;をクリックして、変更をデフォルトフィルターとして保存します。 これにより、元のデフォルトが置き換えられます。
@@ -211,8 +214,7 @@ Take Preview and production mentions out at release
 
 1. ダッシュボードの詳細ページの左上隅にある「**フィルター**」をクリックします。 フィルターのサイドパネルが開きます。
 
-1. **レコードの表示場所…** セクションで、表示される1つまたはすべてのプロンプトの条件を選択します。プロンプトが適用され、適用された&#x200B;**ダッシュボードプロンプト** タグがレポートウィジェットの隅に表示されます。
-   ![条件を選択](assets/prompts-list.png)
+1. **レコードの表示場所…** セクションで、表示される1つまたはすべてのプロンプトの条件を選択します。 プロンプトが適用され、適用された&#x200B;**ダッシュボードプロンプト** タグがレポートウィジェットの隅に表示されます。   ![条件を選択](assets/prompts-list.png)
 
 1. 右上隅の&#x200B;**閉じる** アイコン ![閉じるアイコン &#x200B;](assets/close-icon.png)をクリックして、パネルを非表示にします。
 
