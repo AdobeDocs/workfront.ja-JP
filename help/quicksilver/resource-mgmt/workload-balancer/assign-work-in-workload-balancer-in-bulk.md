@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: 1242
 ht-degree: 58%
@@ -248,6 +248,7 @@ To assign a user to work items previously assigned to job roles:
 
 1. 「**割り当て解除**」をクリックします。\
    指定したユーザーが削除された作業アイテムの数に関する確認が表示されます。
+
 
 
 
