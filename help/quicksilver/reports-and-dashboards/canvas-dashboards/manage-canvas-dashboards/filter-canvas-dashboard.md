@@ -9,16 +9,11 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: 1194
 ht-degree: 16%
@@ -29,7 +24,7 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
 >* Azure
@@ -90,7 +85,7 @@ Take Preview and production mentions out at release
 
 ダッシュボードを作成してからフィルタリングする必要があります。
 
-詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 ## ダッシュボードのフィルタリング
 
@@ -128,7 +123,7 @@ Take Preview and production mentions out at release
 
    1. ルールボックスの右側にある&#x200B;**編集** アイコンを選択します。
 
-      ![&#x200B; アイコンを編集](assets/edit-icon.png)
+      ![ アイコンを編集](assets/edit-icon.png)
 
    1. 「**条件を追加**」をクリックし、次の情報を追加します。
       * 「**フィールドを選択**」をクリックして、フィルタリングするフィールドを選択します。
@@ -136,7 +131,7 @@ Take Preview and production mentions out at release
 
    1. （オプション）「**フィルターグループを追加**」をクリックして、別のフィルター条件のセットを追加します。 セット間のデフォルトの演算子は AND です。 演算子をクリックして OR に変更します。
 
-1. [&#x200B; パート 2: ダッシュボード プロンプトを作成する](#part-2-define-a-dashboard-prompt)に進みます。
+1. [ パート 2: ダッシュボード プロンプトを作成する](#part-2-define-a-dashboard-prompt)に進みます。
 
 
 ### パート 2：ダッシュボードプロンプトの定義
@@ -200,7 +195,7 @@ Take Preview and production mentions out at release
    </div>
 
 
-1. [&#x200B; パート 3: ダッシュボード プロンプトを適用する](#step-3-apply-a-dashboard-prompt)に進みます。
+1. [ パート 3: ダッシュボード プロンプトを適用する](#step-3-apply-a-dashboard-prompt)に進みます。
 
 ### 手順3：ダッシュボードプロンプトの適用
 
@@ -216,7 +211,8 @@ Take Preview and production mentions out at release
 
 1. **レコードの表示場所…** セクションで、表示される1つまたはすべてのプロンプトの条件を選択します。 プロンプトが適用され、適用された&#x200B;**ダッシュボードプロンプト** タグがレポートウィジェットの隅に表示されます。   ![条件を選択](assets/prompts-list.png)
 
-1. 右上隅の&#x200B;**閉じる** アイコン ![閉じるアイコン &#x200B;](assets/close-icon.png)をクリックして、パネルを非表示にします。
+1. 右上隅の&#x200B;**閉じる** アイコン ![閉じるアイコン ](assets/close-icon.png)をクリックして、パネルを非表示にします。
+
 
 
 
