@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: d458989b-884f-4253-8dc9-9a545377cc63
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '85'
 ht-degree: 100%
 
 ---
@@ -18,10 +18,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、[!DNL Workfront Proof] スタンドアロン製品の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、[!DNL Workfront Proof] スタンドアロン製品の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 [!DNL Workfront Proof] 管理者は、[!DNL Workfront Proof] にログインしているすべてのユーザーの使用状況情報を表示できます。
 
 1. 左側のナビゲーションパネルで、「**[!UICONTROL アクティビティ]**」をクリックします。
-1. **[!UICONTROL プルーフとメディアログ]**&#x200B;ドロップダウンメニューで、「**[!UICONTROL 認証ログ]**」をクリックします。
-システム内の各ユーザーのログイン履歴が表示されます。
+1. **[!UICONTROL プルーフとメディアログ]**&#x200B;ドロップダウンメニューで、「**[!UICONTROL 認証ログ]**」をクリックします。システム内の各ユーザーのログイン履歴が表示されます。
