@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 66a15edf-8504-471a-a6be-f632760b50ed
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。 [!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 [!DNL Workfront Proof] は、60 日間操作が行われなかったプルーフをアーカイブします。
 
-編集権限があれば、いつでも手動でプルーフをアーカイブできます。編集権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+編集権限があれば、いつでも手動でプルーフをアーカイブできます。 編集権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 アーカイブしたプルーフ：
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 * 自動でアーカイブされた場合、自動的にロックされます。
 * 手動でアーカイブされた場合、ロックすることも、ロックを解除することもできます。
 
-アーカイブとアーカイブの解除は、プルーフの「アクティビティ」セクションに記録されます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理するを参照してください。
+アーカイブとアーカイブの解除は、プルーフの「アクティビティ」セクションに記録されます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理するを参照してください。
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ## プルーフの手動アーカイブ
 
-編集権限があれば、いつでも手動でプルーフをアーカイブできます。編集権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+編集権限があれば、いつでも手動でプルーフをアーカイブできます。 編集権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 アーカイブ処理が完了するまでに最大 24 時間かかる場合があります。
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 ## プルーフのアーカイブ解除
 
-プルーフのアーカイブは、いつでも誰でも解除できます。これには、[!DNL Workfront Proof] ユーザーでないレビュアーも含まれます。
+プルーフのアーカイブは、いつでも誰でも解除できます。 これには、[!DNL Workfront Proof] ユーザーでないレビュアーも含まれます。
 
 アーカイブされたプルーフビューからプルーフのアーカイブを解除するには：
 

@@ -3,20 +3,20 @@ content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
 title: 自動ワークフローステージの概要
-description: プルーフステージは、様々なユーザーがプルーフをレビューする期間のセグメントです。プルーフが次のステージに移ると、Adobe Workfront はレビアューに対し、作業するタイミングを伝えるよう通知します。
+description: プルーフステージは、様々なユーザーがプルーフをレビューする期間のセグメントです。 プルーフが次のステージに移ると、Adobe Workfront はレビアューに対し、作業するタイミングを伝えるよう通知します。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 92%
 
 ---
 
 # 自動ワークフローステージの概要
 
-プルーフステージは、様々なユーザーがプルーフをレビューする期間のセグメントです。プルーフが次のステージに移ると、Adobe Workfront はレビアューに対し、作業するタイミングを伝えるよう通知します。
+プルーフステージは、様々なユーザーがプルーフをレビューする期間のセグメントです。 プルーフが次のステージに移ると、Adobe Workfront はレビアューに対し、作業するタイミングを伝えるよう通知します。
 
 ![stages_diagram.png](assets/stages-diagram-350x63.png)
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 * ステージを連続的にまたは同時に実行するように設定できます。
 * 一部のステージは、前のステージが完了した後にのみアクティブになるように設定できます。
-* 一部のステージを非公開にすることができます。これは例えば、クライアントと共有する前にプルーフをレビューし、結果のコメントをクライアントに見せたくない代理店にとって便利です。
+* 一部のステージを非公開にすることができます。 これは例えば、クライアントと共有する前にプルーフをレビューし、結果のコメントをクライアントに見せたくない代理店にとって便利です。
 
 自動ワークフローを使用してプルーフのステージを作成する手順について詳しくは、[自動ワークフローを使用した高度なプルーフの作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)を参照してください。
 
@@ -49,8 +49,8 @@ ht-degree: 100%
 
 **例：**&#x200B;例えば、4 人のレビュアーを含むプルーフを作成する場合は、以下のようになります。
 
-* レビュアーの Olivia と Tony に対して、期限を数日後の 14:00 に指定します。
-* Aaron と Amy には、期限を数日後の 17:00 に指定します。
+* レビュー担当者のOliviaとTonyの場合、今から数日後の14:00の期限を指定します。
+* AaronとAmyの場合、数日後の17:00の期限を指定します。
 * 自分自身には期限を指定しません。
 
 システムは、以下の 3 つのレビュアーの「グループ」ごとにステージを作成します。
