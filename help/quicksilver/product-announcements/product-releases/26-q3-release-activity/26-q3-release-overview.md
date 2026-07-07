@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
+source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2761'
 ht-degree: 16%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 16%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第3四半期のリリースが予定されている実稼動リリースに近づいたときに、追加の機能強化で更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -99,53 +99,53 @@ ht-degree: 16%
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
         </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">統一されたレビューと承認のための変更管理</a>
-                <p>変更履歴ページには、統合されたレビューと承認のワークフローをまたいでアクティビティが記録され、管理者は承認、ステージ、参加者のアクションに関する包括的なガバナンス履歴を取得できます。</p>
-            </td>
-            <td><p>2026年7月7日（PT）</p></td>
-            <td><p>2026年7月15日（PT）</p></td>
-            <td><p>2026年7月16日（PT）</p></td>
-        </tr>
         <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Internal lookup field replacing Typeahead field type</a>
-                <p>The new Internal lookup field type in custom forms provides dynamic filtering, multi-select support, and improved performance for large datasets. It is replacing the Typeahead field type.</p>
-            </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Default value logic supported on native reference fields</a><p>[!BADGE Workflow Prime]{type=Informative}</p>
-                <p>In custom forms, native reference fields now allow you to add default value logic. This logic type is available only in the user interface and not in the Workfront API.</p>
-            </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to native field filtering in custom forms</a>
-                <p>System filters on native fields are now visible to administrators in custom forms, and dynamic filtering is now available on native reference fields.</p>
-            </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Protect field names from accidental renaming</a>
-                <p>Field names in the custom form field settings panel are now read-only by default, requiring an explicit confirmation step to rename. The Name field has been updated to API Name.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Change tracking for unified review and approval</a>
+                <p>The Change History page now captures activity across unified review and approval workflows, giving administrators a complete governance trail for approval, stage, and participant actions.</p>
             </td>
             <td><p>July 7, 2026</p></td>
             <td><p>July 15, 2026</p></td>
             <td><p>July 16, 2026</p></td>
         </tr>
         -->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">先行入力フィールドの種類</a>を置き換える内部参照フィールド
+                <p>カスタムフォームの新しい内部検索フィールドタイプは、動的フィルタリング、複数選択サポート、大規模なデータセットのパフォーマンスの向上を提供します。 Typeahead フィールドタイプを置き換えています。</p>
+            </td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> ネイティブ参照フィールドでサポートされるデフォルト値ロジック </a><p>[!BADGE Workflow Prime]{type=Informative}</p>
+                <p>カスタムフォームで、ネイティブ参照フィールドでデフォルト値ロジックを追加できるようになりました。 このロジックタイプは、ユーザーインターフェイスでのみ使用でき、Workfront APIでは使用できません。</p>
+            </td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> カスタムフォームのネイティブフィールドフィルタリングを更新しました</a>
+                <p>ネイティブフィールドのシステムフィルターがカスタムフォームの管理者に表示されるようになり、ダイナミックフィルタリングがネイティブ参照フィールドで使用できるようになりました。</p>
+            </td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">誤った名前の変更からフィールド名を保護</a>
+                <p>カスタムフォームフィールド設定パネルのフィールド名は、デフォルトで読み取り専用になり、名前を変更するには明示的な確認手順が必要です。 「名前」フィールドが「API名」に更新されました。</p>
+            </td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront オブジェクトの変更履歴を表示</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -569,7 +569,7 @@ Workfront Fusion の新機能は、実稼動環境の標準リリーススケジ
 New features in Workfront Planning are available in Production.
 -->
 
-最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
+最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
 
 
 ### Workfrontのその他の機能強化
@@ -628,7 +628,7 @@ Workfront計画トライアルは2026年5月15日に終了します。
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
