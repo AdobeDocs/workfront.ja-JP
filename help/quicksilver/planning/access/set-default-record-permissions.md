@@ -107,7 +107,7 @@ at GA, check that the Workfront plans article linked below has Planning info
 
 1. レコードタイプ > **詳細** メニュー![詳細メニュー](assets/more-menu.png) > **設定** > **レコード設定**&#x200B;に移動します。
 
-   ![ レコードタイプ設定エリアの「レコード設定」タブ ](assets/record-settings-tab-in-record-type-settings-area.png)
+   ![&#x200B; レコードタイプ設定エリアの「レコード設定」タブ &#x200B;](assets/record-settings-tab-in-record-type-settings-area.png)
 
 1. **レコード権限タイプ** フィールドで、次のいずれかのオプションをクリックします。
 
