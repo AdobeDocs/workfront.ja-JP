@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
 title: 変更履歴
-description: 変更履歴を使用すると、Workfront オブジェクトに対する変更のログを表示できます
-author: Becky
+description: 変更履歴を使用すると、Workfront オブジェクトに対する変更のログを表示できます。
+author: Lisa and Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 8%
+source-wordcount: '452'
+ht-degree: 7%
 
 ---
 
@@ -18,10 +18,8 @@ ht-degree: 8%
 
 監査ログを含む変更履歴は、「設定」の「変更履歴」エリアで確認できます。
 
-* **監査ログ**&#x200B;は、ユーザーによってトリガーされた変更です。
-監査ログと監査ログ領域について詳しくは、[監査ログの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)を参照してください
-* **設定**&#x200B;には、変更履歴リストで追跡されているフィールドが表示されます。
-設定は現在、情報としてのみ利用でき、変更できません。追跡するフィールドを変更する機能は、近日中に利用できるようになります。
+* **監査ログ**&#x200B;は、ユーザーによってトリガーされた変更です。監査ログと監査ログ領域について詳しくは、[監査ログの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)を参照してください
+* **設定**&#x200B;には、変更履歴リストで追跡されているフィールドが表示されます。設定は現在、情報としてのみ利用でき、変更できません。 追跡するフィールドを変更する機能は、近日中に利用できるようになります。
 * 変更履歴リストを使用すると、次のような属性を含むWorkfront オブジェクトへの変更のログを表示できます。
 
    * オブジェクト
@@ -39,7 +37,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] パッケージ</td> 
-   <td>ワークフロー Ultimate</td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] ライセンス</td> 

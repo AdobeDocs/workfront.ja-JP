@@ -19,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 7340868a00ca643c5eb537d242eaf9f805efe927
 workflow-type: tm+mt
 source-wordcount: 1047
 ht-degree: 86%
@@ -191,7 +191,21 @@ ht-degree: 86%
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
+
+
 1. **適用**&#x200B;または&#x200B;**完了**&#x200B;をクリックして、テキストモードの変更を保存し、レポートまたはフィルターの編集を続行します。
 1. 「**保存して閉じる**」をクリックしてレポートを保存するか、「**フィルターを保存**」をクリックして、リストにフィルターを保存します。
 
+<!--
 
+If this text is needed for July 7 release, add the snippet at the top of the article!
+
+1. (Optional) Use a dynamic filter to narrow the list of items in this field based on the value of another field.
+
+   >[!NOTE]
+   >
+   >The `?` prefix for dynamic filtering is only available for native reference field filters.
+
+   For example, when you use `?portfolioID={portfolio}.{ID}` in a Project field filter and a Portfolio native field is on the custom form, the Project field shows only projects that are in the selected portfolio. If the Portfolio field is left blank, then all projects are available in the Project field.
+
+-->

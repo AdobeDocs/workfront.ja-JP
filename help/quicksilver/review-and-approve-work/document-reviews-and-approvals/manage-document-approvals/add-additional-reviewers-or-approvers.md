@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 532
-ht-degree: 18%
+source-wordcount: 1130
+ht-degree: 9%
 
 ---
 
 # ドキュメント承認ワークフローへの承認者またはレビュー担当者の追加
+
+{{highlighted-preview}}
 
 保留中の承認が既にあるドキュメント承認ワークフローに、さらに承認者またはレビュー担当者を追加できます。
 
@@ -71,7 +73,7 @@ ht-degree: 18%
 
 
 
-## レガシードキュメント領域のドキュメント概要から、追加の承認者またはレビュー担当者を追加します
+## 実稼動環境のレガシードキュメント領域に承認者またはレビュー担当者を追加します
 
 組織がWorkfront ストレージを使用している場合は、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Adobe クラウドストレージと従来のWorkfront ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)を参照してください。
 
@@ -93,12 +95,42 @@ ht-degree: 18%
 
    ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-approver-or-reviewer.png)
 
-1. 手順5～6を繰り返して、承認者またはレビュー担当者を追加します。
-保存すると、追加された参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
+1. 手順5～6を繰り返して、承認者またはレビュー担当者を追加します。保存すると、追加された参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
 
+<div class="preview">
 
+## プレビューのレガシードキュメント領域に承認者またはレビュー担当者を追加する
 
-## 新しいドキュメント領域のドキュメント概要から、追加の承認者またはレビュー担当者を追加します
+組織がWorkfront ストレージを使用している場合は、Workfrontでドキュメントにアクセスすると、従来のドキュメント領域が表示されます。 Workfront ストレージについて詳しくは、[Adobe クラウドストレージと従来のWorkfront ストレージの違い](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)を参照してください。
+
+ドキュメントの概要から承認者またはレビュー担当者を追加するには：
+
+1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
+
+1. 必要なドキュメントをクリックします。 そのドキュメントのドキュメント概要パネルが開きます。
+
+1. バージョン ドロップダウンメニューで、承認者またはレビュー担当者を追加するドキュメントのバージョンを選択します。 デフォルトでは、最新バージョンが選択されています。
+
+1. **承認** セクションまでスクロールし、**ワークフローの編集**&#x200B;をクリックします。 承認を依頼ダイアログが開きます。1段階の承認の場合は「基本」、複数段階の承認の場合は「詳細」と、並行パスを使用する承認の場合は「詳細」の順に選択します。
+
+1. ユーザー、チーム、またはメールを追加します。
+
+   * 基本モードで、**名前または電子メールを追加** フィールドに名前または電子メールを入力します。
+   * 詳細モードで、更新するステージを含むパスを選択し、ステージの&#x200B;**名前またはメールを追加** フィールドに入力します。
+
+1. 追加した各ユーザーについて、承認者かレビュアーかを選択します。
+
+   ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-reviewer-or-approver.png)
+
+1. 「**保存**」をクリックします。 追加した参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
+
+>[!TIP]
+>
+>基本モードの承認をマルチステージまたはマルチパスの承認に再構築するには、右上隅の「**詳細に移動**」をクリックします。 既存の参加者は、パス 1、ステージ 1として保存されます。 保存した後は、基本モードに戻すことはできません。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+
+</div>
+
+## 実稼動環境の新しいドキュメント領域に承認者またはレビュー担当者を追加します
 
 組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
@@ -118,35 +150,37 @@ ht-degree: 18%
 
    ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-approver-or-reviewer.png)
 
-1. 手順5～6を繰り返して、承認者またはレビュー担当者を追加します。
-保存すると、追加された参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
+1. 手順5～6を繰り返して、承認者またはレビュー担当者を追加します。保存すると、追加された参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
 
+<div class="preview">
 
+## プレビューの新しいドキュメント領域のドキュメント概要から、追加の承認者またはレビュー担当者を追加します
 
+組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 Adobe クラウドストレージについて詳しくは、[Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)を参照してください。
 
+ドキュメントの概要から承認者またはレビュー担当者を追加するには：
 
+1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 
+1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-<!--
-## Add additional approvers or reviewers from Home
+   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
-1. Click the **Home** icon ![Home icon](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. 「**ワークフローを編集**」をクリックします。 承認を依頼ダイアログが開きます。1段階の承認の場合は「基本」、複数段階の承認の場合は「詳細」と、並行パスを使用する承認の場合は「詳細」の順に選択します。
 
-   >[!NOTE]
-   >
-   >Your Workfront administrator might make the following changes to the Home icon in your environment:
-   >
-   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+1. ユーザー、チーム、またはメールを追加します。
 
-1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
+   * 基本モードで、**名前または電子メールを追加** フィールドに名前または電子メールを入力します。
+   * 詳細モードで、更新するステージを含むパスを選択し、ステージの&#x200B;**名前またはメールを追加** フィールドに入力します。
 
-1. Select a **Document** approval.  
+1. 追加した各ユーザーについて、承認者かレビュアーかを選択します。
 
-1. Click **Manage Approvals**&nbsp;in the upper-right corner of the right panel.
-1. In the **Have someone approve this document** box, type the name of the approver.
+   ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-reviewer-or-approver.png)
 
-   If your Adobe Workfront administrator has enabled the capability to collaborate with people who don't use Workfront, as described in [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), you can type their email addresses to include them.
+1. 「**保存**」をクリックします。 追加した参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
 
-1. Click **Save**.
--->
+>[!TIP]
+>
+>基本モードの承認をマルチステージまたはマルチパスの承認に再構築するには、右上隅の「**詳細に移動**」をクリックします。 既存の参加者は、パス 1、ステージ 1として保存されます。 保存した後は、基本モードに戻すことはできません。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+
+</div>

@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 80%
+source-wordcount: 706
+ht-degree: 78%
 
 ---
 
@@ -116,7 +116,7 @@ Adobe Workfront Planning の一般情報と用語について詳しくは、[Ado
 
 * [Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合：記事インデックス &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md): GenStudio for Performance Marketingのレコードは、Workfront計画のGenStudio Workspaceで管理できます。
 
-* **Workfront計画レポート機能**: Workfront Canvas ダッシュボードを使用すると、レポートでWorkfront計画に関する情報を確認できます。 詳しくは、[キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)を参照してください。
+* **Workfront計画レポート機能**: Workfront Canvas ダッシュボードを使用してレポート内のWorkfront計画情報を表示したり、Snowflake テクノロジを使用するWorkfront Data Connectで表示したりできます。 詳しくは、[Adobe Workfront計画レポート：記事インデックス &#x200B;](/help/quicksilver/planning/reporting/reporting-in-planning-article-index.md)を参照してください。
 
 * [Adobe Workfront計画のベストプラクティス：記事インデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：安全性を優先し、混乱を最小限に抑え、迅速に成果を上げる戦略を使用して、組織でAdobe Workfront計画を展開する方法に関するヒントを説明します。
 

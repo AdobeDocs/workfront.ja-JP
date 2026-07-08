@@ -15,16 +15,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 2c815aa5a4873d2b6af79cee2183c502f05108b6
 workflow-type: tm+mt
-source-wordcount: 697
-ht-degree: 54%
+source-wordcount: 711
+ht-degree: 53%
 
 ---
 
 # [!DNL Workfront] 向け [!DNL Adobe Unified Experience]
 
 <!--Audited: 10/2024-->
+
+{{highlighted-preview}}
 
 [!DNL Adobe CX Enterprise] を介して [!DNL Workfront] にアクセスすると、すべての [!DNL Adobe] アプリケーションを管理するためのシームレスで統一されたエクスペリエンスが得られます。 単一の Identity Managemen により、複数の URL やログイン ID を必要とせずに、1 つの場所でログインできます。
 
@@ -98,6 +100,10 @@ Adobe Admin Consoleでのユーザー管理について詳しくは、[Adobe Adm
 * **レイアウト テンプレートの設定**：[!DNL Workfront]管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレート](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を使用して、[!UICONTROL メインメニュー]をカスタマイズする方法を参照してください。
 * **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定について詳しくは、「[Light] – ライセンスユーザー(/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)のナビゲーションについて」または「[Work] – ライセンスユーザー(/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)」のナビゲーションについて説明してください。
 
+<span class="preview"> プレビュー環境のサンプル画像：</span>
+![&#x200B; メインメニュー](assets/main-menu-options-2026.png)
+
+実稼動環境のサンプル画像：
 ![メインメニュー](assets/main-menu-options-left-nav.png)
 
 ## プロファイルと環境設定にアクセスする
@@ -133,5 +139,3 @@ Adobe Admin Consoleでのユーザー管理について詳しくは、[Adobe Adm
 [Adobeのパスワードを変更する方法については、こちらの記事を参照してください。](https://helpx.adobe.com/jp/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 パスワードの変更について詳しくは、管理者にお問い合わせください。
-
-

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
 workflow-type: tm+mt
-source-wordcount: '2369'
-ht-degree: 18%
+source-wordcount: '2761'
+ht-degree: 16%
 
 ---
 
@@ -60,6 +60,15 @@ ht-degree: 18%
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP コネクタで利用できる新しいツール </a>
+                <p>Workfront MCP コネクタの機能を拡張するために、8つの新しいツールが追加され、検索オブジェクトとフィールド名を解決ツールが非推奨になりました。</p>
+            </td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP コネクタの更新</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Workfront MCP コネクタを更新しました。<ul><li>ClaudeはMCP コネクタに接続できるようになりました。</li><li>EU <!--or from instances that do not use AWS-->のインスタンスからMCP コネクタを使用できるようになりました。</p>
             </td>
@@ -89,6 +98,54 @@ ht-degree: 18%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Change tracking for unified review and approval</a>
+                <p>The Change History page now captures activity across unified review and approval workflows, giving administrators a complete governance trail for approval, stage, and participant actions.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        -->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">先行入力フィールドの種類</a>を置き換える内部参照フィールド
+                <p>カスタムフォームの新しい内部検索フィールドタイプは、動的フィルタリング、複数選択サポート、大規模なデータセットのパフォーマンスの向上を提供します。 Typeahead フィールドタイプを置き換えています。</p>
+            </td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> ネイティブ参照フィールドでサポートされるデフォルト値ロジック </a><p>[!BADGE Workflow Prime]{type=Informative}</p>
+                <p>カスタムフォームで、ネイティブ参照フィールドでデフォルト値ロジックを追加できるようになりました。 このロジックタイプは、ユーザーインターフェイスでのみ使用でき、Workfront APIでは使用できません。</p>
+            </td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> カスタムフォームのネイティブフィールドフィルタリングを更新しました</a>
+                <p>ネイティブフィールドのシステムフィルターがカスタムフォームの管理者に表示されるようになり、ダイナミックフィルタリングがネイティブ参照フィールドで使用できるようになりました。</p>
+            </td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">誤った名前の変更からフィールド名を保護</a>
+                <p>カスタムフォームフィールド設定パネルのフィールド名は、デフォルトで読み取り専用になり、名前を変更するには明示的な確認手順が必要です。 「名前」フィールドが「API名」に更新されました。</p>
+            </td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront オブジェクトの変更履歴を表示</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -156,6 +213,15 @@ ht-degree: 18%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">統合承認で並列承認パスを利用できるようになりました</a>
+                <p>ドキュメントの承認ワークフローで並列パスがサポートされるようになり、チームは1回の承認で最大100段階の独立したレビュートラックを最大30回実行できるようになりました。</p>
+            </td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
         <!--
         <tr>
             <td>
@@ -163,8 +229,8 @@ ht-degree: 18%
                 <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
             </td>
             <td><p>N/A</p></td>
-            <td><p>June 26, 2026</p></td>
-            <td><p>June 26, 2026</p></td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 7, 2026</p></td>
         </tr>
         -->
         <tr>
@@ -323,6 +389,24 @@ ht-degree: 18%
             <td><strong>四半期ごと</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">SnowflakeのWorkfront Planningの自動アクセス制御</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>このリリースでは、Workfront Data Connectの一部として、SnowflakeのWorkfront計画データに対する自動の権限駆動型アクセス管理が導入されました。  </p>
+            </td>
+            <td><p>2026年7月16日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+            <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">新しいオブジェクトのカスタムデータサポートを追加</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>2026年第2四半期中に、Workfrontのエンタープライズ運用強化をサポートする新しいオブジェクトを追加しました。</p>
+            </td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月7日（PT）</p></td>
+        </tr>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}"> キャンバスダッシュボードプロンプトのデフォルトとユーザー環境設定の永続性</a>
                 <p>ダッシュボードマネージャーが、すべてのビューアに自動的に適用されるCanvas ダッシュボードのデフォルトのプロンプト値を定義できるようになりました。 ユーザーがプロンプトを更新すると、選択した内容は保存され、更新時、再開時、またはレコードに移動して戻った後に復元されます。</p>
             </td>
@@ -441,6 +525,15 @@ ht-degree: 18%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}"> グローバルナビゲーションアイコンのインターフェイスの更新</a>
+                <p>メインメニューやナビゲーションバーアイコンなど、Workfrontの一般的なナビゲーションアイコンのルックアンドフィールを更新し、他のAdobe アプリケーションと一致するモダンなデザインを提供しました。</p>
+            </td>
+            <td><p>2026年7月7日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
         </tr>
         <tr>
             <td>

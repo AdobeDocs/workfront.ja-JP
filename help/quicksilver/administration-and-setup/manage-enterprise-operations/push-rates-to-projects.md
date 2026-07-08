@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 20%
+source-wordcount: '305'
+ht-degree: 13%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 20%
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 
-   <td>共有されているレートカードを編集するには、レートカードの管理権限が必要です。</td> 
+   <td>共有されているレートカードを編集するには、レートカードに対する管理権限が必要です。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,6 +67,10 @@ ht-degree: 20%
    <!--/staffing plans-->
    <!--and staffing plans -->
    <!--or staffing plan -->
+
+   >[!NOTE]
+   >
+   >古いレートカードレートを持つプロジェクトのみがダイアログに表示されます。 プロジェクトがこのレートカードを使用し、プロジェクトのレートが現在のレートである場合、そのレートは表示されません。
 
 1. 「[!UICONTROL **保存**]」をクリックします。
 

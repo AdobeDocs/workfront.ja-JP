@@ -14,10 +14,10 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
 workflow-type: tm+mt
-source-wordcount: 128
-ht-degree: 68%
+source-wordcount: 133
+ht-degree: 66%
 
 ---
 
@@ -46,6 +46,7 @@ Workfront 管理者は、Adobe Workfront Planning を使用するユーザーに
 <div class="preview">
 
 * [レコードの共有](/help/quicksilver/planning/access/share-records.md)
+* [レコードのデフォルト権限の設定](/help/quicksilver/planning/access/set-default-record-permissions.md)
 
 </div>
 

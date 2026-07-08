@@ -14,14 +14,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 63%
+source-wordcount: 531
+ht-degree: 48%
 
 ---
 
 # ページを固定してワークスペースをカスタマイズ
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -62,6 +64,10 @@ ht-degree: 63%
 
 1. ページの左上隅にある「**[!UICONTROL 現在のページをピン留め]**」をクリックします。 ピン留めされたページは、[!DNL Workfront] の任意のページの上部からアクセスできるようになりました。
 
+   <span class="preview"> プレビュー環境のサンプル画像：
+   ![現在のページをピン留めする](assets/pin-current-page-button-2026.png)
+
+   実稼動環境のサンプル画像：
    ![現在のページをピン留めする](assets/pin-current-page-button.png)
 
 ## ピン留めされたページにアクセスする
@@ -76,9 +82,32 @@ ht-degree: 63%
 
    多数のページをピン留めしている場合は、**[!UICONTROL 詳細]** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックして、ピン留めされた追加のページを表示します。
 
+   <span class="preview"> プレビュー環境のサンプル画像：
+   ![現在のページをピン留めする](assets/display-pinned-pages-2026.png)
+
+   実稼動環境のサンプル画像：
    ![追加のピン留めページを表示](assets/display-pinned-pages.png)
 
    ピン留めされたページが表示されます。
+
+<div class="preview">
+
+## ピンの管理
+
+ピン留めされたページの名前の変更、並べ替え、削除を1か所で行うことができます。
+
+1. **[!UICONTROL 詳細]** アイコン ![&#x200B; ピン行の詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**ピンの管理**&#x200B;を選択します。
+1. **ピンの管理** ボックスで、次の1つ以上の操作を行います。
+
+   * ピン留めされたページの名前を変更するには、**編集** アイコンをクリックします。 新しい名前を入力し、チェックマークアイコンをクリックして確認します。
+   * ピン留めしたページを表示する順序でドラッグ&amp;ドロップします。
+   * **削除** アイコンをクリックして、ピン留めされたページをリストから削除します。
+
+   ![&#x200B; ピンの管理ボックス &#x200B;](assets/manage-pins.png)
+
+1. ピンの編集が終了したら、**閉じる**&#x200B;をクリックします。
+
+</div>
 
 ## ピン留めされたページ名の変更
 
@@ -90,7 +119,6 @@ ht-degree: 63%
 1. 新しいピン名を入力し、**保存**&#x200B;をクリックします。
 
    ![チェックマークをクリックして、ピン留めの名前を変更](assets/rename-pin-dialog-box.png)
-
 
 ## ピン留めされたページを並べ替える
 

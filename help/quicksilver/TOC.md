@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
+source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
 workflow-type: tm+mt
-source-wordcount: '14233'
+source-wordcount: '14248'
 ht-degree: 94%
 
 ---
@@ -2157,14 +2157,16 @@ ht-degree: 94%
       * [Adobe Workfront Planning の基本を学ぶ](planning/general/planning-overview.md)
       * [Adobe Workfront計画の導入に関する推奨事項](planning/general/planning-best-practices.md)
       * [Adobe Workfront Planning API の基本](planning/general/planning-api-basics.md)
-      * {hide-from-toc}[Workfront Planning用Workfront Data Connect](planning/general/planning-in-data-connect.md)
       * [Adobe Workfront Planning の AI アシスタントの概要](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfront計画Designerの基本を学ぶ](planning/general/planning-ai-designer.md)
       * [Adobe Workfront Planning の 2024年リリースアクティビティ](planning/general/release-activity.md)
       * [Adobe Workfront Planning の 2023年リリースアクティビティ](planning/general/release-activity-archives-2023.md)
       * [Adobe Workfront Planning オブジェクトの制限事項の概要](planning/general/limitations-overview.md)
       * [Adobe Workfront Planning の無料体験版の使用を開始](planning/general/trial-workfront-planning.md)
-      * [レポートでのWorkfront計画の情報の表示](planning/general/planning-information-in-reports.md)
+   * Adobe Workfront計画レポート {#adobe-workfront-planning-reporting}
+      * [Adobe Workfront計画レポート：記事インデックス](planning/reporting/reporting-in-planning-article-index.md)
+      * [レポートでのWorkfront計画の情報の表示](planning/reporting/planning-information-in-reports.md)
+      * {hide-from-toc}[Workfront Planning用Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
    * Adobe Workfront Planning のベストプラクティス {#adobe-workfront-planning-best-practices}
       * [Adobe Workfrontのベストプラクティス：記事インデックス](planning/best-practices.md/best-practices-article-index.md)
       * [戦略的ホーム：30日間のランチパッドを展開](planning/best-practices.md/30-day-launchpad.md)
@@ -2211,6 +2213,7 @@ ht-degree: 94%
       * [レコードタイプの共有](planning/access/share-record-types.md)
       * [ビューの共有](planning/access/share-views.md)
       * [レコードの共有](planning/access/share-records.md)
+      * [レコードのデフォルト権限の設定](planning/access/set-default-record-permissions.md)
       * [ビューまたはワークスペースに対する権限のリクエスト](planning/access/request-permissions.md)
    * Adobe Workfront Planning レコード {#adobe-workfront-planning-records}
       * [レコード：記事インデックス](planning/records/records-information.md)

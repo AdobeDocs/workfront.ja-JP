@@ -11,17 +11,23 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 100%
+source-wordcount: 362
+ht-degree: 80%
 
 ---
 
 # パンくずリストの概要
 
+{{highlighted-preview}}
+
 パンくずリストには、すべてのオブジェクトタイプのナビゲーション階層がすべて表示されます。 パンくずリストパス内の各オブジェクトには、オブジェクトタイプを表示するラベルがあります。 現在表示しているページは、ページヘッダーとパンくずリストパスの最後の両方に斜体で表示されます。 以下の例では、これは「[!UICONTROL ブランドチームと共有]」タスクです。
 
+<span class="preview"> プレビュー環境のサンプル画像：</span>
+![折りたたまれたパンくず](assets/collapsed-breadcrumb-2026.png)
+
+実稼動環境のサンプル画像：
 ![折りたたまれたパンくずリスト](assets/NWE-collapsed-breadcrumb.png)
 
 パンくずリストパス内のオブジェクトが多すぎる場合や、画面の幅によってナビゲーション階層全体が表示されない場合、パスはパンくずリストの一部を折りたたみ、パンくずリストパスの先頭でこれらのオブジェクトをグループ化します。 プロジェクトと現在のオブジェクトページの両方が、パンくずリストパスに常に表示されます。
@@ -30,6 +36,10 @@ ht-degree: 100%
 
 「[!UICONTROL 詳細]」をクリックすると、階層全体を展開できます。 「[!UICONTROL 少なく表示]」をクリックし、パンくずリストパスを再び折りたたみます。
 
+<span class="preview"> プレビュー環境のサンプル画像：</span>
+![折りたたまれたパンくず](assets/expanded-breadcrumb-2026.png)
+
+実稼動環境のサンプル画像：
 ![展開されたパンくずリスト](assets/NWE-expanded-breadcrumb.png)
 
 次のキーを使用してパンくずリストを移動することもできます。
@@ -71,7 +81,7 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 
 ## パンくずリストからの親オブジェクトへのアクセス
 
-[!DNL Workfront] での親オブジェクトの詳細については、[ [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)でのオブジェクトについて理解するを参照してください。
+[!DNL Workfront] での親オブジェクトの詳細については、[&#x200B; [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)でのオブジェクトについて理解するを参照してください。
 
 1. （条件付き）折りたたまれたパンくずリストのパスで移動したいオブジェクトが表示されない場合は、**[!UICONTROL 詳細]**&#x200B;をクリックし、オブジェクトを探します。
 
@@ -82,3 +92,5 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 1. パンくずパス内の任意のオブジェクトをクリックして、そのオブジェクトにアクセスします。
 
    オブジェクトページが開きます。
+
+   Workfront Planningのオブジェクト（キャンペーンなど）に接続されているプロジェクトを見ている場合は、パンくずリストからPlanningとWorkfrontの両方のオブジェクトタイプを切り替えることができます。 詳しくは、[階層とパンくずリストの概要](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)を参照してください。

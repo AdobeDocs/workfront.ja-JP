@@ -21,10 +21,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 536
-ht-degree: 25%
+source-wordcount: 566
+ht-degree: 24%
 
 ---
 
@@ -116,12 +116,16 @@ Adobe Canvas Dashboardsでは、ドキュメントの承認決定やWorkfront計
 
 ### 開発中の機能
 
+現在、Canvas ダッシュボードでは、次の機能を反復的なアプローチで利用できるようにしています。
+
 * その他のWorkfront オブジェクトタイプ
 * ユーザビリティの強化
 * Workfront計画ビューをダッシュボードのレポートブロックとして含める
 * ダッシュボードをWorkfront計画ビューとして使用する
 * AzureおよびGCPのお客様への拡張サポート
 * パフォーマンスの最適化
+
+Canvas ダッシュボードに追加される機能について詳しくは、[製品リリース &#x200B;](/help/quicksilver/product-announcements/product-releases/product-releases.md)を参照してください。
 
 ### 今後のロードマップの機能
 

@@ -20,14 +20,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
 workflow-type: tm+mt
-source-wordcount: 3556
-ht-degree: 27%
+source-wordcount: 3610
+ht-degree: 28%
 
 ---
 
 # カスタムフォームおよびフィールドへの論理ルールの追加
+
+{{highlighted-preview}}
 
 ロジックルールを使用すると、フォームのフィールドをさらにカスタマイズできます。
 
@@ -95,8 +97,7 @@ ht-degree: 27%
 
 ## 表示ロジックとスキップロジックの使用に関する考慮事項
 
-* カスタムフィールド、ウィジェット、またはセクション区切りに表示ロジックを追加するには、少なくとも1つの複数選択フィールド（ラジオボタン、ドロップダウン、またはチェックボックス）をフォーム上に配置する必要があります。
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+* カスタムフィールド、ウィジェットまたはセクション区切りに表示ロジックを追加するには、フォーム上で、1 つ以上の複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）をその前に配置する必要があります。カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 * スキップロジックはウィジェットやセクション区切りに追加することはできません。 追加できるのは、複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）のみです。
 * 表示またはスキップロジックを適用して、マルチオプションフィールドの選択肢を表示または非表示にすることはできません。 例えば、別のフィールドの表示またはスキップロジックに基づいて、ドロップダウン、チェックボックスグループ、ラジオボタンのフィールドに表示される選択肢を制限することはできません。
 * カスタムフィールドに関して、次の内容がすべてが該当する場合、カスタムフィールドには表示ロジックとスキップロジックの両方を追加できます。
@@ -238,7 +239,7 @@ ht-degree: 27%
 
 デフォルト値ロジックを使用すると、数式を使用してカスタムフォームフィールドのデフォルト値を設定できます。 定義された条件が満たされると、デフォルト値が表示されます。 デフォルト値は、静的な値でも、オブジェクト内の他のフィールドを参照する動的な値でもかまいません。 デフォルト値は他のフィールドを参照できますが、フォーム上の他のフィールドが変更しても変更されません。
 
-高度なデフォルト値ロジックは、次のフィールドタイプに適用できます。1行テキスト、段落、単一選択ドロップダウン、複数選択ドロップダウン、外部参照、複数選択外部参照。 ネイティブフィールド参照、先行入力、チェックボックスグループ、ラジオボタン。
+高度なデフォルト値ロジックは、次のフィールドタイプに適用できます：単一行テキスト、段落、単一選択ドロップダウン、複数選択ドロップダウン、外部参照、複数選択外部参照、<span class="preview"> ネイティブフィールド参照</span>、先行入力、チェックボックスグループ、ラジオボタン。
 
 >[!TIP]
 >
@@ -247,6 +248,8 @@ ht-degree: 27%
 >[!NOTE]
 >
 >フォームデザイナーの標準のデフォルト値ロジックは引き続き存在します。 両方のタイプが同じフィールドに適用されている場合は、高度なロジックが優先されます。 標準のデフォルト値ロジックについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の[&#x200B; ラジオボタン、チェックボックスグループ、ドロップダウンの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)を参照してください。
+>
+><span class="preview"> ネイティブ参照フィールドの場合、デフォルト値ロジックはユーザーインターフェイスでのみ使用でき、Workfront APIでは使用できません。</span>
 
 ### 例
 
