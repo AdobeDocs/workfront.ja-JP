@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 3db125c4ff09e97519f9f6c756b4507a2447394a
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 3%
+source-wordcount: '941'
+ht-degree: 2%
 
 ---
 
@@ -33,24 +33,19 @@ ht-degree: 3%
 
 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)および[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
-<!--
-
 ## Adobe Cloud Drive
 
 >[!NOTE]
 >
->Preview: N/A
->Production fast release: July 7, 2026
->Production for everyone: July 7, 2026
->This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
+>プレビュー：該当なしプロダクション高速リリース：2026年7月8日（PT）すべての人のための制作：2026年7月8日この機能は、Adobe クラウドストレージが有効になっているWorkflow Ultimate パッケージの組織でのみ使用できます。
 
-Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.
+Adobe Cloud Driveは、Adobe クラウドストレージをサポートするWorkfrontのバージョンを使用している組織で利用できるようになりました。 Adobe Cloud Driveは、Adobe クラウドストレージプロジェクトをMacまたはWindows コンピューター上のドライブとしてマウントするデスクトップアプリケーションです。そのため、Finderまたはファイルエクスプローラーから直接、任意のアプリケーションでファイルを開いたり、編集したり、保存したりできます。 変更内容はAdobe クラウドストレージに自動的に同期され、WorkfrontとFrame.ioでチームが利用できるようになります。
 
-For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
+詳しくは、[Adobe Cloud Driveの概要](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)を参照してください。
 
-[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+[この機能のデモ動画をご覧ください。](https://video.tv.adobe.com/v/3492492){target="_blank"}
 
--->
+## WorkfrontとFrame.ioを使用したAdobe Express テンプレートの承認
 
 >[!NOTE]
 >

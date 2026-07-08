@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 3db125c4ff09e97519f9f6c756b4507a2447394a
 workflow-type: tm+mt
-source-wordcount: '2761'
-ht-degree: 16%
+source-wordcount: '2822'
+ht-degree: 15%
 
 ---
 
@@ -222,17 +222,15 @@ ht-degree: 16%
             <td><p>2026年7月15日（PT）</p></td>
             <td><p>2026年7月16日（PT）</p></td>
         </tr>
-        <!--
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
-                <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
+                <p>Adobe Cloud Driveは、Adobe クラウドストレージプロジェクトをMacまたはWindows コンピューター上のドライブとしてマウントするデスクトップアプリケーションです。そのため、Finderまたはファイルエクスプローラーから直接、任意のアプリケーションでファイルを開いたり、編集したり、保存したりできます。</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 7, 2026</p></td>
+            <td><p>該当なし</p></td>
+            <td><p>2026年7月8日（PT）</p></td>
+            <td><p>2026年7月8日（PT）</p></td>
         </tr>
-        -->
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">WorkfrontとFrame.ioを使用したAdobe Express テンプレートの承認をリクエスト </a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Adobe ExpressとWorkfrontのFrame.ioとの連携により、Adobe Expressで作成されたコンテンツに構造化されたレビューと承認が可能になります。 デザイナーは、Workfrontの承認ワークフローテンプレートをExpress テンプレートにマッピングできるため、テンプレートがリミックスされると、公開前に承認が自動的に必要になり、事前設定されたWorkfront ワークフローとFrame.io ビューアを通じてアセットがルーティングされます。</p>
