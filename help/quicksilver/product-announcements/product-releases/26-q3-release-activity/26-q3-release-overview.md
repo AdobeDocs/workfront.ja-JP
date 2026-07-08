@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
+source-git-commit: a7a94a89b0d1f626658ef97f0f32a0e62e44da6b
 workflow-type: tm+mt
 source-wordcount: '2822'
 ht-degree: 15%
@@ -633,6 +633,4 @@ For information about the maintenance updates made during the Third Quarter 2026
 ### トレーニングの更新
 
 各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。 詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)の「新機能」の節を参照してください。
-
-
 
