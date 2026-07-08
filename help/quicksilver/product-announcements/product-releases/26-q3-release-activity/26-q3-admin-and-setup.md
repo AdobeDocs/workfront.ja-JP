@@ -4,7 +4,7 @@ description: 2026年第3四半期：管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
+source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 6%
@@ -115,7 +115,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 以前は、監査ログは利用できましたが、オブジェクトはカバーしていませんでした。
 
-詳細については、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。
+詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。
 
 ## 従来のストレージポートフォリオをAdobe クラウドストレージに変換する新しいシステム環境設定
 

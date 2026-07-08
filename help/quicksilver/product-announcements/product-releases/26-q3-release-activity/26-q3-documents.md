@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: c2e1da665d483552b2b91c74768ce3b77457d268
+source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '932'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->プレビュー：該当なしプロダクション高速リリース：2026年7月8日（PT）すべての人のための制作：2026年7月8日この機能は、Adobe クラウドストレージが有効になっているWorkflow Ultimate パッケージの組織でのみ使用できます。
+>プレビュー：該当なしプロダクション高速リリース：2026年7月8日（PT）すべての人のための制作：2026年7月8日オフスケジュールこの機能は、Adobe クラウドストレージが有効になっているWorkflow Ultimate パッケージの組織でのみ使用できます。
 
 Adobe Cloud Driveは、Adobe クラウドストレージをサポートするWorkfrontのバージョンを使用している組織で利用できるようになりました。 Adobe Cloud Driveは、Adobe クラウドストレージプロジェクトをMacまたはWindows コンピューター上のドライブとしてマウントするデスクトップアプリケーションです。そのため、Finderまたはファイルエクスプローラーから直接、任意のアプリケーションでファイルを開いたり、編集したり、保存したりできます。 変更内容はAdobe クラウドストレージに自動的に同期され、WorkfrontとFrame.ioでチームが利用できるようになります。
 
