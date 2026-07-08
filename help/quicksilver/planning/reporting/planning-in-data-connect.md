@@ -29,6 +29,6 @@ Snowflakeを使用してリーダーアカウントを作成し、Workfront Data
 * [Workfront Data Connect への接続の確立](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 
 
-Workfront Data Connect データディクショナリのプランニング情報について詳しくは、[Workfront Data Connect データディクショナリ ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)を参照してください。
+Workfront Data Connect データディクショナリのプランニング情報について詳しくは、[Workfront Data Connect データディクショナリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)を参照してください。
 
 
