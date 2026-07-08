@@ -6,9 +6,12 @@ title: Adobe Cloud Driveのトラブルシューティング
 description: MacおよびWindows上のAdobe Cloud Driveに関する一般的な問題に対する制限事項、パフォーマンスに関する考慮事項、解決策を確認します。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 6ad89f8d00dd3a06eb160863c3213a9f80b1a44b
 workflow-type: tm+mt
 source-wordcount: 928
@@ -39,7 +42,7 @@ Adobe Cloud Driveの操作について詳しくは、[Adobe Cloud Driveの使用
 
 * Adobe Cloud Driveに保存されたファイルは、デバイスのディスク容量をローカルで使用します。
 * クラウドのみのファイルでは、ローカルストレージは使用されません。
-* 不要になったファイルのオフラインアクセスを削除します。 詳しくは、[Adobe Cloud Driveの使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)の「[ オフラインアクセスを削除して空き容量を増やす](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#remove-offline-access-to-free-up-space)」を参照してください。
+* 不要になったファイルのオフラインアクセスを削除します。 詳しくは、[Adobe Cloud Driveの使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)の「[&#x200B; オフラインアクセスを削除して空き容量を増やす](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#remove-offline-access-to-free-up-space)」を参照してください。
 
 ## パフォーマンスに関する検討事項
 
@@ -62,7 +65,7 @@ Adobe Cloud Driveの操作について詳しくは、[Adobe Cloud Driveの使用
 * Adobe Cloud Driveがインストールされていることを確認します。 **アプリケーション** （Mac）または&#x200B;**プログラム** （Windows）を確認します。
 * Adobe Cloud Driveを手動で起動します。
 * お客様の組織がWorkfront クラウドストレージをサポートするWorkfrontのバージョンを使用していることを確認するには、Adobe管理者にお問い合わせください。
-* 必要に応じて、Adobe Cloud Driveを再インストールします。 詳しくは、[Adobe Cloud Driveのインストール ](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md)を参照してください。
+* 必要に応じて、Adobe Cloud Driveを再インストールします。 詳しくは、[Adobe Cloud Driveのインストール &#x200B;](/help/quicksilver/documents/adobe-cloud-drive/install-adobe-cloud-drive.md)を参照してください。
 
 ### Adobe Cloud Drive アイコンがメニューバーまたはタスクバーに表示されない
 
@@ -101,7 +104,7 @@ Adobe Cloud Driveの操作について詳しくは、[Adobe Cloud Driveの使用
 
 * インターネット接続を確認します。
 * 十分なディスク容量があることを確認します。
-* 同期エラーについては、ファイルのステータスインジケーターを確認してください。 詳しくは、[Adobe Cloud Driveを使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)の[ ファイル ステータス インジケーター](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#file-status-indicators)を参照してください。
+* 同期エラーについては、ファイルのステータスインジケーターを確認してください。 詳しくは、[Adobe Cloud Driveを使用](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)の[&#x200B; ファイル ステータス インジケーター](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md#file-status-indicators)を参照してください。
 * Adobe Cloud Driveを再起動します。
 * システムトレイ（Windows）またはメニューバー（Mac）でAdobe Cloud Driveのステータスを確認します。
 

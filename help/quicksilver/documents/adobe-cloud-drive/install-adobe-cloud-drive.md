@@ -5,9 +5,12 @@ title: Adobe Cloud Driveのインストール
 description: Adobe Cloud DriveをMacまたはWindows コンピューターにインストールして、Finderまたはファイルエクスプローラーで直接Adobe クラウドストレージプロジェクトを操作できるようにします。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 44bf6f571c35bd9a2f44fc23b2a5eaa3eb2d763b
 workflow-type: tm+mt
 source-wordcount: 532
@@ -72,7 +75,7 @@ Adobe Cloud Driveをインストールする前に、次の点を確認してく
 * 初期設定と同期のためのインターネット接続
 * パフォーマンスに推奨される安定した接続
 
-Adobe Cloud Driveが依存するサービスに確実にアクセスできるようにするには、[Adobe ネットワークエンドポイント ](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html)にリストされているネットワークエンドポイントを許可します。
+Adobe Cloud Driveが依存するサービスに確実にアクセスできるようにするには、[Adobe ネットワークエンドポイント &#x200B;](https://helpx.adobe.com/in/enterprise/kb/network-endpoints.html)にリストされているネットワークエンドポイントを許可します。
 
 ## インストーラーのダウンロード
 
