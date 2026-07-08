@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
 source-wordcount: '2761'
 ht-degree: 16%
@@ -233,7 +233,6 @@ ht-degree: 16%
             <td><p>July 7, 2026</p></td>
         </tr>
         -->
-        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">WorkfrontとFrame.ioを使用したAdobe Express テンプレートの承認をリクエスト </a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Adobe ExpressとWorkfrontのFrame.ioとの連携により、Adobe Expressで作成されたコンテンツに構造化されたレビューと承認が可能になります。 デザイナーは、Workfrontの承認ワークフローテンプレートをExpress テンプレートにマッピングできるため、テンプレートがリミックスされると、公開前に承認が自動的に必要になり、事前設定されたWorkfront ワークフローとFrame.io ビューアを通じてアセットがルーティングされます。</p>

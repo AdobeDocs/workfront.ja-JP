@@ -1,5 +1,5 @@
 ---
-title: Workfront と Experience Manager Assets の統合
+title: WorkfrontとExperience Manager Assetsの統合：記事インデックス
 description: Workfront と Experience Manager Assets の統合
 author: Courtney
 draft: Probably
@@ -13,14 +13,14 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 507718ad95931f2d2a7698620dd7b5e79c3c0105
 workflow-type: tm+mt
-source-wordcount: 40
-ht-degree: 100%
+source-wordcount: 44
+ht-degree: 63%
 
 ---
 
-# Workfront と Experience Manager Assets の統合
+# WorkfrontとExperience Manager Assetsの統合：記事インデックス
 
 * [Experience Manager 拡張機能コネクタ用 Workfront](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
 * [Adobe Workfront for Experience Manager Assets と Asset Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: '14248'
+source-wordcount: '14272'
 ht-degree: 94%
 
 ---
@@ -1198,6 +1198,12 @@ ht-degree: 94%
       * [ドキュメントの整理](documents/organizing-documents/organize-documents.md)
       * [ドキュメントフォルダーを作成](documents/organizing-documents/create-documents-folder.md)
       * [スマートフォルダーの作成と管理](documents/organizing-documents/create-manage-smart-folders.md)
+   * Adobe Cloud Drive {#adobe-cloud-drive}
+      * [Adobe Cloud Drive：記事インデックス](documents/adobe-cloud-drive/adobe-cloud-drive.md)
+      * [Adobe Cloud Driveの概要](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
+      * [Adobe Cloud Driveのインストール](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
+      * [Adobe Cloud Driveの使用](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+      * [Adobe Cloud Driveのトラブルシューティング](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
    * Workfront と Experience Manager Assets の統合 {#wf-aem-integrations}
       * [Workfront と Experience Manager Assets の統合](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Experience Manager 拡張コネクタの Workfront {#wf-aem-enhanced-connector}
