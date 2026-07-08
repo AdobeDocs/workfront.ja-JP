@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 3db125c4ff09e97519f9f6c756b4507a2447394a
+source-git-commit: c2e1da665d483552b2b91c74768ce3b77457d268
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 2%
@@ -119,3 +119,5 @@ Experience Manager Assetsへのアセットの送信について詳しくは、[
 Workfrontの管理者は、ストレージの使用率が割り当て量の75%、85%、100%に達すると、自動的にメール通知を受け取ります。
 
 詳しくは、[&#x200B; ドキュメントのストレージ制限の確認](/help/quicksilver/documents/managing-documents/check-document-storage.md)を参照してください。
+
+
