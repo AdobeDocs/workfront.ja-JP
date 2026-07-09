@@ -5,9 +5,9 @@ title: Adobe Workfront MCP Server Tools
 description: Adobe Workfront MCP サーバーを通じて使用可能なツールのリファレンスリストを、Workfront領域ごとにグループ化します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
+source-git-commit: 1b90f291995f636b1eecdf1af6a02fed7f01e9a4
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1768'
 ht-degree: 8%
 
 ---
@@ -214,6 +214,8 @@ Insights tools retrieve information about Workfront objects.
 ## ワークフローツール
 
 ワークフローツールは、AI エージェント基盤が、プロジェクト、タスク、イシュー、時間、割り当て、プログラム、ポートフォリオなど、あらゆるWorkfrontオブジェクトと連携するために使用する汎用的なアクションです。
+
+### オブジェクトとフィールド
 
 | タイトル | ツール名 | 機能 | アクション |
 | --- | --- | --- | --- |
