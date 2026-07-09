@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
+source-git-commit: c3131cb38ac6f71cdd98149c8d49177d59b7accf
 workflow-type: tm+mt
-source-wordcount: 1419
-ht-degree: 64%
+source-wordcount: 1471
+ht-degree: 62%
 
 ---
 
@@ -195,6 +195,7 @@ Old:
       >
       >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
+   1. （条件付き、オプション）従来のストレージテンプレートを選択した場合は、「新規プロジェクト」ボックスの右下隅にある「Adobe クラウドストレージでこのプロジェクトを作成」設定を選択します。 これにより、Adobe クラウドストレージプロジェクトが作成されます。 テンプレートのドキュメントとドキュメントフォルダーは、プロジェクトに追加されません。
 
    1. 右側の次のテンプレートの詳細を確認します。
 

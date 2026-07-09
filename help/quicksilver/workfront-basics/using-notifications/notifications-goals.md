@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: c3131cb38ac6f71cdd98149c8d49177d59b7accf
 workflow-type: tm+mt
-source-wordcount: 425
-ht-degree: 85%
+source-wordcount: 403
+ht-degree: 90%
 
 ---
 
@@ -32,10 +32,6 @@ ht-degree: 85%
 プロファイルから、[!DNL Adobe Workfront Goals] で発生したイベントのメール通知を有効にすることができます。 ユーザーが[!UICONTROL プラン]ライセンスを使用して、他のユーザーに対して有効にすることもできます。 詳しくは、[[!DNL Adobe Workfront]  の通知](../../workfront-basics/using-notifications/wf-notifications.md)を参照してください。
 
 ## アクセス要件
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
--->
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
@@ -68,10 +64,14 @@ ht-degree: 85%
 
 +++
 
-## 前提条件
+<!--
+Support asked for this to be removed: issue ref number 29111956
 
-* [!DNL Goals]通知を更新するユーザーには、[!UICONTROL &#x200B; メインメニュー]の[!DNL Goals]領域を含むレイアウトテンプレートが必要です。
+## Prerequisites
 
+* The user whose [!DNL Goals] notifications you want to update must have a Layout Template that includes the [!DNL Goals] area in the [!UICONTROL Main Menu].
+
+-->
 
 ## [!UICONTROL &#x200B; ユーザープロファイル &#x200B;]エリアにある [!DNL Goals] の通知
 
