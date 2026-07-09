@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '2824'
+source-wordcount: '2920'
 ht-degree: 15%
 
 ---
@@ -522,6 +522,15 @@ ht-degree: 15%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}"> コメントのアーカイブの最適化</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>現在、更新領域を表示するすべてのWorkfront オブジェクトに対して、1年を超えるコメントのアーカイブを最適化しています。 これは社内の取り組みであり、「更新」エリアでのエクスペリエンスに影響を与えることはありません。 オブジェクトタイプの「更新」領域に対する視覚的な変更はなく、この更新による機能の変更はありません。 すべてのオブジェクトタイプに対して、すべてのコメントが表示されたままになります。</p>
+            </td>
+            <td><p>2026年7月7日（PT）より段階的に展開</p></td>
+            <td><p>2026年7月7日（PT）より段階的に展開</p></td>
+            <td><p>2026年7月7日（PT）より段階的に展開</p></td>
         </tr>
         <tr>
             <td>
