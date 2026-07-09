@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
+source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2914'
 ht-degree: 15%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 15%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP コネクタで利用できる新しいツール </a>
-                <p>Workfront MCP コネクタの機能を拡張するために、8つの新しいツールが追加され、検索オブジェクトとフィールド名を解決ツールが非推奨になりました。</p>
+                <p>Workfront MCP コネクタの機能を拡張するために、いくつかの新しいツールを追加し、検索オブジェクトとフィールド名を解決ツールを非推奨にしました。</p>
             </td>
             <td><p>2026年7月7日（PT）</p></td>
             <td><p>2026年7月15日（PT）</p></td>
