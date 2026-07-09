@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->すべてのユーザーのプレビューと実稼動：2026年7月7日からスケジュール外]{type=Neutral}
+>すべてのユーザーのプレビューと実稼動：2026年7月7日からスケジュール外&rbrack;{type=Neutral}
 
 現在、更新領域を表示するすべてのWorkfront オブジェクトに対して、1年を超えるコメントのアーカイブを最適化しています。 これは社内の取り組みであり、「更新」エリアでのエクスペリエンスに影響を与えることはありません。 オブジェクトタイプの「更新」領域に対する視覚的な変更はなく、この更新による機能の変更はありません。 すべてのオブジェクトタイプに対して、すべてのコメントが表示されたままになります。
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 メインメニューやナビゲーションバーアイコンなど、Workfrontの一般的なナビゲーションアイコンのルックアンドフィールを更新し、モダンなデザインと他のAdobe アプリケーションとの一貫性のあるエクスペリエンスを提供しました。 また、ピン留めされたページの追加と削除のエクスペリエンスが合理化され、クリック数が減りました。
 
-詳しくは、[ トップナビゲーションバーの概要](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md)および[ ページのピン留め](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md)を参照してください。
+詳しくは、[&#x200B; トップナビゲーションバーの概要](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md)および[&#x200B; ページのピン留め](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md)を参照してください。
 
 ## コメント通知メールのルックアンドフィールを更新しました
 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 この変更は段階的にお客様に展開されます。 このページは、ロールアウトスケジュールが確認されると更新されます。
 
-![ コメント通知メールを更新しました.png](assets/email-look-and-feel-update.png)
+![&#x200B; コメント通知メールを更新しました.png](assets/email-look-and-feel-update.png)
 
 ## 強化されたリスト更新
 
