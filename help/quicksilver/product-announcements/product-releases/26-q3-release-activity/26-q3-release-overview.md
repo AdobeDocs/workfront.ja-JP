@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
+source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
 workflow-type: tm+mt
-source-wordcount: '2914'
+source-wordcount: '2920'
 ht-degree: 15%
 
 ---
@@ -357,9 +357,9 @@ ht-degree: 15%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">従来のストレージ タスクをAdobe クラウド ストレージ プロジェクトに変換</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
                 <p>組織で従来のWorkfront ストレージとAdobe クラウドストレージの両方を使用している場合、従来のストレージタスクをAdobe クラウドストレージプロジェクトに変換できるようになりました。</p>
             </td>
-            <td><p>2026年6月11日（PT）</p></td>
-            <td><p>2026年6月12日（PT）</p></td>
-            <td><p>2026年6月12日（PT）</p></td>
+            <td><p>2026年7月9日（PT）</p></td>
+            <td><p>2026年8月13日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
         </tr>
         <tr>
             <td>
