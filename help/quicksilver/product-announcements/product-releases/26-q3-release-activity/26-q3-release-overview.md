@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
+source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2914'
 ht-degree: 15%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 15%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第3四半期のリリースが予定されている実稼動リリースに近づいたときに、追加の機能強化で更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -61,7 +61,7 @@ ht-degree: 15%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP コネクタで利用できる新しいツール </a>
-                <p>Workfront MCP コネクタの機能を拡張するために、8つの新しいツールが追加され、検索オブジェクトとフィールド名を解決ツールが非推奨になりました。</p>
+                <p>Workfront MCP コネクタの機能を拡張するために、いくつかの新しいツールを追加し、検索オブジェクトとフィールド名を解決ツールを非推奨にしました。</p>
             </td>
             <td><p>2026年7月7日（PT）</p></td>
             <td><p>2026年7月15日（PT）</p></td>
@@ -575,7 +575,7 @@ Workfront Fusion の新機能は、実稼動環境の標準リリーススケジ
 New features in Workfront Planning are available in Production.
 -->
 
-最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
+最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
 
 
 ### Workfrontのその他の機能強化
@@ -634,7 +634,7 @@ Workfront計画トライアルは2026年5月15日に終了します。
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
