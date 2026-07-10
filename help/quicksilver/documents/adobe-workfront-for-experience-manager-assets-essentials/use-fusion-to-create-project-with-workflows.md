@@ -7,10 +7,15 @@ author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
 TQID: https://experienceleague.adobe.com/Hegf4kJc65Le5-PttBh6pLzyR8zvydUbbjidxrK0se0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9f74d7a567a77128b5d6d6cfa1d4a8d559998a0f
 workflow-type: tm+mt
 source-wordcount: 1040
@@ -109,7 +114,7 @@ Workfront Fusionで、Adobe Experience Manager ワークフローを含むプロ
 
 1. `Folder tree ID here`をフォルダーIDに置き換えます。
 
-   フォルダーツリーIDを見つけるには、この記事の「[ フォルダーツリーIDを見つける](#locate-folder-tree-ids)」を参照してください。
+   フォルダーツリーIDを見つけるには、この記事の「[&#x200B; フォルダーツリーIDを見つける](#locate-folder-tree-ids)」を参照してください。
 
    複数のフォルダーツリーを使用するには、IDをコンマで区切ります。
 
@@ -135,7 +140,7 @@ Workfront Fusionで、Adobe Experience Manager ワークフローを含むプロ
 1. 「**フィルター**」ボックスに「`object-workflow`」と入力します。
 1. 「名前」列で、表示される英数字IDをクリックします。
 
-   ![ フォルダーID 1](assets/finding-folder-id-1.png)を検索しています
+   ![&#x200B; フォルダーID 1](assets/finding-folder-id-1.png)を検索しています
 
 1. 英数字IDの右側にある「**プレビュー**」タブをクリックします。
 1. 次の折りたたまれたセクションを開きます。
@@ -149,7 +154,7 @@ Workfront Fusionで、Adobe Experience Manager ワークフローを含むプロ
 
 1. 新しいプロジェクトに使用するフォルダーツリーを開きます。 `_id` フィールド値をメモします。 複数のフォルダーツリーを使用する場合は、使用するフォルダーツリーのすべての`_id` フィールド値をメモします。
 
-   ![ フォルダーID 2](assets/finding-folder-id-2.png)を検索しています
+   ![&#x200B; フォルダーID 2](assets/finding-folder-id-2.png)を検索しています
 
    これらは、**Workfront** > **その他のアクション** Fusion モジュールの&#x200B;**プロジェクト（詳細コレクション）** フィールドに入力する`aemNativeFolderTreeIDs`値です。
 
@@ -157,7 +162,7 @@ Workfront Fusionで、Adobe Experience Manager ワークフローを含むプロ
 
 このモジュールの接続用にWorkfrontでOAuth アプリケーションを設定する必要があります。 これは、Fusionの特定のWorkfront接続に対して1回だけ実行する必要があります。
 
-1. Workfrontで、OAuth アプリケーションの作成を開始します。「[!DNL Workfront]統合のOAuth2 アプリケーションの作成」の記事の「[ ユーザー資格情報（認証コードフロー） ](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow)を使用してOAuth2 アプリケーションを作成する」で説明されています。
+1. Workfrontで、OAuth アプリケーションの作成を開始します。「[!DNL Workfront]統合のOAuth2 アプリケーションの作成」の記事の「[&#x200B; ユーザー資格情報（認証コードフロー） &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow)を使用してOAuth2 アプリケーションを作成する」で説明されています。
 1. クライアント IDとクライアントシークレットを安全な場所にコピーします。
 1. 「**リダイレクト URI**」フィールドに、次のように入力します。
 
