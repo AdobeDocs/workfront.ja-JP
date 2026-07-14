@@ -11,19 +11,14 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: 1561
-ht-degree: 39%
+source-wordcount: 1591
+ht-degree: 38%
 
 ---
 
@@ -102,7 +97,7 @@ Remove production and preview references at release
 
 送信されたリクエストは、リクエスト エリアまたはホームのマイリクエストウィジェットで表示できます。
 
-マイリクエストについて詳しくは、[&#x200B; マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
+マイリクエストについて詳しくは、[ マイリクエストウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)を参照してください。
 
 送信されたリクエストの表示は、新しいリクエスト体験を使用しているか、従来のリクエスト体験を使用しているかによって異なります。
 
@@ -113,8 +108,7 @@ Remove production and preview references at release
 
 >[!NOTE]
 >
->* Workfront Planningがある場合は、WorkfrontとPlanning リクエストが同じリストに表示されます。
->     計画要求の&#x200B;**オブジェクトタイプ**&#x200B;には、次のパターンの名前が付けられます：`< Name of workspace > > < Name of record type >`。例えば、Planning リクエストのオブジェクトタイプには`Marketing workspace > Campaigns`という名前を付けることができます。\
+>* Workfront Planningがある場合は、WorkfrontとPlanning リクエストが同じリストに表示されます。Planning リクエストの&#x200B;**オブジェクトタイプ**&#x200B;には、次のパターンの名前が付けられます：`< Name of workspace > > < Name of record type >`。 例えば、Planning リクエストのオブジェクトタイプには`Marketing workspace > Campaigns`という名前を付けることができます。\
 >     Workfront リクエストの&#x200B;**オブジェクトタイプ**&#x200B;は`Issue`です。
 >* デフォルトでは、最大50件のリクエストがリクエスト領域のリストに表示されます。 その他のリクエストを表示するには、リストの一番下までスクロールします。
 
@@ -152,7 +146,7 @@ Remove production and preview references at release
 
    >[!IMPORTANT]
    >
-   >Workfront管理者は、**Setup**&#x200B;領域でWorkfront リクエストステータスの一部を設定できます。 詳しくは、[&#x200B; ステータスの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
+   >Workfront管理者は、**Setup**&#x200B;領域でWorkfront リクエストステータスの一部を設定できます。 詳しくは、[ ステータスの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
    >
    >Workfrontの一部のリクエストステータスと、すべてのプランニングリクエストのステータスは、Workfrontによってハードコーディングされています。 カスタマイズしたり、名前を変更したり、同じものを追加したりすることはできません。
 
@@ -166,9 +160,12 @@ Remove production and preview references at release
    * **進行中**:
       * Workfront リクエスト：リクエストが変換され、作業が進行中です。
       * Workfront計画リクエスト：リクエストの完了は特定の計画フィールドにマッピングされ、フィールド値はまだ完了値と一致しません。
-   * **保留中**：これはWorkfront リクエストに使用でき、ユーザーが手動で設定します。
-   * <span class="preview">**キャンセル済み**：これはWorkfront リクエスト用です。</span> <!--checking with Khach)-->
+   * **保留中**：これはWorkfront リクエストで使用できます。 ユーザーが手動で設定できます。
    * <span class="preview">**完了**: リクエストを完了する計画レコードが作成されました。 （計画のみ） </span>
+   <!--
+   This is not live yet; might be live for the unified intake process: 
+   * <span class="preview">**Canceled**: This is for Workfront requests.</span> 
+   -->
 
 ### 送信されたリクエストを従来のリクエスト体験で表示
 
@@ -229,7 +226,7 @@ Remove production and preview references at release
    >
    >送信済みリクエストのリストから移動したとき、選択された並べ替えオプションが保持されます。
 
-1. （オプション）リストでリクエストを選択し、**概要を開く** アイコン ![&#x200B; テキストで概要を開く](assets/open-summary-with-text-nwe.png)をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメント、ドキュメントを追加したり、割り当てたりします。 「概要」パネルについて詳しくは、[概要について](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
+1. （オプション）リストでリクエストを選択し、**概要を開く** アイコン ![ テキストで概要を開く](assets/open-summary-with-text-nwe.png)をクリックして概要パネルを開き、リクエストに関する追加情報を表示したり、コメント、ドキュメントを追加したり、割り当てたりします。 「概要」パネルについて詳しくは、[概要について](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
    >[!TIP]
    >
@@ -237,13 +234,13 @@ Remove production and preview references at release
    >
    >* 組織でAdobe クラウドストレージをドキュメントに使用している場合、概要パネルでAdobe クラウドストレージリクエストにドキュメントを追加することはできません。
    >
-   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
-1. （オプションおよび条件付き）右上隅の&#x200B;**X** アイコンまたは&#x200B;**概要を閉じる** アイコン ![概要をテキスト &#x200B;](assets/close-summary-with-text-nwe.png)で閉じる」をクリックして、概要パネルを閉じます。
+1. （オプションおよび条件付き）右上隅の&#x200B;**X** アイコンまたは&#x200B;**概要を閉じる** アイコン ![概要をテキスト ](assets/close-summary-with-text-nwe.png)で閉じる」をクリックして、概要パネルを閉じます。
 
    イシューがタスクまたはプロジェクトに変換され、変換処理でイシューが削除された場合、概要パネルは空白になります。 イシューの変換について詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
-1. リストの右上にある&#x200B;**フィルターアイコン** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)から、以下の表に示すフィルターのいずれかを選択します。
+1. リストの右上にある&#x200B;**フィルターアイコン** ![ フィルターアイコン ](assets/filter-nwepng.png)から、以下の表に示すフィルターのいずれかを選択します。
 
    >[!TIP]
    >
@@ -276,7 +273,7 @@ Remove production and preview references at release
     </tbody> 
    </table>
 
-1. （オプション）リストの上部にある&#x200B;**フィルターページ** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックして、リクエストを名前で検索します。 リストは、検索条件に一致する結果で更新されます。
+1. （オプション）リストの上部にある&#x200B;**フィルターページ** アイコン ![検索アイコン ](assets/search-icon.png)をクリックして、リクエストを名前で検索します。 リストは、検索条件に一致する結果で更新されます。
 
    <!--
 
