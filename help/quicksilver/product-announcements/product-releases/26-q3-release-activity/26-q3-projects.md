@@ -23,13 +23,13 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->プレビュー：2026年6月11日（PT）高速リリースの実稼動：2026年6月11日（PT）四半期リリースの生産：2026年6月11日（PT）スケジュール外]{type=Neutral}
+>プレビュー：2026年6月11日（PT）高速リリースの実稼動：2026年6月11日（PT）四半期リリースの生産：2026年6月11日（PT）スケジュール外&rbrack;{type=Neutral}
 
 組織で従来のWorkfront ストレージとAdobe クラウドストレージの両方を使用している場合、従来のストレージタスクをAdobe クラウドストレージプロジェクトに変換できるようになりました。この場合、ドキュメントとドキュメントの承認は、新しく作成したプロジェクトに転送するのではなく、親オブジェクトに残ります。
 
 以前は、タスクをプロジェクトに変換するには、同じストレージタイプを使用する必要がありました。
 
-詳しくは、[ タスクをプロジェクトに変換](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)を参照してください。
+詳しくは、[&#x200B; タスクをプロジェクトに変換](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md)を参照してください。
 
 ## 従来のストレージテンプレートを使用して、Adobe クラウドストレージプロジェクトを作成する
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 
 以前は、レガシーストレージテンプレートは、レガシーストレージプロジェクトの作成にのみ使用できました。
 
-詳しくは、[ プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。
+詳しくは、[&#x200B; プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。
 
 
 
