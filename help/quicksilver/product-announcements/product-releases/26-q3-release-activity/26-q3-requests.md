@@ -41,7 +41,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->プレビュー：2026年4月23日（PT）プロダクション高速リリース：2026年4月23日（PT）すべての人のための生産：2026年4月23日スケジュール外]{type=Neutral}
+>プレビュー：2026年4月23日（PT）プロダクション高速リリース：2026年4月23日（PT）すべての人のための生産：2026年4月23日スケジュール外&rbrack;{type=Neutral}
 
 リクエストリストをより適切に整理するために、リクエスト エリアのリクエストリストとホームのマイリクエストウィジェットに、次の事前定義済みビューを追加しました。
 
@@ -52,4 +52,4 @@ ht-degree: 7%
 
 Workfront管理者は、レイアウトテンプレートにビューを追加または削除できます。 ビューを編集、削除、共有することはできません。 それらをコピーして、コピーを更新または共有できます。
 
-詳しくは、「[ リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
+詳しくは、「[&#x200B; リクエスト領域でのビューの作成と管理](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)」を参照してください。
