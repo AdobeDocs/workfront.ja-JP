@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+source-git-commit: cf5c324a5dd527d498b5ccc32e1eb81ab3ea638f
 workflow-type: tm+mt
-source-wordcount: '14283'
+source-wordcount: '14290'
 ht-degree: 94%
 
 ---
@@ -1203,6 +1203,7 @@ ht-degree: 94%
       * [Adobe Cloud Driveの概要](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
       * [Adobe Cloud Driveのインストール](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
       * [Adobe Cloud Driveの使用](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+      * [Adobe Cloud Driveの設定と管理](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
       * [Adobe Cloud Driveのトラブルシューティング](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
    * Workfront と Experience Manager Assets の統合 {#wf-aem-integrations}
       * [Workfront と Experience Manager Assets の統合](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

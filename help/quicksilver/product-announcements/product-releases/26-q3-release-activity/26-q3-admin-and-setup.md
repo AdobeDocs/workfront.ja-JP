@@ -4,9 +4,9 @@ description: 2026年第3四半期：管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1334'
 ht-degree: 6%
 
 ---
@@ -121,7 +121,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->プレビュー：2026年6月11日（PT）すべての人のための制作：2026年6月11日
+>プレビュー：2026年6月11日（PT）すべての人のための制作：2026年6月11日スケジュール外&rbrack;{type=Neutral}
 
 Workfront管理者は、システム環境設定から直接、従来のストレージポートフォリオをAdobe クラウドストレージに変換できるようになりました。 ポートフォリオを変換するには、新しい「エンタープライズストレージに変換するポートフォリオを選択」フィールドでポートフォリオを選択し、ページを保存します。
 

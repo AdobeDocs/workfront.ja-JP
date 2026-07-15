@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: 1561
-ht-degree: 39%
+source-wordcount: 1591
+ht-degree: 38%
 
 ---
 
@@ -113,8 +113,7 @@ Remove production and preview references at release
 
 >[!NOTE]
 >
->* Workfront Planningがある場合は、WorkfrontとPlanning リクエストが同じリストに表示されます。
->     計画要求の&#x200B;**オブジェクトタイプ**&#x200B;には、次のパターンの名前が付けられます：`< Name of workspace > > < Name of record type >`。例えば、Planning リクエストのオブジェクトタイプには`Marketing workspace > Campaigns`という名前を付けることができます。\
+>* Workfront Planningがある場合は、WorkfrontとPlanning リクエストが同じリストに表示されます。Planning リクエストの&#x200B;**オブジェクトタイプ**&#x200B;には、次のパターンの名前が付けられます：`< Name of workspace > > < Name of record type >`。 例えば、Planning リクエストのオブジェクトタイプには`Marketing workspace > Campaigns`という名前を付けることができます。\
 >     Workfront リクエストの&#x200B;**オブジェクトタイプ**&#x200B;は`Issue`です。
 >* デフォルトでは、最大50件のリクエストがリクエスト領域のリストに表示されます。 その他のリクエストを表示するには、リストの一番下までスクロールします。
 
@@ -166,9 +165,12 @@ Remove production and preview references at release
    * **進行中**:
       * Workfront リクエスト：リクエストが変換され、作業が進行中です。
       * Workfront計画リクエスト：リクエストの完了は特定の計画フィールドにマッピングされ、フィールド値はまだ完了値と一致しません。
-   * **保留中**：これはWorkfront リクエストに使用でき、ユーザーが手動で設定します。
-   * <span class="preview">**キャンセル済み**：これはWorkfront リクエスト用です。</span> <!--checking with Khach)-->
+   * **保留中**：これはWorkfront リクエストで使用できます。 ユーザーが手動で設定できます。
    * <span class="preview">**完了**: リクエストを完了する計画レコードが作成されました。 （計画のみ） </span>
+   <!--
+   This is not live yet; might be live for the unified intake process: 
+   * <span class="preview">**Canceled**: This is for Workfront requests.</span> 
+   -->
 
 ### 送信されたリクエストを従来のリクエスト体験で表示
 

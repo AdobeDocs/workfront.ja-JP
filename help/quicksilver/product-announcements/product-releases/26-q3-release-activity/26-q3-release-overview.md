@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2919'
 ht-degree: 15%
 
 ---
@@ -357,9 +357,9 @@ ht-degree: 15%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">従来のストレージ タスクをAdobe クラウド ストレージ プロジェクトに変換</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
                 <p>組織で従来のWorkfront ストレージとAdobe クラウドストレージの両方を使用している場合、従来のストレージタスクをAdobe クラウドストレージプロジェクトに変換できるようになりました。</p>
             </td>
-            <td><p>2026年7月9日（PT）</p></td>
-            <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
+            <td><p>2026年6月11日（PT）</p></td>
         </tr>
         <tr>
             <td>
@@ -471,8 +471,8 @@ ht-degree: 15%
             <td><strong>四半期ごと</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">新しいリクエストステータスの紹介</a>
-                <p>リクエストの状態に関する詳細な情報を得るために、リクエストの新しいステータスである「新規」、「保留中」、「キャンセル済み」を導入します。 「完了」ステータスが「完了」に変更されました。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}"> レガシーと新しいエクスペリエンスの間でリクエストのステータスを一致させる</a>
+                <p>リクエストの正しい状態に関する詳細なコンテキストを取得するために、新しいリクエストエクスペリエンスのリクエストのステータスを更新しています。</p>
             </td>
             <td><p>2026年5月27日（PT）</p></td>
             <td><p>2026年6月11日（PT）</p></td>

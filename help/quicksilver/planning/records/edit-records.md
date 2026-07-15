@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
 workflow-type: tm+mt
-source-wordcount: 3158
+source-wordcount: 3175
 ht-degree: 26%
 
 ---
@@ -202,7 +202,19 @@ Old:
 1. （条件付き）テーブルビューのタブをクリックするか、「**+ 表示**」をクリックして、テーブルビューを作成します。 最後にアクセスしたときに別のタイプのビューでレコードタイプを表示した場合を除き、テーブルビューがデフォルトのビューになります。
 
    選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
+
 1. （オプション）検索ボックスをクリックし、キーワードを追加して、編集するレコードを見つけます。
+
+   <!--
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for records:
+    >
+    >* CTRL+K for Windows
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+    -->
 
 1. レコードの行内をクリックして、レコードに関する情報の編集をインラインで開始します。
 
@@ -279,8 +291,7 @@ Old:
 
    * **表示**&#x200B;または&#x200B;<span class="preview">**新しいタブで開く**</span>：これにより、レコードページが開きます。
    * **リンクをコピー**: レコードのページにリンクをコピーします。
-   * **サムネールを編集**: レコードにサムネールを追加するには、次の手順を実行します。
-詳しくは、[&#x200B; レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+   * **サムネールを編集**: レコードにサムネールを追加するには、次の手順を実行します。詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
    * **重複**：これにより、レコードの同一の複製が作成されます。
    * **上にレコードを挿入/下にレコードを挿入**：新しい行を追加して、新しいレコードを追加できます。 <span class="preview">これはプレビュー環境では使用できません。</span>
    * **削除**: レコードを削除します。 削除されたレコードは、「最近削除されたレコード」ボックスに最大30日間保存されます。

@@ -4,7 +4,7 @@ description: 2026年第3四半期プロジェクトの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->プレビュー：2026年7月9日（PT）高速リリースの実稼動：2026年8月13日（PT）四半期リリースの生産：2026年10月15日スケジュール外&rbrack;{type=Neutral}
+>プレビュー：2026年6月11日（PT）高速リリースの実稼動：2026年6月11日（PT）四半期リリースの生産：2026年6月11日（PT）スケジュール外&rbrack;{type=Neutral}
 
 組織で従来のWorkfront ストレージとAdobe クラウドストレージの両方を使用している場合、従来のストレージタスクをAdobe クラウドストレージプロジェクトに変換できるようになりました。この場合、ドキュメントとドキュメントの承認は、新しく作成したプロジェクトに転送するのではなく、親オブジェクトに残ります。
 
