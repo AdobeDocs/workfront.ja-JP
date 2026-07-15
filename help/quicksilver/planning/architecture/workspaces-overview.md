@@ -7,15 +7,12 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
 workflow-type: tm+mt
-source-wordcount: 516
-ht-degree: 25%
+source-wordcount: 608
+ht-degree: 21%
 
 ---
 
@@ -31,7 +28,7 @@ ht-degree: 25%
 
 <!--update screenshot with production, it was broken at Preview-->
 
-![Workspaces ランディングページ管理者アカウント &#x200B;](assets/workspaces-landing-page-admin-account.png)
+![Workspaces ランディングページ管理者アカウント ](assets/workspaces-landing-page-admin-account.png)
 
 ## ワークスペースに関する考慮事項
 
@@ -48,7 +45,7 @@ ht-degree: 25%
 
 * ワークスペースとは、組織部門（チーム、グループ、部門、部門）が作業をおこなうフレームワークのことです。 フィールドに関連付けることはできません。 フィールドに関連付けられるのは、ワークスペース内のレコードタイプのみです。
 
-  詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
+  詳しくは、[ レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 * ワークスペースは、プランニング領域の次のタブに表示されます。
 
    * **自分が所属するワークスペース**：作成したワークスペースまたは共有されているワークスペースを表示します。
@@ -57,7 +54,7 @@ ht-degree: 25%
 
   >[!NOTE]
   >
-  ><span class="preview"> サンプル ワークスペースを編集するのではなく、サンプル ワークスペースを参照して独自のワークスペースを作成することをお勧めします。 マルチワークスペーステンプレートバンドルを使用して、「サンプルワークスペース」タブにリストされているワークスペースと同じワークスペースを作成します。 詳しくは、[&#x200B; ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)の記事の「ベストプラクティスのマルチワークスペーステンプレートバンドルを使用した複数のワークスペースの作成」の節を参照してください。</span>
+  ><span class="preview"> サンプル ワークスペースを編集するのではなく、サンプル ワークスペースを参照して独自のワークスペースを作成することをお勧めします。 マルチワークスペーステンプレートバンドルを使用して、「サンプルワークスペース」タブにリストされているワークスペースと同じワークスペースを作成します。 詳しくは、[ ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)の記事の「ベストプラクティスのマルチワークスペーステンプレートバンドルを使用した複数のワークスペースの作成」の節を参照してください。</span>
 
 <!--
 No longer the case - they match now: 
@@ -87,3 +84,24 @@ No longer the case - they match now:
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * Workfront Planningのインスタンスで作成できるワークスペースオブジェクトの数には制限があります。 詳しくは、[Adobe Workfront計画オブジェクト制限の概要](/help/quicksilver/planning/general/limitations-overview.md)を参照してください。
+
+## グローバル検索の概要
+
+「計画」ランディングページでは、「グローバル検索」ボックスを使用して、次の計画オブジェクトを検索できます。
+
+* ワークスペース
+* レコードタイプ
+* ビュー
+
+![ グローバル検索ボックス ](assets/global-search-box.png)
+
+グローバル検索の使用については、次の点を考慮してください。
+
+* 次のキーボードの組み合わせを押すと、プランニング ランディングページまたは任意のプランニング ページから検索にアクセスできます。
+
+   * Windowsの場合はCTRL+K
+   * Macの⌘+K
+* 各オブジェクトの最後の7つの結果が検索ボックスに表示されます。
+* 一般的な検索を実行するか、オブジェクトを選択して個々のリストを検索できます。
+
+
