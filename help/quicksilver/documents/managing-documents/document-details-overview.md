@@ -10,11 +10,9 @@ exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/k4qFA-R7MGSh5NBTbJCeOEac5Z30PVxzO8rxLRJi23Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 474
 ht-degree: 23%
@@ -22,8 +20,6 @@ ht-degree: 23%
 ---
 
 # ドキュメントの詳細の概要
-
-{{highlighted-preview}}
 
 ドキュメントの詳細ページでは、Adobe Workfront オブジェクトに添付されたドキュメントのプロパティを表示、通信、管理できます。
 
@@ -64,7 +60,7 @@ ht-degree: 23%
 
   Workfront Proof でプルーフカスタムフィールドを設定する必要があります。 詳しくは、[Workfront Proof でのカスタムフィールドの作成と管理](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)を参照してください。
 
-![&#x200B; ドキュメントの詳細](assets/doc-details-full-legacy.png)
+![ ドキュメントの詳細](assets/doc-details-full-legacy.png)
 
 ### 従来のドキュメント領域でドキュメントの詳細ページを開きます
 
@@ -72,7 +68,7 @@ ht-degree: 23%
 
 1. ドキュメントにポインタを合わせ、「**ドキュメントの詳細**」をクリックします。
 
-   ![&#x200B; ドキュメントの詳細](assets/doc-details-legacy.png)
+   ![ ドキュメントの詳細](assets/doc-details-legacy.png)
 
 
 ## 新規ドキュメント領域
@@ -100,7 +96,7 @@ ht-degree: 23%
 </tr>
 </table>
 
-![&#x200B; ドキュメントの詳細メニューアイコン &#x200B;](assets/more-menu-new-doc.png)
+![ ドキュメントの詳細メニューアイコン ](assets/more-menu-new-doc.png)
 
 
 
@@ -109,10 +105,8 @@ ht-degree: 23%
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. ドキュメントを選択し、左側のサイドバーにある&#x200B;**詳細を表示**&#x200B;をクリックします。
 
-   ![&#x200B; ドキュメントの詳細](assets/doc-details.png)
+   ![ ドキュメントの詳細](assets/doc-details.png)
 
-
-<div class="preview">
 
 ### 新しいドキュメント領域の「概要を印刷」を表示します
 
@@ -121,7 +115,7 @@ ht-degree: 23%
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. ドキュメントを選択し、左側のサイドバーにある&#x200B;**詳細を表示**&#x200B;をクリックします。
 
-   ![&#x200B; ドキュメントの詳細](assets/doc-details.png)
+   ![ ドキュメントの詳細](assets/doc-details.png)
 
 1. **概要** セクションで、**印刷概要を開く**&#x200B;をクリックします。
 
@@ -130,5 +124,3 @@ ht-degree: 23%
 >
 >「概要を印刷」リンクは、文書に承認が追加された後にのみ表示されます。
 
-
-</div>
