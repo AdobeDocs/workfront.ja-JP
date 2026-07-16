@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 69%
@@ -72,7 +72,7 @@ ht-degree: 69%
 
 ### 最近使用した項目をお気に入りに追加
 
-1. 新しい[!DNL Adobe Workfront] エクスペリエンスのページの右上隅にある&#x200B;**[!UICONTROL 最近]** アイコン ![最近アイコン &#x200B;](assets/recents-icon-40x43.png)をクリックします。
+1. 新しい[!DNL Adobe Workfront] エクスペリエンスのページの右上隅にある&#x200B;**[!UICONTROL 最近]** アイコン ![最近アイコン &#x200B;](assets/recents-icon.png)をクリックします。
 1. お気に入りとして保存するアイテムの位置にある星をクリックします。 **お気に入り**&#x200B;メニューに表示される最近使用した項目。
 
    ![最近使用した項目をお気に入りに登録](assets/recents-section.png)
@@ -86,7 +86,7 @@ ht-degree: 69%
 
    >[!NOTE]
    >
-   >お気に入りとして既に追加したオブジェトの&#x200B;**[!UICONTROL お気に入り]**&#x200B;アイコンをクリックすると、そのオブジェクトは[!UICONTROL お気に入り]メニューから削除されます。\
+   >お気に入りとして既に追加したオブジェトの&#x200B;**[!UICONTROL お気に入り]**&#x200B;アイコンをクリックすると、そのオブジェクトは[!UICONTROL お気に入り]メニューから削除されます。
    >![お気に入りから削除](assets/nwe-remove-from-favorites-350x52.png)
 
 ## [!UICONTROL お気に入り]メニューから項目を削除

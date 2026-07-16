@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 92%
+source-wordcount: 404
+ht-degree: 82%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 92%
    <td> <p>このフィールドをカスタムフォームに追加する場合</p> 
     <ul> 
      <li>フィールドの表示ロジック、フォーム上の他のフィールド間での順序、フォーム上の必須フィールドかどうか、フォームから削除する機能など、フォーム関連の設定を編集できます。</li> 
-     <li>フィールドのラベル、名前、タイプなど、フィールドに関する設定は編集できません。</li> 
+     <li>フィールドのラベル、API名、タイプなどのフィールド関連の設定は編集できません。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ ht-degree: 92%
      <li>管理</li> 
      <li>編集可能なシステム全体</li> 
     </ul> </td> 
-   <td>カスタムフォームにフィールドを追加し、ラベル、名前、タイプなど、フィールド関連の設定を編集できます。</td> 
+   <td>フィールドをカスタムフォームに追加し、ラベル、API名、タイプなど、フィールドに関連する設定を編集できます。</td> 
   </tr> 
   <tr> 
    <td> 

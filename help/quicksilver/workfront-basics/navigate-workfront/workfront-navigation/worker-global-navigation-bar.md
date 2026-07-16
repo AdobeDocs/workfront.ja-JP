@@ -21,16 +21,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 481
-ht-degree: 87%
+source-wordcount: 466
+ht-degree: 90%
 
 ---
 
 # [!UICONTROL ワーク]ライセンスを持つユーザーのナビゲーションについて
-
-{{highlighted-preview}}
 
 [!UICONTROL メインメニュー]は、[!DNL Adobe Workfront] 管理者に割り当てられたアクセスレベルによって異なります。 デフォルトでは、自分のアクセスレベルで使用が許可される機能を含んだエリアへのアクセス権のみが付与されます。 各アクセスレベルのデフォルトレイアウトのコンポーネントについては、[デフォルトの [!DNL Adobe Workfront] レイアウトについて](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)を参照してください。
 
@@ -68,11 +66,7 @@ ht-degree: 87%
 
 * **[!UICONTROL ボード]**：目的の作業を反映した列とカードを含む共有ボードを使用して、チームメンバーとの柔軟性と共同作業を実現します。 詳しくは、[ボードの基本を学ぶ：記事インデックス](../../../agile/get-started-with-boards/get-started-with-boards.md)を参照してください。
 
-<span class="preview"> プレビュー環境のサンプル画像：</span>
 ![&#x200B; ワーカーのメインメニュー](assets/worker-main-menu-070626.png)
-
-実稼動環境のサンプル画像：
-![&#x200B; ワーカーのメインメニュー](assets/worker-main-menu-2026.png)
 
 ## デフォルトの[!UICONTROL メインメニュー]のカスタマイズ
 

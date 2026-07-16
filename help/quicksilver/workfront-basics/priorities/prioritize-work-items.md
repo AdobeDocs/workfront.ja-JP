@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 266
 ht-degree: 26%
@@ -78,7 +78,7 @@ ht-degree: 26%
    | **標準** | 通常は、緊急アイテムと優先度の高いアイテムが完了した後に作業する日常的な作業アイテムに使用されます。 これは、タスクとイシューのデフォルトです。 |
    | **低** | 「低」は、すぐに注意を払う必要がない作業項目を指し、優先度の高い作業項目がすべて完了するまで延期することができます。 |
 
-   ![自分のフォーカス &#x200B;](assets/my-focus-new.png)
+   ![自分のフォーカス &#x200B;](assets/my-focus-060226.png)
 
    >[!TIP]
    >

@@ -6,16 +6,14 @@ title: レートカードのテンプレートへの添付
 description: レートカードをテンプレートに割り当てると、そのレートカードは、テンプレートから作成されたすべてのプロジェクトに添付されます。
 author: Lisa
 feature: Work Management
-source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '644'
 ht-degree: 10%
 
 ---
 
 # レートカードのテンプレートへの添付
-
-{{highlighted-preview-article-level}}
 
 レートカードをテンプレートに割り当てると、そのレートカードは、テンプレートから作成されたすべてのプロジェクトに添付されます。 レートカードはプロジェクトのデフォルトになりますが、必要に応じて上書きできます。
 

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cc78767fd0cc3090f5de71f44c64c9696ce6a36b
 workflow-type: tm+mt
-source-wordcount: '2236'
-ht-degree: 63%
+source-wordcount: '2292'
+ht-degree: 61%
 
 ---
 # スニペット
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 手順 1 - 設定に進む {#step-1-to-setup}
 
-1. Adobe Workfrontの左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![&#x200B; セットアップアイコン &#x200B;](/help/_includes/assets/gear-icon-setup.png)をクリックします。
+1. Adobe Workfrontの左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL セットアップ]** ![&#x200B; セットアップアイコン &#x200B;](/help/_includes/assets/gear-icon-setup-2026.png)をクリックします。
 
 ## フォームデザイナーから一般公開 {#form-designer-default}
 
@@ -124,7 +124,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 手順 1 - ユーザーに進む {#step-1-to-users}
 
-1. Adobe Workfrontの左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL ユーザー]** ![&#x200B; ユーザーアイコン &#x200B;](/help/_includes/assets/users-icon-in-main-menu.png)をクリックします。
+1. Adobe Workfrontの左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックし、**[!UICONTROL ユーザー]** ![&#x200B; ユーザーアイコン &#x200B;](/help/_includes/assets/users-icon-in-main-menu-2026.png)をクリックします。
 
 
 <!-- Agile -->
@@ -295,11 +295,13 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe Workfront の追加機能である Adobe Workfront Planning に関するものです。
+>ここでは、Adobe Workfrontのパッケージまたはスタンドアロン製品として購入できるAdobe Workfront Planningについて説明します。
 >
->Workfront Planning へのアクセス要件のリストについて詳しくは、[Adobe Workfront Planning へのアクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
-> 
+>プランニングパッケージに含まれているすべての機能が、スタンドアロン製品として購入された場合に、Workfront Planningで利用できるわけではありません。
+>
 >Workfront計画の一般的な詳細については、[Adobe Workfront計画の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
+> 
+>スタンドアロン製品としてのWorkfront Planningについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 <!--
 Old - before Oct. 15, 2025:
@@ -476,7 +478,7 @@ OLD:
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 選択したユーザーがホームチームに関連付けられます。
-「完了」ボタンに関連するステータスを含む、チームの設定が、これらのユーザーに表示されるようになりました。
+これで「完了」ボタンに関連付けられたステータスを含むチーム設定が、これらのユーザーに対して表示されます。
 
 <!-- Timesheets -->
 

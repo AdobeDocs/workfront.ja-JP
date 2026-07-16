@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: カスタムフィールド、セクション区切り、またはウィジェットの追加または編集
-description: Adobe Workfront インスタンスでカスタムフォームで使用されるカスタムフィールド、セクション区切りまたはウィジェットのプロパティを編集できます。 これには、項目のラベル、名前、説明などが含まれます。
+description: Adobe Workfront インスタンスでカスタムフォームで使用されるカスタムフィールド、セクション区切りまたはウィジェットのプロパティを編集できます。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 46%
+source-wordcount: 400
+ht-degree: 42%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 46%
 
 カスタムフォームを開いてフィールドを作成することなく、Workfrontのフィールド領域から新しいカスタムフィールドまたはウィジェットを直接追加できます。
 
-カスタムフォームで使用されるカスタムフィールド、セクション区切り、ウィジェットのプロパティを編集することもできます。 これには、項目のラベル、名前、説明などが含まれます。
+カスタムフォームで使用されるカスタムフィールド、セクション区切り、ウィジェットのプロパティを編集することもできます。 これには、アイテムのラベル、API名、手順などが含まれます。
 
 カスタムフィールドを「非アクティブ」に設定すると、レポート、フィルター、ビューから除外され、カスタムフォームフィールドライブラリではフィールドを使用できなくなります。 すべての新しいフィールドは、デフォルトでアクティブに設定されます。
 

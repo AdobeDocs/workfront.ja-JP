@@ -3,7 +3,7 @@ title: カスタムフィールドとウィジェットの共有の設定
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: デフォルトでは、新しいカスタムフィールドまたはウィジェットをカスタムフォームに追加すると、カスタムフォームにアクセスできるシステム内の誰でも、その項目のラベルや名前などのプロパティを編集できます。 これを変更するには、共有相手を制御します。
+description: デフォルトでは、新しいカスタムフィールドまたはウィジェットをカスタムフォームに追加すると、カスタムフォームにアクセスできるシステム内の誰もが、その項目のラベルやAPI名などのプロパティを編集できます。 これを変更するには、共有相手を制御します。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -19,16 +19,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 744
-ht-degree: 49%
+source-wordcount: 746
+ht-degree: 39%
 
 ---
 
 # カスタムフィールドとウィジェットの共有の設定
 
-デフォルトでは、新しいカスタムフィールドまたはウィジェットをカスタムフォームに追加すると、カスタムフォームにアクセスできるシステム内の誰でも、その項目のラベルや名前などのプロパティを編集できます。 これを変更するには、共有相手を制御します。
+デフォルトでは、新しいカスタムフィールドまたはウィジェットをカスタムフォームに追加すると、カスタムフォームにアクセスできるシステム内の誰もが、その項目のラベルやAPI名などのプロパティを編集できます。 これを変更するには、共有相手を制御します。
 
 カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 

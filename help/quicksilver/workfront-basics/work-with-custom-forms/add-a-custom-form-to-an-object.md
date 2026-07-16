@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 747
-ht-degree: 87%
+source-wordcount: 770
+ht-degree: 85%
 
 ---
 
@@ -47,6 +47,13 @@ ht-degree: 87%
 * 反復
 * 費用
 * 請求記録
+* チーム
+
+Workflow Ultimate パッケージを使用している場合は、カスタムフォームを次の追加オブジェクトに添付できます。
+
+* 担当業務
+* レートカード
+* 割り当て
 
 カスタムフォームは、フォームが作成されたオブジェクトにのみ追加できます。
 

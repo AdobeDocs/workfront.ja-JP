@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 22%
+source-wordcount: 624
+ht-degree: 21%
 
 ---
 
@@ -175,7 +175,7 @@ Old:
   | 数値形式の単一行テキスト | 数値 |
   | 通貨形式の単一行テキスト | 通貨 |
   | 段落 | 段落 |
-  | 書式付きテキスト | 段落 |
+  | 書式付きリッチテキスト/テキスト | 段落 |
   | 単一選択ドロップダウン | 単一選択 |
   | 複数選択ドロップダウン | 複数選択 |
   | ユーザー先行入力フィルターはサポートされていません | ユーザー |

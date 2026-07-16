@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: 1713
-ht-degree: 9%
+source-wordcount: 1742
+ht-degree: 8%
 
 ---
 
@@ -86,9 +86,9 @@ at GA, check that the Workfront plans article linked below has Planning info
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p> 
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p> 
 または
-<p>任意のワークフローとプランニングパッケージ</p> 
+<p>スタンドアロンの製品パッケージとしてのWorkfront Planningは</p> 
  </tr>
 
 <tr> 

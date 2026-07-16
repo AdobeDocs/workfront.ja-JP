@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 99%
+source-wordcount: 381
+ht-degree: 86%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 99%
 
 次の表と図は、Workfront への主なアクセスレベルを示しています。
 
-| ライセンス | 関連付けられたアクセスレベル |
+| ワークフローライセンス | 関連付けられたアクセスレベル |
 |--- |--- |
 | 標準 | システム管理者、標準 |
 | ライト | ライト |
@@ -65,9 +65,9 @@ ht-degree: 99%
 
 ## ライセンス数
 
-ユーザーにアクセスレベルを割り当てると、使用可能なライセンス数が 1 つ減ります。
+ライセンスに関連付けられているアクセスレベルをユーザーに割り当てると、使用可能なライセンス数が1に減少します。
 
-例えば、標準のアクセスレベルをユーザーに割り当てると、使用可能な標準ライセンスの数が 1 つ減ります。
+例えば、Standardのワークフローライセンスに関連付けられているStandard アクセスレベルをユーザーに割り当てると、使用可能なStandard ライセンスの数が1に減少します。
 
 ユーザーに割り当てられているライセンスとアクセスレベルを表示できます。 詳しくは、[ユーザーのアクセスレベルとライセンスを一覧表示](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)を参照してください。
 

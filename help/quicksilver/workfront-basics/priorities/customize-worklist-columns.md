@@ -15,16 +15,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 3c02b27f652567e117daf1d1334874144317be81
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 431
 ht-degree: 14%
 
 ---
 
 # 「優先順位」ワークリスト列のカスタマイズ
-
-{{preview-fast-release-general}}
 
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
@@ -89,11 +87,7 @@ ht-degree: 14%
 
 1. 画面の左側にある&#x200B;**列**&#x200B;をクリックします。
 
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![列](assets/columns-new-060226.png)
-
-   実稼動環境のサンプル画像：
-   ![列](assets/columns-new.png)
 
 1. 切り替えスイッチを使用して、ワークリストの列を表示または非表示にします。
 
@@ -102,14 +96,12 @@ ht-degree: 14%
 {{step1-to-priorities}}
 
 1. 画面の左側にある&#x200B;**列**&#x200B;をクリックします。
-1. **ドラッグ** アイコンをクリックし、列を目的の場所に移動します。移動列は、ワークリスト内で自動的に更新されます。
+1. **ドラッグ** アイコンをクリックし、列を目的の場所に移動します。 移動列は、ワークリスト内で自動的に更新されます。
    ![列を並べ替え](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
 >「名前」列は固定されており、移動できません。
-
-<div class="preview">
 
 ### 列マネージャーを使用した列の追加と削除
 
@@ -123,8 +115,6 @@ ht-degree: 14%
    >リスト表示に追加できるのは、既存のフィールドのみです。 タスクとイシューのネイティブフィールドとカスタムフィールドの両方を列として追加できます。
 
 列マネージャーについて詳しくは、記事[拡張リストを使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)の「[列マネージャー](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)で列を追加および削除する」を参照してください。
-
-</div>
 
 ### 優先順位リストの行の高さを変更する
 
@@ -141,8 +131,6 @@ ht-degree: 14%
 
    リストはすぐに更新されます。
 
-<div class="preview">
-
 ## 優先順位リストのビューの管理
 
 ビューでは、プリセット設定を使用して、リスト内の列、フィルター、グループ化を定義します。
@@ -157,5 +145,3 @@ ht-degree: 14%
    ビューの変更は自動的に保存されます。 このビューを次回に適用しても、列とフィルターの設定は設定した方法のまま維持されます。
 
 ビューについて詳しくは、記事[強化リストを使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)の記事[強化リスト要素の更新](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#update-enhanced-list-elements)を参照してください。
-
-</div>

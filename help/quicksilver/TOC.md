@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: cf5c324a5dd527d498b5ccc32e1eb81ab3ea638f
+source-git-commit: 5d8ac684791c11607947de1ea3d1309ee0dfcaab
 workflow-type: tm+mt
-source-wordcount: '14290'
-ht-degree: 94%
+source-wordcount: '14340'
+ht-degree: 93%
 
 ---
 
@@ -2272,9 +2272,13 @@ ht-degree: 94%
       * [Adobe Workfront Planning と Adobe GenStudio for Performance Marketing の統合の基本を学ぶ](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Adobe Workfront Planning での GenStudio ワークスペースの管理](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * {hide-from-toc}[Workfront計画ワークスペースをGenStudioに昇格](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
-   * Adobe Workfront Planning スタンドアロン {#planning-standalone}
-      * {hide-from-toc}[Adobe Workfront Planning Standalone：記事インデックス &#x200B;](planning/planning-sta/planning-sta-article-index.md)
-      * {hide-from-toc}[Adobe Workfront Planning Standloneの基本を学ぶ](planning/planning-sta/get-started-with-planning-sta.md)
+   * スタンドアロン製品としてのAdobe Workfront Planning {#planning-standalone}
+      * [スタンドアロン製品としてのAdobe Workfront計画：記事インデックス](planning/planning-sta/planning-sta-article-index.md)
+      * [スタンドアロン製品としてAdobe Workfront Planningを使用する](planning/planning-sta/planning-sta-overview.md)
+      * [スタンドアロン製品としてのAdobe Workfront Planningに必要なアクセス](planning/planning-sta/access-needed-for-planning-sta.md)
+      * [Adobe Workfront Planningのインスタンスをスタンドアロン製品として管理する](planning/planning-sta/manage-planning-sta-instance.md)
+      * [Adobe Workfront Planningのユーザーをスタンドアロン製品として管理する](planning/planning-sta/manage-users-in-planning-sta.md)
+      * [スタンドアロン製品としてのAdobe Workfront Planningでのチーム管理](planning/planning-sta/manage-teams-in-planning-sta.md)
 * Adobe Workfront の統合 {#adobe-workfront-integrations}
    * [Adobe Workfront 統合](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront のビルトインの統合の概要](workfront-integrations-and-apps/built-in-integrations-non-admin.md)

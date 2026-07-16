@@ -15,18 +15,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2c815aa5a4873d2b6af79cee2183c502f05108b6
+source-git-commit: 96bd3d0995911ae32279972c891f92281ce7f0a1
 workflow-type: tm+mt
-source-wordcount: 711
-ht-degree: 53%
+source-wordcount: 697
+ht-degree: 54%
 
 ---
 
 # [!DNL Workfront] 向け [!DNL Adobe Unified Experience]
 
 <!--Audited: 10/2024-->
-
-{{highlighted-preview}}
 
 [!DNL Adobe CX Enterprise] を介して [!DNL Workfront] にアクセスすると、すべての [!DNL Adobe] アプリケーションを管理するためのシームレスで統一されたエクスペリエンスが得られます。 単一の Identity Managemen により、複数の URL やログイン ID を必要とせずに、1 つの場所でログインできます。
 
@@ -58,7 +56,7 @@ ht-degree: 53%
 
 組織の[!DNL Workfront]のインスタンスは、[!DNL Adobe Business Platform]または[!DNL Adobe Admin Console]にオンボーディングする必要があります。
 
-[!DNL Adobe Admin Console] のオンボーディングに関するご質問がある場合は、[[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/) を参照してください。
+[!DNL Adobe Admin Console] のオンボーディングに関するご質問がある場合は、[[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md) を参照してください。
 
 ## Identity Management方式（IMS）
 
@@ -100,11 +98,7 @@ Adobe Admin Consoleでのユーザー管理について詳しくは、[Adobe Adm
 * **レイアウト テンプレートの設定**：[!DNL Workfront]管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレート](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を使用して、[!UICONTROL メインメニュー]をカスタマイズする方法を参照してください。
 * **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定について詳しくは、「[Light] – ライセンスユーザー(/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)のナビゲーションについて」または「[Work] – ライセンスユーザー(/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)」のナビゲーションについて説明してください。
 
-<span class="preview"> プレビュー環境のサンプル画像：</span>
-![&#x200B; メインメニュー](assets/main-menu-options-2026.png)
-
-実稼動環境のサンプル画像：
-![メインメニュー](assets/main-menu-options-left-nav.png)
+![メインメニュー](assets/main-menu-options-2026.png)
 
 ## プロファイルと環境設定にアクセスする
 

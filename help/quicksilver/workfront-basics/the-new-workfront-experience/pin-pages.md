@@ -14,16 +14,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 48%
+source-wordcount: 348
+ht-degree: 58%
 
 ---
 
 # ページを固定してワークスペースをカスタマイズ
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -64,11 +62,7 @@ ht-degree: 48%
 
 1. ページの左上隅にある「**[!UICONTROL 現在のページをピン留め]**」をクリックします。 ピン留めされたページは、[!DNL Workfront] の任意のページの上部からアクセスできるようになりました。
 
-   <span class="preview"> プレビュー環境のサンプル画像：
    ![現在のページをピン留めする](assets/pin-current-page-button-2026.png)
-
-   実稼動環境のサンプル画像：
-   ![現在のページをピン留めする](assets/pin-current-page-button.png)
 
 ## ピン留めされたページにアクセスする
 
@@ -82,15 +76,9 @@ ht-degree: 48%
 
    多数のページをピン留めしている場合は、**[!UICONTROL 詳細]** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックして、ピン留めされた追加のページを表示します。
 
-   <span class="preview"> プレビュー環境のサンプル画像：
    ![現在のページをピン留めする](assets/display-pinned-pages-2026.png)
 
-   実稼動環境のサンプル画像：
-   ![追加のピン留めページを表示](assets/display-pinned-pages.png)
-
    ピン留めされたページが表示されます。
-
-<div class="preview">
 
 ## ピンの管理
 
@@ -107,36 +95,35 @@ ht-degree: 48%
 
 1. ピンの編集が終了したら、**閉じる**&#x200B;をクリックします。
 
-</div>
+<!--
+## Rename a pinned page
 
-## ピン留めされたページ名の変更
+1. Hover over the pinned page in the top navigation.
+1. Click the **More** icon ![More icon](assets/more-icon.png) that appears next to the pin name and select **[!UICONTROL Rename pin]**.
 
-1. 上部ナビゲーションのピン留めされたページにカーソルを合わせます。
-1. ピン名の横に表示される&#x200B;**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、「**[!UICONTROL ピン名を変更]**」を選択します。
+   ![Rename pin](assets/pin-menu.png)
 
-   ![ピン留めの名前を変更](assets/pin-menu.png)
+1. Type the new pin name, then click **Save**.
 
-1. 新しいピン名を入力し、**保存**&#x200B;をクリックします。
+   ![Click the check mark to rename pin](assets/rename-pin-dialog-box.png)
 
-   ![チェックマークをクリックして、ピン留めの名前を変更](assets/rename-pin-dialog-box.png)
+## Reorder pinned pages
 
-## ピン留めされたページを並べ替える
+You can rearrange the order that pinned pages appear.
 
-ピン留めされたページの表示順を並べ替えることができます。
+1. Hover over the pinned page you want to move, then click the **More** icon ![More icon](assets/more-icon.png).
+1. Choose **Move left** or **Move right** to move your pin. 
+1. (Optional) Choose **Move to front** to move your pin to the far-left position of the pin bar. 
 
-1. 移動するピン留めされたページにカーソルを合わせ、**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックします。
-1. **左に移動**&#x200B;または&#x200B;**右に移動**&#x200B;を選択して、ピンを移動します。
-1. （オプション）「**前に移動**」を選択して、ピンをピン バーの左端に移動します。
+   ![move pins](assets/pin-menu.png)
 
-   ![&#x200B; ピンの移動](assets/pin-menu.png)
+   Your changes automatically save and are remembered the next time you access Workfront.
 
-   変更内容は自動的に保存され、次回 Workfront にアクセスしたときに記憶されます。
+## Remove a pinned page
 
-## ピン留めされているページを削除する
+1. Click the **More** icon ![](assets/more-icon.png) next to the pin you want to remove.
+1. Click **Remove pin**. The page is no longer accessible from the top of any page in [!DNL Workfront].
 
-1. 削除するピンの横にある&#x200B;**詳細** アイコン ![](assets/more-icon.png)をクリックします。
-1. 「**ピンを削除**」をクリックします。 このページは、[!DNL Workfront] のどのページの上部からもアクセスできなくなります。
-
-   ![ピン留めを削除](assets/pin-menu.png)
-
+   ![Remove pin](assets/pin-menu.png)
+-->
 
