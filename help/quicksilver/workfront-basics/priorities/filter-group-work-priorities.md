@@ -7,11 +7,16 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
 TQID: https://experienceleague.adobe.com/PNUMhekotNpz3n3bmmwWdH6fRL1-6b0T0PNwQIeR8Eg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 663
@@ -182,7 +187,7 @@ ht-degree: 14%
 
 1. **ステータス**&#x200B;または&#x200B;**自分のフォーカス**&#x200B;で作業をグループ化します。
 2. 作業項目にカーソルを合わせて&#x200B;**ドラッグ** アイコンをクリックし、目的のカテゴリに移動します。
-   ![ ドラッグ アイコン ](assets/drag-and-drop.png)
+   ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-and-drop.png)
 
 ## 作品の並べ替え
 
@@ -190,7 +195,7 @@ ht-degree: 14%
 
 グループ内で作業を並べ替えるには、**グループ化**&#x200B;を開き、昇順または降順で並べ替えるかどうかを選択します。
 
-![ グループで並べ替え](assets/sort-in-groups.png)
+![&#x200B; グループで並べ替え](assets/sort-in-groups.png)
 
 ### 列を並べ替え
 
@@ -202,4 +207,4 @@ ht-degree: 14%
 
 すべてのグループセクションを展開または折りたたむには、**グループ**&#x200B;を開き、グループ化が折りたたまれている場合は「**すべて展開**」、グループ化が展開されている場合は「**すべて折りたたむ**」をクリックします。
 
-![ グループを展開または折りたたむ](assets/expand-collapse-groups.png)
+![&#x200B; グループを展開または折りたたむ](assets/expand-collapse-groups.png)
