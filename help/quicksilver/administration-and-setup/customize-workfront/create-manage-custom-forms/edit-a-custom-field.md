@@ -3,27 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: カスタムフィールド、セクション区切り、またはウィジェットの追加または編集
-description: Adobe Workfront インスタンスでカスタムフォームで使用されるカスタムフィールド、セクション区切りまたはウィジェットのプロパティを編集できます。 これには、項目のラベル、名前、説明などが含まれます。
+description: Adobe Workfront インスタンスでカスタムフォームで使用されるカスタムフィールド、セクション区切りまたはウィジェットのプロパティを編集できます。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
 TQID: https://experienceleague.adobe.com/ShPo7xQopsQS5j61ofqDw1UUohRdtzgxCmzm1KrFuYg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 46%
+source-wordcount: 400
+ht-degree: 42%
 
 ---
 
@@ -31,7 +25,7 @@ ht-degree: 46%
 
 カスタムフォームを開いてフィールドを作成することなく、Workfrontのフィールド領域から新しいカスタムフィールドまたはウィジェットを直接追加できます。
 
-カスタムフォームで使用されるカスタムフィールド、セクション区切り、ウィジェットのプロパティを編集することもできます。 これには、項目のラベル、名前、説明などが含まれます。
+カスタムフォームで使用されるカスタムフィールド、セクション区切り、ウィジェットのプロパティを編集することもできます。 これには、アイテムのラベル、API名、手順などが含まれます。
 
 カスタムフィールドを「非アクティブ」に設定すると、レポート、フィルター、ビューから除外され、カスタムフォームフィールドライブラリではフィールドを使用できなくなります。 すべての新しいフィールドは、デフォルトでアクティブに設定されます。
 
@@ -39,9 +33,9 @@ ht-degree: 46%
 >
 >既存のフィールドを非アクティブにすると、その時点からレポート要素やカスタムフォームで使用できなくなります。 非アクティブなフィールドが現在レポートまたはフォームで使用されている場合、そのフィールドと履歴データはそのまま残ります。
 
-カスタムフォームからカスタムフィールドを削除した場合、そのカスタムフィールドは追加された他のすべてのフォームにまだ存在し、フォームまたはフィールド領域で編集できます。 フィールドの削除について詳しくは、[&#x200B; カスタムフィールドまたはウィジェットをシステムから削除](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)を参照してください。
+カスタムフォームからカスタムフィールドを削除した場合、そのカスタムフィールドは追加された他のすべてのフォームにまだ存在し、フォームまたはフィールド領域で編集できます。 フィールドの削除について詳しくは、[ カスタムフィールドまたはウィジェットをシステムから削除](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)を参照してください。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## アクセス要件
 
@@ -80,7 +74,7 @@ ht-degree: 46%
 1. **新しいカスタムフィールド**&#x200B;をクリックします。
 1. 表示されるボックスに、追加する項目の必須およびオプション情報を入力します。
 
-   詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 「**作成**」をクリックします。
 
@@ -93,7 +87,7 @@ ht-degree: 46%
 1. カスタムフィールド、セクション区切りまたはウィジェットを選択し、![編集アイコン](assets/edit-icon.png) をクリックします。
 1. 表示されるボックスで、編集中の項目に対して使用可能なオプションを変更します。
 
-   詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 完了したら、**編集**&#x200B;をクリックします。
 

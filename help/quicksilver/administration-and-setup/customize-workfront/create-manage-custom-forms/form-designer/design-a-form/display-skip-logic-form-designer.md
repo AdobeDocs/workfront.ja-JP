@@ -9,27 +9,19 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 TQID: https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 3610
+source-wordcount: 3613
 ht-degree: 28%
 
 ---
 
 # カスタムフォームおよびフィールドへの論理ルールの追加
-
-{{highlighted-preview}}
 
 ロジックルールを使用すると、フォームのフィールドをさらにカスタマイズできます。
 
@@ -79,15 +71,15 @@ ht-degree: 28%
 | ![ターゲットフィールドのロジックを表示](assets/display-logic-bottom-right.png) | フィールドは、表示ロジックが適用されるターゲットフィールドです。 フォーム上で特定の選択が行われた場合は、このフィールドが表示されます。 |
 | ![参照フィールドのロジック アイコンを表示](assets/display-logic-bottom-left.png) | フィールドは、表示ロジックの参照フィールドです。 このフィールドで特定の選択または値を指定すると、ターゲットフィールドが表示されます。 |
 | ![ターゲットフィールドのロジックをスキップ](assets/skip-logic-bottom-right.png) | このフィールドは、スキップロジックが適用されるターゲットフィールドです。 このフィールドの特定の選択範囲または値は、他のフィールドをスキップして、参照フィールドに直接移動します。 |
-| ![参照フィールドの論理アイコンをスキップ &#x200B;](assets/skip-logic-bottom-left.png) | このフィールドは、スキップロジックの参照フィールドです。 ターゲットフィールドで特定の選択が行われた場合、フォームはこのフィールドにスキップし、その間のフィールドは非表示になります。 |
-| ![&#x200B; ターゲットフィールドの検証ロジック &#x200B;](assets/validation-logic-icon.png) | フィールドは、検証ロジックが適用されるターゲットフィールドです。 参照フィールドの特定の選択または値によって、検証が失敗するかどうかが決まります。 ターゲットフィールドと参照フィールドは、検証ロジックで同じにすることができます。 |
-| ![参照フィールドの検証ロジック &#x200B;](assets/validation-logic-reference-field.png) | フィールドは、検証ロジックの参照フィールドです。 このフィールドの特定の選択または値は、ターゲットフィールドで検証が失敗するかどうかを決定します。 ターゲットフィールドと参照フィールドは、検証ロジックで同じにすることができます。 |
-| ![&#x200B; ターゲットフィールドのデフォルト値ロジック &#x200B;](assets/default-value-logic-icon.png) | フィールドは、デフォルト値ロジックが適用されるターゲットフィールドです。 参照フィールドの特定の選択範囲または値によって、デフォルト値が決まります。 ターゲットフィールドと参照フィールドは、デフォルト値ロジックで同じにすることができます。 |
-| ![参照フィールドのデフォルト値ロジック &#x200B;](assets/default-value-logic-reference-field.png) | フィールドは、デフォルト値ロジックの参照フィールドです。 このフィールドの特定の選択範囲または値によって、ターゲットフィールドのデフォルト値が決まります。 ターゲットフィールドと参照フィールドは、デフォルト値ロジックで同じにすることができます。 |
-| ![&#x200B; ターゲットフィールドのロジックの書式設定](assets/formatting-logic-icon.png) | このフィールドは、書式設定ロジックが適用されるターゲットフィールドです。 参照フィールドの特定の選択範囲または値によって、書式設定が決まります。 ターゲットフィールドと参照フィールドは、ロジックをフォーマットする場合と同じにすることができます。 |
-| ![参照フィールドの書式設定ロジック &#x200B;](assets/formatting-logic-reference-field.png) | フィールドは、ロジックをフォーマットするための参照フィールドです。 このフィールドの特定の選択範囲または値によって、ターゲットフィールドの書式が決まります。 ターゲットフィールドと参照フィールドは、ロジックをフォーマットする場合と同じにすることができます。 |
-| ![&#x200B; ターゲットフィールドの編集可能性ロジック &#x200B;](assets/editability-logic-icon.png) | フィールドは、編集可能ロジックが適用されるターゲットフィールドです。 定義された条件を満たす場合、フィールドは編集可能または読み取り専用になります。 ターゲットフィールドと参照フィールドは、編集可能ロジックに対して同じにすることができます。 |
-| ![参照フィールドの編集可能性ロジック &#x200B;](assets/editability-logic-reference-field.png) | フィールドは、編集可能ロジックの参照フィールドです。 定義された条件がこのフィールドで満たされると、ロジックはターゲットフィールドに適用されます。 ターゲットフィールドと参照フィールドは、編集可能ロジックに対して同じにすることができます。 |
+| ![参照フィールドの論理アイコンをスキップ ](assets/skip-logic-bottom-left.png) | このフィールドは、スキップロジックの参照フィールドです。 ターゲットフィールドで特定の選択が行われた場合、フォームはこのフィールドにスキップし、その間のフィールドは非表示になります。 |
+| ![ ターゲットフィールドの検証ロジック ](assets/validation-logic-icon.png) | フィールドは、検証ロジックが適用されるターゲットフィールドです。 参照フィールドの特定の選択または値によって、検証が失敗するかどうかが決まります。 ターゲットフィールドと参照フィールドは、検証ロジックで同じにすることができます。 |
+| ![参照フィールドの検証ロジック ](assets/validation-logic-reference-field.png) | フィールドは、検証ロジックの参照フィールドです。 このフィールドの特定の選択または値は、ターゲットフィールドで検証が失敗するかどうかを決定します。 ターゲットフィールドと参照フィールドは、検証ロジックで同じにすることができます。 |
+| ![ ターゲットフィールドのデフォルト値ロジック ](assets/default-value-logic-icon.png) | フィールドは、デフォルト値ロジックが適用されるターゲットフィールドです。 参照フィールドの特定の選択範囲または値によって、デフォルト値が決まります。 ターゲットフィールドと参照フィールドは、デフォルト値ロジックで同じにすることができます。 |
+| ![参照フィールドのデフォルト値ロジック ](assets/default-value-logic-reference-field.png) | フィールドは、デフォルト値ロジックの参照フィールドです。 このフィールドの特定の選択範囲または値によって、ターゲットフィールドのデフォルト値が決まります。 ターゲットフィールドと参照フィールドは、デフォルト値ロジックで同じにすることができます。 |
+| ![ ターゲットフィールドのロジックの書式設定](assets/formatting-logic-icon.png) | このフィールドは、書式設定ロジックが適用されるターゲットフィールドです。 参照フィールドの特定の選択範囲または値によって、書式設定が決まります。 ターゲットフィールドと参照フィールドは、ロジックをフォーマットする場合と同じにすることができます。 |
+| ![参照フィールドの書式設定ロジック ](assets/formatting-logic-reference-field.png) | フィールドは、ロジックをフォーマットするための参照フィールドです。 このフィールドの特定の選択範囲または値によって、ターゲットフィールドの書式が決まります。 ターゲットフィールドと参照フィールドは、ロジックをフォーマットする場合と同じにすることができます。 |
+| ![ ターゲットフィールドの編集可能性ロジック ](assets/editability-logic-icon.png) | フィールドは、編集可能ロジックが適用されるターゲットフィールドです。 定義された条件を満たす場合、フィールドは編集可能または読み取り専用になります。 ターゲットフィールドと参照フィールドは、編集可能ロジックに対して同じにすることができます。 |
+| ![参照フィールドの編集可能性ロジック ](assets/editability-logic-reference-field.png) | フィールドは、編集可能ロジックの参照フィールドです。 定義された条件がこのフィールドで満たされると、ロジックはターゲットフィールドに適用されます。 ターゲットフィールドと参照フィールドは、編集可能ロジックに対して同じにすることができます。 |
 
 ![ロジックアイコン](assets/custom-form-logic-icon-samples.png)
 
@@ -97,7 +89,8 @@ ht-degree: 28%
 
 ## 表示ロジックとスキップロジックの使用に関する考慮事項
 
-* カスタムフィールド、ウィジェットまたはセクション区切りに表示ロジックを追加するには、フォーム上で、1 つ以上の複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）をその前に配置する必要があります。カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+* カスタムフィールド、ウィジェットまたはセクション区切りに表示ロジックを追加するには、フォーム上で、1 つ以上の複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）をその前に配置する必要があります。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 * スキップロジックはウィジェットやセクション区切りに追加することはできません。 追加できるのは、複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）のみです。
 * 表示またはスキップロジックを適用して、マルチオプションフィールドの選択肢を表示または非表示にすることはできません。 例えば、別のフィールドの表示またはスキップロジックに基づいて、ドロップダウン、チェックボックスグループ、ラジオボタンのフィールドに表示される選択肢を制限することはできません。
 * カスタムフィールドに関して、次の内容がすべてが該当する場合、カスタムフィールドには表示ロジックとスキップロジックの両方を追加できます。
@@ -120,12 +113,12 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->この手順では、表示ロジックの基本モードについて説明します。 高度な表示ロジックも使用できます。 詳細については、この記事の「[&#x200B; カスタムフォームに高度な表示ロジックを追加する](#add-advanced-display-logic-to-a-custom-form)」を参照してください。
+>この手順では、表示ロジックの基本モードについて説明します。 高度な表示ロジックも使用できます。 詳細については、この記事の「[ カスタムフォームに高度な表示ロジックを追加する](#add-advanced-display-logic-to-a-custom-form)」を参照してください。
 
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。 少なくとも1つの複数選択フィールド（ラジオボタン、ドロップダウン、チェックボックス）が、表示されるターゲットフィールドの前に配置されていなければなりません。
 1. ターゲットフィールドを選択し、**ロジックを追加**&#x200B;をクリックします。
 1. ロジックビルダーの「**表示**」タブを選択します。
@@ -150,11 +143,11 @@ ht-degree: 28%
 
 ## カスタムフォームへの高度な表示ロジックの追加
 
-カスタムフォームフィールドの高度な表示ロジックを使用すると、数式を使用して複雑なロジックを作成できます。 このロジックは、次のフィールドタイプに適用できます。1行テキスト、段落、書式付きテキスト、単一選択ドロップダウン、複数選択ドロップダウン、外部参照、複数選択外部参照、ネイティブフィールド参照、先行入力、計算、日付、チェックボックスグループ、ラジオボタン。
+カスタムフォームフィールドの高度な表示ロジックを使用すると、数式を使用して複雑なロジックを作成できます。 このロジックは、次のフィールドタイプに適用できます：単一行テキスト、段落、リッチテキスト、単一選択ドロップダウン、複数選択ドロップダウン、外部参照、複数選択外部参照、ネイティブフィールド参照、内部参照、計算、日付、チェックボックスグループ、ラジオボタン。
 
 >[!NOTE]
 >
->この手順では、表示ロジックの詳細モードについて説明します。 基本的な表示ロジックも使用できます。 詳しくは、この記事の「[&#x200B; カスタムフォームに表示ロジックを追加する](#add-display-logic-to-a-custom-form)」を参照してください。
+>この手順では、表示ロジックの詳細モードについて説明します。 基本的な表示ロジックも使用できます。 詳しくは、この記事の「[ カスタムフォームに表示ロジックを追加する](#add-display-logic-to-a-custom-form)」を参照してください。
 
 ### 例
 
@@ -168,7 +161,7 @@ ht-degree: 28%
 
 `123abc`はリソース マネージャーの役割IDを表します。
 
-役割![&#128279;](assets/advanced-display-on-form1.png)に対して表示される フォームセクション
+役割](assets/advanced-display-on-form1.png)に対して表示される![ フォームセクション
 
 異なる役割IDを持つ同じ条件が「プロジェクト財務KPI」セクションに適用され、Financial Advisor役割のみがセクションを表示できることを定義します。
 
@@ -176,14 +169,14 @@ ht-degree: 28%
 
 `IF({status}="CPL", true)`
 
-![&#x200B; フィールドは完全なプロジェクト &#x200B;](assets/advanced-display-on-form2.png)に表示されます
+![ フィールドは完全なプロジェクト ](assets/advanced-display-on-form2.png)に表示されます
 
 ### 高度な表示ロジックの定義
 
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。
 1. ロジックを適用するフィールドを選択し、**ロジックを追加**&#x200B;をクリックします。
 1. ロジックビルダーの「**表示**」タブを選択します。
@@ -191,7 +184,7 @@ ht-degree: 28%
 
    表示ロジックのシンプル モードをサポートしていないフィールドタイプの場合、このオプションは自動的にオンにされる場合があります。
 
-   ![表示ロジックの詳細モード &#x200B;](assets/advanced-display-logic-blank-editor.png)
+   ![表示ロジックの詳細モード ](assets/advanced-display-logic-blank-editor.png)
 
 1. エディターで表示条件を作成します。
 
@@ -212,7 +205,7 @@ ht-degree: 28%
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。 スキップロジックの定義フィールドは、複数選択フィールド（ラジオボタン、ドロップダウン、チェックボックス）である必要があります。
 1. 定義フィールドを選択し、画面左下の「**ロジックを追加**」をクリックします。
 1. ロジックビルダーの「**スキップ**」タブを選択します。
@@ -239,7 +232,7 @@ ht-degree: 28%
 
 デフォルト値ロジックを使用すると、数式を使用してカスタムフォームフィールドのデフォルト値を設定できます。 定義された条件が満たされると、デフォルト値が表示されます。 デフォルト値は、静的な値でも、オブジェクト内の他のフィールドを参照する動的な値でもかまいません。 デフォルト値は他のフィールドを参照できますが、フォーム上の他のフィールドが変更しても変更されません。
 
-高度なデフォルト値ロジックは、次のフィールドタイプに適用できます：単一行テキスト、段落、単一選択ドロップダウン、複数選択ドロップダウン、外部参照、複数選択外部参照、<span class="preview"> ネイティブフィールド参照</span>、先行入力、チェックボックスグループ、ラジオボタン。
+高度なデフォルト値ロジックは、次のフィールドタイプに適用できます。1行テキスト、段落、1選択ドロップダウン、複数選択ドロップダウン、外部参照、複数選択外部参照、ネイティブフィールド参照、内部参照、チェックボックスグループ、ラジオボタン。
 
 >[!TIP]
 >
@@ -247,9 +240,9 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->フォームデザイナーの標準のデフォルト値ロジックは引き続き存在します。 両方のタイプが同じフィールドに適用されている場合は、高度なロジックが優先されます。 標準のデフォルト値ロジックについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の[&#x200B; ラジオボタン、チェックボックスグループ、ドロップダウンの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)を参照してください。
+>フォームデザイナーの標準のデフォルト値ロジックは引き続き存在します。 両方のタイプが同じフィールドに適用されている場合は、高度なロジックが優先されます。 標準のデフォルト値ロジックについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の[ ラジオボタン、チェックボックスグループ、ドロップダウンの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)を参照してください。
 >
-><span class="preview"> ネイティブ参照フィールドの場合、デフォルト値ロジックはユーザーインターフェイスでのみ使用でき、Workfront APIでは使用できません。</span>
+>ネイティブ参照フィールドの場合、デフォルト値ロジックはWorkfront APIではなく、ユーザーインターフェイスでのみ使用できます。
 
 ### 例
 
@@ -264,12 +257,12 @@ IF({status} = 'PLN', ARRAY({description}, ','))
 ### デフォルト値ロジックの定義
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。
 1. ロジックを適用するフィールドを選択し、**ロジックを追加**&#x200B;をクリックします。
 1. ロジックビルダーの「**デフォルト値**」タブを選択します。
 
-   ![&#x200B; デフォルト値ロジック ビルダー](assets/default-value-blank-editor.png)
+   ![ デフォルト値ロジック ビルダー](assets/default-value-blank-editor.png)
 
 1. エディターでデフォルト値の条件を作成します。
 
@@ -289,7 +282,7 @@ IF({status} = 'PLN', ARRAY({description}, ','))
 
 ユーザーがカスタムフォームに入力したときに、ロジックが適用されたフィールドが定義された検証条件を満たす場合、そのフィールドが強調表示され、エラーメッセージが表示されます。
 
-検証ロジックは、次のフィールドタイプに適用できます。1行テキスト、段落、1選択ドロップダウン、複数選択ドロップダウン、外部参照、複数選択外部参照、先行入力、日付、チェックボックスグループ、ラジオボタン。
+検証ロジックは、次のフィールドタイプに適用できます。1行テキスト、段落、1選択ドロップダウン、複数選択ドロップダウン、外部参照、複数選択外部参照、内部参照、日付、チェックボックスグループ、ラジオボタン。
 
 ### 例
 
@@ -306,14 +299,14 @@ IF({DE:Budget Field} < 0,
 
 他のフィールドに基づく検証の追加の例として、会議室のサイズ（小、中、大）のフィールドと、会議出席者の数の別のフィールドがあります。 各部屋サイズの人数は、検証式に記載されています。 選択した会議室に対してユーザーが入力する参加者の数が多すぎる場合は、エラーメッセージが表示されます。
 
-検証ロジックのその他の例については、[&#x200B; カスタムフォームの高度なロジックの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)を参照してください。
+検証ロジックのその他の例については、[ カスタムフォームの高度なロジックの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)を参照してください。
 
 ### 検証ロジックの定義
 
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。
 1. ロジックを適用するフィールドを選択し、**ロジックを追加**&#x200B;をクリックします。
 1. ロジックビルダーの「**検証**」タブを選択します。
@@ -336,9 +329,9 @@ IF({DE:Budget Field} < 0,
 
 書式設定ロジックは、定義された条件を満たすフィールド値を強調表示します。 適用された書式設定は、一度に複数のフィールドで機能します。
 
-書式設定ロジックは、次のフィールドタイプに適用できます。1行テキスト、段落、単一選択ドロップダウン、複数選択ドロップダウン、外部参照、複数選択外部参照、先行入力、計算日、チェックボックスグループ、ラジオボタン。
+書式設定ロジックは、次のフィールドタイプに適用できます。1行テキスト、段落、単一選択ドロップダウン、複数選択ドロップダウン、外部参照、複数選択外部参照、内部参照、計算済み、日付、チェックボックスグループ、ラジオボタン。
 
-カスタムフォームに適用される書式設定は、リストやレポートに適用される書式設定とは異なります。 レポートの書式設定について詳しくは、[&#x200B; ビューでの条件付き書式設定の使用](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)を参照してください。
+カスタムフォームに適用される書式設定は、リストやレポートに適用される書式設定とは異なります。 レポートの書式設定について詳しくは、[ ビューでの条件付き書式設定の使用](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)を参照してください。
 
 ### 例
 
@@ -359,12 +352,12 @@ IF(
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。
 1. ロジックを適用するフィールドを選択し、**ロジックを追加**&#x200B;をクリックします。
 1. ロジックビルダーの「**書式設定**」タブを選択します。
 
-   ![&#x200B; ロジックビルダーの書式設定](assets/formatting-logic-blank-editor.png)
+   ![ ロジックビルダーの書式設定](assets/formatting-logic-blank-editor.png)
 
 1. エディターで書式設定条件を作成します。
 
@@ -399,7 +392,7 @@ IF(
 
 編集可能性ロジックは、カスタムフォームフィールドを編集できるかどうか、または読み取り専用かどうかを決定します。 このロジックは数式を使用して構築され、フィールドが定義された条件を満たした場合、編集可能または読み取り専用として設定できます。
 
-編集ロジックは、次のフィールドタイプに適用できます。1行テキスト、段落、書式付きテキスト、単一選択ドロップダウン、複数選択ドロップダウン、外部参照、複数選択外部参照、先行入力、日付、チェックボックスグループ、ラジオボタン。
+編集ロジックは、次のフィールドタイプに適用できます。1行テキスト、段落、リッチテキスト、単一選択ドロップダウン、複数選択ドロップダウン、外部参照、複数選択外部参照、内部参照、日付、チェックボックスグループ、ラジオボタン。
 
 ### 例
 
@@ -426,7 +419,7 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+1. 新規カスタムフォームを作成するか、既存のフォームを開きます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 1. 必要に応じて、フォームにフィールドを追加します。
 1. ロジックを適用するフィールドを選択し、**ロジックを追加**&#x200B;をクリックします。
 1. ロジックビルダーの「**編集可能性**」タブを選択します。

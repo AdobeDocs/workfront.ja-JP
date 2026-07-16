@@ -9,19 +9,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: caf889d6-08a3-4186-9d9c-3cea3a0e4548
 TQID: https://experienceleague.adobe.com/cco-UwmTpDJ4bc6KvTM2BgRmvudLZveRY5WmpbhsnqM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: 745
 ht-degree: 6%
 
 ---
@@ -32,7 +27,7 @@ ht-degree: 6%
 
 この記事では、カスタムフィールドで高度なロジックを構築するために使用される式の例を示します。
 
-カスタムフォームへのロジックの追加について詳しくは、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
+カスタムフォームへのロジックの追加について詳しくは、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)を参照してください。
 
 ## アクセス要件
 
@@ -68,7 +63,7 @@ ht-degree: 6%
 
 ユーザーがカスタムフォームに入力したときに、ロジックが適用されたフィールドが定義された検証条件を満たす場合、そのフィールドが強調表示され、エラーメッセージが表示されます。
 
-検証ロジックは、次のフィールドタイプに適用できます。1行のテキスト、段落、単一選択ドロップダウン、複数選択ドロップダウン、外部参照、先行入力、日付、チェックボックスグループ、ラジオボタン。
+検証ロジックは、次のフィールドタイプに適用できます。1行テキスト、段落、1選択ドロップダウン、複数選択ドロップダウン、外部参照、内部参照、日付、チェックボックスグループ、ラジオボタン。
 
 ### プロジェクト所有者のみが「ラッシュ」SLAを選択できるようにする
 
@@ -82,7 +77,7 @@ IF({ownerID}!=$$USER&&{DE:DV - Dropdown - Control Dates}="2",CONCAT("Only ",{own
 
 プロジェクト所有者（システム管理者を含む）でないユーザーが&#x200B;**X Rush**&#x200B;を選択しようとすると、エラーが表示されます。
 
-![&#x200B; プロジェクトオーナーのClaire StevensのみがX Rush](assets/sla-xrush.png)を選択できます
+![ プロジェクトオーナーのClaire StevensのみがX Rush](assets/sla-xrush.png)を選択できます
 
 ### 前のフィールドの選択に基づく日付の検証
 
@@ -114,7 +109,7 @@ IF({DE:DV - Override}!="Disable Validation"&&LEN({DE:DV - Text - Min Length})<"7
 
 検証の適用は、次のチェックボックスを選択して上書きできます。
 
-![検証を無効にするチェックボックス &#x200B;](assets/disable-validation-checkbox.png)
+![検証を無効にするチェックボックス ](assets/disable-validation-checkbox.png)
 
 テキストフィールドには、実行中の文字数が含まれます。
 
@@ -134,9 +129,9 @@ IF({ownerID}!=$$USER,IF(ISBLANK({ownerID}),"Project Owner will provide this.",CO
 
 ![このフィールドを編集できるのはClaire Stevensのみです](assets/only-project-owner-can-edit.png)
 
-### Typeaheadは、他のフィールド値に基づいて値を許可または拒否します
+### 内部参照では、他のフィールド値に基づいて値を許可または拒否します
 
-この例では、先行入力フィールドは、フォームの別のフィールドに入力された値に基づいて、値を動的に許可または拒否します。
+この例では、内部参照フィールドは、フォームの別のフィールドに入力された値に基づいて、値を動的に許可または拒否します。
 
 検証式：
 
@@ -146,7 +141,7 @@ IF({DE:DV - Text - Budget}>"10000",
 )
 ```
 
-予算フィールドの値が10,000 ドルを超える場合、タイプアヘッド設定でロールフィルターが有効になっていない場合でも、ディレクタの役割を持つユーザーのみがタイプアヘッドから選択できます。
+予算フィールドの値が10,000 ドルを超える場合、内部参照の設定で役割フィルターが有効になっていない場合でも、内部参照からディレクタの役割を持つユーザーのみを選択できます。
 
 ![予算額にはディレクターの承認が必要です](assets/budget-director.png)
 
