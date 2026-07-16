@@ -7,23 +7,22 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 608
-ht-degree: 21%
+source-wordcount: 566
+ht-degree: 18%
 
 ---
 
 # ワークスペースの概要
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -31,7 +30,7 @@ ht-degree: 21%
 
 <!--update screenshot with production, it was broken at Preview-->
 
-![Workspaces ランディングページ管理者アカウント &#x200B;](assets/workspaces-landing-page-admin-account.png)
+![Workspaces ランディングページ管理者アカウント ](assets/workspaces-landing-page-admin-account.png)
 
 ## ワークスペースに関する考慮事項
 
@@ -48,16 +47,19 @@ ht-degree: 21%
 
 * ワークスペースとは、組織部門（チーム、グループ、部門、部門）が作業をおこなうフレームワークのことです。 フィールドに関連付けることはできません。 フィールドに関連付けられるのは、ワークスペース内のレコードタイプのみです。
 
-  詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
+  詳しくは、[ レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 * ワークスペースは、プランニング領域の次のタブに表示されます。
 
    * **自分が所属するワークスペース**：作成したワークスペースまたは共有されているワークスペースを表示します。
    * **その他のワークスペース**：システム内のその他すべてのワークスペースが表示されます。 これは、システム管理者のみが使用できます。
-   * <span class="preview">**サンプルワークスペース**：ベストプラクティスワークスペースの組み込み例を表示します。 ワークスペース、レコードタイプを編集したり、レコードやフィールドを追加したりすることはできませんが、他のユーザーとビューを追加、編集、共有することはできます。</span>
+   * **サンプルワークスペース**：ベストプラクティスワークスペースの組み込み例を表示します。 ワークスペース、レコードタイプを編集したり、レコードやフィールドを追加したりすることはできませんが、他のユーザーとビューを追加、編集、共有することはできます。
 
   >[!NOTE]
   >
-  ><span class="preview"> サンプル ワークスペースを編集するのではなく、サンプル ワークスペースを参照して独自のワークスペースを作成することをお勧めします。 マルチワークスペーステンプレートバンドルを使用して、「サンプルワークスペース」タブにリストされているワークスペースと同じワークスペースを作成します。 詳しくは、[&#x200B; ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)の記事の「ベストプラクティスのマルチワークスペーステンプレートバンドルを使用した複数のワークスペースの作成」の節を参照してください。</span>
+  >サンプルのワークスペースは編集せずに、自分で作成するための参照として使用することをお勧めします。 マルチワークスペーステンプレートバンドルを使用して、「サンプルワークスペース」タブにリストされているワークスペースと同じワークスペースを作成します。
+  >
+  >PrimeまたはUltimate Planning パッケージを購入したお客様のみが、「サンプルワークスペース」タブを表示できます。
+  >詳しくは、[ ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)の記事の「ベストプラクティスのマルチワークスペーステンプレートバンドルを使用した複数のワークスペースの作成」の節を参照してください。
 
 <!--
 No longer the case - they match now: 
@@ -96,7 +98,7 @@ No longer the case - they match now:
 * レコードタイプ
 * ビュー
 
-![&#x200B; グローバル検索ボックス &#x200B;](assets/global-search-box.png)
+![ グローバル検索ボックス ](assets/global-search-box.png)
 
 グローバル検索の使用については、次の点を考慮してください。
 

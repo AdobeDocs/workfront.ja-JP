@@ -9,22 +9,15 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/chdwrI5WTrdmeuqsWI5WydiLLzcp5Rq-hDsILudO-P0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1098
-ht-degree: 23%
+source-wordcount: 1038
+ht-degree: 22%
 
 ---
 
@@ -32,10 +25,11 @@ ht-degree: 23%
 
 <!--leave the choice value information in yellow till January 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -77,7 +71,7 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++     
 
@@ -152,8 +146,8 @@ Old:
 * フィールドを保存した後、次のフィールド要素の設定を編集できます。
 
    * 任意のフィールドの名前または説明
-   * 単一選択または複数選択フィールド <span class="preview">とそのデフォルトの選択肢</span>のオプション。
-   * <span class="preview">人物フィールドの既定の選択肢。</span>
+   * 単一選択または複数選択フィールドのオプションと、それらのデフォルトのオプション。
+   * 人物フィールドのデフォルトの選択肢。
    * 数式フィールドの式。
 
   >[!WARNING]
@@ -165,7 +159,7 @@ Old:
   >フィールド設定が変更されたことを他のユーザーに通知しません。
 
 * 接続されたレコードから既存のルックアップフィールドを編集できます。
-* この記事の「[&#x200B; フィールド設定を編集](#edit-field-settings-1)」セクションで説明されているようにフィールドを編集するだけでなく、フィールド値を更新しながら、テーブルビューでレコードを編集する際に、1つまたは複数の選択フィールドの選択肢を編集することもできます。 詳しくは、この記事の「[&#x200B; テーブルビューでレコードを編集する際に既存の選択フィールドに新しい選択肢を追加する](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)」セクションを参照してください。
+* この記事の「[ フィールド設定を編集](#edit-field-settings-1)」セクションで説明されているようにフィールドを編集するだけでなく、フィールド値を更新しながら、テーブルビューでレコードを編集する際に、1つまたは複数の選択フィールドの選択肢を編集することもできます。 詳しくは、この記事の「[ テーブルビューでレコードを編集する際に既存の選択フィールドに新しい選択肢を追加する](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)」セクションを参照してください。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -195,7 +189,7 @@ this is not yet true, but it might come later:
 
    フィールドの列ヘッダーをダブルクリックします。
 
-   ![&#x200B; テーブルヘッダーのフィールド名の後の矢印メニューが強調表示される](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![ テーブルヘッダーのフィールド名の後の矢印メニューが強調表示される](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. フィールドに関する情報を更新し、「**保存**」をクリックします。
 
@@ -209,14 +203,10 @@ this is not yet true, but it might come later:
    >
    >* フィールド設定（フィールドオプションまたは数式式）を変更すると、変更されたフィールドに既に情報を含むレコードは、値をリアルタイムで更新します。 フィールド設定の変更によってトリガーされた値の変更に対する警告や監査ログはありません。 フィールドを表示するすべてのユーザーには、変更が適用された新しい値がすぐに表示されます。
 
-1. <span class="preview"> （条件付き）更新するフィールドがリクエストフォームの一部である場合、**フィールド変更を確認** ボックスが表示され、変更の影響を受けるフォームが示されます。 次のいずれかの操作を行います：</span>
-
-   <div class="preview">
+1. （条件付き）更新するフィールドがリクエストフォームの一部である場合、**フィールド変更を確認** ボックスが表示され、変更の影響を受けるフォームが示されます。 次のいずれかの操作を行います。
 
    * 右向きの矢印をクリックして、変更の影響を受けるフォームを表示し、フォーム名をクリックしてフォームを新しいタブで開き、フィールドをフォームに保持するか、フォームに追加の変更を加えるかを決定します。
    * **変更を保持**&#x200B;をクリックすると、表示されているすべての領域のフィールドが更新されます。
-
-   </div>
 
    フィールド情報は、ワークスペースを表示するためのアクセス権を持つ全員が更新されます。
 
@@ -239,7 +229,7 @@ this is not yet true, but it might come later:
 
 「新規」および「クローズ」の選択肢を持つ「ステータス」という単一選択フィールドがあり、進行中ステータスの選択肢を追加する場合があります。 次のいずれかの操作を行って、選択肢を追加できます。
 
-* フィールドの編集。 詳しくは、この記事の「[&#x200B; フィールド設定を編集](#edit-field-settings-1)」の節を参照してください。
+* フィールドの編集。 詳しくは、この記事の「[ フィールド設定を編集](#edit-field-settings-1)」の節を参照してください。
 * 以下の説明に従って、テーブルビューでレコードを編集する際に新しいオプションを追加します。
 
 レコードを編集する際に、既存の選択フィールドに新しい選択肢を追加するには、次の手順に従います。
@@ -253,7 +243,7 @@ this is not yet true, but it might come later:
 
 1. 追加する選択肢の名前を入力し、**選択肢を追加**&#x200B;をクリックします。
 
-   ![&#x200B; テーブルビューの単一選択フィールドに選択肢を追加](assets/add-choice-in-table-view-for-single-select-field.png)
+   ![ テーブルビューの単一選択フィールドに選択肢を追加](assets/add-choice-in-table-view-for-single-select-field.png)
 
    新しい選択肢は、すぐに単一選択フィールドに追加されます。
 

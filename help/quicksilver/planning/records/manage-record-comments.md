@@ -9,30 +9,27 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: 798
 ht-degree: 56%
 
 ---
 
 # レコードのコメントの管理
 
+<!--
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 {{planning-important-intro}}
 
@@ -69,14 +66,14 @@ ht-degree: 56%
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペース、レコードタイプ、<span class="preview"> レコード </span>に対する表示以上の権限</p>  
+   <td>   <p>ワークスペース、レコードタイプ、レコードに対する表示以上の権限</p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr> 
   </tr>   
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -175,7 +172,7 @@ Old:
 
    ワークスペースが開き、レコードタイプがカードに表示されます。
 
-1. レコードタイプカードをクリックします。
+1. レコードタイプのカードをクリックします。
 レコードタイプページが開き、そのタイプのすべてのレコードが表示されます。
 
 1. 「**表示**」ドロップダウンメニューからテーブルビューを選択します。
@@ -183,11 +180,11 @@ Old:
 
    レコードの&#x200B;**詳細**&#x200B;ページが開きます。 デフォルトではコメントエリアが右側のパネルに開きます。
 
-1. （条件付き）右側のパネルがデフォルトで開かない場合は、右上隅の「**コメントを表示** ![&#x200B; コメントを表示](assets/show-comments-icon.png)」アイコンをクリックして、「コメント」セクションを開きます。
+1. （条件付き）右側のパネルがデフォルトで開かない場合は、右上隅の「**コメントを表示** ![ コメントを表示](assets/show-comments-icon.png)」アイコンをクリックして、「コメント」セクションを開きます。
 
 1. **新しいコメント**&#x200B;ボックスにコメントを入力します。
 
-   ![&#x200B; レコード &#x200B;](assets/empty-comment-box-on-record.png)の空のコメントボックス
+   ![ レコード ](assets/empty-comment-box-on-record.png)の空のコメントボックス
 
    >[!TIP]
    >
@@ -196,7 +193,7 @@ Old:
 1. （オプション）変更の取り消しまたはやり直しを行うには、以下のショートカットキーを使用します。
    * CTRL + Z （⌘+z for Mac）で変更を元に戻す
    * CTRL + Y （⌘+y for Mac）で変更をやり直す
-1. **@**&#x200B;を追加し、その後にユーザーまたはチームの名前を追加して、更新でタグ付けします。 詳細については、この記事の「[&#x200B; レコードに対するコメントに関する考慮事項](#considerations-about-commenting-on-a-record)」を参照してください。
+1. **@**&#x200B;を追加し、その後にユーザーまたはチームの名前を追加して、更新でタグ付けします。 詳細については、この記事の「[ レコードに対するコメントに関する考慮事項](#considerations-about-commenting-on-a-record)」を参照してください。
 
 1. （オプション）リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字の追加、またはアップデートへのリンクを行い、コンテンツを強化します。
 
@@ -210,7 +207,7 @@ Old:
    Workfront Planning レコードを含むオブジェクトの更新について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 1. （オプション）コメントの右上隅にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックしてコメントを削除します。
-1. （オプション）「**コメントを非表示**」アイコン「![&#x200B; コメントを非表示にする](assets/hide-comments-icon.png)」をクリックして、右側のパネルを閉じます。
+1. （オプション）「**コメントを非表示**」アイコン「![ コメントを非表示にする](assets/hide-comments-icon.png)」をクリックして、右側のパネルを閉じます。
 
 <!--
       >[!TIP]

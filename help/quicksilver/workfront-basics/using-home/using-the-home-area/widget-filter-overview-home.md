@@ -9,29 +9,25 @@ exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/1VkGz7LgrE1uBZ4uSwcTNLn3VpSMB-VI3o5HhpBG2XA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1084
-ht-degree: 21%
+source-wordcount: 881
+ht-degree: 17%
 
 ---
 
 # ホームウィジェットフィルターの概要
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 次のウィジェットでフィルターを使用して、作業を検索および整理できます。
 
@@ -149,7 +145,7 @@ ht-degree: 21%
   </tr>
   <tr>
     <td>マイルストーンタスク</td>
-    <td>マイルストーンに関連付けられているタスクを表示します。詳しくは、<a href="/help/quicksilver/manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md"> マイルストーンとタスクの関連付け</a>を参照してください。
+    <td>マイルストーンに関連付けられているタスクを表示します。 詳しくは、<a href="/help/quicksilver/manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md"> マイルストーンとタスクの関連付け</a>を参照してください。
 </td>
   </tr>
   <tr>
@@ -262,53 +258,53 @@ ht-degree: 21%
 
 ## マイリクエスト
 
-実稼動環境では、次の操作を行います。
+マイリクエストウィジェットには、ウィジェットに表示されるリクエストを制御できる、カスタマイズ可能なフィルターが用意されています。 このフィルターは、様々なフィールドと値に対して設定でき、ANDとORを使用して条件をスタックできます。
+
+My Requests ウィジェットでフィルターを設定する手順については、「My Requests ウィジェットを使用する」の記事「[Filter requests](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests)」を参照してください。
+
+<!--
+In the Production environment:
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">すべて</td> 
-      <td>ステータスまたは送信者に関係なく、送信されたすべてのリクエストを表示します。</td> 
+      <td role="rowheader">All</td> 
+      <td>Displays all submitted requests, regardless of status or who submitted them.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">開く</td> 
-      <td> <p>送信されたすべてのリクエストを表示 
+      <td role="rowheader">Open</td> 
+      <td> <p>Displays all submitted requests 
       <ul>
-      <li>メールを送った人に関係なく、現在オープンなメールです。 自分で送信しなかった場合は、表示以上の権限を持っているリクエストのみが表示されます。</li>
-      <li>実際の完了日がない場合、または解決するオブジェクトに実際の完了日がない場合は、「開く」サブタブにリストされます。</li> 
+      <li>That are currently open, regardless of who submitted them. Only requests you have at least permissions to view display here if you did not submit them yourself.</li>
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab.</li> 
       </ul>
-      <p><b>メモ</b> 
-      ステータスがクローズに等しくないリクエストは、オープンと見なされます。</p> 
+      <p><b>NOTE</b> 
+      Requests that are in any status that does not equate with Closed are considered open.</p> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">マイリクエスト</td> 
-      <td>送信したリクエストを、ステータスに関係なく表示します。 </td> 
+      <td role="rowheader">My Requests</td> 
+      <td>Displays requests you submitted regardless of their status. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">マイオープンリクエスト</td> 
-      <td> <p>リクエストを表示 
+      <td role="rowheader">My Open Requests</td> 
+      <td> <p>Displays requests 
       <ul>
-      <li>送信したものと同じように開いています。 </li> 
-      <li>実際の完了日がない場合、または解決するオブジェクトに実際の完了日がない場合は、「マイオープン要求」サブタブにリストされます。  </li> 
+      <li>That you submitted and are still open. </li> 
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab.  </li> 
       </ul>
-      <p><b>メモ</b> 
-      ステータスがクローズに等しくないリクエストは、オープンと見なされます。</p> </td> 
+      <p><b>NOTE</b> 
+      Requests that are not in a status that equates with Closed are considered open.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-<div class="preview">
 
-プレビュー環境では、次の操作を行います。
 
-マイリクエストウィジェットには、ウィジェットに表示されるリクエストを制御できる、カスタマイズ可能なフィルターが用意されています。 このフィルターは、様々なフィールドと値に対して設定でき、ANDとORを使用して条件をスタックできます。
-
-My Requests ウィジェットでフィルターを設定する手順については、「My Requests ウィジェットを使用する」の記事「[Filter requests](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests)」を参照してください。
-
-</div>
+In the Preview environment:
+-->
 
 ## 担当作業
 
