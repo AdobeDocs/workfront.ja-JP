@@ -12,10 +12,10 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
 workflow-type: tm+mt
-source-wordcount: 516
-ht-degree: 25%
+source-wordcount: 608
+ht-degree: 21%
 
 ---
 
@@ -87,3 +87,24 @@ No longer the case - they match now:
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * Workfront Planningのインスタンスで作成できるワークスペースオブジェクトの数には制限があります。 詳しくは、[Adobe Workfront計画オブジェクト制限の概要](/help/quicksilver/planning/general/limitations-overview.md)を参照してください。
+
+## グローバル検索の概要
+
+「計画」ランディングページでは、「グローバル検索」ボックスを使用して、次の計画オブジェクトを検索できます。
+
+* ワークスペース
+* レコードタイプ
+* ビュー
+
+![&#x200B; グローバル検索ボックス &#x200B;](assets/global-search-box.png)
+
+グローバル検索の使用については、次の点を考慮してください。
+
+* 次のキーボードの組み合わせを押すと、プランニング ランディングページまたは任意のプランニング ページから検索にアクセスできます。
+
+   * Windowsの場合はCTRL+K
+   * Macの⌘+K
+* 各オブジェクトの最後の7つの結果が検索ボックスに表示されます。
+* 一般的な検索を実行するか、オブジェクトを選択して個々のリストを検索できます。
+
+
