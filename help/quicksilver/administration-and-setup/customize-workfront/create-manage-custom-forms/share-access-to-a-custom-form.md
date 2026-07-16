@@ -9,11 +9,16 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
 workflow-type: tm+mt
 source-wordcount: 967
@@ -124,12 +129,12 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 
 ## カスタムフォームの共有
 
-カスタムフォームをデフォルトの共有状態（この記事の[ カスタムフォームへのアクセス ](#access-to-custom-forms)で説明）のままにするのではなく、特定のユーザー、担当業務、グループ、チーム、企業、ビジネスプロファイルに対するフォームへの特定のアクセスレベルを設定できます。
+カスタムフォームをデフォルトの共有状態（この記事の[&#x200B; カスタムフォームへのアクセス &#x200B;](#access-to-custom-forms)で説明）のままにするのではなく、特定のユーザー、担当業務、グループ、チーム、企業、ビジネスプロファイルに対するフォームへの特定のアクセスレベルを設定できます。
 
 {{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. リストでカスタムフォームを選択し、![共有アイコン ](assets/share-icon.png)をクリックします。
+1. リストでカスタムフォームを選択し、![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。
 
    または
 
@@ -175,7 +180,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
    >* ほとんどの組織では、作業対象のオブジェクトにフォームを添付し、そのデータをレポートに表示する際に、システム内のすべてのユーザーがカスタムフォームに必ず記入できるようにしたいと考えています。 この問題が組織に当てはまる場合は、**システム内のすべてのユーザーが**&#x200B;を表示できるようにすることをお勧めします。
    >* **システム内の全員が**&#x200B;を表示および添付することを選択した場合、すべてのユーザーがフォームを他のオブジェクトに添付できます。
    >
-   >![ カスタムフォームを共有](assets/share-custom-forms-all-can-attach.png)
+   >![&#x200B; カスタムフォームを共有](assets/share-custom-forms-all-can-attach.png)
    >   
    >特定のオブジェクトに添付された機密データをユーザーが入力する可能性のあるカスタムフォームについて懸念がある場合は、フォーム自体へのアクセスを制限するのではなく、それらの&#x200B;*オブジェクト*&#x200B;の共有を制限する方が効果的です。
 
@@ -186,7 +191,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 {{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. リストでカスタムフォームを選択し、![共有アイコン ](assets/share-icon.png)をクリックします。
+1. リストでカスタムフォームを選択し、![共有アイコン &#x200B;](assets/share-icon.png)をクリックします。
 1. 共有ボックスで、フォームに特別なアクセス権を付与する必要がなくなったユーザー、チーム、役割、グループ、会社、またはビジネスプロファイルの名前の右側にあるドロップダウンメニューをクリックし、**削除**&#x200B;を選択します。
 1. （オプション）削除する他の名前について、前の手順を繰り返します。
 1. 「**保存**」をクリックします。
