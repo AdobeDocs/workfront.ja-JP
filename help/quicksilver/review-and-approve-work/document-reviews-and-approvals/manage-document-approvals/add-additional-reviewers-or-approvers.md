@@ -9,11 +9,17 @@ exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jo3N878hmvHRqo6kCepxPDk2-zlalLvqQbMjHHB8aGE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
 source-wordcount: 746
@@ -113,13 +119,13 @@ To add additional approvers or reviewers from the Document Summary:
 
 1. 追加した各ユーザーについて、承認者かレビュアーかを選択します。
 
-   ![承認者またはレビュー担当者のドロップダウン ](assets/choose-reviewer-or-approver.png)
+   ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-reviewer-or-approver.png)
 
 1. 「**保存**」をクリックします。 追加した参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
 
 >[!TIP]
 >
->基本モードの承認をマルチステージまたはマルチパスの承認に再構築するには、右上隅の「**詳細に移動**」をクリックします。 既存の参加者は、パス 1、ステージ 1として保存されます。 保存した後は、基本モードに戻すことはできません。 詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+>基本モードの承認をマルチステージまたはマルチパスの承認に再構築するには、右上隅の「**詳細に移動**」をクリックします。 既存の参加者は、パス 1、ステージ 1として保存されます。 保存した後は、基本モードに戻すことはできません。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 <!--
 ## Add additional approvers or reviewers in the new Documents area in Production
@@ -156,7 +162,7 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを編集**」をクリックします。 承認を依頼ダイアログが開きます。1段階の承認の場合は「基本」、複数段階の承認の場合は「詳細」と、並行パスを使用する承認の場合は「詳細」の順に選択します。
 
@@ -167,10 +173,10 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 
 1. 追加した各ユーザーについて、承認者かレビュアーかを選択します。
 
-   ![承認者またはレビュー担当者のドロップダウン ](assets/choose-reviewer-or-approver.png)
+   ![承認者またはレビュー担当者のドロップダウン &#x200B;](assets/choose-reviewer-or-approver.png)
 
 1. 「**保存**」をクリックします。 追加した参加者には、文書に対する承認またはレビューが必要であることを知らせる電子メール通知が送信されます。
 
 >[!TIP]
 >
->基本モードの承認をマルチステージまたはマルチパスの承認に再構築するには、右上隅の「**詳細に移動**」をクリックします。 既存の参加者は、パス 1、ステージ 1として保存されます。 保存した後は、基本モードに戻すことはできません。 詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+>基本モードの承認をマルチステージまたはマルチパスの承認に再構築するには、右上隅の「**詳細に移動**」をクリックします。 既存の参加者は、パス 1、ステージ 1として保存されます。 保存した後は、基本モードに戻すことはできません。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。

@@ -9,11 +9,17 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
 source-wordcount: 2231
@@ -213,7 +219,7 @@ To create an approval workflow:
 
 1. （オプション）パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。パスを並べ替えることはできません。 その他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 
-   ![並列パスを使用した詳細設定モード ](assets/request-approval-parallel-paths.jpeg)
+   ![並列パスを使用した詳細設定モード &#x200B;](assets/request-approval-parallel-paths.jpeg)
 
 1. （オプション）すべてのパスとステージをクリアして最初からやり直すには、右上の「**リセット**」をクリックします。
 
@@ -279,7 +285,7 @@ To create an approval workflow:
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを作成**」をクリックします。 **承認依頼** ダイアログが基本モードで開きます。
 
@@ -330,7 +336,7 @@ To create an approval workflow:
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを作成**」をクリックします。
 
@@ -372,7 +378,7 @@ To create an approval workflow:
 
 1. （オプション）パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。パスを並べ替えることはできません。 その他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 
-   ![並列パスを使用した詳細設定モード ](assets/request-approval-advanced.jpeg)
+   ![並列パスを使用した詳細設定モード &#x200B;](assets/request-approval-advanced.jpeg)
 
 1. （オプション）すべてのパスとステージをクリアして最初からやり直すには、右上の「**リセット**」をクリックします。
 
