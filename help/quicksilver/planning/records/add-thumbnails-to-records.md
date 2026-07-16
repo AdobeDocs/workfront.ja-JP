@@ -9,11 +9,16 @@ exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/L-D5-cS3SHl0X-4Dv2QfDju016zQKD52MHU5r3PZqvM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
 source-wordcount: 820
@@ -70,7 +75,7 @@ ht-degree: 28%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -177,7 +182,7 @@ Old:
 
    「**アップロード**」タブは、デフォルトで&#x200B;**サムネールを記録** ボックスに開きます。
 
-   サムネールのアップロードについて詳しくは、手順6から始めて、この記事の詳細ページ ](#add-a-thumbnail-to-a-record-from-the-details-page)からレコードにサムネールを[追加するを参照してください。<!--see if this is accurate-->
+   サムネールのアップロードについて詳しくは、手順6から始めて、この記事の詳細ページ [&#128279;](#add-a-thumbnail-to-a-record-from-the-details-page)からレコードにサムネールを追加するを参照してください。<!--see if this is accurate-->
 
 <!--
    ![Record thumbnail box for upload](assets/record-thumbnail-box-for-upload.png) 
@@ -224,7 +229,7 @@ Old:
 
    「**アップロード**」タブは、デフォルトで&#x200B;**サムネールを記録** ボックスに開きます。
 
-   ![ アップロード用のサムネールボックスを記録](assets/record-thumbnail-box-for-upload.png)
+   ![&#x200B; アップロード用のサムネールボックスを記録](assets/record-thumbnail-box-for-upload.png)
 
 1. サムネールとして追加するファイルをドラッグ&amp;ドロップします
 
@@ -236,9 +241,9 @@ Old:
 1. （オプション）「**新しい画像をアップロード**」アイコン「![新しい画像をアップロード」アイコン「](assets/upload-new-image-icon.png)」をクリックして、別の画像をアップロードします。
 1. （オプション）「**ギャラリー**」タブをクリックし、画像をクリックします。 画像のギャラリーは変更できません。
 
-   ![ ギャラリーのサムネールボックスを記録](assets/record-thumbnail-box-for-gallery.png)
+   ![&#x200B; ギャラリーのサムネールボックスを記録](assets/record-thumbnail-box-for-gallery.png)
 
-1. （オプション）サムネールを保存する前に削除するには、画像の右側にある&#x200B;**削除** アイコン ![画像を削除アイコン ](assets/remove-image-icon.png)をクリックします。
+1. （オプション）サムネールを保存する前に削除するには、画像の右側にある&#x200B;**削除** アイコン ![画像を削除アイコン &#x200B;](assets/remove-image-icon.png)をクリックします。
 
 1. 「**画像を使用**」をクリックして、画像をサムネールとして追加します。
 これにより、**レコードサムネール** ボックスが閉じます。
@@ -248,7 +253,7 @@ Old:
    >
    >   このビューにサムネールを表示するには、テーブルビューの「サムネール」フィールドを有効にする必要があります。 デフォルトでは無効になっています。
 
-1. （オプション）保存後にサムネールを削除するには、任意のビューのレコードをクリックして詳細ページを開き、サムネール画像にカーソルを合わせて&#x200B;**詳細メニューアイコン ![詳細メニューアイコン ](assets/more-menu.png)>**&#x200B;削除&#x200B;**アイコン ![削除アイコン ](assets/remove-image-icon.png)をクリックします。**&#x200B;サムネール画像が削除されます。
+1. （オプション）保存後にサムネールを削除するには、任意のビューのレコードをクリックして詳細ページを開き、サムネール画像にカーソルを合わせて&#x200B;**詳細メニューアイコン ![詳細メニューアイコン &#x200B;](assets/more-menu.png)>**&#x200B;削除&#x200B;**アイコン ![削除アイコン &#x200B;](assets/remove-image-icon.png)をクリックします。**&#x200B;サムネール画像が削除されます。
 
 
 <!--
