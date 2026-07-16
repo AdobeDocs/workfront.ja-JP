@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+source-git-commit: 29d86cd2aa730d5bebe14fb2bd3cb1a59e00852a
 workflow-type: tm+mt
-source-wordcount: '2919'
-ht-degree: 15%
+source-wordcount: '3150'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 15%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第3四半期のリリースが予定されている実稼動リリースに近づいたときに、追加の機能強化で更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -110,6 +110,15 @@ ht-degree: 15%
             <td><p>July 16, 2026</p></td>
         </tr>
         -->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> アクセス レベルの新しいライセンス タイプ フィールド<p>[!BADGE Off schedule]{type=Neutral}</p></a>
+                <p>「アクセスレベル」ボックスで、次のフィールドが変更されました。 <ul><li>「アクセスレベル」ボックスの「ライセンスタイプ」フィールドの名前を「ワークフローライセンスタイプ」に変更しました。 このラベル付けに関する機能の変更はありません。  </li><li>Workfront Planning パッケージを購入したお客様に対しては、ユーザーのライセンスをWorkfront Planningに示す新しい「Planning License Type」フィールドが追加されました。 </li><ul></p>
+            </td>
+            <td><p>2026年7月16日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">先行入力フィールドの種類</a>を置き換える内部参照フィールド
@@ -575,7 +584,7 @@ Workfront Fusion の新機能は、実稼動環境の標準リリーススケジ
 New features in Workfront Planning are available in Production.
 -->
 
-最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
+最新の機能について詳しくは、[Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)を参照してください。
 
 
 ### Workfrontのその他の機能強化
@@ -597,6 +606,31 @@ New features in Workfront Planning are available in Production.
 このアップデートは、Mac と Windows の両方に対応しています。
 
 ## お知らせ
+
+### スタンドアロン製品としてのAdobe Workfront Planning
+
+>[!NOTE]
+>
+>すべての顧客のプレビューと実稼動：2026年7月16日（PT）以降
+>
+>[!BADGE 新規顧客のみ]{type=Neutral}
+
+Workfront Workflow ライセンスを必要とせずに、Adobe Workfront Planningを個別に購入できるようになりました。
+
+Adobe Workfront Planning as a standalone productは、新規顧客向けに設計されており、ワークフロー機能を使わずにキャンペーン計画やメタデータ管理機能を必要とするチーム向けに設計されています。
+
+>[!IMPORTANT]
+>
+>これは新規のお客様のみが利用できます。 詳しくは、アカウント担当者にお問い合わせください。
+
+Adobe Workfront Planning as a standalone productには、次の機能が含まれています。
+
+* Workfront Planningの包括的な機能であり、ワークスペース、レコードタイプ、レコード、フィールド、ビューの作成と管理が可能です。
+* PrimeおよびUltimate パッケージのクロスワークスペース接続を含む、レコードを接続する機能。
+* プランニングレコード作成の自動化。
+* Planning リクエストフォームを使用した受注プロセス。
+
+詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 ### API バージョン 22
 
@@ -634,7 +668,7 @@ Workfront計画トライアルは2026年5月15日に終了します。
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
