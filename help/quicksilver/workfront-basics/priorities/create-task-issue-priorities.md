@@ -7,15 +7,11 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
 TQID: https://experienceleague.adobe.com/5NtZhgbXQBRpaEE0TUaArsCPh3dG-ARR68xE3IhHsSA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 249
 ht-degree: 26%
@@ -76,7 +72,7 @@ ht-degree: 26%
 {{step1-to-priorities}}
 
 1. 右上隅の「**新規作成**」をクリックします。
-   ![新しい（実稼動環境）を作成](assets/create-new--.png)
+   ![新しい（実稼動環境）を作成](assets/create-new.png)
 1. 次の情報を指定します。
 
    | フィールド | 手順 |
@@ -89,3 +85,4 @@ ht-degree: 26%
    | 期日（オプション） | 期日を選択します。 |
 
 1. 「**作成**」をクリックします。
+
