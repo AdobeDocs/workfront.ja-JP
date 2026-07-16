@@ -6,10 +6,14 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 TQID: https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
 source-wordcount: 348
@@ -70,7 +74,7 @@ ht-degree: 58%
 
    または
 
-   多数のページをピン留めしている場合は、**[!UICONTROL 詳細]** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックして、ピン留めされた追加のページを表示します。
+   多数のページをピン留めしている場合は、**[!UICONTROL 詳細]** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックして、ピン留めされた追加のページを表示します。
 
    ![現在のページをピン留めする](assets/display-pinned-pages-2026.png)
 
@@ -80,14 +84,14 @@ ht-degree: 58%
 
 ピン留めされたページの名前の変更、並べ替え、削除を1か所で行うことができます。
 
-1. **[!UICONTROL 詳細]** アイコン ![ ピン行の詳細アイコン ](assets/more-icon.png)をクリックし、**ピンの管理**&#x200B;を選択します。
+1. **[!UICONTROL 詳細]** アイコン ![&#x200B; ピン行の詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**ピンの管理**&#x200B;を選択します。
 1. **ピンの管理** ボックスで、次の1つ以上の操作を行います。
 
    * ピン留めされたページの名前を変更するには、**編集** アイコンをクリックします。 新しい名前を入力し、チェックマークアイコンをクリックして確認します。
    * ピン留めしたページを表示する順序でドラッグ&amp;ドロップします。
    * **削除** アイコンをクリックして、ピン留めされたページをリストから削除します。
 
-   ![ ピンの管理ボックス ](assets/manage-pins.png)
+   ![&#x200B; ピンの管理ボックス &#x200B;](assets/manage-pins.png)
 
 1. ピンの編集が終了したら、**閉じる**&#x200B;をクリックします。
 
