@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1098
-ht-degree: 23%
+source-wordcount: 1038
+ht-degree: 22%
 
 ---
 
@@ -32,10 +32,11 @@ ht-degree: 23%
 
 <!--leave the choice value information in yellow till January 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -152,8 +153,8 @@ Old:
 * フィールドを保存した後、次のフィールド要素の設定を編集できます。
 
    * 任意のフィールドの名前または説明
-   * 単一選択または複数選択フィールド <span class="preview">とそのデフォルトの選択肢</span>のオプション。
-   * <span class="preview">人物フィールドの既定の選択肢。</span>
+   * 単一選択または複数選択フィールドのオプションと、それらのデフォルトのオプション。
+   * 人物フィールドのデフォルトの選択肢。
    * 数式フィールドの式。
 
   >[!WARNING]
@@ -209,14 +210,10 @@ this is not yet true, but it might come later:
    >
    >* フィールド設定（フィールドオプションまたは数式式）を変更すると、変更されたフィールドに既に情報を含むレコードは、値をリアルタイムで更新します。 フィールド設定の変更によってトリガーされた値の変更に対する警告や監査ログはありません。 フィールドを表示するすべてのユーザーには、変更が適用された新しい値がすぐに表示されます。
 
-1. <span class="preview"> （条件付き）更新するフィールドがリクエストフォームの一部である場合、**フィールド変更を確認** ボックスが表示され、変更の影響を受けるフォームが示されます。 次のいずれかの操作を行います：</span>
-
-   <div class="preview">
+1. （条件付き）更新するフィールドがリクエストフォームの一部である場合、**フィールド変更を確認** ボックスが表示され、変更の影響を受けるフォームが示されます。 次のいずれかの操作を行います。
 
    * 右向きの矢印をクリックして、変更の影響を受けるフォームを表示し、フォーム名をクリックしてフォームを新しいタブで開き、フィールドをフォームに保持するか、フォームに追加の変更を加えるかを決定します。
    * **変更を保持**&#x200B;をクリックすると、表示されているすべての領域のフィールドが更新されます。
-
-   </div>
 
    フィールド情報は、ワークスペースを表示するためのアクセス権を持つ全員が更新されます。
 

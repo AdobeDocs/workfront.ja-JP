@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1194
-ht-degree: 16%
+source-wordcount: 1107
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,9 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
+>このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
 >* Azure
@@ -39,9 +41,11 @@ ht-degree: 16%
 Take Preview and production mentions out at release
 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 プロンプトを含むカンバスダッシュボードにフィルターを適用できます。 プロンプトは、追加のフィルタリング条件を適用するフィルター修飾子として機能するため、結果をさらに絞り込むことができます。 これらのプロンプトは、フィルターを適用するたびに変更できるため、ダッシュボードや個々のレポートの主なフィルター条件を編集することなく、表示される結果を調整できます。
 
@@ -122,7 +126,7 @@ Take Preview and production mentions out at release
 
 1. ダッシュボードの詳細ページの左上隅にある「**フィルター**」をクリックします。 フィルターのサイドパネルが開きます。
 
-1. （条件）実稼動環境で、**フィルターを編集**&#x200B;または<span class="preview"> プレビュー環境をクリックし、**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックしてから、</span>をクリックします **フィルターを編集**。 **ダッシュボードフィルター** ダイアログボックスが開きます。
+1. **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**フィルターの編集**&#x200B;をクリックします。 **ダッシュボードフィルター** ダイアログボックスが開きます。
 
 1. （オプション）ルールを追加するには、次の手順に従います。
 
@@ -177,9 +181,7 @@ Take Preview and production mentions out at release
 1. **保存**&#x200B;をクリックして、フィルターをダッシュボードに適用します。
 
 
-1. <span class="preview"> プロンプトをデフォルトとして保存するには、プロンプトを保存した後、次の操作を行います。</span>
-
-   <div class="preview">
+1. プロンプトをデフォルトとして保存するには、プロンプトを保存した後、次の操作を行います。
 
    1. （オプション） **詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**デフォルトのプロンプトとして保存**&#x200B;をクリックします。
 
@@ -197,8 +199,6 @@ Take Preview and production mentions out at release
    1. （条件付き）デフォルトのプロンプトの設定を変更した場合は、**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、**ダッシュボードのデフォルトを適用**&#x200B;をクリックして、デフォルトのフィルター結果に戻ります。
    1. （オプション）「**デフォルトをリセット**」をクリックして、元のデフォルト設定を変更に置き換えます。 このオプションは、ダッシュボードマネージャーでのみ使用できます。
 
-   </div>
-
 
 1. [&#x200B; パート 3: ダッシュボード プロンプトを適用する](#step-3-apply-a-dashboard-prompt)に進みます。
 
@@ -214,7 +214,8 @@ Take Preview and production mentions out at release
 
 1. ダッシュボードの詳細ページの左上隅にある「**フィルター**」をクリックします。 フィルターのサイドパネルが開きます。
 
-1. **レコードの表示場所…** セクションで、表示される1つまたはすべてのプロンプトの条件を選択します。 プロンプトが適用され、適用された&#x200B;**ダッシュボードプロンプト** タグがレポートウィジェットの隅に表示されます。   ![条件を選択](assets/prompts-list.png)
+1. **レコードの表示場所…** セクションで、表示される1つまたはすべてのプロンプトの条件を選択します。 プロンプトが適用され、適用された&#x200B;**ダッシュボードプロンプト** タグがレポートウィジェットの隅に表示されます。
+   ![条件を選択](assets/prompts-list.png)
 
 1. 右上隅の&#x200B;**閉じる** アイコン ![閉じるアイコン &#x200B;](assets/close-icon.png)をクリックして、パネルを非表示にします。
 

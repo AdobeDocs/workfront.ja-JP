@@ -21,18 +21,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1311
-ht-degree: 17%
+source-wordcount: 1252
+ht-degree: 16%
 
 ---
 
 # ワークスペースを作成
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -277,7 +279,6 @@ Old:
 
       1. 各ワークスペーステンプレートの&#x200B;**プレビュー** ボックスを開いた後、**戻る**&#x200B;をクリックして&#x200B;**ワークスペースを作成** ボックスに戻るか、**テンプレートを使用**&#x200B;をクリックして、バンドルに含まれるテンプレートを使用し、ワークスペースを作成します。
 
-   <div class="preview">
 
    * 「**サンプルワークスペース**」タブをクリックし、次の手順に従います。
 
@@ -289,8 +290,6 @@ Old:
          >
          >テンプレート内のレコードタイプカードをクリックすると、右側のパネルにレコードタイプのフィールドが表示されます。
       1. 「**テンプレートを使用**」をクリックします。
-
-   </div>
 
    6つのワークスペースが作成され、システム管理者用の&#x200B;**ワークスペースに表示されます。自分は**&#x200B;です。**すべてのワークスペース** タブに表示されます。 すべての標準ライセンスのユーザーは、システム管理者がワークスペースを作成し、新しいワークスペースを共有すると、ワークスペース領域にワークスペースが表示されます。
 

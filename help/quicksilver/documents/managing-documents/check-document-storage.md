@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 09dff59503604894e61f2a62af7ae1c2e8a39068
 workflow-type: tm+mt
 source-wordcount: 491
 ht-degree: 15%
@@ -25,8 +25,6 @@ ht-degree: 15%
 ---
 
 # ドキュメントのストレージ制限のチェック
-
-{{highlighted-preview}}
 
 ユーザーがWorkfront インスタンスにアップロードできる個々のファイルの種類とサイズに制限はありませんが、Workfront プランには合計ストレージ割り当てが含まれています。 Workfront管理者は、お客様情報ページの設定領域から使用状況と割り当てを監視できます。
 
@@ -62,7 +60,7 @@ ht-degree: 15%
 
 +++
 
-## 従来のWorkfront ストレージ
+## レガシー Workfront ストレージ
 
 お客様の組織が従来のWorkfront ストレージを使用している場合、お客様の情報ページには、Workfrontに直接アップロードされたドキュメントに対する1つのストレージ割り当て量が表示されます。
 
@@ -78,8 +76,6 @@ ht-degree: 15%
 >[!NOTE]
 >
 >この制限は、他のサードパーティサービスプロバイダー（SharePoint、Google Drive、Webdam、Box、Dropbox、またはその他のドキュメントアセット管理プロバイダー）からWorkfrontにリンクするドキュメントには適用されません。
-
-<div class="preview">
 
 ## Adobe クラウドストレージ
 
@@ -107,5 +103,3 @@ Adobe クラウドストレージのドキュメントを確認するには：
 ### 管理者向けメール通知
 
 使用率がストレージ割り当て量の75%、90%、または100%を超えると、Workfrontはシステム管理者にメール通知を送信します。
-
-</div>

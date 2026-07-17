@@ -19,22 +19,22 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
-source-wordcount: 721
-ht-degree: 41%
+source-wordcount: 677
+ht-degree: 37%
 
 ---
 
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
-<!--take out preview and production references at release-->
-
 # リンクを使用したレコードの共有
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -46,31 +46,22 @@ ht-degree: 41%
 
 * レコードタイプのテーブルビューのレコードを表示する際に、レコードのページへのリンクをコピーします。
 
-* 実稼動環境では、次の操作を行います。
+この記事では、リンクを共有してレコードを共有する方法について説明します。
 
-   * ワークスペースとレコードタイプを共有することで、ワークスペース内のすべてのレコードを他のユーザーと共有できます。
+さらに、次の方法でレコードを共有できます。
 
-     詳しくは、次の記事を参照してください。
+* ワークスペースとレコードタイプを共有することで、ワークスペース内のすべてのレコードを他のユーザーと共有できます。 デフォルトでは、すべてのレコードも同じユーザーと共有されます。
 
-      * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
+  詳しくは、次の記事を参照してください。
 
-      * [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
+   * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
 
-<div class="preview">
+   * [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
 
-* プレビュー環境では、次の操作を行います。
+* レコードがワークスペースまたはレコードタイプと共有される際に、継承された権限をオフにすることで、個々のレコードを人物、チーム、役割、グループ、または会社と共有できます。
 
-   * 個人のレコードを、人物、チーム、役割、グループ、企業と共有できます。
+  詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
 
-     詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
-
-</div>
-
-
-
-<!--take out the sentence below when we release record-level sharing-->
-
-この記事では、レコードタイプのテーブルビューからレコードのページへのリンクをコピーする方法について説明します。
 
 ## アクセス要件
 
@@ -234,8 +225,6 @@ Old:
 
 詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
 
-<div class="preview">
-
 ## 個人レコードの共有
 
 ユーザーは、ワークスペースとレコードタイプからレコード権限をデフォルトで継承します。
@@ -246,5 +235,5 @@ Old:
 
 詳しくは、[&#x200B; レコードの共有](/help/quicksilver/planning/access/share-records.md)を参照してください。
 
-</div>
+
 

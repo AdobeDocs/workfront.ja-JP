@@ -38,10 +38,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
+source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
 workflow-type: tm+mt
-source-wordcount: 21587
-ht-degree: 96%
+source-wordcount: 22016
+ht-degree: 97%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 96%
       <!--
       Resource Estimates or a
       -->
-     プロジェクト（財務データ）レポートを作成し、[!UICONTROL 配分日]のマトリックス グループを追加し、最も正確なデータを得るために結果を週単位、月単位、四半期単位、または年単位でグループ化します。<br> マトリックス グループ化の構築について詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref"> マトリックス レポートの作成</a>を参照してください。</p> </li>
+     プロジェクト（財務データ）レポートを作成し、[!UICONTROL 配分日]のマトリックス グループを追加し、最も正確なデータを取得するために、週単位、月単位、四半期単位、または年単位で結果をグループ化します。<br>マトリックスグループ化の作成については、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">マトリックスレポートの作成</a>の記事を参照してください。</p> </li>
     </ul> <p>[!UICONTROL Project (Financial Data)]レポートに財務情報が入力されるのは、関連付けられているデータが 5 年未満の場合のみです。 例えば、2015年1月に担当業務がタスクに割り当てられ、今日が 2021年9月の場合、[!UICONTROL Project (Financial Data)]レポートでは、担当業務の[!UICONTROL Allocation Date]などの財務フィールドにデータは入力されません。 </p> 
     <div> 
      <p>[!UICONTROL Budgeted Hour]レポートの場合：</p> 
@@ -994,8 +994,8 @@ ht-degree: 96%
    <td>フォルダーは、オブジェクトに関連付けられたドキュメントまたはレポートを整理するために使用されます。</td> </tr>
   <tr>
   <td>[!UICONTROL FTE]（フルタイム換算）</td> 
-   <td>これは、リソースが作業に使用できる時間を示すフルタイム当量です。 
-   [!UICONTROL FTE] フィールドは、次の領域に表示されます。 
+   <td>これはフルタイム換算であり、リソースを作業に使用できる時間を示します。 
+   [!UICONTROL FTE] フィールドは、次のエリアに表示されます。 
   <ul>
    <li> ユーザーのプロファイル（ユーザーを編集または作成する際） </li>
    <li> [!UICONTROL Resource Planner] </li>
@@ -1233,7 +1233,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Condition Note]</td> 
-   <td> <p>このフィールドには、オブジェクトの所有者が最後に入力した更新が表示されます。これは、オブジェクトに対する所有者の最新のアクティビティまたはインタラクションです。</p> <p>オブジェクトの最後のメモのメモのテキストが削除された場合、[!DNL Last Condition Note]列は空になります。オブジェクトに新しいメモを入力すると、そのメモは最後のメモとなり、列に再度表示されます。 </p> </td> 
+   <td> <p>このフィールドには、オブジェクトの所有者が最後に入力した更新が表示されます。これは、オブジェクトに対する所有者の最新のアクティビティまたはインタラクションです。</p> <p>[!DNL Last Condition Note] 列は、オブジェクトの最終メモのメモテキストが削除されている場合、空になります。 オブジェクトに新規メモを入力すると、最終メモになり、列に再び表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Finance Update Date]</td> 
@@ -1396,7 +1396,7 @@ The designated full time equivalency for users. A full-time user should have 100
  </tr> 
   <tr> 
    <td>[!UICONTROL New Number Value]</td> 
-   <td>[!UICONTROL Journal Entry] レポートでは、[!UICONTROL Old Number Value]に代わるフィールドの更新値が表示されます。
+   <td>[!UICONTROL Journal Entry] レポートでは、[!UICONTROL Old Number Value] を置き換えるフィールドの更新された値が表示されます。
    詳しくは、この記事の「[!UICONTROL Old Number Value]」を参照してください。</td> 
   </tr>
   <tr> 
@@ -1433,7 +1433,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Number of Children]</td> 
    <td> <p>[!UICONTROL プロジェクト &#x200B;] レポートでは、これはタスクが持つ子またはサブタスクの数です。 
    <p><b>ヒント</b></p>
-   タスクのカスタムフォームの計算カスタムフィールドに<code>{numberOfChildren}</code>計算を追加して、カスタムフィールドにタスクの子の数を表示できます。詳細については、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">計算フィールドをフォームに追加</a>を参照してください。 
+   タスクのカスタムフォームの計算カスタムフィールドに<code>{numberOfChildren}</code>計算を追加して、カスタムフィールドにタスクの子の数を表示できます。 詳細については、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">計算フィールドをフォームに追加</a>を参照してください。 
     </td> 
   </tr> 
   <tr> 
@@ -1574,7 +1574,7 @@ The designated full time equivalency for users. A full-time user should have 100
  <tbody> 
   <tr> 
    <td>[!UICONTROL Parameter]</td> 
-   <td> <p>[!UICONTROL パラメーター]はカスタムフィールドです。システム内のすべてのパラメーターまたはカスタムフィールドのレポートを作成できます。 </p> </td> 
+   <td> <p>[!UICONTROL parameter] はカスタムフィールドです。 システム内のすべてのパラメーターやカスタムフィールドに関するレポートを作成できます。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Parent]</td> 
@@ -1651,7 +1651,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
-   <td> <p>プロジェクトの[!UICONTROL 予定労力コスト &#x200B;]と[!UICONTROL 予定費用コスト &#x200B;]の合計。これには、プロジェクトの[!UICONTROL 計画リスクコスト &#x200B;]は含まれません。  </p> </td> 
+   <td> <p>プロジェクトの [!UICONTROL Planned Labor Cost] と [!UICONTROL Planned Expense Cost] の合計。 これには、プロジェクトに [!UICONTROL Planned Risk Cost] は含まれません。  </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 予定日付との整合性]</td> 
@@ -1665,7 +1665,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 
-   <td> <p>タスクの[!UICONTROL 予定期間]は、通常、タスクの[!UICONTROL 期間]と同じです。これは、タスクの[!UICONTROL Planned Start]と[!UICONTROL Planned Completion Dates]の間の日数の差を表します。 </p> <p>タスクが [!UICONTROL Effort Driven] の [!UICONTROL Duration] タイプの場合、[!UICONTROL Planned Duration] は、タスクに割り当てたリソース数に基づいてタスクの [!UICONTROL Duration] と異なる場合があります。 </p> <p>例えば、[!UICONTROL Duration] タイプの[!UICONTROL Effort Driven]を持つタスクに3日の[!UICONTROL Duration]があり、フルタイムスケジュールを持つ1つのリソースをタスクに割り当てた場合、[!UICONTROL Planned Duration]も3日になります。フルタイムのスケジュールを持つ3つのリソースを同じタスクに割り当てる場合、[!UICONTROL Duration]は3日間のままですが、[!UICONTROL Planned Duration]は1日になります。[!UICONTROL Planned Duration]は、タスクの[!UICONTROL Planned Start]および[!UICONTROL Planned Completion]日付も変更し、新しい[!UICONTROL Planned Duration]を反映します。その結果、プロジェクトのタイムラインにも影響が及びます。 </p> <p>タスクの [!UICONTROL Duration] と [!UICONTROL Planned Duration] の差について詳しくは、<a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">タスクの [!UICONTROL Planned Duration] と [!UICONTROL Duration] の差</a>の記事を参照してください。</p> <p>プロジェクトとイシューには [!UICONTROL Planned Duration] がありません。 </p> </td> 
+   <td> <p>タスクの [!UICONTROL Planned Duration] は、通常、タスクの [!UICONTROL Duration] と同じです。 これは、タスクの [!UICONTROL Planned Start] と [!UICONTROL Planned Completion Dates] の間の日数の差を表します。 </p> <p>タスクが [!UICONTROL Effort Driven] の [!UICONTROL Duration] タイプの場合、[!UICONTROL Planned Duration] は、タスクに割り当てたリソース数に基づいてタスクの [!UICONTROL Duration] と異なる場合があります。 </p> <p>例えば、[!UICONTROL Duration] タイプが [!UICONTROL Effort Driven] のタスクの [!UICONTROL Duration] が 3 日間で、1 つのリソースをフルタイムスケジュールでタスクに割り当てた場合、[!UICONTROL Planned Duration] も 3 日間になります。 3 つのリソースをフルタイムスケジュールで同じタスクに割り当てた場合、[!UICONTROL Duration] は 3 日間ですが、[!UICONTROL Planned Duration] は 1 日になります。 [!UICONTROL Planned Duration] では、新しい [!UICONTROL Planned Duration] を反映するために、タスクの [!UICONTROL Planned Start] の日付と [!UICONTROL Planned Completion] の日付も変更されます。 その結果、プロジェクトのタイムラインにも影響が及びます。 </p> <p>タスクの [!UICONTROL Duration] と [!UICONTROL Planned Duration] の違いについて詳しくは、<a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">タスクの [!UICONTROL Planned Duration] と [!UICONTROL Duration] の違い</a>の記事を参照してください。</p> <p>プロジェクトとイシューには [!UICONTROL Planned Duration] がありません。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration Minutes]</td> 
@@ -1685,7 +1685,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Planned Hours]</td> 
    <td> <p>このフィールドは [!UICONTROL projects] エリア、[!UICONTROL tasks] エリアおよびイシューエリア、プロジェクト、タスクまたはイシューのレポート、[!UICONTROL Resource Planner]、[!UICONTROL Workload Balancer]、[!UICONTROL Utilization] レポートのリソース管理ツールに表示されます。 </p> <p>プロジェクト所有者が見積った各タスクまたは各イシューの完了に必要な時間数を示します。 プロジェクトの場合は、通常、これはプロジェクトのタスクからの [!UICONTROL Planned Hours] のロールアップです。 </p> <p>「[!UICONTROL Planned Hours]」フィールドには、表示する場所に応じて異なる情報が表示される場合があります。 予定時間数について詳しくは、<a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">予定時間数の概要</a>を参照してください。</p> <p>予定時間数は、[!DNL Workfront] データベースに分単位で保存されます。 このフィールドを使用して計算を記述する場合は、時間が分単位で表示されることを考慮してください。<br></p> <p>デフォルトでは、予定時間数は、作業項目の期間内のすべての日に均等に配分され、タスクに割り当てられたすべてのリソースにも均等に配分されます。 ユーザーは、作業アイテムの 1 日の予定時間数を更新したり、各担当者の個々の予定時間数を更新したりできます。</p> <p>このフィールドの更新は、プロジェクト、タスクおよびイシューによって異なります。 </p> 
     <ul> 
-     <li> <p>問題の場合は、このフィールドを手動で更新できます。 イシュー予定時間数は、プロジェクト予定時間数に追加されません。 </p> <p><b>ヒント</b></p> <p>イシューレポートでは、「[!UICONTROL Planned Hours]」フィールドの 1 つが「[!UICONTROL Work]」フィールドに置き換えられます。 フィールドには、イシューに関する予定時間数が表示されます。 詳しくは、この表の「作業」フィールドまたは「[!UICONTROL Work]」フィールドを参照してください。 </p> </li> 
+     <li> <p>イシューの場合は、このフィールドを手動で更新できます。 イシュー予定時間数は、プロジェクト予定時間数には追加されません。 </p> <p><b>ヒント</b></p> <p>イシューレポートでは、「[!UICONTROL Planned Hours]」フィールドの 1 つが「[!UICONTROL Work]」フィールドに置き換えられます。 フィールドには、イシューに関する予定時間数が表示されます。 詳しくは、この表の「作業」フィールドまたは「[!UICONTROL Work]」フィールドを参照してください。 </p> </li> 
     </ul> 
     <ul> 
      <li> <p>タスクの場合、タスクの [!UICONTROL Duration Type] が [!UICONTROL Calculated Assignment] または [!UICONTROL Simple] の場合は、このフィールドを手動で更新できます。 このフィールドは、タスクの[!UICONTROL Duration Type]が[!UICONTROL Calculated Work]または[!UICONTROL Effort Driven]である場合、[!DNL Workfront]によって計算されます。<br>[!UICONTROL Task Duration]について詳しくは、「<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref"> タスクの概要[!UICONTROL Duration]と[!UICONTROL Duration Type]</a>」を参照してください。</p> </li> 
@@ -1903,11 +1903,11 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Rank]</td> 
-   <td> <p>[!UICONTROL アクセス レベル &#x200B;] レポートでは、[!UICONTROL アクセス レベル &#x200B;]の[!UICONTROL ランク &#x200B;]を手動で指定できます。これにより、[!DNL Workfront]管理者は、各アクセス レベルに関連付けられている複雑さのレベルを視覚的に特定できます。例えば、より複雑な（[!UICONTROL Plan] レベル）アクセス レベルには小さい数値を指定し、より複雑でない（[!UICONTROL Requester] レベル）アクセス レベルには大きい数値を指定できます。標準のアクセス レベルをランク付けすることはできません。 </p> </td> 
+   <td> <p>[!UICONTROL Access Level] レポートでは、[!UICONTROL Access Level] の [!UICONTROL Rank] を手動で指定できます。 これは、[!DNL Workfront] 管理者として、各アクセスレベルに関連付けられている複雑さのレベルを視覚的に識別するのに役立ちます。 例えば、複雑さの高い（[!UICONTROL Plan] レベルの）アクセスレベルには小さい数値を指定し、複雑さの低い（[!UICONTROL Requester] レベルの）アクセスレベルには大きい数値を指定できます。 標準アクセスレベルのランク付けはできません。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ready]</td> 
-   <td> <p>タスクレポートのこのフィールドは、バックログで[!UICONTROL Agile] タスクが[!UICONTROL Ready]としてマークされているかどうかを示します。このフラグは、[!UICONTROL Agile] チームに割り当てられた[!UICONTROL Agile] タスクにのみ適用されます。 </p> </td> 
+   <td> <p>タスクレポートのこのフィールドは、バックログで [!UICONTROL Agile] タスクが [!UICONTROL Ready] とマークされたかどうかを示します。 このフラグは、[!UICONTROL Agile] タスク（[!UICONTROL Agile] チームに割り当てられたタスク）にのみ適用されます。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL レコード]</td> 
@@ -2127,7 +2127,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Scheduled Report]</td> 
-   <td> <p>各種レポートのレポートを作成する際に、[!UICONTROL Scheduled Report] フィールドを使用してレポートの配信が予定されている場合は、レポートのスケジュールに関する情報を表示できます。 このフィールドには、レポートの各スケジュールに対して 1 つずつ、複数の値が箇条書きリストで表示されます。 レポートのスケジュール設定について詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">レポート配信の概要</a>の記事を参照してください。</p> <p>このフィールドには複数の値が表示されるため、グループ化では使用できません。フィルターまたはビューでのみアクセスできます。 </p> </td> 
+   <td> <p>各種レポートのレポートを作成する際に、[!UICONTROL Scheduled Report] フィールドを使用してレポートの配信が予定されている場合は、レポートのスケジュールに関する情報を表示できます。 このフィールドには、レポートの各スケジュールに対して 1 つずつ、複数の値が箇条書きリストで表示されます。 レポートのスケジュール設定について詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">レポート配信の概要</a>の記事を参照してください。</p> <p>このフィールドには複数の値が表示されるので、1 つのグループ化で使用することはできません。 フィルターまたはビューでのみアクセスできます。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scope Change]</td> 
@@ -2171,7 +2171,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
-   <td> <p>別のオブジェクトの親オブジェクトを示します。例えば、タスクに添付されたドキュメントには、[!UICONTROL Document] レポートまたはビューの[!UICONTROL Source] フィールドにタスクの名前が付けられます。プロジェクトの下に記録されたイシューには、イシューのレポートまたはビューの[!UICONTROL Source] フィールドにプロジェクトの名前が付きます。 </p> 
+   <td> <p>別のオブジェクトの親オブジェクトを示します。 例えば、タスクに添付されたドキュメントは、[!UICONTROL Document] レポートまたはビューの [!UICONTROL Source] フィールドにタスクの名前を持ち、プロジェクトの下に記録されたイシューは、イシューレポートまたはビューの [!UICONTROL Source] フィールドにプロジェクトの名前を持ちます。 </p> 
    <p>次のレポートにはソース列が表示され、親オブジェクトに関する情報を表示できます。</p>
   <ul><li>イシューレポート</li>
     <li>時間レポート</li>
@@ -2516,7 +2516,7 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr>
   <td> <code>[!UICONTROL width]</code>
   </td>
-  <td> レポートで[!UICONTROL テキスト モード &#x200B;] インターフェイスを使用する場合、各列の幅をピクセル単位で指定できるコード行。Workfrontでは、フィールドごとに推奨される幅が用意されていますが、フィールドの種類や書式によって調整が必要になる場合があります。列に指定された幅を適用するには、追加の<code>[!UICONTROL usewidths=true]</code>行のコードを使用する必要があります。 
+  <td> レポートで、[!UICONTROL Text Mode]インターフェイスを使用する際に、各列の幅をピクセル単位で指定できるコード行。 Workfront には、各フィールドの推奨幅が用意されていますが、 フィールドのタイプや形式に応じて、調整を行うこともできます。 追加の <code>[!UICONTROL usewidths=true]</code> コード行を使用して、列に指定された幅を強制する必要があります。 
   </td>
   </tr>
   <tr> 
@@ -2598,7 +2598,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>この数値を使用して、プロジェクト関連の実際の作業に対するユーザーの作業可能時間が計算されます。 </p>
    <p> スケジュールの例外と休暇も、ユーザーのキャパシティに影響を与える可能性があります。 </p>
    <p>Workfront でスケジュールを作成する方法について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">スケジュールの作成</a>を参照してください。 </p>
-    <p>Workfront では、[!UICONTROL Setup] エリアのリソース管理の環境設定に応じて、ユーザーの作業可能時間を計算します。 詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">リソース管理環境設定の指定</a>を参照してください。 </p> 
+    <p>Workfront では、[!UICONTROL Setup] エリアのリソース管理の環境設定に応じて、ユーザーの作業可能時間を計算します。 詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">リソース管理環境設定の指定</a>を参照してください。 </p> 
    <p>ユーザーの[!UICONTROL Work Time]は、ユーザーの編集時または作成時に更新できます。 詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">ユーザーのプロファイルの編集</a>を参照してください。</p> 
    <b>ヒント</b> 
    <p>[!UICONTROL Work Time]の値を 1 に設定すると、ユーザーがフルタイム相当の時間をすべてプロジェクト関連の作業に使用できることを示します。</p> 

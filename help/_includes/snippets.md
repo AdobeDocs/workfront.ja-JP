@@ -1,5 +1,5 @@
 ---
-source-git-commit: cc78767fd0cc3090f5de71f44c64c9696ce6a36b
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '2292'
 ht-degree: 61%
@@ -302,6 +302,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 >Workfront計画の一般的な詳細については、[Adobe Workfront計画の基本を学ぶ](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
 > 
 >スタンドアロン製品としてのWorkfront Planningについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
+>
 
 <!--
 Old - before Oct. 15, 2025:

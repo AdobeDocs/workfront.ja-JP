@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 725
 ht-degree: 39%
@@ -29,8 +29,6 @@ ht-degree: 39%
 ---
 
 # ドキュメントの概要
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -147,7 +145,7 @@ ht-degree: 39%
 
 ### 詳細
 
-詳細セクションを使用して、概要レベルの情報を表示したり、カスタムフォームを操作したり、<span class="preview">概要を印刷</span>を開いたりします。
+「詳細」セクションを使用して、概要の概要を表示し、カスタムフォームを操作して、「概要を印刷」を開きます。
 
 ![新しいドキュメント エクスペリエンスのドキュメント概要の詳細](assets/summary-details.png)
 

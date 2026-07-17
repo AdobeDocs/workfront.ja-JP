@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 706
-ht-degree: 78%
+source-wordcount: 675
+ht-degree: 77%
 
 ---
 
@@ -38,10 +38,11 @@ ht-degree: 78%
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -62,7 +63,7 @@ Adobe Workfront Planning の一般情報と用語について詳しくは、[Ado
    * ビューの共有
    * ワークスペース（レコードとフィールド）の共有
    * レコードタイプ（レコードとフィールド）の共有
-   * <span class="preview"> レコードを共有</span>
+   * レコードの共有
 
 * [アーキテクチャ：記事インデックス](/help/quicksilver/planning/architecture/architecture-information.md)には、次の情報が含まれます。
 
@@ -127,3 +128,7 @@ Adobe Workfront Planning の一般情報と用語について詳しくは、[Ado
 アドビでは、定期的に Workfront Planning の新機能をリリースしています。
 
 リリースされた機能の最新のリストについて詳しくは、[Adobe Workfront Planning のリリースアクティビティ：記事インデックス](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+## スタンドアロン製品としてのWorkfront Planning
+
+お客様は、Workflow ライセンスを購入せずにWorkfront Planningを購入できます。 詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。

@@ -18,20 +18,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 13%
+source-wordcount: 514
+ht-degree: 10%
 
 ---
 
 # ビューまたはワークスペースに対する権限のリクエスト
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!-- 
 no longer needed: 
@@ -89,7 +89,7 @@ no longer needed:
    <ul><li><p>ビューの表示または管理</p></li>
    <li><p>ワークスペースの表示、投稿、または管理</p></li>
    <li><p>レコードタイプの表示、送信、管理</p></li>
-   <li><p><span class="preview">レコードの表示または管理</span></p></li>
+   <li><p>レコードの表示または管理</p></li>
    </ul>  
    <p>ワークスペースとビューに対する管理権限を持つユーザーのみがビューを公開できます。</p></td> 
   </tr> 
@@ -175,9 +175,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ## 権限をリクエスト
 
-ビューに対する権限の要求は、ワークスペース、レコードタイプ、または<span class="preview"> レコード </span>に対する権限の要求に似ています。
+ビューに対する権限の要求は、ワークスペース、レコードタイプ、レコードに対する権限の要求と似ています。
 
-誰かがワークスペース、レコードタイプ、<span class="preview"> レコード </span>、またはアクセス権のないビューへのリンクを共有した場合：
+誰かがワークスペース、レコードタイプ、レコード、またはアクセス権のないビューへのリンクを共有した場合：
 
 1. ビューまたはワークスペース用に共有されているリンクをクリックします。
 
@@ -187,7 +187,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    >[!NOTE]
    >
-   >レコードタイプまたは<span class="preview"> レコード </span>へのアクセス権がない場合、「アクセス権がありません」ページには、ワークスペースへのアクセス権が必要であることが表示されます。
+   >レコードタイプまたはレコードにアクセスできない場合は、「アクセス権がありません」ページにワークスペースへのアクセス権が必要であることが表示されます。
 
 
 1. （条件付き）共有されたリンクが、アクセス権を持つワークスペースのビュー用である場合は、**既存のビューで開く**&#x200B;をクリックします。 ワークスペースにアクセスする権限がある場合は、レコードタイプページがデフォルトビューで開きます。

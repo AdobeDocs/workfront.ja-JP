@@ -19,26 +19,27 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 855
-ht-degree: 25%
+source-wordcount: 820
+ht-degree: 28%
 
 ---
 
 # レコードにサムネールを追加する
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 レコードを Adobe Workfront Planning 内の一意のサムネールに関連付けて、容易に認識できるようにします。
 
 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
-詳しくは、[&#x200B; レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
 ## アクセス要件
 
@@ -68,7 +69,7 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペース、レコードタイプに対する権限以上の権限を付与し、<span class="preview"> レコードに対する権限を管理</span> </p>  
+   <td>   <p>ワークスペースに対するアクセス許可、レコードタイプ、およびレコードに対するアクセス許可の管理に貢献する権限 </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr>   
 </tbody> 
@@ -244,7 +245,7 @@ Old:
 
 1. （オプション）サムネールを保存する前に削除するには、画像の右側にある&#x200B;**削除** アイコン ![画像を削除アイコン &#x200B;](assets/remove-image-icon.png)をクリックします。
 
-1. **画像を使用**&#x200B;をクリックして、画像をサムネールとして追加します。
+1. 「**画像を使用**」をクリックして、画像をサムネールとして追加します。
 これにより、**レコードサムネール** ボックスが閉じます。
 サムネールは、レコードが表示されるWorkfront Planningの領域に表示されます。
 

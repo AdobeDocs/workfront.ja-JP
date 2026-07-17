@@ -12,18 +12,20 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 608
-ht-degree: 21%
+source-wordcount: 566
+ht-degree: 18%
 
 ---
 
 # ワークスペースの概要
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -53,11 +55,14 @@ ht-degree: 21%
 
    * **自分が所属するワークスペース**：作成したワークスペースまたは共有されているワークスペースを表示します。
    * **その他のワークスペース**：システム内のその他すべてのワークスペースが表示されます。 これは、システム管理者のみが使用できます。
-   * <span class="preview">**サンプルワークスペース**：ベストプラクティスワークスペースの組み込み例を表示します。 ワークスペース、レコードタイプを編集したり、レコードやフィールドを追加したりすることはできませんが、他のユーザーとビューを追加、編集、共有することはできます。</span>
+   * **サンプルワークスペース**：ベストプラクティスワークスペースの組み込み例を表示します。 ワークスペース、レコードタイプを編集したり、レコードやフィールドを追加したりすることはできませんが、他のユーザーとビューを追加、編集、共有することはできます。
 
   >[!NOTE]
   >
-  ><span class="preview"> サンプル ワークスペースを編集するのではなく、サンプル ワークスペースを参照して独自のワークスペースを作成することをお勧めします。 マルチワークスペーステンプレートバンドルを使用して、「サンプルワークスペース」タブにリストされているワークスペースと同じワークスペースを作成します。 詳しくは、[&#x200B; ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)の記事の「ベストプラクティスのマルチワークスペーステンプレートバンドルを使用した複数のワークスペースの作成」の節を参照してください。</span>
+  >サンプルのワークスペースは編集せずに、自分で作成するための参照として使用することをお勧めします。 マルチワークスペーステンプレートバンドルを使用して、「サンプルワークスペース」タブにリストされているワークスペースと同じワークスペースを作成します。
+  >
+  >PrimeまたはUltimate Planning パッケージを購入したお客様のみが、「サンプルワークスペース」タブを表示できます。
+  >詳しくは、[&#x200B; ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)の記事の「ベストプラクティスのマルチワークスペーステンプレートバンドルを使用した複数のワークスペースの作成」の節を参照してください。
 
 <!--
 No longer the case - they match now: 

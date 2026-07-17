@@ -20,19 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 733
-ht-degree: 29%
+source-wordcount: 673
+ht-degree: 28%
 
 ---
 
 # フィールドの削除
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -190,14 +191,10 @@ Old:
 
    <!--insert screen shot when finalized-->
 
-1. <span class="preview"> （条件付き）削除するフィールドがリクエストフォームの一部である場合、「**フィールドを削除**」ボックスが表示され、変更の影響を受けるフォームが示されます。 次のいずれかの操作を行います：</span>
-
-   <div class="preview">
+1. （条件付き）削除するフィールドがリクエストフォームの一部である場合、**フィールドを削除** ボックスが表示され、変更の影響を受けるフォームが示されます。 次のいずれかの操作を行います。
 
    * 右向きの矢印をクリックして、変更の影響を受けるフォームを表示し、フォーム名をクリックしてフォームを新しいタブで開き、フィールドをフォームに保持するか、フォームに追加の変更を加えるかを決定します。
    * 表示されているすべての領域からフィールドを削除する&#x200B;**削除**&#x200B;をクリックします。
-
-   </div>
 
    削除されたフィールドは復元できません。
 

@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 793
-ht-degree: 10%
+source-wordcount: 765
+ht-degree: 7%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 10%
 
 {{planning-important-intro}}
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ワークスペース管理者は、別のワークスペースにあるレコードタイプを、Adobe Workfront Planningで管理するワークスペースに追加できます。
 
@@ -149,25 +149,25 @@ And
 1. 「**続行**」をクリックします。
 1. （条件付き） **レコードタイプを選択** ボックスで、既存のワークスペースから追加するレコードタイプのカードをクリックし、**追加**&#x200B;をクリックします。
 
-   <span class="preview"> プレビュー環境を使用している場合は、クリックして複数のレコードタイプを選択し、**追加**&#x200B;をクリックします。 使用可能なすべてのワークスペースのすべてのグローバルレコードタイプがリストに表示されます。</span>
+プレビュー環境を使用している場合は、クリックして複数のレコードタイプを選択し、「**追加**」をクリックします。 使用可能なすべてのワークスペースのすべてのグローバルレコードタイプがリストに表示されます。
 
-   選択したセカンダリワークスペースにレコードタイプが追加され、セカンダリワークスペース ![&#128279;](assets/global-icon-secondary-workspace.png)の&#x200B;**グローバルレコードタイプ** アイコン  グローバルレコードアイコンがレコードタイプのカードに表示されます。
+選択したセカンダリワークスペースにレコードタイプが追加され、セカンダリワークスペース ![&#128279;](assets/global-icon-secondary-workspace.png)の&#x200B;**グローバルレコードタイプ** アイコン  グローバルレコードアイコンがレコードタイプのカードに表示されます。
 グローバルレコードタイプアイコンには、セカンダリワークスペースのレコードタイプに表示される矢印が含まれ、レコードタイプが既存のレコードタイプから追加されたことを示します。
 
-   次のことが発生します。
+次のことが発生します。
 
-   * 次の情報も、既存のグローバルレコードタイプから追加されます。
+* 次の情報も、既存のグローバルレコードタイプから追加されます。
 
-      * すべてのオリジナルフィールド
-      * すべてのレコードの接続
-   * セカンダリワークスペースからレコードタイプの元のワークスペースから追加されたレコードを表示することはできません。
-   * 少なくともそのワークスペースに対する表示権限がある場合は、元のワークスペースでのみ、そのワークスペース内のレコードタイプの元のワークスペースから追加されたレコードを表示できます。
-   * 読み取り専用の&#x200B;**Workspace** フィールドが、新しいレコードタイプのテーブルビューに追加されます。 このフィールドには、各レコードが作成されたワークスペースが表示されます。
+   * すべてのオリジナルフィールド
+   * すべてのレコードの接続
+* セカンダリワークスペースからレコードタイプの元のワークスペースから追加されたレコードを表示することはできません。
+* 少なくともそのワークスペースに対する表示権限がある場合は、元のワークスペースでのみ、そのワークスペース内のレコードタイプの元のワークスペースから追加されたレコードを表示できます。
+* 読み取り専用の&#x200B;**Workspace** フィールドが、新しいレコードタイプのテーブルビューに追加されます。 このフィールドには、各レコードが作成されたワークスペースが表示されます。
 
-     >[!NOTE]
-     >
-     >新しいレコードタイプの外観、追加設定、元のフィールドは編集できません。 レコードタイプとそのすべての元のフィールドと設定は、元のワークスペースからのみ編集できます。
-     >
+  >[!NOTE]
+  >
+  >新しいレコードタイプの外観、追加設定、元のフィールドは編集できません。 レコードタイプとそのすべての元のフィールドと設定は、元のワークスペースからのみ編集できます。
+  >
 
 1. （オプション）セカンダリワークスペース ![&#128279;](assets/global-icon-secondary-workspace.png)のグローバルレコードタイプアイコン  グローバルレコードアイコンにカーソルを合わせると、レコードタイプが追加された元のワークスペースの名前が表示されます。
 1. （オプション）をクリックし、新しく追加したレコードタイプをワークスペース内の任意のセクションにドラッグ&amp;ドロップします。

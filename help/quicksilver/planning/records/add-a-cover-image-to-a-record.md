@@ -20,19 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 744
-ht-degree: 15%
+source-wordcount: 679
+ht-degree: 12%
 
 ---
 
-# レコードへのカバー画像の追加
+# を追加
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -70,7 +71,7 @@ ht-degree: 15%
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペース、レコードタイプに対する権限以上の権限を付与し、<span class="preview"> レコードに対する権限を管理</span> </p>  
+   <td>   <p>ワークスペースに対するアクセス許可、レコードタイプ、およびレコードに対するアクセス許可の管理に貢献する権限 </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr>   
 </tbody> 
@@ -187,16 +188,12 @@ Old:
 
    レコードのプレビューがビューで開きます。
 
-   <!--update screen shot for new details views preview-->
-
    ![詳細プレビューボックス &#x200B;](assets/details-box.png)
 
 
 1. （オプション）レコードプレビューの右上隅にある「**新しいタブで開く**」アイコン「![新しいタブで開く」アイコン「](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->」をクリックして、レコードのページを新しいタブで開きます。
 
    レコードページが開きます。
-
-   <!--update screen shot for new details views preview-->
 
    ![詳細ページ &#x200B;](assets/details-page.png)
 
@@ -220,8 +217,6 @@ Old:
 1. 「**画像を使用**」をクリックします。
 
    画像はレコードプレビューまたは詳細ページの上部にアップロードされ、変更は自動的に保存されます。
-
-   <!--update screen shot for new details views preview-->
 
    ![表紙画像を含むレコードページ &#x200B;](assets/record-page-with-cover-image.png)
 

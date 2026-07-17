@@ -8,16 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: ca0583d7e375e7f17d058d7ca287785d17de35dd
+source-git-commit: abe9313aaa544a2deec69f40dd135782cc0d2c88
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 9%
+source-wordcount: '538'
+ht-degree: 6%
 
 ---
 
 # AI共同作業者の設定
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -69,16 +73,16 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
 * レビューアータイプのAI コラボレーターに使用するには、Workfrontでブランドを設定しておく必要があります。
 
   手順については、[&#x200B; コンテンツレビュアーのブランドの作成と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)を参照してください。
-* <span class="preview"> レビュアーAI共同作業者にAdobe Brand Intelligenceを使用するには、Workfrontの統一されたレビューと承認のエクスペリエンスを使用する必要があります。</span>
+* レビュアーAI コラボレーターにAdobe Brand Intelligenceを使用するには、Workfrontの統合されたレビューと承認のエクスペリエンスを使用する必要があります。</span>
 
-  <span class="preview">詳細については、[統合レビューと承認の概要](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)を参照してください。</span>
+  詳しくは、[統合レビューと承認の基本を学ぶ](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)を参照してください。</span>
 
 ## レビュー担当者タイプのAI コラボレーターを新規作成する
 
 レビュアーAI共同作業者は、Workfront ブランドまたはAdobe ブランドインテリジェンスを使用するように設定できます。
 
 * **ブランド**：ブランドはWorkfrontで作成されます。 Workfrontでブランドを作成するには、ブランドガイドラインを含むPDF ファイルをアップロードするか、ブランド要素を手動で入力します。
-* <span class="preview">**Adobe Brand Intelligence**: AIの共同作業者がAdobe Brand Intelligenceを使用してアセットをレビューすると、レビュー担当者によるコメントをFrame.ioで表示できます。 </span>
+* **Adobe Brand Intelligence**: AIの共同作業者がAdobe Brand Intelligenceを使用してアセットをレビューすると、レビュー担当者によるコメントをFrame.ioで表示できます。 </span>
 
 
 {{step-1-to-setup}}

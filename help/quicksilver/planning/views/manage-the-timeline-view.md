@@ -19,20 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 4341
+source-wordcount: 4300
 ht-degree: 34%
 
 ---
 
 # タイムラインビューの管理
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -268,7 +268,7 @@ Old:
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [フィルター](#add-filters)
    * [グループ化](#add-grouping)
-   * &lbrack;設定
+   * [設定](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### フィルターを追加
@@ -378,21 +378,22 @@ Old:
 1. 左の次の演算子をクリックして、フィルター条件の結合方法と適用方法を示します。
 
    * **AND**：指定したすべての条件を満たす必要があります。
-   * **OR**：指定された条件のいずれかを満たす必要があります。これはデフォルトのオプションです。
+   * **OR**：指定された条件のいずれかを満たす必要があります。
+これはデフォルトのオプションです。
 
 1. （オプション）追加のフィルターグループを追加し、**AND**&#x200B;または&#x200B;**OR**&#x200B;演算子で結合します。
 
-   レコードのリストは、フィルター条件に基づいて自動的にフィルタリングされます。  
+   レコードのリストは、フィルター条件に基づいて自動的にフィルタリングされます。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （オプション）「**x**」アイコンをクリックして、フィルター条件を削除します。
-1. <span class="preview"> （オプションおよび条件付き）タイムラインビューにブレークダウン構造を追加した場合は、次のドロップダウンでレコードタイプを展開し、上記と同じ手順を繰り返して、ブレークダウンに含まれるレコードタイプのフィルターを追加します。</span>
+1. （オプションおよび条件付き）タイムラインビューに分割構造を追加した場合は、次のドロップダウンでレコードタイプを展開し、上記と同じ手順を繰り返して、分割に含まれるレコードタイプのフィルターを追加します。
 
-   <span class="preview">分類の各レコードタイプに対して繰り返します。</span>
+   分類のすべてのレコードタイプについて、この手順を繰り返します。
 
    ![&#x200B; タイムラインビューの内訳を含む多層フィルター](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-   <span class="preview">分類レコードタイプは、タイムラインビューからのみフィルタリングできます。</span>
+   分類レコードタイプは、タイムラインビューからのみフィルタリングできます。
 1. （オプション）「**フィルター**」またはページ上の任意の場所をクリックして、フィルターボックスを閉じます。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -405,7 +406,8 @@ Old:
 タイムラインビューでグループ化を操作する際は、次の点を考慮してください。
 
 * テーブルビューとタイムラインビューの両方でグループ化を適用できます。 テーブルビューのグループ化は、同じレコードタイプのタイムラインビューのグループ化とは独立しています。
-* ビューでは、3 つのレベルのグループ化を適用できます。 レコードは、選択したグループ化の順にグループ化されます。&lt;!—!—* APIを使用する場合、グループ化は最大4 レベルまで適用できます。 --現在これを確認中-->
+* ビューでは、3 つのレベルのグループ化を適用できます。 レコードは、選択したグループ化の順にグループ化されます。
+&lt;!—!—* APIを使用する場合、グループ化は最大4 レベルまで適用できます。 --現在これを確認中-->
 * グループは、選択したビューに固有です。 同じレコードタイプの 2 つのテーブルビューに、異なるグループ化を適用することができます。 同じテーブルビューを見ている 2 人のユーザーには、現在適用されているのと同じグループ化が表示されます。
 * テーブルビュー用に作成したグループ化に名前を付けることはできません。
 * グループ化を削除すると、自分と同じレコードタイプにアクセスし、同じビューを表示している人から、グループ化が削除されます。
@@ -443,9 +445,7 @@ Old:
 
 1. 「**レコードを**&#x200B;でグループ化」ボックスで、グループ化を正しい順序でドラッグ&amp;ドロップします。
 
-1. <span class="preview"> **レコードを**&#x200B;でグループ化ボックスの&#x200B;**レイアウト**&#x200B;領域で、次のいずれかのオプションを選択します：</span>
-
-   <div class="preview">
+1. **レコードを**&#x200B;でグループ化ボックスの&#x200B;**レイアウト**&#x200B;領域で、次のいずれかのオプションを選択します。
 
    * **積み重ね**: グループ化は、固定された左列なしで表示され、アイテムのタイムラインの幅に合わせて表示されます。
 
@@ -609,7 +609,8 @@ this is not possible right now; if this is the same functionality as the table v
   例えば、タスクはWorkfrontのプロジェクトに接続されます。 「分類」機能を使用すると、Planningのキャンペーンに接続されているプロジェクトを表示できますが、Workfrontのプロジェクトに接続されているタスクを表示することはできません。
 
   Workfront Planning レコードタイプのタイムラインビューにポートフォリオとプロジェクトの両方を表示する場合は、ポートフォリオとプロジェクトの両方を、プランニングレコードまたはタイムラインビューを管理しているプランニングレコードに接続されたレコードに接続する必要があります。
-* プランニングレコードタイプに接続されているAdobe GenStudio ブランドを表示することはできません。詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+* プランニングレコードタイプに接続されているAdobe GenStudio ブランドを表示することはできません。
+詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 * 少なくとも2つの日付フィールドに関連付けられているレコードタイプのみを表示できます。
 * タイムラインビューに表示するレコードタイプの日付フィールドは、選択したレコードタイプのテーブルビューでルックアップフィールドとして表示されている必要があります。
 * タイムラインビューに表示するレコードタイプの開始日と終了日は、時系列で表示する必要があります。 例えば、レコードの開始日が1月31日で終了日が1月1日の場合、タイムラインビューには表示されません。 詳しくは、この記事の「[&#x200B; タイムラインビューの管理](#manage-a-timeline-view)」の節を参照してください。

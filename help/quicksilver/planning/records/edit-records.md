@@ -20,19 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3175
+source-wordcount: 3103
 ht-degree: 26%
 
 ---
 
 # レコードの編集
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -72,7 +73,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペース、レコードタイプに対する権限以上の権限を付与し、<span class="preview"> レコードに対する権限を管理</span> </p>  
+   <td>   <p>ワークスペースに対するアクセス許可、レコードタイプ、およびレコードに対するアクセス許可の管理に貢献する権限</p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr>   
 </tbody> 
@@ -245,7 +246,7 @@ Old:
 
    * 1つのフィールドの1つまたは複数の既存の値をコピーしてから、別のレコードの同じタイプのフィールドにペーストします
    * 列の列ヘッダーをクリックして選択、コピーし、別の列の列見出しをクリックして、コピーした列の内容をペーストします。 列には、類似したフィールドタイプが含まれている必要があります。
-   * Shift キーを押したまま、表内の複数の行をクリックして選択し、選択した行の情報をコピーしてから、別の行をクリックして、選択した情報を新しい行とその後の行にペーストします。 <span class="preview">これはプレビュー環境では使用できません。</span>
+   * Shift キーを押したまま、表内の複数の行をクリックして選択し、選択した行の情報をコピーしてから、別の行をクリックして、選択した情報を新しい行とその後の行にペーストします。 これはプレビュー環境では不可能です。
    * 1つのセルから情報をコピーし、複数のセルを選択して、同じ情報を複数のセルに貼り付けます。 複数のセルを選択し、隣接する行や列から同じ情報を複数のセルに貼り付けることができます。
    * コピーする情報を含む既存のセルの右下隅を選択し、同じ情報を貼り付ける隣接するセルにドラッグ&amp;ドロップします。 すべてのセルに同じタイプの情報が含まれている必要があります。
 
@@ -253,15 +254,18 @@ Old:
 
    * 外部ソース（Excel ファイルなど）から1つまたは複数のセルをコピーし、次のいずれかのフィールドタイプに貼り付けます。
 
-      * Workfront Planning接続フィールド。
-
-        <span class="preview">これはプレビュー環境では使用できません。</span>
       * ピープルフィールド： 1つの値を持つフィールドのみがサポートされます。
       * テキストフィールド：
       * フィールドを選択します。
       * 数値、パーセント、通貨フィールド。
 
-     外部ソースから情報をコピーして、Workfrontや他のアプリケーションの接続フィールドなど、他のフィールドタイプに貼り付けることはできません。
+   外部ソースから情報をコピーして、Workfrontや他のアプリケーションの接続フィールドなど、他のフィールドタイプに貼り付けることはできません。
+
+   <!--
+    * Workfront Planning connection fields.  
+        This is not possible in the Preview environment.
+    -->
+
 
    >[!NOTE]
    >
@@ -289,11 +293,12 @@ Old:
 
 1. （オプション）レコード名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、次のオプションから選択します。
 
-   * **表示**&#x200B;または&#x200B;<span class="preview">**新しいタブで開く**</span>：これにより、レコードページが開きます。
+   * **表示**&#x200B;または&#x200B;**新しいタブで開く**：これにより、レコードページが開きます。
    * **リンクをコピー**: レコードのページにリンクをコピーします。
-   * **サムネールを編集**: レコードにサムネールを追加するには、次の手順を実行します。詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+   * **サムネールを編集**: レコードにサムネールを追加するには、次の手順を実行します。
+詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
    * **重複**：これにより、レコードの同一の複製が作成されます。
-   * **上にレコードを挿入/下にレコードを挿入**：新しい行を追加して、新しいレコードを追加できます。 <span class="preview">これはプレビュー環境では使用できません。</span>
+   * **上にレコードを挿入/下にレコードを挿入**：新しい行を追加して、新しいレコードを追加できます。 これはプレビュー環境では不可能です。
    * **削除**: レコードを削除します。 削除されたレコードは、「最近削除されたレコード」ボックスに最大30日間保存されます。
 
 
@@ -352,8 +357,6 @@ Old:
 
    テーブル表示で、最初の列の「**詳細を開く**」アイコン「![&#x200B; テーブル名フィールドで詳細を開く」アイコン「](assets/open-details-icon-in-table-name-field.png)」をクリックします。 レコードのプレビューがビューで開きます。
 
-   <!--update screenshot for new details views preview-->
-
    ![詳細ボックス &#x200B;](assets/details-box.png)
 
 1. （オプション）レコードのタイトルの右側にある&#x200B;**詳細** メニューをクリックし、**名前を変更**&#x200B;をクリックします。 これにより、レコードのタイトルとして表示されるフィールドが更新されます。
@@ -408,8 +411,6 @@ Old:
      レコード行![&#128279;](assets/contextual-menu-for-record-row.png)の コンテキストメニュー
 
      レコードページが開きます。
-
-     <!--update screenshot for new details views preview-->
 
      ![詳細ページ &#x200B;](assets/details-page.png)
 

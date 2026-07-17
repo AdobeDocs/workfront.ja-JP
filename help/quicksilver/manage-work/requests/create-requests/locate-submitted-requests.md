@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1528
 ht-degree: 38%
 
 ---
@@ -33,11 +33,13 @@ ht-degree: 38%
 Remove production and preview references at release
 -->
 
+<!--
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 自分または他のユーザーが送信したリクエスト、または開始したリクエストを表示できますが、送信を完了したことはありません。 未完成のリクエストはドラフトとして保存されます。
 
@@ -113,7 +115,8 @@ Remove production and preview references at release
 
 >[!NOTE]
 >
->* Workfront Planningがある場合は、WorkfrontとPlanning リクエストが同じリストに表示されます。Planning リクエストの&#x200B;**オブジェクトタイプ**&#x200B;には、次のパターンの名前が付けられます：`< Name of workspace > > < Name of record type >`。 例えば、Planning リクエストのオブジェクトタイプには`Marketing workspace > Campaigns`という名前を付けることができます。\
+>* Workfront Planningがある場合は、WorkfrontとPlanning リクエストが同じリストに表示されます。
+>     Planning リクエストの&#x200B;**オブジェクトタイプ**&#x200B;には、次のパターンの名前が付けられます：`< Name of workspace > > < Name of record type >`。 例えば、Planning リクエストのオブジェクトタイプには`Marketing workspace > Campaigns`という名前を付けることができます。\
 >     Workfront リクエストの&#x200B;**オブジェクトタイプ**&#x200B;は`Issue`です。
 >* デフォルトでは、最大50件のリクエストがリクエスト領域のリストに表示されます。 その他のリクエストを表示するには、リストの一番下までスクロールします。
 
@@ -157,7 +160,7 @@ Remove production and preview references at release
 
    新しいリクエストエクスペリエンスでは、次のステータスを使用できます。
 
-   * <span class="preview">**新規**：リクエストは新しく、誰も作業を開始していません。</span>
+   * **新規**：リクエストは新しく、誰も作業を開始していません。
    * **ドラフト**：このリクエストはまだ送信されていません。 このステータスはハードコードされています。
    * **保留中のレビュー**: （計画のみ）このリクエストには承認者が含まれており、どの承認者もリクエストを開いていません。 このステータスはハードコードされています。
    * **レビュー中**: （計画のみ）このリクエストには承認者が含まれており、少なくとも1人の承認者がリクエストを開きましたが、決定は行われていません。 このステータスはハードコードされています。
@@ -166,7 +169,7 @@ Remove production and preview references at release
       * Workfront リクエスト：リクエストが変換され、作業が進行中です。
       * Workfront計画リクエスト：リクエストの完了は特定の計画フィールドにマッピングされ、フィールド値はまだ完了値と一致しません。
    * **保留中**：これはWorkfront リクエストで使用できます。 ユーザーが手動で設定できます。
-   * <span class="preview">**完了**: リクエストを完了する計画レコードが作成されました。 （計画のみ） </span>
+   * **完了**: リクエストを完了する計画レコードが作成されました。 （プランニングのみ）
    <!--
    This is not live yet; might be live for the unified intake process: 
    * <span class="preview">**Canceled**: This is for Workfront requests.</span> 
