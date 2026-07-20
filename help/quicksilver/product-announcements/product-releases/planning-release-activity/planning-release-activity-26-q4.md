@@ -17,12 +17,12 @@ ht-degree: 0%
 
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## Designerの計画には、Beta契約書への同意が必要になりました
 
 >[!NOTE]
->すべての顧客に対するプレビューと実稼動：2026年7月20日>[!BADGE  スケジュール外]{type=Neutral}
+>すべての顧客に対するプレビューと実稼動：2026年7月20日>[!BADGE &#x200B; スケジュール外]{type=Neutral}
 
 Designerを計画する際には、使用できるBeta契約書が必要になります。 AI契約書に署名する必要はありません。 これはすべてのお客様が利用できます。
 
