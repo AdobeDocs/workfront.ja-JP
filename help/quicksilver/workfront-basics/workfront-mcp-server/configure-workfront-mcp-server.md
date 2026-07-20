@@ -5,9 +5,9 @@ title: Adobe Workfront MCP サーバーの設定
 description: WorkfrontインスタンスとAI エージェント型プラットフォームを設定することで、自然言語の会話を通じてWorkfrontと連携できます。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 269019dd8af4cda11e377164de83f0a7e9d7a458
+source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ MCP サーバーアクセスは、2人の別々の管理者によってゲート
 
 * Workfront管理者は、システム環境設定の&#x200B;**読み取り専用MCP ツール** （デフォルトで有効）と&#x200B;**書き込みMCP ツール** （デフォルトで無効）の2つのトグルを使用して、Workfront インスタンスのMCP サーバーアクセスを制御します。 AI エージェントを使用してWorkfront アイテムを見つけることができるが、作成、更新、または削除できない場合は、Workfront管理者に書き込みアクションを有効にするように依頼してください。
 
-  詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+  詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 * エンタープライズ版のAI エージェント型プラットフォームを使用する場合、そのプラットフォームの管理者は、組織の[!DNL Adobe Workfront] コネクタを有効にするか、Workfront MCP サーバーに接続するためのカスタム URL アクセス権を付与する必要があります。
 
@@ -98,7 +98,7 @@ Workfrontを[!DNL Claude]に接続するには：
 >
 >この手順を実行するには、エンタープライズクラウド環境の所有者である必要があります。
 >
->所有者の要件に関するClaudeのステートメントについては、Claude ドキュメントの「[&#x200B; カスタムコネクタを追加](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to)」を参照してください。
+>所有者の要件に関するClaudeのステートメントについては、Claude ドキュメントの「[ カスタムコネクタを追加](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to)」を参照してください。
 
 URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 
@@ -120,7 +120,7 @@ URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 
 [!DNL Claude]は、スキルと呼ばれるユーザー作成の命令セットをサポートしています。 Workfrontでは、スキルを使用して[!DNL Claude]の動作をカスタマイズできます。 例えば、以前の結果に頼るのではなく、常にWorkfrontから新しいデータを取得するように[!DNL Claude]に指示するスキルを作成できます。
 
-[!DNL Claude] スキルについて詳しくは、[Claude ユーザードキュメント &#x200B;](https://code.claude.com/docs/en/skills)を参照するか、Claudeにスキルに関するヘルプを依頼してください。
+[!DNL Claude] スキルについて詳しくは、[Claude ユーザードキュメント ](https://code.claude.com/docs/en/skills)を参照するか、Claudeにスキルに関するヘルプを依頼してください。
 
 ## ChatGPTへの接続
 
@@ -142,26 +142,25 @@ URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 
 ChatGPTは、カスタム GPTと呼ばれるユーザー作成アシスタントをサポートしています。 カスタム GPTを使用して、ChatGPTがコネクタでどのように動作するかをカスタマイズできます。 例えば、以前の結果に頼るのではなく、接続されたサービスから常に新しいデータを取得するようにChatGPTに指示するカスタム GPTを作成できます。
 
-カスタム GPTについて詳しくは、[ChatGPT ユーザードキュメント &#x200B;](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts)を参照するか、カスタム GPTのヘルプをChatGPTに依頼してください。
+カスタム GPTについて詳しくは、[ChatGPT ユーザードキュメント ](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts)を参照するか、カスタム GPTのヘルプをChatGPTに依頼してください。
 
 ## WorkfrontとCopilotの連携
 
 Workfront MCPが接続できるカスタム Copilot エージェントを構築するには、Copilot Studioを使用します。
 
 1. Copilot Studioで、**空のエージェントを作成**&#x200B;をクリックします。
-1. エージェントに名前を付け、**作成**&#x200B;をクリックします。
+1. エージェントに名前を付け、**作成**をクリックします。
 エージェントのウィンドウが開きます。
 
 1. 「**手順**」フィールドに、エージェントに対して何をさせるかを記述します。 既存のプロセスやWorkfrontの使用方法などの情報を含めます。 大量の詳細を提供することをお勧めします。
 1. 上部のナビゲーションで「**ツール**」をクリックし、「**ツールを追加**」をクリックします。
 1. **モデル コンテキスト プロトコル** タイルを選択します。
 1. 表示されるパネルで、この接続の名前と説明を入力します。
-1. 「サーバーURL」フィールドに、必要なURLを入力します。
+1. 「サーバーURL」フィールドに、次のURLを入力します。
 
-   | 領域 | URL |
-   | --- | --- |
-   | 米国 | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront`
+```
 
 1. 承認の場合は、**OAuth 2.0**&#x200B;を選択し、**Dynamic discovery**&#x200B;を選択します。
 1. パネルの下部にある「**作成**」をクリックします。
@@ -203,12 +202,6 @@ Workfront MCP サーバーは、接続されたAI エージェント型プラッ
 >[!NOTE]
 >
 >* ログアウトしても、Workfront インスタンスは切り替わりません。 コネクタを切断して再接続する必要があります。
->
->* Workfront インスタンスは、そのインスタンスのリージョンのMCP サーバーに接続する必要があります。 例えば、EU インスタンスをEU MCP サーバーに接続する必要があります。
->
->   インスタンスを選択すると、MCP サーバーのリージョンと互換性のないインスタンスがグレー表示され、インスタンスに接続できません。
->
->   MCP サーバーのリージョンと互換性のないインスタンスに接続するには、そのリージョンの正しいURLを使用して新しいMCP接続を設定します。
 
 
 <!--
@@ -223,11 +216,8 @@ Workfront MCP サーバーは、接続されたAI エージェント型プラッ
 To set up the connection between Gemini and the Workfront MCP server, follow the instructions provided by Google for [connecting Gemini to external tools using MCP](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server). 
 
 When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server:  
-
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront|
    
 -->
 
@@ -271,7 +261,6 @@ What happens next
 | 認証に失敗したか、接続が機能しなくなりました。 | 認証セッションの有効期限が切れているか、接続エラーが発生しています。 | コネクタを取り外して再接続します。 |
 | 別のWorkfrontインスタンスに切り替える場合。 | 1つの接続で1つのインスタンスに関連付けられます。 | 新しいインスタンスの接続を解除して、再接続し、認証します。 |
 | Workfrontに接続できないか、MCP サーバーアクセスが無効になっていることを示すメッセージが表示されます。 | Workfront管理者は、インスタンスのMCP サーバーアクセスをオフにしています。 | Workfront管理者に連絡し、システム環境設定でMCP サーバーアクセスを有効にするように依頼します。 |
-| 接続するWorkfront インスタンスがグレー表示され、お住まいの地域では接続できません | MCP サーバーは、インスタンスとは異なる地域（EUまたは米国）に設定されています。 | Workfront インスタンスが割り当てられているリージョンのURLを使用して、MCP サーバーを設定します。 |
 | AI エージェント型プラットフォームは、Workfrontのアイテムを見つけることはできますが、作成、更新、削除することはできません。 | Workfront管理者が、Workfront MCP サーバーの書き込みアクションを無効にしています。 | Workfront管理者に連絡し、システム環境設定で書き込みアクションを有効にするように依頼します。 |
 
 接続後の日々のトラブルシューティング（例：古い結果や予期しない動作）については、[Adobe Workfront MCP サーバーの使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)を参照してください。

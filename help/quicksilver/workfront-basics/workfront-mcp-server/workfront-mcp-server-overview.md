@@ -5,9 +5,9 @@ title: Adobe Workfront MCP サーバーの概要
 description: Adobe Workfront MCP サーバーの機能と、AI エージェント型プラットフォームで自然言語の会話を通じてWorkfrontを使用する方法について説明します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5146c143611cead05def80e3279e03bee6224ba8
+source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 0%
 * *応答していないアセット「Spring Campaign Video」の承認者にリマインダーを送信します。*
 
 Workfront APIや、MCP サーバーがWorkfront MCP サーバーを使用する仕組みを知る必要はありません。
-
->[!IMPORTANT]
->
->現在、Workfront MCP サーバーは、AWSを使用しているお客様のみが利用できます。
 
 ## MCP サーバーとは
 
