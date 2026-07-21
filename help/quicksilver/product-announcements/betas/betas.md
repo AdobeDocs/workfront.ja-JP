@@ -11,9 +11,9 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: a8e45498cd25caf846015dc5e695a6018727528f
 workflow-type: tm+mt
-source-wordcount: 174
+source-wordcount: 176
 ht-degree: 10%
 
 ---
@@ -38,12 +38,12 @@ ht-degree: 10%
 
 * Workfront Content Reviewer
 
-   * 画像ガイドラインは現在ベータ版です。 コンテンツレビュアーは、Workfrontで設定したブランドガイドラインを使用してコンテンツをレビューし、レビューおよび承認プロセス中にコンテンツ制作者にフィードバックを提供します。
-   * ブランドボイスのガイドラインは一般公開されています。
+  * 画像ガイドラインは現在ベータ版です。 コンテンツレビュアーは、Workfrontで設定したブランドガイドラインを使用してコンテンツをレビューし、レビューおよび承認プロセス中にコンテンツ制作者にフィードバックを提供します。
+  * ブランドボイスのガイドラインは一般公開されています。
 
   詳しくは、[Workfront Content Reviewerの使用を開始する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)を参照してください。
 
-* Adobe Workfront計画Designerは、クローズ済みBetaで使用できます。
+* Adobe Workfront Planning Designerは、すべてのお客様がベータ版で利用できます。
 
   詳しくは、「[Adobe Workfront計画Designerの基本を学ぶ](/help/quicksilver/planning/general/planning-ai-designer.md)」を参照してください。
 
