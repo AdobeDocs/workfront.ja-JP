@@ -50,7 +50,7 @@ MCP サーバーアクセスは、2人の別々の管理者によってゲート
 
 * Workfront管理者は、システム環境設定の&#x200B;**読み取り専用MCP ツール** （デフォルトで有効）と&#x200B;**書き込みMCP ツール** （デフォルトで無効）の2つのトグルを使用して、Workfront インスタンスのMCP サーバーアクセスを制御します。 AI エージェントを使用してWorkfront アイテムを見つけることができるが、作成、更新、または削除できない場合は、Workfront管理者に書き込みアクションを有効にするように依頼してください。
 
-  詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+  詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 * エンタープライズ版のAI エージェント型プラットフォームを使用する場合、そのプラットフォームの管理者は、組織の[!DNL Adobe Workfront] コネクタを有効にするか、Workfront MCP サーバーに接続するためのカスタム URL アクセス権を付与する必要があります。
 
@@ -98,7 +98,7 @@ Workfrontを[!DNL Claude]に接続するには：
 >
 >この手順を実行するには、エンタープライズクラウド環境の所有者である必要があります。
 >
->所有者の要件に関するClaudeのステートメントについては、Claude ドキュメントの「[ カスタムコネクタを追加](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to)」を参照してください。
+>所有者の要件に関するClaudeのステートメントについては、Claude ドキュメントの「[&#x200B; カスタムコネクタを追加](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to)」を参照してください。
 
 URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 
@@ -120,7 +120,7 @@ URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 
 [!DNL Claude]は、スキルと呼ばれるユーザー作成の命令セットをサポートしています。 Workfrontでは、スキルを使用して[!DNL Claude]の動作をカスタマイズできます。 例えば、以前の結果に頼るのではなく、常にWorkfrontから新しいデータを取得するように[!DNL Claude]に指示するスキルを作成できます。
 
-[!DNL Claude] スキルについて詳しくは、[Claude ユーザードキュメント ](https://code.claude.com/docs/en/skills)を参照するか、Claudeにスキルに関するヘルプを依頼してください。
+[!DNL Claude] スキルについて詳しくは、[Claude ユーザードキュメント &#x200B;](https://code.claude.com/docs/en/skills)を参照するか、Claudeにスキルに関するヘルプを依頼してください。
 
 ## ChatGPTへの接続
 
@@ -169,14 +169,14 @@ Workfront MCP サーバーとChatGPTを接続する手順は、ChatGPT デスク
 
 ChatGPTは、カスタム GPTと呼ばれるユーザー作成アシスタントをサポートしています。 カスタム GPTを使用して、ChatGPTがコネクタでどのように動作するかをカスタマイズできます。 例えば、以前の結果に頼るのではなく、接続されたサービスから常に新しいデータを取得するようにChatGPTに指示するカスタム GPTを作成できます。
 
-カスタム GPTについて詳しくは、[ChatGPT ユーザードキュメント ](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts)を参照するか、カスタム GPTのヘルプをChatGPTに依頼してください。
+カスタム GPTについて詳しくは、[ChatGPT ユーザードキュメント &#x200B;](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts)を参照するか、カスタム GPTのヘルプをChatGPTに依頼してください。
 
 ## WorkfrontとCopilotの連携
 
 Workfront MCPが接続できるカスタム Copilot エージェントを構築するには、Copilot Studioを使用します。
 
 1. Copilot Studioで、**空のエージェントを作成**&#x200B;をクリックします。
-1. エージェントに名前を付け、**作成**をクリックします。
+1. エージェントに名前を付け、**作成**&#x200B;をクリックします。
 エージェントのウィンドウが開きます。
 
 1. 「**手順**」フィールドに、エージェントに対して何をさせるかを記述します。 既存のプロセスやWorkfrontの使用方法などの情報を含めます。 大量の詳細を提供することをお勧めします。
