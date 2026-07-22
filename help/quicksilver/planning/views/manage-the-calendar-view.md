@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 26%
@@ -157,9 +157,9 @@ Old:
   レコード日付フィールドから選択するか、接続されたレコードまたはオブジェクトタイプから検索日付フィールドを選択できます。
 * 次のシナリオが存在します。
 
-   * 開始日と終了日の両方に値がない場合、レコードはカレンダーに表示されません
-   * 開始日または終了日に値がない場合、レコードは1日イベントとして表示されます
-   * 開始日が終了日より後の場合、レコードはカレンダーに表示されません。
+  * 開始日と終了日の両方に値がない場合、レコードはカレンダーに表示されません
+  * 開始日または終了日に値がない場合、レコードは1日イベントとして表示されます
+  * 開始日が終了日より後の場合、レコードはカレンダーに表示されません。
 
 カレンダービューを管理するには：
 
@@ -176,12 +176,12 @@ Old:
    * 右上隅の&#x200B;**Today**&#x200B;をクリックして、カレンダーを今日の日付の中央に配置します。
    * 時間枠ドロップダウンメニューから次のいずれかのオプションを選択して、時間間隔を更新します。
 
-      * **月**：月次カレンダーにレコードが表示されます。
+     * **月**：月次カレンダーにレコードが表示されます。
 
-      * **週**: レコードは次の領域に表示されます：
+     * **週**: レコードは次の領域に表示されます：
 
-         * 複数日にまたがるレコードは、カレンダーの上部に表示されます。
-         * 1日以下の期間のレコードは、カレンダービューの下半分に表示されます。 開始日と終了日の時間を表示するように選択した場合、レコードは発生した日内の適切な時間に表示されます。
+       * 複数日にまたがるレコードは、カレンダーの上部に表示されます。
+       * 1日以下の期間のレコードは、カレンダービューの下半分に表示されます。 開始日と終了日の時間を表示するように選択した場合、レコードは発生した日内の適切な時間に表示されます。
 
 1. （オプション）「**フルスクリーン**」アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
 
@@ -449,6 +449,15 @@ Old:
    例えば、複数選択フィールドや単一選択フィールドには、色分けされたオプションを含めることができます。
 
    選択したレコードタイプに対して色分けされたオプションを含むフィールドがない場合、このオプションは淡色表示になります。
+
+   <!--
+        For July 23: add this note after the last sentence here
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
 
 1. 「**保存**」をクリックします。

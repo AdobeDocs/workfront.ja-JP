@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: edee967a5c19d86fd471c4571a0b458f72bf370e
 workflow-type: tm+mt
-source-wordcount: 921
+source-wordcount: 2201
 ht-degree: 1%
 
 ---
@@ -84,13 +84,13 @@ WHERE ExpandedProjectName is not null
 
 * `<data_type>`は、JSON オブジェクトから返される値を、フィールドに適したデータ型に変換します。 返される値に互換性のないデータタイプを選択すると、データタイプの不一致エラーが発生します。 使用可能なデータタイプは次のとおりです。
 
-   * `text`
-   * `varchar`
-   * `int`
-   * `float`
-   * `number(len,precision)` （例：`Number(32,4)`は1234.0987を返します）
-   * `date`
-   * `timestamp`
+  * `text`
+  * `varchar`
+  * `int`
+  * `float`
+  * `number(len,precision)` （例：`Number(32,4)`は1234.0987を返します）
+  * `date`
+  * `timestamp`
 
 * `<column_name>`は、カスタムデータ列ごとに作成するラベルです。
 
@@ -195,6 +195,207 @@ FROM
 >projects_event: 
 >`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
+## 計画：単一レコードタイプのクエリ
+
+この例では、Data Connect データレイクに保存されている1つのレコードタイプについて、Workfront Planning データをクエリする方法を示します。
+
+### シナリオ
+
+組織では、Workfront Planningを使用してキャンペーンを追跡しています。 各キャンペーンレコードには、名前、ステータス、開始日、終了日、所有者が含まれます。 ダッシュボードで使用する、アクティブなすべてのキャンペーンとその主要な詳細のリストを取得します。
+
+* プランニング・レコード・タイプ・データは、PLANNINGRECORD_CURRENT ビューに格納されます。
+* 各行は1つのレコードを表し、すべてのフィールド値はFIELD_VALUESという名前のJSON列に格納されます。
+* レコードタイプは、RECORDTYPEID列で識別されます。
+* レコードのワークスペースは、WORKSPACEID列（または人間が読み取り可能なフィルターのWORKSPACENAME列）によって識別されます。
+
+### クエリ
+
+```sql
+SELECT
+  recordid,
+  FIELD_VALUES:"Name"::text AS campaign_name,
+  FIELD_VALUES:"Status"::text AS campaign_status,
+  FIELD_VALUES:"Start Date"::date AS start_date,
+  FIELD_VALUES:"End Date"::date AS end_date,
+  FIELD_VALUES:"Owner"::text AS owner
+FROM PLANNINGRECORD_CURRENT
+WHERE WORKSPACEID = '<your_campaign_workspace_id>'
+AND RECORDTYPEID = '<your_campaign_record_type_id>'
+AND FIELD_VALUES:"Status"::text = 'Active'
+ORDER BY start_date ASC
+```
+
+### 応答
+
+上記のクエリは、次のデータを返します。
+
+* **recordid**: キャンペーンの一意の計画レコード ID。
+* **campaign_name**: FIELD_VALUES JSON オブジェクトから抽出されたキャンペーンの名前。
+* **campaign_status**: キャンペーンの現在のステータス。
+* **start_date**: キャンペーンの開始日。日付データタイプにキャストされます。
+* **end_date**: キャンペーンの終了日。日付データタイプにキャストされます。
+* **所有者**: キャンペーンオーナーとして割り当てられたユーザーまたはチームの名前。
+
+### 説明
+
+Data Connectのプランニングレコードは、レコードタイプに関係なく、単一のテーブル構造を共有します。 RECORDTYPEID列は、クエリを特定のレコードタイプ（この場合はCampaigns）にスコープするために使用されます。 `<your_campaign_record_type_id>`をクエリするレコードタイプのIDに置き換えます。このIDは、Workfront計画レコードタイプの設定またはRECORDTYPE_CURRENTをクエリすることによって見つけることができます。
+
+フィールド値は、FIELD_VALUES列にJSON オブジェクトとして保存され、カスタムフォームデータに使用するのと同じコロン表記法を使用してアクセスされます。
+
+```
+<field_column>:"<field_name>"::<data_type> AS <alias>
+```
+
+フィールド名の参照は、大文字、間隔、絵文字など、プランニングレコードタイプのフィールド設定で定義されているフィールド名と完全に一致する必要があります。
+
+>[!NOTE]
+>
+>Workfront Planningでレコードタイプを表示する際に、URLにプランニングレコードタイプ IDが表示されます。 「Rt...」で始まるURLのパスです。 レコードタイプは、Data Connect内の次のSQL呼び出しでも見つけることができます。
+>
+>
+>```sql
+>SELECT
+>ID AS recordtypeid,
+>DISPLAYNAME AS record_type_name,
+>WORKSPACEID
+>FROM RECORDTYPE_CURRENT
+>ORDER BY record_type_name ASC
+>```
+
+## 計画：接続されたレコードタイプのクエリ
+
+この例では、接続されている2つのPlanning レコード・タイプ（親レコード・タイプと接続されているレコード・タイプ）にわたってデータを問い合わせる方法を示します。
+
+### シナリオ
+
+Workfront Planningのキャンペーンレコードを戦術レコードに接続します。 関連する戦術の主要な詳細と共に、各キャンペーンを示すレポートを作成します。 経営陣が戦術別に整理されたキャンペーン活動を確認できるように、戦術名、戦略的優先順位、予算配分を示したいと考えています。
+
+データ接続では、ネイティブのプランニング・レコード・タイプ間の接続は、PLANNINGRECORD_CURRENTのFIELD_VALUES_RAW列に直接保存されます。 「戦術」という名前の参照フィールドの場合、値は接続されたレコードオブジェクトのJSON配列で、接続されたレコードのRECORDIDを持つID プロパティを含みます。 SnowflakeのLATERAL FLATTENを使用して、この配列を行に展開し、接続されたレコードタイプに結合します。
+
+### クエリ
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  t.FIELD_VALUES:"Name"::text AS tactic_name,
+  t.FIELD_VALUES:"Strategic Priority"::text AS strategic_priority,
+  t.FIELD_VALUES:"Budget Allocation"::float AS budget_allocation
+FROM PLANNINGRECORD_CURRENT c,
+INNER JOIN REFERENCE_CURRENT R 
+ON r.FROM_REFERENCEID = c.REFERENCE_IDS:"Tactics"::text
+INNER JOIN PLANNINGRECORD_CURRENT t
+-- Join to the Tactic record using the connected record ID from the array
+ON t.RECORDID = r.TO_RECORDID
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+ORDER BY tactic_name, campaign_name
+```
+
+### 応答
+
+上記のクエリは、次のデータを返します。
+
+* **campaign_id**: キャンペーンの一意のプランニングレコード ID。
+* **campaign_name**: キャンペーンレコードの名前。
+* **campaign_status**: キャンペーンの現在のステータス。
+* **tactic_name**：接続されている戦術レコードの名前。
+* **strategic_priority**：接続された戦術レコードの戦略的優先度フィールド値。
+* **budget_allocation**：接続された戦術レコードの予算配分フィールド値で、浮動小数点としてキャストされます。
+
+### 説明 – 変更されたKP
+
+ネイティブのプランニング・レコード・タイプ間の接続は、REFERENCE_CURRENT結合テーブルに格納されます。  REFERENCE_CURRENT結合テーブルは、RecordType間の結合に使用されます。   RecordType間で結合する場合は、TO_RECORDID フィールドを使用する必要があります。
+
+PLANNINGRECORD ビューのREFERENCE_ID列には、その計画レコードに適用できるすべてのREFERENCEID フィールドのリストが含まれます。 field_valueと同じJSON表記法を使用して、IDにアクセスできます。
+
+```
+<reference_ids>:"<reference_name>"::text
+```
+
+REFERENCE_CURRENT ビューには、TO_RECORDIDがPLANNINGRECORD_* ビューの他の計画`recordId` フィールドを指す1つ以上のレコードが含まれています。
+
+別の参照フィールドを追加の計画レコードに結合するには、REFERENCE_CURRENTとPLANNINGRECORDに結合する同じパターンを使用して_*ビューを上記のクエリに追加します。
+
+
+## 計画：レコードタイプをWorkfront Workflow データクエリに結合
+
+この例では、REFERENCE_CURRENT ビューに外部オブジェクト参照を保存するPlanningのネイティブ接続機能を使用して、Workfront PlanningのレコードタイプをWorkfrontのネイティブワークフローオブジェクト（この場合はプロジェクト）に結合する方法を示します。
+
+### シナリオ
+
+組織は、Planningのネイティブ接続機能を使用して、Workfront PlanningのCampaign レコードをWorkfront プロジェクトに接続します。 キャンペーンマネージャーがPlanning Workspaceのコンテキストから離れることなく、配信の進捗状況を追跡できるように、リンクされたプロジェクトのライブ実行データ（特に、プロジェクトの現在の完了率、予定完了日、割り当てられたプロジェクトオーナー）とキャンペーンの詳細を示す統合レポートを作成します。
+
+### クエリ
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  conn.TO_EXTERNALID AS linked_project_id,
+  p.name AS project_name,
+  p.percentcomplete AS project_percent_complete,
+  p.plannedcompletiondate AS project_planned_completion,
+  p.ownerid AS project_owner_id,
+  u.name AS project_owner_name
+FROM WORKFRONT.PLANNING.PLANNINGRECORD_CURRENT c
+-- Join to the references table to find Workfront Project connections
+INNER JOIN WORKFRONT.PLANNING.REFERENCE_CURRENT conn
+ON conn.REFERENCE_ID = c.REFERENCE_IDS:"ProjectId"::text
+-- Join to the Workfront Projects table on the external ID
+INNER JOIN WORKFRONT.WF.PROJECTS_CURRENT p
+ON p.projectid = conn.TO_EXTERNALID
+-- Join to Users to resolve the project owner name
+LEFT JOIN WORKFRONT.WF.USERS_CURRENT u
+ON u.userid = p.ownerid
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+AND p.completiontype != 'CPL' -- Exclude completed projects
+ORDER BY campaign_name
+```
+
+### 応答
+
+上記のクエリは、次のデータを返します。
+
+* **campaign_id**: キャンペーンの一意のプランニングレコード ID。
+* **campaign_name**: キャンペーンレコードの名前。
+* **campaign_status**: Planningからのキャンペーンの現在のステータス。
+* **linked_project_id**：接続されているWorkfront プロジェクトを識別する、REFERENCE_CURRENT.TO_EXTERNALIDのWorkfront プロジェクト ID。
+* **project_name**: PROJECTS_CURRENTのネイティブ Workfront プロジェクト名。
+* **project_percent_complete**: プロジェクトの現在の完了率の値。
+* **project_planned_completion**: リンクされたWorkfront プロジェクトの予定完了日。
+* **project_owner_id**: プロジェクト所有者のWorkfront ユーザーID。
+* **project_owner_name**: プロジェクト所有者の表示名。USERS_CURRENTに参加することで解決されます。
+
+### 説明
+
+プランニングレコードタイプからネイティブのWorkfront Workflow オブジェクトへの接続は、REFERENCE_CURRENTに保存されます。 このビューの各行は、1つの方向リンクを表します。TO_EXTERNALIDは、接続されたWorkfront オブジェクトのIDを保持します。 Workfront接続を表す行は、`TO_EXTERNALCONNECTIONNAME = 'workfront'`と、Workfront オブジェクトタイプのAPI コード（プロジェクトのPROJなど）に対応するTO_EXTERNALOBJECTNAME値によって識別されます。
+
+PLANNINGRECORD テーブルのREFERENCE_ID列には、そのレコードに適用できるすべてのREFERENCEID フィールドのリストが含まれます。  field_valueと同じJSON表記法を使用して、IDにアクセスできます。\
+PLANNINGRECORD_CURRENT内の1つのREFERENCE_IDには、REFERENCE_CURRENT テーブル内の1つ以上の参照リンクが含まれ、Workfront テーブル内の特定のオブジェクトタイプのオブジェクトにリンクする場合があります。
+
+```
+<reference_ids>:"<reference_name>"::text
+```
+
+プランニングビュー（PLANNINGRECORD_CURRENT、REFERENCE_CURRENT）はWORKFRONT.PLANNING スキーマに存在し、ネイティブのWorkfront ワークフロービュー（PROJECTS_CURRENT、USERS_CURRENTなど）は存在することに注意してください。 Workfront.WF スキーマに格納されます。 クロススキーマ結合には、完全修飾テーブル名が必要です。
+
+クエリは3つの結合を実行します。
+
+1. **参照テーブルへのレコードの計画：** REFERENCE_CURRENTは`TO_RECORDID = c.RECORDID`に結合され、各Campaign レコードから送信されたすべての接続を検索します。 `TO_EXTERNALCONNECTIONNAME = 'workfront'`および`TO_EXTERNALOBJECTNAME = 'PROJ'`のフィルターは、Workfront プロジェクトへの接続を具体的に表す行に結果を絞り込みます。
+1. **Workfront プロジェクトへの参照テーブル：** TO_EXTERNALIDは、接続されたプロジェクトのネイティブ Workfront プロジェクト IDを保持します。 これは、ライブプロジェクトデータを取得するために`PROJECTS_CURRENT.projectid`に直接結合されます。
+1. **ユーザーへのプロジェクト：** USERS_CURRENTへのLEFT JOINは、プロジェクトの所有者ID外部キーを人間が読み取り可能な名前に解決します。 ここではLEFT JOINが使用されるので、所有者が割り当てられていないプロジェクトも結果に含まれます。
+
+>[!NOTE]
+>
+>Planningの外部のテーブルに結合する場合は、クエリでTO_RECORDID フィールドを使用しないでください。  外部テーブルに結合する場合は必要ありません。
+>
+>このパターンは、プロジェクト、ポートフォリオ、プログラムなど、Planningが接続をサポートするWorkfront Workflow オブジェクトに適用できます。TO_EXTERNALOBJECTNAME フィルターを適切なオブジェクト API コード（ポートフォリオのPORTやプログラムのPRGMなど）に変更し、対応するWORKFRONT.WF テーブルに結合します。 各オブジェクトタイプの正しいテーブル名とID列名については、Workfront Data Connect データディクショナリを参照してください。
+
+別のREFERENCE フィールドを追加の外部レコードに結合するには、REFERENCE_CURRENTとWorkfrontのワークフロービューに結合する同じパターンを上記のクエリに追加します。
+
+外部レコードとプランニングレコードの値は、REFERENCE_CURRENT テーブルに複数回結合し、適切な結合パターンを使用して、同じクエリで結合できます。
 
 
 <!--
