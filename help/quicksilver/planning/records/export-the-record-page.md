@@ -9,10 +9,15 @@ exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6mGLH9rvSZu9TEoVyuYHyrqPNr78Rruy97jxvayl1nc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 362
@@ -64,7 +69,7 @@ To collaborate more efficiently with others that might not have a Workfront acco
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -161,7 +166,7 @@ Old:
 
 1. 「**詳細**」タブを選択します。 「詳細」タブはデフォルトで開きます。
 
-1. プレビューまたはレコードのページで&#x200B;**書き出し** メニュー![ レコードの詳細ページ ](assets/export-icon-in-record-details-page.png)の書き出しアイコンをクリックし、次のいずれかをクリックします。
+1. プレビューまたはレコードのページで&#x200B;**書き出し** メニュー![&#x200B; レコードの詳細ページ &#x200B;](assets/export-icon-in-record-details-page.png)の書き出しアイコンをクリックし、次のいずれかをクリックします。
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -170,7 +175,7 @@ Old:
 
    書き出されたファイルの名前は、レコードのプライマリフィールドです。
 
-   ![書き出されたword ファイル ](assets/exported-word-file.png)
+   ![書き出されたword ファイル &#x200B;](assets/exported-word-file.png)
 
    >[!NOTE]
    >
