@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 2%
+source-wordcount: '1813'
+ht-degree: 1%
 
 ---
 
@@ -24,16 +24,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<span class="preview">このページで強調表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Workfront Planningの次の領域では、リストビューでオブジェクトを表示できます。
 
-* レコードの詳細領域<!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->にあるプロジェクトの接続されたレコード ページ
+* レコードの詳細領域にあるプロジェクトの接続されたレコードページ
 
   ![&#x200B; リスト表示の接続されたレコード ページ上のプロジェクト &#x200B;](assets/projects-on-connected-records-page-list-view.png)
 
@@ -86,17 +87,17 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * 接続されたレコードのページリストビューについては、次を考慮してください。
 
-   * プロジェクトは、レコードの接続されたレコードページのリストビューでのみ表示できます。 リスト表示は、接続されたレコードページ内の他のオブジェクトまたはレコードタイプでは使用できません。
+  * プロジェクトは、レコードの接続されたレコードページのリストビューでのみ表示できます。 リスト表示は、接続されたレコードページ内の他のオブジェクトまたはレコードタイプでは使用できません。
 
   接続レコードページの作成について詳しくは、[接続レコードページをレコードに追加](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)を参照してください。
-   * レコードの接続されたレコードページでリストビューを表示する前に、Workfront プロジェクトをプランニングレコードタイプに接続する必要があります。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
-   * レコードの接続されたレコードページで、プロジェクトの複数のリストビューを作成できます。
+  * レコードの接続されたレコードページでリストビューを表示する前に、Workfront プロジェクトをプランニングレコードタイプに接続する必要があります。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+  * レコードの接続されたレコードページで、プロジェクトの複数のリストビューを作成できます。
 
 * リクエストフォームのリストビューでは、次の点を考慮してください。
 
-   * Planning リクエストフォームの追加リストビューを作成または編集することはできません。 Workfrontは、リクエストフォームに対して1つのリストビューを作成します。<!--this will change-->
+  * Planning リクエストフォームの追加リストビューを作成または編集することはできません。 Workfrontは、リクエストフォームに対して1つのリストビューを作成します。<!--this will change-->
 
-     リクエストフォームについて詳しくは、[Adobe Workfront Planningでのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
+    リクエストフォームについて詳しくは、[Adobe Workfront Planningでのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
 * 表示される場所に応じて、すべてのリストビューがこの記事に記載されているすべての要素を持っているわけではありません。
 
 ## リスト表示の管理 {#manage-a-list-view}
@@ -186,10 +187,10 @@ Removed - more direct steps below:
       **列マネージャー**&#x200B;が開きます。
 
       リスト表示に追加できるのは、既存のフィールドのみです。
-最初の列に表示されるリストビューのプライマリフィールドは削除できません。
+      最初の列に表示されるリストビューのプライマリフィールドは削除できません。
 
    1. **セルの書式設定** アイコン ![&#x200B; セルの書式設定アイコン &#x200B;](assets/format-cells-icon.png)をクリックします。 **形式** ボックスが開きます。 <!--change the name of the box when they update it-->
-次の操作を行います。
+      次の操作を行います。
 
       1. 「**条件を追加**」をクリックします。
       1. **If**&#x200B;行で、フィールドを選択し、フィールド値を選択して修飾子を追加します。 選択したフィールドタイプによって修飾子が変更されます。
@@ -223,8 +224,8 @@ Removed - more direct steps below:
       1. 「**形式**」ボックスの外側をクリックして閉じます。
 
          リストビューに戻ります。
-書式設定は、リスト表示にすぐに適用されます。
-「**セルを書式設定**」アイコンの横に青い点があり、ビューに特殊な書式設定が適用されていることを示します。
+         書式設定は、リスト表示にすぐに適用されます。
+         「**セルを書式設定**」アイコンの横に青い点があり、ビューに特殊な書式設定が適用されていることを示します。
 
    1. （オプション）「**グループ化**」アイコン「![&#x200B; グループ化」アイコン「](assets/grouping-icon.png)」をクリックして、リスト内の項目を共通フィールドでグループ化します。 オプションのいずれかを選択するか、検索バーを使用してフィールドを検索します。
 
@@ -254,9 +255,9 @@ Removed - more direct steps below:
 
 1. （条件付き）選択テキストフィールドの場合、キーボードの矢印キーを使用してオプションのリストを移動し、スペースバーを押して正しい選択を選択します。
 
-   <span class="preview">選択フィールドタイプの&#x200B;**検索**&#x200B;行を使用して、適切なオプションを見つけます。</span>
+   フィールドの種類を選択で&#x200B;**検索**&#x200B;行を使用して、適切なオプションを見つけます。
 
-   <span class="preview">結果が見つからない場合は、フィールドセルから新しいオプションを直接追加できます。 この機能は、すべてのリストで利用できるわけではありません。</span>
+   結果が見つからない場合は、フィールドセルから新しいオプションを直接追加できます。 この機能は、一部のリストでは利用できない場合があります。
 
 1. リスト内の項目の名前にカーソルを合わせ、**詳細** メニュー[詳細メニュー](assets/more-menu.png)をクリックし、**表示**&#x200B;をクリックして別のタブで項目を開きます
 

@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 614
 ht-degree: 6%
 
 ---
@@ -42,8 +42,8 @@ ht-degree: 6%
 * 誰かがレコードのコメントで自分やチームにタグを付けます
 
   レコードコメント内の他のユーザーのタグ付けについて詳しくは、[&#x200B; レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
-* ビュー、ワークスペース、またはレコードタイプ <!--or <span class="preview">or a record</span>-->へのアクセス許可を求めるユーザーがいます
-* 誰かが、ビュー、ワークスペース、またはレコードタイプ <!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->に対するアクセス権が付与されたことを確認します
+* ビュー、ワークスペース、レコードタイプまたはレコードへのアクセス権を求めるユーザー
+* 誰かが、ビュー、ワークスペース、レコードタイプ、またはレコードに対するアクセス権が付与されたことを確認します
 * Workfront計画リクエストを送信します。 詳しくは、[Adobe Workfront Planningでのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)を参照してください
 * 送信したWorkfront計画リクエストを誰かが承認または却下します。 詳しくは、[Adobe Workfront Planningでのリクエストの承認](/help/quicksilver/planning/requests/approve-request.md)を参照してください
 * ステータスは、送信したWorkfront Planning リクエストに変わります。

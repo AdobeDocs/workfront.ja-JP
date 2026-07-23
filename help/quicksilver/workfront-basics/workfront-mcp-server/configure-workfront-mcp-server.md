@@ -5,10 +5,10 @@ title: Adobe Workfront MCP サーバーの設定
 description: WorkfrontインスタンスとAI エージェント型プラットフォームを設定することで、自然言語の会話を通じてWorkfrontと連携できます。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+source-git-commit: 881ec05a1b41b65339b3e90aef05762118093bdc
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 0%
+source-wordcount: '1746'
+ht-degree: 1%
 
 ---
 
@@ -124,18 +124,45 @@ URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 
 ## ChatGPTへの接続
 
-1. 資格情報を使用して[ChatGPT](https://chatgpt.com)にログインします。
-1. 左下で、**あなたの名前** → **設定**&#x200B;を選択します。
-1. **アプリ**&#x200B;を選択し、**開発者モード**&#x200B;を有効にします。
-1. 「**アプリを作成**」ボタンを選択します。
-1. アプリケーションに目的の名前（「Workfront」など）を付け、MCP サーバーのURLを入力します。
+Workfront MCP サーバーとChatGPTを接続する手順は、ChatGPT デスクトップとCodex、またはWeb上のChatGPTのどちらを使用しているかによって異なります。
+
+### ChatGPT デスクトップまたはChatGPT コーデックスへの接続
+
+1. ChatGPTで、**設定**&#x200B;を開きます。
+1. 左側のナビゲーションで「**プラグイン**」をクリックします。
+1. ウィンドウの右上付近にある「**サーバーを追加**」をクリックします。
+1. サーバーの名前を入力します。
+1. タイプに「**ストリーマブル HTTP**」を選択します。
+1. MCP サーバーのURLを設定します。
 
    ```
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
 
-1. 認証が&#x200B;**OAuth** （デフォルトで設定）に設定されていることを確認し、「承認」チェックボックスをオンにして続行します。
-1. アプリの作成後、ログインウィンドウがポップアップ表示されます。 Adobe IDの認証情報を使用して認証します。 複数に属している場合は、必ず目的のWorkfront インスタンスを選択してください。
+1. 「**保存**」をクリックします。
+1. 表示されるリストで、追加するMCP サーバーの&#x200B;**Authenticate**&#x200B;をクリックします。
+1. Workfrontにログインします。
+1. ChatGPTでは、MCP サーバーリストで、新しいMCP サーバーの右側のトグルがオンのままであることを確認します。
+
+
+### Web上でChatGPTに接続する
+
+1. 資格情報を使用して[ChatGPT](https://chatgpt.com)にログインします。
+1. 左下で名前を選択し、**設定**&#x200B;を選択します。
+1. 左側のナビゲーションで、**セキュリティとログイン**&#x200B;を選択します。
+1. https://chatgpt.com/pluginsのChatGPT プラグインページに移動します。
+1. プラグインページの右上付近にあるプラスアイコンをクリックします。
+1. 「**名前**」フィールドに、MCP サーバーの名前を入力します。
+1. **接続** フィールドで、**サーバーURL**&#x200B;を選択し、MCP サーバーURLを入力します。
+
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
+
+1. 認証が&#x200B;**OAuth**&#x200B;に設定されていることを確認します（デフォルトで設定）。
+1. リスクメッセージを読み、チェックボックスにチェックを入れて、読んだことを示します。
+1. 「**作成**」をクリックします。
+1. アプリを作成すると、Workfront ログインウィンドウが表示されます。 Adobe IDの認証情報を使用して認証します。 複数に属している場合は、必ず目的のWorkfront インスタンスを選択してください。
 
 
 ### カスタム GPTでChatGPTの動作をカスタマイズ

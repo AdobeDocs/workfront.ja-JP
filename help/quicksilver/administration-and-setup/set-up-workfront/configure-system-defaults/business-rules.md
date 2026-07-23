@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d0b0499c10d0e7b032eeceb0d200b4594414e475
 workflow-type: tm+mt
-source-wordcount: 1808
+source-wordcount: 1857
 ht-degree: 4%
 
 ---
@@ -159,6 +159,10 @@ IF(
 >[!ENDSHADEBOX]
 
 カスタムローカライゼーションについて詳しくは、[&#x200B; カスタムローカライゼーションの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)を参照してください。
+
+>[!NOTE]
+>
+>ビジネスルールは、メインプロセスが完了した後に実行されます。 つまり、ビジネスルールは、メインプロセスによってまだ処理されていないアクションを防ぐことを目的としています。 これらは、メインの実行時にスローされた例外を上書きしたり置き換えたりすることはなく、プロセスの最後で実行されます。
 
 ## ビジネスルール自動化のシナリオ
 
@@ -307,3 +311,4 @@ IF({status} = "APR", true)
 1. ルールのリストでビジネスルールを選択し、編集アイコンをクリックします。
 1. ビジネスルールダイアログで「**はアクティブです**」の「**はい**」を選択します。
 1. 「**保存**」をクリックします。
+

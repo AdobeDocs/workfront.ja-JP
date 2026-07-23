@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 398
 ht-degree: 7%
 
 ---
@@ -36,8 +36,8 @@ ht-degree: 7%
 * 誰かがレコードのコメントで自分やチームにタグを付けます
 
   レコードコメント内の他のユーザーのタグ付けについて詳しくは、[&#x200B; レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
-* ビューまたはワークスペース <!--<span class="preview">or record</span>-->へのアクセス許可を求めるユーザーがいます
-* 誰かが、ビューまたはワークスペース <!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test-->に対するアクセス権が付与されたことを確認します
+* ビュー、ワークスペースまたはレコードへのアクセス権を求めるユーザー
+* 誰かが、ビュー、ワークスペース、またはレコードに対するアクセスが許可されたことを確認します
 
 ## アクセス要件
 
@@ -149,7 +149,7 @@ OLD:
 
 ## 誰かがコメントであなたをタグ付けしたときに、アプリ内通知を管理します
 
-1. （条件付き）誰かがレコードのコメントで自分やチームにタグを付けた後、Adobe Experience Cloudのアプリ内&#x200B;**通知** アイコン ![Experience cloud通知アイコン &#x200B;](assets/experience-cloud-notifications-icon.png)に移動します。
+1. （条件付き）誰かがレコードのコメントで自分やチームにタグを付けた後、Adobe Experience Cloudのアプリ内&#x200B;**通知** アイコン ![Experience Cloud通知アイコン &#x200B;](assets/experience-cloud-notifications-icon.png)に移動します。
 
    ![&#x200B; アプリ内通知の例](assets/in-app-notification-example.png)
 
