@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+source-git-commit: 62688ecf071774f0446e35035a3e0633e3094eae
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 14%
+source-wordcount: '3317'
+ht-degree: 16%
 
 ---
 
@@ -609,6 +609,16 @@ New features in Workfront Planning are available in Production.
 このアップデートは、Mac と Windows の両方に対応しています。
 
 ## お知らせ
+
+### Data Connect リーダーユーザーのパスワードのみの認証は2026年8月8日に終了します
+
+2026年8月8日（PT）以降、パスワードのみのログインで認証を行うWorkfront Data Connect / Snowflake reader ユーザーは、多要素認証（MFA）が有効になっていない限り機能しなくなります。 この日付を過ぎると、MFAを過去にさかのぼって追加することはできません。読み取りユーザーが失効することを許可されている場合は、新しいユーザープロファイルを作成することによってのみアクセスを復元できます。
+
+Workfront AdministratorでData Connect リーダーを使用しているユーザーで、MFAをまだ有効にしていない場合は、この変更を速やかにユーザーに通知してください。
+
+この変更は、2026年4月のWorkfront リリースノートで最初に発表されました。これは、期限前の最後のリマインダーです。 影響を受けるすべての読者ユーザーが2026年8月8日より前にMFAを有効にして、アクセスの中断を避けてください。
+
+詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/ja/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
 
 ### スタンドアロン製品としてのAdobe Workfront Planning
 
