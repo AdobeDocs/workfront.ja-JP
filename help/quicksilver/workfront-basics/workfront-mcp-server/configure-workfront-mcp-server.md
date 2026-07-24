@@ -5,10 +5,10 @@ title: Adobe Workfront MCP サーバーの設定
 description: WorkfrontインスタンスとAI エージェント型プラットフォームを設定することで、自然言語の会話を通じてWorkfrontと連携できます。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 881ec05a1b41b65339b3e90aef05762118093bdc
+source-git-commit: 6ee4dc992b62ce2602bab0b75d8a27fa6a01acc2
 workflow-type: tm+mt
-source-wordcount: '1746'
-ht-degree: 1%
+source-wordcount: '1935'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,9 @@ MCP サーバーアクセスは、2人の別々の管理者によってゲート
 
 Workfrontへの接続は、[!DNL Claude] アカウントごとに1回です。 接続によって特定のWorkfront インスタンスが認証され、切断するまで接続が維持されます。
 
-
+* [Connectors ディレクトリからClaude デスクトップに接続します](#connect-to-claude-desktop-from-the-connectors-directory)
+* [URLを使用してClaudeに接続](#connect-to-claude-with-a-url)
+* [Claudeの行動をスキルでカスタマイズする](#customize-claude-behavior-with-skills)
 
 ### Connectors ディレクトリからClaude デスクトップに接続します
 
@@ -125,6 +127,10 @@ URLを使用してWorkfrontを[!DNL Claude]に接続するには：
 ## ChatGPTへの接続
 
 Workfront MCP サーバーとChatGPTを接続する手順は、ChatGPT デスクトップとCodex、またはWeb上のChatGPTのどちらを使用しているかによって異なります。
+
+* [ChatGPT デスクトップまたはChatGPT コーデックスへの接続](#connect-to-chatgpt-desktop-or-chatgpt-codex)
+* [Web上でChatGPTに接続する](#connect-to-chatgpt-on-the-web)
+* [カスタム GPTでChatGPTの動作をカスタマイズ](#customize-chatgpt-behavior-with-custom-gpts)
 
 ### ChatGPT デスクトップまたはChatGPT コーデックスへの接続
 
@@ -202,6 +208,30 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront`
 1. ツールを設定してテストする場合は、**公開**&#x200B;をクリックします。
 
    公開する権限がない可能性があります。 そのような場合は、Copilotの管理者にお問い合わせください。
+
+## Workfrontをカスタム MCP ソリューションに接続する
+
+独自のカスタムアプリケーションやエージェントを構築する場合は、Workfront MCP サーバーに直接接続できます。
+
+連携させる方法は2つあります。
+
+* [サービストークンへの接続](#connect-with-a-service-to-service-token)
+* [OAuthへの接続](#connect-with-oauth)
+
+### サービストークンへの接続
+
+1. Adobe Developer Consoleを使用してサービス資格情報を作成します。 詳しくは、[&#x200B; サーバー間の認証](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)を参照してください。
+1. 次の情報を使用して、Workfront MCP サーバーに接続します。
+
+   * **URL**：`https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   * **ヘッダー**:
+
+     * `Authorization: Bearer <access_token>`
+     * `wf-url: <your_subdomain>.my.workfront.com` （資格情報が複数のWorkfront インスタンス （プレビューや実稼動環境など）にアクセスできる場合は必須）。
+
+### OAuthへの接続
+
+カスタム OAuth統合のセルフサービスサポートは、Workfrontではまだ利用できません。
 
 ## 接続を確認
 
@@ -298,6 +328,10 @@ What happens next
 ## セットアップに関するよくある質問
 
 +++ 展開すると、Workfront MCP サーバーの設定に関するよくある質問が表示されます。
+
+* [複数のWorkfront インスタンスに同時に接続できますか？](#can-i-connect-to-multiple-workfront-instances-at-the-same-time)
+* [どの管理者がこれを有効にしますか？](#which-administrator-enables-this)
+* [Adobe Identity Management System （IMS）でWorkfront インスタンスが有効になっていない場合、Workfront MCP サーバーを使用できますか？](#can-i-use-the-workfront-mcp-server-if-my-workfront-instance-isnt-enabled-on-adobe-identity-management-system-ims)
 
 ### 複数のWorkfront インスタンスに同時に接続できますか？
 
