@@ -11,31 +11,19 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
 workflow-type: tm+mt
-source-wordcount: 1218
-ht-degree: 39%
+source-wordcount: 1155
+ht-degree: 38%
 
 ---
 
 # システム環境設定を指定
-
-{{preview-fast-release-general}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -115,7 +103,7 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
      </tr> 
      <tr> 
       <td role="rowheader"> <p>メールアドレスを使用して、Workfront アカウントを持たないユーザーと共同作業</p> </td> 
-      <td>Workfront ユーザーは、名前の代わりにメールアドレスを含めることにより、Workfront アカウントを持たないユーザーと特定の項目を共有できます。 ユーザーは、メールアドレスを使用して、以下の項目を外部ユーザーと共有できます。
+      <td>Workfront ユーザーが、Workfront アカウントを持たないユーザーと名前ではなくメールアドレスを含めて特定のアイテムを共有できるようにします。ユーザーは、メールアドレスを使用して、次の項目を外部ユーザーと共有できます。
        <ul>
         <li>ドキュメント<br></li>
         <li>ドキュメントリクエスト<br></li>
@@ -155,7 +143,7 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
      </tr>
      <tr> 
       <td role="rowheader">ストレージの環境設定 </td> 
-      <td>このセクションでは、Adobe クラウド環境設定を有効にすることができます。 組織全体または特定のグループに対して、Adobe クラウドストレージを有効または無効にできます。 
+      <td>このセクションでは、Adobe クラウド環境設定を有効にすることができます。組織全体または特定のグループに対して、Adobe クラウドストレージを有効または無効にできます。 
       <p>次の情報を更新します。</p>
       <ul><li><b> デフォルト </b>：従来のWorkfront ストレージまたはAdobe クラウドストレージを選択</li>
       <li><b> ストレージ プロバイダー</b>の選択を許可します。これにより、Workfront オブジェクトを作成する際に、2つのストレージ タイプから選択できます。</li>
