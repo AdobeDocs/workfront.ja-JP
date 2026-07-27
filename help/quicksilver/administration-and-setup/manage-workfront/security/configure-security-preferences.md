@@ -26,16 +26,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
+source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
 workflow-type: tm+mt
-source-wordcount: 1218
-ht-degree: 39%
+source-wordcount: 1155
+ht-degree: 38%
 
 ---
 
 # システム環境設定を指定
-
-{{preview-fast-release-general}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -115,7 +113,7 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
      </tr> 
      <tr> 
       <td role="rowheader"> <p>メールアドレスを使用して、Workfront アカウントを持たないユーザーと共同作業</p> </td> 
-      <td>Workfront ユーザーは、名前の代わりにメールアドレスを含めることにより、Workfront アカウントを持たないユーザーと特定の項目を共有できます。 ユーザーは、メールアドレスを使用して、以下の項目を外部ユーザーと共有できます。
+      <td>Workfront ユーザーが、Workfront アカウントを持たないユーザーと名前ではなくメールアドレスを含めて特定のアイテムを共有できるようにします。ユーザーは、メールアドレスを使用して、次の項目を外部ユーザーと共有できます。
        <ul>
         <li>ドキュメント<br></li>
         <li>ドキュメントリクエスト<br></li>
@@ -155,7 +153,7 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
      </tr>
      <tr> 
       <td role="rowheader">ストレージの環境設定 </td> 
-      <td>このセクションでは、Adobe クラウド環境設定を有効にすることができます。 組織全体または特定のグループに対して、Adobe クラウドストレージを有効または無効にできます。 
+      <td>このセクションでは、Adobe クラウド環境設定を有効にすることができます。組織全体または特定のグループに対して、Adobe クラウドストレージを有効または無効にできます。 
       <p>次の情報を更新します。</p>
       <ul><li><b> デフォルト </b>：従来のWorkfront ストレージまたはAdobe クラウドストレージを選択</li>
       <li><b> ストレージ プロバイダー</b>の選択を許可します。これにより、Workfront オブジェクトを作成する際に、2つのストレージ タイプから選択できます。</li>
