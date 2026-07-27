@@ -9,15 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 23eb75a7-d7b7-4043-afba-cf45c86ab1ae
 TQID: https://experienceleague.adobe.com/7mN20lz57PSto-MAK1EqBg19RdMwIjnEUnzEIEpNxvU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 403
 ht-degree: 100%
@@ -59,3 +55,4 @@ ht-degree: 100%
   >プルーフの作成者は、作成したプルーフごとに別の[!UICONTROL プルーフ作成]メールを受信します。 詳しくは、[[!UICONTROL プルーフ作成]メール](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)を参照してください。
 
 * 自分または自分のレビュアーに期待どおりのメール通知が届かない場合は、[スパムフィルターを回避するための [!DNL Workfront Proof] メール設定](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)を参照してください。
+
