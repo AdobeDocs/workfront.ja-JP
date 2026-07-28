@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 50
 ht-degree: 100%
@@ -37,3 +37,4 @@ ht-degree: 100%
 * [[!UICONTROL 新規プルーフ]メール](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
 * [[!UICONTROL 新しいバージョン]のメール](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
 * [[!UICONTROL プルーフ作成]に関するメール](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+

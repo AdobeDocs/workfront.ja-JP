@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 85%
@@ -45,5 +45,6 @@ ht-degree: 85%
 1. **[!UICONTROL その他]**／**[!UICONTROL メッセージ]**&#x200B;をクリックします。
 
 1. 表示される「**[!UICONTROL メッセージを送信]**」ボックスで、**[!UICONTROL タイトル]**&#x200B;と&#x200B;**[!UICONTROL メッセージ &#x200B;],**&#x200B;を入力し、**[!UICONTROL 送信].**&rbrace;をクリックします。連絡先は、1つの電子メール内のすべてのプルーフに関する情報と個人リンクを含む電子メールを受け取ります。&#x200B;
+
 
 

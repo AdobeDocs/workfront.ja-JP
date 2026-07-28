@@ -14,7 +14,7 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 669
 ht-degree: 100%
@@ -92,3 +92,4 @@ ht-degree: 100%
 > 別のブラウザーウィンドウで [!DNL Basecamp Classic] セッションを開いていない場合は、[!DNL Basecamp] でメッセージを表示する前に、[!DNL Basecamp Classic] アカウントにログインする必要があります。
 
 詳しくは、[ [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md) でのプルーフの確認も参照してください。
+

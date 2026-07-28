@@ -15,7 +15,7 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 110
 ht-degree: 100%
@@ -31,3 +31,4 @@ ht-degree: 100%
 ドキュメントのレビュー、コラボレーション、承認を統合することでメリットが得られる顧客を持つ開発者であれば、アプリケーションに [!DNL Workfront Proof] を簡単に埋め込むことができます。 [!DNL Workfront Proof] API を使用してこの機能を有効にすると、何百時間もの工数を節約できます。
 
 詳しくは、http://api.proofhq.com/ の API ヘルプページを参照してください。
+

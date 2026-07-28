@@ -13,7 +13,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 625
 ht-degree: 100%
@@ -72,3 +72,4 @@ ht-degree: 100%
 1. **新しいバージョン**（必要に応じて）- デザイナーがファイルを修正し、新しいバージョンとして [!DNL Workfront Proof] にアップロードします。 詳細情報は、以下を参照してください。
 
 プルーフが承認されるまで、このプロセスを繰り返します。
+

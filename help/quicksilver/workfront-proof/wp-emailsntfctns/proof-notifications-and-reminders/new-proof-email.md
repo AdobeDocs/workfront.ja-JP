@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 806
 ht-degree: 100%
@@ -50,18 +50,18 @@ ht-degree: 100%
 * プルーフ画像のサムネール
 * 次のプルーフの詳細：
 
-   * プルーフ名
-   * バージョン番号
-   * レビュアーとプルーフの進行状況のリスト
-   * 他のユーザーとプルーフを共有するためのリンク
+  * プルーフ名
+  * バージョン番号
+  * レビュアーとプルーフの進行状況のリスト
+  * 他のユーザーとプルーフを共有するためのリンク
 
-     これにより、元のファイルのプルーフ URL やダウンロードリンクを共有できます。 これにより、レビュアーをプルーフに明示的に追加することはできません。パブリックのプルーフ URL のみ共有され、受信者はプルーフへの読み取り専用アクセス権を受け取ります。
+    これにより、元のファイルのプルーフ URL やダウンロードリンクを共有できます。 これにより、レビュアーをプルーフに明示的に追加することはできません。パブリックのプルーフ URL のみ共有され、受信者はプルーフへの読み取り専用アクセス権を受け取ります。
 
-     詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) でプルーフを共有を参照してください。
+    詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) でプルーフを共有を参照してください。
 
-     このリンクを受信者のメールに表示したくない場合は、プルーフの[!UICONTROL パブリック共有]設定を無効にすることができます。
+    このリンクを受信者のメールに表示したくない場合は、プルーフの[!UICONTROL パブリック共有]設定を無効にすることができます。
 
-     （元のファイルとパブリック URL をダウンロード）。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理を参照してください。
+    （元のファイルとパブリック URL をダウンロード）。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理を参照してください。
 
 ## アクティビティログ
 
@@ -116,3 +116,4 @@ ht-degree: 100%
 * カスタムメッセージを追加する場合はボックスを展開し、カスタム件名の行を挿入し（4）、メールの本文にカスタムテキストを追加することができます（5）。 また、リンクをクリックしてカスタムメッセージを破棄することもできます（6）。
 
 ![Proof_Details_page_3.png](assets/proof-details-page-3-350x258.png)
+

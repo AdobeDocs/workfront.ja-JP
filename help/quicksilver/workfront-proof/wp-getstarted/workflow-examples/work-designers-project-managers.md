@@ -13,7 +13,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 543
 ht-degree: 98%
@@ -63,5 +63,6 @@ ht-degree: 98%
 1. プロジェクトマネージャーは、クライアントのレビューの概要を電子メールで受け取ります。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知の設定を参照してください。
 1. プロジェクトマネージャーは「[!UICONTROL コメントを印刷]」を使用して、デザイナーに変更リクエストについて知らせます。 詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md) でのコメントの印刷と書き出しを参照してください。
 1. 必要に応じて、デザイナーがファイルを修正し、[!DNL Workfront Proof] にアップロードします。ここで、プロジェクトマネージャーはプルーフの次のラウンド用に新しいバージョンを作成できます。
+
 
 

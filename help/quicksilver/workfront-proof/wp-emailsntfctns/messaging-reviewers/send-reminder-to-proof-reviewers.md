@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 437
 ht-degree: 78%
@@ -41,10 +41,10 @@ ht-degree: 78%
 * プルーフ画像のサムネール
 * 次のプルーフの詳細：
 
-   * プルーフ名
-   * バージョン番号
-   * フォルダー名（該当する場合）
-   * レビュアーとプルーフの進行状況のリスト
+  * プルーフ名
+  * バージョン番号
+  * フォルダー名（該当する場合）
+  * レビュアーとプルーフの進行状況のリスト
 
 また、共有された複数のプルーフについて通知することもできます。 詳しくは、[Workfront Proof での割り当てについてレビュアーに通知](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)を参照してください。
 
@@ -75,3 +75,4 @@ ht-degree: 78%
      デフォルトのメッセージは、プルーフに追加されたことをレビュアーに通知し、プルーフの期限を示します。
 
    * 独自のカスタムメッセージを作成する場合は、**[!UICONTROL 件名]**&#x200B;と&#x200B;**[!UICONTROL メッセージ &#x200B;],**&#x200B;を入力し、**[!UICONTROL 送信]をクリックします。**&#x200B;カスタマイズされたリマインダーメールには、デフォルトのリマインダーメールと同じ情報が含まれていますが、メールの本文にはカスタム件名とカスタムメッセージも含まれています。
+

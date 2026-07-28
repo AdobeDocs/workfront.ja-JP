@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 441
 ht-degree: 100%
@@ -66,3 +66,4 @@ ht-degree: 100%
 
 1. 詳しくは、[Workfront Proof でのメール通知設定](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)を参照してください。
 1. メール通知が[!UICONTROL アカウント設定]のデフォルトで無効に設定されている場合、プルーフの作成者または所有者には[!UICONTROL プルーフ作成]に関するメールも、[!UICONTROL 新規プルーフ]に関するメールも受け取りません。個人設定で有効になっている場合、および[!UICONTROL 新規プルーフ]ページの「[!UICONTROL メールで担当者に通知]」ボックスがオンになっている場合も同様です。
+

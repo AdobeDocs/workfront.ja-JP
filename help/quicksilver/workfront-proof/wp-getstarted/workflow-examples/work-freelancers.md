@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 932
 ht-degree: 100%
@@ -85,3 +85,4 @@ ht-degree: 100%
 * また、[!UICONTROL 読み取り専用]などの、プルーフに関してフリーランサーが付与される役割や、プルーフに関するフリーランサーとのメール通信を管理することもできます。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
 * レビュープロセスにはフリーランサーを参加させず、最終的な決定はフリーランサーに通知する場合は、自分の[!UICONTROL ドロップゾーン]設定とすべての[!UICONTROL ドロップゾーン]送信者のメールアラートで、デフォルトのプルーフ役割をそれぞれ[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でプルーフの役割を管理および[ [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でメール通知設定を指定に設定できます。 詳しくは、[メールアラート](https://support.workfront.com/hc/ja-jp/sections/115000911867-Email-alerts)、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理および[ [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知設定の指定を参照してください。
 * フリーランサーにレビュープロセスに積極的に参加させる場合は、プルーフの詳細ページで情報をインライン編集することで、プルーフの役割とメールアラート設定を必要に応じて調整します。 そのページについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフ詳細の管理を参照してください。
+

@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 550
 ht-degree: 98%
@@ -87,3 +87,4 @@ ht-degree: 98%
 1. 受け取った検証メールで、確認リンクをクリックします。\
    メールの変更は、プロファイルに保存されます。 [!DNL Workfront Proof] [!UICONTROL 個人設定]ページがエイリアスメールとして確定されていることを確認するには、表示中のブラウザーを更新する必要が生じる場合があります。
 1. （オプション）新しいメールアドレスを [!DNL Workfront Proof] にプライマリメールアドレスとして設定するには、アドレスの一番右端にある「[!UICONTROL その他]」（3 ドット）ボタンをクリックし、表示されたメニューから「**[!UICONTROL プライマリメールにする]**」をクリックします。
+

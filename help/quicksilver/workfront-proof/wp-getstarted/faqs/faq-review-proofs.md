@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1127
 ht-degree: 100%
@@ -90,3 +90,4 @@ ht-degree: 100%
 ## プルーフに対して行われたすべてのコメントのリストを生成できますか。
 
 はい、プルーフに残されたコメントの&#x200B;*[!UICONTROL 概要の印刷]*&#x200B;を生成できます。 このドキュメントは、1 つのバージョン用に生成することも、このレビュアーと共有されたすべてのバージョン間で生成することもできます。 プルーフに対して行われたすべてのコメント、マークアップ、および決定のリストが表示されます。 この機能について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md) でコメントを印刷および書き出すを参照してください。
+

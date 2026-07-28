@@ -19,7 +19,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 435
 ht-degree: 100%
@@ -73,3 +73,4 @@ EMEA データセンターの新しい場所にアカウントを移行する際
 ## マイアカウントで SSO を使用している場合はどうなりますか？
 
 プルーフアカウントで SSO を使用している場合は、新しい [!DNL proofhq.eu] ドメインを使用するようにアカウントを再設定する必要があります。
+
