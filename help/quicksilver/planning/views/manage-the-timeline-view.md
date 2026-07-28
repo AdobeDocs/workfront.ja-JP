@@ -9,30 +9,24 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 4223
+source-wordcount: 4315
 ht-degree: 33%
 
 ---
 
 # タイムラインビューの管理
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -75,7 +69,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++ 
 
@@ -168,7 +162,7 @@ Old:
 1. タイムラインを表示するレコードタイプページに移動します。
 1. タイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
-   ![&#x200B; タイムラインビューの例](assets/timeline-view-example.png)
+   ![ タイムラインビューの例](assets/timeline-view-example.png)
 
    選択したレコードタイプに関連付けられたレコードは、タイムラインにバーとして表示され、デフォルトでは開始日の時系列で並べ替えられます。
 
@@ -190,7 +184,7 @@ Old:
 
    * 四半期が部分的に設定されていて、同年の中に数か月が欠落している場合、スクロールして欠落している四半期を表示すると、その年の残りの部分に欠落している四半期を設定する必要があるという通知が表示される場合があります。
 
-   ![&#x200B; タイムラインビューにカスタム四半期の元のメッセージがありません](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+   ![ タイムラインビューにカスタム四半期の元のメッセージがありません](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
    カスタム四半期に関する警告メッセージは、各ユーザーごとに1回表示されます。
 
@@ -198,7 +192,7 @@ Old:
    >
    >カスタム四半期が正しく保存されていない場合、タイムラインビューには従来の四半期が表示されます。
    >設定領域でカスタム四半期を設定すると、タイムラインビューには従来の四半期ではなくカスタム四半期が表示されます。
-   >詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+   >詳しくは、[ カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 1. （条件付き）Workfront管理者の場合は、**設定**&#x200B;に移動して四半期を設定します。 そうでない場合は、**OK**&#x200B;をクリックし、Workfront管理者にカスタム四半期の設定を依頼します。
 
@@ -206,7 +200,7 @@ Old:
    >
    >「設定に移動」ボタンは、Workfront管理者にのみ表示されます。
 
-1. （オプションおよび条件付き）レコード名が切り捨てられている場合は、レコードバーにカーソルを合わせると、レコードのフルネームと追加情報が表示されます。 タイムラインでのレコードバーの切り捨ての設定について詳しくは、この記事の「[&#x200B; タイムラインビュー設定の編集](#edit-the-timeline-view-settings)」を参照してください。
+1. （オプションおよび条件付き）レコード名が切り捨てられている場合は、レコードバーにカーソルを合わせると、レコードのフルネームと追加情報が表示されます。 タイムラインでのレコードバーの切り捨ての設定について詳しくは、この記事の「[ タイムラインビュー設定の編集](#edit-the-timeline-view-settings)」を参照してください。
 
 1. タイムラインを移動するには、次のいずれかを行います。
 
@@ -228,7 +222,7 @@ Old:
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
-   1. **検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックし、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しい一致のレコードがハイライト表示されます。
+   1. **検索** アイコン ![検索アイコン ](assets/search-icon.png)をクリックし、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しい一致のレコードがハイライト表示されます。
 
       ![検索ボックスと結果タイムラインビュー](assets/search-box-and-results-timeline-view.png)
 
@@ -240,7 +234,7 @@ Old:
    1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックすると、表内のすべての一致を確認できます。
    1. 検索ボックスの **x** アイコンをクリックして、検索キーワードをクリアします。
 
-   1. （オプション）「**フルスクリーン**」アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
+   1. （オプション）「**フルスクリーン**」アイコン ![ フルスクリーンアイコン ](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
 
 1. （オプション）「**分類**」をクリックして、タイムラインに接続されたレコードを表示します。
 
@@ -295,7 +289,7 @@ Old:
 
 タイムラインビューにフィルターを追加するには：
 
-1. 記事[&#x200B; レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプページのタイムラインビューを作成します。
+1. 記事[ レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の説明に従って、レコードタイプページのタイムラインビューを作成します。
 1. タイムラインビューを選択し、テーブルの左上隅にある「**フィルター**」をクリックします。
 1. <span class> （条件付き）タイムラインビューに分割構造を追加した場合は、フィルターボックスの最初のドロップダウンでレコードタイプを展開します。 タイムラインビューを表示するレコードタイプです。</span>
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
@@ -370,7 +364,7 @@ Old:
 
    * 選択したフィールドの値を選択します。
 
-   ![&#x200B; フィルターUI テーブル ビュー](assets/filter-ui-table-view.png)
+   ![ フィルターUI テーブル ビュー](assets/filter-ui-table-view.png)
 
    追加できるフィルタリング条件の数に制限はありません。
 
@@ -391,7 +385,7 @@ Old:
 
    分類のすべてのレコードタイプについて、この手順を繰り返します。
 
-   ![&#x200B; タイムラインビューの内訳を含む多層フィルター](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+   ![ タイムラインビューの内訳を含む多層フィルター](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
    分類レコードタイプは、タイムラインビューからのみフィルタリングできます。
 1. （オプション）「**フィルター**」またはページ上の任意の場所をクリックして、フィルターボックスを閉じます。<!--right now you cannot "clear all" for filters, but this might come later-->
@@ -424,7 +418,7 @@ Old:
 1. レコードタイプのタイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 1. タイムラインビューの右上隅にある&#x200B;**グループ化**&#x200B;をクリックします。
 
-   ![&#x200B; リンクされたフィールドを含むUI タイムラインビューのグループ化](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![ リンクされたフィールドを含むUI タイムラインビューのグループ化](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 候補フィールドの1つをクリックするか、**別のフィールドを選択**&#x200B;し、別のフィールドを検索して、リストに表示されたらクリックします。
 
@@ -449,10 +443,10 @@ Old:
 
    * **積み重ね**: グループ化は、固定された左列なしで表示され、アイテムのタイムラインの幅に合わせて表示されます。
 
-     ![&#x200B; タイムラインビューでの積み重ねグループ化](assets/stacked-grouping-in-timeline-view.png)
+     ![ タイムラインビューでの積み重ねグループ化](assets/stacked-grouping-in-timeline-view.png)
    * **スイムレーン**: グループ化された左側のヘッダー列には、グループ化されたアイテムが一覧表示され、グループ化はタイムラインビューの幅に合わせて表示されます。
 
-     タイムラインビューでの![&#x200B; スイムレーンのグループ化](assets/swimlane-grouping-in-timeline-view.png)
+     タイムラインビューでの![ スイムレーンのグループ化](assets/swimlane-grouping-in-timeline-view.png)
 
 1. （オプション）「**以下でレコードをグループ化**」ボックスで、グループ化用に選択したフィールドの右側にある **x** アイコンをクリックすると、グループ化を削除できます。
 
@@ -494,9 +488,9 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. （条件付きとオプション）Workfront管理者の場合は、**カスタムクォーターを使用** ボックスの&#x200B;**設定**&#x200B;をクリックして、設定エリアに移動し、カスタムクォーターを設定します。 カスタム四半期を設定した後、従来の四半期ではなくタイムラインビューに表示できます。 Workfront管理者でない場合は、管理者からカスタム四半期を有効にするように依頼できます。
 
-   詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+   詳しくは、[ カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
-   ![&#x200B; タイムラインビュー設定でカスタム四半期の警告を使用](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+   ![ タイムラインビュー設定でカスタム四半期の警告を使用](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 
    >[!TIP]
    >
@@ -513,7 +507,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!NOTE]
    >
-   >    タイムラインビューにサムネールを表示するには、まずテーブルビューにサムネールを追加する必要があります。 詳しくは、[&#x200B; レコードにサムネールを追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+   >    タイムラインビューにサムネールを表示するには、まずテーブルビューにサムネールを追加する必要があります。 詳しくは、[ レコードにサムネールを追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
 1. **フィールドを追加**&#x200B;をクリックし、**フィールドを検索** ボックス内をクリックして、追加するフィールドをクリックします。
 
@@ -531,7 +525,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. （オプションおよび条件付き）標準モードでタイムラインを表示する場合は、**バーの詳細を切り捨て**&#x200B;設定を選択します。 選択すると、レコードバーの情報は切り捨てられ、バーにカーソルを合わせたときにのみ完全に表示されます。 この設定はデフォルトで選択解除され、レコード情報はバーに完全に表示されます。
 
-   ![&#x200B; タイムライン設定ボックスで有効になっている設定を切り捨てる](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+   ![ タイムライン設定ボックスで有効になっている設定を切り捨てる](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
@@ -540,7 +534,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 左パネルの&#x200B;**カラー**&#x200B;をクリックすると、タイムラインのレコードとグループ化の色をカスタマイズできます。
 
-   ![&#x200B; カラータブタイムラインビュー](assets/color-tab-timeline-view.png)
+   ![ カラータブタイムラインビュー](assets/color-tab-timeline-view.png)
 
    標準ビューで「分類」オプションを使用すると、メインレコードの色と、接続されているレコードの色を定義できます。
 
@@ -549,20 +543,12 @@ this is not possible right now; if this is the same functionality as the table v
    * **デフォルト（グレー）**：グループ化の色をグレーに設定します。 これがデフォルトです。
    * **フィールド値**：グループ化の色は、グループ化するフィールドの色と一致します。
 
-     >[!NOTE]
-     >
-     >    * カラーは、色分けされたオプションを含むフィールドにのみ一致させることができます。 例えば、色をステータス フィールドに一致させたり、色に関連するオプションを持つフィールドを一致させたりできます。
-     >    
-     >    * 接続されているレコードとそのルックアップフィールドに色を一致させることはできません。
+   >[!NOTE]
+   >
+   >* カラーは、色分けされたオプションを含むフィールドにのみ一致させることができます。 例えば、色をステータス フィールドに一致させたり、色に関連するオプションを持つフィールドを一致させたりできます。
+   >    
+   >* 実稼動環境では、カラーを接続されたレコードやその参照フィールドに一致させることはできません。 <span class="preview"> プレビュー環境では、接続されているレコードと色を一致させることはできますが、ルックアップフィールドには色を一致させることはできません。</span>
 
-     <!--
-        For July 23: replace the note above with this note for the July 23 release:
-        >[!NOTE]
-        >
-        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
-        -->
 
    例えば、複数選択フィールドや単一選択フィールドには、色分けされたオプションを含めることができます。
 
@@ -577,15 +563,11 @@ this is not possible right now; if this is the same functionality as the table v
    * **レコードタイプ**：レコードの色を、選択したレコードタイプの色と一致させます。 これはデフォルトのオプションです。
    * **フィールド値**：レコードの色を、指定したフィールドの色と一致させます。 手順 10 に進みます。<!--ensure this stays accurate-->
    * **グループ化**：レコードの色を、グループ化で指定した色と一致させます。 タイムラインビューにグループ化が適用されていない場合、このオプションは淡色表示になります。
-   * **なし**：レコードは白いバーで表示されます。
-
-   <!--
-    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
-    -->
+   * **なし**：レコードは白いバーで表示されます。 <span class="preview"> 「なし」オプションがプレビュー環境から削除されました。</span>
 
 1. （条件付き）レコードの色に&#x200B;**フィールド値**&#x200B;を選択した場合、**レコードの色を次と一致させる**&#x200B;ドロップダウンメニューからフィールドを選択します。
 
-   タイムラインビューの![&#x200B; フィールドセレクタードロップダウンメニュー](assets/field-selector-drop-down-menu-timeline-view.png)
+   タイムラインビューの![ フィールドセレクタードロップダウンメニュー](assets/field-selector-drop-down-menu-timeline-view.png)
 
    ドロップダウンメニューには、色分けされたオプションを持つフィールドのみが表示されます。
 
@@ -622,10 +604,10 @@ this is not possible right now; if this is the same functionality as the table v
 
   Workfront Planning レコードタイプのタイムラインビューにポートフォリオとプロジェクトの両方を表示する場合は、ポートフォリオとプロジェクトの両方を、プランニングレコードまたはタイムラインビューを管理しているプランニングレコードに接続されたレコードに接続する必要があります。
 * プランニングレコードタイプに接続されているAdobe GenStudio ブランドを表示することはできません。
-詳しくは、[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+詳しくは、[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 * 少なくとも2つの日付フィールドに関連付けられているレコードタイプのみを表示できます。
 * タイムラインビューに表示するレコードタイプの日付フィールドは、選択したレコードタイプのテーブルビューでルックアップフィールドとして表示されている必要があります。
-* タイムラインビューに表示するレコードタイプの開始日と終了日は、時系列で表示する必要があります。 例えば、レコードの開始日が1月31日で終了日が1月1日の場合、タイムラインビューには表示されません。 詳しくは、この記事の「[&#x200B; タイムラインビューの管理](#manage-a-timeline-view)」の節を参照してください。
+* タイムラインビューに表示するレコードタイプの開始日と終了日は、時系列で表示する必要があります。 例えば、レコードの開始日が1月31日で終了日が1月1日の場合、タイムラインビューには表示されません。 詳しくは、この記事の「[ タイムラインビューの管理](#manage-a-timeline-view)」の節を参照してください。
 * レコードの分類に含めることができるレコードタイプは、5つまでです。
 
 #### 接続されたレコードの分解
@@ -634,7 +616,7 @@ this is not possible right now; if this is the same functionality as the table v
 1. **標準**&#x200B;または&#x200B;**コンパクト** モードで、タイムラインビューの右上隅にある&#x200B;**分類**&#x200B;をクリックします。
 1. 「**リンクされたレコードタイプを選択**」ボックスを展開し、接続されたレコードタイプを選択します。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![&#x200B; タイムラインビューの分類ピッカーとボタン &#x200B;](assets/breakdown-picker-and-button-on-timeline.png)
+   ![ タイムラインビューの分類ピッカーとボタン ](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -649,7 +631,7 @@ this is not possible right now; if this is the same functionality as the table v
    選択したレコードのバーが他のレコードと接続されている場合は、右向きの矢印がタイムラインに表示されます。
 1. 右向きの矢印をクリックして、レコードタイプを展開し、その接続を表示します。<!--update screen shot at production-->
 
-   タイムラインビューのプログラムごとに![&#x200B; キャンペーンを分割](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   タイムラインビューのプログラムごとに![ キャンペーンを分割](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
    >[!IMPORTANT]
    >
