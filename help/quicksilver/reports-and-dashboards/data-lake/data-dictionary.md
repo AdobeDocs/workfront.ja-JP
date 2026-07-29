@@ -7,9 +7,9 @@ description: このページでは、Workfront Data Connectのデータの構造
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+source-git-commit: 0666f0bee54821051a95354c38e775c02e935fa1
 workflow-type: tm+mt
-source-wordcount: '11896'
+source-wordcount: '11533'
 ht-degree: 8%
 
 ---
@@ -8898,194 +8898,114 @@ Workfront Planningのレコードタイプで設定されているすべての�
         <td>関連フィールド</td>
     </tr>
     <tr>
-        <td>'ID'</td>
-        <td>Varchar</td>
-        <td>フィールド定義の一意のID。 このビューのプライマリキー。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'RECORDTYPEID'</td>
-        <td>Varchar</td>
-        <td>このフィールドが属するレコードタイプの一意の識別子。 レコードタイプの詳細を検索するには、RECORDTYPE\_CURRENTで使用します。</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>'DISPLAYNAME'</td>
-        <td>Varchar</td>
-        <td>プランニング インターフェイスに表示されるフィールドの表示名。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'ALIASNAME'</td>
+        <td>ALIASNAME</td>
         <td>Varchar</td>
         <td>システムレベルの識別とAPI アクセスに使用される、フィールドの表示名のURL安全な小文字バージョン（例：「終了日」は「end_date」、「完了率」は「percent_complete」など）。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'説明'</td>
-        <td>Varchar</td>
-        <td>フィールドの目的のユーザー提供の説明。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELDTYPE'</td>
-        <td>Varchar</td>
-        <td>データタイプまたはフィールドカテゴリ。 使用可能な値は、「text」、「long-text」、「number」、「percentage」、「currency」、「date」、「boolean」、「single-select」、「multi-select」、「reference」、「lookup」、「formula」、「user」、「created-at」、「created-by」です。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'HASERROR'</td>
-        <td>Varchar</td>
-        <td>フィールドに現在設定エラーまたは同期エラーがあるかどうかを示します。 値は、文字列「true」または「false」です。 値'true'は、フィールドがエラー状態にあり、データを正しく返していない可能性があることを意味します。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'LINKEDFIELD'</td>
-        <td>バリアント</td>
-        <td>このフィールドがリンクされているソースフィールドの完全なフィールド定義を含むJSON オブジェクト。 「reference」および「lookup」フィールドタイプに存在します。「alias」、「displayName」、「fieldType」、「createdAt」などのプロパティが含まれます。 リンクされていないフィールドの場合はNull。</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>'OPTIONS'</td>
-        <td>バリアント</td>
-        <td>「単一選択」および「複数選択」フィールド用のオブジェクトのJSON配列。 各choice オブジェクトには、「color」（名前付きカラーラベル）、「displayName」（UIに表示されるラベル）、「name」（内部API名）が含まれます。 選択しないフィールドタイプの場合はNullです。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'DATEOPTIONS'</td>
-        <td>バリアント</td>
-        <td>「日付」フィールドの日付固有の表示設定を含むJSON オブジェクト。 「dateFormat」（例：「locale」）と「timeFormat」（時間が表示されない場合はnull）が含まれます。 日付のないフィールドタイプの場合はNull。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FORMULAOPTIONS'</td>
-        <td>バリアント</td>
-        <td>「数式」フィールドの数式設定を含むJSON オブジェクト。 「数式」（人間が判読可能な数式）、「returnType」（例：「PERCENTAGE」、「NUMBER」）、「numberOptions」（精度、ビジュアライゼーション）、「dateOptions」が含まれます。 数式以外のフィールドの場合はNull。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'REFERENCEOPTIONS'</td>
-        <td>バリアント</td>
-        <td>他のPlanning レコードタイプにリンクする「参照」フィールドの接続設定を含むJSON オブジェクト。 「backField」（接続されたレコードタイプの逆参照フィールドの定義）と「linkedRecordTypeId」が含まれます。 非参照フィールドの場合はNull。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'LOOKUPOPTIONS'</td>
-        <td>バリアント</td>
-        <td>接続されたレコードタイプから値を取得する「ルックアップ」フィールドのルックアップ設定を含むJSON オブジェクト。 「referenceFieldId」（検索を実行する参照フィールドのID）、「rollup」（集計メソッド、ロールアップなし場合はnull）、「sourceField」（検索するフィールドの「id」を持つオブジェクト）が含まれます。 参照フィールド以外の場合はNullです。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'NUMBEROPTIONS'</td>
-        <td>バリアント</td>
-        <td>「数値」、「割合」、「通貨」フィールドの数値書式設定オプションを含むJSON オブジェクト。 「allowNegatives」（ブール値）、「currency」（通貨コードまたはnull）、「precision」（小数点以下桁）、「visualizationType」（プレーンテキストの場合はスタイルまたはnull）が含まれます。 数値以外のフィールドタイプの場合はNull。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'EXTERNALOPTIONS'</td>
-        <td>バリアント</td>
-        <td>Planning以外の外部システムに接続されたフィールドの設定を含むJSON オブジェクト。 通常、ネイティブに作成されたフィールドの場合はnullです。外部接続されたレコードタイプのフィールドに入力されます。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'CREATEDAT'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>このフィールドが作成されたときのタイムスタンプ（タイムゾーンなし）。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'CREATEDBY'</td>
-        <td>Varchar</td>
-        <td>このフィールドを作成したユーザーの識別子。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>'UPDATEDAT'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>このフィールドが最後に更新されたときのタイムスタンプ（タイムゾーンなし）。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'UPDATEDBY'</td>
-        <td>Varchar</td>
-        <td>このフィールドを最後に更新したユーザーの識別子。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>'USERID'</td>
-        <td>Varchar</td>
-        <td>このフィールドに関連付けられたユーザーの識別子（通常はフィールド所有者）。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>'作成済み'</td>
+        <td>CREATED</td>
         <td>数値</td>
         <td>このフィールドレコードに影響を与えた最後の操作タイプを示すフラグ。 値が1の場合、レコードが最新のデータ更新サイクルで作成されたことを示します。0の場合、作成されていないことを示します。 実際の作成タイムスタンプについては、CREATEDATを参照してください。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'更新済み'</td>
-        <td>数値</td>
-        <td>このフィールドレコードに影響を与えた最後の操作タイプを示すフラグ。 値が1の場合、レコードが最新のデータ更新サイクルで更新されたことを示します。0の場合、更新されていないことを示します。 実際の最終更新タイムスタンプについては、UPDATEDATを参照してください。</td>
+        <td>CREATEDAT</td>
+        <td>Timestamp\_NTZ</td>
+        <td>このフィールドが作成されたときのタイムスタンプ（タイムゾーンなし）。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'削除済み'</td>
+        <td>作成者</td>
+        <td>Varchar</td>
+        <td>このフィールドを作成したユーザーの識別子。</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+    </tr>
+    <tr>
+        <td>DATEOPTIONS</td>
+        <td>バリアント</td>
+        <td>「日付」フィールドの日付固有の表示設定を含むJSON オブジェクト。 「dateFormat」（例：「locale」）と「timeFormat」（時間が表示されない場合はnull）が含まれます。 日付のないフィールドタイプの場合はNull。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>削除済み</td>
         <td>数値</td>
         <td>このフィールドがソフト削除されたかどうかを示すフラグ。 値が1の場合は削除され、0の場合はアクティブになります。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'復元済み'</td>
-        <td>数値</td>
-        <td>このフィールドがソフト削除された後に復元されたかどうかを示すフラグ。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'TRIGGEREDBYSERVICE'</td>
+        <td>DESCRIPTION</td>
         <td>Varchar</td>
-        <td>このフィールドレコードに対する最後の変更をトリガーしたサービスまたは統合の名前。 値「Unknown」は、送信元のサービスを判断できなかったことを示します。</td>
+        <td>フィールドの目的のユーザー提供の説明。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'ISFUSION'</td>
+        <td>DISPLAYNAME</td>
+        <td>Varchar</td>
+        <td>プランニング インターフェイスに表示されるフィールドの表示名。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Timestamp\_NTZ</td>
+        <td>このフィールドレコードをデータレイクに最後に読み込んだデータ更新ジョブのタイムスタンプ。 データ更新サイクルが成功するたびに更新されます。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>EXTERNALOPTIONS</td>
+        <td>バリアント</td>
+        <td>Planning以外の外部システムに接続されたフィールドの設定を含むJSON オブジェクト。 通常、ネイティブに作成されたフィールドの場合はnullです。外部接続されたレコードタイプのフィールドに入力されます。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDTYPE</td>
+        <td>Varchar</td>
+        <td>データタイプまたはフィールドカテゴリ。 使用可能な値は、「text」、「long-text」、「number」、「percentage」、「currency」、「date」、「boolean」、「single-select」、「multi-select」、「reference」、「lookup」、「formula」、「user」、「created-at」、「created-by」です。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FORMULAOPTIONS</td>
+        <td>バリアント</td>
+        <td>「数式」フィールドの数式設定を含むJSON オブジェクト。 「数式」（人間が判読可能な数式）、「returnType」（例：「PERCENTAGE」、「NUMBER」）、「numberOptions」（精度、ビジュアライゼーション）、「dateOptions」が含まれます。 数式以外のフィールドの場合はNull。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>HASERROR</td>
+        <td>Varchar</td>
+        <td>フィールドに現在設定エラーまたは同期エラーがあるかどうかを示します。 値は、文字列trueまたはfalseです。 値がtrueの場合、フィールドがエラー状態にあり、データが正しく返されない可能性があります。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>Varchar</td>
+        <td>フィールド定義の一意のID。 このビューのプライマリキー。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>ISFUSION</td>
         <td>ブール値</td>
         <td>このフィールドがWorkfront Fusion統合を通じて作成または管理されたかどうかを示すフラグ。 値「true」はFusion管理を示し、「false」または空の値はネイティブに作成されたフィールドであることを示します。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'DL_LOAD_TIMESTAMP'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>このフィールドレコードをデータレイクに最後に読み込んだデータ更新ジョブのタイムスタンプ。 データ更新サイクルが成功するたびに更新されます。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
+        <td>LINKEDFIELD</td>
+        <td>バリアント</td>
+        <td>このフィールドがリンクされているソースフィールドの完全なフィールド定義を含むJSON オブジェクト。「reference」および「lookup」フィールドタイプに存在します。「alias」、「displayName」、「fieldType」、「createdAt」などのプロパティが含まれます。非リンクの場合はNull
 </table>
 
 ### PLANNINGRECORD\_CURRENT
@@ -9101,149 +9021,149 @@ Workfront Planningのレコードタイプで設定されているすべての�
         <td>関連フィールド</td>
     </tr>
     <tr>
-        <td>'RECORDID'</td>
-        <td>Varchar</td>
-        <td>計画レコードの一意のID。 このビューのプライマリキー。</td>
-        <td>WF.PLANNINGRECORDS\_CURRENT</td>
-        <td>RECORDID</td>
-    </tr>
-    <tr>
-        <td>'WORKSPACEID'</td>
-        <td>Varchar</td>
-        <td>このレコードを含むプランニング ワークスペースの一意のID。</td>
-        <td>WORKSPACE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>'WORKSPACENAME'</td>
-        <td>Varchar</td>
-        <td>このレコードを含むプランニング ワークスペースの表示名。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'RECORDTYPEID'</td>
-        <td>Varchar</td>
-        <td>このレコードが属するレコードタイプ（Campaign、Initiativeなど）の一意の識別子。</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>'RECORDTYPENAME'</td>
-        <td>Varchar</td>
-        <td>このレコードが属するレコードタイプの表示名。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELD_IDS'</td>
-        <td>バリアント</td>
-        <td>各フィールドの表示名をフィールド IDにマッピングするJSON オブジェクト （例：「{"Status": "F69bc...", "End Date": "F69bc..."}'）。 これを使用すると、人間が読み取り可能なフィールド名を、FIELDID\_VALUESおよびFIELDID\_VALUES\_RAWで使用されるIDにマッピングできます。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELD_VALUES_RAW'</td>
-        <td>バリアント</td>
-        <td>各フィールドの表示名を生の（フォーマットされていない）値にマッピングするJSON オブジェクト。 参照フィールドの場合、値は接続されたレコードオブジェクトの配列です。数値フィールドと数式フィールドの場合は、プレーンな数値です。長いテキストフィールドの場合は、リッチテキストコンテンツオブジェクトです。 フィールド表示名でキーが設定され、FIELD\_IDSと一致します。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELD_VALUES'</td>
-        <td>バリアント</td>
-        <td>各フィールドの表示名を表示形式の文字列値にマッピングするJSON オブジェクト。 フィールド表示名でキーが設定され、FIELD\_IDSと一致します。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELD_TYPES'</td>
-        <td>バリアント</td>
-        <td>各フィールドの表示名をフィールドタイプ文字列にマッピングするJSON オブジェクト（例：「text」、「number」、「date」、「single-select」、「reference」、「formula」）。 フィールド表示名でキーが設定され、FIELD\_IDSと一致します。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELDID_VALUES'</td>
-        <td>バリアント</td>
-        <td>各フィールド IDを表示形式の値にマッピングするJSON オブジェクト。 単純なフィールドタイプの場合、値は文字列または数値です。長いテキストフィールドの場合は、「content」（プレーンテキスト）と「contentHTML」（HTML形式）の両方のプロパティを含むオブジェクトです。 FIELD\_IDSを使用して、各フィールド IDの表示名を検索します。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELDID_VALUES_RAW'</td>
-        <td>バリアント</td>
-        <td>各フィールド IDを生の（フォーマットされていない）値にマッピングするJSON オブジェクト。 ほとんどのフィールドタイプでは、値はプレーン文字列、数値、またはエポックミリ秒のタイムスタンプです。 長いテキストフィールドは、プレーンテキストコンテンツを文字列として返します。 FIELD\_IDSを使用して、各フィールド IDの表示名を検索します。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'FIELDID_FIELDID'</td>
-        <td>バリアント</td>
-        <td>このレコードに存在するすべてのフィールド IDをセルフマッピングとしてリストするJSON オブジェクト（各フィールド IDはそれ自体にマッピングされます）。 特定のレコードに入力されているフィールドを列挙したり、FIELD\_CURRENTと相互参照したりするために使用します。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'REFERENCE_IDS'</td>
-        <td>バリアント</td>
-        <td>各参照フィールドの表示名を接続レコードのIDにマッピングするJSON オブジェクト （例：'{"Project": "Ref8b471aa..."}'）。 このレコードの接続された外部オブジェクトを解決するには、REFERENCE\_CURRENTと組み合わせて使用します。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'作成済み'</td>
+        <td>CREATED</td>
         <td>数値</td>
         <td>このレコードに影響を与えた最後の操作タイプを示すフラグ。 値が1の場合、レコードが最新のデータ更新サイクルで作成されたことを示します。0の場合、作成されていないことを示します。 実際の作成タイムスタンプについては、CREATEDATを参照してください。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'更新済み'</td>
-        <td>数値</td>
-        <td>このレコードに影響を与えた最後の操作タイプを示すフラグ。 値が1の場合、レコードが最新のデータ更新サイクルで更新されたことを示します。0の場合、更新されていないことを示します。 実際の最終更新タイムスタンプについては、UPDATEDATを参照してください。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'削除済み'</td>
-        <td>数値</td>
-        <td>このレコードがソフト削除されたかどうかを示すフラグ。 値1はレコードが削除されたことを示し、0はアクティブであることを示します。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'CREATEDAT'</td>
+        <td>CREATEDAT</td>
         <td>Timestamp\_NTZ</td>
         <td>このレコードが作成されたときのタイムスタンプ（タイムゾーンなし）。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'CREATEDBY'</td>
+        <td>作成者</td>
         <td>Varchar</td>
         <td>このレコードを作成したユーザーの識別子。</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>'UPDATEDAT'</td>
+        <td>削除済み</td>
+        <td>数値</td>
+        <td>このレコードがソフト削除されたかどうかを示すフラグ。 値1はレコードが削除されたことを示し、0はアクティブであることを示します。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Timestamp\_NTZ</td>
+        <td>このレコードをデータレイクに最後に読み込んだデータ更新ジョブのタイムスタンプ。 データ更新サイクルが成功するたびに更新されます。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_IDS</td>
+        <td>バリアント</td>
+        <td>各フィールドの表示名をフィールド IDにマッピングするJSON オブジェクト （例：「{"Status": "F69bc...", "End Date": "F69bc..."}'）。 これを使用すると、人間が読み取り可能なフィールド名を、FIELDID\_VALUESおよびFIELDID\_VALUES\_RAWで使用されるIDにマッピングできます。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_TYPES</td>
+        <td>バリアント</td>
+        <td>各フィールドの表示名をフィールドタイプ文字列にマッピングするJSON オブジェクト（例：「text」、「number」、「date」、「single-select」、「reference」、「formula」）。 フィールド表示名でキーが設定され、FIELD\_IDSと一致します。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_VALUES</td>
+        <td>バリアント</td>
+        <td>各フィールドの表示名を表示形式の文字列値にマッピングするJSON オブジェクト。 フィールド表示名でキーが設定され、FIELD\_IDSと一致します。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELD_VALUES_RAW</td>
+        <td>バリアント</td>
+        <td>各フィールドの表示名を生の（フォーマットされていない）値にマッピングするJSON オブジェクト。 参照フィールドの場合、値は接続されたレコードオブジェクトの配列です。数値フィールドと数式フィールドの場合は、プレーンな数値です。長いテキストフィールドの場合は、リッチテキストコンテンツオブジェクトです。 フィールド表示名でキーが設定され、FIELD\_IDSと一致します。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDID_FIELDID</td>
+        <td>バリアント</td>
+        <td>このレコードに存在するすべてのフィールド IDをセルフマッピングとしてリストするJSON オブジェクト（各フィールド IDはそれ自体にマッピングされます）。 特定のレコードに入力されているフィールドを列挙したり、FIELD\_CURRENTと相互参照したりするために使用します。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDID_VALUES</td>
+        <td>バリアント</td>
+        <td>各フィールド IDを表示形式の値にマッピングするJSON オブジェクト。 単純なフィールドタイプの場合、値は文字列または数値です。長いテキストフィールドの場合は、「content」（プレーンテキスト）と「contentHTML」（HTML形式）の両方のプロパティを含むオブジェクトです。 FIELD\_IDSを使用して、各フィールド IDの表示名を検索します。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>FIELDID_VALUES_RAW</td>
+        <td>バリアント</td>
+        <td>各フィールド IDを生の（フォーマットされていない）値にマッピングするJSON オブジェクト。 ほとんどのフィールドタイプでは、値はプレーン文字列、数値、またはエポックミリ秒のタイムスタンプです。 長いテキストフィールドは、プレーンテキストコンテンツを文字列として返します。 FIELD\_IDSを使用して、各フィールド IDの表示名を検索します。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>RECORDID</td>
+        <td>Varchar</td>
+        <td>計画レコードの一意のID。 このビューのプライマリキー。</td>
+        <td>WF.PLANNINGRECORDS\_CURRENT</td>
+        <td>RECORDID</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>Varchar</td>
+        <td>このレコードが属するレコードタイプ（Campaign、Initiativeなど）の一意の識別子。</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPENAME</td>
+        <td>Varchar</td>
+        <td>このレコードが属するレコードタイプの表示名。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>REFERENCE_IDS</td>
+        <td>バリアント</td>
+        <td>各参照フィールドの表示名を接続レコードのIDにマッピングするJSON オブジェクト （例：'{"Project": "Ref8b471aa..."}'）。 このレコードの接続された外部オブジェクトを解決するには、REFERENCE\_CURRENTと組み合わせて使用します。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>更新済み</td>
+        <td>数値</td>
+        <td>このレコードに影響を与えた最後の操作タイプを示すフラグ。 値が1の場合、レコードが最新のデータ更新サイクルで更新されたことを示します。0の場合、更新されていないことを示します。 実際の最終更新タイムスタンプについては、UPDATEDATを参照してください。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
         <td>Timestamp\_NTZ</td>
         <td>このレコードが最後に更新されたときのタイムスタンプ（タイムゾーンなし）。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'UPDATEDBY'</td>
+        <td>UPDATEDBY</td>
         <td>Varchar</td>
         <td>このレコードを最後に更新したユーザーの識別子。</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>'DL_LOAD_TIMESTAMP'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>このレコードをデータレイクに最後に読み込んだデータ更新ジョブのタイムスタンプ。 データ更新サイクルが成功するたびに更新されます。</td>
+        <td>WORKSPACEID</td>
+        <td>Varchar</td>
+        <td>このレコードを含むプランニング ワークスペースの一意のID。</td>
+        <td>WORKSPACE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>WORKSPACENAME</td>
+        <td>Varchar</td>
+        <td>このレコードを含むプランニング ワークスペースの表示名。</td>
         <td>—</td>
         <td>—</td>
     </tr>
@@ -9268,293 +9188,7 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td></td>
     </tr>
     <tr>
-        <td>'ID'</td>
-        <td>Varchar</td>
-        <td>レコードタイプの一意のID。 このビューのプライマリキー。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'作成済み'</td>
-        <td>数値</td>
-        <td>このレコードタイプに影響を与えた最後の操作タイプを示すフラグ。 値1は、最新のデータ更新サイクルでレコードタイプが作成されたことを示します。0は、作成されていないことを示します。 実際の作成タイムスタンプについては、CREATEDATを参照してください。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'更新済み'</td>
-        <td>数値</td>
-        <td>このレコードタイプに影響を与えた最後の操作タイプを示すフラグ。 値1は、最新のデータ更新サイクルでレコードタイプが更新されたことを示します。0は、更新されていないことを示します。 実際の最終更新タイムスタンプについては、UPDATEDATを参照してください。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'削除済み'</td>
-        <td>数値</td>
-        <td>このレコードタイプがソフト削除されたかどうかを示すフラグ。 値が1の場合は削除され、0の場合はアクティブになります。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'DL_LOAD_TIMESTAMP'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>このレコードタイプをデータレイクに最後に読み込んだデータ更新ジョブのタイムスタンプ。 データ更新サイクルが成功するたびに更新されます。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'CREATEDBY'</td>
-        <td>Varchar</td>
-        <td>このレコードタイプを作成したユーザーの識別子。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'CREATEDAT'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>このレコードタイプが作成されたときのタイムスタンプ（タイムゾーンなし）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'UPDATEDBY'</td>
-        <td>Varchar</td>
-        <td>このレコードタイプを最後に更新したユーザーの識別子。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'UPDATEDAT'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>このレコードタイプが最後に更新されたときのタイムスタンプ（タイムゾーンなし）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'USERID'</td>
-        <td>Varchar</td>
-        <td>このレコードタイプに関連付けられたユーザーの識別子（通常は所有者）。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'WORKSPACEID'</td>
-        <td>Varchar</td>
-        <td>このレコードタイプが属するワークスペースの一意のID。 Workspaceで\_CURRENTを使用して、ワークスペースの詳細を検索します。</td>
-        <td>WORKSPACE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'DISPLAYNAME'</td>
-        <td>Varchar</td>
-        <td>プランニング インターフェイスに表示されるレコードタイプの表示名（例：「Campaign」、「Initiative」）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'説明'</td>
-        <td>Varchar</td>
-        <td>レコードタイプの目的に関するユーザー提供の説明。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'カラー'</td>
-        <td>Varchar</td>
-        <td>プランニングインターフェイスのこのレコードタイプに関連付けられた名前付きカラーラベル（例：「blue」、「green」、「purple」、「magenta」、「chartreuse」、「dark-gray」）。 16進コードではありません。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'権限'</td>
-        <td>Varchar</td>
-        <td>このレコードタイプへのアクセス用に設定された権限レベル （例：「VIEW」、「CONTRIBUTE」、「MANAGE」）。 カスタム権限が設定されていない場合は、空の可能性があります。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'PRIMARYFIELDID'</td>
-        <td>Varchar</td>
-        <td>このレコードタイプのプライマリ（タイトル）フィールドとして指定されたフィールドの識別子。 Field\_CURRENT.IDへの外部キー。</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>『イスタクソノミー』</td>
-        <td>Varchar</td>
-        <td>このレコードタイプが分類タイプとして分類されるかどうかを示します。他のレコードを整理および分類するために使用します。 値'true'は、分類タイプを示します。 分類以外のレコードタイプでは、空の値を指定できます。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'権限'</td>
-        <td>Varchar</td>
-        <td>このレコードタイプへのアクセス用に設定された権限レベル （例：「VIEW」、「CONTRIBUTE」、「MANAGE」）。 カスタム権限が設定されていない場合は、空の可能性があります。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td>'PRIMARYFIELDID'</td>
-        <td>Varchar</td>
-        <td>このレコードタイプのプライマリ（タイトル）フィールドとして指定されたフィールドの識別子。 Field\_CURRENT.IDへの外部キー。</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>『イスタクソノミー』</td>
-        <td>Varchar</td>
-        <td>このレコードタイプが分類タイプとして分類されるかどうかを示します。他のレコードを整理および分類するために使用します。 値'true'は、分類タイプを示します。 分類以外のレコードタイプでは、空の値を指定できます。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'ISEXTERNAL'</td>
-        <td>ブール値</td>
-        <td>このレコードタイプが、ネイティブのPlanning レコードではなく、外部に接続されたオブジェクトタイプを表しているかどうかを示すフラグ。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'EXTERNALOPTIONS'</td>
-        <td>バリアント</td>
-        <td>外部システムに接続されたレコードタイプの設定詳細を含むJSON オブジェクト。 「connectionName」（例：「workfront」）、「objectName」（Workfront API オブジェクトコード（例：「PROJ」）および「fields」（同期されたフィールドの標準フィールドエイリアスとプランニングフィールド IDのマップ）が含まれます。 ネイティブに作成されたレコードタイプのNull。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'復元済み'</td>
-        <td>数値</td>
-        <td>このレコードタイプがソフト削除後に復元されたかどうかを示すフラグ。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'エイリアス'</td>
+        <td>エイリアス</td>
         <td>Varchar</td>
         <td>レコードタイプの内部エイリアス。システムレベルの識別とAPI アクセスに使用します。 エイリアスが割り当てられていないレコードタイプの場合、空である可能性があります。</td>
         <td>—</td>
@@ -9567,9 +9201,9 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td></td>
     </tr>
     <tr>
-        <td>'TRIGGEREDBYSERVICE'</td>
+        <td>カラー</td>
         <td>Varchar</td>
-        <td>このレコードタイプに対する最後の変更をトリガーしたサービスまたは統合の名前。 値「Unknown」は、送信元のサービスを判断できなかったことを示します。</td>
+        <td>プランニングインターフェイスのこのレコードタイプに関連付けられた名前付きカラーラベル（例：「blue」、「green」、「purple」、「magenta」、「chartreuse」、「dark-gray」）。 16進コードではありません。</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9580,9 +9214,9 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td></td>
     </tr>
     <tr>
-        <td>'ISFUSION'</td>
-        <td>ブール値</td>
-        <td>このレコードタイプがWorkfront Fusion統合を通じて作成または管理されたかどうかを示すフラグ。 値「true」はFusion管理を示し、「false」または空の値はネイティブに作成されたレコードタイプであることを示します。</td>
+        <td>CREATED</td>
+        <td>数値</td>
+        <td>このレコードタイプに影響を与えた最後の操作タイプを示すフラグ。 値1は、最新のデータ更新サイクルでレコードタイプが作成されたことを示します。0は、作成されていないことを示します。 実際の作成タイムスタンプについては、CREATEDATを参照してください。</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9593,150 +9227,7 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td></td>
     </tr>
     <tr>
-        <td>'CREATEDAT'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>このレコードタイプが作成されたときのタイムスタンプ（タイムゾーンなし）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'CREATEDBY'</td>
-        <td>Varchar</td>
-        <td>このレコードタイプを作成したユーザーの識別子。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'UPDATEDAT'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>このレコードタイプが最後に更新されたときのタイムスタンプ（タイムゾーンなし）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'UPDATEDBY'</td>
-        <td>Varchar</td>
-        <td>このレコードタイプを最後に更新したユーザーの識別子。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'USERID'</td>
-        <td>Varchar</td>
-        <td>このレコードタイプに関連付けられたユーザーの識別子（通常は所有者）。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'TO_RECORDID'</td>
-        <td>Varchar</td>
-        <td>この参照接続を所有する計画レコードの一意の識別子。 Planningrecord\_CURRENT.RECORDIDへの外部キー。</td>
-        <td>PLANNINGRECORD\_CURRENT</td>
-        <td>RECORDID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'TO_EXTERNALID'</td>
-        <td>Varchar</td>
-        <td>参照される外部オブジェクトの一意のID （例：Workfront プロジェクト ID、タスク ID、その他の接続オブジェクト ID）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'TO_EXTERNALCONNECTIONNAME'</td>
-        <td>Varchar</td>
-        <td>参照オブジェクトが接続される外部接続の名前（例：Planningで設定されたWorkfront接続の名前）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'TO_EXTERNALOBJECTNAME'</td>
-        <td>Varchar</td>
-        <td>参照される外部オブジェクトの種類に対するWorkfront API オブジェクトコード（例：プロジェクトの「PROJ」、タスクの「TASK」、Portfolioの「PORT」）。 これを使用して、参照オブジェクトを検索する際に結合するWorkfront テーブルを決定します。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'RECORDTYPEID'</td>
-        <td>Varchar</td>
-        <td>この参照を所有するレコードに関連付けられた計画レコードタイプの一意の識別子。 Planningrecord\_CURRENT.RECORDTYPEIDへの外部キー。</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'REFERENCEVALUE'</td>
-        <td>Varchar</td>
-        <td>最後のデータ更新で参照された外部オブジェクトの表示名（例：「Beta」や「Canvas Dashboards Project」などのWorkfront プロジェクト名）。 この値は、更新時のオブジェクトの名前を反映します。オブジェクトの名前を変更すると、古くなる可能性があります。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>'作成済み'</td>
+        <td>CREATED</td>
         <td>数値</td>
         <td>この参照レコードに影響を与えた最後の操作タイプを示すフラグ。 値が1の場合、参照が最新のデータ更新サイクルで作成されたことを示します。0の場合、作成されていないことを示します。</td>
         <td>—</td>
@@ -9749,9 +9240,9 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td></td>
     </tr>
     <tr>
-        <td>'更新済み'</td>
-        <td>数値</td>
-        <td>この参照レコードに影響を与えた最後の操作タイプを示すフラグ。 値1は、参照が最新のデータ更新サイクルで更新されたことを示します。0は、更新されていないことを示します。</td>
+        <td>CREATEDAT</td>
+        <td>Timestamp\_NTZ</td>
+        <td>このレコードタイプが作成されたときのタイムスタンプ（タイムゾーンなし）。</td>
         <td>—</td>
         <td>—</td>
         <td></td>
@@ -9762,7 +9253,59 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td></td>
     </tr>
     <tr>
-        <td>'削除済み'</td>
+        <td>CREATEDAT</td>
+        <td>Timestamp\_NTZ</td>
+        <td>このレコードタイプが作成されたときのタイムスタンプ（タイムゾーンなし）。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>作成者</td>
+        <td>Varchar</td>
+        <td>このレコードタイプを作成したユーザーの識別子。</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>作成者</td>
+        <td>Varchar</td>
+        <td>このレコードタイプを作成したユーザーの識別子。</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>削除済み</td>
+        <td>数値</td>
+        <td>このレコードタイプがソフト削除されたかどうかを示すフラグ。 値が1の場合は削除され、0の場合はアクティブになります。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>削除済み</td>
         <td>数値</td>
         <td>この参照接続がソフト削除されたかどうかを示すフラグ。 値が1の場合は参照が削除され、0の場合はアクティブであることを示します。</td>
         <td>—</td>
@@ -9775,11 +9318,388 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td></td>
     </tr>
     <tr>
-        <td>'DL_LOAD_TIMESTAMP'</td>
+        <td>DESCRIPTION</td>
+        <td>Varchar</td>
+        <td>レコードタイプの目的に関するユーザー提供の説明。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DISPLAYNAME</td>
+        <td>Varchar</td>
+        <td>プランニング インターフェイスに表示されるレコードタイプの表示名（例：「Campaign」、「Initiative」）。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Timestamp\_NTZ</td>
+        <td>このレコードタイプをデータレイクに最後に読み込んだデータ更新ジョブのタイムスタンプ。 データ更新サイクルが成功するたびに更新されます。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
         <td>Timestamp\_NTZ</td>
         <td>この参照レコードをデータレイクに最後に読み込んだデータ更新ジョブのタイムスタンプ。 データ更新サイクルが成功するたびに更新されます。</td>
         <td>—</td>
         <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>EXTERNALOPTIONS</td>
+        <td>バリアント</td>
+        <td>外部システムに接続されたレコードタイプの設定詳細を含むJSON オブジェクト。 「connectionName」（例：「workfront」）、「objectName」（Workfront API オブジェクトコード（例：「PROJ」）および「fields」（同期されたフィールドの標準フィールドエイリアスとプランニングフィールド IDのマップ）が含まれます。 ネイティブに作成されたレコードタイプのNull。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>Varchar</td>
+        <td>レコードタイプの一意のID。 このビューのプライマリキー。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISEXTERNAL</td>
+        <td>ブール値</td>
+        <td>このレコードタイプが、ネイティブのPlanning レコードではなく、外部に接続されたオブジェクトタイプを表しているかどうかを示すフラグ。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISFUSION</td>
+        <td>ブール値</td>
+        <td>このレコードタイプがWorkfront Fusion統合を通じて作成または管理されたかどうかを示すフラグ。 値「true」はFusion管理を示し、「false」または空の値はネイティブに作成されたレコードタイプであることを示します。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>イスタクソノミー</td>
+        <td>Varchar</td>
+        <td>このレコードタイプが分類タイプとして分類されるかどうかを示します。他のレコードを整理および分類するために使用します。 値'true'は、分類タイプを示します。 分類以外のレコードタイプでは、空の値を指定できます。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>イスタクソノミー</td>
+        <td>Varchar</td>
+        <td>このレコードタイプが分類タイプとして分類されるかどうかを示します。他のレコードを整理および分類するために使用します。 値'true'は、分類タイプを示します。 分類以外のレコードタイプでは、空の値を指定できます。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>権限</td>
+        <td>Varchar</td>
+        <td>このレコードタイプへのアクセス用に設定された権限レベル （例：「VIEW」、「CONTRIBUTE」、「MANAGE」）。 カスタム権限が設定されていない場合は、空の可能性があります。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>権限</td>
+        <td>Varchar</td>
+        <td>このレコードタイプへのアクセス用に設定された権限レベル （例：「VIEW」、「CONTRIBUTE」、「MANAGE」）。 カスタム権限が設定されていない場合は、空の可能性があります。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td>PRIMARYFIELDID</td>
+        <td>Varchar</td>
+        <td>このレコードタイプのプライマリ（タイトル）フィールドとして指定されたフィールドの識別子。 Field\_CURRENT.IDへの外部キー。</td>
+        <td>FIELD\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>PRIMARYFIELDID</td>
+        <td>Varchar</td>
+        <td>このレコードタイプのプライマリ（タイトル）フィールドとして指定されたフィールドの識別子。 Field\_CURRENT.IDへの外部キー。</td>
+        <td>FIELD\_CURRENT</td>
+        <td>ID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>Varchar</td>
+        <td>この参照を所有するレコードに関連付けられた計画レコードタイプの一意の識別子。 Planningrecord\_CURRENT.RECORDTYPEIDへの外部キー。</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>REFERENCEVALUE</td>
+        <td>Varchar</td>
+        <td>最後のデータ更新で参照された外部オブジェクトの表示名（例：「Beta」や「Canvas Dashboards Project」などのWorkfront プロジェクト名）。 この値は、更新時のオブジェクトの名前を反映します。オブジェクトの名前を変更すると、古くなる可能性があります。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>復元済み</td>
+        <td>数値</td>
+        <td>このレコードタイプがソフト削除後に復元されたかどうかを示すフラグ。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALCONNECTIONNAME</td>
+        <td>Varchar</td>
+        <td>参照オブジェクトが接続される外部接続の名前（例：Planningで設定されたWorkfront接続の名前）。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALID</td>
+        <td>Varchar</td>
+        <td>参照される外部オブジェクトの一意のID （例：Workfront プロジェクト ID、タスク ID、その他の接続オブジェクト ID）。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALOBJECTNAME</td>
+        <td>Varchar</td>
+        <td>参照される外部オブジェクトの種類に対するWorkfront API オブジェクトコード（例：プロジェクトの「PROJ」、タスクの「TASK」、Portfolioの「PORT」）。 これを使用して、参照オブジェクトを検索する際に結合するWorkfront テーブルを決定します。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_RECORDID</td>
+        <td>Varchar</td>
+        <td>この参照接続を所有する計画レコードの一意の識別子。 Planningrecord\_CURRENT.RECORDIDへの外部キー。</td>
+        <td>PLANNINGRECORD\_CURRENT</td>
+        <td>RECORDID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TRIGGEREDBYSERVICE</td>
+        <td>Varchar</td>
+        <td>このレコードタイプに対する最後の変更をトリガーしたサービスまたは統合の名前。 値「Unknown」は、送信元のサービスを判断できなかったことを示します。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>更新済み</td>
+        <td>数値</td>
+        <td>このレコードタイプに影響を与えた最後の操作タイプを示すフラグ。 値1は、最新のデータ更新サイクルでレコードタイプが更新されたことを示します。0は、更新されていないことを示します。 実際の最終更新タイムスタンプについては、UPDATEDATを参照してください。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>更新済み</td>
+        <td>数値</td>
+        <td>この参照レコードに影響を与えた最後の操作タイプを示すフラグ。 値1は、参照が最新のデータ更新サイクルで更新されたことを示します。0は、更新されていないことを示します。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
+        <td>Timestamp\_NTZ</td>
+        <td>このレコードタイプが最後に更新されたときのタイムスタンプ（タイムゾーンなし）。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
+        <td>Timestamp\_NTZ</td>
+        <td>このレコードタイプが最後に更新されたときのタイムスタンプ（タイムゾーンなし）。</td>
+        <td>—</td>
+        <td>—</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>UPDATEDBY</td>
+        <td>Varchar</td>
+        <td>このレコードタイプを最後に更新したユーザーの識別子。</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>UPDATEDBY</td>
+        <td>Varchar</td>
+        <td>このレコードタイプを最後に更新したユーザーの識別子。</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ユーザーID</td>
+        <td>Varchar</td>
+        <td>このレコードタイプに関連付けられたユーザーの識別子（通常は所有者）。</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ユーザーID</td>
+        <td>Varchar</td>
+        <td>このレコードタイプに関連付けられたユーザーの識別子（通常は所有者）。</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>WORKSPACEID</td>
+        <td>Varchar</td>
+        <td>このレコードタイプが属するワークスペースの一意のID。 Workspaceで\_CURRENTを使用して、ワークスペースの詳細を検索します。</td>
+        <td>WORKSPACE\_CURRENT</td>
+        <td>ID</td>
         <td></td>
         <td></td>
         <td></td>
@@ -9802,108 +9722,108 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>関連フィールド</td>
     </tr>
     <tr>
-        <td>'ID'</td>
-        <td>Varchar</td>
-        <td>プランニング ワークスペースの一意のID。 このビューのプライマリキー。</td>
-        <td>WF.WORKSPACES\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>'作成済み'</td>
+        <td>CREATED</td>
         <td>数値</td>
         <td>このワークスペースレコードに影響を与えた最後の操作タイプを示すフラグ。 値が1の場合、ワークスペースが最新のデータ更新サイクルで作成されたことを示します。0の場合、作成されていないことを示します。 実際の作成タイムスタンプについては、CREATEDATを参照してください。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'更新済み'</td>
-        <td>数値</td>
-        <td>このワークスペースレコードに影響を与えた最後の操作タイプを示すフラグ。 値が1の場合、ワークスペースが最新のデータ更新サイクルで更新されたことを示します。0の場合、更新されていないことを示します。 実際の最終更新タイムスタンプについては、UPDATEDATを参照してください。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'削除済み'</td>
-        <td>数値</td>
-        <td>このワークスペースがソフト削除されたかどうかを示すフラグ。 値が1の場合は削除され、0の場合はアクティブになります。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'DL_LOAD_TIMESTAMP'</td>
-        <td>Timestamp\_NTZ</td>
-        <td>このワークスペースレコードをデータレイクに最後に読み込んだデータ更新ジョブのタイムスタンプ。 データ更新サイクルが成功するたびに更新されます。</td>
-        <td>—</td>
-        <td>—</td>
-    </tr>
-    <tr>
-        <td>'CREATEDBY'</td>
-        <td>Varchar</td>
-        <td>このワークスペースを作成したユーザーの識別子。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>'CREATEDAT'</td>
+        <td>CREATEDAT</td>
         <td>Timestamp\_NTZ</td>
         <td>このワークスペースが作成されたときのタイムスタンプ（タイムゾーンなし）。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'UPDATEDBY'</td>
+        <td>作成者</td>
         <td>Varchar</td>
-        <td>このワークスペースを最後に更新したユーザーの識別子。</td>
+        <td>このワークスペースを作成したユーザーの識別子。</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>'UPDATEDAT'</td>
+        <td>削除済み</td>
+        <td>数値</td>
+        <td>このワークスペースがソフト削除されたかどうかを示すフラグ。 値が1の場合は削除され、0の場合はアクティブになります。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
         <td>Timestamp\_NTZ</td>
-        <td>このワークスペースが最後に更新されたときのタイムスタンプ（タイムゾーンなし）。</td>
+        <td>このワークスペースレコードをデータレイクに最後に読み込んだデータ更新ジョブのタイムスタンプ。 データ更新サイクルが成功するたびに更新されます。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'USERID'</td>
+        <td>ID</td>
         <td>Varchar</td>
-        <td>このワークスペースに関連付けられているユーザーの識別子（通常はワークスペース所有者）。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
+        <td>プランニング ワークスペースの一意のID。 このビューのプライマリキー。</td>
+        <td>WF.WORKSPACES\_CURRENT</td>
+        <td>ID</td>
     </tr>
     <tr>
-        <td>'名前'</td>
+        <td>ISFUSION</td>
+        <td>ブール値</td>
+        <td>このワークスペースがWorkfront Fusion統合を通じて作成または管理されたかどうかを示すフラグ。 値「true」はFusion管理を示し、「false」または空の値はネイティブに作成されたワークスペースであることを示します。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>名前</td>
         <td>Varchar</td>
         <td>プランニング インターフェイスに表示されるワークスペースの表示名。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'PARENTID'</td>
+        <td>親ID</td>
         <td>Varchar</td>
         <td>このワークスペースがワークスペース階層内にネストされている場合の親ワークスペースの識別子。 このワークスペースに親がない場合（つまり、最上位のワークスペースである場合）は、空になります。</td>
         <td>WORKSPACE\_CURRENT</td>
         <td>ID</td>
     </tr>
     <tr>
-        <td>'復元済み'</td>
+        <td>復元済み</td>
         <td>数値</td>
         <td>このワークスペースがソフト削除後に復元されたかどうかを示すフラグ。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'TRIGGEREDBYSERVICE'</td>
+        <td>TRIGGEREDBYSERVICE</td>
         <td>Varchar</td>
         <td>このワークスペースレコードに対する最後の変更をトリガーしたサービスまたは統合の名前。 値「Unknown」は、送信元のサービスを判断できなかったことを示します。</td>
         <td>—</td>
         <td>—</td>
     </tr>
     <tr>
-        <td>'ISFUSION'</td>
-        <td>ブール値</td>
-        <td>このワークスペースがWorkfront Fusion統合を通じて作成または管理されたかどうかを示すフラグ。 値「true」はFusion管理を示し、「false」または空の値はネイティブに作成されたワークスペースであることを示します。</td>
+        <td>更新済み</td>
+        <td>数値</td>
+        <td>このワークスペースレコードに影響を与えた最後の操作タイプを示すフラグ。 値が1の場合、ワークスペースが最新のデータ更新サイクルで更新されたことを示します。0の場合、更新されていないことを示します。 実際の最終更新タイムスタンプについては、UPDATEDATを参照してください。</td>
         <td>—</td>
         <td>—</td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
+        <td>Timestamp\_NTZ</td>
+        <td>このワークスペースが最後に更新されたときのタイムスタンプ（タイムゾーンなし）。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>UPDATEDBY</td>
+        <td>Varchar</td>
+        <td>このワークスペースを最後に更新したユーザーの識別子。</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+    </tr>
+    <tr>
+        <td>ユーザーID</td>
+        <td>Varchar</td>
+        <td>このワークスペースに関連付けられているユーザーの識別子（通常はワークスペース所有者）。</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
     </tr>
 </table>

@@ -19,20 +19,19 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ce4f0de26be9a0b239c2464c97a3b47038be9108
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3684
-ht-degree: 42%
+source-wordcount: 3910
+ht-degree: 40%
 
 ---
 
 # テーブルビューの管理
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページで強調表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 
 {{planning-important-intro}}
@@ -309,19 +308,31 @@ Old:
 
    デフォルトのサムネール画像も新しいレコードに追加されます。
 
+1. （オプション） 1つまたは複数のレコードまたは行を選択し、**ハンドル** アイコン ![&#x200B; ハンドルアイコン &#x200B;](assets/handle-icon.png)をレコードの左側にドラッグ&amp;ドロップして、行を並べ替えます。
+
+   >[!NOTE]
+   >
+   >少なくとも1つの並べ替えまたはグループ化をテーブルビューに適用すると、行を並べ替えることはできません。
+   >
+   >行の順序に加えた変更は、同じビューでレコードタイプにアクセスするすべてのユーザーに表示されます。
+
 1. （オプション）レコードの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**サムネールを編集**&#x200B;をクリックしてサムネールを編集します。
 1. テーブルの上部にある&#x200B;**フィールド**&#x200B;をクリックし、**サムネール** フィールドの切り替えスイッチを選択して、プライマリフィールドの左側に表示します。 デフォルトでは選択解除されています。
 
    詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
-<!--
-For July 23: you might need to add some spacing below:
-1. <span class="preview">(Optional) Click **Fields** at the top of the table, then click **Color** to display the color of a record to the left of its primary field. Colors are assigned randomly by default for each new record. The **Color** setting is deselected by default.</span>
-1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
-    <span class="preview">
-    ![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
-    </span>
--->
+1. <span class="preview"> （オプション）テーブルの上部にある&#x200B;**フィールド**&#x200B;をクリックし、**カラー**&#x200B;をクリックして、レコードの色をプライマリフィールドの左側に表示します。 デフォルトでは、新しいレコードごとに色がランダムに割り当てられます。 **カラー**&#x200B;設定は、デフォルトで選択解除されています。</span>
+
+1. <span class="preview"> （オプションおよび条件付き） **カラー**&#x200B;設定をオンにした場合、レコードのプライマリフィールドの左側にあるカラーバーをクリックし、**スウォッチ**&#x200B;または&#x200B;**カスタム** タブからカラーを選択し、ボックスの外側をクリックして閉じます。 カラーは直ちに適用されます。</span>
+
+   <div class="preview">
+
+   ![色分けカラーピッカーボックスを記録](assets/color-picker-for-record-color-coding.png)
+
+   詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
+
+   </div>
+
 
 ### フィルターを追加 {#add-filters-1}
 

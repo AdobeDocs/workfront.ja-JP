@@ -20,21 +20,19 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3239
+source-wordcount: 3647
 ht-degree: 14%
 
 ---
 
 # レコードの作成
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -178,17 +176,14 @@ Old:
   >
   >ワークスペースマネージャーは、表示権限を持つユーザーがリクエストフォームを使用してレコードを追加するために、レコードタイプのリクエストフォームを作成する必要があります。 それ以外の場合、View-permission ユーザーはレコードを作成できません。
 
-<!--
-add this bullet for July 23 release:
-
 <div class="preview">
 
-* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+* レコードを作成する方法に関係なく、すべてのレコードは作成時に自動的に色分けされます。
 
-    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+  詳しくは、この記事の「[&#x200B; カラーコーディングレコード &#x200B;](#color-coding-records)」の節を参照してください。
 
 </div>
--->
+
 
 ## 任意のレコードタイプビューから、「新規レコード」ボタンまたは「レコードを要求」ボタンを使用してレコードを作成します
 
@@ -293,8 +288,8 @@ You can import records from other applications by linking them to existing recor
      >
      >グループ化またはサブグループ化の最後のレコードの後に新しいレコードを追加すると、Workfrontはグループ化に含まれるフィールドに自動的に入力します。 必要に応じて、これらのフィールドを手動で編集できます。レコードはグループ化から削除される場合があります。
 
-   * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。 これにより、開始するレコードの下に空の行が追加されます。<!--<span class="preview"> This is not possible in the Preview environment</span>-->
-   * レコードのプライマリフィールドにカーソルを合わせ、フィールドの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、次に&#x200B;**レコードを上に挿入**&#x200B;または&#x200B;**レコードを下に挿入**&#x200B;をクリックします。<!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。 これにより、開始するレコードの下に空の行が追加されます。
+   * レコードのプライマリフィールドにカーソルを合わせ、フィールドの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、次に&#x200B;**レコードを上に挿入**&#x200B;または&#x200B;**レコードを下に挿入**&#x200B;をクリックします。
 
    ![&#x200B; テーブルの行に新しいキャンペーンを追加する](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -596,52 +591,50 @@ Workfront Planningのレコードのページで、自動処理を設定して�
 詳しくは、[Adobe Workfront Planning レコードの自動処理を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)を参照してください。
 
 <!--
-For July 23
-Move to its own article after preview release in 07/2026:
+Move to its own article after production release in 10/2026:
+-->
 
 <div class="preview">
 
-## Color coding records
+## カラーコーディングレコード
 
-All records are automatically associated with a color when they are created. 
+レコードを作成すると、すべてのレコードが自動的にカラーに関連付けられます。
 
-1. Create a record using one of the methods described in this article. 
+1. この記事で説明されているいずれかの方法を使用してレコードを作成します。
 
-    The color is immediately applied to the new record in the following areas:
+   カラーは、次の領域の新しいレコードにすぐに適用されます。
 
-    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
-    * As a circle, to the left of the record name in the record's **Details** page. 
+   * バーとして、テーブル、タイムラインビューおよびカレンダービューのレコード名またはプライマリフィールドの左側に。
+   * レコードの&#x200B;**Details** ページのレコード名の左側に、円で表示します。
 
-        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
-1. (Conditional) To view the color of a record, do one of the following: 
-    
-    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+     詳しくは、[&#x200B; レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+1. （条件付き）レコードのカラーを表示するには、次のいずれかの操作を行います。
 
-        ![Table view record color bar](assets/table-record-color-bar.png)
+   * テーブルビューで、レコードのリストの上部にあるツールバーの&#x200B;**フィールド** アイコンをクリックし、**カラー**&#x200B;設定をオンにします。 レコードのプライマリフィールドの左側にバーが追加されます。
 
-        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
-    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+     ![&#x200B; テーブルビューレコードのカラーバー](assets/table-record-color-bar.png)
 
-        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+     詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
+   * タイムラインビューで、**設定** > **棒スタイル**&#x200B;をクリックし、**色**&#x200B;設定をオンにします。 **レコード**&#x200B;でバーをカラーコード化することを選択すると、バーがレコードのバーの左余白に追加されます。
 
-        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
-    
-        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+     ![&#x200B; タイムラインビューのレコードカラーバー](assets/timeline-record-color-bar.png)
 
-        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+     詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
+   * カレンダービューで、**設定** > **棒スタイル**&#x200B;をクリックし、**色**&#x200B;設定をオンにします。 レコードバーの色がレコードカラーと一致し、レコードのバーの左余白に同じ色の濃い色合いが追加されます。この場合、**レコード**&#x200B;でバーを色分けします。
 
-    The Color setting is turned off by default.
+     ![&#x200B; カレンダービューのレコードカラーバー](assets/calendar-record-color-bar.png)
 
-1. To change the color associated with a record, do the following: 
+     詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
-    1. From the table view, click the record color bar
-        Or 
-        From the record details preview or page, click the record color circle. 
-    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+   デフォルトでは、「カラー」設定はオフになっています。
 
-        Once selected, the new color is applied immediately. 
+1. レコードに関連付けられている色を変更するには、次の操作を行います。
+
+   1. テーブルビューで、レコードカラーバーをクリックします
+      または
+      レコードの詳細プレビューまたはページで、レコードカラーの円をクリックします。
+   1. **スウォッチ**&#x200B;または&#x200B;**カスタム** タブをクリックして、新しいカラーを選択します。
+
+      選択すると、新しいカラーがすぐに適用されます。
 
 </div>
-
--->

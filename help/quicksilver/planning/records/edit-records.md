@@ -20,20 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3103
-ht-degree: 26%
+source-wordcount: 3223
+ht-degree: 25%
 
 ---
 
 # レコードの編集
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -145,17 +145,17 @@ Old:
 * ワークスペースへの権限がある場合は、自分が作成したレコードや他のユーザーが作成したレコードを編集できます。
 * 次のエリアからレコードフィールドを編集できます。
 
-   * レコードビューでのレコードのプレビュー
-   * レコードの詳細ページ
-   * テーブルビューでのインライン。
-   * レコードのサイズ変更またはドラッグ&amp;ドロップ時のカレンダーとタイムラインビュー。 これにより、レコードの日付が更新されます。
+  * レコードビューでのレコードのプレビュー
+  * レコードの詳細ページ
+  * テーブルビューでのインライン。
+  * レコードのサイズ変更またはドラッグ&amp;ドロップ時のカレンダーとタイムラインビュー。 これにより、レコードの日付が更新されます。
 
 * ユーザーがビュー内のレコードを編集すると、変更内容はすべてのビューですぐに表示され、レコードページは他のすべてのユーザーに表示されます。
 
 * 次のタイプのフィールドは自動的に更新され、手動で値を編集することはできません。
-   * 他のレコードからリンクされたフィールド
-   * 数式タイプのフィールド
-   * システムフィールド（作成者、作成日、最終変更者、最終変更日、承認日、承認者、レコード ID）
+  * 他のレコードからリンクされたフィールド
+  * 数式タイプのフィールド
+  * システムフィールド（作成者、作成日、最終変更者、最終変更日、承認日、承認者、レコード ID）
 * 表示するレコードが他のレコードにリンクされている場合、編集するレコードの新しい情報は、そのレコードがリンクされているすべてのワークスペースのリンクされたレコードに反映されます。
 * レコードを一括で編集することはできません。<!--this will probably change-->
 * URLは、http://、https://、ftp://またはwwwで始まる場合にのみ、1行テキストフィールドタイプのリンクとして認識されます。 .
@@ -167,8 +167,8 @@ Old:
 
   レコードの日付を編集するには、この記事の次のいずれかの節を参照してください。
 
-   * [レコードタイプのカレンダービューでレコードを編集する](#edit-a-record-in-the-calendar-view-of-a-record-type)
-   * [レコードタイプのタイムラインビューでのレコードの編集](#edit-a-record-in-the-timeline-view-of-a-record-type)
+  * [レコードタイプのカレンダービューでレコードを編集する](#edit-a-record-in-the-calendar-view-of-a-record-type)
+  * [レコードタイプのタイムラインビューでのレコードの編集](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
 
 ## レコードの編集
@@ -254,10 +254,10 @@ Old:
 
    * 外部ソース（Excel ファイルなど）から1つまたは複数のセルをコピーし、次のいずれかのフィールドタイプに貼り付けます。
 
-      * ピープルフィールド： 1つの値を持つフィールドのみがサポートされます。
-      * テキストフィールド：
-      * フィールドを選択します。
-      * 数値、パーセント、通貨フィールド。
+     * ピープルフィールド： 1つの値を持つフィールドのみがサポートされます。
+     * テキストフィールド：
+     * フィールドを選択します。
+     * 数値、パーセント、通貨フィールド。
 
    外部ソースから情報をコピーして、Workfrontや他のアプリケーションの接続フィールドなど、他のフィールドタイプに貼り付けることはできません。
 
@@ -296,7 +296,7 @@ Old:
    * **表示**&#x200B;または&#x200B;**新しいタブで開く**：これにより、レコードページが開きます。
    * **リンクをコピー**: レコードのページにリンクをコピーします。
    * **サムネールを編集**: レコードにサムネールを追加するには、次の手順を実行します。
-詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+     詳しくは、[&#x200B; レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
    * **重複**：これにより、レコードの同一の複製が作成されます。
    * **上にレコードを挿入/下にレコードを挿入**：新しい行を追加して、新しいレコードを追加できます。 これはプレビュー環境では不可能です。
    * **削除**: レコードを削除します。 削除されたレコードは、「最近削除されたレコード」ボックスに最大30日間保存されます。
@@ -372,6 +372,9 @@ Old:
    >  * レコードタイプを接続して作成された他のレコードのルックアップフィールド。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
    >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日、数式フィールド。
 
+1. <span class="preview"> （オプション） レコード名の左側にあるカラーサークルをクリックして、レコードカラーを変更します。</span>
+   <span class="preview"> レコードは、作成時に自動的に色が割り当てられます。 **スウォッチ**&#x200B;または&#x200B;**カスタム**&#x200B;をクリックして、新しい色を選択します。</span>
+
 1. （オプション）「**カバーを追加**」をクリックして、カバー画像をレコードに追加します。 詳しくは、[&#x200B; レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)を参照してください。
 
 1. （オプション）サムネールアイコンにカーソルを合わせ、**詳細** ![詳細メニュー](assets/more-menu.png) > **サムネールを編集**&#x200B;をクリックして、サムネール画像を追加します。 詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
@@ -428,6 +431,11 @@ Old:
    >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日、数式フィールド。
 
 1. （オプション）表示されるフィールドの右側にある情報アイコンをクリックして、フィールドの説明を表示します。
+1. <span class="preview"> （オプション） レコード名の左側にあるカラーサークルをクリックして、レコードカラーを変更します。</span>
+   <span class="preview"> レコードは、作成時に自動的に色が割り当てられます。 **スウォッチ**&#x200B;または&#x200B;**カスタム**&#x200B;をクリックして、新しい色を選択します。</span>
+
+   ![&#x200B; レコードの詳細ボックスのカラーピッカーボックス &#x200B;](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. （オプション）「**カバーを追加**」をクリックして、カバー画像をレコードに追加します
 
    または

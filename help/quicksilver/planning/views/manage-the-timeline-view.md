@@ -19,20 +19,19 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 4223
+source-wordcount: 4315
 ht-degree: 33%
 
 ---
 
 # タイムラインビューの管理
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -549,20 +548,12 @@ this is not possible right now; if this is the same functionality as the table v
    * **デフォルト（グレー）**：グループ化の色をグレーに設定します。 これがデフォルトです。
    * **フィールド値**：グループ化の色は、グループ化するフィールドの色と一致します。
 
-     >[!NOTE]
-     >
-     >    * カラーは、色分けされたオプションを含むフィールドにのみ一致させることができます。 例えば、色をステータス フィールドに一致させたり、色に関連するオプションを持つフィールドを一致させたりできます。
-     >    
-     >    * 接続されているレコードとそのルックアップフィールドに色を一致させることはできません。
+   >[!NOTE]
+   >
+   >* カラーは、色分けされたオプションを含むフィールドにのみ一致させることができます。 例えば、色をステータス フィールドに一致させたり、色に関連するオプションを持つフィールドを一致させたりできます。
+   >    
+   >* 実稼動環境では、カラーを接続されたレコードやその参照フィールドに一致させることはできません。 <span class="preview"> プレビュー環境では、接続されているレコードと色を一致させることはできますが、ルックアップフィールドには色を一致させることはできません。</span>
 
-     <!--
-        For July 23: replace the note above with this note for the July 23 release:
-        >[!NOTE]
-        >
-        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
-        -->
 
    例えば、複数選択フィールドや単一選択フィールドには、色分けされたオプションを含めることができます。
 
@@ -577,11 +568,7 @@ this is not possible right now; if this is the same functionality as the table v
    * **レコードタイプ**：レコードの色を、選択したレコードタイプの色と一致させます。 これはデフォルトのオプションです。
    * **フィールド値**：レコードの色を、指定したフィールドの色と一致させます。 手順 10 に進みます。<!--ensure this stays accurate-->
    * **グループ化**：レコードの色を、グループ化で指定した色と一致させます。 タイムラインビューにグループ化が適用されていない場合、このオプションは淡色表示になります。
-   * **なし**：レコードは白いバーで表示されます。
-
-   <!--
-    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
-    -->
+   * **なし**：レコードは白いバーで表示されます。 <span class="preview"> 「なし」オプションがプレビュー環境から削除されました。</span>
 
 1. （条件付き）レコードの色に&#x200B;**フィールド値**&#x200B;を選択した場合、**レコードの色を次と一致させる**&#x200B;ドロップダウンメニューからフィールドを選択します。
 
