@@ -20,9 +20,9 @@ ht-degree: 4%
 
 監査ログを含む変更履歴は、「設定」の「変更履歴」エリアで確認できます。
 
-* **監査ログ**は、ユーザーによってトリガーされた変更です。
-監査ログと監査ログ領域について詳しくは、[監査ログの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)および[監査ログの表示とエクスポート ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)を参照してください。
-* **設定**には、変更履歴リストで追跡されているフィールドが表示されます。
+* **監査ログ**&#x200B;は、ユーザーによってトリガーされた変更です。
+監査ログと監査ログ領域について詳しくは、[監査ログの概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)および[監査ログの表示とエクスポート &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)を参照してください。
+* **設定**&#x200B;には、変更履歴リストで追跡されているフィールドが表示されます。
   <span class="preview">Workfront管理者は、Workfrontで追跡するオブジェクト フィールドとアクションを設定できます。 例えば、システム全体でイシューの名前に対して行われたすべての変更をWorkfrontで追跡できます。 イシュー名の変更は、変更履歴ログにエントリとして表示されます。</span>
 
 * **変更履歴リスト**&#x200B;を使用すると、次のような属性を含む、Workfront オブジェクトに対する変更のログを表示できます。
@@ -111,7 +111,7 @@ Workfront インターフェイス全体を通じて、特定の種類のオブ�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「トラッキングを変更&#x200B;****&#x200B;設定**」をクリックします。
+1. 左側のパネルで、「トラッキングを変更&#x200B;**&#x200B;**&#x200B;設定**」をクリックします。
 
    フィールドは、オブジェクトタイプ別にグループ化されて表示されます。
 
@@ -134,10 +134,10 @@ Workfront管理者は、設定領域で変更履歴を表示できます。
    過去90日間の変更が利用可能です。
 
 1. 特定の用語を検索するには、検索バーをクリックして用語を入力します。 入力時に結果がリスト内でハイライト表示されます。
-1. （オプション）列でフィルタリングするには、記事[拡張リストを使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)の拡張リスト ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list)の[項目のフィルタリングを参照してください。
-1. （オプション）列を非表示、表示、または並べ替えるには、記事[拡張リストを使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)の[列をカスタマイズ ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns)を参照してください。
+1. （オプション）列でフィルタリングするには、記事[拡張リストを使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)の拡張リスト [&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list)の項目のフィルタリングを参照してください。
+1. （オプション）列を非表示、表示、または並べ替えるには、記事[拡張リストを使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)の[列をカスタマイズ &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns)を参照してください。
 1. （オプション）列を追加または削除するには、記事[拡張リストを使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)の「[列マネージャー](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)」を参照してください。
-1. （オプション）行の高さを調整するには、記事[拡張リストを使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)の「[ ビュー内の行の高さを変更](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view)」を参照してください。
+1. （オプション）行の高さを調整するには、記事[拡張リストを使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)の「[&#x200B; ビュー内の行の高さを変更](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view)」を参照してください。
 
 ## 変更履歴を書き出し
 
@@ -145,7 +145,7 @@ Workfront管理者は、設定領域で変更履歴を表示できます。
 
 1. 左側のパネルで、**トラッキングの変更/履歴リストの変更**&#x200B;をクリックします。
 1. 書き出す項目を表示するには、リストをフィルター処理します。
-1. **書き出し** アイコン ![書き出しアイコン ](assets/export-icon.png)をクリックし、XLSX形式とCSV形式のどちらに保存するかを選択します。
+1. **書き出し** アイコン ![書き出しアイコン &#x200B;](assets/export-icon.png)をクリックし、XLSX形式とCSV形式のどちらに保存するかを選択します。
 
    ファイルを保存ボックスが開き、書き出したファイルをコンピューターに保存できます。
    書き出したファイルの保存を完了します。パソコンで見つけて、他の人と共有できます。
