@@ -14,7 +14,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 84%
@@ -84,8 +84,9 @@ ht-degree: 84%
 
    * その他すべての通知は、関連付けられている作業アイテムのタイプを提案するアイコンによって表示されます。
 
-     ![通知アイコン](assets/ntfcntype&icon-350x330.png)
-青いドットの右側にあるアイコンには、次のいずれかが表示されます。
+     ![通知アイコン &#x200B;](assets/ntfcntypeicon-350x330.png)
+
+   青いドットの右側にあるアイコンには、次のいずれかが表示されます。
 
    * 情報（通常は、作業中の [!DNL Workfront] のオブジェクトの更新）を入力した人物のプロファイル写真。
    * 通知がシステムのお知らせの場合、[!DNL Workfront] ロゴ。
