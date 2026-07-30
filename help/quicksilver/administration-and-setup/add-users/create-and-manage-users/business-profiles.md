@@ -41,7 +41,7 @@ Workfront システム管理者：
 
 >[!BEGINSHADEBOX]
 
-Samは、代理店Aと代理店Bのために、プロジェクトへの異なるアクセスを必要としています。両機関はWorkfrontに団体として設立されている。 （グループについて詳しくは、[ グループの概要](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups-overview.md)を参照してください）。
+Samは、代理店Aと代理店Bのために、プロジェクトへの異なるアクセスを必要としています。両機関はWorkfrontに団体として設立されている。 （グループについて詳しくは、[&#x200B; グループの概要](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups-overview.md)を参照してください）。
 
 代理店Aでは、Samは財務管理者として行動し、プロジェクトのすべての財務フィールドを確認するためのアクセスを必要としています。 エージェンシーBでは、Samがプロジェクトマネージャーを務めており、タスクと問題を管理する必要がありますが、財務情報を表示することはできません。
 
@@ -75,7 +75,7 @@ Workfront システム管理者は、グループとアクセスレベルを選�
 
 <!--image?-->
 
-詳しくは、[ ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。<!--may be separate article now since it's not in the profile-->
+詳しくは、[&#x200B; ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。<!--may be separate article now since it's not in the profile-->
 
 ### レイアウトテンプレートのアクセスレベルへの割り当て
 
@@ -109,9 +109,9 @@ Workfront システム管理者は、レイアウトテンプレートをアク�
 
 ビジネスプロファイルに複数のアクセスレベルがある場合、アクセス量が最も多いレベルが優先されます。
 
-共有について詳しくは、[ オブジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
+共有について詳しくは、[&#x200B; オブジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
 
-アクセス レベルと権限の連携について詳しくは、[ アクセス レベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)を参照してください。
+アクセス レベルと権限の連携について詳しくは、[&#x200B; アクセス レベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)を参照してください。
 
 ## ビジネスプロファイルに関する考慮事項
 
