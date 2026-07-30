@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3092
 ht-degree: 25%
 
 ---
@@ -90,14 +90,19 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <td> 
 <p>同じワークスペースからレコードタイプを接続するには： </p>
 <ul> 
-<li><p>任意のWorkfrontおよびプランニングパッケージ</p></li>
-<li><p>任意のワークフローとプランニングパッケージ</li></ul>
+<li><p>任意のプランニングパッケージを含む任意のWorkfrontまたはワークフローパッケージ</p></li>
+<p>または</p>
+<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li>
+</ul>
 
 <p>異なるワークスペースからレコードタイプを接続するには：</p>
 
-<ul> 
-<li><p>任意のWorkfrontおよびプランニングパッケージ</p></li>
-<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li></ul>
+<ul>
+
+<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li>
+<p>または</p>
+<li><p>スタンドアロン製品として購入した場合のPlanning PrimeまたはUltimate パッケージ</p></li>
+</ul>
 <p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
 <tr> 
@@ -208,7 +213,7 @@ Old:
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
 1. テーブルビューの右上隅にある **+** アイコンをクリックし、「**新しい接続**」タブをクリックします。
 
-   ![Workfront、AEMおよびGenStudio ブランドとの新しい接続タブ &#x200B;](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+   ![Workfront、AEM、GenStudio Brandsとの新しい接続タブ &#x200B;](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
 
    <!--
     Old shot:
@@ -299,7 +304,15 @@ Old:
    * **複数選択**：これを選択すると、現在のレコードタイプの1つのレコードが、接続レコードタイプの複数のレコードと接続できるようになります。
    * **単一選択**：これを選択すると、現在のレコードタイプの1つのレコードが、接続レコードタイプの1つのレコードと接続できるようになります。
 
-1. リンクされたレコードタイプ **で「**&#x200B;対応するフィールドを作成」を選択します。 選択すると、現在のレコードタイプに追加された接続フィールドに加えて、接続先のレコードタイプに接続フィールドが作成されます。 これはデフォルトでは無効になっています。
+1. 「**接続タイプ**」セクション <!--<span class="preview">, when connecting all object types but not Planning record types</span>-->で、**リンクされたレコードタイプ**&#x200B;に対応するフィールドを作成します。
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+   選択すると、現在のレコードタイプに追加された接続フィールドに加えて、接続先のレコードタイプに接続フィールドが作成されます。 これはデフォルトでは無効になっています。
 
    >[!TIP]
    >
@@ -311,7 +324,7 @@ Old:
    >   * Planning レコードに接続されたWorkfront オブジェクト用に作成されたフィールドはありません。
    >   * GenStudio ワークスペースからレコードタイプに接続されている場合、Planning レコードタイプ用に作成されたフィールドはありません。
 
-1. （条件付き）リンクされたレコードタイプ **で「**&#x200B;対応するフィールドを作成」を有効にした場合は、次のオプションから、ユーザーが接続できるレコード数と接続元レコード数を指定します。
+1. （条件付き）「**接続タイプ**」セクションで「**リンクされたレコードタイプ**&#x200B;に対応するフィールドを作成する」を有効にした場合は、次のオプションから、ユーザーが接続できるレコード数と接続できるレコード数を示すように選択します。
 
    * 多対多
    * 1 対多

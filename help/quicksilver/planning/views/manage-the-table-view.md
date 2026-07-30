@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3910
+source-wordcount: 3912
 ht-degree: 40%
 
 ---
@@ -306,7 +306,15 @@ Old:
 
    テーブルビューで追加したレコードはすぐに保存され、ワークスペースに対する表示以上の権限を持つすべてのユーザーに表示されます。
 
-   デフォルトのサムネール画像も新しいレコードに追加されます。
+   デフォルトのサムネール画像<span class="preview">とカラー</span>も新しいレコードに追加されます。
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
+    >
+    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+    -->
 
 1. （オプション） 1つまたは複数のレコードまたは行を選択し、**ハンドル** アイコン ![&#x200B; ハンドルアイコン &#x200B;](assets/handle-icon.png)をレコードの左側にドラッグ&amp;ドロップして、行を並べ替えます。
 

@@ -23,14 +23,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 1356
-ht-degree: 79%
+source-wordcount: 1372
+ht-degree: 78%
 
 ---
 
 # フォームの整理とプレビュー
+
+{{preview-fast-release-general}}
 
 フォーム designer でカスタムフォームを整理し、プレビューして、正しく設定されていることを確認できます。
 
@@ -191,6 +193,8 @@ ht-degree: 79%
 
    >[!NOTE]
    >
-   >詳細ロジックは、フォームデザイナーのプレビューモードではサポートされていません。
+   >実稼動環境では、フォームデザイナーのプレビューモードでは高度なロジックはサポートされていません。
+   >
+   ><span class="preview"> プレビュー環境では、すべてのロジックの種類をプレビューモードで使用できます。</span>
 
 

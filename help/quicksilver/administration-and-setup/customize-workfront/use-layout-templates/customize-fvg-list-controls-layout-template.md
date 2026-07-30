@@ -19,14 +19,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
 workflow-type: tm+mt
-source-wordcount: 822
-ht-degree: 78%
+source-wordcount: 851
+ht-degree: 75%
 
 ---
 
 # レイアウトテンプレートを使用したフィルター、表示およびグループ化のカスタマイズ
+
+{{preview-fast-release-general}}
 
 Adobe Workfront の管理者は、レイアウトテンプレートを使用して、フィルター、表示、グループ化の各ドロップダウンメニューに表示するリストコントロールを指定できます。 これらのメニューは、プロジェクトのタスクリストなど、Workfront 全体のリストの上に表示されます。
 
@@ -97,6 +99,8 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
    >* プロジェクトエリアヘッダーの上にあるヘッダーで、以下のように行います。
    >   
    >  ![&#x200B; フィルターボタンを無効にする](assets/disable-filter-pills.png)
+
+   <span class="preview">一部の強化リストを選択できます。 これらのリストには、リストコントロールの横に「新しいエクスペリエンス」ラベルがあります。 強化リストについて詳しくは、[強化リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)を参照してください。</span>
 
 1. （オプション）レイアウトテンプレートのデフォルトのフィルター、表示またはグループ化を変更する場合は、フィルター、表示またはグループ化にポインタを合わせて、**デフォルトとして設定**&#x200B;をクリックします。
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: '14349'
+source-wordcount: '14352'
 ht-degree: 93%
 
 ---
@@ -2198,6 +2198,7 @@ ht-degree: 93%
     * [別のワークスペースから既存のレコードタイプを追加](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [レコードタイプの接続の概要](planning/architecture/connect-record-types-overview.md)
     * [レコードタイプの接続](planning/architecture/connect-record-types.md)
+    * {hide-from-toc}[依存関係の管理](planning/architecture/manage-dependent-connections.md)
     * [レコードタイプの編集](planning/architecture/edit-record-types.md)
     * [ワークスペースの削除](planning/architecture/delete-workspaces.md)
     * [ワークスペースの編集](planning/architecture/edit-workspaces.md)

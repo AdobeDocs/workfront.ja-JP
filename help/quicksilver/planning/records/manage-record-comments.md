@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 56%
+source-wordcount: 807
+ht-degree: 55%
 
 ---
 
@@ -166,8 +166,8 @@ Old:
 
 * Workfront Planning の次のエリアから、レコードに更新を追加したり、変更履歴を確認したりできます。
 
-   * レコードの詳細ページから。
-   * ビューから、レコードの詳細ボックスに。
+  * レコードの詳細ページから。
+  * ビューから、レコードの詳細ボックスに。
 
 ### レコードに対するコメントの管理
 
@@ -177,7 +177,7 @@ Old:
 
    ワークスペースが開き、レコードタイプがカードに表示されます。
 
-1. レコードタイプのカードをクリックします。
+1. レコードタイプカードをクリックします。
 レコードタイプページが開き、そのタイプのすべてのレコードが表示されます。
 
 1. 「**表示**」ドロップダウンメニューからテーブルビューを選択します。
@@ -206,11 +206,23 @@ Old:
    >
    >レコードコメントに画像を追加することはできません。
 
-
 1. 引き続きレコードにコメントを追加します。
 
    Workfront Planning レコードを含むオブジェクトの更新について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
+1. 「**送信**」をクリックして、コメントを記録します。
+
+   メッセージでタグ付けしたユーザーには、新しいメッセージが送信されます。
+
+   <!--
+   <div class="preview">
+
+   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+
+      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   </div>
+   -->
 1. （オプション）コメントの右上隅にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックしてコメントを削除します。
 1. （オプション）「**コメントを非表示**」アイコン「![&#x200B; コメントを非表示にする](assets/hide-comments-icon.png)」をクリックして、右側のパネルを閉じます。
 
