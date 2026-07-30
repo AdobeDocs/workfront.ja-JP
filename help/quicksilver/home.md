@@ -6,22 +6,15 @@ exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/QmFw0pkobCJGrlGBAiK-XPDBjNQ2JWQVuLnlCFQaUbc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff6a5ac43d9cbc162446ad14608b366dc737fc9b
 workflow-type: tm+mt
-source-wordcount: 454
-ht-degree: 97%
+source-wordcount: 459
+ht-degree: 96%
 
 ---
 
@@ -35,12 +28,13 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 
 >[!TAB 最新リリース]
 
-* [2026年第3四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
-* [Adobe Workfront Planning のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+* [2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+* [Adobe Workfront Planning のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
 * [Adobe Workfront Fusion のリリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 >[!TAB 2026 リリース ]
 
+* [2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
 * [2026年第3四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
 * [2026年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
 * [2026 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
@@ -64,7 +58,7 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 * [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 -->
