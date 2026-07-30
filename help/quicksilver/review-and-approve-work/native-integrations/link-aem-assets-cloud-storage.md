@@ -1,28 +1,19 @@
 ---
 product-area: documents;workfront-integrations
-navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Experience Manager AssetsのContent Advisorを使用して、コンテンツとフォルダーをリンクします
-description: Content Advisorを使用すると、Experience Manager Assetsのコンテンツまたはフォルダーを、ドキュメントをサポートする任意のAdobe Workfront オブジェクトにリンクできます。 Content Advisorは、コンテキストに即したインテリジェントな発見をWorkfrontに直接提供し、関連性の高い承認済みコンテンツを迅速に検索するのに役立ちます。
+navigation-topic: native-integrations
+title: Experience Manager Assetsのコンテンツとフォルダーを、Adobe クラウドストレージとリンクします
+description: 組織でAdobe クラウドストレージを使用している場合は、Experience Manager Assetsのコンテンツとフォルダーを、ドキュメントをサポートする任意のAdobe Workfront オブジェクトにリンクできます。
 author: Courtney
-feature: Digital Content and Documents, Workfront Integrations and Apps
-exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-TQID: https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
 workflow-type: tm+mt
-source-wordcount: 1435
-ht-degree: 18%
+source-wordcount: '913'
+ht-degree: 12%
 
 ---
 
-# Experience Manager AssetsのContent Advisorでコンテンツとフォルダーをリンクする
+# Experience Manager Assetsのコンテンツとフォルダーを、Adobe クラウドストレージとリンクします
 
-Content Advisorは、コンテキストに即したインテリジェントな発見をWorkfrontに直接提供し、コンテキストに基づいて承認済みの関連性の高いコンテンツを迅速に検索するのに役立ちます。 スマート提案、Dynamic Mediaのレンディション、詳細なアセットメタデータなどの機能を使用して、Workfrontから直接、コンテンツを効率的に評価および再利用できます。これにより、ブランドの一貫性を維持しながら、コンテンツ制作を迅速化できます。
-
-Content Advisorを使用して、Experience Manager AssetsのコンテンツとフォルダーをWorkfrontにリンクできます。 リンクすると、Workfrontでコンテンツを表示および管理でき、Experience Manager Assetsでコンテンツに加えられた変更はWorkfrontに反映されます。
+Adobe クラウドストレージを使用している場合は、Experience Manager AssetsからWorkfrontにコンテンツとフォルダーをリンクできます。 リンクすると、Workfrontでコンテンツを表示および管理でき、Experience Manager Assetsでコンテンツに加えられた変更はWorkfrontに反映されます。
 
 >[!IMPORTANT]
 >
@@ -48,7 +39,7 @@ Content Advisorを使用して、Experience Manager Assetsのコンテンツと�
   </tr> 
   <tr> 
    <td role="rowheader">その他の製品</td> 
-   <td>Experience Manager as a Cloud Service または Assets Essentials を使用するには、Admin Console に製品にユーザーとして追加されている必要があります。</td> 
+   <td>Experience Manager as a Cloud Serviceが必要であり、Admin Consoleのユーザーとして商品に追加する必要があります。</td> 
   </tr> 
    <tr> 
     <td role="rowheader">Experience Manager 権限</td> 
@@ -73,27 +64,20 @@ Content Advisorを使用して、Experience Manager Assetsのコンテンツと�
 
 開始する前の確認事項。
 
-* Workfront 管理者は、Experience Manager 統合を設定する必要があります。 詳しくは、[Experience Manager Assets as a Cloud Service 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)を参照してください。
+* Workfront 管理者は、Experience Manager 統合を設定する必要があります。 詳しくは、[Frame.io 統合した Adobe Experience Manager の使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)を参照してください。
 
 * スマート提案またはキャンペーンブリーフ機能を使用するには、GenAI ライダーに署名する必要があります。 詳しくは、[Adobe アプリケーションでContent Advisorを使用してAEM コンテンツにアクセスする](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search)を参照してください。
 
-
-
-## Content AdvisorでExperience Manager Assetsのコンテンツをリンクする
-
-Content Advisorを使用して、Experience Manager AssetsのコンテンツをWorkfront内で直接リンクできるようになりました。 Content AdvisorはAssets Essentialsでは使用できません。
+## Experience Manager Assetsからコンテンツをリンクする
 
 コンテンツをリンクするには：
 
-1. ドキュメントを追加する Workfront の&#x200B;**ドキュメント**&#x200B;エリアに移動します。
-1. 「**新規追加**」を選択して、管理者が設定した Experience Manager 統合を選択します。
-
-   >[!NOTE]
-   >
-   >Workfront管理者は、この統合の任意の名前を選択できるので、Experience Manager Assetsについて具体的に言及していない場合があります。
+1. コンテンツをリンクするWorkfront オブジェクトに移動します。
+1. 左側のパネルで「**ドキュメント**」セクションをクリックします。
+1. ページの右側にある&#x200B;**新規**&#x200B;をクリックし、**AEM ファイル**をクリックして個々のアセットをリンクします。
+   ![AEM ファイルをドキュメント領域に追加](assets/aem-files.png)
 
 1. Content Advisorを使用すると、次のことが可能になります。
-
 
    <table style="table-layout:auto">
    <tbody>
@@ -117,10 +101,12 @@ Content Advisorを使用して、Experience Manager AssetsのコンテンツをW
          <td><strong> レンディションにDynamic Media修飾子を適用します。</strong> 修飾子を追加してアセットレンディションをリアルタイムで変換し、結果をプレビューしてから、ホストアプリケーションのレンディションを選択します。</td>
          <td>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">使用できるDynamic Media アセットのレンディション </a>を参照してください。</td>
       </tr>
+      <!--
       <tr>
-         <td><strong> コンテンツフラグメントを検索して参照します。</strong> コンテンツフラグメントを検索し、ライブサムネールプレビューを表示し、ステータス（ドラフト、変更、公開）を確認し、詳細なプロパティ、参照、バリエーションを検査します。</td>
-         <td>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor"> コンテンツフラグメントの検出</a>を参照してください。</td>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
       </tr>
+      -->
       <tr>
          <td><strong> アセットのメタデータにアクセスします。</strong> Assetsのビューと一致するタイトル、説明、フォーマット、サイズ、その他のメタデータタブ（商品、キャンペーン、タグ）などのアセットのプロパティを確認できます。</td>
          <td>詳しくは、「<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Assets ビューと一致したアセットメタデータへのアクセス </a>」を参照してください。</td>
@@ -140,56 +126,42 @@ Content Advisorを使用して、Experience Manager AssetsのコンテンツをW
    </tbody>
    </table>
 
+<!--
+### Link a new version from Experience Manager Assets
 
-### Experience Manager AssetsからContent Advisorに新しいバージョンをリンクする
+You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
 
-Experience Manager AssetsまたはAssets Essentialsから新しいコンテンツを取得し、新しいバージョンとして既存のアセットに追加できます。 ドキュメントが既にリンクされており、新しいバージョンがExperience Manager AssetsまたはAssets Essentialsに追加されている場合、新しいバージョンはWorkfrontに自動的に表示されます。
+To link a new version:
 
-新しいバージョンをリンクするには：
-
-1. ドキュメントを追加する Workfront の&#x200B;**ドキュメント**&#x200B;エリアに移動します。
-1. 新しいバージョンに置き換えるアセットを選択します。 リンクされたフォルダー内に新しいバージョンのアセットを作成することはできません。
-1. **新規追加**／**バージョン**&#x200B;で、管理者が設定した Experience Manager 統合を選択します。
-
-   >[!NOTE]
-   >
-   >Workfront管理者は、この統合の任意の名前を選択できるので、Experience Manager Assetsについて具体的に言及していない場合があります。
-
-1. リンクするコンテンツを選択します。
-
-   * 「Assets」タブを選択して、Experience Manager AssetsまたはAssets Essentialsのアセット、フォルダー、コレクションを参照します。
-
-     ![ コンテンツアドバイザー](assets/content-advisor-full.png)
-
-   * コンテンツフラグメントはバージョンをサポートしていません。 コンテンツフラグメントを選択すると、新しいバージョンを作成する代わりに、新しいバージョンが既存のコンテンツフラグメントに置き換わります。
-
-1. 「**選択**」をクリックします。
-
-## Experience Manager AssetsからContent Advisorにフォルダーをリンクする
-
-フォルダー内の個々のアセットを表示する権限は、Experience Manager Assets 権限に依存します。
-
-フォルダーをリンクするには：
-
-1. フォルダーを作成する Workfront の&#x200B;**ドキュメント**&#x200B;エリアに移動します。
-1. 「**新規追加**」を選択して、管理者が設定した Experience Manager 統合を選択します。
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >Workfront管理者は、この統合の任意の名前を選択できるので、Experience Manager Assetsについて具体的に言及していない場合があります。
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
 
-1. **Assets**/**ファイルとフォルダー**&#x200B;をクリックします。
+1. Select the content you want to link.
+1. Click **Select**.
+-->
 
-1. **フィルター** アイコンをクリックし、**アセットタイプ** セクションで、**フォルダー**&#x200B;を選択します。
+<!--
+## Link a folder from Experience Manager Assets
 
-1. リンクするフォルダーを選択します。
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
 
-1. 「**選択**」をクリックします。
+To link a folder:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **Assets** > **Files & Folders**.
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
+1. Select the folder you want to link.
+1. Click **Select**.
+-->
 
 ## 考慮事項
 
-* Content Advisor機能は、Adobe クラウドストレージを使用するオブジェクトでは使用できません。 組織でAdobe クラウドストレージを使用している場合でも、Experience Manager AssetsまたはAssets Essentialsからアセットとフォルダーをリンクすることはできますが、AI 検索、スマートレコメンデーション、Dynamic Media レンディションなどのContent Advisor機能にアクセスすることはできません。 詳しくは、[Adobe クラウドストレージを使用してExperience Manager Assetsからコンテンツとフォルダーをリンク ](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)を参照してください。
-
-* Content Advisor機能は、Assets Essentialsでは使用できません。 Assets Essentialsからアセットとフォルダーをリンクするには、[Experience Manager Assets Essentialsからアセットとフォルダーをリンク ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)するを参照してください。
-
+* リンクされたAEM アセットでは、レビューと承認ワークフローはサポートされていません。
 * メタデータフィールドは、WorkfrontからExperience Manager Assetsにアセットを送信するときに最初にマッピングされます。 Workfront 管理者がオブジェクトメタデータの同期を有効にしている場合、どちらかのアプリケーションで変更されたフィールドは最新の状態に保たれます。
