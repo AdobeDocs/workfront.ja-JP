@@ -82,7 +82,7 @@ WF のほとんどのエリアとオブジェクトは、画面の左側にあ�
 >[!IMPORTANT]
 >
 >左側のパネルにデフォルトで1つのセクション（例：**[!UICONTROL プロジェクト]**&#x200B;領域の&#x200B;**[!UICONTROL すべてのプロジェクト]**&#x200B;など）だけが表示される場合、レイアウト テンプレートを作成する際に[!DNL Workfront]管理者がこの領域にダッシュボードを1つ以上追加し、左側のパネルがその領域に表示される前に、そのテンプレートに割り当てる必要があります。
->管理者がレイアウトテンプレートの左側のパネルをカスタマイズする方法について詳しくは、[ レイアウトテンプレートを使用した左側のパネルのカスタマイズ ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。[!DNL Workfront]
+>管理者がレイアウトテンプレートの左側のパネルをカスタマイズする方法について詳しくは、[&#x200B; レイアウトテンプレートを使用した左側のパネルのカスタマイズ &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。[!DNL Workfront]
 
 左側のパネルは、次のエリアで使用できます。
 
@@ -91,7 +91,7 @@ WF のほとんどのエリアとオブジェクトは、画面の左側にあ�
 * [[!UICONTROL リソース]エリアのデフォルトのセクション](#default-sections-in-the-resourcing-area)
 * [[!UICONTROL プロジェクト]エリアのデフォルトのセクション](#default-sections-in-the-projects-area)
 * [[!UICONTROL タイムシート]エリアのデフォルトのセクション](#default-sections-in-the-timesheets-area)
-* [ [!DNL Goals]  エリアのデフォルトのセクション](#default-sections-in-the-goals-area)
+* [&#x200B; [!DNL Goals]  エリアのデフォルトのセクション](#default-sections-in-the-goals-area)
 
 ### [!UICONTROL ダッシュボード]エリアのデフォルトのセクション
 
@@ -171,7 +171,7 @@ WF のほとんどのエリアとオブジェクトは、画面の左側にあ�
     </tr>
     <tr>
         <td><strong>[!UICONTROL Dashboards]</strong></td>
-        <td>[!DNL Workfront]管理者がレイアウト テンプレートの[!UICONTROL プロジェクト ]領域の左側のパネルに追加したすべてのダッシュボードを表示できます。 これらのダッシュボードには、環境に合わせてカスタマイズされた名前が付けられています。</td>
+        <td>[!DNL Workfront]管理者がレイアウト テンプレートの[!UICONTROL プロジェクト &#x200B;]領域の左側のパネルに追加したすべてのダッシュボードを表示できます。 これらのダッシュボードには、環境に合わせてカスタマイズされた名前が付けられています。</td>
     </tr>
 </table>
 
@@ -281,9 +281,9 @@ WF のほとんどのエリアとオブジェクトは、画面の左側にあ�
       >
       >すべてのオブジェクトで左側のパネルにダッシュボードが表示されるわけではありません。 ダッシュボードをサポートするオブジェクトについては、[Workfront オブジェクトまたは領域の左側のパネルにあるダッシュボードの追加](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)を参照してください。
 
-1. （オプション）ダッシュボードクイックリンクを削除するには、左側のナビゲーションのダッシュボードにカーソルを合わせ、表示されたら&#x200B;**削除** アイコン ![削除アイコン ](assets/remove-dashboard-from-left.png)をクリックします。
+1. （オプション）ダッシュボードクイックリンクを削除するには、左側のナビゲーションのダッシュボードにカーソルを合わせ、表示されたら&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/remove-dashboard-from-left.png)をクリックします。
 
-1. （オプション）実稼動環境の左側のパネルにあるセクションの順序を変更するには、セクションの横にある&#x200B;**[!UICONTROL ドラッグ]** アイコン ![ ドラッグアイコン ](assets/drag-icon.png)をクリックし、上下にドラッグします。
+1. （オプション）実稼動環境の左側のパネルにあるセクションの順序を変更するには、セクションの横にある&#x200B;**[!UICONTROL ドラッグ]** アイコン ![&#x200B; ドラッグアイコン &#x200B;](assets/drag-icon.png)をクリックし、上下にドラッグします。
 
    ![セクションをドラッグ](assets/drag-section.png)
 
