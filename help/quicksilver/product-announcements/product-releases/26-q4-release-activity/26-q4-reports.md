@@ -27,8 +27,8 @@ Workfrontのリストとレポートにネイティブ参照フィールドを�
 
 ネイティブ参照フィールドはカスタムフィールドです。 フィールドがオブジェクトに添付されたカスタムフォーム上にある場合、フィールドはオブジェクトデータから入力されます。 例えば、フィールドが「説明」フィールドを参照し、それがプロジェクトに添付されたカスタムフォーム上にある場合、フィールドはプロジェクトの説明を取り込みます。 （データが利用できない場合、フィールドには「該当なし」と表示される場合があります）。
 
-サポートされているネイティブフィールドのリストを含むネイティブ参照フィールドの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
-レポートへのフィールドの追加について詳しくは、[ カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+サポートされているネイティブフィールドのリストを含むネイティブ参照フィールドの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+レポートへのフィールドの追加について詳しくは、[&#x200B; カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 ## 従来のリストやレポートにおける複数選択フィールド値の一貫性のある順序付け
 
@@ -38,7 +38,7 @@ Workfrontのリストとレポートにネイティブ参照フィールドを�
 
 複数を選択したカスタムフィールドのオプションが、従来のリストとレポートで一貫した予測可能な順序で表示されるようになりました。 フィールドの順序は、カスタムフォームでのフィールドの配置方法によって決まります。
 
-![ カスタムフォームフィールドの順序が、リストまたはレポートで選択した値の順序と一致する](assets/new-field-order-multi-select.png)
+![&#x200B; カスタムフォームフィールドの順序が、リストまたはレポートで選択した値の順序と一致する](assets/new-field-order-multi-select.png)
 
 以前は、選択したオプションが選択した順序で表示されていたり、一貫性のない順序で表示されていたため、行のスキャンと比較が困難になっていました。
 

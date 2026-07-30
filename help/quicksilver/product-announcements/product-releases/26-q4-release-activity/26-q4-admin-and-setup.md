@@ -25,7 +25,7 @@ ht-degree: 1%
 
 グループ管理者は、システム管理者のアクセス権がなくても、管理するグループのビジネスプロファイルを作成、編集、削除できるようになりました。 これにより、企業はグループレベルでビジネスプロファイル管理を委任する柔軟性が向上します。
 
-詳しくは、[ ビジネスプロファイルの表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)を参照してください。
+詳しくは、[&#x200B; ビジネスプロファイルの表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)を参照してください。
 
 ## 拡張リストでのビューのレイアウトテンプレートのサポート
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 レイアウトテンプレートの拡張リストの例は、**すべてのリクエスト**&#x200B;および&#x200B;**高度な割り当て**&#x200B;です。 拡張リストのビューの横に「新しいエクスペリエンス」ラベルが表示されます。
 
-詳しくは、[ レイアウトテンプレートを使用したフィルター、ビュー、グループ化のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
+詳しくは、[&#x200B; レイアウトテンプレートを使用したフィルター、ビュー、グループ化のカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
 
 ## 外部参照フィールドの一括編集
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 例えば、国のリストは、地域に対して行われた選択によって異なります。 あるプロジェクトの地域がアジアで、別のプロジェクトの地域がヨーロッパで、両方のプロジェクトを一括編集する場合、地域が一致しないため、国フィールドは使用できません。 両方のプロジェクトで同じ地域になるように地域を編集する場合は、両方のプロジェクトで使用する国を選択することもできます。
 
-外部参照フィールドについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-external-lookup-fields)を参照してください。
+外部参照フィールドについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-external-lookup-fields)を参照してください。
 
 ## カスタムフォームデザイナーのプレビューで高度なロジックをサポート
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 これらのロジックタイプは、高度な表示、デフォルト値、条件付き書式設定、編集可能など、Workflow PrimeまたはUltimate パッケージ上の組織でのみ使用できます。
 
-詳細については、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)および[ フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
+詳細については、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)および[&#x200B; フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
 
 ## 統一されたレビューと承認のための変更管理
 

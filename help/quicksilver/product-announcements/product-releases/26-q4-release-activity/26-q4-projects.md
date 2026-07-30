@@ -27,4 +27,4 @@ ht-degree: 7%
 
 以前は、ユーザーが値の編集アクセス権を持っていない場合、ゼロにリセットされていました。
 
-詳しくは、[ テンプレートを使用したプロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)および[ プロジェクトの財務領域での情報の管理](/help/quicksilver/manage-work/projects/project-finances/manage-project-finance-area.md)を参照してください。
+詳しくは、[&#x200B; テンプレートを使用したプロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)および[&#x200B; プロジェクトの財務領域での情報の管理](/help/quicksilver/manage-work/projects/project-finances/manage-project-finance-area.md)を参照してください。

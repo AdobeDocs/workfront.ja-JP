@@ -21,13 +21,13 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->プレビュー：2026年7月30日>全員の本番環境：2026年8月13日>[!BADGE  スケジュールをオフ ]{type=Neutral}
+>プレビュー：2026年7月30日>全員の本番環境：2026年8月13日>[!BADGE &#x200B; スケジュールをオフ &#x200B;]{type=Neutral}
 
 Workfrontの左側のナビゲーションパネルアイコンのルックアンドフィールを更新して、モダンなデザインと他のAdobe アプリケーションとの一貫性のあるエクスペリエンスを提供しました。 機能は変更されていません。
 
 ナビゲーションパネルは、プロジェクト、タスク、イシューなど、Workfrontのほとんどの領域とオブジェクトの左側にあります。
 
-詳しくは、[Adobe Workfrontの左ナビゲーション ](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)を参照してください。
+詳しくは、[Adobe Workfrontの左ナビゲーション &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)を参照してください。
 
 ## 強化されたリスト更新
 
