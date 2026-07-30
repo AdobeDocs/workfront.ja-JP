@@ -6,26 +6,21 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
 TQID: https://experienceleague.adobe.com/1nXA0NxLQW3tiIrhCKAd5EMfqBjQW68GHNN42dQmptQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 90%
+source-wordcount: 714
+ht-degree: 87%
 
 ---
 
 # 特定の領域に対する管理アクセス権をユーザーに付与
+
+{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -84,6 +79,11 @@ Adobe Workfront管理者は、アクセスレベルを使用して、Standardま
      <tr> 
       <td role="rowheader">承認プロセス</td> 
       <td><p>システム全体および特定のグループで使用する承認プロセスを作成および管理します。</p><p>このアクセス権がない場合、ユーザーは、管理するアクセス権を持つ項目に対して、アドホック承認プロセスのみを作成できます。</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">変更履歴</span></td> 
+      <td><p><span class="preview">設定/変更履歴/変更履歴リストでWorkfrontの変更履歴ログを表示します。</span></p>
+      <p><span class="preview">このアクセス権がなければ、ユーザーは設定領域にこのオプションを持ちません。</span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">会社</td> 

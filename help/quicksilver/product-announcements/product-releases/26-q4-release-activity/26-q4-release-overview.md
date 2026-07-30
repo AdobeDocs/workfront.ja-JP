@@ -4,10 +4,10 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c7370c767ac521cea7e262ba9cca9270139fd056
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 17%
+source-wordcount: '1271'
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第4四半期のリリースが予定されている実稼動リリースに近づいたときに、さらに機能強化を加えて更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -126,6 +126,33 @@ ht-degree: 17%
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">統一されたレビューと承認のための変更管理</a>
                 <p>変更履歴ページには、統合されたレビューと承認のワークフローをまたいでアクティビティが記録され、管理者は承認、ステージ、参加者のアクションに関する包括的なガバナンス履歴を取得できます。</p>
+            </td>
+            <td><p>2026年7月30日（PT）</p></td>
+            <td><p>2026年8月13日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> レイアウトテンプレートでカスタムアプリケーションをランディングページとして定義</a>
+                <p>レイアウトテンプレートのランディングページとしてカスタムアプリケーションを設定できるようになりました。</p>
+            </td>
+            <td><p>2026年7月30日（PT）</p></td>
+            <td><p>2026年8月13日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">変更履歴で追跡フィールドを設定</a>
+                <p>Workfront全体で、特定の種類のオブジェクトをトラッキングするフィールドを追加できます。 ユーザーがそのフィールドの情報を変更すると、システムはその変更に関する情報を変更履歴のエントリとして記録します。</p>
+            </td>
+            <td><p>2026年7月30日（PT）</p></td>
+            <td><p>2026年8月13日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">変更履歴への管理アクセスがアクセスレベルに追加されました</a>
+                <p>標準アクセスレベルで、そのレベルを持つユーザーが変更履歴リストにアクセスできるかどうかを定義できるようになりました。</p>
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
@@ -286,8 +313,8 @@ ht-degree: 17%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画第4四半期2026 リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画第4四半期2026 リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 
 ## お知らせ
 
@@ -299,7 +326,7 @@ Workfront AdministratorでData Connect リーダーを使用しているユー�
 
 この変更は、2026年4月のWorkfront リリースノートで最初に発表されました。これは、期限前の最後のリマインダーです。 影響を受けるすべての読者ユーザーが2026年8月8日より前にMFAを有効にして、アクセスの中断を避けてください。
 
-詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/ja/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
+詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
 
 ### トレーニングの更新
 

@@ -4,9 +4,9 @@ description: 2026年第4四半期の管理者の機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 グループ管理者は、システム管理者のアクセス権がなくても、管理するグループのビジネスプロファイルを作成、編集、削除できるようになりました。 これにより、企業はグループレベルでビジネスプロファイル管理を委任する柔軟性が向上します。
 
-詳しくは、[&#x200B; ビジネスプロファイルの表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)を参照してください。
+詳しくは、[ ビジネスプロファイルの表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)を参照してください。
 
 ## 拡張リストでのビューのレイアウトテンプレートのサポート
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 レイアウトテンプレートの拡張リストの例は、**すべてのリクエスト**&#x200B;および&#x200B;**高度な割り当て**&#x200B;です。 拡張リストのビューの横に「新しいエクスペリエンス」ラベルが表示されます。
 
-詳しくは、[&#x200B; レイアウトテンプレートを使用したフィルター、ビュー、グループ化のカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
+詳しくは、[ レイアウトテンプレートを使用したフィルター、ビュー、グループ化のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
 
 ## 外部参照フィールドの一括編集
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 例えば、国のリストは、地域に対して行われた選択によって異なります。 あるプロジェクトの地域がアジアで、別のプロジェクトの地域がヨーロッパで、両方のプロジェクトを一括編集する場合、地域が一致しないため、国フィールドは使用できません。 両方のプロジェクトで同じ地域になるように地域を編集する場合は、両方のプロジェクトで使用する国を選択することもできます。
 
-外部参照フィールドについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-external-lookup-fields)を参照してください。
+外部参照フィールドについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-external-lookup-fields)を参照してください。
 
 ## カスタムフォームデザイナーのプレビューで高度なロジックをサポート
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 これらのロジックタイプは、高度な表示、デフォルト値、条件付き書式設定、編集可能など、Workflow PrimeまたはUltimate パッケージ上の組織でのみ使用できます。
 
-詳細については、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)および[&#x200B; フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
+詳細については、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)および[ フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
 
 ## 統一されたレビューと承認のための変更管理
 
@@ -84,3 +84,39 @@ Adobe Workfrontの「変更履歴」ページには、統一されたレビュ�
 各エントリには、日付と時刻、操作、ユーザー名（または「システム生成」）、オブジェクト名など、トラッキングされた標準フィールドが含まれます。 どのLLM （Claudeなど）が更新したかなど、MCP アクティビティがキャプチャされます。 Frame.io ビューアコメントは含まれません。
 
 詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。
+
+## カスタムアプリケーションをレイアウトテンプレートのランディングページとして定義する
+
+>[!NOTE]
+>
+>プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+
+レイアウトテンプレートのランディングページとしてカスタムアプリケーションを設定できるようになりました。 既にメインメニューに追加されているカスタムアプリケーションは、ランディングページとして使用できます。
+
+カスタムアプリケーションをメインメニューまたはランディングページオプションとして使用するには、そのアプリケーションを個別に作成する必要があります。
+
+詳しくは、[ レイアウトテンプレートを使用したランディングページのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)および[Adobe App Builderを使用したWorkfrontのカスタムアプリケーションの作成](/help/quicksilver/app-builder/app-builder.md)を参照してください。
+
+## 変更履歴でトラッキング対象フィールドを設定する
+
+>[!NOTE]
+>
+>プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+
+Workfront全体で、特定の種類のオブジェクトをトラッキングするフィールドを追加できます。 ユーザーがそのフィールドの情報を変更すると、システムはその変更に関する情報を変更履歴のエントリとして記録します。
+
+以前は、トラッキング対象フィールドを定義するための設定画面は表示専用でした。
+
+詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。
+
+## アクセス レベルに追加された変更履歴への管理アクセス
+
+>[!NOTE]
+>
+>プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+
+標準アクセスレベルで、そのレベルを持つユーザーが変更履歴リストにアクセスできるかどうかを定義できるようになりました。 「**履歴を変更**」オプションは、アクセスレベルの「**の管理アクセスを許可する」セクションで利用できます。**
+
+詳細については、[特定の領域への管理者アクセス権をユーザーに付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)および[変更履歴を表示および管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。
+
+
