@@ -18,7 +18,7 @@ ht-degree: 16%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第3四半期のリリースが予定されている実稼動リリースに近づいたときに、追加の機能強化で更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -616,7 +616,7 @@ Workfront AdministratorでData Connect リーダーを使用しているユー�
 
 この変更は、2026年4月のWorkfront リリースノートで最初に発表されました。これは、期限前の最後のリマインダーです。 影響を受けるすべての読者ユーザーが2026年8月8日より前にMFAを有効にして、アクセスの中断を避けてください。
 
-詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
+詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/ja/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
 
 ### スタンドアロン製品としてのAdobe Workfront Planning
 
@@ -679,7 +679,7 @@ Workfront計画トライアルは2026年5月15日に終了します。
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
 
 -->
 
