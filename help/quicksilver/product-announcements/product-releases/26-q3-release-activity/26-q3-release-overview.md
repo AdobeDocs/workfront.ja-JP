@@ -584,7 +584,7 @@ New features in Workfront Planning are available in Production.
 
 最新の機能について詳しくは、次を参照してください。
 
-* [Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
+* [Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 * [Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)の2026年第3四半期のリリースアクティビティ。
 
 
@@ -641,7 +641,7 @@ Adobe Workfront Planning as a standalone productには、次の機能が含ま�
 * プランニングレコード作成の自動化。
 * Planning リクエストフォームを使用した受注プロセス。
 
-詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
+詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 ### API バージョン 22
 
