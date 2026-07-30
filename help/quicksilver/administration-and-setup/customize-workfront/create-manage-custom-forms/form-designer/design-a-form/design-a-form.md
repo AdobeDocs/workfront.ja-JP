@@ -11,23 +11,15 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 7956
-ht-degree: 78%
+source-wordcount: 7922
+ht-degree: 77%
 
 ---
 
@@ -177,17 +169,17 @@ Adobe Workfront では、フォームデザイナーを使用してカスタム�
 
 * カスタムフィールドラベルとAPI名では、次の特殊文字はサポートされていません。
 
-   * \t
-   * \n
-   * \r
-   * \f
-   * `[`
-   * `]`
-   * （
-   * ）
-   * ：
-   * `{`
-   * `}`
+  * \t
+  * \n
+  * \r
+  * \f
+  * `[`
+  * `]`
+  * （
+  * ）
+  * ：
+  * `{`
+  * `}`
 
 ### テキストフィールドの追加
 
@@ -272,7 +264,7 @@ Adobe Workfront では、フォームデザイナーを使用してカスタム�
     </tr>
     <tr>
     <td>手順</td>
-    <td>ウィジェットに関する追加情報を入力します。 ユーザーがカスタムフォームに入力する際に、疑問符アイコンの上にポインタを合わせると、ここに入力した情報を含むツールチップが表示されます。
+    <td>フィールドに関する追加情報を入力します。ユーザーがカスタムフォームに入力すると、疑問符アイコンにカーソルを合わせて、ここに入力した情報を含むツールヒントを表示できます。
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -805,14 +797,14 @@ To add typeahead and date fields:
      </tr>
      <tr> 
       <td role="rowheader">JSON パス</td>
-      <td><p>API の JSON パスを入力するか貼り付けます。</p> <p>このオプションを使用すると、API URL から返された JSON からデータを抽出できます。 これは、JSON 内のどの値がドロップダウンオプションに表示されるかを選択する手段の役割を果たします。</p><p>例えば、API URLが次の形式でJSONを返す場合、「$.data[*].name」を使用してドロップダウンオプションとして米国とカナダを選択できます。</br>
+      <td><p>API の JSON パスを入力するか貼り付けます。</p> <p>このオプションを使用すると、API URL から返された JSON からデータを抽出できます。 これは、JSON 内のどの値がドロップダウンオプションに表示されるかを選択する手段の役割を果たします。</p><p>例えば、API URL が次の形式で JSON を返す場合、「$.data[*].name」を使用して、ドロップダウンオプションとして「USA」と「Canada」を選択できます。</br>
       <pre>
-      &lbrace;
-       データ：&lbrace;
-         { name: "USA"},
-         { name: "Canada"}
-       &rbrace;
-      &rbrace;
+      {
+ data: {
+ { name: "USA"},
+ { name: "Canada"}
+ }
+ }
       </pre>
       </p>
      <p>JSON パスと、正しい JSON パスを記述する方法について詳しくは、<a href="https://jsonpath.com/">https://jsonpath.com/</a> を参照してください。</p></td>
@@ -1050,7 +1042,7 @@ The Workfront Mobile app
 
 ### Workfront ネイティブフィールドの追加
 
-カスタムフォームに Workfront ネイティブフィールドを追加できます。 カスタムフォームをオブジェクトに添付すると、フィールドはオブジェクトデータから入力されます。 例えば、プロジェクトに添付されたカスタムフォームの「説明」フィールドは、プロジェクトの説明を取り込みます （データが利用できない場合、フィールドには「該当なし」と表示される場合があります）。
+カスタムフォームに Workfront ネイティブフィールドを追加できます。 カスタムフォームをオブジェクトに添付すると、フィールドはオブジェクトデータから入力されます。 例えば、カスタムフィールドが「説明」フィールドを参照し、それがプロジェクトに添付されたカスタムフォーム上にある場合、プロジェクトの説明が取り込まれます。 （データが利用できない場合、フィールドには「該当なし」と表示される場合があります）。
 
 +++ 展開すると、サポートされているネイティブフィールドのリストが表示されます。
 
@@ -1218,7 +1210,7 @@ Adobe XD ファイルを追加するには、以下のように行います。
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必須）有効な XD プロトタイプリンクを入力するかペーストします。</p> 
-      <p><b>メモ</b>：Adobe XD の「共有」タブのリンクアクセスの設定は、リンクを知っているすべてのユーザーに設定する必要があります。 そうしないと、ユーザーはプロトタイプを表示できなくなります。 
+      <p><b>注意</b>: Adobe XDの「共有」タブの「リンクアクセス」設定は、リンクを持つユーザーに設定する必要があります。そうでない場合、ユーザーはプロトタイプを表示できません。 
    </td> 
      </tr> 
      <tr> 
