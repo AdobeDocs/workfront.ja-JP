@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 223aa6944cb6a1e2b03f782673f6de89f2ffbab2
+source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '601'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## テーブルビューでの行のドラッグ&amp;ドロップ
 
@@ -45,11 +45,9 @@ Workspace Managerで、接続されたレコードタイプ間の依存関係を
 * レコードタイプを接続する際に、「新規接続」タブに「接続設定」セクションを追加しました
 * 新しいセクションに「この接続を依存にする」設定を追加しました
 
-<!--
 
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
 
--->
 
 
 
@@ -89,7 +87,7 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 ## Designerの計画には、Beta契約書への同意が必要になりました
 
 >[!NOTE]
->すべての顧客に対するプレビューと実稼動：2026年7月20日>[!BADGE &#x200B; スケジュール外]{type=Neutral}
+>すべての顧客に対するプレビューと実稼動：2026年7月20日>[!BADGE  スケジュール外]{type=Neutral}
 
 Designerを計画する際には、使用できるBeta契約書が必要になります。 AI契約書に署名する必要はありません。 これはすべてのお客様が利用できます。
 
