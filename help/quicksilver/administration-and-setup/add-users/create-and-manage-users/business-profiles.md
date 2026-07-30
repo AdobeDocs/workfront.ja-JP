@@ -11,14 +11,16 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b6c2f0b8138948be7a6f9565503d05738c456857
+source-git-commit: 5c8c8bfdf9b02d8bcd19a291b65825d4b0883807
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1475'
 ht-degree: 1%
 
 ---
 
 # ビジネスプロファイル概要
+
+{{highlighted-preview}}
 
 ビジネスプロファイルは、代理店などの顧客がユーザーアクセスを効率的に管理し、グループレベルで権限を正確に制御できるようにする、強化された権限モデルです。 ビジネスプロファイルでは、ユーザーはグループ固有のオブジェクトに対して異なる権限を持ちます。 追加のオブジェクトは、ビジネスプロファイルと直接共有することもできます。
 
@@ -31,13 +33,15 @@ Workfront システム管理者：
 * 必要に応じて、ビジネスプロファイルの有効期限を定義します
 * レイアウトテンプレートをアクセスレベルに割り当てます
 
+<span class="preview"> グループ管理者は、管理するグループに対してのみ、ビジネスプロファイルを作成、編集、削除することもできます。</span>
+
 オブジェクトを共有するアクセス権を持つユーザーは誰でもビジネスプロファイルとオブジェクトを共有でき、プロファイルを持つすべてのユーザーにはオブジェクトが表示されます。
 
 ## ビジネスプロファイルの例
 
 >[!BEGINSHADEBOX]
 
-Samは、代理店Aと代理店Bのために、プロジェクトへの異なるアクセスを必要としています。両機関はWorkfrontに団体として設立されている。 （グループについて詳しくは、[&#x200B; グループの概要](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups-overview.md)を参照してください）。
+Samは、代理店Aと代理店Bのために、プロジェクトへの異なるアクセスを必要としています。両機関はWorkfrontに団体として設立されている。 （グループについて詳しくは、[ グループの概要](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups-overview.md)を参照してください）。
 
 代理店Aでは、Samは財務管理者として行動し、プロジェクトのすべての財務フィールドを確認するためのアクセスを必要としています。 エージェンシーBでは、Samがプロジェクトマネージャーを務めており、タスクと問題を管理する必要がありますが、財務情報を表示することはできません。
 
@@ -71,7 +75,7 @@ Workfront システム管理者は、グループとアクセスレベルを選�
 
 <!--image?-->
 
-詳しくは、[&#x200B; ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。<!--may be separate article now since it's not in the profile-->
+詳しくは、[ ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。<!--may be separate article now since it's not in the profile-->
 
 ### レイアウトテンプレートのアクセスレベルへの割り当て
 
@@ -105,9 +109,9 @@ Workfront システム管理者は、レイアウトテンプレートをアク�
 
 ビジネスプロファイルに複数のアクセスレベルがある場合、アクセス量が最も多いレベルが優先されます。
 
-共有について詳しくは、[&#x200B; オブジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
+共有について詳しくは、[ オブジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
 
-アクセス レベルと権限の連携について詳しくは、[&#x200B; アクセス レベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)を参照してください。
+アクセス レベルと権限の連携について詳しくは、[ アクセス レベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)を参照してください。
 
 ## ビジネスプロファイルに関する考慮事項
 
