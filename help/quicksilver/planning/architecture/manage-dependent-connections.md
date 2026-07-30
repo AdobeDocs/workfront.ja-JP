@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1332'
 ht-degree: 5%
 
 ---
@@ -68,7 +68,7 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
    <ul><li><p>Adobe Experience Manager Assetsライセンスと、AEM Assetsとプランニングレコードタイプを連携させるAEM AssetsとWorkfrontの統合。</p>
    <p>詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets Essentials向けAdobe Workfront：記事インデックス </a>を参照してください。 </p></li>
    <li><p> レコードタイプをGenStudio オブジェクトやブランドに接続するためのAdobe GenStudio for Performance Marketing ライセンス</p>
-   <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
+   <p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -111,6 +111,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
   依存フィールドがクリアされた理由を説明するインラインメッセージまたはトーストメッセージが表示されます。
 
+* 各依存フィールドには、最大3つの直接制御フィールドを含めることができます。
+
+* 依存関係レベルは6つの接続に制限されています。 つまり、最大7つのレコードタイプを接続できます。
+
+* 依存関係チェーンを機能させるには、すべての依存フィールドが同じレコードタイプに同時に存在する必要があります。
+
 ## 依存関係の作成
 
 1. Workspace Managerとして、Workfront Planningのレコードタイプに移動し、テーブルビューで開きます。
@@ -126,9 +132,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
    >
    >**この接続を依存にする**&#x200B;設定を有効にすると、**リンクされたレコードタイプに対応するフィールドを作成**&#x200B;が自動的に有効になります。 レコードタイプごとに500件のフィールドという制限があります。
 
-   ![依存接続が有効になっている新しい接続タブ &#x200B;](assets/dependent-connection-enabled-setting.png)
+   ![依存接続が有効になっている新しい接続タブ ](assets/dependent-connection-enabled-setting.png)
 
-1. 記事[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)の説明に従って、接続の設定を続行します。
+1. 記事[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)の説明に従って、接続の設定を続行します。
 1. 「**保存**」をクリックします。
 
    次のことが発生します。
@@ -140,7 +146,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      詳しくは、この記事の「[依存する接続レコードタイプの例](#example-of-dependent-connected-record-types)」の節を参照してください。
    * 接続されたレコードフィールドの列ヘッダーには、そのフィールドが依存関係にあることを示す表示があります。
 
-     ![列ヘッダーの依存アイコンのツールヒント &#x200B;](assets/dependent-icon-tooltip-in-column-header.png)
+     ![列ヘッダーの依存アイコンのツールヒント ](assets/dependent-icon-tooltip-in-column-header.png)
 
 1. （オプションおよび推奨） 3番目のレコードタイプに移動し、最初と2番目のレコードタイプの両方を接続されたレコードフィールドとして追加します。
 
