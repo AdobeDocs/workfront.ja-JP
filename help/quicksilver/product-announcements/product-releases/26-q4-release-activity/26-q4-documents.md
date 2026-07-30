@@ -21,7 +21,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->プレビュー：2026年7月30日>実稼動用の高速リリース：2026年7月30日>すべてのユーザー向けの実稼動：2026年7月30日>[!BADGE  スケジュールをオフ ]{type=Neutral}
+>プレビュー：2026年7月30日>実稼動用の高速リリース：2026年7月30日>すべてのユーザー向けの実稼動：2026年7月30日>[!BADGE &#x200B; スケジュールをオフ &#x200B;]{type=Neutral}
 
 統一されたレビューと承認の一環としてAdobe クラウドストレージを使用している組織は、画像ファイルをコメントに直接添付し、フィードバック、コンテキスト、サポートビジュアルを1つの追跡可能なコメントスレッドにまとめることができるようになりました。 これにより、従来のWorkfrontストレージ上の組織のみがコメントに画像を添付できる以前のギャップが解消されます。
 
@@ -39,4 +39,4 @@ Adobe クラウドストレージ組織では、すべてのメディアタイ�
 
 Content Advisorを利用すれば、コンテンツを選択しながら、AI 検索、スマートな提案、キャンペーンの概要の分析などを取得できます。
 
-詳しくは、[Adobe クラウドストレージを使用してExperience Manager Assetsからコンテンツとフォルダーをリンク ](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)を参照してください。
+詳しくは、[Adobe クラウドストレージを使用してExperience Manager Assetsからコンテンツとフォルダーをリンク &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)を参照してください。
