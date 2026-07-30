@@ -7,14 +7,12 @@ exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5b445284b2d7445ae2119c546244a45ac17d8c97
 workflow-type: tm+mt
-source-wordcount: 334
-ht-degree: 87%
+source-wordcount: 412
+ht-degree: 70%
 
 ---
 
@@ -71,7 +69,7 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 
 ## パンくずリストからの親オブジェクトへのアクセス
 
-[!DNL Workfront] での親オブジェクトの詳細については、[&#x200B; [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)でのオブジェクトについて理解するを参照してください。
+[!DNL Workfront] での親オブジェクトの詳細については、[ [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)でのオブジェクトについて理解するを参照してください。
 
 1. （条件付き）折りたたまれたパンくずリストのパスで移動したいオブジェクトが表示されない場合は、**[!UICONTROL 詳細]**&#x200B;をクリックし、オブジェクトを探します。
 
@@ -84,3 +82,20 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
    オブジェクトページが開きます。
 
    Workfront Planningのオブジェクト（キャンペーンなど）に接続されているプロジェクトを見ている場合は、パンくずリストからPlanningとWorkfrontの両方のオブジェクトタイプを切り替えることができます。 詳しくは、[階層とパンくずリストの概要](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)を参照してください。
+
+<div class="preview">
+
+## パンくずリストから名前とリンクをコピーする
+
+{{highlighted-preview}}
+
+ブレッドクラムパスから、オブジェクトの名前とリンクを1つのアクションにまとめてコピーできます。
+
+1. パンくずパス内の任意のオブジェクトにカーソルを合わせます。
+1. オブジェクト名の横に表示される「**[!UICONTROL リンクをコピー]**」アイコンをクリックします。
+
+   ![ パンくずリストのリンクアイコンをコピー](assets/copy-breadcrumbs.png)
+
+   オブジェクトの名前とリンクがコピーされます。 コピーした情報を貼り付けると、オブジェクト名をリンクテキストとしてクリック可能なリンクとして表示されます。
+
+</div>
