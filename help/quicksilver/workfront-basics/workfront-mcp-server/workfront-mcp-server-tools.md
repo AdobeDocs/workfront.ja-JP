@@ -5,15 +5,17 @@ title: Adobe Workfront MCP Server Tools
 description: Adobe Workfront MCP サーバーを通じて使用可能なツールのリファレンスリストを、Workfront領域ごとにグループ化します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
+source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '2140'
 ht-degree: 8%
 
 ---
 
 
 # Adobe Workfront MCP Server Tools
+
+{{preview-fast-release-general}}
 
 この記事では、[!DNL Adobe Workfront] MCP サーバーが接続されたAI エージェント プラットフォームに公開するツールについて説明します。 Workfrontのアイテムの検索、作成、更新、削除を求めると、これらのツールが代わりに呼び出されます。
 
@@ -66,10 +68,15 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 
 | タイトル | ツール名 | 機能 | アクション |
 | --- | --- | --- | --- |
-| 承認ワークフロー情報を取得 | `approvals_get_approval_info` | 文書バージョンの現在の承認ワークフロー（ステージ、参加者、ステータス）を返します。 | 読み取り |
-| 承認ワークフローの作成または更新 | `approvals_create_or_update_approval_workflow` | ドキュメントのバージョンの承認ワークフローステージを作成または更新します。 線形および平行（グラフ）ステージの依存関係をサポートします。 | 編集 |
-| テンプレートから承認を作成 | `approvals_create_approval_from_template` | 既存のテンプレートを使用して、ドキュメントに承認ワークフローを作成します。 | 編集 |
+| 承認ワークフロー情報を取得 | `approvals_get_approval_info` | 文書バージョンの現在の承認ワークフロー（ステージ、参加者、ステータス）を返します。 <span class="preview">複数のパスを持つ承認の場合、各パスとそのステージが表示されます。</span> | 読み取り |
+| 承認ワークフローの作成または更新 | `approvals_create_or_update_approval_workflow` | ドキュメントのバージョンの承認ワークフローステージを作成または更新します。 <span class="preview">1つのステージのトラックまたは複数の並行レビューパスをサポートしています。</span> | 編集 |
+| テンプレートから承認を作成 | `approvals_create_approval_from_template` | 既存のテンプレート <span class="preview">を使用して、複数の並行パスを定義するテンプレートを含むドキュメントに対して承認ワークフローを作成します。</span> | 編集 |
 | 承認ステージの削除 | `approvals_delete_approval_stage` | 承認ワークフローから名前または位置で1つのステージを削除します。 未開始ステージのみを削除できます。 | 編集 |
+| <span class="preview">承認へのパスの追加</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">既存の承認ワークフローに新しい並行レビューパスを追加するので、1つの文書バージョンで複数のレビュートラックが同時に実行されます。</span> | <span class="preview">Write</span> |
+| <span class="preview">承認からパスを削除</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">承認ワークフローから並行パスを削除します。 最初のパスは削除できません。完了またはロックされたステージを含むパスは保護されます。</span> | <span class="preview">Write</span> |
+| <span class="preview"> パスにステージを追加</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">同時承認ワークフロー内の特定のパスの最後にレビューステージを追加します。</span> | <span class="preview">Write</span> |
+| <span class="preview"> パスからステージを削除</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">同時承認ワークフローの特定のパスから、開始されていないステージを削除します。 各パスには、少なくとも1つのステージを保持する必要があります。</span> | <span class="preview">Write</span> |
+| <span class="preview"> パスのステージの並べ替え</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">同時承認ワークフローの1つのパス内のステージの順序を変更します。</span> | <span class="preview">Write</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
