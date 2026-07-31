@@ -48,7 +48,7 @@ Experience League ページトラフィックの生のAdobe Analytics フリー�
 
 残っている行ごとに、URLで`/using`を見つけ、その後に続く`/`の部分のみを保持し、`/using`の前と後のすべてを破棄します。
 
-例：`https://experienceleague.adobe.com/en/docs/workfront/using/home` → `/home`
+例：`https://experienceleague.adobe.com/ja/docs/workfront/using/home` → `/home`
 
 Workfront行のURLに`/using`が見つからない場合は、そのURLを変更せずに、推測するのではなくユーザーにフラグを立てます。
 
