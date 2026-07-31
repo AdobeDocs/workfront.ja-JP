@@ -19,22 +19,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 807
-ht-degree: 55%
+source-wordcount: 899
+ht-degree: 52%
 
 ---
 
 # レコードのコメントの管理
 
-<!--
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -214,15 +210,14 @@ Old:
 
    メッセージでタグ付けしたユーザーには、新しいメッセージが送信されます。
 
-   <!--
    <div class="preview">
 
-   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+   レコードタイプに対する表示権限を持つすべてのユーザーは、コメントを追加したレコードのテーブルビューに&#x200B;**新しいコメント** インジケーターを表示できます。
 
-      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+   ![&#x200B; テーブルビューの新しいコメントアイコン &#x200B;](assets/new-comment-icon-in-table-view-highlighted.png)
 
    </div>
-   -->
+
 1. （オプション）コメントの右上隅にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックしてコメントを削除します。
 1. （オプション）「**コメントを非表示**」アイコン「![&#x200B; コメントを非表示にする](assets/hide-comments-icon.png)」をクリックして、右側のパネルを閉じます。
 

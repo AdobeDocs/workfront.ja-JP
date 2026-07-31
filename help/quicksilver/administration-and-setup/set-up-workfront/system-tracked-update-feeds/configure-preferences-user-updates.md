@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8468e4e9daa5000e721ee8fb78f45064ab105e28
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 74%
+source-wordcount: 291
+ht-degree: 68%
 
 ---
 
@@ -96,15 +96,16 @@ Old:
 >
 >* 更新で保存された画像は、ドキュメントストレージ制限に考慮されます。 詳しくは、[ドキュメントストレージ制限の確認ク](../../../documents/managing-documents/check-document-storage.md)を参照してください。
 >* 画像は、オブジェクト上の[!UICONTROL 更新]タブからアクセスでき、[!UICONTROL メインメニュー]の[!UICONTROL ドキュメント]エリアでも使用できます。
->
+>* また、この環境設定は、Adobe クラウドストレージを使用して、オブジェクトに画像を添付できるかどうかを制御します。 添付された画像は、Adobe クラウドストレージに保存されます。
 
 1. [!DNL Adobe Workfront]の右上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**[!UICONTROL 設定]** ![&#x200B; ギア設定アイコン &#x200B;](assets/gear-icon-settings.png)をクリックします。
 1. 左パネルで、**[!UICONTROL インターフェイス]**／**[!UICONTROL フィードの更新]**&#x200B;を選択します。
 1. 「**[!UICONTROL 環境設定]**」タブを選択します。
 
-   ![フィードの更新のユーザー環境設定](assets/updatefeeds-preferences-350x137.png)
-
 1. 「**[!UICONTROL ユーザーが更新で画像を追加できるようにする]**」チェックボックスを選択します。
 1. 「**[!UICONTROL 保存]**」を選択します。
 
    この設定が有効になっている場合、いつでも無効にすることができます。 更新で既に投稿された画像は、オブジェクトの[!UICONTROL 更新]領域に残ります。
+
+
+<!--Note from Lisa: This image is old so I hid it. Was after step 3 (select the Prefs tab) but it broke the numbering when I commented it out. ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->

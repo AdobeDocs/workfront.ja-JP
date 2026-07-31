@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4323
 ht-degree: 0%
 
 ---
@@ -96,6 +96,12 @@ Frame.io ビューアは、すべてのWorkfront レビューおよび承認ワ�
 Frame.ioでアセットをプロジェクトに直接アップロードするなど、この統合で利用可能な追加のFrame.io機能を利用したい場合は、Frame.io エンタープライズライセンスを購入できます。 Adobeの担当者にお問い合わせいただき、デモを予約したり、Frame.io ソリューション全体のメリットをご確認ください。
 
 Workfront プルーフ機能は、この統合では使用できません。
+
+## 監査記録の完全性
+
+<span class="preview">統一されたレビューと承認には、包括的な監査ログが含まれており、WorkfrontとFrame.io全体のガバナンス履歴が作成されます。 変更トラッキングログは、Frame.io ビューアおよびドキュメントのライフサイクルで行われた承認に関する意思決定を記録します。 各ログエントリには、ソースシステムのアトリビューション（WorkfrontまたはFrame.io）と、Workfrontの標準の監査フィールド（日付と時刻、ログタイプ、ユーザー名、アクション、オブジェクト名）が含まれています。 Frame.io ビューアのコメントは監査ログに含まれません。</span>
+
+<span class="preview"> トラッキングログの変更は、Workfrontの設定領域に表示され、書き出しに使用できます。 詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。</span>
 
 ## Workfrontの強力なプロジェクト管理
 
@@ -212,7 +218,7 @@ Adobe Cloud Driveを使用して、MacまたはWindows デスクトップから�
 
 * Adobe クラウドストレージをサポートするWorkfrontのバージョンを使用すると、Adobe Professional Servicesが組織の統合を設定します。
 
-   * Adobeの担当者がわからない場合は、Adobe サポートポータルから連絡するか、Experience Leagueにアクセスして問い合わせオプションをご確認ください。
+  * Adobeの担当者がわからない場合は、Adobe サポートポータルから連絡するか、Experience Leagueにアクセスして問い合わせオプションをご確認ください。
 
 +++
 
@@ -360,6 +366,14 @@ Frame.io ビューアには、フリーハンド描画や、円、矢印、正�
 **Workfrontにアクセスできない関係者と外部でアセットを共有できますか？**
 
 はい。 Assetsは外部で共有できます。 外部ユーザーには電子メールで通知され、Frame.io ログインを作成してビューアにアクセスし、レビューに参加するよう求められます。
+
+**Workfrontのドキュメントのコメントに画像を添付できますか？**
+
+統一されたレビューと承認の一部としてAdobe クラウドストレージを使用している場合は、ドキュメント上のコメントに画像ファイルを直接添付できます。 添付された画像はAdobe クラウドストレージに保存され、すべてのメディアタイプ画像ファイル形式がサポートされます。
+
+これらのコメントはWorkfrontネイティブで、Frame.io ビューアのコメントとは別のものです。 コメントに添付された画像はFrame.ioではアクセスできず、画像を添付してもアセットにマークアップが追加されたり、承認用にルーティングされたりすることはありません。 画像ファイル以外のファイル形式は、コメントに添付できません。
+
+詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**

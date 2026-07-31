@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ff6a5ac43d9cbc162446ad14608b366dc737fc9b
 workflow-type: tm+mt
-source-wordcount: 454
-ht-degree: 97%
+source-wordcount: 459
+ht-degree: 96%
 
 ---
 
@@ -35,12 +35,13 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 
 >[!TAB 最新リリース]
 
-* [2026年第3四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
-* [Adobe Workfront Planning のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+* [2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+* [Adobe Workfront Planning のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
 * [Adobe Workfront Fusion のリリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 >[!TAB 2026 リリース ]
 
+* [2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
 * [2026年第3四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
 * [2026年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
 * [2026 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)

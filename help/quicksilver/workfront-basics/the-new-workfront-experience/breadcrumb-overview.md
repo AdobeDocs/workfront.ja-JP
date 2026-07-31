@@ -11,10 +11,10 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+source-git-commit: 5b445284b2d7445ae2119c546244a45ac17d8c97
 workflow-type: tm+mt
-source-wordcount: 334
-ht-degree: 87%
+source-wordcount: 412
+ht-degree: 70%
 
 ---
 
@@ -84,3 +84,20 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
    オブジェクトページが開きます。
 
    Workfront Planningのオブジェクト（キャンペーンなど）に接続されているプロジェクトを見ている場合は、パンくずリストからPlanningとWorkfrontの両方のオブジェクトタイプを切り替えることができます。 詳しくは、[階層とパンくずリストの概要](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)を参照してください。
+
+<div class="preview">
+
+## パンくずリストから名前とリンクをコピーする
+
+{{highlighted-preview}}
+
+ブレッドクラムパスから、オブジェクトの名前とリンクを1つのアクションにまとめてコピーできます。
+
+1. パンくずパス内の任意のオブジェクトにカーソルを合わせます。
+1. オブジェクト名の横に表示される「**[!UICONTROL リンクをコピー]**」アイコンをクリックします。
+
+   ![&#x200B; パンくずリストのリンクアイコンをコピー](assets/copy-breadcrumbs.png)
+
+   オブジェクトの名前とリンクがコピーされます。 コピーした情報を貼り付けると、オブジェクト名をリンクテキストとしてクリック可能なリンクとして表示されます。
+
+</div>

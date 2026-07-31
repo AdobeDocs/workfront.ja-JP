@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 3164
-ht-degree: 71%
+source-wordcount: 3225
+ht-degree: 70%
 
 ---
 
@@ -179,21 +179,21 @@ Old:
 
 * Workfront の次のエリアから、プロジェクト、タスクおよびイシューに更新を追加できます。
 
-   * 「更新」セクションの Workfront オブジェクトから（プロジェクト、タスクおよびイシューの場合）
-   * ホームエリアから（タスクおよびイシューの場合）
+  * 「更新」セクションの Workfront オブジェクトから（プロジェクト、タスクおよびイシューの場合）
+  * ホームエリアから（タスクおよびイシューの場合）
 
-     詳しくは、[&#x200B; マイワークウィジェットを使用した作業の管理](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)を参照してください。
-   * 次の領域（タスク、イシューおよびドキュメント）の概要パネルから：
+    詳しくは、[&#x200B; マイワークウィジェットを使用した作業の管理](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)を参照してください。
+  * 次の領域（タスク、イシューおよびドキュメント）の概要パネルから：
 
-      * オブジェクトのリスト
-      * タイムシート
-      * ホーム
-      * ワークロードバランサー
+    * オブジェクトのリスト
+    * タイムシート
+    * ホーム
+    * ワークロードバランサー
 
-     詳しくは、次の記事を参照してください。
+    詳しくは、次の記事を参照してください。
 
-      * [概要パネルについて](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-      * [概要を使用してワークロードバランサーの作業アイテムを更新](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+    * [概要パネルについて](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+    * [概要を使用してワークロードバランサーの作業アイテムを更新](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
@@ -451,7 +451,6 @@ You can add updates to the following objects:
 
    >[!IMPORTANT]
    >
-   >
    >* ボード上の目標またはアドホックカードに画像を追加することはできません。
    >
    >* 画像アイコンや、添付ファイルを追加アイコンを表示するには、Workfront 管理者が、画像の追加を Workfront インターフェイスエリアの「フィードの環境設定を更新」セクションで有効にする必要があります。 詳しくは、[ユーザーの更新用に環境設定を指定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)を参照してください。
@@ -462,6 +461,8 @@ You can add updates to the following objects:
    >* 画像は含むがテキストを含まないアップデートを送信できます。
    >* 画像を含むコメントを削除すると、その画像は「更新」セクションおよびドキュメントエリアから削除されます。 コメントを編集して画像を削除すると、その画像もドキュメントエリアから削除されます。
    >* コメントに添付された画像をドキュメントエリアから削除すると、その画像はコメントからも削除されます。
+   >* 組織が統一されたレビューと承認の一部としてAdobe クラウドストレージを使用する場合、Workfront管理者は同じ環境設定を有効にして、画像をコメントに添付できます。 すべての標準的な画像フォーマットがサポートされ、添付された画像はAdobe クラウドストレージに保存されます。
+   >* Adobe クラウドストレージを使用してオブジェクトにコメントに添付された画像は、Frame.io ビューアではアクセスできません。
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
@@ -657,10 +658,10 @@ Workfront オブジェクトの更新セクションには、以下の 2 種類�
 
   次のオブジェクトには、システムで生成された更新はありません。
 
-   * チーム
-   * テンプレート
-   * テンプレートタスク
-   * ボード上のアドホックカード
+  * チーム
+  * テンプレート
+  * テンプレートタスク
+  * ボード上のアドホックカード
 
 ユーザーとシステムの更新について詳しくは、[更新セクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。Workfront オブジェクトの「更新」セクションに表示されるユーザーとシステムの更新に関する詳細は、以下を参照してください。
 

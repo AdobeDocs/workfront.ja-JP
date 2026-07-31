@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1332'
 ht-degree: 5%
 
 ---
@@ -110,6 +110,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * ソースフィールドの値が変更された場合、依存フィールドは無効な状態ではなく自動的にクリアされ、不一致の組み合わせが保持されます。
 
   依存フィールドがクリアされた理由を説明するインラインメッセージまたはトーストメッセージが表示されます。
+
+* 各依存フィールドには、最大3つの直接制御フィールドを含めることができます。
+
+* 依存関係レベルは6つの接続に制限されています。 つまり、最大7つのレコードタイプを接続できます。
+
+* 依存関係チェーンを機能させるには、すべての依存フィールドが同じレコードタイプに同時に存在する必要があります。
 
 ## 依存関係の作成
 

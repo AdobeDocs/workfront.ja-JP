@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 62688ecf071774f0446e35035a3e0633e3094eae
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3363'
 ht-degree: 16%
 
 ---
@@ -99,17 +99,15 @@ ht-degree: 16%
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Change tracking for unified review and approval</a>
-                <p>The Change History page now captures activity across unified review and approval workflows, giving administrators a complete governance trail for approval, stage, and participant actions.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">統一されたレビューと承認のための変更管理</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>変更履歴ページには、統合されたレビューと承認のワークフローをまたいでアクティビティが記録され、管理者は承認、ステージ、参加者のアクションに関する包括的なガバナンス履歴を取得できます。</p>
             </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
+            <td><p>2026年7月10日（PT）</p></td>
+            <td><p>2026年7月15日（PT）</p></td>
+            <td><p>2026年7月16日（PT）</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> アクセス レベルの新しいライセンス タイプ フィールド<p>[!BADGE Off schedule]{type=Neutral}</p></a>

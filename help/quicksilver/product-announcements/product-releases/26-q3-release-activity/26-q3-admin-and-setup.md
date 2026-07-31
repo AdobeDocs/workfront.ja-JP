@@ -4,9 +4,9 @@ description: 2026年第3四半期：管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 46db578d2412d622818a599cfb27ec4ae73a5298
+source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1543'
 ht-degree: 5%
 
 ---
@@ -17,29 +17,26 @@ ht-degree: 5%
 
 2026年第3四半期のリリースサイクルで現時点で利用可能なすべての変更のリストについては、[2026年第3四半期のリリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)を参照してください。
 
-<!--
 
-## Change tracking for unified review and approval
+## 統一されたレビューと承認のための変更管理
 
 >[!NOTE]
 >
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>プレビュー：2026年7月10日>実稼動用の高速リリース：2026年7月15日>全員の実稼動環境：2026年7月16日
 
-The Change History page in Workfront now captures activity across unified review and approval workflows, giving administrators a complete governance trail for review and document lifecycle events.
+Adobe Workfrontの「変更履歴」ページには、統一されたレビューと承認のワークフローをまたいでアクティビティが記録され、管理者はレビューとドキュメントのライフサイクルイベントに関する包括的なガバナンス履歴を確認できます。
 
-Approval, stage, and participant actions are now tracked. These actions may include:
+承認、ステージ、参加者のアクションが追跡されるようになりました。 こうした行動には下記が含まれる。
 
-* Making an approval decision in the Frame.io viewer
-* Creating or deleting an approval
-* Updating a document such as renaming, moving, or deleting it
+* Frame.io ビューアでの承認決定
+* 承認の作成または削除
+* ドキュメントの更新（名前の変更、移動、削除など）
 
-Each entry includes the standard tracked fields: date and time, operation, user name (or "system generated"), and object name. Frame.io viewer comments are not included.
+各エントリには、日付と時刻、操作、ユーザー名（または「システム生成」）、オブジェクト名など、トラッキングされた標準フィールドが含まれます。 Frame.io ビューアコメントは含まれません。
 
-This phase of change tracking does not include MCP events. Those will be part of a future release.
+この変更追跡フェーズには、MCP イベントは含まれません。 これらは将来のリリースの一部になります。
 
-For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。
 
 -->
 
@@ -59,9 +56,9 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 * Workfront Planning パッケージを購入したお客様に対しては、ユーザーのライセンスをWorkfront Planningに示す新しい「Planning License Type」フィールドが追加されました。
 同じ数のWorkflowおよびPlanning ライセンスを購入したお客様は、次のライセンスタイプを利用できます。
 
-   * 計画標準
-   * 計画貢献者
-   * なし
+  * 計画標準
+  * 計画貢献者
+  * なし
 
   >[!NOTE]
   >
@@ -77,9 +74,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->プレビュー：2026年7月7日（PT）
->プロダクション高速リリース：2026年7月15日（PT）
->すべての人のための制作：2026年7月16日
+>プレビュー：2026年7月7日>実稼動版の迅速なリリース：2026年7月15日>すべてのユーザー向けの実稼動版：2026年7月16日
 
 カスタムフォームの新しい&#x200B;**内部検索** フィールドタイプは、動的フィルタリングを提供します。 これはTypeahead フィールドタイプと似ており、名前の一部を入力して既存のWorkfront オブジェクトを検索および選択できます。 内部参照のフィルターは、フォームの別のフィールドの値を参照できますが、これはTypeaheadでは不可能です。
 
@@ -97,9 +92,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->プレビュー：2026年7月7日（PT）
->プロダクション高速リリース：2026年7月15日（PT）
->すべての人のための制作：2026年7月16日
+>プレビュー：2026年7月7日>実稼動版の迅速なリリース：2026年7月15日>すべてのユーザー向けの実稼動版：2026年7月16日
 >
 >この機能は、Workflow PrimeまたはUltimate パッケージの組織でのみ使用できます。
 
@@ -113,9 +106,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->プレビュー：2026年7月7日（PT）
->プロダクション高速リリース：2026年7月15日（PT）
->すべての人のための制作：2026年7月16日
+>プレビュー：2026年7月7日>実稼動版の迅速なリリース：2026年7月15日>すべてのユーザー向けの実稼動版：2026年7月16日
 
 ネイティブフィールドに存在するシステムフィルターが、カスタムフォームのフィールドに適用され、管理者に表示されるようになりました。
 
@@ -133,9 +124,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->プレビュー：2026年7月7日（PT）
->プロダクション高速リリース：2026年7月15日（PT）
->すべての人のための制作：2026年7月16日
+>プレビュー：2026年7月7日>実稼動版の迅速なリリース：2026年7月15日>すべてのユーザー向けの実稼動版：2026年7月16日
 
 統合とデータの整合性を保護するために、カスタムフォームのフィールド設定パネルでフィールド名を編集する方法を更新しました。
 
@@ -147,9 +136,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->プレビュー：2026年6月11日（PT）
->プロダクション高速リリース：2026年6月11日（PT）
->すべての人のための制作：2026年7月16日
+>プレビュー：2026年6月11日>実稼動用の高速リリース：2026年6月11日>全員の実稼動環境：2026年7月16日
 
 一元的なリストで発生した変更を簡単に確認できるように、変更履歴リストを作成しました。 このリストには、オブジェクト、操作、変更のソース（ユーザーやWorkfront システムなど）などの情報が表示されます。
 
@@ -161,9 +148,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->プレビュー：2026年6月11日（PT）
->すべての人のための制作：2026年6月11日
->[!BADGE スケジュール外]{type=Neutral}
+>プレビュー：2026年6月11日>全員の本番環境：2026年6月11日>[!BADGE &#x200B; スケジュールをオフ &#x200B;]{type=Neutral}
 
 Workfront管理者は、システム環境設定から直接、従来のストレージポートフォリオをAdobe クラウドストレージに変換できるようになりました。 ポートフォリオを変換するには、新しい「エンタープライズストレージに変換するポートフォリオを選択」フィールドでポートフォリオを選択し、ページを保存します。
 
@@ -182,9 +167,7 @@ Workfront管理者は、システム環境設定から直接、従来のスト�
 
 >[!NOTE]
 >
->プレビュー：2026年5月28日（PT）
->プロダクション高速リリース：2026年6月11日（PT）
->すべての人のための制作：2026年7月16日
+>プレビュー：2026年5月28日>実稼動版の迅速なリリース：2026年6月11日>全員の実稼動：2026年7月16日
 
 カスタムフォームの新しい&#x200B;**リッチテキスト** フィールドタイプは、堅牢なテキストエディターで、太字、斜体、下付き文字、下線、箇条書き、ハイパーリンク、ブロック引用符などの従来のオプションに加えて、上付き文字や下付き文字、見出し、表などの書式設定オプションを使用できます。 文字数制限は15,000のままです。
 
@@ -200,9 +183,7 @@ Workfront管理者は、システム環境設定から直接、従来のスト�
 
 >[!NOTE]
 >
->プレビュー：2026年5月28日（PT）
->プロダクション高速リリース：2026年6月11日（PT）
->すべての人のための制作：2026年7月16日
+>プレビュー：2026年5月28日>実稼動版の迅速なリリース：2026年6月11日>全員の実稼動：2026年7月16日
 
 カスタムフォームにWorkfront ネイティブの金融フィールドを含めることができるようになりました。 以前は、財務フィールドはサポートされていませんでした。
 
@@ -214,9 +195,7 @@ Workfront管理者は、システム環境設定から直接、従来のスト�
 
 >[!NOTE]
 >
->プレビュー：2026年5月28日（PT）
->プロダクション高速リリース：2026年6月11日（PT）
->すべての人のための制作：2026年7月16日
+>プレビュー：2026年5月28日>実稼動版の迅速なリリース：2026年6月11日>全員の実稼動：2026年7月16日
 
 新しい共有オプション「システム内のすべてのユーザーが表示および添付できる」がカスタムフォームに追加されました。 このオプションを選択すると、システム全体のすべてのユーザーがフォームを他のオブジェクトに添付できます。
 
@@ -228,9 +207,7 @@ Workfront管理者は、システム環境設定から直接、従来のスト�
 
 >[!NOTE]
 >
->プレビュー：2026年5月28日（PT）
->プロダクション高速リリース：2026年6月11日（PT）
->すべての人のための制作：2026年7月16日
+>プレビュー：2026年5月28日>実稼動版の迅速なリリース：2026年6月11日>全員の実稼動：2026年7月16日
 
 現在、オブジェクトを一括編集する場合、必須フィールドはユーザーがフィールドを変更した場合にのみ適用されます。 フィールドが変更されない場合、そのフィールドはオプションとして扱われ、検証されません。
 

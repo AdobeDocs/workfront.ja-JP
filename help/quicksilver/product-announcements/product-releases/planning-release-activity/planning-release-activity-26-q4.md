@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20d4bc743c0d7f09e1a8c5b1ce48b88cd0c21287
+source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 1%
+source-wordcount: '601'
+ht-degree: 3%
 
 ---
 
@@ -18,6 +18,48 @@ ht-degree: 1%
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+## テーブルビューでの行のドラッグ&amp;ドロップ
+
+>[!NOTE]
+>
+>プレビュー：2026年7月30日>実稼動高速リリース：2026年8月13日>すべての実稼動環境：2026年10月15日
+
+テーブルビューでの行のドラッグ&amp;ドロップの操作性が視覚的に向上しました。
+
+詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
+
+
+## 依存する接続レコードフィールド
+
+>[!NOTE]
+>
+>プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+
+Workspace Managerで、接続されたレコードタイプ間の依存関係を定義できるようになりました。 例えば、「地域」フィールドには、選択した地域に関連付けられた値のみが表示されます。 これは、接続フィールドの設定で直接設定されます。ジオレコードタイプから依存レコードタイプ（地域など）に接続を追加する場合、ワークスペースマネージャーは、これらのレコードタイプ間に既に確立されている関係を使用して、ジオレコードタイプに依存するようにマークを付けることができます。
+
+一度設定すると、両方のフィールド（Campaignなど）を参照するレコードタイプは、すぐに効果を確認できます。地域の値を選択すると、地域ピッカーがその地域に実際にリンクされている地域のみに絞られます。 これにより、レコード構造が自動的に適用され、組み合わせのミスマッチが排除され、手動でのクリーンアップが減少します。
+
+このアップデートには、次の機能が含まれています。
+
+* レコードタイプを接続する際に、「新規接続」タブに「接続設定」セクションを追加しました
+* 新しいセクションに「この接続を依存にする」設定を追加しました
+
+
+詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
+
+
+
+
+## レコードの新しいコメント インジケーターをテーブル ビューに表示
+
+>[!NOTE]
+>
+>プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+
+レコードに未読のコメントがある場合に表示される新しいインジケーターを追加しました。 インジケーターは、テーブルビューのレコードのプライマリフィールドの右上隅に表示されます。
+
+詳しくは、[レコードのコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
 
 ## カスタマイズ可能なレコードカラーと接続ベースのカラーコーディング
 

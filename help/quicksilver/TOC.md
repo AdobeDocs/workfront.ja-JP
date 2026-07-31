@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 69d930d5fa6272329e3d7f99fdf78ccd823857df
 workflow-type: tm+mt
-source-wordcount: '14352'
+source-wordcount: '14396'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,15 @@ ht-degree: 93%
     * [製品リリースの概要](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront のリリーススケジュールとプロセス](product-announcements/product-releases/workfront-release-schedule.md)
     * [Adobe Workfront の四半期ごとのリリースに備える](product-announcements/product-releases/release-readiness.md)
+    * 2026年第4四半期リリース {#release-26-q4}
+      * [2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+      * [2026年第4四半期：AIの強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
+      * [2026年第4四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [2026年第4四半期ドキュメントの機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
+      * [2026年第4四半期プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
+      * [2026年第4四半期レポートの強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [2026年第4四半期のリソース管理の強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
+      * [2026年第4四半期その他の機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * 2026年第3四半期リリース {#release-26-q3}
       * [2026年第3四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
       * [2026年第3四半期：AIの強化](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md)
@@ -2198,7 +2207,7 @@ ht-degree: 93%
     * [別のワークスペースから既存のレコードタイプを追加](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [レコードタイプの接続の概要](planning/architecture/connect-record-types-overview.md)
     * [レコードタイプの接続](planning/architecture/connect-record-types.md)
-    * {hide-from-toc}[依存関係の管理](planning/architecture/manage-dependent-connections.md)
+    * [依存関係の管理](planning/architecture/manage-dependent-connections.md)
     * [レコードタイプの編集](planning/architecture/edit-record-types.md)
     * [ワークスペースの削除](planning/architecture/delete-workspaces.md)
     * [ワークスペースの編集](planning/architecture/edit-workspaces.md)

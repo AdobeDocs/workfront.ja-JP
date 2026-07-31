@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 3912
+source-wordcount: 3939
 ht-degree: 40%
 
 ---
@@ -308,13 +308,11 @@ Old:
 
    デフォルトのサムネール画像<span class="preview">とカラー</span>も新しいレコードに追加されます。
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    -->
+   >[!TIP]
+   >
+   ><span class="preview"> レコードに未読のコメントがある場合、レコードのプライマリフィールドの右上隅に&#x200B;**新しいコメント** インジケーターが表示されます。</span>
+   >
+   >![&#x200B; テーブルビューの新しいコメントアイコン &#x200B;](assets/new-comment-icon-in-table-view-highlighted.png)
 
 1. （オプション） 1つまたは複数のレコードまたは行を選択し、**ハンドル** アイコン ![&#x200B; ハンドルアイコン &#x200B;](assets/handle-icon.png)をレコードの左側にドラッグ&amp;ドロップして、行を並べ替えます。
 
