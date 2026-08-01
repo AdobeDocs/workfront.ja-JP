@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: タスクの割り当て
-description: タスクをユーザー、役割やチームに割り当てて、タスクの完了担当者を指定できます。 一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
+description: ユーザー、役割、チーム、またはタスクコラボレーターにタスクを割り当てて、タスクを完了する責任を誰が負うかを示すことができます。 一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+source-git-commit: eebfa7db6b4aa256a47aa881ff151e3b84a21742
 workflow-type: tm+mt
-source-wordcount: 1623
-ht-degree: 82%
+source-wordcount: 1616
+ht-degree: 74%
 
 ---
 
@@ -45,7 +45,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-ユーザー、担当業務やチームにタスクを割り当てて、タスクの完了担当者を指定できます。 一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
+ユーザー、担当業務、チーム、またはタスクコラボレーターにタスクを割り当てて、タスクを完了する責任を誰が負うかを示すことができます。 一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
 
 >[!TIP]
 >
@@ -65,6 +65,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 * [スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [スマート割り当ての実行](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [&#x200B; タスク共同作業者を使用](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
 * [タスクリスト内の複数のユーザー割り当てを変更](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [プロジェクトの概要を計画](../../../manage-work/projects/planning-a-project/plan-project.md)
@@ -112,8 +113,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 * ユーザーのプロファイルには、複数の担当業務を関連付けることができます。 ユーザーと担当業務の関連付けについて詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
-* 1 つのタスクやイシューに複数のユーザーを割り当てた場合、最初に選択した 1 人のユーザーが自動的にタスクやイシューの所有者に指定されます。
-これを変更する手順については、[詳細な割り当てを作成](create-advanced-assignments.md)の記事にある、「プライマリオプションを作成」オプションに関する情報を参照してください。
+* 複数のユーザーをタスクまたはイシューに割り当てる場合、最初に選択した1人のユーザーが、タスクまたはイシューの所有者として自動的に指定されます。
+これを変更する手順については、[高度な割り当てを作成](create-advanced-assignments.md)の「プライマリを作成」オプションに関する記事を参照してください。
 
 * チームは、タスクやイシューのプライマリの担当者にすることはできません。 ユーザーや担当業務のみが、タスクやイシューのプライマリとして指定できます。
 
@@ -173,7 +174,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. 次のいずれかの操作を行います。
 
-   * 割り当てるユーザー、担当業務、またはチームの名前を入力し始め、リストに表示されたらクリックします。
+   * 割り当てるユーザー、担当業務、チーム、またはタスクコラボレーターの名前を入力し、リストに表示されたらクリックします。
 
      >[!TIP]
      >
@@ -202,7 +203,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 |---|---|
 | **割り当て先** | 1 人のユーザーの割り当て |
 | **割り当て** | 1 人のユーザーの割り当て |
-| **割り当て** | ユーザー、担当業務やチームの割り当て |
+| **割り当て** | ユーザー、担当業務、チーム、タスクコラボレーターの割り当て |
 
 リスト内のタスクを割り当てる手順は、以下のように行います。
 
@@ -220,7 +221,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 1. タスクを割り当てるには、以下のいずれかを実行します。
 
    * **割り当て先**&#x200B;または&#x200B;**割り当て**&#x200B;フィールドの内側をクリックし、タスクに割り当てるアクティブなユーザーの名前を入力し、リストに表示されたらクリックします。
-   * **割当て**&#x200B;フィールドの内側をクリックし、タスクに割り当てるアクティブなユーザー、担当業務やチームの名前を入力し、リストに表示されたらクリックします。
+   * 「**割り当て**」フィールド内をクリックし、タスクに割り当てるアクティブなユーザー、ジョブロール、チーム、またはタスクコラボレーターの名前を入力し始め、リストに表示されたらクリックします。
 
      >[!TIP]
      >
@@ -255,7 +256,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
    「**タスクを編集**」ボックスが開きます。
 
-1. **割り当て**&#x200B;領域で、指定された&#x200B;**人、役割、またはチームを検索** フィールドにユーザー、チーム、または役割の名前を入力し始め、リストに表示されたらクリックします
+1. **割り当て**&#x200B;領域で、指定された&#x200B;**人、役割、またはチームを検索** フィールドにユーザー、チーム、役割、またはタスクの共同作業者の名前を入力し始め、リストに表示されたらクリックします
 
    >[!IMPORTANT]
    >

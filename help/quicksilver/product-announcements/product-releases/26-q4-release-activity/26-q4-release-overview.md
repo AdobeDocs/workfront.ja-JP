@@ -4,10 +4,10 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+source-git-commit: 308cbff62c648ba47a1a714446cffef40e5b4991
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 16%
+source-wordcount: '1305'
+ht-degree: 15%
 
 ---
 
@@ -53,6 +53,15 @@ ht-degree: 16%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">AI タスク共同作業者をWorkfrontのタスクに割り当てる</a>
+                <p>タスクコラボレーターは、タスクに直接割り当ててタスクレベルの作業を完了できるAI コラボレーターです。</p>
+            </td>
+            <td><p>2026年7月31日（PT）</p></td>
+            <td><p>2026年8月13日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
         </tr>
         <tr>
             <td>

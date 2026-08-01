@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 69d930d5fa6272329e3d7f99fdf78ccd823857df
+source-git-commit: 541f736ffb051e1a7d5e0a277e12353c40bf885c
 workflow-type: tm+mt
-source-wordcount: '14396'
+source-wordcount: '14399'
 ht-degree: 93%
 
 ---
@@ -1420,6 +1420,7 @@ ht-degree: 93%
       * [タスクを割り当て](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [タスクを割り当て](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [高度な割り当てを作成](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+      * [タスク共同作業者の使用](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [スマート割り当ての概要](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [タスクの割り当て変更の概要](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [タスクリスト内の複数のユーザー割り当ての変更](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
