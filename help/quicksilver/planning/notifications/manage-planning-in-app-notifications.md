@@ -9,21 +9,15 @@ exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/1RARIfclq-MB5bDLbn0m9zziFvuz1ugOyRsGpeKIpM0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 398
-ht-degree: 7%
+source-wordcount: 430
+ht-degree: 9%
 
 ---
 
@@ -35,7 +29,7 @@ ht-degree: 7%
 
 * 誰かがレコードのコメントで自分やチームにタグを付けます
 
-  レコードコメント内の他のユーザーのタグ付けについて詳しくは、[&#x200B; レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
+  レコードコメント内の他のユーザーのタグ付けについて詳しくは、[ レコードコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
 * ビュー、ワークスペースまたはレコードへのアクセス権を求めるユーザー
 * 誰かが、ビュー、ワークスペース、またはレコードに対するアクセスが許可されたことを確認します
 
@@ -55,23 +49,34 @@ ht-degree: 7%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p> <p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>明るいまたはそれ以上</p>
+   <td><p>ワークフローライト以上</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>Planning Contributor以上</p>
+<p><b>メモ</b></p>
+<p>すべてのお客様がコントリビューターライセンスを持っているわけではありません</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースに対する表示以上の権限 </p>  
+   <td>   <p>ワークスペースに対する表示またはそれ以上の権限</a> </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -127,7 +132,7 @@ OLD:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -149,9 +154,9 @@ OLD:
 
 ## 誰かがコメントであなたをタグ付けしたときに、アプリ内通知を管理します
 
-1. （条件付き）誰かがレコードのコメントで自分やチームにタグを付けた後、Adobe Experience Cloudのアプリ内&#x200B;**通知** アイコン ![Experience Cloud通知アイコン &#x200B;](assets/experience-cloud-notifications-icon.png)に移動します。
+1. （条件付き）誰かがレコードのコメントで自分やチームにタグを付けた後、Adobe Experience Cloudのアプリ内&#x200B;**通知** アイコン ![Experience Cloud通知アイコン ](assets/experience-cloud-notifications-icon.png)に移動します。
 
-   ![&#x200B; アプリ内通知の例](assets/in-app-notification-example.png)
+   ![ アプリ内通知の例](assets/in-app-notification-example.png)
 
 1. 通知をクリックします。
 
@@ -164,7 +169,7 @@ OLD:
 
 誰かがビュー、ワークスペース、またはレコードタイプに対して権限をリクエストまたは付与すると、アプリ内通知が届きます。<!--<span class="preview">or record</span>-->
 
-権限の要求、付与、または拒否について詳しくは、[&#x200B; ビューまたはワークスペースへの権限の要求](/help/quicksilver/planning/access/request-permissions.md)を参照してください。
+権限の要求、付与、または拒否について詳しくは、[ ビューまたはワークスペースへの権限の要求](/help/quicksilver/planning/access/request-permissions.md)を参照してください。
 
 Workfront計画の通知の管理について詳しくは、[Adobe Workfront計画の通知の環境設定の管理](/help/quicksilver/planning/notifications/manage-notification-preferences.md)を参照してください。
 
@@ -172,6 +177,6 @@ Workfront計画の通知の管理について詳しくは、[Adobe Workfront計�
 
 誰かが承認リクエストを送信したとき、または誰かが送信したリクエストを承認したときに、アプリ内通知が届きます。
 
-リクエストの送信について詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+リクエストの送信について詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 リクエストの承認について詳しくは、[Adobe Workfront Planningでのリクエストの承認](/help/quicksilver/planning/requests/approve-request.md)を参照してください。

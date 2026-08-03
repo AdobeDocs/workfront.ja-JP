@@ -9,20 +9,14 @@ exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ydcYvw38Xrlh0QQz0FSI4RBsewDKL2r2Yf1m0tl83jc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 859
 ht-degree: 31%
 
 ---
@@ -52,19 +46,29 @@ ht-degree: 31%
     <tr> 
 <tr> 
 </tr>   
-<tr> 
+tr&gt; 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
+<ul> 
+<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
 または
-<p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
+<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースに対する権限の管理</p>  
@@ -73,7 +77,7 @@ ht-degree: 31%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -124,7 +128,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -146,20 +150,20 @@ Old:
 * フィールドは、それぞれのレコードタイプについて一意です。
 * 各シートの各行は、各レコードタイプに関連付けられた一意のレコードになります。
 * Excel ファイルの各シートの上限は次のとおりです：
-   * 25,000 行
-   * 500 列
+  * 25,000 行
+  * 500 列
 * ファイルのサイズは5 MB以下にする必要があります。
 * 空のシートはサポートされていません。
 * 次のタイプのフィールドはサポートされていないため、インポートシートのフィールドにマッピングできません。
 
-   * フィールドをWorkfront、Adobe Experience Manager オブジェクトタイプ、またはGenStudio Brandsに接続します。
-   * 接続されたプランニングレコード、Workfront、Adobe Experience Manager オブジェクトまたはGenStudio Brandsからフィールドを検索します。
-   * 数式フィールド
-   * 作成日、作成者
-   * 最終変更日、最終変更者
-   * 承認日、承認者
-   * ユーザー
-   * レコード ID
+  * フィールドをWorkfront、Adobe Experience Manager オブジェクトタイプ、またはGenStudio Brandsに接続します。
+  * 接続されたプランニングレコード、Workfront、Adobe Experience Manager オブジェクトまたはGenStudio Brandsからフィールドを検索します。
+  * 数式フィールド
+  * 作成日、作成者
+  * 最終変更日、最終変更者
+  * 承認日、承認者
+  * ユーザー
+  * レコード ID
 
 ExcelまたはCSV ファイルを使用してレコードタイプを読み込むには：
 
@@ -189,7 +193,7 @@ ExcelまたはCSV ファイルを使用してレコードタイプを読み込�
    * 最初のシートまたはレコードタイプが選択され、関連付けられたフィールド名が列ヘッダーとして表示されます。 各フィールドのタイプは、デフォルトで選択されています。
    * 各行は新しいレコードを表します。 「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
 
-   ![&#x200B; プレビューと編集ボックス &#x200B;](assets/preview-and-edit-box.png)
+   ![ プレビューと編集ボックス ](assets/preview-and-edit-box.png)
 
 1. （オプション）左パネルの各シート名をクリックすると、シートに含まれる情報を確認できます。
 
@@ -205,7 +209,7 @@ ExcelまたはCSV ファイルを使用してレコードタイプを読み込�
 
 1. （オプション）列ヘッダーの右側にある下向き矢印をクリックして、「**フィールド**」タブで次のいずれかを実行します。
 
-   レコードタイプマッピングインポートボックスの![&#x200B; フィールドタブ &#x200B;](assets/field-tab-on-record-type-import-mapping-box.png)
+   レコードタイプマッピングインポートボックスの![ フィールドタブ ](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * フィールドの1つの名前を変更する
    * **フィールドタイプ**&#x200B;の変更
@@ -213,7 +217,7 @@ ExcelまたはCSV ファイルを使用してレコードタイプを読み込�
 
 1. （オプション）「**接続**」タブをクリックして、列の情報を他のレコードタイプから接続されたフィールドにマッピングします。
 
-   レコードタイプ読み込みマッピングボックスの![接続タブ &#x200B;](assets/connection-tab-on-record-type-import-mapping-box.png)
+   レコードタイプ読み込みマッピングボックスの![接続タブ ](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >

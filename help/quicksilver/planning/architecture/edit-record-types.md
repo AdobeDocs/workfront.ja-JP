@@ -9,21 +9,15 @@ exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/PNC5GvQItDhcmQ0TSup8vbJJ3uWn2k-v-lKBZJBhakw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 611
-ht-degree: 26%
+source-wordcount: 648
+ht-degree: 25%
 
 ---
 
@@ -55,29 +49,37 @@ ht-degree: 26%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p>
+<p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
 <p><b>メモ</b></p>
 <p>接続可能なレコードタイプを設定するには： </p>
 <ul> 
 <li><p>任意のWorkfront パッケージと任意のPlanning パッケージ</p></li>
 または
-<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li></ul>
-
+<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li>
+または
+<li>任意のPlanning PrimeおよびUltimate パッケージ</li>
+</ul>
 
 <p>グローバルレコードタイプを設定するには：</p>
 
 <ul> 
-<li><p>任意のWorkfront パッケージとPlanning Plus パッケージ</p></li>
+<li><p>Planning Plus パッケージを含む任意のWorkfront パッケージ</p></li>
 または
-<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li></ul>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p>
-
-</td> </tr>
+<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li>
+または
+<li>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</li>
+</ul>
+   </td> </tr>
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
-   </td> 
+   <td role="rowheader"><p>Adobe Workfrontおよびプランニングライセンス</p></td> 
+   <td><p>任意</p> 
+  </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -87,7 +89,7 @@ ht-degree: 26%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -138,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -162,40 +164,40 @@ Old:
 1. 次のいずれかの操作を行います。
 
    * レコードタイプのカードにカーソルを合わせ、レコードタイプカードの右上隅にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;または&#x200B;**設定をクリックします**
-または
+     または
    * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;または&#x200B;**設定**&#x200B;をクリックします。
 
-   ![設定を含むレコードタイプカードのその他のメニューオプション &#x200B;](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+   ![設定を含むレコードタイプカードのその他のメニューオプション ](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
 1. **レコードタイプを編集** ボックスで、**アピアランス** タブがデフォルトで開きます。
 
-   ![&#x200B; レコードタイプボックスのアピアランスを編集タブ &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![ レコードタイプボックスのアピアランスを編集タブ ](assets/edit-record-type-box-appearance-tab.png)
 
    「**アピアランス**」タブの次の情報を更新します。
 
    * 必要に応じて、レコードタイプ名を編集します。<!--did they add a field label for this?-->
    * **説明**: レコードタイプの説明を、その詳細を含めて編集または追加します。
    * レコードタイプに関連付けられているアイコンの色と形状を編集します。 次の操作を実行します。
-      * レコードタイプを識別するための色を選択します。 これは、レコードタイプアイコンの色です。
-      * リストからアイコンを選択するか、アイコンの名前を入力して何を表しているか説明し、表示されたら選択します。 これは、レコードタイプのアイコンです。 ファイルのアイコンはデフォルトで選択されています。
+     * レコードタイプを識別するための色を選択します。 これは、レコードタイプアイコンの色です。
+     * リストからアイコンを選択するか、アイコンの名前を入力して何を表しているか説明し、表示されたら選択します。 これは、レコードタイプのアイコンです。 ファイルのアイコンはデフォルトで選択されています。
 
 1. （オプションおよび条件付き）システム管理者の場合は、「**クロスワークスペース設定**」タブをクリックし、レコードタイプのクロスワークスペース機能に関する情報を更新します。
 
-   詳細については、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
+   詳細については、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
 
-   ![&#x200B; クロスワークスペース設定タブを含むレコードタイプボックスを編集](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![ クロスワークスペース設定タブを含むレコードタイプボックスを編集](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. 「**保存**」をクリックします。
 
-   このレコードを他のワークスペースから接続することを選択した場合、**接続可能なレコード** アイコン ![他のスペースから接続アイコン &#x200B;](assets/connect-from-other-workspaces-icon.png)がレコードカードに表示されます。
+   このレコードを他のワークスペースから接続することを選択した場合、**接続可能なレコード** アイコン ![他のスペースから接続アイコン ](assets/connect-from-other-workspaces-icon.png)がレコードカードに表示されます。
 
-   このレコードを他のワークスペースに追加することを許可するように選択した場合、**グローバルレコード** アイコン ![&#x200B; グローバルレコードタイプアイコン &#x200B;](assets/global-icon.png)がレコードカードに表示されます。
+   このレコードを他のワークスペースに追加することを許可するように選択した場合、**グローバルレコード** アイコン ![ グローバルレコードタイプアイコン ](assets/global-icon.png)がレコードカードに表示されます。
 
 1. （オプション）ワークスペース領域のレコードタイプカードをクリックしてレコードタイプのページを開き、ヘッダーのレコードタイプの名前を変更します。
 
 1. （オプション）別のレコードタイプを編集するには、レコードタイプページから、レコードタイプ名の右側にある下向き矢印を展開し、レコードタイプを検索して、リストに表示されたら選択します。
 
-   ![検索ボックスを含むレコードタイプページのレコードタイプ ドロップダウン &#x200B;](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![検索ボックスを含むレコードタイプページのレコードタイプ ドロップダウン ](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
 
    >[!TIP]
    >
@@ -204,4 +206,4 @@ Old:
    >* Windowsの場合はCTRL+K
    >* Macの⌘+K
    >
-   >![&#x200B; グローバル検索ボックス &#x200B;](assets/global-search-box.png)
+   >![ グローバル検索ボックス ](assets/global-search-box.png)

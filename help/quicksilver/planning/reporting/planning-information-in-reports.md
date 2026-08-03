@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 31%
+source-wordcount: '255'
+ht-degree: 30%
 
 ---
 
@@ -19,11 +19,12 @@ Canvas ダッシュボードを使用すると、Adobe Workfront計画に関す�
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。ベータ版は、次のクラウドプロバイダーでは利用できません。
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。
+> ベータ版は次のクラウド プロバイダーでは利用できません：
 >
 >* Amazon Web Services用に独自のキーを持ち込む
 >* Azure
->* Google Cloud Platform詳しくは、[&#x200B; カンバスダッシュボードの管理：記事インデックス &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)を参照してください。
+>* Google Cloud Platform> 詳しくは、[ カンバスダッシュボードの管理：記事インデックス ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)を参照してください。
 
 ## アクセス要件
 
@@ -38,31 +39,40 @@ Canvas ダッシュボードを使用すると、Adobe Workfront計画に関す�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontまたはWorkflow パッケージ</p>
-<p>任意の計画パッケージ</p>
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p>
+<p><b>メモ</b></p>
+<p>Workfront Planningをスタンドアロン製品として購入したお客様は、レポートを使用できません</p>
    </td> </tr>
 
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p> 
+   <td><p>Workflow Standard</p> 
   </td> 
   </tr>
-   <tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p> 
+  </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>アクセスレベル設定</p></td> 
    <td><p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p>
   </td> 
   </tr>  
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td><p>ワークスペースに対する権限を表示</a> </p>  
+   <td>
+   <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+   <p>ワークスペースに対する権限を表示</a> </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  
    </td> 
   </tr>  
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 

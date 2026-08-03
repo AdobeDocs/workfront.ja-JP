@@ -9,21 +9,14 @@ exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/u8dbV85NLabPjFj0-gsjPO1vz3mrmgU9yKxRBttHhtY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 999
+source-wordcount: 1016
 ht-degree: 8%
 
 ---
@@ -52,18 +45,6 @@ Adobe Workfront Planningの承認に関連付けられたリクエストフォ�
 * [Adobe Workfront Planning リクエストを送信して、レコードを作成](/help/quicksilver/planning/requests/submit-requests.md)
 * [リクエストフォームへの承認の追加](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
-## リクエストの承認に関する考慮事項
-
-* 送信されたリクエストは、次のいずれかのリクエストステータスを持つWorkfrontのリクエスト領域に表示されます。
-
-   * **レビュー待ち**：このステータスは、承認者のいずれかがリクエストオブジェクトを開いていない場合に表示されます。
-   * **レビュー中**：少なくとも1人の承認者がリクエストオブジェクトを開くと、**保留中のレビュー**&#x200B;のステータスが&#x200B;**レビュー中**&#x200B;に変更されます。 すべての承認者がリクエストを承認するまで、リクエストのステータスは&#x200B;**レビュー中**&#x200B;のままです。
-   * **承認済み**：承認者がリクエストオブジェクトを承認すると、個々のステータスは&#x200B;**承認済み**&#x200B;になりますが、すべての承認者が決定を行うまで、全体的なリクエストオブジェクトのステータスは&#x200B;**レビュー中**&#x200B;のままです。 すべての承認者がリクエストを承認すると、リクエストのステータスは&#x200B;**Approved**&#x200B;になります。
-   * **完了**：すべての承認者がリクエストオブジェクトを承認すると、そのステータスは&#x200B;**完了**&#x200B;に変更されます。または、リクエストに承認が必要なかった場合です。
-   * **拒否**：いずれかの承認者が要求オブジェクトを拒否すると、ステータスは&#x200B;**拒否**&#x200B;になります。 レコードは作成されず、レコードを作成するには新しいリクエストを送信する必要があります。
-
-* 「承認者」フィールドと「承認日」フィールドでリクエストフォームを送信して作成したレコードに承認情報を表示できます。 詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
-
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。 
@@ -77,17 +58,24 @@ Adobe Workfront Planningの承認に関連付けられたリクエストフォ�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfront パッケージと任意のPlanning パッケージ</p>
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p> 
 または
-<p>任意のワークフローパッケージと任意のプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。</p>
-   </td> </tr>
-
-</tr> 
+<p>スタンドアロン製品として購入した際のあらゆるWorkfrontプランニング</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td><p>任意</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>任意</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -97,9 +85,21 @@ Adobe Workfront Planningの承認に関連付けられたリクエストフォ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
+
+## リクエストの承認に関する考慮事項
+
+* 送信されたリクエストは、次のいずれかのリクエストステータスを持つWorkfrontのリクエスト領域に表示されます。
+
+  * **レビュー待ち**：このステータスは、承認者のいずれかがリクエストオブジェクトを開いていない場合に表示されます。
+  * **レビュー中**：少なくとも1人の承認者がリクエストオブジェクトを開くと、**保留中のレビュー**&#x200B;のステータスが&#x200B;**レビュー中**&#x200B;に変更されます。 すべての承認者がリクエストを承認するまで、リクエストのステータスは&#x200B;**レビュー中**&#x200B;のままです。
+  * **承認済み**：承認者がリクエストオブジェクトを承認すると、個々のステータスは&#x200B;**承認済み**&#x200B;になりますが、すべての承認者が決定を行うまで、全体的なリクエストオブジェクトのステータスは&#x200B;**レビュー中**&#x200B;のままです。 すべての承認者がリクエストを承認すると、リクエストのステータスは&#x200B;**Approved**&#x200B;になります。
+  * **完了**：すべての承認者がリクエストオブジェクトを承認すると、そのステータスは&#x200B;**完了**&#x200B;に変更されます。または、リクエストに承認が必要なかった場合です。
+  * **拒否**：いずれかの承認者が要求オブジェクトを拒否すると、ステータスは&#x200B;**拒否**&#x200B;になります。 レコードは作成されず、レコードを作成するには新しいリクエストを送信する必要があります。
+
+* 「承認者」フィールドと「承認日」フィールドでリクエストフォームを送信して作成したレコードに承認情報を表示できます。 詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
 
 ## レコードを作成するための計画要求の承認
 
@@ -132,13 +132,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      >* Workfront Planningにアクセスできない場合、またはワークスペースを表示するアクセス権がない場合は、メールまたはアプリ内通知を使用して承認リクエストにのみアクセスできます。
      >* 従来のリクエストエクスペリエンスからPlanning リクエストにアクセスすることはできません。
 
-   * 画面の右上隅にある&#x200B;**通知**&#x200B;領域アイコン ![統合シェル &#x200B;](assets/notifications-area-icon-unified-shell.png)の通知領域アイコンをクリックし、承認待ちのリクエストに関する通知をクリックしてリクエストを開きます。
+   * 画面の右上隅にある&#x200B;**通知**&#x200B;領域アイコン ![統合シェル ](assets/notifications-area-icon-unified-shell.png)の通知領域アイコンをクリックし、承認待ちのリクエストに関する通知をクリックしてリクエストを開きます。
    * 承認待ちのリクエストについて通知するメールのメール通知に移動し、「**リクエストを開く**」をクリックしてリクエストを開きます。
 
    リクエストページが読み取り専用モードで開きます。
 
-   ![&#x200B; レビューステータスの読み取り専用リクエストページ &#x200B;](assets/read-only-reqeust-page-in-review-status.png)
-1. （オプション）リクエストの右上隅にある&#x200B;**承認** アイコン ![承認アイコン &#x200B;](assets/approvals-icon.png)をクリックして、承認者を表示します。
+   ![ レビューステータスの読み取り専用リクエストページ ](assets/read-only-reqeust-page-in-review-status.png)
+1. （オプション）リクエストの右上隅にある&#x200B;**承認** アイコン ![承認アイコン ](assets/approvals-icon.png)をクリックして、承認者を表示します。
 1. 「**レビューして承認**」をクリックし、次のいずれかを選択します。
 
    * **承認**：これにより、リクエストが承認されます。 すべての承認者がリクエストを承認すると、リクエストフォームに関連付けられたレコードタイプのレコードがすぐに作成されます。
@@ -159,7 +159,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. **ホーム**&#x200B;の&#x200B;**マイ承認** ウィジェットに移動します。
 
-   ![&#x200B; ホームの自分の承認ウィジェット &#x200B;](assets/my-approvals-widget-in-home.png)
+   ![ ホームの自分の承認ウィジェット ](assets/my-approvals-widget-in-home.png)
 1. 承認または却下する計画リクエストを探します。
 
 1. （オプション）コメントを追加するには、**承認**&#x200B;または&#x200B;**却下**&#x200B;の横にあるドロップダウン矢印をクリックし、メモに入力して、**追加**&#x200B;をクリックします。

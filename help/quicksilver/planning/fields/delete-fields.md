@@ -9,21 +9,15 @@ exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/EusoK7-jmYJHg9nqyvvQamsfVeUy802p36EyDmLGwik
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 28%
+source-wordcount: 708
+ht-degree: 27%
 
 ---
 
@@ -60,23 +54,33 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <ul> 
-<li><p>任意のWorkfrontおよびプランニングパッケージ</p></li>
+<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
 または
-<li><p>任意のワークフローとプランニングパッケージ</p></li></ul>
+<li><p>スタンドアロンパッケージとして購入された場合の任意のPlanning パッケージ</p></li></ul>
 
 <p>グローバルレコードタイプからフィールドを削除するには：</p>
 <ul><li><p>任意のWorkfront パッケージとPlanning Plus パッケージ</p></li>
 または
-<li><p>PrimeとUltimateのあらゆるパッケージのワークフローとプランニング</p></li></ul>
-
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
+<li><p>PrimeとUltimateのあらゆるパッケージのワークフローとプランニング</p></li>
+または
+<li>スタンドアロン製品として購入した場合のプランニング プライマリおよびUltimate パッケージ</li>
+</ul>
    </td> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
+  </tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースに対する権限の管理</p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
@@ -84,7 +88,7 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -136,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -157,9 +161,9 @@ Old:
 
   例えば、CampaignsをProductという別のレコードタイプに接続し、キャンペーンからProduct connected フィールドとProduct&#39;s Status ルックアップフィールドを削除すると、次のものが削除されます。
 
-   * キャンペーンの「製品接続」フィールド
-   * キャンペーンの「製品ステータス」ルックアップフィールド
-   * 製品のキャンペーン接続フィールド
+  * キャンペーンの「製品接続」フィールド
+  * キャンペーンの「製品ステータス」ルックアップフィールド
+  * 製品のキャンペーン接続フィールド
 
   詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
@@ -185,7 +189,7 @@ Old:
 
 1. 削除するフィールドを列ヘッダーで見つけてその上にポインタを合わせ、フィールド名の後の下向き矢印をクリックします。
 
-   ![&#x200B; テーブルヘッダーのフィールド名の後の矢印メニューが強調表示される](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![ テーブルヘッダーのフィールド名の後の矢印メニューが強調表示される](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. 「**削除**」をクリックします。<!-- check this: they might replace it with **Delete field**-->
 

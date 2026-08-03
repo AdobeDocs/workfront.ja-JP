@@ -9,22 +9,15 @@ exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uyoOkZ9Yd48O9Sur9YMal4cBZD9e45bTbwc6TQ2fAds
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 21%
+source-wordcount: 622
+ht-degree: 22%
 
 ---
 
@@ -60,14 +53,26 @@ ht-degree: 21%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
+<ul> 
+<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
+または
+<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースに対する権限の管理</p>  
@@ -76,7 +81,7 @@ ht-degree: 21%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -128,7 +133,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -147,24 +152,24 @@ Old:
 * Workfront フィールドを読み込むと、同じフィールドのコピーが作成され、Workfront Planningのフィールド名が保持されます。 Workfront Planningにコピーした後、フィールドは元のWorkfront フィールドから独立しており、情報は共有されません。
 <!--check this: * You do not need permissions or access to Workfront objects to be able to add their fields to Workfront Planning. -->
 * 次のWorkfront オブジェクトからネイティブフィールドまたはカスタムフィールドを追加できます。
-   * ポートフォリオ
-   * プログラム
-   * プロジェクト
-   * タスク
-   * イシュー
-   * ドキュメント
-   * 会社
-   * グループ
-   * ユーザー
-   * 担当業務
-   * 割り当て
-   * 時間
-   * 請求記録
-     <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
-   * 費用
-   * イテレーション
-     <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
-     <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
+  * ポートフォリオ
+  * プログラム
+  * プロジェクト
+  * タスク
+  * イシュー
+  * ドキュメント
+  * 会社
+  * グループ
+  * ユーザー
+  * 担当業務
+  * 割り当て
+  * 時間
+  * 請求記録
+    <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
+  * 費用
+  * イテレーション
+    <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+    <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * Workfront フィールドは、Workfront Planningで読み込まれた後、フィールドタイプが保持されない場合があります。
 
   次の表は、Workfrontのフィールドタイプと、対応するWorkfront計画フィールドタイプを示しています。
@@ -185,7 +190,7 @@ Old:
   | ラジオボタン | 複数選択 |
 
   * 計算フィールドは後日ご利用いただけます。
-その他のすべてのWorkfront フィールドタイプは、Workfront Planningではサポートされていません。
+  その他のすべてのWorkfront フィールドタイプは、Workfront Planningではサポートされていません。
 
 
 ## Workfront からのフィールドを読み込み
@@ -217,7 +222,7 @@ Old:
 
 1. 検索領域に既存のWorkfront フィールドの名前を入力し、リストに表示されたら「**+**」をクリックします。
 1. （オプション）別のフィールドを入力し、リストに表示されたら「**+**」をクリックします。
-1. （オプション）「**フィルター**」アイコン「![&#x200B; インポートフィールドアイコン &#x200B;](assets/filters-in-import-fields-icon.png)」をクリックし、次のいずれかのフィールドまたは両方のフィールドを更新します。
+1. （オプション）「**フィルター**」アイコン「![ インポートフィールドアイコン ](assets/filters-in-import-fields-icon.png)」をクリックし、次のいずれかのフィールドまたは両方のフィールドを更新します。
 
    * オブジェクトタイプ：フィールドを読み込むWorkfront オブジェクトタイプを選択します。
    * カスタムフォーム：Workfrontから1つまたは複数のカスタムフォームを選択します。 最初にオブジェクトタイプを選択せずにカスタムフォームを選択できます。

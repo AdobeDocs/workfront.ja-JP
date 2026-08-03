@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1349'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+{{planning-important-intro}}
 
 Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に接続フィールドを作成する際に、依存関係を定義できます。
 
@@ -58,7 +60,6 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
 <p>または</p>
 <li><p>スタンドアロン製品として購入した場合のPlanning PrimeまたはUltimate パッケージ</p></li>
 </ul>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
 <tr> 
 <td> 
@@ -68,13 +69,23 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
    <ul><li><p>Adobe Experience Manager Assetsライセンスと、AEM Assetsとプランニングレコードタイプを連携させるAEM AssetsとWorkfrontの統合。</p>
    <p>詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets Essentials向けAdobe Workfront：記事インデックス </a>を参照してください。 </p></li>
    <li><p> レコードタイプをGenStudio オブジェクトやブランドに接続するためのAdobe GenStudio for Performance Marketing ライセンス</p>
-   <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
+   <p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -84,7 +95,7 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -132,9 +143,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
    >
    >**この接続を依存にする**&#x200B;設定を有効にすると、**リンクされたレコードタイプに対応するフィールドを作成**&#x200B;が自動的に有効になります。 レコードタイプごとに500件のフィールドという制限があります。
 
-   ![依存接続が有効になっている新しい接続タブ &#x200B;](assets/dependent-connection-enabled-setting.png)
+   ![依存接続が有効になっている新しい接続タブ ](assets/dependent-connection-enabled-setting.png)
 
-1. 記事[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)の説明に従って、接続の設定を続行します。
+1. 記事[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)の説明に従って、接続の設定を続行します。
 1. 「**保存**」をクリックします。
 
    次のことが発生します。
@@ -146,7 +157,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      詳しくは、この記事の「[依存する接続レコードタイプの例](#example-of-dependent-connected-record-types)」の節を参照してください。
    * 接続されたレコードフィールドの列ヘッダーには、そのフィールドが依存関係にあることを示す表示があります。
 
-     ![列ヘッダーの依存アイコンのツールヒント &#x200B;](assets/dependent-icon-tooltip-in-column-header.png)
+     ![列ヘッダーの依存アイコンのツールヒント ](assets/dependent-icon-tooltip-in-column-header.png)
 
 1. （オプションおよび推奨） 3番目のレコードタイプに移動し、最初と2番目のレコードタイプの両方を接続されたレコードフィールドとして追加します。
 

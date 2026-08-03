@@ -9,20 +9,15 @@ exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mW--blSvQVx2QXVvVeV5NQfjPtO--UcKImNEvxFzbAs
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 555
-ht-degree: 78%
+source-wordcount: 588
+ht-degree: 74%
 
 ---
 
@@ -59,13 +54,26 @@ ht-degree: 78%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
+<p>任意のWorkfrontまたはワークフローとプランニングパッケージ</p> 
+または
+<p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>コントリビューター以上</p>
+   <td><p>ワークフローライト以上</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>Planning Contributor以上</p>
+   <p><b>メモ</b></p>
+   <p>すべてのお客様がPlanning Contributor ライセンスを持っているわけではありません</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -77,7 +85,7 @@ ht-degree: 78%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -128,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -161,8 +169,8 @@ Old:
 1. 任意のビューから、レコードの名前をクリックします。
 
    レコードのページが開きます。 コメントエリアがデフォルトで右パネルに開きます。
-1. **履歴を表示** アイコン ![履歴を表示アイコン &#x200B;](assets/show-history-icon.png)をクリックします。 レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。
-1. （オプション） **履歴を非表示** アイコン ![履歴を非表示アイコン &#x200B;](assets/hide-history-icon.png)をクリックして、右側のパネルを閉じます。
+1. **履歴を表示** アイコン ![履歴を表示アイコン ](assets/show-history-icon.png)をクリックします。 レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。
+1. （オプション） **履歴を非表示** アイコン ![履歴を非表示アイコン ](assets/hide-history-icon.png)をクリックして、右側のパネルを閉じます。
 
 ## 履歴セクションに関する考慮事項
 
@@ -172,29 +180,29 @@ Old:
 
 * Workfront Planning は、次の情報を「履歴」セクションに記録します。
 
-   * フィールドの変更
+  * フィールドの変更
 
-   * 値が変更されたときの、フィールドの古い値と新しい値。 古い値は、打ち消し線付きで表示されます。
+  * 値が変更されたときの、フィールドの古い値と新しい値。 古い値は、打ち消し線付きで表示されます。
 
-   * 変更を加えたユーザーのフルネーム
+  * 変更を加えたユーザーのフルネーム
 
-   * 変更が発生した日時スタンプ
+  * 変更が発生した日時スタンプ
 
 * 次のタイプのフィールドでは、常に古いの値（打ち消し線付きの形式）と新しい値が表示されます。
 
-   * テキスト
-   * 段落
-   * 通貨
-   * 日付
-   * 数値
-   * パーセンテージ
-   * 単一選択
+  * テキスト
+  * 段落
+  * 通貨
+  * 日付
+  * 数値
+  * パーセンテージ
+  * 単一選択
 
 * 次のタイプのフィールドは、複数の値のうち少なくとも 1 つが削除された場合にのみ、打ち消し線付きの形式で古い値を表示します。
 
-   * 複数選択
-   * リンクされたレコードフィールド
-   * ユーザー
+  * 複数選択
+  * リンクされたレコードフィールド
+  * ユーザー
 
   変更によってフィールドに値が追加されただけの場合、古い値は表示されず、新しいフィールド値のみが表示されます。
 
@@ -204,11 +212,11 @@ Old:
 
 * 次のタイプのフィールドに対する変更は、「履歴」セクションに表示されません。
 
-   * リンクされた（ルックアップ）フィールド
-   * 式
-   * 作成者
-   * 作成日
-   * 最終変更者
-   * 最終変更日
+  * リンクされた（ルックアップ）フィールド
+  * 式
+  * 作成者
+  * 作成日
+  * 最終変更者
+  * 最終変更日
 
 * フィールドがシステムから削除されても、そのフィールドに対して行われた更新は「履歴」セクションに残ります。 レコードの「履歴」セクションでフィールドが削除されたことを示すものはありません。

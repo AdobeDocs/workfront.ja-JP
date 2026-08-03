@@ -9,20 +9,14 @@ exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grtTc9KyoVJXzU27qkmFyJhY0mYtdSjz-Q1Pb-YqxLI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 765
+source-wordcount: 749
 ht-degree: 7%
 
 ---
@@ -41,11 +35,11 @@ ht-degree: 7%
 
 ワークスペースマネージャーは、既存のレコードタイプとして管理するワークスペースにレコードタイプを追加する前に、最初にレコードタイプをグローバルレコードタイプとして指定する必要があります。 Workspaceの管理者は、レコードタイプのクロスワークスペース設定を定義することで、レコードタイプを作成または編集する際にグローバルとして指定できます。
 
-詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
+詳しくは、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
 
 この記事では、既存のレコードタイプからレコードタイプを追加する方法について説明します。
 
-グローバルレコードタイプからワークスペースにレコードを追加する前に、記事[&#x200B; クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)も参照してください。
+グローバルレコードタイプからワークスペースにレコードを追加する前に、記事[ クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)も参照してください。
 
 
 ## アクセス要件
@@ -56,7 +50,7 @@ ht-degree: 7%
 <col> 
 </col> 
 <col> 
-</col> 
+</col>  
 <tbody> 
     <tr> 
 <tr> 
@@ -64,17 +58,27 @@ ht-degree: 7%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<ul><li><p>任意のWorkfront パッケージとPlanning Plus パッケージ</p></li>
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p> 
 または
-<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></p></li></ul>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
-   </td> 
+<p>スタンドアロンの製品パッケージとしてのWorkfront Planningは</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
-   </td> 
+   <td><p>Workflow Standard</p> 
+  </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースに対する権限の管理</p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
@@ -82,7 +86,7 @@ ht-degree: 7%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -135,12 +139,12 @@ And
 >
 >他の少なくとも1つのプライマリワークスペースに、少なくとも1つのレコードタイプがグローバルに指定されていることを確認します。
 >
->詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
+>詳しくは、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
 
 1. レコードタイプ（セカンダリワークスペース）を作成するワークスペースに移動します。
-1. 記事[&#x200B; レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)の説明に従ってレコードタイプの作成を開始し、**既存の**&#x200B;を追加をクリックします。<!--check this - the option might have been renamed in the UI-->
+1. 記事[ レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)の説明に従ってレコードタイプの作成を開始し、**既存の**&#x200B;を追加をクリックします。<!--check this - the option might have been renamed in the UI-->
 
-   ![別のワークスペースから追加するオプションを含むレコードタイプを追加するモーダル &#x200B;](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+   ![別のワークスペースから追加するオプションを含むレコードタイプを追加するモーダル ](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
    >[!TIP]
    >
@@ -151,15 +155,15 @@ And
 
 プレビュー環境を使用している場合は、クリックして複数のレコードタイプを選択し、「**追加**」をクリックします。 使用可能なすべてのワークスペースのすべてのグローバルレコードタイプがリストに表示されます。
 
-選択したセカンダリワークスペースにレコードタイプが追加され、セカンダリワークスペース ![&#128279;](assets/global-icon-secondary-workspace.png)の&#x200B;**グローバルレコードタイプ** アイコン  グローバルレコードアイコンがレコードタイプのカードに表示されます。
+選択したセカンダリワークスペースにレコードタイプが追加され、セカンダリワークスペース ](assets/global-icon-secondary-workspace.png)の&#x200B;**グローバルレコードタイプ** アイコン ![ グローバルレコードアイコンがレコードタイプのカードに表示されます。
 グローバルレコードタイプアイコンには、セカンダリワークスペースのレコードタイプに表示される矢印が含まれ、レコードタイプが既存のレコードタイプから追加されたことを示します。
 
 次のことが発生します。
 
 * 次の情報も、既存のグローバルレコードタイプから追加されます。
 
-   * すべてのオリジナルフィールド
-   * すべてのレコードの接続
+  * すべてのオリジナルフィールド
+  * すべてのレコードの接続
 * セカンダリワークスペースからレコードタイプの元のワークスペースから追加されたレコードを表示することはできません。
 * 少なくともそのワークスペースに対する表示権限がある場合は、元のワークスペースでのみ、そのワークスペース内のレコードタイプの元のワークスペースから追加されたレコードを表示できます。
 * 読み取り専用の&#x200B;**Workspace** フィールドが、新しいレコードタイプのテーブルビューに追加されます。 このフィールドには、各レコードが作成されたワークスペースが表示されます。
@@ -169,7 +173,7 @@ And
   >新しいレコードタイプの外観、追加設定、元のフィールドは編集できません。 レコードタイプとそのすべての元のフィールドと設定は、元のワークスペースからのみ編集できます。
   >
 
-1. （オプション）セカンダリワークスペース ![&#128279;](assets/global-icon-secondary-workspace.png)のグローバルレコードタイプアイコン  グローバルレコードアイコンにカーソルを合わせると、レコードタイプが追加された元のワークスペースの名前が表示されます。
+1. （オプション）セカンダリワークスペース ](assets/global-icon-secondary-workspace.png)のグローバルレコードタイプアイコン ![ グローバルレコードアイコンにカーソルを合わせると、レコードタイプが追加された元のワークスペースの名前が表示されます。
 1. （オプション）をクリックし、新しく追加したレコードタイプをワークスペース内の任意のセクションにドラッグ&amp;ドロップします。
 1. （オプション）新しいレコードタイプのカードまたはページのレコードタイプ名の右側にある&#x200B;**More** メニューをクリックし、次のいずれかをクリックします。
 
@@ -178,7 +182,7 @@ And
 
      セカンダリワークスペースから追加されたビューは削除されません。<!--checking with Lilit - not sure if this is by design??-->
 
-   詳しくは、[&#x200B; レコードタイプの削除](/help/quicksilver/planning/architecture/delete-record-types.md)の「グローバルレコードタイプの削除」の節を参照してください。
+   詳しくは、[ レコードタイプの削除](/help/quicksilver/planning/architecture/delete-record-types.md)の「グローバルレコードタイプの削除」の節を参照してください。
 
 <!--
 This will be released later with another epic: 

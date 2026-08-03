@@ -9,20 +9,14 @@ exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/v1IRcsFil5-ba26LoUX6IgD5gG-9h2344Tfs-qRvvPU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: 1134
 ht-degree: 20%
 
 ---
@@ -43,7 +37,7 @@ ht-degree: 20%
 
 ただし、レコードタイプを削除すると、そのレコードタイプに関連付けられているすべての情報も削除されます。 詳しくは、この記事で[レコードタイプを削除する際の考慮事項](#considerations-when-deleting-record-types)の節を参照してください。
 
-レコードタイプについて詳しくは、[&#x200B; レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
+レコードタイプについて詳しくは、[ レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)を参照してください。
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -64,22 +58,33 @@ ht-degree: 20%
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <ul> 
-<li><p>任意のWorkfrontおよびプランニングパッケージ</p></li>
+<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフローパッケージ</p></li>
 または
-<li><p>任意のワークフローとプランニングパッケージ</p></li></ul>
+<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
 
 <p>グローバルレコードタイプを削除するには：</p>
 <ul><li><p>任意のWorkfront パッケージとPlanning Plus パッケージ</p></li>
 または
-<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li></ul>
-
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
+<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li>
+または
+<li>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</li>
+</ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+</tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースに対する権限の管理</p>  
@@ -88,7 +93,7 @@ ht-degree: 20%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -139,7 +144,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -159,16 +164,16 @@ Old:
 * 自分が管理権限を持つワークスペースからは、レコードタイプのみを削除できます。
 * レコードタイプを削除すると、それに関連付けられている次の情報が削除されます。
 
-   * そのタイプのすべてのレコード。
-   * そのレコードタイプに関連付けられているすべてのフィールド。
-   * そのレコードタイプのすべてのビュー（フィルター、グループ化、並べ替え条件を含む）。
+  * そのタイプのすべてのレコード。
+  * そのレコードタイプに関連付けられているすべてのフィールド。
+  * そのレコードタイプのすべてのビュー（フィルター、グループ化、並べ替え条件を含む）。
 * そのレコードタイプは、ワークスペースにアクセスするすべてのユーザーから削除されます。
 * 削除したレコードタイプやその情報は復元できません。
 * 削除するレコードタイプに関連付けられているフィールドとレコードを別のレコードタイプで再作成してから削除することをお勧めします。
 
 * 他のワークスペースに追加されたグローバルレコードタイプは削除できません。
 
-  詳しくは、この記事の「[&#x200B; グローバルレコードタイプを削除](#delete-global-record-types)」の節を参照してください。
+  詳しくは、この記事の「[ グローバルレコードタイプを削除](#delete-global-record-types)」の節を参照してください。
 
 ## レコードタイプの削除
 
@@ -197,7 +202,7 @@ Old:
      >
      >レコードの種類ページから追加されたセカンダリワークスペースから、グローバルなレコードの種類を削除することはできません。 削除できるのは、ワークスペースのレコードタイプカードのみです。
 
-     ![&#x200B; レコードタイプの確認を完全に削除](assets/permanently-delete-record-type-confirmation.png)
+     ![ レコードタイプの確認を完全に削除](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. 確認ボックスに「**delete**」と入力し、**完全に削除**」をクリックします。 大文字と小文字を区別しません。
@@ -225,9 +230,9 @@ Old:
    * レコードタイプがセカンダリワークスペースに追加されていない場合は、レコードタイプのカードの&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックするか、ページのレコードタイプの名前の右側にある「**削除**」をクリックします。
    * レコードタイプが他の少なくとも1つのセカンダリワークスペースに追加された場合は、まずセカンダリワークスペースに移動し、そのスペースからグローバルレコードを削除します。
 
-     詳しくは、この記事の「[&#x200B; セカンダリワークスペースからグローバルレコードタイプを削除する](#delete-a-global-record-type-from-a-secondary-workspace)」の節を参照してください。
+     詳しくは、この記事の「[ セカンダリワークスペースからグローバルレコードタイプを削除する](#delete-a-global-record-type-from-a-secondary-workspace)」の節を参照してください。
 
-1. （条件付き）この記事の「[&#x200B; レコードタイプを削除](#delete-record-types-1)」の節で説明しているように、レコードタイプの削除を続行します。
+1. （条件付き）この記事の「[ レコードタイプを削除](#delete-record-types-1)」の節で説明しているように、レコードタイプの削除を続行します。
 
    次のことが発生します。
 
@@ -244,7 +249,7 @@ Old:
 
 * セカンダリワークスペースからグローバルレコードタイプを削除すると、次の項目も削除されます。
 
-   * セカンダリワークスペースから追加されたレコードは、セカンダリワークスペースと元のワークスペースから削除され、復元できません。
+  * セカンダリワークスペースから追加されたレコードは、セカンダリワークスペースと元のワークスペースから削除され、復元できません。
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
@@ -261,7 +266,7 @@ Old:
 1. （オプション）レコードタイプのカードの&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックします。
 1. （条件付き）指定されたフィールドに「**delete**」と入力し、**完全に削除**」をクリックします。
 
-   ![&#x200B; セカンダリグローバルレコードタイプの削除の確認ボックス &#x200B;](assets/delete-secondary-global-record-type.png)
+   ![ セカンダリグローバルレコードタイプの削除の確認ボックス ](assets/delete-secondary-global-record-type.png)
 
    次のことが発生します。
 

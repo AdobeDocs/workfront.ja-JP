@@ -9,20 +9,14 @@ exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1693
 ht-degree: 7%
 
 ---
@@ -44,15 +38,15 @@ Adobe Workfront Planningのレコードタイプで、個々のレコードに�
 
 * レコードへのリンクを共有します。
 
-  詳しくは、[&#x200B; リンクを使用したレコードの共有](/help/quicksilver/planning/records/share-records.md)を参照してください。
+  詳しくは、[ リンクを使用したレコードの共有](/help/quicksilver/planning/records/share-records.md)を参照してください。
 
 * ワークスペースとレコードタイプを共有することで、ワークスペース内のすべてのレコードを他のユーザーと共有できます。
 
   詳しくは、次の記事を参照してください。
 
-   * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
+  * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
+  * [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
 
 * **共有** オプションを使用して、個々のレコードを共有するか、複数のレコードを一括共有します。
 
@@ -79,21 +73,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p> 
 または
 <p>スタンドアロンの製品パッケージとしてのWorkfront Planningは</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td><p>任意</p> 
-   <p><b>メモ</b></p>
-   <p>レコードに対する管理権限を付与できるのは、標準ライセンスを持つユーザーのみです。 他のすべてのライセンスには表示権限しかなく、「管理」オプションはグレー表示されます。</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>任意</p> 
+<p><b>メモ</b></p>
+   <p>Planning Standard ライセンスを持つユーザーのみが、レコードに対する管理権限を付与できます。 他のすべてのライセンスには表示権限しかなく、「管理」オプションはグレー表示されます。</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>  
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -119,14 +123,14 @@ maybe use the Share record types as example here and touch on the same points: h
 * レコードは、人物、グループ、チーム、会社、担当業務の各エンティティと共有できます。
 * 次の制限があります。
 
-   * 一度に100を超えるレコードを共有することはできません。
-   * 100個を超えるエンティティを持つレコードは共有できません。
+  * 一度に100を超えるレコードを共有することはできません。
+  * 100個を超えるエンティティを持つレコードは共有できません。
 * 権限をレコードに制限すると、ユーザーはそのレコードとそのルックアップフィールドの値を、そのレコードが表示されるシステム内の任意の場所に表示しなくなります。
 * Workfrontは、最大5つのレコードの詳細な接続でレコード権限をチェックし、ユーザーが自分と共有されたレコードのみを表示できるようにします。
 * レコードに次のレベルの権限を付与できます。
 
-   * 表示
-   * 管理
+  * 表示
+  * 管理
 * ワークスペースとレコードタイプをユーザーと共有すると、デフォルトでは、ワークスペース内のレコードに対しても同じ権限が付与されます。
 ユーザーがワークスペースまたはレコードタイプに対するContribute権限を持っている場合、そのレコードタイプのレコードに対する管理権限を受け取ります。
 * ワークスペースからエンティティを削除すると、そのワークスペース内のレコードタイプとすべてのレコードからすべての共有権限が削除されます。
@@ -135,13 +139,13 @@ maybe use the Share record types as example here and touch on the same points: h
   ワークスペース内にいないユーザーとレコードを共有すると、レコードは自動的にワークスペースに追加されます。
 * レコードへのユーザーのアクセスは、次の3つの設定の組み合わせによって決定されます。
 
-   * その権限は、レコードタイプとワークスペースから継承されます
-   * レコード共有ボックスに個別に追加された権限
-   * ワークスペース内の&#x200B;**全員が**&#x200B;設定を表示できます。
+  * その権限は、レコードタイプとワークスペースから継承されます
+  * レコード共有ボックスに個別に追加された権限
+  * ワークスペース内の&#x200B;**全員が**&#x200B;設定を表示できます。
 
-     これにより、ワークスペース内の全員がレコードを表示できるようになります
+    これにより、ワークスペース内の全員がレコードを表示できるようになります
 
-     <!--
+    <!--
       Cannot do this on a record: 
       * **Only invited people can access**: This is selected by default and allows restricting access to the record to specific people. 
       -->
@@ -150,8 +154,8 @@ maybe use the Share record types as example here and touch on the same points: h
 
   例：
 
-   * レコードタイプに対する表示権限がある場合、レコードに対する表示権限を取得します
-   * レコードタイプに対するContribute権限またはManage権限がある場合、レコードに対するManage権限を取得します
+  * レコードタイプに対する表示権限がある場合、レコードに対する表示権限を取得します
+  * レコードタイプに対するContribute権限またはManage権限がある場合、レコードに対するManage権限を取得します
 
 * ユーザーがワークスペースおよびレコードタイプに対する管理権限またはコントリビュート権限を持っていて、それらをレコード権限に追加すると、「表示」権限がグレー表示されます。 レコードには、レコードタイプと同じ権限が保持され、レコードに対して低い権限を与えることはできません。
 
@@ -281,7 +285,7 @@ Lilit is checking on this, it is not working correctly
    * The workspace, if they had not had permissions to the workspace before the record was shared with them.
    -->
 
-   詳しくは、[Adobe Workfront計画通知：記事インデックス &#x200B;](/help/quicksilver/planning/notifications/notifications-information.md)を参照してください。
+   詳しくは、[Adobe Workfront計画通知：記事インデックス ](/help/quicksilver/planning/notifications/notifications-information.md)を参照してください。
 
 
 1. （オプション）コピーしたリンクを他のユーザーと共有します。
@@ -290,7 +294,7 @@ Lilit is checking on this, it is not working correctly
 
    レコードタイプを表示するには、レコードタイプに対する権限が必要です。
 
-   詳細については、「[&#x200B; リンクを使用してレコードを共有する](/help/quicksilver/planning/records/share-records.md)」も参照してください。
+   詳細については、「[ リンクを使用してレコードを共有する](/help/quicksilver/planning/records/share-records.md)」も参照してください。
 
 
 ## レコードへの権限の削除
@@ -315,7 +319,7 @@ Lilit is checking on this, it is not working correctly
    **共有** ボックスが開きます。
 1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、権限ドロップダウンメニューを名前右側に展開し、**削除**&#x200B;をクリックします。
 
-   ![&#x200B; レコードの権限を削除](assets/remove-option-on-record-sharing-drop-down.png)
+   ![ レコードの権限を削除](assets/remove-option-on-record-sharing-drop-down.png)
 
 1. 「**保存**」をクリックします。
 

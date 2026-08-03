@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '706'
 ht-degree: 5%
 
 ---
@@ -42,21 +42,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p> 
 または
-<p>スタンドアロンの製品パッケージとしてのWorkfront Planningは</p>
-
-</tr>
+<p>スタンドアロンの製品パッケージとしてのWorkfront Planningは</p> 
+ </tr>
 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td><p>任意</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>任意</p> 
    <p><b>メモ</b></p>
-   <p>レコードに対する管理権限を付与できるのは、標準ライセンスを持つユーザーのみです。 他のすべてのライセンスには表示権限しかなく、「管理」オプションはグレー表示されます。</p>
+   <p>Planning Standard ライセンスを持つユーザーのみが、レコードに対する管理権限を付与できます。 他のすべてのライセンスには表示権限しかなく、「管理」オプションはグレー表示されます。</p>
+  </td> 
+  </tr> 
+<td role="rowheader"><p>アクセスレベルの設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td>   
   </td> 
   </tr> 
   <tr> 
@@ -111,7 +121,7 @@ at GA, check that the Workfront plans article linked below has Planning info
 
 1. レコードタイプ > **詳細** メニュー![詳細メニュー](assets/more-menu.png) > **設定** > **レコード設定**&#x200B;に移動します。
 
-   ![&#x200B; レコードタイプ設定エリアの「レコード設定」タブ &#x200B;](assets/record-settings-tab-in-record-type-settings-area.png)
+   ![ レコードタイプ設定エリアの「レコード設定」タブ ](assets/record-settings-tab-in-record-type-settings-area.png)
 
 1. **レコード権限タイプ** フィールドで、次のいずれかのオプションをクリックします。
 

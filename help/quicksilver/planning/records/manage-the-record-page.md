@@ -9,20 +9,14 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/sFguOXM4KmnumOPmMdueqTMyH-UNFq01TsJG6L53fAM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: 1764
 ht-degree: 6%
 
 ---
@@ -43,7 +37,7 @@ Adobe Workfront Planningでは、レコードのプレビューとページの�
 
 レコードのプレビューとページのレイアウトを変更すると、同じタイプのすべてのレコードのプレビューボックスと詳細ページに変更が反映されます。
 
-この記事では、レコードプレビューボックスまたはレコードページのレイアウトと外観を変更する方法について説明します。 レコードの編集について詳しくは、[&#x200B; レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+この記事では、レコードプレビューボックスまたはレコードページのレイアウトと外観を変更する方法について説明します。 レコードの編集について詳しくは、[ レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 レコードページの編集を開始する前に、レコードタイプとレコードを作成する必要があります。
 
@@ -69,14 +63,25 @@ Adobe Workfront Planningでは、レコードのプレビューとページの�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
-<p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
+<ul> 
+<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
+または
+<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr>
    <td role="rowheader"><p>オブジェクト権限</p></td>
@@ -88,7 +93,7 @@ Adobe Workfront Planningでは、レコードのプレビューとページの�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -144,7 +149,7 @@ Old:
   </tr>
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>  
 </td>
   </tr>
 <tr>
@@ -174,7 +179,7 @@ Old:
 
 * レコードのプレビューで行った変更を表示すると、レコードの詳細ページにすぐに表示されます。 レコードページで行った変更は、レコードプレビューボックスにも表示されます。
 
-* カバー画像またはサムネールをレコードに追加することは、レコードプレビューまたはページの全体的なレイアウトの一部ではありません。 各レコードに一意のカバー画像またはサムネールを追加できます。 詳しくは、[&#x200B; カバー画像をレコードに追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)および[&#x200B; サムネールをレコードに追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+* カバー画像またはサムネールをレコードに追加することは、レコードプレビューまたはページの全体的なレイアウトの一部ではありません。 各レコードに一意のカバー画像またはサムネールを追加できます。 詳しくは、[ カバー画像をレコードに追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)および[ サムネールをレコードに追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
 * レコードのページには、次のタイプのページを追加できます。
 
@@ -189,7 +194,7 @@ Old:
 * セクションを追加できるのは、レコードのすべてのフィールドを表示するときだけです。 テーブルビューで非表示のフィールドを非表示にした場合、セクションを追加することはできません。
 * ページに含めることができるセクションの数に制限はありません。
 * 空のセクションを持つことはできません。 セクションには少なくとも1つのフィールドが必要です。
-* フィールドをセクション間でドラッグ&amp;ドロップできます。 詳しくは、この記事のレコードプレビューまたは詳細ページ [&#128279;](#manage-fields-in-the-records-details-tab)の「 フィールドを管理する」の節を参照してください。
+* フィールドをセクション間でドラッグ&amp;ドロップできます。 詳しくは、この記事のレコードプレビューまたは詳細ページ ](#manage-fields-in-the-records-details-tab)の「[ フィールドを管理する」の節を参照してください。
 * セクションからすべてのフィールドを削除すると、セクションは自動的に削除され、復元できません。
 
 レコードプレビューまたはページにセクションを追加するには：
@@ -208,25 +213,25 @@ Old:
 
    または
 
-   テーブル表示で、最初の列の「**詳細を開く**」アイコン「![&#x200B; テーブル名フィールドで詳細を開く」アイコン「](assets/open-details-icon-in-table-name-field.png)」をクリックします。
+   テーブル表示で、最初の列の「**詳細を開く**」アイコン「![ テーブル名フィールドで詳細を開く」アイコン「](assets/open-details-icon-in-table-name-field.png)」をクリックします。
 
    レコードのプレビューがビューで開きます。
 
-   ![詳細ボックス &#x200B;](assets/details-box.png)
+   ![詳細ボックス ](assets/details-box.png)
 
 1. （オプション）レコードプレビューの右上隅にある「**新しいタブで開く**」アイコン「![新しいタブアイコンで詳細を開く](assets/open-details-in-a-new-tab-icon.png)」をクリックして、新しいタブでレコードのページを開きます。
 
    レコードページが開きます。 「詳細」タブがデフォルトで開きます。
 
-   ![詳細ページ &#x200B;](assets/details-page.png)
+   ![詳細ページ ](assets/details-page.png)
 
-1. レコードのプレビューまたはページの「**詳細**」タブで、フィールドの左側にある空白にカーソルを合わせ、**セクションを追加** アイコン ![&#x200B; セクションを追加アイコン &#x200B;](assets/add-section-icon.png)をクリックしてセクションを追加します。
+1. レコードのプレビューまたはページの「**詳細**」タブで、フィールドの左側にある空白にカーソルを合わせ、**セクションを追加** アイコン ![ セクションを追加アイコン ](assets/add-section-icon.png)をクリックしてセクションを追加します。
 1. セクションの名前の中をクリックし、**名称未設定のセクション**&#x200B;を名前に置き換え、「Enter」をクリックします。 セクションの下に表示されるフィールドは、自動的に新しいセクションの一部になります。
-1. この記事の「[&#x200B; レコードのプレビューまたは詳細ページのフィールドを管理](#manage-fields-in-the-records-details-tab)」の説明に従って、フィールドを新しいセクションにドラッグ&amp;ドロップします。
+1. この記事の「[ レコードのプレビューまたは詳細ページのフィールドを管理](#manage-fields-in-the-records-details-tab)」の説明に従って、フィールドを新しいセクションにドラッグ&amp;ドロップします。
 
 1. （オプション）セクション名にカーソルを合わせて、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックします。
 
-   ![&#x200B; レコードページのセクションのその他のメニューオプション &#x200B;](assets/more-menu-options-for-section-on-record-page.png)
+   ![ レコードページのセクションのその他のメニューオプション ](assets/more-menu-options-for-section-on-record-page.png)
 1. （オプション）次のいずれかの操作を行って、セクションを編集します。
 
    * 「**名前変更**」をクリックして、セクションの名前を変更します
@@ -239,7 +244,7 @@ Old:
 
      または
 
-     **下に移動**&#x200B;をクリックして、セクションを1つ下に移動します。
+     **下に移動**をクリックして、セクションを1つ下に移動します。
      セクション内のすべてのフィールドがセクションと共に移動します。
 
    * 「**削除**」をクリックして、セクションを削除します。 セクションは削除され、復元できません。 このタイプのレコードにアクセスするすべてのユーザーは、削除されたセクションを表示しなくなります。
@@ -247,19 +252,19 @@ Old:
 1. セクション名の左側にある下向き矢印をクリックしてセクション名を折りたたむか、右向き矢印をクリックしてセクション名を展開します。
 すべてのセクションはデフォルトで拡張されます。
 
-1. （オプション）セクション名の左側にある&#x200B;**グラブ** アイコン ![&#x200B; グラブアイコン &#x200B;](assets/grab-icon.png)をクリックし、目的の場所にドラッグ&amp;ドロップします。
+1. （オプション）セクション名の左側にある&#x200B;**グラブ** アイコン ![ グラブアイコン ](assets/grab-icon.png)をクリックし、目的の場所にドラッグ&amp;ドロップします。
 
    セクションの新しい位置は、レコードを表示しているすべてのユーザーに対して、同じタイプのすべてのレコードのプレビューとページの両方で更新されます。
 
    セクションとフィールドの順序に対するすべての変更は自動的に保存されます。
 
-1. （オプション）レコードの詳細ページ ![&#128279;](assets/export-icon-in-record-details-page.png)の&#x200B;**書き出し** メニュー書き出しアイコンをクリックして、「詳細」タブをWordまたはPDF ファイルに書き出します。 詳しくは、[&#x200B; レコードの詳細の書き出し](/help/quicksilver/planning/records/export-the-record-page.md)を参照してください。
+1. （オプション）レコードの詳細ページ ](assets/export-icon-in-record-details-page.png)の&#x200B;**書き出し** メニュー![書き出しアイコンをクリックして、「詳細」タブをWordまたはPDF ファイルに書き出します。 詳しくは、[ レコードの詳細の書き出し](/help/quicksilver/planning/records/export-the-record-page.md)を参照してください。
 
 1. （オプション）「**詳細**」タブの横にある「**接続**」タブをクリックします。 「**接続**」タブをクリックする前に、**詳細**&#x200B;をクリックする必要がある場合があります。
 
    選択したレコードに接続されているすべてのレコードまたはオブジェクトは、レコードタイプの名前または属するアプリケーションの下に表示されます。
 
-   Workfront Planning![&#128279;](assets/connections-tab-on-record-in-workfront-planning.png)のレコードの「接続」タブ
+   Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)のレコードの「![接続」タブ
 
 1. （オプション）接続タブの右上隅にある「**すべてのレコードを表示**」設定を選択します。 接続されているレコードタイプがすべて表示されます。これには、まだ接続されているレコードがないレコードタイプも含まれます。 デフォルトでは、切り替えスイッチは選択解除され、接続されたレコードがないレコードタイプは非表示になります。
 
@@ -287,11 +292,11 @@ Old:
 
    または
 
-   テーブル テーブル表示から、最初の列のテーブル名フィールド ![&#128279;](assets/open-details-icon-in-table-name-field.png)で&#x200B;**詳細を開く** アイコン 詳細を開くアイコンをクリックします。
+   テーブル テーブル表示から、最初の列のテーブル名フィールド ](assets/open-details-icon-in-table-name-field.png)で&#x200B;**詳細を開く** アイコン ![詳細を開くアイコンをクリックします。
 
    レコードのプレビューがビューで開きます。
 
-   ![詳細ボックス &#x200B;](assets/details-box.png)
+   ![詳細ボックス ](assets/details-box.png)
 
    <!--
    1. (Optional and conditional) If you are using the Production environment, depending on which fields you want to display in the Details page, do one of the following:
@@ -314,21 +319,21 @@ Old:
 1. （オプション）「**新しい詳細**」をクリックして新しいページを追加し、カスタマイズしてから、次の操作を行います。
 
    1. **ビューを作成** ボックスで、新しい詳細ページビューの名前を追加し、**作成**&#x200B;をクリックします。
-   1. ビューのフィールドにカーソルを合わせ、フィールドの左側にある&#x200B;**フィールドを非表示** アイコン ![&#x200B; フィールドを非表示アイコン &#x200B;](assets/hide-field-in-details-page-icon.png)をクリックして、フィールドを非表示にします。
+   1. ビューのフィールドにカーソルを合わせ、フィールドの左側にある&#x200B;**フィールドを非表示** アイコン ![ フィールドを非表示アイコン ](assets/hide-field-in-details-page-icon.png)をクリックして、フィールドを非表示にします。
 
       >[!TIP]
       >
       >* カスタムページは、レコードにアクセスするすべてのユーザーが表示できます。
       >* 選択した最後のページビューは、同じタイプの別のレコードを開いたときにデフォルトで開くページビューです。
 
-   1. （オプション）詳細ページの上部にある&#x200B;**フィールドアイコン** ![&#x200B; フィールドアイコン &#x200B;](assets/fields-icon.png)をクリックし、詳細ページでフィールドを非表示または表示します。
+   1. （オプション）詳細ページの上部にある&#x200B;**フィールドアイコン** ![ フィールドアイコン ](assets/fields-icon.png)をクリックし、詳細ページでフィールドを非表示または表示します。
 
       >[!TIP]
       >
       >**フィールド** アイコンは、**選択済みテーブルビュー**&#x200B;または&#x200B;**すべてのフィールド** ビューに詳細ページを表示する際には使用できません。
 
-   1. （オプション）カスタム詳細ページビューの名前を編集するには、ビューの名前にカーソルを合わせて&#x200B;**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-menu.png)をクリックし、**編集**&#x200B;をクリックします。
-   1. （オプション）カスタム詳細ページビューを削除するには、ビューの名前にカーソルを合わせて&#x200B;**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックしてから&#x200B;**削除**&#x200B;をクリックして確認します。 削除された詳細ページビューは復元できません。
+   1. （オプション）カスタム詳細ページビューの名前を編集するには、ビューの名前にカーソルを合わせて&#x200B;**詳細** アイコン ![詳細アイコン ](assets/more-menu.png)をクリックし、**編集**&#x200B;をクリックします。
+   1. （オプション）カスタム詳細ページビューを削除するには、ビューの名前にカーソルを合わせて&#x200B;**詳細** アイコン ![詳細アイコン ](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックしてから&#x200B;**削除**&#x200B;をクリックして確認します。 削除された詳細ページビューは復元できません。
 
 1. （オプション）接続されたレコードに移動する場合は、詳細ページの上部にあるパンくずリストでそのレコードの名前をクリックします。
 
@@ -342,9 +347,9 @@ Old:
 
    レコード **詳細** ページが新しいタブで開きます。
 
-   ![詳細ページ &#x200B;](assets/details-page.png)
+   ![詳細ページ ](assets/details-page.png)
 
-1. レコード **詳細** タブで、フィールド名の左側にある&#x200B;**グラブ** アイコン ![&#x200B; グラブアイコン &#x200B;](assets/grab-icon.png)をクリックし、目的の場所にドラッグ&amp;ドロップします。
+1. レコード **詳細** タブで、フィールド名の左側にある&#x200B;**グラブ** アイコン ![ グラブアイコン ](assets/grab-icon.png)をクリックし、目的の場所にドラッグ&amp;ドロップします。
 
    >[!TIP]
    >
