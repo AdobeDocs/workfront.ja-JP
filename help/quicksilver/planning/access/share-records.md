@@ -9,11 +9,17 @@ exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
 source-wordcount: 1693
@@ -38,7 +44,7 @@ Adobe Workfront Planningのレコードタイプで、個々のレコードに�
 
 * レコードへのリンクを共有します。
 
-  詳しくは、[ リンクを使用したレコードの共有](/help/quicksilver/planning/records/share-records.md)を参照してください。
+  詳しくは、[&#x200B; リンクを使用したレコードの共有](/help/quicksilver/planning/records/share-records.md)を参照してください。
 
 * ワークスペースとレコードタイプを共有することで、ワークスペース内のすべてのレコードを他のユーザーと共有できます。
 
@@ -285,7 +291,7 @@ Lilit is checking on this, it is not working correctly
    * The workspace, if they had not had permissions to the workspace before the record was shared with them.
    -->
 
-   詳しくは、[Adobe Workfront計画通知：記事インデックス ](/help/quicksilver/planning/notifications/notifications-information.md)を参照してください。
+   詳しくは、[Adobe Workfront計画通知：記事インデックス &#x200B;](/help/quicksilver/planning/notifications/notifications-information.md)を参照してください。
 
 
 1. （オプション）コピーしたリンクを他のユーザーと共有します。
@@ -294,7 +300,7 @@ Lilit is checking on this, it is not working correctly
 
    レコードタイプを表示するには、レコードタイプに対する権限が必要です。
 
-   詳細については、「[ リンクを使用してレコードを共有する](/help/quicksilver/planning/records/share-records.md)」も参照してください。
+   詳細については、「[&#x200B; リンクを使用してレコードを共有する](/help/quicksilver/planning/records/share-records.md)」も参照してください。
 
 
 ## レコードへの権限の削除
@@ -319,7 +325,7 @@ Lilit is checking on this, it is not working correctly
    **共有** ボックスが開きます。
 1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、権限ドロップダウンメニューを名前右側に展開し、**削除**&#x200B;をクリックします。
 
-   ![ レコードの権限を削除](assets/remove-option-on-record-sharing-drop-down.png)
+   ![&#x200B; レコードの権限を削除](assets/remove-option-on-record-sharing-drop-down.png)
 
 1. 「**保存**」をクリックします。
 

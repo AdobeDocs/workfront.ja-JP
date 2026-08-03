@@ -24,7 +24,7 @@ Canvas ダッシュボードを使用すると、Adobe Workfront計画に関す�
 >
 >* Amazon Web Services用に独自のキーを持ち込む
 >* Azure
->* Google Cloud Platform> 詳しくは、[ カンバスダッシュボードの管理：記事インデックス ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)を参照してください。
+>* Google Cloud Platform> 詳しくは、[&#x200B; カンバスダッシュボードの管理：記事インデックス &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)を参照してください。
 
 ## アクセス要件
 
@@ -72,7 +72,7 @@ Canvas ダッシュボードを使用すると、Adobe Workfront計画に関す�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 

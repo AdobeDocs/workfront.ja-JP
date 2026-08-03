@@ -9,11 +9,18 @@ exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Sch9ArKRfEiy9KYoo-wny1j4-WyWcpHW86CuWP-qEV0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
 source-wordcount: 1616
@@ -118,7 +125,7 @@ Adobe Workfront Planningのレコードに接続レコードページのタブ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -134,7 +141,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    「**ページを作成**」ボックスが開きます。
 
-   ![接続レコードの追加ページモーダル ](assets/add-connection-view-page-modal.png)
+   ![接続レコードの追加ページモーダル &#x200B;](assets/add-connection-view-page-modal.png)
 
 1. **ページ名**&#x200B;を追加し、**ページタイプ**&#x200B;の&#x200B;**接続レコードページ**&#x200B;をクリックしてから、**作成**&#x200B;をクリックします。
 1. （オプション）リスト内の接続されたレコードまたはオブジェクトタイプの名前をクリックするか、検索し、リストに表示されたときにクリックして、そのレコードまたはオブジェクトタイプのページを作成します。
@@ -161,12 +168,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    接続されたレコードの最初の5つのフィールドは、デフォルトで表示されます。 デフォルトではルックアップフィールドは表示されません。
 
-   ![ キャンペーンの詳細の下のオーディエンス接続テーブルビュー](assets/audience-connected-table-view-under-campaign-details-page.png)
+   ![&#x200B; キャンペーンの詳細の下のオーディエンス接続テーブルビュー](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. （条件付き）接続されたレコードページに表示するレコードのタイプに応じて、次のいずれかの操作を行います。
 
    * プランニングレコードの管理
-     詳しくは、この記事の「[ プランニングレコードの接続レコードの管理](#manage-the-connected-records-page-for-planning-records)」の節を参照してください。
+     詳しくは、この記事の「[&#x200B; プランニングレコードの接続レコードの管理](#manage-the-connected-records-page-for-planning-records)」の節を参照してください。
    * Workfront プロジェクトの管理
      詳しくは、この記事の「[Workfront プロジェクトの接続されたレコードの管理](#manage-the-connected-records-page-for-workfront-projects)」の節を参照してください。
 
@@ -259,7 +266,7 @@ When you create a connected records page for connected Planning records in the P
    * **接続されたレコードタイプに新しいレコードを追加するには、**&#x200B;の上下にレコードを挿入します。 ここに追加された新しいレコードも、現在のレコードに接続されます。 このオプションは、テーブル内のレコードを選択する際に、青いバーでは使用できません。
    * **削除**&#x200B;してレコードを削除します。 接続されたレコードを削除すると、そのレコードのタイプと、レコードが接続されているすべての場所から削除されます。 削除されたレコードは、レコードタイプの&#x200B;**最近削除された** ビンに移動します。
 
-     テーブルビューでのレコードの編集について詳しくは、[ レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+     テーブルビューでのレコードの編集について詳しくは、[&#x200B; レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
      >[!TIP]
      >
@@ -288,11 +295,11 @@ When you create a connected records page for connected Planning records in the P
    1. **表示タイプ**&#x200B;領域から、次のいずれかのタイプのビューを選択します。
 
       * テーブル
-        詳しくは、[ テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください
+        詳しくは、[&#x200B; テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください
       * タイムライン
         詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
       * カレンダー
-        詳しくは、[ カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
+        詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
         詳しくは、この記事の「[接続されたレコードの複数のビューを管理する](#manage-multiple-views-from-the-connected-records-page)」の節を参照してください。
 
@@ -308,9 +315,9 @@ When you create a connected records page for connected Planning records in the P
       * **書き出し**
 
       * **削除**
-        詳しくは、[ レコードビューの削除](/help/quicksilver/planning/views/delete-record-views.md)を参照してください。
+        詳しくは、[&#x200B; レコードビューの削除](/help/quicksilver/planning/views/delete-record-views.md)を参照してください。
 
-        ![ プロジェクト接続レコードページのその他のメニューを表示](assets/view-more-menu-projects-connected-records-page.png)
+        ![&#x200B; プロジェクト接続レコードページのその他のメニューを表示](assets/view-more-menu-projects-connected-records-page.png)
 
         >[!NOTE]
         >
@@ -323,11 +330,11 @@ When you create a connected records page for connected Planning records in the P
 1. レコードタイプページに移動し、レコードの名前をクリックします。 これにより、レコードのプレビューページが開きます。
 1. Workfront プロジェクトを表示する接続レコードページのタブをクリックします。
 
-   ![ プロジェクトがレコードを接続しました](assets/projects-connected-records-page-table.png)
+   ![&#x200B; プロジェクトがレコードを接続しました](assets/projects-connected-records-page-table.png)
 
    選択したレコードに接続されたプロジェクトがリストビューに表示されます。
 
-   リスト表示でのオブジェクトの管理または編集について詳しくは、[ リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
+   リスト表示でのオブジェクトの管理または編集について詳しくは、[&#x200B; リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)を参照してください。
 
 <!-- 
 removed this part, so we won't have to have duplicate information to keep up with for the list view in Planning: 

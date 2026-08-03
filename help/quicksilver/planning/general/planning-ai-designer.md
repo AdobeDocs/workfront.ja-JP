@@ -9,11 +9,17 @@ exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YZRzcl8ymUo85jplCgKOx-qI83Gqa4CUI6saxfijtec
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
 source-wordcount: 1528
@@ -89,7 +95,7 @@ Workfront Planningについて詳しくは、次の記事を参照してくだ�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -98,7 +104,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 システム管理者は、組織のPlanning Designer Betaを有効にできます。 この設定をオンにすると、Workfront インスタンスの全員が計画領域でDesignerの計画機能を表示できるようになります。
 
 1. Workfront管理者としてログインします。
-1. **メインメニュー** ![ メインメニューアイコン ](assets/main-menu-shell.png)をクリックし、**セットアップ**&#x200B;をクリックします。
+1. **メインメニュー** ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-shell.png)をクリックし、**セットアップ**&#x200B;をクリックします。
 1. **システム** > **環境設定** > **AI環境設定**&#x200B;に移動します。
 1. **AIを有効にする**&#x200B;をオンにします。
 
@@ -109,7 +115,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 有効になっていない場合は、**AI ベータ版**&#x200B;へのオプトイン設定を有効にします。
 1. 「**Planning Designer**」設定が有効になっていない場合は、有効にします。
 
-   ![ システム環境設定でDesigner設定を計画しています](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png)。
+   ![&#x200B; システム環境設定でDesigner設定を計画しています](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png)。
 
    >[!TIP]
    >
@@ -166,7 +172,7 @@ After we receive the email, our Engineering team will turn on the Planning Desig
    **計画Designer** ウィンドウが開きます。
 
 1. ページの下部にある&#x200B;**フィードバックを送信**&#x200B;をクリックします。
-1. 提供されたスペースにフィードバックを追加し、**送信**をクリックします。
+1. 提供されたスペースにフィードバックを追加し、**送信**&#x200B;をクリックします。
 ご意見はエンジニアリングチームと製品チームに送信されます。
 
 ## Planning Designerに関する考慮事項
@@ -258,7 +264,7 @@ Planning DesignerまたはAI アシスタントを使用して、次のいずれ
 
    **計画**&#x200B;領域が開きます。<!--update screen shot when they change the name of the button-->
 
-   ![ ワークスペースページの「AIを使用して作成」ボタン ](assets/design-with-ai-button-on-workspaces-page.png)
+   ![&#x200B; ワークスペースページの「AIを使用して作成」ボタン &#x200B;](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. 「**AIを使用して作成**」または「**ワークスペースを作成**」をクリックし、上部のプロンプトウィンドウを使用して、作成するワークスペースの種類を指定します。<!--update this when they change it to Generate with AI-->
 
@@ -303,8 +309,8 @@ Planning DesignerまたはAI アシスタントを使用して、次のいずれ
    >確認を必要とせずに、すぐに作成されるオブジェクトもあります。
 
 1. （オプション）追加のプロンプトを入力して、オブジェクトをさらに編集します。
-1. （オプション）「**プレビュー画面を表示または非表示にする**」アイコン「![ プレビュー画面を表示または非表示にする](assets/hide-show-preview-screen-in-planning-designer.png)」をクリックして、右側のプレビュー画面を開いたり閉じたりします。
-1. **新しいタブでワークスペースを開くアイコン** ![新しいタブでワークスペースを開くアイコン ](assets/open-workspace-on-new-tab-icon.png)をクリックして、新しいタブで更新しているワークスペースを開きます。
+1. （オプション）「**プレビュー画面を表示または非表示にする**」アイコン「![&#x200B; プレビュー画面を表示または非表示にする](assets/hide-show-preview-screen-in-planning-designer.png)」をクリックして、右側のプレビュー画面を開いたり閉じたりします。
+1. **新しいタブでワークスペースを開くアイコン** ![新しいタブでワークスペースを開くアイコン &#x200B;](assets/open-workspace-on-new-tab-icon.png)をクリックして、新しいタブで更新しているワークスペースを開きます。
 1. **閉じる** アイコン **X**&#x200B;をクリックして、プランニング Designerを閉じ、ワークスペース エリアを開きます。
 1. （オプション）ワークスペースを編集するには、次のいずれかの操作を行います。
 

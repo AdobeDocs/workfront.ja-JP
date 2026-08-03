@@ -36,7 +36,7 @@ Adobe Workfront Planningでレコードを操作する際に、レコードタ�
 > ビューを共有すると、レコードタイプに対するユーザー権限が付与されません。レコードタイプに対するユーザー権限を付与できるのは、共有ワークスペースのみです。
 >
 >* Workfront Planningでのオブジェクトの共有に関する一般的な情報については、[Adobe Workfront Planningでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)も参照してください。
->* 詳しくは、この記事の「[ レコードタイプを共有する際の考慮事項](#considerations-when-sharing-record-types)」の節を参照してください。
+>* 詳しくは、この記事の「[&#x200B; レコードタイプを共有する際の考慮事項](#considerations-when-sharing-record-types)」の節を参照してください。
 
 ## アクセス要件
 
@@ -85,7 +85,7 @@ Adobe Workfront Planningでレコードを操作する際に、レコードタ�
 </table>
 
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -185,7 +185,7 @@ Old:
 
 * グローバルなレコードタイプは、元のワークスペースと追加された他のセカンダリワークスペースの両方から共有できます。
 
-  詳しくは、[ クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
+  詳しくは、[&#x200B; クロスワークスペースレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 
 ## レコードタイプへの権限の共有
@@ -224,7 +224,7 @@ Old:
    1. **このレコードタイプ**&#x200B;へのアクセス権を付与フィールドで、ワークスペースに対して付与する権限レベルとは異なる権限レベルを付与するユーザー、チーム、グループ、会社、または担当業務を追加します。
    1. （オプション）グループ、チーム、役割、または会社と共有する場合は、エンティティの名前にカーソルを合わせ、右向きの矢印をクリックして、権限を受け取っているユーザーのリストを展開します。
 
-      ![ レコードタイプをグループ ](assets/share-record-type-with-group-expanding-arrow-highlighted.png)と共有
+      ![&#x200B; レコードタイプをグループ &#x200B;](assets/share-record-type-with-group-expanding-arrow-highlighted.png)と共有
 
    1. 権限レベルの選択：
 
@@ -268,7 +268,7 @@ Old:
    **共有** ボックスが開きます。
 1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、権限ドロップダウンメニューを名前右側に展開し、**削除**&#x200B;をクリックします。<!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![ レコードタイプ共有ドロップダウンのオプションを削除](assets/remove-option-on-record-type-sharing-drop-down.png)
+   ![&#x200B; レコードタイプ共有ドロップダウンのオプションを削除](assets/remove-option-on-record-type-sharing-drop-down.png)
 
 1. 「**保存**」をクリックします。
 

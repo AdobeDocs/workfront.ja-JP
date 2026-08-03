@@ -9,9 +9,13 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/bXHqOBB2iT-YWoWM7CSnOTl8EzFfJJH9PLrRIzwaKNw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
 source-wordcount: 784
@@ -33,7 +37,7 @@ Adobe Workfront Planningでは、既存のフィールドを参照し、数式�
 
 数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
-詳しくは、[ フィールドを作成](/help/quicksilver/planning/fields/create-fields.md)の記事の「数式」の節を参照してください。
+詳しくは、[&#x200B; フィールドを作成](/help/quicksilver/planning/fields/create-fields.md)の記事の「数式」の節を参照してください。
 
 <!--
 do we need these for an overview article?
@@ -156,7 +160,7 @@ Old:
   * タグ
   * 日付
 
-  詳しくは、[ フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)の記事の「数式」の節を参照してください。
+  詳しくは、[&#x200B; フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)の記事の「数式」の節を参照してください。
 * 新しい数式内の数式フィールドを参照できます。 数式フィールドで参照されているフィールドで値が更新されると、そのフィールドを含むフィールドまたは数式フィールドを参照しているすべての後続フィールドが自動的に更新されます。
 
 * 数式フィールドまたはその影響を与える可能性のあるフィールドを更新すると、変更の影響がアラートで通知されます。 アラートは次の場合に表示されます。

@@ -9,11 +9,18 @@ exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
 source-wordcount: 1279
@@ -35,7 +42,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
 
-ワークスペースの一般的な情報については、[ ワークスペースの概要](/help/quicksilver/planning/architecture/workspaces-overview.md)を参照してください。
+ワークスペースの一般的な情報については、[&#x200B; ワークスペースの概要](/help/quicksilver/planning/architecture/workspaces-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -84,7 +91,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++   
 
@@ -151,20 +158,20 @@ Old:
 
 ワークスペースを作成し、それにレコードタイプを追加して、Workfront Planningでオブジェクトを整理できます。
 
-ワークスペースの編集について詳しくは、[ ワークスペースの編集](/help/quicksilver/planning/architecture/edit-workspaces.md)を参照してください。
+ワークスペースの編集について詳しくは、[&#x200B; ワークスペースの編集](/help/quicksilver/planning/architecture/edit-workspaces.md)を参照してください。
 
 ワークスペースは、次の方法で作成できます。
 
 * ゼロから、またはテンプレートから1つのワークスペースを作成する
 
-  詳しくは、この記事の「[ ゼロから、またはテンプレートからワークスペースを作成する](#create-a-workspace-from-scratch-or-from-a-template)」の節を参照してください。
+  詳しくは、この記事の「[&#x200B; ゼロから、またはテンプレートからワークスペースを作成する](#create-a-workspace-from-scratch-or-from-a-template)」の節を参照してください。
 * AIを活用したPlanning Designerを使用して、ひとつのワークスペースを作成できます。 この機能は現在、Beta プログラムの一部のお客様のみが利用できます。
 
   詳しくは、「[Adobe Workfront計画Designerの基本を学ぶ](/help/quicksilver/planning/general/planning-ai-designer.md)」を参照してください。
 
 * ベストプラクティスのマルチワークスペーステンプレートバンドルを使用して複数のワークスペースを作成する
 
-  詳しくは、この記事の「[ ベストプラクティスのマルチワークスペーステンプレートバンドルを使用した複数のワークスペースの作成](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle)」の節を参照してください
+  詳しくは、この記事の「[&#x200B; ベストプラクティスのマルチワークスペーステンプレートバンドルを使用した複数のワークスペースの作成](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle)」の節を参照してください
 
   >[!TIP]
   >
@@ -192,7 +199,7 @@ Old:
 
    各テンプレートに関連付けられているレコードタイプ、セクション、およびフィールド数を示します。
 
-   ![ ワークスペース テンプレートのプレビュー](assets/previewing-a-workspace-template.png)
+   ![&#x200B; ワークスペース テンプレートのプレビュー](assets/previewing-a-workspace-template.png)
 
    Workfront Planning ワークスペーステンプレートについて詳しくは、[ワークスペーステンプレートのリスト](/help/quicksilver/planning/architecture/workspace-templates.md)を参照してください。
 
@@ -223,13 +230,13 @@ Old:
    >
    >セクションを作成しなかった場合でも、任意のワークスペースから任意のセクションの名前を変更できます。
 
-   ワークスペースのセクションの編集など、ワークスペースの編集について詳しくは、[ ワークスペースの編集](/help/quicksilver/planning/architecture/edit-workspaces.md)を参照してください。
+   ワークスペースのセクションの編集など、ワークスペースの編集について詳しくは、[&#x200B; ワークスペースの編集](/help/quicksilver/planning/architecture/edit-workspaces.md)を参照してください。
 
 1. （オプション）「**レコードタイプを追加**」をクリックして、任意のセクションのワークスペースにレコードタイプを追加します。
 
    詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-   ワークスペースでのレコードタイプの編集と削除について詳しくは、[ ワークスペースの編集](/help/quicksilver/planning/architecture/edit-workspaces.md)を参照してください。
+   ワークスペースでのレコードタイプの編集と削除について詳しくは、[&#x200B; ワークスペースの編集](/help/quicksilver/planning/architecture/edit-workspaces.md)を参照してください。
 
 1. （オプション）新しいワークスペースの左側にある戻る矢印をクリックして、プランニングのメインページを開きます。 新しいワークスペース用に新しいワークスペースカードが&#x200B;**自分が所属するワークスペース** タブに作成されます。
 
@@ -251,7 +258,7 @@ Old:
 
 マルチワークスペーステンプレートバンドルを使用して、ワンクリックで6つのワークスペースを作成できます。
 
-バンドルに含まれるテンプレートには、プランニングの実装を開始するのに役立つワークスペース、レコードタイプ、レコード、ビュー、フィールドが含まれています。 詳しくは、[ ワークスペーステンプレートのリスト ](/help/quicksilver/planning/architecture/workspace-templates.md)を参照してください。
+バンドルに含まれるテンプレートには、プランニングの実装を開始するのに役立つワークスペース、レコードタイプ、レコード、ビュー、フィールドが含まれています。 詳しくは、[&#x200B; ワークスペーステンプレートのリスト &#x200B;](/help/quicksilver/planning/architecture/workspace-templates.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -300,9 +307,9 @@ Old:
 
 1. 作成したワークスペースの編集を開始し、組織に関連するレコードタイプ、レコード、ビュー、フィールドを追加します。
 
-   Workfrontを実装するためのベストプラクティスについて詳しくは、[Adobe Workfront計画のベストプラクティス：記事インデックス ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)の節の記事を参照してください。
+   Workfrontを実装するためのベストプラクティスについて詳しくは、[Adobe Workfront計画のベストプラクティス：記事インデックス &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)の節の記事を参照してください。
 
-   ワークスペースの編集について詳しくは、[ ワークスペースの編集](/help/quicksilver/planning/architecture/edit-workspaces.md)を参照してください。
+   ワークスペースの編集について詳しくは、[&#x200B; ワークスペースの編集](/help/quicksilver/planning/architecture/edit-workspaces.md)を参照してください。
 
 
 
