@@ -111,7 +111,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    <ul><li><p>Adobe Experience Managerライセンスと、Adobe Experience ManagerとWorkfrontの統合により、AEMのアセットまたはコンテンツフラグメントをプランニングレコードタイプに接続。</p>
    <p>詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets Essentials向けAdobe Workfront：記事インデックス </a>を参照してください。 </p></li>
    <li><p> レコードタイプをGenStudio Brandsに接続したり、GenStudio WorkspaceにアクセスしたりするためのAdobe GenStudio for Performance Marketing ライセンス</p>
-   <p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
+   <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
 <p><b>メモ</b></p>
 <p>プランニングレコードをWorkfront オブジェクトに接続するには、Workfront Workflow パッケージを購入する必要があります。 </p>
 
@@ -432,7 +432,7 @@ No longer needed to specify:
 
 >[!NOTE]
 >
->プランニングレコードとそのフィールドには、Workfront管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Experience Manager Assetsからアクセスできます。詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。
+>プランニングレコードとそのフィールドには、Workfront管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Experience Manager Assetsからアクセスできます。詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。
 >PlanningのGenStudio ワークスペースのレコードをAEM オブジェクト（アセットとコンテンツフラグメント）に接続すると、AEMのAEM オブジェクトにGenStudio情報が自動的に表示されます。AEM情報は、Workfront Planningで接続が行われたときに追加されたルックアップフィールドにGenStudio レコードに表示されます。詳しくは、[Adobe Workfront PlanningでのGenStudio Workspaceの管理](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)を参照してください。
 
 <!--
@@ -478,11 +478,11 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
    >[!IMPORTANT]
    >
    > Experience Managerで表示するアクセス権のあるアセットのみを接続できます。接続すると、すべてのWorkfront Planning ユーザーは、Experience Manager Assetsでのアクセスに関係なく、Workfront Planningでアセットを表示できます。
-   > Content Advisorについて詳しくは、[Content Advisorを使用してAdobe アプリケーションのAEM コンテンツにアクセスする](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}を参照してください。
+   > Content Advisorについて詳しくは、[Content Advisorを使用してAdobe アプリケーションのAEM コンテンツにアクセスする](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}を参照してください。
 
 1. 「**コンテンツフラグメント**」タブから、「コンテンツフラグメント」を選択して、リンクされたレコードフィールドに追加します。
 
-   コンテンツフラグメントについて詳しくは、[&#x200B; コンテンツアドバイザーを使用してAdobe アプリケーションのAEM コンテンツにアクセス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}を参照してください。
+   コンテンツフラグメントについて詳しくは、[&#x200B; コンテンツアドバイザーを使用してAdobe アプリケーションのAEM コンテンツにアクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}を参照してください。
 
 1. アセットまたはコンテンツフラグメントの選択が完了したら、**選択**&#x200B;をクリックします。<!-- we might change this to Connect-->
 

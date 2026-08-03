@@ -94,7 +94,7 @@ Adobe Workfront Planningのレコードに接続レコードページのタブ�
    <ul><li><p>Adobe Experience Manager ライセンスと、Adobe Experience ManagerとWorkfront間の統合により、AEM オブジェクトをプランニングレコードタイプに接続できます。</p>
    <p>詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets Essentials向けAdobe Workfront：記事インデックス </a>を参照してください。 </p></li>
    <li><p> レコードタイプとGenStudio Brandsを連携させるAdobe GenStudio for Performance Marketingライセンス</p>
-   <p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
+   <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
 
 <p><b>メモ</b></p>
    スタンドアロン製品としてPlanning パッケージを購入した場合は、Planning レコードタイプをWorkfront オブジェクトタイプに接続するためにWorkflow パッケージも購入する必要があります</p>
