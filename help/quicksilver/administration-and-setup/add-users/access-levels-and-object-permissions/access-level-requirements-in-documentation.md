@@ -58,7 +58,7 @@ Workfront ドキュメントの操作手順記事には、その手順に必要�
   <p>お客様は、これらの領域の1つ以上でWorkfront パッケージを購入した可能性があります。</p>
   <p>以前、Workfrontでは、Workfront Select、Workfront Prime、Workfront Ultimateの各パッケージが提供されていましたが、ワークフロー、プランニング、自動処理および統合は区別されていませんでした。 組織は、これらのレガシーパッケージの1つに属している可能性があります。 
    <ul><li>現在のパッケージモデルと従来のパッケージモデルのどちらを使用しているかなど、組織で使用されているAdobe Workfront パッケージを確認するには、Workfront管理者にお問い合わせください。</li>
-   <li>Workfront管理者が組織のWorkfront パッケージを見つける方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">組織のクラスターとWorkfront パッケージの表示</a>を参照してください。</li><li>Workfront パッケージについて詳しくは、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a>を参照してください。</li></ul>
+   <li>Workfront管理者が組織のWorkfront パッケージを見つける方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">組織のクラスターとWorkfront パッケージの表示</a>を参照してください。</li><li>Workfront パッケージについて詳しくは、<a href="https://business.adobe.com/jp/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a>を参照してください。</li></ul>
 
 Workfront計画パッケージは、次のいずれかの製品で購入できます。
 
@@ -122,7 +122,7 @@ Workfront計画パッケージは、次のいずれかの製品で購入でき�
    <ul><li>現在のライセンスモデルは、実行された操作数に基づいており、組織が実行できるアクションに制限はありません。 </li>
    <li>従来のライセンスは、シナリオがサードパーティ製アプリケーションに接続できるかどうか、またはシナリオがWorkfront自動処理にのみ使用されるかどうかに基づいています。 </li>
    </ul>
-   Fusion ライセンスについて詳しくは、<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion ライセンス</a>を参照してください。
+   Fusion ライセンスについて詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion ライセンス</a>を参照してください。
    </td> 
   </tr> 
  </tbody> 
