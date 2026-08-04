@@ -6,9 +6,9 @@ description: Adobe クラウドストレージでのWorkfrontのロールアウ�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 6bfa9fd95de0301fea5f15885cc1aafbb2d14dbb
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2967'
+source-wordcount: '2936'
 ht-degree: 1%
 
 ---
@@ -21,14 +21,20 @@ Adobe上のWorkfrontクラウドストレージにより、Frame.ioのビュー�
 
 この記事は、Adobe上でWorkfrontをロールアウトする準備をしているWorkfront管理者を対象としています。 Adobe クラウドストレージオブジェクトの大きな違い、ロールアウトタイプの選択方法、Adobe クラウドストレージを有効にする前に考えるべきことについて説明します。
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >* Adobe クラウドストレージをサポートするWorkfrontのバージョンを使用している必要があります。 お客様の組織がまだサポートされているバージョンを使用していない場合は、Adobe アカウント担当者にお問い合わせください。
->* Adobe クラウドストレージをサポートするバージョンのWorkfrontに移行すると、既存の承認ワークフローが従来のドキュメント承認から統合承認に&#x200B;*すべて*&#x200B;移行されます。 詳しくは、[&#x200B; ストレージモデルに関係なく統合承認が適用されます](#unified-approvals-applies-regardless-of-storage-model)を参照してください。
 
 ## 統合承認は、ストレージモデルに関係なく適用されます
 
-Adobe クラウドストレージをサポートするバージョンのWorkfrontに移行すると、既存の承認ワークフローが、従来のWorkfront ストレージに残るか、Adobe クラウドストレージに移行するかにかかわらず、すべてのオブジェクトについて、従来のドキュメント承認から統合承認に&#x200B;*all*&#x200B;移行されます。 これは、[Adobe クラウドストレージのロールアウト方法を選択](#choose-how-adobe-cloud-storage-rolls-out)で説明しているストレージロールアウトの選択肢とは異なります。これらの選択肢は、承認ワークフローが統合承認に移行するかどうかではなく、新しいオブジェクトを使用するストレージモデルを制御します。 この変更にはパイロットグループや段階的なオプションはなく、サポート対象バージョンに移行するとすぐに組織全体に適用されます。
+Adobe クラウドストレージをサポートするバージョンのWorkfrontに移行すると、既存の承認ワークフローが、従来のWorkfront ストレージに残るか、Adobe クラウドストレージに移行するかにかかわらず、すべてのオブジェクトについて、従来のドキュメント承認から統合承認に&#x200B;*all*&#x200B;移行されます。
+
+
+>[!IMPORTANT]
+>
+>これは、[Adobe クラウドストレージのロールアウト方法を選択](#choose-how-adobe-cloud-storage-rolls-out)で説明しているストレージロールアウトの選択肢とは異なります。これらの選択肢は、承認ワークフローが統合承認に移行するかどうかではなく、新しいオブジェクトを使用するストレージモデルを制御します。<br>
+>この変更にはパイロットグループや段階的なオプションはなく、サポート対象バージョンに移行するとすぐに組織全体に適用されます。
+
 
 Adobe クラウドストレージをロールアウトする前に、承認を管理する担当者が何を期待できるかを確認します。
 
@@ -36,7 +42,7 @@ Adobe クラウドストレージをロールアウトする前に、承認を�
 
   * [レビューと承認の統合を始める](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
   * [ドキュメント承認で利用可能な機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-* **新しいレポートの場所**&#x200B;統合された承認ワークフローのデータとレポートがCanvas ダッシュボードに移動します。 既存の従来の承認レポートは、自動的には引き継がれません。 詳しくは、[&#x200B; レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
+* **新しいレポートの場所**&#x200B;統合された承認ワークフローのデータとレポートがCanvas ダッシュボードに移動します。 既存の従来の承認レポートは、自動的には引き継がれません。 詳しくは、[ レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
 * **Fusion シナリオの更新が可能**&#x200B;従来のドキュメント承認で構築された既存のFusion シナリオは、統合承認で作業するために編集、再構築、または廃止する必要がある場合があります。 詳しくは、[統一されたレビューと承認のためのWorkfront Fusion シナリオの更新](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)を参照してください。
 
 ## 従来のWorkfront ストレージとAdobe クラウドストレージについて
@@ -59,14 +65,14 @@ Adobeのクラウドストレージがもたらした最大の変化は、新し
 
 | 領域 | 違い | 知るべきこと |
 |---|---|---|
-| [新しいドキュメント エリア &#x200B;](#the-new-documents-area) | 再設計された統一されたドキュメント領域は、従来のドキュメント領域に置き換わります。 | グローバル文書領域がありません。 プログラム、ポートフォリオ、プロジェクト、タスク、イシューからドキュメントにアクセスします。 |
-| [&#x200B; ドキュメント権限](#document-permissions) | ドキュメントは、リンクされているプロジェクト、タスク、イシューから権限を継承します。 | 個々のドキュメントに対して共有したり権限を設定したりすることはできません。 Workfrontのオブジェクト共有モーダルを使用して、すべてのアクセスを管理します。このモーダルは、システム生成のドキュメントフォルダーにカスケードされます。 |
-| [&#x200B; オブジェクト権限のマッピング &#x200B;](#object-permissions-mapping) | Workfrontの管理と投稿の権限は、両方ともFrame.ioのEdit &amp; Shareにマッピングされます。 マップをコメントのみとして表示します。 | 権限はWorkfrontで管理されます。 ManageとContributeの両方のユーザーが、Frame.ioで外部共有機能を利用できます。 |
-| [&#x200B; レビューと承認ビューアー](#review-and-approval-viewer) | Frame.io ビューアは、Workfront プルーフビューアに代わるものです。 | レビューまたは承認に割り当てられた外部ユーザーを含む、すべてのWorkfront ユーザーに含まれます。 マークアップ、タイムスタンプ付きコメント、バージョン履歴、モバイル、40以上の形式、最大500 GBのファイルをサポートしています。 |
-| [&#x200B; オブジェクトの命名ルール &#x200B;](#object-naming-rules) | 厳格な命名ルールが適用されます：ポートフォリオまたはプロジェクト内の一意の名前、特殊文字なし、末尾のピリオドまたはスペースなし、255文字の制限。 | Workfrontでは、競合が発生したときにオブジェクトの名前が自動的に変更されます。 新しいプロジェクト名と構造を生成する監査テンプレート。 |
-| [&#x200B; オブジェクトポータビリティ &#x200B;](#object-portability) | ほとんどのシナリオでは、ストレージモデルなどの間でのみオブジェクトを移動、コピー、変換できます。 | レガシーオブジェクトをAdobe クラウドストレージに変換するには、3つの具体的なケースがあります。 変換中にドキュメントとドキュメントフォルダーが従来のストレージから移動しない。 |
+| [新しいドキュメント エリア ](#the-new-documents-area) | 再設計された統一されたドキュメント領域は、従来のドキュメント領域に置き換わります。 | グローバル文書領域がありません。 プログラム、ポートフォリオ、プロジェクト、タスク、イシューからドキュメントにアクセスします。 |
+| [ ドキュメント権限](#document-permissions) | ドキュメントは、リンクされているプロジェクト、タスク、イシューから権限を継承します。 | 個々のドキュメントに対して共有したり権限を設定したりすることはできません。 Workfrontのオブジェクト共有モーダルを使用して、すべてのアクセスを管理します。このモーダルは、システム生成のドキュメントフォルダーにカスケードされます。 |
+| [ オブジェクト権限のマッピング ](#object-permissions-mapping) | Workfrontの管理と投稿の権限は、両方ともFrame.ioのEdit &amp; Shareにマッピングされます。 マップをコメントのみとして表示します。 | 権限はWorkfrontで管理されます。 ManageとContributeの両方のユーザーが、Frame.ioで外部共有機能を利用できます。 |
+| [ レビューと承認ビューアー](#review-and-approval-viewer) | Frame.io ビューアは、Workfront プルーフビューアに代わるものです。 | レビューまたは承認に割り当てられた外部ユーザーを含む、すべてのWorkfront ユーザーに含まれます。 マークアップ、タイムスタンプ付きコメント、バージョン履歴、モバイル、40以上の形式、最大500 GBのファイルをサポートしています。 |
+| [ オブジェクトの命名ルール ](#object-naming-rules) | 厳格な命名ルールが適用されます：ポートフォリオまたはプロジェクト内の一意の名前、特殊文字なし、末尾のピリオドまたはスペースなし、255文字の制限。 | Workfrontでは、競合が発生したときにオブジェクトの名前が自動的に変更されます。 新しいプロジェクト名と構造を生成する監査テンプレート。 |
+| [ オブジェクトポータビリティ ](#object-portability) | ほとんどのシナリオでは、ストレージモデルなどの間でのみオブジェクトを移動、コピー、変換できます。 | レガシーオブジェクトをAdobe クラウドストレージに変換するには、3つの具体的なケースがあります。 変換中にドキュメントとドキュメントフォルダーが従来のストレージから移動しない。 |
 | [機能は利用できません](#capabilities-not-available-on-adobe-cloud-storage-objects) | WorkfrontのドキュメントビューアであるWorkfront Proofでは、お気に入りのドキュメントやリクエストドキュメントはエクスペリエンスに含まれません。 | レガシーオブジェクトでは、これらの機能が保持されます。 Workfront Proofは新しい投資を受けることはなく、将来のリリースで廃止されます。 |
-| [&#x200B; ストレージ クォータ &#x200B;](#storage-quota) | ストレージは、従来のWorkfront プロジェクトとAdobe クラウドストレージプロジェクト用にプールされます。 60 GB/ライセンスユーザー。 ハードキャップなし。 | システム管理者は、セットアップの顧客情報ページでストレージの使用状況を確認できます。 |
+| [ ストレージ クォータ ](#storage-quota) | ストレージは、従来のWorkfront プロジェクトとAdobe クラウドストレージプロジェクト用にプールされます。 60 GB/ライセンスユーザー。 ハードキャップなし。 | システム管理者は、セットアップの顧客情報ページでストレージの使用状況を確認できます。 |
 | [年間動画レビューの上限](#annual-video-review-cap) | ビデオプルーフのリクエストに対する組織レベルの上限を、有料のWorkfront ユーザーライセンス（StandardおよびLight）の10%に設定します。 | 到達後、次の年間期間まで新しいビデオのレビューは行われません。 アプリ内通知が80%と100%。 Frame.io Enterpriseのお客様には適用されません。 |
 | [Workfront Fusion](#workfront-fusion-on-adobe-cloud-storage-projects) | 既存のプルーフベースのFusion シナリオは、Adobe クラウドストレージプロジェクトに対して自動的に機能しません。 | 従来のプロジェクトにスコープを設定したシナリオは、引き続き機能します。 影響を受ける各シナリオは、編集、再構築、または廃止の3つのパスのいずれかを取得します。 新しいコネクタは2026年第3四半期に予定されています。 |
 
@@ -76,7 +82,7 @@ Adobeのクラウドストレージがもたらした最大の変化は、新し
 
 グローバルなドキュメント領域は、新しいエクスペリエンスの一部ではありません。 Adobe クラウドストレージプロジェクトでは、プログラム、ポートフォリオ、プロジェクト、タスク、イシューからドキュメントにアクセスできます。
 
-詳しくは、[&#x200B; ドキュメント エリア &#x200B;](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
+詳しくは、[ ドキュメント エリア ](/help/quicksilver/documents/managing-documents/documents-area.md)を参照してください。
 
 ### ドキュメント権限
 
@@ -195,7 +201,7 @@ Workfront管理者は、従来のWorkfront ストレージポートフォリオ�
 * **Adobe クラウドストレージポートフォリオ内**: チェックボックスが選択され、ロックされています。 新しいプロジェクトは、ポートフォリオのストレージタイプと一致する必要があります。
 * **従来のWorkfront ストレージポートフォリオ内**: チェックボックスは使用できません。 新しいプロジェクトでは、従来のWorkfront ストレージが使用されます。
 
-詳しくは、[&#x200B; プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。
+詳しくは、[ プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)を参照してください。
 
 ### Adobe クラウドストレージオブジェクトでは使用できない機能
 
@@ -214,7 +220,7 @@ Workfront管理者は、従来のWorkfront ストレージポートフォリオ�
 
 システム管理者は、**Setup** > **System** > **Customer Info**&#x200B;に移動して、現在のストレージ使用状況と割り当てを表示できます。
 
-詳しくは、[&#x200B; ドキュメントのストレージ制限の確認](/help/quicksilver/documents/managing-documents/check-document-storage.md)を参照してください。
+詳しくは、[ ドキュメントのストレージ制限の確認](/help/quicksilver/documents/managing-documents/check-document-storage.md)を参照してください。
 
 
 ### 年間ビデオレビューの上限
@@ -242,11 +248,13 @@ Adobe クラウドストレージの表示方法は、ユーザーによって�
 
 詳細な手順については、[組織のAdobe クラウドストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)を参照してください。
 
+
+### 設定オプション
+
 * **Adobe クラウドストレージのみ**：新しいプロジェクトでは、デフォルトでAdobe クラウドストレージが使用されます。 ユーザーはレガシープロジェクトを作成できません。
 * **Adobe クラウドストレージと従来のWorkfront ストレージ**：ユーザーがプロジェクトを作成する際に、Adobe クラウドストレージ（「新しいプロジェクト」）と従来のWorkfront ストレージ（「従来のストレージ」）のどちらかを選択します。
 
-  ![&#x200B; プロジェクトの種類を選択](assets/choose-project-type.png)
-
+  ![ プロジェクトの種類を選択](assets/choose-project-type.png)
 
 
 >[!TIP]

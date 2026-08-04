@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '462'
 ht-degree: 8%
 
 ---
@@ -67,12 +67,14 @@ Adobe クラウドストレージを有効にするには：
    >
    >このオプションを有効にすると、ユーザーは新しいプロジェクトの作成時にストレージプロバイダーを選択できます。 Adobe クラウドストレージは、デフォルトのストレージプロバイダーであるため、「新しいプロジェクト」というラベルが付けられます。 従来のWorkfront ストレージは、「従来のプロジェクト」とラベル付けされます。
    >
-   >![新しいプロジェクトと従来のプロジェクトのオプション &#x200B;](assets/new-esm-project.png)
+   >![新しいプロジェクトと従来のプロジェクトのオプション ](assets/new-esm-project.png)
 
 1. 「適用先」ドロップダウンメニューで、次のいずれかのオプションを選択します。
 
    - **組織全体**：このオプションは、デフォルトのストレージプロバイダーをWorkfront環境全体に適用します。 ユーザーが新しいプロジェクトを作成するたびに、デフォルトのストレージプロバイダーが使用されます。
    - **特定のグループ**：このオプションは、組織内の特定のグループにのみデフォルトのストレージプロバイダーを適用します。 指定したグループのユーザーが新しいプロジェクトを作成するたびに、デフォルトのストレージプロバイダーが使用されます
+
+   ![ ストレージ環境設定グループ ](assets/configure-storage-preference.png)
 
 1. 「**保存**」をクリックします。
 
@@ -80,8 +82,10 @@ Adobe クラウドストレージを有効にするには：
    >
    >既存のプロジェクトは、作成されたストレージモデルを保持します。 例えば、Adobe クラウドストレージを使用するプロジェクトでは、デフォルトのストレージ環境設定を変更した後も、引き続きAdobe クラウドストレージを使用します。
 
+
+
 ## サンドボックス環境でのAdobe クラウドストレージ
 
 Adobe クラウドストレージは、[!DNL Workfront] サンドボックス環境で利用できます。本番環境でロールアウトする前に、この記事で説明した機能をテストできます。 ただし、Frame.io ビューアはサンドボックスでは利用できないため、統一されたレビューと承認のエクスペリエンスを本番環境で検証する必要があります。
 
-カスタムリフレッシュサンドボックスがある場合は、Adobe クラウドストレージをサポートするWorkfrontのバージョンにアップグレードした後でリフレッシュする必要があります。 更新により、サンドボックスからAdobe クラウドストレージ機能にアクセスできるようになり、テストを開始できます。 詳しくは、[&#x200B; カスタムリフレッシュサンドボックス環境 [!DNL Adobe Workfront] を参照してください。](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+カスタムリフレッシュサンドボックスがある場合は、Adobe クラウドストレージをサポートするWorkfrontのバージョンにアップグレードした後でリフレッシュする必要があります。 更新により、サンドボックスからAdobe クラウドストレージ機能にアクセスできるようになり、テストを開始できます。 詳しくは、[ カスタムリフレッシュサンドボックス環境 [!DNL Adobe Workfront] を参照してください。](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
