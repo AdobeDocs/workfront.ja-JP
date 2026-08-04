@@ -10,20 +10,14 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5nwapHAbb8wRWqen7a49QfpsAMLPZNEfJUJ2vm4R7SA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 4%
+source-wordcount: 960
+ht-degree: 3%
 
 ---
 
@@ -43,7 +37,7 @@ Workfrontでコンテンツレビューアーを設定するには、システ�
 
 * Workfront インスタンスでは、統合承認が有効になっている必要があります。
 * 組織にはGenStudio Foundationが必要です。
-   * WorkfrontのContent Reviewerには、GenStudio Foundationでアセットのレビューおよび承認ワークフローに使用できる機能が用意されています。 作業を完了するためにGenStudio Foundationに直接アクセスする必要はありません。 Content Reviewerを介したGenStudio Foundation機能へのアクセスは、Workfront契約の条件に該当します。
+  * WorkfrontのContent Reviewerには、GenStudio Foundationでアセットのレビューおよび承認ワークフローに使用できる機能が用意されています。 作業を完了するためにGenStudio Foundationに直接アクセスする必要はありません。 Content Reviewerを介したGenStudio Foundation機能へのアクセスは、Workfront契約の条件に該当します。
 * Adobeには、署名済みのAdobe Gen AI契約書がファイルに登録されている必要があります。
 契約書への署名について詳しくは、[Adobe Gen AI契約書への署名](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)を参照してください。
 * サンドボックス環境では、コンテンツレビュアーは使用できません。
@@ -75,7 +69,7 @@ Workfront Content Reviewerは、コンテンツをレビューする際にブラ
 ブランドガイドラインを設定するには、システム管理者は次の手順に従う必要があります。
 
 1. [ブランド権限へのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
-1. [&#x200B; コンテンツレビュアー](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)のブランドを作成および管理します。
+1. [ コンテンツレビュアー](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)のブランドを作成および管理します。
 
 
 ## コンテンツレビュアーの作成
@@ -83,12 +77,46 @@ Workfront Content Reviewerは、コンテンツをレビューする際にブラ
 1つ以上のブランドを設定すると、Workfront管理者は設定領域でコンテンツレビューアーの作成を開始できます。 異なるガイドラインに焦点を当てた複数のコンテンツレビューアーを作成できます。
 
 * **画像**：このコンテンツレビュアーは、Workfrontで設定した画像ブランドガイドラインに照らし合わせてアセットをレビューします。 [!BADGE Beta]{type=Positive tooltip="この機能は現在ベータ版です。"}
-   * この機能を有効にするには、システム管理者がベータ版の契約書に署名する必要があります。
+  * この機能を有効にするには、システム管理者がベータ版の契約書に署名する必要があります。
 * **ブランドボイス**: コンテンツレビュー担当者は、Workfrontで設定したブランドボイスのガイドラインに照らし合わせてアセットを確認します。
 
 その後、コンテンツレビュー担当者を承認テンプレートや個別のレビューおよび承認リクエストに割り当てることができます。
 
 詳しくは、[AI コラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)を参照してください。
+
+## コンテンツレビュアーの評価 {#what-content-reviewer-evaluates}
+
+コンテンツレビュー担当者は、ガイドラインの種類（画像またはブランドボイス）に応じてコンテンツを異なる方法で評価します。
+
+### 画像
+
+コンテンツレビュアーは次の項目を評価します。
+
+* **構図**：焦点、背景、切り抜き、クリエイティブな構図
+* **照明とムード**：光、鮮やかさ、楽観主義の使用
+* **多様性とインクルージョン**：人物像（人種、性別、年齢、能力）
+
+Content Reviewerは次の項目を評価しません。
+
+* **ロゴの使用状況**：配置、空き領域、サイズ、正しいロゴバージョン
+* **カラーパレット**：ブランドの色のコンプライアンス、未承認の色の回避
+* **タイポグラフィ**: フォントファミリー、重み、間隔、整列
+* **イラストスタイル**：ブランドのイラストアプローチとの一貫性
+* **アクセシビリティ**: コントラストコンプライアンス、読みやすさ
+
+### ブランドボイス
+
+コンテンツレビュアーは次の項目を評価します。
+
+* **声のトーン**：会話形式で、明確で、人間味があり、ブランドパーソナリティに沿っている
+* **言葉遣い/形式**：流行語、エリティズム、過剰な形式の回避
+* **メッセージ**：奨励、正直、責任あるポジショニング（AI トピックなど）
+
+Content Reviewerは次の項目を評価しません。
+
+* **法律/コンプライアンス**：商標の使用、免責事項、ローカライゼーションルール
+
+コンテンツレビュー担当者が評価する内容に沿ったブランドガイドラインの作成に関するガイダンスについては、[ コンテンツレビュー担当者のブランドの作成と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)を参照してください。
 
 ## レビュー担当者と承認リクエストにコンテンツレビュー担当者を追加
 
@@ -102,18 +130,18 @@ Workfront Content Reviewerは、コンテンツをレビューする際にブラ
 
 作成した承認テンプレートは、プロジェクト、タスク、イシューの「ドキュメント」エリアのアセットに適用できます。
 
-詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
-AI レビューアーを表示する![&#x200B; テンプレートリスト &#x200B;](assets/ai-review-templates.png)
+AI レビューアーを表示する![ テンプレートリスト ](assets/ai-review-templates.png)
 
 ### 個人のレビューと承認のリクエスト
 
 ユーザーが個々のレビューと承認のリクエストを作成する場合、他の参加者と一緒にコンテンツレビュー担当者を追加したり、コンテンツレビュー担当者のみで1つのリクエストを作成してブランドコンプライアンスを確認したりできます。
 
-詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 
-![&#x200B; コンテンツレビュアーが個別の承認リクエストに追加されました](assets/new-stage.png)
+![ コンテンツレビュアーが個別の承認リクエストに追加されました](assets/new-stage.png)
 
 ## コンテンツレビュー担当者のスコアとフィードバックを表示
 
@@ -125,5 +153,5 @@ AI レビューアーを表示する![&#x200B; テンプレートリスト &#x20
 
 アセットがブランドガイドラインを満たしていない場合、クリエイターは新しいバージョンをアップロードでき、承認所有者はコンテンツレビュアーで2回目のレビューと承認リクエストを作成できます。
 
-スコアとフィードバックの表示について詳しくは、[&#x200B; コンテンツレビュー担当者のスコアとフィードバックの表示](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)を参照してください。
+スコアとフィードバックの表示について詳しくは、[ コンテンツレビュー担当者のスコアとフィードバックの表示](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)を参照してください。
 
