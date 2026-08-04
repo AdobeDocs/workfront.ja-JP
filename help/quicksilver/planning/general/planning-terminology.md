@@ -29,9 +29,9 @@ ht-degree: 59%
 >
 >この記事では、WorkfrontまたはWorkflow パッケージも購入した場合のWorkfront計画に関する一般的な情報を説明します。
 >
->Adobe Workfront Planningのドキュメントを含む記事の一覧については、[Workfront Planningの一般情報と記事インデックス ](/help/quicksilver/planning/planning-information.md)を参照してください。
+>Adobe Workfront Planningのドキュメントを含む記事の一覧については、[Workfront Planningの一般情報と記事インデックス &#x200B;](/help/quicksilver/planning/planning-information.md)を参照してください。
 >
->スタンドアロン製品としてのWorkfront Planningについて詳しくは、[ スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
+>スタンドアロン製品としてのWorkfront Planningについて詳しくは、[&#x200B; スタンドアロン製品としてのAdobe Workfront Planningの基本を学ぶ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)を参照してください。
 
 Workfront Planning は Workfront の一部ですが、独自の概念と用語を備えています。 組織で Workfront Planning の設定を開始する前に、新しい概念を十分に理解する必要があります。
 
@@ -114,8 +114,8 @@ Adobe Workfront Planning には、次のテンプレートが含まれていま�
 
 詳しくは、次の記事を参照してください。
 
-* [ ワークスペース テンプレートのリスト ](/help/quicksilver/planning/architecture/workspace-templates.md)。
-* [ ワークスペースを作成](/help/quicksilver/planning/architecture/create-workspaces.md)。
+* [&#x200B; ワークスペース テンプレートのリスト &#x200B;](/help/quicksilver/planning/architecture/workspace-templates.md)。
+* [&#x200B; ワークスペースを作成](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
 ## フィールド
 
@@ -258,7 +258,7 @@ add List view here when it's possible to display Planning RTs in it??
   * プロジェクトはページを接続：
   * リクエストフォームリスト
 
-  ![ リストビューでプロジェクトが接続されたページ ](assets/list-view-projects-connected-page.png)
+  ![&#x200B; リストビューでプロジェクトが接続されたページ &#x200B;](assets/list-view-projects-connected-page.png)
 
 詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
