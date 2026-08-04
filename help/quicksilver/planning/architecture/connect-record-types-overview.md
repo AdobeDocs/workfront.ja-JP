@@ -7,21 +7,13 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 2304
+source-wordcount: 2329
 ht-degree: 5%
 
 ---
@@ -36,11 +28,18 @@ ht-degree: 5%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 -->
 
+{{planning-important-intro}}
+
 個々のレコードタイプを接続することで、互いに関連付けたり、他のアプリケーションのオブジェクトに関連付けたりできます。
 
 この記事では、レコードタイプの接続の概要を説明し、レコードタイプとオブジェクトタイプの間で確立できる接続のタイプについて説明します。
 
-レコードタイプの接続について詳しくは、[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+レコードタイプの接続について詳しくは、[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+
+>[!IMPORTANT]
+>
+>Planningのレコードタイプを他のアプリケーションのオブジェクトタイプと接続する場合は、それらのアプリケーションのライセンスとアカウントも必要です。
+
 
 ## レコードタイプの連結に関する考慮事項
 
@@ -48,8 +47,8 @@ ht-degree: 5%
 
   次の方法で、レコードタイプとオブジェクトタイプを相互に接続できます。
 
-   * 手動
-   * 自動
+  * 手動
+  * 自動
 
   >[!NOTE]
   >
@@ -57,133 +56,134 @@ ht-degree: 5%
 
 * Workfront Planningで次のエンティティを接続するには、レコードタイプから「新規接続」フィールドを手動で追加できます。
 
-   * 2 つのレコードタイプ
+  * 2 つのレコードタイプ
 
-     デフォルトでは、同じワークスペースから2つのレコードタイプを接続できます。 また、より高いWorkfrontまたはプランニングパッケージを購入した場合は、他のワークスペースのレコードタイプと接続するようにレコードタイプを設定することもできます。 詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
-   * これらのアプリケーションのレコードタイプと次のオブジェクトタイプ：
+    デフォルトでは、同じワークスペースから2つのレコードタイプを接続できます。 また、より高いWorkfrontまたはプランニングパッケージを購入した場合は、他のワークスペースのレコードタイプと接続するようにレコードタイプを設定することもできます。 詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+  * これらのアプリケーションのレコードタイプと次のオブジェクトタイプ：
 
-      * Adobe Workfront:
+    * Adobe Workfront:
 
-         * プロジェクト
-         * ポートフォリオ
-         * プログラム
-         * 会社
-         * グループ
-         * 元のリクエスト
+      * プロジェクト
+      * ポートフォリオ
+      * プログラム
+      * 会社
+      * グループ
+      * 元のリクエスト
 
-           「元のリクエスト接続」フィールドには、リクエストフォームがWorkfront Planningに送信された後にレコードを作成する元のリクエストの名前が表示されます。 リクエストの名前は、Workfrontのリクエストの「件名」フィールドに表示されます。
-
-      * Adobe Experience Manager:
-
-         * アセット
-
-           Adobe Experience Manager Assetsから次のオブジェクトを接続できます。
-
-            * 画像
-            * フォルダー
-
-         * コンテンツフラグメント
-
-      * Adobe GenStudio for Performance Marketing
-
-         * ブランド
-
-        >[!IMPORTANT]
-        >
-        >Adobe Experience Manager オブジェクトとGenStudio Brandsを接続するには、次の操作が必要です。
-        >* Adobe Experience Manager ライセンス
-        >* Adobe GenStudio for Performance Marketingライセンス。
-
-   * GenStudio ワークスペースのGenStudio for Performance Marketing レコードタイプと次のエンティティ：
-
-      * Workfront計画のレコードタイプ
-      * Workfront オブジェクト
-      * AEM オブジェクト（アセットまたはコンテンツフラグメント）
-      * GenStudio for Performance Marketingのブランド
-
-        >[!NOTE]
-        >
-        >* Planningでは、Adobe GenStudio Workspace レコードタイプを別のGenStudio レコードタイプに接続することはできません。
-        >* GenStudio ワークスペースからPlanning レコードタイプをレコードタイプに接続することはできません。
+        「元のリクエスト接続」フィールドには、リクエストフォームがWorkfront Planningに送信された後にレコードを作成する元のリクエストの名前が表示されます。 リクエストの名前は、Workfrontのリクエストの「件名」フィールドに表示されます。
 
 
-     レコードタイプを他のレコードタイプまたはオブジェクトタイプと手動で接続すると、個々のレコードとオブジェクトを接続できます。
+    * Adobe Experience Manager:
 
-     レコードとオブジェクトタイプの接続方法について詳しくは、[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+      * アセット
 
-     詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+        Adobe Experience Manager Assetsから次のオブジェクトを接続できます。
+
+        * 画像
+        * フォルダー
+
+      * コンテンツフラグメント
+
+    * Adobe GenStudio for Performance Marketing
+
+      * ブランド
+
+      >[!IMPORTANT]
+      >
+      >Adobe Experience Manager オブジェクトとGenStudio Brandsを接続するには、次の操作が必要です。
+      >* Adobe Experience Manager ライセンス
+      >* Adobe GenStudio for Performance Marketingライセンス。
+
+  * GenStudio ワークスペースのGenStudio for Performance Marketing レコードタイプと次のエンティティ：
+
+    * Workfront計画のレコードタイプ
+    * Workfront オブジェクト
+    * AEM オブジェクト（アセットまたはコンテンツフラグメント）
+    * GenStudio for Performance Marketingのブランド
+
+      >[!NOTE]
+      >
+      >* Planningでは、Adobe GenStudio Workspace レコードタイプを別のGenStudio レコードタイプに接続することはできません。
+      >* GenStudio ワークスペースからPlanning レコードタイプをレコードタイプに接続することはできません。
+
+
+    レコードタイプを他のレコードタイプまたはオブジェクトタイプと手動で接続すると、個々のレコードとオブジェクトを接続できます。
+
+    レコードとオブジェクトタイプの接続方法について詳しくは、[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+
+    詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
 * エンティティ間の接続は、次のシナリオで自動的に確立されます。
 
-   * 自動化機能を使用して、レコードタイプのページからレコードを作成する場合。
+  * 自動化機能を使用して、レコードタイプのページからレコードを作成する場合。
 
-     レコードタイプまたはレコードタイプと別のアプリケーションのオブジェクトタイプとの間の接続は、オートメーションが接続されたレコードまたはオブジェクトを作成するときに自動的に作成されます。
+    レコードタイプまたはレコードタイプと別のアプリケーションのオブジェクトタイプとの間の接続は、オートメーションが接続されたレコードまたはオブジェクトを作成するときに自動的に作成されます。
 
-     詳しくは、[Adobe Workfront Planningの自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
+    詳しくは、[Adobe Workfront Planningの自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
 
-   * レコードタイプのリクエストフォームを設定して、レコードまたはオブジェクトを作成する場合。
+  * レコードタイプのリクエストフォームを設定して、レコードまたはオブジェクトを作成する場合。
 
-     レコードを作成するPlanning リクエストを送信して承認すると、レコードタイプとリクエストオブジェクトタイプの間の接続が自動的に作成されます。
+    レコードを作成するPlanning リクエストを送信して承認すると、レコードタイプとリクエストオブジェクトタイプの間の接続が自動的に作成されます。
 
-     詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+    詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
-     元のリクエストは、Workfrontのリクエスト領域の&#x200B;**件名** フィールドまたはWorkfront Planningの元のリクエスト接続フィールドで表示できます。
+    元のリクエストは、Workfrontのリクエスト領域の&#x200B;**件名** フィールドまたはWorkfront Planningの元のリクエスト接続フィールドで表示できます。
 
 
 * 2つのレコードタイプまたはレコードタイプと別のアプリケーションのオブジェクトタイプが接続されている場合、次のシナリオが存在します。
 
-   * **2つのプランニング レコード タイプを接続する場合**：リンクされたレコード フィールドは、接続元のレコード タイプに作成されます。 「新規接続」タブの「リンクされたレコードタイプに対応するフィールドを作成」設定を有効にした場合にのみ、接続先のレコードタイプに同様のリンクされたレコードフィールドが作成されます。
+  * **2つのプランニング レコード タイプを接続する場合**：リンクされたレコード フィールドは、接続元のレコード タイプに作成されます。 「新規接続」タブの「リンクされたレコードタイプに対応するフィールドを作成」設定を有効にした場合にのみ、接続先のレコードタイプに同様のリンクされたレコードフィールドが作成されます。
 
-     例えば、「Campaign」レコードタイプを「Product」レコードタイプに接続すると、Campaign レコードタイプに「Linked Product」という名前のリンクされたレコードフィールド（接続フィールド）が作成されます。 自動的に「Campaign」という名前のリンクされたレコードタイプが、製品レコードタイプに作成されます。
+    例えば、「Campaign」レコードタイプを「Product」レコードタイプに接続すると、Campaign レコードタイプに「Linked Product」という名前のリンクされたレコードフィールド（接続フィールド）が作成されます。 自動的に「Campaign」という名前のリンクされたレコードタイプが、製品レコードタイプに作成されます。
 
-     例えば、次のシナリオが存在します。
+    例えば、次のシナリオが存在します。
 
-      * 「リンクされたレコードタイプに対応するフィールドを作成」設定を有効にし、「Campaign」レコードタイプを「製品」レコードタイプに接続すると、Campaign レコードタイプに「リンクされた製品」という名前のリンクされたレコードフィールド（接続フィールド）が作成されます。 自動的に「Campaign」という名前のリンクされたレコードタイプが、製品レコードタイプに作成されます。
-      * 「リンクされたレコードタイプに対応するフィールドを作成」設定を無効にし、「Campaign」レコードタイプを「製品」レコードタイプに接続すると、Campaign レコードタイプに「リンクされた製品」という名前のリンクされたレコードフィールド（接続フィールド）が作成されます。 自動的に「Campaign」という名前のリンクされたレコードタイプは、製品レコードタイプには作成されません。
+    * 「リンクされたレコードタイプに対応するフィールドを作成」設定を有効にし、「Campaign」レコードタイプを「製品」レコードタイプに接続すると、Campaign レコードタイプに「リンクされた製品」という名前のリンクされたレコードフィールド（接続フィールド）が作成されます。 自動的に「Campaign」という名前のリンクされたレコードタイプが、製品レコードタイプに作成されます。
+    * 「リンクされたレコードタイプに対応するフィールドを作成」設定を無効にし、「Campaign」レコードタイプを「製品」レコードタイプに接続すると、Campaign レコードタイプに「リンクされた製品」という名前のリンクされたレコードフィールド（接続フィールド）が作成されます。 自動的に「Campaign」という名前のリンクされたレコードタイプは、製品レコードタイプには作成されません。
 
-     詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+    詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
-   * **別のアプリケーションのオブジェクト タイプでレコード タイプを接続すると**:
+  * **別のアプリケーションのオブジェクト タイプでレコード タイプを接続すると**:
 
-      * リンクされたレコードフィールドは、接続元のレコードタイプに作成されます。 他のアプリケーションのオブジェクトタイプには、リンクされたレコードフィールドが自動的に作成されません。
-      * プランニングレコードフィールドには、Workfront オブジェクトからアクセスできません。
-      * プランニングレコードは、Workfront オブジェクトの「プランニング」セクションから表示されます。 詳しくは、[Workfront オブジェクトからのレコード接続の管理](/help/quicksilver/planning/records/manage-records-in-planning-section.md)を参照してください。
-      * Planning Connection カスタムフィールドを作成し、それをWorkfront オブジェクトのカスタムフォームに添付できます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
-      * Experience Manager管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Workfront assetsからプランニングレコードフィールドにアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。<!--not sure if this is also possible for content fragments-->
-      * プランニングレコードフィールドには、GenStudio for Performance MarketingのBrandsからアクセスできません。
+    * リンクされたレコードフィールドは、接続元のレコードタイプに作成されます。 他のアプリケーションのオブジェクトタイプには、リンクされたレコードフィールドが自動的に作成されません。
+    * プランニングレコードフィールドには、Workfront オブジェクトからアクセスできません。
+    * プランニングレコードは、Workfront オブジェクトの「プランニング」セクションから表示されます。 詳しくは、[Workfront オブジェクトからのレコード接続の管理](/help/quicksilver/planning/records/manage-records-in-planning-section.md)を参照してください。
+    * Planning Connection カスタムフィールドを作成し、それをWorkfront オブジェクトのカスタムフォームに添付できます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+    * Experience Manager管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Workfront assetsからプランニングレコードフィールドにアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。<!--not sure if this is also possible for content fragments-->
+    * プランニングレコードフィールドには、GenStudio for Performance MarketingのBrandsからアクセスできません。
 
-   * **接続先のレコードまたはオブジェクトからルックアップフィールドを追加する場合**：リンクされたレコードフィールドを作成するだけでなく、接続されたレコードまたはオブジェクトタイプからルックアップフィールドと呼ばれるフィールドに接続することもできます。 接続しているレコードの情報を含むリンク（またはルックアップフィールド）が、接続元のレコードに表示されます。
+  * **接続先のレコードまたはオブジェクトからルックアップフィールドを追加する場合**：リンクされたレコードフィールドを作成するだけでなく、接続されたレコードまたはオブジェクトタイプからルックアップフィールドと呼ばれるフィールドに接続することもできます。 接続しているレコードの情報を含むリンク（またはルックアップフィールド）が、接続元のレコードに表示されます。
 
-     ルックアップフィールドを追加する際には、次の点を考慮してください。
+    ルックアップフィールドを追加する際には、次の点を考慮してください。
 
-      * 他のレコードタイプまたは別のアプリケーションのオブジェクトのフィールドをWorkfront Planning レコードタイプに接続できます。
+    * 他のレコードタイプまたは別のアプリケーションのオブジェクトのフィールドをWorkfront Planning レコードタイプに接続できます。
 
-      * ルックアップフィールドは読み取り専用で、接続されたレコードの情報が自動的に表示されます。
+    * ルックアップフィールドは読み取り専用で、接続されたレコードの情報が自動的に表示されます。
 
-      * すべてのフィールドをWorkfront Planningからリンクすることはサポートされていません。 例えば、AEM コンテンツフラグメントでは、次のフィールドのみがサポートされています：<!--this information is also in "Connect record types"-->
+    * すべてのフィールドをWorkfront Planningからリンクすることはサポートされていません。 例えば、AEM コンテンツフラグメントでは、次のフィールドのみがサポートされています：<!--this information is also in "Connect record types"-->
 
-         * 作成者および作成日時
-         * 変更者および変更日時
+      * 作成者および作成日時
+      * 変更者および変更日時
 
-      * 他のレコードタイプやオブジェクトタイプのルックアップフィールドは、式、フィルター、またはグループ化で参照できます。
+    * 他のレコードタイプやオブジェクトタイプのルックアップフィールドは、式、フィルター、またはグループ化で参照できます。
 
-        例えば、「Campaign」レコードタイプをWorkfront プロジェクトに接続し、プロジェクトの「予定完了日」フィールドをWorkfront計画レコードに取り込むと、キャンペーン用に「予定完了日（プロジェクトから）」というリンクされたフィールドが自動的に作成されます。 このリンクされたフィールドを手動で編集することはできません。 「プロジェクトの予定完了日」フィールドには、Workfrontで設定された、リンクされたプロジェクトの予定完了日が表示されます。
+      例えば、「Campaign」レコードタイプをWorkfront プロジェクトに接続し、プロジェクトの「予定完了日」フィールドをWorkfront計画レコードに取り込むと、キャンペーン用に「予定完了日（プロジェクトから）」というリンクされたフィールドが自動的に作成されます。 このリンクされたフィールドを手動で編集することはできません。 「プロジェクトの予定完了日」フィールドには、Workfrontで設定された、リンクされたプロジェクトの予定完了日が表示されます。
 
-     >[!IMPORTANT]
-     >
-     >ワークスペースに対する表示権限またはそれ以上の権限を持つユーザーは、リンクされたオブジェクトタイプのアプリケーションの権限や他のワークスペースの権限に関係なく、ルックアップフィールドの情報を表示できます。
+    >[!IMPORTANT]
+    >
+    >ワークスペースに対する表示権限またはそれ以上の権限を持つユーザーは、リンクされたオブジェクトタイプのアプリケーションの権限や他のワークスペースの権限に関係なく、ルックアップフィールドの情報を表示できます。
 
-      * 接続されたレコードフィールドの前には、関係アイコン ![関係フィールドアイコン &#x200B;](assets/relationship-field-icon.png)が表示されます。
+    * 接続されたレコードフィールドの前には、関係アイコン ![関係フィールドアイコン ](assets/relationship-field-icon.png)が表示されます。
 
-      * 接続されたルックアップフィールドの前には、フィールドタイプを識別するアイコンが表示されます。 ルックアップフィールドの前には、フィールドが数値、段落、または日付であることを示すアイコンが表示されます。
+    * 接続されたルックアップフィールドの前には、フィールドタイプを識別するアイコンが表示されます。 ルックアップフィールドの前には、フィールドが数値、段落、または日付であることを示すアイコンが表示されます。
 
-        >[!TIP]
-        >
-        >Workfront オブジェクトの日付フィールド情報は、Workfrontでの表示方法に関係なく、Workfront Planningでは24時間形式で表示されます。
-        >
-        >例えば、プロジェクトの予定開始日がWorkfrontで午後3:00と表示される場合、読み込まれたルックアップフィールドにWorkfront Planningで15:00と表示されます。
+      >[!TIP]
+      >
+      >Workfront オブジェクトの日付フィールド情報は、Workfrontでの表示方法に関係なく、Workfront Planningでは24時間形式で表示されます。
+      >
+      >例えば、プロジェクトの予定開始日がWorkfrontで午後3:00と表示される場合、読み込まれたルックアップフィールドでは、Workfront Planningで15:00と表示されます。
 
-   * Workfront Planningで階層を作成するには、レコードタイプを接続する必要があります。 レコードタイプの接続が存在しない場合は、階層を作成するときに自動的に作成されます。 詳しくは、[&#x200B; ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
+  * Workfront Planningで階層を作成するには、レコードタイプを接続する必要があります。 レコードタイプの接続が存在しない場合は、階層を作成するときに自動的に作成されます。 詳しくは、[ ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
 
 
 ## 接続タイプ
@@ -206,19 +206,19 @@ ht-degree: 5%
 
 * リンクされたレコードタイプ **の設定で「**&#x200B;対応するフィールドを作成」が無効になっている場合、次のいずれかを選択できます。
 
-   * [複数選択](#multi-select-connection-type)
-   * [単一選択](#single-select-connection-type)
+  * [複数選択](#multi-select-connection-type)
+  * [単一選択](#single-select-connection-type)
 
 * リンクされたレコードタイプ **の設定で「**&#x200B;対応するフィールドを作成」が有効になっている場合、次のいずれかを選択できます。
 
-   * [多対多](#many-to-many-connection-type)
-   * [1 対多](#one-to-many-connection-type)
-   * [多対 1](#many-to-one-connection-type)
-   * [1対1](#many-to-one-connection-type)
+  * [多対多](#many-to-many-connection-type)
+  * [1 対多](#one-to-many-connection-type)
+  * [多対 1](#many-to-one-connection-type)
+  * [1対1](#many-to-one-connection-type)
 
 ### 複数選択の接続タイプ
 
-![複数選択の接続タイプ &#x200B;](assets/multi-select-connection-picker.png)
+![複数選択の接続タイプ ](assets/multi-select-connection-picker.png)
 
 レコードタイプ間に複数選択接続を作成する場合、接続フィールドで元のレコードタイプから複数の接続されたレコードを選択できます。
 
@@ -233,7 +233,7 @@ ht-degree: 5%
 
 ### シングルセレクト接続タイプ
 
-![単一選択接続タイプ &#x200B;](assets/single-select-connection-picker.png)
+![単一選択接続タイプ ](assets/single-select-connection-picker.png)
 
 レコードタイプ間にシングルセレクト接続を作成する場合は、接続フィールドで元のレコードタイプから1つのレコードを選択できます。
 
