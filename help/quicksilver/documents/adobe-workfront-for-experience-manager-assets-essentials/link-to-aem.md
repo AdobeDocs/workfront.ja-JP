@@ -7,10 +7,16 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
 TQID: https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
 source-wordcount: 1467
@@ -167,7 +173,7 @@ Experience Manager AssetsまたはAssets Essentialsから新しいコンテン�
 
    * 「Assets」タブを選択して、Experience Manager AssetsまたはAssets Essentialsのアセット、フォルダー、コレクションを参照します。
 
-     ![ コンテンツアドバイザー](assets/content-advisor-full.png)
+     ![&#x200B; コンテンツアドバイザー](assets/content-advisor-full.png)
 
    * コンテンツフラグメントはバージョンをサポートしていません。 コンテンツフラグメントを選択すると、新しいバージョンを作成する代わりに、新しいバージョンが既存のコンテンツフラグメントに置き換わります。
 
@@ -196,8 +202,8 @@ Experience Manager AssetsまたはAssets Essentialsから新しいコンテン�
 
 ## 考慮事項
 
-* Content Advisor機能は、Adobe クラウドストレージを使用するオブジェクトでは使用できません。 組織でAdobe クラウドストレージを使用している場合でも、Experience Manager AssetsまたはAssets Essentialsからアセットとフォルダーをリンクすることはできますが、AI 検索、スマートレコメンデーション、Dynamic Media レンディションなどのContent Advisor機能にアクセスすることはできません。 詳しくは、[Adobe クラウドストレージを使用してExperience Manager Assetsからコンテンツとフォルダーをリンク ](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)を参照してください。
+* Content Advisor機能は、Adobe クラウドストレージを使用するオブジェクトでは使用できません。 組織でAdobe クラウドストレージを使用している場合でも、Experience Manager AssetsまたはAssets Essentialsからアセットとフォルダーをリンクすることはできますが、AI 検索、スマートレコメンデーション、Dynamic Media レンディションなどのContent Advisor機能にアクセスすることはできません。 詳しくは、[Adobe クラウドストレージを使用してExperience Manager Assetsからコンテンツとフォルダーをリンク &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)を参照してください。
 
-* Content Advisor機能は、Assets Essentialsでは使用できません。 Assets Essentialsからアセットとフォルダーをリンクするには、[Experience Manager Assets Essentialsからアセットとフォルダーをリンク ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)するを参照してください。
+* Content Advisor機能は、Assets Essentialsでは使用できません。 Assets Essentialsからアセットとフォルダーをリンクするには、[Experience Manager Assets Essentialsからアセットとフォルダーをリンク &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)するを参照してください。
 
 * メタデータフィールドは、WorkfrontからExperience Manager Assetsにアセットを送信するときに最初にマッピングされます。 Workfront 管理者がオブジェクトメタデータの同期を有効にしている場合、どちらかのアプリケーションで変更されたフィールドは最新の状態に保たれます。
