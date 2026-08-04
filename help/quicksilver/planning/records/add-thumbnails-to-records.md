@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 820
-ht-degree: 28%
+source-wordcount: 818
+ht-degree: 24%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 28%
 レコードを Adobe Workfront Planning 内の一意のサムネールに関連付けて、容易に認識できるようにします。
 
 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
-詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+詳しくは、[&#x200B; レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
 ## アクセス要件
 
@@ -59,14 +59,26 @@ ht-degree: 28%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
+<ul> 
+<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
+または
+<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースに対するアクセス許可、レコードタイプ、およびレコードに対するアクセス許可の管理に貢献する権限 </p>  
@@ -127,7 +139,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -153,9 +165,9 @@ Old:
 * Workfrontでは、レコードを作成するたびにサムネイル画像が自動的にアップロードされます。 この画像は後で変更できます。
 * サムネールはレコード情報に属し、レコードが表示される領域に表示されます。 例えば、次のエリアでは、レコード情報と共にサムネールが表示されます。
 
-   * テーブルビューのレコードのプライマリフィールド
-   * タイムライン表示上のレコードバー。
-   * レコードの詳細プレビューとページ。
+  * テーブルビューのレコードのプライマリフィールド
+  * タイムライン表示上のレコードバー。
+  * レコードの詳細プレビューとページ。
 
 ## レコードにサムネールを追加する
 
@@ -245,7 +257,7 @@ Old:
 
 1. （オプション）サムネールを保存する前に削除するには、画像の右側にある&#x200B;**削除** アイコン ![画像を削除アイコン &#x200B;](assets/remove-image-icon.png)をクリックします。
 
-1. 「**画像を使用**」をクリックして、画像をサムネールとして追加します。
+1. **画像を使用**&#x200B;をクリックして、画像をサムネールとして追加します。
 これにより、**レコードサムネール** ボックスが閉じます。
 サムネールは、レコードが表示されるWorkfront Planningの領域に表示されます。
 

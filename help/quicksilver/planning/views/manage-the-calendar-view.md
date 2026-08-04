@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1896
+source-wordcount: 1917
 ht-degree: 25%
 
 ---
@@ -54,15 +54,29 @@ Adobe Workfront計画ビューとその管理方法について詳しくは、[&
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
-<p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
+または
+<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p> ビューの作成と削除を行う標準</p>
-   <p>ビュー要素を更新する貢献者以上</p>
+   <td><p>ワークフローライト以上</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p> ビューを作成および削除するためのPlanning Standard</p>
+   <p>ビュー要素を更新するPlanning Contributor以上</p>
+   <p><b>メモ</b><p>
+   <p>すべてのお客様がPlanning Contributor ライセンスを持っているわけではありません</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -71,9 +85,8 @@ Adobe Workfront計画ビューとその管理方法について詳しくは、[&
   </tr>
 
 </tbody> 
-</table>
-
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+</table> 
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件] （/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md）を参照してください。
 
 +++ 
 
@@ -124,7 +137,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

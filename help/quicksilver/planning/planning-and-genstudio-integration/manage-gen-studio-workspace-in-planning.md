@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1769
+source-wordcount: 1794
 ht-degree: 6%
 
 ---
@@ -78,10 +78,11 @@ GenStudioとWorkfront Planningの統合について詳しくは、[Adobe Workfro
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
-<p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
-   </td> 
+<p>任意のWorkfrontまたはワークフローとプランニングパッケージ</p> 
+または
+<p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
+
+</td> 
    <tr> 
 <td> 
    <p> その他の製品</p> </td> 
@@ -90,10 +91,21 @@ GenStudioとWorkfront Planningの統合について詳しくは、[Adobe Workfro
   </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront アクセスレベルの設定</p></td> 
+   <td> <p>ワークフローとプランニングパッケージの両方を持っている場合は、ワークフローとプランニングライセンスタイプの両方をWorkfront アクセスレベルに追加する必要があります</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketingのユーザーロール</p></td> 
    <td><p><ul><li>キャンペーン、商品、ペルソナにアクセスするためのGenStudioのユーザーロール</li>
    <li>GenStudio System Managerからアクティベーションにアクセス <!--and Events--></li></ul>
@@ -122,7 +134,66 @@ Adobe Workfront計画アクセスについて詳しくは、[Adobe Workfront計�
 
 Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
 
-+++   
++++ 
+
+<!--
+
+Old, before Planning STA: 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+   <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+   <li>GenSudio System Manager to access Activations </li></ul>
+   For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Manage permissions to the GenStudio workspace to add new fields or record types to the GenStudio workspace</p></li>
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
+   </ul>
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td>  
+</tbody> 
+</table> 
+
+-->
+
 
 <!--
 Old:
@@ -309,18 +380,18 @@ Workfront Planning のメインページが開きます。
 1. ビューまたはレコードタイプを共有するには、次の操作を行います。
 
    * レコードタイプページの右上隅にある「**共有**」をクリックし、次のいずれかをクリックします。
-      * **レコードタイプを共有**
-詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
-      * **現在のビューを共有**
-詳しくは、[&#x200B; ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
-      * **ビューリンクをコピー**
-ビューへのリンクがクリップボードにコピーされます。
-      * **現在のビューをエクスポート**
-詳しくは、[&#x200B; テーブルビューからのレコードの書き出し](/help/quicksilver/planning/records/export-records-from-the-table-view.md)を参照してください。
+     * **レコードタイプを共有**
+       詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+     * **現在のビューを共有**
+       詳しくは、[&#x200B; ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
+     * **ビューリンクをコピー**
+       ビューへのリンクがクリップボードにコピーされます。
+     * **現在のビューをエクスポート**
+       詳しくは、[&#x200B; テーブルビューからのレコードの書き出し](/help/quicksilver/planning/records/export-records-from-the-table-view.md)を参照してください。
 
-        >[!NOTE]
-        >
-        >そのワークスペースまたはレコードタイプを共有した後は、GenStudio ワークスペースのレコードタイプからGenStudio ユーザーを削除することはできません。
+       >[!NOTE]
+       >
+       >そのワークスペースまたはレコードタイプを共有した後は、GenStudio ワークスペースのレコードタイプからGenStudio ユーザーを削除することはできません。
 
 1. レコードタイプのビューを管理するには、次の操作を行います。
 
@@ -386,9 +457,9 @@ Workfront Planning のメインページが開きます。
 
      GenStudio ワークスペースから作成されたフィールドは、次の領域に表示されます。
 
-      * Workfront PlanningのWorkfront計画ビュー
-      * Workfront計画レコードの詳細（Workfront計画）
-      * GenStudio for Performance MarketingのGenStudio レコードの詳細
+     * Workfront PlanningのWorkfront計画ビュー
+     * Workfront計画レコードの詳細（Workfront計画）
+     * GenStudio for Performance MarketingのGenStudio レコードの詳細
 
      >[!NOTE]
      >
@@ -407,13 +478,13 @@ Workfront Planning のメインページが開きます。
    1. 右側のパネルで「**キャンペーン**」タブをクリックして選択します。
 
       アセットに接続されたキャンペーンの名前が、**Campaign** フィールドに表示されます。これは読み取り専用のフィールドです。
-アセットがPlanningのGenStudio Workspaceの&#x200B;**Region**、**Persona**、**Product**&#x200B;または&#x200B;**Channel**&#x200B;にも接続されている場合、これらのレコードタイプのそれぞれのフィールドには、アセットの「**Campaign**」タブに読み取り専用モードで名前が表示されます。
+      アセットがPlanningのGenStudio Workspaceの&#x200B;**Region**、**Persona**、**Product**&#x200B;または&#x200B;**Channel**&#x200B;にも接続されている場合、これらのレコードタイプのそれぞれのフィールドには、アセットの「**Campaign**」タブに読み取り専用モードで名前が表示されます。
    1. （条件付き） PlanningのGenStudio Workspaceで接続されたAEM コンテンツフラグメントから、コンテンツフラグメントの名前をクリックし、**AEMで開く** アイコン ![AEMで開くアイコン &#x200B;](assets/open-in-aem-icon.png)をクリックして、コンテンツフラグメントをAEMで開きます。
    1. **ホーム** アイコン ![AEM](assets/home-icon-in-aem.png)のホームアイコンをクリックして、コンテンツフラグメントのリストに移動し、コンテンツフラグメント名の右側にある&#x200B;**情報** アイコン ![AEM](assets/info-icon-in-aem.png)の情報アイコンをクリックします。
    1. 右側のパネルの「**メタデータ**」タブをクリックします。
 
       コンテンツフラグメントに接続されているキャンペーンの名前が、**xdm: campaignName** フィールドに表示されます。 これは読み取り専用フィールドです。 <!--tried to log a bug to rename this field-->
-アセットがPlanningのGenStudio Workspaceの&#x200B;**Region**、**Persona**、**Product**&#x200B;または&#x200B;**Channel**&#x200B;にも接続されている場合、これらのレコードタイプのそれぞれのフィールドは、コンテンツフラグメントの「**メタデータ**」タブに読み取り専用モードで名前を表示します。
+      アセットがPlanningのGenStudio Workspaceの&#x200B;**Region**、**Persona**、**Product**&#x200B;または&#x200B;**Channel**&#x200B;にも接続されている場合、これらのレコードタイプのそれぞれのフィールドは、コンテンツフラグメントの「**メタデータ**」タブに読み取り専用モードで名前を表示します。
 
 1. テーブルビューのフィールドにカーソルを合わせ、ドロップダウンメニューをクリックして次のいずれかの操作を行います。
 

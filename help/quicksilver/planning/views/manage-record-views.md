@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1360
-ht-degree: 34%
+source-wordcount: 1394
+ht-degree: 33%
 
 ---
 
@@ -67,8 +67,8 @@ Adobe Workfront計画領域でレコードタイプを選択すると、その�
 
   詳しくは、次の記事を参照してください。
 
-   * [レコードへの接続されたレコードページの追加](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
-   * [リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)
+  * [レコードへの接続されたレコードページの追加](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+  * [リスト表示の管理](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 この記事では、レコードビューに関する次の情報について説明します。
 
@@ -99,15 +99,29 @@ Workfront Planning レコード ビューの管理の詳細については、次
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
-<p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
+または
+<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p> ビューの作成と削除を行う標準</p>
-   <p>ビュー要素を更新する貢献者以上</p>
+   <td><p>ワークフローライト以上</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p> ビューを作成および削除するためのPlanning Standard</p>
+   <p>ビュー要素を更新するPlanning Contributor以上</p>
+   <p><b>メモ</b><p>
+   <p>すべてのお客様がPlanning Contributor ライセンスを持っているわけではありません</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -171,7 +185,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -197,14 +211,14 @@ Old:
 * 各ユーザーは最大100個のビューを作成できます。 レコードタイプには100以上のビューを表示できますが、1人のユーザーが作成できるビューは100までです。
 * 一部のビュー要素は、同じレコードの複数のビューに適用できますが、各レコードビューに固有です。
 
-   * フィルター
-   * 並べ替え（テーブルビュー用）
-   * 行のカラー（テーブルビュー用）
-   * フィールド（テーブルビュー用）
-   * 分類（タイムラインビュー用）
-   * グループ化（テーブルとタイムラインビューの場合）
-   * バーの外観（タイムラインビューとカレンダービュー用）
-   * 行の高さ（テーブルと月次カレンダービュー用）
+  * フィルター
+  * 並べ替え（テーブルビュー用）
+  * 行のカラー（テーブルビュー用）
+  * フィールド（テーブルビュー用）
+  * 分類（タイムラインビュー用）
+  * グループ化（テーブルとタイムラインビューの場合）
+  * バーの外観（タイムラインビューとカレンダービュー用）
+  * 行の高さ（テーブルと月次カレンダービュー用）
 
   例えば、テーブルビューでフィルターを作成する場合、フィルターの結果は、選択したビュー（テーブルビュー）でのみ表示され、レコードタイプに関連付けられているすべてのビューには表示されません。
 

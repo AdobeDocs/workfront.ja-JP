@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 10%
+source-wordcount: 533
+ht-degree: 8%
 
 ---
 
@@ -41,6 +41,8 @@ no longer needed:
 >
 >For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
 -->
+
+{{planning-important-intro}}
 
 アクセス権を持たないビューまたはワークスペースへのリンクを誰かが共有すると、ビューまたはワークスペースへのアクセス権をリクエストできます。
 
@@ -63,26 +65,32 @@ no longer needed:
 </col> 
 <col> 
 </col> 
-<tbody> 
-    <tr> 
+<tbody>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p> 
 または
-<p>スタンドアロンの製品パッケージとしてのWorkfront Planningは</p> 
- </tr>
-
-<tr> 
+<p>スタンドアロン製品として購入した際のあらゆるWorkfrontプランニング</p> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td><p>任意</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベル設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
-</td> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>任意</p> 
+  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
+  </tr>
+
+
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>  <p>権限のリクエストが付与されると、次の権限を取得できます。</p>
@@ -150,7 +158,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

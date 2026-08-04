@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1349'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+{{planning-important-intro}}
 
 Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に接続フィールドを作成する際に、依存関係を定義できます。
 
@@ -58,7 +60,6 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
 <p>または</p>
 <li><p>スタンドアロン製品として購入した場合のPlanning PrimeまたはUltimate パッケージ</p></li>
 </ul>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
    </td> 
 <tr> 
 <td> 
@@ -73,8 +74,18 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 

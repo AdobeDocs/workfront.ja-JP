@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 418
 ht-degree: 14%
 
 ---
@@ -57,13 +57,25 @@ Adobe Workfront Planningの「最近削除された」領域から、削除さ�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
+<ul> 
+<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
+または
+<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -124,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -143,10 +155,10 @@ Old:
 * 削除したレコードが別のレコードにリンクされている場合、リンクされているレコードは削除されませんが、削除したレコードの情報は削除されます。 削除されたレコードを復元すると、接続されたレコードから情報が復元されます。
 * レコードを一括で復元できます。
 * レコードが削除されると、次の情報が「最近削除されたビン」に保存されます。
-   * **名前**：これは、レコードのプライマリフィールドの情報です。 レコードプライマリフィールドについて詳しくは、[プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md)を参照してください。
-   * **削除日**: レコードが削除された日時。
-   * **最近削除された時間**: レコードが削除されてからの時間。 現在の日付より30日以上前に削除されたレコードは、「最近削除されたビン」に表示されません。
-   * **削除者**: レコードを削除したユーザーの名前。
+  * **名前**：これは、レコードのプライマリフィールドの情報です。 レコードプライマリフィールドについて詳しくは、[プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md)を参照してください。
+  * **削除日**: レコードが削除された日時。
+  * **最近削除された時間**: レコードが削除されてからの時間。 現在の日付より30日以上前に削除されたレコードは、「最近削除されたビン」に表示されません。
+  * **削除者**: レコードを削除したユーザーの名前。
 
 ## 削除されたレコードの復元
 

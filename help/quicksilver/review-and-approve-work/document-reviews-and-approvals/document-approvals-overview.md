@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: 4323
 ht-degree: 0%
@@ -101,7 +101,7 @@ Workfront プルーフ機能は、この統合では使用できません。
 
 <span class="preview">統一されたレビューと承認には、包括的な監査ログが含まれており、WorkfrontとFrame.io全体のガバナンス履歴が作成されます。 変更トラッキングログは、Frame.io ビューアおよびドキュメントのライフサイクルで行われた承認に関する意思決定を記録します。 各ログエントリには、ソースシステムのアトリビューション（WorkfrontまたはFrame.io）と、Workfrontの標準の監査フィールド（日付と時刻、ログタイプ、ユーザー名、アクション、オブジェクト名）が含まれています。 Frame.io ビューアのコメントは監査ログに含まれません。</span>
 
-<span class="preview"> トラッキングログの変更は、Workfrontの設定領域に表示され、書き出しに使用できます。 詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。</span>
+<span class="preview"> トラッキングログの変更は、Workfrontの設定領域に表示され、書き出しに使用できます。 詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)を参照してください。</span>
 
 ## Workfrontの強力なプロジェクト管理
 

@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1997
-ht-degree: 15%
+source-wordcount: 2015
+ht-degree: 14%
 
 ---
 
@@ -75,16 +75,20 @@ This article describes how you can share a view with others. For information abo
 <p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p> 
 または
 <p>スタンドアロンの製品パッケージとしてのWorkfront Planningは</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td><p>任意</p> 
   </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>任意</p> 
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>アクセスレベル設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
 </td> 
   </tr> 
 <tr> 
@@ -150,7 +154,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -167,10 +171,10 @@ Old:
 
 * ビューは、次の方法で共有できます。
 
-   * Workfrontのユーザー、グループ、チーム、企業、担当業務と連携し
-   * Workfront以外のユーザーとの公開
-   * ビューへのリンクをコピーして共有することで
-   * ExcelやCSV ファイルにエクスポートすることで。 ファイルに書き出すことができるのは、テーブルビューのみです。 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
+  * Workfrontのユーザー、グループ、チーム、企業、担当業務と連携し
+  * Workfront以外のユーザーとの公開
+  * ビューへのリンクをコピーして共有することで
+  * ExcelやCSV ファイルにエクスポートすることで。 ファイルに書き出すことができるのは、テーブルビューのみです。 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 
 * Workfront Planningでのオブジェクトの共有に関する一般的な情報については、[Adobe Workfront Planningでの共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)も参照してください。
 * ビューに対してビュー権限または管理権限を付与するには、Workfrontの内部ユーザーに付与します。

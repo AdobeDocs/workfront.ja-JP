@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 28%
+source-wordcount: 708
+ht-degree: 27%
 
 ---
 
@@ -60,23 +60,33 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <ul> 
-<li><p>任意のWorkfrontおよびプランニングパッケージ</p></li>
+<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
 または
-<li><p>任意のワークフローとプランニングパッケージ</p></li></ul>
+<li><p>スタンドアロンパッケージとして購入された場合の任意のPlanning パッケージ</p></li></ul>
 
 <p>グローバルレコードタイプからフィールドを削除するには：</p>
 <ul><li><p>任意のWorkfront パッケージとPlanning Plus パッケージ</p></li>
 または
-<li><p>PrimeとUltimateのあらゆるパッケージのワークフローとプランニング</p></li></ul>
-
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
+<li><p>PrimeとUltimateのあらゆるパッケージのワークフローとプランニング</p></li>
+または
+<li>スタンドアロン製品として購入した場合のプランニング プライマリおよびUltimate パッケージ</li>
+</ul>
    </td> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
+  </tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースに対する権限の管理</p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
@@ -136,7 +146,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -157,9 +167,9 @@ Old:
 
   例えば、CampaignsをProductという別のレコードタイプに接続し、キャンペーンからProduct connected フィールドとProduct&#39;s Status ルックアップフィールドを削除すると、次のものが削除されます。
 
-   * キャンペーンの「製品接続」フィールド
-   * キャンペーンの「製品ステータス」ルックアップフィールド
-   * 製品のキャンペーン接続フィールド
+  * キャンペーンの「製品接続」フィールド
+  * キャンペーンの「製品ステータス」ルックアップフィールド
+  * 製品のキャンペーン接続フィールド
 
   詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 

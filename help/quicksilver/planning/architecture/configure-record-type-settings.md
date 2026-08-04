@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 10%
+source-wordcount: 445
+ht-degree: 11%
 
 ---
 
@@ -67,30 +67,39 @@ ht-degree: 10%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
-<p>任意のワークフローとプランニングパッケージ</p>
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p>
+または 
+<p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
 
 <p><b>メモ</b></p>
 
 <p>接続可能なレコードタイプを設定するには：</p>
 
 <ul> 
-<li><p>任意のWorkfrontおよびプランニングパッケージ</p></li>
+<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li>
 または
-<li><p>任意のワークフローパッケージとPlanning PrimeまたはUltimate パッケージ</p></li></ul>
+<li>スタンドアロン製品として購入した場合のPlanning PrimeまたはUltimate パッケージ</li>
+</ul>
 
 <p>グローバルレコードタイプを設定するには：</p>
 
 <ul> 
 <li><p>任意のWorkfront パッケージとPlanning Plus パッケージ</p></li>
 または
-<li><p>任意のワークフローパッケージとPlanning PrimeまたはUltimate パッケージ</p></li></ul>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p>
+<li><p>任意のワークフローパッケージとPlanning PrimeまたはUltimate パッケージ</p></li>
+または
+<li>スタンドアロン製品として購入した場合のPlanning Primeまたはスタンドアロンパッケージ </li>
 
-</td> </tr>
+</ul>
+  </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
    </td> 
   </tr> 
   <tr> 
@@ -153,7 +162,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

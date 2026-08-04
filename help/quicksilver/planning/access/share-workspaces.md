@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1022
+source-wordcount: 1055
 ht-degree: 28%
 
 ---
@@ -66,11 +66,21 @@ This article describes how you can share a view with others. For information abo
 <p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p> 
 または
 <p>スタンドアロンの製品パッケージとしてのWorkfront Planningは</p> 
- </tr>
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p> 
+   <td><p>Workflow Standard</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr>
 
 <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -133,7 +143,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -174,13 +184,13 @@ Old:
 
    * システム管理者の場合は、次のオプションから選択します。
 
-      * **招待されたユーザーのみが**&#x200B;にアクセスできます。共有ボックスでエンティティを選択し、ワークスペースへのアクセス権を選択する必要があります。 これはデフォルトの選択です。
-      * **システム内の全員が表示できます**:Planningにアクセスできるシステム内の全員が、Planningの&#x200B;**ワークスペース**&#x200B;領域のワークスペースを表示できます。
+     * **招待されたユーザーのみが**&#x200B;にアクセスできます。共有ボックスでエンティティを選択し、ワークスペースへのアクセス権を選択する必要があります。 これはデフォルトの選択です。
+     * **システム内の全員が表示できます**:Planningにアクセスできるシステム内の全員が、Planningの&#x200B;**ワークスペース**&#x200B;領域のワークスペースを表示できます。
 
    * （条件付き）標準ライセンスを持つワークスペースマネージャーの場合は、次のいずれかの選択項目が表示されますが、変更することはできません。
 
-      * **招待されたユーザーのみが**&#x200B;にアクセスできます。 これはデフォルトの設定です。
-      * **システム内のすべてのユーザーが**&#x200B;を表示できます
+     * **招待されたユーザーのみが**&#x200B;にアクセスできます。 これはデフォルトの設定です。
+     * **システム内のすべてのユーザーが**&#x200B;を表示できます
 
      ワークスペースのグローバル権限を変更するには、システム管理者に依頼する必要があります。
 

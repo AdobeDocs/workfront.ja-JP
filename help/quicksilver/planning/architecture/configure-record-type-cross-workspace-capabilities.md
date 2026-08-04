@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1438
-ht-degree: 5%
+source-wordcount: 1465
+ht-degree: 4%
 
 ---
 
@@ -79,22 +79,23 @@ Adobe Workfront Planningでは、複数のワークスペースをまたいで�
    <td> 
 <p>接続可能なレコードタイプを設定するには： </p>
 <ul> 
-<li><p>任意のWorkfront パッケージと任意のPlanning パッケージ</p></li>
+<li>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li>
 または
-<li>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li></ul>
-
+<li>スタンドアロン製品としてのWorkfront Planning PrimeまたはUltimate パッケージ</li>
+</ul>
 
 <p>グローバルレコードタイプを設定するには：</p>
 
 <ul> 
-<li><p>任意のWorkfront パッケージとPlanning Plus パッケージ</p></li>
+<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li>
+
 または
-<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li></ul>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p>
+<li>スタンドアロン製品として購入した場合のPlanning PrimeまたはUltimate パッケージ </li>
+</ul>
 
 </td> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td role="rowheader"><p>Adobe Workfrontおよびプランニング ライセンス</p></td> 
    <td>
    <!--
    <p>In the Production environment: </p>
@@ -105,15 +106,17 @@ Adobe Workfront Planningでは、複数のワークスペースをまたいで�
    -->
 
 <p>レコードをグローバル化するには：</p>
-   <ul><li>Standard以上</li></ul>
+   <ul><li>Workfront and Planning Standard以上</li></ul>
    <p>レコードを接続可能にするには：</p>
 
-<ul><li>特定のワークスペースからレコードを接続可能にする標準</li>
+<ul><li>WorkfrontとPlanning Standardを統合し、特定のワークスペースからレコードを接続可能</li>
    <li>すべてのワークスペースからレコードを接続可能にするシステム管理者</li></ul>
-
 
 </td> 
   </tr> 
+  <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースに対する権限の管理</p>  

@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1179
+source-wordcount: 1193
 ht-degree: 43%
 
 ---
@@ -61,29 +61,37 @@ ht-degree: 43%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
-<p>任意のワークフローとプランニングパッケージ</p>
+<p>任意のWorkfrontまたはワークフローとプランニングパッケージ</p>
+または
+<p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
 <p><b>メモ</b></p>
 <p>接続可能なレコードタイプを設定するには： </p>
 <ul> 
-<li><p>任意のWorkfront パッケージと任意のPlanning パッケージ</p></li>
+<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li>
 または
-<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li></ul>
+<li>スタンドアロン製品として購入した場合のPlanning PrimeまたはUltimate パッケージ</li>
+</ul>
 
 <p>グローバルレコードタイプを設定するには：</p>
 
 <ul> 
 <li><p>任意のWorkfront パッケージとPlanning Plus パッケージ</p></li>
 または
-<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li></ul>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p>
-
-</td> </tr>
+<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li>
+または 
+<li>スタンドアロン製品として購入した場合のPlanning PrimeまたはUltimate パッケージ</li>
+</ul>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td><p>標準</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースに対する権限の管理</p>  
@@ -143,7 +151,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -159,27 +167,27 @@ Old:
 
 * 以下の方法で、ワークスペースでレコードタイプを作成できます。
 
-   * 自動：
-      * テンプレートを使用してワークスペースを作成する場合。
+  * 自動：
+    * テンプレートを使用してワークスペースを作成する場合。
 
-        詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+      詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
-      * CSVまたはExcel ファイルを使用してデータをインポートする場合。
+    * CSVまたはExcel ファイルを使用してデータをインポートする場合。
 
-        詳しくは、この記事の「[CSVまたはExcel ファイルから情報を読み込んでレコードタイプを作成する](#create-record-types-by-importing-information-from-a-csv-or-excel-file)」の節を参照してください。
+      詳しくは、この記事の「[CSVまたはExcel ファイルから情報を読み込んでレコードタイプを作成する](#create-record-types-by-importing-information-from-a-csv-or-excel-file)」の節を参照してください。
 
-     >[!TIP]
-     >
-     >CSVまたはExcel ファイルからレコードタイプを読み込む場合は、レコードとフィールドも読み込むことができます。
+    >[!TIP]
+    >
+    >CSVまたはExcel ファイルからレコードタイプを読み込む場合は、レコードとフィールドも読み込むことができます。
 
-   * 手動：
+  * 手動：
 
-      * 最初から。
+    * 最初から。
 
-        この記事では、レコードタイプをゼロから作成する方法について説明します。
+      この記事では、レコードタイプをゼロから作成する方法について説明します。
 
-      * 別のワークスペースから追加することで
-詳しくは、この記事の「[別のワークスペースから既存のレコードタイプを追加してレコードタイプを作成する](#create-record-types-by-adding-existing-ones-from-another-workspace)」を参照してください。
+    * 別のワークスペースから追加することで
+      詳しくは、この記事の「[別のワークスペースから既存のレコードタイプを追加してレコードタイプを作成する](#create-record-types-by-adding-existing-ones-from-another-workspace)」を参照してください。
 
 
 * レコードタイプは、セクション内で、およびワークスペースのあるセクションから別のセクションに移動できます。 あるワークスペースから別のワークスペースに移動することはできません。
@@ -230,8 +238,8 @@ Workfront Planning テンプレートを使用してワークスペースを作�
    * 「名称未設定のレコードタイプ」を、将来のレコードタイプの名前に置き換えます。<!--did they bring back the field label here and did they rename it to "Name"-->
    * **説明**: レコードタイプに関する詳細情報を追加します。
    * レコードタイプに関連付けられているアイコンの色とシェイプを選択します。 次の操作を実行します。
-      * 新しいレコードタイプを識別する色を選択します。 これは、レコードタイプアイコンの色です。 灰色はデフォルトで選択されています。
-      * リストからアイコンを選択するか、検索フィールドにアイコンの名前を入力して、それが何を表しているかを説明してから、表示されたらアイコンを選択します。 これは、レコードタイプのアイコンです。 ファイルのアイコンはデフォルトで選択されています。
+     * 新しいレコードタイプを識別する色を選択します。 これは、レコードタイプアイコンの色です。 灰色はデフォルトで選択されています。
+     * リストからアイコンを選択するか、検索フィールドにアイコンの名前を入力して、それが何を表しているかを説明してから、表示されたらアイコンを選択します。 これは、レコードタイプのアイコンです。 ファイルのアイコンはデフォルトで選択されています。
 
 1. （オプションおよび条件付き）システム管理者の場合は、「**クロスワークスペース設定**」タブをクリックし、レコードタイプのクロスワークスペース機能に関する情報を更新します。
 
@@ -242,7 +250,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 1. 「**保存**」をクリックします。
 
    レコードタイプカードがセクションと選択したワークスペースに追加されます。
-レコードタイプの説明がカードに表示されます。
+   レコードタイプの説明がカードに表示されます。
 
    ![説明が付いたレコードタイプのカード &#x200B;](assets/record-type-card-with-description.png)
 

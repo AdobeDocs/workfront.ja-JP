@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 541f736ffb051e1a7d5e0a277e12353c40bf885c
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '14399'
+source-wordcount: '14406'
 ht-degree: 93%
 
 ---
@@ -543,6 +543,8 @@ ht-degree: 93%
       * [ユーザーの削除](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
       * [監査ログの概要](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
       * [監査ログの表示と書き出し](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+      * [変更履歴の表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
+      * [変更履歴で追跡するフィールドを設定します](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
       * [ユーザーログイン情報を表示](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Adobe Admin Console でのユーザー管理](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [ビジネスプロファイル概要](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
@@ -820,8 +822,7 @@ ht-degree: 93%
     * [評価カードを管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
     * [テンプレートからの評価カードの読み込み](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
     * [プロジェクトへのプッシュ率の変更](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
-    * [&#x200B; レートカードの共有](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
-    * [変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
+    * [レートカードの共有](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
   * 統合の設定 {#configure-integrations}
     * [統合の設定](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Adobe Workfront 統合](administration-and-setup/configure-integrations/workfront-integrations-1.md)

@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 785
+source-wordcount: 826
 ht-degree: 11%
 
 ---
@@ -56,15 +56,23 @@ AI アシスタントを使用して、現在のページコンテキストと�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
-<p>任意のワークフローとプランニングパッケージ</p>
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p>
+<p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
    </td> </tr>
-
-</tr> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p> 
-  </td> 
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -89,8 +97,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 * 計画領域でAI アシスタントによって実行されるアクションは、Workfront計画の権限とWorkfront アクセスレベルのコンテキストにあります。 詳しくは、次の記事を参照してください。
 
-   * [Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-   * [Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)
+  * [Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)
+  * [Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)
 
 * ユーザーに代わってAI アシスタントが行った変更は、レコードの履歴パネルで追跡されます。
 

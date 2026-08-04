@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: 1616
 ht-degree: 5%
 
 ---
@@ -53,18 +53,18 @@ Adobe Workfront Planningのレコードに接続レコードページのタブ�
 
 * 接続されたレコード ページに表示するオブジェクトまたはレコードタイプに応じて、次のビューを使用して表示できます。
 
-   * 接続されたPlanning レコードは、次のタイプのビューで表示できます。
-      * テーブル
-      * タイムライン
-      * カレンダー
-   * 接続されたWorkfront プロジェクトは、リストビューで表示できます。
+  * 接続されたPlanning レコードは、次のタイプのビューで表示できます。
+    * テーブル
+    * タイムライン
+    * カレンダー
+  * 接続されたWorkfront プロジェクトは、リストビューで表示できます。
 
 * 次の接続レコードまたはオブジェクトタイプに対して、接続レコードページを追加できます。
 
-   * Workfront計画のレコードタイプ
-   * Workfront プロジェクト
+  * Workfront計画のレコードタイプ
+  * Workfront プロジェクト
 
-     Workfrontでアクセスするための権限がない場合でも、接続されたWorkfront プロジェクトを表示できます。
+    Workfrontでアクセスするための権限がない場合でも、接続されたWorkfront プロジェクトを表示できます。
 
 ## アクセス要件
 
@@ -82,10 +82,10 @@ Adobe Workfront Planningのレコードに接続レコードページのタブ�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
-<p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
-   </td> 
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p>
+または
+<p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
+</td> 
 <tr>
 <td> 
    <p> その他の製品</p> </td> 
@@ -95,13 +95,25 @@ Adobe Workfront Planningのレコードに接続レコードページのタブ�
    <p>詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets Essentials向けAdobe Workfront：記事インデックス </a>を参照してください。 </p></li>
    <li><p> レコードタイプとGenStudio Brandsを連携させるAdobe GenStudio for Performance Marketingライセンス</p>
    <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
-   </td> 
-  </tr>
 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+<p><b>メモ</b></p>
+   スタンドアロン製品としてPlanning パッケージを購入した場合は、Planning レコードタイプをWorkfront オブジェクトタイプに接続するためにWorkflow パッケージも購入する必要があります</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr>
    <td role="rowheader"><p>オブジェクト権限</p></td>
@@ -161,9 +173,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. （条件付き）接続されたレコードページに表示するレコードのタイプに応じて、次のいずれかの操作を行います。
 
    * プランニングレコードの管理
-詳しくは、この記事の「[&#x200B; プランニングレコードの接続レコードの管理](#manage-the-connected-records-page-for-planning-records)」の節を参照してください。
+     詳しくは、この記事の「[&#x200B; プランニングレコードの接続レコードの管理](#manage-the-connected-records-page-for-planning-records)」の節を参照してください。
    * Workfront プロジェクトの管理
-詳しくは、この記事の「[Workfront プロジェクトの接続されたレコードの管理](#manage-the-connected-records-page-for-workfront-projects)」の節を参照してください。
+     詳しくは、この記事の「[Workfront プロジェクトの接続されたレコードの管理](#manage-the-connected-records-page-for-workfront-projects)」の節を参照してください。
 
 1. （オプション）「**接続されたレコード」ページ**」タブの名前をダブルクリックします
 
@@ -283,16 +295,16 @@ When you create a connected records page for connected Planning records in the P
    1. **表示タイプ**&#x200B;領域から、次のいずれかのタイプのビューを選択します。
 
       * テーブル
-詳しくは、[&#x200B; テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください
+        詳しくは、[&#x200B; テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください
       * タイムライン
-詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
+        詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
       * カレンダー
-詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
+        詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
         詳しくは、この記事の「[接続されたレコードの複数のビューを管理する](#manage-multiple-views-from-the-connected-records-page)」の節を参照してください。
 
    1. 「**作成**」をクリックします。
-ビューのドロップダウンメニューに新しいビューが追加されます。
+      ビューのドロップダウンメニューに新しいビューが追加されます。
 
    1. （オプション）作成したビューの名前にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、次のいずれかのオプションをクリックします。
 
@@ -303,7 +315,7 @@ When you create a connected records page for connected Planning records in the P
       * **書き出し**
 
       * **削除**
-詳しくは、[&#x200B; レコードビューの削除](/help/quicksilver/planning/views/delete-record-views.md)を参照してください。
+        詳しくは、[&#x200B; レコードビューの削除](/help/quicksilver/planning/views/delete-record-views.md)を参照してください。
 
         ![&#x200B; プロジェクト接続レコードページのその他のメニューを表示](assets/view-more-menu-projects-connected-records-page.png)
 

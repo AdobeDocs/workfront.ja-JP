@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 765
+source-wordcount: 749
 ht-degree: 7%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 7%
 <col> 
 </col> 
 <col> 
-</col> 
+</col>  
 <tbody> 
     <tr> 
 <tr> 
@@ -64,17 +64,27 @@ ht-degree: 7%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<ul><li><p>任意のWorkfront パッケージとPlanning Plus パッケージ</p></li>
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p> 
 または
-<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></p></li></ul>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
-   </td> 
+<p>スタンドアロンの製品パッケージとしてのWorkfront Planningは</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
-   </td> 
+   <td><p>Workflow Standard</p> 
+  </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースに対する権限の管理</p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
@@ -158,8 +168,8 @@ And
 
 * 次の情報も、既存のグローバルレコードタイプから追加されます。
 
-   * すべてのオリジナルフィールド
-   * すべてのレコードの接続
+  * すべてのオリジナルフィールド
+  * すべてのレコードの接続
 * セカンダリワークスペースからレコードタイプの元のワークスペースから追加されたレコードを表示することはできません。
 * 少なくともそのワークスペースに対する表示権限がある場合は、元のワークスペースでのみ、そのワークスペース内のレコードタイプの元のワークスペースから追加されたレコードを表示できます。
 * 読み取り専用の&#x200B;**Workspace** フィールドが、新しいレコードタイプのテーブルビューに追加されます。 このフィールドには、各レコードが作成されたワークスペースが表示されます。

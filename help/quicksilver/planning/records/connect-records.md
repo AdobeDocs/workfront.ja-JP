@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 3723
-ht-degree: 27%
+source-wordcount: 3643
+ht-degree: 26%
 
 ---
 
@@ -59,27 +59,27 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
   次のアプリケーションから、次に示すタイプのオブジェクトにレコードを接続できます。
 
-   * Adobe Workfront
+  * Adobe Workfront
 
-      * プロジェクト
-      * ポートフォリオ
-      * プログラム
-      * 会社
-      * グループ
+    * プロジェクト
+    * ポートフォリオ
+    * プログラム
+    * 会社
+    * グループ
 
-   * Adobe Experience Manager
+  * Adobe Experience Manager
 
-      * アセット
+    * アセット
 
-        Workfront Planningでは、次のタイプのアセットを接続できます。
+      Workfront Planningでは、次のタイプのアセットを接続できます。
 
-         * 画像ファイル
-         * フォルダー
-      * コンテンツフラグメント
+      * 画像ファイル
+      * フォルダー
+    * コンテンツフラグメント
 
 * Adobe GenStudio for Performance Marketing
 
-   * ブランド
+  * ブランド
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -112,17 +112,26 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    <p>詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets Essentials向けAdobe Workfront：記事インデックス </a>を参照してください。 </p></li>
    <li><p> レコードタイプをGenStudio Brandsに接続したり、GenStudio WorkspaceにアクセスしたりするためのAdobe GenStudio for Performance Marketing ライセンス</p>
    <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
-   </td> 
+<p><b>メモ</b></p>
+<p>プランニングレコードをWorkfront オブジェクトに接続するには、Workfront Workflow パッケージを購入する必要があります。 </p>
+
+</td> 
   </tr>   
 <tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
-   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p> 
+<tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p> 
    <p>WorkfrontおよびAEM Assetsで、オブジェクトを接続するオブジェクトタイプのアクセス権を表示または上に設定します。 </p>  
 </td> 
   </tr>
@@ -214,15 +223,15 @@ Old:
 
 * レコードを他のレコードまたはオブジェクトに接続するには、次の情報が必要です。
 
-   * 少なくとも 1 つのワークスペース、レコードタイプおよびレコード。
+  * 少なくとも 1 つのワークスペース、レコードタイプおよびレコード。
 
-     詳しくは、次の記事を参照してください。
+    詳しくは、次の記事を参照してください。
 
-      * [ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
+    * [ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)
+    * [レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)
+    * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
 
-   * レコードタイプ間の接続や、レコードタイプと他のアプリケーションからのオブジェクト間の接続。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+  * レコードタイプ間の接続や、レコードタイプと他のアプリケーションからのオブジェクト間の接続。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 * 1つまたは複数のレコードまたはオブジェクトを相互に接続できます。 これは、レコードまたはオブジェクトタイプの接続時に選択した接続タイプによって異なります。 詳しくは、[接続レコードタイプの概要](/help/quicksilver/planning/architecture/connect-record-types-overview.md)を参照してください。
 
@@ -305,7 +314,7 @@ Workfront計画のレコードは、計画レコードの次の領域で接続�
    >
    >* Workfront オブジェクトの日付フィールド情報は、Workfrontでの表示方法に関係なく、Workfront Planningでは24時間形式で表示されます。
    >
-   >   例えば、プロジェクトの予定開始日がWorkfrontで午後3:00と表示される場合、読み込まれたルックアップフィールドにWorkfront Planningで15:00と表示されます。
+   >   例えば、プロジェクトの予定開始日がWorkfrontで午後3:00と表示される場合、読み込まれたルックアップフィールドでは、Workfront Planningで15:00と表示されます。
 
 1. （オプション）レコードタイプページを閉じて、選択したワークスペースに移動します。
 1. リンク先のレコードタイプのカードをクリックします。
@@ -423,8 +432,8 @@ No longer needed to specify:
 
 >[!NOTE]
 >
->プランニングレコードとそのフィールドには、Workfront管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Experience Manager Assetsからアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。
->PlanningのGenStudio ワークスペースのレコードをAEM オブジェクト（アセットおよびコンテンツフラグメント）に接続すると、GenStudio情報がAEMのAEM オブジェクトに自動的に表示されます。 AEM情報は、Workfront Planningで接続が行われたときに追加されたルックアップフィールドにGenStudio レコードに表示されます。 詳しくは、[Adobe Workfront PlanningでのGenStudio Workspaceの管理](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)を参照してください。
+>プランニングレコードとそのフィールドには、Workfront管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Experience Manager Assetsからアクセスできます。詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。
+>PlanningのGenStudio ワークスペースのレコードをAEM オブジェクト（アセットとコンテンツフラグメント）に接続すると、AEMのAEM オブジェクトにGenStudio情報が自動的に表示されます。AEM情報は、Workfront Planningで接続が行われたときに追加されたルックアップフィールドにGenStudio レコードに表示されます。詳しくは、[Adobe Workfront PlanningでのGenStudio Workspaceの管理](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)を参照してください。
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
@@ -468,7 +477,7 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
 
    >[!IMPORTANT]
    >
-   > 接続できるのは、Experience Manager で表示するアクセス権のあるアセットのみです。 接続すると、すべての Workfront Planning ユーザーは、Experience Manager Assets へのアクセス権に関係なく、Workfront Planning でアセットを表示できます。
+   > Experience Managerで表示するアクセス権のあるアセットのみを接続できます。接続すると、すべてのWorkfront Planning ユーザーは、Experience Manager Assetsでのアクセスに関係なく、Workfront Planningでアセットを表示できます。
    > Content Advisorについて詳しくは、[Content Advisorを使用してAdobe アプリケーションのAEM コンテンツにアクセスする](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}を参照してください。
 
 1. 「**コンテンツフラグメント**」タブから、「コンテンツフラグメント」を選択して、リンクされたレコードフィールドに追加します。
@@ -602,14 +611,14 @@ Workfront オブジェクトからWorkfront計画レコードを接続するに�
 * Workfront Planningで確立されたレコードタイプとWorkfront オブジェクトタイプの間の接続。
 * Workfrontまたはグループ管理者は、次のいずれかをWorkfront オブジェクトタイプに追加する必要があります。
 
-   * レイアウトテンプレート内のWorkfront プロジェクト、ポートフォリオ、およびプログラムの計画セクション。
+  * レイアウトテンプレート内のWorkfront プロジェクト、ポートフォリオ、およびプログラムの計画セクション。
 
-   * Planningは、次のいずれかのオブジェクトのカスタムフォームにカスタムフィールドを接続します。
+  * Planningは、次のいずれかのオブジェクトのカスタムフォームにカスタムフィールドを接続します。
 
-      * プロジェクト
-      * ポートフォリオ
-      * プログラム
-      * グループ
-      * 会社
+    * プロジェクト
+    * ポートフォリオ
+    * プログラム
+    * グループ
+    * 会社
 
   詳しくは、[Workfront オブジェクトからのレコード接続の管理](/help/quicksilver/planning/records/manage-records-in-planning-section.md)を参照してください。

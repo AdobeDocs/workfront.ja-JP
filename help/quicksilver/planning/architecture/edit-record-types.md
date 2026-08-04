@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 611
-ht-degree: 26%
+source-wordcount: 648
+ht-degree: 25%
 
 ---
 
@@ -55,29 +55,37 @@ ht-degree: 26%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p>
+<p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
 <p><b>メモ</b></p>
 <p>接続可能なレコードタイプを設定するには： </p>
 <ul> 
 <li><p>任意のWorkfront パッケージと任意のPlanning パッケージ</p></li>
 または
-<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li></ul>
-
+<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li>
+または
+<li>任意のPlanning PrimeおよびUltimate パッケージ</li>
+</ul>
 
 <p>グローバルレコードタイプを設定するには：</p>
 
 <ul> 
-<li><p>任意のWorkfront パッケージとPlanning Plus パッケージ</p></li>
+<li><p>Planning Plus パッケージを含む任意のWorkfront パッケージ</p></li>
 または
-<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li></ul>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p>
-
-</td> </tr>
+<li><p>任意のワークフローとプランニング PrimeまたはUltimate パッケージ</p></li>
+または
+<li>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</li>
+</ul>
+   </td> </tr>
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
-   </td> 
+   <td role="rowheader"><p>Adobe Workfrontおよびプランニングライセンス</p></td> 
+   <td><p>任意</p> 
+  </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -138,7 +146,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -162,7 +170,7 @@ Old:
 1. 次のいずれかの操作を行います。
 
    * レコードタイプのカードにカーソルを合わせ、レコードタイプカードの右上隅にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;または&#x200B;**設定をクリックします**
-または
+     または
    * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**編集**&#x200B;または&#x200B;**設定**&#x200B;をクリックします。
 
    ![設定を含むレコードタイプカードのその他のメニューオプション &#x200B;](assets/more-menu-options-from-record-type-card-with-settings-link.png)
@@ -176,8 +184,8 @@ Old:
    * 必要に応じて、レコードタイプ名を編集します。<!--did they add a field label for this?-->
    * **説明**: レコードタイプの説明を、その詳細を含めて編集または追加します。
    * レコードタイプに関連付けられているアイコンの色と形状を編集します。 次の操作を実行します。
-      * レコードタイプを識別するための色を選択します。 これは、レコードタイプアイコンの色です。
-      * リストからアイコンを選択するか、アイコンの名前を入力して何を表しているか説明し、表示されたら選択します。 これは、レコードタイプのアイコンです。 ファイルのアイコンはデフォルトで選択されています。
+     * レコードタイプを識別するための色を選択します。 これは、レコードタイプアイコンの色です。
+     * リストからアイコンを選択するか、アイコンの名前を入力して何を表しているか説明し、表示されたら選択します。 これは、レコードタイプのアイコンです。 ファイルのアイコンはデフォルトで選択されています。
 
 1. （オプションおよび条件付き）システム管理者の場合は、「**クロスワークスペース設定**」タブをクリックし、レコードタイプのクロスワークスペース機能に関する情報を更新します。
 

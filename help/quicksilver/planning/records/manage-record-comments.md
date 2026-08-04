@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 899
-ht-degree: 52%
+source-wordcount: 931
+ht-degree: 51%
 
 ---
 
@@ -57,13 +57,28 @@ ht-degree: 52%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
-   </td> 
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p> 
+または
+<p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>コントリビューター以上</p>
+   <td><p>ワークフローライト以上</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>プランニングライセンス</p></td> 
+   <td><p>Planning Contributor以上</p>
+
+<p><b>メモ</b></p>
+   <p> すべてのお客様がPlanning Contributor ライセンスを持っているわけではありません</p>
+   </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -125,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

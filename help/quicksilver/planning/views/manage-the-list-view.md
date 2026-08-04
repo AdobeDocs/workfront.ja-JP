@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 1%
+source-wordcount: '1847'
+ht-degree: 2%
 
 ---
 
@@ -48,6 +48,7 @@ Workfront Planningの次の領域では、リストビューでオブジェク�
 
 +++ 展開して、この記事の機能のアクセス要件を表示します。 
 
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -60,15 +61,29 @@ Workfront Planningの次の領域では、リストビューでオブジェク�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
-<p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
+または
+<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p> ビューの作成と削除を行う標準</p>
-   <p>ビュー要素を更新する貢献者以上</p>
+   <td><p>ワークフローライト以上</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p> ビューを作成および削除するためのPlanning Standard</p>
+   <p>ビュー要素を更新するPlanning Contributor以上</p>
+   <p><b>メモ</b><p>
+   <p>すべてのお客様がPlanning Contributor ライセンスを持っているわけではありません</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 

@@ -4,9 +4,9 @@ description: 2026年第4四半期の管理者の機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Adobe Workfrontの「変更履歴」ページには、統一されたレビュ�
 
 各エントリには、日付と時刻、操作、ユーザー名（または「システム生成」）、オブジェクト名など、トラッキングされた標準フィールドが含まれます。 どのLLM （Claudeなど）が更新したかなど、MCP アクティビティがキャプチャされます。 Frame.io ビューアコメントは含まれません。
 
-詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。
+詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)を参照してください。
 
 ## カスタムアプリケーションをレイアウトテンプレートのランディングページとして定義する
 
@@ -107,7 +107,7 @@ Workfront全体で、特定の種類のオブジェクトをトラッキング�
 
 以前は、トラッキング対象フィールドを定義するための設定画面は表示専用でした。
 
-詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。
+詳細については、[変更履歴で追跡するフィールドの設定](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)を参照してください。
 
 ## アクセス レベルに追加された変更履歴への管理アクセス
 
@@ -117,6 +117,6 @@ Workfront全体で、特定の種類のオブジェクトをトラッキング�
 
 標準アクセスレベルで、そのレベルを持つユーザーが変更履歴リストにアクセスできるかどうかを定義できるようになりました。 「**履歴を変更**」オプションは、アクセスレベルの「**の管理アクセスを許可する」セクションで利用できます。**
 
-詳細については、[特定の領域への管理者アクセス権をユーザーに付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)および[変更履歴を表示および管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。
+詳細については、[特定の領域への管理者アクセス権をユーザーに付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)および[変更履歴を表示および管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)を参照してください。
 
 

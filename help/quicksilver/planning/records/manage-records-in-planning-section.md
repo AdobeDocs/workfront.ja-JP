@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1777
+source-wordcount: 1740
 ht-degree: 4%
 
 ---
@@ -59,19 +59,24 @@ WorkfrontのWorkfront計画レコードは、そのレコードに接続され�
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p>
-<p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p>
+または
+<p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr>
   <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>プロジェクト、プログラム、ポートフォリオへのアクセス権を表示または上げる</p>  
-   <p>Workfront Planningにはアクセスレベルの設定はありません。 </p>
+   <td><p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p> 
+   <p>プロジェクト、プログラム、ポートフォリオへのアクセス権を表示または上げる</p> 
 </td>
   </tr>
 <tr>
@@ -185,8 +190,8 @@ Workfront オブジェクトの「計画」セクションからWorkfront計画�
 
   詳しくは、次の記事を参照してください。
 
-   * [レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
+  * [レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
 * Workfront オブジェクトに関連付けられているレコードがない場合でも、Workfront オブジェクトから計画セクションを表示できます。
 * レコードタイプは、2つのレコードタイプ間の連結を作成する際に、リンクされたレコードタイプ設定の「対応するフィールドを作成」を有効にした場合にのみ、Workfront オブジェクトの「計画」領域に表示されます。
 
@@ -218,9 +223,9 @@ Workfront オブジェクトの「計画」セクションからWorkfront計画�
    「計画」セクションには、次の情報が表示されます。
 
    * 接続されたレコードは、次の情報を含む個々のカードに表示されます。
-      * レコードの名前
-      * レコードのサムネール
-      * Workfront Planningに表示される、接続されたレコードフィールドの名前。
+     * レコードの名前
+     * レコードのサムネール
+     * Workfront Planningに表示される、接続されたレコードフィールドの名前。
    * レコードは、それぞれのワークスペースとレコードタイプの下に表示されます。
 
    ![&#x200B; プロジェクトの計画セクション &#x200B;](assets/planning-section-on-project.png)
@@ -253,11 +258,11 @@ Planning接続のカスタムフィールドを作成する際に、Workfront �
 
 * 「計画接続」フィールドには、接続が確立された後、および次のWorkfront オブジェクトのフォームにフィールドが添付された場合に、計画レコードが表示されます。
 
-   * プロジェクト
-   * ポートフォリオ
-   * プログラム
-   * グループ
-   * 会社
+  * プロジェクト
+  * ポートフォリオ
+  * プログラム
+  * グループ
+  * 会社
 
 詳細については、[&#x200B; フォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
@@ -267,8 +272,8 @@ Workfront オブジェクトのPlanning Connection フィールドからWorkfron
 
 * Planning レコードをWorkfront オブジェクトに接続すると、Workfront オブジェクトのカスタムフォームにPlanning接続フィールドが次のように表示されます。
 
-   * 接続されたレコードのプライマリフィールドのみが選択されている場合、接続で複数のレコードをリンクできる場合、「計画接続」フィールドは複数の値を持つフィールドとして表示されます。 詳しくは、[接続レコードタイプの概要](/help/quicksilver/planning/architecture/connect-record-types-overview.md)を参照してください。
-   * Workfrontまたはグループ管理者がカスタムフォーム上の接続されたレコードから追加のルックアップフィールドを追加した場合、「計画接続」フィールドがテーブルとして表示されます。 「計画接続」フィールドには、最大7つのフィールドを選択できます。 テーブルビューは読み取り専用です。
+  * 接続されたレコードのプライマリフィールドのみが選択されている場合、接続で複数のレコードをリンクできる場合、「計画接続」フィールドは複数の値を持つフィールドとして表示されます。 詳しくは、[接続レコードタイプの概要](/help/quicksilver/planning/architecture/connect-record-types-overview.md)を参照してください。
+  * Workfrontまたはグループ管理者がカスタムフォーム上の接続されたレコードから追加のルックアップフィールドを追加した場合、「計画接続」フィールドがテーブルとして表示されます。 「計画接続」フィールドには、最大7つのフィールドを選択できます。 テーブルビューは読み取り専用です。
 
 * 1つのレコードタイプのみを1つのPlanning接続フィールドに関連付けることができます。 フォームに含めるPlanning接続フィールドの数に制限はありません。
 * Planning接続のカスタムフィールドを含むカスタムフォームをWorkfront オブジェクトに添付するには、オブジェクト、レコードおよびWorkfront Planningに対する正しいアクセス権と権限が必要です。

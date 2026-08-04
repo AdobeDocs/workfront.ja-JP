@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1693
 ht-degree: 7%
 
 ---
@@ -50,9 +50,9 @@ Adobe Workfront Planningのレコードタイプで、個々のレコードに�
 
   詳しくは、次の記事を参照してください。
 
-   * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
+  * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
+  * [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
 
 * **共有** オプションを使用して、個々のレコードを共有するか、複数のレコードを一括共有します。
 
@@ -79,21 +79,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p> 
 または
 <p>スタンドアロンの製品パッケージとしてのWorkfront Planningは</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td><p>任意</p> 
-   <p><b>メモ</b></p>
-   <p>レコードに対する管理権限を付与できるのは、標準ライセンスを持つユーザーのみです。 他のすべてのライセンスには表示権限しかなく、「管理」オプションはグレー表示されます。</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>任意</p> 
+<p><b>メモ</b></p>
+   <p>Planning Standard ライセンスを持つユーザーのみが、レコードに対する管理権限を付与できます。 他のすべてのライセンスには表示権限しかなく、「管理」オプションはグレー表示されます。</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>  
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
@@ -119,14 +129,14 @@ maybe use the Share record types as example here and touch on the same points: h
 * レコードは、人物、グループ、チーム、会社、担当業務の各エンティティと共有できます。
 * 次の制限があります。
 
-   * 一度に100を超えるレコードを共有することはできません。
-   * 100個を超えるエンティティを持つレコードは共有できません。
+  * 一度に100を超えるレコードを共有することはできません。
+  * 100個を超えるエンティティを持つレコードは共有できません。
 * 権限をレコードに制限すると、ユーザーはそのレコードとそのルックアップフィールドの値を、そのレコードが表示されるシステム内の任意の場所に表示しなくなります。
 * Workfrontは、最大5つのレコードの詳細な接続でレコード権限をチェックし、ユーザーが自分と共有されたレコードのみを表示できるようにします。
 * レコードに次のレベルの権限を付与できます。
 
-   * 表示
-   * 管理
+  * 表示
+  * 管理
 * ワークスペースとレコードタイプをユーザーと共有すると、デフォルトでは、ワークスペース内のレコードに対しても同じ権限が付与されます。
 ユーザーがワークスペースまたはレコードタイプに対するContribute権限を持っている場合、そのレコードタイプのレコードに対する管理権限を受け取ります。
 * ワークスペースからエンティティを削除すると、そのワークスペース内のレコードタイプとすべてのレコードからすべての共有権限が削除されます。
@@ -135,13 +145,13 @@ maybe use the Share record types as example here and touch on the same points: h
   ワークスペース内にいないユーザーとレコードを共有すると、レコードは自動的にワークスペースに追加されます。
 * レコードへのユーザーのアクセスは、次の3つの設定の組み合わせによって決定されます。
 
-   * その権限は、レコードタイプとワークスペースから継承されます
-   * レコード共有ボックスに個別に追加された権限
-   * ワークスペース内の&#x200B;**全員が**&#x200B;設定を表示できます。
+  * その権限は、レコードタイプとワークスペースから継承されます
+  * レコード共有ボックスに個別に追加された権限
+  * ワークスペース内の&#x200B;**全員が**&#x200B;設定を表示できます。
 
-     これにより、ワークスペース内の全員がレコードを表示できるようになります
+    これにより、ワークスペース内の全員がレコードを表示できるようになります
 
-     <!--
+    <!--
       Cannot do this on a record: 
       * **Only invited people can access**: This is selected by default and allows restricting access to the record to specific people. 
       -->
@@ -150,8 +160,8 @@ maybe use the Share record types as example here and touch on the same points: h
 
   例：
 
-   * レコードタイプに対する表示権限がある場合、レコードに対する表示権限を取得します
-   * レコードタイプに対するContribute権限またはManage権限がある場合、レコードに対するManage権限を取得します
+  * レコードタイプに対する表示権限がある場合、レコードに対する表示権限を取得します
+  * レコードタイプに対するContribute権限またはManage権限がある場合、レコードに対するManage権限を取得します
 
 * ユーザーがワークスペースおよびレコードタイプに対する管理権限またはコントリビュート権限を持っていて、それらをレコード権限に追加すると、「表示」権限がグレー表示されます。 レコードには、レコードタイプと同じ権限が保持され、レコードに対して低い権限を与えることはできません。
 

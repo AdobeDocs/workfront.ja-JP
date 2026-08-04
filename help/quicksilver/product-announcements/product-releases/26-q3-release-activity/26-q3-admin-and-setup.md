@@ -4,7 +4,7 @@ description: 2026年第3四半期：管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 5%
@@ -36,7 +36,7 @@ Adobe Workfrontの「変更履歴」ページには、統一されたレビュ�
 
 この変更追跡フェーズには、MCP イベントは含まれません。 これらは将来のリリースの一部になります。
 
-詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。
+詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)を参照してください。
 
 -->
 
@@ -142,7 +142,7 @@ Adobe Workfrontの「変更履歴」ページには、統一されたレビュ�
 
 以前は、監査ログは利用できましたが、オブジェクトはカバーしていませんでした。
 
-詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)を参照してください。
+詳しくは、[変更履歴の表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)を参照してください。
 
 ## 従来のストレージポートフォリオをAdobe クラウドストレージに変換する新しいシステム環境設定
 

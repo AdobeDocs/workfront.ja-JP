@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 839
+source-wordcount: 861
 ht-degree: 12%
 
 ---
@@ -57,16 +57,26 @@ ht-degree: 12%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のWorkfrontおよびプランニングパッケージ</p> <p>任意のワークフローとプランニングパッケージ</p>
-<p>各Workfront計画パッケージに含まれる内容について詳しくは、Workfrontの担当者にお問い合わせください。 </p> 
+<p>任意のWorkfrontまたはワークフローとプランニングパッケージ</p> 
+または
+<p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr>
-
-<tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
+   <td><p>計画標準</p>
+   </td> 
+  </tr>
+ <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
+</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td> <p>レコードを読み込むワークスペースおよびレコードタイプに対して、より高い権限を付与します。 </p>
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
@@ -127,7 +137,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect them from new records  </p>  
 </td> 
   </tr> 
@@ -149,21 +159,21 @@ Old:
 * 各シートの各行は、関連付けられた一意のレコードになります。
 * Excel ファイルに複数のシートが含まれている場合は、読み込みプロセスで選択した1つのシートの情報のみが読み込まれます。
 * ファイルは次の値を超えてはなりません。
-   * 25,000 行
-   * 500 列
+  * 25,000 行
+  * 500 列
 * ファイルのサイズは5 MB以下にする必要があります。
 * 空のシートはサポートされていません。
 * 次のタイプのフィールドはサポートされていないため、インポートシートのフィールドにマッピングできません。
 
-   * WorkfrontおよびAdobe Experience Managerのオブジェクトタイプにフィールドを接続します。 接続フィールドのみをPlanning レコードタイプにマッピングできます。
-   * 接続されたPlanning レコードまたはWorkfrontおよびAdobe Experience Manager オブジェクトからのルックアップフィールド
-   * 数式フィールド
-   * 作成日、作成者
-   * 最終変更日、最終変更者
-   * 承認日、承認者
-   * ユーザー
-   * レコード ID
-   * 複数選択または単一選択フィールドが読み込まれ、Planningの類似フィールドよりも多くの選択肢がある場合、読み込み中に追加のオプションが作成されます。 ワークスペースに対する管理権限を持つユーザーのみが、新しい選択肢をインポートできます。
+  * WorkfrontおよびAdobe Experience Managerのオブジェクトタイプにフィールドを接続します。 接続フィールドのみをPlanning レコードタイプにマッピングできます。
+  * 接続されたPlanning レコードまたはWorkfrontおよびAdobe Experience Manager オブジェクトからのルックアップフィールド
+  * 数式フィールド
+  * 作成日、作成者
+  * 最終変更日、最終変更者
+  * 承認日、承認者
+  * ユーザー
+  * レコード ID
+  * 複数選択または単一選択フィールドが読み込まれ、Planningの類似フィールドよりも多くの選択肢がある場合、読み込み中に追加のオプションが作成されます。 ワークスペースに対する管理権限を持つユーザーのみが、新しい選択肢をインポートできます。
 
 ## CSVまたはExcel ファイルを読み込んでレコードを作成する
 
