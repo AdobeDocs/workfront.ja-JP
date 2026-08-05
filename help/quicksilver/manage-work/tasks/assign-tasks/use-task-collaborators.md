@@ -4,7 +4,7 @@ content-type: reference
 description: Workfront タスクに割り当てることができるタスクコラボレーター、AI コラボレーターの使用方法について説明します。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: f1bdb685cb7974c5c445377e0baa4f4b4e7dfa13
+source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 8%
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 タスクコラボレーターは、MCP サーバーのように、設定したエージェントに接続します。
 
-Workfrontでのタスクコラボレーターの作成について詳しくは、「[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
+Workfrontでのタスクコラボレーターの作成について詳しくは、「[ タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
 
 ## アクセス要件
 
@@ -31,7 +31,7 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] パッケージ</td> 
-   <td><p>Standard、Prime、またはUltimate</p></td> 
+   <td><p>Select、Prime、またはUltimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] ライセンス</td> 
@@ -67,10 +67,10 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
 >* エージェントの責任と機能に関する具体的な詳細は、Workfrontではなく、エージェントが作成されるアプリケーションで設定されます。
 >* タスクコラボレーターは現在、Copilot Studio、Claude、およびWriter.aiで作成されたエージェントをサポートしています。
 >* Copilot Studioでエージェントを設定する場合、セキュリティを&#x200B;**認証なし**&#x200B;に設定する必要があります。
->* Workfrontでのタスクコラボレーターの作成について詳しくは、「[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
+>* Workfrontでのタスクコラボレーターの作成について詳しくは、「[ タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
 
 ## タスク共同作業者のタスクへの割り当て
 
 タスク共同作業者は、ユーザーの割り当てと同じようにタスクに割り当てられます。
 
-手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
+手順については、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
