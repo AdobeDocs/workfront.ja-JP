@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 5377
-ht-degree: 39%
+source-wordcount: 5442
+ht-degree: 38%
 
 ---
 
@@ -206,6 +206,10 @@ CSVまたはExcel ファイルを使用してレコードタイプを読み込�
 詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
 ## Workfrontからフィールドを読み込んで作成する
+
+>[!IMPORTANT]
+>
+>Workfrontからフィールドを読み込んでフィールドを作成することは、スタンドアロン製品としてPlanningを購入したお客様には使用できません。
 
 既存のWorkfront フィールドのコピーを読み込むことができます。
 
@@ -475,7 +479,7 @@ Workfrontからフィールドを読み込むと、Workfront計画レコード�
 >数値フィールドは、リクエストフォームビルダーで1行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後、レコードタイプおよびリクエストの詳細ページに数値として表示されます。
->詳しくは、[Adobe Workfront Planningでのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
+>詳しくは、[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でのリクエストフォームの作成と管理を参照してください。
 
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**数値**&#x200B;フィールドタイプを選択します。
@@ -505,7 +509,7 @@ Workfrontからフィールドを読み込むと、Workfront計画レコード�
 >パーセンテージフィールドは、リクエストフォームビルダーで1行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後、レコードタイプおよびリクエストの詳細ページにパーセンテージとして表示されます。
->詳しくは、[Adobe Workfront Planningでのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
+>詳しくは、[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でのリクエストフォームの作成と管理を参照してください。
 
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**パーセント**&#x200B;フィールドタイプを選択します。
@@ -545,7 +549,7 @@ Workfrontからフィールドを読み込むと、Workfront計画レコード�
 >通貨フィールドは、リクエストフォームビルダーで1行テキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後、レコードタイプおよびリクエストの詳細ページに通貨として表示されます。
->詳しくは、[Adobe Workfront Planningでのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)を参照してください。
+>詳しくは、[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でのリクエストフォームの作成と管理を参照してください。
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**通貨**&#x200B;フィールドタイプを選択します。
 

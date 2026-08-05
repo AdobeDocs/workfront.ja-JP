@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 2563
+source-wordcount: 2584
 ht-degree: 1%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 1%
 1. 「**新規ダッシュボード**」をクリックします。
 1. ダッシュボードに名前を付けます。
 1. （オプション）説明を追加します。
+1. （オプション）複数の通貨がWorkfront インスタンスで定義されている場合は、ダッシュボードのデフォルト通貨を選択することもできます。
 1. 「**作成**」をクリックします。
    ![&#x200B; ダッシュボード名と説明を追加](assets/create-a-dashboard.png)
 

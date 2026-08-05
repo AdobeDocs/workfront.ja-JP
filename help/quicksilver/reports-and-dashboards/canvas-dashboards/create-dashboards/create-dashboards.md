@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 384
-ht-degree: 21%
+source-wordcount: 542
+ht-degree: 16%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 21%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->発生する可能性のあるバグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
@@ -88,9 +88,7 @@ Canvas ダッシュボードには、ダッシュボードを作成するとき�
 
 1. 右上隅の「**新しいダッシュボード**」をクリックします。
 
-1. **ダッシュボードを作成** ボックスで，
-
-1. 以下を指定します。
+1. 「**ダッシュボードを作成**」ボックスで、次の項目を指定します。
 
    <table style="table-layout:auto">
     <col>
@@ -106,8 +104,9 @@ Canvas ダッシュボードには、ダッシュボードを作成するとき�
      </tr>
       <tr>
       <td role="rowheader"><strong>通貨</strong></td>
-      <td>ダッシュボードのデフォルトの通貨タイプを選択します。 <br>
-      <br> ユーザーは、ダッシュボードをフィルタリングする際に、異なる通貨タイプを切り替えることができます。 詳しくは、<a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">通貨タイプ別にダッシュボードをフィルタリング </a>するを参照してください。</td>
+      <td><p>ダッシュボードのデフォルトの通貨タイプを選択します。</p>
+      <p>ダッシュボードをフィルタリングする際に、様々な通貨タイプを切り替えることができます。 詳しくは、<a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">通貨タイプ別にダッシュボードをフィルタリング </a>するを参照してください。</p>
+      <p><strong>注意：</strong> Workfront インスタンスで定義されている通貨が1つしかない場合、ダッシュボードの作成時に「通貨」フィールドは表示されません。</p></td>
      </tr>
     </tbody>
    </table>

@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 3098
-ht-degree: 25%
+source-wordcount: 3121
+ht-degree: 24%
 
 ---
 
@@ -48,6 +48,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 -->
 
 レコードタイプを相互に接続したり、レコードタイプを他のアプリケーションのオブジェクトタイプと接続したりできます。
+
+>[!IMPORTANT]
+>
+>Planningのレコードタイプを他のアプリケーションのオブジェクトタイプと接続する場合は、それらのアプリケーションのライセンスとアカウントも必要です。
 
 相互に影響を与える複数のタイプの作業オブジェクトがある場合、レコードタイプを接続すると便利です。 例えば、キャンペーンの作業をする際に、各キャンペーンが複数のブランドを対象としている場合があります。 この関係を示すために、ブランドにキャンペーンを接続できます。 これにより、キャンペーンレコードのブランドの接続フィールドが作成されます。
 

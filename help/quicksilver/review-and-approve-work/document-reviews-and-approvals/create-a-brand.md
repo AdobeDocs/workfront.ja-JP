@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: 627
 ht-degree: 7%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 7%
 * Workfront インスタンスでは、統合承認が有効になっている必要があります。
 
 * 組織にはGenStudio Foundationが必要です。
-   * WorkfrontのContent Reviewerには、GenStudio Foundationでアセットのレビューおよび承認ワークフローに使用できる機能が用意されています。 作業を完了するためにGenStudio Foundationに直接アクセスする必要はありません。 Content Reviewerを介したGenStudio Foundation機能へのアクセスは、Workfront契約の条件に該当します。
+  * WorkfrontのContent Reviewerには、GenStudio Foundationでアセットのレビューおよび承認ワークフローに使用できる機能が用意されています。 作業を完了するためにGenStudio Foundationに直接アクセスする必要はありません。 Content Reviewerを介したGenStudio Foundation機能へのアクセスは、Workfront契約の条件に該当します。
 * Adobeには、署名済みのAdobe Gen AI契約書がファイルに登録されている必要があります。
 契約書への署名について詳しくは、[Adobe Gen AI契約書への署名](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)を参照してください。
 
@@ -142,6 +142,8 @@ ht-degree: 7%
 
 
 ## ブランドガイドラインの作成方法のベストプラクティス
+
+ガイドラインを作成する前に、画像とブランドボイスのガイドラインの種類について[&#x200B; コンテンツレビュー担当者が評価する内容](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates)を確認してください。 これらの評価領域以外のガイドラインは採点されません。
 
 *  測定可能な基準を示すブランドガイドラインを作成する。 コンテンツレビュアーは、コンテンツを文字通り評価するため、客観的なルールは、主観的なルールよりも一貫性のあるスコアを生成します。
 

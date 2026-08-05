@@ -1,6 +1,6 @@
 ---
 title: Adobe Workfrontからのフィールドの読み込み
-description: Adobe Workfront Planning では、レコードタイプの種類ごとにカスタムフィールドを作成できます。 そしてフィールドを Workfront Planning レコードに関連付けることができます。
+description: Adobe Workfront Planningでは、Adobe Workfrontから既存のフィールドを追加できます。 次に、それらをプランニングレコードに関連付けることができます。 組織がスタンドアロン製品としてPlanningを購入している場合、Workfrontの既存のフィールドを読み込むことはできません。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 622
-ht-degree: 22%
+source-wordcount: 640
+ht-degree: 17%
 
 ---
 
@@ -41,8 +41,11 @@ ht-degree: 22%
 
 {{planning-important-intro}}
 
-既存のWorkfront フィールドのコピーを読み込むことができます。 Workfrontからフィールドを読み込むと、Workfront計画レコードタイプの各フィールドのコピーが作成されます。
+既存のAdobe Workfront フィールドのコピーを読み込むことができます。 Workfrontからフィールドを読み込むと、Workfront計画レコードタイプの各フィールドのコピーが作成されます。
 
+>[!IMPORTANT]
+>
+>Workfrontからフィールドを読み込んでフィールドを作成することは、スタンドアロン製品としてPlanningを購入したお客様には使用できません。
 
 ## アクセス要件
 
@@ -59,11 +62,9 @@ ht-degree: 22%
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
-   <td> 
-<ul> 
-<li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
-または
-<li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
+   <td>
+
+<p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
@@ -74,13 +75,9 @@ ht-degree: 22%
    <td role="rowheader"><p>Adobe計画ライセンス</p></td> 
    <td><p>計画標準</p>
    </td> 
-  </tr> 
+  </tr>
+
 <tr> 
-   <td role="rowheader"><p>アクセスレベル設定</p></td> 
-   <td> <p>ワークフローとPlanning パッケージの両方を持っている場合は、ワークフローとPlanning ライセンスタイプの両方をアクセスレベルに追加する必要があります</p>   
-</td> 
-  </tr>  
-  <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースに対する権限の管理</p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 

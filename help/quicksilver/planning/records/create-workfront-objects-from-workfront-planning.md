@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1340
+source-wordcount: 1364
 ht-degree: 7%
 
 ---
@@ -106,8 +106,16 @@ Planning レコードとWorkfront オブジェクトの接続について詳し�
 <li><p>プランニングパッケージを含む任意のWorkfrontまたはワークフロー</p></li>
 または
 <li><p>スタンドアロン製品として購入された場合の任意のプランニング・パッケージ</p></li></ul>
+   </td>
+
+<tr> 
+   <td role="rowheader"><p>製品</p></td> 
+   <td><p>組織がWorkfront Planningをスタンドアロン製品として購入した場合は、PlanningからWorkfront オブジェクトを作成するワークフローパッケージも購入する必要があります。</p>
    </td> 
-  <tr> 
+  </tr>
+
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td><p>Workflow Standard</p>
    </td> 

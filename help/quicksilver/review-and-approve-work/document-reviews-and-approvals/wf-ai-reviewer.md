@@ -20,10 +20,10 @@ subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 4%
+source-wordcount: 960
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ Workfrontでコンテンツレビューアーを設定するには、システ�
 
 * Workfront インスタンスでは、統合承認が有効になっている必要があります。
 * 組織にはGenStudio Foundationが必要です。
-   * WorkfrontのContent Reviewerには、GenStudio Foundationでアセットのレビューおよび承認ワークフローに使用できる機能が用意されています。 作業を完了するためにGenStudio Foundationに直接アクセスする必要はありません。 Content Reviewerを介したGenStudio Foundation機能へのアクセスは、Workfront契約の条件に該当します。
+  * WorkfrontのContent Reviewerには、GenStudio Foundationでアセットのレビューおよび承認ワークフローに使用できる機能が用意されています。 作業を完了するためにGenStudio Foundationに直接アクセスする必要はありません。 Content Reviewerを介したGenStudio Foundation機能へのアクセスは、Workfront契約の条件に該当します。
 * Adobeには、署名済みのAdobe Gen AI契約書がファイルに登録されている必要があります。
 契約書への署名について詳しくは、[Adobe Gen AI契約書への署名](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)を参照してください。
 * サンドボックス環境では、コンテンツレビュアーは使用できません。
@@ -83,12 +83,46 @@ Workfront Content Reviewerは、コンテンツをレビューする際にブラ
 1つ以上のブランドを設定すると、Workfront管理者は設定領域でコンテンツレビューアーの作成を開始できます。 異なるガイドラインに焦点を当てた複数のコンテンツレビューアーを作成できます。
 
 * **画像**：このコンテンツレビュアーは、Workfrontで設定した画像ブランドガイドラインに照らし合わせてアセットをレビューします。 [!BADGE Beta]{type=Positive tooltip="この機能は現在ベータ版です。"}
-   * この機能を有効にするには、システム管理者がベータ版の契約書に署名する必要があります。
+  * この機能を有効にするには、システム管理者がベータ版の契約書に署名する必要があります。
 * **ブランドボイス**: コンテンツレビュー担当者は、Workfrontで設定したブランドボイスのガイドラインに照らし合わせてアセットを確認します。
 
 その後、コンテンツレビュー担当者を承認テンプレートや個別のレビューおよび承認リクエストに割り当てることができます。
 
 詳しくは、[AI コラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)を参照してください。
+
+## コンテンツレビュアーの評価 {#what-content-reviewer-evaluates}
+
+コンテンツレビュー担当者は、ガイドラインの種類（画像またはブランドボイス）に応じてコンテンツを異なる方法で評価します。
+
+### 画像
+
+コンテンツレビュアーは次の項目を評価します。
+
+* **構図**：焦点、背景、切り抜き、クリエイティブな構図
+* **照明とムード**：光、鮮やかさ、楽観主義の使用
+* **多様性とインクルージョン**：人物像（人種、性別、年齢、能力）
+
+Content Reviewerは次の項目を評価しません。
+
+* **ロゴの使用状況**：配置、空き領域、サイズ、正しいロゴバージョン
+* **カラーパレット**：ブランドの色のコンプライアンス、未承認の色の回避
+* **タイポグラフィ**: フォントファミリー、重み、間隔、整列
+* **イラストスタイル**：ブランドのイラストアプローチとの一貫性
+* **アクセシビリティ**: コントラストコンプライアンス、読みやすさ
+
+### ブランドボイス
+
+コンテンツレビュアーは次の項目を評価します。
+
+* **声のトーン**：会話形式で、明確で、人間味があり、ブランドパーソナリティに沿っている
+* **言葉遣い/形式**：流行語、エリティズム、過剰な形式の回避
+* **メッセージ**：奨励、正直、責任あるポジショニング（AI トピックなど）
+
+Content Reviewerは次の項目を評価しません。
+
+* **法律/コンプライアンス**：商標の使用、免責事項、ローカライゼーションルール
+
+コンテンツレビュー担当者が評価する内容に沿ったブランドガイドラインの作成に関するガイダンスについては、[&#x200B; コンテンツレビュー担当者のブランドの作成と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)を参照してください。
 
 ## レビュー担当者と承認リクエストにコンテンツレビュー担当者を追加
 

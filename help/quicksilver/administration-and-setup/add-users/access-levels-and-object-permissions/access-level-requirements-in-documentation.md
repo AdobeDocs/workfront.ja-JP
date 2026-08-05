@@ -23,10 +23,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1070
-ht-degree: 62%
+source-wordcount: 1184
+ht-degree: 56%
 
 ---
 
@@ -58,14 +58,25 @@ Workfront ドキュメントの操作手順記事には、その手順に必要�
   <p>お客様は、これらの領域の1つ以上でWorkfront パッケージを購入した可能性があります。</p>
   <p>以前、Workfrontでは、Workfront Select、Workfront Prime、Workfront Ultimateの各パッケージが提供されていましたが、ワークフロー、プランニング、自動処理および統合は区別されていませんでした。 組織は、これらのレガシーパッケージの1つに属している可能性があります。 
    <ul><li>現在のパッケージモデルと従来のパッケージモデルのどちらを使用しているかなど、組織で使用されているAdobe Workfront パッケージを確認するには、Workfront管理者にお問い合わせください。</li>
-   <li>Workfront管理者が組織のWorkfront パッケージを見つける方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">組織のクラスターとWorkfront パッケージの表示</a>を参照してください。</li><li>Workfront パッケージについて詳しくは、<a href="https://business.adobe.com/jp/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a>を参照してください。</li></ul> </td> 
+   <li>Workfront管理者が組織のWorkfront パッケージを見つける方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">組織のクラスターとWorkfront パッケージの表示</a>を参照してください。</li><li>Workfront パッケージについて詳しくは、<a href="https://business.adobe.com/jp/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a>を参照してください。</li></ul>
+
+Workfront計画パッケージは、次のいずれかの製品で購入できます。
+
+<ul>
+    <li> ワークフローパッケージと、同じ数のワークフローライセンスとプランニングライセンスを組み合わせたもの。 </li>
+    <li>ワークフローパッケージと共に、ワークフローとプランニング間でライセンス数が一致しません。 </li>
+    <li>スタンドアロン製品として使う場合。</li></ul>
+
+機能は、3つのWorkfront プランニング製品で異なる場合があります。 詳しくは、<a href="/help/quicksilver/planning/general/planning-overview.md" class="MCXref xref">Adobe Workfront Planningの基本を学ぶ</a>を参照してください。
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td> Adobe Workfront ライセンスとは、割り当てられたライセンスに含まれている Workfront 機能のセットを指します。 例えば、作業アイテムを完了とマークする機能と時間を記録する機能を含むライセンスを持っているユーザーもいれば、アセットの承認またはリクエストの送信のみが可能なライセンスを持っているユーザーもいます。 <p> 
    <p>Adobe Workfront ライセンスは、次の種類のライセンスを参照できます。</p>
-   <ul><li>Workfront Workflow ライセンス</li>
-  <li>Workfront計画ライセンス</li></ul>
+   <ul><li><b>Workfront Workflow ライセンス </b>: Workfrontを購入しているすべてのお客様が利用できます。 ワークフローライセンスは、Workflow Standard、Light、Contributorです。</li>
+  <li><b>Workfront計画ライセンス </b>:Workfront計画の製品を購入しているすべてのお客様が利用できます。 プランニングライセンスは、Standard、Contributor、No Accessです。 スタンドアロン製品としてWorkfront Planningを購入するお客様には、コントリビューターライセンスがありません。  </li></ul>
 
 <p>割り当てられているライセンスを確認するには、Workfront 管理者にお問い合わせください。</p>
    <p>ライセンスについては、以下を参照してください。</p>

@@ -6,10 +6,10 @@ description: Adobe クラウドストレージでのWorkfrontのロールアウ�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4821a7db4014b2a73c0466726ba3d239c318d5f0
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2702'
-ht-degree: 0%
+source-wordcount: '2936'
+ht-degree: 1%
 
 ---
 
@@ -17,15 +17,33 @@ ht-degree: 0%
 
 Adobe上のWorkfrontクラウドストレージにより、Frame.ioのビューアでのレビュー、強力な承認ワークフロー、アセットの部門横断的な可視化など、完全な統合されたレビューと承認エクスペリエンスを実現します。
 
-既存のオブジェクトは現在と同じように機能し続けます。 新しいドキュメント エリア、Frame.io ビューア、その他のAdobe クラウドストレージの動作は、Adobe クラウドストレージを使用するオブジェクトにのみ適用されます。
+この記事で説明する新しいドキュメント領域、Frame.io ビューア、およびその他のAdobe クラウドストレージの動作は、Adobe クラウドストレージを使用するオブジェクトにのみ適用されます。
 
 この記事は、Adobe上でWorkfrontをロールアウトする準備をしているWorkfront管理者を対象としています。 Adobe クラウドストレージオブジェクトの大きな違い、ロールアウトタイプの選択方法、Adobe クラウドストレージを有効にする前に考えるべきことについて説明します。
 
+>[!NOTE]
+>
+>* Adobe クラウドストレージをサポートするWorkfrontのバージョンを使用している必要があります。 お客様の組織がまだサポートされているバージョンを使用していない場合は、Adobe アカウント担当者にお問い合わせください。
+
+## 統合承認は、ストレージモデルに関係なく適用されます
+
+Adobe クラウドストレージをサポートするバージョンのWorkfrontに移行すると、既存の承認ワークフローが、従来のWorkfront ストレージに残るか、Adobe クラウドストレージに移行するかにかかわらず、すべてのオブジェクトについて、従来のドキュメント承認から統合承認に&#x200B;*all*&#x200B;移行されます。
+
+
 >[!IMPORTANT]
 >
->Adobe クラウドストレージをサポートするWorkfrontのバージョンを使用している必要があります。 お客様の組織がまだサポートされているバージョンを使用していない場合は、Adobe アカウント担当者にお問い合わせください。
+>これは、[Adobe クラウドストレージのロールアウト方法を選択](#choose-how-adobe-cloud-storage-rolls-out)で説明しているストレージロールアウトの選択肢とは異なります。これらの選択肢は、承認ワークフローが統合承認に移行するかどうかではなく、新しいオブジェクトを使用するストレージモデルを制御します。<br>
+>この変更にはパイロットグループや段階的なオプションはなく、サポート対象バージョンに移行するとすぐに組織全体に適用されます。
 
 
+Adobe クラウドストレージをロールアウトする前に、承認を管理する担当者が何を期待できるかを確認します。
+
+* **新しい承認エクスペリエンス**&#x200B;のレビュー担当者と承認担当者が、従来の文書の承認エクスペリエンスから、多段階の承認や並行したレビューパスなどを追加する統合承認に移行します。 詳しくは、次の記事を参照してください。
+
+  * [レビューと承認の統合を始める](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+  * [ドキュメント承認で利用可能な機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+* **新しいレポートの場所**&#x200B;統合された承認ワークフローのデータとレポートがCanvas ダッシュボードに移動します。 既存の従来の承認レポートは、自動的には引き継がれません。 詳しくは、[&#x200B; レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
+* **Fusion シナリオの更新が可能**&#x200B;従来のドキュメント承認で構築された既存のFusion シナリオは、統合承認で作業するために編集、再構築、または廃止する必要がある場合があります。 詳しくは、[統一されたレビューと承認のためのWorkfront Fusion シナリオの更新](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)を参照してください。
 
 ## 従来のWorkfront ストレージとAdobe クラウドストレージについて
 
@@ -230,11 +248,13 @@ Adobe クラウドストレージの表示方法は、ユーザーによって�
 
 詳細な手順については、[組織のAdobe クラウドストレージを有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)を参照してください。
 
+
+### 設定オプション
+
 * **Adobe クラウドストレージのみ**：新しいプロジェクトでは、デフォルトでAdobe クラウドストレージが使用されます。 ユーザーはレガシープロジェクトを作成できません。
 * **Adobe クラウドストレージと従来のWorkfront ストレージ**：ユーザーがプロジェクトを作成する際に、Adobe クラウドストレージ（「新しいプロジェクト」）と従来のWorkfront ストレージ（「従来のストレージ」）のどちらかを選択します。
 
   ![&#x200B; プロジェクトの種類を選択](assets/choose-project-type.png)
-
 
 
 >[!TIP]

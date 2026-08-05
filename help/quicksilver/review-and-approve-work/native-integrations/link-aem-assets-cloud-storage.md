@@ -4,9 +4,9 @@ navigation-topic: native-integrations
 title: Experience Manager Assetsのコンテンツとフォルダーを、Adobe クラウドストレージとリンクします
 description: 組織でAdobe クラウドストレージを使用している場合は、Experience Manager Assetsのコンテンツとフォルダーを、ドキュメントをサポートする任意のAdobe Workfront オブジェクトにリンクできます。
 author: Courtney
-source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '945'
 ht-degree: 12%
 
 ---
@@ -125,6 +125,14 @@ Adobe クラウドストレージを使用している場合は、Experience Man
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >Content Advisorの「おすすめコンテンツ」では、次のデータを使用して、Workfrontで提案されたコンテンツを決定します。
+   >
+   >* Workfront オブジェクトの名前フィールドと説明フィールド
+   >* 必須としてマークされたカスタムフォームフィールド
+   >* 添付ドキュメントからのデータ
 
 <!--
 ### Link a new version from Experience Manager Assets
