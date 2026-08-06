@@ -4,7 +4,7 @@ content-type: reference
 description: Workfront タスクに割り当てることができるタスクコラボレーター、AI コラボレーターの使用方法について説明します。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: f1bdb685cb7974c5c445377e0baa4f4b4e7dfa13
+source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 8%
@@ -31,7 +31,7 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] パッケージ</td> 
-   <td><p>Standard、Prime、またはUltimate</p></td> 
+   <td><p>Select、Prime、またはUltimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] ライセンス</td> 

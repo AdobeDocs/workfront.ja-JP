@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: 745
 ht-degree: 13%
 
 ---
@@ -166,7 +166,7 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 
 1. 「**ワークフローを編集**」をクリックします。 承認を依頼ダイアログが開きます。1段階の承認の場合は「基本」、複数段階の承認の場合は「詳細」と、並行パスを使用する承認の場合は「詳細」の順に選択します。
 
-1. ユーザー、チーム、またはメールを追加します。
+1. ユーザーまたは電子メールを追加します。
 
    * 基本モードで、**名前または電子メールを追加** フィールドに名前または電子メールを入力します。
    * 詳細モードで、更新するステージを含むパスを選択し、ステージの&#x200B;**名前またはメールを追加** フィールドに入力します。
