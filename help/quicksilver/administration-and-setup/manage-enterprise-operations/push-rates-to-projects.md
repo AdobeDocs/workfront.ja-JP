@@ -25,7 +25,7 @@ ht-degree: 11%
 >
 >担当業務またはユーザーの請求レートがプロジェクトレベルで手動で上書きされた場合、レートカードの変更がプロジェクトにプッシュされると、そのレートはプロジェクトに残ります。 レートカードに関連付けられたレートのみが更新されます。
 
-プロジェクトへのレートカードの添付について詳しくは、[ プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)を参照してください。
+プロジェクトへのレートカードの添付について詳しくは、[&#x200B; プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)を参照してください。
 
 ## アクセス要件
 
@@ -45,7 +45,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL レートカード ]へのアクセスを編集</td> 
+   <td>[!UICONTROL レートカード &#x200B;]へのアクセスを編集</td> 
   </tr> 
   <tr> 
    <td>オブジェクト権限</td> 
