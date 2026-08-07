@@ -7,9 +7,9 @@ description: このページでは、Workfront Data Connectのデータの構造
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 0666f0bee54821051a95354c38e775c02e935fa1
+source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
 workflow-type: tm+mt
-source-wordcount: '11533'
+source-wordcount: '11542'
 ht-degree: 8%
 
 ---
@@ -48,7 +48,7 @@ Workfrontのオブジェクト（したがって、Data Connect データレイ�
 
 >[!IMPORTANT]
 >
->この図は、1つのオブジェクトを中心としており、Workfront アプリケーション全体のエンティティの包括的なリレーションシップ図を表すものではありません。<br>
+>この図は、1つのオブジェクトを中心としており、Workfront アプリケーション全体のエンティティの包括的なリレーションシップ図を表すものではありません。 <br>
 >これらの図は、関係を使用して隣接するオブジェクトにデータを結合する方法の例を示すことを目的としています。
 
 ### エンティティ関係図の例
@@ -109,8 +109,8 @@ Workfrontのオブジェクト（したがって、Data Connect データレイ�
 
 >[!NOTE]
 >
->Workfront アプリケーションのデータ要求の変化をサポートするために、事前の通知なしで新しいフィールドをオブジェクトビューに追加できます。ダウンストリームデータ受信者が追加された列を処理する準備ができていない場合は、「SELECT」クエリを使用しないでください。<br>
->列の名前の変更または削除が必要な場合は、これらの変更について事前にお知らせします。
+>Workfront アプリケーションのデータ要求の変化をサポートするために、事前の通知なしで新しいフィールドをオブジェクトビューに追加できます。 ダウンストリームデータ受信者が追加された列を処理する準備ができていない場合は、「SELECT」クエリを使用しないでください。<br>
+>列の名前の変更または削除が必要な場合は、これらの変更を事前にお知らせします。
 
 ### アクセスレベル
 
@@ -6651,8 +6651,8 @@ Workfrontのオブジェクト（したがって、Data Connect データレイ�
 
 >[!NOTE]
 >
->チームオブジェクトテーブルには、PROJECT、TEMPLATE、ADHOCの3つのチームタイプが保存されています。<br>
->これらの各チームの種類は、データ接続データレイクのビューで一緒に表されます。返す特定のタイプのチームを分離するには、`teamtype`列でフィルタリングする必要があります。例えば、組織構造の一部である従来のチームのみをアプリケーションのTeams領域に設定する場合、次のようなクエリが表示されます。<code>select * from teams_current where teamtype = &#39;ADHOC&#39;;</code>
+>チームオブジェクトテーブルには、PROJECT、TEMPLATE、ADHOCの3つのチームタイプが保存されています。 <br>
+>これらの各チームのタイプは、Data Connect データレイクビューで一緒に表されます。 返す特定のタイプのチームを分離するには、`teamtype`列でフィルタリングする必要があります。 例えば、組織構造の一部である従来のチームのみをアプリケーションのTeams領域に設定する場合、次のようなクエリが表示されます。<code>select * from teams_current where teamtype = &#39;ADHOC&#39;;</code>
 
 ### チームメンバー
 
@@ -9005,7 +9005,7 @@ Workfront Planningのレコードタイプで設定されているすべての�
     <tr>
         <td>LINKEDFIELD</td>
         <td>バリアント</td>
-        <td>このフィールドがリンクされているソースフィールドの完全なフィールド定義を含むJSON オブジェクト。「reference」および「lookup」フィールドタイプに存在します。「alias」、「displayName」、「fieldType」、「createdAt」などのプロパティが含まれます。非リンクの場合はNull
+        <td>このフィールドがリンクされているソースフィールドの完全なフィールド定義を含むJSON オブジェクト。 「reference」および「lookup」フィールドタイプに存在します。「alias」、「displayName」、「fieldType」、「createdAt」などのプロパティが含まれます。 非リンクの場合はNull
 </table>
 
 ### PLANNINGRECORD\_CURRENT
@@ -9180,12 +9180,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>説明</td>
         <td>関連テーブル</td>
         <td>関連フィールド</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>エイリアス</td>
@@ -9193,12 +9187,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>レコードタイプの内部エイリアス。システムレベルの識別とAPI アクセスに使用します。 エイリアスが割り当てられていないレコードタイプの場合、空である可能性があります。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>カラー</td>
@@ -9206,12 +9194,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>プランニングインターフェイスのこのレコードタイプに関連付けられた名前付きカラーラベル（例：「blue」、「green」、「purple」、「magenta」、「chartreuse」、「dark-gray」）。 16進コードではありません。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>CREATED</td>
@@ -9219,25 +9201,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプに影響を与えた最後の操作タイプを示すフラグ。 値1は、最新のデータ更新サイクルでレコードタイプが作成されたことを示します。0は、作成されていないことを示します。 実際の作成タイムスタンプについては、CREATEDATを参照してください。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>CREATED</td>
-        <td>数値</td>
-        <td>この参照レコードに影響を与えた最後の操作タイプを示すフラグ。 値が1の場合、参照が最新のデータ更新サイクルで作成されたことを示します。0の場合、作成されていないことを示します。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>CREATEDAT</td>
@@ -9245,25 +9208,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプが作成されたときのタイムスタンプ（タイムゾーンなし）。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>CREATEDAT</td>
-        <td>Timestamp\_NTZ</td>
-        <td>このレコードタイプが作成されたときのタイムスタンプ（タイムゾーンなし）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>作成者</td>
@@ -9271,25 +9215,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプを作成したユーザーの識別子。</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>作成者</td>
-        <td>Varchar</td>
-        <td>このレコードタイプを作成したユーザーの識別子。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>削除済み</td>
@@ -9297,25 +9222,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプがソフト削除されたかどうかを示すフラグ。 値が1の場合は削除され、0の場合はアクティブになります。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>削除済み</td>
-        <td>数値</td>
-        <td>この参照接続がソフト削除されたかどうかを示すフラグ。 値が1の場合は参照が削除され、0の場合はアクティブであることを示します。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DESCRIPTION</td>
@@ -9323,12 +9229,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>レコードタイプの目的に関するユーザー提供の説明。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DISPLAYNAME</td>
@@ -9336,12 +9236,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>プランニング インターフェイスに表示されるレコードタイプの表示名（例：「Campaign」、「Initiative」）。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DL_LOAD_TIMESTAMP</td>
@@ -9349,25 +9243,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプをデータレイクに最後に読み込んだデータ更新ジョブのタイムスタンプ。 データ更新サイクルが成功するたびに更新されます。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>DL_LOAD_TIMESTAMP</td>
-        <td>Timestamp\_NTZ</td>
-        <td>この参照レコードをデータレイクに最後に読み込んだデータ更新ジョブのタイムスタンプ。 データ更新サイクルが成功するたびに更新されます。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>EXTERNALOPTIONS</td>
@@ -9375,12 +9250,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>外部システムに接続されたレコードタイプの設定詳細を含むJSON オブジェクト。 「connectionName」（例：「workfront」）、「objectName」（Workfront API オブジェクトコード（例：「PROJ」）および「fields」（同期されたフィールドの標準フィールドエイリアスとプランニングフィールド IDのマップ）が含まれます。 ネイティブに作成されたレコードタイプのNull。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ID</td>
@@ -9388,12 +9257,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>レコードタイプの一意のID。 このビューのプライマリキー。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ISEXTERNAL</td>
@@ -9401,12 +9264,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプが、ネイティブのPlanning レコードではなく、外部に接続されたオブジェクトタイプを表しているかどうかを示すフラグ。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ISFUSION</td>
@@ -9414,12 +9271,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプがWorkfront Fusion統合を通じて作成または管理されたかどうかを示すフラグ。 値「true」はFusion管理を示し、「false」または空の値はネイティブに作成されたレコードタイプであることを示します。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>イスタクソノミー</td>
@@ -9427,25 +9278,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプが分類タイプとして分類されるかどうかを示します。他のレコードを整理および分類するために使用します。 値'true'は、分類タイプを示します。 分類以外のレコードタイプでは、空の値を指定できます。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>イスタクソノミー</td>
-        <td>Varchar</td>
-        <td>このレコードタイプが分類タイプとして分類されるかどうかを示します。他のレコードを整理および分類するために使用します。 値'true'は、分類タイプを示します。 分類以外のレコードタイプでは、空の値を指定できます。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>権限</td>
@@ -9453,25 +9285,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプへのアクセス用に設定された権限レベル （例：「VIEW」、「CONTRIBUTE」、「MANAGE」）。 カスタム権限が設定されていない場合は、空の可能性があります。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>権限</td>
-        <td>Varchar</td>
-        <td>このレコードタイプへのアクセス用に設定された権限レベル （例：「VIEW」、「CONTRIBUTE」、「MANAGE」）。 カスタム権限が設定されていない場合は、空の可能性があります。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td>PRIMARYFIELDID</td>
-        <td>Varchar</td>
-        <td>このレコードタイプのプライマリ（タイトル）フィールドとして指定されたフィールドの識別子。 Field\_CURRENT.IDへの外部キー。</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
     </tr>
     <tr>
         <td>PRIMARYFIELDID</td>
@@ -9479,38 +9292,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプのプライマリ（タイトル）フィールドとして指定されたフィールドの識別子。 Field\_CURRENT.IDへの外部キー。</td>
         <td>FIELD\_CURRENT</td>
         <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>RECORDTYPEID</td>
-        <td>Varchar</td>
-        <td>この参照を所有するレコードに関連付けられた計画レコードタイプの一意の識別子。 Planningrecord\_CURRENT.RECORDTYPEIDへの外部キー。</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>REFERENCEVALUE</td>
-        <td>Varchar</td>
-        <td>最後のデータ更新で参照された外部オブジェクトの表示名（例：「Beta」や「Canvas Dashboards Project」などのWorkfront プロジェクト名）。 この値は、更新時のオブジェクトの名前を反映します。オブジェクトの名前を変更すると、古くなる可能性があります。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>復元済み</td>
@@ -9518,64 +9299,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプがソフト削除後に復元されたかどうかを示すフラグ。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALCONNECTIONNAME</td>
-        <td>Varchar</td>
-        <td>参照オブジェクトが接続される外部接続の名前（例：Planningで設定されたWorkfront接続の名前）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALID</td>
-        <td>Varchar</td>
-        <td>参照される外部オブジェクトの一意のID （例：Workfront プロジェクト ID、タスク ID、その他の接続オブジェクト ID）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALOBJECTNAME</td>
-        <td>Varchar</td>
-        <td>参照される外部オブジェクトの種類に対するWorkfront API オブジェクトコード（例：プロジェクトの「PROJ」、タスクの「TASK」、Portfolioの「PORT」）。 これを使用して、参照オブジェクトを検索する際に結合するWorkfront テーブルを決定します。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_RECORDID</td>
-        <td>Varchar</td>
-        <td>この参照接続を所有する計画レコードの一意の識別子。 Planningrecord\_CURRENT.RECORDIDへの外部キー。</td>
-        <td>PLANNINGRECORD\_CURRENT</td>
-        <td>RECORDID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>TRIGGEREDBYSERVICE</td>
@@ -9583,12 +9306,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプに対する最後の変更をトリガーしたサービスまたは統合の名前。 値「Unknown」は、送信元のサービスを判断できなかったことを示します。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>更新済み</td>
@@ -9596,25 +9313,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプに影響を与えた最後の操作タイプを示すフラグ。 値1は、最新のデータ更新サイクルでレコードタイプが更新されたことを示します。0は、更新されていないことを示します。 実際の最終更新タイムスタンプについては、UPDATEDATを参照してください。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>更新済み</td>
-        <td>数値</td>
-        <td>この参照レコードに影響を与えた最後の操作タイプを示すフラグ。 値1は、参照が最新のデータ更新サイクルで更新されたことを示します。0は、更新されていないことを示します。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>UPDATEDAT</td>
@@ -9622,25 +9320,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプが最後に更新されたときのタイムスタンプ（タイムゾーンなし）。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>UPDATEDAT</td>
-        <td>Timestamp\_NTZ</td>
-        <td>このレコードタイプが最後に更新されたときのタイムスタンプ（タイムゾーンなし）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>UPDATEDBY</td>
@@ -9648,25 +9327,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプを最後に更新したユーザーの識別子。</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>UPDATEDBY</td>
-        <td>Varchar</td>
-        <td>このレコードタイプを最後に更新したユーザーの識別子。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ユーザーID</td>
@@ -9674,25 +9334,6 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプに関連付けられたユーザーの識別子（通常は所有者）。</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>ユーザーID</td>
-        <td>Varchar</td>
-        <td>このレコードタイプに関連付けられたユーザーの識別子（通常は所有者）。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>WORKSPACEID</td>
@@ -9700,12 +9341,90 @@ Workfront Planning ワークスペースで設定されているすべてのレ�
         <td>このレコードタイプが属するワークスペースの一意のID。 Workspaceで\_CURRENTを使用して、ワークスペースの詳細を検索します。</td>
         <td>WORKSPACE\_CURRENT</td>
         <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+    </tr>
+</table>
+
+### REFERENCE\_CURRENT
+
+Workfront Planning レコードとWorkfront（またはその他の外部）オブジェクト間のすべてのオブジェクト参照接続の現在の状態が含まれます。 各行は1つの参照接続を表します。 このビューをPLANNINGRECORD\_CURRENT.REFERENCE\_IDSで使用して、接続された外部オブジェクトを解決します。
+
+<table>
+    <tr>
+        <td>列名</td>
+        <td>タイプ</td>
+        <td>説明</td>
+        <td>関連テーブル</td>
+        <td>関連フィールド</td>
+    </tr>
+    <tr>
+        <td>CREATED</td>
+        <td>数値</td>
+        <td>この参照レコードに影響を与えた最後の操作タイプを示すフラグ。 値が1の場合、参照が最新のデータ更新サイクルで作成されたことを示します。0の場合、作成されていないことを示します。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>削除済み</td>
+        <td>数値</td>
+        <td>この参照接続がソフト削除されたかどうかを示すフラグ。 値が1の場合は参照が削除され、0の場合はアクティブであることを示します。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>Timestamp\_NTZ</td>
+        <td>この参照レコードをデータレイクに最後に読み込んだデータ更新ジョブのタイムスタンプ。 データ更新サイクルが成功するたびに更新されます。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>Varchar</td>
+        <td>この参照を所有するレコードに関連付けられた計画レコードタイプの一意の識別子。 Planningrecord\_CURRENT.RECORDTYPEIDへの外部キー。</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>REFERENCEVALUE</td>
+        <td>Varchar</td>
+        <td>最後のデータ更新で参照された外部オブジェクトの表示名（例：「Beta」や「Canvas Dashboards Project」などのWorkfront プロジェクト名）。 この値は、更新時のオブジェクトの名前を反映します。オブジェクトの名前を変更すると、古くなる可能性があります。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALCONNECTIONNAME</td>
+        <td>Varchar</td>
+        <td>参照オブジェクトが接続される外部接続の名前（例：Planningで設定されたWorkfront接続の名前）。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALID</td>
+        <td>Varchar</td>
+        <td>参照される外部オブジェクトの一意のID （例：Workfront プロジェクト ID、タスク ID、その他の接続オブジェクト ID）。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALOBJECTNAME</td>
+        <td>Varchar</td>
+        <td>参照される外部オブジェクトの種類に対するWorkfront API オブジェクトコード（例：プロジェクトの「PROJ」、タスクの「TASK」、Portfolioの「PORT」）。 これを使用して、参照オブジェクトを検索する際に結合するWorkfront テーブルを決定します。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_RECORDID</td>
+        <td>Varchar</td>
+        <td>この参照接続を所有する計画レコードの一意の識別子。 Planningrecord\_CURRENT.RECORDIDへの外部キー。</td>
+        <td>PLANNINGRECORD\_CURRENT</td>
+        <td>RECORDID</td>
+    </tr>
+    <tr>
+        <td>更新済み</td>
+        <td>数値</td>
+        <td>この参照レコードに影響を与えた最後の操作タイプを示すフラグ。 値1は、参照が最新のデータ更新サイクルで更新されたことを示します。0は、更新されていないことを示します。</td>
+        <td>—</td>
+        <td>—</td>
     </tr>
 </table>
 

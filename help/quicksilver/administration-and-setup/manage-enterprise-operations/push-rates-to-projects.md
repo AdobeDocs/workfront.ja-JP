@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
+source-git-commit: 22e8acb748ddc4768dc1724aaa2f515b863ab0cf
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 13%
+source-wordcount: '346'
+ht-degree: 11%
 
 ---
 
 # プロジェクトへのプッシュ率の変更
 
-プロジェクト <!--or a staffing plan-->にレートカードが添付されている場合でも、レートカードのレートを調整できます。 その後、レートカードが添付されているプロジェクトに対して、オプションでそのレートをプッシュできます。 新しいレートをプッシュしない場合、元のレートはプロジェクトに残ります。
+レートカードがプロジェクト <!--or a staffing plan-->に添付されている場合でも、レートカードのレートを調整できます。 その後、レートカードが添付されているプロジェクトに対して、オプションでそのレートをプッシュできます。 新しいレートをプッシュしない場合、元のレートはプロジェクトに残ります。
 <!-- and staffing plans -->
 <!-- or staffing plan -->
+
+>[!NOTE]
+>
+>担当業務またはユーザーの請求レートがプロジェクトレベルで手動で上書きされた場合、レートカードの変更がプロジェクトにプッシュされると、そのレートはプロジェクトに残ります。 レートカードに関連付けられたレートのみが更新されます。
 
 プロジェクトへのレートカードの添付について詳しくは、[&#x200B; プロジェクトへのレートカードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)を参照してください。
 
