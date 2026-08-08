@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 644
-ht-degree: 98%
+source-wordcount: 645
+ht-degree: 96%
 
 ---
 
@@ -34,8 +34,6 @@ ht-degree: 98%
 [!DNL Adobe Workfront] 管理者または担当業務への管理アクセス権を持つユーザーは、システム内で古くなった担当業務を非アクティブ化できます。 担当業務を削除するのではなく非アクティブ化すると、その担当業務に関連付けられている履歴情報を保持できます。
 
 以前に非アクティブ化した担当業務をもう一度アクティブ化することもできます。
-
-## アクセス要件
 
 ## アクセス要件
 
@@ -78,7 +76,7 @@ ht-degree: 98%
   >新しい担当業務をユーザーに追加しても、非アクティブ化された担当業務は表示されません。 ただし、担当業務が非アクティブ化される前にユーザーに関連付けられていた場合は、引き続き[!UICONTROL 主要役割]フィールドと[!UICONTROL その他の役割]フィールドに表示されます。
 
 * レイアウトテンプレート割り当てを含む、オブジェクトの[!UICONTROL 共有]ダイアログボックス
-* カスタムフォームの先行入力フィールド
+* カスタムフォームの内部参照フィールドと先行入力フィールド
 * [!UICONTROL リソースプール]の[!UICONTROL プールのメンバー]フィールド
 * [!UICONTROL 請求レート]編集画面の[!UICONTROL 担当業務]フィールド（ユーザーがプロジェクトの請求レートを上書きする場合）
 * プロジェクトの[!UICONTROL 割り当てをかんばんボードに追加]ダイアログボックス
@@ -114,8 +112,8 @@ ht-degree: 98%
 
   承認プロセスとルーティングルールの作成については、次の記事を参照してください。
 
-   * [作業項目の承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-   * [ルーティングルールの作成](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+  * [作業項目の承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+  * [ルーティングルールの作成](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## 担当業務の非アクティブ化
 

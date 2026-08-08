@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 2782
-ht-degree: 94%
+source-wordcount: 2783
+ht-degree: 93%
 
 ---
 
@@ -430,7 +430,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">新規テキスト値</p> </td> 
-      <td> <p>カスタムフィールド内の現在のテキスト値。</p> <p>カスタムフィールドが typeahead フィールドの場合、「<strong>新しいテキスト値</strong>」列にはオブジェクト ID が表示されます。</p> </td> 
+      <td> <p>カスタムフィールド内の現在のテキスト値。</p> <p>カスタムフィールドが内部参照フィールドの場合、<strong>新しいテキスト値</strong>列にオブジェクト IDが表示されます。</p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 7922
+source-wordcount: 7962
 ht-degree: 77%
 
 ---
@@ -272,7 +272,7 @@ Adobe Workfront では、フォームデザイナーを使用してカスタム�
     </tr>
     <tr>
     <td>手順</td>
-    <td>フィールドに関する追加情報を入力します。ユーザーがカスタムフォームに入力すると、疑問符アイコンにカーソルを合わせて、ここに入力した情報を含むツールヒントを表示できます。
+    <td>ウィジェットに関する追加情報を入力します。 ユーザーがカスタムフォームに入力する際に、疑問符アイコンの上にポインタを合わせると、ここに入力した情報を含むツールチップが表示されます。
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -805,14 +805,14 @@ To add typeahead and date fields:
      </tr>
      <tr> 
       <td role="rowheader">JSON パス</td>
-      <td><p>API の JSON パスを入力するか貼り付けます。</p> <p>このオプションを使用すると、API URL から返された JSON からデータを抽出できます。 これは、JSON 内のどの値がドロップダウンオプションに表示されるかを選択する手段の役割を果たします。</p><p>例えば、API URL が次の形式で JSON を返す場合、「$.data[*].name」を使用して、ドロップダウンオプションとして「USA」と「Canada」を選択できます。</br>
+      <td><p>API の JSON パスを入力するか貼り付けます。</p> <p>このオプションを使用すると、API URL から返された JSON からデータを抽出できます。 これは、JSON 内のどの値がドロップダウンオプションに表示されるかを選択する手段の役割を果たします。</p><p>例えば、API URLが次の形式でJSONを返す場合、「$.data[*].name」を使用してドロップダウンオプションとして米国とカナダを選択できます。</br>
       <pre>
       &lbrace;
- data: &lbrace;
- { name: "USA"},
- { name: "Canada"}
- &rbrace;
- &rbrace;
+       データ：&lbrace;
+         { name: "USA"},
+         { name: "Canada"}
+       &rbrace;
+      &rbrace;
       </pre>
       </p>
      <p>JSON パスと、正しい JSON パスを記述する方法について詳しくは、<a href="https://jsonpath.com/">https://jsonpath.com/</a> を参照してください。</p></td>
@@ -1163,7 +1163,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>ダイナミックフィルター構文を使用して、別のフィールドの値に基づいて、このフィールドの項目のリストを絞り込みます。 例えば、「プロジェクト」フィールドフィルターで<code>?portfolioID={portfolio}.{ID}</code>を使用し、Portfolio ネイティブフィールドがカスタムフォーム上にある場合、「プロジェクト」フィールドには、選択したポートフォリオ内のプロジェクトのみが表示されます。 「Portfolio」フィールドが空白のままになっている場合は、「プロジェクト」フィールドにすべてのプロジェクトが表示されます。</p>
        <p><b>メモ</b>：
        <ul> 
-        <li>フィルターオプションは、ネイティブの先行入力またはPortfolio、会社、オーナーなどの内部検索フィールドを参照する場合にのみ使用できます。</li>
+        <li>フィルターオプションは、Portfolio、会社、オーナーなどのネイティブの内部参照または先行入力フィールドを参照する場合にのみ使用できます。</li>
         <li>既存のカスタムフォームを編集している場合、ネイティブフィールドにフィルターを追加しても、ユーザーがフィールドを使用して既に追加した（フィルターの範囲外の）オブジェクトは削除されません。</li> 
         <li>このフィルターは、モバイルデバイスでは使用できません。 ネイティブフィールドにフィルターを使用すると、このフィールドは、フィルターの影響を受けずに、ユーザーのモバイルデバイスに表示されます。</li> 
         </ul></p></td> 
@@ -1218,7 +1218,7 @@ Adobe XD ファイルを追加するには、以下のように行います。
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必須）有効な XD プロトタイプリンクを入力するかペーストします。</p> 
-      <p><b>注意</b>: Adobe XDの「共有」タブの「リンクアクセス」設定は、リンクを持つユーザーに設定する必要があります。そうでない場合、ユーザーはプロトタイプを表示できません。 
+      <p><b>メモ</b>：Adobe XD の「共有」タブのリンクアクセスの設定は、リンクを知っているすべてのユーザーに設定する必要があります。 そうしないと、ユーザーはプロトタイプを表示できなくなります。 
    </td> 
      </tr> 
      <tr> 
