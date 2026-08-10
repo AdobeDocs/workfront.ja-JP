@@ -5,28 +5,33 @@ title: 直接インストールに使用できるスキル
 description: Workfrontには、LLMに直接インストールできるスキルがいくつかあります。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+recommendations: noDisplay, noCatalog
+source-git-commit: 7fd4c07f2ea1e47e7abb7d3dd78638a6a01d0f47
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 1%
+source-wordcount: '290'
+ht-degree: 0%
 
 ---
 
 
 # 直接インストールに使用できるスキル
 
-Workfrontには、LLMに直接インストールできるスキルがいくつかあります。 適切なステップが既に組み込まれているため、これらのツールを特定のタスクにどのように使用するかをスキルがガイドします。
+Adobe Workfrontには、LLMに直接インストールできるスキルがいくつかあります。 適切なステップが既に組み込まれているため、これらのツールを特定のタスクにどのように使用するかをスキルがガイドします。
 
-これらのスキルは、Adobe SkillsのGitHub リポジトリで確認できます。
+これらのスキルは、Adobe Skills GitHub リポジトリのファイルとして見つけることができます。 このリポジトリには、様々なAdobe製品のファイルが含まれています。 これらのファイルをダウンロードしてClaudeにコピーすると、Claudeはファイルに記載されているスキルを使用できます。
+
+たとえば、プランニングソリューションアーキテクトスキルでは、ClaudeはWorkfrontプランニングに関する質問に答え、いくつかのアクションを実行できます。
+
+これらのスキルをLLMにコピーした後に呼び出したり、トリガーしたりする必要はありません。 代わりに、自然言語で質問することで、通常どおりLLMと対話できます。LLMでは、会話に適したスキルに記載されている情報とアクションを使用します。
 
 >[!NOTE]
 >
 >現在、これらのスキルはClaudeでのみ利用可能です。
 >ClaudeをAdobeで設定する方法については、Adobe Developer ドキュメントの[はじめに](https://developer.adobe.com/adobe-for-creativity/getting-started/)を参照してください。
 
-## Workfront GitHub リポジトリからスキルをClaudeにインストールします。
+## Workfront GitHub リポジトリからClaudeにスキルをインストールする
 
-1. GitHubの[Adobe Workfront スキルリポジトリ &#x200B;](https://github.com/adobe/skills/tree/main/plugins/workfront)に移動します。
+1. GitHubの[Adobe Workfront スキルリポジトリ ](https://github.com/adobe/skills/tree/main/plugins/workfront)に移動します。
 1. 使用するスキルフォルダーをダウンロードします。
 1. フォルダーをClaude スキルライブラリにコピーします。
 
@@ -48,4 +53,4 @@ Workfrontには、LLMに直接インストールできるスキルがいくつ�
 
 | スキル / フォルダーへのリンク | スキルの説明 | 次の用途で使用可能 |
 |---|---|---|
-| [&#x200B; プランニング ソリューション アーキテクト &#x200B;](https://github.com/adobe/skills/tree/main/plugins/workfront/skills/wf-planning-solution-architect) | Workfront Planning Workspaceをニーズに合わせて構成し、Workfront Planningに関する質問に答えます。 | クロード |
+| [ プランニング ソリューション アーキテクト ](https://github.com/adobe/skills/tree/main/plugins/workfront/skills/wf-planning-solution-architect) | Workfront Planning Workspaceをニーズに合わせて構成し、Workfront Planningに関する質問に答えます。 | クロード |
