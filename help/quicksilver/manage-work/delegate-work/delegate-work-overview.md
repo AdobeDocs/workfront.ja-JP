@@ -4,28 +4,19 @@ content-type: overview
 navigation-topic: delegate-work
 title: 作業の委任の概要
 description: 短期間オフィスを離れる予定がある場合は、自分の不在が作業完了の障害にならないように、自分の作業を一時的に他のユーザーに委任することができます。
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/O-G3HS2JWZB36Y-kSloHo6u4--Z3q40fwAgfcEuELi4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 906
 ht-degree: 90%
@@ -57,7 +48,7 @@ ht-degree: 90%
 
 プロジェクト、タスク、および問題の承認の委任について詳しくは、[承認リクエストの委任](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)を参照してください。
 
-タスクとイシューのデリゲート方法について詳しくは、[&#x200B; タスクとイシューのデリゲート &#x200B;](../../manage-work/delegate-work/how-to-delegate-work.md)を参照してください。
+タスクとイシューのデリゲート方法について詳しくは、[ タスクとイシューのデリゲート ](../../manage-work/delegate-work/how-to-delegate-work.md)を参照してください。
 
 ## タスクおよびイシューのデリゲートの概要
 
@@ -70,9 +61,9 @@ ht-degree: 90%
 * タスクとイシューの委任は、[!UICONTROL ホーム]エリアのみから実行できます。
 * 作業を委任する場合、次のライセンスタイプに対して例外があります。
 
-   * 作業をレビュアーや要求者に委任することはできますが、[!DNL Workfront] ではそれをお勧めしません。
-   * レビュアーは作業を他のユーザーに委任できます。 自分の[!UICONTROL ホーム]エリアには作業アイテムを表示できません。 承認のみを表示できます。
-   * 要求者は作業を他のユーザーに委任できません。 自分の[!UICONTROL ホーム]エリアには作業アイテムを表示できません。
+  * 作業をレビュアーや要求者に委任することはできますが、[!DNL Workfront] ではそれをお勧めしません。
+  * レビュアーは作業を他のユーザーに委任できます。 自分の[!UICONTROL ホーム]エリアには作業アイテムを表示できません。 承認のみを表示できます。
+  * 要求者は作業を他のユーザーに委任できません。 自分の[!UICONTROL ホーム]エリアには作業アイテムを表示できません。
 * 自分に割り当てられたタスクとイシューのみを委任できます。 他のユーザー、チームまたは担当業務に割り当てられているタスクやイシューを委任することはできません。
 * 委任できるのは、委任の開始日より前に完了していないタスクとイシューのみです。
 * 作業アイテムが委任期間内に完了した場合、そのアイテムは、[!DNL Workfront] によって自動的に削除されるまで、2 週間委任先と割り当て先のホームエリアに残ります。
@@ -85,7 +76,7 @@ ht-degree: 90%
 * 自分の作業を他のユーザーに委任することを選択している間に、追加のタスクやイシューが割り当てられた場合、タスクまたはイシューの日付がその期間内であれば、新しく割り当てられた作業は、選択した期間にわたって同じユーザーに自動的に委任されます。
 * 複数のユーザーが、同じユーザーを委任先として選択できます。
 * 委任されたタスクやイシューは、委任されたユーザーのリソース管理ツール（[!UICONTROL ワークロードバランサー]や[!UICONTROL リソースプランナー]など）には表示されません。
-* 委任された作業および委任先の名前は、[!DNL Workfront] のいくつかのエリアに表示されます。 詳しくは、「[&#x200B; タスクとイシューの委任](../delegate-work/how-to-delegate-work.md)」の「委任された作業の場所と情報の委任」の節を参照してください。
+* 委任された作業および委任先の名前は、[!DNL Workfront] のいくつかのエリアに表示されます。 詳しくは、「[ タスクとイシューの委任](../delegate-work/how-to-delegate-work.md)」の「委任された作業の場所と情報の委任」の節を参照してください。
 
 
   >[!IMPORTANT]

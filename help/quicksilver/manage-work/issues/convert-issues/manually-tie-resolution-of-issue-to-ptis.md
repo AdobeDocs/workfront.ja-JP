@@ -4,24 +4,18 @@ navigation-topic: convert-issues
 title: 問題の解決を他の問題、タスク、またはプロジェクトに手動で関連付ける
 description: イシューを変換せずに、イシューの解決策をプロジェクト、タスク、またはイシューの解決策に手動で結び付けることができます。 イシューは、選択したプロジェクト、タスク、またはイシューの解決可能なオブジェクトの 1 つになります。 これを行うと、プロジェクト、タスク、またはイシュートリガーのステータスが変更されると、元のイシューのステータスも変更されます。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/S3V5QxHwFzd8kOrPlU7wjmEt8IalZvpfgIv9iSgBYK4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 518
 ht-degree: 95%
@@ -112,7 +106,7 @@ Old:
 1. 解決策を別のイシューの解決策またはタスクやプロジェクトの解決策に結び付けるイシューに移動します。
 1. 左パネルで「**問題の詳細**」をクリックしてから、**概要**&#x200B;エリアを展開します。
 
-   ![問題の詳細アイコン &#x200B;](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![問題の詳細アイコン ](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. 「**解決者**」フィールドをクリックし、次の解決オブジェクトのタイプから選択します。
 

@@ -1,28 +1,20 @@
 ---
 navigation-topic: use-the-gantt-chart
-title: '[!UICONTROL &#x200B; ガントチャート &#x200B;]の情報を表示'
-description: Adobe Workfront タスクとプロジェクト [!UICONTROL &#x200B; ガントチャート &#x200B;]には、タスクとプロジェクトに関する情報が表示されます。
+title: '[!UICONTROL  ガントチャート ]の情報を表示'
+description: Adobe Workfront タスクとプロジェクト [!UICONTROL  ガントチャート ]には、タスクとプロジェクトに関する情報が表示されます。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2NxAOvi9cuv3n6q6Z3RAvSyzqPuzTifUR6zXIE34iHM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: e147ce9d-7675-49bd-8a32-44f27d865560id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 885
 ht-degree: 89%
@@ -33,7 +25,7 @@ ht-degree: 89%
 
 <!--Audited: 08/2025-->
 
-Adobe Workfront タスクとプロジェクト [!UICONTROL &#x200B; ガントチャート &#x200B;]には、タスクとプロジェクトに関する情報が表示されます。
+Adobe Workfront タスクとプロジェクト [!UICONTROL  ガントチャート ]には、タスクとプロジェクトに関する情報が表示されます。
 
 ## アクセス要件
 
@@ -123,13 +115,13 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
 
 1. 上記のいずれかの領域に移動します。
 
-   例えば、Workfrontの&#x200B;[!UICONTROL **メインメニュー**] ![&#x200B; メインメニューアイコン &#x200B;](assets/lines-main-menu.png)から、**[!UICONTROL プロジェクト]**&#x200B;をクリックします。
+   例えば、Workfrontの&#x200B;[!UICONTROL **メインメニュー**] ![ メインメニューアイコン ](assets/lines-main-menu.png)から、**[!UICONTROL プロジェクト]**&#x200B;をクリックします。
 
    プロジェクトのリストが表示されます。
 
-1. 画面の右上隅にある&#x200B;**[!UICONTROL ガントチャート]** アイコン ![&#x200B; ガントアイコン &#x200B;](assets/gantt-icon-nwe.png)をクリックします。
+1. 画面の右上隅にある&#x200B;**[!UICONTROL ガントチャート]** アイコン ![ ガントアイコン ](assets/gantt-icon-nwe.png)をクリックします。
 
-1. 「**[!UICONTROL タスクリストを表示]** ![&#x200B; タスクリストを表示アイコン &#x200B;](assets/show-task-list-icon.png)」をクリックします。
+1. 「**[!UICONTROL タスクリストを表示]** ![ タスクリストを表示アイコン ](assets/show-task-list-icon.png)」をクリックします。
 
 1. 左側のプロジェクトリストで、プロジェクト名の横にあるドロップダウン矢印をクリックして、そのプロジェクトの下にあるタスクを表示します。\
    これにより、タスク情報が[!UICONTROL ガントチャート]に表示されます。\
@@ -157,7 +149,7 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
 
 1. [!UICONTROL ガントチャート]で、時間枠ドロップダウンメニューをクリックします。
 
-   ![&#x200B; タイムラインオプション &#x200B;](assets/timeline-options.png)
+   ![ タイムラインオプション ](assets/timeline-options.png)
 
 1. 次の利用可能なオプションから時間枠を選択します。
 
@@ -176,7 +168,7 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
    >
    >タイムラインのスナップショットは、水平スクロールバーをクリックした後にのみ表示されます。
 
-   ![&#x200B; タイムラインスナップショットミニマップ &#x200B;](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![ タイムラインスナップショットミニマップ ](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. （オプション）タイムラインのスナップショット内の任意の場所をクリックすると、プロジェクトの期間内の特定のポイントに移動します。\
    または\
