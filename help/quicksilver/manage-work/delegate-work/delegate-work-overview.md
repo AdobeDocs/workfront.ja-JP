@@ -4,7 +4,8 @@ content-type: overview
 navigation-topic: delegate-work
 title: 作業の委任の概要
 description: 短期間オフィスを離れる予定がある場合は、自分の不在が作業完了の障害にならないように、自分の作業を一時的に他のユーザーに委任することができます。
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
@@ -25,7 +26,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 906
 ht-degree: 90%
@@ -70,9 +71,9 @@ ht-degree: 90%
 * タスクとイシューの委任は、[!UICONTROL ホーム]エリアのみから実行できます。
 * 作業を委任する場合、次のライセンスタイプに対して例外があります。
 
-   * 作業をレビュアーや要求者に委任することはできますが、[!DNL Workfront] ではそれをお勧めしません。
-   * レビュアーは作業を他のユーザーに委任できます。 自分の[!UICONTROL ホーム]エリアには作業アイテムを表示できません。 承認のみを表示できます。
-   * 要求者は作業を他のユーザーに委任できません。 自分の[!UICONTROL ホーム]エリアには作業アイテムを表示できません。
+  * 作業をレビュアーや要求者に委任することはできますが、[!DNL Workfront] ではそれをお勧めしません。
+  * レビュアーは作業を他のユーザーに委任できます。 自分の[!UICONTROL ホーム]エリアには作業アイテムを表示できません。 承認のみを表示できます。
+  * 要求者は作業を他のユーザーに委任できません。 自分の[!UICONTROL ホーム]エリアには作業アイテムを表示できません。
 * 自分に割り当てられたタスクとイシューのみを委任できます。 他のユーザー、チームまたは担当業務に割り当てられているタスクやイシューを委任することはできません。
 * 委任できるのは、委任の開始日より前に完了していないタスクとイシューのみです。
 * 作業アイテムが委任期間内に完了した場合、そのアイテムは、[!DNL Workfront] によって自動的に削除されるまで、2 週間委任先と割り当て先のホームエリアに残ります。

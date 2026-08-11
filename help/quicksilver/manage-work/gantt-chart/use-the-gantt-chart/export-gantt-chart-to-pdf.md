@@ -3,6 +3,7 @@ navigation-topic: use-the-gantt-chart
 title: ガントチャートを PDF に書き出す
 description: ガントチャートをPDFに書き出すことができます。 その後、それを印刷するかメールに添付して、他のユーザーと共有することができます。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,9 +21,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 968
+source-wordcount: 983
 ht-degree: 40%
 
 ---
@@ -119,18 +120,18 @@ Old:
 
      次のオプションから選択します。
 
-      * 実際の日付
-      * 割り当て
-      * ベースライン
-      * コミット日
-      * 完了率（％）
-      * クリティカルパス
-      * マイルストーンひし形
-      * マイルストーン線
-      * 先行タスク
-      * 進捗ステータス
-      * （条件付き）予定日
-      * （条件付き）予定日
+     * 実際の日付
+     * 割り当て
+     * ベースライン
+     * コミット日
+     * 完了率（％）
+     * クリティカルパス
+     * マイルストーンひし形
+     * マイルストーン線
+     * 先行タスク
+     * 進捗ステータス
+     * （条件付き）予定日
+     * （条件付き）予定日
 
      詳しくは、[[!UICONTROL ガントチャートでの情報の表示設定]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)を参照してください。
 
@@ -178,7 +179,7 @@ Old:
 
 
 1. PDFに書き出した後にPDFが印刷される場合は、**[!UICONTROL ページサイズ]** ドロップダウンメニューで、印刷する用紙のサイズを選択します。
-次のオプションから選択できます。
+以下のオプションから選択できます。
 
    * **[!UICONTROL 文字]**
    * **[!UICONTROL 法務]**

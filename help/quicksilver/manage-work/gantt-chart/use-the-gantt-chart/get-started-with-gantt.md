@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: '[!UICONTROL &#x200B; ガント &#x200B;] チャートの基本を学ぶ'
 description: Adobe Workfront のガントチャートは、タスクやプロジェクトのリストのタイムラインを視覚的に表現します。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
 last-update: 2026-04-01T18:03:50.000Z
@@ -18,7 +19,7 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 538
 ht-degree: 95%
@@ -41,10 +42,10 @@ Adobe Workfront のガントチャートは、タスクやプロジェクトの�
 ## ガントチャートに関する考慮事項
 
 * 次の[!UICONTROL ガントチャート]の情報は編集できます。
-   * タスクリスト
+  * タスクリスト
 * 次の[!UICONTROL ガントチャート]の情報は編集できません。
-   * テンプレートタスクリスト
-   * プロジェクトリスト
+  * テンプレートタスクリスト
+  * プロジェクトリスト
 * テンプレートのリストには「[!UICONTROL ガントチャート]」オプションはありません。
 * タスクリストの[!UICONTROL ガントチャート]とプロジェクトリストの[!UICONTROL ガントチャート]の両方に表示する情報を設定できます。
 * [!UICONTROL ガントチャート]情報を表示するカラーやフォントを設定することはできません。

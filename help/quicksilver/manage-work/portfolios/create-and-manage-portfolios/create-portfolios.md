@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 57%
+source-wordcount: 902
+ht-degree: 56%
 
 ---
 
@@ -112,10 +112,10 @@ Workfrontでは、次のいずれかの方法を使用してポートフォリ�
 
 * 次の方法で、Workfront Planningからポートフォリオを追加します。
 
-   * Workfront Planningのレコードタイプから連結するだけです。
+  * Workfront Planningのレコードタイプから連結するだけです。
 
   レコードに追加してポートフォリオを作成する方法について詳しくは、「[&#x200B; レコードを作成](/help/quicksilver/planning/records/create-records.md)」の「レコードを接続する際にレコードを作成する」の節を参照してください。
-   * Workfront計画の自動処理の使用。
+  * Workfront計画の自動処理の使用。
 
   詳しくは、[Adobe Workfront Planning レコードの自動処理を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)を参照してください。
 
@@ -145,17 +145,19 @@ Workfrontでは、次のいずれかの方法を使用してポートフォリ�
 
      ポートフォリオが作成され、そのデフォルト名は、Workfrontがドキュメントに使用するストレージに応じて、次のパターンに従います。
 
-      * レガシーWorkfront ストレージポートフォリオの`Untitled Portfolio`。
+     * レガシーWorkfront ストレージポートフォリオの`Untitled Portfolio`。
 
-        レガシーWorkfront ストレージポートフォリオには、名前の横に&#x200B;**レガシーWorkfront ストレージ** アイコン ![&#x200B; レガシーストレージポートフォリオアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
+       レガシーWorkfront ストレージポートフォリオには、名前の横に&#x200B;**レガシーWorkfront ストレージ** アイコン ![&#x200B; レガシーストレージポートフォリオアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
 
-      * Adobe クラウドストレージポートフォリオの`Untitled Portfolio - < Month day, year hour.minute.second >`
+     * Adobe クラウドストレージポートフォリオの`Untitled Portfolio - < Month day, year hour.minute.second >`
 
-        >[!IMPORTANT]
-        >
-        >Adobe クラウドストレージを使用するポートフォリオには、一意の名前を付ける必要があります。
+       >[!IMPORTANT]
+       >
+       >Adobe クラウドストレージを使用するポートフォリオには、一意の名前を付ける必要があります。
 
      Adobe クラウドストレージポートフォリオの場合、ポートフォリオと同じ名前の新しいドキュメントフォルダーがドキュメント領域に自動的に作成されます。
+
+     詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 1. ポートフォリオの名前を、ポートフォリオヘッダーの新しい名前に置き換えます。
 

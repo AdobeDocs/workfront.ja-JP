@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: 解決中のオブジェクトからイシューのリンク解除
 description: イシューをプロジェクトまたはタスクに変換してプロジェクトまたはタスクを作成する場合、元のイシューを保持するオプションがあります。 イシューの変換中にこのオプションを使用できるようにするには、Adobe Workfront 管理者がこの設定を有効にする必要があります。 イシューをプロジェクトやタスクに変換する方法について詳しくは、Adobe Workfront でのイシューの変換の概要を参照してください。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: c18160e5-9f95-4575-a1b3-b4f7e5334844
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 429
 ht-degree: 97%

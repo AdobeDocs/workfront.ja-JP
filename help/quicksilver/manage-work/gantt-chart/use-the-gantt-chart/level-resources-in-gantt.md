@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: '[!UICONTROL ガントチャート]でのリソースの標準化'
 description: 同じリソースを 2 つの異なるタスクに割り当てる場合は、リソースの標準化を使用して、タスクが同時に発生しないようにタスクのタイムラインを調整できます。 この記事では、ガントチャートでリソースをレベル設定する方法について説明します。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 623
 ht-degree: 86%

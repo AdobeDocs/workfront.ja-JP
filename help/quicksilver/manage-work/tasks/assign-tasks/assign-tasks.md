@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: eebfa7db6b4aa256a47aa881ff151e3b84a21742
+source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
 workflow-type: tm+mt
-source-wordcount: 1616
-ht-degree: 74%
+source-wordcount: 1661
+ht-degree: 75%
 
 ---
 
@@ -113,8 +113,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 * ユーザーのプロファイルには、複数の担当業務を関連付けることができます。 ユーザーと担当業務の関連付けについて詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
-* 複数のユーザーをタスクまたはイシューに割り当てる場合、最初に選択した1人のユーザーが、タスクまたはイシューの所有者として自動的に指定されます。
-これを変更する手順については、[高度な割り当てを作成](create-advanced-assignments.md)の「プライマリを作成」オプションに関する記事を参照してください。
+* 1 つのタスクやイシューに複数のユーザーを割り当てた場合、最初に選択した 1 人のユーザーが自動的にタスクやイシューの所有者に指定されます。
+これを変更する手順については、[詳細な割り当てを作成](create-advanced-assignments.md)の記事にある、「プライマリオプションを作成」オプションに関する情報を参照してください。
 
 * チームは、タスクやイシューのプライマリの担当者にすることはできません。 ユーザーや担当業務のみが、タスクやイシューのプライマリとして指定できます。
 
@@ -178,9 +178,10 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
      >[!TIP]
      >
-     >ユーザー割り当てを追加する際には、アバター、ユーザーの主要な役割やメールアドレスに注意して、同じ名前のユーザーを区別してください。 ユーザーを追加したときに表示するには、少なくとも 1 つの担当業務に関連付ける必要があります。
+     >* タスクコラボレーターを追加する場合、タスクコラボレーターの名前はファーストネームのみになります。 タスクコラボレーターの姓は空白です。
+     >* ユーザー割り当てを追加する際には、アバター、ユーザーの主要な役割やメールアドレスに注意して、同じ名前のユーザーを区別してください。 ユーザーを追加したときに表示するには、少なくとも 1 つの担当業務に関連付ける必要があります。
      >
-     >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。 詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
+     >   ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。 詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
    * （条件付き）表示される&#x200B;**ユーザーとチーム**&#x200B;または&#x200B;**ジョブロール**&#x200B;のリストの名前のいずれかをクリックします。 詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
