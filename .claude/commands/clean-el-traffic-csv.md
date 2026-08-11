@@ -1,9 +1,9 @@
 ---
 name: clean-el-traffic-csv
 description: 生のExperience League/Adobe Analytics トラフィック CSVをページビュー別に並べ替えて、Workfront専用ページに書き出します。 ユーザーがExperience Leagueのページトラフィック CSV （「Page URL Generic」、「Unique Visitors」、「Visits」、「Page Views」などの列）を提供し、それをクリーニング、フィルタリング、処理するように求めるか、「ドキュメントのトラッキング」/「最も閲覧された記事」スプレッドシートに言及する場合に使用します。
-source-git-commit: 3c5f28f5656fec574cb1ca9d3853703b6b900fdb
+source-git-commit: e22d43e9962b2b00793577fd14ac00587e8a2a6d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Experience Leagueのトラフィック CSVのクリーニング
 
-Experience League ページトラフィックの生のAdobe Analytics フリーフォームテーブルの書き出しを、ページビュー別に並べ替えられた、クリーンでWorkfront専用の重複排除されたCSVに変換し、元のファイルを上書きします。
+Experience League ページトラフィックの生のAdobe Analytics フリーフォームテーブルの書き出しを、ページビューごとに並べ替えられたクリーンでWorkfront専用の重複排除されたCSVに変換し、元のファイルを上書きし、日付のあるコピーをデスクトップに保存します。
 
 ## 入力シェイプ
 
@@ -48,7 +48,7 @@ Experience League ページトラフィックの生のAdobe Analytics フリー�
 
 残っている行ごとに、URLで`/using`を見つけ、その後に続く`/`の部分のみを保持し、`/using`の前と後のすべてを破棄します。
 
-例：`https://experienceleague.adobe.com/ja/docs/workfront/using/home` → `/home`
+例：`https://experienceleague.adobe.com/en/docs/workfront/using/home` → `/home`
 
 Workfront行のURLに`/using`が見つからない場合は、そのURLを変更せずに、推測するのではなくユーザーにフラグを立てます。
 
@@ -79,6 +79,18 @@ Workfront行のURLに`/using`が見つからない場合は、そのURLを変更
 ### ステップ 8：保存
 
 元の入力ファイルを、クリーニングされた結果で上書きします。
+
+### 手順9：日付のコピーをデスクトップに保存（手順0で日付範囲がキャプチャされた場合のみ、未加工の書き出し）
+
+日付範囲のファイル名に安全なバージョンを作成します。コンマを削除し、`\ / : * ? " < > |`のいずれかを`-`に置き換えます（これらの文字はWindows ファイル名では無効であり、書き出しロケールや形式によっては日付範囲に表示される可能性があります）。
+
+現在のユーザーのデスクトップに、クリーニングされたCSV （手順8と同じ内容）の追加コピーを保存します。次の名前を付けます。
+
+`Documentation tracking report <filename-safe date range>.csv`
+
+例：`Apr 1, 2026 - Apr 30, 2026`のキャプチャ範囲は`Documentation tracking report Apr 1 2026 - Apr 30 2026.csv`になります。
+
+ユーザーが日付範囲を個別に指定しない限り、既にクリーンなCSV （シェイプ 2）に対してこの手順をスキップします。
 
 ## 範囲外
 
@@ -157,6 +169,11 @@ $outLines += $newHeader
 $outLines += $sorted | ForEach-Object { "$($_.URL),$($_.UV),$($_.Visits),$($_.PV)" }
 
 Set-Content -Path $path -Value $outLines -Encoding UTF8
+
+# Step 9: also save a dated copy to the Desktop
+$safeDateRange = ($dateRange -replace ',', '') -replace '[\\/:*?"<>|]', '-'
+$desktopPath = Join-Path ([Environment]::GetFolderPath('Desktop')) "Documentation tracking report $safeDateRange.csv"
+Set-Content -Path $desktopPath -Value $outLines -Encoding UTF8
 ```
 
-既にクリーンなCSV （入力シェイプ 2）の場合は、ヘッダーの再配置と日付範囲のロジックをスキップして、既存のヘッダー/行にそのまま手順2 ～ 6と8を実行するだけです。
+既にクリーンなCSV （入力シェイプ 2）の場合は、ヘッダーの再配置、日付範囲ロジック、およびステップ 9をスキップして、既存のヘッダー/行をそのまま実行します。
