@@ -4,9 +4,9 @@ content-type: reference
 description: Workfront タスクに割り当てることができるタスクコラボレーター、AI コラボレーターの使用方法について説明します。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
+source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '684'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 タスクコラボレーターは、MCP サーバーのように、設定したエージェントに接続します。
 
-Workfrontでのタスクコラボレーターの作成について詳しくは、「[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
+Workfrontでのタスクコラボレーターの作成について詳しくは、「[ タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
 
 ## アクセス要件
 
@@ -67,7 +67,7 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
 >* エージェントの責任と機能に関する具体的な詳細は、Workfrontではなく、エージェントが作成されるアプリケーションで設定されます。
 >* タスクコラボレーターは現在、Copilot Studio、Claude、およびWriter.aiで作成されたエージェントをサポートしています。
 >* Copilot Studioでエージェントを設定する場合、セキュリティを&#x200B;**認証なし**&#x200B;に設定する必要があります。
->* Workfrontでのタスクコラボレーターの作成について詳しくは、「[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
+>* Workfrontでのタスクコラボレーターの作成について詳しくは、「[ タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
 
 ## タスク共同作業者の開始トリガー
 
@@ -75,8 +75,8 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
 
 * タスクコラボレーターは、開始準備ができているタスクに割り当てられます。 （例えば、タスクに先行タスクがある場合、先行タスクは完了します）。
 * タスクコラボレーターとユーザーがタスクに割り当てられ、タスクコラボレーターが最初に割り当てられます。
-* タスクコラボレーターが既に割り当てられているタスクを開始できます。 （例えば、タスクに先行タスクがある場合、先行タスクは完了します）。
-* タスクコラボレーターとユーザーが既に割り当てられているタスクを開始する準備が整います。 （例えば、タスクに先行タスクがある場合、先行タスクは完了します）。
+* タスクコラボレーターが既に割り当てられているタスクは開始準備が整い、タスクコラボレーターが唯一または主要な担当者となります。 （例えば、タスクに先行タスクがある場合、先行タスクは完了します）。
+* タスクコラボレーターとユーザーが既に割り当てられているタスクは開始準備が整い、タスクコラボレーターが最初に割り当てられたか、または主な担当者です。 （例えば、タスクに先行タスクがある場合、先行タスクは完了します）。
 * ユーザーとタスクコラボレーターがタスクに割り当てられ、ユーザーが削除されます。
 * ユーザーとタスクコラボレーターがタスクに割り当てられ、タスクコラボレーターがタスクのプライマリ担当者として設定されます。
 
@@ -84,7 +84,7 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
 
 * タスク共同作業者は、既にユーザーが割り当てられているタスクに割り当てられます。
 * タスクの共同作業者がタスクに@mentionedり込まれます。
-* タスクコラボレーターは、既にタスクコラボレーターが割り当てられているタスクに割り当てられます。 この場合、最初に割り当てられたタスクコラボレーターのみがタスクの作業を開始します。
+* タスクコラボレーターは、既にタスクコラボレーターが割り当てられているタスクに割り当てられます。 この場合、最初に割り当てられたタスクコラボレーターは既に作業を開始しており、2番目のタスクコラボレーターは何もしません。
 * タスクコラボレーターは、開始準備ができていないタスクに割り当てられています。 （例えば、タスクに先行タスクがある場合、先行タスクはまだ完了していません）。
 
 ## タスク共同作業者のタスクへの割り当て
@@ -93,4 +93,4 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
 
 使用可能な担当者のリストでタスクコラボレーターを検索する場合、タスクコラボレーターの名前は名前のみになります。
 
-手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
+手順については、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
