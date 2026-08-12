@@ -7,9 +7,9 @@ description: Adobe Workfront管理者は、AI共同作業者を設定し、プ�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 560297cc7e4d7e4b4df5917c1710411454b4c9cb
+source-git-commit: cd2f35687330dc8662b52e930ee8a118c90b6c49
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '74'
 ht-degree: 5%
 
 ---
@@ -22,4 +22,4 @@ AI共同作業者は、個人を割り当てるのと同じようにタスクに
 
 WorkfrontでAI共同作業者がタスクをピックアップして完了する方法を見る。
 
->[!VIDEO] （（URLはこちら）/?quality=12&amp;learn=on）
+>[!VIDEO](https://video.tv.adobe.com/v/3497105/?quality=12&learn=on)
