@@ -4,10 +4,10 @@ content-type: reference
 description: Workfront タスクに割り当てることができるタスクコラボレーター、AI コラボレーターの使用方法について説明します。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
+source-git-commit: 294abde1460326cd43eb30ac1aac134882cd2ee3
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 4%
+source-wordcount: '867'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 タスクコラボレーターは、MCP サーバーのように、設定したエージェントに接続します。
 
-Workfrontでのタスクコラボレーターの作成について詳しくは、「[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
+Workfrontでのタスクコラボレーターの作成について詳しくは、「[ タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
 
 ## アクセス要件
 
@@ -67,7 +67,7 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
 >* エージェントの責任と機能に関する具体的な詳細は、Workfrontではなく、エージェントが作成されるアプリケーションで設定されます。
 >* タスクコラボレーターは現在、Copilot Studio、Claude、およびWriter.aiで作成されたエージェントをサポートしています。
 >* Copilot Studioでエージェントを設定する場合、セキュリティを&#x200B;**認証なし**&#x200B;に設定する必要があります。
->* Workfrontでのタスクコラボレーターの作成について詳しくは、「[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
+>* Workfrontでのタスクコラボレーターの作成について詳しくは、「[ タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
 
 ## タスク共同作業者の開始トリガー
 
@@ -93,4 +93,20 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
 
 使用可能な担当者のリストでタスクコラボレーターを検索する場合、タスクコラボレーターの名前は名前のみになります。
 
-手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
+手順については、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
+
+## タスク共同作業者のトラブルシューティング
+
+タスクコラボレーターが応答または出力を返さない場合は、次の点を確認してください。
+
+* エージェントがAI プラットフォームプロバイダー側で公開されていることを確認します。
+* エージェントのプラットフォームに十分なAI クレジットがあることを確認します。
+* タスクに対して実行されるアクションが、特定のアクセスレベルを必要としていないことを確認します。
+* エージェント プロバイダーとしてCopilotを使用している場合は、「認証なし」設定を使用していることを確認してください。
+* Copilotを使用している場合は、エージェントがグローバル環境で設定されていることを確認します。 タスクコラボレーター機能は現在、Copilot Studioの地域バージョンをサポートしていません。
+* 共同作業者がタスクの主な担当者であることを確認します。
+* タスクコラボレーターが割り当てられているタスクが開始可能であることを確認します。 例えば、そのタスクの先行タスクがすべて完了していることを確認します。
+
+>[!TIP]
+>
+>また、エージェントプロバイダープラットフォームに移動し、エージェントにプラットフォーム内でタスクを実行するように依頼することもできます。 エージェントがプラットフォーム内でタスクを実行できない場合、タスクコラボレーターもWorkfrontで問題が発生します。
