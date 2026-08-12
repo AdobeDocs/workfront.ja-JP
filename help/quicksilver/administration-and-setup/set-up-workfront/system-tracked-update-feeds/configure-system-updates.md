@@ -11,20 +11,15 @@ exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 904
-ht-degree: 50%
+source-wordcount: 958
+ht-degree: 47%
 
 ---
 
@@ -85,7 +80,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-* この表の詳細については、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+* この表の詳細については、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -131,7 +126,7 @@ Old:
 
 >[!NOTE]
 >
->更新フィードでは、最大 300 個のビルトインのフィールドとカスタムフィールドを追跡できます。 フィールドの最大数を追跡しており、[!UICONTROL すべてのフィールド &#x200B;] サブタブに表示されない追加のフィールドを追跡する場合は、新しいフィールドを追跡するために、最初に追跡されたフィールドの一部を削除する必要があります。 更新フィールドからフィールドを削除する方法の詳細については、[&#x200B; トラッキングしないフィールドの削除](#remove-fields-you-don-t-want-tracked)を参照してください。
+>更新フィードでは、最大 300 個のビルトインのフィールドとカスタムフィールドを追跡できます。 フィールドの最大数を追跡しており、[!UICONTROL すべてのフィールド ] サブタブに表示されない追加のフィールドを追跡する場合は、新しいフィールドを追跡するために、最初に追跡されたフィールドの一部を削除する必要があります。 更新フィールドからフィールドを削除する方法の詳細については、[ トラッキングしないフィールドの削除](#remove-fields-you-don-t-want-tracked)を参照してください。
 
 {{step-1-to-setup}}
 
@@ -162,9 +157,9 @@ Old:
    >
    >[!DNL Workfront]が既にフィールドを追跡している場合、リストから2回目に追加することはできません。
 
-1. [!DNL Workfront]で追跡するフィールドをすべて追加したら、**[!UICONTROL 追加]**&#x200B;をクリックします。
-追加した組み込みフィールドは&#x200B;**[!UICONTROL 組み込みフィールド]** サブタブに表示され、カスタムフィールドは&#x200B;**[!UICONTROL カスタムフィールド]** サブタブに表示されます。
-**[!UICONTROL すべてのフィールド]** サブタブには、[!DNL Workfront]さんが追跡する組み込みフィールドとカスタムフィールドの両方が表示されます。
+1. [!DNL Workfront]で追跡するフィールドをすべて追加したら、**[!UICONTROL 追加]**をクリックします。
+追加した組み込みフィールドは**[!UICONTROL 組み込みフィールド]** サブタブに表示され、カスタムフィールドは&#x200B;**[!UICONTROL カスタムフィールド]** サブタブに表示されます。
+**[!UICONTROL すべてのフィールド]** サブタブには、[!DNL Workfront]が追跡する組み込みフィールドとカスタムフィールドの両方が表示されます。
 
 ### 追跡しないフィールドを削除 {#remove-fields-you-don-t-want-tracked}
 
@@ -176,7 +171,7 @@ Old:
 
 1. 「**[!UICONTROL トラッキングフィールド]**」タブで、「**[!UICONTROL すべてのフィールド]**」サブタブを選択します。 現在追跡されているビルトインフィールドとカスタムフィールドの両方が表示されます。
 
-1. トラッキングを停止するフィールドを選択し、**[!UICONTROL 削除]** アイコン ![削除アイコン &#x200B;](assets/remove-icon.png)をクリックします。
+1. トラッキングを停止するフィールドを選択し、**[!UICONTROL 削除]** アイコン ![削除アイコン ](assets/remove-icon.png)をクリックします。
 
 1. 表示される「**[!UICONTROL フィールドを削除]**」ボックスで、「**[!UICONTROL はい、削除します]**」をクリックして確定します。
 
@@ -190,6 +185,8 @@ Old:
 
 変更は、タスクまたはイシューの[!UICONTROL 更新]エリアに、システム更新として表示されます。
 
+アクションを無効にすると、そのアクションに関して以前に記録された更新は、そのアクションが記録された[!UICONTROL 更新]領域に保持されます。 [!DNL Workfront]は、無効なアクションの新しい更新の記録を停止します。
+
 次の表に、[!DNL Workfront]のオブジェクトで追跡できるアクションを示します。
 
 <table style="table-layout:auto"> 
@@ -199,8 +196,8 @@ Old:
  <thead> 
   <tr> 
    <th><strong>アクション</strong> </th> 
-   <th><strong>オブジェクト</strong> </th> 
-   <th><strong>デフォルトのステータス</strong> </th> 
+   <th><strong> アクションが</strong>に適用されるオブジェクト </th> 
+   <th><strong>既定の状態</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -268,4 +265,6 @@ Old:
 1. アクションのチェックボックスを選択して有効にするか、選択を解除して無効にします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   アクションを無効にすると、そのアクションに関して以前に記録された更新は、そのアクションが記録された[!UICONTROL 更新]領域に保持されます。 [!DNL Workfront]は、無効なアクションの新しい更新の記録を停止します。
+   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+
+
