@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9b272b27e030332325bdd7f75b9f1b947bd6118d
 workflow-type: tm+mt
-source-wordcount: 2258
+source-wordcount: 2259
 ht-degree: 82%
 
 ---
@@ -105,6 +105,7 @@ Workfront インターフェイスからレポートを手動で書き出すこ�
 * PDF（横または縦）
 * Excel
 * Excel（xlsx）
+* CSV
 * タブ区切り
 
 >[!NOTE]
@@ -122,9 +123,9 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
 * **50,000 セル：** Excel ファイルのレポート書き出しで許可されるセルの最大数。
 * **50,000行：** PDFおよびTab区切りファイルのレポート書き出しで許可されるデータの行数。
 
-   * Excel ファイルの場合、この制限は&#x200B;**65,000行**&#x200B;です。
-   * Excel （.xlsx） ファイルの場合、この制限は&#x200B;**100,000行**&#x200B;です。
-   * これらの制限には、レポート内のグループ化の行だけでなく、列見出しも除外されます。 例えば、レポート内に 6 つのグループがあり、データが 50,000 行ある場合、書き出されたファイルには 50,000 行が含まれます。
+  * Excel ファイルの場合、この制限は&#x200B;**65,000行**&#x200B;です。
+  * Excel （.xlsx） ファイルの場合、この制限は&#x200B;**100,000行**&#x200B;です。
+  * これらの制限には、レポート内のグループ化の行だけでなく、列見出しも除外されます。 例えば、レポート内に 6 つのグループがあり、データが 50,000 行ある場合、書き出されたファイルには 50,000 行が含まれます。
 
   >[!IMPORTANT]
   >
@@ -142,20 +143,20 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
 
 * 以下の制限が適用されます。
 
-   * レポートの手動書き出し。
-   * スケジュール済みレポート。
-   * API 統合を経由した書き出し。
-   * キックスタートを経由して書き出されたデータ。
+  * レポートの手動書き出し。
+  * スケジュール済みレポート。
+  * API 統合を経由した書き出し。
+  * キックスタートを経由して書き出されたデータ。
 
-     キックスタートを経由したデータの書き出しについて詳しくは、[キックスタートを介した Adobe Workfront からのデータの書き出し](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)を参照してください。
+    キックスタートを経由したデータの書き出しについて詳しくは、[キックスタートを介した Adobe Workfront からのデータの書き出し](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)を参照してください。
 
-     >[!NOTE]
-     >
-     >50,000 行をキックスタートファイルに書き出すことができますが、データは Excel 形式のファイルにのみ書き出すことができます。
+    >[!NOTE]
+    >
+    >50,000 行をキックスタートファイルに書き出すことができますが、データは Excel 形式のファイルにのみ書き出すことができます。
 
-   * プロジェクトの稼働率情報を書き出します。
+  * プロジェクトの稼働率情報を書き出します。
 
-     プロジェクトの稼働率情報を書き出す方法に関して詳しくは、[リソース稼働率レポートの概要](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project)を参照してください。
+    プロジェクトの稼働率情報を書き出す方法に関して詳しくは、[リソース稼働率レポートの概要](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project)を参照してください。
 
 * **10 MB のファイルサイズ：**&#x200B;配信が予定されているすべての書き出しレポートのファイルサイズ制限。 メールに添付された書き出し済みファイルが 5 MB を超える場合、添付の書き出し済みレポートの代わりに、ファイルをダウンロードできるリンクがメールで送信されます。
 * **65,530 個のハイパーリンク：**&#x200B;これは、65,530 個を超えるハイパーリンクを含むドキュメントに対して Excel が課す制限です。 これらのドキュメントは、手動で書き出した場合や、配信されたレポートに添付された場合には開けません。 Excel ドキュメントのデータは 200 行に過ぎなくても、ドキュメント内に 65,530 個を超えるリンクがある場合、ドキュメントは開きません。 この制限は、Excel ファイルにのみ存在し、他のサポートされている形式には該当しません。
@@ -240,13 +241,13 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
 
 * プロジェクト内のタスクとイシューのリストを書き出す場合：
 
-   * *The_project_name_Exported_Tasks*（*PDF、Excel、Excel（.xlsx）またはタブ区切り形式）*
-   * *The_project_name_Exported_Issues*（*PDF、Excel、Excel（.xlsx）またはタブ区切り形式）*
+  * *The_project_name_Exported_Tasks*（*PDF、Excel、Excel（.xlsx）またはタブ区切り形式）*
+  * *The_project_name_Exported_Issues*（*PDF、Excel、Excel（.xlsx）またはタブ区切り形式）*
 
 * タスク（サブタスク）内のタスクおよびイシューリストを書き出す場合：
 
-   * **The_project_name_the_task_name_Exported_Tasks**（*PDF、Excel、Excel（.xlsx）またはタブ区切り形式）*
-   * **The_project_name_the_task_name_Exported_Issues**（*PDF、Excel、Excel（.xlsx）またはタブ区切り形式）*
+  * **The_project_name_the_task_name_Exported_Tasks**（*PDF、Excel、Excel（.xlsx）またはタブ区切り形式）*
+  * **The_project_name_the_task_name_Exported_Issues**（*PDF、Excel、Excel（.xlsx）またはタブ区切り形式）*
 
 他のオブジェクトのリストをプロジェクトから PDF ファイルに書き出すと、書き出したドキュメントのファイル名に、書き出したオブジェクトの種類が示されます。\
 例えば、次のようなファイル名を指定できます。
