@@ -5,9 +5,9 @@ title: Adobe Workfront MCP Server Tools
 description: Adobe Workfront MCP サーバーを通じて使用可能なツールのリファレンスリストを、Workfront領域ごとにグループ化します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: bea4b02589b7b4d88c86246ce489155e5921a508
+source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
 workflow-type: tm+mt
-source-wordcount: '2633'
+source-wordcount: '2581'
 ht-degree: 6%
 
 ---
@@ -48,10 +48,10 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | --- | --- | --- | --- |
 | 名前でドキュメントのバージョンを検索 | `approvals_find_document_version_by_name` | ドキュメントの現在のバージョン IDをファイル名で検索します。 部分一致をサポートします。 | 読み取り |
 | バージョン IDでドキュメントを取得 | `approvals_get_document_by_version_id` | 既知のドキュメントバージョン IDのドキュメントの詳細（名前、サイズ、アップロード日、アップローダー）を取得します。 | 読み取り |
-| プロジェクト別ドキュメントの取得 | `approvals_get_documents_by_project` | Workfront プロジェクト内のドキュメントと、各ドキュメントの現在のバージョン IDを一覧表示します。 | 読み取り |
 | ドキュメント範囲を解決 | `approvals_resolve_document_scope` | プロジェクトまたはフォルダーを、そのプロジェクトに含まれるドキュメントバージョン IDのリストに展開します。 プロジェクト、フォルダーおよびフォルダーの名前単位のスコープをサポートします。 | 読み取り |
+| スコープ別ドキュメントの取得 | `approvals_get_documents_by_scope` | プロジェクトまたはフォルダー内の文書のリストを作成します。 | 読み取り |
+| AEMにリンクされたフォルダーのリスト* | `approvals_list_aem_linked_folders` | Adobe Experience ManagerにリンクされているWorkfront ドキュメントフォルダーを一覧表示します。 | 読み取り |
 | ドキュメントを検索 | `approvals_find_document` | ファイル名またはドキュメントのバージョン IDでドキュメントを検索する | 読み取り |
-| スコープ別ドキュメントの取得 | approvals_get_documents_by_scope | プロジェクトまたはフォルダー内の文書のリストを作成します。 | 読み取り |
 | AEM フォルダーへのドキュメントの送信* | `approvals_send_documents_to_aem_folder` | 1つ以上のWorkfront ドキュメントをAEMにリンクされたフォルダーに移動します。 | 編集 |
 
 * これらのツールを使用するには、Workfront インスタンスでネイティブの[!DNL Adobe Experience Manager]統合が設定されている必要があります。 詳しくは、[Adobe Experience Manager Assets統合の概要](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)を参照してください。
@@ -110,13 +110,8 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 
 | タイトル | ツール名 | 機能 | アクション |
 | --- | --- | --- | --- |
-| 現在のユーザーを取得 | `approvals_get_current_user` | 名前、ユーザーID、ホームチーム名、ホームチーム IDなど、呼び出し元ユーザーのWorkfront IDを返します。 | 読み取り |
-| 名前でユーザーを検索 | `approvals_find_user_by_name` | Workfront ユーザーのIDを名前（ファジーまたは部分一致）で検索します。 名前、ID、電子メール、タイトル、アバターのURLを返します。 | 読み取り |
-| 名前でチームを検索 | `approvals_find_team_by_name` | Workfront チームのIDを名前（ファジーまたは部分一致）で検索します。 | 読み取り |
 | 名前でプロジェクトを検索 | `approvals_find_project_by_name` | システム全体で名前の一部が一致する場合に、Workfront プロジェクトを検索します。 | 読み取り |
 | 所有者によるプロジェクトの取得 | `approvals_get_projects_by_owner` | 呼び出し元ユーザーがオーナーであるWorkfront プロジェクトを一覧表示します。 | 読み取り |
-| プロジェクトの検索 | approvals_find_projects | Workfront プロジェクトを検索します。オプションで、名前でフィルタリングしたり、呼び出し元のユーザーが所有するプロジェクトに限定したりできます。 | 読み取り |
-
 
 ## プランニングツール
 
@@ -299,6 +294,7 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | Workfrontデータの検索 | `insights_find_workfront_data` | Workfrontデータを検索、フィルタリング、カウント、並べ替え、集計します。 これがメインのクエリとレポートツールです。 | 読み取り |
 | オブジェクトを要約 | `insights_summarize_object` | IDで1つのWorkfront オブジェクトを取得して要約します。 | 読み取り |
 | エンティティのリスト | `insights_list_entities` | クエリに使用できるすべてのWorkfront オブジェクトタイプを一覧表示します。 | 読み取り |
+| ユーザーを検索 | `insights_search_users` | Workfront インスタンス内のユーザーを名前で検索します。 完全または部分的な名前を入力し、一致するユーザーのトップを取得します。 これには、AIの共同作業者「ボット」を通常のユーザーと一緒に含めることもできます。 | 読み取り |
 
 
 
