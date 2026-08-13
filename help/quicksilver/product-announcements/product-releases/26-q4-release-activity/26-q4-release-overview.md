@@ -4,10 +4,10 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 308cbff62c648ba47a1a714446cffef40e5b4991
+source-git-commit: da78c3043f1b168d3e589fe98f67629c063c2715
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 15%
+source-wordcount: '1388'
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第4四半期のリリースが予定されている実稼動リリースに近づいたときに、さらに機能強化を加えて更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -35,54 +35,13 @@ ht-degree: 15%
 
 ## Adobe Workfront の機能強化
 
-* [AIの機能強化](#ai-enhancements)
 * [管理者機能の強化](#administrator-enhancements)
+* [AIの機能強化](#ai-enhancements)
 * [ドキュメントの機能強化](#documents-enhancements)
 * [プロジェクトの機能強化](#project-enhancements)
 * [レポートの機能強化](#reporting-enhancements)
 * [リソース管理の強化](#resource-management-enhancements)
 * [その他の機能強化](#other-enhancements)
-
-### AIの機能強化
-
-<table>
-    <tbody>
-        <tr>
-            <td><strong>機能</strong>
-            </td>
-            <td><strong>プレビュー</strong></td>
-            <td><strong>迅速リリース</strong></td>
-            <td><strong>四半期ごと</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">AI タスク共同作業者をWorkfrontのタスクに割り当てる</a>
-                <p>タスクコラボレーターは、タスクに直接割り当ててタスクレベルの作業を完了できるAI コラボレーターです。</p>
-            </td>
-            <td><p>2026年7月31日（PT）</p></td>
-            <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP コネクタで利用可能な新しい承認ツール </a>
-                <p>Workfront MCP Connectorの機能を拡張するために、承認パスを管理する新しいツールと、並列承認パスをサポートする既存のツールを拡張しました。</p>
-            </td>
-            <td><p>2026年7月30日（PT）</p></td>
-            <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
-        </tr>
-        <tr>
-            <td>
-                Workfront MCP コネクタで使用できる<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}"> ボードツール </a>
-                <p>Workfront MCP コネクタの機能を拡張するために、ボード、カード、チェックリスト項目、列を操作するツールを追加しました。</p>
-            </td>
-            <td><p>2026年7月30日（PT）</p></td>
-            <td><p>2026年8月13日（PT）</p></td>
-            <td><p>2026年10月15日（PT）</p></td>
-        </tr>
-    </tbody>
-</table>
 
 ### 管理者機能の強化
 
@@ -95,7 +54,18 @@ ht-degree: 15%
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
         </tr>
+<!--
         <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Interface improvements to the Actions list</a>
+                <p>The Actions list in the Update Feeds section of the Setup area has an updated look and feel.</p>
+            </td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+ -->  
+      <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> グループ管理者はビジネスプロファイルを管理できます</a>
                 <p>グループ管理者は、システム管理者のアクセス権がなくても、管理するグループのビジネスプロファイルを作成、編集、削除できるようになりました。</p>
@@ -170,6 +140,56 @@ ht-degree: 15%
     </tbody>
 </table>
 
+### AIの機能強化
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>機能</strong>
+            </td>
+            <td><strong>プレビュー</strong></td>
+            <td><strong>迅速リリース</strong></td>
+            <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP コネクタで利用できる新しい検索ユーザーツール </a>
+                <p>新しい検索ユーザーツールを使用すると、Workfront インスタンス内のユーザーをより迅速に検索できます。6つの古い検索ツールは、既存の検索/検索ツールに代わって非推奨になりました。</p>
+            </td>
+            <td><p>2026年8月13日（PT）</p></td>
+            <td><p>2026年8月13日（PT）</p></td>
+            <td><p>2026年8月13日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">AI タスク共同作業者をWorkfrontのタスクに割り当てる</a>
+                <p>タスクコラボレーターは、タスクに直接割り当ててタスクレベルの作業を完了できるAI コラボレーターです。</p>
+            </td>
+            <td><p>2026年7月31日（PT）</p></td>
+            <td><p>2026年8月13日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP コネクタで利用可能な新しい承認ツール </a>
+                <p>Workfront MCP Connectorの機能を拡張するために、承認パスを管理する新しいツールと、並列承認パスをサポートする既存のツールを拡張しました。</p>
+            </td>
+            <td><p>2026年7月30日（PT）</p></td>
+            <td><p>2026年8月13日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                Workfront MCP コネクタで使用できる<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}"> ボードツール </a>
+                <p>Workfront MCP コネクタの機能を拡張するために、ボード、カード、チェックリスト項目、列を操作するツールを追加しました。</p>
+            </td>
+            <td><p>2026年7月30日（PT）</p></td>
+            <td><p>2026年8月13日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
+        </tr>
+    </tbody>
+</table>
+
 ### ドキュメントの機能強化
 
 <table>
@@ -236,6 +256,26 @@ ht-degree: 15%
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}"> スケジュール済みレポートの終了日の適用</a>
+                <p>スケジュール済みレポートでは、スケジュールの終了日を過ぎると自動的にディアクティベーションされ、無期限の配信を防ぐために終了日が必要になります。</p>
+            </td>
+            <td><p>2026年8月13日（PT）</p></td>
+            <td><p>2026年9月17日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Updated column headers for dependent connected record fields</a>
+                <p>Visual improvements have been made to the column headers for a dependent connected record field in the table view.</p>
+            </td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}"> リストとレポートに使用できるネイティブ参照フィールド </a>
@@ -322,8 +362,8 @@ ht-degree: 15%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画第4四半期2026 リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画第4四半期2026 リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 
 ## お知らせ
 
@@ -335,7 +375,7 @@ Workfront AdministratorでData Connect リーダーを使用しているユー�
 
 この変更は、2026年4月のWorkfront リリースノートで最初に発表されました。これは、期限前の最後のリマインダーです。 影響を受けるすべての読者ユーザーが2026年8月8日より前にMFAを有効にして、アクセスの中断を避けてください。
 
-詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/ja/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
+詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
 
 ### トレーニングの更新
 

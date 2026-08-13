@@ -4,9 +4,9 @@ description: 2026年第4四半期の管理者の機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '928'
 ht-degree: 1%
 
 ---
@@ -17,33 +17,61 @@ ht-degree: 1%
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
 
+<!--
+
+## Interface improvements to the Actions list
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+The Actions list in the Update Feeds section of the Setup area has an updated look and feel.
+
+The following enhancements are included:
+
+* We removed the Save and Cancel buttons.
+* The Track column now appears in the last position.
+* We removed the confirmation message that previously displayed when you saved changes in this area.
+
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+-->
+
 ## グループ管理者はビジネスプロファイルを管理できます
 
 >[!NOTE]
 >
->プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+>プレビュー：2026年7月30日（PT）
+>プロダクション高速リリース：2026年8月13日（PT）
+>すべての人のための制作：2026年10月15日
 
 グループ管理者は、システム管理者のアクセス権がなくても、管理するグループのビジネスプロファイルを作成、編集、削除できるようになりました。 これにより、企業はグループレベルでビジネスプロファイル管理を委任する柔軟性が向上します。
 
-詳しくは、[&#x200B; ビジネスプロファイルの表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)を参照してください。
+詳しくは、[ ビジネスプロファイルの表示と管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)を参照してください。
 
 ## 拡張リストでのビューのレイアウトテンプレートのサポート
 
 >[!NOTE]
 >
->プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+>プレビュー：2026年7月30日（PT）
+>プロダクション高速リリース：2026年8月13日（PT）
+>すべての人のための制作：2026年10月15日
 
 拡張リストのビューは、レイアウトテンプレートを使用してシステムレベルでサポートされるようになりました。 既存のシステムビューを非表示にしたり、特定のビューをデフォルトビューとして割り当てたり、システムビューのリストにカスタムビューを追加したりできます。
 
 レイアウトテンプレートの拡張リストの例は、**すべてのリクエスト**&#x200B;および&#x200B;**高度な割り当て**&#x200B;です。 拡張リストのビューの横に「新しいエクスペリエンス」ラベルが表示されます。
 
-詳しくは、[&#x200B; レイアウトテンプレートを使用したフィルター、ビュー、グループ化のカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
+詳しくは、[ レイアウトテンプレートを使用したフィルター、ビュー、グループ化のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
 
 ## 外部参照フィールドの一括編集
 
 >[!NOTE]
 >
->プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+>プレビュー：2026年7月30日（PT）
+>プロダクション高速リリース：2026年8月13日（PT）
+>すべての人のための制作：2026年10月15日
 
 一括編集ダイアログで、外部参照フィールドを編集できるようになりました。 以前は不可能でした。
 
@@ -51,13 +79,15 @@ ht-degree: 1%
 
 例えば、国のリストは、地域に対して行われた選択によって異なります。 あるプロジェクトの地域がアジアで、別のプロジェクトの地域がヨーロッパで、両方のプロジェクトを一括編集する場合、地域が一致しないため、国フィールドは使用できません。 両方のプロジェクトで同じ地域になるように地域を編集する場合は、両方のプロジェクトで使用する国を選択することもできます。
 
-外部参照フィールドについて詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-external-lookup-fields)を参照してください。
+外部参照フィールドについて詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-external-lookup-fields)を参照してください。
 
 ## カスタムフォームデザイナーのプレビューで高度なロジックをサポート
 
 >[!NOTE]
 >
->プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+>プレビュー：2026年7月30日（PT）
+>プロダクション高速リリース：2026年8月13日（PT）
+>すべての人のための制作：2026年10月15日
 
 カスタムフォームデザイナーのプレビューモードで、高度な表示ロジック、デフォルト値ロジック、検証ロジック、書式設定ロジック、編集可能ロジックなどの高度なロジックオプションがサポートされるようになりました。 フォームプレビューでロジック式をテストし、ロジックビルダーで必要に応じて調整できます。 テストオブジェクト（プロジェクト、タスク、イシューなど）を選択することもできます。 フォームのプレビューを行うことができます。
 
@@ -65,13 +95,15 @@ ht-degree: 1%
 
 これらのロジックタイプは、高度な表示、デフォルト値、条件付き書式設定、編集可能など、Workflow PrimeまたはUltimate パッケージ上の組織でのみ使用できます。
 
-詳細については、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)および[&#x200B; フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
+詳細については、[ カスタムフォームとフィールドへのロジックルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)および[ フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)を参照してください。
 
 ## 統一されたレビューと承認のための変更管理
 
 >[!NOTE]
 >
->プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+>プレビュー：2026年7月30日（PT）
+>プロダクション高速リリース：2026年8月13日（PT）
+>すべての人のための制作：2026年10月15日
 
 Adobe Workfrontの「変更履歴」ページには、統一されたレビューと承認のワークフローをまたいでアクティビティが記録され、管理者はレビューとドキュメントのライフサイクルイベントに関する包括的なガバナンス履歴を確認できます。
 
@@ -89,19 +121,23 @@ Adobe Workfrontの「変更履歴」ページには、統一されたレビュ�
 
 >[!NOTE]
 >
->プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+>プレビュー：2026年7月30日（PT）
+>プロダクション高速リリース：2026年8月13日（PT）
+>すべての人のための制作：2026年10月15日
 
 レイアウトテンプレートのランディングページとしてカスタムアプリケーションを設定できるようになりました。 既にメインメニューに追加されているカスタムアプリケーションは、ランディングページとして使用できます。
 
 カスタムアプリケーションをメインメニューまたはランディングページオプションとして使用するには、そのアプリケーションを個別に作成する必要があります。
 
-詳しくは、[&#x200B; レイアウトテンプレートを使用したランディングページのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)および[Adobe App Builderを使用したWorkfrontのカスタムアプリケーションの作成](/help/quicksilver/app-builder/app-builder.md)を参照してください。
+詳しくは、[ レイアウトテンプレートを使用したランディングページのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)および[Adobe App Builderを使用したWorkfrontのカスタムアプリケーションの作成](/help/quicksilver/app-builder/app-builder.md)を参照してください。
 
 ## 変更履歴でトラッキング対象フィールドを設定する
 
 >[!NOTE]
 >
->プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+>プレビュー：2026年7月30日（PT）
+>プロダクション高速リリース：2026年8月13日（PT）
+>すべての人のための制作：2026年10月15日
 
 Workfront全体で、特定の種類のオブジェクトをトラッキングするフィールドを追加できます。 ユーザーがそのフィールドの情報を変更すると、システムはその変更に関する情報を変更履歴のエントリとして記録します。
 
@@ -113,7 +149,9 @@ Workfront全体で、特定の種類のオブジェクトをトラッキング�
 
 >[!NOTE]
 >
->プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+>プレビュー：2026年7月30日（PT）
+>プロダクション高速リリース：2026年8月13日（PT）
+>すべての人のための制作：2026年10月15日
 
 標準アクセスレベルで、そのレベルを持つユーザーが変更履歴リストにアクセスできるかどうかを定義できるようになりました。 「**履歴を変更**」オプションは、アクセスレベルの「**の管理アクセスを許可する」セクションで利用できます。**
 
