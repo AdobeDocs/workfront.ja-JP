@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 904
-ht-degree: 50%
+source-wordcount: 958
+ht-degree: 47%
 
 ---
 
@@ -164,7 +164,7 @@ Old:
 
 1. [!DNL Workfront]で追跡するフィールドをすべて追加したら、**[!UICONTROL 追加]**&#x200B;をクリックします。
 追加した組み込みフィールドは&#x200B;**[!UICONTROL 組み込みフィールド]** サブタブに表示され、カスタムフィールドは&#x200B;**[!UICONTROL カスタムフィールド]** サブタブに表示されます。
-**[!UICONTROL すべてのフィールド]** サブタブには、[!DNL Workfront]さんが追跡する組み込みフィールドとカスタムフィールドの両方が表示されます。
+**[!UICONTROL すべてのフィールド]** サブタブには、[!DNL Workfront]が追跡する組み込みフィールドとカスタムフィールドの両方が表示されます。
 
 ### 追跡しないフィールドを削除 {#remove-fields-you-don-t-want-tracked}
 
@@ -190,6 +190,8 @@ Old:
 
 変更は、タスクまたはイシューの[!UICONTROL 更新]エリアに、システム更新として表示されます。
 
+アクションを無効にすると、そのアクションに関して以前に記録された更新は、そのアクションが記録された[!UICONTROL 更新]領域に保持されます。 [!DNL Workfront]は、無効なアクションの新しい更新の記録を停止します。
+
 次の表に、[!DNL Workfront]のオブジェクトで追跡できるアクションを示します。
 
 <table style="table-layout:auto"> 
@@ -199,8 +201,8 @@ Old:
  <thead> 
   <tr> 
    <th><strong>アクション</strong> </th> 
-   <th><strong>オブジェクト</strong> </th> 
-   <th><strong>デフォルトのステータス</strong> </th> 
+   <th><strong> アクションが</strong>に適用されるオブジェクト </th> 
+   <th><strong>既定の状態</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -268,4 +270,6 @@ Old:
 1. アクションのチェックボックスを選択して有効にするか、選択を解除して無効にします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   アクションを無効にすると、そのアクションに関して以前に記録された更新は、そのアクションが記録された[!UICONTROL 更新]領域に保持されます。 [!DNL Workfront]は、無効なアクションの新しい更新の記録を停止します。
+   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+
+

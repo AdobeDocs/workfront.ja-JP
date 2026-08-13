@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 3184
+source-wordcount: 3202
 ht-degree: 2%
 
 ---
@@ -83,6 +83,10 @@ ht-degree: 2%
 | タスクの新しい高度な割り当て | タスク/割り当て/詳細 |
 | ボード管理者ビュー | ボード/管理者ビュー |
 | Adobe クラウドストレージのドキュメント | プロジェクト、タスク、イシュー、ポートフォリオ、プログラム、テンプレート、テンプレートタスク/ドキュメント |
+<!--
+Add this BEFORE a list of reports in the table above:
+| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+-->
 
 ## 拡張リストへの項目の追加
 

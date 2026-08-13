@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 2968
+source-wordcount: 2990
 ht-degree: 4%
 
 ---
@@ -123,6 +123,10 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
   * 他のフィールドや計算を参照しない数式フィールドには、値は表示されません。 例えば、`STRING`式を持つフィールドには「N/A」値が表示されます。
   * 「通貨」フィールドを参照する数式フィールドには、為替レートを考慮せずに値が表示されます。
   * 段落フィールドの値は、リクエストフォームに「N/A」値を表示し、リクエストの詳細ページに書式設定されたテキストではなくHTML タグを表示します。
+
+* セカンダリワークスペースのグローバルレコードタイプにリクエストフォームを追加することはできません。
+
+  詳しくは、[&#x200B; クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 ## リクエストフォームの作成
 

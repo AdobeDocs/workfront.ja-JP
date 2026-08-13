@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: 2778
 ht-degree: 3%
 
 ---
@@ -146,6 +146,28 @@ Workfront Planning リクエストフォームにリクエストを送信する�
   詳しくは、[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でのリクエストフォームの作成と管理を参照してください。
 
 <!--
+
+* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+
+   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
+  
+   * In the Production environment:
+   
+      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+
+   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
+   
+      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
+      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
+      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
+ 
+   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
+-->
+
+
+
+<!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
 -->
 
@@ -252,7 +274,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >* レコードのプライマリフィールドがリクエストフォームで更新されていない場合、リクエストの「レコード」フィールドのレコードの名前は&#x200B;**名称未設定**&#x200B;と表示されます。
    >
-   >* リクエストフォームが承認に関連付けられている場合は、リクエストページからレコードにアクセスする前に、承認を付与する必要があります。レコードは、承認が付与されるまで作成されません。
+   >* リクエストフォームが承認に関連付けられている場合は、リクエストページからレコードにアクセスする前に、承認を付与する必要があります。 レコードは、承認が付与されるまで作成されません。
    >  リクエストの承認について詳しくは、[Adobe Workfront Planningでのリクエストの承認](/help/quicksilver/planning/requests/approve-request.md)を参照してください。
 
 1. （オプション） **レコードタイプ**&#x200B;の名前をクリックします。
@@ -281,6 +303,40 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
       ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
    * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
 -->
+
+## レコードタイプページからのプランニングリクエストの送信
+
+レコードタイプページから新しいレコードを追加すると、リクエストを送信できます。
+
+{{step1-to-planning}}
+
+1. ワークスペースのカードをクリックし、レコードの作成にアクセスできるレコードタイプのカードをクリックします。
+1. レコードタイプページの任意のビューで、「新規レコード」をクリックし、「**リクエストを送信**」をクリックします。
+
+   >[!TIP]
+   >
+   >**リクエストを送信** オプションが&#x200B;**新しいレコード**&#x200B;機能に追加される前に、リクエストフォームを作成して公開する必要があります。
+
+1. 「**続行**」をクリックします。
+
+1. （条件付き）レコードタイプに複数のリクエストフォームがある場合は、**新しいリクエスト** ボックスで使用するリクエストフォームをクリックします。
+
+   リクエストフォームが開きます。
+1. 利用可能なすべてのフィールドにすべての情報を入力します
+
+   または、**フォームに入力**&#x200B;をクリックして、AIにフォームに入力してもらいます。
+1. 「**リクエストを送信**」をクリックします。
+
+   リクエストが送信されます。
+
+1. （オプション）次のいずれかをクリックします。
+
+   * **別のリクエスト**&#x200B;を送信して、新しいフォームを開きます。
+   * **リクエストを表示**&#x200B;して、新しいリクエストを開きます。
+   * レコードタイプページに戻るには、ボックスの右上隅にある&#x200B;**X** アイコンをクリックします。
+
+   リクエストに承認が関連付けられていない場合は、手順2で選択したレコードタイプにレコードが追加されています。<!--accurate??-->
+
 
 ## 共有リンクからリクエストフォームにリクエストをWorkfront Planningに送信する
 
@@ -323,13 +379,13 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 
 1. （オプション）「**リクエストを表示**」をクリックして、Workfrontでリクエストを開きます。
 
-または
+   または
 
-「[別のリクエストを送信](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)」をクリックしてリクエストフォームを開き、新しいリクエストを追加します。
+   「[別のリクエストを送信](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)」をクリックしてリクエストフォームを開き、新しいリクエストを追加します。
 
-リクエストの詳細ページが開きます。
+   リクエストの詳細ページが開きます。
 
-![&#x200B; コメント付きのリクエストページ &#x200B;](assets/new-request-page-with-comment.png)
+   ![&#x200B; コメント付きのリクエストページ &#x200B;](assets/new-request-page-with-comment.png)
 
 1. （オプション）「**コメント**」領域にコメントを入力します。
 1. （条件付き）要求フォームが承認に関連付けられていない場合、または要求が承認されている場合は、要求の名前をクリックし、**作成済みオブジェクト** フィールドのレコード名をクリックします。
@@ -382,7 +438,7 @@ Planning リクエストを削除すると、次のことが発生します。
 
 1. 「要求」リストでその名前をクリックして、Planning要求を開きます。
 1. リクエスト名の右側にある&#x200B;**詳細** アイコン ![詳細メニュー](assets/more-menu.png)をクリックし、**削除**&#x200B;をクリックします。
-1. 「**完全に削除**」ボックスの「**e** lete」をクリックして確認します。
+1. 「**完全に削除**」ボックスの「**削除**」をクリックして確認します。
 
    リクエストは削除され、復元できません。
 
