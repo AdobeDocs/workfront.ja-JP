@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## 複数の行をドラッグ&amp;ドロップする際のテーブルビューの機能強化
 
@@ -61,7 +61,7 @@ For more information, see [Manage the timeline view](/help/quicksilver/planning/
 
 取り込みフォームにWorkspace フィールドが含まれ、送信する前にユーザーがワークスペースを選択した場合、フォームが起動された場所に関係なく、リクエストは選択したワークスペースにルーティングされます。 これにより、レコードが作成された時点から、目的のワークスペースでレコードが整理されます。
 
-詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 <!--
 
@@ -93,7 +93,7 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 * 推奨制限に照らし合わせて使用状況を確認します。
 * プランニングについて質問する。
 
-詳しくは、「[直接インストールで使用できるスキル ](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
+詳しくは、「[直接インストールで使用できるスキル &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
 
 ## テーブルビューでの行のドラッグ&amp;ドロップ
 

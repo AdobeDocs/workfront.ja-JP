@@ -83,7 +83,7 @@ exl-id: <existing UUID — never generate or change>
 >Production for everyone: {Month Day, Year}
 ```
 
-5. **Body**：機能の説明、ヘルプドキュメントへのリンク
+&#x200B;5. **Body**：機能の説明、ヘルプドキュメントへのリンク
 
 #### 概要ページ
 
@@ -100,10 +100,10 @@ exl-id: <existing UUID — never generate or change>
 * [Document enhancements](#document-enhancements)
 ```
 
-5. HTML機能テーブルを含む製品領域&#x200B;**ごとの** H3 （。claude/commands/_release-notes-formatter-reference.md#overview-feature-tableを参照）
+&#x200B;5. HTML機能テーブルを含む製品領域&#x200B;**ごとの** H3 （。claude/commands/_release-notes-formatter-reference.md#overview-feature-tableを参照）
    - 各テーブル内では、**最新の機能が最初に** – 最新の行がテーブルの上部（ヘッダー行の後）に表示されます
 
-6. **後続セクション** （H2）：その他の領域のリリースノート、デスクトップ校正ビューアの更新、お知らせ、API バージョン、メンテナンスの更新、トレーニングの更新
+&#x200B;6. **後続セクション** （H2）：その他の領域のリリースノート、デスクトップ校正ビューアの更新、お知らせ、API バージョン、メンテナンスの更新、トレーニングの更新
 
 ### 手順3：リンクの検証
 
@@ -194,12 +194,14 @@ exl-id: <existing UUID — never generate or change>
 - また、新しい四半期を現在のタブ リストに追加するのを忘れています。
 
 &lt;&lt;&lt;&lt;&lt;&lt;&lt; アップストリームを更新
+
 ### 手順8：製品リリースインデックスページの更新
 =======
+
 ### 手順9：製品リリースインデックスページの更新
->>>>>>>>>>スタッシュされた変更
+&#x200B;>>>>>>>>>>スタッシュされた変更
 > 
-**新四半期の概要ページ**&#x200B;を作成するたびに、同じ変更で`help/quicksilver/product-announcements/product-releases/product-releases.md`も更新します。
+>**新四半期の概要ページ**&#x200B;を作成するたびに、同じ変更で`help/quicksilver/product-announcements/product-releases/product-releases.md`も更新します。
 
 - 「Workfront リリース」列で、現在の年の`<p>Releases in {year}</p>` ブロックを検索します。
 - その年の&#x200B;**top**&#x200B;に、新しい四半期の概要ページにリンクする新しい`<li>`を、既存のエントリと同じ形式で追加します。
