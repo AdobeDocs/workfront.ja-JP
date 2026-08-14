@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '971'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,66 @@ ht-degree: 3%
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
 Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+## 複数の行をドラッグ&amp;ドロップする際のテーブルビューの機能強化
+
+>[!NOTE]
+>
+>プレビュー：2026年8月13日（PT）
+>プロダクション高速リリース：2026年8月13日（PT）
+>すべての人のための制作：2026年10月15日
+
+テーブルビューで複数の行をドラッグ&amp;ドロップすると、新しいビジュアルインジケーターが表示されます。 より目立つプラス記号と数値インジケーターに、ドラッグ&amp;ドロップ操作で選択されている行数が表示されるようになりました。
+
+詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
+
+<!--
+
+## Collapse and expand all groupings in the timeline view
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
+
+For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+-->
+
+## グローバルレコードタイプを使用する場合、送信されたリクエストオブジェクトを正しいワークスペースにルーティングします
+
+>[!NOTE]
+>
+>プレビュー：2026年8月13日（PT）
+>プロダクション高速リリース：2026年9月17日（PT）
+>すべての人のための制作：2026年10月15日
+
+リクエストフォームを送信してグローバルレコードタイプ用に作成されたレコードは、送信元のワークスペースに自動的にルーティングされるようになりました。
+
+グローバルレコードタイプのセカンダリワークスペースからリクエストを送信して作成されたレコードは、そのセカンダリワークスペースに追加されます。 元のワークスペースまたはメインリクエスト領域からリクエストを送信して作成されたレコードは、元のワークスペースに追加されます。
+
+取り込みフォームにWorkspace フィールドが含まれ、送信する前にユーザーがワークスペースを選択した場合、フォームが起動された場所に関係なく、リクエストは選択したワークスペースにルーティングされます。 これにより、レコードが作成された時点から、目的のワークスペースでレコードが整理されます。
+
+詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
 
 ## Workfront Planning Solution Architect Skillの紹介
 

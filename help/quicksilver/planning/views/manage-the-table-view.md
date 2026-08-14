@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 4011
+source-wordcount: 4046
 ht-degree: 39%
 
 ---
@@ -337,7 +337,7 @@ Old:
    >
    >行の順序に加えた変更は、同じビューでレコードタイプにアクセスするすべてのユーザーに表示されます。
    >
-   ><!--<span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>-->
+   ><span class="preview"> ドラッグ&amp;ドロップの行に、選択したレコードの数が複数ある場合は、数値インジケーターに表示されます。</span>
 
 1. （オプション）レコードの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**サムネールを編集**&#x200B;をクリックしてサムネールを編集します。
 1. テーブルの上部にある&#x200B;**フィールド**&#x200B;をクリックし、**サムネール** フィールドの切り替えスイッチを選択して、プライマリフィールドの左側に表示します。 デフォルトでは選択解除されています。

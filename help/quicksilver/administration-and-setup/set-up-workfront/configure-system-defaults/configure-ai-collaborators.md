@@ -8,17 +8,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
+source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 4%
+source-wordcount: '1462'
+ht-degree: 3%
 
 ---
 
 # AI共同作業者の設定
 
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 プレビューサンドボックス環境でのみ使用できます。</span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
 
 AI協力者とは、AI エージェントをプロジェクトやタスクに組み込む手法のひとつです。 AI共同作業者を設定し、ユーザーと同じように割り当てることができます。

@@ -4,10 +4,10 @@ description: 2026年第4四半期レポートの強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 8%
+source-wordcount: '414'
+ht-degree: 5%
 
 ---
 
@@ -17,11 +17,43 @@ ht-degree: 8%
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
 
+## スケジュールレポートの終了日の適用
+
+>[!NOTE]
+>
+>プレビュー：2026年8月13日（PT）
+>プロダクション高速リリース：2026年9月17日（PT）
+>すべての人のための制作：2026年10月15日
+
+スケジュールされたレポートは、無期限の配信を防ぐために終了日が必要になりました。 終了日を通過するスケジュールは、自動的に非アクティブ化されます。
+
+既存のスケジュールは、信頼性を向上させ、不要なシステム使用を減らすために、終了日を更新しました。 また、Workfrontでは、レポートのスケジュールのライフサイクルが終了日に近づいたときに、レポートのスケジュールを管理するのに役立つ可視性と警告も提供されます。
+
+詳しくは、[自動レポート配信のスケジュール &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
+
 ## ネイティブ参照フィールドは、リストとレポートで使用できます
 
 >[!NOTE]
 >
->プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+>プレビュー：2026年7月30日（PT）
+>プロダクション高速リリース：2026年8月13日（PT）
+>すべての人のための制作：2026年10月15日
 
 Workfrontのリストとレポートにネイティブ参照フィールドを追加できるようになりました。
 
@@ -34,7 +66,9 @@ Workfrontのリストとレポートにネイティブ参照フィールドを�
 
 >[!NOTE]
 >
->プレビュー：2026年7月30日>実稼動用の高速リリース：2026年8月13日>全員の実稼動環境：2026年10月15日
+>プレビュー：2026年7月30日（PT）
+>プロダクション高速リリース：2026年8月13日（PT）
+>すべての人のための制作：2026年10月15日
 
 複数を選択したカスタムフィールドのオプションが、従来のリストとレポートで一貫した予測可能な順序で表示されるようになりました。 フィールドの順序は、カスタムフォームでのフィールドの配置方法によって決まります。
 

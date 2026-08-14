@@ -16,20 +16,18 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 1765
-ht-degree: 2%
+source-wordcount: 1892
+ht-degree: 3%
 
 ---
 
 # クロスワークスペースのレコードタイプの概要
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -199,10 +197,9 @@ These two capabilities will come later - and edit some of the bullets below afte
   * 自動処理の作成と管理
   * リクエストフォームの作成と管理
 
-    <!--
-        <span class="preview">You can create records for a secondary record type using a request form from the secondary record type page or by specifically indicating which workspace the record should be saved to when filling out a request form created for the primary global record type and updating the Workspace field. 
-        For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span>
-        -->
+    <span class="preview"> セカンダリ レコード タイプ ページのリクエスト フォームを使用するか、プライマリ グローバル レコード タイプ用に作成されたリクエスト フォームに入力してWorkspace フィールドを更新する際に、レコードを保存するワークスペースを指定することで、セカンダリ レコード タイプのレコードを作成できます。
+    詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。</span>
+
 
 * セカンダリワークスペースに追加されたレコードは、これらのワークスペースに対する表示権限またはそれ以上の権限がある場合、次のワークスペースから表示されます。
 

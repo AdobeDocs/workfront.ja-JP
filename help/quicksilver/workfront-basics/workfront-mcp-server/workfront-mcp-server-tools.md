@@ -5,10 +5,10 @@ title: Adobe Workfront MCP Server Tools
 description: Adobe Workfront MCP サーバーを通じて使用可能なツールのリファレンスリストを、Workfront領域ごとにグループ化します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
+source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
 workflow-type: tm+mt
-source-wordcount: '2140'
-ht-degree: 8%
+source-wordcount: '2581'
+ht-degree: 6%
 
 ---
 
@@ -48,20 +48,20 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | --- | --- | --- | --- |
 | 名前でドキュメントのバージョンを検索 | `approvals_find_document_version_by_name` | ドキュメントの現在のバージョン IDをファイル名で検索します。 部分一致をサポートします。 | 読み取り |
 | バージョン IDでドキュメントを取得 | `approvals_get_document_by_version_id` | 既知のドキュメントバージョン IDのドキュメントの詳細（名前、サイズ、アップロード日、アップローダー）を取得します。 | 読み取り |
-| プロジェクト別ドキュメントの取得 | `approvals_get_documents_by_project` | Workfront プロジェクト内のドキュメントと、各ドキュメントの現在のバージョン IDを一覧表示します。 | 読み取り |
 | ドキュメント範囲を解決 | `approvals_resolve_document_scope` | プロジェクトまたはフォルダーを、そのプロジェクトに含まれるドキュメントバージョン IDのリストに展開します。 プロジェクト、フォルダーおよびフォルダーの名前単位のスコープをサポートします。 | 読み取り |
+| スコープ別ドキュメントの取得 | `approvals_get_documents_by_scope` | プロジェクトまたはフォルダー内の文書のリストを作成します。 | 読み取り |
+| AEMにリンクされたフォルダーのリスト* | `approvals_list_aem_linked_folders` | Adobe Experience ManagerにリンクされているWorkfront ドキュメントフォルダーを一覧表示します。 | 読み取り |
 | ドキュメントを検索 | `approvals_find_document` | ファイル名またはドキュメントのバージョン IDでドキュメントを検索する | 読み取り |
-| スコープ別ドキュメントの取得 | approvals_get_documents_by_scope | プロジェクトまたはフォルダー内の文書のリストを作成します。 | 読み取り |
+| AEM フォルダーへのドキュメントの送信* | `approvals_send_documents_to_aem_folder` | 1つ以上のWorkfront ドキュメントをAEMにリンクされたフォルダーに移動します。 | 編集 |
+
+* これらのツールを使用するには、Workfront インスタンスでネイティブの[!DNL Adobe Experience Manager]統合が設定されている必要があります。 詳しくは、[Adobe Experience Manager Assets統合の概要](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)を参照してください。
+
+
+*AEM フォルダーへのドキュメントの送信は、Adobe クラウドストレージ上のプロジェクトではまだサポートされていません。 今後のリリースでサポートが予定されています。
+
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
-| Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
-
-*You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
-
-
-*Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
-
 -->
 
 ### 承認ワークフロー
@@ -110,13 +110,8 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 
 | タイトル | ツール名 | 機能 | アクション |
 | --- | --- | --- | --- |
-| 現在のユーザーを取得 | `approvals_get_current_user` | 名前、ユーザーID、ホームチーム名、ホームチーム IDなど、呼び出し元ユーザーのWorkfront IDを返します。 | 読み取り |
-| 名前でユーザーを検索 | `approvals_find_user_by_name` | Workfront ユーザーのIDを名前（ファジーまたは部分一致）で検索します。 名前、ID、電子メール、タイトル、アバターのURLを返します。 | 読み取り |
-| 名前でチームを検索 | `approvals_find_team_by_name` | Workfront チームのIDを名前（ファジーまたは部分一致）で検索します。 | 読み取り |
 | 名前でプロジェクトを検索 | `approvals_find_project_by_name` | システム全体で名前の一部が一致する場合に、Workfront プロジェクトを検索します。 | 読み取り |
 | 所有者によるプロジェクトの取得 | `approvals_get_projects_by_owner` | 呼び出し元ユーザーがオーナーであるWorkfront プロジェクトを一覧表示します。 | 読み取り |
-| プロジェクトの検索 | approvals_find_projects | Workfront プロジェクトを検索します。オプションで、名前でフィルタリングしたり、呼び出し元のユーザーが所有するプロジェクトに限定したりできます。 | 読み取り |
-
 
 ## プランニングツール
 
@@ -212,10 +207,64 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | --- | --- | --- | --- |
 | オブジェクトを検索 | `workflow_search_any_object` | 柔軟なフィルターパラメーター、順序付け、ページネーションを使用して、Workfront オブジェクトを検索します。 | 読み取り |
 | オブジェクトを作成 | `workflow_create_any_object` | プロジェクト、タスク、イシュー、時間、割り当て、プログラム、ポートフォリオなどの新しいWorkfront オブジェクトを作成します。 | 編集 |
-| オブジェクトを更新 | `workflow_update_any_object` | 既存のWorkfront オブジェクトのフィールドを更新します。 | 編集 |
+| オブジェクトを更新 | `workflow_update_any_object` | 既存のオブジェクトのフィールドを更新します。 また、タスクまたはイシューを別のプロジェクトに移動したり、タスクまたはイシューを新しいプロジェクト（またはイシューをタスクに変換）に変換したり、タスク先行者（依存関係）を設定したりすることもできます。 | 編集 |
 | オブジェクトを削除 | `workflow_delete_any_object` | IDでWorkfront オブジェクトを削除します。 アクションを実行する前に、明示的なユーザー確認が必要です。 | 編集 |
 | フィールド名を解決 | `workflow_resolve_field_names_any_object` | ユーザーが提供したフィールド名またはラベルを、基礎となるWorkfront API フィールド名に変換します。これにより、AI エージェント基盤は正確なリクエストを構築できます。 | 読み取り |
 | ワークフロードキュメントを読む | `workflow_read_workflow_docs` | ツール使用ガイドやオブジェクト固有の操作プレイブックなど、Workfront Workflow ドキュメントを読み込みます。 これは、ワークフローアクションを実行する前に必要な最初の手順です。 | 読み取り |
+
+### オブジェクトツール機能の更新
+
+オブジェクトの更新ツールは、フィールド値を変更するだけのものではありません。 また、プロジェクト間の作業の再配置、作業項目の新しいオブジェクトへの昇格、タスクの依存関係の接続も可能です。
+
+#### タスクまたは問題を別のプロジェクトに移動する
+
+移動すると、作業項目が再設定されます。 オブジェクトはIDとリンクを保持し、別のプロジェクトまたは親タスクにのみ存在します。
+
+>[!NOTE]
+>
+>プレーンフィールドの更新で「プロジェクト」フィールドを設定しても、タスクやイシューは移動しません。 代わりに移動機能を使用してください。
+
+* **タスクを移動**: タスクをターゲットプロジェクトに移動し、オプションでターゲット親タスクの下に移動します。
+* **イシューを移動**：イシュー（リクエスト）をターゲットプロジェクトに移動します。
+
+プロンプトの例：
+
+* 「タスク *ワイヤーフレーム*&#x200B;を&#x200B;*モバイルアプリ再設計* プロジェクトに移動します。」
+* 「このリクエストを&#x200B;*Q4 Launch* プロジェクトに移動します。」
+
+#### イシューまたはタスクをプロジェクトに変換する
+
+>[!NOTE]
+>
+>変換すると、新しいオブジェクトが生成されます。 ソース品目がプロセスで消費されます。
+
+* **タスクをプロジェクトに変換**：タスクから新しいプロジェクトを作成します。 必要に応じて、タスクのカスタムデータをコピーし、プロジェクトテンプレートに基づいて新しいプロジェクトを作成できます。
+* **イシュー（リクエスト）をプロジェクトに変換**：イシューから新しいプロジェクトを作成します。 必要に応じて、イシューのカスタムデータをコピーし、ネイティブフィールド値をコピーして、プロジェクトテンプレートを適用できます。
+* **イシュー（リクエスト）をタスクに変換**：イシューから既存のプロジェクトにタスクを作成します。
+
+各コンバージョンでは、新しく作成したオブジェクトとリンクが返され、Workfrontで直接開くことができます。
+
+プロンプトの例：
+
+* 「タスク *Web サイト更新*&#x200B;を、標準テンプレートを使用して&#x200B;*Web サイト更新2026*&#x200B;というプロジェクトに変換します。」
+* 「このリクエストをプロジェクトに変換し、カスタムフィールドをコピーします。」
+
+#### タスク先行者（依存関係）の設定
+
+タスクの先行タスクを定義できます。 先行タスクでは、次の依存関係タイプに加えて、オプションのラグ時間がサポートされます。
+
+* **Finish-Start （FS）**: タスクは、先行タスクの完了時に開始されます。 （Default）
+* **Start-Start （SS）**: タスクは、先行タスクの開始時に開始されます。
+* **Finish-Finish （FF）**: タスクは、先行タスクが完了すると終了します。
+* **Start-Finish （SF）**: タスクは、先行タスクの開始時に終了します。
+
+作業日数に遅延（遅延）またはリード（負の遅延）を追加し、1つのタスクで複数の先行タスクを連結し、別のプロジェクトでタスクを参照できます。
+
+プロンプトの例：
+
+* 「*デザイン*&#x200B;の完了後に&#x200B;*開発*&#x200B;を開始する。」
+* 「*QA*&#x200B;を、*開発*&#x200B;が開始する2日間の遅延で開始するように設定します。」
+* 「タスク#3とタスク#5を&#x200B;*Launch*&#x200B;の先行タスクとして追加します。」
 
 ### コメント
 
@@ -245,6 +294,7 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | Workfrontデータの検索 | `insights_find_workfront_data` | Workfrontデータを検索、フィルタリング、カウント、並べ替え、集計します。 これがメインのクエリとレポートツールです。 | 読み取り |
 | オブジェクトを要約 | `insights_summarize_object` | IDで1つのWorkfront オブジェクトを取得して要約します。 | 読み取り |
 | エンティティのリスト | `insights_list_entities` | クエリに使用できるすべてのWorkfront オブジェクトタイプを一覧表示します。 | 読み取り |
+| ユーザーを検索 | `insights_search_users` | Workfront インスタンス内のユーザーを名前で検索します。 完全または部分的な名前を入力し、一致するユーザーのトップを取得します。 これには、AIの共同作業者「ボット」を通常のユーザーと一緒に含めることもできます。 | 読み取り |
 
 
 

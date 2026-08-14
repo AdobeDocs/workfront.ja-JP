@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 2778
+source-wordcount: 3070
 ht-degree: 3%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 3%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -145,26 +145,21 @@ Workfront Planning リクエストフォームにリクエストを送信する�
 
   詳しくは、[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でのリクエストフォームの作成と管理を参照してください。
 
-<!--
+* グローバルレコードタイプからレコードを作成するためにリクエストフォームを送信すると、新しいレコードは、送信元に応じて、プライマリレコードタイプまたはセカンダリレコードタイプのいずれかに保存されます。
 
-* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+  リクエストの送信とレコードの作成に使用する環境に応じて、グローバルレコードタイプに関連付けられたリクエストフォームのフォームを送信する際に、次のシナリオが存在します。
 
-   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
-  
-   * In the Production environment:
-   
-      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+  * 実稼動環境では、次の操作を行います。
 
-   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
-   
-      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
-      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
-      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
- 
-   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+    * この記事で説明されているメソッドを使用して、グローバルレコードタイプに関連付けられたリクエストフォームを送信すると、レコードはプライマリレコードタイプのページに表示されます。
 
--->
+  * <span class="preview"> プレビュー環境には、次のシナリオが存在します：</span>
 
+    * <span class="preview"> セカンダリ グローバル レコード タイプのページからリクエスト フォームを送信すると、レコードがセカンダリ レコード タイプ ページに表示されます。 ユーザーは、セカンダリワークスペースを表示するアクセス権がある場合、プライマリレコードタイプのページに新しいレコードも表示されます。</span>
+    * <span class="preview"> プライマリレコードタイプページから、またはこの記事に記載されているその他の方法を使用してリクエストフォームを送信すると、レコードはプライマリレコードタイプページに表示されます。</span>
+    * <span class="preview"> リクエストフォームで&#x200B;**Workspace** フィールドが使用でき、ユーザーがレコードを追加する特定のワークスペースを手動で選択した場合、フォームがプライマリレコードタイプとセカンダリレコードタイプのページのどちらから選択されたかに関係なく、そのスペースにレコードが保存されます。</span>
+
+  詳しくは、[&#x200B; クロスワークスペースのレコードタイプの概要](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)を参照してください。
 
 
 <!--

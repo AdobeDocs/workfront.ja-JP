@@ -4,16 +4,16 @@ content-type: reference
 description: Workfront タスクに割り当てることができるタスクコラボレーター、AI コラボレーターの使用方法について説明します。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
+source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '923'
 ht-degree: 3%
 
 ---
 
 # タスク共同作業者の使用
 
-{{highlighted-preview-article-level}}
+<span class="preview">このページに記載されている情報は、まだ一般公開されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
 タスクコラボレーターは、ドキュメントやアセットのレビューに使用される既存のレビューアータイプのAI コラボレーターに加えて、Workfront タスクに直接割り当てることができるAI コラボレーターです。 他のAI共同作業者と同様に、タスク共同作業者は設定エリアで設定され、ユーザーと同じようにタスクに割り当てられます。
 
