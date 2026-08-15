@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 53f6405b765424450cf929afc991278625bb33cb
 workflow-type: tm+mt
-source-wordcount: 987
-ht-degree: 52%
+source-wordcount: 1229
+ht-degree: 43%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 52%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要の記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの指示に従って送信してください。<br>
->発生する可能性のあるバグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>を参照してください
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
 >* Amazon Web Services用に独自のキーを持ち込む
@@ -190,6 +190,18 @@ ht-degree: 52%
 * ドキュメント承認ステージ/ドキュメント承認ステージ参加者
 
 上記の親子関係のいずれかを使用すると、親オブジェクトに接続されている各子レコードのテーブルに行が表示されます。
+
+### Canvas ダッシュボードレポートから個人プロジェクト、タスク、およびボットユーザーを除外する
+
+>[!NOTE]
+>
+>Canvas ダッシュボードのレポートが、同様のクラシックレポートと比較して予想よりも多くの結果を返す場合、個人用プロジェクト、個人用タスク、またはボットユーザーがデフォルトで含まれる場合があります。 除外するフィルター条件を追加します。
+
+Canvas ダッシュボードのプロジェクトレポートとタスクレポートでは、`isPersonal` フィルターは自動的に適用されないため、デフォルトでは個人のプロジェクトと個人のタスクが結果に含まれます。 除外するには、`isPersonal=false`などのフィルター条件を追加します。
+
+同様に、Canvas ダッシュボードのユーザーレポートには、AI共同作業者（ボットユーザー）を含むすべてのユーザーがデフォルトで含まれます。 ボットユーザーを除外するには、`isBot=false`などのフィルター条件を追加します。
+
+クラシックプロジェクトレポートとタスクレポートは、個人のプロジェクトと個人のタスクを自動的に除外し、クラシックユーザーレポートはボットユーザーを自動的に除外します。 代わりに、従来のレポートに含めるには、`isPersonal=true` （個人用アイテムのみ）や`isPersonal_Mod=notnull` （個人用アイテムと非個人用アイテム）などのフィルター条件を追加します。
 
 ### フィールドタイプ別のフィールド演算子
 
