@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6a375beb066df9c13cb6197f335fcf3a2dbc6e87
 workflow-type: tm+mt
 source-wordcount: 425
 ht-degree: 76%
@@ -94,7 +94,7 @@ ht-degree: 76%
 1. 左パネルの「**[!UICONTROL 休暇]**」をクリックします。
 1. 個人の休暇に希望する日付を選択します。
 
-   ![個人の休暇カレンダー](assets/personal-time-off-calendar-0925.png)
+   ![個人の休暇カレンダー](assets/personal-time-off-calendar-2026.png)
 
    <!--
    Sample image in the Production environment:

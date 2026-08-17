@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 4087
+source-wordcount: 4246
 ht-degree: 74%
 
 ---
@@ -124,9 +124,8 @@ Workfront の次の領域で時間を記録できます。
 
 {{step1-click-main-menu}}
 
-1. 「[!UICONTROL **タイムシート**]」をクリックします。現在のタイムシートはデフォルトで表示されます。
-   ![タイムシート](assets/timesheet-redesigned-nwe.png)
-
+1. 「[!UICONTROL **タイムシート**]」をクリックします。 現在のタイムシートがデフォルトで表示されます。
+   ![タイムシート](assets/timesheet-layout-leftnav-updated.png)
 
 1. （オプション）**全画面表示**&#x200B;アイコン ![](assets/full-screen.png) をクリックして、タイムシートを全画面モードで表示し、続いて **全画面を終了** ![](assets/exit-full-screen.png)アイコンをクリックしてタイムシートに戻ります。
 
@@ -154,8 +153,8 @@ Workfront の次の領域で時間を記録できます。
 1. （条件付き）一度に 50 個以上の項目を追加すると、タイムシートに追加された項目の数を示す確認メッセージが表示されます。
 
    「**すべて追加**」をクリックして、すべての項目を追加します
-または
-**キャンセル**&#x200B;をクリックして選択した項目の追加を停止し、**キャンセル**&#x200B;をクリックして項目のリストを閉じます。
+   または
+   **キャンセル**&#x200B;をクリックして選択した項目の追加を停止し、**キャンセル**&#x200B;をクリックして項目のリストを閉じます。
 
    タスクとイシューは、プロジェクトの名前の下に表示されます。
 
@@ -288,7 +287,7 @@ Workfront の次の領域で時間を記録できます。
 
 1. （オプション）左側のパネルで「[!UICONTROL **更新**]」をクリックして、タイムシートに更新を追加します。 Workfront のアップデートについて詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/timesheet-updates-with-all-tab.png)
 
 1. （オプション）**タイムシート**&#x200B;エリアに戻って、タイムシートを閉じるか送信します。
 
@@ -485,20 +484,20 @@ Workfront の次の領域で時間を記録できます。
 
 ### 概要パネル
 
-概要パネルでは、タスクとイシューの時間を記録できます。
-詳しくは、[概要](../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
+概要パネルでは、タスクとイシューに関する時間を記録できます。
+詳しくは、[概要について](../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
 ![](assets/summary-hour-log.png)
 
 ### ボード {#boards}
 
-Workfront ボード上の接続されたカードに時間を記録できます。これは、タスクまたはイシューに時間を記録するのと同じプロセスであり、カードに記録された時間は、接続されたタスクまたはイシューに保存されます。
-詳しくは、[&#x200B; ボードで接続されたカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
+Workfront ボードの接続カードで時間を記録できます。 これはタスクやイシューの時間を記録するのと同じプロセスであり、カードに記録された時間数は、接続されたタスクまたはイシューに保存されます。
+詳しくは、[ボードでの接続カードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
 ### モバイルアプリ {#mobile-app}
 
-Workfront モバイルアプリから時間を記録できます。
-詳しくは、[Adobe Workfront for Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)または[Adobe Workfront for iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)を参照してください。
+Workfront モバイルアプリで時間を記録できます。
+詳しくは、[Android 用 Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) または [iOS 用 Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) を参照してください。
 
 ## リストとレポートでのログ時間の編集
 
@@ -526,19 +525,19 @@ Workfront モバイルアプリから時間を記録できます。
 
 * プロジェクト固有の時間を編集する場合：
 
-   * 時間数
-   * 時間タイプ。 時間タイプは、プロジェクト固有のタイプにのみ変更できます。
-   * 担当業務の割り当て： ジョブロールの割り当ては、設定で有効になっている場合にのみ変更できます。 詳しくは、[&#x200B; タイムシートと時間の環境設定を参照してください](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-   * 時間エントリの説明。
+  * 時間数
+  * 時間タイプ。 時間タイプは、プロジェクト固有のタイプにのみ変更できます。
+  * 担当業務の割り当て： ジョブロールの割り当ては、設定で有効になっている場合にのみ変更できます。 詳しくは、[&#x200B; タイムシートと時間の環境設定を参照してください](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+  * 時間エントリの説明。
 
 
   ![](assets/edit-hour-box-project-hour-type.png)
 
 * 一般時間を編集する場合：
 
-   * 時間数。
-   * 時間タイプ。 時間タイプは、一般タイプにのみ変更できます。
-   * 時間エントリの説明。
+  * 時間数。
+  * 時間タイプ。 時間タイプは、一般タイプにのみ変更できます。
+  * 時間エントリの説明。
 
 >[!TIP]
 >
@@ -551,8 +550,8 @@ Workfront モバイルアプリから時間を記録できます。
 
 * 一般的な時間とプロジェクト固有の時間の組み合わせを一括で編集する場合：
 
-   * 時間数。
-   * 時間エントリの説明。
+  * 時間数。
+  * 時間エントリの説明。
 
 >[!TIP]
 >
@@ -585,6 +584,6 @@ Workfront モバイルアプリから時間を記録できます。
 1. 「**変更を保存**」をクリックします。
 
    時間エントリ情報が更新されます。
-1時間以上のエントリを選択して「時間」フィールドを変更した場合、選択したすべての時間エントリに同じ時間が割り当てられます。元の時間は、選択したすべての時間エントリの新しい値に置き換えられます。
+   1時間以上のエントリを選択して「時間」フィールドを変更した場合、選択したすべての時間エントリに同じ時間が割り当てられます。 元の時間は、選択したすべての時間エントリの新しい値に置き換えられます。
 
 

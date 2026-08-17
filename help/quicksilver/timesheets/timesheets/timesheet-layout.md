@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
 source-wordcount: 1056
 ht-degree: 99%
@@ -45,7 +45,7 @@ ht-degree: 99%
 
 タイムシートで時刻を記録する方法については、[時間の記録](../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。
 
-![タイムシートのレイアウト](assets/timesheet-layout-unshimmed.png)
+![タイムシートのレイアウト](assets/timesheet-layout-leftnav-updated.png)
 
 タイムシートのエリアは次のとおりです。
 
@@ -71,8 +71,8 @@ ht-degree: 99%
 
 * タイムシートの時間枠。
 * 「アクション」エリアには、次のものが含まれます。
-   * タイムシートをお気に入りのリストに追加する星形のアイコン。
-   * タイムシートを削除できる「削除」オプションを含んだその他アイコン。
+  * タイムシートをお気に入りのリストに追加する星形のアイコン。
+  * タイムシートを削除できる「削除」オプションを含んだその他アイコン。
 * タイムシートの所有者の名前。
 * タイムシートに表示される項目に関して記録された時間の合計時間数。
 * 超過作業時間数。 これは手動のエントリで、**超過作業時間**&#x200B;の設定がタイムシートで有効になっている場合にのみ表示されます。 詳しくは、[タイムシート情報の編集](../create-and-manage-timesheets/edit-timesheets.md)を参照してください。

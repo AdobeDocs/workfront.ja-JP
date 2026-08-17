@@ -19,10 +19,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 851
-ht-degree: 75%
+source-wordcount: 847
+ht-degree: 76%
 
 ---
 
@@ -81,9 +81,6 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
 
 1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
 1. **ユーザーに表示される内容をカスタマイズ**&#x200B;の下の下向き矢印![下向き矢印](assets/down-arrow-blue.png)をクリックし、表示されるドロップダウンメニューの&#x200B;**リスト**&#x200B;をクリックします。
-
-   ![&#x200B; ユーザーに表示される内容をカスタマイズする](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
-
 1. 「**」の下の下向き矢印![下向き矢印](assets/down-arrow-blue.png)をクリックし、「**」をカスタマイズするリストを選択してから、リストのフィルター、表示、グループ化コントロールをカスタマイズするWorkfront オブジェクトのタイプを選択します。
 
    ![&#x200B; カスタマイズするリストを選択](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
