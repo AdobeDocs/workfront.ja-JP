@@ -11,16 +11,11 @@ exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/NieBFLmqeOBfaG26ZX6mfBzqJvnB9-x6mYDhX5zCIK8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 43a7537c3b4e8ce34e57c411cf8c8ae178bb4653
 workflow-type: tm+mt
 source-wordcount: 768
 ht-degree: 55%
@@ -86,7 +81,7 @@ ht-degree: 55%
 
 1. 下に表示されるリストで、概要パネルをカスタマイズするオブジェクトタイプをクリックします。
 
-   以下の表は、各オブジェクトに対してカスタマイズできる内容を示しています
+   以下の表は、各オブジェクトに対してカスタマイズできる内容を示しています。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -96,7 +91,7 @@ ht-degree: 55%
       <td role="rowheader">タスク</td> 
       <td> <p>タスクのリストでは、この設定は、ユーザーがタスクを選択してから「概要を開く」アイコン <img src="assets/summary-panel-icon.png">をクリックすると、ページの右側に表示される概要パネルに影響します。</p>
 
-   <p> <img src="assets/summary-details.jpg"> </p> </td> 
+   <p> <img src="assets/summary-area.png"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">イシュー</td> 
@@ -105,49 +100,21 @@ ht-degree: 55%
     </tbody> 
    </table>
 
-<!--
-These were removed with the new Home: 
-
-<tr> 
-      <td role="rowheader">Projects</td> 
-      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
-      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
-      </ul> 
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Documents</td> 
-      <td>
-     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
-      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
-      </ul>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Document Versions</td> 
-      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
-      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
-      </ul>
-      </td> 
-     </tr>
-     -->
-
-
->[!IMPORTANT]
->
->タスクが未割り当ての場合、レイアウトテンプレートに割り当てられたユーザーには、「概要」にフィールドのカスタマイズが表示されません。
+   >[!IMPORTANT]
+   >
+   >タスクが未割り当ての場合、レイアウトテンプレートに割り当てられたユーザーには、「概要」にフィールドのカスタマイズが表示されません。
 
 1. （条件付き）前の手順で「タスク」または「イシュー」をクリックした場合は、カスタマイズするタスクまたはイシューのカテゴリを選択します。
 
-   ![&#x200B; カスタマイズするカテゴリを選択](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![ カスタマイズするカテゴリを選択](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. （条件付き）「**プライマリアクションを設定」ボタン** ドロップダウンメニューが表示された場合（左側のリストで&#x200B;**タスク**&#x200B;または&#x200B;**イシュー**&#x200B;を選択した場合）、ユーザーがタスクまたはイシューを表示するときに概要パネルで使用したいプライマリアクション （**完了**&#x200B;または&#x200B;**ステータス**）をクリックします。
 
-   ![&#x200B; プライマリアクションを設定](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![ プライマリアクションを設定](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
 1. 選択したオブジェクトタイプの![項目を追加](assets/add-item-plus-in-circle-blue.png)するか、![項目を非表示](assets/close-or-hide---x.png) フィールドを非表示にします。
 
-   ![&#x200B; フィールドの追加と非表示](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![ フィールドの追加と非表示](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 手順3 ～ 6を繰り返して、その他のオブジェクトタイプの概要パネルをカスタマイズします。
 1. 左下隅付近の「**グローバル設定**」をクリックし、「概要」でAdobe Workfront オブジェクトに関連する次のオプションのいずれかを有効または無効にします。
@@ -187,3 +154,32 @@ These were removed with the new Home:
    カスタマイズが完了したら、**保存して閉じる**&#x200B;をクリックします。
 
 レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
+
+
+
+<!--
+These table rows were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      </ul> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Documents</td> 
+      <td>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      </ul>
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      </ul>
+      </td> 
+     </tr>
+     -->

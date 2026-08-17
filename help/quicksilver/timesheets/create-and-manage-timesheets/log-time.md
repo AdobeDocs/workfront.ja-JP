@@ -10,19 +10,14 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 4087
+source-wordcount: 4246
 ht-degree: 74%
 
 ---
@@ -87,7 +82,7 @@ Workfront にログインできる時間の種類について詳しくは、[時
 * タイムシートには、すべてのログに記録された日付の合計時間が含まれます。 タイムラインの計算で除外するように設定されている場合でも、（[システム全体のプロジェクト環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)で説明されているように）週末を常に含みます。
 * タイムシートに表示される項目の最大数は 45 です。 タイムシートの時間枠に一致する日付を持つ 45 項目を超える場合は、最も新しく更新された項目のみが表示されます。
 * 請求済み請求記録に含まれる時間エントリは灰色表示になり、タイムシートで編集できません。 詳しくは、[請求記録の作成](../../manage-work/projects/project-finances/create-billing-records.md)を参照してください。
-* デフォルトでは、個人タスクはタイムシートに表示されません。 個人タスクは、タイムシートに時間が記録された場合にのみ表示されます。 個人タスクの時間を記録した後、タスクをタイムシートに固定すると、そのタスクは固定されたままタイムシートに残ります。 詳細については、「[&#x200B; ホーム エリアから作業項目とプロジェクトを作成する](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)」を参照してください。
+* デフォルトでは、個人タスクはタイムシートに表示されません。 個人タスクは、タイムシートに時間が記録された場合にのみ表示されます。 個人タスクの時間を記録した後、タスクをタイムシートに固定すると、そのタスクは固定されたままタイムシートに残ります。 詳細については、「[ ホーム エリアから作業項目とプロジェクトを作成する](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)」を参照してください。
 
 ## 時間を記録 {#log-time-section}
 
@@ -124,9 +119,8 @@ Workfront の次の領域で時間を記録できます。
 
 {{step1-click-main-menu}}
 
-1. 「[!UICONTROL **タイムシート**]」をクリックします。現在のタイムシートはデフォルトで表示されます。
-   ![タイムシート](assets/timesheet-redesigned-nwe.png)
-
+1. 「[!UICONTROL **タイムシート**]」をクリックします。 現在のタイムシートがデフォルトで表示されます。
+   ![タイムシート](assets/timesheet-layout-leftnav-updated.png)
 
 1. （オプション）**全画面表示**&#x200B;アイコン ![](assets/full-screen.png) をクリックして、タイムシートを全画面モードで表示し、続いて **全画面を終了** ![](assets/exit-full-screen.png)アイコンをクリックしてタイムシートに戻ります。
 
@@ -154,8 +148,8 @@ Workfront の次の領域で時間を記録できます。
 1. （条件付き）一度に 50 個以上の項目を追加すると、タイムシートに追加された項目の数を示す確認メッセージが表示されます。
 
    「**すべて追加**」をクリックして、すべての項目を追加します
-または
-**キャンセル**&#x200B;をクリックして選択した項目の追加を停止し、**キャンセル**&#x200B;をクリックして項目のリストを閉じます。
+   または
+   **キャンセル**&#x200B;をクリックして選択した項目の追加を停止し、**キャンセル**&#x200B;をクリックして項目のリストを閉じます。
 
    タスクとイシューは、プロジェクトの名前の下に表示されます。
 
@@ -288,7 +282,7 @@ Workfront の次の領域で時間を記録できます。
 
 1. （オプション）左側のパネルで「[!UICONTROL **更新**]」をクリックして、タイムシートに更新を追加します。 Workfront のアップデートについて詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/timesheet-updates-with-all-tab.png)
 
 1. （オプション）**タイムシート**&#x200B;エリアに戻って、タイムシートを閉じるか送信します。
 
@@ -329,7 +323,7 @@ Workfront の次の領域で時間を記録できます。
 手動で追加したタイムシートから項目を削除するには、次の手順に従います。
 
 1. 項目に対して時間が記録されていないことを確認します。
-1. タイムシートから項目の固定を解除するには、項目の横にある&#x200B;**固定を解除**&#x200B;アイコン ![&#x200B; 項目を固定 &#x200B;](assets/pin-icon.png) をクリックします。
+1. タイムシートから項目の固定を解除するには、項目の横にある&#x200B;**固定を解除**&#x200B;アイコン ![ 項目を固定 ](assets/pin-icon.png) をクリックします。
 
    >[!TIP]
    >
@@ -357,7 +351,7 @@ Workfront の次の領域で時間を記録できます。
 
    「**ログ時間**」ボックスが表示されます。
 
-   ![&#x200B; ホームのタスクの時間ボックスを記録](assets/log-time-ui-for-task-from-new-home.png)
+   ![ ホームのタスクの時間ボックスを記録](assets/log-time-ui-for-task-from-new-home.png)
 
 1. 次の情報を指定します。
 
@@ -402,7 +396,7 @@ Workfront の次の領域で時間を記録できます。
 
 プロジェクト、タスク、またはイシューの「更新」セクションで時間を記録するには、以下が必要です。
 
-* この記事の「[&#x200B; アクセス要件](#access-requirements)」の節で説明されているように、正しいアクセスと権限。 アクセスレベルがLightで、プロジェクトで時間を記録する場合は、ログ時間にアクセスできるプロジェクトに対するContribute以上の権限も必要です。 プロジェクトに対する権限の付与について詳しくは、[&#x200B; プロジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
+* この記事の「[ アクセス要件](#access-requirements)」の節で説明されているように、正しいアクセスと権限。 アクセスレベルがLightで、プロジェクトで時間を記録する場合は、ログ時間にアクセスできるプロジェクトに対するContribute以上の権限も必要です。 プロジェクトに対する権限の付与について詳しくは、[ プロジェクトの共有](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
 
 * プロジェクトに直接時間を記録する場合は、Workfront管理者がシステム領域の&#x200B;[!UICONTROL **タイムシートと時間**]>[!UICONTROL **環境設定**]&#x200B;の下にあるプロジェクト設定で直接ログ時間を有効にする必要があります。
 
@@ -460,7 +454,7 @@ Workfront の次の領域で時間を記録できます。
 
    「**ログ時間**」ボックスが表示されます。
 
-   ![&#x200B; タスクの時間セクションに時間を記録](assets/log-time-box-in-hours-section-on-task.png)
+   ![ タスクの時間セクションに時間を記録](assets/log-time-box-in-hours-section-on-task.png)
 
 1. 次の情報を指定します。
 
@@ -485,20 +479,20 @@ Workfront の次の領域で時間を記録できます。
 
 ### 概要パネル
 
-概要パネルでは、タスクとイシューの時間を記録できます。
-詳しくは、[概要](../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
+概要パネルでは、タスクとイシューに関する時間を記録できます。
+詳しくは、[概要について](../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
 ![](assets/summary-hour-log.png)
 
 ### ボード {#boards}
 
-Workfront ボード上の接続されたカードに時間を記録できます。これは、タスクまたはイシューに時間を記録するのと同じプロセスであり、カードに記録された時間は、接続されたタスクまたはイシューに保存されます。
-詳しくは、[&#x200B; ボードで接続されたカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
+Workfront ボードの接続カードで時間を記録できます。 これはタスクやイシューの時間を記録するのと同じプロセスであり、カードに記録された時間数は、接続されたタスクまたはイシューに保存されます。
+詳しくは、[ボードでの接続カードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
 ### モバイルアプリ {#mobile-app}
 
-Workfront モバイルアプリから時間を記録できます。
-詳しくは、[Adobe Workfront for Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)または[Adobe Workfront for iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)を参照してください。
+Workfront モバイルアプリで時間を記録できます。
+詳しくは、[Android 用 Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) または [iOS 用 Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) を参照してください。
 
 ## リストとレポートでのログ時間の編集
 
@@ -526,19 +520,19 @@ Workfront モバイルアプリから時間を記録できます。
 
 * プロジェクト固有の時間を編集する場合：
 
-   * 時間数
-   * 時間タイプ。 時間タイプは、プロジェクト固有のタイプにのみ変更できます。
-   * 担当業務の割り当て： ジョブロールの割り当ては、設定で有効になっている場合にのみ変更できます。 詳しくは、[&#x200B; タイムシートと時間の環境設定を参照してください](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-   * 時間エントリの説明。
+  * 時間数
+  * 時間タイプ。 時間タイプは、プロジェクト固有のタイプにのみ変更できます。
+  * 担当業務の割り当て： ジョブロールの割り当ては、設定で有効になっている場合にのみ変更できます。 詳しくは、[ タイムシートと時間の環境設定を参照してください](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+  * 時間エントリの説明。
 
 
   ![](assets/edit-hour-box-project-hour-type.png)
 
 * 一般時間を編集する場合：
 
-   * 時間数。
-   * 時間タイプ。 時間タイプは、一般タイプにのみ変更できます。
-   * 時間エントリの説明。
+  * 時間数。
+  * 時間タイプ。 時間タイプは、一般タイプにのみ変更できます。
+  * 時間エントリの説明。
 
 >[!TIP]
 >
@@ -551,8 +545,8 @@ Workfront モバイルアプリから時間を記録できます。
 
 * 一般的な時間とプロジェクト固有の時間の組み合わせを一括で編集する場合：
 
-   * 時間数。
-   * 時間エントリの説明。
+  * 時間数。
+  * 時間エントリの説明。
 
 >[!TIP]
 >
@@ -585,6 +579,6 @@ Workfront モバイルアプリから時間を記録できます。
 1. 「**変更を保存**」をクリックします。
 
    時間エントリ情報が更新されます。
-1時間以上のエントリを選択して「時間」フィールドを変更した場合、選択したすべての時間エントリに同じ時間が割り当てられます。元の時間は、選択したすべての時間エントリの新しい値に置き換えられます。
+   1時間以上のエントリを選択して「時間」フィールドを変更した場合、選択したすべての時間エントリに同じ時間が割り当てられます。 元の時間は、選択したすべての時間エントリの新しい値に置き換えられます。
 
 
