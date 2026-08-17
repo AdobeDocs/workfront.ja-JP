@@ -9,11 +9,18 @@ exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/8bwTS-3UaNbMLtyx8yEmH7zF5vMYaWP1nedWaGP4UJE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
 source-wordcount: 4457
@@ -86,7 +93,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
   >* 複数のユーザーに割り当てられた作業アイテムは、割り当てられた作業エリアのすべてのユーザーの名前に表示されます。
   >* 「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては未割り当て作業領域の作業項目の下に表示されます。 詳しくは、この記事の[表示のカスタマイズ](#customize-the-view)の節を参照してください。
 
-  詳しくは、[ ワークロードバランサーでの作業の割り当ての概要](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)の「[ ワークロードバランサーの割り当て領域](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer)」を参照してください。
+  詳しくは、[&#x200B; ワークロードバランサーでの作業の割り当ての概要](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)の「[&#x200B; ワークロードバランサーの割り当て領域](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer)」を参照してください。
 
 * プロジェクトにタスクが一定期間ない場合は、その期間のプロジェクトレベルのバーが空白になります。
 
@@ -245,7 +252,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
    右側に設定パネルが表示されます。
 
-   ![ ワークロードバランサー設定パネル ](assets/workload-balancer-settings.png)
+   ![&#x200B; ワークロードバランサー設定パネル &#x200B;](assets/workload-balancer-settings.png)
 
    以下に表示されているオプションから選択して、ワークロードバランサーで表示する情報を更新し、設定ボックスの右上にある **X アイコン** をクリックしてボックスを閉じます。
 
@@ -321,8 +328,8 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
    ![割り当て済み時間数の詳細](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
-1. （オプション）「**割り当てを非表示にする」アイコン** 「![割り当てを表示」アイコン ](assets/show-allocations-icon-small.png)をクリックすると、作業項目のバーにタスクとイシューの名前が表示されます。
-1. タスク、イシュー、またはロール名の右側にある&#x200B;**詳細メニュー** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、以下のいずれかのオプションをクリックします。
+1. （オプション）「**割り当てを非表示にする」アイコン** 「![割り当てを表示」アイコン &#x200B;](assets/show-allocations-icon-small.png)をクリックすると、作業項目のバーにタスクとイシューの名前が表示されます。
+1. タスク、イシュー、またはロール名の右側にある&#x200B;**詳細メニュー** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、以下のいずれかのオプションをクリックします。
 
    ![その他のメニュー](assets/more-menu-right-of-task-350x104.png)
 
@@ -343,7 +350,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
      >[!TIP]
      >
-     >お使いの環境で Workfront 管理者またはグループ管理者が委任を有効にしている場合は、「割り当て」タブを使用して、ユーザーをタスクまたはイシューに割り当てます。 作業の委任について詳しくは、[ タスクと問題の委任](../../manage-work/delegate-work/how-to-delegate-work.md)を参照してください。
+     >お使いの環境で Workfront 管理者またはグループ管理者が委任を有効にしている場合は、「割り当て」タブを使用して、ユーザーをタスクまたはイシューに割り当てます。 作業の委任について詳しくは、[&#x200B; タスクと問題の委任](../../manage-work/delegate-work/how-to-delegate-work.md)を参照してください。
 
    * 「**割り当てを編集する**」。そのユーザーの日次または週次の割り当てを編集します。 ユーザー割り当ての管理について詳しくは、[ワークロードバランサーでのユーザー割り当ての管理](../workload-balancer/manage-user-allocations-workload-balancer.md)を参照してください。
 
@@ -387,7 +394,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 1. 概要パネルに詳細情報を表示するには、次のいずれかの操作を行います。
 
    * タスクまたはイシューのバーをクリックして、右側の概要パネルを開きます。
-   * **概要を開く** アイコン ![概要を開くアイコン ](assets/summary-panel-icon.png)をクリックし、タスクまたは問題のバーをクリックして概要パネルを開きます。
+   * **概要を開く** アイコン ![概要を開くアイコン &#x200B;](assets/summary-panel-icon.png)をクリックし、タスクまたは問題のバーをクリックして概要パネルを開きます。
    * タスクまたはイシューの右側にある&#x200B;**その他**&#x200B;メニューをクリックして、「**概要を開く**」をクリックします。
 
    ワークロードバランサーの概要でタスク情報を更新する方法について詳しくは、[概要を使用してワークロードバランサーの作業アイテムを更新する](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)を参照してください。
@@ -496,7 +503,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
    ユーザーのワークロードバランサーが表示されます。
 
-   ユーザー](assets/workload-balancer-user.png)の![Workload Balancer
+   ユーザー![&#128279;](assets/workload-balancer-user.png)のWorkload Balancer
 
    ユーザーのワークロードバランサーには、デフォルトで次の情報が表示されます。
 
