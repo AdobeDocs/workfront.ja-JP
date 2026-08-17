@@ -10,11 +10,18 @@ exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/MePbnMO9YHsyUXI3D0K2dMDeAAv3Rae-QKlXaS26aMk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
 source-wordcount: 851
@@ -103,7 +110,7 @@ ht-degree: 64%
 
 ### チームのワークロードバランサーへのアクセス
 
-Workfrontのチームについて詳しくは、[ チームの概要](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md)を参照してください。
+Workfrontのチームについて詳しくは、[&#x200B; チームの概要](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md)を参照してください。
 
 {{step1-to-team}}
 
@@ -154,7 +161,7 @@ Workfrontのチームについて詳しくは、[ チームの概要](/help/quic
 
    ユーザーのワークロードバランサーが表示されます。
 
-   ユーザー](assets/workload-balancer-user.png)の![ ワークロードバランサー
+   ユーザー![&#128279;](assets/workload-balancer-user.png)の ワークロードバランサー
 
    ユーザーのワークロードバランサーには、デフォルトで次の情報が表示されます。
 
@@ -187,7 +194,7 @@ Workfrontのチームについて詳しくは、[ チームの概要](/help/quic
       (NOTE: ensure this stays correct)
      -->
 
-1. （オプション）「[ レイアウトテンプレートを使用して左側のパネルをカスタマイズ ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)」の説明に従って、ダッシュボードをレイアウトテンプレートで共有します。
+1. （オプション）「[&#x200B; レイアウトテンプレートを使用して左側のパネルをカスタマイズ &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)」の説明に従って、ダッシュボードをレイアウトテンプレートで共有します。
 
 
 <!--
