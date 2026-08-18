@@ -8,18 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1416'
 ht-degree: 3%
 
 ---
 
 # AI共同作業者の設定
-
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
 
 AI協力者とは、AI エージェントをプロジェクトやタスクに組み込む手法のひとつです。 AI共同作業者を設定し、ユーザーと同じように割り当てることができます。
 
@@ -73,24 +69,20 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
 * レビューアータイプのAI コラボレーターに使用するには、Workfrontでブランドを設定しておく必要があります。
 
   手順については、[&#x200B; コンテンツレビュアーのブランドの作成と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)を参照してください。
-* レビュアーAI コラボレーターにAdobe Brand Intelligenceを使用するには、Workfrontの統合されたレビューと承認のエクスペリエンスを使用する必要があります。</span>
+* レビュアーAI コラボレーターにAdobe Brand Intelligenceを使用するには、Workfrontの統合されたレビューと承認のエクスペリエンスを使用する必要があります。
 
-  詳しくは、[統合レビューと承認の基本を学ぶ](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)を参照してください。</span>
-
-<div class="preview">
+  詳しくは、[統合レビューと承認の概要](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)を参照してください。
 
 ### タスクコラボレーターの場合
 
 タスクコラボレーターとして使用する前に、Claude、Copilot Studio、またはWriterでエージェントを設定する必要があります。
-
-</div>
 
 ## レビュー担当者タイプのAI コラボレーターを新規作成する
 
 レビュアーAI共同作業者は、Workfront ブランドまたはAdobe ブランドインテリジェンスを使用するように設定できます。
 
 * **ブランド**：ブランドはWorkfrontで作成されます。 Workfrontでブランドを作成するには、ブランドガイドラインを含むPDF ファイルをアップロードするか、ブランド要素を手動で入力します。
-* **Adobe Brand Intelligence**: AIの共同作業者がAdobe Brand Intelligenceを使用してアセットをレビューすると、レビュー担当者によるコメントをFrame.ioで表示できます。 </span>
+* **Adobe Brand Intelligence**: AIの共同作業者がAdobe Brand Intelligenceを使用してアセットをレビューすると、レビュー担当者によるコメントをFrame.ioで表示できます。
 
 
 {{step-1-to-setup}}
@@ -102,8 +94,6 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
 1. 共同作業者がレビューにブランドを使用するか、Adobe Brand Intelligenceを使用するかを選択します。
 1. （条件付き） AI共同作業者がブランドを使用する場合は、使用するブランドとブランドガイドラインを選択します。
 1. 「**保存**」をクリックします。
-
-<div class="preview">
 
 ## タスクコラボレーターの設定
 
@@ -202,8 +192,6 @@ Writerでタスクコラボレーターとして使用するエージェント�
 1. タスクコラボレーターをWorkfront タスクに割り当てます。 共同作業者は、タスクの先行タスクがすべて完了すると作業を開始します。
 
 +++
-
-</div>
 
 ## AI共同作業者の管理
 
