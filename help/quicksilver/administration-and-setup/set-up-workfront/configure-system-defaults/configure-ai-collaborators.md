@@ -8,18 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1416'
 ht-degree: 3%
 
 ---
 
 # AI共同作業者の設定
-
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
-
 
 AI協力者とは、AI エージェントをプロジェクトやタスクに組み込む手法のひとつです。 AI共同作業者を設定し、ユーザーと同じように割り当てることができます。
 
@@ -33,7 +29,7 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
 
 * タスクコラボレーター：コパイロットまたはライターを使用して共同作業者を作成し、共同作業者をタスクに割り当ててタスクレベルの作業を完了します。
 
-  詳しくは、[&#x200B; タスクコラボレーターの使用](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)を参照してください。
+  詳しくは、[ タスクコラボレーターの使用](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)を参照してください。
 
 
 ## アクセス要件
@@ -72,25 +68,21 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
   詳しくは、「[Adobe生成AI契約書に署名する](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)」を参照してください。WorkfrontのAI アシスタントの記事を参照してください。
 * レビューアータイプのAI コラボレーターに使用するには、Workfrontでブランドを設定しておく必要があります。
 
-  手順については、[&#x200B; コンテンツレビュアーのブランドの作成と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)を参照してください。
-* レビュアーAI コラボレーターにAdobe Brand Intelligenceを使用するには、Workfrontの統合されたレビューと承認のエクスペリエンスを使用する必要があります。</span>
+  手順については、[ コンテンツレビュアーのブランドの作成と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)を参照してください。
+* レビュアーAI コラボレーターにAdobe Brand Intelligenceを使用するには、Workfrontの統合されたレビューと承認のエクスペリエンスを使用する必要があります。
 
-  詳しくは、[統合レビューと承認の基本を学ぶ](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)を参照してください。</span>
-
-<div class="preview">
+  詳しくは、[統合レビューと承認の概要](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)を参照してください。
 
 ### タスクコラボレーターの場合
 
 タスクコラボレーターとして使用する前に、Claude、Copilot Studio、またはWriterでエージェントを設定する必要があります。
-
-</div>
 
 ## レビュー担当者タイプのAI コラボレーターを新規作成する
 
 レビュアーAI共同作業者は、Workfront ブランドまたはAdobe ブランドインテリジェンスを使用するように設定できます。
 
 * **ブランド**：ブランドはWorkfrontで作成されます。 Workfrontでブランドを作成するには、ブランドガイドラインを含むPDF ファイルをアップロードするか、ブランド要素を手動で入力します。
-* **Adobe Brand Intelligence**: AIの共同作業者がAdobe Brand Intelligenceを使用してアセットをレビューすると、レビュー担当者によるコメントをFrame.ioで表示できます。 </span>
+* **Adobe Brand Intelligence**: AIの共同作業者がAdobe Brand Intelligenceを使用してアセットをレビューすると、レビュー担当者によるコメントをFrame.ioで表示できます。
 
 
 {{step-1-to-setup}}
@@ -103,8 +95,6 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
 1. （条件付き） AI共同作業者がブランドを使用する場合は、使用するブランドとブランドガイドラインを選択します。
 1. 「**保存**」をクリックします。
 
-<div class="preview">
-
 ## タスクコラボレーターの設定
 
 タスクコラボレーターは、Workfrontでタスクに割り当てることができるMCP エージェントです。 タスクコラボレーターを名前、アクセスレベル、その他の詳細で設定し、ユーザーを割り当てるようにタスクに割り当てます。
@@ -113,7 +103,7 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
 
 タスクコラボレーターはタスクにのみ割り当てることができ、現在はイシューに割り当てることはできません。
 
-タスクコラボレーターとして機能するエージェントを作成する際のベストプラクティスの一覧については、[&#x200B; タスクコラボレーターのエージェントを作成するためのベストプラクティス &#x200B;](#best-practices-for-creating-an-agent-for-a-task-collaborator)を参照してください。
+タスクコラボレーターとして機能するエージェントを作成する際のベストプラクティスの一覧については、[ タスクコラボレーターのエージェントを作成するためのベストプラクティス ](#best-practices-for-creating-an-agent-for-a-task-collaborator)を参照してください。
 
 ### Workfrontでのタスクコラボレーターの設定
 
@@ -138,7 +128,7 @@ AI協力者とは、AI エージェントをプロジェクトやタスクに組
 1. **共同作業者が作業を完了した後、共同作業者が実行するアクションを切り替える**&#x200B;領域を選択できます。
 1. 「**保存**」をクリックします。
 
-タスクへの割り当て方法など、タスクコラボレーターについて詳しくは、[&#x200B; タスクコラボレーターの使用](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)を参照してください。
+タスクへの割り当て方法など、タスクコラボレーターについて詳しくは、[ タスクコラボレーターの使用](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)を参照してください。
 
 
 ### タスクコラボレーターのエージェントを作成するためのベストプラクティス
@@ -187,7 +177,7 @@ Workfrontでタスクコラボレーターとして使用するエージェン�
 
 Writerでタスクコラボレーターとして使用するエージェントを作成する場合は、次のワークフローをお勧めします。
 
-エージェントの作成について詳しくは、[&#x200B; ライターのドキュメント &#x200B;](https://dev.writer.com/no-code/introduction)を参照してください。
+エージェントの作成について詳しくは、[ ライターのドキュメント ](https://dev.writer.com/no-code/introduction)を参照してください。
 
 1. Writer AI Studioでノーコードアプリを作成します。
 1. 1つのテキスト入力フィールドを追加します。 デフォルト名「テキスト入力」を使用できます。
@@ -203,8 +193,6 @@ Writerでタスクコラボレーターとして使用するエージェント�
 
 +++
 
-</div>
-
 ## AI共同作業者の管理
 
 既存のAI共同作業者を編集、コピー、削除できます。
@@ -213,5 +201,5 @@ Writerでタスクコラボレーターとして使用するエージェント�
 
 1. 左側のナビゲーションで、**AI Collaborators**&#x200B;をクリックします。
 1. （条件付き）共同作業者を編集するには、編集する共同作業者の名前をクリックし、「共同作業者を編集」ウィンドウで編集を行い、**保存**&#x200B;をクリックします。
-1. （条件付き）共同作業者をコピーするには、コピーするAI共同作業者の行にあるコピーアイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-ai-collaborator.png)をクリックし、コピーの名前をクリックして、共同作業者を編集ウィンドウで編集し、**保存**&#x200B;をクリックします。
-1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン &#x200B;](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
+1. （条件付き）共同作業者をコピーするには、コピーするAI共同作業者の行にあるコピーアイコン ![ コピーアイコン ](assets/copy-ai-collaborator.png)をクリックし、コピーの名前をクリックして、共同作業者を編集ウィンドウで編集し、**保存**&#x200B;をクリックします。
+1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン ](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
