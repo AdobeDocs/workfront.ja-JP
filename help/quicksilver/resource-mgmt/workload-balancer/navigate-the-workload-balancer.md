@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
 source-wordcount: 4457
 ht-degree: 87%
@@ -139,7 +139,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
-   ![ワークロードバランサー](assets/nwe-balancer-global.png)
+   ![ワークロードバランサー](assets/wb-in-res-mgmt.png)
 
    ワークロードバランサーでは、現在の週から始まる作業割当情報を次の 2 つの領域に表示します。
 
@@ -503,7 +503,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
    ユーザーのワークロードバランサーが表示されます。
 
-   ユーザー![&#128279;](assets/workload-balancer-user.png)のWorkload Balancer
+   ユーザー![&#128279;](assets/workload-balancer-user.png)の ワークロードバランサー
 
    ユーザーのワークロードバランサーには、デフォルトで次の情報が表示されます。
 

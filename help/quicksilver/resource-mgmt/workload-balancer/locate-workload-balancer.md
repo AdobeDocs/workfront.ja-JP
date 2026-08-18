@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 849
-ht-degree: 63%
+source-wordcount: 851
+ht-degree: 64%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 63%
 
 1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
-   ![ワークロードバランサー](assets/nwe-balancer-global.png)
+   ![ワークロードバランサー](assets/wb-in-res-mgmt.png)
 
    ワークロードバランサーのリソース領域には、デフォルトで以下の情報が表示されます。
 
@@ -118,7 +118,7 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要](/h
 
 1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
-   ![&#x200B; チームのワークロードバランサー](assets/nwe-balancer-team-350x172.png)
+   ![チームのワークロードバランサー](assets/wb-on-team.png)
 
    チームのワークロードバランサーには、デフォルトで次の情報が表示されます。
 
@@ -138,7 +138,7 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要](/h
 
    プロジェクトのワークロードバランサーが表示されます。
 
-   プロジェクト ![&#128279;](assets/nwe-balancer-project-350x152.png)の ワークロードバランサー
+   ![プロジェクトのワークロードバランサー](assets/wb-on-project.png)
 
    プロジェクトのワークロードバランサーには、デフォルトで以下の情報が表示されます。
 
@@ -161,7 +161,7 @@ Workfrontのチームについて詳しくは、[&#x200B; チームの概要](/h
 
    ユーザーのワークロードバランサーが表示されます。
 
-   ユーザー![&#128279;](assets/workload-balancer-user.png)のWorkload Balancer
+   ユーザー![&#128279;](assets/workload-balancer-user.png)の ワークロードバランサー
 
    ユーザーのワークロードバランサーには、デフォルトで次の情報が表示されます。
 

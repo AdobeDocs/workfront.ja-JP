@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
 workflow-type: tm+mt
-source-wordcount: 7962
-ht-degree: 77%
+source-wordcount: 8071
+ht-degree: 76%
 
 ---
 
@@ -852,8 +852,6 @@ To add typeahead and date fields:
 >* 再試行間の待機時間：500 ミリ秒
 >* 想定応答ステータス：2xx
 
-
-
 ### 内部参照フィールドの追加
 
 内部参照フィールドを使用すると、Workfrontに存在するオブジェクトの名前を入力できます。 ユーザーが入力し始めると、候補のリストが表示されます。 例えば、ユーザーがユーザー名を入力している場合、一致する名前のリストが表示されます。 内部参照フィールドタイプは、次のオブジェクトでサポートされています。
@@ -871,6 +869,12 @@ To add typeahead and date fields:
 * イシュー
 * ドキュメント
 * Location
+
+>[!NOTE]
+>
+>先行入力フィールドは、カスタムフォームに追加できなくなりました。 右側のフィールドオプションのボタンをクリックすると、既存の書体を内部参照に変換できます。 変換すると、履歴データはフィールドに残り、レポートで同じ方法で使用されます。
+> 
+>また、環境プロモーションパッケージに先行入力フィールドが含まれている場合、プロモーションが行われると、そのフィールドは自動的に内部参照に変換されます。 環境の昇格について詳しくは、[Workfront環境間でのオブジェクトの移動の概要（環境の昇格） &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)を参照してください。
 
 内部参照を追加するには：
 
