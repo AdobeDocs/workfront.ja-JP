@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c21ccc7fb345de3d227eb3dcf7f543670f486f8
+source-git-commit: 13c240ad1b51b30dd410a1bf8f49678375ab2e93
 workflow-type: tm+mt
-source-wordcount: 1884
+source-wordcount: 1900
 ht-degree: 5%
 
 ---
@@ -215,11 +215,11 @@ Old:
       >[!IMPORTANT]
       >
       >* 各条件の修飾子は、選択したフィールドのタイプで変更されます。
-      >* フィールドに複数の選択値がある場合、各条件は複数のフィルターを提供できます。 条件のフィルターの合計数は5個を超えることはできません。また、フィルターグループをネストすることはできません。 設定がこの制限を超えると、条件の下にインラインエラーが表示され、選択したオプションまたは条件の数を減らすまで自動化を保存できません。
+      >* 各条件は、1つ以上の値を参照できます。 すべての条件で、作成する条件の数に関係なく、最大5つの合計値を参照できます。 例えば、合計6つの値を参照する3つの条件を持つ設定は、制限を超えています。 条件をネストすることはできません。 設定が5値の制限を超えると、条件の下にインラインエラーが表示され、参照値の数を減らさない限り、自動化を保存できません。
       >
       >   制限が許す以上の条件が必要な場合は、作業を2つの異なる自動化に分割します。
       >
-      >   詳しくは、*イベントサブスクリプション*&#x200B;の[&#x200B; フィルターグループの使用](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)を参照してください。
+      >   詳しくは、「[&#x200B; フィルターグループの使用](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)」を参照してください。
 
 1. **アクション** セクションの次のフィールドを更新します：<!--submitted bugs for these fields - see if they need changing here-->
    * **アクション**：自動処理をトリガーする際にWorkfrontで実行するアクションを選択します。 必須フィールドです。

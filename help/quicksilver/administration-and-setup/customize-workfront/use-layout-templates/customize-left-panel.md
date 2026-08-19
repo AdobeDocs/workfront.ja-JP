@@ -23,16 +23,14 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b3170f61af451136f8a2b0d7f196bfd379ed952a
+source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
 workflow-type: tm+mt
-source-wordcount: 1247
-ht-degree: 43%
+source-wordcount: 1230
+ht-degree: 44%
 
 ---
 
 # レイアウトテンプレートを使用した左パネルのカスタマイズ
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -40,11 +38,7 @@ ht-degree: 43%
 
 例えば、プロジェクトの表示時に左側のパネルに表示される次の項目を指定できます。
 
-<span class="preview"> プレビュー環境のサンプル画像：</span>
 ![&#x200B; プロジェクトの左パネル &#x200B;](assets/left-panel-in-project-072326.png)
-
-実稼動環境のサンプル画像：
-![&#x200B; プロジェクトの左パネル &#x200B;](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >

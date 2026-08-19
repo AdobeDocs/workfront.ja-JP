@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 0b1e8b85625d7fd34f64b7c82eb40e1134adfcd6
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1377'
 ht-degree: 3%
 
 ---
@@ -201,5 +201,4 @@ Writerでタスクコラボレーターとして使用するエージェント�
 
 1. 左側のナビゲーションで、**AI Collaborators**&#x200B;をクリックします。
 1. （条件付き）共同作業者を編集するには、編集する共同作業者の名前をクリックし、「共同作業者を編集」ウィンドウで編集を行い、**保存**&#x200B;をクリックします。
-1. （条件付き）共同作業者をコピーするには、コピーするAI共同作業者の行にあるコピーアイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-ai-collaborator.png)をクリックし、コピーの名前をクリックして、共同作業者を編集ウィンドウで編集し、**保存**&#x200B;をクリックします。
 1. （条件付き）共同作業者を削除するには、削除するAI共同作業者の行にある削除アイコン ![削除アイコン &#x200B;](assets/delete-collaborator-icon.png)をクリックし、**削除**&#x200B;をクリックします。
