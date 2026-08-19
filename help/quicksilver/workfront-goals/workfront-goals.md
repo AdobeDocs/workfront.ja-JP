@@ -9,8 +9,10 @@ exl-id: 945a7d15-f10e-4829-aedb-e0de46cd6090
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/emDhVl7KOKGEiwWrdXVg8h67SJJKSZQ0aeR-8YaNyz4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 187
@@ -57,8 +59,8 @@ Adobe Workfront Goalsは、戦略を作業の遂行と実施に結びつける�
 組織の目標を設定および管理する方法と、その目的を促進する要因について説明するには、次の節の記事を参照してください。
 
 * [Adobe Workfront Goals の概要](../workfront-goals/goal-management/wf-goals-overview.md)
-* Adobe Workfront Goalsの[目標管理：記事インデックス ](../workfront-goals/goal-management/goal-management.md)
-* [Adobe Workfront Goalsの目標の調整：記事インデックス ](../workfront-goals/goal-alignment/goal-alignment.md)
+* Adobe Workfront Goalsの[目標管理：記事インデックス &#x200B;](../workfront-goals/goal-management/goal-management.md)
+* [Adobe Workfront Goalsの目標の調整：記事インデックス &#x200B;](../workfront-goals/goal-alignment/goal-alignment.md)
 * [目標のレビューと Adobe Workfront Goals セクション](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
 * [Adobe Workfront Goals の結果とアクティビティ](../workfront-goals/results-and-activities/results-and-activities.md)
 * [Adobe Workfront Goals の設定](../workfront-goals/workfront-goals-settings/wf-goals-settings.md)
