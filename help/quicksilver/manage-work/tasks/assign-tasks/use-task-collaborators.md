@@ -4,9 +4,9 @@ content-type: reference
 description: Workfront タスクに割り当てることができるタスクコラボレーター、AI コラボレーターの使用方法について説明します。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 73ca5de2dbc9ef698d3c8fa3098b783168c1c6b2
+source-git-commit: d56556791fad5d909a2878c42110fb552b719e2f
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1027'
 ht-degree: 3%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 タスクコラボレーターは、ドキュメントやアセットのレビューに使用される既存のレビューアータイプのAI コラボレーターに加えて、Workfront タスクに直接割り当てることができるAI コラボレーターです。 他のAI共同作業者と同様に、タスク共同作業者は設定エリアで設定され、ユーザーと同じようにタスクに割り当てられます。
 
-タスクコラボレーターは、MCP サーバーのように、設定したエージェントに接続します。
+タスクコラボレーターは、Copilot Studio、Claude、またはWriterで設定したエージェントに接続します。
 
-Workfrontでのタスクコラボレーターの作成について詳しくは、「[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
+Workfrontでのタスクコラボレーターの作成について詳しくは、「[ タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
 
 ## アクセス要件
 
@@ -63,9 +63,10 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
 >[!NOTE]
 >
 >* エージェントの責任と機能に関する具体的な詳細は、Workfrontではなく、エージェントが作成されるアプリケーションで設定されます。
+>* Workfront MCP サーバーは、Task Collaboratorとして使用されるエージェントに追加する必要がなく、Task Collaboratorが機能するために接続する必要もありません。
 >* タスクコラボレーターは現在、Copilot Studio、Claude、およびWriter.aiで作成されたエージェントをサポートしています。
 >* Copilot Studioでエージェントを設定する場合、セキュリティを&#x200B;**認証なし**&#x200B;に設定する必要があります。
->* Workfrontでのタスクコラボレーターの作成について詳しくは、「[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
+>* Workfrontでのタスクコラボレーターの作成について詳しくは、「[ タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
 
 ## タスクコラボレーターが読み取る情報
 
@@ -109,7 +110,7 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
 
 使用可能な担当者のリストでタスクコラボレーターを検索する場合、タスクコラボレーターの名前は名前のみになります。
 
-手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
+手順については、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
 
 >[!NOTE]
 >
