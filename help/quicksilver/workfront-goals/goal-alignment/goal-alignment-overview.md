@@ -10,11 +10,9 @@ exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/o8vr8UGlRZJu3PA-8uyJtzYfpq-nvQmQWdl8Q-yp6tY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 755
 ht-degree: 93%
@@ -40,11 +38,11 @@ Old:
 >
 >* For the new plan and license structure:
 >
->   * The Ultimate Workfront plan 
+>   * The Ultimate Workfront package 
 >    
 >* For the current plan and license structure: 
 >
->   * A Pro or higher Workfront plan
+>   * A Pro or higher Workfront package
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
@@ -69,8 +67,8 @@ Old:
 
 * 役割に応じて、様々な種類の目標を更新する必要があります。 例：
 
-   * 個人のコントリビューターは、チーム、グループおよび会社レベルの目標と関連付けられた個人の目標に参加することをお勧めします。 個人の目標を更新すると、他のすべての親目標の進捗状況が更新されます。
-   * CEO またはビジネスマネージャーとして、チーム、グループ、会社に割り当てられた目標を更新するだけでなく、自分の目標にも貢献することをお勧めします。
+  * 個人のコントリビューターは、チーム、グループおよび会社レベルの目標と関連付けられた個人の目標に参加することをお勧めします。 個人の目標を更新すると、他のすべての親目標の進捗状況が更新されます。
+  * CEO またはビジネスマネージャーとして、チーム、グループ、会社に割り当てられた目標を更新するだけでなく、自分の目標にも貢献することをお勧めします。
 
 ## 目標の関連付けのタイプ
 
