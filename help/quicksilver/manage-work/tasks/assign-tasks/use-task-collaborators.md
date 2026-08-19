@@ -4,9 +4,9 @@ content-type: reference
 description: Workfront タスクに割り当てることができるタスクコラボレーター、AI コラボレーターの使用方法について説明します。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 73ca5de2dbc9ef698d3c8fa3098b783168c1c6b2
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '995'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 タスクコラボレーターは、MCP サーバーのように、設定したエージェントに接続します。
 
-Workfrontでのタスクコラボレーターの作成について詳しくは、「[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
+Workfrontでのタスクコラボレーターの作成について詳しくは、「[ タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
 
 ## アクセス要件
 
@@ -65,7 +65,25 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
 >* エージェントの責任と機能に関する具体的な詳細は、Workfrontではなく、エージェントが作成されるアプリケーションで設定されます。
 >* タスクコラボレーターは現在、Copilot Studio、Claude、およびWriter.aiで作成されたエージェントをサポートしています。
 >* Copilot Studioでエージェントを設定する場合、セキュリティを&#x200B;**認証なし**&#x200B;に設定する必要があります。
->* Workfrontでのタスクコラボレーターの作成について詳しくは、「[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
+>* Workfrontでのタスクコラボレーターの作成について詳しくは、「[ タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
+
+## タスクコラボレーターが読み取る情報
+
+タスクコラボレーターは、タスクの作業を開始すると、次のタスク情報をコンテキストとして自動的に読み取ります。
+
+* タスクのタイトル
+* タスクの説明
+* タスクの更新ストリームのコメント
+* タスクに添付された任意のカスタムフォームの情報
+
+この情報は常に読み取られ、Workfront設定として設定することはできません。
+
+>[!TIP]
+>
+>最適な結果を得るためには、次のことをお勧めします。
+>
+>* 担当者がタスクの説明または関連するカスタムフォームフィールドで直接使用する背景情報を含めます。
+>* 担当者が指示したタスクと一致することを確認します。 たとえば、担当者がテキストを英語からフランス語に翻訳するように指示されている場合は、翻訳するテキストをタスクの説明に含めます。
 
 ## タスク共同作業者の開始トリガー
 
@@ -91,7 +109,7 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
 
 使用可能な担当者のリストでタスクコラボレーターを検索する場合、タスクコラボレーターの名前は名前のみになります。
 
-手順については、[&#x200B; タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
+手順については、[ タスクの割り当て](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)を参照してください。
 
 >[!NOTE]
 >
