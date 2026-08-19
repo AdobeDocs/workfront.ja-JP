@@ -29,11 +29,11 @@ AdobeクラウドストレージをサポートするWorkfrontのバージョン
 | --- | --- | --- |
 | 承認者とレビュアー | 個々のユーザーのみが承認 | 個々のユーザーまたはチームによる承認またはレビュー |
 | 期限とリマインダー | 自動リマインダーなし | 72時間切れ、24時間切れ、期限内の自動リマインダー |
-| 承認のステージとパス | ひとつの承認ステージで並行するパスはない | [複数の承認ステージと並行したレビューパス ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
-| 承認テンプレート | 各承認をゼロから設定 | Workfront セットアップで利用できる[再利用可能なテンプレート ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) |
-| レビューとマークアップ | プルーフビューアー | レガシーWorkfront ストレージオブジェクトの[ プルーフビューア ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)、またはAdobe クラウドストレージオブジェクトの[Frame.io ビューア ](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) |
+| 承認のステージとパス | ひとつの承認ステージで並行するパスはない | [複数の承認ステージと並行したレビューパス &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
+| 承認テンプレート | 各承認をゼロから設定 | Workfront セットアップで利用できる[再利用可能なテンプレート &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) |
+| レビューとマークアップ | プルーフビューアー | レガシーWorkfront ストレージオブジェクトの[&#x200B; プルーフビューア &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)、またはAdobe クラウドストレージオブジェクトの[Frame.io ビューア &#x200B;](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) |
 | AIを活用したレビュー | 利用不可 | [Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)による自動ブランドコンプライアンス確認 |
-| レポート | レガシーレポート | ホーム KPI ウィジェットと[Canvas ダッシュボード ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
+| レポート | レガシーレポート | ホーム KPI ウィジェットと[Canvas ダッシュボード &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
 
 ### 進行中の承認はどうなるか
 
@@ -44,7 +44,7 @@ AdobeクラウドストレージをサポートするWorkfrontのバージョン
 
 * [統一されたレビューと承認を開始する](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)記事をエンドユーザーと共有します。
 * 既存のWorkfront Fusionのシナリオを確認します。 プルーフで従来のドキュメントの承認を使用する場合は、組織をアップグレードする前に、[統一されたレビューと承認のためのWorkfront Fusion シナリオの更新](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)を参照してください。
-* Canvas ダッシュボードでレビューと承認ダッシュボードを設定して、従来の承認レポートを置き換えます。 詳しくは、[ レビューと承認ダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
+* Canvas ダッシュボードでレビューと承認ダッシュボードを設定して、従来の承認レポートを置き換えます。 詳しくは、[&#x200B; レビューと承認ダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
 
 
 ### エンドユーザー向けのヘルプ記事
