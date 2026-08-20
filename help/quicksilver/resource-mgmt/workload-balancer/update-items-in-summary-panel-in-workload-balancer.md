@@ -7,27 +7,21 @@ author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 TQID: https://experienceleague.adobe.com/eO2UAKzj1TjLfpJKNZ5jewp-S3aNVgxucSUJdu7jaC0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 424
-ht-degree: 64%
+source-wordcount: 423
+ht-degree: 51%
 
 ---
 
 # 概要を使用してワークロードバランサーの作業アイテムを更新
 
-タスクまたはイシューの概要パネルを使用して、その項目の重要な情報を更新できます。 ワークロードバランサー内
+タスクまたはイシューの概要パネルを使用して、ワークロードバランサーのそのアイテムの重要な情報を更新できます。
 
 概要パネルは、ワークロードバランサーの「割り当て済み」領域と「未割り当て済み」領域の両方で、タスクとイシューに使用できます。
 
@@ -90,13 +84,13 @@ ht-degree: 64%
 
    または
 
-   タスクまたは問題の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**概要を開く**&#x200B;をクリックします。
+   タスクまたは問題の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**概要を開く**&#x200B;をクリックします。
 
    右側に概要パネルが開きます。
 
    ![概要パネル](assets/summary-panel-task-wb-new-comments.png)
 
-1. 作業項目の多数のフィールドを変更したり、更新を入力したり、ここから Workfront の他のエリアに移動してドキュメントや他の情報を作業項目に追加したりします。
+1. 作業項目のフィールド数を変更したり、更新を入力したり、ここからWorkfrontの他の領域に移動したりして、文書やその他の情報を作業項目に追加します。
 
    >[!CAUTION]
    >
@@ -108,7 +102,7 @@ ht-degree: 64%
    >
    >組織でAdobe クラウドストレージをドキュメントに使用している場合、概要パネルでAdobe クラウドストレージの作業項目にドキュメントを追加することはできません。
    >
-   >詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+   >詳しくは、[ プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
 1. （条件付き）作業項目のセクションを開いた場合、ブラウザーの「**戻る**」ボタンをクリックして、ワークロードバランサーに戻ります。
-1. 概要の右上隅にある&#x200B;**閉じるアイコン** ![閉じるアイコン &#x200B;](assets/close-icon.png)をクリックして閉じます。
+1. 概要の右上隅にある&#x200B;**閉じるアイコン** ![閉じるアイコン ](assets/close-icon.png)をクリックして閉じます。

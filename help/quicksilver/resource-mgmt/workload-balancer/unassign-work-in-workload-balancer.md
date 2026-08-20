@@ -7,27 +7,21 @@ author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
 TQID: https://experienceleague.adobe.com/AREKzNODjF60azs3tXIndVE9QuXXw-14Qlv2nUl9Po4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 81%
+source-wordcount: 387
+ht-degree: 68%
 
 ---
 
 # ワークロードバランサーで作業を割り当て解除する
 
-Adobe Workfront ワークロードバランサーの割り当て済み作業エリアの作業アイテムから、ユーザーの割り当てを解除したり、他のユーザー、役割、またはチームに再割り当てしたりできます。
+Adobe Workfront Workload Balancerの「割り当て済み作業」エリアの作業項目からユーザーを割り当て解除したり、他のユーザー、タスクコラボレーター、ロール、またはチームにユーザーを再割り当てしたりできます。
 
 ドラッグ＆ドロップまたは一括で、作業アイテムからユーザーの割り当てを解除できます。 この記事では、ユーザーの割り当てを手動で解除する方法について説明します。
 
@@ -75,7 +69,7 @@ Adobe Workfront ワークロードバランサーの割り当て済み作業エ�
 
 ## ワークロードバランサーで作業アイテムを割り当て解除する
 
-ユーザーから項目の割り当てを解除して未割り当て作業エリアに移動するか、他のユーザーに再割り当てすることができます。
+ユーザーから項目を割り当て解除して未割り当てのワークエリアに移動するか、他のユーザーまたはタスクコラボレーターに再割り当てできます。
 
 ユーザーから作業アイテムの割り当てを解除するには、以下の手順を実行します。
 
@@ -83,7 +77,7 @@ Adobe Workfront ワークロードバランサーの割り当て済み作業エ�
 1. 次のいずれかの操作を行います。
 
    * ユーザーのエリアで割り当てを解除する項目を探し、クリックして、未割り当てエリアまたは別のユーザーのエリアにドラッグ＆ドロップします。
-   * 作業項目の名前の右側にある&#x200B;**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon-task-list.png)をクリックし、**これを**&#x200B;に割り当ててから、作業項目に割り当てられたエンティティの名前を削除するか、別の名前を入力して、**保存**&#x200B;をクリックします。
+   * 作業項目の名前の右側にある&#x200B;**詳細** アイコン ![詳細アイコン ](assets/more-icon-task-list.png)をクリックし、**これを**&#x200B;に割り当ててから、作業項目に割り当てられたエンティティの名前を削除するか、別の名前を入力して、**保存**&#x200B;をクリックします。
 
      ![これを](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)に割り当てる
 
