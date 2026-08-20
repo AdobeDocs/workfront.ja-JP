@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
+source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 3%
+source-wordcount: '1072'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,19 @@ ht-degree: 3%
 
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+
+## 依存する接続レコードフィールドの列ヘッダーを更新しました
+
+>[!NOTE]
+>
+>プレビュー：2026年8月20日（PT）
+>プロダクション高速リリース：2026年9月17日（PT）
+>すべての人のための制作：2026年10月15日
+
+テーブルビューの依存する接続レコードフィールドの列ヘッダーを視覚的に改善しました。
+
+詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
 
 ## 複数の行をドラッグ&amp;ドロップする際のテーブルビューの機能強化
 
@@ -61,23 +73,7 @@ For more information, see [Manage the timeline view](/help/quicksilver/planning/
 
 取り込みフォームにWorkspace フィールドが含まれ、送信する前にユーザーがワークスペースを選択した場合、フォームが起動された場所に関係なく、リクエストは選択したワークスペースにルーティングされます。 これにより、レコードが作成された時点から、目的のワークスペースでレコードが整理されます。
 
-詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
-
-<!--
-
-## Updated column headers for dependent connected record fields
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-We've made visual improvements to the column headers for a dependent connected record field in the table view.
-
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
+詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## Workfront Planning Solution Architect Skillの紹介
 
@@ -86,14 +82,16 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 >プレビュー：2026年8月10日（PT）
 >プロダクション：2026年8月10日
 
-「私たちは、Workfrontプランニングソリューションアーキテクトという新しいスキルを提供し、Workfrontプランニングのベストプラクティスであるエージェント型ガイダンスをClaudeに直接提供します。 Claude インターフェイスで、次の操作を行うことができます。
+現在リリースしている新しいスキル、Workfront Planning Solution Architectは、Workfrontプランニングのエージェント型のベストプラクティスガイダンスをClaudeに直接提供します。
 
-* ビジネス要件に合わせて新しいPlanning Workspaceを設定し、Workfront MCP サーバーが環境で設定を実行します。
-* アンチパターンの既存の設定を大規模に監査します。
-* 推奨制限に照らし合わせて使用状況を確認します。
-* プランニングについて質問する。
+* **新しいPlanning ワークスペースをスペックに設定**&#x200B;し、Workfront MCP サーバーが環境でセットアップを実行します。
+* アンチパターンの既存の設定を&#x200B;**監査**&#x200B;大規模に実行します。
+* **推奨制限（レコード、接続、階層の深さ）に照らし合わせて、使用状況**&#x200B;を確認します。
+* **いつでも計画について質問**&#x200B;します。
 
-詳しくは、「[直接インストールで使用できるスキル &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
+このスキルは、最初のセットアップを超えて、継続的なガバナンスをサポートしています。摩擦が生じる前に設定ドリフトを捉え、制限に近づいているときに警告を発することで、ブロッカーになる前に警告を発し、誰が設定したかに関係なく、あらゆるワークスペースに一貫性のある標準を適用し、チーム全員に専門家のサポートを待たずに正確な回答を提供します。 これは、ワークスペースを正しく設定し、使用が増えるにつれてワークスペースを維持するライフサイクル全体をカバーします。
+
+詳しくは、「[直接インストールで使用できるスキル ](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
 
 ## テーブルビューでの行のドラッグ&amp;ドロップ
 
