@@ -6,9 +6,9 @@ description: Adobe クラウドストレージでのWorkfrontのロールアウ�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
+source-git-commit: 719cce365a8279b46c849b92f0cd31c6bc4021a8
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2966'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ Adobe クラウドストレージをサポートするバージョンのWorkfron
 
 Adobe クラウドストレージをロールアウトする前に、承認を管理する担当者が何を期待できるかを確認します。
 
+* **既存の承認はどうなりますか**&#x200B;既存のレガシー承認ワークフローは、処理中または完了済みにかかわらず、この変更の影響を受けます。 詳しくは、[従来のドキュメント承認から統合承認への移行](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)を参照してください。
 * **新しい承認エクスペリエンス**&#x200B;のレビュー担当者と承認担当者が、従来の文書の承認エクスペリエンスから、多段階の承認や並行したレビューパスなどを追加する統合承認に移行します。 詳しくは、次の記事を参照してください。
 
   * [レビューと承認の統合を始める](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)

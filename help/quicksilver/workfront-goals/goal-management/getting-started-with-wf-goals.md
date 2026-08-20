@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 1351
 ht-degree: 96%
@@ -48,11 +48,11 @@ Old:
 >
 >* For the new plan and license structure:
 >
->   * The Ultimate Workfront plan 
+>   * The Ultimate Workfront package 
 >    
 >* For the current plan and license structure: 
 >
->   * A Pro or higher Workfront plan
+>   * A Pro or higher Workfront package
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
@@ -143,9 +143,9 @@ Workfront 目標について詳しくは、[Adobe Workfront Goals の概要](../
 
   アクティベート、アクティビティの追加、目標の更新について詳しくは、次の記事を参照してください。
 
-   * [Adobe Workfront Goals での目標のアクティベート](../../workfront-goals/goal-management/activate-goals.md)
-   * [Adobe Workfront Goals での目標へのアクティビティの追加](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-   * [Adobe Workfront Goals での目標の進捗の更新](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+  * [Adobe Workfront Goals での目標のアクティベート](../../workfront-goals/goal-management/activate-goals.md)
+  * [Adobe Workfront Goals での目標へのアクティビティの追加](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+  * [Adobe Workfront Goals での目標の進捗の更新](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## Workfront Goals の設定に関するガイドライン
 

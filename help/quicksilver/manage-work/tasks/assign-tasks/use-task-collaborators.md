@@ -4,9 +4,9 @@ content-type: reference
 description: Workfront タスクに割り当てることができるタスクコラボレーター、AI コラボレーターの使用方法について説明します。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: d56556791fad5d909a2878c42110fb552b719e2f
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '1027'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 タスクコラボレーターは、ドキュメントやアセットのレビューに使用される既存のレビューアータイプのAI コラボレーターに加えて、Workfront タスクに直接割り当てることができるAI コラボレーターです。 他のAI共同作業者と同様に、タスク共同作業者は設定エリアで設定され、ユーザーと同じようにタスクに割り当てられます。
 
-タスクコラボレーターは、MCP サーバーのように、設定したエージェントに接続します。
+タスクコラボレーターは、Copilot Studio、Claude、またはWriterで設定したエージェントに接続します。
 
 Workfrontでのタスクコラボレーターの作成について詳しくは、「[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
 
@@ -63,9 +63,28 @@ Workfrontでのタスクコラボレーターの作成について詳しくは�
 >[!NOTE]
 >
 >* エージェントの責任と機能に関する具体的な詳細は、Workfrontではなく、エージェントが作成されるアプリケーションで設定されます。
+>* Workfront MCP サーバーは、Task Collaboratorとして使用されるエージェントに追加する必要がなく、Task Collaboratorが機能するために接続する必要もありません。
 >* タスクコラボレーターは現在、Copilot Studio、Claude、およびWriter.aiで作成されたエージェントをサポートしています。
 >* Copilot Studioでエージェントを設定する場合、セキュリティを&#x200B;**認証なし**&#x200B;に設定する必要があります。
 >* Workfrontでのタスクコラボレーターの作成について詳しくは、「[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)」の「AI コラボレーターの設定」を参照してください。
+
+## タスクコラボレーターが読み取る情報
+
+タスクコラボレーターは、タスクの作業を開始すると、次のタスク情報をコンテキストとして自動的に読み取ります。
+
+* タスクのタイトル
+* タスクの説明
+* タスクの更新ストリームのコメント
+* タスクに添付された任意のカスタムフォームの情報
+
+この情報は常に読み取られ、Workfront設定として設定することはできません。
+
+>[!TIP]
+>
+>最適な結果を得るためには、次のことをお勧めします。
+>
+>* 担当者がタスクの説明または関連するカスタムフォームフィールドで直接使用する背景情報を含めます。
+>* 担当者が指示したタスクと一致することを確認します。 たとえば、担当者がテキストを英語からフランス語に翻訳するように指示されている場合は、翻訳するテキストをタスクの説明に含めます。
 
 ## タスク共同作業者の開始トリガー
 

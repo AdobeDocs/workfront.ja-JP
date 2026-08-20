@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
-source-wordcount: 4046
-ht-degree: 39%
+source-wordcount: 4047
+ht-degree: 38%
 
 ---
 
@@ -181,7 +181,21 @@ Old:
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
 -->
 
-テーブルビューを作成すると、選択したタイプのすべてのレコードがテーブルに表示されます。 各行は一意のレコードであり、各列はレコードフィールドです。 デフォルトでは、すべてのフィールドとすべてのレコードが表示されます。
+テーブルビューでは、選択したレコードタイプのすべてのレコードが表形式で表示されます。 各行は一意のレコードであり、各列はレコードフィールドです。
+
+デフォルトでは、次の表示がテーブルビューに表示されます。
+
+* 選択したレコードタイプのすべてのフィールドとすべてのレコード。
+
+<!--
+<div class="preview">
+
+* 500 records upload automaticall. Additional records display as you scroll the view. 
+
+</div>
+-->
+
+デフォルトでは500件のレコードが表示されます
 
 テーブルビューを管理するには：
 
@@ -288,6 +302,12 @@ Old:
       画面に表示される任意の単語や特殊文字を使用できます。
 
       テーブルビューで非表示になっているフィールドに関連付けられたキーワードは使用できません。
+
+      <!--
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
 
    1. キーボードの **Enter** キーを押して、次に見つかったフィールドに移動します。
 
@@ -578,7 +598,12 @@ Old:
 * 複数の値（集計によって集計されていない値）を持つルックアップフィールドでグループ化すると、フィールド値の一意の組み合わせごとにレコードがグループ化されます。
 * 現在のレコードタイプから最大4 レベル離れたフィールドを参照できます。 例えば、アクティビティレコードタイプのグループを作成する場合、アクティビティがWorkfront プロジェクトに接続されているCampaign レコードタイプに接続されている製品レコードタイプに接続されている場合、アクティビティレコードタイプ用に作成するグループでプロジェクトのステータスを参照できます。
 * グループ化は、値のアルファベット順にリストされます。
-  <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
+
+<!--
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+-->
+
+<!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
 グループ化を追加するには：
 
