@@ -11,15 +11,12 @@ exl-id: b5fed2b5-aa58-4cf1-b7d8-2573216b79f5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OWyXyT7vkj--6Rx9070wltvrG6dvGkeBkfOu2ZmqhFM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1e41c376fb0028a8d9a3e3bcf2033cebd6193849
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: 108
+source-wordcount: 106
 ht-degree: 33%
 
 ---
@@ -35,6 +32,6 @@ ht-degree: 33%
 * [プルーフと Creative Cloud Express の基本を学ぶ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
 * [統一されたレビューと承認の概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [Frame.io 統合での Adobe Experience Manager の使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
-* [Experience Manager Assetsのコンテンツとフォルダーを、Adobe クラウドストレージとリンクします](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
+* [Experience Manager AssetsのアセットをAdobeクラウドストレージにリンクする](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
 * [Frame.ioとの連携でAdobe ExpressとWorkfrontを使い始める](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
 
