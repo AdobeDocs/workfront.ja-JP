@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 515
+source-wordcount: 544
 ht-degree: 71%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 71%
      </tr>
      <tr>
       <td role="rowheader"><strong>プールのメンバー</strong></td>
-      <td><p> リソースプールにユーザーを個別に追加します。<br>または<br>一度にリソースプールに大量のユーザーを追加します。ユーザーまたはユーザーのコレクションに関連付けられている次のいずれかのエンティティを追加できます。
+      <td><p> ユーザーを個別にリソースプールに追加します。<br>または<br>一度にリソースプールに大量のユーザーを追加します。 ユーザーまたはユーザーのコレクションに関連付けられた次のエンティティの 1 つを追加できます。
         <ul>
          <li><strong>チーム</strong>：チームのすべてのメンバーはリソースプールに追加されます。</li>
          <li><strong>グループ</strong>：グループのすべてのメンバーはリソースプールに追加されます。</li>

@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 424
-ht-degree: 64%
+source-wordcount: 423
+ht-degree: 51%
 
 ---
 
 # 概要を使用してワークロードバランサーの作業アイテムを更新
 
-タスクまたはイシューの概要パネルを使用して、その項目の重要な情報を更新できます。 ワークロードバランサー内
+タスクまたはイシューの概要パネルを使用して、ワークロードバランサーのそのアイテムの重要な情報を更新できます。
 
 概要パネルは、ワークロードバランサーの「割り当て済み」領域と「未割り当て済み」領域の両方で、タスクとイシューに使用できます。
 
@@ -96,7 +96,7 @@ ht-degree: 64%
 
    ![概要パネル](assets/summary-panel-task-wb-new-comments.png)
 
-1. 作業項目の多数のフィールドを変更したり、更新を入力したり、ここから Workfront の他のエリアに移動してドキュメントや他の情報を作業項目に追加したりします。
+1. 作業項目のフィールド数を変更したり、更新を入力したり、ここからWorkfrontの他の領域に移動したりして、文書やその他の情報を作業項目に追加します。
 
    >[!CAUTION]
    >

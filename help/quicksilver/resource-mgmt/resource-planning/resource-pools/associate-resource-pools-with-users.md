@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 92%
+source-wordcount: 440
+ht-degree: 84%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 92%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)</p>
 -->
 
-リソースプールは、Adobe Workfront でのリソースの管理に役立つ、ユーザーのコレクションです。
+リソースプールは、Adobe Workfrontでリソースを管理するのに役立つユーザーのコレクションです。
 
 リソースプールをユーザーに関連付ける前に、リソースプールを作成する必要があります。
 
@@ -77,11 +77,11 @@ ht-degree: 92%
 
 {{step-1-to-users}}
 
-1. リストのユーザー名の横にあるボックスをオンにし、「**編集**」をクリックします。
+1. リスト上のユーザー名の横にあるチェックボックスをオンにし、**編集**&#x200B;をクリックします。
 1. 「**リソース計画**」をクリックします。
 1. ユーザーに関連付けるリソースプールの名前を「**リソースプール**」フィールドに入力し始め、表示されたらリストから選択します。\
    複数のリソースプールを 1 人のユーザーに関連付けることができます。\
-   ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)
+   ![&#x200B; ユーザーにリソース プールを追加](assets/add-resource-pool-to-user.png)
 
 1. 「**変更を保存**」をクリックします。
 

@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1226
-ht-degree: 58%
+source-wordcount: 1229
+ht-degree: 56%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 58%
 
 Adobe Workfront Workload Balancerを使用して、複数のタスクやイシューにリソースを一括で割り当てることができます。
 
-ワークロードバランサーを使用してユーザーに作業アイテムを割り当てる方法の概要については、[ワークロードバランサーでの作業割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
+ワークロードバランサーを使用してユーザーおよびタスクコラボレーターに作業を割り当てる方法について詳しくは、[&#x200B; ワークロードバランサーでの作業の割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
 
 ## アクセス要件
 
@@ -231,7 +231,6 @@ To assign a user to work items previously assigned to job roles:
 
 * 指定したユーザーは、割り当てられているすべての作業項目から削除されます。
 * 割り当て解除されたユーザーが担当業務に関連付けられている場合、その担当業務は、ユーザーが削除されても作業アイテムに割り当てられたままになります。
-
 * 指定したユーザーが完了した作業アイテムに割り当てられている場合、そのユーザーはそれらの作業アイテムに割り当てられたままになります。
 
 ユーザーと担当業務の割り当てについて詳しくは、[ワークロードバランサーでの作業割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。

@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0d4726c4aacc316063bb9a47b590165202ca3ac0
 workflow-type: tm+mt
-source-wordcount: 1204
-ht-degree: 91%
+source-wordcount: 1227
+ht-degree: 88%
 
 ---
 
@@ -50,23 +50,23 @@ Workfront には、リソースの管理に使用されるツールが数セッ�
 
 * プロジェクトでの実際の作業を開始する前に、より高いレベルでリソースを割り当てる方法を計画するには、以下のツールを使用します。
 
-   * **リソースプランナー**：リソース管理の最初のステージでリソースプランナーを使用して、予定の空き時間に応じて、リソースのプロジェクト時間を計上できます。 リソースの計画段階では、リソースプール内でユーザーを編成し、複数のリソースプールをプロジェクトに割り当てることができます。
+  * **リソースプランナー**：リソース管理の最初のステージでリソースプランナーを使用して、予定の空き時間に応じて、リソースのプロジェクト時間を計上できます。 リソースの計画段階では、リソースプール内でユーザーを編成し、複数のリソースプールをプロジェクトに割り当てることができます。
 
-     リソース計画について詳しくは、[リソース計画：記事インデックス](../../resource-mgmt/resource-planning/resource-planning-overview.md)を参照してください。
+    リソース計画について詳しくは、[リソース計画：記事インデックス](../../resource-mgmt/resource-planning/resource-planning-overview.md)を参照してください。
 
-   * **シナリオプランナー**：これはリソースのより高度なレベルの計画で、1 年、3 年、5 年にまたがる計画の複数のイニシアチブにわたってリソースを管理でき、複数のプロジェクトを含めることができます。 最適なシナリオを使用して、空き時間と予算を最大限に活用できます。
+  * **シナリオプランナー**：これはリソースのより高度なレベルの計画で、1 年、3 年、5 年にまたがる計画の複数のイニシアチブにわたってリソースを管理でき、複数のプロジェクトを含めることができます。 最適なシナリオを使用して、空き時間と予算を最大限に活用できます。
 
-     シナリオプランナーには、Workfront ライセンスに加えて、別のライセンスが必要です。 Workfront Scenario Planner について詳しくは、[Scenario Planner の概要](../../scenario-planner/scenario-planner-overview.md)を参照してください。
+    シナリオプランナーには、Workfront ライセンスに加えて、別のライセンスが必要です。 Workfront Scenario Planner について詳しくは、[Scenario Planner の概要](../../scenario-planner/scenario-planner-overview.md)を参照してください。
 
-     <!--   
+    <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
      -->
 
 * リソースを実際の作業（タスクとイシュー）にスケジュールする、または割り当てるには、以下のツールを使用します。
 
-   * **ワークロードバランサー**：リソース管理の下位レベルの段階に属しており、完了するために必要な時間数とリソースの空き時間に基づいて、完了する必要がある実際の作業（タスクとイシュー）にリソースを割り当てることができます。 ワークロードバランサーを使用して、現在割り当てられていない、または担当業務に割り当てられている実際の作業に、ユーザーを割り当てることができます。
+  * **ワークロードバランサー**：リソース管理の下位レベルの段階に属しており、完了するために必要な時間数とリソースの空き時間に基づいて、完了する必要がある実際の作業（タスクとイシュー）にリソースを割り当てることができます。 ワークロードバランサーを使用すると、現在割り当てられていない、またはジョブロールに割り当てられている実際の作業に、ユーザーまたはタスクコラボレーターを割り当てることができます。
 
-     ワークロードバランサーについては、[ワークロードバランサー：記事インデックス](../../resource-mgmt/workload-balancer/workload-balancer.md)を参照してください。
+    ワークロードバランサーについては、[ワークロードバランサー：記事インデックス](../../resource-mgmt/workload-balancer/workload-balancer.md)を参照してください。
 
 <!--
 
@@ -88,9 +88,9 @@ Workfront には、リソースの管理に使用されるツールが数セッ�
 -->
 * 複数のプロジェクトに対する予算計上された割当、予定割当および実際の割当を分析するには、以下のツールを使用します。
 
-   * **稼動率レポート**：このレポートを使用して、プロジェクトのリソースの稼動率を表示します。 プロジェクトに対する予算計上された割当、予定割当および実際の割当と、プロジェクトのコストおよび収益に対する影響を比較できます。
+  * **稼動率レポート**：このレポートを使用して、プロジェクトのリソースの稼動率を表示します。 プロジェクトに対する予算計上された割当、予定割当および実際の割当と、プロジェクトのコストおよび収益に対する影響を比較できます。
 
-     稼動率レポートについて詳しくは、[リソース稼動率情報を表示](../../resource-mgmt/resource-utilization/view-utilization-information.md)を参照してください。
+    稼動率レポートについて詳しくは、[リソース稼動率情報を表示](../../resource-mgmt/resource-utilization/view-utilization-information.md)を参照してください。
 
 ## リソース管理プロセスのコンポーネント
 
@@ -103,40 +103,43 @@ Workfront でのリソース管理プロセスには、以下の段階があり�
 * **設定**：システム管理者、リソースマネージャーまたはプロジェクト所有者は、リソースを管理する前に、Workfront インスタンスで特定のフィールドとオブジェクトを設定する必要があります。 Workfront でのリソース管理の開始に必要な前提条件について詳しくは、この記事にある[正確なリソース管理の前提条件](#prerequisites-for-accurate-resource-management)の節を参照してください。\
   Workfront では、作業アイテムを含むプロジェクトに加え、以下の項目を設定する必要があります。
 
-   * ユーザー\
-     ユーザーの作成について詳しくは、[ユーザーの追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)の記事を参照してください。
+  * ユーザー\
+    ユーザーの作成について詳しくは、[ユーザーの追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)の記事を参照してください。
 
-   * 担当業務\
-     担当業務の作成について詳しくは、[担当業務の作成と管理](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)の記事を参照してください。
+  * 担当業務\
+    担当業務の作成について詳しくは、[担当業務の作成と管理](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)の記事を参照してください。
 
-   * スケジュール\
-     スケジュールの作成について詳しくは、[スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)の記事を参照してください。
+  * タスク共同作業者
+    タスクコラボレーターの作成について詳しくは、[AI コラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)の記事[&#x200B; タスクコラボレーターの設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)を参照してください。
 
-   * プロジェクト環境設定
+  * スケジュール\
+    スケジュールの作成について詳しくは、[スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)の記事を参照してください。
 
-     >[!TIP]
-     >
-     >システム管理者またはグループ管理者のみが、システムまたはグループのプロジェクトの環境設定を変更できます。
+  * プロジェクト環境設定
 
-     プロジェクトの環境設定の定義について詳しくは、[システム全体のプロジェクトの環境設定を指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)の記事を参照してください。
+    >[!TIP]
+    >
+    >システム管理者またはグループ管理者のみが、システムまたはグループのプロジェクトの環境設定を変更できます。
 
-   * リソースプール
+    プロジェクトの環境設定の定義について詳しくは、[システム全体のプロジェクトの環境設定を指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)の記事を参照してください。
 
-     リソースプールの作成について詳しくは、[リソースプールを作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
+  * リソースプール
 
-   * リソース管理の環境設定
+    リソースプールの作成について詳しくは、[リソースプールを作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
 
-     システムとして、ユーザーのスケジュールとシステムのデフォルトスケジュールのどちらを使用しているかに関わらず、Workfront がシステムレベルでユーザーの空き時間を計算する方法を決定する必要があります。
+  * リソース管理の環境設定
 
-     詳しくは、[リソース管理の環境設定を設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)を参照してください。
+    システムとして、ユーザーのスケジュールとシステムのデフォルトスケジュールのどちらを使用しているかに関わらず、Workfront がシステムレベルでユーザーの空き時間を計算する方法を決定する必要があります。
+
+    詳しくは、[リソース管理の環境設定を設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)を参照してください。
 
 * **リソースの割り当て**：リソースマネージャーやプロジェクト所有者は、プロジェクトに対するリソースの割り当てを定義し、作業を割り当てることができます。 この手順では、リソースプランナーまたはシナリオプランナーを使用して、リソースの割り当て見積もりを管理し、ワークロードバランサーのユーザーに実際の作業を割り当てることができます。
 
   リソース計画と作業の割り当てについて詳しくは、以下の節を参照してください。
 
-   * [リソース計画：記事インデックス](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [[!DNL Adobe Workfront Scenario Planner]：記事インデックス](../../scenario-planner/scenario-planning.md)
-   * [ワークロードバランサー：記事インデックス](../../resource-mgmt/workload-balancer/workload-balancer.md)
+  * [リソース計画：記事インデックス](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  * [[!DNL Adobe Workfront Scenario Planner]：記事インデックス](../../scenario-planner/scenario-planning.md)
+  * [ワークロードバランサー：記事インデックス](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
@@ -159,9 +162,9 @@ Workfront でのリソース管理プロセスには、以下の段階があり�
 
   作業用ライセンス（または標準ライセンス）以上のライセンスを持っていることに加えて、特定のリソース管理ツールを使用するには、次の要件を満たす必要があります。
 
-   * リソース管理に対する編集アクセス権（ワークロードバランサーで割り当てを行う場合は不要）
-   * 「原価率の表示または編集」および「一般財務の表示または編集」へのアクセス権を含む財務データへのアクセス権を編集して、リソースプランナーに原価情報を表示します
-   * 「原価率の表示」または「原価率の編集」および「一般財務の表示」へのアクセス権を含む財務データへのアクセス権を表示し、使用状況レポートで原価および収益情報を表示します（プランまたは標準ライセンスを持つユーザーのみ）
+  * リソース管理に対する編集アクセス権（ワークロードバランサーで割り当てを行う場合は不要）
+  * 「原価率の表示または編集」および「一般財務の表示または編集」へのアクセス権を含む財務データへのアクセス権を編集して、リソースプランナーに原価情報を表示します
+  * 「原価率の表示」または「原価率の編集」および「一般財務の表示」へのアクセス権を含む財務データへのアクセス権を表示し、使用状況レポートで原価および収益情報を表示します（プランまたは標準ライセンスを持つユーザーのみ）
 
 * リソース管理の対象となるプロジェクトでの割り当ての作成を含む、参加以上の権限。
 
