@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 396
 ht-degree: 72%
 
 ---
@@ -34,7 +34,7 @@ Adobe Workfront オブジェクトに添付できるカスタムフォームを�
 
 例えば、「マーケティングコンテンツリサーチ」というカスタムフォームをプロジェクトに添付することで、プロジェクトのユーザーがプロジェクトのマーケティングコンテンツをリクエストできるようになります。
 
-![詳細ページ &#x200B;](assets/see-image-details-page.png)
+![&#x200B; プロジェクトの詳細ページ &#x200B;](assets/see-image-details-page.png)
 
 ## カスタムフォームの作成方法
 

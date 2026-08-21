@@ -4,7 +4,7 @@ description: 2026年第4四半期レポートの強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
+source-git-commit: a86f0169f804520be2828983a737c8c8d151792d
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 5%
@@ -30,22 +30,6 @@ ht-degree: 5%
 既存のスケジュールは、信頼性を向上させ、不要なシステム使用を減らすために、終了日を更新しました。 また、Workfrontでは、レポートのスケジュールのライフサイクルが終了日に近づいたときに、レポートのスケジュールを管理するのに役立つ可視性と警告も提供されます。
 
 詳しくは、[自動レポート配信のスケジュール &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
-
-<!--
-
-## Updated column headers for dependent connected record fields
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-We've made visual improvements to the column headers for a dependent connected record field in the table view.
-
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
 
 ## ネイティブ参照フィールドは、リストとレポートで使用できます
 

@@ -1,23 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: native-integrations
-title: Experience Manager Assetsのコンテンツとフォルダーを、Adobe クラウドストレージとリンクします
-description: 組織でAdobe クラウドストレージを使用している場合は、Experience Manager Assetsのコンテンツとフォルダーを、ドキュメントをサポートする任意のAdobe Workfront オブジェクトにリンクできます。
+title: Experience Manager AssetsのアセットをAdobeクラウドストレージにリンクする
+description: 組織でAdobe クラウドストレージを使用している場合は、Experience Manager Assetsのアセットをドキュメントをサポートする任意のAdobe Workfront オブジェクトにリンクできます。
 author: Courtney
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '935'
 ht-degree: 12%
 
 ---
 
-# Experience Manager Assetsのコンテンツとフォルダーを、Adobe クラウドストレージとリンクします
+# Experience Manager AssetsのアセットをAdobeクラウドストレージにリンクする
 
-Adobe クラウドストレージを使用している場合は、Experience Manager AssetsからWorkfrontにコンテンツとフォルダーをリンクできます。 リンクすると、Workfrontでコンテンツを表示および管理でき、Experience Manager Assetsでコンテンツに加えられた変更はWorkfrontに反映されます。
+Adobe クラウドストレージを使用している場合は、Experience Manager AssetsからWorkfrontにアセットをリンクできます。 リンクすると、Workfrontでアセットを表示および管理でき、Experience Manager Assetsでアセットに加えた変更はWorkfrontに反映されます。
 
 >[!IMPORTANT]
 >
->組織がGenAI Rider契約への署名を拒否した場合でも、Content Advisorを使用してExperience Manager Assetsのアセットとフォルダーを選択できますが、AI 検索、スマートレコメンデーション、キャンペーンブリーフの分析など、AIを活用した機能にはアクセスできません。
+>組織がGenAI Rider契約への署名を拒否した場合でも、Content Advisorを使用してExperience Manager Assetsのアセットを選択できますが、AI 検索、スマートレコメンデーション、キャンペーンブリーフの分析など、AIを活用した機能にはアクセスできません。
 
 ## アクセス要件
 

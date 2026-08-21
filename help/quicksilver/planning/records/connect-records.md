@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 9e4b8593c559dd68f7c0948c58c3f796af1c22fd
 workflow-type: tm+mt
-source-wordcount: 3643
+source-wordcount: 3743
 ht-degree: 26%
 
 ---
@@ -432,8 +432,8 @@ No longer needed to specify:
 
 >[!NOTE]
 >
->プランニングレコードとそのフィールドには、Workfront管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Experience Manager Assetsからアクセスできます。詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。
->PlanningのGenStudio ワークスペースのレコードをAEM オブジェクト（アセットとコンテンツフラグメント）に接続すると、AEMのAEM オブジェクトにGenStudio情報が自動的に表示されます。AEM情報は、Workfront Planningで接続が行われたときに追加されたルックアップフィールドにGenStudio レコードに表示されます。詳しくは、[Adobe Workfront PlanningでのGenStudio Workspaceの管理](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)を参照してください。
+>プランニングレコードとそのフィールドには、Workfront管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Experience Manager Assetsからアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。
+>PlanningのGenStudio ワークスペースのレコードをAEM オブジェクト（アセットおよびコンテンツフラグメント）に接続すると、GenStudio情報がAEMのAEM オブジェクトに自動的に表示されます。 AEM情報は、Workfront Planningで接続が行われたときに追加されたルックアップフィールドにGenStudio レコードに表示されます。 詳しくは、[Adobe Workfront PlanningでのGenStudio Workspaceの管理](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)を参照してください。
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
@@ -477,7 +477,7 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
 
    >[!IMPORTANT]
    >
-   > Experience Managerで表示するアクセス権のあるアセットのみを接続できます。接続すると、すべてのWorkfront Planning ユーザーは、Experience Manager Assetsでのアクセスに関係なく、Workfront Planningでアセットを表示できます。
+   > 接続できるのは、Experience Manager で表示するアクセス権のあるアセットのみです。 接続すると、すべての Workfront Planning ユーザーは、Experience Manager Assets へのアクセス権に関係なく、Workfront Planning でアセットを表示できます。
    > Content Advisorについて詳しくは、[Content Advisorを使用してAdobe アプリケーションのAEM コンテンツにアクセスする](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}を参照してください。
 
 1. 「**コンテンツフラグメント**」タブから、「コンテンツフラグメント」を選択して、リンクされたレコードフィールドに追加します。
@@ -596,13 +596,17 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
    >
    >接続されたレコード ページで表示するには、接続されたレコードを現在のレコードに追加する必要があります。
 
-1. レコードのリストで&#x200B;**Connect**&#x200B;をクリックするか、プロジェクトのリストで&#x200B;**Connect レコード**&#x200B;をクリックして、既存のレコードまたはプロジェクトを追加または削除します。
+1. 接続されたレコードページの右上隅にある「**レコードを接続**」をクリックして、既存のレコードまたはプロジェクトを追加または削除します。
 
-   ![接続されたレコードの詳細タブでハイライト表示された接続ボタン &#x200B;](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+   <!--
+    this is gone:
+    ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+    -->
 
    詳しくは、[接続されたレコードの追加ページをレコード &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)に参照してください。
-1. プロジェクトのリストの&#x200B;**新しい行**&#x200B;をクリックして、テンプレートなしでプロジェクトを作成します。 新しいプロジェクトは、現在のレコードに自動的に接続されます。
 1. （オプション）接続されたレコードが見つからない場合は、**+追加**&#x200B;をクリックして作成し、接続します。
+1. **新しい行**&#x200B;をクリックして、レコードを作成します。 新しいレコードは、現在のレコードに自動的に接続されます。
+
 
 ## Workfront オブジェクトからのレコードの接続
 

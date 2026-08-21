@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 8ba03024e1c2ef0da755a6da3da13debb2f4e696
+source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
 workflow-type: tm+mt
-source-wordcount: '14417'
+source-wordcount: '14435'
 ht-degree: 93%
 
 ---
@@ -1931,6 +1931,7 @@ ht-degree: 93%
     * [Workfront Content Reviewerの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Adobe クラウドストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Adobe クラウドストレージモデルのオブジェクト権限とアクセスレベルの概要](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+    * [従来のドキュメント承認から統合承認への移行](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * アセットとドキュメントの承認の設定と管理 {#manage-asset-review-and-approval}
       * [統合承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [コンテンツレビュアーのブランドを作成および管理する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
@@ -2069,6 +2070,7 @@ ht-degree: 93%
     * [プルーフと Creative Cloud Express の基本を学ぶ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [プルーフと GenStudio for Performance Marketing の統合の基本を学ぶ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [Frame.io 統合での Adobe Experience Manager の使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+    * [Experience Manager AssetsのアセットをAdobeクラウドストレージにリンクする](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
     * [Frame.ioとの連携でAdobe ExpressとWorkfrontを使い始める](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * 承認に関するヒント、テクニックおよびトラブルシューティング {#ttt-approvals}
     * [承認に関するヒント、テクニックおよびトラブルシューティング：記事インデックス](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)

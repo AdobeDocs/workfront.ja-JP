@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 645
-ht-degree: 96%
+source-wordcount: 648
+ht-degree: 90%
 
 ---
 
@@ -120,12 +120,12 @@ ht-degree: 96%
 {{step-1-to-setup}}
 
 1. 左パネルで「**[!UICONTROL 担当業務]」をクリックします。**
-1. （オプション）**[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューで、「**[!UICONTROL アクティブ]**」を選択して、アクティブの担当業務のみを表示します。
-1. 非アクティブ化する担当業務の名前をクリックします。
-1. **[!UICONTROL アクティブ]**&#x200B;ドロップダウンメニューで、「**[!UICONTROL いいえ]**」を選択します。
+1. （オプション）「**[!UICONTROL フィルター]**」リストで「**[!UICONTROL アクティブ]**」を選択して、アクティブな担当業務のみを表示します。
+1. 無効にする担当業務の横にあるチェックボックスを選択し、[!UICONTROL **編集**] アイコン [編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+1. 「**[!UICONTROL はアクティブです]**」フィールドで、**[!UICONTROL No]**&#x200B;を選択します。
 
-   ![担当業務を非アクティブ化](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![担当業務を非アクティブ化](assets/edit-job-role.png)
 
-1. 「**[!UICONTROL 変更を保存]**」をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
    担当業務が非アクティブ化され、作業に割り当てたり、レイアウトテンプレートに関連付けたりできなくなります。 [!DNL Workfront] における担当業務のすべての用途については、[担当業務の概要](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)を参照してください。

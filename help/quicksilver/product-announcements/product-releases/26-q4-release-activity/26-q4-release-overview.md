@@ -4,9 +4,9 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 26c7853f4ce663deda6ed98484acc69b02ec5bad
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1430'
 ht-degree: 14%
 
 ---
@@ -60,12 +60,12 @@ ht-degree: 14%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Interface improvements to the Actions list</a>
                 <p>The Actions list in the Update Feeds section of the Setup area has an updated look and feel.</p>
             </td>
-            <td><p>August 13, 2026</p></td>
+            <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
- -->  
-      <tr>
+-->
+        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> グループ管理者はビジネスプロファイルを管理できます</a>
                 <p>グループ管理者は、システム管理者のアクセス権がなくても、管理するグループのビジネスプロファイルを作成、編集、削除できるようになりました。</p>
@@ -221,8 +221,8 @@ ht-degree: 14%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Experience Manager AssetsのコンテンツとフォルダーをAdobe クラウドストレージとリンク </a>
-                <p>組織でAdobe クラウドストレージを使用している場合は、個々のアセットまたはフォルダー全体をExperience Manager Assetsからドキュメントをサポートする任意のWorkfront オブジェクトにリンクできます。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Experience Manager AssetsからAdobe クラウドストレージにアセットをリンク </a>
+                <p>組織でAdobe クラウドストレージを使用している場合は、Experience Manager Assetsの個々のアセットを、ドキュメントをサポートする任意のWorkfront オブジェクトにリンクできます。</p>
             </td>
             <td><p>2026年7月30日（PT）</p></td>
             <td><p>2026年8月13日（PT）</p></td>
@@ -274,17 +274,6 @@ ht-degree: 14%
             <td><p>2026年9月17日（PT）</p></td>
             <td><p>2026年10月15日（PT）</p></td>
         </tr>
-<!--
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Updated column headers for dependent connected record fields</a>
-                <p>Visual improvements have been made to the column headers for a dependent connected record field in the table view.</p>
-            </td>
-            <td><p>August 13, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}"> リストとレポートに使用できるネイティブ参照フィールド </a>

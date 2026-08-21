@@ -17,9 +17,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 354
+source-wordcount: 352
 ht-degree: 98%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 98%
 組織で使用されなくなった担当業務を削除できます。 担当業務が過去に作業アイテムに関連付けられていた場合は、削除しないことをお勧めします。
 
 作業の割り当てに関する履歴情報をすべて保持するには、役割が不要になった場合は、削除するのではなく、非アクティブ化することをお勧めします。 役割の非アクティブ化について詳しくは、[担当業務を非アクティブ化](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)を参照してください。
-
-## アクセス要件
 
 ## アクセス要件
 

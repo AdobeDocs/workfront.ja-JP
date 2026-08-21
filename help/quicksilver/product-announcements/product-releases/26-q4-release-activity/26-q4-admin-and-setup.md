@@ -4,7 +4,7 @@ description: 2026年第4四半期の管理者の機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
+source-git-commit: db296d9043cb793e1af74bca38197de682f54cb8
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Preview: August 13, 2026
+>Preview: August 20, 2026
 >Production fast release: September 17, 2026
 >Production for everyone: October 15, 2026
 

@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 92%
+source-wordcount: 455
+ht-degree: 88%
 
 ---
 
@@ -89,10 +89,10 @@ ht-degree: 92%
 
 「計画担当者」が、デフォルトで表示されます。  リソースプランナーでのリソースの予算計上について詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)の記事を参照してください。
 
-![&#x200B; リソースプランナーをデフォルトとして](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![&#x200B; リソースプランナーをデフォルトとして](assets/default-resource-planner.png)
 
 1. 左側のパネルで「**リソースプール**」をクリックします。
-リソースプールの作成について詳しくは、[&#x200B; リソースプールの作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
+リソースプールの作成について詳しくは、[リソースプールを作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
 
 ### 1 つのプロジェクトに対してリソースプランナーを使用 {#use-the-resource-planner-for-one-project}
 
@@ -105,8 +105,8 @@ ht-degree: 92%
 
    >[!TIP]
    >
-   >ビジネスケースの「リソース予算計上」エリアにリソースプールを追加できるのは、プロジェクトにリソースプールが関連付けられていない場合のみです。 プロジェクトに既にリソースプールが存在する場合、プール内のユーザーとその担当業務が、「リソース予算計上」エリアにデフォルトで表示されます。
+   >プロジェクトにリソースプールが関連付けられていない場合にのみ、ビジネスケースのリソース予算領域にリソースプールを追加できます。<!--When the project already has a Resource Pool, the users in the pool and their job roles display in the Resource Budgeting area by default.-->
 
-   ![&#x200B; リソース予算](assets/resource-budgeting-area-on-project-350x70.png)
+   ![&#x200B; リソース予算](assets/resource-budgeting-area-on-project.png)
 
    1 つのプロジェクトのリソースの予算計上について詳しくは、[ビジネスケースのリソース予算計上](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。

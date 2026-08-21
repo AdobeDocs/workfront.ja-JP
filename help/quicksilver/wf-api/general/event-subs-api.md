@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
 workflow-type: tm+mt
-source-wordcount: 3146
-ht-degree: 95%
+source-wordcount: 3308
+ht-degree: 94%
 
 ---
 
@@ -118,13 +118,13 @@ ht-degree: 95%
 
 * objId（オプション）
 
-   * **文字列** - イベントが発生したオブジェクト（指定された objCode のオブジェクト）の ID。 このフィールドを指定しない場合、ユーザーは、指定されたタイプのすべてのオブジェクトのイベントを受け取ります。
+  * **文字列** - イベントが発生したオブジェクト（指定された objCode のオブジェクト）の ID。 このフィールドを指定しない場合、ユーザーは、指定されたタイプのすべてのオブジェクトのイベントを受け取ります。
 
 * objCode（必須）
 
-   * **文字列** - 変更に登録されるオブジェクトの objCode。 objCode に指定できる値を次の表に示します。
+  * **文字列** - 変更に登録されるオブジェクトの objCode。 objCode に指定できる値を次の表に示します。
 
-     <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -263,19 +263,23 @@ ht-degree: 95%
 
 * eventType（必須）
 
-   * **文字列** - オブジェクトが登録されているイベントのタイプを表す値。 使用可能なイベントタイプは次のとおりです。
+  * **文字列** - オブジェクトが登録されているイベントのタイプを表す値。 使用可能なイベントタイプは次のとおりです。
 
-      * 作成
-      * DELETE
-      * UPDATE
+    * 作成
+    * DELETE
+    * UPDATE
 
 * url（必須）
 
-   * **文字列** - 登録イベントペイロードが HTTP で送信されるエンドポイントの URL。
+  * **文字列** - 登録イベントペイロードが HTTP で送信されるエンドポイントの URL。
 
-* authToken（必須）
+* authToken （作成時に必要）
 
-   * **文字列** -「URL」フィールドで指定された URL での認証に使用される OAuth2 ベアラートークン。
+  * **文字列** -「URL」フィールドで指定された URL での認証に使用される OAuth2 ベアラートークン。 サブスクリプション作成の応答には、このフィールドはまったく含まれておらず、このフィールドが含まれる後の応答ごとに、マスクされたフィールドが表示されます（最後の4文字のみ）。 完全な値は、送信後に返されることはないので、送信する内容のコピーを保持することをお勧めします。
+
+>[!NOTE]
+>
+>`authToken`は常に応答でマスクされ、最大で最後の4文字が表示されます（例：`****1234`）。 トークンが8文字以下の場合、代わりに完全にマスクされるため、マスクによって短いトークンの半分または複数が表示されることはありません。 これは、非推奨のリストエンドポイントを含む、サブスクリプションの詳細を返すすべてのエンドポイントに適用されます。
 
 ## イベント登録 API リクエストの作成
 
@@ -430,7 +434,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -504,7 +508,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -557,7 +561,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-**使用可能な応答コード**
+**応答コードの例**
 
 * 200
 * 400
@@ -605,7 +609,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 }
 ```
 
-**使用可能な応答コード**
+**応答コードの例**
 
 * 200
 * 400
@@ -631,10 +635,10 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 * 1 つのオブジェクトに複数のイベント登録が割り当てられている場合、そのオブジェクトに関連付けられているすべてのイベント登録を 1 つのエンドポイントに返すことができます。 この方法は、フィルターパラメーターを使用する場合には設定できない論理演算子 **OR** の同等の代替手段として使用できます。
 * 次のフィールドはフィルタリングできません。
 
-   * DOCU.groups
-   * RECORD.data
-   * RECORD_TYPE.data
-   * RECORD_TYPE.fields
+  * DOCU.groups
+  * RECORD.data
+  * RECORD_TYPE.data
+  * RECORD_TYPE.fields
 
 ### 比較演算子の使用
 
@@ -860,13 +864,13 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 #### 状態
 
-このコネクタを使用すると、作成または更新されたオブジェクトの新しい状態または古い状態にフィルターが適用されます。これは、どこで変更が行われたのかを知りたい場合に役立ちます。
-`oldState`はCREATE `eventTypes`では利用できません。
+このコネクタを使用すると、作成または更新されたオブジェクトの新しい状態または古い状態にフィルターが適用されます。 これは、状態が変化した場所を把握する場合に役立ちます。
+`oldState` は、CREATE `eventTypes` では使用できません。
 
 >[!NOTE]
 >
->指定されたフィルターを使用した以下のサブスクリプションは、タスクの名前に`again`が含まれているメッセージのみを返します。これは、タスクで更新が行われる前の`oldState`の名前です。
->この場合の使用例は、あるオブジェクトから別のオブジェクトに変更されたobjCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて見つけます
+>フィルターが指定されている以下の登録では、タスクが更新される前の状態の `oldState` に `again` が含まれるタスク名を持つメッセージのみを返します。
+>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。 例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
 
 ```
 {
@@ -1031,8 +1035,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
    * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * このグループは、次の 2 つの内部フィルターを評価します。
 
-      * 最初に、タスクのステータスが「CUR」（現在）に等しいかどうかを確認します。
-      * 次に、優先度が「1」（優先度：高）に等しいかどうかを確認します。
+     * 最初に、タスクのステータスが「CUR」（現在）に等しいかどうかを確認します。
+     * 次に、優先度が「1」（優先度：高）に等しいかどうかを確認します。
    * コネクターは「OR」であるため、いずれかの条件が true の場合、このグループはフィルターを通過します。
 
 1. 最上位コネクター（filterConnector: AND）：
@@ -1370,7 +1374,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "TASK",
                 "url": "http://test.test.net/test/1234",
                 "event_type": "UPDATE",
-                "auth_token": "auth_token"
+                "auth_token": "****oken"
                 },
                 {
                 "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
@@ -1379,7 +1383,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "PROJ",
                 "url": "http://requestb.in/ua5hi2ua",
                 "event_type": "UPDATE",
-                "auth_token": "authTokenWorkfrontRocks1234_"
+                "auth_token": "****234_"
                 }                
                 ]
 ```
