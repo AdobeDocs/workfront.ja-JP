@@ -6,11 +6,20 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
 TQID: https://experienceleague.adobe.com/tvmgfR5y2QbHo-ikCGHuJR-AbNzxikQtNqpHRNv7za0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0f2e9311d94714a3561dfdd9807e4267513e0426
 workflow-type: tm+mt
 source-wordcount: 1576
@@ -39,7 +48,7 @@ Adobe Workfront 管理者は、システム管理者のアクセスレベルを�
 >これは、システムの特定のエリアに管理者アクセス権をユーザーに付与するアクセスレベルを使用する場合とは異なります。 詳しくは、以下を参照してください。
 >
 >* [特定のエリアに対する管理者アクセス権のユーザーへの付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [Workfront管理者のアクセスと、管理者権限を持つ標準ユーザーまたはプランユーザーのアクセス ](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)の比較
+>* [Workfront管理者のアクセスと、管理者権限を持つ標準ユーザーまたはプランユーザーのアクセス &#x200B;](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)の比較
 >
 
 ## アクセス要件
