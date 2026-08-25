@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
+source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 2%
+source-wordcount: '1076'
+ht-degree: 3%
 
 ---
 
@@ -38,6 +38,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 >プレビュー：2026年8月13日（PT）
 >プロダクション高速リリース：2026年8月13日（PT）
 >すべての人のための制作：2026年10月15日
+>[!BADGE スケジュール外]{type=Neutral}
 
 テーブルビューで複数の行をドラッグ&amp;ドロップすると、新しいビジュアルインジケーターが表示されます。 より目立つプラス記号と数値インジケーターに、ドラッグ&amp;ドロップ操作で選択されている行数が表示されるようになりました。
 

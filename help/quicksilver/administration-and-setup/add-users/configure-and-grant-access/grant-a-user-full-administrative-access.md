@@ -20,10 +20,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 0f2e9311d94714a3561dfdd9807e4267513e0426
 workflow-type: tm+mt
-source-wordcount: 1558
-ht-degree: 81%
+source-wordcount: 1576
+ht-degree: 80%
 
 ---
 
@@ -358,6 +358,14 @@ Workfront の管理者は、誰が作成したかに関係なく、システム�
    <td>システム：環境設定</td> 
    <td>フルアクセス</td> 
    <td>アクセスなし</td> 
+  <tr> 
+   <td>変更の追跡：設定</td> 
+   <td>フルアクセス</td> 
+   <td>アクセスなし</td> 
+  <tr> 
+   <td>変更履歴：変更履歴リスト</td> 
+   <td>フルアクセス</td> 
+   <td>フルアクセス</td> 
   </tr> 
  </tbody> 
 </table>
@@ -372,7 +380,7 @@ Workfront の管理者は、誰が作成したかに関係なく、システム�
   <tr> 
    <th>エリア／オブジェクト</th> 
    <th>Workfront 管理者 </th> 
-   <th>プランライセンスと一部の管理権限を持つユーザー</th> 
+   <th>標準またはプランのライセンスと一部の管理者権限を持つユーザー</th> 
   </tr> 
  </thead> 
  <tbody> 
