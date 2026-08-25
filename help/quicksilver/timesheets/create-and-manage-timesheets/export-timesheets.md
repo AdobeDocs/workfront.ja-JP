@@ -9,22 +9,15 @@ exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-bihpKoVoPCwTpAj-SK-RPPFpaCubsyLAfnfSmpTnyI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 96%
+source-wordcount: 482
+ht-degree: 69%
 
 ---
 
@@ -101,10 +94,9 @@ Old permissions:
 
 **タイムシート**&#x200B;領域が開きます。
 
+![タイムシートエリア](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
-
-1. （オプション）**検索**&#x200B;アイコン ![](assets/search-icon.png) をクリックし、キーワードを入力して、特定のタイムシートを検索します。 例えば、タイムシートの時間枠または所有者名を検索できます。
+1. （オプション）「**検索**」アイコン「![検索アイコン ](assets/search-icon.png)」をクリックし、キーワードを入力して、特定のタイムシートを検索します。 例えば、タイムシートの時間枠または所有者名を検索できます。
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
@@ -114,23 +106,17 @@ Old permissions:
 
      「**マイタイムシート**」を選択して、自分のタイムシートのみを表示する。
 
-     これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートリストに適用されます。
+     これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートのリストに適用されます。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![ タイムシート リスト ページのタイムシート フィルターのボタン ](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新については、[Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * フィルターアイコン ![ フィルターアイコン ](assets/filter-nwepng.png)をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
-   >Workfront 管理者またはグループ管理者が、設定領域の「リスト制御」またはレイアウトテンプレートから「マイタイムシート承認」フィルターと「マイタイムシート」フィルターを削除した場合、「マイタイムシート承認」オプションと「マイタイムシート」オプションは、タイムシートリストの上部またはフィルターリストには表示されません。 詳しくは、次の記事を参照してください。
-   >
-   >   
-   >   
-   >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Workfrontの管理者またはグループ管理者が設定エリアのリストコントロールまたはレイアウトテンプレートからこれらのフィルターを削除した場合、タイムシートリストの上部またはフィルターのリストに「マイタイムシートの承認」オプションと「マイタイムシート」オプションが表示されません。 詳しくは、[レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
 
-1. （オプション）**表示**&#x200B;アイコン ![](assets/view-icon.png) または&#x200B;**グループ化**&#x200B;アイコン ![](assets/grouping.png) をクリックして、別のビューやグループ化を適用するか、新しいビューやグループ化を作成します。
+1. （オプション）別のビューまたはグループ化を適用したり、新しいビューを作成したりするには、**ビュー** ![ ビューのアイコン ](assets/view-icon.png)または&#x200B;**グループ化** ![ グループ化のアイコン ](assets/grouping.png)をクリックします。
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 
@@ -138,9 +124,9 @@ Old permissions:
    * [Adobe Workfront でビューを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Adobe Workfront でのグループ化の作成](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 書き出すタイムシートを選択して、**書き出し**&#x200B;アイコン ![](assets/export-38x15.png) をクリックします。
+1. 書き出すタイムシートを選択し、**書き出し** ![書き出しアイコン ](assets/export-38x15.png) アイコンをクリックします。
 
-   ![](assets/all-timesheets-list-with-export-button-nwe-350x262.png)
+   ![書き出しアイコン ](assets/export-timesheets.png)をクリックします
 
 1. タイムシートの一覧を書き出すファイルの種類を次のオプションから選択します。
 

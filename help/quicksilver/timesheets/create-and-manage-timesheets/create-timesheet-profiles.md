@@ -9,18 +9,12 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yxgLrUYYpVo-DhroRvE3zUP4zLYdDDg-1Ni3yXj06Ms
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
 source-wordcount: 1593
 ht-degree: 69%
@@ -69,14 +63,6 @@ ht-degree: 69%
 +++
 
 ## タイムシートプロファイルを作成または編集
-
-<!--
-Old info: 
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
-<p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
-</div>
--->
 
 >[!IMPORTANT]
 >
@@ -131,9 +117,9 @@ Old info:
 
      ドロップダウンメニューを使用して、タイムシートの承認者を選択します（承認者が必要な場合）。 以下のオプションから選択できます。
 
-      * **なし**: タイムシートを承認する必要はありません。
-      * **マネージャー**：これは、システムによって設定されるデフォルトの承認者です。 マネージャーとして指定されたユーザーが、承認を受けるために送信されたタイムシートを承認します。
-      * **特定のユーザー**：特定のユーザーを、タイムシート承認者として名前で指定できます。 1 つのタイムシートに複数の承認者を設定できます。 この場合、承認者のうちの 1 人がタイムシートを承認すると、タイムシートは&#x200B;**クローズ**&#x200B;とマークされ、残りのすべての承認者のタイムシート承認リストに表示されなくなります。
+     * **なし**: タイムシートを承認する必要はありません。
+     * **マネージャー**：これは、システムによって設定されるデフォルトの承認者です。 マネージャーとして指定されたユーザーが、承認を受けるために送信されたタイムシートを承認します。
+     * **特定のユーザー**：特定のユーザーを、タイムシート承認者として名前で指定できます。 1 つのタイムシートに複数の承認者を設定できます。 この場合、承認者のうちの 1 人がタイムシートを承認すると、タイムシートは&#x200B;**クローズ**&#x200B;とマークされ、残りのすべての承認者のタイムシート承認リストに表示されなくなります。
 
    * **時間を編集可能**：このオプションを選択すると、承認者がタイムシートの時間を編集できるようになります。
 
@@ -143,14 +129,14 @@ Old info:
 
      「**タイムシートの編集を所有者と管理者に制限**」オプションが有効な場合は、以下のようになります。
 
-      * 承認者は、「編集可能時間」が有効になっているかどうかに関係なく、タイムシートの承認と却下のみを行うことができます。
-      * タイムシート所有者のマネージャーは、自分のダイレクトレポートのタイムシートのみを表示できます。
+     * 承認者は、「編集可能時間」が有効になっているかどうかに関係なく、タイムシートの承認と却下のみを行うことができます。
+     * タイムシート所有者のマネージャーは、自分のダイレクトレポートのタイムシートのみを表示できます。
 
      「**タイムシートの編集を所有者と管理者に制限**」オプションが無効である場合は、以下のようになります。
 
-      * **時間を編集できます**&#x200B;が有効になっている場合、承認者はタイムシートを送信、再オープン、または閉じることができ、時間を編集できます。
-      * **時間を編集できます**&#x200B;が無効になっている場合、承認者はタイムシートを送信、再オープン、または閉じることができず、時間を編集できません。 承認者が行えるのは、タイムシートの承認または却下のみです。
-      * タイムシート所有者のマネージャーは、ダイレクトレポートのタイムシートの提出、取り消し、リオープン、編集を行うことができます。
+     * **時間を編集できます**&#x200B;が有効になっている場合、承認者はタイムシートを送信、再オープン、または閉じることができ、時間を編集できます。
+     * **時間を編集できます**&#x200B;が無効になっている場合、承認者はタイムシートを送信、再オープン、または閉じることができず、時間を編集できません。 承認者が行えるのは、タイムシートの承認または却下のみです。
+     * タイムシート所有者のマネージャーは、ダイレクトレポートのタイムシートの提出、取り消し、リオープン、編集を行うことができます。
 
      >[!NOTE]
      >
@@ -179,11 +165,11 @@ Old info:
 
 1. 「**保存**」をクリックします。
 
-1. タイムシートのプロファイルリストの上部で、**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**タイムシートを生成**&#x200B;をクリックします。
+1. タイムシートのプロファイルリストの上部で、**詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**タイムシートを生成**&#x200B;をクリックします。
 
    タイムシートが正常に生成されたことを確認するメッセージが画面の下部に表示されます。 新しいタイムシートは、作成した新しいプロファイルに基づいて生成されます。
 
-   詳しくは、[&#x200B; タイムシートを手動で生成する](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)を参照してください。
+   詳しくは、[ タイムシートを手動で生成する](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)を参照してください。
 
    タイムシート プロファイルが初めてタイムシートを生成する際には、現在の時間を含むタイムフレームと次のタイムフレームの両方に対して、ユーザーごとに2つのタイムシートが作成されます。
 

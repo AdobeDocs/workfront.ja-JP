@@ -7,23 +7,15 @@ author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 751
-ht-degree: 93%
+source-wordcount: 767
+ht-degree: 83%
 
 ---
 
@@ -68,13 +60,13 @@ ht-degree: 93%
 
 ## タイムシートを編集する
 
-1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**タイムシート**」をクリックします。
+{{step1-to-timesheets}}
 
-   「**すべて**」のフィルターはデフォルトで選択されており、表示できるアクセス権のあるすべてのタイムシートが表示されます。
+「**すべて**」のフィルターはデフォルトで選択されており、表示できるアクセス権のあるすべてのタイムシートが表示されます。
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+1つのタイムシートが選択された![ タイムシート リスト ](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. （オプション）**検索**&#x200B;アイコン ![](assets/search-icon.png) をクリックし、キーワードを入力して、特定のタイムシートを検索します。 例えば、タイムシートの期間または所有者名を検索できます。
+1. （オプション）「**検索**」アイコン「![検索アイコン ](assets/search-icon.png)」をクリックし、キーワードを入力して、特定のタイムシートを検索します。 例えば、タイムシートの期間または所有者名を検索できます。
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
@@ -86,9 +78,9 @@ ht-degree: 93%
 
      これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートリストに適用されます。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![ タイムシート リスト ページのタイムシート フィルターのボタン ](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新については、[Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * フィルターアイコン ![ フィルターアイコン ](assets/filter-nwepng.png)をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新については、[Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
@@ -96,11 +88,11 @@ ht-degree: 93%
    >
    >   
    >   
-   >   * [レイアウトテンプレートを使用したフィルター、ビュー、およびグループ化をカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. （オプション）**表示**&#x200B;アイコン ![](assets/view-icon.png) または&#x200B;**グループ化**&#x200B;アイコン ![](assets/grouping.png) をクリックして、別のビューやグループを適用するか、新しいビューやグループを作成します。
+1. （オプション）別のビューまたはグループ化を適用したり、新しいビューを作成したりするには、**ビュー** ![ ビューのアイコン ](assets/view-icon.png)または&#x200B;**グループ化** ![ グループ化のアイコン ](assets/grouping.png)をクリックします。
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 
@@ -108,7 +100,7 @@ ht-degree: 93%
    * [Adobe Workfront でビューを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Adobe Workfront でのグループ化の作成](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 1 つまたは複数のタイムシートを選択し、タイムシートリストの一番上にある&#x200B;**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+1. 1つまたは複数のタイムシートを選択し、タイムシート リストの上部にある&#x200B;**編集** アイコン ![編集アイコン ](assets/edit-icon.png)をクリックします。
 1. 次の情報を表示または指定します。
 
    <table style="table-layout:auto"> 
@@ -129,8 +121,8 @@ ht-degree: 93%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>ステータス</strong> </td> 
-      <td> これはタイムシートのステータスです。
-      使用可能なタイムシートのステータス オプションは次のとおりです。 
+      <td> これがタイムシートのステータスです。
+      タイムシートのステータスについて、次のオプションがあります。 
       <ul><li><b>オープン</b>：タイムシートを開いて、時間エントリを編集できます。</li>
       <li><b>送信済み</b>：指定された承認者にタイムシートが承認用に送信されます。</li>
       <li><b>却下</b>：タイムシートは承認者によって承認されず、ユーザーが時間エントリを編集できるようになりました。</li>

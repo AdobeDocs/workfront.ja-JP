@@ -7,23 +7,15 @@ author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 845
-ht-degree: 82%
+source-wordcount: 828
+ht-degree: 69%
 
 ---
 
@@ -72,7 +64,7 @@ ht-degree: 82%
 
 ### 承認用のタイムシートを送信
 
-タイムシート承認者が設定された後（記事[&#x200B; タイムシートの承認](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)の「[&#x200B; タイムシート承認者を指定](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)」の節で説明されているように）、タイムシートの下部にある&#x200B;**閉じる** ボタンが、**承認用に送信** ボタンに変更されます。
+タイムシート承認者が設定された後（記事[ タイムシートの承認](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)の「[ タイムシート承認者を指定](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)」の節で説明されているように）、タイムシートの下部にある&#x200B;**閉じる** ボタンが、**承認用に送信** ボタンに変更されます。
 
 承認用のタイムシートを送信するには、次の手順に従います。
 
@@ -80,7 +72,7 @@ ht-degree: 82%
 1. [時間を記録](../../timesheets/create-and-manage-timesheets/log-time.md)で説明されている時間を記録します。
 1. 「**承認用に送信**」をクリックして、タイムシート承認プロセスを開始します。
 
-   ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![承認用に送信ボタン ](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
    **承認用に送信** ボタンは、**承認**、**却下**、**呼び出し** ボタンに置き換えられます。 タイムシートのステータスが&#x200B;**送信済み**&#x200B;に変わります。
 
@@ -95,16 +87,17 @@ ht-degree: 82%
 
 タイムシートを送信した後、タイムシートのステータスを表示できます。
 
-Workfront 管理者がユーザーへのタイムシート承認イベントハンドラーとユーザーへのタイムシート拒否イベントハンドラーを有効にしている場合、タイムシートが承認または拒否された後に通知が届きます。 イベント通知の有効化について詳しくは、[&#x200B; イベント通知タイプ &#x200B;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
+Workfront 管理者がユーザーへのタイムシート承認イベントハンドラーとユーザーへのタイムシート拒否イベントハンドラーを有効にしている場合、タイムシートが承認または拒否された後に通知が届きます。 イベント通知の有効化について詳しくは、[ イベント通知タイプ ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
 
 これらの通知がない場合、Workfront のタイムシートエリアで、送信したタイムシートのステータスを確認できます。
 
 タイムシートのステータスを表示するには、次の手順に従います。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
-1. 「**タイムシート**」をクリックします。 デフォルトでは、**すべて**&#x200B;のフィルターが選択されています。
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+デフォルトでは、**すべて**&#x200B;のフィルターが選択されています。
+
+1つのタイムシートが選択された![ タイムシート リスト ](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
@@ -116,19 +109,13 @@ Workfront 管理者がユーザーへのタイムシート承認イベントハ�
 
      これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートのリストに適用されます。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![ タイムシート リスト ページのタイムシート フィルターのボタン ](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * フィルターアイコン ![ フィルターアイコン ](assets/filter-nwepng.png)をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
-   >Workfront 管理者またはグループ管理者が、設定エリアのリスト制御またはレイアウトテンプレートから、「マイタイムシート承認」と「マイタイムシート」のフィルターを削除した場合、「マイタイムシート承認」と「マイタイムシート」のオプションは、タイムシート一覧の先頭にもフィルター一覧にも表示されません。 詳しくは、次の記事を参照してください。
-   >
-   >   
-   >   
-   >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Workfrontの管理者またはグループ管理者が設定エリアのリストコントロールまたはレイアウトテンプレートからこれらのフィルターを削除した場合、タイムシートリストの上部またはフィルターのリストに「マイタイムシートの承認」オプションと「マイタイムシート」オプションが表示されません。 詳しくは、[レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
 
 1. （条件付き）自分のタイムシート **を選択した場合は、**&#x200B;標準&#x200B;**ビューが適用されていることを確認し、** ステータス **列に注意してください。**
 
@@ -167,10 +154,9 @@ Workfront 管理者がユーザーへのタイムシート承認イベントハ�
 
 タイムシートをリコールするには、以下のように行います。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-to-timesheets}}
 
-1. **タイムシート**&#x200B;をクリックします。
-1. 画面の右上隅にある「**マイタイムシート**」をクリックするか、または&#x200B;**フィルター**![](assets/filter-nwepng.png)ドロップダウンメニューから「**マイタイムシート**」を選択します。
+1. 画面の右上隅にある&#x200B;**マイタイムシート**&#x200B;をクリックするか、**フィルター** ![ フィルターアイコン ](assets/filter-nwepng.png) ドロップダウンメニューから&#x200B;**マイタイムシート**&#x200B;を選択します。
 1. ステータスが&#x200B;**送信済み**&#x200B;のタイムシートの時間枠をクリックします。
 1. 「**リコール**」をクリックします。
 
