@@ -7,11 +7,16 @@ author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
 TQID: https://experienceleague.adobe.com/Lx-CI6hjj-YXrxIus0Kicsa7Gx84xjiuKDUJWPpUVqc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
 source-wordcount: 831
@@ -79,7 +84,7 @@ ht-degree: 89%
 1. タイムシートの右上隅にある「**コメントの表示**」をクリックします。
 時間エントリとコメントが記録された項目の下にコメントが表示されます。
 
-   ![ タスクのリニューアルされたタイムシート ](assets/comments-expanded-under-tasks-redesigned-timesheet.png)の下に展開されたコメント
+   ![&#x200B; タスクのリニューアルされたタイムシート &#x200B;](assets/comments-expanded-under-tasks-redesigned-timesheet.png)の下に展開されたコメント
 
 
 ## タイムシートにコメントする {#make-comments-on-a-timesheet}
@@ -137,11 +142,11 @@ ht-degree: 89%
 
    * 新しいコメントを入力し、「**完了**」をクリックします。
    * 既存のコメントを編集して「**完了**」をクリックするか、「**キャンセル**」をクリックして変更を破棄します。
-   * **削除** アイコン ![削除アイコン ](assets/delete.png)をクリックして、保存したコメントを削除します。
+   * **削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックして、保存したコメントを削除します。
 
      時間エントリボックスの右上隅に、時間エントリで記録されたコメントがあることを示す青いマーカーが表示されます。
 
-   時間ログの![ コメント ボタンがタイムシートを再設計しました](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   時間ログの![&#x200B; コメント ボタンがタイムシートを再設計しました](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
