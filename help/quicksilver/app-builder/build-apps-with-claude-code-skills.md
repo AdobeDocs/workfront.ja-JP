@@ -44,7 +44,7 @@ Workfront UI拡張機能について詳しくは、[WorkfrontとAdobe App Builde
     /plugin install app-builder@adobe-skills
     ```
 
-* 開発者の役割&#x200B;**を持つ**[!DNL Adobe App Builder] アクセス。 Adobeの組織にはApp Builder ライセンスが必要です。そのライセンスには開発者として追加する必要があります。 これは、[!DNL Claude]がAdobe Developer Consoleを開いてプロジェクトを作成できるようにするものです。
+* 開発者の役割&#x200B;**を持つ**&#x200B;[!DNL Adobe App Builder] アクセス。 Adobeの組織にはApp Builder ライセンスが必要です。そのライセンスには開発者として追加する必要があります。 これは、[!DNL Claude]がAdobe Developer Consoleを開いてプロジェクトを作成できるようにするものです。
 
   この前提条件が満たされているかどうかを確認するには：
 
