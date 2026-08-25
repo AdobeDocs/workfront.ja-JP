@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
 source-wordcount: 742
 ht-degree: 79%
@@ -109,7 +109,7 @@ Adobe Workfront 管理者またはグループ管理者は、システム内の�
    * [Adobe Workfront でビューを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Adobe Workfront でのグループ化の作成](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 削除する1つまたは複数のタイムシートを選択し、タイムシートのリストの上部にある&#x200B;**削除** ![削除アイコン &#x200B;](assets/delete.png) アイコンをクリックします。
+1. 削除する1つまたは複数のタイムシートを選択し、タイムシートのリストの上部にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします。
 
 1. 「**削除**」をクリックします。
 
