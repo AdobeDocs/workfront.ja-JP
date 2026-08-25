@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 73%
+source-wordcount: 405
+ht-degree: 71%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 73%
 
 「設定」の「タイムシートと時間」領域から、システムレベルまたはグループレベルのタイムシートを手動で生成できます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. システム全体で使用中のタイムシートを生成する場合は、「**タイムシートと時間**」をクリックします。
 
@@ -79,7 +79,7 @@ ht-degree: 73%
    特定のグループが使用するタイムシートを生成する場合は、「**グループ**」をクリックし、グループの名前をクリックします。
 
 1. 「**定期タイムシート**」をクリックします。
-1. 詳細アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**タイムシートを生成**&#x200B;します。
+1. **詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックしてから、**タイムシートを生成**&#x200B;します。
 
 1. タイムシート プロファイルリストの上部で、システムレベルのタイムシート プロファイルの&#x200B;**More** アイコン ![More アイコン &#x200B;](assets/more-icon.png)、またはグループ タイムシート プロファイルの&#x200B;**More**&#x200B;をクリックし、**Generate timesheets**&#x200B;をクリックします。
 
@@ -89,9 +89,8 @@ ht-degree: 73%
 
 設定の診断エリアから、システムレベルのタイムシートを手動で生成できます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **システム**&#x200B;を展開し、「**診断**」をクリックします。
-
 1. 「**診断を実行**」をクリックします。
 1. 「**タイムシートの生成**」をクリックします。

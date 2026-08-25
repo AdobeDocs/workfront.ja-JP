@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 845
-ht-degree: 82%
+source-wordcount: 828
+ht-degree: 69%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 82%
 1. [時間を記録](../../timesheets/create-and-manage-timesheets/log-time.md)で説明されている時間を記録します。
 1. 「**承認用に送信**」をクリックして、タイムシート承認プロセスを開始します。
 
-   ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![承認用に送信ボタン &#x200B;](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
    **承認用に送信** ボタンは、**承認**、**却下**、**呼び出し** ボタンに置き換えられます。 タイムシートのステータスが&#x200B;**送信済み**&#x200B;に変わります。
 
@@ -101,10 +101,11 @@ Workfront 管理者がユーザーへのタイムシート承認イベントハ�
 
 タイムシートのステータスを表示するには、次の手順に従います。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
-1. 「**タイムシート**」をクリックします。 デフォルトでは、**すべて**&#x200B;のフィルターが選択されています。
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+デフォルトでは、**すべて**&#x200B;のフィルターが選択されています。
+
+1つのタイムシートが選択された![&#x200B; タイムシート リスト &#x200B;](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
@@ -116,19 +117,13 @@ Workfront 管理者がユーザーへのタイムシート承認イベントハ�
 
      これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートのリストに適用されます。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![&#x200B; タイムシート リスト ページのタイムシート フィルターのボタン &#x200B;](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * フィルターアイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
-   >Workfront 管理者またはグループ管理者が、設定エリアのリスト制御またはレイアウトテンプレートから、「マイタイムシート承認」と「マイタイムシート」のフィルターを削除した場合、「マイタイムシート承認」と「マイタイムシート」のオプションは、タイムシート一覧の先頭にもフィルター一覧にも表示されません。 詳しくは、次の記事を参照してください。
-   >
-   >   
-   >   
-   >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Workfrontの管理者またはグループ管理者が設定エリアのリストコントロールまたはレイアウトテンプレートからこれらのフィルターを削除した場合、タイムシートリストの上部またはフィルターのリストに「マイタイムシートの承認」オプションと「マイタイムシート」オプションが表示されません。 詳しくは、[レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
 
 1. （条件付き）自分のタイムシート **を選択した場合は、**&#x200B;標準&#x200B;**ビューが適用されていることを確認し、** ステータス **列に注意してください。**
 
@@ -167,10 +162,9 @@ Workfront 管理者がユーザーへのタイムシート承認イベントハ�
 
 タイムシートをリコールするには、以下のように行います。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-to-timesheets}}
 
-1. **タイムシート**&#x200B;をクリックします。
-1. 画面の右上隅にある「**マイタイムシート**」をクリックするか、または&#x200B;**フィルター**![](assets/filter-nwepng.png)ドロップダウンメニューから「**マイタイムシート**」を選択します。
+1. 画面の右上隅にある&#x200B;**マイタイムシート**&#x200B;をクリックするか、**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) ドロップダウンメニューから&#x200B;**マイタイムシート**&#x200B;を選択します。
 1. ステータスが&#x200B;**送信済み**&#x200B;のタイムシートの時間枠をクリックします。
 1. 「**リコール**」をクリックします。
 

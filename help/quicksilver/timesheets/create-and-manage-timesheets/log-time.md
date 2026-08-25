@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 4246
-ht-degree: 74%
+source-wordcount: 4292
+ht-degree: 71%
 
 ---
 
@@ -122,12 +122,12 @@ Workfront の次の領域で時間を記録できます。
 
 タイムシートに時間を記録するには：
 
-{{step1-click-main-menu}}
+{{step1-to-timesheets}}
 
-1. 「[!UICONTROL **タイムシート**]」をクリックします。 現在のタイムシートがデフォルトで表示されます。
-   ![タイムシート](assets/timesheet-layout-leftnav-updated.png)
+現在のタイムシートがデフォルトで表示されます。
+![タイムシート](assets/timesheet-layout-leftnav-updated.png)
 
-1. （オプション）**全画面表示**&#x200B;アイコン ![](assets/full-screen.png) をクリックして、タイムシートを全画面モードで表示し、続いて **全画面を終了** ![](assets/exit-full-screen.png)アイコンをクリックしてタイムシートに戻ります。
+1. （オプション） **フルスクリーン** アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/full-screen.png)をクリックしてタイムシートをフルスクリーンモードで表示し、**フルスクリーンを終了** ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen.png) アイコンをクリックしてタイムシートに戻ります。
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -164,7 +164,7 @@ Workfront の次の領域で時間を記録できます。
 
    <!--(ensure this stays accurate)-->
 
-1. （オプション）プロジェクト名の横にある&#x200B;**折りたたむ**&#x200B;アイコン ![](assets/collapse-icon.png) または&#x200B;**展開**&#x200B;アイコン ![](assets/expand-icon.png) をクリックして、プロジェクトのタスクとイシューのリストを表示または非表示にできます。
+1. （オプション）プロジェクト名の横にある&#x200B;**折りたたみ** ![折りたたみアイコン &#x200B;](assets/collapse-icon.png)または&#x200B;**展開** ![展開アイコン &#x200B;](assets/expand-icon.png)をクリックして、プロジェクトのタスクと問題のリストを表示または非表示にします。
 
 
    >[!TIP]
@@ -178,7 +178,7 @@ Workfront の次の領域で時間を記録できます。
    >     * Mac コンピューターの場合は、Shift + Option + 下矢印。
 
 
-1. （オプション）タイムシートに自動的に表示される項目を手動でピン留めするには、項目の名前にポインタを合わせ、**ピン留め**&#x200B;アイコン ![](assets/empty-pin-icon.png) をクリックします。
+1. （オプション）タイムシートに表示される項目を手動で自動的に固定するには、項目の名前にカーソルを合わせ、**ピン** アイコン ![&#x200B; ピン アイコン &#x200B;](assets/empty-pin-icon.png)をクリックします。
 
    >[!TIP]
    >
@@ -186,7 +186,7 @@ Workfront の次の領域で時間を記録できます。
    >   * Windows コンピューターと Mac コンピューターの両方で Option + P キー。
 
 
-1. （オプション）検索アイコン ![](assets/search-icon.png) をクリックして、キーワードを入力し、タイムシートのプロジェクト、タスク、やイシューを検索します。
+1. （オプション）検索アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックし、キーワードの入力を開始して、タイムシートでプロジェクト、タスク、または問題を見つけます。
 
 1. （条件付き）Workfront 管理者またはグループ管理者が&#x200B;**担当業務を時間エントリに手動で割り当て**&#x200B;設定時に、ドロップダウンメニューから担当業務を選択します。 作業アイテムに割り当てられたときに指定された役割がデフォルトで表示されます。 オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。 この設定に関して詳しくは、[タイムシートと時間の環境設定を指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
@@ -214,7 +214,7 @@ Workfront の次の領域で時間を記録できます。
    >
    >過去に記録された時間に関連付けられた非アクティブ化された時間タイプを保持したい場合は、追加時間を記録する作業アイテムの新しい行を追加し、新しい時間タイプを選択することを検討します。
 
-1. 担当業務の横にある&#x200B;**削除**&#x200B;アイコン ![](assets/delete.png) をクリックして、削除します。 役割に対してログに記録された時間も、常に削除されます。
+1. 担当業務の横にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックして削除します。 役割に対してログに記録された時間も、常に削除されます。
 
    >[!TIP]
    >
@@ -249,7 +249,7 @@ Workfront の次の領域で時間を記録できます。
 
 1. （オプション）「**コメント**」をクリックして、時間エントリにコメントを追加します。
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   時間ログの![&#x200B; コメント ボタンがタイムシートを再設計しました](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -352,7 +352,7 @@ Workfront の次の領域で時間を記録できます。
 1. **ホーム**&#x200B;領域に移動します。
 1. **自分の作業**&#x200B;ウィジェットを自分のホームに追加します。
 1. （オプション）リストでタスク、イシュー、またはリクエストを選択し、**作業**&#x200B;をクリックします。
-1. 時間を記録するタスクまたはイシューにポインタを合わせ、タスク情報の右にある&#x200B;**時間を記録**&#x200B;アイコン ![](assets/log-time-icon-in-new-home.png) をクリックします。
+1. 時間を記録するタスクまたは問題にカーソルを合わせ、タスク情報の右側にある&#x200B;**時間を記録** アイコン ![時間を記録アイコン &#x200B;](assets/log-time-icon-in-new-home.png)をクリックします。
 
    「**ログ時間**」ボックスが表示されます。
 
@@ -487,7 +487,7 @@ Workfront の次の領域で時間を記録できます。
 概要パネルでは、タスクとイシューに関する時間を記録できます。
 詳しくは、[概要について](../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
-![](assets/summary-hour-log.png)
+![概要パネル](assets/summary-hour-log.png)
 
 ### ボード {#boards}
 
@@ -531,7 +531,7 @@ Workfront モバイルアプリで時間を記録できます。
   * 時間エントリの説明。
 
 
-  ![](assets/edit-hour-box-project-hour-type.png)
+  ![&#x200B; プロジェクト時間編集ボックス &#x200B;](assets/edit-hour-box-project-hour-type.png)
 
 * 一般時間を編集する場合：
 
@@ -545,7 +545,7 @@ Workfront モバイルアプリで時間を記録できます。
 
 <!--update the screen shot at production - we should not see the job role field for general hours-->
 
-![](assets/edit-hour-box-general-overhead-hour-type.png)
+![一般時間編集ボックス &#x200B;](assets/edit-hour-box-general-overhead-hour-type.png)
 
 
 * 一般的な時間とプロジェクト固有の時間の組み合わせを一括で編集する場合：
@@ -561,13 +561,13 @@ Workfront モバイルアプリで時間を記録できます。
 
 <!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
 
-![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+![混合時間編集ボックス &#x200B;](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
 
 時間レポートまたはリストで時間タイプを編集するには：
 
 1. 時間リストまたはレポートに移動します。
 1. 1つまたは複数の時間エントリの左側にあるボックスをクリックして、選択します。
-1. リストの上部にある&#x200B;**編集アイコン** ![](assets/edit-icon.png)をクリックします。
+1. リストの上部にある&#x200B;**編集アイコン** ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 
    **時間を編集**&#x200B;または&#x200B;**時間を編集** ボックスが開きます。
 1. 次のいずれかのフィールドを更新します。

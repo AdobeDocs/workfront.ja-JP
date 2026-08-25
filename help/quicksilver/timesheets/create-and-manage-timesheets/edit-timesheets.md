@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 751
-ht-degree: 93%
+source-wordcount: 767
+ht-degree: 83%
 
 ---
 
@@ -68,13 +68,13 @@ ht-degree: 93%
 
 ## タイムシートを編集する
 
-1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**タイムシート**」をクリックします。
+{{step1-to-timesheets}}
 
-   「**すべて**」のフィルターはデフォルトで選択されており、表示できるアクセス権のあるすべてのタイムシートが表示されます。
+「**すべて**」のフィルターはデフォルトで選択されており、表示できるアクセス権のあるすべてのタイムシートが表示されます。
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+1つのタイムシートが選択された![&#x200B; タイムシート リスト &#x200B;](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. （オプション）**検索**&#x200B;アイコン ![](assets/search-icon.png) をクリックし、キーワードを入力して、特定のタイムシートを検索します。 例えば、タイムシートの期間または所有者名を検索できます。
+1. （オプション）「**検索**」アイコン「![検索アイコン &#x200B;](assets/search-icon.png)」をクリックし、キーワードを入力して、特定のタイムシートを検索します。 例えば、タイムシートの期間または所有者名を検索できます。
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
@@ -86,9 +86,9 @@ ht-degree: 93%
 
      これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートリストに適用されます。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![&#x200B; タイムシート リスト ページのタイムシート フィルターのボタン &#x200B;](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新については、[Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * フィルターアイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新については、[Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
@@ -96,11 +96,11 @@ ht-degree: 93%
    >
    >   
    >   
-   >   * [レイアウトテンプレートを使用したフィルター、ビュー、およびグループ化をカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. （オプション）**表示**&#x200B;アイコン ![](assets/view-icon.png) または&#x200B;**グループ化**&#x200B;アイコン ![](assets/grouping.png) をクリックして、別のビューやグループを適用するか、新しいビューやグループを作成します。
+1. （オプション）別のビューまたはグループ化を適用したり、新しいビューを作成したりするには、**ビュー** ![&#x200B; ビューのアイコン &#x200B;](assets/view-icon.png)または&#x200B;**グループ化** ![&#x200B; グループ化のアイコン &#x200B;](assets/grouping.png)をクリックします。
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 
@@ -108,7 +108,7 @@ ht-degree: 93%
    * [Adobe Workfront でビューを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Adobe Workfront でのグループ化の作成](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 1 つまたは複数のタイムシートを選択し、タイムシートリストの一番上にある&#x200B;**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+1. 1つまたは複数のタイムシートを選択し、タイムシート リストの上部にある&#x200B;**編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
 1. 次の情報を表示または指定します。
 
    <table style="table-layout:auto"> 
@@ -129,8 +129,8 @@ ht-degree: 93%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>ステータス</strong> </td> 
-      <td> これはタイムシートのステータスです。
-      使用可能なタイムシートのステータス オプションは次のとおりです。 
+      <td> これがタイムシートのステータスです。
+      タイムシートのステータスについて、次のオプションがあります。 
       <ul><li><b>オープン</b>：タイムシートを開いて、時間エントリを編集できます。</li>
       <li><b>送信済み</b>：指定された承認者にタイムシートが承認用に送信されます。</li>
       <li><b>却下</b>：タイムシートは承認者によって承認されず、ユーザーが時間エントリを編集できるようになりました。</li>

@@ -2,7 +2,7 @@
 product-area: timesheets;setup
 navigation-topic: configure-timesheet-preferences
 title: 時間単位または日単位で時間を記録するよう設定
-description: プランライセンスを持つユーザーは、Adobe Workfront で時間を時間数と日数のどちらで記録するかを設定できます。 システム管理者は、個々のユーザーに対して、または組織内の複数のユーザーに対して、この設定を指定できます。 デフォルトでは、ユーザーは時間単位で記録します。
+description: プランライセンスを持つユーザーは、Adobe Workfront で時間を時間数と日数のどちらで記録するかを設定できます。 システム管理者は、個人ユーザーに対して、または組織内の複数のユーザーに対して、この設定を指定できます。 デフォルトでは、ユーザーは時間単位で記録します。
 author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
@@ -19,16 +19,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: 434
 ht-degree: 79%
 
 ---
 
 # 時間単位または日単位で時間を記録するよう設定
 
-標準ライセンスまたはプラン ライセンスを持つユーザーは、Adobe Workfrontで時間を数時間または数日で記録するかどうかを設定できます。 システム管理者は、個々のユーザーに対して、または組織内の複数のユーザーに対して、この設定を指定できます。 デフォルトでは、ユーザーは時間単位で記録します。 Workfrontで時間を記録する方法について詳しくは、[時間を記録](../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。
+標準ライセンスまたはプラン ライセンスを持つユーザーは、Adobe Workfrontで時間を数時間または数日で記録するかどうかを設定できます。 システム管理者は、個人ユーザーに対して、または組織内の複数のユーザーに対して、この設定を指定できます。 デフォルトでは、ユーザーは時間単位で記録します。 Workfrontで時間を記録する方法について詳しくは、[時間を記録](../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。
 
 >[!NOTE]
 >
@@ -62,6 +62,8 @@ ht-degree: 79%
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+## 時間ログの設定
 
 1. 目的と、システムでのアクセスレベルに応じて、次のいずれかの操作を行います。
 
