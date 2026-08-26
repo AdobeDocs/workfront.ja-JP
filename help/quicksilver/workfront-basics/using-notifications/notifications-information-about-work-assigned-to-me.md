@@ -7,16 +7,13 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
 TQID: https://experienceleague.adobe.com/OcJcSh-I9--ZGuigzsTnIOh5r9U55JRlLcj7gymp7wA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 1135856bf97f6607ad57cf539bdff688b49bf476
 workflow-type: tm+mt
-source-wordcount: 2016
-ht-degree: 100%
+source-wordcount: 2012
+ht-degree: 99%
 
 ---
 
@@ -68,18 +65,18 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><strong>自分のチームに割り当てられたタスクの先行タスクがすべて完了した</strong> </p> <p>割り当てられたチームは、いずれかのタスクの先行タスクが完了とマークされると、メール通知を受け取ります。</p> <p>レビューまたは依頼者のライセンスを持つユーザーには、通知は送られません。</p> <p>インスタント通知メールの件名：<em>タスク完了：&lt;Name&gt;</em></p> <p> 日刊ダイジェスト通知の件名：<em>割り当てられた作業のダイジェスト &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>自分のチームに割り当てられたタスクの先行タスクがすべて完了した</strong> </p> <p>割り当てられたチームは、いずれかのタスクの先行タスクが完了とマークされると、メール通知を受け取ります。</p> <p>外部ライセンスを持つユーザーには通知が届きません。</p> <p>インスタント通知メールの件名：<em>タスク完了：&lt;Name&gt;</em></p> <p> 日刊ダイジェスト通知の件名：<em>割り当てられた作業のダイジェスト &lt;Date of daily digest&gt; </em></p> </td> 
    <td> タスク名<br>タスクプロジェクト<br>タスクの参照番号<br>先行タスクを完了したユーザーの名前<br>先行タスクのステータス<br>先行タスクが完了した日時<br>先行タスクの前のステータス<br><strong>「詳細を見る」</strong>ボタン<br>*プロジェクト名<br>*プロジェクトの参照番号<br>*完了したタスクの合計数<br>*タスク名<br>*タスクを完了したユーザーの名前<br>*日刊ダイジェストの日付 </td>
    <td><strong>今すぐ</strong> </td> 
   </tr>
   <!--
   <tr data-mc-conditions=""> 
-   <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>Assigned by</p> <p>Task Name</p> <p>View button</p> <p>Parent tasks</p> <p>Assignees</p> <p>Task status</p> <p>Task description</p> <p>Task Reference Number</p> <p> <br>Completed predecessor tasks </p> <p>Name of the user who completed the predecessor task<br>Date when the predecessor was completed</p> <p>View button<br>Option to add to the daily digest<br></p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr>
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The team assigned receives an email notification for each predecessor that is marked complete. </p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+    <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The team assigned receives an email notification for each predecessor that is marked complete. </p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
     <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
     <td><strong>Instant</strong> </td> 
    </tr>
@@ -91,7 +88,7 @@ ht-degree: 100%
   </tr>
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><strong>All predecessors of my tasks are completed</strong> </p> <p>The task assignee receives an email notification for each predecessor that is completed.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+    <td> <p><strong>All predecessors of my tasks are completed</strong> </p> <p>The task assignee receives an email notification for each predecessor that is completed.</p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
     <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
     <td><strong>Instant</strong> </td> 
    </tr>
@@ -112,7 +109,7 @@ ht-degree: 100%
    <td><strong>日次</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分に割り当てられているタスクの完了予定日が変更になった</strong> </p> <p>タスクの [!UICONTROL Planned Completion Date] が変更されると、タスクの担当者はメール通知を受け取ります。ただし、予定完了日を変更したユーザーがタスクの担当者でもある場合を除きます。</p> <p>プロジェクト状態が [!UICONTROL Planning] 以外の場合にのみ通知が送信されます。</p> <p>個人のタスクに関する通知は送信されません。</p> <p> レビューまたは依頼者のライセンスを持つユーザーには、通知は送られません。 </p> <p> インスタント通知メールの件名：<em>[!UICONTROL Due Date has been changed.]</em></p> <p> 日刊ダイジェスト通知の件名：<em>[!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt;</em></p> </td> 
+   <td> <p><strong>自分に割り当てられているタスクの完了予定日が変更になった</strong> </p> <p>タスクの [!UICONTROL Planned Completion Date] が変更されると、タスクの担当者はメール通知を受け取ります。ただし、予定完了日を変更したユーザーがタスクの担当者でもある場合を除きます。</p> <p>プロジェクト状態が [!UICONTROL Planning] 以外の場合にのみ通知が送信されます。</p> <p>個人のタスクに関する通知は送信されません。</p> <p> 外部ライセンスを持つユーザーには通知が届きません。 </p> <p> インスタント通知メールの件名：<em>[!UICONTROL Due Date has been changed.]</em></p> <p> 日刊ダイジェスト通知の件名：<em>[!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt;</em></p> </td> 
    <td> タスク名<br>プロジェクト名<br>タスク参照番号<br>新しい期日（[!UICONTROL Planned Completion Date]）<br>期日が変更された日時<br>期日を変更したユーザーの名前<br>*プロジェクト名<br>*プロジェクト参照番号<br>*期日（予定完了日）が変更されたタスクの合計数<br>*タスク名<br>*新しい予定完了日<br>*期日を変更したユーザーの名前<br>*日刊ダイジェストの日付 </td> 
    <td> <p><strong>即時</strong> </p> <p><strong>および日次</strong> </p> </td> 
   </tr> 

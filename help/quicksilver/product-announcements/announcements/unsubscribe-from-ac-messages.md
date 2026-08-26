@@ -7,18 +7,14 @@ author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
 TQID: https://experienceleague.adobe.com/2bKYtYhiGw8dEAx07-yHofb-jxx-dLlP6IjuHsukRQA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3a1bfdf05bd64586fb4274995075031065a0b5da
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 90%
+source-wordcount: 240
+ht-degree: 72%
 
 ---
 
@@ -34,16 +30,19 @@ ht-degree: 90%
 
 お知らせセンターのメッセージの配信登録を解除するには、次の操作を実行します。
 
-1. Workfrontの右上隅にある番号付きアイコン ![通知アイコン &#x200B;](assets/notifications-icon-jewel.jpg)をクリックして、通知のリストを開きます。
-1. リストの下部にある「**すべてのお知らせ**」をクリックします。
+1. Workfrontの右上隅にある番号付きアイコンをクリックして通知リストを開き、リストの下部にある&#x200B;**すべての通知**&#x200B;をクリックします。
 
-   **お知らせ**&#x200B;ページが表示され、すべてのお知らせが一覧表示されます。
+   ![通知アイコン ](assets/notifications-icon-jewel.png)
 
-   ![お知らせページ](assets/announcements-page-qs-350x210.png)
 
-1. お知らせページの右上隅にある「**設定**」をクリックし、今後は受信しないお知らせの種類に応じて「**新しいリリース**」または「**トレーニング**」を選択します。
+1. お知らせページの右上隅にある「**設定**」をクリックします。
 
-   ![お知らせセンターの設定](assets/announcementcenter-settings-350x187.png)
+   ![お知らせページ](assets/ac-page.png)
+
+
+1. **通知センター設定** ダイアログで、購読を解除する通知センターのメッセージの種類のチェックボックスの選択を解除します。
+
+   ![お知らせセンターの設定](assets/ac-settings.png)
 
 1. 「**設定を保存**」クリックします。
 
