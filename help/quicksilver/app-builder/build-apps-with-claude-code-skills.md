@@ -30,7 +30,7 @@ UI拡張性スキルを使用すると、AI コーディングハーネスを使
 
 * **Claude Skills**&#x200B;をサポートする[!DNL Claude Code]などのAI コーディング ハーネス。
 
-  Claude Skillsについて詳しくは、[ スキルとは何ですか？](https://support.claude.com/en/articles/12512176-what-are-skills)を参照してください 詳しくは、Claudeのドキュメントを参照してください。
+  Claude Skillsについて詳しくは、[&#x200B; スキルとは何ですか？](https://support.claude.com/en/articles/12512176-what-are-skills)を参照してください 詳しくは、Claudeのドキュメントを参照してください。
 
 * **スキルへのアクセス**。
 
@@ -47,7 +47,7 @@ UI拡張性スキルを使用すると、AI コーディングハーネスを使
     /plugin install app-builder@adobe-skills
     ```
 
-* 開発者の役割&#x200B;**を持つ**[!DNL Adobe App Builder] アクセス。 Adobeの組織にはApp Builder ライセンスが必要です。そのライセンスには開発者として追加する必要があります。 これは、[!DNL Claude]がAdobe Developer Consoleを開いてプロジェクトを作成できるようにするものです。
+* 開発者の役割&#x200B;**を持つ**&#x200B;[!DNL Adobe App Builder] アクセス。 Adobeの組織にはApp Builder ライセンスが必要です。そのライセンスには開発者として追加する必要があります。 これは、[!DNL Claude]がAdobe Developer Consoleを開いてプロジェクトを作成できるようにするものです。
 
   この前提条件が満たされているかどうかを確認するには：
 
