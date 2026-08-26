@@ -6,9 +6,9 @@ description: 変更履歴を使用すると、Workfront オブジェクトとフ
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 100b900bd7419d78a3135358026ec5e27755fdeb
+source-git-commit: 1e06115eb5688271e2a6f4c8a41647eb644d8292
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '523'
 ht-degree: 6%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 6%
 
 {{preview-fast-release-general}}
 
-変更履歴を使用すると、Adobe Workfrontのオブジェクトと特定のフィールドに対する変更を設定および追跡できます。 柔軟な設定により、追跡するオブジェクトとフィールドを正確に設定できます。
+変更履歴を使用すると、システム管理者は、Adobe Workfrontのオブジェクトと特定のフィールドに対する変更を設定および追跡できます。 柔軟な設定により、管理者は、どのオブジェクトとフィールドを追跡するかを正確に設定できます。
 
-変更履歴では、定義した次の種類のデータを追跡できます。
+変更履歴では、次の種類の定義されたデータを追跡できます。
 
 * アクセスレベルや担当業務の作成や削除など、設定領域でのアクティビティ
 * プロジェクトの説明の編集やユーザーのレイアウトテンプレートの変更など、フィールドレベルの更新
@@ -35,6 +35,11 @@ ht-degree: 6%
 * 変更のタイプ（操作）
 * 変更の日時
 * Sourceのアーキテクチャを活用します。例えば、特定のユーザー、API、Workfront Fusion、AI LLM、Workfrontシステムなどです
+
+>[!NOTE]
+>
+>変更履歴にアクセスすると、表示する権限を持つフィールドに対してのみ変更履歴が表示されます。
+>例えば、財務データがプロジェクトで追跡され、財務データにアクセスできない場合、変更履歴リストに財務フィールドは表示されません。
 
 ## アクセス要件
 
@@ -62,25 +67,6 @@ ht-degree: 6%
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
-
-<!--
-## View the Configuration area for change tracking
-
->[!NOTE]
->
->In the Production environment, Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
-
-To view the types of changes that are tracked: 
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Change Tracking > Configuration**.
-   
-   Fields are displayed grouped by object type.
-
-1. To display fields under a specific object, click the dropdown arrow next to the object type.
--->
-
 
 ## 変更履歴リストの表示
 
@@ -113,7 +99,7 @@ To view the types of changes that are tracked:
 1. **書き出し** アイコン ![書き出しアイコン &#x200B;](assets/export-icon.png)をクリックし、XLSX形式とCSV形式のどちらに保存するかを選択します。
 
    ファイルを保存ボックスが開き、書き出したファイルをコンピューターに保存できます。
-   書き出したファイルの保存を完了します。パソコンで見つけて、他の人と共有できます。
+   書き出したファイルの保存を完了します。 パソコンで見つけて、他の人と共有できます。
 
 
 

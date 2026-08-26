@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 77%
+source-wordcount: 722
+ht-degree: 72%
 
 ---
 
@@ -58,52 +58,52 @@ Adobe Workfront Planning の一般情報と用語について詳しくは、[Ado
 
 * [アクセス情報と権限情報：記事インデックス](/help/quicksilver/planning/access/access-information.md)には、次の情報が含まれます。
 
-   * Workfront のライセンスと Planning の権限
-   * Planning の共有権限
-   * ビューの共有
-   * ワークスペース（レコードとフィールド）の共有
-   * レコードタイプ（レコードとフィールド）の共有
-   * レコードの共有
+  * Workfront のライセンスと Planning の権限
+  * Planning の共有権限
+  * ビューの共有
+  * ワークスペース（レコードとフィールド）の共有
+  * レコードタイプ（レコードとフィールド）の共有
+  * レコードの共有
 
 * [アーキテクチャ：記事インデックス](/help/quicksilver/planning/architecture/architecture-information.md)には、次の情報が含まれます。
 
-   * ワークスペースの作成、編集、削除
-   * レコードタイプの作成、編集、削除
-   * グローバルレコードタイプの作成
-   * レコードタイプの接続とレコードタイプの接続例
-   * Workspace テンプレート
+  * ワークスペースの作成、編集、削除
+  * レコードタイプの作成、編集、削除
+  * グローバルレコードタイプの作成
+  * レコードタイプの接続とレコードタイプの接続例
+  * Workspace テンプレート
 
 * [フィールド：記事インデックス](/help/quicksilver/planning/fields/fields-information.md)には、次の情報が含まれます。
 
-   * フィールドの作成、編集、削除
-   * 数式フィールド
-   * プライマリフィールド
+  * フィールドの作成、編集、削除
+  * 数式フィールド
+  * プライマリフィールド
 
 * [レコード：記事インデックス](/help/quicksilver/planning/records/records-information.md)には、次の情報が含まれます。
 
-   * レコードの作成、編集、削除
-   * レコードの接続
-   * レコードへのカバー画像またはサムネールの追加
-   * レコードページのレイアウトの管理
-   * コメントの記録と履歴セクション
-   * レコードの共有
-   * Workfront からの Workfront Planning レコードの管理
+  * レコードの作成、編集、削除
+  * レコードの接続
+  * レコードへのカバー画像またはサムネールの追加
+  * レコードページのレイアウトの管理
+  * コメントの記録と履歴セクション
+  * レコードの共有
+  * Workfront からの Workfront Planning レコードの管理
 
 * [Adobe Workfront Planning リクエスト：記事インデックス](/help/quicksilver/planning/requests/requests-article-index.md)には、次の情報が含まれます。
 
-   * レコードタイプのリクエストフォームの作成方法。
-   * ユーザーがレコードタイプのリクエストフォームにリクエストを送信し、レコードを作成する方法。
+  * レコードタイプのリクエストフォームの作成方法。
+  * ユーザーがレコードタイプのリクエストフォームにリクエストを送信し、レコードを作成する方法。
 
 * [ビュー：記事インデックス](/help/quicksilver/planning/views/views-information.md)には、次の情報が含まれます。
 
-   * レコードビューの作成
-   * テーブル、タイムライン、カレンダーのビューの管理
+  * レコードビューの作成
+  * テーブル、タイムライン、カレンダーのビューの管理
 
 * [通知：記事インデックス](/help/quicksilver/planning/notifications/notifications-information.md)には、次の情報が含まれます。
 
-   * 通知設定の管理
-   * Planning のアプリ内通知
-   * Planning のメール通知
+  * 通知設定の管理
+  * Planning のアプリ内通知
+  * Planning のメール通知
 
 ## Workfront Planningで利用できる追加機能
 
@@ -112,6 +112,8 @@ Adobe Workfront Planning の一般情報と用語について詳しくは、[Ado
 * [Workfront Fusion の Adobe Workfront Planning モジュール](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：Adobe Workfront Planning モジュールを使用すると、Workfront Planning でイベントが発生した場合にシナリオをトリガーできます。 また、レコードの作成、読み取り、更新、削除、および Adobe Workfront Planning のアカウントへのカスタム API 呼び出しも実行できます。
 
 * [Adobe Workfront Planning の AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：Workfront Planning の AI アシスタントを使用すると、コマンドを実行して、アシスタントに代行してもらうことによって、レコードの検索、作成、更新、削除などの作業を行うことができます。
+
+* [&#x200B; プランニング オブジェクトにWorkfront MCP サーバーを使用](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md): Adobe Workfront MCP サーバーでは、AI エージェント型プラットフォームに自然言語で質問することで、Workfront アイテムを検索、作成、更新、管理できます。 プラットフォームは、呼び出すWorkfront アクションを決定し、Workfrontとの会話を処理します。
 
 * [Adobe Workfront Planning の自動化の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)：Adobe Workfront Planning で自動化を設定できます。アクティブ化すると、Planning レコードからトリガーされたときに Workfront にオブジェクトが作成されるか、Workfront Planning にレコードが作成されます。
 

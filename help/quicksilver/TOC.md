@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
+source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
 workflow-type: tm+mt
-source-wordcount: '14435'
-ht-degree: 93%
+source-wordcount: '14452'
+ht-degree: 92%
 
 ---
 
@@ -1843,7 +1843,7 @@ ht-degree: 93%
     * [Workfront Data Connect クエリの例](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Workfront Data Connect の使用状況指標の表示](reports-and-dashboards/data-lake/view-usage-metrics.md)
     * [Data Connect の職歴データビューの使用](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
-    * [Data Connect におけるデータ更新の監視ビューの使用](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
+    * [Data Connect におけるデータ更新のモニタリングビューの使用](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
     * 拡張分析クエリ{#enhanced-analytics-queries}
       * [拡張分析クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
       * [KPI クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
@@ -2210,6 +2210,7 @@ ht-degree: 93%
     * [CSV または Excel ファイルから情報を読み込んで、レコードタイプを作成](planning/architecture/import-file-to-create-record-types.md)
     * [クロスワークスペースのレコードタイプの概要](planning/architecture/cross-workspace-record-types-overview.md)
     * [レコードタイプのクロスワークスペース機能の設定](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * {hide-from-toc}[&#x200B; レコードタイプのビジネスルールの設定](planning/architecture/configure-business-rules.md)
     * [レコードタイプの設定エリアの設定](planning/architecture/configure-record-type-settings.md)
     * [別のワークスペースから既存のレコードタイプを追加](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [レコードタイプの接続の概要](planning/architecture/connect-record-types-overview.md)
@@ -2239,6 +2240,7 @@ ht-degree: 93%
     * [レコードタイプの共有](planning/access/share-record-types.md)
     * [ビューの共有](planning/access/share-views.md)
     * [レコードの共有](planning/access/share-records.md)
+    * {hide-from-toc}[Workfront計画フィールドの共有](planning/access/share-fields.md)
     * [レコードのデフォルト権限の設定](planning/access/set-default-record-permissions.md)
     * [ビューまたはワークスペースに対する権限のリクエスト](planning/access/request-permissions.md)
   * Adobe Workfront Planning レコード {#adobe-workfront-planning-records}
@@ -2723,6 +2725,7 @@ ht-degree: 93%
   * [App Builder：記事インデックス](/help/quicksilver/app-builder/app-builder-toc.md)
   * [Adobe Exchange からのアプリの取得とインストール](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Adobe App Builder を使用した Workfront のカスタムアプリケーションの作成](/help/quicksilver/app-builder/app-builder.md)
+  * {hide-from-toc}[Claude Code スキルを使用してApp Builder アプリを構築](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
 * {hide-from-toc}[非表示のテスト ドキュメント &#x200B;](hidden-test.md)
 * {hide-from-toc}[非表示2](hidden-test-2.md)
 
