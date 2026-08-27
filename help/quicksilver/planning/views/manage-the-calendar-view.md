@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 1917
-ht-degree: 25%
+source-wordcount: 2002
+ht-degree: 24%
 
 ---
 
@@ -193,6 +193,10 @@ Old:
        * 複数日にまたがるレコードは、カレンダーの上部に表示されます。
        * 1日以下の期間のレコードは、カレンダービューの下半分に表示されます。 開始日と終了日の時間を表示するように選択した場合、レコードは発生した日内の適切な時間に表示されます。
 
+         <span class="preview"> カレンダーには、週次ビューの両方の領域について、前、現在、および今後数週間に最大1,000件のレコードが表示されます。</span>
+
+1. <span class="preview"> （オプションおよび条件付き） 1,000件を超えるレコードがあり、その一部が週ごとにカレンダーを表示する際にデフォルトで表示されない場合は、カレンダーの下部にある&#x200B;**さらに**&#x200B;を読み込む</span>をクリックします。
+
 1. （オプション）「**フルスクリーン**」アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)をクリックしてフルスクリーンで表示を開き、**フルスクリーンを終了** アイコン ![&#x200B; フルスクリーンアイコンを終了](assets/exit-full-screen-icon.png)またはキーボードのEscapeをクリックしてフルスクリーンを終了します。
 
 1. カレンダービューでレコードを作成したり、その日付を編集したりするには、次のいずれかの操作を行います。
@@ -327,7 +331,7 @@ Old:
 
       ![&#x200B; ビューの多階層フィルター](assets/multi-tiered-filters-in-views.png)
 
-   レコードのリストは自動的にフィルタリングされます。<!--at this time, you can't name and save the filter - but will this change?!-->
+   レコードのリストは自動的にフィルタリングされます。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （オプション）「**x**」アイコンをクリックして、フィルター条件を削除します。
@@ -448,7 +452,7 @@ Old:
 
    * **レコードタイプ**：カレンダーのレコードバーの色は、選択したレコードタイプの色と一致します。 これはデフォルトのオプションです。
    * **フィールド値**：レコードの色を、指定したフィールドの色と一致させます。
-   * **なし**：レコードは白いバーで表示されます。 <span class="preview"> 「なし」オプションがプレビュー環境から削除されました。</span>
+   * **なし**：レコードは白いバーで表示されます。 <span class="preview"> プレビュー環境から&#x200B;**None** オプションが削除されました。</span>
 
 
 

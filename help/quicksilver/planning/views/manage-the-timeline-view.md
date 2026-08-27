@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 4418
-ht-degree: 34%
+source-wordcount: 4518
+ht-degree: 33%
 
 ---
 
@@ -465,12 +465,16 @@ Old:
    * **積み重ね**: グループ化は、固定された左列なしで表示され、アイテムのタイムラインの幅に合わせて表示されます。
 
      ![&#x200B; タイムラインビューでの積み重ねグループ化](assets/stacked-grouping-in-timeline-view.png)
-   * **スイムレーン**: グループ化された左側のヘッダー列には、グループ化されたアイテムが一覧表示され、グループ化はタイムラインビューの幅に合わせて表示されます。
+   * **スイムレーン**: グループ化された左側のパネルに、グループ化されたアイテムとグループ化がタイムラインビューの幅に合わせて表示されます。
 
      タイムラインビューでの![&#x200B; スイムレーンのグループ化](assets/swimlane-grouping-in-timeline-view.png)
-   <!--
-    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
-    -->
+
+   グループ化はすぐに適用されます。
+
+1. <span class="preview"> （オプション）ツールバーの&#x200B;**グループ化** アイコン ![&#x200B; グループ化アイコン &#x200B;](assets/grouping-icon.png)をクリックして、**レコードを**&#x200B;でグループ化ボックスを開き、**すべての**&#x200B;を展開してすべてのグループ化を展開するか、**すべてを折りたたむ**&#x200B;をクリックしてすべてのグループ化を折りたたみ、必要なグループのみを手動で折りたたみます。</span>
+1. <span class="preview"> （オプションおよび条件付き）スイムレーン表示で、左パネルの区切り記号をドラッグ&amp;ドロップして、幅を調整します。 各ユーザーのパネル幅は、セッション間で保存され、初回ユーザーのデフォルト幅は</span>です。
+1. <span class="preview"> （オプション）長いグループ化名の場合、グループ化の行にカーソルを合わせると、グループ化のフルネームがツールチップに表示されます。</span>
+
 1. （オプション）「**以下でレコードをグループ化**」ボックスで、グループ化用に選択したフィールドの右側にある **x** アイコンをクリックすると、グループ化を削除できます。
 
    または
