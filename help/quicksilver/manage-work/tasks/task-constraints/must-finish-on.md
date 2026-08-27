@@ -8,10 +8,15 @@ author: Alina
 feature: Work Management
 exl-id: 9e546a0f-7f7a-4f1c-9d9d-aa3cea377fdf
 TQID: https://experienceleague.adobe.com/qo-JdIbfFijhpa7-kI22hYe7gZ6DvJb8e2ycBiKTU7I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
 source-wordcount: 477
@@ -38,7 +43,7 @@ ht-degree: 81%
 
 * 「終了時に完了」制約は、サブタスクを含むタスクには影響しません。 サブタスクを持つタスクには、適用される制約に関係なく、常に独自の予定開始、予定完了、および期間が最も早いサブタスクの開始日と最新のサブタスクの完了日からロールアップされます。 「終了日」制約を、代わりに固定日付を必要とするサブタスクに直接関連付ける必要があります。 親は自動的にロールアップし続けます。
 
-詳細については、[ タスク期間と期間タイプ ](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md)も参照してください。
+詳細については、[&#x200B; タスク期間と期間タイプ &#x200B;](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md)も参照してください。
 
 * MFO 制約を使用しているタスクを別のプロジェクトに移動またはコピーすると、制約の日付およびプロジェクトの開始日や完了日によって、タスクの制約またはプロジェクトの日付が変更される可能性があります。 次のシナリオが存在します。
 
