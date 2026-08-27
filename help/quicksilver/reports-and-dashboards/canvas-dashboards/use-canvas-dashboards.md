@@ -10,9 +10,12 @@ exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ece6404b8c1413667fdfea76c883ee2077dee8c7
 workflow-type: tm+mt
 source-wordcount: 674
@@ -24,7 +27,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。
 >
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 >
@@ -44,7 +47,7 @@ Canvas ダッシュボードにアクセスするには、Adobe Workfrontの「�
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 1. 既存のダッシュボードの名前をクリックして開きます。
-   ![ ダッシュボードを開く](assets/open-dashboard.png)
+   ![&#x200B; ダッシュボードを開く](assets/open-dashboard.png)
 
 ## カンバスダッシュボードのリストの並べ替え
 
@@ -62,7 +65,7 @@ Canvas ダッシュボードにアクセスするには、Adobe Workfrontの「�
 
    デフォルトでは、リストはAからZまでの&#x200B;**名前**&#x200B;列で並べ替えられます。
 
-   ![ カンバスダッシュボードリストの並べ替え](assets/sort-canvas-dashboards-list.png)
+   ![&#x200B; カンバスダッシュボードリストの並べ替え](assets/sort-canvas-dashboards-list.png)
 
 >[!NOTE]
 >
@@ -88,7 +91,7 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 1. 既存のダッシュボードの名前をクリックして開きます。
-   ![ ダッシュボードを開く](assets/open-dashboard.png)
+   ![&#x200B; ダッシュボードを開く](assets/open-dashboard.png)
 1. カスタマイズする表レポートを探します。
 1. レポートをカスタマイズするには、次のいずれかのオプションを選択します。
 
@@ -113,11 +116,11 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 1. 既存のダッシュボードの名前をクリックして開きます。
-   ![ ダッシュボードを開く](assets/open-dashboard.png)
+   ![&#x200B; ダッシュボードを開く](assets/open-dashboard.png)
 1. 確認するピボットテーブルのレポートを探します。
 1. ピボットテーブルの値をクリックして、ドリルダウンテーブルを開きます。
 
-   ドリルダウン表には、レポート作成者がドリルダウン列設定で設定した列が表示されます。 詳しくは、「[ キャンバスダッシュボードでピボットテーブルレポートを作成する](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)」を参照してください。
+   ドリルダウン表には、レポート作成者がドリルダウン列設定で設定した列が表示されます。 詳しくは、「[&#x200B; キャンバスダッシュボードでピボットテーブルレポートを作成する](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)」を参照してください。
 
 </div>
 
