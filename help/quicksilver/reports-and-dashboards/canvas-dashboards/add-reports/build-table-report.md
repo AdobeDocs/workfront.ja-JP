@@ -9,18 +9,12 @@ exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Xcq8aeqqH-JPYtfmbcf1gld93O6N93O9j0wqohss7oQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
 source-wordcount: 1343
 ht-degree: 14%
@@ -31,7 +25,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -80,7 +74,7 @@ ht-degree: 14%
 
 ## 前提条件
 
-表レポートを作成する前に、ダッシュボードを作成する必要があります。 詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+表レポートを作成する前に、ダッシュボードを作成する必要があります。 詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 
 ## キャンバスダッシュボードでのテーブルレポートの作成
@@ -113,7 +107,7 @@ ht-degree: 14%
 
 1. 次の手順に従って、**ビルドテーブル** セクションを設定します。
 
-   1. 左側のパネルで、**テーブル列** ![&#x200B; テーブルを作成アイコン &#x200B;](assets/drilldown-column.png) アイコンをクリックします。
+   1. 左側のパネルで、**テーブル列** ![ テーブルを作成アイコン ](assets/drilldown-column.png) アイコンをクリックします。
 
    1. **列を追加**&#x200B;をクリックし、テーブルに列として表示するフィールドを選択します。 列は右側のプレビューセクションに表示されます。
 
@@ -123,7 +117,7 @@ ht-degree: 14%
 
 1. 次の手順に従って、**Filter** セクションを設定します。
 
-   1. 左側のパネルで、**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、**フィルター** ![ フィルターアイコン ](assets/filter-icon.png) アイコンをクリックします。
 
    1. **フィルターを編集**&#x200B;を選択します。
 
@@ -133,7 +127,7 @@ ht-degree: 14%
 
 1. 「**ドリルダウングループ設定**」セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、**グループ設定** ![&#x200B; グループ設定アイコン &#x200B;](assets/drilldown-group-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、**グループ設定** ![ グループ設定アイコン ](assets/drilldown-group-icon.png) アイコンをクリックします。
 
    1. 「**グループ化を追加**」ボタンをクリックし、グループ化として作成するフィールドを選択します。 グループ化列は、右側のプレビューセクションに表示されます。
 
@@ -143,7 +137,7 @@ ht-degree: 14%
 
 この節では、保留中のドキュメント承認を表示するテーブルレポートを作成する手順について説明します。
 
-テーブル レポートの例について詳しくは、[&#x200B; レビューと承認用のレポート ダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
+テーブル レポートの例について詳しくは、[ レビューと承認用のレポート ダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
 
 {{step1-to-dashboards}}
 
@@ -164,7 +158,7 @@ ht-degree: 14%
 
 1. 次の手順に従って、**ビルドテーブル** セクションを設定します。
 
-   1. 左側のパネルで、**テーブル列** ![&#x200B; テーブル列アイコン &#x200B;](assets/drilldown-column.png) アイコンをクリックします。
+   1. 左側のパネルで、**テーブル列** ![ テーブル列アイコン ](assets/drilldown-column.png) アイコンをクリックします。
    1. 「**列を追加**」をクリックします。
    1. 下にスクロールして、**ドキュメント承認**/**ステータス**&#x200B;を選択します。
    1. 次の列を追加します。
@@ -205,7 +199,7 @@ ht-degree: 14%
 
 
 1. 次の手順に従って、**Filter** セクションを設定します。
-   1. 左側のパネルで、**フィルター** ![&#x200B; フィルタータブアイコン &#x200B;](assets/filter-tab.png) アイコンをクリックします。
+   1. 左側のパネルで、**フィルター** ![ フィルタータブアイコン ](assets/filter-tab.png) アイコンをクリックします。
    1. 「**フィルターを編集**」をクリックしてから、**条件を追加**&#x200B;をクリックします。
    1. 空の条件フィルターをクリックし、**フィールドを選択**&#x200B;をクリックします。
    1. **ステータス**&#x200B;を選択します。
@@ -234,7 +228,7 @@ ht-degree: 14%
 * **Workfront オブジェクト**：ネイティブ Workfront オブジェクト。
 * **プランニングレコードタイプ**: Workfront Planningで定義されたカスタムレコードタイプ。
 
-![&#x200B; セクション ドロップダウン &#x200B;](assets/sections-dropdown.png)
+![ セクション ドロップダウン ](assets/sections-dropdown.png)
 
 基本エンティティオブジェクトを選択すると、**セクション** ドロップダウンが更新され、選択できるフィールドタイプオプションが表示されます。
 
@@ -244,7 +238,7 @@ ht-degree: 14%
 * **Workfront フィールド**：ネイティブフィールドのみ。
 * **関係**：接続レコード。
 
-![&#x200B; レポート可能なオブジェクトの選択](assets/reportable-objects-selection.png)
+![ レポート可能なオブジェクトの選択](assets/reportable-objects-selection.png)
 
 ### 子オブジェクトの参照
 
@@ -255,3 +249,4 @@ ht-degree: 14%
 * ドキュメント承認ステージ/ドキュメント承認ステージ参加者
 
 上記の親子関係のいずれかを使用すると、親オブジェクトに接続されている各子レコードのテーブルに行が表示されます。
+
