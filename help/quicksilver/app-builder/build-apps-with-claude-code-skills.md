@@ -4,37 +4,40 @@ description: Claude Codeの一連のスキルを使用して、セットアッ�
 author: Becky
 feature: Digital Content and Documents
 hide: true
-source-git-commit: e5a288dcac20be9176d1541d531edaf0d8c99a8c
+source-git-commit: 366cc4ffea48295b00389b5ee36f2df42b2c8a07
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 4%
 
 ---
 
 
 # Claude Code スキルを使用したApp Builder アプリケーションの構築
 
-[!DNL Claude Code] スキルのセットを使用すると、[!DNL Claude]は[!DNL Workfront]用のカスタム [!DNL Adobe App Builder] アプリを構築できます。 つまり、開発者でなくても、自分で設定ステップを記述しなくても、目的のものを平易な英語で記述して構築できます。
+スキルパッケージを使用すると、[!DNL Claude] （または、[!DNL Claude Code]や[!DNL OpenAI Codex]など、クロード形式のスキルをサポートするあらゆるAI コーディングハーネス）は、[!DNL Workfront]用のカスタム [!DNL Adobe App Builder] アプリを構築できます。 これらのツールの1つにアクセスできる場合は、開発者の経験や手動セットアップ手順を必要とせずに、目的のものを平易な英語で記述してUI拡張機能を作成できます。
 
 Adobe App Builder を活用した Workfront UI 拡張機能を使用すると、顧客およびパートナーはカスタマイズされたユーザーエクスペリエンスを作成できます。 UI拡張機能を使用すると、組織のWorkfront エクスペリエンスを変更して、組織のニーズにより適切に対応できます。これにより、効率性を向上させ、シームレスで連続性のあるエクスペリエンスを提供し、ユーザー満足度を大幅に向上させ、組織が独自のビジョンを実現するのに役立ちます。
 
 Workfront UI拡張機能について詳しくは、[WorkfrontとAdobe App Builderのカスタムアプリケーションの作成](/help/quicksilver/app-builder/app-builder.md)を参照してください。
 
-## ClaudeのUI拡張性スキル
+## UIの拡張性スキル
 
-[!DNL Adobe App Builder]上に構築するのは非常に技術的な場合があり、ユーザーが手順やテクニックに精通していない場合に障壁が生じる可能性があります。 UI拡張性スキルは、[!DNL Claude]を使用してこのプロセスを簡素化します。 必要な機能について説明すると、[!DNL Claude]は、ツールの設定、[!DNL Adobe App Builder]でのプロジェクトの作成、アプリの構築、Adobe cloudへのデプロイ、Workfront内での実行など、実践的な作業を行います。 ユーザーは、自分のアクションが必要な決定またはログインがある場合にのみ、プロセスに関与します。
+UI拡張性スキルを使用すると、AI コーディングハーネスを使用して、WorkfrontでのUI拡張機能の作成を管理できます。 必要な機能を記述し、ツールの設定、[!DNL Adobe App Builder]でのプロジェクトの作成、アプリの構築、Adobe cloudへのデプロイ、Workfront内での実行など、実践的な作業を行います。 ユーザーは、自分のアクションが必要な決定またはログインがある場合にのみ、プロセスに関与します。 この記事では[!DNL Claude]を例として使用していますが、この手順は、Claude SkillsをサポートするAI コーディング ハーネスに適用されます。
 
 ## 前提条件
 
 まず、次の項目を確認してください。
 
-* **[!DNL Claude Code]**&#x200B;がインストールされました。
+* **Claude Skills**&#x200B;をサポートする[!DNL Claude Code]などのAI コーディング ハーネス。
+
+  Claude Skillsについて詳しくは、[&#x200B; スキルとは何ですか？](https://support.claude.com/en/articles/12512176-what-are-skills)を参照してください 詳しくは、Claudeのドキュメントを参照してください。
+
 * **スキルへのアクセス**。
 
   * スキルは、[https://github.com/adobe/skills/blob/main/plugins/app-builder/skills/appbuilder-workfront/SKILL.md](https://github.com/adobe/skills/blob/main/plugins/app-builder/skills/appbuilder-workfront/SKILL.md)で見つけることができます。
 
     このリンクが開かない場合は、管理者にアクセス権の付与を依頼してください。
-  * スキルをダウンロードしたら、次のコマンドを実行して設定します。
+  * スキルは、Adobeのパブリックスキルマーケットプレイス（[adobe/skills](https://github.com/adobe/skills)）で公開されます。 [!DNL Claude Code]で、次を実行：
 
     ```
     /plugin marketplace add adobe/skills

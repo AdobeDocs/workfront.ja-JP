@@ -4,9 +4,9 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 26c7853f4ce663deda6ed98484acc69b02ec5bad
+source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1464'
 ht-degree: 14%
 
 ---
@@ -327,6 +327,15 @@ ht-degree: 14%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        </tr>
+           <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA メタデータがファイルに保存されます</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Adobe Workfrontは、アップロード、保存、ダウンロードしたドキュメントに対して、変更を加えることなくC2PA メタデータを保持します。</p>
+            </td>
+            <td><p>該当なし</p></td>
+            <td><p>該当なし</p></td>
+            <td><p>2026年8月26日（PT）</p></td>
         </tr>
         <tr>
             <td>

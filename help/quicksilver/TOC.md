@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
+source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
 workflow-type: tm+mt
-source-wordcount: '14452'
+source-wordcount: '14457'
 ht-degree: 92%
 
 ---
@@ -1249,6 +1249,7 @@ ht-degree: 92%
     * [Adobe Experience Manager レガシーコネクターでの Workfront のアンインストール](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
     * [Adobe Experience Manager 拡張コネクタ付き Workfront のアンインストール](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
     * [リンクされたフォルダとドキュメントの移行](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
+  * [Adobe WorkfrontのC2PA メタデータ](documents/c2pa-metadata-overview.md)
 * 作業の管理 {#manage-work}
   * [作業の管理](manage-work/manage-work.md)
   * プロジェクト {#projects}
