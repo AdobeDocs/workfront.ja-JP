@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 159b845c7b755117197d18f8474c01d4b19d53b8
+source-git-commit: 914f1f8a25aa5b9e1045d2f940ed15061301c21b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 14%
+source-wordcount: '298'
+ht-degree: 12%
 
 ---
 
@@ -69,13 +69,16 @@ ht-degree: 14%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
 ## ビジネスルールを設定する際の考慮事項
 
-* レコードを編集または削除できる場合のルールを設定できます。
+* 定義した条件に応じて、レコードを編集または削除できるタイミングのルールを設定できます。
+
+  例えば、特定のフィールドに値を指定するための条件を作成できます。 これらのフィールドに値がない場合、ユーザーはそのレコードを編集または削除できません。
+* プライマリワークスペースまたはセカンダリワークスペースのグローバルレコードタイプにビジネスルールを追加することはできません。
 * レコードの作成時にルールを設定することはできません。 レコードタイプに対する管理権限を持つすべてのユーザーがレコードを作成できます。
 * 次の以外のすべてのフィールドタイプを参照するビジネスルールの条件を作成できます。
   * 数式フィールド
