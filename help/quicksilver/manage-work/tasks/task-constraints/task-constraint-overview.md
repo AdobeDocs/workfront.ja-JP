@@ -8,23 +8,15 @@ author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
 TQID: https://experienceleague.adobe.com/R38RC6-vr-nRp4R7W4WDdJk2KkAuegb6yOfmNLdn7Dc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 99%
+source-wordcount: 704
+ht-degree: 98%
 
 ---
 
@@ -38,6 +30,8 @@ ht-degree: 99%
 
 プロジェクト計画を立てる際には、プロジェクト上のタスクの順序と時間枠を決定します。 タスクは、どのタスクシーケンスとも独立して機能できますが、プロジェクトタイムラインに影響を与える場合があります。 タスク制約を使用すると、プロジェクトマネージャーは、特定のタスクをプロジェクト上で開始または完了できるタイミングを計画できます。
 
+タスクの制約は、プロジェクトタスクとテンプレートタスクに対して同じように適用されます。
+
 使用する制約に応じて、タスクに対して予定開始日、予定完了日、またはその両方を指定する必要があります。
 
 定義された日付を必要とする制約タイプは、先行タスクの関係に影響を与えます。
@@ -46,7 +40,9 @@ ht-degree: 99%
 >
 >タスク間で先行タスクの関係を使用する場合は、特定の日付を必要としない制約タイプを使用することを検討します。
 
-次の表に、各制約とその省略形を示します。 省略形は、タスクリスト上や、キックスタート読み込みファイルの作成時に使用されます。 制約タイプについて詳しくは、各タスク制約のリンクされたタイトルをクリックしてください。
+次の表に、各制約とその省略形を示します。
+
+省略形は、タスクリスト上や、キックスタート読み込みファイルの作成時に使用されます。 制約タイプについて詳しくは、各タスク制約のリンクされたタイトルをクリックしてください。
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
