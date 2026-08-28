@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 14dd7192daab6bdb49ebb0964ef6e042fe7612f8
 workflow-type: tm+mt
-source-wordcount: '14457'
+source-wordcount: '14466'
 ht-degree: 92%
 
 ---
@@ -1624,6 +1624,7 @@ ht-degree: 92%
       * [キャンバスダッシュボードでの KPI レポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
       * [キャンバスダッシュボードでのグラフレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
       * [キャンバスダッシュボードでのテーブルレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+      * [Canvas ダッシュボードでのピボットテーブルレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)
     * キャンバスダッシュボードの管理 {#manage-canvas-dashboards}
       * [キャンバスダッシュボードの管理：記事インデックス](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
       * [キャンバスダッシュボードの共有](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)

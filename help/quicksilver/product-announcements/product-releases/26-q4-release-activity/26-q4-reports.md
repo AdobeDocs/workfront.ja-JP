@@ -4,10 +4,10 @@ description: 2026年第4四半期レポートの強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a86f0169f804520be2828983a737c8c8d151792d
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 5%
+source-wordcount: '487'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 5%
 このページでは、2026年第4四半期リリースで行われたレポートの機能強化について、プレビュー環境に対して説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
+
+## Canvas ダッシュボードのピボットテーブルレポート
+
+>[!NOTE]
+>
+>プレビュー：2026年8月27日（PT）
+>プロダクション高速リリース：2026年9月17日（PT）
+>すべての人のための制作：2026年10月15日
+
+Canvas ダッシュボードの新しいピボットテーブルレポートタイプでは、正確で完全なロールアップを使用してデータを集約します。 カウント、合計、平均などの指標をダッシュボードで直接作成し、その合計の背後にあるレコードをドリルダウンできます。
+
+詳しくは、「[&#x200B; キャンバスダッシュボードでピボットテーブルレポートを作成する](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)」を参照してください。
 
 ## スケジュールレポートの終了日の適用
 

@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: 674
 ht-degree: 8%
 
 ---
@@ -106,6 +106,24 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
    >
    >これらの変更は、現在のセッションにのみ適用され、元のレポート設定には影響しません。 これらの変更を永続的に行うには、レポートを編集する必要があります。
 
+<div class="preview">
+
+### プレビューでピボットテーブルデータにドリルダウンする
+
+ピボットテーブルレポートの値をクリックすると、ドリルダウンして、その集計値を構成する個々のレコードを表示できます。
+
+{{step1-to-dashboards}}
+
+1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
+1. 既存のダッシュボードの名前をクリックして開きます。
+   ![&#x200B; ダッシュボードを開く](assets/open-dashboard.png)
+1. 確認するピボットテーブルのレポートを探します。
+1. ピボットテーブルの値をクリックして、ドリルダウンテーブルを開きます。
+
+   ドリルダウン表には、レポート作成者がドリルダウン列設定で設定した列が表示されます。 詳しくは、「[&#x200B; キャンバスダッシュボードでピボットテーブルレポートを作成する](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)」を参照してください。
+
+</div>
+
 
 <!--
 
@@ -157,3 +175,4 @@ For more detailed instructions on creating, managing, and customizing Canvas Das
 列ヘッダーをクリックして、各グループ内のデータを並べ替えることができます。 グループ化フィールドとは異なるフィールドで並べ替えると、グループの順序は変更されません。
 
 ただし、レポートをグループ化したフィールドと同じフィールドで並べ替えると、グループの順序が変更される場合があります。 例えば、通常A～Zを実行するテキストベースのグループ化では、Z～Aに切り替えることができます。
+

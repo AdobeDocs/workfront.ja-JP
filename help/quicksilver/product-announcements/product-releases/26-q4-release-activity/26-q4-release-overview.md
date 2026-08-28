@@ -4,9 +4,9 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1501'
 ht-degree: 14%
 
 ---
@@ -264,6 +264,15 @@ ht-degree: 14%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Canvas ダッシュボードのピボットテーブルレポート </a>
+                <p>Canvas ダッシュボードの新しいピボットテーブルレポートタイプでは、データが正確かつ完全なロールアップで集計され、基礎となるレコードにドリルダウンされます。</p>
+            </td>
+            <td><p>2026年8月27日（PT）</p></td>
+            <td><p>2026年9月17日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
         </tr>
         <tr>
             <td>
