@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 914f1f8a25aa5b9e1045d2f940ed15061301c21b
+source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
 workflow-type: tm+mt
 source-wordcount: 376
 ht-degree: 56%
@@ -175,8 +175,9 @@ Setting up custom quarters differs depending on which environment you use.
 
 >[!NOTE]
 >
->If your organization purchased a Planning package in addition to a Workflow package, or if they purchased  Workfront Planning as a standalone package, you can configure custom quarters as well as custom weeks. 
-
+>If your organization purchased a Planning package in addition to a Workflow package, or if they purchased  Workfront Planning as a standalone package, you can configure custom weeks, in addition to custom quarters. 
+> 
+>Custom weeks are not available for Workfront reports and lists. 
 
 {{step-1-to-setup}}
 
@@ -184,20 +185,40 @@ Setting up custom quarters differs depending on which environment you use.
 
 1. Select **[!UICONTROL Enable Custom Quarters]**.
 
-1. Type a name for the custom quarter, such as "Fiscal Q1 2021."
+1. Type a name for the custom quarter. For example, "Fiscal Q1 2021."
 1. Select start and end dates for the custom quarter.
 
-1. (Optional) Select the **Starts a new custom week sequence** option
+1. (Optional) Select the **Starts a new custom week sequence** option. 
+
+    When selected, this option sets the start of the custom quarter as the start of the first custom week of the quarter in the Planning timeline view. 
+1. (Optional) In the **Custom week label format** area, choose the **Format** for the custom week labels. Choose from the following options:
+
+    * **W1, W2, W3 ...** . This is the default format.
+    * **FW1, FW2, FW3 ...**
+    * **Week1, Week 2, Week 3, ...**
+    * **Custom**
+
+1. (Conditional) If you selected **Custom** for the **Format** field, type a **Custom label** to identify the custom weeks.  
+
+    Custom weeks display in Planning timeline views. 
+
+    >[!TIP]
+    >
+    >When adding a custom label, you can type up to 100 characters. 
+    >
+    >You may indicate the name of the first week, and the following weeks will use the same label followed by a sequential number. 
+    >
+    >For example, a **Custom label** of "Fiscal week" will add the labels of "Fiscal week 1, Fiscal week 2, Fiscal week 3 ..." to the rest of the weeks in the sequence. 
 
 1. (Optional) Click **[!UICONTROL Add Custom Quarter]** to add additional custom quarters to the system.
 
       >[!IMPORTANT]
       >
       > If your company purchased [!DNL Workfront Planning], you cannot save your custom quarters if there are gaps or overlaps between the quarters. 
-      >![Custom quarters with overlap warning](assets/custom-quarters-with-overlap-warning.png)
+      >![Custom quarters with overlap warning](assets/custom-quarters-with-overlap-warning-red-outline.png)
       >Gaps and overlaps between the quarters are allowed for [!DNL Workfront] only customers. 
 
-1. (Optional and conditional) If your company purchased only [!DNL Workfront], without [!DNL Workfront Planning], create a reporting element that refers to the fiscal quarters.
+1. (Optional and conditional) To view the custom quarters in Workfront, create a reporting element that refers to the custom quarters.
 
    **Example:** Create a filter for a [!UICONTROL project] list and include the Planned Completion Date of a project referencing the custom quarters.
 
@@ -208,7 +229,8 @@ Setting up custom quarters differs depending on which environment you use.
    For information about reporting elements, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
    For information about creating filters, see [Create or edit filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
-1. (Optional and conditional) If your company purchased Workfront Planning and you have access to [!DNL Workfront Planning], go to a record type page and open a timeline view. The view displays the new custom quarters. 
+1. (Optional and conditional) To view custom quarters and weeks in Workfront Planning, go to a record type page and open a timeline view. The view displays the new custom quarters and weeks. 
+
 For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
 
 </div>

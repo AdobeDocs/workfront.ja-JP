@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
+source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
 workflow-type: tm+mt
 source-wordcount: 4518
 ht-degree: 33%
@@ -234,6 +234,18 @@ Old:
      >[!TIP]
      >
      >タイムラインビューには、従来の四半期に応じた会計週のみが表示されます。 Workfront管理者が「設定」エリアで「四半期のカスタマイズ」をオンにしている場合、週情報はタイムラインビューに表示されません。
+
+     <!--
+        When we release custom weeks, replace the tip above with this:
+        >[!TIP]
+        >
+        >Depending on which environment you are using to access the timeline view, the following scenarios exist:
+        >
+        >* In the Production environment, the timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
+        >
+        >* <span class="preview">In the Preview environment, the timeline view displays fiscal weeks according to classic quarters, by default. If your Workfront administrator turns on Custom Quarters and Custom weeks in the Setup area, the timeline view displays the custom quarters and weeks in the Quarter and Month displays. </span>
+        >
+        -->
 
 1. （オプション）「**コンパクトビューに切り替え**」をクリックして、日付が同じ行で交差しないレコードを表示します。<!--check to see if they updated the name of the setting here-->
 1. （条件付き）モードを&#x200B;**コンパクト**&#x200B;に変更した場合は、**標準**&#x200B;表示に切り替えをクリックして、レコードを別々の行に表示します。 **Standard** オプションがデフォルトです。 <!--check to see if they updated the name of the setting here-->
