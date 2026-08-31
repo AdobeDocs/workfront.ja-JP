@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
+source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 2%
+source-wordcount: '358'
+ht-degree: 12%
 
 ---
 
@@ -23,7 +23,12 @@ ht-degree: 2%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-そのタイプのレコードをAdobe Workfront Planningでどのように管理するかを定義するレコードタイプのビジネスルールを設定できます。
+Adobe Workfront Planningのレコードタイプのビジネスルールを設定して、そのレコードタイプのレコードの管理方法を定義できます。
+
+定義されたビジネスルールが満たされた場合、レコードに対して次のアクションを許可できます。
+
+* レコードの編集
+* レコードの削除
 
 ## アクセス要件
 
@@ -69,13 +74,13 @@ ht-degree: 2%
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
 ## ビジネスルールを設定する際の考慮事項
 
-* 定義した条件に応じて、レコードを編集または削除できるタイミングのルールを設定できます。
+* レコードを編集または削除できるタイミングを示すルールを設定できます。
 
   例えば、特定のフィールドに値を指定するための条件を作成できます。 これらのフィールドに値がない場合、ユーザーはそのレコードを編集または削除できません。
 * プライマリワークスペースまたはセカンダリワークスペースのグローバルレコードタイプにビジネスルールを追加することはできません。
@@ -88,139 +93,141 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 ## ビジネスルールの設定
 
 1. レコードタイプに移動します。
-1. レコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、「ビジネスルール」をクリックします。
+1. レコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**ビジネスルール**&#x200B;をクリックします。
+
+   ビジネスルールページが開きます。
+1. 「**新しいビジネスルール**」をクリックします。
+1. 「新規ビジネス・ルール」ボックスで、使用可能な最初のフィールドにビジネス・ルールの名前を追加します。 これは必須フィールドです
+1. （オプション）説明を追加して、ビジネスルールを定義します。
+
+<!--
+
+***********FROM CLAUDE - BELOW - MUST EDIT*******************
 
 
-**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** CLAUDEから – 以下 – 編集する必要があります&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***
+### What business rules actually do
 
-## Workfront計画でのビジネスルールの設定：ステップバイステップガイド
+Business rules attach a condition to a **status change**. Instead of enforcing complete data the moment someone creates a record (which would slow everyone down), the rule only kicks in at one specific, deliberate moment: when a status is about to change to a status you've configured.
 
-レコードを「Ready for Execution」に移動した際、必要なフィールドの半分（ブランド、表示、起動日）が入力されていなかったことがわかったときはどうすればよいですか？ 誰かが気づく頃には、すでにデータが欠落している下流プロジェクトがあり、誰かが詳細を追跡し、手でバックフィルしなければなりません。
+A rule looks like this in plain language:
 
-ビジネスルールがそれを解決します。 レコードを特定のステータスに移動する前に、特定のフィールドに入力する必要があります。**&#x200B;**&#x200B;そうでない場合、変更を行う人は欠けているものを正確に確認し、修正されるまで進むことができません。
+> "Before a record can move to **Ready for Execution**, the field **Brand** must have a value."
 
-このガイドでは、ビジネスルールとは何か、どのように設定するか、そして運用開始後にチームが体験するものについて説明します。
+If the field is empty, the status change is blocked and the person gets a clear message telling them what to fix. Once they fill it in and try again, the change goes through.
 
-### ビジネスルールの実際
+A few important things this is *not*:
 
-ビジネスルールは、**ステータス変更**&#x200B;に条件を添付します。 誰かがレコードを作成する瞬間に完全なデータを適用する代わりに（全員の作業が遅くなります）、このルールは、特定の意図的な瞬間、つまりステータスが設定されたステータスに変更しようとしているときに開始されます。
-
-ルールは平易な言葉では次のようになります。
-
-> 「レコードを&#x200B;**実行の準備完了**&#x200B;に移動する前に、フィールド **ブランド**&#x200B;に値が必要です。」
-
-フィールドが空の場合、ステータスの変更はブロックされ、修正すべきことを伝える明確なメッセージがユーザーに表示されます。 ユーザーが入力を完了してから再試行すると、変更は反映されます。
-
-いくつかの重要な点は&#x200B;*not*&#x200B;です：
-
-* **レコードの作成をブロックしません。** 人々は、今とまったく同じように、新しいレコードを即座に作成し、時間をかけて入力することができます。
-* **何も自動入力せず、ステータスも自動変更されません。** 人は常に自分で地位を変えなければならない。
-* **古いレコードに過去にさかのぼってフラグを付けることはありません。** 既にターゲットステータスにあるレコードは影響を受けません。このチェックは、ユーザーがそのステータスに&#x200B;*レコードを*&#x200B;に移動しようとしたときに実行されます。
-
-
-
-### 事前準備
-
-ルールを設定する前に、次の点を満たす必要があります。
-
-1. **組織の機能を有効にする必要があります。** これは、Adobe側（機能フラグを介して）で行われ、自分で有効にするものではありません。 以下に説明するビジネスルールの節が表示されない場合は、Adobeの担当者に問い合わせて、テナントで有効になっていることを確認してください。
-2. **管理者またはWorkspace-Configurator権限が必要です。** 通常のプランナーは、ルールの作成や編集をおこなうことができず、ワークスペースの設定を管理するユーザーのみが実行できます。
-
-### 手順1: ビジネスルール設定領域を開く
-
-ビジネスルールは、他の管理者設定と並行して作成されます。別の「プランニング」パネルを探す必要はありません。 ワークフロー設定エリアから：
-
-1. ワークスペースのメイン **ワークフロー設定/管理者設定**&#x200B;領域に移動します。
-2. 設定するレコードタイプ（「マテリアル」や「キャンペーン」など）の&#x200B;**ビジネスルール** セクションを探します。
-
-
-### 手順2：レコードタイプの選択
-
-ルールはレコードタイプごとに設定されるので、ルールを追加するルールを選択します。 例えば、すべてのマテリアルレコードに実行前にキーフィールドが入力されていることを確認する場合は、**マテリアル**&#x200B;を選択します。
+* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today.
+* **It doesn't auto-fill anything or auto-change statuses.** A person always has to make the status change themselves.
+* **It doesn't retroactively flag old records.** Records that are already sitting in the target status aren't affected — the check only runs the next time someone tries to move a record *into* that status.
 
 
 
-### 手順3：新しいルールの作成
+### Before you start
 
-各ルールには、次の3つの項目を指定します。
+A couple of things need to be true before you can configure rules:
 
-| 設定するもの | 例 |
+1. **The feature has to be turned on for your organization.** This is done on Adobe's side (via a feature flag), not something you enable yourself. If you don't see the business rules section described below, check with your Adobe contact to confirm it's been enabled for your tenant.
+2. **You need admin or workspace-configurator permissions.** Regular planners can't create or edit rules — only people managing the workspace setup can.
+
+### Step 1: Open the business rules configuration area
+
+Business rules live alongside your other admin setup — you won't need to hunt for a separate "Planning" panel. From your workflow setup area:
+
+1. Go to the main **workflow setup / admin configuration** area for your workspace.
+2. Look for the **business rules** section for the record type you want to configure (for example, "Materials" or "Campaigns").
+
+
+### Step 2: Choose the record type
+
+Rules are configured per record type, so pick the one you want to add a rule to. For example, if you want to make sure every Materials record has key fields filled in before execution, select **Materials**.
+
+
+
+### Step 3: Create a new rule
+
+For each rule, you'll specify three things:
+
+| What you set | Example |
 |---|---|
-| **レコードタイプ** | 部材費 |
-| **ターゲットステータス** | 実行準備ができました |
-| **必須フィールド** | ブランド |
+| **Record type** | Materials |
+| **Target status** | Ready for Execution |
+| **Required field** | Brand |
 
-言い換えれば、「マテリアルレコードのステータスが&#x200B;**実行準備完了**&#x200B;に変更された場合、フィールド **ブランド**&#x200B;には値が必要です。」
+In other words: "When a Materials record's status is changed to **Ready for Execution**, the field **Brand** must have a value."
 
-同じステータスに複数のルールを追加できます。 例えば、レコードを「実行準備完了」に移行する前に、ブランド、治療領域、指標、および推定の起動日をすべて入力する必要がある場合があります。各ルールは独自のルールであり、それらはすべて一緒にチェックされます。
+You can add more than one rule for the same status. For example, you might require Brand, Therapeutic Area, Indication, and Estimated Launch Date all to be filled in before a record can move to "Ready for Execution" — each is its own rule, and all of them are checked together.
 
-**どのフィールドが必要ですか？**
-&#x200B;- 接続されたレコードフィールド（リンクされたブランドや表示レコードなど） – 少なくとも1つのレコードがリンクされると、ルールはすぐに渡されます。
-&#x200B;- 標準テキストフィールド（1行または段落）：値が存在すると、ルールが渡されます。
-&#x200B;- 日付フィールド：日付が設定されると、ルールは渡されます。
+**What fields can you require?**
 
-**まだ使用できないもの：**&#x200B;式フィールドとルックアップフィールドは、人が直接入力するのではなくバックグラウンドで計算されるため、このリリースではルールターゲットとしてサポートされていません。
+* Connected record fields (e.g., a linked Brand or Indication record) — the rule passes as soon as at least one record is linked.
+* Standard text fields (single-line or paragraph) — the rule passes once there's any value.
+* Date fields — the rule passes once a date is set.
 
-### ステップ 4：オーディエンスに表示されるメッセージを作成する
+**What you can't use yet:** formula fields and lookup fields aren't supported as rule targets in this release, since they're calculated in the background rather than filled in directly by a person.
 
-ルールを作成する際には、誰かがフィールドに入力せずに変更を加えようとした場合に表示されるメッセージも提供します。 具体的かつ実用的なレポートを作成：
+### Step 4: Write the message people will see
 
-> ブランドは必須です。
+When you create a rule, you'll also provide the message that shows up if someone tries to make the change without the field filled in. Keep it specific and actionable — something like:
 
-エラーバナー全体のフォーマットについて心配する必要はありません。複数のルールが一度に違反した場合、システムはメッセージの組み合わせを処理します（以下を参照）。
+> "Brand is required."
 
-### 手順5：ルールの保存
+You don't need to worry about formatting a whole error banner — the system handles combining messages if multiple rules are violated at once (see below).
 
-保存すると、ルールはワークスペース内のすべてのユーザーに対して&#x200B;**すぐに**&#x200B;適用されます。ログアウト、更新、デプロイメント待ちは必要ありません。 次回に誰かがレコードをそのステータスに移動しようとすると、ルールがチェックされます。
+### Step 5: Save the rule
 
-### チームが実際に経験するのは
+Once saved, the rule takes effect **immediately** for everyone in the workspace — no need to log out, refresh, or wait for a deployment. The very next time anyone tries to move a record into that status, the rule is checked.
 
-ルールが公開されると、Planningを使用している人が日々何を変えるかをご紹介します。
+### What your team will actually experience
 
-#### 必須フィールドが空の場合
+Here's what changes for the people using Planning day to day, once a rule is live.
 
-1. プランナーがレコードを開き、ステータスをゲーテッドステータス（「実行準備完了」など）に変更します。
-2. システムは、そのステータスに関連付けられたすべてのルールをチェックします。
-3. 必須フィールドが空の場合、変更は&#x200B;**拒否**&#x200B;されます。ステータスは以前の状態に戻ります。
-4. トーストメッセージが表示され、欠落しているフィールドの名前を正確に指定します。
-   > *「状態の変更がブロックされました：&#39;ブランド&#39;と&#39;推定された開始日&#39;を入力してから、&#39;実行準備完了&#39;に移動する必要があります。&#39;&#39;*
-5. プランナーは、見つからないフィールドに入力し、ステータスの変更を再試行します。
-6. 今回はルールが通過し、ステータスが通常どおり更新されます。
+#### If a required field is empty
 
-#### すべてが既に入力されている場合
+1. A planner opens a record and changes the status to the gated status (say, "Ready for Execution").
+2. The system checks all rules tied to that status.
+3. If a required field is empty, the change is **rejected** — the status reverts back to what it was.
+4. A toast message appears, naming exactly which field(s) are missing:
+   > *"Status change blocked: 'Brand' and 'Estimated Launch Date' must be populated before moving to 'Ready for Execution.'"*
+5. The planner fills in the missing field(s) and tries the status change again.
+6. This time, the rule passes, and the status updates normally.
 
-変更なし。 ステータスは、追加の手順やポップアップなしで即座に更新されます。 ビジネスルールは、実際に必要になるまで表示されません。
+#### If everything is already filled in
 
-#### 複数のフィールドが一度に見つからない場合
+Nothing changes. The status updates instantly, with no extra steps or popups. Business rules are invisible until they're actually needed.
 
-違反したルールはすべて一緒にチェックされ、メッセージには欠けているフィールドがすべて1回で一覧表示されます。プランナーは1つのフィールドを修正し、もう一度試し、次のフィールドについて通知を受け取り、繰り返す必要はありません。
+#### If several fields are missing at once
 
-### 手順6：後でルールを編集または削除する
+All the violated rules are checked together, and the message lists every missing field in one go — planners don't have to fix one field, try again, get told about the next one, and repeat.
 
-ルールは変更不可なものではありません。 変更するには：
+### Step 6: Edit or remove a rule later
 
-1. レコードタイプのビジネスルール設定領域に戻ります。
-2. 変更したいルールを見つけます。
-3. 必須フィールド、ターゲットステータスまたはメッセージを編集するか、ルールを完全に削除します。
-4. 保存します。 この変更は、将来のステータスの変更に即座に適用されます。
+Rules aren't set in stone. To make changes:
 
-注意：ルール **の編集または削除は、今後のトランジションにのみ影響します。** 変更前にすでにターゲットステータスになっているレコードは、再評価されません。
-3##知る価値のあるいくつかのこと
+1. Go back to the business rules configuration area for the record type.
+2. Find the rule you want to change.
+3. Edit the required field, target status, or message — or delete the rule entirely.
+4. Save. The change applies immediately to future status changes.
 
-* **これは、ステータスの変更後にレコードをロックすることとは別です。** ビジネスルール （ここに記載されています）は、ステータス変更が行われる前に&#x200B;*フィールドの完全性のみを確認します。*&#x200B;別の関連する機能は、レコードが特定のステータスに達した後、編集/削除から完全にロックされるかどうかを制御します。これについては説明しません。
-* **バルクステータスの変更** （一度に多くのレコードでステータスを変更する）が、ビジネスルールの操作方法についてまだ完全に定義されていません。一括操作に大きく依存している場合は、現在の動作についてAdobeの担当者にお問い合わせください。
-* **システムエラーが原因でルールを評価できない**&#x200B;場合、移行はサイレントに許可されるのではなくブロックされます。バックエンドの失敗が原因で、不完全なレコードがルールを通過することはありません。
-* **機能をオフにしても**&#x200B;設定したルールは削除されません。一時停止しています。 元に戻すと、元の状態に戻されます。再設定は必要ありません。
+Keep in mind: editing or deleting a rule **only affects transitions going forward.** Records that already made it into the target status before the change aren't reevaluated.
+3## A few things worth knowing
 
-### クイックリファレンス：最初のルールの設定
+* **This is separate from locking records after a status change.** Business rules (as described here) only check field completeness *before* a status change goes through. A different, related feature governs whether a record becomes fully locked from edits/deletion once it reaches a certain status — that's not what's covered here.
+* **Bulk status changes** (changing status on many records at once) aren't fully defined yet for how they interact with business rules — if your team relies heavily on bulk actions, check with your Adobe contact on current behavior.
+* **If a rule can't be evaluated** due to a system error, the transition is blocked rather than silently allowed through — you'll never end up with an incomplete record slipping past a rule because of a backend hiccup.
+* **Turning the feature off** doesn't delete your configured rules — they're just paused. Turning it back on restores them exactly as they were, no reconfiguration needed.
 
-1. テナントに対して機能が有効になっていることを確認します。
-2. レコードタイプのワークフロー設定→ビジネスルールに移動します。
-3. レコードタイプ（マテリアルなど）を選択します。
-4. ルールを作成する：ターゲットステータス +必須フィールド。
-5. 明確で具体的なエラーメッセージを書く：
-6. 保存：すぐに公開されます。
-7. 必要な各フィールドに対してこれを繰り返します。
-8. 自分でテストする：フィールドが空のレコードのステータスを変更し、期待されるメッセージが表示されることを確認し、フィールドに入力し、ステータスの変更が行われることを確認します。
+### Quick reference: setting up your first rule
 
-そのため、今後レコードを変換する際は、下流のプロジェクトが静かに不完全になる代わりに、何か欠けている部分があれば、明確に調整することができます。
+1. Confirm the feature is enabled for your tenant.
+2. Go to workflow setup → business rules for your record type.
+3. Choose the record type (e.g., Materials).
+4. Create a rule: target status + required field.
+5. Write a clear, specific error message.
+6. Save — it's live immediately.
+7. Repeat for each field you want to require.
+8. Test it yourself: try changing a record's status with the field empty, confirm you see the expected message, fill in the field, and confirm the status change now goes through.
+
+That's it — from here on, anyone converting a record forward will get a clear nudge if something's missing, instead of a downstream project quietly showing up incomplete.
+
+-->
