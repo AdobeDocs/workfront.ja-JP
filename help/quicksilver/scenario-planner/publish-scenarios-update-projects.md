@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
 workflow-type: tm+mt
 source-wordcount: 1705
 ht-degree: 81%
@@ -70,7 +70,7 @@ ht-degree: 81%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner][&#128279;](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な アクセスを参照してください。
+シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner]&#x200B;[&#128279;](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な アクセスを参照してください。
 
 Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
@@ -209,6 +209,9 @@ Old:
 
    ![&#x200B; プロジェクトアイコンと最終公開日](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
+   <!--
+    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
+    -->
 1. （オプションおよび条件付き）既存のプランから公開する場合は、プランの右上隅にある&#x200B;**[!UICONTROL フィルター]** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)をクリックし、次のいずれかのオプションを選択します。
 
    <table style="table-layout:auto"> 
