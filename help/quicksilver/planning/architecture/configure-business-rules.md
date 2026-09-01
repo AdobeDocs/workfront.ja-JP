@@ -1,14 +1,14 @@
 ---
 title: レコードタイプのビジネスルールの設定
-description: そのタイプのレコードをAdobe Workfront Planningでどのように管理するかを定義するレコードタイプのビジネスルールを設定できます。
+description: フィールド値に従ってレコードに特定のアクションを適用できるレコードタイプのビジネスルールを設定できます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 12%
+source-wordcount: '1038'
+ht-degree: 3%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 12%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-Adobe Workfront Planningのレコードタイプのビジネスルールを設定して、そのレコードタイプのレコードの管理方法を定義できます。
+Adobe Workfront Planningのレコードタイプのビジネスルールを設定して、そのタイプのレコードに対するアクションが許可または禁止される前に、特定のフィールドが必要であることを示すことができます。
 
-定義されたビジネスルールが満たされた場合、レコードに対して次のアクションを許可できます。
+ルールの作成方法に応じて、定義されたビジネスルールが満たされている場合は、レコードに対して次のアクションを許可できます。
 
-* レコードの編集
-* レコードの削除
+* レコードを編集する/編集しない
+* レコードを削除するか、削除しない
 
 ## アクセス要件
 
@@ -74,31 +74,93 @@ Adobe Workfront Planningのレコードタイプのビジネスルールを設�
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
 ## ビジネスルールを設定する際の考慮事項
 
-* レコードを編集または削除できるタイミングを示すルールを設定できます。
+* ビジネスルールは、フィールドの変更またはレコードの削除に条件を添付します。 ルールは、フィールドがルールで設定したフィールド値に変更されようとしている特定の意図的な瞬間にのみ適用されます。
 
-  例えば、特定のフィールドに値を指定するための条件を作成できます。 これらのフィールドに値がない場合、ユーザーはそのレコードを編集または削除できません。
+* ルールは平易な言語では次のようになります。「このレコードを編集する前に、Campaignの概要フィールドに値が必要です。」
+
+  フィールドが空の場合、レコードの編集はブロックされ、ユーザーは先に進む前に対処する必要があることを説明する明確なメッセージを受け取ります。 必須フィールドを更新して再試行すると、変更は許可されます。
+
+* ルールはレコードの作成をブロックしません。 ユーザーは引き続きレコードを作成できますが、必須フィールドが空でないか、指定された値が含まれていることを確認する必要があります。
+* ルールは、レコードを自動的に編集または削除しません。 変更は、ユーザーが故意にトリガーする必要があります。
+* ルールは過去にさかのぼって適用されません。古いレコードは影響を受けません。 ルールチェックは、ユーザーがレコードを次に編集または削除しようとしたときにのみ実行されます。
 * プライマリワークスペースまたはセカンダリワークスペースのグローバルレコードタイプにビジネスルールを追加することはできません。
-* レコードの作成時にルールを設定することはできません。 レコードタイプに対する管理権限を持つすべてのユーザーがレコードを作成できます。
 * 次の以外のすべてのフィールドタイプを参照するビジネスルールの条件を作成できます。
   * 数式フィールド
   * ルックアップフィールド
   * 参照フィールド
+* レコードを編集または削除できるすべてのユーザーにルールが適用されます。
+* レコードタイプには、複数のビジネスルールを設定できます。 <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+
+  すべてのルールが同時にチェックされ、エラーメッセージには、1つのステートメントに欠落しているすべてのフィールドが表示されます。
 
 ## ビジネスルールの設定
 
-1. レコードタイプに移動します。
-1. レコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**ビジネスルール**&#x200B;をクリックします。
+1. レコードタイプ ページに移動します。
+1. 任意のビューから、レコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**ビジネスルール**&#x200B;をクリックします。
 
    ビジネスルールページが開きます。
 1. 「**新しいビジネスルール**」をクリックします。
-1. 「新規ビジネス・ルール」ボックスで、使用可能な最初のフィールドにビジネス・ルールの名前を追加します。 これは必須フィールドです
-1. （オプション）説明を追加して、ビジネスルールを定義します。
+1. **新しいビジネス** ルールボックスで、最初に使用可能なフィールドにビジネスルールの名前を追加します。 これは必須フィールドです
+1. （オプション）ビジネスルールを定義する説明を追加し、**保存**&#x200B;をクリックします。
+1. ビジネスルール設定フォームの&#x200B;**If** セクションで、特定のルールに基づいて制限または許可するアクションを選択します。 次から選択してください：<!--check UI text-->
+   * **レコード編集**：このルールで定義された条件が満たされた場合、ユーザーはレコードを編集または編集できません。
+   * **レコード削除**：このルールで定義された条件が満たされた場合、ユーザーはレコードを削除または削除できません。
+     <!--add screen shot when UI text is final-->
+1. **数式フィールド**&#x200B;に、ビジネスルールを追加します。 右側のパネルの「**数式**」セクションから、ルールの演算子を選択します。
+
+   例えば、**その他** フィールドセクションから&#x200B;**IF**&#x200B;を選択するか、「IF」と入力し、候補リストに表示されたらクリックします。
+
+   >[!TIP]
+   >
+   >ルールの構文を正しく保つために、候補リストからフィールドと演算子を選択することをお勧めします。
+1. このレコードタイプのレコードを編集または削除できるように、必須にするフィールドを選択します。
+
+   例えば、次のステートメントを入力して、**キャンペーンの概要** フィールドを必須にすることができます。
+
+   ```
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+   ```
+
+   >[!IMPORTANT]
+   >
+   >ユーザーがレコードで実行しようとしているアクションが許可されていない場合を簡単に理解できるように、ルール式に次の情報を含めることを強くお勧めします。
+   >
+   >* ルールが設定されている正確なフィールド。
+   >* ルールが満たされない場合の正確な結果。
+
+   フィールドまたは式が正しくない場合は、**式** フィールドにインジケーターがあります。 <!--add screen shot?-->
+
+   ビジネス ルールの&#x200B;**Then** セクションでは、ルールの機能の説明を表示できます。
+
+1. 「**アクティブ化**」をクリックして、このレコードタイプのルールをアクティブにし、「**保存**」をクリックします。
+
+   ルールは、アクティベートした直後に適用されます。選択したレコードタイプのレコードを編集または削除する権限を持つすべてのユーザーは、ルールに従う必要があります。
+1. （オプションおよび推奨）ページヘッダーの&#x200B;**ビジネスルール**&#x200B;の左側にある後方矢印をクリックして、レコードタイプページを表示し、テーブルビューに移動するか、レコードのページを開いて、レコードの編集または削除を試して、作成したルールをテストします。
+
+## ビジネスルールの管理
+
+既存のビジネスルールを編集、削除または非アクティブ化できます。
+
+既存のルールを編集しても、既存のレコードは変更されません。 編集されたルールは、誰かがレコードを編集または削除しようとしたときに、既存のレコードにのみ適用されます。
+
+1. レコードタイプの&#x200B;**ビジネスルール**&#x200B;設定ページに戻ります。
+1. 変更したいルールを見つけます。
+1. ルール名にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックしてから、次のいずれかのオプションをクリックします。
+
+   * **編集**：これにより、ビジネスルールの設定ページが開き、ビジネスルールに関する情報を編集できます。
+   * **非アクティブ化**: <!--check this in the UI: right now, it says Disable-->これにより、ルールがトリガーされなくなりますが、将来にわたって保持されます。必要です。
+   * **削除**: ルールに関するすべての情報が削除されます。 削除されたルールは復元できません。
+
+   編集されたルールまたはルールの非アクティブ化は、今後のレコードにのみ適用され、過去にさかのぼって適用されません。
+
+   <!--add screen shot if UI is fixed with Deactivate-->
+
 
 <!--
 
@@ -117,18 +179,9 @@ If the field is empty, the status change is blocked and the person gets a clear 
 
 A few important things this is *not*:
 
-* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today.
+* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today. 
 * **It doesn't auto-fill anything or auto-change statuses.** A person always has to make the status change themselves.
 * **It doesn't retroactively flag old records.** Records that are already sitting in the target status aren't affected — the check only runs the next time someone tries to move a record *into* that status.
-
-
-
-### Before you start
-
-A couple of things need to be true before you can configure rules:
-
-1. **The feature has to be turned on for your organization.** This is done on Adobe's side (via a feature flag), not something you enable yourself. If you don't see the business rules section described below, check with your Adobe contact to confirm it's been enabled for your tenant.
-2. **You need admin or workspace-configurator permissions.** Regular planners can't create or edit rules — only people managing the workspace setup can.
 
 ### Step 1: Open the business rules configuration area
 
@@ -141,8 +194,6 @@ Business rules live alongside your other admin setup — you won't need to hunt 
 ### Step 2: Choose the record type
 
 Rules are configured per record type, so pick the one you want to add a rule to. For example, if you want to make sure every Materials record has key fields filled in before execution, select **Materials**.
-
-
 
 ### Step 3: Create a new rule
 
