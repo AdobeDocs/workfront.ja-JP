@@ -60,7 +60,7 @@ Workfrontの従来のOAuth2設定画面を通じて発行されたカスタム O
 * Workfrontが発行するクライアント IDで設定されたサードパーティ製またはパートナーが構築したコネクタ。 統合がどのように認証されるかわからない場合は、ベンダーに確認することをお勧めします。
 * Workfront APIを直接呼び出す社内の自動化、レポート、データ同期スクリプト。
 
-お客様の組織がこれらのアプリケーションを持っているかどうかわからない場合、Workfront管理者は、**Setup** > **System** > **OAuth2**&#x200B;の下にあるOAuth2 アプリケーション リストを確認して、現在登録されているものを確認できます。 詳しくは、[ カスタム OAuth2 アプリケーションの表示と管理](/help/quicksilver/administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)を参照してください。
+お客様の組織がこれらのアプリケーションを持っているかどうかわからない場合、Workfront管理者は、**Setup** > **System** > **OAuth2**&#x200B;の下にあるOAuth2 アプリケーション リストを確認して、現在登録されているものを確認できます。 詳しくは、[&#x200B; カスタム OAuth2 アプリケーションの表示と管理](/help/quicksilver/administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)を参照してください。
 
 ## Adobe Developer Console認証の種類について
 
@@ -83,8 +83,8 @@ Adobe Developer Consoleは、複数の認証方法をサポートしています
 
 | 従来のWorkfront タイプ | フロー/認証方法 | Developer Console当量 | フィット |
 |---|---|---|---|
-| マシンラーニングアプリケーション（CLI、デーモン、バックエンドスクリプト） | 公開鍵と秘密鍵のペアを持つJWT | サーバー間認証 | エンドユーザーを関与させないという目的は同じですが、メカニズムは変わります。 従来のフローでは、公開鍵と秘密鍵のペアとJWTを使用し、サーバー間のフローでは、OAuth クライアント認証情報の付与とともにクライアント IDとクライアントシークレットを使用します。 これはドロップイン資格情報の入れ替えではありません。 統合の認証コードは、資格情報の値だけでなく、変更する必要があります。 詳しくは、[ カスタム OAuth 2 アプリケーションに対するJWT フローの使用](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)を参照してください。 |
-| Web アプリケーション（サーバーサイドアプリ：Go、Java、.NET、Node、PHP） | OAuth 2.0認証コードフロー | OAuth Web アプリ（ユーザー認証の下） | 最も近い1:1の一致。 これは同じフローを持ち、バックエンドサーバーがクライアントの秘密鍵を保存するのと同じ基本形状を持ちます。 詳しくは、「[ カスタム OAuth 2 アプリケーションの認証コードフロー](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)」を参照してください。 |
+| マシンラーニングアプリケーション（CLI、デーモン、バックエンドスクリプト） | 公開鍵と秘密鍵のペアを持つJWT | サーバー間認証 | エンドユーザーを関与させないという目的は同じですが、メカニズムは変わります。 従来のフローでは、公開鍵と秘密鍵のペアとJWTを使用し、サーバー間のフローでは、OAuth クライアント認証情報の付与とともにクライアント IDとクライアントシークレットを使用します。 これはドロップイン資格情報の入れ替えではありません。 統合の認証コードは、資格情報の値だけでなく、変更する必要があります。 詳しくは、[&#x200B; カスタム OAuth 2 アプリケーションに対するJWT フローの使用](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)を参照してください。 |
+| Web アプリケーション（サーバーサイドアプリ：Go、Java、.NET、Node、PHP） | OAuth 2.0認証コードフロー | OAuth Web アプリ（ユーザー認証の下） | 最も近い1:1の一致。 これは同じフローを持ち、バックエンドサーバーがクライアントの秘密鍵を保存するのと同じ基本形状を持ちます。 詳しくは、「[&#x200B; カスタム OAuth 2 アプリケーションの認証コードフロー](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)」を参照してください。 |
 | シングルページ Web アプリケーション（JS、Angular、React、Vue） | PKCEを使用した認証コードフロー、クライアントシークレットなし | OAuth シングルページアプリ（ユーザー認証の下） | 最も近い1:1の一致これは、同じPKCE ベースのシークレットレスフローを持っています。 詳しくは、「[OAuth 2 アプリケーションでのPKCE フローの使用](/help/quicksilver/wf-api/api/oauth-app-pkce-flow.md)」を参照してください。 |
 | （レガシーに相当するものはありません） | — | OAuth ネイティブアプリ（ユーザー認証の下） | これは新しい機能です。 従来のWorkfront OAuth2には、ネイティブモバイルアプリケーションやデスクトップアプリケーション専用のタイプはありません。 |
 
@@ -120,7 +120,7 @@ Adobe Developer Consoleは、複数の認証方法をサポートしています
 1. エンドツーエンドの統合をテストします。
 1. 新しい接続が機能していることを確認したら、Workfrontの古いOAuth2 アプリケーションエントリを廃止します。
 
-完全な手順の詳細とスクリーンショットについては、Adobe Developer Console ドキュメントの[ アクセスの取得](https://developer.adobe.com/workfront-apis/guides/gaining_access/)を参照してください。
+完全な手順の詳細とスクリーンショットについては、Adobe Developer Console ドキュメントの[&#x200B; アクセスの取得](https://developer.adobe.com/workfront-apis/guides/gaining_access/)を参照してください。
 
 ### システム管理者でない場合
 
@@ -150,4 +150,4 @@ Adobe Developer Consoleで新しい資格情報を設定するには、そのレ
 
 **ヘルプはどこで入手できますか？**
 
-特定の連携やスケジュールについて質問がある場合は、Workfrontのアカウントチームにお問い合わせいただくか、サポートケースを開いてください。 スクリーンショットを使用した公式の最新の設定チュートリアルについては、Adobe Developer Console ドキュメントの[ アクセスの取得](https://developer.adobe.com/workfront-apis/guides/gaining_access/)を参照してください。
+特定の連携やスケジュールについて質問がある場合は、Workfrontのアカウントチームにお問い合わせいただくか、サポートケースを開いてください。 スクリーンショットを使用した公式の最新の設定チュートリアルについては、Adobe Developer Console ドキュメントの[&#x200B; アクセスの取得](https://developer.adobe.com/workfront-apis/guides/gaining_access/)を参照してください。
