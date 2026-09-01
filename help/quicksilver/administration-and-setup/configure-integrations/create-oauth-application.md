@@ -11,21 +11,14 @@ exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 1959
-ht-degree: 96%
+source-wordcount: 2018
+ht-degree: 94%
 
 ---
 
@@ -35,9 +28,16 @@ ht-degree: 96%
 
 [!UICONTROL OAuth2] アプリケーションを作成する場合、クライアント ID とクライアントシークレットを生成します。 その後、ユーザーは API 呼び出しでクライアント ID を使用して、作成したアプリケーションと統合できます。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->OAuth2 のコンテキストでは、「アプリの作成」とは、アプリと [!DNL Workfront] などのサーバーとの間にこの種のアクセスリンクを作成するプロセスを指します。
+>* カスタム OAuth2 アプリケーションは非推奨（廃止予定）の段階です。 以下の日付にご注意ください。
+>
+>   * 2026年11月1日：新しいカスタム OAuth2 アプリケーションを作成できなくなります。
+>   * 2027年2月1日：既存のカスタム OAuth2 アプリケーションが機能しなくなります。
+>
+>   詳しくは、「[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)」を参照してください。
+>
+>* OAuth2 のコンテキストでは、「アプリの作成」とは、アプリと [!DNL Workfront] などのサーバーとの間にこの種のアクセスリンクを作成するプロセスを指します。
 
 * ユーザーの資格情報を使用して OAuth2 アプリケーションを設定および使用する手順（認証コードフロー）については、[認証コードフローを使用した、組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-code-token-flow.md)を参照してください。
 * サーバー認証（JWT フロー）を使用した OAuth2 アプリケーションの設定と使用の手順については、[JWT フローを使用した、組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-jwt-flow.md)を参照してください。
@@ -141,7 +141,7 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
 
 1. 左側のナビゲーションパネルで「**[!UICONTROL システム]**」をクリックし、「**[!UICONTROL OAuth2 アプリケーション]**」を選択します。
 1. 「**[!UICONTROL アプリ統合を作成]**」をクリックします。
-**新しいOAuth2 アプリケーション** ボックスが表示されます。
+「**新規 OAuth2 アプリケーション**」ボックスが表示されます。
 1. 「**新規 OAuth2 アプリケーション**」ボックスで「**[!UICONTROL マシンツーマシンアプリケーション]**」を選択します。
 1. 「[!DNL Workfront] for ClientApp」などの、新しいアプリケーションの名前を入力します。
 1. 「**[!UICONTROL 作成]**」をクリックします。

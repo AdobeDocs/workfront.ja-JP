@@ -8,23 +8,27 @@ feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
 TQID: https://experienceleague.adobe.com/qBZFtRLkYCfnIVzOvX4ygc-KiAsJ9R9445hRsCF--G8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 817
-ht-degree: 91%
+source-wordcount: 870
+ht-degree: 86%
 
 ---
 
 # PKCE フローを使用した、組織のカスタム OAuth 2 アプリケーションの設定と使用
+
+>[!IMPORTANT]
+>
+>カスタム OAuth2 アプリケーションは非推奨（廃止予定）の段階です。 以下の日付にご注意ください。
+>
+>* 2026年11月1日：新しいカスタム OAuth2 アプリケーションを作成できなくなります。
+>* 2027年2月1日：既存のカスタム OAuth2 アプリケーションが機能しなくなります。
+>
+>詳しくは、「[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)」を参照してください。
 
 PKCE は、モバイルアプリなどの動的に更新するアプリケーションでうまく機能するセキュアな認証フローですが、すべての OAuth2 クライアントで役に立ちます。 PKCE では、静的なクライアントシークレットではなく、動的に生成された文字列を使用するので、クライアントシークレットの漏洩のリスクを排除できます。
 
@@ -161,7 +165,7 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 
 * `code` は、/authorize エンドポイントから受け取った認証コードです。
 
-* `code_verifier` は、[&#x200B; コード交換用の証明キーを作成する &#x200B;](#Create) でアプリが生成した PKCE コード検証ツールです。
+* `code_verifier` は、[ コード交換用の証明キーを作成する ](#Create) でアプリが生成した PKCE コード検証ツールです。
 
 * `client_id` はクライアントを識別し、OAuth2 で事前に登録されている値と一致する必要があります。
 
