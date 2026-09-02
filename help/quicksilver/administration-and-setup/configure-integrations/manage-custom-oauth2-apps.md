@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 644
-ht-degree: 80%
+source-wordcount: 697
+ht-degree: 74%
 
 ---
 
@@ -29,9 +29,17 @@ ht-degree: 80%
 
 [!DNL Adobe Workfront] 管理者は、[!DNL Workfront] のインスタンス用の OAuth2 アプリケーションを表示および管理し、他のアプリケーションが [!UICONTROL Workfront] にアクセスできるようにします。
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>* カスタム OAuth2 アプリケーションは非推奨（廃止予定）の段階です。 以下の日付にご注意ください。
+>
+>   * 2026年11月1日：新しいカスタム OAuth2 アプリケーションを作成できなくなります。
+>   * 2027年2月1日：既存のカスタム OAuth2 アプリケーションが機能しなくなります。
+>
+>   詳しくは、「[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)」を参照してください。
 >
 >* OAuth2 のコンテキストで「Oauth2 アプリケーション」とは、アプリと [!DNL Workfront] などのサーバー間のこの種のアクセスリンクを指します。 詳しくは、[&#x200B; [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+>
 >* 一度に最大 10 個の OAuth2 アプリケーションを持つことができます。
 
 * カスタム OAuth2 アプリケーションを作成するための詳細、手順、および詳細については、[統合 [!DNL Workfront] のOAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください

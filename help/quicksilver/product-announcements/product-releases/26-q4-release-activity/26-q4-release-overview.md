@@ -4,9 +4,9 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: 549e1bd0fd0910d8285552487115fdeaae5facc7
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1579'
 ht-degree: 14%
 
 ---
@@ -264,6 +264,24 @@ ht-degree: 14%
             <td><strong>プレビュー</strong></td>
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}"> キャンバスダッシュボードの「承認タイプ」フィールド </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>承認エンティティに「承認タイプ」フィールドが追加され、プルーフの承認、ドキュメントバージョンの承認、受注の承認およびその他の承認タイプを区別できるようになりました。</p>
+            </td>
+            <td><p>該当なし</p></td>
+            <td><p>該当なし</p></td>
+            <td><p>2026年8月28日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Canvas ダッシュボードでの承認用語の更新</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>ドキュメントと作業の承認にCanvas ダッシュボードで使用される複数のフィールド名が、わかりやすいように変更されました。</p>
+            </td>
+            <td><p>該当なし</p></td>
+            <td><p>該当なし</p></td>
+            <td><p>2026年8月28日（PT）</p></td>
         </tr>
         <tr>
             <td>

@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0e2544a99ea6aee353649286407be4781934c34e
 workflow-type: tm+mt
-source-wordcount: 979
-ht-degree: 98%
+source-wordcount: 1032
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 Workfront は、様々な統合を提供します。これは Workfront から直接設定することも、そのアプリケーション用の Workfront アドインをインストールすることで、別のアプリケーションから設定することもできます。 これらのビルトインの統合では、多くの一般的なユースケースのシナリオを扱い、エンドユーザー向けのユーザーエクスペリエンスの拡張と接続に焦点を当てています。
 
-Workfront のビルトインの統合は、主に個人の生産性と共同作業に焦点を当てています。 これらの統合により、個々のユーザーのワークフローでの中断が減り、統合アプリケーションを離れることなく、Workfront 通知の受信や情報へのアクセス、Workfront の作業項目に従って対処できます。
+Workfront のビルトインの統合は、主に個人の生産性と共同作業に焦点を当てています。 これらの統合により、個人ユーザーのワークフローでの中断が減り、統合アプリケーションを離れることなく、Workfront 通知の受信や情報へのアクセス、Workfront の作業項目に従って対処できます。
 
 ビルトインの統合には次のような利点があります。
 
@@ -55,9 +55,16 @@ Workfront のビルトインの統合は、主に個人の生産性と共同作�
 
 Adobe [!DNL Workfront] 管理者は、[!DNL Workfront] のインスタンス用の OAuth2 アプリケーションを作成して、他のアプリケーションが [!DNL Workfront] にアクセスできるようします。 その後、ユーザーは他のアプリケーションに [!DNL Workfront]データへのアクセス権を付与できます。 このようにして、Workfront を、独自の社内アプリケーションなど、選択したアプリケーションと統合できます。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->OAuth2 のコンテキストでは、「アプリの作成」とは、アプリと Workfront などのサーバーとの間にこの種のアクセスリンクを作成するプロセスを指します。
+>* カスタム OAuth2 アプリケーションは非推奨（廃止予定）の段階です。 以下の日付にご注意ください。
+>
+>   * 2026年11月1日：新しいカスタム OAuth2 アプリケーションを作成できなくなります。
+>   * 2027年2月1日：既存のカスタム OAuth2 アプリケーションが機能しなくなります。
+>
+>   詳しくは、「[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)」を参照してください。
+>
+>* OAuth2 のコンテキストでは、「アプリの作成」とは、アプリと Workfront などのサーバーとの間にこの種のアクセスリンクを作成するプロセスを指します。
 
 [!UICONTROL OAuth2] アプリケーションを作成することには、次のような利点があります。
 

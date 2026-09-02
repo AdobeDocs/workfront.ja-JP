@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: 1794
+source-wordcount: 1855
 ht-degree: 6%
 
 ---
@@ -58,7 +58,7 @@ GenStudioとWorkfront Planningの統合について詳しくは、[Adobe Workfro
 >[!IMPORTANT]
 >
 >この記事で説明する手順は、管理権限がある場合に、Workfront PlanningからGenStudio ワークスペースを更新する方法を示しています。
-> GenStudio ワークスペースに対するContribute権限がある場合、すべての機能を使用できるわけではありません。
+> GenStudio ワークスペースに対するContribute権限がある場合、一部の機能は使用できません。
 >
 >会社に複数のWorkfront インスタンスがある場合は、すべてのユーザーがWorkfront PlanningのGenStudio ワークスペースに対するContribute権限を取得します。
 
@@ -377,6 +377,17 @@ Workfront Planning のメインページが開きます。
 
      詳しくは、[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でのリクエストフォームの作成と管理を参照してください。
 
+   <!--
+   <div class="preview">
+
+   * Business rules
+
+      You can configure record type business rules to define what conditions must be met before users are allowed to edit or delete records of that type. 
+
+      For information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+   </div>
+   -->
+
 1. ビューまたはレコードタイプを共有するには、次の操作を行います。
 
    * レコードタイプページの右上隅にある「**共有**」をクリックし、次のいずれかをクリックします。
@@ -477,7 +488,7 @@ Workfront Planning のメインページが開きます。
    1. （条件付き）GenStudio ワークスペース内の接続されたAEM アセットから、アセットの名前をクリックし、**AEMで開く** アイコン ![AEMで開くアイコン &#x200B;](assets/open-in-aem-icon.png) アイコンをクリックして、AEMでアセットを開きます。
    1. 右側のパネルで「**キャンペーン**」タブをクリックして選択します。
 
-      アセットに接続されたキャンペーンの名前が、**Campaign** フィールドに表示されます。これは読み取り専用のフィールドです。
+      アセットに接続されたキャンペーンの名前が、**Campaign** フィールドに表示されます。 これは読み取り専用フィールドです。
       アセットがPlanningのGenStudio Workspaceの&#x200B;**Region**、**Persona**、**Product**&#x200B;または&#x200B;**Channel**&#x200B;にも接続されている場合、これらのレコードタイプのそれぞれのフィールドには、アセットの「**Campaign**」タブに読み取り専用モードで名前が表示されます。
    1. （条件付き） PlanningのGenStudio Workspaceで接続されたAEM コンテンツフラグメントから、コンテンツフラグメントの名前をクリックし、**AEMで開く** アイコン ![AEMで開くアイコン &#x200B;](assets/open-in-aem-icon.png)をクリックして、コンテンツフラグメントをAEMで開きます。
    1. **ホーム** アイコン ![AEM](assets/home-icon-in-aem.png)のホームアイコンをクリックして、コンテンツフラグメントのリストに移動し、コンテンツフラグメント名の右側にある&#x200B;**情報** アイコン ![AEM](assets/info-icon-in-aem.png)の情報アイコンをクリックします。

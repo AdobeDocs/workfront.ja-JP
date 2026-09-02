@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 14dd7192daab6bdb49ebb0964ef6e042fe7612f8
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: '14466'
+source-wordcount: '14474'
 ht-degree: 92%
 
 ---
@@ -839,6 +839,7 @@ ht-degree: 92%
     * [Adobe Admin Console でのユーザー用の Adobe Workfront Creative Cloud パッケージの作成](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
     * [Workfront 統合用の OAuth2 アプリケーションの作成](administration-and-setup/configure-integrations/create-oauth-application.md)
     * [カスタム OAuth2 アプリケーションの表示と管理](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
+    * [Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)
     * [JumpSeat 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
   * ブループリント {#blueprints}
     * [ブループリント](administration-and-setup/blueprints/blueprints.md)

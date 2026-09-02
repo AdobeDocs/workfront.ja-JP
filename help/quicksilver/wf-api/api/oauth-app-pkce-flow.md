@@ -17,14 +17,23 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 817
-ht-degree: 91%
+source-wordcount: 870
+ht-degree: 86%
 
 ---
 
 # PKCE フローを使用した、組織のカスタム OAuth 2 アプリケーションの設定と使用
+
+>[!IMPORTANT]
+>
+>カスタム OAuth2 アプリケーションは非推奨（廃止予定）の段階です。 以下の日付にご注意ください。
+>
+>* 2026年11月1日：新しいカスタム OAuth2 アプリケーションを作成できなくなります。
+>* 2027年2月1日：既存のカスタム OAuth2 アプリケーションが機能しなくなります。
+>
+>詳しくは、「[Workfront OAuth2からAdobe Developer Consoleへの移行](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)」を参照してください。
 
 PKCE は、モバイルアプリなどの動的に更新するアプリケーションでうまく機能するセキュアな認証フローですが、すべての OAuth2 クライアントで役に立ちます。 PKCE では、静的なクライアントシークレットではなく、動的に生成された文字列を使用するので、クライアントシークレットの漏洩のリスクを排除できます。
 

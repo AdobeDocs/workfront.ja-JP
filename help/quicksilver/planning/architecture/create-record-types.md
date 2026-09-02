@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: 1193
-ht-degree: 43%
+source-wordcount: 1203
+ht-degree: 42%
 
 ---
 
@@ -249,7 +249,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
 1. 「**保存**」をクリックします。
 
-   レコードタイプカードがセクションと選択したワークスペースに追加されます。
+   選択したセクションとワークスペースにレコードタイプカードが追加されます。
    レコードタイプの説明がカードに表示されます。
 
    ![説明が付いたレコードタイプのカード &#x200B;](assets/record-type-card-with-description.png)
@@ -293,12 +293,18 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
    変更は自動的に保存されます。
 
-   レコードの追加、レコードタイプの削除または編集、レコードタイプページでのビューの更新について詳しくは、次の記事を参照してください。
+   レコードの追加、レコードタイプの削除または編集、<!--<span class="preview">creating business rules</span>-->またはレコードタイプページのビューの更新について詳しくは、次の記事を参照してください。
 
    * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
    * [レコードタイプの削除](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)
+
+   <!--  
+    <div class="preview">
+    * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
+    </div>
+    -->
 
 ## CSVまたはExcel ファイルから情報を読み込んで、レコードタイプを作成する
 
