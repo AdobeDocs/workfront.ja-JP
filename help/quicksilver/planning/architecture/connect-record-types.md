@@ -9,23 +9,15 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 3121
-ht-degree: 24%
+source-wordcount: 3273
+ht-degree: 23%
 
 ---
 
@@ -33,12 +25,10 @@ ht-degree: 24%
 
 # レコードタイプを接続
 
-<!--
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 
 {{planning-important-intro}}
@@ -69,9 +59,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 接続タイプの一般的な情報については、[接続されたレコードタイプの概要](/help/quicksilver/planning/architecture/connect-record-types-overview.md)を参照してください。
 
-レコードまたはレコードを他のアプリケーションのオブジェクトと接続する方法については、[&#x200B; レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+レコードまたはレコードを他のアプリケーションのオブジェクトと接続する方法については、[ レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
-レコードタイプとレコードの接続例については、[&#x200B; レコードタイプとレコードの接続例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)を参照してください。
+レコードタイプとレコードの接続例については、[ レコードタイプとレコードの接続例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)を参照してください。
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -117,7 +107,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assetsライセンスと、AEM Assetsとプランニングレコードタイプを連携させるAEM AssetsとWorkfrontの統合。</p>
    <p>詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets Essentials向けAdobe Workfront：記事インデックス </a>を参照してください。 </p></li>
    <li><p> レコードタイプとGenStudio Brandsを連携させるAdobe GenStudio for Performance Marketingライセンス</p>
-   <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
+   <p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Adobe GenStudio for Performance Marketingの基本を学ぶ</a>を参照してください。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -138,7 +128,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -222,7 +212,7 @@ Old:
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
 1. テーブルビューの右上隅にある **+** アイコンをクリックし、「**新しい接続**」タブをクリックします。
 
-   ![Workfront、AEM、GenStudio Brandsとの新しい接続タブ &#x200B;](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+   ![Workfront、AEM、GenStudio Brandsとの新しい接続タブ ](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
 
    <!--
     Old shot:
@@ -246,9 +236,9 @@ Old:
      >
      >他のワークスペースでこのレコードタイプへの接続を許可するには、**レコードタイプを編集** ボックスの「**クロスワークスペース設定**」タブにあるレコードタイプに対して、**他のワークスペースでのレコードタイプへの接続を許可する**&#x200B;設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、ワークスペースセクションは表示されません。
      >
-     >詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
+     >詳しくは、[ レコードタイプのクロスワークスペース機能の設定](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)を参照してください。
      >
-     >![&#x200B; レコードタイプボックスのクロスワークスペース設定タブを編集](assets/edit-record-type-box-advanced-settings-tab.png)
+     >![ レコードタイプボックスのクロスワークスペース設定タブを編集](assets/edit-record-type-box-advanced-settings-tab.png)
 
      <!--
         Old:
@@ -257,7 +247,7 @@ Old:
         ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
         -->
 
-     詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+     詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
 
      >[!TIP]
      >
@@ -266,7 +256,7 @@ Old:
      >* Windowsの場合はCTRL+K
      >* Macの⌘+K
      >
-     >![&#x200B; グローバル検索ボックス &#x200B;](assets/global-search-box.png)
+     >![ グローバル検索ボックス ](assets/global-search-box.png)
 
    * 「**Workfront オブジェクトタイプ**」セクションからの&#x200B;**プロジェクト、ポートフォリオ、プログラム、会社**&#x200B;または&#x200B;**グループ**。
 
@@ -282,7 +272,7 @@ Old:
      >
      >詳しくは、次の記事を参照してください。
      >* [Adobe Workfront Planningでリクエストフォームを作成および管理](/help/quicksilver/planning/requests/create-request-form.md)
-     >* [&#x200B; レコードを作成するためのAdobe Workfront計画リクエストを送信](/help/quicksilver/planning/requests/submit-requests.md)。
+     >* [ レコードを作成するためのAdobe Workfront計画リクエストを送信](/help/quicksilver/planning/requests/submit-requests.md)。
 
      ![元のリクエスト接続の選択](assets/original-request-connection-selection.png)
 
@@ -308,18 +298,15 @@ Old:
 
    ![別のワークスペースからのレコードタイプへの新しい接続](assets/new-connection-allow-multiple-records-box.png)
 
-1. （条件付き）同じワークスペースのレコードタイプ、またはWorkfront オブジェクトタイプを持つPlanning レコードタイプを接続する場合は、次のいずれかを選択します。
+1. <span class="preview">この接続を&#x200B;**依存にする**&#x200B;を選択して、この接続フィールドと、接続されたレコードタイプで作成されたフィールドとの間に依存関係を追加します。</span>
 
-   * **複数選択**：これを選択すると、現在のレコードタイプの1つのレコードが、接続レコードタイプの複数のレコードと接続できるようになります。
-   * **単一選択**：これを選択すると、現在のレコードタイプの1つのレコードが、接続レコードタイプの1つのレコードと接続できるようになります。
+   <span class="preview">詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。</span>
 
-1. 「**接続タイプ**」セクション <!--<span class="preview">, when connecting all object types but not Planning record types</span>-->で、**リンクされたレコードタイプ**&#x200B;に対応するフィールドを作成します。
+1. 「**接続タイプ**」セクションで、**リンクされたレコードタイプ**&#x200B;に対応するフィールドを作成する」を選択します。
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">計画レコードタイプを接続する際、**接続タイプ** セクションは&#x200B;**接続設定** セクションに置き換えられました。</span>
 
    選択すると、現在のレコードタイプに追加された接続フィールドに加えて、接続先のレコードタイプに接続フィールドが作成されます。 これはデフォルトでは無効になっています。
 
@@ -332,6 +319,10 @@ Old:
    >* リンクされたレコードフィールドは、それぞれのアプリケーション内の別のアプリケーションのオブジェクトに対して作成されません。 例：
    >   * Planning レコードに接続されたWorkfront オブジェクト用に作成されたフィールドはありません。
    >   * GenStudio ワークスペースからレコードタイプに接続されている場合、Planning レコードタイプ用に作成されたフィールドはありません。
+1. （条件付き）同じワークスペースのレコードタイプ、またはWorkfront オブジェクトタイプを持つPlanning レコードタイプを接続する場合は、次のいずれかを選択します。
+
+   * **複数選択**：これを選択すると、現在のレコードタイプの1つのレコードが、接続レコードタイプの複数のレコードと接続できるようになります。
+   * **単一選択**：これを選択すると、現在のレコードタイプの1つのレコードが、接続レコードタイプの1つのレコードと接続できるようになります。
 
 1. （条件付き）「**接続タイプ**」セクションで「**リンクされたレコードタイプ**&#x200B;に対応するフィールドを作成する」を有効にした場合は、次のオプションから、ユーザーが接続できるレコード数と接続できるレコード数を示すように選択します。
 
@@ -356,9 +347,11 @@ Old:
 
    >[!NOTE]
    >
-   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront計画フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。
+   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront計画フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。
 
+1. <span class="preview"> （オプションと条件付き）この接続を&#x200B;**依存にする**&#x200B;を選択した場合、**レコードフィルタリングルール**&#x200B;をクリックして、接続された両方のレコードフィールドが同じレコードタイプで表示される場合に、接続されたフィールド値の値を制限するフィルターを作成します。</span>
 
+   <span class="preview">詳細については、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。</span>
 1. （オプション）「**外観を記録**」エリアで、次のいずれかのオプションを選択します。
 
    * **名前と画像**：接続されたレコードの名前とサムネールまたはアイコンの両方が、接続されたレコードフィールドに表示されます。 これはデフォルトのオプションです。
@@ -382,7 +375,9 @@ Old:
    >
    >* **レコードの外観**&#x200B;領域で選択した内容によって、すべてのビューと詳細ページを含む、システム内のあらゆる接続でレコードがどのように表示されるかが決まります。
 
-1. **参照フィールドを選択**&#x200B;して、接続先のレコードタイプからフィールドを追加します。 ルックアップフィールドは、リンク先のレコードタイプまたはオブジェクトタイプに関連付けられたフィールドです。 リンクすると、リンク元のレコードにリンクしているレコードまたはオブジェクトの情報が表示されます。 これはデフォルトで選択されています。
+1. **ルックアップフィールドを選択**&#x200B;または<span class="preview"> ルックアップフィールド **メニュー</span>をクリックして、接続先のレコードタイプからフィールドを選択して追加します。**
+
+   ルックアップフィールドは、接続先のレコードまたはオブジェクトタイプに関連付けられたフィールドです。 リンクすると、リンク元のレコードにリンクしているレコードまたはオブジェクトの情報が表示されます。<!--No more: This is selected by default.-->
 
    >[!NOTE]
    >
@@ -440,7 +435,7 @@ Old:
    >
    > タイムラインビューとカレンダービューの開始日と終了日としてフィールドを追加できるようにする場合は、ルックアップ日フィールドを追加する際に集計の値を選択する必要があります。 例えば、検索日フィールドにMAXまたはMIN アグリゲーターを選択できます。
 
-   ![&#x200B; リンクされた数値フィールドの集計ドロップダウン &#x200B;](assets/aggregator-drop-down-for-number-linked-field.png)
+   ![ リンクされた数値フィールドの集計ドロップダウン ](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -472,7 +467,7 @@ Old:
    >* **一意**: $100,000
    >
 
-1. （オプション） **検索** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)を使用して、フィールドを検索します。
+1. （オプション） **検索** アイコン ![検索アイコン ](assets/search-icon.png)を使用して、フィールドを検索します。
 
 1. 「**フィールドを追加**」をクリックして変更を保存します。
 
@@ -501,7 +496,7 @@ Old:
    * **フィールドを編集**: フィールドの&#x200B;**名前**&#x200B;と&#x200B;**説明**&#x200B;情報を更新します。
    * **ルックアップフィールドを編集**：任意のリンクされたレコードのフィールドを追加または削除します。
 
-   ![&#x200B; テーブル列のフィールドとルックアップフィールドの編集ドロップダウンメニュー](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![ テーブル列のフィールドとルックアップフィールドの編集ドロップダウンメニュー](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    ルックアップフィールドを追加または削除するには、上記の手順16 ～ 17の手順に従います。<!--ensure these step numbers stay accurate-->
 
