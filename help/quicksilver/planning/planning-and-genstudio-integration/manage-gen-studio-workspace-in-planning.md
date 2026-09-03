@@ -16,10 +16,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 1855
-ht-degree: 6%
+source-wordcount: 1955
+ht-degree: 8%
 
 ---
 
@@ -41,11 +41,11 @@ recommendations: noDisplay, noCatalog
 
 # Adobe Workfront Planning での GenStudio ワークスペースの管理
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 Adobe GenStudio for Performance Marketing Workspaceは、Adobe Workfront Planningで利用できます。お客様の会社が製品を購入し、お客様のWorkfront インスタンスが会社のGenStudio インスタンスと統合されている場合です。
 
@@ -368,25 +368,23 @@ Workfront Planning のメインページが開きます。
    * **編集**
 
      詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
-   * **自動処理の管理**
+   * **自動処理の管理**&#x200B;または&#x200B;<span preview="preview">**自動処理**</span>
 
      詳しくは、[Adobe Workfront Planningの自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
-   * **リクエストフォームの管理**
+   * **リクエストフォームの管理**&#x200B;または&#x200B;<span class="preview">**リクエストフォーム**</span>
 
      複数のリクエストフォームを作成できます。 リクエストフォームは、Workfrontのリクエスト領域で利用でき、公開するかリンクを使用して共有することもできます。
 
      詳しくは、[Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)でのリクエストフォームの作成と管理を参照してください。
 
-   <!--
    <div class="preview">
 
-   * Business rules
+   * **ビジネスルール**
 
-      You can configure record type business rules to define what conditions must be met before users are allowed to edit or delete records of that type. 
+     レコードタイプのビジネスルールを設定して、ユーザーがそのタイプのレコードを編集または削除できる前に満たす必要がある条件を定義できます。
 
-      For information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+     詳しくは、[&#x200B; レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
    </div>
-   -->
 
 1. ビューまたはレコードタイプを共有するには、次の操作を行います。
 

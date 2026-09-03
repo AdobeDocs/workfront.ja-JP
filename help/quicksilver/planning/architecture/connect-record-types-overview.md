@@ -19,10 +19,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2329
-ht-degree: 5%
+source-wordcount: 2440
+ht-degree: 6%
 
 ---
 
@@ -30,11 +30,10 @@ ht-degree: 5%
 
 # 接続されたレコードタイプの概要
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -193,6 +192,13 @@ ht-degree: 5%
 
   * Workfront Planningで階層を作成するには、レコードタイプを接続する必要があります。 レコードタイプの接続が存在しない場合は、階層を作成するときに自動的に作成されます。 詳しくは、[&#x200B; ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
 
+  <div class="preview">
+
+  * 接続フィールドは、接続されたレコードタイプから、対応する接続フィールドに依存させることができます。 2つのフィールドが3番目のレコードタイプに表示される場合、一方のフィールドで使用できる選択範囲は、もう一方のフィールドの選択範囲によって異なります。
+
+    詳細と追加の考慮事項については、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。
+
+  </div>
 
 ## 接続タイプ
 

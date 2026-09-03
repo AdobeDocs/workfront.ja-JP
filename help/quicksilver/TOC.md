@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
+source-git-commit: 722c7a8b78495fb70c57a1e94eb2f49b357060b3
 workflow-type: tm+mt
-source-wordcount: '14474'
+source-wordcount: '14480'
 ht-degree: 92%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 92%
       * [2026年第4四半期：AIの強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [2026年第4四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
       * [2026年第4四半期ドキュメントの機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
+      * [2026年第4四半期の財務管理の強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [2026年第4四半期プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [2026年第4四半期レポートの強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
       * [2026年第4四半期のリソース管理の強化](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
@@ -2213,7 +2214,7 @@ ht-degree: 92%
     * [CSV または Excel ファイルから情報を読み込んで、レコードタイプを作成](planning/architecture/import-file-to-create-record-types.md)
     * [クロスワークスペースのレコードタイプの概要](planning/architecture/cross-workspace-record-types-overview.md)
     * [レコードタイプのクロスワークスペース機能の設定](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-    * {hide-from-toc}[&#x200B; レコードタイプのビジネスルールの設定](planning/architecture/configure-business-rules.md)
+    * [レコードタイプのビジネスルールの設定](planning/architecture/configure-business-rules.md)
     * [レコードタイプの設定エリアの設定](planning/architecture/configure-record-type-settings.md)
     * [別のワークスペースから既存のレコードタイプを追加](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [レコードタイプの接続の概要](planning/architecture/connect-record-types-overview.md)

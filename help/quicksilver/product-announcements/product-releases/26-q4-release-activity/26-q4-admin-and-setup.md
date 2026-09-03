@@ -4,9 +4,9 @@ description: 2026年第4四半期の管理者の機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: db296d9043cb793e1af74bca38197de682f54cb8
+source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1267'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,60 @@ The following enhancements are included:
 For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 -->
+
+## Adobe Admin Consoleでプロビジョニングされたユーザーのデフォルトのアクセスレベルを設定する
+
+>[!NOTE]
+>
+>プレビュー：2026年9月3日（PT）
+>プロダクション高速リリース：2026年9月17日（PT）
+>すべての人のための制作：2026年10月15日
+
+Adobe Admin Consoleを通じてWorkfrontでプロビジョニングされたユーザーに対して、デフォルトのアクセスレベルを設定できるようになりました。 Workfront管理者は、システム環境設定でこのデフォルトを設定できます。
+
+以前は、Workfrontはコントリビューターまたはリクエスターのアクセスレベルをユーザーに割り当てていました。
+
+詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+
+## Workfront Planningのお客様向けのカスタム四半期に加えて、カスタム週
+
+>[!NOTE]
+>
+>プレビュー：2026年9月3日（PT）
+>プロダクション高速リリース：2026年9月17日（PT）
+>すべての人のための制作：2026年10月15日
+
+組織がプランニングパッケージを購入した場合、ワークフローパッケージに加えて、カスタム四半期をWorkfront管理者として設定するのと同じ方法でカスタム週を設定できるようになりました。
+
+カスタム週はWorkfrontには表示されません。 これらは、Workfront計画タイムラインビューでのみ表示されます。
+
+詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+
+## メインメニューでのカスタムアプリケーションの並べ替え
+
+>[!NOTE]
+>
+>プレビュー：2026年9月3日（PT）
+>プロダクション高速リリース：2026年9月17日（PT）
+>すべての人のための制作：2026年10月15日
+
+レイアウトテンプレートで作業する際に、デフォルトのWorkfront メニューオプションを使用して、カスタムアプリケーションを任意の順序に再配置できるようになりました。 これにより、各アプリケーションを最も関連性の高い場所に配置できます。
+
+以前は、カスタムアプリケーションは常にレイアウトテンプレートのメインメニューオプションの最後の項目であり、再配置できませんでした。
+
+メインメニューにカスタムアプリケーションを追加する方法について詳しくは、[&#x200B; レイアウトテンプレートを使用したメインメニューのカスタマイズ &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
+
+## カスタムドキュメント統合のための大きなファイルのサポート
+
+>[!NOTE]
+>
+>プレビュー：2026年9月3日（PT）
+>プロダクション高速リリース：2026年9月17日（PT）
+>すべての人のための制作：2026年10月15日
+
+カスタムドキュメント統合で、大きなファイルのチャンクアップロードがサポートされるようになりました。 有効にすると、25 MBを超えるファイルが小さなチャンクに分割され、並行してアップロードされるので、大きなファイルのアップロードがより高速かつ信頼性が高まります。 管理者はこれをオンにして、1統合あたりの最大チャンクサイズ（最大100 MB）を設定できます。
+
+詳しくは、[ドキュメント統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md)を参照してください。
 
 ## グループ管理者はビジネスプロファイルを管理できます
 

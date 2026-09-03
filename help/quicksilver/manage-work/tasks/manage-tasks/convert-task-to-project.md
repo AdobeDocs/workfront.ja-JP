@@ -23,23 +23,19 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1266
-ht-degree: 71%
+source-wordcount: 1278
+ht-degree: 73%
 
 ---
 
 # タスクをプロジェクトに変換
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 プロジェクト内のタスクを完了するために必要な労力が当初の予定よりも多い場合、タスクをプロジェクトに変換できます。
@@ -111,16 +107,16 @@ Old:
 * ドキュメント、ドキュメントのバージョンおよびプルーフは、新規プロジェクトに移動されます。
 * タスクをプロジェクトに変換する場合、5分間の処理制限があります。 タスクに多数のドキュメントが添付されていて、変換できない場合は、一部のドキュメントを削除して、もう一度試す必要がある場合があります。
 * 組織が従来のWorkfrontとAdobe クラウドストレージの両方をドキュメントに使用している場合、タスクをプロジェクトに変換する際に次のシナリオが発生します。<!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * 従来のWorkfront ストレージタスクは、従来のWorkfront ストレージプロジェクトを作成します。
-   * Adobe クラウドストレージタスクは、Adobe クラウドストレージプロジェクトを作成します。
-   * 従来のWorkfront ストレージテンプレートを使用してAdobe クラウドストレージタスクを変換すると、Adobe クラウドストレージプロジェクトが作成されます。
-   * Adobe クラウドストレージテンプレートを使用して、従来のWorkfront ストレージタスクを変換すると、Adobe クラウドストレージプロジェクトが作成されます。 ドキュメントとその承認は、現在のプロジェクトに残ります。
+  * 従来のWorkfront ストレージタスクは、従来のWorkfront ストレージプロジェクトを作成します。
+  * Adobe クラウドストレージタスクは、Adobe クラウドストレージプロジェクトを作成します。
+  * 従来のWorkfront ストレージテンプレートを使用してAdobe クラウドストレージタスクを変換すると、Adobe クラウドストレージプロジェクトが作成されます。
+  * Adobe クラウドストレージテンプレートを使用して、従来のWorkfront ストレージタスクを変換すると、Adobe クラウドストレージプロジェクトが作成されます。 ドキュメントとその承認は、現在のプロジェクトに残ります。
 
-     詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
+    詳しくは、[&#x200B; プロジェクトおよび関連オブジェクトのドキュメント管理の概要](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)を参照してください。
 
-     >[!TIP]
-     >
-     >Workfront インスタンスでは、両方の種類のドキュメントストレージにアクセスできない場合があります。
+    >[!TIP]
+    >
+    >Workfront インスタンスでは、両方の種類のドキュメントストレージにアクセスできない場合があります。
 
 
 * すべてのサブタスクとイシューのステータスと完了率は保持されます。
@@ -163,7 +159,7 @@ Old:
     </tr> 
     <tr> 
     <td>プロジェクト状況</td> 
-    <td>設定領域のWorkfront管理者が決定したシステムレベルのデフォルト設定と一致します。詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md"> プロジェクトのデフォルトとしてカスタム条件を設定</a>を参照してください
+    <td>設定エリアの Workfront 管理者が決定した、システムレベルのデフォルト環境設定に一致します。 詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">カスタム条件をプロジェクトのデフォルトとして設定</a>を参照してください。
     </td> 
     </tr> 
     <tr> 

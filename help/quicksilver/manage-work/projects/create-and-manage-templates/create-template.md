@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 790
 ht-degree: 48%
@@ -37,13 +37,9 @@ ht-degree: 48%
 <!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 テンプレートエリアからテンプレートを作成および削除できます。 新しいテンプレートを作成するときは、すべてのタスクと、将来のプロジェクト設定についての情報を入力できます。 この情報は、テンプレートから作成するプロジェクトに転送されます。
@@ -140,15 +136,15 @@ Old:
 
      テンプレートが作成され、そのデフォルト名は、Workfrontがドキュメントに使用するストレージに応じて、次のパターンに従います。
 
-      * Workfront ストレージテンプレート用の&#x200B;**名称未設定テンプレート**。
+     * Workfront ストレージテンプレート用の&#x200B;**名称未設定テンプレート**。
 
-        レガシーWorkfront ストレージテンプレートの名前の横に、**レガシーWorkfront ストレージ** アイコン ![&#x200B; レガシーストレージプロジェクトアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
+       レガシーWorkfront ストレージテンプレートの名前の横に、**レガシーWorkfront ストレージ** アイコン ![&#x200B; レガシーストレージプロジェクトアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
 
-      * **名称未設定のテンプレート - Adobe クラウドストレージテンプレートの&lt;月の日、年の時間。分。秒>**
+     * **名称未設定のテンプレート - Adobe クラウドストレージテンプレートの&lt;月の日、年の時間。分。秒>**
 
-        >[!IMPORTANT]
-        >
-        >Adobe ストレージを使用するテンプレートには、一意の名前を付ける必要があります。
+       >[!IMPORTANT]
+       >
+       >Adobe ストレージを使用するテンプレートには、一意の名前を付ける必要があります。
 
    ![新規テンプレート](assets/create-template-nwe-2022-350x102.png)
 

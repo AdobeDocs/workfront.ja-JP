@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66a134507a06c0ce0b4fd78bfa5e32bd95f8f08c
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
 source-wordcount: 798
 ht-degree: 14%
@@ -28,6 +28,7 @@ ht-degree: 14%
 ---
 
 # 新しいドキュメントバージョンのアップロードと承認のリクエスト
+
 
 以前のレビューで「作業が必要」とマークされたドキュメントの場合は、新しいバージョンを元のドキュメントにアップロードして、別の承認ラウンドを開始できます。 新しいバージョンのドキュメントをアップロードすると、以前のバージョンはロックされます。
 
@@ -207,3 +208,7 @@ the previous participants, new participants, or a mix of both. You can view info
 1. 「**承認を依頼**」をクリックします。
 
    承認ワークフローが開始され、新しいドキュメントのバージョンで承認が必要であることを示す通知が承認者に届きます。 以前のバージョンのドキュメントはロックされ、以前のバージョンで未承認の承認は取り消されます。
+
+<!--
+   <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>
+-->

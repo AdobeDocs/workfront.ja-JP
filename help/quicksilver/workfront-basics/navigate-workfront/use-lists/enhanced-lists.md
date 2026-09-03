@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 3318
+source-wordcount: 3304
 ht-degree: 2%
 
 ---
@@ -90,7 +90,6 @@ ht-degree: 2%
 | ボード管理者ビュー | ボード/管理者ビュー |
 | Adobe クラウドストレージのドキュメント | プロジェクト、タスク、イシュー、ポートフォリオ、プログラム、テンプレート、テンプレートタスク/ドキュメント |
 | <span class="preview"> シナリオプランとイニシアチブのリスト </span> | <span class="preview"> メインメニュー/シナリオ </span> |
-| <span class="preview">目標と進捗状況インジケーターのリスト </span> | <ul><li><span class="preview"> メインメニュー/目標</span></li><li><span class="preview"> メインメニュー/目標/進行状況インジケーター</span></li></ul> |
 
 <!--
 
@@ -98,6 +97,9 @@ Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documen
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
 -->
 
@@ -185,7 +187,7 @@ Under Locations?
 
 1. 切り替えスイッチを使用して、リストの列を表示または非表示にします。
 
-<span class="preview">検索ボックスで列を検索できます。</span>
+   <span class="preview">検索ボックスで列を検索できます。</span>
 
 1. 列を並べ替えるには、**ドラッグ** アイコン ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-icon.png)をクリックし、列を目的の場所に移動します。 列を移動すると、リストが自動的に変更されます。
 

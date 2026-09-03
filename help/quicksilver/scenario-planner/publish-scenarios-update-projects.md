@@ -21,14 +21,18 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1705
-ht-degree: 81%
+source-wordcount: 1817
+ht-degree: 76%
 
 ---
 
 # [!DNL Scenario Planner] でイニシアチブをアップデートまたは作成
+
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 [!DNL Adobe Workfront Scenario Planner] からシナリオを公開すると、以下のことが実現されます。
 
@@ -195,24 +199,24 @@ Old:
    イニシアチブの作成については、[イニシアチブの作成と編集： [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)を参照してください。
 
 1. 「**[!UICONTROL 計画の保存]**」をクリックします。
-1. **[!UICONTROL 初期シナリオ]** ドロップダウンメニューから公開するシナリオを選択し、**[!UICONTROL 公開に移動]** ![右上隅の公開に移動](assets/go-to-publish-button-icon.png)をクリックします。
+1. **[!UICONTROL 初期シナリオ]** ドロップダウンメニューから公開するシナリオを選択し、右上隅の&#x200B;**[!UICONTROL 公開]**&#x200B;に移動をクリックします。
 
    または
 
-   「**[!UICONTROL シナリオを比較]**」をクリックし、公開するシナリオカードにカーソルを合わせて、**[!UICONTROL 公開に移動]** ![公開に移動](assets/go-to-publish-button-icon.png)をクリックします。
+   「**[!UICONTROL シナリオを比較]**」をクリックし、公開するシナリオカードにカーソルを合わせて、「**[!UICONTROL 公開に移動]**」をクリックします。
 
-   [!UICONTROL イニシアティブを公開]ページが表示され、シナリオ内のすべてのイニシアチブが一覧表示されます。 いずれかのイニシアチブが以前に公開された場合、プロジェクトアイコン ![&#x200B; プロジェクトアイコン &#x200B;](assets/project-icon-sp.png)は名前の後に表示され、**[!UICONTROL 最終公開日]**&#x200B;がリストに入力されます。
+   [!UICONTROL **イニシアティブを公開**]&#x200B;ページが表示され、シナリオ内のすべてのイニシアチブが一覧表示されます。 <span class="preview">いずれかのイニシアチブが以前に公開された場合、プロジェクトアイコン ![&#x200B; プロジェクトアイコン &#x200B;](assets/project-icon-sp.png)は名前の後に表示され、**[!UICONTROL 最後に公開された]**&#x200B;日付がリストに入力されます。</span>
 
    >[!TIP]
    >
-   >プロジェクトの読み込みによって作成されたイニシアチブには、プロジェクトアイコン ![&#x200B; プロジェクトアイコン &#x200B;](assets/project-icon-sp.png)も名前の右側に表示されます
+   >実稼動環境では、プロジェクトの読み込みによって作成されたイニシアチブには、名前の右側にプロジェクトアイコン ![&#x200B; プロジェクトアイコン &#x200B;](assets/project-icon-sp.png)も表示されます
 
    ![&#x200B; プロジェクトアイコンと最終公開日](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-   <!--
-    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
-    -->
-1. （オプションおよび条件付き）既存のプランから公開する場合は、プランの右上隅にある&#x200B;**[!UICONTROL フィルター]** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png)をクリックし、次のいずれかのオプションを選択します。
+
+1. <span class="preview"> （オプション） **公開イニシアチブ** ページで、プロジェクト名にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png) > **プロジェクトを開く**&#x200B;をクリックします。 プロジェクトが新しいブラウザータブで開きます。</span>
+
+1. （オプションおよび条件付き）既存のプランから公開する場合は、プラン <span class="preview">の右上隅にある&#x200B;**[!UICONTROL フィルター]** アイコンまたは左上隅にあるテーブルアイコン </span>をクリックし、次のいずれかのオプションを選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -244,16 +248,20 @@ Old:
    >
    >新しいプロジェクトには、公開されたイニシアチブと同じ名前が付けられます。
 
-1. （条件付き）次のいずれかを行います。
+1. （条件付き）イニシアチブが公開された後、確認メッセージで次のいずれかをクリックします。
 
    * 1 つのイニシアチブを公開した場合は、「**[!UICONTROL 関連プロジェクトを表示]**」をクリックして、そのイニシアチブから作成または更新されたプロジェクトを開きます。
-   * 複数のイニシアチブを公開した場合は、「**[!UICONTROL 関連プロジェクトを表示]**」をクリックして、イニシアチブから公開されたプロジェクトのリストを開きます。 [!DNL Workfront] では、デフォルトで[!DNL Scenario Planner]プロジェクトフィルターをプロジェクトのリストに適用します。 直近に公開されたプロジェクトがリストの一番上に表示されます。
+   * 複数のイニシアチブを公開した場合は、「**[!UICONTROL 関連プロジェクトを表示]**」をクリックして、イニシアチブから公開されたプロジェクトのリストを開きます。
 
-     ![&#x200B; イニシアチブの公開後のシナリオプランナー](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+   これにより、「プロジェクト」エリアが開き、「[!DNL Scenario Planner] プロジェクト」フィルターがデフォルトでプロジェクトのリストに適用されます。
+
+   直近に公開されたプロジェクトがリストの一番上に表示されます。
+
+   ![&#x200B; イニシアチブの公開後のシナリオプランナー](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. プロジェクトに関するイニシアチブ情報を表示するには、次の領域に移動します。
 
-   * **「[!UICONTROL 更新]」セクション**：プロジェクトがイニシアチブから作成または更新されたことを示すために更新が公開されます。 更新には、プロジェクトを作成または更新したイニシアチブの名前と、そのイニシアチブを含んだプランのリンクされた名前が含まれます。 更新内のプランの名前をクリックすると、[!DNL Scenario Planner]でプランを開くことができます。
+   * **「[!UICONTROL 更新]」セクション**: プロジェクトがイニシアチブから作成または更新されたことを示す更新が「**システムアクティビティ**」タブに公開されます。 更新には、プロジェクトを作成または更新したイニシアチブの名前と、そのイニシアチブを含んだプランのリンクされた名前が含まれます。 更新内のプランの名前をクリックすると、[!DNL Scenario Planner]でプランを開くことができます。
 
      ![&#x200B; パブリッシュのストリーム確認の更新](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
@@ -297,6 +305,8 @@ Old:
      </tr> 
       </tbody> 
      </table>
+
+     <!-- for the above table - I am not seeing the job role information on the Overview of the project anymore- bug??-->
 
      >[!NOTE]
      >

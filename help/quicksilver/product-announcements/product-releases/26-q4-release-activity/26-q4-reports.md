@@ -4,7 +4,7 @@ description: 2026年第4四半期レポートの強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6047e993ed182951e92b2b2328840a31d4df96b8
+source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 8%
@@ -16,6 +16,28 @@ ht-degree: 8%
 このページでは、2026年第4四半期リリースで行われたレポートの機能強化について、プレビュー環境に対して説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
+
+<!--
+
+## Duplicate dashboards in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+
+When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+
+Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+
+Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
+
+For more information, see 
+
+-->
 
 ## カンバスダッシュボードの「承認タイプ」フィールド
 

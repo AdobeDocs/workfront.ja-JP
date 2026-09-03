@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: スコアカードの作成
 description: スコアカードは、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合するかを測定します。 スコアカードは、多くの場合、組織の使命、価値、戦略的目標を反映しています。通常、Portfolioのマネージャーは、スコアカードの質問と回答を定義し、プロジェクトの優先順位付けと選択の際に、有意義かつ価値のあるものであることを確認します。  [!DNL Adobe Workfront]  管理者は、ポートフォリオマネージャーからの推奨に基づいてスコアカードを作成します。
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 69%
+source-wordcount: 846
+ht-degree: 62%
 
 ---
 
@@ -32,11 +32,12 @@ ht-degree: 69%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+
 
 スコアカードは、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合するかを測定します。 スコアカードは、多くの場合、組織の使命、価値、戦略的目標を反映しています。
 
@@ -84,7 +85,7 @@ ht-degree: 69%
 
 1. **[!UICONTROL スコアカード]**&#x200B;をクリックしてから、**[!UICONTROL 新規スコアカード]**&#x200B;をクリックします。
 
-   **新しいスコアカード** ボックスが開きます。
+   「**新しいスコアカード**」ボックスが開きます。
 
    ![新しいスコアカード ボックス &#x200B;](assets/new-scorecard-350x173.png)
 
@@ -128,6 +129,11 @@ ht-degree: 69%
 
    これにより、スコアカードが作成され、プロジェクトマネージャーはそれをプロジェクトのビジネスケースに添付できます。
 
+
+1. <span class="preview"> （オプション）スコアカードを編集するには、スコアカードのリストでスコアカードを選択し、リストの下部にある&#x200B;**編集** ![&#x200B; スコアカードを編集](assets/edit-scorecard-icon.png)をクリックします。</span>
+
+1. <span class="preview"> （オプション）スコアカードを削除するには、スコアカードのリストでスコアカードを選択し、リストの下部にある&#x200B;**削除** ![&#x200B; スコアカードを削除](assets/delete-scorecard-icon.png)をクリックします。</span>
+
 ## 既存のスコアカードのコピー
 
 スコアカードを作成するには、既存のスコアカードをコピーして編集します。
@@ -135,11 +141,15 @@ ht-degree: 69%
 {{step-1-to-setup}}
 
 1. 左側のパネルで「**[!UICONTROL スコアカード]**」をクリックします。
-1. リストでスコアカードを選択し、スコアカード リストの上部にある&#x200B;**コピー** アイコン ![&#x200B; スコアカード アイコン &#x200B;](assets/copy-scorecard-icon.png)をクリックします。
+1. リストでスコアカードを選択し、スコアカード リスト <span class="preview">の上部にある&#x200B;**コピー**&#x200B;または&#x200B;**コピー** ![&#x200B; スコアカード アイコン &#x200B;](assets/copy-scorecard-icon.png)をリスト </span>の下部でクリックします。
 
-   「**スコアカードをコピー**」ボックスが開きます。
+   **コピー** スコアカード ボックスが開きます。
 
    ![&#x200B; スコアカード ボックスをコピー](assets/copy-scorecard-box.png)
+
+   >[!TIP]
+   >
+   >スコアカードの名前がボックスのタイトルに表示されます。
 
 1. 次の情報を指定します。
 

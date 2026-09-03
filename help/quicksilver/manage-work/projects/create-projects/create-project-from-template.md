@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5d51290f1181ea1abfc6ac918721e803da049790
+source-git-commit: bde3551443641024b87397e35064ebf4577179eb
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 62%
@@ -239,6 +239,7 @@ Old:
    プロジェクトに合わせて、事前入力された値を編集します。
 
    詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
+
 1. 「**プロジェクトを作成**」をクリックします。
 
    前の手順で変更しなかった場合、テンプレートで定義したすべての詳細は、新しく作成されたプロジェクトに自動的に関連付けられます。
@@ -273,6 +274,7 @@ Old:
    テンプレートに既にフィールドが入力されている場合、そのフィールドは&#x200B;**新規プロジェクト**&#x200B;ボックスで事前に入力されています。 事前入力された値を編集し、プロジェクトに合わせて調整できます。
 
    詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
+
 
 1. 「**プロジェクトを作成**」をクリックします。
 

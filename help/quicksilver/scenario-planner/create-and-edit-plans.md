@@ -20,14 +20,19 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2407
-ht-degree: 91%
+source-wordcount: 2467
+ht-degree: 89%
 
 ---
 
 # [!DNL Scenario Planner] での計画の作成と編集
+
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 会社の上位レベルの戦略に優先順位を付ける場合、[!DNL Workfront Scenario Planner] の使用の一環として計画を作成できます。 計画に関して詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/plans-overview.md) の計画の概要を参照してください。
 
@@ -71,7 +76,7 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner][&#128279;](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な アクセスを参照してください。
+シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner]&#x200B;[&#128279;](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な アクセスを参照してください。
 
 Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
@@ -136,7 +141,7 @@ Old:
 
 作成した既存の計画のリストが、[!DNL Workfront Scenario Planner] に表示されます。
 
-1. （オプション）プランリストの右上隅にある&#x200B;**[!UICONTROL フィルター]** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon-34x37.png)をクリックし、次から選択します。
+1. （オプション）リストの上部にある&#x200B;**[!UICONTROL フィルター]** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon-34x37.png)、<span class="preview">または&#x200B;**テーブル** アイコン ![&#x200B; テーブルアイコン &#x200B;](assets/table-icon.png)</span>をクリックし、次から選択します。
 
    | フィルター | 説明 |
    |---|---|
@@ -148,23 +153,13 @@ Old:
 
 1. （オプション） **[!UICONTROL 検索]** アイコン ![検索アイコン &#x200B;](assets/search-icon.png)をクリックしてキーワードを入力し、リスト内のプランをすばやく見つけます。
 
-1. 既存の計画の名前をクリックして編集し、手順 7 に進みます。
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate) </p>
-   -->
+1. 既存のプランの名前をクリックして編集し、手順7.<!--is the step still accurate)-->に進みます。
 
    または
 
-   左上隅にある「**[!UICONTROL 新規計画]**」をクリックして計画を作成し、手順 5 に進みます。
+   左上隅の&#x200B;**[!UICONTROL 新しいプラン]**&#x200B;をクリックしてプランを作成し、手順5に進みます。<!--is the step still accurate-->
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
-   -->
-
-   ![新しいプラン ボタン &#x200B;](assets/new-plan-button.png)
-
-   [!UICONTROL 新規計画]ボックスが表示されます。
+   [!UICONTROL **新しいプラン**] ボックスが表示されます。
 
    ![新しいプラン ボックス &#x200B;](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
@@ -209,7 +204,7 @@ Old:
     </tbody> 
    </table>
 
-<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
+   <!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. （条件付き）「**[!UICONTROL 次へ]**」をクリックします。
 

@@ -20,20 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 648
-ht-degree: 25%
+source-wordcount: 771
+ht-degree: 24%
 
 ---
 
 # レコードタイプの編集
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -214,10 +214,8 @@ Old:
    >
    >![&#x200B; グローバル検索ボックス &#x200B;](assets/global-search-box.png)
 
-<!--
-1. <span class="preview">(Optional) To add, edit, deactivate or delete record type business rules, go to the record type page and click the More menu to the right of the record type name, then click **Business rules**. </span>
+1. <span class="preview"> （オプション）レコードタイプのビジネスルールを追加、編集、非アクティブ化または削除するには、レコードタイプページに移動し、レコードタイプ名の右側にある&#x200B;**詳細** メニューをクリックしてから、**ビジネスルール**&#x200B;をクリックします。</span>
 
-   <span class="preview">Business rules are conditions set on the record type that define when records of that type can be edited or deleted. </span>
+   <span class="preview"> ビジネスルールは、そのタイプのレコードを編集または削除できるタイミングを定義する、レコードタイプに設定された条件です。</span>
 
-   <span class="preview"> For information, see [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).</span> 
--->
+   <span class="preview">詳しくは、[&#x200B; レコードタイプのビジネスルールの作成](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。</span>

@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 958
-ht-degree: 47%
+source-wordcount: 1032
+ht-degree: 46%
 
 ---
 
@@ -32,16 +32,10 @@ ht-degree: 47%
 
 <!-- Audited: 08/2025 -->
 
-<!--
 
-<div class="preview">
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 [!DNL Adobe Workfront] は、オブジェクトの[!UICONTROL 更新]エリアで自動システム更新を生成し、次のイベントを記録します。
 
@@ -270,6 +264,6 @@ Old:
 1. アクションのチェックボックスを選択して有効にするか、選択を解除して無効にします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+   <span class="preview">**保存** ボタンがプレビュー環境から削除され、変更が自動的に保存されます。</span>
 
 

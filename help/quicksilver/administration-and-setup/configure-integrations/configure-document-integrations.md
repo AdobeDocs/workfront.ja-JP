@@ -21,14 +21,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: bf611a79078eac9cf8f78a20ddc83079b36a7de5
 workflow-type: tm+mt
-source-wordcount: 1111
-ht-degree: 84%
+source-wordcount: 1184
+ht-degree: 79%
 
 ---
 
 # ドキュメント統合の設定
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -58,7 +60,7 @@ ht-degree: 84%
    <td>Adobe Workfront ライセンス
    </td>
    <td>標準
-   <p>計画</p>
+   <p>プラン</p>
    </td>
   </tr>
    <tr>
@@ -97,14 +99,14 @@ ht-degree: 84%
 
 * サードパーティクラウドドキュメントプロバイダー：
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Google Drive]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Google Drive]
+  * Quip
 
   >[!TIP]
   >
@@ -206,6 +208,8 @@ ht-degree: 84%
 
    [!DNL Workfront] はこの API キーを使用して、ドキュメントプロバイダーに対する認証済みの API 呼び出しを行います。
 
+1. （オプション） <span class="preview">大きなファイルのサポートを有効にするには、**[!UICONTROL 大きなファイルのサポート]** セクションで「**[!UICONTROL 大きなファイルのチャンクアップロードを有効にする]**」を選択し、**[!UICONTROL チャンクアップロードしきい値（MB）]** フィールドに最大チャンクサイズ（MB）を入力します。 このフィールドには、100 MBまでの値を入力できます。 有効にすると、25 MBを超えるファイルは、1回のリクエストではなく、このサイズのチャンクにアップロードされます。</span>
+
 1. 「**[!UICONTROL 保存]**」をクリックして統合を作成します。
 
 ## ドキュメント統合を使用
@@ -266,9 +270,9 @@ ht-degree: 84%
 ### Google Driveとの統合
 
 * リンクされたフォルダーがWorkfrontに追加されると、そのフォルダー内のファイルは自動的に追加されなくなります。
-   * Google フォルダーをファイルなしでWorkfrontに追加し、個々のファイルをWorkfrontに追加できます。これらのファイルは、WorkfrontのGoogle フォルダーに自動的に追加されます。
-または
-   * Workfrontでドキュメントフォルダーを作成し、Google フォルダー内のすべてのファイルを選択してWorkfront フォルダーに追加できます。
+  * Google フォルダーをファイルなしでWorkfrontに追加し、個々のファイルをWorkfrontに追加できます。 これらのファイルは、WorkfrontのGoogle フォルダーに自動的に追加されます。
+    または
+  * Workfrontでドキュメントフォルダーを作成し、Google フォルダー内のすべてのファイルを選択してWorkfront フォルダーに追加できます。
 
 
 * Google ドライブのドキュメント統合では、Google ドライブのマイドライブ領域からのファイルの追加をサポートしています。 共有ドライブからフォルダーや画像を追加することはできません。 [Google Shared Drive](https://support.google.com/a/users/answer/7212025?hl=en)の詳細をご覧ください。

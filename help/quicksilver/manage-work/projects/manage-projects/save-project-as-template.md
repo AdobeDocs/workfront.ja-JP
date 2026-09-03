@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 56%
+source-wordcount: 491
+ht-degree: 54%
 
 ---
 
@@ -37,13 +37,9 @@ ht-degree: 56%
 -->
 
 <!--
-<div class="preview">
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 プロジェクトが将来再び発生することが決定した場合は、その既存のプロジェクトからテンプレートを作成できます。 次に、テンプレートを再度使用して、同様の情報を含む可能性がある、または既存のプロジェクトと同じタイムラインや割り当てを共有する可能性のある今後のプロジェクトを作成できます。
@@ -209,7 +205,7 @@ Saving a project as a template differs in the Production and the Preview environ
 1. 左側のパネルの&#x200B;**カスタム Forms**&#x200B;をクリックして、フォームを削除または並べ替えます。
 
    フォームを並べ替えるには、フォームを正しい順序でドラッグ&amp;ドロップします。
-フォームを削除するには、フォームを選択し、**削除**&#x200B;をクリックします。**キャンセル**&#x200B;をクリックして、選択したフォームを削除します。
+   フォームを削除するには、フォームを選択し、**削除**&#x200B;をクリックします。 **キャンセル**&#x200B;をクリックして、選択したフォームを削除します。
 
    ![&#x200B; テンプレートとして保存ボックスのカスタムフォーム領域](assets/custom-forms-ara-in-save-as-template-box.png)
 

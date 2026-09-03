@@ -25,27 +25,25 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: 96cf04616582ac0208a9365d0f10f2403ebd317c
 workflow-type: tm+mt
-source-wordcount: 5111
-ht-degree: 82%
+source-wordcount: 5223
+ht-degree: 81%
 
 ---
 
 # プロジェクトテンプレートの編集
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
 <!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 -->
 
@@ -253,6 +251,15 @@ Old:
       <tr> 
       <td role="rowheader"><strong>会社</strong></td> 
       <td><p>テンプレートに関連付ける会社を指定します。 アクティブな会社のみがリストに表示されます。</p></td> 
+      </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Frame.io ワークスペース （条件付き）</strong></span></td>
+      <td><span class="preview">
+      <p>Adobe クラウドストレージプロジェクトで、このテンプレートから作成したプロジェクトで使用するFrame.io ワークスペースを選択します。 組織に複数のFrame.io ワークスペースがある場合は、リンクされたFrame.io プロジェクトが作成されるワークスペースが決まります。</p>
+      <p>このリストには、プロジェクトの割り当て権限を持つFrame.io ワークスペースのみが含まれます。 ワークスペースが選択されていないか、使用可能でない場合に使用されるデフォルトのワークスペース。</p>
+      <p>このフィールドは、テンプレート上でいつでも変更できます。 変更は、変更後に作成されたプロジェクトにのみ適用されます。テンプレートから既に作成されたプロジェクトは、既存のFrame.io ワークスペースを維持します。</p>
+      <p>注意：Frame.io ワークスペース フィールドを使用するには、Frame.io エンタープライズ版が必要です。</p>
+      </span></td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>テンプレート所有者</strong></td> 
@@ -468,7 +475,7 @@ Old:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>時間タイプのフィルター</strong> </td> 
-      <td> <p>次の点に注意してください。</p> <p>「<strong>いいえ</strong>」を選択して、プロジェクト固有のすべての時間タイプを今後のプロジェクトで使用できるようにします。 （これはデフォルトの選択です）</p> <p>または</p> <p>「<strong>はい</strong>」を選択して、プロジェクト固有の時間タイプのサブセットのみを今後のプロジェクトで使用可能にしたうえで、使用できる時間タイプを選択します。 （複数の時間タイプを選択するには、Shift キーを押しながら選択します）。</p> <p>このオプションを選択した場合は、選択した時間タイプのみが、プロジェクト（またはプロジェクト内のタスクやイシュー）の時間を記録する際に選択できるようになります。 1 つ以上の時間タイプを選択する必要があります。このオプションを選択し、時間タイプを選択しない場合、すべての時間タイプがプロジェクトで使用可能になります。</p> <p>ユーザーがプロジェクトでこれらの時間タイプのオプションを表示するには、個々のユーザーレベルで同じ時間タイプの選択を行う必要があります。 </p> <p>ユーザーレベルでの時間タイプの定義について詳しくは、<a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">時間の記録</a>で<a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">時間の記録</a>の節を参照してください。</p> </td> 
+      <td> <p>次の点に注意してください。</p> <p>「<strong>いいえ</strong>」を選択して、プロジェクト固有のすべての時間タイプを今後のプロジェクトで使用できるようにします。 （これはデフォルトの選択です）</p> <p>または</p> <p>「<strong>はい</strong>」を選択して、プロジェクト固有の時間タイプのサブセットのみを今後のプロジェクトで使用可能にしたうえで、使用できる時間タイプを選択します。 （複数の時間タイプを選択するには、Shift キーを押しながら選択します）。</p> <p>このオプションを選択した場合は、選択した時間タイプのみが、プロジェクト（またはプロジェクト内のタスクやイシュー）の時間を記録する際に選択できるようになります。 1 つ以上の時間タイプを選択する必要があります。このオプションを選択し、時間タイプを選択しない場合、すべての時間タイプがプロジェクトで使用可能になります。</p> <p>ユーザーがプロジェクトでこれらの時間タイプのオプションを表示するには、個人ユーザーレベルで同じ時間タイプの選択を行う必要があります。 </p> <p>ユーザーレベルでの時間タイプの定義について詳しくは、<a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">時間の記録</a>で<a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">時間の記録</a>の節を参照してください。</p> </td> 
       </tr> 
       <tr> 
       <td role="rowheader"><strong>リマインダ通知</strong> </td> 
@@ -772,8 +779,8 @@ To edit templates in bulk:
 
   プロジェクトまたはテンプレートへのトピックグループとキュートピックの追加について詳しくは、次の記事を参照してください。
 
-   * [トピックグループを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [キュートピックを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+  * [トピックグループを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+  * [キュートピックを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 テンプレート内のタスクに以下の項目を追加できます。
 

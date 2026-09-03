@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1404'
 ht-degree: 5%
 
 ---
@@ -158,7 +158,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
    * 接続されたレコードフィールドの列ヘッダーには、そのフィールドが依存関係にあることを示す表示があります。
 
      ![列ヘッダーの依存アイコンのツールヒント &#x200B;](assets/dependent-icon-tooltip-in-column-header.png)
+1. （オプション）「**レコードフィルタリングルール**」をクリックし、接続しているレコードタイプからフィールドを選択して、そのフィールドの値のオプションを制限してから、**完了**&#x200B;をクリックします。
 
+   2つのフィールドが3番目のレコードタイプに存在する場合、接続されたフィールドレコードタイプのオプションは、ここで選択したフィルターによって制限されます。
 1. （オプションおよび推奨） 3番目のレコードタイプに移動し、最初と2番目のレコードタイプの両方を接続されたレコードフィールドとして追加します。
 
    ![3つ目のレコードタイプに依存する接続フィールドインジケーター](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

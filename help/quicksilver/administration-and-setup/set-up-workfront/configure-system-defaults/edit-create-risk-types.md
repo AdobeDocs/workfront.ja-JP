@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 35%
+source-wordcount: 646
+ht-degree: 36%
 
 ---
 
@@ -31,6 +31,12 @@ ht-degree: 35%
 <!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+<!--remove preview and production references-->
+
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 Adobe Workfrontには、計画段階でプロジェクトに関連付けて、作業が承認される前に潜在的な障害を特定できる、デフォルトのリスクタイプがいくつかあります。
 
@@ -94,7 +100,7 @@ Workfront インスタンスのリスクタイプの数を増やすには、次�
 
 1. 「**[!UICONTROL リスクタイプ]**」をクリックします。
 1. 編集するリスクタイプを選択します。
-1. **[!UICONTROL 編集]** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックします。
+1. **[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
    「[!UICONTROL **リスクタイプを編集**]」ボックスが開きます。
 
@@ -110,18 +116,29 @@ Workfront インスタンスのリスクタイプの数を増やすには、次�
 
 1. 「**[!UICONTROL 変更を保存]」をクリックします。**
 
-1. （オプション）リスクタイプを削除するには、リストでリスクタイプを選択し、[!UICONTROL **削除**] アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックしてから、[!UICONTROL **はい、削除**]&#x200B;をクリックします。 リスクの種類は削除され、復元できません。
+1. （オプション）リスクタイプを削除するには、リストでリスクタイプを選択し、[!UICONTROL **削除**] アイコンをクリックしてから、[!UICONTROL **はい、削除**]&#x200B;をクリックします。 リスクの種類は削除され、復元できません。
 
-1. （オプション）リスクタイプのリストを書き出すには、[!UICONTROL **書き出し**] アイコン ![書き出しアイコン &#x200B;](assets/export-icon.png)をクリックします。 次のファイルタイプに書き出すことができます。
+1. （オプション）リスクタイプのリストを書き出すには、[!UICONTROL **書き出し**] アイコンをクリックします。 次のファイルタイプに書き出すことができます。
 
-   * PDF
-   * Excel
-   * Excel（xlsx）
-   * タブ区切り
+   * 実稼動環境では、次の操作を行います。
+
+     * PDF
+     * Excel
+     * Excel（xlsx）
+     * タブ区切り
+     * CSV
+
+   <div class="preview">
+
+   * プレビュー環境では、次の操作を行います。
+
+     * CSV
+     * XLSX
+   </div>
 
    >[!TIP]
    >
-   >   最初に限られた数のリスクタイプを選択し、次に小さいリスト用に書き出すことができます。
+   >   実稼動環境では、最初に限られた数のリスクタイプを選択し、それをより小さいリスト用に書き出すことができます。<!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### リスクタイプの作成 {#create-risk-types}
 

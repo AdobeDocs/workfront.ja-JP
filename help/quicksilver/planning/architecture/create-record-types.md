@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: 1271
 ht-degree: 42%
 
 ---
@@ -33,11 +33,11 @@ ht-degree: 42%
 
 # レコードタイプの作成
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -293,18 +293,18 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
    変更は自動的に保存されます。
 
-   レコードの追加、レコードタイプの削除または編集、<!--<span class="preview">creating business rules</span>-->またはレコードタイプページのビューの更新について詳しくは、次の記事を参照してください。
+   レコードの追加、レコードタイプの削除または編集、<span class="preview"> ビジネスルールの作成</span>またはレコードタイプページでのビューの更新について詳しくは、次の記事を参照してください。
 
    * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
    * [レコードタイプの削除](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)
 
-   <!--  
-    <div class="preview">
-    * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
-    </div>
-    -->
+   <div class="preview">
+
+   * [レコードタイプのビジネスルールの作成](/help/quicksilver/planning/architecture/configure-business-rules.md)
+
+   </div>
 
 ## CSVまたはExcel ファイルから情報を読み込んで、レコードタイプを作成する
 

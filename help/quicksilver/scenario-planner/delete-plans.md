@@ -2,22 +2,26 @@
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: シナリオプランナーでのプランの削除
-description: 自分で作成した計画を削除できます。自分と共有されている計画は削除できません。
+description: 自分で作成した計画を削除できます。 自分と共有されている計画は削除できません。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 82%
+source-wordcount: '563'
+ht-degree: 74%
 
 ---
 
 # [!DNL Scenario Planner] で計画を削除
 
-自分で作成した計画を削除できます。自分と共有されている計画は削除できません。
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+自分で作成した計画を削除できます。 自分と共有されている計画は削除できません。
 
 ## アクセス要件
 
@@ -51,7 +55,7 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、[を使用するために必要な [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) アクセスを参照してください。
+シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner]&#x200B;[&#128279;](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な アクセスを参照してください。
 
 Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
@@ -113,7 +117,7 @@ Old:
 >
 >計画を削除する際は、次の点を考慮してください。
 >
->* 計画に関連する情報もすべて削除されます。これには、担当業務やコストに関する情報を含む、計画に関連するすべてのシナリオとイニシアチブが含まれます。この情報は復元できません。
+>* 計画に関連する情報もすべて削除されます。 これには、担当業務やコストに関する情報を含む、計画に関連するすべてのシナリオとイニシアチブが含まれます。 この情報は復元できません。
 >* 公開済みのシナリオが計画に含まれる場合、削除されたイニシアチブにリンクされたプロジェクトが保持され、[!DNL Scenario Planner] エリアは「[!UICONTROL プロジェクトの詳細]」セクションに残ります。
 >
 >  プロジェクトへのイニシアチブの公開について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
@@ -127,6 +131,10 @@ Old:
 1. 計画の名前をクリックして開きます。
 1. プラン名の右側にある&#x200B;**[!UICONTROL 詳細メニュー]** ![詳細メニュー](assets/more-menu.png)をクリックし、**[!UICONTROL 削除]** > **[!UICONTROL はい、削除]**&#x200B;をクリックします。
 
+   >[!TIP]
+   >
+   ><span class="preview"> リスト内のプランを選択して削除し、リストの下部にある&#x200B;**削除**&#x200B;をクリックして削除することもできます。</span> <!--move the tip as the main step when we release this??-->
+
    計画が削除され、計画のリストに戻ります。
 
 ### シナリオの削除 {#delete-scenarios}
@@ -135,10 +143,10 @@ Old:
 >
 >シナリオを削除する際は、次の点を考慮してください。
 >
->* シナリオを削除すると、すべてのイニシアチブとその情報がシナリオから削除されます。他のシナリオにコピーした場合、イニシアチブは他のシナリオに残ります。
->* シナリオを削除すると、後続のシナリオでは削除されたシナリオの数が適用され、カウント順が保持されます。例えば、シナリオ 4 を削除すると、シナリオ 5 はシナリオ 4 になります。
+>* シナリオを削除すると、すべてのイニシアチブとその情報がシナリオから削除されます。 他のシナリオにコピーした場合、イニシアチブは他のシナリオに残ります。
+>* シナリオを削除すると、後続のシナリオでは削除されたシナリオの数が適用され、カウント順が保持されます。 例えば、シナリオ 4 を削除すると、シナリオ 5 はシナリオ 4 になります。
 >* シナリオに関する一部のイニシアチブが公開されると、イニシアチブにリンクされたプロジェクトが保持され、シナリオプランナーのエリアはリンクされたプロジェクトに残ります
->* 公開されたイニシアチブが別のシナリオに存在する場合、そのイニシアチブ（プロジェクトへのリンクを含む）は、そのシナリオに残ります。これらのイニシアチブを他のシナリオから公開すると、リンクされたプロジェクトがそれらのシナリオからの新しい情報で更新されます。
+>* 公開されたイニシアチブが別のシナリオに存在する場合、そのイニシアチブ（プロジェクトへのリンクを含む）は、そのシナリオに残ります。 これらのイニシアチブを他のシナリオから公開すると、リンクされたプロジェクトがそれらのシナリオからの新しい情報で更新されます。
 >
 >  プロジェクトへのイニシアチブの公開について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
 

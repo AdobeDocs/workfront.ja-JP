@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 2990
-ht-degree: 4%
+source-wordcount: 3066
+ht-degree: 5%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 4%
 
 <!--take Preview and Production references at Production time-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -148,7 +148,7 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。 デフォルトでは、レコードタイプページがリストビューで開きます。
 
-1. ページヘッダーのレコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**リクエストフォームの作成**&#x200B;または&#x200B;**リクエストフォームの管理**&#x200B;をクリックします。既にフォームがあり、追加のフォームを作成する場合です。
+1. ページヘッダーのレコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、初めてフォームを作成する場合は、**リクエストフォームを作成**&#x200B;をクリックします。 既にフォームがあり、追加のフォームを作成する場合は、**リクエストフォームの管理**&#x200B;または&#x200B;<span class="preview">**リクエストフォーム**.</span>をクリックします。
 
    **要求フォーム** ページが開き、要求がリストビューに表示されます。
 
@@ -369,7 +369,7 @@ Workfront計画リクエストの送信について詳しくは、[&#x200B; レ�
 
 1. レコードタイプのカードをクリックします。 レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-1. ページヘッダーのレコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**リクエストフォームの管理**&#x200B;をクリックします。
+1. ページヘッダーのレコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**リクエストフォームの管理**&#x200B;または&#x200B;<span class="preview">**リクエストフォーム**</span>&#x200B;をクリックします。
 
    **リクエストフォーム** ページが開き、レコードタイプに関連付けられたすべてのリクエストフォームがリストビューに表示されます。
 1. （オプション） **要求フォーム** ページの次のビュー要素を更新して、テーブルでの情報の表示方法を変更します。

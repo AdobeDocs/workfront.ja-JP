@@ -20,16 +20,19 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: ec38b386a008c689946cb359d4714380dd8e5460
 workflow-type: tm+mt
-source-wordcount: 684
-ht-degree: 14%
+source-wordcount: 757
+ht-degree: 13%
 
 ---
 
 # ドキュメントの承認ワークフローテンプレートの作成
 
+{{highlighted-preview}}
+
 Workfrontの設定領域で、標準ライセンスを持つユーザーは、再利用可能な承認テンプレートを作成できます。 作成した承認テンプレートは、オブジェクトの「ドキュメント」領域のアセットに適用できます。
+
 >[!IMPORTANT]
 >
 >この記事では、特定のアカウントでのみ利用できる更新済みのドキュメントの承認機能について説明します。 標準の承認プロセスについて詳しくは、[作業承認](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)にリストされている記事を参照してください。
@@ -60,52 +63,6 @@ Workfrontの設定領域で、標準ライセンスを持つユーザーは、�
 
 +++
 
-<!--
-## Create an Approval Template in Production
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Review and Approval** > **Approval Templates**.
-1. Click **New Template** on the right side of the page. 
-
-1. Fill in the following details:
-
-   <table>
-     <tr>
-   <td><strong>Template name</strong></td>
-   <td>Add a template name. </td>
-   </tr>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Workdays until due date</strong></td>
-   <td>Choose how many workdays until the approval is due after a stage is activated.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-    
-1. Click **Save**.
-
-Once the template is created, it can be applied to documents in the Documents area of an object to begin the formal review and approval process in Workfront.
--->
-
 ## 承認テンプレートの作成
 
 承認テンプレートダイアログは、常に詳細設定モードで開きます。 テンプレートの基本モードはありません。 テンプレートには、最大30個の並列パスを設定でき、合計ステージ数は最大100個です。 各パスは独立して実行され、1つ以上のシーケンシャルステージを含めることができます。
@@ -131,6 +88,11 @@ Once the template is created, it can be applied to documents in the Documents ar
    <td><strong>名前またはメールの追加（オプション）</strong></td>
    <td>承認者またはレビュアーとして追加するユーザー名またはチーム名の入力を開始します。 参加者はテンプレートではオプションです。 テンプレートをドキュメントに適用するときに追加できます。<p>注意：レビュアーまたは承認者は、同じアセットで一度に1つのオープンステージにのみ割り当てることができます。 複数の並行ステージが同時に開いている場合、同じ人物を複数に追加することはできません。</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>プレビューでのユーザーまたはチームの追加（オプション）</strong></span></td>
+    <td><span class="preview">ユーザー名、チーム、または電子メールアドレスを入力します。 参加者はテンプレートではオプションです。 テンプレートをドキュメントに適用するときに、これらのテンプレートを追加することができます。<br>
+    注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。 さらに、参加者は、同じアセットで一度に1つのオープンステージにのみ割り当てることができます。</span></td>
+   </tr>
    <tr>
    <td><strong>1つの決定のみが必要です（オプション）</strong></td>
    <td>最初に決定を下した人がステージを完了します。</td>
@@ -147,11 +109,20 @@ Once the template is created, it can be applied to documents in the Documents ar
 
    ![&#x200B; ステージを追加](assets/add-stage.png)
 
+<!-- screen for preview
+    ![add a stage](assets/add-stage-v2.png)
+-->
+
+
 1. （オプション）「**ステージを追加**」をクリックして、パスに別のステージを追加します。 パス内のステージは、リストされている順序で順次実行されます。 ステージで必要なすべての決定が行われると、そのパスの次のステージが開始され、前のステージがロックされます。 パス内のステージを並べ替えることはできますが、あるパスから別のパスにステージを移動することはできません。 各パスには異なる数のステージを設定できます。
 
 1. （オプション）「**並列パス**」で、「**パスを追加**」をクリックして別のパスを追加します。 新しいパスは、1つの空のステージから始まり、選択したパスになります。 パスは並べ替えできません。
 
    ![並行パスを追加](assets/add-path.png)
+
+<!-- screen for preview
+   ![add parallel paths](assets/add-path-v2.png)
+-->
 
 1. （オプション）パスの名前を変更するには、パスのラベルにカーソルを合わせて鉛筆アイコンをクリックし、新しい名前を入力します。 パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 

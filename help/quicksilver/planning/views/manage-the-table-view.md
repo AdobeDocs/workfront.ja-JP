@@ -19,15 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4047
+source-wordcount: 4041
 ht-degree: 38%
 
 ---
 
 # テーブルビューの管理
 
+<!-- remove Production and Preview references at release-->
 
 <span class="preview">このページで強調表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
@@ -190,7 +191,7 @@ Old:
 <!--
 <div class="preview">
 
-* 500 records upload automaticall. Additional records display as you scroll the view. 
+* 500 records upload automatically. Additional records display as you scroll the view. 
 
 </div>
 -->
@@ -244,6 +245,8 @@ Old:
    * 列ヘッダーをつかみ、目的の位置にドラッグ＆ドロップします。 移動した列は、テーブルに他の調整を行うまで、青色の背景で短時間表示されます。
 
    * テーブルのツールバーで&#x200B;**フィールド**&#x200B;をクリックし、フィールドを目的の順序でドラッグ＆ドロップし、「**フィールドの表示と順序**」ボックスの外側をクリックしてボックスを閉じます。
+
+     <!--update the screen shot without Thumbnail at Production release-->
 
      ![&#x200B; テーブル表示ツールバーの設定フィールドが拡張されました](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -360,26 +363,31 @@ Old:
    ><span class="preview"> ドラッグ&amp;ドロップの行に、選択したレコードの数が複数ある場合は、数値インジケーターに表示されます。</span>
 
 1. （オプション）レコードの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**サムネールを編集**&#x200B;をクリックしてサムネールを編集します。
-1. テーブルの上部にある&#x200B;**フィールド**&#x200B;をクリックし、**サムネール** フィールドの切り替えスイッチを選択して、プライマリフィールドの左側に表示します。 デフォルトでは選択解除されています。
+1. 実稼動環境のテーブルの上部にある&#x200B;**フィールド**&#x200B;をクリックします
+
+   または
+
+   <span class="preview"> プライマリフィールドのヘッダー</span>にカーソルを合わせ、**サムネール** フィールドの切り替えスイッチを選択して、プライマリフィールドの左側に表示します。 デフォルトでは選択解除されています。
 
    詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
-1. <span class="preview"> （オプション）テーブルの上部にある&#x200B;**フィールド**&#x200B;をクリックし、**カラー**&#x200B;をクリックして、レコードの色をプライマリフィールドの左側に表示します。 デフォルトでは、新しいレコードごとに色がランダムに割り当てられます。 **カラー**&#x200B;設定は、デフォルトで選択解除されています。</span>
+1. <span class="preview"> テーブルの上部にある&#x200B;**フィールド**&#x200B;をクリック </span>
+
+   または
+   <span class="preview"> プライマリフィールドのヘッダーにカーソルを合わせ、**カラー** フィールドの切り替えスイッチを選択して、プライマリフィールドの左側に表示します。 デフォルトでは選択解除されています。</span>
 
 1. <span class="preview"> （オプションおよび条件付き） **カラー**&#x200B;設定をオンにした場合、レコードのプライマリフィールドの左側にあるカラーバーをクリックし、**スウォッチ**&#x200B;または&#x200B;**カスタム** タブからカラーを選択し、ボックスの外側をクリックして閉じます。 カラーは直ちに適用されます。</span>
 
-   <div class="preview">
+<div class="preview">
 
-   ![色分けカラーピッカーボックスを記録](assets/color-picker-for-record-color-coding.png)
+![色分けカラーピッカーボックスを記録](assets/color-picker-for-record-color-coding.png)
 
-   詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
+詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
-   </div>
+</div>
 
 
 ### フィルターを追加 {#add-filters-1}
-
-フィルターを使用すると、画面に表示される情報の量を減らすことができます。
 
 フィルターを使用すると、画面に表示される情報の量を減らすことができます。
 

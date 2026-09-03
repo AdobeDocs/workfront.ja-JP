@@ -17,14 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 99%
+source-wordcount: 409
+ht-degree: 81%
 
 ---
 
 # Web フック統合の登録
+
+{{highlighted-preview}}
 
 Adobe Workfront 管理者は、Workfront 内でセッ設定／ドキュメント／カスタム統合に移動して、会社のカスタム Web フック統合を追加することができます。 設定内のカスタム統合ページから、管理者は既存のドキュメント web フック統合のリストを表示することができます。 このページから、統合を追加、編集、有効化、無効化することができます。
 
@@ -56,7 +58,7 @@ Adobe Workfront 管理者は、Workfront 内でセッ設定／ドキュメント
   </tr> 
   <tr> 
    <td>パラメーターのリクエスト</td> 
-   <td> <p>すべての API 呼び出しの文字列に追加されるオプションの値。例：access_type=offline </p> </td> 
+   <td> <p>すべてのAPI呼び出しのクエリ文字列に追加するオプションの値。 例えば、access_type=offline など。 </p> </td> 
   </tr> 
   <tr> 
    <td>認証タイプ</td> 
@@ -85,6 +87,14 @@ Adobe Workfront 管理者は、Workfront 内でセッ設定／ドキュメント
   <tr> 
    <td>ApiKey</td> 
    <td> <p>（ApiKey のみ）web フックプロバイダーに対して承認済み API 呼び出しを行うために使用されます。 Web フックプロバイダーで発行された API キー。</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>大きなファイルのチャンクアップロードを有効にする</td> 
+   <td> <p>25 MBを超えるファイルのマルチパート（チャンク）アップロードを有効にするには、このチェックボックスを選択します。 選択しない場合、サイズに関係なく、1回のリクエストでファイルがアップロードされます。</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>チャンクアップロードしきい値（MB）</td> 
+   <td> <p>大きなファイルをアップロード用に分割する場合の各チャンクの最大サイズ（MB単位）。 100 MBまでの値を使用できます。</p> </td> 
   </tr> 
  </tbody> 
 </table>

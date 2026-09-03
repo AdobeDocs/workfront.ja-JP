@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1373
 ht-degree: 66%
@@ -35,13 +35,9 @@ ht-degree: 66%
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 マイルストーンビューは、プロジェクトリストまたはレポートに適用できます。 マイルストーンビューを使用すると、表示しているプロジェクト内のタスクに関連付けられているすべてのマイルストーンを表示できます。
@@ -123,9 +119,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   Workfront は、最初のセクションのプロジェクトを以下の基準に従って、次の順序で並べ替えます。
 
-   1. マイルストーンパス ID。 マイルストーンパス ID は、マイルストーンパスレポートで確認できます。
+  1. マイルストーンパス ID。 マイルストーンパス ID は、マイルストーンパスレポートで確認できます。
 
-   2. マイルストーンビューを選択する前に、以前にプロジェクトリストに適用されたビューのプロジェクトリストの最初の並べ替えフィールドとして選択されていたフィールド。
+  2. マイルストーンビューを選択する前に、以前にプロジェクトリストに適用されたビューのプロジェクトリストの最初の並べ替えフィールドとして選択されていたフィールド。
 
 * 次にマイルストーンパスに関連付けられていないプロジェクトが、「未割り当て」セクションに表示されます。 Workfront は、マイルストーンビューを選択する前に、以前にプロジェクトリストに適用されたビューのプロジェクトリストの最初の並べ替えフィールドとして選択されていたフィールドを基に、「未割り当て」セクションのプロジェクトを並べ替えます。
 
@@ -140,9 +136,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   予定日を表示しており、プロジェクトへの管理アクセス権も持っている場合は、マイルストーンビューから次の日付を直接編集できます。
 
-   * **プロジェクト開始日：** プロジェクトが開始日からスケジュールされている場合、プロジェクトの予定開始日を手動で変更し、予定完了日を計算できます。
-   * **プロジェクト完了日：** プロジェクトが予定完了日からスケジュールされている場合、プロジェクトの予定完了日を手動で変更でき、予定開始日が計算されます。
-   * **タスク完了日：** タスクの予定完了日は、マイルストーンビューから直接手動で更新できます。
+  * **プロジェクト開始日：** プロジェクトが開始日からスケジュールされている場合、プロジェクトの予定開始日を手動で変更し、予定完了日を計算できます。
+  * **プロジェクト完了日：** プロジェクトが予定完了日からスケジュールされている場合、プロジェクトの予定完了日を手動で変更でき、予定開始日が計算されます。
+  * **タスク完了日：** タスクの予定完了日は、マイルストーンビューから直接手動で更新できます。
 
 * **完了率：**&#x200B;各タスクとプロジェクトの完了率を表示します。
 
@@ -152,10 +148,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 * **タスクの進捗状況アイコン：** タスクの進捗状況を示すアイコンは次のとおりです。
 
-   * オンタイム – 緑
-   * 後ろ – 黄色
-   * リスク – 青
-   * レイト – 赤
+  * オンタイム – 緑
+  * 後ろ – 黄色
+  * リスク – 青
+  * レイト – 赤
 
   <!--
    * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
@@ -177,33 +173,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 * **完了したタスクのステータスの色合い**：タスクが「完了」とマークされた後、マイルストーンビューでタスクの背景に色が付き、タスクが時間通りに完了したか、遅れて完了したかを示します。
 
-   * **タスク列の赤い背景色**：進捗ステータスが&#x200B;**遅延**&#x200B;の場合、タスクの背景は赤色で表示されます。
+  * **タスク列の赤い背景色**：進捗ステータスが&#x200B;**遅延**&#x200B;の場合、タスクの背景は赤色で表示されます。
 
-   * **タスク列の緑の背景色**：進捗ステータスが&#x200B;**オンタイム**&#x200B;の場合、タスクの背景は緑色で表示されます。
+  * **タスク列の緑の背景色**：進捗ステータスが&#x200B;**オンタイム**&#x200B;の場合、タスクの背景は緑色で表示されます。
 
 * **プロジェクトの開始列と完了列のプロジェクトステータスの背景色**：
 
-   * **プロジェクトの開始列**：「実際の開始日」が入力されている場合にのみ、プロジェクトの開始列の背景が、赤色または緑色になります。
+  * **プロジェクトの開始列**：「実際の開始日」が入力されている場合にのみ、プロジェクトの開始列の背景が、赤色または緑色になります。
 
-      * **プロジェクトの開始列の赤い背景色**：プロジェクトの進捗ステータスが&#x200B;**遅延**&#x200B;の場合、プロジェクトの開始列の背景は赤色で表示されます。
+    * **プロジェクトの開始列の赤い背景色**：プロジェクトの進捗ステータスが&#x200B;**遅延**&#x200B;の場合、プロジェクトの開始列の背景は赤色で表示されます。
 
-      * **プロジェクトの開始の列の緑の色合い**：プロジェクトの進捗ステータスが&#x200B;**オンタイム**&#x200B;の場合、プロジェクトの開始の列の背景は緑色で表示されます。
+    * **プロジェクトの開始の列の緑の色合い**：プロジェクトの進捗ステータスが&#x200B;**オンタイム**&#x200B;の場合、プロジェクトの開始の列の背景は緑色で表示されます。
 
-     >[!TIP]
-     >
-     >プロジェクトの実際の開始日を表示するには、プロジェクト詳細ページに移動する必要があります。
+    >[!TIP]
+    >
+    >プロジェクトの実際の開始日を表示するには、プロジェクト詳細ページに移動する必要があります。
 
-   * **プロジェクトの完了列**：プロジェクトの完了列の背景は、実際の完了日が入力されている場合にのみ、赤色または緑色で表示されます。
+  * **プロジェクトの完了列**：プロジェクトの完了列の背景は、実際の完了日が入力されている場合にのみ、赤色または緑色で表示されます。
 
-      * **プロジェクトの完了列の赤い背景色**：プロジェクトの進捗ステータスが&#x200B;**遅延**&#x200B;の場合、プロジェクトの完了列の背景は赤色で表示されます。
+    * **プロジェクトの完了列の赤い背景色**：プロジェクトの進捗ステータスが&#x200B;**遅延**&#x200B;の場合、プロジェクトの完了列の背景は赤色で表示されます。
 
-      * **プロジェクトの完了列の緑の背景色**：プロジェクトの進捗ステータスが&#x200B;**オンタイム**&#x200B;の場合、プロジェクトの完了列の背景は緑色で表示されます。
+    * **プロジェクトの完了列の緑の背景色**：プロジェクトの進捗ステータスが&#x200B;**オンタイム**&#x200B;の場合、プロジェクトの完了列の背景は緑色で表示されます。
 
-     >[!TIP]
-     >
-     >プロジェクトの実際の完了日を表示するには、プロジェクト詳細ページに移動する必要があります。
+    >[!TIP]
+    >
+    >プロジェクトの実際の完了日を表示するには、プロジェクト詳細ページに移動する必要があります。
 
-   * タスクの進捗ステータスが「危険あり」または「遅れ」の場合、開始日と完了日の列の背景色は変わりません。
+  * タスクの進捗ステータスが「危険あり」または「遅れ」の場合、開始日と完了日の列の背景色は変わりません。
 
   <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
@@ -212,9 +208,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * **プロジェクト名**：プロジェクト名が、プロジェクトへのリンクと共に表示されます。
 * **プロジェクトの状況アイコン**：次のインジケーターは、プロジェクトの状況を示します。
 
-   * ターゲット上 – 緑
-   * リスク – イエロー
-   * 問題あり – 赤
+  * ターゲット上 – 緑
+  * リスク – イエロー
+  * 問題あり – 赤
 
   <!--
    * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:

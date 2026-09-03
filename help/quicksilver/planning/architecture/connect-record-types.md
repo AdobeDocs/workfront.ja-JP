@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 3121
-ht-degree: 24%
+source-wordcount: 3273
+ht-degree: 23%
 
 ---
 
@@ -33,12 +33,10 @@ ht-degree: 24%
 
 # レコードタイプを接続
 
-<!--
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 
 {{planning-important-intro}}
@@ -308,18 +306,15 @@ Old:
 
    ![別のワークスペースからのレコードタイプへの新しい接続](assets/new-connection-allow-multiple-records-box.png)
 
-1. （条件付き）同じワークスペースのレコードタイプ、またはWorkfront オブジェクトタイプを持つPlanning レコードタイプを接続する場合は、次のいずれかを選択します。
+1. <span class="preview">この接続を&#x200B;**依存にする**&#x200B;を選択して、この接続フィールドと、接続されたレコードタイプで作成されたフィールドとの間に依存関係を追加します。</span>
 
-   * **複数選択**：これを選択すると、現在のレコードタイプの1つのレコードが、接続レコードタイプの複数のレコードと接続できるようになります。
-   * **単一選択**：これを選択すると、現在のレコードタイプの1つのレコードが、接続レコードタイプの1つのレコードと接続できるようになります。
+   <span class="preview">詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。</span>
 
-1. 「**接続タイプ**」セクション <!--<span class="preview">, when connecting all object types but not Planning record types</span>-->で、**リンクされたレコードタイプ**&#x200B;に対応するフィールドを作成します。
+1. 「**接続タイプ**」セクションで、**リンクされたレコードタイプ**&#x200B;に対応するフィールドを作成する」を選択します。
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">計画レコードタイプを接続する際、**接続タイプ** セクションは&#x200B;**接続設定** セクションに置き換えられました。</span>
 
    選択すると、現在のレコードタイプに追加された接続フィールドに加えて、接続先のレコードタイプに接続フィールドが作成されます。 これはデフォルトでは無効になっています。
 
@@ -332,6 +327,10 @@ Old:
    >* リンクされたレコードフィールドは、それぞれのアプリケーション内の別のアプリケーションのオブジェクトに対して作成されません。 例：
    >   * Planning レコードに接続されたWorkfront オブジェクト用に作成されたフィールドはありません。
    >   * GenStudio ワークスペースからレコードタイプに接続されている場合、Planning レコードタイプ用に作成されたフィールドはありません。
+1. （条件付き）同じワークスペースのレコードタイプ、またはWorkfront オブジェクトタイプを持つPlanning レコードタイプを接続する場合は、次のいずれかを選択します。
+
+   * **複数選択**：これを選択すると、現在のレコードタイプの1つのレコードが、接続レコードタイプの複数のレコードと接続できるようになります。
+   * **単一選択**：これを選択すると、現在のレコードタイプの1つのレコードが、接続レコードタイプの1つのレコードと接続できるようになります。
 
 1. （条件付き）「**接続タイプ**」セクションで「**リンクされたレコードタイプ**&#x200B;に対応するフィールドを作成する」を有効にした場合は、次のオプションから、ユーザーが接続できるレコード数と接続できるレコード数を示すように選択します。
 
@@ -358,7 +357,9 @@ Old:
    >
    >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront計画フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)を参照してください。
 
+1. <span class="preview"> （オプションと条件付き）この接続を&#x200B;**依存にする**&#x200B;を選択した場合、**レコードフィルタリングルール**&#x200B;をクリックして、接続された両方のレコードフィールドが同じレコードタイプで表示される場合に、接続されたフィールド値の値を制限するフィルターを作成します。</span>
 
+   <span class="preview">詳細については、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。</span>
 1. （オプション）「**外観を記録**」エリアで、次のいずれかのオプションを選択します。
 
    * **名前と画像**：接続されたレコードの名前とサムネールまたはアイコンの両方が、接続されたレコードフィールドに表示されます。 これはデフォルトのオプションです。
@@ -382,7 +383,9 @@ Old:
    >
    >* **レコードの外観**&#x200B;領域で選択した内容によって、すべてのビューと詳細ページを含む、システム内のあらゆる接続でレコードがどのように表示されるかが決まります。
 
-1. **参照フィールドを選択**&#x200B;して、接続先のレコードタイプからフィールドを追加します。 ルックアップフィールドは、リンク先のレコードタイプまたはオブジェクトタイプに関連付けられたフィールドです。 リンクすると、リンク元のレコードにリンクしているレコードまたはオブジェクトの情報が表示されます。 これはデフォルトで選択されています。
+1. **ルックアップフィールドを選択**&#x200B;または<span class="preview"> ルックアップフィールド **メニュー</span>をクリックして、接続先のレコードタイプからフィールドを選択して追加します。**
+
+   ルックアップフィールドは、接続先のレコードまたはオブジェクトタイプに関連付けられたフィールドです。 リンクすると、リンク元のレコードにリンクしているレコードまたはオブジェクトの情報が表示されます。<!--No more: This is selected by default.-->
 
    >[!NOTE]
    >

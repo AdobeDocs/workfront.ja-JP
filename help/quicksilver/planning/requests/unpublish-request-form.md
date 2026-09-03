@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 697
-ht-degree: 21%
+source-wordcount: 763
+ht-degree: 23%
 
 ---
 
@@ -32,13 +32,10 @@ ht-degree: 21%
 
 <!--take Preview and Production references at Production time-->
 
-<!--
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。 すべてのユーザーのプレビュー環境でのみ使用できます。 リリースからプレビューの後、高速リリースを有効にしたお客様は、同じ機能を毎月実稼動環境でも使用できます。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
 
 {{planning-important-intro}}
 
@@ -107,7 +104,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。 デフォルトで、レコードタイプのページがテーブルビューで開きます。
 
-1. ページヘッダーのレコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**リクエストフォームの管理**&#x200B;をクリックします。
+1. ページヘッダーのレコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**リクエストフォームの管理**&#x200B;または&#x200B;<span class="preview">**リクエストフォーム**</span>&#x200B;をクリックします。
 
    レコードタイプに関連付けられたすべてのリクエストフォームがテーブルビューに表示されます。
 1. リクエストフォームの名前にカーソルを合わせ、名前の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**共有**&#x200B;をクリックします。
@@ -134,7 +131,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。 デフォルトで、レコードタイプのページがテーブルビューで開きます。
 
-1. ページヘッダーのレコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**リクエストフォームの管理**&#x200B;をクリックします。
+1. ページヘッダーのレコードタイプ名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、**リクエストフォームの管理** <span class="preview">または&#x200B;**リクエストフォーム**</span>&#x200B;をクリックします。
 
    レコードタイプに関連付けられたすべてのリクエストフォームがテーブルビューに表示されます。
 1. リクエストフォームの名前にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックしてから、**非公開**&#x200B;をクリックします

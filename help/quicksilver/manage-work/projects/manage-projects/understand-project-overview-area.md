@@ -24,14 +24,16 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
 workflow-type: tm+mt
-source-wordcount: 1382
-ht-degree: 82%
+source-wordcount: 1429
+ht-degree: 81%
 
 ---
 
 # プロジェクトの概要エリアで情報を管理する
+
+{{highlighted-preview}}
 
 <!--
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -228,6 +230,7 @@ Old:
    | 最終更新日 | プロジェクトが最後に更新された日時。 |
    | 最終更新者 | プロジェクトを最後に更新したユーザーの名前。 |
    | テンプレート |  |
+   | Frame.io ワークスペース | <span class="preview">Frame.io ワークスペースは、作成に使用したテンプレートから継承されます。 プロジェクトの作成後にこのフィールドを変更することはできません。</span> |
 
 
 1. 会社が Adobe Workfront Scenario Planner の追加ライセンスを購入し、プロジェクトにリンクされたイニシアチブから公開された情報がある場合は、シナリオプランナーエリアで次のイニシアチブ情報をレビューします。

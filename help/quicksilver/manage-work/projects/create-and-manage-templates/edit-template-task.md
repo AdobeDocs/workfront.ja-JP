@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 3074
-ht-degree: 64%
+source-wordcount: 3125
+ht-degree: 66%
 
 ---
 
@@ -39,13 +39,9 @@ ht-degree: 64%
 <!--take out production and preview references and new/ old experiences at release-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 テンプレートを作成したら、テンプレートタスクの情報を編集できます。 テンプレートタスクで更新した情報は、テンプレートを使用してプロジェクトを作成した後、またはテンプレートをプロジェクトに添付した後、プロジェクトタスクに関連付けられます。
@@ -150,10 +146,10 @@ Old:
       * **編集** アイコン ![編集アイコン &#x200B;](assets/edit-icon.png)をクリックしてから、以下のいずれかの領域から選択するか、**すべてを編集**&#x200B;をクリックしてすべての領域の情報を編集します。
 
 
-         * 概要
-         * カスタムフォーム
-カスタムフォームの名前は、テンプレートタスクにカスタムフォームが添付されている場合にのみ表示されます。
-         * 財務
+        * 概要
+        * カスタムフォーム
+          カスタムフォームの名前は、テンプレートタスクにカスタムフォームが添付されている場合にのみ表示されます。
+        * 財務
 
         >[!TIP]
         >
@@ -411,7 +407,7 @@ Old:
    <td> <p>タスクの予定時間数を時間単位で指定します。 これは、タスクの担当者が完了するのにかかる実際の時間です。 期間タイプが「計算済み割り当て」に設定されている場合にのみ、タスクの予定時間数を指定できます。 期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</p> 
    <b>メモ</b>
    <p>
-   繰り返しタスクを作成する場合、予定時間は各発生の時間になります。親タスクの予定時間は、すべての出現時間のすべての予定時間の合計です。繰り返しタスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクの作成</a>を参照してください。
+   繰り返しタスクを作成する場合、予定時間数はそれぞれの繰り返しタスクの時間です。 親タスクの予定時間数は、すべてのタスクからのすべての予定時間数の合計です。 繰り返しタスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクを作成</a>を参照してください。
    </p>
 
    </td> 
@@ -505,13 +501,13 @@ Old:
 
 1. テンプレートタスクに関連付けるカスタムフォームを選択します。
 
-   カスタムフォームを作成してから、このフィールドで選択できるようにする必要があります。
-アクティブなカスタムフォームのみがリストに表示されます。
+   このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。
+   アクティブなカスタムフォームのみがリストに表示されます。
 
    カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
    テンプレートタスクには、最大10個のカスタムフォームを追加できます。
-フォームは、テンプレートから作成されたタスクに自動的に追加されます。
+   フォームは、テンプレートから作成されたタスクに自動的に追加されます。
 1. （条件付きおよびオプション）テンプレートタスクにカスタム フォームを添付した場合は、フォーム上のフィールドを編集します。 テンプレートタスクを保存する前に、すべての必須フィールドを指定する必要があります。
 
    >[!NOTE]
