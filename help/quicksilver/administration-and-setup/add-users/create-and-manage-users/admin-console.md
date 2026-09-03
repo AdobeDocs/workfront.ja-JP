@@ -257,14 +257,14 @@ Adobe Admin Consoleでのユーザーの一括編集について詳しくは、�
 >* ユーザーがAdmin Console ユーザーグループに属しており、そのユーザーグループの1つ以上に製品プロファイルが追加されている場合、Workfrontからユーザーを非アクティブ化しても、実際には製品から削除されません。 Admin Consoleのユーザーグループからユーザーを削除する必要があります。
 >* Adobe Admin Consoleからユーザーを削除すると、Workfrontではユーザーが無効になりますが、Workfrontからは削除されません。
 
-Adobe Admin Consoleでユーザーを削除する手順については、Adobe ドキュメントの[&#x200B; ディレクトリユーザーの管理](https://helpx.adobe.com/enterprise/using/manage-directory-users.html)を参照してください。
+Adobe Admin Consoleでユーザーを削除する手順については、Adobe ドキュメントの[&#x200B; ディレクトリユーザーの管理](https://helpx.adobe.com/jp/enterprise/using/manage-directory-users.html)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/jp/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>
