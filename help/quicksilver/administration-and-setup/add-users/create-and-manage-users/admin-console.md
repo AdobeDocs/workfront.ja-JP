@@ -8,10 +8,14 @@ exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5g4EStBQBGan2lmo6KhpW-4OzCbNflC70yGd8qbNH4A
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
 workflow-type: tm+mt
 source-wordcount: 1647
@@ -184,7 +188,7 @@ Workfront 用に Admin Console を使用する前に、Console への招待メ�
 
    ユーザーは、組織の Workfront パッケージに応じて、要求者またはコントリビューターのアクセスレベルで Workfront に作成されます。
 
-   <span class="preview">Workfront管理者がAdmin Consoleで作成されたユーザーに対してデフォルトのアクセスレベルを設定している場合、代わりにそのアクセスレベルを使用してユーザーが作成されます。 詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。</span>
+   <span class="preview">Workfront管理者がAdmin Consoleで作成されたユーザーに対してデフォルトのアクセスレベルを設定している場合、代わりにそのアクセスレベルを使用してユーザーが作成されます。 詳しくは、[&#x200B; システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。</span>
 
    >[!IMPORTANT]
    >
@@ -253,7 +257,7 @@ Adobe Admin Consoleでのユーザーの一括編集について詳しくは、�
 >* ユーザーがAdmin Console ユーザーグループに属しており、そのユーザーグループの1つ以上に製品プロファイルが追加されている場合、Workfrontからユーザーを非アクティブ化しても、実際には製品から削除されません。 Admin Consoleのユーザーグループからユーザーを削除する必要があります。
 >* Adobe Admin Consoleからユーザーを削除すると、Workfrontではユーザーが無効になりますが、Workfrontからは削除されません。
 
-Adobe Admin Consoleでユーザーを削除する手順については、Adobe ドキュメントの[ ディレクトリユーザーの管理](https://helpx.adobe.com/enterprise/using/manage-directory-users.html)を参照してください。
+Adobe Admin Consoleでユーザーを削除する手順については、Adobe ドキュメントの[&#x200B; ディレクトリユーザーの管理](https://helpx.adobe.com/enterprise/using/manage-directory-users.html)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
