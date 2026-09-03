@@ -9,21 +9,12 @@ exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/JqR-bwIq1AVMOMz3aTWIKoiPep1VQ6IaONbbuDJ1AiA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 790
 ht-degree: 48%
@@ -37,13 +28,9 @@ ht-degree: 48%
 <!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 テンプレートエリアからテンプレートを作成および削除できます。 新しいテンプレートを作成するときは、すべてのタスクと、将来のプロジェクト設定についての情報を入力できます。 この情報は、テンプレートから作成するプロジェクトに転送されます。
@@ -140,15 +127,15 @@ Old:
 
      テンプレートが作成され、そのデフォルト名は、Workfrontがドキュメントに使用するストレージに応じて、次のパターンに従います。
 
-      * Workfront ストレージテンプレート用の&#x200B;**名称未設定テンプレート**。
+     * Workfront ストレージテンプレート用の&#x200B;**名称未設定テンプレート**。
 
-        レガシーWorkfront ストレージテンプレートの名前の横に、**レガシーWorkfront ストレージ** アイコン ![&#x200B; レガシーストレージプロジェクトアイコン &#x200B;](assets/legacy-storage-project-icon.png)が表示されます。
+       レガシーWorkfront ストレージテンプレートの名前の横に、**レガシーWorkfront ストレージ** アイコン ![ レガシーストレージプロジェクトアイコン ](assets/legacy-storage-project-icon.png)が表示されます。
 
-      * **名称未設定のテンプレート - Adobe クラウドストレージテンプレートの&lt;月の日、年の時間。分。秒>**
+     * **名称未設定のテンプレート - Adobe クラウドストレージテンプレートの&lt;月の日、年の時間。分。秒>**
 
-        >[!IMPORTANT]
-        >
-        >Adobe ストレージを使用するテンプレートには、一意の名前を付ける必要があります。
+       >[!IMPORTANT]
+       >
+       >Adobe ストレージを使用するテンプレートには、一意の名前を付ける必要があります。
 
    ![新規テンプレート](assets/create-template-nwe-2022-350x102.png)
 
@@ -162,7 +149,7 @@ Old:
 
    **新しいテンプレート タスク**&#x200B;をクリックすると、**テンプレート タスクを作成** ボックスが開きます。
 
-   ![新しいテンプレート タスクの新しいエクスペリエンス &#x200B;](assets/new-template-task-box-unshimmed.png)
+   ![新しいテンプレート タスクの新しいエクスペリエンス ](assets/new-template-task-box-unshimmed.png)
 
 1. （条件付き）次の領域で、**テンプレート タスクを作成** ボックスの情報を更新します。
 
@@ -176,7 +163,7 @@ Old:
 
    テンプレートタスクの情報の更新は、テンプレートタスクの編集に似ています。
 
-   詳しくは、[&#x200B; テンプレートタスクの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)を参照してください。
+   詳しくは、[ テンプレートタスクの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)を参照してください。
 
    >[!NOTE]
    >
@@ -184,13 +171,13 @@ Old:
 
 1. 「**テンプレートタスクを作成**」をクリックします。
 
-1. （オプション）テンプレートタスクを追加した後、**テンプレートタスク** セクションで、タスクリストの右上隅にある&#x200B;**ガントチャート** アイコン ![&#x200B; ガントアイコン &#x200B;](assets/gantt-icon.png)をクリックすると、テンプレートのタスクリストが視覚的に表示されます。
+1. （オプション）テンプレートタスクを追加した後、**テンプレートタスク** セクションで、タスクリストの右上隅にある&#x200B;**ガントチャート** アイコン ![ ガントアイコン ](assets/gantt-icon.png)をクリックすると、テンプレートのタスクリストが視覚的に表示されます。
 
    >[!TIP]
    >
    >テンプレートタスクのガントチャートからタスクを直接編集することはできません。
 
-1. 新しいテンプレートに情報を追加するには、ヘッダーのテンプレート名の右側にある&#x200B;**詳細** メニュー![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
+1. 新しいテンプレートに情報を追加するには、ヘッダーのテンプレート名の右側にある&#x200B;**詳細** メニュー![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;をクリックします。
 
    テンプレートの編集について詳しくは、[プロジェクトテンプレートの編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
 
@@ -198,7 +185,7 @@ Old:
    >
    >プロジェクトテンプレートとグループとの関連付け（またはグループの欠如）は、プロジェクト、タスク、イシューの環境設定がテンプレート内の特定の設定を決定する方法に影響します。
    >
-   >詳細については、[&#x200B; グループのプロジェクトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)の記事の「テンプレートとテンプレートタスクに対する環境設定の適用方法」の節を参照してください。
+   >詳細については、[ グループのプロジェクトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)の記事の「テンプレートとテンプレートタスクに対する環境設定の適用方法」の節を参照してください。
 
 1. 「**保存**」をクリックします。
 1. （オプション）次の項目をテンプレートに追加します
@@ -217,7 +204,7 @@ Old:
    * 費用
    * 承認
 
-   詳しくは、[&#x200B; プロジェクトテンプレートを編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)の記事の「テンプレートにアイテムを追加する」の節を参照してください。
+   詳しくは、[ プロジェクトテンプレートを編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)の記事の「テンプレートにアイテムを追加する」の節を参照してください。
 
 
 
