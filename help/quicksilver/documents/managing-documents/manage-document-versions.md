@@ -7,10 +7,15 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
 TQID: https://experienceleague.adobe.com/rCnj3Gx1SB3-UziuppQfifv2hJ6q3OjepNO9FcEEHEk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
 source-wordcount: 1077
@@ -87,7 +92,7 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
 
 1. **ドキュメントの詳細** ページの上部付近で、名前の横にあるドロップダウンメニューをクリックし、表示および管理するバージョンの名前をクリックします。
 
-   ドキュメントの詳細ページの![ バージョン ドロップダウン ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ドキュメントの詳細ページの![&#x200B; バージョン ドロップダウン &#x200B;](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    バージョンの詳細の表示に加えて、バージョンの名前、メタデータ、プルーフ設定などの変更を行うことができます（ドキュメント プルーフの場合）。
 
@@ -101,7 +106,7 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
 
 1. **バージョン** セクションで、バージョンの右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-icon.png)をクリックし、表示されるドロップダウンリストで&#x200B;**ダウンロード**&#x200B;をクリックします。
 
-   ![単一のドキュメントをダウンロード ](assets/more-versions-350x143.png)
+   ![単一のドキュメントをダウンロード &#x200B;](assets/more-versions-350x143.png)
 
 ### ドキュメントのすべてのバージョンをダウンロード
 
@@ -147,7 +152,7 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
    >* **削除** オプションは、少なくとも2つのバージョンがある場合にのみ表示されます。
    >* ドキュメントが外部のソースにリンクされている場合、そのリンクは削除され、Workfront を介してドキュメントにアクセスできなくなります。
 
-   ![ ドキュメントのバージョンを削除](assets/more-versions-350x143.png)
+   ![&#x200B; ドキュメントのバージョンを削除](assets/more-versions-350x143.png)
 
 <div class="preview">
 
@@ -163,7 +168,7 @@ Workfrontでは、Frame.ioのバージョン番号と一致するように、ア
 
 1. **ドキュメント** ページで、リスト内のドキュメントを選択します。
 
-1. ページの右側にある&#x200B;**バージョン** アイコン ![ バージョンアイコン ](assets/versions-icon.png)をクリックします。 バージョン パネルが開き、バージョン履歴の下にドキュメントのすべてのバージョンが表示されます。
+1. ページの右側にある&#x200B;**バージョン** アイコン ![&#x200B; バージョンアイコン &#x200B;](assets/versions-icon.png)をクリックします。 バージョン パネルが開き、バージョン履歴の下にドキュメントのすべてのバージョンが表示されます。
 
    >[!NOTE]
    >
@@ -174,9 +179,9 @@ Workfrontでは、Frame.ioのバージョン番号と一致するように、ア
 {{step1-to-documents}}
 
 1. **ドキュメント** ページで、リスト内のドキュメントを選択します。
-1. ページの右側にある&#x200B;**バージョン** アイコン ![ バージョンアイコン ](assets/versions-icon.png)をクリックします。
+1. ページの右側にある&#x200B;**バージョン** アイコン ![&#x200B; バージョンアイコン &#x200B;](assets/versions-icon.png)をクリックします。
 1. バージョンの横にある&#x200B;**詳細** メニューをクリックし、**承認依頼**&#x200B;をクリックします。
-1. 承認ワークフローを設定します。 詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+1. 承認ワークフローを設定します。 詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
    >[!NOTE]
    >
@@ -187,7 +192,7 @@ Workfrontでは、Frame.ioのバージョン番号と一致するように、ア
 {{step1-to-documents}}
 
 1. **ドキュメント** ページで、リスト内のドキュメントを選択します。
-1. ページの右側にある&#x200B;**バージョン** アイコン ![ バージョンアイコン ](assets/versions-icon.png)をクリックします。
+1. ページの右側にある&#x200B;**バージョン** アイコン ![&#x200B; バージョンアイコン &#x200B;](assets/versions-icon.png)をクリックします。
 1. バージョンの横にある&#x200B;**詳細** メニューをクリックし、**詳細を表示**&#x200B;をクリックします。
 
 ### 単一のドキュメントバージョンのダウンロード
@@ -196,7 +201,7 @@ Workfrontでは、Frame.ioのバージョン番号と一致するように、ア
 
 1. **ドキュメント** ページで、リスト内のドキュメントを選択します。
 
-1. ページの右側にある&#x200B;**バージョン** アイコン ![ バージョンアイコン ](assets/versions-icon.png)をクリックします。
+1. ページの右側にある&#x200B;**バージョン** アイコン ![&#x200B; バージョンアイコン &#x200B;](assets/versions-icon.png)をクリックします。
 
 1. バージョンの横にある&#x200B;**詳細** メニューをクリックし、**ダウンロード**&#x200B;をクリックします。
 
@@ -206,11 +211,11 @@ Workfrontでは、Frame.ioのバージョン番号と一致するように、ア
 
 1. **ドキュメント** ページで、リスト内のドキュメントを選択します。
 
-1. ページの右側にある&#x200B;**バージョン** アイコン ![ バージョンアイコン ](assets/versions-icon.png)をクリックします。
+1. ページの右側にある&#x200B;**バージョン** アイコン ![&#x200B; バージョンアイコン &#x200B;](assets/versions-icon.png)をクリックします。
 
 1. バージョン パネルの上部にある「**すべてダウンロード**」をクリックします。
 
-   ![ ドキュメントのすべてのバージョンをダウンロード ](assets/download-all-versions.png)
+   ![&#x200B; ドキュメントのすべてのバージョンをダウンロード &#x200B;](assets/download-all-versions.png)
 
 ### ドキュメントのバージョンを削除
 
@@ -218,7 +223,7 @@ Workfrontでは、Frame.ioのバージョン番号と一致するように、ア
 
 1. **ドキュメント** ページで、リスト内のドキュメントを選択します。
 
-1. ページの右側にある&#x200B;**バージョン** アイコン ![ バージョンアイコン ](assets/versions-icon.png)をクリックします。
+1. ページの右側にある&#x200B;**バージョン** アイコン ![&#x200B; バージョンアイコン &#x200B;](assets/versions-icon.png)をクリックします。
 
 1. バージョンの横にある&#x200B;**詳細** メニューをクリックし、**削除**&#x200B;をクリックします。
 
