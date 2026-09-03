@@ -11,10 +11,15 @@ exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/8kRfZ17zcgN0-hlc16wh328YGRjTlzuI3LAe-Yjj25s
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
 source-wordcount: 902
@@ -60,7 +65,7 @@ ht-degree: 37%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>[!UICONTROL Workflow Standard]または[!UICONTROL Workfront プラン ] ライセンス</p>
+   <td><p>[!UICONTROL Workflow Standard]または[!UICONTROL Workfront プラン &#x200B;] ライセンス</p>
        <p></p></td>
   </tr> 
   <tr> 
@@ -137,7 +142,7 @@ When we release fiscal weeks, replace the table above with this:
 1. 「2021 年度第 1 四半期」などのカスタム四半期の名前を入力します。
 1. カスタム四半期の開始日と終了日を選択します。
 
-   ![ カスタム四半期](assets/custom-quarters-nwe.png)
+   ![&#x200B; カスタム四半期](assets/custom-quarters-nwe.png)
 
 1. （オプション）「**[!UICONTROL カスタム四半期を追加]**」をクリックして、システムにカスタム四半期を追加します。
 
@@ -149,9 +154,9 @@ When we release fiscal weeks, replace the table above with this:
 
 1. （オプションおよび条件付き）会社が[!DNL Workfront Planning]なしで[!DNL Workfront]のみを購入した場合は、会計四半期を参照するレポート要素を作成します。
 
-   **例：**[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
+   **例：**&#x200B;[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
 
-   ![ カスタム四半期を含むプロジェクトフィルター](assets/example-of-project-filter-with-custom-quarters.png)
+   ![&#x200B; カスタム四半期を含むプロジェクトフィルター](assets/example-of-project-filter-with-custom-quarters.png)
 
    「今四半期」、「次四半期」、「前四半期」の参照は、カスタム四半期の新しい参照に置き換えられます。
 
@@ -212,9 +217,9 @@ When we release fiscal weeks, replace the table above with this:
 
 1. （オプションおよび条件付き）Workfrontでカスタム四半期を表示するには、カスタム四半期を参照するレポート要素を作成します。
 
-   **例：**[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
+   **例：**&#x200B;[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
 
-   ![ カスタム四半期を含むプロジェクトフィルター](assets/example-of-project-filter-with-custom-quarters.png)
+   ![&#x200B; カスタム四半期を含むプロジェクトフィルター](assets/example-of-project-filter-with-custom-quarters.png)
 
    「今四半期」、「次四半期」、「前四半期」の参照は、カスタム四半期の新しい参照に置き換えられます。
 

@@ -95,7 +95,7 @@ Workspace Managerでは、Adobe Workfront Planningのレコードタイプ間に
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++
 
@@ -143,9 +143,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
    >
    >**この接続を依存にする**&#x200B;設定を有効にすると、**リンクされたレコードタイプに対応するフィールドを作成**&#x200B;が自動的に有効になります。 レコードタイプごとに500件のフィールドという制限があります。
 
-   ![依存接続が有効になっている新しい接続タブ ](assets/dependent-connection-enabled-setting.png)
+   ![依存接続が有効になっている新しい接続タブ &#x200B;](assets/dependent-connection-enabled-setting.png)
 
-1. 記事[ レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)の説明に従って、接続の設定を続行します。
+1. 記事[&#x200B; レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)の説明に従って、接続の設定を続行します。
 1. 「**保存**」をクリックします。
 
    次のことが発生します。
@@ -157,7 +157,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      詳しくは、この記事の「[依存する接続レコードタイプの例](#example-of-dependent-connected-record-types)」の節を参照してください。
    * 接続されたレコードフィールドの列ヘッダーには、そのフィールドが依存関係にあることを示す表示があります。
 
-     ![列ヘッダーの依存アイコンのツールヒント ](assets/dependent-icon-tooltip-in-column-header.png)
+     ![列ヘッダーの依存アイコンのツールヒント &#x200B;](assets/dependent-icon-tooltip-in-column-header.png)
 1. （オプション）「**レコードフィルタリングルール**」をクリックし、接続しているレコードタイプからフィールドを選択して、そのフィールドの値のオプションを制限してから、**完了**&#x200B;をクリックします。
 
    2つのフィールドが3番目のレコードタイプに存在する場合、接続されたフィールドレコードタイプのオプションは、ここで選択したフィルターによって制限されます。
