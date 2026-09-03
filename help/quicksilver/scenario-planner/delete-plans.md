@@ -55,7 +55,7 @@ ht-degree: 74%
  </tbody> 
 </table>
 
-シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な[ アクセスを参照してください。
+シナリオプランナーへのアクセスについて詳しくは、 [!DNL Scenario Planner]&#x200B;[&#128279;](../scenario-planner/access-needed-to-use-sp.md)を使用するために必要な アクセスを参照してください。
 
 Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントへのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
@@ -120,7 +120,7 @@ Old:
 >* 計画に関連する情報もすべて削除されます。 これには、担当業務やコストに関する情報を含む、計画に関連するすべてのシナリオとイニシアチブが含まれます。 この情報は復元できません。
 >* 公開済みのシナリオが計画に含まれる場合、削除されたイニシアチブにリンクされたプロジェクトが保持され、[!DNL Scenario Planner] エリアは「[!UICONTROL プロジェクトの詳細]」セクションに残ります。
 >
->  プロジェクトへのイニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
+>  プロジェクトへのイニシアチブの公開について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
 
 計画の削除方法は、次のとおりです。
 
@@ -148,7 +148,7 @@ Old:
 >* シナリオに関する一部のイニシアチブが公開されると、イニシアチブにリンクされたプロジェクトが保持され、シナリオプランナーのエリアはリンクされたプロジェクトに残ります
 >* 公開されたイニシアチブが別のシナリオに存在する場合、そのイニシアチブ（プロジェクトへのリンクを含む）は、そのシナリオに残ります。 これらのイニシアチブを他のシナリオから公開すると、リンクされたプロジェクトがそれらのシナリオからの新しい情報で更新されます。
 >
->  プロジェクトへのイニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
+>  プロジェクトへのイニシアチブの公開について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
 
 シナリオの削除方法は、次のとおりです。
 
