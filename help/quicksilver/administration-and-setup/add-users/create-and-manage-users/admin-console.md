@@ -8,22 +8,20 @@ exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5g4EStBQBGan2lmo6KhpW-4OzCbNflC70yGd8qbNH4A
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
 workflow-type: tm+mt
-source-wordcount: 1559
+source-wordcount: 1647
 ht-degree: 88%
 
 ---
 
 # Adobe Admin Console でのユーザー管理
+
+{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -36,8 +34,8 @@ ht-degree: 88%
 >[!NOTE]
 >
 >* **Workfront管理者は、Adobe Admin Consoleで設定する必要があります。** 詳しくは、この記事の「[Adobe Admin Consoleを使用してWorkfrontでシステム管理者を作成する](#create-system-administrators-in-workfront-with-the-adobe-admin-console)」を参照してください。
->* **組織でシングルサインオン （SSO）**&#x200B;を使用している場合は、ユーザーを作成し、Adobe Admin ConsoleのWorkfrontに割り当てることをお勧めします。Workfrontでこれらのユーザーを作成することは可能ですが、組織のAdmin Consoleの設定方法に基づいて、その情報をAdobe Admin Consoleに転送する際に問題が発生する場合があります。
->   Adobe Admin Consoleでユーザーを作成した後、Workfrontでユーザー情報（役割、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
+>* **組織がシングルサインオン（SSO）を使用している場合**、Adobe Admin Console でユーザーを作成して Workfront に割り当てることをお勧めします。 これらのユーザーを Workfront で作成できますが、組織の Admin Console の設定によっては、情報を Adobe Admin Console に転送する際に問題が生じる場合があります。
+>   Adobe Admin Console でユーザーを作成したら、Workfront でユーザーの情報（役割、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
 >* **組織がシングルサインオン（SSO）を使用していない場合**、システム管理者以外のユーザーを Workfront に直接追加できます。 Adobe Admin Console でユーザーを追加できますが、Workfront でユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
 
 Admin Console からユーザーのプロファイルに変更を加えると、Workfront でそのユーザーの「システムアクティビティ」タブに更新が追加されます。 更新は、「システム」によって行われたように表示されます。 これは Adobe Admin Console 管理者を指すものであり、Workfront のメイン管理者を指すものではありません。
@@ -186,6 +184,8 @@ Workfront 用に Admin Console を使用する前に、Console への招待メ�
 
    ユーザーは、組織の Workfront パッケージに応じて、要求者またはコントリビューターのアクセスレベルで Workfront に作成されます。
 
+   <span class="preview">Workfront管理者がAdmin Consoleで作成されたユーザーに対してデフォルトのアクセスレベルを設定している場合、代わりにそのアクセスレベルを使用してユーザーが作成されます。 詳しくは、[ システム環境設定の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。</span>
+
    >[!IMPORTANT]
    >
    >製品プロファイル自体は変更しないでください。
@@ -253,14 +253,14 @@ Adobe Admin Consoleでのユーザーの一括編集について詳しくは、�
 >* ユーザーがAdmin Console ユーザーグループに属しており、そのユーザーグループの1つ以上に製品プロファイルが追加されている場合、Workfrontからユーザーを非アクティブ化しても、実際には製品から削除されません。 Admin Consoleのユーザーグループからユーザーを削除する必要があります。
 >* Adobe Admin Consoleからユーザーを削除すると、Workfrontではユーザーが無効になりますが、Workfrontからは削除されません。
 
-Adobe Admin Consoleでユーザーを削除する手順については、Adobe ドキュメントの[&#x200B; ディレクトリユーザーの管理](https://helpx.adobe.com/jp/enterprise/using/manage-directory-users.html)を参照してください。
+Adobe Admin Consoleでユーザーを削除する手順については、Adobe ドキュメントの[ ディレクトリユーザーの管理](https://helpx.adobe.com/enterprise/using/manage-directory-users.html)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/jp/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>
