@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
+source-git-commit: 0c334e47aaf59a02ec235776505076e5aa808a89
 workflow-type: tm+mt
-source-wordcount: 3308
-ht-degree: 94%
+source-wordcount: 3545
+ht-degree: 88%
 
 ---
 
@@ -67,7 +67,10 @@ ht-degree: 94%
 * 承認ステージ
 * 承認ステージ参加者
 * 割り当て
+* 予約
 * 会社
+* カスタムフィールド
+* カスタムフォーム
 * ダッシュボード
 * ドキュメント
 * ドキュメントのバージョン
@@ -75,6 +78,8 @@ ht-degree: 94%
 * フィールド
 * 時間
 * イシュー
+* 非労働カテゴリ
+* 労力以外のリソース
 * メモ
 * ポートフォリオ
 * プログラム
@@ -90,6 +95,8 @@ ht-degree: 94%
 * 人材の配置プランのリソース属性値セット
 * 人材の配置プランのリソースパラメーター値
 * タスク
+* チーム
+* チームメンバー
 * テンプレート
 * タイムシート
 * ユーザー
@@ -151,8 +158,20 @@ ht-degree: 94%
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
+        <td scope="col">予約</td> 
+        <td scope="col"><p>予約</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col">会社 </td> 
         <td scope="col"><p>CMPY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">カスタムフィールド</td> 
+        <td scope="col"><p>PARAM</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">カスタムフォーム</td> 
+        <td scope="col"><p>CTGY</p></td> 
        </tr> 
        <tr> 
         <td scope="col">ダッシュボード</td> 
@@ -181,6 +200,14 @@ ht-degree: 94%
        <tr> 
         <td scope="col">イシュー</td> 
         <td scope="col"><p>OPTASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">非労働カテゴリ</td> 
+        <td scope="col"><p>NLBRCY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">労力以外のリソース</td> 
+        <td scope="col"><p>NLBR</p></td> 
        </tr> 
        <tr> 
         <td scope="col">メモ</td> 
@@ -241,6 +268,14 @@ ht-degree: 94%
        <tr> 
         <td scope="col"><p>タスク</p></td> 
         <td scope="col"><p>タスク</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">チーム</td> 
+        <td scope="col"><p>TEAMOB</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">チームメンバー</td> 
+        <td scope="col"><p>TEAMMB</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>テンプレート</p></td> 
@@ -768,6 +803,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 このフィルターを使用すると、発生した変更がフィルター内の `fieldValue` を含んでいる場合に、メッセージが届きます。 `fieldValue` 値では大文字と小文字が区別されます
 
+`fieldName`がオブジェクトの配列を参照する場合（例：`tags`）、`fieldValue`はオブジェクトにできます。このフィルターは、配列内の任意の要素が指定したキーに一致する値を持つ場合に一致します。 その要素の他のフィールドは考慮されません。これは部分的な一致であり、オブジェクト全体の完全な一致ではありません。
+
 ```
 {
     "objCode": "TASK",
@@ -783,6 +820,33 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
     ]
 }
 ```
+
+**例：オブジェクト配列フィールドのフィルタリング**
+
+```
+{
+    "objCode": "NOTE",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedNotes",
+    "filters": [
+        {
+            "fieldName": "tags",
+            "fieldValue": {
+                "objID": "6229be410016986cfc6eb4b37c618a17"
+            },
+            "state": "newState",
+            "comparison": "contains"
+        }
+    ]
+}
+```
+
+このフィルターは、`tags`配列に`objID`が`6229be410016986cfc6eb4b37c618a17`に等しいタグが少なくとも1つ含まれているメモ イベントと一致します。そのタグの`objCode`やその他のフィールドは関係ありません。
+
+>[!NOTE]
+>
+>`contains`または`notContains`を使用してオブジェクトの配列フィールド （`tags`など）をフィルタリングする場合、`fieldValue`は、対象となるキーのみを含める必要があります。例えば、`{"objID": "abc123"}`はその他のフィールド （`objCode`など）に関係なく、そのIDを持つすべてのタグと一致します。 これは、完全なオブジェクトの等号チェックではありません。 `containsOnly`は現在、オブジェクトの配列フィールドをサポートしていません。
 
 #### containsOnly
 
@@ -817,6 +881,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 このフィルターを使用すると、指定されたフィールド（`fieldName`）に指定された値（`fieldValue`）が含まれていない場合にのみ、メッセージが届きます。
 
+オブジェクトの配列で使用する場合、指定したキーに一致する要素がない場合にのみtrueを返します。
+
 >[!NOTE]
 >
 >これは、配列タイプ（複数選択）または文字列フィールドに使用します。 フィールドが文字列の場合は、指定された値が文字列に含まれていないかどうかを確認します（例えば、「New」は文字列「Project - Updated」に含まれていません）。 フィールドが配列で、指定されたフィールド値が文字列または整数の場合、配列に指定された値が含まれていないかどうかを確認します（例えば、「選択肢 1」は[「選択肢 2」、「選択肢 3」]にはありません）。 以下の登録の例では、`groups` フィールドに「Group 2」という文字列が含まれていない場合にのみ、メッセージが届きます。
@@ -837,6 +903,10 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
     ]
 }
 ```
+
+>[!NOTE]
+>
+>`contains`または`notContains`を使用してオブジェクトの配列フィールド （`tags`など）をフィルタリングする場合、`fieldValue`は、対象となるキーのみを含める必要があります。例えば、`{"objID": "abc123"}`はその他のフィールド （`objCode`など）に関係なく、そのIDを持つすべてのタグと一致します。 これは、完全なオブジェクトの等号チェックではありません。 `containsOnly`は現在、オブジェクトの配列フィールドをサポートしていません。
 
 #### changed：変更
 
