@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
 workflow-type: tm+mt
-source-wordcount: 3202
+source-wordcount: 3318
 ht-degree: 2%
 
 ---
@@ -74,18 +74,31 @@ ht-degree: 2%
 | --- | --- |
 | 優先度 | <ul><li>ホーム >左側のメニューで「優先度」アイコンを選択します</li><li>メインメニュー/優先度</li></ul> |
 | リクエストのリスト | <ul><li>リクエスト（新しいエクスペリエンスのみ）</li><li>ホームのマイリクエストウィジェット</li></ul> |
-| 設定のステータス、優先順位、重要度、および為替レートのリスト | <ul><li>設定/プロジェクト環境設定/ステータス</li><li>設定/プロジェクト環境設定/優先順位</li><li>設定/プロジェクト環境設定/重要度</li><li>設定/プロジェクト環境設定/為替レート</li></ul> |
-| レポートのリスト | レポート （**共有可能なフォルダーを使用**&#x200B;を有効にする必要があります） |
+| 設定のステータス、優先順位、重要度、<span class="preview">条件</span>、および為替レートのリスト | <ul><li>設定/プロジェクト環境設定/ステータス</li><li>設定/プロジェクト環境設定/優先順位</li><li>設定/プロジェクト環境設定/重要度</li><li><span class="preview">設定/ プロジェクト環境設定/条件</span></li><li>設定/プロジェクト環境設定/為替レート</li></ul> |
+| <span class="preview">更新フィードのアクションと追跡フィールドのリスト </span> | <ul><li><span class="preview">設定/ インターフェイス / フィードの更新/「トラッキングフィールド」タブ </span></li> <li><span class="preview">設定/ インターフェイス / フィードの更新/「アクション」タブ </span></li></ul> |
+| <span class="preview"> スコアカードのリスト </span> | <span class="preview">設定/ スコアカード </span> |
+| <span class="preview"> リスクタイプのリスト </span> | <span class="preview">設定/リスクの種類</span> |
 | レートカードの担当業務と料金のリスト | 設定/レート・カード/レート・カードの選択/担当業務とレート |
+| <span class="preview">場所のリスト </span> | <span class="preview">設定/場所</span> |
 | 翻訳のリスト | 設定/ローカライズ |
+| <span class="preview">統合のリスト </span> | <ul><li><span class="preview">設定/ドキュメント/SharePoint統合</span></li><li><span class="preview"> セットアップ/ドキュメント/カスタム統合</span></li></ul> |
+| レポートのリスト | レポート （**共有可能なフォルダーを使用**&#x200B;を有効にする必要があります） |
 | スナップショットのリスト | プロジェクト/スナップショット |
 | 請求用リソースのリスト | プロジェクト/請求用リソース |
 | タスクの新しい高度な割り当て | タスク/割り当て/詳細 |
+| <span class="preview"> ドキュメントのすべてのバージョン表示</span> | <span class="preview"> プロジェクト/ドキュメント/ドキュメントの詳細/すべてのバージョン </span> |
 | ボード管理者ビュー | ボード/管理者ビュー |
 | Adobe クラウドストレージのドキュメント | プロジェクト、タスク、イシュー、ポートフォリオ、プログラム、テンプレート、テンプレートタスク/ドキュメント |
+| <span class="preview"> シナリオプランとイニシアチブのリスト </span> | <span class="preview"> メインメニュー/シナリオ </span> |
+| <span class="preview">目標と進捗状況インジケーターのリスト </span> | <ul><li><span class="preview"> メインメニュー/目標</span></li><li><span class="preview"> メインメニュー/目標/進行状況インジケーター</span></li></ul> |
+
 <!--
-Add this BEFORE a list of reports in the table above:
-| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+
+Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
 -->
 
 ## 拡張リストへの項目の追加
@@ -164,9 +177,16 @@ Add this BEFORE a list of reports in the table above:
 
 1. リストの上の&#x200B;**列**&#x200B;をクリックします。
 
+   実稼動環境のサンプル画像：
    ![列の表示例](assets/glist-display-move-columns.png)
 
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   ![列の表示例](assets/display-columns-090126.png)
+
 1. 切り替えスイッチを使用して、リストの列を表示または非表示にします。
+
+<span class="preview">検索ボックスで列を検索できます。</span>
+
 1. 列を並べ替えるには、**ドラッグ** アイコン ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-icon.png)をクリックし、列を目的の場所に移動します。 列を移動すると、リストが自動的に変更されます。
 
    >[!NOTE]
