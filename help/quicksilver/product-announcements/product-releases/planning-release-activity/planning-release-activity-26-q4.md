@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
 
-Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
+Adobe Workfront計画でリリースされたすべての機能の一覧については、[Adobe Workfront計画リリースアクティビティ：記事インデックス &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)を参照してください。
 
 ## テーブルビューのプライマリフィールド列から、レコードのサムネールとカラーの表示を管理します
 
@@ -51,7 +51,7 @@ Adobe Workfront計画でリリースされたすべての機能の一覧につ�
 
 グローバルレコードタイプにビジネスルールを追加することはできません。
 
-詳しくは、[ レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
+詳しくは、[&#x200B; レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ Workfront管理者は、カスタム四半期に加えて、カスタム週を�
 
 カスタム週はWorkfrontには表示されません。 これらは、Workfront計画タイムラインビューでのみ表示されます。
 
-詳しくは、[ カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
 ## 依存する接続されたレコードフィールドのフィルター
 
@@ -128,7 +128,7 @@ Planningで依存関係を追加する際に、フィルター条件を満たす
 
 カレンダーの週ビューに、表示中の週の最初の1,000件のレコードのみが表示されるようになりました。 レコードが多い場合、カレンダーの下部に次のメッセージが表示され、追加のレコードが使用可能であることを示します。「レコードが多い。 さらに読み込む&quot;。
 
-詳しくは、[ カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
+詳しくは、[&#x200B; カレンダービューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
 ## 依存する接続レコードフィールドの列ヘッダーを更新しました
 
@@ -169,7 +169,7 @@ Planningで依存関係を追加する際に、フィルター条件を満たす
 
 取り込みフォームにWorkspace フィールドが含まれ、送信する前にユーザーがワークスペースを選択した場合、フォームが起動された場所に関係なく、リクエストは選択したワークスペースにルーティングされます。 これにより、レコードが作成された時点から、目的のワークスペースでレコードが整理されます。
 
-詳しくは、[ レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
+詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront計画リクエストの送信](/help/quicksilver/planning/requests/submit-requests.md)を参照してください。
 
 ## Workfront Planning Solution Architect Skillの紹介
 
@@ -187,7 +187,7 @@ Planningで依存関係を追加する際に、フィルター条件を満たす
 
 このスキルは、最初のセットアップを超えて、継続的なガバナンスをサポートしています。摩擦が生じる前に設定ドリフトを捉え、制限に近づいているときに警告を発することで、ブロッカーになる前に警告を発し、誰が設定したかに関係なく、あらゆるワークスペースに一貫性のある標準を適用し、チーム全員に専門家のサポートを待たずに正確な回答を提供します。 これは、ワークスペースを正しく設定し、使用が増えるにつれてワークスペースを維持するライフサイクル全体をカバーします。
 
-詳しくは、「[直接インストールで使用できるスキル ](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
+詳しくは、「[直接インストールで使用できるスキル &#x200B;](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)」を参照してください。
 
 ## テーブルビューでの行のドラッグ&amp;ドロップ
 
