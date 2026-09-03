@@ -30,4 +30,4 @@ ht-degree: 6%
 
 以前は、1つの属性を親に、その親を祖父母にリンクした場合、元の属性も祖父母に属するものとして自動的に認識されませんでした。 これで、最下位レベルの属性を選択すると、その上のすべてのレベルが自動的に割り当てられます。
 
-属性について詳しくは、[ レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。
+属性について詳しくは、[&#x200B; レート属性の定義](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)を参照してください。

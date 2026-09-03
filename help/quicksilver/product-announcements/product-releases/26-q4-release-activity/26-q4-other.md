@@ -91,7 +91,7 @@ Workfrontの左側のナビゲーションパネルアイコンのルックア�
 
 ナビゲーションパネルは、プロジェクト、タスク、イシューなど、Workfrontのほとんどの領域とオブジェクトの左側にあります。
 
-詳しくは、[Adobe Workfrontの左ナビゲーション ](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)を参照してください。
+詳しくは、[Adobe Workfrontの左ナビゲーション &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)を参照してください。
 
 ## 強化されたリスト更新
 

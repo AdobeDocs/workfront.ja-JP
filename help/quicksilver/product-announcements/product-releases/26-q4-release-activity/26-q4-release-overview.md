@@ -217,7 +217,7 @@ ht-degree: 9%
     &lt;tr>
     &lt;td>
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>WorkfrontのタスクにAI タスクコラボレーターを割り当てる&lt;/a>
-    &lt;p> タスクコラボレーターは、タスクを完了するために直接タスクに割り当てることができるAI コラボレーターです。&lt;/p>{222>&lt;p>&lt;p>&lt;/2>&lt;p>&lt;p>&lt;p>&lt;p>>&lt;p>&lt;p>> 2026&lt;/p>&lt;/td>
+    &lt;p> タスクコラボレーターは、タスクを完了するために直接タスクに割り当てることができるAI コラボレーターです。&lt;/p>&lbrace;222>&lt;p>&lt;p>&lt;/2>&lt;p>&lt;p>&lt;p>&lt;p>>&lt;p>&lt;p>> 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
@@ -440,7 +440,7 @@ ht-degree: 9%
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref&quot; xrefformat=&quot;{para}&lt;/update>Canvologyでを更新してくださいスケジュール ]{type=Neutral}&lt;/p>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref&quot; xrefformat=&quot;{para}&lt;/update>Canvologyでを更新してくださいスケジュール &rbrack;{type=Neutral}&lt;/p>
     &lt;p> ドキュメントと作業の承認にCanvas ダッシュボードで使用されている複数のフィールド名が、わかりやすいように変更されました。&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
@@ -451,7 +451,7 @@ ht-degree: 9%
     &lt;td>
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Canvas ダッシュボードのピボットテーブルレポート &lt;/a>
     &lt;p>Canvas ダッシュボードの新しいピボットテーブルレポートタイプは、正確で完全なデータを集計し、下にドリルダウンドリルダウンレコード記録します&lt;/2>&lt;p>&lt;p>
-    &lt;/2}&lt;/td>&lt;p>&lt;/2}&lt;/2}>。2026&lt;/p>&lt;/td>
+    &lt;/2&rbrace;&lt;/td>&lt;p>&lt;/2&rbrace;&lt;/2&rbrace;>。2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026年9月17日&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
     &lt;/tr>&lt;tr>
@@ -578,8 +578,8 @@ ht-degree: 9%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画第4四半期2026 リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
+* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画第4四半期2026 リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 
 ## お知らせ
 
