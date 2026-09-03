@@ -9,21 +9,15 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
 workflow-type: tm+mt
-source-wordcount: 2406
-ht-degree: 6%
+source-wordcount: 2662
+ht-degree: 5%
 
 ---
 
@@ -101,6 +95,11 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
    <td><strong>名前またはメールを追加</strong></td>
    <td>承認者またはレビュアーとして追加するユーザー名またはチーム名の入力を開始します。 レビューアーしかいない場合は、通知が送信され、レビューを完了するオプションが表示されますが、決定は必要ありません。</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>プレビューでのユーザーまたはチームの追加</strong></span></td>
+   <td><span class="preview">ユーザー名、チーム、または電子メールアドレスを入力します。 デフォルトでは、チームは単一の承認者またはレビューとして追加されますが、各チームメンバーを個々の参加者として追加することもできます。 <br>
+   注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。</span></td>
+   </tr>
    <tr>
    <td><strong>1つの決定のみが必要です（オプション）</strong></td>
    <td>最初に決定を下した人がステージを完了します。</td>
@@ -120,6 +119,10 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 1. 「**承認を依頼**」をクリックします。
 
    ![基本モードで承認を要求](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
 
 ### 高度な承認ワークフローの作成
 
@@ -154,6 +157,11 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
    <td><strong>名前またはメールを追加</strong></td>
    <td>承認者またはレビュアーとして追加するユーザー名またはチーム名の入力を開始します。 レビューアーしかいない場合は、通知が送信され、レビューを完了するオプションが表示されますが、決定は必要ありません。<p>注意：レビュアーまたは承認者は、同じアセットで一度に1つのオープンステージにのみ割り当てることができます。 複数の並行ステージが同時に開いている場合、同じ人物を複数に追加することはできません。</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>プレビューでのユーザーまたはチームの追加</strong></span></td>
+   <td><span class="preview">ユーザー名、チーム、または電子メールアドレスを入力します。 デフォルトでは、チームは単一の承認者またはレビューとして追加されますが、各チームメンバーを個々の参加者として追加することもできます。 <br>
+   注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。 さらに、参加者は、同じアセットで一度に1つのオープンステージにのみ割り当てることができます。</span></td>
+   </tr>
    <tr>
    <td><strong>1つの決定のみが必要です（オプション）</strong></td>
    <td>最初に決定を下した人がステージを完了します。</td>
@@ -174,7 +182,11 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 1. （オプション）パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。パスを並べ替えることはできません。 その他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 
-   ![並列パスを使用した詳細設定モード &#x200B;](assets/request-approval-parallel-paths.jpeg)
+   ![並列パスを使用した詳細設定モード ](assets/request-approval-parallel-paths.jpeg)
+
+<!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. （オプション）すべてのパスとステージをクリアして最初からやり直すには、右上の「**リセット**」をクリックします。
 
@@ -195,7 +207,7 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを作成**」をクリックします。 **承認依頼** ダイアログが基本モードで開きます。
 
@@ -209,6 +221,11 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
    <tr>
    <td><strong>名前またはメールを追加</strong></td>
    <td>承認者またはレビュアーとして追加するユーザー名または電子メールの入力を開始します。 レビューアーしかいない場合は、通知が送信され、レビューを完了するオプションが表示されますが、決定は必要ありません。</td>
+   </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>プレビューでのユーザーまたはチームの追加</strong></span></td>
+   <td><span class="preview">ユーザー名、チーム、または電子メールアドレスを入力し、そのユーザーが<strong>承認者</strong>か<strong> レビュー担当者</strong>かを選択します。 Workfrontは、チームのアクティブな各メンバーを個別に追加します。 <br>
+   注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。</span></td>
    </tr>
    <tr>
    <td><strong>1つの決定のみが必要です（オプション）</strong></td>
@@ -228,6 +245,12 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
    ![基本モードで承認を要求](assets/request-approval-basic.jpeg)
 
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
+
+
+
 >[!NOTE]
 >
 >* 以前のセッションに関係なく、毎回&#x200B;**承認依頼** ダイアログが基本モードで開きます。
@@ -246,7 +269,7 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. 「**ワークフローを作成**」をクリックします。
 
@@ -266,6 +289,11 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
    <tr>
    <td><strong>名前またはメールを追加</strong></td>
    <td>承認者またはレビュアーとして追加するユーザー名または電子メールの入力を開始します。 レビューアーしかいない場合は、通知が送信され、レビューを完了するオプションが表示されますが、決定は必要ありません。<p>注意：レビュアーまたは承認者は、同じアセットで一度に1つのオープンステージにのみ割り当てることができます。 複数の並行ステージが同時に開いている場合、同じ人物を複数に追加することはできません。</p></td>
+   </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>プレビューでのユーザーまたはチームの追加</strong></span></td>
+   <td><span class="preview">ユーザー名、チーム、または電子メールアドレスを入力し、そのユーザーが<strong>承認者</strong>か<strong> レビュー担当者</strong>かを選択します。 Workfrontは、チームのアクティブな各メンバーを個別に追加します。 <br>
+   注：ユーザーが既に追加されているか、追加した複数のチームに属している場合、ユーザーは1回含まれます。 さらに、参加者は、同じアセットで一度に1つのオープンステージにのみ割り当てることができます。</span></td>
    </tr>
    <tr>
    <td><strong>1つの決定のみが必要です（オプション）</strong></td>
@@ -288,7 +316,11 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 1. （オプション）パスを削除するには、パスラベルにカーソルを合わせて、ごみ箱アイコンをクリックします。 **パス 1**&#x200B;を削除できません。パスを並べ替えることはできません。 その他のパスは、パス内のステージがロックまたは完了していない場合にのみ削除できます。
 
-   ![並列パスを使用した詳細設定モード &#x200B;](assets/request-approval-advanced.jpeg)
+   ![並列パスを使用した詳細設定モード ](assets/request-approval-advanced.jpeg)
+
+   <!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+   -->
 
 1. （オプション）すべてのパスとステージをクリアして最初からやり直すには、右上の「**リセット**」をクリックします。
 
@@ -307,7 +339,7 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、左側のパネルで「**ドキュメント**」を選択します。
 1. ドキュメントをクリックし、ページの右側にある&#x200B;**承認** アイコンをクリックします。
 
-   ![&#x200B; ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
+   ![ ドキュメントの概要に承認者を追加](assets/approvals-icon-new.png)
 
 1. バージョンをクリックして展開します。 そのステージ、各承認者の決定、ステージの決定ルール（ステージを完了するために1つの決定のみが必要かどうかなど）、期日を表示できます。
 1. 別のバージョンをクリックして、パネルを離れずに承認ワークフローを展開します。
