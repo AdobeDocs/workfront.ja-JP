@@ -97,7 +97,7 @@ CX Workfrontを利用する際には、次の制約を考慮してください�
 >
 >これらの一般的な機能は、署名済みのAdobe AI契約書をファイルに登録しているすべてのユーザーが使用できます。
 
-これらの一般的なスキルのベストプラクティスとプロンプトについては、[AI アシスタント プロンプトとベストプラクティス ](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)を参照してください。
+これらの一般的なスキルのベストプラクティスとプロンプトについては、[AI アシスタント プロンプトとベストプラクティス &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)を参照してください。
 
 <!--Follow up with Oznur-->
 
@@ -165,7 +165,7 @@ CX Coworkerは、プロジェクト、タスク、イシュー（概要やプロ
 
 * [プロジェクト、タスク、イシューに関する情報を検索](#find-information-about-projects-tasks-or-issues)
 * [プロジェクト、タスク、イシューの要約](#summarize-projects-tasks-or-issues)
-* [ プロジェクト、プログラム、またはポートフォリオのプロジェクトの正常性を表示](#show-project-health-for-projects-programs-or-portfolios) <!--remove any mention of project health-->
+* [&#x200B; プロジェクト、プログラム、またはポートフォリオのプロジェクトの正常性を表示](#show-project-health-for-projects-programs-or-portfolios) <!--remove any mention of project health-->
 
 #### プロジェクト、タスク、イシューに関する情報を検索
 
@@ -204,7 +204,7 @@ CX Coworkerは、プロジェクト、タスク、イシュー（概要やプロ
 
 * [プロジェクトの作成、更新、削除](#create-update-or-delete-projects)
 * [ユーザープロンプトに基づいて適切なプロジェクトテンプレートを特定する](#identify-the-right-project-template-based-on-user-prompt)
-* [ プロジェクト内のタスクを追加、編集、またはカスタマイズする](#add-edit-or-customize-tasks-in-a-project)
+* [&#x200B; プロジェクト内のタスクを追加、編集、またはカスタマイズする](#add-edit-or-customize-tasks-in-a-project)
   <!--* [Create, update, or delete assignments](#create-update-or-delete-assignments)-->
   <!--* [Recommend best matching user assignments for the task based on users' job role and availability](#recommend-best-matching-user-assignments-for-the-task-based-on-users-job-role-and-availability)-->
 

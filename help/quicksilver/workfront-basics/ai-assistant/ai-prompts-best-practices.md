@@ -6,8 +6,10 @@ author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
 TQID: https://experienceleague.adobe.com/FTfet4al9-gwRXHYFzVlC3qrDfW8HUJA22sHN00eKOM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
 source-wordcount: 771
@@ -59,16 +61,16 @@ AI アシスタントから最も有用な情報にアクセスするには、�
 * **時間枠を含める**: AI アシスタントにオブジェクトの特定の時間枠を指定すると、処理する必要があるデータを絞り込むのに役立ち、応答でよりターゲットを絞り込んだ情報が得られます。
 * **一度に1つのことだけを要求します**:1つのプロンプトに複数の無関係な要求が含まれている場合、AI アシスタントは適切な情報を提供できません。
 
-推奨プロンプトについて詳しくは、この記事の次の節を参照してください。[ プロンプトの例](#prompt-examples)。
+推奨プロンプトについて詳しくは、この記事の次の節を参照してください。[&#x200B; プロンプトの例](#prompt-examples)。
 
 
 ### AI アシスタントの回答を検証
 
 AI アシスタントの開発のこの段階では、Workfrontのプロセスに関する情報を求める際に、提供される情報を検証することをお勧めします。 これは、プロンプト応答の「ソース」セクションで提供されている記事リンクをクリックすることで可能です。
 
-![ ソースセクション ](assets/sources-section.png)
+![&#x200B; ソースセクション &#x200B;](assets/sources-section.png)
 
-Workfront プロセスのプロンプトについて詳しくは、この記事の「[Workfrontのアクションに関するプロンプト ](#prompts-to-learn-about-workfront-actions)」を参照してください。
+Workfront プロセスのプロンプトについて詳しくは、この記事の「[Workfrontのアクションに関するプロンプト &#x200B;](#prompts-to-learn-about-workfront-actions)」を参照してください。
 
 
 ## プロンプトの例
