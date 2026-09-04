@@ -4,7 +4,7 @@ description: 2026年第4四半期ドキュメントの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
+source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 3%
@@ -16,6 +16,23 @@ ht-degree: 3%
 このページでは、プレビュー環境への2026年第4四半期リリースで行われたドキュメントの機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
+
+<!--
+
+## System Administrators full access to approval templates
+
+>[!NOTE]
+>
+>Preview: September 4, 2026
+>Production fast release: September 4, 2026
+>Production for everyone: September 4, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+
+For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+
+-->
 
 <!--
 
@@ -81,7 +98,7 @@ Workfront チームを、各人を個別に追加するのではなく、ドキ�
 
 Frame.io エンタープライズライセンスをお持ちでない場合、プロジェクトは引き続きWorkfrontのデフォルトワークスペースに移動します。
 
-詳しくは、[&#x200B; プロジェクト テンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)および[&#x200B; プロジェクトの概要エリアでの情報の管理](/help/quicksilver/manage-work/projects/manage-projects/understand-project-overview-area.md)を参照してください。
+詳しくは、[ プロジェクト テンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)および[ プロジェクトの概要エリアでの情報の管理](/help/quicksilver/manage-work/projects/manage-projects/understand-project-overview-area.md)を参照してください。
 
 <!--
 
@@ -118,7 +135,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 
 ドキュメントの承認時にカスタムメッセージを設定すると、そのメッセージが承認依頼メールの件名にも表示され、設定された期日までに送信されるようになりました。 これにより、レビュー担当者は電子メールを開くことなく、いつ受信トレイに届くのかを直接確認できます。
 
-詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## 新しいドキュメント領域のバージョンパネルを再設計
 
@@ -154,7 +171,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 
 以前は、承認パネルには現在のバージョンのワークフローのみが表示されていました。
 
-詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## Adobe クラウドストレージオブジェクトのコメントに画像を添付する
 
@@ -184,3 +201,23 @@ Adobe クラウドストレージ組織では、すべてのメディアタイ�
 Content Advisorを利用すれば、コンテンツを選択しながら、AI 検索、スマートな提案、キャンペーンの概要の分析などを取得できます。
 
 詳しくは、「[Experience Manager AssetsからAdobe クラウドストレージにコンテンツをリンクする](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)」を参照してください。
+
+<!--
+
+## Approval workflow templates are private by default
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 15, 2026
+
+Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
+
+For more information, see:
+
+* [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Manage approval templates
+* [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+-->
+
