@@ -9,17 +9,13 @@ exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/K9tDDGCuZRkOa3FjqgdojUv6njW4-AzVRsh4a0mG6ww
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1955
-ht-degree: 8%
+source-wordcount: 2022
+ht-degree: 7%
 
 ---
 
@@ -51,7 +47,7 @@ Adobe GenStudio for Performance Marketing Workspaceは、Adobe Workfront Plannin
 
 GenStudio ワークスペースは、両方のシステムでPlanningから表示し、情報を更新できます。
 
-GenStudio Performance MarketingからGenStudio Workspaceを使用および管理する方法について詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
+GenStudio Performance MarketingからGenStudio Workspaceを使用および管理する方法について詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
 
 GenStudioとWorkfront Planningの統合について詳しくは、[Adobe Workfront計画とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)を参照してください。
 
@@ -132,7 +128,7 @@ GenStudioとWorkfront Planningの統合について詳しくは、[Adobe Workfro
 
 Adobe Workfront計画アクセスについて詳しくは、[Adobe Workfront計画アクセスの概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
-Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
+Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home)を参照してください。
 
 +++ 
 
@@ -171,7 +167,7 @@ Old, before Planning STA:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations </li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -227,7 +223,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -282,10 +278,10 @@ Old:
    </table>
 
 * GenStudio WorkspaceのWorkspace設定、レコードタイプ、ビュー、フィールドの更新は、Workfront Planning Workspaceとその要素の更新と同じです。
-<!--
-Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy.
--->
+* GenStudio ワークスペースで、レコードタイプの階層を作成できます。
+
+  詳しくは、[ ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
+* GenStudio レコードタイプをGenStudio BRandsに接続することはできますが、GenStudio Brandsを階層に含めることはできません。
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -310,7 +306,7 @@ Workfront Planning のメインページが開きます。
 
 1. 「**その他のワークスペース**」をクリックし、**System**&#x200B;によって作成され、**GenStudio** タグがカードに含まれている表示情報を持つワークスペースを見つけます。
 
-   タグ ![&#128279;](assets/genstudio-card-with-tag-highlighted.png)付きのGenStudio workspace カード
+   タグ ](assets/genstudio-card-with-tag-highlighted.png)付きの![GenStudio workspace カード
 
 1. **GenStudio Workspace カード**&#x200B;をクリックして、Workfront PlanningでGenStudio Workspaceを開きます。
 1. デフォルトでは、次のGenStudio レコードタイプが作成され、Workfront Planningから表示されます。
@@ -326,7 +322,7 @@ Workfront Planning のメインページが開きます。
 
    <!--check screen shot-->
 
-   タグ ![&#128279;](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)付きのGenStudio レコードタイプ カード
+   タグ ](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)付きの![GenStudio レコードタイプ カード
 
 1. ワークスペース名の右側にある&#x200B;**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックし、次のいずれかをクリックします。
 
@@ -367,7 +363,7 @@ Workfront Planning のメインページが開きます。
 
    * **編集**
 
-     詳しくは、[&#x200B; レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
+     詳しくは、[ レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)を参照してください。
    * **自動処理の管理**&#x200B;または&#x200B;<span preview="preview">**自動処理**</span>
 
      詳しくは、[Adobe Workfront Planningの自動処理の設定](/help/quicksilver/planning/records/configure-automations-to-create-records.md)を参照してください。
@@ -383,20 +379,20 @@ Workfront Planning のメインページが開きます。
 
      レコードタイプのビジネスルールを設定して、ユーザーがそのタイプのレコードを編集または削除できる前に満たす必要がある条件を定義できます。
 
-     詳しくは、[&#x200B; レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
+     詳しくは、[ レコードタイプのビジネスルールの設定](/help/quicksilver/planning/architecture/configure-business-rules.md)を参照してください。
    </div>
 
 1. ビューまたはレコードタイプを共有するには、次の操作を行います。
 
    * レコードタイプページの右上隅にある「**共有**」をクリックし、次のいずれかをクリックします。
      * **レコードタイプを共有**
-       詳しくは、[&#x200B; レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
+       詳しくは、[ レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)を参照してください。
      * **現在のビューを共有**
-       詳しくは、[&#x200B; ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
+       詳しくは、[ ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
      * **ビューリンクをコピー**
        ビューへのリンクがクリップボードにコピーされます。
      * **現在のビューをエクスポート**
-       詳しくは、[&#x200B; テーブルビューからのレコードの書き出し](/help/quicksilver/planning/records/export-records-from-the-table-view.md)を参照してください。
+       詳しくは、[ テーブルビューからのレコードの書き出し](/help/quicksilver/planning/records/export-records-from-the-table-view.md)を参照してください。
 
        >[!NOTE]
        >
@@ -408,7 +404,7 @@ Workfront Planning のメインページが開きます。
 
      詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
-   * **フルスクリーン** アイコン ![&#x200B; フルスクリーンアイコン &#x200B;](assets/open-full-screen-icon.png)でフルビューを開くをクリックすると、フルスクリーンモードで任意のビューが開きます。
+   * **フルスクリーン** アイコン ![ フルスクリーンアイコン ](assets/open-full-screen-icon.png)でフルビューを開くをクリックすると、フルスクリーンモードで任意のビューが開きます。
 
    * 任意のビューからビューの要素を管理します。
 
@@ -444,7 +440,7 @@ Workfront Planning のメインページが開きます。
 
 1. テーブルビューでレコードを選択し、**削除**&#x200B;をクリックします。
 
-   詳しくは、[&#x200B; レコードの削除](/help/quicksilver/planning/records/delete-records.md)を参照してください。
+   詳しくは、[ レコードの削除](/help/quicksilver/planning/records/delete-records.md)を参照してください。
 
    削除されたレコードは、GenStudioからすぐに削除されます。
 
@@ -483,43 +479,35 @@ Workfront Planning のメインページが開きます。
 
 1. （条件付き） PlanningのGenStudio WorkspaceからGenStudio レコードタイプをAEM アセットまたはコンテンツフラグメントに接続した場合は、次の操作を行ってAEMに移動し、GenStudio レコード情報を表示します。
 
-   1. （条件付き）GenStudio ワークスペース内の接続されたAEM アセットから、アセットの名前をクリックし、**AEMで開く** アイコン ![AEMで開くアイコン &#x200B;](assets/open-in-aem-icon.png) アイコンをクリックして、AEMでアセットを開きます。
+   1. （条件付き）GenStudio ワークスペース内の接続されたAEM アセットから、アセットの名前をクリックし、**AEMで開く** アイコン ![AEMで開くアイコン ](assets/open-in-aem-icon.png) アイコンをクリックして、AEMでアセットを開きます。
    1. 右側のパネルで「**キャンペーン**」タブをクリックして選択します。
 
       アセットに接続されたキャンペーンの名前が、**Campaign** フィールドに表示されます。 これは読み取り専用フィールドです。
-      アセットがPlanningのGenStudio Workspaceの&#x200B;**Region**、**Persona**、**Product**&#x200B;または&#x200B;**Channel**&#x200B;にも接続されている場合、これらのレコードタイプのそれぞれのフィールドには、アセットの「**Campaign**」タブに読み取り専用モードで名前が表示されます。
-   1. （条件付き） PlanningのGenStudio Workspaceで接続されたAEM コンテンツフラグメントから、コンテンツフラグメントの名前をクリックし、**AEMで開く** アイコン ![AEMで開くアイコン &#x200B;](assets/open-in-aem-icon.png)をクリックして、コンテンツフラグメントをAEMで開きます。
+      アセットがPlanningのGenStudio Workspaceの**Region**、**Persona**、**Product**&#x200B;または&#x200B;**Channel**&#x200B;にも接続されている場合、これらのレコードタイプのそれぞれのフィールドには、アセットの「**Campaign**」タブに読み取り専用モードで名前が表示されます。
+   1. （条件付き） PlanningのGenStudio Workspaceで接続されたAEM コンテンツフラグメントから、コンテンツフラグメントの名前をクリックし、**AEMで開く** アイコン ![AEMで開くアイコン ](assets/open-in-aem-icon.png)をクリックして、コンテンツフラグメントをAEMで開きます。
    1. **ホーム** アイコン ![AEM](assets/home-icon-in-aem.png)のホームアイコンをクリックして、コンテンツフラグメントのリストに移動し、コンテンツフラグメント名の右側にある&#x200B;**情報** アイコン ![AEM](assets/info-icon-in-aem.png)の情報アイコンをクリックします。
    1. 右側のパネルの「**メタデータ**」タブをクリックします。
 
       コンテンツフラグメントに接続されているキャンペーンの名前が、**xdm: campaignName** フィールドに表示されます。 これは読み取り専用フィールドです。 <!--tried to log a bug to rename this field-->
-      アセットがPlanningのGenStudio Workspaceの&#x200B;**Region**、**Persona**、**Product**&#x200B;または&#x200B;**Channel**&#x200B;にも接続されている場合、これらのレコードタイプのそれぞれのフィールドは、コンテンツフラグメントの「**メタデータ**」タブに読み取り専用モードで名前を表示します。
+      アセットがPlanningのGenStudio Workspaceの**Region**、**Persona**、**Product**&#x200B;または&#x200B;**Channel**&#x200B;にも接続されている場合、これらのレコードタイプのそれぞれのフィールドは、コンテンツフラグメントの「**メタデータ**」タブに読み取り専用モードで名前を表示します。
 
 1. テーブルビューのフィールドにカーソルを合わせ、ドロップダウンメニューをクリックして次のいずれかの操作を行います。
 
    * 並べ替え
    * 非表示
    * 設定の編集
+   * 削除
 
-   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
+     <!--GenStudio-native fields are note removed from GenStudio. -->
 
-   <!--GenStudio-native fields are note removed from GenStudio. -->
+     >[!NOTE]
+     >
+     >* GenStudio フィールドの設定を編集できるのは、GenStudioで管理権限を持っている場合のみです。
+     >* GenStudio フィールドは削除できません。
 
-   >[!NOTE]
-   >
-   >* GenStudio フィールドの設定を編集できるのは、GenStudioで管理権限を持っている場合のみです。
-   >* GenStudio フィールドは削除できません。
+## GenStudio ワークスペースでのワークスペース階層の作成
 
-<!--
-Is this just Preview?? Or direct to Prod?? 
+GenStudio ワークスペースでの階層の作成は、任意のワークスペースでの階層の作成と似ています。
 
-## Create workspace hierarchies in the GenStudio workspace
+詳しくは、[ ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください
 
-Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
-
->[!NOTE]
->
->You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
-
-For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
--->
