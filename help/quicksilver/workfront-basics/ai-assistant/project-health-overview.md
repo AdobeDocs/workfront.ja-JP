@@ -6,18 +6,13 @@ author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 TQID: https://experienceleague.adobe.com/JKswbVxwKRxGdUpn7GlLRNwu7lDLxGOL3l-ZD4SffKE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 2065
+source-wordcount: 2100
 ht-degree: 4%
 
 ---
@@ -26,7 +21,8 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->プロジェクトの正常性機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。
+>* 2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Coworkerに移行中です。 CX Coworkerについて詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+>* プロジェクトの正常性機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。
 
 Adobe Workfrontのプロジェクトヘルス機能は、AI アシスタントの機能を活用して、プロジェクトのパフォーマンス、注意が必要な分野、時間と費用がかかる可能性のある問題を回避する方法などを即座に評価します。
 
@@ -96,9 +92,9 @@ AI アシスタントについて詳しくは、[AI アシスタントの概要]
 * Workfront管理者は、組織内のユーザーに対してAI アシスタントを有効にする必要があります。 AI アシスタントはアクセスレベルで有効になります。
 * 「AIを有効にする」オプションと「プロジェクトの健全性」オプションの両方を、「設定」の「システム環境設定」セクションの「AI環境設定」セクションで選択する必要があります。
 
-  ![AI環境設定セクション &#x200B;](assets/ai-preferences.png)
+  ![AI環境設定セクション ](assets/ai-preferences.png)
 
-詳しくは、[AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)および[&#x200B; システム環境設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+詳しくは、[AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)および[ システム環境設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 ## プロジェクトの健全性の計算方法
 
@@ -108,7 +104,7 @@ AI アシスタントは、利用可能なプロジェクトの健全性ステ�
 * リスクあり
 * トラブル発生中
 
-この状態は、プロジェクトの進捗状況、過小評価された作業など、プロジェクトコンポーネントを使用して計算されます。 プロジェクトの正常性を測定するために使用されるコンポーネントの完全なリストについては、「[&#x200B; プロジェクトとプログラムの状態リスト &#x200B;](#project-and-program-states-list)」を参照してください。
+この状態は、プロジェクトの進捗状況、過小評価された作業など、プロジェクトコンポーネントを使用して計算されます。 プロジェクトの正常性を測定するために使用されるコンポーネントの完全なリストについては、「[ プロジェクトとプログラムの状態リスト ](#project-and-program-states-list)」を参照してください。
 
 各プロジェクトコンポーネントに割り当てられたリスクスコアは（0～100）です。このスコアを平均することで、プロジェクト全体の健全性を把握できます。
 
@@ -149,7 +145,7 @@ AI アシスタントは、利用可能なプロジェクトの健全性ステ�
 プロジェクトの条件について詳しくは、次の記事を参照してください。
 
 * [プロジェクトの状況の更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
-* [&#x200B; カスタム条件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)。
+* [ カスタム条件](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)。
 
 ## プロジェクトとプログラム プロジェクトの正常性の状態リスト
 
@@ -275,7 +271,7 @@ AI アシスタントは、利用可能なプロジェクトの健全性ステ�
 
 1. **で、必須フィールドを確認しますか？** セクションで、プロジェクトの値を含める必要がある1つ以上のフィールドを選択します。
 
-   ![&#x200B; プロジェクトの正常性に必要なフィールド &#x200B;](assets/project-completeness-fields.png)
+   ![ プロジェクトの正常性に必要なフィールド ](assets/project-completeness-fields.png)
 
 1. 「**追加**」をクリックして、より多くのネイティブまたはカスタムプロジェクトまたはタスクフィールドに追加します。
 
@@ -289,13 +285,13 @@ Workfront管理者がプロジェクトのヘルス設定を作成したら、�
 
 1. **プロジェクト** ページで、プロジェクトを選択します。
 
-1. プロジェクト名の右側にある&#x200B;**詳細** アイコン ![詳細アイコン &#x200B;](assets/more-icon.png)をクリックし、**編集**&#x200B;を選択します。 「**プロジェクトを編集**」ボックスが開きます。
+1. プロジェクト名の右側にある&#x200B;**詳細** アイコン ![詳細アイコン ](assets/more-icon.png)をクリックし、**編集**&#x200B;を選択します。 「**プロジェクトを編集**」ボックスが開きます。
 
 1. 左側のパネルで、**プロジェクト設定**&#x200B;をクリックします。
 
 1. 「**プロジェクト正常性設定**」フィールドで、このプロジェクトに適用する設定を選択します。
 
-   ![&#x200B; プロジェクト正常性設定フィールド &#x200B;](assets/project-health-configurations.png)
+   ![ プロジェクト正常性設定フィールド ](assets/project-health-configurations.png)
 
 1. ページの左下隅にある「**保存**」をクリックします。
 
@@ -312,13 +308,13 @@ Workfront管理者がプロジェクトのヘルス設定を作成したら、�
 >* 評価を生成するには、プロジェクトまたはプログラムの表示権限が必要です。
 >* プロジェクトが開始されるまで、プロジェクトの健全性評価を生成することはできません。 プロジェクトの環境設定で開始するイベントトリガーを設定できます
 
-詳しくは、この記事の「[&#x200B; プロジェクト正常性設定の管理](#manage-project-health-configurations)」の節を参照してください。
+詳しくは、この記事の「[ プロジェクト正常性設定の管理](#manage-project-health-configurations)」の節を参照してください。
 
 プロジェクトまたはプログラムのプロジェクト正常性評価を生成するには：
 
 1. プロジェクトの健全性評価を生成するプロジェクトまたはプログラムに移動します。
 
-1. プロジェクト/プログラムの詳細ページで、画面の右上隅にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon.png)をクリックします。 AI アシスタントが開きます。
+1. プロジェクト/プログラムの詳細ページで、画面の右上隅にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png)をクリックします。 AI アシスタントが開きます。
 
 1. 「**Workfrontについて質問**」フィールドに次の項目を入力します。*このプロジェクトの正常性は何ですか？*
 
@@ -328,14 +324,14 @@ Workfront管理者がプロジェクトのヘルス設定を作成したら、�
 
    >[!NOTE]
    >
-   >Workfrontの別のページからAI アシスタントにアクセスする場合は、「*プロジェクトの正常性[ プロジェクト名]?*」または「*プログラムの正常性[ プログラム名]?*<br>」と入力できます
-   >入力できる現在のプロンプトの完全なリストについては、この記事の「[AI アシスタント プロンプト リスト &#x200B;](#ai-assistant-prompts-list)」の節を参照してください。
+   >Workfrontの別のページからAI アシスタントにアクセスする場合は、*プロジェクトの正常性[ プロジェクト名]?*&#x200B;と入力できます または&#x200B;*プログラム [ プログラム名]の正常性を確認してください。* <br>
+   >入力できる現在のプロンプトの完全なリストについては、この記事の「[AI アシスタント プロンプト リスト ](#ai-assistant-prompts-list)」の節を参照してください。
 
-1. **送信** アイコン ![送信アイコン &#x200B;](assets/send-icon.png)をクリックします。 プロジェクトの正常性評価が生成され、パネルに表示されます。 各プロジェクトヘルス評価の上部にバッジが表示され、プロジェクトの現在の状況が反映されます。
+1. **送信** アイコン ![送信アイコン ](assets/send-icon.png)をクリックします。 プロジェクトの正常性評価が生成され、パネルに表示されます。 各プロジェクトヘルス評価の上部にバッジが表示され、プロジェクトの現在の状況が反映されます。
 
-   ![&#x200B; プロジェクトの正常性評価](assets/health-assessment.png)
+   ![ プロジェクトの正常性評価](assets/health-assessment.png)
 
-   プログラムの評価を生成する場合は、プログラム内の各プロジェクトの状態を示す複数のバッジが表示されます。 バッジラベルについて詳しくは、この記事の「[&#x200B; プロジェクトとプログラムの状態リスト &#x200B;](#project-and-program-states-list)」の節を参照してください。
+   プログラムの評価を生成する場合は、プログラム内の各プロジェクトの状態を示す複数のバッジが表示されます。 バッジラベルについて詳しくは、この記事の「[ プロジェクトとプログラムの状態リスト ](#project-and-program-states-list)」の節を参照してください。
 
 1. （オプション）評価ポイントのいずれかをクリックして、その詳細を展開します。
 
@@ -343,21 +339,21 @@ Workfront管理者がプロジェクトのヘルス設定を作成したら、�
 
    ![詳細を拡張](assets/expanded-details.png)
 
-1. プロジェクトの正常性の詳細を確認したら、AI アシスタントの右上隅にある&#x200B;**閉じる** アイコン ![閉じるアイコン &#x200B;](assets/close-icon.png)をクリックします。
+1. プロジェクトの正常性の詳細を確認したら、AI アシスタントの右上隅にある&#x200B;**閉じる** アイコン ![閉じるアイコン ](assets/close-icon.png)をクリックします。
 
 ## 複数のプロジェクトに対してプロジェクトの正常性評価を生成する
 
 現在の表示権限を持つプロジェクトすべてに対して、プロジェクトの健全性評価を組み合わせて生成できます。
 
-プロジェクトが開始された場合にのみ、プロジェクトは組み合わされたプロジェクト正常性評価に含まれます。 プロジェクトトリガーで開始するイベント設定を設定できます。 詳しくは、この記事の「[&#x200B; プロジェクト正常性設定の管理](#manage-project-health-configurations)」の節を参照してください。
+プロジェクトが開始された場合にのみ、プロジェクトは組み合わされたプロジェクト正常性評価に含まれます。 プロジェクトトリガーで開始するイベント設定を設定できます。 詳しくは、この記事の「[ プロジェクト正常性設定の管理](#manage-project-health-configurations)」の節を参照してください。
 
-1. 画面の右上隅にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon.png)をクリックします。 AI アシスタントが開きます。
+1. 画面の右上隅にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png)をクリックします。 AI アシスタントが開きます。
 
 1. 「**Workfrontについて質問する」フィールドに次のように入力します**: *自分のプロジェクトの健全性は何ですか？*
 
-   入力できる現在のプロンプトの完全なリストについては、この記事の次の節を参照してください。[AI アシスタント プロンプト リスト &#x200B;](#ai-assistant-prompts-list)。
+   入力できる現在のプロンプトの完全なリストについては、この記事の次の節を参照してください。[AI アシスタント プロンプト リスト ](#ai-assistant-prompts-list)。
 
-1. **送信** アイコン ![送信アイコン &#x200B;](assets/send-icon.png)をクリックします。 プロジェクトヘルスアセスメントが生成され、パネルに表示されます。
+1. **送信** アイコン ![送信アイコン ](assets/send-icon.png)をクリックします。 プロジェクトヘルスアセスメントが生成され、パネルに表示されます。
 
    ![複数のプロジェクトの評価](assets/multiple-projects-assessment.png)
 
@@ -365,7 +361,7 @@ Workfront管理者がプロジェクトのヘルス設定を作成したら、�
 
 1. （オプション）プロジェクトの健全性バッジのいずれかをクリックしてプロジェクトリストを展開し、特定のプロジェクトのリンクを選択して、そのプロジェクトの詳細ページに移動します。
 
-1. プロジェクトの正常性の詳細を確認したら、AI アシスタントの右上隅にある&#x200B;**閉じる** アイコン ![閉じるアイコン &#x200B;](assets/close-icon.png)をクリックして閉じます。
+1. プロジェクトの正常性の詳細を確認したら、AI アシスタントの右上隅にある&#x200B;**閉じる** アイコン ![閉じるアイコン ](assets/close-icon.png)をクリックして閉じます。
 
 <!--
 

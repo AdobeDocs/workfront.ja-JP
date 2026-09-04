@@ -6,23 +6,22 @@ author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
 TQID: https://experienceleague.adobe.com/mvz-eXJfHkjdqLVkMishEznQ2HrlHg-RSYTJgGjHEY8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 175
-ht-degree: 32%
+source-wordcount: 202
+ht-degree: 27%
 
 ---
 
 # AI アシスタントを使用した、プロジェクト、タスクおよびイシューの作業
 
+>[!IMPORTANT]
+>
+>2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Coworkerに移行中です。 CX Coworkerについて詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
 AI アシスタントは、Workfrontでプロジェクト、タスク、イシューを見つけるのに役立ちます。
 
@@ -51,7 +50,7 @@ AI アシスタントは、Workfrontでプロジェクト、タスク、イシ�
 
 ## 作業項目の検索
 
-1. 画面の右上隅付近にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon.png)をクリックします。
+1. 画面の右上隅付近にある&#x200B;**AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png)をクリックします。
 1. 次のようなプロンプトを入力します。
 
    * *今週の期限が切れているタスクを検索*

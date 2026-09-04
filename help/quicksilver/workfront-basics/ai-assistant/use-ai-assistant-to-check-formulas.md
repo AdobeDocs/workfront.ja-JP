@@ -8,14 +8,12 @@ exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/cElkORWwjUT-4GQXpPXMN0sKfhOloSnxEbS15nt3cpU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 46
-ht-degree: 15%
+source-wordcount: 73
+ht-degree: 9%
 
 ---
 
@@ -23,7 +21,8 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->AI アシスタントを使用して数式を生成する機能がAdobe Workfrontから削除されました。
+>* 2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Coworkerに移行中です。 CX Coworkerについて詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
+>* AI アシスタントを使用して数式を生成する機能がAdobe Workfrontから削除されました。
 
 
 <!--

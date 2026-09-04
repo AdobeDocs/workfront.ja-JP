@@ -11,22 +11,12 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
 source-wordcount: 1318
 ht-degree: 37%
@@ -182,17 +172,17 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
       <td role="rowheader">リクエストフォームのインテリジェントなオートコンプリート </td> 
       <td>以前のリクエストデータに基づいてリクエストフォームを自動補完する機能を有効にすることができます。 フォームの自動入力について詳しくは、<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">以前のデータからのリクエストの自動入力</a>を参照してください。</td> 
      </tr>
+     <tr> 
+      <td role="rowheader">AI Betas のオプトイン </td> 
+      <td>現在BetaにあるAI機能を有効にすることができます。 このオプションを有効にする場合は、有効にするAI Beta機能を選択できます。 各AI Beta機能の詳細については、その機能の横にある情報アイコンをクリックしてください
     <tr> 
       <td role="rowheader">Planning デザイナー</td> 
       <td>これは、Workfront Planning パッケージを購入したお客様のみが使用できます。 この設定を有効にすると、Planning Designerを使用してワークスペースを作成および編集できるようになります。 詳しくは、「<a href="/help/quicksilver/planning/general/planning-ai-designer.md">Adobe Workfront計画Designerの基本を学ぶ</a>」を参照してください。</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">AI Betas のオプトイン </td> 
-      <td>現在BetaにあるAI機能を有効にすることができます。 このオプションを有効にする場合は、有効にするAI Beta機能を選択できます。 各AI Beta機能の詳細については、その機能の横にある情報アイコンをクリックしてください。</td> 
+     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">読み取り専用 MCP ツール</span></td> 
-      <td><span class="preview">Workfront MCP サーバーは、Workfront データに対して読み取りアクション（プロジェクト、タスク、その他の項目の検索や一覧表示など）を実行できます。 このオプションは、デフォルトで有効になっています。<p>Workfront MCP サーバーについて詳しくは、<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Adobe Workfront MCP サーバーの設定</a>を参照してください。</p></span></td> 
+      <td><span class="preview">Workfront MCP サーバーは、Workfront データに対して、プロジェクト、タスク、その他の項目の検索や一覧表示などの読み取りアクションを実行できます。 このオプションは、デフォルトで有効になっています。<p>Workfront MCP サーバーについて詳しくは、<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Adobe Workfront MCP サーバーの設定</a>を参照してください。</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">MCP ツールを書き込む</span></td> 
