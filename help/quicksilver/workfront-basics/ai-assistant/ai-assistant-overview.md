@@ -18,14 +18,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 859
-ht-degree: 97%
+source-wordcount: 886
+ht-degree: 94%
 
 ---
 
 # Workfront の AI アシスタント
+
+>[!IMPORTANT]
+>
+>2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Coworkerに移行中です。 CX Coworkerについて詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
 Workfront の AI アシスタントは、アプリ内の情報やおすすめを自然言語で提供し、作業の遂行を支援します。 AI アシスタントを使用すると、次の操作をよりスムーズに行うことができます。
 

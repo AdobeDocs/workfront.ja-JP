@@ -16,14 +16,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 15%
+source-wordcount: 353
+ht-degree: 12%
 
 ---
 
 # AI アシスタントの有効化と無効化
+
+>[!IMPORTANT]
+>
+>2026年9月から、AI アシスタントは、業務を遂行するための会話型インターフェイスであるCX Coworkerに移行中です。 CX Coworkerについて詳しくは、[CX Coworkerの概要](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)を参照してください。
 
 Workfront管理者は、組織内のどのユーザーがAI アシスタントを有効にするかを制御できます。 これはアクセスレベルで管理されます。
 
@@ -70,7 +74,7 @@ Workfront管理者は、組織内のどのユーザーがAI アシスタント�
 >[!IMPORTANT]
 >
 >AI アシスタントを使用するには、Adobeで署名済みの生成AI契約書をファイルに含める必要があります。
->生成AI契約書について詳しくは、「[Adobe生成AI契約書に署名](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)」を参照してください。WorkfrontのAI アシスタントの記事を参照してください。
+>生成AI契約書について詳しくは、「[Adobe生成AI契約書に署名する](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)」を参照してください。詳しくは、WorkfrontのAI アシスタントの記事を参照してください。
 
 ## アクセスレベルのAI アシスタントを有効または無効にする
 
