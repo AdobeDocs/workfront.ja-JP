@@ -28,7 +28,7 @@ WorkfrontでCoworkerを使用する場合、次のような情報とオブジェ
 
 Coworkerは大規模なAdobe CX Enterprise エコシステムの一部であるため、Coworkerを使用して、Workfrontの右側のパネルにある他のAdobe製品の情報やオブジェクトを操作したり、WorkfrontからAdobe CX Coworker インターフェイスに移動したりできます。
 
-Workfront以外でのCoworkerとその機能について詳しくは、[Adobe CX Enterprise Coworker Chatの概要](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)を参照してください。
+Workfront以外でのCoworkerとその機能について詳しくは、[Adobe CX Enterprise Coworker Chatの概要](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/chat/overview)を参照してください。
 
 
 ## アクセス要件
@@ -78,14 +78,14 @@ Workfront以外でのCoworkerとその機能について詳しくは、[Adobe CX
    * **マイク**：音声入力でメッセージを指示します。 録音を停止するには、もう一度選択します。
    * **送信**: メッセージを送信します。 同僚のチャットが応答している間、これは割り込みに使用できる停止制御になります。
 
-   これらのアクションについて詳しくは、Adobe CX Coworker ドキュメントの[&#x200B; チャット入力ボックス &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box)を参照してください。
+   これらのアクションについて詳しくは、Adobe CX Coworker ドキュメントの[&#x200B; チャット入力ボックス &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box)を参照してください。
 
 1. 以前のチャットを表示および管理するには、CX同僚パネルのチャットアイコン ![&#x200B; チャットアイコン &#x200B;](assets/ai-icon.png)をクリックします。
 
-   チャットについて詳しくは、Adobe CX Coworker ドキュメントの[&#x200B; チャットの管理](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)を参照してください。
+   チャットについて詳しくは、Adobe CX Coworker ドキュメントの[&#x200B; チャットの管理](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)を参照してください。
 1. 出力リストなどのチャットアーティファクトを表示および管理するには、アーティファクトアイコン ![&#x200B; アーティファクトアイコン &#x200B;](assets/artifacts-icon.png)をクリックします。
 
-   CX Coworkerのアーティファクトについて詳しくは、Adobe CX Coworker ドキュメントの[&#x200B; アーティファクト &#x200B;](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts)を参照してください。
+   CX Coworkerのアーティファクトについて詳しくは、Adobe CX Coworker ドキュメントの[&#x200B; アーティファクト &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts)を参照してください。
 1. 同僚の設定を管理するには、設定アイコン ![設定](assets/coworker-settings-icon.png)をクリックします。
 1. 同僚パネルを展開するには、展開アイコン ![展開アイコン &#x200B;](assets/coworker-expand-icon.png)をクリックします。
 1. Adobe CX Coworker インターフェイスに移動するには、ページの右上隅にあるアプリアイコン ![&#x200B; アプリアイコン &#x200B;](assets/apps-icon.png)をクリックし、使用可能なアプリケーションのリストから「Coworker」を選択します。

@@ -29,7 +29,7 @@ Adobe Workfrontは、Adobeのエコシステムの一部であり、Workfrontの
 
 WorkfrontでのCX Coworkerの使用について詳しくは、[WorkfrontでのCX Coworkerの使用](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)を参照してください。
 
-Coworkerとその機能について詳しくは、[Adobe CX Enterprise Coworker Chatの概要](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)を参照してください。
+Coworkerとその機能について詳しくは、[Adobe CX Enterprise Coworker Chatの概要](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/chat/overview)を参照してください。
 
 WorkfrontのCoworkerで使用できるスキルについては、[CX Coworker skills](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)を参照してください。
 
