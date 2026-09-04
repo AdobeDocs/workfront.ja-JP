@@ -18,7 +18,7 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[ フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
+>Canvas ダッシュボード機能は現在、ベータ版ステージに参加しているユーザーのみが利用できます。 機能の一部が完了していないか、この段階で意図したとおりに動作しない可能性があります。 ご利用のエクスペリエンスに関するフィードバックは、Canvas ダッシュボードのベータ版の概要記事の「[&#x200B; フィードバックを提供](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)」セクションの手順に従って送信してください。<br>
 >バグや技術的な問題についてフィードバックがある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。<br>
 >このベータ版は、次のクラウドプロバイダーでは利用できないことに注意してください。
 >
@@ -73,7 +73,7 @@ Canvas ダッシュボードをコピーして、エグゼクティブダッシ�
 
 ダッシュボードを複製する前に、ダッシュボードを作成する必要があります。
 
-詳しくは、[ キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
+詳しくは、[&#x200B; キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)を参照してください。
 
 ## ダッシュボードのコピー
 
@@ -89,19 +89,19 @@ Canvas ダッシュボードをコピーして、エグゼクティブダッシ�
 
 1. **Canvas ダッシュボード** ページで、コピーするダッシュボードを開きます。
 
-1. 右上隅の&#x200B;**詳細** ![詳細アイコン ](assets/more-icon.png) アイコンを選択し、**コピー**を選択します。
-   ![ ダッシュボードのメニューオプションをコピー](assets/duplicate-dashboard.png)
+1. 右上隅の&#x200B;**詳細** ![詳細アイコン &#x200B;](assets/more-icon.png) アイコンを選択し、**コピー**&#x200B;を選択します。
+   ![&#x200B; ダッシュボードのメニューオプションをコピー](assets/duplicate-dashboard.png)
 
 1. **ダッシュボードをコピー** ダイアログボックスで、新しいダッシュボードの&#x200B;**名前**&#x200B;を入力します。デフォルトでは、ソースダッシュボードの名前の後に「（コピー）」が続きます。
 
-1. （オプション）「**ダッシュボードの詳細**」タブで、新しいダッシュボードの&#x200B;**説明**&#x200B;または&#x200B;**通貨**を更新します。
-   ![ ダッシュボードをコピー – ダッシュボードの詳細タブ ](assets/duplicate-details.png)
+1. （オプション）「**ダッシュボードの詳細**」タブで、新しいダッシュボードの&#x200B;**説明**&#x200B;または&#x200B;**通貨**&#x200B;を更新します。
+   ![&#x200B; ダッシュボードをコピー – ダッシュボードの詳細タブ &#x200B;](assets/duplicate-details.png)
 
 1. （オプション）「**ウィジェット**」タブをクリックし、重複するダッシュボードに含めたくないウィジェットの選択を解除します。
-   ![ ダッシュボードをコピー – 「ウィジェット」タブ ](assets/copy-widgets.png)
+   ![&#x200B; ダッシュボードをコピー – 「ウィジェット」タブ &#x200B;](assets/copy-widgets.png)
 
-1. （オプション）「**フィルターとプロンプト**」タブをクリックし、**ダッシュボードフィルターのコピー**&#x200B;または&#x200B;**ダッシュボードプロンプトのコピー**をオフにして、重複したダッシュボードから除外します。
-   ![ ダッシュボードをコピー – 「フィルターとプロンプト」タブ ](assets/copy-filters.png)
+1. （オプション）「**フィルターとプロンプト**」タブをクリックし、**ダッシュボードフィルターのコピー**&#x200B;または&#x200B;**ダッシュボードプロンプトのコピー**&#x200B;をオフにして、重複したダッシュボードから除外します。
+   ![&#x200B; ダッシュボードをコピー – 「フィルターとプロンプト」タブ &#x200B;](assets/copy-filters.png)
 
 1. 「**ダッシュボードをコピー**」をクリックします。
 
