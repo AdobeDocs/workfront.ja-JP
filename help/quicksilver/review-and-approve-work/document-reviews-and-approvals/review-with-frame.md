@@ -17,14 +17,16 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 540
-ht-degree: 10%
+source-wordcount: 626
+ht-degree: 9%
 
 ---
 
 # Frame.io ビューアでのレビューと承認
+
+{{highlighted-preview}}
 
 Frame.io ビューアを使用して、Workfrontでドキュメントをレビューおよび承認できます。
 
@@ -87,7 +89,7 @@ Workfrontのホームページに移動し、「自分の承認」ウィジェ�
    >マイ承認ウィジェットをホームページに追加する必要がある場合があります。 詳細については、「[&#x200B; ホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)」を参照してください。
 
 1. Frame.ioでは、コメントツールを使ってフィードバックを残したり、質問したりできます。
-コメントとアセットマークアップは、Frame.io ビューアでのみ表示されます。Workfrontにはコメントは表示されません。Frame.io ビューアの使用について詳しくは、[&#x200B; メディアに対するコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
+コメントとアセットマークアップは、Frame.io ビューアでのみ表示されます。 Workfrontにはコメントは表示されません。 <span class="preview">ただし、Workfrontのドキュメントのコメントパネルには、カウントが利用可能な場合のコメントの数と、Frame.io ビューアを開いて読み取るためのリンクが表示されます。</span> Frame.io ビューアの使用について詳しくは、[&#x200B; メディアに対するコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
 1. ドキュメントに問題がなければ、Workfrontのドキュメントの詳細ページに戻り、レビューを完了としてマークします。
 
    ![&#x200B; レビュー完了をマーク &#x200B;](assets/mark-review-complete.png)
@@ -110,6 +112,12 @@ Workfrontのホームページに移動し、「自分の承認」ウィジェ�
 
 
 1. Frame.ioでは、コメントツールを使ってフィードバックを残したり、質問したりできます。 コメントとアセットマークアップは、Frame.io ビューアでのみ表示されます。 Frame.io ビューアの使用について詳しくは、[&#x200B; メディアに対するコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
+
+   >[!NOTE]
+   >
+   > <span class="preview"> プレビューでは、Workfrontのコメントパネルに、Frame.ioで新しいコメントが利用可能になったことを知らせるメッセージが表示されます。</span>
+
+
 1. 文書に問題がなければ、Frame.io ビューアで次のいずれかの決定を選択できます。
 
    * **承認**: アセットは変更を必要とせず、使用する準備ができています。

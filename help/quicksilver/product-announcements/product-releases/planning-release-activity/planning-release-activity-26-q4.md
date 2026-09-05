@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
+source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1780'
 ht-degree: 3%
 
 ---
@@ -218,6 +218,7 @@ Workspace Managerで、接続されたレコードタイプ間の依存関係を
 
 * レコードタイプを接続する際に、「新規接続」タブに「接続設定」セクションを追加しました
 * 新しいセクションに「この接続を依存にする」設定を追加しました
+* 参照フィールドを接続に追加する方法を変更しました
 
 
 詳しくは、[依存関係の管理](/help/quicksilver/planning/architecture/manage-dependent-connections.md)を参照してください。

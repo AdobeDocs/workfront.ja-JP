@@ -17,14 +17,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: fd9480e119e9ea8e638221d569e57b27ecd5a34d
 workflow-type: tm+mt
-source-wordcount: 513
-ht-degree: 61%
+source-wordcount: 631
+ht-degree: 55%
 
 ---
 
 # ドキュメントに更新を追加
+
+{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -76,10 +78,10 @@ ht-degree: 61%
 1. 必要なドキュメントを検索し、次のいずれかの操作を行います。
 
    * リスト内のドキュメントをクリックし、右上隅にある&#x200B;**概要を開く** アイコン ![概要を開くアイコン &#x200B;](assets/qs-summary-in-new-toolbar-small.png)をクリックしてから新しいコメントを追加するか、**返信**&#x200B;をクリックして既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
-   * ドキュメントにカーソルを合わせ、左側のパネルで「**ドキュメントの詳細**」、「**更新**」の順にクリックします。
-オブジェクトに更新プログラムを追加する方法について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+   * ドキュメントの上にマウスポインタを合わせて、**ドキュメントの詳細**&#x200B;をクリックし、左パネルの「**更新**」をクリックします。
+     オブジェクトへの更新の追加について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-   更新と返信は、ドキュメントに追加され、上位のオブジェクトにも追加されます。 詳しくは、[セクションの更新の概要](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
+   更新と返信は、ドキュメントに追加され、上位ランキングのオブジェクトにも追加されます。 詳しくは、[セクションの更新の概要](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
 
 
 ### ドキュメントのプルーフコメントへの返信を追加する
@@ -101,3 +103,20 @@ ht-degree: 61%
 1. 必要なドキュメントを検索し、コメントアイコン ![&#x200B; コメントアイコン &#x200B;](assets/new-doc-comment-icon.png)をクリックしてコメントパネルを開きます。
 1. テキストボックスにコメントを入力し、**送信**&#x200B;をクリックします。
    ![新しい文書コメントパネル &#x200B;](assets/comments-new-doc.png)
+
+
+<div class="preview">
+
+### プレビューのFrame.io コメントインジケーター
+
+文書の承認ワークフローが作成されると、ユーザーはFrame.io ビューアでコメントを残したり、注釈を付けたりできます。 これらのコメントはWorkfrontのコメントパネルには表示されませんが、Frame.io ビューアで表示できます。
+
+Workfrontのコメントパネルには、Frame.ioで新しいコメントが使用可能になったことを知らせるメッセージが表示されます。
+
+1. 「**コメントを確認**」をクリックして、Frame.io ビューアでドキュメントを開き、そこにコメントを表示します。
+
+>[!NOTE]
+>
+>* Frame.io エンタープライズライセンスをお持ちの場合は、承認ワークフローを使用せずにFrame.io ビューアでコメントを表示できます。
+
+</div>

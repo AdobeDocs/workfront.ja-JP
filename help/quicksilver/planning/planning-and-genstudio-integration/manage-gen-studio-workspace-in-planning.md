@@ -16,10 +16,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1955
-ht-degree: 8%
+source-wordcount: 2022
+ht-degree: 7%
 
 ---
 
@@ -282,10 +282,10 @@ Old:
    </table>
 
 * GenStudio WorkspaceのWorkspace設定、レコードタイプ、ビュー、フィールドの更新は、Workfront Planning Workspaceとその要素の更新と同じです。
-<!--
-Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
-* You cannot include GenStudio Brands in a hierarchy.
--->
+* GenStudio ワークスペースで、レコードタイプの階層を作成できます。
+
+  詳しくは、[&#x200B; ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
+* GenStudio レコードタイプをGenStudio BRandsに接続することはできますが、GenStudio Brandsを階層に含めることはできません。
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -500,26 +500,18 @@ Workfront Planning のメインページが開きます。
    * 並べ替え
    * 非表示
    * 設定の編集
+   * 削除
 
-   <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
+     <!--GenStudio-native fields are note removed from GenStudio. -->
 
-   <!--GenStudio-native fields are note removed from GenStudio. -->
+     >[!NOTE]
+     >
+     >* GenStudio フィールドの設定を編集できるのは、GenStudioで管理権限を持っている場合のみです。
+     >* GenStudio フィールドは削除できません。
 
-   >[!NOTE]
-   >
-   >* GenStudio フィールドの設定を編集できるのは、GenStudioで管理権限を持っている場合のみです。
-   >* GenStudio フィールドは削除できません。
+## GenStudio ワークスペースでのワークスペース階層の作成
 
-<!--
-Is this just Preview?? Or direct to Prod?? 
+GenStudio ワークスペースでの階層の作成は、任意のワークスペースでの階層の作成と似ています。
 
-## Create workspace hierarchies in the GenStudio workspace
+詳しくは、[&#x200B; ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください
 
-Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
-
->[!NOTE]
->
->You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
-
-For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
--->

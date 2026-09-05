@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 2440
+source-wordcount: 2498
 ht-degree: 6%
 
 ---
@@ -191,6 +191,13 @@ ht-degree: 6%
       >例えば、プロジェクトの予定開始日がWorkfrontで午後3:00と表示される場合、読み込まれたルックアップフィールドでは、Workfront Planningで15:00と表示されます。
 
   * Workfront Planningで階層を作成するには、レコードタイプを接続する必要があります。 レコードタイプの接続が存在しない場合は、階層を作成するときに自動的に作成されます。 詳しくは、[&#x200B; ワークスペース階層の作成](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)を参照してください。
+
+  * 組織がAdobe GenStudio for Performance Marketing パッケージを購入した場合、次のシナリオが存在します。
+
+    * Planning レコードタイプからGenStudio レコードタイプに接続することはできません。
+    * GenStudio レコードタイプは、GenStudio ワークスペースで接続できます。
+    * GenStudio ブランドは、GenStudio レコードタイプとプランニングレコードタイプから接続できます。
+    * GenStudio ブランドを階層に含めることはできません。
 
   <div class="preview">
 
