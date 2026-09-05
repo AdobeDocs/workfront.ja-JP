@@ -14,9 +14,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1108
 ht-degree: 0%
 
 ---
@@ -83,6 +83,12 @@ Workspace Managerでは、Adobe Workfront Planningで、接続されたレコー
   * 接続されたレコードタイプが階層の一部である場合、子レコードタイプの1つのレコードを、親レコードタイプの最大10件のレコードに接続できます。
 
     例えば、親としてCampaignsと子レコードとしてPersonaの間に階層を作成する場合、同じペルソナを最大10件のキャンペーンに接続できます。
+  * 組織がAdobe GenStudio for Performance Marketing パッケージを購入した場合、次のシナリオが存在します。
+
+    * Planning レコードタイプからGenStudio レコードタイプに接続することはできません。
+    * GenStudio レコードタイプは、GenStudio ワークスペースで接続できます。
+    * GenStudio BrandsをGenStudio レコードタイプおよびプランニングレコードタイプに接続できます。
+    * GenStudio ブランドを階層に含めることはできません。
 
 ## パンくずリストを表示する際の考慮事項
 
