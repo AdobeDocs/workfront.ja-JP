@@ -5,9 +5,9 @@ title: Adobe Workfront MCP Server Tools
 description: Adobe Workfront MCP サーバーを通じて使用可能なツールのリファレンスリストを、Workfront領域ごとにグループ化します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
+source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2785'
 ht-degree: 6%
 
 ---
@@ -112,7 +112,7 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | --- | --- | --- | --- |
 | 名前でプロジェクトを検索 | `approvals_find_project_by_name` | 2026年8月13日（PT）に削除されました。 代わりに`insights_find_id_by_name`を使用してください。 このツールは、システム全体で名前の一部が一致するWorkfront プロジェクトを検索しました。 | 読み取り |
 | 所有者によるプロジェクトの取得 | `approvals_get_projects_by_owner` | 2026年8月13日（PT）に削除されました。 代わりに`insights_find_workfront_data`を使用してください。 このツールには、呼び出し元ユーザーがオーナーであるWorkfront プロジェクトが一覧表示されます。 | 読み取り |
-| 現在のユーザーを取得 | `approvals_get_current_user` | 2026年8月13日（PT）に削除されました。 このツールは、名前、ユーザーID、ホームチーム名、ホームチーム IDなど、呼び出し元ユーザーのWorkfront IDを返しました。 同様の機能については、「インサイトツールで現在のユーザーを取得[&#128279;](#insights-tools)」を参照してください。 | 読み取り |
+| 現在のユーザーを取得 | `approvals_get_current_user` | 2026年8月13日（PT）に削除されました。 このツールは、名前、ユーザーID、ホームチーム名、ホームチーム IDなど、呼び出し元ユーザーのWorkfront IDを返しました。 同様の機能については、「インサイトツールで現在のユーザーを取得](#insights-tools)」を参照してください。[ | 読み取り |
 | 名前でユーザーを検索 | `approvals_find_user_by_name` | 非推奨（廃止予定）: 代わりに`insights_search_users`を使用してください。 このツールは、WorkfrontユーザーのIDを名前（ファジーまたは部分的に一致）で検索し、名前、ID、メール、タイトル、アバターURLを返します。 | 読み取り |
 | 名前でチームを検索 | `approvals_find_team_by_name` | 非推奨（廃止予定）: 代わりに`insights_find_id_by_name`を使用してください。 このツールは、Workfront チームのIDを名前（ファジーまたは部分一致）で検索しました。 | 読み取り |
 | プロジェクトの検索 | `approvals_find_projects` | 非推奨（廃止予定）: 代わりに`insights_find_workfront_data`を使用してください。 このツールは、Workfront プロジェクトを検索し、オプションで名前でフィルタリングしたり、呼び出し元ユーザーが所有するプロジェクトに限定したりしました。 | 読み取り |
@@ -300,6 +300,13 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | エンティティのリスト | `insights_list_entities` | クエリに使用できるすべてのWorkfront オブジェクトタイプを一覧表示します。 | 読み取り |
 | ユーザーを検索 | `insights_search_users` | Workfront インスタンス内のユーザーを名前で検索します。 完全または部分的な名前を入力し、一致するユーザーのトップを取得します。 これには、AIの共同作業者「ボット」を通常のユーザーと一緒に含めることもできます。 | 読み取り |
 
+## フィードバックツール
+
+<span class="preview"> フィードバックツールを使用すると、AI エージェント型プラットフォームから直接Workfront MCP サーバーでのエクスペリエンスを報告できます。</span>
+
+| タイトル | ツール名 | 機能 | アクション |
+| --- | --- | --- | --- |
+| <span class="preview"> フィードバックを共有</span> | <span class="preview">`share_feedback`</span> | <span class="preview">報告されたセンチメントと会話中の出来事を記録します。これにより、WorkfrontのMCP ツールを改善できます。 フィードバックの共有を明示的に求める場合にのみ使用されます（例：「フィードバックの共有」や「バグの報告」）。</span> | <span class="preview">Write</span> |
 
 
 
