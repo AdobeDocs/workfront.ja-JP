@@ -4,9 +4,9 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2709'
 ht-degree: 8%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 このページの機能強化は、プレビュー環境で利用できます。 このページは、2026年第4四半期のリリースが予定されている実稼動リリースに近づいたときに、さらに機能強化を加えて更新されます。
 
-四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/ja/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
+四半期ごとのリリースごとにライブウェビナーを開催し、新機能を強調して、詳細な情報を提供します。 登録するには、[events page](https://experienceleague.adobe.com/en/events?filters=Workfront)にアクセスし、Workfront用にフィルターを実行してください。
 
 >[!IMPORTANT]
 >
@@ -217,7 +217,7 @@ ht-degree: 8%
     &lt;tr>
     &lt;td>
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>WorkfrontのタスクにAI タスクコラボレーターを割り当てる&lt;/a>
-    &lt;p> タスクコラボレーターは、タスクを完了するために直接タスクに割り当てることができるAI コラボレーターです。&lt;/p>&lbrace;222>&lt;p>&lt;p>&lt;/2>&lt;p>&lt;p>&lt;p>&lt;p>>&lt;p>&lt;p>> 2026&lt;/p>&lt;/td>
+    &lt;p> タスクコラボレーターは、タスクを完了するために直接タスクに割り当てることができるAI コラボレーターです。&lt;/p>{222>&lt;p>&lt;p>&lt;/2>&lt;p>&lt;p>&lt;p>&lt;p>>&lt;p>&lt;p>> 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
     &lt;/tr>
     &lt;tr>
@@ -234,7 +234,16 @@ ht-degree: 8%
     &lt;td>&lt;p>2026年7月30日&lt;/p>&lt;td>&lt;td>&lt;p>8月133, 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
     &lt;/tr>
-    &lt;/tbody>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>New Share Feedback tool available in the Workfront MCP Connector&lt;/a>
+    &lt;p>A Share Feedbackをを使用すると、センチメントしてをできますMCP ツールは改善できます。&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>2026年9月3日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年9月17日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;/body>
 
     
     
@@ -443,17 +452,15 @@ ht-degree: 8%
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Duplicate dashboards in Canvas Dashboards</a>
-                <p>You can now duplicate a Canvas Dashboard using the new Duplicate dashboard action, and choose what to carry over to the copy.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Canvas ダッシュボードでのダッシュボードのコピー</a>
+                <p>新しい「ダッシュボードをコピー」アクションを使用してカンバスダッシュボードをコピーし、コピーに引き継ぐものを選択できるようになりました。</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>2026年9月3日（PT）</p></td>
+            <td><p>2026年9月17日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
         </tr>
--->
 
     &lt;tr>
     &lt;td>
@@ -466,7 +473,7 @@ ht-degree: 8%
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref&quot; xrefformat=&quot;{para}&lt;/update>Canvologyでを更新してくださいスケジュール &rbrack;{type=Neutral}&lt;/p>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref&quot; xrefformat=&quot;{para}&lt;/update>Canvologyでを更新してくださいスケジュール ]{type=Neutral}&lt;/p>
     &lt;p> ドキュメントと作業の承認にCanvas ダッシュボードで使用されている複数のフィールド名が、わかりやすいように変更されました。&lt;/p>
     &lt;/td>
     &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
@@ -477,7 +484,7 @@ ht-degree: 8%
     &lt;td>
     &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Canvas ダッシュボードのピボットテーブルレポート &lt;/a>
     &lt;p>Canvas ダッシュボードの新しいピボットテーブルレポートタイプは、正確で完全なデータを集計し、下にドリルダウンドリルダウンレコード記録します&lt;/2>&lt;p>&lt;p>
-    &lt;/2&rbrace;&lt;/td>&lt;p>&lt;/2&rbrace;&lt;/2&rbrace;>。2026&lt;/p>&lt;/td>
+    &lt;/2}&lt;/td>&lt;p>&lt;/2}&lt;/2}>。2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026年9月17日&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
     &lt;/tr>&lt;tr>
@@ -604,8 +611,8 @@ ht-degree: 8%
 
 ## その他のエリアに関するリリースノート
 
-* [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront計画第4四半期2026 リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
+* [Adobe Workfront Fusion リリース アクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
+* [Adobe Workfront計画第4四半期2026 リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 
 ## お知らせ
 
@@ -617,7 +624,7 @@ Workfront AdministratorでData Connect リーダーを使用しているユー�
 
 この変更は、2026年4月のWorkfront リリースノートで最初に発表されました。これは、期限前の最後のリマインダーです。 影響を受けるすべての読者ユーザーが2026年8月8日より前にMFAを有効にして、アクセスの中断を避けてください。
 
-詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/ja/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
+詳しくは、[Snowflakeのリーダーアカウントまたは接続の作成](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)を参照してください。
 
 ### トレーニングの更新
 

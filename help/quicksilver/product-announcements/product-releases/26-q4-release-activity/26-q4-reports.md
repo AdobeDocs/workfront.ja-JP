@@ -4,10 +4,10 @@ description: 2026年第4四半期レポートの強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
+source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 8%
+source-wordcount: '783'
+ht-degree: 6%
 
 ---
 
@@ -17,27 +17,21 @@ ht-degree: 8%
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
 
-<!--
-
-## Duplicate dashboards in Canvas Dashboards
+## Canvas ダッシュボードでのダッシュボードのコピー
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>プレビュー：2026年9月3日（PT）
+>プロダクション高速リリース：2026年9月17日（PT）
+>すべての人のための制作：2026年10月15日
 
-You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+新しい&#x200B;**ダッシュボードをコピー** アクションを使用して、キャンバスダッシュボードをコピーできるようになりました。 このアクションは、アクセス レベルがダッシュボードに編集権限または作成権限を付与しているユーザーは、コピーする特定のダッシュボードへの表示アクセス権しか持っていない場合でも、使用できます。 ダッシュボードの編集権限または作成権限を持たないユーザーには、このアクションは表示されません。
 
-When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+ダッシュボードをコピーする場合は、名前を変更し、説明と通貨を更新して、コピーに引き継ぐウィジェット、ダッシュボードフィルター、ダッシュボードプロンプトを選択できます。
 
-Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+ウィジェットのユーザー設定として実行は、指定ユーザーまたはシステム管理者の場合にのみ保持されます。 共有の環境設定は新しいダッシュボードにコピーされず、コピーが完了すると、新しいダッシュボードへのリンクを含む確認メッセージが表示されます。
 
-Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
-
-For more information, see 
-
--->
+以前は、ダッシュボードをコピーする方法がありませんでした。ユーザーは、オーディエンス固有のバリエーションを作成するために、ダッシュボードをゼロから再構築する必要がありました。
 
 ## カンバスダッシュボードの「承認タイプ」フィールド
 
@@ -79,7 +73,7 @@ For more information, see
 
 Canvas ダッシュボードの新しいピボットテーブルレポートタイプでは、正確で完全なロールアップを使用してデータを集約します。 カウント、合計、平均などの指標をダッシュボードで直接作成し、その合計の背後にあるレコードをドリルダウンできます。
 
-詳しくは、「[&#x200B; キャンバスダッシュボードでピボットテーブルレポートを作成する](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)」を参照してください。
+詳しくは、「[ キャンバスダッシュボードでピボットテーブルレポートを作成する](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)」を参照してください。
 
 ## スケジュールレポートの終了日の適用
 
@@ -93,7 +87,7 @@ Canvas ダッシュボードの新しいピボットテーブルレポートタ�
 
 既存のスケジュールは、信頼性を向上させ、不要なシステム使用を減らすために、終了日を更新しました。 また、Workfrontでは、レポートのスケジュールのライフサイクルが終了日に近づいたときに、レポートのスケジュールを管理するのに役立つ可視性と警告も提供されます。
 
-詳しくは、[自動レポート配信のスケジュール &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
+詳しくは、[自動レポート配信のスケジュール ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
 
 ## ネイティブ参照フィールドは、リストとレポートで使用できます
 
@@ -107,8 +101,8 @@ Workfrontのリストとレポートにネイティブ参照フィールドを�
 
 ネイティブ参照フィールドはカスタムフィールドです。 フィールドがオブジェクトに添付されたカスタムフォーム上にある場合、フィールドはオブジェクトデータから入力されます。 例えば、フィールドが「説明」フィールドを参照し、それがプロジェクトに添付されたカスタムフォーム上にある場合、フィールドはプロジェクトの説明を取り込みます。 （データが利用できない場合、フィールドには「該当なし」と表示される場合があります）。
 
-サポートされているネイティブフィールドのリストを含むネイティブ参照フィールドの作成について詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
-レポートへのフィールドの追加について詳しくは、[&#x200B; カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+サポートされているネイティブフィールドのリストを含むネイティブ参照フィールドの作成について詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+レポートへのフィールドの追加について詳しくは、[ カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 ## 従来のリストやレポートにおける複数選択フィールド値の一貫性のある順序付け
 
@@ -120,7 +114,7 @@ Workfrontのリストとレポートにネイティブ参照フィールドを�
 
 複数を選択したカスタムフィールドのオプションが、従来のリストとレポートで一貫した予測可能な順序で表示されるようになりました。 フィールドの順序は、カスタムフォームでのフィールドの配置方法によって決まります。
 
-![&#x200B; カスタムフォームフィールドの順序が、リストまたはレポートで選択した値の順序と一致する](assets/new-field-order-multi-select.png)
+![ カスタムフォームフィールドの順序が、リストまたはレポートで選択した値の順序と一致する](assets/new-field-order-multi-select.png)
 
 以前は、選択したオプションが選択した順序で表示されていたり、一貫性のない順序で表示されていたため、行のスキャンと比較が困難になっていました。
 
