@@ -4,9 +4,9 @@ description: 2026年第4四半期ドキュメントの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
+source-git-commit: 0e7a5b94d189cdebb7ded6c0fab1a98eb8029cf7
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1334'
 ht-degree: 3%
 
 ---
@@ -33,25 +33,21 @@ ht-degree: 3%
 
 詳しくは、以下を参照してください。
 
-* ドキュメントの承認ワークフローテンプレートの作成の[&#x200B; テンプレートの共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
+* ドキュメントの承認ワークフローテンプレートの作成の[ テンプレートの共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
 * [ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
-<!--
-
-## System Administrators full access to approval templates
+## システム管理者による承認テンプレートへの完全アクセス
 
 >[!NOTE]
 >
->Preview: September 4, 2026
->Production fast release: September 4, 2026
->Production for everyone: September 4, 2026
->[!BADGE Off schedule]{type=Neutral}
+>プレビュー：2026年9月8日（PT）
+>プロダクション高速リリース：2026年9月8日（PT）
+>すべての人のための制作：2026年9月8日
+>[!BADGE スケジュール外]{type=Neutral}
 
-System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+システム管理者は、作成者や共有者に関係なく、アカウント内のすべての承認テンプレートを表示、編集、削除、一括削除できるようになりました。 以前は、システム管理者は他のユーザーと同じ共有ルールの対象となり、作成したテンプレートや共有されたテンプレートのみを表示または管理することができました。
 
-For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
-
--->
+詳しくは、[承認テンプレートの管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)を参照してください。
 
 ## Workfrontでのフレームコメントの表示
 
@@ -113,7 +109,7 @@ Workfront チームを、各人を個別に追加するのではなく、ドキ�
 
 Frame.io エンタープライズライセンスをお持ちでない場合、プロジェクトは引き続きWorkfrontのデフォルトワークスペースに移動します。
 
-詳しくは、[&#x200B; プロジェクト テンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)および[&#x200B; プロジェクトの概要エリアでの情報の管理](/help/quicksilver/manage-work/projects/manage-projects/understand-project-overview-area.md)を参照してください。
+詳しくは、[ プロジェクト テンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)および[ プロジェクトの概要エリアでの情報の管理](/help/quicksilver/manage-work/projects/manage-projects/understand-project-overview-area.md)を参照してください。
 
 <!--
 
@@ -150,7 +146,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 
 ドキュメントの承認時にカスタムメッセージを設定すると、そのメッセージが承認依頼メールの件名にも表示され、設定された期日までに送信されるようになりました。 これにより、レビュー担当者は電子メールを開くことなく、いつ受信トレイに届くのかを直接確認できます。
 
-詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## 新しいドキュメント領域のバージョンパネルを再設計
 
@@ -186,7 +182,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 
 以前は、承認パネルには現在のバージョンのワークフローのみが表示されていました。
 
-詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 ## Adobe クラウドストレージオブジェクトのコメントに画像を添付する
 
