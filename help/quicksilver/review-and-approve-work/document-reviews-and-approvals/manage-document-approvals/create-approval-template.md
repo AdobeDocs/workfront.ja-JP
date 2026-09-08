@@ -9,29 +9,21 @@ exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jsEcIKopi-lJOSXQitDnufu3j0AmkWkPmCXtCR0V6nk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ec38b386a008c689946cb359d4714380dd8e5460
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 13%
+source-wordcount: 800
+ht-degree: 12%
 
 ---
 
 # ドキュメントの承認ワークフローテンプレートの作成
 
-{{highlighted-preview}}
-
-Workfrontの設定領域で、標準ライセンスを持つユーザーは、再利用可能な承認テンプレートを作成できます。 作成した承認テンプレートは、オブジェクトの「ドキュメント」領域のアセットに適用できます。
+Workfrontの設定領域で、標準ライセンスを持つユーザーは、再利用可能な承認テンプレートを作成できます。 テンプレートは、作成者が特定のユーザーまたは組織内の全員と共有しない限り、作成したユーザーにのみ表示されます。 作成した承認テンプレートは、オブジェクトの「ドキュメント」領域のアセットに適用できます。
 
 >[!IMPORTANT]
 >
@@ -107,7 +99,7 @@ Workfrontの設定領域で、標準ライセンスを持つユーザーは、�
    </tr>
    </table>
 
-   ![&#x200B; ステージを追加](assets/add-stage.png)
+   ![ ステージを追加](assets/add-stage.png)
 
 <!-- screen for preview
     ![add a stage](assets/add-stage-v2.png)
@@ -131,6 +123,10 @@ Workfrontの設定領域で、標準ライセンスを持つユーザーは、�
 1. 「**保存**」をクリックします。
 
 テンプレートを作成したら、そのテンプレートをオブジェクトの「ドキュメント」領域のドキュメントに適用して、Workfrontで正式なレビューと承認プロセスを開始できます。
+
+>[!NOTE]
+>
+>新しいテンプレートは自分のみが表示できます。 テンプレートを共有、編集、または削除するには、[承認テンプレートの管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)を参照してください。
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
