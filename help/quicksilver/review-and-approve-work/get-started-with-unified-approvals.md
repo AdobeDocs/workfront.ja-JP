@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 4%
+source-wordcount: '1059'
+ht-degree: 2%
 
 ---
 
@@ -64,13 +64,13 @@ Frame.ioのAdobe クラウドストレージまたはプロジェクトについ
 
 * **単回使用の承認**: アセットが格納されているプロジェクトまたはタスクで、プロジェクトコーディネーターはレビュー担当者と承認者を割り当てて、完了期限を設定できます。 レビュアーと承認者には、期限の72時間前、期限の24時間前、そして期限の後に電子メールで通知が送られます。 また、複数のレビュートラックを同時に実行するように、複数段階の承認と並行パスを設定することもできます。
 
-  詳しくは、[&#x200B; ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area)を参照してください。
+  詳しくは、[ ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area)を参照してください。
 
 * **承認テンプレート**: Workfrontの設定領域で、プロジェクトコーディネーターは再利用可能な承認テンプレートを作成できます。 ユーザーはテンプレート内でレビュー担当者や承認者を追加し、完了期間を指定できます。 承認テンプレートがアセットに適用されると、指定された期間から期限が計算されます。 承認テンプレートは、多段階の承認と並行パスをサポートしており、シングルユース承認で利用可能な設定オプションと一致しています。
 
   テンプレートを作成したら、そのテンプレートをアセットに適用して、Workfrontでの正式なレビューおよび承認プロセスを開始できます。
 
-  詳しくは、[&#x200B; ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
+  詳しくは、[ ドキュメントの承認ワークフローテンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
 ### Frame.io ビューアでのアセットのレビューと承認
 
@@ -89,11 +89,11 @@ Workfrontでレビューと承認のワークフローが開始されると、�
 >
 >Workfrontの外部ユーザーにはメールで通知が送られ、アセットをレビューして承認するためにFrame.io ログインを作成するよう求められます。
 
-![&#x200B; ホームからフレームビューアを開く](assets/open-fio-viewwer.png)
+![ ホームからフレームビューアを開く](assets/open-fio-viewwer.png)
 
 #### コメントの追加とアセットのマークアップ
 
-コメントとアセットマークアップはFrame.io ビューアで表示されます。 Frame.io ビューアの使用について詳しくは、[&#x200B; メディアに対するコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
+コメントとアセットマークアップはFrame.io ビューアで表示されます。 Frame.io ビューアの使用について詳しくは、[ メディアに対するコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media)を参照してください。
 
 #### 決定を下す
 
@@ -105,22 +105,22 @@ Workfrontでレビューと承認のワークフローが開始されると、�
 
 レビュー担当者は、Workfront内でレビューを完了したことをマークできますが、承認プロセスでアセットを先に進めるために、このマークは必要ありません。
 
-Workfrontでの決定について詳しくは、[&#x200B; ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)を参照してください。
+Workfrontでの決定について詳しくは、[ ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)を参照してください。
 
-![&#x200B; フレームビューアーと決定](assets/decision-fio.png)
+![ フレームビューアーと決定](assets/decision-fio.png)
 
 
 ### レビューと承認の指標を追跡する
 
 プロジェクトコーディネーターは、Workfrontのホームエリアにあるすべての進行中の承認の進捗状況をモニターしたり、Canvas ダッシュボードでカスタマイズされたレポートを使用したりできます。
 
-* **カスタムダッシュボード**: カンバスダッシュボード領域にレポートダッシュボードを作成し、統合承認機能を使用して、レビューと承認に関する詳細情報と詳細情報の両方を表示します。 開始方法について詳しくは、[&#x200B; レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
+* **カスタムダッシュボード**: カンバスダッシュボード領域にレポートダッシュボードを作成し、統合承認機能を使用して、レビューと承認に関する詳細情報と詳細情報の両方を表示します。 開始方法について詳しくは、[ レビューと承認用のレポートダッシュボードの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)を参照してください。
 * **ドキュメント承認指標ホーム ウィジェット**：平均承認時間と決定に関する情報、保留中および期限切れの承認のリスト ビューを含む2つのグラフを表示します。
   ![すべての承認](assets/all-approvals.png)
 
 ## 完成したアセットをAdobe Experience Managerに送る
 
-[!DNL Experience Manager Assets]&rbrace;&#x200B;を使用して、レビューと承認サイクルを経たデジタルアセットを管理および保存できます。 この統合により、Adobe Experience Manager、Frame.io、Workfront の機能を活用して、コンテンツ管理や共同作業のプロセスを合理化できます。
+[!DNL Experience Manager Assets]}&#x200B;を使用して、レビューと承認サイクルを経たデジタルアセットを管理および保存できます。 この統合により、Adobe Experience Manager、Frame.io、Workfront の機能を活用して、コンテンツ管理や共同作業のプロセスを合理化できます。
 
-詳しくは、[Frame.io 統合した Adobe Experience Manager の使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)を参照してください。
+詳しくは、[Adobe Experience ManagerとWorkfrontおよびAdobe クラウドストレージの併用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)を参照してください。
 
