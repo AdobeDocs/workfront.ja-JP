@@ -80,7 +80,7 @@ Adobe クラウドストレージを使用している場合は、[Adobe Experie
 
 1. 目的のアセットを選択します。
 
-   ![ アセットを選択](assets/select-an-asset.png)
+   ![&#x200B; アセットを選択](assets/select-an-asset.png)
 
 1. 「**選択**」をクリックします。
 
@@ -115,7 +115,7 @@ Experience Manager Assets Essentialsから新しいアセットを取得し、�
 
 1. 目的のフォルダーを選択します。
 
-   ![ フォルダーを選択](assets/select-a-folder.png)
+   ![&#x200B; フォルダーを選択](assets/select-a-folder.png)
 
 1. 「**選択**」をクリックします。
 
