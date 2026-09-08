@@ -13,19 +13,14 @@ exl-id: 1f7fce86-0ba9-4407-842d-5f8625c9de70
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/b1UKsyIKQbZrbpZEzaWMXz6ZLb2OqfmZ34ti80SyXEM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15cb219fa00c531d53446a8cdcbdd4f36ed0bcb2
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 85%
+source-wordcount: 130
+ht-degree: 91%
 
 ---
 
@@ -36,9 +31,8 @@ ht-degree: 85%
 ## アクセスレベルページのビューへの追加
 
 自動アップグレードオプションとして割り当てられているアクセスレベルを表示するには、次の手順に従います。
-<!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png).
--->
+
+{{step-1-to-setup}}
 
 1. 右パネルの「**アクセスレベル**」をクリックします。
 
@@ -52,8 +46,8 @@ ht-degree: 85%
 
 ## アクセスレベルへの新しいアップグレードオプションの割り当て
 
-新しい自動アップグレードオプションをアクセスレベルに割り当てるには、次の手順に従います。
+新しい自動アップグレードオプションをアクセスレベルに割り当てるには：
 
-1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**セットアップ** ![&#x200B; ギア設定アイコン &#x200B;](assets/gear-icon-settings.png)をクリックします。
+{{step-1-to-setup}}
 
 1. 右パネルの「**アクセスレベル**」をクリックします。
