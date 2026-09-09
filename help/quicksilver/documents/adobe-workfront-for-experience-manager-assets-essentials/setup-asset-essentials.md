@@ -7,10 +7,16 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
 TQID: https://experienceleague.adobe.com/4ZNz4MKc5hvipk8bFpnPZIuWMrDLHjH-UdNiaJuY5WA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 3578c9c87c93aedd46f50fa660a54a73f5c574dc
 workflow-type: tm+mt
 source-wordcount: 683
@@ -80,7 +86,7 @@ Experience Manager Assets Essentials で作業とコンテンツを結び付け�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで「**ドキュメント** ![ ドキュメントアイコン ](assets/document-icon.png)」を選択し、「**Experience Manager Assets**」を選択します。
+1. 左側のパネルで「**ドキュメント** ![&#x200B; ドキュメントアイコン &#x200B;](assets/document-icon.png)」を選択し、「**Experience Manager Assets**」を選択します。
 1. 「**Experience Manager の統合を追加**」を選択します。
 1. 以下を指定します。
 
@@ -120,7 +126,7 @@ Workfront オブジェクトデータをExperience Manager Assetsのアセット
 開始する前に、
 
 * [Adobe Workfront と Experience Manager Assets 間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)の説明に従って、Experience Manager Assets Essentials のメタデータスキーマを設定します。
-* （オプション）Workfront でカスタムフォームフィールドを設定します。 Workfront には、使用できる多くのビルトインのカスタムフィールドがあります。 ただし、独自のカスタムフィールドを作成することもできます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+* （オプション）Workfront でカスタムフォームフィールドを設定します。 Workfront には、使用できる多くのビルトインのカスタムフィールドがあります。 ただし、独自のカスタムフィールドを作成することもできます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## サポートされている Workfront および Experience Manager Assets のフィールド
 
