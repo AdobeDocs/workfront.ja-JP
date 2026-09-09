@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 29141ebc3913ad66e05ee10e53dcaea646ca2526
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14499'
 ht-degree: 92%
 
 ---
@@ -254,17 +254,17 @@ ht-degree: 92%
       * [21.1 統合の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md)
       * [21.1 モバイル機能の強化](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
       * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
-    * Adobe Workfront Planning のリリースアクティビティ{#planning-release-activity}
-      * [Adobe Workfront Planning のリリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+    * Adobe Workfront プランニングのリリースアクティビティ{#planning-release-activity}
+      * [Adobe Workfront プランニングのリリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
       * [Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
       * [Adobe Workfront Planningの2026年第3四半期のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
       * [Adobe Workfront Planningの2026年第2四半期のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
       * [Adobe Workfront Planning の 2026年第 1 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
-      * [Adobe Workfront Planning の 2025年第 4 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
-      * [Adobe Workfront Planning の 2025年第 3 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
-      * [Adobe Workfront Planning の 2025年第 2 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
-      * [Adobe Workfront Planning の 2025年第 1 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
-      * [Adobe Workfront Planning の 2024年第 4 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+      * [Adobe Workfront プランニングの 2025年第 4 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+      * [Adobe Workfront プランニングの 2025年第 3 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
+      * [Adobe Workfront プランニングの 2025年第 2 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
+      * [Adobe Workfront プランニングの 2025年第 1 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+      * [Adobe Workfront プランニングの 2024年第 4 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
     * Adobe Workfront の限定提供リリースのアクティビティ{#limited-availability-release-activity}
       * {hide-from-toc}[Adobe Workfrontの制限付き利用可能機能のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc}[Adobe Workfrontの制限付き機能に関する2026年第1四半期のリリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
@@ -1949,6 +1949,7 @@ ht-degree: 92%
       * [アセットまたはドキュメントへのレビュアーまたは承認者の追加](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [アセットまたはドキュメントからの承認者またはレビュアーの削除](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [アセットおよびドキュメントの承認テンプレートの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+      * [承認テンプレートの管理](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)
       * [統合承認とプルーフの併用](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * [新しいドキュメントバージョンのアップロードと承認のリクエスト](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * [レビューおよび承認のレポートダッシュボードの作成](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
@@ -2079,8 +2080,7 @@ ht-degree: 92%
     * {hide-from-toc}[GenStudio for Performance MarketingとFrame.ioの連携の基本を学ぶ](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
     * [プルーフと Creative Cloud Express の基本を学ぶ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [プルーフと GenStudio for Performance Marketing の統合の基本を学ぶ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-    * [Frame.io 統合での Adobe Experience Manager の使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
-    * [Experience Manager AssetsのアセットをAdobeクラウドストレージにリンクする](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
+    * [Adobe Experience ManagerとWorkfrontおよびAdobe クラウドストレージの併用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
     * [Frame.ioとの連携でAdobe ExpressとWorkfrontを使い始める](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * 承認に関するヒント、テクニックおよびトラブルシューティング {#ttt-approvals}
     * [承認に関するヒント、テクニックおよびトラブルシューティング：記事インデックス](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
@@ -2187,17 +2187,17 @@ ht-degree: 92%
 * Adobe Workfront Planning {#adobe-workfront-planning}
   * [Adobe Workfront計画の一般的な情報と記事インデックス](planning/planning-information.md)
   * Adobe Workfront Planning に関する一般情報 {#adobe-workfront-planning-general-information}
-    * [Adobe Workfront Planning に関する一般情報：記事インデックス](planning/general/planning-general-article-index.md)
-    * [Adobe Workfront Planning の基本を学ぶ](planning/general/planning-overview.md)
+    * [Adobe Workfront プランニングに関する一般情報：記事インデックス](planning/general/planning-general-article-index.md)
+    * [Adobe Workfront プランニングの基本を学ぶ](planning/general/planning-overview.md)
     * [Workfront計画の用語の概要](planning/general/planning-terminology.md)
     * [Adobe Workfront計画の導入に関する推奨事項](planning/general/planning-best-practices.md)
     * [Adobe Workfront Planning API の基本](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning の AI アシスタントの概要](planning/general/planning-ai-assistant-overview.md)
     * [Adobe Workfront計画Designerの基本を学ぶ](planning/general/planning-ai-designer.md)
     * [Adobe Workfront Planning の 2024年リリースアクティビティ](planning/general/release-activity.md)
-    * [Adobe Workfront Planning の 2023年リリースアクティビティ](planning/general/release-activity-archives-2023.md)
-    * [Adobe Workfront Planning オブジェクトの制限事項の概要](planning/general/limitations-overview.md)
-    * [Adobe Workfront Planning の無料体験版の使用を開始](planning/general/trial-workfront-planning.md)
+    * [Adobe Workfront プランニングの 2023年リリースアクティビティ](planning/general/release-activity-archives-2023.md)
+    * [Adobe Workfront プランニングオブジェクトの制限事項の概要](planning/general/limitations-overview.md)
+    * [Adobe Workfront プランニングの無料体験版の使用を開始](planning/general/trial-workfront-planning.md)
   * Adobe Workfront計画レポート {#adobe-workfront-planning-reporting}
     * [Adobe Workfront計画レポート：記事インデックス](planning/reporting/reporting-in-planning-article-index.md)
     * [レポートでのWorkfront計画の情報の表示](planning/reporting/planning-information-in-reports.md)
@@ -2232,7 +2232,7 @@ ht-degree: 92%
     * [レコードタイプの削除](planning/architecture/delete-record-types.md)
     * [レコードタイプとレコードの接続例](planning/architecture/example-connect-record-types-and-records.md)
     * [ワークスペーステンプレートのリスト](planning/architecture/workspace-templates.md)
-  * Adobe Workfront Planning のフィールド {#adobe-workfront-planning-fields}
+  * Adobe Workfront プランニングのフィールド {#adobe-workfront-planning-fields}
     * [フィールド：記事インデックス](planning/fields/fields-information.md)
     * [フィールドの概要](planning/fields/fields-overview.md)
     * [フィールドの作成](planning/fields/create-fields.md)
@@ -2241,11 +2241,11 @@ ht-degree: 92%
     * [数式フィールドの概要](planning/fields/formula-fields.md)
     * [Adobe Workfront からのフィールドの読み込み](planning/fields/import-fields-from-workfront.md)
     * [プライマリフィールドの概要](planning/fields/primary-field-overview.md)
-  * Adobe Workfront Planning へのアクセス {#adobe-workfront-planning-access}
-    * [Adobe Workfront Planning へのアクセス情報：記事インデックス](planning/access/access-information.md)
-    * [Adobe Workfront Planning へのアクセスの概要](planning/access/access-overview.md)
-    * [Adobe Workfront Planning での共有権限の概要](planning/access/sharing-permissions-overview.md)
-    * [Adobe Workfront Planning 使用時のライセンスタイプの概要](planning/access/license-type-overview.md)
+  * Adobe Workfront プランニングへのアクセス {#adobe-workfront-planning-access}
+    * [Adobe Workfront プランニングへのアクセス情報：記事インデックス](planning/access/access-information.md)
+    * [Adobe Workfront プランニングへのアクセスの概要](planning/access/access-overview.md)
+    * [Adobe Workfront プランニングでの共有権限の概要](planning/access/sharing-permissions-overview.md)
+    * [Adobe Workfront プランニング使用時のライセンスタイプの概要](planning/access/license-type-overview.md)
     * [ワークスペースの共有](planning/access/share-workspaces.md)
     * [レコードタイプの共有](planning/access/share-record-types.md)
     * [ビューの共有](planning/access/share-views.md)
@@ -2253,7 +2253,7 @@ ht-degree: 92%
     * {hide-from-toc}[Workfront計画フィールドの共有](planning/access/share-fields.md)
     * [レコードのデフォルト権限の設定](planning/access/set-default-record-permissions.md)
     * [ビューまたはワークスペースに対する権限のリクエスト](planning/access/request-permissions.md)
-  * Adobe Workfront Planning レコード {#adobe-workfront-planning-records}
+  * Adobe Workfront プランニングレコード {#adobe-workfront-planning-records}
     * [レコード：記事インデックス](planning/records/records-information.md)
     * [レコードの作成](planning/records/create-records.md)
     * [CSV または Excel ファイルから情報を読み込んで、レコードを作成](planning/records/import-file-to-create-records.md)
@@ -2273,17 +2273,17 @@ ht-degree: 92%
     * [レコードの詳細の書き出し](planning/records/export-the-record-page.md)
     * [テーブルビューからのレコードの書き出し](planning/records/export-records-from-the-table-view.md)
     * [レコードへの接続されたレコードページの追加](planning/records/add-a-connected-records-page-to-a-record.md)
-    * [Workfront オブジェクトをレコードに接続する際に、オブジェクトを Workfront Planning から作成](planning/records/create-workfront-objects-from-workfront-planning.md)
-    * [Adobe Workfront Planning の自動処理の設定](planning/records/configure-automations-to-create-records.md)
-    * [Workfront Planning のレコードの自動処理を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
-  * Adobe Workfront Planning リクエスト {#adobe-workfront-planning-requests}
-    * [Adobe Workfront Planning リクエスト：記事インデックス](planning/requests/requests-article-index.md)
-    * [Adobe Workfront Planning でのリクエストフォームの作成と管理](planning/requests/create-request-form.md)
-    * [Adobe Workfront Planning リクエストを送信して、レコードを作成](planning/requests/submit-requests.md)
-    * [Adobe Workfront Planning でリクエストフォームを非公開](planning/requests/unpublish-request-form.md)
-    * [Adobe Workfront Planning でリクエストフォームへの承認の追加](planning/requests/add-approval-to-request-form.md)
-    * [Adobe Workfront Planning でのリクエストの承認](planning/requests/approve-request.md)
-  * Adobe Workfront Planning のビュー {#adobe-workfront-planning-views}
+    * [Workfront オブジェクトをレコードに接続する際に、オブジェクトを Workfront プランニングから作成](planning/records/create-workfront-objects-from-workfront-planning.md)
+    * [Adobe Workfront プランニングの自動処理の設定](planning/records/configure-automations-to-create-records.md)
+    * [Workfront プランニングのレコードの自動処理を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
+  * Adobe Workfront プランニングリクエスト {#adobe-workfront-planning-requests}
+    * [Adobe Workfront プランニングリクエスト：記事インデックス](planning/requests/requests-article-index.md)
+    * [Adobe Workfront プランニングでのリクエストフォームの作成と管理](planning/requests/create-request-form.md)
+    * [Adobe Workfront プランニングリクエストを送信して、レコードを作成](planning/requests/submit-requests.md)
+    * [Adobe Workfront プランニングでリクエストフォームを非公開](planning/requests/unpublish-request-form.md)
+    * [Adobe Workfront プランニングでリクエストフォームへの承認の追加](planning/requests/add-approval-to-request-form.md)
+    * [Adobe Workfront プランニングでのリクエストの承認](planning/requests/approve-request.md)
+  * Adobe Workfront プランニングのビュー {#adobe-workfront-planning-views}
     * [ビュー：記事インデックス](planning/views/views-information.md)
     * [レコードビューの管理](planning/views/manage-record-views.md)
     * [テーブルビューの管理](planning/views/manage-the-table-view.md)
@@ -2292,14 +2292,14 @@ ht-degree: 92%
     * [リスト表示の管理](planning/views/manage-the-list-view.md)
     * [レコードビューの削除](planning/views/delete-record-views.md)
     * [レコードビューの複製](planning/views/duplicate-record-views.md)
-  * Adobe Workfront Planning の通知 {#adobe-workfront-planning-notifications}
-    * [Adobe Workfront Planning の通知：記事インデックス](planning/notifications/notifications-information.md)
-    * [Adobe Workfront Planning の通知設定の管理](planning/notifications/manage-notification-preferences.md)
-    * [Adobe Workfront Planning のメール通知の管理](planning/notifications/manage-planning-email-notifications.md)
-    * [Adobe Workfront Planning のアプリ内通知の管理](planning/notifications/manage-planning-in-app-notifications.md)
-  * Adobe Workfront Planning と Gen Studio for Performance Marketing の統合 {#planning-and-genstudio-integration}
-    * [Adobe Workfront Planning と Adobe GenStudio for Performance Marketing の統合：記事インデックス](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
-    * [Adobe Workfront Planning と Adobe GenStudio for Performance Marketing の統合の基本を学ぶ](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+  * Adobe Workfront プランニングの通知 {#adobe-workfront-planning-notifications}
+    * [Adobe Workfront プランニングの通知：記事インデックス](planning/notifications/notifications-information.md)
+    * [Adobe Workfront プランニングの通知設定の管理](planning/notifications/manage-notification-preferences.md)
+    * [Adobe Workfront プランニングのメール通知の管理](planning/notifications/manage-planning-email-notifications.md)
+    * [Adobe Workfront プランニングのアプリ内通知の管理](planning/notifications/manage-planning-in-app-notifications.md)
+  * Adobe Workfront プランニングと Gen Studio for Performance Marketing の統合 {#planning-and-genstudio-integration}
+    * [Adobe Workfront プランニングと Adobe GenStudio for Performance Marketing の統合：記事インデックス](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
+    * [Adobe Workfront プランニングと Adobe GenStudio for Performance Marketing の統合の基本を学ぶ](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
     * [Adobe Workfront Planning での GenStudio ワークスペースの管理](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
     * {hide-from-toc}[Workfront計画ワークスペースをGenStudioに昇格](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
   * スタンドアロン製品としてのAdobe Workfront Planning {#planning-standalone}

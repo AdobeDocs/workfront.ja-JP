@@ -4,9 +4,9 @@ description: 2026年第4四半期ドキュメントの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1334'
 ht-degree: 3%
 
 ---
@@ -17,22 +17,37 @@ ht-degree: 3%
 
 2026年第4四半期リリースサイクルのこの時点で利用可能なすべての変更のリストについては、[2026年第4四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)を参照してください。
 
-<!--
-
-## System Administrators full access to approval templates
+## 承認テンプレートの表示と使用を許可するユーザーを制御する
 
 >[!NOTE]
 >
->Preview: September 4, 2026
->Production fast release: September 4, 2026
->Production for everyone: September 4, 2026
->[!BADGE Off schedule]{type=Neutral}
+>プレビュー：2026年7月30日（PT）
+>プロダクション高速リリース：2026年8月13日（PT）
+>すべての人のための制作：2026年10月15日
 
-System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+承認テンプレートは、デフォルトで非公開になりました。 以前は、すべての承認依頼者がシステム内のあらゆるテンプレートを確認できていたため、テンプレートリストは長く、ナビゲートするのが困難でした。 テンプレートは、作成者が共有しない限り、作成したユーザーにのみ表示されます。
 
-For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+テンプレート作成者は、Workfront設定の承認テンプレートリストから、特定のユーザーまたは組織内の全員とテンプレートを共有できます。 承認をリクエストする場合、ユーザーは自分が作成した、または自分と共有されたテンプレートのみを表示します。
 
--->
+この変更は新規と既存の両方のテンプレートに適用され、テンプレートが要求される方法に関係なく、アクセスが一貫して適用されます。
+
+詳しくは、以下を参照してください。
+
+* ドキュメントの承認ワークフローテンプレートの作成の[&#x200B; テンプレートの共有](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
+* [ドキュメント承認ワークフローの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+## システム管理者による承認テンプレートへの完全アクセス
+
+>[!NOTE]
+>
+>プレビュー：2026年9月8日（PT）
+>プロダクション高速リリース：2026年9月8日（PT）
+>すべての人のための制作：2026年9月8日
+>[!BADGE スケジュール外]{type=Neutral}
+
+システム管理者は、作成者や共有者に関係なく、アカウント内のすべての承認テンプレートを表示、編集、削除、一括削除できるようになりました。 以前は、システム管理者は他のユーザーと同じ共有ルールの対象となり、作成したテンプレートや共有されたテンプレートのみを表示または管理することができました。
+
+詳しくは、[承認テンプレートの管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)を参照してください。
 
 ## Workfrontでのフレームコメントの表示
 
@@ -196,7 +211,7 @@ Adobe クラウドストレージ組織では、すべてのメディアタイ�
 
 Content Advisorを利用すれば、コンテンツを選択しながら、AI 検索、スマートな提案、キャンペーンの概要の分析などを取得できます。
 
-詳しくは、「[Experience Manager AssetsからAdobe クラウドストレージにコンテンツをリンクする](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)」を参照してください。
+詳しくは、「[Experience Manager AssetsからAdobe クラウドストレージにコンテンツをリンクする](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets)」を参照してください。
 
 <!--
 

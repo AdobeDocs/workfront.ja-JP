@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
 source-wordcount: 1467
 ht-degree: 18%
@@ -202,7 +202,7 @@ Experience Manager AssetsまたはAssets Essentialsから新しいコンテン�
 
 ## 考慮事項
 
-* Content Advisor機能は、Adobe クラウドストレージを使用するオブジェクトでは使用できません。 組織でAdobe クラウドストレージを使用している場合でも、Experience Manager AssetsまたはAssets Essentialsからアセットとフォルダーをリンクすることはできますが、AI 検索、スマートレコメンデーション、Dynamic Media レンディションなどのContent Advisor機能にアクセスすることはできません。 詳しくは、[Adobe クラウドストレージを使用してExperience Manager Assetsからコンテンツとフォルダーをリンク &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)を参照してください。
+* Content Advisor機能は、Adobe クラウドストレージを使用するオブジェクトでは使用できません。 組織でAdobe クラウドストレージを使用している場合でも、Experience Manager AssetsまたはAssets Essentialsからアセットとフォルダーをリンクすることはできますが、AI 検索、スマートレコメンデーション、Dynamic Media レンディションなどのContent Advisor機能にアクセスすることはできません。 詳しくは、[Adobe クラウドストレージを使用してExperience Manager Assetsからコンテンツとフォルダーをリンク &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets)を参照してください。
 
 * Content Advisor機能は、Assets Essentialsでは使用できません。 Assets Essentialsからアセットとフォルダーをリンクするには、[Experience Manager Assets Essentialsからアセットとフォルダーをリンク &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)するを参照してください。
 

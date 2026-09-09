@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 15cb219fa00c531d53446a8cdcbdd4f36ed0bcb2
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 85%
+source-wordcount: 130
+ht-degree: 91%
 
 ---
 
@@ -36,9 +36,8 @@ ht-degree: 85%
 ## アクセスレベルページのビューへの追加
 
 自動アップグレードオプションとして割り当てられているアクセスレベルを表示するには、次の手順に従います。
-<!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png).
--->
+
+{{step-1-to-setup}}
 
 1. 右パネルの「**アクセスレベル**」をクリックします。
 
@@ -52,8 +51,8 @@ ht-degree: 85%
 
 ## アクセスレベルへの新しいアップグレードオプションの割り当て
 
-新しい自動アップグレードオプションをアクセスレベルに割り当てるには、次の手順に従います。
+新しい自動アップグレードオプションをアクセスレベルに割り当てるには：
 
-1. Adobe Workfrontの右上隅にある&#x200B;**メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)をクリックし、**セットアップ** ![&#x200B; ギア設定アイコン &#x200B;](assets/gear-icon-settings.png)をクリックします。
+{{step-1-to-setup}}
 
 1. 右パネルの「**アクセスレベル**」をクリックします。

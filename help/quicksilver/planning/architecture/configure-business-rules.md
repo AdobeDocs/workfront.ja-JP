@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cafe52c228520becb66e2fa9d8121127223a8f71
+source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 6%
+source-wordcount: '1164'
+ht-degree: 5%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Workfront Planningのレコードタイプのビジネスルールを設�
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>Workflow Standard</p>
+   <td><p>Workflow Contributor以上</p>
    </td> 
   </tr> 
 <tr> 
@@ -144,6 +144,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 「**アクティブ化**」をクリックして、このレコードタイプのルールをアクティブにし、「**保存**」をクリックします。
 
    ルールは、アクティベートした直後に適用されます。選択したレコードタイプのレコードを編集または削除する権限を持つすべてのユーザーは、ルールに従う必要があります。
+1. （オプション）ページヘッダーのビジネスルールの名前に&#x200B;**詳細** メニュー![](assets/more-menu.png)をクリックして、**ルールの詳細** ボックスを開き、ビジネスルールに関する情報を更新します。
 1. （オプションおよび推奨）ページヘッダーの&#x200B;**ビジネスルール**&#x200B;の左側にある後方矢印をクリックして、レコードタイプページを表示し、テーブルビューに移動するか、レコードのページを開いて、レコードの編集または削除を試して、作成したルールをテストします。
 
 ## ビジネスルールの管理
@@ -153,18 +154,22 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 既存のルールを編集しても、既存のレコードは変更されません。 編集されたルールは、誰かがレコードを編集または削除しようとしたときに、既存のレコードにのみ適用されます。
 
 1. レコードタイプの&#x200B;**ビジネスルール** テーブルページに戻ります。
-1. 変更したいルールを見つけます。
-1. ルール名にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックしてから、次のいずれかのオプションをクリックします。
+1. テーブルビューで変更するルールを見つけます。
+1. アクティブなルールの名前にカーソルを合わせ、**詳細** メニュー![詳細メニュー](assets/more-menu.png)をクリックしてから、次のいずれかのオプションをクリックします。
 
    * **編集**：これにより、ビジネスルールの設定ページが開き、ビジネスルールに関する情報を編集できます。
-   * **非アクティブ化**: <!--check this in the UI: right now, it says Disable-->これにより、ルールがトリガーされなくなりますが、将来にわたって保持されます。必要です。
+   * **非アクティブ化**：これにより、ルールがトリガーされなくなりますが、将来にわたって保持されます。必要です。
    * **削除**: ルールに関するすべての情報が削除されます。 削除されたルールは復元できません。
 
+   ![&#x200B; ビジネスルールその他のメニューが展開されました](assets/business-rule-more-menu-in-table-expanded.png)
+
    編集されたルールまたはルールの非アクティブ化は、今後のレコードにのみ適用され、過去にさかのぼって適用されません。
+1. （オプションおよび条件付き）テーブルで非アクティブ化されたビジネスルールの名前にカーソルを合わせ、**詳細** > **アクティブ化**&#x200B;をクリックしてルールをアクティブ化します。
 
-   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
+   ルールがアクティブになります。
 
-   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
+
+
 
 <!--
 

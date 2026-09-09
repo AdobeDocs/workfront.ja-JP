@@ -5,9 +5,9 @@ title: Adobe Workfront MCP Server Tools
 description: Adobe Workfront MCP サーバーを通じて使用可能なツールのリファレンスリストを、Workfront領域ごとにグループ化します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
+source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2785'
 ht-degree: 6%
 
 ---
@@ -300,6 +300,13 @@ AI エージェンティックプラットフォームがWorkfront アイテム�
 | エンティティのリスト | `insights_list_entities` | クエリに使用できるすべてのWorkfront オブジェクトタイプを一覧表示します。 | 読み取り |
 | ユーザーを検索 | `insights_search_users` | Workfront インスタンス内のユーザーを名前で検索します。 完全または部分的な名前を入力し、一致するユーザーのトップを取得します。 これには、AIの共同作業者「ボット」を通常のユーザーと一緒に含めることもできます。 | 読み取り |
 
+## フィードバックツール
+
+<span class="preview"> フィードバックツールを使用すると、AI エージェント型プラットフォームから直接Workfront MCP サーバーでのエクスペリエンスを報告できます。</span>
+
+| タイトル | ツール名 | 機能 | アクション |
+| --- | --- | --- | --- |
+| <span class="preview"> フィードバックを共有</span> | <span class="preview">`share_feedback`</span> | <span class="preview">報告されたセンチメントと会話中の出来事を記録します。これにより、WorkfrontのMCP ツールを改善できます。 フィードバックの共有を明示的に求める場合にのみ使用されます（例：「フィードバックの共有」や「バグの報告」）。</span> | <span class="preview">Write</span> |
 
 
 

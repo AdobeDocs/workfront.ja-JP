@@ -20,18 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ec38b386a008c689946cb359d4714380dd8e5460
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 13%
+source-wordcount: 800
+ht-degree: 12%
 
 ---
 
 # ドキュメントの承認ワークフローテンプレートの作成
 
-{{highlighted-preview}}
-
-Workfrontの設定領域で、標準ライセンスを持つユーザーは、再利用可能な承認テンプレートを作成できます。 作成した承認テンプレートは、オブジェクトの「ドキュメント」領域のアセットに適用できます。
+Workfrontの設定領域で、標準ライセンスを持つユーザーは、再利用可能な承認テンプレートを作成できます。 テンプレートは、作成者が特定のユーザーまたは組織内の全員と共有しない限り、作成したユーザーにのみ表示されます。 作成した承認テンプレートは、オブジェクトの「ドキュメント」領域のアセットに適用できます。
 
 >[!IMPORTANT]
 >
@@ -131,6 +129,10 @@ Workfrontの設定領域で、標準ライセンスを持つユーザーは、�
 1. 「**保存**」をクリックします。
 
 テンプレートを作成したら、そのテンプレートをオブジェクトの「ドキュメント」領域のドキュメントに適用して、Workfrontで正式なレビューと承認プロセスを開始できます。
+
+>[!NOTE]
+>
+>新しいテンプレートは自分のみが表示できます。 テンプレートを共有、編集、または削除するには、[承認テンプレートの管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)を参照してください。
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.

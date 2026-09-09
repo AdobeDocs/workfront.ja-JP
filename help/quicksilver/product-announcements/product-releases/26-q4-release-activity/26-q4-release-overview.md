@@ -4,9 +4,9 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 939939c9b07d554f71705782e5f6265f48e5335d
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2869'
 ht-degree: 8%
 
 ---
@@ -234,7 +234,16 @@ ht-degree: 8%
     &lt;td>&lt;p>2026年7月30日&lt;/p>&lt;td>&lt;td>&lt;p>8月133, 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
     &lt;/tr>
-    &lt;/tbody>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>New Share Feedback tool available in the Workfront MCP Connector&lt;/a>
+    &lt;p>A Share Feedbackをを使用すると、センチメントしてをできますMCP ツールは改善できます。&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>2026年9月3日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年9月17日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;/body>
 
     
     
@@ -259,17 +268,15 @@ ht-degree: 8%
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}"> システム管理者による承認テンプレートへの完全なアクセス </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>システム管理者は、作成者や共有者に関係なく、アカウント内のすべての承認テンプレートを表示、編集、削除、一括削除できるようになりました。</p>
             </td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
+            <td><p>2026年9月8日（PT）</p></td>
+            <td><p>2026年9月8日（PT）</p></td>
+            <td><p>2026年9月8日（PT）</p></td>
         </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Workfrontでのコメントの表示</a>
@@ -342,6 +349,15 @@ ht-degree: 8%
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">承認テンプレートを表示および使用できるユーザーを管理</a>
+                <p>承認テンプレートはデフォルトで非公開になり、作成者は特定のユーザーまたは組織内の全員と共有できます。</p>
+            </td>
+            <td><p>2026年7月30日（PT）</p></td>
+            <td><p>2026年8月13日（PT）</p></td>
             <td><p>2026年10月15日（PT）</p></td>
         </tr>
         <tr>
@@ -443,17 +459,15 @@ ht-degree: 8%
             <td><strong>迅速リリース</strong></td>
             <td><strong>四半期ごと</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Duplicate dashboards in Canvas Dashboards</a>
-                <p>You can now duplicate a Canvas Dashboard using the new Duplicate dashboard action, and choose what to carry over to the copy.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Canvas ダッシュボードでのダッシュボードのコピー</a>
+                <p>新しい「ダッシュボードをコピー」アクションを使用してカンバスダッシュボードをコピーし、コピーに引き継ぐものを選択できるようになりました。</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>2026年9月3日（PT）</p></td>
+            <td><p>2026年9月17日（PT）</p></td>
+            <td><p>2026年10月15日（PT）</p></td>
         </tr>
--->
 
     &lt;tr>
     &lt;td>
@@ -606,6 +620,19 @@ ht-degree: 8%
 
 * [Adobe Workfront Fusion リリース アクティビティ &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 * [Adobe Workfront計画第4四半期2026 リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
+
+## デスクトッププルーフビューアーのアップデート
+
+### バージョン 2.1.59
+
+すべてのユーザー向けの実稼動リリース：2026年9月9日（PT）
+
+デスクトップ校正ビューアがバージョン 2.1.59に更新されました。 このアップデートには、次の変更が含まれます。
+
+* デスクトッププルーフビューアは、Apple シリコンを搭載したMac用のネイティブビルドとして利用できるようになりました。
+* 基盤となるアプリケーションフレームワーク（Electron）を新しいバージョンに更新し、パフォーマンスとセキュリティが向上しました。
+
+デスクトップ校正ビューアのダウンロードと更新について詳しくは、[&#x200B; デスクトップ校正ビューアの更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)を参照してください。
 
 ## お知らせ
 

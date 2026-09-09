@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 452
-ht-degree: 79%
+source-wordcount: 511
+ht-degree: 70%
 
 ---
 
@@ -30,8 +30,8 @@ Experience Manager Assets Essentials からアセットをリンクしたら、�
 
 >[!NOTE]
 >
->この機能は、新しいドキュメント エリアでは使用できません。<br>
->組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。そこから、Experience Manager Assetsからアセットを追加し、Frame.ioのビューアでレビューして承認できます。詳しくは、[Frame.io統合でAdobe Experience Managerを使用する](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)を参照してください。
+>この機能は、新規ドキュメント領域では使用できません。<br>
+>組織でAdobe クラウドストレージを使用している場合、Workfrontでドキュメントにアクセスすると、新しいドキュメント エリアが表示されます。 そこから、Experience Manager Assetsからアセットを追加し、Frame.ioのビューアでレビューして承認できます。 詳しくは、[Adobe Experience ManagerとWorkfrontおよびAdobe クラウドストレージの併用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)を参照してください。
 
 ## アクセス要件
 
