@@ -7,20 +7,14 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
 TQID: https://experienceleague.adobe.com/4ZNz4MKc5hvipk8bFpnPZIuWMrDLHjH-UdNiaJuY5WA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3578c9c87c93aedd46f50fa660a54a73f5c574dc
 workflow-type: tm+mt
-source-wordcount: 620
-ht-degree: 84%
+source-wordcount: 683
+ht-degree: 86%
 
 ---
 
@@ -34,8 +28,8 @@ Experience Manager Assets Essentials で作業とコンテンツを結び付け�
 
 >[!NOTE]
 >
->また、複数のExperience Manager Assets リポジトリを1つのWorkfront環境に接続したり、複数のWorkfront環境を1つのExperience Manager Assets リポジトリに組織ID間で接続したりすることもできます。設定する各統合について、この記事の設定手順に従います。<br>
->この機能は、新しいドキュメント エリアでは使用できません。
+>複数の Experience Manager Assets リポジトリを 1 つの Workfront 環境に接続することも、複数の Workfront 環境を組織 ID をまたいで 1 つの Experience Manager Assets リポジトリに接続することもできます。 設定する統合ごとに、この記事の設定手順に従ってください。<br>
+>この機能は、新規ドキュメント領域では使用できません。
 
 ## アクセス要件
 
@@ -71,7 +65,7 @@ Experience Manager Assets Essentials で作業とコンテンツを結び付け�
   <tr>
    <td><strong>アクセスレベル設定</strong>
    </td>
-   <td>Experience Manager統合を設定するには、Workfront管理者である必要があります。設定が完了すると、StandardまたはPlan ライセンスを持つユーザーは、個々のプロジェクトにリンクされたフォルダーを設定できます。
+   <td>Experience Manager 統合を設定するには、Workfront 管理者である必要があります。 設定が完了すると、StandardまたはPlan ライセンスを持つユーザーは、個々のプロジェクトにリンクされたフォルダーを設定できます。
    </td>
   </tr>
 </table>
@@ -86,7 +80,7 @@ Experience Manager Assets Essentials で作業とコンテンツを結び付け�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで&#x200B;**ドキュメント** ![ドキュメントアイコン](assets/document-icon.png) を選択し、続いて「**Experience Manager の統合**」を選択します。
+1. 左側のパネルで「**ドキュメント** ![ ドキュメントアイコン ](assets/document-icon.png)」を選択し、「**Experience Manager Assets**」を選択します。
 1. 「**Experience Manager の統合を追加**」を選択します。
 1. 以下を指定します。
 
@@ -100,7 +94,7 @@ Experience Manager Assets Essentials で作業とコンテンツを結び付け�
    <tr>
       <td><strong>ナビゲーション URL</strong>
       </td>
-      <td>ナビゲーション URLが自動的に入力されます。このURLは、メインメニューから組織のAssets Essentials インスタンスにリンクし、すばやくアクセスするために使用されます。
+      <td>ナビゲーション URL がシステムにより自動的に入力されます。 この URL は、メインメニューから組織の Assets Essentials インスタンスにリンクし、すばやくアクセスするために使用されます。
       </td>
    </tr>
    <tr>
@@ -125,8 +119,8 @@ Workfront オブジェクトデータをExperience Manager Assetsのアセット
 
 開始する前に、
 
-* [Adobe Workfront と Experience Manager Assets 間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)の説明に従って、Experience Manager Assets Essentials のメタデータスキーマを設定します。
-* （オプション）Workfront でカスタムフォームフィールドを設定します。 Workfront には、使用できる多くのビルトインのカスタムフィールドがあります。 ただし、独自のカスタムフィールドを作成することもできます。 詳しくは、[&#x200B; カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+* [Adobe Workfront と Experience Manager Assets 間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)の説明に従って、Experience Manager Assets Essentials のメタデータスキーマを設定します。
+* （オプション）Workfront でカスタムフォームフィールドを設定します。 Workfront には、使用できる多くのビルトインのカスタムフィールドがあります。 ただし、独自のカスタムフィールドを作成することもできます。 詳しくは、[ カスタムフォームの作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## サポートされている Workfront および Experience Manager Assets のフィールド
 
@@ -140,7 +134,7 @@ Workfront でサポートされている任意のフィールドを、Experience
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=ja).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 
