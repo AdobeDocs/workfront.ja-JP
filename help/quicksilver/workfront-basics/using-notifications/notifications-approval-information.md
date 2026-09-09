@@ -9,14 +9,12 @@ exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 97%
+source-wordcount: 706
+ht-degree: 93%
 
 ---
 
@@ -69,7 +67,7 @@ ht-degree: 97%
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分のタイムシートが承認されました</strong> </p> <p>自分のタイムシートが承認されると、メール通知が届きます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Timesheet Approved]：&lt;Timesheet Start Date&gt; - &lt;Timesheet End Date&gt;</em></p> <p> <p>メモ：この通知を日刊ダイジェストメールに設定することはできません。</p> </p> </td> 
+   <td> <p><strong>自分のタイムシートが承認されました</strong> </p> <p>自分のタイムシートが承認されると、メール通知が届きます。</p> <p>インスタント通知メールの件名：<em>[!UICONTROL Timesheet Approved]：&lt;Timesheet Start Date&gt; - &lt;Timesheet End Date&gt;</em></p> <p> <p>メモ：この通知を日刊ダイジェストメールに設定することはできません。</p> </p> <p> <p>注意：この通知を受け取るには、標準ライセンスが必要です。 ライトライセンス以下のユーザーは、タイムシートが有効になっている場合でも、タイムシート承認メール通知を受け取りません。</p> </p> </td> 
    <td> タイムシートを承認したユーザー名<br>タイムシートが承認された日時<br>タイムシートのステータス（[!UICONTROL Approved]）<br>タイムシートの開始日と終了日<br>タイムシートに記録された合計時間数<br>タイムシートに記録された超過時間数 </td> 
    <td><strong>即時</strong> </td> 
   </tr> 
