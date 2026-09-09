@@ -9,19 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 TQID: https://experienceleague.adobe.com/KwUrEyHt6dqTcmP3JrTObsfvkcjP9q7O6-msiBuZVP4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: 646
+source-wordcount: 645
 ht-degree: 36%
 
 ---
@@ -78,7 +72,7 @@ Adobe Workfrontには、計画段階でプロジェクトに関連付けて、�
 
 リスクタイプとは、レポート用にリスクを分類するために使用できるラベルです。
 
-[!DNL Workfront]管理者は、[!UICONTROL **セットアップ**]&#x200B;領域で[!UICONTROL &#x200B; リスクタイプ &#x200B;]を作成できます。
+[!DNL Workfront]管理者は、[!UICONTROL **セットアップ**]&#x200B;領域で[!UICONTROL  リスクタイプ ]を作成できます。
 
 リスクタイプを設定した後は、システムに対して共通です。
 
@@ -104,7 +98,7 @@ Workfront インスタンスのリスクタイプの数を増やすには、次�
 
    「[!UICONTROL **リスクタイプを編集**]」ボックスが開きます。
 
-   ![&#x200B; リスクタイプボックスの編集](assets/edit-risk-type-box.png)
+   ![ リスクタイプボックスの編集](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
@@ -120,25 +114,30 @@ Workfront インスタンスのリスクタイプの数を増やすには、次�
 
 1. （オプション）リスクタイプのリストを書き出すには、[!UICONTROL **書き出し**] アイコンをクリックします。 次のファイルタイプに書き出すことができます。
 
-   * 実稼動環境では、次の操作を行います。
+   <!--* In the Production environment:-->
 
-     * PDF
-     * Excel
-     * Excel（xlsx）
-     * タブ区切り
-     * CSV
+   * PDF
+   * Excel
+   * Excel（xlsx）
+   * タブ区切り
+   * CSV
 
-   <div class="preview">
+   <!--
+    PM confirmed that these lists should be the same: https://workfront.slack.com/archives/C05DPT67BD3/p1788465805975249?thread_ts=1788436678.273019&cid=C05DPT67BD3 
+    <div class="preview">
 
-   * プレビュー環境では、次の操作を行います。
+    * In the Preview environment: 
 
-     * CSV
-     * XLSX
-   </div>
+      * CSV
+      * XLSX 
+    </div>
+    -->
 
    >[!TIP]
    >
-   >   実稼動環境では、最初に限られた数のリスクタイプを選択し、それをより小さいリスト用に書き出すことができます。<!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
+   >   実稼動環境では、最初に限られた数のリスクタイプを選択し、それをより小さいリスト用に書き出すことができます。
+   >
+   > <span class="preview">この機能はプレビュー環境から削除されました。</span> <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### リスクタイプの作成 {#create-risk-types}
 
@@ -156,7 +155,7 @@ Workfront インスタンスのリスクタイプの数を増やすには、次�
 
    「**新しいリスクの種類**」ボックスが開きます。
 
-   ![新しいリスク タイプ ボックス &#x200B;](assets/new-risk-type-box.png)
+   ![新しいリスク タイプ ボックス ](assets/new-risk-type-box.png)
 
 1. リスクの種類に「**[!UICONTROL 名前]**」（必須）と「**[!UICONTROL 説明]**」（オプション）を追加します。
 
