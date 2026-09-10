@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 862924a86a71d982098dff8143cb047cdb301806
 workflow-type: tm+mt
-source-wordcount: 1733
+source-wordcount: 1751
 ht-degree: 88%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 88%
    <td>Adobe Workfront ライセンス
    </td>
    <td>標準
-   <p>計画</p>
+   <p>プラン</p>
    </td>
   </tr>
   </tr>
@@ -105,7 +105,7 @@ ht-degree: 88%
 
 {{step-1-to-setup}}
 
-1. 左のパネルで、「**[!UICONTROL ドキュメント]**」をクリックし、「**[!UICONTROL [!DNL Experience Manager]統合]**」を選択します。
+1. 左側のパネルで「**[!UICONTROL ドキュメント]**」を選択し、「**[!UICONTROL [!DNL Experience Manager]Assets]**」を選択します。
 
    >[!NOTE]
    >
@@ -114,7 +114,7 @@ ht-degree: 88%
 1. 「**[!UICONTROL [!DNL Experience Manager] 統合を追加]**」を選択します。
 1. 「**[!UICONTROL 名前]**」フィールドに、Workfront と Experience Manager Assets でこの統合を操作する際にユーザーに表示する名前を入力します。
 1. 「**[!UICONTROL ナビゲーション URL]**」フィールドには、ナビゲーション URL がシステムによって自動的に入力されます。 この読み取り専用 URL は、クイックアクセスの[!UICONTROL メインメニュー]からお使いの組織の [!DNL Experience Manager] にリンクするために使用されます。
-1. 「**[!UICONTROL [!DNL Experience Manager]Assets リポジトリ]**」ドロップダウンメニューからリポジトリを選択します。ユーザープロファイルが割り当てられている組織IDに関連付けられている[!DNL Experience Manager] リポジトリが自動的に入力されます。
+1. **[!UICONTROL [!DNL Experience Manager]Assets リポジトリ]**&#x200B;ドロップダウンメニューからリポジトリを選択します。 システムでは自動的にお使いのユーザープロファイルが割り当てられる組織 ID に関連する [!DNL Experience Manager] リポジトリが入力されます。
    ![experience manager リポジトリを選択](assets/setup-information.png)
 
 1. 「**[!UICONTROL 保存]**」をクリック、または、この記事の[メタデータの設定（オプション）](#set-up-metadata-optional)の節へ移動してください。

@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: 646
+source-wordcount: 645
 ht-degree: 36%
 
 ---
@@ -120,25 +120,30 @@ Workfront インスタンスのリスクタイプの数を増やすには、次�
 
 1. （オプション）リスクタイプのリストを書き出すには、[!UICONTROL **書き出し**] アイコンをクリックします。 次のファイルタイプに書き出すことができます。
 
-   * 実稼動環境では、次の操作を行います。
+   <!--* In the Production environment:-->
 
-     * PDF
-     * Excel
-     * Excel（xlsx）
-     * タブ区切り
-     * CSV
+   * PDF
+   * Excel
+   * Excel（xlsx）
+   * タブ区切り
+   * CSV
 
-   <div class="preview">
+   <!--
+    PM confirmed that these lists should be the same: https://workfront.slack.com/archives/C05DPT67BD3/p1788465805975249?thread_ts=1788436678.273019&cid=C05DPT67BD3 
+    <div class="preview">
 
-   * プレビュー環境では、次の操作を行います。
+    * In the Preview environment: 
 
-     * CSV
-     * XLSX
-   </div>
+      * CSV
+      * XLSX 
+    </div>
+    -->
 
    >[!TIP]
    >
-   >   実稼動環境では、最初に限られた数のリスクタイプを選択し、それをより小さいリスト用に書き出すことができます。<!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
+   >   実稼動環境では、最初に限られた数のリスクタイプを選択し、それをより小さいリスト用に書き出すことができます。
+   >
+   > <span class="preview">この機能はプレビュー環境から削除されました。</span> <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### リスクタイプの作成 {#create-risk-types}
 

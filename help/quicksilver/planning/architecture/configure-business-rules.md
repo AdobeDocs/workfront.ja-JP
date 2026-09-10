@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1166'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 Adobe Workfront Planningのレコードタイプのビジネスルールを設定して、そのタイプのレコードに対するアクションが許可または禁止される前に、特定のフィールドが必要であることを示すことができます。
 
-ルールの作成方法に応じて、定義されたビジネスルールが満たされている場合は、レコードに対して次のアクションを許可できます。
+ルールの作成方法に応じて、定義されたビジネスルールが満たされている場合は、レコードに対して次のアクションを許可または禁止できます。
 
 * レコードを編集する/編集しない
 * レコードを削除するか、削除しない

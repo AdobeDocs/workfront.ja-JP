@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 689
-ht-degree: 49%
+source-wordcount: 728
+ht-degree: 47%
 
 ---
 
@@ -80,6 +80,7 @@ ht-degree: 49%
 
 * Workfront管理者は、ユーザーに対するタイムシートの承認と、ユーザーイベントハンドラーに対するタイムシートの拒否を有効にしました。 イベント通知の有効化について詳しくは、[&#x200B; イベント通知タイプ &#x200B;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
 * 「自分のタイムシートが承認済み」の個人通知は、ユーザーのプロファイルページで有効になっています。 詳しくは、[自身のメール通知の変更](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
+* タイムシートを送信したユーザーには、標準ライセンスがあります。 ライトライセンス以下のユーザーは、自分のプロファイルで「自分のタイムシートが承認済み」個人通知が有効になっている場合でも、タイムシート承認電子メール通知を受け取りません。
 
 ### タイムシート領域からタイムシートを承認する
 
