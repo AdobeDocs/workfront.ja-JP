@@ -6,7 +6,7 @@ description: 従来のWorkfront Proofing上に構築されたWorkfront Fusion �
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: a3ef3b4ea00298e23ebc8b6196c951417e75eebe
+source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
@@ -18,12 +18,6 @@ ht-degree: 1%
 従来のWorkfront プルーフで構築されたWorkfront Fusion シナリオは、Adobe クラウドストレージプロジェクトに対して自動的に機能しません。 プルーフ固有のモジュール、Webhook、およびAPI エンドポイントには、直接同等の場合と大幅な変更がある場合があります。 この記事では、影響を受けるシナリオのインベントリを作成し、それらのシナリオに依存するチームをAdobe クラウドストレージのロールアウトに導入する前に、修復パスを決定する方法を説明します。
 
 従来のWorkfront プロジェクトにスコープ付けされたシナリオは、現在と同じように機能し続けます。 この記事で説明する修復作業は、Adobe クラウドストレージプロジェクトに対して実行するシナリオに適用されます。
-
->[!IMPORTANT]
->
->Adobe Workfront Unified Review and Approvals コネクタがWorkfront Fusionで使用できるようになりました。 Adobe クラウドストレージでFusionを使用する場合は、このコネクタを使用して、より簡単で信頼性の高いシナリオを実現することをお勧めします。
->
->詳しくは、Workfront Fusion ドキュメントの[Adobe Workfront Unified Review and Approvals modules](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)を参照してください。
 
 この記事では、シナリオをインベントリおよび分類して、Adobe クラウドストレージを考慮するようにFusion シナリオをアップグレードする最適な方法を理解します。
 
@@ -55,6 +49,12 @@ Workfront Proof上に構築された既存のFusion シナリオは、統一さ�
 各シナリオを特定のビジネスロジックと比較して見直し、分類を決定します。
 
 ## 修復アプローチ
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Unified Review and Approvals コネクタがWorkfront Fusionで使用できるようになりました。 Adobe クラウドストレージでFusionを使用する場合は、このコネクタを使用して、より簡単で信頼性の高いシナリオを実現することをお勧めします。
+>
+>詳しくは、Workfront Fusion ドキュメントの[Adobe Workfront Unified Review and Approvals modules](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)を参照してください。
 
 Fusionの修正を計画および実行するには、次のアプローチを使用します。
 

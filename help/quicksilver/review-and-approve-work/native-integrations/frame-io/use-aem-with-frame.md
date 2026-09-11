@@ -24,10 +24,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+source-git-commit: 840211ef726bb638f75158d95f751c5833cc22bb
 workflow-type: tm+mt
-source-wordcount: 2112
-ht-degree: 58%
+source-wordcount: 2166
+ht-degree: 56%
 
 ---
 
@@ -301,12 +301,10 @@ Workfront から Experience Manager Assets または Assets Essentials にユー
          <td><strong> レンディションにDynamic Media修飾子を適用します。</strong> 修飾子を追加してアセットレンディションをリアルタイムで変換し、結果をプレビューしてから、ホストアプリケーションのレンディションを選択します。</td>
          <td>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">使用できるDynamic Media アセットのレンディション </a>を参照してください。</td>
       </tr>
-      <!--
       <tr>
-         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
-         <td>For more information, see <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+         <td><strong> コンテンツフラグメントを検索して参照します。</strong> コンテンツフラグメントを検索し、ライブサムネールプレビューを表示し、ステータス（ドラフト、変更、公開）を確認し、詳細なプロパティ、参照、バリエーションを検査します。</td>
+         <td>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor"> コンテンツフラグメントの検出</a>を参照してください。</td>
       </tr>
-      -->
       <tr>
          <td><strong> アセットのメタデータにアクセスします。</strong> Assetsのビューと一致するタイトル、説明、フォーマット、サイズ、その他のメタデータタブ（商品、キャンペーン、タグ）などのアセットのプロパティを確認できます。</td>
          <td>詳しくは、「<a href="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Assets ビューと一致したアセットメタデータへのアクセス </a>」を参照してください。</td>
