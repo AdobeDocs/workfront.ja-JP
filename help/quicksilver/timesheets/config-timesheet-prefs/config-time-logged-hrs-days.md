@@ -7,11 +7,18 @@ author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
 TQID: https://experienceleague.adobe.com/2rLb--26SLkI7t0tpdShzxdVxhCLJEdzWYGBO8DOJSE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
 workflow-type: tm+mt
 source-wordcount: 434
@@ -62,11 +69,11 @@ ht-degree: 76%
 
    * **標準ユーザーまたはプラン ユーザーが自分の時間ログを設定しています：**&#x200B;上部のナビゲーション領域でプロフィール画像をクリックし、**[!UICONTROL Workfront プロフィール]**&#x200B;をクリックします。 次に、名前の横にある&#x200B;**その他**&#x200B;アイコンをクリックし、「**編集**」を選択します。
 
-   * **システム管理者が他のユーザー用に時間の記録方法を設定：**[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)の説明に従って、1 つ以上のユーザーアカウントの編集を開始します。
+   * **システム管理者が他のユーザー用に時間の記録方法を設定：**&#x200B;[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)の説明に従って、1 つ以上のユーザーアカウントの編集を開始します。
 
 1. ユーザープロファイルダイアログボックスの「**リソース計画**」セクションで、「**時間を**&#x200B;に記録」オプションを見つけます。
 
-   ![ オプションに時間を記録](assets/user-profile-log-time-options.png)
+   ![&#x200B; オプションに時間を記録](assets/user-profile-log-time-options.png)
 
 1. 時間の記録に関する次のオプションから選択します。
 
@@ -80,6 +87,6 @@ ht-degree: 76%
    この設定を指定する際は、次の点を考慮してください。
 
    * このオプションは、時間を時間数で記録するように設定する場合は使用できません。
-   * このオプションは、時間を記録する目的でのみ使用されます。 このオプションは、ユーザーを編集するときにも使用できる「**スケジュール**」オプションとは関係ありません。 「**スケジュール**」オプションは、タイムラインの計算時や、Workfront の他のエリアで使用されます。 **スケジュール** オプションの使用について詳しくは、[ スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
+   * このオプションは、時間を記録する目的でのみ使用されます。 このオプションは、ユーザーを編集するときにも使用できる「**スケジュール**」オプションとは関係ありません。 「**スケジュール**」オプションは、タイムラインの計算時や、Workfront の他のエリアで使用されます。 **スケジュール** オプションの使用について詳しくは、[&#x200B; スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
 
 1. 「**変更を保存**」をクリックします。
