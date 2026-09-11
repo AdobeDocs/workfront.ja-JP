@@ -99,7 +99,7 @@ are there additional license restrictions or packages to be purchased to have ac
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -107,7 +107,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. Workfront Planningで開始し、アイデア創出スペースを使用してレコードを作成または編集します。
 
-   詳しくは、[ アイデア創出スペース概要からのプランニングレコードの作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)を参照してください。
+   詳しくは、[&#x200B; アイデア創出スペース概要からのプランニングレコードの作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)を参照してください。
 1. **アイデア創出スペース**&#x200B;が開いたら、指定されたプロンプトを使用して、作成する概要の種類を説明します。
 
    例えば、「米国の保護者と教師のために、8月の月を通して実行する小中高校向けの新学期キャンペーンを作成する」と入力します。  ブリーフを完成させるには、どのようなキャンペーン、タイムライン、関係者など、利用可能な情報をできるだけ多く示してください。
@@ -125,7 +125,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
         >[!TIP]
         >
         >AIがWeb上の情報を検索できるようにするには、Web検索設定をオンにする必要があります。\
-        >詳しくは、この記事の「[ アイデア創出スペースの設定](#configure-the-ideation-space)」の節を参照してください。
+        >詳しくは、この記事の「[&#x200B; アイデア創出スペースの設定](#configure-the-ideation-space)」の節を参照してください。
         >
    1. **オーディエンス定義**：過去のパターンに基づいてターゲットオーディエンスのパラメーターを特定または推奨します
    1. **戦略の構図**: キャンペーンの戦略的なストーリーを構築します
@@ -166,12 +166,12 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    例えば、タイムラインは日付型フィールドに追加され、説明は段落型フィールドに追加されます。
    1. （条件付き）カードをクリックし、「**AIに質問…**」をクリックして、情報を概要に追加する前に、次のステップのアイデアを得ます。 答えは、各カードの情報のコンテキストにあります。
-   1. アイデア出しスペースの左上隅にある「**ドキュメントを追加**」アイコン「![ ドキュメントを追加」アイコン「](assets/add-documents-in-ideation-space.png)」をクリックして、ドキュメントをスペースにアップロードします。 以前にスペースに追加した新しいドキュメントまたはドキュメントを追加できます。
+   1. アイデア出しスペースの左上隅にある「**ドキュメントを追加**」アイコン「![&#x200B; ドキュメントを追加」アイコン「](assets/add-documents-in-ideation-space.png)」をクリックして、ドキュメントをスペースにアップロードします。 以前にスペースに追加した新しいドキュメントまたはドキュメントを追加できます。
 
       >[!TIP]
       >
       >ドキュメントにアクセスしてスペースにアップロードするには、「ドキュメント」設定をオンにする必要があります。
-      >詳しくは、この記事の「[ アイデア創出スペースの設定](#configure-the-ideation-space)」の節を参照してください。
+      >詳しくは、この記事の「[&#x200B; アイデア創出スペースの設定](#configure-the-ideation-space)」の節を参照してください。
       > 
    1. **WF タクソノミーカードを追加** アイコン ![Workfront計画から追加](assets/add-from-wf-planning-on-ideations-space.png) <!--send this tooltip to be revised-->をクリックし、接続されたレコードタイプを選択してから、各タイプのレコードを選択して、選択したレコードタイプにそのレコードの情報を追加します。
 
@@ -193,9 +193,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. （オプション）任意のアイデア出しカードセットから紫色のコネクタのいずれかをクリックし、「**コピーしてプロンプトバー**」アイコンをクリックして、アイデア出しの理由を再実行します。
 
-   ![ プロンプトバーアイコンにコピー](assets/copy-to-prompt-bar-icon-highlighted.png)
+   ![&#x200B; プロンプトバーアイコンにコピー](assets/copy-to-prompt-bar-icon-highlighted.png)
 
-1. （オプション）ページ上部の&#x200B;**取り消し**&#x200B;または&#x200B;**やり直し** アイコン ![取り消しとやり直しアイコン ](assets/undo-redo-icons.png)をクリックして、アクションをキャンセルまたは取り消します。
+1. （オプション）ページ上部の&#x200B;**取り消し**&#x200B;または&#x200B;**やり直し** アイコン ![取り消しとやり直しアイコン &#x200B;](assets/undo-redo-icons.png)をクリックして、アクションをキャンセルまたは取り消します。
 1. 元のキャンペーン目標、AIが生成した引用を含むあらゆるコンセプトカード、追加のドキュメント、取り込んだ実際のWorkfrontプランニングレコード（商品、ペルソナなど）の全体像を確認できます。 左下隅の&#x200B;**概要**&#x200B;概要カードを使用すると、すべての概要をまとめて表示できます。
 
 1. 左下隅にある概要プレビュー画像をクリックして概要を確認し、次のいずれかのオプションをクリックします。
@@ -209,7 +209,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    これにより、追加情報を含むレコードの作成が完了し、最初に選択したレコードタイプに追加されます。
 
-   ブリーフを使用してプランニングレコードを更新する方法について詳しくは、記事[ アイデア出しスペースブリーフからプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)の「アイデア出しスペースを使用してレコードを作成する場合の考慮事項」の節を参照してください。
+   ブリーフを使用してプランニングレコードを更新する方法について詳しくは、記事[&#x200B; アイデア出しスペースブリーフからプランニングレコードを作成](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)の「アイデア出しスペースを使用してレコードを作成する場合の考慮事項」の節を参照してください。
 
 
 ## アイデア創出スペースの設定
@@ -224,7 +224,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. 「**保存**」をクリックします。
 
-1. **ヘルプ** アイコン ![ ヘルプアイコン ](assets/more-information-icon.png)をクリックして、アイデア出しスペースのナビゲーションに使用できるキーボードショートカットを確認するか、別のズーム値を選択します。
+1. **ヘルプ** アイコン ![&#x200B; ヘルプアイコン &#x200B;](assets/more-information-icon.png)をクリックして、アイデア出しスペースのナビゲーションに使用できるキーボードショートカットを確認するか、別のズーム値を選択します。
 
    次のズームレベルから選択します。
 

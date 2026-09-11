@@ -109,7 +109,7 @@ are there additional license restrictions or packages to be purchased to have ac
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)のアクセス要件を参照してください。
 
 +++  
 
@@ -145,7 +145,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      >
      >「**表示しない**」を選択すると、今後のプロンプトが完全に閉じられます。 閉じるアイコン **X**&#x200B;をクリックすると、このボックスは閉じますが、次回レコードをインラインに追加すると再度表示されます。
 
-   ![ アイデア創出スペースを開くボタンを含む新しいレコードボックス ](assets/new-record-creation-picker-with-ideation.png)
+   ![&#x200B; アイデア創出スペースを開くボタンを含む新しいレコードボックス &#x200B;](assets/new-record-creation-picker-with-ideation.png)
 
    アイデア創出スペースが新しいタブで開き、空のプロンプトが表示されます。
 
@@ -153,7 +153,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. （オプション）プロンプトボックスの「**既存の概要を使用**」をクリックして、アイデア創出スペースで概要と今後のレコードの作成に使用する既存の文書を参照して追加します。
 
-   ![ アイデアの概要プロンプトが空です](assets/empty-ideation-prompt.png)
+   ![&#x200B; アイデアの概要プロンプトが空です](assets/empty-ideation-prompt.png)
 
 1. （オプション）プロンプトボックスの右上隅にある「**前のキャンバスを開く** <!--accurate??-->」アイコン「![既存のブリーフを開く](assets/open-existing-briefs-icon.png)」をクリックして、既存のブリーフを開きます
 
@@ -181,7 +181,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    * アイデア創出スペースの左下隅にある&#x200B;**概要** ファイル。 概要は、今後のレコードのドラフトであり、レコードの詳細ページとして表示されます。
 
-   ![分岐を含むアイデア創出カード ](assets/ideation-card-with-branched-off-additional-cards.png)
+   ![分岐を含むアイデア創出カード &#x200B;](assets/ideation-card-with-branched-off-additional-cards.png)
 
 1. アイデア創出スペースに引き続き情報を追加して、ブリーフの作成を完了します。
 
@@ -190,7 +190,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    * **ファイルに書き出し**：ファイルを作成
    * **Workfront Planning**&#x200B;に書き出して、プランニング レコードを作成します
 
-   ブリーフへのアイテムの追加とエクスポートについて詳しくは、[ アイデア創出スペースでのブリーフの作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)を参照してください。
+   ブリーフへのアイテムの追加とエクスポートについて詳しくは、[&#x200B; アイデア創出スペースでのブリーフの作成](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)を参照してください。
 
    これにより、追加情報を含むレコードの作成が完了し、最初に選択したレコードタイプに追加されます。
 
@@ -218,7 +218,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
 
-1. この記事の「[ アイデア創出スペース ](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
+1. この記事の「[&#x200B; アイデア創出スペース &#x200B;](#create-records-using-the-ideation-space)」の節で説明しているように、引き続き概要を編集します。
 
 
 

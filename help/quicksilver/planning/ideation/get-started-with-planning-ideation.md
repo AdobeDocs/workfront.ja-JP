@@ -59,7 +59,7 @@ Workfront Planningからのみアクセスできるアイデア創出スペー�
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
 
-アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[ アイデア出しスペースを使用するために必要なアクセス ](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
+アイデア出しスペースを使用するために必要なアクセスについて詳しくは、「[&#x200B; アイデア出しスペースを使用するために必要なアクセス &#x200B;](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)」を参照してください。
 
 上記の要件に加えて、Closed Beta プログラムに参加するには、次の条件を満たす必要があります。
 
