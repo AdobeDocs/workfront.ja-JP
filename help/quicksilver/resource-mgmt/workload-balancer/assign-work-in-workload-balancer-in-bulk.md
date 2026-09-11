@@ -7,19 +7,12 @@ author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
 workflow-type: tm+mt
 source-wordcount: 1229
 ht-degree: 56%
@@ -32,7 +25,7 @@ ht-degree: 56%
 
 Adobe Workfront Workload Balancerを使用して、複数のタスクやイシューにリソースを一括で割り当てることができます。
 
-ワークロードバランサーを使用してユーザーおよびタスクコラボレーターに作業を割り当てる方法について詳しくは、[&#x200B; ワークロードバランサーでの作業の割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
+ワークロードバランサーを使用してユーザーおよびタスクコラボレーターに作業を割り当てる方法について詳しくは、[ ワークロードバランサーでの作業の割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
 
 ## アクセス要件
 
@@ -117,13 +110,13 @@ Adobe Workfront Workload Balancerを使用して、複数のタスクやイシ�
    >
    >完了ステータスのタスクは選択できません。
 
-   ![一括割り当て中のタスクのステータス &#x200B;](assets/task-name-status-dropdown-bulk-assignments-wb.png)
+   ![一括割り当て中のタスクのステータス ](assets/task-name-status-dropdown-bulk-assignments-wb.png)
 
    >[!TIP]
    >
    >イシューやタスクの一括割り当てを行う場合は、この選択を空白のままにします。
 
-1. （オプション）選択した条件の1つの横にある&#x200B;**削除** アイコン ![削除アイコン &#x200B;](assets/delete.png)をクリックします
+1. （オプション）選択した条件の1つの横にある&#x200B;**削除** アイコン ![削除アイコン ](assets/delete.png)をクリックします
 
    または
 
@@ -131,7 +124,7 @@ Adobe Workfront Workload Balancerを使用して、複数のタスクやイシ�
 
 1. 次のいずれかのオプションを選択し、下記の手順に進みます。
 
-   * [&#x200B; リソースの割り当て](#replace-user)
+   * [ リソースの割り当て](#replace-user)
    * [リソースを割り当て解除](#unassign-user)
 
    >[!TIP]
@@ -158,7 +151,7 @@ To assign a user to work items previously assigned to job roles:
 
 1. In the **Role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
 
-   ![Role assignment](assets/bulk-assignments-workload-balancer-assign-selected.png)
+   IMAGE
 
 1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user's name.
 
@@ -185,7 +178,7 @@ To assign a user to work items previously assigned to job roles:
 
    You receive a confirmation about how many work items have had the selected role replaced with the selected user.
 
-   ![Bulk assignment confirmation](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   IMAGE
 
 -->
 
@@ -211,7 +204,7 @@ To assign a user to work items previously assigned to job roles:
 1. 前述のように、ワークロードバランサーの一括割り当て領域で作業項目を選択し、**リソースの割り当て**&#x200B;を選択します。
 1. 「**現在割り当て済みリソース**」フィールドで、ドロップダウン矢印をクリックして、リソースのリストから選択します。 指定したプロジェクト内の未完了の作業項目に現在割り当てられているリソースのみが表示されます。 必須フィールドです。
 
-   ![&#x200B; リソースを置換](assets/bulk-assignments-workload-balancer-replace-selected.png)
+   ![ リソースを置換](assets/bulk-assignments-workload-balancer-replace-selected.png)
 
 1. 「**割り当てるリソース**」フィールドで、ドロップダウン矢印をクリックして、提案されたリソースのリストから選択するか、別の担当業務またはユーザー名を入力します。 最初にデフォルトでリストされたリソースは、スマート割り当ての基準と一致します。 詳しくは、[スマート割り当ての概要](../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
@@ -241,13 +234,10 @@ To assign a user to work items previously assigned to job roles:
 
 1. 「**割り当て解除するユーザー**」フィールドで、ドロップダウン矢印をクリックして、ユーザーのリストから選択します。 指定したプロジェクト内で未完了の作業アイテムに現在割り当てられているユーザーのみが表示されます。 必須フィールドです。
 
-   ![&#x200B; ユーザーの割り当てを解除](assets/bulk-assignments-workload-balancer-unassign-selected.png)
+   ![ ユーザーの割り当てを解除](assets/bulk-assignments-workload-balancer-unassign-selected.png)
 
    Workfront に、現在割り当てられているユーザーが割り当て解除される項目の数に関するメモが表示されます。
 
 1. 「**割り当て解除**」をクリックします。\
    確認には、指定したユーザーが削除された作業項目の数が表示されます。
-
-
-
 
