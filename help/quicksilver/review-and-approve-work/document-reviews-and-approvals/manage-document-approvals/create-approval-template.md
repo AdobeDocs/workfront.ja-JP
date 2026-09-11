@@ -9,18 +9,12 @@ exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jsEcIKopi-lJOSXQitDnufu3j0AmkWkPmCXtCR0V6nk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3eb7b5e0cca5245bc2fe8a733dcfd9a89c56d49f
 workflow-type: tm+mt
 source-wordcount: 800
 ht-degree: 12%
@@ -74,6 +68,9 @@ Workfrontの設定領域で、標準ライセンスを持つユーザーは、�
 1. ページの右側で「**新規テンプレート**」をクリックします。
 
 1. **テンプレート名**&#x200B;を追加します。
+<!--
+This field has a character limit of 255.
+-->
 
 1. パス 1のステージ 1の詳細を入力：
 
@@ -105,7 +102,7 @@ Workfrontの設定領域で、標準ライセンスを持つユーザーは、�
    </tr>
    </table>
 
-   ![&#x200B; ステージを追加](assets/add-stage.png)
+   ![ ステージを追加](assets/add-stage.png)
 
 <!-- screen for preview
     ![add a stage](assets/add-stage-v2.png)
