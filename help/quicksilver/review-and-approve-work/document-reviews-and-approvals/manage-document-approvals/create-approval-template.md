@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
+source-git-commit: 3eb7b5e0cca5245bc2fe8a733dcfd9a89c56d49f
 workflow-type: tm+mt
 source-wordcount: 800
 ht-degree: 12%
@@ -74,6 +74,9 @@ Workfrontの設定領域で、標準ライセンスを持つユーザーは、�
 1. ページの右側で「**新規テンプレート**」をクリックします。
 
 1. **テンプレート名**&#x200B;を追加します。
+<!--
+This field has a character limit of 255.
+-->
 
 1. パス 1のステージ 1の詳細を入力：
 

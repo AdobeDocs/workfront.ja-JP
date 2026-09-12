@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
+source-git-commit: 2ee576fa6d039bdbc4dcbf8bc27e4276790b0621
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1196'
 ht-degree: 5%
 
 ---
@@ -130,14 +130,19 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
       IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
+   >[!TIP]
+   >
+   >接続されたフィールドをビジネスルールに追加できますが、フィールド値ではなく配列を探しているステートメントを使用するように注意してください。 例えば、`ISBLANK`の代わりに`ARRAYLENGTH(field)=0`を使用します。
+
+
+   フィールドまたは式が正しくない場合は、**式** フィールドにインジケーターがあります。 <!--add screen shot?-->
+
    >[!IMPORTANT]
    >
    >ユーザーがレコードで実行しようとしているアクションが許可されていない場合を簡単に理解できるように、ルール式に次の情報を含めることを強くお勧めします。
    >
    >* ルールが設定されている正確なフィールド。
    >* ルールが満たされない場合の正確な結果。
-
-   フィールドまたは式が正しくない場合は、**式** フィールドにインジケーターがあります。 <!--add screen shot?-->
 
    ビジネス ルールの&#x200B;**Then** セクションでは、ルールの機能の説明を表示できます。
 

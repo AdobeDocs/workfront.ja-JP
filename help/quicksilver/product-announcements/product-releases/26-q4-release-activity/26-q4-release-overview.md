@@ -4,9 +4,9 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 807bafbd65f6f73593b0bb11345eb70cc763935c
+source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
 workflow-type: tm+mt
-source-wordcount: '2906'
+source-wordcount: '2905'
 ht-degree: 8%
 
 ---
@@ -191,7 +191,7 @@ ht-degree: 8%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX CoworkerがWorkfrontで利用可能になりました</a>
-                <p>CX Coworkerは、現在のAI アシスタントに代わって、WorkfrontやコネクテッドAdobeシステムで作業を完了するための新しい会話型インターフェイスです。</p>
+                <p>CX Coworkerは、現在のAI アシスタントに代わり、WorkfrontやコネクテッドAdobeシステムで作業を完了するための新しい会話型インターフェイスです。</p>
             </td>
             <td><p>2026年9月3日（PT）</p></td>
             <td><p>2026年9月17日（PT）</p></td>
@@ -277,10 +277,10 @@ ht-degree: 8%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Workfrontでのコメントの表示</a>
+                Workfrontでの<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame.io コメントの表示</a>
                 <p>Workfrontのコメントパネルで、新しいコメントがFrame.io ビューアで使用できるようになりました。</p>
             </td>
-            <td><p>2026年9月3日（PT）</p></td>
+            <td><p>該当なし</p></td>
             <td><p>2026年9月17日（PT）</p></td>
             <td><p>2026年10月15日（PT）</p></td>
         </tr>

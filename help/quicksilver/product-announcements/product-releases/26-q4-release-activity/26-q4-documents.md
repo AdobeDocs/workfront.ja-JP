@@ -4,9 +4,9 @@ description: 2026年第4四半期ドキュメントの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
+source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1333'
 ht-degree: 3%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 3%
 
 詳しくは、[承認テンプレートの管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)を参照してください。
 
-## Workfrontでのフレームコメントの表示
+## WorkfrontでのFrame.io コメントの表示
 
 >[!NOTE]
 >
->プレビュー：2026年9月3日（PT）
+>プレビュー：該当なし
 >プロダクション高速リリース：2026年9月17日（PT）
 >すべての人のための制作：2026年10月15日
 
