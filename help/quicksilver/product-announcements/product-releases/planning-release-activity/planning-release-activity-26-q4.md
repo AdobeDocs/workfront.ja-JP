@@ -6,13 +6,11 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
+source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1773'
 ht-degree: 3%
-
 ---
-
 # Adobe Workfront Planningの2026年第4四半期のリリースアクティビティ
 
 ここでは、2026年第4四半期リリース中にWorkfront Planningでリリースされる機能について説明します。
@@ -76,7 +74,7 @@ Workfront管理者は、カスタム四半期に加えて、カスタム週を�
 
 詳しくは、[&#x200B; カスタム四半期を有効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
 
-## 依存する接続されたレコードフィールドのフィルター
+## 接続されたレコードフィールドのフィルター
 
 >[!NOTE]
 >
@@ -84,9 +82,9 @@ Workfront管理者は、カスタム四半期に加えて、カスタム週を�
 >プロダクション高速リリース：2026年9月17日（PT）
 >すべての人のための制作：2026年10月15日
 
-Planningで依存関係を追加する際に、フィルター条件を満たす特定のレコードタイプをフィルタリングできるようになりました。
+Planningで接続を追加するときに、フィルター条件を満たす特定のレコードタイプをフィルタリングできるようになりました。
 
-すべてのレコードタイプが依存する接続フィールドで使用できる代わりに、フィルタリング条件を満たすレコードタイプのみが表示されます。
+フィルター条件を満たすレコードのみが、接続されたフィールドにオプションとして表示されます。
 
 この機能では、レコードタイプを接続する際に、「新規接続」タブに新しいレコードフィルタリングルールオプションを追加しました。
 

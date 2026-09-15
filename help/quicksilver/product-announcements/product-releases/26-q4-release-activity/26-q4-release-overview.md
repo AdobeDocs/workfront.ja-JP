@@ -4,13 +4,11 @@ description: このページでは、2026年第4四半期リリースに含ま�
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2919'
 ht-degree: 8%
-
 ---
-
 # 2026年第4四半期リリースの概要
 
 このページでは、2026年10月に予定されている2026年第4四半期リリースに含まれる機能に関する情報を提供します。
@@ -76,6 +74,7 @@ ht-degree: 8%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> メインメニューでカスタムアプリケーションを並べ替え</a>
+                <p><strong> メモ：</strong>この機能は、2026年9月14日にプレビュー環境から一時的に削除されました。</p>
                 <p>レイアウトテンプレートのメインメニューで、カスタムアプリケーションを常に最後に表示するのではなく、再配置できるようになりました。</p>
             </td>
             <td><p>2026年9月3日（PT）</p></td>

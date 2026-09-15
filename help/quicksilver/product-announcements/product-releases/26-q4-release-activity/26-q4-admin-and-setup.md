@@ -4,13 +4,11 @@ description: 2026年第4四半期の管理者の機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1280'
 ht-degree: 1%
-
 ---
-
 # 2026年第4四半期の管理者の機能強化
 
 このページでは、2026年第4四半期リリースのプレビュー環境に対する管理者の機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
@@ -74,6 +72,8 @@ Adobe Admin Consoleを通じてWorkfrontでプロビジョニングされたユ�
 >プレビュー：2026年9月3日（PT）
 >プロダクション高速リリース：2026年9月17日（PT）
 >すべての人のための制作：2026年10月15日
+>
+>この機能は、2026年9月14日（PT）にプレビュー環境から一時的に削除されました。
 
 レイアウトテンプレートで作業する際に、デフォルトのWorkfront メニューオプションを使用して、カスタムアプリケーションを任意の順序に再配置できるようになりました。 これにより、各アプリケーションを最も関連性の高い場所に配置できます。
 
